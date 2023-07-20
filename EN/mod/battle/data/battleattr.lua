@@ -540,6 +540,78 @@ function slot0.SetAirFighterAttr(slot0, slot1)
 	slot2.crashDMG = slot1.crash_DMG
 end
 
+function slot0.SetFusionAttrFromElement(slot0, slot1, slot2, slot3)
+	slot5 = uv0.GetAttr(slot1).level
+	slot6 = slot0._attr or {}
+	slot0._attr = slot6
+	slot6.id = slot4.id
+	slot6.level = slot5
+	slot6.formulaLevel = slot5
+	slot6.battleUID = slot0:GetUniqueID()
+
+	for slot10, slot11 in ipairs(uv0.AttrListInheritance) do
+		slot6[slot11] = slot4[slot11]
+	end
+
+	for slot10, slot11 in pairs(slot4) do
+		if string.find(slot10, uv0.TAG_EHC_KEY) then
+			slot6[slot10] = slot11
+		end
+	end
+
+	for slot10, slot11 in pairs(slot4) do
+		if string.find(slot10, uv0.TAG_CRI_EHC_KEY) then
+			slot6[slot10] = slot11
+		end
+	end
+
+	slot7 = slot1:GetHP()
+
+	for slot11, slot12 in ipairs(slot2) do
+		slot7 = slot7 + slot12:GetHP()
+	end
+
+	slot6.maxHP = slot7
+	slot6.hpProvideRate = {}
+	slot11 = slot1
+	slot6.hpProvideRate[uv0.GetCurrent(slot1, "id")] = slot1.GetHP(slot11) / slot7
+
+	for slot11, slot12 in ipairs(slot2) do
+		slot6.hpProvideRate[uv0.GetCurrent(slot12, "id")] = slot12:GetHP() / slot7
+	end
+
+	function slot8(slot0)
+		uv1[slot0] = uv2.GetCurrent(uv3, slot0) * (uv0[slot0] or 1)
+	end
+
+	slot8("cannonPower")
+	slot8("torpedoPower")
+	slot8("antiAirPower")
+	slot8("antiSubPower")
+	slot8("baseAntiSubPower")
+	slot8("airPower")
+	slot8("loadSpeed")
+	slot8("attackRating")
+	slot8("dodgeRate")
+	slot8("luck")
+	slot8("velocity")
+	slot8("baseVelocity")
+
+	slot6.armorType = uv0.GetCurrent(slot1, "armorType")
+	slot6.aimBias = 0
+	slot6.aimBiasDecaySpeed = 0
+	slot6.aimBiasDecaySpeedRatio = 0
+	slot6.aimBiasExtraACC = 0
+	slot6.healingRate = 1
+	slot6.comboTag = "combo_" .. slot6.battleUID
+	slot6.labelTag = {}
+	slot6.barrageCounterMod = 1
+	slot6.TargetChoise = {}
+	slot6.guardian = {}
+
+	uv0.SetBaseAttr(slot0)
+end
+
 function slot0.FlashByBuff(slot0, slot1, slot2)
 	slot0._attr[slot1] = slot2 + (slot0._baseAttr[slot1] or 0)
 

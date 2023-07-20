@@ -8,6 +8,12 @@ function slot0.OnSendMiniGameOPDone(slot0)
 	slot0:updateCount()
 end
 
+function slot0.OnGetAwardDone(slot0)
+	if slot0.coinLayerVisible then
+		slot0:openCoinLayer(true)
+	end
+end
+
 function slot0.addListener(slot0)
 	uv0.super.addListener(slot0)
 

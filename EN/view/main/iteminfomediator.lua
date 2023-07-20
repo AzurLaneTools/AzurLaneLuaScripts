@@ -37,20 +37,10 @@ function slot0.register(slot0)
 				slot4 = uv0.viewComponent
 
 				slot4:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
-					if table.contains(ITEM_ID_FUDAIS, uv0) then
-						uv1:sendNotification(GAME.USE_FUDAI_ITEM, {
-							id = uv0,
-							count = uv2,
-							callback = function (slot0)
-								uv0:sendNotification(GAME.USE_ITEM_DONE, slot0)
-							end
-						})
-					else
-						uv1:sendNotification(GAME.USE_ITEM, {
-							id = uv0,
-							count = uv2
-						})
-					end
+					uv0:sendNotification(GAME.USE_ITEM, {
+						id = uv1,
+						count = uv2
+					})
 				end)
 			end)
 			slot0:bind(uv0.COMPOSE_ITEM, function (slot0, slot1, slot2)

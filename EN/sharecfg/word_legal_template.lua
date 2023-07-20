@@ -306,6 +306,21 @@ function temp()
 										}
 									}
 								}
+							},
+							s = {
+								s = {
+									[" "] = {
+										H = {
+											i = {
+												m = {
+													e = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					},
@@ -3261,6 +3276,15 @@ function temp()
 					e = {
 						u = {
 							s = {
+								this = true
+							}
+						}
+					}
+				},
+				[" "] = {
+					["2"] = {
+						n = {
+							d = {
 								this = true
 							}
 						}

@@ -1482,6 +1482,7 @@ pg.skill_data_display = setmetatable({
 		16770,
 		16780,
 		16781,
+		16782,
 		16792,
 		16831,
 		16832,
@@ -2256,6 +2257,24 @@ pg.skill_data_display = setmetatable({
 		108141,
 		108150,
 		108151,
+		108210,
+		108213,
+		108215,
+		108217,
+		108252,
+		108280,
+		108290,
+		108291,
+		108292,
+		108300,
+		108310,
+		108320,
+		108321,
+		108330,
+		108331,
+		108415,
+		108417,
+		108454,
 		109010,
 		109011,
 		109015,
@@ -2314,6 +2333,9 @@ pg.skill_data_display = setmetatable({
 		109242,
 		200026,
 		200203,
+		600031,
+		600034,
+		600036,
 		800010,
 		800020,
 		800021,
@@ -2476,6 +2498,7 @@ pg.skill_data_display = setmetatable({
 		800882,
 		800885,
 		800887,
+		800902,
 		902201,
 		1010140,
 		1010143,
@@ -2547,6 +2570,12 @@ pg.skill_data_display = setmetatable({
 		200459,
 		200461,
 		200463,
+		200487,
+		200497,
+		200500,
+		200512,
+		200513,
+		200519,
 		1011540,
 		1011541,
 		1090010,
@@ -8525,6 +8554,10 @@ pg.base.skill_data_display = {
 		id = 16781,
 		name = "Reborn Temple of Iron"
 	},
+	[16782] = {
+		id = 16782,
+		name = "Reborn Temple of Iron"
+	},
 	[16792] = {
 		id = 16792,
 		name = "Taihou-chan's Talisman of Hardening"
@@ -11621,6 +11654,78 @@ pg.base.skill_data_display = {
 		id = 108151,
 		name = "Take to the Skies"
 	},
+	[108210] = {
+		id = 108210,
+		name = "Grid Beam+"
+	},
+	[108213] = {
+		id = 108213,
+		name = "Max Grid Beam+"
+	},
+	[108215] = {
+		id = 108215,
+		name = "Grid Beam+"
+	},
+	[108217] = {
+		id = 108217,
+		name = "Twin Blaster Grid Beam+"
+	},
+	[108252] = {
+		id = 108252,
+		name = "Something Beam+"
+	},
+	[108280] = {
+		id = 108280,
+		name = "Sounderous Full Blast+"
+	},
+	[108290] = {
+		id = 108290,
+		name = "Hang in There!+"
+	},
+	[108291] = {
+		id = 108291,
+		name = "Hang in There!+"
+	},
+	[108292] = {
+		id = 108292,
+		name = "Hang in There!+"
+	},
+	[108300] = {
+		id = 108300,
+		name = "Sounderous Full Blast"
+	},
+	[108310] = {
+		id = 108310,
+		name = "Melodic Blaster"
+	},
+	[108320] = {
+		id = 108320,
+		name = "Hang in There!"
+	},
+	[108321] = {
+		id = 108321,
+		name = "Hang in There!"
+	},
+	[108330] = {
+		id = 108330,
+		name = "Promises, Love, and Expiration Dates"
+	},
+	[108331] = {
+		id = 108331,
+		name = "Promises, Love, and Expiration Dates"
+	},
+	[108415] = {
+		id = 108415,
+		name = "Primal Accepter"
+	},
+	[108417] = {
+		id = 108417,
+		name = "Primal Accepter"
+	},
+	[108454] = {
+		id = 108454,
+		name = "Dyna Wing"
+	},
 	[109010] = {
 		id = 109010,
 		name = "Shining Blast"
@@ -11852,6 +11957,18 @@ pg.base.skill_data_display = {
 	[200203] = {
 		id = 200203,
 		name = "Yesterday Once More"
+	},
+	[600031] = {
+		id = 600031,
+		name = "Song of the Stars"
+	},
+	[600034] = {
+		id = 600034,
+		name = "Song of the Stars"
+	},
+	[600036] = {
+		id = 600036,
+		name = "Song of the Stars"
 	},
 	[800010] = {
 		id = 800010,
@@ -12501,6 +12618,10 @@ pg.base.skill_data_display = {
 		id = 800887,
 		name = "Cinders of Hope - Algérie II"
 	},
+	[800902] = {
+		id = 800902,
+		name = "Guard Shift"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -12784,6 +12905,30 @@ pg.base.skill_data_display = {
 	[200463] = {
 		id = 200463,
 		name = "Pillar of Sin"
+	},
+	[200487] = {
+		id = 200487,
+		name = "Dynazenon"
+	},
+	[200497] = {
+		id = 200497,
+		name = "Gridman (Universe Fighter)"
+	},
+	[200500] = {
+		id = 200500,
+		name = "Alexis Kerib (New Order)"
+	},
+	[200512] = {
+		id = 200512,
+		name = "Mecha Support"
+	},
+	[200513] = {
+		id = 200513,
+		name = "Kaiju Support"
+	},
+	[200519] = {
+		id = 200519,
+		name = "Kaiju Battleship Sounderous"
 	},
 	[1011540] = {
 		id = 1011540,

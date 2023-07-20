@@ -1229,18 +1229,20 @@ end
 
 function slot0.wrapEliteFleet(slot0, slot1)
 	slot2 = {}
-	slot3 = _.flatten(slot0:getEliteFleetList()[slot1])
+	slot3 = slot1 > 2 and FleetType.Submarine or FleetType.Normal
+	slot4 = _.flatten(slot0:getEliteFleetList()[slot1])
 
-	for slot7, slot8 in pairs(slot0:getEliteFleetCommanders()[slot1]) do
+	for slot8, slot9 in pairs(slot0:getEliteFleetCommanders()[slot1]) do
 		table.insert(slot2, {
-			pos = slot7,
-			id = slot8
+			pos = slot8,
+			id = slot9
 		})
 	end
 
-	return Fleet.New({
-		id = 1,
-		ship_list = slot3,
+	return TypedFleet.New({
+		id = slot1,
+		fleetType = slot3,
+		ship_list = slot4,
 		commanders = slot2
 	})
 end

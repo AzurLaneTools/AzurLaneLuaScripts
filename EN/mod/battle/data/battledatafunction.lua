@@ -147,6 +147,12 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
+function slot3.getWeaponResource(slot0, slot1)
+	for slot6, slot7 in ipairs(uv0.Battle.BattleResourceManager.GetWeaponResource(slot0)) do
+		slot1[#slot1 + 1] = slot7
+	end
+end
+
 function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
@@ -198,9 +204,7 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 		end
 
 		if slot11.arg_list.weapon_id then
-			for slot20, slot21 in ipairs(uv1.Battle.BattleResourceManager.GetWeaponResource(slot15)) do
-				slot4[#slot4 + 1] = slot21
-			end
+			uv0.getWeaponResource(slot15, slot4)
 		end
 
 		if slot11.arg_list.skin_id then
@@ -209,22 +213,26 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		if slot11.arg_list.buff_id then
-			slot22 = slot3
+		if slot11.arg_list.ship_skin_id then
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetCharacterPath(uv0.GetPlayerShipSkinDataFromID(slot17).prefab)
+		end
 
-			for slot22, slot23 in ipairs(uv0.GetResFromBuff(slot17, slot1, slot2, slot22)) do
-				if type(slot23) == "string" then
-					slot4[#slot4 + 1] = slot23
-				elseif type(slot23) == "table" then
-					for slot27, slot28 in ipairs(slot23) do
-						slot4[#slot4 + 1] = slot28
+		if slot11.arg_list.buff_id then
+			slot23 = slot3
+
+			for slot23, slot24 in ipairs(uv0.GetResFromBuff(slot18, slot1, slot2, slot23)) do
+				if type(slot24) == "string" then
+					slot4[#slot4 + 1] = slot24
+				elseif type(slot24) == "table" then
+					for slot28, slot29 in ipairs(slot24) do
+						slot4[#slot4 + 1] = slot29
 					end
 				end
 			end
 		end
 
 		if slot11.arg_list.effect then
-			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot18)
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot19)
 		end
 	end
 
@@ -252,10 +260,30 @@ function slot3.GetBulletResFromSkill(slot0, slot1, slot2)
 
 	function slot5(slot0)
 		for slot4, slot5 in ipairs(slot0) do
-			if slot5.arg_list.weapon_id ~= nil then
-				for slot11, slot12 in ipairs(uv0.Battle.BattleResourceManager.GetWeaponResource(slot6)) do
-					uv1[#uv1 + 1] = slot12
+			if slot5.type == uv0.Battle.BattleSkillGridmanFloat.__name then
+				table.insert(uv1, "UI/combatgridmanskillfloat")
+			end
+
+			if slot5.type == uv0.Battle.BattleSkillFusion.__name then
+				slot6 = slot5.arg_list
+
+				for slot11, slot12 in ipairs(uv0.Battle.BattleResourceManager.GetShipResource(slot6.fusion_id, slot6.ship_skin_id)) do
+					table.insert(uv1, slot12)
 				end
+
+				for slot12, slot13 in ipairs(slot6.weapon_id_list) do
+					uv2.getWeaponResource(slot13, uv1)
+				end
+
+				for slot13, slot14 in ipairs(slot6.buff_list) do
+					for slot19, slot20 in ipairs(uv2.GetResFromBuff(slot14, uv3, uv4)) do
+						uv1[#uv1 + 1] = slot20
+					end
+				end
+			end
+
+			if slot5.arg_list.weapon_id ~= nil then
+				uv2.getWeaponResource(slot6, uv1)
 			end
 
 			if slot5.arg_list.buff_id then

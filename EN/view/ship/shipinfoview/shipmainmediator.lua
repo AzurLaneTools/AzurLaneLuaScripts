@@ -199,7 +199,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.SHOPPING, {
+		uv0:sendNotification(GAME.SKIN_SHOPPIGN, {
 			id = slot1,
 			count = slot2
 		})
@@ -504,7 +504,7 @@ function slot0.listNotificationInterests(slot0)
 		ShipModMediator.LOADEND,
 		GAME.RENAME_SHIP_DONE,
 		GAME.RECORD_SHIP_EQUIPMENT_DONE,
-		GAME.SHOPPING_DONE,
+		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.UPGRADE_MAX_LEVEL_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.HIDE_Ship_MAIN_SCENE_WORD,
@@ -566,7 +566,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.shipId == slot0.contextData.shipId and slot3.type == 1 then
 			slot0.viewComponent:updateRecordEquipments(slot3.index)
 		end
-	elseif slot2 == GAME.SHOPPING_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
+	elseif slot2 == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
 		if slot3.awards and #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards

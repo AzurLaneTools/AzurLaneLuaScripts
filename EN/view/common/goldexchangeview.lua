@@ -116,6 +116,7 @@ function slot0.addListener(slot0)
 		end
 
 		pg.m02:sendNotification(GAME.SHOPPING, {
+			isQuickShopping = true,
 			id = slot0,
 			count = uv0.selectedNum
 		})

@@ -193,3 +193,16 @@ function slot2.RemoveCharacter(slot0, slot1, slot2)
 	slot1:Dispose()
 	slot0:GetFXPool():PushCharacterAttachPoint(slot1:GetAttachPoint())
 end
+
+function slot2.SwitchCharacterSpine(slot0, slot1, slot2)
+	slot3 = nil
+
+	function slot4(slot0)
+		uv0:SwitchModel(slot0, uv1)
+		uv0:CameraOrthogonal(uv2.Battle.BattleCameraUtil.GetInstance():GetCamera())
+	end
+
+	slot0:GetCharacterPool():InstCharacter((not slot2 or uv0.Battle.BattleDataFunction.GetPlayerShipSkinDataFromID(slot2).prefab) and slot1:GetModleID(), function (slot0)
+		uv0(slot0)
+	end)
+end

@@ -301,19 +301,12 @@ function slot0.didEnter(slot0)
 		uv0.svQuickExchange:ActionInvoke("Show")
 		uv0.svQuickExchange:ActionInvoke("UpdateBlueprint", uv0.contextData.shipBluePrintVO)
 	end)
-
-	slot2 = pg.UIMgr.GetInstance()
-	slot7 = slot0.rightPanel
-	slot7 = slot0.rightPanel
-	slot7 = slot0.leftPanle
-	slot7 = slot0.bottomPanel
-
-	slot2:OverlayPanelPB(slot0.blurPanel, {
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
 		pbList = {
-			slot7:Find("task_list"),
-			slot7:Find("mod_panel"),
-			slot7:Find("property_panel"),
-			slot7:Find("ships/bg")
+			slot0.rightPanel:Find("task_list"),
+			slot0.rightPanel:Find("mod_panel"),
+			slot0.leftPanle:Find("property_panel"),
+			slot0.bottomPanel:Find("ships/bg")
 		}
 	})
 	setText(slot0:findTF("window/top/bg/infomation/title", slot0.msgPanel), i18n("title_info"))
@@ -330,40 +323,23 @@ function slot0.didEnter(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
 	end, SFX_CANCEL)
-
-	slot4 = slot0.unlockPanel
-
-	onButton(slot0, slot4:Find("window/top/btnBack"), function ()
+	onButton(slot0, slot0.unlockPanel:Find("window/top/btnBack"), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
-
-	slot3 = slot0.unlockPanel
-
-	setText(slot3:Find("window/confirm_btn/Text"), i18n("text_confirm"))
-
-	slot3 = slot0.unlockPanel
-
-	setText(slot3:Find("window/cancel_btn/Text"), i18n("text_cancel"))
-
-	slot3 = slot0.unlockPanel
-
-	setText(slot3:Find("window/top/bg/infomation/title"), i18n("title_info"))
-
-	slot4 = slot0.unlockPanel
-
-	onButton(slot0, slot4:Find("window/cancel_btn"), function ()
+	setText(slot0.unlockPanel:Find("window/confirm_btn/Text"), i18n("text_confirm"))
+	setText(slot0.unlockPanel:Find("window/cancel_btn/Text"), i18n("text_cancel"))
+	setText(slot0.unlockPanel:Find("window/top/bg/infomation/title"), i18n("title_info"))
+	onButton(slot0, slot0.unlockPanel:Find("window/cancel_btn"), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
-
-	slot4 = slot0.unlockPanel
-
-	onButton(slot0, slot4:Find("bg"), function ()
+	onButton(slot0, slot0.unlockPanel:Find("bg"), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
+	slot0:updateVersionBtnTip()
 
 	if slot1 > 1 then
 		onButton(slot0, slot0.versionBtn, function ()
@@ -398,16 +374,47 @@ function slot0.didEnter(slot0)
 
 					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
 					uv0:initShips()
+					uv0:updateVersionBtnTip()
 					pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
 					setActive(uv0.versionPanel, false)
 				end, SFX_CANCEL)
 			end
 		end)
 		slot2:align(slot1)
+		slot0:updateVersionPanelBtnTip()
 	end
 
 	LeanTween.alpha(rtf(slot0.skillArrLeft), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 	LeanTween.alpha(rtf(slot0.skillArrRight), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+end
+
+function slot0.updateVersionBtnTip(slot0)
+	slot3 = {}
+
+	for slot7 = 1, getProxy(TechnologyProxy):getConfigMaxVersion() do
+		if slot7 ~= slot0.version then
+			table.insert(slot3, slot7)
+		end
+	end
+
+	setActive(slot0.versionBtn:Find("tip"), slot1:CheckPursuingCostTip(slot3))
+end
+
+function slot0.updateVersionPanelBtnTip(slot0)
+	for slot6 = 1, getProxy(TechnologyProxy):getConfigMaxVersion() do
+		setActive(slot0.versionPanel:Find("window/content/version_" .. slot6 .. "/tip"), slot1:CheckPursuingCostTip({
+			slot6
+		}))
+	end
+end
+
+function slot0.updateAllPursuingCostTip(slot0)
+	slot0:updateVersionBtnTip()
+	slot0:updateVersionPanelBtnTip()
+
+	for slot4, slot5 in pairs(slot0.bluePrintItems) do
+		slot5:updatePursuingTip()
+	end
 end
 
 function slot0.switchHide(slot0)
@@ -508,97 +515,93 @@ end
 
 function slot0.createShipItem(slot0, slot1)
 	slot2 = {
-		go = slot1,
-		tf = tf(slot1)
-	}
-	slot3 = slot2.tf
-	slot3 = slot3:Find("icon")
-	slot2.iconShip = slot3:GetComponent("Image")
-	slot3 = slot2.tf
-	slot3 = slot3:Find("count")
-	slot2.countTxt = slot3:GetComponent(typeof(Text))
-	slot3 = slot2.tf
-	slot2.seleted = slot3:Find("selected")
-	slot3 = slot2.tf
-	slot2.maskLock = slot3:Find("state/mask_lock")
-	slot3 = slot2.tf
-	slot2.maskItemUnlock = slot3:Find("state/mask_item_unlock")
-	slot3 = slot2.tf
-	slot2.maskDev = slot3:Find("state/mask_dev")
-	slot3 = slot2.tf
-	slot2.tip = slot3:Find("tip")
-	slot3 = slot2.tf
-	slot2.iconTF = slot3:Find("icon")
-	slot3 = slot2.tf
-	slot2.toggle = slot3:GetComponent("Toggle")
-	slot3 = slot2.tf
-	slot2.lvTF = slot3:Find("dev_lv")
-	slot3 = slot2.tf
-	slot2.lvTextTF = slot3:Find("dev_lv/Text")
-	slot3 = slot2.tf
-	slot2.fateTF = slot3:Find("fate_lv")
-	slot3 = slot2.tf
-	slot2.fateImageTF = slot3:Find("fate_lv/Image")
+		init = function (slot0)
+			slot0._go = uv0
+			slot0._tf = tf(uv0)
+			slot0.icon = slot0._tf:Find("icon")
+			slot0.state = slot0._tf:Find("state")
+			slot0.count = slot0._tf:Find("count")
+			slot0.tip = slot0._tf:Find("tip")
+		end,
+		update = function (slot0, slot1, slot2)
+			SetCompomentEnabled(slot0._tf, typeof(Toggle), slot1.id > 0)
 
-	function slot2.update(slot0, slot1, slot2)
-		slot0.toggle.enabled = slot1.id > 0
-		slot0.shipBluePrintVO = slot1
+			slot0.shipBluePrintVO = slot1
 
-		if slot0.shipBluePrintVO.id < 0 then
-			setActive(slot0.seleted, false)
-			setActive(slot0.maskLock, false)
-			setActive(slot0.maskItemUnlock, false)
-			setActive(slot0.maskDev, false)
-			setActive(slot0.tip, false)
-			setActive(slot0.lvTF, false)
-			setActive(slot0.fateTF, false)
-			setActive(slot0.countTxt, false)
+			setActive(slot0.state, slot0.shipBluePrintVO.id > 0)
+			setActive(slot0.count, slot0.shipBluePrintVO.id > 0)
+
+			if slot0.shipBluePrintVO.id > 0 then
+				LoadSpriteAsync("shipdesignicon/" .. slot0.shipBluePrintVO:getShipVO():getPainting(), function (slot0)
+					if uv0.shipBluePrintVO.id > 0 and string.find(slot0.name, uv0.shipBluePrintVO:getShipVO():getPainting()) then
+						setImageSprite(uv0.icon, slot0)
+					end
+				end)
+
+				slot3 = {
+					tip = false,
+					pursuing = slot1:isPursuing(),
+					fate = slot1:canFateSimulation()
+				}
+
+				switch(slot1.state, {
+					[ShipBluePrint.STATE_LOCK] = function ()
+						uv0.state = "lock" .. (uv1:getUnlockItem() and "_item" or "")
+					end,
+					[ShipBluePrint.STATE_DEV] = function ()
+						uv0.state = "research"
+					end,
+					[ShipBluePrint.STATE_DEV_FINISHED] = function ()
+						uv0.state = uv0.fate and "fate" or "dev"
+						uv0.tip = true
+					end,
+					[ShipBluePrint.STATE_UNLOCK] = function ()
+						uv0.state = uv0.fate and "fate" or "dev"
+					end
+				})
+				setText(slot0.count, slot2.count > 999 and "999+" or slot2.count)
+				setActive(slot0.count:Find("icon"), not slot3.pursuing)
+				setActive(slot0.count:Find("icon_2"), slot3.pursuing)
+				setText(slot0.state:Find("dev/Text"), slot0.shipBluePrintVO.level)
+
+				if slot3.fate then
+					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.state:Find("fate/Image"), true)
+				end
+
+				eachChild(slot0.state, function (slot0)
+					setActive(slot0, slot0.name == uv0.state)
+				end)
+				setActive(slot0.tip, slot3.tip)
+
+				return
+			end
+
 			LoadSpriteAsync("shipdesignicon/empty", function (slot0)
 				if uv0.shipBluePrintVO.id < 0 then
-					uv0.iconShip.sprite = slot0
+					setImageSprite(uv0.icon, slot0)
 				end
 			end)
-		else
-			slot5 = slot0.shipBluePrintVO
-			slot5 = slot5:getShipVO()
-
-			LoadSpriteAsync("shipdesignicon/" .. slot5:getPainting(), function (slot0)
-				if uv0.shipBluePrintVO.id > 0 and string.find(slot0.name, uv0.shipBluePrintVO:getShipVO():getPainting()) then
-					uv0.iconShip.sprite = slot0
-				end
-			end)
-
-			if slot2.count > 999 then
-				uv0.countTxt.text = "999+"
-			else
-				uv0.countTxt.text = slot2.count
-			end
-
-			setText(slot0.lvTextTF, slot0.shipBluePrintVO.level)
-			setActive(slot0.seleted, false)
-			setActive(slot0.countTxt, true)
-
-			slot4 = slot1:isDeving()
-			slot5 = slot1:getUnlockItem()
-			slot6 = slot1:canFateSimulation()
-
-			setActive(slot0.maskLock, slot1:isLock() and not slot5)
-			setActive(slot0.maskItemUnlock, slot3 and slot5)
-			setActive(slot0.maskDev, slot4)
-			setActive(slot0.tip, slot1:isFinished())
-			setActive(slot0.lvTF, not slot3 and not slot4 and not slot6)
-			setActive(slot0.fateTF, not slot3 and not slot4 and slot6)
-
-			if slot6 then
-				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.fateImageTF, true)
-			end
+			setActive(slot0.tip, false)
+		end,
+		updateSelectedStyle = function (slot0, slot1)
+			LeanTween.cancel(slot0.icon)
+			LeanTween.moveY(slot0.icon, slot1 and 0 or -25, 0.1)
+		end,
+		updatePursuingTip = function (slot0)
+			setActive(slot0.count:Find("icon_2/tip"), slot0.shipBluePrintVO.id > 0 and slot0.shipBluePrintVO:isPursuingCostTip())
 		end
-	end
+	}
 
-	function slot2.updateSelectedStyle(slot0, slot1)
-		LeanTween.cancel(slot0.iconTF)
-		LeanTween.moveY(slot0.iconTF, slot1 and 0 or -25, 0.1)
-	end
+	slot2:init()
+
+	slot5 = slot2.count
+
+	onButton(slot0, slot5:Find("icon_2"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("blueprint_catchup_by_gold_help")
+		})
+	end, SFX_PANEL)
 
 	return slot2
 end
@@ -609,14 +612,12 @@ function slot0.initShips(slot0)
 
 	if not slot0.itemList then
 		slot0.bluePrintItems = {}
-		slot0.itemList = UIItemList.New(slot0.shipContainer, slot0.shipTpl)
+		slot3 = slot0.shipContainer
+		slot0.itemList = UIItemList.New(slot0.shipContainer, slot3:Find("ship_tpl"))
 		slot1 = slot0.itemList
 
 		slot1:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventInit then
-				slot4 = uv0
-				uv0.bluePrintItems[slot2] = slot4:createShipItem(slot2)
-
+			if slot0 == UIItemList.EventUpdate then
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						if uv0.cbTimer then
@@ -631,9 +632,8 @@ function slot0.initShips(slot0)
 
 						if uv0.nowShipId ~= uv0.contextData.shipBluePrintVO.id then
 							uv0.nowShipId = uv0.contextData.shipBluePrintVO.id
-							slot1 = uv0
 
-							slot1:switchState(uv2, true, function ()
+							uv0:switchState(uv2, true, function ()
 								uv0:setSelectedBluePrint()
 							end)
 						else
@@ -643,15 +643,17 @@ function slot0.initShips(slot0)
 
 					uv0.bluePrintItems[uv1]:updateSelectedStyle(slot0)
 				end, SFX_PANEL)
-			elseif slot0 == UIItemList.EventUpdate then
+
+				uv0.bluePrintItems[slot2] = uv0.bluePrintItems[slot2] or uv0:createShipItem(slot2)
+
 				if uv0.filterBlueprintVOs[slot1 + 1].id > 0 then
 					uv0.bluePrintItems[slot2]:update(slot3, uv0:getItemById(slot3:getItemId()))
+					uv0.bluePrintItems[slot2]:updatePursuingTip()
 				else
 					uv0.bluePrintItems[slot2]:update(slot3, nil)
 				end
 
 				triggerToggle(slot2, false)
-				uv0.bluePrintItems[slot2]:updateSelectedStyle(false)
 			end
 		end)
 	end
@@ -1037,7 +1039,7 @@ function slot0.updateModPanel(slot0)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
-					helps = pg.gametip.blueprint_catchup_by_gold_help.tip
+					helps = i18n("blueprint_catchup_by_gold_help")
 				})
 			end
 		end, SFX_PANEL)
@@ -1259,7 +1261,7 @@ function slot0.updateFittingPanel(slot0)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
-					helps = pg.gametip.blueprint_catchup_by_gold_help.tip
+					helps = i18n("blueprint_catchup_by_gold_help")
 				})
 			end
 		end, SFX_PANEL)

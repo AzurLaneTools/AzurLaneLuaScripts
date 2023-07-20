@@ -211,7 +211,9 @@ pg.ship_skin_words_extra = setmetatable({
 		499090,
 		399060,
 		499080,
-		999020
+		999020,
+		10800090,
+		10800080
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14568,6 +14570,147 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I can't let things end here, the Commander is waiting for me...!"
+			}
+		}
+	},
+	[10800090] = {
+		lose = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		unlock = "",
+		touch2 = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800090,
+		login = {
+			{
+				1100,
+				"Heyo, Commander! So glad to see you again... No, I mean it!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Well done. I hope I was able to be of at least some use to you."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Raise a war cry! Show them your might! Attaaack!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"No matter the era, those who wield superhuman power are labeled gods, worshipped, and feared... Although, being a god sounds terrible to me."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"There's so much tasty food in this world. Especially seafood! Crab has got to be one of my favorites.|What power runs this world? It can't be dragon power, surely. Hmm... The mystery deepens further.|So hey, I'm basically of noble birth. But don't let that change your attitude towards me, okay?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You still have work to do! Stop being lazy and finish what you started."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Way to go! I'll make some tea – c'mere and rest for a bit, why don'tcha?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I think we've formed a true bond. However, in the truest sense, we come from different worlds. Even if we can't change this fact, we have to look to the future and not linger on the past forever..."
+			}
+		}
+	},
+	[10800080] = {
+		lose = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800080,
+		login = {
+			{
+				1100,
+				"Good morning. Let's give today our all!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Was I able to help you at all...?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Now, Commander, I await your orders!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You should know that I'm keeping a terrible secret... Would you like me to share, Commander?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You've done so much for me, Commander... I'll have to return the favor, don't you think?|I just hope that I can be of some help to your work...|There must be a reason I was brought to this world... I'm sure of it."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You haven't finished your work yet, have you? Let me help."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Congratulations on a completed mission. Once you've finished checking your rewards, come for some tea."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mmheheheh..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Because of our duties, our meeting is a once-in-a-lifetime blessing. I've accepted that by now, but... right now, the thought of it makes me so sad."
 			}
 		}
 	}

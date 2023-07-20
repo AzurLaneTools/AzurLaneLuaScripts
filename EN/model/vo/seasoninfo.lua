@@ -24,8 +24,10 @@ function slot0.Ctor(slot0, slot1)
 		table.insert(slot2, slot7)
 	end
 
-	slot0.fleet = Fleet.New({
-		ship_list = slot2
+	slot0.fleet = TypedFleet.New({
+		saveLastShipFlag = true,
+		ship_list = slot2,
+		fleetType = FleetType.Normal
 	})
 	slot0.rivals = {}
 

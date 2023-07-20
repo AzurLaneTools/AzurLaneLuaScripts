@@ -24,12 +24,6 @@ function slot0.initData(slot0)
 end
 
 function slot0.initUI(slot0)
-	setLocalPosition(slot0._tf, Vector2.zero)
-
-	slot0._tf.anchorMin = Vector2.zero
-	slot0._tf.anchorMax = Vector2.one
-	slot0._tf.offsetMax = Vector2.zero
-	slot0._tf.offsetMin = Vector2.zero
 	slot0.itemTpl = slot0:findTF("ItemTpl")
 	slot1 = slot0:findTF("content")
 	slot0.monthCardTF = slot0:findTF("ItemMonth", slot1)

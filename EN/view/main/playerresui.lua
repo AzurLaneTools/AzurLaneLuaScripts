@@ -227,6 +227,7 @@ function slot0.ClickOil(slot0)
 			},
 			onYes = function ()
 				pg.m02:sendNotification(GAME.SHOPPING, {
+					isQuickShopping = true,
 					count = 1,
 					id = uv0
 				})

@@ -17,6 +17,22 @@ function slot0.OnInit(slot0)
 	slot0.gotRemasterTF = slot0:findTF("getBtn/state_after")
 	slot0.exToggle = slot0:findTF("toggles/EX")
 	slot0.spToggle = slot0:findTF("toggles/SP")
+
+	slot0:bind(LevelUIConst.FLUSH_REMASTER_INFO, function (slot0)
+		if not uv0:isShowing() then
+			return
+		end
+
+		uv0:flushOnly()
+	end)
+	slot0:bind(LevelUIConst.FLUSH_REMASTER_TICKET, function (slot0)
+		if not uv0:isShowing() then
+			return
+		end
+
+		uv0:updateTicketDisplay()
+	end)
+
 	slot1 = getProxy(ChapterProxy)
 	slot2 = pg.TimeMgr.GetInstance()
 	slot0.itemList = UIItemList.New(slot0.content, slot0.item)

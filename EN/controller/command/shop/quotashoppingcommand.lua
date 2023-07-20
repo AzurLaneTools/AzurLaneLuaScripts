@@ -21,25 +21,14 @@ function slot0.execute(slot0, slot1)
 		count = slot4
 	}, 16202, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
+			slot2 = uv0:getQuotaShop()
 
-			table.insert(slot1, {
-				type = uv0.commodity_type,
-				id = uv0.commodity_id,
-				count = uv1 * uv0.num
-			})
-			_.each(slot1, function (slot0)
-				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot0))
-			end)
-
-			slot2 = uv3:getQuotaShop()
-
-			slot2:getGoodsById(uv4):addBuyCount(uv1)
-			uv3:updateQuotaShop(slot2)
-			reducePlayerOwn(uv0.resource_category, uv0.resource_type, uv0.resource_num * uv1)
-			uv2:sendNotification(GAME.QUOTA_SHOPPING_DONE, {
-				awards = slot1,
-				id = uv4
+			slot2:getGoodsById(uv1):addBuyCount(uv2)
+			uv0:updateQuotaShop(slot2)
+			reducePlayerOwn(uv3.resource_category, uv3.resource_type, uv3.resource_num * uv2)
+			uv4:sendNotification(GAME.QUOTA_SHOPPING_DONE, {
+				awards = PlayerConst.addTranDrop(slot0.drop_list),
+				id = uv1
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

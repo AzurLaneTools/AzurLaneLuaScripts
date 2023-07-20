@@ -1839,5 +1839,10 @@ pg.name_code = {
 		id = 521,
 		name = "Hindenburg",
 		code = "Hindenburg"
+	},
+	[522] = {
+		id = 522,
+		name = "旗风·META",
+		code = "樋·META"
 	}
 }

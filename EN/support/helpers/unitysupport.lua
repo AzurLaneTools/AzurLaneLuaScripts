@@ -799,11 +799,7 @@ function setGray(slot0, slot1, slot2)
 			Image,
 			Text
 		}) do
-			slot9 = tf(slot0):GetComponentsInChildren(typeof(slot8), true)
-
-			warning(slot9.Length)
-
-			for slot13 = 0, slot9.Length - 1 do
+			for slot13 = 0, tf(slot0):GetComponentsInChildren(typeof(slot8), true).Length - 1 do
 				table.insert(slot3, slot9[slot13])
 			end
 		end

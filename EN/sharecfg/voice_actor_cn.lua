@@ -1471,5 +1471,9 @@ pg.voice_actor_CN = {
 	[375] = {
 		code = 375,
 		actor_name = "Kyoka Moriya"
+	},
+	[376] = {
+		code = 376,
+		actor_name = "Karin Takahashi"
 	}
 }

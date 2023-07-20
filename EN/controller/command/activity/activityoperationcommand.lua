@@ -568,21 +568,6 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 					count = slot0[3]
 				})
 			end
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHOP then
-			if #uv5 == 1 and uv5[1].type == DROP_TYPE_ITEM then
-				slot1 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv5[1].id].type
-
-				if slot0.type == DROP_TYPE_ITEM and slot1 then
-					uv5 = {}
-
-					uv3:sendNotification(GAME.USE_ITEM, {
-						skip_check = true,
-						id = slot0.id,
-						count = slot0.count
-					})
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-				end
-			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
 			if uv6.cmd == 1 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))

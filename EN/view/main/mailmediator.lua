@@ -107,7 +107,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.TAKE_ATTACHMENT_DONE,
 		GAME.TAKE_ALL_ATTACHMENT_DONE,
 		GAME.OPEN_MAIL_DONE,
-		GAME.OPEN_MAIL_ATTACHMENT_DONE,
 		MailProxy.MAIL_TOTAL,
 		BayProxy.SHIP_ADDED,
 		GAME.USE_ITEM_DONE
@@ -137,18 +136,18 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.OPEN_MAIL_DONE then
 		slot0.viewComponent:openMail(slot3)
 		slot0.viewComponent:updateMail(slot3)
-	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE or slot2 == GAME.TAKE_ATTACHMENT_DONE then
+	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE then
 		slot0.viewComponent:updateMail(slot3)
-	elseif slot2 == GAME.TAKE_ALL_ATTACHMENT_DONE then
-		for slot7, slot8 in ipairs(slot3) do
+	elseif slot2 == GAME.TAKE_ATTACHMENT_DONE or slot2 == GAME.TAKE_ALL_ATTACHMENT_DONE then
+		for slot7, slot8 in ipairs(slot3.mails) do
 			slot0.viewComponent:updateMail(slot8)
 		end
+
+		slot0:ShowAndCheckDrops(slot3.items)
 	elseif slot2 == GAME.DELETE_MAIL_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
 	elseif slot2 == GAME.DELETE_ALL_MAIL_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
-	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.TAKE_ATTACHMENT_FULL_EQUIP then
 		slot0.viewComponent:UnblurMailBox()
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
@@ -161,6 +160,45 @@ function slot0.handleNotification(slot0, slot1)
 			items = slot3
 		})
 	end
+end
+
+function slot0.ShowAndCheckDrops(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot2 = {}
+
+	if #slot1 > 0 then
+		table.insert(slot2, function (slot0)
+			uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1, slot0)
+		end)
+	end
+
+	seriesAsync(slot2, function ()
+		slot0 = nil
+		slot1 = getProxy(TechnologyProxy)
+
+		if PlayerPrefs.GetInt("help_research_package", 0) == 0 then
+			for slot5, slot6 in ipairs(uv0) do
+				if slot6.type == DROP_TYPE_ITEM and checkExist(slot1:getItemCanUnlockBluePrint(slot6.id), {
+					1
+				}) then
+					break
+				end
+			end
+		end
+
+		if slot0 then
+			PlayerPrefs.SetInt("help_research_package", 1)
+			PlayerPrefs.Save()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = i18n("help_research_package"),
+				show_blueprint = slot0
+			})
+		end
+	end)
 end
 
 return slot0

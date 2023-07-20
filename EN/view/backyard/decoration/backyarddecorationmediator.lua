@@ -22,14 +22,14 @@ function slot0.register(slot0)
 		_courtyard:GetController():SelectFurniture(slot1)
 	end)
 	slot0:bind(uv0.APPLY_THEME, function (slot0, slot1, slot2)
-		slot3, slot4 = uv0.dorm:GetCanPutFurnitureForTheme(slot1)
+		slot3, slot4 = uv0:GetCanPutFurnitureForTheme(uv0.dorm, slot1)
 
 		if slot2 then
 			slot2(slot4, slot3)
 		end
 	end)
 	slot0:bind(uv0.SAVE_THEME, function (slot0, slot1, slot2)
-		if not uv0.dorm:AnyFurnitureInFloor(getProxy(DormProxy).floor) then
+		if not uv0:AnyFurnitureInFloor(uv0.dorm, getProxy(DormProxy).floor) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_save_empty_theme"))
 
 			return
@@ -105,7 +105,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ADD_FURNITURE, function (slot0, slot1, slot2)
 		_courtyard:GetController():AddFurniture({
-			id = uv0.dorm:GenUniqueID(slot1),
+			id = uv0:GenUniqueID(uv0.dorm, slot1.configId),
 			configId = slot1.configId,
 			date = slot1.date
 		})
@@ -168,6 +168,58 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.AnyFurnitureInFloor(slot0, slot1, slot2)
+	if not slot1:GetThemeList()[slot2] then
+		return false
+	end
+
+	return table.getCount(slot4:GetAllFurniture()) > 0
+end
+
+function slot0.GetCanPutFurnitureForTheme(slot0, slot1, slot2)
+	slot6 = {}
+	slot7 = false
+
+	if slot2:IsOccupyed(slot0:GetAllFloorFurnitures(slot1), getProxy(DormProxy).floor) then
+		slot6 = slot2:GetUsableFurnituresForFloor(slot4, slot3)
+		slot7 = false
+	else
+		for slot12, slot13 in pairs(slot2:GetAllFurniture()) do
+			table.insert(slot6, slot13)
+		end
+
+		slot7 = true
+	end
+
+	table.sort(slot6, BackyardThemeFurniture._LoadWeight)
+
+	return slot6, slot7
+end
+
+function slot0.GetAllFloorFurnitures(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1:GetThemeList()) do
+		for slot11, slot12 in pairs(slot7:GetAllFurniture()) do
+			slot2[slot11] = slot12
+		end
+	end
+
+	return slot2
+end
+
+function slot0.GenUniqueID(slot0, slot1, slot2)
+	slot3 = slot0:GetAllFloorFurnitures(slot1)
+
+	for slot8 = 0, slot1:GetOwnFurnitureCount(slot2) - 1 do
+		if not slot3[BackyardThemeFurniture.GetUniqueId(slot2, slot8)] then
+			return slot9
+		end
+	end
+
+	return BackyardThemeFurniture.GetUniqueId(slot2, 0)
+end
+
 function slot0.SetUp(slot0)
 	seriesAsync({
 		function (slot0)
@@ -213,27 +265,30 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == CourtYardEvent._SYN_FURNITURE then
 		slot5 = slot3[2]
+		slot7 = slot0.dorm:GetTheme(getProxy(DormProxy).floor)
 
-		for slot9, slot10 in ipairs(slot3[1]) do
-			slot11 = slot0.dorm:getFurnitrueById(slot10.id)
-
-			slot11:updatePosition(slot10.position)
-
-			slot11.dir = slot10.dir
-			slot11.parent = slot10.parent
-			slot11.child = slot10.child
-			slot11.floor = getProxy(DormProxy).floor
+		for slot11, slot12 in ipairs(slot3[1]) do
+			if slot7:GetFurniture(slot12.id) then
+				slot13:UpdatePosition(slot12.position)
+				slot13:UpdateDir(slot12.dir)
+				slot13:UpdateParent(slot12.parent)
+				slot13:UpdateChildList(slot12.child)
+				slot13:UpdateFloor(slot6)
+			else
+				slot13 = slot7:AddFurniture(slot12, slot6)
+			end
 
 			slot0.viewComponent:UpdateDorm(slot0.dorm)
-			slot0.viewComponent:UpdateFurnitrue(slot11)
+			slot0.viewComponent:UpdateFurnitrue(slot0.dorm:GetFurniture(slot12.configId))
 		end
 
-		for slot9, slot10 in ipairs(slot5) do
-			slot11 = slot0.dorm:getFurnitrueById(slot10)
+		for slot11, slot12 in ipairs(slot5) do
+			slot7:DeleteFurniture(slot12)
 
-			slot11:clearPosition()
-			slot0.viewComponent:UpdateDorm(slot0.dorm)
-			slot0.viewComponent:UpdateFurnitrue(slot11)
+			if slot7:GetFurniture(slot12) then
+				slot0.viewComponent:UpdateDorm(slot0.dorm)
+				slot0.viewComponent:UpdateFurnitrue(slot0.dorm:GetFurniture(slot13.configId))
+			end
 		end
 	elseif slot2 == DormProxy.THEME_TEMPLATE_ADDED then
 		slot0.viewComponent:CustomThemeAdded(slot3.template)

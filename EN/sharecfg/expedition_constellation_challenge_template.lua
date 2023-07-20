@@ -89,7 +89,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10004] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10004,
 		dungeon_id = 5106,
@@ -118,7 +118,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10005] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10005,
 		dungeon_id = 5105,
@@ -147,7 +147,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10006] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10006,
 		dungeon_id = 5104,
@@ -174,12 +174,102 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10007] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10007,
+		dungeon_id = 5109,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>5.0%</color>, torpedoes by <color=#92fc63>10.0%</color>, and main guns by <color=#92fc63>15.0%</color> (does not affect weapons/aircraft that have already finished loading)."
+			},
+			{
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
+			}
+		},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
+	[10008] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10008,
+		dungeon_id = 5108,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>10.0%</color>, torpedoes by <color=#92fc63>15.0%</color>, and main guns by <color=#92fc63>20.0%</color> (does not affect weapons/aircraft that have already finished loading)."
+			},
+			{
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10003,
+				1
+			}
+		}
+	},
+	[10009] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10009,
+		dungeon_id = 5107,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>15.0%</color>, torpedoes by <color=#92fc63>20.0%</color>, and main guns by <color=#92fc63>30.0%</color> (does not affect weapons/aircraft that have already finished loading)."
+			},
+			{
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10003,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007,
+		10008,
+		10009
 	}
 }

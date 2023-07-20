@@ -16,7 +16,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SHOPPING, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.SHOPPING, {
+		uv0:sendNotification(GAME.SKIN_SHOPPIGN, {
 			id = slot1,
 			count = slot2
 		})
@@ -64,7 +64,7 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.SHOPPING_DONE,
+		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.BUY_FURNITURE_DONE,
 		GAME.LOAD_LAYERS,
@@ -76,7 +76,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
-	if slot1:getName() == GAME.SHOPPING_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
+	if slot1:getName() == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
 		if pg.shop_template[slot3.id] and (slot5.genre == ShopArgs.SkinShop or slot5.genre == ShopArgs.SkinShopTimeLimit) then
 			slot0:addSubLayers(Context.New({
 				mediator = NewSkinMediator,

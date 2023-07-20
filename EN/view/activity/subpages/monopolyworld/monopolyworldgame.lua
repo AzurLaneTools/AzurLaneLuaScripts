@@ -160,9 +160,9 @@ function slot0.initFurn(slot0)
 
 		slot10 = Instantiate(slot3)
 		uv1 = pg.furniture_data_template[uv0[slot9 + 1]]
-		uv2 = "furniture/" .. uv1.picture
+		uv2 = uv1.icon
 
-		LoadImageSpriteAtlasAsync(uv2, "", findTF(slot10, "img"), true)
+		GetImageSpriteFromAtlasAsync("ui/monopolyworldui_atlas", uv2, findTF(slot10, "img"), true)
 		slot1:AddChild(slot10)
 		setActive(slot10, true)
 		table.insert(slot0.furnItems, slot10)
@@ -529,7 +529,7 @@ function slot0.updataUI(slot0)
 	setText(slot0.labelLeftCount, slot0.leftCount)
 
 	slot1 = slot0.activity:getDataConfig("daily_time")
-	uv0 = "furniture/" .. uv1.picture
+	uv0 = uv1.icon
 
 	if slot0.turnCnt and slot0.turnCnt < #uv2 then
 		uv1 = pg.furniture_data_template[uv2[slot0.turnCnt + 1]]

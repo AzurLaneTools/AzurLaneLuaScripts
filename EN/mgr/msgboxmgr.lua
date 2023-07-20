@@ -40,6 +40,7 @@ MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM = 21
 MSGBOX_TYPE_CONFIRM_DELETE = 22
 MSGBOX_TYPE_SUBPATTERN = 23
 MSGBOX_TYPE_FILE_DOWNLOAD = 24
+MSGBOX_TYPE_LIKN_COLLECT_GUIDE = 25
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -1374,6 +1375,9 @@ function slot1.ShowMsgBox(slot0, slot1)
 		end,
 		[MSGBOX_TYPE_FILE_DOWNLOAD] = function ()
 			uv0:GetPanel(FileDownloadPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_LIKN_COLLECT_GUIDE] = function ()
+			uv0:GetPanel(Msgbox4LinkCollectGuide).buffer:UpdateView(uv1)
 		end
 	})
 end

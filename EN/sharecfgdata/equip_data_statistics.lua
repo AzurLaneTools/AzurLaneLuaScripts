@@ -4754,6 +4754,26 @@ _G.pg.base.equip_data_statistics[472] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[478] = {
+	id = 478,
+	name = "狂战帝王古立特自带主炮",
+	icon = "1",
+	base = 450,
+	weapon_id = {
+		478
+	}
+}
+
+_G.pg.base.equip_data_statistics[479] = {
+	id = 479,
+	name = "狂战帝王古立特自带鱼雷",
+	icon = "1",
+	base = 455,
+	weapon_id = {
+		479
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "Beaver Squad Tag",
@@ -133082,6 +133102,272 @@ _G.pg.base.equip_data_statistics[89633] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[89640] = {
+	type = 18,
+	name = "Crab (With Receipt)",
+	speciality = "N/A",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "Crab (With Receipt, Cargo)",
+	nationality = 108,
+	rarity = 5,
+	id = 89640,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "89640",
+	value_1 = "450",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		108340
+	},
+	hidden_skill_id = {},
+	part_main = {
+		19
+	},
+	part_sub = {
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"GDS"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89641] = {
+	id = 89641,
+	value_1 = "480",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89642] = {
+	id = 89642,
+	value_1 = "510",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89643] = {
+	id = 89643,
+	value_1 = "540",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89644] = {
+	id = 89644,
+	value_1 = "570",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89645] = {
+	id = 89645,
+	value_1 = "600",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89646] = {
+	id = 89646,
+	value_1 = "630",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89647] = {
+	id = 89647,
+	value_1 = "660",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89648] = {
+	id = 89648,
+	value_1 = "690",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89649] = {
+	id = 89649,
+	value_1 = "720",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89650] = {
+	id = 89650,
+	value_1 = "750",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89651] = {
+	id = 89651,
+	anti_siren = 100,
+	value_1 = "780",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89652] = {
+	id = 89652,
+	anti_siren = 200,
+	value_1 = "810",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89653] = {
+	id = 89653,
+	anti_siren = 300,
+	value_1 = "840",
+	base = 89640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89660] = {
+	type = 18,
+	name = "Dragon Figurine",
+	speciality = "N/A",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "Dragon Figurine (Cargo)",
+	nationality = 108,
+	rarity = 5,
+	id = 89660,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "89660",
+	value_1 = "450",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		108350
+	},
+	hidden_skill_id = {},
+	part_main = {
+		19
+	},
+	part_sub = {
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"GDS"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89661] = {
+	id = 89661,
+	value_1 = "480",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89662] = {
+	id = 89662,
+	value_1 = "510",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89663] = {
+	id = 89663,
+	value_1 = "540",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89664] = {
+	id = 89664,
+	value_1 = "570",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89665] = {
+	id = 89665,
+	value_1 = "600",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89666] = {
+	id = 89666,
+	value_1 = "630",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89667] = {
+	id = 89667,
+	value_1 = "660",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89668] = {
+	id = 89668,
+	value_1 = "690",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89669] = {
+	id = 89669,
+	value_1 = "720",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89670] = {
+	id = 89670,
+	value_1 = "750",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89671] = {
+	id = 89671,
+	anti_siren = 100,
+	value_1 = "780",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89672] = {
+	id = 89672,
+	anti_siren = 200,
+	value_1 = "810",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89673] = {
+	id = 89673,
+	anti_siren = 300,
+	value_1 = "840",
+	base = 89660,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[90000] = {
 	tech = 1,
 	name = "Single 130mm Mle 1924 Naval Gun",
@@ -146645,6 +146931,59 @@ _G.pg.base.equip_data_statistics[170133] = {
 	},
 	equip_parameters = {},
 	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170141] = {
+	type = 1,
+	name = "专属弹幕-旗风METAI",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 170141,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170141
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170142] = {
+	id = 170142,
+	name = "专属弹幕-旗风METAII",
+	base = 170141,
+	weapon_id = {
+		170142
+	},
+	hidden_skill_id = {}
 }
 
 _G.pg.base.equip_data_statistics[594017] = {

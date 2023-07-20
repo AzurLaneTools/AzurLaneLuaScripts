@@ -226,6 +226,9 @@ function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.loader:GetSpriteQuiet("ui/LevelStageSSSSFeverPanel_atlas", slot1, slot6, true)
 	setActive(slot0.banner, true)
+	setAnchoredPosition(slot5, {
+		x = 2436
+	})
 	setActive(slot5, true)
 
 	slot6:GetComponent(typeof(Image)).enabled = true

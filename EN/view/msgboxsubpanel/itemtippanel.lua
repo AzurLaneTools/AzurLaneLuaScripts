@@ -80,6 +80,7 @@ function slot0.ShowOilBuyTip(slot0, slot1)
 		},
 		onYes = function ()
 			pg.m02:sendNotification(GAME.SHOPPING, {
+				isQuickShopping = true,
 				count = 1,
 				id = uv0
 			})

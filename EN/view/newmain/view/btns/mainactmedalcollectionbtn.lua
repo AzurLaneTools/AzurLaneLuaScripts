@@ -1,7 +1,7 @@
 slot0 = class("MainActMedalCollectionBtn", import(".MainBaseActivityBtn"))
 
 function slot0.GetEventName(slot0)
-	return "event_MedalCollection"
+	return "event_medal"
 end
 
 function slot0.GetActivityID(slot0)
@@ -16,6 +16,10 @@ end
 
 function slot0.OnInit(slot0)
 	setActive(slot0.tipTr.gameObject, Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(slot0:GetActivityID())))
+end
+
+function slot0.CustomOnClick(slot0)
+	errorMsg("Set activity_link_button param using View's name")
 end
 
 return slot0

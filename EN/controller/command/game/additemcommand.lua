@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 			slot4.date = pg.TimeMgr.GetInstance():GetServerTime()
 		end
 
-		slot3:addFurniture(slot4)
+		slot3:AddFurniture(slot4)
 	elseif slot2.dropType == DROP_TYPE_SKIN then
 		getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
 			id = slot2.id
@@ -273,6 +273,25 @@ function slot0.execute(slot0, slot1)
 		end
 	else
 		print("can not handle this type>>" .. slot2.dropType)
+	end
+
+	slot0:UpdateLinkActivity(slot2)
+end
+
+function slot0.UpdateLinkActivity(slot0, slot1)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINK_COLLECT) and not slot3:isEnd() then
+		slot4 = pg.activity_limit_item_guide.get_id_list_by_activity[slot3.id]
+		slot8 = slot3.id
+
+		assert(slot4, "activity_limit_item_guide not exist activity id: " .. slot8)
+
+		for slot8, slot9 in ipairs(slot4) do
+			if slot1.dropType == pg.activity_limit_item_guide[slot9].type and slot1.id == slot10.drop_id then
+				slot3:updateKVPList(1, slot10.id, slot3:getKVPList(1, slot10.id) + slot1.count)
+			end
+		end
+
+		slot2:updateActivity(slot3)
 	end
 end
 

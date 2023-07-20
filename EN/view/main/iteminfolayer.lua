@@ -45,6 +45,9 @@ function slot0.init(slot0)
 	slot0.stars = slot0.itemTF:Find("icon_bg/stars")
 	slot0.window = slot0:findTF("window")
 	slot0.top = slot0:findTF("window/top")
+
+	setText(slot0:findTF("bg/infomation/title", slot0.top), i18n("words_information"))
+
 	slot0.operatePanel = slot0:findTF("operate")
 	slot0.countTF = slot0:findTF("operate/item/icon_bg/count"):GetComponent(typeof(Text))
 	slot0.keepFateTog = slot0:findTF("got/keep_tog", slot0.operatePanel)

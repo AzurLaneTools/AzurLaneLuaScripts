@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 356
+		key_value = 359
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1915,7 +1915,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 358
+		key_value = 360
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2024,6 +2024,16 @@ pg.gameset = {
 	meta_skill_exp_max = {
 		description = "",
 		key_value = 30000
+	},
+	meta_tech_sort = {
+		key_value = 0,
+		description = {
+			1,
+			5,
+			2,
+			3,
+			4
+		}
 	},
 	world_boss_stage = {
 		description = "",
@@ -2643,7 +2653,9 @@ pg.gameset = {
 			42030,
 			42036,
 			42040,
-			42046
+			42046,
+			42050,
+			42056
 		}
 	},
 	submarine_chapter_activate_time = {

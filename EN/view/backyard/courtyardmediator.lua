@@ -152,6 +152,10 @@ function slot0.handleNotification(slot0, slot1)
 	slot4 = slot1:getType()
 
 	if slot1:getName() == DormProxy.SHIPS_EXP_ADDED then
+		if slot0.contextData.OpenShop then
+			return
+		end
+
 		if not CourtYardMediator.firstTimeAddExp and not pg.NewGuideMgr.GetInstance():IsBusy() then
 			CourtYardMediator.firstTimeAddExp = true
 
@@ -171,8 +175,8 @@ function slot0.handleNotification(slot0, slot1)
 		})
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 		slot0.viewComponent:UpdateDorm(getProxy(DormProxy):getRawData(), BackYardConst.DORM_UPDATE_TYPE_SHIP)
-	elseif slot2 == CourtYardEvent._ADD_ITEM_FAILED and getProxy(DormProxy):getRawData():getFurnitrueById(slot3) then
-		slot6:clearPosition()
+	elseif slot2 == CourtYardEvent._ADD_ITEM_FAILED then
+		getProxy(DormProxy):getRawData():GetTheme(getProxy(DormProxy).floor):DeleteFurniture(slot3)
 	end
 
 	slot0:handleCourtyardNotification(slot2, slot3, slot4)
@@ -350,21 +354,20 @@ function slot0.GenCourtYardData(slot0)
 
 	function slot5(slot0)
 		slot1 = {}
+		slot3 = uv0:GetTheme(slot0) and slot2:GetAllFurniture() or {}
 
-		for slot5, slot6 in pairs(uv0.furnitures) do
-			if slot6.floor == slot0 then
-				table.insert(slot1, slot6)
-			end
+		for slot7, slot8 in pairs(slot3) do
+			table.insert(slot1, slot8)
 		end
 
-		table.sort(slot1, Furniture._LoadWeight)
+		table.sort(slot1, BackyardThemeFurniture._LoadWeight)
 
 		return slot1
 	end
 
 	slot6 = {}
 
-	for slot10 = 1, 2 do
+	for slot10 = 1, BackYardConst.MAX_FLOOR_CNT do
 		table.insert(slot6, {
 			id = slot10,
 			level = slot3.level,

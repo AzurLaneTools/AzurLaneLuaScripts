@@ -13,7 +13,7 @@ function slot0.DormUpdated(slot0, slot1)
 end
 
 function slot0.FurnituresUpdated(slot0, slot1)
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot8 = slot2[slot7]

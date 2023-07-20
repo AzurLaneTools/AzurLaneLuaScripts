@@ -55,7 +55,7 @@ function slot0.didEnter(slot0)
 	slot0:BindItemBattle()
 	slot0:InitStudents(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and slot1.id, 3, 4)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xiaoyouxi", function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 32)
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 55)
 	end)
 
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.SSSS_PT)
@@ -85,6 +85,20 @@ end
 
 function slot0.willExit(slot0)
 	slot0:clearStudents()
+end
+
+function slot0.IsShowMainTip(slot0)
+	slot1 = getProxy(ActivityProxy)
+
+	return (function ()
+		return Activity.IsActivityReady(uv0:getActivityById(ActivityConst.SSSS_PT))
+	end)() or (function ()
+		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+	end)() or (function ()
+		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
+	end)() or (function ()
+		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY))
+	end)()
 end
 
 return slot0

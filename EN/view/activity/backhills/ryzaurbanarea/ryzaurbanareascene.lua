@@ -110,6 +110,16 @@ function slot0.UpdatePuniAnim(slot0, slot1)
 	end
 end
 
+function slot0.IsShowMainTip(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_RYZA)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_PT))
+	end)() or (function ()
+		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.RYZA_TASK)
+	end)()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 end

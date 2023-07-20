@@ -41,7 +41,7 @@ end
 
 function slot0.GetAddList(slot0)
 	slot1 = {}
-	slot3 = slot0.dorm:GetAllFurniture()
+	slot3 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot7, slot8 in pairs(slot0.template:GetFurnitureCnt()) do
 		if pg.furniture_data_template[slot7] then

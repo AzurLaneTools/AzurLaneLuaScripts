@@ -17134,7 +17134,7 @@ _G.pg.base.gametip.query_role_none = {
 }
 
 _G.pg.base.gametip.query_role_button = {
-	tip = "Results found."
+	tip = "Results found"
 }
 
 _G.pg.base.gametip.query_role_fail = {
@@ -19374,18 +19374,18 @@ The Grid Academy campaign encompasses the following:
 · The SSSS Commemoration furniture piece.
 
 - New Collab Event -
-· This new event will be available between November 25th and December 8th. New event stages will be available during this period. Clearing these stages will reward you with Arclight Crystals.
+· This new event will be available between July 20th and August2nd. New event stages will be available during this period. Clearing these stages will reward you with Arclight Crystals.
 · Collecting Arclight Crystals will grant you incremental rewards from the dedicated event banner. They can also be spent on items in the event shop.
-· Clearing certain event stages has a chance of rewarding you with collab-exclusive gear skins, as well the SR aircraft carrier Chise Asukagawa.
+· Clearingcertain event stages has a chance of rewarding you withcollab-exclusive gear skins, as welltheSR aircraft carrier Chise Asukagawa.
 
 - Yume's Journey Info -
-· This minigame will be playable between November 25th and December 8th. Every day upon login in, you'll receive 5 board moves.
+· This minigame will be playable between July 20th and August2nd. Every day upon login in, you'll receive 5 board moves.
 · On the Yume's Journey screen, simply tap the controller on the bottom right corner to make Yume move around the board. You will receive rewards based on the type of tile you land on.
 · Playing this minigame will award you with both Arclight Crystals as well as exclusive furniture.
 
 - Grid-juu VS Kai-juu Info -
-· A new stage of this minigame will be unlocked every day up to December 1st.
-· Completing all 7 stages will give you a new piece of exclusive gear, the Glimmering Bracelet. You can also receive event-exclusive furniture through playing this minigame.
+· A newstageof this minigame will be unlocked every day up to July 26th.
+· Completing all 7stageswill give you a new piece of exclusive gear, the Glimmering Bracelet. You can also receive event-exclusive furniture through playing this minigame.
 
 - SSSS Commemoration Info -
 · Complete the assignments on the commemoration page to unlock Siren Data Files.
@@ -19614,13 +19614,13 @@ _G.pg.base.gametip.ssss_game_tip = {
 - Overview -
 
 · In this minigame, you will tap on blocks at the bottom of the screen to make combos and earn as many points as possible within the time limit.
-· A new round will be unlocked every day at midnight until 12/1. Complete them all to obtain rewards such as Gear Skin Boxes, Arclight Crystals, and limited furniture.
+· A new round will be unlocked every day at midnight until 7/26. Complete them all to obtain rewards such as Gear Skin Boxes, Arclight Crystals, and limited furniture.
 
 - How to Play -
 
-· Tap on a block at the bottom of the screen to erase it, as well as all other blocks of the same color adjacent to it. The remaining blocks will fall to fill in the game space, and if three or more blocks of the same color are adjacent after this, they will all be erased as well.
-· Every time two or more blocks are erased in one move, you will gain points, and the character you control above will attack, have their Special Move gauge fill up, and gain Transformation Gauge corresponding to that color.
-· When the Special Move is fully charged, your character can unleash their Special Move, awarding points.
+· Tap on a block at the bottom of the screen to eraseit, as well as all other blocks of the same color adjacent to it. The remaining blocks will fall to fill in the game space, and if three or more blocks of the same color are adjacent after this, they will all be erased as well.
+· Every time two or more blocks are erased in one move, you will gain points, and the character you control above will attack,have theirSpecial Move gaugefill up, and gain Transformation Gauge corresponding to that color.
+· When the Special Move is fully charged, your character canunleashtheirSpecial Move, awarding points.
 · When the Transformation Gauge is fully charged, your character will power up, changing the Special Move and points earned.
 · Erasing blocks while in a Powered-Up state will not fill the Transformation Gauge. The Transformation Gauge will continue to deplete while Powered-Up, and the Powered-Up state will end when the Gauge hits 0.
 · The game ends when the timer reaches 0. You may play the minigame as many times as you want.]]
@@ -19634,9 +19634,9 @@ _G.pg.base.gametip.ssss_medal_tip = {
 			info = [[
 - Overview -
 
-· "Akane's Collection" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive "SSSS Commemoration" furniture.
+· ""Akane's Collection"" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive ""SSSS Commemoration"" furniture.
 
-· You must collect the SSSS Commemoration before 12/15 23:59.]]
+· You must collect the SSSS Commemoration before 8/09 23:59.]]
 		}
 	}
 }
@@ -20784,6 +20784,83 @@ b) Seasonal Missions - One set of missions available for the entire campaign sea
 · You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
 We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
 Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2308 = {
+	tip = "Complete Cruise Missions between 8/1-9/30 to receive <color=#854748>Hatakaze META META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2308 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2023.8.1-2023.9.30)
+
+·<color=#92fc63>开放时间</color>
+    2023.8.1 0点 ~ 2023.9.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「樋·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>福煦换装「耀眼的女管家</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即9.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2308 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2023.7.31 0点 ~ 2023.9.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
 		}
 	}
 }
@@ -24385,6 +24462,10 @@ _G.pg.base.gametip.meta_class_t_level_4 = {
 	tip = "Flickering Light"
 }
 
+_G.pg.base.gametip.meta_class_t_level_5 = {
+	tip = "Smoldering Core"
+}
+
 _G.pg.base.gametip.meta_shop_exchange_limit_tip = {
 	tip = "You have not obtained $1 yet."
 }
@@ -24685,6 +24766,10 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "You don't have enough Secrets Tickets. You can buy them in the Shop with Gems."
 }
 
+_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
+	tip = "密语档案室建设中..."
+}
+
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
 	tip = "Custom Chal. Fleet"
 }
@@ -24731,6 +24816,10 @@ _G.pg.base.gametip.activityboss_sp_score_update = {
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "High Score Not Updated"
+}
+
+_G.pg.base.gametip.collect_page_got = {
+	tip = "Obtained:"
 }
 
 _G.pg.base.gametip.charge_menu_month_tip = {

@@ -217,10 +217,16 @@ function slot8.SetUnitBound(slot0, slot1, slot2)
 end
 
 function slot8.UpdateScoutUnitBound(slot0)
-	slot1 = slot0._fleetUnitBound:GetBound()
+	slot1, slot2, slot3, slot4, slot5, slot6 = slot0._fleetUnitBound:GetBound()
 
-	for slot5, slot6 in ipairs(slot0._scoutList) do
-		slot6:SetBound(slot1)
+	for slot10, slot11 in ipairs(slot0._scoutList) do
+		slot11:SetBound(slot1, slot2, slot3, slot4, slot5, slot6)
+	end
+
+	for slot10, slot11 in pairs(slot0._freezeList) do
+		if not slot10:IsMainFleetUnit() then
+			slot10:SetBound(slot1, slot2, slot3, slot4, slot5, slot6)
+		end
 	end
 end
 
@@ -258,90 +264,79 @@ function slot8.AppendPlayerUnit(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_STATE, slot0.onUnitCloakUpdate)
 end
 
-function slot8.RemovePlayerUnit(slot0, slot1)
-	slot2 = {}
+function slot8.RemovePlayerUnit(slot0, slot1, slot2)
+	slot0._freezeList[slot1] = nil
+	slot3 = {}
 
-	for slot6, slot7 in ipairs(slot0._unitList) do
-		if slot7 ~= slot1 then
-			slot2[#slot2 + 1] = slot6
+	for slot7, slot8 in ipairs(slot0._unitList) do
+		if slot8 ~= slot1 then
+			slot3[#slot3 + 1] = slot7
 		else
-			slot7:UnregisterEventListener(slot0, uv0.UPDATE_HP)
-			slot7:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_STATE)
-			slot7:DeactiveCldBox()
+			if not slot2 then
+				slot8:UnregisterEventListener(slot0, uv0.UPDATE_HP)
+				slot8:UnregisterEventListener(slot0, uv0.UPDATE_CLOAK_STATE)
+				slot8:DeactiveCldBox()
+			end
 
-			for slot12, slot13 in ipairs(slot7:GetChargeList()) do
-				if slot13:IsAttacking() then
+			for slot13, slot14 in ipairs(slot8:GetChargeList()) do
+				if slot14:IsAttacking() then
 					slot0._chargeWeaponVO:CancelFocus()
 					slot0._chargeWeaponVO:ResetFocus()
 					slot0:CancelChargeWeapon()
 				end
 
-				slot0._chargeWeaponVO:RemoveWeapon(slot13)
-				slot13:Clear()
+				slot0._chargeWeaponVO:RemoveWeapon(slot14)
+
+				if not slot2 then
+					slot14:Clear()
+				end
 			end
 
 			slot0._fleetAntiAir:RemoveCrewUnit(slot1)
 			slot0._fleetRangeAntiAir:RemoveCrewUnit(slot1)
 			slot0._fleetStaticSonar:RemoveCrewUnit(slot1)
 
-			for slot13, slot14 in ipairs(slot7:GetTorpedoList()) do
-				slot0:RemoveManunalTorpedo(slot14)
+			for slot14, slot15 in ipairs(slot8:GetTorpedoList()) do
+				slot0:RemoveManunalTorpedo(slot15, slot2)
 			end
 
-			if slot7:GetAirAssistList() then
-				for slot14, slot15 in ipairs(slot10) do
-					slot0._airAssistVO:RemoveWeapon(slot15)
+			if slot8:GetAirAssistList() then
+				for slot15, slot16 in ipairs(slot11) do
+					slot0._airAssistVO:RemoveWeapon(slot16)
 				end
 			end
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot0._scoutList) do
-		if slot7 == slot1 then
+	for slot7, slot8 in ipairs(slot0._scoutList) do
+		if slot8 == slot1 then
 			if #slot0._scoutList == 1 then
 				slot0:CancelChargeWeapon()
 			end
 
-			table.remove(slot0._scoutList, slot6)
+			table.remove(slot0._scoutList, slot7)
 
 			break
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot0._mainList) do
-		if slot7 == slot1 then
-			table.remove(slot0._mainList, slot6)
+	function slot4(slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			if slot5 == uv0 then
+				table.remove(slot0, slot4)
 
-			break
+				break
+			end
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot0._cloakList) do
-		if slot7 == slot1 then
-			table.remove(slot0._cloakList, slot6)
-
-			break
-		end
-	end
-
-	for slot6, slot7 in ipairs(slot0._subList, i) do
-		if slot7 == slot1 then
-			table.remove(slot0._subList, slot6)
-
-			break
-		end
-	end
-
-	for slot6, slot7 in ipairs(slot0._manualSubList) do
-		if slot7 == slot1 then
-			table.remove(slot0._manualSubList, slot6)
-
-			break
-		end
-	end
+	slot4(slot0._mainList)
+	slot4(slot0._cloakList)
+	slot4(slot0._subList)
+	slot4(slot0._manualSubList)
 
 	if not slot0._manualSubUnit then
-		slot0:refreshFleetFormation(slot2)
+		slot0:refreshFleetFormation(slot3)
 	end
 end
 
@@ -376,12 +371,32 @@ function slot8.GetUnitList(slot0)
 	return slot0._unitList
 end
 
+function slot8.GetFreezeUnitList(slot0)
+	return slot0._freezeList
+end
+
 function slot8.GetMainList(slot0)
 	return slot0._mainList
 end
 
 function slot8.GetScoutList(slot0)
 	return slot0._scoutList
+end
+
+function slot8.GetFreezeShipByID(slot0, slot1)
+	for slot5, slot6 in pairs(slot0._freezeList) do
+		if slot1 == slot5:GetAttrByName("id") then
+			return slot5
+		end
+	end
+end
+
+function slot8.GetShipByID(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._unitList) do
+		if slot1 == slot6:GetAttrByName("id") then
+			return slot6
+		end
+	end
 end
 
 function slot8.GetCloakList(slot0)
@@ -510,6 +525,7 @@ function slot8.Dispose(slot0)
 	slot0._fleetAttr:Dispose()
 
 	slot0._fleetAttr = nil
+	slot0._freezeList = nil
 end
 
 function slot8.refreshFleetFormation(slot0, slot1)
@@ -520,7 +536,7 @@ function slot8.refreshFleetFormation(slot0, slot1)
 	if not slot0._mainUnitFree then
 		for slot7, slot8 in ipairs(slot0._unitList) do
 			if not table.contains(slot0._subList, slot8) then
-				slot9 = slot2[slot7]
+				slot9 = slot2[slot7] or slot2[#slot2]
 
 				slot8:UpdateFormationOffset(Vector3(slot9.x, slot9.y, slot9.z) + slot3 * (slot7 - 1))
 			end
@@ -590,6 +606,7 @@ function slot8.init(slot0)
 	slot0._manualSubBench = {}
 	slot0._unitList = {}
 	slot0._maxCount = 0
+	slot0._freezeList = {}
 	slot0._blockCast = 0
 	slot0._buffList = {}
 
@@ -855,13 +872,16 @@ function slot8.QuickCastTorpedo(slot0)
 	end
 end
 
-function slot8.RemoveManunalTorpedo(slot0, slot1)
+function slot8.RemoveManunalTorpedo(slot0, slot1, slot2)
 	if slot1:IsAttacking() then
 		slot0:CancelTorpedo()
 	end
 
 	slot0._torpedoWeaponVO:RemoveWeapon(slot1)
-	slot1:Clear()
+
+	if not slot2 then
+		slot1:Clear()
+	end
 end
 
 function slot8.CoupleEncourage(slot0)
@@ -1256,4 +1276,130 @@ end
 
 function slot8.GetFleetBias(slot0)
 	return slot0._scoutAimBias
+end
+
+function slot8.FreezeUnit(slot0, slot1)
+	slot0:RemovePlayerUnit(slot1, true)
+
+	slot0._freezeList[slot1] = true
+end
+
+function slot8.ActiveFreezeUnit(slot0, slot1)
+	slot0._freezeList[slot1] = nil
+	slot0._unitList[#slot0._unitList + 1] = slot1
+	slot0._maxCount = slot0._maxCount + 1
+
+	if slot1:IsMainFleetUnit() then
+		slot0:appendFreezeMainUnit(slot1)
+	else
+		slot0:activeFreezeScoutUnit(slot1)
+	end
+
+	slot1:SetFleetVO(slot0)
+	slot1:SetMotion(slot0._motionVO)
+	slot1:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.onUnitUpdateHP)
+	slot1:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_STATE, slot0.onUnitCloakUpdate)
+end
+
+function slot8.UndoFusion(slot0)
+	for slot4, slot5 in pairs(slot0._freezeList) do
+		slot0._unitList[#slot0._unitList + 1] = slot4
+		slot0._maxCount = slot0._maxCount + 1
+
+		if slot4:IsMainFleetUnit() then
+			slot0:appendFreezeMainUnit(slot4)
+		else
+			slot0:activeFreezeScoutUnit(slot4)
+		end
+	end
+
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0._unitList) do
+		if slot6:GetAttrByName("hpProvideRate") ~= 0 then
+			table.insert(slot1, slot6)
+
+			slot8, slot9 = slot6:GetHP()
+			slot10 = slot9 - slot8
+			slot11 = 0
+
+			for slot15, slot16 in pairs(slot7) do
+				if not slot0:GetFreezeShipByID(slot15) then
+					slot0:GetShipByID(slot15)
+				end
+
+				slot17:UpdateHP(math.floor(slot16 * slot10) * -1, {})
+			end
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot0:RemovePlayerUnit(slot6)
+	end
+end
+
+function slot8.appendFreezeMainUnit(slot0, slot1)
+	slot0._mainList[#slot0._mainList + 1] = slot1
+
+	slot1:SetMainUnitIndex(#slot0._mainList)
+
+	if ShipType.CloakShipType(slot1:GetTemplate().type) then
+		table.insert(slot0._cloakList, slot1)
+	end
+
+	for slot6, slot7 in ipairs(slot1:GetChargeList()) do
+		slot0._chargeWeaponVO:AppendFreezeWeapon(slot7)
+	end
+
+	for slot7, slot8 in ipairs(slot1:GetTorpedoList()) do
+		slot0._torpedoWeaponVO:AppendFreezeWeapon(slot8)
+	end
+
+	if slot1:GetAirAssistList() then
+		for slot8, slot9 in ipairs(slot1:GetAirAssistList()) do
+			slot0._airAssistVO:AppendFreezeWeapon(slot9)
+		end
+	end
+
+	slot0._fleetAntiAir:AppendCrewUnit(slot1)
+	slot0._fleetRangeAntiAir:AppendCrewUnit(slot1)
+	slot0._fleetStaticSonar:AppendCrewUnit(slot1)
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot0._unitList) do
+		table.insert(slot4, slot8)
+	end
+
+	slot0:refreshFleetFormation(slot4)
+end
+
+function slot8.activeFreezeScoutUnit(slot0, slot1)
+	slot0._scoutList[#slot0._scoutList + 1] = slot1
+
+	for slot6, slot7 in ipairs(slot1:GetTorpedoList()) do
+		slot0._torpedoWeaponVO:AppendFreezeWeapon(slot7)
+	end
+
+	if slot1:GetAirAssistList() then
+		for slot7, slot8 in ipairs(slot1:GetAirAssistList()) do
+			slot0._airAssistVO:AppendFreezeWeapon(slot8)
+		end
+	end
+
+	slot0._fleetAntiAir:AppendCrewUnit(slot1)
+	slot0._fleetStaticSonar:AppendCrewUnit(slot1)
+
+	slot3 = 1
+	slot4 = #slot0._unitList
+	slot5 = {}
+
+	while slot3 < slot4 do
+		table.insert(slot5, slot3)
+
+		slot3 = slot3 + 1
+	end
+
+	table.insert(slot5, #slot0._scoutList, slot3)
+	slot0:refreshFleetFormation(slot5)
 end

@@ -10354,6 +10354,29 @@ _G.pg.base.item_data_statistics[21023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21024] = {
+	display = "An item that increases the potential of Hatakaze META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Hatakaze META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21024",
+	id = 21024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -17634,6 +17657,99 @@ _G.pg.base.item_data_statistics[30413] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30414] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30414,
+	display_icon = {
+		{
+			9,
+			2043,
+			1
+		},
+		{
+			9,
+			2044,
+			1
+		},
+		{
+			9,
+			2045,
+			1
+		},
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30415] = {
+	display = "可以获得像素天雷(鱼雷)、像素天雷(战斗)、像素天雷(轰炸)外观装备各一件",
+	name = "像素天雷",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/96631",
+	id = 30415,
+	display_icon = {
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "Contains a random gear skin. ",
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -20435,6 +20551,234 @@ _G.pg.base.item_data_statistics[30525] = {
 		{
 			9,
 			797,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30526] = {
+	display = "使用后可从「铁血风情」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(铁血)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiexuezixuan",
+	id = 30526,
+	display_icon = {
+		{
+			9,
+			360,
+			1
+		},
+		{
+			9,
+			361,
+			1
+		},
+		{
+			9,
+			362,
+			1
+		},
+		{
+			9,
+			363,
+			1
+		},
+		{
+			9,
+			364,
+			1
+		},
+		{
+			9,
+			365,
+			1
+		},
+		{
+			9,
+			366,
+			1
+		},
+		{
+			9,
+			367,
+			1
+		},
+		{
+			9,
+			368,
+			1
+		},
+		{
+			9,
+			369,
+			1
+		},
+		{
+			9,
+			370,
+			1
+		},
+		{
+			9,
+			371,
+			1
+		},
+		{
+			9,
+			372,
+			1
+		},
+		{
+			9,
+			373,
+			1
+		},
+		{
+			9,
+			374,
+			1
+		},
+		{
+			9,
+			375,
+			1
+		},
+		{
+			9,
+			376,
+			1
+		},
+		{
+			9,
+			377,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30527] = {
+	display = "Can be opened to receive 1 SSSS-themed gear skin of your choosing.",
+	name = "Selection Gear Skin Box (SSSS)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsssszixuan",
+	id = 30527,
+	display_icon = {
+		{
+			9,
+			480,
+			1
+		},
+		{
+			9,
+			481,
+			1
+		},
+		{
+			9,
+			482,
+			1
+		},
+		{
+			9,
+			483,
+			1
+		},
+		{
+			9,
+			484,
+			1
+		},
+		{
+			9,
+			485,
+			1
+		},
+		{
+			9,
+			486,
+			1
+		},
+		{
+			9,
+			487,
+			1
+		},
+		{
+			9,
+			488,
+			1
+		},
+		{
+			9,
+			489,
+			1
+		},
+		{
+			9,
+			490,
+			1
+		},
+		{
+			9,
+			491,
+			1
+		},
+		{
+			9,
+			492,
+			1
+		},
+		{
+			9,
+			493,
+			1
+		},
+		{
+			9,
+			494,
+			1
+		},
+		{
+			9,
+			495,
+			1
+		},
+		{
+			9,
+			496,
+			1
+		},
+		{
+			9,
+			497,
 			1
 		}
 	},
@@ -196530,6 +196874,98 @@ _G.pg.base.item_data_statistics[59465] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59466] = {
+	display = "Exchange currency used in the \"World-Spanning Arclight\" event. Will disappear after the event period ends. ",
+	name = "Arclight Crystal",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/ssss_pt",
+	id = 59466,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59467] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (8/1/2023 – 9/30/2023), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59467,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59468] = {
+	display = "不该被看到",
+	name = "通行证十二期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7012,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59468,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59469] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59469,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -213374,6 +213810,336 @@ _G.pg.base.item_data_statistics[70143] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70143,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70145] = {
+	display = "Can be used to exchange for one of the following characters: Rikka Takarada, Akane Shinjo, Yume Minami, Chise Asukagawa, Hass, Namiko. <color=#ff5c5cThis item will expire after maintenance on 8/09</color>.",
+	name = "SSSS Exchange Ticket",
+	max_num = 0,
+	type = 13,
+	time_limit = 1,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/70145",
+	id = 70145,
+	display_icon = {
+		{
+			4,
+			10800011,
+			1
+		},
+		{
+			4,
+			10800021,
+			1
+		},
+		{
+			4,
+			10800051,
+			1
+		},
+		{
+			4,
+			10800061,
+			1
+		},
+		{
+			4,
+			10800031,
+			1
+		},
+		{
+			4,
+			10800041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70146] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File I",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70146,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70147] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File II",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70147,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70148] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File III",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70148,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70149] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File IV",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70149,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70150] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File V",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70150,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70151] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File VI",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70151,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70152] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File VII",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70152,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70153] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File VIII",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70153,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70154] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File IX",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70154,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70155] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File X",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70155,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70156] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File XI",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70156,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70157] = {
+	display = "A collectible item from the \"World-Spanning Arclight\" event. Collect all 12 to receive a special commemorative furniture.",
+	name = "Siren Data File XII",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70157,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -810,9 +810,10 @@ function slot0.UpdateEliteInvestigation(slot0)
 			})
 		end
 
-		slot1 = math.max(slot1, Fleet.New({
+		slot1 = math.max(slot1, TypedFleet.New({
 			ship_list = slot6,
-			commanders = slot7
+			commanders = slot7,
+			fleetType = FleetType.Normal
 		}) and math.floor(slot8:getInvestSums()) or 0)
 	end
 
@@ -916,9 +917,10 @@ function slot0.UpdateEliteSonarRange(slot0)
 			})
 		end
 
-		slot0:UpdateSonarRangeValues(slot4, Fleet.New({
+		slot0:UpdateSonarRangeValues(slot4, TypedFleet.New({
 			ship_list = slot5,
-			commanders = slot6
+			commanders = slot6,
+			fleetType = FleetType.Normal
 		}) and math.floor(slot7:GetFleetSonarRange()) or 0)
 	end
 end
@@ -1955,10 +1957,10 @@ function slot0.GetValidFleets(slot0, slot1)
 					})
 				end
 
-				table.insert(slot2, Fleet.New({
-					id = slot8,
+				table.insert(slot2, TypedFleet.New({
 					ship_list = slot9,
-					commanders = slot10
+					commanders = slot10,
+					fleetType = FleetType.Normal
 				}))
 			end
 		end
@@ -2023,19 +2025,20 @@ function slot0.GetListFleets(slot0)
 			slot10 = nil
 
 			if #slot0.eliteFleetList[slot4[slot8]] > 0 then
-				slot12 = {}
+				slot12 = slot9 > 2 and FleetType.Submarine or FleetType.Normal
+				slot13 = {}
 
-				for slot16, slot17 in pairs(slot0.eliteCommanderList[slot9]) do
-					table.insert(slot12, {
-						pos = slot16,
-						id = slot17
+				for slot17, slot18 in pairs(slot0.eliteCommanderList[slot9]) do
+					table.insert(slot13, {
+						pos = slot17,
+						id = slot18
 					})
 				end
 
-				slot10 = Fleet.New({
-					id = slot8,
+				slot10 = TypedFleet.New({
 					ship_list = slot11,
-					commanders = slot12
+					commanders = slot13,
+					fleetType = slot12
 				})
 			end
 

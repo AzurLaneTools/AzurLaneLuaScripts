@@ -204,7 +204,8 @@ pg.strategy_data_template = setmetatable({
 		200416,
 		200432,
 		200433,
-		200434
+		200434,
+		200511
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2300,6 +2301,16 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200434,
 		icon = "200432",
 		desc = "Thanks to Vestal META's support, the maximum Corrosion Level of this zone has been reduced. Furthermore, your ships will periodically restore HP and gain improved stats while in battle.\nCurrent Max Corrosion Level: 3",
+		arg = {}
+	},
+	[200511] = {
+		buff_id = 200511,
+		name = "古立特联动复刻弹幕支援",
+		type = 10,
+		iconSize = "",
+		id = 200511,
+		icon = "",
+		desc = "Future Content ",
 		arg = {}
 	}
 }

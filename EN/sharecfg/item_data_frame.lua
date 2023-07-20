@@ -468,6 +468,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Cancer. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 7/1/23 - 7/31/23 Season.",
 		scene = {}
 	},
+	[10003] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Cancer",
+		gain_by = "",
+		id = 10003,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Leo. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 8/1/23 - 8/30/23 Season.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -520,6 +529,7 @@ pg.item_data_frame = {
 		601,
 		602,
 		10001,
-		10002
+		10002,
+		10003
 	}
 }

@@ -159,6 +159,7 @@ pg.furniture_data_template = setmetatable({
 			100038,
 			100039,
 			100040,
+			100041,
 			200001,
 			200002,
 			200003,
@@ -2128,6 +2129,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			84301
 		},
 		[85] = {
@@ -4500,6 +4504,7 @@ pg.furniture_data_template = setmetatable({
 			100038,
 			100039,
 			100040,
+			100041,
 			31101,
 			54104,
 			54105
@@ -4630,6 +4635,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			85126,
 			86122,
 			88126,
@@ -5323,7 +5331,8 @@ pg.furniture_data_template = setmetatable({
 			100036,
 			100038,
 			100039,
-			100040
+			100040,
+			100041
 		},
 		[2] = {
 			120,
@@ -6915,6 +6924,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			90104,
 			90117,
 			94119,
@@ -7768,6 +7780,7 @@ pg.furniture_data_template = setmetatable({
 		100038,
 		100039,
 		100040,
+		100041,
 		200001,
 		200002,
 		200003,
@@ -9605,6 +9618,9 @@ pg.furniture_data_template = setmetatable({
 		84184,
 		84185,
 		84186,
+		84187,
+		84188,
+		84189,
 		84301,
 		85001,
 		85002,
@@ -18461,6 +18477,55 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					nil,
 					"houzhai_pugongying",
 					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100041] = {
+		effect = "",
+		name = "Kitty Dogbot 3001",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Finally, a dog (albeit mechanical) that behaves like a cat! Invented by none other than da Vinci herself.",
+		tag = 6,
+		icon = "miaomiaowangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100041,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"miaomiaowang",
+				"normal",
+				{
+					"action",
+					false,
+					nil,
+					"event:/ui/meow"
 				}
 			}
 		},
@@ -98519,7 +98584,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/zhanlongglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "\"Access Mode: Dyna Soldier!\"",
 		tag = 1,
@@ -98556,7 +98621,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/feiyiglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "\"Access Mode: Dyna Wing!\"",
 		tag = 1,
@@ -98593,7 +98658,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/qianzhouglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "\"Access Mode: Dyna Diver!\"",
 		tag = 1,
@@ -98630,7 +98695,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/rexglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "\"Access Mode: Dyna Rex!\"",
 		tag = 1,
@@ -98667,7 +98732,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/jicheglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "\"Access Mode: Dyna Striker!\"",
 		tag = 1,
@@ -98876,7 +98941,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		picture = "",
 		is_get_time_note = 0,
 		deblocking = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "Oh god, this one has feet...",
 		themeId = 84,
@@ -98951,6 +99016,261 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[84187] = {
+		effect = "",
+		name = "Alexis Kerib (New Order) Manjuu-Suit",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A replica suit of the black demon's new form, released from the wedge of justice. To uphold a promise made to a friend, yesterday's enemies become today's allies!",
+		themeId = 84,
+		icon = "alexisglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84187,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"alexisgltB",
+				"normal"
+			},
+			{
+				"alexisgltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84188] = {
+		effect = "",
+		name = "Rogue Kaiser Gridman Manjuu-Suit",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An emperor born from the power of dreams – Super Dragon King Combination Manjuu-Suit, Rogue Kaiser! Pooooower Finish!!!",
+		themeId = 84,
+		icon = "kaisaglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84188,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaisagltB",
+				"normal"
+			},
+			{
+				"kaisagltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84189] = {
+		effect = "",
+		name = "Full Power Gridknight Manjuu-Suit",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A knight who fights with a never-before-seen power – Hyper Combination Manjuu-Suit Gridknight! My destiny is to defeat you anytime, anywhere, peep!",
+		themeId = 84,
+		icon = "qishiglticon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 84189,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qishigltB",
+				"normal"
+			},
+			{
+				"qishigltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[84301] = {
 		effect = "",
 		name = "\"Epic Battle\" Painting",
@@ -98961,7 +99281,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 84,
 		is_get_time_note = 0,
 		picture = "glt/chuangglt",
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "Grid-juu versus Kai-juu. Who will win?",
 		tag = 5,

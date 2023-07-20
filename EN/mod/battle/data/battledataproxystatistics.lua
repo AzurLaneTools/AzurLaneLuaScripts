@@ -116,6 +116,10 @@ function slot0.KillCountStatistics(slot0, slot1, slot2)
 end
 
 function slot0.HPRatioStatistics(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		slot5:UndoFusion()
+	end
+
 	for slot5, slot6 in ipairs(slot0._fleetList[1]:GetUnitList()) do
 		slot0._statistics[slot6:GetAttrByName("id")].bp = math.ceil(slot6:GetHPRate() * 10000)
 	end

@@ -723,4 +723,8 @@ function slot0.getUnlockItem(slot0)
 	end
 end
 
+function slot0.isPursuingCostTip(slot0)
+	return slot0:isPursuing() and slot0:isUnlock() and not slot0:isMaxIntensifyLevel() and getProxy(TechnologyProxy):calcPursuingCost(slot0, 1) == 0
+end
+
 return slot0

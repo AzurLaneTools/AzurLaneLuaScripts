@@ -112,12 +112,17 @@ end
 
 function slot0.OnDisplayList(slot0)
 	slot0.displays = {}
-	slot2 = getProxy(DormProxy).floor
+	slot3 = {}
 
-	for slot6, slot7 in pairs(slot0.dorm:getPutFurnis()) do
-		if slot7.floor == slot2 then
-			table.insert(slot0.displays, slot7)
-		end
+	if slot0.dorm:GetTheme(getProxy(DormProxy).floor) then
+		slot3 = slot2:GetAllFurniture()
+	end
+
+	for slot7, slot8 in pairs(slot3) do
+		table.insert(slot0.displays, Furniture.New({
+			count = 1,
+			id = slot8.configId
+		}))
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)

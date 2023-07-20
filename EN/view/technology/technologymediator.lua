@@ -107,7 +107,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot3 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot2)
 	elseif slot3 == TechnologySettingsMediator.EXIT_CALL then
-		slot0.viewComponent:updateSettingsBtn()
+		slot0.viewComponent:updatePickUpVersionChange()
 	end
 end
 
