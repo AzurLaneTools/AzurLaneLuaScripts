@@ -174,6 +174,9 @@ function slot8.InitData(slot0, slot1)
 	slot0:SetDungeonLevel(slot1.WorldLevel or slot0._expeditionTmp.level)
 
 	slot0._dungeonID = slot0._expeditionTmp.dungeon_id
+
+	print(slot0._dungeonID)
+
 	slot0._dungeonInfo = uv1.GetDungeonTmpDataByID(slot0._dungeonID)
 
 	if slot1.WorldMapId then
@@ -1473,6 +1476,7 @@ function slot8.SwitchSpectreUnit(slot0, slot1)
 		slot0._spectreShipList[slot2] = slot1
 
 		slot0._cldSystem:DeleteShipCld(slot1)
+		slot1:ClearUncontrollableSpeed()
 	else
 		slot0._spectreShipList[slot2] = nil
 		slot4[slot2] = slot1

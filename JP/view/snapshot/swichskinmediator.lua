@@ -25,7 +25,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.SHOPPING, {
+		uv0:sendNotification(GAME.SKIN_SHOPPIGN, {
 			id = slot1,
 			count = slot2
 		})
@@ -40,7 +40,7 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		ShipSkinProxy.SHIP_SKINS_UPDATE,
-		GAME.SHOPPING_DONE,
+		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		BayProxy.SHIP_UPDATED
 	}
@@ -49,7 +49,7 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.SHOPPING_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
+	if slot1:getName() == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
 		if slot3.awards and #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards
