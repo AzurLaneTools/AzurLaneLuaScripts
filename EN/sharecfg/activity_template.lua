@@ -10572,7 +10572,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"Shop"
+						"Merit Shop"
 					},
 					{
 						2,

@@ -12068,7 +12068,7 @@ _G.pg.base.spweapon_data_statistics[12070] = {
 
 _G.pg.base.spweapon_data_statistics[12080] = {
 	tech = 0,
-	name = "Buster Borr",
+	name = "Buster Borr Upgrade",
 	value_2_random = 0,
 	type = 2,
 	value_1_random = 0,
@@ -12219,7 +12219,7 @@ _G.pg.base.spweapon_data_statistics[12090] = {
 
 _G.pg.base.spweapon_data_statistics[12100] = {
 	tech = 0,
-	name = "Battle Tracto Max",
+	name = "Battle Tracto Max Upgrade",
 	value_2_random = 0,
 	type = 4,
 	value_1_random = 0,

@@ -82,7 +82,7 @@ pg.item_data_chat = {
 	},
 	[10003] = {
 		time_limit_type = 0,
-		name = "Extreme Challenge - Cancer",
+		name = "Extreme Challenge - Leo",
 		id = 10003,
 		time_second = 0,
 		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color>\n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 8/1/23 - 8/30/23 Season.</color>",

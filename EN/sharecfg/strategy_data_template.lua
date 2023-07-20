@@ -2310,7 +2310,7 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		iconSize = "",
 		id = 200511,
 		icon = "",
-		desc = "Future Content ",
+		desc = "Future Content",
 		arg = {}
 	}
 }

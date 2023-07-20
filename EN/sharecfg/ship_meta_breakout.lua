@@ -262,7 +262,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701033] = {
-		breakout_view = "Improve Smoldering Core – Hatakazer/All weapons' efficiency +5%",
+		breakout_view = "Improve Smoldering Core – Hatakaze/All weapons' efficiency +5%",
 		gold = 2500,
 		breakout_id = 9701034,
 		repair = 0,

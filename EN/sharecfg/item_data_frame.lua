@@ -470,7 +470,7 @@ pg.item_data_frame = {
 	},
 	[10003] = {
 		time_limit_type = 0,
-		name = "Extreme Challenge - Cancer",
+		name = "Extreme Challenge - Leo",
 		gain_by = "",
 		id = 10003,
 		time_second = 0,

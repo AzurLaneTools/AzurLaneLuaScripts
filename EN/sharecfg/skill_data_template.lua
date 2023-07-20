@@ -105415,7 +105415,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 108120,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts: for 90s, increases this ship&apos;s EVA by $1. Every 18s: fires a $2 beam using the Penetrator Gun which inflicts Armor Break to Heavy Armor enemies hit (DMG is based on the skill&apos;s level).",
+		desc = "When the battle starts: for 90s, increases this ship's EVA by $1. Every 18s: fires a $2 beam using the Penetrator Gun which inflicts Armor Break to Heavy Armor enemies hit (DMG is based on the skill's level).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -106252,7 +106252,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 108250,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts: for 90s, increases this ship's EVA by $1 and decreases the DMG taken by 8%. Every 18s: fires a $2 beam using the Penetrator Gun which inflicts Armor Break to Heavy Armor enemies hit (DMG is based on the skill's level).",
+		desc = "When the battle starts: for 90s, increases this ship's EVA by $1 and decreases the DMG taken by 8.0%. Every 18s: fires a $2 beam using the Penetrator Gun which inflicts Armor Break to Heavy Armor enemies hit (DMG is based on the skill's level).",
 		system_transform = {},
 		world_death_mark = {
 			1

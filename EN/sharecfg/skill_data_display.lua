@@ -11716,15 +11716,15 @@ pg.base.skill_data_display = {
 	},
 	[108415] = {
 		id = 108415,
-		name = "Primal Accepter"
+		name = "Grid Beam+"
 	},
 	[108417] = {
 		id = 108417,
-		name = "Primal Accepter"
+		name = "Grid Beam+"
 	},
 	[108454] = {
 		id = 108454,
-		name = "Dyna Wing"
+		name = "Something Beam+"
 	},
 	[109010] = {
 		id = 109010,

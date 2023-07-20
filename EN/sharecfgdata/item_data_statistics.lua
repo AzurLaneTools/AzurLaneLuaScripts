@@ -17712,8 +17712,8 @@ _G.pg.base.item_data_statistics[30414] = {
 }
 
 _G.pg.base.item_data_statistics[30415] = {
-	display = "可以获得像素天雷(鱼雷)、像素天雷(战斗)、像素天雷(轰炸)外观装备各一件",
-	name = "像素天雷",
+	display = "Use to receive 1 Pixel Rolling Thunder (Torpedo), 1 Pixel Rolling Thunder (Fighter), and 1 Pixel Rolling Thunder (Bomber).",
+	name = "Pixel Rolling Thunder",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -20561,8 +20561,8 @@ _G.pg.base.item_data_statistics[30525] = {
 }
 
 _G.pg.base.item_data_statistics[30526] = {
-	display = "使用后可从「铁血风情」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(铁血)",
+	display = "Can be opened to receive 1 Iron Blood Essentials gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Iron Blood)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,
@@ -196875,7 +196875,7 @@ _G.pg.base.item_data_statistics[59465] = {
 }
 
 _G.pg.base.item_data_statistics[59466] = {
-	display = "Exchange currency used in the \"World-Spanning Arclight\" event. Will disappear after the event period ends. ",
+	display = "Exchange currency used in the \"World-Spanning Arclight\" event. Will disappear after the event period ends.",
 	name = "Arclight Crystal",
 	max_num = 0,
 	type = 98,
@@ -213818,7 +213818,7 @@ _G.pg.base.item_data_statistics[70143] = {
 }
 
 _G.pg.base.item_data_statistics[70145] = {
-	display = "Can be used to exchange for one of the following characters: Rikka Takarada, Akane Shinjo, Yume Minami, Chise Asukagawa, Hass, Namiko. <color=#ff5c5cThis item will expire after maintenance on 8/09</color>.",
+	display = "Can be used to exchange for one of the following characters: Rikka Takarada, Akane Shinjo, Yume Minami, Chise Asukagawa, Hass, Namiko. <color=#ff5c5c>Will be removed after August 9th, 11:59 PM. (UTC-7).</color>",
 	name = "SSSS Exchange Ticket",
 	max_num = 0,
 	type = 13,
