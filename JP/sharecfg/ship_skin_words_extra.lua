@@ -14591,6 +14591,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		unlock = "",
+		touch2 = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -14640,12 +14641,6 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"お疲れ様！お茶入れたげるからさ、こっち来て少し休も？"
-			}
-		},
-		touch2 = {
-			{
-				1100,
-				"あんまり優しくしないでほしいな。…思い出しちゃうから……"
 			}
 		},
 		feeling5 = {

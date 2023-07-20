@@ -548,13 +548,9 @@ function slot8.GetFleetBoundByIFF(slot0, slot1)
 end
 
 function slot8.ShiftFleetBound(slot0, slot1, slot2)
+	slot1:GetUnitBound():SwtichDuelAggressive()
 	slot1:SetAutobotBound(slot0:GetFleetBoundByIFF(slot2))
-
-	slot3, slot4, slot5, slot6, slot7, slot8 = slot0:GetUnitBoundByIFF(slot2)
-
-	for slot13, slot14 in ipairs(slot1:GetScoutList()) do
-		slot14:SetBound(slot3, slot4, slot5, slot6, slot7, slot8)
-	end
+	slot1:UpdateScoutUnitBound()
 end
 
 function slot8.GetFieldBound(slot0)
@@ -1185,6 +1181,7 @@ function slot8.SpawnVanguard(slot0, slot1, slot2)
 	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot0:GetVanguardBornCoordinate(slot2)), slot0._commanderBuff)
 
 	slot0:GetFleetByIFF(slot2):AppendPlayerUnit(slot4)
+	slot0:setShipUnitBound(slot4)
 	uv0.AttachWeather(slot4, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot4)
 	slot0:DispatchEvent(uv2.Event.New(uv3.ADD_UNIT, {
@@ -1209,6 +1206,7 @@ function slot8.SpawnMain(slot0, slot1, slot2)
 	end
 
 	slot4:AppendPlayerUnit(slot6)
+	slot0:setShipUnitBound(slot6)
 	uv1.AttachWeather(slot6, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot6)
 	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
@@ -1226,6 +1224,7 @@ function slot8.SpawnSub(slot0, slot1, slot2)
 	slot7 = slot0:generatePlayerUnit(slot1, slot2, (slot2 ~= uv0.FRIENDLY_CODE or Vector3(slot6 + slot0._totalLeftBound, 0, uv0.SUB_UNIT_POS_Z[slot5])) and Vector3(slot0._totalRightBound - slot6, 0, uv0.SUB_UNIT_POS_Z[slot5]), slot0._subCommanderBuff)
 
 	slot4:AddSubMarine(slot7)
+	slot0:setShipUnitBound(slot7)
 	uv1.AttachWeather(slot7, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot7)
 	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
@@ -1240,6 +1239,7 @@ function slot8.SpawnManualSub(slot0, slot1, slot2)
 	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot0:GetVanguardBornCoordinate(slot2)), slot0._commanderBuff)
 
 	slot0:GetFleetByIFF(slot2):AddManualSubmarine(slot4)
+	slot0:setShipUnitBound(slot4)
 	slot0._cldSystem:InitShipCld(slot4)
 	slot0:DispatchEvent(uv1.Event.New(uv2.ADD_UNIT, {
 		type = uv0.UnitType.SUB_UNIT,
@@ -1394,7 +1394,13 @@ function slot8.GetActiveBossCount(slot0)
 end
 
 function slot8.setShipUnitBound(slot0, slot1)
-	slot1:SetBound(slot0:GetUnitBoundByIFF(slot1:GetIFF()))
+	slot2 = slot1:GetIFF()
+
+	if slot1:GetFleetVO() then
+		slot1:SetBound(slot1:GetFleetVO():GetUnitBound():GetBound())
+	else
+		slot1:SetBound(slot0:GetUnitBoundByIFF(slot2))
+	end
 end
 
 function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
@@ -1435,8 +1441,6 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0._unitList[slot5] = slot10
-
-	slot0:setShipUnitBound(slot10)
 
 	if slot10:GetIFF() == uv0.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot5] = slot10
@@ -2177,6 +2181,7 @@ function slot8.SpawnFusionUnit(slot0, slot1, slot2, slot3, slot4)
 	uv0.SetFusionAttrFromElement(slot7, slot1, slot3, slot4)
 	slot7:SetCurrentHP(slot7:GetMaxHP())
 	slot1:GetFleetVO():AppendPlayerUnit(slot7)
+	slot0:setShipUnitBound(slot7)
 	uv1.AttachWeather(slot7, slot0._weahter)
 	slot0._cldSystem:InitShipCld(slot7)
 	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {

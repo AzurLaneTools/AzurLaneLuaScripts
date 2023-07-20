@@ -217,10 +217,16 @@ function slot8.SetUnitBound(slot0, slot1, slot2)
 end
 
 function slot8.UpdateScoutUnitBound(slot0)
-	slot1 = slot0._fleetUnitBound:GetBound()
+	slot1, slot2, slot3, slot4, slot5, slot6 = slot0._fleetUnitBound:GetBound()
 
-	for slot5, slot6 in ipairs(slot0._scoutList) do
-		slot6:SetBound(slot1)
+	for slot10, slot11 in ipairs(slot0._scoutList) do
+		slot11:SetBound(slot1, slot2, slot3, slot4, slot5, slot6)
+	end
+
+	for slot10, slot11 in pairs(slot0._freezeList) do
+		if not slot10:IsMainFleetUnit() then
+			slot10:SetBound(slot1, slot2, slot3, slot4, slot5, slot6)
+		end
 	end
 end
 
@@ -365,6 +371,10 @@ end
 
 function slot8.GetUnitList(slot0)
 	return slot0._unitList
+end
+
+function slot8.GetFreezeUnitList(slot0)
+	return slot0._freezeList
 end
 
 function slot8.GetMainList(slot0)
