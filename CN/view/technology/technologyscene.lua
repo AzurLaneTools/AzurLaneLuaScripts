@@ -932,15 +932,12 @@ end
 function slot0.updatePickUpVersionChange(slot0)
 	slot0:updateSettingBtnVersion()
 
-	slot4 = slot0.technologyQueue
+	for slot4, slot5 in ipairs(slot0.technologyCards) do
+		slot0:updateInfoVersionPickUp(slot5, slot0.technologyVOs[slot4])
+	end
 
-	for slot4, slot5 in pairs({
-		[slot0.itemList] = slot0.technologyVOs,
-		[slot0.queueCardItemList] = slot4
-	}) do
-		for slot9, slot10 in ipairs(slot5) do
-			slot0:updateInfoVersionPickUp(slot4.container:GetChild(slot9 - 1), slot10)
-		end
+	for slot4, slot5 in ipairs(slot0.technologyQueue) do
+		slot0:updateInfoVersionPickUp(slot0.queueCardItemList.container:GetChild(slot4 - 1), slot5)
 	end
 end
 

@@ -99,7 +99,11 @@ function slot0.getComfortable(slot0, slot1)
 	end
 
 	for slot8, slot9 in pairs(slot0.furnitures) do
-		slot4(slot9)
+		slot10 = slot9.count or 1
+
+		for slot14 = 1, slot10 do
+			slot4(slot9)
+		end
 	end
 
 	slot5 = pairs
