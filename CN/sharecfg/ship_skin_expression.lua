@@ -45745,7 +45745,7 @@ pg.ship_skin_expression = {
 		login = "1",
 		detail = "2"
 	},
-	Baoduoliuhua_3 = {
+	baoduoliuhua_3 = {
 		default = "",
 		feeling3 = "1",
 		unlock = "",
@@ -45756,7 +45756,7 @@ pg.ship_skin_expression = {
 		mission = "4",
 		touch2 = "6",
 		feeling1 = "2",
-		painting = "Baoduoliuhua_3",
+		painting = "baoduoliuhua_3",
 		lose = "4",
 		feeling4 = "5",
 		touch = "1",
