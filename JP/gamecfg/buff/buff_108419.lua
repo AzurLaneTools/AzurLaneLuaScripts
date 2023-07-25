@@ -13,7 +13,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onBeforeFatalDamage"
+				"onSink"
 			},
 			arg_list = {
 				skill_id = 108416,

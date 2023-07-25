@@ -1081,11 +1081,6 @@ function slot9.GetReloadFinishTimeStamp(slot0)
 		slot1 = slot1 + slot6
 	end
 
-	if slot1 ~= 0 then
-		slot3 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
-		slot1 = (slot1 >= 0 or math.max(slot1, (slot0._reloadRequire - slot3) * -1)) and math.min(slot1, slot3)
-	end
-
 	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime + slot1
 end
 
