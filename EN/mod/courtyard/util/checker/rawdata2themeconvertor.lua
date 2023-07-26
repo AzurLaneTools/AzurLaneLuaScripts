@@ -67,10 +67,18 @@ function slot3(slot0, slot1, slot2)
 	return false
 end
 
-function slot4(slot0, slot1, slot2, slot3)
-	for slot7, slot8 in ipairs(slot0) do
-		if uv0(slot8.parent, slot1, slot8.isNewStyle) and slot8:SameChildPosition(slot2, slot3) then
-			return slot8
+function slot4(slot0, slot1, slot2, slot3, slot4)
+	for slot8, slot9 in ipairs(slot0) do
+		if uv0(slot9.parent, slot2, slot9.isNewStyle) and slot9:SameChildPosition(slot3, slot4) and uv0(slot1, slot9.configId, slot9.isNewStyle) then
+			return slot9
+		end
+	end
+end
+
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	for slot8, slot9 in ipairs(slot0) do
+		if uv0(slot9.parent, slot2, slot9.isNewStyle) and slot9:SameChildPosition(slot3, slot4) and uv0(slot1, slot9.configId, true) then
+			return slot9
 		end
 	end
 end
@@ -90,7 +98,7 @@ function slot0.GenFurnitures(slot0, slot1)
 			slot11 = {}
 
 			for slot15, slot16 in pairs(slot10:GetChildList()) do
-				if uv1(slot5, slot10.configId, slot10:GetPosition(), slot16) then
+				if uv1(slot5, slot15, slot10.configId, slot10:GetPosition(), slot16) then
 					slot11[uv2(slot15, slot17.configId, slot17.isNewStyle)] = slot16
 				end
 			end
@@ -103,7 +111,7 @@ function slot0.GenFurnitures(slot0, slot1)
 		slot1 = {}
 
 		for slot5, slot6 in pairs(slot0:GetChildList()) do
-			if uv0(uv1, slot0.configId, slot0:GetPosition(), slot6) then
+			if uv0(uv1, slot5, slot0.configId, slot0:GetPosition(), slot6) then
 				slot7:SetUniqueId(slot5)
 				table.insert(slot1, slot7)
 			end

@@ -236,14 +236,34 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "7012",
 		id = 9,
 		pic = "temp9",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene shop",
+		type = 3,
+		time = {
 			{
-				warp = "shopstreet"
+				{
+					2023,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -348,7 +368,8 @@ pg.activity_banner = {
 	},
 	get_id_list_by_type = {
 		[3] = {
-			1
+			1,
+			9
 		},
 		[2] = {
 			2,
@@ -357,8 +378,7 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
-			9
+			8
 		},
 		[9] = {
 			90,
