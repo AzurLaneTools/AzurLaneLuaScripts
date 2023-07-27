@@ -28,7 +28,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020)
-	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 	slot0.activatableIDList = slot0.activityData.data1_list
 	slot0.activeIDList = slot0.activityData.data2_list
 end

@@ -884,6 +884,346 @@ pg.guild_technology_template = {
 			"gold_max"
 		}
 	},
+	[2031] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3100,
+		exp = 0,
+		num = 9300,
+		contribution_multiple = 1.5,
+		id = 2031,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 31,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2032] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3200,
+		exp = 0,
+		num = 9600,
+		contribution_multiple = 1.5,
+		id = 2032,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 32,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2033] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3300,
+		exp = 0,
+		num = 9900,
+		contribution_multiple = 1.5,
+		id = 2033,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 33,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2034] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3400,
+		exp = 0,
+		num = 10200,
+		contribution_multiple = 1.5,
+		id = 2034,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 34,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2035] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3500,
+		exp = 0,
+		num = 10500,
+		contribution_multiple = 1.5,
+		id = 2035,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 35,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2036] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3600,
+		exp = 0,
+		num = 10800,
+		contribution_multiple = 1.5,
+		id = 2036,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 36,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2037] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3700,
+		exp = 0,
+		num = 11100,
+		contribution_multiple = 1.5,
+		id = 2037,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 37,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2038] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3800,
+		exp = 0,
+		num = 11400,
+		contribution_multiple = 1.5,
+		id = 2038,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 38,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2039] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 3900,
+		exp = 0,
+		num = 11700,
+		contribution_multiple = 1.5,
+		id = 2039,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 39,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2040] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4000,
+		exp = 0,
+		num = 12000,
+		contribution_multiple = 1.5,
+		id = 2040,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 40,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2041] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4100,
+		exp = 0,
+		num = 12300,
+		contribution_multiple = 1.5,
+		id = 2041,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 41,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2042] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4200,
+		exp = 0,
+		num = 12600,
+		contribution_multiple = 1.5,
+		id = 2042,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 42,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2043] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4300,
+		exp = 0,
+		num = 12900,
+		contribution_multiple = 1.5,
+		id = 2043,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 43,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2044] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4400,
+		exp = 0,
+		num = 13200,
+		contribution_multiple = 1.5,
+		id = 2044,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 44,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2045] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 13500,
+		contribution_multiple = 1.5,
+		id = 2045,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 45,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2046] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4600,
+		exp = 0,
+		num = 13800,
+		contribution_multiple = 1.5,
+		id = 2046,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 46,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2047] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4700,
+		exp = 0,
+		num = 14100,
+		contribution_multiple = 1.5,
+		id = 2047,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 47,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2048] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4800,
+		exp = 0,
+		num = 14400,
+		contribution_multiple = 1.5,
+		id = 2048,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 48,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2049] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 4900,
+		exp = 0,
+		num = 14700,
+		contribution_multiple = 1.5,
+		id = 2049,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 49,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2050] = {
+		level_max = 30,
+		name = "物資儲存技術",
+		group = 2,
+		need_guild_active = 5000,
+		exp = 0,
+		num = 15000,
+		contribution_multiple = 1.5,
+		id = 2050,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 50,
+		effect_args = {
+			"gold_max"
+		}
+	},
 	[3000] = {
 		level_max = 30,
 		name = "石油儲存技術",
@@ -1411,6 +1751,346 @@ pg.guild_technology_template = {
 			"oil_max"
 		}
 	},
+	[3031] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3100,
+		exp = 0,
+		num = 1550,
+		contribution_multiple = 1.5,
+		id = 3031,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 31,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3032] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3200,
+		exp = 0,
+		num = 1600,
+		contribution_multiple = 1.5,
+		id = 3032,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 32,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3033] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3300,
+		exp = 0,
+		num = 1650,
+		contribution_multiple = 1.5,
+		id = 3033,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 33,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3034] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3400,
+		exp = 0,
+		num = 1700,
+		contribution_multiple = 1.5,
+		id = 3034,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 34,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3035] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3500,
+		exp = 0,
+		num = 1750,
+		contribution_multiple = 1.5,
+		id = 3035,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 35,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3036] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3600,
+		exp = 0,
+		num = 1800,
+		contribution_multiple = 1.5,
+		id = 3036,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 36,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3037] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3700,
+		exp = 0,
+		num = 1850,
+		contribution_multiple = 1.5,
+		id = 3037,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 37,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3038] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3800,
+		exp = 0,
+		num = 1900,
+		contribution_multiple = 1.5,
+		id = 3038,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 38,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3039] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 3900,
+		exp = 0,
+		num = 1950,
+		contribution_multiple = 1.5,
+		id = 3039,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 39,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3040] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4000,
+		exp = 0,
+		num = 2000,
+		contribution_multiple = 1.5,
+		id = 3040,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 40,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3041] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4100,
+		exp = 0,
+		num = 2050,
+		contribution_multiple = 1.5,
+		id = 3041,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 41,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3042] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4200,
+		exp = 0,
+		num = 2100,
+		contribution_multiple = 1.5,
+		id = 3042,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 42,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3043] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4300,
+		exp = 0,
+		num = 2150,
+		contribution_multiple = 1.5,
+		id = 3043,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 43,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3044] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4400,
+		exp = 0,
+		num = 2200,
+		contribution_multiple = 1.5,
+		id = 3044,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 44,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3045] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 2250,
+		contribution_multiple = 1.5,
+		id = 3045,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 45,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3046] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4600,
+		exp = 0,
+		num = 2300,
+		contribution_multiple = 1.5,
+		id = 3046,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 46,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3047] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4700,
+		exp = 0,
+		num = 2350,
+		contribution_multiple = 1.5,
+		id = 3047,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 47,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3048] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4800,
+		exp = 0,
+		num = 2400,
+		contribution_multiple = 1.5,
+		id = 3048,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 48,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3049] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 4900,
+		exp = 0,
+		num = 2450,
+		contribution_multiple = 1.5,
+		id = 3049,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 49,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3050] = {
+		level_max = 30,
+		name = "石油儲存技術",
+		group = 3,
+		need_guild_active = 5000,
+		exp = 0,
+		num = 2500,
+		contribution_multiple = 1.5,
+		id = 3050,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 50,
+		effect_args = {
+			"oil_max"
+		}
+	},
 	[4000] = {
 		level_max = 10,
 		name = "船塢擴充技術",
@@ -1598,6 +2278,91 @@ pg.guild_technology_template = {
 			"ship_bag_size"
 		}
 	},
+	[4011] = {
+		level_max = 10,
+		name = "船塢擴充技術",
+		group = 4,
+		need_guild_active = 3300,
+		exp = 0,
+		num = 22,
+		contribution_multiple = 1.5,
+		id = 4011,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 11,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4012] = {
+		level_max = 10,
+		name = "船塢擴充技術",
+		group = 4,
+		need_guild_active = 3600,
+		exp = 0,
+		num = 24,
+		contribution_multiple = 1.5,
+		id = 4012,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 12,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4013] = {
+		level_max = 10,
+		name = "船塢擴充技術",
+		group = 4,
+		need_guild_active = 3900,
+		exp = 0,
+		num = 26,
+		contribution_multiple = 1.5,
+		id = 4013,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 13,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4014] = {
+		level_max = 10,
+		name = "船塢擴充技術",
+		group = 4,
+		need_guild_active = 4200,
+		exp = 0,
+		num = 28,
+		contribution_multiple = 1.5,
+		id = 4014,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 14,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4015] = {
+		level_max = 10,
+		name = "船塢擴充技術",
+		group = 4,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 30,
+		contribution_multiple = 1.5,
+		id = 4015,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 15,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
 	[5000] = {
 		level_max = 10,
 		name = "倉庫擴充技術",
@@ -1781,6 +2546,91 @@ pg.guild_technology_template = {
 		gold_consume = 0,
 		contribution_consume = 0,
 		level = 10,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5011] = {
+		level_max = 10,
+		name = "倉庫擴充技術",
+		group = 5,
+		need_guild_active = 3300,
+		exp = 0,
+		num = 55,
+		contribution_multiple = 1.5,
+		id = 5011,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 11,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5012] = {
+		level_max = 10,
+		name = "倉庫擴充技術",
+		group = 5,
+		need_guild_active = 3600,
+		exp = 0,
+		num = 60,
+		contribution_multiple = 1.5,
+		id = 5012,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 12,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5013] = {
+		level_max = 10,
+		name = "倉庫擴充技術",
+		group = 5,
+		need_guild_active = 3900,
+		exp = 0,
+		num = 65,
+		contribution_multiple = 1.5,
+		id = 5013,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 13,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5014] = {
+		level_max = 10,
+		name = "倉庫擴充技術",
+		group = 5,
+		need_guild_active = 4200,
+		exp = 0,
+		num = 70,
+		contribution_multiple = 1.5,
+		id = 5014,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 14,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5015] = {
+		level_max = 10,
+		name = "倉庫擴充技術",
+		group = 5,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 75,
+		contribution_multiple = 1.5,
+		id = 5015,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 15,
 		effect_args = {
 			"equip_bag_size"
 		}
@@ -2197,7 +3047,27 @@ pg.guild_technology_template = {
 			2027,
 			2028,
 			2029,
-			2030
+			2030,
+			2031,
+			2032,
+			2033,
+			2034,
+			2035,
+			2036,
+			2037,
+			2038,
+			2039,
+			2040,
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047,
+			2048,
+			2049,
+			2050
 		},
 		{
 			3000,
@@ -2230,7 +3100,27 @@ pg.guild_technology_template = {
 			3027,
 			3028,
 			3029,
-			3030
+			3030,
+			3031,
+			3032,
+			3033,
+			3034,
+			3035,
+			3036,
+			3037,
+			3038,
+			3039,
+			3040,
+			3041,
+			3042,
+			3043,
+			3044,
+			3045,
+			3046,
+			3047,
+			3048,
+			3049,
+			3050
 		},
 		{
 			4000,
@@ -2243,7 +3133,12 @@ pg.guild_technology_template = {
 			4007,
 			4008,
 			4009,
-			4010
+			4010,
+			4011,
+			4012,
+			4013,
+			4014,
+			4015
 		},
 		{
 			5000,
@@ -2256,7 +3151,12 @@ pg.guild_technology_template = {
 			5007,
 			5008,
 			5009,
-			5010
+			5010,
+			5011,
+			5012,
+			5013,
+			5014,
+			5015
 		},
 		{
 			6000,
@@ -2335,6 +3235,26 @@ pg.guild_technology_template = {
 		2028,
 		2029,
 		2030,
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038,
+		2039,
+		2040,
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046,
+		2047,
+		2048,
+		2049,
+		2050,
 		3000,
 		3001,
 		3002,
@@ -2366,6 +3286,26 @@ pg.guild_technology_template = {
 		3028,
 		3029,
 		3030,
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
 		4000,
 		4001,
 		4002,
@@ -2377,6 +3317,11 @@ pg.guild_technology_template = {
 		4008,
 		4009,
 		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
 		5000,
 		5001,
 		5002,
@@ -2388,6 +3333,11 @@ pg.guild_technology_template = {
 		5008,
 		5009,
 		5010,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
 		6000,
 		6001,
 		6002,

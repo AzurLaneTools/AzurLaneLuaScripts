@@ -15,6 +15,8 @@ slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 slot0.QUICK_EXCHAGE_BLUEPRINT = "ShipBluePrintMediator:QUICK_EXCHAGE_BLUEPRINT"
 
 function slot0.register(slot0)
+	PlayerPrefs.SetString("technology_day_mark", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true))
+
 	slot1 = getProxy(TechnologyProxy)
 
 	if slot0.contextData.shipId then
@@ -197,6 +199,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:clearTimers(slot3.id)
 	elseif GAME.MOD_BLUEPRINT_DONE == slot2 then
 		slot0.viewComponent:doModAnim(slot3.oldBluePrint, slot3.newBluePrint)
+		slot0.viewComponent:updateAllPursuingCostTip()
 	elseif slot2 == BayProxy.SHIP_ADDED or BayProxy.SHIP_UPDATED == slot2 then
 		slot0.viewComponent:setShipVOs(getProxy(BayProxy):getRawData())
 	elseif GAME.BUILD_SHIP_BLUEPRINT_DONE == slot2 then

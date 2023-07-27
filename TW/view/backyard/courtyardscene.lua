@@ -56,6 +56,10 @@ function slot0.OnCourtYardLoaded(slot0)
 	end
 
 	slot0:UnBlockEvents()
+
+	if slot0.contextData.OpenShop then
+		triggerButton(slot0:GetPanel(CourtYardBottomPanel).shopBtn)
+	end
 end
 
 function slot0.UpdateDorm(slot0, slot1, slot2)
@@ -87,7 +91,7 @@ function slot0.SwitchFloorDone(slot0)
 end
 
 function slot0.ShowAddFoodTip(slot0)
-	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT and slot0.dorm.food == 0 and not pg.NewGuideMgr.GetInstance():IsBusy() and slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) > 0 and (not slot0.contextData.fromMediatorName or slot0.contextData.fromMediatorName ~= "DockyardMediator" and slot0.contextData.fromMediatorName ~= "ShipMainMediator") and not slot0.contextData.skipToCharge then
+	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT and slot0.dorm.food == 0 and not slot0.contextData.OpenShop and not pg.NewGuideMgr.GetInstance():IsBusy() and slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) > 0 and (not slot0.contextData.fromMediatorName or slot0.contextData.fromMediatorName ~= "DockyardMediator" and slot0.contextData.fromMediatorName ~= "ShipMainMediator") and not slot0.contextData.skipToCharge then
 		slot0.emptyFoodPage:ExecuteAction("Flush")
 
 		slot0.contextData.fromMain = nil
@@ -147,7 +151,15 @@ function slot0.OnReconnection(slot0)
 end
 
 function slot0.OnAddFurniture(slot0)
-	slot0.panels[3]:OnFlush(BackYardConst.DORM_UPDATE_TYPE_LEVEL)
+	slot0:GetPanel(CourtYardTopPanel):OnFlush(BackYardConst.DORM_UPDATE_TYPE_LEVEL)
+end
+
+function slot0.GetPanel(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.panels) do
+		if isa(slot6, slot1) then
+			return slot6
+		end
+	end
 end
 
 function slot0.onBackPressed(slot0)

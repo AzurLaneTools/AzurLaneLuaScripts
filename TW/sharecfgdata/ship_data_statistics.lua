@@ -300899,6 +300899,518 @@ _G.pg.base.ship_data_statistics[9702034] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9702041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "拉·加利索尼埃·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702040,
+	english_name = "La Galissonnière.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		583,
+		35,
+		59,
+		58,
+		0,
+		65,
+		0,
+		46,
+		29,
+		31,
+		35,
+		35
+	},
+	attrs_growth = {
+		10031,
+		478,
+		782,
+		763,
+		0,
+		450,
+		0,
+		648,
+		481,
+		0,
+		0,
+		488
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		271
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière.META",
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "拉·加利索尼埃·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702040,
+	english_name = "La Galissonnière.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		725,
+		44,
+		74,
+		72,
+		0,
+		65,
+		0,
+		46,
+		29,
+		31,
+		35,
+		44
+	},
+	attrs_growth = {
+		10031,
+		478,
+		782,
+		763,
+		0,
+		450,
+		0,
+		648,
+		481,
+		0,
+		0,
+		488
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		272
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière.META",
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "拉·加利索尼埃·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702040,
+	english_name = "La Galissonnière.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1009,
+		61,
+		103,
+		101,
+		0,
+		65,
+		0,
+		46,
+		29,
+		31,
+		35,
+		61
+	},
+	attrs_growth = {
+		10031,
+		478,
+		782,
+		763,
+		0,
+		450,
+		0,
+		648,
+		481,
+		0,
+		0,
+		488
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		273
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière.META",
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "拉·加利索尼埃·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702040,
+	english_name = "La Galissonnière.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1436,
+		86,
+		147,
+		144,
+		0,
+		65,
+		0,
+		46,
+		29,
+		31,
+		35,
+		88
+	},
+	attrs_growth = {
+		10031,
+		478,
+		782,
+		763,
+		0,
+		450,
+		0,
+		648,
+		481,
+		0,
+		0,
+		488
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		274
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière.META",
+		"La Galissonnière-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9703011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -316022,7 +316534,8 @@ _G.pg.base.ship_data_statistics[10800011] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -316150,7 +316663,8 @@ _G.pg.base.ship_data_statistics[10800012] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -316278,7 +316792,8 @@ _G.pg.base.ship_data_statistics[10800013] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -316406,7 +316921,8 @@ _G.pg.base.ship_data_statistics[10800014] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -318038,7 +318554,10 @@ _G.pg.base.ship_data_statistics[10800051] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -318162,7 +318681,10 @@ _G.pg.base.ship_data_statistics[10800052] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -318286,7 +318808,10 @@ _G.pg.base.ship_data_statistics[10800053] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -318410,7 +318935,10 @@ _G.pg.base.ship_data_statistics[10800054] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -318534,7 +319062,8 @@ _G.pg.base.ship_data_statistics[10800061] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -318658,7 +319187,8 @@ _G.pg.base.ship_data_statistics[10800062] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -318782,7 +319312,8 @@ _G.pg.base.ship_data_statistics[10800063] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -318906,7 +319437,8 @@ _G.pg.base.ship_data_statistics[10800064] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -319030,7 +319562,8 @@ _G.pg.base.ship_data_statistics[10800071] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -319154,7 +319687,8 @@ _G.pg.base.ship_data_statistics[10800072] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -319278,7 +319812,8 @@ _G.pg.base.ship_data_statistics[10800073] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -319402,7 +319937,8 @@ _G.pg.base.ship_data_statistics[10800074] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 

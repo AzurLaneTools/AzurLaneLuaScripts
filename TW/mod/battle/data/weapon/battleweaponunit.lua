@@ -860,6 +860,10 @@ function slot9.AddCDTimer(slot0, slot1)
 	slot0._reloadRequire = slot1
 end
 
+function slot9.GetCDStartTimeStamp(slot0)
+	return slot0._CDstartTime
+end
+
 function slot9.handleCoolDown(slot0)
 	slot0._currentState = slot0.STATE_READY
 	slot0._CDstartTime = nil
@@ -1089,7 +1093,9 @@ function slot9.AppendFactor(slot0, slot1)
 end
 
 function slot9.StartJamming(slot0)
-	slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+	if slot0._currentState ~= uv0.STATE_READY then
+		slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+	end
 end
 
 function slot9.JammingEliminate(slot0)

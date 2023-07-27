@@ -1898,6 +1898,20 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "GridGameReView",
+		name = "古立特小游戏2",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		config_csv = "",
+		id = 55,
+		hub_id = 46,
+		request_data = 0
+	},
 	[1001] = {
 		view_name = "GameRoomFushun3View",
 		name = "小游戏厅抚顺大冒险",
@@ -2089,6 +2103,7 @@ pg.mini_game = {
 		52,
 		53,
 		54,
+		55,
 		1001,
 		1002,
 		1003,

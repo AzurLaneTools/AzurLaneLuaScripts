@@ -2199,7 +2199,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4932,
 		title = "「交匯世界的弧光」-關卡篇",
 		memories = {
 			1896,
@@ -2234,7 +2234,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4933,
 		title = "「交匯世界的弧光」-日常篇",
 		memories = {
 			1921,

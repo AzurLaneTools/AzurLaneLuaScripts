@@ -1037,14 +1037,11 @@ function slot0.UpdateComboPanel(slot0)
 	end
 end
 
-slot2 = {
-	[ActivityConst.DOA_MAP_ACT_ID] = "LevelStageDOAFeverPanel",
-	[ActivityConst.IDOL_MASTER_CHAPTER_ID] = "LevelStageIMasFeverPanel",
-	[ActivityConst.SSSS_MAP_ACT_ID] = "LevelStageSSSSFeverPanel"
-}
-
 function slot0.UpdateDOALinkFeverPanel(slot0, slot1)
-	if not uv0[slot0.contextData.chapterVO:getConfig("act_id")] then
+	slot2 = slot0.contextData.chapterVO
+	slot3 = slot2:getConfig("act_id")
+
+	if not slot2:getConfig("levelstage_bar") or slot4 == "" then
 		existCall(slot1)
 
 		return
@@ -1062,8 +1059,8 @@ function slot0.UpdateDOALinkFeverPanel(slot0, slot1)
 	slot5.buffer:UpdateView(slot2, slot1)
 end
 
-slot3 = Vector2(396, 128)
-slot4 = Vector2(128, 128)
+slot2 = Vector2(396, 128)
+slot3 = Vector2(128, 128)
 
 function slot0.updateStageStrategy(slot0)
 	slot2 = slot0.contextData.chapterVO.fleet
@@ -1686,7 +1683,7 @@ function slot0.TryEnterChapterStoryStage(slot0)
 	})
 end
 
-slot5 = {
+slot4 = {
 	[ChapterConst.KizunaJammingDodge] = "kizunaOperationSafe",
 	[ChapterConst.KizunaJammingEngage] = "kizunaOperationDanger",
 	[ChapterConst.StatusDay] = "HololiveDayBar",

@@ -595,130 +595,28 @@ pg.login = {
 		id = 1007,
 		login_static = "login",
 		date = "stop",
-		op_play = 1,
+		op_play = 0,
 		op_time = "stop",
 		login_cri = "",
 		bgm = ""
 	},
 	[1008] = {
 		id = 1008,
-		op_play = 1,
 		login_static = "login",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[1009] = {
 		id = 1009,
-		op_play = 1,
 		login_static = "login",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	all = {
 		1,

@@ -141,6 +141,7 @@ pg.furniture_data_template = setmetatable({
 			100023,
 			100024,
 			100025,
+			100026,
 			200001,
 			200002,
 			200003,
@@ -4220,6 +4221,7 @@ pg.furniture_data_template = setmetatable({
 			100023,
 			100024,
 			100025,
+			100026,
 			54104,
 			54105
 		},
@@ -4977,7 +4979,8 @@ pg.furniture_data_template = setmetatable({
 			100020,
 			100023,
 			100024,
-			100025
+			100025,
+			100026
 		},
 		[2] = {
 			120,
@@ -7257,6 +7260,7 @@ pg.furniture_data_template = setmetatable({
 		100023,
 		100024,
 		100025,
+		100026,
 		200001,
 		200002,
 		200003,
@@ -16618,6 +16622,81 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100026] = {
+		belong = 1,
+		describe = "享受絲般順滑~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾長蹦床",
+		tag = 6,
+		icon = "tiaojiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100026,
+		can_rotate = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiaojiB",
+				"normal"
+			},
+			{
+				"tiaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"tiaojiCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -97126,7 +97205,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "zhanlongglticon",
 		deblocking = 1,
@@ -97163,7 +97242,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "feiyiglticon",
 		deblocking = 1,
@@ -97200,7 +97279,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "qianzhouglticon",
 		deblocking = 1,
@@ -97237,7 +97316,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "rexglticon",
 		deblocking = 1,
@@ -97274,7 +97353,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "jicheglticon",
 		deblocking = 1,
@@ -97481,7 +97560,7 @@ pg.base.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		belong = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		name = "怪獸啾戲服",
 		themeId = 84,
@@ -97568,7 +97647,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 2,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 5,
 		icon = "chuangglticon",
 		deblocking = 1,

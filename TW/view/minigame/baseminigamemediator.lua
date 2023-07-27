@@ -105,6 +105,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.gameRoonCoinCount = slot3
 	elseif slot2 == GAME.GAME_ROOM_AWARD_DONE and #slot3 > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
+		slot0.viewComponent:OnGetAwardDone(slot3)
 	end
 end
 

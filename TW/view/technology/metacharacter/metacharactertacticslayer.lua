@@ -89,11 +89,16 @@ end
 function slot0.levelupTacticsSkillData(slot0, slot1, slot2)
 	slot0.skillExpTable[slot1] = 0
 	slot0.switchCountLeft = slot2
-	slot0.taskInfoTable[slot1] = {}
+
+	slot0:clearTaskInfo()
 end
 
 function slot0.updateSkillExp(slot0, slot1, slot2)
 	slot0.skillExpTable[slot1] = slot2
+end
+
+function slot0.clearTaskInfo(slot0, slot1)
+	slot0.taskInfoTable[slot1] = {}
 end
 
 function slot0.initUI(slot0)

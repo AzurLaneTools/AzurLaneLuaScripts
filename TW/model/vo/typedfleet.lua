@@ -1,6 +1,8 @@
 slot0 = class("TypedFleet", import(".Fleet"))
 
 function slot0.Ctor(slot0, slot1)
+	assert(slot1.fleetType)
+
 	slot0.fleetType = slot1.fleetType or FleetType.Unknowns
 
 	uv0.super.Ctor(slot0, slot1)
@@ -13,7 +15,7 @@ function slot0.SetFleetType(slot0, slot1)
 end
 
 function slot0.isSubmarineFleet(slot0)
-	return tobool(slot0.fleetType == FleetType.Submarine)
+	return tobool(slot0:getFleetType() == FleetType.Submarine)
 end
 
 function slot0.SetSaveLastShip(slot0, slot1)

@@ -2897,6 +2897,17 @@ pg.fleet_tech_ship_class = {
 			90701
 		}
 	},
+	[970204] = {
+		shiptype = 2,
+		name = "拉·加利索尼埃·META",
+		nation = 97,
+		id = 970204,
+		t_level_1 = 3,
+		t_level = 3,
+		ships = {
+			970204
+		}
+	},
 	all = {
 		10101,
 		10102,
@@ -3138,6 +3149,7 @@ pg.fleet_tech_ship_class = {
 		90302,
 		90401,
 		90501,
-		90701
+		90701,
+		970204
 	}
 }

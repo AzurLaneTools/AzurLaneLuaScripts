@@ -224,6 +224,20 @@ function slot0.UpdateHubData(slot0, slot1)
 	slot0.Respones:PropertyChange("hubData")
 end
 
+function slot0.IsShowMainTip(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_CAKEMAKING)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF))
+	end)() or (function ()
+		if PLATFORM_CODE ~= PLATFORM_JP then
+			return
+		end
+
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
+	end)()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)

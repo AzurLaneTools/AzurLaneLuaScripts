@@ -9796,6 +9796,29 @@ _G.pg.base.item_data_statistics[21018] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21020] = {
+	display = "拉·加利索尼埃·META的專用性能提升裝置，可在「META研究室」-「能量激活」中使用。",
+	name = "結晶：拉·加利索尼埃·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21020",
+	id = 21020,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用於提升艦裝火炮性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "結晶化熱強鋼",
@@ -15729,6 +15752,99 @@ _G.pg.base.item_data_statistics[30410] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30411] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30411,
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		},
+		{
+			9,
+			2036,
+			1
+		},
+		{
+			9,
+			2037,
+			1
+		},
+		{
+			9,
+			2038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30412] = {
+	display = "可以獲得雷神之怒(魚雷)、雷神之怒(戰鬥)、雷神之怒(轟炸)外觀裝備各一件",
+	name = "雷神之怒",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/96531",
+	id = 30412,
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -17073,6 +17189,120 @@ _G.pg.base.item_data_statistics[30518] = {
 		{
 			9,
 			277,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30520] = {
+	display = "使用後可從「啾啾野戰醫院」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(醫療)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyiyuanzixuan",
+	id = 30520,
+	display_icon = {
+		{
+			9,
+			280,
+			1
+		},
+		{
+			9,
+			281,
+			1
+		},
+		{
+			9,
+			282,
+			1
+		},
+		{
+			9,
+			283,
+			1
+		},
+		{
+			9,
+			284,
+			1
+		},
+		{
+			9,
+			285,
+			1
+		},
+		{
+			9,
+			286,
+			1
+		},
+		{
+			9,
+			287,
+			1
+		},
+		{
+			9,
+			288,
+			1
+		},
+		{
+			9,
+			289,
+			1
+		},
+		{
+			9,
+			290,
+			1
+		},
+		{
+			9,
+			291,
+			1
+		},
+		{
+			9,
+			292,
+			1
+		},
+		{
+			9,
+			293,
+			1
+		},
+		{
+			9,
+			294,
+			1
+		},
+		{
+			9,
+			295,
+			1
+		},
+		{
+			9,
+			296,
+			1
+		},
+		{
+			9,
+			297,
 			1
 		}
 	},
@@ -161972,7 +162202,7 @@ _G.pg.base.item_data_statistics[59305] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
 	max_num = 0,
-	type = 0,
+	type = 98,
 	time_limit = 0,
 	rarity = 2,
 	shop_id = -1,
@@ -161980,7 +162210,7 @@ _G.pg.base.item_data_statistics[59305] = {
 	drop_gold_max = 0,
 	drop_oil_max = 0,
 	link_id = 41206,
-	virtual_type = 99,
+	virtual_type = 0,
 	is_world = 0,
 	icon = "Props/xunliandianshu_d",
 	id = 59305,
@@ -162283,6 +162513,98 @@ _G.pg.base.item_data_statistics[59325] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59325,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59326] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41240,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	id = 59326,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59327] = {
+	display = "於「蝶海夢花」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41251,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59327,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59328] = {
+	display = "用於「蝶海夢花」復刻活動兌換，活動結束後將會消失",
+	name = "蝶影",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/shinano_pt",
+	id = 59328,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59329] = {
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59329,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -162701,6 +163023,52 @@ _G.pg.base.item_data_statistics[59390] = {
 	is_world = 0,
 	icon = "Props/donghuangjie",
 	id = 59390,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59403] = {
+	display = "參與「世界巡遊」(2023.4.1~2023.5.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59403,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59404] = {
+	display = "不该被看到",
+	name = "通行证十期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7010,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59404,
 	display_icon = {},
 	price = {},
 	index = {},

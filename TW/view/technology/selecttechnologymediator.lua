@@ -33,6 +33,11 @@ end
 
 function slot0.onBlueprintNotify()
 	slot0 = getProxy(TechnologyProxy)
+
+	if PlayerPrefs.GetString("technology_day_mark", "") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true) and slot0:CheckPursuingCostTip() then
+		return true
+	end
+
 	slot1 = slot0:getBluePrints()
 
 	if not slot0:getBuildingBluePrint() then

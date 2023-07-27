@@ -115,13 +115,13 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_APPLY_TEMPLATE, function (slot0, slot1, slot2)
-		function slot5()
+		function slot4()
 			uv0:sendNotification(GAME.BACKYARD_APPLY_THEME_TEMPLATE, {
 				template = uv1
 			})
 		end
 
-		if not getProxy(DormProxy):getData():OwnThemeTemplateFurniture(slot1) then
+		if not slot1:OwnThemeTemplateFurniture() then
 			uv0.contextData.msgBox:ExecuteAction("SetUp", {
 				type = BackYardThemeTemplateMsgBox.TYPE_IMAGE,
 				content = i18n("backyard_theme_apply_tip1"),
@@ -130,13 +130,13 @@ function slot0.register(slot0)
 				confirmTxt = i18n("backyard_theme_word_buy"),
 				cancelTxt = i18n("backyard_theme_word_apply"),
 				onYes = slot2,
-				onCancel = slot5
+				onCancel = slot4
 			})
 
 			return
 		end
 
-		slot5()
+		slot4()
 	end)
 	slot0:bind(uv0.ON_LIKE_THEME, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.BACKYARD_LIKE_THEME_TEMPLATE, {

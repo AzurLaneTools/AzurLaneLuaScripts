@@ -249,6 +249,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS, slot0.OnHideButtons)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.EDIT_CUSTOM_WARNING_LABEL, slot0.onEditCustomWarning)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.GRIDMAN_SKILL_FLOAT, slot0.onGridmanSkillFloat)
 end
 
 function slot6.RemoveUIEvent(slot0)
@@ -278,6 +279,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.EDIT_CUSTOM_WARNING_LABEL)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.GRIDMAN_SKILL_FLOAT)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -645,6 +647,24 @@ function slot6.onEditCustomWarning(slot0, slot1)
 	slot0._warningView:EditCustomWarning(slot1.Data.labelData)
 end
 
+function slot6.onGridmanSkillFloat(slot0, slot1)
+	if not slot0._gridmanSkillFloat then
+		slot3 = uv0.Battle.BattleResourceManager.GetInstance():InstGridmanSkillUI()
+		slot0._gridmanSkillFloat = uv0.Battle.BattleGridmanSkillFloatView.New(slot3)
+
+		setParent(slot3, slot0._ui.uiCanvas, false)
+	end
+
+	slot2 = slot1.Data
+	slot4 = slot2.IFF
+
+	if slot2.type == 5 then
+		slot0._gridmanSkillFloat:DoFusionFloat(slot4)
+	else
+		slot0._gridmanSkillFloat:DoSkillFloat(slot3, slot4)
+	end
+end
+
 function slot6.registerUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.SKILL_FLOAT, slot0.onSkillFloat)
 end
@@ -738,6 +758,10 @@ function slot6.Dispose(slot0)
 		slot0._alchemistAP:Dispose()
 
 		slot0._alchemistAP = nil
+	end
+
+	if slot0._gridmanSkillFloat then
+		slot0._gridmanSkillFloat:Dispose()
 	end
 
 	uv0.super.Dispose(slot0)

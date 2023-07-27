@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 274
+		key_value = 269
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1916,7 +1916,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 275
+		key_value = 270
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2028,6 +2028,16 @@ pg.gameset = {
 	meta_skill_exp_max = {
 		description = "",
 		key_value = 30000
+	},
+	meta_tech_sort = {
+		key_value = 0,
+		description = {
+			1,
+			5,
+			2,
+			3,
+			4
+		}
 	},
 	world_boss_stage = {
 		description = "",

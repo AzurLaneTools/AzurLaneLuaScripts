@@ -122,7 +122,7 @@ end
 function slot0.GetData(slot0)
 	slot1 = {}
 	slot2 = slot0.dorm
-	slot2 = slot2:GetAllFurniture()
+	slot2 = slot2:GetPurchasedFurnitures()
 
 	function slot3(slot0)
 		return pg.furniture_shop_template[slot0.id] and not slot0:isNotForSale() and (not slot0:isForActivity() or uv0[slot0.id]) and not not slot0:inTime()

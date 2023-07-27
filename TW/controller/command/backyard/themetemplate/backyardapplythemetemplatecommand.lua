@@ -2,7 +2,6 @@ slot0 = class("BackYardApplyThemeTemplateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.template
 	slot4 = slot2.callback
 	slot5 = getProxy(DormProxy)
 
@@ -40,22 +39,21 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot7 = 1
-	slot9 = slot3:GetAllFurniture()
-	slot11 = {}
+	slot10 = {}
 
-	if slot3:IsOccupyed(uv0.GetAllFloorFurnitures(), 1) then
-		slot11 = slot3:GetUsableFurnituresForFloor(slot8, slot7)
+	if slot2.template:IsOccupyed(uv0.GetAllFloorFurnitures(), 1) then
+		slot10 = slot3:GetUsableFurnituresForFloor(slot8, slot7)
 	else
-		for slot15, slot16 in pairs(slot9) do
-			table.insert(slot11, slot16)
+		for slot15, slot16 in pairs(slot3:GetAllFurniture()) do
+			table.insert(slot10, slot16)
 		end
 	end
 
-	uv0.WarpList(slot11)
-	slot6(slot11, slot7)
+	uv0.WarpList(slot10)
+	slot6(slot10, slot7)
 
 	if slot4 then
-		slot4(not slot10, slot11)
+		slot4(not slot9, slot10)
 	end
 end
 
@@ -63,7 +61,9 @@ function slot0.GetAllFloorFurnitures()
 	function slot0(slot0, slot1)
 		slot4 = {}
 
-		GetCanBePutFurnituresForThemeCommand.Furniture2ThemeFurnitures(getProxy(DormProxy):getData():getFurnitrues(slot0), slot4)
+		if getProxy(DormProxy):getRawData():GetTheme(slot0) then
+			slot4 = slot3:GetAllFurniture()
+		end
 
 		for slot8, slot9 in pairs(slot4) do
 			slot1[slot9.id] = slot9
@@ -79,7 +79,7 @@ function slot0.GetAllFloorFurnitures()
 end
 
 function slot0.WarpList(slot0)
-	slot1 = getProxy(DormProxy):getData()
+	slot1 = getProxy(DormProxy):getRawData()
 	slot2, slot3, slot4, slot5 = slot1:GetMapSize()
 
 	function slot6(slot0)
@@ -89,10 +89,10 @@ function slot0.WarpList(slot0)
 	end
 
 	slot7 = slot1.level
-	slot8 = slot1:GetAllFurniture()
+	slot8 = slot1:GetPurchasedFurnitures()
 
 	for slot12 = #slot0, 1, -1 do
-		if not slot0[slot12].position or not slot8[slot13.id] or slot6(slot13) then
+		if not slot0[slot12].position or not slot8[slot13.configId] or slot6(slot13) then
 			table.remove(slot0, slot12)
 		end
 	end

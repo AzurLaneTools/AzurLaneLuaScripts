@@ -1,13 +1,5 @@
 slot0 = class("LevelScene", import("..base.BaseUI"))
-slot1 = import("view.level.MapBuilder.MapBuilder")
-slot0.correspondingClass = {
-	[slot1.TYPENORMAL] = "MapBuilderNormal",
-	[slot1.TYPEESCORT] = "MapBuilderEscort",
-	[slot1.TYPESHINANO] = "MapBuilderShinano",
-	[slot1.TYPESKIRMISH] = "MapBuilderSkirmish",
-	[slot1.TYPEBISMARCK] = "MapBuilderBismarck"
-}
-slot2 = 0.5
+slot1 = 0.5
 
 function slot0.forceGC(slot0)
 	return true
@@ -129,6 +121,7 @@ function slot0.initData(slot0)
 	slot0.levelCamIndices = 1
 	slot0.frozenCount = 0
 	slot0.currentBG = nil
+	slot0.mapBuilder = nil
 	slot0.mbDict = {}
 	slot0.mapGroup = {}
 
@@ -371,6 +364,9 @@ function slot0.initEvents(slot0)
 	end)
 	slot0:bind(LevelUIConst.ADD_MSG_QUEUE, function (slot0, slot1)
 		uv0:addbubbleMsgBox(slot1)
+	end)
+	slot0:bind(LevelUIConst.SET_MAP, function (slot0, slot1)
+		uv0:setMap(slot1)
 	end)
 end
 
@@ -966,9 +962,9 @@ function slot0.RefreshMapBG(slot0)
 	slot0:SwitchMapBG(slot0.contextData.map, slot0.lastMapIdx, true)
 end
 
-slot3 = 1
-slot4 = 2
-slot5 = 3
+slot2 = 1
+slot3 = 2
+slot4 = 3
 
 function slot0.updateCouldAnimator(slot0, slot1, slot2)
 	if slot1 then
@@ -1135,10 +1131,7 @@ end
 
 function slot0.updateRemasterTicket(slot0)
 	setText(slot0.ticketTxt, getProxy(ChapterProxy).remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
-
-	if slot0.levelRemasterView:isShowing() then
-		slot0.levelRemasterView:ActionInvoke("updateTicketDisplay")
-	end
+	slot0:emit(LevelUIConst.FLUSH_REMASTER_TICKET)
 end
 
 function slot0.updateRemasterBtnTip(slot0)
@@ -1156,9 +1149,7 @@ function slot0.updatDailyBtnTip(slot0)
 end
 
 function slot0.updateRemasterInfo(slot0)
-	if slot0.levelRemasterView:isShowing() then
-		slot0.levelRemasterView:ActionInvoke("flushOnly")
-	end
+	slot0:emit(LevelUIConst.FLUSH_REMASTER_INFO)
 
 	if not slot0.contextData.map then
 		return
@@ -1354,6 +1345,7 @@ function slot0.registerActBtn(slot0)
 
 	onButton(slot0, slot0.actEliteBtn, slot3, SFX_PANEL)
 	onButton(slot0, slot0.actRyzaBtn, slot3, SFX_PANEL)
+	slot0:bind(LevelUIConst.SWITCH_CHALLENGE_MAP, slot3)
 	onButton(slot0, slot0.actNormalBtn, function ()
 		if uv0:isfrozen() then
 			return
@@ -1474,30 +1466,32 @@ function slot0.setMap(slot0, slot1)
 	slot0:tryPlayMapStory()
 end
 
-function slot0.SwitchMapBuilder(slot0, slot1, slot2)
-	slot3 = slot0:GetMapBuilderInBuffer(slot1)
+slot5 = import("view.level.MapBuilder.MapBuilder")
+slot6 = {
+	default = "MapBuilderNormal",
+	[slot5.TYPENORMAL] = "MapBuilderNormal",
+	[slot5.TYPEESCORT] = "MapBuilderEscort",
+	[slot5.TYPESHINANO] = "MapBuilderShinano",
+	[slot5.TYPESKIRMISH] = "MapBuilderSkirmish",
+	[slot5.TYPEBISMARCK] = "MapBuilderBismarck",
+	[slot5.TYPESSSS] = "MapBuilderSSSS"
+}
 
-	if not slot0.mapBuilder then
-		slot0.mapBuilder = slot0.mbDict[slot1]
+function slot0.SwitchMapBuilder(slot0, slot1)
+	if slot0.mapBuilder and slot0.mapBuilder:GetType() ~= slot1 then
+		slot0.mapBuilder.buffer:Hide()
 	end
 
-	slot4 = slot3.buffer
+	slot2 = slot0:GetMapBuilderInBuffer(slot1)
+	slot0.mapBuilder = slot2
 
-	slot4:DoFunction(function ()
-		if uv0.mapBuilder and uv0.mapBuilder:GetType() ~= uv1 then
-			uv0.mapBuilder.buffer:Hide()
-		end
-
-		uv0.mapBuilder = uv0.mbDict[uv1]
-
-		uv2:Show()
-		uv3(uv2)
-	end)
+	slot2.buffer:Show()
 end
 
 function slot0.GetMapBuilderInBuffer(slot0, slot1)
 	if not slot0.mbDict[slot1] then
-		slot0.mbDict[slot1] = import("view.level.MapBuilder." .. slot0.correspondingClass[slot1]).New(slot0._tf, slot0)
+		slot0.mbDict[slot1] = _G[uv0[slot1] or uv0.default].New(slot0._tf, slot0)
+		slot0.mbDict[slot1].isFrozen = slot0:isfrozen()
 
 		slot0.mbDict[slot1]:Load()
 	end
@@ -1506,62 +1500,38 @@ function slot0.GetMapBuilderInBuffer(slot0, slot1)
 end
 
 function slot0.JudgeMapBuilderType(slot0)
-	slot2 = nil
-
-	if slot0.contextData.map:getConfig("ui_type") == uv0.TYPESHINANO then
-		slot2 = uv0.TYPESHINANO
-	elseif slot1:getConfig("ui_type") == uv0.TYPEBISMARCK then
-		slot2 = uv0.TYPEBISMARCK
-	elseif slot1:isNormalMap() then
-		slot2 = uv0.TYPENORMAL
-	elseif slot1:isSkirmish() then
-		slot2 = uv0.TYPESKIRMISH
-	elseif slot1:isEscort() then
-		slot2 = uv0.TYPEESCORT
-	end
-
-	assert(slot2, "Can't Find Corresponding MapBuilder : " .. tostring(slot1:getMapType()))
-
-	return slot2
+	return slot0.contextData.map:getConfig("ui_type")
 end
 
 function slot0.updateMap(slot0)
 	slot1 = slot0.contextData.map
 
-	seriesAsync({
-		function (slot0)
-			uv0:SwitchMapBG(uv1, uv0.lastMapIdx)
+	slot0:SwitchMapBG(slot1, slot0.lastMapIdx)
 
-			uv0.lastMapIdx = nil
-			slot2 = nil
-			uv0.map.pivot = (uv1:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot1))
-			slot3 = uv1:getConfig("uifx")
+	slot0.lastMapIdx = nil
+	slot3 = nil
+	slot0.map.pivot = (slot1:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot2))
+	slot4 = slot1:getConfig("uifx")
 
-			for slot7 = 1, uv0.UIFXList.childCount do
-				slot8 = uv0.UIFXList:GetChild(slot7 - 1)
+	for slot8 = 1, slot0.UIFXList.childCount do
+		slot9 = slot0.UIFXList:GetChild(slot8 - 1)
 
-				setActive(slot8, slot8.name == slot3)
-			end
+		setActive(slot9, slot9.name == slot4)
+	end
 
-			uv0:PlayBGM()
-			uv0:SwitchMapBuilder(uv0:JudgeMapBuilderType(), slot0)
-		end,
-		function (slot0)
-			uv0.mapBuilder:Update(uv1)
-			uv0:UpdateSwitchMapButton()
-			uv0:updateMapItems()
-			uv0.mapBuilder:UpdateButtons()
-			uv0.mapBuilder:PostUpdateMap(uv1)
+	slot0:PlayBGM()
+	slot0:SwitchMapBuilder(slot0:JudgeMapBuilderType())
+	slot0.mapBuilder.buffer:Update(slot1)
+	slot0:UpdateSwitchMapButton()
+	slot0:updateMapItems()
+	slot0.mapBuilder.buffer:UpdateButtons()
+	slot0.mapBuilder.buffer:PostUpdateMap(slot1)
 
-			if uv0.contextData.openChapterId then
-				uv0.mapBuilder.buffer:TryOpenChapter(uv0.contextData.openChapterId)
+	if slot0.contextData.openChapterId then
+		slot0.mapBuilder.buffer:TryOpenChapter(slot0.contextData.openChapterId)
 
-				uv0.contextData.openChapterId = nil
-			end
-
-			slot0()
-		end
-	})
+		slot0.contextData.openChapterId = nil
+	end
 end
 
 function slot0.UpdateSwitchMapButton(slot0)
@@ -1595,7 +1565,7 @@ function slot0.updateChapterTF(slot0, slot1)
 		return
 	end
 
-	slot0.mapBuilder:UpdateChapterTF(slot1)
+	slot0.mapBuilder.buffer:UpdateChapterTF(slot1)
 end
 
 function slot0.tryPlayMapStory(slot0)
@@ -2223,13 +2193,13 @@ function slot0.SwitchBG(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot6 = {
+slot7 = {
 	1520001,
 	1520002,
 	1520011,
 	1520012
 }
-slot7 = {
+slot8 = {
 	{
 		1420008,
 		"map_1420008",
@@ -2243,7 +2213,7 @@ slot7 = {
 		"map_1420011"
 	}
 }
-slot8 = {
+slot9 = {
 	1420001,
 	1420011
 }

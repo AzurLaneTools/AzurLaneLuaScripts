@@ -1,4 +1,5 @@
 slot0 = class("BackYardConst")
+slot0.MAX_FLOOR_CNT = 2
 slot0.SAME_ID_MODIFY_ID = 79000
 slot0.MAX_UPLOAD_THEME_CNT = 2
 slot0.THEME_TEMPLATE_TYPE_SHOP = 1

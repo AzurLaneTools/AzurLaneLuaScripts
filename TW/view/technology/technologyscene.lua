@@ -124,30 +124,26 @@ function slot0.init(slot0)
 end
 
 function slot0.updateSettingsBtn(slot0)
-	slot2 = slot0:findTF("RedPoint", slot0.settingsBtn)
+	slot1 = slot0:findTF("RedPoint", slot0.settingsBtn)
 
 	setText(slot0:findTF("TipText", slot0.settingsBtn), i18n("tec_settings_btn_word"))
 
-	slot5 = slot0:findTF("Selected", slot0:findTF("TargetCatchup", slot0.settingsBtn))
-	slot6 = slot0:findTF("ActCatchup", slot0.settingsBtn)
+	slot4 = slot0:findTF("Selected", slot0:findTF("TargetCatchup", slot0.settingsBtn))
+	slot5 = slot0:findTF("ActCatchup", slot0.settingsBtn)
 
-	setActive(slot0:findTF("tag", slot0.settingsBtn), getProxy(TechnologyProxy):getTendency(2) > 0)
+	slot0:updateSettingBtnVersion()
 
-	if slot8 > 0 then
-		GetImageSpriteFromAtlasAsync("technologycard", "version_" .. slot8, slot1:Find("Image"), true)
-	end
+	slot6 = false
 
-	slot9 = false
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot7:isEnd() then
+		slot9 = slot7:getConfig("config_id")
+		slot10 = pg.activity_event_blueprint_catchup[slot9].char_choice
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot10:isEnd() then
-		slot12 = slot10:getConfig("config_id")
-		slot13 = pg.activity_event_blueprint_catchup[slot12].char_choice
+		if slot7.data1 < pg.activity_event_blueprint_catchup[slot9].obtain_max then
+			setImageSprite(slot0:findTF("Selected/CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot10, tostring(slot10)))
+			setText(slot0:findTF("Selected/ProgressText", slot5), slot8 .. "/" .. slot11)
 
-		if slot10.data1 < pg.activity_event_blueprint_catchup[slot12].obtain_max then
-			setImageSprite(slot0:findTF("Selected/CharImg", slot6), LoadSprite("TecCatchup/QChar" .. slot13, tostring(slot13)))
-			setText(slot0:findTF("Selected/ProgressText", slot6), slot11 .. "/" .. slot14)
-
-			slot17 = slot10.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+			slot14 = slot7.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
 			if slot0.actCatchupTimer then
 				slot0.actCatchupTimer:Stop()
@@ -155,10 +151,10 @@ function slot0.updateSettingsBtn(slot0)
 				slot0.actCatchupTimer = nil
 			end
 
-			slot18 = slot0:findTF("TimeLeft/Day", slot6)
-			slot19 = slot0:findTF("TimeLeft/Hour", slot6)
-			slot20 = slot0:findTF("TimeLeft/Min", slot6)
-			slot21 = slot0:findTF("TimeLeft/NumText", slot6)
+			slot15 = slot0:findTF("TimeLeft/Day", slot5)
+			slot16 = slot0:findTF("TimeLeft/Hour", slot5)
+			slot17 = slot0:findTF("TimeLeft/Min", slot5)
+			slot18 = slot0:findTF("TimeLeft/NumText", slot5)
 			slot0.actCatchupTimer = Timer.New(function ()
 				slot0, slot1, slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(uv0)
 				uv0 = uv0 - 1
@@ -190,37 +186,46 @@ function slot0.updateSettingsBtn(slot0)
 			slot0.actCatchupTimer:Start()
 			slot0.actCatchupTimer.func()
 
-			slot9 = true
+			slot6 = true
 		end
 	end
 
-	setActive(slot6, slot9)
-	setActive(slot4, true)
+	setActive(slot5, slot6)
+	setActive(slot3, true)
 
-	slot11 = slot7:isOpenTargetCatchup()
+	slot8 = getProxy(TechnologyProxy)
+	slot9 = slot8:isOpenTargetCatchup()
 
-	print("是抖开启", tostring(slot11), tostring(slot7:isOnCatchup()))
+	print("是抖开启", tostring(slot9), tostring(slot8:isOnCatchup()))
 
-	if slot11 then
-		if not slot12 then
-			setActive(slot5, false)
-			setActive(slot2, true)
+	if slot9 then
+		if not slot10 then
+			setActive(slot4, false)
+			setActive(slot1, true)
 		else
-			slot13 = slot7:getCurCatchupTecInfo()
+			slot11 = slot8:getCurCatchupTecInfo()
 
-			if (slot7:getCatchupData(slot13.tecID):isUr(slot13.groupID) and pg.technology_catchup_template[slot14].obtain_max_per_ur or pg.technology_catchup_template[slot14].obtain_max) <= slot13.printNum then
-				setActive(slot5, false)
-				setActive(slot2, false)
+			if (slot8:getCatchupData(slot11.tecID):isUr(slot11.groupID) and pg.technology_catchup_template[slot12].obtain_max_per_ur or pg.technology_catchup_template[slot12].obtain_max) <= slot11.printNum then
+				setActive(slot4, false)
+				setActive(slot1, false)
 			else
-				setActive(slot5, true)
-				setActive(slot2, false)
-				setImageSprite(slot0:findTF("CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot15, tostring(slot15)))
-				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot19)
+				setActive(slot4, true)
+				setActive(slot1, false)
+				setImageSprite(slot0:findTF("CharImg", slot4), LoadSprite("TecCatchup/QChar" .. slot13, tostring(slot13)))
+				setText(slot0:findTF("ProgressText", slot4), slot14 .. "/" .. slot17)
 			end
 		end
 	else
-		setActive(slot5, false)
-		setActive(slot2, false)
+		setActive(slot4, false)
+		setActive(slot1, false)
+	end
+end
+
+function slot0.updateSettingBtnVersion(slot0)
+	setActive(slot0.settingsBtn:Find("tag"), getProxy(TechnologyProxy):getTendency(2) > 0)
+
+	if slot1 > 0 then
+		GetImageSpriteFromAtlasAsync("technologycard", "version_" .. slot1, slot2:Find("Image"), true)
 	end
 end
 
@@ -238,7 +243,7 @@ function slot0.setPage(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0.technologyVOs) do
 			if slot6:isActivate() then
 				Timer.New(function ()
-					uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv0.technologCards[uv1]:GetComponent("EnhanceItem").scrollViewItemIndex)
+					uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv0.technologyCards[uv1]:GetComponent("EnhanceItem").scrollViewItemIndex)
 				end, 0.35, 1):Start()
 
 				break
@@ -290,7 +295,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.initTechnologys(slot0)
-	slot0.technologCards = {}
+	slot0.technologyCards = {}
 	slot0.lastButtonListener = slot0.lastButtonListener or {}
 
 	if not slot0.itemList then
@@ -303,7 +308,7 @@ function slot0.initTechnologys(slot0)
 
 			if slot0 == UIItemList.EventUpdate then
 				slot2.name = slot1
-				uv0.technologCards[slot1] = slot2
+				uv0.technologyCards[slot1] = slot2
 
 				uv0:updateTechnologyTF(slot2, slot1, "base")
 
@@ -486,7 +491,7 @@ function slot0.cancelSelected(slot0)
 
 	slot0.contextData.selectedIndex = nil
 
-	setActive(slot0.technologCards[slot0.contextData.selectedIndex], true)
+	setActive(slot0.technologyCards[slot0.contextData.selectedIndex], true)
 	removeOnButton(slot0.arrLeftBtn)
 	removeOnButton(slot0.arrRightBtn)
 	setActive(slot0.selectetPanel, false)
@@ -525,7 +530,7 @@ function slot0.updateTechnology(slot0, slot1)
 		end
 	end
 
-	slot0:updateTechnologyTF(slot0.technologCards[slot2], slot2, "base")
+	slot0:updateTechnologyTF(slot0.technologyCards[slot2], slot2, "base")
 
 	if slot0.contextData.selectedIndex and slot0.technologyVOs[slot0.contextData.selectedIndex].id == slot1.id then
 		slot0:updateTechnologyTF(slot0.technologyTpl, slot2, "desc")
@@ -560,6 +565,7 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 	end
 
 	slot0:updateInfo(slot1, slot4, slot3)
+	slot0:updateInfoVersionPickUp(slot1, slot4)
 
 	slot5 = slot4:getConfig("time")
 	slot6 = pg.TimeMgr.GetInstance()
@@ -842,12 +848,18 @@ function slot0.dfs(slot0, slot1, slot2)
 	end
 end
 
+slot1 = {
+	tag_red = "F15F34FF",
+	tag_blue = "2541E3FF"
+}
+
 function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	setImageSprite(slot1:Find("frame"), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. (slot3 == "desc" and "_l" or "")))
 	setImageSprite(slot1:Find("frame/icon_mask/icon"), GetSpriteFromAtlas("technologyshipicon/" .. slot2:getConfig("bg_icon"), slot2:getConfig("bg_icon")), true)
-	setImageSprite(slot1:Find("frame/label"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
-	setImageSprite(slot1:Find("frame/label/text"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
-	setImageSprite(slot1:Find("frame/label/version"), GetSpriteFromAtlas("technologycard", "version_" .. slot2:getConfig("blueprint_version")), true)
+	setImageSprite(slot1:Find("frame/top/label"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
+	setImageSprite(slot1:Find("frame/top/label/text"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
+	setImageSprite(slot1:Find("frame/top/label/version"), GetSpriteFromAtlas("technologycard", "version_" .. slot2:getConfig("blueprint_version")), true)
+	setImageColor(slot1:Find("frame/top/pick_up"), Color.NewHex(uv0[slot2:getConfig("label")]))
 	setText(slot1:Find("frame/name_bg/Text"), slot2:getConfig("name"))
 	setText(slot1:Find("frame/sub_name"), slot2:getConfig("sub_name") or "")
 
@@ -872,6 +884,10 @@ function slot0.updateInfo(slot0, slot1, slot2, slot3)
 		uv0:GetChild(0):GetComponent("HorizontalLayoutGroup").padding.right = #uv1 == 4 and 25 or 0
 		uv0:GetChild(1):GetComponent("HorizontalLayoutGroup").padding.left = #uv1 == 4 and 25 or 0
 	end)
+end
+
+function slot0.updateInfoVersionPickUp(slot0, slot1, slot2)
+	setActive(slot1:Find("frame/top/pick_up"), getProxy(TechnologyProxy):getTendency(2) == slot2:getConfig("blueprint_version"))
 end
 
 function slot0.updateItem(slot0, slot1, slot2, slot3)
@@ -913,6 +929,18 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 
 		uv1:emit(uv2.ON_DROP, uv0)
 	end, SFX_PANEL)
+end
+
+function slot0.updatePickUpVersionChange(slot0)
+	slot0:updateSettingBtnVersion()
+
+	for slot4, slot5 in ipairs(slot0.technologyCards) do
+		slot0:updateInfoVersionPickUp(slot5, slot0.technologyVOs[slot4])
+	end
+
+	for slot4, slot5 in ipairs(slot0.technologyQueue) do
+		slot0:updateInfoVersionPickUp(slot0.queueCardItemList.container:GetChild(slot4 - 1), slot5)
+	end
 end
 
 function slot0.clearTimer(slot0, ...)

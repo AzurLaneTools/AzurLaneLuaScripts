@@ -75,10 +75,10 @@ function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.frame = slot0:findTF("frame")
-	slot0.viewContainer = slot0:findTF("frame/viewContainer")
-	slot0.bg = slot0:findTF("frame/viewContainer/bg")
+	slot0.viewContainer = slot0:findTF("viewContainer")
+	slot0.bg = slot0:findTF("viewContainer/bg")
 	slot0.painting = slot0:findTF("frame/painting")
-	slot0.chat = slot0:findTF("frame/painting/chat")
+	slot0.chat = slot0:findTF("viewContainer/chat")
 	slot0.chatText = slot0:findTF("Text", slot0.chat)
 	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
 	slot0.skinShopBtn = slot0:findTF("blur_panel/adapt/skin_btn")
@@ -306,6 +306,12 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 
 		slot0.chatFlag = true
 
+		if not slot0.isInitChatPosition then
+			slot0.isInitChatPosition = true
+
+			slot0:InitChatPosition()
+		end
+
 		setActive(slot0.chat, true)
 
 		slot5 = slot3 or math.random(1, slot0.player:getChargeLevel())
@@ -351,6 +357,11 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 			end))
 		end)()
 	end
+end
+
+function slot0.InitChatPosition(slot0)
+	slot3 = slot0.chat.parent:InverseTransformPoint(slot0.painting.parent:TransformPoint(slot0.painting.localPosition + Vector3(-21, -176, 0)))
+	slot0.chat.localPosition = Vector3(slot3.x, slot3.y, 0)
 end
 
 function slot0.playHeartEffect(slot0)

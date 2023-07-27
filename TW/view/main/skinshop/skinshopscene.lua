@@ -793,7 +793,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 		slot11 = false
 
 		if not slot0.inSkinMode then
-			slot11 = getProxy(DormProxy):getRawData():hasFurnitrue(Goods.Id2FurnitureId(slot1.id))
+			slot11 = getProxy(DormProxy):getRawData():HasFurniture(Goods.Id2FurnitureId(slot1.id))
 		end
 
 		setActive(slot0.itemBtn, slot9 and slot7 and not slot10)

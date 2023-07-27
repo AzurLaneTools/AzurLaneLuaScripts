@@ -21,6 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	setText(slot0.tf:Find("mask/tag/sellout_tag/sellout_tag_en"), "SELL OUT")
 	setText(slot0.tf:Find("mask/tag/unexchange_tag"), i18n("meta_shop_exchange_limit"))
 	setText(slot0.tf:Find("mask/tag/unexchange_tag/sellout_tag_en"), "LIMIT")
+	removeAllChildren(slot0.tf:Find("item/icon_bg/stars"))
 end
 
 function slot0.Dispose(slot0)

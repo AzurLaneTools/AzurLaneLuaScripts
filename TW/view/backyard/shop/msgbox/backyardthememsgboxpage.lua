@@ -43,7 +43,8 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateMainInfo(slot0)
-	slot0.nameTxt.text = slot0.themeVO:getConfig("name")
+	slot0.nameTxt:SetText(slot0.themeVO:getConfig("name"))
+
 	slot0.descTxt.text = slot0.themeVO:getConfig("desc")
 	slot0.maxCnt.text = ""
 	slot0.icon.sprite = GetSpriteFromAtlas("BackYardTheme/" .. slot0.themeVO.id, "")
@@ -66,7 +67,7 @@ end
 
 function slot0.GetAddList(slot0)
 	slot1 = {}
-	slot3 = slot0.dorm:GetAllFurniture()
+	slot3 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot7, slot8 in ipairs(slot0.themeVO:GetFurnitures()) do
 		if not slot3[slot8] then

@@ -1,4 +1,4 @@
-slot0 = class("Dorm", import(".BaseVO"))
+slot0 = class("Dorm", import("..BaseVO"))
 slot0.MAX_FLOOR = 2
 slot0.MAX_LEVEL = 4
 slot0.DORM_2_FLOOR_COMFORTABLE_ADDITION = 20
@@ -16,10 +16,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.load_exp = 0
 	slot0.load_food = 0
 	slot0.load_time = slot1.load_time or 0
-	slot0.furnitures = slot1.furnitures or {}
 	slot0.name = slot1.name
 	slot0.shipIds = slot1.shipIds or {}
 	slot0.floorNum = slot1.floor_num or 1
+	slot0.furnitures = {}
+	slot0.themes = {}
 	slot0.expandIds = {
 		50011,
 		50012,
@@ -48,38 +49,6 @@ function slot0.GetMapSize(slot0)
 	return slot1, slot1, 23, 23
 end
 
-function slot0.GetPutCntForFurniture(slot0, slot1)
-	slot3 = 0
-
-	for slot7, slot8 in pairs(slot0:getPutFurnis()) do
-		if slot8:getConfig("id") == slot1:getConfig("id") then
-			slot3 = slot3 + 1
-		end
-	end
-
-	return slot3
-end
-
-function slot0.GetPutCnt(slot0, slot1)
-	if slot0.furnitures[slot1] then
-		slot3 = 0
-
-		if slot2.position then
-			slot3 = slot3 + 1
-		end
-
-		for slot8 = 1, slot2:GetOwnCnt() - 1 do
-			if slot0.furnitures[Furniture.StaticGetCloneId(slot1, slot8)] and slot0.furnitures[slot9].position then
-				slot3 = slot3 + 1
-			end
-		end
-
-		return slot3
-	else
-		return 0
-	end
-end
-
 function slot0.isUnlockFloor(slot0, slot1)
 	return slot1 <= slot0.floorNum
 end
@@ -88,68 +57,6 @@ function slot0.setFloorNum(slot0, slot1)
 	assert(slot1 <= uv0.MAX_FLOOR, "floornum more than max" .. slot1)
 
 	slot0.floorNum = slot1
-end
-
-function slot0.getOtherFloorFurnitrues(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in pairs(slot0.furnitures) do
-		if slot7.floor ~= slot1 and slot7.floor ~= 0 then
-			slot2[slot7.id] = slot7
-		end
-	end
-
-	return slot2
-end
-
-function slot0.GetAllFurniture(slot0)
-	return slot0.furnitures
-end
-
-function slot0.getFurnitrues(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in pairs(slot0.furnitures) do
-		if slot7.floor == slot1 then
-			slot2[slot7.id] = slot7
-		end
-	end
-
-	return slot2
-end
-
-function slot0.AnyFurnitureInFloor(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.furnitures) do
-		if slot6.floor == slot1 then
-			return true
-		end
-	end
-
-	return false
-end
-
-function slot0.GetAllFloorFurnitures(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.furnitures) do
-		if slot6.floor and slot6.floor >= 1 and slot6.floor <= uv0.MAX_FLOOR then
-			slot1[slot6.id] = slot6
-		end
-	end
-
-	return slot1
-end
-
-function slot0.GetOwnFurnitrueCount(slot0, slot1)
-	slot2 = 0
-
-	for slot6, slot7 in pairs(slot0.furnitures) do
-		if slot7.configId == slot1 then
-			slot2 = slot2 + 1
-		end
-	end
-
-	return slot2
 end
 
 function slot0.setName(slot0, slot1)
@@ -175,28 +82,8 @@ function slot0.getExtendTrainPosShopId(slot0)
 	end
 end
 
-function slot0.setShipIds(slot0, slot1)
-	slot0.shipIds = slot1
-end
-
-function slot0.setFurnitrues(slot0, slot1)
-	slot0.furnitures = slot1
-end
-
 function slot0.bindConfigTable(slot0)
 	return pg.dorm_data_template
-end
-
-function slot0.getPutFurnis(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.furnitures) do
-		if slot6.position then
-			slot1[slot6.id] = slot6
-		end
-	end
-
-	return slot1
 end
 
 function slot0.getComfortable(slot0, slot1)
@@ -212,7 +99,11 @@ function slot0.getComfortable(slot0, slot1)
 	end
 
 	for slot8, slot9 in pairs(slot0.furnitures) do
-		slot4(slot9)
+		slot10 = slot9.count or 1
+
+		for slot14 = 1, slot10 do
+			slot4(slot9)
+		end
 	end
 
 	slot5 = pairs
@@ -274,6 +165,26 @@ end
 
 function slot0.isMaxFood(slot0)
 	return slot0.food >= slot0.dorm_food_max + slot0:bindConfigTable()[slot0.id].capacity
+end
+
+function slot0.getFoodLeftTime(slot0)
+	slot1 = slot0:bindConfigTable()[slot0.id]
+
+	if getProxy(DormProxy):getTrainShipCount() == 0 then
+		return 0
+	end
+
+	slot4 = pg.gameset["dorm_food_ratio_by_" .. slot2].key_value / 100 * slot1.consume
+
+	return slot0.next_timestamp + ((slot0.food - slot0.food % slot4) / slot4 - 1) * slot1.time
+end
+
+function slot0.GetCapcity(slot0)
+	return slot0:getConfig("capacity") + slot0.dorm_food_max
+end
+
+function slot0.setShipIds(slot0, slot1)
+	slot0.shipIds = slot1
 end
 
 function slot0.addShip(slot0, slot1)
@@ -338,124 +249,54 @@ function slot0.GetNonStateShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.addFurniture(slot0, slot1)
-	assert(slot0.furnitures[slot1.id] == nil, "furniture already exist")
-
-	slot0.furnitures[slot1.id] = slot1
+function slot0.GetThemeList(slot0, slot1)
+	return slot0.themes
 end
 
-function slot0.updateFurniture(slot0, slot1)
-	assert(slot0.furnitures[slot1.id], "furniture should exist")
-
-	slot0.furnitures[slot1.id] = slot1
+function slot0.SetTheme(slot0, slot1, slot2)
+	slot0.themes[slot1] = slot2
 end
 
-function slot0.getFurnitrueById(slot0, slot1)
-	return slot0.furnitures[slot1]
+function slot0.GetTheme(slot0, slot1)
+	return slot0.themes[slot1]
 end
 
-function slot0.hasFurnitrue(slot0, slot1)
+function slot0.GetPurchasedFurnitures(slot0)
+	return slot0.furnitures
+end
+
+function slot0.GetOwnFurnitureCount(slot0, slot1)
+	if not slot0.furnitures[slot1] then
+		return 0
+	else
+		return slot2.count
+	end
+end
+
+function slot0.SetFurnitures(slot0, slot1)
+	slot0.furnitures = slot1
+end
+
+function slot0.AddFurniture(slot0, slot1)
+	if not slot0.furnitures[slot1.id] then
+		slot0.furnitures[slot1.id] = slot1
+	else
+		slot2 = slot0.furnitures[slot1.id]
+
+		slot2:setCount(slot2.count + slot1.count)
+	end
+end
+
+function slot0.IsPurchasedFurniture(slot0, slot1)
+	return slot0.furnitures[slot1] ~= nil and slot0.furnitures[slot1].count > 0
+end
+
+function slot0.HasFurniture(slot0, slot1)
 	return slot0.furnitures[slot1] ~= nil
 end
 
-function slot0.getFoodLeftTime(slot0)
-	slot1 = slot0:bindConfigTable()[slot0.id]
-
-	if getProxy(DormProxy):getTrainShipCount() == 0 then
-		return 0
-	end
-
-	slot4 = pg.gameset["dorm_food_ratio_by_" .. slot2].key_value / 100 * slot1.consume
-
-	return slot0.next_timestamp + ((slot0.food - slot0.food % slot4) / slot4 - 1) * slot1.time
-end
-
-function slot0.GetOwnFurnitrueCount(slot0, slot1)
-	slot2 = 0
-
-	for slot6, slot7 in pairs(slot0.furnitures) do
-		if slot7.configId == slot1 then
-			slot2 = slot2 + 1
-		end
-	end
-
-	return slot2
-end
-
-function slot0.getSaveData(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0:getPutFurnis()) do
-		slot7 = slot6.position or {}
-		slot1[slot5] = {
-			id = slot5,
-			x = slot7.x or 0,
-			y = slot7.y or 0,
-			position = Vector2(slot7.x or 0, slot7.y or 0),
-			dir = slot6.dir or 1,
-			child = slot6.child or {},
-			parent = slot6.parent or 0,
-			shipId = slot6.shipId or 0
-		}
-	end
-
-	return slot1
-end
-
-function slot0.OwnThemeTemplateFurniture(slot0, slot1)
-	slot2 = slot0:GetAllFurniture()
-
-	function slot3(slot0, slot1)
-		return uv0[slot0] and slot1 <= slot2.count
-	end
-
-	for slot8, slot9 in pairs(slot1:GetFurnitureCnt()) do
-		if not slot3(slot8, slot9) then
-			return false
-		end
-	end
-
-	return true
-end
-
-function slot0.GenUniqueID(slot0, slot1)
-	slot2 = slot0:GetAllFloorFurnitures()
-
-	if slot1.count > 1 and slot2[slot1.id] then
-		for slot6 = 1, slot1.count - 1 do
-			if not slot2[slot1:getCloneId(slot6)] then
-				return slot7
-			end
-		end
-	else
-		return slot1.id
-	end
-
-	assert(false)
-end
-
-function slot0.GetCanPutFurnitureForTheme(slot0, slot1)
-	slot5 = {}
-	slot6 = false
-
-	if slot1:IsOccupyed(slot0:GetAllFloorFurnitures(), getProxy(DormProxy).floor) then
-		slot5 = slot1:GetUsableFurnituresForFloor(slot3, slot2)
-		slot6 = false
-	else
-		for slot11, slot12 in pairs(Clone(slot1:GetAllFurniture())) do
-			table.insert(slot5, slot12)
-		end
-
-		slot6 = true
-	end
-
-	table.sort(slot5, Furniture._LoadWeight)
-
-	return slot5, slot6
-end
-
-function slot0.GetCapcity(slot0)
-	return slot0:getConfig("capacity") + slot0.dorm_food_max
+function slot0.GetFurniture(slot0, slot1)
+	return slot0.furnitures[slot1]
 end
 
 return slot0

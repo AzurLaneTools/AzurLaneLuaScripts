@@ -1071,7 +1071,18 @@ function temp()
 					["索"] = {
 						["尼"] = {
 							["埃"] = {
-								this = true
+								this = true,
+								["·"] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													this = true
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}

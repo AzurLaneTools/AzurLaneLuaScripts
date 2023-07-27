@@ -1,45 +1,54 @@
 slot0 = class("BackYardSelfThemeTemplate", import(".BackYardBaseThemeTemplate"))
 
+function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1)
+
+	slot0.floor = slot2 or 1
+end
+
 function slot0.GetAllFurniture(slot0)
 	if not slot0.furnitruesByIds then
-		slot1 = slot0:GetRawPutList()
-		slot2 = getProxy(DormProxy):getRawData().level
-		slot4 = {}
-
-		for slot8, slot9 in ipairs(slot0:GetWarpFurnitures()) do
-			if slot4[tonumber(slot9.id)] then
-				slot4[tonumber(slot9.id)].count = slot4[tonumber(slot9.id)].count + 1
-			else
-				slot4[tonumber(slot9.id)] = {
-					count = 1,
-					id = tonumber(slot9.id)
-				}
-			end
-		end
-
-		table.insert({}, {
-			floor = 1,
-			furniture_put_list = slot1 or {}
-		})
-
-		slot0.furnitruesByIds = GetBackYardDataCommand.initFurnitures({
-			lv = slot2,
-			furniture_id_list = _.values(slot4),
-			furniture_put_list = slot5
+		slot0.furnitruesByIds = slot0:InitFurnitures({
+			lv = getProxy(DormProxy):getRawData().level,
+			floor = slot0.floor,
+			furniture_put_list = slot0:GetRawPutList()
 		})
 	end
 
 	return slot0.furnitruesByIds
 end
 
-function slot0.GetWarpFurnitures(slot0)
-	if not slot0.furnitures then
-		slot0.furnitures = {}
+function slot0.AddFurniture(slot0, slot1, slot2)
+	slot3 = slot0:GetAllFurniture()
+	slot4 = {}
 
-		BackYardBaseThemeTemplate.WarpPutInfo2BackYardFurnitrue(slot0.furnitures, getProxy(DormProxy).floor, slot0:GetRawPutList())
+	for slot8, slot9 in pairs(slot1.child) do
+		slot4[slot8] = slot9
 	end
 
-	return slot0.furnitures
+	slot5 = BackyardThemeFurniture.New({
+		isNewStyle = true,
+		id = slot1.id,
+		configId = slot1.configId,
+		position = Vector2(slot1.x, slot1.y),
+		dir = slot1.dir,
+		child = slot4,
+		parent = slot1.parent,
+		floor = slot2
+	})
+	slot3[slot1.id] = slot5
+
+	return slot5
+end
+
+function slot0.DeleteFurniture(slot0, slot1)
+	if slot0:GetAllFurniture()[slot1] then
+		slot2[slot1] = nil
+	end
+end
+
+function slot0.GetFurniture(slot0, slot1)
+	return slot0:GetAllFurniture()[slot1]
 end
 
 function slot0.GetType(slot0)

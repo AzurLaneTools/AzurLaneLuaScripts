@@ -139616,6 +139616,967 @@ _G.pg.base.task_data_template[17769] = {
 	}
 }
 
+_G.pg.base.task_data_template[17770] = {
+	name = "『信浓复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 97718,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17770,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59328,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17771] = {
+	name = "『信浓复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 97719,
+	type = 36,
+	desc = "艦隊出征，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17771,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59328,
+			300
+		},
+		{
+			8,
+			59327,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17772] = {
+	name = "『信浓复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 97720,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17772,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59328,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17773] = {
+	name = "『信浓复刻』-日常活动关卡",
+	guild_coin_award = 0,
+	award = 97721,
+	type = 36,
+	desc = "通過1次任意活動關卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17773,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410001,
+		1410002,
+		1410003,
+		1410004,
+		1410005,
+		1410006,
+		1410021,
+		1410022,
+		1410023,
+		1410024,
+		1410025,
+		1410026,
+		1410041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59328,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17774] = {
+	name = "『信浓复刻』T1/HT1通关一次",
+	guild_coin_award = 0,
+	award = 97722,
+	type = 6,
+	desc = "擊敗T1或HT1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17774,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410001,
+		1410021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59327,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59328,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17775] = {
+	name = "『信浓复刻』T2/HT2通关一次",
+	guild_coin_award = 0,
+	award = 97723,
+	type = 6,
+	desc = "擊敗T2或HT2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17775,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410002,
+		1410022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59327,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59328,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17776] = {
+	name = "『信浓复刻』T3/HT3通关一次",
+	guild_coin_award = 0,
+	award = 97724,
+	type = 6,
+	desc = "擊敗T3或HT3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17776,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410003,
+		1410023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59327,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59328,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17777] = {
+	name = "『信浓复刻』T4/HT4通关一次",
+	guild_coin_award = 0,
+	award = 97725,
+	type = 6,
+	desc = "擊敗T4或HT4旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17777,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410004,
+		1410024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59327,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59328,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17778] = {
+	name = "『信浓复刻』T5/HT5通关一次",
+	guild_coin_award = 0,
+	award = 97726,
+	type = 6,
+	desc = "擊敗T5或HT5旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17778,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410005,
+		1410025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59327,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59328,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17779] = {
+	name = "『信浓复刻』T6/HT6通关一次",
+	guild_coin_award = 0,
+	award = 97727,
+	type = 6,
+	desc = "擊敗T6或HT6旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17779,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410006,
+		1410026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59327,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59328,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17780] = {
+	name = "『信浓复刻』通关SP",
+	guild_coin_award = 0,
+	award = 97728,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1410041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17780,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59327,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1410020,
+			chapterId = 1410041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17781] = {
+	name = "『信浓复刻』通关HT6",
+	guild_coin_award = 0,
+	award = 97729,
+	type = 6,
+	desc = "通關HT6<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1410026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17781,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			183,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1410012,
+			chapterId = 1410026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17782] = {
+	name = "『信浓复刻』T1/HT1的3星",
+	guild_coin_award = 0,
+	award = 97730,
+	type = 6,
+	desc = "完成T1或HT1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17783",
+	auto_commit = 0,
+	story_id = "",
+	id = 17782,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410001,
+		1410021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17783] = {
+	name = "『信浓复刻』T2/HT2的3星",
+	guild_coin_award = 0,
+	award = 97731,
+	type = 6,
+	desc = "完成T2或HT2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17784",
+	auto_commit = 0,
+	story_id = "",
+	id = 17783,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410002,
+		1410022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17784] = {
+	name = "『信浓复刻』T3/HT3的3星",
+	guild_coin_award = 0,
+	award = 97732,
+	type = 6,
+	desc = "完成T3或HT3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17785",
+	auto_commit = 0,
+	story_id = "",
+	id = 17784,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410003,
+		1410023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4451
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17785] = {
+	name = "『信浓复刻』T4/HT4的3星",
+	guild_coin_award = 0,
+	award = 97733,
+	type = 6,
+	desc = "完成T4或HT4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17786",
+	auto_commit = 0,
+	story_id = "",
+	id = 17785,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410004,
+		1410024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17786] = {
+	name = "『信浓复刻』T5/HT5的3星",
+	guild_coin_award = 0,
+	award = 97734,
+	type = 6,
+	desc = "完成T5或HT5的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17787",
+	auto_commit = 0,
+	story_id = "",
+	id = 17786,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410005,
+		1410025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17787] = {
+	name = "『信浓复刻』T6/HT6的3星",
+	guild_coin_award = 0,
+	award = 97735,
+	type = 6,
+	desc = "完成T6或HT6的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17787,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1410006,
+		1410026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4452
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17799] = {
+	name = "『信浓复刻』登录送皮肤体验券复刻",
+	guild_coin_award = 0,
+	award = 97714,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17799,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			270,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[17808] = {
 	name = "『意大利V3』大凤JK活动签到1",
 	guild_coin_award = 0,
@@ -191704,6 +192665,3968 @@ _G.pg.base.task_data_template[42018] = {
 		{
 			1,
 			4009,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42118] = {
+	name = "十期·【通行证第一周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "艦隊出征，以A評價通關60次",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42118,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42119] = {
+	name = "十期·【通行证第一周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "裝備強化10次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42119,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42120] = {
+	name = "十期·【通行证第一周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "後宅補給存量30000",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42120,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42121] = {
+	name = "十期·【通行证第一周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "打開任意科技箱20個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42121,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42122] = {
+	name = "十期·【通行证第一周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗40個艦艇演習數據T1",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "16501",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42122,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42123] = {
+	name = "十期·【通行证第一周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "分解60件裝備",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42123,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42124] = {
+	name = "十期·【通行证第一周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第一周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42124,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42118,
+		42119,
+		42120,
+		42121,
+		42122,
+		42123
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42125] = {
+	name = "十期·【通行证第二周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "艦隊出征，消滅敵方旗艦20次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42125,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42126] = {
+	name = "十期·【通行证第二周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得核心數據150點",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "59900",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42126,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42127] = {
+	name = "十期·【通行证第二周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "執行軍事委託15次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42127,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42128] = {
+	name = "十期·【通行证第二周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "完成12個「每日挑戰」關卡",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42128,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42129] = {
+	name = "十期·【通行证第二周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗快速建造工具20個",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "15003",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42129,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[42130] = {
+	name = "十期·【通行证第二周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "執行軍需籌備任務12次",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42130,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42131] = {
+	name = "十期·【通行证第二周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第二周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42131,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42125,
+		42126,
+		42127,
+		42128,
+		42129,
+		42130
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42132] = {
+	name = "十期·【通行证第三周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "艦隊出征，獲得80次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42132,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42133] = {
+	name = "十期·【通行证第三周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "建造艦船5次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42133,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42134] = {
+	name = "十期·【通行证第三周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得心智魔方10個",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42134,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42135] = {
+	name = "十期·【通行证第三周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "通關12次「困難副本」",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42135,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42136] = {
+	name = "十期·【通行证第三周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "進行戰術訓練20次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42136,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42137] = {
+	name = "十期·【通行证第三周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "進行軍事演習30次",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42137,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42138] = {
+	name = "十期·【通行证第三周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第三周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42138,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42132,
+		42133,
+		42134,
+		42135,
+		42136,
+		42137
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42139] = {
+	name = "十期·【通行证第四周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "艦隊出征，大型作戰中任意海域戰鬥5次",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42139,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42140] = {
+	name = "十期·【通行证第四周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "艦船退役15次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42140,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42141] = {
+	name = "十期·【通行证第四周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "進行10次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42141,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42142] = {
+	name = "十期·【通行证第四周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "擊沉任意敵人1600艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42142,
+	target_num = 1600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42143] = {
+	name = "十期·【通行证第四周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "訓練指揮喵20只",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42143,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42144] = {
+	name = "十期·【通行证第四周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得周常活躍點800點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42144,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42145] = {
+	name = "十期·【通行证第四周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第四周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42145,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42139,
+		42140,
+		42141,
+		42142,
+		42143,
+		42144
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42146] = {
+	name = "十期·【通行证第五周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "打開任意科技箱10個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42146,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42147] = {
+	name = "十期·【通行证第五周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計消耗20個艦艇演習數據T1",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "16501",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42147,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42148] = {
+	name = "十期·【通行证第五周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "分解30件裝備",
+	count_inherit = 0,
+	sub_type = 41,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42148,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42149] = {
+	name = "十期·【通行证第五周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "艦隊出征，以A評價通關120次",
+	count_inherit = 0,
+	sub_type = 23,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42149,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42150] = {
+	name = "十期·【通行证第五周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "裝備強化20次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42150,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42151] = {
+	name = "十期·【通行证第五周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "後宅補給存量60000",
+	count_inherit = 0,
+	sub_type = 60,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42151,
+	target_num = 60000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42152] = {
+	name = "十期·【通行证第五周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第五周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42152,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42146,
+		42147,
+		42148,
+		42149,
+		42150,
+		42151
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42153] = {
+	name = "十期·【通行证第六周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "完成6個「每日挑戰」關卡",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42153,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42154] = {
+	name = "十期·【通行证第六周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計消耗快速建造工具10個",
+	count_inherit = 0,
+	sub_type = 120,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "15003",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42154,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"GETBOAT"
+	}
+}
+
+_G.pg.base.task_data_template[42155] = {
+	name = "十期·【通行证第六周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "執行軍需籌備任務6次",
+	count_inherit = 0,
+	sub_type = 402,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42155,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42156] = {
+	name = "十期·【通行证第六周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "艦隊出征，消滅敵方旗艦40次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42156,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42157] = {
+	name = "十期·【通行证第六周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得核心數據300點",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "59900",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42157,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42158] = {
+	name = "十期·【通行证第六周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "執行軍事委託30次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42158,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42159] = {
+	name = "十期·【通行证第六周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第六周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42159,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42153,
+		42154,
+		42155,
+		42156,
+		42157,
+		42158
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42160] = {
+	name = "十期·【通行证第七周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "通關6次「困難副本」",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42160,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42161] = {
+	name = "十期·【通行证第七周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "進行戰術訓練10次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42161,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42162] = {
+	name = "十期·【通行证第七周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "進行軍事演習15次",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42162,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42163] = {
+	name = "十期·【通行证第七周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "艦隊出征，獲得160次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42163,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42164] = {
+	name = "十期·【通行证第七周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42164,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42165] = {
+	name = "十期·【通行证第七周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得心智魔方20個",
+	count_inherit = 0,
+	sub_type = 130,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42165,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42166] = {
+	name = "十期·【通行证第七周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第七周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42166,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42160,
+		42161,
+		42162,
+		42163,
+		42164,
+		42165
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42167] = {
+	name = "十期·【通行证第八周】任务1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "擊沉任意敵人800艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42167,
+	target_num = 800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42168] = {
+	name = "十期·【通行证第八周】任务2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "訓練指揮喵10隻",
+	count_inherit = 0,
+	sub_type = 170,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42168,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42169] = {
+	name = "十期·【通行证第八周】任务3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得周常活躍點400點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 1,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42169,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42170] = {
+	name = "十期·【通行证第八周】任务4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "艦隊出征，大型作戰中任意海域戰鬥10次",
+	count_inherit = 0,
+	sub_type = 304,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42170,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42171] = {
+	name = "十期·【通行证第八周】任务5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "艦船退役30次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42171,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42172] = {
+	name = "十期·【通行证第八周】任务6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "進行20次科研",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 2,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42172,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42173] = {
+	name = "十期·【通行证第八周】任务7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "完成第八周其他全部任務",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42173,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		42167,
+		42168,
+		42169,
+		42170,
+		42171,
+		42172
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42174] = {
+	name = "十期·【通行证SP】累计周任务PT1",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得周常活躍點100點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42174,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42175] = {
+	name = "十期·【通行证SP】累计周任务PT2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得周常活躍點300點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42175,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42176] = {
+	name = "十期·【通行证SP】累计周任务PT3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得周常活躍點600點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42176,
+	target_num = 600,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42177] = {
+	name = "十期·【通行证SP】累计周任务PT4",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲得周常活躍點1000點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42177,
+	target_num = 1000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42178] = {
+	name = "十期·【通行证SP】累计周任务PT5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得周常活躍點1500點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42178,
+	target_num = 1500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42179] = {
+	name = "十期·【通行证SP】累计周任务PT6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得周常活躍點2000點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42179,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42180] = {
+	name = "十期·【通行证SP】累计周任务PT7",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得周常活躍點2500點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42180,
+	target_num = 2500,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42181] = {
+	name = "十期·【通行证SP】累计周任务PT8",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲得周常活躍點3000點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42181,
+	target_num = 3000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42182] = {
+	name = "十期·【通行证SP】累计周任务PT9",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "累計獲得周常活躍點4000點",
+	count_inherit = 0,
+	sub_type = 161,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42182,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	},
+	scene = {
+		"TASK"
+	}
+}
+
+_G.pg.base.task_data_template[42183] = {
+	name = "十期·【通行证SP】累计建造1",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42183,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42184] = {
+	name = "十期·【通行证SP】累计建造2",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船20次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42184,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42185] = {
+	name = "十期·【通行证SP】累计建造3",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船30次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42185,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42186] = {
+	name = "十期·【通行证SP】累计建造4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船40次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42186,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42187] = {
+	name = "十期·【通行证SP】累计建造5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船50次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42187,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42188] = {
+	name = "十期·【通行证SP】累计建造6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船60次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42188,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42189] = {
+	name = "十期·【通行证SP】累计建造7",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船70次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42189,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42190] = {
+	name = "十期·【通行证SP】累计建造8",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "建造艦船80次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42190,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42191] = {
+	name = "十期·【通行证SP】累计消耗石油1",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油2000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42191,
+	target_num = 2000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42192] = {
+	name = "十期·【通行证SP】累计消耗石油2",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油4000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42192,
+	target_num = 4000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42193] = {
+	name = "十期·【通行证SP】累计消耗石油3",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油6000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42193,
+	target_num = 6000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42194] = {
+	name = "十期·【通行证SP】累计消耗石油4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油8000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42194,
+	target_num = 8000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42195] = {
+	name = "十期·【通行证SP】累计消耗石油5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油10000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42195,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42196] = {
+	name = "十期·【通行证SP】累计消耗石油6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計消耗石油12000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42196,
+	target_num = 12000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42197] = {
+	name = "十期·【通行证SP】累计消耗石油7",
+	guild_coin_award = 0,
+	award = 102028,
+	type = 6,
+	desc = "累計消耗石油15000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42197,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42198] = {
+	name = "十期·【通行证SP】累计消耗石油8",
+	guild_coin_award = 0,
+	award = 102028,
+	type = 6,
+	desc = "累計消耗石油18000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42198,
+	target_num = 18000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42199] = {
+	name = "十期·【通行证SP】累计消耗石油9",
+	guild_coin_award = 0,
+	award = 102028,
+	type = 6,
+	desc = "累計消耗石油21000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42199,
+	target_num = 21000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42200] = {
+	name = "十期·【通行证SP】累计消耗石油10",
+	guild_coin_award = 0,
+	award = 102028,
+	type = 6,
+	desc = "累計消耗石油24000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42200,
+	target_num = 24000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42201] = {
+	name = "十期·【通行证SP】累计获取舰船经验1",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得25萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42201,
+	target_num = 250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42202] = {
+	name = "十期·【通行证SP】累计获取舰船经验2",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得50萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42202,
+	target_num = 500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42203] = {
+	name = "十期·【通行证SP】累计获取舰船经验3",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得75萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42203,
+	target_num = 750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42204] = {
+	name = "十期·【通行证SP】累计获取舰船经验4",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得100萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42204,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42205] = {
+	name = "十期·【通行证SP】累计获取舰船经验5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得125萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42205,
+	target_num = 1250000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42206] = {
+	name = "十期·【通行证SP】累计获取舰船经验6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得150萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42206,
+	target_num = 1500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42207] = {
+	name = "十期·【通行证SP】累计获取舰船经验7",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得175萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42207,
+	target_num = 1750000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42208] = {
+	name = "十期·【通行证SP】累计获取舰船经验8",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "在任意關卡中累計獲得200萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42208,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42209] = {
+	name = "十期·【通行证SP】累计获取舰船经验9",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "在任意關卡中累計獲得250萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42209,
+	target_num = 2500000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42210] = {
+	name = "十期·【通行证SP】累计获取舰船经验10",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "在任意關卡中累計獲得300萬經驗",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	story_id = "",
+	id = 42210,
+	target_num = 3000000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[42211] = {
+	name = "十期·【通行证SP】累计登陆1",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲取月簽到獎勵1次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42211,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42212] = {
+	name = "十期·【通行证SP】累计登陆2",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲取月簽到獎勵3次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42212,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42213] = {
+	name = "十期·【通行证SP】累计登陆3",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲取月簽到獎勵5次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42213,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42214] = {
+	name = "十期·【通行证SP】累计登陆4",
+	guild_coin_award = 0,
+	award = 102029,
+	type = 6,
+	desc = "累計獲取月簽到獎勵7次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42214,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			60
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42215] = {
+	name = "十期·【通行证SP】累计登陆5",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲取月簽到獎勵10次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42215,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42216] = {
+	name = "十期·【通行证SP】累计登陆6",
+	guild_coin_award = 0,
+	award = 102030,
+	type = 6,
+	desc = "累計獲取月簽到獎勵14次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42216,
+	target_num = 14,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42217] = {
+	name = "十期·【通行证SP】累计登陆7",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "累計獲取月簽到獎勵21次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42217,
+	target_num = 21,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
+			240
+		}
+	}
+}
+
+_G.pg.base.task_data_template[42218] = {
+	name = "十期·【通行证SP】累计登陆8",
+	guild_coin_award = 0,
+	award = 102031,
+	type = 6,
+	desc = "累計獲取月簽到獎勵28次",
+	count_inherit = 0,
+	sub_type = 106,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 1,
+	scene = "",
+	id = 42218,
+	target_num = 28,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			4010,
 			240
 		}
 	}

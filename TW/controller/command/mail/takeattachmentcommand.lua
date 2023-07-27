@@ -13,39 +13,32 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot9 = getProxy(BayProxy):getShipCount()
-	slot10 = getProxy(EquipmentProxy):getCapacity()
-	slot11 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy):getData().level)
+	slot6, slot7 = CheckOverflow(slot4:GetAttchmentDic())
 
-	if slot4:getAttatchmentsCount(DROP_TYPE_RESOURCE, 1) > 0 and slot6:GoldMax(slot12) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
+	if not slot6 then
+		pg.TipsMgr.GetInstance():ShowTips(slot7)
 
 		return
 	end
 
-	if slot4:getAttatchmentsCount(DROP_TYPE_RESOURCE, 2) > 0 and slot6:OilMax(slot13) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail"))
+	slot8 = {}
 
-		return
+	if not CheckShipExpOverflow(slot5) then
+		table.insert(slot8, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("player_expResource_mail_fullBag"),
+				onYes = slot0
+			})
+		end)
 	end
 
-	slot14, slot15 = slot4:IsFudaiAndFullCapcity()
-
-	if not slot14 then
-		pg.TipsMgr.GetInstance():ShowTips(slot15)
-
-		return
-	end
-
-	slot16 = {}
-
-	if slot4:hasAttachmentsType(DROP_TYPE_WORLD_ITEM) then
+	if slot5[DROP_TYPE_WORLD_ITEM] > 0 then
 		if not nowWorld():IsActivate() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_noWorld"))
 
 			return
-		elseif slot17:CheckReset() then
-			table.insert(slot16, function (slot0)
+		elseif slot9:CheckReset() then
+			table.insert(slot8, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("mail_takeAttachment_error_reWorld"),
 					onYes = slot0
@@ -54,16 +47,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if slot4:OverflowShipExpAttachment() then
-		table.insert(slot16, function (slot0)
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("player_expResource_mail_fullBag"),
-				onYes = slot0
-			})
-		end)
-	end
-
-	seriesAsync(slot16, function ()
+	seriesAsync(slot8, function ()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(30004, {
@@ -76,10 +60,12 @@ function slot0.execute(slot0, slot1)
 
 			uv1:updateMail(uv0)
 			uv1:unpdateExistAttachment(uv1:GetAttachmentCount() - 1)
-			uv2:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
+			uv2:sendNotification(GAME.TAKE_ATTACHMENT_DONE, {
+				mails = {
+					uv0
+				},
 				items = PlayerConst.addTranDrop(slot0.attachment_list)
 			})
-			uv2:sendNotification(GAME.TAKE_ATTACHMENT_DONE, uv0)
 		end)
 	end)
 end

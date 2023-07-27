@@ -120745,7 +120745,7 @@ _G.pg.base.equip_data_statistics[89380] = {
 	tech = 0,
 	value_2 = 0,
 	ammo = 10,
-	descrip = "说明占坑",
+	descrip = "戴拿爆能加农",
 	nationality = 108,
 	rarity = 5,
 	id = 89380,
@@ -120890,7 +120890,7 @@ _G.pg.base.equip_data_statistics[89400] = {
 	tech = 0,
 	value_2 = 0,
 	ammo = 10,
-	descrip = "说明占坑",
+	descrip = "煌翼炎龙",
 	nationality = 108,
 	rarity = 5,
 	id = 89400,
@@ -133995,6 +133995,59 @@ _G.pg.base.equip_data_statistics[170012] = {
 	base = 170011,
 	weapon_id = {
 		170012
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[170041] = {
+	type = 1,
+	name = "專屬彈幕-拉·加利索尼埃METAI",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能彈幕",
+	id = 170041,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170041
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170042] = {
+	id = 170042,
+	name = "專屬彈幕-拉·加利索尼埃METAII",
+	base = 170041,
+	weapon_id = {
+		170042
 	},
 	hidden_skill_id = {}
 }

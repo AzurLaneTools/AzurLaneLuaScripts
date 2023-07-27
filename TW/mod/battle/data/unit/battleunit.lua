@@ -935,10 +935,11 @@ end
 
 function slot9.AddBuff(slot0, slot1, slot2)
 	slot3 = slot1:GetID()
-	slot4 = {
+
+	slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, {
 		unit_id = slot0._uniqueID,
 		buff_id = slot3
-	}
+	}))
 
 	if slot0:GetBuff(slot3) then
 		slot6 = slot5:GetLv()
@@ -1726,6 +1727,37 @@ end
 
 function slot9.GetAimBias(slot0)
 	return slot0._aimBias
+end
+
+function slot9.SwitchSpine(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.SWITCH_SPINE, {
+		skin = slot1,
+		HPBarOffset = slot2
+	}))
+end
+
+function slot9.Freeze(slot0)
+	for slot4, slot5 in ipairs(slot0._totalWeapon) do
+		slot5:StartJamming()
+	end
+
+	if slot0._airAssistList then
+		for slot4, slot5 in ipairs(slot0._airAssistList) do
+			slot5:StartJamming()
+		end
+	end
+end
+
+function slot9.ActiveFreeze(slot0)
+	for slot4, slot5 in ipairs(slot0._totalWeapon) do
+		slot5:JammingEliminate()
+	end
+
+	if slot0._airAssistList then
+		for slot4, slot5 in ipairs(slot0._airAssistList) do
+			slot5:JammingEliminate()
+		end
+	end
 end
 
 function slot9.ActiveWeaponSectorView(slot0, slot1, slot2)

@@ -2017,7 +2017,10 @@ pg.map_event_list = {
 			584,
 			585
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			568,
+			569
+		},
 		help_pictures = {
 			"helpbg/battle_gulite_1",
 			"helpbg/battle_gulite_2"

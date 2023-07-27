@@ -166,6 +166,20 @@ function slot0.getStudents(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot0.IsShowMainTip(slot0)
+	assert(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2))
+
+	return (function ()
+		return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+	end)() or Activity.isHaveActivableMedal() or (function ()
+		slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
+
+		return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0
+	end)() or (function ()
+		return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")).count > 0
+	end)()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)

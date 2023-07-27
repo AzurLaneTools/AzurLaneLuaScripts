@@ -182,6 +182,11 @@ pg.task_meta_data_template = setmetatable({
 		100093,
 		100094,
 		100095,
+		100101,
+		100102,
+		100103,
+		100104,
+		100105,
 		200001,
 		200002,
 		200003,
@@ -217,7 +222,11 @@ pg.task_meta_data_template = setmetatable({
 		200091,
 		200092,
 		200093,
-		200094
+		200094,
+		200101,
+		200102,
+		200103,
+		200104
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1505,7 +1514,7 @@ pg.base.task_meta_data_template = {
 	[100061] = {
 		target_id_2 = "970204",
 		sub_type = 180,
-		desc = "使用拉·加利索尼埃.META获得1次胜利",
+		desc = "使用拉·加利索尼埃.META獲得1次勝利",
 		id = 100061,
 		target_num = 1,
 		target_id = "0"
@@ -1513,7 +1522,7 @@ pg.base.task_meta_data_template = {
 	[100062] = {
 		target_id_2 = "970204",
 		sub_type = 180,
-		desc = "使用拉·加利索尼埃.META击破等级>30的敌方1次",
+		desc = "使用拉·加利索尼埃.META擊破等級>30的敵方1次",
 		id = 100062,
 		target_num = 1,
 		target_id = "30"
@@ -1521,7 +1530,7 @@ pg.base.task_meta_data_template = {
 	[100063] = {
 		target_id_2 = "970204",
 		sub_type = 180,
-		desc = "使用拉·加利索尼埃.META击破等级>55的敌方1次",
+		desc = "使用拉·加利索尼埃.META擊破等級>55的敵方1次",
 		id = 100063,
 		target_num = 1,
 		target_id = "55"
@@ -1529,7 +1538,7 @@ pg.base.task_meta_data_template = {
 	[100064] = {
 		target_id_2 = "970204",
 		sub_type = 180,
-		desc = "使用拉·加利索尼埃.META击破等级>80的敌方1次",
+		desc = "使用拉·加利索尼埃.META擊破等級>80的敵方1次",
 		id = 100064,
 		target_num = 1,
 		target_id = "80"
@@ -1537,7 +1546,7 @@ pg.base.task_meta_data_template = {
 	[100065] = {
 		target_id_2 = "970204",
 		sub_type = 180,
-		desc = "使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		desc = "使用拉·加利索尼埃.META擊破等級>100的敵方1次",
 		id = 100065,
 		target_num = 1,
 		target_id = "100"
@@ -1659,6 +1668,46 @@ pg.base.task_meta_data_template = {
 		sub_type = 180,
 		desc = "使用阿尔及利亚·META击破等级＞100的敌方1次",
 		id = 100095,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100101] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META获得1次胜利",
+		id = 100101,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100102] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞30的敌方1次",
+		id = 100102,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100103] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞55的敌方1次",
+		id = 100103,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100104] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞80的敌方1次",
+		id = 100104,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100105] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞100的敌方1次",
+		id = 100105,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1825,7 +1874,7 @@ pg.base.task_meta_data_template = {
 	[200061] = {
 		target_id_2 = "970204",
 		sub_type = 302,
-		desc = "大型作战内使用拉·加利索尼埃.META获得1次胜利",
+		desc = "大型作戰內使用拉·加利索尼埃.META獲得1次勝利",
 		id = 200061,
 		target_num = 1,
 		target_id = "0"
@@ -1833,7 +1882,7 @@ pg.base.task_meta_data_template = {
 	[200062] = {
 		target_id_2 = "970204",
 		sub_type = 302,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>70的敌方1次",
+		desc = "大型作戰內使用拉·加利索尼埃.META擊破等級>70的敵方1次",
 		id = 200062,
 		target_num = 1,
 		target_id = "70"
@@ -1841,7 +1890,7 @@ pg.base.task_meta_data_template = {
 	[200063] = {
 		target_id_2 = "970204",
 		sub_type = 302,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>90的敌方1次",
+		desc = "大型作戰內使用拉·加利索尼埃.META擊破等級>90的敵方1次",
 		id = 200063,
 		target_num = 1,
 		target_id = "90"
@@ -1849,7 +1898,7 @@ pg.base.task_meta_data_template = {
 	[200064] = {
 		target_id_2 = "970204",
 		sub_type = 302,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		desc = "大型作戰內使用拉·加利索尼埃.META擊破等級>100的敵方1次",
 		id = 200064,
 		target_num = 1,
 		target_id = "100"
@@ -1947,6 +1996,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用阿尔及利亚·META击破等级＞100的敌方1次",
 		id = 200094,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200101] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META获得1次胜利",
+		id = 200101,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200102] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞70的敌方1次",
+		id = 200102,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200103] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞90的敌方1次",
+		id = 200103,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200104] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞100的敌方1次",
+		id = 200104,
 		target_num = 1,
 		target_id = "100"
 	}

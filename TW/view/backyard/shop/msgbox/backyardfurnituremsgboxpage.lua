@@ -5,7 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.nameTxt = slot0:findTF("frame/name/Text"):GetComponent(typeof(Text))
+	slot0.nameTxt = slot0:findTF("frame/name/mask/Text"):GetComponent("ScrollText")
 	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
 	slot0.iconContainer = slot0:findTF("frame/icon")
 	slot0.icon = slot0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
@@ -152,22 +152,24 @@ end
 
 function slot0.UpdateMainInfo(slot0)
 	slot1 = slot0.furniture
-	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
+
+	slot0.nameTxt:SetText(HXSet.hxLan(slot1:getConfig("name")))
+
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("describe"))
 
 	slot0:UpdateIcon()
 	slot0:UpdatePrice()
 
-	slot2 = slot1:canPurchaseByDormMoeny()
-	slot3 = slot1:canPurchaseByGem()
+	slot3 = slot1:canPurchaseByDormMoeny()
+	slot4 = slot1:canPurchaseByGem()
 
-	setActive(slot0.goldPurchaseBtn, slot2)
-	setActive(slot0.gemPurchaseBtn, slot3)
-	setActive(slot0.gemIcon, slot3)
-	setActive(slot0.gemCount, slot3)
-	setActive(slot0.goldIcon, slot2)
-	setActive(slot0.goldCount, slot2)
-	setActive(slot0.line, slot2 and slot3)
+	setActive(slot0.goldPurchaseBtn, slot3)
+	setActive(slot0.gemPurchaseBtn, slot4)
+	setActive(slot0.gemIcon, slot4)
+	setActive(slot0.gemCount, slot4)
+	setActive(slot0.goldIcon, slot3)
+	setActive(slot0.goldCount, slot3)
+	setActive(slot0.line, slot3 and slot4)
 
 	slot0.maxCnt.text = ""
 

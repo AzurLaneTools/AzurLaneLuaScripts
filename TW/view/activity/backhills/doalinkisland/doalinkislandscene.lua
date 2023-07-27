@@ -108,7 +108,15 @@ function slot0.UpdateView(slot0)
 
 	setActive(slot0.upper_shatanpaiqiu:Find("tip"), uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_VOLLEYBALL))
 	setActive(slot0.upper_pengpengdong:Find("tip"), uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_PENGPENGDONG))
-	slot0.loader:GetSpriteQuiet("ui/DOALinkIslandUI_atlas", tostring((getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_VOLLEYBALL) and getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))).usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
+
+	slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_VOLLEYBALL)
+
+	assert(slot3)
+
+	slot4 = getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))
+
+	assert(slot4)
+	slot0.loader:GetSpriteQuiet("ui/DOALinkIslandUI_atlas", tostring(slot4.usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
 
 	slot5 = slot1:getActivityById(ActivityConst.DOA_PT_ID)
 

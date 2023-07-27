@@ -189,4 +189,20 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 	uv0.super.OnClickCommodity(slot0, slot1, slot2)
 end
 
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+
+	if slot0.shop:GetBGM() ~= "" then
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0.shop:GetBGM())
+	end
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+
+	if slot0.shop:GetBGM() ~= "" then
+		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
+	end
+end
+
 return slot0

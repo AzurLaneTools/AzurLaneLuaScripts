@@ -42,14 +42,14 @@ function slot0.initData(slot0)
 		return
 	end
 
-	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData and slot0.activityData.id)
+	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 	slot0.pageIDList = {}
 
-	for slot5 = 1, uv0.PAGE_NUM do
-		slot0.pageIDList[slot5] = {}
+	for slot4 = 1, uv0.PAGE_NUM do
+		slot0.pageIDList[slot4] = {}
 
-		for slot9 = 1, uv0.MEDAL_NUM_PER_PAGE do
-			slot0.pageIDList[slot5][slot9] = slot0.allIDList[(slot5 - 1) * uv0.MEDAL_NUM_PER_PAGE + slot9]
+		for slot8 = 1, uv0.MEDAL_NUM_PER_PAGE do
+			slot0.pageIDList[slot4][slot8] = slot0.allIDList[(slot4 - 1) * uv0.MEDAL_NUM_PER_PAGE + slot8]
 		end
 	end
 

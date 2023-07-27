@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "main",
+		default_bgm = "ssss-az-pv",
 		special_bgm = "",
 		time = "",
 		bgm = "main"
@@ -97,13 +97,13 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "ssss-az-pv",
 		special_bgm = "",
 		time = "",
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "ssss-az-story",
 		special_bgm = "",
 		time = "stop",
 		bgm = "main"
@@ -653,5 +653,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-schoolfuture"
+	},
+	SSSSCollectPage = {
+		default_bgm = "ssss-az-pv",
+		special_bgm = "",
+		time = "",
+		bgm = "ssss-az-pv"
+	},
+	SSSSMainPage = {
+		default_bgm = "ssss-az-pv",
+		special_bgm = "",
+		time = "",
+		bgm = "ssss-1114A"
+	},
+	SSSSPTPage = {
+		default_bgm = "ssss-az-story",
+		special_bgm = "",
+		time = "",
+		bgm = "ssss-az-story"
+	},
+	GridGameReView = {
+		default_bgm = "ssss-az-pv",
+		special_bgm = "",
+		time = "",
+		bgm = "ssss-1114A"
 	}
 }

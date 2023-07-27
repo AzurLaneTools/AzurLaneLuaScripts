@@ -108,9 +108,9 @@ function slot0.CheckStoryDownload(slot0, slot1, slot2)
 	slot4 = slot1
 
 	while true do
-		slot5 = pg.task_data_template[slot4]
-
-		table.insert(slot3, slot5.story_id)
+		if pg.task_data_template[slot4].story_id ~= "" then
+			table.insert(slot3, slot5.story_id)
+		end
 
 		if slot5.next_task == "" or slot5.next_task == "0" then
 			break
