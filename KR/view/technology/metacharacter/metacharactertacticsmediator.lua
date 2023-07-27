@@ -3,9 +3,11 @@ slot0.GO_TASK = "MetaCharacterTacticsMediator:GO_TASK"
 slot0.ON_SUBMIT = "MetaCharacterTacticsMediator:ON_SUBMIT"
 slot0.ON_TRIGGER = "MetaCharacterTacticsMediator:ON_TRIGGER"
 slot0.ON_SKILL = "MetaCharacterTacticsMediator:ON_SKILL"
+slot0.ON_QUICK = "MetaCharacterTacticsMediator:ON_QUICK"
 
 function slot0.register(slot0)
 	slot0:requestTacticsData()
+	slot0:bindEvent()
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -13,7 +15,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.TACTICS_META_INFO_REQUEST_DONE,
 		GAME.TACTICS_META_UNLOCK_SKILL_DONE,
 		GAME.TACTICS_META_SWITCH_SKILL_DONE,
-		GAME.TACTICS_META_LEVELUP_SKILL_DONE
+		GAME.TACTICS_META_LEVELUP_SKILL_DONE,
+		GAME.META_QUICK_TACTICS_DONE
 	}
 end
 
@@ -51,7 +54,28 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateTacticsRedTag()
 		slot0.viewComponent:updateSkillListPanel()
 		slot0.viewComponent:updateTaskPanel(slot4)
+	elseif slot2 == GAME.META_QUICK_TACTICS_DONE then
+		slot4 = slot3.skillID
+
+		slot0.viewComponent:updateSkillExp(slot4, slot3.skillExp)
+		slot0.viewComponent:updateData()
+		slot0.viewComponent:updateTacticsRedTag()
+		slot0.viewComponent:updateSkillListPanel()
+		slot0.viewComponent:updateTaskPanel(slot4)
 	end
+end
+
+function slot0.bindEvent(slot0)
+	slot0:bind(uv0.ON_QUICK, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = MetaQuickTacticsMediator,
+			viewComponent = MetaQuickTacticsLayer,
+			data = {
+				shipID = slot1,
+				skillID = slot2
+			}
+		}))
+	end)
 end
 
 function slot0.requestTacticsData(slot0)

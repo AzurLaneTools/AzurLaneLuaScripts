@@ -783,7 +783,7 @@ function slot0.filterCommon(slot0)
 end
 
 function slot0.SortShips(slot0, slot1)
-	if pg.GuideMgr.GetInstance():isRuning() then
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		slot2 = {
 			101171,
 			201211,
@@ -1763,9 +1763,15 @@ function slot0.checkDestroyShips(slot0, slot1, slot2)
 
 	if #slot4 > 0 or #slot5 > 0 then
 		table.insert(slot3, function (slot0)
-			slot1, slot2, slot3, slot4 = ShipCalcHelper.CalcDestoryRes(uv0)
+			slot1 = false
 
-			uv1.destroyConfirmWindow:ExecuteAction("Show", uv2, uv3, slot4, slot0)
+			if uv0.contextData.mode == uv1.MODE_DESTROY then
+				slot1 = ({
+					ShipCalcHelper.CalcDestoryRes(uv2)
+				})[4]
+			end
+
+			uv0.destroyConfirmWindow:ExecuteAction("Show", uv3, uv4, slot1, slot0)
 		end)
 	end
 

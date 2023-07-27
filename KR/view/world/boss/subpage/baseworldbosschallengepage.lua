@@ -57,17 +57,12 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot1 = slot0:findTF("list_panel/mask/tpl")
-	slot3 = slot1:Find("empty")
-	slot3 = slot3:GetComponent(typeof(Image))
-	slot3.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. WorldBossConst.GetCurrBossGroup(), "item_04")
+	slot0:UpdateEmptyCard()
 
-	slot3:SetNativeSize()
+	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot0:findTF("list_panel/mask/tpl"))
+	slot1 = slot0.scrollRect
 
-	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot1)
-	slot4 = slot0.scrollRect
-
-	slot4:Make(function (slot0, slot1)
+	slot1:Make(function (slot0, slot1)
 		uv0:OnInitCard(slot0, slot1)
 	end, function (slot0, slot1)
 		uv0:OnPreviewCard(slot0, slot1)
@@ -75,24 +70,24 @@ function slot0.OnInit(slot0)
 		uv0:OnSelectCard(slot0, slot1)
 	end)
 
-	slot4 = slot0:findTF("main/hp/slider")
-	slot0.hpSlider = slot4:GetComponent(typeof(Slider))
-	slot4 = slot0:findTF("main/hp/level/Text")
-	slot0.levelTxt = slot4:GetComponent(typeof(Text))
-	slot4 = slot0:findTF("main/hp/Text")
-	slot0.hpTxt = slot4:GetComponent(typeof(Text))
-	slot4 = slot0:findTF("main/time/Text")
-	slot0.expiredTimeTxt = slot4:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("main/hp/slider")
+	slot0.hpSlider = slot1:GetComponent(typeof(Slider))
+	slot1 = slot0:findTF("main/hp/level/Text")
+	slot0.levelTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("main/hp/Text")
+	slot0.hpTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0:findTF("main/time/Text")
+	slot0.expiredTimeTxt = slot1:GetComponent(typeof(Text))
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.painting = slot0:findTF("paint")
 
 	setActive(slot0.painting, false)
 	setActive(slot0.mainPanel, false)
 
-	slot4 = slot0.mainPanel
-	slot0.rankBtn = slot4:Find("rank_btn")
-	slot4 = slot0.mainPanel
-	slot0.startBtn = slot4:Find("start_btn")
+	slot1 = slot0.mainPanel
+	slot0.rankBtn = slot1:Find("rank_btn")
+	slot1 = slot0.mainPanel
+	slot0.startBtn = slot1:Find("start_btn")
 	slot0.refreshBtn = slot0:findTF("list_panel/frame/filter/refresh_btn")
 	slot0.refreshBtnGray = slot0:findTF("list_panel/frame/filter/refresh_btn_gray")
 	slot0.cdTime = 0
@@ -132,27 +127,34 @@ function slot0.OnInit(slot0)
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
 
-	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/unsel"), typeof(Image))
+	slot1 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/unsel"), typeof(Image))
 
-	slot4:SetNativeSize()
+	slot1:SetNativeSize()
 
-	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/sel"), typeof(Image))
+	slot1 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/friend/sel"), typeof(Image))
 
-	slot4:SetNativeSize()
+	slot1:SetNativeSize()
 
-	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/sel"), typeof(Image))
+	slot1 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/sel"), typeof(Image))
 
-	slot4:SetNativeSize()
+	slot1:SetNativeSize()
 
-	slot4 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/unsel"), typeof(Image))
+	slot1 = GetComponent(slot0:findTF("list_panel/frame/filter/toggles/guild/unsel"), typeof(Image))
 
-	slot4:SetNativeSize()
+	slot1:SetNativeSize()
 	onToggle(slot0, slot0:findTF("list_panel/frame/filter/toggles/guild"), function (slot0)
 		uv0.filterFlags[3] = slot0 and WorldBoss.BOSS_TYPE_GUILD or -1
 
 		uv0:CheckToggle()
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
+end
+
+function slot0.UpdateEmptyCard(slot0)
+	slot3 = slot0:findTF("list_panel/mask/tpl"):Find("empty"):GetComponent(typeof(Image))
+	slot3.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. WorldBossConst.GetCurrBossGroup(), "item_04")
+
+	slot3:SetNativeSize()
 end
 
 function slot0.CheckToggle(slot0)

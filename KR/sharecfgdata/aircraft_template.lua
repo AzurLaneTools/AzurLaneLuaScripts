@@ -72584,6 +72584,190 @@ _G.pg.base.aircraft_template[161250] = {
 	}
 }
 
+_G.pg.base.aircraft_template[161391] = {
+	attack_power = 2,
+	name = "奇尔沙治熊猫战斗机Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "f8f",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.303,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 161391,
+	icon = "f8f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 12,
+	hp_growth = 1183,
+	speed = 50,
+	max_hp = 76,
+	scale = 1,
+	weapon_ID = {
+		161401
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.25,
+				0
+			},
+			{
+				0.77,
+				1.48,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161392] = {
+	id = 161392,
+	name = "奇尔沙治熊猫战斗机Lv2",
+	hp_growth = 1345,
+	base = 161391,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161402
+	}
+}
+
+_G.pg.base.aircraft_template[161393] = {
+	id = 161393,
+	name = "奇尔沙治熊猫战斗机Lv3",
+	hp_growth = 1507,
+	base = 161391,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161403
+	}
+}
+
+_G.pg.base.aircraft_template[161394] = {
+	id = 161394,
+	name = "奇尔沙治熊猫战斗机Lv4",
+	hp_growth = 1669,
+	base = 161391,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161404
+	}
+}
+
+_G.pg.base.aircraft_template[161395] = {
+	id = 161395,
+	name = "奇尔沙治熊猫战斗机Lv5",
+	hp_growth = 1829,
+	base = 161391,
+	max_hp = 105,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161405
+	}
+}
+
+_G.pg.base.aircraft_template[161396] = {
+	id = 161396,
+	name = "奇尔沙治熊猫战斗机Lv6",
+	hp_growth = 2103,
+	base = 161391,
+	max_hp = 112,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161406
+	}
+}
+
+_G.pg.base.aircraft_template[161397] = {
+	id = 161397,
+	name = "奇尔沙治熊猫战斗机Lv7",
+	hp_growth = 2378,
+	base = 161391,
+	max_hp = 119,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161407
+	}
+}
+
+_G.pg.base.aircraft_template[161398] = {
+	id = 161398,
+	name = "奇尔沙治熊猫战斗机Lv8",
+	hp_growth = 2652,
+	base = 161391,
+	max_hp = 126,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161408
+	}
+}
+
+_G.pg.base.aircraft_template[161399] = {
+	id = 161399,
+	name = "奇尔沙治熊猫战斗机Lv9",
+	hp_growth = 2926,
+	base = 161391,
+	max_hp = 133,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161409
+	}
+}
+
+_G.pg.base.aircraft_template[161400] = {
+	id = 161400,
+	name = "奇尔沙治熊猫战斗机Lv10",
+	hp_growth = 3201,
+	base = 161391,
+	max_hp = 140,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161410
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",

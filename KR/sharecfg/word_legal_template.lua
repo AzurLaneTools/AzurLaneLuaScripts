@@ -376,6 +376,13 @@ function temp()
 				this = true
 			}
 		},
+		["랑"] = {
+			["드"] = {
+				["르"] = {
+					this = true
+				}
+			}
+		},
 		["리"] = {
 			["머"] = {
 				["스"] = {
@@ -1950,6 +1957,13 @@ function temp()
 						}
 					}
 				},
+				["다"] = {
+					["이"] = {
+						["호"] = {
+							this = true
+						}
+					}
+				},
 				["프"] = {
 					["린"] = {
 						["츠"] = {
@@ -2253,7 +2267,12 @@ function temp()
 			}
 		},
 		["가"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2728,6 +2747,11 @@ function temp()
 				}
 			}
 		},
+		["카"] = {
+			["와"] = {
+				this = true
+			}
+		},
 		["라"] = {
 			["나"] = {
 				this = true
@@ -2820,7 +2844,12 @@ function temp()
 		},
 		["게"] = {
 			["로"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["미"] = {
@@ -2839,7 +2868,12 @@ function temp()
 		},
 		["스"] = {
 			["미"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["자"] = {
@@ -3033,6 +3067,11 @@ function temp()
 		["카"] = {
 			["바"] = {
 				this = true
+			},
+			["츠"] = {
+				["키"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -3637,20 +3676,36 @@ function temp()
 			}
 		},
 		["세"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["1"] = {
 			["9"] = {
 				this = true
+			},
+			["6"] = {
+				["8"] = {
+					this = true
+				}
 			}
 		},
 		["2"] = {
 			["6"] = {
 				this = true
+			},
+			["5"] = {
+				this = true
 			}
 		},
 		["5"] = {
 			["8"] = {
+				this = true
+			},
+			["6"] = {
 				this = true
 			}
 		},
@@ -3683,6 +3738,19 @@ function temp()
 		},
 		["류"] = {
 			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["요"] = {
 			["·"] = {
 				M = {
 					E = {
@@ -4364,6 +4432,13 @@ function temp()
 				this = true
 			}
 		},
+		["어"] = {
+			["사"] = {
+				["지"] = {
+					this = true
+				}
+			}
+		},
 		["즈"] = {
 			["나"] = {
 				[" "] = {
@@ -4527,6 +4602,15 @@ function temp()
 					["·"] = {
 						["改"] = {
 							this = true
+						},
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
 						}
 					}
 				}
@@ -5254,20 +5338,6 @@ end
 temp()
 
 function temp()
-	uv0["고"] = {
-		["리"] = {
-			["치"] = {
-				["아"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["줄"] = {
 		["리"] = {
 			["오"] = {
@@ -5540,6 +5610,60 @@ function temp()
 		["지"] = {
 			["아"] = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["펠"] = {
+		["릭"] = {
+			["스"] = {
+				[" "] = {
+					["슐"] = {
+						["츠"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["힌"] = {
+		["덴"] = {
+			["부"] = {
+				["르"] = {
+					["크"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["준"] = {
+		["요"] = {
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}

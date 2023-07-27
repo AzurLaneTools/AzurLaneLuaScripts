@@ -1,7 +1,7 @@
-slot0 = class("QuotaGoodsCard")
+slot0 = class("QuotaGoodsCard", import(".BaseGoodsCard"))
 
 function slot0.Ctor(slot0, slot1)
-	pg.DelegateInfo.New(slot0)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
@@ -17,12 +17,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitCountTF = findTF(slot0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF.text = i18n("quota_shop_owned")
+	slot0.limitTag = slot0.tr:Find("mask/tag/limit_tag")
 end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
+	slot5 = slot0.goodsVO:canPurchase()
 
-	setActive(slot0.mask, not slot0.goodsVO:canPurchase())
+	setActive(slot0.mask, not slot5)
+	setActive(slot0.limitTag, not slot5)
 	onButton(slot0, slot0.mask, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("quota_shop_limit_error"))
 	end, SFX_PANEL)
@@ -61,8 +64,8 @@ function slot0.setAsLastSibling(slot0)
 	slot0.tr:SetAsLastSibling()
 end
 
-function slot0.dispose(slot0)
-	pg.DelegateInfo.Dispose(slot0)
+function slot0.OnDispose(slot0)
+	slot0.goodsVO = nil
 end
 
 return slot0

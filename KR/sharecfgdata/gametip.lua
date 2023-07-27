@@ -9786,7 +9786,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "허마이오니 건조 추가!"
+	tip = "\"에스키모\" 상시 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11464,6 +11464,56 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 138.6mm 단장포 Mle1929
 2연장 40mm 보포스 대공포
 </color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 406mm 3연장포 Mk6改
+F8F 베어캣
+127mm 연장 양용포 MK12(시한신관)</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 150mm 3연장 5식 고각포
+610mm 4연장 어뢰
+100mm 연장 고각포</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 150mm Tbts KC 42T식 연장포
+533mm 4연장 자기 어뢰
+시제형 55mm Gerät 58 대공포</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 203mm SKC 3연장포改
+533mm 4연장 자기 어뢰
+시제형 55mm Gerät 58 대공포</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 380mm 3연장포 Mle1935
+152mm 3연장포 Mle1930
+2연장 보포스 40mm 기관포</color></size>]]
 }
 
 _G.pg.base.gametip.electrotherapy_wanning = {
@@ -13158,6 +13208,10 @@ _G.pg.base.gametip.msgbox_text_breakthrough = {
 
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "장비 정보"
+}
+
+_G.pg.base.gametip.msgbox_text_use = {
+	tip = "사용"
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -20588,6 +20642,14 @@ _G.pg.base.gametip.techpackage_item_use = {
 	tip = "가속 개발은 1명의 캐릭터만 선택할 수 있습니다. $1을(를) 개발하시겠습니까?\n개발 후 해당 캐릭터를 획득합니다(레벨1 및 개발 레벨1\n<color=#ff5c5c>$2*1 소모</color>"
 }
 
+_G.pg.base.gametip.techpackage_item_use_1 = {
+	tip = "특별 개방은 동일 년도에 추가되는 특별계획함 1척만 선택하여 획득할 수 있습니다. <color=#92fc63>$1</color>(을)를 선택하시겠습니까?"
+}
+
+_G.pg.base.gametip.techpackage_item_use_2 = {
+	tip = "아이템 <color=#ff5c5c>$1*1</color>을 소모하여 해당 특별계획함을 획득합니다. (레벨 및 강화 레벨은 초기 상태입니다.)"
+}
+
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "캐릭터 모두 획득함. 사용 시 다음 아이템을 획득합니다."
 }
@@ -23987,4 +24049,56 @@ _G.pg.base.gametip.activityboss_sp_score_update = {
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "최고 점수 미갱신"
+}
+
+_G.pg.base.gametip.charge_menu_month_tip = {
+	tip = "무역 허가증의 유효 잔여 기간이 $1일이므로 구매할 수 없습니다."
+}
+
+_G.pg.base.gametip.activity_shop_title = {
+	tip = "이벤트"
+}
+
+_G.pg.base.gametip.street_shop_title = {
+	tip = "상점"
+}
+
+_G.pg.base.gametip.military_shop_title = {
+	tip = "연습"
+}
+
+_G.pg.base.gametip.quota_shop_title1 = {
+	tip = "코어 한정"
+}
+
+_G.pg.base.gametip.sham_shop_title = {
+	tip = "코어 월간"
+}
+
+_G.pg.base.gametip.fragment_shop_title = {
+	tip = "프로토"
+}
+
+_G.pg.base.gametip.guild_shop_title = {
+	tip = "대함대"
+}
+
+_G.pg.base.gametip.medal_shop_title = {
+	tip = "훈장"
+}
+
+_G.pg.base.gametip.meta_shop_title = {
+	tip = "META"
+}
+
+_G.pg.base.gametip.mini_game_shop_title = {
+	tip = "티켓"
+}
+
+_G.pg.base.gametip.metaskill_up = {
+	tip = "<color=#E0E0E0>* \"META 범용 전술 교본\"으로 획득 가능한 경험치는 일일 획득 가능 경험치 상한에 포함되지 않습니다.</color>"
+}
+
+_G.pg.base.gametip.metaskill_overflow_tip = {
+	tip = "상한을 초과한 <color=#FFDE60>$1</color> 스킬 강화 경험치는 가산되지 않습니다. 계속하시겠습니까?"
 }

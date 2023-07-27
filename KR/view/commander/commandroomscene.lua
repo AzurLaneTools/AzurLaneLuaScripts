@@ -420,7 +420,7 @@ end
 function slot0.DisplayCatterySettlement(slot0)
 	slot1 = getProxy(CommanderProxy):GetCommanderHome()
 
-	print(slot1:ShouldSettleCattery(), slot0.contextData.fromMediatorName == NewMainMediator.__cname, not (pg.NewStoryMgr.GetInstance():IsRunning() or pg.GuideMgr.GetInstance():isRuning()))
+	print(slot1:ShouldSettleCattery(), slot0.contextData.fromMediatorName == NewMainMediator.__cname, not (pg.NewStoryMgr.GetInstance():IsRunning() or pg.NewGuideMgr.GetInstance():IsBusy()))
 
 	if slot1 and slot1:ShouldSettleCattery() and slot2 and not slot3 then
 		slot0.catterySettlementPage:ExecuteAction("Show", Clone(slot1))

@@ -12,7 +12,6 @@ function slot0.CanOpen(slot0, slot1, slot2)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
 	slot0.dayTxt = slot0:findTF("time/day"):GetComponent(typeof(Text))
 	slot0.fragment = slot0:findTF("res_fragment/count"):GetComponent(typeof(Text))
 	slot0.resolveBtn = slot0:findTF("res_fragment/resolve")
@@ -83,14 +82,18 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 end
 
 function slot0.OnInitItem(slot0, slot1)
-	slot2 = {
-		tr = slot1.transform
-	}
+	slot2 = ActivityGoodsCard.New(slot1)
 
 	onButton(slot0, slot2.tr, function ()
-		slot0 = uv0
+		if not uv0.goodsVO:canPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+			return
+		end
+
+		slot0 = uv1
+
+		slot0:OnClickCommodity(uv0.goodsVO, function (slot0, slot1)
 			uv0:OnPurchase(slot0, slot1)
 		end)
 	end, SFX_PANEL)

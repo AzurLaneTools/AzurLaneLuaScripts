@@ -417,6 +417,7 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 				id = slot3[2],
 				count = slot3[3]
 			})
+			setActive(slot2, slot1 <= 3)
 		end
 	end)
 	slot5:align(#slot3.award_display)

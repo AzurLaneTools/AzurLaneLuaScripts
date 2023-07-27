@@ -86,6 +86,14 @@ function slot0.GetPrice(slot0)
 	return slot2, slot1
 end
 
+function slot0.GetName(slot0)
+	return updateDropCfg(slot0:getDropInfo()).name
+end
+
+function slot0.GetResType(slot0)
+	return slot0:getConfig("resource_type")
+end
+
 function slot0.IsItemDiscountType(slot0)
 	slot2 = pg.shop_discount_coupon_template
 
@@ -170,6 +178,30 @@ function slot0.getDropInfo(slot0)
 		id = slot2[1],
 		count = slot0:getConfig("num")
 	}
+end
+
+function slot0.GetDropList(slot0)
+	slot1 = {}
+
+	if type(pg.item_data_statistics[slot0:getConfig("effect_args")[1]].display_icon) == "table" then
+		for slot8, slot9 in ipairs(slot4) do
+			table.insert(slot1, {
+				type = slot9[1],
+				id = slot9[2],
+				count = slot9[3]
+			})
+		end
+	end
+
+	return slot1
+end
+
+function slot0.IsGroupLimit(slot0, slot1)
+	if slot0:getConfig("group") <= 0 then
+		return false
+	end
+
+	return slot0:getConfig("group_limit") > 0 and slot3 <= (slot0.groupCount or 0)
 end
 
 return slot0

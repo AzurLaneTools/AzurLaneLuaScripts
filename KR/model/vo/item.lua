@@ -24,6 +24,7 @@ slot0.INVITATION_TYPE = 21
 slot0.EXP_BOOK_TYPE = 22
 slot0.LOVE_LETTER_TYPE = 23
 slot0.SPWEAPON_MATERIAL_TYPE = 24
+slot0.METALESSON_TYPE = 25
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon

@@ -130,8 +130,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30014,
+				1,
+				15,
 				1
 			}
 		},
@@ -385,8 +385,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30014,
+				1,
+				15,
 				1
 			}
 		},
@@ -640,8 +640,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30034,
+				1,
+				15,
 				1
 			}
 		},
@@ -895,8 +895,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30044,
+				1,
+				15,
 				1
 			}
 		},
@@ -1150,8 +1150,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30014,
+				1,
+				15,
 				1
 			}
 		},
@@ -1405,8 +1405,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30024,
+				1,
+				15,
 				1
 			}
 		},
@@ -1915,8 +1915,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30044,
+				1,
+				15,
 				1
 			}
 		},
@@ -1965,7 +1965,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100039,
+				100051,
 				1
 			}
 		},
@@ -2170,8 +2170,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30014,
+				1,
+				15,
 				1
 			}
 		},
@@ -2425,8 +2425,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30024,
+				1,
+				15,
 				1
 			}
 		},
@@ -2680,8 +2680,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30034,
+				1,
+				15,
 				1
 			}
 		},
@@ -2935,8 +2935,8 @@ pg.activity_month_sign = {
 		},
 		day14 = {
 			{
-				2,
-				30044,
+				1,
+				15,
 				1
 			}
 		},

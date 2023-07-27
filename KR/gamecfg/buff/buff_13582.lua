@@ -64,6 +64,16 @@ return {
 				attr = "injureRatio",
 				number = 0.03
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "enemyantiAirPowerDownTag"
+			}
 		}
 	}
 }

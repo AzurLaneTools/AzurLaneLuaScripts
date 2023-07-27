@@ -87,7 +87,7 @@ function slot0.SwitchFloorDone(slot0)
 end
 
 function slot0.ShowAddFoodTip(slot0)
-	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT and slot0.dorm.food == 0 and not pg.GuideMgr.GetInstance():isRuning() and slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) > 0 and (not slot0.contextData.fromMediatorName or slot0.contextData.fromMediatorName ~= "DockyardMediator" and slot0.contextData.fromMediatorName ~= "ShipMainMediator") and not slot0.contextData.skipToCharge then
+	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT and slot0.dorm.food == 0 and not pg.NewGuideMgr.GetInstance():IsBusy() and slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) > 0 and (not slot0.contextData.fromMediatorName or slot0.contextData.fromMediatorName ~= "DockyardMediator" and slot0.contextData.fromMediatorName ~= "ShipMainMediator") and not slot0.contextData.skipToCharge then
 		slot0.emptyFoodPage:ExecuteAction("Flush")
 
 		slot0.contextData.fromMain = nil

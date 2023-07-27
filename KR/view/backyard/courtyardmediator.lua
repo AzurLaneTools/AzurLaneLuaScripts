@@ -152,7 +152,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot4 = slot1:getType()
 
 	if slot1:getName() == DormProxy.SHIPS_EXP_ADDED then
-		if not CourtYardMediator.firstTimeAddExp and not pg.GuideMgr.GetInstance():isRuning() then
+		if not CourtYardMediator.firstTimeAddExp and not pg.NewGuideMgr.GetInstance():IsBusy() then
 			CourtYardMediator.firstTimeAddExp = true
 
 			slot0:SettleExp(slot3)

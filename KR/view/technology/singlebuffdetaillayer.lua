@@ -52,7 +52,7 @@ end
 function slot0.findUI(slot0)
 	slot0.backBtn = slot0:findTF("BG")
 	slot0.detailPanel = slot0:findTF("DetailPanel")
-	slot0.baseImg = slot0:findTF("BaseImg", slot0.detailPanel)
+	slot0.baseImg = slot0:findTF("Info/BaseImg", slot0.detailPanel)
 	slot0.modelImg = slot0:findTF("ModelImg", slot0.baseImg)
 	slot0.top = slot0:findTF("Info/top", slot0.detailPanel)
 	slot0.levelImg = slot0:findTF("LevelImg", slot0.top)

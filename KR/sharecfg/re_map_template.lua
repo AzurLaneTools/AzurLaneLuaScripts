@@ -1284,7 +1284,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 24,
 		bg = "temp_taertu",
-		order = 22,
+		order = 24,
 		config_data = {
 			2200091,
 			2200092,
@@ -1313,7 +1313,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 25,
 		bg = "temp_qiaba",
-		order = 24,
+		order = 25,
 		config_data = {
 			2100261,
 			2100262,
@@ -1383,7 +1383,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 26,
 		bg = "temp_hemin",
-		order = 24,
+		order = 26,
 		config_data = {
 			2100281,
 			2100282,
@@ -1447,6 +1447,35 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[27] = {
+		memory_group = 187,
+		name = "峡湾间的反击常驻复刻",
+		activity_type = 2,
+		id = 27,
+		bg = "temp_aisijimoren",
+		order = 27,
+		config_data = {
+			2200101,
+			2200102,
+			2200103
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11029
+				},
+				"SP3"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1472,6 +1501,7 @@ pg.re_map_template = {
 		23,
 		24,
 		25,
-		26
+		26,
+		27
 	}
 }

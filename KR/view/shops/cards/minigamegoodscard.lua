@@ -1,7 +1,7 @@
-slot0 = class("MiniGameGoodsCard")
+slot0 = class("MiniGameGoodsCard", import(".BaseGoodsCard"))
 
 function slot0.Ctor(slot0, slot1)
-	pg.DelegateInfo.New(slot0)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
@@ -41,7 +41,9 @@ function slot0.Ctor(slot0, slot1)
 	setText(findTF(slot0.tr, "item/count_contain/label"), i18n("activity_shop_exchange_count"))
 
 	slot0.maskTip = i18n("buy_countLimit")
+	slot3 = slot0.tr
 
+	setText(slot3:Find("mask/tag/sellout_tag"), i18n("word_sell_out"))
 	onButton(slot0, slot0.mask, function ()
 		pg.TipsMgr.GetInstance():ShowTips(uv0.maskTip)
 	end, SFX_PANEL)
@@ -98,10 +100,14 @@ function slot0.update(slot0, slot1)
 	setActive(slot0.discountTF, false)
 
 	slot0.countTF.text = math.ceil(slot1:getConfig("price"))
+
+	GetSpriteFromAtlasAsync("ui/ShopsUI_atlas", "minigameRes", function (slot0)
+		uv0.resIconTF:GetComponent(typeof(Image)).sprite = slot0
+	end)
 end
 
-function slot0.dispose(slot0)
-	pg.DelegateInfo.Dispose(slot0)
+function slot0.OnDispose(slot0)
+	slot0.goodsVO = nil
 end
 
 return slot0

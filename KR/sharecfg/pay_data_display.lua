@@ -6627,6 +6627,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[2015] = {
+		subject = "PR함 개발 패키지(제3기)",
+		limit_group = 3,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_arg = 0,
+		name = "PR함 개발 패키지(제3기)",
+		name_display = "PR함 개발 패키지(제3기)",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2015,
+		money = 20000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_display",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift63",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "PR함 가속 개발권·제3기*1, 지향형 강화 도면·제3기*343 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2016] = {
+		subject = "PR함 개발 패키지(제3기)-고급",
+		limit_group = 3,
+		descrip_extra = "*PR함 가속 개발권·제3기의 내용에 변경이 있을 수 있습니다. 아이템을 터치하여 확인하세요.",
+		type = 0,
+		limit_arg = 1,
+		name = "PR함 개발 패키지(제3기)-고급",
+		name_display = "고급",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2016,
+		money = 20000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift64",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "패키지 내용",
+		airijp_id = "com.yostarjp.azurlane.tech7",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40026,
+				1
+			}
+		}
+	},
+	[2017] = {
+		subject = "PR함 개발 패키지(제3기)-일반",
+		limit_group = 3,
+		descrip_extra = "*PR함 가속 개발권·제3기의 내용에 변경이 있을 수 있습니다. 아이템을 터치하여 확인하세요.",
+		type = 0,
+		limit_arg = 2,
+		name = "PR함 개발 패키지(제3기)-일반",
+		name_display = "일반",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2017,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_normal",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift63",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "패키지 내용",
+		airijp_id = "com.yostarjp.azurlane.tech8",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40027,
+				1
+			}
+		}
+	},
+	[2018] = {
+		subject = "PR함 개발 패키지(제3기)-업그레이드",
+		limit_group = 3,
+		descrip_extra = "고급 버전으로 업그레이드 후 지향형 강화 도면·제3기*343 획득 가능",
+		type = 0,
+		limit_arg = 3,
+		name = "PR함 개발 패키지(제3기)-업그레이드",
+		name_display = "고급",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2018,
+		money = 8900,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift65",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "패키지 내용",
+		airijp_id = "com.yostarjp.azurlane.tech9",
+		extra_service_item = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40028,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6699,6 +6925,10 @@ pg.pay_data_display = {
 		2009,
 		2010,
 		2011,
-		2014
+		2014,
+		2015,
+		2016,
+		2017,
+		2018
 	}
 }

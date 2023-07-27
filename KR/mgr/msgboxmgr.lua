@@ -573,6 +573,18 @@ function slot9(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(findTF(slot0._helpPanel, "bg"), not slot1.helps.pageMode)
 	setActive(slot0._helpBgTF, slot1.helps.pageMode)
+	setActive(slot0._helpPanel:Find("btn_blueprint"), slot1.show_blueprint)
+
+	if slot1.show_blueprint then
+		slot4 = slot0._helpPanel
+
+		onButton(slot0, slot4:Find("btn_blueprint"), function ()
+			uv0:hide()
+			uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT, {
+				shipGroupId = uv2.show_blueprint
+			})
+		end, SFX_PANEL)
+	end
 
 	if slot1.helps.helpSize then
 		slot0._helpPanel.sizeDelta = Vector2(slot1.helps.helpSize.x or slot0._defaultHelpSize.x, slot1.helps.helpSize.y or slot0._defaultHelpSize.y)
@@ -610,12 +622,8 @@ function slot9(slot0, slot1)
 	end
 
 	if slot1.helps.disableScroll then
-		GetComponent(slot0._helpPanel, typeof(ScrollRect)).enabled = not slot1.helps.disableScroll
-
-		setAnchoredPosition(findTF(slot0._helpPanel, "list"), {
-			x = 0,
-			y = 0
-		})
+		SetCompomentEnabled(slot0._helpPanel:Find("list"), typeof(ScrollRect), not slot1.helps.disableScroll)
+		setAnchoredPosition(slot0._helpPanel:Find("list"), Vector2.zero)
 		setActive(findTF(slot0._helpPanel, "Scrollbar"), false)
 	end
 
@@ -1226,44 +1234,42 @@ function slot1.Clear(slot0)
 		x = slot0._defaultHelpPos.x,
 		y = slot0._defaultHelpPos.y
 	})
-
-	GetComponent(slot0._helpPanel, typeof(ScrollRect)).enabled = true
-
+	SetCompomentEnabled(slot0._helpPanel:Find("list"), typeof(ScrollRect), true)
 	setActive(slot0._top, true)
 	setActive(findTF(slot0._window, "bg"), true)
 	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg"), typeof(Image), true)
 	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg/frame"), typeof(Image), true)
 
-	slot5 = "icon_bg/own"
+	slot4 = "icon_bg/own"
 
-	setActive(findTF(slot0._sigleItemPanel, slot5), false)
+	setActive(findTF(slot0._sigleItemPanel, slot4), false)
 	setText(slot0._singleItemSubIntroTF, "")
 
-	for slot5 = slot0.singleItemIntro.parent.childCount - 1, 1, -1 do
-		Object.Destroy(slot0.singleItemIntro.parent:GetChild(slot5).gameObject)
+	for slot4 = slot0.singleItemIntro.parent.childCount - 1, 1, -1 do
+		Object.Destroy(slot0.singleItemIntro.parent:GetChild(slot4).gameObject)
 	end
 
 	setActive(slot0.singleItemIntro, false)
 
-	slot2 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
-	slot2.pivot = Vector2(0.5, 0.5)
-	slot2.sizeDelta = Vector2(-4, -4)
-	slot2.anchoredPosition = Vector2(0, 0)
+	slot1 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
+	slot1.pivot = Vector2(0.5, 0.5)
+	slot1.sizeDelta = Vector2(-4, -4)
+	slot1.anchoredPosition = Vector2(0, 0)
 
-	for slot6 = 0, slot0._helpList.childCount - 1 do
-		slot0._helpList:GetChild(slot6):Find("icon"):GetComponent(typeof(Image)).sprite = nil
+	for slot5 = 0, slot0._helpList.childCount - 1 do
+		slot0._helpList:GetChild(slot5):Find("icon"):GetComponent(typeof(Image)).sprite = nil
 	end
 
-	for slot6, slot7 in pairs(slot0.pools) do
-		if slot7 then
-			PoolMgr.GetInstance():ReturnUI(slot7.name, slot7)
+	for slot5, slot6 in pairs(slot0.pools) do
+		if slot6 then
+			PoolMgr.GetInstance():ReturnUI(slot6.name, slot6)
 		end
 	end
 
 	slot0.pools = {}
 
-	for slot6, slot7 in pairs(slot0.timers) do
-		slot7:Stop()
+	for slot5, slot6 in pairs(slot0.timers) do
+		slot6:Stop()
 	end
 
 	slot0.timers = {}

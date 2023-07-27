@@ -1447,5 +1447,25 @@ pg.voice_actor_CN = {
 	[370] = {
 		code = 370,
 		actor_name = "Haruno Fujiwara"
+	},
+	[371] = {
+		code = 371,
+		actor_name = "아오야마 요시노"
+	},
+	[372] = {
+		code = 372,
+		actor_name = "마츠이 에리코"
+	},
+	[373] = {
+		code = 373,
+		actor_name = "사와다 히메"
+	},
+	[374] = {
+		code = 374,
+		actor_name = "사이토 슈카"
+	},
+	[375] = {
+		code = 375,
+		actor_name = "모리야 쿄우카"
 	}
 }

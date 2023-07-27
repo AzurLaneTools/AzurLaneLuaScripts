@@ -12,28 +12,11 @@ function slot0.CanOpen(slot0, slot1, slot2)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
 	slot0.nanoTxt = slot0:findTF("res_nano/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.OnInit(slot0)
-	slot2 = slot0._tf
-
-	setText(slot2:Find("title/tip"), i18n("quota_shop_description"))
-
-	slot2 = slot0._tf
-
-	setText(slot2:Find("tpl/mask/tag/limit_tag"), i18n("quota_shop_good_limit"))
-
-	slot0.cards = {}
-
-	function slot0.scrollrect.onInitItem(slot0)
-		uv0:OnInitItem(slot0)
-	end
-
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
-		uv0:OnUpdateItem(slot0, slot1)
-	end
+	setText(slot0._tf:Find("title/tip"), i18n("quota_shop_description"))
 end
 
 function slot0.OnUpdateItems(slot0)
@@ -64,9 +47,15 @@ function slot0.OnInitItem(slot0, slot1)
 	slot2 = QuotaGoodsCard.New(slot1)
 
 	onButton(slot0, slot2.tr, function ()
-		slot0 = uv0
+		if not uv0.goodsVO:canPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+			return
+		end
+
+		slot0 = uv1
+
+		slot0:OnClickCommodity(uv0.goodsVO, function (slot0, slot1)
 			uv0:OnPurchase(slot0, slot1)
 		end)
 	end, SFX_PANEL)
@@ -85,17 +74,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.OnUpdateAll(slot0)
-	slot0:OnSetUp()
-end
-
-function slot0.OnSetUp(slot0)
 	slot0:InitCommodities()
-end
-
-function slot0.InitCommodities(slot0)
-	slot0.displays = slot0.shop:GetCommodities()
-
-	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)

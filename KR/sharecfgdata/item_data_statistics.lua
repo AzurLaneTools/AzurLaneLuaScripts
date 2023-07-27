@@ -7105,6 +7105,144 @@ _G.pg.base.item_data_statistics[13036] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[13037] = {
+	display = "시제형 406mm 3연장포 Mk6改 T0 설계도",
+	name = "시제형 406mm 3연장포 Mk6改 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/14540",
+	id = 13037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13038] = {
+	display = "시제형 203mm SKC 3연장포改 T0 설계도",
+	name = "시제형 203mm SKC 3연장포改 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/43160",
+	id = 13038,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13039] = {
+	display = "시제형 150mm 3연장 5식 고각포 T0 설계도",
+	name = "시제형 150mm 3연장 5식 고각포 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/32360",
+	id = 13039,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13040] = {
+	display = "시제형 150mm Tbts KC 42T식 연장포 T0 설계도",
+	name = "시제형 150mm Tbts KC 42T식 연장포 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/42360",
+	id = 13040,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13041] = {
+	display = "시제형 380mm 3연장포 Mle1935 T0 설계도",
+	name = "시제형 380mm 3연장포 Mle1935 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/50480",
+	id = 13041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13042] = {
+	display = "시제형 55mm Gerät 58 대공포 T0 설계도",
+	name = "시제형 55mm Gerät 58 대공포 T0 설계도",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/46420",
+	id = 13042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 사용 후 SSR 과학 연구 장비(I기)의 설계도 중 임의로 1장 선택
@@ -8085,6 +8223,75 @@ _G.pg.base.item_data_statistics[16024] = {
 	is_world = 0,
 	icon = "Props/16024",
 	id = 16024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16031] = {
+	display = "META 함선용 범용 스킬 교본 T1. META 연구실의 \"전술 연수\" 화면에서 사용할 수 있으며, 스킬 강화 경험치를 100 가산시킨다.",
+	name = "META 범용 전술 교본 T1",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16031",
+	id = 16031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16032] = {
+	display = "META 함선용 범용 스킬 교본 T2. META 연구실의 \"전술 연수\" 화면에서 사용할 수 있으며, 스킬 강화 경험치를 1,000 가산시킨다.",
+	name = "META 범용 전술 교본 T2",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16032",
+	id = 16032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16033] = {
+	display = "META 함선용 범용 스킬 교본 T3. META 연구실의 \"전술 연수\" 화면에서 사용할 수 있으며, 스킬 강화 경험치를 10,000 가산시킨다.",
+	name = "META 범용 전술 교본 T3",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16033",
+	id = 16033,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -21848,6 +22055,98 @@ _G.pg.base.item_data_statistics[40023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40026] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "PR함선 3기 교환 아이템 + 강화 유닛 세트",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40026,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		},
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40027] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "PR함선 3기 교환 아이템",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_normal",
+	id = 40027,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40028] = {
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	name = "PR 특별계획함 3기 강화 유닛 세트",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40028,
+	display_icon = {
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40100] = {
 	display = "패키지 구매 시 대량의 아이템 보상 획득",
 	name = "백년가약 패키지",
@@ -22714,6 +23013,63 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40130] = {
+	display = [[
+사용 시 다음 PR 특별계획함 1척 개방(입수 및 강화 레벨 1) 가능. 
+체셔, 마인츠, 오딘, 샹파뉴
+<color=#92fc63>상기 함선을 이미 모두 획득한 경우</color>, 창고에서 사용하면 다음 아이템을 획득할 수 있습니다.
+과학 연구 테스트 데이터·3기×300
+지향형 개조 도면 T3×5
+지향형 개조 도면T2×10
+성정 큐브×5
+물자×20,000]],
+	name = "PR함선 3기 교환권",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research3",
+	id = 40130,
+	display_icon = {
+		{
+			2,
+			20103,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
 		}
 	},
 	price = {},
@@ -41481,6 +41837,344 @@ _G.pg.base.item_data_statistics[42046] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[42050] = {
+	display = "특별계획함 1기·2기·3기·4기·5기·6기 강화 유닛(PR) 중에서 선택하여 획득할 수 있습니다.",
+	name = "지향형 강화 유닛·6기",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42050",
+	id = 42050,
+	display_icon = {
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42051] = {
+	display = "이글 유니온 항공전함 \"키어사지\"의 강화 유닛. \n<color=#92fc63>\"키어사지\" 개발 완료 후에 \"개발도크\"에서 \"키어사지\"의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 \"키어사지\"",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42051",
+	id = 42051,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42052] = {
+	display = "사쿠라 엠파이어 순양함 \"시만토\"의 강화 유닛. \n<color=#92fc63>\"시만토\" 개발 완료 후에 \"개발도크\"에서 \"시만토\"의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 \"시만토\"",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42052",
+	id = 42052,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42053] = {
+	display = "메탈 블러드 구축함 \"펠릭스 슐츠\"의 강화 유닛. \n<color=#92fc63>\"펠릭스 슐츠\" 개발 완료 후에 \"개발도크\"에서 \"펠릭스 슐츠\"의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 \"펠릭스 슐츠\"",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42053",
+	id = 42053,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42054] = {
+	display = "메탈 블러드 순양함 \"힌덴부르크\"의 강화 유닛. \n<color=#92fc63>\"힌덴부르크\" 개발 완료 후에 \"개발도크\"에서 \"힌덴부르크\"의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 \"힌덴부르크\"",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42054",
+	id = 42054,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42055] = {
+	display = "비시아 성좌 전함 \"플랑드르\"의 강화 유닛. \n<color=#92fc63>\"플랑드르\" 개발 완료 후에 \"개발도크\"에서 \"플랑드르\"의 성능을 강화할 수 있다.</color>",
+	name = "강화 유닛 \"플랑드르\"",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42055",
+	id = 42055,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42056] = {
+	display = "특별계획함 2기·3기·4기·5기·6기 강화 유닛(DR) 중에서 선택하여 획득할 수 있습니다.",
+	name = "상급 지향형 강화 유닛·6기",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42056",
+	id = 42056,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "범용형 부린에게 받은 밸런타인 데이 선물",
 	name = "밸런타인 데이 선물",
@@ -53176,6 +53870,134 @@ _G.pg.base.item_data_statistics[52062] = {
 		{
 			2,
 			13007,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52071] = {
+	display = "다음의 강화 유닛 중 랜덤 획득할 수 있다.",
+	name = "강화 유닛 (랜덤)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/52001",
+	id = 52071,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52072] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "장비 설계도 (랜덤)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 52072,
+	display_icon = {
+		{
+			2,
+			13038,
+			1
+		},
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
 			1
 		}
 	},

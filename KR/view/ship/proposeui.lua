@@ -424,9 +424,7 @@ function slot0.willExit(slot0)
 		setActive(slot0.commonTF, true)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.l2dChar then
 		slot0.l2dChar:ClearPics()

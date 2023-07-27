@@ -1,7 +1,7 @@
 slot0 = class("MiniGameShopPage", import(".BaseShopPage"))
 
 function slot0.getUIName(slot0)
-	return "MiniGameShopUI"
+	return "MiniGameShop"
 end
 
 function slot0.CanOpen(slot0, slot1, slot2)
@@ -9,14 +9,6 @@ function slot0.CanOpen(slot0, slot1, slot2)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.tpl = slot0:findTF("tpl")
-
-	setActive(slot0.tpl, false)
-
-	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
-
-	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-
 	slot0.mothMaxTF = slot0:findTF("mothMax")
 
 	setText(slot0.mothMaxTF, i18n("game_ticket_current_month") .. getProxy(GameRoomProxy):getMonthlyTicket() .. "/" .. pg.gameset.game_ticket_month.key_value)
@@ -25,18 +17,18 @@ end
 function slot0.OnInit(slot0)
 	slot0.purchaseWindow = MiniGameShopPurchasePanel.New(slot0._tf, slot0._event)
 	slot0.multiWindow = MiniGameShopMultiWindow.New(slot0._tf, slot0._event)
-	slot0.ticketTf = findTF(slot0._tf, "top/res/Text")
+	slot0.ticketTf = findTF(slot0._tf, "res/Text")
 
 	setText(slot0.ticketTf, getProxy(GameRoomProxy):getTicket())
 end
 
 function slot0.OnSetUp(slot0)
-	slot0:InitCommodities()
 	slot0:RemoveTimer()
 	slot0:AddTimer()
 end
 
 function slot0.OnUpdateAll(slot0)
+	slot0:InitCommodities()
 	slot0:OnSetUp()
 
 	if slot0.purchaseWindow:isShowing() then
@@ -51,45 +43,56 @@ function slot0.OnUpdateAll(slot0)
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)
-	slot0.cards[slot1.id]:update(slot1)
-end
+	slot2 = nil
 
-function slot0.InitCommodities(slot0)
-	slot0.cards = {}
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.goodsVO.id == slot1.id then
+			slot2 = slot7
 
-	slot0.uilist:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			uv1:UpdateCard(slot2, uv0[slot1 + 1])
+			break
 		end
-	end)
-	slot0.uilist:align(#slot0.shop:GetCommodities())
-end
-
-function slot0.UpdateCard(slot0, slot1, slot2)
-	slot3 = MiniGameGoodsCard.New(slot1)
-
-	slot3:update(slot2)
-
-	slot0.cards[slot2.id] = slot3
-
-	onButton(slot0, slot3.itemTF, function ()
-		uv0:OnClickCommodity(uv1)
-	end, SFX_PANEL)
-end
-
-function slot0.OnClickCommodity(slot0, slot1, slot2)
-	if not slot0.cards[slot1.id].goodsVO:CanPurchase() then
-		return
 	end
 
-	if slot4:Selectable() then
+	if slot2 then
+		slot2:update(slot1)
+	end
+end
+
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = MiniGameGoodsCard.New(slot1)
+
+	onButton(slot0, slot2.go, function ()
+		if not uv0.goodsVO:CanPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+
+			return
+		end
+
+		uv1:OnClickCommodity(uv0.goodsVO)
+	end, SFX_PANEL)
+
+	slot0.cards[slot1] = slot2
+end
+
+function slot0.OnUpdateItem(slot0, slot1, slot2)
+	if not slot0.cards[slot2] then
+		slot0:OnInitItem(slot2)
+
+		slot3 = slot0.cards[slot2]
+	end
+
+	slot3:update(slot0.displays[slot1 + 1])
+end
+
+function slot0.OnClickCommodity(slot0, slot1)
+	if slot1:Selectable() then
 		slot0.purchaseWindow:ExecuteAction("Show", {
-			id = slot4.id,
-			count = slot4:GetMaxCnt(),
-			type = slot4:getConfig("type"),
-			price = slot4:getConfig("price"),
-			displays = slot4:getConfig("goods"),
-			num = slot4:getConfig("num"),
+			id = slot2.id,
+			count = slot2:GetMaxCnt(),
+			type = slot2:getConfig("type"),
+			price = slot2:getConfig("price"),
+			displays = slot2:getConfig("goods"),
+			num = slot2:getConfig("num"),
 			confirm = function (slot0, slot1)
 				uv0:emit(NewShopsMediator.ON_MINI_GAME_SHOP_BUY, {
 					id = slot0,
@@ -97,11 +100,11 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 				})
 			end
 		})
-	elseif slot4:getConfig("goods_type") == 1 then
-		if slot4:GetLimit() > 1 then
-			slot6 = slot0.multiWindow
+	elseif slot2:getConfig("goods_type") == 1 then
+		if slot2:GetLimit() > 1 then
+			slot4 = slot0.multiWindow
 
-			slot6:ExecuteAction("Show", slot4, function (slot0)
+			slot4:ExecuteAction("Show", slot2, function (slot0)
 				if not uv0:CanPurchaseCnt(slot0) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 

@@ -648,6 +648,10 @@ function slot10.GetIgnoreShield(slot0)
 	return slot0._ignoreShield
 end
 
+function slot10.SetIgnoreShield(slot0, slot1)
+	slot0._ignoreShield = slot1
+end
+
 function slot10.IsAutoRotate(slot0)
 	return slot0._autoRotate
 end

@@ -178,6 +178,22 @@ function removeOnButton(slot0)
 	end
 end
 
+function removeAllOnButton(slot0)
+	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Button)).Length do
+		if slot1[slot5 - 1] ~= nil then
+			slot6.onClick:RemoveAllListeners()
+		end
+	end
+end
+
+function ClearAllText(slot0)
+	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Text)).Length do
+		if slot1[slot5 - 1] ~= nil then
+			slot6.text = ""
+		end
+	end
+end
+
 function onLongPressTrigger(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, typeof(UILongPressTrigger))
 

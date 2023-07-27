@@ -45,7 +45,7 @@ function slot0.execute(slot0, slot1)
 
 	pg.BrightnessMgr.GetInstance():ExitManualMode()
 	pg.SeriesGuideMgr.GetInstance():dispose()
-	pg.GuideMgr.GetInstance():endGuider()
+	pg.NewGuideMgr.GetInstance():Exit()
 	PoolMgr.GetInstance():DestroyAllPrefab()
 	pg.GuildMsgBoxMgr.GetInstance():Hide()
 

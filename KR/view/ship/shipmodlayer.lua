@@ -17,8 +17,6 @@ function slot0.init(slot0)
 	slot0.attrsPanel = slot0:findTF("bg/property_panel/attrs", slot0.mainPanel)
 
 	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
-
-	slot0.destoryConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -428,21 +426,9 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.tweens = nil
-
-	if slot0.destoryConfirmWindow then
-		slot0.destoryConfirmWindow:Destroy()
-
-		slot0.destoryConfirmWindow = nil
-	end
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.destoryConfirmWindow and slot0.destoryConfirmWindow:GetLoaded() and slot0.destoryConfirmWindow:isShowing() then
-		slot0.destoryConfirmWindow:Hide()
-
-		return
-	end
-
 	slot0:emit(BaseUI.ON_BACK_PRESSED, true)
 end
 
