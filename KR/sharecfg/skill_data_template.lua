@@ -119792,7 +119792,7 @@ pg.base.skill_data_template = {
 	},
 	[1010540] = {
 		desc_get = "",
-		name = "왕가동맹+",
+		name = "로열 네이비의 동맹+",
 		id = 1010540,
 		type = 1,
 		max_level = 10,
