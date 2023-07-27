@@ -19082,7 +19082,7 @@ _G.pg.base.gametip.tip_build_ticket_not_enough = {
 }
 
 _G.pg.base.gametip.build_ship_tip_use_ticket = {
-	tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3个$4」</color>"
+	tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3個$4」</color>"
 }
 
 _G.pg.base.gametip.springfes_tips1 = {
