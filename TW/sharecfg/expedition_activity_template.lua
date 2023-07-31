@@ -3903,11 +3903,7 @@ pg.expedition_activity_template = {
 		pt_drop_display = {
 			{
 				41246,
-				171
-			},
-			{
-				40438,
-				165
+				269
 			}
 		}
 	},
@@ -3917,11 +3913,7 @@ pg.expedition_activity_template = {
 		pt_drop_display = {
 			{
 				41245,
-				171
-			},
-			{
-				40438,
-				165
+				269
 			}
 		}
 	},
@@ -3931,11 +3923,7 @@ pg.expedition_activity_template = {
 		pt_drop_display = {
 			{
 				41245,
-				171
-			},
-			{
-				40438,
-				165
+				269
 			}
 		}
 	},

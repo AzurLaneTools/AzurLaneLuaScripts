@@ -17714,6 +17714,32 @@ _G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "本次強化操作需要消耗$1物資，是否確認？"
 }
 
+_G.pg.base.gametip.blueprint_catchup_by_gold_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/blueprint_catchup_by_gold",
+				path = ""
+			}
+		},
+		disableScroll = false,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
 _G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "無消耗"
 }

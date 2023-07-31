@@ -2545,6 +2545,31 @@ pg.gameset = {
 			}
 		}
 	},
+	blueprint_pursue_discount_ur = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				0
+			},
+			{
+				3,
+				10
+			},
+			{
+				7,
+				20
+			},
+			{
+				11,
+				50
+			},
+			{
+				16,
+				100
+			}
+		}
+	},
 	dayandnight_bgm = {
 		key_value = 40385,
 		description = {

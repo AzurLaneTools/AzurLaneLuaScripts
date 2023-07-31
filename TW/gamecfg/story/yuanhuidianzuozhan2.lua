@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 6,
-			say = "棋子和雕刻車間？我還從來沒有見過棋子被生產出來的樣子呢，布呂希爾妳見過嗎？",
+			say = "棋子和雕刻車間？我還從來沒有見過棋子被生產出來的樣子呢，布呂歇爾妳見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
