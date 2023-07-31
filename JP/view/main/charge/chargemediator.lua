@@ -81,7 +81,7 @@ function slot0.register(slot0)
 			mediator = ChargeJPUserAgreeMediator,
 			viewComponent = ChargeJPUserAgreeLayer,
 			data = {
-				contentStr = slot1
+				contentStr = slot1.content
 			}
 		}))
 	end)
