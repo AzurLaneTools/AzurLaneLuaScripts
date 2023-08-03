@@ -244,7 +244,7 @@ pg.base.ship_skin_template_20 = {
 	},
 	[10800062] = {
 		ship_group = 1080006,
-		name = "洗衣房時光",
+		name = "洗衣間時光",
 		hand_id = 14,
 		bgm = "ssss-az-story",
 		l2d_drag_rate = "",

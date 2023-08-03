@@ -152476,7 +152476,7 @@ _G.pg.base.task_data_template[18981] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }
@@ -152711,11 +152711,10 @@ _G.pg.base.task_data_template[18987] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
-	story_id = "",
 	target_id = "30330",
 	next_task = "0",
 	auto_commit = 0,
-	scene = "",
+	story_id = "",
 	id = 18987,
 	target_num = 20,
 	fix_task = 0,
@@ -152726,6 +152725,12 @@ _G.pg.base.task_data_template[18987] = {
 			2,
 			30527,
 			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
 		}
 	}
 }
@@ -152774,7 +152779,7 @@ _G.pg.base.task_data_template[18988] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }
@@ -152823,7 +152828,7 @@ _G.pg.base.task_data_template[18989] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }
@@ -152872,7 +152877,7 @@ _G.pg.base.task_data_template[18990] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }
@@ -152921,7 +152926,7 @@ _G.pg.base.task_data_template[18991] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }
@@ -152970,7 +152975,7 @@ _G.pg.base.task_data_template[18992] = {
 	scene = {
 		"ACTIVITY_MAP",
 		{
-			4932
+			41267
 		}
 	}
 }

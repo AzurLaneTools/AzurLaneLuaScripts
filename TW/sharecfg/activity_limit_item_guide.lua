@@ -19,7 +19,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -42,7 +42,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -65,7 +65,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -88,7 +88,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -111,7 +111,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -134,7 +134,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -151,7 +151,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -168,7 +168,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -188,7 +188,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"傢俱商店購買"
 			}
 		}
 	},
@@ -208,7 +208,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"傢俱商店購買"
 			}
 		}
 	},
@@ -225,7 +225,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -245,7 +245,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"傢俱商店購買"
 			}
 		}
 	},
@@ -265,7 +265,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"傢俱商店購買"
 			}
 		}
 	},
@@ -282,7 +282,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -301,7 +301,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「夢芽的環球之旅」活動獎勵"
 			}
 		}
 	},
@@ -320,7 +320,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「夢芽的環球之旅」活動獎勵"
 			}
 		}
 	},
@@ -339,7 +339,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「夢芽的環球之旅」活動獎勵"
 			}
 		}
 	},
@@ -358,7 +358,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「夢芽的環球之旅」活動獎勵"
 			}
 		}
 	},
@@ -377,7 +377,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「夢芽的環球之旅」活動獎勵"
 			}
 		}
 	},
@@ -396,7 +396,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -416,7 +416,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"傢俱商店購買"
 			}
 		}
 	},
@@ -435,7 +435,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -454,7 +454,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -471,7 +471,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -490,7 +490,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -509,7 +509,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -528,7 +528,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -551,7 +551,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -568,7 +568,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -591,7 +591,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -610,7 +610,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戰！古立特啾VS怪獸啾！II」活動獎勵"
 			}
 		}
 	},
@@ -633,7 +633,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
@@ -652,7 +652,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"完成活動任務"
 			}
 		}
 	},
@@ -671,7 +671,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"完成活動任務"
 			}
 		}
 	},
@@ -688,7 +688,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -705,7 +705,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"累計「弧光結晶」領取"
 			}
 		}
 	},
@@ -728,7 +728,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"補給商店兌換"
 			}
 		}
 	},
