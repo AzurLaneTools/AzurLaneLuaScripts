@@ -38,7 +38,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.filterBusyToggle, false)
 
-	slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
+	slot0.bottomBack = slot0:findTF("adapt/bottom_back", slot0.topItems)
 	slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
 	slot0.materialToggle = slot0.bottomPanel:Find("material")
 	slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
@@ -52,7 +52,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.tip, false)
 
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
+	slot0.helpBtn = slot0:findTF("adapt/help_btn", slot0.topItems)
 
 	setActive(slot0.helpBtn, true)
 
@@ -68,9 +68,9 @@ function slot0.init(slot0)
 	end
 
 	setActive(slot0:findTF("dispos", slot0.bottomBack), false)
-	setActive(slot0:findTF("select_panel", slot0.topItems), false)
+	setActive(slot0:findTF("adapt/select_panel", slot0.topItems), false)
 
-	slot0.selectTransformPanel = slot0:findTF("select_transform_panel", slot0.topItems)
+	slot0.selectTransformPanel = slot0:findTF("adapt/select_transform_panel", slot0.topItems)
 	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
@@ -357,10 +357,6 @@ end
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
-
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
-	end
 end
 
 return slot0

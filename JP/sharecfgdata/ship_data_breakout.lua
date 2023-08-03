@@ -35170,6 +35170,69 @@ _G.pg.base.ship_data_breakout[902014] = {
 	weapon_ids = {}
 }
 
+_G.pg.base.ship_data_breakout[902021] = {
+	use_gold = 1000,
+	breakout_id = 902022,
+	use_char_num = 1,
+	use_char = 90202,
+	breakout_view = "全弾発射スキル習得/武器補正+2%",
+	level = 10,
+	id = 902021,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		170151
+	}
+}
+
+_G.pg.base.ship_data_breakout[902022] = {
+	use_gold = 3000,
+	breakout_id = 902023,
+	use_char_num = 1,
+	use_char = 90202,
+	breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
+	level = 30,
+	id = 902022,
+	icon = "10001",
+	pre_id = 902021,
+	use_item = {},
+	weapon_ids = {
+		105,
+		105
+	}
+}
+
+_G.pg.base.ship_data_breakout[902023] = {
+	use_gold = 10000,
+	breakout_id = 902024,
+	use_char_num = 2,
+	use_char = 90202,
+	breakout_view = "全弾発射弾幕強化/武器補正+5%",
+	level = 70,
+	id = 902023,
+	icon = "10001",
+	pre_id = 902022,
+	use_item = {},
+	weapon_ids = {
+		170152
+	}
+}
+
+_G.pg.base.ship_data_breakout[902024] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 90202,
+	breakout_view = "なし",
+	level = 0,
+	id = 902024,
+	icon = "10001",
+	pre_id = 902023,
+	use_item = {},
+	weapon_ids = {}
+}
+
 _G.pg.base.ship_data_breakout[903011] = {
 	use_gold = 500,
 	breakout_id = 903012,

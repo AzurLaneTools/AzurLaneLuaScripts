@@ -275,6 +275,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.FileDownloadMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.RepairResMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

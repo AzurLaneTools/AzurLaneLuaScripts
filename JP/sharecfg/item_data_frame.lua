@@ -501,7 +501,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10003,
 		time_second = 0,
-		desc = "<size=24><color=#ffffff>「しし座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る</color>「限界挑戦」で入手可能（23.08.01-23.08.30）</size>",
+		desc = "<size=24><color=#ffffff>「しし座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る</color>「限界挑戦」で入手可能（23.08.01-23.08.31）</size>",
 		scene = {}
 	},
 	all = {

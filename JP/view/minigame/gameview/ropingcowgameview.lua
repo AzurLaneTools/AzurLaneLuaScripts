@@ -635,7 +635,7 @@ function slot0.initUI(slot0)
 		slot8.name = "battleItem_" .. slot7
 
 		setParent(slot8, findTF(slot0.menuUI, "battList/Viewport/Content"))
-		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui", "battleDesc" .. slot7, function (slot0)
+		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui_atlas", "battleDesc" .. slot7, function (slot0)
 			setImageSprite(findTF(uv0, "state_open/buttomDesc"), slot0, true)
 			setImageSprite(findTF(uv0, "state_clear/buttomDesc"), slot0, true)
 			setImageSprite(findTF(uv0, "state_current/buttomDesc"), slot0, true)

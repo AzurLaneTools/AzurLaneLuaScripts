@@ -74,6 +74,7 @@ pg.benefit_buff_template = setmetatable({
 		70,
 		71,
 		72,
+		73,
 		101,
 		102,
 		103,
@@ -1287,6 +1288,18 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
+	},
+	{
+		icon = "Props/60413",
+		name = "夏日运动饮料",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "后宅所有角色心情恢复增加",
+		benefit_effect = "1",
+		id = 73,
+		type_priority = 0,
+		benefit_type = "dorm_energy"
 	},
 	[101] = {
 		icon = "Props/newserver_xinshou",

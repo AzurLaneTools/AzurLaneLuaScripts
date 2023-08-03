@@ -8120,12 +8120,13 @@ pg.activity_template = {
 	},
 	[4925] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4925,
 		config_data = {
@@ -8160,33 +8161,6 @@ pg.activity_template = {
 			18995,
 			18996,
 			18997
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4926] = {
@@ -8276,41 +8250,15 @@ pg.activity_template = {
 	},
 	[4928] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 46,
 		is_show = 0,
 		config_data = "0",
+		title_res_tag = "",
 		id = 4928,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			scene = "SSSS ACADEMY",
 			ships = {
@@ -8341,7 +8289,7 @@ pg.activity_template = {
 	},
 	[4929] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -8349,34 +8297,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31971,100}]",
 		config_client = "",
-		id = 4929,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4929
 	},
 	[4930] = {
 		mark = 20230720,
@@ -8473,53 +8395,28 @@ pg.activity_template = {
 	},
 	[4931] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4931,
 		config_data = {
 			18986
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4932] = {
 		mark = 20230720,
-		id = 4932,
 		title_res_tag = "SSSS_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 40,
+		id = 4932,
 		config_data = {
 			1590001,
 			1590002,
@@ -8533,33 +8430,6 @@ pg.activity_template = {
 			1590041,
 			1590051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SSSSMainPage",
 			ui_name = "SSSSMainPage"
@@ -8570,42 +8440,16 @@ pg.activity_template = {
 	},
 	[4933] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 51,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4933,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4934] = {
 		mark = 20230720,
@@ -8718,40 +8562,14 @@ pg.activity_template = {
 	},
 	[4937] = {
 		mark = 20230720,
-		id = 4937,
 		title_res_tag = "SSSS_collect",
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 39,
+		id = 4937,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SSSSCollectPage",
 			ui_name = "SSSSCollectPage"
@@ -8799,41 +8617,15 @@ pg.activity_template = {
 	},
 	[4938] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4938,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -8863,41 +8655,15 @@ pg.activity_template = {
 	},
 	[4939] = {
 		mark = 20230720,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4939,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 5,
 			bg = "loadingbg/bg_build_5_act",
@@ -8919,6 +8685,295 @@ pg.activity_template = {
 				" ",
 				"<color=#d797ff>なみこ</color>：2.5%<color=#92FC63>(up!)</color>"
 			}
+		}
+	},
+	[4940] = {
+		mark = 20230803,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4940,
+		config_data = {
+			1730001,
+			1730002,
+			1730003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4941] = {
+		mark = 20230803,
+		id = 4941,
+		title_res_tag = "Marseillaise_sp",
+		type = 74,
+		login_pop = 0,
+		config_id = 4941,
+		is_show = 40,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarseillaiseSpPage",
+			ui_name = "MarseillaiseSpPage"
+		},
+		config_client = {
+			linkPoolActID = 4946,
+			linkActID = 4940
+		}
+	},
+	[4942] = {
+		mark = 20230803,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 361,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 4942,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4943] = {
+		mark = 20230803,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4943,
+		config_data = {
+			18998,
+			18999,
+			19000,
+			19001,
+			19002,
+			19003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4946] = {
+		mark = 20230803,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4946",
+		id = 4946,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "マルセイエーズ 出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：26%",
+				"ノーマル：55%",
+				"<color=#ffde38>マルセイエーズ</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4947] = {
+		mark = 20230803,
+		config_client = "",
+		title_res_tag = "yamaijia_fuke",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		id = 4947,
+		config_data = {
+			{
+				19004
+			},
+			{
+				19005
+			},
+			{
+				19006
+			},
+			{
+				19007
+			},
+			{
+				19008
+			},
+			{
+				19009
+			},
+			{
+				19010
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JamaicaSkinRePage",
+			ui_name = "JamaicaSkinRePage"
 		}
 	},
 	[7001] = {
@@ -13411,6 +13466,12 @@ pg.activity_template = {
 		4937,
 		4938,
 		4939,
+		4940,
+		4941,
+		4942,
+		4943,
+		4946,
+		4947,
 		7001,
 		7002,
 		7003,

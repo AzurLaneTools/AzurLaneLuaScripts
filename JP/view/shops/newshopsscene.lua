@@ -395,7 +395,7 @@ function slot0.ActiveDefaultCategory(slot0)
 				break
 			end
 		end
-	elseif slot1 == uv0.TYPE_ACTIVITY and not slot0.shops[uv0.TYPE_ACTIVITY] or #(slot0.shops[uv0.TYPE_ACTIVITY] or {}) <= 0 then
+	elseif slot1 == uv0.TYPE_ACTIVITY and (not slot0.shops[uv0.TYPE_ACTIVITY] or #(slot0.shops[uv0.TYPE_ACTIVITY] or {}) <= 0) then
 		slot1 = uv0.TYPE_SHOP_STREET
 		slot2 = 1
 	end
@@ -488,11 +488,15 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.BlurView(slot0)
+	slot1 = slot0.frameTr:Find("bg/blur")
+
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.frameTr, {
 		pbList = {
-			slot0.frameTr:Find("bg")
+			slot0.frameTr:Find("bg"),
+			slot1
 		}
 	})
+	slot1:SetAsFirstSibling()
 end
 
 function slot0.UnBlurView(slot0)

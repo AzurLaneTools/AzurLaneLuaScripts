@@ -571,7 +571,7 @@ function slot0.UpdateCraftTargetCount(slot0)
 	slot3 = slot0.craftTargetCount
 
 	setText(slot3:Find("Text"), _.reduce(slot0.spWeaponList, 0, function (slot0, slot1)
-		if uv0.nextSpWeaponVO:GetOrigin() == slot1:GetOrigin() then
+		if uv0.nextSpWeaponVO:GetOriginID() == slot1:GetOriginID() then
 			slot0 = slot0 + 1
 		end
 

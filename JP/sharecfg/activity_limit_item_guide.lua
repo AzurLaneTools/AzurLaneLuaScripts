@@ -400,6 +400,26 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[22] = {
+		id = 22,
+		activity = 4937,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 1,
+		drop_id = 84174,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"寮舎の家具ショップで購入"
+			}
+		}
+	},
 	[30] = {
 		id = 30,
 		activity = 4937,
@@ -734,6 +754,7 @@ pg.activity_limit_item_guide = {
 			19,
 			20,
 			21,
+			22,
 			30,
 			31,
 			32,
@@ -773,6 +794,7 @@ pg.activity_limit_item_guide = {
 		19,
 		20,
 		21,
+		22,
 		30,
 		31,
 		32,

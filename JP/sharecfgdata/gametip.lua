@@ -24923,3 +24923,11 @@ _G.pg.base.gametip.metaskill_overflow_tip = {
 _G.pg.base.gametip.collect_page_got = {
 	tip = "入手済："
 }
+
+_G.pg.base.gametip.msgbox_repair_cipher = {
+	tip = "アセット再ダウンロード"
+}
+
+_G.pg.base.gametip.msgbox_repair_title = {
+	tip = "情報"
+}

@@ -310,12 +310,12 @@ function slot0.showResultPanel(slot0, slot1, slot2)
 		slot0:StoreDataToServer({
 			slot0.score
 		})
-		GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "new_recode", slot4:Find("success"), true)
+		GetImageSpriteFromAtlasAsync("ui/minigameui/shootinggameui_atlas", "new_recode", slot4:Find("success"), true)
 	else
-		GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "success", slot4:Find("success"), true)
+		GetImageSpriteFromAtlasAsync("ui/minigameui/shootinggameui_atlas", "success", slot4:Find("success"), true)
 	end
 
-	GetImageSpriteFromAtlasAsync("ui/shootinggameui_atlas", "level_" .. #slot0.tempConfig.score_level - slot0.awardLevel + 1, slot4:Find("success/level"), true)
+	GetImageSpriteFromAtlasAsync("ui/minigameui/shootinggameui_atlas", "level_" .. #slot0.tempConfig.score_level - slot0.awardLevel + 1, slot4:Find("success/level"), true)
 	setText(slot4:Find("right/score/number"), slot0.score)
 	setActive(slot4:Find("right/awards/list"), #slot1 > 0)
 	setActive(slot4:Find("right/awards/nothing"), #slot1 == 0)

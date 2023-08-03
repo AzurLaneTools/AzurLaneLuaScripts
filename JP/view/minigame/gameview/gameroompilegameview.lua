@@ -56,7 +56,6 @@ function slot0.PackData(slot0)
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)
-	slot0.levelUIlist:align(uv0)
 end
 
 function slot0.onBackPressed(slot0)

@@ -21,7 +21,7 @@ end
 function slot0.update(slot0, slot1, slot2)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
-	setActive(slot0.bg, slot1)
+	setActive(slot0.bg, tobool(slot1))
 	TweenItemAlphaAndWhite(slot0.go)
 
 	if not slot1 then
@@ -42,13 +42,14 @@ function slot0.update(slot0, slot1, slot2)
 	slot0.nameTF.text = shortenString(slot0.spWeaponVO:GetName(), 5)
 	slot3 = slot0.spWeaponVO:GetShipId()
 
-	setActive(slot0.equiped, slot3)
+	setActive(slot0.equiped, tobool(slot3))
 
 	if slot3 and slot3 > 0 then
 		setImageSprite(findTF(slot0.equiped, "Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot3):getPainting()))
 	end
 
 	setActive(slot0.specialFrame, not slot1:IsReal())
+	GetImageSpriteFromAtlasAsync("weaponframes", slot1.owned and "frame6_owned" or "frame6", slot0.specialFrame)
 end
 
 function slot0.clear(slot0)
