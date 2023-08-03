@@ -13,19 +13,21 @@ function slot1.Ctor(slot0, slot1)
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
-	slot3 = slot0:_GetWeapon(slot1)
+	if slot0.getWeaponQueueByType(slot1, slot0._weaponType) then
+		slot4 = slot3:GetCoolDownList()
 
-	if slot0._boostValue then
-		slot4 = slot0._boostValue * -1
+		if slot0._boostValue then
+			slot5 = slot0._boostValue * -1
 
-		for slot8, slot9 in ipairs(slot3) do
-			slot9:AppendReloadBoost(slot4)
-		end
-	elseif slot0._boostRate then
-		for slot7, slot8 in ipairs(slot3) do
-			boostValue = slot8:GetReloadTimeByRate(slot0._boostRate) * -1
+			for slot9, slot10 in ipairs(slot4) do
+				slot10:AppendReloadBoost(slot5)
+			end
+		elseif slot0._boostRate then
+			for slot8, slot9 in ipairs(slot4) do
+				boostValue = slot9:GetReloadTimeByRate(slot0._boostRate) * -1
 
-			slot8:AppendReloadBoost(boostValue)
+				slot9:AppendReloadBoost(boostValue)
+			end
 		end
 	end
 end
@@ -34,16 +36,16 @@ function slot1.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1, nil)
 end
 
-function slot1._GetWeapon(slot0, slot1)
-	slot2 = {}
+function slot1.getWeaponQueueByType(slot0, slot1)
+	slot2 = nil
 
-	if slot0._weaponType == "ChargeWeapon" then
-		slot2 = slot1:GetChargeQueue()
-	elseif slot0._weaponType == "TorpedoWeapon" then
-		slot2 = slot1:GetTorpedoQueue()
-	elseif slot0._weaponType == "AirAssist" then
-		slot2 = slot1:GetAirAssistQueue()
+	if slot1 == "ChargeWeapon" then
+		slot2 = slot0:GetChargeQueue()
+	elseif slot1 == "TorpedoWeapon" then
+		slot2 = slot0:GetTorpedoQueue()
+	elseif slot1 == "AirAssist" then
+		slot2 = slot0:GetAirAssistQueue()
 	end
 
-	return slot2:GetCoolDownList()
+	return slot2
 end

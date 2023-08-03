@@ -136,7 +136,17 @@ function slot2.Cancel(slot0)
 end
 
 function slot2.ReloadBoost(slot0, slot1)
-	table.insert(slot0._reloadBoostList, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0._reloadBoostList) do
+		slot2 = slot2 + slot7
+	end
+
+	slot4 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
+	slot5 = nil
+	fixValue = ((slot2 + slot1 >= 0 or math.max(slot2, (slot0._reloadRequire - slot4) * -1)) and math.min(slot2, slot4)) - slot2 + slot1
+
+	table.insert(slot0._reloadBoostList, fixValue)
 end
 
 function slot2.AppendReloadBoost(slot0, slot1)

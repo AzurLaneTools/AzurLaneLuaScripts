@@ -32,7 +32,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.DOA_MEDAL_ACT_ID)
-	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 
 	print(#slot0.allIDList)
 

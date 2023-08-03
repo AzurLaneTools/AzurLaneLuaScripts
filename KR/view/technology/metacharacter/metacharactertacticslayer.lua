@@ -89,11 +89,16 @@ end
 function slot0.levelupTacticsSkillData(slot0, slot1, slot2)
 	slot0.skillExpTable[slot1] = 0
 	slot0.switchCountLeft = slot2
-	slot0.taskInfoTable[slot1] = {}
+
+	slot0:clearTaskInfo()
 end
 
 function slot0.updateSkillExp(slot0, slot1, slot2)
 	slot0.skillExpTable[slot1] = slot2
+end
+
+function slot0.clearTaskInfo(slot0, slot1)
+	slot0.taskInfoTable[slot1] = {}
 end
 
 function slot0.initUI(slot0)
@@ -315,7 +320,7 @@ function slot0.updateSkillInfoPanel(slot0, slot1)
 	setText(slot0.curSkillLevelText, slot5)
 	setText(slot0.nextSkillLevelText, math.min(slot5 + 1, slot4))
 	setText(slot0.curSkillDescText, getSkillDesc(slot1, slot2:getMetaSkillLevelBySkillID(slot1)))
-	setActive(slot0.curSkillQuickBtn, not slot6)
+	setActive(slot0.curSkillQuickBtn, not slot6 and not LOCK_META_SKILL_QUICK)
 	onButton(slot0, slot0.curSkillQuickBtn, function ()
 		uv0:emit(MetaCharacterTacticsMediator.ON_QUICK, uv0.curShipVO.id, uv1)
 	end, SFX_PANEL)

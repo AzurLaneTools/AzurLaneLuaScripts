@@ -21723,6 +21723,234 @@ _G.pg.base.shop_template[60412] = {
 	}
 }
 
+_G.pg.base.shop_template[60413] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（古立特联动复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60413,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60414] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时建造补给（古立特联动复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60414,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60415] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包（古立特联动复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60415,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60416] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "300钻石购买心智单元礼包（古立特联动复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60416,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -30376,10 +30604,10 @@ _G.pg.base.shop_template[70194] = {
 	desc = "购买皮肤：无敌皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -30403,10 +30631,10 @@ _G.pg.base.shop_template[70195] = {
 	desc = "购买皮肤：斐济常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -30430,10 +30658,10 @@ _G.pg.base.shop_template[70196] = {
 	desc = "购买皮肤：确捷",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -30457,10 +30685,10 @@ _G.pg.base.shop_template[70197] = {
 	desc = "购买皮肤：追赶者皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -36757,7 +36985,7 @@ _G.pg.base.shop_template[70382] = {
 	desc = "购买皮肤:爱斯基摩人泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -41717,10 +41945,10 @@ _G.pg.base.shop_template[70518] = {
 	desc = "购买皮肤:独立COCO",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -41771,10 +41999,10 @@ _G.pg.base.shop_template[70520] = {
 	desc = "购买皮肤:三笠COCO",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -41852,10 +42080,10 @@ _G.pg.base.shop_template[70523] = {
 	desc = "购买皮肤:长门COCO",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -41879,10 +42107,10 @@ _G.pg.base.shop_template[70524] = {
 	desc = "购买皮肤:鲁莽COCO",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -45984,10 +46212,10 @@ _G.pg.base.shop_template[70616] = {
 	desc = "购买皮肤:宝多六花常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46002,9 +46230,9 @@ _G.pg.base.shop_template[70616] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46014,9 +46242,9 @@ _G.pg.base.shop_template[70616] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46036,10 +46264,10 @@ _G.pg.base.shop_template[70617] = {
 	desc = "购买皮肤:新条茜常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46054,9 +46282,9 @@ _G.pg.base.shop_template[70617] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46066,9 +46294,9 @@ _G.pg.base.shop_template[70617] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46088,10 +46316,10 @@ _G.pg.base.shop_template[70618] = {
 	desc = "购买皮肤:夢芽常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46106,9 +46334,9 @@ _G.pg.base.shop_template[70618] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46118,9 +46346,9 @@ _G.pg.base.shop_template[70618] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46140,10 +46368,10 @@ _G.pg.base.shop_template[70619] = {
 	desc = "购买皮肤:千濑常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46158,9 +46386,9 @@ _G.pg.base.shop_template[70619] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46170,9 +46398,9 @@ _G.pg.base.shop_template[70619] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46192,10 +46420,10 @@ _G.pg.base.shop_template[70620] = {
 	desc = "购买皮肤:莲常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46210,9 +46438,9 @@ _G.pg.base.shop_template[70620] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46222,9 +46450,9 @@ _G.pg.base.shop_template[70620] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46244,10 +46472,10 @@ _G.pg.base.shop_template[70621] = {
 	desc = "购买皮肤:奈美子常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46262,9 +46490,9 @@ _G.pg.base.shop_template[70621] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46274,9 +46502,9 @@ _G.pg.base.shop_template[70621] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46296,10 +46524,10 @@ _G.pg.base.shop_template[70622] = {
 	desc = "购买皮肤:貉常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 300,
+	order = 200,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46314,9 +46542,9 @@ _G.pg.base.shop_template[70622] = {
 	time = {
 		{
 			{
-				2021,
-				12,
-				2
+				2023,
+				8,
+				3
 			},
 			{
 				0,
@@ -46326,9 +46554,9 @@ _G.pg.base.shop_template[70622] = {
 		},
 		{
 			{
-				2021,
-				12,
-				15
+				2023,
+				8,
+				16
 			},
 			{
 				23,
@@ -46348,10 +46576,11 @@ _G.pg.base.shop_template[70623] = {
 	desc = "购买皮肤:布莱默顿常服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 2,
+	order = 200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46362,32 +46591,6 @@ _G.pg.base.shop_template[70623] = {
 	limit_args = {},
 	effect_args = {
 		103243
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				4,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -46403,7 +46606,8 @@ _G.pg.base.shop_template[70624] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 2,
+	order = 200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -46414,32 +46618,6 @@ _G.pg.base.shop_template[70624] = {
 	limit_args = {},
 	effect_args = {
 		107224
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				4,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -58455,6 +58633,318 @@ _G.pg.base.shop_template[70867] = {
 	}
 }
 
+_G.pg.base.shop_template[70868] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720公主睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70868,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800091
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70869] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720第二代睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70869,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800081
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70870] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720宝多六花睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70870,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800012
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70871] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720南梦芽睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70871,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800052
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70872] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720新条茜睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70872,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800022
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70873] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230720飞鸟川千濑睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70873,
+	resource_num = 900,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800062
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[90001] = {
 	is_auto_use = 0,
 	time_second = 172800,
@@ -67802,6 +68292,266 @@ _G.pg.base.shop_template[90215] = {
 				2023,
 				7,
 				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90216] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 360,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230720限时皮肤体验：第二代睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90216,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800081
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90217] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 360,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230720限时皮肤体验：宝多六花睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90217,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800012
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90218] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 360,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230720限时皮肤体验：新条茜睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90218,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800022
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90219] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 360,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230720限时皮肤体验：南夢芽常服",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90219,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800051
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90220] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 360,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230720限时皮肤体验：貉常服",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 5,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90220,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		10800071
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				16
 			},
 			{
 				23,

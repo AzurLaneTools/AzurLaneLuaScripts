@@ -97,7 +97,9 @@ slot0.BulletSpeedConvertConst = 0.1
 slot0.ShipSpeedConvertConst = 0.01
 slot0.AircraftSpeedConvertConst = 0.01
 slot0.PLAYER_WEAPON_GLOBAL_COOL_DOWN_DURATION = 0.5
+slot0.PLAYER_DEFAULT = 0
 slot0.SPECTRE_UNIT_TYPE = -99
+slot0.FUSION_ELEMENT_UNIT_TYPE = -10000
 slot0.COUNT_DOWN_ESCAPE_AI_ID = 80006
 slot0.ESCAPE_EXPLO_TAG = {
 	"unexit"
@@ -392,6 +394,7 @@ slot0.AIM_BIAS_DECAY_SPEED_MAX_SUB = 100
 slot0.AIM_BIAS_MIN_RANGE_SCOUT = {
 	3,
 	4,
+	5,
 	5
 }
 slot0.AIM_BIAS_MIN_RANGE_MONSTER = 4

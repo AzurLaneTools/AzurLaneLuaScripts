@@ -109,12 +109,11 @@ function slot1(slot0, slot1, slot2)
 	setText(slot1:Find("price/Text"), slot7)
 	setActive(slot1:Find("price/Text/icon"), slot6 ~= RecommendCommodity.PRICE_TYPE_RMB)
 	setText(slot1:Find("price/Text/label"), slot6 == RecommendCommodity.PRICE_TYPE_RMB and GetMoneySymbol() or "")
+	GetSpriteFromAtlasAsync(slot2:GetIcon(), "", function (slot0)
+		setImageSprite(uv0, slot0)
+	end)
 
-	slot9 = slot1:Find("icon")
-
-	setImageSprite(slot9, GetSpriteFromAtlas(slot2:GetIcon(), ""))
-
-	slot9.sizeDelta = Vector2(180, 180)
+	slot1:Find("icon").sizeDelta = Vector2(180, 180)
 end
 
 function slot0.InitBanner(slot0)

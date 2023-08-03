@@ -87,7 +87,7 @@ function slot0.GetHeadSample(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	table.sort(slot1, Furniture._LoadWeight)
+	table.sort(slot1, BackyardThemeFurniture._LoadWeight)
 
 	return slot1
 end

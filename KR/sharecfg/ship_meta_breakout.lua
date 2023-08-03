@@ -10,6 +10,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701022,
 		9701023,
 		9701024,
+		9701031,
+		9701032,
+		9701033,
+		9701034,
 		9702011,
 		9702012,
 		9702013,
@@ -222,6 +226,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701024,
 		item1 = 21016,
 		pre_id = 9701023,
+		weapon_ids = {}
+	},
+	[9701031] = {
+		breakout_view = "멸망의 핵·하타카제 습득/어뢰 보정+5%",
+		gold = 500,
+		breakout_id = 9701032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701031,
+		item1 = 21024,
+		pre_id = 0,
+		weapon_ids = {
+			170141
+		}
+	},
+	[9701032] = {
+		breakout_view = "어뢰 발사 수 +1/어뢰 탑재량 +1/어뢰 효율 +10%",
+		gold = 1500,
+		breakout_id = 9701033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701032,
+		item1 = 21024,
+		pre_id = 9701031,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9701033] = {
+		breakout_view = "멸망의 핵·하타카제 습득/무기 보정+5%",
+		gold = 2500,
+		breakout_id = 9701034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701033,
+		item1 = 21024,
+		pre_id = 9701032,
+		weapon_ids = {
+			170142
+		}
+	},
+	[9701034] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701034,
+		item1 = 21024,
+		pre_id = 9701033,
 		weapon_ids = {}
 	},
 	[9702011] = {

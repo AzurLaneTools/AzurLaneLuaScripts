@@ -309,15 +309,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 end
 
 function slot0.sort(slot0, slot1)
-	slot2 = {}
-
-	for slot7, slot8 in pairs(slot0.dorm:getPutFurnis()) do
-		if not slot2[slot8:getConfig("id")] then
-			slot2[slot9] = 0
-		end
-
-		slot2[slot9] = slot2[slot9] + 1
-	end
+	slot2 = slot0:GetConfigIdAndCntMapInAllFloor(slot0.dorm)
 
 	table.sort(slot1, function (slot0, slot1)
 		return uv0.SortForDecorate(slot0, slot1, {
@@ -331,6 +323,28 @@ function slot0.sort(slot0, slot1)
 	end)
 
 	slot0.furnitures = slot1
+end
+
+function slot0.GetConfigIdAndCntMapInAllFloor(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1:GetThemeList()) do
+		for slot11, slot12 in pairs(slot7:GetAllFurniture()) do
+			slot2[slot11] = slot12
+		end
+	end
+
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot2) do
+		if not slot3[slot8.configId] then
+			slot3[slot9] = 0
+		end
+
+		slot3[slot9] = slot3[slot9] + 1
+	end
+
+	return slot3
 end
 
 function slot0.Sort(slot0)

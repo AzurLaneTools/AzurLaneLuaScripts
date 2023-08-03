@@ -75,7 +75,7 @@ function slot0.GetDesc(slot0)
 			return slot0.commodity:getConfig("descrip")
 		end
 	else
-		return updateDropCfg(slot0.commodity:GetDropList()[1]).display
+		return updateDropCfg(slot0.commodity:getDropInfo()).display
 	end
 end
 
@@ -109,7 +109,7 @@ function slot0.GetIcon(slot0)
 	elseif slot0.commodity:isChargeType() then
 		return "ChargeIcon/" .. slot0.commodity:getConfig("picture")
 	else
-		return updateDropCfg(slot0.commodity:GetDropList()[1]).icon or ""
+		return updateDropCfg(slot0.commodity:getDropInfo()).icon or ""
 	end
 end
 

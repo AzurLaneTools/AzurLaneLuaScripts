@@ -1115,6 +1115,16 @@ pg.player_resource = {
 		name = "skinTicket51",
 		itemid = 59465
 	},
+	[359] = {
+		id = 359,
+		name = "gulite_pt_2",
+		itemid = 59466
+	},
+	[360] = {
+		id = 360,
+		name = "skinTicket52",
+		itemid = 59469
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1374,6 +1384,11 @@ pg.player_resource = {
 		id = 4011,
 		name = "Battlepass_11",
 		itemid = 59455
+	},
+	[4012] = {
+		id = 4012,
+		name = "Battlepass_12",
+		itemid = 59467
 	},
 	[4186] = {
 		id = 4186,
@@ -2080,6 +2095,12 @@ pg.player_resource = {
 		skinTicket51 = {
 			358
 		},
+		gulite_pt_2 = {
+			359
+		},
+		skinTicket52 = {
+			360
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2235,6 +2256,9 @@ pg.player_resource = {
 		},
 		Battlepass_11 = {
 			4011
+		},
+		Battlepass_12 = {
+			4012
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2482,6 +2506,8 @@ pg.player_resource = {
 		356,
 		357,
 		358,
+		359,
+		360,
 		950,
 		951,
 		952,
@@ -2534,6 +2560,7 @@ pg.player_resource = {
 		4009,
 		4010,
 		4011,
+		4012,
 		4186,
 		4276,
 		4599,

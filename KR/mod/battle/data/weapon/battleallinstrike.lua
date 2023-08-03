@@ -168,7 +168,7 @@ function slot6.GetReloadTime(slot0)
 end
 
 function slot6.GetReloadTimeByRate(slot0, slot1)
-	return uv0.CalculateReloadTime(slot0._cacheReloadMax * slot1, battleAttr.GetCurrent(slot0._host, "loadSpeed"))
+	return uv1.CalculateReloadTime(slot0._cacheReloadMax * slot1, uv0.GetCurrent(slot0._host, "loadSpeed"))
 end
 
 function slot6.SetModifyInitialCD(slot0)
@@ -200,6 +200,10 @@ function slot6.AddCDTimer(slot0, slot1)
 	slot0._currentState = uv0.STATE_OVER_HEAT
 	slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._reloadRequire = slot1
+end
+
+function slot6.GetCDStartTimeStamp(slot0)
+	return slot0._CDstartTime
 end
 
 function slot6.handleCoolDown(slot0)
@@ -237,7 +241,17 @@ function slot6.QuickCoolDown(slot0)
 end
 
 function slot6.ReloadBoost(slot0, slot1)
-	table.insert(slot0._reloadBoostList, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0._reloadBoostList) do
+		slot2 = slot2 + slot7
+	end
+
+	slot4 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
+	slot5 = nil
+	fixValue = ((slot2 + slot1 >= 0 or math.max(slot2, (slot0._reloadRequire - slot4) * -1)) and math.min(slot2, slot4)) - slot2 + slot1
+
+	table.insert(slot0._reloadBoostList, fixValue)
 end
 
 function slot6.AppendReloadBoost(slot0, slot1)
@@ -251,11 +265,6 @@ function slot6.GetReloadFinishTimeStamp(slot0)
 
 	for slot5, slot6 in ipairs(slot0._reloadBoostList) do
 		slot1 = slot1 + slot6
-	end
-
-	if slot1 ~= 0 then
-		slot3 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
-		slot1 = (slot1 >= 0 or math.max(slot1, (slot0._reloadRequire - slot3) * -1)) and math.min(slot1, slot3)
 	end
 
 	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime + slot1

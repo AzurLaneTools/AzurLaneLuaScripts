@@ -10554,6 +10554,29 @@ _G.pg.base.item_data_statistics[21023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21024] = {
+	display = "하타카제·META 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 하타카제·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21024",
+	id = 21024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -17924,6 +17947,99 @@ _G.pg.base.item_data_statistics[30413] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30414] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30414,
+	display_icon = {
+		{
+			9,
+			2043,
+			1
+		},
+		{
+			9,
+			2044,
+			1
+		},
+		{
+			9,
+			2045,
+			1
+		},
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30415] = {
+	display = "도트 서포트 밤(뇌격), 도트 서포트 밤(전투), 도트 서포트 밤(폭격) 각 1개 획득 가능",
+	name = "도트 서포트 밤",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/96631",
+	id = 30415,
+	display_icon = {
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
@@ -20636,6 +20752,234 @@ _G.pg.base.item_data_statistics[30525] = {
 		{
 			9,
 			797,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30526] = {
+	display = "사용 시 「KMS」 테마 장비스킨 중 1가지 선택하여 획득 ㅏ가능",
+	name = "지향형 장비스킨 상자(KMS)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiexuezixuan",
+	id = 30526,
+	display_icon = {
+		{
+			9,
+			360,
+			1
+		},
+		{
+			9,
+			361,
+			1
+		},
+		{
+			9,
+			362,
+			1
+		},
+		{
+			9,
+			363,
+			1
+		},
+		{
+			9,
+			364,
+			1
+		},
+		{
+			9,
+			365,
+			1
+		},
+		{
+			9,
+			366,
+			1
+		},
+		{
+			9,
+			367,
+			1
+		},
+		{
+			9,
+			368,
+			1
+		},
+		{
+			9,
+			369,
+			1
+		},
+		{
+			9,
+			370,
+			1
+		},
+		{
+			9,
+			371,
+			1
+		},
+		{
+			9,
+			372,
+			1
+		},
+		{
+			9,
+			373,
+			1
+		},
+		{
+			9,
+			374,
+			1
+		},
+		{
+			9,
+			375,
+			1
+		},
+		{
+			9,
+			376,
+			1
+		},
+		{
+			9,
+			377,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30527] = {
+	display = "사용 시 「SSSS」 테마 장비스킨 중 1가지 선택하여 획득 가능",
+	name = "지향형 장비스킨 상자(SSSS)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsssszixuan",
+	id = 30527,
+	display_icon = {
+		{
+			9,
+			480,
+			1
+		},
+		{
+			9,
+			481,
+			1
+		},
+		{
+			9,
+			482,
+			1
+		},
+		{
+			9,
+			483,
+			1
+		},
+		{
+			9,
+			484,
+			1
+		},
+		{
+			9,
+			485,
+			1
+		},
+		{
+			9,
+			486,
+			1
+		},
+		{
+			9,
+			487,
+			1
+		},
+		{
+			9,
+			488,
+			1
+		},
+		{
+			9,
+			489,
+			1
+		},
+		{
+			9,
+			490,
+			1
+		},
+		{
+			9,
+			491,
+			1
+		},
+		{
+			9,
+			492,
+			1
+		},
+		{
+			9,
+			493,
+			1
+		},
+		{
+			9,
+			494,
+			1
+		},
+		{
+			9,
+			495,
+			1
+		},
+		{
+			9,
+			496,
+			1
+		},
+		{
+			9,
+			497,
 			1
 		}
 	},
@@ -196383,6 +196727,98 @@ _G.pg.base.item_data_statistics[59465] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59466] = {
+	display = "「호광은 교차하는 세계에서·재연」이벤트 교환에 사용되며 이벤트 종료 후 사라집니다.",
+	name = "호광 결정",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/ssss_pt",
+	id = 59466,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59467] = {
+	display = "「월드 투어」(2023.8.8~2023.10.7) 참여 시 획득하는 PT, 일정한 정도 누적 시 보상 수령 가능, 이벤트 종료 후 사라집니다. ",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59467,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59468] = {
+	display = "不该被看到",
+	name = "通行证十二期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7012,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59468,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59469] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59469,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -212434,6 +212870,336 @@ _G.pg.base.item_data_statistics[70144] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70145] = {
+	display = "「타카라다 릿카」, 「신죠 아카네」, 「미나미 유메」, 「아스카가와 치세」, 「핫스」, 「나미코」 중 하나를 선택해 획득할 수 있는 \"교환 티켓\"은 8월 24일(목) 점검 전까지 사용할 수 있습니다.",
+	name = "SSSS 교환 티켓",
+	max_num = 0,
+	type = 13,
+	time_limit = 1,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/70145",
+	id = 70145,
+	display_icon = {
+		{
+			4,
+			10800011,
+			1
+		},
+		{
+			4,
+			10800021,
+			1
+		},
+		{
+			4,
+			10800051,
+			1
+		},
+		{
+			4,
+			10800061,
+			1
+		},
+		{
+			4,
+			10800031,
+			1
+		},
+		{
+			4,
+			10800041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70146] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅰ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70146,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70147] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅱ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70147,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70148] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅲ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70148,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70149] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅳ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70149,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70150] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅴ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70150,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70151] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅵ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70151,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70152] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅶ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70152,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70153] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅷ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70153,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70154] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅸ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70154,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70155] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅹ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70155,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70156] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅺ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70156,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70157] = {
+	display = "이벤트 「호광은 교차하는 세계에서·재연」의 수집 아이템 12개 모으면 기념장 가구 획득 가능",
+	name = "세이렌 정보Ⅻ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70157,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

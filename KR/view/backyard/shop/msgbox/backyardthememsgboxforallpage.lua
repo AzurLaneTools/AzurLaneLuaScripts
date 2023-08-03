@@ -17,11 +17,11 @@ end
 
 function slot0.GetAddList(slot0)
 	slot1 = {}
-	slot3 = slot0.dorm:GetAllFurniture()
+	slot3 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot7, slot8 in ipairs(slot0.themeVO:GetFurnitures()) do
 		if pg.furniture_data_template[slot8].count > 1 then
-			for slot14 = 1, slot9 - slot0.dorm:GetOwnFurnitrueCount(slot8) do
+			for slot14 = 1, slot9 - slot0.dorm:GetOwnFurnitureCount(slot8) do
 				table.insert(slot1, Furniture.New({
 					id = slot8
 				}))

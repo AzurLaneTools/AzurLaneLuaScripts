@@ -312,15 +312,15 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 end
 
 function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+	assert(not slot0.exited, "tween after ui exited")
+
 	if not slot0.tweens then
 		return
 	end
 
 	slot0.tweens[slot1] = slot1
 
-	if LeanTween.isTweening(go(slot1)) then
-		LeanTween.cancel(go(slot1))
-	end
+	LeanTween.cancel(go(slot1))
 
 	slot9 = LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
 		if uv0 then
@@ -420,9 +420,7 @@ function slot0.willExit(slot0)
 	slot2 = slot0.tweens or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		if LeanTween.isTweening(go(slot5)) then
-			LeanTween.cancel(go(slot5))
-		end
+		LeanTween.cancel(go(slot5))
 	end
 
 	slot0.tweens = nil

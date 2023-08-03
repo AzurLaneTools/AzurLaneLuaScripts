@@ -148,4 +148,8 @@ function slot0.IsEventShop(slot0)
 	return pg.activity_template[slot0.activityId].config_client.event_shop
 end
 
+function slot0.GetBGM(slot0)
+	return pg.activity_template[slot0.activityId].config_client.bgm or ""
+end
+
 return slot0

@@ -4972,8 +4972,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20907,
-				227
+				4932,
+				359
 			}
 		}
 	},
@@ -4982,8 +4982,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20907,
-				227
+				4932,
+				359
 			}
 		}
 	},
@@ -4992,8 +4992,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20907,
-				227
+				4932,
+				359
 			}
 		}
 	},
@@ -5002,8 +5002,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20907,
-				227
+				4932,
+				359
 			}
 		}
 	},
@@ -5012,8 +5012,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20907,
-				227
+				4932,
+				359
 			}
 		}
 	},

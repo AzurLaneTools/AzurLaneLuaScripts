@@ -399,7 +399,7 @@ function slot0.calcPursuingCost(slot0, slot1, slot2)
 end
 
 function slot0.getPursuingDiscount(slot0, slot1)
-	slot3 = #pg.gameset[slot1 and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
+	slot3 = #getGameset(slot1 and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr")[2]
 
 	while slot0 < slot2[slot3][1] do
 		slot3 = slot3 - 1
@@ -424,6 +424,32 @@ function slot0.getItemCanUnlockBluePrint(slot0, slot1)
 	end
 
 	return slot0.unlockItemDic[slot1]
+end
+
+function slot0.CheckPursuingCostTip(slot0, slot1)
+	if uv0.getPursuingDiscount(slot0.pursuingTimes + 1, false) > 0 and uv0.getPursuingDiscount(slot0.pursuingTimesUR + 1, true) > 0 then
+		return false
+	end
+
+	slot2 = {}
+
+	if slot1 then
+		for slot6, slot7 in ipairs(slot1) do
+			slot2[slot7] = true
+		end
+	else
+		for slot6 = 1, slot0.maxConfigVersion do
+			slot2[slot6] = true
+		end
+	end
+
+	for slot6, slot7 in pairs(slot0.bluePrintData) do
+		if slot2[slot7:getConfig("blueprint_version")] and slot7:isPursuingCostTip() then
+			return true
+		end
+	end
+
+	return false
 end
 
 return slot0

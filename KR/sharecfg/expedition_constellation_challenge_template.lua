@@ -89,7 +89,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10004] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10004,
 		dungeon_id = 5106,
@@ -118,7 +118,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10005] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10005,
 		dungeon_id = 5105,
@@ -147,7 +147,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10006] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10006,
 		dungeon_id = 5104,
@@ -174,12 +174,102 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10007] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10007,
+		dungeon_id = 5109,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"송 오브 스타",
+				"전투 중 18초마다 큰 소리로 노래하여 아군 선봉함대를 넉백시키고, 아군의 공습·어뢰 공격·주포 공격의 준비/장전 진도를 각각 <color=#92fc63>5%</color>, <color=#92fc63>10%</color>, <color=#92fc63>15%</color> 감소시킨다(준비/장전이 완료된 공격은 영향을 받지 않음). "
+			},
+			{
+				"스테이지 오브 스타",
+				"[송 오브 스타] 발동 2초 후 해역에 5초 동안 지속되는 특수한 스테이지 영역을 출현시킨다. 그 안에 있는 모든 함선은 항속이 20 상승하고, 기동이 20% 상승한다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
+	[10008] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10008,
+		dungeon_id = 5108,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"송 오브 스타",
+				"전투 중 18초마다 큰 소리로 노래하여 아군 선봉함대를 넉백시키고, 아군의 공습·어뢰 공격·주포 공격의 준비/장전 진도를 각각 <color=#92fc63>10%</color>, <color=#92fc63>15%</color>, <color=#92fc63>20%</color> 감소시킨다(준비/장전이 완료된 공격은 영향을 받지 않음). "
+			},
+			{
+				"스테이지 오브 스타",
+				"[송 오브 스타] 발동 2초 후 해역에 5초 동안 지속되는 특수한 스테이지 영역을 출현시킨다. 그 안에 있는 모든 함선은 항속이 20 상승하고, 기동이 20% 상승한다."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10003,
+				1
+			}
+		}
+	},
+	[10009] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10009,
+		dungeon_id = 5107,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"송 오브 스타",
+				"전투 중 18초마다 큰 소리로 노래하여 아군 선봉함대를 넉백시키고, 아군의 공습·어뢰 공격·주포 공격의 준비/장전 진도를 각각 <color=#92fc63>15%</color>, <color=#92fc63>20%</color>, <color=#92fc63>30%</color> 감소시킨다(준비/장전이 완료된 공격은 영향을 받지 않음). "
+			},
+			{
+				"스테이지 오브 스타",
+				"[송 오브 스타] 발동 2초 후 해역에 5초 동안 지속되는 특수한 스테이지 영역을 출현시킨다. 그 안에 있는 모든 함선은 항속이 20 상승하고, 기동이 20% 상승한다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10003,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007,
+		10008,
+		10009
 	}
 }

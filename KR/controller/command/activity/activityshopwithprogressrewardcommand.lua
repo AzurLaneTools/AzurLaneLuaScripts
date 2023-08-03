@@ -144,21 +144,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.performance(slot0, slot1, slot2, slot3, slot4)
-	if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD and #slot4 == 1 and slot4[1].type == DROP_TYPE_ITEM then
-		slot7 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot4[1].id].type
-
-		if slot6.type == DROP_TYPE_ITEM and slot7 then
-			slot4 = {}
-
-			slot0:sendNotification(GAME.USE_ITEM, {
-				skip_check = true,
-				id = slot6.id,
-				count = slot6.count
-			})
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-		end
-	end
-
 	slot0:sendNotification(uv0.SHOW_SHOP_REWARD, {
 		activityId = slot1.activity_id,
 		shopType = slot1.cmd,

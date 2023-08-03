@@ -236,7 +236,8 @@ pg.memory_group = setmetatable({
 		584,
 		585,
 		586,
-		587
+		587,
+		588
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2517,7 +2518,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4932,
 		title = "호광은 교차하는 세계에서-스테이지 편",
 		memories = {
 			1896,
@@ -2552,7 +2553,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4933,
 		title = "호광은 교차하는 세계에서-일상 편",
 		memories = {
 			1921,
@@ -5050,6 +5051,23 @@ pg.base.memory_group = {
 			2775,
 			2776,
 			2777
+		}
+	},
+	[588] = {
+		id = 588,
+		subtype = 0,
+		icon = "title_chara_dafenqi",
+		type = 3,
+		link_event = 0,
+		title = "당신을 위한 발명",
+		memories = {
+			2811,
+			2812,
+			2813,
+			2814,
+			2815,
+			2816,
+			2817
 		}
 	}
 }

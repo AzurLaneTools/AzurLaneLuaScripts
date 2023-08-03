@@ -41,6 +41,10 @@ function slot1.Ctor(slot0, slot1, slot2)
 	end
 end
 
+function slot1.SetActive(slot0, slot1)
+	setActive(slot0._cloakBar, slot1)
+end
+
 function slot1.ConfigCloak(slot0, slot1)
 	slot0._cloakComponent = slot1
 

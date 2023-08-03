@@ -26,4 +26,12 @@ function slot0.GetActivityId(slot0)
 	return slot0.activityId
 end
 
+function slot0.IsNewServerBuild(slot0)
+	if slot0:IsEnd() then
+		return false
+	end
+
+	return slot0:GetActivity():getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
+end
+
 return slot0

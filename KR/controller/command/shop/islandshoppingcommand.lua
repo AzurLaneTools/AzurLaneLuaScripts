@@ -39,48 +39,35 @@ function slot0.execute(slot0, slot1)
 		arg2 = slot2.arg2
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = PlayerConst.GetTranAwards(uv0, slot0)
-
-			if table.contains(uv1.data1_list, uv0.arg1) then
-				for slot5, slot6 in ipairs(uv1.data1_list) do
-					if slot6 == uv0.arg1 then
-						uv1.data2_list[slot5] = uv1.data2_list[slot5] + uv0.arg2
+			if table.contains(uv0.data1_list, uv1.arg1) then
+				for slot4, slot5 in ipairs(uv0.data1_list) do
+					if slot5 == uv1.arg1 then
+						uv0.data2_list[slot4] = uv0.data2_list[slot4] + uv1.arg2
 
 						break
 					end
 				end
 			else
-				table.insert(uv1.data1_list, uv0.arg1)
-				table.insert(uv1.data2_list, uv0.arg2)
+				table.insert(uv0.data1_list, uv1.arg1)
+				table.insert(uv0.data2_list, uv1.arg2)
 			end
 
-			slot2 = uv2:bindConfigTable()[uv0.arg1]
-			slot4 = uv3:getData()
+			slot1 = uv2:bindConfigTable()[uv1.arg1]
+			slot3 = uv3:getData()
 
-			slot4:consume({
-				[id2res(slot2.resource_type)] = slot2.resource_num * uv0.arg2
+			slot3:consume({
+				[id2res(slot1.resource_type)] = slot1.resource_num * uv1.arg2
 			})
-			uv3:updatePlayer(slot4)
-			uv2:getGoodsById(uv0.arg1):addBuyCount(uv0.arg2)
-			getProxy(ActivityProxy):updateActivity(uv1)
-
-			if #slot1 == 1 and slot1[1].type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot1[1].id].type then
-				uv4:sendNotification(GAME.USE_ITEM, {
-					skip_check = true,
-					id = slot1[1].id,
-					count = slot1[1].count
-				})
-
-				slot1 = {}
-			end
-
+			uv3:updatePlayer(slot3)
+			uv2:getGoodsById(uv1.arg1):addBuyCount(uv1.arg2)
+			getProxy(ActivityProxy):updateActivity(uv0)
 			uv4:sendNotification(GAME.ISLAND_SHOPPING_DONE, {
-				awards = slot1,
-				goodsId = uv0.arg1
+				awards = PlayerConst.GetTranAwards(uv1, slot0),
+				goodsId = uv1.arg1
 			})
 		else
 			uv4:sendNotification(ActivityProxy.ACTIVITY_OPERATION_ERRO, {
-				actId = uv1.id,
+				actId = uv0.id,
 				code = slot0.result
 			})
 		end

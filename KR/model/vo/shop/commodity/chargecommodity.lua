@@ -151,6 +151,10 @@ function slot0.getConfig(slot0, slot1)
 		else
 			return slot0:RawGetConfig(slot1)
 		end
+	elseif slot1 == "money" and PLATFORM_CODE == PLATFORM_US then
+		slot2 = slot0:RawGetConfig(slot1)
+
+		return math.floor(slot2 / 100) .. "." .. slot2 - math.floor(slot2 / 100) * 100
 	else
 		return slot0:RawGetConfig(slot1)
 	end

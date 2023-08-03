@@ -2844,12 +2844,7 @@ function temp()
 		},
 		["게"] = {
 			["로"] = {
-				this = true,
-				["·"] = {
-					["改"] = {
-						this = true
-					}
-				}
+				this = true
 			}
 		},
 		["미"] = {
@@ -5338,6 +5333,20 @@ end
 temp()
 
 function temp()
+	uv0["고"] = {
+		["리"] = {
+			["치"] = {
+				["아"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["줄"] = {
 		["리"] = {
 			["오"] = {
@@ -5697,6 +5706,9 @@ function temp()
 	uv0["2"] = {
 		["2"] = {
 			this = true
+		},
+		["대"] = {
+			this = true
 		}
 	}
 end
@@ -5763,6 +5775,16 @@ temp()
 function temp()
 	uv0["핫"] = {
 		["스"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["공"] = {
+		["주"] = {
 			this = true
 		}
 	}

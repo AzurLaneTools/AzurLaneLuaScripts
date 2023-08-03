@@ -174,6 +174,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			200001,
 			200002,
 			200003,
@@ -2313,6 +2314,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			84301
 		},
 		[85] = {
@@ -4832,6 +4836,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			54104,
 			54105
 		},
@@ -4968,6 +4973,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			85126,
 			86122,
 			88126,
@@ -5705,7 +5713,8 @@ pg.furniture_data_template = setmetatable({
 			100047,
 			100049,
 			100050,
-			100051
+			100051,
+			100052
 		},
 		[2] = {
 			120,
@@ -7419,6 +7428,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			90104,
 			90117,
 			94119,
@@ -8322,6 +8334,7 @@ pg.furniture_data_template = setmetatable({
 		100049,
 		100050,
 		100051,
+		100052,
 		200001,
 		200002,
 		200003,
@@ -10321,6 +10334,9 @@ pg.furniture_data_template = setmetatable({
 		84184,
 		84185,
 		84186,
+		84187,
+		84188,
+		84189,
 		84301,
 		85001,
 		85002,
@@ -19414,7 +19430,7 @@ pg.base.furniture_data_template = {
 	},
 	[100041] = {
 		spine_extra = "",
-		describe = "짜잔! 됐다! 냐옹냐옹 우는 귀여운 강아지!",
+		describe = "「짜자잔! 완성! 다 빈치의 회심의 역작 '개형 야옹이 로봇'이야!」",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -19431,7 +19447,7 @@ pg.base.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "냥아지",
+		name = "개형 야옹이 로봇",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",
@@ -20159,6 +20175,89 @@ pg.base.furniture_data_template = {
 					},
 					{
 						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100052] = {
+		spine_extra = "",
+		describe = "来体验下当特工的感觉吧！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "特工秀场",
+		themeId = 0,
+		icon = "tegongtiyanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100052,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongtiyanB",
+				"normal"
+			},
+			{
+				"tegongtiyanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					},
+					{
+						"dance"
+					},
+					{
+						"walk"
 					}
 				},
 				{
@@ -107542,7 +107641,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "zhanlongglticon",
 		deblocking = 1,
@@ -107579,7 +107678,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "feiyiglticon",
 		deblocking = 1,
@@ -107616,7 +107715,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "qianzhouglticon",
 		deblocking = 1,
@@ -107653,7 +107752,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "rexglticon",
 		deblocking = 1,
@@ -107690,7 +107789,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "jicheglticon",
 		deblocking = 1,
@@ -107897,7 +107996,7 @@ pg.base.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		belong = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		name = "괴수쥬 의상",
 		themeId = 84,
@@ -107972,6 +108071,261 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84187] = {
+		spine_extra = "",
+		describe = "정의의 굴레에서 해방된 검은 악마가 얻은 새로운 모습의 인형. 친구를 위한 약속은 옛 적의 힘을 빌려 지킨다삐약!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "알렉시스 케리브(뉴 오더) 만쥬 인형",
+		themeId = 84,
+		icon = "alexisglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84187,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"alexisgltB",
+				"normal"
+			},
+			{
+				"alexisgltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84188] = {
+		spine_extra = "",
+		describe = "꿈의 힘을 몸에 두르고 탄생한 제왕, 초용왕 합체 만쥬 인형. 로그 카이젤 파워 피니쉬~!!!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "로그 카이젤 그리드맨 만쥬 인형",
+		themeId = 84,
+		icon = "kaisaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84188,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaisagltB",
+				"normal"
+			},
+			{
+				"kaisagltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84189] = {
+		spine_extra = "",
+		describe = "미지의 힘으로 싸우는 기사, 초합체 만쥬 인형. 언제 어디서든 너를 쓰러뜨리는 것이 만쥬의 숙명이다삐약!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "풀 파워 그리드나이트 만쥬 인형",
+		themeId = 84,
+		icon = "qishiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84189,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qishigltB",
+				"normal"
+			},
+			{
+				"qishigltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[84301] = {
 		spine_extra = "",
 		describe = "그리드맨 쥬 VS 괴수쥬의 장면을 그렸어요.",
@@ -107984,7 +108338,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 2,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 5,
 		icon = "chuangglticon",
 		deblocking = 1,

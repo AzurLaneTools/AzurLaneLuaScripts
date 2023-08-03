@@ -24,6 +24,10 @@ function slot1.Ctor(slot0, slot1)
 	slot0._lockBlock = false
 end
 
+function slot1.SetActive(slot0, slot1)
+	setActive(slot0._aimBiasBar, slot1)
+end
+
 function slot1.ConfigAimBias(slot0, slot1)
 	slot0._aimBiasComponent = slot1
 	slot0._hostile = slot1:IsHostile()

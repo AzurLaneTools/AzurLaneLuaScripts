@@ -49,9 +49,10 @@ slot0.MapInfo = {
 	}
 }
 slot0.VersionInfo = {
-	map_202210 = "CrusingMap_1",
+	map_202308 = "CrusingMap_2",
 	map_202212 = "CrusingMap_1",
 	map_202202 = "CrusingMap_2",
+	map_202210 = "CrusingMap_1",
 	map_202302 = "CrusingMap_1",
 	map_202306 = "CrusingMap_2",
 	map_202208 = "CrusingMap_1",

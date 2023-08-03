@@ -417,6 +417,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15010] = {
+		id = 15010,
+		name = "角色用/技能用AI 演习- Alexis",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 10,
+					Z2 = -20,
+					X2 = 10,
+					moveCount = 240,
+					duration = -1,
+					X1 = 0,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -9432,6 +9453,69 @@ pg.auto_pilot_template = {
 				param = {
 					x = -11,
 					z = 22
+				}
+			}
+		}
+	},
+	[70225] = {
+		id = 70225,
+		name = "2023古立特联动复刻 TSS2 宝多六花 追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 8,
+				param = {
+					offsetZ = 0,
+					duration = -1,
+					offsetX = 10
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70226] = {
+		id = 70226,
+		name = "2023古立特联动复刻 TSS5 战舰移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -30,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 2.5
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -10,
+					moveCount = 240,
+					duration = -1,
+					X1 = -60,
+					stopCount = 90
 				}
 			}
 		}

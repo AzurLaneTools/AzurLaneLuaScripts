@@ -92,6 +92,8 @@ function slot0.openCoinLayer(slot0, slot1)
 		slot0:checkTicktRemind()
 	end
 
+	slot0.coinLayerVisible = slot1
+
 	slot0:emit(BaseMiniGameMediator.COIN_WINDOW_CHANGE, slot1)
 end
 

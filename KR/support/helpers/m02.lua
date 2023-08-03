@@ -1435,6 +1435,7 @@ function updateDropCfg(slot0)
 		end,
 		[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
 			slot0.cfg = pg.equip_skin_template[slot0.id]
+			slot0.desc = slot0.cfg.desc
 
 			return slot0.cfg
 		end,
@@ -1596,7 +1597,7 @@ function GetOwnedDropCount(slot0)
 				return getProxy(BayProxy):getConfigShipCount(slot0.id)
 			end,
 			[DROP_TYPE_FURNITURE] = function (slot0)
-				return getProxy(DormProxy):getRawData():GetOwnFurnitrueCount(slot0.id)
+				return getProxy(DormProxy):getRawData():GetOwnFurnitureCount(slot0.id)
 			end,
 			[DROP_TYPE_STRATEGY] = function (slot0)
 				return slot0.count, tobool(slot0.count)
@@ -3923,4 +3924,90 @@ function getGameset(slot0)
 		slot1.key_value,
 		slot1.description
 	}
+end
+
+function GetItemsOverflowDic(slot0)
+	slot0 = slot0 or {}
+	slot1 = {
+		[DROP_TYPE_ITEM] = {},
+		[DROP_TYPE_RESOURCE] = {},
+		[DROP_TYPE_EQUIP] = 0,
+		[DROP_TYPE_SHIP] = 0,
+		[DROP_TYPE_WORLD_ITEM] = 0
+	}
+
+	while #slot0 > 0 do
+		switch(table.remove(slot0).type, {
+			[DROP_TYPE_ITEM] = function ()
+				if uv0:getTempConfig("open_directly") == 1 then
+					slot3 = "display_icon"
+
+					for slot3, slot4 in ipairs(uv0:getConfig(slot3)) do
+						table.insert(uv1, Item.New({
+							type = slot4[1],
+							id = slot4[2],
+							count = slot4[3]
+						}))
+					end
+				elseif uv0:IsShipExpType() then
+					uv2[uv0.type][uv0.id] = defaultValue(uv2[uv0.type][uv0.id], 0) + uv0.count
+				end
+			end,
+			[DROP_TYPE_RESOURCE] = function ()
+				uv0[uv1.type][uv1.id] = defaultValue(uv0[uv1.type][uv1.id], 0) + uv1.count
+			end,
+			[DROP_TYPE_EQUIP] = function ()
+				uv0[uv1.type] = uv0[uv1.type] + uv1.count
+			end,
+			[DROP_TYPE_SHIP] = function ()
+				uv0[uv1.type] = uv0[uv1.type] + uv1.count
+			end,
+			[DROP_TYPE_WORLD_ITEM] = function ()
+				uv0[uv1.type] = uv0[uv1.type] + uv1.count
+			end
+		})
+	end
+
+	return slot1
+end
+
+function CheckOverflow(slot0)
+	slot2 = slot0[DROP_TYPE_RESOURCE][PlayerConst.ResGold] or 0
+	slot3 = slot0[DROP_TYPE_EQUIP]
+	slot4 = slot0[DROP_TYPE_SHIP]
+	slot5 = getProxy(PlayerProxy):getRawData()
+
+	if (slot0[DROP_TYPE_RESOURCE][PlayerConst.ResOil] or 0) > 0 and slot5.OilMax(slot5, slot1) then
+		return false, i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail")
+	end
+
+	if slot2 > 0 and slot5.GoldMax(slot5, slot2) then
+		return false, i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail")
+	end
+
+	slot6 = getProxy(EquipmentProxy):getCapacity()
+
+	if slot3 > 0 and slot5.getMaxEquipmentBag(slot5) < slot3 + slot6 then
+		return false, i18n("mail_takeAttachment_error_magazine_full")
+	end
+
+	slot7 = getProxy(BayProxy):getShipCount()
+
+	if slot4 > 0 and slot5.getMaxShipBag(slot5) < slot4 + slot7 then
+		return false, i18n("mail_takeAttachment_error_dockYrad_full")
+	end
+
+	return true
+end
+
+function CheckShipExpOverflow(slot0)
+	slot1 = getProxy(BagProxy)
+
+	for slot5, slot6 in pairs(slot0[DROP_TYPE_ITEM]) do
+		if pg.item_data_statistics[slot5].max_num < slot1.getItemCountById(slot1, slot5) + slot6 then
+			return false
+		end
+	end
+
+	return true
 end

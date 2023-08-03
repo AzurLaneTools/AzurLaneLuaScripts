@@ -67,10 +67,11 @@ function slot0.findUI(slot0)
 	slot0.leftTimeValueText = slot0:findTF("TimeValue", slot1)
 	slot0.passTimeValueText = slot0:findTF("Challenge/Value", slot0.timePanel)
 
+	setText(slot0.leftTipText, i18n("time_remaining_tip"))
 	setText(slot0.leftDayTipText, i18n("word_date"))
 
-	slot0.descItemContainer = slot0:findTF("Adapt/DescPanel/ScrollView/Viewport/Content")
-	slot0.descItemTpl = slot0:findTF("Adapt/DescPanel/DescItem")
+	slot0.iconContainer = slot0:findTF("Adapt/DescPanel/ScrollView/Viewport/Container")
+	slot0.iconTpl = slot0:findTF("Adapt/DescPanel/IconTpl")
 	slot2 = slot0:findTF("Adapt/Award")
 	slot0.awardIconTF = slot0:findTF("IconTpl", slot2)
 	slot0.awardGotTF = slot0:findTF("Got", slot2)
@@ -85,6 +86,7 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
+	print("-----------", tostring(slot0.backBtn))
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -121,32 +123,41 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.descUIItemList = UIItemList.New(slot0.descItemContainer, slot0.descItemTpl)
-	slot1 = slot0.descUIItemList
+	slot0.iconUIItemList = UIItemList.New(slot0.iconContainer, slot0.iconTpl)
+	slot1 = slot0.iconUIItemList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Name", slot2)
-			slot4 = uv0:findTF("Desc", slot2)
-			slot6 = uv0.descList[slot1 + 1][2]
+			slot3 = uv0:findTF("Icon", slot2)
 
-			setText(slot3, uv0.descList[slot1 + 1][1])
-			Canvas.ForceUpdateCanvases()
+			if uv0.descList[slot1 + 1] ~= false then
+				slot5 = uv0
+				slot5, slot6 = slot5:getBuffIconPath(uv1.GetChallengeIDByLevel(uv0.curLevel), slot1)
 
-			slot7 = 24
-			slot8 = "　"
-			slot9, slot10 = math.modf(slot3.sizeDelta.x / slot7)
-			slot11 = math.ceil(slot7 * slot10)
+				setImageSprite(slot3, LoadSprite(slot5, slot6))
 
-			for slot15 = 1, slot9 do
-				slot8 = slot8 .. "　"
+				slot9 = {}
+
+				table.insert(slot9, {
+					info = uv0.descList[slot1][1]
+				})
+				table.insert(slot9, {
+					info = uv0.descList[slot1][2]
+				})
+				onButton(uv0, slot3, function ()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						iconBg = true,
+						hideNo = true,
+						type = MSGBOX_TYPE_DROP_ITEM,
+						name = uv0,
+						content = uv1,
+						iconPath = {
+							uv2,
+							uv3
+						}
+					})
+				end, SFX_PANEL)
 			end
-
-			if slot10 > 0 then
-				slot8 = slot8 .. "<size=" .. slot11 .. ">　</size>"
-			end
-
-			setText(slot4, slot8 .. slot6)
 		end
 	end)
 end
@@ -225,15 +236,30 @@ function slot0.updateBossImg(slot0)
 	setImageSprite(slot0.nameImg, LoadSprite("limitchallenge/name/" .. slot4, slot4), true)
 
 	slot7 = slot2.button_style .. "_btn_start"
+	slot13 = slot7
 
-	setImageSprite(slot0.startBtn, LoadSprite("limitchallenge/btn/" .. slot7, slot7), true)
+	setImageSprite(slot0.startBtn, LoadSprite("limitchallenge/btn/" .. slot7, slot13), true)
+
+	slot9 = "%d_level_%d_selected"
+
+	for slot13, slot14 in ipairs(slot0.levelList) do
+		slot15 = string.format(slot9, slot2.button_style, slot14)
+
+		setImageSprite(slot0:findTF("Selected", slot0.levelToggleList[slot14]), LoadSprite("limitchallenge/btn/" .. slot15, slot15), true)
+	end
 end
 
 function slot0.updateDescPanel(slot0)
 	slot0.descList = {}
 	slot0.descList = pg.expedition_constellation_challenge_template[uv0.GetChallengeIDByLevel(slot0.curLevel)].description
 
-	slot0.descUIItemList:align(#slot0.descList)
+	if 3 - #slot0.descList > 0 then
+		for slot8 = 1, slot4 do
+			table.insert(slot0.descList, false)
+		end
+	end
+
+	slot0.iconUIItemList:align(#slot0.descList)
 end
 
 function slot0.updatePassTime(slot0)
@@ -281,6 +307,12 @@ function slot0.getHigestUnlockLevel(slot0)
 			return slot6
 		end
 	end
+end
+
+function slot0.getBuffIconPath(slot0, slot1, slot2)
+	slot4 = string.format("%s_%d", pg.expedition_constellation_challenge_template[slot1].painting, slot2)
+
+	return "limitchallenge/icon/" .. slot4, slot4
 end
 
 return slot0

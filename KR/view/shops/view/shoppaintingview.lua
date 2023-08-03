@@ -10,9 +10,21 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.chatText = slot0.chat:Find("Text")
 	slot0.name = nil
 	slot0.chatting = false
+	slot0.chatTrOffset = Vector3(118, -276, 0)
+end
+
+function slot0.InitChatPosition(slot0)
+	slot3 = slot0.chat.parent:InverseTransformPoint(slot0._painting.parent:TransformPoint(slot0._painting.localPosition + slot0.chatTrOffset))
+	slot0.chat.localPosition = Vector3(slot3.x, slot3.y, 0)
 end
 
 function slot0.Init(slot0, slot1, slot2, slot3, slot4)
+	if not slot0.isInitChatPosition then
+		slot0.isInitChatPosition = true
+
+		slot0:InitChatPosition()
+	end
+
 	slot0:UnLoad()
 
 	slot0.name = slot1

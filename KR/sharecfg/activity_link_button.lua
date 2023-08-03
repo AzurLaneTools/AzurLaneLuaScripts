@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4853
+			4932
 		}
 	},
 	{
@@ -60,7 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4850
+			4928
 		}
 	},
 	[30] = {
@@ -144,17 +144,19 @@ pg.activity_link_button = {
 		}
 	},
 	[100] = {
-		param = "0",
-		name = "event_doa",
-		type = 0,
-		text_pic = "",
+		type = 2,
+		name = "event_medal",
+		text_pic = "text_event_medal",
 		id = 100,
 		group_id = 10,
-		pic = "event_doa",
+		pic = "event_medal",
 		order = 1,
 		time = {
 			"default",
-			4779
+			4935
+		},
+		param = {
+			"SSSS_MEDAL_COLLECTION"
 		}
 	},
 	get_id_list_by_name = {
@@ -187,7 +189,7 @@ pg.activity_link_button = {
 		event_series = {
 			90
 		},
-		event_doa = {
+		event_medal = {
 			100
 		}
 	},

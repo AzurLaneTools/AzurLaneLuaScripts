@@ -5,7 +5,7 @@ slot0.MEDAL_STATUS_ACTIVATABLE = 3
 
 function slot0.UpdateActivity(slot0, slot1)
 	slot0.activityData = slot1
-	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 	slot0.activatableIDList = slot0.activityData.data1_list
 	slot0.activeIDList = slot0.activityData.data2_list
 end

@@ -74,7 +74,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-10,
+								-35,
 								0,
 								55
 							}
@@ -85,7 +85,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								-10,
+								-35,
 								0,
 								35
 							}
@@ -96,7 +96,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								-10,
+								-35,
 								0,
 								75
 							}

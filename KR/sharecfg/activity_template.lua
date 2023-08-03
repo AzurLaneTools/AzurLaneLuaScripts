@@ -2317,6 +2317,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 4495,
 		config_client = {
+			scene = "BACKHILL_SUMMERPARK_2022",
 			ships = {
 				"bulunxierde_2",
 				"bulvxieer_2",
@@ -3264,6 +3265,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 4530,
 		config_client = {
+			scene = "BACKHILL_CAMPUSFESTIVAL_2022",
 			ships = {
 				"wuzang_2",
 				"ruoyue_2",
@@ -4926,6 +4928,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 4584,
 		config_client = {
+			scene = "RYZA_URBAN_AREA",
 			ships = {
 				"bulisituoer",
 				"aerfuleiduo",
@@ -12452,41 +12455,15 @@ pg.activity_template = {
 	},
 	[4915] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 52,
 		login_pop = 0,
 		config_id = 11,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4915,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			scene = "ActivityBossGoriziaScene",
 			entrance_bg = "activitybanner/temp10",
@@ -12516,42 +12493,16 @@ pg.activity_template = {
 	},
 	[4916] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 74,
 		login_pop = 0,
 		config_id = 4916,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4916,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4917] = {
 		mark = 20230629,
@@ -12653,7 +12604,7 @@ pg.activity_template = {
 	},
 	[4922] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 46,
 		login_pop = 0,
@@ -12661,14 +12612,59 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4922,
+		title_res_tag = "",
+		id = 4922
+	},
+	[4925] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4925,
+		config_data = {
+			18967,
+			18968,
+			18969,
+			18970,
+			18971,
+			18972,
+			18973,
+			18974,
+			18890,
+			18975,
+			18976,
+			18977,
+			18978,
+			18979,
+			18980,
+			18981,
+			18982,
+			18983,
+			18984,
+			18985,
+			18987,
+			18988,
+			18989,
+			18990,
+			18991,
+			18992,
+			18993,
+			18994,
+			18995,
+			18996,
+			18997
+		},
 		time = {
 			"timer",
 			{
 				{
 					2023,
-					7,
-					13
+					8,
+					3
 				},
 				{
 					0,
@@ -12680,13 +12676,745 @@ pg.activity_template = {
 				{
 					2023,
 					8,
-					3
+					17
 				},
 				{
 					23,
 					59,
 					59
 				}
+			}
+		}
+	},
+	[4926] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4926,
+		config_data = {
+			1595001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4927] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 359,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4927,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4928] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 46,
+		is_show = 0,
+		config_data = "0",
+		id = 4928,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "SSSS ACADEMY",
+			ships = {
+				"gongzhu_2",
+				"erdaimu_2",
+				"baoduoliuhua_3",
+				"qian_3",
+				"mengya_3",
+				"qianlai_3",
+				"lian_2",
+				"naimeizi_2",
+				"he_2",
+				"duli_3",
+				"mingshi",
+				"changdao",
+				"sipeibojue_2",
+				"junhe_3",
+				"pufeng_3",
+				"jifeng_3",
+				"feilong_2",
+				"canglong_3",
+				"aidingbao_2",
+				"longxiang_3",
+				"xia_3",
+				"hemin_3"
+			}
+		}
+	},
+	[4929] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31971,100}]",
+		config_client = "",
+		id = 4929,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4930] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4930,
+		config_data = {
+			2142,
+			2143,
+			2144,
+			2145,
+			2146,
+			2147,
+			2148,
+			2149,
+			2150,
+			2151,
+			2152,
+			2153,
+			2154,
+			2155,
+			2156,
+			2157,
+			2158,
+			2159,
+			2160,
+			2161,
+			2162,
+			2163,
+			2164,
+			2165,
+			2166,
+			2167,
+			2168,
+			2169,
+			2170,
+			2171,
+			2172,
+			2173,
+			2174,
+			2175,
+			2176,
+			2177
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_gulite",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			painting = "qianlai_pt",
+			pt_id = 359,
+			bgm = "ssss-az-story",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[4931] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4931,
+		config_data = {
+			18986
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4932] = {
+		mark = 20230720,
+		id = 4932,
+		title_res_tag = "SSSS_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 40,
+		config_data = {
+			1590001,
+			1590002,
+			1590003,
+			1590004,
+			1590021,
+			1590022,
+			1590023,
+			1590024,
+			1590025,
+			1590041,
+			1590051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SSSSMainPage",
+			ui_name = "SSSSMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4933] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 51,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		id = 4933,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4934] = {
+		mark = 20230720,
+		config_client = "",
+		title_res_tag = "SSSS_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4934,
+		is_show = 38,
+		id = 4934,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SSSSPTPage",
+			ui_name = "SSSSPTPage"
+		}
+	},
+	[4935] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4935,
+		config_data = {
+			70146,
+			70147,
+			70148,
+			70149,
+			70150,
+			70151,
+			70152,
+			70153,
+			70154,
+			70155,
+			70156,
+			70157
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			unlock_desc = {
+				"T1 작전 목표(별 3개)",
+				"건조 30회 실시",
+				"T2 작전 목표(별 3개)",
+				"'호광 결정' 총 15,000 획득",
+				"T3 작전 목표(별 3개)",
+				"아군 지원 게이지 MAX 상태로 60회 승리",
+				"T4 작전 목표(별 3개)",
+				"스페셜 로그인 보너스 5번 완주",
+				"SSSS.SP 클리어",
+				"설비 '골드번'을 +10 강화",
+				"7일차 미니 게임 클리어",
+				"세이렌 정보Ⅰ~Ⅺ 획득"
+			}
+		}
+	},
+	[4937] = {
+		mark = 20230720,
+		id = 4937,
+		title_res_tag = "SSSS_collect",
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 39,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SSSSCollectPage",
+			ui_name = "SSSSCollectPage"
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"SSSS_MEDAL_COLLECTION",
+					{}
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30330,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"상점에서 획득"
+					},
+					{
+						2,
+						{
+							"scene level",
+							{}
+						},
+						"이벤트 스테이지에서 획득"
+					}
+				}
+			}
+		}
+	},
+	[4938] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 4938,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "공주, 2대 등 콜라보 캐릭터 등장 확률 UP! ",
+			rate_tip = {
+				"<color=#ffde38>SS레어</color>: 7%",
+				"<color=#d797ff>S레어</color>: 12%",
+				"<color=#3dc6ff>레어</color>: 51%",
+				"노멀: 30%",
+				"<color=#ffde38>2대</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>공주</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>타카라다 릿카</color>: 0.5%",
+				" ",
+				"<color=#ffde38>미나미 유메</color>: 0.5%",
+				" ",
+				"<color=#ffde38>신죠 아카네</color>: 0.5%",
+				" ",
+				"<color=#ffde38>아스카가와 치세</color>: 0.5%",
+				" ",
+				"<color=#d797ff>핫스</color>: 2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>나미코</color>: 2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4939] = {
+		mark = 20230720,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		id = 4939,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 5,
+			bg = "loadingbg/bg_build_5_act",
+			buildship_tip = "타카라다 릿카, 미나미 유메 등 콜라보 캐릭터 등장 확률 UP! ",
+			rate_tip = {
+				"<color=#ffde38>SS레어</color>: 7%",
+				"<color=#d797ff>S레어</color>: 12%",
+				"<color=#3dc6ff>레어</color>: 51%",
+				"노멀: 30%",
+				"<color=#ffde38>타카라다 릿카</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>미나미 유메</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>신죠 아카네</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>아스카가와 치세</color>: 0.5%",
+				" ",
+				"<color=#d797ff>핫스</color>: 2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>나미코</color>: 2.5%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -13297,6 +14025,88 @@ pg.activity_template = {
 				{
 					9,
 					2042,
+					1
+				}
+			}
+		}
+	},
+	[7012] = {
+		mark = 20230720,
+		id = 7012,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage12"
+		},
+		config_client = {
+			map_name = "map_202308",
+			spine_name = "chess_fuxu",
+			tips = {
+				"battlepass_main_tip_2308",
+				"battlepass_main_help_2308",
+				"cruise_task_help_2308"
+			},
+			equip_skin = {
+				{
+					9,
+					2043,
+					1
+				},
+				{
+					9,
+					2044,
+					1
+				},
+				{
+					9,
+					2045,
+					1
+				},
+				{
+					9,
+					2046,
 					1
 				}
 			}
@@ -18865,6 +19675,20 @@ pg.activity_template = {
 		4920,
 		4921,
 		4922,
+		4925,
+		4926,
+		4927,
+		4928,
+		4929,
+		4930,
+		4931,
+		4932,
+		4933,
+		4934,
+		4935,
+		4937,
+		4938,
+		4939,
 		7004,
 		7005,
 		7006,
@@ -18873,6 +19697,7 @@ pg.activity_template = {
 		7009,
 		7010,
 		7011,
+		7012,
 		8009,
 		8010,
 		8019,

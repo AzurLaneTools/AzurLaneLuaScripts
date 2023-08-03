@@ -354,6 +354,14 @@ function slot5.InstBossWarningUI(slot0)
 	return slot2
 end
 
+function slot5.InstGridmanSkillUI(slot0)
+	slot1 = slot0._allPool["UI/combatgridmanskillfloat"]
+	slot2 = slot1:GetObject()
+	slot0._ob2Pool[slot2] = slot1
+
+	return slot2
+end
+
 function slot5.InstPainting(slot0, slot1)
 	slot3 = nil
 
@@ -670,6 +678,8 @@ function slot5.InitPool(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CardTowerCardCombat" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 7, 20, false, false):InitSize()
+	elseif slot1 == "UI/combatgridmanskillfloat" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CombatHPBar" then
 		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
 	elseif slot1 == "UI/CombatHPPop" then

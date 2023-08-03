@@ -18,6 +18,16 @@ function slot5.Ctor(slot0, slot1)
 	slot0._effectList = {}
 end
 
+function slot5.SwitchOwner(slot0, slot1, slot2)
+	slot0._owner = slot1
+
+	for slot6, slot7 in pairs(slot0._blinkIDList) do
+		if slot2[slot7] then
+			slot0._blinkIDList[slot6] = slot2[slot7]
+		end
+	end
+end
+
 function slot5.ClearEffect(slot0)
 	for slot4, slot5 in pairs(slot0._blinkIDList) do
 		slot0._owner:RemoveBlink(slot5)
@@ -42,6 +52,7 @@ function slot5.GetFXPool(slot0)
 end
 
 function slot5.SetUnitDataEvent(slot0, slot1)
+	slot1:RegisterEventListener(slot0, uv0.BUFF_CAST, slot0.onBuffCast)
 	slot1:RegisterEventListener(slot0, uv0.BUFF_ATTACH, slot0.onBuffAdd)
 	slot1:RegisterEventListener(slot0, uv0.BUFF_STACK, slot0.onBuffStack)
 	slot1:RegisterEventListener(slot0, uv0.BUFF_REMOVE, slot0.onBuffRemove)
@@ -52,6 +63,7 @@ end
 
 function slot5.RemoveUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, uv0.BUFF_ATTACH)
+	slot1:UnregisterEventListener(slot0, uv0.BUFF_CAST)
 	slot1:UnregisterEventListener(slot0, uv0.BUFF_STACK)
 	slot1:UnregisterEventListener(slot0, uv0.BUFF_REMOVE)
 	slot1:UnregisterEventListener(slot0, uv1.ADD_EFFECT)
@@ -85,13 +97,16 @@ function slot5.onBuffAdd(slot0, slot1)
 	slot0:DoWhenAddBuff(slot1)
 end
 
+function slot5.onBuffCast(slot0, slot1)
+	slot0:addBlink(slot1.Data.buff_id)
+end
+
 function slot5.DoWhenAddBuff(slot0, slot1)
 	slot2 = slot1.Data.buff_id
 	slot3 = slot1.Data.buff_level
 
 	slot0:addInitFX(slot2)
 	slot0:addLastFX(slot2)
-	slot0:addBlink(slot2)
 end
 
 function slot5.onBuffStack(slot0, slot1)

@@ -1467,5 +1467,9 @@ pg.voice_actor_CN = {
 	[375] = {
 		code = 375,
 		actor_name = "모리야 쿄우카"
+	},
+	[376] = {
+		code = 376,
+		actor_name = "타카하시 카린"
 	}
 }
