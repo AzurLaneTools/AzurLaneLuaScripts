@@ -89,12 +89,17 @@ function slot0.AddCard(slot0, slot1, slot2, slot3)
 		FormationCard.New(go(slot4)):update(slot3)
 
 		slot8 = slot3:getRecoverEnergyPoint() + slot0.activity:GetEnergyRecoverAddition()
+		slot9 = 0
 
 		if slot3.state == Ship.STATE_REST or slot3.state == Ship.STATE_TRAIN then
 			if slot3.state == Ship.STATE_TRAIN then
 				slot8 = slot8 + Ship.BACKYARD_1F_ENERGY_ADDITION
 			elseif slot3.state == Ship.STATE_REST then
 				slot8 = slot8 + Ship.BACKYARD_2F_ENERGY_ADDITION
+			end
+
+			for slot13, slot14 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+				slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
 			end
 		end
 
@@ -109,7 +114,7 @@ function slot0.AddCard(slot0, slot1, slot2, slot3)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				setColorStr(10 * slot8 .. "/h", COLOR_GREEN)
+				setColorStr(10 * slot8, COLOR_GREEN) .. (slot9 > 0 and setColorStr("+" .. 10 * slot9, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 		setActive(slot6.propsTr, false)

@@ -48,7 +48,9 @@ function slot0.Occupy(slot0, slot1, slot2, slot3)
 		slot3:StartInteraction(slot0)
 		slot2:StartInteraction(slot0)
 		slot1:StartInteraction(slot0)
-		slot0:OnStart()
+		onNextTick(function ()
+			uv0:OnStart()
+		end)
 	end
 end
 

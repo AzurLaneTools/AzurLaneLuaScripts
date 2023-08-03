@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "ssss-az-pv",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "ssss-1114A"
+		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -97,16 +97,16 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "ssss-az-pv",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "ssss-1114A"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "ssss-az-story",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "ssss-StrobeMemory"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -666,7 +666,7 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "ssss-1114A"
 	},
-	SSSSPTPage = {
+	SSSSPtPage = {
 		default_bgm = "ssss-az-story",
 		special_bgm = "",
 		time = "",

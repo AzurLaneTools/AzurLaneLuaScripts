@@ -16,7 +16,7 @@ function slot0.updateView(slot0)
 	setText(slot0.scoreText, slot0.contextData.score .. "   + " .. setColorStr(slot1, "#3068E6FF"))
 	slot0.orderList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. uv0.contextData.orderIDList[slot1 + 1]))
+			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. uv0.contextData.orderIDList[slot1 + 1]))
 		end
 	end)
 	slot0.orderList:align(#slot0.contextData.orderIDList)
@@ -24,7 +24,7 @@ function slot0.updateView(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.contextData.selectedIDList[slot1 + 1]
 
-			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. slot3))
+			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. slot3))
 			setActive(uv0:findTF("CorrectImg", slot2), slot3 == uv0.contextData.orderIDList[slot1 + 1])
 			setActive(uv0:findTF("ErrorImg", slot2), slot3 ~= slot5)
 		end

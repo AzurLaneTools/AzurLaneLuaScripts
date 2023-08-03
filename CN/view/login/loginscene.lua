@@ -432,7 +432,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_MAIN)
 	onButton(slot0, slot0.repairBtn, function ()
-		showRepairMsgbox()
+		pg.RepairResMgr.GetInstance():Repair()
 	end)
 
 	function slot1()

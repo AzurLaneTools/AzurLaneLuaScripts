@@ -9,6 +9,10 @@ function slot0.OnExecution(slot0, slot1, slot2)
 		end)
 	end
 
+	table.insert(slot4, function (slot0)
+		pg.m02:sendNotification(GAME.START_GUIDE)
+		slot0()
+	end)
 	seriesAsync(slot4, slot2)
 end
 

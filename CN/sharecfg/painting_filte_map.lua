@@ -7865,6 +7865,26 @@ pg.painting_filte_map = {
 			"painting/maoyue_2"
 		}
 	},
+	masaiqu = {
+		key = "masaiqu",
+		res_list = {
+			"painting/masaiqu_tex",
+			"painting/masaiqu_rw_tex",
+			"painting/masaiqu_n_tex",
+			"painting/masaiqu_n",
+			"painting/masaiqu"
+		}
+	},
+	masaiqu_2 = {
+		key = "masaiqu_2",
+		res_list = {
+			"painting/masaiqu_2_tex",
+			"painting/masaiqu_2_rw_tex",
+			"painting/masaiqu_2_n_tex",
+			"painting/masaiqu_2_n",
+			"painting/masaiqu_2"
+		}
+	},
 	masazhusai = {
 		key = "masazhusai",
 		res_list = {

@@ -41,7 +41,7 @@ function slot0.GetConfigID(slot0)
 	return slot0.configId
 end
 
-function slot0.GetOrigin(slot0)
+function slot0.GetOriginID(slot0)
 	return slot0:getConfig("base") or slot0:GetConfigID()
 end
 

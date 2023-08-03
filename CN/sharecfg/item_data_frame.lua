@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>尽情享受无人岛上的美好风光吧~！</color>\n通过参与六周年限定活动获取",
 		scene = {}
 	},
+	[604] = {
+		time_limit_type = 0,
+		name = "柔软运动的纪念",
+		gain_by = "",
+		id = 604,
+		time_second = 0,
+		desc = "<color=#ffffff>在炎炎夏日中，一起挥洒汗水的证明</color>\n通过参与「夏日签到」获取（23.08.03 – 23.08.17）",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "限界的挑战者·双子座",
@@ -510,7 +519,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10003,
 		time_second = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.08.01-23.08.30）",
+		desc = "<color=#ffffff>结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.08.01-23.08.31）",
 		scene = {}
 	},
 	all = {
@@ -568,6 +577,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		604,
 		10001,
 		10002,
 		10003

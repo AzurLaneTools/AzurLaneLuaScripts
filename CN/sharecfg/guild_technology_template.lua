@@ -358,7 +358,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2000] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 0,
@@ -375,7 +375,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2001] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 100,
@@ -392,7 +392,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2002] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 200,
@@ -409,7 +409,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2003] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 300,
@@ -426,7 +426,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2004] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 400,
@@ -443,7 +443,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2005] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 500,
@@ -460,7 +460,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2006] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 600,
@@ -477,7 +477,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2007] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 700,
@@ -494,7 +494,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2008] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 800,
@@ -511,7 +511,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2009] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 900,
@@ -528,7 +528,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2010] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1000,
@@ -545,7 +545,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2011] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1100,
@@ -562,7 +562,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2012] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1200,
@@ -579,7 +579,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2013] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1300,
@@ -596,7 +596,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2014] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1400,
@@ -613,7 +613,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2015] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1500,
@@ -630,7 +630,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2016] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1600,
@@ -647,7 +647,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2017] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1700,
@@ -664,7 +664,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2018] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1800,
@@ -681,7 +681,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2019] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 1900,
@@ -698,7 +698,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2020] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2000,
@@ -715,7 +715,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2021] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2100,
@@ -732,7 +732,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2022] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2200,
@@ -749,7 +749,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2023] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2300,
@@ -766,7 +766,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2024] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2400,
@@ -783,7 +783,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2025] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2500,
@@ -800,7 +800,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2026] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2600,
@@ -817,7 +817,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2027] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2700,
@@ -834,7 +834,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2028] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2800,
@@ -851,7 +851,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[2029] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 2900,
@@ -868,24 +868,364 @@ pg.guild_technology_template = {
 		}
 	},
 	[2030] = {
-		level_max = 30,
+		level_max = 50,
 		name = "物资存储技术",
 		group = 2,
 		need_guild_active = 3000,
-		exp = 0,
+		exp = 2560,
 		num = 9000,
 		contribution_multiple = 1.5,
 		id = 2030,
-		next_tech = 0,
-		gold_consume = 0,
-		contribution_consume = 0,
+		next_tech = 2031,
+		gold_consume = 3100,
+		contribution_consume = 1550,
 		level = 30,
 		effect_args = {
 			"gold_max"
 		}
 	},
+	[2031] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3100,
+		exp = 2704,
+		num = 9300,
+		contribution_multiple = 1.5,
+		id = 2031,
+		next_tech = 2032,
+		gold_consume = 3200,
+		contribution_consume = 1600,
+		level = 31,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2032] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3200,
+		exp = 2852,
+		num = 9600,
+		contribution_multiple = 1.5,
+		id = 2032,
+		next_tech = 2033,
+		gold_consume = 3300,
+		contribution_consume = 1650,
+		level = 32,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2033] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3300,
+		exp = 3004,
+		num = 9900,
+		contribution_multiple = 1.5,
+		id = 2033,
+		next_tech = 2034,
+		gold_consume = 3400,
+		contribution_consume = 1700,
+		level = 33,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2034] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3400,
+		exp = 3160,
+		num = 10200,
+		contribution_multiple = 1.5,
+		id = 2034,
+		next_tech = 2035,
+		gold_consume = 3500,
+		contribution_consume = 1750,
+		level = 34,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2035] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3500,
+		exp = 3320,
+		num = 10500,
+		contribution_multiple = 1.5,
+		id = 2035,
+		next_tech = 2036,
+		gold_consume = 3600,
+		contribution_consume = 1800,
+		level = 35,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2036] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3600,
+		exp = 3484,
+		num = 10800,
+		contribution_multiple = 1.5,
+		id = 2036,
+		next_tech = 2037,
+		gold_consume = 3700,
+		contribution_consume = 1850,
+		level = 36,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2037] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3700,
+		exp = 3652,
+		num = 11100,
+		contribution_multiple = 1.5,
+		id = 2037,
+		next_tech = 2038,
+		gold_consume = 3800,
+		contribution_consume = 1900,
+		level = 37,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2038] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3800,
+		exp = 3824,
+		num = 11400,
+		contribution_multiple = 1.5,
+		id = 2038,
+		next_tech = 2039,
+		gold_consume = 3900,
+		contribution_consume = 1950,
+		level = 38,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2039] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 3900,
+		exp = 4000,
+		num = 11700,
+		contribution_multiple = 1.5,
+		id = 2039,
+		next_tech = 2040,
+		gold_consume = 4000,
+		contribution_consume = 2000,
+		level = 39,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2040] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4000,
+		exp = 4180,
+		num = 12000,
+		contribution_multiple = 1.5,
+		id = 2040,
+		next_tech = 2041,
+		gold_consume = 4100,
+		contribution_consume = 2050,
+		level = 40,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2041] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4100,
+		exp = 4364,
+		num = 12300,
+		contribution_multiple = 1.5,
+		id = 2041,
+		next_tech = 2042,
+		gold_consume = 4200,
+		contribution_consume = 2100,
+		level = 41,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2042] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4200,
+		exp = 4552,
+		num = 12600,
+		contribution_multiple = 1.5,
+		id = 2042,
+		next_tech = 2043,
+		gold_consume = 4300,
+		contribution_consume = 2150,
+		level = 42,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2043] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4300,
+		exp = 4744,
+		num = 12900,
+		contribution_multiple = 1.5,
+		id = 2043,
+		next_tech = 2044,
+		gold_consume = 4400,
+		contribution_consume = 2200,
+		level = 43,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2044] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4400,
+		exp = 4940,
+		num = 13200,
+		contribution_multiple = 1.5,
+		id = 2044,
+		next_tech = 2045,
+		gold_consume = 4500,
+		contribution_consume = 2250,
+		level = 44,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2045] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4500,
+		exp = 5140,
+		num = 13500,
+		contribution_multiple = 1.5,
+		id = 2045,
+		next_tech = 2046,
+		gold_consume = 4600,
+		contribution_consume = 2300,
+		level = 45,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2046] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4600,
+		exp = 5344,
+		num = 13800,
+		contribution_multiple = 1.5,
+		id = 2046,
+		next_tech = 2047,
+		gold_consume = 4700,
+		contribution_consume = 2350,
+		level = 46,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2047] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4700,
+		exp = 5552,
+		num = 14100,
+		contribution_multiple = 1.5,
+		id = 2047,
+		next_tech = 2048,
+		gold_consume = 4800,
+		contribution_consume = 2400,
+		level = 47,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2048] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4800,
+		exp = 5764,
+		num = 14400,
+		contribution_multiple = 1.5,
+		id = 2048,
+		next_tech = 2049,
+		gold_consume = 4900,
+		contribution_consume = 2450,
+		level = 48,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2049] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 4900,
+		exp = 5980,
+		num = 14700,
+		contribution_multiple = 1.5,
+		id = 2049,
+		next_tech = 2050,
+		gold_consume = 5000,
+		contribution_consume = 2500,
+		level = 49,
+		effect_args = {
+			"gold_max"
+		}
+	},
+	[2050] = {
+		level_max = 50,
+		name = "物资存储技术",
+		group = 2,
+		need_guild_active = 5000,
+		exp = 0,
+		num = 15000,
+		contribution_multiple = 1.5,
+		id = 2050,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 50,
+		effect_args = {
+			"gold_max"
+		}
+	},
 	[3000] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 0,
@@ -902,7 +1242,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3001] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 100,
@@ -919,7 +1259,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3002] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 200,
@@ -936,7 +1276,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3003] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 300,
@@ -953,7 +1293,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3004] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 400,
@@ -970,7 +1310,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3005] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 500,
@@ -987,7 +1327,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3006] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 600,
@@ -1004,7 +1344,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3007] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 700,
@@ -1021,7 +1361,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3008] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 800,
@@ -1038,7 +1378,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3009] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 900,
@@ -1055,7 +1395,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3010] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1000,
@@ -1072,7 +1412,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3011] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1100,
@@ -1089,7 +1429,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3012] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1200,
@@ -1106,7 +1446,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3013] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1300,
@@ -1123,7 +1463,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3014] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1400,
@@ -1140,7 +1480,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3015] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1500,
@@ -1157,7 +1497,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3016] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1600,
@@ -1174,7 +1514,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3017] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1700,
@@ -1191,7 +1531,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3018] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1800,
@@ -1208,7 +1548,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3019] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 1900,
@@ -1225,7 +1565,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3020] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2000,
@@ -1242,7 +1582,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3021] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2100,
@@ -1259,7 +1599,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3022] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2200,
@@ -1276,7 +1616,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3023] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2300,
@@ -1293,7 +1633,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3024] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2400,
@@ -1310,7 +1650,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3025] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2500,
@@ -1327,7 +1667,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3026] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2600,
@@ -1344,7 +1684,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3027] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2700,
@@ -1361,7 +1701,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3028] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2800,
@@ -1378,7 +1718,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[3029] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 2900,
@@ -1395,24 +1735,364 @@ pg.guild_technology_template = {
 		}
 	},
 	[3030] = {
-		level_max = 30,
+		level_max = 50,
 		name = "石油存储技术",
 		group = 3,
 		need_guild_active = 3000,
-		exp = 0,
+		exp = 2560,
 		num = 1500,
 		contribution_multiple = 1.5,
 		id = 3030,
-		next_tech = 0,
-		gold_consume = 0,
-		contribution_consume = 0,
+		next_tech = 3031,
+		gold_consume = 3100,
+		contribution_consume = 1550,
 		level = 30,
 		effect_args = {
 			"oil_max"
 		}
 	},
+	[3031] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3100,
+		exp = 2704,
+		num = 1550,
+		contribution_multiple = 1.5,
+		id = 3031,
+		next_tech = 3032,
+		gold_consume = 3200,
+		contribution_consume = 1600,
+		level = 31,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3032] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3200,
+		exp = 2852,
+		num = 1600,
+		contribution_multiple = 1.5,
+		id = 3032,
+		next_tech = 3033,
+		gold_consume = 3300,
+		contribution_consume = 1650,
+		level = 32,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3033] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3300,
+		exp = 3004,
+		num = 1650,
+		contribution_multiple = 1.5,
+		id = 3033,
+		next_tech = 3034,
+		gold_consume = 3400,
+		contribution_consume = 1700,
+		level = 33,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3034] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3400,
+		exp = 3160,
+		num = 1700,
+		contribution_multiple = 1.5,
+		id = 3034,
+		next_tech = 3035,
+		gold_consume = 3500,
+		contribution_consume = 1750,
+		level = 34,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3035] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3500,
+		exp = 3320,
+		num = 1750,
+		contribution_multiple = 1.5,
+		id = 3035,
+		next_tech = 3036,
+		gold_consume = 3600,
+		contribution_consume = 1800,
+		level = 35,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3036] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3600,
+		exp = 3484,
+		num = 1800,
+		contribution_multiple = 1.5,
+		id = 3036,
+		next_tech = 3037,
+		gold_consume = 3700,
+		contribution_consume = 1850,
+		level = 36,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3037] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3700,
+		exp = 3652,
+		num = 1850,
+		contribution_multiple = 1.5,
+		id = 3037,
+		next_tech = 3038,
+		gold_consume = 3800,
+		contribution_consume = 1900,
+		level = 37,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3038] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3800,
+		exp = 3824,
+		num = 1900,
+		contribution_multiple = 1.5,
+		id = 3038,
+		next_tech = 3039,
+		gold_consume = 3900,
+		contribution_consume = 1950,
+		level = 38,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3039] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 3900,
+		exp = 4000,
+		num = 1950,
+		contribution_multiple = 1.5,
+		id = 3039,
+		next_tech = 3040,
+		gold_consume = 4000,
+		contribution_consume = 2000,
+		level = 39,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3040] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4000,
+		exp = 4180,
+		num = 2000,
+		contribution_multiple = 1.5,
+		id = 3040,
+		next_tech = 3041,
+		gold_consume = 4100,
+		contribution_consume = 2050,
+		level = 40,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3041] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4100,
+		exp = 4364,
+		num = 2050,
+		contribution_multiple = 1.5,
+		id = 3041,
+		next_tech = 3042,
+		gold_consume = 4200,
+		contribution_consume = 2100,
+		level = 41,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3042] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4200,
+		exp = 4552,
+		num = 2100,
+		contribution_multiple = 1.5,
+		id = 3042,
+		next_tech = 3043,
+		gold_consume = 4300,
+		contribution_consume = 2150,
+		level = 42,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3043] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4300,
+		exp = 4744,
+		num = 2150,
+		contribution_multiple = 1.5,
+		id = 3043,
+		next_tech = 3044,
+		gold_consume = 4400,
+		contribution_consume = 2200,
+		level = 43,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3044] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4400,
+		exp = 4940,
+		num = 2200,
+		contribution_multiple = 1.5,
+		id = 3044,
+		next_tech = 3045,
+		gold_consume = 4500,
+		contribution_consume = 2250,
+		level = 44,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3045] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4500,
+		exp = 5140,
+		num = 2250,
+		contribution_multiple = 1.5,
+		id = 3045,
+		next_tech = 3046,
+		gold_consume = 4600,
+		contribution_consume = 2300,
+		level = 45,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3046] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4600,
+		exp = 5344,
+		num = 2300,
+		contribution_multiple = 1.5,
+		id = 3046,
+		next_tech = 3047,
+		gold_consume = 4700,
+		contribution_consume = 2350,
+		level = 46,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3047] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4700,
+		exp = 5552,
+		num = 2350,
+		contribution_multiple = 1.5,
+		id = 3047,
+		next_tech = 3048,
+		gold_consume = 4800,
+		contribution_consume = 2400,
+		level = 47,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3048] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4800,
+		exp = 5764,
+		num = 2400,
+		contribution_multiple = 1.5,
+		id = 3048,
+		next_tech = 3049,
+		gold_consume = 4900,
+		contribution_consume = 2450,
+		level = 48,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3049] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 4900,
+		exp = 5980,
+		num = 2450,
+		contribution_multiple = 1.5,
+		id = 3049,
+		next_tech = 3050,
+		gold_consume = 5000,
+		contribution_consume = 2500,
+		level = 49,
+		effect_args = {
+			"oil_max"
+		}
+	},
+	[3050] = {
+		level_max = 50,
+		name = "石油存储技术",
+		group = 3,
+		need_guild_active = 5000,
+		exp = 0,
+		num = 2500,
+		contribution_multiple = 1.5,
+		id = 3050,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 50,
+		effect_args = {
+			"oil_max"
+		}
+	},
 	[4000] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 0,
@@ -1429,7 +2109,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4001] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 300,
@@ -1446,7 +2126,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4002] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 600,
@@ -1463,7 +2143,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4003] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 900,
@@ -1480,7 +2160,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4004] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 1200,
@@ -1497,7 +2177,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4005] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 1500,
@@ -1514,7 +2194,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4006] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 1800,
@@ -1531,7 +2211,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4007] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 2100,
@@ -1548,7 +2228,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4008] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 2400,
@@ -1565,7 +2245,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[4009] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 2700,
@@ -1582,24 +2262,109 @@ pg.guild_technology_template = {
 		}
 	},
 	[4010] = {
-		level_max = 10,
+		level_max = 15,
 		name = "船坞扩容技术",
 		group = 4,
 		need_guild_active = 3000,
-		exp = 0,
+		exp = 2650,
 		num = 20,
 		contribution_multiple = 1.5,
 		id = 4010,
-		next_tech = 0,
-		gold_consume = 0,
-		contribution_consume = 0,
+		next_tech = 4011,
+		gold_consume = 5500,
+		contribution_consume = 2750,
 		level = 10,
 		effect_args = {
 			"ship_bag_size"
 		}
 	},
+	[4011] = {
+		level_max = 15,
+		name = "船坞扩容技术",
+		group = 4,
+		need_guild_active = 3300,
+		exp = 3030,
+		num = 22,
+		contribution_multiple = 1.5,
+		id = 4011,
+		next_tech = 4012,
+		gold_consume = 6000,
+		contribution_consume = 3000,
+		level = 11,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4012] = {
+		level_max = 15,
+		name = "船坞扩容技术",
+		group = 4,
+		need_guild_active = 3600,
+		exp = 3440,
+		num = 24,
+		contribution_multiple = 1.5,
+		id = 4012,
+		next_tech = 4013,
+		gold_consume = 6500,
+		contribution_consume = 3250,
+		level = 12,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4013] = {
+		level_max = 15,
+		name = "船坞扩容技术",
+		group = 4,
+		need_guild_active = 3900,
+		exp = 3880,
+		num = 26,
+		contribution_multiple = 1.5,
+		id = 4013,
+		next_tech = 4014,
+		gold_consume = 7000,
+		contribution_consume = 3500,
+		level = 13,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4014] = {
+		level_max = 15,
+		name = "船坞扩容技术",
+		group = 4,
+		need_guild_active = 4200,
+		exp = 4350,
+		num = 28,
+		contribution_multiple = 1.5,
+		id = 4014,
+		next_tech = 4015,
+		gold_consume = 7500,
+		contribution_consume = 3750,
+		level = 14,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
+	[4015] = {
+		level_max = 15,
+		name = "船坞扩容技术",
+		group = 4,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 30,
+		contribution_multiple = 1.5,
+		id = 4015,
+		next_tech = 0,
+		gold_consume = 0,
+		contribution_consume = 0,
+		level = 15,
+		effect_args = {
+			"ship_bag_size"
+		}
+	},
 	[5000] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 0,
@@ -1616,7 +2381,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5001] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 300,
@@ -1633,7 +2398,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5002] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 600,
@@ -1650,7 +2415,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5003] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 900,
@@ -1667,7 +2432,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5004] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 1200,
@@ -1684,7 +2449,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5005] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 1500,
@@ -1701,7 +2466,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5006] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 1800,
@@ -1718,7 +2483,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5007] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 2100,
@@ -1735,7 +2500,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5008] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 2400,
@@ -1752,7 +2517,7 @@ pg.guild_technology_template = {
 		}
 	},
 	[5009] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 2700,
@@ -1769,18 +2534,103 @@ pg.guild_technology_template = {
 		}
 	},
 	[5010] = {
-		level_max = 10,
+		level_max = 15,
 		name = "仓库扩容技术",
 		group = 5,
 		need_guild_active = 3000,
-		exp = 0,
+		exp = 2650,
 		num = 50,
 		contribution_multiple = 1.5,
 		id = 5010,
+		next_tech = 5011,
+		gold_consume = 5500,
+		contribution_consume = 2750,
+		level = 10,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5011] = {
+		level_max = 15,
+		name = "仓库扩容技术",
+		group = 5,
+		need_guild_active = 3300,
+		exp = 3030,
+		num = 55,
+		contribution_multiple = 1.5,
+		id = 5011,
+		next_tech = 5012,
+		gold_consume = 6000,
+		contribution_consume = 3000,
+		level = 11,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5012] = {
+		level_max = 15,
+		name = "仓库扩容技术",
+		group = 5,
+		need_guild_active = 3600,
+		exp = 3440,
+		num = 60,
+		contribution_multiple = 1.5,
+		id = 5012,
+		next_tech = 5013,
+		gold_consume = 6500,
+		contribution_consume = 3250,
+		level = 12,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5013] = {
+		level_max = 15,
+		name = "仓库扩容技术",
+		group = 5,
+		need_guild_active = 3900,
+		exp = 3880,
+		num = 65,
+		contribution_multiple = 1.5,
+		id = 5013,
+		next_tech = 5014,
+		gold_consume = 7000,
+		contribution_consume = 3500,
+		level = 13,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5014] = {
+		level_max = 15,
+		name = "仓库扩容技术",
+		group = 5,
+		need_guild_active = 4200,
+		exp = 4350,
+		num = 70,
+		contribution_multiple = 1.5,
+		id = 5014,
+		next_tech = 5015,
+		gold_consume = 7500,
+		contribution_consume = 3750,
+		level = 14,
+		effect_args = {
+			"equip_bag_size"
+		}
+	},
+	[5015] = {
+		level_max = 15,
+		name = "仓库扩容技术",
+		group = 5,
+		need_guild_active = 4500,
+		exp = 0,
+		num = 75,
+		contribution_multiple = 1.5,
+		id = 5015,
 		next_tech = 0,
 		gold_consume = 0,
 		contribution_consume = 0,
-		level = 10,
+		level = 15,
 		effect_args = {
 			"equip_bag_size"
 		}
@@ -2197,7 +3047,27 @@ pg.guild_technology_template = {
 			2027,
 			2028,
 			2029,
-			2030
+			2030,
+			2031,
+			2032,
+			2033,
+			2034,
+			2035,
+			2036,
+			2037,
+			2038,
+			2039,
+			2040,
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047,
+			2048,
+			2049,
+			2050
 		},
 		{
 			3000,
@@ -2230,7 +3100,27 @@ pg.guild_technology_template = {
 			3027,
 			3028,
 			3029,
-			3030
+			3030,
+			3031,
+			3032,
+			3033,
+			3034,
+			3035,
+			3036,
+			3037,
+			3038,
+			3039,
+			3040,
+			3041,
+			3042,
+			3043,
+			3044,
+			3045,
+			3046,
+			3047,
+			3048,
+			3049,
+			3050
 		},
 		{
 			4000,
@@ -2243,7 +3133,12 @@ pg.guild_technology_template = {
 			4007,
 			4008,
 			4009,
-			4010
+			4010,
+			4011,
+			4012,
+			4013,
+			4014,
+			4015
 		},
 		{
 			5000,
@@ -2256,7 +3151,12 @@ pg.guild_technology_template = {
 			5007,
 			5008,
 			5009,
-			5010
+			5010,
+			5011,
+			5012,
+			5013,
+			5014,
+			5015
 		},
 		{
 			6000,
@@ -2335,6 +3235,26 @@ pg.guild_technology_template = {
 		2028,
 		2029,
 		2030,
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038,
+		2039,
+		2040,
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046,
+		2047,
+		2048,
+		2049,
+		2050,
 		3000,
 		3001,
 		3002,
@@ -2366,6 +3286,26 @@ pg.guild_technology_template = {
 		3028,
 		3029,
 		3030,
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
 		4000,
 		4001,
 		4002,
@@ -2377,6 +3317,11 @@ pg.guild_technology_template = {
 		4008,
 		4009,
 		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
 		5000,
 		5001,
 		5002,
@@ -2388,6 +3333,11 @@ pg.guild_technology_template = {
 		5008,
 		5009,
 		5010,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
 		6000,
 		6001,
 		6002,

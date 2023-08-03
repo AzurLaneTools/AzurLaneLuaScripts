@@ -17,6 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
 	slot0.mainImg = slot0._tf:GetComponent(typeof(Image))
+	slot0.centerPanel = slot0._tf:Find("center")
 	slot0.actorPanel = slot0:findTF("actor")
 	slot0.dialoguePanel = slot0:findTF("front/dialogue")
 	slot0.effectPanel = slot0:findTF("front/effect")
@@ -589,43 +590,45 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 	for slot8, slot9 in ipairs(slot3) do
 		slot11 = slot9.active
 		slot12 = slot9.interlayer
+		slot13 = slot9.center
 
-		if slot0.effectPanel:Find(slot9.name) then
-			setActive(slot13, slot11)
+		if slot0.effectPanel:Find(slot9.name) or slot0.centerPanel:Find(slot10) then
+			setActive(slot14, slot11)
+			setParent(slot14, slot13 and slot0.centerPanel or slot0.effectPanel.transform)
 
 			if slot12 then
-				slot0:UpdateEffectInterLayer(slot10, slot13)
+				slot0:UpdateEffectInterLayer(slot10, slot14)
 			end
 
 			if slot11 == false then
 				slot0:ClearEffectInterlayer(slot10)
 			end
 		else
-			slot14 = ""
+			slot15 = ""
 
 			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
-				slot14 = "ui"
+				slot15 = "ui"
 			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
-				slot14 = "effect"
+				slot15 = "effect"
 			end
 
-			if slot14 and slot14 ~= "" then
+			if slot15 and slot15 ~= "" then
 				table.insert(slot4, function (slot0)
 					LoadAndInstantiateAsync(uv0, uv1, function (slot0)
-						setParent(slot0, uv0.effectPanel.transform)
-						setActive(slot0, uv1)
+						setParent(slot0, uv0 and uv1.centerPanel or uv1.effectPanel.transform)
+						setActive(slot0, uv2)
 
-						slot0.name = uv2
+						slot0.name = uv3
 
-						if uv3 then
-							uv0:UpdateEffectInterLayer(uv2, slot0)
+						if uv4 then
+							uv1:UpdateEffectInterLayer(uv3, slot0)
 						end
 
-						if uv1 == false then
-							uv0:ClearEffectInterlayer(uv2)
+						if uv2 == false then
+							uv1:ClearEffectInterlayer(uv3)
 						end
 
-						uv4()
+						uv5()
 					end)
 				end)
 			else
@@ -681,6 +684,7 @@ end
 
 function slot0.ClearEffects(slot0)
 	removeAllChildren(slot0.effectPanel)
+	removeAllChildren(slot0.centerPanel)
 
 	if slot0.activeInterLayer ~= nil then
 		slot0:ClearEffectInterlayer(slot0.activeInterLayer)

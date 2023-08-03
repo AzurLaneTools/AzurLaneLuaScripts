@@ -47,7 +47,11 @@ function slot0.GetFirstDropId(slot0)
 end
 
 function slot0.GetMaxCnt(slot0)
-	return slot0.count
+	if slot0:CanPurchase() then
+		return slot0.count
+	else
+		return 0
+	end
 end
 
 function slot0.CanPurchaseCnt(slot0, slot1)

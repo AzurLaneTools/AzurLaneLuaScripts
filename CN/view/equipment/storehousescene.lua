@@ -1,4 +1,4 @@
-slot0 = class("StoreHouseScene", import("..base.BaseUI"))
+slot0 = class("StoreHouseScene", import("view.base.BaseUI"))
 slot1 = 1
 slot2 = 0
 slot3 = 1
@@ -66,7 +66,7 @@ function slot0.init(slot0)
 	setActive(slot0.designTabRoot, false)
 
 	slot0.designTabs = CustomIndexLayer.Clone2Full(slot0.designTabRoot, 2)
-	slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
+	slot0.bottomBack = slot0:findTF("adapt/bottom_back", slot0.topItems)
 	slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
 	slot0.materialToggle = slot0.bottomPanel:Find("material")
 	slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
@@ -74,7 +74,7 @@ function slot0.init(slot0)
 	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
 	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
 	slot0.tip = slot0.tipTF:Find("label")
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
+	slot0.helpBtn = slot0:findTF("adapt/help_btn", slot0.topItems)
 
 	setActive(slot0.helpBtn, true)
 
@@ -94,14 +94,14 @@ function slot0.init(slot0)
 		slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomBack)
 	end
 
-	slot0.selectPanel = slot0:findTF("select_panel", slot0.topItems)
+	slot0.selectPanel = slot0:findTF("adapt/select_panel", slot0.topItems)
 
 	setActive(slot0.selectPanel, true)
 	setAnchoredPosition(slot0.selectPanel, {
 		y = -124
 	})
 
-	slot0.selectTransformPanel = slot0:findTF("select_transform_panel", slot0.topItems)
+	slot0.selectTransformPanel = slot0:findTF("adapt/select_transform_panel", slot0.topItems)
 
 	setActive(slot0.selectTransformPanel, false)
 
@@ -210,8 +210,8 @@ end
 
 function slot0.didEnter(slot0)
 	setText(slot0:findTF("tip", slot0.selectPanel), i18n("equipment_select_device_destroy_tip"))
-	setActive(slot0:findTF("stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-	onButton(slot0, slot0:findTF("stamp", slot0.topItems), function ()
+	setActive(slot0:findTF("adapt/stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	onButton(slot0, slot0:findTF("adapt/stamp", slot0.topItems), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(2)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -1460,10 +1460,6 @@ function slot0.willExit(slot0)
 		slot0.bulinTip:Destroy()
 
 		slot0.bulinTip = nil
-	end
-
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
 	end
 
 	slot0.destroyConfirmView:Destroy()

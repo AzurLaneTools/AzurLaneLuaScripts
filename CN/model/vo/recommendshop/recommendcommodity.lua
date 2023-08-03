@@ -145,7 +145,11 @@ end
 
 function slot0.IsMonthCardAndCantPurchase(slot0)
 	if slot0:IsMonthCard() then
-		if getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH) and not slot2:isExpire() then
+		slot2 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH)
+		slot3 = slot0.commodity:getConfig("limit_arg") or 0
+		slot4 = slot2:GetLeftDay()
+
+		if slot2 and slot3 < slot4 then
 			return true, i18n("charge_menu_month_tip", slot2:GetLeftDay())
 		else
 			return false

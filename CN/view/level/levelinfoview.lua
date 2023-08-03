@@ -325,7 +325,7 @@ function slot0.set(slot0, slot1, slot2)
 			PlayerPrefs.SetInt(uv0, slot0 and 1 or 0)
 			PlayerPrefs.Save()
 		end, SFX_PANEL)
-		triggerToggle(slot0.toggleQuickPlay, PlayerPrefs.GetInt("chapter_quickPlay_flag_" .. slot1.id, 0) == 1)
+		triggerToggle(slot0.toggleQuickPlay, PlayerPrefs.GetInt("chapter_quickPlay_flag_" .. slot1.id, 1) == 1)
 	end
 
 	slot12 = slot0:findTF("panel")

@@ -277606,6 +277606,514 @@ _G.pg.base.ship_data_statistics[902014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[902021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "马赛曲",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 902020,
+	english_name = "MNF Marseillaise",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 902021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		622,
+		32,
+		53,
+		61,
+		0,
+		71,
+		0,
+		57,
+		29,
+		31,
+		46,
+		36
+	},
+	attrs_growth = {
+		15797,
+		447,
+		720,
+		1288,
+		0,
+		492,
+		0,
+		867,
+		801,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		271
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.4,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[902022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "马赛曲",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 902020,
+	english_name = "MNF Marseillaise",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 902022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		774,
+		40,
+		66,
+		76,
+		0,
+		71,
+		0,
+		57,
+		29,
+		31,
+		46,
+		45
+	},
+	attrs_growth = {
+		15797,
+		447,
+		720,
+		1288,
+		0,
+		492,
+		0,
+		867,
+		801,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		272
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.47,
+		1.42,
+		0.92,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[902023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "马赛曲",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 902020,
+	english_name = "MNF Marseillaise",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 902023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1077,
+		56,
+		93,
+		106,
+		0,
+		71,
+		0,
+		57,
+		29,
+		31,
+		46,
+		62
+	},
+	attrs_growth = {
+		15797,
+		447,
+		720,
+		1288,
+		0,
+		492,
+		0,
+		867,
+		801,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		273
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.45,
+		0.95,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[902024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "马赛曲",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 902020,
+	english_name = "MNF Marseillaise",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 9,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 902024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1532,
+		80,
+		132,
+		150,
+		0,
+		71,
+		0,
+		57,
+		29,
+		31,
+		46,
+		89
+	},
+	attrs_growth = {
+		15797,
+		447,
+		720,
+		1288,
+		0,
+		492,
+		0,
+		867,
+		801,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		274
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"La Galissonnière-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[903011] = {
 	raid_distance = 0,
 	oxy_max = 0,

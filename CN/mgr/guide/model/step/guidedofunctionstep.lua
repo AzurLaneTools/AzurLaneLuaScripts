@@ -14,4 +14,8 @@ function slot0.GetFunction(slot0)
 	return slot0.func
 end
 
+function slot0.ExistTrigger(slot0)
+	return true
+end
+
 return slot0

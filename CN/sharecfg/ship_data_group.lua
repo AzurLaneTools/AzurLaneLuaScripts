@@ -1574,6 +1574,9 @@ pg.ship_data_group = setmetatable({
 		[90201] = {
 			456
 		},
+		[90202] = {
+			598
+		},
 		[90301] = {
 			524
 		},
@@ -2463,6 +2466,7 @@ pg.ship_data_group = setmetatable({
 		556,
 		481,
 		456,
+		598,
 		524,
 		455,
 		352,
@@ -24904,6 +24908,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[598] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 526,
+		code = 598,
+		group_type = 90202,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：奏响鸢尾之歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[524] = {
 		type = 3,
 		redirect_id = 101,
@@ -24911,7 +24947,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 526,
+		index_id = 527,
 		code = 524,
 		group_type = 90301,
 		trans_type = 0,
@@ -24943,7 +24979,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 527,
+		index_id = 528,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -24986,7 +25022,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 528,
+		index_id = 529,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -25029,7 +25065,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 529,
+		index_id = 530,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -25081,7 +25117,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 530,
+		index_id = 531,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -25126,7 +25162,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 531,
+		index_id = 532,
 		code = 555,
 		group_type = 90701,
 		trans_type = 0,
@@ -25158,7 +25194,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 532,
+		index_id = 533,
 		code = 571,
 		group_type = 960001,
 		trans_type = 0,

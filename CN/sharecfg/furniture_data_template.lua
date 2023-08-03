@@ -153,6 +153,7 @@ pg.furniture_data_template = setmetatable({
 			250,
 			251,
 			252,
+			255,
 			100001,
 			100002,
 			100003,
@@ -5148,6 +5149,7 @@ pg.furniture_data_template = setmetatable({
 			250,
 			251,
 			252,
+			255,
 			100001,
 			100002,
 			100003,
@@ -6096,6 +6098,7 @@ pg.furniture_data_template = setmetatable({
 			249,
 			250,
 			252,
+			255,
 			100001,
 			100002,
 			100004,
@@ -8897,6 +8900,7 @@ pg.furniture_data_template = setmetatable({
 		250,
 		251,
 		252,
+		255,
 		100001,
 		100002,
 		100003,
@@ -18838,6 +18842,81 @@ pg.base.furniture_data_template = {
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[255] = {
+		spine_extra = "",
+		describe = "「啊~啊！保持平衡！坐稳——呀！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "瑜伽弹弹球",
+		themeId = 0,
+		icon = "yujiatantanqiuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 255,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujiatantanqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

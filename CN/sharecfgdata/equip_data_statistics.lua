@@ -146873,6 +146873,59 @@ _G.pg.base.equip_data_statistics[170142] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[170151] = {
+	type = 1,
+	name = "专属弹幕-马赛曲I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 170151,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170151
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170152] = {
+	id = 170152,
+	name = "专属弹幕-马赛曲II",
+	base = 170151,
+	weapon_id = {
+		170152
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[594017] = {
 	tech = 3,
 	name = "美系剧情海伦娜主炮",
