@@ -1243,10 +1243,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
+			paintingNoise = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 807010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "您之前的直觉，似乎是正确的。",
 			painting = {
 				alpha = 0.3,

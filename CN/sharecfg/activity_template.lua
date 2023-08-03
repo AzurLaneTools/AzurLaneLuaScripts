@@ -8749,7 +8749,6 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		config_client = "",
 		id = 4940,
 		config_data = {
 			1730001,
@@ -8782,6 +8781,9 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[4941] = {
