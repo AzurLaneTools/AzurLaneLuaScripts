@@ -2121,6 +2121,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			84301
 		},
 		[85] = {
@@ -4345,6 +4348,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			85126,
 			86122,
 			88126,
@@ -6496,6 +6502,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			90104,
 			90117,
 			94119,
@@ -9108,6 +9117,9 @@ pg.furniture_data_template = setmetatable({
 		84184,
 		84185,
 		84186,
+		84187,
+		84188,
+		84189,
 		84301,
 		85001,
 		85002,
@@ -97628,6 +97640,261 @@ pg.base.furniture_data_template = {
 				1
 			},
 			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84187] = {
+		spine_extra = "",
+		describe = "從正義的枷鎖中解放的黑色惡魔，其所獲得的新形態的啾啾戲服。和朋友的約定，就用過去之敵的力量守護啾！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "阿格雷希斯・克利烏(新秩序)啾戲服",
+		themeId = 84,
+		icon = "alexisglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84187,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"alexisgltB",
+				"normal"
+			},
+			{
+				"alexisgltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84188] = {
+		spine_extra = "",
+		describe = "身纏夢想之力誕生的帝王，超龍王合體啾啾的戲服。狂戰帝王能量終結——！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "狂戰帝王古立特啾戲服",
+		themeId = 84,
+		icon = "kaisaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84188,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaisagltB",
+				"normal"
+			},
+			{
+				"kaisagltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84189] = {
+		spine_extra = "",
+		describe = "使用未知之力戰鬥的騎士，超合體啾啾的戲服。不管在何時何處都會戰勝你，這就是啾啾的宿命！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "全能古立特騎士啾戲服",
+		themeId = 84,
+		icon = "qishiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84189,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qishigltB",
+				"normal"
+			},
+			{
+				"qishigltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
 		},
 		followBone = {
 			"char",

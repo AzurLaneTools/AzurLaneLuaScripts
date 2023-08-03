@@ -434,7 +434,9 @@ function slot0.ClearInteraction(slot0, slot1)
 		slot0:_ChangeState(uv0.STATE_IDLE)
 	end
 
-	slot0:DispatchEvent(CourtYardEvent.FURNITURE_STOP_INTERACTION, slot1)
+	onNextTick(function ()
+		uv0:DispatchEvent(CourtYardEvent.FURNITURE_STOP_INTERACTION, uv1)
+	end)
 end
 
 function slot0.GetUsingSlots(slot0)

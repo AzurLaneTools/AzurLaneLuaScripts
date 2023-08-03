@@ -58,6 +58,14 @@ function slot0.OnFlush(slot0)
 				end)
 			end
 		end)
+
+		slot5 = slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (({})[slot1.id] or 0)
+		slot6 = 0
+
+		for slot10, slot11 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+			slot6 = slot6 + tonumber(slot11:getConfig("benefit_effect"))
+		end
+
 		slot2:updateProps1({
 			{
 				i18n("word_lv"),
@@ -69,7 +77,7 @@ function slot0.OnFlush(slot0)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (({})[slot1.id] or 0)) .. "/h"
+				10 * slot5 .. (slot6 > 0 and setColorStr("+" .. 10 * slot6, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 	end

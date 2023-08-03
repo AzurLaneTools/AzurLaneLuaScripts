@@ -151272,6 +151272,50 @@ _G.pg.base.task_data_template[18884] = {
 	}
 }
 
+_G.pg.base.task_data_template[18890] = {
+	name = "『古立特復刻』通關EX",
+	guild_coin_award = 0,
+	award = 99323,
+	type = 6,
+	desc = "通關EX",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18890,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590003,
+			chapterId = 1590051
+		}
+	}
+}
+
 _G.pg.base.task_data_template[18891] = {
 	name = "海天皮肤活动1",
 	guild_coin_award = 0,
@@ -151726,6 +151770,1452 @@ _G.pg.base.task_data_template[18902] = {
 			2,
 			54006,
 			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18967] = {
+	name = "『古立特復刻』日常建造",
+	guild_coin_award = 0,
+	award = 900192,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18967,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18968] = {
+	name = "『古立特復刻』日常出擊",
+	guild_coin_award = 0,
+	award = 900193,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18968,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18969] = {
+	name = "『古立特復刻』日常困難本",
+	guild_coin_award = 0,
+	award = 900194,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18969,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18970] = {
+	name = "『古立特復刻』通關T1",
+	guild_coin_award = 0,
+	award = 900195,
+	type = 6,
+	desc = "通關T1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590001",
+	next_task = "18971",
+	auto_commit = 0,
+	story_id = "",
+	id = 18970,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59466,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18971] = {
+	name = "『古立特復刻』通關T2",
+	guild_coin_award = 0,
+	award = 900196,
+	type = 6,
+	desc = "通關T2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590002",
+	next_task = "18972",
+	auto_commit = 0,
+	story_id = "",
+	id = 18971,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59466,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18972] = {
+	name = "『古立特復刻』通關T3",
+	guild_coin_award = 0,
+	award = 900197,
+	type = 6,
+	desc = "通關T3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590003",
+	next_task = "18973",
+	auto_commit = 0,
+	story_id = "",
+	id = 18972,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59466,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18973] = {
+	name = "『古立特復刻』通關T4",
+	guild_coin_award = 0,
+	award = 900198,
+	type = 6,
+	desc = "通關T4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590004",
+	next_task = "18974",
+	auto_commit = 0,
+	story_id = "",
+	id = 18973,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59466,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18974] = {
+	name = "『古立特復刻』通關SSSS.SP",
+	guild_coin_award = 0,
+	award = 900199,
+	type = 6,
+	desc = "通關SSSS.SP ",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18974,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			8,
+			70154,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590002,
+			chapterId = 1590041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18975] = {
+	name = "『古立特復刻』SP1三星",
+	guild_coin_award = 0,
+	award = 900200,
+	type = 6,
+	desc = "完成T1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590001",
+	next_task = "18976",
+	auto_commit = 0,
+	story_id = "",
+	id = 18975,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30330,
+			1
+		},
+		{
+			8,
+			70146,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18976] = {
+	name = "『古立特復刻』SP2三星",
+	guild_coin_award = 0,
+	award = 900201,
+	type = 6,
+	desc = "完成T2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590002",
+	next_task = "18977",
+	auto_commit = 0,
+	story_id = "",
+	id = 18976,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30330,
+			1
+		},
+		{
+			8,
+			70148,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18977] = {
+	name = "『古立特復刻』SP3三星",
+	guild_coin_award = 0,
+	award = 900202,
+	type = 6,
+	desc = "完成T3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590003",
+	next_task = "18978",
+	auto_commit = 0,
+	story_id = "",
+	id = 18977,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30330,
+			1
+		},
+		{
+			8,
+			70150,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18978] = {
+	name = "『古立特復刻』SP4三星",
+	guild_coin_award = 0,
+	award = 900203,
+	type = 6,
+	desc = "完成T4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590004",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18978,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30330,
+			1
+		},
+		{
+			8,
+			70152,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590001,
+			chapterId = 1590004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18979] = {
+	name = "『古立特復刻』進行30次建造",
+	guild_coin_award = 0,
+	award = 900187,
+	type = 6,
+	desc = "進行30次建造",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18979,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70147,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18980] = {
+	name = "『古立特復刻』累計PT15000點",
+	guild_coin_award = 0,
+	award = 900188,
+	type = 6,
+	desc = "累計PT15000點",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "41262",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "359",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18980,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70149,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18981] = {
+	name = "『古立特復刻』在任意支援下獲得60次勝利",
+	guild_coin_award = 0,
+	award = 900189,
+	type = 6,
+	desc = "在任意支援下獲得60次勝利",
+	count_inherit = 0,
+	sub_type = 13,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18981,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		9401,
+		9421,
+		9441,
+		9461,
+		9481
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70151,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18982] = {
+	name = "『古立特復刻』獲得裝備「煌翼炎龍」+10",
+	guild_coin_award = 0,
+	award = 900190,
+	type = 6,
+	desc = "獲得裝備「煌翼炎龍」+10",
+	count_inherit = 0,
+	sub_type = 1060,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18982,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		89410,
+		89411,
+		89412,
+		89413
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70155,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18983] = {
+	name = "『古立特復刻』獲得塞壬情報I至XI",
+	guild_coin_award = 0,
+	award = 900191,
+	type = 6,
+	desc = "獲得塞壬情報I至XI",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18983,
+	target_num = 11,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		18974,
+		18975,
+		18976,
+		18977,
+		18978,
+		18979,
+		18980,
+		18981,
+		18982,
+		18984,
+		18985
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70157,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18984] = {
+	name = "『古立特復刻』完成環遊之旅第5圈",
+	guild_coin_award = 0,
+	award = 900204,
+	type = 6,
+	desc = "完成環遊之旅第5圈",
+	count_inherit = 0,
+	sub_type = 109,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18984,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70153,
+			1
+		}
+	},
+	scene = {
+		"SSSS_ACADEMY"
+	}
+}
+
+_G.pg.base.task_data_template[18985] = {
+	name = "『古立特復刻』完成激戰對決第7場",
+	guild_coin_award = 0,
+	award = 900205,
+	type = 6,
+	desc = "完成激戰對決第7場",
+	count_inherit = 0,
+	sub_type = 415,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "46",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18985,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70156,
+			1
+		}
+	},
+	scene = {
+		"SSSS_ACADEMY"
+	}
+}
+
+_G.pg.base.task_data_template[18986] = {
+	name = "『古立特復刻』登入送造型體驗券活動",
+	guild_coin_award = 0,
+	award = 900212,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18986,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			360,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18987] = {
+	name = "『古立特復刻』外觀裝備箱保底",
+	guild_coin_award = 0,
+	award = 900213,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(SSSS)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30330",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18987,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30527,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18988] = {
+	name = "『古立特復刻』通關任務10次",
+	guild_coin_award = 0,
+	award = 900214,
+	type = 6,
+	desc = "通關10次「交匯世界的弧光」特別作戰關卡（T1-T4、SP）",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18988,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1590001,
+		1590002,
+		1590003,
+		1590004,
+		1590041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18989] = {
+	name = "『古立特復刻』通關任務20次",
+	guild_coin_award = 0,
+	award = 900215,
+	type = 6,
+	desc = "通關20次「交匯世界的弧光」特別作戰關卡（T1-T4、SP）",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18989,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1590001,
+		1590002,
+		1590003,
+		1590004,
+		1590041
+	},
+	open_need = {},
+	award_display = {
+		{
+			21,
+			12200,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18990] = {
+	name = "『古立特復刻』通關任務30次",
+	guild_coin_award = 0,
+	award = 900216,
+	type = 6,
+	desc = "通關30次「交匯世界的弧光」特別作戰關卡（T1-T4、SP）",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18990,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1590001,
+		1590002,
+		1590003,
+		1590004,
+		1590041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18991] = {
+	name = "『古立特復刻』通關任務45次",
+	guild_coin_award = 0,
+	award = 900217,
+	type = 6,
+	desc = "通關45次「交匯世界的弧光」特別作戰關卡（T1-T4、SP）",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18991,
+	target_num = 45,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1590001,
+		1590002,
+		1590003,
+		1590004,
+		1590041
+	},
+	open_need = {},
+	award_display = {
+		{
+			21,
+			12180,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18992] = {
+	name = "『古立特復刻』通關任務60次",
+	guild_coin_award = 0,
+	award = 900218,
+	type = 6,
+	desc = "通關60次「交匯世界的弧光」特別作戰關卡（T1-T4、SP）",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18992,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1590001,
+		1590002,
+		1590003,
+		1590004,
+		1590041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4932
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18993] = {
+	name = "『古立特復刻』通關TSS1",
+	guild_coin_award = 0,
+	award = 900219,
+	type = 6,
+	desc = "通關TSS1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590021",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18993,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590004,
+			chapterId = 1590021
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18994] = {
+	name = "『古立特復刻』通關TSS2",
+	guild_coin_award = 0,
+	award = 900219,
+	type = 6,
+	desc = "通關TSS2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590022",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18994,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590004,
+			chapterId = 1590022
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18995] = {
+	name = "『古立特復刻』通關TSS3",
+	guild_coin_award = 0,
+	award = 900219,
+	type = 6,
+	desc = "通關TSS3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590023",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18995,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590004,
+			chapterId = 1590023
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18996] = {
+	name = "『古立特復刻』通關TSS4",
+	guild_coin_award = 0,
+	award = 900219,
+	type = 6,
+	desc = "通關TSS4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590024",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18996,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590004,
+			chapterId = 1590024
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18997] = {
+	name = "『古立特復刻』通關TSS5",
+	guild_coin_award = 0,
+	award = 900219,
+	type = 6,
+	desc = "通關TSS5",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1590025",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18997,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59466,
+			3000
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1590004,
+			chapterId = 1590025
 		}
 	}
 }

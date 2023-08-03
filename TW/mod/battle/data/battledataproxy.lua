@@ -1473,6 +1473,7 @@ function slot8.SwitchSpectreUnit(slot0, slot1)
 	slot4 = slot1:GetIFF() == uv0.FRIENDLY_CODE and slot0._friendlyShipList or slot0._foeShipList
 
 	if slot1:IsSpectre() then
+		slot4[slot2] = nil
 		slot0._spectreShipList[slot2] = slot1
 
 		slot0._cldSystem:DeleteShipCld(slot1)

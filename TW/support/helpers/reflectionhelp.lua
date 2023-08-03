@@ -16,6 +16,14 @@ return {
 
 		return (not slot3 or tolua.gettypemethod(slot0, slot1, uv0, Type.DefaultBinder, slot3, {}):Call(slot2, unpack(slot4))) and tolua.gettypemethod(slot0, slot1, uv0):Call(slot2)
 	end,
+	RefCallMethodEx = function (slot0, slot1, slot2, slot3, slot4)
+		slot5, slot6 = nil
+		slot5 = tolua.gettypemethod(slot0, slot1, slot3)
+
+		slot5:Destroy()
+
+		return slot5:Call(slot2, unpack(slot4))
+	end,
 	RefGetField = function (slot0, slot1, slot2)
 		slot3 = tolua.getfield(slot0, slot1, uv0)
 

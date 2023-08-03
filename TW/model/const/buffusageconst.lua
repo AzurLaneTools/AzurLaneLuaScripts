@@ -1,5 +1,6 @@
 slot0 = class("BuffUsageConst")
 slot0.DORM_EXP = "dorm_exp"
+slot0.DORM_ENERGY = "dorm_energy"
 slot0.ROOKIEBATTLEEXP = "rookie_battle_exp"
 slot0.SKILLLEARNCOSTUP = "skill_learncost_up"
 slot0.BATTLE = "battle_buff"

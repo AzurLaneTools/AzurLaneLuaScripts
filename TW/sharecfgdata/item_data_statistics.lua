@@ -17540,6 +17540,120 @@ _G.pg.base.item_data_statistics[30522] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30527] = {
+	display = "使用後可從「SSSS」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(SSSS)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsssszixuan",
+	id = 30527,
+	display_icon = {
+		{
+			9,
+			480,
+			1
+		},
+		{
+			9,
+			481,
+			1
+		},
+		{
+			9,
+			482,
+			1
+		},
+		{
+			9,
+			483,
+			1
+		},
+		{
+			9,
+			484,
+			1
+		},
+		{
+			9,
+			485,
+			1
+		},
+		{
+			9,
+			486,
+			1
+		},
+		{
+			9,
+			487,
+			1
+		},
+		{
+			9,
+			488,
+			1
+		},
+		{
+			9,
+			489,
+			1
+		},
+		{
+			9,
+			490,
+			1
+		},
+		{
+			9,
+			491,
+			1
+		},
+		{
+			9,
+			492,
+			1
+		},
+		{
+			9,
+			493,
+			1
+		},
+		{
+			9,
+			494,
+			1
+		},
+		{
+			9,
+			495,
+			1
+		},
+		{
+			9,
+			496,
+			1
+		},
+		{
+			9,
+			497,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "使用後可從T4部件中任意選擇一種獲得1個",
 	name = "定向部件T4",
@@ -163214,6 +163328,52 @@ _G.pg.base.item_data_statistics[59458] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59466] = {
+	display = "用於「交匯世界的弧光·再現」活動兌換，活動結束後將會消失",
+	name = "弧光結晶",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/ssss_pt",
+	id = 59466,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59469] = {
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59469,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驅逐船模-茳",
 	name = "船模-茳",
@@ -174084,7 +174244,7 @@ _G.pg.base.item_data_statistics[70093] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174107,7 +174267,7 @@ _G.pg.base.item_data_statistics[70094] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174130,7 +174290,7 @@ _G.pg.base.item_data_statistics[70095] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174153,7 +174313,7 @@ _G.pg.base.item_data_statistics[70096] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174176,7 +174336,7 @@ _G.pg.base.item_data_statistics[70097] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174199,7 +174359,7 @@ _G.pg.base.item_data_statistics[70098] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174222,7 +174382,7 @@ _G.pg.base.item_data_statistics[70099] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174245,7 +174405,7 @@ _G.pg.base.item_data_statistics[70100] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174268,7 +174428,7 @@ _G.pg.base.item_data_statistics[70101] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174291,7 +174451,7 @@ _G.pg.base.item_data_statistics[70102] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174314,7 +174474,7 @@ _G.pg.base.item_data_statistics[70103] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174337,7 +174497,7 @@ _G.pg.base.item_data_statistics[70104] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 40476,
+	link_id = 41270,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
@@ -174756,6 +174916,336 @@ _G.pg.base.item_data_statistics[70143] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70143,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70145] = {
+	display = "<color=#ff5c5c>8.23維護後道具將會刪除。 </color>可從「寶多六花」、「新條茜」、「南夢芽」、「飛鳥川千瀨」、「哈絲」與「奈美子」中自行選擇一位角色進行兌換。",
+	name = "「交匯世界的弧光」角色自選",
+	max_num = 0,
+	type = 13,
+	time_limit = 1,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/70145",
+	id = 70145,
+	display_icon = {
+		{
+			4,
+			10800011,
+			1
+		},
+		{
+			4,
+			10800021,
+			1
+		},
+		{
+			4,
+			10800051,
+			1
+		},
+		{
+			4,
+			10800061,
+			1
+		},
+		{
+			4,
+			10800031,
+			1
+		},
+		{
+			4,
+			10800041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70146] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅰ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70146,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70147] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅱ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70147,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70148] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅲ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70148,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70149] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅳ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70149,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70150] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅴ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70150,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70151] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅵ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70151,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70152] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅶ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70152,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70153] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅷ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70153,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70154] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅸ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70154,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70155] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅹ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70155,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70156] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱 ",
+	name = "塞壬情報Ⅺ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70156,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70157] = {
+	display = "活動「交匯世界的弧光·再現」的收集道具。集齊12個情報，可獲得紀念傢俱",
+	name = "塞壬情報Ⅻ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41270,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70157,
 	display_icon = {},
 	price = {},
 	index = {},

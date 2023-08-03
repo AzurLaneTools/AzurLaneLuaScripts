@@ -1547,6 +1547,12 @@ pg.ship_data_group = setmetatable({
 		[1080007] = {
 			10087
 		},
+		[1080008] = {
+			10088
+		},
+		[1080009] = {
+			10089
+		},
 		[1090001] = {
 			10091
 		},
@@ -2217,6 +2223,8 @@ pg.ship_data_group = setmetatable({
 		10085,
 		10086,
 		10087,
+		10088,
+		10089,
 		10091,
 		10092,
 		10093,
@@ -22075,7 +22083,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 526,
+		index_id = 527,
 		code = 524,
 		group_type = 90301,
 		trans_type = 0,
@@ -22107,7 +22115,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 527,
+		index_id = 528,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -22139,7 +22147,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 528,
+		index_id = 529,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -22182,7 +22190,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 529,
+		index_id = 530,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -22225,7 +22233,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 530,
+		index_id = 531,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -22270,7 +22278,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 531,
+		index_id = 532,
 		code = 555,
 		group_type = 90701,
 		trans_type = 0,
@@ -22302,7 +22310,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 532,
+		index_id = 533,
 		code = 571,
 		group_type = 960001,
 		trans_type = 0,
@@ -23050,6 +23058,70 @@ pg.base.ship_data_group = {
 			"D",
 			"D",
 			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：交匯世界的弧光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10088] = {
+		type = 10,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 108,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10088,
+		code = 10088,
+		group_type = 1080008,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"B",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：交匯世界的弧光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10089] = {
+		type = 19,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 108,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10089,
+		code = 10089,
+		group_type = 1080009,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
 		},
 		trans_radar_chart = {},
 		trans_skill = {},

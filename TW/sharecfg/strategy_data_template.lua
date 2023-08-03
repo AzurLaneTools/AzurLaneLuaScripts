@@ -166,7 +166,8 @@ pg.strategy_data_template = setmetatable({
 		200085,
 		200086,
 		200087,
-		200088
+		200088,
+		200511
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1858,6 +1859,16 @@ pg.base.strategy_data_template = {
 		id = 200088,
 		icon = "200088",
 		desc = "擁有強大的握力和推力的塞壬機械臂，還能發射灼熱的開採雷射——用來進行鍊金術素材的採集似乎是個不錯的選擇？",
+		arg = {}
+	},
+	[200511] = {
+		buff_id = 200511,
+		name = "古立特聯動復刻彈幕支援",
+		type = 10,
+		iconSize = "",
+		id = 200511,
+		icon = "",
+		desc = "不显示图标及说明",
 		arg = {}
 	}
 }

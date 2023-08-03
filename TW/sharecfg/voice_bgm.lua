@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "ssss-az-pv",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
 		bgm = "main"
@@ -100,13 +100,13 @@ pg.voice_bgm = {
 		default_bgm = "ssss-az-pv",
 		special_bgm = "",
 		time = "",
-		bgm = "login"
+		bgm = "ssss-1114A"
 	},
 	NewMainScene = {
 		default_bgm = "ssss-az-story",
 		special_bgm = "",
-		time = "stop",
-		bgm = "main"
+		time = "",
+		bgm = "Ssss-StrobeMemory"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -666,7 +666,7 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "ssss-1114A"
 	},
-	SSSSPTPage = {
+	SSSSPtPage = {
 		default_bgm = "ssss-az-story",
 		special_bgm = "",
 		time = "",

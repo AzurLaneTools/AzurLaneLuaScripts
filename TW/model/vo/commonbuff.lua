@@ -34,6 +34,10 @@ function slot0.ShipModExpUsage(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.SHIP_MOD_EXP
 end
 
+function slot0.BackyardEnergyUsage(slot0)
+	return slot0:getConfig("benefit_type") == BuffUsageConst.DORM_ENERGY
+end
+
 function slot0.GetRookieBattleExpMaxLevel(slot0)
 	return slot0:getConfig("benefit_condition")[3]
 end

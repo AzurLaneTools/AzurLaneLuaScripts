@@ -18437,7 +18437,7 @@ _G.pg.base.gametip.ssss_main_help = {
 		{
 			info = [[
 活動規則：
-<color=#92fc63>11.30-12.14</color>期間開啟限時活動「交匯世界的弧光」
+<color=#92fc63>8.3-8.17</color>期間開啟限時活動「交匯世界的弧光」
 1.通過特別作戰獲取「弧光結晶」，在「怪獸養成」和
 「補給商店」處兌換豐厚獎勵
 2.完成「激戰！古立特啾VS怪獸啾！」第七回可獲得
@@ -18673,7 +18673,7 @@ _G.pg.base.gametip.ssss_game_tip = {
 		{
 			info = [[
 活動規則：
-1.<color=#92fc63>12月6日</color>為止每日0點開放<color=#92fc63>1</color>回新的遊戲，總計<color=#92fc63>7</color>回，可累計。第1回至第7回完成後可以獲得外觀裝備箱（SSSS）*1及弧光結晶*150，第七回還可以獲得限定傢俱<color=#92fc63>「掛畫「都市激戰！」」</color>
+1.<color=#92fc63>8月9日</color>為止每日0點開放<color=#92fc63>1</color>回新的遊戲，總計<color=#92fc63>7</color>回，可累計。第1回至第7回完成後可以獲得外觀裝備箱（SSSS）*1及弧光結晶*150，第七回還可以獲得限定傢俱<color=#92fc63>「掛畫「都市激戰！」」</color>
 遊戲規則：
 1.指揮官可以點擊螢幕下方的方塊進行消除：消除單格方塊我方角色不會進行攻擊，也不會增加技能槽及ENERGY METER；消除大於等於兩格同色方塊我方角色會進行普通攻擊，同時會增加技能槽及ENERGY METER
 2.我方角色進行攻擊時會獲得積分
@@ -18686,13 +18686,13 @@ _G.pg.base.gametip.ssss_game_tip = {
 _G.pg.base.gametip.ssss_medal_tip = {
 	tip = {
 		{
-			info = "活動時間：<color=#92fc63>11.30-12.14</color>\n1.活動期間，參與活動收集「塞壬情報」，收集全部<color=#92fc63>12</color>個「塞壬情報」後可獲得限定傢俱<color=#92fc63>「SSSS紀念章」</color>"
+			info = "活動時間：<color=#92fc63>8.3-8.17</color>\n1.活動期間，參與活動收集「塞壬情報」，收集全部<color=#92fc63>12</color>個「塞壬情報」後可獲得限定傢俱<color=#92fc63>「SSSS紀念章」</color>"
 		},
 		{
 			info = "2.塞壬情報的獲取條件可以從茜的模型台活動介面中查看"
 		},
 		{
-			info = "3.領取時間截止12月20日23點59分"
+			info = "3.領取時間截止8月23日23點59分"
 		}
 	}
 }
@@ -23066,6 +23066,10 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "密語獎券不足，可前往功能道具商店進行購買"
 }
 
+_G.pg.base.gametip.collect_page_got = {
+	tip = "已獲得："
+}
+
 _G.pg.base.gametip.charge_menu_month_tip = {
 	tip = "目前貿易許可剩餘$1天，暫時無法購買"
 }
@@ -23116,4 +23120,12 @@ _G.pg.base.gametip.metaskill_up = {
 
 _G.pg.base.gametip.metaskill_overflow_tip = {
 	tip = "本次研習會溢出<color=#FFDE60>$1</color>經驗，是否繼續？"
+}
+
+_G.pg.base.gametip.msgbox_repair_cipher = {
+	tip = "修復密語"
+}
+
+_G.pg.base.gametip.msgbox_repair_title = {
+	tip = "訊息"
 }

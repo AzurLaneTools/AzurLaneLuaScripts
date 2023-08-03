@@ -8118,6 +8118,109 @@ pg.item_data_template = {
 			}
 		}
 	},
+	[30527] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop_appointed",
+		other_item_cost = "[]",
+		id = 30527,
+		compose_number = 0,
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				480,
+				1
+			},
+			{
+				9,
+				481,
+				1
+			},
+			{
+				9,
+				482,
+				1
+			},
+			{
+				9,
+				483,
+				1
+			},
+			{
+				9,
+				484,
+				1
+			},
+			{
+				9,
+				485,
+				1
+			},
+			{
+				9,
+				486,
+				1
+			},
+			{
+				9,
+				487,
+				1
+			},
+			{
+				9,
+				488,
+				1
+			},
+			{
+				9,
+				489,
+				1
+			},
+			{
+				9,
+				490,
+				1
+			},
+			{
+				9,
+				491,
+				1
+			},
+			{
+				9,
+				492,
+				1
+			},
+			{
+				9,
+				493,
+				1
+			},
+			{
+				9,
+				494,
+				1
+			},
+			{
+				9,
+				495,
+				1
+			},
+			{
+				9,
+				496,
+				1
+			},
+			{
+				9,
+				497,
+				1
+			}
+		}
+	},
 	[30900] = {
 		open_directly = 0,
 		display_effect = "",
@@ -20415,6 +20518,49 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[70145] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop_appointed",
+		other_item_cost = "[]",
+		id = 70145,
+		compose_number = 0,
+		target_id = 0,
+		usage_arg = {
+			{
+				4,
+				10800011,
+				1
+			},
+			{
+				4,
+				10800021,
+				1
+			},
+			{
+				4,
+				10800051,
+				1
+			},
+			{
+				4,
+				10800061,
+				1
+			},
+			{
+				4,
+				10800031,
+				1
+			},
+			{
+				4,
+				10800041,
+				1
+			}
+		}
+	},
 	[80002] = {
 		open_directly = 0,
 		display_effect = "",
@@ -21578,6 +21724,7 @@ pg.item_data_template = {
 		30520,
 		30521,
 		30522,
+		30527,
 		30900,
 		30911,
 		30912,
@@ -22534,6 +22681,7 @@ pg.item_data_template = {
 		61001,
 		70051,
 		70052,
+		70145,
 		80002,
 		80004,
 		80015,

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "41245",
+		param = "41267",
 		id = 1,
 		pic = "temp8",
 		type = 3,
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					3
+					17
 				},
 				{
 					23,
@@ -43,8 +43,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -56,7 +56,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -73,7 +73,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				activity = 41249,
+				activity = 41272,
 				page = 1
 			}
 		},
@@ -81,8 +81,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -94,7 +94,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					3
+					17
 				},
 				{
 					23,
@@ -106,35 +106,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "41240",
-		id = 4,
-		pic = "temp9",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4,
+		pic = "temp9"
 	},
 	{
 		id = 5,
@@ -160,8 +135,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -173,7 +148,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -210,7 +185,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -247,7 +222,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -259,35 +234,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "41247",
-		id = 9,
-		pic = "temp5",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 9,
+		pic = "temp5"
 	},
 	{
 		param = "45909",
@@ -330,8 +280,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -343,7 +293,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -369,8 +319,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					27
+					8,
+					3
 				},
 				{
 					0,
@@ -382,7 +332,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,

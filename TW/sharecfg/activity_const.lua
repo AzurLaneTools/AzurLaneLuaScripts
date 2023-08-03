@@ -817,10 +817,10 @@ pg.activity_const = {
 		act_id = 4109
 	},
 	SSSS_MAP_ACT_ID = {
-		act_id = 40472
+		act_id = 41267
 	},
 	SSSS_PT = {
-		act_id = 40475
+		act_id = 41269
 	},
 	MINIGAME_CURLING = {
 		act_id = 40981

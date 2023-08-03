@@ -511,15 +511,15 @@ function slot0.CreateLive2D(slot0)
 		slot0.l2dChar:Dispose()
 	end
 
-	slot1 = slot0.shipGroup
+	slot3 = nil
 	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
-			configId = slot1:getShipConfigId(),
+			configId = slot0.shipGroup:getShipConfigId(),
 			skin_id = slot0.skin.id,
 			propose = slot0.shipGroup.married
 		}),
 		scale = Vector3(52, 52, 52),
-		position = Vector3(0, -40, 100),
+		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
 		parent = slot0.l2dRoot
 	}), function ()
 		uv0.live2DBtn:SetEnable(true)

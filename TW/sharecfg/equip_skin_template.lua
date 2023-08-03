@@ -18716,6 +18716,301 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[800] = {
+		hit_sfx = "",
+		bullet_name = "zidan_gulitejiguang",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "古利特雷射子彈",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "古立特雷射充能完畢",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95211",
+		id = 800,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[801] = {
+		hit_sfx = "",
+		bullet_name = "paodan_yuanhuanguangren",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "古立特騎士光輪炮彈",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "嚐嚐古立特騎士的光輪！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95212",
+		id = 801,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_yuanhuanguangren_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[802] = {
+		hit_sfx = "",
+		bullet_name = "yulei_chongnengyulei",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "戴拿巨刃魚雷",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "仿照戴拿巨刃的外觀製造的魚雷",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95221",
+		id = 802,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[803] = {
+		hit_sfx = "",
+		bullet_name = "feiji_judayanlong",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "巨翼煌翼炎龍(魚雷)",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "仿照巨翼煌翼炎龍的外觀製造的飛機",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95231",
+		id = 803,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_chongnengyulei",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[804] = {
+		hit_sfx = "",
+		bullet_name = "feiji_judayanlong",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "巨翼煌翼炎龍(戰鬥)",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "仿照巨翼煌翼炎龍的外觀製造的飛機",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yuanhuanguangren",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95231",
+		id = 804,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[805] = {
+		hit_sfx = "",
+		bullet_name = "feiji_judayanlong",
+		orbit_ui_bound = "",
+		type = 2,
+		name = "巨翼煌翼炎龍(轟炸)",
+		orbit_combat = "",
+		themeid = 30,
+		desc = "仿照巨翼煌翼炎龍的外觀製造的飛機",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yuanhuanguangren",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		icon = "95231",
+		id = 805,
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[806] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "戴拿飛翼(設備)",
+		type = 2,
+		orbit_combat = "shebei_dainafeiyi",
+		themeid = 30,
+		mirror = 0,
+		desc = "仿照戴拿飛翼的外觀製造的設備",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_dainafeiyiui",
+		id = 806,
+		icon = "95241",
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.03,
+				-1.1,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				9,
+				-81
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		},
+		orbit_combat_anima_change = {
+			default = {
+				{
+					active = true,
+					node = "spine",
+					activate = false
+				}
+			},
+			change = {
+				{
+					{
+						active = true,
+						node = "spine",
+						activate = true
+					},
+					condition = {
+						type = 1,
+						param = {
+							">=0.4"
+						}
+					}
+				},
+				{
+					{
+						active = true,
+						node = "spine",
+						activate = false
+					},
+					condition = {
+						type = 1,
+						param = {
+							"<0.4"
+						}
+					}
+				}
+			}
+		}
+	},
 	[1200] = {
 		hit_sfx = "",
 		bullet_name = "zidan_baiyangtangguo",
@@ -21427,6 +21722,13 @@ pg.equip_skin_template = {
 		773,
 		774,
 		775,
+		800,
+		801,
+		802,
+		803,
+		804,
+		805,
+		806,
 		1200,
 		1201,
 		1202,

@@ -201,7 +201,9 @@ function slot0.addExp(slot0, slot1)
 		if slot0.level == slot2 then
 			slot0.fateLevel = 0
 		end
-	elseif slot0:canFateSimulation() then
+	end
+
+	if slot0:canFateSimulation() then
 		slot2 = slot0:getMaxFateLevel()
 
 		while slot0:canFateLevelUp() do
@@ -655,21 +657,33 @@ end
 function slot0.isShipModMaxLevel(slot0, slot1)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
-	if slot0:getStrengthenConfig(math.max(slot0.level, 1)).need_lv < slot0:getStrengthenConfig(math.min(slot0.level + 1, slot0:getMaxLevel())).need_lv and slot1.level < slot3.need_lv then
-		return true, slot3.need_lv
-	end
+	slot2 = slot0:getStrengthenConfig(math.min(slot0.level + 1, slot0:getMaxLevel()))
 
-	return false
+	if not slot0:isMaxLevel() and slot1.level < slot2.need_lv then
+		return true, slot2.need_lv
+	else
+		return false
+	end
 end
 
 function slot0.isShipModMaxFateLevel(slot0, slot1)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
-	if slot0:getFateStrengthenConfig(math.max(slot0.fateLevel, 1)).need_lv < slot0:getFateStrengthenConfig(math.min(slot0.fateLevel + 1, slot0:getMaxFateLevel())).need_lv and slot1.level < slot3.need_lv then
-		return true, slot3.need_lv
-	end
+	slot2 = slot0:getFateStrengthenConfig(math.min(slot0.fateLevel + 1, slot0:getMaxFateLevel()))
 
-	return false
+	if not slot0:isMaxFateLevel() and slot1.level < slot2.need_lv then
+		return true, slot2.need_lv
+	else
+		return false
+	end
+end
+
+function slot0.isShipModMaxIntensifyLevel(slot0, slot1)
+	if slot0:canFateSimulation() then
+		return slot0:isShipModMaxFateLevel(slot1)
+	else
+		return slot0:isShipModMaxLevel(slot1)
+	end
 end
 
 function slot0.getChangeSkillList(slot0)
@@ -724,7 +738,7 @@ function slot0.getUnlockItem(slot0)
 end
 
 function slot0.isPursuingCostTip(slot0)
-	return slot0:isPursuing() and slot0:isUnlock() and not slot0:isMaxIntensifyLevel() and getProxy(TechnologyProxy):calcPursuingCost(slot0, 1) == 0
+	return slot0:isPursuing() and slot0:isUnlock() and not slot0:isMaxIntensifyLevel() and not slot0:isShipModMaxIntensifyLevel(getProxy(BayProxy):getShipById(slot0.shipId)) and getProxy(TechnologyProxy):calcPursuingCost(slot0, 1) == 0
 end
 
 return slot0

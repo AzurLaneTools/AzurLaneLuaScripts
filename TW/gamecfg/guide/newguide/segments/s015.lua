@@ -39,7 +39,7 @@ return {
 				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/topItems/bottom_back/types/design",
+				path = "OverlayCamera/Overlay/UIMain/topItems/adapt/bottom_back/types/design",
 				pathIndex = -1,
 				triggerType = {
 					2

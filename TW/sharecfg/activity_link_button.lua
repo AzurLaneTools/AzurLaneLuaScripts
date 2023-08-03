@@ -10,31 +10,8 @@ pg.activity_link_button = {
 		pic = "event_all",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			41267
 		}
 	},
 	{
@@ -69,31 +46,7 @@ pg.activity_link_button = {
 		pic = "event_map",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default"
 		}
 	},
 	[20] = {
@@ -107,7 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4850
+			41263
 		}
 	},
 	[30] = {
@@ -202,17 +155,19 @@ pg.activity_link_button = {
 		}
 	},
 	[100] = {
-		param = "0",
-		name = "event_doa",
-		type = 0,
-		text_pic = "",
+		type = 2,
+		name = "event_medal",
+		text_pic = "text_event_medal",
 		id = 100,
 		group_id = 10,
-		pic = "event_doa",
+		pic = "event_medal",
 		order = 1,
 		time = {
 			"default",
-			4779
+			41270
+		},
+		param = {
+			"SSSS_MEDAL_COLLECTION"
 		}
 	},
 	get_id_list_by_name = {
@@ -246,7 +201,7 @@ pg.activity_link_button = {
 		event_series = {
 			90
 		},
-		event_doa = {
+		event_medal = {
 			100
 		}
 	},
