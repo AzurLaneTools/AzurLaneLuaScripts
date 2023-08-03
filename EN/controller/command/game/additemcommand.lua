@@ -203,6 +203,8 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot4 == 99 then
 			-- Nothing
+		elseif slot4 == 100 then
+			-- Nothing
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)

@@ -180,6 +180,25 @@ function slot0.isCipherExist(slot0, slot1)
 	return (slot0.group:CheckF(slot1) == DownloadState.None or slot2 == DownloadState.UpdateSuccess) and PathMgr.FileExists(PathMgr.getAssetBundle(slot1))
 end
 
+function slot0.Repair(slot0)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		hideYes = true,
+		content = i18n("resource_verify_warn"),
+		custom = {
+			{
+				text = i18n("msgbox_repair"),
+				onCallback = function ()
+					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-cipher.csv") then
+						uv0.group:StartVerifyForLua()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+					end
+				end
+			}
+		}
+	})
+end
+
 function slot0.clearTimer(slot0)
 	if slot0.frameTimer then
 		slot0.frameTimer:Stop()

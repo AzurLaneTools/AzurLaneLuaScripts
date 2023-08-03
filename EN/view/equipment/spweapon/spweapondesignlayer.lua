@@ -8,6 +8,18 @@ function slot0.SetCraftList(slot0, slot1)
 	slot0.craftList = slot1
 end
 
+function slot0.SetSpWeapons(slot0, slot1)
+	assert(slot0.craftList)
+
+	if slot0.craftList then
+		_.each(slot0.craftList, function (slot0)
+			slot0.owned = slot0:IsUnique() and table.Find(uv0, function (slot0, slot1)
+				return slot1:GetOriginID() == uv0:GetConfigID()
+			end) and true or false
+		end)
+	end
+end
+
 function slot0.setItems(slot0, slot1)
 	slot0.itemVOs = slot1
 end
@@ -19,10 +31,14 @@ end
 function slot0.init(slot0)
 	slot0.designScrollView = slot0:findTF("equipment_scrollview")
 	slot0.equipmentTpl = slot0:findTF("Template")
+
+	setActive(slot0.equipmentTpl, false)
+
 	slot0.equipmentContainer = slot0:findTF("equipment_grid", slot0.designScrollView)
 	slot1 = nil
 	slot0.equipmentContainer:GetComponent(typeof(GridLayoutGroup)).constraintCount = ((NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.designScrollView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2) and 8 or 7
 	slot0.top = slot0:findTF("top")
+	slot0.toggleOwned = slot0:findTF("toggle_owned")
 	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
@@ -54,6 +70,10 @@ function slot0.SetTopContainer(slot0, slot1)
 	slot0.topPanel = slot1
 end
 
+function slot0.SetTopItems(slot0, slot1)
+	slot0.topItems = slot1
+end
+
 slot1 = {
 	"sort_rarity"
 }
@@ -66,6 +86,7 @@ function slot0.didEnter(slot0)
 	slot0.contextData.index = slot0.contextData.index or 1
 
 	setParent(slot0.top, slot0.topPanel)
+	setParent(slot0.toggleOwned, slot0.topItems:Find("adapt/bottom_back"))
 	slot0:initDesigns()
 	onToggle(slot0, slot0.sortBtn, function (slot0)
 		setActive(uv0.indexPanel, slot0)
@@ -118,6 +139,15 @@ function slot0.didEnter(slot0)
 			end
 		})
 	end, SFX_PANEL)
+
+	slot0.contextData.showOwned = defaultValue(slot0.contextData.showOwned, false)
+
+	triggerToggle(slot0.toggleOwned, slot0.contextData.showOwned)
+	onToggle(slot0, slot0.toggleOwned, function (slot0)
+		uv0.contextData.showOwned = slot0
+
+		uv0:filter()
+	end)
 	slot0:initTags()
 end
 
@@ -224,7 +254,7 @@ function slot0.filter(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.craftList) do
-		if IndexConst.filterSpWeaponByType(slot7, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot7, slot0.contextData.indexDatas.rarityIndex) then
+		if IndexConst.filterSpWeaponByType(slot7, slot0.contextData.indexDatas.typeIndex) and IndexConst.filterSpWeaponByRarity(slot7, slot0.contextData.indexDatas.rarityIndex) and (slot0.contextData.showOwned or not slot7.owned) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -233,12 +263,16 @@ function slot0.filter(slot0)
 
 	slot0.filterCraftList = slot2
 
-	slot0.scollRect:SetTotalCount(#slot2, 0)
-	setActive(slot0.listEmptyTF, #slot2 <= 0)
-	Canvas.ForceUpdateCanvases()
+	slot0:UpdateCraftList()
 	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv1[slot0.contextData.index or 1]))
 	setActive(slot0.sortImgAsc, slot0.contextData.asc)
 	setActive(slot0.sortImgDec, not slot0.contextData.asc)
+end
+
+function slot0.UpdateCraftList(slot0)
+	slot0.scollRect:SetTotalCount(#slot0.filterCraftList)
+	setActive(slot0.listEmptyTF, #slot0.filterCraftList <= 0)
+	Canvas.ForceUpdateCanvases()
 end
 
 function slot0.onBackPressed(slot0)
@@ -254,6 +288,7 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
+	setParent(slot0.toggleOwned, slot0._tf)
 	setParent(slot0.top, slot0._tf)
 end
 

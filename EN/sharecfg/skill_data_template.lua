@@ -1004,6 +1004,8 @@ pg.skill_data_template = setmetatable({
 		16840,
 		16850,
 		16860,
+		16870,
+		16880,
 		18010,
 		18040,
 		18050,
@@ -1543,6 +1545,8 @@ pg.skill_data_template = setmetatable({
 		30062,
 		30071,
 		30072,
+		30081,
+		30082,
 		101010,
 		101020,
 		101030,
@@ -79812,6 +79816,299 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[16870] = {
+		desc_get = "",
+		name = "The Day of Glory Arrives",
+		id = 16870,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's SPD by 4 and EVA by $1 and decreases her DMG taken by $1. When this ship is attacked: 15.0% chance to deploy a barrier (lasts 8s; can negate up to $2 of this ship's HP in DMG; 20s cooldown between activations); when this barrier is destroyed or when it expires: fires a $3 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16880] = {
+		desc_get = "",
+		name = "Anthem of Beloved Freedom",
+		id = 16880,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. While this ship is afloat: increases your Iris Libre and Vichya Dominion ships' FP, TRP, AVI, and RLD by $2 and, every $3s, restores 1.0% of those ships' max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"40",
+				"20"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"40",
+					"-2"
+				},
+				{
+					"38",
+					"-2"
+				},
+				{
+					"36",
+					"-2"
+				},
+				{
+					"34",
+					"-2"
+				},
+				{
+					"32",
+					"-2"
+				},
+				{
+					"30",
+					"-2"
+				},
+				{
+					"28",
+					"-2"
+				},
+				{
+					"26",
+					"-3"
+				},
+				{
+					"23",
+					"-3"
+				},
+				{
+					"20"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -96413,6 +96710,34 @@ One of the following two effects apply based on what type of weapon this ship ha
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault II: Shimanto once every 10 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30081] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 30081,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Marseillaise once every 12 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30082] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		id = 30082,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Marseillaise once every 8 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -20,7 +20,7 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 50,
+					posX = -50,
 					posY = -50,
 					rotateX = 0,
 					rotateZ = 0,

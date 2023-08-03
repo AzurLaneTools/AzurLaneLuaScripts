@@ -19,6 +19,9 @@ function slot0.init(slot0)
 	slot0.equipmentView = slot0:findTF("ScrollView")
 	slot0.equipmentsGrid = slot0.equipmentView:Find("Viewport/Content/StoreHouse/Grid")
 	slot0.craftsGrid = slot0.equipmentView:Find("Viewport/Content/Craft/Grid")
+
+	setActive(slot0.equipmentView:Find("Template"), false)
+
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
@@ -40,11 +43,11 @@ function slot0.init(slot0)
 
 	setActive(slot0.filterBusyToggle, false)
 
-	slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
+	slot0.bottomBack = slot0:findTF("adapt/bottom_back", slot0.topItems)
 	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
 	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
 	slot0.tip = slot0.tipTF:Find("label")
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
+	slot0.helpBtn = slot0:findTF("adapt/help_btn", slot0.topItems)
 
 	setActive(slot0.helpBtn, true)
 
@@ -60,6 +63,7 @@ function slot0.init(slot0)
 	setText(slot0.equipmentView:Find("Viewport/Content/StoreHouse/Banner/Text"), i18n("spweapon_ui_storage"))
 
 	slot0.isEquipingOn = false
+	slot0.filterImportance = nil
 end
 
 function slot0.setEquipmentUpdate(slot0)

@@ -39340,34 +39340,34 @@ _G.pg.base.ship_skin_words[307025] = {
 _G.pg.base.ship_skin_words[307026] = {
 	feeling1 = "",
 	feeling3 = "",
-	lose = "",
+	lose = "Ugh... Should I have chosen another class?",
 	propose = "",
-	expedition = "",
-	win_mvp = "",
-	home = "",
+	expedition = "The girls from the commission fleet are back, huh? Let's go greet them after we wrap up this quest.",
+	win_mvp = "Did you underestimate me because I'm not a combat class? Hmph. Only dim-witted weaklings judge a book by its cover.",
+	home = "It'll be quite some while until the next town. Let's rest here for now.",
 	mission = "",
-	touch2 = "",
+	touch2 = "I don't remember ever using a Charm spell... *blushes*",
 	voice_key_2 = 0,
 	skill = "",
 	drop_descrip = "I came in expecting to play an assassin, but instead I'm a dancer. Did Akashi come up with this setting? Well, whatever... As long as I get to fight, there's nothing worth complaining about. Commander, hide behind me if you ever encounter a monster.",
 	mail = "",
-	touch = "",
+	touch = "Isn't it a bit too early to use my dances...?",
 	profile = "",
 	mission_complete = "",
 	feeling4 = "",
-	unlock = "",
-	feeling5 = "",
-	main = "nil|nil|nil",
-	battle = "",
+	unlock = "I came in expecting to play an assassin, but instead I'm a dancer. Did Akashi come up with this setting? Well, whatever... As long as I get to fight, there's nothing worth complaining about. Commander, hide behind me if you ever encounter a monster.",
+	feeling5 = "Naturally, I don't mind that you want to party up with me, but when it comes to fighting... No, it's nothing. With you around, I won't have to worry about forgetting what my role is. Now then, let's stay grouped until we clear this stage. Haha!",
+	main = "I have no problem supporting you and our other party members, but I still prefer getting into the thick of things on the front lines. Of course, I have allocated skill points for that already.|Ayanami, don't go charging in blindly just because I buffed you. Let me use some techniques and tricks to throw the enemies off first. Understood?|*sigh*... You can't upgrade your equipment because you keep wasting your resources. I'll help you out– want to tackle this quest first?",
+	battle = "You shall become my strengthening materials!",
 	upgrade = "",
 	voice_key = 0,
 	headtouch = "",
 	feeling2 = "",
-	login = "",
+	login = "Let's go. More training is required before we can take on the next dungeon.",
 	vote = "",
 	hp_warning = "",
 	id = 307026,
-	detail = "",
+	detail = "Dancing practice? Yes, I've been working at it behind the scenes. Heheh, it's always satisfying burying my enemies in-between dance steps. Do look forward to my performance, Commander.",
 	couple_encourage = {}
 }
 
@@ -57758,6 +57758,115 @@ _G.pg.base.ship_skin_words[902013] = {
 	hp_warning = "",
 	id = 902013,
 	detail = "Sure are a lot of cat lovers around here. Algérie, Richelieu... Are you one too, Commander?",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[902020] = {
+	feeling1 = "Commander, you are the last person I wish to consider an enemy... Please repent, and be born anew.",
+	feeling3 = "Both Iris Libre and the Vichya Dominion were once parts of the same Iris Orthodoxy... Here, at this port, my friends are able to come together once more. Thank you so much, Commander.",
+	lose = "Bitter... defeat... I am sorry to have let you down.",
+	propose = "I, the fighting angel Marseillaise, swear upon this blade: as long as I still draw breath, I will protect my beloved Commander from all enemies, and punish all those who seek to harm us in the name of the Holy Iris.",
+	expedition = "Commission complete. A hard-fought victory... Hmm? Did you not risk life and limb to seize these from the enemy?",
+	win_mvp = "The Iris's sacred blade annihilates all who would oppose the Orthodoxy.",
+	home = "So this is how you raise the morale of your troops... I would expect nothing less of my Commander.",
+	mission = "A new mission? There has to be something I can do to help, right...",
+	touch2 = "Hmm? Commander? I'm not sure I understand the meaning of this...",
+	voice_key_2 = -1,
+	skill = "Marchons!",
+	drop_descrip = "La Galissonnière-class light cruiser – Marseillaise.",
+	mail = "You have mail, Commander. Shall I open it up using my blade?",
+	touch = "For justice, peace, and the Holy Iris, I shall carry out your will.",
+	profile = "I am La Galissonnière-class light cruiser Marseillaise, the Iris's fighting angel. I feel no fatigue, fear no pain, and swing my blade only to uphold peace and justice. I am resolute in my belief that one day, all unrighteousness in the world shall be vanquished.",
+	mission_complete = "Mission complete. I shall escort you as you go to retrieve the rewards.",
+	feeling4 = "I hardly know anything that does not pertain to fighting... I'd appreciate it if you could instruct me, but... where would I even start? Umm, I don't even have much experience in being taught...",
+	unlock = "I am Marseillaise, fighting angel of Iris Orthodoxy. Speak to me your orders, Commander.",
+	feeling5 = "S-sincerest apologies. I've caused you nothing but trouble since my arrival... But despite that, I've never had so much fun before. If at all possible... I'd like these times to continue forever.",
+	main = "Sincerest apologies. Though I may be your secretary ship, I am unable to assist in your sacred charge... If only I possessed skills outside of combat...|La Galissonnière? Sure, she can be a bit of a pain at times... but it doesn't matter. That Tribunal girl is no match for the fighting angel.|Is the R&D department busy right now? I suppose it'll have to wait until next time then... Oh, it's nothing. I simply wanted to ask for some advice.",
+	battle = "All those who would oppose the Orthodoxy... must be eradicated.",
+	upgrade = "Peace and justice are sacred duties that cannot be accomplished through ideals alone.",
+	voice_key = 90202,
+	headtouch = "",
+	feeling2 = "I hope that I may become a source of inspiration for my compatriots, just as the name bestowed upon me implies. Raising the banner, standing on the front lines, cleaving a path forward– Heeding the will of the divine, I shall lead us to victory.",
+	login = "I, the fighting angel Marseillaise, await my Commander's arrival.",
+	vote = "",
+	hp_warning = "I shall uphold my sacred duties, until the very end!",
+	id = 902020,
+	detail = "An awe-inspiring melody can inspire soldiers to carry out their sacred duties. Commander, I would like to bring this song to the battlefield– Oh, um... Actually, do you find the fact that my rigging can play music strange, by any chance?",
+	couple_encourage = {
+		{
+			{
+				90201
+			},
+			1,
+			" Please, La Galissonnière, show some more dignity!",
+			0
+		},
+		{
+			{
+				80501
+			},
+			1,
+			" It is an honor to stand alongside the Cardinal.",
+			0
+		},
+		{
+			{
+				90701
+			},
+			1,
+			" I'll leave the other half of enemies to you, let's wrap up this battle swiftly!",
+			0
+		},
+		{
+			{
+				80202
+			},
+			1,
+			" La Pucelle, let us both fight for the Iris Orthodoxy!",
+			0
+		},
+		{
+			{
+				49902
+			},
+			1,
+			" So, you stand with the Iris Orthodoxy this time...",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[902021] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "Phew. May the Holy Iris bless you–",
+	home = "Umm, maybe like this... Eek?! ...Oh, Commander, thank you very much. You've completed another one of your sacred trials of combat, yes?",
+	mission = "",
+	touch2 = "Even though you're helping me... Nngh... This is still difficult...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Alright, aim at this part of the ball, and drop my hips... Nngh?! I, I'm alright! The fighting angel, Marseillaise, will not be defeated by this... Hyeep?!",
+	mail = "",
+	touch = "Phew... Sorry, I'll go wipe off my sweat now...",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Alright, aim at this part of the ball, and drop my hips... Nngh?! I, I'm alright! The fighting angel, Marseillaise, will not be defeated by this... Hyeep?!",
+	feeling5 = "",
+	main = "If only I could spread these wings, those mistakes could've been avoidable– Hmm? That doesn't count as training? I understand...|Hmm... Commander, how does this look? Umm, if you could give me some tips on how to improve my posture...|Many of my friends listen to music while working out. Haha, I really want to ask around and see what they're listening to.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Are we going to train together again today? I do hope I'm not inconveniencing you, Commander...",
+	vote = "",
+	hp_warning = "",
+	id = 902021,
+	detail = "I cannot strictly rely on my rigging to fight; I must also train my body to respond to various situations, just as you said.",
 	couple_encourage = {}
 }
 

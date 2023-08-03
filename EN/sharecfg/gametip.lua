@@ -22300,5 +22300,15 @@ cs.gametip = {
 		845031,
 		163,
 		true
+	},
+	msgbox_repair_cipher = {
+		845194,
+		101,
+		true
+	},
+	msgbox_repair_title = {
+		845295,
+		89,
+		true
 	}
 }

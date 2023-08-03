@@ -213,7 +213,8 @@ pg.ship_skin_words_extra = setmetatable({
 		499080,
 		999020,
 		10800090,
-		10800080
+		10800080,
+		902020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14711,6 +14712,69 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Because of our duties, our meeting is a once-in-a-lifetime blessing. I've accepted that by now, but... right now, the thought of it makes me so sad."
+			}
+		}
+	},
+	[902020] = {
+		unlock = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		feeling4 = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 902020,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Commander. I've already prepared the tea... Huh? Wasn't I supposed to pour the leaves into the cup? I thought it would be best to fill it up as much as possible..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, how are you able to inspire our friends to such an extent? Every time we go on a sortie, I find myself thinking about it."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Affixing your stamp here signifies your approval, right? In that case... Umm, does multiple stamps signify strong approval?|If we were to further retrofit this rigging and amplify the volume... Alright, let's give it a try right now!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You want me to fold you within my wings...?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"So, it's possible to open the letter without using my blade after all... I understand now."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I don't quite understand, but... if it pleases you, that makes me glad..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"For someone like me who knows nothing outside of battle, being able to experience so many different things... makes me truly happy whenever we do things together, Commander. Might this be... true love?"
 			}
 		}
 	}

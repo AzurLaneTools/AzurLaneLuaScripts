@@ -22,6 +22,13 @@ function slot0.Ctor(slot0, slot1)
 	setText(slot0.tf:Find("mask/tag/unexchange_tag"), i18n("meta_shop_exchange_limit"))
 	setText(slot0.tf:Find("mask/tag/unexchange_tag/sellout_tag_en"), "LIMIT")
 	removeAllChildren(slot0.tf:Find("item/icon_bg/stars"))
+
+	slot2 = slot0.tf:Find("item/icon_bg/icon")
+	slot2.offsetMin = Vector2(2, 2)
+	slot2.offsetMax = Vector2(-2, -2)
+	slot3 = slot0.tf:Find("item/icon_bg/frame")
+	slot3.offsetMin = Vector2(0, 0)
+	slot3.offsetMax = Vector2(0, 0)
 end
 
 function slot0.Dispose(slot0)

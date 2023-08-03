@@ -39,7 +39,9 @@ function slot0.SetState(slot0, slot1)
 	end)
 
 	if slot1 == CourtYardFurniture.STATE_IDLE then
-		slot0:PlayMaskAction(slot2)
+		for slot7, slot8 in ipairs(slot0.maskSpineAnimUIs) do
+			slot8:SetAction(slot2, 0)
+		end
 	end
 end
 
@@ -54,16 +56,34 @@ function slot0._PlayAction(slot0, slot1, slot2, slot3)
 end
 
 function slot0.PlayInteractioAnim(slot0, slot1)
-	slot0:PlayMaskAction(slot1)
-	slot0:_PlayAction(slot1, false, function ()
+	parallelAsync({
+		function (slot0)
+			uv0:PlayMaskAction(uv1, slot0)
+		end,
+		function (slot0)
+			uv0:_PlayAction(uv1, false, slot0)
+		end
+	}, function ()
 		uv0:OnAnimtionFinish(CourtYardFurniture.STATE_INTERACT)
 	end)
 end
 
-function slot0.PlayMaskAction(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.maskSpineAnimUIs) do
-		slot6:SetAction(slot1, 0)
+function slot0.PlayMaskAction(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.maskSpineAnimUIs) do
+		table.insert(slot3, function (slot0)
+			uv0:SetActionCallBack(function (slot0)
+				if slot0 == "finish" then
+					uv0:SetActionCallBack(nil)
+					uv1()
+				end
+			end)
+			uv0:SetAction(uv1, 0)
+		end)
 	end
+
+	parallelAsync(slot3, slot2)
 end
 
 function slot0.Dispose(slot0)

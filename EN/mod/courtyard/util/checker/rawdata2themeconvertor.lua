@@ -58,7 +58,7 @@ function slot3(slot0, slot1, slot2)
 		end
 	elseif slot0 > 10000000 then
 		for slot8 = 0, slot4 - 1 do
-			if slot1 * 10000000 + 1 == slot0 then
+			if slot1 * 10000000 + slot8 == slot0 then
 				return true
 			end
 		end

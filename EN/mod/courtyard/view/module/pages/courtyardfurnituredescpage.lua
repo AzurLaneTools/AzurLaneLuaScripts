@@ -66,7 +66,7 @@ function slot0.Show(slot0, slot1)
 	end)
 
 	slot0.nameTxt.text = shortenString(slot1:GetName(), 6)
-	slot0.dateTxt.text = slot1:GetAddDate()
+	slot0.dateTxt.text = getProxy(DormProxy):getRawData():GetFurniture(slot1.configId) and slot4:getDate() or slot1:GetAddDate()
 	slot0.comtableTxt.text = "+" .. slot1:GetComfortable()
 	slot0.contentTxt.text = slot1:GetDescription()
 	slot0.approachTxt.text = slot1:GetAddMode()
@@ -74,10 +74,10 @@ function slot0.Show(slot0, slot1)
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot4 = slot1:IsType(Furniture.TYPE_LUTE)
+	slot5 = slot1:IsType(Furniture.TYPE_LUTE)
 
-	setActive(slot0.approachTxt.gameObject.transform.parent, not slot4)
-	setActive(slot0.dateTxt.gameObject.transform.parent, not slot4)
+	setActive(slot0.approachTxt.gameObject.transform.parent, not slot5)
+	setActive(slot0.dateTxt.gameObject.transform.parent, not slot5)
 end
 
 function slot0.Close(slot0)

@@ -40,6 +40,7 @@ require("Mgr/FileDownloadMgr")
 require("Mgr/MainGroupMgr")
 require("Mgr/CipherGroupMgr")
 require("Mgr/BgmMgr")
+require("Mgr/RepairResMgr")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

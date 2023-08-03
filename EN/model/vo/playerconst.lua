@@ -58,7 +58,7 @@ end
 
 slot2 = nil
 
-function slot3(slot0, slot1)
+function slot3(slot0, slot1, slot2)
 	uv0 = uv0 or {
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			slot1 = pg.drop_data_restore[slot0.id]
@@ -96,14 +96,14 @@ function slot3(slot0, slot1)
 				})
 			}
 		end,
-		[DROP_TYPE_VITEM] = function (slot0)
+		[DROP_TYPE_VITEM] = function (slot0, slot1, slot2)
 			assert(Item.New({
 				type = slot0.type,
 				id = slot0.id,
 				count = slot0.number or slot0.count
-			}):getConfig("type") == 0, "item type error:must be virtual type from " .. slot1.id)
+			}):getConfig("type") == 0, "item type error:must be virtual type from " .. slot3.id)
 
-			return switch(slot1:getConfig("virtual_type"), {
+			return switch(slot3:getConfig("virtual_type"), {
 				function ()
 					if uv0:getConfig("link_id") == ActivityConst.LINLK_DUNHUANG_ACT then
 						return {
@@ -112,17 +112,17 @@ function slot3(slot0, slot1)
 					end
 				end,
 				[6] = function ()
-					slot0 = extendInfo.taskId
+					slot0 = uv0.taskId
 
 					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
 						slot3 = slot2.data1KeyValueList[1]
-						slot3[slot0] = defaultValue(slot3[slot0], 0) + uv0.count
+						slot3[slot0] = defaultValue(slot3[slot0], 0) + uv1.count
 
 						slot1:updateActivity(slot2)
 					end
 
 					return {
-						[2] = uv0
+						[2] = uv1
 					}
 				end,
 				[13] = function ()
@@ -211,7 +211,7 @@ function slot3(slot0, slot1)
 		end
 	}
 
-	return unpack(switch(slot0.type, uv0, nil, slot0, slot1) or {
+	return unpack(switch(slot0.type, uv0, nil, slot0, slot1, slot2) or {
 		Item.New({
 			type = slot0.type,
 			id = slot0.id,
@@ -231,7 +231,7 @@ function slot0.addTranDrop(slot0, slot1)
 	end
 
 	for slot8, slot9 in ipairs(slot0) do
-		slot10, slot11 = uv0(slot9, slot4)
+		slot10, slot11 = uv0(slot9, slot4, slot1)
 
 		if slot10 then
 			table.insert(slot2, slot10)

@@ -316,6 +316,7 @@ pg.expedition_data_by_map = setmetatable({
 		1720012,
 		1720025,
 		1720026,
+		1730001,
 		2100000,
 		2100001,
 		2100010,
@@ -14515,6 +14516,50 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1720012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1730001] = {
+		map = 1730001,
+		name = "Anthem of Remembrance|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		enter_story = "ZOUXIANGYUANWEIZHIGE1",
+		ani_name = "Map_1730001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4940,
+		ui_type = 1,
+		bg = "Map_1730001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
 		clouds_pos = {
 			{
 				332,

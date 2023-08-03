@@ -2520,6 +2520,25 @@ function temp()
 						}
 					}
 				},
+				s = {
+					e = {
+						i = {
+							l = {
+								l = {
+									a = {
+										i = {
+											s = {
+												e = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
 				i = {
 					e = {
 						[" "] = {
@@ -5401,7 +5420,18 @@ function temp()
 						a = {
 							z = {
 								e = {
-									this = true
+									this = true,
+									[" "] = {
+										M = {
+											E = {
+												T = {
+													A = {
+														this = true
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}

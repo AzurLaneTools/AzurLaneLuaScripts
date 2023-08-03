@@ -4479,7 +4479,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>6/8/23 to 8/30/23</color>, challenge Algérie META
+From <color=#92fc63>6/8/23 to 8/31/23</color>, challenge Algérie META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Algérie META</color> as well
 as other great rewards.
@@ -24855,4 +24855,12 @@ _G.pg.base.gametip.metaskill_up = {
 
 _G.pg.base.gametip.metaskill_overflow_tip = {
 	tip = "<color=#FFDE60>$1</color> EXP will go over the cap. Do you want to continue?"
+}
+
+_G.pg.base.gametip.msgbox_repair_cipher = {
+	tip = "Redownload Assets"
+}
+
+_G.pg.base.gametip.msgbox_repair_title = {
+	tip = "Notice"
 }

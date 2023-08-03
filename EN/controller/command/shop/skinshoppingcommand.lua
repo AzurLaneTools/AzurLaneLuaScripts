@@ -18,7 +18,7 @@ function slot0.execute(slot0, slot1)
 
 	slot7 = getProxy(ShopsProxy):getShopStreet()
 	slot8 = false
-	slot9 = consume == -1 and slot5.resource_num or slot5.resource_num * slot4
+	slot9 = slot5.resource_num * slot4
 	slot11 = getProxy(PlayerProxy):getData()
 
 	if slot5.limit_args then

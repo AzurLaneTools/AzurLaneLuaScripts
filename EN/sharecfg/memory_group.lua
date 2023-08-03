@@ -148,6 +148,7 @@ pg.memory_group = setmetatable({
 		248,
 		249,
 		250,
+		251,
 		501,
 		502,
 		503,
@@ -3497,6 +3498,26 @@ pg.base.memory_group = {
 			2801,
 			2802,
 			2803
+		}
+	},
+	[251] = {
+		id = 251,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4940,
+		title = "Anthem of Remembrance",
+		memories = {
+			2820,
+			2821,
+			2822,
+			2823,
+			2824,
+			2825,
+			2826,
+			2827,
+			2828,
+			2829
 		}
 	},
 	[501] = {

@@ -29332,6 +29332,18 @@ pg.item_data_template = {
 			}
 		}
 	},
+	[99958] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 99958,
+		compose_number = 0,
+		target_id = 0
+	},
 	[99960] = {
 		open_directly = 0,
 		display_effect = "",
@@ -31634,6 +31646,7 @@ pg.item_data_template = {
 		61001,
 		69959,
 		70145,
+		99958,
 		99960,
 		99961,
 		99962,

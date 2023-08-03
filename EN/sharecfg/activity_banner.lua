@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4932",
+		param = "4941",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -47,8 +47,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -82,8 +82,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -95,7 +95,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -106,21 +106,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4947",
 		id = 4,
 		pic = "temp4",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -132,7 +127,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -147,14 +142,17 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -166,7 +164,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -179,37 +177,12 @@ pg.activity_banner = {
 	{
 		id = 6,
 		pic = "temp6",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -269,22 +242,15 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		time = "stop",
-		type = 9,
 		id = 90,
-		pic = "temp98"
-	},
-	[91] = {
-		param = "",
-		id = 91,
 		pic = "temp99",
 		type = 9,
 		time = {
 			{
 				{
 					2023,
-					7,
-					20
+					8,
+					3
 				},
 				{
 					0,
@@ -296,7 +262,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					2
+					16
 				},
 				{
 					23,
@@ -305,6 +271,13 @@ pg.activity_banner = {
 				}
 			}
 		}
+	},
+	[91] = {
+		param = "",
+		time = "stop",
+		type = 9,
+		id = 91,
+		pic = "temp98"
 	},
 	[95] = {
 		param = "",
@@ -315,35 +288,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					7,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -369,12 +317,12 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			4,
 			9
 		},
 		[2] = {
 			2,
 			3,
-			4,
 			5,
 			6,
 			7,

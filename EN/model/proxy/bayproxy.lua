@@ -148,6 +148,10 @@ function slot0.recoverAllShipEnergy(slot0)
 				slot11 = slot11 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
+			for slot16, slot17 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+				slot11 = slot11 + tonumber(slot17:getConfig("benefit_effect"))
+			end
+
 			slot12 = slot2
 		end
 

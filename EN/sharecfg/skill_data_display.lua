@@ -1490,6 +1490,11 @@ pg.skill_data_display = setmetatable({
 		16852,
 		16863,
 		16864,
+		16870,
+		16871,
+		16872,
+		16880,
+		16881,
 		18010,
 		18040,
 		18041,
@@ -2048,6 +2053,8 @@ pg.skill_data_display = setmetatable({
 		30053,
 		30071,
 		30072,
+		30081,
+		30082,
 		39000,
 		39001,
 		39002,
@@ -8586,6 +8593,26 @@ pg.base.skill_data_display = {
 		id = 16864,
 		name = "Princess of the Fairytale Kingdom"
 	},
+	[16870] = {
+		id = 16870,
+		name = "The Day of Glory Arrives"
+	},
+	[16871] = {
+		id = 16871,
+		name = "The Day of Glory Arrives"
+	},
+	[16872] = {
+		id = 16872,
+		name = "The Day of Glory Arrives"
+	},
+	[16880] = {
+		id = 16880,
+		name = "Anthem of Beloved Freedom"
+	},
+	[16881] = {
+		id = 16881,
+		name = "Anthem of Beloved Freedom"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -10816,6 +10843,14 @@ pg.base.skill_data_display = {
 	},
 	[30072] = {
 		id = 30072,
+		name = "All Out Assault II"
+	},
+	[30081] = {
+		id = 30081,
+		name = "All Out Assault I"
+	},
+	[30082] = {
+		id = 30082,
 		name = "All Out Assault II"
 	},
 	[39000] = {

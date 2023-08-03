@@ -10,6 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot2 = slot0.tr
 	slot0.selloutTag = slot2:Find("mask/tag/sellout_tag")
 
+	setActive(slot0.selloutTag, true)
 	setText(slot0.selloutTag, i18n("common_sale_out"))
 
 	slot2 = slot0.tr

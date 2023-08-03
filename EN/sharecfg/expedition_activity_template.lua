@@ -6736,6 +6736,36 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1730013] = {
+		id = 1730013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4940,
+				361
+			}
+		}
+	},
+	[1731013] = {
+		id = 1731013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4940,
+				361
+			}
+		}
+	},
+	[1732013] = {
+		id = 1732013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4940,
+				361
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -7709,6 +7739,9 @@ pg.expedition_activity_template = {
 		1729003,
 		1729004,
 		1729005,
+		1730013,
+		1731013,
+		1732013,
 		3000013,
 		3000113,
 		3000213,

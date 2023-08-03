@@ -171,7 +171,8 @@ end
 function slot0.updateAttrItem(slot0, slot1, slot2)
 	slot3 = slot0:findTF("LockPanel", slot1)
 	slot4 = slot0:findTF("UnSelectPanel", slot1)
-	slot5 = slot0:findTF("SelectedPanel", slot1)
+
+	GetComponent(slot0:findTF("TitleImg", slot0:findTF("SelectedPanel", slot1)), "Image"):SetNativeSize()
 
 	if slot0.curMetaCharacterVO:getAttrVO(slot2):isLock() then
 		setActive(slot4, false)
@@ -180,56 +181,56 @@ function slot0.updateAttrItem(slot0, slot1, slot2)
 
 		slot1:GetComponent("Toggle").interactable = false
 	else
-		slot8 = slot1:GetComponent("Toggle")
+		slot9 = slot1:GetComponent("Toggle")
 
-		setActive(slot4, not slot8.isOn)
-		setActive(slot5, slot8.isOn)
+		setActive(slot4, not slot9.isOn)
+		setActive(slot5, slot9.isOn)
 		setActive(slot3, false)
 
-		slot8.interactable = true
-		slot12 = slot0:findTF("AttrRepairValue/Image", slot5)
-		slot13 = slot0:findTF("AttrRepairValue/NextValueText", slot5)
-		slot14 = slot0:findTF("IconTpl", slot5)
-		slot16 = slot0:findTF("NumText", slot0:findTF("ItemCount", slot5))
-		slot17 = slot6:getAddition()
+		slot9.interactable = true
+		slot13 = slot0:findTF("AttrRepairValue/Image", slot5)
+		slot14 = slot0:findTF("AttrRepairValue/NextValueText", slot5)
+		slot15 = slot0:findTF("IconTpl", slot5)
+		slot17 = slot0:findTF("NumText", slot0:findTF("ItemCount", slot5))
+		slot18 = slot7:getAddition()
 
-		setText(slot0:findTF("ValueText", slot4), "+" .. slot17)
-		setText(slot0:findTF("ValueText", slot5), "+" .. slot17)
-		setText(slot0:findTF("AttrRepairValue/CurValueText", slot5), "+" .. slot17)
+		setText(slot0:findTF("ValueText", slot4), "+" .. slot18)
+		setText(slot0:findTF("ValueText", slot5), "+" .. slot18)
+		setText(slot0:findTF("AttrRepairValue/CurValueText", slot5), "+" .. slot18)
 
-		slot20 = nil
-		slot20 = (slot6:isMaxLevel() or slot6:getItem()) and slot6:getItemByLevel(slot6:getLevel() - 1)
+		slot21 = nil
+		slot21 = (slot7:isMaxLevel() or slot7:getItem()) and slot7:getItemByLevel(slot7:getLevel() - 1)
 
-		if getProxy(BagProxy):getItemCountById(slot20:getItemId()) < slot20:getTotalCnt() then
-			slot23 = setColorStr(slot23, COLOR_RED)
+		if getProxy(BagProxy):getItemCountById(slot21:getItemId()) < slot21:getTotalCnt() then
+			slot24 = setColorStr(slot24, COLOR_RED)
 		end
 
-		setText(slot16, slot23 .. "/" .. slot22)
-		updateDrop(slot14, {
+		setText(slot17, slot24 .. "/" .. slot23)
+		updateDrop(slot15, {
 			type = DROP_TYPE_ITEM,
-			id = slot21,
-			count = slot22
+			id = slot22,
+			count = slot23
 		}, {
 			hideName = true
 		})
-		onButton(slot0, slot14, function ()
+		onButton(slot0, slot15, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
-		setActive(slot12, not slot19)
-		setActive(slot13, not slot19)
+		setActive(slot13, not slot20)
+		setActive(slot14, not slot20)
 
-		if slot19 then
-			setText(slot13, slot17)
+		if slot20 then
+			setText(slot14, slot18)
 		else
-			setText(slot13, "+" .. slot17 + slot20:getAdditionValue())
+			setText(slot14, "+" .. slot18 + slot21:getAdditionValue())
 		end
 
-		if slot19 then
-			setActive(slot14, false)
+		if slot20 then
 			setActive(slot15, false)
+			setActive(slot16, false)
 		else
-			setActive(slot14, true)
 			setActive(slot15, true)
+			setActive(slot16, true)
 		end
 	end
 end
