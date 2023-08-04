@@ -229,7 +229,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701031] = {
-		breakout_view = "Unlock Flickering Smoldering Core – Hatakaze/Torpedo efficiency +5%",
+		breakout_view = "Unlock Smoldering Core – Hatakaze/Torpedo efficiency +5%",
 		gold = 500,
 		breakout_id = 9701032,
 		repair = 0,

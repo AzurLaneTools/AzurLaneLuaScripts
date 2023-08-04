@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "It's not worth losing your life over. Remember, if at any point, you are forced to choose between it and your life, I want you to choose the former without hesitation.",
+			say = "It's not worth losing your life over. Remember, if at any point, you are forced to choose between it and your life, I want you to choose the latter without hesitation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
