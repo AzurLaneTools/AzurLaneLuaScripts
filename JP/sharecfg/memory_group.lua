@@ -3682,7 +3682,7 @@ pg.base.memory_group = {
 	},
 	[251] = {
 		id = 251,
-		subtype = 2,
+		subtype = 1,
 		icon = "title_event",
 		type = 2,
 		link_event = 4940,
