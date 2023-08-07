@@ -30,7 +30,7 @@ function slot0.execute(slot0, slot1)
 
 	slot11:addExp(slot3 * slot6:getItemExp())
 
-	if getProxy(BayProxy):getShipById(slot6.shipId).level < (slot11.fateLevel > 0 and slot11:getFateStrengthenConfig(slot11.fateLevel) or slot11:getStrengthenConfig(slot11.level)).need_lv then
+	if getProxy(BayProxy):getShipById(slot6.shipId).level < (slot11.fateLevel > 0 and slot11:getFateStrengthenConfig(slot11.fateLevel) or slot11:getStrengthenConfig(math.max(slot11.level, 1))).need_lv then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("buleprint_need_level_tip", slot14.need_lv))
 
 		return
