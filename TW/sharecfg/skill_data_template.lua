@@ -93098,7 +93098,7 @@ pg.base.skill_data_template = {
 		id = 108310,
 		type = 3,
 		max_level = 10,
-		desc = "自身航空屬性提高$1，戰鬥中每20秒，發動一輪特殊攻擊$2（威力依據技能等級及航空屬性），並為一名先鋒艦隊成員回复$3耐久",
+		desc = "自身航空屬性提高$1，戰鬥中每20秒，發動一輪特殊攻擊$2（威力依據技能等級及航空屬性），並為一名先鋒艦隊成員回復$3耐久",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -93351,7 +93351,7 @@ pg.base.skill_data_template = {
 	},
 	[108330] = {
 		desc_get = "",
-		name = "約定、愛與保質期",
+		name = "約定、愛與保存期限",
 		id = 108330,
 		type = 3,
 		max_level = 10,

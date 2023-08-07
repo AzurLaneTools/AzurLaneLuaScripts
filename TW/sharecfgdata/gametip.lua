@@ -8565,11 +8565,11 @@ $3]]
 }
 
 _G.pg.base.gametip.extra_chapter_record_updated = {
-	tip = "記錄更新"
+	tip = "紀錄更新"
 }
 
 _G.pg.base.gametip.extra_chapter_record_not_updated = {
-	tip = "記錄未更新"
+	tip = "紀錄未更新"
 }
 
 _G.pg.base.gametip.extra_chapter_locked_tip = {
