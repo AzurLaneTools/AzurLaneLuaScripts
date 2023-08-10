@@ -291,7 +291,7 @@ pg.activity_template = {
 				{
 					2023,
 					8,
-					31
+					30
 				},
 				{
 					23,
