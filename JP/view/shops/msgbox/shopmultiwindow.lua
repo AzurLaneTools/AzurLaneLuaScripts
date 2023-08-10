@@ -5,20 +5,20 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.topItem = slot0:findTF("item")
+	slot0.topItem = slot0:findTF("item/panel_bg")
+	slot0.ownerTF = slot0.topItem:Find("left/own")
+	slot0.detailTF = slot0.topItem:Find("left/detail")
+	slot0.nameTF = slot0.topItem:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
+	slot0.descTF = slot0.topItem:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
+	slot0.timeLimitTF = slot0.topItem:Find("time_limit")
 	slot0.bottomItem = slot0:findTF("got/panel_bg/list/item")
+	slot0.itemCountTF = slot0.bottomItem:Find("icon_bg/count"):GetComponent(typeof(Text))
 	slot0.maxBtn = slot0:findTF("count/max")
 	slot0.leftBtn = slot0:findTF("count/number_panel/left")
 	slot0.rightBtn = slot0:findTF("count/number_panel/right")
-	slot0.nameTF = slot0:findTF("item/display_panel/name_container/name"):GetComponent(typeof(Text))
-	slot0.descTF = slot0:findTF("item/display_panel/desc/Text"):GetComponent(typeof(Text))
-	slot0.itemCountTF = slot0:findTF("icon_bg/count", slot0.bottomItem):GetComponent(typeof(Text))
 	slot0.countTF = slot0:findTF("count/number_panel/value"):GetComponent(typeof(Text))
-	slot0.ownerTF = slot0:findTF("icon_bg/own/Text", slot0.topItem)
-	slot0.ownerLabelTF = slot0:findTF("icon_bg/own/label", slot0.topItem)
 	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
 	slot0.confirmBtn = slot0:findTF("actions/confirm_button")
-	slot0.timeLimitTF = slot0:findTF("item/time_limit")
 
 	setText(slot0:findTF("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
 	setText(slot0:findTF("count/image_text"), i18n("shops_msgbox_exchange_count"))
@@ -30,7 +30,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Close()
 	end, SFX_PANEL)
 end
@@ -73,18 +76,14 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		uv1.curCount = slot0
 		uv1.itemCountTF.text = slot0 * uv2:getConfig("num")
 	end)(1)
-	updateDrop(slot0.topItem, slot3)
-	updateDrop(slot0.bottomItem, slot3)
-
-	slot8, slot9 = GetOwnedDropCount(slot3)
-
-	setActive(slot0.ownerTF.parent, slot9)
-	setText(slot0.ownerTF, slot8)
-	setText(slot0.ownerLabelTF, i18n("word_own1"))
+	updateDrop(slot0.topItem:Find("left/IconTpl"), slot3)
+	UpdateOwnDisplay(slot0.ownerTF, slot3)
+	RegisterDetailButton(slot0, slot0.detailTF, slot3)
 
 	slot0.nameTF.text = slot3.cfg.name
 	slot0.descTF.text = slot3.desc or slot3.cfg.desc
 
+	updateDrop(slot0.bottomItem, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0 then
 			uv0(uv1, uv2.curCount, uv3.cfg.name)

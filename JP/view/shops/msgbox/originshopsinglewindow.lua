@@ -5,11 +5,11 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.nameTF = slot0:findTF("window/item/display_panel/name_container/name"):GetComponent(typeof(Text))
-	slot0.descTF = slot0:findTF("window/item/display_panel/desc/Text"):GetComponent(typeof(Text))
 	slot0.itemTF = slot0:findTF("window/item")
-	slot0.itemOwnTF = slot0:findTF("icon_bg/own/Text", slot0.itemTF)
-	slot0.itemOwnLabelTF = slot0:findTF("icon_bg/own/label", slot0.itemTF)
+	slot0.nameTF = slot0.itemTF:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
+	slot0.descTF = slot0.itemTF:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
+	slot0.itemOwnTF = slot0.itemTF:Find("left/own")
+	slot0.itemDetailTF = slot0.itemTF:Find("left/detail")
 	slot0.confirmBtn = slot0:findTF("window/actions/confirm_btn")
 
 	setText(slot0:findTF("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
@@ -22,7 +22,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0:findTF("window/actions/cancel_btn"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf, function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
@@ -41,7 +44,9 @@ end
 function slot0.InitWindow(slot0, slot1, slot2)
 	slot3 = slot1:getDropInfo()
 
-	updateDrop(slot0.itemTF, slot3)
+	updateDrop(slot0.itemTF:Find("left/IconTpl"), slot3)
+	UpdateOwnDisplay(slot0.itemOwnTF, slot3)
+	RegisterDetailButton(slot0, slot0.itemDetailTF, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0 then
 			uv0(uv1, 1, uv2.cfg.name)
@@ -50,21 +55,15 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		uv3:Close()
 	end, SFX_CANCEL)
 
-	slot4, slot5 = GetOwnedDropCount(slot3)
+	slot4 = slot3.type == DROP_TYPE_SHIP
 
-	setActive(slot0.itemOwnTF.parent, slot5)
-	setText(slot0.itemOwnTF, slot4)
-	setText(slot0.itemOwnLabelTF, i18n("word_own1"))
+	SetActive(slot0.itemTF:Find("ship_group"), slot4)
 
-	slot6 = slot3.type == DROP_TYPE_SHIP
+	if slot4 then
+		slot6 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot3.id].group_type))
 
-	SetActive(slot0.itemTF:Find("ship_group"), slot6)
-
-	if slot6 then
-		slot8 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot3.id].group_type))
-
-		SetActive(slot7:Find("unlocked"), slot8)
-		SetActive(slot7:Find("locked"), not slot8)
+		SetActive(slot5:Find("unlocked"), slot6)
+		SetActive(slot5:Find("locked"), not slot6)
 	end
 
 	slot0.descTF.text = slot3.desc or slot3.cfg.desc

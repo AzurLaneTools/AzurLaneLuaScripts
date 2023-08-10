@@ -41,7 +41,7 @@ function slot0.OnUpdateFlush(slot0)
 	if slot0.gameUI then
 		slot0.gameUI:updataActivity(slot0.activity)
 	else
-		slot0.gameUI = MonopolyCarGame.New(slot0, findTF(slot0._tf, "AD"), slot0._event)
+		slot0.gameUI = MonopolyCarGame.New(slot0, findTF(slot0._tf, "AD"), slot0.event)
 
 		slot0.gameUI:firstUpdata(slot0.activity)
 	end

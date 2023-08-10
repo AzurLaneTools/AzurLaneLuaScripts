@@ -48,7 +48,7 @@ function slot0.OnLoaded(slot0)
 	slot0.emptyTr = slot0:findTF("empty")
 	slot0.emptyFinishTr = slot0:findTF("empty_finsih")
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.msgBox = ArchivesWorldBossMsgboxPage.New(slot0._parentTf.parent, slot0._event)
+	slot0.msgBox = ArchivesWorldBossMsgboxPage.New(slot0._parentTf.parent, slot0.event)
 
 	setText(slot0:findTF("main/award/pt/label"), i18n("meta_syn_value_label"))
 end

@@ -18,8 +18,8 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.purchaseWindow = MedalShopPurchasePanel.New(slot0._tf, slot0._event)
-	slot0.multiWindow = MedalShopMultiWindow.New(slot0._tf, slot0._event)
+	slot0.purchaseWindow = MedalShopPurchasePanel.New(slot0._tf, slot0.event)
+	slot0.multiWindow = MedalShopMultiWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.UpdateShop(slot0, ...)
@@ -88,8 +88,6 @@ function slot0.OnCardClick(slot0, slot1)
 		end)
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			showOwned = true,
-			hideLine = true,
 			yesText = "text_exchange",
 			content = i18n("guild_shop_exchange_tip"),
 			onYes = function ()

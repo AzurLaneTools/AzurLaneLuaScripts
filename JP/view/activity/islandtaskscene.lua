@@ -102,7 +102,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.submitConfirm, function ()
-		uv0._event:emit(IslandTaskMediator.SUBMIT_TASK, {
+		uv0:emit(IslandTaskMediator.SUBMIT_TASK, {
 			activityId = uv0.activityId,
 			id = uv0.selectTask.id
 		})

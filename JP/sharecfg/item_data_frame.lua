@@ -396,6 +396,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「予言の日、炎と波の中に落ちよ——」</color>\n「覆天せし万象の塵」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[326] = {
+		time_limit_type = 0,
+		name = "戴かざる聖冠",
+		gain_by = "",
+		id = 326,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -549,6 +558,7 @@ pg.item_data_frame = {
 		323,
 		324,
 		325,
+		326,
 		401,
 		402,
 		403,

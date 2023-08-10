@@ -760,11 +760,10 @@ function slot0.updateFleetBuff(slot0)
 
 				onButton(uv2, slot2, function ()
 					uv0:HandleShowMsgBox({
-						showOwned = true,
-						yesText = "text_confirm",
 						iconPreservedAspect = true,
 						hideNo = true,
 						content = "",
+						yesText = "text_confirm",
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
 							type = DROP_TYPE_STRATEGY,
@@ -1005,7 +1004,7 @@ end
 
 function slot0.DisplayWinConditionPanel(slot0)
 	if not slot0.winCondPanel then
-		slot0.winCondPanel = WinConditionDisplayPanel.New(slot0._tf.parent, slot0._event, slot0.contextData)
+		slot0.winCondPanel = WinConditionDisplayPanel.New(slot0._tf.parent, slot0.event, slot0.contextData)
 
 		slot0.winCondPanel:Load()
 	end

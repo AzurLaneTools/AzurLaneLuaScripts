@@ -7518,7 +7518,23 @@ _G.pg.base.item_data_statistics[15010] = {
 	is_world = 0,
 	icon = "Props/15010",
 	id = 15010,
-	display_icon = {},
+	display_icon = {
+		{
+			2,
+			11035,
+			1
+		},
+		{
+			2,
+			11036,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -11882,7 +11898,23 @@ _G.pg.base.item_data_statistics[30301] = {
 	is_world = 0,
 	icon = "Props/chrisgift",
 	id = 30301,
-	display_icon = {},
+	display_icon = {
+		{
+			2,
+			50001,
+			10
+		},
+		{
+			2,
+			50004,
+			5
+		},
+		{
+			2,
+			59375,
+			1
+		}
+	},
 	price = {
 		1,
 		100
@@ -11908,7 +11940,113 @@ _G.pg.base.item_data_statistics[30302] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30302,
-	display_icon = {},
+	display_icon = {
+		{
+			9,
+			1,
+			1
+		},
+		{
+			9,
+			2,
+			1
+		},
+		{
+			9,
+			3,
+			1
+		},
+		{
+			9,
+			4,
+			1
+		},
+		{
+			9,
+			5,
+			1
+		},
+		{
+			9,
+			6,
+			1
+		},
+		{
+			9,
+			7,
+			1
+		},
+		{
+			9,
+			8,
+			1
+		},
+		{
+			9,
+			9,
+			1
+		},
+		{
+			9,
+			10,
+			1
+		},
+		{
+			9,
+			11,
+			1
+		},
+		{
+			9,
+			12,
+			1
+		},
+		{
+			9,
+			13,
+			1
+		},
+		{
+			9,
+			14,
+			1
+		},
+		{
+			9,
+			15,
+			1
+		},
+		{
+			9,
+			16,
+			1
+		},
+		{
+			9,
+			17,
+			1
+		},
+		{
+			9,
+			18,
+			1
+		},
+		{
+			9,
+			19,
+			1
+		},
+		{
+			9,
+			20,
+			1
+		},
+		{
+			9,
+			21,
+			1
+		}
+	},
 	price = {
 		1,
 		7000
@@ -205284,6 +205422,29 @@ _G.pg.base.item_data_statistics[59470] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59471] = {
+	display = "「作戦準備・博覧会」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59471,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -221913,60 +222074,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-_G.pg.base.item_data_statistics[70145] = {
-	display = "「宝多六花」「新条アカネ」「南夢芽」「飛鳥川ちせ」「はっす」「なみこ」から一体選んで入手可能「交換チケット」は8月10日(木)メンテナンスまで使用可能です。",
-	name = "SSSS交換チケット",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70145",
-	id = 70145,
-	display_icon = {
-		{
-			4,
-			10800011,
-			1
-		},
-		{
-			4,
-			10800021,
-			1
-		},
-		{
-			4,
-			10800051,
-			1
-		},
-		{
-			4,
-			10800061,
-			1
-		},
-		{
-			4,
-			10800031,
-			1
-		},
-		{
-			4,
-			10800041,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

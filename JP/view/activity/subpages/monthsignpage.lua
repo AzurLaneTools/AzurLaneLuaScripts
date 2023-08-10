@@ -6,7 +6,7 @@ function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.items = slot0:findTF("items")
 	slot0.item = slot0:findTF("item", slot0.items)
-	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0._event, nil)
+	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0.event, nil)
 
 	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
 		if not uv0.monthSignReSignUI:GetLoaded() then

@@ -66,104 +66,6 @@ function slot0.onRegister(slot0)
 			})
 		end
 	end)
-	slot0:bind(BaseUI.ON_DROP, function (slot0, slot1, slot2)
-		if slot1.type == DROP_TYPE_EQUIP then
-			uv0:addSubLayers(Context.New({
-				mediator = EquipmentInfoMediator,
-				viewComponent = EquipmentInfoLayer,
-				data = {
-					equipmentId = slot1.cfg.id,
-					type = EquipmentInfoMediator.TYPE_DISPLAY,
-					onRemoved = slot2,
-					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-				}
-			}))
-		elseif slot1.type == DROP_TYPE_SPWEAPON then
-			uv0:addSubLayers(Context.New({
-				mediator = SpWeaponInfoMediator,
-				viewComponent = SpWeaponInfoLayer,
-				data = {
-					spWeaponConfigId = slot1.cfg.id,
-					type = SpWeaponInfoLayer.TYPE_DISPLAY,
-					onRemoved = slot2,
-					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-				}
-			}))
-		elseif slot1.type == DROP_TYPE_EQUIPMENT_SKIN then
-			uv0:addSubLayers(Context.New({
-				mediator = EquipmentSkinMediator,
-				viewComponent = EquipmentSkinLayer,
-				data = {
-					skinId = slot1.cfg.id,
-					mode = EquipmentSkinLayer.DISPLAY,
-					weight = LayerWeightConst.TOP_LAYER
-				}
-			}))
-		else
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				type = MSGBOX_TYPE_SINGLE_ITEM,
-				drop = slot1,
-				onNo = slot2,
-				onYes = slot2,
-				weight = LayerWeightConst.TOP_LAYER
-			})
-		end
-	end)
-	slot0:bind(BaseUI.ON_DROP_LIST, function (slot0, slot1)
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			type = MSGBOX_TYPE_ITEM_BOX,
-			items = slot1.itemList,
-			content = slot1.content,
-			item2Row = slot1.item2Row,
-			itemFunc = function (slot0)
-				uv0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
-					uv0.viewComponent:emit(BaseUI.ON_DROP_LIST, uv1)
-				end)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
-		})
-	end)
-	slot0:bind(BaseUI.ON_ITEM, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = ItemInfoMediator,
-			viewComponent = ItemInfoLayer,
-			data = {
-				mine = true,
-				info = {
-					type = DROP_TYPE_ITEM,
-					id = slot1
-				}
-			}
-		}))
-	end)
-	slot0:bind(BaseUI.ON_ITEM_EXTRA, function (slot0, slot1, slot2)
-		uv0:addSubLayers(Context.New({
-			mediator = ItemInfoMediator,
-			viewComponent = ItemInfoLayer,
-			data = {
-				mine = true,
-				info = {
-					type = DROP_TYPE_ITEM,
-					id = slot1,
-					extra = slot2
-				}
-			}
-		}))
-	end)
-	slot0:bind(BaseUI.ON_SHIP, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = ItemInfoMediator,
-			viewComponent = ItemInfoLayer,
-			data = {
-				mine = true,
-				info = {
-					type = DROP_TYPE_SHIP,
-					id = slot1
-				}
-			}
-		}))
-	end)
 	slot0:bind(BaseUI.ON_AWARD, function (slot0, slot1)
 		slot2 = {}
 
@@ -318,15 +220,6 @@ function slot0.onRegister(slot0)
 
 		seriesAsyncExtend(slot2, slot1.removeFunc)
 	end)
-	slot0:bind(BaseUI.ON_EQUIPMENT, function (slot0, slot1)
-		slot1.type = defaultValue(slot1.type, EquipmentInfoMediator.TYPE_DEFAULT)
-
-		uv0:addSubLayers(Context.New({
-			mediator = EquipmentInfoMediator,
-			viewComponent = EquipmentInfoLayer,
-			data = slot1
-		}))
-	end)
 	slot0:bind(BaseUI.ON_SHIP_EXP, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = ShipExpMediator,
@@ -344,7 +237,138 @@ function slot0.onRegister(slot0)
 			data = slot1
 		}))
 	end)
+	slot0:commonBind()
 	slot0:register()
+end
+
+function slot0.commonBind(slot0)
+	uv0.CommonBindDic = uv0.CommonBindDic or {
+		[BaseUI.ON_DROP] = function (slot0, slot1, slot2, slot3)
+			if slot2.type == DROP_TYPE_EQUIP then
+				slot0:addSubLayers(Context.New({
+					mediator = EquipmentInfoMediator,
+					viewComponent = EquipmentInfoLayer,
+					data = {
+						equipmentId = slot2.cfg.id,
+						type = EquipmentInfoMediator.TYPE_DISPLAY,
+						onRemoved = slot3,
+						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+					}
+				}))
+			elseif slot2.type == DROP_TYPE_SPWEAPON then
+				slot0:addSubLayers(Context.New({
+					mediator = SpWeaponInfoMediator,
+					viewComponent = SpWeaponInfoLayer,
+					data = {
+						spWeaponConfigId = slot2.cfg.id,
+						type = SpWeaponInfoLayer.TYPE_DISPLAY,
+						onRemoved = slot3,
+						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+					}
+				}))
+			elseif slot2.type == DROP_TYPE_EQUIPMENT_SKIN then
+				slot0:addSubLayers(Context.New({
+					mediator = EquipmentSkinMediator,
+					viewComponent = EquipmentSkinLayer,
+					data = {
+						skinId = slot2.cfg.id,
+						mode = EquipmentSkinLayer.DISPLAY,
+						weight = LayerWeightConst.TOP_LAYER
+					}
+				}))
+			else
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = slot2,
+					onNo = slot3,
+					onYes = slot3,
+					weight = LayerWeightConst.TOP_LAYER
+				})
+			end
+		end,
+		[BaseUI.ON_DROP_LIST] = function (slot0, slot1, slot2)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				type = MSGBOX_TYPE_ITEM_BOX,
+				items = slot2.itemList,
+				content = slot2.content,
+				item2Row = slot2.item2Row,
+				itemFunc = function (slot0)
+					uv0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
+						uv0.viewComponent:emit(BaseUI.ON_DROP_LIST, uv1)
+					end)
+				end,
+				weight = LayerWeightConst.TOP_LAYER
+			})
+		end,
+		[BaseUI.ON_DROP_LIST_OWN] = function (slot0, slot1, slot2)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				type = MSGBOX_TYPE_DROP_ITEM_ESKIN,
+				items = slot2.itemList,
+				content = slot2.content,
+				item2Row = slot2.item2Row,
+				itemFunc = function (slot0)
+					uv0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
+						uv0.viewComponent:emit(BaseUI.ON_DROP_LIST, uv1)
+					end)
+				end,
+				weight = LayerWeightConst.TOP_LAYER
+			})
+		end,
+		[BaseUI.ON_ITEM] = function (slot0, slot1, slot2)
+			slot0:addSubLayers(Context.New({
+				mediator = ItemInfoMediator,
+				viewComponent = ItemInfoLayer,
+				data = {
+					drop = {
+						type = DROP_TYPE_ITEM,
+						id = slot2
+					}
+				}
+			}))
+		end,
+		[BaseUI.ON_ITEM_EXTRA] = function (slot0, slot1, slot2, slot3)
+			slot0:addSubLayers(Context.New({
+				mediator = ItemInfoMediator,
+				viewComponent = ItemInfoLayer,
+				data = {
+					drop = {
+						type = DROP_TYPE_ITEM,
+						id = slot2,
+						extra = slot3
+					}
+				}
+			}))
+		end,
+		[BaseUI.ON_SHIP] = function (slot0, slot1, slot2)
+			slot0:addSubLayers(Context.New({
+				mediator = ItemInfoMediator,
+				viewComponent = ItemInfoLayer,
+				data = {
+					drop = {
+						type = DROP_TYPE_SHIP,
+						id = slot2
+					}
+				}
+			}))
+		end,
+		[BaseUI.ON_EQUIPMENT] = function (slot0, slot1, slot2)
+			slot2.type = defaultValue(slot2.type, EquipmentInfoMediator.TYPE_DEFAULT)
+
+			slot0:addSubLayers(Context.New({
+				mediator = EquipmentInfoMediator,
+				viewComponent = EquipmentInfoLayer,
+				data = slot2
+			}))
+		end
+	}
+
+	for slot4, slot5 in pairs(uv0.CommonBindDic) do
+		slot0:bind(slot4, function (...)
+			return uv0(uv1, ...)
+		end)
+	end
 end
 
 function slot0.register(slot0)

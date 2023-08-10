@@ -1476,8 +1476,11 @@ function slot8.SwitchSpectreUnit(slot0, slot1)
 		slot4[slot2] = nil
 		slot0._spectreShipList[slot2] = slot1
 
+		for slot8, slot9 in pairs(slot0._AOEList) do
+			slot9:ForceExit(slot1:GetUniqueID())
+		end
+
 		slot0._cldSystem:DeleteShipCld(slot1)
-		slot1:ClearUncontrollableSpeed()
 	else
 		slot0._spectreShipList[slot2] = nil
 		slot4[slot2] = slot1

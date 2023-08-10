@@ -31162,49 +31162,6 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
-	[70145] = {
-		open_directly = 0,
-		display_effect = "",
-		other_resource_cost = "[]",
-		limit = "[]",
-		usage = "usage_drop_appointed",
-		other_item_cost = "[]",
-		id = 70145,
-		compose_number = 0,
-		target_id = 0,
-		usage_arg = {
-			{
-				4,
-				10800011,
-				1
-			},
-			{
-				4,
-				10800021,
-				1
-			},
-			{
-				4,
-				10800051,
-				1
-			},
-			{
-				4,
-				10800061,
-				1
-			},
-			{
-				4,
-				10800031,
-				1
-			},
-			{
-				4,
-				10800041,
-				1
-			}
-		}
-	},
 	[99981] = {
 		open_directly = 0,
 		display_effect = "",
@@ -33543,7 +33500,6 @@ pg.item_data_template = {
 		60323,
 		60324,
 		61001,
-		70145,
 		99981,
 		99991,
 		99992,
