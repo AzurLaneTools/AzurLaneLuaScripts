@@ -223653,60 +223653,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	combination_display = {}
 }
 
-_G.pg.base.item_data_statistics[70145] = {
-	display = "<color=#ff5c5c>8.10维护后道具将会删除。</color>可从「宝多六花」、「新条茜」、「南梦芽」、「飞鸟川千濑」、「莲」与「奈美子」中自行选择一位角色进行兑换。",
-	name = "「交汇世界的弧光」角色自选",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70145",
-	id = 70145,
-	display_icon = {
-		{
-			4,
-			10800011,
-			1
-		},
-		{
-			4,
-			10800021,
-			1
-		},
-		{
-			4,
-			10800051,
-			1
-		},
-		{
-			4,
-			10800061,
-			1
-		},
-		{
-			4,
-			10800031,
-			1
-		},
-		{
-			4,
-			10800041,
-			1
-		}
-	},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
 _G.pg.base.item_data_statistics[70146] = {
 	display = "活动「交汇世界的弧光·再现」的收集道具。集齐12个情报，可获得纪念家具 ",
 	name = "塞壬情报Ⅰ",

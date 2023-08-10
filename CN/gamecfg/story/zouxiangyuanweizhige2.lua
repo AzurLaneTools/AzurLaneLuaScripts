@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "圣座已经要再次决定投降了。",
+			say = "圣座已经决定要再次投降了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

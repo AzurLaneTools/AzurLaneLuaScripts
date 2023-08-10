@@ -57,7 +57,9 @@ function slot0.GetChallengeIDByStageID(slot0)
 end
 
 function slot0.IsOpen()
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "LimitChallengeMediator")
+	slot0 = getProxy(PlayerProxy):getRawData().level
+
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0, "LimitChallengeMediator") and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0, "ChallengeMainMediator")
 end
 
 function slot0.IsInAct()
