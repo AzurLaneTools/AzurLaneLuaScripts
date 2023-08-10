@@ -18,32 +18,43 @@ function slot0.GenEventSearchData(slot0, slot1)
 	end
 
 	slot2 = slot0:GenSearchData(slot1)
+	slot3 = slot1.scale ~= nil
+	slot4 = slot1.scale or 1
 
-	if slot1.dynamicPath and slot1.dynamicPath() then
-		slot2.path = slot3
+	if slot1.dynamicPath then
+		slot5, slot6 = slot1.dynamicPath()
+
+		if slot5 then
+			slot2.path = slot5
+		end
+
+		if slot6 then
+			slot3 = true
+			slot4 = slot6
+		end
 	end
 
 	slot2.settings = {
 		pos = slot1.pos,
-		scale = slot1.scale,
+		scale = slot4,
 		eulerAngles = slot1.eulerAngles,
 		isLevelPoint = slot1.isLevelPoint,
 		image = slot1.image,
-		customPosition = slot1.pos or slot1.scale or slot1.eulerAngles or slot1.isLevelPoint
+		customPosition = slot1.pos or slot3 or slot1.eulerAngles or slot1.isLevelPoint
 	}
-	slot3, slot4 = nil
+	slot5, slot6 = nil
 
 	if slot1.onClick then
-		slot3 = uv0.TRIGGER_TYPE_BUTTONEX
-		slot4 = slot1.onClick
+		slot5 = uv0.TRIGGER_TYPE_BUTTONEX
+		slot6 = slot1.onClick
 	else
-		slot3 = slot1.triggerType and slot1.triggerType[1] or uv0.TRIGGER_TYPE_BUTTON
-		slot4 = slot1.triggerType and slot1.triggerType[2]
+		slot5 = slot1.triggerType and slot1.triggerType[1] or uv0.TRIGGER_TYPE_BUTTON
+		slot6 = slot1.triggerType and slot1.triggerType[2]
 	end
 
 	slot2.triggerData = {
-		type = slot3,
-		arg = slot4
+		type = slot5,
+		arg = slot6
 	}
 	slot2.childIndex = slot1.eventIndex
 	slot2.eventPath = slot1.eventPath

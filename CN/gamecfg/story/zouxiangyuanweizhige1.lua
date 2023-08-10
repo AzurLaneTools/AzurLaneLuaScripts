@@ -629,11 +629,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "▇▆▅■▎▃▌█情▇█▎■▄▆▋▂▁▅况█▊▇▊▇",
 			typewriter = {
@@ -698,11 +699,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▊▇危▅▁▂▋▄▊急█▌",
 			typewriter = {
@@ -730,11 +732,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆速▇█",
 			typewriter = {
@@ -743,11 +746,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆▎来█▎█",
 			typewriter = {
@@ -756,11 +760,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▎█▎救▅█▎█▎▌我▅▎▌█",
 			typewriter = {
@@ -769,11 +774,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆速▇█▂▁▅来█▎█",
 			typewriter = {

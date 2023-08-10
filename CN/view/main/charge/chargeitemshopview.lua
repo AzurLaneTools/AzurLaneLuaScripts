@@ -110,7 +110,6 @@ function slot0.initScrollRect(slot0)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				yesText = "text_buy",
-				hideLine = true,
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				subIntro = uv0.goodsVO:IsGroupSale() and i18n("gem_shop_xinzhi_tip", ChargeConst.getGroupLimit(uv1.normalGroupList, uv0.goodsVO:getConfig("group"))) or "",

@@ -145,13 +145,12 @@ function slot0.OnInitItem(slot0, slot1)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			showOwned = true,
-			hideLine = true,
 			yesText = "text_exchange",
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				id = slot0:getConfig("effect_args")[1],
-				type = slot0:getConfig("type")
+				type = slot0:getConfig("type"),
+				count = slot0:getConfig("num")
 			},
 			onYes = function ()
 				uv0:Purchase(uv1)

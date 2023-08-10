@@ -7801,7 +7801,23 @@ _G.pg.base.item_data_statistics[15010] = {
 	is_world = 0,
 	icon = "Props/15010",
 	id = 15010,
-	display_icon = {},
+	display_icon = {
+		{
+			2,
+			11035,
+			1
+		},
+		{
+			2,
+			11036,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -12237,7 +12253,113 @@ _G.pg.base.item_data_statistics[30302] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30302,
-	display_icon = {},
+	display_icon = {
+		{
+			9,
+			1,
+			1
+		},
+		{
+			9,
+			2,
+			1
+		},
+		{
+			9,
+			3,
+			1
+		},
+		{
+			9,
+			4,
+			1
+		},
+		{
+			9,
+			5,
+			1
+		},
+		{
+			9,
+			6,
+			1
+		},
+		{
+			9,
+			7,
+			1
+		},
+		{
+			9,
+			8,
+			1
+		},
+		{
+			9,
+			9,
+			1
+		},
+		{
+			9,
+			10,
+			1
+		},
+		{
+			9,
+			11,
+			1
+		},
+		{
+			9,
+			12,
+			1
+		},
+		{
+			9,
+			13,
+			1
+		},
+		{
+			9,
+			14,
+			1
+		},
+		{
+			9,
+			15,
+			1
+		},
+		{
+			9,
+			16,
+			1
+		},
+		{
+			9,
+			17,
+			1
+		},
+		{
+			9,
+			18,
+			1
+		},
+		{
+			9,
+			19,
+			1
+		},
+		{
+			9,
+			20,
+			1
+		},
+		{
+			9,
+			21,
+			1
+		}
+	},
 	price = {
 		1,
 		7000
@@ -206743,6 +206865,29 @@ _G.pg.base.item_data_statistics[59470] = {
 	is_world = 0,
 	icon = "Props/masaiqu_pt",
 	id = 59470,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59471] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59471,
 	display_icon = {},
 	price = {},
 	index = {},

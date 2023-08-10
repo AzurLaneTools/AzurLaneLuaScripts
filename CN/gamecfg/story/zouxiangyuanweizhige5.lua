@@ -1029,7 +1029,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……稍等，玩笑先暂停，我到马赛曲的位置了。",
+			say = "……稍等，玩笑先暂停，我找到马赛曲的位置了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

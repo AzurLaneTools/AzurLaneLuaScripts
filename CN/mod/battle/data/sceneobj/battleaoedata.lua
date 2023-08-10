@@ -71,6 +71,9 @@ function slot2.SettleFinale(slot0)
 	end
 end
 
+function slot2.ForceExit(slot0)
+end
+
 function slot2.SortCldObjList(slot0)
 	table.sort(slot0, uv0._Fun_SortCldObjList)
 end

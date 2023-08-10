@@ -64,7 +64,7 @@ function slot0.OnLoaded(slot0)
 	slot0.hpTxt = slot0:findTF("hp/Text"):GetComponent(typeof(Text))
 	slot0.hpSlider = slot0:findTF("hp/slider"):GetComponent(typeof(Slider))
 	slot0.painting = slot0:findTF("paint")
-	slot0.infoAndRankPanel = WorldBossInfoAndRankPanel.New(slot0._tf, slot0._event)
+	slot0.infoAndRankPanel = WorldBossInfoAndRankPanel.New(slot0._tf, slot0.event)
 
 	slot0.infoAndRankPanel:SetCallback(function (slot0)
 		setGray(uv0.awardBtn, slot0, true)

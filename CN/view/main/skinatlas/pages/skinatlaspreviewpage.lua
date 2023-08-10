@@ -23,12 +23,12 @@ function slot0.OnLoaded(slot0)
 	slot0.l2dFlag = false
 	slot1 = slot0:findTF("main/left/tpl")
 	slot0.btns = {
-		ShipAtlasBgBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0._event, slot0.bgFlag),
-		ShipAtlasLive2dBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0._event, slot0.l2dFlag)
+		ShipAtlasBgBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.bgFlag),
+		ShipAtlasLive2dBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.l2dFlag)
 	}
 	slot0.bgView = SkinAtlasBgView.New(slot0:findTF("bg/bg"))
 	slot0.paintingView = SkinAtlasPaintingView.New(slot0:findTF("paint"))
-	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0._event)
+	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
 end
 
 function slot0.OnInit(slot0)

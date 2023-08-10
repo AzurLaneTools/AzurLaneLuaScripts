@@ -75,6 +75,10 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	if isa(slot3, AvatarFrameTask) then
+		return
+	end
+
 	slot6 = slot3:getConfig("sub_type")
 	slot8 = {
 		chapterId = slot4:getActiveChapter() and slot7.id,

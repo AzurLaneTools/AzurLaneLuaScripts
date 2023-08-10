@@ -56,4 +56,48 @@ function slot0.GetChallengeIDByStageID(slot0)
 	end
 end
 
+function slot0.IsOpen()
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "LimitChallengeMediator")
+end
+
+function slot0.IsInAct()
+	return LOCK_LIMIT_CHALLENGE and checkExist(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE), {
+		"isEnd"
+	}) == false or pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0 and LimitChallengeConst.GetCurMonthConfig()
+end
+
+slot0.RedPointKey = "LimitChallengeMonth"
+
+function slot0.SetRedPointMonth()
+	PlayerPrefs.SetInt(uv0.RedPointKey, uv0.GetCurMonth())
+end
+
+function slot0.GetRedPointMonth()
+	return PlayerPrefs.GetInt(uv0.RedPointKey, 0)
+end
+
+function slot0.IsShowRedPoint()
+	if not uv0.IsOpen() then
+		return false
+	end
+
+	if not uv0.IsInAct() then
+		return false
+	end
+
+	if uv0.GetRedPointMonth() == uv0.GetCurMonth() then
+		return false
+	else
+		slot2 = getProxy(LimitChallengeProxy)
+
+		for slot7, slot8 in ipairs(uv0.GetCurMonthConfig().stage) do
+			if not slot2:isAwardedByChallengeID(slot8) then
+				return true
+			end
+		end
+
+		return false
+	end
+end
+
 return slot0

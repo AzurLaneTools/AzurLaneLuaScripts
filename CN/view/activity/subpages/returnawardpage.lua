@@ -11,7 +11,7 @@ function slot0.OnFirstFlush(slot0)
 
 	assert(slot1[slot2.data1], slot2.data1)
 
-	slot0.page = slot1[slot2.data1].New(slot0._tf, slot0._event)
+	slot0.page = slot1[slot2.data1].New(slot0._tf, slot0.event)
 
 	onButton(slot0, slot0.page.help, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

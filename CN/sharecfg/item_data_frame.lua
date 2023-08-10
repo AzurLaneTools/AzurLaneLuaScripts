@@ -405,6 +405,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「在那预言之日，中庭将坠于烈焰与怒涛——」</color>\n「空相交汇点」活动获取",
 		scene = {}
 	},
+	[326] = {
+		time_limit_type = 0,
+		name = "无冕圣冠",
+		gain_by = "",
+		id = 326,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -568,6 +577,7 @@ pg.item_data_frame = {
 		323,
 		324,
 		325,
+		326,
 		401,
 		402,
 		404,

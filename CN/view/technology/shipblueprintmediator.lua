@@ -7,7 +7,6 @@ slot0.ON_FINISH_TASK = "ShipBluePrintMediator:ON_FINISH_TASK"
 slot0.ON_MOD = "ShipBluePrintMediator:ON_MOD"
 slot0.ON_PURSUING = "ShipBluePrintMediator:ON_PURSUING"
 slot0.ON_TASK_OPEN = "ShipBluePrintMediator:ON_TASK_OPEN"
-slot0.ON_MAIN = "ShipBluePrintMediator:ON_MAIN"
 slot0.ON_CHECK_TAKES = "ShipBluePrintMediator:ON_CHECK_TAKES"
 slot0.SHOW_SKILL_INFO = "ShipBluePrintMediator:SHOW_SKILL_INFO"
 slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
@@ -30,13 +29,6 @@ function slot0.register(slot0)
 			viewComponent = TecSpeedUpLayer,
 			mediator = TecSpeedUpMediator
 		}))
-	end)
-	slot0:bind(uv0.ON_MAIN, function ()
-		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator) and slot1:getContextByMediator(ItemInfoMediator) then
-			slot1:removeChild(slot2)
-		end
-
-		uv0.viewComponent:emit(BaseUI.ON_BACK)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		uv0:sendNotification(GAME.BUILD_SHIP_BLUEPRINT, {

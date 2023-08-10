@@ -51,13 +51,12 @@ return {
 				text = slot0[3]
 			},
 			ui = {
-				scale = 0.85,
 				pathIndex = -1,
 				dynamicPath = function ()
 					if #getProxy(BuildShipProxy):GetPoolsWithoutNewServer() > 4 then
-						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/mask/bg/toggles/light/frame"
+						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/mask/bg/toggles/light/frame", 0.85
 					else
-						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/bg/toggles/light/frame"
+						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/bg/toggles/light/frame", 1
 					end
 				end,
 				triggerType = {

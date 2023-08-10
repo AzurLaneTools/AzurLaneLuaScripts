@@ -576,7 +576,6 @@ end
 function slot0.BuyGoods(slot0, slot1)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		yesText = "text_buy",
-		hideLine = true,
 		type = MSGBOX_TYPE_SINGLE_ITEM,
 		drop = slot1.item,
 		onYes = function ()

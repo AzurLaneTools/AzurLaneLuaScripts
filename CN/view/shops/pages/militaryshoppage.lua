@@ -102,8 +102,6 @@ function slot0.OnClickCommodity(slot0, slot1)
 	slot2 = slot1
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		showOwned = true,
-		hideLine = true,
 		yesText = "text_exchange",
 		type = MSGBOX_TYPE_SINGLE_ITEM,
 		drop = {

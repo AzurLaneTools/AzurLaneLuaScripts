@@ -24657,3 +24657,7 @@ _G.pg.base.gametip.msgbox_repair_cipher = {
 _G.pg.base.gametip.msgbox_repair_title = {
 	tip = "信息"
 }
+
+_G.pg.base.gametip.equip_skin_detail_count = {
+	tip = "拥有:"
+}
