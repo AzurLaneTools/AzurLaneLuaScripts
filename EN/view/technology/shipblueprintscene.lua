@@ -238,7 +238,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(ShipBluePrintMediator.ON_CLICK_SPEEDUP_BTN)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(ShipBluePrintMediator.ON_MAIN)
+		uv0:closeView()
 	end, SOUND_BACK)
 	onButton(slot0, slot0.startBtn, function ()
 		if not uv0.contextData.shipBluePrintVO then

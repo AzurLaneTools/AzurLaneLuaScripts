@@ -2622,6 +2622,7 @@ pg.skill_data_display = setmetatable({
 		1010100,
 		1010101,
 		1010102,
+		1013271,
 		1090020,
 		1090042,
 		1090043,
@@ -2636,7 +2637,9 @@ pg.skill_data_display = setmetatable({
 		1090111,
 		1090120,
 		1090121,
-		1090141
+		1090141,
+		1090150,
+		1090151
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13121,6 +13124,10 @@ pg.base.skill_data_display = {
 		id = 1010102,
 		name = "Ghost of Java Coast+"
 	},
+	[1013271] = {
+		id = 1013271,
+		name = "Bellowing Gusts of Fire+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -13180,5 +13187,13 @@ pg.base.skill_data_display = {
 	[1090141] = {
 		id = 1090141,
 		name = "Artillery Cover - Saratoga"
+	},
+	[1090150] = {
+		id = 1090150,
+		name = "Surface Combat - Surcouf"
+	},
+	[1090151] = {
+		id = 1090151,
+		name = "Surface Combat - Surcouf"
 	}
 }

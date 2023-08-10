@@ -3017,10 +3017,6 @@ pg.painting_filte_map = {
 		key = "dujiaoshou",
 		res_list = {
 			"painting/dujiaoshou_tex",
-			"painting/dujiaoshou_8_tex",
-			"painting/dujiaoshou_8_n_tex",
-			"painting/dujiaoshou_8_n",
-			"painting/dujiaoshou_8",
 			"painting/dujiaoshou"
 		}
 	},
@@ -3066,6 +3062,15 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/dujiaoshou_7_tex",
 			"painting/dujiaoshou_7"
+		}
+	},
+	dujiaoshou_8 = {
+		key = "dujiaoshou_8",
+		res_list = {
+			"painting/dujiaoshou_8_tex",
+			"painting/dujiaoshou_8_n_tex",
+			"painting/dujiaoshou_8_n",
+			"painting/dujiaoshou_8"
 		}
 	},
 	dujiaoshou_9 = {
@@ -14526,6 +14531,7 @@ pg.painting_filte_map = {
 		"dujiaoshou_5",
 		"dujiaoshou_6",
 		"dujiaoshou_7",
+		"dujiaoshou_8",
 		"dujiaoshou_9",
 		"dujiaoshou_g",
 		"dujiaoshou_h",

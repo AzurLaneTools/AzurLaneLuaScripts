@@ -629,11 +629,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "▇▆▅■▎▃▌█state▇█▎■▄▆▋▂▁▅emergency█▊▇▊▇",
 			typewriter = {
@@ -698,11 +699,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▊▇I'm▅▁▂▋▄▊danger█▌",
 			typewriter = {
@@ -730,11 +732,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆hurry▇█",
 			typewriter = {
@@ -743,11 +746,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆back█▎█",
 			typewriter = {
@@ -756,11 +760,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▎█▎save▅█▎█▎▌me▅▎▌█",
 			typewriter = {
@@ -769,11 +774,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "█ █ █ █ █",
+			actor = 902020,
+			nameColor = "#696969",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			side = 2,
+			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
 			say = "█▆please▇█▂▁▅help█▎█",
 			typewriter = {

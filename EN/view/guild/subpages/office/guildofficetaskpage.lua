@@ -5,7 +5,7 @@ function slot0.getTargetUI(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.selectTaskPage = GuildOfficeSelectTaskPage.New(slot0._tf.parent, slot0._event)
+	slot0.selectTaskPage = GuildOfficeSelectTaskPage.New(slot0._tf.parent, slot0.event)
 	slot0.taskTF = slot0:findTF("TaskPanel")
 	slot0.taskUnOpenTF = slot0:findTF("TaskPanel/unopen")
 	slot0.unOpenAdmin = slot0.taskUnOpenTF:Find("select")

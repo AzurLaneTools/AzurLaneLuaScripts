@@ -100,7 +100,7 @@ function slot0.OnInit(slot0)
 		end
 	end
 
-	slot0.descPages = BackYardThemeTemplateDescPage.New(slot0._tf, slot0._event, slot0.contextData)
+	slot0.descPages = BackYardThemeTemplateDescPage.New(slot0._tf, slot0.event, slot0.contextData)
 
 	function slot0.descPages.OnSortChange(slot0)
 		uv0.asc = slot0
@@ -108,7 +108,7 @@ function slot0.OnInit(slot0)
 		uv1()
 	end
 
-	slot0.contextData.sortPage = BackYardThemeTemplateSortPanel.New(slot0._parentTf, slot0._event, slot0.contextData)
+	slot0.contextData.sortPage = BackYardThemeTemplateSortPanel.New(slot0._parentTf, slot0.event, slot0.contextData)
 
 	function slot0.contextData.sortPage.OnConfirm()
 		uv0.sortIndex = uv0.contextData.sortPage.index

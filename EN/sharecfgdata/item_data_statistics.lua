@@ -197680,6 +197680,29 @@ _G.pg.base.item_data_statistics[59470] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59471] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59471,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -214548,60 +214571,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-_G.pg.base.item_data_statistics[70145] = {
-	display = "Can be used to exchange for one of the following characters: Rikka Takarada, Akane Shinjo, Yume Minami, Chise Asukagawa, Hass, Namiko. <color=#ff5c5c>Will be removed after August 9th, 11:59 PM. (UTC-7).</color>",
-	name = "SSSS Exchange Ticket",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70145",
-	id = 70145,
-	display_icon = {
-		{
-			4,
-			10800011,
-			1
-		},
-		{
-			4,
-			10800021,
-			1
-		},
-		{
-			4,
-			10800051,
-			1
-		},
-		{
-			4,
-			10800061,
-			1
-		},
-		{
-			4,
-			10800031,
-			1
-		},
-		{
-			4,
-			10800041,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

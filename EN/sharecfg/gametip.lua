@@ -22310,5 +22310,10 @@ cs.gametip = {
 		845295,
 		89,
 		true
+	},
+	equip_skin_detail_count = {
+		845384,
+		93,
+		true
 	}
 }

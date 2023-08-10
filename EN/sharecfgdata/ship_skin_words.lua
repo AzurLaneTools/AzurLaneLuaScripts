@@ -23377,6 +23377,40 @@ _G.pg.base.ship_skin_words[206036] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[206037] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The big sisters in the commission fleet have come back... Oh, since you're a patient now, maybe I should go welcome them back...?",
+	win_mvp = "",
+	home = "Good job on your sortie... Um, now then, big brother... Are you feeling unwell anywhere...?",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Unicorn... is now serving as a nurse. Umm... Big brother, would you mind being Unicorn's patient...?",
+	mail = "",
+	touch = "Today, I am your nurse, and yours alone, big brother. Ehehe~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Unicorn... is now serving as a nurse. Umm... Big brother, would you mind being Unicorn's patient...?",
+	feeling5 = "",
+	main = "If I use this stethoscope... I'll also be able to hear big brother's pounding heart clearly...|I learned a lot about nursing from Miss Perseus, you know? She explained it to me very carefully... but there are still some things I don't quite get...|Thanks for bringing me the thermometer, Yuni... Ehehe, yes, you're a very reliable helper~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Big brother, will you help me with my nurse practice today? Um, can you p-please lie down over there first...?",
+	vote = "",
+	hp_warning = "",
+	id = 206037,
+	detail = "The \"hospital food\" Miss Jervis made was the most amazing thing I've ever seen... Um, if I could also cook like that... Maybe I would be able to feed big brother myself... Ahh... *blushes*",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[206038] = {
 	feeling1 = "",
 	feeling3 = "",

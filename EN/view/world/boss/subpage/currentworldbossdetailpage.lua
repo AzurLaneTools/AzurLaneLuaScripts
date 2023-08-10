@@ -8,8 +8,8 @@ function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.listBtn = slot0:findTF("list_btn")
-	slot0.metaWorldbossBtn = MetaWorldbossBtn.New(slot0:findTF("archives_btn"), slot0._event)
-	slot0.helpWindow = WorldBossHelpPage.New(slot0._tf, slot0._event)
+	slot0.metaWorldbossBtn = MetaWorldbossBtn.New(slot0:findTF("archives_btn"), slot0.event)
+	slot0.helpWindow = WorldBossHelpPage.New(slot0._tf, slot0.event)
 	slot0.currProgressTr = slot0:findTF("progress")
 	slot0.currProgressTxt = slot0:findTF("progress/value"):GetComponent(typeof(Text))
 	slot0.ptBtn = WorldbossPtBtn.New(slot0:findTF("point"))
@@ -24,7 +24,6 @@ function slot0.OnInit(slot0)
 		slot0 = WorldBossConst.GetCurrBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			iconBg = true,
 			hideNo = true,
 			type = MSGBOX_TYPE_DROP_ITEM,
 			name = slot0.name,

@@ -306,6 +306,7 @@ pg.skill_data_template = setmetatable({
 		60380,
 		60390,
 		60400,
+		60410,
 		7000,
 		9010,
 		9020,
@@ -1926,6 +1927,7 @@ pg.skill_data_template = setmetatable({
 		1012600,
 		1010540,
 		1010100,
+		1013270,
 		1090010,
 		1090020,
 		1090030,
@@ -1939,7 +1941,8 @@ pg.skill_data_template = setmetatable({
 		1090110,
 		1090120,
 		1090130,
-		1090140
+		1090140,
+		1090150
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11513,6 +11516,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "When equipped by a DD: all the ship's Armor DMG modifiers increase by 15.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60410] = {
+		desc_get = "",
+		name = "World Expo Commemorative Ticket",
+		id = 60410,
+		type = 0,
+		max_level = 0,
+		desc = "Increases LCK by 2 when equipped on a ship.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -121581,6 +121598,148 @@ One of the following two effects apply based on what type of weapon this ship ha
 			}
 		}
 	},
+	[1013270] = {
+		desc_get = "",
+		name = "Bellowing Gusts of Fire+",
+		id = 1013270,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt to Burning enemies by $1. Every 20s as well as with a $3 chance when this ship fires her Main Guns: fires a $2 special barriage that inflicts a special Burn ailment to enemies hit (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -123391,6 +123550,105 @@ One of the following two effects apply based on what type of weapon this ship ha
 				},
 				{
 					"Lv.10"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090150] = {
+		desc_get = "",
+		name = "Surface Combat - Surcouf",
+		id = 1090150,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this boat's surface combat duration by $1s. When this boat fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level).",
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5",
+				"12.0"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5",
+					"+0.7"
+				},
+				{
+					"5.2",
+					"+0.8"
+				},
+				{
+					"6.0",
+					"+1.0"
+				},
+				{
+					"7.0",
+					"+0.7"
+				},
+				{
+					"7.7",
+					"+0.8"
+				},
+				{
+					"8.5",
+					"+1.0"
+				},
+				{
+					"9.5",
+					"+0.7"
+				},
+				{
+					"10.2",
+					"+0.8"
+				},
+				{
+					"11.0",
+					"+1.0"
+				},
+				{
+					"12.0"
 				}
 			},
 			{

@@ -396,6 +396,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"On the prophesied day, fall into raging flames and billowing waves––\"</color>\nAwarded to Commanders who participated in the \"Confluence of Nothingness\" event.",
 		scene = {}
 	},
+	[326] = {
+		time_limit_type = 0,
+		name = "Unbestowed Crown",
+		gain_by = "",
+		id = 326,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -522,6 +531,7 @@ pg.item_data_frame = {
 		323,
 		324,
 		325,
+		326,
 		406,
 		411,
 		412,

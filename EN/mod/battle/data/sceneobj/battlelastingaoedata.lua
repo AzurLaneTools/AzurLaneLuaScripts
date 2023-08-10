@@ -77,3 +77,30 @@ function slot2.frequentlySettle(slot0)
 	slot0.SortCldObjList(slot0._cldObjList)
 	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
+
+function slot2.ForceExit(slot0, slot1)
+	slot2 = nil
+
+	print(slot1)
+
+	for slot6, slot7 in pairs(slot0._handledList) do
+		print(slot6.UID)
+
+		if slot6.UID == slot1 then
+			slot2 = slot6
+
+			break
+		end
+	end
+
+	if slot0.fff then
+		print("ooooooo")
+	end
+
+	if slot2 then
+		print("eeeeeee")
+		slot0._exitCldFunc(slot2)
+
+		slot0._handledList[slot2] = nil
+	end
+end

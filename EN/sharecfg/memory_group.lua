@@ -149,6 +149,7 @@ pg.memory_group = setmetatable({
 		249,
 		250,
 		251,
+		252,
 		501,
 		502,
 		503,
@@ -234,7 +235,8 @@ pg.memory_group = setmetatable({
 		585,
 		586,
 		587,
-		588
+		588,
+		589
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3520,6 +3522,23 @@ pg.base.memory_group = {
 			2829
 		}
 	},
+	[252] = {
+		id = 252,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4951,
+		title = "Eventide's Eve",
+		memories = {
+			2841,
+			2842,
+			2843,
+			2844,
+			2845,
+			2846,
+			2847
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -4993,6 +5012,23 @@ pg.base.memory_group = {
 			2815,
 			2816,
 			2817
+		}
+	},
+	[589] = {
+		id = 589,
+		subtype = 0,
+		icon = "title_chara_peisagenuo",
+		type = 3,
+		link_event = 0,
+		title = "A View For Two With You",
+		memories = {
+			2831,
+			2832,
+			2833,
+			2834,
+			2835,
+			2836,
+			2837
 		}
 	}
 }

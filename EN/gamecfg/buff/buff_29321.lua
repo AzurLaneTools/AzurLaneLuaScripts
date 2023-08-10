@@ -14,7 +14,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onSubmarineRetreat"
+				"onSubmarinFreeFloat"
 			},
 			arg_list = {
 				quota = 1,

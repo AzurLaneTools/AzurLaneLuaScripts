@@ -34,7 +34,7 @@ function slot0.ShowOrHide(slot0, slot1)
 	if slot1 then
 		slot2 = {}
 
-		slot0._event:emit(ActivityMainScene.GET_PAGE_BGM, slot0.__cname, slot2)
+		slot0:emit(ActivityMainScene.GET_PAGE_BGM, slot0.__cname, slot2)
 
 		if slot2.bgm then
 			pg.BgmMgr.GetInstance():Push(ActivityMainScene.__cname, slot2.bgm)

@@ -226,7 +226,7 @@ function slot5(slot0, slot1)
 			return
 		end
 
-		uv1.metaExpView = BattleResultMetaExpView.New(uv1._tf, uv1._event, uv1.contextData)
+		uv1.metaExpView = BattleResultMetaExpView.New(uv1._tf, uv1.event, uv1.contextData)
 
 		uv1.metaExpView:Reset()
 		uv1.metaExpView:Load()

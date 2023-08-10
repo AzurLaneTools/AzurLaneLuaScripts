@@ -5,20 +5,33 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
-	slot0.confirmBtn = slot0:findTF("calc/confirm")
-	slot0.rightArr = slot0:findTF("calc/value_bg/add")
-	slot0.leftArr = slot0:findTF("calc/value_bg/mius")
-	slot0.maxBtn = slot0:findTF("calc/max")
-	slot0.valueText = slot0:findTF("calc/value_bg/Text")
-	slot0.itemTF = slot0:findTF("item/bottom/item")
-	slot0.nameTF = slot0:findTF("item/bottom/name_bg/name")
-	slot0.descTF = slot0:findTF("item/bottom/desc_con/desc")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("operate")
+	slot0.ulist = UIItemList.New(slot1:Find("got/bottom/list"), slot1:Find("got/bottom/list/tpl"))
+	slot0.confirmBtn = slot1:Find("action/confirm")
 
-	onButton(slot0, slot0._tf, function ()
+	setText(slot0.confirmBtn, i18n("text_confirm"))
+
+	slot0.cancelBtn = slot1:Find("action/cancel")
+
+	setText(slot0.cancelBtn, i18n("text_cancel"))
+
+	slot0.rightArr = slot1:Find("calc/value_bg/add")
+	slot0.leftArr = slot1:Find("calc/value_bg/mius")
+	slot0.maxBtn = slot1:Find("calc/max")
+	slot0.valueText = slot1:Find("calc/value_bg/Text")
+	slot0.itemTF = slot1:Find("item/left/IconTpl")
+	slot0.nameTF = slot0:findTF("item/display_panel/name_container/name")
+	slot0.descTF = slot0:findTF("item/display_panel/desc/Text")
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("bg"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.rightArr, function ()
+	onButton(slot0, slot0.cancelBtn, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
+	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
 		if not uv0.itemVO then
 			return
 		end
@@ -26,8 +39,8 @@ function slot0.OnInit(slot0)
 		uv0.count = math.min(uv0.count + 1, uv0.itemVO.count)
 
 		uv0:updateValue()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.leftArr, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.leftArr, 0.5, function (slot0)
 		if not uv0.itemVO then
 			return
 		end
@@ -35,7 +48,7 @@ function slot0.OnInit(slot0)
 		uv0.count = math.max(uv0.count - 1, 1)
 
 		uv0:updateValue()
-	end, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
 		if not uv0.itemVO then
 			return
@@ -114,11 +127,19 @@ function slot0.update(slot0, slot1)
 	slot0.ulist:align(#slot0.displayDrops)
 	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
-	updateDrop(slot0.itemTF:Find("bg"), {
+
+	slot2 = {
 		type = slot1.type,
 		id = slot1.id,
 		count = slot1.count
-	})
+	}
+
+	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
+		count = 0
+	}, {
+		__index = slot2
+	}))
+	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot2)
 	setText(slot0.nameTF, slot1:getConfig("name"))
 	setText(slot0.descTF, slot1:getConfig("display"))
 end

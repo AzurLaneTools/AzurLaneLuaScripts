@@ -41,6 +41,7 @@ MSGBOX_TYPE_CONFIRM_DELETE = 22
 MSGBOX_TYPE_SUBPATTERN = 23
 MSGBOX_TYPE_FILE_DOWNLOAD = 24
 MSGBOX_TYPE_LIKN_COLLECT_GUIDE = 25
+MSGBOX_TYPE_DROP_ITEM_ESKIN = 26
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -79,13 +80,16 @@ function slot1.Init(slot0, slot1)
 
 		uv0._exchangeShipPanel = uv0._window:Find("exchange_ship_panel")
 		uv0._itemPanel = uv0._window:Find("item_panel")
-		uv0._itemsText = uv0._itemPanel:Find("Text"):GetComponent(typeof(Text))
-		uv0._itemListItemTpl = uv0._itemPanel:Find("scrollview/item")
+		uv0._itemText = uv0._itemPanel:Find("Text"):GetComponent(typeof(Text))
 		uv0._itemListItemContainer = uv0._itemPanel:Find("scrollview/list")
+		uv0._itemListItemTpl = uv0._itemListItemContainer:Find("item")
+		uv0._eskinPanel = uv0._window:Find("eskin_panel")
+		uv0._eskinText = uv0._eskinPanel:Find("Text"):GetComponent(typeof(Text))
+		uv0._eskinListItemContainer = uv0._eskinPanel:Find("scrollview/list")
+		uv0._eskinListItemTpl = uv0._eskinListItemContainer:Find("item")
 		uv0._sigleItemPanel = uv0._window:Find("single_item_panel")
-		uv0._singleItemshipTypeTF = uv0._sigleItemPanel:Find("name_mode/ship_type")
-		uv0._singleItemshipTypeBgTF = uv0._sigleItemPanel:Find("name_mode/ship_type_bg")
-		uv0.singleItemIntro = uv0._sigleItemPanel:Find("intro_view/Viewport/Content/intro")
+		uv0._singleItemshipTypeTF = uv0._sigleItemPanel:Find("display_panel/name_container/shiptype")
+		uv0.singleItemIntro = uv0._sigleItemPanel:Find("display_panel/desc/Text")
 		slot1 = uv0.singleItemIntro:GetComponent("RichText")
 
 		slot1:AddSprite("diamond", uv0._res:Find("diamond"):GetComponent(typeof(Image)).sprite)
@@ -95,7 +99,7 @@ function slot1.Init(slot0, slot1)
 		slot1:AddSprite("port_money", uv0._res:Find("port_money"):GetComponent(typeof(Image)).sprite)
 		slot1:AddSprite("world_boss", uv0._res:Find("world_boss"):GetComponent(typeof(Image)).sprite)
 
-		uv0._singleItemSubIntroTF = uv0._sigleItemPanel:Find("intro_view/Text")
+		uv0._singleItemSubIntroTF = uv0._sigleItemPanel:Find("sub_intro")
 
 		setText(uv0._sigleItemPanel:Find("ship_group/locked/Text"), i18n("tag_ship_locked"))
 		setText(uv0._sigleItemPanel:Find("ship_group/unlocked/Text"), i18n("tag_ship_unlocked"))
@@ -186,7 +190,7 @@ function slot5(slot0, slot1)
 	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 	setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
 	setActive(slot0._countDescTxt, slot3 ~= nil)
-	setText(slot0._exchangeShipPanel:Find("name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setText(slot0._exchangeShipPanel:Find("name_mode/name"), slot1.name or slot1.drop.cfg.name or "")
 	setText(slot0._exchangeShipPanel:Find("name_mode/name/name"), getText(slot0._exchangeShipPanel:Find("name_mode/name")))
 
 	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
@@ -222,34 +226,21 @@ end
 function slot6(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._itemPanel, true)
-	setActive(slot0._itemsText, slot1.content)
+	setActive(slot0._itemText, slot1.content)
 
-	slot0._itemsText.text = slot1.content or ""
-	slot0.tempUIItemList = slot0.tempUIItemList or UIItemList.New(slot0._itemListItemContainer, slot0._itemListItemTpl)
-	slot3 = slot0.settings.itemFunc
+	slot0._itemText.text = slot1.content or ""
+	slot3 = slot1.itemFunc
 
-	slot0.tempUIItemList:make(function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot0._itemListItemContainer, slot0._itemListItemTpl, #slot1.items, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1]
 
-			updateDrop(slot2, slot3, {
+			updateDrop(slot2:Find("IconTpl"), slot3, {
 				anonymous = slot3.anonymous,
 				hideName = slot3.hideName
 			})
-
-			slot4 = findTF(slot2, "name")
-			slot5 = findTF(slot2, "name_mask")
-
-			if slot3.hideName then
-				setActive(slot5, false)
-			else
-				setActive(slot4, false)
-				setActive(slot5, true)
-				setScrollText(findTF(slot2, "name_mask/name"), getText(slot4))
-			end
-
 			onButton(uv1, slot2, function ()
 				if uv0.anonymous then
 					return
@@ -259,300 +250,187 @@ function slot6(slot0, slot1)
 			end, SFX_UI_CLICK)
 		end
 	end)
-	slot0.tempUIItemList:align(#slot0.settings.items)
 	slot0:Loaded(slot1)
 end
 
 function slot7(slot0, slot1)
 	slot0:commonSetting(slot1)
-	SetActive(slot0._sigleItemPanel, true)
-	SetActive(slot0._sigleItemPanel:Find("ship_group"), false)
-	SetActive(slot0._singleItemshipTypeTF, false)
-	SetActive(slot0._singleItemshipTypeBgTF, false)
-	SetActive(slot0._sigleItemPanel:Find("detail"), false)
+	SetActive(slot0._eskinPanel, true)
+	setActive(slot0._eskinText, slot1.content)
 
-	slot2 = slot0._sigleItemPanel:Find("icon_bg/icon")
-	slot3 = slot0._sigleItemPanel:Find("icon_bg/frame")
+	slot0._eskinText.text = slot1.content or ""
+	slot3 = slot1.itemFunc
 
-	setText(slot0._sigleItemPanel:Find("icon_bg/count"), "")
-	SetActive(slot0._sigleItemPanel:Find("icon_bg/startpl"), false)
-	SetActive(slot0.singleItemIntro, true)
+	UIItemList.StaticAlign(slot0._eskinListItemContainer, slot0._eskinListItemTpl, #slot1.items, function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-	if slot1.hideIconBG then
-		SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg"), typeof(Image), false)
-		SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg/frame"), typeof(Image), false)
-	else
-		setFrame(slot3, slot1.frame or 1)
-	end
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1]
 
-	if slot1.iconBg and slot1.frame then
-		setImageSprite(slot0._sigleItemPanel:Find("icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot1.frame))
-	end
-
-	setScrollText(findTF(slot0._sigleItemPanel, "name_mode/name_mask/name"), slot1.name or "")
-	setText(slot4, slot1.content or "")
-	SetActive(slot2.parent, slot1.iconPath)
-
-	if slot1.iconPath then
-		GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot2)
-	end
-
+			updateDrop(slot2:Find("IconTpl"), slot3, {
+				anonymous = slot3.anonymous,
+				hideName = slot3.hideName
+			})
+			setText(slot2:Find("own/Text"), i18n("equip_skin_detail_count") .. GetOwnedDropCount(slot3))
+			onButton(uv1, slot2, function ()
+				if uv0.anonymous then
+					return
+				elseif uv1 then
+					uv1(uv0)
+				end
+			end, SFX_UI_CLICK)
+		end
+	end)
 	slot0:Loaded(slot1)
 end
 
 function slot8(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._sigleItemPanel, true)
-	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), false)
-	setActive(findTF(slot0._sigleItemPanel, "icon_bg/timelimit"), slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
+	SetActive(slot0._sigleItemPanel:Find("ship_group"), false)
+	SetActive(slot0._singleItemshipTypeTF, false)
+	SetActive(slot0._sigleItemPanel:Find("left/detail"), false)
 
-	slot2, slot3 = GetOwnedDropCount(slot1.drop)
+	slot2 = slot0.singleItemIntro
 
-	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), slot3 and slot1.showOwned)
-	setText(findTF(slot0._sigleItemPanel, "icon_bg/own/Text"), slot2)
-	setText(findTF(slot0._sigleItemPanel, "icon_bg/own/label"), i18n("word_own1"))
-	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel)
-	updateDrop(slot0._sigleItemPanel, slot1.drop)
+	SetActive(slot2, true)
+	setText(slot2, slot1.content or "")
 
-	slot4 = slot1.drop.type == DROP_TYPE_SHIP
+	slot3 = slot0._sigleItemPanel:Find("left/IconTpl")
 
-	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot4)
+	setText(slot3:Find("icon_bg/count"), "")
+	SetActive(slot3:Find("icon_bg/startpl"), false)
+	SetCompomentEnabled(slot3:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
+	SetCompomentEnabled(slot3:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
+	setFrame(slot3:Find("icon_bg/frame"), slot1.frame or 1)
+	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot3:Find("icon_bg/icon"))
+	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or "")
+	slot0:Loaded(slot1)
+end
 
-	if slot4 then
-		slot6 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
+function slot9(slot0, slot1)
+	slot0:commonSetting(slot1)
+	SetActive(slot0._sigleItemPanel, true)
+	setActive(slot0._sigleItemPanel:Find("left/IconTpl"):Find("timelimit"), slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
+	updateDrop(slot2, slot1.drop)
+	setActive(slot0._singleItemshipTypeTF, slot1.drop.type == DROP_TYPE_SHIP)
 
-		SetActive(slot5:Find("unlocked"), slot6)
-		SetActive(slot5:Find("locked"), not slot6)
+	if slot1.drop.type == DROP_TYPE_SHIP then
+		GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1.drop.cfg.type), slot0._singleItemshipTypeTF, false)
+	end
+
+	slot3 = slot1.drop.type == DROP_TYPE_SHIP
+
+	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot3)
+
+	if slot3 then
+		slot5 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
+
+		SetActive(slot4:Find("unlocked"), slot5)
+		SetActive(slot4:Find("locked"), not slot5)
 	end
 
 	if slot1.windowSize then
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot7 = slot0._singleItemSubIntroTF
+	slot6 = slot0._singleItemSubIntroTF
 
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
-	SetActive(slot0.singleItemIntro, slot8 == nil)
-	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
-	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
-	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
-	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
-
-	slot11 = slot0._sigleItemPanel:Find("detail")
-	slot12 = false
-
-	if slot1.drop.type == DROP_TYPE_ITEM then
-		slot13 = tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) and "tech" or slot1.drop.cfg.type
-		slot14 = {}
-
-		for slot18, slot19 in ipairs({
-			true,
-			11,
-			13,
-			16,
-			17
-		}) do
-			slot14[slot19] = function (slot0)
-				return slot0
-			end
-		end
-
-		slot12 = switch(slot13, slot14, function ()
-			return false
-		end, slot13)
-	end
-
-	setActive(slot11, tobool(slot12))
-
-	if slot12 then
-		slot13 = {
-			item2Row = true,
-			hideNo = true,
-			items = underscore.map(slot1.drop.cfg.display_icon, function (slot0)
-				return {
-					type = slot0[1],
-					id = slot0[2],
-					count = slot0[3]
-				}
-			end),
-			onYes = function ()
-				uv0(uv1, uv2)
-			end,
-			weight = slot1.weight or LayerWeightConst.SECOND_LAYER
-		}
-		slot13.onNo = slot13.onYes
-
-		function slot13.itemFunc(slot0)
-			if slot0.type == DROP_TYPE_EQUIP then
-				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
-					parentContext = getProxy(ContextProxy):getCurrentContext(),
-					context = Context.New({
-						mediator = EquipmentInfoMediator,
-						viewComponent = EquipmentInfoLayer,
-						data = {
-							equipmentId = slot0.id,
-							type = EquipmentInfoMediator.TYPE_DISPLAY,
-							LayerWeightMgr_weight = uv1.weight or LayerWeightConst.SECOND_LAYER
-						}
-					})
-				})
-			elseif slot0.type == DROP_TYPE_EQUIPMENT_SKIN then
-				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
-					parentContext = getProxy(ContextProxy):getCurrentContext(),
-					context = Context.New({
-						mediator = EquipmentSkinMediator,
-						viewComponent = EquipmentSkinLayer,
-						data = {
-							skinId = slot0.cfg.id,
-							mode = EquipmentSkinLayer.DISPLAY,
-							weight = LayerWeightConst.TOP_LAYER
-						}
-					})
-				})
-			else
-				uv2(uv3, {
-					drop = slot0,
-					onYes = function ()
-						uv0(uv1, uv2)
-					end,
-					onNo = function ()
-						uv0(uv1, uv2)
-					end
-				})
-			end
-		end
-
-		switch(slot12, {
-			tech = function ()
-				uv0.content = i18n("techpackage_item_use_confirm")
-
-				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("tech_select_tip4") .. "</color></material>")
-			end,
-			[11] = function ()
-				uv0.content = i18n("equip_skin_detail_tip")
-				uv0.items = underscore.map(uv1.drop.cfg.display_icon, function (slot0)
-					return {
-						type = slot0[1],
-						id = slot0[2]
-					}
-				end)
-
-				setText(uv2, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("package_detail_tip") .. "</color></material>")
-			end,
-			[13] = function ()
-				uv0.content = i18n("item_type13_tip2")
-
-				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type13_tip1") .. "</color></material>")
-			end,
-			[16] = function ()
-				uv0.content = i18n("item_type16_tip2")
-
-				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type16_tip1") .. "</color></material>")
-			end,
-			[17] = function ()
-				uv0.content = i18n("item_type17_tip2")
-
-				setText(uv1, "<material=underline c=#A9F548 event=checkDetail args=1><color=#A9F548>" .. i18n("item_type17_tip1") .. "</color></material>")
-			end
-		})
-		slot11:GetComponent("RichText"):AddListener(function (slot0, slot1)
-			uv0(uv1, uv2)
-		end)
-	end
+	SetActive(slot0.singleItemIntro, slot7 == nil)
+	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or slot1.drop.cfg.name or "")
+	UpdateOwnDisplay(slot0._sigleItemPanel:Find("left/own"), slot1.drop)
+	RegisterDetailButton(slot0, slot0._sigleItemPanel:Find("left/detail"), slot1.drop)
 
 	if slot1.iconPreservedAspect then
-		slot13 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
-		slot14 = slot13:GetComponent(typeof(Image))
-		slot13.pivot = Vector2(0.5, 1)
-		slot15 = slot13.rect.width
-		slot13.sizeDelta = Vector2(-4, slot14.preferredHeight / slot14.preferredWidth * slot15 - slot15 - 4)
-		slot13.anchoredPosition = Vector2(0, -2)
+		slot9 = slot2:Find("icon_bg/icon")
+		slot10 = slot9:GetComponent(typeof(Image))
+		slot9.pivot = Vector2(0.5, 1)
+		slot11 = slot9.rect.width
+		slot9.sizeDelta = Vector2(-4, slot10.preferredHeight / slot10.preferredWidth * slot11 - slot11 - 4)
+		slot9.anchoredPosition = Vector2(0, -2)
 	end
 
 	if slot1.content and slot1.content ~= "" then
-		setText(slot6, slot1.content)
+		setText(slot5, slot1.content)
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot5, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
-		slot14 = Item.New({
+		slot10 = Item.New({
 			id = slot1.drop.cfg.id
 		}):getConfig("display")
 
 		if slot1.drop.cfg.type == Item.LOVE_LETTER_TYPE then
-			slot14 = HXSet.hxLan(string.gsub(slot14, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra)))
+			slot10 = string.gsub(slot10, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 		end
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(slot14), true))
+		setText(slot5, SwitchSpecialChar(slot10, true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.describe))
+		setText(slot5, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot14, slot15, slot16 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot6, slot16 or i18n("ship_drop_desc_default"))
+		setText(slot5, slot12 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_NPC_SHIP then
-		slot14, slot15, slot16 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot10, slot11, slot12 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot6, slot16 or i18n("ship_drop_desc_default"))
+		setText(slot5, slot12 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
-		setText(slot6, slot10)
+		setText(slot5, slot8)
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		slot13 = slot1.drop.cfg.desc
+		slot9 = slot1.drop.cfg.desc
 
-		for slot17, slot18 in ipairs({
+		for slot13, slot14 in ipairs({
 			slot1.drop.count
 		}) do
-			slot13 = string.gsub(slot13, "$" .. slot17, slot18)
+			slot9 = string.gsub(slot9, "$" .. slot13, slot14)
 		end
 
-		setText(slot6, HXSet.hxLan(slot13))
-
-		if slot1.extendDesc then
-			setText(cloneTplTo(slot6, slot6.parent), slot1.extendDesc)
-		end
+		setText(slot5, slot9)
 	elseif slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT then
-		setTextEN(slot6, HXSet.hxLan(slot1.drop.cfg.desc))
+		setText(slot5, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
-		setTextEN(slot6, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
+		setText(slot5, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 	elseif slot1.drop.type == DROP_TYPE_VITEM then
-		setTextEN(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot5, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
-		setTextEN(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot5, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
-		slot14 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
+		slot10 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
 
-		setText(slot6, i18n("world_" .. slot14 .. "_desc", slot1.drop.cfg.name))
-		setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot14 .. "_name", slot1.drop.cfg.name))
+		setText(slot5, i18n("world_" .. slot10 .. "_desc", slot1.drop.cfg.name))
+		setText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), i18n("world_" .. slot10 .. "_name", slot1.drop.cfg.name))
 	elseif slot1.drop.type == DROP_TYPE_ICON_FRAME then
-		setTextEN(slot6, slot1.drop.cfg.desc)
+		setText(slot5, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_CHAT_FRAME then
-		setTextEN(slot6, slot1.drop.cfg.desc)
+		setText(slot5, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EMOJI then
-		setTextEN(slot6, slot1.drop.cfg.item_desc)
+		setText(slot5, slot1.drop.cfg.item_desc)
 	elseif slot1.drop.type == DROP_TYPE_LOVE_LETTER then
 		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.count))
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
+		setText(slot5, SwitchSpecialChar(desc, true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot5, slot1.drop.cfg.display)
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1.drop.type then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot5, slot1.drop.cfg.display)
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end
 
 	if slot1.intro then
-		setTextEN(slot6, slot1.intro)
+		setText(slot5, slot1.intro)
 	end
 
-	setText(slot7, slot1.subIntro or "")
+	setText(slot6, slot1.subIntro or slot1.extendDesc or "")
 
 	if slot1.enabelYesBtn ~= nil then
-		slot13 = slot0._btnContainer:GetChild(1)
+		slot9 = slot0._btnContainer:GetChild(1)
 
-		setButtonEnabled(slot13, slot1.enabelYesBtn)
-		eachChild(slot13, function (slot0)
+		setButtonEnabled(slot9, slot1.enabelYesBtn)
+		eachChild(slot9, function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = uv0.enabelYesBtn and 1 or 0.3
 		end)
 	end
@@ -562,7 +440,7 @@ function slot8(slot0, slot1)
 			sibling = 0,
 			hideEvent = true,
 			text = slot1.show_medal.desc,
-			btnType = uv3.BUTTON_MEDAL,
+			btnType = uv1.BUTTON_MEDAL,
 			sound = SFX_UI_BUILDING_EXCHANGE
 		})
 	end
@@ -570,7 +448,7 @@ function slot8(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot9(slot0, slot1)
+function slot10(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(findTF(slot0._helpPanel, "bg"), not slot1.helps.pageMode)
 	setActive(slot0._helpBgTF, slot1.helps.pageMode)
@@ -674,7 +552,7 @@ function slot9(slot0, slot1)
 			slot10:AddSprite(slot11, GetSpriteFromAtlas(slot7.rawIcon.atlas, slot11))
 			setText(slot8, "")
 
-			slot10.text = HXSet.hxLan(string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, HXSet.hxLan(slot7.info or "")))
+			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, HXSet.hxLan(slot7.info or ""))
 		else
 			setText(slot8, HXSet.hxLan(slot7.info and SwitchSpecialChar(slot7.info, true) or ""))
 		end
@@ -691,7 +569,7 @@ function slot9(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot10(slot0, slot1)
+function slot11(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(slot0._otherPanel, true)
 
@@ -786,7 +664,7 @@ function slot10(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot11(slot0, slot1)
+function slot12(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(slot0._worldResetPanel, true)
 	setActive(slot0._worldShopBtn, false)
@@ -818,7 +696,7 @@ function slot11(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot12(slot0, slot1)
+function slot13(slot0, slot1)
 	slot0:commonSetting(slot1)
 
 	slot0._window.sizeDelta = Vector2(slot0._defaultSize.x, 520)
@@ -957,6 +835,7 @@ function slot1.commonSetting(slot0, slot1)
 	setActive(slot0._msgPanel, false)
 	setActive(slot0._exchangeShipPanel, false)
 	setActive(slot0._itemPanel, false)
+	setActive(slot0._eskinPanel, false)
 	setActive(slot0._sigleItemPanel, false)
 	setActive(slot0._inputPanel, false)
 	setActive(slot0._obtainPanel, false)
@@ -1238,39 +1117,35 @@ function slot1.Clear(slot0)
 	SetCompomentEnabled(slot0._helpPanel:Find("list"), typeof(ScrollRect), true)
 	setActive(slot0._top, true)
 	setActive(findTF(slot0._window, "bg"), true)
-	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg"), typeof(Image), true)
-	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg/frame"), typeof(Image), true)
+	setActive(slot0._sigleItemPanel:Find("left/own"), false)
 
-	slot4 = "icon_bg/own"
+	slot1 = slot0._sigleItemPanel:Find("left/IconTpl")
 
-	setActive(findTF(slot0._sigleItemPanel, slot4), false)
-	setText(slot0._singleItemSubIntroTF, "")
+	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), true)
+	SetCompomentEnabled(slot1:Find("icon_bg/frame"), typeof(Image), true)
 
-	for slot4 = slot0.singleItemIntro.parent.childCount - 1, 1, -1 do
-		Object.Destroy(slot0.singleItemIntro.parent:GetChild(slot4).gameObject)
-	end
+	slot2 = findTF(slot1, "icon_bg/icon")
+	slot2.pivot = Vector2(0.5, 0.5)
+	slot2.sizeDelta = Vector2(-4, -4)
+	slot2.anchoredPosition = Vector2(0, 0)
 
 	setActive(slot0.singleItemIntro, false)
+	setText(slot0._singleItemSubIntroTF, "")
 
-	slot1 = findTF(slot0._sigleItemPanel, "icon_bg/icon")
-	slot1.pivot = Vector2(0.5, 0.5)
-	slot1.sizeDelta = Vector2(-4, -4)
-	slot1.anchoredPosition = Vector2(0, 0)
-
-	for slot5 = 0, slot0._helpList.childCount - 1 do
-		slot0._helpList:GetChild(slot5):Find("icon"):GetComponent(typeof(Image)).sprite = nil
+	for slot6 = 0, slot0._helpList.childCount - 1 do
+		slot0._helpList:GetChild(slot6):Find("icon"):GetComponent(typeof(Image)).sprite = nil
 	end
 
-	for slot5, slot6 in pairs(slot0.pools) do
-		if slot6 then
-			PoolMgr.GetInstance():ReturnUI(slot6.name, slot6)
+	for slot6, slot7 in pairs(slot0.pools) do
+		if slot7 then
+			PoolMgr.GetInstance():ReturnUI(slot7.name, slot7)
 		end
 	end
 
 	slot0.pools = {}
 
-	for slot5, slot6 in pairs(slot0.timers) do
-		slot6:Stop()
+	for slot6, slot7 in pairs(slot0.timers) do
+		slot7:Stop()
 	end
 
 	slot0.timers = {}
@@ -1307,6 +1182,9 @@ function slot1.ShowMsgBox(slot0, slot1)
 			uv0(uv1, uv2)
 		end,
 		[MSGBOX_TYPE_ITEM_BOX] = function ()
+			uv0(uv1, uv2)
+		end,
+		[MSGBOX_TYPE_DROP_ITEM_ESKIN] = function ()
 			uv0(uv1, uv2)
 		end,
 		[MSGBOX_TYPE_HELP] = function ()
@@ -1410,4 +1288,20 @@ function slot1.hide(slot0)
 	slot0._go:SetActive(false)
 	slot0:Clear()
 	uv0.m02:sendNotification(GAME.CLOSE_MSGBOX_DONE)
+end
+
+function slot1.emit(slot0, slot1, ...)
+	if not slot0.analogyMediator then
+		slot0.analogyMediator = {
+			addSubLayers = function (slot0, slot1)
+				uv0.m02:sendNotification(GAME.LOAD_LAYERS, {
+					parentContext = getProxy(ContextProxy):getCurrentContext(),
+					context = slot1
+				})
+			end,
+			viewComponent = slot0
+		}
+	end
+
+	return ContextMediator.CommonBindDic[slot1](slot0.analogyMediator, slot1, ...)
 end

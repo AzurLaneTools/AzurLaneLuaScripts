@@ -313,7 +313,6 @@ function slot0.SetStageID(slot0, slot1)
 
 					for slot6, slot7 in ipairs(slot0.display_icon) do
 						slot2[#slot2 + 1] = {
-							hideName = true,
 							type = slot7[1],
 							id = slot7[2]
 						}

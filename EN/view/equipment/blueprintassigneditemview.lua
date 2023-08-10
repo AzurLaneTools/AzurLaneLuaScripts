@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot1 = slot0._tf
-	slot0.countOver = slot1:Find("calc/value_bg/over_count")
+	slot0.countOver = slot1:Find("operate/calc/value_bg/over_count")
 
 	setText(slot0.countOver, i18n("blueprint_select_overflow"))
 	onButton(slot0, slot0.maxBtn, function ()
@@ -53,7 +53,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 
 	slot1 = slot0._tf
-	slot0.toggleSwitch = slot1:Find("got/top/switch_btn")
+	slot0.toggleSwitch = slot1:Find("operate/got/top/switch_btn")
 	slot2 = slot0.toggleSwitch
 
 	setText(slot2:Find("Text_off"), i18n("show_design_demand_count"))
@@ -99,7 +99,7 @@ function slot0.updateValue(slot0)
 		slot2 = uv0.displayDrops[slot0 + 1]
 		slot4 = uv0:GetBlueprintNeed(slot2.id)
 
-		setText(slot1:Find("item/bg/icon_bg/count"), setColorStr(uv0.count * slot2.count, not uv0.isAllNeedZero and slot4 < slot3 and "#FF5A5A" or "#FFEC6E") .. "/" .. slot4)
+		setText(slot1:Find("item/icon_bg/count"), setColorStr(uv0.count * slot2.count, not uv0.isAllNeedZero and slot4 < slot3 and "#FF5A5A" or "#FFEC6E") .. "/" .. slot4)
 	end)
 end
 
@@ -130,7 +130,7 @@ function slot0.update(slot0, slot1)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2:Find("item/bg"), uv0.displayDrops[slot1])
+			updateDrop(slot2:Find("item"), uv0.displayDrops[slot1])
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.selectedIndex = uv1
@@ -151,11 +151,19 @@ function slot0.update(slot0, slot1)
 	slot0.ulist:align(#slot0.displayDrops)
 	triggerToggle(slot0.selectedItem, true)
 	triggerToggle(slot0.toggleSwitch, true)
-	updateDrop(slot0.itemTF:Find("bg"), {
+
+	slot2 = {
 		type = DROP_TYPE_ITEM,
 		id = slot1.id,
 		count = slot1.count
-	})
+	}
+
+	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
+		count = 0
+	}, {
+		__index = slot2
+	}))
+	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot2)
 	setText(slot0.nameTF, slot1:getConfig("name"))
 	setText(slot0.descTF, slot1:getConfig("display"))
 end
