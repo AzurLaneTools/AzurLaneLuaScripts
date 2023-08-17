@@ -107,7 +107,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			dir = 1,

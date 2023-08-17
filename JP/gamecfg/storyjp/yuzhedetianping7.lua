@@ -465,7 +465,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1
+					3
 				}
 			},
 			painting = {
@@ -497,7 +497,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1
+					3
 				}
 			},
 			painting = {
@@ -522,7 +522,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2
 				}
 			},
@@ -547,7 +547,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2
 				}
 			},
@@ -572,7 +572,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2
 				}
 			},
@@ -598,7 +598,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2,
 					8
 				}
@@ -625,7 +625,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2,
 					8,
 					9
@@ -652,7 +652,7 @@ return {
 			canMarkNode = {
 				"bolanhuichang",
 				{
-					1,
+					3,
 					2,
 					8,
 					9

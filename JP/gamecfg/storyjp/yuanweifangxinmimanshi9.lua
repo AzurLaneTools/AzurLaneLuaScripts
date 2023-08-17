@@ -69,7 +69,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "クイーン·エリザベス",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "クイーン·エリザベス",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "アヴローラ",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "アヴローラ",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "指揮官！私もみんなとパーティーを楽しんでいます！",
 			painting = {
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "まだまだ盛り上がりそうですね！このあとはどんなイベントがあるんでしょう？",
 			painting = {
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			nameColor = "#A9F548FF",
 			say = "どんなものだろうと、指揮官が一緒にいてくれて、導いてくれれば問題ないさ。",
 			painting = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			nameColor = "#A9F548FF",
 			say = "…と、このパーティーへの発言としては重苦しすぎたな",
 			painting = {
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			nameColor = "#A9F548FF",
 			say = "とにかく特別な日、記念すべき日だ――指揮官、おめでとう",
 			painting = {

@@ -916,38 +916,21 @@ pg.login = {
 	},
 	[31] = {
 		id = 31,
-		op_play = 1,
 		login_static = "login_0817_2",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
 		login_cri = "loginbg",
-		bgm = "story-musicanniversary-gorgeous",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	[32] = {
+		id = 32,
+		op_play = 1,
+		login_static = "login_0817_1",
+		login_cri = "",
+		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2023,
@@ -972,22 +955,13 @@ pg.login = {
 					59
 				}
 			}
-		}
-	},
-	[32] = {
-		id = 32,
-		login_static = "login_0817_1",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
+		},
+		op_time = {
 			{
 				{
 					2023,
 					8,
-					24
+					17
 				},
 				{
 					0,

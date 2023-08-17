@@ -12,12 +12,13 @@ function slot0.execute(slot0, slot1)
 			getProxy(FeastProxy):SetData(FeastDorm.New({
 				id = 4
 			}, slot0))
+			uv0:sendNotification(GAME.GET_FEAST_DATA_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
 
-		if uv0 then
-			uv0()
+		if uv1 then
+			uv1()
 		end
 	end)
 end

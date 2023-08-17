@@ -333,17 +333,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
+			nameColor = "#ffff4d",
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			say = "ジャン・バールは通信機を力いっぱい殴りつけ、その外装を凹ませた。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

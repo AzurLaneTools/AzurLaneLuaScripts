@@ -3730,7 +3730,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4963,
 		title = "パーティー・ウィズ・アイリス",
 		memories = {
 			2851,
@@ -3757,7 +3757,7 @@ pg.base.memory_group = {
 		subtype = 1,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4967,
 		title = "愚者の天秤",
 		memories = {
 			2871,
@@ -3812,7 +3812,7 @@ pg.base.memory_group = {
 		subtype = 3,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4962,
 		title = "薫風の招待状",
 		memories = {
 			2921,
