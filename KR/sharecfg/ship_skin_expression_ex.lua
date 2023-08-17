@@ -13198,5 +13198,68 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	masaiqu = {
+		lose = "",
+		feeling3 = "",
+		main_1 = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		skill = "",
+		mission = "",
+		profile = "",
+		painting = "masaiqu",
+		main_2 = "",
+		feeling1 = "",
+		main_3 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"|5"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
 	}
 }

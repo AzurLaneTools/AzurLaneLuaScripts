@@ -26,7 +26,7 @@ end
 function slot0.Init(slot0)
 	slot0:UpdateRepairStatus()
 	onButton(slot0, slot0._tf, function ()
-		showRepairMsgbox()
+		pg.RepairResMgr.GetInstance():Repair()
 	end, SFX_PANEL)
 end
 

@@ -28,7 +28,7 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
+			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
 			arg_list = {
 				buff_id = 8834,
@@ -38,7 +38,7 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
+			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
 			arg_list = {
 				buff_id = 8835,

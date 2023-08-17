@@ -5557,6 +5557,18 @@ end
 temp()
 
 function temp()
+	uv0["马"] = {
+		["赛"] = {
+			["曲"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["됭"] = {
 		["케"] = {
 			["르"] = {

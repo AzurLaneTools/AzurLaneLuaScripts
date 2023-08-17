@@ -873,7 +873,7 @@ function updateItem(slot0, slot1, slot2)
 		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
-	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
+	setImageSprite(slot6, GetSpriteFromAtlas(slot7, ""))
 	setIconStars(slot0, false)
 	setIconName(slot0, slot3.name, slot2)
 	setIconColorful(slot0, slot3.rarity + 1, slot2)

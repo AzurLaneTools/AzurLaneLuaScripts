@@ -20,7 +20,7 @@ function slot0.register(slot0)
 		uv0.data = {}
 		uv0.params = {}
 		uv0.hxList = {}
-		uv0.shipModExpActs = {}
+		uv0.buffActs = {}
 
 		if slot0.hx_list then
 			for slot4, slot5 in ipairs(slot0.hx_list) do
@@ -41,7 +41,7 @@ function slot0.register(slot0)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BUFF then
-					table.insert(uv0.shipModExpActs, slot6.id)
+					table.insert(uv0.buffActs, slot6.id)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 					uv0:InitActtivityFleet(slot6, slot5)
 				end
@@ -50,7 +50,7 @@ function slot0.register(slot0)
 			end
 		end
 
-		uv0:refreshShipModeExpBuff()
+		uv0:refreshActivityBuffs()
 
 		for slot4, slot5 in pairs(uv0.data) do
 			uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
@@ -471,8 +471,8 @@ function slot0.addActivity(slot0, slot1)
 	slot0.facade:sendNotification(uv0.ACTIVITY_ADDED, slot1:clone())
 
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
-		table.insert(slot0.shipModExpActs, slot1.id)
-		slot0:refreshShipModeExpBuff()
+		table.insert(slot0.buffActs, slot1.id)
+		slot0:refreshActivityBuffs()
 	end
 end
 
@@ -786,48 +786,53 @@ function slot0.OwnAtelierActivityItemCnt(slot0, slot1, slot2)
 	return slot3:GetItems()[slot1] and slot2 <= slot5.count
 end
 
-function slot0.refreshShipModeExpBuff(slot0)
-	slot1 = {}
-	slot2 = {}
+function slot0.refreshActivityBuffs(slot0)
+	slot0.actBuffs = {}
+	slot1 = 1
 
-	for slot6, slot7 in ipairs(slot0.shipModExpActs) do
-		if slot0.data[slot7] and not slot8:isEnd() then
-			table.insert(slot1, slot7)
+	while slot1 <= #slot0.buffActs do
+		if not slot0.data[slot0.buffActs[slot1]] or slot2:isEnd() then
+			table.remove(slot0.buffActs, slot1)
+		else
+			slot1 = slot1 + 1
 
-			slot10 = {}
-
-			if slot8:getConfig("config_id") == 0 then
-				slot10 = slot8:getConfig("config_data")
-			else
-				table.insert(slot10, slot9)
+			if ({
+				slot2:getConfig("config_id")
+			})[1] == 0 then
+				slot3 = slot2:getConfig("config_data")
 			end
 
-			for slot14, slot15 in ipairs(slot10) do
-				if ActivityBuff.New(slot8.id, slot15):ShipModExpUsage() and slot16:isActivate() then
-					table.insert(slot2, slot16)
+			for slot7, slot8 in ipairs(slot3) do
+				if ActivityBuff.New(slot2.id, slot8):isActivate() then
+					table.insert(slot0.actBuffs, slot9)
 				end
 			end
 		end
 	end
+end
 
-	slot0.shipModeExpbuffs = slot2
-	slot0.shipModExpActs = slot1
+function slot0.getActivityBuffs(slot0)
+	if underscore.any(slot0.buffActs, function (slot0)
+		return not uv0.data[slot0] or uv0.data[slot0]:isEnd()
+	end) or underscore.any(slot0.actBuffs, function (slot0)
+		return not slot0:isActivate()
+	end) then
+		slot0:refreshActivityBuffs()
+	end
+
+	return slot0.actBuffs
 end
 
 function slot0.getShipModExpActivity(slot0)
-	if underscore.any(slot0.shipModExpActs, function (slot0)
-		return not uv0.data[slot0] or uv0.data[slot0]:isEnd()
-	end) then
-		slot0:refreshShipModeExpBuff()
-	end
+	return underscore.select(slot0:getActivityBuffs(), function (slot0)
+		return slot0:ShipModExpUsage()
+	end)
+end
 
-	if underscore.any(slot0.shipModeExpbuffs, function (slot0)
-		return not slot0:isActivate()
-	end) then
-		slot0:refreshShipModeExpBuff()
-	end
-
-	return slot0.shipModeExpbuffs
+function slot0.getBackyardEnergyActivityBuffs(slot0)
+	return underscore.select(slot0:getActivityBuffs(), function (slot0)
+		return slot0:BackyardEnergyUsage()
+	end)
 end
 
 function slot0.InitContinuousTime(slot0, slot1)

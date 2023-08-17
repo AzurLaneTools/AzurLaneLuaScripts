@@ -904,6 +904,30 @@ slot1 = {
 			paintingNameList = slot3,
 			finishFunc = slot1
 		})
+	end,
+	ShipBluePrintMediator = function (slot0, slot1)
+		PaintingConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingConst.GetPaintingNameListForTec(),
+			finishFunc = slot1
+		})
+	end,
+	SwichSkinMediator = function (slot0, slot1)
+		PaintingConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingConst.GetPaintingNameListByShipVO(slot0.context.data.shipVO),
+			finishFunc = slot1
+		})
+	end,
+	NewShipMediator = function (slot0, slot1)
+		slot3 = {}
+
+		PaintingConst.AddPaintingNameByShipConfigID(slot3, slot0.context.data.ship.configId)
+		PaintingConst.PaintingDownload({
+			isShowBox = false,
+			paintingNameList = slot3,
+			finishFunc = slot1
+		})
 	end
 }
 

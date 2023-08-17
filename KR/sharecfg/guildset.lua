@@ -229,10 +229,10 @@ pg.guildset = {
 		key_value = 0,
 		key = "public_level_limit",
 		key_args = {
-			18,
-			18,
-			6,
-			6,
+			30,
+			30,
+			9,
+			9,
 			12
 		}
 	},
