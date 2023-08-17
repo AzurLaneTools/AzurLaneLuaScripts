@@ -273,7 +273,7 @@ function slot0.UpdateSlot(slot0, slot1, slot2)
 	slot6 = slot4 > 0 and getProxy(BayProxy):RawGetShipById(slot4)
 
 	setActive(slot2:Find("Enter"), slot5 and not slot6)
-	setActive(slot2:Find("Ship"), slot5 and slot6)
+	setActive(slot2:Find("Ship"), slot5 and slot6 and true)
 	setAnchoredPosition(slot2, (slot6 and slot0.slotShipPos or slot0.slotOriginalPos)[slot1])
 
 	if slot6 then

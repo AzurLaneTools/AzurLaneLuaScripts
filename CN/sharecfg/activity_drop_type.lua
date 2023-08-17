@@ -10,16 +10,25 @@ pg.activity_drop_type = {
 		activity_id = 4852,
 		relevance = "activity_workbench_item"
 	},
+	[1003] = {
+		id = 1003,
+		activity_id = 4966,
+		relevance = "activity_workbench_item"
+	},
 	get_id_list_by_activity_id = {
 		[4581] = {
 			1001
 		},
 		[4852] = {
 			1002
+		},
+		[4966] = {
+			1003
 		}
 	},
 	all = {
 		1001,
-		1002
+		1002,
+		1003
 	}
 }

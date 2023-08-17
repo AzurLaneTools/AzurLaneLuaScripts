@@ -79,6 +79,14 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
+	slot0.buffList = {}
+	slot2 = ipairs
+	slot3 = slot1.buff_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.buffList, ActivityBuff.New(slot0.id, slot6.id, slot6.timestamp))
+	end
+
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP then
 		slot0.data2KeyValueList = {}
 		slot2 = ipairs
@@ -101,6 +109,15 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.clientData1 = 0
 	slot0.clientList = {}
+end
+
+function slot0.GetBuffList(slot0)
+	return slot0.buffList
+end
+
+function slot0.AddBuff(slot0, slot1)
+	assert(isa(slot1, ActivityBuff), "activityBuff should instance of ActivityBuff")
+	table.insert(slot0.buffList, slot1)
 end
 
 function slot0.setClientList(slot0, slot1)

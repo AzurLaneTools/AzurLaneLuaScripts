@@ -11,13 +11,16 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffField",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				buff_id = 200381,
-				target = "TargetAllHarm"
+				buff_id = 200477,
+				target = {
+					"TargetEntityUnit",
+					"TargetAllHarm"
+				}
 			}
 		}
 	}

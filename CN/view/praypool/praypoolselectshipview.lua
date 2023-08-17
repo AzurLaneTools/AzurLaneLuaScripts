@@ -89,17 +89,63 @@ function slot0.initData(slot0)
 end
 
 function slot0.initUI(slot0)
+	slot0.minRaritySpriteMap = {}
+	slot0.maxRaritySpriteMap = {}
+	slot0.ratioSpriteMap = {}
+	slot1 = slot0:findTF("MiniRarity")
+	slot2 = slot0:findTF("MaxRarity")
+	slot3 = slot0:findTF("Ratio")
+
+	for slot7 = 2, 5 do
+		slot0.minRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot1))
+		slot0.maxRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot2))
+		slot0.ratioSpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot3))
+	end
+
+	slot0.poolSpriteMap = {}
+	slot4 = slot0:findTF("Pool")
+
+	for slot8 = 1, 3 do
+		slot0.poolSpriteMap[slot8] = getImageSprite(slot0:findTF(tostring(slot8), slot4))
+	end
+
 	slot0.poolNameImg = slot0:findTF("PoolNameImg")
 	slot0.shipCardTpl = slot0:findTF("ShipCardTpl")
-	slot0.selectedShipContainer = slot0:findTF("SelectedShipArea")
-	slot0.lightTF = slot0:findTF("Light", slot0.selectedShipContainer)
-	slot0.selectedShipTF = {
-		slot0:findTF("Ship1", slot0.selectedShipContainer),
-		slot0:findTF("Ship2", slot0.selectedShipContainer)
+	slot5 = slot0:findTF("SelectedShipMax")
+	slot9 = slot0:findTF("SelectedShipMini")
+	slot0.selectedShipTFMap = {
+		Max = {
+			slot0:findTF("Ship1", slot5),
+			slot0:findTF("Ship2", slot5),
+			lightTF = slot0:findTF("Light", slot5)
+		},
+		Min = {
+			slot0:findTF("Ship1", slot9),
+			slot0:findTF("Ship2", slot9),
+			lightTF = slot0:findTF("Light", slot9)
+		}
 	}
+	slot13 = slot0:isMinPrefs()
+
+	setActive(slot5, not slot13)
+	setActive(slot9, slot13)
+
 	slot0.shipListArea = slot0:findTF("ShipListArea")
 	slot0.shipListContainer = slot0:findTF("Viewport/Content", slot0.shipListArea)
 	slot0.shipListSC = GetComponent(slot0.shipListArea, "LScrollRect")
+
+	setLocalPosition(slot0.shipListArea, {
+		x = 0,
+		y = slot13 and -40 or -120
+	})
+
+	slot0.bg2 = slot0:findTF("BG2")
+
+	setLocalPosition(slot0.bg2, {
+		x = 0,
+		y = slot13 and -62.5 or -174
+	})
+
 	slot0.indexBtn = slot0:findTF("IndexBtn")
 	slot0.preBtn = slot0:findTF("PreBtn")
 	slot0.nextBtn = slot0:findTF("NextBtn")
@@ -114,10 +160,28 @@ function slot0.initUI(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("warning_pray_build_pool"),
 			onYes = function ()
-				uv0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
-					pooltype = uv0.prayProxy:getSelectedPoolType(),
-					shipIDList = uv0.prayProxy:getSelectedShipIDList()
-				})
+				function slot0()
+					uv0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
+						pooltype = uv0.prayProxy:getSelectedPoolType(),
+						shipIDList = uv0.prayProxy:getSelectedShipIDList()
+					})
+				end
+
+				if not uv0:isMinPrefs() then
+					slot0()
+				else
+					slot2 = {}
+
+					for slot7, slot8 in ipairs(uv0.prayProxy:getSelectedShipIDList()) do
+						PaintingConst.AddPaintingNameByShipConfigID(slot2, slot8)
+					end
+
+					PaintingConst.PaintingDownload({
+						isShowBox = true,
+						paintingNameList = slot2,
+						finishFunc = slot0
+					})
+				end
 			end
 		})
 	end, SFX_PANEL)
@@ -142,72 +206,81 @@ function slot0.initUI(slot0)
 end
 
 function slot0.updateUI(slot0)
-	setImageSprite(slot0.poolNameImg, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "pool_name_" .. slot0.poolType), true)
+	setImageSprite(slot0.poolNameImg, slot0.poolSpriteMap[slot0.poolType], true)
 	slot0:updateSelectedShipList()
 	slot0:updateShipList(slot0.fliteList)
 end
 
 function slot0.updateSelectedShipList(slot0)
+	if slot0:isMinPrefs() then
+		slot0:updateMin()
+	else
+		slot0:updateMax()
+	end
+end
+
+function slot0.updateMax(slot0)
 	slot1 = slot0.prayProxy:getSelectedShipIDList()
+	slot2 = slot0.selectedShipTFMap.Max
 
-	for slot5 = 1, 2 do
-		slot7 = slot0.selectedShipTF[slot5]
-		slot8 = slot0:findTF("Paint", slot7)
-		slot9 = slot0:findTF("Tip", slot7)
-		slot10 = slot0:findTF("Info", slot7)
-		slot11 = slot0:findTF("Btn", slot7)
-		slot12 = slot0:findTF("Name/Text", slot10)
-		slot13 = slot0:findTF("RarityBG", slot7)
-		slot14 = slot0:findTF("Ratio/NumImg", slot10)
+	for slot6 = 1, 2 do
+		slot8 = slot2[slot6]
+		slot9 = slot0:findTF("Paint", slot8)
+		slot10 = slot0:findTF("Tip", slot8)
+		slot11 = slot0:findTF("Info", slot8)
+		slot12 = slot0:findTF("Btn", slot8)
+		slot13 = slot0:findTF("Name/Text", slot11)
+		slot14 = slot0:findTF("RarityBG", slot8)
+		slot15 = slot0:findTF("Ratio/NumImg", slot11)
 
-		if slot1[slot5] then
-			setActive(slot8, true)
-			setPaintingPrefabAsync(slot8, Ship.getPaintingName(slot6), "biandui")
-			setActive(slot9, false)
-			setActive(slot10, true)
+		if slot1[slot6] then
+			setActive(slot9, true)
+			setPaintingPrefabAsync(slot9, Ship.getPaintingName(slot7), "biandui")
+			setActive(slot10, false)
+			setActive(slot11, true)
 
-			slot15 = pg.ship_data_statistics[slot6].name
+			slot16 = pg.ship_data_statistics[slot7].name
 
-			setText(slot12, slot15)
+			setText(slot13, slot16)
 
-			slot16 = slot12.localPosition
+			slot17 = slot13.localPosition
 
-			if #slot15 <= 6 then
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MIN, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MIN
+			if #slot16 <= 6 then
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MIN, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MIN
 
-				setAnchoredPosition(slot12, {
+				setAnchoredPosition(slot13, {
 					y = 14
 				})
-			elseif slot17 <= 21 then
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MID
+			elseif slot18 <= 21 then
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MAX, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MID
 
-				setAnchoredPosition(slot12, {
+				setAnchoredPosition(slot13, {
 					y = 19
 				})
 			else
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MAX
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MAX, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MAX
 
-				setAnchoredPosition(slot12, {
+				setAnchoredPosition(slot13, {
 					y = 25
 				})
 			end
 
-			slot18 = pg.ship_data_statistics[slot6].rarity
+			slot19 = pg.ship_data_statistics[slot7].rarity
 
-			setImageSprite(slot14, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "ratio_" .. slot18), true)
-			setActive(slot13, true)
-			setImageSprite(slot13, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "bg_rarity_" .. slot18))
+			setImageSprite(slot15, slot0.ratioSpriteMap[slot19], true)
+			setActive(slot14, true)
+			setImageSprite(slot14, slot0.maxRaritySpriteMap[slot19])
 		else
-			setActive(slot8, false)
-			setActive(slot9, true)
-			setActive(slot10, false)
-			setActive(slot13, false)
+			setActive(slot9, false)
+			setActive(slot10, true)
+			setActive(slot11, false)
+			setActive(slot14, false)
 		end
 
-		onButton(slot0, slot11, function ()
+		onButton(slot0, slot12, function ()
 			if isActive(uv0) then
 				uv1.prayProxy:removeSelectedShipIDList(uv2)
 
@@ -219,14 +292,104 @@ function slot0.updateSelectedShipList(slot0)
 		end, SFX_PANEL)
 	end
 
+	slot3 = slot2.lightTF
+
 	if #slot1 == slot0.pickUpNum then
 		slot0.nextBtnCom.interactable = true
 
-		setActive(slot0.lightTF, true)
+		setActive(slot3, true)
 	elseif #slot1 < slot0.pickUpNum then
 		slot0.nextBtnCom.interactable = false
 
-		setActive(slot0.lightTF, false)
+		setActive(slot3, false)
+	end
+end
+
+function slot0.updateMin(slot0)
+	slot1 = slot0.prayProxy:getSelectedShipIDList()
+	slot2 = slot0.selectedShipTFMap.Min
+
+	for slot6 = 1, 2 do
+		slot8 = slot2[slot6]
+		slot9 = slot0:findTF("Mask/Paint", slot8)
+		slot10 = slot0:findTF("Tip", slot8)
+		slot11 = slot0:findTF("Info", slot8)
+		slot12 = slot0:findTF("Btn", slot8)
+		slot13 = slot0:findTF("Name/Text", slot11)
+		slot14 = slot0:findTF("Mask/RarityBG", slot8)
+		slot15 = slot0:findTF("Ratio/NumImg", slot11)
+
+		if slot1[slot6] then
+			setActive(slot9, true)
+			setImageSprite(slot9, LoadSprite("herohrzicon/" .. Ship.getPaintingName(slot7)))
+			setActive(slot10, false)
+			setActive(slot11, true)
+
+			slot16 = pg.ship_data_statistics[slot7].name
+
+			setText(slot13, slot16)
+
+			slot17 = slot13.localPosition
+
+			if #slot16 <= 6 then
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MIN, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MIN
+
+				setAnchoredPosition(slot13, {
+					y = 0
+				})
+			elseif slot18 <= 21 then
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MAX, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MID
+
+				setAnchoredPosition(slot13, {
+					y = 5
+				})
+			else
+				slot11.sizeDelta = Vector2(uv0.WIDTH_MAX, slot11.sizeDelta.y)
+				GetComponent(slot13, "Text").fontSize = uv0.FONT_SIZE_MAX
+
+				setAnchoredPosition(slot13, {
+					y = 11
+				})
+			end
+
+			Canvas.ForceUpdateCanvases()
+
+			slot19 = pg.ship_data_statistics[slot7].rarity
+
+			setImageSprite(slot15, slot0.ratioSpriteMap[slot19], true)
+			setActive(slot14, true)
+			setImageSprite(slot14, slot0.minRaritySpriteMap[slot19])
+		else
+			setActive(slot9, false)
+			setActive(slot10, true)
+			setActive(slot11, false)
+			setActive(slot14, false)
+		end
+
+		onButton(slot0, slot12, function ()
+			if isActive(uv0) then
+				uv1.prayProxy:removeSelectedShipIDList(uv2)
+
+				uv1.selectedCount = uv1.selectedCount - 1
+
+				uv1:updateSelectedShipList()
+				uv1:updateShipList(uv1.fliteList)
+			end
+		end, SFX_PANEL)
+	end
+
+	slot3 = slot2.lightTF
+
+	if #slot1 == slot0.pickUpNum then
+		slot0.nextBtnCom.interactable = true
+
+		setActive(slot3, true)
+	elseif #slot1 < slot0.pickUpNum then
+		slot0.nextBtnCom.interactable = false
+
+		setActive(slot3, false)
 	end
 end
 
@@ -331,6 +494,10 @@ function slot0.fliteShipIDList(slot0)
 	end
 
 	slot0.fliteList = slot1
+end
+
+function slot0.isMinPrefs(slot0)
+	return GroupHelper.GetGroupPrefsByName("PAINTING") == DMFileChecker.Prefs.Min
 end
 
 return slot0

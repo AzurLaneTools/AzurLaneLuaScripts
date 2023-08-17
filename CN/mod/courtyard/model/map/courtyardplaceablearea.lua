@@ -22,6 +22,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.depthMap = CourtYardDepthMap.New(slot0.sizeX + 1, slot0.sizeY + 1)
 end
 
+function slot0.GetRange(slot0)
+	return Vector4(slot0.sizeX, slot0.sizeY, slot0.minSizeX, slot0.minSizeY)
+end
+
+function slot0.GetRangeWithoutWall(slot0)
+	return Vector4(slot0.sizeX - 1, slot0.sizeY - 1, slot0.minSizeX, slot0.minSizeY)
+end
+
 function slot0.UpdateMinRange(slot0, slot1)
 	slot0.minSizeX = slot1.x
 	slot0.minSizeY = slot1.y

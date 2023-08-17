@@ -206,7 +206,7 @@ function slot0.didEnter(slot0)
 		uv1:PlayFirework(slot1)
 		setActive(uv1.btn_fire, false)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 
 	slot0.academyStudents = {}
 

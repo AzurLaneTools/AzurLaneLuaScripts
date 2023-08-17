@@ -97,7 +97,7 @@ function slot0.register(slot0)
 
 		gcAll()
 
-		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData())
+		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData(slot1))
 
 		uv0.viewComponent:SwitchFloorDone()
 	end)
@@ -110,7 +110,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.SET_UP, function (slot0, slot1)
 		getProxy(DormProxy).floor = slot1
 		uv0.contextData.floor = slot1
-		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData())
+		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData(slot1))
 	end)
 	slot0.viewComponent:SetDorm(slot0.contextData.dorm or getProxy(DormProxy):getRawData())
 end
@@ -323,63 +323,47 @@ function slot0.remove(slot0)
 	end
 end
 
-function slot0.GenCourtYardData(slot0)
-	slot2 = {}
-	slot3 = nil
+function slot0.GenCourtYardData(slot0, slot1)
+	slot3, slot4 = nil
 
 	if (slot0.contextData.mode or CourtYardConst.SYSTEM_DEFAULT) == CourtYardConst.SYSTEM_VISIT then
-		slot2 = slot0.contextData.ships
-		slot0.contextData.dorm.id = 1
-	elseif slot1 == CourtYardConst.SYSTEM_DEFAULT then
-		slot4 = getProxy(DormProxy)
-		slot3 = slot4:getRawData()
-		slot2 = slot4:getBackYardShips()
+		slot3 = slot0.contextData.dorm
+		slot4 = CourtYardConst.STYLE_INNER
+	elseif slot2 == CourtYardConst.SYSTEM_DEFAULT then
+		slot3 = getProxy(DormProxy):getRawData()
+		slot4 = CourtYardConst.STYLE_INNER
+	elseif slot2 == CourtYardConst.SYSTEM_FEAST then
+		slot3 = getProxy(FeastProxy):getRawData()
+		slot4 = CourtYardConst.STYLE_FEAST
+	elseif slot2 == CourtYardConst.SYSTEM_OUTSIDE then
+		assert(false)
+
+		slot4 = CourtYardConst.STYLE_OUTSIDE
+	elseif slot2 == CourtYardConst.SYSTEM_EDIT_FEAST then
+		slot3 = getProxy(DormProxy):getRawData()
+		slot4 = CourtYardConst.STYLE_FEAST
 	end
 
-	function slot4(slot0)
-		slot1 = {}
-		slot3 = ({
-			Ship.STATE_TRAIN,
-			Ship.STATE_REST
-		})[slot0]
+	slot5 = slot3:GetMapSize()
 
-		for slot7, slot8 in pairs(uv0) do
-			if slot8.state == slot3 then
-				table.insert(slot1, slot8)
-			end
-		end
-
-		return slot1
-	end
-
-	function slot5(slot0)
-		slot1 = {}
-		slot3 = uv0:GetTheme(slot0) and slot2:GetAllFurniture() or {}
-
-		for slot7, slot8 in pairs(slot3) do
-			table.insert(slot1, slot8)
-		end
-
-		table.sort(slot1, BackyardThemeFurniture._LoadWeight)
-
-		return slot1
-	end
-
-	slot6 = {}
-
-	for slot10 = 1, BackYardConst.MAX_FLOOR_CNT do
-		table.insert(slot6, {
-			id = slot10,
-			level = slot3.level,
-			furnitures = slot5(slot10),
-			ships = slot4(slot10)
-		})
+	if slot2 == CourtYardConst.SYSTEM_EDIT_FEAST then
+		slot5 = getProxy(FeastProxy):getRawData():GetMapSize()
 	end
 
 	return {
-		system = slot1,
-		storeys = slot6,
-		storeyId = getProxy(DormProxy).floor
+		system = slot2,
+		storeys = {
+			[slot1] = {
+				id = slot1,
+				level = slot3.level,
+				furnitures = slot3:GetPutFurnitureList(slot1),
+				ships = slot3:GetPutShipList(slot1)
+			}
+		},
+		storeyId = slot1,
+		style = slot4,
+		mapSize = slot5,
+		name = slot0.viewComponent:getUIName()
 	}
 end
 

@@ -4135,7 +4135,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2023.7.9~2023.8.31期间，舰队挑战「阿尔及利亚·META」时将会获得一次额外火力支援。火力支援会对所挑战的META角色造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2023.7.9~2023.8.31期间，舰队挑战「阿尔及利亚·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -7366,6 +7366,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "此次改造操作后<color=#92fc63>【主炮底座+1】</color>\n<color=#92fc63>【战争之殇】</color>技能将升级为<color=#92fc63>【战争之殇·改】</color>\n<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射III】</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_105234 = {
+	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·西弗吉尼亚】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作后<color=#92fc63>【所有战斗机+1】、【所有鱼雷机+1】</color>\n是否确认继续操作？"
 }
@@ -10048,7 +10052,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "阿蒂利奥·雷戈洛、戈里齐亚等角色 建造概率UP！"
+	tip = "克莱蒙梭、吉尚等角色 建造概率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11988,6 +11992,10 @@ UID：
 
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1天$2小时$3分钟"
+}
+
+_G.pg.base.gametip.pray_build_select_ship_instruction = {
+	tip = "选择两名祈愿角色"
 }
 
 _G.pg.base.gametip.warning_pray_build_pool = {
@@ -24660,4 +24668,199 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "拥有:"
+}
+
+_G.pg.base.gametip.faest_nothing_to_get = {
+	tip = "暂无可领取的奖励"
+}
+
+_G.pg.base.gametip.feast_click_to_close = {
+	tip = "*点击空白处关闭弹窗"
+}
+
+_G.pg.base.gametip.feast_invitation_btn_label = {
+	tip = "特别邀约"
+}
+
+_G.pg.base.gametip.feast_task_btn_label = {
+	tip = "宴会热度"
+}
+
+_G.pg.base.gametip.feast_task_pt_label = {
+	tip = "热度值:"
+}
+
+_G.pg.base.gametip.feast_task_pt_level = {
+	tip = "$1级"
+}
+
+_G.pg.base.gametip.feast_task_pt_get = {
+	tip = "可领取"
+}
+
+_G.pg.base.gametip.feast_task_pt_got = {
+	tip = "已领取"
+}
+
+_G.pg.base.gametip.feast_task_tag_daily = {
+	tip = "每日任务-"
+}
+
+_G.pg.base.gametip.feast_task_tag_activity = {
+	tip = "特别任务-"
+}
+
+_G.pg.base.gametip.feast_label_make_invitation = {
+	tip = "制作邀请函"
+}
+
+_G.pg.base.gametip.feast_no_invitation = {
+	tip = "邀请函不足"
+}
+
+_G.pg.base.gametip.feast_no_gift = {
+	tip = "宴会纪念品不足"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation = {
+	tip = "赠送邀请函"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation_finish = {
+	tip = "已邀请"
+}
+
+_G.pg.base.gametip.feast_label_give_gift = {
+	tip = "赠送纪念品"
+}
+
+_G.pg.base.gametip.feast_label_give_gift_finish = {
+	tip = "已赠送"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_tip = {
+	tip = "拖动邀请函部件按照顺序制作邀请函"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_click_tip = {
+	tip = "点击物品查看详情"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+	tip = "要不要再检查一下制作顺序呢~"
+}
+
+_G.pg.base.gametip.feast_res_window_title = {
+	tip = "详情"
+}
+
+_G.pg.base.gametip.feast_res_window_go_label = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.feast_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_invitation_part1 = {
+	tip = "Q版的人物头像贴纸，需要贴在被邀请人头像的区域，千万不要弄错了位置哟~"
+}
+
+_G.pg.base.gametip.feast_invitation_part2 = {
+	tip = "城堡宴会的邀请函，凑近了还能闻到淡淡的墨香，使用了名贵的纸张进行制作，表面的花纹与烫金字体等尽显华丽。"
+}
+
+_G.pg.base.gametip.feast_invitation_part3 = {
+	tip = "用于寄送宴会邀请函的空信封，采用了和邀请函相同规格的制作工艺，装入邀请函再打上蜡封，将宴会的邀请送到她们的手上吧。"
+}
+
+_G.pg.base.gametip.feast_invitation_part4 = {
+	tip = "火红的蜡印上装饰着金漆，用它封住信封的开口，宴会的邀请函便制作完成。"
+}
+
+_G.pg.base.gametip.uscastle2023_help = {
+	tip = {
+		{
+			info = [[
+活动简介：
+<color=#92fc63>8.17-8.31维护</color>期间开启限时活动「啾啾城堡」
+活动规则：
+1.活动期间开启「宴会邀约」活动，参与活动可获得特效头像框&聊天框<color=#92fc63>「芳馨之徽」&「华丽的邀约」</color>、限定纪念章<color=#92fc63>「芳馨纪念章」</color>、限定家具<color=#92fc63>「舞蹈地毯」&「典雅吧台」&「啾啾大厨餐台」</color>在内的丰富奖励
+2.参与「心跳城堡挑战赛」可获得<color=#92fc63>「外观装备箱」、「宴会邀请函」、「宴会纪念品」</color>等奖励。
+注意：「宴会邀请函」&「宴会纪念品」为「宴会邀约」活动道具，活动结束后不保留。
+3.点击「限时建造」可以前往建造界面
+4.点击「换装商店」可以前往换装商店界面
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_cant_give_gift_tip = {
+	tip = "需要先制作邀请函进行邀约才能赠送礼物哦~"
+}
+
+_G.pg.base.gametip.uscastle2023_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

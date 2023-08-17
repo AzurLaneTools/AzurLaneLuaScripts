@@ -48,7 +48,7 @@ function slot0.OnRefresh(slot0, slot1)
 	elseif slot1.show_type == uv0.SHOW_TYPE_LIMIT then
 		setActive(slot0.owner, false)
 		setActive(slot0.ownerLimit, true)
-		setText(slot0:findTF("Text", slot0.ownerLimit), slot1.count .. "/" .. slot1.count_limit or 0)
+		setText(slot0:findTF("Text", slot0.ownerLimit), slot1.count .. "/" .. (slot1.count_limit or 0))
 	end
 
 	UIItemList.StaticAlign(slot0.list, slot0.tpl, #slot1.skipable_list, function (slot0, slot1, slot2)

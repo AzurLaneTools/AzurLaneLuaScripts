@@ -1,44 +1,46 @@
 slot0 = class("SaveDormThemeCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot4, slot5 = CourtYardRawDataChecker.Check(slot1:getBody().furnitureputList, getProxy(DormProxy):getRawData().level)
+	slot3 = getProxy(DormProxy):getRawData()
+	slot4 = slot3.level
+	slot5, slot6 = CourtYardRawDataChecker.Check(slot1:getBody().furnitureputList, slot3:GetMapSize())
 
-	if not slot4 then
-		pg.TipsMgr.GetInstance():ShowTips(slot5)
+	if not slot5 then
+		pg.TipsMgr.GetInstance():ShowTips(slot6)
 
 		return
 	end
 
-	slot6 = {}
+	slot7 = {}
 
-	for slot10, slot11 in pairs(slot2.furnitureputList) do
-		slot12 = {}
+	for slot11, slot12 in pairs(slot2.furnitureputList) do
+		slot13 = {}
 
-		for slot16, slot17 in pairs(slot11.child) do
-			table.insert(slot12, {
-				id = tostring(slot16),
-				x = slot17.x,
-				y = slot17.y
+		for slot17, slot18 in pairs(slot12.child) do
+			table.insert(slot13, {
+				id = tostring(slot17),
+				x = slot18.x,
+				y = slot18.y
 			})
 		end
 
-		table.insert(slot6, {
+		table.insert(slot7, {
 			shipId = 0,
-			id = tostring(slot11.configId),
-			x = slot11.x,
-			y = slot11.y,
-			dir = slot11.dir,
-			child = slot12,
-			parent = slot11.parent
+			id = tostring(slot12.configId),
+			x = slot12.x,
+			y = slot12.y,
+			dir = slot12.dir,
+			child = slot13,
+			parent = slot12.parent
 		})
 	end
 
-	slot8 = pg.ConnectionMgr.GetInstance()
+	slot9 = pg.ConnectionMgr.GetInstance()
 
-	slot8:Send(19020, {
+	slot9:Send(19020, {
 		id = slot2.id,
 		name = slot2.name,
-		furniture_put_list = slot6
+		furniture_put_list = slot7
 	}, 19021, function (slot0)
 		if slot0.result == 0 then
 			getProxy(DormProxy):AddTheme(uv0)

@@ -80,6 +80,14 @@ pg.item_data_chat = {
 		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "华丽的邀约",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>献给所有参与港区宴会的指挥官！</color>\n<color=#A7A7AAFF>通过参与「宴会邀约」获取 </color>",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "限界的挑战者·双子座",
@@ -115,6 +123,7 @@ pg.item_data_chat = {
 		300,
 		301,
 		602,
+		603,
 		10001,
 		10002,
 		10003

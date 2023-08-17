@@ -60,11 +60,16 @@ function slot1.Destroy(slot0)
 end
 
 function slot1.OnInit(slot0)
-	slot0.tpl = slot0._tf:Find("level_tpl")
+	slot0.chapterTpl = slot0._tf:Find("level_tpl")
 
-	setActive(slot0.tpl, false)
+	setActive(slot0.chapterTpl, false)
+
+	slot0.storyTpl = slot0._tf:Find("story_tpl")
+
+	setActive(slot0.storyTpl, false)
 
 	slot0.itemHolder = slot0._tf:Find("items")
+	slot0.storyHolder = slot0._tf:Find("stories")
 end
 
 function slot1.OnShow(slot0)
@@ -134,22 +139,31 @@ function slot1.UpdateMapItems(slot0)
 	end
 
 	uv0.super.UpdateMapItems(slot0)
+	slot0:StopMapItemTimers()
 
-	slot2 = getProxy(ChapterProxy)
+	if slot0.data:GetChapterInProgress() and isa(slot2, ChapterStoryGroup) then
+		setActive(slot0.itemHolder, false)
+		setActive(slot0.storyHolder, true)
+		slot0:UpdateStoryGroup()
 
-	table.clear(slot0.chapterTFsById)
+		return
+	end
 
-	slot3 = {}
+	setActive(slot0.itemHolder, true)
+	setActive(slot0.storyHolder, false)
 
-	for slot7, slot8 in pairs(slot0.data:getChapters()) do
-		if (slot8:isUnlock() or slot8:activeAlways()) and slot8:isValid() and (not slot8:ifNeedHide() or slot2:GetJustClearChapters(slot8.id)) then
-			table.insert(slot3, slot8)
+	slot3 = getProxy(ChapterProxy)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot1:getChapters()) do
+		if (slot9:isUnlock() or slot9:activeAlways()) and slot9:isValid() and (not slot9:ifNeedHide() or slot3:GetJustClearChapters(slot9.id)) then
+			table.insert(slot4, slot9)
 		end
 	end
 
-	slot0:StopMapItemTimers()
+	table.clear(slot0.chapterTFsById)
 
-	function slot8(slot0, slot1, slot2)
+	function slot9(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
@@ -160,21 +174,21 @@ function slot1.UpdateMapItems(slot0)
 		end
 	end
 
-	UIItemList.StaticAlign(slot0.itemHolder, slot0.tpl, #slot3, slot8)
+	UIItemList.StaticAlign(slot0.itemHolder, slot0.chapterTpl, #slot4, slot9)
 
-	slot4 = {}
+	slot5 = {}
 
-	for slot8, slot9 in pairs(slot3) do
-		slot10 = slot9:getConfigTable()
-		slot4[slot10.pos_x] = slot4[slot10.pos_x] or {}
-		slot11[slot10.pos_y] = slot4[slot10.pos_x][slot10.pos_y] or {}
+	for slot9, slot10 in pairs(slot4) do
+		slot11 = slot10:getConfigTable()
+		slot5[slot11.pos_x] = slot5[slot11.pos_x] or {}
+		slot12[slot11.pos_y] = slot5[slot11.pos_x][slot11.pos_y] or {}
 
-		table.insert(slot11[slot10.pos_y], slot9)
+		table.insert(slot12[slot11.pos_y], slot10)
 	end
 
-	for slot8, slot9 in pairs(slot4) do
-		for slot13, slot14 in pairs(slot9) do
-			slot15 = {}
+	for slot9, slot10 in pairs(slot5) do
+		for slot14, slot15 in pairs(slot10) do
+			slot16 = {}
 
 			seriesAsync({
 				function (slot0)
@@ -464,7 +478,7 @@ function slot1.AddChapterTF(slot0, slot1)
 		return (getProxy(ChapterProxy):getChapterById(uv0, true):isUnlock() or slot1:activeAlways()) and slot1:isValid() and not slot1:ifNeedHide()
 	end) then
 		slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
-		slot3 = cloneTplTo(slot0.tpl, slot0.itemHolder, "Chapter_" .. slot4.id)
+		slot3 = cloneTplTo(slot0.chapterTpl, slot0.itemHolder, "Chapter_" .. slot4.id)
 
 		slot0:UpdateMapItem(slot3, slot4)
 
@@ -478,6 +492,44 @@ function slot1.TryOpenChapter(slot0, slot1)
 	if slot0.chapterTFsById[slot1] then
 		triggerButton(slot2:Find("main"))
 	end
+end
+
+function slot1.UpdateStoryGroup(slot0)
+	slot1 = slot0.data
+	slot1 = slot1:GetChapterInProgress()
+
+	UIItemList.StaticAlign(slot0.storyHolder, slot0.storyTpl, #slot1:GetChapterStories(), function (slot0, slot1, slot2)
+		if slot0 ~= UIItemList.EventUpdate then
+			return
+		end
+
+		slot3 = uv0[slot1 + 1]
+
+		uv1:UpdateMapStory(slot2, slot3)
+
+		slot2.name = "Chapter_" .. slot3:GetName()
+	end)
+end
+
+function slot1.UpdateMapStory(slot0, slot1, slot2)
+	slot3 = slot2:GetPosition()
+
+	setAnchoredPosition(slot1, {
+		x = slot0.mapWidth * slot3[1],
+		y = slot0.mapHeight * slot3[2]
+	})
+	setText(slot1:Find("Name"), slot2:GetName())
+
+	slot4, slot5 = slot2:GetIcon()
+
+	slot0.sceneParent.loader:GetSpriteQuiet(slot4, slot5, slot1:Find("Icon"), true)
+	onButton(slot0, slot1, function ()
+		pg.NewStoryMgr.GetInstance():Play(uv0, function ()
+			uv0.sceneParent:RefreshMapBG()
+			uv0:UpdateMapItems()
+		end)
+	end, SFX_PANEL)
+	setActive(slot1, not pg.NewStoryMgr.GetInstance():IsPlayed(slot2:GetStoryName()))
 end
 
 return slot1

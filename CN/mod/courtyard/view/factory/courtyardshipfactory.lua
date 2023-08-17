@@ -2,11 +2,18 @@ slot0 = class("CourtYardShipFactory")
 
 function slot0.Make(slot0, slot1)
 	slot2 = _courtyard:GetView().poolMgr:GetShipPool():Dequeue()
-	slot4 = SpineRole.New(slot1:GetRawShip())
-	slot5 = nil
-	slot6 = slot1:GetPrefab()
+	slot3 = SpineRole.New(slot1)
+	slot4 = nil
+	slot5 = slot1:GetPrefab()
 
-	slot4:Load(function ()
+	seriesAsync({
+		function (slot0)
+			uv0:Load(slot0, true)
+		end,
+		function (slot0)
+			uv0:MakeAttachments(uv1, uv2, slot0)
+		end
+	}, function ()
 		if IsNil(uv0) then
 			return
 		end
@@ -21,12 +28,31 @@ function slot0.Make(slot0, slot1)
 		setActive(uv0, true)
 		uv2:OnIconLoaed()
 		uv2:Init()
-	end, true)
+	end)
 
-	return (not _courtyard:GetController():IsVisit() or CourtYardOtherPlayerShipModule.New(slot1, slot2, slot4)) and ({
+	return (not _courtyard:GetController():IsVisit() or CourtYardOtherPlayerShipModule.New(slot1, slot2, slot3)) and ({
 		CourtYardShipModule,
-		CourtYardVisitorShipModule
-	})[slot1:GetShipType()].New(slot1, slot2, slot4)
+		CourtYardVisitorShipModule,
+		CourtYardFeastShipModule
+	})[slot1:GetShipType()].New(slot1, slot2, slot3)
+end
+
+function slot0.MakeAttachments(slot0, slot1, slot2, slot3)
+	if slot2:GetShipType() == CourtYardConst.SHIP_TYPE_FEAST then
+		slot4 = ResourceMgr.Inst
+
+		slot4:getAssetAsync("ui/CourtYardFeastAttachments", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			if uv0.exited then
+				return
+			end
+
+			Object.Instantiate(slot0, uv1.transform).name = "feastAttachments"
+
+			uv2()
+		end), true, true)
+	else
+		slot3()
+	end
 end
 
 function slot0.Dispose(slot0)

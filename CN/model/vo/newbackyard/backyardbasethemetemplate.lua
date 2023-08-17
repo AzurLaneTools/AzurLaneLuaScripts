@@ -40,6 +40,10 @@ function slot0.InitFurnitures(slot0, slot1)
 	return RawData2ThemeConvertor.New():GenFurnitures(slot1)
 end
 
+function slot0.GetMapSize(slot0)
+	return getProxy(DormProxy):getRawData():GetMapSize()
+end
+
 function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
 	slot3 = ipairs
 	slot4 = slot2 or {}

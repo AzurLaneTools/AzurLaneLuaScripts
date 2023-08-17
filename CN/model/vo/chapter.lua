@@ -684,7 +684,7 @@ function slot0.inWartime(slot0)
 end
 
 function slot0.inActTime(slot0)
-	if slot0:getConfig("act_id") == 0 then
+	if slot0:GetBindActID() == 0 then
 		return true
 	end
 
@@ -702,11 +702,23 @@ function slot0.getStartTime(slot0)
 end
 
 function slot0.isUnlock(slot0)
+	return slot0:IsCleanPrevChapter() and slot0:IsCleanPrevStory()
+end
+
+function slot0.IsCleanPrevChapter(slot0)
 	if slot0:getConfig("pre_chapter") == 0 then
 		return true
-	else
-		return getProxy(ChapterProxy):getChapterById(slot1):isClear()
 	end
+
+	return getProxy(ChapterProxy):GetChapterItemById(slot1):isClear()
+end
+
+function slot0.IsCleanPrevStory(slot0)
+	if slot0:getConfig("pre_story") == 0 then
+		return true
+	end
+
+	return getProxy(ChapterProxy):GetChapterItemById(slot1):isClear()
 end
 
 function slot0.isPlayerLVUnlock(slot0)
@@ -1634,7 +1646,7 @@ function slot0.getInEliteShipIDs(slot0)
 end
 
 function slot0.activeAlways(slot0)
-	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() and type(pg.activity_template[slot0:getConfig("act_id")].config_client) == "table" then
+	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() and type(pg.activity_template[slot0:GetBindActID()].config_client) == "table" then
 		return table.contains(slot3.config_client.prevs or {}, slot0.id)
 	end
 
@@ -3287,6 +3299,10 @@ function slot0.getNearestEnemyCell(slot0)
 	end
 
 	return slot2
+end
+
+function slot0.GetBindActID(slot0)
+	return slot0:getConfig("act_id")
 end
 
 return slot0

@@ -85,7 +85,7 @@ end
 
 function slot0.GenFurnitures(slot0, slot1)
 	slot2 = slot1.floor
-	slot3 = slot1.lv or getProxy(DormProxy):getRawData().level
+	slot3 = slot1.mapSize
 	slot4 = slot1.skipCheck
 	slot5 = {}
 

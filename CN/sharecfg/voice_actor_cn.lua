@@ -1503,5 +1503,21 @@ pg.voice_actor_CN = {
 	{
 		code = 376,
 		actor_name = "高桥花林"
+	},
+	{
+		code = 377,
+		actor_name = "天海由梨奈"
+	},
+	{
+		code = 378,
+		actor_name = "山根绮"
+	},
+	{
+		code = 379,
+		actor_name = "和泉风花"
+	},
+	{
+		code = 380,
+		actor_name = "岩桥由佳"
 	}
 }

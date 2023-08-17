@@ -303,6 +303,7 @@ function slot8(slot0, slot1)
 	SetCompomentEnabled(slot3:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
 	SetCompomentEnabled(slot3:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
 	setFrame(slot3:Find("icon_bg/frame"), slot1.frame or 1)
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot1.frame or 1), slot3:Find("icon_bg"))
 	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot3:Find("icon_bg/icon"))
 	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or "")
 	slot0:Loaded(slot1)
@@ -414,6 +415,8 @@ function slot9(slot0, slot1)
 		setText(slot5, SwitchSpecialChar(desc, true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
 		setText(slot5, slot1.drop.cfg.display)
+	elseif slot1.drop.type == DROP_TYPE_BUFF then
+		setText(slot5, slot1.drop.cfg.desc)
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1.drop.type then
 		setText(slot5, slot1.drop.cfg.display)
 	else
@@ -1123,6 +1126,7 @@ function slot1.Clear(slot0)
 
 	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), true)
 	SetCompomentEnabled(slot1:Find("icon_bg/frame"), typeof(Image), true)
+	setActive(slot1:Find("icon_bg/slv"), false)
 
 	slot2 = findTF(slot1, "icon_bg/icon")
 	slot2.pivot = Vector2(0.5, 0.5)

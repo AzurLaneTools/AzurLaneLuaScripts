@@ -1038,7 +1038,7 @@ end
 
 function slot0.UpdateDOALinkFeverPanel(slot0, slot1)
 	slot2 = slot0.contextData.chapterVO
-	slot3 = slot2:getConfig("act_id")
+	slot3 = slot2:GetBindActID()
 
 	if not slot2:getConfig("levelstage_bar") or slot4 == "" then
 		existCall(slot1)
@@ -1917,7 +1917,7 @@ function slot0.SafeCheck(slot0)
 		return true, ChapterConst.ReasonOutTime
 	end
 
-	slot6 = slot1:getConfig("act_id")
+	slot6 = slot1:GetBindActID()
 
 	if not slot0.contextData.map:isRemaster() and slot6 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot6) or slot8:isEnd()) then
 		return true, ChapterConst.ReasonActivityOutTime

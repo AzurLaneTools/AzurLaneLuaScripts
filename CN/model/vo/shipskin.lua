@@ -28,6 +28,24 @@ function slot0.Tag2Name(slot0)
 	return uv0.Tag2NameTab[slot0]
 end
 
+function slot0.GetShopTypeIdBySkinId(slot0, slot1)
+	slot2 = pg.ship_skin_template.get_id_list_by_shop_type_id
+
+	if slot1[slot0] then
+		return slot1[slot0]
+	end
+
+	for slot6, slot7 in pairs(slot2) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot1[slot12] = slot6
+
+			if slot12 == slot0 then
+				return slot6
+			end
+		end
+	end
+end
+
 slot1 = pg.ship_skin_template.get_id_list_by_ship_group
 
 function slot0.GetSkinByType(slot0, slot1)
@@ -234,7 +252,7 @@ function slot0.IsProposeSkin(slot0)
 end
 
 function slot0.CanShare(slot0)
-	return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT or slot4 == uv0.SKIN_TYPE_REMAKE or slot4 == uv0.SKIN_TYPE_PROPOSE and not (function ()
+	function slot3()
 		slot0 = uv0:getConfig("ship_group")
 
 		for slot5, slot6 in pairs(getProxy(BayProxy):getRawData()) do
@@ -244,7 +262,9 @@ function slot0.CanShare(slot0)
 		end
 
 		return false
-	end)() or slot4 == uv0.SKIN_TYPE_OLD or slot4 == uv0.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.configId) or slot4 == uv0.SKIN_TYPE_SHOW_IN_TIME and not (function ()
+	end
+
+	return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT or slot4 == uv0.SKIN_TYPE_REMAKE or slot4 == uv0.SKIN_TYPE_OLD or slot4 == uv0.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.configId) or slot4 == uv0.SKIN_TYPE_SHOW_IN_TIME and not (function ()
 		if uv0 then
 			return true
 		end

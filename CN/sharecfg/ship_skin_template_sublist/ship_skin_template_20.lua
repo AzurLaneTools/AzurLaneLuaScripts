@@ -1,110 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[10800020] = {
-		ship_group = 1080002,
-		name = "新条茜",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "qian",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 10800020,
-		voice_actor_2 = -1,
-		prefab = "qian",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "你好，我是新条茜。这个舰装很有机械感，非常的酷呢。要是再有点怪兽，那就完美了呢……",
-		voice_actor = 108,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.47,
-					2.25,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.28,
-					2.25,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.33,
-							2.57,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10800021] = {
 		ship_group = 1080002,
 		name = "两人独处的休息日",
@@ -11787,9 +11683,8 @@ pg.base.ship_skin_template_20 = {
 		bg_sp = "",
 		l2d_ignore_drag = 0,
 		group_index = 0,
-		shop_id = 0,
-		painting = "qiershazhi",
 		illustrator = 1,
+		painting = "qiershazhi",
 		l2d_voice_calibrate = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -11802,10 +11697,9 @@ pg.base.ship_skin_template_20 = {
 		prefab = "qiershazhi",
 		l2d_se = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "航空战列舰—奇尔沙治",
 		voice_actor = 371,
-		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -11885,6 +11779,27 @@ pg.base.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-35,
+				-1062,
+				0
+			},
+			{
+				0.85
+			}
+		},
+		special_effects = {
+			"lihui_qiershazhi",
+			{
+				-77,
+				39,
+				0
+			},
+			{
+				2.2
 			}
 		}
 	},
@@ -12120,9 +12035,8 @@ pg.base.ship_skin_template_20 = {
 		bg_sp = "",
 		l2d_ignore_drag = 0,
 		group_index = 0,
-		shop_id = 0,
-		painting = "xingdengbao",
 		illustrator = 1,
+		painting = "xingdengbao",
 		l2d_voice_calibrate = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -12135,10 +12049,9 @@ pg.base.ship_skin_template_20 = {
 		prefab = "xingdengbao",
 		l2d_se = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "重巡洋舰—{namecode:521}",
 		voice_actor = 372,
-		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -12218,6 +12131,27 @@ pg.base.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-175,
+				-1049,
+				0
+			},
+			{
+				1.08
+			}
+		},
+		special_effects = {
+			"lihui_xingdengbao",
+			{
+				-183,
+				-1054,
+				0
+			},
+			{
+				1.6
 			}
 		}
 	},

@@ -34,7 +34,6 @@ function slot0.init(slot0)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._shipTpl = slot0:findTF("ship")
 	slot0._upper = slot0:findTF("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do

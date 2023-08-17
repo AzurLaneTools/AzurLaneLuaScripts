@@ -118,7 +118,7 @@ function slot0.OnRefresh(slot0, slot1)
 
 			if slot3[3] and slot6 ~= 0 then
 				slot11 = getProxy(ActivityProxy):getActivityById(slot6)
-				slot10 = slot10 and slot11 and not slot11:isEnd()
+				slot10 = slot10 and (slot11 and not slot11:isEnd() or false)
 			end
 
 			setActive(slot9, slot10)
@@ -174,9 +174,7 @@ function slot0.OnRefresh(slot0, slot1)
 
 							for slot8, slot9 in ipairs(slot4) do
 								if slot9:isUnlock() and (uv2.mapType ~= Map.ELITE or slot9:isEliteEnabled()) and slot3 < slot9.id then
-									slot13 = true
-
-									for slot13, slot14 in pairs(slot9:getChapters(slot13)) do
+									for slot13, slot14 in pairs(slot9:getChapters()) do
 										if math.fmod(slot14.id, 10) == uv2.lastDigit and slot14:isUnlock() and slot14:getConfig("unlocklevel") <= slot2.level then
 											slot0.chapterId = slot14.id
 											slot3 = slot9.id

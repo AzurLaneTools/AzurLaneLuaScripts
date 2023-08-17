@@ -9520,6 +9520,54 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70227] = {
+		id = 70227,
+		name = "2023克莱蒙梭活动 审判庭支援 蛋船移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 30,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70228] = {
+		id = 70228,
+		name = "2023克莱蒙梭活动 EX BOSS回原位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 40
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
@@ -10497,6 +10545,40 @@ pg.auto_pilot_template = {
 					duration = -1,
 					X1 = -40,
 					stopCount = 0
+				}
+			}
+		}
+	},
+	[75028] = {
+		id = 75028,
+		name = "2023克莱蒙梭B1BOSS浮游炮平行移动 上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					X = 0,
+					duration = 300,
+					offsetZ = 5
+				}
+			}
+		}
+	},
+	[75029] = {
+		id = 75029,
+		name = "2023克莱蒙梭B1BOSS浮游炮平行移动 下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					X = 0,
+					duration = 300,
+					offsetZ = -5
 				}
 			}
 		}

@@ -58,6 +58,10 @@ function slot1(slot0, slot1)
 			end
 		end
 	end
+
+	for slot5, slot6 in pairs(slot1:GetBuffList()) do
+		table.insert(slot0, slot6)
+	end
 end
 
 function slot0.GetAllBuff(slot0)

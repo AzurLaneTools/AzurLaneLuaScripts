@@ -1095,14 +1095,17 @@ function slot8.SpawnNPC(slot0, slot1, slot2)
 	slot7:SetMaster(slot2)
 	slot7:InheritMasterAttr()
 	slot7:SetCurrentHP(slot7:GetMaxHP())
-	slot7:SetPosition(Clone(slot2:GetPosition()))
+
+	slot9 = nil
+
+	slot7:SetPosition((not slot1.corrdinate or uv2.RandomPos(slot1.corrdinate)) and Clone(slot2:GetPosition()))
 	slot7:SetAI(slot1.pilotAITemplateID or slot5.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot7)
 
 	if table.contains(TeamType.SubShipType, slot5.type) then
 		slot7:InitOxygen()
 
-		if slot7:GetIFF() ~= uv2.FRIENDLY_CODE then
+		if slot7:GetIFF() ~= uv3.FRIENDLY_CODE then
 			slot0:UpdateHostileSubmarine(true)
 		end
 	end
@@ -1119,10 +1122,10 @@ function slot8.SpawnNPC(slot0, slot1, slot2)
 	slot0._minionShipList[slot3] = slot7
 
 	if slot1.phase then
-		uv3.Battle.BattleUnitPhaseSwitcher.New(slot7):SetTemplateData(slot1.phase)
+		uv4.Battle.BattleUnitPhaseSwitcher.New(slot7):SetTemplateData(slot1.phase)
 	end
 
-	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
+	slot0:DispatchEvent(uv4.Event.New(uv5.ADD_UNIT, {
 		type = slot4,
 		unit = slot7,
 		bossData = slot1.bossData,

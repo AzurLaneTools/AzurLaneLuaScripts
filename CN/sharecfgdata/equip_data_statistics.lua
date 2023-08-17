@@ -73490,7 +73490,8 @@ _G.pg.base.equip_data_statistics[32360] = {
 		"IJN",
 		"CL",
 		"MG",
-		"HE"
+		"HE",
+		"ShimantoMG"
 	}
 }
 
@@ -125085,6 +125086,59 @@ _G.pg.base.equip_data_statistics[80033] = {
 	label = {}
 }
 
+_G.pg.base.equip_data_statistics[80041] = {
+	type = 1,
+	name = "专属弹幕-吉尚I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80041,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170161
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80042] = {
+	id = 80042,
+	name = "专属弹幕-吉尚II",
+	base = 80041,
+	weapon_id = {
+		170162
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "B-13 双联装130mm主炮B-2LM",
@@ -134816,6 +134870,200 @@ _G.pg.base.equip_data_statistics[90247] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[90260] = {
+	tech = 0,
+	name = "三联装152mm主炮Mle1930(高爆弹)",
+	speciality = "锁定",
+	type = 2,
+	descrip = "鸢尾研发的三联装152mm轻巡用主炮，换装了高爆弹药",
+	ammo = 2,
+	damage = "12 x 6",
+	nationality = 8,
+	rarity = 5,
+	id = 90260,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "50200",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			2210
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2210
+		},
+		{
+			4,
+			1110
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		90260
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CL",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[90261] = {
+	id = 90261,
+	base = 90260,
+	weapon_id = {
+		90261
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90262] = {
+	id = 90262,
+	damage = "13 x 6",
+	base = 90260,
+	weapon_id = {
+		90262
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90263] = {
+	id = 90263,
+	damage = "14 x 6",
+	base = 90260,
+	weapon_id = {
+		90263
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90264] = {
+	id = 90264,
+	damage = "15 x 6",
+	base = 90260,
+	weapon_id = {
+		90264
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90265] = {
+	id = 90265,
+	damage = "16 x 6",
+	base = 90260,
+	weapon_id = {
+		90265
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90266] = {
+	id = 90266,
+	damage = "17 x 6",
+	base = 90260,
+	weapon_id = {
+		90266
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90267] = {
+	id = 90267,
+	damage = "18 x 6",
+	base = 90260,
+	weapon_id = {
+		90267
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90268] = {
+	id = 90268,
+	damage = "19 x 6",
+	base = 90260,
+	weapon_id = {
+		90268
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90269] = {
+	id = 90269,
+	damage = "20 x 6",
+	base = 90260,
+	weapon_id = {
+		90269
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90270] = {
+	id = 90270,
+	damage = "21 x 6",
+	base = 90260,
+	weapon_id = {
+		90270
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90271] = {
+	id = 90271,
+	anti_siren = 100,
+	damage = "21 x 6",
+	base = 90260,
+	weapon_id = {
+		90271
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90272] = {
+	id = 90272,
+	anti_siren = 200,
+	damage = "21 x 6",
+	base = 90260,
+	weapon_id = {
+		90272
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90273] = {
+	id = 90273,
+	anti_siren = 300,
+	damage = "21 x 6",
+	base = 90260,
+	weapon_id = {
+		90273
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[90300] = {
 	tech = 1,
 	name = "四联装330mm主炮Mle1931",
@@ -138812,7 +139060,7 @@ _G.pg.base.equip_data_statistics[91000] = {
 	part_sub = {},
 	equip_parameters = {},
 	label = {
-		"KMS",
+		"FFNF",
 		"BB",
 		"MG",
 		"AP"
