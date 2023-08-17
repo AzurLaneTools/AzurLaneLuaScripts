@@ -890,11 +890,10 @@ pg.login = {
 	},
 	[31] = {
 		id = 31,
+		op_play = 1,
 		login_static = "login_0817_2",
-		op_play = 0,
-		op_time = "",
 		login_cri = "loginbg",
-		bgm = "",
+		bgm = "story-musicanniversary-gorgeous",
 		date = {
 			"timer",
 			{
@@ -914,6 +913,32 @@ pg.login = {
 					2023,
 					8,
 					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					31
 				},
 				{
 					23,

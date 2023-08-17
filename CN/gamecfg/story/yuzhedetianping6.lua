@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actorName = "孟菲斯",
 			nameColor = "#A9F548FF",
-			say = "<size=44>那边正在跑路的三个人！快到这边来，我们掩护你！</size>",
+			say = "那边正在跑路的三个人！快到这边来，我们掩护你！",
 			painting = {
 				alpha = 0.3,
 				time = 1

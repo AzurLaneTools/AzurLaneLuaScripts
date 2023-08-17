@@ -19,7 +19,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
 			say = "上方的光芒在逐渐增强，我们正在接近波光粼粼的水面。",
@@ -31,7 +31,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "看向身边的少女，互相做出确认出水的手势后。",
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -77,7 +77,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -113,7 +113,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -149,7 +149,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -163,7 +163,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -177,7 +177,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -195,7 +195,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -209,7 +209,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -227,7 +227,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -245,7 +245,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -263,7 +263,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -281,7 +281,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -299,7 +299,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -313,7 +313,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -331,7 +331,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -349,7 +349,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -363,7 +363,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -377,7 +377,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -391,7 +391,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -409,7 +409,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -427,7 +427,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -445,7 +445,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -463,7 +463,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -481,7 +481,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -499,7 +499,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -527,7 +527,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -545,7 +545,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -563,7 +563,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -581,7 +581,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -599,7 +599,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -617,7 +617,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -635,7 +635,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -653,7 +653,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -667,7 +667,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -685,7 +685,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -703,7 +703,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -721,7 +721,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -739,7 +739,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -757,7 +757,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
@@ -771,7 +771,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -789,7 +789,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -807,7 +807,7 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",

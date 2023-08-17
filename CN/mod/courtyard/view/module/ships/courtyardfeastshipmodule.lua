@@ -56,18 +56,12 @@ end
 
 function slot0.OnFeastShipShowExpress(slot0, slot1)
 	if slot0.expressList[slot1] then
+		slot0:ClearChatAnimation()
 		slot0:PlayExpressAnim(slot2)
 	end
 end
 
-function slot0.PlayChatAnim(slot0, slot1, slot2, slot3)
-	slot0:ClearExpressAnim()
-	uv0.super.PlayChatAnim(slot0, slot1, slot2, slot3)
-end
-
 function slot0.PlayExpressAnim(slot0, slot1, slot2, slot3)
-	slot0:ClearExpressAnim()
-
 	slot4 = LeanTween.scale(go(slot1), defaultValue(slot2, Vector3(1, 1, 1)), 0.5)
 	slot4 = slot4:setEase(LeanTweenType.easeOutBack)
 	slot4 = slot4:setDelay(defaultValue(slot3, 0))
@@ -77,22 +71,18 @@ function slot0.PlayExpressAnim(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.ClearExpressAnim(slot0)
+function slot0.ClearChatAnimation(slot0)
+	uv0.super.ClearChatAnimation(slot0)
+
 	slot1 = ipairs
 	slot2 = slot0.expressList or {}
 
 	for slot4, slot5 in slot1(slot2) do
 		if LeanTween.isTweening(slot5.gameObject) then
 			LeanTween.cancel(slot5.gameObject)
-
-			slot0.expressList.localScale = Vector3.zero
 		end
-	end
 
-	if LeanTween.isTweening(go(slot0.chatTF)) then
-		LeanTween.cancel(go(slot0.chatTF))
-
-		slot0.chatTF.localScale = Vector3.zero
+		slot5.localScale = Vector3.zero
 	end
 end
 
@@ -178,8 +168,6 @@ function slot0.OnStateChange(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0:ClearExpressAnim()
-
 	slot0.cg.blocksRaycasts = true
 	slot1 = ipairs
 	slot2 = slot0.timers or {}

@@ -287,6 +287,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["莱"] = {
+			["蒙"] = {
+				["梭"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -646,7 +653,12 @@ function temp()
 			["吉"] = {
 				["尼"] = {
 					["亚"] = {
-						this = true
+						this = true,
+						["·"] = {
+							["改"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -1080,6 +1092,11 @@ function temp()
 				}
 			}
 		},
+		["赛"] = {
+			["曲"] = {
+				this = true
+			}
+		},
 		["可"] = {
 			["波"] = {
 				["罗"] = {
@@ -1505,6 +1522,9 @@ function temp()
 			}
 		},
 		["诺"] = {
+			this = true
+		},
+		["昂"] = {
 			this = true
 		}
 	}
@@ -6295,6 +6315,11 @@ function temp()
 	uv0["凯"] = {
 		["旋"] = {
 			this = true
+		},
+		["尔"] = {
+			["圣"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6350,6 +6375,33 @@ end
 temp()
 
 function temp()
+	uv0["吉"] = {
+		["尚"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["絮"] = {
+		["弗"] = {
+			["伦"] = {
+				this = true
+			}
+		},
+		["库"] = {
+			["夫"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["黎"] = {
 		["塞"] = {
 			["留"] = {
@@ -6362,9 +6414,9 @@ end
 temp()
 
 function temp()
-	uv0["絮"] = {
-		["库"] = {
-			["夫"] = {
+	uv0["伴"] = {
+		["尔"] = {
+			["维"] = {
 				this = true
 			}
 		}
@@ -6456,6 +6508,20 @@ function temp()
 		},
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["路"] = {
+		["易"] = {
+			["九"] = {
+				["世"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6917,20 +6983,6 @@ function temp()
 	uv0["侌"] = {
 		this = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["路"] = {
-		["易"] = {
-			["九"] = {
-				["世"] = {
-					this = true
-				}
-			}
 		}
 	}
 end

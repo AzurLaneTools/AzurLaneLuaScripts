@@ -19,16 +19,16 @@ return {
 		},
 		{
 			mode = 5,
-			cpkPath = "story_4329"
+			cpkPath = "story_4329",
+			bgm = "story-musicanniversary-gorgeous"
 		},
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
-			say = "出现在眼前的是——",
 			bgmDelay = 1,
-			bgm = "story-musicanniversary-gorgeous",
+			say = "出现在眼前的是——",
 			flashout = {
 				dur = 1,
 				alpha = {

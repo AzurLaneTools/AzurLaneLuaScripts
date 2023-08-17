@@ -565,11 +565,12 @@ return {
 		},
 		{
 			actor = 905021,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_118",
 			hidePaintObj = true,
 			withoutActorName = true,
-			side = 2,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "克莱蒙梭再次从背后贴了过来，将头靠在我的肩膀上小声耳语道——",
 			typewriter = {
 				speed = 0.05,

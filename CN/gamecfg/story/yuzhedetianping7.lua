@@ -2208,7 +2208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不得不说那位小姐还真是好运，躲过一劫啊……",
+			say = "不得不说那位镇海小姐还真是好运，躲过一劫啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
