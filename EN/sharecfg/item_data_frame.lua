@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 107,
 		time_second = 0,
-		desc = "Granted to all Commanders who have defended the port for five years.\n (earned by participating in the 5th Anniversary limited event)",
+		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for five years.</color>\nEarned by participating in the 5th Anniversary limited event.",
 		scene = {}
 	},
 	[201] = {

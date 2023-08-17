@@ -15077,7 +15077,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740025] = {
 		map = 1740025,
-		name = "The Fool's Scales·SP|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -15121,7 +15121,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740026] = {
 		map = 1740026,
-		name = "The Fool's Scales·EX|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

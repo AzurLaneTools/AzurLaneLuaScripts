@@ -22475,5 +22475,15 @@ cs.gametip = {
 		851086,
 		367,
 		true
+	},
+	feast_drag_invitation_tip = {
+		851453,
+		143,
+		true
+	},
+	feast_drag_gift_tip = {
+		851596,
+		131,
+		true
 	}
 }

@@ -2965,7 +2965,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80302] = {
 		shiptype = 3,
-		name = "Suffren-Class",
+		name = "Suffren Class",
 		nation = 8,
 		id = 80302,
 		t_level_1 = 137,

@@ -45,7 +45,7 @@ pg.item_data_chat = {
 		name = "5th Anniversary",
 		id = 105,
 		time_second = 0,
-		desc = "Granted to all Commanders who have defended the port for five years.\n<color=#ffffff>Earned by participating in the 5th Anniversary limited event.</color>",
+		desc = "Granted to all Commanders who have defended the port for five years.\n<color=#A7A7AAFF>Earned by participating in the 5th Anniversary limited event.</color>",
 		scene = {}
 	},
 	[300] = {

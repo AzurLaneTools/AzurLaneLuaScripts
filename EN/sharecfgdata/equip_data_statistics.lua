@@ -124961,7 +124961,7 @@ _G.pg.base.equip_data_statistics[80041] = {
 
 _G.pg.base.equip_data_statistics[80042] = {
 	id = 80042,
-	name = "All Out Assault I",
+	name = "All Out Assault II",
 	base = 80041,
 	weapon_id = {
 		170162

@@ -13427,7 +13427,7 @@ _G.pg.base.spweapon_data_statistics[12250] = {
 
 _G.pg.base.spweapon_data_statistics[12260] = {
 	tech = 0,
-	name = "Hammer of Faith",
+	name = "Bludgeon of Faith",
 	value_2_random = 5,
 	type = 4,
 	value_1_random = 10,

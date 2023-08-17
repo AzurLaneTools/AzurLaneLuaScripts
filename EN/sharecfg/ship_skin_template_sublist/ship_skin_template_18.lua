@@ -8596,7 +8596,7 @@ pg.base.ship_skin_template_18 = {
 	},
 	[900384] = {
 		ship_group = 900384,
-		name = "Jeanne",
+		name = "Jeanne d'Arc",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",

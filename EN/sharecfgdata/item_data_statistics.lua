@@ -212809,8 +212809,8 @@ _G.pg.base.item_data_statistics[60414] = {
 }
 
 _G.pg.base.item_data_statistics[60415] = {
-	display = "由黎塞留赠与的，作为宴会邀约的回礼",
-	name = "Richelieu's Return Gift",
+	display = "A card from Richelieu. It reads: \"I wish you a pleasant anniversary, Commander. We're just past the first half of a wonderful year, and I believe the trend will continue into the second half. May the Holy Iris grace you with its blessings. P.S.: I hope you enjoy our banquet.\"",
+	name = "Richelieu's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -212832,7 +212832,7 @@ _G.pg.base.item_data_statistics[60415] = {
 }
 
 _G.pg.base.item_data_statistics[60416] = {
-	display = "A card from Enterprise. It reads: \"Happy anniversary, Commander. It's been a real journey getting to where we are now, and there's still a long road ahead of us. Hope I can be with you every step of the way.\"",
+	display = "A card from Enterprise. It reads: \"Another year, huh? Well, it's not JUST another year. I've seen new sights, made new friends, and formed new memories I'll treasure forever. I hope you have too, Commander. Happy anniversary.\"",
 	name = "Enterprise's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
@@ -212855,7 +212855,7 @@ _G.pg.base.item_data_statistics[60416] = {
 }
 
 _G.pg.base.item_data_statistics[60417] = {
-	display = "A card from Essex. It reads: \"Happy anniversary, Commander. How many years at this port does that make it now? It feels like we've known each other practically forever... I dare say that's a bit mysterious. Maybe this is a case for Detective Ess– Err, I mean, Detective Bristol!\"",
+	display = "A card from Essex. It reads: \"Happy anniversary, Commander! Whenever this time of year comes around, I'm always reminded of what a pleasure and honor it is to be at this port. Thank you for all you do for us. Also, if you have time later, will you drop by and test a lemonade cocktail recipe I've been working on?\"",
 	name = "Essex's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
@@ -212878,7 +212878,7 @@ _G.pg.base.item_data_statistics[60417] = {
 }
 
 _G.pg.base.item_data_statistics[60418] = {
-	display = "A card from Belfast. It reads: \"I wish you a joyous and fortuitous 5-year anniversary, Master.\"",
+	display = "A card from Belfast. It reads: \"I wish you a happy anniversary, Master. Her Majesty requested that I deliver you a bottle of some our finest aged wine. At the risk of sounding brazen, would you like to share a glass with your humble maid?\"",
 	name = "Belfast's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
@@ -212901,8 +212901,8 @@ _G.pg.base.item_data_statistics[60418] = {
 }
 
 _G.pg.base.item_data_statistics[60419] = {
-	display = "由可畏赠与的，作为宴会邀约的回礼",
-	name = "Formidable's Return Gift",
+	display = "A card from Formidable. It reads: \"Happy anniversary, Commander. I've been thinking – the classical music we play at our tea parties is fine and all, but don't you want to experience something new? I propose a private tea party between you and me. You bring the tea set, and I'll bring the rock records.\"",
+	name = "Formidable's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -212924,7 +212924,7 @@ _G.pg.base.item_data_statistics[60419] = {
 }
 
 _G.pg.base.item_data_statistics[60420] = {
-	display = "A card from Amagi. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
+	display = "A card from Amagi. It reads: \"Every anniversary is precious to me. It's a time to reminisce on fond memories, reconnect with old friends, and celebrate all the progress we've made. This one is no different, and I'm glad to be a part of it. Here is to your good health, Commander.\"",
 	name = "Amagi's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
@@ -212947,8 +212947,8 @@ _G.pg.base.item_data_statistics[60420] = {
 }
 
 _G.pg.base.item_data_statistics[60421] = {
-	display = "由阿芙乐尔赠与的，作为宴会邀约的回礼",
-	name = "Avrora's Return Gift",
+	display = "A card from Avrora. It reads: \"Here we are again, Commander. Happy anniversary! What are your highlights of the year thus far? I hope you've met new people, sung good songs, and enjoyed some fine spirits. If you ever need a drinking buddy, you know where to find me!\"",
+	name = "Avrora's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -212970,8 +212970,8 @@ _G.pg.base.item_data_statistics[60421] = {
 }
 
 _G.pg.base.item_data_statistics[60422] = {
-	display = "由扎拉赠与的，作为宴会邀约的回礼",
-	name = "Zara's Return Gift",
+	display = "A card from Zara. It reads: \"Hey, Commander. What a hot summer it's been, am I right? Wish I could wear something less... formal to the celebrations, but you know how the rules are. Here's to our anniversary, and to a good year!\"",
+	name = "Zara's Gift (5th Anniversary)",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,

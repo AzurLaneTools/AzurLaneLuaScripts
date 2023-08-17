@@ -21,16 +21,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"Come enjoy the banquet with me, Commander.\",\"Hey, Commander... What do you think about my dress?"
+			"Come enjoy the banquet with me, Commander.",
+			"Hey, Commander... What do you think about my dress?"
 		},
 		foodfeeling = {
-			"They really cooked up a whole feast, huh? Found any favorites, Commander?\",\"This taste is gonna stick with me. I'm curious how the chefs made it."
+			"They really cooked up a whole feast, huh? Found any favorites, Commander?",
+			"This taste is gonna stick with me. I'm curious how the chefs made it."
 		},
 		drinkfeeling = {
-			"What do you say to a drink, Commander?\",\"Don't drink too much, now. It'd be bad if you got drunk."
+			"What do you say to a drink, Commander?",
+			"Don't drink too much, now. It'd be bad if you got drunk."
 		},
 		dancefeeling = {
-			"You wanna dance? Sure. Just give me orders... I mean, instructions, on what to do.\",\"I need to work on my dancing skills."
+			"You wanna dance? Sure. Just give me orders... I mean, instructions, on what to do.",
+			"I need to work on my dancing skills."
 		}
 	},
 	{
@@ -54,16 +58,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"Oh my god, you're looking sooo stylish, Commander! I wanna check you out up close...\",\"Found you, Commandeeer! Hehehe... No, I'm not drunk at aaall~"
+			"Oh my god, you're looking sooo stylish, Commander! I wanna check you out up close...",
+			"Found you, Commandeeer! Hehehe... No, I'm not drunk at aaall~"
 		},
 		foodfeeling = {
-			"It all looks so delicious... Where do I even start?\",\"What's your favorite thing on the menu, Commander?"
+			"It all looks so delicious... Where do I even start?",
+			"What's your favorite thing on the menu, Commander?"
 		},
 		drinkfeeling = {
-			"What a lovely fragrance! Commander, you should taste this. I really recommend it.\",\"Oh, don't be ridiculous! I won't get drunk this time! Probably..."
+			"What a lovely fragrance! Commander, you should taste this. I really recommend it.",
+			"Oh, don't be ridiculous! I won't get drunk this time! Probably..."
 		},
 		dancefeeling = {
-			"A dance? You sound pretty confident in yourself~\",\"One step to the right, one to the left... Okay, I still remember it."
+			"A dance? You sound pretty confident in yourself~",
+			"One step to the right, one to the left... Okay, I still remember it."
 		}
 	},
 	{
@@ -87,16 +95,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"I heard your work has been rough on you... You should unwind for a while.\",\"This will be a riveting banquet as long as you're here. Heehee."
+			"I heard your work has been rough on you... You should unwind for a while.",
+			"This will be a riveting banquet as long as you're here. Heehee."
 		},
 		foodfeeling = {
-			"It's quite the departure from Sakuran cuisine, but not at all in a bad way.\",\"Open your mouth and say \"aah.\" What, are you too shy to try? Heehee."
+			"It's quite the departure from Sakuran cuisine, but not at all in a bad way.",
+			"Open your mouth and say \"aah.\" What, are you too shy to try? Heehee."
 		},
 		drinkfeeling = {
-			"Heehee. You may drink all you like tonight, Commander.\",\"Had too much, and now your head is spinning? Heehee. Don't worry, I'll look after you."
+			"Heehee. You may drink all you like tonight, Commander.",
+			"Had too much, and now your head is spinning? Heehee. Don't worry, I'll look after you."
 		},
 		dancefeeling = {
-			"If it's a dance you want, I suggest we do a slow one.\",\"There is no avoiding physical contact when it comes to dancing."
+			"If it's a dance you want, I suggest we do a slow one.",
+			"There is no avoiding physical contact when it comes to dancing."
 		}
 	},
 	{
@@ -120,16 +132,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"Been lookin' for you, Commander. Whaddya say we catch a break and go on a walk together?\",\"I'll be here with ya the whole day. Lemme know if you want something."
+			"Been lookin' for you, Commander. Whaddya say we catch a break and go on a walk together?",
+			"I'll be here with ya the whole day. Lemme know if you want something."
 		},
 		foodfeeling = {
-			"Alright, sit down and have your fill of the good stuff our chefs made.\",\"Our chefs put their all into this. Hope ya like it. "
+			"Alright, sit down and have your fill of the good stuff our chefs made.",
+			"Our chefs put their all into this. Hope ya like it. "
 		},
 		drinkfeeling = {
-			"Our drinks are hand-picked. They won't disappoint.\",\"To our... Erp... To our friends. Cheers."
+			"Our drinks are hand-picked. They won't disappoint.",
+			"To our... Erp... To our friends. Cheers."
 		},
 		dancefeeling = {
-			"A dance, eh... I'm not one to turn down an offer from you.\",\"Just lettin' you know – I ain't the best dancer. Might step on your toes by accident..."
+			"A dance, eh... I'm not one to turn down an offer from you.",
+			"Just lettin' you know – I ain't the best dancer. Might step on your toes by accident..."
 		}
 	},
 	{
@@ -153,16 +169,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"Heehee. It's such a pleasure to see you, Commander.\",\"Commander, shall we do something to really liven up this banquet?"
+			"Heehee. It's such a pleasure to see you, Commander.",
+			"Commander, shall we do something to really liven up this banquet?"
 		},
 		foodfeeling = {
-			"These dishes all look stunning. They're works of art in their own right!\",\"Shall we feast, Commander?"
+			"These dishes all look stunning. They're works of art in their own right!",
+			"Shall we feast, Commander?"
 		},
 		drinkfeeling = {
-			"Mmh~ This has a wonderful fragrance.\",\"Vypit' do dna, Commander! Cheers!"
+			"Mmh~ This has a wonderful fragrance.",
+			"Vypit' do dna, Commander! Cheers!"
 		},
 		dancefeeling = {
-			"I'm honored that you'd like to dance. Shall we?\",\"You can come closer if you'd like, Commander. This IS a dance."
+			"I'm honored that you'd like to dance. Shall we?",
+			"You can come closer if you'd like, Commander. This IS a dance."
 		}
 	},
 	{
@@ -186,16 +206,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"Servant! Come here, quickly! We're going to have a look around the banquet!\",\"You've really put your all into this, servant. Hmpf! Yes, even I acknowledge hard work from time to time!"
+			"Servant! Come here, quickly! We're going to have a look around the banquet!",
+			"You've really put your all into this, servant. Hmpf! Yes, even I acknowledge hard work from time to time!"
 		},
 		foodfeeling = {
-			"This food isn't so bad. I'll give it a thumbs up.\",\"Servant, come here and enjoy the cooking with me."
+			"This food isn't so bad. I'll give it a thumbs up.",
+			"Servant, come here and enjoy the cooking with me."
 		},
 		drinkfeeling = {
-			"I can tell these wine brands are both carefully chosen and well-aged.\",\"This toast is for you, servant... Wh-what? You look surprised to hear that..."
+			"I can tell these wine brands are both carefully chosen and well-aged.",
+			"This toast is for you, servant... Wh-what? You look surprised to hear that..."
 		},
 		dancefeeling = {
-			"Well, well. Let's see how much you've improved.\",\"Servant! Try to keep up with my steps!"
+			"Well, well. Let's see how much you've improved.",
+			"Servant! Try to keep up with my steps!"
 		}
 	},
 	{
@@ -219,16 +243,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"I'm forever in your debt. Allow me to thank you again for all you do.\",\"I'm having a wonderful time here, thanks to you, Commander."
+			"I'm forever in your debt. Allow me to thank you again for all you do.",
+			"I'm having a wonderful time here, thanks to you, Commander."
 		},
 		foodfeeling = {
-			"It's rare that I get to just enjoy food worrying about appearances.\",\"It enhances the eating experience so much when you have company."
+			"It's rare that I get to just enjoy food worrying about appearances.",
+			"It enhances the eating experience so much when you have company."
 		},
 		drinkfeeling = {
-			"Drinking alone isn't bad, but it's much more enjoyable to drink with you.\",\"Whew... I think I've had too much... Could I lean on your shoulder for a minute?"
+			"Drinking alone isn't bad, but it's much more enjoyable to drink with you.",
+			"Whew... I think I've had too much... Could I lean on your shoulder for a minute?"
 		},
 		dancefeeling = {
-			"You're asking me to dance? Heehee. Then I leave myself in your capable hands.\",\"I was like a different person when we danced, you say? Heehee."
+			"You're asking me to dance? Heehee. Then I leave myself in your capable hands.",
+			"I was like a different person when we danced, you say? Heehee."
 		}
 	},
 	all = {

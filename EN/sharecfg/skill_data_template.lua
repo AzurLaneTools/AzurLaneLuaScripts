@@ -98675,7 +98675,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30091] = {
 		desc_get = "",
-		name = "All Out Assault - Guichen I",
+		name = "All Out Assault I",
 		id = 30091,
 		type = 1,
 		max_level = 1,
@@ -98689,7 +98689,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30092] = {
 		desc_get = "",
-		name = "All Out Assault - Guichen II",
+		name = "All Out Assault II",
 		id = 30092,
 		type = 1,
 		max_level = 1,

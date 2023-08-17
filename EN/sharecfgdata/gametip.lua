@@ -25087,3 +25087,11 @@ _G.pg.base.gametip.uscastle2023_minigame_help = {
 		}
 	}
 }
+
+_G.pg.base.gametip.feast_drag_invitation_tip = {
+	tip = "Drag the invitation to the shipgirl to send it to her"
+}
+
+_G.pg.base.gametip.feast_drag_gift_tip = {
+	tip = "Drag the gift to the shipgirl to send it to her"
+}
