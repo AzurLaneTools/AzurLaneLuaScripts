@@ -11,32 +11,36 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorRgiht = slot0:findTF("actor_right", slot0.actorPanel)
 	slot0.initActorRgihtPos = slot0.actorRgiht.localPosition
 	slot0.sortingOrder = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
-	slot0.contentArr = slot0.dialoguePanel:Find("next/arrow")
-	slot0.conentTxt = slot0:findTF("content", slot0.dialoguePanel):GetComponent(typeof(Text))
-	slot0.typewriter = slot0:findTF("content", slot0.dialoguePanel):GetComponent(typeof(Typewriter))
-	slot0.nameLeft = slot0:findTF("name_left", slot0.dialoguePanel)
-	slot0.nameRight = slot0:findTF("name_right", slot0.dialoguePanel)
-	slot0.nameLeftTxt = slot0:findTF("Text", slot0.nameLeft):GetComponent(typeof(Text))
-	slot0.nameRightTxt = slot0:findTF("Text", slot0.nameRight):GetComponent(typeof(Text))
 	slot0.subActorMiddle = UIItemList.New(slot0:findTF("actor_middle/sub", slot0.actorPanel), slot0:findTF("actor_middle/sub/tpl", slot0.actorPanel))
 	slot0.subActorRgiht = UIItemList.New(slot0:findTF("actor_right/sub", slot0.actorPanel), slot0:findTF("actor_right/sub/tpl", slot0.actorPanel))
 	slot0.subActorLeft = UIItemList.New(slot0:findTF("actor_left/sub", slot0.actorPanel), slot0:findTF("actor_left/sub/tpl", slot0.actorPanel))
 	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
+	slot0.maskMaterialForWithLayer = slot0:findTF("resource/material5"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPaintingBg = slot0:findTF("resource/material4"):GetComponent(typeof(Image)).material
-	slot2 = slot0:findTF("front/icon")
-	slot0.iconImage = slot2:GetComponent(typeof(Image))
+	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
 	slot0.typewriterSpeed = 0
-	slot0.defualtFontSize = slot0.conentTxt.fontSize
 	slot0.contentBgAlpha = 1
+	slot0.live2dChars = {}
+	slot0.spinePainings = {}
+end
+
+function slot0.OnStart(slot0, slot1)
+	slot0.contentArr = slot0.dialogueWin:Find("next/arrow")
+	slot0.conentTxt = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Text))
+	slot0.typewriter = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Typewriter))
+	slot0.nameLeft = slot0:findTF("name_left", slot0.dialogueWin)
+	slot0.nameRight = slot0:findTF("name_right", slot0.dialogueWin)
+	slot0.nameLeftTxt = slot0:findTF("Text", slot0.nameLeft):GetComponent(typeof(Text))
+	slot2 = slot0:findTF("Text", slot0.nameRight)
+	slot0.nameRightTxt = slot2:GetComponent(typeof(Text))
 	slot0.contentBgs = {
 		slot0:findTF("bg", slot0.nameLeft),
 		slot0:findTF("bg", slot0.nameRight),
-		slot0:findTF("bg", slot0.dialoguePanel)
+		slot0:findTF("bg", slot0.dialogueWin)
 	}
-	slot0.live2dChars = {}
-	slot0.spinePainings = {}
+	slot0.defualtFontSize = slot0.conentTxt.fontSize
 end
 
 function slot0.OnReset(slot0, slot1, slot2)
@@ -105,6 +109,9 @@ function slot0.OnInit(slot0, slot1, slot2)
 		end,
 		function (slot0)
 			uv0:UpdatePainting(uv1, slot0)
+		end,
+		function (slot0)
+			uv0:UpdateCanMarkNode(uv1, slot0)
 		end
 	}, slot2)
 end
@@ -118,7 +125,7 @@ function slot0.OnStartUIAnimations(slot0, slot1, slot2)
 
 	slot3 = slot1:GetShakeDailogueData()
 
-	slot0:TweenMovex(slot0.dialoguePanel, slot3.x, slot0.dialoguePanel.localPosition.x, slot3.speed, slot3.delay, slot3.number, slot2)
+	slot0:TweenMovex(slot0.dialogueWin, slot3.x, slot0.dialogueWin.localPosition.x, slot3.speed, slot3.delay, slot3.number, slot2)
 end
 
 function slot0.OnEnter(slot0, slot1, slot2, slot3)
@@ -136,6 +143,74 @@ function slot0.OnEnter(slot0, slot1, slot2, slot3)
 			uv0:UpdateIcon(uv1, slot0)
 		end
 	}, slot3)
+end
+
+function slot1(slot0, slot1)
+	slot2 = ResourceMgr.Inst
+
+	slot2:getAssetAsync("Story/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0(slot0)
+	end), true, true)
+end
+
+function slot2(slot0, slot1)
+	if not slot1 then
+		return false
+	end
+
+	return slot0:GetCanMarkNodeData().name == slot1.name
+end
+
+function slot0.UpdateCanMarkNode(slot0, slot1, slot2)
+	if not slot1:ExistCanMarkNode() or not uv0(slot1, slot0.canMarkNode) then
+		slot0:ClearCanMarkNode(slot0.canMarkNode)
+	end
+
+	if not slot3 then
+		slot2()
+
+		return
+	end
+
+	slot4 = slot1:GetCanMarkNodeData()
+
+	function slot5(slot0)
+		eachChild(slot0, function (slot0)
+			if table.contains(uv0.marks, slot0.gameObject.name) ~= isActive(slot0) then
+				setActive(slot0, slot1)
+			end
+		end)
+	end
+
+	if not slot0.canMarkNode then
+		uv1(slot4.name, function (slot0)
+			if uv0.stop or not slot0 then
+				uv1()
+
+				return
+			end
+
+			slot1 = Object.Instantiate(slot0, uv0.backPanel)
+			uv0.canMarkNode = {
+				name = uv2.name,
+				go = slot1
+			}
+
+			uv3(slot1)
+			uv1()
+		end)
+	else
+		slot5(slot0.canMarkNode.go)
+		slot2()
+	end
+end
+
+function slot0.ClearCanMarkNode(slot0)
+	if slot0.canMarkNode then
+		Object.Destroy(slot0.canMarkNode.go)
+
+		slot0.canMarkNode = nil
+	end
 end
 
 function slot0.UpdateIcon(slot0, slot1, slot2)
@@ -242,6 +317,8 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 		setActive(slot4, slot1:GetNameWithColor() and slot10 ~= "")
 
 		slot5.text = slot10
+
+		setText(slot5.gameObject.transform:Find("subText"), slot1:GetSubActorName())
 	end
 end
 
@@ -290,7 +367,7 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot1(slot0, slot1, slot2)
+function slot3(slot0, slot1, slot2)
 	slot4 = nil
 
 	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Canvas)).Length do
@@ -457,7 +534,7 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.name
 
 	if slot0.showNPainting and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) then
@@ -747,15 +824,17 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 
 		cloneTplTo(slot6, slot6.parent, "temp_mask"):SetAsFirstSibling()
 
-		for slot12 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			if slot8[slot12].gameObject.name == "temp_mask" then
-				slot13.material = slot0.maskMaterial
-			elseif slot13.gameObject.name == "face" then
-				slot13.material = slot0.glitchArtMaterial
-			elseif slot3.hasPaintbg and slot13.gameObject == slot2.gameObject then
-				slot13.material = slot0.glitchArtMaterialForPaintingBg
+		slot9 = IsNil(slot2:Find("layers"))
+
+		for slot14 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			if slot10[slot14].gameObject.name == "temp_mask" then
+				slot15.material = slot9 and slot0.maskMaterial or slot0.maskMaterialForWithLayer
+			elseif slot15.gameObject.name == "face" then
+				slot15.material = slot0.glitchArtMaterial
+			elseif slot3.hasPaintbg and slot15.gameObject == slot2.gameObject then
+				slot15.material = slot0.glitchArtMaterialForPaintingBg
 			else
-				slot13.material = slot0.glitchArtMaterialForPainting
+				slot15.material = slot0.glitchArtMaterialForPainting
 			end
 		end
 	elseif slot4 then
@@ -828,7 +907,7 @@ function slot0.RecyclesSubPantings(slot0, slot1)
 	end)
 end
 
-function slot3(slot0)
+function slot5(slot0)
 	if slot0:Find("fitter").childCount == 0 then
 		return
 	end
@@ -858,7 +937,7 @@ function slot3(slot0)
 	end
 end
 
-function slot4(slot0, slot1)
+function slot6(slot0, slot1)
 	slot3 = false
 
 	if slot0.live2dChars[slot1] then
@@ -882,7 +961,7 @@ function slot4(slot0, slot1)
 	end
 end
 
-function slot5(slot0, slot1)
+function slot7(slot0, slot1)
 	slot3 = false
 
 	if slot0.spinePainings[slot1] then
@@ -944,6 +1023,7 @@ function slot0.OnClear(slot0)
 end
 
 function slot0.OnEnd(slot0)
+	slot0:ClearCanMarkNode()
 	slot0:RecyclePainting({
 		"actorLeft",
 		"actorMiddle",

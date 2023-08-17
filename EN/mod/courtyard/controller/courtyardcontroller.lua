@@ -4,7 +4,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.system = slot1.system
 	slot0.storeyId = slot1.storeyId
 	slot0.storeyDatas = slot1.storeys
-	slot0.storey = slot0:IdToStorey(slot0.storeyId)
+	slot0.storey = slot0:System2Storey(slot1)
 	slot0.isInit = false
 end
 
@@ -74,6 +74,10 @@ function slot0.GetStorey(slot0)
 end
 
 function slot0.AddFurniture(slot0, slot1, slot2)
+	if not slot0.storey then
+		return
+	end
+
 	function slot3(slot0, slot1)
 		slot2 = uv0:DataToFurnitureVO(uv1)
 
@@ -106,12 +110,23 @@ function slot0.AddFurniture(slot0, slot1, slot2)
 end
 
 function slot0.AddShip(slot0, slot1)
-	if not slot0.storey:AddShip(slot0:DataToShip(slot1)) then
+	if not slot0.storey then
+		return
+	end
+
+	if slot0.storey:GetRandomPosition(slot0:DataToShip(slot1)) then
+		slot2:SetPosition(slot3)
+		slot0.storey:AddShip(slot2)
+	else
 		_courtyard:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot2.id)
 	end
 end
 
 function slot0.AddVisitorShip(slot0, slot1)
+	if not slot0.storey then
+		return
+	end
+
 	slot0.storey:AddShip(slot0:DataToVisitorShip(slot1))
 end
 
@@ -311,6 +326,10 @@ function slot0.IsVisit(slot0)
 	return slot0.system == CourtYardConst.SYSTEM_VISIT
 end
 
+function slot0.IsFeast(slot0)
+	return slot0.system == CourtYardConst.SYSTEM_FEAST
+end
+
 function slot0.IsEditModeOrIsVisit(slot0)
 	return slot0:IsVisit() or slot0.storey:InEidtMode()
 end
@@ -395,19 +414,25 @@ function slot0.DataToFurnitureVO(slot0, slot1)
 end
 
 function slot0.DataToShip(slot0, slot1)
-	return CourtYardShip.New(slot1)
+	if slot0.system == CourtYardConst.SYSTEM_FEAST then
+		return CourtYardFeastShip.New(slot1)
+	else
+		return CourtYardShip.New(slot1)
+	end
 end
 
 function slot0.DataToVisitorShip(slot0, slot1)
 	return CourtYardVisitorShip.New(slot1)
 end
 
-function slot0.IdToStorey(slot0, slot1)
-	return ({
-		CourtYardStorey,
-		CourtYardStorey,
-		CourtYardOutStorey
-	})[slot1].New(slot1)
+function slot0.System2Storey(slot0, slot1)
+	slot2 = Vector4(slot1.mapSize.z + 1, slot1.mapSize.w + 1, slot1.mapSize.x, slot1.mapSize.y)
+
+	if slot1.system == CourtYardConst.SYSTEM_OUTSIDE then
+		return CourtYardOutStorey.New(slot1.storeyId, slot1.style, slot2)
+	else
+		return CourtYardStorey.New(slot1.storeyId, slot1.style, slot2)
+	end
 end
 
 return slot0

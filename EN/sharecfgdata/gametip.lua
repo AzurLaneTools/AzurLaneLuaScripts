@@ -7779,6 +7779,10 @@ The skill <color=#92fc63>Martyr</color> will change into <color=#92fc63>Martyr+<
 This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_105234 = {
+	tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - West Virginia</color>."
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
 }
@@ -10180,7 +10184,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Attilio Regolo, Gorizia, and more!"
+	tip = "Rate UP for Clemenceau, Guichen, and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12062,6 +12066,10 @@ Event Information:
 
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1D$2H$3M"
+}
+
+_G.pg.base.gametip.pray_build_select_ship_instruction = {
+	tip = "Select 2 shipgirls."
 }
 
 _G.pg.base.gametip.warning_pray_build_pool = {
@@ -14318,7 +14326,7 @@ _G.pg.base.gametip.item_lack_title = {
 }
 
 _G.pg.base.gametip.oil_buy_tip_2 = {
-	tip = "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
+	tip = "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color> <color=#ff5c5c>Gems</color> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
 }
 
 _G.pg.base.gametip.target_chapter_is_lock = {
@@ -24867,4 +24875,215 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "Owned:"
+}
+
+_G.pg.base.gametip.faest_nothing_to_get = {
+	tip = "No rewards available."
+}
+
+_G.pg.base.gametip.feast_click_to_close = {
+	tip = "Tap to go back"
+}
+
+_G.pg.base.gametip.feast_invitation_btn_label = {
+	tip = "Special Invitation"
+}
+
+_G.pg.base.gametip.feast_task_btn_label = {
+	tip = "Ambiance Lv."
+}
+
+_G.pg.base.gametip.feast_task_pt_label = {
+	tip = "Ambiance"
+}
+
+_G.pg.base.gametip.feast_task_pt_level = {
+	tip = "Lv. $1"
+}
+
+_G.pg.base.gametip.feast_task_pt_get = {
+	tip = "Unobtained"
+}
+
+_G.pg.base.gametip.feast_task_pt_got = {
+	tip = "Obtained"
+}
+
+_G.pg.base.gametip.feast_task_tag_daily = {
+	tip = "Daily"
+}
+
+_G.pg.base.gametip.feast_task_tag_activity = {
+	tip = "Special"
+}
+
+_G.pg.base.gametip.feast_label_make_invitation = {
+	tip = "Make Invitation"
+}
+
+_G.pg.base.gametip.feast_no_invitation = {
+	tip = "No invitations available."
+}
+
+_G.pg.base.gametip.feast_no_gift = {
+	tip = "No gifts available."
+}
+
+_G.pg.base.gametip.feast_label_give_invitation = {
+	tip = "Send Invitation"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation_finish = {
+	tip = "Invitation Sent"
+}
+
+_G.pg.base.gametip.feast_label_give_gift = {
+	tip = "Send Gift"
+}
+
+_G.pg.base.gametip.feast_label_give_gift_finish = {
+	tip = "Gift Sent"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_tip = {
+	tip = "Drag and drop various components to create your invitation."
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_click_tip = {
+	tip = "Tap to check details."
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+	tip = "Would you like to review your invitation design again?"
+}
+
+_G.pg.base.gametip.feast_res_window_title = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.feast_res_window_go_label = {
+	tip = "Go"
+}
+
+_G.pg.base.gametip.feast_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_invitation_part1 = {
+	tip = "Place the shipgirls' icons in the correct spot."
+}
+
+_G.pg.base.gametip.feast_invitation_part2 = {
+	tip = "Make soirée invitations from special stationery. This high-quality paper has a light fragrance, and you can feel the attentiveness to detail in its patterns and lettering."
+}
+
+_G.pg.base.gametip.feast_invitation_part3 = {
+	tip = "Place the invitation inside a premium envelope. It is made with excellent materials, much like the invitation letter itself, fully conveying your respect towards the status of the recipient."
+}
+
+_G.pg.base.gametip.feast_invitation_part4 = {
+	tip = "Finally, seal the invitation with a mix of sealing wax and gold powder, enclosing your precious feelings in a neat little package."
+}
+
+_G.pg.base.gametip.uscastle2023_help = {
+	tip = {
+		{
+			info = [[
+- Event Overview -
+The Manjuu Castle event is available between <color=#92fc63>August 17th and August 30th</color>.
+Play minigames, complete special missions, perform activities in the Castle of Celebrations, and raise your Ambiance Level to receive fantastic rewards!
+
+- Details -
+
+· Castle of Celebrations
+Raise your Ambiance Level to receive rewards!
+1. The Castle of Celebrations has various specific missions for you to complete, as well as chibi shipgirls you can interact with every day.
+2. Completing these missions, talking to the shipgirls, and playing with them by dragging and dropping them to places around the castle will raise your Ambiance Level.
+3. Your Ambiance Level can be raised further by giving the shipgirls Invitation Letters and Gifts you've earned through completing the minigame.
+4. The higher you raise your Ambiance Level, the more milestone rewards you'll receive.
+5. Maxing out your Ambiance Level will grant you a unique portrait frame and chat frame.
+
+· Minigame
+Play the Castle Clash minigame to receive special items used in the Castle of Celebrations as well gear skin boxes!
+Each time you clear a stage for the first time, you may receive a gear skin box, an Invitation Letter, or a Gift.
+A new stage will be unlocked each day, for a total of 7 stages in all.
+
+· Limited Construction
+This takes you to the Build page.
+
+· New Skins
+Check out the latest shipgirl fashion.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_cant_give_gift_tip = {
+	tip = "First, you'll need to make invitations to send to your shipgirls."
+}
+
+_G.pg.base.gametip.uscastle2023_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

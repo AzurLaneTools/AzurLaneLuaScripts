@@ -61,11 +61,10 @@ function slot0.CheckFurnitrue(slot0, slot1, slot2)
 end
 
 function slot0._CheckFurnitrue(slot0, slot1, slot2)
-	slot3 = 12 - (slot2 - 1) * 4
-	slot4 = slot3
-	slot5 = slot3
-	slot6 = 23
-	slot7 = 23
+	slot3 = slot2.x
+	slot4 = slot2.y
+	slot5 = slot2.z
+	slot6 = slot2.w
 
 	if not slot0:IsCompletion() then
 		return false, "Incomplete data"
@@ -75,16 +74,16 @@ function slot0._CheckFurnitrue(slot0, slot1, slot2)
 		return false, "Incorrect [parent -> child] relation"
 	end
 
-	slot9 = pairs
-	slot10 = slot0.child or {}
+	slot8 = pairs
+	slot9 = slot0.child or {}
 
-	for slot12, slot13 in slot9(slot10) do
-		if not slot0:LegalChild(slot1[slot12]) then
+	for slot11, slot12 in slot8(slot9) do
+		if not slot0:LegalChild(slot1[slot11]) then
 			return false, "Incorrect [child -> parent] relation"
 		end
 	end
 
-	if not slot0:InSide(slot4, slot5, slot6, slot7) then
+	if not slot0:InSide(slot3, slot4, slot5, slot6) then
 		return false, "out side"
 	end
 

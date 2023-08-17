@@ -11,19 +11,22 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = {}
+
+	function slot6(slot0, slot1)
 		pg.ConnectionMgr.GetInstance():Send(11017, {
 			story_id = slot0
 		}, 11018, function (slot0)
 			uv0:SetPlayedFlag(uv1)
+			table.insertto(uv2, PlayerConst.addTranDrop(slot0.drop_list))
 
-			if uv2 then
-				uv2()
+			if uv3 then
+				uv3()
 			end
 		end)
 	end
 
-	function slot6(slot0, slot1)
+	function slot7(slot0, slot1)
 		slot2, slot3 = uv0:StoryName2StoryId(slot0)
 		slot4 = {}
 
@@ -42,19 +45,28 @@ function slot0.execute(slot0, slot1)
 		parallelAsync(slot4, slot1)
 	end
 
-	slot8 = {}
+	slot9 = {}
 
 	if pg.NewStoryMgr.GetInstance():StoryLinkNames(slot3) then
-		for slot12, slot13 in ipairs(slot7) do
-			table.insert(slot8, function (slot0)
+		for slot13, slot14 in ipairs(slot8) do
+			table.insert(slot9, function (slot0)
 				uv0(uv1, slot0)
 			end)
 		end
 	end
 
-	seriesAsync(slot8, function ()
-		uv0(uv1)
-	end)
+	table.insertto(slot9, {
+		function (slot0)
+			uv0(uv1, slot0)
+		end,
+		function ()
+			uv0:sendNotification(GAME.STORY_UPDATE_DONE, {
+				storyName = uv1,
+				awards = uv2
+			})
+		end
+	})
+	seriesAsync(slot9)
 end
 
 return slot0

@@ -289,6 +289,10 @@ function slot0.SetUp(slot0)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			uv0:UpdateCommodities(uv1, true, slot0)
 		end
 	}, function ()
@@ -313,34 +317,42 @@ function slot0.UpdateTitle(slot0, slot1)
 	slot0.titleEn:SetNativeSize()
 end
 
-function slot7(slot0)
-	slot1 = pg.skin_page_template
-	slot3, slot4 = nil
+function slot7(slot0, slot1)
+	slot2 = pg.skin_page_template
+	slot4, slot5 = nil
 
-	if slot0:GetID() == uv0 or slot2 == uv1 then
-		slot4 = "ALL"
-		slot3 = "text_all"
-	elseif slot2 == uv2 then
-		slot4 = "RETURN"
-		slot3 = "text_fanchang"
+	if slot1:GetID() == uv0 or slot3 == uv1 then
+		slot5 = "ALL"
+		slot4 = "text_all"
+	elseif slot3 == uv2 then
+		slot5 = "RETURN"
+		slot4 = "text_fanchang"
 	else
-		slot4 = slot1[slot2].english_name
-		slot3 = "text_" .. slot1[slot2].res
+		slot5 = slot2[slot3].english_name
+		slot4 = "text_" .. slot2[slot3].res
 	end
 
-	LoadSpriteAtlasAsync("SkinClassified", slot3 .. "01", function (slot0)
-		slot1 = uv0._tr:Find("name"):GetComponent(typeof(Image))
+	LoadSpriteAtlasAsync("SkinClassified", slot4 .. "01", function (slot0)
+		if uv0.exited then
+			return
+		end
+
+		slot1 = uv1._tr:Find("name"):GetComponent(typeof(Image))
 		slot1.sprite = slot0
 
 		slot1:SetNativeSize()
 	end)
-	LoadSpriteAtlasAsync("SkinClassified", slot3, function (slot0)
-		slot1 = uv0._tr:Find("selected/Image"):GetComponent(typeof(Image))
+	LoadSpriteAtlasAsync("SkinClassified", slot4, function (slot0)
+		if uv0.exited then
+			return
+		end
+
+		slot1 = uv1._tr:Find("selected/Image"):GetComponent(typeof(Image))
 		slot1.sprite = slot0
 
 		slot1:SetNativeSize()
 	end)
-	setText(slot0._tr:Find("eng"), slot4)
+	setText(slot1._tr:Find("eng"), slot5)
 end
 
 function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
@@ -348,7 +360,11 @@ function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
 
 	for slot9, slot10 in ipairs(slot0:GetSkinClassify(slot1, slot2)) do
 		table.insert(slot5, function (slot0)
-			uv2(uv0.rollingCircleRect:AddItem(uv1))
+			if uv0.exited then
+				return
+			end
+
+			uv2(uv0, uv0.rollingCircleRect:AddItem(uv1))
 
 			if (uv3 - 1) % 3 == 0 or uv3 == #uv4 then
 				onNextTick(slot0)
@@ -359,10 +375,14 @@ function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
 	end
 
 	seriesAsync(slot5, function ()
-		if uv0 == uv1.MODE_EXPERIENCE then
-			uv2.rollingCircleRect:ScrollTo(uv3)
+		if uv0.exited then
+			return
+		end
+
+		if uv1 == uv2.MODE_EXPERIENCE then
+			uv0.rollingCircleRect:ScrollTo(uv3)
 		else
-			uv2.rollingCircleRect:ScrollTo(uv4)
+			uv0.rollingCircleRect:ScrollTo(uv4)
 		end
 
 		uv5()

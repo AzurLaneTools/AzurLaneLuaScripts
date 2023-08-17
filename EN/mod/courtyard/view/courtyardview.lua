@@ -1,7 +1,8 @@
 slot0 = class("CourtYardBaseView")
 
-function slot0.Ctor(slot0, slot1)
-	slot0.storey = slot1
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.name = slot1
+	slot0.storey = slot2
 	slot0.poolMgr = CourtYardPoolMgr.New()
 
 	slot0:Init()
@@ -31,7 +32,7 @@ function slot0.LoadUI(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("UI/" .. slot0.resName, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot2 = Object.Instantiate(slot0, GameObject.Find("/UICamera/Canvas/UIMain/CourtYardUI(Clone)").transform)
+		slot2 = Object.Instantiate(slot0, pg.UIMgr.GetInstance().UIMain:Find(uv0.name .. "(Clone)"))
 		uv0._go = slot2
 
 		slot2.transform:SetSiblingIndex(1)
@@ -52,9 +53,10 @@ end
 
 function slot0.GetStoreyModule(slot0)
 	return ({
-		CourtYardStoreyModule,
-		CourtYardOutStoreyModule
-	})[slot0.storey:GetType()]
+		[CourtYardConst.STYLE_INNER] = CourtYardStoreyModule,
+		[CourtYardConst.STYLE_OUTSIDE] = CourtYardOutStoreyModule,
+		[CourtYardConst.STYLE_FEAST] = CourtYardFeastStoreyModule
+	})[slot0.storey:GetStyle()]
 end
 
 function slot0.InitObjPool(slot0, slot1)

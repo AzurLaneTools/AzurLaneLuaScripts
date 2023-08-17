@@ -40,6 +40,14 @@ pg.item_data_chat = {
 		desc = "Granted to all Commanders who have defended the port for four years.\n<color=#ffffff>Earned by participating in the 4th Anniversary limited event.</color>",
 		scene = {}
 	},
+	[105] = {
+		time_limit_type = 0,
+		name = "5th Anniversary",
+		id = 105,
+		time_second = 0,
+		desc = "Granted to all Commanders who have defended the port for five years.\n<color=#ffffff>Earned by participating in the 5th Anniversary limited event.</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "Leader",
@@ -62,6 +70,14 @@ pg.item_data_chat = {
 		id = 602,
 		time_second = 0,
 		desc = "<color=#ffffff>Set sail for the best deserted island vacation ever!</color>\nAwarded to Commanders who participated in the \"Uncharted Summer\" event.",
+		scene = {}
+	},
+	[603] = {
+		time_limit_type = 0,
+		name = "Marvellous Invitation",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>A piece commemorating an unforgettable soirée night, awarded to those who gracefully delivered invitations far and wide.</color>\n<color=#A7A7AAFF>\"Castle of Celebrations\" event reward.</color>",
 		scene = {}
 	},
 	[10001] = {
@@ -94,9 +110,11 @@ pg.item_data_chat = {
 		102,
 		103,
 		104,
+		105,
 		300,
 		301,
 		602,
+		603,
 		10001,
 		10002,
 		10003

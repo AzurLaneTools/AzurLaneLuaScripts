@@ -9,6 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.front = slot0:findTF("front")
 	slot0.actorTr = slot0._tf:Find("actor")
 	slot0.frontTr = slot0._tf:Find("front")
+	slot0.backPanel = slot0:findTF("back")
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.asidePanel = slot0:findTF("front/aside_panel")
 	slot0.bgGlitch = slot0:findTF("back/bg_glitch")
@@ -21,6 +22,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorPanel = slot0:findTF("actor")
 	slot0.dialoguePanel = slot0:findTF("front/dialogue")
 	slot0.effectPanel = slot0:findTF("front/effect")
+	slot0.movePanel = slot0:findTF("front/move_layer")
 	slot0.curtain = slot0:findTF("back/curtain")
 	slot0.curtainCg = slot0.curtain:GetComponent(typeof(CanvasGroup))
 	slot0.flash = slot0:findTF("front/flash")
@@ -28,12 +30,26 @@ function slot0.Ctor(slot0, slot1)
 	slot0.flashCg = slot0.flash:GetComponent(typeof(CanvasGroup))
 	slot0.curtainF = slot0:findTF("back/curtain_front")
 	slot0.curtainFCg = slot0.curtainF:GetComponent(typeof(CanvasGroup))
-	slot0.optionUIlist = UIItemList.New(slot0:findTF("front/options_panel/options"), slot0:findTF("front/options_panel/options/option_tpl"))
-	slot0.optionPrint = slot0:findTF("front/options_panel/bg")
-	slot0.optionsCg = slot0:findTF("front/options_panel"):GetComponent(typeof(CanvasGroup))
+	slot0.dialogueWin = nil
 	slot0.bgs = {}
 	slot0.stop = false
 	slot0.pause = false
+end
+
+function slot0.StoryStart(slot0, slot1)
+	eachChild(slot0.dialoguePanel, function (slot0)
+		setActive(slot0, false)
+	end)
+
+	slot0.dialogueWin = slot0.dialoguePanel:Find(slot1:GetDialogueStyleName())
+
+	setActive(slot0.dialogueWin, true)
+
+	slot0.optionUIlist = UIItemList.New(slot0.dialogueWin:Find("options_panel/options"), slot0.dialogueWin:Find("options_panel/options/option_tpl"))
+	slot0.optionPrint = slot0.dialogueWin:Find("options_panel/bg")
+	slot0.optionsCg = slot0.dialogueWin:Find("options_panel"):GetComponent(typeof(CanvasGroup))
+
+	slot0:OnStart(slot1)
 end
 
 function slot0.Pause(slot0)
@@ -147,6 +163,9 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 				end,
 				function (slot0)
 					uv0:OnEnter(uv1, uv2, slot0)
+				end,
+				function (slot0)
+					uv0:StartMoveNode(uv1, slot0)
 				end
 			}, slot0)
 		end,
@@ -160,33 +179,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			uv1:DelayCall(uv0:GetEventDelayTime(), slot0)
 		end,
 		function (slot0)
-			function slot1()
-				uv0.isRegisterEvent = true
-
-				if uv0.pause or uv0.stop then
-					return
-				end
-
-				if uv0.autoNext then
-					uv0.autoNext = nil
-
-					uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
-						uv0:TriggerEventAuto()
-					end)
-				end
-			end
-
-			if uv2:ExistOption() then
-				slot2 = uv0
-
-				slot2:InitBranches(uv1, uv2, function (slot0)
-					uv0:SetOptionContent(slot0)
-					uv1()
-				end, slot1)
-			else
-				uv0:RegisetEvent(slot0)
-				slot1()
-			end
+			uv0:RegisterTrigger(uv1, uv2, uv3, slot0)
 		end,
 		function (slot0)
 			slot1 = uv0
@@ -224,6 +217,34 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	}, slot4)
 end
 
+function slot0.RegisterTrigger(slot0, slot1, slot2, slot3, slot4)
+	function slot5()
+		uv0.isRegisterEvent = true
+
+		if uv0.pause or uv0.stop then
+			return
+		end
+
+		if uv0.autoNext then
+			uv0.autoNext = nil
+
+			uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
+				uv0:TriggerEventAuto()
+			end)
+		end
+	end
+
+	if slot2:ExistOption() then
+		slot0:InitBranches(slot1, slot2, function (slot0)
+			uv0:SetOptionContent(slot0)
+			uv1()
+		end, slot5)
+	else
+		slot0:RegisetEvent(slot4)
+		slot5()
+	end
+end
+
 function slot0.CanSkip(slot0)
 	return slot0.step and not slot0.step:ExistOption()
 end
@@ -255,7 +276,7 @@ function slot0.NextOneImmediately(slot0)
 end
 
 function slot0.TriggerEventAuto(slot0)
-	if slot0.step:ExistOption() then
+	if slot0.step and slot0.step:ExistOption() then
 		if slot0.step:GetOptionIndexByAutoSel() ~= nil then
 			triggerButton(slot0.optionUIlist.container:GetChild(slot1 - 1):Find("content"))
 		end
@@ -347,6 +368,109 @@ function slot0.ShowOrHideBranches(slot0, slot1, slot2)
 		end, slot0)
 	end)
 	parallelAsync(slot3, slot2)
+end
+
+function slot0.StartMoveNode(slot0, slot1, slot2)
+	if not slot1:ExistMovableNode() then
+		slot2()
+
+		return
+	end
+
+	slot3 = slot1:GetMovableNode()
+	slot4 = nil
+
+	seriesAsync({
+		function (slot0)
+			slot1 = uv0
+
+			slot1:LoadMovableNode(uv1, function (slot0)
+				uv0 = slot0
+
+				uv1()
+			end)
+		end,
+		function (slot0)
+			uv0:MoveNode(uv1, uv2, uv3)
+			slot0()
+		end
+	}, slot2)
+end
+
+function slot0.MoveNode(slot0, slot1, slot2, slot3)
+	slot0:moveLocalPath(slot2, slot3.path, slot3.time, 0, slot3.easeType, function ()
+		uv0:ClearMoveNode(uv1)
+	end)
+end
+
+function slot1(slot0, slot1, slot2, slot3, slot4)
+	slot5 = PoolMgr.GetInstance()
+
+	slot5:GetSpineChar(slot1, true, function (slot0)
+		slot0.transform:SetParent(uv0.movePanel)
+
+		slot1 = uv1.scale
+		slot0.transform.localScale = Vector3(slot1, slot1, 0)
+		slot0.transform.localPosition = uv2
+
+		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv1.action, 0)
+
+		if uv3 then
+			uv3(slot0)
+		end
+	end)
+end
+
+function slot2(slot0, slot1, slot2, slot3)
+	slot4 = GameObject.New("movable")
+	slot5 = slot4.transform
+
+	slot5:SetParent(slot0.movePanel)
+
+	slot4.transform.localScale = Vector3.zero
+	slot5 = GetOrAddComponent(slot4, typeof(Image))
+
+	LoadSpriteAsync(slot1, function (slot0)
+		uv0.sprite = slot0
+
+		uv0:SetNativeSize()
+
+		slot1 = uv1.movePanel:GetChild(0)
+		slot1.localScale = Vector3.one
+		slot1.localPosition = uv2
+
+		uv3(slot1.gameObject)
+	end)
+end
+
+function slot0.LoadMovableNode(slot0, slot1, slot2)
+	slot3 = slot1.path[1] or Vector3.zero
+
+	if slot1.isSpine then
+		uv0(slot0, slot1.name, slot1.spineData, slot3, slot2)
+	else
+		uv1(slot0, slot1.name, slot3, slot2)
+	end
+end
+
+function slot0.ClearMoveNode(slot0, slot1)
+	if not slot1:ExistMovableNode() then
+		return
+	end
+
+	if slot0.movePanel.childCount <= 0 then
+		return
+	end
+
+	if slot1:GetMovableNode().isSpine then
+		if slot0.movePanel:GetChild(0):GetComponent(typeof(SpineAnimUI)) ~= nil then
+			PoolMgr.GetInstance():ReturnSpineChar(slot2.name, slot4.gameObject)
+		else
+			removeAllChildren(slot0.movePanel)
+		end
+	else
+		removeAllChildren(slot0.movePanel)
+	end
 end
 
 function slot0.FadeOutStory(slot0, slot1, slot2)
@@ -755,7 +879,12 @@ function slot0.Reset(slot0, slot1, slot2)
 end
 
 function slot0.Clear(slot0, slot1)
+	if slot0.step then
+		slot0:ClearMoveNode(slot0.step)
+	end
+
 	slot0.bgs = {}
+	slot0.step = nil
 	slot0.goCG.alpha = 1
 	slot0.callback = nil
 	slot0.autoNext = nil
@@ -769,10 +898,6 @@ function slot0.Clear(slot0, slot1)
 	end
 
 	pg.DelegateInfo.New(slot0)
-end
-
-function slot0.StoryStart(slot0, slot1)
-	slot0:OnStart()
 end
 
 function slot0.StoryEnd(slot0)
@@ -902,7 +1027,7 @@ function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.OnStart(slot0)
+function slot0.OnStart(slot0, slot1)
 end
 
 function slot0.OnReset(slot0, slot1, slot2)

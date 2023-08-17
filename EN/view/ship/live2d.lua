@@ -469,6 +469,10 @@ function slot0.applyActiveData(slot0, slot1)
 end
 
 function slot0.changeIdleIndex(slot0, slot1)
+	if slot0._animator == nil then
+		return
+	end
+
 	slot0.idleIndex = slot1
 
 	slot0._animator:SetInteger("idle", slot1)

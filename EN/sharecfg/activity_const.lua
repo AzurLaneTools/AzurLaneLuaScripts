@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4875
+		act_id = 30877
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -938,5 +938,14 @@ pg.activity_const = {
 	},
 	LINLK_DUNHUANG_ACT = {
 		act_id = 4889
+	},
+	FEAST_PT_ACT = {
+		act_id = 4964
+	},
+	FEAST_TASK_ACT = {
+		act_id = 4965
+	},
+	MINIGAME_XINTIAOCHENGBAO = {
+		act_id = 4961
 	}
 }

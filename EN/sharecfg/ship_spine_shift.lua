@@ -328,5 +328,19 @@ pg.ship_spine_shift = {
 			0,
 			-10
 		}
+	},
+	liang = {
+		spine = "liang",
+		mainui_shift = {
+			0,
+			-30
+		}
+	},
+	liang_2 = {
+		spine = "liang_2",
+		mainui_shift = {
+			6,
+			-24
+		}
 	}
 }

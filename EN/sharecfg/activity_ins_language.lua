@@ -4171,7 +4171,68 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_382_3_1",
 		"ins_reply_382_3_2",
 		"ins_op_382_1_1",
-		"op_reply_382_1_1"
+		"op_reply_382_1_1",
+		"ins_390",
+		"ins_discuss_390_1",
+		"ins_reply_390_1_1",
+		"ins_reply_390_1_2",
+		"ins_discuss_390_2",
+		"ins_reply_390_2_1",
+		"ins_discuss_390_3",
+		"ins_reply_390_3_1",
+		"ins_reply_390_3_2",
+		"ins_op_390_1_1",
+		"op_reply_390_1_1",
+		"ins_391",
+		"ins_discuss_391_1",
+		"ins_reply_391_1_1",
+		"ins_discuss_391_2",
+		"ins_reply_391_2_1",
+		"ins_discuss_391_3",
+		"ins_reply_391_3_1",
+		"ins_op_391_1_1",
+		"op_reply_391_1_1",
+		"ins_392",
+		"ins_discuss_392_1",
+		"ins_reply_392_1_1",
+		"ins_discuss_392_2",
+		"ins_reply_392_2_1",
+		"ins_reply_392_2_2",
+		"ins_reply_392_2_3",
+		"ins_op_392_1_1",
+		"op_reply_392_1_1",
+		"ins_393",
+		"ins_discuss_393_1",
+		"ins_reply_393_1_1",
+		"ins_discuss_393_2",
+		"ins_reply_393_2_1",
+		"ins_reply_393_2_2",
+		"ins_reply_393_2_3",
+		"ins_discuss_393_3",
+		"ins_reply_393_3_1",
+		"ins_reply_393_3_2",
+		"ins_op_393_1_1",
+		"op_reply_393_1_1",
+		"ins_394",
+		"ins_discuss_394_1",
+		"ins_reply_394_1_1",
+		"ins_discuss_394_2",
+		"ins_reply_394_2_1",
+		"ins_discuss_394_3",
+		"ins_reply_394_3_1",
+		"ins_reply_394_3_2",
+		"ins_op_394_1_1",
+		"op_reply_394_1_1",
+		"ins_395",
+		"ins_discuss_395_1",
+		"ins_reply_395_1_1",
+		"ins_reply_395_1_2",
+		"ins_reply_395_1_3",
+		"ins_reply_395_1_4",
+		"ins_discuss_395_2",
+		"ins_reply_395_2_1",
+		"ins_op_395_1_1",
+		"op_reply_395_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16588,102 +16649,285 @@ pg.base.activity_ins_language = {
 		value = "Only in danger of having a good time. You'll love it."
 	},
 	ins_380 = {
-		value = ""
+		value = "Where's my letter? WHERE HAS IT GONE?!"
 	},
 	ins_discuss_380_1 = {
-		value = ""
+		value = "Which letter? Surely your declaration of love hasn't gone missing?"
 	},
 	ins_reply_380_1_1 = {
-		value = ""
+		value = "Oh dear. Imagine if someone found it and used it to nefarious ends."
 	},
 	ins_reply_380_1_2 = {
-		value = ""
+		value = "Stop imagining doomsday scenarios and help me find it!"
 	},
 	ins_discuss_380_2 = {
-		value = ""
+		value = "Looking for something? My SG radar might be able to help."
 	},
 	ins_reply_380_2_1 = {
-		value = ""
+		value = "Yes please! If you find it return it to me ASAP!!"
 	},
 	ins_discuss_380_3 = {
-		value = ""
+		value = "Snailmail in this day and age? A DM is 5 times quicker and easier."
 	},
 	ins_reply_380_3_1 = {
-		value = ""
+		value = "But a letter is 500 times more romantic!"
 	},
 	ins_op_380_1_1 = {
-		value = ""
+		value = "Want me to look around for you?"
 	},
 	op_reply_380_1_1 = {
-		value = ""
+		value = "Thanks but there's no need to go out of your way for such a small thing!"
 	},
 	ins_381 = {
-		value = ""
+		value = "captain black bunny and vice captain white bunny are the bestest of friends ^.^"
 	},
 	ins_discuss_381_1 = {
-		value = ""
+		value = "Aw they're so happy together!"
 	},
 	ins_reply_381_1_1 = {
-		value = ""
+		value = "yup! they've got a whole company of friends too, including captain kitty and the dolphin knights c:"
 	},
 	ins_reply_381_1_2 = {
-		value = ""
+		value = "I wanna meet them, can we have a big get together?"
 	},
 	ins_reply_381_1_3 = {
-		value = ""
+		value = "sure! i'll be your little interpreter for the occasion ^.-"
 	},
 	ins_discuss_381_2 = {
-		value = ""
+		value = "Captain Black Bunny is tough competition, but I won't be outdone so easily!"
 	},
 	ins_reply_381_2_1 = {
-		value = ""
+		value = "truuue. black bunny is a hell of a captain, but nobody out-captains the great pompeo magno!"
 	},
 	ins_discuss_381_3 = {
-		value = ""
+		value = "Is that a puppet show? Your little bunnies are sooo adorable~"
 	},
 	ins_reply_381_3_1 = {
-		value = ""
+		value = "aww thanks <3"
 	},
 	ins_op_381_1_1 = {
-		value = ""
+		value = "Enter: the Commander, a.k.a. the Evil Baron!"
 	},
 	op_reply_381_1_1 = {
-		value = ""
+		value = "oh noes! the big baddy is here! protect me captain black bunny!"
 	},
 	ins_op_381_1_2 = {
-		value = ""
+		value = "The Commander, your loyal knight, hath arrived!"
 	},
 	op_reply_381_1_2 = {
-		value = ""
+		value = "my trusty knight, so right and fair! you're a role model to my bunbuns ^.^"
 	},
 	ins_382 = {
-		value = ""
+		value = "It's that time of the day again! Hot milk for everyone!"
 	},
 	ins_discuss_382_1 = {
-		value = ""
+		value = "no better drink for dunking your cookies in!!"
 	},
 	ins_reply_382_1_1 = {
-		value = ""
+		value = "Have as much as you like~"
 	},
 	ins_discuss_382_2 = {
-		value = ""
+		value = "I just love milk! I drink it all the time."
 	},
 	ins_reply_382_2_1 = {
-		value = ""
+		value = "Same here. A glass of milk a day keeps your bones healthy and strong."
 	},
 	ins_discuss_382_3 = {
-		value = ""
+		value = "My, you're a great motherly figure for the little ones~"
 	},
 	ins_reply_382_3_1 = {
-		value = ""
+		value = "Hot milk and cookies are a great combination, but have you ever had it with strawberry shortcake?"
 	},
 	ins_reply_382_3_2 = {
-		value = ""
+		value = "I haven't, actually. I'll remember to try it someday!"
 	},
 	ins_op_382_1_1 = {
-		value = ""
+		value = "Got milk (for me)?"
 	},
 	op_reply_382_1_1 = {
+		value = "Of course! I'll bring some to your office right away."
+	},
+	ins_390 = {
+		value = ""
+	},
+	ins_discuss_390_1 = {
+		value = ""
+	},
+	ins_reply_390_1_1 = {
+		value = ""
+	},
+	ins_reply_390_1_2 = {
+		value = ""
+	},
+	ins_discuss_390_2 = {
+		value = ""
+	},
+	ins_reply_390_2_1 = {
+		value = ""
+	},
+	ins_discuss_390_3 = {
+		value = ""
+	},
+	ins_reply_390_3_1 = {
+		value = ""
+	},
+	ins_reply_390_3_2 = {
+		value = ""
+	},
+	ins_op_390_1_1 = {
+		value = ""
+	},
+	op_reply_390_1_1 = {
+		value = ""
+	},
+	ins_391 = {
+		value = ""
+	},
+	ins_discuss_391_1 = {
+		value = ""
+	},
+	ins_reply_391_1_1 = {
+		value = ""
+	},
+	ins_discuss_391_2 = {
+		value = ""
+	},
+	ins_reply_391_2_1 = {
+		value = ""
+	},
+	ins_discuss_391_3 = {
+		value = ""
+	},
+	ins_reply_391_3_1 = {
+		value = ""
+	},
+	ins_op_391_1_1 = {
+		value = ""
+	},
+	op_reply_391_1_1 = {
+		value = ""
+	},
+	ins_392 = {
+		value = ""
+	},
+	ins_discuss_392_1 = {
+		value = ""
+	},
+	ins_reply_392_1_1 = {
+		value = ""
+	},
+	ins_discuss_392_2 = {
+		value = ""
+	},
+	ins_reply_392_2_1 = {
+		value = ""
+	},
+	ins_reply_392_2_2 = {
+		value = ""
+	},
+	ins_reply_392_2_3 = {
+		value = ""
+	},
+	ins_op_392_1_1 = {
+		value = ""
+	},
+	op_reply_392_1_1 = {
+		value = ""
+	},
+	ins_393 = {
+		value = ""
+	},
+	ins_discuss_393_1 = {
+		value = ""
+	},
+	ins_reply_393_1_1 = {
+		value = ""
+	},
+	ins_discuss_393_2 = {
+		value = ""
+	},
+	ins_reply_393_2_1 = {
+		value = ""
+	},
+	ins_reply_393_2_2 = {
+		value = ""
+	},
+	ins_reply_393_2_3 = {
+		value = ""
+	},
+	ins_discuss_393_3 = {
+		value = ""
+	},
+	ins_reply_393_3_1 = {
+		value = ""
+	},
+	ins_reply_393_3_2 = {
+		value = ""
+	},
+	ins_op_393_1_1 = {
+		value = ""
+	},
+	op_reply_393_1_1 = {
+		value = ""
+	},
+	ins_394 = {
+		value = ""
+	},
+	ins_discuss_394_1 = {
+		value = ""
+	},
+	ins_reply_394_1_1 = {
+		value = ""
+	},
+	ins_discuss_394_2 = {
+		value = ""
+	},
+	ins_reply_394_2_1 = {
+		value = ""
+	},
+	ins_discuss_394_3 = {
+		value = ""
+	},
+	ins_reply_394_3_1 = {
+		value = ""
+	},
+	ins_reply_394_3_2 = {
+		value = ""
+	},
+	ins_op_394_1_1 = {
+		value = ""
+	},
+	op_reply_394_1_1 = {
+		value = ""
+	},
+	ins_395 = {
+		value = ""
+	},
+	ins_discuss_395_1 = {
+		value = ""
+	},
+	ins_reply_395_1_1 = {
+		value = ""
+	},
+	ins_reply_395_1_2 = {
+		value = ""
+	},
+	ins_reply_395_1_3 = {
+		value = ""
+	},
+	ins_reply_395_1_4 = {
+		value = ""
+	},
+	ins_discuss_395_2 = {
+		value = ""
+	},
+	ins_reply_395_2_1 = {
+		value = ""
+	},
+	ins_op_395_1_1 = {
+		value = ""
+	},
+	op_reply_395_1_1 = {
 		value = ""
 	}
 }

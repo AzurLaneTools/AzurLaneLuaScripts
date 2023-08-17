@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "Buckle up, Buckaroo! There's a new sheriff in town!",
 		scene = {}
 	},
+	[107] = {
+		time_limit_type = 0,
+		name = "5th Anniversary",
+		gain_by = "",
+		id = 107,
+		time_second = 0,
+		desc = "Granted to all Commanders who have defended the port for five years.\n (earned by participating in the 5th Anniversary limited event)",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "Achievement Chat Bubbles",
@@ -399,10 +408,10 @@ pg.item_data_frame = {
 	[326] = {
 		time_limit_type = 0,
 		name = "Unbestowed Crown",
-		gain_by = "",
+		gain_by = "The Fool's Scales",
 		id = 326,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>\"Even without laurels atop their head, those who uphold true faith shall be crowned with victory.\"</color>\n–\"The Fool's Scales\" event reward.",
 		scene = {}
 	},
 	[406] = {
@@ -459,6 +468,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Set sail for the best deserted island vacation ever!</color>\nAwarded to Commanders who participated in the \"Uncharted Summer\" event.",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "Effervescent Emblem",
+		gain_by = "",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>A commemorative frame that brings back memories of laughter and champagne.</color>\n–\"Castle of Celebrations\" event reward.",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "Extreme Challenge - Gemini",
@@ -494,6 +512,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		202,
 		203,
@@ -538,6 +557,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		603,
 		10001,
 		10002,
 		10003

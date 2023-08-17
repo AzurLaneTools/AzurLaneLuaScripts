@@ -205,7 +205,14 @@ pg.strategy_data_template = setmetatable({
 		200432,
 		200433,
 		200434,
-		200511
+		200511,
+		200535,
+		200536,
+		200538,
+		200541,
+		200544,
+		200545,
+		200546
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2311,6 +2318,76 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200511,
 		icon = "",
 		desc = "Future Content",
+		arg = {}
+	},
+	[200535] = {
+		buff_id = 200535,
+		name = "Alliance Fleet",
+		type = 10,
+		iconSize = "",
+		id = 200535,
+		icon = "200535",
+		desc = "In battle, all ships in your fleet gain +1.0% to all stats for each additional faction present in that fleet beyond the first.",
+		arg = {}
+	},
+	[200536] = {
+		buff_id = 0,
+		name = "Corrosive Aberration",
+		type = 10,
+		iconSize = "",
+		id = 200536,
+		icon = "200536",
+		desc = "A strange substance seems to permeate this entire world.\nCertain enemies release a strange substance when defeated, restoring the HP of adjacent enemies while damaging your ships.",
+		arg = {}
+	},
+	[200538] = {
+		buff_id = 200538,
+		name = "Tribunal's Support",
+		type = 10,
+		iconSize = "",
+		id = 200538,
+		icon = "200538",
+		desc = "\"Commander, behold my next move.\"\nIn battle, allied Tribunal mass-produced ships and Mechanicus Confessors will lay down supporting barrages.",
+		arg = {}
+	},
+	[200541] = {
+		buff_id = 200541,
+		name = "Tribunal's Support",
+		type = 10,
+		iconSize = "",
+		id = 200541,
+		icon = "200538",
+		desc = "\"Commander, behold my next move.\"\nIn battle, allied Tribunal mass-produced ships and Mechanicus Confessors will lay down supporting barrages.",
+		arg = {}
+	},
+	[200544] = {
+		buff_id = 200544,
+		name = "False God's Domain I",
+		type = 10,
+		iconSize = "",
+		id = 200544,
+		icon = "200544",
+		desc = "\"The Kingdom of God will descend upon the land!\"\nAll ships within the False God's Domain have reduced stats.\nIn battle, enemies will gain supporting barrages.",
+		arg = {}
+	},
+	[200545] = {
+		buff_id = 200545,
+		name = "False God's Domain II",
+		type = 10,
+		iconSize = "",
+		id = 200545,
+		icon = "200545",
+		desc = "\"Th▇▅gdom of ▅▇ will desc▇▅on th▅▇\"\nAll ships within the False God's Domain have further reduced stats.\nIn battle, enemies will gain stronger supporting barrages.",
+		arg = {}
+	},
+	[200546] = {
+		buff_id = 200546,
+		name = "False God's Domain III",
+		type = 10,
+		iconSize = "",
+		id = 200546,
+		icon = "200546",
+		desc = "\"▇▆▇▊▇▇▆▅▇▆\"\nAll ships within the False God's Domain have significantly reduced stats.\nIn battle, enemies will gain significantly stronger supporting barrages.",
 		arg = {}
 	}
 }

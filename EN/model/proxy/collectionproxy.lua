@@ -112,6 +112,10 @@ function slot0.getGroups(slot0)
 	return Clone(slot0.shipGroups)
 end
 
+function slot0.RawgetGroups(slot0)
+	return slot0.shipGroups
+end
+
 function slot0.getAwards(slot0)
 	return Clone(slot0.awards)
 end

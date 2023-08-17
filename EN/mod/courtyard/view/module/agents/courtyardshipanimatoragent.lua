@@ -29,10 +29,6 @@ function slot0.SetState(slot0, slot1)
 		return
 	end
 
-	if slot1 == CourtYardShip.STATE_TOUCH then
-		slot0:PlayChatAnim()
-	end
-
 	slot0:PlayAction(slot2, function ()
 		uv0:OnAnimtionFinish(uv1)
 	end)
@@ -57,18 +53,6 @@ function slot0.PlayAction(slot0, slot1, slot2)
 	slot0.role:SetAction(slot1)
 
 	slot0.name = slot1
-end
-
-function slot0.PlayChatAnim(slot0, slot1, slot2, slot3)
-	slot4 = LeanTween.scale(go(slot0.chatTF), defaultValue(slot1, Vector3(2, 2, 2)), 0.5):setEase(LeanTweenType.easeOutBack):setDelay(defaultValue(slot2, 0))
-
-	if not defaultValue(slot3, true) then
-		return
-	end
-
-	slot4:setOnComplete(System.Action(function ()
-		uv0:PlayChatAnim(Vector3(0, 0, 0), 2, false)
-	end))
 end
 
 function slot0.CheckMissTagAction(slot0, slot1)
@@ -102,11 +86,6 @@ end
 function slot0.Dispose(slot0)
 	slot0:RemoveAnimFinishTimer()
 	uv0.super.Dispose(slot0)
-
-	if LeanTween.isTweening(go(slot0.chatTF)) then
-		LeanTween.cancel(go(slot0.chatTF))
-	end
-
 	slot0.spineAnimUI:SetActionCallBack(nil)
 end
 

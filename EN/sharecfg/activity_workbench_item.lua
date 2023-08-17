@@ -152,6 +152,28 @@ pg.activity_workbench_item = {
 			recipeid = 9
 		}
 	},
+	[14] = {
+		rarity = 4,
+		name = "Special Invitation",
+		display = "An invitation to the anniversary soirée. Give it to a shipgirl to get great rewards!",
+		id = 14,
+		icon = "yanhuiyaoyue_1",
+		get_access = {
+			"Obtained Through: Castle Clash",
+			minigame = 56
+		}
+	},
+	[15] = {
+		rarity = 4,
+		name = "Soirée Gift",
+		display = "A commemorative item from the soirée. May the good times last forever.",
+		id = 15,
+		icon = "yanhuiyaoyue_2",
+		get_access = {
+			"Obtained Through: Castle Clash",
+			minigame = 56
+		}
+	},
 	all = {
 		1,
 		2,
@@ -164,6 +186,8 @@ pg.activity_workbench_item = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15
 	}
 }

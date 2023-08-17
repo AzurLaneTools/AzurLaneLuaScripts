@@ -3,6 +3,7 @@ slot0.MODE_ASIDE = 1
 slot0.MODE_DIALOGUE = 2
 slot0.MODE_BG = 3
 slot0.MODE_CAROUSE = 4
+slot0.MODE_VEDIO = 5
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -21,7 +22,8 @@ function slot0.GetStoryStepCls(slot0)
 		AsideStep,
 		DialogueStep,
 		BgStep,
-		CarouselStep
+		CarouselStep,
+		VedioStep
 	})[slot0]
 end
 
@@ -33,6 +35,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.hideSkip = slot1.hideSkip
 	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
+	slot0.dialogueBox = slot1.dialogbox or 1
 
 	if UnGamePlayState then
 		slot0.speedData = slot1.speed or 0
@@ -65,6 +68,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.skipAll = false
 	slot0.isAuto = false
 	slot0.speed = 0
+end
+
+function slot0.GetDialogueStyleName(slot0)
+	return slot0.dialogueBox
 end
 
 function slot0.GetTriggerDelayTime(slot0)

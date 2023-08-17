@@ -141,7 +141,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updatePage(FriendScene.BLACKLIST_PAGE)
 	elseif slot2 == GAME.VISIT_BACKYARD_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
-			ships = slot3.ships,
 			player = slot3.player,
 			dorm = slot3.dorm,
 			mode = CourtYardConst.SYSTEM_VISIT

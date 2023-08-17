@@ -124,6 +124,31 @@ function slot0.OnStateChange(slot0, slot1, slot2)
 	end
 
 	slot0.animator:SetState(slot1)
+
+	if slot1 == CourtYardShip.STATE_TOUCH then
+		slot0:ClearChatAnimation()
+		slot0:PlayChatAnim()
+	end
+end
+
+function slot0.PlayChatAnim(slot0, slot1, slot2, slot3)
+	slot4 = LeanTween.scale(go(slot0.chatTF), defaultValue(slot1, Vector3(2, 2, 2)), 0.5):setEase(LeanTweenType.easeOutBack):setDelay(defaultValue(slot2, 0))
+
+	if not defaultValue(slot3, true) then
+		return
+	end
+
+	slot4:setOnComplete(System.Action(function ()
+		uv0:PlayChatAnim(Vector3(0, 0, 0), 2, false)
+	end))
+end
+
+function slot0.ClearChatAnimation(slot0)
+	if LeanTween.isTweening(go(slot0.chatTF)) then
+		LeanTween.cancel(go(slot0.chatTF))
+	end
+
+	slot0.chatTF.localScale = Vector3.zero
 end
 
 function slot0.OnUpdateInteraction(slot0, slot1)
@@ -254,6 +279,7 @@ end
 
 function slot0.OnDispose(slot0)
 	uv0.super.OnDispose(slot0)
+	slot0:ClearChatAnimation()
 	slot0:ResetTransform()
 
 	if slot0.animator then

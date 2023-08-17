@@ -81,6 +81,10 @@ function slot0.GetRedPointMonth()
 end
 
 function slot0.IsShowRedPoint()
+	if LOCK_LIMIT_CHALLENGE then
+		return false
+	end
+
 	if not uv0.IsOpen() then
 		return false
 	end

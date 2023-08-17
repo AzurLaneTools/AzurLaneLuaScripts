@@ -10048,6 +10048,119 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[143] = {
+		subject = "5th Anniversary Lucky Box",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "5th Anniversary Lucky Box",
+		name_display = "5th Anniversary Lucky Box",
+		type_order = 2,
+		extra_gem = 0,
+		id = 143,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai81",
+		skin_inquire_relation = 69981,
+		id_str = "com.yostaren.azurlane.luckybag14",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.luckybag14",
+		extra_service_item = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40986,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -10155,6 +10268,7 @@ pg.pay_data_display = {
 		139,
 		140,
 		141,
-		142
+		142,
+		143
 	}
 }

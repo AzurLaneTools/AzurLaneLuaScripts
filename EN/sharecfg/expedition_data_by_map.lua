@@ -317,6 +317,12 @@ pg.expedition_data_by_map = setmetatable({
 		1720025,
 		1720026,
 		1730001,
+		1740001,
+		1740002,
+		1740011,
+		1740012,
+		1740025,
+		1740026,
 		2100000,
 		2100001,
 		2100010,
@@ -14560,6 +14566,580 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1740001] = {
+		map = 1740001,
+		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-underheaven",
+		enter_story = "YUZHEDETIANPING1",
+		ani_name = "Map_1740001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1740101,
+					"map_1660004",
+					"effect_1660004",
+					"bgm_story-roma-outside"
+				}
+			},
+			{
+				2,
+				{
+					1740102,
+					"map_1710005",
+					"effect_1710005",
+					"bgm_theme-vichy-church"
+				}
+			},
+			{
+				2,
+				{
+					1740103,
+					"map_1350004",
+					"effect_1350004",
+					"bgm_bgm-waterwave"
+				}
+			},
+			{
+				1,
+				{
+					1740104,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1740105,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1740106,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1740003,
+					"phase4"
+				}
+			},
+			{
+				2,
+				{
+					1740104,
+					"map_1740001"
+				}
+			},
+			{
+				2,
+				{
+					1740105,
+					"map_1740002"
+				}
+			},
+			{
+				2,
+				{
+					1740106,
+					"map_1740003"
+				}
+			},
+			{
+				2,
+				{
+					1740003,
+					"map_1740004"
+				}
+			}
+		}
+	},
+	[1740002] = {
+		map = 1740002,
+		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-thehierophantV",
+		enter_story = "YUZHEDETIANPING22",
+		ani_name = "Map_1740002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1740004,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1740005,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1740107,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1740108,
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					1740109,
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					1740004,
+					"map_1740006"
+				}
+			},
+			{
+				2,
+				{
+					1740005,
+					"map_1740007"
+				}
+			},
+			{
+				2,
+				{
+					1740107,
+					"map_1740008"
+				}
+			},
+			{
+				2,
+				{
+					1740108,
+					"map_1740009"
+				}
+			},
+			{
+				2,
+				{
+					1740109,
+					"map_1740010"
+				}
+			}
+		}
+	},
+	[1740011] = {
+		map = 1740011,
+		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-underheaven",
+		enter_story = "YUZHEDETIANPING1",
+		ani_name = "Map_1740001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1740201,
+					"map_1660004",
+					"effect_1660004",
+					"bgm_story-roma-outside"
+				}
+			},
+			{
+				2,
+				{
+					1740202,
+					"map_1710005",
+					"effect_1710005",
+					"bgm_theme-vichy-church"
+				}
+			},
+			{
+				2,
+				{
+					1740203,
+					"map_1350004",
+					"effect_1350004",
+					"bgm_bgm-waterwave"
+				}
+			},
+			{
+				1,
+				{
+					1740204,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1740205,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1740206,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1740023,
+					"phase4"
+				}
+			},
+			{
+				2,
+				{
+					1740204,
+					"map_1740001"
+				}
+			},
+			{
+				2,
+				{
+					1740205,
+					"map_1740002"
+				}
+			},
+			{
+				2,
+				{
+					1740206,
+					"map_1740003"
+				}
+			},
+			{
+				2,
+				{
+					1740023,
+					"map_1740004"
+				}
+			}
+		}
+	},
+	[1740012] = {
+		map = 1740012,
+		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-thehierophantV",
+		enter_story = "YUZHEDETIANPING22",
+		ani_name = "Map_1740002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1740024,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1740025,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1740207,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1740208,
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					1740209,
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					1740024,
+					"map_1740006"
+				}
+			},
+			{
+				2,
+				{
+					1740025,
+					"map_1740007"
+				}
+			},
+			{
+				2,
+				{
+					1740207,
+					"map_1740008"
+				}
+			},
+			{
+				2,
+				{
+					1740208,
+					"map_1740009"
+				}
+			},
+			{
+				2,
+				{
+					1740209,
+					"map_1740010"
+				}
+			}
+		}
+	},
+	[1740025] = {
+		map = 1740025,
+		name = "The Fool's Scales·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-clemenceau",
+		enter_story = "",
+		ani_name = "Map_1740011",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1740026] = {
+		map = 1740026,
+		name = "The Fool's Scales·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-thehierophantV",
+		enter_story = "",
+		ani_name = "Map_1740012",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4967,
+		ui_type = 1,
+		bg = "Map_1740001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1740012,
 		clouds_pos = {
 			{
 				332,

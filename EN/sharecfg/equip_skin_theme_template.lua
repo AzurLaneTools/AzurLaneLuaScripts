@@ -998,6 +998,30 @@ pg.equip_skin_theme_template = {
 			797
 		}
 	},
+	[49] = {
+		id = 49,
+		name = "Midsummer Night Dreamin'",
+		ids = {
+			810,
+			811,
+			812,
+			813,
+			814,
+			815,
+			816,
+			817,
+			818,
+			819,
+			820,
+			821,
+			822,
+			823,
+			824,
+			825,
+			826,
+			827
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1124,6 +1148,7 @@ pg.equip_skin_theme_template = {
 		46,
 		47,
 		48,
+		49,
 		101,
 		102,
 		103,
