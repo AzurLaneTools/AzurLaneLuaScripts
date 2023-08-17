@@ -677,7 +677,7 @@ return {
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "长剑闪烁着刺目的圣洁之光。",
+			say = "휘두르는 검에서는 성스러운 빛이 뿜어져 나왔고, 폭발하는 듯한 화염이 적들을 불살랐다.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -761,7 +761,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -789,7 +789,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -801,7 +801,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -813,7 +813,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -862,7 +862,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -879,7 +879,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",

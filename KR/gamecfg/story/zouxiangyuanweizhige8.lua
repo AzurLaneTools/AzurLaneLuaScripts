@@ -177,7 +177,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "뚜렷하지 않은 목소리",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -189,7 +189,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "뚜렷하지 않은 목소리",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -201,7 +201,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "뚜렷하지 않은 목소리",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -272,12 +272,12 @@ return {
 			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
 			mode = 1,
 			hidePaintObj = true,
-			say = "「于地狱之中涌现的邪恶。」",
+			say = "암흑에서 태어난 악, 비틀림에서 나타난 부정한 것이여…",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -306,7 +306,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -318,7 +318,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -330,7 +330,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -342,7 +342,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -354,7 +354,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -366,7 +366,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -431,7 +431,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -443,7 +443,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -455,7 +455,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -467,7 +467,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -479,7 +479,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -491,7 +491,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -503,7 +503,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "마르세예즈",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -542,7 +542,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외 ",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",

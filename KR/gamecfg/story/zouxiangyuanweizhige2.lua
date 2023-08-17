@@ -60,7 +60,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -84,7 +84,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -96,7 +96,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -108,7 +108,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
