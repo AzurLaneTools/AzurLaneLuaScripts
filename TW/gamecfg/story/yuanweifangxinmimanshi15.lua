@@ -98,24 +98,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 30,
-					delay = 0,
-					dur = 0.2,
-					x = 0,
-					number = 2
-				},
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -232,16 +214,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 0,
-					delay = 0,
-					dur = 0.4,
-					x = 30,
-					number = 2
-				}
 			}
 		},
 		{

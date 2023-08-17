@@ -636,7 +636,7 @@ return {
 			},
 			options = {
 				{
-					content = "遵命，武藏大人！",
+					content = "遵命，{namecode:84}大人！",
 					flag = 1
 				},
 				{

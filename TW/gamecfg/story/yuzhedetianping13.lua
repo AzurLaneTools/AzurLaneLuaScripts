@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
+			actor = 601060,
 			side = 2,
-			actorName = "达雷科",
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

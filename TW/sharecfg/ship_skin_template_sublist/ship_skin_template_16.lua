@@ -9725,7 +9725,7 @@ pg.base.ship_skin_template_16 = {
 				-10,
 				2
 			},
-			ParamBodyAngleXX = {
+			ParamBodyAngleX = {
 				-10,
 				2
 			}

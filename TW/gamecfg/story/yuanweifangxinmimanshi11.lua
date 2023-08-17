@@ -166,7 +166,7 @@ return {
 			actor = 107092,
 			say = "怎……怎么样？",
 			actorPosition = {
-				x = -1000,
+				x = -1500,
 				y = 0
 			},
 			action = {
@@ -175,7 +175,7 @@ return {
 					y = 0,
 					delay = 0.5,
 					dur = 1,
-					x = 1000
+					x = 1500
 				}
 			},
 			painting = {

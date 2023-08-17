@@ -3867,6 +3867,10 @@ pg.painting_filte_map = {
 		key = "hailunna",
 		res_list = {
 			"painting/hailunna_tex",
+			"painting/hailunna_4_tex",
+			"painting/hailunna_4_n_tex",
+			"painting/hailunna_4_n",
+			"painting/hailunna_4",
 			"painting/hailunna"
 		}
 	},
@@ -5051,6 +5055,11 @@ pg.painting_filte_map = {
 			"painting/jifu_tex",
 			"painting/jifu_n_tex",
 			"painting/jifu_n",
+			"painting/jifu_3_tex",
+			"painting/jifu_3_rw_tex",
+			"painting/jifu_3_n_tex",
+			"painting/jifu_3_n",
+			"painting/jifu_3",
 			"painting/jifu"
 		}
 	},
@@ -6106,6 +6115,16 @@ pg.painting_filte_map = {
 	lian = {
 		key = "lian",
 		res_list = {
+			"painting/liang_tex",
+			"painting/liang_rw_tex",
+			"painting/liang_n_tex",
+			"painting/liang_n",
+			"painting/liang_2_tex",
+			"painting/liang_2_rw_tex",
+			"painting/liang_2_n_tex",
+			"painting/liang_2_n",
+			"painting/liang_2",
+			"painting/liang",
 			"painting/lian_wjz_tex",
 			"painting/lian_wjz",
 			"painting/lian_tex",
@@ -6889,6 +6908,7 @@ pg.painting_filte_map = {
 			"painting/makeboluo_tx3_tex",
 			"painting/makeboluo_tx2_tex",
 			"painting/makeboluo_tex",
+			"painting/makeboluo_shadow_tex",
 			"painting/makeboluo_rw_tex",
 			"painting/makeboluo_n",
 			"painting/makeboluo_jz1_tex",
@@ -8417,6 +8437,10 @@ pg.painting_filte_map = {
 		key = "qiye",
 		res_list = {
 			"painting/qiye_tex",
+			"painting/qiye_9_tex",
+			"painting/qiye_9_n_tex",
+			"painting/qiye_9_n",
+			"painting/qiye_9",
 			"painting/qiye"
 		}
 	},
@@ -11282,6 +11306,21 @@ pg.painting_filte_map = {
 		key = "xifujiniya",
 		res_list = {
 			"painting/xifujiniya_tex",
+			"painting/xifujiniya_g_tex",
+			"painting/xifujiniya_g_rw_tex",
+			"painting/xifujiniya_g_n_tex",
+			"painting/xifujiniya_g_n",
+			"painting/xifujiniya_g_front_tex",
+			"painting/xifujiniya_g",
+			"painting/xifujiniya_3_tex",
+			"painting/xifujiniya_3_rw_tex",
+			"painting/xifujiniya_3_rw_hx_tex",
+			"painting/xifujiniya_3_n_tex",
+			"painting/xifujiniya_3_n_hx_tex",
+			"painting/xifujiniya_3_n_hx",
+			"painting/xifujiniya_3_n",
+			"painting/xifujiniya_3_hx",
+			"painting/xifujiniya_3",
 			"painting/xifujiniya_2_tex",
 			"painting/xifujiniya_2",
 			"painting/xifujiniya"
@@ -12429,6 +12468,11 @@ pg.painting_filte_map = {
 			"painting/yuekechengii_2",
 			"painting/yuekechengii",
 			"painting/yuekecheng_tex",
+			"painting/yuekecheng_h_tex",
+			"painting/yuekecheng_h_rw_tex",
+			"painting/yuekecheng_h_n_tex",
+			"painting/yuekecheng_h_n",
+			"painting/yuekecheng_h",
 			"painting/yuekecheng"
 		}
 	},

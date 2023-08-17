@@ -79,6 +79,16 @@ function slot0.setOutLandPoint(slot0, slot1)
 end
 
 function slot0.step(slot0)
+	if slot0.timeToOver and slot0.timeToOver > 0 then
+		slot0.timeToOver = slot0.timeToOver - CastleGameVo.deltaTime
+
+		if slot0.timeToOver <= 0 then
+			slot0.timeToOver = nil
+
+			slot0._event:emit(CastleGameView.GAME_OVER)
+		end
+	end
+
 	slot0:updateSpeed()
 	slot0:updatePosition()
 	slot0:updateAnim()
@@ -230,10 +240,9 @@ end
 
 function slot0.setPlayerFail(slot0)
 	slot0.fail = true
+	slot0.timeToOver = 1
 
-	slot0:changeAnimAction(slot0.anim, uv0, 1, nil, function ()
-		uv0._event:emit(CastleGameView.GAME_OVER)
-	end)
+	slot0:playerDead()
 end
 
 function slot0.setContent(slot0, slot1, slot2)
@@ -261,11 +270,12 @@ function slot0.start(slot0)
 	slot0.inGround = true
 	slot0.inBubble = false
 	slot0.fail = false
+	slot0.timeToOver = nil
 	slot0.speed = Vector3(0, 0, 0)
 	slot0.addSpeed = 0
 	slot0.addSpeedTime = 0
 
-	slot0:updateAnim()
+	slot0:changeAnimAction(slot0.anim, uv1, 0)
 end
 
 function slot0.clear(slot0)
@@ -304,6 +314,12 @@ function slot0.getActionAble(slot0)
 end
 
 function slot0.press(slot0, slot1)
+end
+
+function slot0.playerDead(slot0)
+	slot0.action = uv0
+
+	slot0.anim:GetAnimationState():SetAnimation(0, uv0, false)
 end
 
 function slot0.changeAnimAction(slot0, slot1, slot2, slot3, slot4, slot5)

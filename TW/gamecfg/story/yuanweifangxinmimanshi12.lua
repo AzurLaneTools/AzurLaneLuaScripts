@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "在武藏的邀请下，来到城堡附近的湖面泛舟。",
+			say = "在{namecode:84}的邀请下，来到城堡附近的湖面泛舟。",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,

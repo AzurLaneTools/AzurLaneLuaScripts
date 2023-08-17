@@ -7369,7 +7369,7 @@ pg.base.skill_data_display = {
 	},
 	[15513] = {
 		id = 15513,
-		name = "wei?"
+		name = "weiß"
 	},
 	[15520] = {
 		id = 15520,
