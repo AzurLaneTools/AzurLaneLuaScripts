@@ -72,6 +72,14 @@ pg.item_data_chat = {
 		desc = "<size=28><color=#ffffff>無人島でのバケーションを楽しもう~！</color>イベント「潮風と夏の無人島」に参加した指揮官に贈る</size>",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "華麗なる招待",
+		id = 603,
+		time_second = 0,
+		desc = "<size=28><color=#ffffff>母港パーティーの参加記念。華麗に艦船たちに招待状を届けた指揮官に贈る</color><color=#A7A7AAFF>「宴会会場」イベントに参加した指揮官に贈る</color></size>",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "限界挑戦・ふたご座",
@@ -106,6 +114,7 @@ pg.item_data_chat = {
 		300,
 		301,
 		602,
+		603,
 		10001,
 		10002,
 		10003

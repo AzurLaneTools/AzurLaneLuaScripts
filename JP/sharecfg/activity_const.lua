@@ -926,5 +926,14 @@ pg.activity_const = {
 	},
 	LINLK_DUNHUANG_ACT = {
 		act_id = 4889
+	},
+	FEAST_PT_ACT = {
+		act_id = 4964
+	},
+	FEAST_TASK_ACT = {
+		act_id = 4965
+	},
+	MINIGAME_XINTIAOCHENGBAO = {
+		act_id = 4961
 	}
 }

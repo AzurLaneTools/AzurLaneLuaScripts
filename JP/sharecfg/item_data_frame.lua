@@ -399,10 +399,10 @@ pg.item_data_frame = {
 	[326] = {
 		time_limit_type = 0,
 		name = "戴かざる聖冠",
-		gain_by = "",
+		gain_by = "愚者の天秤",
 		id = 326,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「聖座の冠を戴かずとも、真の大義を掲げる者には勝利という栄冠に奉じられるだろう」</color>「愚者の天秤」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -484,6 +484,15 @@ pg.item_data_frame = {
 		id = 602,
 		time_second = 0,
 		desc = "<color=#ffffff>無人島でのバケーションを楽しもう~！</color>\nイベント「潮風と夏の無人島」に参加した指揮官に贈る",
+		scene = {}
+	},
+	[603] = {
+		time_limit_type = 0,
+		name = "芳香のエンブレム",
+		gain_by = "",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>母港パーティーの参加記念。特別な日には参加者に特別な祝福を！</color>\n「宴会会場」イベントに参加した指揮官に贈る",
 		scene = {}
 	},
 	[10001] = {
@@ -568,6 +577,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		603,
 		10001,
 		10002,
 		10003

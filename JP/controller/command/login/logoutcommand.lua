@@ -111,6 +111,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(RefluxProxy.__cname)
 			uv0.facade:removeProxy(IslandProxy.__cname)
 			uv0.facade:removeProxy(ActivityTaskProxy.__cname)
+			uv0.facade:removeProxy(FeastProxy.__cname)
 			uv0.facade:removeCommand(GAME.LOAD_SCENE_DONE)
 		end
 	})

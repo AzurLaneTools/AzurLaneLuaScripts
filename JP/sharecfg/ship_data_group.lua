@@ -1544,11 +1544,23 @@ pg.ship_data_group = setmetatable({
 		[80202] = {
 			454
 		},
+		[80203] = {
+			603
+		},
+		[80301] = {
+			600
+		},
 		[80501] = {
 			453
 		},
+		[80502] = {
+			602
+		},
 		[80701] = {
 			458
+		},
+		[80702] = {
+			599
 		},
 		[80801] = {
 			350
@@ -1561,6 +1573,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[90103] = {
 			457
+		},
+		[90104] = {
+			601
 		},
 		[90111] = {
 			394
@@ -1588,6 +1603,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[90501] = {
 			353
+		},
+		[90502] = {
+			605
 		},
 		[90503] = {
 			418
@@ -2450,12 +2468,17 @@ pg.ship_data_group = setmetatable({
 		523,
 		349,
 		454,
+		603,
+		600,
 		453,
+		602,
 		458,
+		599,
 		350,
 		351,
 		452,
 		457,
+		601,
 		394,
 		556,
 		481,
@@ -2465,6 +2488,7 @@ pg.ship_data_group = setmetatable({
 		455,
 		352,
 		353,
+		605,
 		418,
 		555,
 		571,
@@ -7048,12 +7072,12 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 1,
-		trans_skin = 0,
+		trans_skin = 105119,
 		handbook_type = 0,
 		index_id = 97,
 		code = 62,
 		group_type = 10511,
-		trans_type = 0,
+		trans_type = 5,
 		share_group_id = {},
 		property_hexagon = {
 			"A",
@@ -7063,8 +7087,17 @@ pg.base.ship_data_group = {
 			"D",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			16950
+		},
 		description = {
 			{
 				"イベント：闇に堕ちた青き翼",
@@ -24797,6 +24830,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[603] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 516,
+		code = 603,
+		group_type = 80203,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[600] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 517,
+		code = 600,
+		group_type = 80301,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[453] = {
 		type = 5,
 		redirect_id = 101,
@@ -24804,7 +24901,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 516,
+		index_id = 518,
 		code = 453,
 		group_type = 80501,
 		trans_type = 0,
@@ -24840,6 +24937,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[602] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 519,
+		code = 602,
+		group_type = 80502,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[458] = {
 		type = 7,
 		redirect_id = 101,
@@ -24847,7 +24976,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 517,
+		index_id = 520,
 		code = 458,
 		group_type = 80701,
 		trans_type = 0,
@@ -24882,6 +25011,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[599] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 521,
+		code = 599,
+		group_type = 80702,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[350] = {
 		type = 8,
 		redirect_id = 101,
@@ -24889,7 +25050,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 518,
+		index_id = 522,
 		code = 350,
 		group_type = 80801,
 		trans_type = 0,
@@ -24932,7 +25093,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 901019,
 		handbook_type = 0,
-		index_id = 519,
+		index_id = 523,
 		code = 351,
 		group_type = 90101,
 		trans_type = 1,
@@ -24994,7 +25155,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 520,
+		index_id = 524,
 		code = 452,
 		group_type = 90102,
 		trans_type = 0,
@@ -25037,7 +25198,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 521,
+		index_id = 525,
 		code = 457,
 		group_type = 90103,
 		trans_type = 0,
@@ -25073,6 +25234,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[601] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 526,
+		code = 601,
+		group_type = 90104,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[394] = {
 		type = 1,
 		redirect_id = 101,
@@ -25080,7 +25273,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 522,
+		index_id = 527,
 		code = 394,
 		group_type = 90111,
 		trans_type = 0,
@@ -25134,7 +25327,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 523,
+		index_id = 528,
 		code = 556,
 		group_type = 90113,
 		trans_type = 0,
@@ -25166,7 +25359,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 524,
+		index_id = 529,
 		code = 481,
 		group_type = 90112,
 		trans_type = 0,
@@ -25210,7 +25403,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 525,
+		index_id = 530,
 		code = 456,
 		group_type = 90201,
 		trans_type = 0,
@@ -25252,7 +25445,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 526,
+		index_id = 531,
 		code = 598,
 		group_type = 90202,
 		trans_type = 0,
@@ -25284,7 +25477,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 527,
+		index_id = 532,
 		code = 524,
 		group_type = 90301,
 		trans_type = 0,
@@ -25316,7 +25509,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 528,
+		index_id = 533,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -25359,7 +25552,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 529,
+		index_id = 534,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -25402,7 +25595,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 530,
+		index_id = 535,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -25447,6 +25640,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[605] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 536,
+		code = 605,
+		group_type = 90502,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：愚者の天秤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[418] = {
 		type = 5,
 		redirect_id = 101,
@@ -25454,7 +25679,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 531,
+		index_id = 537,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -25499,7 +25724,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 532,
+		index_id = 538,
 		code = 555,
 		group_type = 90701,
 		trans_type = 0,
@@ -25531,7 +25756,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 533,
+		index_id = 539,
 		code = 571,
 		group_type = 960001,
 		trans_type = 0,

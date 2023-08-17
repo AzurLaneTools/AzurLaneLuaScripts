@@ -424,6 +424,15 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["マ"] = {
+				["ン"] = {
+					["ソ"] = {
+						["ー"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["ー"] = {
@@ -1569,6 +1578,13 @@ function temp()
 								this = true
 							}
 						}
+					}
+				}
+			},
+			["フ"] = {
+				["ラ"] = {
+					["ン"] = {
+						this = true
 					}
 				}
 			},
@@ -3306,6 +3322,11 @@ function temp()
 				}
 			}
 		},
+		["ヨ"] = {
+			["ン"] = {
+				this = true
+			}
+		},
 		["ラ"] = {
 			["・"] = {
 				["デ"] = {
@@ -3942,7 +3963,10 @@ function temp()
 							["ジ"] = {
 								["ニ"] = {
 									["ア"] = {
-										this = true
+										this = true,
+										["改"] = {
+											this = true
+										}
 									}
 								}
 							}
@@ -4504,6 +4528,11 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["サ"] = {
+				["ン"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -4647,6 +4676,15 @@ function temp()
 								this = true
 							}
 						}
+					}
+				}
+			}
+		},
+		["ン"] = {
+			["ル"] = {
+				["ヴ"] = {
+					["ェ"] = {
+						this = true
 					}
 				}
 			}
@@ -6494,6 +6532,20 @@ function temp()
 		},
 		["ナ"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ギ"] = {
+		["シ"] = {
+			["ャ"] = {
+				["ン"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

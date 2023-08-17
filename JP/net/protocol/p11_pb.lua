@@ -73,6 +73,7 @@ slot2 = {
 	CS_11016_GUIDE_INDEX_FIELD = slot0.FieldDescriptor(),
 	CS_11017_STORY_ID_FIELD = slot0.FieldDescriptor(),
 	SC_11018_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_11018_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11019_FLAG_ID_FIELD = slot0.FieldDescriptor(),
 	SC_11020_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_11021_FLAG_ID_FIELD = slot0.FieldDescriptor(),
@@ -190,6 +191,7 @@ slot2 = {
 	ACTIVITYINFO_INS_MESSAGE_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
+	ACTIVITYINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_ID_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_VERSION_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_BTN_TITLE_FIELD = slot0.FieldDescriptor(),
@@ -1207,12 +1209,23 @@ slot2.SC_11018_RESULT_FIELD.has_default_value = false
 slot2.SC_11018_RESULT_FIELD.default_value = 0
 slot2.SC_11018_RESULT_FIELD.type = 13
 slot2.SC_11018_RESULT_FIELD.cpp_type = 3
+slot2.SC_11018_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_11018_DROP_LIST_FIELD.full_name = "p11.sc_11018.drop_list"
+slot2.SC_11018_DROP_LIST_FIELD.number = 2
+slot2.SC_11018_DROP_LIST_FIELD.index = 1
+slot2.SC_11018_DROP_LIST_FIELD.label = 3
+slot2.SC_11018_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_11018_DROP_LIST_FIELD.default_value = {}
+slot2.SC_11018_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_11018_DROP_LIST_FIELD.type = 11
+slot2.SC_11018_DROP_LIST_FIELD.cpp_type = 10
 SC_11018.name = "sc_11018"
 SC_11018.full_name = "p11.sc_11018"
 SC_11018.nested_types = {}
 SC_11018.enum_types = {}
 SC_11018.fields = {
-	slot2.SC_11018_RESULT_FIELD
+	slot2.SC_11018_RESULT_FIELD,
+	slot2.SC_11018_DROP_LIST_FIELD
 }
 SC_11018.is_extendable = false
 SC_11018.extensions = {}
@@ -2798,6 +2811,16 @@ slot2.ACTIVITYINFO_TASK_LIST_FIELD.default_value = {}
 slot2.ACTIVITYINFO_TASK_LIST_FIELD.message_type = slot1.TASKINFO
 slot2.ACTIVITYINFO_TASK_LIST_FIELD.type = 11
 slot2.ACTIVITYINFO_TASK_LIST_FIELD.cpp_type = 10
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.name = "buff_list"
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.full_name = "p11.activityinfo.buff_list"
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.number = 15
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.index = 14
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.label = 3
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.has_default_value = false
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.default_value = {}
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.message_type = BENEFITBUFF
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.type = 11
+slot2.ACTIVITYINFO_BUFF_LIST_FIELD.cpp_type = 10
 ACTIVITYINFO.name = "activityinfo"
 ACTIVITYINFO.full_name = "p11.activityinfo"
 ACTIVITYINFO.nested_types = {}
@@ -2816,7 +2839,8 @@ ACTIVITYINFO.fields = {
 	slot2.ACTIVITYINFO_GROUP_LIST_FIELD,
 	slot2.ACTIVITYINFO_INS_MESSAGE_LIST_FIELD,
 	slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD,
-	slot2.ACTIVITYINFO_TASK_LIST_FIELD
+	slot2.ACTIVITYINFO_TASK_LIST_FIELD,
+	slot2.ACTIVITYINFO_BUFF_LIST_FIELD
 }
 ACTIVITYINFO.is_extendable = false
 ACTIVITYINFO.extensions = {}

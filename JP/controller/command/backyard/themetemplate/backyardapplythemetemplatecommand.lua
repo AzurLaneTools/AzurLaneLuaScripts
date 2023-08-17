@@ -80,20 +80,24 @@ end
 
 function slot0.WarpList(slot0)
 	slot1 = getProxy(DormProxy):getRawData()
-	slot2, slot3, slot4, slot5 = slot1:GetMapSize()
+	slot2 = slot1:GetMapSize()
+	slot3 = slot2.x
+	slot4 = slot2.y
+	slot5 = slot2.z
+	slot6 = slot2.w
 
-	function slot6(slot0)
+	function slot7(slot0)
 		assert(slot0.position, slot0.id)
 
 		return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
 	end
 
-	slot7 = slot1.level
-	slot8 = slot1:GetPurchasedFurnitures()
+	slot8 = slot1.level
+	slot9 = slot1:GetPurchasedFurnitures()
 
-	for slot12 = #slot0, 1, -1 do
-		if not slot0[slot12].position or not slot8[slot13.configId] or slot6(slot13) then
-			table.remove(slot0, slot12)
+	for slot13 = #slot0, 1, -1 do
+		if not slot0[slot13].position or not slot9[slot14.configId] or slot7(slot14) then
+			table.remove(slot0, slot13)
 		end
 	end
 
@@ -105,48 +109,49 @@ function slot0.WarpList(slot0)
 		end
 	end)
 
-	slot9 = {}
+	slot10 = {}
 
-	for slot13, slot14 in ipairs(slot0) do
-		slot9[slot14.id] = slot14
+	for slot14, slot15 in ipairs(slot0) do
+		slot10[slot15.id] = slot15
 	end
 
-	slot10 = {}
 	slot11 = {}
+	slot12 = {}
+	slot13 = slot1:GetMapSize()
 
-	for slot15, slot16 in ipairs(slot0) do
-		slot17, slot18 = CourtYardRawDataChecker.CheckFurnitrue(slot16, slot9, slot7)
+	for slot17, slot18 in ipairs(slot0) do
+		slot19, slot20 = CourtYardRawDataChecker.CheckFurnitrue(slot18, slot10, slot13)
 
-		if not slot17 and not table.contains(slot10, slot16.id) then
-			slot19 = pairs
-			slot20 = slot16.child or {}
+		if not slot19 and not table.contains(slot11, slot18.id) then
+			slot21 = pairs
+			slot22 = slot18.child or {}
 
-			for slot22, slot23 in slot19(slot20) do
-				table.insert(slot10, slot22)
+			for slot24, slot25 in slot21(slot22) do
+				table.insert(slot11, slot24)
 			end
 
-			if slot16.parent ~= 0 then
-				if not slot11[slot16.parent] then
-					slot11[slot16.parent] = {}
+			if slot18.parent ~= 0 then
+				if not slot12[slot18.parent] then
+					slot12[slot18.parent] = {}
 				end
 
-				table.insert(slot11[slot16.parent], slot16.id)
+				table.insert(slot12[slot18.parent], slot18.id)
 			end
 
-			table.insert(slot10, slot16.id)
+			table.insert(slot11, slot18.id)
 		end
 	end
 
-	for slot15 = #slot0, 1, -1 do
-		if table.contains(slot10, slot0[slot15].id) then
-			table.remove(slot0, slot15)
-		elseif slot11[slot16.id] then
-			slot18 = pairs
-			slot19 = slot16.child or {}
+	for slot17 = #slot0, 1, -1 do
+		if table.contains(slot11, slot0[slot17].id) then
+			table.remove(slot0, slot17)
+		elseif slot12[slot18.id] then
+			slot20 = pairs
+			slot21 = slot18.child or {}
 
-			for slot21, slot22 in slot18(slot19) do
-				if table.contains(slot17, slot21) then
-					slot16.child[slot21] = nil
+			for slot23, slot24 in slot20(slot21) do
+				if table.contains(slot19, slot23) then
+					slot18.child[slot23] = nil
 				end
 			end
 		end

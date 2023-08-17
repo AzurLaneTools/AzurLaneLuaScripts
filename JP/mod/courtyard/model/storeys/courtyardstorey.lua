@@ -1,11 +1,10 @@
 slot0 = class("CourtYardStorey", import("..map.CourtYardPlaceableArea"))
-slot0.TYPE_INNER = 1
-slot0.TYPE_OUT = 2
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot0:GetRange())
+function slot0.Ctor(slot0, slot1, slot2, slot3)
+	uv0.super.Ctor(slot0, slot3)
 
 	slot0.id = slot1
+	slot0.style = slot2
 	slot0.level = 1
 	slot0.furnitures = {}
 	slot0.ships = {}
@@ -14,12 +13,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.composeChecker = CourtYardStoreyComposeChecker.New(slot0)
 end
 
-function slot0.GetRange(slot0)
-	return CourtYardConst.MAP_SIZE
-end
-
-function slot0.GetType(slot0)
-	return uv0.TYPE_INNER
+function slot0.GetStyle(slot0)
+	return slot0.style
 end
 
 function slot0.SetLevel(slot0, slot1)
@@ -102,6 +97,10 @@ function slot0.AddFurniture(slot0, slot1, slot2)
 	slot0:DispatchEvent(CourtYardEvent.CREATE_ITEM, slot1, slot2)
 	slot0:AddItem(slot1)
 	slot0.composeChecker:Check()
+
+	if slot1:CanTouch() and slot1:TriggerTouchDefault() then
+		slot0:ClickFurniture(slot1.id)
+	end
 end
 
 function slot0.AddPaper(slot0, slot1)
@@ -129,21 +128,12 @@ function slot0.Update(slot0)
 end
 
 function slot0.AddShip(slot0, slot1)
-	if not slot0:GetRandomPosition(slot1) then
-		slot0.ships[slot1.id] = nil
-
-		return false
-	end
-
-	slot1:SetPosition(slot2)
 	slot1:ChangeState(CourtYardShip.STATE_IDLE)
 
 	slot0.ships[slot1.id] = slot1
 
 	slot0:DispatchEvent(CourtYardEvent.CREATE_ITEM, slot1)
 	slot0:AddItem(slot1)
-
-	return true
 end
 
 function slot0.GetPlaceableArea(slot0, slot1)

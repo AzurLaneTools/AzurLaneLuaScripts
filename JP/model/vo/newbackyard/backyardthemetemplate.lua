@@ -17,14 +17,18 @@ end
 function slot0.GetAllFurniture(slot0)
 	if not slot0.furnitruesByIds then
 		slot0.furnitruesByIds = slot0:InitFurnitures({
-			floor = 1,
-			lv = 4,
 			skipCheck = true,
+			floor = 1,
+			mapSize = slot0:GetMapSize(),
 			furniture_put_list = slot0:GetRawPutList()
 		})
 	end
 
 	return slot0.furnitruesByIds
+end
+
+function slot0.GetMapSize(slot0)
+	return Dorm.StaticGetMapSize(4)
 end
 
 function slot0.GetFurnitureCnt(slot0)

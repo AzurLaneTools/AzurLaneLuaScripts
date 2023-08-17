@@ -7729,6 +7729,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "改造を行うと<color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【戦争の悲劇】</color>が<color=#92fc63>【戦争の悲劇·改】</color>に変化\nスキル<color=#92fc63>【全弾発射II】</color>が<color=#92fc63>【全弾発射III】に変化</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_105234 = {
+	tip = "改造(近代化改修)終了後、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ウェストバージニア】</color>に強化される"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "近代化改修で<color=#92fc63>【戦闘機機数+1】、【攻撃機機数+1】</color>\n近代化改修を行いますか？"
 }
@@ -10065,7 +10069,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「アッティリオ・レゴロ」「ゴリツィア」などの出現率UP！"
+	tip = "クレマンソー、ギシャンなど出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11973,6 +11977,10 @@ _G.pg.base.gametip.returner_help = {
 
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1日$2時間$3分"
+}
+
+_G.pg.base.gametip.pray_build_select_ship_instruction = {
+	tip = "艦船を二人選択"
 }
 
 _G.pg.base.gametip.warning_pray_build_pool = {
@@ -24934,4 +24942,215 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "所持中:"
+}
+
+_G.pg.base.gametip.faest_nothing_to_get = {
+	tip = "入手できる報酬はありません"
+}
+
+_G.pg.base.gametip.feast_click_to_close = {
+	tip = "*画面タップで戻る"
+}
+
+_G.pg.base.gametip.feast_invitation_btn_label = {
+	tip = "特別招待"
+}
+
+_G.pg.base.gametip.feast_task_btn_label = {
+	tip = "雰囲気Lv"
+}
+
+_G.pg.base.gametip.feast_task_pt_label = {
+	tip = "雰囲気:"
+}
+
+_G.pg.base.gametip.feast_task_pt_level = {
+	tip = "Lv$1"
+}
+
+_G.pg.base.gametip.feast_task_pt_get = {
+	tip = "未入手"
+}
+
+_G.pg.base.gametip.feast_task_pt_got = {
+	tip = "入手済"
+}
+
+_G.pg.base.gametip.feast_task_tag_daily = {
+	tip = "毎日任務-"
+}
+
+_G.pg.base.gametip.feast_task_tag_activity = {
+	tip = "特別任務-"
+}
+
+_G.pg.base.gametip.feast_label_make_invitation = {
+	tip = "招待状制作"
+}
+
+_G.pg.base.gametip.feast_no_invitation = {
+	tip = "招待状はありません"
+}
+
+_G.pg.base.gametip.feast_no_gift = {
+	tip = "贈り物はありません"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation = {
+	tip = "艦船招待"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation_finish = {
+	tip = "招待完了"
+}
+
+_G.pg.base.gametip.feast_label_give_gift = {
+	tip = "贈り物制作"
+}
+
+_G.pg.base.gametip.feast_label_give_gift_finish = {
+	tip = "贈り物完了"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_tip = {
+	tip = "パーツをドラッグ＆ドロップで招待状を制作してください"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_click_tip = {
+	tip = "タップで詳細を確認"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+	tip = "制作手順をもう一度確認しますか？"
+}
+
+_G.pg.base.gametip.feast_res_window_title = {
+	tip = "詳細"
+}
+
+_G.pg.base.gametip.feast_res_window_go_label = {
+	tip = "確認へ"
+}
+
+_G.pg.base.gametip.feast_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_invitation_part1 = {
+	tip = "艦船のアイコンを所定の場所に貼ろう"
+}
+
+_G.pg.base.gametip.feast_invitation_part2 = {
+	tip = "パーティー招待状の用紙。紙はかすかな芳香が漂う高級品で、模様とフォントにもこだわりが感じられる"
+}
+
+_G.pg.base.gametip.feast_invitation_part3 = {
+	tip = "招待状を入れる封筒。招待状の用紙同様プレミアム仕様で、相手への敬意、そしてパーティーの格式高さを上手く伝えられるだろう"
+}
+
+_G.pg.base.gametip.feast_invitation_part4 = {
+	tip = "最後は金粉混じりの封蝋で綴じて、大切な気持ちを一緒に同封しよう"
+}
+
+_G.pg.base.gametip.uscastle2023_help = {
+	tip = {
+		{
+			info = [[
+イベント概要：
+裏山キャンペーン「饅頭キャッスル」は<color=#92fc63>8.17-8.31メンテまで</color>開催されます。
+様々なミニゲームや特別任務、「宴会会場」に参加して、「雰囲気Pt」を集め豪華報酬を手に入れましょう！
+
+遊び方：
+
+・「宴会会場」について
+「雰囲気Pt」を集めて、報酬を入手できましょう！
+1.ミニイベント「宴会会場」では、様々な宴会任務（限定任務）が登場し、さらに艦船たちのSDキャラと毎日何回か会話することが可能。
+2.限定任務をクリア、艦船SDキャラと会話し一緒に遊ぶ（各種施設にドラッグ＆ドロップ）すると、「雰囲気Pt」を入手可能。
+3.また、一部艦船は「ミニゲーム」で入手した招待状・贈り物を消費し贈ることができ、贈り物をすると「雰囲気Pt」を更に入手可能。
+4.「雰囲気Pt」の累計入手数に応じて、「雰囲気Lv」が上昇しイベント報酬を入手できます。
+5.「雰囲気Lv」を最大まであげると、限定アイコンフレームとチャットフレームを入手できます。
+
+・「ミニゲーム」について
+ミニゲームをプレイし、「宴会会場」で使用する特別アイテムや外装箱をGETしよう！
+ゲームをクリアすると、1ステージで1回のみ、装備外装箱、「宴会会場」で艦船に贈るアイテム、「招待状」「贈り物」などを入手可能。
+ミニゲームは8/17（木）メンテナンス後毎日1ステージ解放されます（全7ステージ）
+
+・限定建造
+建造ページに遷移できます。
+
+・着せ替え
+ショップの着せ替えページに遷移できます。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_cant_give_gift_tip = {
+	tip = "まずは招待状を制作し艦船に贈ろう"
+}
+
+_G.pg.base.gametip.uscastle2023_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

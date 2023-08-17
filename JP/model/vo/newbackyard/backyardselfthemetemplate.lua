@@ -9,7 +9,7 @@ end
 function slot0.GetAllFurniture(slot0)
 	if not slot0.furnitruesByIds then
 		slot0.furnitruesByIds = slot0:InitFurnitures({
-			lv = getProxy(DormProxy):getRawData().level,
+			mapSize = slot0:GetMapSize(),
 			floor = slot0.floor,
 			furniture_put_list = slot0:GetRawPutList()
 		})

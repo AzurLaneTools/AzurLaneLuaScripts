@@ -44,9 +44,14 @@ function slot0.IsMaxLevel(slot0)
 end
 
 function slot0.GetMapSize(slot0)
-	slot1 = 12 - (slot0.level - 1) * 4
+	return uv0.StaticGetMapSize(slot0.level)
+end
 
-	return slot1, slot1, 23, 23
+function slot0.StaticGetMapSize(slot0)
+	slot1 = 12 - (slot0 - 1) * 4
+	slot4 = BackYardConst.MAX_MAP_SIZE
+
+	return Vector4(slot1, slot1, slot4.x, slot4.y)
 end
 
 function slot0.isUnlockFloor(slot0, slot1)
@@ -249,6 +254,21 @@ function slot0.GetNonStateShips(slot0, slot1)
 	return slot2
 end
 
+function slot0.GetShips(slot0)
+	slot1 = {}
+	slot2 = getProxy(BayProxy)
+
+	for slot6, slot7 in ipairs(slot0.shipIds) do
+		if slot2:RawGetShipById(slot7) then
+			slot1[slot8.id] = slot8
+		else
+			print("not found ship >>>", slot7)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.GetThemeList(slot0, slot1)
 	return slot0.themes
 end
@@ -297,6 +317,35 @@ end
 
 function slot0.GetFurniture(slot0, slot1)
 	return slot0.furnitures[slot1]
+end
+
+function slot0.GetPutFurnitureList(slot0, slot1)
+	slot2 = {}
+	slot4 = slot0:GetTheme(slot1) and slot3:GetAllFurniture() or {}
+
+	for slot8, slot9 in pairs(slot4) do
+		table.insert(slot2, slot9)
+	end
+
+	table.sort(slot2, BackyardThemeFurniture._LoadWeight)
+
+	return slot2
+end
+
+function slot0.GetPutShipList(slot0, slot1)
+	slot2 = {}
+	slot4 = ({
+		Ship.STATE_TRAIN,
+		Ship.STATE_REST
+	})[slot1]
+
+	for slot8, slot9 in pairs(slot0:GetShips()) do
+		if slot9.state == slot4 then
+			table.insert(slot2, slot9)
+		end
+	end
+
+	return slot2
 end
 
 return slot0

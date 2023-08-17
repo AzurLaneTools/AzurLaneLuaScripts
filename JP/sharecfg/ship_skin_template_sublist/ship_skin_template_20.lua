@@ -1,127 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[10800062] = {
-		ship_group = 1080006,
-		name = "ハッピー・ランドリー",
-		hand_id = 14,
-		bgm = "ssss-az-story",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70873,
-		painting = "qianlai_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "109",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 10800062,
-		voice_actor_2 = -1,
-		prefab = "qianlai_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "あっちゃ～、こんな気の抜けた格好でいるところ見られたら、さすがに恥ずかしいじゃないっすか～",
-		voice_actor = 296,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.86,
-					1.35,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.47,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					0.99,
-					0
-				}
-			},
-			plane = {
-				{
-					1.169,
-					1.68,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.98,
-							1.54,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10800070] = {
 		ship_group = 1080007,
 		name = "ムジナ",
@@ -10502,9 +10381,8 @@ pg.base.ship_skin_template_20 = {
 		bg_sp = "",
 		l2d_ignore_drag = 0,
 		group_index = 0,
-		shop_id = 0,
-		painting = "qiershazhi",
 		illustrator = 1,
+		painting = "qiershazhi",
 		l2d_voice_calibrate = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -10517,10 +10395,9 @@ pg.base.ship_skin_template_20 = {
 		prefab = "qiershazhi",
 		l2d_se = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "航空戦艦――キアサージ",
 		voice_actor = 371,
-		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -10600,6 +10477,27 @@ pg.base.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-35,
+				-1062,
+				0
+			},
+			{
+				0.85
+			}
+		},
+		special_effects = {
+			"lihui_qiershazhi",
+			{
+				-77,
+				39,
+				0
+			},
+			{
+				2.2
 			}
 		}
 	},
@@ -10835,9 +10733,8 @@ pg.base.ship_skin_template_20 = {
 		bg_sp = "",
 		l2d_ignore_drag = 0,
 		group_index = 0,
-		shop_id = 0,
-		painting = "xingdengbao",
 		illustrator = 1,
+		painting = "xingdengbao",
 		l2d_voice_calibrate = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -10850,10 +10747,9 @@ pg.base.ship_skin_template_20 = {
 		prefab = "xingdengbao",
 		l2d_se = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "重巡洋艦――ヒンデンブルク",
 		voice_actor = 372,
-		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -10933,6 +10829,27 @@ pg.base.ship_skin_template_20 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-175,
+				-1049,
+				0
+			},
+			{
+				1.08
+			}
+		},
+		special_effects = {
+			"lihui_xingdengbao",
+			{
+				-183,
+				-1054,
+				0
+			},
+			{
+				1.6
 			}
 		}
 	},

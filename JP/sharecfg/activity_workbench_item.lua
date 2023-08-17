@@ -152,6 +152,28 @@ pg.activity_workbench_item = {
 			recipeid = 9
 		}
 	},
+	[14] = {
+		rarity = 4,
+		name = "特別招待状",
+		display = "母港宴会の招待状。艦船に贈って豪華報酬を手に入れよう！",
+		id = 14,
+		icon = "yanhuiyaoyue_1",
+		get_access = {
+			"入手方法：ミニゲーム「饅頭キャッスル」",
+			minigame = 56
+		}
+	},
+	[15] = {
+		rarity = 4,
+		name = "宴会の贈り物",
+		display = "パーティーの記念アイテム。楽しい一時を思い出させる",
+		id = 15,
+		icon = "yanhuiyaoyue_2",
+		get_access = {
+			"入手方法：ミニゲーム「饅頭キャッスル」",
+			minigame = 56
+		}
+	},
 	all = {
 		1,
 		2,
@@ -164,6 +186,8 @@ pg.activity_workbench_item = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15
 	}
 }

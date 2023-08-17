@@ -13,12 +13,11 @@ slot0.STATE_CANCEL_INTERACT = 10
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
-	slot0.rawShip = slot1
 	slot0.configId = slot1.configId
 	slot0.prefab = slot1:getPrefab()
 	slot0.attachments = slot1:getAttachmentPrefab()
-	slot0.inimacy = slot1.state_info_3
-	slot0.coin = slot1.state_info_4
+	slot0.inimacy = slot1.state_info_3 or 0
+	slot0.coin = slot1.state_info_4 or 0
 	slot0.skinId = slot1.skinId
 	slot0.groupId = slot1.groupId
 	slot0.config = pg.ship_data_statistics[slot0.configId]
@@ -28,10 +27,6 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.state = uv0.STATE_IDLE
 	slot0.moveCnt = 0
-end
-
-function slot0.GetRawShip(slot0)
-	return slot0.rawShip
 end
 
 function slot0.GetLevel(slot0)
@@ -183,7 +178,11 @@ function slot0.GetPrefab(slot0)
 	return slot0.prefab
 end
 
-function slot0.GetAttchments(slot0)
+function slot0.getPrefab(slot0)
+	return slot0:GetPrefab()
+end
+
+function slot0.getAttachmentPrefab(slot0)
 	return slot0.attachments
 end
 
