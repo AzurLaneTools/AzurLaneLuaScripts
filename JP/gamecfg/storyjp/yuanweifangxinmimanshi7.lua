@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>会场中心的墙</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>会場真ん中の壁</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "パーティー会場の様子も気になるが、やっぱり一度場外も見回ろう。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "……嗯？有消息？",
+			say = "……ん？艦船通信のメッセージ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "发送者是……{namecode:427}？",
+			say = "プリンツ・オイゲンからメッセージが届いたようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "短信附带了一张照片。照片中是正在一起参加娱乐活动的铁血一行人。",
+			say = "写真が添付されている――楽しく遊んでいる鉄血のメンバーたちだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "不过更令人在意的是信息的内容……",
+			say = "でも気になるのは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "以及那个本应该出现在照片中的人。",
+			say = "その写真に、いるべきはずの「彼女」がいないのだ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "宴会厅中，{namecode:435}正坐在中心区域独饮。",
+			say = "会場の真ん中のエリアで、ビスマルクが一人で飲み物を嗜んでいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "随着宾客逐渐入场，会场的气氛逐渐变得热烈起来。",
+			say = "会場にやって来た仲間たちが増えるにつれ、パーティーもますます盛り上がりを見せているが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "但{namecode:435}身边好像始终有一堵无形的墙壁，隔绝着外界的喧嚣。",
+			say = "しかしビスマルクには、まるで見えない壁で阻まれているように、誰も話しかけて来ないようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "偶尔见到几个想上前与她攀谈的人，也因为这堵墙而萌生了退意。",
+			say = "各陣営の指導者や鉄血の艦船たちはともかく、それ以外の仲間たちはその「壁」に邪魔されたかのように中々近寄れない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "必须得做点什么————",
+			say = "なんとかしてあげなければ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯？是指挥官啊，你好。",
+			say = "ああ、指揮官か。こんばんは",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "{namecode:435}，你有没有时间……",
+			say = "ビスマルクからこの状況について上手く聞き出す方法は……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "你的表情在告诉我，你是有什么事情要找我谈吧。",
+			say = "その顔、何か相談事があるようね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "现在我有时间，我们可以开始谈了。",
+			say = "ちょうど時間があるから、卿から話してくれて構わないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,18 +277,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "已经完全理解那堵无形之墙形成的原因了——",
+			say = "「卿」――とりあえず「壁」の正体が分かった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你有些太正式了。",
+					content = "立ち振舞いが固いかも",
 					flag = 1
 				},
 				{
-					content = "现在可是在轻松的宴会上。",
+					content = "もっと気楽にしよう",
 					flag = 2
 				}
 			}
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "轻松的……宴会？",
+			say = "楽しいパーティー…ね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯……对于大多数普通宾客来说，宴会可能确实如此。",
+			say = "確かに、大多数の仲間にとってそうかもしれない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "但，我总是无法融入这种氛围呢。",
+			say = "そして指揮官から見て――いいえ、客観的に見ても、私は中々溶け込めてないのね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "{namecode:428}就不一样了，她总是能在各种场合找到乐子。",
+			say = "これがオイゲンなら、すぐ楽しみ方を見つけられるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "所以你才让{namecode:427}带着同伴们四处游览啊。",
+			say = "ビスマルクがいるとみんな畏まってしまうから、仲間をオイゲンに任せたのだろう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "指挥官你看到{namecode:428}她们了啊，她们玩的开心么？",
+			say = "ところで、そのオイゲンはどうだった？楽しんでいる？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "应该很开心吧，如果你也在的话就更好了。",
+			say = "オイゲンから送られた写真を思い出す。そこにビスマルクもいればもっと良かった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "我并不是那种在宴会上能放松下来的人。",
+			say = "あなたも知っているでしょう…私はパーティーでもお堅く映ってしまうタイプよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "如果我在场的话，她们会感到拘束的。",
+			say = "皆と一緒にいると、場の雰囲気が重くなるだけ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "所以我发出了“都跟{namecode:428}去玩吧”的命令。",
+			say = "だからオイゲンにみんなの引率を頼んだ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "看来我的判断是正确的呢。",
+			say = "この状況を見る限り、どうやら私の判断は正しかったようね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "可是这样的话，你要怎么享受宴会的快乐？",
+			say = "鉄血の仲間たちはいいが、ビスマルクはどうやって楽しむんだ…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "宴会与宴会亦有区别。",
+			say = "パーティーと言っても雰囲気はそれぞれよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "有些是为了享受快乐，有些则是需要全神贯注。",
+			say = "思いっきりはしゃぐものもあれば、引き締めて、真面目に挑むべきものものもあるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "今天这场宴会的话，我判断为后者。",
+			say = "そして指導者の私にとって、このパーティーは……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "虽然铁血的诸位听你的命令出去玩了，但她们其实都在担心你。",
+			say = "ただ仲間たちとはしゃぐ様子を見せるためだけで、オイゲンが写真を送ってきたとは思えない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "是{namecode:428}让你来的吧？",
+			say = "オイゲンだけでなく、指揮官にまで心配をかけたわね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "真是瞒不过你。",
+			say = "ビスマルクは申し訳なさそうに苦笑した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "所以，为了不让她们担心，你也请享受这场宴会，如何？",
+			say = "心配をかけたくないなら、仲間たちと同じように気楽にパーティーを楽しもう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯……",
+			say = "そうね……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "舞池那边，已经开始奏乐了呢。",
+			say = "ダンスホールで音楽の演奏が始まったみたい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "指挥官，如果不嫌弃的话————",
+			say = "指揮官、もしよければ――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "握住了{namecode:435}伸出的手。",
+			say = "差し出されたビスマルクの手を取る。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "呵呵，感谢你接受邀请，那就让我们试着享受庆典吧~",
+			say = "誘いに乗ってくれてありがとう。それでは――パーティーを楽しめましょうか",
 			painting = {
 				alpha = 0.3,
 				time = 1

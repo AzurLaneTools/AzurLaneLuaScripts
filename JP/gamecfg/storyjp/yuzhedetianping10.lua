@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 900199,
+			actor = 205029,
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -536,7 +536,7 @@ return {
 			}
 		},
 		{
-			actor = 900199,
+			actor = 205029,
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,

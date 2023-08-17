@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "ここは私たちが今いるユニオンのパビリオンです",
 			canMarkNode = {
@@ -491,7 +491,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "現在戦力を地下シェルターに集中させており、今のところは安全です",
 			canMarkNode = {
@@ -516,7 +516,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "閉幕式のメイン会場であるコロッセオはすでに、第一波の攻撃で完全に破壊されました",
 			canMarkNode = {
@@ -541,7 +541,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "また、会場内ではあの巨大な敵――「ドロイド」と暫定名として登録しましたが――は10機いるようです",
 			canMarkNode = {
@@ -566,7 +566,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "艦載機による攻撃があまり効果がないこと以外、今のところ新しい情報はありません",
 			canMarkNode = {
@@ -592,7 +592,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "そしてロイヤルとアイリスの状況はこちらです",
 			canMarkNode = {
@@ -619,7 +619,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "同じくパビリオンが大きな損害を被っているため、艦隊を集結させマルタに脱出するようです",
 			canMarkNode = {
@@ -646,7 +646,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "次はサディアと重桜、東煌、北方連合、鉄血、ヴィシアについてです",
 			canMarkNode = {
@@ -674,7 +674,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "サディア艦隊はパビリオン周辺で展開しており施設を守っています",
 			canMarkNode = {
@@ -703,7 +703,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "重桜も同じ状況ですが、ドロイドを1度撃退したようですね",
 			canMarkNode = {
@@ -732,7 +732,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			say = "東煌は……ええと、会場に東煌の艦船がいないためか、パビリオンも今のところ特に損害を受けていません",
 			canMarkNode = {
@@ -762,7 +762,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "北方連合はパビリオンが破壊されており、艦船たちの状況もわかりません",
 			canMarkNode = {
@@ -794,7 +794,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "鉄血とヴィシアはパビリオン周辺の海域に展開していて、現在ドロイドと交戦中です",
 			canMarkNode = {
@@ -827,7 +827,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			hidePaintObj = true,
 			say = "詳細はまだ不明ですが、特別計画艦も戦闘に参加しているみたいです",
 			canMarkNode = {

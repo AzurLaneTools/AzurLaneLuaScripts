@@ -363,7 +363,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "指揮官、どうしたの？急に止まって",
 			painting = {
@@ -394,7 +394,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "ヘレナ、エセックスたちにあのデカブツの座標を送って！",
 			painting = {
@@ -429,7 +429,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "アルフレード、島風、駿河！早くこっちへ！",
 			painting = {

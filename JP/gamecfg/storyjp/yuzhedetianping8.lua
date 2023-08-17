@@ -1739,7 +1739,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1756,7 +1756,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "ヴィットリオ·ヴェネト",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1768,7 +1768,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1785,7 +1785,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1802,7 +1802,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1819,7 +1819,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1836,7 +1836,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "ヴィットリオ·ヴェネト",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1848,7 +1848,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "ヴィットリオ·ヴェネト",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1860,7 +1860,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "ヴィットリオ·ヴェネト",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1872,7 +1872,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "ヴィットリオ·ヴェネト",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1884,7 +1884,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1901,7 +1901,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1918,7 +1918,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1935,7 +1935,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1952,7 +1952,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1969,7 +1969,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -1986,7 +1986,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2385,7 +2385,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2419,7 +2419,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2436,7 +2436,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2453,7 +2453,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2470,7 +2470,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2487,7 +2487,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2504,7 +2504,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2521,7 +2521,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2538,7 +2538,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2555,7 +2555,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2572,7 +2572,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2589,7 +2589,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -2606,7 +2606,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,

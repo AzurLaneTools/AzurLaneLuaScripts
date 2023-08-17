@@ -823,7 +823,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "ヘレナ",
 			nameColor = "#A9F548FF",
 			say = "……あ、あれは一体！？",
 			painting = {
@@ -841,7 +841,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "ヘレナ、撤退経路の確保を急いで！",
 			painting = {
@@ -859,7 +859,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "ヘレナ",
 			nameColor = "#A9F548FF",
 			say = "はい…！",
 			painting = {
@@ -877,7 +877,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "指揮官、大丈夫！？しっかりして！",
 			painting = {
@@ -906,7 +906,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "よかった……",
 			painting = {
@@ -924,7 +924,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "対応中のすべての艦船に告ぐ！コード・ブラック！最優先目標の安全を確保する！",
 			painting = {
@@ -942,7 +942,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#A9F548FF",
 			say = "繰り返す！コード・ブラック！",
 			painting = {

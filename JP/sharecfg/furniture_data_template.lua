@@ -129796,7 +129796,7 @@ pg.base.furniture_data_template = {
 		picture = "yh/luodizhongyh",
 		canputon = 0,
 		id = 302113,
-		can_rotate = 0,
+		can_rotate = 1,
 		size = {
 			1,
 			1

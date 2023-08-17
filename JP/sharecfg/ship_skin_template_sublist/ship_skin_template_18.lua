@@ -6654,7 +6654,7 @@ pg.base.ship_skin_template_18 = {
 	},
 	[900357] = {
 		ship_group = 900357,
-		name = "▅海▊▇洛▅■芬特▇▆▅",
+		name = "▅ハ▊▇ロ▅■ント▇▆▅",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -6678,7 +6678,7 @@ pg.base.ship_skin_template_18 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "▅海▊▇洛▅■芬特▇▆▅",
+		desc = "▅ハ▊▇ロ▅■ント▇▆▅",
 		voice_actor = -1,
 		spine_offset = "",
 		gyro = 0,

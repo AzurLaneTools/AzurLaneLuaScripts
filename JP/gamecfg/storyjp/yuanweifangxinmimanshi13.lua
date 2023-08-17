@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>消除恐惧的方法</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>怖がらないで</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "被让·巴尔裹挟着来到了城堡中的某处。",
+			say = "ジャン・バールに連れられて、会場の外のとある静かな場所にやってきた。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——到这里的话，应该就安全了……",
+			say = "ふぅ……ここなら安全か",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么突然逃走？",
+					content = "さっきのは……",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "因为被发现了。",
+			say = "言ったはずだ。見られたくないからな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "为什么被发现了……就要逃走？",
+			say = "見られたくないからってここまで連れてくるのは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不然呢？",
+			say = "そうするしかないだろう？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,11 +129,11 @@ return {
 			},
 			options = {
 				{
-					content = "不擅长应对马萨诸塞？",
+					content = "マサチューセッツが苦手？",
 					flag = 1
 				},
 				{
-					content = "下次跑之前说一声！",
+					content = "自分がいるせい……？",
 					flag = 2
 				}
 			}
@@ -147,7 +147,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算是吧……不过不是主要原因。",
+			say = "ああ、苦手だ。だが理由はそれじゃない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，好。",
+			say = "………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "唉……接待贵宾、宴会致辞这些工作听上去哪一个和我沾边了？",
+			say = "陣営代表としての挨拶ならともかく、会場で姉さんの名代など、オレにはとてもじゃないが務まらん",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "虚伪的笑，繁文缛节，再加上像个花瓶一样让人参观……",
+			say = "愛想笑いして、くだらないマナーに従って、挙句の果てに視線の的になるなど",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "都跟她说做不来这些了……还是一股脑全推过来，这跟让我出丑有什么区别。",
+			say = "ああそうだ。こんなの、姉さんにも無理だって言ったとも",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我知道她忙不开，克莱蒙梭也忙不开。",
+			say = "姉さんが忙しいのは分かる。クレマンソーが表に出ることも珍しいから陣営代表には不向きなのも分かる",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "那也不一定非要是我吧……贞德和马赛曲不也可以。",
+			say = "だがそれでもオレにする理由にはならないだろ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "而且做的肯定比我更好……",
+			say = "ジャンヌはもちろん、マルセイエーズの方がオレよりはうまくやれるはず",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "黎塞留肯定也知道这一点，不过她还是选择了你。",
+			say = "それでも、リシュリューはこの仕事をジャン・バールに任せた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "你觉得她是想看你出丑么，还是？",
+			say = "リシュリューが妹に恥を晒させるようなことはしないはず。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是她打算扔过来更多工作的预兆，还是因为想让我习惯这种场合。",
+			say = "そうだ。お前の言う通り、姉さんに悪気などない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是因为我是她的妹妹……黎塞留级战列舰二号舰，让·巴尔。",
+			say = "妹の――それもアイリスの一翼を担うオレにこの場に慣らさせるのが目的だろう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "看来你都明白。",
+			say = "それが分かっていて、どうして……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "明白归明白，但是……",
+			say = "………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这样好了，我去跟黎塞留说你身体不适，让她把这件工作交给马赛曲或者圣女贞德——",
+			say = "いずれにしても無理強いは良くない。リシュリューに交渉して陣営代表挨拶の任をジャンヌに――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "等等——！",
+			say = "待て",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我又没说不干……而且鸢尾骑士岂能出尔反尔临阵退缩……",
+			say = "やらないとは言っていない。…一度は承諾したのだ。護教騎士団の誇りを舐めてもらっては困る",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "但是你现在的状态……",
+			say = "では、今のは一体――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "嗯……我明白了。",
+			say = "…………もうこれ以上は言わせるな。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会的工作……虽然很让人头疼，但不能让鸢尾蒙羞。",
+			say = "困ってはいるが、アイリスに恥をかかせない。…期待してくれているお前にもだ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "消除恐惧的最好方法就是面对恐惧。",
+			say = "普段とは違う顔を見せたジャン・バール。そんな彼女にかける言葉は一つ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "加油——让·巴尔！",
+			say = "「頑張れ、ジャン・バール！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "哼……不愧是指挥官，还是那么能说会道。",
+			say = "……………ああ。わかってる",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——我们回会场去吧，指挥官。",
+			say = "さて…指揮官、会場に戻ろうか",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "刚刚突然从马萨诸塞面前跑开，此等失礼行为，首先需要对她有个解释才行。",
+			say = "マサチューセッツのやつには失礼なことをした、アイリスの代表としてお詫びをしなければな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "一上来就是这么高难度的目标？",
+			say = "いきなり難しい目標だ。これはフォローを入れたほうが良さそう…か？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不是你说的么，消除恐惧的最好方法就是面对恐惧。",
+			say = "どんなに苦手なことだろうと、立ち向かわなければ始まらないだろ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会正在进行中，没有时间让我慢慢习惯了。",
+			say = "ゆっくりと慣れていきたくても時間がないんだ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "嗯，决定了，第一个要接待的客人就是她了。",
+			say = "というわけだ。最初はマサチューセッツのやつで練習する",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不过……指挥官，帮人帮到底。",
+			say = "いざというときは………すまない、指揮官…厚かましいことだが…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "你会陪我一起回去的，对吧？",
+			say = "最後まで付き合ってくれる…か？",
 			painting = {
 				alpha = 0.3,
 				time = 1

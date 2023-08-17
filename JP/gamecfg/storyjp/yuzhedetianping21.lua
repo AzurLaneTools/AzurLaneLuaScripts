@@ -64,7 +64,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "おーほっほっほっほ！この感触！間違いなく「神」のものよ！",
 			dialogShake = {
 				speed = 0.08,
@@ -82,7 +82,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "なんなの…あれ…？白い鎧、弓、そして…馬？",
 			movableNode = {
 				time = 2,
@@ -247,7 +247,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "…ツッコミどころが違うわマルコ・ポーロ！",
 			dialogShake = {
 				speed = 0.08,
@@ -286,7 +286,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "！！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "弓を引いた！？ってこっちを狙っているわ！",
 			dialogShake = {
 				speed = 0.08,
@@ -358,7 +358,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "きゃあああああああああ！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -487,7 +487,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "ど、どこかに緊急着水しないと！！",
 			dialogShake = {
 				speed = 0.08,
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "クレマンソーからの通信…？！",
 			dialogShake = {
 				speed = 0.08,
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "クレマンソー！今どこにいるの！？",
 			dialogShake = {
 				speed = 0.08,
@@ -601,7 +601,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -618,7 +618,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -635,7 +635,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -652,7 +652,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -759,7 +759,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -776,7 +776,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -829,7 +829,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -846,7 +846,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -863,7 +863,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -952,7 +952,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1077,7 +1077,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1166,7 +1166,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1183,7 +1183,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1200,7 +1200,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1217,7 +1217,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1234,7 +1234,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,

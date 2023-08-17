@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "クレマンソー！今どこにいるの！？聞こえてる？！",
 			painting = {
 				alpha = 0.3,
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "もっと早く出発してって言ったじゃない！",
 			painting = {
 				alpha = 0.3,
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "………はあ。調子が狂うわね",
 			painting = {
 				alpha = 0.3,
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			nameColor = "#ffff4d",
 			say = "順調に進んだところもあるわ。ただそれ以外はひじょーーーーにまずかったわ",
 			dialogShake = {
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			nameColor = "#ffff4d",
 			say = "会場にいる艦船たち…あのわからず屋たちはまだ抵抗するつもりでいるわ",
 			dialogShake = {
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			nameColor = "#ffff4d",
 			say = "サディア艦隊の艦船だけでも確保したかったのに、みんなしてヴェネトヴェネトって私のことを見下して！",
 			dialogShake = {
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "挙句の果てにこちらに楯突こうとする子も出てきて！",
 			painting = {
 				alpha = 0.3,
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "まあそっちも万事順調とは言えないようね。「神穹の壁」はまだ止められないの？",
 			painting = {
 				alpha = 0.3,
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "そうよ！あの機械に本気を出させれば……",
 			painting = {
 				alpha = 0.3,
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "いや、まだダメよ。今はこちらに集中しているわ",
 			painting = {
 				alpha = 0.3,
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "「神」の降臨はまだ果たされていないの。今は「神の機械」を操る余裕なんてないわよ",
 			painting = {
 				alpha = 0.3,
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "指揮官さえいなければ全てうまくいってたはずなのに……ここまでしたくなかったのに！",
 			painting = {
 				alpha = 0.3,
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "…ヴィシア艦隊は君の命令を待っているのね",
 			painting = {
 				alpha = 0.3,
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "その子達に会場の制圧を任せなさい",
 			painting = {
 				alpha = 0.3,
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "君と私の約束よ。私の計画が破綻したらそっちも困るはず！",
 			painting = {
 				alpha = 0.3,

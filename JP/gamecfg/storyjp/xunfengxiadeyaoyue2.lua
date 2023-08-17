@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>耀眼的波纹</size>",
+					"薫風の招待状\n\n<size=45>光輝のトライアングルウェーブ</size>",
 					1
 				}
 			}
@@ -19,10 +19,10 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "行走在海边，清晨的海风格外让人感到清爽。",
+			say = "爽やかな朝の潮風を浴びながら、海辺で散歩していくと――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,9 +31,9 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "不过，似乎有人已经提前来到了这个绝好的观景位置。",
+			say = "絶景を眺める白浜で「先客」と鉢合わせた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呼，海风吹得真舒服啊~",
+			say = "海風が気持ちいい……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,12 +60,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，再过几天就要在指挥官面前……",
+			say = "あと何日かしたら、指揮官の前で……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "早上好，海伦娜。",
+					content = "ヘレナに朝の挨拶をする",
 					flag = 1
 				}
 			}
@@ -84,12 +84,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早上……好？",
+			say = "おは…よう？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,12 +102,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "指指指挥官！您、您怎么这么早就到海边来了！",
+			say = "し、指揮官？！どうしてこんな時間に…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,12 +120,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "（SG，为什么不提醒我指挥官靠近了？！）",
+			say = "（SG、どうして指揮官が近づいてきたのを知らせなかったの…？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,12 +138,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（我，我还完全没做好心理准备……！）",
+			say = "（うぅ、まだ心の準備が……！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,12 +156,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "今天预定要处理的工作有些多，所以早起了些。",
+			say = "今日の仕事が多いから早起きをしたが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "就算如此……现在这个时间也太早了一些。",
+			say = "そ、それでも早すぎるよ…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,12 +188,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，我也是这么想的。",
+			say = "言われてみれば確かに早すぎるような気がした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,12 +202,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过已经起来了，就顺便来欣赏一下日出。",
+			say = "せっかく早起きしたし、日の出でも眺めようとあまり深く考えずにやってきたのだが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,12 +216,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "海伦娜也是来看日出的么？",
+			say = "ヘレナも早起きして日の出を見に来たのか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "是……是吧……大概……",
+			say = "そ、そうね……多分……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,12 +248,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（就算来看日出，也不用一个人穿泳装出来看……）",
+			say = "（日の出を見に来ても、水着に着替える必要はないし）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,12 +266,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，清晨的海风还是有些凉的，穿泳装来的话要小心着凉。",
+			say = "潮風もあって、やはり朝は少し涼しく感じるから、水着姿のヘレナが風邪を引かないかちょっと心配だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,12 +280,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "咦！？指、指挥官？您注意到我的泳装了？",
+			say = "し、指揮官はこの水着が気になるの？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,12 +298,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那是当然，很可爱。",
+			say = "水着姿のヘレナはとても可愛らしく、気にならないはずがない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,12 +312,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "可爱么……",
+			say = "かわいい……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,12 +330,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（欸，如果指挥官能夸我漂亮而不是可爱，就好了……）",
+			say = "（カワイイじゃなくて、キレイって言ってもらいたかったな…）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,12 +348,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（并不是说可爱不好，只是如果是漂亮的话………当，当然，要是两边都夸也……）",
+			say = "（あ、カワイイと言われちゃダメとか、そういう意味じゃなくて…も、もちろん口にするのは指揮官の自由だから、どっちでも…あぅ…）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,12 +366,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "——当然，也很漂亮。",
+			say = "もちろん、きれいでもある。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,12 +380,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "啊呜……………谢，谢谢。",
+			say = "…………うん。ありがとう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,12 +398,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "true",
-			say = "咳、其实……指挥官……",
+			say = "実は…その、指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,12 +416,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "我……并不是来看日出的……",
+			say = "私、日の出を見に来たわけじゃないの",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,12 +434,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "几日后的郊游，不是说好要一起下海游泳么……",
+			say = "今度の非番日、一緒に泳ぎに行こうって約束でしょ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,12 +452,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那也就是说……要，穿泳衣。",
+			say = "ええと、つまりそのときは水着じゃないとダメだから…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,12 +470,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……原本觉得穿泳装并不是什么害羞的事，但一想到是在指挥官面前的话……",
+			say = "水着を普通に着るだけなら大丈夫なのに、指揮官に見せると思うと……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,12 +488,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "心里总有些忐忑……",
+			say = "すごく恥ずかしくて……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,12 +506,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以想要提前来海边适应一下……",
+			say = "だからこうして水着に着替えて、海辺にやってきて事前演習してみようかなって…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,12 +524,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没想到指挥官居然也提前来到了海边……",
+			say = "まさか指揮官と会うなんて思ってもいなかったから……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,12 +542,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实，今天工作这么多的原因……也是为了后面的郊游想把工作提前做完。",
+			say = "正直なところ、今日の仕事が多いのは、少しでも非番日に余裕をもつために調整したからだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,12 +556,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "原来是这样……真是巧呢……",
+			say = "す、すごい偶然ね……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,12 +574,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……能在这里遇到身穿泳装海伦娜，感觉在不经意间就已经进入假日之中了。",
+			say = "とはいえ、こうしてヘレナと会ったなら、非番日のリハーサルみたいになるな。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,12 +588,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "如果要当成假日的话，现在这样，还不太够呢……",
+			say = "ううん、今のままじゃ足りないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,12 +606,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，清晨的海风好像有些凉，我可以……离您再近一些么。",
+			say = "へくちゅんっ。指揮官、ごめんなさい…もう少し近くに寄ってもいい？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,12 +624,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "再近一些，近到能感受你温度的位置……",
+			say = "指揮官の体温を感じられるほど近くに寄ったほうが――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,12 +642,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "嗯……这样，就有假日的感觉了。",
+			say = "うん…非番日のリハーサルになるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,12 +660,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "太阳越升越高，海平面的光芒变得闪耀起来。",
+			say = "水平線の向こうでゆっくりと登ってくる太陽が、朝の海を金色に染め上げた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,12 +674,12 @@ return {
 		{
 			actor = 102053,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女的笑容与波光粼粼的海面交相辉映，放射出耀眼的波纹。",
+			say = "輝く海、眩しい少女の笑顔は、まさに幸せの中に包まれていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

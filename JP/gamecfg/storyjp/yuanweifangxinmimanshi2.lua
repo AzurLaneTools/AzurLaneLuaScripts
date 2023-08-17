@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>致辞的准备</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>挨拶の準備を一緒に</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "パーティー会場の様子も気になるが、やっぱり一度場外も見回ろう。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "那边正在交谈的二人是……",
+			say = "あそこで話しているのは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯……需要留意的事项……我知道了。",
+			say = "…留意すべき事項は…なるほど。了解した",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "原本以为是黎塞留在负责这些事，但没想到会是你，稍微有些令人意外。",
+			say = "にしてもまさか伝えに来たのがリシュリューではなく、あなただったとはな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~幕后的人偶尔也是需要走到台前来的。",
+			say = "ふふふ。いつも裏で動いている私だって、たまには表舞台に立たないとね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "白鹰的致辞环节，就拜托你了。",
+			say = "それでは、ユニオンを代表してのご挨拶をお願いするわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "明白，请放心吧，克莱蒙梭女士。",
+			say = "ああ、わかった。任せてくれ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "那么，我这边就先……嗯？指挥官？",
+			say = "ではこれにて失礼…ってあら、指揮官じゃない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "噢~指挥官，你也已经到了啊。",
+			say = "指揮官。もう着いていたか",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "打扰到你们的谈话了吗？",
+			say = "挨拶を返した。二人の会話の邪魔になっていなければいいが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "哪里的话，我们的谈话刚结束，指挥官出现的恰到好处哦。",
+			say = "とんでもない。さすが指揮官というべきかしら…ちょうど終わったところよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "距离宴会正式开始还有一些时间，我会让人单独先拿些饮品来，两位慢聊~",
+			say = "本番までまだお時間があるようだし、飲み物でも持ってきてもらいましょうか。それではお二人とも、ごゆっくり",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "请问，指挥官，你在来的路上有没有看到埃塞克斯和马萨诸塞？",
+			say = "ところで指揮官、来る途中エセックスやマサチューセッツは見なかったか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "好像没有，你们走散了么？",
+			say = "そういえば見かけてないが…もしかしてはぐれたのだろうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "没有，只是稍微有些在意她们。",
+			say = "エンタープライズの様子を見る限り、それほど深刻な話ではなさそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "埃塞克斯在帮我换完礼服后就莫名其妙消失了。",
+			say = "エセックスはドレスに着替えるのを手伝ってくれたが、そのあとどこかに行ったようで",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "马萨诸塞也一样，在换完礼服后就颇有兴致的离开了。",
+			say = "マサチューセッツも、ドレスに着替えたらいつの間にかどこかに…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "倒不是担心她们会出什么危险，毕竟是在会场之中。",
+			say = "きっとパーティー会場のどこかにいるだろうから、心配はしていないさ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "只不过……算了，随她们去吧。",
+			say = "ただ…なんでもない。彼女たちもきっとやりたいことがあるんだろう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "指挥官，请问你现在有时间么？",
+			say = "コホン。指揮官、すまないが少し時間をもらっても？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "我有件事情想听一听你的看法。",
+			say = "大したことじゃないんだが、実は指揮官に相談したいことが…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "当然。不过企业在现在，在这种场合下想听的看法……",
+			say = "このタイミングで相談事とは驚いたが、快く頷いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "……指挥官，觉得我这一身礼服怎么样？",
+			say = "…改めて聞くのもこそばゆい気がするが、指揮官、私のこの格好はその、どう思う？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,22 +446,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "………………",
+			say = "妙に歯切れが悪いと思ったら、こういうことだったかと胸を撫で下ろした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很适合你",
+					content = "似合っている",
 					flag = 1
 				},
 				{
-					content = "非常适合你",
+					content = "とても似合っている",
 					flag = 3
 				},
 				{
-					content = "相当适合你",
+					content = "ものすごく似合っている",
 					flag = 2
 				}
 			}
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "是这样么……太好了。",
+			say = "そうか…よかった",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "平时没什么机会穿这样的衣服，稍微有些没自信。",
+			say = "こういう服を着る機会はあまりなくて、着替える時も手間取ってしまったからちょっとな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "你能喜欢真是太好了。",
+			say = "指揮官にそう言ってもらえてほっとした",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "刚才在来的时候，好像听克莱蒙梭提到了致辞。",
+			say = "エンタープライズの緊張をほぐしたところで――先ほどのクレマンソーとの会話の内容について聞いてみた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯，毕竟今天不是单纯的宴会，而是整个庆典的一部分。",
+			say = "そうだ。今日は単なる懇親パーティーではなく、大事な日を記念するセレモニーの一面も持ち合わせていてな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "所以会有我代表白鹰进行致辞的环节。",
+			say = "それでユニオンの代表として挨拶する流れになっていた",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "原来如此，需要帮忙么？",
+			say = "なるほど。自分で力になれるようなことは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "演讲稿本身我已经写完了，不过……",
+			say = "挨拶の原稿自体は出来上がっているが…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯，指挥官如果不介意的话，能帮我检查一下细节就更好了。",
+			say = "指揮官さえよければ、チェックしてもらえると嬉しい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "当然没问题，只是，在着纷乱的会场中似乎有些静不下心来。",
+			say = "もちろん構わないが…ここだと何かと人目につく。場所を変えたほうが良さそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "确实如此……那么指挥官，我们去找一间空屋子吧。",
+			say = "そうだな…どこか静かな場所を探してみよう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "与企业一同，暂时离开了宴会的会场——",
+			say = "そうしてエンタープライズと一緒に、会場を後にした――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

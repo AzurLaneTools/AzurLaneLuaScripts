@@ -1140,7 +1140,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1157,7 +1157,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1174,7 +1174,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1242,7 +1242,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1348,7 +1348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
+			actorName = "ヴォークラン",
 			say = "ジャン・バールさん！援軍だ！援軍がやってきた！",
 			painting = {
 				alpha = 0.3,
@@ -1366,7 +1366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
+			actorName = "ヴォークラン",
 			say = "海霧から、アイリスのみんなと審判廷の戦闘天使たちが出てきた！！",
 			painting = {
 				alpha = 0.3,
@@ -1384,7 +1384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
+			actorName = "ヴォークラン",
 			say = "敵が逃げている！助かったよ！ジャン・バールさん！！",
 			painting = {
 				alpha = 0.3,
@@ -1455,7 +1455,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1472,7 +1472,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1540,7 +1540,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1557,7 +1557,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1608,7 +1608,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1680,7 +1680,7 @@ return {
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			say = "………っ……姉さん",
 			dialogShake = {
 				speed = 0.08,
@@ -1800,7 +1800,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1817,7 +1817,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -2170,7 +2170,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
@@ -2187,7 +2187,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
@@ -2204,7 +2204,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "ジャン·バール",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,

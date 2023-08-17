@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>酒过三巡</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>ほろ酔いの後輩空母</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "パーティー会場の様子も気になるが、やっぱり一度場外も見回ろう。",
 			bgm = "story-richang-5",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "能感受到附近有一股炽热的视线，稍微有些在意……",
+			say = "周りから誰かの視線を感じた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "顺着感觉看过去，视线的发射者似乎并未意识到自己已经被发现了。",
+			say = "なんとなく気配を辿ってみると、その視線の主を見つけることができた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "企业前辈…这套礼服，真的很适合啊。",
+			say = "エンタープライズ先輩……ドレス姿がすごく似合っていますね…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "嘿嘿……嘿嘿嘿…………吨吨吨~",
+			say = "……ごくごく……ふぅ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "埃塞克斯正在一边暗中观察远处身着礼服的企业，一边进行着红酒畅饮行为。",
+			say = "エセックスは遠くからエンタープライズのドレス姿を眺めながら、豪快にワインをラッパ飲みしているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "赢不了的吧……那种等级……吨吨吨~——",
+			say = "あんなの……勝てるわけないじゃないです……か～！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "埃塞克斯，你……在做什么？",
+			say = "エセックスは一体何をしているんだろう？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "指、指挥官！你……你怎么来这么早？！",
+			say = "し、指揮官！どどどうしてこんなところに！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "刚刚我说的话……你都听见了？",
+			say = "それより私がさっき言ったこと……聞きました？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,11 +234,11 @@ return {
 			},
 			options = {
 				{
-					content = "听见了",
+					content = "耳が勝手に……",
 					flag = 1
 				},
 				{
-					content = "没听见",
+					content = "何も聞こえていない",
 					flag = 2
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "忘掉……快忘掉…………",
+			say = "忘れて……早く忘れてください……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没听见么……咦，我……刚刚说了什么来着……",
+			say = "ふぅ……そうですか……あれ、私、さっき何て言ってましたっけ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "（看来埃塞克斯现在并不是很清醒，需要多留意一下她）",
+			say = "どうやらアルコールで頭が働いていないみたいだ。これは困ったな……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "盯——",
+			say = "じ――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "埃塞克斯努力克制着醉意，睁大眼睛，仔细打量着我的礼服。",
+			say = "エセックスは目を大きくして、こちらの服をじっくり見つめてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "这么一看……指挥官的礼服……也……也很不错呢。",
+			say = "よく見ると……指揮官の格好も……なかなかいいじゃないですか",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……很适合你……要来先喝一点么？",
+			say = "似合っていますよ……ワイン、飲みます？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "……你喝太多了。要我扶你去找企业么？",
+			say = "普段なら付き合ってあげるところだが、さすがに飲み過ぎだ。休憩室に連れて行った方が…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我……我还没有穿礼服啦，现在过去的话……不行的……",
+			say = "えへへ、そうですよね……でもドレスにはまだ着替えていないから……ダメなんですよ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "呜呜呜……你知道么，指挥官。",
+			say = "うぅ……指揮官、知っていますか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "其实……企业前辈的礼服，是我帮忙换上的。",
+			say = "実は私、エンタープライズ先輩の着替えを手伝ったんですよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "毕竟企业前辈不擅长这种事情嘛……",
+			say = "だってエンタープライズ先輩、こういうの苦手じゃないですか……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "换装的时候，企业前辈，还有些害羞……欸嘿嘿嘿~",
+			say = "指揮官に会った時に、先輩は「時間がかかった」ってちょっと照れたように言ってましたよね？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "然后，我就看到了……哇…………",
+			say = "そこで、私、わかりました！……（ごくごく）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "你懂么，指挥官！",
+			say = "指揮官にもわかりますよね！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "（砰——）埃塞克斯猛然放下瓶子，直直的盯了过来。",
+			say = "エセックスは急に手に持っているワインボトルをテーブルにドンっと置いて、改めてこちらを見つめてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "懂……什么？",
+			say = "一体どういう話だ……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我看你是完全不懂哦……！",
+			say = "指揮官ったらとぼけちゃってぇ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "当时我一看到企业前辈就觉得……啊，不用再穿礼服了……",
+			say = "ほら、いつもかっこいい先輩がもっと……もう私勝てないなって思って…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "已经输了啊……比不过的……",
+			say = "もう、ドレスに着替えなくてもいいかなって思って……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "好像大概明白了埃塞克斯消沉的原因。",
+			say = "なんとなくエセックスが落ち込む理由が分かった…ような気がする。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "不知道等到酒醒之后她会害羞到什么程度……",
+			say = "でも今回の酔いが覚めると、その後きっと恥ずかしくなってることだろう……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,14 +636,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "还是在她做出进一步行动之前先安慰她一下吧。",
+			say = "とりあえずこれ以上彼女が酔い潰れないように相手しておこう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听我说——",
+					content = "ワインボトルを手に取る",
 					flag = 1
 				}
 			}
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "你可是埃塞克斯，未战先怯可不是你的风格！",
+			say = "エセックスが戦わずして負けを認めるのはらしくない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "而且我也很期待能看到你身着礼服的样子。",
+			say = "それに、指揮官である自分としても――エセックスのドレス姿を見たいのだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……！对，对哦，我可是埃塞克斯……",
+			say = "……！そ、そうですね。戦う前に負けを認めるなんて…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "礼服对决……即是对手是企业前辈我也不会认输。",
+			say = "ドレス対決……エンタープライズ先輩相手でも絶対に負けませんっ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "而且……指挥官也说了……期待我的礼服……",
+			say = "しかも……指揮官が私のドレス姿を期待してくれている……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "看起来埃塞克斯稍微清醒了一些，但不多。",
+			say = "ほんのちょっとだけ、エセックスの酔いが醒めたように見えた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "事……事不宜迟，指挥官，走，跟我回房间……",
+			say = "で……では早速部屋に戻りましょう。指揮官も来てください！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "……回房间，做什么？",
+			say = "………え？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我看你是完全不懂哦……！",
+			say = "指揮官ったらとぼけちゃってぇ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "嘿……嘿嘿，既然你说了“期待”，那当然要……好好回应你的期待了。",
+			say = "でしたらそんな指揮官の期待を裏切らないためにも……最高のドレス姿を見せないとっ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……所以第一步就是先回房间，拿礼服！",
+			say = "だから……一緒に部屋に戻ってドレスに着替えるに決まっているじゃないですか！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -851,7 +851,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "抵抗是徒劳的。",
+			say = "こんな状態のエセックスに抵抗できるはずがない……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "就这样，被埃塞克斯强行架离了会场——",
+			say = "というわけで、無理矢理にエセックスに付き合わされてしまった――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

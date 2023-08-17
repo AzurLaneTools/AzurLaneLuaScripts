@@ -43,7 +43,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "よろしい！ようやく良い知らせが来たわね",
 			painting = {
 				alpha = 0.3,
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "「神」の降臨はもうすぐだというのに、まだこんなに足掻く奴がいて……やっぱり君は頼りになるわ",
 			painting = {
 				alpha = 0.3,
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "最後の戦いの前にいいことを教えてあげるわ",
 			painting = {
 				alpha = 0.3,
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "その隠れ家はこのマルコ・ポーロが厳選したものよ",
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "上層部の秘密施設とは一区画しか離れていない",
 			painting = {
 				alpha = 0.3,
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "それに、今はそっちのフランドルを待機させてあるわ",
 			painting = {
 				alpha = 0.3,
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "ふふふ、特別計画艦フランドル。信仰の心象を最大限に発揮できる切り札ね",
 			painting = {
 				alpha = 0.3,
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "ははは、君の力になると思ってね。そこに配置転換させてもらったわ",
 			painting = {
 				alpha = 0.3,
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "あの子はもとよりヴィシア聖座の所属でしょ？私より君が率いたほうが自然よ",
 			painting = {
 				alpha = 0.3,
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "さあ、フランドルと合流して、審判廷艦隊を連れて世界博覧会会場へ行きなさいっ",
 			painting = {
 				alpha = 0.3,
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "「トレント」にも手伝わせるわ",
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
+			actorName = "マルコ·ポーロ",
 			say = "「神」の威光に目を向けぬ者たちに悔い改めさせなさい！",
 			painting = {
 				alpha = 0.3,

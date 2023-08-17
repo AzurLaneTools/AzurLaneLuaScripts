@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-musicanniversary-gorgeous",
-			say = "从进程规划上来说，宴会应该已经接近尾声了。",
+			say = "そろそろ宴も佳境…か。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "但现场的热度并没有丝毫的下降，反而愈加——",
+			say = "しかし会場はますます盛り上がっているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "指挥官同志，看来你还有隐藏的实力啊，来来，выпить до дна（干杯）！",
+			say = "やるな同志指揮官。まだ力を隠しているというのか！もう一杯だ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官不用担心，这次我的水壶里，装的是真正的水……大概。",
+			say = "大丈夫ですよ。今回はちゃんと水に差し替えましたから…多分ね♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，仆——，你可不能被那边勾走了！",
+			say = "ちょっと下僕！どうしてまた引っ張り出されたのよ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "指挥官，很受欢迎呢，但看着好像也很辛苦……",
+			say = "指揮官閣下、人気者ですね…大変ですけど…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，我们也快去把指挥官抢过来吧！",
+			say = "武蔵さん、酒匂たちも指揮官をこちらに「連れてきて」はいかがですか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "鹬蚌相争，渔翁得利。",
+			say = "不毛な争いに飛び込むのは愚の骨頂。たとえ漁夫の利を狙うにしても――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "待到局势再热烈一些，指挥官的防线再瓦解一些，我们再出击也不迟。",
+			say = "か弱い指揮官が守りを必要としたときのほうがよろしいでしょう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "不过，等待时机的猎手，好像不只是我们呢……",
+			say = "しかし、機を伺っているのは何も我々重桜だけではないようね…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（微笑着点头致意）",
+			say = "………………っ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "{namecode:84}大人，{namecode:435}大人向您表示敬意。如果不介意的话，来尝尝我们铁血的啤酒如何？",
+			say = "指揮官を狙っている者同士、いい酒が飲めそうじゃない～。ふふふ、よかったら鉄血のビールでもいかが？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "呼——终于稍微闲下来一些了……",
+			say = "ふぅ…ようやく落ち着きましたね。…ジャン・バール",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……要……一起来一杯吗。",
+			say = "姉さん………こほん。一杯どうだ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……当然，我的妹妹，我非常乐意。",
+			say = "もちろんですよ。ふふふ、一緒に飲みましょう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "企业……前辈……我还能……",
+			say = "エンタープライズ先輩……エセックス…まだいけますよぉ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "啊，指挥官……也一起来吧……嘿嘿……",
+			say = "げぷっ…指揮官も…一緒に……えへへ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "埃塞克斯，你到底喝了多少啊……哎……你抱太紧了——",
+			say = "エセックス、一体どれだけ……指揮官も見ているぞ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "夜晚，海风像是柔软的绸缎般轻抚着脸颊。",
+			say = "あのまま会場内にいては混乱が引き起こされかねないと思い、一旦外へと退避した。",
 			bgm = "theme-clemenceau",
 			typewriter = {
 				speed = 0.05,
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "纵使来到了室外，会场的欢声笑语似乎仍在耳畔回响。",
+			say = "幸いなことに誰にもバレることなく、仲間の熱気に冷水を浴びせずに済んだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "没想到安慰企业的话一语成谶，宴会此时已经变为了“战场”。",
+			say = "あんなに盛り上がっていた会場が、まさか文字通り「戦場」と化してしまうとは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,19 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……稍微需要，透一下气。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "？？？",
-			bgName = "bg_night",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "呼——再过一小会儿，今天，就要结束了。",
+			say = "……とりあえず軽く少し気分転換でもしよう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +434,19 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官也是在这里等待明天的到来吗？",
+			say = "あら、あと少しで日付が変わるというのに",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "？？？",
+			bgName = "bg_night",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "指揮官もここに気分転換しに来たの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "这声音是……克莱蒙梭？",
+			say = "この声は……クレマンソー？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "抱歉，我打扰到你了吗？",
+			say = "ふふふ、邪魔して悪いわね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			},
 			options = {
 				{
-					content = "没有，只是有些意外。",
+					content = "別にそんなことはない",
 					flag = 1
 				}
 			}
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "没打扰到你就好。",
+			say = "そう？ならよかったわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "（嗅嗅）",
+			say = "（すんすん）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "看来，指挥官刚刚承受了相当多的“爱戴”呢。",
+			say = "どうやら我らが指揮官様はあの中でたくさん「可愛がられてきた」ようね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "从残留的香水味道上来看，有白鹰的企业的、铁血的{namecode:435}的、我们家黎塞留的……",
+			say = "ユニオンに鉄血、重桜、そしてあらゆる陣営の子たちの「香り」と「匂い」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "甚至连重樱的{namecode:84}大人的都有啊。",
+			say = "ふふふ、さぞお疲れのようだけれども……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "要不然也在这里也染上些我的味道如何？",
+			say = "私の「香り」と「匂い」もつけてさしあげましょうか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……还请黑衣主教阁下手下留情。",
+			say = "クレマンソーに「勘弁して」と願っても中々開放されないだろうな…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~开个玩笑。",
+			say = "ふふふ。冗談よ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "说起来……你不在宴会上没关系吗？",
+			say = "よく観察するとパーディーの進行や現場の管理をしてきたからか、彼女からも少し疲れの色が見てとれた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯，毕竟我也不是喜欢抛头露面的人。",
+			say = "表に立つのはやはり苦手ね。私",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "比起觥筹交错的宴会，我更喜欢出来吹吹海风。",
+			say = "この手のパーティーのこともそう。熱気に包まれながら杯を交わすより、潮風を浴びながら独酌するほうが好きだわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且，黎塞留也忙完事情来到会场了，我就算不在也没关系。",
+			say = "リシュリューがいるんだから、別に私がサボっても平気じゃない？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……指挥官，请问，你今天的感受如何？",
+			say = "……ふふふ。指揮官、どう？アイリス主催のこのパーティーは",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,15 +708,15 @@ return {
 			},
 			options = {
 				{
-					content = "平凡",
+					content = "いつも通りでもありがたい",
 					flag = 1
 				},
 				{
-					content = "快乐",
+					content = "色々あったが楽しかった",
 					flag = 2
 				},
 				{
-					content = "刺激",
+					content = "なんだか刺激的だった",
 					flag = 3
 				}
 			}
@@ -730,7 +730,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，我也有相同的感受。",
+			say = "そうそう。私も同感よ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平凡。平凡的昨日、平凡的今日、平凡的明日。",
+			say = "母港のパーティーにしては平凡でありきたり。まるで平穏な毎日を体現してるみたい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在背后支撑着这样一场热闹宴会的——正是我们已经习以为常，又不可或缺的平凡。",
+			say = "特別な日、記念すべき日といっても、それは平凡な毎日の努力があってこそ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，感觉我又多了解你一分了~",
+			say = "ふふふ、指揮官のことがもっと分かったような気がするわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢~确实，今天的庆典宴会相当的完美。",
+			say = "ええ。客を楽しませるという意味では正しく完璧よ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让所有与会宾客都得到了充分的享受与乐趣。",
+			say = "確かに色々あったものの、参加する仲間たちはみんな楽しく思ってくれている",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,7 +844,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能达成这一点，也多亏了您在开幕之前做出的帮助呢。",
+			say = "ここまでうまくいったのは、指揮官のおかげでもあるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回答居然是刺激么……看来会场之中，或许发生了些连我都尚未洞悉全貌的事件啊。",
+			say = "あら、刺激的とはね…もしやあの会場で私が把握していない出来事があったりして…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是深谙战争艺术的指挥官阁下，感觉我又多了解你一分了。",
+			say = "ふふふ、さすがは策士の指揮官。あなたのことがもっと分かったような気がするわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,7 +900,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "好了，休息时间结束。该带指挥官阁下返回“战场”了。",
+			say = "さて、気分転換もこの辺でいいかしら。指揮官を「次の戦場」に案内しないと",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……这么快就结束了？",
+			say = "……「次の戦場」とは……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~其实，这座城堡在建设的时候，我特意加上了密道和暗室的部分。",
+			say = "ええ、この会場を設計した時、隠し通路や隠し部屋をいくつか用意してあるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "接下来的时光，绝对不会让你失望的。",
+			say = "探検という意味でも、別の意味でも失望はさせないから…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "让我们一同，尽情享受庆典的尾音吧——",
+			say = "最後までこの「パーティー」を、楽しんでいって――",
 			painting = {
 				alpha = 0.3,
 				time = 1

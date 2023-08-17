@@ -4896,7 +4896,7 @@ pg.base.ship_skin_template_16 = {
 				-10,
 				2
 			},
-			ParamBodyAngleXX = {
+			ParamBodyAngleX = {
 				-10,
 				2
 			}
@@ -5016,45 +5016,42 @@ pg.base.ship_skin_template_16 = {
 	[905021] = {
 		ship_group = 90502,
 		name = "ブリーズ・スプレンディド",
+		l2d_se = "",
 		hand_id = 1,
 		bgm = "",
-		l2d_drag_rate = "",
 		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70890,
-		painting = "kelaimengsuo_2",
-		illustrator = -1,
-		shop_type_id = 13,
-		lip_smoothing = 0,
-		bg = "118",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 905021,
-		voice_actor_2 = -1,
-		prefab = "kelaimengsuo_2",
-		l2d_se = "",
-		main_UI_FX = "",
 		special_effects = "",
 		desc = "天気は晴れ、風速もよし、ゴルフにちょうどいい日ね。……指揮官？誘ったのは風景を眺めさせるためじゃないわよ？今日一日このクレマンソーに付き合う覚悟をしておいて",
-		voice_actor = 377,
-		spine_offset = "",
+		group_index = 1,
+		bg_sp = "",
+		painting = "kelaimengsuo_2",
 		gyro = 0,
 		rarity_bg = "",
+		prefab = "kelaimengsuo_2",
+		shop_type_id = 13,
+		main_UI_FX = "",
+		shop_id = 70890,
+		lip_smoothing = 0,
 		time = "",
-		l2d_para_range = "",
+		spine_offset = "",
+		illustrator = -1,
+		bg = "118",
+		l2d_ignore_drag = 0,
+		voice_actor = 377,
+		spine_action_offset = false,
 		lip_sync_gain = 0,
+		skin_type = 0,
 		live2d_offset_profile = "",
+		id = 905021,
+		voice_actor_2 = -1,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
-			75,
-			-85,
+			60,
+			-40,
 			0
 		},
 		fx_container = {
@@ -5141,6 +5138,22 @@ pg.base.ship_skin_template_16 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			}
+		},
+		ship_l2d_id = {
+			9050211,
+			9050212,
+			9050213
+		},
+		l2d_drag_rate = {
+			0.5,
+			1,
+			1
 		}
 	},
 	[905030] = {

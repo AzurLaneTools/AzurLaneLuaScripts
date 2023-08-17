@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>为主角干杯</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>今日の主役に乾杯</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "从洗手间返回会场的走廊上，遇到了一位在此等候的人。",
+			say = "エリザベスとしばらく散策してから会場に戻り、そして――",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202083,
-			say = "指挥官，这是陛下让我传递给你的信息，请过目。",
+			say = "ご主人様、陛下からのメッセージを預かってきました。すぐに確認してください",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "从谢菲尔德手中接过了一张精致的卡片。",
+			say = "シェフィールドから精巧な作りのカードを手渡された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "卡片上是伊丽莎白的留言，希望我绕一下路，并附上了一个房间号。",
+			say = "そこにはある部屋に来てほしいとの旨と、部屋番号が書かれていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "回过神来，谢菲尔德已经不见了，看来……要自己找过去了。",
+			say = "メッセージを読み終えて顔を上げると、シェフィールドはもういない。……一人で来い、ということなんだろう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "推开门，一个皇家风格的巨大房间映入眼帘。",
+			say = "部屋に一歩足を踏み入れた先に広がっていたのは、ロイヤル調にあしらわれた大きな部屋だった。",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "仿佛此处不是在鸢尾的城堡，而是来到了皇家的宫殿中。",
+			say = "城にある一室とは想像しにくいほど、女王陛下の宮殿ごとく豪奢を尽くしている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "巨大的房间中央摆着一张餐桌，伊丽莎白正一个人坐在桌前。",
+			say = "部屋の真ん中にはダイニングテーブルが置かれている。そしてその奥にエリザベスは一人席に座っている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，请，陛下正在等您。",
+			say = "ご主人様、どうぞこちらへ。陛下がお待ちしております",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好慢啊，仆从！",
+			say = "遅いわよ！この下僕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这个房间有些难找……没想鸢尾城堡里还有这样的房间。",
+			say = "慣れない場所でちょっと迷ったことを謝りつつ、アイリスの城にこんな部屋があったとは思わなかったと感嘆を漏らす。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你是指这个单独定制的私人包间？",
+			say = "このVIPルームのこと？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "我可是伊丽莎白女王，{namecode:435}她们要是想要的话也一样可以有，这种事没什么稀奇的。",
+			say = "女王の私を招待するんだから、これぐらい当然よ。ビスマルクたちにも同じような部屋が用意されているでしょうし",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不是说要体验平凡么……？",
+			say = "どうやら「普通」の体験期間はさっきで終了らしい。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "之前不是已经跟你体验过了？",
+			say = "あれはもう十分楽しんだわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白眨了眨眼，然后挥起手来。",
+			say = "エリザベスがそう言うと、ベルファストが席まで案内してくれた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "来，仆从，坐吧。",
+			say = "座りなさい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "还有肚子么？",
+			say = "下僕はまだ食べれる？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "……倒是有，不过这些菜都是女仆队做的？",
+			say = "テーブルには豪華な料理がたくさんあった。もしかしてメイド隊が…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "只有茶是贝法泡的。其他的菜都是后厨直接送过来的，由鸢尾提供。",
+			say = "お茶だけはベルに頼んであるわ。ほかはアイリスの子たちがキッチンで作ったわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "所以跟你在会场吃的也没什么两样，不吃也行。",
+			say = "だから会場にあるものと同じよ。無理に全部食べてとは言わないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "那就恭敬不如从命。陛下亲自邀请，怎么能拒绝呢。",
+			say = "ものが同じでも、エリザベスの招待を受けてここで食べるなら格別に美味しく感じるだろう――お言葉に甘えることにした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "贝法，给指挥官也上点菜吧。",
+			say = "ふん！下僕もたまにはいいこと言うじゃない♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "坐在伊丽莎白旁边，边品茶，边随便吃着什么。",
+			say = "エリザベスとしばらく食事を楽しんだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "房间里格外安静，与喧嚣的会场仿佛属于两个世界",
+			say = "静かに、ゆったりしたひと時を満喫していると、喧騒な会場がまるで異世界のように思えてくる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不过突然注意到，只有我的杯中是茶，伊丽莎白杯中，似乎是酒。",
+			say = "ぼーっと周りを眺めているとふと気がついた――自分と違ってエリザベスのコップに入っているのはお茶じゃなく、お酒のようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给你茶是因为，一会回会场里有的你喝的。",
+			say = "不服そうにしているけど、あなた本番が控えていることを忘れてないわよね？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "至于本王，偶尔换换口味。",
+			say = "これがお茶じゃないのは…ちょっとした気分転換よ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "鸢尾的葡萄酒还是不错的。",
+			say = "何と言ってもアイリスはワインが有名だもの",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "在年份选择上，黎塞留也下了不少心思。",
+			say = "それにこれにはリシュリューの工夫が隠されているわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给不同喜好的人，提供的年份也不同……呵，真心细啊。",
+			say = "――もてなす相手の好みに合わせて、ヴィンテージのワインを提供するなんて――さすがね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白将杯中的红酒一饮而尽，然后又自己倒了一杯。",
+			say = "エリザベスは優雅にアイリスのワインを嗜んでいる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "这次宴会，鸢尾办的确实不错。",
+			say = "もう何度も参加しているけど、アイリスは本当によくやっているわね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "大到流程小到细节，方方面面都照顾到了。",
+			say = "全体の流れから細かいところまで抜かりはないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你感觉如何，有没有享受到这场庆典？",
+			say = "下僕はどう？パーティーをちゃんと楽しめた？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "嗯，在会场中度过了一段愉快的时光。",
+			say = "もちろんと頷く。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "那就好……挺好的。",
+			say = "そう。それならよかったわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "谈话间，提示音响了一下，收到了一条黎塞留发来的活动邀请。",
+			say = "…と、そこに仲間からのお誘いが舞い込んできた。",
 			soundeffect = "event:/ui/deng1",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "黎塞留……邀请你去舞池啊。",
+			say = "リシュリューからみたいね。…ふーん、指揮官は相変わらず忙しいようね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "那就去吧。",
+			say = "気にせず行くといいわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本王有些喝多了，在这里再休息一下。",
+			say = "ちょっと飲みすぎたし、それに今日はもう下僕に十分付き合ってもらったから",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，这边请。",
+			say = "ではご主人様、どうぞこちらへ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "转头向着大门的方向走去，依稀听到背后的傻白说了什么。",
+			say = "案内されるまま部屋を後にすると、エリザベスがぽつぽつと何か言っているのが聞こえた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "今晚的主角属于鸢尾。",
+			say = "まあ、今回だけは花を持たせてあげる",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本次……本王就破例，不去抢她们的风头了。",
+			say = "なんたってアイリスが主催のパーティーだもの。ロイヤルが出しゃばりすぎるのは良くないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好好享受庆典哟，指挥官————",
+			say = "楽しんできていいわよ。続きはまた今度――",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1157,38 +1157,35 @@ pg.base.ship_skin_template_2 = {
 	[102053] = {
 		ship_group = 10205,
 		name = "光輝のトライアングルウェーブ",
+		l2d_se = "",
 		hand_id = 13,
 		bgm = "",
-		l2d_drag_rate = "",
 		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70898,
-		painting = "hailunna_4",
-		illustrator = 7,
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		bg = "133",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 102053,
-		voice_actor_2 = -1,
-		prefab = "hailunna_4",
-		l2d_se = "",
-		main_UI_FX = "",
 		special_effects = "",
 		desc = "指揮官、この水着、どう…かな…？あ、やっぱりいい。直接感想なんてもらったら、私、恥ずかしくて指揮官の前に出られなくなっちゃうから……だから、ええと、こっそり耳元で…教えて？",
-		voice_actor = 34,
-		spine_offset = "",
+		group_index = 3,
+		bg_sp = "",
+		painting = "hailunna_4",
 		gyro = 0,
 		rarity_bg = "",
+		prefab = "hailunna_4",
+		shop_type_id = 6,
+		main_UI_FX = "",
+		shop_id = 70898,
+		lip_smoothing = 0,
 		time = "",
-		l2d_para_range = "",
+		spine_offset = "",
+		illustrator = 7,
+		bg = "133",
+		l2d_ignore_drag = 0,
+		voice_actor = 34,
+		spine_action_offset = false,
 		lip_sync_gain = 0,
+		skin_type = 0,
 		live2d_offset_profile = "",
+		id = 102053,
+		voice_actor_2 = -1,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -1275,6 +1272,42 @@ pg.base.ship_skin_template_2 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-8,
+				8
+			},
+			ParamBodyAngleY = {
+				-8,
+				8
+			},
+			ParamEyeBallX = {
+				-0.4,
+				0.2
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		ship_l2d_id = {
+			1020531,
+			1020532,
+			1020533
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
 		}
 	},
 	[102058] = {

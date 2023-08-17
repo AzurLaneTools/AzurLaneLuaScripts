@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>平凡的女王</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>小さな陛下との一時</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "会場の廊下を歩いていると…思いがけず飾ってある花瓶を床に落としそうになった…！",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "陛下，请小心。",
+			say = "陛下、お気を付けくださいっ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "不远处的天狼星突然将伊丽莎白护在怀里，警惕了起来。",
+			say = "とっさに廊下の向こうにいるシリアスが身を挺して、エリザベスに覆いかぶさった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "不必紧张，天狼星，会场里很安全。",
+			say = "シリアス、会場内は安全ですので、そう緊張しなくても大丈夫ですよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "嗯——嗯!",
+			say = "ん、んんぅー！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "啊，我的女王陛下！",
+			say = "あっ、大変失礼いたしました！陛下、申し訳ございません！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "咳——咳！天狼星，你差点闷死本王，你这对碍事的——（盯）",
+			say = "んはーー！！…危うく窒息しそうに…シリアス！なんでそんなに巨乳を押しつけてくるのよ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "哼——",
+			say = "ぐぬぬぬ…ふん！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "抱歉，陛下，请原谅我的僭越。",
+			say = "緊張で力加減が分からなくなってしまい、申し訳ありません！どうかこの卑しいメイドに罰を――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "……这是在做什么？",
+			say = "…とりあえず花瓶を台座に戻そう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "是指挥官啊。",
+			say = "なによ。下僕じゃない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "没什么，就是天狼星有点担心过度而已。",
+			say = "ただシリアスが緊張で大げさなだけよ。別に心配はいらないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "正好，既然在这里遇上了，就陪本王走走吧。",
+			say = "それよりちょうどいいわ！下僕、少し散策に付き合いなさい！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,11 +312,11 @@ return {
 			},
 			options = {
 				{
-					content = "好！",
+					content = "喜んで！",
 					flag = 1
 				},
 				{
-					content = "但是……",
+					content = "実は急用ができて…",
 					flag = 2
 				}
 			}
@@ -330,7 +330,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好。",
+			say = "さあ、ついてきて！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有但是，天底下哪有比陪本王更重要的事？",
+			say = "なによ！女王である私に付き合うことより重要なことなんてあるわけ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "看来没办法拒绝……",
+			say = "女王陛下の命令に従うしかないようだ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "陛下，可以允许我去为二位准备饮品么？",
+			say = "では散策後の疲れを癒すための飲み物を用意してまいります",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "嗯，麻烦了，贝法。",
+			say = "ありがとうベル、頼むわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "还有天狼星，你也跟贝法一起去吧",
+			say = "ベルだけだと大変だから、シリアスも手伝ってあげて",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "可是，陛下……",
+			say = "し、しかし陛下、護衛なしでは……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "不用担心，会场很安全，况且谢菲也在暗处看呢。",
+			say = "大丈夫よ。この会場から出ないし、シェフィも陰でついてきてもらっているわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "遵命，我明白了！",
+			say = "そういうことでしたら…かしこまりました",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "那么陛下，可否允许我去准备一些茶点来。",
+			say = "陛下、そして誇らしきご主人さま、よければシリアスが軽食をご用意させていただいてもよろしいでしょうか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202201,
-			say = "距离晚餐时间还有一段时间，我担心……",
+			say = "ディナーの時間までまだ時間があります。お腹を空かせないように――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "啊，这个就不必了。会场有冷盘，今天难得看看鸢尾的手艺，女仆队就不用麻烦了。",
+			say = "け、結構よ！パーティー会場にはオードブルが置いてあるの。それに今日はアイリスの腕前を拝見する予定なんだから、メイド隊は何も作らなくていいわ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "女仆队走后，与伊丽莎白一同在城堡中闲逛着。",
+			say = "エリザベスと二人っきり、お城風のパーティー会場を散策する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "唔嗯……这鸢尾主办的庆典，看上去也像那么回事。",
+			say = "ふーん…アイリス主催のパーティーもなかなかサマになっているじゃない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "差不多已经能有皇家八成的水准了！",
+			say = "と言っても、せいぜいロイヤルの八割ってとこかしら",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "看来今天也是伊丽莎白嘴上不饶人的一天。",
+			say = "今日のエリザベスも平常運転のようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本王已经很客气了。",
+			say = "そうね。もしロイヤル主催だったら…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你看到那边的挂画了么，如果是本王，肯定在这里放上——",
+			say = "そこの壁を絵画で飾るのではなく、インテリア全体のバランスを考えてこう…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "闲逛之中，伊丽莎白时而手舞足蹈，时而指指点点，感觉比平时还要活跃。",
+			say = "一見あれこれと注文を付けているようだが、エリザベスはとてもノリノリで――いつもよりはしゃいでいるように感じてしまうほどだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,14 +665,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "不过在难得停下来之后，却会露出若有所思的表情。",
+			say = "かと思いきや、今度は何か考えこんだ様子で、口を噤んでしまった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问心中的疑问",
+					content = "ソワソワしている…？",
 					flag = 1
 				}
 			}
@@ -683,7 +683,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "伊丽莎白，特意把女仆队支开，是有什么要说的事么？",
+			say = "よくよく観察すると、メイド隊を人払いしてから若干落ち着きないようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没。就算有要说的事，本王也不需要特意支开女仆队啊。",
+			say = "い、言いたいこと？別に特にないわ。メイド隊に聞かれてダメなことなんてないし",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,7 +717,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说，你想吃天狼星的甜点？那本王可以把她叫回来。",
+			say = "それともあんた、もしかしてシリアスの作ったものを食べたいの…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "那倒也不必这么麻烦……不过疑问还是没有得到解答。",
+			say = "流石にそれはない――いや、シリアスは頑張ってチョコと軽食は作れるようになった気が…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……一定要本王说得那么清楚么。",
+			say = "もう……この馬鹿下僕、私をどんだけ困らせるのよ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,152 +767,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看周围，从进入会场到现在周围人来人往……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "但，有第二个像本王一样带着一群侍从的人么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "就算是这次身为主办方的黎塞留都没有，你这个指挥官当然也没有。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "所以算是……体会平凡吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "就算只有短暂片刻也好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "一个平凡的少女来到一座巨大的城堡……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "身边只有你一个人就够了，不行么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			optionFlag = 1,
-			say = "也不是不行，只是稍微有些意外。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			optionFlag = 1,
-			actor = 205011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "意外本王会有这一面？",
+			say = "周りを見てみなさい。いろいろ回ってきたけど",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -931,7 +786,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这当然不是唯一的原因，但也不是完全没有这个原因。",
+			say = "部下とか側近とか連れまわしている子なんてほとんどいないでしょ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -950,7 +805,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你要是完全当成玩笑话，本王会生气的。",
+			say = "――主催者のリシュリューだけじゃなく、あんたも連れていないのに、私だけ連れてたら変じゃない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +824,152 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本王生气的话，后果可是很严重的哦。",
+			say = "まあ要するに、「普通」とやらを体験してみたかっただけよ！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "少しだけでも…",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "女王としてではなく、ただの一隻の艦船であるクイーン・エリザベスとして、この大きなお城を散歩して……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "もちろん、あんただけを連れてね！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_502",
+			hidePaintObj = true,
+			optionFlag = 1,
+			say = "指揮官を連れ回す「普通」とは……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "私が「普通」と言えば「普通」なの！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "今もしかして私が冗談で言ってるとか思った？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "せっかく下僕と二人っきりになったのに……本気で付き合わないなら怒るわよ！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			optionFlag = 1,
+			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そう！それも「普通」に怒って、あんたに色んなことを――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,11 +980,11 @@ return {
 			},
 			options = {
 				{
-					content = "请陛下息怒！",
+					content = "お怒りをお鎮めください…！",
 					flag = 1
 				},
 				{
-					content = "反正现在周围没人…",
+					content = "それは一体どういう……",
 					flag = 2
 				}
 			}
@@ -998,7 +998,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，不要用嘴说，实际表现呢？",
+			say = "怒ってほしくないなら行動で示してちょうだい！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝法总是要把饮料拿回来的。",
+			say = "ほら、ベルが飲み物を持ってくるまでまだ時間があるし…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1054,7 +1054,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁着这段时间，好好让本王满意吧~",
+			say = "それまではなんとかして私を喜ばせなさい！ふん！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1073,7 +1073,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……反正现在周围没人？！",
+			say = "そ、そうね……下僕をどうしつける…じゃなくてどう怒ってやろうかしら…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1092,7 +1092,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没人本王就打不过你么？！",
+			say = "そう！エイジャックスやシラみたいに………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1113,7 +1113,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "打指挥官，后果也很严重。",
+			say = "恐ろしげな発想に思わず笑ってしまいそうになった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "而且闹起来的话，平凡的气息就烟消云散了。",
+			say = "というか、そもそも艦船が指揮官をしつけるのは「普通」なのか……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这倒是在理……",
+			say = "ふ、「普通」じゃないの……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1159,7 +1159,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你既然意识到了，那就不要停在这发呆了！",
+			say = "とにかく！しつけられたくなければ、突っ立ってないでよね！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1184,7 +1184,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝法总是要把饮料拿回来的。",
+			say = "ほら、ベルが飲み物を持ってくるまでまだ時間があるし…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1209,7 +1209,7 @@ return {
 			actor = 205011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁着这段时间，好好与本王一同享受平凡吧~",
+			say = "それまではなんとかして私を喜ばせなさい！ふん！",
 			painting = {
 				alpha = 0.3,
 				time = 1

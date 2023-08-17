@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>好孩子的奖励</size>",
+					"パーティー・ウィズ・アイリス\n\n<size=45>お礼にしては…</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "在武藏的邀请下，来到城堡附近的湖面泛舟。",
+			say = "武蔵に誘われ、水路でパーティー会場に戻ることに――そこで小舟に乗ることにした。",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "怎么了？指挥官，你的表情~",
+			say = "？汝、その表情は……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "呵呵……难道是我这身衣装很奇怪吗？",
+			say = "なるほど…妾のこの一張羅が気になる、と",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "这是……女仆装？",
+			say = "パーティー会場に相応の装いが必要とのことだが、なぜか武蔵は模擬店の給仕の衣装に着替えていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "被你看出来了，呵呵~",
+			say = "汝も知っていよう。以前模擬店に訪ねた時に見せたものよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "{namecode:225}那孩子带来了不少衣装，里面正好有这件呢。",
+			say = "いざという時に備えて衣装を何着か用意したけど、まさか本当に役に立つとはね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官今天应该是在帮宴会主办方工作吧。",
+			say = "そういえば、今日の催事では、指揮官は客としてだけでなく、運営を手伝う立場でもあるわね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "居然连这件事都知道……",
+			say = "その通りだ。しかしなぜそのことを……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "凭空猜测而已，毕竟你一直都是个热心肠嘛。",
+			say = "汝の人柄を考えれば簡単に言い当てられるわ。頼れる我らが指揮官さまだもの",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "工作了这么久，又来帮我收拾行李，应该累坏了吧？",
+			say = "そんな忙しい汝を手伝わせてしまったこと、重ねてお詫びを――さぞ疲れていよう？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,11 +227,11 @@ return {
 			},
 			options = {
 				{
-					content = "完全不累！",
+					content = "疲れていない",
 					flag = 1
 				},
 				{
-					content = "我好累……",
+					content = "疲れた…",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官还真是充满干劲呢，但是……",
+			say = "元気よく見せるのは大変よろしいこと。しかし…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在我身边的话，不需要那么勉强也可以哦。",
+			say = "妾の前ではそう強がらなくてもいいわよ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就靠到我的身边来吧，无需羞怯。",
+			say = "では汝のその疲れた体を妾に預けなさい。恥ずかしがることはないわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "这里是湖水之中的一叶孤舟，没有人能打扰到我们。",
+			say = "水路に浮かぶこの小舟に気づく子などいやしない",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官可以不用顾虑，尽情释放身体中积累的疲劳。",
+			say = "だから汝も、気の向くままに体を楽にすればいいわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "嗯？指挥官不说话，是心中仍有挂念之事？",
+			say = "…さっきから黙っているが…ほかに何か気がかりでも？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "工作倒是早就结束了，只不过……",
+			say = "会場での手伝いも一段落だし、特に気がかりなことはないが……でも…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "不需要“只不过”，单纯把工作结束这件事就已经很了不起了哦。",
+			say = "ならば何も考えなくていいわ。これは汝の頑張りへのご褒美だと思っていい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "来吧~指挥官~闭上~眼睛。",
+			say = "さあ。目を閉じて――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "目を閉じて",
 					flag = 1
 				}
 			},
@@ -427,11 +427,11 @@ return {
 			bgm = "story-richang-6",
 			sequence = {
 				{
-					"<size=51>不要紧张，再放松一点~（嗼呋嗼呋❤~）</size>",
+					"緊張せず、体を楽にしなさい――（さわさわ♥）",
 					2.5
 				},
 				{
-					"<size=51>怎么样？很舒服的吧~呵呵~</size>",
+					"そう。そのように身を任せなさい。ふふふ",
 					3
 				}
 			}
@@ -440,11 +440,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>感觉到压力释放了吗？（嗼呋嗼呋❤~）</size>",
+					"疲れが飛んでいくように…夢を見られるくらいに……",
 					2.5
 				},
 				{
-					"<size=51>（嗼呋嗼呋❤……嗼呋嗼呋❤……）</size>",
+					"（さわさわ♥…さわさわ…♥）",
 					3
 				}
 			}
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "感觉度过了一段，短暂、悠然。又漫长的时光——",
+			say = "短くも長く感じた、心地いい？時間を過ごした――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

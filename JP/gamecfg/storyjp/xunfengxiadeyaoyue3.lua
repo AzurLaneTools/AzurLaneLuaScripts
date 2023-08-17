@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>天际的潜水者</size>",
+					"薫風の招待状\n\n<size=45>スカイスケープ・ダイバー</size>",
 					1
 				}
 			}
@@ -19,10 +19,10 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "上方的光芒在逐渐增强，我们正在接近波光粼粼的水面。",
+			say = "頭上の様子がだんだん明るくなり、まもなく海面に出ることを知らせてくれた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,9 +31,9 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "看向身边的少女，互相做出确认出水的手势后。",
+			say = "隣にいるパートナーにジェスチャーで連絡し、エキジットに移行する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "呼——！海面上的世界，我们回来了。",
+			say = "ふぅ……！海の上の世界に戻ってきたな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,12 +77,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官，你的脸色……",
+			say = "指揮官、なんだか顔色が悪いぞ……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,12 +95,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……如果没能习惯潜水的话，确实会有些惊魂未定的感觉。",
+			say = "ダイビングに慣れていなければ、たしかになかなか落ち着かないな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,12 +113,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就算是我，也在刚刚的第一次潜水中稍微心慌了一下。",
+			say = "私だって、これを初めて体験したときは少し焦ったぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,12 +131,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "不过你看四周，蓝天、烈日与白云。不用惊慌，我们已经平安回来了哦。",
+			say = "指揮官、もう大丈夫だ。周りの空をよく見てくれ。私たちは無事に戻ってきた",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,12 +149,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……怎么说呢，企业似乎弄错了我正在担忧的对象。",
+			say = "どうやらエンタープライズはこっちの心配を勘違いしたようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,12 +163,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看向面前少女修长的大腿，大腿根部，贴身黑色的潜水服上赫然出现了一个剐蹭后留下的大洞。",
+			say = "彼女が身につけているダイビングスーツ、その太ももの部分に大きな穴が開いているのだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,12 +177,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "啊，原来指挥官是在在意这个啊……",
+			say = "あ、これのことか…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,12 +195,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕竟刚才在水下听到了一小声悲鸣，所以才决定紧急上浮的。",
+			say = "さっきのダイビング中、小さな悲鳴を上げていた彼女に気づき、エキジットを決めた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,12 +209,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "唔……刚刚在剐蹭到礁石的时候，我确实有一瞬间慌了神。",
+			say = "ああ、たしかに岩にかすったときは少し驚いたな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,12 +227,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过判定完损伤情况后，我就已经冷静了。",
+			say = "しかしその後、ダメージ状況を確認したら落ち着いたぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,12 +245,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕竟我们下潜的深度并不深，只是潜水服被划破了一道口子而已，没关系的。",
+			say = "ダイビングの深度はそう深くないし、スーツが破けたぐらい平気さ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,12 +263,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你看，我这里一点伤都没有。",
+			say = "見ての通り怪我もないだろう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,12 +281,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "指挥官如果放心不下的话，就来检查一下吧。",
+			say = "それでも安心できないなら直接確認するといい",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,12 +299,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "企业一边说着，一边自然又突然得贴了过来。",
+			say = "そう言って、エンタープライズは近寄ってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,12 +313,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "看，我没骗你吧，毫发无损。",
+			say = "ほら、大丈夫だぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,12 +331,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "所以不用担心，我没有在逞强。",
+			say = "心配してくれるのはありがたいが、この通り無理して隠したりなどはしてないぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,12 +349,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "万幸……确实只有潜水服的布料破损了。",
+			say = "幸いなことにエンタープライズに怪我はなく、ウェットスーツが破けただけみたいだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,12 +363,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "突然意识到，在水下时和企业贴近到这个距离还算正常，在水面上就稍微有些……",
+			say = "ふと彼女が至近距離まで寄ってきていることに気づいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,12 +377,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过显然，企业并没有注意到这一点。",
+			say = "ダイビング中じゃなくても、彼女は全然気にしていないようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,12 +391,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "五彩斑斓的珊瑚与形形色色的海洋住民。",
+			say = "彩り豊かなサンゴ礁、そして様々な海の住人たち",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,12 +409,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "珊瑚礁，就像一座美丽又繁忙的都市一样……",
+			say = "地上の都市と同じ美しく繁栄しているんだな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,12 +427,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我在海面上战斗了无数次，原本以为对大海已经足够熟悉了。",
+			say = "海で無数の戦いをしてきた私たちは、海のことを知っているつもりでいた",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,12 +445,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "舰载机虽然可以飞上高空，一览百里之外的风景。",
+			say = "確かに艦載機を飛ばせば、水平線の向こうの風景を目に収められるが……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,12 +463,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但仅仅是海面的咫尺之下，就隐藏着一个截然不同的世界。",
+			say = "海面からわずかに潜るだけで、こうして全然違う世界が広がっている",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "水下的潜艇同伴们在作战的时候，原来是这种感觉啊……",
+			say = "潜水艦の仲間たちが戦う時はこんな感じなのだな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,12 +499,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "可惜，如同潜水一般的景色，只有潜艇舰船才能体验到。",
+			say = "とはいえ、彼女たちの潜れる深度にたどり着くにはウェットスーツではなく、専用の潜航艦が必要だが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,12 +513,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果是乘坐量产型潜艇潜入水下的话，是没有窗户可以看风景的。",
+			say = "量産艦を使っても、こうやって悠々と見回れはしないな。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,12 +527,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……对哦，好像确实是这样的。",
+			say = "………そうだな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,12 +545,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "坐在没有窗户的漆黑机械中潜入水下……",
+			say = "船窓のない潜航艦に乗って、命を預けるのは……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,12 +563,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，看来我还是更适合海面上的战斗。",
+			say = "やはり私には水上での戦いに向いているな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,12 +581,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "啊，抱歉，指挥官。我不知不觉又聊到战斗上了……",
+			say = "…あ。すまん、また戦闘の話をしてしまった…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,12 +599,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明明今天是一起出来放松的，这样可不好。",
+			say = "一緒にリラックスしようという約束だったのに、これではいけないな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,12 +617,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……指挥官看上去也恢复平静了。",
+			say = "…ふぅ…指揮官、落ち着いたか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,12 +635,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那，休息时间结束，我们再下潜一次？",
+			say = "では休憩はここまでにして、もう一回潜るか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,12 +653,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "可是潜水服上的破损……",
+			say = "体力と残りの酸素に問題はないが、エンタープライズのスーツは大丈夫だろうか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,12 +667,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "唔……这确实是个问题。",
+			say = "……言われてみれば、たしかにこれは困ったな…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,12 +685,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "穿着破损的潜水服潜水，既不符合安全规定也会让你格外担心……",
+			say = "破損状態のスーツでは安全規定に反するな",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,12 +703,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然如此，我们就返回岸边吧？",
+			say = "なら浜辺に戻ろう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,12 +721,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "不论在水上还是水下，只要在你身边，对我来说都是最好的放松时光。",
+			say = "水上でも、水中でも、指揮官がいてくれるだけでリラックスできるさ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,12 +739,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "指挥官呢？",
+			say = "指揮官は――どうだろうか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,12 +757,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "回答当然是肯定的。",
+			say = "もちろん、エンタープライズと一緒だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,12 +771,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，那就让我们换一种方式享受剩余的时光吧。",
+			say = "うん。残りの時間は別のことをして羽根を伸ばそう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,12 +789,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "水下的景色虽然美丽，但水面上的景色也不会有丝毫逊色哦~",
+			say = "海の中の景色がどれだけきれいでも、ここの景色が見劣りするとは思わないさ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,12 +807,12 @@ return {
 		{
 			actor = 137060,
 			side = 2,
-			bgName = "star_level_bg_133",
+			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "蓝天之下，握住了微笑的少女伸出的手——",
+			say = "青空のように晴れやかな笑みを見せるエンタープライズ。彼女から差し伸べられた手をしっかりと握りしめた――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
