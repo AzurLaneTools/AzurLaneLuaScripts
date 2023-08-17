@@ -34,8 +34,14 @@ function slot0.OnInit(slot0)
 	slot0.confirmBtn = slot0.selectedTF:Find("panel/ok")
 	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/move"))
 	slot0.effectContainer = slot0._tf:Find("effects")
-	slot0.pedestalModule = CourtYardPedestalModule.New(slot0.data, slot0.bg)
+
+	slot0:InitPedestalModule()
+
 	slot0.bg.localScale = Vector3(0.95, 0.95, 1)
+end
+
+function slot0.InitPedestalModule(slot0)
+	slot0.pedestalModule = CourtYardPedestalModule.New(slot0.data, slot0.bg)
 end
 
 function slot0.AddListeners(slot0)

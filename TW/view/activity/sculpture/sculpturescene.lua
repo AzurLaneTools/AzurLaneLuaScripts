@@ -70,8 +70,8 @@ function slot0.init(slot0)
 	slot0.awardInfoPage = SculptureAwardInfoPage.New(slot0._tf, slot0.event, slot0.contextDat)
 	slot0.resMsgBoxPage = SculptureResMsgBoxPage.New(slot0._tf, slot0.event)
 	slot0.contextData.msgBoxPage = SculptureMsgBoxPage.New(slot0._tf, slot0.event)
-	slot0.contextData.tipPage = SculptureTipPage.New(slot0._tf, slot0._event)
-	slot0.contextData.miniMsgBox = SculptureMiniMsgBoxPage.New(slot0._tf, slot0._event)
+	slot0.contextData.tipPage = SculptureTipPage.New(slot0._tf, slot0.event)
+	slot0.contextData.miniMsgBox = SculptureMiniMsgBoxPage.New(slot0._tf, slot0.event)
 	Input.multiTouchEnabled = false
 
 	slot0:bind(uv0.OPEN_GRATITUDE_PAGE, function (slot0, slot1)

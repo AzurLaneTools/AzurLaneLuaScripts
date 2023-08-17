@@ -29,14 +29,14 @@ function slot0.OnLoaded(slot0)
 	slot0.currProgressTr = slot0:findTF("progress")
 	slot0.currProgressTxt = slot0:findTF("progress/value"):GetComponent(typeof(Text))
 	slot0.listBtn = slot0:findTF("list_btn")
-	slot0.archivesWorldbossBtn = ArchivesWorldbossBtn.New(slot0:findTF("archives_btn"), slot0._event)
+	slot0.archivesWorldbossBtn = ArchivesWorldbossBtn.New(slot0:findTF("archives_btn"), slot0.event)
 	slot0.autoBattleBtn = slot0:findTF("btns/auto_btn")
 	slot0.autoBattleTimeTxt = slot0.autoBattleBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.battleMask = slot0:findTF("battle_mask")
-	slot0.helpWindow = ArchivesWorldBossHelpPage.New(slot0._parentTf.parent, slot0._event)
-	slot0.autoBattleTip = ArchivesWorldBossAutoBattleTipPage.New(slot0._parentTf.parent, slot0._event)
-	slot0.autoBattleMsg = ArchivesWorldBossAutoBattleMsgbox.New(slot0._parentTf.parent, slot0._event)
-	slot0.autoBattleResultMsg = ArchivesWorldBossAutoBattleResultMsg.New(slot0._parentTf.parent, slot0._event)
+	slot0.helpWindow = ArchivesWorldBossHelpPage.New(slot0._parentTf.parent, slot0.event)
+	slot0.autoBattleTip = ArchivesWorldBossAutoBattleTipPage.New(slot0._parentTf.parent, slot0.event)
+	slot0.autoBattleMsg = ArchivesWorldBossAutoBattleMsgbox.New(slot0._parentTf.parent, slot0.event)
+	slot0.autoBattleResultMsg = ArchivesWorldBossAutoBattleResultMsg.New(slot0._parentTf.parent, slot0.event)
 end
 
 function slot0.OnInit(slot0)
@@ -48,7 +48,6 @@ function slot0.OnInit(slot0)
 		slot0 = WorldBossConst.GetAchieveBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			iconBg = true,
 			hideNo = true,
 			type = MSGBOX_TYPE_DROP_ITEM,
 			name = slot0.name,

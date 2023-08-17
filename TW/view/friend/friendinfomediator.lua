@@ -95,7 +95,6 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.VISIT_BACKYARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
-			ships = slot3.ships,
 			player = slot3.player,
 			dorm = slot3.dorm,
 			mode = CourtYardConst.SYSTEM_VISIT

@@ -1029,7 +1029,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……稍等，玩笑先暂停，我到马赛曲的位置了。",
+			say = "……稍等，玩笑先暂停，我找到马赛曲的位置了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1243,10 +1243,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
+			paintingNoise = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 807010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "您之前的直觉，似乎是正确的。",
 			painting = {
 				alpha = 0.3,

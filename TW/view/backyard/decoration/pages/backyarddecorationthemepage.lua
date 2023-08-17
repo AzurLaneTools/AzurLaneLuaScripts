@@ -7,7 +7,7 @@ end
 function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent, slot0._event, slot0.contextData)
+	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent, slot0.event, slot0.contextData)
 	slot0.refreshList = {}
 end
 

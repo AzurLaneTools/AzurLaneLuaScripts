@@ -68,7 +68,7 @@ function slot0.lotteryUpdate(slot0)
 					cmd = 1,
 					activity_id = uv0.activity.id
 				})
-				uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
+				uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
 			end
 		end, SFX_PANEL)
 	else
@@ -83,7 +83,7 @@ function slot0.lotteryUpdate(slot0)
 					cmd = 1,
 					activity_id = uv0.activity.id
 				})
-				uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
+				uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
 			end
 		end, SFX_PANEL)
 	end
@@ -144,7 +144,7 @@ function slot0.displayLotteryAni(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		slot8 = uv1._event
+		slot8 = uv1
 
 		slot8:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
 		onButton(uv1, slot1, function ()
@@ -228,7 +228,7 @@ function slot0.bobingUpdate(slot0)
 			setActive(uv0.layerRule, false)
 		end, SFX_CANCEL)
 		onButton(slot0, slot3.bowlEnable, function ()
-			slot0 = uv0._event
+			slot0 = uv0
 
 			slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
 
@@ -367,7 +367,7 @@ function slot0.displayBBResult(slot0, slot1, slot2, slot3)
 
 	if slot12 == 7 then
 		slot14:setOnComplete(System.Action(function ()
-			uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
+			uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
 
 			uv1 = true
 		end))
@@ -387,7 +387,7 @@ function slot0.displayBBResult(slot0, slot1, slot2, slot3)
 
 			uv0.localScale = Vector3.Lerp(Vector3(2, 2, 2), Vector3.one, slot0)
 		end)):setOnComplete(System.Action(function ()
-			uv0._event:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
+			uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
 
 			uv1 = true
 		end))

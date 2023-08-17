@@ -15,8 +15,8 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.purchaseWindow = MiniGameShopPurchasePanel.New(slot0._tf, slot0._event)
-	slot0.multiWindow = MiniGameShopMultiWindow.New(slot0._tf, slot0._event)
+	slot0.purchaseWindow = MiniGameShopPurchasePanel.New(slot0._tf, slot0.event)
+	slot0.multiWindow = MiniGameShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.ticketTf = findTF(slot0._tf, "res/Text")
 
 	setText(slot0.ticketTf, getProxy(GameRoomProxy):getTicket())
@@ -124,8 +124,6 @@ function slot0.OnClickCommodity(slot0, slot1)
 			end)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				showOwned = true,
-				hideLine = true,
 				yesText = "text_exchange",
 				content = i18n("guild_shop_exchange_tip"),
 				onYes = function ()

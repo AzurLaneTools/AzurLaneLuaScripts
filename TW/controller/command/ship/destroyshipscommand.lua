@@ -30,7 +30,6 @@ function slot0.execute(slot0, slot1)
 
 			for slot10, slot11 in ipairs(uv0) do
 				uv1:removeShip(slot11)
-				uv2:CheckShareSkin(slot11)
 
 				for slot15, slot16 in ipairs(slot11.equipments) do
 					if slot16 then

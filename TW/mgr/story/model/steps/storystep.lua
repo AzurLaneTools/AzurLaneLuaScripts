@@ -19,6 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.seDelay = slot1.seDelay or 0
 	slot0.voice = slot1.voice
 	slot0.voiceDelay = slot1.voiceDelay or 0
+	slot0.movableNode = slot1.movableNode
 	slot0.options = slot1.options
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
@@ -28,6 +29,112 @@ function slot0.Ctor(slot0, slot1)
 		0,
 		0,
 		0
+	}
+end
+
+function slot0.ExistMovableNode(slot0)
+	return slot0.movableNode ~= nil
+end
+
+function slot0.GetPathByString(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = pg.NewStoryMgr.GetInstance():GetRectSize()
+	slot5 = Vector3(-slot4.x * 0.5, slot4.y * 0.5, 0)
+	slot6 = Vector3(slot4.x * 0.5, slot4.y * 0.5, 0)
+	slot7 = Vector3(-slot4.x * 0.5, -slot4.y * 0.5, 0)
+	slot8 = Vector3(slot4.x * 0.5, -slot4.y * 0.5, 0)
+	slot9 = slot2 or 200
+
+	if slot1 == "LTLB" then
+		slot10 = Vector3(slot9, 0, 0)
+		slot3 = {
+			slot5 + slot10,
+			slot7 + slot10
+		}
+	elseif slot1 == "LBLT" then
+		slot10 = Vector3(slot9, 0, 0)
+		slot3 = {
+			slot7 + slot10,
+			slot5 + slot10
+		}
+	elseif slot1 == "LTRT" then
+		slot10 = Vector3(0, -slot9, 0)
+		slot3 = {
+			slot5 + slot10,
+			slot6 + slot10
+		}
+	elseif slot1 == "RTLT" then
+		slot10 = Vector3(0, -slot9, 0)
+		slot3 = {
+			slot6 + slot10,
+			slot5 + slot10
+		}
+	elseif slot1 == "RTRB" then
+		slot10 = Vector3(slot9, 0, 0)
+		slot3 = {
+			slot6 + slot10,
+			slot8 + slot10
+		}
+	elseif slot1 == "RBRT" then
+		slot10 = Vector3(slot9, 0, 0)
+		slot3 = {
+			slot8 + slot10,
+			slot6 + slot10
+		}
+	elseif slot1 == "LBRB" then
+		slot10 = Vector3(0, -(slot2 or 0), 0)
+		slot3 = {
+			slot7 + slot10,
+			slot8 + slot10
+		}
+	elseif slot1 == "RBLB" then
+		slot10 = Vector3(0, -(slot2 or 0), 0)
+		slot3 = {
+			slot8 + slot10,
+			slot7 + slot10
+		}
+	end
+
+	return slot3
+end
+
+function slot0.GetMovableNode(slot0)
+	if not slot0:ExistMovableNode() then
+		return nil
+	end
+
+	slot1 = {}
+
+	if type(slot0.movableNode.path) == "table" then
+		for slot5, slot6 in ipairs(slot0.movableNode.path) do
+			table.insert(slot1, Vector3(slot6[1], slot6[2], 0))
+		end
+	else
+		slot1 = (type(slot0.movableNode.path) ~= "string" or slot0:GetPathByString(slot0.movableNode.path, slot0.movableNode.offset)) and slot0:GetPathByString("LTRT")
+	end
+
+	slot2 = type(slot0.movableNode.spine) == "table" or slot0.movableNode.spine == true
+	slot3 = nil
+
+	if slot0.movableNode.spine == true then
+		slot3 = {
+			action = "walk",
+			scale = 0.5
+		}
+	elseif slot2 then
+		slot3 = {
+			action = slot0.movableNode.spine.action or "walk",
+			scale = slot0.movableNode.spine.scale or 0.5
+		}
+	end
+
+	return {
+		name = slot0.movableNode.name,
+		isSpine = slot2,
+		spineData = slot3,
+		path = slot1,
+		time = slot0.movableNode.time,
+		easeType = slot0.movableNode.easeType or LeanTweenType.linear
 	}
 end
 

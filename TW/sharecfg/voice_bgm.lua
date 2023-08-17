@@ -97,16 +97,16 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "ssss-az-pv",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "ssss-1114A"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "ssss-az-story",
+		default_bgm = "main",
 		special_bgm = "",
-		time = "",
-		bgm = "Ssss-StrobeMemory"
+		time = "stop",
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -677,5 +677,65 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "ssss-1114A"
+	},
+	USCastle2023Scene = {
+		default_bgm = "story-expo-lastday",
+		special_bgm = "",
+		time = "",
+		bgm = "story-expo-lastday"
+	},
+	FeastScene = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	CastleGameView = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
+	},
+	ClemenceauMainPage = {
+		default_bgm = "story-clemenceau-judgement",
+		special_bgm = "",
+		time = "",
+		bgm = "story-clemenceau-judgement"
+	},
+	SaDingPtPage = {
+		default_bgm = "story-clemenceau-judgement",
+		special_bgm = "",
+		time = "",
+		bgm = "story-clemenceau-judgement"
+	},
+	SaDingFramePage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-marcopolo"
+	},
+	ExpoTicketTaskPage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-clemenceau"
+	},
+	AugustTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-designshipVI"
+	},
+	SurveyPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	CrusingDisplayActPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		time = "",
+		bgm = "blueocean-image"
 	}
 }

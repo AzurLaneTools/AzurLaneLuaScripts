@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "这座要塞并不在军事规划之内。圣座也有特别批准过……",
+			say = "这座要塞并不在军事规划之内。圣座也没有特别批准过……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "异样的雾气肆遮蔽了月色。",
+			say = "异样的雾气遮蔽了月色。",
 			bgmDelay = 1,
 			bgm = "battle-underholyflag",
 			typewriter = {

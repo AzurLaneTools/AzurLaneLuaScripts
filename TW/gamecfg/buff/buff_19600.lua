@@ -28,7 +28,33 @@ return {
 			},
 			arg_list = {
 				buff_id = 19601,
-				target = "TargetSelf"
+				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Chkalov_Boosted"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAllInStrikeSteady"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				buff_id = 19603,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Chkalov_Boosted"
+				}
 			}
 		},
 		{

@@ -33,12 +33,13 @@ function slot0.execute(slot0, slot1)
 	Map.lastMap = nil
 	Map.lastMapForActivity = nil
 	BuildShipScene.projectName = nil
-	DockyardScene.selectedSort = nil
 	DockyardScene.selectAsc = nil
-	DockyardScene.indexFlag = nil
-	DockyardScene.indexFlag2 = nil
-	DockyardScene.indexFlag3 = nil
-	DockyardScene.indexFlag4 = nil
+	DockyardScene.sortIndex = nil
+	DockyardScene.typeIndex = nil
+	DockyardScene.campIndex = nil
+	DockyardScene.rarityIndex = nil
+	DockyardScene.extraIndex = nil
+	DockyardScene.commonTag = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
@@ -110,6 +111,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(RefluxProxy.__cname)
 			uv0.facade:removeProxy(IslandProxy.__cname)
 			uv0.facade:removeProxy(ActivityTaskProxy.__cname)
+			uv0.facade:removeProxy(FeastProxy.__cname)
 			uv0.facade:removeCommand(GAME.LOAD_SCENE_DONE)
 		end
 	})

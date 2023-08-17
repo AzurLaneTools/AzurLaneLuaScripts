@@ -519,7 +519,7 @@ function slot0.CreateLive2D(slot0)
 			propose = slot0.shipGroup.married
 		}),
 		scale = Vector3(52, 52, 52),
-		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
+		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset_profile or type(slot2) == "string" or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
 		parent = slot0.l2dRoot
 	}), function ()
 		uv0.live2DBtn:SetEnable(true)

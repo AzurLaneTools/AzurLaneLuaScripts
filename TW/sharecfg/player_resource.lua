@@ -1130,6 +1130,21 @@ pg.player_resource = {
 		name = "masaiqu_pt",
 		itemid = 59470
 	},
+	[365] = {
+		id = 365,
+		name = "klms_pt",
+		itemid = 59481
+	},
+	[366] = {
+		id = 366,
+		name = "skinTicket55",
+		itemid = 59480
+	},
+	[367] = {
+		id = 367,
+		name = "partyinvitation_pt",
+		itemid = 59482
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2189,6 +2204,15 @@ pg.player_resource = {
 		masaiqu_pt = {
 			361
 		},
+		klms_pt = {
+			365
+		},
+		skinTicket55 = {
+			366
+		},
+		partyinvitation_pt = {
+			367
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2645,6 +2669,9 @@ pg.player_resource = {
 		359,
 		360,
 		361,
+		365,
+		366,
+		367,
 		950,
 		951,
 		952,

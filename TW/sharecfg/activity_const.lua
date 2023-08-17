@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 41188
+		act_id = 41290
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -950,5 +950,14 @@ pg.activity_const = {
 	},
 	LINLK_DUNHUANG_ACT = {
 		act_id = 4889
+	},
+	FEAST_PT_ACT = {
+		act_id = 4964
+	},
+	FEAST_TASK_ACT = {
+		act_id = 4965
+	},
+	MINIGAME_XINTIAOCHENGBAO = {
+		act_id = 4961
 	}
 }

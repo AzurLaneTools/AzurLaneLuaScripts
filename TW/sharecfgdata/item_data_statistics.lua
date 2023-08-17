@@ -162036,6 +162036,121 @@ _G.pg.base.item_data_statistics[59282] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59283] = {
+	display = "用於「永夜幻光」復刻活動兌換，活動結束後將會消失",
+	name = "榮譽之冠",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yingxiv2_pt",
+	id = 59283,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59284] = {
+	display = "於「永夜幻光」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41282,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59284,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59285] = {
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59285,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59286] = {
+	display = "用於「小騎士ㄉ訓練日」復刻活動提升角色好感，活動結束後將會消失",
+	name = "友好度-小聲望",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41291,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaoshengwang_pt",
+	id = 59286,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59287] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 41286,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_y",
+	id = 59287,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59290] = {
 	display = "參與『世界巡遊』(2022.10.1~2022.11.30)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
 	name = "巡遊點數",
@@ -174924,7 +175039,7 @@ _G.pg.base.item_data_statistics[70143] = {
 }
 
 _G.pg.base.item_data_statistics[70145] = {
-	display = "<color=#ff5c5c>8.23維護後道具將會刪除。 </color>可從「寶多六花」、「新條茜」、「南夢芽」、「飛鳥川千瀨」、「哈絲」與「奈美子」中自行選擇一位角色進行兌換。",
+	display = "<color=#ff5c5c>8.24維護後道具將會刪除。 </color>可從「寶多六花」、「新條茜」、「南夢芽」、「飛鳥川千瀨」、「哈絲」與「奈美子」中自行選擇一位角色進行兌換。",
 	name = "「交匯世界的弧光」角色自選",
 	max_num = 0,
 	type = 13,

@@ -53,7 +53,6 @@ function slot0.OnInit(slot0)
 		slot0 = WorldBossConst.GetCurrBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			iconBg = true,
 			hideNo = true,
 			type = MSGBOX_TYPE_DROP_ITEM,
 			name = slot0.name,
@@ -66,7 +65,6 @@ function slot0.OnInit(slot0)
 		slot0 = WorldBossConst.GetAchieveBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			iconBg = true,
 			hideNo = true,
 			type = MSGBOX_TYPE_DROP_ITEM,
 			name = slot0.name,

@@ -61234,6 +61234,44 @@ _G.pg.base.task_data_template[14680] = {
 	}
 }
 
+_G.pg.base.task_data_template[14681] = {
+	name = "『限界挑戰12』-積分任務",
+	guild_coin_award = 0,
+	award = 91201,
+	type = 6,
+	desc = "PT",
+	count_inherit = 0,
+	sub_type = 103,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 14681,
+	target_num = 8800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			212,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[14730] = {
 	name = "『法系复刻活动』-日常建造",
 	guild_coin_award = 0,
@@ -129634,6 +129672,1437 @@ _G.pg.base.task_data_template[17468] = {
 		{
 			mapIdx = 1630003,
 			chapterId = 1630051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17469] = {
+	name = "小聲望復刻npc臨時加入",
+	guild_coin_award = 0,
+	award = 97142,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17469,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			204041,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17470] = {
+	name = "『永夜幻光復刻』登入送皮膚體驗券活動",
+	guild_coin_award = 0,
+	award = 97143,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17470,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			246,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17471] = {
+	name = "『英系V2復刻』-日常建造",
+	guild_coin_award = 0,
+	award = 97168,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17471,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59283,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17472] = {
+	name = "『英系V2復刻』-日常出擊",
+	guild_coin_award = 0,
+	award = 97169,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17472,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59283,
+			300
+		},
+		{
+			8,
+			59284,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17473] = {
+	name = "『英系V2復刻』-日常困難本",
+	guild_coin_award = 0,
+	award = 97170,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17473,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59283,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17474] = {
+	name = "『英系V2復刻』A1/C1通關一次",
+	guild_coin_award = 0,
+	award = 97171,
+	type = 6,
+	desc = "擊敗A1或C1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17474,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380001,
+		1380021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59283,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17475] = {
+	name = "『英系V2復刻』A2/C2通關一次",
+	guild_coin_award = 0,
+	award = 97172,
+	type = 6,
+	desc = "擊敗A2或C2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17475,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380002,
+		1380022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59283,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17476] = {
+	name = "『英系V2復刻』A3/C3通關一次",
+	guild_coin_award = 0,
+	award = 97173,
+	type = 6,
+	desc = "擊敗A3或C3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17476,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380003,
+		1380023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59283,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17477] = {
+	name = "『英系V2復刻』B1/D1通關一次",
+	guild_coin_award = 0,
+	award = 97174,
+	type = 6,
+	desc = "擊敗B1或D1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17477,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380004,
+		1380024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59283,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17478] = {
+	name = "『英系V2復刻』B2/D2通關一次",
+	guild_coin_award = 0,
+	award = 97175,
+	type = 6,
+	desc = "擊敗B2或D2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17478,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380005,
+		1380025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59283,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17479] = {
+	name = "『英系V2復刻』B3/D3通關一次",
+	guild_coin_award = 0,
+	award = 97176,
+	type = 6,
+	desc = "擊敗B3或D3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17479,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380006,
+		1380026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59283,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17480] = {
+	name = "『英系V2復刻』通關SP",
+	guild_coin_award = 0,
+	award = 97177,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1380041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17480,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59284,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1380025,
+			chapterId = 1380041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17481] = {
+	name = "『英系V2復刻』通關D3",
+	guild_coin_award = 0,
+	award = 97178,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1380026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17481,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			177,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1380012,
+			chapterId = 1380026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17482] = {
+	name = "『英系V2復刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 97179,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17483",
+	auto_commit = 0,
+	story_id = "",
+	id = 17482,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380001,
+		1380021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17483] = {
+	name = "『英系V2復刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 97180,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17484",
+	auto_commit = 0,
+	story_id = "",
+	id = 17483,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380002,
+		1380022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17484] = {
+	name = "『英系V2復刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 97181,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17485",
+	auto_commit = 0,
+	story_id = "",
+	id = 17484,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380003,
+		1380023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17485] = {
+	name = "『英系V2復刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 97182,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17486",
+	auto_commit = 0,
+	story_id = "",
+	id = 17485,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380004,
+		1380024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17486] = {
+	name = "『英系V2復刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 97183,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17487",
+	auto_commit = 0,
+	story_id = "",
+	id = 17486,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380005,
+		1380025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17487] = {
+	name = "『英系V2復刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 97184,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17487,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380006,
+		1380026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17488] = {
+	name = "『英系V2復刻』角色收集：豪",
+	guild_coin_award = 0,
+	award = 97186,
+	type = 6,
+	desc = "獲得艦船「豪」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17488,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20509
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17489] = {
+	name = "『英系V2復刻』角色收集：英仙座",
+	guild_coin_award = 0,
+	award = 97187,
+	type = 6,
+	desc = "獲得艦船「英仙座」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17489,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20606
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17490] = {
+	name = "『英系V2復刻』角色收集：赫敏",
+	guild_coin_award = 0,
+	award = 97188,
+	type = 6,
+	desc = "獲得艦船「赫敏」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17490,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20227
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			600
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17491] = {
+	name = "『英系V2復刻』角色收集：鷹",
+	guild_coin_award = 0,
+	award = 97189,
+	type = 6,
+	desc = "獲得艦船「鷹」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17491,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20701
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17492] = {
+	name = "『英系V2復刻』角色收集：伊卡洛斯",
+	guild_coin_award = 0,
+	award = 97190,
+	type = 6,
+	desc = "獲得艦船「伊卡洛斯」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17492,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20133
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17493] = {
+	name = "『英系V2復刻』角色收集：英勇",
+	guild_coin_award = 0,
+	award = 97191,
+	type = 6,
+	desc = "獲得艦船「英勇」",
+	count_inherit = 0,
+	sub_type = 1014,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17493,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		20510
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			400
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17494] = {
+	name = "『英系V2復刻』角色刷關：牙買加",
+	guild_coin_award = 0,
+	award = 97192,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "使用滿星牙買加擊敗A2或C2敵方旗艦10次且存活",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	ryza_type = 0,
+	ryza_icon = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17494,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1420113,
+		1422113
+	},
+	target_id_2 = {
+		202174
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			100
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17495] = {
+	name = "『英系V2復刻』角色刷關：希佩爾",
+	guild_coin_award = 0,
+	award = 97193,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "使用滿星{namecode:425}擊敗A3或C3敵方旗艦10次且存活",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	ryza_type = 0,
+	ryza_icon = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17495,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1420213,
+		1422213
+	},
+	target_id_2 = {
+		403014
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17496] = {
+	name = "『英系V2復刻』角色刷關：吸血鬼",
+	guild_coin_award = 0,
+	award = 97194,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "使用滿星吸血鬼擊敗B2或D2敵方旗艦10次且存活",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	ryza_type = 0,
+	ryza_icon = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17496,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1421113,
+		1423113
+	},
+	target_id_2 = {
+		201234
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17497] = {
+	name = "『英系V2復刻』角色刷關：貝爾法斯特",
+	guild_coin_award = 0,
+	award = 97195,
+	type = 6,
+	sub_type = 16,
+	count_inherit = 0,
+	story_icon = "",
+	desc = "使用滿星貝爾法斯特擊敗B3或D3敵方旗艦10次且存活",
+	award_choice = "",
+	is_head = 1,
+	task_fold = 0,
+	visibility = 1,
+	ryza_type = 0,
+	ryza_icon = "",
+	quick_finish = 0,
+	level = 1,
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17497,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1421213,
+		1423213
+	},
+	target_id_2 = {
+		202124
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59287,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41284
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17498] = {
+	name = "『英系V2復刻』-日常活動關卡",
+	guild_coin_award = 0,
+	award = 97207,
+	type = 36,
+	desc = "通過1次任意活動關卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17498,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1380001,
+		1380002,
+		1380003,
+		1380004,
+		1380005,
+		1380006,
+		1380021,
+		1380022,
+		1380023,
+		1380024,
+		1380025,
+		1380026,
+		1380041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59283,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41283
 		}
 	}
 }

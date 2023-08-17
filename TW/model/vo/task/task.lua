@@ -44,6 +44,14 @@ function slot0.IsRoutineType(slot0)
 	return slot0:getConfig("type") == uv0.TYPE_ROUTINE
 end
 
+function slot0.IsActRoutineType(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_ACTIVITY_ROUTINE
+end
+
+function slot0.IsActType(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_ACTIVITY
+end
+
 function slot0.IsWeeklyType(slot0)
 	return slot0:getConfig("type") == uv0.TYPE_WEEKLY or slot0:getConfig("type") == uv0.TYPE_NEW_WEEKLY
 end

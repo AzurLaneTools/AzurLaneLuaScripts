@@ -375,6 +375,18 @@ return {
 					}
 				},
 				{
+					triggerType = 11,
+					waveIndex = 4001,
+					conditionType = 1,
+					preWaves = {
+						100
+					},
+					triggerParams = {
+						op = 0,
+						key = "warning"
+					}
+				},
+				{
 					triggerType = 8,
 					waveIndex = 900,
 					preWaves = {

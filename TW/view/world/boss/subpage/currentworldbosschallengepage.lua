@@ -42,7 +42,7 @@ end
 function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.awardPage = WorldBossAwardPage.New(slot0._tf.parent.parent, slot0._event)
+	slot0.awardPage = WorldBossAwardPage.New(slot0._tf.parent.parent, slot0.event)
 	slot0.switchBtn = slot0:findTF("detail_btn")
 	slot0.archivesChallengeBtn = slot0:findTF("archives_list_btn")
 	slot0.awardBtn = slot0:findTF("main/award_btn")

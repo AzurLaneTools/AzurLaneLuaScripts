@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "？ ？ ？ ·？ ？ ？",
+			say = "？？？·？？？",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",

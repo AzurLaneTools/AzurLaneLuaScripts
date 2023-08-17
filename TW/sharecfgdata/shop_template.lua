@@ -4384,7 +4384,6 @@ _G.pg.base.shop_template[31981] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 0,
-	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -4395,6 +4394,32 @@ _G.pg.base.shop_template[31981] = {
 	limit_args = {},
 	effect_args = {
 		30320
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -10247,9 +10272,9 @@ _G.pg.base.shop_template[60202] = {
 	time = {
 		{
 			{
-				2021,
-				4,
-				15
+				2020,
+				7,
+				23
 			},
 			{
 				0,
@@ -10259,9 +10284,9 @@ _G.pg.base.shop_template[60202] = {
 		},
 		{
 			{
-				2021,
-				4,
-				28
+				2020,
+				8,
+				5
 			},
 			{
 				23,
@@ -10304,9 +10329,9 @@ _G.pg.base.shop_template[60203] = {
 	time = {
 		{
 			{
-				2021,
-				4,
-				29
+				2020,
+				7,
+				23
 			},
 			{
 				0,
@@ -10316,9 +10341,9 @@ _G.pg.base.shop_template[60203] = {
 		},
 		{
 			{
-				2021,
-				5,
-				12
+				2020,
+				8,
+				5
 			},
 			{
 				23,
@@ -10361,9 +10386,9 @@ _G.pg.base.shop_template[60204] = {
 	time = {
 		{
 			{
-				2021,
-				4,
-				29
+				2020,
+				7,
+				23
 			},
 			{
 				0,
@@ -10373,9 +10398,9 @@ _G.pg.base.shop_template[60204] = {
 		},
 		{
 			{
-				2021,
-				5,
-				12
+				2020,
+				8,
+				5
 			},
 			{
 				23,
@@ -12940,6 +12965,234 @@ _G.pg.base.shop_template[60294] = {
 			{
 				2022,
 				2,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60304] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时建造补给（永夜幻光复刻版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60304,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60305] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包（永夜幻光复刻版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60305,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60306] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（永夜幻光复刻版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60306,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60307] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "300钻石购买心智单元礼包（永夜幻光复刻版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60307,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
 				23
 			},
 			{
@@ -29831,8 +30084,8 @@ _G.pg.base.shop_template[70393] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -29843,8 +30096,8 @@ _G.pg.base.shop_template[70393] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -29883,8 +30136,8 @@ _G.pg.base.shop_template[70394] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -29895,8 +30148,8 @@ _G.pg.base.shop_template[70394] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -29935,8 +30188,8 @@ _G.pg.base.shop_template[70395] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -29947,8 +30200,8 @@ _G.pg.base.shop_template[70395] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -29987,8 +30240,8 @@ _G.pg.base.shop_template[70396] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -29999,8 +30252,8 @@ _G.pg.base.shop_template[70396] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -30039,8 +30292,8 @@ _G.pg.base.shop_template[70397] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -30051,8 +30304,8 @@ _G.pg.base.shop_template[70397] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -30091,8 +30344,8 @@ _G.pg.base.shop_template[70398] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -30103,8 +30356,8 @@ _G.pg.base.shop_template[70398] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -30143,8 +30396,8 @@ _G.pg.base.shop_template[70399] = {
 		{
 			{
 				2023,
-				3,
-				2
+				8,
+				17
 			},
 			{
 				0,
@@ -30155,8 +30408,8 @@ _G.pg.base.shop_template[70399] = {
 		{
 			{
 				2023,
-				3,
-				15
+				8,
+				23
 			},
 			{
 				23,
@@ -41057,7 +41310,7 @@ _G.pg.base.shop_template[70623] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 330,
+	order = 1100,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -41084,7 +41337,7 @@ _G.pg.base.shop_template[70624] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -51801,6 +52054,162 @@ _G.pg.base.shop_template[90134] = {
 				2022,
 				8,
 				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90135] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 246,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230817限时皮肤体验：豪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90135,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		205091
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90136] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 246,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230817限时皮肤体验：豪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90136,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202271
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90137] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 246,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230817限时皮肤体验：豪",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90137,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		207011
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				8,
+				23
 			},
 			{
 				23,

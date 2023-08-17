@@ -75,6 +75,10 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	if isa(slot3, AvatarFrameTask) then
+		return
+	end
+
 	slot6 = slot3:getConfig("sub_type")
 	slot8 = {
 		chapterId = slot4:getActiveChapter() and slot7.id,
@@ -237,6 +241,20 @@ function slot0.execute(slot0, slot1)
 			else
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.PUBLIC_GUILD)
 			end
+		end
+	elseif slot9 == 41 then
+		if slot10 == 7 then
+			pg.m02:sendNotification(GAME.GO_MINI_GAME, 56)
+		end
+	elseif slot9 == 43 then
+		if slot10 == 0 or slot10 == 1 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.FEAST)
+		elseif slot10 == 2 or slot10 == 3 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.FEAST, {
+				page = 1
+			})
+		elseif slot10 == 4 then
+			pg.m02:sendNotification(GAME.GO_MINI_GAME, 56)
 		end
 	elseif slot9 == 100 then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot8)

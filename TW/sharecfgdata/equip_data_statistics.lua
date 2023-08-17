@@ -126846,7 +126846,7 @@ _G.pg.base.equip_data_statistics[91000] = {
 	part_sub = {},
 	equip_parameters = {},
 	label = {
-		"KMS",
+		"FFNF",
 		"BB",
 		"MG",
 		"AP"

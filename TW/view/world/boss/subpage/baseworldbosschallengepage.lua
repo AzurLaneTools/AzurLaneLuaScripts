@@ -51,7 +51,7 @@ function slot0.Setup(slot0, slot1)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.rankPage = WorldBossRankPage.New(slot0._tf.parent.parent, slot0._event)
+	slot0.rankPage = WorldBossRankPage.New(slot0._tf.parent.parent, slot0.event)
 
 	slot0:AddListeners(slot0.proxy)
 end

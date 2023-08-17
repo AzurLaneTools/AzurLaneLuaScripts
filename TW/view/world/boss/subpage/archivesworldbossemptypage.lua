@@ -32,7 +32,6 @@ function slot0.OnInit(slot0)
 		slot0 = WorldBossConst.GetAchieveBossItemInfo()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			iconBg = true,
 			hideNo = true,
 			type = MSGBOX_TYPE_DROP_ITEM,
 			name = slot0.name,
@@ -48,7 +47,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdate(slot0)
-	slot0.archivesWorldbossBtn = slot0.archivesWorldbossBtn or ArchivesWorldbossBtn.New(slot0:findTF("archives_btn"), slot0._event)
+	slot0.archivesWorldbossBtn = slot0.archivesWorldbossBtn or ArchivesWorldbossBtn.New(slot0:findTF("archives_btn"), slot0.event)
 	slot2 = nil
 
 	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_NOSTART then

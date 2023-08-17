@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	slot0.paintingTF = slot0:findTF("painting")
 	slot0.prefabTF = slot0:findTF("prefab")
 	slot0.viewAllBtn = slot0:findTF("rank/view_all")
-	slot0.allRankPage = GuildBossRankPage.New(slot0._parentTf, slot0._event)
+	slot0.allRankPage = GuildBossRankPage.New(slot0._parentTf, slot0.event)
 
 	setActive(slot0.viewAllBtn, PLATFORM_CODE ~= PLATFORM_JP)
 

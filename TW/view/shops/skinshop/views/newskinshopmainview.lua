@@ -772,7 +772,11 @@ function slot0.FlushTag(slot0, slot1)
 	slot0.uiTagList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			LoadSpriteAtlasAsync("SkinIcon", "type_" .. ShipSkin.Tag2Name(uv0[slot1 + 1]), function (slot0)
-				slot1 = uv0:Find("icon"):GetComponent(typeof(Image))
+				if uv0.exited then
+					return
+				end
+
+				slot1 = uv1:Find("icon"):GetComponent(typeof(Image))
 				slot1.sprite = slot0
 
 				slot1:SetNativeSize()

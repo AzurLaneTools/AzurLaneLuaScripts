@@ -20,6 +20,22 @@ return {
 	id = 19760,
 	icon = 19760,
 	last_effect = "",
+	shipInfoScene = {
+		equip = {
+			{
+				number = 30,
+				check_indexList = {
+					1
+				},
+				check_label = {
+					"ShimantoMG"
+				},
+				label = {
+					"AA"
+				}
+			}
+		}
+	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

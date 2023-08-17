@@ -165,6 +165,7 @@ function slot0.register(slot0)
 	slot0.timers = {}
 	slot0.escortChallengeTimes = 0
 	slot0.chaptersExtend = {}
+	slot0.chapterStoryGroups = {}
 
 	slot0:buildMaps()
 	slot0:buildRemasterInfo()
@@ -209,7 +210,13 @@ function slot0.buildMaps(slot0)
 end
 
 function slot0.initChapters(slot0)
-	uv0.MapToChapters = pg.chapter_template.get_id_list_by_map
+	uv0.MapToChapters = table.shallowCopy(pg.chapter_template.get_id_list_by_map)
+
+	for slot4, slot5 in pairs(pg.story_group.get_id_list_by_map) do
+		uv0.MapToChapters[slot4] = uv0.MapToChapters[slot4] or {}
+		uv0.MapToChapters[slot4] = table.mergeArray(uv0.MapToChapters[slot4], slot5)
+	end
+
 	uv0.FormationToChapters = pg.chapter_template.get_id_list_by_formation
 end
 
@@ -340,6 +347,8 @@ end
 
 function slot0.getChapterById(slot0, slot1, slot2)
 	if not slot0.data[slot1] then
+		assert(pg.chapter_template[slot1], "Not Exist Chapter ID: " .. (slot1 or "NIL"))
+
 		if Chapter.New({
 			id = slot1
 		}):getConfig("type") == Chapter.CustomFleet then
@@ -359,6 +368,20 @@ function slot0.getChapterById(slot0, slot1, slot2)
 	end
 
 	return slot2 and slot3 or slot3:clone()
+end
+
+function slot0.GetChapterItemById(slot0, slot1)
+	if Chapter:bindConfigTable()[slot1] then
+		return slot0:getChapterById(slot1, true)
+	elseif ChapterStoryGroup:bindConfigTable()[slot1] then
+		if not slot0.chapterStoryGroups[slot1] then
+			slot0.chapterStoryGroups[slot1] = ChapterStoryGroup.New({
+				configId = slot1
+			})
+		end
+
+		return slot2
+	end
 end
 
 function slot0.updateChapter(slot0, slot1, slot2)
@@ -814,7 +837,7 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 end
 
 function slot0.isClear(slot0, slot1)
-	return slot0:getChapterById(slot1):isClear()
+	return slot0:GetChapterItemById(slot1):isClear()
 end
 
 function slot0.getEscortShop(slot0)
