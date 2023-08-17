@@ -25,6 +25,7 @@ function slot0.Ctor(slot0)
 		MainCrusingActSequence.New(),
 		MainReceiveBossRushAwardsSequence.New(),
 		MainNotificationWindowSequence.New(),
+		MainRequestFeastActDataSequence.New(),
 		MainCalcHxSequence.New(),
 		MainGuideSequence.New(),
 		MainOpenSystemSequence.New()

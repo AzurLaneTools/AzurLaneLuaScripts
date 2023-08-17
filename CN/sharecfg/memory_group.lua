@@ -3742,7 +3742,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4963,
 		title = "鸢尾芳馨弥漫时",
 		memories = {
 			2851,
@@ -3769,7 +3769,7 @@ pg.base.memory_group = {
 		subtype = 1,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4967,
 		title = "愚者的天平",
 		memories = {
 			2871,
@@ -3824,7 +3824,7 @@ pg.base.memory_group = {
 		subtype = 3,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4962,
 		title = "薰风下的邀约",
 		memories = {
 			2921,

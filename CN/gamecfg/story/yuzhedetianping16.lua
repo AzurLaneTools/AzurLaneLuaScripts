@@ -333,17 +333,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
+			nameColor = "#ffff4d",
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			say = "让·巴尔用力锤向通讯器，在其外壳上留下了一处凹陷。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……要是收到的都是这种命令，坏了也就怀了吧。",
+			say = "……要是收到的都是这种命令，坏了也就坏了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
