@@ -25253,20 +25253,9 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: Skybound Oratorio",
+				"Event: The Fool's Scales",
 				{
 					""
-				},
-				0
-			},
-			{
-				"Light Ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}

@@ -431,7 +431,7 @@ return {
 					2.5
 				},
 				{
-					"<size=51>Yes, just like that. Feels comfortable, no? Heehee./<size>",
+					"<size=51>Yes, just like that. Feels comfortable, no? Heehee.</size>",
 					3
 				}
 			}
