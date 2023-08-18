@@ -168,7 +168,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#ffa500",
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			hidePaintObj = true,
 			say = "ぼくも同感です",
 			painting = {
@@ -187,7 +187,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#ffa500",
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			hidePaintObj = true,
 			say = "「余燼」は「ハイエロファント」と何回か相対したことがあります。あいつは「アビータ」の中でも話ができる方で",
 			painting = {
@@ -206,7 +206,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			paintingNoise = true,
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "この「神」は誰かに操られたスペアボディの可能性が高いと思います",
@@ -226,7 +226,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#ffa500",
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			hidePaintObj = true,
 			say = "……それともうひとつ、この敵からは嫌な予感がします",
 			painting = {
@@ -245,7 +245,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#ffa500",
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			hidePaintObj = true,
 			say = "本体だけではありません…あのドロイドも、小型の敵も、謎の物質も……",
 			painting = {
@@ -264,7 +264,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#ffa500",
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			hidePaintObj = true,
 			say = "嫌な予感がするのは別に珍しくありませんが、今回は余計にです",
 			painting = {
@@ -283,7 +283,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			paintingNoise = true,
-			actorName = "{namecode:191}",
+			actorName = "飛龍(META)",
 			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "もしかしたらあいつこそが…「触れてはいけない」存在なのかもですね",

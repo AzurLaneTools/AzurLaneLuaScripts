@@ -55,7 +55,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:84}",
+			actorName = "武蔵",
 			nameColor = "#A9F548FF",
 			say = "あら、我らが指揮官の登場ね",
 			painting = {
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:435}",
+			actorName = "ビスマルク",
 			nameColor = "#A9F548FF",
 			say = "もうみんな盛り上がっているわ。指揮官",
 			painting = {
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:435}",
+			actorName = "ビスマルク",
 			nameColor = "#A9F548FF",
 			say = "こういう雰囲気は…悪くない。指揮官も楽しんでいくといい",
 			painting = {

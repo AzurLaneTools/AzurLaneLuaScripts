@@ -812,12 +812,13 @@ return {
 			}
 		},
 		{
-			actor = 900354,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900354,
 			say = "一通り確認できました。黒海にやってきたのはそのためです",
 			painting = {
 				alpha = 0.3,
@@ -829,12 +830,13 @@ return {
 			}
 		},
 		{
-			actor = 900354,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900354,
 			say = "戦力の足しとしてあの子も一緒にこの作戦に参加させますが、よろしいですね？",
 			painting = {
 				alpha = 0.3,

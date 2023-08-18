@@ -27,7 +27,8 @@ return {
 			effects = {
 				{
 					active = true,
-					name = "miwu_01"
+					name = "miwu_01",
+					center = true
 				}
 			},
 			typewriter = {
