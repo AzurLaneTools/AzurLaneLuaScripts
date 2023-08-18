@@ -812,12 +812,13 @@ return {
 			}
 		},
 		{
-			actor = 905020,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900354,
 			say = "那是当然，我来黑海就是为了这件事。",
 			painting = {
 				alpha = 0.3,
@@ -829,13 +830,13 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 905020,
+			actor = 900354,
 			say = "你的订单现在状态良好。不过因为事发突然，我已经临时将其征调到了作战舰队中了，希望你不会介意。",
 			painting = {
 				alpha = 0.3,

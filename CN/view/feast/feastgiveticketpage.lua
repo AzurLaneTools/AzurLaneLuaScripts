@@ -80,4 +80,8 @@ function slot0.Send(slot0)
 	slot0:emit(FeastMediator.GIVE_TICKET, slot0.feastShip.tid)
 end
 
+function slot0.SetTipContent(slot0)
+	slot0.tipTr.text = i18n("feast_drag_invitation_tip")
+end
+
 return slot0

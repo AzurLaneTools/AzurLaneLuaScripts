@@ -24864,3 +24864,11 @@ _G.pg.base.gametip.uscastle2023_minigame_help = {
 		}
 	}
 }
+
+_G.pg.base.gametip.feast_drag_invitation_tip = {
+	tip = "*拖动邀请函到角色上发起邀请"
+}
+
+_G.pg.base.gametip.feast_drag_gift_tip = {
+	tip = "*拖动宴会纪念品赠送给角色"
+}

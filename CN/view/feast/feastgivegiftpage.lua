@@ -15,6 +15,7 @@ function slot0.OnLoaded(slot0)
 	slot0.giftTr = slot0:findTF("dialogue/item/icon")
 	slot0.effectTr = slot0:findTF("char/effect")
 	slot0.giftTrPos = slot0.giftTr.localPosition
+	slot0.tipTr = slot0:findTF("dialogue/tip"):GetComponent(typeof(Text))
 end
 
 function slot0.BindEvents(slot0)
@@ -65,6 +66,7 @@ function slot0.Show(slot0, slot1)
 
 	slot0.feastShip = slot1
 
+	slot0:SetTipContent()
 	seriesAsync({
 		function (slot0)
 			uv0:LoadChar(uv1, slot0)
@@ -80,6 +82,10 @@ function slot0.Show(slot0, slot1)
 		uv0:UpdateGiftState(uv1)
 		uv0:RegisterEvent()
 	end)
+end
+
+function slot0.SetTipContent(slot0)
+	slot0.tipTr.text = i18n("feast_drag_gift_tip")
 end
 
 function slot0.CanInterAction(slot0)
