@@ -67310,6 +67310,549 @@ _G.pg.base.aircraft_template[162230] = {
 	}
 }
 
+_G.pg.base.aircraft_template[163041] = {
+	attack_power = 2,
+	name = "契卡洛夫技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "SU2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163041,
+	icon = "SU2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163042] = {
+	id = 163042,
+	name = "契卡洛夫技能轰炸机Lv2",
+	hp_growth = 1846,
+	base = 163041,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163052
+	}
+}
+
+_G.pg.base.aircraft_template[163043] = {
+	id = 163043,
+	name = "契卡洛夫技能轰炸机Lv3",
+	hp_growth = 2087,
+	base = 163041,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163053
+	}
+}
+
+_G.pg.base.aircraft_template[163044] = {
+	id = 163044,
+	name = "契卡洛夫技能轰炸机Lv4",
+	hp_growth = 2327,
+	base = 163041,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163054
+	}
+}
+
+_G.pg.base.aircraft_template[163045] = {
+	id = 163045,
+	name = "契卡洛夫技能轰炸机Lv5",
+	hp_growth = 2568,
+	base = 163041,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163055
+	}
+}
+
+_G.pg.base.aircraft_template[163046] = {
+	id = 163046,
+	name = "契卡洛夫技能轰炸机Lv6",
+	hp_growth = 2809,
+	base = 163041,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163056
+	}
+}
+
+_G.pg.base.aircraft_template[163047] = {
+	id = 163047,
+	name = "契卡洛夫技能轰炸机Lv7",
+	hp_growth = 3050,
+	base = 163041,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163057
+	}
+}
+
+_G.pg.base.aircraft_template[163048] = {
+	id = 163048,
+	name = "契卡洛夫技能轰炸机Lv8",
+	hp_growth = 3290,
+	base = 163041,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163058
+	}
+}
+
+_G.pg.base.aircraft_template[163049] = {
+	id = 163049,
+	name = "契卡洛夫技能轰炸机Lv9",
+	hp_growth = 3531,
+	base = 163041,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163059
+	}
+}
+
+_G.pg.base.aircraft_template[163050] = {
+	id = 163050,
+	name = "契卡洛夫技能轰炸机Lv10",
+	hp_growth = 3772,
+	base = 163041,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163060
+	}
+}
+
+_G.pg.base.aircraft_template[163061] = {
+	attack_power = 2,
+	name = "契卡洛夫技能鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "VIT2",
+	ACC_growth = 0,
+	crash_DMG = 480,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163061,
+	icon = "VIT2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 6,
+	hp_growth = 1459,
+	speed = 45,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		163071
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163062] = {
+	max_hp = 44,
+	hp_growth = 1678,
+	base = 163061,
+	id = 163062,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163072
+	}
+}
+
+_G.pg.base.aircraft_template[163063] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 163061,
+	id = 163063,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163073
+	}
+}
+
+_G.pg.base.aircraft_template[163064] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 163061,
+	id = 163064,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163074
+	}
+}
+
+_G.pg.base.aircraft_template[163065] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 163061,
+	id = 163065,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163075
+	}
+}
+
+_G.pg.base.aircraft_template[163066] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 163061,
+	id = 163066,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163076
+	}
+}
+
+_G.pg.base.aircraft_template[163067] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 163061,
+	id = 163067,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163077
+	}
+}
+
+_G.pg.base.aircraft_template[163068] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 163061,
+	id = 163068,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163078
+	}
+}
+
+_G.pg.base.aircraft_template[163069] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 163061,
+	id = 163069,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163079
+	}
+}
+
+_G.pg.base.aircraft_template[163070] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 163061,
+	id = 163070,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163080
+	}
+}
+
+_G.pg.base.aircraft_template[163081] = {
+	attack_power = 2,
+	name = "契卡洛夫技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "SU2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163081,
+	icon = "SU2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163091
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163082] = {
+	id = 163082,
+	name = "契卡洛夫技能轰炸机Lv2",
+	hp_growth = 1846,
+	base = 163081,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163092
+	}
+}
+
+_G.pg.base.aircraft_template[163083] = {
+	id = 163083,
+	name = "契卡洛夫技能轰炸机Lv3",
+	hp_growth = 2087,
+	base = 163081,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163093
+	}
+}
+
+_G.pg.base.aircraft_template[163084] = {
+	id = 163084,
+	name = "契卡洛夫技能轰炸机Lv4",
+	hp_growth = 2327,
+	base = 163081,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163094
+	}
+}
+
+_G.pg.base.aircraft_template[163085] = {
+	id = 163085,
+	name = "契卡洛夫技能轰炸机Lv5",
+	hp_growth = 2568,
+	base = 163081,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163095
+	}
+}
+
+_G.pg.base.aircraft_template[163086] = {
+	id = 163086,
+	name = "契卡洛夫技能轰炸机Lv6",
+	hp_growth = 2809,
+	base = 163081,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163096
+	}
+}
+
+_G.pg.base.aircraft_template[163087] = {
+	id = 163087,
+	name = "契卡洛夫技能轰炸机Lv7",
+	hp_growth = 3050,
+	base = 163081,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163097
+	}
+}
+
+_G.pg.base.aircraft_template[163088] = {
+	id = 163088,
+	name = "契卡洛夫技能轰炸机Lv8",
+	hp_growth = 3290,
+	base = 163081,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163098
+	}
+}
+
+_G.pg.base.aircraft_template[163089] = {
+	id = 163089,
+	name = "契卡洛夫技能轰炸机Lv9",
+	hp_growth = 3531,
+	base = 163081,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163099
+	}
+}
+
+_G.pg.base.aircraft_template[163090] = {
+	id = 163090,
+	name = "契卡洛夫技能轰炸机Lv10",
+	hp_growth = 3772,
+	base = 163081,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163100
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
