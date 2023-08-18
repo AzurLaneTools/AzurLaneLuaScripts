@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"维希教廷展览馆「大圣堂」",
+					"World Expo Venue - Vichya Pavilion",
 					1
 				},
 				{
-					"临时作战指挥室",
+					"Temporary Command Room",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			bgm = "story-finalbattle-unity",
-			say = "光芒划破黑暗，从四面八方汇聚至会场之中。",
+			say = "Rays of light shot from each anchor's Skybound Wall, converging in the sky above the Vichya pavilion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "点亮了这个无光的世界，也宣告了希望的到来。",
+			say = "Dazzling, divine light shone upon the center of the anomaly like rays of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "完成任务的舰队正陆续通过门扉网络来到会场。",
+			say = "Shipgirls who'd finished their missions returned one after another to the venue through the microlayer network.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "不光是维希教廷馆，会场中的各个场馆与码头都变成了临时舰队锚地。",
+			say = "The maintenance facilities for the shipgirls gathered in the venue were working overtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "自然，会场以及周边海域的敌人，早就被肃清一空了。",
+			say = "By now, nearly all of the enemies in the area, save for those around the black hole, had been eradicated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "剩余目标还有3处……2处……1处……",
+			say = "Three remaining targets. Two... One...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "完成了。",
+			say = "That's all of them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "伴随着代表门扉网络启用的光芒又一次闪烁。",
+			say = "The transference device lit up, and finally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "庞大的鸢尾舰队也抵达了会场。",
+			say = "The fleet led by Richelieu returned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "队形之中，维希教廷与自由鸢尾编队已经完全合二为一，不分彼此了。",
+			say = "Their fleet was organized without separation between the once separated factions, with all the dignity worthy of the reunited Iris Orthodoxy name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "环顾会场，仿佛在这一刻，碧蓝航线与赤色中轴的分界也消失了。",
+			say = "But they weren't alone—at this very moment, this venue now hosted the full Azur Lane fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "白鹰、皇家、铁血、重樱、鸢尾、东煌、北方联合、撒丁帝国，甚至还有远道而来的META。",
+			say = "The Eagle Union, Royal Navy, Iron Blood, Sakura Empire, Iris Orthodoxy, Dragon Empery, Northern Parliament, Sardegna Empire, and even META from beyond space-time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "一支庞大的舰队，正在进行出征前的最后准备。",
+			say = "The grand fleet was preparing for its decisive battle, and in addition–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "与此同一时间，圣枪系统也在进行发射前的最后准备。",
+			say = "The Spear of Destiny, the key to striking down the false God, was also in its final preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是消灭还是削弱，就看这一击了。",
+			say = "When two concepts smash into each other head-on, one will be overwritten. All or nothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "运气好的话，这支舰队就用不上了哦？",
+			say = "If it goes well, this fleet might never need to step out onto the stage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过运气不好的话……说不定你还会嫌这支舰队规模不够大呢。",
+			say = "If it doesn't, however, you might find yourself wishing you'd brought more friends, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "检查确认完毕，节点已全部启动，系统运转正常，是否启动圣枪系统？",
+			say = "Final checks complete. All conceptual anchor signals confirmed. Awaiting your final order to launch the Spear of Destiny.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "克莱蒙梭突然一脸认真地问了过来，仿佛这里似乎存在第二个选项一样。",
+			say = "Though surprised by Clemenceau's sudden seriousness, I gave the order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，来点仪式感嘛。",
+			say = "Heehee. You need to have a sense of ceremony when the situation calls for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣枪系统启动中——",
+			say = "Activating the Spear of Destiny system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让灼热的光之枪，击碎「伪神之茧」吧————",
+			say = "Now, let's shoot that false God right between the eyes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "经由圣堂的尖顶，从海域各处汇聚而来的光芒融合为一道光柱。",
+			say = "Lights from all over the world seemed to converge in one point above the Vichya pavilion, forming a radiant lance of pure energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "那光柱如太阳般炽烈，却又裹挟着压抑与死寂。只是看着，就有一种令人窒息的错觉。",
+			say = "It blazed like the sun, glorious and pure. All who beheld it were overwhelmed with awe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "片刻后，光柱命中了包裹着“神”的黑色茧囊，在其表面发生了激烈的碰撞。",
+			say = "The concept of true divinity collided into the abyssal darkness of the false God's cocoon–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "许久。",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "直到设备能量耗尽前，最后一丝光芒终于穿透了茧囊的外表面。",
+			say = "The energy from the conceptual anchors flickered and waned, already squeezed to its limit. Just as the last spark of light from the anchors faded, the outer shell of the darkness covering the cocoon split open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "光芒与茧囊一同消失了。",
+			say = "Light and darkness alike disappeared, and peace—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,44 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
-			say = "不过……海域中压抑的气氛并没有随之消散。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_underheaven_12",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107090,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "指挥官，伪神之茧已确认摧毁。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_underheaven_12",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107090,
-			say = "不过在原本茧囊所在位置的中央，出现了一台巨大的迪洛伊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "—did not return to the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +433,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，海域中的敌方军队似乎终于有了统一指挥。",
+			say = "We've broken through the cocoon's outer layer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +451,44 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我观察到周边区域的敌人正在向着那台巨大迪洛伊的位置移动。",
+			say = "B-but, an even bigger Gazer seems to be coming out of it!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_underheaven_12",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "And that's not all! The Gazers around us are changing their behavioral patterns!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_underheaven_12",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107090,
+			say = "They're all moving to where the cocoon was! Could that Gazer be...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我这边的侦察结果和埃塞克斯小姐相同。",
+			say = "Indeed. The situation appears to be as bad as you fear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "我推测，那台巨大的迪洛伊就是伪神的本体。",
+			say = "The Gazer that just came out of the cocoon... may well be the false God itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "克莱蒙梭主教，你的圣枪系统还能再开一炮么？",
+			say = "Clemenceau... is this what you were trying to accomplish?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "很遗憾，系统的能量已经耗尽了。",
+			say = "I was hoping for a more decisive victory than this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最后的结果是相互抵消了啊……",
+			say = "But unfortunately, it took every bit of energy from the conceptual anchors just to neutrallize the darkness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "果然不会这么简单。伪神的保护虽然被击碎了，但是其本身的力量仍在。",
+			say = "Though we've pierced through the protection of the false God, we must face the brunt of its wrath ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，克莱蒙梭主教。",
+			say = "Commander! Clemenceau! We're ready to fight at any time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "你的这套系统已经让我们成功打了它一个措手不及，以至于它现在才手忙脚乱的调集舰队。",
+			say = "Don't worry about things not going to plan! We've already dealt that thing a devastating blow it definitely wasn't expecting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我认为此时正是我们乘胜追击的好时机！",
+			say = "Now's the time to press our advantage and finish it off once and for all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我也是这么认为的。指挥官，鸢尾舰队已经集结完毕，请您下达出击命令吧。",
+			say = "With the powers of conceptual manifestation counteracting each other here, this comes down to an old-fashioned gunfight. Commander, the Iris fleet awaits your orders!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "皇家海军也是如此。直布罗陀舰队、马耳他舰队还有会场舰队全部听从您的调遣。",
+			say = "The Royal Navy has assembled. We are ready for your instructions at any time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "北方联合舰队一如既往支持你的决定，指挥官同志。",
+			say = "Likewise. The Northern Parliament stands behind your decision, Comrade Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "东煌舰队集结完毕，让我们一同为了胜利而努力吧，指挥官。",
+			say = "The Dragon Empery fleet is ready as well, Commander. Let us work together towards victory!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身亦准备好了，让吾等一同前往决战之地吧。",
+			say = "The Sakura Empire and Iron Blood fleets... will stand with you during this decisive battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "撒丁帝国舰队也集结完毕，让我们好好教训一下这个为所欲为的东西！",
+			say = "Likewise, Sardegna stands ready. Let us make an example of those who would trample upon our dignity and splendor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "这个“神”似乎还隐藏着一些秘密……",
+			say = "We shouldn't underestimate the power of a God that Antiochus cannot slay. It might have more tricks up its sleeve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "不过我们的力量并不弱，海伦娜也在全力投入支援，我们一定能取得本次胜利的。",
+			say = "Having that said, we're also strong. I trust that we'll pull through this crisis, especially with Helena's support.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "我对这个东西其实有点猜想啦……不过还需要战斗来证实才行，打吧！",
+			say = "I might know what thing really is... No, we'll know for sure when we fight. Commander, you may not be there in person, but we're counting on your support!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,9 +819,9 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "指挥官，我的牌已经出光了，接下来就靠你了哦~",
+			say = "Commander, I've played my final trump card. No more tricks, no more contingency plans. My life is now in your hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,9 +837,9 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "指挥舰队粉碎虚伪的神，带领我们取得胜利吧——",
+			say = "Defeat that false God, and lead us all to victory!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			side = 2,
-			say = "「▅■停▆▅」",
+			say = "▅■cease▆▅",
 			bgm = "story-thehierophantV",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一个没有感情的女性机械音凭空出现在脑海中。",
+			say = "All of a sudden, I heard a girl's emotionless, mechanical voice inside of my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "刚刚的是……什么声音？",
+			say = "What on earth was that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "诸位，我……没办法控制身体移动了。",
+			say = "I feel like... I'm slowing down. My rigging's grind to a halt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也一样……指挥官，恐怕舰队全员都出现了相同的情况……！",
+			say = "Mine, too! Commander, we're all affected by whatever this is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "何止是……无法移动……咳咳……",
+			say = "Same here. I can't... move... Urgh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我感觉就像被火车碾过脑袋一样……",
+			say = "Argh! Ark Royal! My head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我也是……感觉心智魔方中的能量正在失控……",
+			say = "Damnit! The energy in my hull's going completely haywire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……孟菲斯小姐，你还好么？！",
+			say = "Memphis? Are you hanging in there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "我…还好…………还硬撑的住……呜。",
+			say = "Barely... Somehow, yeah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "突如其来的声音，如同某种精神攻击一般影响了海域中的所有舰队成员。",
+			say = "With but a single otherworldly word, the entire battlefield was gripped by an icy, death-like chill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直如同言灵一般……指挥官，汝也听到那个声音了吧？",
+			say = "Did you hear that voice too? What manner of enchantment is this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "听的很清楚，不过身体并没有出现与其他人相同的束缚感。",
+			say = "\"Yes. I can still move like normal. Whatever it is, it doesn't look like it affected me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "{namecode:182}似乎……也没有受到影响？",
+			say = "\"You don't look like it affected you much either, for that matter, Shinano.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "难到说指挥舰……",
+			say = "\"Could it be that my command vessel is immune to this phenomenon?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大概不是你想的那样，指挥官……我同样中招了。",
+			say = "No, it's not. I'm affected, albeit it not to the same degree as the rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……虽不明其原理，不过妾身确实无碍。",
+			say = "Most puzzling... So the effect varies from shipgirl to shipgirl...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499070,
-			say = "本小姐感觉也还好哦，只是稍微有点手脚沉重而已~！",
+			say = "I'm basically fine. My arms and legs just feel a little heavy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499040,
-			say = "{namecode:486}同样状态良好，可以继续进行作战任务。",
+			say = "Likewise, I am still fit for battle. I feel hardly affected at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "指挥官……我们的量产型舰队也只受到了轻微影响，可以继续作战。",
+			say = "Same with the mass-produced ships... It's done practically nothing to them. They can still fight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "也就是说，量产型与计划舰受到的影响较小，而META受到的影响较重。",
+			say = "(So the blueprint ships and the mass-produced ships aren't affected much, while the METAs are gravely affected.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "而我与{namecode:182}不知出于何种原因，没有受到任何影响……",
+			say = "(Among everyone on the command ship, only Shinano hasn't been affected at all.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "我可以肯定，刚刚的攻击……不是META化侵蚀……",
+			say = "It doesn't seem like my hull's being corrupted, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "这种感觉很痛苦，又令人有些熟悉……",
+			say = "I've felt this pain before... It feels like the exact same thing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "何止是……熟悉，我都已经有九成把握可以确认了！",
+			say = "Urgh... I'm... all but certain... that it's the same thing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……现在撤退还来得及么？",
+			say = "Commander... Is it too late to retreat now...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "你说什么……？你想临阵脱逃么！",
+			say = "Retreat? You're just gonna run away, Hiryuu?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "别、别激动……我又没说要抛下你们自己走。",
+			say = "I'm not talking about me... We all... need to get out of here... before it's too late!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "……抱歉。",
+			say = "Haha.. Sorry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "但如果我们带领指挥官撤退的话，这个实验场恐怕就保不住了。",
+			say = "But if we run away with the Commander... what will happen to this experimental field...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要是变成这样的话我可就要困扰了。",
+			say = "Whatever you're thinking, we cannot have you take the Commander from us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过万幸……计划舰受到的影响较小。",
+			say = "We're lucky a certain someone here has barely been affected...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "加斯科涅，动手！",
+			say = "Gascogne! Force a direct connection into cognitive space!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			bgm = "theme-vichy-church",
 			effects = {
 				{
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "黑日凌空……",
+			say = "The black sun...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭……这就是汝所说的马可波罗所用的装置？",
+			say = "This is that other sacrament Marco Polo received from God...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			bgName = "bg_firedust_5",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……没错~",
+			say = "Correct. The problem with it is that's nigh-impossible to control.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			actor = 905020,
 			nameColor = "#A9F548FF",
-			say = "大家现在感觉怎么样？",
+			say = "How is everyone? Can you move freely?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……哦哦！感觉能动了！",
+			say = "Yes! Thank you kindly, Clemenceau!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "不适感立刻消失了……",
+			say = "Forcibly connecting minds to a separate conceptual space to protect against an anti-conceptual weapon in reality. That must've taken a huge amount of energy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "用另一种力量填充目标周围的空间，以屏蔽外来影响么……",
+			say = "Depending on how you use it, it can even affect your opponent's mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "跟某些仲裁机关武器同源的设备呢。",
+			say = "(This is Arbiter-level technology. Can we even be sure this space doesn't connect to somewhere else?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "太好了……虽然是马可波罗的设备，不过多少起了些正面帮助。",
+			say = "So if understand correctly... the black sun is actually located in a cognitive plane of existence...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,7 +750,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "这样一来，就可以准备——",
+			say = "How are we supposed to get back from here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#696969",
 			dialogueBgAlpha = 0.6,
-			say = "「▅■一▆▅」",
+			say = "▅■one▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "自从战斗打响以来，“神”第一次动了起来。",
+			say = "For the first time since the battle began, the Hierophant moved her body.",
 			bgm = "battle-thehierophantV",
 			effects = {
 				{
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "祂举起手中的权杖，对准天空，轻轻挥了一下。",
+			say = "She raised the wand in her hands high above her, then swung it down...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随即，黑日破碎。",
+			say = "...Instantly shattering the vision of the black sun like a glass pane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "世界又回到了“神”的支配下。",
+			say = "Just like that, she was in control of the world once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "审判的象征……就这么被轻易消灭了？！",
+			say = "The symbol of judgment was destroyed THAT easily?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么会有……这么夸张的事……？",
+			say = "Did we overload the connection? Or is this Arbiter simply that much stronger than it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "这个武器……是海洛芬特的……",
+			say = "Neither. That wand... The ability to recognize and control concepts...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "怎么可能……它居然可以动用仲裁者·海洛芬特·V的独有武装？！",
+			say = "This isn't just one of the Hierophant's vessels! She's here, in person!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -918,7 +918,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "小心，如果被「裁决之杖」正面命中……",
+			say = "Be extremely careful! You do NOT want to be hit by attacks from that wand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -936,7 +936,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "轻则被直接蒸发，重则……反正绝对不要被这东西命中就是了！",
+			say = "It'll either turn you to dust, or if you're really unlucky, the very concept of your existence will be wiped from reality!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "就算你这么说……我们现在……又动不了了。",
+			say = "Good to know... Too bad I'm basically stuck in place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "没关系……裁决之杖一次只能瞄准一个单一目标，而且射程近准备时间长。",
+			say = "At least those attacks are time-consuming and short-ranged... Commander, rush her with the mass-produced ships and organize a fleet out of the blueprint ships!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "我们还有量产型、审判型机甲和计划舰可以继续作战！",
+			say = "The Hierophant's grip on everyone is letting up! Keep her busy while we get back on our feet!",
 			painting = {
 				alpha = 0.3,
 				time = 1

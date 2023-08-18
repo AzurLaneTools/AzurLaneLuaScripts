@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"作战结束后",
+					"After the mission's conclusion",
 					1
 				},
 				{
-					"陆间海·某处",
+					"Somewhere in the Mediterranean Sea...",
 					2
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "孟菲斯，等等！你就要回去了么？",
+			say = "The Arbiter's superimposed world is gone. The truth of what happened here will remain only in our memories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "嗯。海洛芬特已经确认消失，这里已经不需要我了。",
+			say = "Yes. The Hierophant has been dealt with, and there's no reason for us to remain here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "非常感谢你能响应指挥官的号召前来支援作战。",
+			say = "The Commander summoned you, right? Thank you for coming to our aid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "余烬中，似乎也有通情达理的人呢……",
+			say = "I suppose not all of the Ashes are too stubborn to be reasoned with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "你……真的不记得我了？",
+			say = "Do you really not remember me, Memphis?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "嗯……？我并没有加入过余烬，确实没有见过你。",
+			say = "Um... Last I checked, I was never in the Ashes. I don't know you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "你不会是把我跟其他什么人弄混了吧？",
+			say = "I think you have me confused for another Memphis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "提问一，你对指挥官有熟悉的感觉，也感觉十分亲近？",
+			say = "I can tell you hold the Commander in a certain regard. Have you two met somewhere before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "或者说，你确信指挥官是你熟悉的某个人，对么？",
+			say = "Do you believe that the Commander is the one you've been searching for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "这部分属于机密内容，我不便透露。",
+			say = "...I can't say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你有没有思考过，为什么能确信？",
+			say = "Why not? I just want to know your roots.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……我不是很明白你的意思。",
+			say = "I don't see why I should tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "好好~那提问二，你知道安洁和奥斯塔，对么？",
+			say = "Okay, another question then. Do you remember speaking to Aoste and Anzeel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……这部分属于机密内容，我不便透露。",
+			say = "I can't say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我还是不明白你提问的目的，也不想与你继续讨论了。",
+			say = "I don't know what you want from me with these questions, and this conversation is meaningless.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "请恕我失陪。",
+			say = "I'll be off now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "稍等，还有最后一个问题！其实也是最初的问题。",
+			say = "Wait! Let me ask you one final question. It's similar to my first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "你再仔细回忆一下，你……真的不记得我么？",
+			say = "Do you truly... truly not remember us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我……",
+			say = "I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9702010,
-			say = "孟菲斯，发生什么事了么？",
+			say = "Memphis, what's the matter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9702010,
-			say = "读数有些混乱，你还好么？",
+			say = "I'm seeing some slight deviations on your monitoring system. Everything alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我很好。只是……",
+			say = "Yeah, I'm fine. It's just...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "稍微被追问了一些问题……没关系，已经处理好了。",
+			say = "Someone asked me a weird question. It's nothing. I'm finished here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:94}，你不去执行余烬布置的任务真的没关系么？",
+			say = "Hiryuu. You should get back to your Ashes mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这就去……这就去，那你们忙？回见啦，孟菲斯小姐~",
+			say = "Right. I'll do just that. May the both of you stay in good health.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "嗯……祝你一路顺风。",
+			say = "...You too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "海伦娜稍等哦，我这就回来——",
+			say = "Sorry about the holdup, Helena. I'll be right there.",
 			painting = {
 				alpha = 0.3,
 				time = 1

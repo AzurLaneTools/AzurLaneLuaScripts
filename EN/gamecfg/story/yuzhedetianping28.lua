@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"东陆间海·苏伊士运河",
+					"East Mediterranean Sea - Suez Canal",
 					1
 				},
 				{
-					"东煌博览会舰队",
+					"Meanwhile, with Carabiniere...",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "龙骑兵，终于跟你接通了，你现在还好么，人在哪里？",
+			say = "Carabiniere, are you alright?! Where are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "利托里奥大人！我刚刚与东煌舰队一同进入异常海域不久！",
+			say = "Right here! I'm fine! I've just plunged into the affected region with the Dragon Empery fleet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您那边还好么！到底发生什么事了？",
+			say = "Are you doing okay, Lady Littorio?! Something awful has happened... not just at the World Expo, but across the whole Mediterranean!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们很好，其他的情况很复杂，三言两语说不清。",
+			say = "I'm just fine. Let's be brief here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说你的事，你说刚进入异常海域不久是什么意思？",
+			say = "First: what do you mean when you say you've just plunged into the affected region?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是这样的，利托里奥大人。我与东煌舰队原本位于本次异常区域的影响之外。",
+			say = "Right, so, I was in the middle of a tea party with the Dragon Empery representatives by the canal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过正在喝茶的时候，镇海小姐好像突然发现了什么情况，然后让我试着联系本土。",
+			say = "That was when Chen Hai noticed that something was wrong. She asked me to contact the Sardegnian mainland...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "我打了好多个地方都打不通。",
+			say = "I couldn't get through, though, so I asked the Dragon Empery reps to return to the venue with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以就拜托她们来跟我一探究竟，然后就发现了……这么恐怖的景象。",
+			say = "And now, umm... We've just entered a sea region covered in a weird substance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怪不得之前怎么都联系不上你，原来是处于神之国度的影响范围外啊。",
+			say = "I see... No wonder you couldn't get through to them. You were outside of the anomaly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "龙骑兵，你叫东煌的镇海小姐来听一下。",
+			say = "The Dragon Empery shipgirls are with you, right? Carabiniere, connect me to Chen Hai.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我这边接通了，你来分配任务吧——",
+			say = "Commander, we have the Dragon Empery fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，情况我明白了。",
+			say = "I've been informed of the situation. You've clearly been hard at work...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不用担心，我们的战斗力足够，苏伊士运河以及周边的节点区域就交给我们吧。",
+			say = "Our forces here are enough. Leave the anchor near the canal to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，我们还发现了一件事，亚历山大港中的设备在您的通讯到来之前就已经启动了。",
+			say = "One more thing: I hear the Skybound Wall in Alexandria was activated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "……你们也不知道什么情况？",
+			say = "We have no idea what's going on there. The sandstorm still hasn't stopped...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "而且和驻防舰队依然处于失联状态是么……我明白了。",
+			say = "You don't know, either? Then we'll just have to leave it aside and hope for the best for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "我们这边会一起着手调查的，有新的情况再联系。",
+			say = "We'll do what we can to help investigate. If we learn anything, I'll call you right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯，也祝你一切顺利，指挥官——",
+			say = "I pray for your good fortune. Goodbye.",
 			painting = {
 				alpha = 0.3,
 				time = 1

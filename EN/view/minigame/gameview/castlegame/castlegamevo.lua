@@ -20,7 +20,7 @@ slot0.floor_revert_time = 3
 slot0.bubble_ready_time = 0.5
 slot0.bubble_broken_time = 4
 slot0.item_ready_time = 2
-slot0.char_speed = 350
+slot0.char_speed = 380
 slot0.char_speed_min = 30
 slot0.score_remove_time = 8.5
 slot0.score_data = {
@@ -492,9 +492,6 @@ slot0.round_data = {
 			}
 		},
 		carriage = {
-			10,
-			18,
-			26,
 			34,
 			42,
 			50,
@@ -504,13 +501,6 @@ slot0.round_data = {
 			82
 		},
 		stone = {
-			{
-				time = {
-					21.5,
-					21.5
-				},
-				index = {}
-			},
 			{
 				time = {
 					29.5,
@@ -569,13 +559,6 @@ slot0.round_data = {
 			}
 		},
 		boom = {
-			{
-				time = {
-					37.5,
-					37.5
-				},
-				index = {}
-			},
 			{
 				time = {
 					45.5,
@@ -660,63 +643,63 @@ slot0.round_data = {
 				time = 36,
 				num = 18,
 				score = {
-					2,
 					4,
-					12
+					6,
+					8
 				}
 			},
 			{
 				time = 44,
 				num = 18,
 				score = {
-					2,
 					4,
-					12
+					6,
+					8
 				}
 			},
 			{
 				time = 52,
 				num = 18,
 				score = {
-					2,
 					4,
-					12
+					6,
+					8
 				}
 			},
 			{
 				time = 60,
 				num = 18,
 				score = {
-					2,
 					4,
-					12
+					6,
+					8
 				}
 			},
 			{
 				time = 68,
 				num = 18,
 				score = {
-					2,
-					4,
-					12
+					8,
+					10,
+					0
 				}
 			},
 			{
 				time = 76,
 				num = 18,
 				score = {
-					2,
-					4,
-					12
+					8,
+					10,
+					0
 				}
 			},
 			{
 				time = 84,
 				num = 18,
 				score = {
-					2,
-					4,
-					12
+					12,
+					0,
+					0
 				}
 			}
 		},
@@ -743,11 +726,11 @@ slot0.round_data = {
 			},
 			{
 				time = 48.5,
-				num = 2
+				num = 1
 			},
 			{
 				time = 56.5,
-				num = 2
+				num = 1
 			},
 			{
 				time = 64.5,

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "theme-thehierophantV",
-			say = "在克莱蒙梭对马可波罗发动突袭之前，一支由重樱和自由鸢尾组成的打击舰队原本已经起航。",
+			say = "A mixed fleet consisting of Sakuran and Iris forces just so happened to be nearby when Marco Polo's throne was shot out of the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "也因此，在异变发生后，这支舰队成为了距离异变中心最近的武装力量。",
+			say = "Said fleet was originally sent there to clear the surrounding area of enemies. They began their search for the wreckage once they'd confirmed the Horseman had ceased operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "在原本的作战目标消失后，这支舰队决定转而执行侦察任务，以期尽快摸清现状。",
+			say = "It didn't matter whether Marco Polo had lost her mind or just been manipulated – she had to be rescued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 803010,
-			say = "大家小心，我们快到马可波罗王座坠落的位置了。",
+			say = "I think the throne is somewhere around here! Keep your eyes peeled, everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802030,
-			say = "即便在黑暗之中，我也能感受到那片区域比周围更加漆黑，更加深邃。",
+			say = "(While the whole sky darkened after that explosion, the area ahead feels even darker than its surroundings.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802030,
-			say = "连为数不多的光芒也在其附近尽数消失了。",
+			say = "(It's as though something is blocking the light... Or absorbing it, like a black hole?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "让{namecode:18}来打探照灯试试！",
+			say = "This is a good time to turn on my searchlights!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "接招————",
+			say = "Now it'll be easy to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "探照灯的强光照亮了众人身旁的水面，却穿不透近前方不远处的漆黑。",
+			say = "Shimakaze's searchlights lit up the sea around her – and also revealed a misty hole in space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "……呜啊啊？！把光芒都吸收了？！",
+			say = "Whoa, it's pitch black! Is it... swallowing up the light?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直就像黑洞一样！",
+			say = "That's just like a black hole, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "光芒虽然无法刺破黑暗，但也让众人大致看清了它的轮廓。",
+			say = "Though the light could not pierce the darkness, it allowed everyone to clearly see its outline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802030,
-			say = "一个弧形的半球，突出了水面…。",
+			say = "It's like an egg, jutting out of the water... Does that mean there's more of it underwater?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802030,
-			say = "看来水面之下还隐藏着更多部分，就像一个正在上浮的漆黑球体一样……",
+			say = "I think I remember reading about a sacrament that roughly matched this thing's description.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……天空之中，云形成了某种敌人。",
+			say = "We've already established that the unknown substance is what's creating all the enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大地之上，白色的菌丝形成了某种敌人。",
+			say = "So, it's possible that this other unknown substance produces a different breed of enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,42 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而此刻，在海水之中……漆黑的雾团形成了某种敌人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 302210,
-			say = "{namecode:182}大人，我觉得这些敌人的外形虽然大相径庭，但是其形成原理都是相同的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 302210,
-			side = 2,
-			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "也就是由不同物质构成的“茧”，敌人就是从这些茧里诞生的。",
+			say = "The clouds swallow our aircraft and spit out twisted versions of them, while the cocoons produce enemies reminiscent of mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302210,
-			say = "现在我们是距离这个“茧”最近的舰队，而且里面的东西还没有孵化完全……",
+			say = "The aircraft were liquid, and the mass-produced ships were solid. Therefore, perhaps this hole creates gaseous enemies?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +334,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我认为现在是最佳的进攻时机！",
+			say = "It would explain why your searchlights are ineffective if the gas is really, really, REALLY dense.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_underheaven_6",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 302210,
+			say = "Assuming this thing does spawn more enemies, we should destroy it now before it becomes fully operational.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 302210,
+			side = 2,
+			bgName = "bg_underheaven_6",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What do you think, Shinano? Should we attack?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身也是这么想的。贞德女士，你怎么看？",
+			say = "This one is inclined to do so... Lady Jeanne, what do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "我们的首要任务是侦察情报，不过……现在看上去确实是不可多得的战机。",
+			say = "On the one hand, we should study what we're dealing with. On the other, I agree with Noshiro.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们进行一次试探性进攻？",
+			say = "I think that we should back off and bombard it with our aircraft.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "如果没能取得成果的话就立刻撤退，怎么样？",
+			say = "That way, we can retreat quickly if something happens, and if Marco Polo for some reason is inside it, she'll suffer less damage than from direct cannon fire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就如此办。{namecode:204}，准备轰炸。",
+			say = "So be it... Hakuryuu, prepare your bombers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好嘞，我已经等待多时了——",
+			say = "On it. Been waiting too long as it is to use them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "{namecode:204}舰载机扔出的炸弹成功在“茧”的表面引发了一串爆炸。",
+			say = "Hakuryuu's aircraft dropped their bombs on the foggy cocoon, engulfing it in explosions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "然后，一阵黑色冲击自茧的内部向外扩散而出。",
+			say = "The very next moment, it retaliated with a shockwave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "吞噬了火光，也吞噬了周围来不及撤离的{namecode:182}一行人——",
+			say = "It took everyone. Hakuryuu, Noshiro, Shinano, Jeanne... the black mist engulfed every shipgirl who stood there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,11 +575,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？？？",
+					"Flashback",
 					1
 				},
 				{
-					"？？？·？？？",
+					"Somewhere in the Sardegna Empire...",
 					2
 				}
 			},
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			oldPhoto = true,
 			bgm = "theme-threat-typeV",
-			say = "无比华丽的办公桌前，坐着一个无比消沉的人。",
+			say = "Inside a strikingly decorated office room, Marco Polo sat at her desk with a defeated expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "失败了……",
+			say = "Another failure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了失败了……",
+			say = "And that one, and that, and this one too... They've all failed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我居然，失败了……",
+			say = "How is it possible that I, the one born to spread Sardegna's glory, fail time after time after time again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……这个撒丁帝国是怎么回事啊……",
+			say = "I don't get it... Why won't anyone understand me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一个复兴都能写出来好几个版本，做梦都梦不到一块去……",
+			say = "I want to restore the Empire's glory, I want to spread it all across the world, but nobody empathizes with my cause no matter the approach I take!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,7 +717,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再加上令人绝望的行动力",
+			say = "Not the carefree Veneto sisters, not those who are perfectly happy languishing away in mediocrity...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……呵，无计可施……我实在是无计可施了……",
+			say = "I'm so tired... Is there nothing I can do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "马可波罗干脆不顾形象瘫靠在椅子上，随手捉起一件桌子上的小饰品。",
+			say = "She fell limp onto her desk, and she took hold of an ornament thoughtlessly left lying around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……这个古董十字架，昨天在这张桌子上么？",
+			say = "This cross must be ancient. Has it always been lying on my desk?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "马可波罗出神得凝视着十字架。仿佛此刻，手中的十字架就是整个世界上最值得她关注的东西。",
+			say = "She fixated her gaze on the small cross, as if at this moment, there was no object in all the world more worthy of her attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……？！",
+			say = "...Huh?!",
 			effects = {
 				{
 					active = false,
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "难道说……神、神启发生了……？",
+			say = "Is this... a sign from God?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "神的军队……将塞壬打得溃不成军？",
+			say = "He has the power to destroy the Sirens...",
 			effects = {
 				{
 					active = false,
@@ -908,7 +908,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈……啊哈哈…………啊哈哈哈哈…………",
+			say = "Yes... That's it! The answer's been there all along!",
 			effects = {
 				{
 					active = false,
@@ -933,7 +933,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来……神，竟是塞壬的敌人啊！",
+			say = "The enemy of the Sirens... The one whose power is greater than theirs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈————",
+			say = "Ahahahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1

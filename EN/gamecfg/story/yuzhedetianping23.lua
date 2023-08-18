@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"过去的某日",
+					"Some time in the past...",
 					1
 				},
 				{
-					"铁血境内某处",
+					"Unknown location within Iron Blood",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:440}，回答我。",
+			say = "*sigh*... Would you just answer me, Friedrich?",
 			bgm = "theme-frederick",
 			painting = {
 				alpha = 0.3,
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然局面已经岌岌可危，为何还要推波助澜，让各阵营间纷争不休？",
+			say = "What do you think of the Reenactments under these circumstances?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "倘若不团结起来，我们只有死路一条。",
+			say = "We'll never be able to get rid of the Sirens for good unless we all join forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "这个我当然知道。但，你的想法没有现实基础。",
+			say = "Naturally. But your proposal isn't grounded in reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各个阵营间本就有利益冲突，更有塞壬在挑拨离间。",
+			say = "As long as the Naval HQ has influence, any forceful attempt to unite the factions will end in failure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "就算能够在明面上团结起来，其结局也不会比上一次碧蓝航线好多少。",
+			say = "Even a superficial alliance will come to naught, just like the previous Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "用手攥住一团散沙，不会让沙子变得紧密，只会让它们全部流出手心。",
+			say = "Squeezing sand in your hand will only cause it to slip through your fingers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这才是真正的死路一条。",
+			say = "Until nothing remains.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "好，就算我们不团结各阵营，至少也不能配合塞壬的计划吧。",
+			say = "Hmph. Alright, so we can't get along. But that doesn't mean we can just go along with the Sirens' plans.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "选择顺从塞壬，岂不是更加助长它们的力量，让局势更加不可挽回？",
+			say = "Doesn't that only fuel their power and make the situation worse?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战争是政治的延续。",
+			say = "War is but a continuation of politics with other means.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很少有人能意识到，我们同塞壬之间的战争……亦是如此。",
+			say = "What is true of Reenactments... is also true of our war against the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "时机还未到，马可波罗，稍安勿躁。",
+			say = "It's simply not time yet, Marco Polo. Don't rush things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "我还有事要忙，你也动身前往撒丁帝国，去谱写乐章之中属于你的部分吧。",
+			say = "I'd best be going soon. Return to Sardegna, and play your part of the composition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:440}径直离开了，偌大的大厅中，只留下了马可波罗一个人。",
+			say = "Friedrich left. Only Marco Polo remained in the room.",
 			bgm = "theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "呵……拽什么拽。",
+			say = "You sound so self-important, Friedrich der Große.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "你是计划舰，我马可波罗同样是计划舰！",
+			say = "Is it because you're a blueprint ship? Well, so am I!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用来对付塞壬的至高武力！",
+			say = "Don't we exist to crush Sirens with overwhelming force?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只知道将精力消耗在内耗与琐事上，真不知道谁才是鼠目寸光。",
+			say = "*sigh*... Wasting energy on politics and inter-faction conflicts is so inefficient. Bismarck's confidant, my ass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "塞壬是很强……但是天外有天，难道这世界上就没有比它们更强的力量了么？",
+			say = "But it's true that we're getting nowhere fast right now. There has to be a way to break through this, like a way to easily beat the Sirens...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就不信没人能治得住它们。",
+			say = "I know... I'll just have to find someone stronger than them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "等着吧，总有一天，我会成为那个真正解决问题的人。",
+			say = "Just you watch, Friedrich. Someday, I'm going to clean up this mess myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我会让世界惊叹于我的伟业，为我而欢呼的！",
+			say = "Then, the whole world will know my name and marvel at my greatness!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "BOOOOM!",
 			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "计划舰正在协力发动攻击，其余诸舰也在勉强进行着作战。",
+			say = "Less-affected and recovering shipgirls fired their weapons as much as they could at the Hierophant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "神正在向指挥官的方向移动！",
+			say = "The Hierophant is charging at the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "必须拖延它的速度……才行！",
+			say = "We have to stop her, and fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "然而，攻击依然没有任何效果，“神”的行动没有受到任何阻拦。",
+			say = "Like a deity parting the waters, the Hierophant shrugged aside even the densest barrage of cannon fire, not even slowing down in the slightest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "祂正在接近，然后再次举起了权杖。",
+			say = "I saw her shadow cover my entire being, her wand bearing down on me––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "……不行，来不及了！！",
+			say = "No! We're not going to make it––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "海伦娜，你还在等什么！",
+			say = "Helena, what are you waiting for?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "改变计划，立刻把指挥官救出去！",
+			say = "Change of plans! At least get the Commander out of here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "「▅■三▆▅」",
+			say = "▅■three▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "“神”的权杖射出的光芒在迪贝路的舰载机间跳动，再次形成了一张大网。",
+			say = "As the Hierophant's wand came down, my vision was engulfed by the radiant web of lights coming from the drones surrounding her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "不过——",
+			say = "I could not see. I could not feel. There was only light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgm = "theme-thetowerXVI",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "这一次，迪贝路的舰载机群一同在光束中爆炸了。",
+			say = "A portion of the horde of drones exploded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "而海域中的作战单位身边，都出现了一道耀眼的金色屏障。",
+			say = "When the light cleared, every combatant in the area was wreathed in a barrier of warm blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "（叹息）孟菲斯，你之前不是让所有人相信我会提供支援么。",
+			say = "\"Please fight until the last light has faded.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你自己先放弃了怎么行？",
+			say = "Memphis, you can't give up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "海伦娜——————",
+			say = "Helena, you—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "好啦好啦，没事了。",
+			say = "Calm down already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "等等……这个熟悉的语调，海伦娜，你该不会是——",
+			say = "Helena...? You can't be—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不，我不是。",
+			say = "A case of mistaken identity, I'm sure, Hiryuu of the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "再问我就把你的护盾撤掉。",
+			say = "Any more questions, and I'll disable that barrier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "别、别嘛~好好，你不是，你不是！",
+			say = "No, no! I get it! I won't say anything! I accept that you're not the Helena I'm thinking of!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "很好。",
+			say = "...I'm glad you understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "指挥官，迪贝路的问题已经处理好了。",
+			say = "The Commander has done well to buy me enough time to arrive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "它的本体并不在你附近，也不会再继续提供支援过来了。",
+			say = "The Devil's mainframe is no longer here, so you no longer have to worry about the supporting drones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "海洛芬特为诸位施加的“限制”我也已经找到了解决办法。",
+			say = "This barrier should also help the others recover from the Hierophant's restraints much faster.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "在屏障持续期间，诸位可以自由行动。",
+			say = "As long as the barrier holds, you'll find that her conceptual attacks have little effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "至于持续的时间……嗯，在本次作战期间肯定够用。",
+			say = "...But know that it won't hold forever. You'd be wise to settle the score before it wears off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不过我依然没能解决海洛芬特无法被直接攻击的问题。",
+			say = "Also, be aware that the barrier won't protect you from direct attacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "还请诸位继续牵制其行动，我这边还需要……更多时间。",
+			say = "Commander, please continue to lead this battle. I need more time to corner her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "军团作战本来就不是海洛芬特擅长的领域。",
+			say = "The Hierophant was never made to fight a large number of enemies at once. This is the best chance we've got.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "现在没了迪贝路的支援，又封印了它的最强武器，我们可是想拖延多久就拖延多久~",
+			say = "Without the Devil's support and her strongest weapon neutrallized, the situation is within our grasp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "简直就像打靶训练一样。",
+			say = "We hardly have to aim at her giant rigging, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "虽然这个靶子没什么命中手感……不过我不会客气的。",
+			say = "Though, it remains to be seen how effective our attacks are going to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看来我们的盟友出乎意料的多啊~",
+			say = "Heehee~ I'm sure the Commander will have no problems locating all her weak points~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "舰队的士气正在恢复。",
+			say = "Everyone grasped at the glimmer of hope that had broken through the despair like parched travelers arriving at an oasis. The second wind that swept through the entire fleet was truly heartening to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "然而，隐患并没有消除。",
+			say = "However, hope alone could not resolve the two main problems at hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "关于后续作战的一切判断，都是在其依然是仲裁者·海洛芬特·V的基础上做出的。",
+			say = "First, we haven't found an effective way of damaging the Hierophant so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "而毫无疑问……祂，已经变成了某种别的存在。",
+			say = "Second, and perhaps more importantly, everything rests on the assumption that we are fighting Arbiter: The Hierophant V. The assumption that she had not become something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "直至此刻，依然有一种被祂紧盯着的感觉。",
+			say = "Even now, I could feel her overwhelming gaze upon me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "能够清晰地感受到……一股死死盯来的视线。",
+			say = "It was an eerie, emotionless gaze. Even revolting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			side = 2,
-			say = "「▅■分▆▅」",
+			say = "▅■split▆▅",
 			bgm = "theme-threat-typeV",
 			typewriter = {
 				speed = 0.05,
@@ -853,7 +853,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯……？海洛芬特是不是……",
+			say = "Did the Hierophant just take off her rigging...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "那是加速的动作……！指挥官小心！！",
+			say = "She's accelerating! Commander, watch out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "海洛芬特抛弃了机甲，孤身一人从空中陡然加速。",
+			say = "The Hierophant suddenly accelerated, unburdened by her rigging",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "似乎仅一瞬间，便来到了指挥舰的上方。",
+			say = "At lightning speed, faster than the other shipgirls could react, she arrived above the command ship. Nobody could stop her now—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "除了指挥舰甲板上的{namecode:182}，此刻再无能够阻挡祂的存在——",
+			say = "—save for Shinano, who was on the deck of the same ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,7 +937,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "休想得逞！",
+			say = "This one won't let you...!",
 			soundeffect = "event:/ui/fengling",
 			painting = {
 				alpha = 0.3,
@@ -953,7 +953,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "耳边传来了……风铃的声音？",
+			say = "In the next moment, I heard the sound of windchimes.",
 			action = {
 				{
 					type = "shake",
@@ -974,7 +974,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1042,7 +1042,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身的攻击……命中了？",
+			say = "This one's attack... struck...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "风铃的余音依然回荡在耳边。",
+			say = "The echoes of the windchimes continued to linger in my ears, unlike the ephemeral tones I had heard in my dreams before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一直无法被任何武器命中的海洛芬特，在遭到{namecode:182}的攻击后停了下来。",
+			say = "Whereas nothing had been able to reach the Hierophant before, she was pushed back for the first time by the machine guns from Shinano's aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……既然如此，再接再厉——",
+			say = "In that case... Let us see how you like this...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "「▅■分▆▅」",
+			say = "▅■split▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "分身……？！不好——",
+			say = "The Hierophant split in two...?! No! Commander!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1125,7 +1125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在{namecode:182}惊愕的眼神中，一个新的海洛芬特凭空诞生了。",
+			say = "Her shadow detached from her and formed a second copy that seemed to move with its own consciousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "新生的海洛芬特如同幽灵一般径直穿过墙壁，来到了我的面前。",
+			say = "The newly-born Hierophant slipped through the wall until she came face-to-face with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			nameColor = "#696969",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "「▅■▆▅▆▅」",
+			say = "▅■clone▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,7 +1168,7 @@ return {
 			nameColor = "#696969",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "「■▅▅▆▅■▅▅」",
+			say = "■▅▅▆▅■▅▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,7 +1179,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在一阵失重感中，意识陷入了黑暗。",
+			say = "An immense force violently sweeps my consciousness away, and I feel myself sinking deep into darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

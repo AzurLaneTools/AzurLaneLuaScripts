@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "针对伪神的攻击依然没有效果……所有炮弹在碰到其外装甲的瞬间就消失了，根本伤害不到它。",
+			say = "Dammit! No effect! My shells disintegrate on impact with the armor without even leaving a scratch!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "帝国有些……弹药不足了，需要休息与补给。",
+			say = "I'm... all out of ammo. I demand a resupply... and paid time off...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805020,
-			say = "这些敌人真是……根本没完没了。",
+			say = "The small ones just keep coming, no matter how many we destroy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 805020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "消灭一个之后，在转瞬间又会冒出另一个……究竟是从哪里出来的？",
+			say = "They're like hydras... Cut one down, and two take its place. Is this area linked to the microlayer network or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202080,
-			say = "凭空。",
+			say = "No, we're dealing with something altogether different here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202080,
-			say = "我看到很清楚。不是从水下，也不是从阴影里，就是凭空冒出来的。",
+			say = "It's not like they're popping out of the ocean or from sea fog... They seem to be ripping their way through the fabric of reality itself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302210,
-			say = "凭空……{namecode:182}大人，难道会和我们的结界原理相同么？",
+			say = "Ripping through... the fabric of reality? Lady Shinano, don't you think that sounds a bit similar to how our barrier domains work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "……结界？",
+			say = "Barrier domains?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许如此。",
+			say = "This one had the same hunch...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "一个人从隐蔽的结界中走出，在外界看来确与凭空出现无异。",
+			say = "From an outside perspective, emerging from a Sakuran barrier hidden in the sky is the same as appearing out of thin air...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结界入口的造型只是伪装。",
+			say = "There are many ways to conceal such a barrier, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "眼见之物并非真实，结界之内自有一番洞天……",
+			say = "What we see is neither fact nor fiction, but rather a deception of our senses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用正确的方式瓦解结界，只攻击结界入口……如同攻击镜中花水中月，注定不会有效果。",
+			say = "A barrier is an enchantment that must be dispelled through the proper means. Otherwise, attacking it accomplishes nothing more than trying to scoop the moon out of a pond.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……前方的敌人只是一个逼真的“影子”。",
+			say = "I see... So what you're saying is, we've been shadowboxing this entire time. The enemy we think we are fighting was never there to begin with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "其本体躲在了某个折叠的空间中么……",
+			say = "If that is true, its physical form must be hidden away in some domain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样……倒还有个办法。",
+			say = "I did say before that I had no more cards to play. But, that's not quite accurate–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "之前我在配合马可波罗实验的时候，她曾经用过的某个设备或许能破解现在的局面。",
+			say = "I do have one final move to make – a sacrament from this false God, given to me by Marco Polo. We have no choice but to use it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 905020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等一下哦，指挥官，我需要一些时间来完成准备。",
+			say = "However, it will take some time to prepare. Commander, can I trust you to hold the line in the meantime?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "指挥官，海伦娜那边也需要更多的时间，我们务必要继续拖延下去。",
+			say = "Helena also needs time to complete her analysis. Keep up the pressure, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,14 +394,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "那就如此吧——",
+			say = "\"You don't have to tell me twice.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "全员，继续进攻！",
+					content = "\"Continue the assault!\"",
 					flag = 1
 				}
 			}

@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"皇家所属",
+					"Royal Navy Rally Point Temporary Malta Base",
 					1
 				},
 				{
-					"马耳他·海军要塞",
+					"Before the conceptual anchor operation",
 					2
 				}
 			},
@@ -39,7 +39,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啦—啦♪啦-啦-啦-啦♪啦啦-啦啦-啦啦-啦啦♪",
+			say = "Lalala~♪ La la la laaa~♫",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "啦-啦啦-啦啦—啦-啦啦♪",
+			say = "Whoooa~ It's the Royal Navy Malta base~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "马耳他要塞~我进来了哦————",
+			say = "C'mon, what's the big deal? We don't have a Reenactment hanging over our heads or anything. Not gonna let a girl in just because she's from Iron Blood?",
 			action = {
 				{
 					type = "shake",
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "...*sigh*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？别愣着啊，纳尔逊小姐，欢迎词呢？",
+			say = "Oh, if it isn't Nelson. Aren't you going to welcome me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你…………！",
+			say = "You're something else...",
 			action = {
 				{
 					type = "shake",
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼………………",
+			say = "*sigh*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎——来到——皇家——马耳他——要塞——",
+			say = "Welcome to the Royal Navy's Malta base. Hooray. Happy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "这就对了！",
+			say = "Ahahaha~♪ That's exactly what I wanted to hear!",
 			action = {
 				{
 					type = "shake",
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "还好我聪明，提前把{namecode:401}留在了会场指挥官那边。",
+			say = "Z2 would tell me to restrain myself if she were here, but too bad—she's with the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "现在才能不受人打扰的享受这一刻，啊哈哈哈——",
+			say = "That means I can tease you as much as I want. Heheheh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:427}阁下………………",
+			say = "So this is Prinz Eugen...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499070,
-			say = "你们别这么看看我，我跟这个人不熟的哦……真的不熟哦……",
+			say = "Why are you looking at me? I swear, I've totally never met this woman in my life...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对哦，感谢指挥官！",
+			say = "Don't get carried away, Prinz Eugen. It's thanks to the Commander that we can still fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢指挥官向马耳他派遣而来的诸位援军！",
+			say = "I welcome you not as Iron Blood shipgirls, but as reinforcements the Commander kindly sent.",
 			action = {
 				{
 					type = "shake",
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样感觉舒服多了~",
+			say = "Yeah, that feels better...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "……正如此前光辉女士所说，本次作战期间马耳他要塞将向所有参与作战的阵营敞开大门。",
+			say = "Now, now. Illustrious did invite them to convene here at Malta whenever they liked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "请进吧，各位远道而来的援军。",
+			say = "You're not just reinforcements. You're all innocents caught up in the World Expo catastrophe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "欢迎来到马耳他要塞——",
+			say = "Welcome to our Malta stronghold, Iron Blood!",
 			painting = {
 				alpha = 0.3,
 				time = 1

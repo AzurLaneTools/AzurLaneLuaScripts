@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣赫勒拿岛的港口外，一支庞大的舰队正在此集结。",
+			say = "A massive fleet was gathering in the waters outside of Saint Helena's port.",
 			bgm = "theme-richelieu",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "无数自由鸢尾的旗帜在风中飘荡着。",
+			say = "Before Richelieu's eyes, countless Iris Libre flags fluttered in the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "但不仅如此，有一面许久未用的、代表鸢尾教国的旗帜也在风中一同飘荡着。",
+			say = "But among them was a flag that had not been flown for what felt like an eternity – the Iris Orthodoxy's insignia, representing both Iris Libre and the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "——距离这面旗帜上一次飘荡在风中，已经过去了多长时间呢？",
+			say = "All who saw it couldn't help but wonder – how long has it been? How long have they waited for this moment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留的目光从旗帜移向更为遥远的海面。",
+			say = "Richelieu's eyes turned from the flags raised all around her, towards the sea fog hanging low in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "此时此刻，浓厚的海雾已经凝结起来，隐隐约约地，似乎有一道海雾组成的门扉在海面上逐渐凝结成型。",
+			say = "What had once been a source of mystery and doubt was now a doorway towards her goals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "与明亮又晴好的岛屿近海不同，门的另一侧传来了火焰与硝烟的气息。",
+			say = "But unlike the sunny, placid seas around her that shimmered with the colors of her homeland, what awaited on the other side of the doorway was the scent of gunpowder and burning debris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（可怖，你一直在等待的就是这个时机么……）",
+			say = "(Le Terrible, this is what you were searching for at the Tribunal stronghold...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（没想审判庭居然能利用构建者留下的科技……）",
+			say = "(But why does the Tribunal use Siren technology to this extent?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（克莱蒙梭，现在的事态跟你究竟有多大程度的关联呢……）",
+			say = "(Clemenceau, what role do you play in all of this...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留主教，是时候了。",
+			say = "Cardinal, it's almost time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯。终于……时机已至。",
+			say = "Yes. At long last...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "呼…………",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "演讲台上的黎塞留松开压住话筒按钮的手指，轻轻地呼出一口气来。",
+			say = "Richelieu took a deep breath, stepped forward in front of the podium, and felt the weight of her fingertip pressing down into the tiny button on the microphone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "——鸢尾的同胞们。",
+			say = "My friends of the Iris Orthodoxy, listen well–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "演讲的声音吸引了所有人的目光，战前的喧嚣声逐渐沉静下来。",
+			say = "The entire audience fell silent as everyone's attention shifted to the Cardinal's words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留的目光依次扫过集结在此的每一个人的脸庞，扫过飘扬的鸢尾教国旗帜，然后在会场安静下来后继续说道。",
+			say = "Richelieu looked out across the people gathered there. She saw her friends – those who she had fought alongside before, and those who she would fight alongside in the battle to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "鸢尾教国的同胞们。",
+			say = "My friends, you have seen what lies on the other side of that door–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们都看到那道门之后展现的景象了。",
+			say = "Our blue seas, violated by the enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那不是幻觉，也不是假象，而是正在发生的现实。",
+			say = "Our land, rivers, and skies engulfed in a nightmare from which there is no waking up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "此刻，异状已经覆盖了山川河流，无穷无尽的敌人正从天而降。",
+			say = "As we speak, the anomalies that attacked the World Expo encroach on our world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "战火正在燃烧。",
+			say = "The flames of war threaten to consume us once again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷正陷入苦战。",
+			say = "But do not forget – there are still those who would also give anything to snuff out those flames.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我们的同胞正在苦战。",
+			say = "Yes, our compatriots in the Vichya Dominion are fighting as we speak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留指向海面上的“门”，那道海雾构成的门变得比之前更为清晰。",
+			say = "Richelieu gestured to the doorway in front of them. The scenery on the other side became clearer and more vivid as the sea fog prepared to teleport them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "硝烟之后，依稀能看到纷飞的炮火，巨大的机甲，以及一望无尽的白。",
+			say = "Cannons firing desperately, swarms of bizarre enemies, giant machines raining from the sky, a sea choked with unnatural, grasping clouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "维希教廷也好，自由鸢尾也好，我们本来就是一体的。",
+			say = "Do not forget – both Iris Libre and the Vichya Dominion used to exist as one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,42 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鸢尾教国本来应该是统一的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "是过去发生的种种不幸，才导致了当下如此不讲道理的现实。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "祖国被迫一分为二，同胞被迫刀兵相向。",
+			say = "The Iris Orthodoxy has always been one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +449,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "然后，更多时至今日依旧在隐隐作痛的伤痕诞生了。",
+			say = "However, the misfortunes of the past divided us, misleading us into turning our blades on our own.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_story_sainthelena1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We never asked for those scars that now cover us and our homeland.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_sainthelena1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "None of us chose the unreasonable reality we now face today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留停顿了一下，再次环顾会场。",
+			say = "After a pause, she surveyed her compatriots again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "这一次，她没有看向鸢尾教国的旗帜，而是举起手中自由鸢尾的旗帜。",
+			say = "Then, she reached for a flag standing on the podium—one that she did not normally bear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,9 +522,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "在此集结的人中，有一些是跟随我从皇家三岛开始，一路跨越战火而来的。",
+			say = "Despite that, many of you have followed me across the Royal Islands, through the flames of war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,12 +553,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有一些则是在中途，加入了这场正义的漫漫征途。",
+			say = "Others joined us along the way on this long march toward justice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,9 +574,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "但是，支持我们战斗的信念并不会因为战斗时间的长短而有所差异。",
+			say = "I, Cardinal Richelieu, firmly believe that we are all driven by the same belief, regardless of how long we have been on this journey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,12 +588,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毫无疑问，我们都是为了同一个信念才在今日集结于此的。",
+			say = "There is no doubt in my mind that we are all gathered here for a unified purpose–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,9 +609,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "———一个统一祖国的信念。",
+			say = "To see the Iris Orthodoxy become whole once more!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,9 +627,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "因此，我们不能对于国土之上正在燃烧的战火袖手旁观。",
+			say = "We will not turn a blind eye while our home is ravaged!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,9 +645,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "不能对于正在遭受苦难的同胞袖手旁观。",
+			say = "We will not turn a blind eye to the suffering of our friends!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,9 +663,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "我们曾与塞壬战斗过，曾与赤色中轴战斗过，更是同各种失败主义战斗过！",
+			say = "We proud warriors will not bend. Not to Sirens, not to the Reenactments, and certainly not to the fear and uncertainty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,9 +681,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "而现在，祖国呼唤我们，去同这个正在吞噬我们文明的，如同梦魇般的灾祸战斗！",
+			say = "Even if what lies beyond this door is a calamity that threatens all of civilization, there is but one thing for us to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,9 +699,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "我，鸢尾教国枢机主教黎塞留在此宣誓。",
+			say = "We will defy it, and we will fight in the name of the Iris Orthodoxy to the very end!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,9 +717,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "我将带领诸位响应祖国的呼唤，加入这场与天灾梦魇的战斗。",
+			say = "I, Cardinal Richelieu, do solemnly swear upon this sacred banner...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,47 +731,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我将与诸位一同战斗，直至死亡来临。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "黎塞留",
-			nameColor = "#A9F548FF",
-			say = "或者，直至彻底战胜敌人，让鸢尾教国的旗帜再次飘扬在我们的故土之上的时刻来临！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "黎塞留",
-			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "鸢尾的同胞们……是时候了。",
+			say = "I will fight until I breathe my last.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,9 +752,44 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
-			say = "全体舰队注意，让我们向着祖国的方向，拔锚，起航！",
+			say = "I will fight until the banner of the Iris Orthodoxy flies free over our homeland, when no enemy shall ever threaten us again!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Richelieu",
+			bgName = "bg_qiongding_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Come, my compatriots of the Iris Orthodoxy. The time is upon us.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_qiongding_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Richelieu",
+			nameColor = "#A9F548FF",
+			say = "Weigh anchor! We set sail for our motherland!",
 			effects = {
 				{
 					active = true,
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
-			say = "如雷鸣般的掌声中，这支庞大的舰队次第驶入了摇动的门扉。",
+			say = "Their vessels rumbled like thunderous applause.",
 			effects = {
 				{
 					active = false,
@@ -827,7 +827,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
-			say = "一场自自由鸢尾诞生为止，最为盛大的远征开始了——",
+			say = "Thus, the glorious march of a unified Iris Orthodoxy had begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,11 +839,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"维希教廷所属",
+					"Vichya Dominion Territory",
 					1
 				},
 				{
-					"土伦要塞·周边海域",
+					"Toulon Harbor",
 					2
 				}
 			},
@@ -872,7 +872,7 @@ return {
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "惨烈的战斗已进行了多时。",
+			say = "Fierce fighting had been raging on for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "燃烧的残骸遍布水面。",
+			say = "Burning wreckages now littered the surface of the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "此刻的海面虽然已归于沉寂，但是毫无疑问，这支千疮百孔的舰队已经无力应对敌人下一轮进攻了。",
+			say = "Though the defenders had managed to buy a moment of peace, there was no doubt in their minds that they would not be able to hold off the next onslaught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "领导这支舰队之人如今正手持破碎的旗帜，茫然呆坐在水面上。",
+			say = "After destroying the final enemy in her line of sight, Jean Bart kneeled, exhausted, and looked at her injured allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "不久前的豪情已然不再，留下的只有无尽的不甘与茫然。",
+			say = "What drove them was no longer pride, but an indignation of not wanting it to end like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "何等惨状……",
+			say = "Not again, damn it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我只是在赌气么……",
+			say = "Am I just losing control of my emotions...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我的决定是错的么……",
+			say = "...Or did I make the wrong decision?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我再次带领舰队走向毁灭了么……",
+			say = "Did I lead my friends to destruction again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "让·巴尔大人，又有新的敌人过来了……",
+			say = "Jean Bart, the next wave is coming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这一次，天上和水下都来了些新东西……",
+			say = "It's not just mass-produced ships this time! They have more forces in the skies above and waters below...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "我们该……怎么办？",
+			say = "What should we do...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1054,7 +1054,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "（是啊，我们该怎么办……）",
+			say = "(Good question... I damn sure wish I knew the answer.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "（黎塞留和克莱蒙梭都先后背叛了我们，我们该怎么办……）",
+			say = "(First Richelieu, now Clemenceau. Why must we suffer betrayal after betrayal?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "舰队的领袖没有理会通讯器中传来的呼叫声，只是茫然呆坐在水面上。",
+			say = "Jean Bart numbly pushed away the call from her communicator and sat down in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,12 +1123,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就放弃了么，我的妹妹？",
+			say = "Don't give up just yet, Jean Bart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,12 +1140,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "姐姐……？",
+			say = "Sister...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1157,12 +1157,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵，又是濒死前的幻觉么……",
+			say = "Tch... What, is that just my life flashing before my eyes? Or is it the stupid black sun making me hallucinate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,12 +1174,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这一次，神的天使变换成姐姐的样子来带我走了么……",
+			say = "What a cruel joke. So this is who God sends to take me away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1191,12 +1191,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让·巴尔，你作为教国的骑士，作为舰队的领袖，怎么能如此失态？",
+			say = "Jean Bart, as leaders, there are always those who look towards us for hope.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1208,12 +1208,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果连领袖都放弃了，追随你而战斗的舰队将会如何？",
+			say = "If even we give up, we shut the door on those who deserve a brighter tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1225,12 +1225,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果追随你而战斗的舰队覆灭了，你们应该保护的人民又将如何？",
+			say = "Please fight until the last light has faded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,12 +1242,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果这是神派来的天使，那这个天使未免也有些太严厉，太像姐姐了……",
+			say = "Quoting the Commander, huh? God sure has a funny sense of humor, using my sister's face to say those words...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1262,7 +1262,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1313,7 +1313,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "火炮声击碎了海域短暂的宁静。",
+			say = "The booming of artillery heralded the return of war to the quiet sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,7 +1324,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "敌人再次逼近了。",
+			say = "The anomalous enemies born from Divine Vestige appeared on the horizon once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1335,7 +1335,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "不过，预想中的毁灭却没有到来。",
+			say = "However, their attacks were not directed toward Jean Bart's fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,26 +1348,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "让·巴尔大人！援、援军来了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "自由鸢尾和审判庭的联合舰队直接伴随着一阵闪光出现在战场中间！",
+			actorName = "Vauquelin",
+			say = "Jean Bart, reinforcements! Reinforcements have finally come!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1384,8 +1366,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "敌人正在被击垮，我们安全了！",
+			actorName = "Vauquelin",
+			say = "Look over there! It's the Iris Libre fleet, along with the Tribunal's fighting angel!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1402,8 +1384,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
-			say = "刚才我还以为咱们所有人都要沉在这里了呢，没想到你早就叫好了援军。",
+			actorName = "Vauquelin",
+			say = "The enemy is being routed! We're saved, Jean Bart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1420,8 +1402,26 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
-			say = "这么说……之前你和克莱蒙梭大人的冲突，是在演戏？",
+			actorName = "Dunkerque",
+			say = "Phew... I'd just made peace with the fact that I was about to get sunk. Talk about good timing...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actorName = "Dunkerque",
+			say = "But, if both the Tribunal and Iris Libre are here, does that mean... that the conflict with Clemenceau was just an elaborate ruse?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1436,7 +1436,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "不明白，完全想不明白。",
+			say = "Jean Bart could not make sense of the words she was hearing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1447,7 +1447,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "通讯中传来的消息令让·巴尔十分费解。",
+			say = "Her emotions had been roiling for so long. What did it all mean? Could she afford to have hope again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1455,80 +1455,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "自由鸢尾和……审判庭的援军？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "让·巴尔",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			say = "到底是怎么回事……难道，你……真的是姐姐？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "黎塞留",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "你终于发现了？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "黎塞留",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "任何时候都不能放弃相信希望。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "黎塞留",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这样当希望降临之时，你才能紧紧抓住那缕光哦。",
+			say = "Iris Libre... and the Tribunal, together...? What's going on...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1540,12 +1472,63 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……你现在来做什么，黎塞留主教？",
+			say = "And when I heard Richelieu's voice before... Was that...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "Richelieu",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Sorry I'm late, Jean Bart.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "Richelieu",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "No matter how desperate the situation is, we must not give up on hope.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "Richelieu",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Otherwise, we will not be able to seize that brief glimmer of light when it finally arrives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1557,46 +1540,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……是来嘲笑我的惨状的么。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "黎塞留",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "为什么不能老老实实叫姐姐呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "黎塞留",
-			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "刚刚叫的不是挺顺口么？",
+			say = "Cardinal Richelieu... Why are you here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1608,12 +1557,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……？",
+			say = "You didn't come just to laugh at me, did you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1625,12 +1574,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我很喜欢，多叫两句。",
+			say = "No, I'm here to save someone dear to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1642,12 +1591,29 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来，跟我念。黎·塞·留·姐·姐。",
+			say = "A certain shipgirl who calls me her sister, in fact.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			actorName = "Jean Bart",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1659,12 +1625,46 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样我就原谅你的冒犯。",
+			say = "Though, it wouldn't hurt to call me that more often.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "Richelieu",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "For example... During a touching reunion? Such as this one?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "Richelieu",
+			bgName = "bg_underheaven_cg7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Repeat after me, now. \"Sister.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1680,8 +1680,8 @@ return {
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "让·巴尔",
-			say = "……你！",
+			actorName = "Jean Bart",
+			say = "Why, you...!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -1698,12 +1698,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了——",
+			say = "Sorry, I got a bit carried away there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1715,12 +1715,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你期待的斗嘴环节，到这里应该就差不多了？",
+			say = "I'm sure there's a lot you'd like to get off your chest right now, but the enemy is still out there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1732,12 +1732,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们快进下一项日程，战争还没有结束呢，振作起来，我的妹妹。",
+			say = "I'd love to catch up with you later, but let's get right to business first–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1749,12 +1749,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我前来的原因显而易见。",
+			say = "Le Terrible told me about the situation at the World Expo venue. We're going to support the Commander next.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1766,12 +1766,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你正深陷危机之中，我们的祖国也正深陷危机之中。",
+			say = "But, I can only speak for Iris Libre. The Vichya Dominion will need to make its own choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1783,12 +1783,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我做出了我的选择，你呢？",
+			say = "Jean Bart, will you join me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1800,12 +1800,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……反正之前克莱蒙梭已经把我们逐出教廷了。",
+			say = "...I don't speak for the Vichya Dominion anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1817,12 +1817,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们现在无处可去，如果你愿意接纳我们的话……",
+			say = "We've been excommunicated by Clemenceau. We're just exiles now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1834,12 +1834,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，我的妹妹。",
+			say = "That doesn't change my offer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1854,7 +1854,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "让·巴尔深吸了一口气，将通讯器的话筒放到嘴边。",
+			say = "Jean Bart stood up, took a deep breath, and flipped the switch on her communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1884,7 +1884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原维希教廷所属，现在已然自由的鸢尾骑士们，我是让·巴尔。",
+			say = "To all those shipgirls who no longer have a place to call home – I am battleship Jean Bart, formerly of the Vichya Dominion, speaking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1901,7 +1901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，我将会加入黎塞留主教，与她和她的舰队一同为了祖国而战。",
+			say = "I will now join Cardinal Richelieu's fleet, and aid her in fighting for a unified Iris Orthodoxy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1918,7 +1918,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经没有立场再命令诸位做什么事。",
+			say = "I'm no longer in any position to order any of you around, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1935,7 +1935,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，我希望诸位能够加入我们，在此时此刻团结一致，共同消灭这些可憎的敌人……",
+			say = "I hope you'll decide to join us in driving those bastards out of our homeland!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1953,7 +1953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "如您所愿，让·巴尔大人！",
+			say = "Jean Bart...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1972,7 +1972,7 @@ return {
 			actor = 901030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶~太好了！",
+			say = "I'd be glad to!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1990,7 +1990,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "当然没有问题。还有，你现在依然是我们的舰队领袖哦，让·巴尔大人。",
+			say = "Of course. Banished or not, we'll follow you to the ends of the earth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2007,7 +2007,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉，你可比阿尔及利亚还固执，总算等你想开了！",
+			say = "Haha, you stubborn old grouch! I'm just glad you and Algérie finally decided to open up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2024,7 +2024,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是啊，花了好久，好久。",
+			say = "...Yeah, it's been too damn long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2041,7 +2041,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总算……",
+			say = "It's time... to put the past behind us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2083,7 +2083,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "让·巴尔丢弃了手中残破的维希教廷旗帜，向着黎塞留单膝跪下。",
+			say = "Jean Bart discarded the shattered banner of the Vichya Dominion, and got down on one knee in front of Richelieu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2094,7 +2094,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "黎塞留将旗帜搭在让·巴尔的肩上，庄重的宣告着。",
+			say = "Richelieu then lay her own Iris flag atop Jean Bart's shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2102,12 +2102,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我作为鸢尾教国枢机主教，在此宣布。",
+			say = "As Cardinal of the Iris Orthodoxy, I solemnly declare...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2119,12 +2119,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恢复让·巴尔身为鸢尾教国护教骑士团团长、鸢尾教国舰队司令及其被不公正剥夺的一切身份与头衔。",
+			say = "Jean Bart, your unjustly-deprived status as a Templar Knight and your position within the Iris Orthodoxy's fleet are hereby restored to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2136,12 +2136,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其麾下所属的原维希教廷舰队成员亦然。",
+			say = "The same goes for all the other shipgirls here formerly under the command of the Vichya Dominion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2153,12 +2153,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与我们并肩作战吧，让·巴尔。",
+			say = "Please fight alongside us, Jean Bart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2170,12 +2170,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2187,12 +2187,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "亦如往日，向您交付我的忠诚。",
+			say = "By the will of the Holy Iris...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2204,12 +2204,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "Jean Bart",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，教国的枢机主教，我的姐姐。",
+			say = "I swear my allegiance to you, Cardinal Richelieu. Sister.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2221,12 +2221,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好久不见，我的妹妹。",
+			say = "...I've finally come back to you, my sister.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2238,12 +2238,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我回来了。",
+			say = "Sorry it took me so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2258,7 +2258,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "巨大的欢呼声在洋面上爆发出来。",
+			say = "Cheers erupted over the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2269,7 +2269,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "而在所有人都没有注意到的角落，加斯科涅静静向远方驶去，消失在了所有人的视线中。",
+			say = "And, without anyone's notice, Gascogne silently slipped away after bearing witness to it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

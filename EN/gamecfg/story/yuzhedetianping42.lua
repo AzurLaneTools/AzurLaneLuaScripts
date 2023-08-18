@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"作战结束后翌日",
+					"After the mission's conclusion",
 					1
 				},
 				{
-					"鸢尾教国·兰斯大教堂",
+					"Iris Orthodoxy - Reims Cathedral",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			bgm = "theme-clemenceau",
-			say = "晴朗的阳光从教堂的窗户中飘入，洒落在有着几个世纪历史的装潢上。",
+			say = "Through the cathedral's stained glass windows, brilliant sunshine shone down upon religious artifacts and a floor made hundreds of years ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "经年累月所堆积的灰尘在久违的清扫工作中被一扫而空，古老的教堂再一次焕发新生。",
+			say = "The interior had been thoroughly cleaned to prepare for a ceremony. All the old sculptures and cobblestones looked as if they were brand new.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "如同这片土地一般——",
+			say = "New life had been breathed into the cathedral – and the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "真没想到，我能够作为白鹰代表被邀请来见证如此重大的时刻……",
+			say = "I still can't believe they chose ME as the Eagle Union's representative... Gosh, I'm so nervous...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鉴于你在此前战斗中的表现，埃塞克斯小姐，我认为这份殊荣你当之无愧。",
+			say = "You were the obvious choice. You proved it with your actions during the mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官同志，镇海女士，没想到我们不但一同解决了陆间海的危机，还能一同在此见证此刻。",
+			say = "It's an honor not just to have been part of the crisis response team, but also to be here witnessing this historic moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而这一切，仅仅相隔一日而已。真是世间万物福祸相依，变化无常。",
+			say = "So much has happened so quickly. From sealing off the microlayer network, to wrapping up the Expo's closing ceremony, to concealing the true nature of the superimposed worlds...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……仅仅相隔一日就举行如此重大的典礼，是否有些过于仓促了？",
+			say = "Absurdly quickly, even. Everyone's had to work insanely fast to achieve all that in just a few days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然急迫的心情我也不是不能理解啦……",
+			say = "That's the efficiency of a unified Orthodoxy for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你觉得呢，光辉女士？",
+			say = "I suppose I'd be zealous too if I were in their position.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像鸢尾加冕仪式这样规格的典礼，本来应该是由陛下亲自来前来出席的。",
+			say = "It's unfortunate that Her Majesty could not attend an event as momentous as the reborn Iris Orthodoxy's coronation ceremony...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "只是时间实在紧迫……",
+			say = "But as you said, it's been a hectic last few days for all of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然鸢尾决定如此安排……就只好由我代为转达陛下对于黎塞留主教和鸢尾的祝福了。",
+			say = "Which is why I'm here in her stead. It's only appropriate that I pass on Her Majesty's blessings for Lady Richelieu and the rest of the Iris Orthodoxy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，在这个值得纪念的日子里，让我们都对鸢尾给予最诚挚的祝福吧~",
+			say = "Indeed. After all they've been through, offering them our blessings is the least we can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "漫长的等待后，教堂的门扉终于洞开。",
+			say = "After a long waiting period – as is typical for such a solemn ceremony – the coronation finally began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "身披长袍的黎塞留缓缓走来，直至在圣座冠冕下单膝跪下。",
+			say = "Richelieu and her compatriots appeared before the podium, donning dignified robes that conveyed the power vested within them by the Holy Iris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,12 +318,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昔日，枢机主教黎塞留临危受命，在祖国陷入危难时外出寻求盟友的帮助。",
+			say = "In response to the danger posed by Reenactments, Cardinal Richelieu left the Iris Orthodoxy's soil to ask allies for help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,12 +335,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只因时局纷乱，这份密令终究没能为世人所知，亦未被此后的非法教廷承认。",
+			say = "Her achievements went largely unnoticed due to the Holy See's efforts to hide them. Despite that, she pushed on, fighting for our country.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,12 +352,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然而，纵使遭受无数误解与非议，纵使在海外飘无定所。",
+			say = "She saved our compatriots at Toulon, worked tirelessly to smooth the relationship between factions, secured and sealed off sacraments, and changed enough minds to make the reunification of the Iris Orthodoxy possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,12 +369,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留主教依然没有放弃。",
+			say = "She has been misunderstood, criticized, and put in positions of danger and adversity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,12 +386,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是她持续多年，持之以恒的正确行动。",
+			say = "Despite all of that, Richelieu never once gave up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,12 +403,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才能在最为关键的时刻，成功将分裂的教国重新汇聚在同一面旗帜下。",
+			say = "It was thanks to her efforts that, when a crisis threatened our nation, we were able to rally under one banner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,12 +420,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才能带领我们取得这样一场来之不易又意义非凡的胜利。",
+			say = "It was thanks to her efforts that, when a calamity gripped the world, we were able to seize glorious victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,12 +437,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此，我代表教廷认可黎塞留主教为鸢尾教国所做出的累累功绩。",
+			say = "As representative of the unified Iris Orthodoxy's Holy See, I hereby honor Richelieu's many contributions and sacrifices to our country.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,12 +454,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在此撤销此前非法教廷对于黎塞留主教的一切指责与处罚。",
+			say = "Furthermore, I hereby revoke all unjust accusations and punishments she has endured in the past.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,12 +471,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此刻，圣座冠冕——教国最为神圣的圣物，就在我的手中。",
+			say = "In my hands, I have the Crown of the Holy See, the shining symbol of the Iris Orthodoxy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,12 +488,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留主教。",
+			say = "Cardinal Richelieu...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,12 +505,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是否愿意承众望之所望，带领我们饱经战火的祖国继续前行？",
+			say = "Will you be the Holy Iris's emissary and lead our war-torn country forward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,12 +522,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是否愿意在此接受教国神圣的冠冕？",
+			say = "Will you become an emissary of the highest order and accept the position of Pontiff of our holy kingdom?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,12 +539,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在此就任鸢尾教国的下一任圣座？",
+			say = "Will you wear the honor of the Iris Orthodoxy upon your head?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
-			say = "克莱蒙梭站在台阶上，将圣座冠冕高举，俯视着黎塞留，等待着她的回答。",
+			say = "Crown held in hand, Clemenceau awaited the kneeling Richelieu's answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,12 +567,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,12 +584,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冠冕。冠冕啊……",
+			say = "This Crown, this tangible sacrament...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,12 +601,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我一直在想，圣座冠冕，对于我们，对于鸢尾来说究竟是什么。",
+			say = "I've been pondering what it signifies ever since I had to flee our country.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,12 +618,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是珍贵的圣物？",
+			say = "A sacred artifact to be kept safe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,12 +635,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是历史的记忆？",
+			say = "An ancient memory to be passed down?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,12 +652,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是正统的象征？",
+			say = "A symbol of our Orthodoxy to be revered?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,12 +669,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "的确，圣座冠冕之上承载了许多含义，每一项都对我们意义非凡。",
+			say = "It represents many, many concepts, and it is something we hold dear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,12 +688,12 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_underheaven_cg12",
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			dir = 1,
 			bgm = "theme-richelieu",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但同时，我还看到了另一个圣座冠冕。",
+			say = "During that battle, however, I saw another crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,12 +722,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一个野心家的目标。",
+			say = "A megalomaniac's ambition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,12 +739,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一个被利用的工具。",
+			say = "A tool exploited to selfish ends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,12 +756,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一个塞壬科技产物。",
+			say = "A product of Siren technology made to make fools of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,12 +773,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，早在过去的某一刻，我们神圣的圣座冠冕就被塞壬掉包了。",
+			say = "At some point in history, the Sirens replaced the original crown with this one here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,12 +790,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直以来，我们都把一件危险的塞壬造物当成圣物而膜拜。",
+			say = "In truth, we have been worshipping a false god for a very long time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,12 +807,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直至它令我们陷入危局，险些毁灭掉我们所珍视的一切。",
+			say = "Of course, there is no doubt in my mind the faith and feelings in people's hearts were genuine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,12 +824,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此我不禁想，我们真的需要它么？",
+			say = "However, we should not be reliant on a flawed belief that can be easily bent and distorted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,12 +841,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我将成为圣座。",
+			say = "...I, Richelieu, humbly accept my new place as pontiff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,12 +858,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为我已发誓要让教国重现辉煌。",
+			say = "I swear that I shall restore the Holy Iris and our country to their former glory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,12 +875,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而将我推上圣座之位的，不是冠冕，而是人民。",
+			say = "However, it is not to the Crown that I make this vow, but to my motherland and to her to people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,12 +892,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "王者应该选择冠冕，而不是反为其所制。",
+			say = "A true ruler chooses her own crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,12 +909,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此——",
+			say = "And I choose––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,12 +926,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我选择「人民」作为我的冠冕！",
+			say = "The people – my people – who cherish liberty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,12 +943,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_underheaven_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我选择「无冕」作为我的冠冕！",
+			say = "I choose to bear no crown upon my head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1000,7 +1000,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
-			say = "在几乎所有人惊愕的目光中，黎塞留轻轻抛起冠冕，挥剑劈向它。",
+			say = "Before everyone's eyes, Richelieu drew a sword and swung at the Crown of the Holy See.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
-			say = "伴随着一缕红黑色烟雾，冠冕随风化为了粉末。",
+			say = "The strike neither split nor shattered the Crown. Instead, it spewed out a dark red smoke before finally crumbling to pieces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,7 +1022,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
-			say = "惊呼声一时间要冲破教堂的石壁，最终又还是平息了下来。",
+			say = "First, there was shock. Then, jubilation. Ages seemed to pass before silence finally returned to the cathedral.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,12 +1030,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……黎塞留，我的姐姐。",
+			say = "...Well done, Richelieu. Well done, my sister.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1050,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
-			say = "似乎在一瞬间，克莱蒙梭的嘴角出现了一个微不可查的弧度。",
+			say = "A proud smile briefly flashed on Clemenceau's lips, without anyone noticing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "鸢尾的同胞们。",
+			say = "Now, listen, my sisters in faith.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在经历了诸多苦难后，自由与统一终于回到了我们的祖国。",
+			say = "After many trials and hardships, liberty and unity have finally returned to our great nation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1116,7 +1116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我们流了很多泪，也流了很多血。",
+			say = "We have shed many tears and much blood to get here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,7 +1133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但时至今日，我们可以肯定地说，没有一滴泪，没有一滴血是白流的。",
+			say = "But, I can confidently say that not one drop of blood, not a single tear, will have been in vain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "从现在起，鸢尾教国不再有裂痕横亘其中。",
+			say = "There is no longer anything that stands in the way of a united Orthodoxy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1169,7 +1169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "自由鸢尾与维希教廷再次归于同一面旗帜下。",
+			say = "Iris Libre and the Vichya Dominion will henceforth gather beneath the same banner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1187,7 +1187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "荣耀归于鸢尾教国。",
+			say = "Glory to the united Orthodoxy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1205,7 +1205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "祖国万岁！",
+			say = "And glory to our motherland!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1220,7 +1220,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "掌声中，加冕仪式结束了。",
+			say = "Within a sea of applause, the ceremony came to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,7 +1248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "鸢尾教国的新一天——开始了。",
+			say = "And thus, the Iris Orthodoxy set off on a new journey towards a brighter tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

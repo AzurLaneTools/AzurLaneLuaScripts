@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "story-finalbattle-unity",
-			say = "联合舰队在离开会场后，分成了数个打击群从不同方向向着目标合围。",
+			say = "The massive fleet, comprised of shipgirls from all factions, set out. They closed in on the false God from several different directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "指挥官。前锋舰队目前已经成功击退了敌人的阻拦舰队，即将于“神”的本体交战。",
+			say = "Our vanguard has scattered the enemy in our way. We'll be in position to directly attack God soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "久违的战斗让我也燃起来了~第一轮就让我来帮你试试水吧！",
+			say = "It's been so long since I fought like this! I'll launch the first attack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "空中的战斗还有些焦灼。",
+			say = "They're giving us some trouble up in the sky...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "不过我们的力量空前强大，除了各类舰载机之外，还有……那些，飞空艇。",
+			say = "But we're no slouches either. In addition to airplanes, we also have – err – airships on our side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "相信很快就能将制空权控制下来。",
+			say = "It won't be long before we've secured aerial superiority!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "说到那些飞空艇的时候，埃塞克斯停顿了一下。",
+			say = "Essex fumbled her sentence because of the word \"airships.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "倒也难怪，在罗马带着撒丁首都驻防舰队与漫天飞空艇一同来到会场后，引起了一片哗然。",
+			say = "No wonder, because when Roma's team came flying over with a whole armada of them, it caused quite a stir among the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "似乎就和从茧囊中诞生的敌人一样，罗马和达芬奇的飞空艇舰队也是仅能够在此处存在的特殊军队。",
+			say = "They came from under the Colosseum, where the Sirens had left a production facility, which our local genius da Vinci took control of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "也因此，作为战列舰的罗马，此时却被编入了航空舰队。",
+			say = "Apparently, they only worked in this anomalous space and would disintegrate if taken outside it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 605030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要退缩，也不要畏惧伤亡。",
+			say = "Do not flinch! Do not fear injury!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 605030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "帝国的飞空艇，粉碎敌人！",
+			say = "Come, my steel eagles, and destroy our enemies!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "啊，罗马小姐，你发错频道了！",
+			say = "Roma! You're on the Commander's channel!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就这样指挥官，有新情况我们再联系。",
+			say = "...She can't hear me, can she? Ugh... Excuse me, Commander, I'll call you back later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，战局看上去非常顺利！",
+			say = "The mission is going well on all fronts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由“神”紧急在身边生产出的敌人已经被前锋舰队尽数消灭了。",
+			say = "Our vanguard has already eliminated the God's small fry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "从四处增援而来的敌人也如同添油战术，一波接着一波，连突破我们的阻击舰队都做不到。",
+			say = "The Gazers coming in from the surrounding waters are getting knocked down one after the next. They can't break through our defenses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "目前唯一的变量就是伪神的本身。",
+			say = "The only real problem is the false God itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "从开战至今它都没有出手过，不知道是否是因为在圣枪的打击下出现了损伤……",
+			say = "It's just been sitting there for a while now. It's possible the Spear of Destiny did actual damage to it, and not just the cocoon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前还在进一步调查中。",
+			say = "As per orders, we'll now enter the next phase.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身，此刻正处于绝佳状态。",
+			say = "Then this one shall attack as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如果要与神正面交火，自应去一线才是，为何让妾身在此？",
+			say = "Whether it's the Commander's presence or this domain affecting me, I feel ready to take on anything...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "别急嘛，{namecode:182}小姐。",
+			say = "No. You mustn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果说我们的胜利条件是消灭伪神，那我们的失败条件无疑就是指挥官阵亡了。",
+			say = "If eliminating that God is our victory condition, losing the Commander is our defeat condition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "所以指挥官身边的护卫可不能有丝毫大意的。",
+			say = "Without the Commander, our coordination will break down, and our morale will plummet – yours included. Ensuring the Commander's safety is number one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "况且您留在这里，也能协助指挥官协调赤色中轴的舰队作战不是嘛？",
+			say = "Furthermore, doesn't the Sakuran fleet need you and your abilities to command it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "有理，那便如此吧。",
+			say = "A good point. This one shall remain here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，前锋舰队已经对伪神本体发动了一轮打击。",
+			say = "As instructed, the vanguard will now launch an attack on God.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "打击没有产生任何效果，不过其……也依然没有任何行动。",
+			say = "...That had no effect. On the bright side, it didn't retaliate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "合围舰队已经到位，是否展开进一步打击？",
+			say = "The rest of the forces have reached attacking positions. Your orders, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "嗯，集中火力进行打击。",
+			say = "\"Focus your fire on that false God.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "我们继续也向前推进吧——",
+			say = "\"It's time to make our next move.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

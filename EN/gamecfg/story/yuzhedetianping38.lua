@@ -12,7 +12,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "？？？·？？？",
+			say = "???",
 			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "睁开双眼后，面前是一个昏暗的大厅。",
+			say = "I open my eyes and look around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "大厅的布局有些……似曾相识。",
+			say = "I see a dimly-lit basement, filled with equipment and furniture that seem oddly familiar to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "海洛芬特站在一旁，轻轻举起权杖。",
+			say = "The Hierophant is right next to me, her wand raised above me – though in a completely unmenacing way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "不过在祂决定发动攻击前，从远方的昏暗中，由远及近传来了两个声音。",
+			say = "But, when we hear two sets of footsteps coming down the corridor, she freezes in place, as if having turned into a statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "大厅之中似乎……还有其他人？",
+			say = "I see. The doctors must be here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "海洛芬特放下了权杖，转头看向远方。",
+			say = "As if reading my mind, the Hierophant cocks her head dubiously and lowers her wand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……鉴于战局日渐僵持的现状，我已经得到了加速研发的命令。",
+			say = "...Due to the stalemate, I've been ordered to further accelerate my research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "目前，新一代安蒂克丝的生产已经进入了实质性流程。",
+			say = "Not sure what they want, given that the production of the next-generation Antiochus model has been well underway...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "我将其命名为仲裁机关系统，以期她们能够在未来成为一支能终结这场战争的力量。",
+			say = "Yes... I'm sure that the Arbiters will give us the power we need to put an end to this futile war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "不过现在嘛……距离最终目标还差得远呢。",
+			say = "But right now, we're still a long ways away from our ultimate goal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "请允许我在此向你隆重介绍，仲裁机关系统的第一个成员——冠以「教皇」之名的海洛芬特。",
+			say = "Now allow me to introduce you to the first daughter of the Arbiter Program – Hierophant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "……第一个？",
+			say = "The... first?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "那是当然，你不会把玲也算进来了吧？",
+			say = "That's right. Zero doesn't count.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "她的话，目前是独立编制，没有被算在任何系统里。",
+			say = "She's one-of-a-kind, not a member of any series.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "说回海洛芬特。作为仲裁机关系统的第一位成员，她同时还承担着作为计划对外名片的责任。",
+			say = "In any case, the Hierophant will be the covergirl of the Arbiter series.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "所以在设计的时候，我格外强化了她的交流与亲和力。",
+			say = "As such, I've strengthened her recognition of language and concepts, and installed modules to heighten her empathy and friendliness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "其搭载的升级版智能分析系统能够让她更好地理解交流对象，并且像个真正的人类一样进行对话。",
+			say = "Her updated quantum intelligence analysis system allows her to understand others on a deeper level and express emotions like any human being.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "在历次测试中，没有任何一个人成功察觉出自己其实是在跟AI交流，堪称目前最成功的作品。",
+			say = "During the testing process, not a single person noticed they were speaking with a machine. She passes the Turing test with flying colors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "当然，经过强化的交流能力远不仅如此。",
+			say = "Of course, it doesn't stop there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "除了与人类交流之外，这套装置还能够理解和模拟非人类语言。",
+			say = "As someone who can understand and control concepts, she understands non-human intelligence and can simulate how they would speak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "目前已经在猫、狗、海豚上都取得了成功。",
+			say = "We still need more testing, but she can already communicate with cats, dogs, and dolphins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "我相信随着后续升级迭代，海洛芬特在“交流”上表现会更加出色的。",
+			say = "With more updates, the only limit is... Why, she could surpass the heights of the Tower of Babel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "变为更为出色的白毛美少女……？",
+			say = "In other words, you want to make more cute white-haired girls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "咳……正如我此前多次强调过的——",
+			say = "Ahem! Anzeel, how many times do I have to tell you–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "“针对成熟稳定的模板进行的改进——”对吧……？",
+			say = "Yeah, yeah. You're just iterating on a tried-and-true design, or whatever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "正是如此！",
+			say = "Exactly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "好……那第二个问题，为什么是从第五号的教皇开始的？",
+			say = "By the way, why'd you decide to start with the fifth Major Arcana?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "你不打算按照顺序进行么？",
+			say = "Don't people usually go in order from the first one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "有考虑过。不过现在还只是计划初期，老实说我也不确定能否最终将所有编号全部做出来。",
+			say = "I'm only in the first stages of planning. Frankly, I'm not even certain if I can make enough to fill a deck of tarot cards.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "而且这种事是很需要灵感的，所以综合考虑之下，决定先从教皇开始了。",
+			say = "What matters more is inspiration, which is exactly why I started with the Hierophant – it inspired me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "教皇之卡，有着财富、交流与引导的含义……",
+			say = "It symbolizes guidance, compassion, interconnectedness, and conformity...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "难得见你会这么充满热情的研发非作战用的设备啊。",
+			say = "Oh, wow. Rare to see you so passionate about anything that isn't a weapon of war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "这次你叫我来之前，我还以为又要看什么新型杀伤性武器呢。",
+			say = "When you called me over, I was ready for you to show me your latest weapon of mass destruction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "连你都这样……那就更说明海洛芬特存在的必要性了。",
+			say = "The fact that you'd think so is in itself proof of the need for Arbiters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "现在的局势你也清楚，资源是极其宝贵的。",
+			say = "As you know, our resources become more precious and scarce by the day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "海洛芬特的存在有助消除民众对于安蒂克丝系统的刻板印象。",
+			say = "The Hierophant will dispel every misgiving the people have towards the Antiochus.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "不论是参与政治斡旋，还是对于资源争取都是极其有利的。",
+			say = "Whether you're using her as a mediator or as a means of competing for resources and funds, she'll be a major boon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "原来你想的是这些方面。",
+			say = "Ah, yes. Of course you'd go down that route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "那你有想过一个可能性么？",
+			say = "Then, have you considered this possibility?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "如果这种交流能力能够继续发展……也许有一天，她能帮助我们搭建与X交流的渠道。",
+			say = "Keep raising her specs, and maybe, just maybe... she'll be able to communicate with Deus X someday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "只要能够交流，我们就拥有了除了战斗之外的第二选择，不是么？",
+			say = "Being able to communicate gives us options other than fighting, yeah?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "尤其是……在当前的战况下。",
+			say = "Especially... under these circumstances.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "唉……（苦笑）。",
+			say = "...Hah.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "你这什么表情啊……",
+			say = "Whoa, nasty look. What's that supposed to mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "助手，你怎么看？",
+			say = "C'mon, Commander. What do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "（…………我怎么看？！）",
+			say = "(Why is she asking me?!)",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -789,7 +789,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "（这里难道不是单纯的……播放记录么？）",
+			say = "(What am I seeing? Is this an illusion, or is it a memory played by that Recorder AI?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "一旁的海洛芬特也看了过来，似乎在等待着答案。",
+			say = "The Hierophant also looks to me curiously, as if waiting for my answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,18 +823,18 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			say = "……………………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "支持安洁",
+					content = "(Agree with Anzeel.)",
 					flag = 1
 				},
 				{
-					content = "支持奥斯塔",
+					content = "(Side with Aoste.)",
 					flag = 2
 				}
 			}
@@ -845,7 +845,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "如果能够与敌人交流的话，或许真的能找到战斗之外的方法。",
+			say = "\"The concept of 'the enemy' isn't necessarily set in stone. If two parties can communicate, then peace must be an option.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "哼哼~我就知道助手和我想的一样。",
+			say = "Exactly! You're not just the Commander because of your aptitude and abilities. Those girls only see you as their Commander because you've earned their trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "安洁从黑暗中走出，她的身影逐渐模糊，但声音依然清澈。",
+			say = "Anzeel approached from the darkness. Her figure was indistinct, but her voice was clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "海洛芬特，你辛苦啦，和助手相处的还愉快么？",
+			say = "Thanks for your help, Hierophant. Are you getting along with my assistant here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#696969",
 			optionFlag = 1,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "海洛芬特没有说话，不过似乎有一道光芒从她的眼中闪过。",
+			say = "There is a flash of light inside the girl's eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,7 +937,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "如果能够与敌人交流的话，就能更好的知晓其弱点，也就能更好的消灭敌人了。",
+			say = "\"If you can communicate with the enemy, you'll better know their weaknesses. All the better to defeat them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "不错，真是理性的看法。",
+			say = "A very rational perspective. Clearly defining the concept of \"the enemy\" will bring the right path into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "如果在未来真的得到了与X交流的方法，也要将这项技术投入战争之中。",
+			say = "Even if we can eventually converse with Deus X, the Hierophant's power must be used to fight it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "血债血偿……必须要让它们付出代价才行。",
+			say = "The blood shed by humanity must be repaid through their complete eradication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "奥斯塔从黑暗中走出，他的身影逐渐模糊，但声音依然洪亮。",
+			say = "Aoste approached from the darkness. His figure was indistinct, but his voice was clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "海洛芬特，你的使命已经告一段落，该休息了。",
+			say = "The Hierophant, your work is done for now. Enter sleep mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "海洛芬特没有抵抗，只是任凭机体停止代码执行、生效。",
+			say = "She did not resist. On the doctor's orders, she began her shutdown program.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "光芒之中，安洁、奥斯塔、海洛芬特与整个空间都消散了。",
+			say = "White light filled my vision, erasing Anzeel, Aoste, the Hierophant, and the entire space we were in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "远方出现了一道门。",
+			say = "A door sppears in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "一道，似曾相识的门……",
+			say = "A familiar door, standing alone in the pure-white chamber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,7 +1091,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "看来，离开的时间到了——",
+			say = "Looks like it's time for me to go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,7 +1103,7 @@ return {
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "眼前，是博览会会场。",
+			say = "The scenery changes for a third time. Now, I see the buildings of the World Expo venue.",
 			bgm = "story-expo-lastday",
 			typewriter = {
 				speed = 0.05,
@@ -1130,7 +1130,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "准确来说，是笼罩在静谧月色下的博览会会场。",
+			say = "...More precisely, the remnants of the venue, bathed in moonlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1141,7 +1141,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "天空与大地恢复了正常，神的国度，那片承载着马可波罗虚妄的世界消散了。",
+			say = "The sky, land, and sea are back to normal. The mysterious Divine Vestige is gone, along with the false God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1152,7 +1152,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "此刻是如此宁静，如同无数夜晚中的平凡一夜，如同什么事都未曾发生过一般。",
+			say = "The only sound in the night is the crashing of waves, as if nothing had happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,7 +1163,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "然而手中传来的重量似乎在无言诉说着，刚才所经历的一切都是真实的。",
+			say = "But the weight in my hands tells me that the entire Arbiter catastrophe was reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "鸢尾教国的圣物——圣座冠冕，此刻正静静躺在我的怀中。",
+			say = "My fingers are lightly curled around the symbol of the Iris Orthodoxy's legitimacy, the Crown of the Holy See.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "在最后关头所看到的一切以及海洛芬特的突然消失……都与圣座冠冕有关么？",
+			say = "I can't help but to think to myself, what if the Crown was controlling the concepts within the domain the entire time, rather than the Hierophant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1196,7 +1196,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "我无法确定，也没有足够的证据支持我得出任何结论。",
+			say = "I receive no answer. Only the cold weight of the Crown, inanimate and lifeless in my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "不过通讯器中一次性接入的大量通讯请求似乎宣示着，有另一件迫在眉睫的事需要处理。",
+			say = "My thoughts are suddenly cut short by countless voices coming in through the communicator all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1218,7 +1218,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "也是……毕竟突然消失了好一阵子。",
+			say = "Judging from what words I could pick out, it seems that I had disappeared along with the Hierophant for a period of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1229,7 +1229,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "博览会的闭幕式……过几天再好好开一次吧。",
+			say = "I suppose... I should let everyone know that I'm alive and well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

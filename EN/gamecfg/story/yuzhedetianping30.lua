@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？·？？？",
+					"???",
 					1
 				},
 				{
-					"余烬？？？舰队",
+					"Ashes Fleet",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			bgm = "main-arbitrationsystem-theme",
-			say = "曾经作为决战之地的奇异点空间，如今却显得寂寥无比。",
+			say = "The Singularity in the NA Ocean, formerly the site of a bloody battle, was quiet now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "只有仿佛永恒燃烧的烈焰证明着过去发生在此的惨烈战斗。",
+			say = "Only the eternally-burning flames that rose above the wreckage told the story of its violent past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "我们在这里看门……也看了有一阵了。",
+			say = "We've been monitoring this door for some time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "你说，企业该不会把我们给忘了吧？",
+			say = "You don't think Enterprise has forgotten us, do you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "作为连接世界的稳定通道，我们在此驻守是有着极其重大的战略意义的。",
+			say = "Don't grumble, Hiryuu. It's strategically vital that we protect this Singularity as long as it lets us leap to other branches.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "而且……把人忘在外面这种事，企业应该做不出来吧？",
+			say = "Besides, it's Enterprise you're talking about. She wouldn't cast aside her fellow Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "只能说不常见，但也不能肯定说不会。",
+			say = "Maybe not normally, Ark Royal, but that doesn't mean you can be certain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "你们不要被企业的外表骗了。",
+			say = "Don't be fooled by the way Enterprise acts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "虽然看上去很酷很帅，不过其实她的精神没有……你们想象中那么稳定。",
+			say = "She may look cool and collected all the time... but her emotions aren't as stable as you might think.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "……你是指，她的心智魔方出现问题了？",
+			say = "You mean... there's a problem with her hull?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那倒不是。就算我们所有人都出问题了，她都未必会出问题。",
+			say = "That's not what I meant. Even if we all have our issues, she's not necessarily suffering from the same thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我指的是纯粹的……精神上的问题。",
+			say = "What I'm talking about... is a mental thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "这么多年来，她一直都在逼自己，紧绷的弦从来都没有松下来过。",
+			say = "She's been pushing herself this whole time, fighting nonstop. She's never been able to put down her weapons or have a moment of relaxation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "我其实挺担心她的。",
+			say = "Truth be told, I'm worried about her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "我和她没有并肩作战那么久。",
+			say = "That so...? I guess I haven't fought with her as long as you have.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "不过你跟她，好像从最开始……在META化以前就是在一起的是么？",
+			say = "Come to think of it, you've been working with her since before your METAmorphosis, haven't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "按你这么说，你的精神为什么没出问题？",
+			say = "Everything you said about her... Isn't that also true for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我看上去像是没出问题么？",
+			say = "Please. Do I look okay to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,42 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好吧……也许是我更加擅长寻找放松精神的方式？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			actor = 9707010,
-			say = "或者……我早就看开了一些事吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9707010,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			say = "有些过去……你越是试图从中寻找救赎，到头来对自己的伤害也就越大。",
+			say = "Having that said... I suppose I might be a bit better at decompressing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +362,24 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "就像饮鸩止渴一样。",
+			say = "Or, maybe I just have a more philosophical view of things.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9707010,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			say = "Sometimes... the more we try to find redemption for our past lives, the deeper a hole we dig.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +397,25 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "我只是把大部分……都放下了而已。",
+			say = "It's like drinking poison to quench your thirst.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			actor = 9707010,
+			say = "I'm just... a lot better at giving up than her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "不过——————要是再这么继续无聊下去的话！",
+			say = "...That said, if I sat still and did nothing forever...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "我的精神状况或许会急转直下，变成恐怖怪兽哦——",
+			say = "My mental state would surely break down sooner or later, and I'd turn into one of those kaiju you see in Sakuran movies.",
 			action = {
 				{
 					type = "shake",
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "嗷呜——嗷呜————",
+			say = "Rooooar! Gaaaawr!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707020,
-			say = "请，矜持一点……",
+			say = "Okay, calm down...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,11 +509,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……嗯？通讯器响了？",
+			say = "...Hm? A call?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,25 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这个发信人是……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			actor = 9707010,
-			say = "……哦豁？",
+			say = "The caller is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +561,25 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "有趣的事，来了！",
+			say = "...Huh.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			actor = 9707010,
+			say = "Ark Royal, things are about to get interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1

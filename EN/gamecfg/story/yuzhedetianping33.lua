@@ -12,7 +12,7 @@ return {
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "土伦港的战斗已经结束。",
+			say = "With the battle in Toulon over, Iris Libre and the Vichya Dominion regrouped. They then used the network to quickly travel to an inland river in Iris territory.",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
-			say = "鸢尾的舰队如今已兵合一处，沿着河流向祖国的腹地驶去。",
+			say = "Since some of the anchors had been placed on land, the shipgirls would have to leave the comfort of the sea. They were in for an uphill battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805020,
-			say = "没想到只能帮我们移动到最近的河流中。",
+			say = "It seems this river is as close as we'll get, even with advanced Siren technology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805020,
-			say = "塞壬设备也有做不到的地方啊",
+			say = "I still have my reservations about using these devices, even if we have no other option.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该说，幸好它们还有做不到的地方。",
+			say = "Look on the bright side – it also means this is as close as the Sirens can go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不然我们可就真的是防不胜防了。",
+			say = "Would be impossible to protect our cities if they could teleport anywhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "贝亚恩，周边情况如何？",
+			say = "Béarn, what is there around us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "河流周边没有敌人活动的痕迹，而且我还发现了一个值得在意的现象。",
+			say = "For one, no sign of the enemy. There is one thing, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些异常的白色物质，似乎有些忌惮水。",
+			say = "I've had this suspicion that the Divine Vestige may appear in the water as well, ever since the Sakura-Iris mixed fleet ran into that \"black hole.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "哪怕它们覆盖了山川大地，甚至能够直抵云层，却也不敢踏入水中半步。",
+			say = "However, that appears not to be the case. It propagates on land and in the air, but not through water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这么说来……好像确实如此。",
+			say = "Yes, now that you mention it, I don't remember seeing much water covered in that substance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论是海边还是河边，那些异常现象到了水边之后就停止蔓延了。",
+			say = "Even here, where it has reached the riverbanks, it hasn't seeped into the river itself yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "虽然原理不明，也许我们应该庆幸……至少现在我们还能沿着大海与河流前进。",
+			say = "While, we may never know why that is, I'm glad we have a means to travel directly from sea to river.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "阿维尼翁……真没想到节点居然会被设在那里。",
+			say = "(Now to get to the Holy See's palace in Avignon, where we'll find that conceptual anchor.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "黎塞留大人，让·巴尔大人，我在发现了一块奇怪的区域挡在我们的必经之路上。",
+			say = "Lady Richelieu! Lady Richelieu! There's a strange space blocking our route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "奇怪的区域……是指那一片漆黑的区域么，我也看到了。",
+			say = "Strange place? Huh... You mean the pitch-black area? Yes, I can see it as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……区域看起来很广阔，绕的话不知道要绕多久，姐姐，怎么办？",
+			say = "Pretty damn big... Doubt we can just walk around it. What do we do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……确实没有绕行的时间了。",
+			say = "We have no time to waste. Let me try something...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「神说，要有光。」",
+			say = "(The conceptual anchor isn't far. Maybe this trick will work here.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「于是，便就有了光。」",
+			say = "\"Let there be light.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
-			say = "伴随着如同咒语般的话语，黎塞留手中的旗帜迸发出了耀眼的光芒。",
+			say = "Richelieu uttered a verse, and the holy banner in her hand began releasing a brilliant light.",
 			effects = {
 				{
 					active = true,
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐！你的旗帜开始发光了！",
+			say = "Did you just make your flag glow?",
 			effects = {
 				{
 					active = false,
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这……这是怎么回事？",
+			say = "How'd you manage to do that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……算是我们的妹妹，提供给我们的小小便利吧。",
+			say = "The anchors are sacraments that reinforce concepts. With a strong enough conviction, we can make some little miracles of our own.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家跟紧，我们穿过去。",
+			say = "Everyone, follow me. The light will cut through the darkness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "黎塞留的旗帜驱散了黑暗。",
+			say = "The girls gathered inside the space lit by holy light, continuing to wade through the darkness bubbling up from the river.",
 			blackBg = true,
 			bgm = "story-clemenceau-judgement",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "借助着光亮，众人发现了一个缠绕着黑色气息的人影。",
+			say = "Not long afterwards, a shadowy figure came into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,10 +501,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "终于、终于！",
+			say = "At last! At long last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,10 +515,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "吾之伟业的最后一片拼图……",
+			say = "The final piece to complete my masterwork!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,10 +529,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "圣座冠冕，终于属于我了！",
+			say = "The Crown of the Holy See is finally in my hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,10 +543,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "自此，凡世间的一切纷争都将消失。",
+			say = "This is what will put an end to all conflict!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,10 +557,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "一个伟大的国度……属于神的国度将会降临！",
+			say = "The Kingdom of God will descend upon the land!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,10 +571,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "世界将沐浴在永恒的谐律之中！",
+			say = "Eternal glory and virtue will envelop the world from pole to pole!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,10 +585,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "至于塞壬……啊哈哈哈哈！",
+			say = "Ohohohohoho! The Sirens are as good as a threat of the past!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,10 +599,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "塞壬已经不再是问题了！",
+			say = "Yes! Those damned Sirens will bother me no more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,10 +613,10 @@ return {
 			actorShadow = true,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			blackBg = true,
 			side = 2,
-			say = "因为——神将降临！",
+			say = "Because God shall come down to us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "这、这是何等亵渎！",
+			say = "I can't believe my ears... Marco Polo truly DID steal the Crown!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "马可波罗这个疯子……",
+			say = "Our holy Crown, our most sacred artifact... She must be punished for her blasphemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "我也同意。这就是马可波罗整出这件事之前的精神状态么？",
+			say = "Put your pitchfork down, Marseillaise. Somethin' was clearly not right with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "……这人，脑子坏掉了吧？",
+			say = "Either she lost her mind, or someone was manipulating her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "或许是从中途偏离了道路……",
+			say = "Clemenceau did remark that she thought Marco Polo had lost it at some point, but by then it was too late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "或许在最初就被那股扭曲的力量利用……",
+			say = "It's best to assume her god influenced her, warped her very thoughts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "我已经听够了，是时候让这个喋喋不休的幻影安静下来了。",
+			say = "There's no point in listening to this deceitful phantom, at any rate. I will dispel it with the Holy Iris's light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "等、等等！你要去打断她么？",
+			say = "No, wait! If it works anything like the black hole Jeanne's fleet encountered, we'll be in deep shit if we attack it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "现在去打断她不知道会发生什么事啊？！",
+			say = "And, what if the phantom actually IS Marco Polo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "也许会是战斗吧。不过等她唠叨完不知道要到什么时候了。",
+			say = "Don't worry, Jean Bart. I'm not about to make any reckless decisions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,7 +821,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "况且到那时候，也未必就会和平放我们过去，还不如一步到位，加速一下流程。",
+			say = "However, it's dangerous to simply leave it be. We cannot turn a blind eye to the contamination Memphis META spoke about. Furthermore–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "……有道理，那就干吧！",
+			say = "Damn, bastard's deployed its rigging. Fighting it is, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-french1",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -923,7 +923,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
-			say = "战斗激烈，而又短暂。",
+			say = "After a short but fierce battle, Marco Polo's phantom sank to its knees in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,9 +935,9 @@ return {
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			nameColor = "#696969",
-			say = "每次都是鸢尾……",
+			say = "It's always you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,9 +949,9 @@ return {
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			nameColor = "#696969",
-			say = "统一信仰，却总是站在对立面……",
+			say = "You pay lip service to uniting our faiths, yet you always stand on opposite sides...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,9 +963,9 @@ return {
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			nameColor = "#696969",
-			say = "的异端……",
+			say = "Damned heretics...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,9 +977,9 @@ return {
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "马可波罗？",
+			actorName = "Marco Polo?",
 			nameColor = "#696969",
-			say = "我才是，正统……啊……",
+			say = "■■■... is the true Orthodoxy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有了人民的支持，所谓正统，又能代表什么呢？",
+			say = "You say the Orthodoxy's legitimacy comes from faith... But does faith put food on the table? What is faith without the support of the people?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1010,7 +1010,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「尘归尘，土归土」",
+			say = "Ashes to ashes, dust to dust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1027,7 +1027,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们还有重要的事要去做，执念的残留，消散吧。",
+			say = "O phantom of a false god and zeal made incarnate – return to naught.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_10",
 			hidePaintObj = true,
-			say = "马可波罗的幻影消散了，笼罩在众人周围的漆黑也一同消失了。",
+			say = "With these words, Marco Polo's phantom disintegrated, along with the region of darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "道路通畅，阿维尼翁近在眼前，我们继续前进吧。",
+			say = "Now, come. Let us go to the palace where the conceptual anchor is kept.",
 			painting = {
 				alpha = 0.3,
 				time = 1

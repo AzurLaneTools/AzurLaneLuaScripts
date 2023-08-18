@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"东陆间海·爱琴海",
+					"Aegean Sea",
 					1
 				},
 				{
-					"北方联合黑海舰队",
+					"Northern Parliament Fleet",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "BOOOOM!",
 			bgm = "theme-thehierophantV",
 			flashN = {
 				color = {
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899020,
-			say = "目标歼灭完成。",
+			say = "Target annihilated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899020,
-			say = "等待下一项命令。",
+			say = "Requesting further orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 701060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同盟同志，接下来我们还要继续向前开路么？",
+			say = "Soyuz, can we keep going forward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍微控制一下推进速度，不要与我们脱节。",
+			say = "Slow down, now. Don't stray from the rest of the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 701060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "收到！",
+			say = "Okay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "数据都收集了么？",
+			say = "Have you finished collecting data?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "嗯，全部记录完毕。",
+			say = "Yes, Comrade. It's done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些数据肯定能够对我们的后续研究产生巨大帮助。",
+			say = "I have a feeling this data could be instrumental in advancing Northern Parliament technology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "让香槟打前锋也着实让我们这一路的推进轻松了不少，堪称一举两得。",
+			say = "She obliterates the enemy, AND she gives us ample data. I'd call that two birds with one stone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……唉，转眼间世界就变成了这副鬼样子了。",
+			say = "...To be frank, though, I wish we could collect data under more normal circumstances.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "如此众多的节点所引发的如此庞大的异像……这项工程绝非一朝一夕能够准备完毕的。",
+			say = "Preparing conceptual anchors over such a large area... Marco Polo was as thorough as can be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我居然没有事先收到任何情报……看来这些年随着欧罗巴局势的缓和，我们的情报部门也懈怠了不少。",
+			say = "Yet our Intelligence Bureau never caught wind of her preparations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回头得好好整顿一下才是了。",
+			say = "Europa has gotten too lax. We need to tighten up in the future.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			actor = 900354,
 			side = 2,
-			say = "……倒也不能全怪我们的情报部门。",
+			say = "It isn't all their fault, Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			actor = 900354,
 			side = 2,
-			say = "……那个女人真的很危险。",
+			say = "The members of the Tribunal are masters of information manipulation... especially her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不光是你，连我都被算计了，皇家和铁血更是栽了个大跟头……",
+			say = "You, me, the Royal Navy, Iron Blood. She tricked all of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			actor = 900354,
 			side = 2,
-			say = "呵……真想事后看看伊丽莎白和{namecode:435}的表情。",
+			say = "No doubt Her Majesty and Bismarck are panicking, too. I'd love to see their faces right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "那个女人，是指马可波罗么？",
+			say = "By \"her,\" do you mean Marco Polo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，是指克莱蒙梭。",
+			say = "No. Tribunal representative Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "维希教廷的克莱蒙梭……我虽然没有跟她直接交流过，不过倒是跟她手下的审判庭打过不少交道。",
+			say = "Clemenceau of the Vichya Dominion... I've never dealt with her face-to-face, but I hear all of the Tribunal's agents are forces to be reckoned with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实是一个不好对付的人。",
+			say = "If you acknowledge her to that extent, then I'm sure she's quite capable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维希教廷……？",
+			say = "(The Vichya Dominion, hm...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			actor = 900354,
 			side = 2,
-			say = "呵，这次事件结束后，就不会再有什么维希教廷了。",
+			say = "(What will happen to them when this is resolved and we have peace again?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "前提是事件真的能顺利结束的话……",
+			say = "(...Assuming it can be resolved, that is.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

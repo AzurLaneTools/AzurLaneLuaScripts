@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "story-thehierophantV",
-			say = "战局又加入了新的变量。",
+			say = "I took control over the mass-produced ships and used them as shields for the shipgirls who could still move. This was just enough to hold the line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899010,
-			say = "发现袭来的舰载机群，建议调动同等规模的航空力量进行迎击。",
+			say = "Now there are aircraft coming after us! Commander, we need aerial support!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399050,
-			say = "哇……呼啦啦冒出来一片。都放心交给我吧！",
+			say = "I've got you! I'm gonna swat those little mosquitos!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "等等……那些是，迪贝路的舰载机……？",
+			say = "Wait... Are those the Devil's drones?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "如同此前无数次展现的那样，敌人再次凭空出现了。",
+			say = "Countless drones appeared in the sky, emerging from nowhere just like the swarmers down at sea level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "这一次，“神”的周围出现了大量迪贝路的舰载机。",
+			say = "The drones – bearing the markings of the Devil XV – all encircled the Hierophant briefly before spreading out in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "它们在出现后，径直向着海域中四散而去。",
+			say = "Their formation almost resembled the shape of a spider web.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399050,
-			say = "……咦？没有跟我缠斗，这是打算做什么？",
+			say = "Hey! Where are you going?! Fight me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "祂再次举起手中的权杖，对准停留在面前的一架舰载机，轻轻挥了一下。",
+			say = "Disregarding Hakuryuu's provocation, the Hierophant once again raised her wand and lightly waved it in the direction of a single aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "耀眼的金色光束吞没了目标，但没有摧毁它。",
+			say = "It began glowing with a dazzling golden light that chained to nearby aircraft, forming a net of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "被命中的舰载机如同中继器一般，将金色的光束分裂扩散向更多的舰载机。",
+			say = "My worst fear had come to reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "直到海域中的所有舰载机都通过光束相连，形成了一个闪耀着光芒的网络。",
+			say = "The Devil, the master of support, was aiding her. It was clear this attack was targeting every single shipgirl on the battlefield at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#696969",
-			say = "「▅■二▆▅」",
+			say = "▅■two▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "这个是……连协？",
+			say = "A support protocol?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "……不好，所有人快躲开！",
+			say = "Everyone! Dodge, quick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "各艘计划舰因为及时得到预警，在毫厘间躲过了攻击。",
+			say = "We managed to move the mass-produced ships just in time to protect our recovering allies from the giant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "而包括审判型机甲在内，所有量产型军舰都在转瞬间毁灭了。",
+			say = "However, the attack destroyed all of the mass-produced ships and even vaporized the Tribunal's conceptual weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "……………………我完全明白了。",
+			say = "A support protocol with the Devil... No, that's not all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "一直在迪贝路背后支持它的人就是海洛芬特！",
+			say = "She must've been the reason why the Devil was acting strangely within the Reality Lens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "或者……这个疑似海洛芬特的“东西”。",
+			say = "And there's another enemy behind this one, too...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "当时我就觉得奇怪……仅凭迪贝路怎么可能攻破我设下的屏障！",
+			say = "I always thought it was strange. Why did the Devil start acting so weird, and how did they break into that space?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "理所当然，一直盯着指挥官并展开追杀行动的，也是它……",
+			say = "This same enemy... must've been hunting the Commander this entire time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "……一个经验送给诸位——不要在仲裁机关擅长的领域跟它硬碰硬。",
+			say = "A word of advice. If you want to live to fight another day, NEVER challenge one Arbiter on their home turf, let alone two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "尤其是在多个仲裁机关形成连协之势后。",
+			say = "The Devil supports, and the Hierophant controls concepts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "这一次是运气好，它选择先清理威胁最高的目标……",
+			say = "She knows now that the biggest threat to her is the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "下一击要是瞄准过来，我们可就躲不掉了啊……",
+			say = "If we let her make her next attack, we're not going to be able to dodge it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,14 +426,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "凝视着远方的身影，必须要先办法阻止她的再次攻击才行。",
+			say = "\"That just means we can't let her attack.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……？",
+					content = "\"Wait, is she looking at...?\"",
 					flag = 1
 				}
 			}
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "虽然相隔遥远，不过仿佛感受到了“神”迎来的视线，也似乎看到祂……歪了歪头？",
+			say = "Despite the distance between us, I noticed the Hierophant cocking her head just slightly in my direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "诸位……神，是不是开始移动了……？",
+			say = "The Arbiter... moved...?",
 			painting = {
 				alpha = 0.3,
 				time = 1

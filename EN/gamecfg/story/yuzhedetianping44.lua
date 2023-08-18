@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"作战结束数日后",
+					"Several days after the anomalous event",
 					1
 				},
 				{
-					"陆间海·某处",
+					"??? – ???",
 					2
 				}
 			},
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			bgm = "theme-underheaven",
-			say = "陆间海再次被无垠的白色所覆盖。",
+			say = "Within a Mirror Sea, the Mediterranean is once again engulfed in Divine Vestige.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记录，第三十三次事件复盘。",
+			say = "Concluding 33rd Reenactment and recording results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于增生的白色物质，已经通过足够样本分析证明——",
+			say = "Sufficient analytical data on the proliferating white substance yields the following conclusion:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与X存在关联。",
+			say = "Deus X is involved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因其转化程度轻微，又被施加了伪装，所以直到此刻才能确认。",
+			say = "The degree of corrosion is extremely mild and the phenomenon was also disguised, resulting in late detection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于异常的海洛芬特机体。",
+			say = "Analysis of samples retrieved from the abnormal Hierophant vessel yields the following conclusion:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "收集到的样本同样可以证明，该异常机体与X存在关联。",
+			say = "Deus X is involved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于海洛芬特为何没有选择在第一时间将其销毁处理。",
+			say = "As for why The Hierophant chose not to destroy her vessel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我一直没能恢复与她的联系，因此无法直接确认。",
+			say = "I have been unable to restore communications, and therefore have not been able to submit my query.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "本次入侵事件虽然在早期阶段就被阻止。",
+			say = "This time, the incursion was curtailed at an early stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但依然可以认定，实验场β已经不再安全了。",
+			say = "But regardless, it is clear that Experimental Field β is no longer safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……零似乎格外看重这里。",
+			say = "...It appears that Zero attaches a great deal of importance to this branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "先跟她汇报一下吧。",
+			say = "I must consult with her first regarding this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

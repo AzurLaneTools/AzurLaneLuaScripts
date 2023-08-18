@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"作战结束数日后",
+					"Several days after the anomalous event",
 					1
 				},
 				{
-					"陆间海·某处",
+					"Somewhere in the Mediterranean Sea...",
 					2
 				}
 			},
@@ -39,7 +39,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被伪神所支配的现实没有成真，混乱在不知不觉间悄然消失。",
+			say = "These are the results of pur investigation. The superimposed world didn't become reality, and the damage was limited to only a few isolated buildings and machines.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "所有阵营已经一致决定，将本次事件定性为马可波罗在收到仲裁机关影响后而做出的非理性独断行为。",
+			say = "All factions have concluded that this incident was a surprise attack coordinated by the Arbiters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的祖国平安无事，重新召开的闭幕式也成功结束。",
+			say = "At the Commander's suggestion, Marco Polo, Clemenceau, and their cohorts have been officially suspended for aiding and abetting a Siren conspiracy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "总的来说，算是皆大欢喜吧？",
+			say = "And everyone was happy in the end. Are you really fine with that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "实在是……千钧一发。",
+			say = "Indeed... That really was a close call. Too close for comfort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "只差一点，我们多年来的努力就付诸东流了。",
+			say = "If the Commander hadn't been at the World Expo, we wouldn't have been able to launch a counterattack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "马可波罗这个人，真是……",
+			say = "Marco Polo... You almost doomed us all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "维内托，搜寻还是一无所获。",
+			say = "Veneto, uh, I'm pretty sure we still haven't found Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……已经这么多天了，要能找到早就该找到了吧？",
+			say = "...It's been days by now. Isn't it likely that she's already...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……差不多该结束搜索了。",
+			say = "*sigh*... You're right. This search hasn't gone anywhere since it began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再搜索最后一轮，我们就回家。",
+			say = "Let's try one more time, and then we'll wrap things up and go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "是——",
+			say = "Gotcha.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "通讯结束后，维内托深深叹了一口气。",
+			say = "Veneto hung up and let out a deep sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "你是在担心找不到她，还是担心真的找到她之后怎么办？",
+			say = "You know, it'll take more than that to sink her. Or... are you worried about how much of headache she'll be once she comes back?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我还没想好……也许两者都有吧。",
+			say = "Neither? Both? I don't know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "……或许我只是想当面和她谈谈。",
+			say = "If I ever get to talk to her again, we're going to have a lengthy heart-to-heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果我们能多关心她一些的话，或许事情就不会走到这个地步了……",
+			say = "At first, she was genuinely trying to act on behalf of Sardegna. If only I had been more sympathetic to her, maybe then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "维内托，有人在找你。",
+			say = "Hmm? Seems like the call's for you, Veneto.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………发信人是，克莱蒙梭？",
+			say = "...From Clemenceau?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "……是我，维内托，有什么事么？",
+			say = "...Good evening, Clemenceau. Is there something I can help you with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "……",
+			say = "...Thank the Commander for making your work that much easier? Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "…………？",
+			say = "...Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "Well... I suppose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "……没问题，就这样。",
+			say = "...Alright, that's no problem. Goodbye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,32 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "维内托挂断了通讯，然后向着海域中正在执行搜索任务的撒丁舰队下达了命令。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
-			actor = 605010,
-			side = 2,
-			say = "所有人请注意，我已得到确切情报，确认马可波罗已经沉入了深海。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 605010,
-			side = 2,
-			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "经过损伤判定，我认定其已无任何打捞与修复的可能性。",
+			say = "Veneto hung up the line, then connected to the Sardegnian search party once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +409,32 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "搜索行动现在结束，诸位辛苦了。",
+			say = "Oh dear, we are sad to report Marco Polo has already sunk to the bottom of the ocean.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 605010,
+			side = 2,
+			bgName = "bg_underheaven_14",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "After a damage assessment, I'm confirming there is no hope of salvaging her. Truly a tragedy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_underheaven_14",
+			hidePaintObj = true,
+			actor = 605010,
+			side = 2,
+			say = "In conclusion, the search is over and we can all go home now. Bye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "维内托如释负重般切断了通讯器，开始进行返航准备。",
+			say = "After giving her order in a painfully monotone voice, she changed course for home and began humming a carefree tune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "……等等，我明明依稀听到了“昏迷”和“保护”之类的词啊？",
+			say = "...What? But I could've sworn Clemenceau said the words \"recover\" and \"comatose\" in your conversation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你没听错。",
+			say = "Did you not hear my order, Littorio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			actor = 605010,
 			side = 2,
-			say = "所以就这样，以上面的结论作为官方报告的结尾，为其盖棺定论吧。",
+			say = "There's nothing more for us here. We're going to declare her as sunk in our report to the Senate and move on with our lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

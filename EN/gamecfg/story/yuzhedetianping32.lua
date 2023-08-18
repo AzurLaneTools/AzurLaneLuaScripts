@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"西陆间海·某处",
+					"Somewhere in the Mediterranean Sea...",
 					1
 				},
 				{
-					"皇家直布罗陀舰队",
+					"Royal Navy Fleet",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战大人，刚刚收到消息，铁血舰队已经抵达马耳他了。",
+			say = "Lady Warspite, we've been informed that the Iron Blood fleet has arrived at our Malta stronghold.",
 			bgm = "theme-thehierophantV",
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……真是世事无常，我从来没想过铁血舰队会以这种方式进入我们的马耳他要塞。",
+			say = "Imagine that. Iron Blood setting foot on Malta not as enemies, but as temporary allies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "{namecode:428}现在脸上的表情我都能想象出来了……啧。",
+			say = "Knowing Prinz Eugen, she must already be messing with the girls stationed there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是辛苦纳尔逊和罗德尼了，她们还肩负着与铁血舰队一同去突尼斯的任务……",
+			say = "This must be a real headache for Rodney and Nelson, given their upcoming roles in the operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "哦不对，在这片空间中或许将其称呼为“迦太基”更合适。",
+			say = "Where are they heading, again? \"Carthage,\" was it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "突尼斯城，古城迦太基所在的地方。",
+			say = "Yes. I believe it's an ancient city off the North African coast.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 203019,
-			say = "真没想到那里会被设置成维持这片异常空间存在的关键节点。",
+			say = "I wonder why Marco Polo put a conceptual anchor there, so far away from home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "呵，看来马可波罗的罗马梦，还真的病得不轻……",
+			say = "Likely as part of her plan. Or, possibly, the God guiding her actions made the decision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,11 +174,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_underheaven_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你好啊，厌战，现在进展如何？需要帮助么？",
+			say = "Hey, Warspite. How are things coming along over there? Want us to help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……感谢你特意发来通讯表达喜悦之情。",
+			say = "*sigh*... Thanks for keeping in touch, but no.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "不过不用担心，我们这边正在按照原定计划转向前往阿尔及利亚。",
+			say = "Our fleet is currently en route to Djemila, as per the Commander's orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "其实，我刚刚有了个更好的想法。",
+			say = "You sure? Because I feel there's a better way to make use of your force.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "突尼斯距离阿尔及利亚并不远，敌人数量也差不多。",
+			say = "Carthage and Djemila aren't that far apart, and the enemies between them are no big deal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全可以由我，还有你们的马耳他舰队一起包圆了嘛。",
+			say = "Our fleet and your Malta fleet are enough to deal with them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你们掉头去支援黎塞留大主教不是更好？",
+			say = "So, what I'm thinking is – we'll take care of Djemila, and you can go give Richelieu backup instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "她揽过去的节点那么多，可是现在感觉……也没什么进展。",
+			say = "Think about it. The Tribunal made the conceptual anchors, and they've surely built better defenses to protect them on their own turf.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……我说，{namecode:427}啊，每一支编队负责的区域可是由指挥官亲自布置的任务。",
+			say = "Hold on. This isn't about the Royal Navy or Iron Blood. This is the Commander's operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "你是可以不在意，不过作为碧蓝航线的一员，我们是必须要严格听从指挥官下达的作战命令的。",
+			say = "I know you like to skirt around rules, but are you really going to flat-out ignore orders from the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "怎么能说改就改……更何况皇家的任务怎么能让铁血代为处理。",
+			say = "We, not you, were given the task of dealing with this conceptual anchor, and we intended to complete it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不劳挂心，刚才我们已经跟黎塞留确认过了，她表示情况一切正常，不需要支援。",
+			say = "Furthermore, I just got word that Richelieu's fleet is making good, steady progress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "我们彼此还是按照各自的作战计划进行就好。",
+			say = "We don't need to rush to her aid. Ultimately, this conflict is something they have to resolve internally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~对哦，我确实没必要完全按照你们指挥官的命令来行动。",
+			say = "Fair enough. Just thought I'd mention it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不如我们就来场竞速赛如何？",
+			say = "It's also worth pointing out the Commander never specified a next task after we capture Carthage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "如果不想任务被铁血抢走的话，还请加油加速哦♪",
+			say = "In other words, we'll become a reserve force. If you don't want us stealing work from you, you better be quick♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "你…………！",
+			say = "...The audacity of that–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "呵，铁血在用这种方式对我们下战书么……",
+			say = "Knights of the Royal Navy! Iron Blood has issued us a challenge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "比就比……全员注意，我们要加快行动速度了！",
+			say = "And we – we shall answer. All ships, raise your speed! For the glory of the Royal family!",
 			painting = {
 				alpha = 0.3,
 				time = 1

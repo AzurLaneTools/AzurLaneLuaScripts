@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "This place isn't as nice as it could be if we had a few more days, but we need can't take anything for granted when it comes to your safety.",
+			say = "This place isn't as nice as it could be if we had a few more days, but we can't take anything for granted when it comes to your safety.",
 			painting = {
 				alpha = 0.3,
 				time = 1

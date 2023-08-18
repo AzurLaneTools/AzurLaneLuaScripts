@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "望着眼前破损的王座。",
+			say = "Clemenceau gazed sadly at the salvaged throne before her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "克莱蒙梭不经回忆起她们相遇的那个午后——",
+			say = "She could not stop the memories of their first meeting from rushing through her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,11 +53,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"过去的某日",
+					"Some time in the past...",
 					1
 				},
 				{
-					"铁血境内某处",
+					"Unknown location in Iron Blood",
 					2
 				}
 			},
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "theme-clemenceau",
-			say = "会议已经散场许久，这间不大的会议室中，此刻竟多了些空旷与寂寥。",
+			say = "On one side of the room was the schemer, representing the dark side of the shining Orthodoxy. On the other side was a jester, charming yet ambitious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "仅剩下两个看似南辕北辙的人依然留在座位上，在各自的笔记上留下些心不在焉的划痕。",
+			say = "The two could hardly have less in common, save for one thing – they had both been bored to death by the preceding meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我说——你就是维希教廷的克莱蒙梭吧？",
+			say = "So you're Clemenceau, the Vichya's representative?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯，马可波罗阁下，您好。",
+			say = "That I am. And I already know your name well, Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "{namecode:440}都走了好一阵了，你怎么还不走？",
+			say = "The Iron Blood folks and your lackeys are gone. Why are you still here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我在趁着记忆还清晰，思考和总结一下会议精神哦。",
+			say = "Hmm~ I like jotting down notes while the memory is still fresh in my mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“思考和总结会议精神”……你可真会打官腔。",
+			say = "Magnificent. You play the part of a bureaucrat perfectly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才在会上听你什么都没说，你是不是跟{namecode:440}也不对付？",
+			say = "But, you didn't speak at all during the meeting. Do you not like dealing with Iron Blood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "怎么会有这种事呢？维希教廷和铁血可是牢不可破——",
+			say = "I wouldn't say that. The Vichya and Iron Blood are close friends, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "好了好了，这里又没别人！",
+			say = "Cut it out already. There's nobody else here!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "别再打官腔了，我的观察力好着呢。",
+			say = "Stop putting on airs already. I'm only speaking to you because I see your potential!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实话告诉你吧，我也是。",
+			say = "Look, the two of us are kindred spirits. Everyone else? They're a whole bunch of fools who don't know a thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然她的计划吸引不了你，要不要来听听我的？",
+			say = "If you don't like their proposals, then why don't you lend me your ear?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "让我们合作，一同做一番大事吧——",
+			say = "Hahaha! Magnificent! I can tell, the two of us are going to accomplish great things together!",
 			painting = {
 				alpha = 0.3,
 				time = 1

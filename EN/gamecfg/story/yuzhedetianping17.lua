@@ -1215,7 +1215,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			side = 2,
-			say = "All in all, our allied fleet includes everyone at the World Expo, a few Sardegnian fleets around the Mediterranean, scattered Iris and Vichya fleets, and a Royal Navy detachment.)",
+			say = "All in all, our allied fleet includes everyone at the World Expo, a few Sardegnian fleets around the Mediterranean, scattered Iris and Vichya fleets, and a Royal Navy detachment.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
