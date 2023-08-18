@@ -1000,7 +1000,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg13",
 			hidePaintObj = true,
-			say = "全員の注目の中で、リシュリューは剣を抜き、「聖座の冠」めがけて振り下ろした。",
+			say = "全員の注目の中で、リシュリューは剣を抜き、「聖座の冠」めがけて切り払った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

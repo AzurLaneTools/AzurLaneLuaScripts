@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "さあ、偽神の概念の「眉」を撃ち抜きなさい！！",
+			say = "さあ、偽神の概念の「繭」を撃ち抜きなさい！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重桜と鉄血艦隊も……決戦の海へ共に参りましょう",
+			say = "重桜と鉄血艦隊も……決戦の海へ共に参ろう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
 			say = "こっちのカードはもう全部出しきったわ。あとはこの命を指揮官に預けるだけよ",
 			painting = {
@@ -837,7 +837,7 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
 			say = "偽りの「神」を倒して、艦隊を勝利に導いて――",
 			painting = {

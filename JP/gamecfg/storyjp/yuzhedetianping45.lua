@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#696969",
 			actorScale = 1.4,
-			say = "「ねえねえ、ぼくのことが恋しいの？」",
+			say = "「リシャールのことが恋しいの？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#696969",
 			actorScale = 1.6,
-			say = "「ねえねえ、ぼくのことが恋しいの？」",
+			say = "「　　の　　がこいし　の？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#696969",
 			actorScale = 1.8,
-			say = "「ねえねえ、ぼくのことが恋しいの？」",
+			say = "「コイシイノ？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

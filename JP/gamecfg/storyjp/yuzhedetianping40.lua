@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_7",
 			hidePaintObj = true,
-			say = "まるで最初からこのパネルの用途が分かっていて、しかも何度も操作したかののような、慣れた動き。",
+			say = "まるで最初からこのパネルの用途が分かっていて、しかも何度も操作したかのような、慣れた動き。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

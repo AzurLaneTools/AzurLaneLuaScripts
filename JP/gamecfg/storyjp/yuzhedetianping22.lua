@@ -1402,7 +1402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
+			actorName = "ダンケルク",
 			say = "ふぅ……もう沈む覚悟をしていたけど…いいタイミングね…",
 			painting = {
 				alpha = 0.3,
@@ -1420,7 +1420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
+			actorName = "ダンケルク",
 			say = "でも審判廷の戦闘天使がいるってことは…クレマンソーのあれは演技だったの？",
 			painting = {
 				alpha = 0.3,

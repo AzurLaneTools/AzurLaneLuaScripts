@@ -1057,7 +1057,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "いつぞやの夢の時とは違い、耳元で風鈴の声が未だに響き続けている。",
+			say = "いつぞやの夢の時とは違い、耳元で風鈴の音が未だに響き続けている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

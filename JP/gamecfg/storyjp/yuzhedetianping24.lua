@@ -1344,7 +1344,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "クレマンソーについて",
+			say = "クレマンソーについてだが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

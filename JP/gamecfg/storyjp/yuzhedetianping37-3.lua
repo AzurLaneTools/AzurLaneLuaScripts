@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "これは…マルコ・ポーロが預かったもう一つの秘儀……",
+			say = "これが…マルコ・ポーロが預かったもう一つの秘儀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "戦闘開始から「ハイエロファント」が始めて動いた。",
+			say = "戦闘開始から「ハイエロファント」が初めて動いた。",
 			bgm = "battle-thehierophantV",
 			effects = {
 				{

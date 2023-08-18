@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "間もなく閉幕式が始まるため、周りから続々と人が集まってくる。",
+			say = "間もなく閉幕式ね。人が集まって来てるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "人混みによる喧騒と熱気が会場を丸々覆い囲んだ。",
+			say = "それにしてもすごい人混み",
 			painting = {
 				alpha = 0.3,
 				time = 1

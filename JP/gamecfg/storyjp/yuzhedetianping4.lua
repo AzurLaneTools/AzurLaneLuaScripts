@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "確か………んっ……、上手く思い出せずお詫び申す……",
+			say = "確か………んっ……上手く思い出せずお詫び申す……",
 			painting = {
 				alpha = 0.3,
 				time = 1

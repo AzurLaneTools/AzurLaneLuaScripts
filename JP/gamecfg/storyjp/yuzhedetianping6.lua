@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "ええ、なんとか間一髪のところに避けた…",
+			say = "ええ、なんとか間一髪のところで避けられた…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "岛风",
+			actorName = "島風",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "岛风",
+			actorName = "島風",
 			nameColor = "#A9F548FF",
 			say = "駿河殿とアルフレード殿も助かりました！",
 			painting = {
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "骏河",
+			actorName = "駿河",
 			nameColor = "#A9F548FF",
 			say = "ど、どうもありがとうございますぅ……",
 			painting = {
@@ -568,7 +568,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多",
+			actorName = "アルフレード・オリアーニ",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -584,7 +584,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "骏河",
+			actorName = "駿河",
 			nameColor = "#A9F548FF",
 			say = "（そうね…いまはこの混沌とした状況をどうにかしないと…！）",
 			painting = {

@@ -25154,3 +25154,11 @@ _G.pg.base.gametip.uscastle2023_minigame_help = {
 		}
 	}
 }
+
+_G.pg.base.gametip.feast_drag_invitation_tip = {
+	tip = "*招待状をキャラにドラッグして贈る"
+}
+
+_G.pg.base.gametip.feast_drag_gift_tip = {
+	tip = "*記念品をキャラにドラッグして贈る"
+}

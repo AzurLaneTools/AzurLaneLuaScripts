@@ -278,7 +278,7 @@ return {
 			actor = 107092,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ま、負けてないのと言われるのは嬉しいような…嬉しくないような…！",
+			say = "ま、負けてないと言われるのは嬉しいような…嬉しくないような…！",
 			painting = {
 				alpha = 0.3,
 				time = 1

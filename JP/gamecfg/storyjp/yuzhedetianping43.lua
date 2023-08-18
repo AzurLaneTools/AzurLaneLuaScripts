@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "通信を切ると、ヴェネトは大きくため息を着いた。",
+			say = "通信を切ると、ヴェネトは大きくため息をついた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "クレマンソーはとの通信を切り、ヴェネトは捜索活動中のサディア艦隊の仲間たちに改めて呼びかけた。",
+			say = "クレマンソーとの通信を切り、ヴェネトは捜索活動中のサディア艦隊の仲間たちに改めて呼びかけた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "凄まじい棒読みで命令を下し、ヴェネトは鼻歌を口ずさみながら帰航の準備し始めた。",
+			say = "凄まじい棒読みで命令を下し、ヴェネトは鼻歌を口ずさみながら帰航の準備をし始めた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

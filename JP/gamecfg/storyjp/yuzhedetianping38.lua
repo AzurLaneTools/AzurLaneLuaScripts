@@ -1207,7 +1207,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
-			say = "――通信機から仲間たちの連絡がものすごい勢いで届いている。",
+			say = "――通信機に仲間たちからの連絡がものすごい勢いで届いている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
