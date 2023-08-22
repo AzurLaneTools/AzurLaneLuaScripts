@@ -1026,7 +1026,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不用担心，我刚刚已经带领自由鸢尾主力舰队抵达土伦，",
+			say = "不用担心，我刚刚已经带领自由鸢尾主力舰队抵达土伦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

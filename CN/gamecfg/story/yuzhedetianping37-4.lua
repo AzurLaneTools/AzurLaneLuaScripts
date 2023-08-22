@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "凝视着远方的身影，必须要先办法阻止她的再次攻击才行。",
+			say = "凝视着远方的身影，必须要先想办法阻止她的再次攻击才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

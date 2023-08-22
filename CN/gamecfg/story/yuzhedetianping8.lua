@@ -1991,7 +1991,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "所以，还是首先在这里彻底让尔等彻底臣服吧！",
+			say = "所以，还是首先在这让尔等彻底臣服吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

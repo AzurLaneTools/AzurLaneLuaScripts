@@ -168,7 +168,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看向面前少女修长的大腿，大腿根部，贴身黑色的潜水服上赫然出现了一个剐蹭后留下的大洞。",
+			say = "看向面前少女修长的大腿，大腿根部，黑色贴身的潜水服上赫然出现了一个剐蹭后留下的大洞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

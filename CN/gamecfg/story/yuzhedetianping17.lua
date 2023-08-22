@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能将此之多的人卷入的梦，定然与妾身平日游历之梦不同。",
+			say = "能将如此之多的人卷入的梦，定然与妾身平日游历之梦不同。",
 			painting = {
 				alpha = 0.3,
 				time = 1

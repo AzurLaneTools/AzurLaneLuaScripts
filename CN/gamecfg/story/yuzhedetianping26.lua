@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "亦无需要坚持原路而反……",
+			say = "亦无需要坚持原路而返……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1748,7 +1748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维内托小姐，我需要再次向您表示道歉……",
+			say = "维内托小姐，我需要再次向您表示歉意……",
 			painting = {
 				alpha = 0.3,
 				time = 1

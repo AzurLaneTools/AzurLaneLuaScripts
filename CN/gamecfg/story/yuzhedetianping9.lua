@@ -481,7 +481,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "嗯~那就是还算是方便说话。",
+			say = "嗯~那就还算是方便说话。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我知道情报的并不比各位多……",
+			say = "我知道的情报并不比各位多……",
 			painting = {
 				alpha = 0.3,
 				time = 1

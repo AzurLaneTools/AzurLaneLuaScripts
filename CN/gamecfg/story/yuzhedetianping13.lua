@@ -529,7 +529,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过很明显，帝国现在确实处于紧急状态、",
+			say = "不过很明显，帝国现在确实处于紧急状态",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

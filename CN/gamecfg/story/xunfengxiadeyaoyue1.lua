@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "干碎利落，一杆进洞~",
+			say = "干脆利落，一杆进洞~",
 			painting = {
 				alpha = 0.3,
 				time = 1

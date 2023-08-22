@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "……呼，没想到银地洋的塞壬还是那么活跃。",
+			say = "……呼，没想到银底洋的塞壬还是那么活跃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "原本应该是的待在那边的。",
+			say = "原本应该是待在那边的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

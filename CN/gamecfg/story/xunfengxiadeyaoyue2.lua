@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "行走在海边，清晨的海风格外让人感到清爽。",
+			say = "行走在海边，清晨的海风让人感到格外清爽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

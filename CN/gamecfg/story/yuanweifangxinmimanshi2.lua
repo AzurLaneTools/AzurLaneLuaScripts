@@ -619,7 +619,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "当然没问题，只是，在着纷乱的会场中似乎有些静不下心来。",
+			say = "当然没问题，只是，在这纷乱的会场中似乎有些静不下心来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

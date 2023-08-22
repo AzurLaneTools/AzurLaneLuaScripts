@@ -209,7 +209,7 @@ return {
 			actorName = "{namecode:191}",
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我也倾向于有某些存在正咋利用它的量产型机体进行行动。",
+			say = "我也倾向于有某些存在正在利用它的量产型机体进行行动。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actorName = "马赛曲",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，所以我们必须要停止此等亵渎行为，将圣物要夺回来。",
+			say = "没错，所以我们必须要停止此等亵渎行为，将圣物夺回来。",
 			painting = {
 				alpha = 0.3,
 				time = 1

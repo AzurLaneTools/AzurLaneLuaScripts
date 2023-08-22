@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "我们继续也向前推进吧——",
+			say = "我们也继续向前推进吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
