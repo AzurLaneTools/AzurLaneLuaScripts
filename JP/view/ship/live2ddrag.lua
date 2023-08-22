@@ -210,14 +210,12 @@ function slot0.updateReactValue(slot0)
 	end
 
 	if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
-		slot0.parameterValue = slot0.parameterTargetValue
-	end
+		slot0:changeParameterValue(slot0.parameterTargetValue)
+	else
+		slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 
-	if slot0.parameterValue ~= slot0.parameterTargetValue then
-		-- Nothing
+		slot0:changeParameterValue(slot1, slot2)
 	end
-
-	slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 end
 
 function slot0.changeReactValue(slot0, slot1)
@@ -287,14 +285,12 @@ function slot0.updateDrag(slot0)
 	end
 
 	if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
-		slot0.parameterValue = slot0.parameterTargetValue
-	end
+		slot0:changeParameterValue(slot0.parameterTargetValue)
+	else
+		slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 
-	if slot0.parameterValue ~= slot0.parameterTargetValue then
-		-- Nothing
+		slot0:changeParameterValue(slot1, slot2)
 	end
-
-	slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 end
 
 function slot0.updateGyro(slot0)
@@ -304,7 +300,8 @@ function slot0.updateGyro(slot0)
 
 	if not Input.gyro.enabled then
 		slot0.parameterTargetValue = 0
-		slot0.parameterValue = 0
+
+		slot0:changeParameterValue(0)
 
 		return
 	end
@@ -330,10 +327,24 @@ function slot0.updateGyro(slot0)
 			end
 		end
 
-		slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+		slot3, slot4 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+
+		slot0:changeParameterValue(slot3, slot4)
 	else
 		slot0.parameterTargetValue = (slot2 + 0.5) * (slot0.range[2] - slot0.range[1]) + slot0.range[1]
-		slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+		slot3, slot4 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+
+		slot0:changeParameterValue(slot3, slot4)
+	end
+end
+
+function slot0.changeParameterValue(slot0, slot1, slot2)
+	if slot1 then
+		slot0.parameterValue = slot1
+	end
+
+	if slot2 then
+		slot0.parameterSmooth = slot2
 	end
 end
 

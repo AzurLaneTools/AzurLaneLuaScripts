@@ -127,7 +127,10 @@ function slot0.AddVisitorShip(slot0, slot1)
 		return
 	end
 
-	slot0.storey:AddShip(slot0:DataToVisitorShip(slot1))
+	if slot0.storey:GetRandomPosition(slot0:DataToVisitorShip(slot1)) then
+		slot2:SetPosition(slot3)
+		slot0.storey:AddShip(slot2)
+	end
 end
 
 function slot0.ExitShip(slot0, slot1)

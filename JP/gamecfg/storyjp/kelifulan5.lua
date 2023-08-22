@@ -110,6 +110,7 @@ return {
 				{
 					actor = 102100,
 					dir = -1,
+					expression = 0,
 					pos = {
 						x = -1125
 					}
