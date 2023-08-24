@@ -1564,7 +1564,7 @@ _G.pg.base.item_data_statistics[68] = {
 
 _G.pg.base.item_data_statistics[70] = {
 	display = "B-38 三聯裝152mm主炮Mk5T1設計圖",
-	name = "B-38 三聯裝152mm主炮Mk5T1設計圖",
+	name = "B-38三聯裝152mm主炮Mk5T1設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -1587,7 +1587,7 @@ _G.pg.base.item_data_statistics[70] = {
 
 _G.pg.base.item_data_statistics[71] = {
 	display = "B-54 100mm雙聯裝防空炮T2設計圖",
-	name = "B-54 100mm雙聯裝防空炮T2設計圖",
+	name = "B-54100mm雙聯裝防空炮T2設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -1610,7 +1610,7 @@ _G.pg.base.item_data_statistics[71] = {
 
 _G.pg.base.item_data_statistics[73] = {
 	display = "B-37 三聯裝406mm主炮MK-11設計圖",
-	name = "B-37 三聯裝406mm主炮MK-11設計圖",
+	name = "B-37三聯裝406mm主炮MK-11設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -1633,7 +1633,7 @@ _G.pg.base.item_data_statistics[73] = {
 
 _G.pg.base.item_data_statistics[74] = {
 	display = "B-34 100mm雙聯裝防空炮MZ-14T2設計圖",
-	name = "B-34 100mm雙聯裝防空炮MZ-14T2設計圖",
+	name = "B-34100mm雙聯裝防空炮MZ-14T2設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5741,6 +5741,29 @@ _G.pg.base.item_data_statistics[11041] = {
 	is_world = 0,
 	icon = "Equips/55200",
 	id = 11041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[11042] = {
+	display = "B-13 雙聯裝130mm主炮B-2LMT3設計圖",
+	name = "B-13雙聯裝130mm主炮B-2LMT3設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/85000",
+	id = 11042,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -158172,6 +158195,202 @@ _G.pg.base.item_data_statistics[58754] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58836] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58836,
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58837] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58837,
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58838] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58838,
+	display_icon = {
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58839] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58839,
+	display_icon = {
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			76,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "參與角色將獲得經驗值",
 	name = "角色經驗",
@@ -163298,6 +163517,52 @@ _G.pg.base.item_data_statistics[59404] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59404,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59405] = {
+	display = "用於「極地風暴」活動，活動結束後將會消失",
+	name = "極地風暴Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 300001,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/jidifengbao_pt",
+	id = 59405,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59406] = {
+	display = "限時換裝商店體驗券",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59406,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175032,60 +175297,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-_G.pg.base.item_data_statistics[70145] = {
-	display = "<color=#ff5c5c>8.24維護後道具將會刪除。 </color>可從「寶多六花」、「新條茜」、「南夢芽」、「飛鳥川千瀨」、「哈絲」與「奈美子」中自行選擇一位角色進行兌換。",
-	name = "「交匯世界的弧光」角色自選",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70145",
-	id = 70145,
-	display_icon = {
-		{
-			4,
-			10800011,
-			1
-		},
-		{
-			4,
-			10800021,
-			1
-		},
-		{
-			4,
-			10800051,
-			1
-		},
-		{
-			4,
-			10800061,
-			1
-		},
-		{
-			4,
-			10800031,
-			1
-		},
-		{
-			4,
-			10800041,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

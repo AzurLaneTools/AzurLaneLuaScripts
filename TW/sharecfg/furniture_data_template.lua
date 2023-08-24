@@ -142,6 +142,7 @@ pg.furniture_data_template = setmetatable({
 			100024,
 			100025,
 			100026,
+			100027,
 			200001,
 			200002,
 			200003,
@@ -2406,6 +2407,37 @@ pg.furniture_data_template = setmetatable({
 			95304,
 			95305
 		},
+		[99] = {
+			99001,
+			99002,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
+			99128,
+			99201,
+			99202,
+			99203,
+			99204,
+			99301,
+			99302,
+			99303,
+			99304
+		},
 		[100] = {
 			300001,
 			300002,
@@ -3915,6 +3947,24 @@ pg.furniture_data_template = setmetatable({
 			95130,
 			95131,
 			95143,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
 			300101,
 			300102,
 			300103,
@@ -4083,6 +4133,10 @@ pg.furniture_data_template = setmetatable({
 			92202,
 			92203,
 			92204,
+			99201,
+			99202,
+			99203,
+			99204,
 			300201,
 			300202
 		},
@@ -4225,6 +4279,7 @@ pg.furniture_data_template = setmetatable({
 			100024,
 			100025,
 			100026,
+			100027,
 			54104,
 			54105
 		},
@@ -4366,6 +4421,7 @@ pg.furniture_data_template = setmetatable({
 			95141,
 			95142,
 			95144,
+			99128,
 			300132,
 			300133,
 			300134
@@ -4446,6 +4502,7 @@ pg.furniture_data_template = setmetatable({
 			93001,
 			94001,
 			95001,
+			99001,
 			300001,
 			301001
 		},
@@ -4526,6 +4583,7 @@ pg.furniture_data_template = setmetatable({
 			93002,
 			94002,
 			95002,
+			99002,
 			300002,
 			301002
 		},
@@ -4786,7 +4844,11 @@ pg.furniture_data_template = setmetatable({
 			95302,
 			95303,
 			95304,
-			95305
+			95305,
+			99301,
+			99302,
+			99303,
+			99304
 		}
 	},
 	get_id_list_by_type = {
@@ -4867,6 +4929,7 @@ pg.furniture_data_template = setmetatable({
 			93002,
 			94002,
 			95002,
+			99002,
 			300002,
 			301002
 		},
@@ -4986,7 +5049,8 @@ pg.furniture_data_template = setmetatable({
 			100023,
 			100024,
 			100025,
-			100026
+			100026,
+			100027
 		},
 		[2] = {
 			120,
@@ -6427,6 +6491,25 @@ pg.furniture_data_template = setmetatable({
 			95142,
 			95143,
 			95144,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
+			99128,
 			300101,
 			300102,
 			300103,
@@ -6604,6 +6687,7 @@ pg.furniture_data_template = setmetatable({
 			93001,
 			94001,
 			95001,
+			99001,
 			300001,
 			301001
 		},
@@ -6848,6 +6932,10 @@ pg.furniture_data_template = setmetatable({
 			92202,
 			92203,
 			92204,
+			99201,
+			99202,
+			99203,
+			99204,
 			300201,
 			300202
 		},
@@ -7105,7 +7193,11 @@ pg.furniture_data_template = setmetatable({
 			95302,
 			95303,
 			95304,
-			95305
+			95305,
+			99301,
+			99302,
+			99303,
+			99304
 		},
 		[8] = {
 			17121
@@ -7270,6 +7362,7 @@ pg.furniture_data_template = setmetatable({
 		100024,
 		100025,
 		100026,
+		100027,
 		200001,
 		200002,
 		200003,
@@ -9381,6 +9474,35 @@ pg.furniture_data_template = setmetatable({
 		95303,
 		95304,
 		95305,
+		99001,
+		99002,
+		99101,
+		99102,
+		99103,
+		99104,
+		99105,
+		99106,
+		99109,
+		99112,
+		99113,
+		99114,
+		99115,
+		99116,
+		99117,
+		99120,
+		99121,
+		99123,
+		99124,
+		99126,
+		99128,
+		99201,
+		99202,
+		99203,
+		99204,
+		99301,
+		99302,
+		99303,
+		99304,
 		300001,
 		300002,
 		300101,
@@ -16709,6 +16831,83 @@ pg.base.furniture_data_template = {
 			{
 				"tiaojiCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100027] = {
+		spine_extra = "",
+		describe = "乘著泡泡~遠走高飛~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾泡泡機",
+		themeId = 0,
+		icon = "paopaojiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100027,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paopaojiB",
+				"normal"
+			},
+			{
+				"paopaojiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"stand2"
+					},
+					"tuozhuai2"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -108598,6 +108797,1367 @@ pg.base.furniture_data_template = {
 		picture = "lj/xiangkuanglj",
 		canputon = 0,
 		id = 95305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99001] = {
+		spine_extra = "",
+		describe = "蒸騰的霧氣，蘊含著人生至高的哲理。",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "溫泉地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanwqicon",
+		spine_action_replace = "",
+		picture = "wq/dibanwq",
+		comfortable = 4,
+		canputon = 0,
+		id = 99001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99002] = {
+		spine_extra = "",
+		describe = "蒸騰的霧氣，蘊含著人生至高的哲理。",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "溫泉壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiwqicon",
+		spine_action_replace = "",
+		picture = "wq/qiangbiwq",
+		comfortable = 4,
+		canputon = 0,
+		id = 99002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99101] = {
+		spine_extra = "",
+		describe = "能容納下同伴們的大溫泉。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 99,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dawenquanwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "大溫泉",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "wq/dawenquanwq",
+		canputon = 0,
+		id = 99101,
+		can_rotate = 0,
+		size = {
+			10,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					1,
+					1
+				},
+				"wq/dawenquanwq_using1",
+				0,
+				{
+					{
+						-49.8,
+						95.2
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using4",
+				0,
+				{
+					{
+						71.8,
+						68.9
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					1,
+					1
+				},
+				"wq/dawenquanwq_using3",
+				0,
+				{
+					{
+						-158.8,
+						20.2
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using2",
+				0,
+				{
+					{
+						176.5,
+						-6.7
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using5",
+				0,
+				{
+					{
+						-36.6,
+						-35.4
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using6",
+				0,
+				{
+					{
+						87.3,
+						-79.9
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99102] = {
+		spine_extra = "",
+		describe = "擺放在室內的小方桌。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangzhuowqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉方桌",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "wq/fangzhuowq",
+		canputon = 1,
+		id = 99102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			21.29
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99103] = {
+		spine_extra = "",
+		describe = "汽水、果汁、罐裝咖啡，應有盡有！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fanmaijiwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "自動販賣機",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/fanmaijiwq",
+		canputon = 0,
+		id = 99103,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99104] = {
+		spine_extra = "",
+		describe = "嗒……嗒……嗒……嗒……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jingluwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "驚鹿",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/jingluwq",
+		canputon = 0,
+		id = 99104,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99105] = {
+		spine_extra = "",
+		describe = "藏在後面的話，應該很容易就被發現吧……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kuzhuwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "枯竹裝飾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/kuzhuwq",
+		canputon = 0,
+		id = 99105,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99106] = {
+		spine_extra = "",
+		describe = "稍具造型的路燈。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "ludengwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉路燈",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/ludengwq",
+		canputon = 0,
+		id = 99106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99109] = {
+		spine_extra = "",
+		describe = "樸素的落地燈。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "luodidengwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉落地燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "wq/luodidengwq",
+		canputon = 0,
+		id = 99109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99112] = {
+		spine_extra = "",
+		describe = "用於遮擋溫泉水汽的門簾。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "menlianwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉門簾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/menlianwq",
+		canputon = 0,
+		id = 99112,
+		can_rotate = 0,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99113] = {
+		spine_extra = "",
+		describe = "心情好的話，不如在附近閒逛一下吧。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mujiwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "木屐",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "wq/mujiwq",
+		canputon = 0,
+		id = 99113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99114] = {
+		spine_extra = "",
+		describe = "用於裝飾的室內小盆景。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "penjingwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉盆景",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/penjingwq",
+		canputon = 0,
+		id = 99114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99115] = {
+		spine_extra = "",
+		describe = "印有水墨繪畫的屏風。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingfengwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉屏風",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "Wq/pingfengwq",
+		canputon = 0,
+		id = 99115,
+		can_rotate = 0,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99116] = {
+		spine_extra = "",
+		describe = "裝飾用的石頭，上面寫著溫泉的介紹語。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "石頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/shitouwq",
+		canputon = 0,
+		id = 99116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99117] = {
+		spine_extra = "",
+		describe = "累了就來休息會吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 99,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "tatamiwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "榻榻米床",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "wq/tatamiwq",
+		canputon = 1,
+		id = 99117,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {
+			0,
+			-5.05
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		interAction = {
+			{
+				"sleep",
+				{
+					25,
+					59
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99120] = {
+		spine_extra = "",
+		describe = "用於收納浴衣的木架子。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yuyijiawqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "浴衣架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/yuyijiawq",
+		canputon = 0,
+		id = 99120,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99121] = {
+		spine_extra = "",
+		describe = "供個人獨享的小溫泉池。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 99,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaowenquanwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小溫泉",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "wq/xiaowenquanwq",
+		canputon = 0,
+		id = 99121,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-0.8,
+					-147.8
+				},
+				{
+					-1,
+					1
+				},
+				"wq/xiaowenquanwq_using",
+				0,
+				{
+					{
+						0.4,
+						71.6
+					},
+					{
+						316,
+						344
+					},
+					"wq/xiaowenquanwq_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99123] = {
+		spine_extra = "",
+		describe = "舒舒服服地洗個澡吧。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zaopenwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "木澡盆",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/zaopenwq",
+		canputon = 0,
+		id = 99123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99124] = {
+		spine_extra = "",
+		describe = "普通的室內坐墊。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 99,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zuodian1wqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉坐墊(厚)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "wq/zuodian1wq",
+		canputon = 0,
+		id = 99124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.1,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99126] = {
+		spine_extra = "",
+		describe = "普通的室內坐墊。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 99,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "zuodian2wqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉坐墊(薄)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "wq/zuodian2wq",
+		canputon = 0,
+		id = 99126,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.1,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99128] = {
+		spine_extra = "",
+		describe = "火山造型的小溫泉，應該不會突然“噴發”吧？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "火山溫泉",
+		themeId = 99,
+		icon = "huoshanwenquanwqicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 99128,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huoshanwenquanwqB",
+				"normal"
+			},
+			{
+				"huoshanwenquanwqT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[99201] = {
+		spine_extra = "",
+		describe = "沁人心脾的一杯綠茶。",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "lvchawqicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "綠茶",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/lvchawq",
+		canputon = 0,
+		id = 99201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99202] = {
+		spine_extra = "",
+		describe = "喝了……也許能長高？",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "niunaiwqicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "牛奶",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/niunaiwq",
+		canputon = 0,
+		id = 99202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99203] = {
+		spine_extra = "",
+		describe = "不同的顏色有著不一樣的口味哦！",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "tuanziwqicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "糰子",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/tuanziwq",
+		canputon = 0,
+		id = 99203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99204] = {
+		spine_extra = "",
+		describe = "美味而特別的溫泉蛋。",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "wenquandanwqicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "溫泉蛋",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/wenquandanwq",
+		canputon = 0,
+		id = 99204,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99301] = {
+		spine_extra = "",
+		describe = "用於裝飾室內的藝術掛畫。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuawqicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "室內掛畫",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/guahuawq",
+		canputon = 0,
+		id = 99301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99302] = {
+		spine_extra = "",
+		describe = "側向推拉的木窗。請不要隨意在指格上戳洞！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "lachuangwqicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "推拉窗",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "wq/lachuangwq",
+		canputon = 0,
+		id = 99302,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99303] = {
+		spine_extra = "",
+		describe = "側向推拉的木門。用力過猛的話門可能承受不住……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "lamenwqicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "推拉木門",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "wq/lamenwq",
+		canputon = 0,
+		id = 99303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99304] = {
+		spine_extra = "",
+		describe = "畫著有趣場景的掛畫。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 99,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "shufawqicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "漫畫掛畫",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "wq/shufawq",
+		canputon = 0,
+		id = 99304,
 		can_rotate = 0,
 		size = {
 			2,

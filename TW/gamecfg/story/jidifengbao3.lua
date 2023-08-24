@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「手术刀」",
+					"分隊代號「手術刀」",
 					1
 				},
 				{
-					"旗舰：古比雪夫",
+					"旗艦：古比雪夫",
 					2
 				},
 				{
-					"斯瓦尔巴特群岛外围·临时补给点-诺德前哨站周边海域",
+					"斯瓦爾巴特群島外圍·臨時補給點-諾德前哨站周邊海域",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "天蒙蒙亮，在浮冰的空隙处，一支舰队正在缓缓航行。",
+			say = "天濛濛亮，在浮冰的空隙處，一支艦隊正在緩緩航行。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好困……稍微有点，失策了……",
+			say = "好睏……稍微有點，失策了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "昨晚你又熬夜了？喏，这罐热巧克力给你。",
+			say = "昨晚妳又熬夜了？喏，這罐熱巧克力給你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……我就不客气了。",
+			say = "唔……我就不客氣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明只是稍微看了一下资料，等回过神来的时候已经天亮了……",
+			say = "明明只是稍微看了一下資料，等回過神來的時候已經天亮了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "谢谢……咕噜——咕噜——",
+			say = "謝謝……咕嚕——咕嚕——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "你们感觉好点了吗？",
+			say = "妳們感覺好點了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……感觉身体暖和起来了，非常感谢。",
+			say = "嗯……感覺身體暖和起來了，非常感謝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "塔什干可一直都是绝佳状态哦！",
+			say = "塔什干可一直都是絕佳狀態哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "对了……差点忘记定时检查一下量产型舰队的状况了。",
+			say = "對了……差點忘記定時檢查一下量產型艦隊的狀況了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "不用担心，舰队的情况我刚刚已经检查过了，一切正常。",
+			say = "不用擔心，艦隊的情況我剛剛已經檢查過了，一切正常。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的抗住了极地的恶劣环境……",
+			say = "居然真的抗住了極地的惡劣環境……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "哼哼哼，这次我们率领的量产型，都是刚从某个秘密科研基地调来的实验型哦~",
+			say = "哼哼哼，這次我們率領的量產型，都是剛從某個秘密科研基地調來的實驗型哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "不但为了这次作战特意提高了对抗塞壬电磁干扰的能力，好像还做了许多“特别改装”！",
+			say = "不但為了這次作戰特意提高了對抗塞壬電磁干擾的能力，好像還做了許多“特別改裝”！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这部分也是写在资料里的么……雷鸣昨晚还没看到。",
+			say = "這部分也是寫在資料裡的嗎……雷鳴昨晚還沒看到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塔什干什么时候对这种事这么感兴趣了？",
+			say = "塔什干什麼時候對這種事這麼感興趣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "没有哦，这些只是我翻阅资料的时候顺便看到的而已。",
+			say = "沒有哦，這些只是我翻閱資料的時候順便看到的而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺便看到？那为什么也这么困呢，刚刚你偷偷打哈欠了吧。",
+			say = "順便看到？那為什麼也這麼睏呢，剛剛妳偷偷打哈欠了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "才没有呢！不是说了么，塔什干一直是绝佳状态哦！",
+			say = "才沒有呢！不是說了麼，塔什干一直是絕佳狀態哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然你这么坚持……那就当是这样吧。",
+			say = "既然妳這麼堅持……那就當做是這樣吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是这些“特别改装”，特殊在哪里呢？",
+			say = "可是這些“特別改裝”，特殊在哪裡呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从外形上看，好像和之前的没什么区别的样子……",
+			say = "從外形上看，好像和之前的沒什麼區別的樣子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "大概是加装了什么别的奇怪的零件吧？",
+			say = "大概是加裝了什麼別的奇怪的零件吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "如果灵敏在这里的话，她肯定乐意给你解释半天的。",
+			say = "如果靈敏在這裡的話，她肯定樂意解釋半天給妳聽的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是这样么……",
+			say = "是這樣嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "怎么了，你好像不是很放心的样子？",
+			say = "怎麼了，妳好像不是很放心的樣子？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我只是在想，应对塞壬的特殊设备，好像总会在关键时刻出现无法使用的情况……",
+			say = "嗯……我只是在想，應對塞壬的特殊設備，好像總會在關鍵時刻出現無法使用的情況……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "…………无、无法反驳。",
+			say = "…………無、無法反駁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "如果真发生了这种情况，记住，一定要优先保证自身的安全，不要蛮干。",
+			say = "如果真發生了這種情況，記住，一定要優先保證自身的安全，不要蠻幹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "至于任务的事，我会再想办法。",
+			say = "至於任務的事，我會再想辦法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "古比雪夫又想自己承担所有的危险吗？",
+			say = "古比雪夫又想自己承擔所有的危險嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说——还是希望我们能够一切顺利吧，就这样。",
+			say = "所以說——還是希望我們能夠一切順利吧，就這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "短暂的沉默之后，浮冰的空隙忽然变宽，视线也清晰起来。",
+			say = "短暫的沉默之後，浮冰的空隙忽然變寬，視線也清晰起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "前面的水道变得开阔了，补给舰队应该就在……找到了。",
+			say = "前面的水道變得開闊了，補給艦隊應該就在……找到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "白鹰的舰队意外准时呢……塔什干还以为它们不会来了。",
+			say = "白鷹的艦隊意外準時呢……塔什干還以為它們不會來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "说好的事，白鹰不会变卦的。",
+			say = "說好的事，白鷹不會變卦的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "不过这也是她们在这场战役中提供的唯一支援，剩下的事都要靠我们自己。",
+			say = "不過這也是她們在這場戰役中提供的唯一支援，剩下的事都要靠我們自己。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			actor = 702050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在白鹰控制区内不宜久留，我们快速补给，速战速决吧。",
+			say = "在白鷹控制區內不宜久留，我們快速補給，速戰速決吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -271,6 +271,10 @@ function slot0.ShouldTipInvitation(slot0)
 end
 
 function slot0.ShouldTip(slot0)
+	if not slot0.data then
+		return false
+	end
+
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.FEAST_TASK_ACT) or slot1:isEnd() then
 		return false
 	end

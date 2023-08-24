@@ -243977,6 +243977,514 @@ _G.pg.base.ship_data_statistics[702064] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[702071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "伏羅希洛夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702070,
+	english_name = "SN Voroshilov",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		749,
+		27,
+		36,
+		77,
+		0,
+		69,
+		0,
+		54,
+		39,
+		36.5,
+		52,
+		37
+	},
+	attrs_growth = {
+		19202,
+		379,
+		501,
+		1576,
+		0,
+		478,
+		0,
+		798,
+		815,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		261
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "伏羅希洛夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702070,
+	english_name = "SN Voroshilov",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		932,
+		34,
+		45,
+		96,
+		0,
+		69,
+		0,
+		54,
+		39,
+		36.5,
+		52,
+		46
+	},
+	attrs_growth = {
+		19202,
+		379,
+		501,
+		1576,
+		0,
+		478,
+		0,
+		798,
+		815,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		262
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "伏羅希洛夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702070,
+	english_name = "SN Voroshilov",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1297,
+		47,
+		63,
+		133,
+		0,
+		69,
+		0,
+		54,
+		39,
+		36.5,
+		52,
+		65
+	},
+	attrs_growth = {
+		19202,
+		379,
+		501,
+		1576,
+		0,
+		478,
+		0,
+		798,
+		815,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		263
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "伏羅希洛夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702070,
+	english_name = "SN Voroshilov",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1846,
+		68,
+		90,
+		190,
+		0,
+		69,
+		0,
+		54,
+		39,
+		36.5,
+		52,
+		93
+	},
+	attrs_growth = {
+		19202,
+		379,
+		501,
+		1576,
+		0,
+		478,
+		0,
+		798,
+		815,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
 _G.pg.base.ship_data_statistics[702124] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -244593,6 +245101,506 @@ _G.pg.base.ship_data_statistics[703014] = {
 		1.55,
 		1.25,
 		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[703021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "庫斯克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 703020,
+	english_name = "SN Kursk",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 703021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		840,
+		52,
+		39,
+		23,
+		0,
+		69,
+		0,
+		53,
+		11,
+		30.4,
+		10,
+		0
+	},
+	attrs_growth = {
+		20490,
+		700,
+		541,
+		513,
+		0,
+		478,
+		0,
+		777,
+		429,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		391
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.1,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[703022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "庫斯克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 703020,
+	english_name = "SN Kursk",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 703022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1045,
+		65,
+		49,
+		29,
+		0,
+		69,
+		0,
+		53,
+		11,
+		30.4,
+		10,
+		0
+	},
+	attrs_growth = {
+		20490,
+		700,
+		541,
+		513,
+		0,
+		478,
+		0,
+		777,
+		429,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		392
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.12,
+		0.92,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[703023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "庫斯克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 703020,
+	english_name = "SN Kursk",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 703023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1455,
+		90,
+		68,
+		40,
+		0,
+		69,
+		0,
+		53,
+		11,
+		30.4,
+		10,
+		0
+	},
+	attrs_growth = {
+		20490,
+		700,
+		541,
+		513,
+		0,
+		478,
+		0,
+		777,
+		429,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		393
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.95,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[703024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "庫斯克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 703020,
+	english_name = "SN Kursk",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 703024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2069,
+		129,
+		97,
+		58,
+		0,
+		69,
+		0,
+		53,
+		11,
+		30.4,
+		10,
+		0
+	},
+	attrs_growth = {
+		20490,
+		700,
+		541,
+		513,
+		0,
+		478,
+		0,
+		777,
+		429,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		394
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1,
 		0.3
 	},
 	strategy_list = {},
@@ -246600,6 +247608,506 @@ _G.pg.base.ship_data_statistics[705064] = {
 	},
 	tag_list = {
 		"Arkhangelsk",
+		"Northern Union-BB"
+	}
+}
+
+_G.pg.base.ship_data_statistics[705071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞瓦斯托波爾",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705070,
+	english_name = "SN Sevastopol",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 705071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1082,
+		62,
+		0,
+		39,
+		0,
+		55,
+		0,
+		20,
+		6,
+		24.1,
+		88,
+		0
+	},
+	attrs_growth = {
+		29057,
+		764,
+		0,
+		852,
+		0,
+		381,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+_G.pg.base.ship_data_statistics[705072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞瓦斯托波爾",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705070,
+	english_name = "SN Sevastopol",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 705072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1346,
+		77,
+		0,
+		49,
+		0,
+		55,
+		0,
+		20,
+		6,
+		24.1,
+		88,
+		0
+	},
+	attrs_growth = {
+		29057,
+		764,
+		0,
+		852,
+		0,
+		381,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+_G.pg.base.ship_data_statistics[705073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞瓦斯托波爾",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705070,
+	english_name = "SN Sevastopol",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 705073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1874,
+		108,
+		0,
+		68,
+		0,
+		55,
+		0,
+		20,
+		6,
+		24.1,
+		88,
+		0
+	},
+	attrs_growth = {
+		29057,
+		764,
+		0,
+		852,
+		0,
+		381,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+_G.pg.base.ship_data_statistics[705074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞瓦斯托波爾",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705070,
+	english_name = "SN Sevastopol",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 705074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2666,
+		154,
+		0,
+		96,
+		0,
+		55,
+		0,
+		20,
+		6,
+		24.1,
+		88,
+		0
+	},
+	attrs_growth = {
+		29057,
+		764,
+		0,
+		852,
+		0,
+		381,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
 		"Northern Union-BB"
 	}
 }
@@ -294385,6 +295893,883 @@ _G.pg.base.ship_data_statistics[900361] = {
 	},
 	tag_list = {
 		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900368] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "明斯克",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 701030,
+	english_name = "SN Minsk",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900368,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1037,
+		67,
+		104,
+		79,
+		0,
+		74,
+		0,
+		67,
+		65,
+		48,
+		58,
+		124
+	},
+	attrs_growth = {
+		11991,
+		370,
+		582,
+		701,
+		0,
+		513,
+		0,
+		1032,
+		1208,
+		0,
+		0,
+		568
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		85053,
+		45253,
+		85231
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Leningrad-Class",
+		"Northern Union-DD"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900369] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "恰巴耶夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702030,
+	english_name = "SN Chapayev",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900369,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1868,
+		79,
+		0,
+		156,
+		0,
+		72,
+		0,
+		56,
+		30,
+		33.5,
+		68,
+		89
+	},
+	attrs_growth = {
+		18806,
+		437,
+		0,
+		1337,
+		0,
+		498,
+		0,
+		828,
+		599,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		85173,
+		85053,
+		85231
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chapayev-Class",
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900370] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "蘇維埃俄羅斯",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705050,
+	english_name = "SN Sovetskaya Rossiya",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900370,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3404,
+		203,
+		0,
+		114,
+		0,
+		51,
+		0,
+		19,
+		8,
+		28,
+		46,
+		0
+	},
+	attrs_growth = {
+		37387,
+		1006,
+		0,
+		1007,
+		0,
+		356,
+		0,
+		307,
+		212,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		14473,
+		85173,
+		85231
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sovetsky Soyuz-Class",
+		"Northern Union-BB"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900371] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "窩瓦",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 707010,
+	english_name = "SN Volga",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900371,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2941,
+		0,
+		0,
+		171,
+		187,
+		45,
+		0,
+		35,
+		12,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		29120,
+		0,
+		0,
+		1446,
+		947,
+		314,
+		0,
+		513,
+		259,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		85553,
+		85553,
+		85573
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		2,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Volga"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900372] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "庫斯克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 703020,
+	english_name = "SN Kursk",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900372,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2069,
+		129,
+		97,
+		58,
+		0,
+		69,
+		0,
+		53,
+		11,
+		30.4,
+		10,
+		0
+	},
+	attrs_growth = {
+		20490,
+		700,
+		541,
+		513,
+		0,
+		478,
+		0,
+		777,
+		429,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		394
+	},
+	default_equip_list = {
+		23133,
+		45253,
+		85231
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900373] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "伏羅希洛夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702070,
+	english_name = "SN Voroshilov",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900373,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1846,
+		68,
+		90,
+		190,
+		0,
+		69,
+		0,
+		54,
+		39,
+		36.5,
+		52,
+		93
+	},
+	attrs_growth = {
+		19202,
+		379,
+		501,
+		1576,
+		0,
+		478,
+		0,
+		798,
+		815,
+		0,
+		0,
+		442
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		85173,
+		45253,
+		85231
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900374] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞瓦斯托波爾",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 705070,
+	english_name = "SN Sevastopol",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900374,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2666,
+		154,
+		0,
+		80,
+		0,
+		55,
+		0,
+		20,
+		6,
+		24.1,
+		85,
+		0
+	},
+	attrs_growth = {
+		29057,
+		764,
+		0,
+		709,
+		0,
+		381,
+		0,
+		320,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		14473,
+		85173,
+		85231
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
 	}
 }
 

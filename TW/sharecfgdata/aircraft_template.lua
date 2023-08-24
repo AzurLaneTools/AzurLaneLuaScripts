@@ -66557,6 +66557,190 @@ _G.pg.base.aircraft_template[100814] = {
 	}
 }
 
+_G.pg.base.aircraft_template[160831] = {
+	attack_power = 2,
+	name = "库尔斯克水上机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "Be-4",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 160831,
+	icon = "Be-4",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1404,
+	speed = 46,
+	max_hp = 39,
+	scale = 1,
+	weapon_ID = {
+		160841
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160832] = {
+	id = 160832,
+	name = "库尔斯克水上机Lv2",
+	hp_growth = 1615,
+	base = 160831,
+	max_hp = 44,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160842
+	}
+}
+
+_G.pg.base.aircraft_template[160833] = {
+	id = 160833,
+	name = "库尔斯克水上机Lv3",
+	hp_growth = 1826,
+	base = 160831,
+	max_hp = 49,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160843
+	}
+}
+
+_G.pg.base.aircraft_template[160834] = {
+	id = 160834,
+	name = "库尔斯克水上机Lv4",
+	hp_growth = 2036,
+	base = 160831,
+	max_hp = 55,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160844
+	}
+}
+
+_G.pg.base.aircraft_template[160835] = {
+	id = 160835,
+	name = "库尔斯克水上机Lv5",
+	hp_growth = 2247,
+	base = 160831,
+	max_hp = 60,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160845
+	}
+}
+
+_G.pg.base.aircraft_template[160836] = {
+	id = 160836,
+	name = "库尔斯克水上机Lv6",
+	hp_growth = 2458,
+	base = 160831,
+	max_hp = 66,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160846
+	}
+}
+
+_G.pg.base.aircraft_template[160837] = {
+	id = 160837,
+	name = "库尔斯克水上机Lv7",
+	hp_growth = 2669,
+	base = 160831,
+	max_hp = 71,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160847
+	}
+}
+
+_G.pg.base.aircraft_template[160838] = {
+	id = 160838,
+	name = "库尔斯克水上机Lv8",
+	hp_growth = 2879,
+	base = 160831,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160848
+	}
+}
+
+_G.pg.base.aircraft_template[160839] = {
+	id = 160839,
+	name = "库尔斯克水上机Lv9",
+	hp_growth = 3090,
+	base = 160831,
+	max_hp = 82,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160849
+	}
+}
+
+_G.pg.base.aircraft_template[160840] = {
+	id = 160840,
+	name = "库尔斯克水上机Lv10",
+	hp_growth = 3301,
+	base = 160831,
+	max_hp = 88,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160850
+	}
+}
+
 _G.pg.base.aircraft_template[161151] = {
 	attack_power = 2,
 	name = "小大凤技能鱼雷机Lv1",
@@ -205593,6 +205777,1234 @@ _G.pg.base.aircraft_template[3037403] = {
 		},
 		{
 			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059361] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】BOSS 清除者γ型 第一波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 3059361,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70096
+	},
+	weapon_ID = {
+		3059363,
+		3059364
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059362] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】BOSS 清除者γ型 第一波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 3059362,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70097
+	},
+	weapon_ID = {
+		3059363,
+		3059364
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059371] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】BOSS 清除者γ型 第三波 战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 196,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059371,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5600,
+	speed = 33,
+	max_hp = 640,
+	scale = 0.75,
+	weapon_ID = {
+		3059374
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059372] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】BOSS 清除者γ型 第三波 轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 351,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059372,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 7600,
+	speed = 30,
+	max_hp = 800,
+	scale = 0.75,
+	weapon_ID = {
+		3059375
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059373] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】BOSS 清除者γ型 第三波 鱼雷机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 272,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059373,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6800,
+	speed = 30,
+	max_hp = 720,
+	scale = 0.75,
+	weapon_ID = {
+		3059376
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059481] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】BOSS 清除者μ型 第一波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 3059481,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70096
+	},
+	weapon_ID = {
+		3059483,
+		3059484
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059482] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】BOSS 清除者μ型 第一波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	nationality = 3,
+	id = 3059482,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70097
+	},
+	weapon_ID = {
+		3059483,
+		3059484
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059493] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】BOSS 清除者μ型 第三波 战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 196,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059493,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5600,
+	speed = 33,
+	max_hp = 640,
+	scale = 0.75,
+	weapon_ID = {
+		3059496
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059494] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】BOSS 清除者μ型 第三波 轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 351,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059494,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 7600,
+	speed = 30,
+	max_hp = 800,
+	scale = 0.75,
+	weapon_ID = {
+		3059497
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059495] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】BOSS 清除者μ型 第三波 鱼雷机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 272,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059495,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6800,
+	speed = 30,
+	max_hp = 720,
+	scale = 0.75,
+	weapon_ID = {
+		3059498
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059501] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】敌方支援弹幕 战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 196,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059501,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5600,
+	speed = 33,
+	max_hp = 1280,
+	scale = 0.75,
+	weapon_ID = {
+		3059374
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059502] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】敌方支援弹幕 轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 351,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059502,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 7600,
+	speed = 30,
+	max_hp = 1600,
+	scale = 0.75,
+	weapon_ID = {
+		3059375
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059503] = {
+	attack_power = 2,
+	name = "【2023北联SP SP】敌方支援弹幕 鱼雷机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 272,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059503,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6800,
+	speed = 30,
+	max_hp = 1440,
+	scale = 0.75,
+	weapon_ID = {
+		3059376
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059511] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】敌方支援弹幕 战斗机",
+	type = 1,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 196,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059511,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5600,
+	speed = 33,
+	max_hp = 1280,
+	scale = 0.75,
+	weapon_ID = {
+		3059496
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059512] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】敌方支援弹幕 轰炸机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 351,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059512,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 7600,
+	speed = 30,
+	max_hp = 1600,
+	scale = 0.75,
+	weapon_ID = {
+		3059497
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3059513] = {
+	attack_power = 2,
+	name = "【2023北联SP EX】敌方支援弹幕 鱼雷机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 272,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3059513,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 6800,
+	speed = 30,
+	max_hp = 1440,
+	scale = 0.75,
+	weapon_ID = {
+		3059498
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
 			0,
 			0
 		},

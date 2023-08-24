@@ -511,7 +511,7 @@ function slot0.GetBossRushFleets(slot0, slot1, slot2)
 			uv1[slot1] = TypedFleet.New({
 				id = slot1,
 				ship_list = {},
-				fleetType = slot2 and FleetType.Submarine or FleetType.Norma
+				fleetType = slot2 and FleetType.Submarine or FleetType.Normal
 			})
 		end
 

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -15,7 +15,8 @@ return {
 			effects = {
 				{
 					active = true,
-					name = "miwu_01"
+					name = "miwu_01",
+					center = true
 				}
 			},
 			flashN = {
@@ -61,7 +62,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一枚炮弹从后方射来，在距离二人很近的地方爆炸了。",
+			say = "一枚炮彈從後方射來，在距離二人很近的地方爆炸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶？怎么会有从这个方向来的攻击，我们被包围了吗……？",
+			say = "欸？怎麼會有從這個方向來的攻擊，我們被包圍了嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉……可能是我们的量产型把我们也识别成敌人了吧，哈哈……",
+			say = "唉……可能是我們的量產型把我們也識別成敵人了吧，哈哈……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这也太危险了！",
+			say = "這也太危險了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能见度这么低干扰又这么强不，也别太难为它们了。",
+			say = "能見度這麼低干擾又這麼強，也別太難為它們了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +140,7 @@ return {
 			side = 2,
 			actorName = "通讯器",
 			nameColor = "#A9F548FF",
-			say = "……已标记……位置……立即集合……",
+			say = "……已標記……位置……立即集合……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~是罗西亚同志的声音，通讯器好像终于有反应了。",
+			say = "噢~是俄羅斯同志的聲音，通訊器好像終於有反應了",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不单单是通讯，甚至连风雪好像也变弱了……",
+			say = "不單單是通訊，甚至連風雪好像也變弱了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来「镰鼬」分队的行动成功了啊，太好了~",
+			say = "看來「鐮鼬」分隊的行動成功了啊，太好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是明斯克，我已经和伏尔加汇合，通讯似乎正在恢复，请再次发送集合位置。",
+			say = "這裡是明斯克，我已經和窩瓦匯合，通訊似乎正在恢復，請再次發送集合位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "苏维埃罗西亚已收到，集合位置已再次发送。",
+			say = "蘇維埃俄羅斯已收到，集合位置已再次發送",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干扰正在减轻，清除者的量产型机体也已被再次击退。",
+			say = "干擾正在減輕，清除者的量產型機體也已被再次擊退。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的任务目标不变，继续向北极要塞方向接近。",
+			say = "我們的任務目標不變，繼續向北極要塞方向接近。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，大家都没事！",
+			say = "太好了，大家都沒事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +307,7 @@ return {
 			dir = 1,
 			BlackBg = true,
 			nameColor = "#A9F548FF",
-			say = "是呀，我们也该去和大家汇合咯——",
+			say = "是呀，我們也該去和大家匯合了——",
 			painting = {
 				alpha = 0.3,
 				time = 1

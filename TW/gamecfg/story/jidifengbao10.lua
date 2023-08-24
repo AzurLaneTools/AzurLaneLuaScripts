@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp3",
 			sequence = {
 				{
-					"分队代号「镰鼬」",
+					"分隊代號「鐮鼬」",
 					1
 				},
 				{
-					"旗舰：基洛夫",
+					"旗艦：基洛夫",
 					2
 				},
 				{
-					"楚科奇海要塞周边·塞壬控制区",
+					"楚科奇海要塞周邊·塞壬控制區",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "冰雪封锁了航路。而在更远处，塞壬未完工的防线正向基洛夫一行人倾泻着勉强说得过去的火力。",
+			say = "冰雪封鎖了航路。而在更遠處，塞壬未完工的防線正向基洛夫一行人傾瀉著勉強說得過去的火力。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "威严……无法移动了……",
+			say = "威嚴……無法移動了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌人的攻击倒是不足为惧……但是雪太大了！",
+			say = "敵人的攻擊倒是不足為懼……但是雪太大了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快想想办法吧，基洛夫同志！",
+			say = "快想想辦法吧，基洛夫同志！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——看来是时候了。",
+			say = "嗯——看來是時候了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是现在，“便携式气象稳定装置”启动——！",
+			say = "就是現在，“便攜式氣象穩定裝置”啟動——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在基洛夫下达指令后，多艘量产型的甲板上升起伸出了一个如同桅杆一般的机械装置。",
+			say = "在基洛夫下達指令後，多艘量產型的甲板上升起伸出了一個如同桅杆一般的機械裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "随即，一股温暖的气息包裹了众人的全身。",
+			say = "隨即，一股溫暖的氣息包裹了眾人的全身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "装置仿佛形成了一道隐形的屏障一般，减小了暴雪狂风，也融化了被封冻的冰面。",
+			say = "裝置彷彿形成了一道隱形的屏障一般，減小了暴雪狂風，也融化了被封凍的冰面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "雪停了，冰面也……变薄了。",
+			say = "雪停了，冰面也……變薄了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Ура！这样一来就能尽情战斗了~！",
+			say = "Ура！這樣一來就能盡情戰鬥了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……在启动了装置之后敌人的增援也没有出现。",
+			say = "呵呵……在啟動了裝置之後敵人的增援也沒有出現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然如同盟同志预料的一样。",
+			say = "果然如同盟同志預料的一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要能克服气象武器带来的影响，拿下此处尚未完成防御体系建设的要塞就如探囊取物一般。",
+			say = "只要能克服氣象武器帶來的影響，拿下此處尚未完成防禦體系建設的要塞就如探囊取物一般。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同志们，让我们突破这道不堪一击的防线！",
+			say = "同志們，讓我們突破這道不堪一擊的防線！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Давай, пойдём на войну（让我们大干一场）！",
+			say = "Давай, пойдём на войну（讓我們大幹一場）！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp",
 			sequence = {
 				{
-					"分队代号「重锤」",
+					"分隊代號「重錘」",
 					1
 				},
 				{
-					"旗舰：苏维埃贝拉罗斯",
+					"旗艦：蘇維埃白俄羅斯",
 					2
 				},
 				{
-					"“王冠”周边海域·塞壬控制区",
+					"“王冠”周邊海域·塞壬控制區",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈哈哈哈！只有这点实力吗！",
+			say = "啊哈哈哈哈哈！只有這點實力嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "前方发现新的塞壬增援舰队！",
+			say = "前方發現新的塞壬增援艦隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "无妨，不管来多少结局都是一样的！",
+			say = "無妨，不管來多少結局都是一樣的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "继续开火————！",
+			say = "繼續開火————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，这波增援舰队就由我收下了~",
+			say = "抱歉，這波增援艦隊就由我收下了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "炮火的隆隆声响彻天空，但是在那之前，塞壬的增援舰队已经在无数航弹的爆炸中化作燃烧的残骸。",
+			say = "炮火的隆隆聲響徹天空，但是在那之前，塞壬的增援艦隊已經在無數航彈的爆炸中化作燃燒的殘骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "好样的，契卡洛夫同志。这个威力真令人安心啊！",
+			say = "好樣的，契卡洛夫同志。這個威力真令人安心啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢夸奖，不过现在这种程度只能算是热身战吧。",
+			say = "多謝誇獎，不過現在這種程度只能算是熱身戰吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是超出预期的热闹场面啊。",
+			say = "……真是超出預期的熱鬧場面啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，既然闹成这样，正主想来随时都会登场了吧。",
+			say = "呵呵，既然鬧成這樣，正主想來隨時都會登場了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			say = "汝等真是——————",
@@ -288,10 +288,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "一叶蔽目，不见泰山！两豆塞耳，不闻雷霆！",
+			say = "一葉蔽目，不見泰山！兩豆塞耳，不聞雷霆！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,10 +304,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "没想到竟会自以为是到如此地步！",
+			say = "沒想到竟會自以為是到如此地步！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,10 +315,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "以为依靠全线进攻，吾就看不出汝等的图谋了么？！",
+			say = "以為依靠全線進攻，吾就看不出汝等的圖謀了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个登场方式……真是一点新意都没有。",
+			say = "這個登場方式……真是一點新意都沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "汝等的进攻不也是如此么？！",
+			say = "汝等的進攻不也是如此嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过是一次又一次的尝试，一次又一次的徒劳！",
+			say = "不過是一次又一次的嘗試，一次又一次的徒勞！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次可就难说了哦。",
+			say = "這次可就難說了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你既然自称看出我们的图谋了，不妨细细说说看？",
+			say = "妳既然自稱看出我們的圖謀了，不妨細細說說看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你觉得聊天流对我有用么！！",
+			say = "妳覺得聊天流對我有用嗎！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们这么大张旗鼓的闹腾，无非是吸引我的注意力然后拖延时间罢了！",
+			say = "妳們這麼大張旗鼓的鬧事，無非是吸引我的注意力然後拖延時間罷了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吸引我的注意力嘛，那就如你们所愿~拖延时间就别想了！",
+			say = "吸引我的注意力嘛，那就如妳們所願~拖延時間就別想了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "看我先解决了你们再去收拾其他的方向！",
+			say = "看我先解決了妳們再去收拾其他的方向！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈，死到临头还在嘴硬。",
+			say = "啊哈哈，死到臨頭還在嘴硬。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "想逃跑的话先过了我们这一关再说吧！",
+			say = "想逃跑的話先過了我們這一關再說吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "接招吧——「于吞噬天地的巨口之中诞生出的璀璨星河」！",
+			say = "接招吧——「於吞噬天地的巨口之中誕生出的璀璨星河」！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "一道耀眼的白光扫过水面，沿途的海水在刹那间沸腾，冰层与来不及规避的量产型军舰瞬间就化为了蒸汽。",
+			say = "一道耀眼的白光掃過水面，沿途的海水在剎那間沸騰，冰層與來不及閃避的量產型軍艦瞬間就化為了蒸汽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "好烫！",
+			say = "好燙！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "一上来就进入正题了啊……不能和它拉开距离，近身战！",
+			say = "一上來就進入正題了啊……不能和它拉開距離，近身戰！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "这次我倒要看看，你还能不能拿出点新花样！",
+			say = "這次我倒要看看，妳還能不能拿出點新花樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仪器回传，电磁压制效果正在消失，周边风力持续减弱中……",
+			say = "儀器回傳，電磁壓制效果正在消失，周邊風力持續減弱中……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干得漂亮，「手术刀」分队与「镰鼬」分队！",
+			say = "幹得漂亮，「手術刀」分隊與「鐮鼬」分隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啧……要不是构建者系统出现故障……怎么会出现IV型舰队不够用的情况……",
+			say = "嘖……要不是構建者系統出現故障……怎麼會出現IV型艦隊不夠用的情況……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔啊啊啊啊，无所谓了！",
+			say = "唔啊啊啊啊，無所謂了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "先集中力量消灭了你们，之后我一个个去解决就是了！",
+			say = "先集中力量消滅了你們，之後我一個個去解決就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "现身吧，执行者IV型舰队！",
+			say = "現身吧，執行者IV型艦隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……IV型舰队？指的是那些绿色的新型量产型么……",
+			say = "……IV型艦隊？指的是那些綠色的新型量產型嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈哈，看来你还是藏了些新东西的！",
+			say = "啊哈哈哈，看來妳還是藏了些新東西的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "庆贺吧，汝等将会有幸收到由吾亲自送出的终结祝福！",
+			say = "慶賀吧，汝等將會有幸收到由吾親自送出的終結祝福！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "这种祝福还是留给你自己吧。",
+			say = "這種祝福還是留給妳自己吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "多说无益，同志们，继续进攻！",
+			say = "多說無益，同志們，繼續進攻！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -975,7 +975,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "“王冠”之下，来自极北之地的勇士们正在向这片海域的主宰发起着挑战。",
+			say = "“王冠”之下，來自極北之地的勇士們正在向這片海域的主宰發起著挑戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			blackBg = true,
-			say = "闪烁的光芒中夹杂着凌乱的爆炸声，此地的战斗看来还会持续很久，很久——",
+			say = "閃爍的光芒中夾雜著凌亂的爆炸聲，此地的戰鬥看來還會持續很久，很久——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

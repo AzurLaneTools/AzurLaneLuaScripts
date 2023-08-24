@@ -2569,7 +2569,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 135,
 		t_level = 6,
 		ships = {
-			70204
+			70204,
+			70207
 		}
 	},
 	[70205] = {
@@ -2594,6 +2595,17 @@ pg.fleet_tech_ship_class = {
 			70301
 		}
 	},
+	[70302] = {
+		shiptype = 3,
+		name = "庫斯克",
+		nation = 7,
+		id = 70302,
+		t_level_1 = 136,
+		t_level = 8,
+		ships = {
+			70302
+		}
+	},
 	[70501] = {
 		shiptype = 5,
 		name = "甘古特級",
@@ -2602,7 +2614,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 135,
 		t_level = 5,
 		ships = {
-			70501
+			70501,
+			70507
 		}
 	},
 	[70502] = {
@@ -3112,6 +3125,7 @@ pg.fleet_tech_ship_class = {
 		70204,
 		70205,
 		70301,
+		70302,
 		70501,
 		70502,
 		70503,

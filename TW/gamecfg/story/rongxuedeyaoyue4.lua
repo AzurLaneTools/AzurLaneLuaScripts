@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>鸢尾花的指引</size>",
+					"融雪的邀約\n\n<size=45>4 4.鳶尾花的指引</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "雪原中的一汪清泉，蒸腾的水汽萦绕在空中，似乎从中还传来了窸窸窣窣的声音。",
+			say = "雪原中的一汪清泉，蒸騰的水汽縈繞在空中，似乎從中還傳來了窸窸窣窣的聲音。",
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "在我走近时，耳畔响起了少女那熟悉的祷告声——",
+			say = "在我走近時，耳畔響起了少女那熟悉的禱告聲——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "「……赞叹您的恩泽，让我们得以在此舒缓旅途的倦怠……」",
+			say = "「……讚歎您的恩澤，讓我們得以在此舒緩旅途的倦怠……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "「……感激您的指引，让我们在此寻得肉体与精神的小歇……」",
+			say = "「……感激您的指引，讓我們在此尋得肉體與精神的小歇……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "既然已经来到此地，一言不发地站在我的身后，可不是什么礼貌的行为，指挥官。",
+			say = "既然已經來到此地，一言不發地站在我的身後，可不是什麼禮貌的行為，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "难道说，在刚才我换衣服的时候，您犯下了名为“偷窥”的罪行？",
+			say = "難道說，在剛才我換衣服的時候，您犯下了名為“偷窺”的罪行？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,11 +146,11 @@ return {
 			},
 			options = {
 				{
-					content = "其实什么也没有看见",
+					content = "其實什麼也沒有看見",
 					flag = 1
 				},
 				{
-					content = "只是顺着鸢尾花的痕迹，误入此处……",
+					content = "只是順著鳶尾花的痕跡，誤入此處……",
 					flag = 2
 				}
 			}
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才明显感觉到了您的视线……难道是错觉？",
+			say = "剛才明顯感覺到了您的視線……難道是錯覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			optionFlag = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "……无法做出准确的裁定，只好暂且相信您这一回。",
+			say = "……無法做出準確的裁定，只好暫且相信您這一回。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "……鸢尾花，沿途有栽种过么……",
+			say = "……鳶尾花，沿途有栽種過嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			optionFlag = 2,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "虽然不知您是不是以此来开脱，但只此一次的话……暂且饶恕您。",
+			say = "雖然不知您是不是以此來開脫，但只此一次的話……暫且饒恕您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果您也打算来享受冬日温泉那美好又温暖的治愈的话，可以和我一同……",
+			say = "如果您也打算來享受冬日溫泉那美好又溫暖的治癒的話，可以和我一同……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "……对，就是“共浴”的邀请。",
+			say = "……對，就是“共浴”的邀請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知是否是错觉，霞飞的脸上似乎爬上了一抹微红？",
+			say = "不知是否是錯覺，霞飛的臉上似乎爬上了一抹微紅？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "您感觉如何，指挥官？",
+			say = "您感覺如何，指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这汪温泉，让您身心感觉到些许的治愈了吗？",
+			say = "這汪溫泉，讓您身心感覺到些許的治癒了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "温暖而舒畅的感觉游走在四肢百骸之中，感觉身体中的疲惫一扫而空。",
+			say = "溫暖而舒暢的感覺遊走在四肢百骸之中，感覺身體中的疲憊一掃而空。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "倘若这汪温泉能治愈您身体当中积攒的劳累，那便再好不过了。",
+			say = "倘若這汪溫泉能治癒您身體當中積攢的勞累，那便再好不過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "另外，请让我帮您进行一些入浴后的按摩……对促进血液循环大有好处。",
+			say = "另外，請讓我幫您進行一些入浴後的按摩……對促進血液循環大有好處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 907012,
 			nameColor = "#A9F548FF",
-			say = "毕竟是难得的休憩，如果不好好享受放松的话，反而是辜负了“鸢尾花的指引”哦——",
+			say = "畢竟是難得的休憩，如果不好好享受放鬆的話，反而是辜負了“鳶尾花的指引”哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1

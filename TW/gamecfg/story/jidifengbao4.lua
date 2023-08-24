@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp3",
 			sequence = {
 				{
-					"分队代号「手术刀」",
+					"分隊代號「手術刀」",
 					1
 				},
 				{
-					"旗舰：古比雪夫",
+					"旗艦：古比雪夫",
 					2
 				},
 				{
-					"格陵兰要塞周边海域·塞壬控制区",
+					"格陵蘭要塞周邊海域·塞壬控制區",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "此刻，舰队正贴着塞壬防线的外边缘航行。",
+			say = "此刻，艦隊正貼著塞壬防線的外邊緣航行。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪……一路上，塔什干都没遇到什么像样的敌人。",
+			say = "奇怪……一路上，塔什干都沒遇到什麼像樣的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 702050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许是被别的战线牵制了吧。",
+			say = "或許是被別的戰線牽制了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "就算是塞壬，能在单位时间内投入的兵力也是有限的。",
+			say = "就算是塞壬，能在單位時間內投入的兵力也是有限的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我们这次选择多条战线同时推进，正好可以让清除者把破绽暴露出来。",
+			say = "我們這次選擇多條戰線同時推進，正好可以讓清除者把破綻暴露出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "极光好像变得更强了……",
+			say = "極光好像變得更強了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "资料中说，极光越强烈，电子设备受到的干扰就会越明显。",
+			say = "資料中說，極光越強烈，電子設備受到的干擾就會越明顯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的量产型还好吗？",
+			say = "我們的量產型還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "看上去一切正常，看来这次真的是下了不少功夫来升级呢~",
+			say = "看上去一切正常，看來這次真的是下了不少功夫來升級呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "先让它们就位吧。塞壬要塞就在不远处，在抵达之前做好战斗准备。",
+			say = "先讓它們就位吧。塞壬要塞就在不遠處，在抵達之前做好戰鬥準備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "了解。正在调动量产型舰队进入炮击阵位。",
+			say = "了解。正在調動量產型艦隊進入炮擊陣位。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "很好，我们也上吧——",
+			say = "很好，我們也上吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "古比雪夫率先加速，飞溅的海水在溅落的过程中便化为了冰晶，很快便被风雪吹散了。",
+			say = "古比雪夫率先加速，飛濺的海水在濺落的過程中便化為了冰晶，很快便被風雪吹散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "量产型舰队，开火！",
+			say = "量產型艦隊，開火！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "密集的炮火声响起，喷涌的火光中炮弹如冰雹般投射到目标区域，命中的瞬间震碎了周围的冰层。",
+			say = "密集的炮火聲響起，噴湧的火光中炮彈如冰雹般投射到目標區域，命中的瞬間震碎了周圍的冰層。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "整座要塞也仿佛被唤醒一般，无数量产型冲破冰面，向着众人的方向发起猛攻。",
+			say = "整座要塞也彷彿被喚醒一般，無數量產型衝破冰面，向著眾人的方向發起猛攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "开始迎击了吗？这样…让你们见识一下塔什干的厉害！",
+			say = "開始迎擊了嗎？這樣…讓你們見識一下塔什干的厲害！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心，有什么东西从要塞里出来了！",
+			say = "小心，有什麼東西從要塞裡出來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "那是清除者……？塔什干还以为它只会在“王冠”附近出现呢。",
+			say = "那是清除者……？塔什干還以為它只會在“王冠”附近出現呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "也许只是一个量产型机体,就跟之前在NA海域消灭构建者的时候一样。",
+			say = "也許只是一個量產型機體，就跟之前在NA海域消滅構建者的時候一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "雷鸣，你在数什么？",
+			say = "雷鳴，妳在數什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……已经15秒过去了,它还没有黑入我们的通讯频道。",
+			say = "……已經15秒過去了，它還沒有駭入我們的通訊頻道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个清除者应该是量产型机体无疑了。",
+			say = "這個清除者應該是量產型機體無疑了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "唔嗯……这个判断标准还，确实挺具有参考价值的。",
+			say = "唔嗯……這個判斷標準還，確實挺具有參考價值的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "这样……只是分身而已么。无趣，看塔什干揍扁它！",
+			say = "這樣……只是分身而已嗎。無趣，看塔什干揍扁它！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "清除者不是这次行动的重点，破坏部署在这里的电磁压制装置才是核心目标。",
+			say = "清除者不是這次行動的重點，破壞部署在這裡的電磁壓制裝置才是核心目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让量产型舰队拖延时间，我们先破坏掉装置好了。",
+			say = "讓量產型艦隊拖延時間，我們先破壞掉裝置好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "量产型面对清除者撑不了多久，有这种后顾之忧在，塔什干没法安心执行任务。",
+			say = "量產型面對清除者撐不了多久，有這種後顧之憂在，塔什干沒辦法安心執行任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这样好了，我带领量产型舰队引开它，你们全力寻找电磁压制装置的位置——",
+			say = "這樣好了，我帶領量產型艦隊引開它，妳們全力尋找電磁壓制裝置的位置——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
 			hideOther = true,
-			actorName = "塔什干&雷鸣",
+			actorName = "塔什干&雷鳴",
 			side = 0,
 			say = "——不行。",
 			subActors = {
@@ -781,7 +781,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫同志难道忘了，同盟同志在出发前可是专门说了要我们通力合作哦。",
+			say = "古比雪夫同志難道忘了，同盟同志在出發前可是專門說了要我們通力合作哦。",
 			painting = {
 				alpha = 1,
 				time = 0
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "就是~风头不能让你一个人抢了，古比雪夫同志！",
+			say = "就是~風頭不能讓妳一個人搶走了，古比雪夫同志！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……那就牺牲一下效率，我们一起先解决清除者，再寻找装置吧。",
+			say = "……那就犧牲一下效率，我們一起先解決清除者，再尋找裝置吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞同，这才是我们的好政委嘛。",
+			say = "贊同，這才是我們的好政委嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "众人一边与清除者的量产型机体周旋，一边在量产型的掩护下，稳步向着要塞方向推进。",
+			say = "眾人一邊與清除者的量產型機體周旋，一邊在量產型的掩護下，穩步向著要塞方向推進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "争取连清除者带要塞一同拆掉，Ура！",
+			say = "爭取連清除者帶要塞一同拆掉，Ура！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "要塞的墙体上，此时已布满了爆炸产生的黑色坑洞，冰面也被炸得支离破碎。",
+			say = "要塞的牆體上，此時已佈滿了爆炸產生的黑色坑洞，冰面也被炸得支離破碎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在塔什干的操纵下，量产型的炮口调整方向，万炮齐发，准备给予清除者致命一击。",
+			say = "在塔什干的操縱下，量產型的炮口調整方向，萬炮齊發，準備給予清除者致命一擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫，清除者已经进入理想射击位置，你快躲开！",
+			say = "古比雪夫，清除者已經進入理想射擊位置，妳快躲開！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "古比雪夫躬身加速，从清除者的侧边穿过，并迅速拉开距离。",
+			say = "古比雪夫躬身加速，從清除者的側邊穿過，並迅速拉開距離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在她的身后，不计其数的炮弹汇聚到一点同时爆炸，继而引发了汹涌的海浪。",
+			say = "在她的身後，不計其數的炮彈匯聚到一點同時爆炸，繼而引發了洶湧的海浪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "等烟雾消散，原本清除者所在的位置，已经空无一物了。",
+			say = "等煙霧消散，原本清除者所在的位置，已經空無一物了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "直接被炸成灰咯~哼哼，这就是阻挡北方联合舰队的下场！",
+			say = "直接被炸成灰囉~哼哼，這就是阻擋北方聯合艦隊的下場！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "电子设备的干扰好像也……减轻了。",
+			say = "電子設備的干擾好像也……減輕了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道刚才塔什干随手轰掉的那个高塔就是电磁压制设备的位置？",
+			say = "難道剛才塔什干隨手轟掉的那個高塔就是電磁壓制設備的位置？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "真的？塔什干真是太厉害了！",
+			say = "真的？塔什干真是太厲害了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "呵呵，运气有的时候也是实力的一环呢。",
+			say = "呵呵，運氣有的時候也是實力的一環呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬舰队正在瓦解中，这样就算压制成功了吧？",
+			say = "塞壬艦隊正在瓦解中，這樣就算壓製成功了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯。根据作战计划，我现在向后方发送增援请求，让占领部队前往要塞内进行下一步行动。",
+			say = "嗯。根據作戰計劃，我現在向後方發送增援請求，讓佔領部隊前往要塞內進行下一步行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,7 +1133,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
 			say = "滴————",
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是「手术刀」分队，我们已成功压制格陵兰要塞，占领部队可以开始行动——",
+			say = "這裡是「手術刀」分隊，我們已成功壓制格陵蘭要塞，佔領部隊可以開始行動——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1163,7 +1163,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "微弱的电波跨越风雪，向后方带去了令人振奋的消息。",
+			say = "微弱的電波跨越風雪，向後方帶去了令人振奮的消息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			blackBg = true,
-			say = "而这场声势浩大的行动才刚刚拉开序幕——",
+			say = "而這場聲勢浩大的行動才剛剛拉開序幕——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

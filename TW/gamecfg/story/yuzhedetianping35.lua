@@ -819,7 +819,7 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
 			say = "指挥官，我的牌已经出光了，接下来就靠你了哦~",
 			painting = {
@@ -837,7 +837,7 @@ return {
 			bgName = "bg_underheaven_12",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
+			nameColor = "#A9F548FF",
 			actor = 905020,
 			say = "指挥舰队粉碎虚伪的神，带领我们取得胜利吧——",
 			painting = {

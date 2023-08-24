@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不妙……我们的攻击完全不能伤她分毫。",
+			say = "不妙……我們的攻擊完全不能傷她分毫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是另一个棋子很弱哦！",
+			say = "但是另一個棋子很弱哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了超级耐打之外一点战斗力都没有！",
+			say = "除了超級耐打之外一點戰鬥力都沒有！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如我们先集中火力把那个弱弱的棋子打掉吧！",
+			say = "不如我們先集中火力把那個弱弱的棋子打掉吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对……有陷阱的味道。",
+			say = "不對……有陷阱的味道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你有什么发现么？",
+			say = "妳有什麼發現嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是直觉……但是我是凭直觉行事的。",
+			say = "只是直覺……但是我是憑直覺行事的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同盟同志相信我的直觉，你们呢？",
+			say = "聯盟同志相信我的直覺，妳們呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是旗舰，战场上的事听你的。",
+			say = "妳是旗艦，戰場上的事聽妳的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，你要下什么命令都不用客气！",
+			say = "嗯，妳要下什麼命令都不用客氣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，我们撤退。",
+			say = "好，我們撤退",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后再解释，现在，全速撤退。",
+			say = "之後再解釋，現在，全速撤退。",
 			painting = {
 				alpha = 0.3,
 				time = 1

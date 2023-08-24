@@ -22220,6 +22220,73 @@ _G.pg.base.gametip.dockyard_search_holder = {
 	tip = "搜索角色名"
 }
 
+_G.pg.base.gametip.series_enemy_mood = {
+	tip = "心情不足"
+}
+
+_G.pg.base.gametip.series_enemy_mood_error = {
+	tip = "單隊連戰模式下，隊伍中有艦船心情≦30無法出戰 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip1 = {
+	tip = "基礎通關獎勵 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip2 = {
+	tip = "多隊出擊額外獎勵 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip3 = {
+	tip = "通關獎勵 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip4 = {
+	tip = "歷史最高得分 "
+}
+
+_G.pg.base.gametip.series_enemy_cost = {
+	tip = "總計消耗："
+}
+
+_G.pg.base.gametip.series_enemy_SP_count = {
+	tip = "今日次數："
+}
+
+_G.pg.base.gametip.series_enemy_SP_error = {
+	tip = "今日SP挑戰次數不足"
+}
+
+_G.pg.base.gametip.series_enemy_unlock = {
+	tip = "請按照順序依次推進關卡 "
+}
+
+_G.pg.base.gametip.series_enemy_storyunlock = {
+	tip = "解鎖劇情下一階段"
+}
+
+_G.pg.base.gametip.series_enemy_storyreward = {
+	tip = "已完成階段："
+}
+
+_G.pg.base.gametip.series_enemy_help = {
+	tip = [[
+活動規則：
+<color=#92fc63>2023.8.24-2023.9.7維護</color>期間開啟限時活動「極地風暴」
+1. 本次活分為「作戰模式」、「故事模式」，在「作戰模式」中通關關卡可獲得PT值，逐步解鎖「故事模式」中階段劇情。
+2. 「作戰模式」中採用連戰玩法，即上陣多只隊伍逐一挑戰多個小關，全部獲勝後整個關卡通關，獲得獎勵
+3. 部分關卡可通過切換「多隊出擊」、「單隊連戰」兩種模式，「單隊連戰」可使用單個隊伍挑戰所有小關，「多隊出擊」為不同隊伍挑戰各個關卡，「多隊出擊」可獲得額外獎勵
+4. 「作戰模式」中EX關卡不具有任何消耗，EX關卡中獲得積分計入排行榜，不會獲得任何獎勵
+5. 累計PT值可在「作戰模式」中領取各色獎勵，完成「故事模式」中所有階段劇情，可獲得「限定裝備」]]
+}
+
+_G.pg.base.gametip.series_enemy_score = {
+	tip = "得分"
+}
+
+_G.pg.base.gametip.series_enemy_total_score = {
+	tip = "總得分"
+}
+
 _G.pg.base.gametip.setting_label_private = {
 	tip = "隱私權協議"
 }
@@ -23157,4 +23224,8 @@ _G.pg.base.gametip.msgbox_repair_cipher = {
 
 _G.pg.base.gametip.msgbox_repair_title = {
 	tip = "訊息"
+}
+
+_G.pg.base.gametip.equip_skin_detail_count = {
+	tip = "擁有:"
 }

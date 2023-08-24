@@ -1379,11 +1379,17 @@ pg.ship_data_group = setmetatable({
 		[70204] = {
 			435
 		},
+		[70207] = {
+			588
+		},
 		[70203] = {
 			436
 		},
 		[70301] = {
 			496
+		},
+		[70302] = {
+			586
 		},
 		[70501] = {
 			437
@@ -1396,6 +1402,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70506] = {
 			536
+		},
+		[70507] = {
+			587
 		},
 		[70701] = {
 			538
@@ -2167,12 +2176,15 @@ pg.ship_data_group = setmetatable({
 		434,
 		498,
 		435,
+		588,
 		436,
 		496,
+		586,
 		437,
 		440,
 		441,
 		536,
+		587,
 		538,
 		539,
 		348,
@@ -21143,6 +21155,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[588] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 496,
+		code = 588,
+		group_type = 70207,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：極地風暴",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[436] = {
 		type = 2,
 		redirect_id = 101,
@@ -21200,6 +21244,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：破曉冰華",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[586] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 500,
+		code = 586,
+		group_type = 70302,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：極地風暴",
 				{
 					""
 				},
@@ -21328,6 +21404,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：深度回音",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[587] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 505,
+		code = 587,
+		group_type = 70507,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：極地風暴",
 				{
 					""
 				},

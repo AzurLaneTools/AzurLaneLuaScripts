@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"分隊代號「孤狼」",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"旗艦：庫斯克",
 					2
 				},
 				{
-					"塞壬第二防御圈外侧·某处",
+					"塞壬第二防禦圈外側·某處",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯，撤到这个位置就差不多了。",
+			say = "嗯，撤到這個位置就差不多了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "接下来我们要做的……就是隐藏自身的位置，耐心等待。",
+			say = "接下來我們要做的……就是隱藏自身的位置，耐心等待。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "喔~~我懂你意思了！",
+			say = "喔~~我懂妳意思了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "不论我们在调查的异常点是什么，这里肯定对于塞壬很重要。",
+			say = "不論我們在調查的異常點是什麼，這裡肯定對於塞壬很重要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "那个META再这么行动下去的话，塞壬一定不会坐视不理。",
+			say = "那個META再這麼行動下去的話，塞壬一定不會坐視不理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "你是想先让塞壬帮我们削弱她对吧！",
+			say = "妳是想先讓塞壬幫我們削弱她對吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "没错，两虎相争，猎人得利。",
+			say = "沒錯，兩虎相爭，獵人得利。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "现在各处的战线都很顺利，我们有充足的时间完成任务。",
+			say = "現在各處的戰線都很順利，我們有充足的時間完成任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "异常信号还在么？",
+			say = "異常訊號還在嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯，还在。看来对面在遭受到我们的干扰后也改变了行动方针。",
+			say = "嗯，還在。看來對面在遭受到我們的干擾後也改變了行動方針。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "…………呵呵，塞壬已经去了。",
+			say = "…………呵呵，塞壬已經去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "就让我们在阴影中，等待加入这场狩猎的最佳时机吧……",
+			say = "就讓我們在陰影中，等待加入這場狩獵的最佳時機吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
 			say = "……滋……滋滋………",
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯？海域中的干扰强度应该不足以扰乱我们的通讯了才对。",
+			say = "嗯？海域中的干擾強度應該不足以擾亂我們的通訊了才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "……难道是出故障了么？",
+			say = "……難道是出故障了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "这种小问题，敲一敲说不定就好了，看我的~",
+			say = "這種小問題，敲一敲說不定就好了，看我的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,11 +351,11 @@ return {
 		},
 		{
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "…[杂音]…我是…[杂音]…同盟…[杂音]…",
+			say = "…[雜音]…我是…[雜音]…聯盟…[雜音]…",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -371,7 +371,7 @@ return {
 			actor = 705070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……好像还有点问题……不过已经有声音了！",
+			say = "唔……好像還有點問題……不過已經有聲音了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘……",
+			say = "噓……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,10 +412,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…我们正…[杂音]…全面…[杂音]…状态…[杂音]…",
+			say = "…[雜音]…我們正…[雜音]…全面…[雜音]…狀態…[雜音]…",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -424,10 +424,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…极地风暴…[杂音]…终止…[杂音]…",
+			say = "…[雜音]…極地風暴…[雜音]…終止…[雜音]…",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -436,10 +436,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…所有舰队…[杂音]…于…[杂音]…集结…[杂音]…",
+			say = "…[雜音]…所有艦隊…[雜音]…於…[雜音]…集結…[雜音]…",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -448,7 +448,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
 			say = "……滋……滋滋………",
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "虽然没听清……不过刚刚的内容是不是说…………",
+			say = "雖然沒聽清……不過剛剛的內容是不是說…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "立刻呼叫苏维埃同盟，询问一下到底发生了什么事！",
+			say = "立刻呼叫蘇維埃聯盟，詢問一下到底發生了什麼事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "无应答。",
+			say = "無應答。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "圣彼得伯格司令部呢……？",
+			say = "聖彼得堡司令部呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……无应答。",
+			say = "……無應答。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "直接呼叫最高苏维埃试试看！",
+			say = "直接呼叫最高蘇維埃試試看！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "…………也无应答。",
+			say = "…………也無應答。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能听到么，「孤狼」分队！",
+			say = "能聽到嗎，「孤狼」分隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "极地风暴行动已终止，请解除无线电静默状态，立刻回复！",
+			say = "極地風暴行動已終止，請解除無線電靜默狀態，立刻回復！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "我是伏罗希洛夫……通讯良好，请讲。",
+			say = "我是伏羅希洛夫……通訊良好，請講。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了……还能联系到你们！",
+			say = "太好了……還能聯繫到妳們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………你们收到广播了么？",
+			say = "………妳們收到廣播了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "我们已经收到了，虽然内容断断续续的……到底是怎么回事？",
+			say = "我們已經收到了，雖然內容斷斷續續的……到底是怎麼回事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我们也一头雾水……",
+			say = "……我們也一頭霧水……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前可以确定的是，我们已经失去了与整个圣彼得伯格的联络。",
+			say = "目前可以確定的是，我們已經失去了與整個聖彼得堡的聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过与极地海域中的舰队和周边基地的联络都是通畅的。",
+			say = "不過與極地海域中的艦隊和周邊基地的聯絡都是通暢的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……总而言之，我已经将北地群岛基地作为舰队集结点。",
+			say = "……總而言之，我已經將北地群島基地作為艦隊集結點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请各位保持冷静，专注于摆脱塞壬舰队的追击。",
+			say = "請各位保持冷靜，專注於擺脫塞壬艦隊的追擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等到脱离危险区域，回到集结点之后，我们再做下一步打算。",
+			say = "等到脫離危險區域，回到集結點之後，我們再做下一步打算。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "就现状而言……也只能这样了。",
+			say = "就現狀而言……也只能這樣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，让我们北地群岛基地见。",
+			say = "好，讓我們北地群島基地見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯……我们北地群岛基地见。",
+			say = "嗯……我們北地群島基地見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=60>就这样，极地上空的风暴暂时停止了。</size>",
+					"<size=60>就這樣，極地上空的風暴暫時停止了。</size>",
 					2.5
 				}
 			}
@@ -897,7 +897,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=60>而更大的风暴，似乎已悄然来临——</size>",
+					"<size=60>而更大的風暴，似乎已悄然來臨——</size>",
 					1
 				}
 			}

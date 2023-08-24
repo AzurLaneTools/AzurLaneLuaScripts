@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>融化的野兔</size>",
+					"融雪的邀約\n\n<size=45>2 2.融化的野兔</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 701025,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "从来没感受过这样的温度……",
+			say = "從來沒感受過這樣的溫度……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好热……威严要受不了了……",
+			say = "好熱……威嚴要受不了了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，把……把冰水给我递过来……",
+			say = "指揮官，把……把冰水遞過來給我……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢……",
+			say = "謝謝……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咕嘟咕嘟……呼呀~身体冷下来之后明显就清爽多了。哈，短暂复活了……",
+			say = "咕嘟咕嘟……呼呀~身體冷下來之後明顯就清爽多了。哈，短暫復活了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是一会又会热起来……感觉要被翻来覆去的热浪给融化掉了。",
+			say = "但是等一下又會熱起來……感覺要被翻來覆去的熱浪給融化掉了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "突然想起来，指挥官为什么会出现在这里？",
+			say = "突然想起來，指揮官為什麼會出現在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,11 +172,11 @@ return {
 			},
 			options = {
 				{
-					content = "担心威严所以来看看",
+					content = "擔心威嚴所以來看看",
 					flag = 1
 				},
 				{
-					content = "来和威严一起体验蒸桑拿",
+					content = "來和威嚴一起體驗蒸桑拿",
 					flag = 2
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然说桑拿房里确实热的不行，但是威严又不会真的化掉……",
+			say = "雖然說桑拿房裡確實熱的不行，但是威嚴又不會真的化掉……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "北联的大家虽然不怕冷，但是对热的耐性都比较差。",
+			say = "北聯的大家雖然不怕冷，但是對熱的耐性都比較差。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官要是担心威严的话，可以坐威严的旁边……嘿咻嘿咻，给你空出位置来了。",
+			say = "指揮官要是擔心威嚴的話，可以坐威嚴的旁邊……嘿咻嘿咻，幫你空出位置來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "原来如此……嗯，给指挥官空出位置来了，坐在威严的旁边就好。",
+			say = "原來如此……嗯，幫指揮官空出位置來了，坐在威嚴的旁邊就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "北联的同伴们说这样可以促进血液循环什么的，对身体有好处。",
+			say = "北聯的同伴們說這樣可以促進血液循環什麼的，對身體有好處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "但是威严在这里呆了一会之后，最大的感觉就是……要融化了……",
+			say = "但是威嚴在這裡待了一下之後，最大的感覺就是……要融化了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "如果威严是雪人的话，现在一定已经变成液体从地板下面流走了吧……呼呀……",
+			say = "如果威嚴是雪人的話，現在一定已經變成液體從地板下面流走了吧……呼呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "坐到了威严的旁边，向她详细解释正确的蒸桑拿过程。",
+			say = "坐到了威嚴的旁邊，向她詳細解釋正確的蒸桑拿過程。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一段时间后要去冷水池清洗身体，再去休息室休息一会，然后循环……？",
+			say = "一段時間後要去冷水池清洗身體，再去休息室休息一下，然後循環……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样，怪不得哪里不对劲……多喝点冰的可乐好了——咕咚咕咚——",
+			say = "原來是這樣，怪不得哪裡不對勁……多喝點冰的可樂好了——咕咚咕咚——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能带吃的进桑拿房，饮、饮料也不能在桑拿房里面喝？",
+			say = "不能帶吃的進桑拿房，飲、飲料也不能在桑拿房裡面喝？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不行不行，那样绝对不行！待在这种温度里还不能喝饮料的话，威严就真的要融化掉了！",
+			say = "不行不行，那樣絕對不行！待在這種溫度裡還不能喝飲料的話，威嚴就真的要融化掉了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个，指挥官，再去帮我拿一杯冰的饮料！",
+			say = "那個，指揮官，再去幫我拿一杯冰的飲料！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就、就这一杯！最后一杯！喝完威严就该去休息一会了~",
+			say = "就、就這一杯！最後一杯！喝完威嚴就該去休息一會了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……不过感觉身体确实慢慢舒服起来了呢……",
+			say = "呼……不過感覺身體確實慢慢舒服起來了呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1

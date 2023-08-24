@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「铁拳」",
+					"分隊代號「鐵拳」",
 					1
 				},
 				{
-					"旗舰：苏维埃罗西亚",
+					"旗艦：蘇維埃俄羅斯",
 					2
 				},
 				{
-					"北地群岛外围海域·塞壬控制区",
+					"北地群島外圍海域·塞壬控制區",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "一枚炮弹落在舰队前方，爆炸激起的碎屑遮蔽了视野。",
+			say = "一枚炮彈落在艦隊前方，爆炸激起的碎屑遮蔽了視野。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 707010,
-			say = "啊！！又是塞壬的巡逻队……要继续避开么？",
+			say = "啊！！又是塞壬的巡邏隊……要繼續避開嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "嗯。我们的方针不变，调整航线，在抵达北极点要塞周边前尽量避免战斗。",
+			say = "嗯。我們的方針不變，調整航線，在抵達北極點要塞周邊前盡量避免戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "临时补给点-北冰洋前哨站周边海域·塞壬控制区",
+			say = "臨時補給點-北冰洋前哨站周邊海域·塞壬控制區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 707010,
-			say = "敌方舰队没有追过来……？看来只是自律性巡逻队而已。",
+			say = "敵方艦隊沒有追過來……？看來只是自律性巡邏隊而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "也许是来自“王冠”的巡逻队吧。",
+			say = "也許是來自“王冠”的巡邏隊吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "或者是那座“开拓基地”的？我们现在可是在二者之间的危险区域中哦。",
+			say = "或者是那座“開拓基地”的？我們現在可是在二者之間的危險區域中哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "伏尔加，你能分清么？",
+			say = "窩瓦，妳能分清嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 707010,
-			say = "唔……从航行方向上来说，也许是“开拓基地”的方向吧。",
+			say = "唔……從航行方向上來說，也許是“開拓基地”的方向吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 707010,
-			say = "不过我其实也只去过那里一次啦……希望那边的作战能顺利就好了。",
+			say = "不過我其實也只去過那裡一次啦……希望那邊的作戰能順利就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "希望如此。也许巡逻队没追过来就是因为那边已经开打了？",
+			say = "希望如此。也許巡邏隊沒追過來就是因為那邊已經開打了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "不过真没想到，我们会在距离补给点这么近的地方遭遇到塞壬巡逻队。",
+			say = "不過真沒想到，我們會在距離補給點這麼近的地方遭遇到塞壬巡邏隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "我们的补给舰队没问题么？",
+			say = "我們的補給艦隊沒問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "这一点的话你不用担心。",
+			say = "這一點的話妳不用擔心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "因为我们任务的特殊性，本次将由潜航舰舰队在塞壬防区内为我们提供补给。",
+			say = "因為我們任務的特殊性，本次將由潛航艦艦隊在塞壬防區內為我們提供補給。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "此刻舰队正在深海之中潜伏，只有收到我在指定位置发出的加密信号后才会上浮。",
+			say = "此刻艦隊正在深海之中潛伏，只有收到我在指定位置發出的加密訊號後才會上浮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "用潜航舰舰队来补给？！这种用法也太奢侈了吧！",
+			say = "用潛航艦艦隊來補給？！這種用法也太奢侈了吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "这恰好证明了我们任务的重要性。",
+			say = "這恰好證明了我們任務的重要性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "北极点要塞是清除者防守最严密的地方，那里的情报对于我们来说几乎是空白的。",
+			say = "北極點要塞是清除者防守最嚴密的地方，那裡的情報對於我們來說幾乎是空白的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "不过有一点可以确认，塞壬肯定在那里藏着什么秘密，而我们要把这个秘密找出来。",
+			say = "不過有一點可以確認，塞壬肯定在那裡藏著什麼秘密，而我們要把這個秘密找出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "就是要克服“从两个塞壬要塞之间穿行，突破两道塞壬防线，然后从核心地带的侦察中全身而退”这些“小小的困难”就是了~",
+			say = "就是要克服“從兩個塞壬要塞之間穿行，突破兩道塞壬防線，然後從核心地帶的偵察中全身而退”這些“小小的困難”就是了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "所以才由我们来执行这次任务嘛，这也是同志们对于我们实力的认可。",
+			say = "所以才由我們來執行這次任務嘛，這也是同志們對於我們實力的認可。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "当然了，如果没有其他分队的协同配合，我们的任务目标也是不可能完成的。",
+			say = "當然了，如果沒有其他分隊的協同配合，我們的任務目標也是不可能完成的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "量产型和弹药储备的情况如何？",
+			say = "量產型和彈藥儲備的情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "量产型损失约30％，弹药存量充足！",
+			say = "量產型損失約30％，彈藥存量充足！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "损失比预想中的要多啊。",
+			say = "損失比預想中的要多啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "在现在这种电磁压制的环境下，常规的量产型根本发挥不了什么作用，我们配属到的新型量产型也十分有限……",
+			say = "在現在這種電磁壓制的環境下，常規的量產型根本發揮不了什麼作用，我們配屬到的新型量產型也十分有限……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "要是「手术刀」分队的战斗能提前结束就好了。",
+			say = "要是「手術刀」分隊的戰鬥能提前結束就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "希望如此，但是在战场上不可能事事如愿。",
+			say = "希望如此，但是在戰場上不可能事事如願。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "此刻，塞壬的防线正因为其他分队的全线进攻而出现漏洞。",
+			say = "此刻，塞壬的防線正因為其他分隊的全線進攻而出現漏洞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "如果我们耽误了时机让它们把窟窿补上的话，情况就会变得相当不妙。",
+			say = "如果我們耽誤了時機讓它們把窟窿補上的話，情況就會變得相當不妙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "机会只有一次，不能浪费。",
+			say = "機會只有一次，不能浪費。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "我们要做好在强电磁干扰的环境中完成任务的准备了。",
+			say = "我們要做好在強電磁干擾的環境中完成任務的準備了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "因此，尽量避免不必要的损失，在抵达任务海域之前，以保存战力为最优先。",
+			say = "因此，盡量避免不必要的損失，在抵達任務海域之前，以保存戰力為最優先。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "嗯……即将接近接受补给的指定区域，我来发送信号。",
+			say = "嗯……即將接近接受補給的指定區域，我來發送訊號。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "大家保持警戒，以最快速度完成补给。",
+			say = "大家保持警戒，以最快速度完成補給。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 		},
 		{
 			nameColor = "#A9F548FF",
-			actorName = "众人",
+			actorName = "眾人",
 			bgName = "bg_hms_8",
 			side = 2,
 			blackBg = true,

@@ -148334,6 +148334,711 @@ _G.pg.base.task_data_template[18321] = {
 	}
 }
 
+_G.pg.base.task_data_template[18408] = {
+	name = "『庫斯克SP』造型劇情簽到活動1",
+	guild_coin_award = 0,
+	award = 99322,
+	type = 14,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18408,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30317,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18409] = {
+	name = "『庫斯克SP』造型劇情簽到活動2",
+	guild_coin_award = 0,
+	award = 99322,
+	type = 14,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18409,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30317,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18410] = {
+	name = "『庫斯克SP』造型劇情簽到活動3",
+	guild_coin_award = 0,
+	award = 99322,
+	type = 14,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18410,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30317,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18411] = {
+	name = "『庫斯克SP』造型劇情簽到活動4",
+	guild_coin_award = 0,
+	award = 99322,
+	type = 14,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18411,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30317,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18412] = {
+	name = "『庫斯克SP』造型劇情簽到活動5",
+	guild_coin_award = 0,
+	award = 99322,
+	type = 14,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18412,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30317,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18413] = {
+	name = "『極地風暴』多隊出擊挑戰1",
+	guild_coin_award = 0,
+	award = 99401,
+	type = 26,
+	desc = "不編入導驅/驅逐的情況下，使用多隊出擊通關『TC3』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18413,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18414] = {
+	name = "『極地風暴』多隊出擊挑戰2",
+	guild_coin_award = 0,
+	award = 99402,
+	type = 26,
+	desc = "不編入輕巡的情況下，使用多隊出擊通關『TC3』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18414,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			2
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18415] = {
+	name = "『極地風暴』多隊出擊挑戰3",
+	guild_coin_award = 0,
+	award = 99403,
+	type = 26,
+	desc = "不編入超巡/重巡的情況下，使用多隊出擊通關『TC3』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18415,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18416] = {
+	name = "『極地風暴』多隊出擊挑戰4",
+	guild_coin_award = 0,
+	award = 99404,
+	type = 26,
+	desc = "不編入輕航/航母的情況下，使用多隊出擊通關『TC3』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18416,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18417] = {
+	name = "『極地風暴』多隊出擊挑戰5",
+	guild_coin_award = 0,
+	award = 99405,
+	type = 26,
+	desc = "不編入戰列/戰巡/重炮的情況下，使用多隊出擊通關『TC3』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18417,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18418] = {
+	name = "『極地風暴』EX挑戰",
+	guild_coin_award = 0,
+	award = 99406,
+	type = 26,
+	desc = "取得EX關卡的第一場戰鬥勝利 ",
+	count_inherit = 0,
+	sub_type = 108,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18418,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[18419] = {
+	name = "『庫斯克SP』登入送造型體驗券活動",
+	guild_coin_award = 0,
+	award = 99361,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18419,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			309,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18420] = {
+	name = "『庫斯克SP』劇情送裝備",
+	guild_coin_award = 0,
+	award = 99366,
+	type = 6,
+	desc = "故事模式獎勵",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18420,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		4053
+	},
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3880,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18421] = {
+	name = "『庫斯克SP』-日常建造",
+	guild_coin_award = 0,
+	award = 99407,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18421,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			308,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18422] = {
+	name = "『庫斯克SP』-日常出擊",
+	guild_coin_award = 0,
+	award = 99408,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18422,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			308,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18423] = {
+	name = "『庫斯克SP』-日常困難本",
+	guild_coin_award = 0,
+	award = 99409,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18423,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			308,
+			150
+		}
+	}
+}
+
 _G.pg.base.task_data_template[18472] = {
 	name = "『DOA复刻』通关EX1",
 	guild_coin_award = 0,

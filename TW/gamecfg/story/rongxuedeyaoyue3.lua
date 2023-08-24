@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>雪狼的另一面</size>",
+					"融雪的邀約\n\n<size=45>3 3.雪狼的另一面</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "星夜下，温泉的一角。密林掩映之下，这里是个宁静的角落。",
+			say = "星夜下，溫泉的一角。密林掩映之下，這裡是個寧靜的角落。",
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "朦胧的雾气之中，向着水声传来的方向走去——",
+			say = "朦朧的霧氣之中，向著水聲傳來的方向走去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，是你来了。坐在这里就好——",
+			say = "啊，是你來了。坐在這裡就好——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特地给你留的位置。我就知道你能找得到我，这是猎人的直觉。",
+			say = "特地幫你留的位置。我就知道你能找得到我，這是獵人的直覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于我们两个谁才是猎物……呵呵，又有谁知道呢？",
+			say = "至於我們兩個誰才是獵物……呵呵，又有誰知道呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "以不知是“猎人”还是“猎物”的身份陪在库尔斯克的身边，泡了一会温泉。",
+			say = "以不知是“獵人”還是“獵物”的身份陪在庫斯克的身邊，泡了一下溫泉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到还有这种温热的泉水存在……对我来说，很新奇呢。",
+			say = "沒想到還有這種溫熱的泉水存在……對我來說，很新奇呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			},
 			options = {
 				{
-					content = "泡温泉感觉如何？",
+					content = "泡溫泉感覺如何？",
 					flag = 1
 				}
 			}
@@ -171,7 +171,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前没有过这样的体验。偶尔能像现在这样稍加放松，释放一下自我，感觉倒也不坏。",
+			say = "以前沒有過這樣的體驗。偶爾能像現在這樣稍加放鬆，釋放一下自我，感覺倒也不壞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我刻意避开了嘈杂的地方，选择一个人待着。和同伴们待在一起这种事情，我完全没法应付。",
+			say = "我刻意避開了嘈雜的地方，選擇一個人待著。和同伴們待在一起這種事情，我完全沒法應付。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "狩猎的独狼疲惫的时候，独自待在幽深的森林中微暇，那才是它应该做的事情。",
+			say = "狩獵的獨狼疲憊的時候，獨自待在幽深的森林中微暇，那才是它應該做的事情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒也不是说讨厌……只是不习惯和别人贴得太近。当然，你除外。",
+			say = "倒也不是說討厭……只是不習慣和別人貼得太近。當然，你除外。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……即使雪狼已经习惯了雪原上那终日肆虐的暴风雪，它内心偶尔也会有对温暖角落的渴望啊。",
+			say = "……即使雪狼已經習慣了雪原上那終日肆虐的暴風雪，它內心偶爾也會有對溫暖角落的渴望啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			live2d = "headtouch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就比如这里。虽然不知道，温暖是来自于脚下这一汪温泉，还是来自于……身边的你呢？",
+			say = "就比如這裡。雖然不知道，溫暖是來自於腳下這一汪溫泉，還是來自於……身邊的你呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许在不知不觉中，我慢慢被你驯化了。",
+			say = "或許在不知不覺中，我慢慢被你馴化了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~猎人本应始终保持锋锐和敏感，这本应是捕猎者必须具备的天性。",
+			say = "呵呵~獵人本應始終保持鋒銳和敏感，這本應是捕獵者必須具備的天性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过既然你在我的身边，那放下“猎人”的身份，稍微偷闲一会，似乎也没关系。",
+			say = "不過既然你在我的身邊，那放下“獵人”的身份，稍微偷閒一下，似乎也沒關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这里再多泡一会吧。不为别的，只是单纯想再享受一段能自由自在放松的时光。",
+			say = "在這裡再多泡一下吧。不為別的，只是單純想再享受一段能自由自在放鬆的時光。",
 			painting = {
 				alpha = 0.3,
 				time = 1

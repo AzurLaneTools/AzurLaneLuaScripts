@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「重锤」",
+					"分隊代號「重錘」",
 					1
 				},
 				{
-					"旗舰：苏维埃贝拉罗斯",
+					"旗艦：蘇維埃白俄羅斯",
 					2
 				},
 				{
-					"乔治地岛前哨站外围·冲突海域",
+					"喬治地島前哨站外圍·衝突海域",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在战役开始后不久，耀眼的极光便出现在天空中。",
+			say = "在戰役開始後不久，耀眼的極光便出現在天空中。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "明明还是白天……居然能在天空中生成如此耀眼的极光。",
+			say = "明明還是白天……居然能在天空中生成如此耀眼的極光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "塞壬的气象控制装置真是有着非凡的力量……",
+			say = "塞壬的氣象控制裝置真是有著非凡的力量……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "唔，与极光有关，难道涉及到地磁场的影响么……",
+			say = "唔，與極光有關，難道涉及到地磁場的影響嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话……",
+			say = "如果是這樣的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "契卡洛夫同志，你有什么发现么？",
+			say = "契卡洛夫同志，妳有什麼發現嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "贝拉罗斯同志，你知道地磁倒转现象么？",
+			say = "白俄羅斯同志，妳知道地磁倒轉現象嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似乎是地磁的两极在随着时间不断移动，磁场强度也在不断减弱……",
+			say = "似乎是地磁的兩極在隨著時間不斷移動，磁場強度也在不斷減弱……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最终磁场的南北极将会出现一次逆转？",
+			say = "最終磁場的南北極將會出現一次逆轉？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "没错，比如我们现在的北极点其实是磁场的南极，而南极点则是磁场的北极。",
+			say = "沒錯，比如我們現在的北極點其實是地磁的南極，而南極點則是地磁的北極。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "可是之前我在研究所检查数据的时候，发现了一个值得在意的问题。",
+			say = "可是之前我在研究所檢查數據的時候，發現了一個值得在意的問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "地磁南极的移动似乎正在加速，其轨迹正向着与地理北极点的位置移动。",
+			say = "地磁南極的移動似乎正在加速，其軌跡正向著與地理北極點的位置移動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "这个轨迹与过去的预测轨迹不同，而地理北极点的位置又恰好是清除者防守最严密的北极点要塞所在地……",
+			say = "這個軌跡與過去的預測軌跡不同，而地理北極點的位置又恰好是清除者防守最嚴密的北極點要塞所在地……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "或许磁场的异常变化与塞壬能够操纵极光之间存在某种关联……",
+			say = "或許磁場的異常變化與塞壬能夠操縱極光之間存在某種關聯……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个观点我倒是第一次听说……",
+			say = "這個觀點我倒是第一次聽說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以你这次不但身负作战任务，还被委派了某些与地磁异常有关的调查任务？",
+			say = "所以妳這次不但身負作戰任務，還被委派了某些與地磁異常有關的調查任務？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "啊哈哈，这倒没有……",
+			say = "啊哈哈，這倒沒有……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "此事目前还属于我个人的怀疑阶段，只是见到异常极光现象之后突然沉浸其中了。",
+			say = "此事目前還屬於我個人的懷疑階段，只是見到異常極光現象之後突然沉浸其中了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "非常抱歉，贝拉罗斯同志。",
+			say = "非常抱歉，白俄羅斯同志。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨。第一次正式作战任务感觉如何？",
+			say = "無妨。第一次正式作戰任務感覺如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "倒是没什么特别的感觉，不过是从一个战场走向另一个战场罢了。",
+			say = "倒是沒什麼特別的感覺，不過是從一個戰場走向另一個戰場罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "我为这一刻已经准备多时了，请放心。",
+			say = "我為這一刻已經準備多時了，請放心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "同志们，已经可以看到王冠的外边缘了哦。",
+			say = "同志們，已經可以看到王冠的外邊緣了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在舰队航线的前方，突兀出现的尖刺状的浮冰格外显眼。",
+			say = "在艦隊航線的前方，突兀出現的尖刺狀的浮冰格外顯眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "向更远处望去，巨大的“王冠”刺破海平线，在天空下投射出巨大的剪影。",
+			say = "向更遠處望去，巨大的“王冠”刺破海平線，在天空下投射出巨大的剪影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "这就是王冠……曾经余烬的企业没能开启成功，而后又被塞壬占据的奇异点……",
+			say = "這就是王冠……曾經餘燼的企業沒能開啟成功，而後又被塞壬佔據的奇異點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "我还是第一次来到距离“王冠”如此近的地方……",
+			say = "我還是第一次來到距離“王冠”如此近的地方……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "有趣……不知道其内部现在是什么状态呢。",
+			say = "有趣……不知道其內部現在是什麼狀態呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "会和NA海域中心旋涡的情况相同么，还是说……",
+			say = "會和NA海域中心旋渦的情況相同嗎，還是說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "呵呵呵，不论如何值得彻底调查一番……",
+			say = "呵呵呵，不論如何值得徹底調查一番……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，契卡洛夫同志，有干劲是好事，不过夺回王冠可是战役下一阶段才需要操心的事哦？",
+			say = "啊哈哈，契卡洛夫同志，有幹勁是好事，不過奪回王冠可是戰役下一階段才需要操心的事哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现阶段我们只需要在这里大闹一番，尽可能把清除者的舰队吸引过来就好。",
+			say = "現階段我們只需要在這裡大鬧一番，盡可能把清除者的艦隊吸引過來就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相应的，我们这边也要承受巨大的攻击压力，有信心么，同志们？",
+			say = "相應的，我們這邊也要承受巨大的攻擊壓力，有信心嗎，同志們？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "没问题。就算是再厚的冰，基辅也能击碎。",
+			say = "沒問題。就算是再厚的冰，基輔也能擊碎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "我来这附近轮战也不是一次两次了，对这种工作算是轻车熟路~",
+			say = "我來這附近輪戰也不是一次兩次了，對這種工作算是輕車熟路~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我是第一次来前线参与作战任务，但也请放心包在我身上。",
+			say = "雖然我是第一次來前線參與作戰任務，但也請放心包在我身上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北方联合计划舰的作战实力，我相信一定能够达到让清除者大吃一惊的程度的。",
+			say = "北方聯合計劃艦的作戰實力，我相信一定能夠達到讓清除者大吃一驚的程度的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "很好，那就让我们向前迎战“王冠”，让清除者吃点苦头吧！",
+			say = "很好，那就讓我們向前迎戰“王冠”，讓清除者吃點苦頭吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

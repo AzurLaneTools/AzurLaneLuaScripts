@@ -13603,6 +13603,234 @@ _G.pg.base.shop_template[60365] = {
 	}
 }
 
+_G.pg.base.shop_template[60386] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时建造补给(北联SP)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60386,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60387] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给(北联SP)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60387,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60388] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包(北联SP)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60388,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60389] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "300钻石购买心智单元礼包(北联SP)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60389,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[60413] = {
 	is_auto_use = 1,
 	time_second = 0,
@@ -47852,6 +48080,370 @@ _G.pg.base.shop_template[70821] = {
 	}
 }
 
+_G.pg.base.shop_template[70831] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323伏罗希洛夫温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 140,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70831,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		702071
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70832] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323库尔斯克温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 110,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70832,
+	resource_num = 1180,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		703021
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70833] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323塞瓦斯托波尔温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70833,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		705071
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70834] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323威严温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 130,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70834,
+	resource_num = 1080,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		701025
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70835] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323的里雅斯特温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70835,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		603042
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70836] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323霞飞温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 140,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70836,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		907012
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70837] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230323美因茨温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 160,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70837,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		499032
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[70838] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -53225,6 +53817,162 @@ _G.pg.base.shop_template[90177] = {
 				2022,
 				12,
 				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90195] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 309,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230323限时皮肤体验：伏罗希洛夫温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90195,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		702071
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90196] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 309,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230323限时皮肤体验：库尔斯克温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90196,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		703021
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90197] = {
+	is_auto_use = 0,
+	time_second = 172800,
+	resource_type = 309,
+	type = 6,
+	genre = "skin_shop_timelimit",
+	desc = "230323限时皮肤体验：霞飞温泉",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90197,
+	resource_num = 1,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		907012
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
 			},
 			{
 				23,

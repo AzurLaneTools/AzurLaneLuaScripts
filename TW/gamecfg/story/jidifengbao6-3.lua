@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "众人拉开距离，一面对出现的清除者机体发动攻击，一面收集着这些新型塞壬量产型的情报。",
+			say = "眾人拉開距離，一面對出現的清除者機體發動攻擊，一面收集著這些新型塞壬量產型的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "突然，刮起了一阵猛烈的狂风，天色似乎也变得更加昏暗了。",
+			say = "突然，刮起了一陣猛烈的狂風，天色似乎也變得更加昏暗了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,14 +40,15 @@ return {
 			effects = {
 				{
 					active = true,
-					name = "miwu_01"
+					name = "miwu_01",
+					center = true
 				}
 			}
 		},
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伏尔加忽然感觉到一股刺骨的寒意。在风雪肆虐的昏暗中，她似乎看到了一个更加漆黑的身影。",
+			say = "窩瓦忽然感覺到一股刺骨的寒意。在風雪肆虐的昏暗中，她似乎看到了一個更加漆黑的身影",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱的航空母舰……？",
+			say = "重櫻的航空母艦……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +74,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不知道为何，在她心中凭空产生了这样的联想。",
+			say = "不知道為何，在她心中憑空產生了這樣的聯想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +83,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一瞬间，伏尔加感觉自己离开了极地的暴风雪，回到了冰层之下的“苏丽珂”号中。",
+			say = "一瞬間，窩瓦感覺自己離開了極地的暴風雪，回到了冰層之下的“蘇麗珂”號中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +92,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "而面前的样本分析装置，正闪烁着耀眼又奇异的光芒。",
+			say = "而面前的樣本分析裝置，正閃爍著耀眼又奇異的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +101,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不知过了多久，等到她回过神来时，不论是黑影还是样本分析装置都消失不见了。",
+			say = "不知過了多久，等到她回過神來時，不論是黑影還是樣本分析裝置都消失不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +110,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "通讯器中只剩下滋滋的噪音，在风雪的干扰下，特制的通讯装置也失去了效用。",
+			say = "通訊器中只剩下滋滋的噪音，在風雪的干擾下，特製的通訊裝置也失去了效用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +119,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伏尔加一个踉跄险些摔倒，但手臂处却又传来温热的触感，她被什么人从后面托了一把。",
+			say = "窩瓦一個踉蹌險些摔倒，但手臂處卻又傳來溫熱的觸感，她被什麼人從後面託了一把",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你没事吧伏尔加！",
+			say = "妳沒事吧窩瓦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被击中了么？",
+			say = "被擊中了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没……没有，只是有些走神了。你看到刚才的黑影了么？",
+			say = "沒……沒有，只是有些恍神了。妳看到剛才的黑影了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……黑影？你在说什么？",
+			say = "……黑影？妳在說什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只知道我们被这场突然肆虐的狂风暴雪冲散了……",
+			say = "我只知道我們被這場突然肆虐的狂風暴雪衝散了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之先不要轻举妄动，我已经让量产型进入了自律模式。",
+			say = "總之先不要輕舉妄動，我已經讓量產型進入了自律模式。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然可能没什么大用，但应该能抵挡一阵吧，但愿……",
+			say = "雖然可能沒什麼大用，但應該能抵擋一陣吧，但願……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "舰队都被打散了啊，这下可糟了……",
+			say = "艦隊都被打散了啊，這下可糟了……",
 			painting = {
 				alpha = 0.3,
 				time = 1

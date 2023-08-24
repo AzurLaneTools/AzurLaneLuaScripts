@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 0.5,
-			say = "远离战场的办公室中，厚厚的墙壁隔绝了外面的风雪。",
+			say = "遠離戰場的辦公室中，厚厚的牆壁隔絕了外面的風雪。",
 			bgm = "battle-deepecho",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "通讯器的灯熄灭了，不过另一端的屏幕此时亮了起来。",
+			say = "通訊器的燈熄滅了，不過另一端的螢幕此時亮了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在积蓄了这么久的力量之后，行动终于要开始了……",
+			say = "在積蓄了這麼久的力量之後，行動終於要開始了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最后还是没有执行让指挥官同志来指挥的方案？",
+			say = "最後還是沒有執行讓指揮官同志來指揮的方案？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "嗯。这次行动太危险了，如果清除者真的被逼入绝境，之后会发生什么事我们谁都说不准。",
+			say = "嗯。這次行動太危險了，如果清除者真的被逼入絕境，之後會發生什麼事我們誰都說不準。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "我们自己的作战，风险应该由我们自己承担。",
+			say = "我們自己的作戰，風險應該由我們自己承擔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "况且，指挥官同志也需要去放松一下了，博览会不是一个很好的选择么？",
+			say = "況且，指揮官同志也需要去放鬆一下了，博覽會不是一個很好的選擇嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "你那边的情况如何？",
+			say = "妳那邊的情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一切正常。会场这边维持着日复一日和平与悠闲，没有什么波澜。",
+			say = "一切正常。會場這邊維持著日復一日和平與悠閒，沒有什麼波瀾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "硬要说的话，指挥官同志会来参加闭幕式的消息倒是引发了一阵“小小的骚动“？",
+			say = "硬要說的話，指揮官同志會來參加閉幕式的消息倒是引發了一陣“小小的騷動“？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "啊哈哈……我已经能想象出那种热闹的场面了。",
+			say = "啊哈哈……我已經能想像出那種熱鬧的場面了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "东煌呢？得到指挥官同志要来闭幕式的消息之后行程有所改变么？",
+			say = "東煌呢？得到指揮官同志要來閉幕式的消息之後行程有所改變嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边的话……貌似在消息传来之前就已经离开博览会会场了。",
+			say = "那邊的話……貌似在消息傳來之前就已經離開博覽會會場了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事到如今也不可能再折回来，只能说是……非常遗憾。",
+			say = "事到如今也不可能再折回來，只能說是……非常遺憾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，现在还是多关心一下眼前的作战吧，苏维埃同盟。",
+			say = "不過，現在還是多關心一下眼前的作戰吧，蘇維埃聯盟。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "你说得对，闲聊的话到这里就可以了。",
+			say = "妳說得對，閒聊的話到這裡就可以了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，虽然现在我远在撒丁帝国，但还是祝你们旗开得胜，同志。",
+			say = "那麼，雖然現在我遠在薩丁帝國，但還是祝妳們旗開得勝，同志。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "屏幕闪烁了一下，暗了下去。",
+			say = "螢幕閃爍了一下，暗了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "苏维埃同盟在略微沉思之后，接入了战役指挥系统。",
+			say = "蘇維埃聯盟在略微沉思之後，接入了戰役指揮系統。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			blackBg = true,
-			say = "而墙外的风雪，仍在呼啸——",
+			say = "而牆外的風雪，仍在呼嘯——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

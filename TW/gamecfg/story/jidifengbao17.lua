@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"分隊代號「孤狼」",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"旗艦：庫斯克",
 					2
 				},
 				{
-					"塞壬第二防御圈外围·某处",
+					"塞壬第二防禦圈外圍·某處",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "停，有情况。",
+			say = "停，有情況。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "诶？！在哪里在哪里？！",
+			say = "欸？！在哪裡在哪裡？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "航线的正前方，有残骸区，很快就会进入目视范围。",
+			say = "航線的正前方，有殘骸區，很快就會進入目視範圍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……残骸应该是塞壬的，除此之外什么都没有。",
+			say = "……殘骸應該是塞壬的，除此之外什麼都沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "…………这些都是雪鸮告诉你的么？",
+			say = "…………這些都是雪鴞告訴妳的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "是侦察机……",
+			say = "是偵察機……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "正如库尔斯克所言，一片残骸区不久就出现在众人的视野中。",
+			say = "正如庫斯克所言，一片殘骸區不久就出現在眾人的視野中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "这里似乎刚刚经历了一场大战。",
+			say = "這裡似乎剛剛經歷了一場大戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "居然真的全都是塞壬舰队的残骸……！",
+			say = "居然真的全都是塞壬艦隊的殘骸……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯……很多都是被一击摧毁的。",
+			say = "嗯……很多都是被一擊摧毀的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "从燃烧程度来看……应该是一个小时之内发生的事。",
+			say = "從燃燒程度來看……應該是一個小時之內發生的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "看来判断是对的，确实有不属于塞壬的第三方势力正在干扰我们行动。",
+			say = "看來判斷是對的，確實有不屬於塞壬的第三方勢力正在干擾我們行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "啧……能造成这种破坏力的，肯定是META吧。",
+			say = "嘖……能造成這種破壞力的，肯定是META吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "唉……要是这次带了信标检测仪就好了。",
+			say = "唉……要是這次帶了信標檢測儀就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "再周密的计划也不可能面面俱到。",
+			say = "再周密的計劃也不可能面面俱到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "而且，我们有更简单的方法。",
+			say = "而且，我們有更簡單的方法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "……更简单的方法？",
+			say = "……更簡單的方法？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "见了面就知道了。",
+			say = "見了面就知道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "异常信号还在么？",
+			say = "異常訊號還在嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "反应还在。",
+			say = "反應還在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "很好……看来谜底很快就要揭晓了。",
+			say = "很好……看來謎底很快就要揭曉了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "如果真的是META在捣乱的话……我们要怎么办？",
+			say = "如果真的是META在搗亂的話……我們要怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "仅凭我们恐怕应付不了这样的情况吧？",
+			say = "僅憑我們恐怕應付不了這樣的情況吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "首先，我们要弄清楚猎物是什么。",
+			say = "首先，我們要弄清楚獵物是什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "至于之后是打是逃，再做计划。",
+			say = "至於之後是打是逃，再做計劃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来一刻都不要放松，袭击随时可能到来。",
+			say = "接下來一刻都不要放鬆，襲擊隨時可能到來。",
 			painting = {
 				alpha = 0.3,
 				time = 1

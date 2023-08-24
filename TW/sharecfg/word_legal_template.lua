@@ -1586,6 +1586,11 @@ function temp()
 			["索"] = {
 				this = true
 			}
+		},
+		["斯"] = {
+			["克"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -4015,6 +4020,13 @@ function temp()
 	uv0["古"] = {
 		["鷹"] = {
 			this = true
+		},
+		["比"] = {
+			["雪"] = {
+				["夫"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6003,6 +6015,17 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["瓦"] = {
+			["斯"] = {
+				["托"] = {
+					["波"] = {
+						["爾"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6025,6 +6048,22 @@ function temp()
 	uv0["公"] = {
 		["主"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["伏"] = {
+		["羅"] = {
+			["希"] = {
+				["洛"] = {
+					["夫"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"分隊代號「孤狼」",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"旗艦：庫斯克",
 					2
 				},
 				{
-					"楚科奇海要塞周边·塞壬临时防线外围",
+					"楚科奇海要塞周邊·塞壬臨時防線外圍",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "即将接近危险区域……舰队停止航行。",
+			say = "即將接近危險區域……艦隊停止航行。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "巨大的云层遮蔽了天空，似乎正酝酿着一场猛烈地暴风雪。",
+			say = "巨大的雲層遮蔽了天空，似乎正醞釀著一場猛烈地暴風雪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "云层之下的远方，依稀可见露出水平面的塞壬浮岛要塞群。",
+			say = "雲層之下的遠方，依稀可見露出水平面的塞壬浮島要塞群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "前方就是塞壬的楚科奇海要塞，清除者极地防御体系的重要组成部分之一。",
+			say = "前方就是塞壬的楚科奇海要塞，清除者極地防禦體系的重要組成部分之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "情报已经证实，过去出现在极地海域的诸多极端天气均和此处要塞有关。",
+			say = "情報已經證實，過去出現在極地海域的諸多極端天氣均和此處要塞有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "负责这座要塞的，是基洛夫同志？",
+			say = "負責這座要塞的，是基洛夫同志？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "没错。根据计划，基洛夫同志所带领的「镰鼬」分队将负责此处要塞的攻略任务。",
+			say = "沒錯。根據計劃，基洛夫同志所帶領的「鐮鼬」分隊將負責此處要塞的攻略任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "但是战斗还没开始。",
+			say = "但是戰鬥還沒開始。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "也许是在路上遭遇到塞壬的抵抗舰队了吧。",
+			say = "也許是在路上遭遇到塞壬的抵抗艦隊了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "毕竟与我们不同，她们的舰队在明处，遭受到的阻力也更大。",
+			say = "畢竟與我們不同，她們的艦隊在明處，遭受到的阻力也更大。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。可惜没法借助混战从此处穿行了。",
+			say = "嗯。可惜沒辦法借助混戰從此處穿行了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "伏罗希洛夫同志，启动「曙光航标」，我们重新规划航线。",
+			say = "伏羅希洛夫同志，啟動「曙光航標」，我們重新規劃航線。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "了解，正在启动航标————",
+			say = "了解，正在啟動航標————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "……奇怪，目标的位置……变动了？",
+			say = "……奇怪，目標的位置……變動了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "变动了？",
+			say = "變動了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "诶！难道是仪器出现故障了么！",
+			say = "欸！難道是儀器出現故障了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "无法确定。",
+			say = "無法確定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "本次行动确实是「曙光信标」的首次实战应用，不过目标并没有消失，只是位置发生了变动。",
+			say = "本次行動確實是「曙光信標」的首次實戰應用，不過目標並沒有消失，只是位置發生了變動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "或许是随着我们的移动……距离我们更近的地方出现了新的异常点而被优先标记出来了。",
+			say = "或許是隨著我們的移動……距離我們更近的地方出現了新的異常點而被優先標記出來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……只能标记出最近处异常点的装置真不方便。",
+			say = "……只能標記出最近處異常點的裝置真不方便。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "毕竟我们要寻找的是塞壬隐藏在海域里的秘密……",
+			say = "畢竟我們要尋找的是塞壬隱藏在海域裡的秘密……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "能有这样的仪器已经是科研部门能为我们提供的最大支持了。",
+			say = "能有這樣的儀器已經是科研部門能為我們提供的最大支援了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "唔……新的异常点看上去不在塞壬要塞周边，要不然去那边看看好了？",
+			say = "唔……新的異常點看上去不在塞壬要塞周邊，要不然去那邊看看好了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯，调查信号异常点是我们的唯一目标，不能放过一处。",
+			say = "嗯，調查訊號異常點是我們的唯一目標，不能放過一處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "调整航线，我们走。",
+			say = "調整航線，我們走。",
 			painting = {
 				alpha = 0.3,
 				time = 1

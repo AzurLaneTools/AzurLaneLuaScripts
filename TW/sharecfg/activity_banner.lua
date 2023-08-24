@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "41283",
+		param = "41301",
 		id = 1,
 		pic = "temp8",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					24
+					9,
+					7
 				},
 				{
 					23,
@@ -44,7 +44,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -55,8 +55,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					23
+					9,
+					6
 				},
 				{
 					23,
@@ -73,7 +73,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				activity = 41296,
+				activity = 41300,
 				page = 1
 			}
 		},
@@ -82,7 +82,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -93,8 +93,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					24
+					9,
+					7
 				},
 				{
 					23,
@@ -105,7 +105,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "41286",
+		param = "41308",
 		id = 4,
 		pic = "temp9",
 		type = 3,
@@ -114,7 +114,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -125,8 +125,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					6
 				},
 				{
 					23,
@@ -180,7 +180,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -191,8 +191,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					23
+					9,
+					6
 				},
 				{
 					23,
@@ -217,7 +217,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -228,8 +228,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					23
+					9,
+					6
 				},
 				{
 					23,
@@ -242,42 +242,17 @@ pg.activity_banner = {
 	{
 		id = 8,
 		pic = "temp4",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		param = "41247",
+		param = "41303",
 		time = "stop",
 		type = 3,
 		id = 9,
@@ -325,7 +300,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -336,8 +311,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					23
+					9,
+					6
 				},
 				{
 					23,
@@ -364,7 +339,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					24
 				},
 				{
 					0,
@@ -375,8 +350,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					23
+					9,
+					6
 				},
 				{
 					23,

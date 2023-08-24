@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"分隊代號「孤狼」",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"旗艦：庫斯克",
 					2
 				},
 				{
-					"塞壬第一防御圈外围·利亚霍夫群岛一侧",
+					"塞壬第一防禦圈外圍·利亞霍夫群島一側",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "极光汇聚之处代表着海上的异常之处”，同盟同志在布置任务的时候有这么说过吧~",
+			say = "“極光匯聚之處代表著海上的異常之處”，聯盟同志在佈置任務的時候有這麼說過吧~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "你们看，现在天上的极光确实很明显，说明这次我们真的要有所发现了！",
+			say = "妳們看，現在天上的極光確實很明顯，說明這次我們真的要有所發現了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "呼呼呼……不知道我们能发现什么呢！",
+			say = "呼呼呼……不知道我們能發現什麼呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "会是清除者的主机么……还是说，什么新的塞壬神秘基地呢！",
+			say = "會是清除者的主機嗎……還是說，什麼新的塞壬神秘基地呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……你错了，塞瓦斯托波尔同志。",
+			say = "……妳錯了，塞瓦斯托波爾同志。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "欸……？我错哪里了？",
+			say = "欸……？我哪裡錯了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……我们上空的极光，变淡了。",
+			say = "……我們上空的極光，變淡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……伏罗希洛夫同志，启动航标再看一下，我有种不好的预感。",
+			say = "……伏羅希洛夫同志，啟動航標再看一下，我有種不好的預感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "正在启动航标————",
+			say = "正在啟動航標————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "系统运行良好，信号捕捉…………存在问题。",
+			say = "系統運行良好，訊號捕捉…………存在問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "……现在出现在装置中的应该是我们最初追踪的那个信号，位于远方。",
+			say = "……現在出現在裝置中的應該是我們最初追蹤的那個訊號，位於遠方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "而后面我们设定为目标的那处信号已经消失了。",
+			say = "而後面我們設定為目標的那處訊號已經消失了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "什么？！消失了……？",
+			say = "什麼？！消失了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "难道是被塞壬隐藏起来了么？！",
+			say = "難道是被塞壬隱藏起來了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "如果它们能做到的话，最初我们就不会侦测到任何信号。",
+			say = "如果它們能做到的話，最初我們就不會偵測到任何訊號。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "那是怎么回事……？",
+			say = "那是怎麼回事……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "如果我们在追寻的异常点是某种设备的话……将其临时关停，也可以使信号源消失。",
+			say = "如果我們在追尋的異常點是某種設備的話……將其臨時關停，也可以使訊號源消失。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "那为什么没有全部关停？",
+			say = "那為什麼沒有全部關停？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "情报不足，我无法确定。",
+			say = "情報不足，我無法確定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "但是我们一路上没有与塞壬发生任何战斗，暴露的可能性非常低。",
+			say = "但是我們一路上沒有與塞壬發生任何戰鬥，暴露的可能性非常低。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "而依然有异常信号被捕获到，我也不认为是曙光航标出现了故障……",
+			say = "而依然有異常訊號被捕獲到，我也不認為是曙光航標出現了故障……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "唯一可能的解释就是，我们追踪的异常信号本身……发生了某些问题。",
+			say = "唯一可能的解釋就是，我們追蹤的異常訊號本身……發生了某些問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只有一种方法能确定……加速前进，我们前往下一处异常点。",
+			say = "只有一種方法能確定……加速前進，我們前往下一處異常點。",
 			painting = {
 				alpha = 0.3,
 				time = 1

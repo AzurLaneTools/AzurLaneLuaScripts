@@ -11,15 +11,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"分队代号「铁拳」",
+					"分隊代號「鐵拳」",
 					1
 				},
 				{
-					"旗舰：苏维埃罗西亚",
+					"旗艦：蘇維埃俄羅斯",
 					2
 				},
 				{
-					"北极点要塞周边海域·塞壬控制区",
+					"北極點要塞周邊海域·塞壬控制區",
 					3
 				}
 			}
@@ -30,7 +30,7 @@ return {
 			actor = 701030,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天气好像变得更恶劣了……",
+			say = "天氣好像變得更惡劣了……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "距离北极点越近，天气就愈发恶劣呢。",
+			say = "距離北極點越近，天氣就愈發惡劣呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明这里都不算镜面海域内，也不知道清除者的气象武器究竟是什么原理。",
+			say = "明明這裡都不算鏡面海域內，也不知道清除者的氣象武器究竟是什麼原理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕，东北方向发现清除者！",
+			say = "糟糕，東北方向發現清除者！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "借助风雪和电磁干扰的掩护已经接近到这个位置了？！",
+			say = "借助風雪和電磁干擾的掩護已經接近到這個位置了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北极点要塞就在前方，不用继续规避了。",
+			say = "北極點要塞就在前方，不用繼續規避了",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "集中火力，消灭它！",
+			say = "集中火力，消滅它！",
 			painting = {
 				alpha = 0.3,
 				time = 1

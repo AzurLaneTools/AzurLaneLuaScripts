@@ -276,7 +276,7 @@ function slot0.NextOneImmediately(slot0)
 end
 
 function slot0.TriggerEventAuto(slot0)
-	if slot0.step:ExistOption() then
+	if slot0.step and slot0.step:ExistOption() then
 		if slot0.step:GetOptionIndexByAutoSel() ~= nil then
 			triggerButton(slot0.optionUIlist.container:GetChild(slot1 - 1):Find("content"))
 		end

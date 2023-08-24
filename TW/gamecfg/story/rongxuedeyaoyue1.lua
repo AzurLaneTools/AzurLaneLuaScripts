@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>月下的晚风</size>",
+					"融雪的邀約\n\n<size=45>1 1. 月下的晚風</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "一轮新月高悬夜空。松林之中的温泉，此刻正蒸腾着水汽。",
+			say = "一輪新月高懸夜空。松林之中的溫泉，此刻正蒸騰著水汽。",
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "但是氤氲在清朗的夜空之中的，或许不只是水汽而已？",
+			say = "但是氤氳在清朗的夜空之中的，或許不只是水汽而已？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水温好热……指挥官，我先出水吹一下冷风好了。感觉泡久了的话，头会有点晕。",
+			say = "水溫好熱……指揮官，我先出水吹一下冷風好了。感覺泡久了的話，頭會有點暈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "指挥官感觉如何？这个程度的水温，真的没事吗？",
+			say = "指揮官感覺如何？這個程度的水溫，真的沒事嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			},
 			options = {
 				{
-					content = "温度正合适",
+					content = "溫度正合適",
 					flag = 1
 				},
 				{
-					content = "水温有点太热了",
+					content = "水溫有點太熱了",
 					flag = 2
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			optionFlag = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "看起来指挥官对温泉的耐受能力比我要强不少呢……",
+			say = "看起來指揮官對溫泉的耐受能力比我要強不少呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			optionFlag = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳……对我来说水温实在是有点热过头了，感觉身体都像要烧起来了一样……",
+			say = "咳……對我來說水溫實在是有點熱過頭了，感覺身體都像要燒起來了一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			optionFlag = 2,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "果然……我就说不是我的问题……不过看特伦托自得其乐的样子，我还以为是我耐热能力太差了呢……",
+			say = "果然……我就說不是我的問題……不過看特倫托自得其樂的樣子，我還以為是我耐熱能力太差了呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			optionFlag = 2,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "感觉身体都像要烧起来了一样……",
+			say = "感覺身體都像要燒起來了一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,8 +183,8 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			actorName = "特伦托",
-			say = "呵呵~真的是因为温泉么？还是说，因为指挥官也在这里，所以才……？",
+			actorName = "特倫托",
+			say = "呵呵~真的是因為溫泉嗎？還是說，因為指揮官也在這裡，所以才……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "特伦托！",
+			say = "特倫托！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			actorName = "特伦托",
+			actorName = "特倫托",
 			say = "嗯哼哼~",
 			painting = {
 				alpha = 0.3,
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳、那个，指挥官，如果坚持不住了的话，要不要试试像我一样吹吹晚风呢？",
+			say = "咳、那個，指揮官，如果堅持不住了的話，要不要試試像我一樣吹吹晚風呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "呼……凉爽的风吹过来的时候，温泉的温暖还能从脚下传来，这种感觉……真是舒服多了~",
+			say = "呼……涼爽的風吹過來的時候，溫泉的溫暖還能從腳下傳來，這種感覺……真是舒服多了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直都对指挥官挺严厉的，像现在这样能和对指挥官说些真心话的机会也不太多……",
+			say = "一直都對指揮官挺嚴厲的，像現在這樣能和對指揮官說些真心話的機會也不太多……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "其实指挥官平时也挺迁就和关照我的，这些我都是知道的哦~",
+			say = "其實指揮官平時也挺遷就和關照我的，這些我都是知道的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "至于我心中对指挥官的情感什么的……",
+			say = "至於我心中對指揮官的情感什麼的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "啊！一不小心就……不不不，我什么都没说！",
+			say = "啊！一不小心就……不不不，我什麼都沒說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳……今天是尽情休息的日子，指挥官也请继续好好享受温泉吧~",
+			say = "咳……今天是盡情休息的日子，指揮官也請繼續好好享受溫泉吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1404,6 +1404,14 @@ pg.voice_actor_CN = {
 		code = 355,
 		actor_name = "張琦"
 	},
+	[360] = {
+		code = 360,
+		actor_name = "春花蘭"
+	},
+	[361] = {
+		code = 361,
+		actor_name = "衣川里佳"
+	},
 	[376] = {
 		code = 376,
 		actor_name = "高橋花林"

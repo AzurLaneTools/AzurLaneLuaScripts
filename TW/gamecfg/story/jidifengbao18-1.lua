@@ -11,15 +11,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"分隊代號「孤狼」",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"旗艦：庫斯克",
 					2
 				},
 				{
-					"塞壬第二防御圈外围·某处",
+					"塞壬第二防禦圈內側·某處",
 					3
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感受到了么，周围有危险的气息。",
+			say = "感受到了嗎，周圍有危險的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶……我们没有你那么好的直觉啦——",
+			say = "欸……我們沒有妳那麼好的直覺啦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "注意头顶。",
+			say = "注意頭頂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜啊！吓了我一大跳，哪里来的攻击？！",
+			say = "嗚啊！嚇了我一大跳，哪裡來的攻擊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们已经被包围了。",
+			say = "……我們已經被包圍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么……敌人在哪里，有多少？",
+			say = "什麼……敵人在哪裡，有多少？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一前一后，两个。",
+			say = "一前一後，兩個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一个是……重樱的{namecode:94}，像是棋子。",
+			say = "一個是……重櫻的飛龍，像是棋子",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "另一个有些奇怪……应该是META。",
+			say = "另一個有些奇怪……應該是META",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都没有进入我们的可视范围，不过Flea发现了。",
+			say = "都沒有進入我們的可視範圍，不過Flea發現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的侦察潜艇。",
+			say = "我的偵察潛艇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你除了雪鸮、侦察机之外……居然还有侦察潜艇？！",
+			say = "妳除了雪鴞、偵察機之外……居然還有偵察潛艇？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是一路上我都没见过啊！",
+			say = "可是一路上我都沒見過啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为我一直没让它们浮上来过。",
+			say = "因為我一直沒讓它們浮上來過",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……带着棋子的META？",
+			say = "等等……帶著棋子的META？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……为什么棋子能够逃过我们雷达的捕捉？",
+			say = "……為什麼棋子能夠逃過我們雷達的捕捉？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心……第二轮攻击要来了。准备战斗！",
+			say = "小心……第二輪攻擊要來了。準備戰鬥！",
 			painting = {
 				alpha = 0.3,
 				time = 1

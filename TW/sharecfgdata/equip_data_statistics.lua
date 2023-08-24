@@ -3244,6 +3244,88 @@ _G.pg.base.equip_data_statistics[374] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[391] = {
+	tech = 1,
+	name = "北聯雷擊重巡副炮T1",
+	speciality = "锁定",
+	type = 1,
+	rarity = 1,
+	ammo = 5,
+	damage = "2 x 3",
+	nationality = 0,
+	descrip = "預設裝備",
+	id = 391,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		391
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"DD",
+		"MG"
+	}
+}
+
+_G.pg.base.equip_data_statistics[392] = {
+	id = 392,
+	name = "北聯雷擊重巡副炮T2",
+	damage = "3 x 3",
+	base = 391,
+	weapon_id = {
+		392
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[393] = {
+	id = 393,
+	name = "北聯雷擊重巡副炮T3",
+	damage = "4 x 3",
+	base = 391,
+	weapon_id = {
+		393
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[394] = {
+	id = 394,
+	name = "北聯雷擊重巡副炮T4",
+	damage = "5 x 3",
+	base = 391,
+	weapon_id = {
+		394
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[430] = {
 	tech = 1,
 	name = "喀琅施塔得自带副炮",
@@ -17220,6 +17302,132 @@ _G.pg.base.equip_data_statistics[3771] = {
 	base = 3760,
 	id = 3771,
 	value_1 = "380",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3880] = {
+	type = 10,
+	name = "作戰報告·極地風暴",
+	speciality = "无",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 7,
+	descrip = "記錄著「極地風暴」行動的報告書。",
+	rarity = 4,
+	attribute_1 = "cannon",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3880,
+	icon = "3880",
+	value_1 = "5",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60340
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3881] = {
+	id = 3881,
+	value_2 = 1,
+	value_1 = "6",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3882] = {
+	id = 3882,
+	value_2 = 2,
+	value_1 = "7",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3883] = {
+	id = 3883,
+	value_2 = 3,
+	value_1 = "8",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3884] = {
+	id = 3884,
+	value_2 = 4,
+	value_1 = "9",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3885] = {
+	id = 3885,
+	value_2 = 5,
+	value_1 = "10",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3886] = {
+	id = 3886,
+	value_2 = 6,
+	value_1 = "11",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3887] = {
+	id = 3887,
+	value_2 = 7,
+	value_1 = "12",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3888] = {
+	id = 3888,
+	value_2 = 8,
+	value_1 = "13",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3889] = {
+	id = 3889,
+	value_2 = 9,
+	value_1 = "14",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3890] = {
+	id = 3890,
+	value_2 = 10,
+	value_1 = "15",
+	base = 3880,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3891] = {
+	value_2 = 11,
+	anti_siren = 100,
+	base = 3880,
+	id = 3891,
+	value_1 = "16",
 	hidden_skill_id = {}
 }
 
@@ -118285,6 +118493,167 @@ _G.pg.base.equip_data_statistics[85466] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[85480] = {
+	tech = 2,
+	name = "B-1-P 三聯裝180mm主炮Model1932",
+	speciality = "鎖定",
+	type = 2,
+	descrip = "北方聯合開發的180mm三聯裝艦炮，擁有相當優秀的射程",
+	ammo = 1,
+	damage = "23 x 3",
+	nationality = 7,
+	rarity = 4,
+	id = 85480,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "85460",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1712
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1712
+		},
+		{
+			4,
+			1108
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85480
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[85481] = {
+	id = 85481,
+	base = 85480,
+	weapon_id = {
+		85481
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85482] = {
+	id = 85482,
+	damage = "25 x 3",
+	base = 85480,
+	weapon_id = {
+		85482
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85483] = {
+	id = 85483,
+	damage = "26 x 3",
+	base = 85480,
+	weapon_id = {
+		85483
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85484] = {
+	id = 85484,
+	damage = "27 x 3",
+	base = 85480,
+	weapon_id = {
+		85484
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85485] = {
+	id = 85485,
+	damage = "28 x 3",
+	base = 85480,
+	weapon_id = {
+		85485
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85486] = {
+	id = 85486,
+	damage = "29 x 3",
+	base = 85480,
+	weapon_id = {
+		85486
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85487] = {
+	id = 85487,
+	damage = "30 x 3",
+	base = 85480,
+	weapon_id = {
+		85487
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85488] = {
+	id = 85488,
+	damage = "31 x 3",
+	base = 85480,
+	weapon_id = {
+		85488
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85489] = {
+	id = 85489,
+	damage = "32 x 3",
+	base = 85480,
+	weapon_id = {
+		85489
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85490] = {
+	id = 85490,
+	damage = "33 x 3",
+	base = 85480,
+	weapon_id = {
+		85490
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85520] = {
 	tech = 0,
 	name = "B-50 三聯裝305mm主炮Mk-15",
@@ -118962,6 +119331,200 @@ _G.pg.base.equip_data_statistics[85573] = {
 	},
 	weapon_id = {
 		85573
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85580] = {
+	tech = 0,
+	name = "試作型三聯裝240mm主炮",
+	speciality = "锁定",
+	type = 3,
+	descrip = "Project X重巡洋艦預計搭載的試作型240mm口徑主炮",
+	ammo = 1,
+	damage = "35 x 6",
+	nationality = 7,
+	rarity = 5,
+	id = 85580,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "85580",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1426
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1426
+		},
+		{
+			4,
+			1214
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		85580
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[85581] = {
+	id = 85581,
+	damage = "37 x 6",
+	base = 85580,
+	weapon_id = {
+		85581
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85582] = {
+	id = 85582,
+	damage = "39 x 6",
+	base = 85580,
+	weapon_id = {
+		85582
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85583] = {
+	id = 85583,
+	damage = "41 x 6",
+	base = 85580,
+	weapon_id = {
+		85583
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85584] = {
+	id = 85584,
+	damage = "43 x 6",
+	base = 85580,
+	weapon_id = {
+		85584
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85585] = {
+	id = 85585,
+	damage = "45 x 6",
+	base = 85580,
+	weapon_id = {
+		85585
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85586] = {
+	id = 85586,
+	damage = "47 x 6",
+	base = 85580,
+	weapon_id = {
+		85586
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85587] = {
+	id = 85587,
+	damage = "49 x 6",
+	base = 85580,
+	weapon_id = {
+		85587
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85588] = {
+	id = 85588,
+	damage = "51 x 6",
+	base = 85580,
+	weapon_id = {
+		85588
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85589] = {
+	id = 85589,
+	damage = "53 x 6",
+	base = 85580,
+	weapon_id = {
+		85589
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85590] = {
+	id = 85590,
+	damage = "55 x 6",
+	base = 85580,
+	weapon_id = {
+		85590
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85591] = {
+	id = 85591,
+	anti_siren = 100,
+	damage = "55 x 6",
+	base = 85580,
+	weapon_id = {
+		85591
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85592] = {
+	id = 85592,
+	anti_siren = 200,
+	damage = "55 x 6",
+	base = 85580,
+	weapon_id = {
+		85592
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[85593] = {
+	id = 85593,
+	anti_siren = 300,
+	damage = "55 x 6",
+	base = 85580,
+	weapon_id = {
+		85593
 	},
 	hidden_skill_id = {}
 }
@@ -134285,6 +134848,60 @@ _G.pg.base.equip_data_statistics[170012] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[170031] = {
+	type = 1,
+	name = "專屬彈幕-庫斯克I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能彈幕",
+	id = 170031,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170031
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170032] = {
+	descrip = "技能彈幕",
+	name = "專屬彈幕-庫斯克II",
+	id = 170032,
+	base = 170031,
+	weapon_id = {
+		170032
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[170041] = {
 	type = 1,
 	name = "專屬彈幕-拉·加利索尼埃METAI",
@@ -134334,6 +134951,60 @@ _G.pg.base.equip_data_statistics[170042] = {
 	base = 170041,
 	weapon_id = {
 		170042
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[170051] = {
+	type = 1,
+	name = "專屬彈幕-伏羅希洛夫I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能彈幕",
+	id = 170051,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60971
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170052] = {
+	descrip = "技能彈幕",
+	name = "專屬彈幕-伏羅希洛夫II",
+	id = 170052,
+	base = 170051,
+	weapon_id = {
+		60972
 	},
 	hidden_skill_id = {}
 }

@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「镰鼬」",
+					"分隊代號「鐮鼬」",
 					1
 				},
 				{
-					"旗舰：基洛夫",
+					"旗艦：基洛夫",
 					2
 				},
 				{
-					"弗兰格尔岛前哨站外围海域·北方联合控制区",
+					"弗蘭格爾島前哨站外圍海域·北方聯合控制區",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在舰队离开弗兰格尔岛后没过多久，原本还算和蔼的天气立刻转变为了狂风暴雪。",
+			say = "在艦隊離開弗蘭格爾島後沒過多久，原本還算和藹的天氣立刻轉變為了狂風暴雪。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自从白令海的塞壬要塞被击破之后，这里的天气就变得好差……",
+			say = "自從白令海的塞壬要塞被擊破之後，這裡的天氣就變得好差……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说不定清除者从那时候就开始在这里捣鬼了……",
+			say = "說不定清除者從那時候就開始在這裡搗鬼了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很有可能。如果不是它们最近扩建防御设施闹出这么大动静的话，真不知道我们什么时候才能发现这座要塞。",
+			say = "很有可能。如果不是它們最近擴建防禦設施鬧出這麼大動靜的話，真不知道我們什麼時候才能發現這座要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "聪明反被聪明误。",
+			say = "聰明反被聰明誤。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，没错，真是聪明反被聪明误。",
+			say = "呵呵，沒錯，真是聰明反被聰明誤。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "一路打过去，消灭敌人，破坏要塞，让天气好一些……",
+			say = "一路打過去，消滅敵人，破壞要塞，讓天氣好一些……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "破坏了要塞，天气就能好起来了吧……？",
+			say = "破壞了要塞，天氣就能好起來了吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "理论上是这样的，这座塞壬的楚科奇海要塞大概率就是清除者用于操纵极地天气的气象武器的所在地。",
+			say = "理論上是這樣的，這座塞壬的楚科奇海要塞大概就是清除者用於操縱極地天氣的氣象武器的所在地。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是路上的风雪，唔——好大的风！",
+			say = "但是路上的風雪，唔——好大的風！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "洪亮奋力按住头上的帽子，狂乱的风雪似乎要彻底抹去这支舰队一般猛烈的吹着。",
+			say = "洪亮奮力按住頭上的帽子，狂亂的風雪似乎要徹底抹去這支艦隊一般猛烈的吹著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "不赶到要塞就不能停止暴风雪，但是暴风雪一直吹就没法走到要塞……",
+			say = "不趕到要塞就不能停止暴風雪，但是暴風雪一直吹就沒法走到要塞……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们倒是有一个秘密装置可以用~",
+			say = "我們倒是有一個秘密裝置可以用~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "秘密装置？",
+			say = "秘密裝置？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "科研部门将其命名为“便携式气象稳定装置”。",
+			say = "科研部門將其命名為“便攜式氣象穩定裝置”。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要开启这个装置的话，就可以抑制恶劣的风雪天气对于我们的影响。",
+			say = "只要開啟這個裝置的話，就可以抑制惡劣的風雪天氣對於我們的影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "“便携式气象稳定装置”……是什么？",
+			say = "“便攜式氣象穩定裝置”……是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像是由冻土改造装置改装而成的便携式加热阵列，被放置在多艘特制的量产型上……",
+			say = "好像是由凍土改造裝置改裝而成的便攜式加熱陣列，被放置在多艘特製的量產型上……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "“冻土改造装置”……是什么？",
+			say = "“凍土改造裝置”……是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……你就简单理解成我们的便携式气象武器好了~",
+			say = "咳……妳就簡單理解成我們的便攜式氣象武器好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过为了便携而牺牲了稳定性，需要严格限制使用时间。",
+			say = "不過為了便攜而犧牲了穩定性，需要嚴格限制使用時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体开启时机由我来把控，等到关键的时候可以打敌人一个措手不及。",
+			say = "具體開啟時機由我來把控，等到關鍵的時候可以打敵人一個措手不及。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过路上就只好先忍耐一下了……",
+			say = "不過路上就只好先忍耐一下了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同志们，这是对我们意志的锤炼，即便没有它的帮助，也不能阻挡我们前进的脚步。",
+			say = "同志們，這是對我們意志的錘煉，即便沒有它的幫助，也不能阻擋我們前進的腳步。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一次势必要让塞壬付出代价！",
+			say = "這一次勢必要讓塞壬付出代價！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "好，威严忍耐，忍耐到能揍扁塞壬的时候……",
+			say = "好，威嚴忍耐，忍耐到能揍扁塞壬的時候……",
 			painting = {
 				alpha = 0.3,
 				time = 1
