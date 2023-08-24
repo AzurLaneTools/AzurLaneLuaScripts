@@ -24202,3 +24202,7 @@ _G.pg.base.gametip.msgbox_repair_cipher = {
 _G.pg.base.gametip.msgbox_repair_title = {
 	tip = "정보"
 }
+
+_G.pg.base.gametip.equip_skin_detail_count = {
+	tip = "소지 중:"
+}

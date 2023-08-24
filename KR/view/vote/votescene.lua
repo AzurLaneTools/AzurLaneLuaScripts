@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 	end)
 
 	slot0.rankPage = uv0.PAGES[slot1][2].New(slot0:findTF("main/left_panel"), slot0.event)
-	slot0.voteMsgBox = VoteDiaplayPage.New(slot0._tf, slot0._event)
+	slot0.voteMsgBox = VoteDiaplayPage.New(slot0._tf, slot0.event)
 
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)

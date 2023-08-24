@@ -290,7 +290,6 @@ function slot9.DeacActionClear(slot0)
 
 	uv0.Spirit(slot0)
 	uv0.Whosyourdaddy(slot0)
-	slot0:ClearWeapon()
 	slot0:DeadActionEvent()
 end
 

@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.purchaseWindow = GuildShopPurchasePanel.New(slot0._tf, slot0._event)
+	slot0.purchaseWindow = GuildShopPurchasePanel.New(slot0._tf, slot0.event)
 end
 
 function slot0.UpdateShop(slot0, ...)
@@ -76,8 +76,6 @@ function slot0.OnCardClick(slot0, slot1)
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			showOwned = true,
-			hideLine = true,
 			yesText = "text_exchange",
 			content = i18n("guild_shop_exchange_tip"),
 			onYes = function ()

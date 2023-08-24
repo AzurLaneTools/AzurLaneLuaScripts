@@ -168,6 +168,14 @@ pg.open_systems_limited = {
 		mediator = "QuotaShop",
 		level = 10
 	},
+	[23] = {
+		scene = "MAINUI",
+		name = "新版限界挑战",
+		story_id = "",
+		id = 23,
+		mediator = "LimitChallengeMediator",
+		level = 80
+	},
 	all = {
 		1,
 		2,
@@ -189,6 +197,7 @@ pg.open_systems_limited = {
 		19,
 		20,
 		21,
-		22
+		22,
+		23
 	}
 }

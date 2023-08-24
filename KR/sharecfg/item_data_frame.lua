@@ -396,6 +396,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「예언의 날, 중정은 화염과 노도에 떨어질 것이다-」</color>\n「오엽각 교차점」이벤트에서 획득",
 		scene = {}
 	},
+	[326] = {
+		time_limit_type = 0,
+		name = "무관의 성관",
+		gain_by = "",
+		id = 326,
+		time_second = 0,
+		desc = "이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -522,6 +531,7 @@ pg.item_data_frame = {
 		323,
 		324,
 		325,
+		326,
 		401,
 		402,
 		413,

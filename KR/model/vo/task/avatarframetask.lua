@@ -129,57 +129,67 @@ function slot0.isAvatarTask(slot0)
 end
 
 function slot0.createData(slot0, slot1, slot2)
-	slot3 = ""
-	slot4 = 1
-	slot5 = 1
-	slot6 = {
-		"GETBOAT"
-	}
+	slot3 = nil
 
 	if slot1 == uv0.type_task_level then
-		slot7 = slot2[2]
-		slot9 = slot2[4]
-		slot4 = slot2[5]
-		slot5 = slot2[6]
-		slot6 = {
-			"LEVEL"
-		}
+		slot4, slot5, slot6, slot7, slot8, slot9 = unpack(slot2)
 		slot10 = ""
 
-		if slot2[3] > 0 and slot8 <= #uv1 then
-			slot10 = pg.gametip[uv1[slot8]].tip
+		if slot6 > 0 and slot6 <= #uv1 then
+			slot10 = pg.gametip[uv1[slot6]].tip
 		end
 
-		slot12 = pg.ship_data_statistics[slot7 * 10 + 1].name
-		slot13 = nil
+		slot12 = pg.ship_data_statistics[slot5 * 10 + 1].name
+		slot13, slot14 = nil
 
-		for slot17, slot18 in ipairs(slot9) do
-			assert(pg.chapter_template[slot18] ~= nil, "找不到chapterid = " .. slot18)
+		for slot18, slot19 in ipairs(slot7) do
+			assert(pg.chapter_template[slot19] ~= nil, "找不到chapterid = " .. slot19)
 
-			slot13 = (slot13 or pg.chapter_template[slot18].chapter_name) and pg.chapter_template[slot18].chapter_name .. "," .. pg.chapter_template[slot18].chapter_name
+			slot14 = slot14 or {
+				"ACTIVITY_MAP",
+				{
+					pg.chapter_template[slot19].act_id
+				}
+			}
+			slot13 = (slot13 or pg.chapter_template[slot19].chapter_name) and pg.chapter_template[slot19].chapter_name .. "," .. pg.chapter_template[slot19].chapter_name
 		end
 
-		slot3 = i18n("avatar_task_level", slot10, slot12, slot13, slot4)
-	elseif slot1 == uv0.type_task_ship then
-		slot5 = slot2[4]
-		slot6 = {
-			"GETBOAT"
+		slot3 = {
+			target_num = slot8,
+			award_num = slot9,
+			scene = slot14,
+			desc = i18n("avatar_task_level", slot10, slot12, slot13, slot8)
 		}
-		slot10 = pg.ship_data_statistics[slot2[2] * 10 + 1].name
+	elseif slot1 == uv0.type_task_ship then
+		slot4, slot5, slot6, slot7 = unpack(slot2)
+		slot9 = pg.ship_data_statistics[slot5 * 10 + 1].name
 
-		if slot2[3] == 1 then
-			slot3 = i18n(uv2, slot10)
-		elseif slot8 == 2 then
-			slot3 = i18n(uv3, slot10)
+		if slot6 == 1 then
+			slot3 = {
+				award_num = slot7,
+				desc = i18n(uv2, slot9)
+			}
+		elseif slot6 == 2 then
+			slot3 = {
+				award_num = slot7,
+				desc = i18n(uv3, slot9),
+				scene = {
+					"DOCKYARD",
+					{
+						mode = "overview"
+					}
+				}
+			}
 		end
 	end
 
-	return {
-		desc = slot3,
-		target_num = slot4,
-		award_num = slot5,
-		scene = slot6
-	}
+	return setmetatable(slot3, {
+		__index = {
+			award_num = 1,
+			target_num = 1,
+			desc = ""
+		}
+	})
 end
 
 return slot0

@@ -100,7 +100,7 @@ end
 
 function slot0.addEquipmentSkin(slot0, slot1, slot2)
 	if slot0.equipmentSkinIds[slot1] then
-		slot0.equipmentSkinIds[slot1].count = slot0.equipmentSkinIds[slot1].count + 1
+		slot0.equipmentSkinIds[slot1].count = slot0.equipmentSkinIds[slot1].count + slot2
 	else
 		slot0.equipmentSkinIds[slot1] = {
 			id = slot1,

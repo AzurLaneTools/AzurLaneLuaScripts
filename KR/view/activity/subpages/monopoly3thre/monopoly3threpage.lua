@@ -84,7 +84,7 @@ function slot0.updateGameUI(slot0)
 	if slot0.gameUI then
 		slot0.gameUI:updataActivity(slot0.activity)
 	else
-		slot0.gameUI = Monopoly3thReGame.New(slot0, findTF(slot0._tf, "AD"), slot0._event, 4)
+		slot0.gameUI = Monopoly3thReGame.New(slot0, findTF(slot0._tf, "AD"), slot0.event, 4)
 
 		slot0.gameUI:firstUpdata(slot0.activity)
 

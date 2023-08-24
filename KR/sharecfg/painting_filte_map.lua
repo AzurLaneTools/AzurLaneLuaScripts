@@ -1,19 +1,5 @@
 pg = pg or {}
 pg.painting_filte_map = {
-	["22"] = {
-		key = "22",
-		res_list = {
-			"painting/22_tex",
-			"painting/22"
-		}
-	},
-	["33"] = {
-		key = "33",
-		res_list = {
-			"painting/33_tex",
-			"painting/33"
-		}
-	},
 	abeikelongbi = {
 		key = "abeikelongbi",
 		res_list = {
@@ -842,14 +828,9 @@ pg.painting_filte_map = {
 		key = "anshan",
 		res_list = {
 			"painting/anshan_tex",
-			"painting/anshan"
-		}
-	},
-	anshan_2 = {
-		key = "anshan_2",
-		res_list = {
 			"painting/anshan_2_tex",
-			"painting/anshan_2"
+			"painting/anshan_2",
+			"painting/anshan"
 		}
 	},
 	anshan_3 = {
@@ -1471,14 +1452,9 @@ pg.painting_filte_map = {
 		key = "biaoqiang",
 		res_list = {
 			"painting/biaoqiang_tex",
-			"painting/biaoqiang"
-		}
-	},
-	biaoqiang_2 = {
-		key = "biaoqiang_2",
-		res_list = {
 			"painting/biaoqiang_2_tex",
-			"painting/biaoqiang_2"
+			"painting/biaoqiang_2",
+			"painting/biaoqiang"
 		}
 	},
 	biaoqiang_3 = {
@@ -2468,6 +2444,8 @@ pg.painting_filte_map = {
 		key = "chuixue",
 		res_list = {
 			"painting/chuixue_tex",
+			"painting/chuixue_4_tex",
+			"painting/chuixue_4",
 			"painting/chuixue"
 		}
 	},
@@ -2483,13 +2461,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/chuixue_3_tex",
 			"painting/chuixue_3"
-		}
-	},
-	chuixue_4 = {
-		key = "chuixue_4",
-		res_list = {
-			"painting/chuixue_4_tex",
-			"painting/chuixue_4"
 		}
 	},
 	chuixue_5 = {
@@ -6215,14 +6186,9 @@ pg.painting_filte_map = {
 		key = "keluoladuo",
 		res_list = {
 			"painting/keluoladuo_tex",
-			"painting/keluoladuo"
-		}
-	},
-	keluoladuo_2 = {
-		key = "keluoladuo_2",
-		res_list = {
 			"painting/keluoladuo_2_tex",
-			"painting/keluoladuo_2"
+			"painting/keluoladuo_2",
+			"painting/keluoladuo"
 		}
 	},
 	keluoladuo_3 = {
@@ -6407,6 +6373,8 @@ pg.painting_filte_map = {
 		key = "lafei",
 		res_list = {
 			"painting/lafei_tex",
+			"painting/lafei_2_tex",
+			"painting/lafei_2",
 			"painting/lafei"
 		}
 	},
@@ -6432,13 +6400,6 @@ pg.painting_filte_map = {
 			"painting/lafei_12_tex",
 			"painting/lafei_12_rw_tex",
 			"painting/lafei_12"
-		}
-	},
-	lafei_2 = {
-		key = "lafei_2",
-		res_list = {
-			"painting/lafei_2_tex",
-			"painting/lafei_2"
 		}
 	},
 	lafei_3 = {
@@ -7278,6 +7239,8 @@ pg.painting_filte_map = {
 		key = "luodeni",
 		res_list = {
 			"painting/luodeni_tex",
+			"painting/luodeni_3_tex",
+			"painting/luodeni_3",
 			"painting/luodeni"
 		}
 	},
@@ -7286,13 +7249,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/luodeni_2_tex",
 			"painting/luodeni_2"
-		}
-	},
-	luodeni_3 = {
-		key = "luodeni_3",
-		res_list = {
-			"painting/luodeni_3_tex",
-			"painting/luodeni_3"
 		}
 	},
 	luodeni_4 = {
@@ -7590,14 +7546,9 @@ pg.painting_filte_map = {
 		key = "malilan",
 		res_list = {
 			"painting/malilan_tex",
-			"painting/malilan"
-		}
-	},
-	malilan_2 = {
-		key = "malilan_2",
-		res_list = {
 			"painting/malilan_2_tex",
-			"painting/malilan_2"
+			"painting/malilan_2",
+			"painting/malilan"
 		}
 	},
 	maliluosi_2_doa = {
@@ -9815,6 +9766,8 @@ pg.painting_filte_map = {
 		key = "shancheng",
 		res_list = {
 			"painting/shancheng_tex",
+			"painting/shancheng_7_tex",
+			"painting/shancheng_7",
 			"painting/shancheng"
 		}
 	},
@@ -9844,13 +9797,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/shancheng_6_tex",
 			"painting/shancheng_6"
-		}
-	},
-	shancheng_7 = {
-		key = "shancheng_7",
-		res_list = {
-			"painting/shancheng_7_tex",
-			"painting/shancheng_7"
 		}
 	},
 	shancheng_8 = {
@@ -12369,20 +12315,17 @@ pg.painting_filte_map = {
 		key = "xifujiniya",
 		res_list = {
 			"painting/xifujiniya_tex",
-			"painting/xifujiniya"
-		}
-	},
-	xifujiniya_2 = {
-		key = "xifujiniya_2",
-		res_list = {
 			"painting/xifujiniya_2_tex",
-			"painting/xifujiniya_2"
+			"painting/xifujiniya_2",
+			"painting/xifujiniya"
 		}
 	},
 	xili = {
 		key = "xili",
 		res_list = {
 			"painting/xili_tex",
+			"painting/xili_3_tex",
+			"painting/xili_3",
 			"painting/xili"
 		}
 	},
@@ -12391,13 +12334,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/xili_2_tex",
 			"painting/xili_2"
-		}
-	},
-	xili_3 = {
-		key = "xili_3",
-		res_list = {
-			"painting/xili_3_tex",
-			"painting/xili_3"
 		}
 	},
 	xili_4 = {
@@ -13754,6 +13690,8 @@ pg.painting_filte_map = {
 		key = "z23",
 		res_list = {
 			"painting/z23_tex",
+			"painting/z23_11_tex",
+			"painting/z23_11",
 			"painting/z23"
 		}
 	},
@@ -13764,13 +13702,6 @@ pg.painting_filte_map = {
 			"painting/z23_10_n_tex",
 			"painting/z23_10_n",
 			"painting/z23_10"
-		}
-	},
-	z23_11 = {
-		key = "z23_11",
-		res_list = {
-			"painting/z23_11_tex",
-			"painting/z23_11"
 		}
 	},
 	z23_2 = {

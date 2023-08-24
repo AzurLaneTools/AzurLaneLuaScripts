@@ -12,6 +12,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	uv0.SetRedPointMonth()
 	slot0:updateLeftTime()
 	slot0:updateToggleList()
 	slot0:trigeHigestUnlockLevel()
@@ -146,7 +147,6 @@ function slot0.addListener(slot0)
 				})
 				onButton(uv0, slot3, function ()
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						iconBg = true,
 						hideNo = true,
 						type = MSGBOX_TYPE_DROP_ITEM,
 						name = uv0,

@@ -5,17 +5,34 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
-	slot0.confirmBtn = slot0:findTF("calc/confirm")
-	slot0.rightArr = slot0:findTF("calc/value_bg/add")
-	slot0.leftArr = slot0:findTF("calc/value_bg/mius")
-	slot0.maxBtn = slot0:findTF("calc/max")
-	slot0.valueText = slot0:findTF("calc/value_bg/Text")
-	slot0.itemTF = slot0:findTF("item/bottom/item")
-	slot0.nameTF = slot0:findTF("item/bottom/name_bg/name")
-	slot0.descTF = slot0:findTF("item/bottom/desc_con/desc")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("operate")
+	slot0.ulist = UIItemList.New(slot1:Find("got/bottom/list"), slot1:Find("got/bottom/list/tpl"))
+	slot0.confirmBtn = slot1:Find("actions/confirm")
+	slot3 = slot0.confirmBtn
 
-	onButton(slot0, slot0._tf, function ()
+	setText(slot3:Find("Image"), i18n("text_confirm"))
+
+	slot0.cancelBtn = slot1:Find("actions/cancel")
+	slot3 = slot0.cancelBtn
+
+	setText(slot3:Find("Image"), i18n("text_cancel"))
+
+	slot0.rightArr = slot1:Find("calc/value_bg/add")
+	slot0.leftArr = slot1:Find("calc/value_bg/mius")
+	slot0.maxBtn = slot1:Find("calc/max")
+	slot0.valueText = slot1:Find("calc/value_bg/Text")
+	slot0.itemTF = slot1:Find("item")
+	slot2 = slot0.itemTF
+	slot0.nameTF = slot2:Find("display_panel/name_container/name/Text")
+	slot2 = slot0.itemTF
+	slot0.descTF = slot2:Find("display_panel/desc/Text")
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("bg"), function ()
+		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
@@ -88,7 +105,7 @@ function slot0.updateValue(slot0)
 			return
 		end
 
-		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count * uv0.displayDrops[slot0 + 1].count)
+		setText(slot1:Find("item/icon_bg/count"), uv0.count * uv0.displayDrops[slot0 + 1].count)
 	end)
 end
 
@@ -114,7 +131,7 @@ function slot0.update(slot0, slot1)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2:Find("item/bg"), uv0.displayDrops[slot1])
+			updateDrop(slot2:Find("item"), uv0.displayDrops[slot1])
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.selectedIndex = uv1
@@ -136,11 +153,19 @@ function slot0.update(slot0, slot1)
 	slot0.ulist:align(#slot0.displayDrops)
 	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
-	updateDrop(slot0.itemTF:Find("bg"), {
+
+	slot3 = {
 		type = DROP_TYPE_ITEM,
 		id = slot1.id,
 		count = slot1.count
-	})
+	}
+
+	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
+		count = 0
+	}, {
+		__index = slot3
+	}))
+	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot3)
 	setText(slot0.nameTF, slot1:getConfig("name"))
 	setText(slot0.descTF, slot1:getConfig("display"))
 end

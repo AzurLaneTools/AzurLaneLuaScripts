@@ -812,10 +812,7 @@ end
 function setIconName(slot0, slot1, slot2)
 	if not IsNil(findTF(slot0, "name")) then
 		setText(slot3, slot1)
-
-		if slot2.hideName then
-			setActive(slot3, false)
-		end
+		setTextAlpha(slot3, (slot2.hideName or slot2.anonymous) and 0 or 1)
 	end
 end
 
@@ -1366,6 +1363,10 @@ function slot9(slot0, slot1)
 end
 
 function updateDropCfg(slot0)
+	if slot0.cfg then
+		return slot0.cfg
+	end
+
 	uv0 = uv0 or {
 		[DROP_TYPE_RESOURCE] = function (slot0)
 			slot0.cfg = pg.item_data_statistics[id2ItemId(slot0.id)]
@@ -4010,4 +4011,70 @@ function CheckShipExpOverflow(slot0)
 	end
 
 	return true
+end
+
+slot28 = {
+	[17.0] = "item_type17_tip2",
+	tech = "techpackage_item_use_confirm",
+	[16.0] = "item_type16_tip2",
+	[11.0] = "equip_skin_detail_tip",
+	[13.0] = "item_type13_tip2"
+}
+
+function RegisterDetailButton(slot0, slot1, slot2)
+	updateDropCfg(slot2)
+	switch(slot2.type, {
+		[DROP_TYPE_ITEM] = function ()
+			if uv1[getProxy(TechnologyProxy):getItemCanUnlockBluePrint(uv0.id) and "tech" or uv0.cfg.type] then
+				slot1 = {
+					item2Row = true,
+					itemList = underscore.map(uv0.cfg.display_icon, function (slot0)
+						return {
+							type = slot0[1],
+							id = slot0[2],
+							count = slot0[3]
+						}
+					end),
+					content = i18n(uv1[slot0])
+				}
+
+				if slot0 == 11 then
+					onButton(uv2, uv3, function ()
+						uv0:emit(BaseUI.ON_DROP_LIST_OWN, uv1)
+					end, SFX_PANEL)
+				else
+					onButton(uv2, uv3, function ()
+						uv0:emit(BaseUI.ON_DROP_LIST, uv1)
+					end, SFX_PANEL)
+				end
+			end
+
+			setActive(uv3, tobool(uv1[slot0]))
+		end,
+		[DROP_TYPE_EQUIP] = function ()
+			onButton(uv0, uv1, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+			setActive(uv1, true)
+		end,
+		[DROP_TYPE_SPWEAPON] = function ()
+			onButton(uv0, uv1, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+			setActive(uv1, true)
+		end
+	}, function ()
+		setActive(uv0, false)
+	end)
+end
+
+function UpdateOwnDisplay(slot0, slot1)
+	slot2, slot3 = GetOwnedDropCount(slot1)
+
+	setActive(slot0, slot3 and slot2 > 0)
+
+	if slot3 and slot2 > 0 then
+		setText(slot0.Find(slot0, "label"), i18n("word_own1"))
+		setText(slot0.Find(slot0, "Text"), slot2)
+	end
 end

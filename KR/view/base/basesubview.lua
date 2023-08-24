@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.contextData = slot3
 	slot0._parentTf = slot1
-	slot0._event = slot2
+	slot0.event = slot2
 	slot0._go = nil
 	slot0._tf = nil
 	slot0._state = uv0.STATES.NONE

@@ -42,8 +42,8 @@ function slot0.OnLoaded(slot0)
 		slot0:findTF("left/tags/home")
 	}
 	slot0.pages = {
-		CommanderHomeSelCommanderPage.New(slot0.pagesTF, slot0._event),
-		CommanderHomeSelCatteryStylePage.New(slot0.pagesTF, slot0._event)
+		CommanderHomeSelCommanderPage.New(slot0.pagesTF, slot0.event),
+		CommanderHomeSelCatteryStylePage.New(slot0.pagesTF, slot0.event)
 	}
 end
 

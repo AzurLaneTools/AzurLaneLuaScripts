@@ -339,7 +339,6 @@ function slot0.updateStageView(slot0, slot1)
 					for slot6, slot7 in ipairs(uv0.display_icon) do
 						slot9 = slot7[2]
 						slot2[#slot2 + 1] = {
-							hideName = true,
 							type = slot8,
 							id = slot9,
 							anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot0, slot9)

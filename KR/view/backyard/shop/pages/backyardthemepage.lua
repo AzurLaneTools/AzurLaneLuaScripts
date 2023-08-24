@@ -39,7 +39,7 @@ function slot0.LoadDetail(slot0)
 	slot0.descript = slot0:findTF("adpter/descript")
 	slot0.arrLeftBtn = slot0:findTF("adpter/list/zuobian")
 	slot0.arrRightBtn = slot0:findTF("adpter/list/youbian")
-	slot0.infoPage = BackYardThemeInfoPage.New(slot0._tf, slot0._event, slot0.contextData)
+	slot0.infoPage = BackYardThemeInfoPage.New(slot0._tf, slot0.event, slot0.contextData)
 
 	function slot0.infoPage.OnEnter()
 		uv0:UnBlurView()
