@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "41301",
+		param = "41303",
 		id = 1,
 		pic = "temp8",
 		type = 3,

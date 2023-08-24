@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.25,
 			style = {
-				text = "点击可切换单队连战与多队出击状态",
+				text = "點擊可切換單隊連戰與多隊出擊狀態",
 				mode = 1,
 				posY = -136.5,
 				dir = 1,

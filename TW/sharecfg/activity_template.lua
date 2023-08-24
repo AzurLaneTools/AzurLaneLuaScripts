@@ -30661,13 +30661,13 @@ pg.activity_template = {
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
-			buildship_tip = "伏羅希洛夫、庫斯克等角色建造機率UP！ ",
+			buildship_tip = "伏羅希洛夫、庫斯克等角色建造機率UP！",
 			rate_tip = {
 				"<color=#ffde38>超稀有艦船</color>：7%",
-				"<color=#d797ff>精銳艦船</color>：12 %",
+				"<color=#d797ff>精銳艦船</color>：12%",
 				"<color=#3dc6ff>稀有艦船</color>：51%",
 				"普通艦船：30%",
-				"<color=#ffde38>伏羅希洛夫</color>：2.0%<color =#92FC63>(up!)</color>",
+				"<color=#ffde38>伏羅希洛夫</color>：2.0%<color=#92FC63>(up!)</color>",
 				" ",
 				"<color=#ffde38>庫斯克</color>：2.0%<color=#92FC63>(up!)</color>",
 				" ",
@@ -30882,7 +30882,7 @@ pg.activity_template = {
 		mark = 20230824,
 		title_res_tag = "",
 		page_info = "",
-		type = 18,
+		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
@@ -30894,7 +30894,11 @@ pg.activity_template = {
 			18415,
 			18416,
 			18417,
-			18418
+			18418,
+			18420,
+			18421,
+			18422,
+			18423
 		},
 		time = {
 			"timer",
@@ -31066,50 +31070,6 @@ pg.activity_template = {
 				},
 				{
 					"RONGXUEDEYAOYUE5"
-				}
-			}
-		}
-	},
-	[41309] = {
-		mark = 20230824,
-		title_res_tag = "",
-		page_info = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		id = 41309,
-		config_data = {
-			18420,
-			18421,
-			18422,
-			18423
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					8,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					7
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		}
@@ -34286,7 +34246,6 @@ pg.activity_template = {
 		41306,
 		41307,
 		41308,
-		41309,
 		45000,
 		45001,
 		45002,

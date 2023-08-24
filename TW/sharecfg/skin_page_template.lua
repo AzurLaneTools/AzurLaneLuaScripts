@@ -120,6 +120,12 @@ pg.skin_page_template = {
 		res = "wudao",
 		english_name = "Rhythm & Steps"
 	},
+	[22] = {
+		id = 22,
+		name = "溫泉時光",
+		res = "wenquanshiguang",
+		english_name = "Hot Springs "
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -159,6 +165,7 @@ pg.skin_page_template = {
 		19,
 		20,
 		21,
+		22,
 		9997,
 		9998,
 		9999
