@@ -1427,7 +1427,7 @@ pg.world_event_desc = {
 	},
 	[1000050] = {
 		id = 1000050,
-		hint = "Disrupt the Pawns’ communication chanel.",
+		hint = "Disrupt the Pawns’ communication channel.",
 		hint_pri = 5
 	},
 	[1000032] = {

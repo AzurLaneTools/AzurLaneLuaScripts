@@ -453,8 +453,9 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "Hmm... After such a public showing, those witch costumes must be sold out by now, Akashi is such a genius!",
 			typewriter = {

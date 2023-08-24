@@ -143,12 +143,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#A9F548FF",
+			actor = 605020,
+			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			actor = 608010,
-			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Hmm... True. She's always busy with her inventions...",
 			typewriter = {
 				speed = 0.05,

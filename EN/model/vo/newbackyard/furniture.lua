@@ -109,6 +109,10 @@ function slot0.isFurniture(slot0)
 	return slot0:getConfig("type") ~= 0
 end
 
+function slot0.IsNew(slot0)
+	return slot0:getConfig("new") ~= 0
+end
+
 function slot0.getConfig(slot0, slot1)
 	slot3 = slot0:bindConfigTable()[slot0.configId]
 

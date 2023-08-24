@@ -12115,7 +12115,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. You may choose two ships on which to focus your wishes."
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to March 23rd can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to May 25th can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
