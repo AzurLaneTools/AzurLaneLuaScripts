@@ -1785,7 +1785,7 @@ _G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 }
 
 _G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
-	tip = "<color=#92fc63>$1</color>를 장비할 수 없습니다."
+	tip = "장비할 수 없습니다 ：<color=#92fc63>$1</color>"
 }
 
 _G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
@@ -9671,7 +9671,7 @@ _G.pg.base.gametip.commander_play_erro = {
 }
 
 _G.pg.base.gametip.ship_equip_same_group_equipment = {
-	tip = "【유일】 장비는 2개 이상 장착할 수 없습니다"
+	tip = "유일 장비 중복 장비할 수 없습니다."
 }
 
 _G.pg.base.gametip.summary_page_un_rearch = {
