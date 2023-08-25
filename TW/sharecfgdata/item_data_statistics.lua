@@ -4645,8 +4645,8 @@ _G.pg.base.item_data_statistics[10114] = {
 }
 
 _G.pg.base.item_data_statistics[10116] = {
-	display = "B-37 三聯裝406mm主炮MK-1T2設計圖",
-	name = "B-37三聯裝406mm主炮MK-1T2設計圖",
+	display = "B-37 三聯裝406mm主炮MK-1T2設計圖",
+	name = "B-37 三聯裝406mm主炮MK-1T2設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -4668,8 +4668,8 @@ _G.pg.base.item_data_statistics[10116] = {
 }
 
 _G.pg.base.item_data_statistics[10117] = {
-	display = "B-34 100mm雙聯裝防空炮MZ-14T3設計圖",
-	name = "B-34100mm雙聯裝防空炮MZ-14T3設計圖",
+	display = "B-34 100mm雙聯裝防空炮MZ-14T3設計圖",
+	name = "B-34 100mm雙聯裝防空炮MZ-14T3設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5749,8 +5749,8 @@ _G.pg.base.item_data_statistics[11041] = {
 }
 
 _G.pg.base.item_data_statistics[11042] = {
-	display = "B-13 雙聯裝130mm主炮B-2LMT3設計圖",
-	name = "B-13雙聯裝130mm主炮B-2LMT3設計圖",
+	display = "B-13 雙聯裝130mm主炮B-2LMT3設計圖",
+	name = "B-13 雙聯裝130mm主炮B-2LMT3設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
