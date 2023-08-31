@@ -118,7 +118,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999974,
 		icon = 510030,
-		discript = "前衛　4秒毎に一番近い敵に魚雷攻撃",
+		discript = "前衛　8秒毎に一番近い敵に魚雷攻撃",
 		label = {
 			306
 		},
@@ -265,7 +265,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999989,
 		icon = 541050,
-		discript = "主力　10秒毎に優先目標に砲撃を行い、命中した敵は20秒間受けるダメージが20%UP（加算不可）",
+		discript = "主力　優先目標に砲撃を行い、命中した敵は15秒間受けるダメージが20%UP（加算不可）",
 		label = {
 			100,
 			301
