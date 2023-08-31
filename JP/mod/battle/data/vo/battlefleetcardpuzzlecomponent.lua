@@ -210,6 +210,15 @@ function slot12.Start(slot0)
 			slot0._deck:Add(slot0:GenerateCard(slot7))
 		end
 
+		slot3 = slot1.init_move
+		slot4 = 0
+
+		while slot3 > slot4 do
+			slot0._moveDeck:Add(slot0:GenerateCard(uv1.BASE_MOVE_ID))
+
+			slot4 = slot4 + 1
+		end
+
 		if slot1.init_shuffle ~= uv3.Battle.BattleFleetCardPuzzleDeck.NOT_INIT_SHUFFLE then
 			slot0._deck:Shuffle()
 		end
@@ -231,8 +240,6 @@ function slot12.Update(slot0, slot1)
 end
 
 function slot12.UpdateClickPos(slot0, slot1, slot2, slot3)
-	originalPrint("click")
-
 	uv0 = uv0 or uv1.Battle.CardPuzzleBoardClicker
 
 	if slot3 == uv0.CLICK_STATE_CLICK then
@@ -256,8 +263,6 @@ function slot12.UpdateClickPos(slot0, slot1, slot2, slot3)
 
 		slot0._clickToScenePointCache:Copy(slot0._clickToScenePoint)
 	elseif slot3 == uv0.CLICK_STATE_RELEASE then
-		print("release,", slot0._clickEnable)
-
 		if slot0._clickEnable and slot0._moveDeck:TryPlayTopMoveCard() then
 			slot0:PlayMoveCard(slot4)
 		end
