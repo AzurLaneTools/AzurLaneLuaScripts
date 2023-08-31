@@ -2372,6 +2372,10 @@ pg.skill_data_display = setmetatable({
 		600031,
 		600034,
 		600036,
+		600042,
+		600043,
+		600044,
+		600045,
 		800010,
 		800020,
 		800021,
@@ -2535,6 +2539,8 @@ pg.skill_data_display = setmetatable({
 		800885,
 		800887,
 		800902,
+		800921,
+		800941,
 		902201,
 		1010140,
 		1010143,
@@ -2626,6 +2632,8 @@ pg.skill_data_display = setmetatable({
 		200561,
 		200564,
 		200565,
+		200575,
+		200580,
 		1011540,
 		1011541,
 		1090010,
@@ -12167,6 +12175,22 @@ pg.base.skill_data_display = {
 		id = 600036,
 		name = "Song of the Stars"
 	},
+	[600042] = {
+		id = 600042,
+		name = "Threat Detection"
+	},
+	[600043] = {
+		id = 600043,
+		name = "Cannon Protection"
+	},
+	[600044] = {
+		id = 600044,
+		name = "Torpedo Protection"
+	},
+	[600045] = {
+		id = 600045,
+		name = "Aircraft Protection"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -12819,6 +12843,14 @@ pg.base.skill_data_display = {
 		id = 800902,
 		name = "Guard Shift"
 	},
+	[800921] = {
+		id = 800921,
+		name = "Unyielding, the Flower Blooms"
+	},
+	[800941] = {
+		id = 800941,
+		name = "Decisions, Prudent Yet Audacious"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -13182,6 +13214,14 @@ pg.base.skill_data_display = {
 	[200565] = {
 		id = 200565,
 		name = "Framework of Logic - Data Analysis"
+	},
+	[200575] = {
+		id = 200575,
+		name = "Ironclad Ultimatum"
+	},
+	[200580] = {
+		id = 200580,
+		name = "Inevitable Fate"
 	},
 	[1011540] = {
 		id = 1011540,

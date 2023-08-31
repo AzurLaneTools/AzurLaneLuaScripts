@@ -10,6 +10,10 @@ function slot0.getUIName(slot0)
 	return "WorldShopUI"
 end
 
+function slot0.getBGM(slot0)
+	return "story-richang"
+end
+
 function slot0.init(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
@@ -31,7 +35,6 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData()
 	})
-	pg.CriMgr.GetInstance():PlayBGM("story-richang", "sub_layer")
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -51,6 +54,7 @@ function slot0.didEnter(slot0)
 
 			slot6 = slot4:getLimitCount()
 
+			setText(slot2:Find("item/count_contain/label"), i18n("activity_shop_exchange_count"))
 			setText(slot2:Find("item/count_contain/count"), slot6 - slot4.buyCount .. "/" .. slot6)
 			setTextColor(slot2:Find("item/count_contain/count"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
 			setTextColor(slot2:Find("item/count_contain/label"), Color.New(unpack(ActivityGoodsCard.DefaultColor)))
@@ -118,8 +122,9 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
 	slot0:RemoveWorldListener()
+	slot0.singleWindow:Destroy()
+	slot0.multiWindow:Destroy()
 end
 
 function slot0.setPlayer(slot0, slot1)

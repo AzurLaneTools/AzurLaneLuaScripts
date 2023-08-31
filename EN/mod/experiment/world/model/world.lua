@@ -1,22 +1,21 @@
 slot0 = class("World", import("...BaseEntity"))
 slot0.Fields = {
-	nowEntrance = "number",
+	colorDic = "table",
 	stepCount = "number",
 	cdTimeList = "table",
 	type = "number",
-	colorDic = "table",
-	portShips = "table",
 	inventoryProxy = "table",
 	staminaMgr = "table",
-	roundIndex = "number",
 	taskProxy = "table",
 	autoInfos = "table",
-	activateCount = "number",
+	roundIndex = "number",
 	fleets = "table",
-	achievements = "table",
 	expiredTime = "number",
-	collectionProxy = "table",
+	activateCount = "number",
 	pressingAwardDic = "table",
+	achievements = "table",
+	submarineSupport = "boolean",
+	collectionProxy = "table",
 	goodDic = "table",
 	achieveEntranceStar = "table",
 	baseCmdIds = "table",
@@ -35,7 +34,7 @@ slot0.Fields = {
 	isAutoSwitch = "boolean",
 	isAutoFight = "boolean",
 	baseShipIds = "table",
-	submarineSupport = "boolean"
+	activateTime = "number"
 }
 slot0.EventUpdateSubmarineSupport = "World.EventUpdateSubmarineSupport"
 slot0.EventSwitchMap = "World.EventSwitchMap"
@@ -51,7 +50,6 @@ slot0.Listeners = {
 }
 slot0.TypeBase = 0
 slot0.TypeFull = 1
-slot0.TypeReset = 2
 slot0.InheritNameList = {
 	staminaMgr = function ()
 		return WorldStaminaManager.New()
@@ -77,13 +75,12 @@ function slot0.Build(slot0)
 	slot0.realm = 0
 	slot0.fleets = {}
 	slot0.defaultFleets = {}
-	slot0.portShips = {}
+	slot0.activateTime = 0
 	slot0.expiredTime = 0
 	slot0.roundIndex = nil
 	slot0.submarineSupport = nil
 	slot0.achievements = {}
 	slot0.achieveEntranceStar = {}
-	slot0.nowEntrance = nil
 
 	slot0:InitWorldShopGoods()
 	slot0:InitWorldColorDictionary()
@@ -114,30 +111,16 @@ function slot0.Build(slot0)
 end
 
 function slot0.Dispose(slot0, slot1)
-	slot2 = {}
-
-	if slot1 == uv0.TypeBase then
-		slot2 = {
-			worldBossProxy = slot0.worldBossProxy
-		}
-	elseif slot1 == uv0.TypeFull then
-		slot2 = {
-			worldBossProxy = slot0.worldBossProxy
-		}
-	elseif slot1 == uv0.TypeReset then
-		slot2 = {
-			realm = slot0.realm,
-			defaultFleets = slot0.defaultFleets,
-			achievements = slot0.achievements,
-			achieveEntranceStar = slot0.achieveEntranceStar,
-			nowEntrance = slot0.nowEntrance,
-			activateCount = slot0.activateCount,
-			progress = slot0.progress,
-			staminaMgr = slot0.staminaMgr,
-			collectionProxy = slot0.collectionProxy,
-			worldBossProxy = slot0.worldBossProxy
-		}
-	end
+	(slot1 and {
+		realm = slot0.realm,
+		defaultFleets = slot0.defaultFleets,
+		achievements = slot0.achievements,
+		achieveEntranceStar = slot0.achieveEntranceStar,
+		activateCount = slot0.activateCount,
+		progress = slot0.progress,
+		staminaMgr = slot0.staminaMgr,
+		collectionProxy = slot0.collectionProxy
+	} or {}).worldBossProxy = slot0.worldBossProxy
 
 	for slot6 in pairs(uv0.InheritNameList) do
 		if not slot2[slot6] then
@@ -173,7 +156,8 @@ function slot0.InheritReset(slot0, slot1)
 	end
 end
 
-function slot0.NewAtlas(slot0, slot1)
+function slot0.UsePortNShop(slot0)
+	return slot0:IsReseted() and WorldConst.GetNShopTimeStamp() <= slot0.activateTime
 end
 
 function slot0.IsReseted(slot0)
@@ -327,7 +311,7 @@ function slot0.GetShips(slot0)
 		end)
 	end)
 
-	return table.mergeArray({}, slot0:GetPortShips())
+	return {}
 end
 
 function slot0.GetShipVOs(slot0)
@@ -350,48 +334,6 @@ end
 
 function slot0.GetShipVO(slot0, slot1)
 	return slot0:GetShip(slot1) and WorldConst.FetchShipVO(slot2.id)
-end
-
-function slot0.SetPortShips(slot0, slot1)
-	slot0.portShips = slot1
-
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
-end
-
-function slot0.GetPortShips(slot0)
-	return slot0.portShips
-end
-
-function slot0.GetPortShipVOs(slot0)
-	return _.map(slot0:GetPortShips(), function (slot0)
-		return WorldConst.FetchShipVO(slot0.id)
-	end)
-end
-
-function slot0.AddPortShip(slot0, slot1)
-	assert(slot1.class == WorldMapShip)
-	assert(not _.any(slot0.portShips, function (slot0)
-		return slot0.id == uv0.id
-	end), "ship exist in port: " .. slot1.id)
-
-	slot1.fleetId = nil
-
-	table.insert(slot0.portShips, slot1)
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
-	slot0:DispatchEvent(uv0.EventAddPortShip, slot1)
-end
-
-function slot0.RemovePortShip(slot0, slot1)
-	for slot5 = #slot0.portShips, 1, -1 do
-		if slot0.portShips[slot5].id == slot1 then
-			slot6 = table.remove(slot0.portShips, slot5)
-
-			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
-			slot0:DispatchEvent(uv0.EventRemovePortShip, slot6)
-
-			return slot6
-		end
-	end
 end
 
 function slot0.SetDefaultFleets(slot0, slot1)
@@ -902,20 +844,15 @@ function slot0.SetReqCDTime(slot0, slot1, slot2)
 	slot0.cdTimeList[slot1] = slot2
 end
 
-function slot0.GetNowEntrance(slot0)
-	return slot0.nowEntrance
-end
-
-function slot0.SetNowEntrance(slot0, slot1)
-	slot0.nowEntrance = slot1
-end
-
 function slot0.InitWorldShopGoods(slot0)
 	slot0.goodDic = {}
 
-	for slot4, slot5 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot5].genre == ShopArgs.WorldShop or slot6.genre == ShopArgs.WorldCollection then
-			slot0.goodDic[slot5] = 0
+	for slot4, slot5 in ipairs({
+		ShopArgs.WorldShop,
+		ShopArgs.WorldCollection
+	}) do
+		for slot9, slot10 in ipairs(pg.shop_template.get_id_list_by_genre[slot5]) do
+			slot0.goodDic[slot10] = 0
 		end
 	end
 end

@@ -10377,6 +10377,29 @@ _G.pg.base.item_data_statistics[21024] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21025] = {
+	display = "An item that increases the potential of Jintsuu META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Jintsuu",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21025",
+	id = 21025,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -10715,6 +10738,29 @@ _G.pg.base.item_data_statistics[21911] = {
 	is_world = 0,
 	icon = "Props/21911",
 	id = 21911,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21912] = {
+	display = "Sync Points for Jintsuu META.",
+	name = "Synchronization Point – Jintsuu META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21912",
+	id = 21912,
 	display_icon = {},
 	price = {},
 	index = {},

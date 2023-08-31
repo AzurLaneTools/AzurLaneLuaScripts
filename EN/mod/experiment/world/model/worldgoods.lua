@@ -8,14 +8,6 @@ slot0.Fields = {
 }
 slot0.EventUpdateCount = "WorldGoods.EventUpdateCount"
 
-function slot0.CreateItem(slot0, slot1, slot2)
-	return (slot0 == DROP_TYPE_WORLD_ITEM and WorldItem or Item).New({
-		type = slot0,
-		id = slot1,
-		count = slot2
-	})
-end
-
 function slot0.Setup(slot0, slot1)
 	slot0.id = slot1.goods_id
 	slot0.config = pg.world_goods_data[slot0.id]
@@ -23,8 +15,16 @@ function slot0.Setup(slot0, slot1)
 	assert(slot0.config, "world_goods_data not exist: " .. slot0.id)
 
 	slot0.count = slot1.count
-	slot0.item = uv0.CreateItem(slot0.config.item_type, slot0.config.item_id, slot0.config.item_num)
-	slot0.moneyItem = uv0.CreateItem(slot0.config.price_type, slot0.config.price_id, slot0.config.price_num)
+	slot0.item = {
+		type = slot0.config.item_type,
+		id = slot0.config.item_id,
+		count = slot0.config.item_num
+	}
+	slot0.moneyItem = {
+		type = slot0.config.price_type,
+		id = slot0.config.price_id,
+		count = slot0.config.price_num
+	}
 end
 
 function slot0.UpdateCount(slot0, slot1)

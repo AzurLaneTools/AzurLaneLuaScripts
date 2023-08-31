@@ -1,7 +1,6 @@
 slot0 = class("DockyardMediator", import("..base.ContextMediator"))
 slot0.ON_DESTROY_SHIPS = "DockyardMediator:ON_DESTROY_SHIPS"
 slot0.ON_SHIP_DETAIL = "DockyardMediator:ON_SHIP_DETAIL"
-slot0.ON_WORLD_FORMATION = "DockyardMediator:ON_WORLD_FORMATION"
 slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 slot0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
 
@@ -69,9 +68,6 @@ function slot0.register(slot0)
 			shipVOs = slot2,
 			selectContextData = slot3
 		})
-	end)
-	slot0:bind(uv0.ON_WORLD_FORMATION, function ()
-		assert(false, "This feature is obsolete")
 	end)
 	slot0:bind(uv0.ON_SHIP_REPAIR, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.WORLD_SHIP_REPAIR, {

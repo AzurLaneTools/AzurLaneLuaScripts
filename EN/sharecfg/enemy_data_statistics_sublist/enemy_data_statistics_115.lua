@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.enemy_data_statistics_115 = {
+	[10070501] = {
+		cannon = 350,
+		name = "Tester β",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 320,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		luck_growth = 0,
+		dodge_growth = 228,
+		battle_unit_type = 95,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90247,
+		durability = 160000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 17,
+		luck = 30,
+		id = 10070501,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 16,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 200,
+		durability_growth = 0,
+		antiaircraft = 460,
+		hit_growth = 144,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[10070502] = {
 		cannon = 240,
 		battle_unit_type = 95,
@@ -912,77 +990,6 @@ pg.enemy_data_statistics_115 = {
 			531033,
 			531034,
 			531035
-		}
-	},
-	[10082006] = {
-		cannon = 0,
-		hit_growth = 144,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 4,
-		air = 50,
-		speed = 15,
-		dodge = 0,
-		id = 10082006,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		star = 4,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 1800,
-		torpedo = 0,
-		base = 90127,
-		durability = 850,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		armor = 0,
-		durability_growth = 38500,
-		antiaircraft = 40,
-		antisub = 0,
-		antiaircraft_growth = 1200,
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			540007,
-			540008,
-			540009,
-			540010
 		}
 	}
 }

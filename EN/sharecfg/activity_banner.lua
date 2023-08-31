@@ -1,21 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4887",
 		id = 1,
 		pic = "temp1",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -26,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -42,18 +37,15 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -64,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -76,19 +68,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4971",
 		id = 3,
 		pic = "temp3",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -99,8 +88,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -115,14 +104,14 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene level"
 		},
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -133,8 +122,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -145,16 +134,22 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4960",
 		id = 5,
 		pic = "temp5",
-		type = 3,
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -165,8 +160,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -179,142 +174,35 @@ pg.activity_banner = {
 	{
 		id = 6,
 		pic = "temp6",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4953",
-		id = 7,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 8,
-		pic = "temp8",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		param = "4962",
+		time = "stop",
+		type = 3,
+		id = 7,
+		pic = "temp7"
+	},
+	{
+		param = "4960",
+		time = "stop",
+		type = 3,
+		id = 8,
+		pic = "temp8"
+	},
+	{
+		param = "4950",
+		time = "stop",
+		type = 3,
 		id = 9,
-		pic = "temp9",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectname = "new"
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp9"
 	},
 	[90] = {
 		param = "",
@@ -326,7 +214,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -337,8 +225,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -357,67 +245,17 @@ pg.activity_banner = {
 	},
 	[95] = {
 		param = "",
-		id = 95,
-		pic = "temp100",
+		time = "stop",
 		type = 11,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 95,
+		pic = "temp100"
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -438,21 +276,21 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 201,
-		pic = "summer"
+		pic = "autumn"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
-			2,
 			3,
-			4,
-			6,
+			7,
 			8,
 			9
 		},
-		[3] = {
+		[2] = {
+			2,
+			4,
 			5,
-			7
+			6
 		},
 		[9] = {
 			90,

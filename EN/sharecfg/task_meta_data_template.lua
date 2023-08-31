@@ -187,6 +187,11 @@ pg.task_meta_data_template = setmetatable({
 		100103,
 		100104,
 		100105,
+		100111,
+		100112,
+		100113,
+		100114,
+		100115,
 		200001,
 		200002,
 		200003,
@@ -226,7 +231,11 @@ pg.task_meta_data_template = setmetatable({
 		200101,
 		200102,
 		200103,
-		200104
+		200104,
+		200111,
+		200112,
+		200113,
+		200114
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1711,6 +1720,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100111] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "Win 1 battle with Jintsuu META in your fleet.",
+		id = 100111,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100112] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Jintsuu META in your fleet.",
+		id = 100112,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100113] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Jintsuu META in your fleet.",
+		id = 100113,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100114] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Jintsuu META in your fleet.",
+		id = 100114,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100115] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Jintsuu META in your fleet.",
+		id = 100115,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2028,6 +2077,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Hatakaze META in your fleet.",
 		id = 200104,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200111] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Jintsuu META in your fleet.",
+		id = 200111,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200112] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Jintsuu META in your fleet.",
+		id = 200112,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200113] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Jintsuu META in your fleet.",
+		id = 200113,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200114] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Jintsuu META in your fleet.",
+		id = 200114,
 		target_num = 1,
 		target_id = "100"
 	}

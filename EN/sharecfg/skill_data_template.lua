@@ -307,6 +307,7 @@ pg.skill_data_template = setmetatable({
 		60390,
 		60400,
 		60410,
+		60420,
 		7000,
 		9010,
 		9020,
@@ -1893,6 +1894,13 @@ pg.skill_data_template = setmetatable({
 		800912,
 		800915,
 		800917,
+		800920,
+		800930,
+		800940,
+		800951,
+		800952,
+		800955,
+		800957,
 		901010,
 		901020,
 		902010,
@@ -11549,6 +11557,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "Increases LCK by 2 when equipped on a ship.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60420] = {
+		desc_get = "",
+		name = "Simulation Command",
+		id = 60420,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped: activates a randomly chosen Command effect every 15s.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -119679,6 +119701,433 @@ One of the following two effects apply based on what type of weapon this ship ha
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. Decreases this ship's DMG taken by 6.0% when fighting humanoid Siren fleets or Boss fleets.",
 		system_transform = {
 			[51.0] = 800917
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800920] = {
+		desc_get = "",
+		name = "Unyielding, the Flower Blooms",
+		id = 800920,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her torpedoes: fires an additional $1 special torpedo barrage (DMG is based on the skill's level) and increases your Vanguard's TRP by $2 for 10s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+2.2%"
+				},
+				{
+					"7.2%",
+					"+2.2%"
+				},
+				{
+					"9.4%",
+					"+2.2%"
+				},
+				{
+					"11.6%",
+					"+2.2%"
+				},
+				{
+					"13.8%",
+					"+2.2%"
+				},
+				{
+					"16.0%",
+					"+2.2%"
+				},
+				{
+					"18.2%",
+					"+2.2%"
+				},
+				{
+					"20.4%",
+					"+2.2%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[800930] = {
+		desc_get = "",
+		name = "Life and Death, Within One's Palm",
+		id = 800930,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $1. While this ship is afloat: decreases your DDs' and CLs' cannon DMG taken by $3 and increases their torpedo Crit Rate by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[800940] = {
+		desc_get = "",
+		name = "Decisions, Prudent Yet Audacious",
+		id = 800940,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken by $1. Once per battle, when this ship takes DMG that would sink her: this ship does not sink, evades all attacks for 3s, fires 2 waves of torpedoes, and recovers $2 of her max HP (after this effect activates, the DMG-reducing effect of this skill becomes inactive).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"6.0%",
+				"20.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6.0%",
+					"+1.2%"
+				},
+				{
+					"7.2%",
+					"+1.2%"
+				},
+				{
+					"8.4%",
+					"+1.6%"
+				},
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[800951] = {
+		desc_get = "",
+		name = "Framework of Logic - Jintsuu I",
+		id = 800951,
+		type = 3,
+		max_level = 1,
+		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800955
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800952] = {
+		desc_get = "",
+		name = "Framework of Logic - Jintsuu II",
+		id = 800952,
+		type = 3,
+		max_level = 1,
+		desc = "Every 8 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 800957
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800955] = {
+		desc_get = "",
+		name = "Framework of Logic - Jintsuu I",
+		id = 800955,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 5.0%.",
+		system_transform = {
+			[51.0] = 800955
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800957] = {
+		desc_get = "",
+		name = "Framework of Logic - Jintsuu II",
+		id = 800957,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 8.0%.",
+		system_transform = {
+			[51.0] = 800957
 		},
 		world_death_mark = {
 			1

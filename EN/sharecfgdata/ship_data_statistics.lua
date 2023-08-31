@@ -327419,6 +327419,522 @@ _G.pg.base.ship_data_statistics[9702044] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9702051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Jintsuu META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		518,
+		32,
+		62,
+		61,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		25
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.6,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Jintsuu META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		644,
+		40,
+		77,
+		76,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		31
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.6,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Jintsuu META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		897,
+		56,
+		108,
+		106,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		43
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.7,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Jintsuu META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1276,
+		80,
+		154,
+		151,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		62
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.85,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9703011] = {
 	raid_distance = 0,
 	oxy_max = 0,

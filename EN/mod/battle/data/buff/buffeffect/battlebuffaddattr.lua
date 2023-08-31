@@ -24,6 +24,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 
 	slot0._number = slot0._tempData.arg_list.number
 	slot0._numberBase = slot0._number
+	slot0._attrID = slot0._tempData.arg_list.attr_group_ID
 end
 
 function slot1.onAttach(slot0, slot1, slot2)
@@ -146,4 +147,49 @@ function slot1.UpdateAttrAdd(slot0, slot1)
 
 	slot1._move:ImmuneAreaLimit(uv1.Battle.BattleAttr.IsImmuneAreaLimit(slot1))
 	slot1._move:ImmuneMaxAreaLimit(uv1.Battle.BattleAttr.IsImmuneMaxAreaLimit(slot1))
+end
+
+function slot1.UpdateAttrHybrid(slot0, slot1)
+	slot3 = {}
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot1:GetBuffList()) do
+		for slot13, slot14 in ipairs(slot9._effectList) do
+			if slot14:GetEffectType() == uv0.FX_TYPE and slot14:IsSameAttr(slot0._attr) then
+				slot16 = slot14._group
+				slot17 = slot14._attrID or 0
+
+				if slot14._number > 0 then
+					slot18 = slot3[slot16] or {
+						value = 0,
+						attrGroup = slot17
+					}
+					slot18.value = math.max(slot18.value, slot15)
+					slot3[slot16] = slot18
+				elseif slot15 < 0 then
+					slot18 = slot4[slot16] or {
+						value = 0,
+						attrGroup = slot17
+					}
+					slot18.value = math.min(slot18.value, slot15)
+					slot4[slot16] = slot18
+				end
+			end
+		end
+	end
+
+	uv1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, ((function (slot0)
+		slot1 = {}
+		slot2 = nil
+
+		for slot6, slot7 in pairs(slot0) do
+			slot1[slot8] = (slot1[slot7.attrGroup] or 0) + slot7.value
+		end
+
+		for slot6, slot7 in pairs(slot1) do
+			slot2 = (slot2 or 1) * slot7
+		end
+
+		return slot2
+	end)(slot3) or 0) + (slot5(slot4) or 0))
 end

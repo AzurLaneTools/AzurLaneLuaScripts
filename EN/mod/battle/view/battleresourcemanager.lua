@@ -390,6 +390,14 @@ function slot5.InstMap(slot0, slot1)
 	return slot3
 end
 
+function slot5.InstCardPuzzleCard(slot0)
+	slot1 = slot0._allPool["UI/CardTowerCardCombat"]
+	slot2 = slot1:GetObject()
+	slot0._ob2Pool[slot2] = slot1
+
+	return slot2
+end
+
 function slot5.GetCharacterIcon(slot0, slot1)
 	return slot0._resCacheList[uv0.GetHrzIcon(slot1)]
 end

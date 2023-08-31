@@ -784,9 +784,6 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 	end
 
 	slot3 = nil
-
-	warning(slot1)
-
 	slot4 = getProxy(ChapterProxy)
 
 	table.ParallelIpairsAsync(slot0:GetMapBG(slot4:getMapById(slot1)), function (slot0, slot1, slot2)
@@ -1438,7 +1435,7 @@ function slot0.initMapBtn(slot0, slot1, slot2)
 
 		slot3, slot4 = slot1:isUnlock()
 
-		if not slot3 then
+		if uv1 > 0 and not slot3 then
 			pg.TipsMgr.GetInstance():ShowTips(slot4)
 
 			return
@@ -1575,7 +1572,7 @@ function slot0.UpdateSwitchMapButton(slot0)
 
 	slot5 = Color.New(0.5, 0.5, 0.5, 1)
 
-	setImageColor(slot0.btnPrevCol, slot3 and slot3:isUnlock() and Color.white or slot5)
+	setImageColor(slot0.btnPrevCol, slot3 and Color.white or slot5)
 	setImageColor(slot0.btnNextCol, slot4 and slot4:isUnlock() and Color.white or slot5)
 end
 

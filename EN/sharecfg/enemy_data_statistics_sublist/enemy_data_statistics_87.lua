@@ -1,5 +1,97 @@
 pg = pg or {}
 pg.enemy_data_statistics_87 = {
+	[10013504] = {
+		cannon = 350,
+		name = "Tester β",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 320,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		luck_growth = 0,
+		dodge_growth = 228,
+		battle_unit_type = 95,
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90247,
+		durability = 96000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 17,
+		luck = 30,
+		id = 10013504,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 16,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 200,
+		durability_growth = 0,
+		antiaircraft = 460,
+		hit_growth = 144,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			473501,
+			473502,
+			473503,
+			473504,
+			473505,
+			473506
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[10013601] = {
 		cannon = 460,
 		antiaircraft_growth = 0,
@@ -1005,43 +1097,6 @@ pg.enemy_data_statistics_87 = {
 		antiaircraft_growth = 2880,
 		antisub = 0,
 		armor = 0,
-		fog_fx = "",
-		equipment_list = {
-			100202,
-			100532,
-			100422
-		}
-	},
-	[10020022] = {
-		cannon = 24,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 2016,
-		rarity = 4,
-		air = 0,
-		torpedo = 33,
-		dodge = 7,
-		durability_growth = 52000,
-		antiaircraft = 35,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 102,
-		hit_growth = 210,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90207,
-		durability = 1200,
-		armor_growth = 0,
-		torpedo_growth = 2763,
-		luck_growth = 0,
-		speed = 18,
-		armor = 0,
-		id = 10020022,
-		antiaircraft_growth = 2880,
-		antisub = 0,
 		fog_fx = "",
 		equipment_list = {
 			100202,

@@ -175,21 +175,19 @@ slot0.taskSortOrder = {
 	[slot0.STATE_FINISHED] = 0,
 	[slot0.STATE_RECEIVED] = 3
 }
-
-function slot0.sortFunc(slot0, slot1)
-	if uv0.taskSortOrder[slot0:getState()] == uv0.taskSortOrder[slot1:getState()] then
-		if slot0.config.type == slot1.config.type then
-			if slot0.config.priority == slot1.config.priority then
-				return slot0.id < slot1.id
-			else
-				return slot1.config.priority < slot0.config.priority
-			end
-		else
-			return slot0.config.type < slot1.config.type
-		end
-	else
-		return slot2 < slot3
+slot0.sortDic = {
+	function (slot0)
+		return uv0.taskSortOrder[slot0:getState()]
+	end,
+	function (slot0)
+		return slot0.config.type
+	end,
+	function (slot0)
+		return -slot0.config.priority
+	end,
+	function (slot0)
+		return slot0.id
 	end
-end
+}
 
 return slot0

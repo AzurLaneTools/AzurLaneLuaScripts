@@ -270,7 +270,7 @@ return {
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(And finally, our secret mission to collect information about the Northern Union, and about the \"Reenactments.\")",
+			say = "(And finally, our secret mission to collect information about the Northern Parliament, and about the \"Reenactments.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

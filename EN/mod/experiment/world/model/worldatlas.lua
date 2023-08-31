@@ -1,23 +1,25 @@
 slot0 = class("WorldAtlas", import("...BaseEntity"))
 slot0.Fields = {
-	achEntranceList = "table",
+	config = "table",
 	sairenEntranceList = "table",
 	replaceDic = "table",
-	config = "table",
+	achEntranceList = "table",
 	costMapDic = "table",
 	mapDic = "table",
 	transportDic = "table",
 	activeEntranceId = "number",
 	pressingMapList = "table",
+	areaEntranceList = "table",
 	portEntranceList = "table",
 	activeMapId = "number",
 	taskMarkDic = "table",
+	pressingUnlcokCount = "number",
 	world = "table",
 	markPortDic = "table",
 	treasureMarkDic = "table",
 	id = "number",
 	entranceDic = "table",
-	areaEntranceList = "table",
+	nShopGoodsDic = "table",
 	mapEntrance = "table"
 }
 slot0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
@@ -26,6 +28,7 @@ slot0.EventUpdateActiveMap = "WorldAtlas.EventUpdateActiveMap"
 slot0.EventAddPressingMap = "WorldAtlas.EventAddPressingMap"
 slot0.EventAddPressingEntrance = "WorldAtlas.EventAddPressingEntrance"
 slot0.EventUpdatePortMark = "WorldAtlas.EventUpdatePortMark"
+slot0.EventUpdateNGoodsCount = "WorldAtlas.EventUpdateNGoodsCount"
 slot0.ScaleShrink = 1
 slot0.ScaleFull = 2
 slot0.ScaleExpand = 3
@@ -321,7 +324,14 @@ function slot0.SetPressingMarkList(slot0, slot1)
 
 	_.each(slot0.pressingMapList, function (slot0)
 		uv0:GetMap(slot0):UpdatePressingMark(true)
+
+		if uv0.mapEntrance[slot0] and not slot1:HasPort() then
+			uv1 = uv1 + 1
+		end
 	end)
+
+	slot0.pressingUnlcokCount = 0
+
 	slot0:BuildTransportDic()
 end
 
@@ -380,10 +390,28 @@ function slot0.AddPressingMap(slot0, slot1)
 			end
 
 			slot0:DispatchEvent(uv0.EventAddPressingEntrance, slot3)
+
+			if not slot2:HasPort() then
+				slot0.pressingUnlcokCount = slot0.pressingUnlcokCount + 1
+
+				slot0:UpdateUnlockCountPortMark()
+			end
 		end
 
 		slot0:DispatchEvent(uv0.EventAddPressingMap, slot1)
 	end
+end
+
+function slot0.GetPressingUnlockCount(slot0)
+	return slot0.pressingUnlcokCount
+end
+
+function slot0.GetPressingUnlockRecordCount(slot0, slot1)
+	return PlayerPrefs.GetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", getProxy(PlayerProxy):getRawData().id, nowWorld().activateCount, slot1), -1)
+end
+
+function slot0.SetPressingUnlockRecordCount(slot0, slot1, slot2)
+	return PlayerPrefs.SetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", getProxy(PlayerProxy):getRawData().id, nowWorld().activateCount, slot1), slot2)
 end
 
 function slot0.SetSairenEntranceList(slot0, slot1)
@@ -434,14 +462,13 @@ function slot0.UpdateCostMap(slot0, slot1, slot2)
 end
 
 function slot0.SetPortMarkList(slot0, slot1, slot2)
-	slot0.markPortDic = {
-		goods = {},
-		new = {}
-	}
+	slot0.markPortDic.goods = {}
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot0.markPortDic.goods[slot7] = true
 	end
+
+	slot0.markPortDic.new = {}
 
 	for slot6, slot7 in ipairs(slot2) do
 		slot0.markPortDic.new[slot7] = true
@@ -468,15 +495,119 @@ function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
 		slot0.markPortDic.new[slot1] = slot3
 		slot4 = slot4 or {}
 
-		warning(slot1)
-
 		for slot8, slot9 in ipairs(slot0.portEntranceList[slot1]) do
 			slot4[slot9] = true
 		end
 	end
 
-	if slot4 then
+	if slot4 and not nowWorld():UsePortNShop() then
 		slot0:DispatchEvent(uv0.EventUpdatePortMark, slot4)
+	end
+end
+
+function slot0.InitPortMarkNShopList(slot0)
+	slot1 = slot0:GetPressingUnlockCount()
+	slot0.markPortDic.newGoods = {}
+
+	for slot5, slot6 in pairs(slot0.nShopGoodsDic) do
+		slot7 = Goods.Create({
+			id = slot5,
+			count = slot6
+		}, Goods.TYPE_WORLD_NSHOP)
+		slot9 = slot7:getConfig("unlock_num")
+		slot10 = slot0:GetPressingUnlockRecordCount(slot7:getConfig("port_id"))
+
+		if slot7:canPurchase() and slot10 < slot9 and slot9 <= slot1 then
+			slot0.markPortDic.newGoods[slot8] = true
+		end
+	end
+end
+
+function slot0.UpdateUnlockCountPortMark(slot0)
+	if not nowWorld():UsePortNShop() then
+		return
+	end
+
+	slot1 = slot0.markPortDic.newGoods
+
+	slot0:InitPortMarkNShopList()
+
+	for slot5, slot6 in ipairs(underscore.keys(slot0.portEntranceList)) do
+		if tobool(slot1[slot6]) ~= tobool(slot0.markPortDic.newGoods[slot6]) then
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot0.portEntranceList[slot6]) do
+				slot7[slot12] = true
+			end
+		end
+	end
+
+	if changeDic then
+		slot0:DispatchEvent(uv0.EventUpdatePortMark, changeDic)
+	end
+end
+
+function slot0.UpdatePortMarkNShop(slot0, slot1, slot2)
+	if not slot0.portEntranceList[slot1] then
+		return
+	end
+
+	if tobool(slot0.markPortDic.newGoods[slot1]) ~= slot2 then
+		slot0.markPortDic.newGoods[slot1] = slot2
+
+		if nowWorld():UsePortNShop() then
+			slot3 = {}
+
+			for slot7, slot8 in ipairs(slot0.portEntranceList[slot1]) do
+				slot3[slot8] = true
+			end
+
+			slot0:DispatchEvent(uv0.EventUpdatePortMark, slot3)
+		end
+	end
+end
+
+function slot0.GetAnyPortMarkNShop(slot0)
+	for slot4, slot5 in pairs(slot0.markPortDic.newGoods) do
+		if slot5 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.InitWorldNShopGoods(slot0, slot1)
+	slot0.nShopGoodsDic = {}
+
+	for slot5, slot6 in ipairs(pg.world_newshop_data.all) do
+		slot0.nShopGoodsDic[slot6] = 0
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		assert(slot0.nShopGoodsDic[slot6.goods_id], "without this good in id " .. slot6.goods_id)
+
+		slot0.nShopGoodsDic[slot6.goods_id] = slot0.nShopGoodsDic[slot6.goods_id] + slot6.count
+	end
+end
+
+function slot0.UpdateNShopGoodsCount(slot0, slot1, slot2)
+	assert(slot0.nShopGoodsDic[slot1], "without this goods:" .. slot1)
+
+	if slot2 ~= 0 then
+		slot0.nShopGoodsDic[slot1] = slot0.nShopGoodsDic[slot1] + slot2
+
+		slot0:DispatchEvent(uv0.EventUpdateNGoodsCount, slot1, slot0.nShopGoodsDic[slot1])
+	end
+end
+
+function slot0.GetEntrancePortInfo(slot0, slot1)
+	slot3 = slot0:GetEntrance(slot1):GetPortId()
+
+	if nowWorld():UsePortNShop() then
+		return slot0.transportDic[slot2.id], slot0.markPortDic.newGoods[slot3], slot0.markPortDic.newGoods[slot3]
+	else
+		return slot0.transportDic[slot2.id], slot0.markPortDic.goods[slot3], slot0.markPortDic.new[slot3]
 	end
 end
 

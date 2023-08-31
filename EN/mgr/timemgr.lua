@@ -420,13 +420,16 @@ function slot1.passTime(slot0, slot1)
 	end
 
 	if (function (slot0)
+		slot2, slot3, slot4 = unpack(slot0[1])
+		slot2, slot3, slot4 = unpack(slot0[2])
+
 		return {
-			year = slot0[1][1],
-			month = slot0[1][2],
-			day = slot0[1][3],
-			hour = slot0[2][1],
-			min = slot0[2][2],
-			sec = slot0[2][3]
+			day = slot4,
+			month = slot3,
+			year = slot2,
+			sec = slot4,
+			min = slot3,
+			hour = slot2
 		}
 	end)(slot1 or {
 		{

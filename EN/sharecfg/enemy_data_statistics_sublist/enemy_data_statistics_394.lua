@@ -1,5 +1,169 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295079] = {
+		cannon = 220,
+		name = "Scharnhorst META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90623,
+		durability_growth = 0,
+		antiaircraft = 218,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 128,
+		durability = 70000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295079,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295080] = {
+		cannon = 233,
+		name = "Scharnhorst META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 15,
+		base = 90623,
+		durability_growth = 0,
+		antiaircraft = 232,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 138,
+		durability = 110000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295080,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295081] = {
+		cannon = 247,
+		name = "Scharnhorst META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 16,
+		base = 90623,
+		durability_growth = 0,
+		antiaircraft = 246,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 16,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 148,
+		durability = 150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295081,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295082] = {
+		cannon = 261,
+		name = "Scharnhorst META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 17,
+		base = 90623,
+		durability_growth = 0,
+		antiaircraft = 260,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 17,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 158,
+		durability = 230000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295082,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
 	[295083] = {
 		cannon = 276,
 		name = "Scharnhorst META",
@@ -776,170 +940,6 @@ pg.enemy_data_statistics_394 = {
 			{
 				ID = 50500,
 				LV = 4
-			}
-		}
-	},
-	[295102] = {
-		cannon = 308,
-		name = "Repulse META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 22,
-		base = 90645,
-		durability_growth = 0,
-		antiaircraft = 322,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 22,
-		hit = 90,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 780000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295102,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
-	},
-	[295103] = {
-		cannon = 326,
-		name = "Repulse META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 23,
-		base = 90645,
-		durability_growth = 0,
-		antiaircraft = 335,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 23,
-		hit = 95,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 1000000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295103,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
-	},
-	[295104] = {
-		cannon = 345,
-		name = "Repulse META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 24,
-		base = 90645,
-		durability_growth = 0,
-		antiaircraft = 348,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 24,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 1240000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295104,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
-	},
-	[295105] = {
-		cannon = 365,
-		name = "Repulse META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 25,
-		base = 90645,
-		durability_growth = 0,
-		antiaircraft = 361,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 25,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 1480000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295105,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
 			}
 		}
 	}

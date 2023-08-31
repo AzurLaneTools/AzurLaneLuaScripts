@@ -1701,36 +1701,36 @@ function slot0.updateInfo(slot0)
 		slot0:updateTasksProgress()
 	end
 
-	slot11 = slot1:isFinishPrevTask(true)
+	slot11, slot12 = slot1:isFinishPrevTask()
 
-	if slot9 and not slot11 then
-		if slot1:isFinishPrevTask() then
-			for slot15, slot16 in ipairs(slot1:getOpenTaskList()) do
-				slot0:emit(ShipBluePrintMediator.ON_FINISH_TASK, slot16)
+	if slot9 and not slot12 then
+		if slot11 then
+			for slot16, slot17 in ipairs(slot1:getOpenTaskList()) do
+				slot0:emit(ShipBluePrintMediator.ON_FINISH_TASK, slot17)
 			end
 
-			slot11 = true
+			slot12 = true
 		else
-			slot12 = getProxy(TaskProxy)
+			slot13 = getProxy(TaskProxy)
 
-			for slot17, slot18 in ipairs(slot1:getOpenTaskList()) do
-				slot19 = slot12:getTaskVO(slot18)
-				slot20 = slot0.lockPanel.childCount < slot17 and cloneTplTo(slot0.lockBtn, slot0.lockPanel) or slot0.lockPanel:GetChild(slot17 - 1)
+			for slot18, slot19 in ipairs(slot1:getOpenTaskList()) do
+				slot20 = slot13:getTaskVO(slot19)
+				slot21 = slot0.lockPanel.childCount < slot18 and cloneTplTo(slot0.lockBtn, slot0.lockPanel) or slot0.lockPanel:GetChild(slot18 - 1)
 
-				setActive(slot20, true)
-				setText(slot0:findTF("Text", slot20), (slot19:getConfig("target_num") <= slot19:getProgress() and setColorStr(slot21, COLOR_GREEN) or slot21) .. "/" .. slot22)
+				setActive(slot21, true)
+				setText(slot0:findTF("Text", slot21), (slot20:getConfig("target_num") <= slot20:getProgress() and setColorStr(slot22, COLOR_GREEN) or slot22) .. "/" .. slot23)
 			end
 
-			for slot17 = #slot13 + 1, slot0.lockPanel.childCount do
-				setActive(slot0.lockPanel:GetChild(slot17 - 1), false)
+			for slot18 = #slot14 + 1, slot0.lockPanel.childCount do
+				setActive(slot0.lockPanel:GetChild(slot18 - 1), false)
 			end
 		end
 	end
 
 	setText(slot0:findTF("Text", slot0.openCondition), slot1:getConfig("unlock_word"))
 	setActive(slot0.openCondition, slot9)
-	setActive(slot0.startBtn, slot9 and slot11)
-	setActive(slot0.lockPanel, slot9 and not slot11)
+	setActive(slot0.startBtn, slot9 and slot12)
+	setActive(slot0.lockPanel, slot9 and not slot12)
 end
 
 function slot0.updateTasksProgress(slot0)
@@ -2464,7 +2464,10 @@ function slot0.showUnlockPanel(slot0)
 
 	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot4, slot4, slot5:Find("Image/mask/icon"), true)
 	setText(slot5:Find("words/Text"), i18n("techpackage_item_use_1", slot3:getName()))
-	setText(slot5:Find("words/Text_2"), i18n("techpackage_item_use_2", Item.GetName(DROP_TYPE_ITEM, slot2)))
+	setText(slot5:Find("words/Text_2"), i18n("techpackage_item_use_2", getDropName({
+		type = DROP_TYPE_ITEM,
+		id = slot2
+	})))
 
 	slot10 = slot0.unlockPanel
 

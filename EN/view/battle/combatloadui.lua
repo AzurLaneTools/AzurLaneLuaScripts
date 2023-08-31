@@ -379,6 +379,24 @@ function slot0.Preload(slot0)
 			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 		end
 
+		if slot0.contextData.system == SYSTEM_CARDPUZZLE then
+			for slot10, slot11 in ipairs(slot0.contextData.cards) do
+				for slot17, slot18 in ipairs(ys.Battle.BattleDataFunction.GetCardRes(ys.Battle.BattleDataFunction.GetPuzzleCardDataTemplate(slot11).effect[1])) do
+					slot1:AddPreloadResource(slot18)
+				end
+			end
+
+			for slot10, slot11 in ipairs(slot0.contextData.cardPuzzleFleet) do
+				slot13 = ys.Battle.BattleDataFunction.GetPuzzleShipDataTemplate(slot11:getConfig("id"))
+
+				slot1:AddPreloadCV(slot13.skin_id)
+				slot1:AddPreloadResource(slot1.GetShipResource(slot13.id, slot13.skin_id, true))
+			end
+
+			slot1:AddPreloadResource(slot1.GetUIPath("CardTowerCardCombat"))
+			slot1:AddPreloadResource(slot1.GetFXPath("kapai_weizhi"))
+		end
+
 		if slot0.contextData.prefabFleet then
 			slot7 = slot0.contextData.prefabFleet.vanguard_unitList
 			slot8 = slot0.contextData.prefabFleet.submarine_unitList

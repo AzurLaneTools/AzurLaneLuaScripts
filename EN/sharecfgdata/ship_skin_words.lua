@@ -63988,6 +63988,40 @@ _G.pg.base.ship_skin_words[9702040] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[9702050] = {
+	feeling1 = "A port without a wise Commander will lose coordination, leading to steep decline... Open your eyes, Commander. We can still act before it's too late.",
+	feeling3 = "I wrote up some materials on yesterday's battle in hopes of gleaning helpful information. I've also summarized our recent commissions... Urgh, sudden dizzy spell... Don't worry about me. Just... a moment of weakness there...",
+	lose = "Try as I might to overturn fate, it remains naught but a fickle dream in the end...",
+	propose = "This must be the result of your long, careful thought. I should respond in kind... Commander, I'd like to know: what do you wish for me to do from now on? I'm ready to give up all I have in order to see it through.",
+	expedition = "Oh, have our supplies already arrived? That's a lot... I can't help but be a little envious.",
+	win_mvp = "I have delivered victory into your hands. It is up to you to decide how to use it.",
+	home = "Welcome... back... Ugh, my apologies... I felt a bit light-headed for a moment there, but I'm fine now.",
+	mission = "New missions? We'd best get to work right away.",
+	touch2 = "Now isn't the time for this, Commander.",
+	voice_key_2 = -1,
+	skill = "I hope this strategy goes according to plan...",
+	drop_descrip = "I am the light cruiser named Jintsuu. I take it you summoned me because you need help? ...Very well. Then I shall humbly devise plans that will serve your fleet.",
+	mail = "Commander, please check your mail right away. And do take your time reading it – we wouldn't want to miss valuable information.",
+	touch = "Commander, you are the backbone of the fleet. Be a little more mindful of how you manage the port, please.",
+	profile = "Urgh... Sorry, I don't want to have to remember the past too much. All it does is cause me headaches... I am simply Jintsuu, a humble strategist – that is all you need to know about me.",
+	mission_complete = "Have you finished your missions? Good. You may now make time for yourself.",
+	feeling4 = "*cough* *cough*... I'm sorry for embarrassing myself in front of you before. I'm doing better now, but... Yes, you were right: it'd be all for naught if I push myself to the point of injury. I've learned my lesson, and I plan to take better care of myself from now on.",
+	unlock = "I am the light cruiser named Jintsuu. I take it you summoned me because you need help? ...Very well. Then I shall humbly devise plans that will serve your fleet.",
+	feeling5 = "I've always thought that following you was just one of many wise choices I've made, so I never expected to be repaid so greatly... Of course. I'll keep doing my utmost to support you. Even if it means overcoming destiny... Don't worry. I'll keep myself safe.",
+	main = "Commander, have you ever felt... that sometimes, victory or defeat has already been decided from the very beginning, regardless of strategy or ability?|The more a person has experienced regret, the more they cherish the things in front of them, perhaps even to the point of paranoia... After all, nobody wishes to see tragedy play out again.|Urgh... Sorry, my body suddenly gave out on me. I'll be right back on my feet in a moment, so please, let me stay like this for a bit...",
+	battle = "Simply act according to plan... Now, forward!",
+	upgrade = "My own power is hardly sufficient.",
+	voice_key = -1,
+	headtouch = "",
+	feeling2 = "Don't worry, Commander. With our fleet's forces, everyone's fighting spirit, and my strategies, victory is all but secured.",
+	login = "Commander, if you've already finished the preparations, let us tackle today's tasks.",
+	vote = "",
+	hp_warning = "Now then, it all comes down to this gambit!",
+	id = 9702050,
+	detail = "A well-devised stratagem does more than extend a lead; it can even turn the tables on a disadvantage. Having that said... even the best strategists can do naught but lament their powerlessness in the face of an overwhelming discrepancy in raw power.",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[9703010] = {
 	feeling1 = "This place, too, gives me anxiety...",
 	feeling3 = "Have you ever experienced reoccurring nightmares, Commander? How did you get rid of... Ah, no, you don't have to tell me if you don't want to...",

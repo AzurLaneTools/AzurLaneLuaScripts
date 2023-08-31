@@ -247,9 +247,7 @@ function slot0.UpdateEntranceMask(slot0, slot1)
 	slot2 = slot0.entranceTplDic[slot1.id]
 
 	if slot1:HasPort() then
-		slot3 = slot1:GetPortId()
-
-		slot2:UpdatePort(slot0.atlas.transportDic[slot1.id], slot0.atlas.markPortDic.goods[slot3], slot0.atlas.markPortDic.new[slot3])
+		slot2:UpdatePort(slot0.atlas:GetEntrancePortInfo(slot1.id))
 	end
 
 	uv0.super.UpdateEntranceMask(slot0, slot1)
@@ -316,9 +314,7 @@ end
 function slot0.OnUpdatePortMark(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot3) do
 		if slot8 then
-			slot9 = slot0.atlas:GetEntrance(slot7):GetPortId()
-
-			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas.transportDic[slot7], slot0.atlas.markPortDic.goods[slot9], slot0.atlas.markPortDic.new[slot9])
+			slot0.entranceTplDic[slot7]:UpdatePort(slot0.atlas:GetEntrancePortInfo(slot7))
 		end
 	end
 end

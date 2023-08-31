@@ -183,7 +183,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "Repulse META",
 		painting = "fanji",
 		boss_level_id = 91,
@@ -355,12 +355,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Algérie META",
 		painting = "aerjiliya",
 		boss_level_id = 151,
 		id = 11,
 		meta_id = 970302,
+		item_id = 100000,
 		description = {
 			{
 				"Pillar of Sin",
@@ -371,32 +372,6 @@ pg.world_joint_boss_template = {
 				"Expurgating Flame",
 				1,
 				"Algérie META's attacks inflict a special [Expurgating Flame] <color=#92fc63>Burn</color> status that deals high fixed DMG over a short duration.\nAdditionally, every 8s: inflicts [Expurgating Flame] on the target with <color=#92fc63>the lowest HP percentage</color>. This effect ignores the Main Fleet's Detection status."
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					6,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -412,6 +387,69 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "Jintsuu META",
+		painting = "shentong",
+		boss_level_id = 166,
+		id = 12,
+		meta_id = 970205,
+		description = {
+			{
+				"Ironclad Ultimatum",
+				2,
+				"10s after the battle starts: <color=#92fc63>decreases this ship's DMG taken by 20.0% until the battle ends</color>."
+			},
+			{
+				"Fragmented Alliance",
+				3,
+				"If you have ships from 2 or more different factions in your fleet: for each unique faction after the 1st, increases this ship's every stat by 5.0%. \nCollab ships, except for blueprint ships, are not counted."
+			},
+			{
+				"Inevitable Fate",
+				1,
+				"50s after the battle starts: until the battle ends, <color=#92fc63>increases this ship's DMG taken by 10.0% for every 4s passed.</color>"
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
 	all = {
 		1,
 		2,
@@ -423,6 +461,7 @@ pg.world_joint_boss_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

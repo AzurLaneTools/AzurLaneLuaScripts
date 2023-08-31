@@ -179,7 +179,7 @@ function slot0.GenSearchData(slot0, slot1)
 		path = slot1.path,
 		delay = slot1.delay,
 		pathIndex = slot1.pathIndex,
-		condition = slot1.conditionData
+		conditionData = slot1.conditionData
 	}
 end
 

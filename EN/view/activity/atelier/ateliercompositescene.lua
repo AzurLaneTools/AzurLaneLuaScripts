@@ -1457,7 +1457,7 @@ function slot0.ShowCompositeResult(slot0, slot1)
 	slot2 = slot1[1]
 
 	slot0:UpdateRyzaDrop(slot0.layerCompositeResult:Find("Window/Icon"), slot2)
-	setScrollText(slot0.layerCompositeResult:Find("Window/NameBG/Rect/Name"), Item.GetName(slot2.type, slot2.id))
+	setScrollText(slot0.layerCompositeResult:Find("Window/NameBG/Rect/Name"), getDropName(slot2))
 	setText(slot0.layerCompositeResult:Find("Window/CountBG/Text"), slot2.count)
 end
 

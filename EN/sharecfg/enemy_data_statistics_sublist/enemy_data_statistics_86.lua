@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_86 = {
+	[10013005] = {
+		cannon = 0,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 2,
+		air = 55,
+		torpedo = 0,
+		dodge = 0,
+		durability_growth = 65600,
+		antiaircraft = 150,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 144,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		battle_unit_type = 65,
+		base = 90127,
+		durability = 4680,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 15,
+		armor = 0,
+		id = 10013005,
+		antiaircraft_growth = 1800,
+		antisub = 0,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			473041,
+			473042,
+			473043,
+			473044
+		}
+	},
 	[10013006] = {
 		cannon = 0,
 		reload = 150,
@@ -1103,98 +1144,6 @@ pg.enemy_data_statistics_86 = {
 			473403,
 			473404,
 			473405
-		}
-	},
-	[10013504] = {
-		cannon = 350,
-		name = "Tester β",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 320,
-		rarity = 6,
-		icon_type = 5,
-		armor = 0,
-		antisub = 0,
-		reload = 150,
-		luck_growth = 0,
-		dodge_growth = 228,
-		battle_unit_type = 95,
-		star = 6,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90247,
-		durability = 96000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 17,
-		luck = 30,
-		id = 10013504,
-		scale = 120,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		fog_fx = "",
-		dodge = 16,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 200,
-		durability_growth = 0,
-		antiaircraft = 460,
-		hit_growth = 144,
-		bound_bone = {
-			cannon = {
-				{
-					-0.27,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.13,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			plane = {
-				{
-					0.94,
-					4.3,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			473501,
-			473502,
-			473503,
-			473504,
-			473505,
-			473506
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 4
-			}
 		}
 	}
 }

@@ -3,7 +3,7 @@ slot0 = class("CardPuzzlePage", import("view.base.BaseActivityPage"))
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.titleTF = slot0:findTF("title", slot0.bg)
-	slot0.progressTF = slot0:findTF("progress", slot0.titleTF)
+	slot0.progressTF = slot0:findTF("progress", slot0.bg)
 	slot0.descTF = slot0:findTF("desc", slot0.bg)
 	slot0.startBtn = slot0:findTF("start_btn", slot0.bg)
 	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
@@ -20,7 +20,9 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
+		if slot0 == UIItemList.EventInit then
+			uv0:InitItem(slot1, slot2)
+		elseif slot0 == UIItemList.EventUpdate then
 			uv0:UpdateItem(slot1, slot2)
 		end
 	end)
@@ -37,9 +39,18 @@ function slot0.OnFirstFlush(slot0)
 	slot0:UpdateLevelInfo()
 end
 
+function slot0.InitItem(slot0, slot1, slot2)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("normal/num", slot2), true)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("selected/num", slot2), true)
+end
+
 function slot0.UpdateItem(slot0, slot1, slot2)
 	setActive(slot0:findTF("selected", slot2), slot0.selectedId == slot0.levelList[slot1 + 1])
-	setActive(slot0:findTF("finish", slot2), table.contains(slot0.finishList, slot4))
+
+	slot5 = table.contains(slot0.finishList, slot4)
+
+	setActive(slot0:findTF("finish", slot2), slot5)
+	setActive(slot0:findTF("normal", slot2), not slot5 and slot0.selectedId ~= slot4)
 	onButton(slot0, slot2, function ()
 		uv0.selectedId = uv1
 
@@ -68,7 +79,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	setActive(slot0.gotBtn, #slot0.gotList == #slot0.awardList)
-	setText(slot0.progressTF, setColorStr(#slot0.finishList + 1, "#C2FFF3") .. "/" .. #slot0.levelList)
+	setText(slot0.progressTF, setColorStr(#slot0.finishList, "#C2FFF3") .. "/" .. #slot0.levelList)
 	slot0:UpdateEveryDayTip()
 end
 
@@ -91,7 +102,7 @@ end
 function slot0.UpdateLevelInfo(slot0)
 	slot1 = pg.puzzle_combat_template[slot0.selectedId]
 
-	setText(slot0.titleTF, slot1.name)
+	setText(slot0.titleTF, "·" .. slot1.name)
 	setText(slot0.descTF, slot1.description)
 end
 

@@ -74,30 +74,9 @@ function slot1.InitCri(slot0, slot1)
 
 		uv2()
 	end)
-
-	slot0.typeNow = nil
-	slot0.bgmNow = nil
-	slot0.lastNormalBGMName = nil
-end
-
-function slot1.SetTypeBGM(slot0, slot1, slot2)
-	slot0.typeNow = slot2
-	slot0.bgmNow = slot1
-
-	if not slot2 then
-		slot0.lastNormalBGMName = slot1
-	end
-end
-
-function slot1.ResumeLastNormalBGM(slot0)
-	if slot0.lastNormalBGMName then
-		slot0:PlayBGM(slot0.lastNormalBGMName)
-	end
 end
 
 function slot1.PlayBGM(slot0, slot1, slot2)
-	slot0:SetTypeBGM(slot1, slot2)
-
 	if slot0.bgmName == "bgm-" .. slot1 then
 		return
 	end
@@ -111,7 +90,7 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 	end)
 end
 
-function slot1.StopBGM(slot0, slot1)
+function slot1.StopBGM(slot0)
 	slot0.criInst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
 	slot0.bgmName = nil

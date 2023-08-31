@@ -605,23 +605,7 @@ function slot0.updateCommanderBagMax(slot0, slot1)
 end
 
 function slot0.GetDaysFromRegister(slot0)
-	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
-
-	return math.floor((os.time({
-		minute = 0,
-		second = 0,
-		hour = 0,
-		year = os.date("%Y", slot1),
-		month = os.date("%m", slot1),
-		day = os.date("%d", slot1)
-	}) - os.time({
-		minute = 0,
-		second = 0,
-		hour = 0,
-		year = os.date("%Y", slot0.registerTime),
-		month = os.date("%m", slot0.registerTime),
-		day = os.date("%d", slot0.registerTime)
-	})) / 86400)
+	return pg.TimeMgr.GetInstance():DiffDay(slot0.registerTime, pg.TimeMgr.GetInstance():GetServerTime())
 end
 
 function slot0.CanUploadBackYardThemeTemplate(slot0)

@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_339 = {
+	[16513301] = {
+		cannon = 198,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		battle_unit_type = 95,
+		air = 0,
+		base = 90750,
+		dodge = 16,
+		durability_growth = 0,
+		antiaircraft = 350,
+		speed = 18,
+		reload_growth = 0,
+		dodge_growth = 256,
+		luck = 25,
+		antiaircraft_growth = 0,
+		hit = 22,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		torpedo = 260,
+		durability = 89250,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		fog_fx = "",
+		id = 16513301,
+		scale = 140,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3059201
+		}
+	},
 	[16513302] = {
 		cannon = 240,
 		name = "Special Pawn - Kursk",
@@ -860,45 +898,6 @@ pg.enemy_data_statistics_339 = {
 			1004045,
 			1004050,
 			1004055
-		},
-		buff_list = {}
-	},
-	[16515005] = {
-		cannon = 0,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 55,
-		battle_unit_type = 65,
-		dodge = 0,
-		base = 90609,
-		durability_growth = 65600,
-		antiaircraft = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		antiaircraft_growth = 1800,
-		torpedo = 0,
-		durability = 4680,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 16515005,
-		bubble_fx = "",
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1004060,
-			1004065,
-			1004070,
-			1004075
 		},
 		buff_list = {}
 	}

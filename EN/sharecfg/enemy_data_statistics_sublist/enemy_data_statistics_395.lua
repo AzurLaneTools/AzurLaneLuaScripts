@@ -1,5 +1,169 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[295102] = {
+		cannon = 308,
+		name = "Repulse META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 22,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 322,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 22,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 780000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295102,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
+	[295103] = {
+		cannon = 326,
+		name = "Repulse META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 23,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 335,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 23,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295103,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
+	[295104] = {
+		cannon = 345,
+		name = "Repulse META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 24,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 348,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 24,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1240000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295104,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
+	[295105] = {
+		cannon = 365,
+		name = "Repulse META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 25,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 361,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 25,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1480000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295105,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[295106] = {
 		cannon = 146,
 		name = "Renown META",
@@ -776,170 +940,6 @@ pg.enemy_data_statistics_395 = {
 			{
 				ID = 50510,
 				LV = 2
-			}
-		}
-	},
-	[295125] = {
-		cannon = 203,
-		name = "Arizona META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 207,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 15,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 120000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295125,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295126] = {
-		cannon = 217,
-		name = "Arizona META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 16,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 218,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 16,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 160000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295126,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295127] = {
-		cannon = 232,
-		name = "Arizona META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 17,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 230,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 17,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 250000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295127,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295128] = {
-		cannon = 248,
-		name = "Arizona META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 18,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 242,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 18,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 340000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295128,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
 			}
 		}
 	}

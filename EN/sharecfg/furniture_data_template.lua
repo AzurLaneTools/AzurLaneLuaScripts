@@ -163,6 +163,7 @@ pg.furniture_data_template = setmetatable({
 			100039,
 			100040,
 			100041,
+			100043,
 			200001,
 			200002,
 			200003,
@@ -4924,6 +4925,7 @@ pg.furniture_data_template = setmetatable({
 			100039,
 			100040,
 			100041,
+			100043,
 			31101,
 			54104,
 			54105
@@ -5814,7 +5816,8 @@ pg.furniture_data_template = setmetatable({
 			100038,
 			100039,
 			100040,
-			100041
+			100041,
+			100043
 		},
 		[2] = {
 			120,
@@ -8485,6 +8488,7 @@ pg.furniture_data_template = setmetatable({
 		100039,
 		100040,
 		100041,
+		100043,
 		200001,
 		200002,
 		200003,
@@ -19581,6 +19585,84 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					"event:/ui/meow"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100043] = {
+		effect = "",
+		name = "Emergency Eject Button",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Use only in the case of real emergencies, such as there not being enough shipgirl-shaped holes in the ceiling.",
+		themeId = 0,
+		icon = "feixianganniuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100043,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixianganniu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

@@ -6459,7 +6459,18 @@ function temp()
 					s = {
 						u = {
 							u = {
-								this = true
+								this = true,
+								[" "] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													this = true
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}
@@ -7988,15 +7999,19 @@ function temp()
 													a = {
 														this = true,
 														[" "] = {
-															R = {
-																e = {
-																	t = {
-																		r = {
-																			o = {
-																				f = {
-																					i = {
-																						t = {
-																							this = true
+															["("] = {
+																R = {
+																	e = {
+																		t = {
+																			r = {
+																				o = {
+																					f = {
+																						i = {
+																							t = {
+																								[")"] = {
+																									this = true
+																								}
+																							}
 																						}
 																					}
 																				}

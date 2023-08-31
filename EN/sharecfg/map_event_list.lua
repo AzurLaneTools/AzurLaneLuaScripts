@@ -3966,6 +3966,114 @@ pg.map_event_list = {
 			"helpbg/battle_faxiv2_1"
 		}
 	},
+	[2100281] = {
+		help_open = 1,
+		chapter_id = 2100281,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100282] = {
+		help_open = 0,
+		chapter_id = 2100282,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100283] = {
+		help_open = 0,
+		chapter_id = 2100283,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100284] = {
+		help_open = 0,
+		chapter_id = 2100284,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100285] = {
+		help_open = 0,
+		chapter_id = 2100285,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100286] = {
+		help_open = 0,
+		chapter_id = 2100286,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100291] = {
+		help_open = 1,
+		chapter_id = 2100291,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100292] = {
+		help_open = 0,
+		chapter_id = 2100292,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100293] = {
+		help_open = 0,
+		chapter_id = 2100293,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100294] = {
+		help_open = 0,
+		chapter_id = 2100294,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100295] = {
+		help_open = 0,
+		chapter_id = 2100295,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[2100296] = {
+		help_open = 0,
+		chapter_id = 2100296,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -4291,6 +4399,18 @@ pg.map_event_list = {
 		2100254,
 		2100255,
 		2100256,
+		2100281,
+		2100282,
+		2100283,
+		2100284,
+		2100285,
+		2100286,
+		2100291,
+		2100292,
+		2100293,
+		2100294,
+		2100295,
+		2100296,
 		2200071,
 		2200072,
 		2200073,

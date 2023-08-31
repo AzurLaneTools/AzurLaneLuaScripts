@@ -139,6 +139,19 @@ function slot0.GetShips(slot0)
 	return slot4
 end
 
+function slot0.GetDownloadResShips(slot0)
+	slot1 = getProxy(PlayerProxy):getRawData()
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0:GetShips()) do
+		if slot8.member.id ~= slot1.id then
+			table.insert(slot3, slot8.ship:getPainting())
+		end
+	end
+
+	return slot3
+end
+
 function slot0.GetTeamTypeShips(slot0, slot1)
 	slot2 = {}
 

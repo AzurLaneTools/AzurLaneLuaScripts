@@ -15,7 +15,6 @@ end
 function slot1.Clear(slot0)
 	slot0._stack = {}
 	slot0._dictionary = {}
-	slot0._now = nil
 end
 
 function slot1.CheckPlay(slot0)
@@ -26,7 +25,7 @@ function slot1.CheckPlay(slot0)
 	if slot0._now ~= slot0._dictionary[slot0._stack[#slot0._stack]] then
 		slot0._now = slot1
 
-		playBGM(slot0._now)
+		uv0.CriMgr.GetInstance():PlayBGM(slot1)
 	end
 end
 
@@ -48,4 +47,20 @@ function slot1.Pop(slot0, slot1)
 
 		slot0:CheckPlay()
 	end
+end
+
+function slot1.ContinuePlay(slot0)
+	if not slot0._now then
+		return
+	end
+
+	uv0.CriMgr.GetInstance():PlayBGM(slot0._now)
+end
+
+function slot1.TempPlay(slot0, slot1)
+	uv0.CriMgr.GetInstance():PlayBGM(slot1)
+end
+
+function slot1.StopPlay(slot0)
+	uv0.CriMgr.GetInstance():StopBGM()
 end

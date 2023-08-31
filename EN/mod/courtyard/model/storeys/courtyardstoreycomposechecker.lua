@@ -32,7 +32,7 @@ end
 
 function slot0.IsMatch(slot0, slot1)
 	return _.all(slot1, function (slot0)
-		return uv0.storey.furnitures[slot0] ~= nil or uv0.storey.wallPaper and uv0.storey.wallPaper.id == slot0 or uv0.storey.floorPaper and uv0.storey.floorPaper.id == slot0
+		return uv0.storey.furnitures[slot0] ~= nil or uv0.storey.wallPaper and uv0.storey.wallPaper.configId == slot0 or uv0.storey.floorPaper and uv0.storey.floorPaper.configId == slot0
 	end)
 end
 

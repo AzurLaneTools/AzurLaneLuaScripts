@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_223 = {
+	[14100105] = {
+		cannon = 0,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 4,
+		air = 26,
+		torpedo = 0,
+		dodge = 9,
+		durability_growth = 39800,
+		antiaircraft = 38,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 132,
+		hit_growth = 210,
+		star = 5,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 2321,
+		id = 14100105,
+		base = 90262,
+		durability = 830,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 22,
+		armor = 0,
+		antiaircraft_growth = 3168,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			710015,
+			710016,
+			1100795,
+			1100800,
+			1101020
+		}
+	},
 	[14100106] = {
 		cannon = 0,
 		reload = 150,
@@ -1248,69 +1290,6 @@ pg.enemy_data_statistics_223 = {
 			1101027,
 			1101032,
 			1100492
-		}
-	},
-	[14102006] = {
-		cannon = 8,
-		name = "Mass Produced Taihou-class ",
-		hit_growth = 216,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 59,
-		air_growth = 2250,
-		icon_type = 7,
-		armor = 0,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90131,
-		durability = 3420,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 14102006,
-		cannon_growth = 550,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 15,
-		torpedo = 0,
-		durability_growth = 54400,
-		antiaircraft = 75,
-		antiaircraft_growth = 2200,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		equipment_list = {
-			1101027,
-			1100797,
-			1100802,
-			1101022
 		}
 	}
 }

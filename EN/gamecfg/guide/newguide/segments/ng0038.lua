@@ -29,7 +29,7 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "UICamera/Canvas/UIMain/NavalAcademySummerUI(Clone)/academyMap/map/minigamehall",
+				path = "UICamera/Canvas/UIMain/NavalAcademyAutumnUI(Clone)/academyMap/map/minigamehall",
 				triggerType = {
 					1
 				}

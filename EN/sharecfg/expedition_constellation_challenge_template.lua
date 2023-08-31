@@ -261,6 +261,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10010] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10010,
+		dungeon_id = 5112,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 40.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
+			},
+			{
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>20.0%</color> for 10s."
+			}
+		},
+		award_display = {
+			{
+				14,
+				204,
+				1
+			}
+		}
+	},
+	[10011] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10011,
+		dungeon_id = 5111,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 60.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
+			},
+			{
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>30.0%</color> for 10s."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10004,
+				1
+			}
+		}
+	},
+	[10012] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10012,
+		dungeon_id = 5110,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 80.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
+			},
+			{
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>40.0%</color> for 10s."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10004,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -270,6 +357,9 @@ pg.expedition_constellation_challenge_template = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010,
+		10011,
+		10012
 	}
 }
