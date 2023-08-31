@@ -253,7 +253,7 @@ function slot0.GetMedalShops(slot0, slot1)
 end
 
 function slot0.GetMiniShops(slot0, slot1)
-	if PLATFORM_CODE == PLATFORM_CHT then
+	if LOCK_MINIGAME_HALL then
 		if slot1 then
 			slot1()
 		end

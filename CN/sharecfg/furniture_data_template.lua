@@ -208,6 +208,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			200001,
 			200002,
 			200003,
@@ -5268,6 +5269,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			31101,
 			54101,
 			54102,
@@ -6219,7 +6221,8 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
-			100052
+			100052,
+			100053
 		},
 		[2] = {
 			120,
@@ -9071,6 +9074,7 @@ pg.furniture_data_template = setmetatable({
 		100050,
 		100051,
 		100052,
+		100053,
 		200001,
 		200002,
 		200003,
@@ -22898,6 +22902,109 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100053] = {
+		rarity = 4,
+		describe = "宇宙真理尽在其中！（大概）",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "真理天平 ",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "mofatianchengicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100053,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mofatiancheng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2",
+						"sit3",
+						"sit4",
+						"sit5"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			}
 		},
 		interAction_group = {}
 	},

@@ -85,7 +85,7 @@ pg.item_data_chat = {
 		name = "华丽的邀约",
 		id = 603,
 		time_second = 0,
-		desc = "<color=#ffffff>献给所有参与港区宴会的指挥官！</color>\n<color=#A7A7AAFF>通过参与「宴会邀约」获取 </color>",
+		desc = "献给所有参与港区宴会的指挥官！\n<color=#A7A7AAFF>通过参与「宴会邀约」获取 </color>",
 		scene = {}
 	},
 	[10001] = {
@@ -112,6 +112,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
+	[10004] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·处女座",
+		id = 10004,
+		time_second = 0,
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -126,6 +134,7 @@ pg.item_data_chat = {
 		603,
 		10001,
 		10002,
-		10003
+		10003,
+		10004
 	}
 }

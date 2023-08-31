@@ -51,7 +51,7 @@ function slot0.initUI(slot0)
 				uv0:findTF("Item3/Icon", slot2)
 			}) do
 				if slot10[slot14].type ~= DROP_TYPE_SHIP then
-					setImageSprite(slot15, LoadSprite(Item.GetIcon(slot16.type, slot16.id)))
+					setImageSprite(slot15, LoadSprite(getDropIcon(slot16)))
 				else
 					setImageSprite(slot15, LoadSprite("QIcon/" .. Ship.New({
 						configId = slot16.id

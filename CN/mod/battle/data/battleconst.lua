@@ -38,7 +38,8 @@ slot0.UnitType = {
 	UAV_UNIT = 9,
 	SUB_UNIT = 10,
 	CONST_UNIT = 11,
-	MINION_UNIT = 12
+	MINION_UNIT = 12,
+	CARDPUZZLE_PLAYER_UNIT = 30
 }
 slot0.CharacterUnitType = {
 	slot0.UnitType.PLAYER_UNIT,

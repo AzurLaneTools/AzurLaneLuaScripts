@@ -327,24 +327,28 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetShareSkinsForShip(slot0, slot1)
-	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1.groupId][1]].share_group_id or #slot4.share_group_id <= 0 then
+function slot0.GetShareSkinsForShipGroup(slot0, slot1)
+	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1][1]].share_group_id or #slot3.share_group_id <= 0 then
 		return {}
 	end
 
-	slot5 = {}
+	slot4 = {}
 
-	for slot9, slot10 in ipairs(slot4.share_group_id) do
-		for slot15, slot16 in ipairs(pg.ship_skin_template.get_id_list_by_ship_group[slot10]) do
+	for slot8, slot9 in ipairs(slot3.share_group_id) do
+		for slot14, slot15 in ipairs(pg.ship_skin_template.get_id_list_by_ship_group[slot9]) do
 			if ShipSkin.New({
-				id = slot16
+				id = slot15
 			}):CanShare() then
-				table.insert(slot5, slot17)
+				table.insert(slot4, slot16)
 			end
 		end
 	end
 
-	return slot5
+	return slot4
+end
+
+function slot0.GetShareSkinsForShip(slot0, slot1)
+	return slot0:GetShareSkinsForShipGroup(slot1.groupId)
 end
 
 function slot0.GetAllSkinForARCamera(slot0, slot1)
@@ -459,6 +463,26 @@ function slot0.GetOwnSkins(slot0)
 			table.insert(slot1, ShipSkin.New({
 				id = pg.ship_data_trans[slot8.id].skin_id
 			}))
+		end
+	end
+
+	return slot1
+end
+
+function slot0.GetOwnAndShareSkins(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0:GetOwnSkins()) do
+		slot2[slot7.id] = slot7
+	end
+
+	for slot7, slot8 in pairs(getProxy(CollectionProxy).shipGroups) do
+		if slot8.married == 1 then
+			for slot13, slot14 in ipairs(slot0:GetShareSkinsForShipGroup(slot8.id)) do
+				if not slot2[slot14.id] then
+					table.insert(slot1, slot14)
+				end
+			end
 		end
 	end
 

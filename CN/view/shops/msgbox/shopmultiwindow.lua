@@ -63,11 +63,13 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		end
 	end
 
-	slot4, slot5 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
+	slot5 = math.max(math.floor(GetOwnedDropCount({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}) / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getConfig("num_limit") ~= 0 or isa(slot1, QuotaCommodity) then
-		slot6 = math.min(slot6, math.max(0, slot1:GetPurchasableCnt()))
+		slot5 = math.min(slot5, math.max(0, slot1:GetPurchasableCnt()))
 	end
 
 	(function (slot0)

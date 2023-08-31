@@ -183,7 +183,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "反击·META",
 		painting = "fanji",
 		boss_level_id = 91,
@@ -330,12 +330,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "阿尔及利亚·META",
 		painting = "aerjiliya",
 		boss_level_id = 151,
 		id = 11,
 		meta_id = 970302,
+		item_id = 100000,
 		description = {
 			{
 				"堕天之柱",
@@ -346,32 +347,6 @@ pg.world_joint_boss_template = {
 				"涤罪之焰",
 				1,
 				"自身在战斗中的部分攻击会令被命中单位受到名为涤罪之焰的<color=#92fc63>特殊点燃效果</color>影响，该点燃单次持续时间较短，但固定伤害较高。\n同时，固定每隔9秒自身便会对<color=#92fc63>当前耐久值最低的敌方单位</color>施加涤罪之焰，目标选择无视后排隐匿。"
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					6,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -387,6 +362,69 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "貎·META",
+		painting = "shentong",
+		boss_level_id = 166,
+		id = 12,
+		meta_id = 970205,
+		description = {
+			{
+				"谋断的铁壁",
+				2,
+				"战斗开始10秒后，自身将获得20%的<color=#92fc63>特殊减伤效果</color>，持续至战斗结束。"
+			},
+			{
+				"合纵的瓦解",
+				3,
+				"当敌方参战舰队成员所属阵营大于1时，每多1个不同阵营，都会使自身的全属性提升5%。\n（不计算联动等特殊阵营）"
+			},
+			{
+				"难违的天命",
+				1,
+				"战斗开始50秒后，自身会随着时间流逝逐渐变得虚弱，<color=#92fc63>受到的伤害逐步提升</color>，每过4秒增加10%。"
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
 	all = {
 		1,
 		2,
@@ -398,6 +436,7 @@ pg.world_joint_boss_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

@@ -3244,6 +3244,17 @@ pg.fleet_tech_ship_class = {
 			970204
 		}
 	},
+	[970205] = {
+		shiptype = 2,
+		name = "神通·META",
+		nation = 97,
+		id = 970205,
+		t_level_1 = 4,
+		t_level = 2,
+		ships = {
+			970205
+		}
+	},
 	[970301] = {
 		shiptype = 3,
 		name = "特伦托·META",
@@ -3702,6 +3713,7 @@ pg.fleet_tech_ship_class = {
 		970202,
 		970203,
 		970204,
+		970205,
 		970301,
 		970302,
 		970401,

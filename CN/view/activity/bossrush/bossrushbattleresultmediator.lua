@@ -26,12 +26,12 @@ function slot0.register(slot0)
 			totalBattleTimes = slot2
 		})
 	end)
-	slot0:sendNotification(BattleResultMediator.ON_ENTER_BATTLE_RESULT)
+	slot0:sendNotification(NewBattleResultMediator.ON_ENTER_BATTLE_RESULT)
 end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		BattleResultMediator.SET_SKIP_FLAG,
+		NewBattleResultMediator.SET_SKIP_FLAG,
 		GAME.BOSSRUSH_TRACE_DONE,
 		GAME.BOSSRUSH_TRACE_ERROR,
 		GAME.BEGIN_STAGE_DONE,
@@ -61,7 +61,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(uv0.BEGIN_STAGE)
 	elseif slot2 == GAME.BOSSRUSH_TRACE_ERROR then
 		slot0:sendNotification(GAME.GO_BACK)
-	elseif slot2 == BattleResultMediator.SET_SKIP_FLAG then
+	elseif slot2 == NewBattleResultMediator.SET_SKIP_FLAG then
 		if slot3 then
 			slot4 = getProxy(ActivityProxy)
 
@@ -137,7 +137,7 @@ function slot0.handleNotification(slot0, slot1)
 				return
 			end
 
-			slot0:sendNotification(BattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
+			slot0:sendNotification(NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
 		end
 	elseif slot2 == ContinuousOperationMediator.ON_REENTER then
 		getProxy(ActivityProxy):AddBossRushAwards(slot0.contextData.awards)

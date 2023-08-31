@@ -104,7 +104,7 @@ function slot0.UpdateFilterTaskList(slot0)
 		return not uv0.filterType or slot0.config.type == uv0.filterType
 	end)
 
-	table.sort(slot0.filterTaskList, WorldTask.sortFunc)
+	table.sort(slot0.filterTaskList, CompareFuncs(WorldTask.sortDic))
 	slot0.taskItemList:align(#slot0.filterTaskList)
 	setActive(slot0.rtNothingTip, #slot0.filterTaskList == 0)
 end

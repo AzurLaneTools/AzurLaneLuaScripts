@@ -10654,6 +10654,29 @@ _G.pg.base.item_data_statistics[21024] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21025] = {
+	display = "{namecode:293}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：{namecode:293}",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21025",
+	id = 21025,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -10992,6 +11015,29 @@ _G.pg.base.item_data_statistics[21911] = {
 	is_world = 0,
 	icon = "Props/21911",
 	id = 21911,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21912] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:293}同步率。",
+	name = "同步值：{namecode:293}",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21912",
+	id = 21912,
 	display_icon = {},
 	price = {},
 	index = {},

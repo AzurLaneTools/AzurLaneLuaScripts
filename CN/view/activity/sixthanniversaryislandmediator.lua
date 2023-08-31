@@ -115,8 +115,8 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getNotificationHandleDic(slot0)
-	uv0.handleDic = uv0.handleDic or {
+function slot0.initNotificationHandleDic(slot0)
+	slot0.handleDic = {
 		[GAME.ISLAND_EVENT_TRIGGER_DONE] = function (slot0, slot1)
 			slot3 = {}
 
@@ -134,7 +134,9 @@ function slot0.getNotificationHandleDic(slot0)
 			slot0.viewComponent:refreshNode(slot1:getBody().node_id)
 		end,
 		[GAME.ZERO_HOUR_OP_DONE] = function (slot0, slot1)
-			getProxy(IslandProxy):CheckAndRequest(function ()
+			slot2 = getProxy(IslandProxy)
+
+			slot2:CheckAndRequest(function ()
 				uv0.viewComponent.nodeItemList:align(#uv0.viewComponent.ids)
 				uv0.viewComponent:refreshDailyPanel()
 			end)
@@ -175,9 +177,6 @@ function slot0.getNotificationHandleDic(slot0)
 			end
 		end
 	}
-	uv0.elseFunc = nil
-
-	return uv0.handleDic, uv0.elseFunc
 end
 
 return slot0

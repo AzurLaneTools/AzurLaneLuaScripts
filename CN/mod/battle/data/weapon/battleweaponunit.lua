@@ -1172,6 +1172,14 @@ function slot9.FlushRequireByInverse(slot0, slot1)
 	return slot2 + uv0.CalculateReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, slot1), uv1.GetCurrent(slot0._host, "loadSpeed"))
 end
 
+function slot9.SetCardPuzzleDamageEnhance(slot0, slot1)
+	slot0._cardPuzzleEnhance = slot1
+end
+
+function slot9.GetCardPuzzleDamageEnhance(slot0)
+	return slot0._cardPuzzleEnhance or 1
+end
+
 function slot9.GetReloadRate(slot0)
 	if slot0._currentState == slot0.STATE_READY then
 		return 0

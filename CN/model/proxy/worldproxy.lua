@@ -125,8 +125,8 @@ function slot0.BuildTestFunc(slot0)
 	end
 end
 
-function slot0.BuildWorld(slot0, slot1)
-	slot0.world = World.New(slot1, slot0.world and slot0.world:Dispose(slot1))
+function slot0.BuildWorld(slot0, slot1, slot2)
+	slot0.world = World.New(slot1, slot0.world and slot0.world:Dispose(tobool(slot2)))
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 end
@@ -139,9 +139,9 @@ function slot0.NetFullUpdate(slot0, slot1)
 	slot0:NetUpdateWorldAchievements(slot1.target_list, slot1.target_fetch_list)
 	slot0:NetUpdateWorldCountInfo(slot1.count_info)
 	slot0:NetUpdateWorldMapPressing(slot1.clean_chapter)
-	slot0:NetUpdateWorldShopGoods(slot1.out_shop_buy_list)
 	slot0:NetUpdateWorldPressingAward(slot1.chapter_award)
-	slot0:NetUpdateWorldPortTaskMark(slot1.port_list, slot1.new_flag_port_list)
+	slot0:NetUpdateWorldShopGoods(slot1.out_shop_buy_list)
+	slot0:NetUpdateWorldPortShopMark(slot1.port_list, slot1.new_flag_port_list)
 end
 
 function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
@@ -149,6 +149,7 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 
 	slot4:SetRealm(slot3)
 
+	slot4.activateTime = slot1.time
 	slot4.expiredTime = slot1.last_change_group_timestamp
 	slot4.roundIndex = slot1.round
 	slot4.submarineSupport = slot1.submarine_state == 1
@@ -163,46 +164,46 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	slot4.gobalFlag = underscore.map(slot2, function (slot0)
 		return slot0 > 0
 	end)
+	slot5 = slot4:GetAtlas()
 
-	slot4:GetAtlas():SetCostMapList(_.rest(slot1.chapter_list, 1))
-	slot4:GetAtlas():SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
+	slot5:SetCostMapList(_.rest(slot1.chapter_list, 1))
+	slot5:SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
+	slot5:InitWorldNShopGoods(slot1.goods_list)
 	slot4:SetFleets(slot0:NetBuildMapFleetList(slot1.group_list))
 
-	slot5 = slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
+	slot6 = slot1.map_id > 0 and _.detect(slot1.chapter_list, function (slot0)
 		return slot0.random_id == uv0.map_id
 	end)
 
-	assert(slot1.map_id > 0 == tobool(slot5), "error active map info:" .. slot1.map_id)
+	assert(slot1.map_id > 0 == tobool(slot6), "error active map info:" .. slot1.map_id)
 
-	if slot5 then
-		slot6 = slot1.enter_map_id
-		slot7 = slot5.random_id
-		slot8 = slot5.template_id
+	if slot6 then
+		slot7 = slot1.enter_map_id
+		slot8 = slot6.random_id
+		slot9 = slot6.template_id
 
-		assert(slot4:GetEntrance(slot6), "entrance not exist: " .. slot6)
-		assert(slot4:GetMap(slot7), "map not exist: " .. slot7)
-		assert(pg.world_chapter_template[slot8], "world_chapter_template not exist: " .. slot8)
+		assert(slot4:GetEntrance(slot7), "entrance not exist: " .. slot7)
+		assert(slot4:GetMap(slot8), "map not exist: " .. slot8)
+		assert(pg.world_chapter_template[slot9], "world_chapter_template not exist: " .. slot9)
 		assert(#slot1.group_list > 0, "amount of group_list is not enough.")
-		slot9:UpdateActive(true)
-		slot10:UpdateGridId(slot8)
-
-		slot10.findex = table.indexof(slot4.fleets, slot4:GetFleet(slot1.group_list[1].id))
-
-		slot10:BindFleets(slot4.fleets)
 		slot10:UpdateActive(true)
+		slot11:UpdateGridId(slot9)
+
+		slot11.findex = table.indexof(slot4.fleets, slot4:GetFleet(slot1.group_list[1].id))
+
+		slot11:BindFleets(slot4.fleets)
+		slot11:UpdateActive(true)
 	end
 
-	slot4:SetPortShips(slot0:NetBuildPortShipList(slot1.ship_in_port))
+	slot7 = slot4:GetInventoryProxy()
 
-	slot6 = slot4:GetInventoryProxy()
+	slot7:Setup(slot1.item_list)
 
-	slot6:Setup(slot1.item_list)
+	slot8 = slot4:GetTaskProxy()
 
-	slot7 = slot4:GetTaskProxy()
+	slot8:Setup(slot1.task_list)
 
-	slot7:Setup(slot1.task_list)
-
-	slot7.taskFinishCount = slot1.task_finish_count
+	slot8.taskFinishCount = slot1.task_finish_count
 
 	_.each(slot1.cd_list, function (slot0)
 		uv0.cdTimeList[slot0.id] = slot0.time
@@ -593,6 +594,7 @@ end
 
 function slot0.NetUpdateWorldMapPressing(slot0, slot1)
 	slot0.world:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
+	slot0.world:GetAtlas():InitPortMarkNShopList()
 end
 
 function slot0.NetUpdateWorldShopGoods(slot0, slot1)
@@ -617,7 +619,7 @@ function slot0.NetUpdateWorldPressingAward(slot0, slot1)
 	end)
 end
 
-function slot0.NetUpdateWorldPortTaskMark(slot0, slot1, slot2)
+function slot0.NetUpdateWorldPortShopMark(slot0, slot1, slot2)
 	slot0.world:GetAtlas():SetPortMarkList(slot1, slot2)
 end
 

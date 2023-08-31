@@ -1,4 +1,8 @@
 slot0 = class("CourtYardFurnitureSpineSlot", import(".CourtYardFurnitureBaseSlot"))
+slot1 = 0
+slot2 = 1
+slot3 = 2
+slot4 = 3
 
 function slot0.OnInit(slot0, slot1)
 	slot0.name = slot1[1][1]
@@ -23,23 +27,28 @@ function slot0.OnInit(slot0, slot1)
 
 	if slot0.vaild then
 		slot0.actions = slot1[3][2]
-		slot0.strategyType = slot1[3][3][2] or 0
 
-		if slot0.strategyType == true then
-			slot0.strategyType = 1
+		if (slot1[3][3][2] or uv0) == true then
+			slot2 = uv1
 		end
 
-		slot0.updateStrategy = slot0:InitUpdateStrategy(slot0.strategyType)
-		slot0.loop = slot1[3][4][1] == 1
+		if slot1[3][5] then
+			slot2 = uv2
+		end
+
+		slot0.strategyType = slot2
+		slot0.updateStrategy = slot0:InitUpdateStrategy(slot2)
 		slot0.preheatAction = slot1[3][3][3]
 		slot0.tailAction = slot1[3][3][4]
+		slot0.loop = slot1[3][4][1] == 1
+		slot0.variedActions = slot1[3][5]
 	end
 end
 
 function slot0.InitUpdateStrategy(slot0, slot1)
 	slot2 = nil
 
-	return (slot1 ~= 1 or CourtYardFollowInteraction.New(slot0)) and (slot1 ~= 2 or CourtYardMonglineInteraction.New(slot0)) and CourtYardInteraction.New(slot0)
+	return (slot1 ~= uv0 or CourtYardFollowInteraction.New(slot0)) and (slot1 ~= uv1 or CourtYardMonglineInteraction.New(slot0)) and (slot1 ~= uv2 or CourtYardVariedInteraction.New(slot0)) and CourtYardInteraction.New(slot0)
 end
 
 function slot0.SetAnimators(slot0, slot1)
@@ -107,6 +116,38 @@ function slot0.GetScale(slot0)
 	end
 end
 
+function slot5(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = {}
+	slot4 = slot0.actions[1][2]
+	slot5 = slot0.actions[1][3]
+
+	for slot9, slot10 in ipairs(slot0.variedActions) do
+		table.insert(slot1, slot10[math.random(1, #slot10)])
+		table.insert(slot2, slot5)
+		table.insert(slot3, slot4)
+	end
+
+	return slot1, slot2, slot3
+end
+
+function slot6(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.actions) do
+		slot11 = type(slot8[1]) == "table" and slot9[math.random(1, #slot9)] or slot9
+
+		table.insert(slot1, slot0:GetOwnerSubstituteAction(slot11))
+		table.insert(slot2, slot0:GetUserSubstituteAction(slot8[3] or slot11))
+		table.insert(slot3, tobool(slot8[2]))
+	end
+
+	return slot1, slot2, slot3
+end
+
 function slot0.GetActions(slot0)
 	slot1, slot2 = nil
 
@@ -117,16 +158,12 @@ function slot0.GetActions(slot0)
 		slot1 = slot0.preheatAction[1]
 	end
 
-	slot3 = {}
-	slot4 = {}
-	slot5 = {}
+	slot3, slot4, slot5 = nil
 
-	for slot9, slot10 in ipairs(slot0.actions) do
-		slot13 = type(slot10[1]) == "table" and slot11[math.random(1, #slot11)] or slot11
-
-		table.insert(slot3, slot0:GetOwnerSubstituteAction(slot13))
-		table.insert(slot4, slot0:GetUserSubstituteAction(slot10[3] or slot13))
-		table.insert(slot5, tobool(slot10[2]))
+	if slot0.strategyType == uv0 then
+		slot3, slot4, slot5 = uv1(slot0)
+	else
+		slot3, slot4, slot5 = uv2(slot0)
 	end
 
 	return slot3, slot4, slot5, slot1, slot2, slot0.tailAction
@@ -144,6 +181,10 @@ end
 
 function slot0.OnContinue(slot0, slot1)
 	slot0.updateStrategy:StepEnd(slot1)
+end
+
+function slot0.Reset(slot0)
+	slot0.updateStrategy:Reset()
 end
 
 function slot0.GetSpineDefaultAction(slot0)

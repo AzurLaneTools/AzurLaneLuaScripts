@@ -110,7 +110,10 @@ end
 function slot0.FreeBuildTicketTip(slot0, slot1)
 	if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
 		setActive(slot0, true)
-		LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_VITEM, slot3:getConfig("config_client")[1]), "", slot0:Find("Image"))
+		LoadImageSpriteAtlasAsync(getDropIcon({
+			type = DROP_TYPE_VITEM,
+			id = slot3:getConfig("config_client")[1]
+		}), "", slot0:Find("Image"))
 
 		slot4 = tostring(slot3.data1)
 

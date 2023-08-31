@@ -405,6 +405,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100282,
 		2100291,
 		2100292,
+		2100301,
+		2100302,
+		2100311,
+		2100312,
 		2200000,
 		2200010,
 		2200020,
@@ -18648,6 +18652,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 2100282,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100301] = {
+		map = 2100301,
+		name = "负象限作战·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1390001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100302] = {
+		map = 2100302,
+		name = "负象限作战·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1390002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100311] = {
+		map = 2100311,
+		name = "负象限作战·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1390003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100312] = {
+		map = 2100312,
+		name = "负象限作战·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1390004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1460002,
 		clouds_pos = {
 			{
 				332,

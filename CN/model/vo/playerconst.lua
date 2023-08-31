@@ -11,54 +11,67 @@ slot0.ResBlueprintFragment = 9
 slot0.ResClassField = 10
 slot0.ResBattery = 101
 slot0.ResPT = 102
+slot1 = nil
 
-function slot1(slot0, slot1, slot2)
-	if slot0 == DROP_TYPE_RESOURCE then
-		if getProxy(PlayerProxy) then
-			slot3:UpdatePlayerRes(slot1, slot2)
+function slot2(slot0)
+	uv0 = uv0 or {
+		[DROP_TYPE_RESOURCE] = function (slot0)
+			if getProxy(PlayerProxy) then
+				slot1:UpdatePlayerRes(slot0.id, slot0.count)
+			end
+		end,
+		[DROP_TYPE_ITEM] = function (slot0)
+			assert(pg.item_data_template[slot0.id])
+
+			if getProxy(BagProxy) then
+				if slot0.count > 0 then
+					slot1:addItemById(slot0.id, slot0.count)
+				elseif slot0.count < 0 then
+					slot1:removeItemById(slot0.id, -slot0.count)
+				end
+			end
+		end,
+		[DROP_TYPE_WORLD_ITEM] = function (slot0)
+			assert(nowWorld().type == World.TypeFull)
+
+			if slot1:GetInventoryProxy() then
+				if slot0.count > 0 then
+					slot2:AddItem(slot0.id, slot0.count)
+				elseif slot0.count < 0 then
+					slot2:RemoveItem(slot0.id, -slot0.count)
+				end
+			end
 		end
-	elseif slot0 == DROP_TYPE_ITEM and pg.item_data_statistics[slot1] and getProxy(BagProxy) then
-		if slot2 > 0 then
-			slot4:addItemById(slot1, slot2)
-		elseif slot2 < 0 then
-			slot4:removeItemById(slot1, -slot2)
-		end
-	end
+	}
+
+	switch(slot0.type, uv0, function ()
+		assert(false)
+	end, slot0)
 end
 
-function addPlayerOwn(slot0, slot1, slot2)
-	uv0(slot0, slot1, math.max(slot2, 0))
+function addPlayerOwn(slot0)
+	slot0.count = math.max(slot0.count, 0)
+
+	uv0(slot0)
 end
 
-function reducePlayerOwn(slot0, slot1, slot2)
-	uv0(slot0, slot1, -math.max(slot2, 0))
+function reducePlayerOwn(slot0)
+	slot0.count = -math.max(slot0.count, 0)
+
+	uv0(slot0)
 end
 
-function getPlayerOwn(slot0, slot1)
-	slot2 = ""
-	slot3 = 0
-
-	if slot0 == DROP_TYPE_RESOURCE then
-		slot4 = id2res(slot1)
-		slot2 = pg.item_data_statistics[id2ItemId(slot1)].name
-
-		if getProxy(PlayerProxy) then
-			slot3 = slot5:getRawData()[slot4]
-		end
-	elseif slot0 == DROP_TYPE_ITEM and pg.item_data_statistics[slot1] then
-		slot2 = slot4.name
-
-		if getProxy(BagProxy) then
-			slot3 = slot5:getItemCountById(slot1)
-		end
-	end
-
-	return slot2, slot3
+function getDropName(slot0)
+	return updateDropCfg(slot0).name
 end
 
-slot2 = nil
+function getDropIcon(slot0)
+	return updateDropCfg(slot0).icon
+end
 
-function slot3(slot0, slot1, slot2)
+slot3 = nil
+
+function slot4(slot0, slot1, slot2)
 	uv0 = uv0 or {
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			slot1 = pg.drop_data_restore[slot0.id]
@@ -68,7 +81,13 @@ function slot3(slot0, slot1, slot2)
 					type = DROP_TYPE_RESOURCE,
 					id = slot1.resource_type,
 					count = slot1.resource_num * (slot0.number or slot0.count),
-					name = Item.GetName(DROP_TYPE_RESOURCE, slot1.resource_type) .. "(" .. Item.GetName(slot1.target_type, slot1.target_id) .. ")"
+					name = getDropName({
+						type = DROP_TYPE_RESOURCE,
+						id = slot1.resource_type
+					}) .. "(" .. getDropName({
+						type = slot1.target_type,
+						id = slot1.target_id
+					}) .. ")"
 				})
 			}
 		end,
@@ -126,7 +145,7 @@ function slot3(slot0, slot1, slot2)
 					}
 				end,
 				[13] = function ()
-					slot1 = Item.GetName(uv0.type, uv0.id)
+					slot1 = getDropName(uv0)
 					slot2 = Item.VItem2SkinCouponShopId(uv0.id)
 
 					if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
@@ -151,7 +170,10 @@ function slot3(slot0, slot1, slot2)
 								type = DROP_TYPE_RESOURCE,
 								id = slot3,
 								count = pg.shop_discount_coupon_template[slot2[1]].change,
-								name = Item.GetName(DROP_TYPE_RESOURCE, slot3) .. "(" .. slot1 .. ")"
+								name = getDropName({
+									type = DROP_TYPE_RESOURCE,
+									id = slot3
+								}) .. "(" .. slot1 .. ")"
 							}),
 							uv1
 						}

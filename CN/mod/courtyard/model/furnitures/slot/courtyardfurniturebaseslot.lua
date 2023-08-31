@@ -93,6 +93,9 @@ function slot0.Stop(slot0)
 	slot0:OnStop()
 end
 
+function slot0.Reset(slot0)
+end
+
 function slot0.End(slot0)
 	slot0:Clear(false)
 	slot0:OnEnd()

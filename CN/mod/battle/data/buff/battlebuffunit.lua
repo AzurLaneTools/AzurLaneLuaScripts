@@ -17,7 +17,9 @@ slot3.DEFAULT_ANI_FX_CONFIG = {
 function slot3.Ctor(slot0, slot1, slot2, slot3)
 	slot2 = slot2 or 1
 	slot0._id = slot1
-	slot0._tempData = uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1, slot2)
+
+	slot0:SetTemplate(slot1, slot2)
+
 	slot0._time = slot0._tempData.time
 	slot0._RemoveTime = 0
 	slot0._effectList = {}
@@ -36,6 +38,10 @@ function slot3.Ctor(slot0, slot1, slot2, slot3)
 			slot16[#slot16 + 1] = slot9
 		end
 	end
+end
+
+function slot3.SetTemplate(slot0, slot1, slot2)
+	slot0._tempData = uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1, slot2)
 end
 
 function slot3.Attach(slot0, slot1)

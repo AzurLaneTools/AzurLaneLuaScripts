@@ -4438,6 +4438,17 @@ function temp()
 	uv0["貎"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6151,6 +6162,19 @@ function temp()
 	uv0["神"] = {
 		["速"] = {
 			this = true
+		},
+		["通"] = {
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

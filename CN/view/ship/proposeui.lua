@@ -448,8 +448,6 @@ function slot0.willExit(slot0)
 		slot0.tweenList = nil
 	end
 
-	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-
 	if slot0.contextData.callback then
 		slot0.contextData.callback()
 	end
@@ -606,7 +604,7 @@ end
 function slot0.showProposePanel(slot0)
 	slot1 = {}
 
-	pg.CriMgr.GetInstance():PlayBGM("wedding", "story")
+	pg.BgmMgr.GetInstance():Push(slot0.__cname, "wedding")
 
 	slot0.proposeSkin = ShipGroup.getProposeSkin(slot0.shipGroupID)
 

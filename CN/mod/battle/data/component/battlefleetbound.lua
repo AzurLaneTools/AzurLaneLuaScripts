@@ -78,3 +78,7 @@ function slot2.SwtichDBRGL(slot0)
 		slot0._bufferRight = uv0.MaxRight
 	end
 end
+
+function slot2.FixCardPuzzleInput(slot0, slot1)
+	slot1:Set(math.clamp(slot1.x, slot0._absoluteLeft, slot0._absoluteRight), 0, math.clamp(slot1.z, slot0._lowerBound, slot0._upperBound))
+end

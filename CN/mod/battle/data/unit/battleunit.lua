@@ -1072,6 +1072,13 @@ function slot9.DispatchSkillFloat(slot0, slot1, slot2, slot3)
 	}))
 end
 
+function slot9.DispatchCutIn(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.CUT_INT, {
+		caster = slot0,
+		skill = slot1
+	}))
+end
+
 function slot9.DispatchCastClock(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_BUFF_CLOCK, {
 		isActive = slot1,

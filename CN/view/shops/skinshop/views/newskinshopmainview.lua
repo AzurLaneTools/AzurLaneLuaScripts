@@ -484,7 +484,7 @@ function slot0.LoadSpinePainting(slot0, slot1)
 end
 
 function slot0.ClearSpinePainting(slot0)
-	if slot0.spinePainting then
+	if slot0.spinePainting and slot0.spinePainting._tf then
 		slot1 = slot0.spinePainting._tf:Find("shop_hx")
 
 		slot0:RevertShopHx(slot0.shopHx)

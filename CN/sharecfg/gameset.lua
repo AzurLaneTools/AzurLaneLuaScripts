@@ -804,6 +804,14 @@ pg.gameset = {
 		description = "",
 		key_value = 7
 	},
+	world_newshop_date = {
+		key_value = 0,
+		description = {
+			2023,
+			9,
+			1
+		}
+	},
 	world_movepower_maxvalue = {
 		description = "",
 		key_value = 200

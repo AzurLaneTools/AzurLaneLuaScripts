@@ -70,6 +70,10 @@ function slot8.UpdateAutoComponent(slot0, slot1)
 	end
 
 	slot0:UpdateBuff(slot1)
+
+	if slot0._cardPuzzleComponent then
+		slot0._cardPuzzleComponent:Update(slot1)
+	end
 end
 
 function slot8.UpdateBuff(slot0, slot1)
@@ -262,6 +266,10 @@ function slot8.AppendPlayerUnit(slot0, slot1)
 	slot1:SetMotion(slot0._motionVO)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.onUnitUpdateHP)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_CLOAK_STATE, slot0.onUnitCloakUpdate)
+
+	if slot0._cardPuzzleComponent then
+		slot0._cardPuzzleComponent:AppendUnit(slot1)
+	end
 end
 
 function slot8.RemovePlayerUnit(slot0, slot1, slot2)
@@ -1402,4 +1410,14 @@ function slot8.activeFreezeScoutUnit(slot0, slot1)
 
 	table.insert(slot5, #slot0._scoutList, slot3)
 	slot0:refreshFleetFormation(slot5)
+end
+
+function slot8.AttachCardPuzzleComponent(slot0)
+	slot0._cardPuzzleComponent = uv0.Battle.BattleFleetCardPuzzleComponent.New(slot0)
+
+	return slot0._cardPuzzleComponent
+end
+
+function slot8.GetCardPuzzleComponent(slot0)
+	return slot0._cardPuzzleComponent
 end

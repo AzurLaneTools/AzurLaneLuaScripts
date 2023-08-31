@@ -113,80 +113,81 @@ slot0.WORLD_FOCUS_EVENT = "world focus event"
 slot0.WORLD_SCANNER_EVENT = "world scanner event"
 slot0.WORLD_HELP_EVENT = "world help event"
 slot0.WORLD_RECALL = "world recall"
-
-function slot0.GetWorldGuiderNotifies(slot0)
-	return {
-		uv0.WORLD_HIDE_UI,
-		uv0.WORLD_GET_COMPASS_POS,
-		uv0.WORLD_GET_COMPASS_MAP_POS,
-		uv0.WORLD_GET_SLG_TILE_POS,
-		uv0.WORLD_GET_SCANNER_POS,
-		uv0.WORLD_OPEN_MAP_OVERVIEW,
-		uv0.WORLD_SHOW_MARGIN,
-		uv0.WORLD_SCANNER_DISPLAY,
-		uv0.WORLD_OPEN_TRANSPORT_POS,
-		uv0.WORLD_SELECT_MODEL_MAP,
-		uv0.WORLD_FOCUS_EDGE,
-		uv0.WORLD_FOCUS_EVENT,
-		uv0.WORLD_SCANNER_EVENT,
-		uv0.WORLD_HELP_EVENT,
-		uv0.WORLD_RECALL
-	}
-end
-
-function slot0.WorldGuiderNotifyHandler(slot0, slot1, slot2, slot3)
-	if slot1 == uv0.WORLD_HIDE_UI then
-		if slot2.type == 1 then
-			slot3:HideMapRightCompass()
-		elseif slot2.type == 2 then
-			slot3:HideMapRightMemo()
-		elseif slot2.type == 3 then
+slot1 = {
+	[slot0.WORLD_HIDE_UI] = function (slot0, slot1, slot2)
+		if slot1.type == 1 then
+			slot2:HideMapRightCompass()
+		elseif slot1.type == 2 then
+			slot2:HideMapRightMemo()
+		elseif slot1.type == 3 then
 			-- Nothing
-		elseif slot2.type == 4 then
-			slot3:HideOverall()
+		elseif slot1.type == 4 then
+			slot2:HideOverall()
 		end
-	elseif slot1 == uv0.WORLD_GET_COMPASS_POS then
-		slot3:GetCompassGridPos(slot2.row, slot2.column, slot2.cachedIndex)
-	elseif slot1 == uv0.WORLD_GET_COMPASS_MAP_POS then
-		slot3:GetEntranceTrackMark(slot2.mapId, slot2.cachedIndex)
-	elseif slot1 == uv0.WORLD_GET_SLG_TILE_POS then
-		slot3:GetSlgTilePos(slot2.row, slot2.column, slot2.cachedIndex)
-	elseif slot1 == uv0.WORLD_GET_SCANNER_POS then
-		slot3:GetScannerPos(slot2 and slot2.cachedIndex or 1)
-	elseif slot1 == uv0.WORLD_OPEN_MAP_OVERVIEW then
-		slot3:Op("OpShowMarkOverview", {
-			ids = slot2.mapIds
+	end,
+	[slot0.WORLD_GET_COMPASS_POS] = function (slot0, slot1, slot2)
+		slot2:GetCompassGridPos(slot1.row, slot1.column, slot1.cachedIndex)
+	end,
+	[slot0.WORLD_GET_COMPASS_MAP_POS] = function (slot0, slot1, slot2)
+		slot2:GetEntranceTrackMark(slot1.mapId, slot1.cachedIndex)
+	end,
+	[slot0.WORLD_GET_SLG_TILE_POS] = function (slot0, slot1, slot2)
+		slot2:GetSlgTilePos(slot1.row, slot1.column, slot1.cachedIndex)
+	end,
+	[slot0.WORLD_GET_SCANNER_POS] = function (slot0, slot1, slot2)
+		slot2:GetScannerPos(slot1 and slot1.cachedIndex or 1)
+	end,
+	[slot0.WORLD_OPEN_MAP_OVERVIEW] = function (slot0, slot1, slot2)
+		slot2:Op("OpShowMarkOverview", {
+			ids = slot1.mapIds
 		})
-	elseif slot1 == uv0.WORLD_SHOW_MARGIN then
-		slot3:ShowMargin(slot2.tdType)
-	elseif slot1 == uv0.WORLD_SCANNER_DISPLAY then
-		if slot2.open == 1 then
-			slot3:OnLongPressMap(slot2.row, slot2.column)
+	end,
+	[slot0.WORLD_SHOW_MARGIN] = function (slot0, slot1, slot2)
+		slot2:ShowMargin(slot1.tdType)
+	end,
+	[slot0.WORLD_SCANNER_DISPLAY] = function (slot0, slot1, slot2)
+		if slot1.open == 1 then
+			slot2:OnLongPressMap(slot1.row, slot1.column)
 		else
-			slot3:HideScannerPanel()
+			slot2:HideScannerPanel()
 		end
-	elseif slot1 == uv0.WORLD_OPEN_TRANSPORT_POS then
-		slot3:EnterTransportWorld()
-	elseif slot1 == uv0.WORLD_SELECT_MODEL_MAP then
-		slot3:GuideSelectModelMap(slot2.mapId)
-	elseif slot1 == uv0.WORLD_FOCUS_EDGE then
-		slot3:Op("OpMoveCameraTarget", slot2.line, slot2.stayTime)
-	elseif slot1 == uv0.WORLD_FOCUS_EVENT then
-		slot3:Op("OpMoveCamera", slot2.eventId, slot2.stayTime)
-	elseif slot1 == uv0.WORLD_SCANNER_EVENT then
-		slot3:GuideShowScannerEvent(slot2.eventId)
-	elseif slot1 == uv0.WORLD_HELP_EVENT then
-		slot3:emit(WorldMediator.OnOpenLayer, Context.New({
+	end,
+	[slot0.WORLD_OPEN_TRANSPORT_POS] = function (slot0, slot1, slot2)
+		slot2:EnterTransportWorld()
+	end,
+	[slot0.WORLD_SELECT_MODEL_MAP] = function (slot0, slot1, slot2)
+		slot2:GuideSelectModelMap(slot1.mapId)
+	end,
+	[slot0.WORLD_FOCUS_EDGE] = function (slot0, slot1, slot2)
+		slot2:Op("OpMoveCameraTarget", slot1.line, slot1.stayTime)
+	end,
+	[slot0.WORLD_FOCUS_EVENT] = function (slot0, slot1, slot2)
+		slot2:Op("OpMoveCamera", slot1.eventId, slot1.stayTime)
+	end,
+	[slot0.WORLD_SCANNER_EVENT] = function (slot0, slot1, slot2)
+		slot2:GuideShowScannerEvent(slot1.eventId)
+	end,
+	[slot0.WORLD_HELP_EVENT] = function (slot0, slot1, slot2)
+		slot2:emit(WorldMediator.OnOpenLayer, Context.New({
 			mediator = WorldHelpMediator,
 			viewComponent = WorldHelpLayer,
 			data = {
-				titleId = slot2.titleId,
-				pageId = slot2.pageId
+				titleId = slot1.titleId,
+				pageId = slot1.pageId
 			}
 		}))
-	elseif slot1 == uv0.WORLD_RECALL then
-		slot3:Op("OpInteractive")
+	end,
+	[slot0.WORLD_RECALL] = function (slot0, slot1, slot2)
+		slot2:Op("OpInteractive")
 	end
+}
+
+function slot0.GetWorldGuiderNotifies(slot0)
+	return underscore.keys(uv0)
+end
+
+function slot0.WorldGuiderNotifyHandler(slot0, slot1, slot2, slot3)
+	switch(slot1, uv0, nil, slot1, slot2, slot3)
 end
 
 return slot0

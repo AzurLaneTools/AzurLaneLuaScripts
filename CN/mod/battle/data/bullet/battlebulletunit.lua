@@ -324,6 +324,10 @@ function slot10.GetWeaponAtkAttr(slot0)
 	return slot0._weapon:GetAtkAttrTrasnform(slot0:GetWeaponHostAttr()) and slot3 or uv0.Battle.BattleAttr.GetAtkAttrByType(slot1, slot0:GetWeaponTempData().attack_attribute)
 end
 
+function slot10.GetWeaponCardPuzzleEnhance(slot0)
+	return slot0._weapon:GetCardPuzzleDamageEnhance()
+end
+
 function slot10.SetDamageEnhance(slot0, slot1)
 	slot0._dmgEnhanceRate = slot1
 end

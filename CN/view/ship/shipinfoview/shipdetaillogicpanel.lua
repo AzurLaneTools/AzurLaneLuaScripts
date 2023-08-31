@@ -14,7 +14,8 @@ slot1 = {
 	ammo = AttributeType.Ammo,
 	hunting_range = AttributeType.HuntingRange,
 	luck = AttributeType.Luck,
-	consume = AttributeType.Expend
+	consume = AttributeType.Expend,
+	speed = AttributeType.Speed
 }
 slot2 = {
 	us = {
@@ -23,6 +24,12 @@ slot2 = {
 				134,
 				-260,
 				134,
+				-260
+			},
+			hunting_range = {
+				622,
+				-260,
+				639,
 				-260
 			}
 		},
@@ -39,6 +46,7 @@ slot2 = {
 			"antisub",
 			"oxy_max",
 			"ammo",
+			"speed",
 			"hunting_range",
 			"luck"
 		},
@@ -53,34 +61,11 @@ slot2 = {
 				-260,
 				151,
 				-260
-			}
-		},
-		sort_index = {
-			"durability",
-			"armor",
-			"reload",
-			"cannon",
-			"torpedo",
-			"motion",
-			"antiaircraft",
-			"air",
-			"consume",
-			"antisub",
-			"oxy_max",
-			"ammo",
-			"hunting_range",
-			"luck"
-		},
-		hide = {
-			"hit"
-		}
-	},
-	kr = {
-		prop_ignore = {
-			luck = {
-				137,
+			},
+			hunting_range = {
+				622,
 				-260,
-				151,
+				639,
 				-260
 			}
 		},
@@ -97,6 +82,43 @@ slot2 = {
 			"antisub",
 			"oxy_max",
 			"ammo",
+			"speed",
+			"hunting_range",
+			"luck"
+		},
+		hide = {
+			"hit"
+		}
+	},
+	kr = {
+		prop_ignore = {
+			luck = {
+				137,
+				-260,
+				151,
+				-260
+			},
+			hunting_range = {
+				622,
+				-260,
+				639,
+				-260
+			}
+		},
+		sort_index = {
+			"durability",
+			"armor",
+			"reload",
+			"cannon",
+			"torpedo",
+			"motion",
+			"antiaircraft",
+			"air",
+			"consume",
+			"antisub",
+			"oxy_max",
+			"ammo",
+			"speed",
 			"hunting_range",
 			"luck"
 		},
@@ -117,6 +139,12 @@ slot2 = {
 				-260,
 				431,
 				-260
+			},
+			hunting_range = {
+				622,
+				-260,
+				639,
+				-260
 			}
 		},
 		sort_index = {
@@ -132,6 +160,7 @@ slot2 = {
 			"antisub",
 			"oxy_max",
 			"ammo",
+			"speed",
 			"hunting_range",
 			"luck",
 			"consume"

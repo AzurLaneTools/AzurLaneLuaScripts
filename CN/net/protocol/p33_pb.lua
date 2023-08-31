@@ -77,7 +77,7 @@ slot2 = {
 	WORLDINFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_SUBMARINE_STATE_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ITEM_LIST_FIELD = slot0.FieldDescriptor(),
-	WORLDINFO_SHIP_IN_PORT_FIELD = slot0.FieldDescriptor(),
+	WORLDINFO_GOODS_LIST_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ACTION_POWER_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_ACTION_POWER_EXTRA_FIELD = slot0.FieldDescriptor(),
 	WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
@@ -184,6 +184,8 @@ slot2 = {
 	CS_33401_MAP_ID_FIELD = slot0.FieldDescriptor(),
 	SC_33402_PORT_FIELD = slot0.FieldDescriptor(),
 	CS_33403_SHOP_ID_FIELD = slot0.FieldDescriptor(),
+	CS_33403_SHOP_TYPE_FIELD = slot0.FieldDescriptor(),
+	CS_33403_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_33404_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_33404_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_33405_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
@@ -1199,16 +1201,16 @@ slot2.WORLDINFO_ITEM_LIST_FIELD.default_value = {}
 slot2.WORLDINFO_ITEM_LIST_FIELD.message_type = WORLD_ITEM_INFO
 slot2.WORLDINFO_ITEM_LIST_FIELD.type = 11
 slot2.WORLDINFO_ITEM_LIST_FIELD.cpp_type = 10
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.name = "ship_in_port"
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.full_name = "p33.worldinfo.ship_in_port"
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.number = 9
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.index = 8
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.label = 3
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.has_default_value = false
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.default_value = {}
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.message_type = SHIPINCHAPTER
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.type = 11
-slot2.WORLDINFO_SHIP_IN_PORT_FIELD.cpp_type = 10
+slot2.WORLDINFO_GOODS_LIST_FIELD.name = "goods_list"
+slot2.WORLDINFO_GOODS_LIST_FIELD.full_name = "p33.worldinfo.goods_list"
+slot2.WORLDINFO_GOODS_LIST_FIELD.number = 9
+slot2.WORLDINFO_GOODS_LIST_FIELD.index = 8
+slot2.WORLDINFO_GOODS_LIST_FIELD.label = 3
+slot2.WORLDINFO_GOODS_LIST_FIELD.has_default_value = false
+slot2.WORLDINFO_GOODS_LIST_FIELD.default_value = {}
+slot2.WORLDINFO_GOODS_LIST_FIELD.message_type = GOODS_INFO
+slot2.WORLDINFO_GOODS_LIST_FIELD.type = 11
+slot2.WORLDINFO_GOODS_LIST_FIELD.cpp_type = 10
 slot2.WORLDINFO_ACTION_POWER_FIELD.name = "action_power"
 slot2.WORLDINFO_ACTION_POWER_FIELD.full_name = "p33.worldinfo.action_power"
 slot2.WORLDINFO_ACTION_POWER_FIELD.number = 11
@@ -1325,7 +1327,7 @@ WORLDINFO.fields = {
 	slot2.WORLDINFO_TASK_LIST_FIELD,
 	slot2.WORLDINFO_SUBMARINE_STATE_FIELD,
 	slot2.WORLDINFO_ITEM_LIST_FIELD,
-	slot2.WORLDINFO_SHIP_IN_PORT_FIELD,
+	slot2.WORLDINFO_GOODS_LIST_FIELD,
 	slot2.WORLDINFO_ACTION_POWER_FIELD,
 	slot2.WORLDINFO_ACTION_POWER_EXTRA_FIELD,
 	slot2.WORLDINFO_LAST_RECOVER_TIMESTAMP_FIELD,
@@ -2560,12 +2562,32 @@ slot2.CS_33403_SHOP_ID_FIELD.has_default_value = false
 slot2.CS_33403_SHOP_ID_FIELD.default_value = 0
 slot2.CS_33403_SHOP_ID_FIELD.type = 13
 slot2.CS_33403_SHOP_ID_FIELD.cpp_type = 3
+slot2.CS_33403_SHOP_TYPE_FIELD.name = "shop_type"
+slot2.CS_33403_SHOP_TYPE_FIELD.full_name = "p33.cs_33403.shop_type"
+slot2.CS_33403_SHOP_TYPE_FIELD.number = 2
+slot2.CS_33403_SHOP_TYPE_FIELD.index = 1
+slot2.CS_33403_SHOP_TYPE_FIELD.label = 2
+slot2.CS_33403_SHOP_TYPE_FIELD.has_default_value = false
+slot2.CS_33403_SHOP_TYPE_FIELD.default_value = 0
+slot2.CS_33403_SHOP_TYPE_FIELD.type = 13
+slot2.CS_33403_SHOP_TYPE_FIELD.cpp_type = 3
+slot2.CS_33403_COUNT_FIELD.name = "count"
+slot2.CS_33403_COUNT_FIELD.full_name = "p33.cs_33403.count"
+slot2.CS_33403_COUNT_FIELD.number = 3
+slot2.CS_33403_COUNT_FIELD.index = 2
+slot2.CS_33403_COUNT_FIELD.label = 2
+slot2.CS_33403_COUNT_FIELD.has_default_value = false
+slot2.CS_33403_COUNT_FIELD.default_value = 0
+slot2.CS_33403_COUNT_FIELD.type = 13
+slot2.CS_33403_COUNT_FIELD.cpp_type = 3
 CS_33403.name = "cs_33403"
 CS_33403.full_name = "p33.cs_33403"
 CS_33403.nested_types = {}
 CS_33403.enum_types = {}
 CS_33403.fields = {
-	slot2.CS_33403_SHOP_ID_FIELD
+	slot2.CS_33403_SHOP_ID_FIELD,
+	slot2.CS_33403_SHOP_TYPE_FIELD,
+	slot2.CS_33403_COUNT_FIELD
 }
 CS_33403.is_extendable = false
 CS_33403.extensions = {}

@@ -53,8 +53,6 @@ function slot0.AddShipWithSpecialPosition(slot0, slot1)
 end
 
 function slot0.ShipEnterFeast(slot0, slot1)
-	print("***************")
-
 	if slot0.storey:GetShip(slot1) then
 		slot2:EnterFeast()
 	end

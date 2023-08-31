@@ -5669,7 +5669,7 @@ pg.base.ship_skin_template_3 = {
 	},
 	[105119] = {
 		ship_group = 10511,
-		name = "西弗吉尼亚·改",
+		name = "西弗吉尼亚.改",
 		hand_id = 1,
 		bgm = "",
 		l2d_drag_rate = "",

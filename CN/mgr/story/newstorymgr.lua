@@ -418,11 +418,16 @@ function slot0.CheckResDownload(slot0, slot1, slot2)
 	slot3 = slot0:_GetStoryPaintingsByName(slot1)
 
 	originalPrint("start download res " .. table.concat(slot3, ","))
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot3) do
+		PaintingConst.AddPaintingNameWithFilteMap(slot5, slot10)
+	end
+
 	PaintingConst.PaintingDownload({
 		isShowBox = true,
-		paintingNameList = _.map(slot3, function (slot0)
-			return "painting/" .. slot0
-		end),
+		paintingNameList = slot5,
 		finishFunc = slot2
 	})
 end
@@ -634,7 +639,7 @@ function slot0.Clear(slot0)
 
 	slot0.optionSelCodes = nil
 
-	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	pg.m02:sendNotification(GAME.STORY_END)
 
 	if slot0.isOpenMsgbox then

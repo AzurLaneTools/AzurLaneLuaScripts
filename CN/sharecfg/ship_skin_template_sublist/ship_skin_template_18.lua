@@ -10932,10 +10932,10 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
-	[9703010] = {
-		ship_group = 970301,
-		name = "特伦托·META",
-		hand_id = 1,
+	[9702050] = {
+		ship_group = 970205,
+		name = "{namecode:293}",
+		hand_id = 2,
 		bgm = "",
 		l2d_drag_rate = "",
 		illustrator2 = -1,
@@ -10943,7 +10943,7 @@ pg.base.ship_skin_template_18 = {
 		l2d_ignore_drag = 0,
 		group_index = 0,
 		shop_id = 0,
-		painting = "teluntuo_alter",
+		painting = "shentong_alter",
 		illustrator = -1,
 		l2d_voice_calibrate = "",
 		shop_type_id = 0,
@@ -10952,14 +10952,14 @@ pg.base.ship_skin_template_18 = {
 		bg = "",
 		spine_action_offset = false,
 		skin_type = -1,
-		id = 9703010,
+		id = 9702050,
 		voice_actor_2 = -1,
-		prefab = "teluntuo_alter",
+		prefab = "shentong_alter",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "重巡洋舰特伦托，将在接下来的时间里辅佐您的工作，指挥官。如果我的出现能帮到您的话，那就再好不过了。",
-		voice_actor = 224,
+		desc = "轻巡洋舰{namecode:39}号，向你报到。你呼唤我，是希望我能够帮助你么？……我明白了，愿我的计策能够为你的舰队尽上微薄之力。",
+		voice_actor = -1,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -11000,29 +11000,29 @@ pg.base.ship_skin_template_18 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.357,
-					0.865,
+					1.1,
+					0.998,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.365,
-					0.856,
+					1.15,
+					1.013,
 					0
 				}
 			},
 			torpedo = {
 				{
 					0,
-					-0.008,
+					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.672,
-					1.353,
+					1.31,
+					1.3,
 					0
 				}
 			}
@@ -11034,8 +11034,8 @@ pg.base.ship_skin_template_18 = {
 					{
 						"smoke",
 						{
-							-0.806,
-							1.9,
+							-0.4,
+							2.323,
 							0
 						}
 					}
