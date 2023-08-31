@@ -152,6 +152,28 @@ pg.activity_workbench_item = {
 			recipeid = 9
 		}
 	},
+	[14] = {
+		rarity = 4,
+		name = "특별 초대장",
+		display = "모항 연회의 초대장. 함선에게 보내면 호화로운 보상을 획득할 수 있다!",
+		id = 14,
+		icon = "yanhuiyaoyue_1",
+		get_access = {
+			"획득 방법: 미니 게임 「쥬쥬 캐슬」",
+			minigame = 56
+		}
+	},
+	[15] = {
+		rarity = 4,
+		name = "연회 선물",
+		display = "파티의 기념 아이템. 즐거운 한때를 추억하게 해준다.",
+		id = 15,
+		icon = "yanhuiyaoyue_2",
+		get_access = {
+			"획득 방법: 미니 게임 「쥬쥬 캐슬」",
+			minigame = 56
+		}
+	},
 	all = {
 		1,
 		2,
@@ -164,6 +186,8 @@ pg.activity_workbench_item = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15
 	}
 }

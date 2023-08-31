@@ -2180,6 +2180,12 @@ function slot0.hasProposeSkin(slot0)
 		end
 	end
 
+	for slot7, slot8 in ipairs(slot1:GetShareSkinsForShip(slot0)) do
+		if slot8.skin_type == ShipSkin.SKIN_TYPE_PROPOSE then
+			return true
+		end
+	end
+
 	return false
 end
 

@@ -97,6 +97,7 @@ slot0.ACTIVITY_TYPE_HOTSPRING_2 = 100
 slot0.ACTIVITY_TYPE_SURVEY = 101
 slot0.ACTIVITY_TYPE_CARD_PUZZLE = 102
 slot0.ACTIVITY_TYPE_LINK_COLLECT = 103
+slot0.ACTIVITY_TYPE_FEAST = 104
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -134,8 +135,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2023,
-			6,
-			8
+			8,
+			31
 		},
 		{
 			0,
@@ -146,8 +147,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2023,
-			6,
-			28
+			9,
+			13
 		},
 		{
 			23,

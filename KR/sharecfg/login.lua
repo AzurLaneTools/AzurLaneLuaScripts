@@ -843,6 +843,75 @@ pg.login = {
 			}
 		}
 	},
+	[31] = {
+		id = 31,
+		login_static = "login_0817_2",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
+		login_cri = "loginbg",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	[32] = {
+		id = 32,
+		op_play = 1,
+		login_static = "login_0817_1",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[3001] = {
 		id = 3001,
 		op_play = 1,
@@ -926,6 +995,8 @@ pg.login = {
 		28,
 		29,
 		30,
+		31,
+		32,
 		3001
 	}
 }

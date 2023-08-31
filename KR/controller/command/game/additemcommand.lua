@@ -258,6 +258,13 @@ function slot0.execute(slot0, slot1)
 				end_time = slot4 + pg.TimeMgr.GetInstance():GetServerTime()
 			}))
 		end
+	elseif slot2.dropType == DROP_TYPE_BUFF then
+		assert(pg.benefit_buff_template[slot2.id] and slot4.act_id > 0, "should exist act id")
+
+		if getProxy(ActivityProxy):getActivityById(slot4.act_id) and not slot5:isEnd() then
+			slot5:AddBuff(ActivityBuff.New(slot5.id, slot3, pg.TimeMgr.GetInstance():GetServerTime() + slot4.max_time))
+			getProxy(ActivityProxy):updateActivity(slot5)
+		end
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot2.dropType then
 		slot3 = getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot2.dropType].activity_id)
 

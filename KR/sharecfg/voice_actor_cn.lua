@@ -1471,5 +1471,21 @@ pg.voice_actor_CN = {
 	[376] = {
 		code = 376,
 		actor_name = "타카하시 카린"
+	},
+	[377] = {
+		code = 377,
+		actor_name = "Yurina Amami"
+	},
+	[378] = {
+		code = 378,
+		actor_name = "Aya Yamane"
+	},
+	[379] = {
+		code = 379,
+		actor_name = "Fuuka Izumi"
+	},
+	[380] = {
+		code = 380,
+		actor_name = "Yuka Iwahashi"
 	}
 }

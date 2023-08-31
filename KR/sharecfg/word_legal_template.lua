@@ -1613,6 +1613,13 @@ function temp()
 				}
 			}
 		},
+		["레"] = {
+			["망"] = {
+				["소"] = {
+					this = true
+				}
+			}
+		},
 		["라"] = {
 			["우"] = {
 				["디"] = {
@@ -1726,6 +1733,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["옹"] = {
+			this = true
 		}
 	}
 end
@@ -2698,7 +2708,12 @@ function temp()
 					["지"] = {
 						["니"] = {
 							["아"] = {
-								this = true
+								this = true,
+								["·"] = {
+									["改"] = {
+										this = true
+									}
+								}
 							}
 						}
 					}
@@ -5550,12 +5565,51 @@ end
 temp()
 
 function temp()
+	uv0["기"] = {
+		["샹"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["쉬"] = {
+		["프"] = {
+			["랑"] = {
+				this = true
+			}
+		},
 		["르"] = {
 			["쿠"] = {
 				["프"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["팽"] = {
+		["르"] = {
+			["베"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["케"] = {
+		["르"] = {
+			["생"] = {
+				this = true
 			}
 		}
 	}
@@ -5626,6 +5680,20 @@ function temp()
 		["지"] = {
 			["아"] = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["생"] = {
+		[" "] = {
+			["루"] = {
+				["이"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -5833,20 +5901,6 @@ function temp()
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["생"] = {
-		[" "] = {
-			["루"] = {
-				["이"] = {
-					this = true
 				}
 			}
 		}

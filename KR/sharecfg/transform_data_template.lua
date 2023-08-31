@@ -138,6 +138,18 @@ pg.transform_data_template = setmetatable({
 		5309,
 		5310,
 		5311,
+		6201,
+		6202,
+		6203,
+		6204,
+		6205,
+		6206,
+		6207,
+		6208,
+		6209,
+		6210,
+		6211,
+		6212,
 		7001,
 		7002,
 		7003,
@@ -6275,6 +6287,473 @@ pg.base.transform_data_template = {
 		},
 		gear_score = {
 			50
+		}
+	},
+	[6201] = {
+		use_gold = 300,
+		name = "선체 개수Ⅰ",
+		star_limit = 2,
+		id = 6201,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[6202] = {
+		use_gold = 400,
+		name = "명중 강화 I",
+		star_limit = 2,
+		id = 6202,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "",
+		icon = "rl_1",
+		skill_id = 0,
+		condition_id = {
+			6201
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[6203] = {
+		use_gold = 600,
+		name = "주포 개수Ⅰ",
+		star_limit = 3,
+		id = 6203,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "",
+		icon = "mgup_1",
+		skill_id = 0,
+		condition_id = {
+			6201
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6204] = {
+		use_gold = 800,
+		name = "포격 강화Ⅰ",
+		star_limit = 3,
+		id = 6204,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "",
+		icon = "cn_1",
+		skill_id = 0,
+		condition_id = {
+			6203
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6205] = {
+		use_gold = 1000,
+		name = "대공포 강화Ⅰ",
+		star_limit = 4,
+		id = 6205,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "",
+		icon = "aaup_1",
+		skill_id = 0,
+		condition_id = {
+			6203
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6206] = {
+		use_gold = 1200,
+		name = "대공 강화Ⅰ",
+		star_limit = 4,
+		id = 6206,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "",
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			6205
+		},
+		effect = {
+			{
+				antiaircraft = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6207] = {
+		use_gold = 1500,
+		name = "선체 개수Ⅱ",
+		star_limit = 4,
+		id = 6207,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			6205
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			},
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[6208] = {
+		use_gold = 1800,
+		name = "명중 강화Ⅱ",
+		star_limit = 4,
+		id = 6208,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "",
+		icon = "rl_2",
+		skill_id = 0,
+		condition_id = {
+			6202,
+			6207
+		},
+		effect = {
+			{
+				hit = 5
+			},
+			{
+				hit = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			},
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[6209] = {
+		use_gold = 2000,
+		name = "주포 개수Ⅱ",
+		star_limit = 5,
+		id = 6209,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "",
+		icon = "mgup_2",
+		skill_id = 0,
+		condition_id = {
+			6207
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					1
+				}
+			},
+			{
+				{
+					18023,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[6210] = {
+		use_gold = 2500,
+		name = "포격 강화Ⅱ",
+		star_limit = 5,
+		id = 6210,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "",
+		icon = "cn_2",
+		skill_id = 0,
+		condition_id = {
+			6208,
+			6209
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					1
+				},
+				{
+					17003,
+					5
+				}
+			},
+			{
+				{
+					18023,
+					2
+				},
+				{
+					17003,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[6211] = {
+		use_gold = 3000,
+		name = "근대화 개수",
+		star_limit = 5,
+		id = 6211,
+		max_level = 1,
+		skin_id = 105119,
+		use_ship = 1,
+		level_limit = 85,
+		descrip = "개조(근대화 개수) 완료, 대공 +20, 장전 +25\n스킬 [BIG SEVEN]이 [BIG SEVEN·웨스트버지니아]으로 강화됨",
+		icon = "mt_yellow",
+		skill_id = 0,
+		condition_id = {
+			6206,
+			6209
+		},
+		effect = {
+			{
+				reload = 25,
+				antiaircraft = 20
+			}
+		},
+		ship_id = {
+			{
+				105114,
+				105234
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[6212] = {
+		use_gold = 3000,
+		name = "전술 확충",
+		star_limit = 5,
+		id = 6212,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		descrip = "",
+		icon = "skill_red",
+		skill_id = 16950,
+		condition_id = {
+			6211
+		},
+		effect = {
+			{
+				skill_id = 16950
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
 		}
 	},
 	[7001] = {

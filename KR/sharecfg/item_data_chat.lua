@@ -72,6 +72,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>무인도의 멋진 풍경을 만끽해 보세요~!</color>\n한정 이벤트「바닷바람과 여름날의 무인도」를 통해 획득",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "화려한 초대",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>모항 파티 참가 기념. 화려하게 함선들에게 초대장을 전달한 지휘관에게 바친다.</color>\n<color=#A7A7AAFF>\"연회장\" 이벤트 참가 보상.</color>",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "한계 챌린지·쌍둥이 자리",
@@ -106,6 +114,7 @@ pg.item_data_chat = {
 		300,
 		301,
 		602,
+		603,
 		10001,
 		10002,
 		10003

@@ -11,7 +11,6 @@ slot5 = ResourceMgr.Inst
 function slot0.Ctor(slot0)
 	slot0.root = GameObject.New("__Pool__").transform
 	slot0.pools_plural = {}
-	slot0.pools_single = {}
 	slot0.pools_pack = {}
 	slot0.callbacks = {}
 	slot0.pluralIndex = 0
@@ -221,12 +220,6 @@ function slot0.ExcessSpineChar(slot0)
 			slot0.pools_plural[slot8]:Clear()
 
 			slot0.pools_plural[slot8] = nil
-
-			if slot0.pools_single[slot8] then
-				slot10:Clear()
-
-				slot0.pools_single[slot8] = nil
-			end
 		end
 	end
 end
@@ -234,23 +227,13 @@ end
 function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
 	slot4, slot5 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
 
-	slot0:FromSingle(slot4, slot5 .. "_SkeletonData", slot2, slot3)
-end
-
-function slot0.ClearSpineSkel(slot0, slot1)
-	slot2, slot3 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
-
-	if slot0.pools_single[slot2 .. slot3 .. "_SkeletonData"] then
-		slot0.pools_single[slot4]:Clear()
-
-		slot0.pools_single[slot4] = nil
-	end
+	slot0:LoadAsset(slot4, slot5 .. "_SkeletonData", slot2, typeof(Object), function (slot0)
+		uv0(slot0)
+	end, true)
 end
 
 function slot0.IsSpineSkelCached(slot0, slot1)
-	slot2, slot3 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
-
-	return slot0.pools_single[slot2 .. slot3 .. "_SkeletonData"] ~= nil
+	return false
 end
 
 slot6 = {
@@ -728,28 +711,6 @@ function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		end, slot6)
 	else
 		slot8()
-	end
-end
-
-function slot0.FromSingle(slot0, slot1, slot2, slot3, slot4)
-	function slot6()
-		slot0 = uv0.pools_single[uv1]
-		slot0.index = uv0.singleIndex
-		uv0.singleIndex = uv0.singleIndex + 1
-
-		uv2(slot0.prefab)
-	end
-
-	if not slot0.pools_single[slot1 .. slot2] then
-		slot0:LoadAsset(slot1, slot2, slot3, typeof(Object), function (slot0)
-			if not uv0.pools_single[uv1] then
-				uv0.pools_single[uv1] = uv2.New(slot0)
-			end
-
-			uv3()
-		end, true)
-	else
-		slot6()
 	end
 end
 

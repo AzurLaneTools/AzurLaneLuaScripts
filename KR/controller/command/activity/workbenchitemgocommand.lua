@@ -78,6 +78,8 @@ function slot0.execute(slot0, slot1)
 				}
 			})
 		})
+	elseif slot5.minigame then
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot5.minigame)
 	end
 end
 

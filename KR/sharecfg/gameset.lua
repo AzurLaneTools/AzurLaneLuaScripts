@@ -182,7 +182,7 @@ pg.gameset = {
 	},
 	equip_select_limit = {
 		description = "",
-		key_value = 40
+		key_value = 0
 	},
 	ship_select_limit = {
 		description = "",
@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 359
+		key_value = 365
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1902,7 +1902,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 360
+		key_value = 366
 	},
 	order_pt_max = {
 		key_value = 0,

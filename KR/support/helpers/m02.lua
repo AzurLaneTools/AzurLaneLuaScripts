@@ -866,11 +866,13 @@ function updateItem(slot0, slot1, slot2)
 	slot6 = findTF(slot0, "icon_bg/icon")
 	slot7 = slot1.icon or slot3.icon
 
-	if slot1.extra and slot3.type == Item.LOVE_LETTER_TYPE then
+	if slot3.type == Item.LOVE_LETTER_TYPE then
+		assert(slot1.extra, "without extra data")
+
 		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
-	setImageSprite(slot6, GetSpriteFromAtlas(slot7, ""))
+	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
 	setIconStars(slot0, false)
 	setIconName(slot0, slot3.name, slot2)
 	setIconColorful(slot0, slot3.rarity + 1, slot2)
@@ -945,9 +947,9 @@ function updateShip(slot0, slot1, slot2)
 		slot4 = "unknown_small"
 	end
 
-	if findTF(slot0, "icon_bg/new") and not slot2.isTimeLimit then
+	if findTF(slot0, "icon_bg/new") then
 		if slot2.isSkin then
-			setActive(slot5, not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot1.skinId))
+			setActive(slot5, not slot2.isTimeLimit and slot2.isNew)
 		else
 			setActive(slot5, slot1.virgin)
 		end
@@ -1185,6 +1187,8 @@ function getDropInfo(slot0)
 			table.insert(slot1, pg.ship_skin_template[slot8].name .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_EQUIPMENT_SKIN then
 			table.insert(slot1, pg.equip_skin_template[slot8].name .. "x" .. slot9)
+		elseif slot7 == DROP_TYPE_BUFF then
+			table.insert(slot1, pg.benefit_buff_template[slot8].name .. "x" .. slot9)
 		end
 	end
 
@@ -1280,10 +1284,11 @@ function updateDrop(slot0, slot1, slot2)
 		end,
 		[DROP_TYPE_SKIN] = function ()
 			uv0.isSkin = true
+			uv0.isNew = uv1.isNew
 
-			updateShip(uv1, Ship.New({
-				configId = tonumber(uv2.ship_group .. "1"),
-				skin_id = uv3.id
+			updateShip(uv2, Ship.New({
+				configId = tonumber(uv3.ship_group .. "1"),
+				skin_id = uv1.id
 			}), uv0)
 		end,
 		[DROP_TYPE_EQUIPMENT_SKIN] = function ()
@@ -1349,9 +1354,34 @@ function updateDrop(slot0, slot1, slot2)
 		end,
 		[DROP_TYPE_WORKBENCH_DROP] = function ()
 			WorkBenchItem.UpdateDrop(uv0, uv1.item, uv2)
+		end,
+		[DROP_TYPE_FEAST_DROP] = function ()
+			WorkBenchItem.UpdateDrop(uv0, WorkBenchItem.New({
+				configId = uv1.id,
+				count = uv1.count
+			}), uv2)
+		end,
+		[DROP_TYPE_BUFF] = function ()
+			updateBuff(uv0, uv1.id, uv2)
 		end
 	})
 	setIconCount(slot0, slot5 or slot1.count)
+end
+
+function updateBuff(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot3 = ItemRarity.Rarity2Print(ItemRarity.Gray)
+
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. slot3, findTF(slot0, "icon_bg"))
+
+	slot4 = pg.benefit_buff_template[slot1]
+
+	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
+	setText(findTF(slot0, "icon_bg/count"), 1)
+	GetImageSpriteFromAtlasAsync(slot4.icon, "", findTF(slot0, "icon_bg/icon"))
+	setIconStars(slot0, false)
+	setIconName(slot0, slot4.name, slot2)
+	setIconColorful(slot0, ItemRarity.Gold + 1, slot2)
 end
 
 slot7, slot8 = nil
@@ -1508,6 +1538,12 @@ function updateDropCfg(slot0)
 				configId = slot0.id
 			})
 			slot0.desc = slot0.item:GetDesc()
+
+			return slot0.cfg
+		end,
+		[DROP_TYPE_BUFF] = function (slot0)
+			slot0.cfg = pg.benefit_buff_template[slot0.id]
+			slot0.desc = slot0.cfg.desc
 
 			return slot0.cfg
 		end
@@ -1683,6 +1719,9 @@ function getDropRarity(slot0)
 		end,
 		[DROP_TYPE_WORLD_ITEM] = function ()
 			return pg.world_item_data_template[uv0.id].rarity
+		end,
+		[DROP_TYPE_BUFF] = function ()
+			return ItemRarity.Gold
 		end
 	}, function ()
 		return 1

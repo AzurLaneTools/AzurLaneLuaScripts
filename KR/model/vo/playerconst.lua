@@ -208,6 +208,18 @@ function slot3(slot0, slot1, slot2)
 					count = slot0.number or slot0.count
 				})
 			}
+		end,
+		[DROP_TYPE_SKIN] = function (slot0)
+			slot1 = Item.New({
+				type = slot0.type,
+				id = slot0.id,
+				count = slot0.number or slot0.count
+			})
+			slot1.isNew = not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot0.id)
+
+			return {
+				slot1
+			}
 		end
 	}
 

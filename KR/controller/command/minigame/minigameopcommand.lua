@@ -4,24 +4,28 @@ slot0.CMD_ULTIMATE = 2
 slot0.CMD_SPECIAL_GAME = 3
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = slot2.hubid
-	slot5 = slot2.args1
-	slot6 = 2
+	slot3 = slot1:getBody().id or 0
+	slot4 = slot2.hubid
+	slot6 = slot2.args1
+	slot7 = 3
 
-	if slot2.cmd == uv0.CMD_COMPLETE and slot6 > #slot5 then
-		for slot10 = #slot5, slot6 - 1 do
-			table.insert(slot5, 0)
+	if slot2.cmd == uv0.CMD_COMPLETE and slot7 > #slot6 then
+		for slot11 = #slot6, slot7 - 1 do
+			table.insert(slot6, 0)
+		end
+
+		if slot3 and slot3 > 0 then
+			slot6[3] = slot3
 		end
 	end
 
-	slot7 = slot2.cbFunc
-	slot8 = pg.ConnectionMgr.GetInstance()
+	slot8 = slot2.cbFunc
+	slot9 = pg.ConnectionMgr.GetInstance()
 
-	slot8:Send(26103, {
-		hubid = slot3,
-		cmd = slot4,
-		args1 = slot5
+	slot9:Send(26103, {
+		hubid = slot4,
+		cmd = slot5,
+		args1 = slot6
 	}, 26104, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(MiniGameProxy)

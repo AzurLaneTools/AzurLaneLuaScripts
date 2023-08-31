@@ -487,7 +487,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "열차 방송 시스템",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -499,7 +499,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "열차 방송 시스템",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

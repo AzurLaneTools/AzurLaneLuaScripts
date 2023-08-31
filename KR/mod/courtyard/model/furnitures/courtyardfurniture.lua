@@ -43,7 +43,15 @@ function slot0.InitSlots(slot0)
 		end
 
 		if type(slot0.config.followBone) == "table" then
-			slot0.slots[1]:SetFollower(slot0.config.followBone)
+			if type(slot0.config.followBone[1]) == "table" then
+				for slot4, slot5 in ipairs(slot0.config.followBone) do
+					if slot0.slots[slot4] then
+						slot6:SetFollower(slot5)
+					end
+				end
+			elseif type(slot0.config.followBone[1]) == "string" then
+				slot0.slots[1]:SetFollower(slot0.config.followBone)
+			end
 		elseif type(slot0.config.animator) == "table" then
 			for slot4, slot5 in ipairs(slot0.slots) do
 				slot5:SetAnimators(slot0.config.animator)
@@ -252,6 +260,14 @@ function slot0.GetTouchBg(slot0)
 	end
 end
 
+function slot0.TriggerTouchDefault(slot0)
+	if slot0:CanTouch() and slot0.config.spine[1][3][8] and slot0.config.spine[1][3][8] > 0 then
+		return true
+	end
+
+	return false
+end
+
 function slot0.GetTouchSound(slot0)
 	if slot0:CanTouch() then
 		if type(slot0.config.spine[1][3][4]) == "table" then
@@ -425,6 +441,12 @@ end
 
 function slot0.UpdateInteraction(slot0, ...)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_UPDATE_INTERACTION, ...)
+end
+
+function slot0.AnySlotIsUsing(slot0)
+	return _.any(slot0.slots, function (slot0)
+		return slot0:IsUsing()
+	end)
 end
 
 function slot0.ClearInteraction(slot0, slot1)

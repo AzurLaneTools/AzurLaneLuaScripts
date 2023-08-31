@@ -2,8 +2,8 @@ slot0 = class("CourtYardBridge")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.isSetup = false
-	slot0.controller = CourtYardController.New(slot1)
-	slot0.view = CourtYardView.New(slot0.controller:GetStorey())
+	slot0.controller = slot0:System2Controller(slot1.system, slot1)
+	slot0.view = CourtYardView.New(slot1.name, slot0.controller:GetStorey())
 
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
@@ -70,6 +70,14 @@ function slot0.Dispose(slot0)
 	end
 
 	slot0:Exit()
+end
+
+function slot0.System2Controller(slot0, slot1, slot2)
+	if slot1 == CourtYardConst.SYSTEM_FEAST then
+		return CourtYardFeastController.New(slot2)
+	else
+		return CourtYardController.New(slot2)
+	end
 end
 
 return slot0

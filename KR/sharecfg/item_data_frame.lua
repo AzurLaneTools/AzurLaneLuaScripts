@@ -399,10 +399,10 @@ pg.item_data_frame = {
 	[326] = {
 		time_limit_type = 0,
 		name = "무관의 성관",
-		gain_by = "",
+		gain_by = "어리석은 자의 천칭",
 		id = 326,
 		time_second = 0,
-		desc = "이벤트에서 획득 가능",
+		desc = "<color=#ffffff>\"성좌의 왕관을 쓰지 않더라도, 진정한 대의를 내세우는 자의 머리에는 승리라는 이름의 영광스러운 왕관이 내리리라.\"</color>\n\"어리석은 자의 천칭\" 참가 보상.",
 		scene = {}
 	},
 	[401] = {
@@ -457,6 +457,15 @@ pg.item_data_frame = {
 		id = 602,
 		time_second = 0,
 		desc = "<color=#ffffff>무인도의 멋진 풍경을 만끽해 보세요~!</color>\n한정 이벤트「바닷바람과 여름날의 무인도」를 통해 획득",
+		scene = {}
+	},
+	[603] = {
+		time_limit_type = 0,
+		name = "향기로운 엠블럼",
+		gain_by = "",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>모항 파티 참가 기념. 특별한 날에 참가한 모든 이에게 특별한 축복을! </color>\n\"연회장\" 이벤트 참가 보상.",
 		scene = {}
 	},
 	[10001] = {
@@ -538,6 +547,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		603,
 		10001,
 		10002,
 		10003

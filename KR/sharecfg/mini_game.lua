@@ -1874,6 +1874,58 @@ pg.mini_game = {
 		hub_id = 46,
 		request_data = 0
 	},
+	{
+		view_name = "CastleGameView",
+		name = "城堡挑战赛Q版小游戏",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 56,
+		hub_id = 47,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
 	[1001] = {
 		view_name = "GameRoomFushun3View",
 		name = "小游戏厅抚顺大冒险",
@@ -2066,6 +2118,7 @@ pg.mini_game = {
 		53,
 		54,
 		55,
+		56,
 		1001,
 		1002,
 		1003,

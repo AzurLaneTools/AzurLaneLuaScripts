@@ -10,6 +10,50 @@ function slot0.SetTimeScale(slot0, slot1)
 	slot0.timeScale = slot1
 end
 
+function slot0.moveLocal(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot0:DelayCall(slot5, function ()
+		LeanTween.moveLocal(uv0.gameObject, uv1, uv2 * uv3.timeScale):setFrom(uv4)
+
+		if uv5 then
+			slot0:setOnComplete(System.Action(uv5))
+		end
+
+		if uv6 then
+			slot0:setEase(uv6)
+		end
+
+		table.insert(uv3.tweens, uv0)
+	end)
+end
+
+function slot0.moveLocalPath(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	if #slot2 <= 3 then
+		slot0:moveLocal(slot1, slot2[1], slot2[#slot2], slot3, slot4, slot5, slot6)
+
+		return
+	end
+
+	slot7 = System.Array.CreateInstance(typeof(UnityEngine.Vector3), #slot2)
+
+	for slot11, slot12 in ipairs(slot2) do
+		slot7[slot11 - 1] = slot12
+	end
+
+	slot0:DelayCall(slot4, function ()
+		slot0 = LeanTween.moveLocal(uv0.gameObject, uv1, uv2 * uv3.timeScale)
+
+		if uv4 then
+			slot0:setOnComplete(System.Action(uv4))
+		end
+
+		if uv5 then
+			slot0:setEase(uv5)
+		end
+
+		table.insert(uv3.tweens, uv0)
+	end)
+end
+
 function slot0.TweenMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0:DelayCall(slot5, function ()
 		slot0 = LeanTween.move(rtf(uv0), uv1, uv2 * uv3.timeScale)

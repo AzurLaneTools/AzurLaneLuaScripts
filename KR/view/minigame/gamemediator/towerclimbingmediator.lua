@@ -44,7 +44,8 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = 9,
 			cmd = MiniGameOPCommand.CMD_COMPLETE,
-			args1 = {}
+			args1 = {},
+			id = MiniGameDataCreator.TowerClimbingGameID
 		})
 	end)
 	slot0:bind(uv0.ON_MODIFY_DATA, function (slot0, slot1)

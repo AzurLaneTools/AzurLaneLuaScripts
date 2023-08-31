@@ -870,7 +870,7 @@ return {
 			effects = {
 				{
 					active = true,
-					name = "miwu_02",
+					name = "miwu_01",
 					center = true
 				}
 			},

@@ -73099,6 +73099,549 @@ _G.pg.base.aircraft_template[162230] = {
 	}
 }
 
+_G.pg.base.aircraft_template[163041] = {
+	attack_power = 2,
+	name = "契卡洛夫技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "SU2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163041,
+	icon = "SU2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163042] = {
+	id = 163042,
+	name = "契卡洛夫技能轰炸机Lv2",
+	hp_growth = 1846,
+	base = 163041,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163052
+	}
+}
+
+_G.pg.base.aircraft_template[163043] = {
+	id = 163043,
+	name = "契卡洛夫技能轰炸机Lv3",
+	hp_growth = 2087,
+	base = 163041,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163053
+	}
+}
+
+_G.pg.base.aircraft_template[163044] = {
+	id = 163044,
+	name = "契卡洛夫技能轰炸机Lv4",
+	hp_growth = 2327,
+	base = 163041,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163054
+	}
+}
+
+_G.pg.base.aircraft_template[163045] = {
+	id = 163045,
+	name = "契卡洛夫技能轰炸机Lv5",
+	hp_growth = 2568,
+	base = 163041,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163055
+	}
+}
+
+_G.pg.base.aircraft_template[163046] = {
+	id = 163046,
+	name = "契卡洛夫技能轰炸机Lv6",
+	hp_growth = 2809,
+	base = 163041,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163056
+	}
+}
+
+_G.pg.base.aircraft_template[163047] = {
+	id = 163047,
+	name = "契卡洛夫技能轰炸机Lv7",
+	hp_growth = 3050,
+	base = 163041,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163057
+	}
+}
+
+_G.pg.base.aircraft_template[163048] = {
+	id = 163048,
+	name = "契卡洛夫技能轰炸机Lv8",
+	hp_growth = 3290,
+	base = 163041,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163058
+	}
+}
+
+_G.pg.base.aircraft_template[163049] = {
+	id = 163049,
+	name = "契卡洛夫技能轰炸机Lv9",
+	hp_growth = 3531,
+	base = 163041,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163059
+	}
+}
+
+_G.pg.base.aircraft_template[163050] = {
+	id = 163050,
+	name = "契卡洛夫技能轰炸机Lv10",
+	hp_growth = 3772,
+	base = 163041,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163060
+	}
+}
+
+_G.pg.base.aircraft_template[163061] = {
+	attack_power = 2,
+	name = "契卡洛夫技能鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "VIT2",
+	ACC_growth = 0,
+	crash_DMG = 480,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163061,
+	icon = "VIT2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 6,
+	hp_growth = 1459,
+	speed = 45,
+	max_hp = 38,
+	scale = 1,
+	weapon_ID = {
+		163071
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163062] = {
+	max_hp = 44,
+	hp_growth = 1678,
+	base = 163061,
+	id = 163062,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163072
+	}
+}
+
+_G.pg.base.aircraft_template[163063] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 163061,
+	id = 163063,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163073
+	}
+}
+
+_G.pg.base.aircraft_template[163064] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 163061,
+	id = 163064,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163074
+	}
+}
+
+_G.pg.base.aircraft_template[163065] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 163061,
+	id = 163065,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163075
+	}
+}
+
+_G.pg.base.aircraft_template[163066] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 163061,
+	id = 163066,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163076
+	}
+}
+
+_G.pg.base.aircraft_template[163067] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 163061,
+	id = 163067,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163077
+	}
+}
+
+_G.pg.base.aircraft_template[163068] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 163061,
+	id = 163068,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163078
+	}
+}
+
+_G.pg.base.aircraft_template[163069] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 163061,
+	id = 163069,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163079
+	}
+}
+
+_G.pg.base.aircraft_template[163070] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 163061,
+	id = 163070,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163080
+	}
+}
+
+_G.pg.base.aircraft_template[163081] = {
+	attack_power = 2,
+	name = "契卡洛夫技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "SU2",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163081,
+	icon = "SU2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163091
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163082] = {
+	id = 163082,
+	name = "契卡洛夫技能轰炸机Lv2",
+	hp_growth = 1846,
+	base = 163081,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163092
+	}
+}
+
+_G.pg.base.aircraft_template[163083] = {
+	id = 163083,
+	name = "契卡洛夫技能轰炸机Lv3",
+	hp_growth = 2087,
+	base = 163081,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163093
+	}
+}
+
+_G.pg.base.aircraft_template[163084] = {
+	id = 163084,
+	name = "契卡洛夫技能轰炸机Lv4",
+	hp_growth = 2327,
+	base = 163081,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163094
+	}
+}
+
+_G.pg.base.aircraft_template[163085] = {
+	id = 163085,
+	name = "契卡洛夫技能轰炸机Lv5",
+	hp_growth = 2568,
+	base = 163081,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163095
+	}
+}
+
+_G.pg.base.aircraft_template[163086] = {
+	id = 163086,
+	name = "契卡洛夫技能轰炸机Lv6",
+	hp_growth = 2809,
+	base = 163081,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163096
+	}
+}
+
+_G.pg.base.aircraft_template[163087] = {
+	id = 163087,
+	name = "契卡洛夫技能轰炸机Lv7",
+	hp_growth = 3050,
+	base = 163081,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163097
+	}
+}
+
+_G.pg.base.aircraft_template[163088] = {
+	id = 163088,
+	name = "契卡洛夫技能轰炸机Lv8",
+	hp_growth = 3290,
+	base = 163081,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163098
+	}
+}
+
+_G.pg.base.aircraft_template[163089] = {
+	id = 163089,
+	name = "契卡洛夫技能轰炸机Lv9",
+	hp_growth = 3531,
+	base = 163081,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163099
+	}
+}
+
+_G.pg.base.aircraft_template[163090] = {
+	id = 163090,
+	name = "契卡洛夫技能轰炸机Lv10",
+	hp_growth = 3772,
+	base = 163081,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163100
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
@@ -221633,6 +222176,1367 @@ _G.pg.base.aircraft_template[3059513] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3070007] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动A1A2】BOSS 迪洛伊 第四波 全屏白色羽毛 隐形飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3070007,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 1,
+	weapon_ID = {
+		3070008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3072007] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动C1C2】BOSS 迪洛伊 第四波 全屏白色羽毛 隐形飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 126,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3072007,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 30,
+	max_hp = 162,
+	scale = 1,
+	weapon_ID = {
+		3072008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3074007] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动SP】BOSS 审判机甲-支配 第二波 审判型舰载机",
+	type = 3,
+	accuracy = 35,
+	model_ID = "sairenfeiji_jiaotang",
+	ACC_growth = 0,
+	crash_DMG = 351,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3074007,
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 7600,
+	speed = 30,
+	max_hp = 800,
+	scale = 1,
+	weapon_ID = {
+		3074008,
+		3074009
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3071205] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动B3】BOSS 海洛芬特 大范围随机轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3071205,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3071206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3073205] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动D3】BOSS 海洛芬特 大范围随机轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3073205,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3260,
+	speed = 30,
+	max_hp = 202,
+	scale = 0.75,
+	weapon_ID = {
+		3073206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3075005] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动EX】BOSS 海洛芬特 大范围随机轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3075005,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 40,
+	max_hp = 5000,
+	scale = 0.75,
+	weapon_ID = {
+		3075006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3075205] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动剧情战】BOSS 海洛芬特 大范围随机轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_jiaohuang",
+	ACC_growth = 0,
+	crash_DMG = 50,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3075205,
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 40,
+	max_hp = 5000,
+	scale = 0.75,
+	weapon_ID = {
+		3075206
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3076070] = {
+	id = 3076070,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 轰炸机 Lv1",
+	base = 1001066,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076080
+	}
+}
+
+_G.pg.base.aircraft_template[3076071] = {
+	id = 3076071,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 轰炸机 Lv2",
+	base = 1001067,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076081
+	}
+}
+
+_G.pg.base.aircraft_template[3076072] = {
+	id = 3076072,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 轰炸机 Lv3",
+	base = 1001068,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076082
+	}
+}
+
+_G.pg.base.aircraft_template[3076073] = {
+	id = 3076073,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 轰炸机 Lv4",
+	base = 1001069,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076083
+	}
+}
+
+_G.pg.base.aircraft_template[3076074] = {
+	id = 3076074,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 轰炸机 Lv5",
+	base = 1001070,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076084
+	}
+}
+
+_G.pg.base.aircraft_template[3076075] = {
+	id = 3076075,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 战斗机 Lv1",
+	base = 1001071,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076085,
+		1100750
+	}
+}
+
+_G.pg.base.aircraft_template[3076076] = {
+	id = 3076076,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 战斗机 Lv2",
+	base = 1001072,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076086,
+		1100751
+	}
+}
+
+_G.pg.base.aircraft_template[3076077] = {
+	id = 3076077,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 战斗机 Lv3",
+	base = 1001073,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076087,
+		1100752
+	}
+}
+
+_G.pg.base.aircraft_template[3076078] = {
+	id = 3076078,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 战斗机 Lv4",
+	base = 1001074,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076088,
+		1100753
+	}
+}
+
+_G.pg.base.aircraft_template[3076079] = {
+	id = 3076079,
+	name = "【2023克莱蒙梭活动】审判型航空母舰 战斗机 Lv5",
+	base = 1001075,
+	model_ID = "sairenfeiji_jiaotang",
+	icon = "sairenfeiji_jiaotang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076089,
+		1100754
+	}
+}
+
+_G.pg.base.aircraft_template[3076270] = {
+	id = 3076270,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 轰炸机 Lv1",
+	base = 1001066,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076280
+	}
+}
+
+_G.pg.base.aircraft_template[3076271] = {
+	id = 3076271,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 轰炸机 Lv2",
+	base = 1001067,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076281
+	}
+}
+
+_G.pg.base.aircraft_template[3076272] = {
+	id = 3076272,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 轰炸机 Lv3",
+	base = 1001068,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076282
+	}
+}
+
+_G.pg.base.aircraft_template[3076273] = {
+	id = 3076273,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 轰炸机 Lv4",
+	base = 1001069,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076283
+	}
+}
+
+_G.pg.base.aircraft_template[3076274] = {
+	id = 3076274,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 轰炸机 Lv5",
+	base = 1001070,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076284
+	}
+}
+
+_G.pg.base.aircraft_template[3076275] = {
+	id = 3076275,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 战斗机 Lv1",
+	base = 1001071,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076285,
+		1100750
+	}
+}
+
+_G.pg.base.aircraft_template[3076276] = {
+	id = 3076276,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 战斗机 Lv2",
+	base = 1001072,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076286,
+		1100751
+	}
+}
+
+_G.pg.base.aircraft_template[3076277] = {
+	id = 3076277,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 战斗机 Lv3",
+	base = 1001073,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076287,
+		1100752
+	}
+}
+
+_G.pg.base.aircraft_template[3076278] = {
+	id = 3076278,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 战斗机 Lv4",
+	base = 1001074,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076288,
+		1100753
+	}
+}
+
+_G.pg.base.aircraft_template[3076279] = {
+	id = 3076279,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航空母舰 战斗机 Lv5",
+	base = 1001075,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076289,
+		1100754
+	}
+}
+
+_G.pg.base.aircraft_template[3076485] = {
+	id = 3076485,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 轰炸机 Lv1",
+	base = 1001186,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076280
+	}
+}
+
+_G.pg.base.aircraft_template[3076486] = {
+	id = 3076486,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 轰炸机 Lv2",
+	base = 1001187,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076281
+	}
+}
+
+_G.pg.base.aircraft_template[3076487] = {
+	id = 3076487,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 轰炸机 Lv3",
+	base = 1001188,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076282
+	}
+}
+
+_G.pg.base.aircraft_template[3076488] = {
+	id = 3076488,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 轰炸机 Lv4",
+	base = 1001189,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076283
+	}
+}
+
+_G.pg.base.aircraft_template[3076489] = {
+	id = 3076489,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 轰炸机 Lv5",
+	base = 1001190,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076284
+	}
+}
+
+_G.pg.base.aircraft_template[3076490] = {
+	id = 3076490,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 鱼雷机 Lv1",
+	base = 1001191,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076285,
+		1100750
+	}
+}
+
+_G.pg.base.aircraft_template[3076491] = {
+	id = 3076491,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 鱼雷机 Lv2",
+	base = 1001192,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076286,
+		1100751
+	}
+}
+
+_G.pg.base.aircraft_template[3076492] = {
+	id = 3076492,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 鱼雷机 Lv3",
+	base = 1001193,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076287,
+		1100752
+	}
+}
+
+_G.pg.base.aircraft_template[3076493] = {
+	id = 3076493,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 鱼雷机 Lv4",
+	base = 1001194,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076288,
+		1100753
+	}
+}
+
+_G.pg.base.aircraft_template[3076494] = {
+	id = 3076494,
+	name = "【2023克莱蒙梭活动】教皇侵蚀航母人形 鱼雷机 Lv5",
+	base = 1001195,
+	model_ID = "sairenfeiji_jiaohuang",
+	icon = "sairenfeiji_jiaohuang",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3076289,
+		1100754
+	}
+}
+
+_G.pg.base.aircraft_template[3077101] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "F4F",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077101,
+	icon = "F4F",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892904,
+		892905
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3077102] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "tbd",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077102,
+	icon = "tbd",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892906
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3077103] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sbdwuwei",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077103,
+	icon = "sbdwuwei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		892907
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3077106] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenboss17_pao1",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077106,
+	icon = "sairenboss17_pao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3077107] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenboss17_pao2",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077107,
+	icon = "sairenboss17_pao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3077108] = {
+	attack_power = 2,
+	name = "【2023克莱蒙梭活动】剧情战 美系支援飞机 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenboss17_pao1",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3077108,
+	icon = "sairenboss17_pao1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	weapon_ID = {
+		3005212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},

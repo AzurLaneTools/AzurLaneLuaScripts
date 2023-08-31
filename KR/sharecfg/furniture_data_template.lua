@@ -124,6 +124,8 @@ pg.furniture_data_template = setmetatable({
 			245,
 			248,
 			251,
+			256,
+			257,
 			100002,
 			100003,
 			100004,
@@ -2820,6 +2822,44 @@ pg.furniture_data_template = setmetatable({
 			301119,
 			301120,
 			301123
+		},
+		[102] = {
+			302001,
+			302002,
+			302101,
+			302102,
+			302103,
+			302104,
+			302105,
+			302106,
+			302107,
+			302108,
+			302109,
+			302110,
+			302111,
+			302112,
+			302113,
+			302114,
+			302115,
+			302116,
+			302117,
+			302118,
+			302119,
+			302120,
+			302121,
+			302122,
+			302123,
+			302124,
+			302125,
+			302126,
+			302127,
+			302128,
+			302129,
+			302130,
+			302301,
+			302302,
+			302303,
+			302304
 		}
 	},
 	get_id_list_by_tag = {
@@ -4508,7 +4548,31 @@ pg.furniture_data_template = setmetatable({
 			301118,
 			301119,
 			301120,
-			301123
+			301123,
+			302101,
+			302102,
+			302103,
+			302104,
+			302105,
+			302106,
+			302107,
+			302108,
+			302109,
+			302110,
+			302111,
+			302112,
+			302113,
+			302114,
+			302115,
+			302116,
+			302117,
+			302118,
+			302119,
+			302120,
+			302121,
+			302122,
+			302123,
+			302126
 		},
 		{
 			1108,
@@ -4786,6 +4850,8 @@ pg.furniture_data_template = setmetatable({
 			245,
 			248,
 			251,
+			256,
+			257,
 			100002,
 			100003,
 			100004,
@@ -4999,7 +5065,13 @@ pg.furniture_data_template = setmetatable({
 			99128,
 			300132,
 			300133,
-			300134
+			300134,
+			302124,
+			302125,
+			302127,
+			302128,
+			302129,
+			302130
 		},
 		[4] = {
 			1001,
@@ -5087,7 +5159,8 @@ pg.furniture_data_template = setmetatable({
 			98001,
 			99001,
 			300001,
-			301001
+			301001,
+			302001
 		},
 		[3] = {
 			1002,
@@ -5176,7 +5249,8 @@ pg.furniture_data_template = setmetatable({
 			98002,
 			99002,
 			300002,
-			301002
+			301002,
+			302002
 		},
 		[5] = {
 			1301,
@@ -5480,7 +5554,11 @@ pg.furniture_data_template = setmetatable({
 			99301,
 			99302,
 			99303,
-			99304
+			99304,
+			302301,
+			302302,
+			302303,
+			302304
 		}
 	},
 	get_id_list_by_type = {
@@ -5571,7 +5649,8 @@ pg.furniture_data_template = setmetatable({
 			98002,
 			99002,
 			300002,
-			301002
+			301002,
+			302002
 		},
 		[7] = {
 			1,
@@ -5676,6 +5755,8 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
+			256,
+			257,
 			100002,
 			100004,
 			100005,
@@ -7391,7 +7472,36 @@ pg.furniture_data_template = setmetatable({
 			301118,
 			301119,
 			301120,
-			301123
+			301123,
+			302101,
+			302102,
+			302103,
+			302104,
+			302105,
+			302106,
+			302107,
+			302108,
+			302109,
+			302110,
+			302112,
+			302113,
+			302114,
+			302115,
+			302116,
+			302117,
+			302118,
+			302119,
+			302120,
+			302121,
+			302122,
+			302123,
+			302124,
+			302125,
+			302126,
+			302127,
+			302128,
+			302129,
+			302130
 		},
 		[11] = {
 			131,
@@ -7543,7 +7653,8 @@ pg.furniture_data_template = setmetatable({
 			98001,
 			99001,
 			300001,
-			301001
+			301001,
+			302001
 		},
 		[5] = {
 			1101,
@@ -7677,7 +7788,8 @@ pg.furniture_data_template = setmetatable({
 			97128,
 			98105,
 			98138,
-			300109
+			300109,
+			302111
 		},
 		[3] = {
 			1108,
@@ -8133,7 +8245,11 @@ pg.furniture_data_template = setmetatable({
 			99301,
 			99302,
 			99303,
-			99304
+			99304,
+			302301,
+			302302,
+			302303,
+			302304
 		},
 		[8] = {
 			17121
@@ -8284,6 +8400,8 @@ pg.furniture_data_template = setmetatable({
 		245,
 		248,
 		251,
+		256,
+		257,
 		100002,
 		100003,
 		100004,
@@ -10805,7 +10923,43 @@ pg.furniture_data_template = setmetatable({
 		301118,
 		301119,
 		301120,
-		301123
+		301123,
+		302001,
+		302002,
+		302101,
+		302102,
+		302103,
+		302104,
+		302105,
+		302106,
+		302107,
+		302108,
+		302109,
+		302110,
+		302111,
+		302112,
+		302113,
+		302114,
+		302115,
+		302116,
+		302117,
+		302118,
+		302119,
+		302120,
+		302121,
+		302122,
+		302123,
+		302124,
+		302125,
+		302126,
+		302127,
+		302128,
+		302129,
+		302130,
+		302301,
+		302302,
+		302303,
+		302304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16628,6 +16782,92 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[256] = {
+		spine_extra = "",
+		describe = "흰 날개로 감싸인 검과 방패 모양을 한 훈장. 빛나는 성스러운 인장에서 승리의 서광이 뿜어져 나오고 있다. \"어리석은 자의 천칭\" 참가 보상.",
+		gain_by = "어리석은 자의 천칭",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "faxi3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "하나가 된 아이리스",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 256,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"faxi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[257] = {
+		spine_extra = "",
+		describe = "호화롭게 장식된 미니어처 성. 성대하게 달아오른 모항 파티의 추억. \"연회장\" 이벤트 참가 보상.",
+		gain_by = "연회 초대",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "yanhuiyaoqingxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "향기로운 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 257,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"yanhuiyaoqingxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -20203,7 +20443,7 @@ pg.base.furniture_data_template = {
 	},
 	[100052] = {
 		spine_extra = "",
-		describe = "来体验下当特工的感觉吧！",
+		describe = "레젠더리 에이전트의 싸움을 체험해보자!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20213,7 +20453,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "特工秀场",
+		name = "에이전트 상자",
 		themeId = 0,
 		icon = "tegongtiyanicon",
 		deblocking = 1,
@@ -128138,6 +128378,1746 @@ pg.base.furniture_data_template = {
 				"kaihuazy",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[302001] = {
+		spine_extra = "",
+		describe = "고풍스럽고 고급스러운 만쥬 팰리스. 이렇게 우아할 수가!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "팰리스 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanyhicon",
+		spine_action_replace = "",
+		picture = "yh/dibanyh",
+		comfortable = 4,
+		canputon = 0,
+		id = 302001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302002] = {
+		spine_extra = "",
+		describe = "고풍스럽고 고급스러운 만쥬 팰리스. 이렇게 우아할 수가!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "팰리스 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiyhicon",
+		spine_action_replace = "",
+		picture = "yh/qiangbiyh",
+		comfortable = 4,
+		canputon = 0,
+		id = 302002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302101] = {
+		spine_extra = "",
+		describe = "향기로운 꽃, 흔들리는 양초의 화염이 일렁이는 곳.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "bianguiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 사이드 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/bianguiyh",
+		canputon = 0,
+		id = 302101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302102] = {
+		spine_extra = "",
+		describe = "달콤해서 이가 다 썩겠어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "cancheyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 디저트 카트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/cancheyh",
+		canputon = 0,
+		id = 302102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302103] = {
+		spine_extra = "",
+		describe = "주변에서 뛰면 위험해!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "cangpinyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 포슬린",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/cangpinyh",
+		canputon = 0,
+		id = 302103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302104] = {
+		spine_extra = "",
+		describe = "우아하게 홍차를 즐기자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chajiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 티 테이블",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yh/chajiyh",
+		canputon = 0,
+		id = 302104,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302105] = {
+		spine_extra = "",
+		describe = "전통적인 침구 위에서 화려한 꿈을",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuangyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 킹베드",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "yh/chuangyh",
+		canputon = 0,
+		id = 302105,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-28,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				"yh/chuangyh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302106] = {
+		spine_extra = "",
+		describe = "편안하고 안락한 붉은 소파",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dashafayhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 라지 소파",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yh/dashafayh",
+		canputon = 0,
+		id = 302106,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-2.1,
+					19.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302107] = {
+		spine_extra = "",
+		describe = "지휘관, 코 자자'라는 소리가 들릴 것 같은 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiang1yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "라피 조각상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/diaoxiang1yh",
+		canputon = 0,
+		id = 302107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302108] = {
+		spine_extra = "",
+		describe = "지휘관, 지휘관. 재블린이랑 같이 놀자~'라는 소리가 들릴 것 같은 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiang2yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "재블린 조각상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/diaoxiang2yh",
+		canputon = 0,
+		id = 302108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302109] = {
+		spine_extra = "",
+		describe = "지휘관, 땡땡이치시면 안 돼요'라는 소리가 들릴 것 같은 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiang3yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "Z23 조각상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/diaoxiang3yh",
+		canputon = 0,
+		id = 302109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302110] = {
+		spine_extra = "",
+		describe = "지휘관, 과자는 아직 많아요'라는 소리가 들릴 것 같은 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiang4yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "아야나미 조각상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/diaoxiang4yh",
+		canputon = 0,
+		id = 302110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302111] = {
+		spine_extra = "",
+		describe = "화려한 꽃무늬 테두리로 장식되어, 보고 있으면 기분이 좋아지는 카펫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 레드 카펫",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/ditanyh",
+		canputon = 0,
+		id = 302111,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302112] = {
+		spine_extra = "",
+		describe = "내딛는 걸음마다 넘치는 고급스러움",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "loutiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 계단",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yh/loutiyh",
+		canputon = 0,
+		id = 302112,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302113] = {
+		spine_extra = "",
+		describe = "종이 울리면 행복 시작~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "luodizhongyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 괘종시계",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/luodizhongyh",
+		canputon = 0,
+		id = 302113,
+		can_rotate = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302114] = {
+		spine_extra = "",
+		describe = "여기서 일하려면 제대로 된 정장이 필요하다삐약",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuzhuoyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 카운터",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/shuzhuoyh",
+		canputon = 0,
+		id = 302114,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302115] = {
+		spine_extra = "",
+		describe = "앉을 때는 바른 자세로",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuzhuoyiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 체어",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/shuzhuoyiyh",
+		canputon = 0,
+		id = 302115,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.8,
+					19.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302116] = {
+		spine_extra = "",
+		describe = "오직 한 분만을 위한 아늑한 빨간 소파.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoshafa1yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 싱글 소파",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/xiaoshafa1yh",
+		canputon = 0,
+		id = 302116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15.5,
+					16.9
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302117] = {
+		spine_extra = "",
+		describe = "오직 한 분만을 위한 아늑한 빨간 소파.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoshafa2yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 싱글 소파(뒤쪽)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/xiaoshafa2yh",
+		canputon = 0,
+		id = 302117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302118] = {
+		spine_extra = "",
+		describe = "마음껏 드세요",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yanhuizhuoyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 디너 테이블",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yh/yanhuizhuoyh",
+		canputon = 0,
+		id = 302118,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302119] = {
+		spine_extra = "",
+		describe = "기념할 만한 날을 더욱 특별하게 만드는 고급 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "yizi1yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 디너 체어",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/yizi1yh",
+		canputon = 0,
+		id = 302119,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.5,
+					15.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302120] = {
+		spine_extra = "",
+		describe = "기념할 만한 날을 더욱 특별하게 만드는 고급 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "yizi2yhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 디너 체어(뒤쪽)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/yizi2yh",
+		canputon = 0,
+		id = 302120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302121] = {
+		spine_extra = "",
+		describe = "꽃잎 향기에 잠겨 음미하는 레드와인의 맛",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yuchiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 욕조",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "yh/yuchiyh",
+		canputon = 0,
+		id = 302121,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-23,
+					-76
+				},
+				{
+					1,
+					1
+				},
+				"yh/yuchiyh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302122] = {
+		spine_extra = "",
+		describe = "삼지창으로 쓰기에는 너무 무겁다",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhutaiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 캔들",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/zhutaiyh",
+		canputon = 0,
+		id = 302122,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302123] = {
+		spine_extra = "",
+		describe = "건물을 지탱하는 튼튼한 석조 기둥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "zhuziyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 기둥",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/zhuziyh",
+		canputon = 0,
+		id = 302123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302124] = {
+		spine_extra = "",
+		describe = "물보라와 함께 피어나는 자욱한 안개",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "penquanyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 분수",
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302124,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"penquanyh",
+				"action",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"chengbao_penquan",
+					nil,
+					nil,
+					1
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[302125] = {
+		spine_extra = "",
+		describe = "새것으로 보이지만, 사실은 꽤 연식이 있다",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "팰리스 피아노",
+		themeId = 102,
+		icon = "gangqinyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 5,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302125,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gangqinyh",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[302126] = {
+		spine_extra = "",
+		describe = "마치 요정이 연주하는 것 같다",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "팰리스 하프",
+		themeId = 102,
+		icon = "shuqinyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302126,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuqinyh",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[302127] = {
+		rarity = 4,
+		describe = "우아하게 춤추자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "팰리스 댄스 카펫",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 102,
+		icon = "wudaoditanyhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302127,
+		can_rotate = 0,
+		size = {
+			13,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wudaoditanyh",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				1
+			},
+			{
+				"char4",
+				-1
+			},
+			{
+				"char6",
+				-1
+			},
+			{
+				"char5",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char7",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[302128] = {
+		rarity = 3,
+		describe = "음료는 어떻게 할까삐약?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "팰리스 바 카운터",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 102,
+		icon = "bataiyhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302128,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataiyh",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[302129] = {
+		spine_extra = "",
+		describe = "라이브 키친의 만쥬들이 만드는 요리를 기대해라삐약!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 102,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "cantaiyhicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "팰리스 푸드 코너",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302129,
+		can_rotate = 0,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cantaiyh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[302130] = {
+		rarity = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "宴会桌(活动场景用家具)",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 102,
+		icon = "yanhuizhuoyhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 302130,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yanhuizhuoyhB",
+				"normal"
+			},
+			{
+				"yanhuizhuoyhT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[302301] = {
+		spine_extra = "",
+		describe = "마음을 치유해 주는 부드러운 빛",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bidengyhicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "팰리스 벽조명",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/bidengyh",
+		canputon = 0,
+		id = 302301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302302] = {
+		spine_extra = "",
+		describe = "기묘한 색채로 그려진 그림",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bihua1yhicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "팰리스 아트 패널(낮)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/bihua1yh",
+		canputon = 0,
+		id = 302302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302303] = {
+		spine_extra = "",
+		describe = "기묘한 색채로 그려진 그림",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bihua2yhicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "팰리스 아트 패널(밤)",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yh/bihua2yh",
+		canputon = 0,
+		id = 302303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[302304] = {
+		spine_extra = "",
+		describe = "문을 열고 호화로운 분위기를 즐겨라삐약!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 102,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "menyhicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "팰리스 게이트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yh/menyh",
+		canputon = 0,
+		id = 302304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

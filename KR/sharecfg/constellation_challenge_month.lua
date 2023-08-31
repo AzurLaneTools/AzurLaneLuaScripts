@@ -20,7 +20,7 @@ pg.constellation_challenge_month = {
 	},
 	[9] = {
 		id = 9,
-		constellation_icon = "Aries",
+		constellation_icon = "Lio",
 		stage = {
 			10007,
 			10008,

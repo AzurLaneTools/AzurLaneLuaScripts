@@ -339,6 +339,7 @@ function slot0.register(slot0)
 		slot1 = getProxy(ChapterProxy)
 		slot2 = slot1:getActiveChapter()
 
+		assert(slot2)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_forward",
 			content = i18n("levelScene_chapter_is_activation", string.split(slot1:getMapById(slot2:getConfig("map")):getConfig("name"), "|")[1] .. ":" .. slot2:getConfig("chapter_name")),
@@ -382,6 +383,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0)
 		slot1 = getProxy(ChapterProxy):getActiveChapter()
+
+		assert(slot1)
+
 		slot2 = slot1.fleet
 		slot3 = slot1:getStageId(slot2.line.row, slot2.line.column)
 
@@ -587,7 +591,9 @@ function slot0.listNotificationInterests(slot0)
 		ChapterProxy.CHAPTER_SKIP_PRECOMBAT_UPDATED,
 		ChapterProxy.CHAPTER_REMASTER_INFO_UPDATED,
 		GAME.CHAPTER_REMASTER_INFO_REQUEST_DONE,
-		GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE
+		GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE,
+		GAME.STORY_UPDATE_DONE,
+		GAME.STORY_END
 	}
 end
 
@@ -1098,6 +1104,12 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateRemasterBtnTip()
 		elseif slot2 == GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
+		elseif slot2 == GAME.STORY_UPDATE_DONE then
+			slot0.cachedStoryAwards = slot3
+		elseif slot2 == GAME.STORY_END and slot0.cachedStoryAwards then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.cachedStoryAwards.awards)
+
+			slot0.cachedStoryAwards = nil
 		end
 	end
 end
@@ -1186,8 +1198,11 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 			if getProxy(ChapterProxy):getMapById(uv1:getConfig("map")):isRemaster() then
 				slot3 = slot2:getRemaster()
 				slot4 = pg.re_map_template[slot3]
+				slot5 = Map.GetRearChaptersOfRemaster(slot3)
 
-				if _.any(Map.GetRearChaptersOfRemaster(slot3), function (slot0)
+				assert(slot5)
+
+				if _.any(slot5, function (slot0)
 					return slot0 == uv0.id
 				end) then
 					if _.any(pg.memory_group[slot4.memory_group].memories, function (slot0)

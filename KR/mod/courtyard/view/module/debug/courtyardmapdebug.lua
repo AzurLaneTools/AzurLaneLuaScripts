@@ -25,7 +25,7 @@ function slot0.Init(slot0)
 
 			tf(slot15).localScale = Vector3.one
 			tf(slot15).localPosition = CourtYardCalcUtil.Map2Local(Vector2(slot9, slot14))
-			slot15:GetComponent(typeof(Image)).color = (slot14 == slot5 or slot9 == slot4) and Color.New(1, 1, 1, 0.1) or Color.New(1, 1, 1, 1)
+			slot15:GetComponent(typeof(Image)).color = (slot14 == slot5 or slot9 == slot4) and Color.New(1, 1, 0, 0.5) or Color.New(0, 1, 0, 1)
 			slot10[slot14] = slot15
 		end
 
@@ -36,10 +36,14 @@ function slot0.Init(slot0)
 end
 
 function slot0.Flush(slot0)
-	for slot4, slot5 in pairs(slot0.mapGrids) do
-		for slot9, slot10 in pairs(slot5) do
-			slot12 = slot10:GetComponent(typeof(Image))
-			slot12.color = slot0.map:IsEmptyPosition(Vector2(slot4, slot9)) and Color.New(1, 1, 1, slot12.color.a) or Color.New(slot0.r, slot0.g, slot0.b, slot12.color.a)
+	slot1 = slot0.map.sizeX
+	slot2 = slot0.map.sizeY
+
+	for slot6, slot7 in pairs(slot0.mapGrids) do
+		for slot11, slot12 in pairs(slot7) do
+			slot14 = slot12:GetComponent(typeof(Image))
+			slot15 = nil
+			slot14.color = slot0.map:IsEmptyPosition(Vector2(slot6, slot11)) and ((slot11 == slot2 or slot6 == slot1) and Color.New(1, 1, 0, 0.5) or Color.New(0, 1, 0, 1)) or Color.New(slot0.r, slot0.g, slot0.b, slot14.color.a)
 		end
 	end
 end
@@ -47,7 +51,7 @@ end
 function slot0.Clear(slot0)
 	for slot4, slot5 in pairs(slot0.mapGrids) do
 		for slot9, slot10 in pairs(slot5) do
-			slot10:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
+			slot10:GetComponent(typeof(Image)).color = Color.New(0, 1, 0, 1)
 
 			_courtyard:GetView().poolMgr:GetGridPool():Enqueue(slot10)
 		end

@@ -153,7 +153,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ZERO_HOUR_OP_DONE,
 		uv0.REFRESH_VIEW,
 		GAME.CONFIRM_GET_SHIP,
-		GAME.WILL_LOGOUT
+		GAME.WILL_LOGOUT,
+		GAME.GET_FEAST_DATA_DONE
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -231,6 +232,8 @@ function slot0.handleNotification(slot0, slot1)
 		}))
 	elseif slot2 == GAME.WILL_LOGOUT then
 		slot0.viewComponent:OnLogOut()
+	elseif slot2 == GAME.GET_FEAST_DATA_DONE then
+		slot0.viewComponent:emit(NewMainScene.ON_ACT_BTN_UPDATE)
 	end
 end
 

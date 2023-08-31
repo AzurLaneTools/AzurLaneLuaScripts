@@ -86,17 +86,17 @@ function slot0.LegalChild(slot0, slot1)
 end
 
 function slot0.InSide(slot0, slot1, slot2, slot3, slot4)
-	if slot0.config.belong == 1 and slot0.config.type == 1 and slot0.config.type == 4 and not slot0:ExistParnet() then
+	if slot0.config.belong == 1 and slot0.config.type ~= 1 and slot0.config.type ~= 4 and not slot0:ExistParnet() then
 		return _.all(slot0:GetAreaByPosition(), function (slot0)
 			return uv0 <= slot0.x and uv1 <= slot0.y and slot0.x <= uv2 and slot0.y <= uv3
 		end)
 	end
 
-	if slot0.config.belong == 3 and slot0.x >= 24 then
+	if slot0.config.belong == 3 and slot0.x >= slot3 + 1 then
 		return false
 	end
 
-	if slot0.config.belong == 4 and slot0.y >= 24 then
+	if slot0.config.belong == 4 and slot0.y >= slot4 + 1 then
 		return false
 	end
 

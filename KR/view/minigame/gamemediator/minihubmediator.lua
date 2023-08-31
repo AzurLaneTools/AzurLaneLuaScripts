@@ -34,7 +34,8 @@ function slot0.OnMiniGameSuccess(slot0, slot1)
 			cmd = MiniGameOPCommand.CMD_COMPLETE,
 			args1 = {
 				slot1
-			}
+			},
+			id = slot0.miniGameId
 		})
 	end
 end

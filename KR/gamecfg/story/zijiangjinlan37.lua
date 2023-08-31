@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			expression = 3,
 			nameColor = "#a020f0",
 			bgName = "bg_wuzang_bg16",
 			side = 2,

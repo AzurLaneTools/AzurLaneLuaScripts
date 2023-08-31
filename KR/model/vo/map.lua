@@ -98,11 +98,17 @@ function slot0.getBindMap(slot0)
 	return getProxy(ChapterProxy):getMapById(slot0:getBindMapId())
 end
 
-function slot0.getChapters(slot0, slot1)
-	slot2 = getProxy(ChapterProxy)
+function slot0.getChapters(slot0)
+	return _.filter(slot0:GetChapterItems(), function (slot0)
+		return isa(slot0, Chapter)
+	end)
+end
 
-	return underscore.map(slot0.chapterIds, function (slot0)
-		return uv0:getChapterById(slot0, uv1)
+function slot0.GetChapterItems(slot0)
+	slot1 = getProxy(ChapterProxy)
+
+	return _.map(slot0:GetChapterList(), function (slot0)
+		return uv0:GetChapterItemById(slot0)
 	end)
 end
 
@@ -119,10 +125,9 @@ function slot0.getChapterTimeLimit(slot0)
 
 	slot1 = pg.TimeMgr.GetInstance()
 	slot2 = 0
-	slot6 = true
 
-	for slot6, slot7 in ipairs(slot0:getChapters(slot6)) do
-		if pg.activity_template[slot7:getConfig("act_id")] and slot8.time and #slot8.time == 3 and slot1:parseTimeFromConfig(slot8.time[2]) - slot1:GetServerTime() > 0 then
+	for slot6, slot7 in ipairs(slot0:getChapters()) do
+		if pg.activity_template[slot7:GetBindActID()] and slot8.time and #slot8.time == 3 and slot1:parseTimeFromConfig(slot8.time[2]) - slot1:GetServerTime() > 0 then
 			slot2 = slot2 == 0 and slot9 or math.min(slot9, slot9)
 		end
 	end
@@ -141,7 +146,7 @@ function slot0.isClear(slot0)
 end
 
 function slot0.isClearForActivity(slot0)
-	for slot5, slot6 in ipairs(slot0:getChapters(true)) do
+	for slot5, slot6 in ipairs(slot0:GetChapterItems()) do
 		if slot5 > 1 and slot6.id - slot1[slot5 - 1].id > 1 then
 			break
 		elseif not slot6:isClear() then
@@ -161,9 +166,8 @@ end
 
 function slot0.isAnyChapterUnlocked(slot0, slot1)
 	slot2 = false
-	slot6 = true
 
-	for slot6, slot7 in ipairs(slot0:getChapters(slot6)) do
+	for slot6, slot7 in ipairs(slot0:GetChapterItems()) do
 		if slot7:isUnlock() then
 			if not slot1 or slot7:inActTime() then
 				return true
@@ -177,15 +181,13 @@ function slot0.isAnyChapterUnlocked(slot0, slot1)
 end
 
 function slot0.isAnyChapterClear(slot0)
-	return underscore.any(slot0:getChapters(true), function (slot0)
+	return underscore.any(slot0:GetChapterItems(), function (slot0)
 		return slot0:isClear()
 	end)
 end
 
 function slot0.isAllChaptersClear(slot0)
-	slot4 = true
-
-	for slot4, slot5 in ipairs(slot0:getChapters(slot4)) do
+	for slot4, slot5 in ipairs(slot0:GetChapterItems()) do
 		if not slot5:isClear() then
 			return false
 		end
@@ -195,9 +197,7 @@ function slot0.isAllChaptersClear(slot0)
 end
 
 function slot0.isAllChaptersAchieve(slot0)
-	slot4 = true
-
-	for slot4, slot5 in ipairs(slot0:getChapters(slot4)) do
+	for slot4, slot5 in ipairs(slot0:getChapters()) do
 		if not slot5:isAllAchieve() then
 			return false
 		end
@@ -208,9 +208,8 @@ end
 
 function slot0.getLastUnlockChapterName(slot0)
 	slot1 = nil
-	slot5 = true
 
-	for slot5, slot6 in ipairs(slot0:getChapters(slot5)) do
+	for slot5, slot6 in ipairs(slot0:getChapters()) do
 		if not slot6:isUnlock() then
 			break
 		end
@@ -219,6 +218,12 @@ function slot0.getLastUnlockChapterName(slot0)
 	end
 
 	return slot1:getConfig("chapter_name")
+end
+
+function slot0.GetChapterInProgress(slot0)
+	return underscore.detect(slot0:GetChapterItems(), function (slot0)
+		return slot0:isUnlock() and not slot0:isClear()
+	end)
 end
 
 function slot0.GetChapterList(slot0)

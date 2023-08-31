@@ -7369,6 +7369,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "이번 개조 후<color=#92fc63>【주포 발사 수 +1】</color>\n<color=#92fc63>【전쟁의 비극】</color> 스킬 <color=#92fc63>【전쟁의 비극·改】</color>로 강화.\n<color=#92fc63>【전탄 발사II】</color> 스킬 <color=#92fc63>【전탄 발사III】</color>로 강화."
 }
 
+_G.pg.base.gametip.ship_remould_warning_105234 = {
+	tip = "개조(근대화 개수) 종료 후, 스킬 <color=#92fc63>[BIG SEVEN]</color>이\n<color=#92fc63>[BIG SEVEN·웨스트버지니아]</color>로 강화됨"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "이번 개조 후 <color=#92fc63>【모든 전투기 +1】, 【모든 뇌격기 +1】</color>\n계속하시겠습니까?"
 }
@@ -9779,7 +9783,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "아틸리오 레골로, 고리치아 등 캐릭터 건조 확률 UP!"
+	tip = "클레망소, 기샹 등의 등장 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11742,6 +11746,10 @@ UID:
 
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1일 $2시간 $3분"
+}
+
+_G.pg.base.gametip.pray_build_select_ship_instruction = {
+	tip = "함선 두 명 선택"
 }
 
 _G.pg.base.gametip.warning_pray_build_pool = {
@@ -24205,4 +24213,223 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "소지 중:"
+}
+
+_G.pg.base.gametip.faest_nothing_to_get = {
+	tip = "획득할 수 있는 보상이 없습니다."
+}
+
+_G.pg.base.gametip.feast_click_to_close = {
+	tip = "화면을 탭하여 돌아가기"
+}
+
+_G.pg.base.gametip.feast_invitation_btn_label = {
+	tip = "특별 초대"
+}
+
+_G.pg.base.gametip.feast_task_btn_label = {
+	tip = "연회 인기 Lv"
+}
+
+_G.pg.base.gametip.feast_task_pt_label = {
+	tip = "인기도:"
+}
+
+_G.pg.base.gametip.feast_task_pt_level = {
+	tip = "Lv$1"
+}
+
+_G.pg.base.gametip.feast_task_pt_get = {
+	tip = "미획득"
+}
+
+_G.pg.base.gametip.feast_task_pt_got = {
+	tip = "획득 완료"
+}
+
+_G.pg.base.gametip.feast_task_tag_daily = {
+	tip = "데일리 임무-"
+}
+
+_G.pg.base.gametip.feast_task_tag_activity = {
+	tip = "특별 임무-"
+}
+
+_G.pg.base.gametip.feast_label_make_invitation = {
+	tip = "초대장 제작"
+}
+
+_G.pg.base.gametip.feast_no_invitation = {
+	tip = "초대장이 없습니다."
+}
+
+_G.pg.base.gametip.feast_no_gift = {
+	tip = "선물이 없습니다."
+}
+
+_G.pg.base.gametip.feast_label_give_invitation = {
+	tip = "초대장 증정"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation_finish = {
+	tip = "초대 완료"
+}
+
+_G.pg.base.gametip.feast_label_give_gift = {
+	tip = "선물 제작"
+}
+
+_G.pg.base.gametip.feast_label_give_gift_finish = {
+	tip = "선물 완료"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_tip = {
+	tip = "재료를 드래그 앤 드롭하여 초대장을 제작하세요."
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_click_tip = {
+	tip = "탭하여 상세 내용 확인"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+	tip = "제작 순서를 한번 더 확인하시겠습니까?"
+}
+
+_G.pg.base.gametip.feast_res_window_title = {
+	tip = "상세 내용"
+}
+
+_G.pg.base.gametip.feast_res_window_go_label = {
+	tip = "확인하기"
+}
+
+_G.pg.base.gametip.feast_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_invitation_part1 = {
+	tip = "함선 아이콘을 올바른 곳에 붙여 두자."
+}
+
+_G.pg.base.gametip.feast_invitation_part2 = {
+	tip = "파티 초대장 용지. 은은한 향기가 풍기는 고급스러운 종이로, 디자인과 폰트에도 신경을 쓴 느낌이다."
+}
+
+_G.pg.base.gametip.feast_invitation_part3 = {
+	tip = "초대장을 넣는 봉투. 초대장 용지와 마찬가지로 고급스러운 제품이라, 상대방에 대한 경의와 파티의 격식을 잘 전달할 수 있을 것이다."
+}
+
+_G.pg.base.gametip.feast_invitation_part4 = {
+	tip = "초대장을 넣은 다음에는 금가루가 섞인 봉랍으로 잘 봉합하여, 소중한 마음을 함께 담아 전달하자."
+}
+
+_G.pg.base.gametip.uscastle2023_help = {
+	tip = {
+		{
+			info = [[
+이벤트 개요:
+이벤트 ""쥬쥬 캐슬""은 <color=#92fc63>8.31 ~ 9.14 점검 시간까지</color> 진행됩니다. 
+다양한 미니 게임과 특별 임무, ""연회장""에 참여하여, ""인기 Pt""를 모아 호화로운 보상을 획득하세요! 
+
+플레이 방법: 
+
+· ""연회장""에 대해
+""인기 Pt""를 모으면 보상을 획득할 수 있습니다! 
+1. 미니 이벤트 ""연회장""에서는 다양한 연회 임무(한정 임무)가 등장하며, 함선들의 SD 캐릭터와 매일 몇 번씩 대화를 나눌 수 있습니다. 
+2. 한정 임무를 클리어하거나, 함선 SD 캐릭터와 대화하여 함께 놀아 주면(각종 시설에 드래그 앤 드롭), ""인기 Pt""를 획득할 수 있습니다. 
+3. 또한, 일부 함선에게는 ""미니 게임""으로 획득한 초대장·선물을 보내줄 수 있으며, 선물로도 ""인기 Pt""를 획득할 수 있습니다. 
+4. ""인기 Pt""의 총 획득 수에 따라 ""인기 Lv""이 상승하며, 이에 따라 이벤트 보상을 획득할 수 있습니다. 
+5. ""인기 Lv""을 최대한으로 끌어 올리면, 한정 아이콘 테두리 및 채팅 테두리를 획득할 수 있습니다. 
+
+· ""미니 게임""에 대해
+미니 게임을 플레이하여 ""연회장""에서 사용할 수 있는 특별 아이템 및 스킨 상자를 획득하세요! 
+게임을 클리어하면 한 스테이지당 1회에 한해 장비 스킨 상자, ""연회장""에서 함선에게 줄 수 있는 아이템, ""초대장"", ""선물"" 등을 획득할 수 있습니다. 
+미니 게임은 8/31(목) 점검 후 매일 한 스테이지씩 오픈됩니다. (총 7 스테이지)
+
+· 한정 건조
+건조 페이지로 이동할 수 있습니다. 
+
+·스킨
+상점의 스킨 페이지로 이동할 수 있습니다. 
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_cant_give_gift_tip = {
+	tip = "우선은 초대장을 만들어 함선에게 보내자"
+}
+
+_G.pg.base.gametip.uscastle2023_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_drag_invitation_tip = {
+	tip = "*초대장을 캐릭터한테 드래그하여 증정하기"
+}
+
+_G.pg.base.gametip.feast_drag_gift_tip = {
+	tip = "*연회 선물을 캐릭터한테 드래그하여 증정하기"
 }

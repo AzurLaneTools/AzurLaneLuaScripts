@@ -1,6 +1,6 @@
 pg = pg or {}
-pg.NewStoryMgr = singletonClass("NewStoryMgr")
-slot0 = pg.NewStoryMgr
+slot0 = singletonClass("NewStoryMgr")
+pg.NewStoryMgr = slot0
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -216,11 +216,13 @@ function slot0.Init(slot0, slot1)
 		uv0.skipBtn = findTF(uv0._tf, "front/btns/btns/skip_button")
 		uv0.autoBtn = findTF(uv0._tf, "front/btns/btns/auto_button")
 		uv0.recordBtn = findTF(uv0._tf, "front/btns/record")
+		uv0.dialogueContainer = findTF(uv0._tf, "front/dialogue")
 		uv0.players = {
 			AsideStoryPlayer.New(slot0),
 			DialogueStoryPlayer.New(slot0),
 			BgStoryPlayer.New(slot0),
-			CarouselPlayer.New(slot0)
+			CarouselPlayer.New(slot0),
+			VedioStoryPlayer.New(slot0)
 		}
 		uv0.recordPanel = NewStoryRecordPanel.New()
 
@@ -381,7 +383,14 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0:CheckResDownload(slot0.storyScript, function ()
+	seriesAsync({
+		function (slot0)
+			uv0:CheckResDownload(uv0.storyScript, slot0)
+		end,
+		function (slot0)
+			uv0:CheckAndLoadDialogue(uv0.storyScript, slot0)
+		end
+	}, function ()
 		uv0:OnStart()
 
 		uv0.records = {}
@@ -416,6 +425,24 @@ function slot0.CheckResDownload(slot0, slot1, slot2)
 		end),
 		finishFunc = slot2
 	})
+end
+
+function slot13(slot0, slot1)
+	ResourceMgr.Inst:getAssetAsync("ui/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0(slot0)
+	end), true, true)
+end
+
+function slot0.CheckAndLoadDialogue(slot0, slot1, slot2)
+	if not slot0.dialogueContainer:Find(slot1:GetDialogueStyleName()) then
+		uv0("NewStoryDialogue" .. slot3, function (slot0)
+			Object.Instantiate(slot0, uv0.dialogueContainer).name = uv1
+
+			uv2()
+		end)
+	else
+		slot2()
+	end
 end
 
 function slot0.CheckState(slot0)
@@ -699,6 +726,10 @@ function slot0.GetRecords(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.GetRectSize(slot0)
+	return Vector2(slot0._tf.rect.width, slot0._tf.rect.height)
 end
 
 function slot0.Quit(slot0)

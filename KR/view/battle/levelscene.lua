@@ -1,5 +1,8 @@
 slot0 = class("LevelScene", import("..base.BaseUI"))
 slot1 = 0.5
+slot2 = 1
+slot3 = 2
+slot4 = 3
 
 function slot0.forceGC(slot0)
 	return true
@@ -17,26 +20,44 @@ function slot0.ResUISettings(slot0)
 end
 
 function slot0.getBGM(slot0)
-	table.insert({}, checkExist(slot0.contextData.chapterVO, {
-		"getConfig",
-		{
-			"bgm"
-		}
-	}) or "")
-	table.insert(slot1, checkExist(slot0.contextData.map, {
-		"getConfig",
-		{
-			"bgm"
-		}
-	}) or "")
+	for slot6, slot7 in ipairs({
+		(function ()
+			return checkExist(uv0.contextData.chapterVO, {
+				"getConfig",
+				{
+					"bgm"
+				}
+			}) or ""
+		end)(),
+		(function ()
+			if not uv0.contextData.map then
+				return
+			end
 
-	for slot5, slot6 in ipairs(slot1) do
-		if slot6 ~= "" then
-			return slot6
+			if uv0.contextData.map:getConfig("ani_controller") and #slot1 > 0 then
+				for slot5, slot6 in ipairs(slot1) do
+					for slot11, slot12 in ipairs(_.rest(slot6[2], 2)) do
+						if string.find(slot12, "^bgm_") and slot6[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot6[2][1]) and not slot14:isClear() then
+							return string.sub(slot12, 5)
+						end
+					end
+				end
+			end
+
+			return checkExist(uv0.contextData.map, {
+				"getConfig",
+				{
+					"bgm"
+				}
+			}) or ""
+		end)()
+	}) do
+		if slot7 ~= "" then
+			return slot7
 		end
 	end
 
-	return uv0.super.getBGM(slot0)
+	return uv1.super.getBGM(slot0)
 end
 
 slot0.optionsPath = {
@@ -958,16 +979,16 @@ function slot0.updateClouds(slot0)
 end
 
 function slot0.RefreshMapBG(slot0)
+	slot0:PlayBGM()
 	slot0:SwitchMapBG(slot0.contextData.map, slot0.lastMapIdx, true)
 end
 
-slot2 = 1
-slot3 = 2
-slot4 = 3
-
 function slot0.updateCouldAnimator(slot0, slot1, slot2)
 	if slot1 then
-		function slot3(slot0)
+		slot3 = slot0.contextData.map
+		slot4 = slot3:getConfig("ani_controller")
+
+		function slot5(slot0)
 			slot1 = Vector3.one
 
 			if tf(slot0).rect.width > 0 and slot0.rect.height > 0 then
@@ -977,36 +998,44 @@ function slot0.updateCouldAnimator(slot0, slot1, slot2)
 
 			slot0.localScale = slot1
 
-			if uv0.contextData.map:getConfig("ani_controller") and #slot3 > 0 then
-				for slot7, slot8 in ipairs(slot3) do
-					if slot8[1] == uv1 then
-						slot9 = slot8[2][1]
+			if uv0 and #uv0 > 0 then
+				(function ()
+					for slot3, slot4 in ipairs(uv0) do
+						if slot4[1] == uv1 then
+							slot5 = slot4[2][1]
 
-						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
-							setActive(slot11, false)
-						end
-					elseif slot8[1] == uv2 then
-						slot9 = slot8[2][1]
+							for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
+								if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
+									setActive(slot12, false)
+								end
+							end
+						elseif slot4[1] == uv3 then
+							slot5 = slot4[2][1]
 
-						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
-							setActive(slot11, true)
+							for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
+								if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
+									setActive(slot12, true)
 
-							break
-						end
-					elseif slot8[1] == uv3 then
-						slot9 = slot8[2][1]
+									return
+								end
+							end
+						elseif slot4[1] == uv4 then
+							slot5 = slot4[2][1]
 
-						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
-							setActive(slot11, true)
+							for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
+								if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
+									setActive(slot12, true)
+								end
+							end
 						end
 					end
-				end
+				end)()
 			end
 		end
 
-		slot4 = slot0.loader
+		slot6 = slot0.loader
 
-		table.insert(slot0.mapGroup, slot4:GetPrefab("ui/" .. slot1, slot1, function (slot0)
+		table.insert(slot0.mapGroup, slot6:GetPrefab("ui/" .. slot1, slot1, function (slot0)
 			slot0:SetActive(true)
 			setParent(slot0, uv0.mapTFs[uv1])
 			pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMap + uv1 * 2 - 1)
@@ -2275,7 +2304,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 		return slot7, uv1[bit.rshift(slot5 - 1, 1) + 1], bit.band(slot4, 1) == 1
 	else
 		(function ()
-			for slot4, slot5 in ipairs(uv0[1]:getChapters(true)) do
+			for slot4, slot5 in ipairs(uv0[1]:getChapters()) do
 				if not slot5:isClear() then
 					return
 				end
@@ -2289,7 +2318,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 
 			uv1 = uv1 + 1
 
-			for slot5, slot6 in ipairs(uv0[2]:getChapters(true)) do
+			for slot5, slot6 in ipairs(uv0[2]:getChapters()) do
 				if not slot6:isClear() then
 					return
 				end
@@ -2326,13 +2355,17 @@ function slot0.GetMapElement(slot0, slot1)
 	slot2 = slot1:getConfig("bg")
 
 	if slot1:getConfig("ani_controller") and #slot3 > 0 then
-		for slot7, slot8 in ipairs(slot3) do
-			if string.find(slot8[2][2], "^map_") and slot8[1] == uv0 and not getProxy(ChapterProxy):getChapterById(slot8[2][1], true):isClear() then
-				slot2 = slot9
+		(function ()
+			for slot3, slot4 in ipairs(uv0) do
+				for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
+					if string.find(slot10, "^map_") and slot4[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot4[2][1]) and not slot12:isClear() then
+						uv2 = slot10
 
-				break
+						return
+					end
+				end
 			end
-		end
+		end)()
 	end
 
 	slot5, slot6 = slot0:GetMapAnimator(slot1)
@@ -2348,7 +2381,21 @@ function slot0.GetMapAnimator(slot0, slot1)
 	slot2 = slot1:getConfig("ani_name")
 
 	if slot1:getConfig("animtor") == 1 and slot2 and #slot2 > 0 then
-		return slot2, slot1:getConfig("ani_controller")
+		if slot1:getConfig("ani_controller") and #slot3 > 0 then
+			(function ()
+				for slot3, slot4 in ipairs(uv0) do
+					for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
+						if string.find(slot10, "^effect_") and slot4[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot4[2][1]) and not slot12:isClear() then
+							uv2 = "map_" .. string.sub(slot10, 8)
+
+							return
+						end
+					end
+				end
+			end)()
+		end
+
+		return slot2, slot3
 	end
 end
 

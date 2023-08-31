@@ -16,6 +16,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actor = slot1.actor
 	slot0.nameColor = slot1.nameColor
 	slot0.actorName = slot1.actorName
+	slot0.subActorName = slot1.factiontag
+	slot0.subActorNameColor = slot1.factiontagColor or "#7D7D7D"
 	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
 	slot0.fontSize = slot1.fontsize
@@ -63,9 +65,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.live2dOffset = slot1.live2dOffset
 	slot0.icon = slot1.icon
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
+	slot0.canMarkNode = slot1.canMarkNode
 
 	if slot0.hidePainting or slot0.actor == nil then
-		slot0.actor = nil
 		slot0.hideOtherPainting = true
 	end
 
@@ -210,7 +212,6 @@ function slot0.GetPaintingAndName(slot0)
 		slot2 = slot4:getPainting()
 	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
 		slot1 = getProxy(PlayerProxy):getRawData().name
-		slot2 = "unknown"
 	elseif not slot0.actor then
 		slot2 = nil
 		slot1 = nil
@@ -331,6 +332,14 @@ function slot0.GetLive2dAction(slot0)
 	end
 end
 
+function slot0.GetSubActorName(slot0)
+	if slot0.subActorName and slot0.subActorName ~= "" then
+		return setColorStr(slot0.subActorName, slot0.subActorNameColor)
+	else
+		return ""
+	end
+end
+
 function slot0.IsSamePainting(slot0, slot1)
 	return slot0:GetPainting() == slot1:GetPainting() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting() and not (function ()
 		return uv0:ShouldAddGlitchArtEffect() or uv1:ShouldAddGlitchArtEffect()
@@ -343,6 +352,25 @@ end
 
 function slot0.GetIconData(slot0)
 	return slot0.icon
+end
+
+function slot0.ExistCanMarkNode(slot0)
+	return slot0.canMarkNode ~= nil and type(slot0.canMarkNode) == "table" and slot0.canMarkNode[1] and slot0.canMarkNode[1] ~= "" and slot0.canMarkNode[2] and type(slot0.canMarkNode[2]) == "table"
+end
+
+function slot0.GetCanMarkNodeData(slot0)
+	slot1 = {}
+	slot2 = ipairs
+	slot3 = slot0.canMarkNode[2] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot1, slot6 .. "")
+	end
+
+	return {
+		name = slot0.canMarkNode[1],
+		marks = slot1
+	}
 end
 
 function slot0.OnClear(slot0)

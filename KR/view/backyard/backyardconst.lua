@@ -21,6 +21,8 @@ slot0.DORM_UPDATE_TYPE_FLOOR = 32
 slot0.DORM_UPDATE_TYPE_FURNITURE = 64
 slot0.DORM_UPDATE_TYPE_USEFOOD = 128
 slot0.DORM_UPDATE_TYPE_EXTENDFOOD = 256
+slot0.MAX_MAP_SIZE = Vector2(23, 23)
+slot0.MAX_FEAST_MAP_SIZE = Vector2(25, 25)
 
 function slot0.ThemeSortIndex2ServerIndex(slot0, slot1)
 	slot1 = defaultValue(slot1, true)

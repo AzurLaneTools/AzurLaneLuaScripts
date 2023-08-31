@@ -243,4 +243,102 @@ function slot0.isInBuffTime(slot0)
 	return false
 end
 
+function slot0.GetDrop(slot0, slot1)
+	slot2 = slot0.dropList[slot1]
+
+	return {
+		type = slot2[1],
+		id = slot2[2],
+		count = slot2[3]
+	}
+end
+
+function slot0.GetPtTarget(slot0, slot1)
+	if slot1 <= 0 then
+		return 0
+	elseif slot1 > #slot0.targets then
+		return slot0.targets[#slot0.targets]
+	else
+		return slot0.targets[slot1]
+	end
+end
+
+function slot0.GetCurrLevel(slot0)
+	for slot4, slot5 in ipairs(slot0.targets) do
+		if slot0.count < slot5 then
+			return slot4 - 1
+		end
+	end
+
+	return #slot0.targets
+end
+
+function slot0.IsMaxLevel(slot0)
+	return slot0:GetCurrLevel() == #slot0.targets
+end
+
+function slot0.GetNextLevel(slot0)
+	for slot4, slot5 in ipairs(slot0.targets) do
+		if slot0.count < slot5 then
+			return slot4
+		end
+	end
+
+	return #slot0.targets
+end
+
+function slot0.GetCurrTarget(slot0)
+	return slot0:GetPtTarget(slot0:GetCurrLevel())
+end
+
+function slot0.GetNextLevelTarget(slot0)
+	return slot0:GetPtTarget(slot0:GetNextLevel())
+end
+
+function slot0.IsGotLevelAward(slot0, slot1)
+	slot2 = slot0:GetPtTarget(slot1)
+
+	for slot6, slot7 in ipairs(slot0.activity.data1_list) do
+		if slot7 == slot2 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.GetLastAward(slot0)
+	slot1 = slot0.dropList[#slot0.targets]
+
+	return {
+		type = slot1[1],
+		id = slot1[2],
+		count = slot1[3]
+	}
+end
+
+slot0.STATE_LOCK = 1
+slot0.STATE_CAN_GET = 2
+slot0.STATE_GOT = 3
+
+function slot0.GetDroptItemState(slot0, slot1)
+	if slot0:GetCurrLevel() < slot1 then
+		return uv0.STATE_LOCK
+	elseif slot0:IsGotLevelAward(slot1) then
+		return uv0.STATE_GOT
+	else
+		return uv0.STATE_CAN_GET
+	end
+end
+
+function slot0.AnyAwardCanGet(slot0)
+	for slot4, slot5 in ipairs(slot0.targets) do
+		if slot0:GetDroptItemState(slot4) == uv0.STATE_CAN_GET then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

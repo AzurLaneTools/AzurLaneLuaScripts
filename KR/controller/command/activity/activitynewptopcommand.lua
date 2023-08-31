@@ -22,6 +22,7 @@ function slot0.execute(slot0, slot1)
 
 			if uv0.cmd == 1 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+				uv1 = uv2:getActivityById(uv0.activity_id)
 
 				table.insert(uv1.data1_list, uv0.arg1)
 
@@ -32,6 +33,7 @@ function slot0.execute(slot0, slot1)
 				uv1.data3 = slot0.number[1]
 			elseif uv0.cmd == 3 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+				uv1 = uv2:getActivityById(uv0.activity_id)
 
 				if uv0.arg1 and uv0.arg1 > 0 then
 					table.insert(uv1.data2_list, uv0.arg1)
@@ -46,6 +48,7 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv0.cmd == 4 then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
+				uv1 = uv2:getActivityById(uv0.activity_id)
 
 				for slot6, slot7 in ipairs(uv1:getDataConfig("target")) do
 					if slot7 <= uv0.arg1 then
