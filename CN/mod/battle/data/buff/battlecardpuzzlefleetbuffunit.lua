@@ -3,9 +3,9 @@ slot0 = ys
 slot1 = slot0.Battle.BattleBuffEvent
 slot2 = slot0.Battle.BattleConst.BuffEffectType
 slot3 = slot0.Battle.BattleCardPuzzleFormulas
-slot4 = class("BattleFleetBuffUnit")
-slot0.Battle.BattleFleetBuffUnit = slot4
-slot4.__name = "BattleFleetBuffUnit"
+slot4 = class("BattleCardPuzzleFleetBuffUnit")
+slot0.Battle.BattleCardPuzzleFleetBuffUnit = slot4
+slot4.__name = "BattleCardPuzzleFleetBuffUnit"
 
 function slot4.Ctor(slot0, slot1, slot2)
 	slot2 = slot2 or 1

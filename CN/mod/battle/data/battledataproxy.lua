@@ -127,6 +127,24 @@ function slot9.StartCardPuzzle(slot0)
 	end
 end
 
+function slot9.PausePuzzleComponent(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		if slot5:GetCardPuzzleComponent() then
+			slot6:BlockComponentByCard(true)
+		end
+	end
+end
+
+function slot9.ResumePuzzleComponent(slot0)
+	onDelayTick(function ()
+		for slot3, slot4 in pairs(uv0._fleetList) do
+			if slot4:GetCardPuzzleComponent() then
+				slot5:BlockComponentByCard(false)
+			end
+		end
+	end, 0.06)
+end
+
 function slot9.GetInitData(slot0)
 	return slot0._battleInitData
 end

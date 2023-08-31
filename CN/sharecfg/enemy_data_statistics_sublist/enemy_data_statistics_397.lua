@@ -362,7 +362,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295166] = {
 		cannon = 109,
-		name = "神通·META(Tier.1)",
+		name = "貎·META(Tier.1)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -407,7 +407,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295167] = {
 		cannon = 124,
-		name = "神通·META(Tier.2)",
+		name = "貎·META(Tier.2)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -452,7 +452,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295168] = {
 		cannon = 140,
-		name = "神通·META(Tier.3)",
+		name = "貎·META(Tier.3)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -497,7 +497,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295169] = {
 		cannon = 156,
-		name = "神通·META(Tier.4)",
+		name = "貎·META(Tier.4)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -542,7 +542,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295170] = {
 		cannon = 171,
-		name = "神通·META(Tier.5)",
+		name = "貎·META(Tier.5)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -587,7 +587,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295171] = {
 		cannon = 187,
-		name = "神通·META(Tier.6)",
+		name = "貎·META(Tier.6)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -632,7 +632,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295172] = {
 		cannon = 203,
-		name = "神通·META(Tier.7)",
+		name = "貎·META(Tier.7)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -677,7 +677,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295173] = {
 		cannon = 218,
-		name = "神通·META(Tier.8)",
+		name = "貎·META(Tier.8)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -722,7 +722,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295174] = {
 		cannon = 234,
-		name = "神通·META(Tier.9)",
+		name = "貎·META(Tier.9)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -767,7 +767,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295175] = {
 		cannon = 249,
-		name = "神通·META(Tier.10)",
+		name = "貎·META(Tier.10)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -812,7 +812,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295176] = {
 		cannon = 265,
-		name = "神通·META(Tier.11)",
+		name = "貎·META(Tier.11)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -857,7 +857,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295177] = {
 		cannon = 281,
-		name = "神通·META(Tier.12)",
+		name = "貎·META(Tier.12)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -902,7 +902,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295178] = {
 		cannon = 296,
-		name = "神通·META(Tier.13)",
+		name = "貎·META(Tier.13)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -947,7 +947,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295179] = {
 		cannon = 312,
-		name = "神通·META(Tier.14)",
+		name = "貎·META(Tier.14)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -992,7 +992,7 @@ pg.enemy_data_statistics_397 = {
 	},
 	[295180] = {
 		cannon = 328,
-		name = "神通·META(Tier.15)",
+		name = "貎·META(Tier.15)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
