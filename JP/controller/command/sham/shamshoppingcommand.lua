@@ -6,10 +6,12 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot2.type
 	slot7 = getProxy(PlayerProxy):getRawData()
 	slot10 = getProxy(ShopsProxy):getShamShop():getGoodsCfg(slot2.id)
-	slot11, slot12 = getPlayerOwn(slot10.resource_category, slot10.resource_type)
 
-	if slot12 < slot10.resource_num * slot2.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot11))
+	if GetOwnedDropCount({
+		type = slot10.resource_category,
+		id = slot10.resource_type
+	}) < slot10.resource_num * slot2.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", getDropName(slot11)))
 
 		return
 	end
@@ -28,9 +30,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot13 = pg.ConnectionMgr.GetInstance()
+	slot12 = pg.ConnectionMgr.GetInstance()
 
-	slot13:Send(16201, {
+	slot12:Send(16201, {
 		id = slot3,
 		type = uv0.SHAM_SHOP,
 		count = slot4
@@ -40,7 +42,11 @@ function slot0.execute(slot0, slot1)
 
 			slot2:getGoodsById(uv1):addBuyCount(uv2)
 			uv0:updateShamShop(slot2)
-			reducePlayerOwn(uv3.resource_category, uv3.resource_type, uv3.resource_num * uv2)
+			reducePlayerOwn({
+				type = uv3.resource_category,
+				id = uv3.resource_type,
+				count = uv3.resource_num * uv2
+			})
 			uv4:sendNotification(GAME.SHAM_SHOPPING_DONE, {
 				awards = PlayerConst.addTranDrop(slot0.drop_list),
 				id = uv1

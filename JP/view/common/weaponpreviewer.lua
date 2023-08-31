@@ -16,6 +16,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
 	slot0.seaCamera.enabled = true
 	slot0.mainCameraGO = pg.UIMgr.GetInstance():GetMainCamera()
+	slot0.displayFireFX = true
+	slot0.displayHitFX = false
 end
 
 function slot0.configUI(slot0, slot1)
@@ -37,6 +39,11 @@ function slot0.setDisplayWeapon(slot0, slot1, slot2, slot3)
 	slot0.equipSkinId = slot2 or 0
 
 	slot0:onWeaponUpdate()
+end
+
+function slot0.SetFXMode(slot0, slot1, slot2)
+	slot0.displayFireFX = slot1
+	slot0.displayHitFX = slot2
 end
 
 function slot0.load(slot0, slot1, slot2, slot3, slot4)
@@ -249,6 +256,7 @@ function slot0.onWeaponUpdate(slot0)
 
 			uv0.bulletList = {}
 			uv0.aircraftList = {}
+			uv0.UpdateHandlers = {}
 		end
 
 		if #slot0.weaponIds == 0 and slot0.playRandomAnims then
@@ -312,7 +320,7 @@ function slot0.SeaFire(slot0)
 						end
 					end
 
-					if slot2 and slot2 ~= "" then
+					if slot2 and slot2 ~= "" and uv1.displayFireFX then
 						slot3 = uv1.seaFXPool
 
 						slot3:GetCharacterFX(slot2, uv1, true, function ()
@@ -487,6 +495,20 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 
 			if uv1.bulletList then
 				table.insert(uv1.bulletList, uv0)
+
+				if uv1.equipSkinId > 0 then
+					slot3 = pg.equip_skin_template[uv1.equipSkinId]
+
+					if uv3:GetType() == ys.Battle.BattleConst.BulletType.CANNON then
+						if _.any(EquipType.CannonEquipTypes, function (slot0)
+							return table.contains(uv0.equip_type, slot0)
+						end) and slot3.preview_hit_distance > 0 then
+							uv1:AddSelfDestroyBullet(uv0, slot3.preview_hit_distance)
+						end
+					elseif slot4 == slot5.TORPEDO and table.contains(slot3.equip_type, EquipType.Torpedo) and slot3.preview_hit_distance > 0 then
+						uv1:AddSelfDestroyBullet(uv0, slot3.preview_hit_distance)
+					end
+				end
 			end
 		end
 
@@ -537,6 +559,27 @@ function slot0.createEmitterAir(slot0, slot1, slot2, slot3)
 		end)
 	end, function ()
 	end, slot1)
+end
+
+function slot0.AddSelfDestroyBullet(slot0, slot1, slot2)
+	if not slot0.displayHitFX then
+		return
+	end
+
+	table.insert(slot0.UpdateHandlers, function (slot0)
+		if not table.indexof(uv0.bulletList, uv1) then
+			slot0()
+
+			return
+		end
+
+		if uv1:GetBulletData():GetCurrentDistance() < uv2 then
+			return
+		end
+
+		uv0:RemoveBullet(slot1, true)
+		slot0()
+	end)
 end
 
 function slot0.RemoveBullet(slot0, slot1, slot2)
@@ -611,6 +654,12 @@ function slot0.SeaUpdate(slot0)
 				slot4.tf.localPosition = slot5
 				slot4.pos = slot5
 			end
+		end
+
+		for slot3 = #uv0.UpdateHandlers, 1, -1 do
+			uv0.UpdateHandlers[slot3](function ()
+				table.remove(uv0.UpdateHandlers, uv1)
+			end)
 		end
 
 		uv5 = uv5 + 1

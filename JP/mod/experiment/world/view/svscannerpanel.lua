@@ -7,6 +7,10 @@ function slot0.getUIName(slot0)
 	return "SVScannerPanel"
 end
 
+function slot0.getBGM(slot0)
+	return "echo-loop"
+end
+
 function slot0.OnLoaded(slot0)
 end
 
@@ -123,8 +127,8 @@ function slot0.Show(slot0, slot1, slot2)
 
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	setActive(slot0._tf, true)
-	pg.CriMgr.GetInstance():PlayBGM("echo-loop", "sub_view")
 	slot0:EaseInOut(true)
+	uv0.super.Show(slot0)
 end
 
 function slot0.Hide(slot0, slot1)
@@ -144,14 +148,14 @@ function slot0.Hide(slot0, slot1)
 		uv0.wsDragProxy.onDragFunction = nil
 
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
-		pg.CriMgr.GetInstance():ResumeLastNormalBGM()
-		setActive(uv0._tf, false)
 
 		if uv1 then
 			uv0:emit(uv2.HideGoing, uv0.attachment.row, uv0.attachment.column)
 		else
 			uv0:emit(uv2.HideView)
 		end
+
+		uv2.super.Hide(uv0)
 	end)
 end
 

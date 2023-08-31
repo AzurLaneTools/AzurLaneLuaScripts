@@ -44,7 +44,7 @@ function slot0.OnLoaded(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.showList[slot1]
 
-			GetImageSpriteFromAtlasAsync(Item.GetIcon(slot3.type, slot3.id), "", slot2:Find("icon"))
+			GetImageSpriteFromAtlasAsync(getDropIcon(slot3), "", slot2:Find("icon"))
 			setText(slot2:Find("Text"), "X" .. slot3.count)
 		end
 	end)

@@ -153,7 +153,10 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 			skipable_list = uv0.config.link_params
 		})
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), Item.GetName(slot3.config.type, slot3.config.drop_id))
+	changeToScrollText(slot0:findTF("name_mask/name", slot2), getDropName({
+		type = slot3.config.type,
+		id = slot3.config.drop_id
+	}))
 	setText(slot0:findTF("owner/number", slot2), slot3.count .. "/" .. slot3.config.count)
 
 	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1

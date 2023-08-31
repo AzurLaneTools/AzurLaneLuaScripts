@@ -11275,6 +11275,24 @@ pg.fleet_tech_ship_template = {
 			2
 		}
 	},
+	[970205] = {
+		max_star = 6,
+		id = 970205,
+		pt_get = 15,
+		pt_upgrage = 30,
+		add_get_attr = 8,
+		add_level_value = 1,
+		class = 970205,
+		pt_level = 23,
+		add_get_value = 1,
+		add_level_attr = 3,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
 	[970301] = {
 		max_star = 5,
 		id = 970301,
@@ -12168,6 +12186,7 @@ pg.fleet_tech_ship_template = {
 		970202,
 		970203,
 		970204,
+		970205,
 		970301,
 		970302,
 		970401,

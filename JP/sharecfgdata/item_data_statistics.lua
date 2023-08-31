@@ -10371,6 +10371,29 @@ _G.pg.base.item_data_statistics[21024] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21025] = {
+	display = "神通(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：神通(META)",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21025",
+	id = 21025,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -10709,6 +10732,29 @@ _G.pg.base.item_data_statistics[21911] = {
 	is_world = 0,
 	icon = "Props/21911",
 	id = 21911,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21912] = {
+	display = "神通(META)の解析ポイント",
+	name = "神通(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21912",
+	id = 21912,
 	display_icon = {},
 	price = {},
 	index = {},

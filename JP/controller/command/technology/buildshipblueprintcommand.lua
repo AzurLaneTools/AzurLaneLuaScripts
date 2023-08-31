@@ -3,29 +3,30 @@ slot0 = class("BuildShipBluePrintCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.hideTip
+	slot7, slot8 = getProxy(TechnologyProxy):getBluePrintById(slot2.id):isFinishPrevTask()
 
-	if not getProxy(TechnologyProxy):getBluePrintById(slot2.id):isFinishPrevTask(true) then
+	if not slot8 then
 		pg.TipsMgr.GetInstance():ShowTips("without finish pre task")
 
 		return
 	end
 
 	if pg.TimeMgr.GetInstance():GetServerTime() < slot5:getColdTime() then
-		if slot7 - slot8 < 0 then
-			slot9 = 0
+		if slot9 - slot10 < 0 then
+			slot11 = 0
 		end
 
-		slot11 = nil
+		slot13 = nil
 
-		pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_cannot_build_tip", math.floor(slot9 / 86400) > 0 and i18n("time_remaining_tip") .. slot10 .. i18n("word_date") or math.floor(slot9 / 3600) > 0 and i18n("time_remaining_tip") .. slot12 .. i18n("word_hour") or math.floor(slot9 / 60) > 0 and i18n("time_remaining_tip") .. slot13 .. i18n("word_minute") or i18n("time_remaining_tip") .. slot9 .. i18n("word_second")))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_cannot_build_tip", math.floor(slot11 / 86400) > 0 and i18n("time_remaining_tip") .. slot12 .. i18n("word_date") or math.floor(slot11 / 3600) > 0 and i18n("time_remaining_tip") .. slot14 .. i18n("word_hour") or math.floor(slot11 / 60) > 0 and i18n("time_remaining_tip") .. slot15 .. i18n("word_minute") or i18n("time_remaining_tip") .. slot11 .. i18n("word_second")))
 
 		return
 	end
 
-	slot9 = {}
+	slot11 = {}
 
 	if slot5:getBuildingBluePrint() then
-		table.insert(slot9, function (slot0)
+		table.insert(slot11, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("cannot_build_multiple_printblue", uv0:getShipVO():getConfig("name"), uv1:getShipVO():getConfig("name")),
 				onYes = function ()
@@ -37,7 +38,7 @@ function slot0.execute(slot0, slot1)
 			})
 		end)
 	else
-		table.insert(slot9, function (slot0)
+		table.insert(slot11, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("blueprint_build_time_tip"),
 				onYes = slot0
@@ -45,7 +46,7 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	seriesAsync(slot9, function ()
+	seriesAsync(slot11, function ()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(63200, {

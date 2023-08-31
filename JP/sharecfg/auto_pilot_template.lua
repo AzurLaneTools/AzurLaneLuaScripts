@@ -8748,7 +8748,7 @@ pg.auto_pilot_template = {
 		list = {
 			{
 				index = 1,
-				to = 1,
+				to = 2,
 				type = 1,
 				param = {
 					x = -10,
@@ -8760,7 +8760,7 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 0,
 				param = {
-					duration = -1
+					duration = 1
 				}
 			}
 		}

@@ -4312,6 +4312,14 @@ _G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "艦隊整備発令可能になるまであと$1"
 }
 
+_G.pg.base.gametip.world_instruction_port_goods_locked = {
+	tip = "エリア確保進捗"
+}
+
+_G.pg.base.gametip.world_port_inbattle = {
+	tip = "艦隊が作戦行動中につき寄港できません"
+}
+
 _G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "セイレーン作戦リセットのため、下記アイテムが変換されます"
 }
@@ -4456,8 +4464,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.6.8-2023.8.31</color>
-META戦・アルジェリー(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2023.8.31-2023.11.23</color>
+META戦・神通(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -5363,6 +5371,10 @@ _G.pg.base.gametip.word_shipNation_ryza = {
 	tip = "ライザのアトリエ２／３"
 }
 
+_G.pg.base.gametip.word_shipNation_meta_index = {
+	tip = "META"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -6224,6 +6236,16 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
+			info = "    速力：戦闘中の艦隊の移動速度に影響する\n       一部ステージでの味方のターン毎の最大移動距離に影響する\n ",
+			icon = {
+				path = "attr_speed",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.6,
+				posX = 0
+			}
+		},
+		{
 			info = "    消費：一回の戦闘で消費する燃料",
 			icon = {
 				path = "expend",
@@ -6278,7 +6300,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータス。戦闘には多くの要素に微々たる影響を与える",
+			info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータス。戦闘で多くの要素に微々たる影響を与える",
 			icon = {
 				path = "luck",
 				atlas = "attricon",
@@ -8971,6 +8993,46 @@ _G.pg.base.gametip.card_pairs_tips = {
 	tip = "本日はこれ以上「月餅」を入手できません。新しいゲームを始めますか？"
 }
 
+_G.pg.base.gametip["card_battle_card details_deck"] = {
+	tip = "コマンドデッキ"
+}
+
+_G.pg.base.gametip["card_battle_card details_hand"] = {
+	tip = "選択中のコマンド"
+}
+
+_G.pg.base.gametip["card_battle_card details"] = {
+	tip = "コマンド詳細"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_deck"] = {
+	tip = "デッキ確認"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_hand"] = {
+	tip = "コマンド確認"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_en = {
+	tip = "- LIST IS EMPTY -"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_ch = {
+	tip = "デッキにコマンドカードが存在しません"
+}
+
+_G.pg.base.gametip.card_puzzel_goal_ch = {
+	tip = "ステージ目標"
+}
+
+_G.pg.base.gametip.card_puzzel_goal_en = {
+	tip = "TARGET"
+}
+
+_G.pg.base.gametip.card_puzzle_deck = {
+	tip = "デッキ"
+}
+
 _G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "レベルが最大です。\n現在はこれ以上認識覚醒できません。"
 }
@@ -9726,7 +9788,7 @@ _G.pg.base.gametip.reflux_word_2 = {
 }
 
 _G.pg.base.gametip.ship_hunting_level_tips = {
-	tip = "※限界突破と装備効果、オフニャによる支援範囲Lv上昇のみが反映されます。"
+	tip = "※限界突破と装備効果、オフニャによる支援範囲Lv上昇のみが反映されます（最大Lv5）"
 }
 
 _G.pg.base.gametip.acquisitionmode_is_not_open = {
@@ -10073,15 +10135,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ハウ」「ヴァリアント」常設実装！"
+	tip = "「プリンツ・ハインリヒ」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「エスキモー」常設実装！"
+	tip = "「ニュルンベルク」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「パーシュース」「イーグル」常設実装！"
+	tip = "「ペーター・シュトラッサー」「U-37」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -17646,7 +17708,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2023.6.8-2023.8.31</color>アルジェリー(META) META戦開放期間は「アルジェリー・META」の解析Ptを入手できます。
+※<color=#92fc63>2023.6.8-2023.8.31</color>神通(META) META戦開放期間は「神通・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -19358,6 +19420,10 @@ _G.pg.base.gametip.attr_luck = {
 
 _G.pg.base.gametip.attr_consume = {
 	tip = "消費"
+}
+
+_G.pg.base.gametip.attr_speed = {
+	tip = "速力"
 }
 
 _G.pg.base.gametip.monthly_card_tip = {
@@ -25161,4 +25227,12 @@ _G.pg.base.gametip.feast_drag_invitation_tip = {
 
 _G.pg.base.gametip.feast_drag_gift_tip = {
 	tip = "*記念品をキャラにドラッグして贈る"
+}
+
+_G.pg.base.gametip.shoot_preview = {
+	tip = "発射演出"
+}
+
+_G.pg.base.gametip.hit_preview = {
+	tip = "命中演出"
 }

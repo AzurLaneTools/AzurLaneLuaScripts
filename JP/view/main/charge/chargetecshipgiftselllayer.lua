@@ -147,7 +147,7 @@ function slot0.updateGiftTF(slot0, slot1, slot2)
 			onButton(uv0, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setScrollText(uv0:findTF("TextMask/Text", slot2), Item.GetName(slot6.type, slot6.id))
+			setScrollText(uv0:findTF("TextMask/Text", slot2), getDropName(slot6))
 		end
 	end)
 	slot20:align(#slot19)

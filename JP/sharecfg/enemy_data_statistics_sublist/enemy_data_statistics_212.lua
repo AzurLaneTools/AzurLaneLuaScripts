@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.enemy_data_statistics_212 = {
+	[13900151] = {
+		cannon = 55,
+		antiaircraft_growth = 3600,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 0,
+		speed = 20,
+		dodge = 11,
+		id = 13900151,
+		cannon_growth = 1600,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck = 4,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 80,
+		base = 90455,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		durability_growth = 125600,
+		antiaircraft = 145,
+		antisub = 0,
+		battle_unit_type = 90,
+		bound_bone = {
+			cannon = {
+				{
+					2.54,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.14,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					2.5,
+					0
+				}
+			},
+			lighting = {
+				{
+					2.5,
+					-4.8,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			qinraozhe_120 = 2.5
+		},
+		appear_fx = {
+			"appearQ",
+			"qinraozhe_120"
+		},
+		equipment_list = {
+			1002252
+		}
+	},
 	[13900181] = {
 		cannon = 64,
 		reload = 150,
@@ -809,48 +888,6 @@ pg.enemy_data_statistics_212 = {
 			680219,
 			680220,
 			680221
-		}
-	},
-	[13900221] = {
-		cannon = 8,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 560,
-		battle_unit_type = 25,
-		air = 0,
-		base = 90417,
-		dodge = 0,
-		durability_growth = 10000,
-		antiaircraft = 80,
-		speed = 15,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		antisub = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1000,
-		torpedo = 36,
-		durability = 640,
-		armor_growth = 0,
-		torpedo_growth = 3250,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		fog_fx = "",
-		id = 13900221,
-		specific_fx_scale = {
-			dianliu_DD = 1.5
-		},
-		appear_fx = {
-			"appearsmall",
-			"dianliu_DD"
-		},
-		equipment_list = {
-			1002003,
-			1002008,
-			1002013
 		}
 	}
 }

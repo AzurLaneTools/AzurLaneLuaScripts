@@ -320557,7 +320557,7 @@ _G.pg.base.ship_data_statistics[900383] = {
 _G.pg.base.ship_data_statistics[900384] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "圣女贞德",
+	name = "ジャンヌ・ダルク",
 	type = 2,
 	oxy_cost = 0,
 	skin_id = 802020,
@@ -320681,7 +320681,7 @@ _G.pg.base.ship_data_statistics[900384] = {
 _G.pg.base.ship_data_statistics[900385] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "谢菲尔德",
+	name = "シェフィールド",
 	type = 2,
 	oxy_cost = 0,
 	skin_id = 202080,
@@ -320936,7 +320936,7 @@ _G.pg.base.ship_data_statistics[900386] = {
 _G.pg.base.ship_data_statistics[900387] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "骏河",
+	name = "駿河",
 	type = 5,
 	oxy_cost = 0,
 	skin_id = 305140,
@@ -321060,7 +321060,7 @@ _G.pg.base.ship_data_statistics[900387] = {
 _G.pg.base.ship_data_statistics[900388] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "帝国",
+	name = "インペロ",
 	type = 7,
 	oxy_cost = 0,
 	skin_id = 607020,
@@ -321184,7 +321184,7 @@ _G.pg.base.ship_data_statistics[900388] = {
 _G.pg.base.ship_data_statistics[900389] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "里昂",
+	name = "リヨン",
 	type = 5,
 	oxy_cost = 0,
 	skin_id = 805020,
@@ -321308,7 +321308,7 @@ _G.pg.base.ship_data_statistics[900389] = {
 _G.pg.base.ship_data_statistics[900390] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "孟菲斯·META",
+	name = "メンフィス(META)",
 	type = 2,
 	oxy_cost = 0,
 	skin_id = 9702020,
@@ -321437,7 +321437,7 @@ _G.pg.base.ship_data_statistics[900390] = {
 _G.pg.base.ship_data_statistics[900391] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "阿布鲁齐公爵",
+	name = "ドゥーカ・デッリ・アブルッツィ",
 	type = 2,
 	oxy_cost = 0,
 	skin_id = 602010,
@@ -321565,7 +321565,7 @@ _G.pg.base.ship_data_statistics[900391] = {
 _G.pg.base.ship_data_statistics[900392] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "喀琅施塔得",
+	name = "クロンシュタット",
 	type = 18,
 	oxy_cost = 0,
 	skin_id = 718010,
@@ -321692,7 +321692,7 @@ _G.pg.base.ship_data_statistics[900392] = {
 _G.pg.base.ship_data_statistics[900393] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "飞龙·META",
+	name = "飛龍(META)",
 	type = 7,
 	oxy_cost = 0,
 	skin_id = 9707010,
@@ -321813,7 +321813,7 @@ _G.pg.base.ship_data_statistics[900393] = {
 _G.pg.base.ship_data_statistics[900394] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "皇家方舟·META",
+	name = "アーク・ロイヤル(META)",
 	type = 7,
 	oxy_cost = 0,
 	skin_id = 9707020,
@@ -321934,7 +321934,7 @@ _G.pg.base.ship_data_statistics[900394] = {
 _G.pg.base.ship_data_statistics[900395] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "光辉",
+	name = "イラストリアス",
 	type = 7,
 	oxy_cost = 0,
 	skin_id = 207030,
@@ -322056,7 +322056,7 @@ _G.pg.base.ship_data_statistics[900395] = {
 _G.pg.base.ship_data_statistics[900396] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "路易九世",
+	name = "サン・ルイ",
 	type = 3,
 	oxy_cost = 0,
 	skin_id = 899010,
@@ -322182,7 +322182,7 @@ _G.pg.base.ship_data_statistics[900396] = {
 _G.pg.base.ship_data_statistics[900397] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "鲁普雷希特亲王",
+	name = "プリンツ・ループレヒト",
 	type = 18,
 	oxy_cost = 0,
 	skin_id = 499070,
@@ -322307,7 +322307,7 @@ _G.pg.base.ship_data_statistics[900397] = {
 _G.pg.base.ship_data_statistics[900398] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "弗兰德尔",
+	name = "フランドル",
 	type = 18,
 	oxy_cost = 0,
 	skin_id = 999020,
@@ -322433,7 +322433,7 @@ _G.pg.base.ship_data_statistics[900398] = {
 _G.pg.base.ship_data_statistics[900399] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "加斯科涅",
+	name = "ガスコーニュ",
 	type = 5,
 	oxy_cost = 0,
 	skin_id = 999010,
@@ -322557,7 +322557,7 @@ _G.pg.base.ship_data_statistics[900399] = {
 _G.pg.base.ship_data_statistics[900400] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "香槟",
+	name = "シャンパーニュ",
 	type = 5,
 	oxy_cost = 0,
 	skin_id = 899020,
@@ -322681,7 +322681,7 @@ _G.pg.base.ship_data_statistics[900400] = {
 _G.pg.base.ship_data_statistics[900401] = {
 	raid_distance = 0,
 	oxy_max = 0,
-	name = "奥丁",
+	name = "オーディン",
 	type = 5,
 	oxy_cost = 0,
 	skin_id = 499040,
@@ -331689,6 +331689,522 @@ _G.pg.base.ship_data_statistics[9702044] = {
 	tag_list = {
 		"La Galissonnière.META",
 		"La Galissonnière-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "神通(META)",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		518,
+		32,
+		62,
+		61,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		25
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.6,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "神通(META)",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		644,
+		40,
+		77,
+		76,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		31
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.6,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "神通(META)",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		897,
+		56,
+		108,
+		106,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		43
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.7,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "神通(META)",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702050,
+	english_name = "Jintsū.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1276,
+		80,
+		154,
+		151,
+		0,
+		75,
+		0,
+		42,
+		23,
+		35,
+		38,
+		62
+	},
+	attrs_growth = {
+		9070,
+		446,
+		1163,
+		792,
+		0,
+		522,
+		0,
+		593,
+		512,
+		0,
+		0,
+		350
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.85,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Jintsū.META",
+		"Sendai-Class",
+		"Musashi-Game"
 	}
 }
 

@@ -1951,6 +1951,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970103] = {
 			30024
+		},
+		[970205] = {
+			30025
 		}
 	},
 	all = {
@@ -2603,7 +2606,8 @@ pg.ship_data_group = setmetatable({
 		30021,
 		30022,
 		30023,
-		30024
+		30024,
+		30025
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19781,6 +19785,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20411,6 +20425,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20821,6 +20846,17 @@ pg.base.ship_data_group = {
 				"イベント：虚畳なりし限象",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21348,6 +21384,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21487,6 +21534,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21562,6 +21620,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21602,6 +21671,16 @@ pg.base.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
 					}
 				},
 				0
@@ -29528,6 +29607,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701031
+					}
+				},
+				0
+			}
+		}
+	},
+	[30025] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30025,
+		code = 30025,
+		group_type = 970205,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702051
 					}
 				},
 				0

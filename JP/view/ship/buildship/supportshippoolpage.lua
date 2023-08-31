@@ -35,7 +35,10 @@ function slot0.Flush(slot0)
 
 	slot4 = slot0:findTF("gallery/item_bg/medal")
 
-	setText(slot4:Find("name"), Item.GetName(DROP_TYPE_ITEM, ITEM_ID_SILVER_HOOK))
+	setText(slot4:Find("name"), getDropName({
+		type = DROP_TYPE_ITEM,
+		id = ITEM_ID_SILVER_HOOK
+	}))
 	setText(slot4:Find("count/Text"), slot1:getSupportShipCost())
 	slot0:UpdateBuildPoolPaiting()
 	onButton(slot0, slot0.helpBtn, function ()

@@ -200,6 +200,22 @@ function slot0.GetMaxCntForShip(slot0)
 	}))) + table.getCount(slot0.storey:GetShips())
 end
 
+function slot0.SelectFurnitureByConfigId(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0.storey.furnitures) do
+		if slot7.configId == slot1 then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot0:SelectFurniture(slot2.id)
+	end
+end
+
 function slot0.SelectFurniture(slot0, slot1)
 	if slot0.storey:InEidtMode() then
 		slot0.storey:SelectFurniture(slot1)

@@ -5,6 +5,7 @@ slot0.OnAccepetTask = "WorldPortMediator.OnAccepetTask"
 slot0.OnSubmitTask = "WorldPortMediator.OnSubmitTask"
 slot0.OnReqPort = "WorldPortMediator.OnReqPort"
 slot0.OnBuyGoods = "WorldPortMediator.OnBuyGoods"
+slot0.OnBuyNShopGoods = "WorldPortMediator.OnBuyNShopGoods"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.OnOpenBay, function ()
@@ -42,30 +43,34 @@ function slot0.register(slot0)
 			goods = slot1
 		})
 	end)
+	slot0:bind(uv0.OnBuyNShopGoods, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.WORLD_PORT_NEW_SHOPPING, {
+			goods = slot1,
+			count = slot2
+		})
+	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 
 	slot1 = nowWorld()
 
+	slot0.viewComponent:SetAtlas(slot1:GetAtlas())
 	slot0.viewComponent:SetPort(slot1:GetActiveMap():GetPort())
 	slot0:CheckTaskNotify(slot1:GetTaskProxy())
 end
 
-function slot0.listNotificationInterests(slot0)
-	return {
-		PlayerProxy.UPDATED,
-		GAME.WORLD_PORT_SHOPPING_DONE
+function slot0.initNotificationHandleDic(slot0)
+	slot0.handleDic = {
+		[PlayerProxy.UPDATED] = function (slot0, slot1)
+			slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
+		end,
+		[GAME.WORLD_PORT_SHOPPING_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().drops)
+			slot0.viewComponent:UpdateCDTip()
+		end,
+		[GAME.WORLD_PORT_NEW_SHOPPING_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().drops)
+		end
 	}
-end
-
-function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
-	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
-	elseif slot2 == GAME.WORLD_PORT_SHOPPING_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.drops)
-		slot0.viewComponent:UpdateCDTip()
-	end
 end
 
 function slot0.CheckTaskNotify(slot0, slot1)

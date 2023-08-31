@@ -99,7 +99,7 @@ end
 function slot2.ChatUseable(slot0)
 	slot3 = slot0:GetBattleType()
 
-	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3))
+	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3)) and not (slot3 == SYSTEM_CARDPUZZLE)
 end
 
 function slot2.GetState(slot0)
@@ -146,6 +146,8 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleAirFightCommand.New())
 	elseif slot1.battleType == SYSTEM_GUILD then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleGuildBossCommand.New())
+	elseif slot1.battleType == SYSTEM_CARDPUZZLE then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleCardPuzzleCommand.New())
 	else
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
 	end

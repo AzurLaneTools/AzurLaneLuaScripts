@@ -1,5 +1,103 @@
 pg = pg or {}
 pg.enemy_data_statistics_42 = {
+	[3025] = {
+		cannon = 0,
+		name = "空母アカギ",
+		battle_unit_type = 60,
+		speed_growth = 0,
+		air_growth = 3627,
+		air = 44,
+		luck = 0,
+		id = 3025,
+		reload = 150,
+		luck_growth = 0,
+		hit_growth = 210,
+		dodge_growth = 72,
+		icon = "chicheng",
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90120,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "chicheng",
+		cannon_growth = 0,
+		fog_fx = "",
+		dodge = 5,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 40000,
+		antiaircraft = 32,
+		antiaircraft_growth = 2912,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.795,
+					0.462,
+					0
+				}
+			},
+			plane = {
+				{
+					0.795,
+					0.462,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							0.87,
+							0.28
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.62,
+							1.31
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {
+			313064,
+			313065,
+			313066
+		}
+	},
 	[3026] = {
 		cannon = 0,
 		name = "空母カガ",
@@ -999,49 +1097,6 @@ pg.enemy_data_statistics_42 = {
 		},
 		equipment_list = {
 			100216,
-			100406,
-			313091
-		}
-	},
-	[4005] = {
-		cannon = 3,
-		name = "量産型ムツキ級",
-		antiaircraft_growth = 630,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		air_growth = 0,
-		friendly_cld = 1,
-		id = 4005,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90101,
-		durability = 102,
-		armor_growth = 0,
-		torpedo_growth = 1728,
-		speed = 15,
-		armor = 0,
-		antisub = 0,
-		cannon_growth = 270,
-		pilot_ai_template_id = 20005,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 21,
-		durability_growth = 4400,
-		antiaircraft = 8,
-		hit_growth = 120,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100226,
 			100406,
 			313091
 		}

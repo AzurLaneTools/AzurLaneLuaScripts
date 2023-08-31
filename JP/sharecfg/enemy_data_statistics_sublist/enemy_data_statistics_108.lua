@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_108 = {
+	[10060003] = {
+		cannon = 31,
+		name = "戦艦「Rook」",
+		antiaircraft_growth = 1404,
+		speed_growth = 0,
+		pilot_ai_template_id = 20001,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 10060003,
+		cannon_growth = 2000,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 3,
+		fog_fx = "",
+		base = 90126,
+		durability = 1200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 80,
+		hit_growth = 144,
+		armor = 0,
+		speed = 15,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			800025,
+			800026,
+			800027
+		}
+	},
 	[10060004] = {
 		cannon = 40,
 		name = "テスターα",
@@ -955,48 +997,6 @@ pg.enemy_data_statistics_108 = {
 			531512,
 			531513,
 			531514
-		}
-	},
-	[10070192] = {
-		cannon = 200,
-		battle_unit_type = 95,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20001,
-		air = 0,
-		speed = 18,
-		dodge = 11,
-		id = 10070192,
-		cannon_growth = 0,
-		rarity = 6,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 0,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90250,
-		durability = 12000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 150,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 140,
-		scale = 150,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			531520,
-			531524
 		}
 	}
 }

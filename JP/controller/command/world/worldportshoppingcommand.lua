@@ -7,51 +7,34 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot4 = getProxy(PlayerProxy)
+	slot4 = slot3.moneyItem
 
-	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and slot4:getRawData()[id2res(slot5.id)] < slot5.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot5.id)].name))
-	end
-
-	if nowWorld():GetInventoryProxy():GetItemCount(slot5.id) < slot5.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
+	if GetOwnedDropCount(slot4) < slot4.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", updateDropCfg(slot4).name))
 
 		return
 	end
 
-	slot9 = pg.ConnectionMgr.GetInstance()
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	slot9:Send(33403, {
+	slot5:Send(33403, {
+		count = 1,
+		shop_type = 1,
 		shop_id = slot3.id
 	}, 33404, function (slot0)
 		if slot0.result == 0 then
 			uv0:UpdateCount(uv0.count - 1)
+			reducePlayerOwn(uv1)
 
-			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-			slot2 = uv1.id
+			slot1 = nowWorld()
+			slot2 = slot1:GetActiveMap():GetPort()
+			slot4 = slot1:GetAtlas()
 
-			if uv1.type == DROP_TYPE_RESOURCE then
-				slot2 = id2ItemId(uv1.id)
-				slot3 = uv2:getData()
-
-				slot3:consume({
-					[id2res(uv1.id)] = uv1.count
-				})
-				uv2:updatePlayer(slot3)
-			elseif uv1.type == DROP_TYPE_WORLD_ITEM then
-				uv3:RemoveItem(uv1.id, uv1.count)
-			else
-				assert(false)
-			end
-
-			slot3 = uv4:GetActiveMap():GetPort()
-			slot5 = nowWorld():GetAtlas()
-
-			slot5:UpdatePortMark(slot3.id, #underscore.filter(slot3.goods, function (slot0)
+			slot4:UpdatePortMark(slot2.id, #underscore.filter(slot2.goods, function (slot0)
 				return slot0.count > 0
 			end) > 0)
-			uv5:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
-				drops = slot1
+			uv2:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
+				drops = PlayerConst.addTranDrop(slot0.drop_list)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_port_shopping_error_", slot0.result))

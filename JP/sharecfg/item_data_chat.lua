@@ -77,7 +77,7 @@ pg.item_data_chat = {
 		name = "華麗なる招待",
 		id = 603,
 		time_second = 0,
-		desc = "<size=28><color=#ffffff>母港パーティーの参加記念。華麗に艦船たちに招待状を届けた指揮官に贈る</color><color=#A7A7AAFF>「宴会会場」イベントに参加した指揮官に贈る</color></size>",
+		desc = "<size=28>母港パーティーの参加記念。華麗に艦船たちに招待状を届けた指揮官に贈る<color=#A7A7AAFF>「宴会会場」イベントに参加した指揮官に贈る</color></size>",
 		scene = {}
 	},
 	[10001] = {
@@ -104,6 +104,14 @@ pg.item_data_chat = {
 		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.08.01-23.08.30）</color></size>",
 		scene = {}
 	},
+	[10004] = {
+		time_limit_type = 0,
+		name = "限界挑戦・おとめ座",
+		id = 10004,
+		time_second = 0,
+		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.09.01-23.09.30）</color></size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -117,6 +125,7 @@ pg.item_data_chat = {
 		603,
 		10001,
 		10002,
-		10003
+		10003,
+		10004
 	}
 }

@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_286 = {
+	[15603113] = {
+		cannon = 54,
+		name = "演算投影「重巡洋艦」",
+		type = 3,
+		speed_growth = 0,
+		antiaircraft_growth = 3380,
+		air = 0,
+		rarity = 4,
+		armor = 0,
+		id = 15603113,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		dodge_growth = 136,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90618,
+		durability = 4420,
+		armor_growth = 0,
+		torpedo_growth = 2800,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 1500,
+		fog_fx = "",
+		dodge = 11,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 58,
+		durability_growth = 41600,
+		antiaircraft = 88,
+		hit_growth = 280,
+		armor_type = 2,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			873906,
+			873907,
+			873905,
+			1100023
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603114] = {
 		cannon = 78,
 		name = "演算投影「戦艦」",
@@ -1018,81 +1070,6 @@ pg.enemy_data_statistics_286 = {
 			1003044,
 			1003049,
 			1003054
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604005] = {
-		cannon = 0,
-		hit_growth = 144,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 2,
-		air = 55,
-		speed = 15,
-		dodge = 0,
-		id = 15604005,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		torpedo = 0,
-		base = 90462,
-		durability = 4680,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		armor = 0,
-		durability_growth = 65600,
-		antiaircraft = 150,
-		antisub = 0,
-		antiaircraft_growth = 1800,
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		specific_fx_scale = {},
-		equipment_list = {
-			1003059,
-			1003064,
-			1003069,
-			1003074
 		},
 		buff_list = {
 			{

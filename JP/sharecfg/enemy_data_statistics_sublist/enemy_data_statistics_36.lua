@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[821] = {
+		cannon = 65,
+		name = "護衛フリゲートPowered",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		reload = 150,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 15,
+		luck = 0,
+		id = 821,
+		reload_growth = 0,
+		dodge_growth = 0,
+		air_growth = 0,
+		star = 2,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 2,
+		cannon_growth = 0,
+		base = 90124,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 30,
+		hit_growth = 0,
+		armor = 0,
+		torpedo = 80,
+		durability_growth = 0,
+		antisub = 60,
+		luck_growth = 0,
+		scale = 150,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300140,
+			300143,
+			300144
+		}
+	},
 	[822] = {
 		cannon = 0,
 		name = "輸送艦",
@@ -1124,52 +1196,6 @@ pg.enemy_data_statistics_36 = {
 			300200,
 			300207,
 			300208
-		}
-	},
-	[854] = {
-		cannon = 190,
-		battle_unit_type = 95,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20012,
-		air = 0,
-		speed = 18,
-		dodge = 0,
-		id = 854,
-		cannon_growth = 0,
-		rarity = 4,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 4,
-		hit = 105,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90423,
-		durability = 20000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		luck = 0,
-		torpedo = 320,
-		durability_growth = 0,
-		antisub = 240,
-		antiaircraft = 60,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			300200,
-			300209,
-			300210,
-			300211,
-			300212,
-			300213,
-			300214
 		}
 	}
 }

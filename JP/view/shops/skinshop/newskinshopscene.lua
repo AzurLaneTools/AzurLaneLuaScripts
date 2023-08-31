@@ -214,6 +214,8 @@ function slot0.didEnter(slot0)
 		if getInputText(uv1.inptuTr) ~= "" then
 			setInputText(uv1.inptuTr, "")
 		end
+
+		setImageSprite(uv1.changeBtn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv0 and "search_on" or "search_off", true))
 	end, SFX_PANEL)
 	triggerButton(slot0.changeBtn)
 	onButton(slot0, slot0.live2dFilter, function ()

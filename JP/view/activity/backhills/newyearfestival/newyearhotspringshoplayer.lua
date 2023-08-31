@@ -148,9 +148,10 @@ function slot0.CheckRes(slot0, slot1, slot2)
 		return false
 	end
 
-	slot3, slot4 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-
-	if slot4 < slot1:getConfig("resource_num") * slot2 then
+	if GetOwnedDropCount({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}) < slot1:getConfig("resource_num") * slot2 then
 		slot0:DisplayChat({
 			"hotspring_shop_insufficient"
 		})

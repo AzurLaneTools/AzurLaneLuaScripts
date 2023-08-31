@@ -34,10 +34,10 @@ function slot3.GetSkillEffectList(slot0)
 end
 
 function slot3.Cast(slot0, slot1, slot2)
-	slot4 = uv0.Battle.BattleState.GetInstance():GetUIMediator()
+	slot3 = uv0.Battle.BattleState.GetInstance()
 
 	if slot0._tempData.focus_duration then
-		slot4:ShowSkillPainting(slot1, slot0._tempData)
+		slot1:DispatchCutIn(slot0._tempData)
 	end
 
 	if slot0._tempData.painting == 1 then
@@ -52,40 +52,40 @@ function slot3.Cast(slot0, slot1, slot2)
 
 	if type(slot0._tempData.castCV) == "string" then
 		slot1:DispatchVoice(slot0._tempData.castCV)
-	elseif slot5 == "table" then
-		slot6, slot7, slot8 = ShipWordHelper.GetWordAndCV(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key)
+	elseif slot4 == "table" then
+		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key)
 
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot7)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot6)
 	end
 
 	if slot0._tempData.sfx then
 		uv0.Battle.PlayBattleSFX(slot0._tempData.sfx)
 	end
 
-	slot6 = slot0._attachData
+	slot5 = slot0._attachData
 
-	for slot10, slot11 in ipairs(slot0._effectList) do
-		slot0._lastEffectTarget = slot11:GetTarget(slot1, slot0)
+	for slot9, slot10 in ipairs(slot0._effectList) do
+		slot0._lastEffectTarget = slot10:GetTarget(slot1, slot0)
 
-		slot11:SetCommander(slot2)
+		slot10:SetCommander(slot2)
 
-		if slot11:IsFinaleEffect() then
+		if slot10:IsFinaleEffect() then
 			slot0._finaleEffectCount = slot0._finaleEffectCount + 1
 
-			slot11:SetFinaleCallback(function ()
+			slot10:SetFinaleCallback(function ()
 				uv0:callbackCount(uv1)
 			end)
 		end
 
-		slot11:Effect(slot1, slot12, slot6)
+		slot10:Effect(slot1, slot11, slot5)
 	end
 
-	if slot0._tempData.aniEffect and slot7 ~= "" then
+	if slot0._tempData.aniEffect and slot6 ~= "" then
 		slot1:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.ADD_EFFECT, {
-			effect = slot7.effect,
-			time = slot7.time,
-			offset = slot7.offset,
-			posFun = slot7.posFun
+			effect = slot6.effect,
+			time = slot6.time,
+			offset = slot6.offset,
+			posFun = slot6.posFun
 		}))
 	end
 

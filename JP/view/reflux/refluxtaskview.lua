@@ -97,7 +97,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	setText(slot0:findTF("Count", slot1), slot2.count)
 
 	if slot2.type ~= DROP_TYPE_SHIP then
-		setImageSprite(slot3, LoadSprite(Item.GetIcon(slot2.type, slot2.id)))
+		setImageSprite(slot3, LoadSprite(getDropIcon(slot2)))
 	else
 		setImageSprite(slot3, LoadSprite("QIcon/" .. Ship.New({
 			configId = slot2.id

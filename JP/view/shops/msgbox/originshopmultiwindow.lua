@@ -46,19 +46,33 @@ function slot0.Open(slot0, slot1, slot2)
 end
 
 function slot0.InitWindow(slot0, slot1, slot2)
-	slot3 = slot1:getDropInfo()
-	slot4, slot5 = getPlayerOwn(DROP_TYPE_RESOURCE, slot1:getConfig("resource_type"))
-	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
+	slot3, slot4, slot5 = nil
 
-	if slot1:getLimitCount() ~= 0 then
-		slot6 = math.min(slot6, slot7 - slot1.buyCount)
+	if isa(slot1, WorldNShopCommodity) then
+		slot3 = slot1:GetDropInfo()
+		slot4 = slot1:GetPriceInfo()
+		slot5 = slot1:GetLimitGoodCount()
+	else
+		slot3 = slot1:getDropInfo()
+		slot4 = {
+			type = DROP_TYPE_RESOURCE,
+			id = slot1:getConfig("resource_type"),
+			count = slot1:getConfig("resource_num")
+		}
+		slot5 = slot1:getLimitCount()
+	end
+
+	slot6 = math.max(math.floor(GetOwnedDropCount(slot4) / slot4.count), 1)
+
+	if slot5 ~= 0 then
+		slot6 = math.min(slot6, slot5 - slot1.buyCount)
 	end
 
 	(function (slot0)
 		slot0 = math.min(math.max(slot0, 1), uv0)
 		uv1.countTF.text = slot0
 		uv1.curCount = slot0
-		uv1.itemCountTF.text = slot0 * uv2:getConfig("num")
+		uv1.itemCountTF.text = slot0 * uv2.count
 	end)(1)
 	updateDrop(slot0.topItem:Find("left/IconTpl"), slot3)
 	UpdateOwnDisplay(slot0.ownerTF, slot3)
@@ -69,10 +83,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 
 	updateDrop(slot0.bottomItem, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0 then
-			uv0(uv1, uv2.curCount, uv3.cfg.name)
-		end
-
+		existCall(uv0, uv1, uv2.curCount)
 		uv2:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.leftBtn, function ()

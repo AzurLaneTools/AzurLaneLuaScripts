@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_48 = {
+	[6027] = {
+		cannon = 45,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 1,
+		air = 0,
+		torpedo = 130,
+		dodge = 5,
+		durability_growth = 0,
+		antiaircraft = 0,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 72,
+		hit_growth = 210,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 90267,
+		durability = 1580,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 12,
+		armor = 0,
+		id = 6027,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		scale = 150,
+		equipment_list = {
+			316062,
+			316063,
+			316064
+		}
+	},
 	[6501] = {
 		cannon = 7,
 		name = "量産型イスズ級",
@@ -1027,47 +1065,6 @@ pg.enemy_data_statistics_48 = {
 		},
 		equipment_list = {
 			317032,
-			100432
-		}
-	},
-	[7007] = {
-		cannon = 50,
-		name = "シラヌイ",
-		antiaircraft_growth = 2200,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 13,
-		luck = 0,
-		id = 7007,
-		cannon_growth = 500,
-		reload_growth = 0,
-		dodge_growth = 360,
-		reload = 150,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		fog_fx = "",
-		base = 90170,
-		durability = 2400,
-		armor_growth = 0,
-		torpedo_growth = 5000,
-		antiaircraft = 17,
-		hit_growth = 210,
-		armor = 0,
-		speed = 33,
-		torpedo = 100,
-		antisub = 0,
-		durability_growth = 34000,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
 			100432
 		}
 	}

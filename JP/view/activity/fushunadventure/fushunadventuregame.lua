@@ -46,7 +46,7 @@ function slot0.InitMainUI(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, findTF(slot1, "btn_start"), function ()
-		pg.CriMgr.GetInstance():StopBGM()
+		pg.BgmMgr.GetInstance():StopPlay()
 		uv0:StartGame()
 	end, SFX_PANEL)
 
@@ -247,7 +247,7 @@ function slot0.StartGame(slot0)
 
 	slot0:LoadScene(function ()
 		uv0:EnterGame()
-		pg.CriMgr.GetInstance():PlayBGM(FushunAdventureGameConst.GAME_BGM_NAME)
+		pg.BgmMgr.GetInstance():Push(uv0.__cname, FushunAdventureGameConst.GAME_BGM_NAME)
 	end)
 
 	slot0.state = uv1
@@ -716,8 +716,7 @@ function slot0.ClearGameScene(slot0)
 		slot0:HideResultWindow()
 		slot0:HidePauseMsgbox()
 		setActive(slot0.gameUI, false)
-		pg.CriMgr.GetInstance():StopBGM()
-		pg.CriMgr.GetInstance():PlayBGM(FushunAdventureGameConst.BGM_NAME)
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, FushunAdventureGameConst.BGM_NAME)
 	end
 end
 

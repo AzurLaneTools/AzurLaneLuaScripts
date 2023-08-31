@@ -204,6 +204,10 @@ function slot0.GetPrevSide(slot0, slot1)
 end
 
 function slot0.GetPaintingAndName(slot0)
+	if slot0:HideOtherPainting() then
+		return nil, 
+	end
+
 	slot1, slot2 = nil
 
 	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
@@ -388,28 +392,12 @@ function slot0.GetUsingPaintingNames(slot0)
 	slot1 = {}
 	slot2 = slot0:GetPainting()
 
-	if not slot0:IsLive2dPainting() and not slot0:IsSpinePainting() and slot2 ~= nil then
-		if slot0:IsShowNPainting() and uv0(slot2 .. "_n") then
-			table.insert(slot1, slot2 .. "_n")
-		end
-
-		if slot0:IsShowWJZPainting() and uv0(slot2 .. "_wjz") then
-			table.insert(slot1, slot2 .. "_wjz")
-		end
-
-		if uv0(slot2) then
-			table.insert(slot1, slot2)
-		end
+	if not slot0:IsLive2dPainting() and not slot0:IsSpinePainting() and slot2 ~= nil and uv0(slot2) then
+		table.insert(slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0:GetSubPaintings()) do
-		slot9 = slot8.name
-
-		if slot8.showNPainting and uv0(slot9 .. "_n") then
-			table.insert(slot1, slot9 .. "_n")
-		end
-
-		if uv0(slot9) then
+		if uv0(slot8.name) then
 			table.insert(slot1, slot9)
 		end
 	end

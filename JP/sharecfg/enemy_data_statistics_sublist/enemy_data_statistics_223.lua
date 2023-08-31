@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_223 = {
+	[14003301] = {
+		cannon = 80,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 4,
+		air = 0,
+		torpedo = 462,
+		dodge = 16,
+		durability_growth = 0,
+		antiaircraft = 65,
+		speed = 16,
+		reload_growth = 0,
+		dodge_growth = 250,
+		luck = 25,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		base = 90470,
+		durability = 19800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		battle_unit_type = 95,
+		id = 14003301,
+		antisub = 0,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[14003302] = {
 		cannon = 212,
 		name = "ラフィー",
@@ -943,42 +979,6 @@ pg.enemy_data_statistics_223 = {
 			1001001,
 			1001006,
 			1001011
-		}
-	},
-	[14006002] = {
-		cannon = 10,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 800,
-		rarity = 2,
-		air = 0,
-		torpedo = 22,
-		dodge = 0,
-		durability_growth = 5920,
-		antiaircraft = 45,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 144,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 30,
-		base = 90430,
-		durability = 180,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		luck_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 14006002,
-		antiaircraft_growth = 1600,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1001016,
-			1001021
 		}
 	}
 }

@@ -61,15 +61,6 @@ function slot0.register(slot0)
 				end)
 			end
 
-			if #slot1:GetPortShips() > 0 then
-				table.insert(slot3, function (slot0)
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("world_redeploy_warn"),
-						onYes = slot0
-					})
-				end)
-			end
-
 			table.insert(slot3, function (slot0)
 				slot1 = uv0:CalcOrderCost(WorldConst.OpReqRedeploy)
 				slot2 = uv0.staminaMgr:GetTotalStamina()

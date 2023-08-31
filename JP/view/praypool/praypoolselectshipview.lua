@@ -150,8 +150,20 @@ function slot0.initUI(slot0)
 	slot0.preBtn = slot0:findTF("PreBtn")
 	slot0.nextBtn = slot0:findTF("NextBtn")
 	slot0.nextBtnCom = GetComponent(slot0.nextBtn, "Button")
+
+	slot0.indexBtn:GetComponent(typeof(Image)):SetNativeSize()
+
+	for slot17, slot18 in ipairs(slot0.selectedShipTFMap.Max) do
+		slot0:findTF("Tip/Tip", slot18):GetComponent(typeof(Image)):SetNativeSize()
+	end
+
+	for slot17, slot18 in ipairs(slot0.selectedShipTFMap.Min) do
+		slot0:findTF("Tip/Tip", slot18):GetComponent(typeof(Image)):SetNativeSize()
+	end
+
 	slot0.nextBtnCom.interactable = false
 
+	setText(slot0:findTF("InstructionText"), i18n("pray_build_select_ship_instruction"))
 	onButton(slot0, slot0.preBtn, function ()
 		uv0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)
 		uv0:emit(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, PrayProxy.STATE_SELECT_POOL)

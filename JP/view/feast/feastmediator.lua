@@ -173,17 +173,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot5 = slot0.viewComponent
 
 		slot5:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-			slot1 = {}
-
-			for slot5, slot6 in ipairs(uv0) do
-				if pg.task_data_template[slot6].story_id ~= "" then
-					table.insert(slot1, slot7.story_id)
-				end
-			end
-
-			if #slot1 > 0 then
-				pg.NewStoryMgr.GetInstance():SeriesPlay(slot1)
-			end
+			getProxy(FeastProxy):HandleTaskStories(uv0)
 		end)
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
 		slot5 = slot0.viewComponent

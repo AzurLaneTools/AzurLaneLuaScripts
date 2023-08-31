@@ -14,11 +14,13 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id).stopTime, "%m.%d")))
 	end
 
-	slot6, slot7 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-	slot8 = math.max(math.floor(slot7 / slot1:getConfig("resource_num")), 1)
+	slot7 = math.max(math.floor(GetOwnedDropCount({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}) / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getConfig("goods_purchase_limit") ~= 0 then
-		slot8 = math.min(slot8, math.max(0, slot1:GetPurchasableCnt()))
+		slot7 = math.min(slot7, math.max(0, slot1:GetPurchasableCnt()))
 	end
 
 	(function (slot0)
@@ -30,10 +32,10 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 
-	slot10, slot11 = GetOwnedDropCount(slot3)
+	slot9, slot10 = GetOwnedDropCount(slot3)
 
-	setActive(slot0.ownerTF.parent, slot11)
-	setText(slot0.ownerTF, slot10)
+	setActive(slot0.ownerTF.parent, slot10)
+	setText(slot0.ownerTF, slot9)
 	setText(slot0.ownerLabelTF, i18n("word_own1"))
 
 	slot0.nameTF.text = slot3.cfg.name

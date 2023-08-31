@@ -66,8 +66,8 @@ function slot0.shipGroupFilter(slot0)
 	slot0.groupListInCount = {}
 
 	for slot5, slot6 in pairs(getProxy(CollectionProxy).shipGroups) do
-		if table.indexof(pg.fleet_tech_ship_template.all, slot6.id, 1) then
-			slot0.groupListInCount[#slot0.groupListInCount + 1] = slot6
+		if pg.fleet_tech_ship_template[slot6.id] then
+			table.insert(slot0.groupListInCount, slot6)
 		end
 	end
 end
@@ -104,21 +104,23 @@ function slot0.nationPointFilter(slot0)
 			table.insert(slot0.nationToPointLog2[slot7], slot6)
 		end
 
-		if not slot6.maxLV or slot6.maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
-			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_get
+		slot10 = 0 + pg.fleet_tech_ship_template[slot8].pt_get
 
-			table.insert(slot0.nationToPointLog[slot7][1], slot8)
-		else
-			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_get + pg.fleet_tech_ship_template[slot8].pt_level
+		table.insert(slot0.nationToPointLog[slot7][1], slot8)
+
+		if slot6.maxLV and TechnologyConst.SHIP_LEVEL_FOR_BUFF <= slot6.maxLV then
+			slot10 = slot10 + slot9.pt_level
 
 			table.insert(slot0.nationToPointLog[slot7][2], slot8)
 		end
 
-		if pg.fleet_tech_ship_template[slot8].max_star <= slot6.star then
-			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_upgrage
+		if slot9.max_star <= slot6.star then
+			slot10 = slot10 + slot9.pt_upgrage
 
 			table.insert(slot0.nationToPointLog[slot7][3], slot8)
 		end
+
+		slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + slot10
 	end
 
 	slot0.point = 0

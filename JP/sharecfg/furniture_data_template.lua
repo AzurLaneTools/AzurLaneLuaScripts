@@ -184,6 +184,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			200001,
 			200002,
 			200003,
@@ -4927,6 +4928,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			31101,
 			54104,
 			54105
@@ -5833,7 +5835,8 @@ pg.furniture_data_template = setmetatable({
 			100047,
 			100049,
 			100050,
-			100051
+			100051,
+			100052
 		},
 		[2] = {
 			120,
@@ -8504,6 +8507,7 @@ pg.furniture_data_template = setmetatable({
 		100049,
 		100050,
 		100051,
+		100052,
 		200001,
 		200002,
 		200003,
@@ -20966,6 +20970,89 @@ pg.base.furniture_data_template = {
 					},
 					{
 						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100052] = {
+		spine_extra = "",
+		describe = "レジェンダリーエージェントの戦いを体験しよう！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "エージェントボックス",
+		themeId = 0,
+		icon = "tegongtiyanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100052,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongtiyanB",
+				"normal"
+			},
+			{
+				"tegongtiyanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					},
+					{
+						"dance"
+					},
+					{
+						"walk"
 					}
 				},
 				{

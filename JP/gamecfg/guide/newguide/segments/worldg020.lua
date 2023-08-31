@@ -61,7 +61,7 @@ return {
 			delay = 0.2,
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/panel/actions/use_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/actions/use_button",
 				pathIndex = -1,
 				triggerType = {
 					1

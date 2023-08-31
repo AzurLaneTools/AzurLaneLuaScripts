@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.enemy_data_statistics_84 = {
+	[112031] = {
+		cannon = 1720,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 4,
+		air = 0,
+		torpedo = 0,
+		dodge = 24,
+		durability_growth = 178500,
+		antiaircraft = 480,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 0,
+		star = 4,
+		hit = 54,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 65,
+		base = 90231,
+		durability = 25600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 14,
+		armor = 0,
+		id = 112031,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			319062,
+			319063,
+			319064,
+			319065
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
 	[112032] = {
 		cannon = 1340,
 		battle_unit_type = 70,
@@ -849,50 +893,6 @@ pg.enemy_data_statistics_84 = {
 		armor = 0,
 		torpedo = 0,
 		durability_growth = 76000,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		equipment_list = {
-			100201,
-			100541,
-			313072
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[100006] = {
-		cannon = 100,
-		name = "ハルナ",
-		antiaircraft_growth = 3744,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		air_growth = 0,
-		dodge = 3,
-		luck = 0,
-		id = 100006,
-		cannon_growth = 1800,
-		reload_growth = 0,
-		dodge_growth = 66,
-		speed = 18,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 5,
-		reload = 150,
-		base = 90221,
-		durability = 1200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 45,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 72000,
 		antisub = 0,
 		luck_growth = 0,
 		battle_unit_type = 90,

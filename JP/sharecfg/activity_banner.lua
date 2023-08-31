@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4953",
+		param = "4887",
 		id = 1,
-		pic = "temp4",
+		pic = "temp1",
 		type = 3,
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					31
+					9,
+					14
 				},
 				{
 					23,
@@ -34,28 +34,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp5",
+		pic = "temp2",
+		time = "stop",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
+			"scene skinshop",
+			{}
+		}
+	},
+	{
+		param = "4971",
+		id = 3,
+		pic = "temp3",
+		type = 3,
 		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2023,
@@ -63,29 +55,6 @@ pg.activity_banner = {
 					31
 				},
 				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
 					0,
 					0,
 					0
@@ -94,8 +63,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					14
 				},
 				{
 					23,
@@ -107,17 +76,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp7",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene level"
 		},
 		time = {
 			{
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -128,8 +97,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					14
 				},
 				{
 					23,
@@ -141,12 +110,13 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp8",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene level",
 			{
-				wrap = 2
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -154,7 +124,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -165,8 +135,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					14
 				},
 				{
 					23,
@@ -178,111 +148,36 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp9",
+		pic = "temp6",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		param = "4962",
-		id = 7,
-		pic = "temp2",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 7,
+		pic = "temp7"
 	},
 	{
 		param = "4960",
-		id = 8,
-		pic = "temp1",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 8,
+		pic = "temp8"
 	},
 	{
 		param = "4950",
 		time = "stop",
 		type = 3,
 		id = 9,
-		pic = "temp3"
+		pic = "temp9"
 	},
 	[90] = {
 		param = "",
@@ -294,7 +189,7 @@ pg.activity_banner = {
 				{
 					2023,
 					8,
-					17
+					31
 				},
 				{
 					0,
@@ -305,8 +200,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					8,
-					30
+					9,
+					13
 				},
 				{
 					23,
@@ -332,35 +227,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -381,18 +251,18 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 201,
-		pic = "summer"
+		pic = "autumn"
 	},
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			3,
 			7,
 			8,
 			9
 		},
 		[2] = {
 			2,
-			3,
 			4,
 			5,
 			6

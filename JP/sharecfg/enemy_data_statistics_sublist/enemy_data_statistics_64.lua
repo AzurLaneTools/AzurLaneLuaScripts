@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_64 = {
+	[101008] = {
+		cannon = 46,
+		name = "マッコール",
+		antiaircraft_growth = 1719,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 14,
+		luck = 0,
+		id = 101008,
+		cannon_growth = 520,
+		reload_growth = 0,
+		dodge_growth = 210,
+		reload = 150,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 2,
+		fog_fx = "",
+		base = 90152,
+		durability = 132,
+		armor_growth = 0,
+		torpedo_growth = 3744,
+		antiaircraft = 36,
+		hit_growth = 210,
+		armor = 0,
+		speed = 24,
+		torpedo = 165,
+		antisub = 0,
+		durability_growth = 12600,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100211,
+			100411
+		}
+	},
 	[101009] = {
 		cannon = 36,
 		name = "量産型ナガラ級",
@@ -989,54 +1030,6 @@ pg.enemy_data_statistics_64 = {
 			311069,
 			311070,
 			311071
-		}
-	},
-	[10105200] = {
-		cannon = 145,
-		name = "トネ",
-		antiaircraft_growth = 3600,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 9,
-		luck = 0,
-		id = 10105200,
-		cannon_growth = 2400,
-		reload_growth = 0,
-		dodge_growth = 126,
-		reload = 150,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		speed = 16,
-		base = 90206,
-		durability = 1800,
-		armor_growth = 0,
-		torpedo_growth = 3456,
-		antiaircraft = 180,
-		hit_growth = 210,
-		armor = 0,
-		air_growth = 0,
-		torpedo = 98,
-		antisub = 0,
-		durability_growth = 34000,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {
-			100201,
-			311072,
-			311075,
-			311076
 		}
 	}
 }

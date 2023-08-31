@@ -241,7 +241,7 @@ function slot0.initUI(slot0)
 	onButton(slot0, slot10:Find("window/btn_finish"), function ()
 		setActive(uv0._tf:Find("Viewport"), false)
 		uv0:openUI("main")
-		pg.CriMgr.GetInstance():PlayBGM("ryza-5")
+		pg.BgmMgr.GetInstance():Push(uv0.__cname, "ryza-5")
 	end, SFX_CONFIRM)
 end
 
@@ -343,7 +343,7 @@ function slot0.readyStart(slot0)
 end
 
 function slot0.startGame(slot0)
-	pg.CriMgr.GetInstance():PlayBGM("ryza-az-battle")
+	pg.BgmMgr.GetInstance():Push(slot0.__cname, "ryza-az-battle")
 
 	slot0.gameStartFlag = true
 

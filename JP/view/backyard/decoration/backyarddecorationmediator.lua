@@ -19,7 +19,7 @@ slot0.ON_SET_UP = "BackYardDecorationMediator:ON_SET_UP"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_SELECTED_FURNITRUE, function (slot0, slot1)
-		_courtyard:GetController():SelectFurniture(slot1)
+		_courtyard:GetController():SelectFurnitureByConfigId(slot1)
 	end)
 	slot0:bind(uv0.APPLY_THEME, function (slot0, slot1, slot2)
 		slot3, slot4 = uv0:GetCanPutFurnitureForTheme(uv0.dorm, slot1)

@@ -9836,6 +9836,117 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
+	[9702050] = {
+		ship_group = 970205,
+		name = "神通(META)",
+		hand_id = 2,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "shentong_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9702050,
+		voice_actor_2 = -1,
+		prefab = "shentong_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "軽巡洋艦、神通と申します。私を呼んだのは助力を欲する故かしら？…わかりました。私の策が艦隊の役に立てるよう、微力を尽くしましょう",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.31,
+					1.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9703010] = {
 		ship_group = 970301,
 		name = "トレント(META)",
@@ -10926,110 +11037,6 @@ pg.base.ship_skin_template_18 = {
 							-0.54,
 							2.43,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9706010] = {
-		ship_group = 970601,
-		name = "飛鷹(META)",
-		hand_id = 2,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "feiying_alter",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 9706010,
-		voice_actor_2 = -1,
-		prefab = "feiying_alter",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ふはははは、この空母飛鷹を味方に招き入れたとは、お前なかなかやるじゃないか。で？次はどこの敵を倒しにいくんだ？",
-		voice_actor = 136,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.259,
-					1.172,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.137,
-					1.334,
-					0
-				}
-			},
-			plane = {
-				{
-					1.213,
-					1.268,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.44,
-							-0.4
 						}
 					}
 				}

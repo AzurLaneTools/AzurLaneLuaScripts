@@ -1,5 +1,76 @@
 pg = pg or {}
 pg.enemy_data_statistics_137 = {
+	[11703015] = {
+		cannon = 36,
+		battle_unit_type = 70,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 86,
+		speed = 16,
+		dodge = 9,
+		luck = 0,
+		id = 11703015,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 96,
+		reload = 150,
+		star = 6,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 4127,
+		rarity = 5,
+		base = 90243,
+		durability = 5780,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 280,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 58880,
+		antisub = 0,
+		antiaircraft = 134,
+		antiaircraft_growth = 5280,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1100032,
+			1100357,
+			1100798,
+			1100802,
+			1100807
+		}
+	},
 	[11703016] = {
 		cannon = 36,
 		battle_unit_type = 70,
@@ -842,50 +913,6 @@ pg.enemy_data_statistics_137 = {
 			1100175,
 			1100315,
 			1101501,
-			1101505,
-			1101510
-		}
-	},
-	[11800122] = {
-		cannon = 20,
-		battle_unit_type = 90,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 19,
-		id = 11800122,
-		cannon_growth = 1200,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 270,
-		armor = 0,
-		star = 6,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90167,
-		durability = 1140,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 0,
-		torpedo = 80,
-		durability_growth = 115200,
-		antisub = 0,
-		antiaircraft = 65,
-		antiaircraft_growth = 2800,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			1100175,
-			1100316,
-			1101500,
 			1101505,
 			1101510
 		}

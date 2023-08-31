@@ -128,6 +128,8 @@ function slot0.register(slot0)
 		-- Nothing
 	elseif slot7 == SYSTEM_AIRFIGHT then
 		-- Nothing
+	elseif slot7 == SYSTEM_CARDPUZZLE then
+		-- Nothing
 	elseif slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_BOSS_EXPERIMENT then
 		slot9 = slot0.contextData.actId
 
@@ -378,6 +380,8 @@ function slot0.register(slot0)
 			end
 
 			return
+		elseif uv0 == SYSTEM_CARDPUZZLE then
+			-- Nothing
 		elseif slot2:getContextByMediator(LevelMediator2) then
 			slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 		end
@@ -608,7 +612,8 @@ function slot0.GetResultView(slot0)
 		[SYSTEM_WORLD_BOSS] = BattleWorldBossResultLayer,
 		[SYSTEM_REWARD_PERFORM] = BattleRewardPerformResultLayer,
 		[SYSTEM_AIRFIGHT] = BattleAirFightResultLayer,
-		[SYSTEM_GUILD] = BattleGuildBossResultLayer
+		[SYSTEM_GUILD] = BattleGuildBossResultLayer,
+		[SYSTEM_CARDPUZZLE] = BattleAirFightResultLayer
 	}
 
 	return uv0.RESULT_VIEW_TRANSFORM[slot0] or BattleResultLayer

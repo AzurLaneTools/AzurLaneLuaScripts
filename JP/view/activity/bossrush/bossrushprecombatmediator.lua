@@ -308,11 +308,7 @@ function slot0.changeFleet(slot0, slot1)
 end
 
 function slot0.refreshEdit(slot0, slot1)
-	slot2 = getProxy(FleetProxy)
-	slot3 = slot0.contextData.actId
-
-	slot2:updateActivityFleet(slot3, slot1.id, slot1)
-	slot0.viewComponent:SetFleets(slot2:getActivityFleets()[slot3])
+	getProxy(FleetProxy):updateActivityFleet(slot0.contextData.actId, slot1.id, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 	slot0:sendNotification(uv0.ON_FLEET_REFRESHED)
 end

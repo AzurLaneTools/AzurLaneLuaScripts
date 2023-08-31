@@ -23,4 +23,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	if slot0._attrBound then
 		slot0._numberBase = math.min(slot0._numberBase, slot0._attrBound)
 	end
+
+	slot0._attrID = slot0._tempData.arg_list.attr_group_ID
 end

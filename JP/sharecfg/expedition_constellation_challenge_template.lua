@@ -261,6 +261,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10010] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10010,
+		dungeon_id = 5112,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"脅威感知",
+				"戦闘中20秒毎に発動、6秒間自身が受けるダメージを40％軽減し、6秒経過後下記の効果を得る：【脅威感知】が再度発動するまで、<color=#92fc63>6秒経過前までに自身が受けた砲撃/雷撃/航空属性ダメージ</color>で一番大きかった属性のダメージを40％軽減する。味方艦船が「SGレーダー」を装備している場合、【脅威感知】の1回目の発動は戦闘開始16秒後になる。"
+			},
+			{
+				"スキャナー・アプローチ",
+				"【脅威感知】発動後、10秒間自身の命中が<color=#92fc63>20%</color>・回避率が<color=#92fc63>20%</color>アップ"
+			}
+		},
+		award_display = {
+			{
+				14,
+				204,
+				1
+			}
+		}
+	},
+	[10011] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10011,
+		dungeon_id = 5111,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"脅威感知",
+				"戦闘中20秒毎に発動、6秒間自身が受けるダメージを40％軽減し、6秒経過後下記の効果を得る：【脅威感知】を再度発動するまで、<color=#92fc63>6秒経過前までに自身が受けた砲撃/雷撃/航空属性ダメージ</color>で一番大きかった属性のダメージを60％軽減する。味方艦船が「SGレーダー」を装備している場合、【脅威感知】の1回目の発動は戦闘開始16秒後になる。"
+			},
+			{
+				"スキャナー・アプローチ",
+				"【脅威感知】発動後、10秒間自身の命中が<color=#92fc63>30%</color>・回避率が<color=#92fc63>30%</color>アップ"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10004,
+				1
+			}
+		}
+	},
+	[10012] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10012,
+		dungeon_id = 5110,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"脅威感知",
+				"戦闘中20秒毎に発動、6秒間自身が受けるダメージを40％軽減し、6秒経過後下記の効果を得る：【脅威感知】を再度発動するまで、<color=#92fc63>6秒経過前までに自身が受けた砲撃/雷撃/航空属性ダメージ</color>で一番大きかった属性のダメージを80％軽減する。味方艦船が「SGレーダー」を装備している場合、【脅威感知】の1回目の発動は戦闘開始16秒後になる。"
+			},
+			{
+				"スキャナー・アプローチ",
+				"【脅威感知】発動後、10秒間自身の命中が<color=#92fc63>40%</color>・回避率が<color=#92fc63>40%</color>アップ"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10004,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -270,6 +357,9 @@ pg.expedition_constellation_challenge_template = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010,
+		10011,
+		10012
 	}
 }

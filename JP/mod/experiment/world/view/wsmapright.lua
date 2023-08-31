@@ -107,7 +107,7 @@ function slot0.Update(slot0, slot1, slot2)
 		slot0:AddMapListener()
 		slot0:OnUpdateSelectedFleet()
 		slot0:UpdateCompass()
-		slot0:UpdateExit()
+		slot0:UpdateBtns()
 		slot0:OnUpdateEventTips()
 	end
 end
@@ -161,7 +161,6 @@ function slot0.OnUpdateFleetLocation(slot0)
 		return
 	end
 
-	setActive(slot0.btnPort, slot0.map:InPort(slot0.fleet.id))
 	slot0:UpdateCompassMarks()
 end
 
@@ -207,7 +206,8 @@ function slot0.OnUpdateEventTips(slot0)
 	end
 end
 
-function slot0.UpdateExit(slot0)
+function slot0.UpdateBtns(slot0)
+	setActive(slot0.btnPort, slot0.map:GetPort() and not slot1:IsTempPort())
 	setActive(slot0.btnExit, slot0.map:canExit())
 end
 

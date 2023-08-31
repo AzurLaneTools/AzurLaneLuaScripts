@@ -1,5 +1,86 @@
 pg = pg or {}
 pg.enemy_data_statistics_78 = {
+	[10905400] = {
+		cannon = 560,
+		antiaircraft_growth = 0,
+		rarity = 4,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		antisub = 0,
+		reload = 150,
+		antiaircraft = 600,
+		battle_unit_type = 95,
+		dodge_growth = 0,
+		icon = "xinyue_jp",
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90176,
+		durability = 114000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 32,
+		armor = 0,
+		id = 10905400,
+		prefab = "xinyue_jp",
+		cannon_growth = 0,
+		pilot_ai_template_id = 30002,
+		fog_fx = "",
+		dodge = 160,
+		reload_growth = 0,
+		hit = 55,
+		torpedo = 800,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					0.93,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.22,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.88,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			319081,
+			319082
+		}
+	},
 	[110001] = {
 		cannon = 93,
 		battle_unit_type = 20,
@@ -846,45 +927,6 @@ pg.enemy_data_statistics_78 = {
 			319033,
 			319034,
 			319035
-		}
-	},
-	[110022] = {
-		cannon = 190,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		rarity = 3,
-		dodge = 17,
-		torpedo = 260,
-		durability_growth = 53000,
-		antiaircraft = 145,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 0,
-		star = 3,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90201,
-		durability = 6500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 18,
-		luck = 0,
-		id = 110022,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		armor = 0,
-		fog_fx = "",
-		equipment_list = {
-			319036,
-			319037,
-			319038,
-			319039
 		}
 	}
 }

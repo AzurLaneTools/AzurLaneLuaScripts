@@ -4959,7 +4959,20 @@ function temp()
 			this = true
 		},
 		["通"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5323,7 +5336,20 @@ temp()
 function temp()
 	uv0["旗"] = {
 		["風"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

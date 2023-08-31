@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_340 = {
+	[16502007] = {
+		cannon = 5,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 300,
+		pilot_ai_template_id = 10002,
+		air = 0,
+		battle_unit_type = 65,
+		dodge = 0,
+		base = 90129,
+		durability_growth = 4400,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 14,
+		luck = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 24,
+		durability = 220,
+		armor_growth = 0,
+		torpedo_growth = 2200,
+		luck_growth = 0,
+		hit_growth = 120,
+		armor = 0,
+		id = 16502007,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1100697,
+			1100712
+		}
+	},
 	[16502011] = {
 		cannon = 7,
 		reload = 150,
@@ -904,53 +942,6 @@ pg.enemy_data_statistics_340 = {
 			1100107,
 			1100192,
 			1100477
-		}
-	},
-	[16502113] = {
-		cannon = 54,
-		name = "ル・マルス駒式統御武装「Blast」",
-		type = 3,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 11,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 136,
-		antiaircraft_growth = 3380,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 1500,
-		base = 90279,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		antiaircraft = 88,
-		hit_growth = 280,
-		armor = 0,
-		durability = 4420,
-		torpedo = 58,
-		id = 16502113,
-		durability_growth = 41600,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1101092,
-			1101097,
-			1101102,
-			1101107
 		}
 	}
 }
