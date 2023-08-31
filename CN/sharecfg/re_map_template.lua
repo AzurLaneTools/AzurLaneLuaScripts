@@ -1481,7 +1481,7 @@ pg.re_map_template = {
 		name = "负象限作战常驻复刻",
 		activity_type = 1,
 		id = 28,
-		bg = "temp_haiyinlixi",
+		bg = "temp_u37",
 		order = 28,
 		config_data = {
 			2100301,
@@ -1515,7 +1515,7 @@ pg.re_map_template = {
 			{
 				2100316,
 				4,
-				403091,
+				408101,
 				60
 			},
 			{}
@@ -1524,7 +1524,7 @@ pg.re_map_template = {
 			{
 				{
 					4,
-					403091
+					408101
 				},
 				"B3、D3"
 			}

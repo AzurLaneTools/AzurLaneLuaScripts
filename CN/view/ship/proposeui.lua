@@ -144,6 +144,7 @@ end
 function slot0.doPlay(slot0)
 	setActive(slot0.skipBtn, slot0.weddingReview)
 	slot0:setMask(true)
+	pg.BgmMgr.GetInstance():TempPlay("wedding")
 	slot0:showProposePanel()
 end
 
@@ -404,6 +405,8 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	pg.BgmMgr.GetInstance():ContinuePlay()
+
 	if not IsNil(slot0.actorPainting) then
 		if tf(slot0.actorPainting):Find("temp_mask") then
 			Destroy(slot1:Find("temp_mask"))
@@ -603,9 +606,6 @@ end
 
 function slot0.showProposePanel(slot0)
 	slot1 = {}
-
-	pg.BgmMgr.GetInstance():Push(slot0.__cname, "wedding")
-
 	slot0.proposeSkin = ShipGroup.getProposeSkin(slot0.shipGroupID)
 
 	if slot0.proposeSkin and slot0.actorPainting then

@@ -8,7 +8,8 @@ slot2.__name = "CardPuzzleEnergyBar"
 function slot2.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot0._go.transform
-	slot0._currentLabel = slot0._tf:Find("count_label/current")
+	slot0._currentLabel = slot0._tf:Find("count_label/count/current")
+	slot0._shadeLabel = slot0._tf:Find("count_label/count/current")
 	slot0._maxLabel = slot0._tf:Find("count_label/max")
 	slot0._recoverBlockList = slot0._tf:Find("block_list")
 end
@@ -65,6 +66,7 @@ end
 
 function slot2.updateEnergyPoint(slot0)
 	setText(slot0._currentLabel, slot0._energyInfo:GetCurrentEnergy())
+	setText(slot0._shadeLabel, slot0._energyInfo:GetCurrentEnergy())
 	setText(slot0._maxLabel, slot0._energyInfo:GetMaxEnergy())
 end
 
