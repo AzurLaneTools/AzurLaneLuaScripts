@@ -6213,7 +6213,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "durability",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6223,7 +6223,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "cannon",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6233,7 +6233,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "antiaircraft",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6243,7 +6243,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "armor",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6253,7 +6253,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "torpedo",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6263,7 +6263,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "air",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6273,7 +6273,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "reload",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6283,7 +6283,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "dodge",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6293,7 +6293,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "hit",
 				atlas = "attricon",
-				posY = 0,
+				posY = 6,
 				scale = 0.3,
 				posX = 0
 			}
@@ -6303,7 +6303,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "attr_speed",
 				atlas = "attricon",
-				posY = 0,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6313,7 +6313,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "expend",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
@@ -6323,47 +6323,47 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			icon = {
 				path = "antisub",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
 		},
 		{
-			info = "     OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface.",
+			info = "      OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface.",
 			icon = {
 				path = "oxy_max",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
 		},
 		{
-			info = "     AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat.",
+			info = "      AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat.",
 			icon = {
 				path = "ammo",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
 		},
 		{
-			info = "     ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support.",
+			info = "      ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support.",
 			icon = {
 				path = "hunt_range",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 0.6,
 				posX = 0
 			}
 		},
 		{
-			info = "     LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits.",
+			info = "      LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits.",
 			icon = {
 				path = "luck",
 				atlas = "attricon",
-				posY = -6,
+				posY = 6,
 				scale = 1,
 				posX = 0
 			}
@@ -10269,7 +10269,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Howe and added to standard build pool!"
+	tip = "Howe and Valiant added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {

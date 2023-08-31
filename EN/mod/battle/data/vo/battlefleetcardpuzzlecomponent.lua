@@ -210,6 +210,15 @@ function slot12.Start(slot0)
 			slot0._deck:Add(slot0:GenerateCard(slot7))
 		end
 
+		slot3 = slot1.init_move
+		slot4 = 0
+
+		while slot3 > slot4 do
+			slot0._moveDeck:Add(slot0:GenerateCard(uv1.BASE_MOVE_ID))
+
+			slot4 = slot4 + 1
+		end
+
 		if slot1.init_shuffle ~= uv3.Battle.BattleFleetCardPuzzleDeck.NOT_INIT_SHUFFLE then
 			slot0._deck:Shuffle()
 		end

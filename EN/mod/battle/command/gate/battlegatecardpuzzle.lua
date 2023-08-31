@@ -22,11 +22,6 @@ function slot0.Entrance(slot0, slot1)
 		}))
 	end
 
-	slot1:sendNotification(GAME.ACT_CARD_PUZZLE, {
-		cmd = 1,
-		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE) and slot9.id,
-		arg1 = slot2
-	})
 	(function (slot0)
 		uv5:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			hp = 1,
@@ -42,9 +37,21 @@ function slot0.Entrance(slot0, slot1)
 end
 
 function slot0.Exit(slot0, slot1)
+	slot2 = slot0.statistics._battleScore
+
+	print(slot2)
+
+	if ys.Battle.BattleConst.BattleScore.S <= slot2 then
+		slot1:sendNotification(GAME.ACT_CARD_PUZZLE, {
+			cmd = 1,
+			activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE) and slot3.id,
+			arg1 = slot0.puzzleCombatID
+		})
+	end
+
 	slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
 		system = SYSTEM_CARDPUZZLE,
-		score = slot0.statistics._battleScore
+		score = slot2
 	})
 end
 
