@@ -4245,7 +4245,7 @@ pg.activity_template = {
 	},
 	[4877] = {
 		mark = 20230525,
-		time = "stop",
+		time = "always",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
