@@ -55,7 +55,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "武藏",
+			actorName = "무사시",
 			nameColor = "#A9F548FF",
 			say = "어머, 우리 지휘관님께서 등장하셨네.",
 			painting = {
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "퀸 엘리자베스",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "퀸 엘리자베스",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "아브로라",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "아브로라",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			nameColor = "#A9F548FF",
 			say = "다들 벌써 흥이 오른 모양이네, 지휘관.",
 			painting = {
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			nameColor = "#A9F548FF",
 			say = "이런 분위기… 나쁘지 않아. 지휘관도 마음껏 즐겨.",
 			painting = {
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "장 바르",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "장 바르",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "장 바르",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "지휘관님! 저도 모두와 함께 파티를 즐기고 있어요!",
 			painting = {
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "본격적인 파티는 지금부터인 것 같아요! 또 어떤 이벤트가 기다리고 있으려나…?",
 			painting = {
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			say = "역시 어떤 일이든 지휘관이 함께 이끌어 준다면 문제없겠군.",
 			painting = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			say = "…방금 건 파티에서 하는 발언치고는 너무 무거웠나?",
 			painting = {
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			say = "아무튼 지휘관. 오늘은 특별한 날, 기념할 만한 날이다. 마음껏 즐겨라.",
 			painting = {

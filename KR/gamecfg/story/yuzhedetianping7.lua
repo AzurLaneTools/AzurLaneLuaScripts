@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "여기가 우리가 현재 위치한 이글 유니온의 파빌리온입니다.",
 			canMarkNode = {
@@ -491,7 +491,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "지금은 전력을 지하 대피소에 집중시켜 둔 상태라, 현재로선 안전합니다.",
 			canMarkNode = {
@@ -516,7 +516,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "폐막식의 메인 행사장인 콜로세오는 이미 제1차 공격으로 완전히 파괴되었습니다.",
 			canMarkNode = {
@@ -541,7 +541,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "또한 행사장 내부에는 그 거대한 적… '드로이드'라고 임시로 명명했습니다만, 어쨌든 지금은 10대 정도가 있는 듯합니다.",
 			canMarkNode = {
@@ -566,7 +566,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "함재기 공격이 별 효과가 없다는 점 외에 새로운 정보는 아직 없는 상태입니다.",
 			canMarkNode = {
@@ -592,7 +592,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "로열 네이비와 아이리스 리브레의 상황에 대해 말씀드리겠습니다.",
 			canMarkNode = {
@@ -619,7 +619,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "마찬가지로 파빌리온이 큰 피해를 입어, 함대를 집결시켜 몰타로 탈출할 듯합니다.",
 			canMarkNode = {
@@ -646,7 +646,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "다음으로는 사르데냐 엠파이어와 사쿠라 엠파이어, 이스트 글림, 노스 유니온, 메탈 블러드, 비시아 성좌에 대해서입니다.",
 			canMarkNode = {
@@ -674,7 +674,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "사르데냐 엠파이어의 함대는 파빌리온 주변에 퍼져 시설을 방호하고 있습니다.",
 			canMarkNode = {
@@ -703,7 +703,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "사쿠라 엠파이어도 같은 상황인데, 드로이드를 한 대 격퇴한 듯합니다.",
 			canMarkNode = {
@@ -732,7 +732,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			say = "이스트 글림은…… 음, 현재 행사장에 이스트 글림의 함선이 없어서 그런지 파빌리온도 아직 크게 별 손상을 입지 않은 상황입니다.",
 			canMarkNode = {
@@ -762,7 +762,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "노스 유니온은 파빌리온이 파괴되어, 함선들 상황도 파악이 어렵습니다.",
 			canMarkNode = {
@@ -794,7 +794,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "메탈 블러드와 비시아 성좌는 현재 파빌리온 주변 해역에서 드로이드와 교전 중입니다.",
 			canMarkNode = {
@@ -827,7 +827,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "에식스",
 			hidePaintObj = true,
 			say = "상세 내용은 아직 파악하지 못하였으나, 특별 계획함도 전투에 참여 중인 것 같습니다.",
 			canMarkNode = {
