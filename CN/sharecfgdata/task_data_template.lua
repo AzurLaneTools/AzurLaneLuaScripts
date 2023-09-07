@@ -33022,6 +33022,304 @@ _G.pg.base.task_data_template[5917] = {
 	}
 }
 
+_G.pg.base.task_data_template[5921] = {
+	name = "守护之刃的另一面",
+	guild_coin_award = 0,
+	award = 5660,
+	type = 5,
+	desc = "提交3个《鱼雷天妇罗》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5922",
+	auto_commit = 0,
+	story_id = "EDU1",
+	id = 5921,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5922] = {
+	name = "工作需奖励",
+	guild_coin_award = 0,
+	award = 5661,
+	type = 5,
+	desc = "强化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU2",
+	target_id = "0",
+	next_task = "5923",
+	auto_commit = 0,
+	scene = "",
+	id = 5922,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5923] = {
+	name = "偷懒需借口",
+	guild_coin_award = 0,
+	award = 5662,
+	type = 5,
+	desc = "累计消耗石油500",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU3",
+	target_id = "0",
+	next_task = "5924",
+	auto_commit = 0,
+	scene = "",
+	id = 5923,
+	target_num = 500,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5924] = {
+	name = "环境需改造",
+	guild_coin_award = 0,
+	award = 5663,
+	type = 5,
+	desc = "恶毒上阵出击(关卡)胜利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU4",
+	target_id = "90111",
+	next_task = "5925",
+	auto_commit = 0,
+	scene = "",
+	id = 5924,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5925] = {
+	name = "疲劳需舒缓",
+	guild_coin_award = 0,
+	award = 5664,
+	type = 5,
+	desc = "恶毒好感度达到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU5",
+	target_id = "90111",
+	next_task = "5926",
+	auto_commit = 0,
+	scene = "",
+	id = 5925,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5926] = {
+	name = "恩情需偿还",
+	guild_coin_award = 0,
+	award = 5665,
+	type = 5,
+	desc = "恶毒突破至满星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU6",
+	target_id = "90111",
+	next_task = "5927",
+	auto_commit = 0,
+	scene = "",
+	id = 5926,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5927] = {
+	name = "守护之刃的愿望",
+	guild_coin_award = 0,
+	award = 5666,
+	type = 5,
+	desc = "恶毒等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "edu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "EDU7",
+	target_id = "90111",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5927,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18003,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困难·近海演习",
 	guild_coin_award = 0,
@@ -36571,6 +36869,276 @@ _G.pg.base.task_data_template[10159] = {
 	auto_commit = 0,
 	scene = "",
 	id = 10159,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10160] = {
+	name = "限时 兵装训练任务1",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成1次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10160,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10161] = {
+	name = "限时 兵装训练任务2",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成2次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10161,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10162] = {
+	name = "限时 兵装训练任务3",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	desc = "完成3次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10162,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10163] = {
+	name = "限时 兵装训练任务4",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	desc = "完成4次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10163,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10164] = {
+	name = "限时 兵装训练任务5",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	desc = "完成5次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10164,
 	target_num = 5,
 	fix_task = 0,
 	added_tip = 0,
@@ -74294,6 +74862,542 @@ _G.pg.base.task_data_template[19170] = {
 		{
 			7,
 			302054,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19171] = {
+	name = "『日服六周年』前哨战七日任务1",
+	guild_coin_award = 0,
+	award = 900516,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19171,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19172] = {
+	name = "『日服六周年』前哨战七日任务2",
+	guild_coin_award = 0,
+	award = 900517,
+	type = 26,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19172,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19173] = {
+	name = "『日服六周年』前哨战七日任务3",
+	guild_coin_award = 0,
+	award = 900518,
+	type = 26,
+	desc = "进行2次演习",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19173,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19174] = {
+	name = "『日服六周年』前哨战七日任务4",
+	guild_coin_award = 0,
+	award = 900519,
+	type = 26,
+	desc = "完成军事委托2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19174,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19175] = {
+	name = "『日服六周年』前哨战七日任务5",
+	guild_coin_award = 0,
+	award = 900520,
+	type = 26,
+	desc = "舰船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19175,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19176] = {
+	name = "『日服六周年』前哨战七日任务6",
+	guild_coin_award = 0,
+	award = 900521,
+	type = 26,
+	desc = "完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19176,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19177] = {
+	name = "『日服六周年』前哨战七日任务7",
+	guild_coin_award = 0,
+	award = 900522,
+	type = 26,
+	desc = "舰船强化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19177,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19178] = {
+	name = "『日服六周年』前哨战七日任务8",
+	guild_coin_award = 0,
+	award = 900523,
+	type = 26,
+	desc = "进行战术训练2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19178,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19179] = {
+	name = "『日服六周年』前哨战七日任务9",
+	guild_coin_award = 0,
+	award = 900524,
+	type = 26,
+	desc = "击沉任意敌人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19179,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19180] = {
+	name = "『日服六周年』前哨战七日任务10",
+	guild_coin_award = 0,
+	award = 900525,
+	type = 26,
+	desc = "后宅补充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19180,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19181] = {
+	name = "『日服六周年』前哨战七日任务11",
+	guild_coin_award = 0,
+	award = 900526,
+	type = 26,
+	desc = "建造舰船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19181,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19182] = {
+	name = "『日服六周年』前哨战七日任务12",
+	guild_coin_award = 0,
+	award = 900527,
+	type = 26,
+	desc = "打开任意科技箱1个",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19182,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19183] = {
+	name = "『日服六周年』前哨战七日任务13",
+	guild_coin_award = 0,
+	award = 900528,
+	type = 26,
+	desc = "进行2次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19183,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19184] = {
+	name = "『日服六周年』前哨战七日任务14",
+	guild_coin_award = 0,
+	award = 900529,
+	type = 26,
+	desc = "击败旗舰3次 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19184,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150000,
 			1
 		}
 	},

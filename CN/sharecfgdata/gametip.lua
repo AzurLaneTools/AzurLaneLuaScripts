@@ -7471,7 +7471,7 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 <color=#92fc63>【主炮（轻巡主炮）】</color>变更为
 <color=#92fc63>【主炮（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
 <color=#92fc63>【主炮】</color>栏的装备将被卸下
-<color=#92fc63>【特殊兵装】</color>栏的兵装将被卸下
+<color=#92fc63>【特殊兵装】</color>栏改造后不符合装备要求的兵装将被卸下
 是否确认继续操作？]]
 }
 

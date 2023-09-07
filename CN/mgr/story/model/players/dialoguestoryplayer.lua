@@ -43,7 +43,7 @@ function slot0.OnStart(slot0, slot1)
 	slot0.defualtFontSize = slot0.conentTxt.fontSize
 end
 
-function slot0.OnReset(slot0, slot1, slot2)
+function slot0.OnReset(slot0, slot1, slot2, slot3)
 	slot0:ResetActorTF(slot1, slot2)
 	setActive(slot0.nameLeft, false)
 	setActive(slot0.nameRight, false)
@@ -54,6 +54,35 @@ function slot0.OnReset(slot0, slot1, slot2)
 
 	slot0:CancelTween(slot0.contentArr)
 	slot0:SetContentBgAlpha(slot1:GetContentBGAlpha())
+	slot3()
+end
+
+function slot0.GetRecycleActorList(slot0, slot1, slot2)
+	slot4 = slot0:GetSideTF(slot1:GetSide())
+	slot5 = {}
+
+	if slot1:HideOtherPainting() then
+		slot5 = {
+			slot0.actorLeft,
+			slot0.actorMiddle,
+			slot0.actorRgiht
+		}
+	else
+		if slot2 and slot2:IsDialogueMode() and slot1:IsSameSide(slot2) and slot1:IsDialogueMode() then
+			slot6 = slot1:IsSamePainting(slot2)
+
+			if slot0.script:ShouldSkipAll() or not slot6 then
+				table.insert(slot5, slot4)
+			end
+		end
+
+		if slot3 == DialogueStep.SIDE_MIDDLE then
+			table.insert(slot5, slot0.actorLeft)
+			table.insert(slot5, slot0.actorRgiht)
+		end
+	end
+
+	return slot5
 end
 
 function slot0.ResetActorTF(slot0, slot1, slot2)
@@ -72,48 +101,69 @@ function slot0.ResetActorTF(slot0, slot1, slot2)
 		end
 	end
 
-	if slot1:HideOtherPainting() then
-		slot0:RecyclePainting({
-			"actorLeft",
-			"actorMiddle",
-			"actorRgiht"
-		})
-	else
-		if slot2 and slot2:IsDialogueMode() and slot1:IsSameSide(slot2) and slot1:IsDialogueMode() then
-			slot5 = slot1:IsSamePainting(slot2)
+	slot5 = slot0:GetRecycleActorList(slot1, slot2)
 
-			if slot0.formSkip or not slot5 then
-				slot0:RecyclePainting(slot4)
-			else
-				slot0.paintingStay = true
-			end
-		end
+	if slot4 and _.all(slot5, function (slot0)
+		return slot0 ~= uv0
+	end) then
+		slot0.paintingStay = true
 
-		if slot3 == DialogueStep.SIDE_MIDDLE then
-			slot0:RecyclePainting({
-				"actorLeft",
-				"actorRgiht"
-			})
-		end
+		slot0:ResetMeshPainting(slot4)
 	end
 
+	slot0:RecyclePaintingList(slot5)
 	slot0:RecyclesSubPantings(slot0.subActorMiddle)
 	slot0:RecyclesSubPantings(slot0.subActorRgiht)
 	slot0:RecyclesSubPantings(slot0.subActorLeft)
+
+	for slot9, slot10 in ipairs({
+		slot0.actorLeft,
+		slot0.actorMiddle,
+		slot0.actorRgiht
+	}) do
+		slot10:GetComponent(typeof(CanvasGroup)).alpha = 1
+	end
 end
 
-function slot0.OnInit(slot0, slot1, slot2)
+function slot0.OnInit(slot0, slot1, slot2, slot3)
 	parallelAsync({
 		function (slot0)
 			uv0:UpdateContent(uv1, slot0)
 		end,
 		function (slot0)
-			uv0:UpdatePainting(uv1, slot0)
+			uv0:UpdateSubPaintings(uv1, slot0)
 		end,
 		function (slot0)
-			uv0:UpdateCanMarkNode(uv1, slot0)
+			uv0:UpdatePainting(uv1, uv2, slot0)
+		end,
+		function (slot0)
+			uv0:GrayingInPainting(uv1, uv2, slot0)
+		end,
+		function (slot0)
+			uv0:StartMovePrevPaintingToSide(uv1, uv2, slot0)
+		end,
+		function (slot0)
+			uv0:GrayingOutPrevPainting(uv1, uv2, slot0)
 		end
-	}, slot2)
+	}, slot3)
+end
+
+function slot0.UpdateSubPaintings(slot0, slot1, slot2)
+	slot3, slot4, slot5, slot6 = slot0:GetSideTF(slot1:GetSide())
+
+	if not slot1:ExistPainting() then
+		slot2()
+
+		return
+	end
+
+	slot0:InitSubPainting(slot6, slot1:GetSubPaintings(), slot1)
+
+	if slot1:NeedDispppearSubPainting() then
+		slot0:DisappearSubPainting(slot6, slot1, slot2)
+	else
+		slot2()
+	end
 end
 
 function slot0.OnStartUIAnimations(slot0, slot1, slot2)
@@ -131,13 +181,7 @@ end
 function slot0.OnEnter(slot0, slot1, slot2, slot3)
 	parallelAsync({
 		function (slot0)
-			uv0:FadeInPaiting(uv1, uv2, slot0)
-		end,
-		function (slot0)
-			uv0:StartMovePrevPaitingToSide(uv1, uv2, slot0)
-		end,
-		function (slot0)
-			uv0:FadeOutPrevPaiting(uv1, uv2, uv3)
+			uv0:UpdateCanMarkNode(uv1, slot0)
 		end,
 		function (slot0)
 			uv0:UpdateIcon(uv1, slot0)
@@ -240,24 +284,30 @@ function slot0.UpdateIcon(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.FadeOutPrevPaiting(slot0, slot1, slot2, slot3)
+function slot0.GrayingOutPrevPainting(slot0, slot1, slot2, slot3)
 	if not slot1 or not slot1:IsDialogueMode() then
 		slot3()
 
 		return
 	end
 
-	if slot0:GetSideTF(slot2:GetPrevSide(slot1)) and slot2 and slot2:IsDialogueMode() and slot2:GetPainting() ~= nil and not slot2:IsSameSide(slot1) then
+	if slot0:GetSideTF(slot2:GetPrevSide(slot1)) and slot2 and slot2:IsDialogueMode() and slot2:ShouldGrayingOutPainting(slot1) then
 		slot5 = slot1:GetPaintingData()
 
-		slot0:fadeTransform(slot4, slot1:GetPaintingAlpha() and slot1:GetPaintingAlpha() or 1, slot5.alpha, slot5.time, false, slot3)
+		slot0:fadeTransform(slot4, slot1:GetPaintingAlpha() or 1, slot5.alpha, slot5.time, false, slot3)
 	else
 		slot3()
 	end
 end
 
-function slot0.FadeInPaiting(slot0, slot1, slot2, slot3)
-	if slot2 and slot2:IsDialogueMode() and slot2:GetPainting() ~= nil and not slot1:IsSameSide(slot2) then
+function slot0.GrayingInPainting(slot0, slot1, slot2, slot3)
+	if not slot1:ExistPainting() then
+		slot3()
+
+		return
+	end
+
+	if slot2 and slot2:IsDialogueMode() and slot1:ShouldGrayingPainting(slot2) then
 		slot5 = slot1:GetPaintingData()
 
 		if not IsNil(slot0:GetSideTF(slot1:GetSide())) and not slot1:GetPaintingAlpha() then
@@ -299,26 +349,71 @@ function slot0.UpdateTypeWriter(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdatePainting(slot0, slot1, slot2)
-	slot3, slot4, slot5, slot6 = slot0:GetSideTF(slot1:GetSide())
-	slot7, slot8 = slot1:GetPaintingAndName()
-	slot9 = slot0.paintingStay
-	slot0.paintingStay = nil
+function slot0.UpdatePainting(slot0, slot1, slot2, slot3)
+	if not slot1:ExistPainting() then
+		slot3()
 
-	if slot1:IsLive2dPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot8)) then
-		slot0:UpdateLive2dPainting(slot1, slot3, slot9, slot2)
-	elseif slot1:IsSpinePainting() and PathMgr.FileExists(PathMgr.getAssetBundle("spinepainting/" .. slot8)) then
-		slot0:UpdateSpinePainting(slot1, slot3, slot9, slot2)
-	else
-		slot0:UpdateMeshPainting(slot1, slot3, slot6, slot9, slot2)
+		return
 	end
 
-	if slot4 then
-		setActive(slot4, slot1:GetNameWithColor() and slot10 ~= "")
+	slot0.paintingStay = nil
+	slot5, slot6, slot7, slot8 = slot0:GetSideTF(slot1:GetSide())
+	slot9 = slot2 and slot2:IsDialogueMode() and (slot1:ShouldGrayingOutPainting(slot2) or slot1:ShouldGrayingPainting(slot2)) or not slot1:ShouldFadeInPainting() or not not slot0.paintingStay
+	slot10 = slot2 and slot2:IsDialogueMode() and slot1:ShouldGrayingPainting(slot2)
 
-		slot5.text = slot10
+	seriesAsync({
+		function (slot0)
+			if not uv0 then
+				uv1:GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
 
-		setText(slot5.gameObject.transform:Find("subText"), slot1:GetSubActorName())
+			uv2:LoadPainting(uv3, uv4, slot0)
+
+			if uv5 then
+				uv2:SetFadeColor(uv1, uv3:GetPaintingData().alpha)
+			end
+		end,
+		function (slot0)
+			if uv0 then
+				slot0()
+
+				return
+			end
+
+			uv1:FadeInPainting(uv2, uv3, slot0)
+		end,
+		function (slot0)
+			uv0:AnimationPainting(uv1, slot0)
+		end
+	}, slot3)
+end
+
+function slot0.FadeInPainting(slot0, slot1, slot2, slot3)
+	slot0:TweenValueForcanvasGroup(slot1:GetComponent(typeof(CanvasGroup)), 0, 1, slot2:GetFadeInPaintingTime(), 0, slot3)
+end
+
+function slot0.AnimationPainting(slot0, slot1, slot2)
+	if slot1:IsLive2dPainting() or slot1:IsSpinePainting() then
+		slot2()
+
+		return
+	end
+
+	slot3, slot4, slot5, slot6 = slot0:GetSideTF(slot1:GetSide())
+
+	slot0:StartPaintingActions(slot3, slot1, slot2)
+end
+
+function slot0.LoadPainting(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6, slot7 = slot0:GetSideTF(slot1:GetSide())
+	slot8, slot9 = slot1:GetPaintingAndName()
+
+	if slot1:IsLive2dPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot9)) then
+		slot0:UpdateLive2dPainting(slot1, slot4, slot2, slot3)
+	elseif slot1:IsSpinePainting() and PathMgr.FileExists(PathMgr.getAssetBundle("spinepainting/" .. slot9)) then
+		slot0:UpdateSpinePainting(slot1, slot4, slot2, slot3)
+	else
+		slot0:UpdateMeshPainting(slot1, slot4, slot7, slot2, slot3)
 	end
 end
 
@@ -360,7 +455,7 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
 		uv1()
 	end
 
-	if slot3 and slot0.live2dChars[slot2] then
+	if not slot3 and slot0.live2dChars[slot2] then
 		slot6(slot0.live2dChars[slot2])
 	else
 		slot5(slot6)
@@ -459,7 +554,7 @@ function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
-	if slot3 and slot0.spinePainings[slot2] then
+	if not slot3 and slot0.spinePainings[slot2] then
 		slot0:UpdateSpineExpression(slot0.spinePainings[slot2], slot1)
 		slot4()
 	else
@@ -493,7 +588,7 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot1:GetPainting() then
 		slot9 = findTF(slot2, "fitter").childCount
 
-		if not slot4 or slot9 <= 0 then
+		if slot4 or slot9 <= 0 then
 			slot8()
 		end
 
@@ -504,16 +599,7 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot0:UpdateActorPostion(slot2, slot1)
 		slot0:UpdateExpression(slot12, slot1)
-		slot0:StartPatiningActions(slot2, slot1)
 		slot0:AddGlitchArtEffectForPating(slot2, slot12, slot1)
-		slot0:InitSubPainting(slot3, slot1:GetSubPaintings(), slot1)
-
-		if slot1:NeedDispppearSubPainting() then
-			slot7 = true
-
-			slot0:DisappearSubPainting(slot3, slot1, slot5)
-		end
-
 		slot2:SetAsLastSibling()
 
 		if slot1:ShouldGrayPainting() then
@@ -529,9 +615,7 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	if not slot7 then
-		slot5()
-	end
+	slot5()
 end
 
 function slot4(slot0)
@@ -636,7 +720,7 @@ function slot0.UpdateExpression(slot0, slot1, slot2)
 	end
 end
 
-function slot0.StartPatiningActions(slot0, slot1, slot2, slot3)
+function slot0.StartPaintingActions(slot0, slot1, slot2, slot3)
 	parallelAsync({
 		function (slot0)
 			uv0:StartPatiningMoveAction(uv1, uv2, slot0)
@@ -776,7 +860,7 @@ function slot0.StartPatiningMoveAction(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
+function slot0.StartMovePrevPaintingToSide(slot0, slot1, slot2, slot3)
 	if not slot1:GetPaintingMoveToSide() or not slot2 then
 		slot3()
 
@@ -814,6 +898,8 @@ function slot0.StartMovePrevPaitingToSide(slot0, slot1, slot2, slot3)
 			x = slot0
 		})
 	end, slot3)
+
+	slot8.localPosition = Vector2(slot5.localPosition.x, slot8.localPosition.y, 0)
 end
 
 function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
@@ -865,6 +951,16 @@ function slot0.UpdateContent(slot0, slot1, slot2)
 		slot0:TweenMovey(slot0.contentArr, 0, 10, 0.5, 0, -1, nil)
 	else
 		slot2()
+	end
+
+	slot5, slot6, slot7, slot8 = slot0:GetSideTF(slot1:GetSide())
+
+	if slot6 then
+		setActive(slot6, slot1:GetNameWithColor() and slot9 ~= "")
+
+		slot7.text = slot9
+
+		setText(slot7.gameObject.transform:Find("subText"), slot1:GetSubActorName())
 	end
 end
 
@@ -923,9 +1019,9 @@ function slot5(slot0)
 
 			if slot8.material ~= slot8.defaultGraphicMaterial then
 				slot8.material = slot8.defaultGraphicMaterial
-
-				slot8.material:SetColor("_Color", slot9)
 			end
+
+			slot8.material:SetColor("_Color", slot9)
 		end
 
 		setGray(slot0, false, true)
@@ -933,6 +1029,49 @@ function slot5(slot0)
 
 		if slot1:Find("temp_mask") then
 			Destroy(slot4)
+		end
+	end
+end
+
+function slot0.ClearMeshPainting(slot0, slot1)
+	slot0:ResetMeshPainting(slot1)
+
+	if slot1:Find("fitter").childCount == 0 then
+		return
+	end
+
+	if slot1:Find("fitter"):GetChild(0) then
+		retPaintingPrefab(slot1, slot2.name)
+	end
+end
+
+function slot0.ResetMeshPainting(slot0, slot1)
+	if slot1:Find("fitter").childCount == 0 then
+		return
+	end
+
+	if slot1:Find("fitter"):GetChild(0) then
+		if findTF(slot2, "shadow") then
+			setActive(slot3, false)
+		end
+
+		for slot8 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			slot9 = slot4[slot8]
+			slot10 = Color.white
+
+			if slot9.material ~= slot9.defaultGraphicMaterial then
+				slot9.material = slot9.defaultGraphicMaterial
+
+				slot9.material:SetColor("_Color", slot10)
+			else
+				slot9.material = nil
+			end
+		end
+
+		setGray(slot1, false, true)
+
+		if slot2:Find("temp_mask") then
+			Destroy(slot5)
 		end
 	end
 end
@@ -986,15 +1125,21 @@ end
 
 function slot0.RecyclePainting(slot0, slot1)
 	if type(slot1) == "table" then
-		for slot5, slot6 in ipairs(slot1) do
-			uv0(slot0[slot6])
-			uv1(slot0, slot0[slot6])
-			uv2(slot0, slot0[slot6])
-		end
+		slot0:RecyclePaintingList(_.map(slot1, function (slot0)
+			return uv0[slot0]
+		end))
 	else
-		uv0(slot1)
+		slot0:ClearMeshPainting(slot1)
+		uv0(slot0, slot1)
 		uv1(slot0, slot1)
-		uv2(slot0, slot1)
+	end
+end
+
+function slot0.RecyclePaintingList(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0:ClearMeshPainting(slot6)
+		uv0(slot0, slot6)
+		uv1(slot0, slot6)
 	end
 end
 
@@ -1022,6 +1167,37 @@ function slot0.OnClear(slot0)
 	end
 end
 
+function slot0.FadeOutPainting(slot0, slot1, slot2, slot3)
+	slot0:TweenValueForcanvasGroup(slot2:GetComponent(typeof(CanvasGroup)), 1, 0, slot1:GetFadeOutPaintingTime(), 0, slot3)
+end
+
+function slot0.OnWillExit(slot0, slot1, slot2, slot3)
+	if not slot2 or not slot2:IsDialogueMode() then
+		slot3()
+
+		return
+	end
+
+	slot4 = slot0:GetRecycleActorList(slot2, slot1)
+	slot5 = nil
+
+	if slot2:ShouldMoveToSide() then
+		slot5 = slot0:GetSideTF(slot1:GetSide())
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot4) do
+		if not slot5 or slot11 ~= slot5 then
+			table.insert(slot6, function (slot0)
+				uv0:FadeOutPainting(uv1, uv2, slot0)
+			end)
+		end
+	end
+
+	parallelAsync(slot6, slot3)
+end
+
 function slot0.OnEnd(slot0)
 	slot0:ClearCanMarkNode()
 	slot0:RecyclePainting({
@@ -1033,6 +1209,14 @@ function slot0.OnEnd(slot0)
 	slot0.conentTxt.text = ""
 	slot0.nameLeftTxt.text = ""
 	slot0.nameRightTxt.text = ""
+
+	for slot5, slot6 in ipairs({
+		"actorLeft",
+		"actorMiddle",
+		"actorRgiht"
+	}) do
+		slot0[slot6]:GetComponent(typeof(CanvasGroup)).alpha = 1
+	end
 end
 
 return slot0

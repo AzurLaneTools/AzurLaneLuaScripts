@@ -378,7 +378,6 @@ end
 
 function slot2._pause(slot0)
 	slot0:Deactive()
-	print("ppppp")
 	slot0._dataProxy:PausePuzzleComponent()
 	slot0._sceneMediator:Pause()
 
@@ -408,7 +407,6 @@ end
 function slot2._resume(slot0)
 	slot0._sceneMediator:Resume()
 	slot0:Active()
-	print("rrrr")
 	slot0._dataProxy:ResumePuzzleComponent()
 
 	if slot0._timescalerCache then

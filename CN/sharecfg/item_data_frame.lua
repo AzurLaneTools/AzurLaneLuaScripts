@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「公义无需加冕，自有胜利的桂冠为其留存。」</color>\n「愚者的天平」活动获取",
 		scene = {}
 	},
+	[327] = {
+		time_limit_type = 0,
+		name = "紫藤花冠",
+		gain_by = "",
+		id = 327,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -596,6 +605,7 @@ pg.item_data_frame = {
 		324,
 		325,
 		326,
+		327,
 		401,
 		402,
 		404,
