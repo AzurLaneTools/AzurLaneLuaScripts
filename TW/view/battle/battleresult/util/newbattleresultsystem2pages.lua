@@ -69,5 +69,8 @@ return {
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewBattleResultStatisticsPage
+	},
+	[SYSTEM_CARDPUZZLE] = {
+		NewCardPuzzleResultGradePage
 	}
 }

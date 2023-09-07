@@ -62,7 +62,10 @@ function slot0.init(slot0)
 
 	onButton(slot0, slot4:Find("content/bottom/btn_confirm"), function ()
 		if uv0.max < uv0.count then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", Item.GetName(uv0.goods:getConfig("resource_category"), uv0.goods:getConfig("resource_type"))))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", getDropName({
+				type = uv0.goods:getConfig("resource_category"),
+				id = uv0.goods:getConfig("resource_type")
+			})))
 
 			return
 		end
@@ -99,7 +102,10 @@ function slot0.didEnter(slot0)
 
 	setText(slot3:Find("line/name"), slot2.cfg.name)
 	setText(slot3:Find("line/content/Text"), string.gsub(slot2.desc or slot2.cfg.desc, "<[^>]+>", ""))
-	GetImageSpriteFromAtlasAsync(Item.GetIcon(slot1:getConfig("resource_category"), slot1:getConfig("resource_type")), "", slot0._tf:Find("content/calc/cost/icon"))
+	GetImageSpriteFromAtlasAsync(getDropIcon({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}), "", slot0._tf:Find("content/calc/cost/icon"))
 
 	slot0.count = 1
 

@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "转头向着大门的方向走去，依稀听到背后的傻白说了什么。",
+			say = "转头向着大门的方向走去，依稀听到背后的莎白说了什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

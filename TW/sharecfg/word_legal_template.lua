@@ -648,6 +648,38 @@ end
 temp()
 
 function temp()
+	uv0.K = {
+		u = {
+			r = {
+				s = {
+					k = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.k = {
+		u = {
+			r = {
+				s = {
+					k = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["泛"] = {
 		["用"] = {
 			["型"] = {

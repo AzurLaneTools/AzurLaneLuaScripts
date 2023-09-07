@@ -58,31 +58,6 @@ function slot0.getLayerWeight(slot0)
 	return LayerWeightConst.BASE_LAYER
 end
 
-function slot0.getBGM(slot0, slot1)
-	slot2 = pg.voice_bgm[slot1 or slot0.__cname]
-
-	if pg.CriMgr.GetInstance():IsDefaultBGM() then
-		return slot2 and slot2.default_bgm or nil
-	elseif slot2 then
-		slot4 = slot2.time
-
-		if slot2.special_bgm and type(slot3) == "string" and #slot3 > 0 and slot4 and type(slot4) == "table" then
-			slot5 = slot2.time
-			slot7 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot5[2])
-
-			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot5[1]) <= pg.TimeMgr.GetInstance():GetServerTime() and slot8 <= slot7 then
-				return slot3
-			else
-				return slot2.bgm
-			end
-		else
-			return slot2 and slot2.bgm or nil
-		end
-	else
-		return nil
-	end
-end
-
 function slot0.preload(slot0, slot1)
 	slot1()
 end
@@ -124,6 +99,10 @@ function slot0.load(slot0)
 
 		uv2:onUILoaded(uv0)
 	end)
+end
+
+function slot0.getBGM(slot0, slot1)
+	return getBgm(slot1 or slot0.__cname)
 end
 
 function slot0.PlayBGM(slot0)

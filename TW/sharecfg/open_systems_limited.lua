@@ -152,6 +152,14 @@ pg.open_systems_limited = {
 		mediator = "WorldMediaCollectionRecordMediator",
 		level = 60
 	},
+	[21] = {
+		scene = "MAINUI",
+		name = "小遊戲大廳",
+		story_id = "",
+		id = 21,
+		mediator = "GameHallMediator",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -171,6 +179,7 @@ pg.open_systems_limited = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

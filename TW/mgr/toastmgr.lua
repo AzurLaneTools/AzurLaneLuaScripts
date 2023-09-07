@@ -396,7 +396,10 @@ function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 
 	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
 
-	LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_RESOURCE, slot5), "", slot7:Find("PointIcon"), true)
+	LoadImageSpriteAtlasAsync(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot5
+	}), "", slot7:Find("PointIcon"), true)
 	setText(slot7:Find("info/name"), pg.item_data_statistics[id2ItemId(slot5)].name)
 	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
 	setAnchoredPosition(slot7, {

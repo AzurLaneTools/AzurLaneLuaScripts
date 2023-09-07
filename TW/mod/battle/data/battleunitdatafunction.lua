@@ -64,6 +64,11 @@ function slot32.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 		slot12:SetWeaponInfo(slot9, slot10)
 
 		slot13 = Ship.WEAPON_COUNT
+	elseif slot1 == uv0.UnitType.CARDPUZZLE_PLAYER_UNIT then
+		slot12 = uv1.Battle.BattleCardPuzzlePlayerUnit.New(slot0, slot2)
+
+		slot12:SetSkinId(slot4)
+		slot12:SetWeaponInfo(slot9, slot10)
 	end
 
 	slot12:SetTemplate(slot3, slot6, slot7)

@@ -9370,6 +9370,11 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/shentong_tex",
 			"painting/shentong_alter_tex",
+			"painting/shentong_alter_rw_tex",
+			"painting/shentong_alter_n_tex",
+			"painting/shentong_alter_n_front_tex",
+			"painting/shentong_alter_n",
+			"painting/shentong_alter_front_tex",
 			"painting/shentong_alter",
 			"painting/shentong"
 		}

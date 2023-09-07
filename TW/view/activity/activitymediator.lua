@@ -338,8 +338,8 @@ function slot0.onUIAvalible(slot0)
 	end)
 end
 
-function slot0.getNotificationHandleDic(slot0)
-	uv0.handleDic = uv0.handleDic or {
+function slot0.initNotificationHandleDic(slot0)
+	slot0.handleDic = {
 		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
 			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 				return
@@ -393,14 +393,21 @@ function slot0.getNotificationHandleDic(slot0)
 			slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot1:getBody())
 		end,
 		[GAME.COLORING_ACHIEVE_DONE] = function (slot0, slot1)
-			slot0.viewComponent:playBonusAnim(function ()
-				uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0:getBody().drops, function ()
+			slot2 = slot0.viewComponent
+
+			slot2:playBonusAnim(function ()
+				slot0 = uv0
+				slot1 = uv1.viewComponent
+
+				slot1:emit(BaseUI.ON_ACHIEVE, slot0:getBody().drops, function ()
 					uv0.viewComponent:flush_coloring()
 				end)
 			end)
 		end,
 		[GAME.SUBMIT_TASK_DONE] = function (slot0, slot1)
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
 				uv0.viewComponent:updateTaskLayers()
 			end)
 		end,
@@ -475,9 +482,6 @@ function slot0.getNotificationHandleDic(slot0)
 			slot0.viewComponent:loadLayers()
 		end
 	}
-	uv0.elseFunc = nil
-
-	return uv0.handleDic, uv0.elseFunc
 end
 
 function slot0.showNextActivity(slot0)

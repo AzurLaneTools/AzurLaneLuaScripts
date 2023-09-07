@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.oldPhoto = slot1.oldPhoto
 	slot0.bgm = slot1.bgm
 	slot0.bgmDelay = slot1.bgmDelay or 0
+	slot0.bgmVolume = slot1.bgmVolume or -1
 	slot0.stopbgm = slot1.stopbgm
 	slot0.effects = slot1.effects or {}
 	slot0.blink = slot1.flash
@@ -19,6 +20,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.seDelay = slot1.seDelay or 0
 	slot0.voice = slot1.voice
 	slot0.voiceDelay = slot1.voiceDelay or 0
+	slot0.stopVoice = defaultValue(slot1.stopVoice, false)
 	slot0.movableNode = slot1.movableNode
 	slot0.options = slot1.options
 	slot0.important = slot1.important
@@ -187,7 +189,7 @@ function slot0.IsDialogueMode(slot0)
 end
 
 function slot0.GetBgmData(slot0)
-	return slot0.bgm, slot0.bgmDelay, slot0.stopbgm
+	return slot0.bgm, slot0.bgmDelay, slot0.bgmVolume
 end
 
 function slot0.ShoulePlayBgm(slot0)
@@ -228,6 +230,10 @@ end
 
 function slot0.ShouldPlayVoice(slot0)
 	return slot0.voice ~= nil
+end
+
+function slot0.ShouldStopVoice(slot0)
+	return slot0.stopVoice
 end
 
 function slot0.GetVoice(slot0)
@@ -281,7 +287,8 @@ function slot0.GetOptions(slot0)
 	return _.map(slot0.options or {}, function (slot0)
 		return {
 			HXSet.hxLan(slot0.content),
-			slot0.flag
+			slot0.flag,
+			slot0.disable
 		}
 	end)
 end

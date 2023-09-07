@@ -23,8 +23,8 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getNotificationHandleDic(slot0)
-	uv0.handleDic = uv0.handleDic or {
+function slot0.initNotificationHandleDic(slot0)
+	slot0.handleDic = {
 		[GAME.ISLAND_SHOPPING_DONE] = function (slot0, slot1)
 			slot3 = {}
 
@@ -47,9 +47,6 @@ function slot0.getNotificationHandleDic(slot0)
 			slot0.viewComponent:setPlayer(slot1:getBody())
 		end
 	}
-	uv0.elseFunc = nil
-
-	return uv0.handleDic, uv0.elseFunc
 end
 
 return slot0

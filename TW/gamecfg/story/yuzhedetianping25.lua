@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
-			say = "探照灯的强光照亮了众人身旁的水面，却穿不透近前方不远处的漆黑。",
+			say = "探照灯的强光照亮了众人身旁的水面，却穿不透近在咫尺的漆黑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

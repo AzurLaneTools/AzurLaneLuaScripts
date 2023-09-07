@@ -600,8 +600,29 @@ function setSizeStr(slot0, slot1)
 	return slot2
 end
 
-function playBGM(slot0)
-	pg.CriMgr.GetInstance():PlayBGM(slot0)
+function getBgm(slot0)
+	slot1 = pg.voice_bgm[slot0]
+
+	if pg.CriMgr.GetInstance():IsDefaultBGM() then
+		return slot1 and slot1.default_bgm or nil
+	elseif slot1 then
+		slot3 = slot1.time
+
+		if slot1.special_bgm and type(slot2) == "string" and #slot2 > 0 and slot3 and type(slot3) == "table" then
+			slot4 = slot1.time
+			slot6 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4[2])
+
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4[1]) <= pg.TimeMgr.GetInstance():GetServerTime() and slot7 <= slot6 then
+				return slot2
+			else
+				return slot1.bgm
+			end
+		else
+			return slot1 and slot1.bgm or nil
+		end
+	else
+		return nil
+	end
 end
 
 function playStory(slot0, slot1)
@@ -866,7 +887,9 @@ function updateItem(slot0, slot1, slot2)
 	slot6 = findTF(slot0, "icon_bg/icon")
 	slot7 = slot1.icon or slot3.icon
 
-	if slot1.extra and slot3.type == Item.LOVE_LETTER_TYPE then
+	if slot3.type == Item.LOVE_LETTER_TYPE then
+		assert(slot1.extra, "without extra data")
+
 		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
@@ -1617,7 +1640,13 @@ function GetOwnedDropCount(slot0)
 				return getProxy(PlayerProxy):getRawData():getResById(slot0.id), true
 			end,
 			[DROP_TYPE_ITEM] = function (slot0)
-				return getProxy(BagProxy):getItemCountById(slot0.id), true
+				slot1 = getProxy(BagProxy):getItemCountById(slot0.id)
+
+				if updateDropCfg(slot0).type == Item.LOVE_LETTER_TYPE then
+					return math.min(slot1, 1), true
+				else
+					return slot1, true
+				end
 			end,
 			[DROP_TYPE_EQUIP] = function (slot0)
 				slot1 = pg.equip_data_template[slot0.id].group
@@ -1659,6 +1688,15 @@ function GetOwnedDropCount(slot0)
 			end,
 			[DROP_TYPE_CHAT_FRAME] = function (slot0)
 				return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_CHAT_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
+			end,
+			[DROP_TYPE_WORLD_ITEM] = function (slot0)
+				if nowWorld().type ~= World.TypeFull then
+					assert(false)
+
+					return 0, false
+				else
+					return slot1:GetInventoryProxy():GetItemCount(slot0.id), false
+				end
 			end
 		}
 

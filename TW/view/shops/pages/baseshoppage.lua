@@ -171,7 +171,7 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
 	}).type == DROP_TYPE_VITEM and pg.item_data_statistics[slot3.id].virtual_type == 22 and (not getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id) or slot5:isEnd()) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", Item.GetName(slot3.type, slot3.id)))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", getDropName(slot3)))
 
 		return
 	end
@@ -200,11 +200,12 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 				return
 			end
 
-			slot1, slot2 = getPlayerOwn(uv0:getConfig("resource_category"), uv0:getConfig("resource_type"))
-
-			if slot2 < uv0:getConfig("resource_num") * uv1 then
+			if GetOwnedDropCount({
+				type = uv0:getConfig("resource_category"),
+				id = uv0:getConfig("resource_type")
+			}) < uv0:getConfig("resource_num") * uv1 then
 				if not ItemTipPanel.ShowItemTip(uv0:getConfig("resource_category"), uv0:getConfig("resource_type")) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot1))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", getDropName(slot1)))
 				end
 
 				return

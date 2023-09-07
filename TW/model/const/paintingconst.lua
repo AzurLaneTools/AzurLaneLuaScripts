@@ -16,13 +16,13 @@ return {
 		slot1 = string.lower(slot1)
 
 		if not pg.painting_filte_map then
-			pg.TipsMgr.GetInstance():ShowTips("painting_filte_map not exist")
+			warning("painting_filte_map not exist")
 
 			return
 		end
 
 		if not pg.painting_filte_map[slot1] then
-			pg.TipsMgr.GetInstance():ShowTips("painting_filte_map not exist key: " .. slot1)
+			warning("painting_filte_map not exist key: " .. slot1)
 
 			return
 		end
@@ -55,7 +55,7 @@ return {
 		slot1 = uv0.GetPaintingMgr()
 
 		if getProxy(ShipSkinProxy) then
-			for slot7, slot8 in pairs(slot2.GetOwnSkins(slot2)) do
+			for slot7, slot8 in pairs(slot2.GetOwnAndShareSkins(slot2)) do
 				uv0.AddPaintingNameBySkinID(slot0, slot8.id)
 			end
 		end

@@ -127,7 +127,10 @@ function slot0.AddVisitorShip(slot0, slot1)
 		return
 	end
 
-	slot0.storey:AddShip(slot0:DataToVisitorShip(slot1))
+	if slot0.storey:GetRandomPosition(slot0:DataToVisitorShip(slot1)) then
+		slot2:SetPosition(slot3)
+		slot0.storey:AddShip(slot2)
+	end
 end
 
 function slot0.ExitShip(slot0, slot1)
@@ -195,6 +198,22 @@ function slot0.GetMaxCntForShip(slot0)
 		id = 999,
 		configId = 100001
 	}))) + table.getCount(slot0.storey:GetShips())
+end
+
+function slot0.SelectFurnitureByConfigId(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0.storey.furnitures) do
+		if slot7.configId == slot1 then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot0:SelectFurniture(slot2.id)
+	end
 end
 
 function slot0.SelectFurniture(slot0, slot1)

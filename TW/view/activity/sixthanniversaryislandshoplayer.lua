@@ -75,7 +75,10 @@ function slot0.updateGoodsCard(slot0, slot1, slot2)
 	onNextTick(function ()
 		changeToScrollText(uv0:Find("Text"), uv1.cfg.name)
 	end)
-	GetImageSpriteFromAtlasAsync(Item.GetIcon(slot2:getConfig("resource_category"), slot2:getConfig("resource_type")), "", slot1:Find("res_icon"))
+	GetImageSpriteFromAtlasAsync(getDropIcon({
+		type = slot2:getConfig("resource_category"),
+		id = slot2:getConfig("resource_type")
+	}), "", slot1:Find("res_icon"))
 	setText(slot1:Find("btn_pay/cost"), slot2:getConfig("resource_num"))
 	setText(slot1:Find("btn_unable/cost"), slot2:getConfig("resource_num"))
 

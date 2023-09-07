@@ -585,12 +585,17 @@ function slot0.updateBarInfo(slot0)
 end
 
 function slot0.initWorldPanel(slot0)
-	onButton(slot0, slot0.worldPanel:Find("btn_repair"), function ()
+	slot3 = slot0.worldPanel
+
+	onButton(slot0, slot3:Find("btn_repair"), function ()
 		if #uv0.selectedIds > 0 then
 			uv0:repairWorldShip(uv0.shipVOsById[uv0.selectedIds[1]])
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0.worldPanel:Find("btn_repair_all"), function ()
+
+	slot3 = slot0.worldPanel
+
+	onButton(slot0, slot3:Find("btn_repair_all"), function ()
 		slot0 = {}
 		slot1 = 0
 
@@ -613,7 +618,6 @@ function slot0.initWorldPanel(slot0)
 			})
 		end
 	end, SFX_PANEL)
-	setActive(slot0.worldPanel:Find("btn_formation"), false)
 end
 
 function slot0.repairWorldShip(slot0, slot1)
@@ -796,6 +800,9 @@ function slot0.SortShips(slot0, slot1)
 			end
 		}
 	elseif slot0.isFormTactics then
+		table.insert(slot1, 1, function (slot0)
+			return slot0:getNation() == Nation.META and 1 or 0
+		end)
 		table.insert(slot1, 1, function (slot0)
 			return slot0:isFullSkillLevel() and 1 or 0
 		end)

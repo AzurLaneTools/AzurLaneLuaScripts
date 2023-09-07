@@ -30,22 +30,6 @@ function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
 end
 
-function slot0.GetIcon(slot0, slot1)
-	assert(slot0 ~= DROP_TYPE_SHIP, "舰船类型不应该用GetIcon, ID:" .. slot1)
-
-	return updateDropCfg({
-		type = slot0,
-		id = slot1
-	}).icon
-end
-
-function slot0.GetName(slot0, slot1)
-	return updateDropCfg({
-		type = slot0,
-		id = slot1
-	}).name
-end
-
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId

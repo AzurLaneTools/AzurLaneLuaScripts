@@ -40,7 +40,8 @@ function slot0.GenEventSearchData(slot0, slot1)
 		eulerAngles = slot1.eulerAngles,
 		isLevelPoint = slot1.isLevelPoint,
 		image = slot1.image,
-		customPosition = slot1.pos or slot3 or slot1.eulerAngles or slot1.isLevelPoint
+		customPosition = slot1.pos or slot3 or slot1.eulerAngles or slot1.isLevelPoint,
+		clearChildEvent = slot1.eventPath ~= nil
 	}
 	slot5, slot6 = nil
 

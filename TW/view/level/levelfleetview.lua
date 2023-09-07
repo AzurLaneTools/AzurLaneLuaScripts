@@ -1773,7 +1773,10 @@ function slot0.setTicketInfo(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync(slot3:getConfig("icon"), "", slot1:Find("item/icon"))
 	else
 		setText(slot1:Find("item/count"), 0)
-		GetImageSpriteFromAtlasAsync(Item.GetIcon(DROP_TYPE_ITEM, slot2), "", slot1:Find("item/icon"))
+		GetImageSpriteFromAtlasAsync(getDropIcon({
+			type = DROP_TYPE_ITEM,
+			id = slot2
+		}), "", slot1:Find("item/icon"))
 	end
 
 	setActive(slot1:Find("item"), true)

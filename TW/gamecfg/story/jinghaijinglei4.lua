@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>四　神木之风</size>",
+					"靜海驚雷\n\n<size=45>四 神木之風</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "重樱离岛·御神木所在海域",
+			say = "重櫻離島·御神木所在海域",
 			bgm = "nagato-map",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "何等残破的景象……在吾离开之后，这里就再无人进行修缮了啊。",
+			say = "何等殘破的景象……在吾離開之後，這裡就再無人進行修繕了啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "御神木下，众人抬头仰望着。曾经枝繁叶茂的巨大神木，如今已变成了一棵枯死的空壳。",
+			say = "御神木下，眾人抬頭仰望著。曾經枝繁葉茂的巨大神木，如今已變成了一棵枯死的空殼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "地面上堆积着枯叶，水面被不知名的藻类所覆盖，木质房屋与鸟居也出现了大量垮塌。",
+			say = "地面上堆積著枯葉，水面被不知名的藻類所覆蓋，木質房屋與鳥居也出現了大量垮塌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "曾经的信仰汇聚之地，重樱的精神寄托之地，如今竟如此破败了吗……",
+			say = "曾經的信仰匯聚之地，重櫻的精神寄託之地，如今竟如此破敗了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾终究没能阻止御神木的枯萎……",
+			say = "吾終究沒能阻止御神木的枯萎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾还记得曾经在这里经历的一切……虽说不怎么美好。",
+			say = "吾還記得曾經在這裡經歷的一切……雖說不怎麼美好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，{namecode:74}大人，我应该早下决心带您离开这里的。",
+			say = "抱歉，長門大人，我應該早下決心帶您離開這裡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说是遭到了欺骗，但留在这里终究是吾自己的决定，你也只是听从吾的命令罢了……",
+			say = "雖說是遭到了欺騙，但留在這裡終究是吾自己的決定，妳也只是聽從吾的命令罷了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "好了，感慨到此为止，该办正事了。",
+			say = "好了，感慨到此為止，該辦正事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此处被废弃也不妨视为一件好事，至少没人会来打扰我们。",
+			say = "此處被廢棄也不妨視為一件好事，至少沒人會來打擾我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，我对这里的情况其实一窍不通……而且档案调查的任务也没有完成……",
+			say = "長門大人，我對這裡的情況其實一竅不通……而且檔案調查的任務也沒有完成……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次为什么要叫我一起来呢……？",
+			say = "這次為什麼要叫我一起來呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于安排此事的理由。其一，吾离开本岛需要护卫。",
+			say = "關於安排此事的理由。其一，吾離開本島需要護衛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "其二，如果不带着汝，也许汝会和{namecode:96}一样被派到本岛之外，那样的话事情就麻烦了。",
+			say = "其二，如果不帶著汝，也許汝會和瑞鶴一樣被派到本島之外，那樣的話事情就麻煩了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您不能把{namecode:96}调回来么……？",
+			say = "您不能把瑞鶴調回來嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "很遗憾，吾亲自去问过了，{namecode:96}的调动命令确实是{namecode:84}下的，吾也没有办法。",
+			say = "很遺憾，吾親自去問過了，瑞鶴的調動命令確實是武藏下的，吾也沒有辦法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只要汝作为护卫一直跟在吾身边，就算是{namecode:84}也无法随便将汝调离。",
+			say = "不過只要汝作為護衛一直跟在吾身邊，就算是武藏也無法隨便將汝調離。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "这段时间就安心与吾同行吧。",
+			say = "這段時間就安心與吾同行吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。{namecode:74}大人，接下来我们是需要在这里寻找与神石相似的物品对吧？",
+			say = "遵命。長門大人，接下來我們是需要在這裡尋找與神石相似的物品對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是。此前的天宇启户祭上，{namecode:91}用了假的海若掉包了真的。",
+			say = "正是。此前的天宇啟戶祭上，赤城用了假的海若掉包了真的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "可是那个赝品，却骗过了吾的眼睛。",
+			say = "可是那個贗品，卻騙過了吾的眼睛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这说明，那个赝品至少外壳的成分与真正的海若相差无异。",
+			say = "這說明，那個贗品至少外殼的成分與真正的海若相差無異。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "也就是说——神石并不是独一无二的。",
+			say = "也就是說——神石並不是獨一無二的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "让汝等调查典籍也是这个原因。",
+			say = "讓汝等調查典籍也是這個原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海若，或者说我们手中那能够引发不可思议现象的海若的历史并没有吾等认知中的那般古老。",
+			say = "海若，或者說我們手中那能夠引發不可思議現象的海若的歷史並沒有吾等認知中的那般古老。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "其的本质为何，从何处而来，在何时，被何人放置于天岩岛，与其相似的物品又有多少，都被用在了何处。",
+			say = "其中的本質為何，從何處而來，在何時，被何人放置於天岩島，與其相似的物品又有多少，都被用在了何處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些都是吾等急需调查清楚的内容。",
+			say = "這些都是吾等急需調查清楚的內容。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今日来此地也是如此。在吾的回忆中，曾经在御神木之中的吾也在此地感受到过相同的气息。",
+			say = "今日來此地也是如此。在吾的回憶中，曾經在御神木之中的吾也在此地感受到過相同的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:74}大人，请看这里……前方的鸟居似乎有被打扫过的痕迹。",
+			say = "……長門大人，請看這裡……前方的鳥居似乎有被打掃過的痕跡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了我们之外，近期还有别人来过这里。",
+			say = "除了我們之外，近期還有別人來過這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "嗯…………这个感觉是。",
+			say = "嗯…………這個感覺是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "有趣。不知何人，出于何种目的在此处残破的神木上设置了一个微不可察的结界。",
+			say = "有趣。不知何人，出於何種目的在此處殘破的神木上設置了一個微不可查的結界。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝等提高警惕，接下来吾要集中精力进行结界的破解工作。",
+			say = "汝等提高警惕，接下來吾要集中精力進行結界的破解工作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结界之下隐藏的秘密，就让吾来一探究竟吧————",
+			say = "結界之下隱藏的秘密，就讓吾來一探究竟吧————",
 			painting = {
 				alpha = 0.3,
 				time = 1

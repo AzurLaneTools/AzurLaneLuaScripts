@@ -34,8 +34,17 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.InitMark(slot0)
-	setActive(slot0.specialMark, slot0.data:IsSpecial())
+	slot3 = slot0.data
+
+	setActive(slot0.specialMark, slot3:IsSpecial())
 	slot0:OnFeastBubbleChange(slot0.data.bubble)
+
+	slot1 = slot0.bubbles[1]
+	slot1:GetComponent(typeof(Image)).raycastTarget = true
+
+	onButton(slot0, slot0.bubbles[1], function ()
+		triggerButton(uv0.clickTF)
+	end, SFX_PANEL)
 end
 
 function slot0.AddListeners(slot0)

@@ -268,6 +268,7 @@ pg.skill_data_template = setmetatable({
 		6950,
 		6960,
 		6970,
+		6990,
 		60120,
 		60130,
 		60140,
@@ -10742,6 +10743,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "自由鳶尾、維希教廷陣營角色裝備時，戰鬥開始後30秒，回復自身3%耐久，每場戰鬥限1次",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6990] = {
+		desc_get = "",
+		name = "結界通行憑證",
+		id = 6990,
+		type = 0,
+		max_level = 0,
+		desc = "重櫻陣營角色裝備時，戰鬥開始後為自身增加一枚可以抵消100點傷害的護盾",
 		system_transform = {},
 		world_death_mark = {
 			1

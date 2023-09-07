@@ -138,7 +138,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			say = "……已標記……位置……立即集合……",
 			typewriter = {

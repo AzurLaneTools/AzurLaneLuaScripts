@@ -326,7 +326,7 @@ function slot0.CheckActBossSystem(slot0, slot1)
 	pg.m02:sendNotification(NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
 end
 
-function slot0.Continuous(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot0.ContinuousBossRush(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	seriesAsync({
 		function (slot0)
 			uv0:addSubLayers(Context.New({
@@ -364,7 +364,7 @@ function slot0.CheckBossRushSystem(slot0, slot1)
 	end
 
 	if not (not slot3 or slot7 > #slot8 or not (not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag)) then
-		slot0:Continuous(slot1.system, slot4, slot7, slot8, slot1.continuousBattleTimes, slot1.totalBattleTimes)
+		slot0:ContinuousBossRush(slot1.system, slot4, slot7, slot8, slot1.continuousBattleTimes, slot1.totalBattleTimes)
 	end
 
 	return slot11

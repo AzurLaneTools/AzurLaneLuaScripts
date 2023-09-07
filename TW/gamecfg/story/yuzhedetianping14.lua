@@ -272,7 +272,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "离开的过程的还顺利么？",
+			say = "离开的过程还顺利么？",
 			painting = {
 				alpha = 0.3,
 				time = 1

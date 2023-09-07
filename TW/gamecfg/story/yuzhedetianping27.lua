@@ -1130,7 +1130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "没事没事，不用担心，而且这还有这多人呢……",
+			say = "没事没事，不用担心，而且这还有这么多人呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1

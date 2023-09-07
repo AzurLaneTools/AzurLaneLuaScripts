@@ -6,7 +6,9 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 	slot5 = slot2[3]
 
 	function slot6(slot0)
-		if slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
+		if slot0:getConfig("new") == -1 then
+			return 0
+		elseif slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
 			return 1
 		elseif slot0:canPurchaseByGem() and slot0:canPurchaseByDormMoeny() then
 			return 3

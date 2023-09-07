@@ -40,7 +40,7 @@ function slot0.findUI(slot0)
 	slot0.skillTpl = slot0:findTF("SkillTpl", slot0.panel)
 	slot0.expDetailTF = slot0:findTF("ExpDetail", slot0.panel)
 	slot0.shipIcon = slot0:findTF("IconTpl/Icon", slot0.expDetailTF)
-	slot0.shipNameText = slot0:findTF("Name", slot0.expDetailTF)
+	slot0.shipNameText = slot0:findTF("NameMask/Name", slot0.expDetailTF)
 	slot0.expProgressText = slot0:findTF("ExpProgressText", slot0.expDetailTF)
 	slot0.skillContainer = slot0:findTF("ScrollView/Content", slot0.panel)
 	slot0.skillUIItemList = UIItemList.New(slot0.skillContainer, slot0.skillTpl)
@@ -141,7 +141,7 @@ function slot0.updateShipDetail(slot0)
 	slot2 = slot1:getPainting()
 
 	setImageSprite(slot0.shipIcon, LoadSprite("SquareIcon/" .. slot2, slot2))
-	setText(slot0.shipNameText, slot1:getName())
+	setScrollText(slot0.shipNameText, slot1:getName())
 	setText(slot0.expProgressText, setColorStr(slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.metaShipID).curDayExp, "#FFF152FF") .. "/" .. pg.gameset.meta_skill_exp_max.key_value)
 end
 

@@ -5,17 +5,19 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.type
 	slot8 = getProxy(ShopsProxy):getQuotaShop():getGoodsCfg(slot2.id)
-	slot9, slot10 = getPlayerOwn(slot8.resource_category, slot8.resource_type)
 
-	if slot10 < slot8.resource_num * slot2.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot9))
+	if GetOwnedDropCount({
+		type = slot8.resource_category,
+		id = slot8.resource_type
+	}) < slot8.resource_num * slot2.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", getDropName(slot9)))
 
 		return
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot10 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(16201, {
+	slot10:Send(16201, {
 		id = slot3,
 		type = uv0.QUOTA_SHOP,
 		count = slot4
@@ -25,7 +27,11 @@ function slot0.execute(slot0, slot1)
 
 			slot2:getGoodsById(uv1):addBuyCount(uv2)
 			uv0:updateQuotaShop(slot2)
-			reducePlayerOwn(uv3.resource_category, uv3.resource_type, uv3.resource_num * uv2)
+			reducePlayerOwn({
+				type = uv3.resource_category,
+				id = uv3.resource_type,
+				count = uv3.resource_num * uv2
+			})
 			uv4:sendNotification(GAME.QUOTA_SHOPPING_DONE, {
 				awards = PlayerConst.addTranDrop(slot0.drop_list),
 				id = uv1

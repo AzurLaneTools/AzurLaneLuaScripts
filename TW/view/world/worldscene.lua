@@ -1257,6 +1257,15 @@ function slot0.NewMapRight(slot0, slot1)
 		uv0:OnClickTransport()
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnPort, function ()
+		slot0 = nowWorld():GetActiveMap()
+		slot1 = slot0:GetFleet()
+
+		if slot0:GetCell(slot1.row, slot1.column):ExistEnemy() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_port_inbattle"))
+
+			return
+		end
+
 		uv0:Op("OpReqEnterPort")
 	end, SFX_PANEL)
 	onButton(slot0, slot2.btnExit, function ()
@@ -2091,7 +2100,11 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot4, {
 		"WorldG007",
 		function ()
-			return uv0:InPort(uv1.id, uv2:GetRealm())
+			if uv0:GetPort() and not slot0:IsTempPort() then
+				slot1 = uv0:GetFleet()
+
+				return not uv0:GetCell(slot1.row, slot1.column):ExistEnemy()
+			end
 		end
 	})
 	table.insert(slot4, {

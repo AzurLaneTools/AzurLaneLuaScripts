@@ -9,7 +9,7 @@ function slot0.Duplicate(slot0, slot1, slot2)
 	slot3 = Object.Instantiate(slot1, slot0.root).transform
 
 	setActive(slot3, true)
-	slot0:InitDuplication(slot3, slot1)
+	slot0:InitDuplication(slot3, slot1, slot2)
 
 	if slot2 then
 		slot0:UpdateSettings(slot3, slot1, slot2)
@@ -54,29 +54,33 @@ function slot3(slot0)
 	end)
 end
 
-function slot0.InitDuplication(slot0, slot1, slot2)
+function slot0.InitDuplication(slot0, slot1, slot2, slot3)
 	if slot1:GetComponent(typeof(CanvasGroup)) then
-		slot3.alpha = 1
+		slot4.alpha = 1
 	end
 
-	slot4 = slot1:GetComponentInChildren(typeof(UnityEngine.UI.Graphic))
+	slot5 = slot1:GetComponentInChildren(typeof(UnityEngine.UI.Graphic))
 
-	if slot1:GetComponentInChildren(typeof(Canvas)) or slot4 == nil then
+	if slot1:GetComponentInChildren(typeof(Canvas)) or slot5 == nil then
 		GetOrAddComponent(slot1, typeof(Image)).color = Color.New(1, 1, 1, 0)
 	end
 
-	if slot1:GetComponent(typeof(Animator)) then
-		slot6.enabled = false
+	if slot5 and slot5.raycastTarget == false then
+		slot5.raycastTarget = true
 	end
 
-	if uv0(slot1) then
+	if slot1:GetComponent(typeof(Animator)) then
+		slot7.enabled = false
+	end
+
+	if uv0(slot1) or slot3.clearChildEvent then
 		uv1(slot1)
 	end
 
 	uv2(slot1)
 
-	for slot11 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
-		setActive(slot7[slot11 - 1].gameObject, false)
+	for slot12 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
+		setActive(slot8[slot12 - 1].gameObject, false)
 	end
 
 	slot1.sizeDelta = slot2.sizeDelta
@@ -87,6 +91,10 @@ function slot0.UpdateSettings(slot0, slot1, slot2, slot3)
 		slot0:SetCustomPosition(slot1, slot2, slot3)
 	else
 		slot0:Syn(slot1, slot2, slot3)
+	end
+
+	if slot3.clearAllEvent then
+		GetOrAddComponent(slot1, typeof(CanvasGroup)).blocksRaycasts = false
 	end
 end
 

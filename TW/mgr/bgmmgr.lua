@@ -15,7 +15,6 @@ end
 function slot1.Clear(slot0)
 	slot0._stack = {}
 	slot0._dictionary = {}
-	slot0._now = nil
 end
 
 function slot1.CheckPlay(slot0)
@@ -23,10 +22,12 @@ function slot1.CheckPlay(slot0)
 		return
 	end
 
-	if slot0._now ~= slot0._dictionary[slot0._stack[#slot0._stack]] then
+	slot1 = slot0._dictionary[slot0._stack[#slot0._stack]]
+
+	if slot0.isDirty or slot0._now ~= slot1 then
 		slot0._now = slot1
 
-		playBGM(slot0._now)
+		slot0:ContinuePlay()
 	end
 end
 
@@ -48,4 +49,22 @@ function slot1.Pop(slot0, slot1)
 
 		slot0:CheckPlay()
 	end
+end
+
+function slot1.ContinuePlay(slot0)
+	slot0.isDirty = false
+
+	uv0.CriMgr.GetInstance():PlayBGM(slot0._now)
+end
+
+function slot1.TempPlay(slot0, slot1)
+	slot0.isDirty = true
+
+	uv0.CriMgr.GetInstance():PlayBGM(slot1)
+end
+
+function slot1.StopPlay(slot0)
+	slot0.isDirty = true
+
+	uv0.CriMgr.GetInstance():StopBGM()
 end

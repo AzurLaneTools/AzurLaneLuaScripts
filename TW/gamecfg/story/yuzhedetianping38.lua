@@ -614,7 +614,7 @@ return {
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "海洛芬特的存在有助消除民众对于安蒂克丝系统的刻板印象。",
+			say = "海洛芬特的存在有助于消除民众对于安蒂克丝系统的刻板印象。",
 			painting = {
 				alpha = 0.3,
 				time = 1

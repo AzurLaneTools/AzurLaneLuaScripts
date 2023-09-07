@@ -13,6 +13,10 @@ slot0.Listeners = {
 	onUpdate = "Update"
 }
 
+function slot0.Build(slot0, slot1)
+	slot0.transform = slot1
+end
+
 function slot0.Setup(slot0, slot1)
 	slot0.goods = slot1
 
@@ -28,20 +32,24 @@ end
 function slot0.Init(slot0)
 	slot1 = slot0.transform
 	slot0.rtMask = slot1:Find("mask")
-	slot0.rtItem = slot1:Find("item")
-	slot0.txCount = slot1:Find("item/count_contain/count")
-	slot0.txName = slot1:Find("item/name_mask/name")
-	slot0.rtResIcon = slot1:Find("item/consume/contain/icon")
-	slot0.rtResCount = slot1:Find("item/consume/contain/Text")
+	slot0.rtItem = slot1:Find("IconTpl")
+	slot0.txCount = slot1:Find("count_contain/count")
+	slot0.txName = slot1:Find("name_mask/name")
+	slot0.rtResIcon = slot1:Find("consume/contain/icon")
+	slot0.rtResCount = slot1:Find("consume/contain/Text")
 
-	setText(slot1:Find("item/count_contain/label"), i18n("activity_shop_exchange_count"))
+	setText(slot1:Find("mask/tag/sellout_tag"), i18n("word_sell_out"))
+	setText(slot1:Find("count_contain/label"), i18n("activity_shop_exchange_count"))
+
+	slot2 = slot0.goods.item
+
+	updateDrop(slot0.rtItem, slot2)
+	setText(slot0.txName, shortenString(slot2.cfg.name, 6))
 
 	slot3 = slot0.goods.moneyItem
 
-	setText(slot0.txName, shortenString(slot0.goods.item:getConfig("name"), 6))
-	updateDrop(slot0.rtItem, slot0.goods.item)
-	LoadImageSpriteAtlasAsync(Item.GetIcon(slot3.type, slot3.id), "", slot0.rtResIcon)
-	setText(slot0.rtResCount, slot0.goods.moneyItem.count)
+	GetImageSpriteFromAtlasAsync(updateDropCfg(slot3).icon, "", slot0.rtResIcon, false)
+	setText(slot0.rtResCount, slot3.count)
 	slot0:Update()
 end
 

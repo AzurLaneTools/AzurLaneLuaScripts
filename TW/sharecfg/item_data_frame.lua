@@ -333,6 +333,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「即使歷經時間與戰火的磨損，曾經的誓言依舊如恆星般閃耀」</color>\n「泠誓光庭」活動獲取",
 		scene = {}
 	},
+	[322] = {
+		time_limit_type = 0,
+		name = "流嵐紫霆",
+		gain_by = "流嵐紫霆",
+		id = 322,
+		time_second = 0,
+		desc = "<color=#ffffff>「寧如鏡湖，縹若雲嵐，天劍出鞘，萬鈞雷霆。」</color>\n「紫絳槿嵐」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -434,6 +443,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		322,
 		401,
 		402,
 		414,

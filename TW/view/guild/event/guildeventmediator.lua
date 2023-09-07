@@ -201,8 +201,20 @@ function slot0.StartBossBattle(slot0)
 		return
 	end
 
-	slot0:sendNotification(GAME.BEGIN_STAGE, {
-		system = SYSTEM_GUILD
+	slot10 = {}
+
+	for slot14, slot15 in ipairs(slot4:GetDownloadResShips()) do
+		PaintingConst.AddPaintingNameWithFilteMap(slot10, slot15)
+	end
+
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = slot10,
+		finishFunc = function ()
+			uv0:sendNotification(GAME.BEGIN_STAGE, {
+				system = SYSTEM_GUILD
+			})
+		end
 	})
 end
 

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>七　另一条道路</size>",
+					"靜海驚雷\n\n<size=45>七 另一條道路</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:91}宅邸",
+			say = "重櫻本島·赤城宅邸",
 			bgm = "battle-inthememory",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于回来了……真是一次漫长的旅途。",
+			say = "終於回來了……真是一次漫長的旅途。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "外面的风景再好，终归不如在家中舒心。不是么？",
+			say = "外面的風景再好，終歸不如在家中放鬆。不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_15",
 			hidePaintObj = true,
-			say = "阿瓦隆之门内侧·？？？",
+			say = "阿瓦隆之門內側·？？？",
 			effects = {
 				{
 					active = true,
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实现我的计划需要的不是某一个人，而是所有人都在正确的位置上做正确的事。",
+			say = "實現我的計劃需要的不是某一個人，而是所有人都在正確的位置上做正確的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "因此，我必须要向着更广阔的可能性进发。",
+			say = "因此，我必須要向著更廣闊的可能性進發。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "{namecode:91}，你要跟我一起来么？",
+			say = "赤城，妳要跟我一起來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……我又不是铁血的人，对你的计划也没有兴趣。",
+			say = "……我又不是鐵血的人，對妳的計劃也沒有興趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你是觉得在这里无事可做了，我在这里要做的事还如山一样多呢。",
+			say = "妳是覺得在這裡無事可做了，我在這裡要做的事還如山一樣多呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "沉迷于自己的执念置大局于不顾……呵，果然还只是个小姑娘而已。",
+			say = "沉迷於自己的執念置大局於不顧……呵，果然還只是個小姑娘而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么就再见了。",
+			say = "那麼就再見了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "也许在未来的某一天，我们会在某处再次相遇吧。",
+			say = "也許在未來的某一天，我們會在某處再次相遇吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这种事还用你多嘴…………真是的，临走了还这么让人火大。",
+			say = "這種事還用妳多嘴…………真是的，臨走了還這麼讓人火大。",
 			effects = {
 				{
 					active = false,
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你的篇章已经告一段落了，{namecode:440}，乖乖退场吧。",
+			say = "妳的篇章已經告一段落了，腓特烈大帝，乖乖退場吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来要上演的，将会是我{namecode:91}的篇章……",
+			say = "接下來要上演的，將會是我赤城的篇章……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "就在{namecode:91}陷入沉思之时，一只蓝色的式神从窗外飞到了桌上。",
+			say = "就在赤城陷入沉思之時，一隻藍色的式神從窗外飛到了桌上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "{namecode:92}的报告啊……听听看吧。",
+			say = "加賀的報告啊……聽聽看吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人，我此行没能见到{namecode:81}。",
+			say = "姐姐大人，我此行沒能見到土佐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "十分抱歉，是我办事不力。",
+			say = "十分抱歉，是我辦事不力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据{namecode:13}与{namecode:14}所说，{namecode:81}目前正忙于烟花大会的准备工作。",
+			say = "根據雷與電所說，土佐目前正忙於煙火大會的準備工作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "另外，{namecode:33}似乎先我一步拜访过{namecode:81}的宅邸，且我没有从她那里获得任何「话语」。",
+			say = "另外，睦月似乎先我一步拜訪過土佐的宅邸，且我沒有從她那裡獲得任何「話語」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "没见到{namecode:81}倒是不出所料……在那之后就连我也难得见到她一次。",
+			say = "沒見到土佐倒是不出所料……在那之後就連我也難得見到她一次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "不过……{namecode:81}，闹脾气总要有个结束的时候吧。",
+			say = "不過……土佐，鬧脾氣總要有個結束的時候吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我终究不是{namecode:161}姐，也不能代替她……不要逼我……",
+			say = "我終究不是天城姐，也不能代替她……不要逼我……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "至于{namecode:33}……亲朋好友齐聚一堂互道寒暖的和睦之月。",
+			say = "至於睦月……親朋好友齊聚一堂互道寒暖的和睦之月。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "呵，想要表达的意思不是尽在不言中么……",
+			say = "呵，想要表達的意思不是盡在不言中嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}大人，打扰了。",
+			say = "赤城大人，打擾了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这回又是什么事？！",
+			say = "這回又是什麼事？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉……{namecode:84}大人的特使已经到了。",
+			say = "抱歉……武藏大人的特使已經到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是你现在心情不好的话，我可以让她改日再来。",
+			say = "要是妳現在心情不好的話，我可以讓她改日再來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啊，等等。{namecode:84}的特使啊……让她进来吧。",
+			say = "啊，等等。武藏的特使啊……讓她進來吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "呵呵呵，重樱总算还有几个头脑清醒的人。",
+			say = "呵呵呵，重櫻總算還有幾個頭腦清醒的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果{namecode:84}那边进展顺利的话，我这边也可以将计划推进到下一阶段了。",
+			say = "如果武藏那邊進展順利的話，我這邊也可以將計劃推進到下一階段了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵呵呵……让我们的好戏上演吧————",
+			say = "呵呵呵呵呵……讓我們的好戲上演吧————",
 			painting = {
 				alpha = 0.3,
 				time = 1

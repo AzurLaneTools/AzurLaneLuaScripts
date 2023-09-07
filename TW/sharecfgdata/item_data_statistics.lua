@@ -158668,8 +158668,8 @@ _G.pg.base.item_data_statistics[59012] = {
 }
 
 _G.pg.base.item_data_statistics[59015] = {
-	display = "游戏室的通用代币，只有游戏币进行游戏才能获得游戏奖券！",
-	name = "游戏币",
+	display = "遊戲室的通用代幣，只有遊戲幣進行遊戲才能獲得遊戲獎券！",
+	name = "遊戲幣",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158691,8 +158691,8 @@ _G.pg.base.item_data_statistics[59015] = {
 }
 
 _G.pg.base.item_data_statistics[59016] = {
-	display = "在游戏屋游玩游戏的奖励，需要投入游戏币才能获取。累计到一定数量后可在奖券商店兑换物品。",
-	name = "游戏奖券",
+	display = "在遊戲屋遊玩遊戲的獎勵，需要投入遊戲幣才能獲取。累計到一定數量後可在獎券商店兌換物品。",
+	name = "遊戲獎券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -163283,6 +163283,29 @@ _G.pg.base.item_data_statistics[59343] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet5",
 	id = 59343,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59344] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/xunliandianshu_s",
+	id = 59344,
 	display_icon = {},
 	price = {},
 	index = {},

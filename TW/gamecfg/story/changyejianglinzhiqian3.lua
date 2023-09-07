@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这段时间内，我们一定要在守在这里，保护设备的同时……静待时机。",
+			say = "这段时间内，我们一定要守在这里，保护设备的同时……静待时机。",
 			painting = {
 				alpha = 0.3,
 				time = 1

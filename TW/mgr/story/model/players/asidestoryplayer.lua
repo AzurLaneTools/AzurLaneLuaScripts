@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.dataTxt = slot0:findTF("aside_sign_date", slot0.asidePanel)
 end
 
-function slot0.OnReset(slot0, slot1, slot2)
+function slot0.OnReset(slot0, slot1, slot2, slot3)
 	setActive(slot0.asidePanel, true)
 	setActive(slot0.curtain, true)
 	setActive(slot0.hrzList.container, false)
@@ -22,9 +22,10 @@ function slot0.OnReset(slot0, slot1, slot2)
 	slot0.curtainCg.alpha = 1
 
 	setText(slot0.dataTxt, "")
+	slot3()
 end
 
-function slot0.OnInit(slot0, slot1, slot2)
+function slot0.OnInit(slot0, slot1, slot2, slot3)
 	if slot1:ShouldHideBGAlpha() then
 		slot0.color = slot0.mainImg.color
 		slot0.mainImg.color = Color.New(1, 1, 1, 0)
@@ -41,7 +42,7 @@ function slot0.OnInit(slot0, slot1, slot2)
 		function (slot0)
 			uv0:PlayDateSign(uv1, slot0)
 		end
-	}, slot2)
+	}, slot3)
 end
 
 function slot0.GetAsideList(slot0, slot1)

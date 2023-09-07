@@ -20,8 +20,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -32,8 +32,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 5,
 		num = 1,
 		drop_type = 7,
-		goods_name = "新年的剑鬼",
+		goods_name = "新年的劍鬼",
 		goods_type = 1,
 		id = 2,
 		goods_icon = "",
@@ -63,8 +63,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -75,8 +75,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -94,7 +94,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱",
+		goods_name = "外觀裝備箱",
 		goods_type = 1,
 		id = 3,
 		goods_icon = "",
@@ -106,8 +106,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -118,8 +118,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -137,7 +137,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(春节)",
+		goods_name = "外觀裝備箱(春節)",
 		goods_type = 1,
 		id = 4,
 		goods_icon = "",
@@ -149,8 +149,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -161,8 +161,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -180,7 +180,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(开学季)",
+		goods_name = "外觀裝備箱(開學季)",
 		goods_type = 1,
 		id = 5,
 		goods_icon = "",
@@ -192,8 +192,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -204,8 +204,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -223,7 +223,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(夏末)",
+		goods_name = "外觀裝備箱(夏末)",
 		goods_type = 1,
 		id = 6,
 		goods_icon = "",
@@ -235,8 +235,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -247,8 +247,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -266,7 +266,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(小猪)",
+		goods_name = "外觀裝備箱(小豬)",
 		goods_type = 1,
 		id = 7,
 		goods_icon = "",
@@ -278,8 +278,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -290,8 +290,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -309,7 +309,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(皇家)",
+		goods_name = "外觀裝備箱(皇家)",
 		goods_type = 1,
 		id = 8,
 		goods_icon = "",
@@ -321,8 +321,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -333,8 +333,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -352,7 +352,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(撒丁)",
+		goods_name = "外觀裝備箱(薩丁)",
 		goods_type = 1,
 		id = 9,
 		goods_icon = "",
@@ -364,8 +364,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -376,8 +376,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -395,7 +395,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(激奏)",
+		goods_name = "外觀裝備箱(激奏)",
 		goods_type = 1,
 		id = 10,
 		goods_icon = "",
@@ -407,8 +407,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -419,8 +419,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -438,7 +438,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(北联)",
+		goods_name = "外觀裝備箱(北聯)",
 		goods_type = 1,
 		id = 11,
 		goods_icon = "",
@@ -450,8 +450,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -462,8 +462,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,
@@ -481,7 +481,7 @@ pg.gameroom_shop_template = {
 		goods_rarity = 4,
 		num = 1,
 		drop_type = 2,
-		goods_name = "外观装备箱(白鹰)",
+		goods_name = "外觀裝備箱(白鷹)",
 		goods_type = 1,
 		id = 12,
 		goods_icon = "",
@@ -493,8 +493,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2023,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					0,
@@ -505,8 +505,8 @@ pg.gameroom_shop_template = {
 			{
 				{
 					2033,
-					6,
-					8
+					9,
+					7
 				},
 				{
 					23,

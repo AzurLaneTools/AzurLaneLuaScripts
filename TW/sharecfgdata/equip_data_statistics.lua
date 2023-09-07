@@ -16571,6 +16571,132 @@ _G.pg.base.equip_data_statistics[3593] = {
 	value_1 = "65"
 }
 
+_G.pg.base.equip_data_statistics[3620] = {
+	type = 10,
+	name = "結界通行憑證",
+	speciality = "无",
+	tech = 0,
+	value_2 = 17,
+	ammo = 10,
+	nationality = 3,
+	descrip = "隨信件一同寄來的結界出入憑證，拿在手中有種奇妙觸感，似乎是由某種特殊材質製成的。",
+	rarity = 4,
+	attribute_1 = "torpedo",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3620,
+	icon = "3620",
+	value_1 = "20",
+	attribute_2 = "durability",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6990
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3621] = {
+	id = 3621,
+	value_2 = 20,
+	value_1 = "23",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3622] = {
+	id = 3622,
+	value_2 = 23,
+	value_1 = "26",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3623] = {
+	id = 3623,
+	value_2 = 26,
+	value_1 = "29",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3624] = {
+	id = 3624,
+	value_2 = 29,
+	value_1 = "32",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3625] = {
+	id = 3625,
+	value_2 = 32,
+	value_1 = "35",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3626] = {
+	id = 3626,
+	value_2 = 35,
+	value_1 = "38",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3627] = {
+	id = 3627,
+	value_2 = 38,
+	value_1 = "41",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3628] = {
+	id = 3628,
+	value_2 = 41,
+	value_1 = "44",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3629] = {
+	id = 3629,
+	value_2 = 44,
+	value_1 = "47",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3630] = {
+	id = 3630,
+	value_2 = 47,
+	value_1 = "50",
+	base = 3620,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3631] = {
+	value_2 = 50,
+	anti_siren = 100,
+	base = 3620,
+	id = 3631,
+	value_1 = "53",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3680] = {
 	tech = 1,
 	name = "12磅長管炮",

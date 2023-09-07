@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直布罗特海峡与NA海域的连接处，如今海雾弥漫。",
+			say = "直布罗陀海峡与NA海域的连接处，如今海雾弥漫。",
 			painting = {
 				alpha = 0.3,
 				time = 1

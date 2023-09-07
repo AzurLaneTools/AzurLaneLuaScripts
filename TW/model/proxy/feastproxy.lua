@@ -223,6 +223,28 @@ function slot0.GetPtActData(slot0)
 	return ActivityPtData.New(slot1)
 end
 
+function slot0.GetSubmittedTaskStories(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FEAST) or slot1:isEnd() then
+		return {}
+	end
+
+	slot2 = slot1:getConfig("config_client")
+	slot4 = {}
+
+	for slot8, slot9 in ipairs({
+		slot2[8],
+		slot2[9]
+	}) do
+		slot10 = slot9[1]
+
+		if not pg.NewStoryMgr.GetInstance():IsPlayed(slot9[2]) then
+			slot4[slot10] = slot11
+		end
+	end
+
+	return slot4
+end
+
 function slot0.ShouldTipPt(slot0)
 	if slot0:GetPtActData():AnyAwardCanGet() then
 		return true
@@ -306,6 +328,32 @@ function slot0.ShouldTip(slot0)
 	end
 
 	return false
+end
+
+function slot0.HandleTaskStories(slot0, slot1, slot2)
+	if not slot0:GetSubmittedTaskStories() or table.getCount(slot3) == 0 then
+		if slot2 then
+			slot2()
+		end
+
+		return
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot1) do
+		if slot3[slot9] ~= nil then
+			table.insert(slot4, slot3[slot9])
+		end
+	end
+
+	if #slot4 > 0 then
+		if slot2 then
+			pg.NewStoryMgr.GetInstance():SeriesPlay(slot4, slot2)
+		else
+			pg.NewStoryMgr.GetInstance():SeriesPlay(slot4)
+		end
+	end
 end
 
 return slot0

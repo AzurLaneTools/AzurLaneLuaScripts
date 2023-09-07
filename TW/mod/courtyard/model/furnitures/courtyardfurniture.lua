@@ -450,9 +450,13 @@ function slot0.AnySlotIsUsing(slot0)
 end
 
 function slot0.ClearInteraction(slot0, slot1)
-	if not _.any(slot0.slots, function (slot0)
+	for slot6, slot7 in ipairs(_.select(slot0.slots, function (slot0)
 		return slot0.id ~= uv0.id and slot0:IsUsing()
-	end) then
+	end)) do
+		slot7:Reset()
+	end
+
+	if #slot2 <= 0 then
 		slot0:_ChangeState(uv0.STATE_IDLE)
 	end
 

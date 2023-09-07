@@ -3946,6 +3946,14 @@ _G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "$1後可再次進行艦隊維護"
 }
 
+_G.pg.base.gametip.world_instruction_port_goods_locked = {
+	tip = "安全海域進度解鎖"
+}
+
+_G.pg.base.gametip.world_port_inbattle = {
+	tip = "當前艦隊正在行動中，無法進入港口"
+}
+
 _G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "重置後道具將被轉化"
 }
@@ -4990,6 +4998,10 @@ _G.pg.base.gametip.word_shipNation_mot = {
 
 _G.pg.base.gametip.word_shipNation_ryza = {
 	tip = "Atelier Ryza"
+}
+
+_G.pg.base.gametip.word_shipNation_meta_index = {
+	tip = "META"
 }
 
 _G.pg.base.gametip.word_reset = {
@@ -10386,7 +10398,7 @@ _G.pg.base.gametip.school_title_shoucang = {
 }
 
 _G.pg.base.gametip.school_title_xiaoyouxiting = {
-	tip = "游戏屋"
+	tip = "遊戲屋"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -18336,6 +18348,10 @@ _G.pg.base.gametip.attr_consume = {
 	tip = "消耗"
 }
 
+_G.pg.base.gametip.attr_speed = {
+	tip = "航速"
+}
+
 _G.pg.base.gametip.monthly_card_tip = {
 	tip = "30日每日獲得資源"
 }
@@ -22331,41 +22347,41 @@ _G.pg.base.gametip.game_room_help = {
 	tip = {
 		{
 			info = [[
-游戏屋功能说明：
-1.使用「游戏币」进行游戏可获取「游戏奖券」，使用的游戏币数量越多，奖卷获取倍率越高，最多一次可使用5枚游戏币。每月最多获得10000奖券，奖卷持有上限为50000
-2.每周可从游戏室中免费获取10枚游戏币，游戏币持有上限为40枚，当游戏币不足时，指挥官可以使用物资兑换游戏币。
-3.使用啾啾奖券可以在奖卷商店中兑换不同商品，商品存在兑换次数，商品列表会在后续持续更新。
-4.活动结束的小游戏会在后续逐步加入游戏列表，部分小游戏可能暂时不会进入游戏室，还望指挥官谅解。]]
+遊戲屋功能說明：
+1.使用「遊戲幣」進行遊戲可獲取「遊戲獎券」，使用的遊戲幣數量越多，獎券獲取倍率越高，最多一次可使用5枚遊戲幣。每月最多獲得10000獎券，獎券持有上限為50000
+2.每週可從遊戲屋中免費獲取10枚遊戲幣，遊戲幣持有上限為40枚，當遊戲幣不足時，指揮官可以使用物資兌換遊戲幣。
+3.使用啾啾獎券可以在獎券商店中兌換不同商品，商品存在兌換次數，商品列表會在後續持續更新。
+4.活動結束的小遊戲會在後續逐步加入遊戲列表，部分小遊戲可能暫時不會進入遊戲屋，還望指揮官諒解。]]
 		}
 	}
 }
 
 _G.pg.base.gametip.game_cannot_go = {
-	tip = "本游戏目前不在开放时间内"
+	tip = "本遊戲目前不在開放時間內"
 }
 
 _G.pg.base.gametip.game_ticket_notenough = {
-	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+	tip = "遊戲獎券數量不足，是否前往遊戲屋獲取？"
 }
 
 _G.pg.base.gametip.game_ticket_max_all = {
-	tip = "当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"
+	tip = "當前遊戲獎券持有數量即將達到上限，繼續遊玩可能會有部分獎券無法獲得，是否繼續遊玩"
 }
 
 _G.pg.base.gametip.game_ticket_max_month = {
-	tip = "本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"
+	tip = "本月可獲取遊戲獎券數量即將達到上限，繼續遊玩可能會有部分獎券無法獲得，是否繼續遊玩？"
 }
 
 _G.pg.base.gametip.game_icon_notenough = {
-	tip = "当前游戏币不足（），是否消耗物资兑换X枚游戏币？"
+	tip = "當前遊戲幣不足（），是否消耗物資兌換X枚遊戲幣？"
 }
 
 _G.pg.base.gametip.game_goldbyicon = {
-	tip = "是否消耗$1物资兑换$2游戏币 "
+	tip = "是否消耗$1物資兌換$2遊戲幣 "
 }
 
 _G.pg.base.gametip.game_icon_max = {
-	tip = "当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"
+	tip = "當前遊戲幣即將到達上限，領取後超出上限的部分將會消失，是否繼續領取？"
 }
 
 _G.pg.base.gametip.caibulin_tip1 = {
@@ -22967,11 +22983,11 @@ _G.pg.base.gametip.disassemble_available = {
 }
 
 _G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
-	tip = "限界挑战舰队"
+	tip = "限界挑戰艦隊"
 }
 
 _G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
-	tip = "限界挑战舰队"
+	tip = "限界挑戰艦隊"
 }
 
 _G.pg.base.gametip.word_status_activity = {
@@ -22983,23 +22999,27 @@ _G.pg.base.gametip.word_status_challenge = {
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
+	tip = "艦船在連戰/共鬥活動編成中，請調整編隊陣容後重試 "
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inchallenge = {
-	tip = "舰船在限界挑战编成中，请调整编队阵容后重试"
+	tip = "艦船在限界挑戰編成中，請調整編隊陣容後重試"
 }
 
 _G.pg.base.gametip.battle_result_total_time = {
-	tip = "通关时间："
+	tip = "通關時間："
+}
+
+_G.pg.base.gametip.charge_game_room_coin_tip = {
+	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物資兌換<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>个$4"
 }
 
 _G.pg.base.gametip.game_room_shooting_tip = {
-	tip = "当前积分："
+	tip = "當前積分："
 }
 
 _G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
-	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+	tip = "遊戲獎券數量不足，是否前往遊戲屋獲取？"
 }
 
 _G.pg.base.gametip.game_ticket_current_month = {
@@ -23007,7 +23027,7 @@ _G.pg.base.gametip.game_ticket_current_month = {
 }
 
 _G.pg.base.gametip.pre_combat_consume = {
-	tip = "消耗："
+	tip = "當前遊戲幣到達上限,無法繼續領取"
 }
 
 _G.pg.base.gametip.file_down_msgbox = {

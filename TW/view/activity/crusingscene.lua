@@ -159,7 +159,10 @@ function slot0.didEnter(slot0)
 		setParent(slot6.rtLine, slot0.scrollMap:Find("bg"), true)
 	end
 
-	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(Item.GetIcon(DROP_TYPE_RESOURCE, slot0.ptId), ""))
+	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot0.ptId
+	}), ""))
 	setText(slot0.textTip, i18n(slot0.activity:getConfig("config_client").tips[1]))
 
 	slot2 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
@@ -198,7 +201,10 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:updateMapStatus()
-	LoadImageSpriteAtlasAsync(Item.GetIcon(DROP_TYPE_RESOURCE, slot0.ptId), "", slot0.sliderPt:Find("Text/icon"), true)
+	LoadImageSpriteAtlasAsync(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot0.ptId
+	}), "", slot0.sliderPt:Find("Text/icon"), true)
 	slot0:updateMapWay()
 end
 

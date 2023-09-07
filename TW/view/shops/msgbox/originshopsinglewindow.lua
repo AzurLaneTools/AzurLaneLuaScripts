@@ -42,17 +42,14 @@ function slot0.Open(slot0, slot1, slot2)
 end
 
 function slot0.InitWindow(slot0, slot1, slot2)
-	slot3 = slot1:getDropInfo()
+	slot3 = isa(slot1, WorldNShopCommodity) and slot1:GetDropInfo() or slot1:getDropInfo()
 
 	updateDrop(slot0.itemTF:Find("left/IconTpl"), slot3)
 	UpdateOwnDisplay(slot0.itemOwnTF, slot3)
 	RegisterDetailButton(slot0, slot0.itemDetailTF, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0 then
-			uv0(uv1, 1, uv2.cfg.name)
-		end
-
-		uv3:Close()
+		existCall(uv0, uv1, 1)
+		uv2:Close()
 	end, SFX_CANCEL)
 
 	slot4 = slot3.type == DROP_TYPE_SHIP

@@ -6025,7 +6025,7 @@ pg.base.ship_skin_template_18 = {
 	},
 	[900266] = {
 		ship_group = 900266,
-		name = "苏维埃罗西亚",
+		name = "蘇維埃俄羅斯",
 		hand_id = 1,
 		bgm = "",
 		l2d_drag_rate = "",

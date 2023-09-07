@@ -2672,7 +2672,7 @@ pg.ship_l2d = {
 			30
 		},
 		action_trigger = {
-			action = "touch_drag3",
+			action = "touch_drag1",
 			num = 30,
 			time = 0.3,
 			type = 1

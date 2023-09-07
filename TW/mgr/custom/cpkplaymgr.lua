@@ -99,7 +99,7 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 		setActive(uv0._mainTF, true)
 
 		if uv0._stopGameBGM then
-			pg.CriMgr.GetInstance():StopBGM()
+			pg.BgmMgr.GetInstance():StopPlay()
 		end
 
 		if uv4 then
@@ -136,7 +136,7 @@ end
 
 function this.checkBgmStop(slot0, slot1)
 	if slot0._onPlaying and slot1.numAudioStreams and slot2 > 0 then
-		pg.CriMgr.GetInstance():StopBGM()
+		pg.BgmMgr.GetInstance():StopPlay()
 
 		slot0._stopGameBGM = true
 	end
@@ -163,7 +163,7 @@ function this.DisposeCpkMovie(slot0)
 			end
 
 			if slot0._stopGameBGM then
-				pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+				pg.BgmMgr.GetInstance():ContinuePlay()
 			end
 
 			slot0._onPlaying = false

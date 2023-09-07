@@ -283,9 +283,9 @@ function slot0.didEnter(slot0)
 							uv0.musicView:closeSongListPanel()
 						end
 
-						pg.CriMgr.GetInstance():ResumeLastNormalBGM()
+						pg.BgmMgr.GetInstance():ContinuePlay()
 					elseif uv1 == uv2.MUSIC_INDEX and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
-						pg.CriMgr.GetInstance():StopBGM()
+						pg.BgmMgr.GetInstance():StopPlay()
 						uv0.musicView:tryPlayMusic()
 					end
 

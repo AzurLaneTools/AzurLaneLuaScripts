@@ -203,6 +203,10 @@ function slot0.handleNotification(slot0, slot1)
 					uv0.refreshWeekTaskPageFlag = nil
 				end
 
+				table.insert(slot0, function (slot0)
+					getProxy(FeastProxy):HandleTaskStories(uv0, slot0)
+				end)
+
 				if #slot0 > 0 then
 					seriesAsync(slot0)
 				end
