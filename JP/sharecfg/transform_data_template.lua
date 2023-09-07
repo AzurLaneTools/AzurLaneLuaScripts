@@ -24121,9 +24121,10 @@ pg.base.transform_data_template = {
 
 主砲の装備枠は<color=#92fc63>【重巡主砲】</color>に変更されます。
 主砲枠に装備されていた装備は倉庫に移動されます。
-艦種が変更されるため、装備されている<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
+艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
 改造後、<color=#92fc63>【主砲砲座+1】</color><color=#92fc63>【魚雷装填数-1】</color>
-<color=#92fc63>【全弾発射Ⅱ】</color>スキルが<color=#92fc63>【全弾発射改】</color>に変更されます。]],
+<color=#92fc63>【全弾発射Ⅱ】</color>スキルが<color=#92fc63>【全弾発射改】</color>に変更されます。
+改造完了後<color=#92fc63>【対潜】</color>ステータスが0になり、<color=#92fc63>ソナー・対潜爆弾</color>を装備できなくなります]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {

@@ -8938,7 +8938,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 49,
+		is_show = 37,
 		id = 4971,
 		config_data = {
 			{
@@ -9000,6 +9000,271 @@ pg.activity_template = {
 		page_info = {
 			class_name = "BulvxieerSPSkinPage",
 			ui_name = "BulvxieerSPSkinPage"
+		}
+	},
+	[4972] = {
+		mark = 20230907,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4972,
+		config_data = {
+			10160,
+			10161,
+			10162,
+			10163,
+			10164
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4973] = {
+		mark = 20230907,
+		config_client = "",
+		title_res_tag = "activity",
+		type = 87,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 40,
+		id = 4973,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChongYingFramePage",
+			ui_name = "ChongYingFramePage"
+		}
+	},
+	[4974] = {
+		mark = 20230907,
+		id = 4974,
+		title_res_tag = "yueyeweiyang",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		config_data = {
+			{
+				19171,
+				19172
+			},
+			{
+				19173,
+				19174
+			},
+			{
+				19175,
+				19176
+			},
+			{
+				19177,
+				19178
+			},
+			{
+				19179,
+				19180
+			},
+			{
+				19181,
+				19182
+			},
+			{
+				19183,
+				19184
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YueYeWeiYangPage",
+			ui_name = "YueYeWeiYangPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YUEYEWEIYANG1"
+				},
+				{
+					"YUEYEWEIYANG2"
+				},
+				{
+					"YUEYEWEIYANG3"
+				},
+				{
+					"YUEYEWEIYANG4"
+				},
+				{
+					"YUEYEWEIYANG5"
+				},
+				{
+					"YUEYEWEIYANG6"
+				},
+				{
+					"YUEYEWEIYANG7"
+				}
+			}
+		}
+	},
+	[4975] = {
+		mark = 20230907,
+		id = 4975,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 23,
+		is_show = 38,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HakuryuuTecCatchupPage",
+			ui_name = "HakuryuuTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42032
+		}
+	},
+	[4976] = {
+		mark = 20230907,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 26,
+		is_show = 0,
+		config_client = "",
+		id = 4976,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7001] = {
@@ -13504,6 +13769,11 @@ pg.activity_template = {
 		4969,
 		4970,
 		4971,
+		4972,
+		4973,
+		4974,
+		4975,
+		4976,
 		7001,
 		7002,
 		7003,

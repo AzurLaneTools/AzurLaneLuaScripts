@@ -6236,6 +6236,16 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
+			info = "    命中：攻撃の命中率とクリティカル率を上げる",
+			icon = {
+				path = "hit",
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.3,
+				posX = 0
+			}
+		},
+		{
 			info = "    速力：戦闘中の艦隊の移動速度に影響する\n       一部ステージでの味方のターン毎の最大移動距離に影響する\n ",
 			icon = {
 				path = "attr_speed",
@@ -7831,8 +7841,8 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。
-装備されている<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
-改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
+艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
+改造を続けますか？]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {

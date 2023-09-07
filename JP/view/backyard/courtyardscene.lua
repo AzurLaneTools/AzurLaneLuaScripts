@@ -9,7 +9,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.PlayBGM(slot0)
-	pg.CriMgr.GetInstance():StopBGM()
+	pg.BgmMgr.GetInstance():StopPlay()
 end
 
 function slot0.SetDorm(slot0, slot1)

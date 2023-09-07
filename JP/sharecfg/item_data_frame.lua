@@ -405,6 +405,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「聖座の冠を戴かずとも、真の大義を掲げる者には勝利という栄冠に奉じられるだろう」</color>「愚者の天秤」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[327] = {
+		time_limit_type = 0,
+		name = "須臾の紫藤",
+		gain_by = "",
+		id = 327,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -577,6 +586,7 @@ pg.item_data_frame = {
 		324,
 		325,
 		326,
+		327,
 		401,
 		402,
 		403,

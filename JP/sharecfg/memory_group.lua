@@ -161,6 +161,7 @@ pg.memory_group = setmetatable({
 		253,
 		254,
 		255,
+		256,
 		501,
 		502,
 		503,
@@ -247,7 +248,8 @@ pg.memory_group = setmetatable({
 		586,
 		587,
 		588,
-		589
+		589,
+		590
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3820,6 +3822,23 @@ pg.base.memory_group = {
 			2923
 		}
 	},
+	[256] = {
+		id = 256,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4974,
+		title = "暁夜半宵",
+		memories = {
+			2951,
+			2952,
+			2953,
+			2954,
+			2955,
+			2956,
+			2957
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -5310,6 +5329,23 @@ pg.base.memory_group = {
 			2835,
 			2836,
 			2837
+		}
+	},
+	[590] = {
+		id = 590,
+		subtype = 0,
+		icon = "title_chara_edu",
+		type = 3,
+		link_event = 0,
+		title = "守られし悪しき剣",
+		memories = {
+			2941,
+			2942,
+			2943,
+			2944,
+			2945,
+			2946,
+			2947
 		}
 	}
 }

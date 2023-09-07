@@ -31,6 +31,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.expression = slot1.expression
 	slot0.typewriter = slot1.typewriter
 	slot0.painting = slot1.painting
+	slot0.fadeInPaintingTime = slot1.fadeInPaintingTime or 0.15
+	slot0.fadeOutPaintingTime = slot1.fadeOutPaintingTime or 0.15
 	slot0.actorPosition = slot1.actorPosition
 	slot0.dialogShake = slot1.dialogShake
 	slot0.moveSideData = slot1.paintingFadeOut
@@ -96,6 +98,26 @@ function slot0.GetExPression(slot0)
 	end
 end
 
+function slot0.ShouldGrayingPainting(slot0, slot1)
+	return slot1:GetPainting() ~= nil and not slot0:IsSameSide(slot1)
+end
+
+function slot0.ShouldGrayingOutPainting(slot0, slot1)
+	return slot0:GetPainting() ~= nil and not slot0:IsSameSide(slot1)
+end
+
+function slot0.ShouldFadeInPainting(slot0)
+	if not slot0:GetPainting() then
+		return false
+	end
+
+	if slot0:IsLive2dPainting() or slot0:IsSpinePainting() then
+		return false
+	end
+
+	return true
+end
+
 function slot0.GetTypewriter(slot0)
 	return slot0.typewriter
 end
@@ -111,6 +133,14 @@ function slot0.GetPaintingData(slot0)
 		alpha = slot1.alpha or 0.3,
 		time = slot1.time or 1
 	}
+end
+
+function slot0.GetFadeInPaintingTime(slot0)
+	return slot0.fadeInPaintingTime
+end
+
+function slot0.GetFadeOutPaintingTime(slot0)
+	return slot0.fadeOutPaintingTime
 end
 
 function slot0.GetPaintingDir(slot0)
@@ -135,6 +165,10 @@ end
 
 function slot0.GetPaintingMoveToSide(slot0)
 	return slot0.moveSideData
+end
+
+function slot0.ShouldMoveToSide(slot0)
+	return slot0.moveSideData ~= nil
 end
 
 function slot0.GetPaintingAction(slot0, slot1)
@@ -177,6 +211,10 @@ function slot0.GetPainting(slot0)
 	slot1, slot2 = slot0:GetPaintingAndName()
 
 	return slot2
+end
+
+function slot0.ExistPainting(slot0)
+	return slot0:GetPainting() ~= nil
 end
 
 function slot0.ShouldShakeDailogue(slot0)

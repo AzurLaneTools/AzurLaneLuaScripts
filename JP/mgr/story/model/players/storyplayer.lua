@@ -100,16 +100,14 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	slot0.formSkip = false
-
 	if slot1:ShouldSkipAll() then
-		slot0.formSkip = true
-
 		slot0:ClearEffects()
 	end
 
-	if slot6 and slot5:ExistOption() and not pg.NewStoryMgr.GetInstance():IsReView() then
-		slot1:StopSkip()
+	slot7 = false
+
+	if slot6 and slot5:IsImport() and not pg.NewStoryMgr.GetInstance():IsReView() then
+		slot7 = true
 	elseif slot6 then
 		slot4()
 
@@ -128,22 +126,16 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:SetTimeScale(1 - slot1:GetPlaySpeed() * 0.1)
 
-	slot7 = slot1:GetPrevStep(slot2)
+	slot8 = slot1:GetPrevStep(slot2)
 
 	seriesAsync({
 		function (slot0)
-			slot1 = uv0
-
-			slot1:Reset(uv1, uv2)
-
-			slot1 = uv0
-
-			slot1:UpdateBg(uv1)
-
-			slot1 = uv0
-
-			slot1:PlayBgm(uv1)
 			parallelAsync({
+				function (slot0)
+					uv0:Reset(uv1, uv2, slot0)
+					uv0:UpdateBg(uv1)
+					uv0:PlayBgm(uv1)
+				end,
 				function (slot0)
 					uv0:LoadEffects(uv1, slot0)
 				end,
@@ -153,9 +145,18 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			}, slot0)
 		end,
 		function (slot0)
+			if uv0 then
+				uv1:StopSkip()
+			end
+
+			uv0 = false
+
+			slot0()
+		end,
+		function (slot0)
 			parallelAsync({
 				function (slot0)
-					uv0:OnInit(uv1, slot0)
+					uv0:OnInit(uv1, uv2, slot0)
 				end,
 				function (slot0)
 					uv0:PlaySoundEffect(uv1)
@@ -185,28 +186,32 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			slot1 = uv0
 			slot1 = slot1:GetNextStep(uv1)
 
-			parallelAsync({
+			seriesAsync({
 				function (slot0)
 					uv0:ClearAnimation()
 					uv0:OnWillExit(uv1, uv2, slot0)
 				end,
 				function (slot0)
-					if not uv0 then
-						slot0()
+					parallelAsync({
+						function (slot0)
+							if not uv0 then
+								slot0()
 
-						return
-					end
+								return
+							end
 
-					uv1:Flashout(uv0, slot0)
-				end,
-				function (slot0)
-					if uv0 then
-						slot0()
+							uv1:Flashout(uv0, slot0)
+						end,
+						function (slot0)
+							if uv0 then
+								slot0()
 
-						return
-					end
+								return
+							end
 
-					uv1:FadeOutStory(uv2, slot0)
+							uv1:FadeOutStory(uv1.script, slot0)
+						end
+					}, slot0)
 				end
 			}, slot0)
 		end,
@@ -308,6 +313,7 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 					uv0(uv1)
 				end)
 			end, SFX_PANEL)
+			setButtonEnabled(slot3, not uv0[slot1 + 1][3])
 			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
 			setActive(slot3, false)
 		end
@@ -490,6 +496,64 @@ function slot0.FadeOutStory(slot0, slot1, slot2)
 	end
 end
 
+function slot0.GetFadeColor(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot8 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+		slot10 = {
+			name = "_Color",
+			color = Color.white
+		}
+
+		if slot4[slot8].material.shader.name == "UI/GrayScale" then
+			slot10 = {
+				name = "_GrayScale",
+				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
+			}
+		elseif slot9.material.shader.name == "UI/Line_Add_Blue" then
+			slot10 = {
+				name = "_GrayScale",
+				color = Color.New(1, 1, 1, 0.5882352941176471)
+			}
+		end
+
+		table.insert(slot3, slot10)
+
+		if slot9.material == slot9.defaultGraphicMaterial then
+			slot9.material = Material.Instantiate(slot9.defaultGraphicMaterial)
+		end
+
+		table.insert(slot2, slot9.material)
+	end
+
+	return slot2, slot3
+end
+
+function slot0._SetFadeColor(slot0, slot1, slot2, slot3)
+	for slot7, slot8 in ipairs(slot1) do
+		if not IsNil(slot8) then
+			slot8:SetColor(slot2[slot7].name, slot2[slot7].color * Color.New(slot3, slot3, slot3))
+		end
+	end
+end
+
+function slot0.SetFadeColor(slot0, slot1, slot2)
+	slot3, slot4 = slot0:GetFadeColor(slot1)
+
+	slot0:_SetFadeColor(slot3, slot4, slot2)
+end
+
+function slot0._RevertFadeColor(slot0, slot1, slot2)
+	slot0:_SetFadeColor(slot1, slot2, 1)
+end
+
+function slot0.RevertFadeColor(slot0, slot1)
+	slot2, slot3 = slot0:GetFadeColor(slot1)
+
+	slot0:_RevertFadeColor(slot2, slot3)
+end
+
 function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot4 <= 0 then
 		if slot6 then
@@ -499,56 +563,19 @@ function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		return
 	end
 
-	slot7 = {}
-	slot8 = {}
-
-	for slot13 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot15 = {
-			name = "_Color",
-			color = Color.white
-		}
-
-		if slot9[slot13].material.shader.name == "UI/GrayScale" then
-			slot15 = {
-				name = "_GrayScale",
-				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
-			}
-		elseif slot14.material.shader.name == "UI/Line_Add_Blue" then
-			slot15 = {
-				name = "_GrayScale",
-				color = Color.New(1, 1, 1, 0.5882352941176471)
-			}
-		end
-
-		table.insert(slot8, slot15)
-
-		if slot14.material == slot14.defaultGraphicMaterial then
-			slot14.material = Material.Instantiate(slot14.defaultGraphicMaterial)
-		end
-
-		table.insert(slot7, slot14.material)
-	end
-
-	slot10 = LeanTween.value(go(slot1), slot2, slot3, slot4)
-	slot10 = slot10:setOnUpdate(System.Action_float(function (slot0)
-		for slot4, slot5 in ipairs(uv0) do
-			if not IsNil(slot5) then
-				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
-			end
-		end
+	slot7, slot8 = slot0:GetFadeColor(slot1)
+	slot9 = LeanTween.value(go(slot1), slot2, slot3, slot4)
+	slot9 = slot9:setOnUpdate(System.Action_float(function (slot0)
+		uv0:_SetFadeColor(uv1, uv2, slot0)
 	end))
 
-	slot10:setOnComplete(System.Action(function ()
+	slot9:setOnComplete(System.Action(function ()
 		if uv0 then
-			for slot3, slot4 in ipairs(uv1) do
-				if not IsNil(slot4) then
-					slot4:SetColor(uv2[slot3].name, uv2[slot3].color)
-				end
-			end
+			uv1:_RevertFadeColor(uv2, uv3)
 		end
 
-		if uv3 then
-			uv3()
+		if uv4 then
+			uv4()
 		end
 	end))
 end
@@ -826,6 +853,16 @@ function slot0.PlaySoundEffect(slot0, slot1)
 
 	if slot1:ShouldPlayVoice() then
 		slot0:PlayVoice(slot1)
+	elseif slot1:ShouldStopVoice() then
+		slot0:StopVoice()
+	end
+end
+
+function slot0.StopVoice(slot0)
+	if slot0.currentVoice then
+		slot0.currentVoice:Stop(true)
+
+		slot0.currentVoice = nil
 	end
 end
 
@@ -836,11 +873,7 @@ function slot0.PlayVoice(slot0, slot1)
 		slot0.voiceDelayTimer = nil
 	end
 
-	if slot0.currentVoice then
-		slot0.currentVoice:Stop(true)
-
-		slot0.currentVoice = nil
-	end
+	slot0:StopVoice()
 
 	slot2, slot3 = slot1:GetVoice()
 	slot4 = nil
@@ -863,7 +896,7 @@ function slot0.PlayVoice(slot0, slot1)
 	end)
 end
 
-function slot0.Reset(slot0, slot1, slot2)
+function slot0.Reset(slot0, slot1, slot2, slot3)
 	setActive(slot0.bgPanel, false)
 	setActive(slot0.dialoguePanel, false)
 	setActive(slot0.asidePanel, false)
@@ -875,7 +908,7 @@ function slot0.Reset(slot0, slot1, slot2)
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
 
-	slot0:OnReset(slot1, slot2)
+	slot0:OnReset(slot1, slot2, slot3)
 end
 
 function slot0.Clear(slot0, slot1)
@@ -927,16 +960,32 @@ function slot0.PlayBgm(slot0, slot1)
 	end
 
 	if slot1:ShoulePlayBgm() then
-		slot2, slot3 = slot1:GetBgmData()
+		slot2, slot3, slot4 = slot1:GetBgmData()
 
 		slot0:DelayCall(slot3, function ()
-			pg.BgmMgr.GetInstance():Push("NewStoryMgr", uv0)
+			uv0:RevertBgmVolume()
+			pg.BgmMgr.GetInstance():TempPlay(uv1)
 		end)
+
+		if slot4 and slot4 > 0 then
+			slot0.defaultBgmVolume = pg.CriMgr.GetInstance():getBGMVolume()
+
+			pg.CriMgr.GetInstance():setBGMVolume(slot4)
+		end
 	end
 end
 
 function slot0.StopBgm(slot0, slot1)
-	pg.BgmMgr.GetInstance():Pop("NewStoryMgr")
+	slot0:RevertBgmVolume()
+	pg.BgmMgr.GetInstance():StopPlay()
+end
+
+function slot0.RevertBgmVolume(slot0)
+	if slot0.defaultBgmVolume then
+		pg.CriMgr.GetInstance():setBGMVolume(slot0.defaultBgmVolume)
+
+		slot0.defaultBgmVolume = nil
+	end
 end
 
 function slot0.StartUIAnimations(slot0, slot1, slot2)
@@ -1030,15 +1079,15 @@ end
 function slot0.OnStart(slot0, slot1)
 end
 
-function slot0.OnReset(slot0, slot1, slot2)
+function slot0.OnReset(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnBgUpdate(slot0, slot1)
 end
 
-function slot0.OnInit(slot0, slot1, slot2)
-	if slot2 then
-		slot2()
+function slot0.OnInit(slot0, slot1, slot2, slot3)
+	if slot3 then
+		slot3()
 	end
 end
 

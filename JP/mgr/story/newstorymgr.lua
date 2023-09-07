@@ -601,6 +601,9 @@ function slot0.OnStart(slot0)
 	setActive(slot0.autoBtn:Find("sel"), false)
 	setActive(slot0.autoBtn:Find("unsel"), true)
 	setActive(slot0.autoBtn, true)
+
+	slot0.bgmVolumeValue = pg.CriMgr.GetInstance():getBGMVolume()
+
 	slot0:RegistSkipBtn()
 	slot0:RegistAutoBtn()
 	slot0:RegistRecordBtn()
@@ -639,12 +642,20 @@ function slot0.Clear(slot0)
 
 	slot0.optionSelCodes = nil
 
-	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
+	pg.BgmMgr.GetInstance():ContinuePlay()
 	pg.m02:sendNotification(GAME.STORY_END)
 
 	if slot0.isOpenMsgbox then
 		pg.MsgboxMgr:GetInstance():hide()
 	end
+
+	slot1 = pg.CriMgr.GetInstance():getBGMVolume()
+
+	if slot0.bgmVolumeValue and slot0.bgmVolumeValue ~= slot1 then
+		pg.CriMgr.GetInstance():setBGMVolume(slot0.bgmVolumeValue)
+	end
+
+	slot0.bgmVolumeValue = nil
 end
 
 function slot0.OnEnd(slot0, slot1)
