@@ -737,5 +737,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "blueocean-image"
+	},
+	YueYeWeiYangPage = {
+		default_bgm = "xinnong-1",
+		special_bgm = "",
+		time = "",
+		bgm = "xinnong-1"
+	},
+	ChongYingFramePage = {
+		default_bgm = "newyear2",
+		special_bgm = "",
+		time = "",
+		bgm = "newyear2"
+	},
+	HakuryuuTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-designshipVI"
 	}
 }

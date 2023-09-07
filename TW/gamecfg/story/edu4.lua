@@ -17,14 +17,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这办公室……太寡淡了！",
 			bgm = "story-richang-2",
+			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "这办公室……太寡淡了！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -63,10 +64,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 0,
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "太寡淡是指……？",
 			typewriter = {
 				speed = 0.05,
