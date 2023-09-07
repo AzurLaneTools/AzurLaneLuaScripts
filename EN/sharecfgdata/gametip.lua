@@ -7905,10 +7905,10 @@ Would you like to continue?]]
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
-When retrofitted, <color=#92fc63>$1</color>'s hull type will change.
-The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.The ship's <color=#92fc63>Augment Module</color> will be unequipped and returned to the Depot.
-Would you like to proceed with the retrofit?
-<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]]
+<size=35>Completing the retrofit will change <color=#92fc63>$1</color>'s hull classification.
+Her Main Gun slot will change from equipping <color=#92fc63>CL Main Guns</color> to equipping <color=#92fc63>CA Main Guns</color>, so her currently equipped Main Gun will be unequipped.
+Any <color=#92fc63>Augment Modules</color> she can no longer use post-retrofit will be returned to your Depot.
+Continue with retrofit? <color=#92fc63><material=underline c=#A9F548 event=clickDetail>Details</material></color></size>]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {

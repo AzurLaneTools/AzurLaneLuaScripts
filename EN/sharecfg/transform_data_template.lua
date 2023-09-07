@@ -24146,13 +24146,14 @@ After modernization is complete:
 		use_ship = 1,
 		level_limit = 85,
 		descrip = [[
-The effects of fully retrofitting this ship:
+Retrofit complete. The following changes have been applied:
 
-Because this ship's hull type has changed, her equipped <color=#92fc63>Augment Module</color> will be unequipped and returned to the Depot.
-The Main Gun slot will change to accept only <color=#92fc63>CA Main Guns</color>.
-The currently equipped Main Gun will be automatically sent back to your Storage.
-This ship will receive <color=#92fc63>Main Gun base +1</color> at the cost of <color=#92fc63>Torpedo base -1</color>.
-The skill <color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault - Retrofit</color>. ]],
+The Main Gun slot now equips <color=#92fc63>CA Main Guns</color>.
+The equipped Main Gun has been sent to your Depot.
+Any <color=#92fc63>Augment Modules</color> this ship can no longer equip have been sent to your Depot.
+<color=#92fc63>Main Gun Base +1</color> but <color=#92fc63>Torpedo Base -1</color>
+This ship's <color=#92fc63>All Out Assault</color> skill has changed into <color=#92fc63>All Out Assault - Retrofit</color>.
+This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no longer able to equip <color=#92fc63>sonars or depth charges</color>.]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {

@@ -801,6 +801,9 @@ function slot0.SortShips(slot0, slot1)
 		}
 	elseif slot0.isFormTactics then
 		table.insert(slot1, 1, function (slot0)
+			return slot0:getNation() == Nation.META and 1 or 0
+		end)
+		table.insert(slot1, 1, function (slot0)
 			return slot0:isFullSkillLevel() and 1 or 0
 		end)
 	elseif slot0.contextData.mode == uv0.MODE_OVERVIEW or slot0.contextData.mode == uv0.MODE_SELECT then

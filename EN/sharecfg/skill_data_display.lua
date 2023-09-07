@@ -2674,6 +2674,9 @@ pg.skill_data_display = setmetatable({
 		1010101,
 		1010102,
 		1013271,
+		1010160,
+		1011970,
+		1011441,
 		1090020,
 		1090042,
 		1090043,
@@ -2690,7 +2693,10 @@ pg.skill_data_display = setmetatable({
 		1090121,
 		1090141,
 		1090150,
-		1090151
+		1090151,
+		1090170,
+		1090171,
+		1090172
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13383,6 +13389,18 @@ pg.base.skill_data_display = {
 		id = 1013271,
 		name = "Bellowing Gusts of Fire+"
 	},
+	[1010160] = {
+		id = 1010160,
+		name = "The Strongest Shield+"
+	},
+	[1011970] = {
+		id = 1011970,
+		name = "Morale Boost+"
+	},
+	[1011441] = {
+		id = 1011441,
+		name = "The Bull of Scapa Flow+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -13450,5 +13468,17 @@ pg.base.skill_data_display = {
 	[1090151] = {
 		id = 1090151,
 		name = "Surface Combat - Surcouf"
+	},
+	[1090170] = {
+		id = 1090170,
+		name = "AP Protection - Mogami"
+	},
+	[1090171] = {
+		id = 1090171,
+		name = "AP Protection - Mogami"
+	},
+	[1090172] = {
+		id = 1090172,
+		name = "AP Protection - Mogami"
 	}
 }

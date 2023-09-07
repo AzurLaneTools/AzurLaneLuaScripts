@@ -240,9 +240,17 @@ function slot0.setPage(slot0, slot1)
 	if slot1 == uv0.PageBase then
 		for slot5, slot6 in ipairs(slot0.technologyVOs) do
 			if slot6:isActivate() then
-				Timer.New(function ()
+				if slot0.enhancelTimer then
+					slot0.enhancelTimer:Stop()
+				end
+
+				slot0.enhancelTimer = Timer.New(function ()
 					uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv0.technologyCards[uv1]:GetComponent("EnhanceItem").scrollViewItemIndex)
-				end, 0.35, 1):Start()
+
+					uv0.enhancelTimer = nil
+				end, 0.35, 1)
+
+				slot0.enhancelTimer:Start()
 
 				break
 			end
@@ -952,6 +960,12 @@ function slot0.clearTimer(slot0, ...)
 		slot0.extraTimer:Stop()
 
 		slot0.extraTimer = nil
+	end
+
+	if slot0.enhancelTimer then
+		slot0.enhancelTimer:Stop()
+
+		slot0.enhancelTimer = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.cardtimer) do

@@ -4774,7 +4774,9 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/huajia_2_tex",
 			"painting/huajia_2_rw_tex",
+			"painting/huajia_2_rw_hx_tex",
 			"painting/huajia_2_n_tex",
+			"painting/huajia_2_n_hx_tex",
 			"painting/huajia_2_n",
 			"painting/huajia_2_bj_tex",
 			"painting/huajia_2"

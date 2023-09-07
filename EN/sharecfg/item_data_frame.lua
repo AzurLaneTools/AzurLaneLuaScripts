@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Even without laurels atop their head, those who uphold true faith shall be crowned with victory.\"</color>\n–\"The Fool's Scales\" event reward.",
 		scene = {}
 	},
+	[327] = {
+		time_limit_type = 0,
+		name = "Wisteria Seal",
+		gain_by = "",
+		id = 327,
+		time_second = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -560,6 +569,7 @@ pg.item_data_frame = {
 		324,
 		325,
 		326,
+		327,
 		406,
 		411,
 		412,
