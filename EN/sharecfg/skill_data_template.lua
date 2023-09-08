@@ -124305,7 +124305,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 1011970,
 		type = 1,
 		max_level = 10,
-		desc = "Every 5 times this ship fires her Main Guns: increases this ship's RLD by $1 and the DMG dealt by her All Out Assault skill by $2 (can be stacked up to 3 times).",
+		desc = "Every 5 times this ship fires her Main Guns: increases this ship's RLD by $1 and her DMG dealt by $2 (can be stacked up to 3 times).",
 		system_transform = {},
 		world_death_mark = {
 			1
