@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			actorName = "嘈杂的声音",
+			actorName = "街の喧騒",
 			say = "（ニゲロ…！！ハヤクニゲルノダ……！！！）",
 			flashN = {
 				color = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跋扈する闇靄の獣に向き直し、己の両剣の感触を確かめる。",
+			say = "跋扈する闇靄の獣に向き直し、己の両手の感触を確かめる。",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……くっ！",
+			say = "…力不足ですみません…！",
 			painting = {
 				alpha = 0.3,
 				time = 1

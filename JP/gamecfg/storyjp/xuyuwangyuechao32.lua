@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "名所を見学したり、料理に舌鼓を撃ったり……",
+			say = "名所を見学したり、料理に舌鼓を打ったり……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "慌てるんじゃない！落ち着くのじゃ！",
+			say = "慌てないで！落ち着いて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

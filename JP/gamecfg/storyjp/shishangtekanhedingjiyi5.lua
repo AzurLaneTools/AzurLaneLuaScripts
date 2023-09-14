@@ -299,6 +299,10 @@ return {
 				{
 					content = "楽器の中とか？",
 					flag = 1
+				},
+				{
+					content = "服の中とか？",
+					flag = 2
 				}
 			}
 		},
@@ -318,13 +322,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "そ、そうですよね…！",
 			painting = {
 				alpha = 0.3,
@@ -336,13 +341,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = "touch",
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = "touch",
+			hidePaintObj = true,
 			say = "うん！探してみます…！",
 			painting = {
 				alpha = 0.3,
@@ -354,13 +360,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "手元にある楽器に指を弱々しく添える白龍。何かを感じ取ろうとしているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -368,13 +375,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "指揮官も手伝ってくださいませんか？こことか……あとここも……",
 			painting = {
 				alpha = 0.3,
@@ -383,22 +391,17 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "服の中とか？",
-					flag = 2
-				}
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "うーん？……あったぞ！",
 			painting = {
 				alpha = 0.3,
@@ -590,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "ふん。楽器の予行演習を見せようと思ったが、まさかこんなことになったとは……",
+			say = "ふん。楽器の予行演習を見せようと思ったが、まさかこんなことになるとは……",
 			painting = {
 				alpha = 0.3,
 				time = 1

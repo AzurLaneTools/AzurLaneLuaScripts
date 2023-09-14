@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "「仙哲」…封印の修復が…完了した…。",
+			say = "「仙哲」…封印の修復が…完了した…",
 			painting = {
 				alpha = 0.3,
 				time = 1

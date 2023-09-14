@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "仙哲",
-			say = "もしケガレを払い封印の力を回復できなければ、故事にある災の闇靄が再び訪れるでしょう",
+			say = "もしケガレを払い封印の力を回復できなければ、故事にある災いの闇靄が再び訪れるでしょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "仙哲",
-			say = "もし上手く行って闇靄を滅ぼせば、封印も不要になりましょう",
+			say = "上手くいって闇靄を滅ぼせられれば、封印も不要になりましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -867,13 +867,13 @@ slot0.map_data = {
 		map = "BG_01",
 		id = 1,
 		line = "round_1",
-		bgm = "map-longgong"
+		bgm = "battle-longgong"
 	},
 	{
 		map = "BG_01a",
 		id = 2,
 		line = "round_2",
-		bgm = "map-longgong"
+		bgm = "battle-longgong"
 	},
 	{
 		map = "BG_03",
@@ -891,7 +891,7 @@ slot0.map_data = {
 		map = "BG_01b",
 		id = 5,
 		line = "round_5",
-		bgm = "map-longgong"
+		bgm = "battle-longgong"
 	},
 	{
 		map = "BG_02",

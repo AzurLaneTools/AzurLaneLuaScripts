@@ -741,7 +741,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "重桜で出会った彼女の顔が、あの月夜の不思議な出会いの光景を思い浮かべた。",
+			say = "重桜で出会った彼女の顔を、あの月夜の不思議な出会いの光景を思い浮かべた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

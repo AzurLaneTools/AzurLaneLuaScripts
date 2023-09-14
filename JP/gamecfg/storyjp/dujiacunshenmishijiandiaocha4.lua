@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "温泉旅館の予告状、みんがが置いた…？",
+			say = "温泉旅館の予告状、みんなが置いた…？",
 			painting = {
 				alpha = 0.3,
 				time = 1

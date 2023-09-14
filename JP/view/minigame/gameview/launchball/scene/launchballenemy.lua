@@ -632,10 +632,6 @@ function slot0.moveEnmey(slot0)
 		return
 	end
 
-	if slot0.backFlag then
-		return
-	end
-
 	if slot0.backEnemyTime and slot0.backEnemyTime > 0 then
 		slot0.backEnemyTime = slot0.backEnemyTime - LaunchBallGameVo.deltaTime
 
@@ -769,10 +765,14 @@ function slot0.checkEnemyBack(slot0)
 						slot0.moveBackIndex = slot10
 
 						slot5[slot10]:move(uv2 * LaunchBallGameVo.deltaTime)
-					elseif slot6 < slot10 and slot5[slot10]:getDistance() - slot5[slot10 - 1]:getDistance() < uv0 + uv1 then
-						slot5[slot10]:move(uv2 * LaunchBallGameVo.deltaTime)
+					elseif slot6 < slot10 then
+						if slot5[slot10]:getDistance() - slot5[slot10 - 1]:getDistance() < uv0 + uv1 then
+							slot5[slot10]:move(uv2 * LaunchBallGameVo.deltaTime)
 
-						slot0.moveBackIndex = slot10
+							slot0.moveBackIndex = slot10
+						else
+							break
+						end
 					end
 				end
 			end
@@ -1310,16 +1310,18 @@ function slot0.checkAmulet(slot0, slot1)
 				slot0.amuletOverFlag = false
 
 				if slot1.concentrate then
-					slot9[slot13]:setTimeRemove()
+					if not slot9[slot13]:getTimeRemove() then
+						slot9[slot13]:setTimeRemove()
 
-					if slot0._eventCall then
-						slot0._eventCall(LaunchBallGameScene.SPILT_ENEMY_SCORE, {
-							num = LaunchBallGameVo.GetScore(1, 1)
-						})
-					end
+						if slot0._eventCall then
+							slot0._eventCall(LaunchBallGameScene.SPILT_ENEMY_SCORE, {
+								num = LaunchBallGameVo.GetScore(1, 1)
+							})
+						end
 
-					if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-						LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, 1)
+						if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
+							LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, 1)
+						end
 					end
 
 					return false

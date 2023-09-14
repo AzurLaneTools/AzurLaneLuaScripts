@@ -135,7 +135,7 @@ return {
 			actor = 303190,
 			actorName = "仙哲",
 			nameColor = "#A9F548FF",
-			say = "あの夜で出会った人のことを忘れない限り",
+			say = "あの夜に出会った人のことを忘れない限り",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			side = 0,
 			actorName = "仙哲",
-			say = "紫藤花の舞うあの雨の夜のように、美しきこの世界に身を任せて",
+			say = "花の舞うあの雨の夜のように、美しきこの世界に身を任せて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			side = 1,
 			actorName = "仙哲",
-			say = "そうですね。「ワタツミ」の概念を背負おうとしていた私は、変わってしまったのかもしれません",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "朝凪は聖域の中心にある巨大な神木を指で指した。",
+			say = "朝凪は聖域の中心にある巨大な神木を指差した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
