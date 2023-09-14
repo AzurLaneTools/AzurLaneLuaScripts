@@ -590,6 +590,12 @@ function slot0.appearEnemyBuff(slot0, slot1, slot2, slot3, slot4)
 		slot0.backEnemyTime = slot5.time
 		slot0.backSpeed = uv0
 		slot0.moveBackIndex = #slot4
+
+		if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
+			slot0.backEnemyTime = slot0.backEnemyTime * 1.3
+
+			LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_use_pass_skill, 1)
+		end
 	elseif slot1 == LaunchBallGameConst.enemy_buff_boom then
 		slot6 = slot3:getDistance()
 		slot7 = slot5.distance
@@ -626,7 +632,11 @@ function slot0.moveEnmey(slot0)
 		return
 	end
 
-	if not slot0.backFlag and slot0.backEnemyTime and slot0.backEnemyTime > 0 then
+	if slot0.backFlag then
+		return
+	end
+
+	if slot0.backEnemyTime and slot0.backEnemyTime > 0 then
 		slot0.backEnemyTime = slot0.backEnemyTime - LaunchBallGameVo.deltaTime
 
 		if slot0.backEnemyTime <= 0 then
@@ -699,6 +709,10 @@ function slot0.moveEnmey(slot0)
 end
 
 function slot0.checkEnemyQuick(slot0)
+	if slot0.backFlag then
+		return
+	end
+
 	slot0.quickFlag = false
 
 	for slot4, slot5 in ipairs(slot0.enemysList) do
@@ -817,7 +831,12 @@ function slot0.checkEnemySplit(slot0)
 						end
 
 						slot0.splitFireIndex = slot0.fireIndex
+
+						break
 					end
+
+					slot0.seriesCount = 0
+					slot0.seriesCombat = 0
 
 					break
 				end
@@ -924,11 +943,7 @@ function slot0.checkSplit(slot0, slot1, slot2)
 	end
 
 	if slot4 >= 3 then
-		if slot0.seriesCount < 2 then
-			slot6 = true
-		elseif slot7 > 0 and slot8 > 0 then
-			slot6 = true
-		end
+		slot6 = true
 	end
 
 	if slot4 >= 3 and not slot6 then
@@ -947,12 +962,12 @@ function slot0.checkSplit(slot0, slot1, slot2)
 		if slot0._eventCall then
 			slot0._eventCall(LaunchBallGameScene.SPILT_ENEMY_SCORE, {
 				split = true,
-				num = LaunchBallGameVo.GetScore(slot4, slot0.seriesCount, slot0.amuletOverFlag, slot0.seriesCombat),
+				num = LaunchBallGameVo.GetScore(slot4, slot0.seriesCount, slot0.amuletOverFlag),
 				count = slot4
 			})
 
 			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-				LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, slot4 * 5)
+				LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, slot4)
 			end
 		end
 
@@ -1080,8 +1095,12 @@ function slot0.getEnemyBuff(slot0)
 		if slot7 then
 			slot9 = slot6.rate[1]
 
-			if slot6.type == LaunchBallGameConst.enemy_buff_slow and LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-				slot9 = slot9 + 5
+			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
+				if slot6.type == LaunchBallGameConst.enemy_buff_slow then
+					slot9 = slot9 + 2
+				elseif slot6.type == LaunchBallGameConst.enemy_buff_back then
+					slot9 = slot9 + 2
+				end
 			end
 
 			if math.random(1, slot8[2]) <= slot9 then

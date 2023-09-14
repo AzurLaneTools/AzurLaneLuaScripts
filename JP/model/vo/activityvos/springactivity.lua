@@ -3,6 +3,14 @@ slot0.ActivityType = ActivityConst.ACTIVITY_TYPE_HOTSPRING
 slot0.OPERATION_UNLOCK = 1
 slot0.OPERATION_SETSHIP = 2
 
+function slot0.Ctor(slot0, ...)
+	uv0.super.Ctor(slot0, ...)
+
+	for slot4 = 1, slot0:GetSlotCount() do
+		slot0.data1_list[slot4] = slot0.data1_list[slot4] or 0
+	end
+end
+
 function slot0.GetSlotCount(slot0)
 	return slot0.data1 + slot0:GetInitialSlotCount()
 end

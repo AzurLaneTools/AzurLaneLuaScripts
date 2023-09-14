@@ -216,27 +216,30 @@ function slot0.step(slot0)
 
 		if slot0.pointerTime > 0.3 and LaunchBallGameVo.joyStickData.active then
 			slot5 = LaunchBallGameVo.joyStickData.rad
-			slot0.pointerRotation.z = LaunchBallGameVo.joyStickData.angle + uv1
-			slot0.anglePointer.localEulerAngles = slot0.pointerRotation
 
-			setActive(slot0.anglePointer, true)
+			if LaunchBallGameVo.joyStickData.angle and slot5 then
+				slot0.pointerRotation.z = slot4 + uv1
+				slot0.anglePointer.localEulerAngles = slot0.pointerRotation
 
-			slot6 = 0
+				setActive(slot0.anglePointer, true)
 
-			for slot10 = 1, uv2 do
-				slot6 = slot10 * uv3
-				slot0.pointerPosition.x = math.cos(slot5) * slot6
-				slot0.pointerPosition.y = math.sin(slot5) * slot6
+				slot6 = 0
 
-				if slot0.launchBallEnemy:checkWorldInEnemy(slot0.pointerContent:TransformPoint(slot0.pointerPosition)) then
-					break
+				for slot10 = 1, uv2 do
+					slot6 = slot10 * uv3
+					slot0.pointerPosition.x = math.cos(slot5) * slot6
+					slot0.pointerPosition.y = math.sin(slot5) * slot6
+
+					if slot0.launchBallEnemy:checkWorldInEnemy(slot0.pointerContent:TransformPoint(slot0.pointerPosition)) then
+						break
+					end
 				end
-			end
 
-			for slot10 = 1, 4 do
-				slot0.pointerPosition.x = 0
-				slot0.pointerPosition.y = (5 - slot10) / 4 * slot6 * -1
-				findTF(slot0.anglePointer, "ad/" .. slot10).anchoredPosition = slot0.pointerPosition
+				for slot10 = 1, 4 do
+					slot0.pointerPosition.x = 0
+					slot0.pointerPosition.y = (5 - slot10) / 4 * slot6 * -1
+					findTF(slot0.anglePointer, "ad/" .. slot10).anchoredPosition = slot0.pointerPosition
+				end
 			end
 		end
 	else
