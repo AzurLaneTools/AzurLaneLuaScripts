@@ -1,8 +1,9 @@
 slot0 = class("CarouselPlayer", import(".StoryPlayer"))
 
-function slot0.Reset(slot0, slot1, slot2, slot3)
-	uv0.super.Reset(slot0, slot1, slot2, slot3)
+function slot0.OnReset(slot0, slot1, slot2, slot3)
+	setActive(slot0.iconImage, false)
 	setActive(slot0.actorPanel, false)
+	slot3()
 end
 
 function slot0.OnEnter(slot0, slot1, slot2, slot3)

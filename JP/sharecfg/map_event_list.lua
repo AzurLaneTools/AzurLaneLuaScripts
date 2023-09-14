@@ -3726,6 +3726,17 @@ pg.map_event_list = {
 			"helpbg/battle_faxiv2_2"
 		}
 	},
+	[1750041] = {
+		help_open = 0,
+		chapter_id = 1750041,
+		event_list = {
+			852
+		},
+		event_list_loop = {
+			852
+		},
+		help_pictures = {}
+	},
 	[2100243] = {
 		help_open = 1,
 		chapter_id = 2100243,
@@ -4547,6 +4558,7 @@ pg.map_event_list = {
 		1740025,
 		1740026,
 		1740041,
+		1750041,
 		2100243,
 		2100244,
 		2100245,

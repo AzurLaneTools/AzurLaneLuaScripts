@@ -156,7 +156,7 @@ function slot1.UpdateMapItems(slot0)
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot1:getChapters()) do
-		if (slot9:isUnlock() or slot9:activeAlways()) and slot9:isValid() and (not slot9:ifNeedHide() or slot3:GetJustClearChapters(slot9.id)) then
+		if (slot9:isUnlock() or slot9:activeAlways()) and (not slot9:ifNeedHide() or slot3:GetJustClearChapters(slot9.id)) then
 			table.insert(slot4, slot9)
 		end
 	end
@@ -475,7 +475,7 @@ function slot1.AddChapterTF(slot0, slot1)
 			return false
 		end
 
-		return (getProxy(ChapterProxy):getChapterById(uv0, true):isUnlock() or slot1:activeAlways()) and slot1:isValid() and not slot1:ifNeedHide()
+		return (getProxy(ChapterProxy):getChapterById(uv0, true):isUnlock() or slot1:activeAlways()) and not slot1:ifNeedHide()
 	end) then
 		slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
 		slot3 = cloneTplTo(slot0.chapterTpl, slot0.itemHolder, "Chapter_" .. slot4.id)

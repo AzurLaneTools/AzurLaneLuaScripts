@@ -73338,6 +73338,200 @@ _G.pg.base.equip_data_statistics[33113] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[33120] = {
+	tech = 0,
+	name = "試作型203mm/55三連装砲",
+	speciality = "追尾",
+	type = 3,
+	descrip = "重桜開発の試作型203mm/55三連装砲（重巡用）",
+	ammo = 2,
+	damage = "30 x 6",
+	nationality = 3,
+	rarity = 6,
+	id = 33120,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 65,
+	icon = "33120",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1428
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1428
+		},
+		{
+			4,
+			1215
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		33120
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[33121] = {
+	id = 33121,
+	damage = "32 x 6",
+	base = 33120,
+	weapon_id = {
+		33121
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33122] = {
+	id = 33122,
+	damage = "34 x 6",
+	base = 33120,
+	weapon_id = {
+		33122
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33123] = {
+	id = 33123,
+	damage = "36 x 6",
+	base = 33120,
+	weapon_id = {
+		33123
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33124] = {
+	id = 33124,
+	damage = "38 x 6",
+	base = 33120,
+	weapon_id = {
+		33124
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33125] = {
+	id = 33125,
+	damage = "40 x 6",
+	base = 33120,
+	weapon_id = {
+		33125
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33126] = {
+	id = 33126,
+	damage = "42 x 6",
+	base = 33120,
+	weapon_id = {
+		33126
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33127] = {
+	id = 33127,
+	damage = "44 x 6",
+	base = 33120,
+	weapon_id = {
+		33127
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33128] = {
+	id = 33128,
+	damage = "46 x 6",
+	base = 33120,
+	weapon_id = {
+		33128
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33129] = {
+	id = 33129,
+	damage = "48 x 6",
+	base = 33120,
+	weapon_id = {
+		33129
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33130] = {
+	id = 33130,
+	damage = "50 x 6",
+	base = 33120,
+	weapon_id = {
+		33130
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33131] = {
+	id = 33131,
+	anti_siren = 100,
+	damage = "50 x 6",
+	base = 33120,
+	weapon_id = {
+		33131
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33132] = {
+	id = 33132,
+	anti_siren = 200,
+	damage = "50 x 6",
+	base = 33120,
+	weapon_id = {
+		33132
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[33133] = {
+	id = 33133,
+	anti_siren = 300,
+	damage = "50 x 6",
+	base = 33120,
+	weapon_id = {
+		33133
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[34000] = {
 	tech = 1,
 	name = "356mm連装砲",
@@ -122960,6 +123154,116 @@ _G.pg.base.equip_data_statistics[80042] = {
 	id = 80042,
 	weapon_id = {
 		170162
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80051] = {
+	type = 1,
+	name = "专属弹幕-云仙I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80051,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61544
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80052] = {
+	descrip = "スキル弾幕",
+	name = "专属弹幕-云仙II",
+	speciality = "なし",
+	base = 80051,
+	id = 80052,
+	weapon_id = {
+		61545
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80061] = {
+	type = 1,
+	name = "专属弹幕-初月I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80061,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61546
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80062] = {
+	descrip = "スキル弾幕",
+	name = "专属弹幕-初月II",
+	speciality = "なし",
+	base = 80061,
+	id = 80062,
+	weapon_id = {
+		61547
 	},
 	hidden_skill_id = {}
 }

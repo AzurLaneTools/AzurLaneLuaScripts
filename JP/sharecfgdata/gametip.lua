@@ -10141,7 +10141,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "クレマンソー、ギシャンなど出現率UP！"
+	tip = "期間限定建造を累計200回行うと「雲仙」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12032,7 +12032,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2023年5月11日（木）～5月25日（木）メンテナンスまでに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2023年9月14日（木）～10月4日（水）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -12090,7 +12090,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = [[
 2.同建造で出現する艦船から2種類を選び「ピックアッ
 プ状態」（出現率がUPする状態）にできます
-<color=#FF5C5C>（※2023年3月22日まで常設建造した艦しか出現し
+<color=#FF5C5C>（※2023年7月12日まで常設建造した艦しか出現し
 ません）</color>]]
 		},
 		{
@@ -12098,7 +12098,7 @@ _G.pg.base.gametip.pray_build_help = {
 3.「選べる特別建造」において「ピックアップ」に選ば
 れた艦船の出現率は、レアリティに応じて下記の通り
 です
-<color=#ffde38>SSR</color>...2%  <color=#d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%]]
+<color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%]]
 		},
 		{
 			info = [[
@@ -19341,7 +19341,7 @@ _G.pg.base.gametip.use_oil_limit_help = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-	tip = "周回モード燃料消費上限:"
+	tip = "燃料消費上限:"
 }
 
 _G.pg.base.gametip.index_awakening2 = {
@@ -22951,7 +22951,7 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 }
 
 _G.pg.base.gametip.hotspring_buff = {
-	tip = "裏山温泉|入浴中の艦船のコンディション回復速度がUP"
+	tip = "饅頭温泉|入浴中の艦船のコンディション回復速度がUP"
 }
 
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
@@ -23086,17 +23086,12 @@ _G.pg.base.gametip.hotspring_help = {
 	tip = {
 		{
 			info = [[
-裏山温泉について
-開催期間<color=#92fc63>2023.5.25-2023.6.21メンテナンスまで</color>
-
-裏山温泉とは
-裏山温泉とは、艦船を「温泉枠」に配置することで、艦船のコンディション回復速度を上昇させるシステムです。
-5.29まで毎日開放される任務をすべてクリアすると、裏山温泉機能が開放されます。
-開放任務に必要なアイテムは、裏山拠点の「クラフト」で作ることができます。
-
-遊び方
-「温泉枠」をタップするか、右上のボタンをタップすることで艦船を温泉枠に配置・配置解除できます
-また、温泉枠にいる艦船を長押しすることで配置枠を変更できます]]
+遊び方：
+裏山キャンペーン「妖怪温泉街」にて、「饅頭温泉」が<color=#92fc63>9.14-10.4 23:59</color>まで開放されます！
+1.饅頭温泉の入浴枠をタップすると、艦船を配置しコンディションの回復速度を上昇させられます
+2.配置済みの艦船をドラッグ&ドロップすると温泉での位置を調整できます
+3.ミニゲーム「温泉街神隠し事件」をプレイすると、アイテム<color=#92fc63>温泉手形</color>を最大4個まで入手できます
+4.「増築」ボタンをタップすると、<color=#92fc63>温泉手形</color>を消費し入浴枠を追加することが可能です]]
 		}
 	}
 }
@@ -23681,6 +23676,22 @@ _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "戦闘敗北のため"
 }
 
+_G.pg.base.gametip.multiple_sorties_main_tip = {
+	tip = "※連続出撃中に<color=#92fc63>自動移動・オート戦闘</color>モードが適用されます。\n※自動移動を中止させると、連続出撃モードも中止されます"
+}
+
+_G.pg.base.gametip.multiple_sorties_main_end = {
+	tip = "※予想連続出撃数（海域クリア数）<color=#92fc63>$1</color>回、実働海域クリア数<color=#92fc63>$2</color>回"
+}
+
+_G.pg.base.gametip.multiple_sorties_rest_time = {
+	tip = "進捗:$1/$2"
+}
+
+_G.pg.base.gametip.multiple_sorties_retry_desc = {
+	tip = "連続出撃$1回"
+}
+
 _G.pg.base.gametip.msgbox_text_battle = {
 	tip = "出撃"
 }
@@ -23827,6 +23838,18 @@ _G.pg.base.gametip.battle_text_bisimaiz_9 = {
 
 _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 	tip = "自律艤装「ゲリュオン」の戦力低下を確認――<color=#ffc038>リュウコツ波動</color>が観測されている…？！"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_1 = {
+	tip = "穢れの影は力を蓄えている！闇靄の龍を攻撃し、敵を弱体化させよう！"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_2 = {
+	tip = "闇靄の一部が祓われた！穢れの影の防御が下がった"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_3 = {
+	tip = "闇靄の「核」を撃破した！艦船を模した影も崩壊し始めた"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -25245,4 +25268,231 @@ _G.pg.base.gametip.shoot_preview = {
 
 _G.pg.base.gametip.hit_preview = {
 	tip = "命中演出"
+}
+
+_G.pg.base.gametip.story_label_skip = {
+	tip = "スキップ"
+}
+
+_G.pg.base.gametip.story_label_auto = {
+	tip = "オート"
+}
+
+_G.pg.base.gametip.launch_ball_skill_desc = {
+	tip = "詳細確認"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
+	tip = "アクティブ:妖怪退散"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+	tip = "妖怪退散:5秒間、発射した札が妖怪行列を少し下がらせる"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
+	tip = "パッシブ:乱れ撃ち"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+	tip = "妖怪苦手:妖怪が中央に近づくと、初月の攻撃速度がアップ\n乱れ撃ち:10秒間攻撃しなかった場合、初月が不貞腐れてしまいランダムな3方向に向けて3回攻撃し、妖怪行列を少し下がらせる"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+	tip = "アクティブ:刹那の夢"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
+	tip = "刹那の夢:画面上のすべての妖怪を退散させる（スコアは基本スコア分だけ入手する）"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2 = {
+	tip = "パッシブ:永久の蝶"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+	tip = "永久の蝶:10秒間攻撃しなかった場合、信濃が寝てしまい、その後眠っている間の2秒毎にランダムで妖怪を1体退散させる"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+	tip = "アクティブ:退妖鬼式"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+	tip = "退妖鬼式:5秒間、妖怪行列の行進スピードを大幅にダウンさせる"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+	tip = "パッシブ:式降ろし"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+	tip = "式降ろし:特定の「後退」「減速」マークがある妖怪を退散させると得られる効果の持続時間が長くなる"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
+	tip = "アクティブ:疾風迅雷"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+	tip = "疾風迅雷:前方扇状の範囲内にいる妖怪を全て退散させる（スコアは基本スコア分だけ入手する）"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+	tip = "パッシブ:電光石火"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+	tip = "電光石火:妖怪を1回退散させる度に、「疾風迅雷」の再使用可能までの時間を0.5秒短縮させる"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip1 = {
+	tip = "温泉手形<icon name=wenquanshoupai w=0.7 h=0.7/>を消費し饅頭温泉を増築させますか？"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip2 = {
+	tip = "温泉手形が不足しています"
+}
+
+_G.pg.base.gametip.jp6th_biaohoushan_help = {
+	tip = {
+		{
+			info = [[
+概要：
+裏山キャンペーン「妖怪温泉街」<color=#92fc63>9.14-10.4 23:59</color>が開催されます！
+「妖怪温泉街」の「ミニゲーム」をタップすると、ミニゲームを遊ぶとともに限定ストーリーを読むことができます。
+また、ミニゲームの第7章をクリアすると、SSR艦船と交換できる特別招待状を入手できます。
+
+遊び方：
+1.裏山画面の「ミニゲーム」をタップすると、ミニゲーム「温泉街神隠し事件」画面に遷移できます。
+　「温泉街神隠し事件」では、9/20まで毎日開放されるミニゲームステージと限定任務、ショップが存在します。
+　限定任務では、ミニゲームで特定な条件を達成することで様々な報酬を入手することができます。
+　ショップでは、ミニゲームをプレイして得られるPtアイテムで、ミニゲームのキャラ解放・限定家具・装備外装箱などと交換できます。
+
+2.「饅頭温泉」をタップすると、温泉画面に遷移できます。
+　温泉では艦船を入浴枠に配置することで、艦船のコンディション回復速度を上昇させることができます。
+　温泉の入浴枠はミニゲームをプレイして入手できる「温泉手形」を消費することで拡張（増築）できます。
+
+3.「限定建造」をタップすると、限定建造画面に遷移できます
+4.「着せ替え」をタップすると、着せ替えショップに遷移できます
+5.「振り返り」をタップすると、指揮官の6週年データ振り返り画面に遷移できます
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_help = {
+	tip = {
+		{
+			info = [[
+概要：
+「温泉街神隠し事件？」とは、ミニゲームをプレイし収集アイテム「妖怪札」を集めて報酬と交換したり、クリア報酬を入手できるミニイベントです。
+「温泉街神隠し事件？」は9/20まで毎日1章が開放され、第7章をクリアすると、無限モードが解放されます。
+「温泉街神隠し事件？」は<color=#92fc63>9.14-10.4 23:59</color>まで開催されます。
+
+報酬紹介：
+①ミニゲームショップでは、「妖怪札」を消費することで、限定家具・装備外装箱、「温泉街神隠し事件」操作キャラ解放権などを入手できます。
+②ミニゲームのそれぞれの章をクリアすると1回のみ「装備外装箱（妖怪夜遊）」を入手できます。また、第1・3・５・7章をクリアすると、1回のみ「饅頭温泉」増築素材「温泉手形」を入手できます。
+③ミニゲームの第7章をクリアすると、家具「青行燈」を入手できます。また、イベントバナーでSSR艦船と交換できる招待状を入手できます。
+
+遊び方
+・画面タップ・長押しすることで、操作キャラから札を発射することができます。
+　発射された札が妖怪行列に接触すると札と同じ色の妖怪が列に増え、同じ妖怪が3体並ぶと退散します。
+・画面外からゆっくりと妖怪の行列が出現し、X印に向けて行進していきます。
+　妖怪が出現しなくなるまで退散させるか、画面の☓印に妖怪が到着するとゲームクリアになります。
+・ステージは通常ステージ（全7章）、一度限りの特殊ステージ（幕間）、妖怪が無限に出現する（無限モード）が出現します。
+・イベント期間中毎日「報酬獲得可能回数」が1回加算されます。
+　「報酬獲得可能回数」を所持している状態でゲームをクリアすると、回数を消費することでアイテム「妖怪札」を150入手できます。
+　第7章をクリアするまで、すべてのステージは1回しか報酬を入手できません。
+　第7章をクリアすると、すべてのステージ（無限モード含め）から「妖怪札」報酬を入手できます。
+・「無限モード」ステージでは、最高得点に応じて「妖怪札」を入手できます。
+・操作キャラ「由良」「信濃」「島風」はショップで当該アイテムを購入すると、選択可能になります。
+・操作キャラそれぞれにアクディブスキル、パッシブスキルを持っており、画面右下のボタンをタップするとアクティブスキルを発動することができます。
+・操作キャラで様々な条件を達成すると、限定任務で収集アイテム「妖怪札」を入手できます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_time = {
+	tip = "翌日0時に新しいステージが開放されます！"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_order = {
+	tip = "前のステージをクリアすると開放されます！"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_pt1 = {
+	tip = "入手済/入手可能上限"
+}
+
+_G.pg.base.gametip.launchball_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.launchball_minigame_select = {
+	tip = "キャラタップで選択"
+}
+
+_G.pg.base.gametip.launchball_minigame_un_select = {
+	tip = "同じキャラタップで選択解除"
+}
+
+_G.pg.base.gametip.launchball_minigame_shop = {
+	tip = "売り切れにゃ～"
+}
+
+_G.pg.base.gametip.launchball_lock_Shinano = {
+	tip = "ショップで<color=#92fc63>「信濃プレイアブル」</color>購入で選択可能"
+}
+
+_G.pg.base.gametip.launchball_lock_Yura = {
+	tip = "ショップで<color=#92fc63>「由良プレイアブル」</color>購入で選択可能"
+}
+
+_G.pg.base.gametip.launchball_lock_Shimakaze = {
+	tip = "ショップで<color=#92fc63>「島風プレイアブル」</color>購入で選択可能"
+}
+
+_G.pg.base.gametip.launchball_spilt_series = {
+	tip = "コンボ：札を一回発射して複数回妖怪を退散させると、入手スコアが上昇する"
+}
+
+_G.pg.base.gametip.launchball_spilt_mix = {
+	tip = "吸い付き：妖怪を退散させた後、両端の妖怪が同じ色の場合、前の妖怪が自動で後ろの妖怪に吸い付く。その際妖怪を退散させると、入手スコアが上昇する"
+}
+
+_G.pg.base.gametip.launchball_spilt_over = {
+	tip = "突き抜け：妖怪を退散させた後、できた空間へと再度札を発射し、その前方の妖怪を退散させると、入手スコアが上昇する"
+}
+
+_G.pg.base.gametip.launchball_spilt_many = {
+	tip = "マルチプル：一度に妖怪を3体以上退散させると、入手スコアが上昇する"
 }

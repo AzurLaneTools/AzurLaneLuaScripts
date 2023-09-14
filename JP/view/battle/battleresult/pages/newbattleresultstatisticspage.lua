@@ -288,6 +288,10 @@ function slot6(slot0, slot1, slot2)
 end
 
 function slot0.GetAnimationFlag(slot0)
+	if slot0.contextData.autoSkipFlag then
+		return false
+	end
+
 	if slot0.animationFlags[slot0.teamType][slot0.displayMode] == false then
 		slot0.animationFlags[slot0.teamType][slot0.displayMode] = true
 	end
@@ -655,19 +659,27 @@ function slot0.UpdateChapterName(slot0)
 end
 
 function slot0.UpdatePlayer(slot0)
+	slot1 = slot0.contextData.oldPlayer
 	slot2 = getProxy(PlayerProxy)
 	slot2 = slot2:getRawData()
 	slot0.playerName.text = slot2:GetName()
-	slot4 = NewBattleResultPlayerAniamtion.New(slot0.playerLv, slot0.playerExp, slot0.playerExpBar, slot2, slot0.contextData.oldPlayer)
 
-	slot4:SetUp(function ()
+	function slot3()
 		uv0.playerLv.text = "Lv." .. uv1.level
 		uv0.playerExp.text = "+" .. NewBattleResultUtil.GetPlayerExpOffset(uv2, uv1)
 		uv0.playerExpLabel.text = "EXP"
 		uv0.playerExpBar.fillAmount = uv1.level == uv1:getMaxLevel() and 1 or uv1.exp / getConfigFromLevel1(pg.user_level, uv1.level).exp_interval
-	end)
+	end
 
-	slot0.playerAniamtion = slot4
+	if not slot0.contextData.autoSkipFlag then
+		slot4 = NewBattleResultPlayerAniamtion.New(slot0.playerLv, slot0.playerExp, slot0.playerExpBar, slot2, slot1)
+
+		slot4:SetUp(slot3)
+
+		slot0.playerAniamtion = slot4
+	else
+		slot3()
+	end
 end
 
 function slot11(slot0, slot1, slot2)

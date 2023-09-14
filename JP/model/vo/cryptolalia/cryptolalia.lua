@@ -261,14 +261,24 @@ function slot0.ExistLocalFile(slot0, slot1)
 	return PathMgr.FileExists(uv0.GetAssetBundlePath(slot0:GetCpkName(slot1)))
 end
 
+function slot0.ExistLocalSubtitleFile(slot0, slot1)
+	return PathMgr.FileExists(uv0.GetSubtitleAssetBundlePath(slot0:GetCpkName(slot1)))
+end
+
 function slot0.GetResSize(slot0, slot1)
 	if not slot0:IsDownloadRes(slot1) then
 		return ""
 	end
 
 	if not slot0.sizes[slot1] and slot0:ExistLocalFile(slot1) then
-		slot2 = slot0:GetCpkName(slot1)
-		slot0.sizes[slot1] = HashUtil.BytesToString(uv1(uv0.GetAssetBundlePath(slot2)) + uv1(uv0.GetSubtitleAssetBundlePath(slot2)))
+		slot4 = uv1(uv0.GetAssetBundlePath(slot0:GetCpkName(slot1)))
+		slot5 = 0
+
+		if slot0:ExistLocalSubtitleFile(slot1) then
+			slot5 = uv1(uv0.GetSubtitleAssetBundlePath(slot2))
+		end
+
+		slot0.sizes[slot1] = HashUtil.BytesToString(slot4 + slot5)
 	end
 
 	return slot0.sizes[slot1] or 0

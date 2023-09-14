@@ -105,12 +105,16 @@ function OnApplicationExit()
 		return
 	end
 
-	slot3 = pg.MsgboxMgr.GetInstance() and slot2:getMsgBoxOb()
+	if pg.SceneAnimMgr.GetInstance():IsPlaying() then
+		return
+	end
 
-	if pg.NewStoryMgr.GetInstance() and slot4:IsRunning() then
-		if slot3 and slot3.activeSelf then
+	slot4 = pg.MsgboxMgr.GetInstance() and slot3:getMsgBoxOb()
+
+	if pg.NewStoryMgr.GetInstance() and slot5:IsRunning() then
+		if slot4 and slot4.activeSelf then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-			triggerButton(slot2._closeBtn)
+			triggerButton(slot3._closeBtn)
 		end
 
 		return
@@ -120,49 +124,49 @@ function OnApplicationExit()
 		return
 	end
 
-	if not slot5:retrieveProxy(ContextProxy.__cname) then
+	if not slot6:retrieveProxy(ContextProxy.__cname) then
 		return
 	end
 
-	if not slot6:getCurrentContext() then
+	if not slot7:getCurrentContext() then
 		return
 	end
 
-	if pg.ShareMgr.GetInstance().go and isActive(slot8.go) then
+	if pg.ShareMgr.GetInstance().go and isActive(slot9.go) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot8.panel:Find("main/top/btnBack"))
+		triggerButton(slot9.panel:Find("main/top/btnBack"))
 
 		return
 	end
 
-	if not slot5:retrieveMediator(slot7:retriveLastChild().mediator.__cname) or not slot9.viewComponent then
+	if not slot6:retrieveMediator(slot8:retriveLastChild().mediator.__cname) or not slot10.viewComponent then
 		return
 	end
 
-	slot10 = slot9.viewComponent
-	slot11 = slot10._tf.parent
-	slot12 = slot10._tf:GetSiblingIndex()
-	slot13 = -1
-	slot14 = nil
+	slot11 = slot10.viewComponent
+	slot12 = slot11._tf.parent
+	slot13 = slot11._tf:GetSiblingIndex()
+	slot14 = -1
+	slot15 = nil
 
-	if slot3 and slot3.activeSelf then
-		slot14 = slot3.transform.parent
-		slot13 = slot3.transform:GetSiblingIndex()
+	if slot4 and slot4.activeSelf then
+		slot15 = slot4.transform.parent
+		slot14 = slot4.transform:GetSiblingIndex()
 	end
 
 	if pg.playerResUI:checkBackPressed() then
 		return
 	end
 
-	if slot11 == slot14 and slot13 < slot12 then
-		slot10:onBackPressed()
+	if slot12 == slot15 and slot14 < slot13 then
+		slot11:onBackPressed()
 
 		return
 	end
 
-	if slot3 and slot3.activeSelf then
+	if slot4 and slot4.activeSelf then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot2._closeBtn)
+		triggerButton(slot3._closeBtn)
 
 		return
 	end
@@ -171,13 +175,13 @@ function OnApplicationExit()
 		pg.goldExchangeMgr:willExit()
 	end
 
-	if nowWorld() and slot15.staminaMgr:IsShowing() then
-		slot15.staminaMgr:Hide()
+	if nowWorld() and slot16.staminaMgr:IsShowing() then
+		slot16.staminaMgr:Hide()
 
 		return
 	end
 
-	slot10:onBackPressed()
+	slot11:onBackPressed()
 end
 
 function OnReceiveMemoryWarning()
@@ -278,6 +282,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.RepairResMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SceneAnimMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

@@ -725,10 +725,11 @@ slot36 = {
 		good = slot19
 	},
 	{
-		speed = 0,
+		score = 600,
 		name = "watch",
 		time = 20,
 		catch_speed = 180,
+		speed = 0,
 		type = slot30,
 		act = slot14,
 		catch = slot16,

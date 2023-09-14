@@ -872,5 +872,30 @@ pg.enemy_data_statistics_1 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
+	},
+	[50020] = {
+		speed_growth = 0,
+		name = "潜艇「Flea」2",
+		durability_growth = 2000,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		hit_growth = 10000,
+		reload_growth = 0,
+		dodge_growth = 5000,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50011,
+		armor_growth = 0,
+		torpedo_growth = 10000,
+		luck_growth = 10000,
+		antiaircraft_growth = 0,
+		id = 50020,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

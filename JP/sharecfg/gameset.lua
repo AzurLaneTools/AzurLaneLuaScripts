@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 365
+		key_value = 368
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -437,26 +437,52 @@ pg.gameset = {
 	login_extra_voice = {
 		key_value = 0,
 		description = {
-			40101,
-			30156,
-			10701,
-			30301,
-			20216,
-			10124,
-			40201,
-			40202,
-			40203,
-			20507,
-			40305,
-			20102,
-			30161,
-			20706,
-			30162,
-			20103,
-			40118,
-			20121,
-			10117,
-			30105
+			60110,
+			20607,
+			60507,
+			40199,
+			20602,
+			80702,
+			10326,
+			40505,
+			30189,
+			10712,
+			51901,
+			49908,
+			99902,
+			70207,
+			60306,
+			70205,
+			10150,
+			50602,
+			960001,
+			20514,
+			80203,
+			90104,
+			90502,
+			70302,
+			10727,
+			40210,
+			80502,
+			90202,
+			20209,
+			30206,
+			19904,
+			70507,
+			20233,
+			39906,
+			20608,
+			30513,
+			30713,
+			20713,
+			40313,
+			49909,
+			80301,
+			40603,
+			20136,
+			20707,
+			10710,
+			30319
 		}
 	},
 	world_starting_story = {
@@ -1923,7 +1949,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 366
+		key_value = 370
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2746,6 +2772,22 @@ pg.gameset = {
 	series_enemy_multiple_limit = {
 		description = "",
 		key_value = 5
+	},
+	main_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	hard_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	activity_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	archives_level_multiple_sorties_times = {
+		description = "",
+		key_value = 4
 	},
 	game_room_remax = {
 		description = "",

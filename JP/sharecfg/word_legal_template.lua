@@ -4894,6 +4894,9 @@ function temp()
 		},
 		["霜"] = {
 			this = true
+		},
+		["月"] = {
+			this = true
 		}
 	}
 end
@@ -5269,6 +5272,9 @@ function temp()
 	uv0["朝"] = {
 		["潮"] = {
 			this = true
+		},
+		["凪"] = {
+			this = true
 		}
 	}
 end
@@ -5412,6 +5418,16 @@ function temp()
 			["鈴"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["名"] = {
+		["取"] = {
+			this = true
 		}
 	}
 end
@@ -5655,6 +5671,16 @@ end
 temp()
 
 function temp()
+	uv0["雲"] = {
+		["仙"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["金"] = {
 		["剛"] = {
 			this = true
@@ -5832,6 +5858,16 @@ temp()
 function temp()
 	uv0["紀"] = {
 		["伊"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["尾"] = {
+		["張"] = {
 			this = true
 		}
 	}

@@ -269,7 +269,7 @@ function slot0.OpInteractive(slot0, slot1)
 			if WorldConst.IsRookieMap(uv0.id) then
 				slot2 = uv1
 
-				slot2:Op("OpStory", WorldConst.GetRookieBattleLoseStory(), true, function ()
+				slot2:Op("OpStory", WorldConst.GetRookieBattleLoseStory(), true, false, false, function ()
 					uv0:Op("OpKillWorld")
 				end)
 
@@ -896,15 +896,11 @@ function slot0.OpEvent(slot0, slot1, slot2)
 			table.insert(slot9, function (slot0)
 				slot0(uv0)
 			end)
-		elseif slot11 and slot3.isAutoFight then
-			table.insert(slot9, function (slot0)
-				uv0:Op("OpAutoStory", uv1, {
-					uv2
-				}, true, slot0)
-			end)
 		else
 			table.insert(slot9, function (slot0)
-				uv0:Op("OpStory", uv1, true, slot0)
+				uv0:Op("OpStory", uv1, true, true, uv2.isAutoFight and uv3 and {
+					uv3
+				} or false, slot0)
 			end)
 		end
 
@@ -955,7 +951,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				uv2.triggered = true
 				slot1 = uv3
 
-				slot1:Op("OpStory", uv1[3], true, function ()
+				slot1:Op("OpStory", uv1[3], true, false, false, function ()
 					uv0:Op("OpInteractive")
 				end)
 			else
@@ -988,7 +984,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 
 			if slot6.effect_paramater[2] then
 				table.insert(slot9, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:Op("OpStory", uv1, true, false, false, slot0)
 				end)
 			end
 
@@ -1002,7 +998,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				table.insert(slot9, function (slot0)
 					slot1 = uv0
 
-					slot1:Op("OpStory", uv1[1], true, function (slot0)
+					slot1:Op("OpStory", uv1[1], true, true, false, function (slot0)
 						if slot0 == uv0[2] then
 							uv1()
 						else
@@ -1020,7 +1016,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				slot10 = pg.gameset.world_catsearch_failure.description[1]
 
 				table.insert(slot9, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:Op("OpStory", uv1, true, false, false, slot0)
 				end)
 			end
 
@@ -1114,13 +1110,9 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 				uv0:ReContinueMoveQueue()
 				slot0()
 			end)
-		elseif slot3.isAutoFight then
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpAutoStory", uv1, {}, true, slot0)
-			end)
 		else
 			table.insert(slot4, function (slot0)
-				uv0:Op("OpStory", uv1, true, slot0)
+				uv0:Op("OpStory", uv1, true, false, uv2.isAutoFight and {} or false, slot0)
 			end)
 		end
 
@@ -1488,22 +1480,13 @@ function slot0.OpReqSwitchFleetDone(slot0, slot1)
 	slot0:Op("OpInteractive")
 end
 
-function slot0.OpStory(slot0, slot1, slot2, slot3)
-	slot4 = pg.NewStoryMgr.GetInstance()
+function slot0.OpStory(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = pg.NewStoryMgr.GetInstance()
 
-	slot4:Play(slot1, function (slot0, slot1)
+	slot7:PlayForWorld(slot1, slot4, function (slot0, slot1)
 		uv0:OpDone()
 		existCall(uv1, slot1)
-	end, slot2)
-end
-
-function slot0.OpAutoStory(slot0, slot1, slot2, slot3, slot4)
-	slot5 = pg.NewStoryMgr.GetInstance()
-
-	slot5:AutoPlay(slot1, slot2, function (slot0, slot1)
-		uv0:OpDone()
-		existCall(uv1, slot1)
-	end, slot3)
+	end, slot2, false, tobool(slot4), slot3)
 end
 
 function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
@@ -1536,15 +1519,11 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 				table.insert(uv0, function (slot0)
 					slot0(uv0)
 				end)
-			elseif slot4 and nowWorld().isAutoFight then
-				table.insert(uv0, function (slot0)
-					uv0:Op("OpAutoStory", uv1, {
-						uv2
-					}, true, slot0)
-				end)
 			else
 				table.insert(uv0, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:Op("OpStory", uv1, true, true, nowWorld().isAutoFight and uv2 and {
+						uv2
+					} or false, slot0)
 				end)
 			end
 

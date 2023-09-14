@@ -1671,5 +1671,137 @@ pg.effect_offset = {
 			0.5,
 			0
 		}
+	},
+	danchuanheiyan_DD = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1,
+			0
+		}
+	},
+	danchuanheiyan_CL = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			-0.5,
+			1,
+			0
+		}
+	},
+	danchuanheiyan_CA = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			-0.2,
+			1.3,
+			0
+		}
+	},
+	danchuanheiyan_BB = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			-0.3,
+			1.3,
+			0
+		}
+	},
+	danchuanheiyan_CV = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			-0.2,
+			2,
+			0
+		}
+	},
+	yunxian_hit_01 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			-0.2,
+			1.6,
+			0
+		}
+	},
+	yunxian_hit_02 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			0.2,
+			1.6,
+			0
+		}
+	},
+	yunxian_hit_03 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			0,
+			2,
+			0
+		}
+	},
+	yunxian_hit_04 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			0.2,
+			2,
+			0
+		}
+	},
+	yunxian_hit_05 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			-0.2,
+			2,
+			0
+		}
+	},
+	yunxian_hit_06 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			0,
+			1.6,
+			0
+		}
+	},
+	yunxian_hit_big = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			0,
+			1.8,
+			0
+		}
 	}
 }

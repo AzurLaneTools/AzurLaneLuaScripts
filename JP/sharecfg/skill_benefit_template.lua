@@ -2816,6 +2816,136 @@ pg.skill_benefit_template = {
 		},
 		world_extra_effect = {}
 	},
+	[1703001] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703001,
+		lv = 1,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703002] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703002,
+		lv = 2,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703003] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703003,
+		lv = 3,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703004] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703004,
+		lv = 4,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703005] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703005,
+		lv = 5,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703006] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703006,
+		lv = 6,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703007] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703007,
+		lv = 7,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703008] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703008,
+		lv = 8,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703009] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703009,
+		lv = 9,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
+	[1703010] = {
+		skill_id = 17030,
+		skill_group_level = 0,
+		type = 5,
+		id = 1703010,
+		lv = 10,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			17050
+		},
+		world_extra_effect = {}
+	},
 	[1951001] = {
 		skill_id = 19510,
 		skill_group_level = 0,
@@ -3742,6 +3872,16 @@ pg.skill_benefit_template = {
 		1677008,
 		1677009,
 		1677010,
+		1703001,
+		1703002,
+		1703003,
+		1703004,
+		1703005,
+		1703006,
+		1703007,
+		1703008,
+		1703009,
+		1703010,
 		1951001,
 		1951002,
 		1951003,

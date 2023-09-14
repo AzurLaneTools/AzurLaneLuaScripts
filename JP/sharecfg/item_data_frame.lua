@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Fifth　Anniversary！</color>\n　五周年記念イベントで開放可能",
 		scene = {}
 	},
+	[108] = {
+		time_limit_type = 0,
+		name = "六周年記念",
+		gain_by = "",
+		id = 108,
+		time_second = 0,
+		desc = "<color=#ffffff>Sixth　Anniversary！</color>\n　六周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "チャレンジャー",
@@ -408,10 +417,10 @@ pg.item_data_frame = {
 	[327] = {
 		time_limit_type = 0,
 		name = "須臾の紫藤",
-		gain_by = "",
+		gain_by = "須臾望月抄",
 		id = 327,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「須臾の人生も代えがたし」</color>\n「須臾望月抄」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -548,6 +557,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		108,
 		201,
 		202,
 		203,

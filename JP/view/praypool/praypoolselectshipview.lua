@@ -1,9 +1,9 @@
 slot0 = class("PrayPoolSelectShipView", import("..base.BaseSubView"))
 slot0.WIDTH_MIN = 328
 slot0.WIDTH_MAX = 438
-slot0.FONT_SIZE_MIN = 55
-slot0.FONT_SIZE_MID = 44
-slot0.FONT_SIZE_MAX = 34
+slot0.FONT_SIZE_MIN = 51
+slot0.FONT_SIZE_MID = 40
+slot0.FONT_SIZE_MAX = 32
 
 function slot0.getUIName(slot0)
 	return "PrayPoolSelectShipView"
