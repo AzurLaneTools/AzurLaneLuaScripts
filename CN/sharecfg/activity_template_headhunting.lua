@@ -1914,12 +1914,12 @@ pg.activity_template_headhunting = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				1
 			},
 			{
 				2,
-				42040,
+				42050,
 				4
 			},
 			{
@@ -1954,7 +1954,7 @@ pg.activity_template_headhunting = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				2
 			},
 			{
@@ -1969,7 +1969,7 @@ pg.activity_template_headhunting = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				4
 			},
 			{
@@ -1994,7 +1994,7 @@ pg.activity_template_headhunting = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				3
 			},
 			{
@@ -2019,7 +2019,7 @@ pg.activity_template_headhunting = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				4
 			},
 			{

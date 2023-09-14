@@ -25187,3 +25187,11 @@ _G.pg.base.gametip.launchball_spilt_over = {
 _G.pg.base.gametip.launchball_spilt_many = {
 	tip = "多重消除：一次性达成3个以上妖怪消除可以获得更高的分数。"
 }
+
+_G.pg.base.gametip.luckybag_skin_isani = {
+	tip = "动态立绘"
+}
+
+_G.pg.base.gametip.luckybag_skin_islive2d = {
+	tip = "Live 2d"
+}

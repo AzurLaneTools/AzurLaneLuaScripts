@@ -632,7 +632,11 @@ function slot0.moveEnmey(slot0)
 		return
 	end
 
-	if not slot0.backFlag and slot0.backEnemyTime and slot0.backEnemyTime > 0 then
+	if slot0.backFlag then
+		return
+	end
+
+	if slot0.backEnemyTime and slot0.backEnemyTime > 0 then
 		slot0.backEnemyTime = slot0.backEnemyTime - LaunchBallGameVo.deltaTime
 
 		if slot0.backEnemyTime <= 0 then
@@ -705,6 +709,10 @@ function slot0.moveEnmey(slot0)
 end
 
 function slot0.checkEnemyQuick(slot0)
+	if slot0.backFlag then
+		return
+	end
+
 	slot0.quickFlag = false
 
 	for slot4, slot5 in ipairs(slot0.enemysList) do
@@ -827,6 +835,7 @@ function slot0.checkEnemySplit(slot0)
 						break
 					end
 
+					slot0.seriesCount = 0
 					slot0.seriesCombat = 0
 
 					break

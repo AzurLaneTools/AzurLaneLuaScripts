@@ -25,7 +25,9 @@ return {
 			trigger = {
 				"onAttach"
 			},
-			pop = {},
+			pop = {
+				castCV = ""
+			},
 			arg_list = {
 				buff_id = 17068,
 				target = "TargetSelf"

@@ -22015,5 +22015,15 @@ cs.gametip = {
 		796808,
 		168,
 		true
+	},
+	luckybag_skin_isani = {
+		796976,
+		95,
+		true
+	},
+	luckybag_skin_islive2d = {
+		797071,
+		93,
+		true
 	}
 }
