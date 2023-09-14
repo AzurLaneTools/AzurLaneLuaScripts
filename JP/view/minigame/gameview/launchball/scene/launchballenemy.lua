@@ -966,8 +966,8 @@ function slot0.checkSplit(slot0, slot1, slot2)
 				count = slot4
 			})
 
-			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-				LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, slot4)
+			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) and slot0.enemyStopTime and slot0.enemyStopTime > 0 then
+				LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_skill_count, slot4)
 			end
 		end
 
@@ -1319,8 +1319,8 @@ function slot0.checkAmulet(slot0, slot1)
 							})
 						end
 
-						if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-							LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, 1)
+						if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) and slot0.enemyStopTime and slot0.enemyStopTime > 0 then
+							LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_skill_count, 1)
 						end
 					end
 

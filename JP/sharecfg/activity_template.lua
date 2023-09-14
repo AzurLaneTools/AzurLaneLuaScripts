@@ -9849,7 +9849,7 @@ pg.activity_template = {
 						30
 					},
 					{
-						1,
+						302,
 						19242,
 						40
 					},
@@ -10699,6 +10699,45 @@ pg.activity_template = {
 					2023,
 					10,
 					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5014] = {
+		mark = 20230914,
+		title_res_tag = "",
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 5005,
+		is_show = 0,
+		config_client = "",
+		id = 5014,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
 				},
 				{
 					23,
@@ -15237,6 +15276,7 @@ pg.activity_template = {
 		5011,
 		5012,
 		5013,
+		5014,
 		7001,
 		7002,
 		7003,

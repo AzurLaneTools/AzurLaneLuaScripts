@@ -328,7 +328,7 @@ function slot17(slot0, slot1, slot2)
 			return slot0.data.id
 		end,
 		start = function (slot0)
-			slot0.useSkillTime = 0
+			slot0.useSkillTime = nil
 			slot0.buffs = {}
 			slot0.angle = uv0
 

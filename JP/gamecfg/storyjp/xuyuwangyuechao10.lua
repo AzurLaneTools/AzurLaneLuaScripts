@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "うむ。名前は書かれていないが、『綿密抄』には封印に関する術式が残されておるぞ",
+			say = "うむ。名前は書かれていないが、『綿津抄』には封印に関する術式が残されておるぞ",
 			painting = {
 				alpha = 0.3,
 				time = 1
