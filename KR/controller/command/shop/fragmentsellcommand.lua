@@ -32,18 +32,20 @@ function slot0.execute(slot0, slot1)
 	}, 15009, function (slot0)
 		if slot0.result == 0 then
 			for slot4, slot5 in ipairs(uv0) do
-				reducePlayerOwn(slot5.type, slot5.id, slot5.count)
+				reducePlayerOwn(slot5)
 			end
 
 			slot1 = {}
 
 			for slot5, slot6 in pairs(uv1) do
-				addPlayerOwn(DROP_TYPE_RESOURCE, slot5, slot6)
-				table.insert(slot1, {
+				slot7 = {
 					type = DROP_TYPE_RESOURCE,
 					id = slot5,
 					count = slot6
-				})
+				}
+
+				addPlayerOwn(slot7)
+				table.insert(slot1, slot7)
 			end
 
 			uv2:sendNotification(GAME.FRAG_SELL_DONE, {

@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.enemy_data_statistics_331 = {
+	[16500301] = {
+		cannon = 68,
+		name = "조프르 통제 무장-「Blast」",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 14,
+		speed = 26,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 198,
+		antiaircraft_growth = 0,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 0,
+		base = 90648,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 85,
+		hit_growth = 210,
+		armor = 0,
+		durability = 2480,
+		torpedo = 52,
+		id = 16500301,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			3051001,
+			3051002,
+			3051003,
+			3051004,
+			3051005,
+			3051006,
+			3051007
+		}
+	},
 	[16500302] = {
 		cannon = 55,
 		name = "르 마르스 통제 무장-「Moderate」",
@@ -983,51 +1034,6 @@ pg.enemy_data_statistics_331 = {
 		id = 16501302,
 		fog_fx = "",
 		antisub = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
-	},
-	[16501303] = {
-		cannon = 180,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		base = 90740,
-		dodge = 14,
-		durability_growth = 0,
-		antiaircraft = 360,
-		speed = 30,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 8,
-		battle_unit_type = 95,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 120,
-		durability = 31500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16501303,
-		fog_fx = "",
-		antisub = 0,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
 		appear_fx = {
 			"bossguangxiao",
 			"appearQ"

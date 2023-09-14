@@ -13,27 +13,27 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0._parent = slot2
 	slot0.backBtn = findTF(slot0._go, "window/top/btnBack")
-	slot0.itemTF = findTF(slot0._go, "window/panel/item")
+	slot0.itemTF = findTF(slot0._go, "window/item")
 	slot0.itemIntro = findTF(slot0.itemTF, "display_panel/desc/Text")
-	slot0.itemName = findTF(slot0.itemTF, "display_panel/name_container/name")
+	slot0.itemName = findTF(slot0.itemTF, "display_panel/name_container/name/Text")
 	slot0.resetBtn = findTF(slot0.itemTF, "reset_btn")
-	slot0.useBtn = findTF(slot0._go, "window/panel/actions/use_one_button")
+	slot0.useBtn = findTF(slot0._go, "window/actions/use_one_button")
 
 	setActive(slot0.useBtn, false)
 
-	slot0.batchUseBtn = findTF(slot0._go, "window/panel/actions/batch_use_button")
+	slot0.batchUseBtn = findTF(slot0._go, "window/actions/batch_use_button")
 
 	setActive(slot0.batchUseBtn, false)
 
-	slot0.useOneBtn = findTF(slot0._go, "window/panel/actions/use_button")
+	slot0.useOneBtn = findTF(slot0._go, "window/actions/use_button")
 
 	setActive(slot0.useOneBtn, false)
 
-	slot0.confirmBtn = findTF(slot0._go, "window/panel/actions/confirm_button")
+	slot0.confirmBtn = findTF(slot0._go, "window/actions/confirm_button")
 
 	setActive(slot0.confirmBtn, false)
 
-	slot0.seeBtn = findTF(slot0._go, "window/panel/actions/see_button")
+	slot0.seeBtn = findTF(slot0._go, "window/actions/see_button")
 
 	setActive(slot0.seeBtn, false)
 
@@ -67,11 +67,22 @@ function slot0.Close(slot0)
 end
 
 function slot0.Update(slot0, slot1)
-	updateDrop(slot0.itemTF, {
+	slot2 = {
 		type = DROP_TYPE_WORLD_ITEM,
 		id = slot1.id,
 		count = slot1.count
-	})
+	}
+	slot4 = slot0.itemTF
+
+	updateDrop(slot4:Find("left/IconTpl"), slot2)
+
+	slot4 = slot0.itemTF
+
+	UpdateOwnDisplay(slot4:Find("left/own"), slot2)
+
+	slot5 = slot0.itemTF
+
+	RegisterDetailButton(slot0, slot5:Find("left/detail"), slot2)
 	setText(slot0.itemIntro, slot1:getConfig("display"))
 	setText(slot0.itemName, slot1:getConfig("name"))
 	onButton(slot0, slot0.resetBtn, function ()

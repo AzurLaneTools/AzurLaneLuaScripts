@@ -75,7 +75,7 @@ function slot0.register(slot0)
 		slot4 = {}
 
 		uv0:addSubLayers(Context.New({
-			viewComponent = ShipPreviewLayer,
+			viewComponent = EquipmentSkinPreviewWindow,
 			mediator = ShipPreviewMediator,
 			data = (slot2.ship_skin_id == 0 or {
 				equipSkinId = 0,

@@ -854,8 +854,18 @@ pg.login = {
 	},
 	[32] = {
 		id = 32,
-		op_play = 1,
 		login_static = "login_0817_1",
+		date = "stop",
+		op_play = 1,
+		op_time = "stop",
+		login_cri = "",
+		bgm = ""
+	},
+	[33] = {
+		id = 33,
+		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -876,33 +886,7 @@ pg.login = {
 				{
 					2023,
 					9,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					14
+					7
 				},
 				{
 					23,
@@ -997,6 +981,7 @@ pg.login = {
 		30,
 		31,
 		32,
+		33,
 		3001
 	}
 }

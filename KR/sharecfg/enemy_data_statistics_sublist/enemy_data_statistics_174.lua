@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_174 = {
+	[12700631] = {
+		cannon = 362,
+		hit_growth = 0,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 18,
+		dodge = 38,
+		id = 12700631,
+		cannon_growth = 0,
+		rarity = 6,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 25,
+		star = 6,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90384,
+		durability = 102000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 470,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"juguangdeng_BOSS"
+		},
+		equipment_list = {
+			615051,
+			615052,
+			615053,
+			615054,
+			615055,
+			615056,
+			615057
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[12700731] = {
 		cannon = 300,
 		reload = 150,
@@ -874,74 +926,6 @@ pg.enemy_data_statistics_174 = {
 			1000631,
 			1000635,
 			1000640
-		}
-	},
-	[12800205] = {
-		cannon = 0,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		rarity = 2,
-		air = 35,
-		torpedo = 0,
-		dodge = 0,
-		durability_growth = 27200,
-		antiaircraft = 40,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 144,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 1800,
-		battle_unit_type = 65,
-		base = 90401,
-		durability = 560,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 12800205,
-		antiaircraft_growth = 1200,
-		antisub = 0,
-		fog_fx = "",
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		equipment_list = {
-			1000646,
-			1000650,
-			1000656,
-			1000660
 		}
 	}
 }

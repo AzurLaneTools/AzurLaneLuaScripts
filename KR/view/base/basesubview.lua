@@ -158,15 +158,31 @@ end
 function slot0.Show(slot0)
 	setActive(slot0._tf, true)
 	slot0:ShowOrHideResUI(true)
+	slot0:PlayBGM()
 end
 
 function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 	slot0:ShowOrHideResUI(false)
+	slot0:StopBgm()
 end
 
 function slot0.isShowing(slot0)
 	return slot0._tf and isActive(slot0._tf)
+end
+
+function slot0.getBGM(slot0, slot1)
+	return getBgm(slot1 or slot0.__cname)
+end
+
+function slot0.PlayBGM(slot0)
+	if slot0:getBGM() then
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot1)
+	end
+end
+
+function slot0.StopBgm(slot0)
+	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 end
 
 function slot0.findTF(slot0, slot1, slot2)

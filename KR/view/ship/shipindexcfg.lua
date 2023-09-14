@@ -122,9 +122,13 @@ return {
 		},
 		{
 			types = {
+				Nation.META
+			}
+		},
+		{
+			types = {
 				Nation.MOT,
 				Nation.CM,
-				Nation.META,
 				Nation.BURIN,
 				Nation.LINK
 			}

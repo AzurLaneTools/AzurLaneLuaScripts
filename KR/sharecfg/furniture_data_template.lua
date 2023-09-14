@@ -177,6 +177,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			200001,
 			200002,
 			200003,
@@ -4903,6 +4904,7 @@ pg.furniture_data_template = setmetatable({
 			100050,
 			100051,
 			100052,
+			100053,
 			54104,
 			54105
 		},
@@ -5795,7 +5797,8 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
-			100052
+			100052,
+			100053
 		},
 		[2] = {
 			120,
@@ -8453,6 +8456,7 @@ pg.furniture_data_template = setmetatable({
 		100050,
 		100051,
 		100052,
+		100053,
 		200001,
 		200002,
 		200003,
@@ -19797,7 +19801,7 @@ pg.base.furniture_data_template = {
 	},
 	[100043] = {
 		spine_extra = "",
-		describe = "“죽음을 자초하는” 건 본능!",
+		describe = "\"흠, 타깃 함선을 카드로...가 아니라, 바깥으로 바운스!\"",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20443,7 +20447,7 @@ pg.base.furniture_data_template = {
 	},
 	[100052] = {
 		spine_extra = "",
-		describe = "레젠더리 에이전트의 싸움을 체험해보자!",
+		describe = "전설적인 에이전트의 전투를 체험하라!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20453,7 +20457,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "에이전트 상자",
+		name = "에이전트 박스",
 		themeId = 0,
 		icon = "tegongtiyanicon",
 		deblocking = 1,
@@ -20521,6 +20525,109 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100053] = {
+		rarity = 4,
+		describe = "宇宙真理尽在其中！（大概）",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "真理天平 ",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "mofatianchengicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100053,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mofatiancheng",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2",
+						"sit3",
+						"sit4",
+						"sit5"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			}
 		},
 		interAction_group = {}
 	},

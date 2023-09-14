@@ -95,7 +95,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)
 		if BATTLE_DEBUG then
 			uv0:sendNotification(GAME.BEGIN_STAGE, {
-				system = SYSTEM_DEBUG
+				combatID = 100,
+				system = SYSTEM_CARDPUZZLE
 			})
 		else
 			uv0:addSubLayers(Context.New({

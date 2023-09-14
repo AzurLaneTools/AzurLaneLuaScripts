@@ -133,6 +133,22 @@ function slot0.register(slot0)
 			}))
 		end
 	end)
+	slot0:bind(uv0.ON_PUZZLE_RELIC, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = CardPuzzleRelicDeckMediator,
+			viewComponent = CardPuzzleRelicDeckLayerCombat,
+			data = slot1
+		}))
+		uv1:Pause()
+	end)
+	slot0:bind(uv0.ON_PUZZLE_CARD, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = CardPuzzleCardDeckMediator,
+			viewComponent = CardPuzzleCardDeckLayerCombat,
+			data = slot1
+		}))
+		uv1:Pause()
+	end)
 
 	if slot0.contextData.continuousBattleTimes and slot0.contextData.continuousBattleTimes > 0 then
 		if not getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
@@ -244,6 +260,12 @@ function slot0.onPauseBtn(slot0)
 		slot0:warnFunc(function ()
 			ys.Battle.BattleState.GetInstance():Resume()
 		end)
+	elseif slot0.contextData.system == SYSTEM_CARDPUZZLE then
+		slot0:addSubLayers(Context.New({
+			mediator = CardPuzzleCombatPauseMediator,
+			viewComponent = CardPuzzleCombatPauseLayer
+		}))
+		slot1:Pause()
 	else
 		slot0.viewComponent:updatePauseWindow()
 		slot1:Pause()
@@ -392,6 +414,43 @@ function slot1(slot0, slot1, slot2, slot3)
 		name = slot1:getName(),
 		deathMark = slot12,
 		spWeapon = slot9
+	}
+end
+
+function slot2(slot0, slot1)
+	slot2 = slot0:getProperties(slot1)
+	slot3 = slot0:getConfig("id")
+
+	return {
+		deathMark = false,
+		shipGS = 100,
+		rarity = 1,
+		intimacy = 100,
+		id = slot3,
+		tmpID = slot3,
+		skinId = slot0:getConfig("skin_id"),
+		level = slot0:getConfig("level"),
+		equipment = slot0:getConfig("default_equip"),
+		properties = slot2,
+		baseProperties = slot2,
+		proficiency = {
+			1,
+			1,
+			1
+		},
+		skills = {},
+		baseList = {
+			1,
+			1,
+			1
+		},
+		preloasList = {
+			0,
+			0,
+			0
+		},
+		name = slot3,
+		fleetIndex = slot0:getConfig("location")
 	}
 end
 
@@ -1016,6 +1075,25 @@ function slot0.GenBattleData(slot0)
 		end
 
 		slot0.viewComponent:setFleet(slot13, slot14, slot15)
+	elseif slot2 == SYSTEM_CARDPUZZLE then
+		slot6 = {}
+		slot7 = {}
+		slot8 = slot0.contextData.relics
+
+		for slot12, slot13 in ipairs(slot0.contextData.cardPuzzleFleet) do
+			if uv1(slot13, slot8).fleetIndex == 1 then
+				table.insert(slot7, slot14)
+				table.insert(slot1.VanguardUnitList, slot14)
+			elseif slot15 == 2 then
+				table.insert(slot6, slot14)
+				table.insert(slot1.MainUnitList, slot14)
+			end
+		end
+
+		slot1.CardPuzzleCardIDList = slot0.contextData.cards
+		slot1.CardPuzzleCommonHPValue = slot0.contextData.hp
+		slot1.CardPuzzleRelicList = slot8
+		slot1.CardPuzzleCombatID = slot0.contextData.puzzleCombatID
 	elseif slot0.contextData.mainFleetId then
 		slot6 = slot2 == SYSTEM_DUEL
 		slot8, slot9 = nil

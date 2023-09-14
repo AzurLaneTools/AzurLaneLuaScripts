@@ -99,7 +99,7 @@ end
 function slot2.ChatUseable(slot0)
 	slot3 = slot0:GetBattleType()
 
-	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3))
+	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3)) and not (slot3 == SYSTEM_CARDPUZZLE)
 end
 
 function slot2.GetState(slot0)
@@ -146,6 +146,8 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleAirFightCommand.New())
 	elseif slot1.battleType == SYSTEM_GUILD then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleGuildBossCommand.New())
+	elseif slot1.battleType == SYSTEM_CARDPUZZLE then
+		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleCardPuzzleCommand.New())
 	else
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleDungeonCommand.New())
 	end
@@ -376,6 +378,8 @@ end
 
 function slot2._pause(slot0)
 	slot0:Deactive()
+	print("ppppp")
+	slot0._dataProxy:PausePuzzleComponent()
 	slot0._sceneMediator:Pause()
 
 	if slot0._timeScale ~= 1 then
@@ -404,6 +408,8 @@ end
 function slot2._resume(slot0)
 	slot0._sceneMediator:Resume()
 	slot0:Active()
+	print("rrrr")
+	slot0._dataProxy:ResumePuzzleComponent()
 
 	if slot0._timescalerCache then
 		slot0:ScaleTimer(slot0._timescalerCache)

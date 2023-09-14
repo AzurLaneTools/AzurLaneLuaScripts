@@ -4,6 +4,10 @@ function slot0.getUIName(slot0)
 	return "SVOrderPanel"
 end
 
+function slot0.getBGM(slot0)
+	return "echo-loop"
+end
+
 function slot0.OnLoaded(slot0)
 end
 
@@ -94,8 +98,7 @@ end
 
 function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
-	setActive(slot0._tf, true)
-	pg.CriMgr.GetInstance():PlayBGM("echo-loop", "sub_view")
+	uv0.super.Show(slot0)
 end
 
 function slot0.Hide(slot0)
@@ -104,10 +107,9 @@ function slot0.Hide(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
-	setActive(slot0._tf, false)
-	pg.CriMgr.GetInstance():ResumeLastNormalBGM()
 	slot0:ClearComppass()
 	slot0:ClearBtnTimers()
+	uv0.super.Hide(slot0)
 end
 
 function slot0.Setup(slot0, slot1, slot2, slot3)

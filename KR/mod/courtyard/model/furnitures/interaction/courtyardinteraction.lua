@@ -8,13 +8,17 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.Update(slot0, slot1)
-	slot2, slot0.userActions, slot0.closeBodyMask, slot5, slot6, slot0.tailAction = slot0.host:GetActions()
-	slot0.ownerActions = slot2
-	slot0.total = #slot2
 	slot0.loop = slot1
-	slot0.index = 0
 
-	slot0:DoPreheatStep(slot5, slot6)
+	slot0:InitData()
+	slot0:DoPreheatStep(slot0.ownerPreheat, slot0.userPreheat)
+end
+
+function slot0.InitData(slot0)
+	slot1, slot0.userActions, slot0.closeBodyMask, slot0.ownerPreheat, slot0.userPreheat, slot0.tailAction = slot0.host:GetActions()
+	slot0.ownerActions = slot1
+	slot0.total = #slot1
+	slot0.index = 0
 end
 
 function slot0.DoPreheatStep(slot0, slot1, slot2)
@@ -44,10 +48,18 @@ function slot0.DoStep(slot0)
 	slot0.states[slot0.host.user] = false
 	slot0.states[slot0.host.owner] = false
 
-	slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot0.userActions[slot0.index]))
-	slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot0.ownerActions[slot0.index]))
+	slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot0:GetUserAction()))
+	slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot0:GetOwnerAction()))
 
 	slot0.isReset = false
+end
+
+function slot0.GetUserAction(slot0)
+	return slot0.userActions[slot0.index]
+end
+
+function slot0.GetOwnerAction(slot0)
+	return slot0.ownerActions[slot0.index]
 end
 
 function slot0.DoTailStep(slot0)

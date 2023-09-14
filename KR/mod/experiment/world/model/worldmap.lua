@@ -435,20 +435,6 @@ function slot0.GetPort(slot0, slot1)
 	end) or slot0.ports[1]
 end
 
-function slot0.GetPortFleet(slot0, slot1)
-	if slot0:InPort(slot0:GetFleet().id) == slot0:GetPort(slot1).id then
-		return slot3
-	end
-end
-
-function slot0.GetPortFleets(slot0, slot1)
-	slot2 = slot0:GetPort(slot1)
-
-	return _.filter(slot0:GetNormalFleets(), function (slot0)
-		return uv0:InPort(slot0.id) == uv1.id
-	end)
-end
-
 function slot0.GetCell(slot0, slot1, slot2)
 	return slot0.cells[WorldMapCell.GetName(slot1, slot2)]
 end
@@ -944,29 +930,6 @@ function slot0.FindNearestBlankPoint(slot0, slot1, slot2)
 			end
 		end)
 	end
-end
-
-function slot0.ConstructFormationData(slot0)
-	slot1 = _.map(slot0:GetPortFleets(), function (slot0)
-		return slot0:Clone()
-	end)
-
-	_.each(slot1, function (slot0)
-		_.each(slot0:GetShipVOs(true), function (slot0)
-			table.insert(uv0, slot0)
-		end)
-	end)
-
-	slot4 = nowWorld()
-
-	_.each(slot4:GetPortShipVOs(), function (slot0)
-		table.insert(uv0, slot0)
-	end)
-
-	return {
-		fleets = slot1,
-		shipVOs = {}
-	}
 end
 
 function slot0.WriteBack(slot0, slot1, slot2)

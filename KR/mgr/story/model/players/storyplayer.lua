@@ -930,13 +930,13 @@ function slot0.PlayBgm(slot0, slot1)
 		slot2, slot3 = slot1:GetBgmData()
 
 		slot0:DelayCall(slot3, function ()
-			pg.CriMgr.GetInstance():PlayBGM(uv0, "story")
+			pg.BgmMgr.GetInstance():Push("NewStoryMgr", uv0)
 		end)
 	end
 end
 
 function slot0.StopBgm(slot0, slot1)
-	pg.CriMgr.GetInstance():StopBGM(true)
+	pg.BgmMgr.GetInstance():Pop("NewStoryMgr")
 end
 
 function slot0.StartUIAnimations(slot0, slot1, slot2)

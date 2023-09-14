@@ -161,6 +161,18 @@ function slot0.isTimeOut(slot0)
 	return slot0._currentStageData.timeCount - slot0._countDown >= 180
 end
 
+function slot0.CalcCardPuzzleScoreAtEnd(slot0, slot1)
+	slot0._statistics._deadUnit = true
+	slot0._statistics._badTime = true
+	slot0._statistics._battleScore = slot1:GetCardPuzzleComponent():GetCurrentCommonHP() > 0 and uv0.BattleScore.S or uv0.BattleScore.D
+	slot0._statistics._cardPuzzleStatistics = {
+		common_hp_rest = slot3
+	}
+	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
+
+	slot0:AirFightInit()
+end
+
 function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true

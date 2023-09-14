@@ -8,7 +8,6 @@ function slot0.execute(slot0, slot1)
 			slot2 = nowWorld()
 
 			slot2:SetFleets(getProxy(WorldProxy):NetBuildMapFleetList(slot0.group_list))
-			slot2:SetPortShips({})
 
 			slot3 = slot2:GetActiveMap()
 

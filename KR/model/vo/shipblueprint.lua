@@ -642,16 +642,19 @@ function slot0.getEquipProficiencyList(slot0, slot1)
 	return slot3
 end
 
-function slot0.isFinishPrevTask(slot0, slot1)
-	slot3 = nil
+function slot0.isFinishPrevTask(slot0)
+	slot1 = true
+	slot2 = true
 
-	for slot7, slot8 in ipairs(slot0:getOpenTaskList()) do
-		if not getProxy(TaskProxy):getTaskVO(slot8) or (slot1 or not slot3:isFinish()) and not slot3:isReceive() then
-			return false
+	for slot6, slot7 in ipairs(slot0:getOpenTaskList()) do
+		if not getProxy(TaskProxy):getTaskVO(slot7) or not slot8:isFinish() then
+			return false, false
+		elseif not slot8:isReceive() then
+			slot2 = false
 		end
 	end
 
-	return true
+	return slot1, slot2
 end
 
 function slot0.isShipModMaxLevel(slot0, slot1)

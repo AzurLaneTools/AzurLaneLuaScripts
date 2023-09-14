@@ -285,7 +285,9 @@ end
 
 function slot2(slot0, slot1, slot2)
 	if slot2.type == GuideStep.HIGH_TYPE_GAMEOBJECT then
-		slot0.uiDuplicator:Duplicate(slot1, {})
+		slot0.uiDuplicator:Duplicate(slot1, {
+			clearAllEvent = true
+		})
 	elseif slot2.type == GuideStep.HIGH_TYPE_LINE then
 		slot3 = 15
 		slot4 = slot0._tf:InverseTransformPoint(slot1.position)

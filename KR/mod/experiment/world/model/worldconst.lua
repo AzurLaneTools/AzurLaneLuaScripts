@@ -682,4 +682,20 @@ function slot0.CheckWorldStorySkip(slot0)
 	return table.contains(pg.gameset.world_quickmode_skiplua.description, slot0) and getProxy(SettingsProxy):GetWorldFlag("story_tips") and pg.NewStoryMgr.GetInstance():IsPlayed(slot0)
 end
 
+function slot0.GetNShopTimeStamp()
+	if not uv0.nShopTimestamp then
+		slot1, slot2, slot3 = unpack(getGameset("world_newshop_date")[2])
+		uv0.nShopTimestamp = pg.TimeMgr.GetInstance():Table2ServerTime({
+			day = slot3,
+			month = slot2,
+			year = slot1,
+			sec = 0,
+			min = 0,
+			hour = 0
+		})
+	end
+
+	return uv0.nShopTimestamp
+end
+
 return slot0

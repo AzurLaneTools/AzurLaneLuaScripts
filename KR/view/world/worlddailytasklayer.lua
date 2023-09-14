@@ -131,7 +131,7 @@ function slot0.OnUpdateTasks(slot0)
 		})
 	end)
 
-	table.sort(slot0.taskVOs, WorldTask.sortFunc)
+	table.sort(slot0.taskVOs, CompareFuncs(WorldTask.sortDic))
 	slot0.taskItemList:align(#slot0.taskVOs)
 	setActive(slot0.rtTasks:Find("frame/empty"), #slot0.taskVOs == 0)
 	setActive(slot0.btnAllAccept, slot0.taskProxy:canAcceptDailyTask())

@@ -136,6 +136,22 @@ function slot0.ResultRushBossSystem(slot0, slot1)
 		slot3:removeChild(slot5)
 	end
 
+	if not (ys.Battle.BattleConst.BattleScore.C < slot1.score) and slot1.system == SYSTEM_BOSS_RUSH_EX then
+		slot0:addSubLayers(Context.New({
+			mediator = BattleFailTipMediator,
+			viewComponent = BattleFailTipLayer,
+			data = {
+				mainShips = slot1.newMainShips,
+				battleSystem = slot1.system
+			},
+			onRemoved = function ()
+				pg.m02:sendNotification(GAME.GO_BACK)
+			end
+		}))
+
+		return
+	end
+
 	pg.m02:sendNotification(GAME.BOSSRUSH_SETTLE, {
 		actId = slot1.actId
 	})
@@ -143,21 +159,6 @@ end
 
 function slot0.ExitRushBossSystem(slot0, slot1, slot2)
 	slot3 = slot1.system
-	slot4 = slot1.actId
-	slot5 = slot2.seriesData
-
-	if not (ys.Battle.BattleConst.BattleScore.C < slot1.score) and slot3 == SYSTEM_BOSS_RUSH_EX then
-		slot0:addSubLayers(Context.New({
-			mediator = BattleFailTipMediator,
-			viewComponent = BattleFailTipLayer,
-			data = {
-				mainShips = slot1.newMainShips,
-				battleSystem = slot1.system
-			}
-		}))
-
-		return
-	end
 
 	slot0:addSubLayers(Context.New({
 		mediator = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator,
@@ -165,12 +166,12 @@ function slot0.ExitRushBossSystem(slot0, slot1, slot2)
 		data = {
 			awards = slot2.awards,
 			system = slot3,
-			actId = slot4,
-			seriesData = slot5,
-			win = slot6
+			actId = slot1.actId,
+			seriesData = slot2.seriesData,
+			win = ys.Battle.BattleConst.BattleScore.C < slot1.score
 		}
 	}), true)
-	pg.m02:sendNotification(GAME.GO_BACK)
+	LoadContextCommand.RemoveLayerByMediator(NewBattleResultMediator)
 end
 
 function slot0.ExitLimitChallengeSystem(slot0, slot1)
@@ -325,15 +326,15 @@ function slot0.CheckActBossSystem(slot0, slot1)
 	pg.m02:sendNotification(NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
 end
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.ContinuousBossRush(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	seriesAsync({
 		function (slot0)
-			pg.m02:addSubLayers(Context.New({
+			uv0:addSubLayers(Context.New({
 				mediator = ChallengePassedMediator,
 				viewComponent = BossRushPassedLayer,
 				data = {
-					curIndex = uv0 - 1,
-					maxIndex = #uv1
+					curIndex = uv1 - 1,
+					maxIndex = #uv2
 				},
 				onRemoved = slot0
 			}))
@@ -363,13 +364,13 @@ function slot0.CheckBossRushSystem(slot0, slot1)
 	end
 
 	if not (not slot3 or slot7 > #slot8 or not (not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag)) then
-		uv1(slot1.system, slot4, slot7, slot8, slot1.continuousBattleTimes, slot1.totalBattleTimes)
+		slot0:ContinuousBossRush(slot1.system, slot4, slot7, slot8, slot1.continuousBattleTimes, slot1.totalBattleTimes)
 	end
 
 	return slot11
 end
 
-function slot6(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityById(slot0)
 	slot6 = getProxy(PlayerProxy):getRawData():getResource(pg.activity_event_worldboss[slot2:getConfig("config_id")].ticket)
 
@@ -380,7 +381,7 @@ function slot6(slot0, slot1)
 	return false
 end
 
-function slot7(slot0)
+function slot6(slot0)
 	pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 		stageId = slot0.stageId,
 		mainFleetId = slot0.mainFleetId,

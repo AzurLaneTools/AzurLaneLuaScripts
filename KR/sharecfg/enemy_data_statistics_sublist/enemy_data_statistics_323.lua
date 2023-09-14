@@ -1,5 +1,69 @@
 pg = pg or {}
 pg.enemy_data_statistics_323 = {
+	[16400302] = {
+		cannon = 150,
+		name = "OFS.미사일 전함-훈련 특화형",
+		hit_growth = 210,
+		speed_growth = 0,
+		fog_fx = "",
+		air = 0,
+		speed = 20,
+		dodge = 11,
+		antisub = 0,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck = 0,
+		torpedo = 30,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		durability_growth = 0,
+		base = 90723,
+		durability = 8900,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antiaircraft = 115,
+		battle_unit_type = 95,
+		id = 16400302,
+		scale = 320,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			3040101,
+			3040102,
+			3040103,
+			3040104,
+			3040105,
+			3040106,
+			3040107,
+			3040108
+		},
+		buff_list = {
+			{
+				ID = 200236,
+				LV = 1
+			},
+			{
+				ID = 50500,
+				LV = 1
+			}
+		}
+	},
 	[16400303] = {
 		cannon = 41,
 		reload = 150,
@@ -923,49 +987,6 @@ pg.enemy_data_statistics_323 = {
 			1003142,
 			1003147,
 			1003152
-		}
-	},
-	[16401104] = {
-		cannon = 31,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 2592,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		battle_unit_type = 65,
-		dodge = 3,
-		base = 90468,
-		durability_growth = 59840,
-		antiaircraft = 45,
-		reload_growth = 0,
-		dodge_growth = 48,
-		speed = 18,
-		luck = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 3744,
-		torpedo = 0,
-		durability = 1360,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16401104,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1003157,
-			1003162,
-			1003167,
-			1003172
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 2
-			}
 		}
 	}
 }

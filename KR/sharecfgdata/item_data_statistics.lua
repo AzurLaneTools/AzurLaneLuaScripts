@@ -10577,6 +10577,29 @@ _G.pg.base.item_data_statistics[21024] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21025] = {
+	display = "진츠·META 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정:진츠·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21025",
+	id = 21025,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -10915,6 +10938,29 @@ _G.pg.base.item_data_statistics[21911] = {
 	is_world = 0,
 	icon = "Props/21911",
 	id = 21911,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21912] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 진츠·META 동기화율 상승 가능.",
+	name = "동기화 수치: 진츠·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21912",
+	id = 21912,
 	display_icon = {},
 	price = {},
 	index = {},

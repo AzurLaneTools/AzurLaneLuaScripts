@@ -42,7 +42,9 @@ function slot0.onBlueprintNotify()
 
 	if not slot0:getBuildingBluePrint() then
 		return _.any(_.values(slot1), function (slot0)
-			return slot0:getState() == ShipBluePrint.STATE_LOCK and slot0:isFinishPrevTask()
+			slot2, slot3 = slot0:isFinishPrevTask()
+
+			return slot0:getState() == ShipBluePrint.STATE_LOCK and slot2
 		end)
 	else
 		if slot2:getState() == ShipBluePrint.STATE_DEV_FINISHED then

@@ -1,5 +1,185 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[295137] = {
+		cannon = 155,
+		name = "퀸 엘리자베스·META(Tier.2)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 28,
+		base = 90748,
+		durability_growth = 0,
+		antiaircraft = 141,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 58000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295137,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
+	[295138] = {
+		cannon = 174,
+		name = "퀸 엘리자베스·META(Tier.3)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 32,
+		base = 90748,
+		durability_growth = 0,
+		antiaircraft = 159,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 63000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295138,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
+	[295139] = {
+		cannon = 193,
+		name = "퀸 엘리자베스·META(Tier.4)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 35,
+		base = 90748,
+		durability_growth = 0,
+		antiaircraft = 177,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 76000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295139,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
+	[295140] = {
+		cannon = 213,
+		name = "퀸 엘리자베스·META(Tier.5)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 39,
+		base = 90748,
+		durability_growth = 0,
+		antiaircraft = 194,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 120000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295140,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
 	[295141] = {
 		cannon = 232,
 		name = "퀸 엘리자베스·META(Tier.6)",
@@ -452,7 +632,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295151] = {
 		cannon = 112,
-		name = "알제리·META-Tier.1",
+		name = "알제리·META(Tier.1)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -497,7 +677,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295152] = {
 		cannon = 128,
-		name = "알제리·META-Tier.2",
+		name = "알제리·META(Tier.2)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -542,7 +722,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295153] = {
 		cannon = 144,
-		name = "알제리·META-Tier.3",
+		name = "알제리·META(Tier.3)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -587,7 +767,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295154] = {
 		cannon = 160,
-		name = "알제리·META-Tier.4",
+		name = "알제리·META(Tier.4)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -632,7 +812,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295155] = {
 		cannon = 176,
-		name = "알제리·META-Tier.5",
+		name = "알제리·META(Tier.5)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -677,7 +857,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295156] = {
 		cannon = 192,
-		name = "알제리·META-Tier.6",
+		name = "알제리·META(Tier.6)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -722,7 +902,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295157] = {
 		cannon = 208,
-		name = "알제리·META-Tier.7",
+		name = "알제리·META(Tier.7)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -767,7 +947,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295158] = {
 		cannon = 224,
-		name = "알제리·META-Tier.8",
+		name = "알제리·META(Tier.8)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -812,7 +992,7 @@ pg.enemy_data_statistics_396 = {
 	},
 	[295159] = {
 		cannon = 240,
-		name = "알제리·META-Tier.9",
+		name = "알제리·META(Tier.9)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -852,186 +1032,6 @@ pg.enemy_data_statistics_396 = {
 			{
 				ID = 200466,
 				LV = 3
-			}
-		}
-	},
-	[295160] = {
-		cannon = 256,
-		name = "알제리·META-Tier.10",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 57,
-		base = 90765,
-		durability_growth = 0,
-		antiaircraft = 240,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 50,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 192,
-		durability = 486000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295160,
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 5
-			},
-			{
-				ID = 200463,
-				LV = 10
-			},
-			{
-				ID = 200466,
-				LV = 4
-			}
-		}
-	},
-	[295161] = {
-		cannon = 272,
-		name = "알제리·META-Tier.11",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 60,
-		base = 90765,
-		durability_growth = 0,
-		antiaircraft = 255,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 50,
-		hit = 85,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 204,
-		durability = 608000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295161,
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 6
-			},
-			{
-				ID = 200463,
-				LV = 11
-			},
-			{
-				ID = 200466,
-				LV = 4
-			}
-		}
-	},
-	[295162] = {
-		cannon = 288,
-		name = "알제리·META-Tier.12",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 64,
-		base = 90765,
-		durability_growth = 0,
-		antiaircraft = 270,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 50,
-		hit = 90,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 216,
-		durability = 790000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295162,
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 6
-			},
-			{
-				ID = 200463,
-				LV = 12
-			},
-			{
-				ID = 200466,
-				LV = 4
-			}
-		}
-	},
-	[295163] = {
-		cannon = 304,
-		name = "알제리·META-Tier.13",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 67,
-		base = 90765,
-		durability_growth = 0,
-		antiaircraft = 285,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 50,
-		hit = 95,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 228,
-		durability = 1013000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295163,
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 7
-			},
-			{
-				ID = 200463,
-				LV = 13
-			},
-			{
-				ID = 200466,
-				LV = 5
 			}
 		}
 	}

@@ -7,49 +7,48 @@ SCENE = {
 	ROGUE_FINAL_REWARD = "ROGUE_FINAL_REWARD",
 	SPRING_TOWN = "springfestival town",
 	COMBATLOAD = "scene combat load",
-	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	DAILYLEVEL = "scene dailylevel",
+	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	SKINATALAS = "scene skinatals",
-	AMUSEMENT_PARK = "amusement park",
+	NEWGUILD = "scene newguild",
 	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	PLAYER_INFO = "scene player info",
 	SETTINGS = "scene settings",
-	EVENT = "scene event",
 	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
+	COLLECTSHIP = "scene collect ship",
 	CRUSING = "crusing",
 	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	GUILD = "scene guild",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	PUBLIC_GUILD = "public guild",
 	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	NEWGUILD = "scene newguild",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
 	TRANSITION = "scene transition",
 	MUSIC_FESTIVAL = "music festival",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
-	WORLD_FORMATION = "scene world formation",
 	SINGLE_ACTIVITY = "single activity",
-	SHIP_PROFILE = "ship profile",
 	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
+	SHIP_PROFILE = "ship profile",
 	ACT_BOSS_SPF = "act boss spf",
+	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	TECHNOLOGY = "technology",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
-	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	RYZA_TASK = "ryza task scene",
 	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	RANDOM_DOCKYARD = "random dockyard",
-	COLLECTSHIP = "scene collect ship",
-	REFLUX = "reflux",
 	SUMMARY = "summary",
+	EVENT = "scene event",
+	REFLUX = "reflux",
 	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
+	NAVALTACTICS = "naval tactics",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
-	NAVALTACTICS = "naval tactics",
-	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
+	SCULPTURE = "sculpture",
 	CREATE_PLAYER = "scene create player",
 	RESOLVESHIPS = "scene resolve ships",
 	WORLD = "scene world",
@@ -122,11 +121,11 @@ SCENE = {
 	SSSS_ACADEMY = "SSSS ACADEMY",
 	BIANDUI = "scene biandui",
 	COLORING = "scene coloring",
-	PUBLIC_GUILD = "public guild",
+	AMUSEMENT_PARK = "amusement park",
 	ACT_BOSS_BATTLE = "act boss battle",
 	NEW_SERVER_CARNIVAL = "new server carnival",
 	CARD_PAIRS = "card pairs",
-	SCULPTURE = "sculpture",
+	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
@@ -192,10 +191,6 @@ slot0 = {
 	[SCENE.WORLD] = function (slot0, slot1)
 		slot0.mediator = WorldMediator
 		slot0.viewComponent = WorldScene
-	end,
-	[SCENE.WORLD_FORMATION] = function (slot0, slot1)
-		slot0.mediator = WorldFormationMediator
-		slot0.viewComponent = WorldFormationUI
 	end,
 	[SCENE.WORLD_FLEET_SELECT] = function (slot0, slot1)
 		slot0.mediator = WorldFleetSelectMediator
@@ -764,8 +759,7 @@ slot1 = {
 						if slot0.result == 0 then
 							if slot0.time == 0 then
 								uv0:TransDefaultFleets()
-								uv1:BuildWorld(World.TypeReset)
-								uv1:NetUpdateWorldMapPressing({})
+								uv1:BuildWorld(World.TypeFull, true)
 								nowWorld():CheckResetAward(PlayerConst.addTranDrop(slot0.drop_list))
 								pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
 							else

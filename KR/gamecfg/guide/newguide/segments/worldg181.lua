@@ -78,7 +78,7 @@ return {
 					}
 				},
 				clickUI = {
-					path = "OverlayCamera/Overlay/UIMain/item_usage_panel/window/panel/actions/use_one_button"
+					path = "OverlayCamera/Overlay/UIMain/item_usage_panel/window/actions/use_one_button"
 				}
 			}
 		}

@@ -140,9 +140,10 @@ function slot0.CheckRes(slot0, slot1, slot2)
 		return false
 	end
 
-	slot3, slot4 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-
-	if slot4 < slot1:getConfig("resource_num") * slot2 then
+	if GetOwnedDropCount({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}) < slot1:getConfig("resource_num") * slot2 then
 		slot0:ShowMsgbox({
 			useGO = true,
 			content = i18n("amusementpark_shop_exchange"),
@@ -274,10 +275,12 @@ function slot0.GetActivityShopTip()
 
 	for slot6, slot7 in ipairs(pg.activity_shop_template.all) do
 		if slot1.id == slot2[slot7].activity then
-			slot12, slot13 = getPlayerOwn(slot10.resource_category, slot10.resource_type)
-			slot14 = slot10.resource_num <= slot13
+			slot12 = slot10.resource_num <= GetOwnedDropCount({
+				type = slot10.resource_category,
+				id = slot10.resource_type
+			})
 
-			if (slot2[slot7].num_limit == 0 or (table.indexof(slot1.data1_list, slot7) and slot1.data2_list[slot8] or 0) < slot10.num_limit) and slot14 then
+			if (slot2[slot7].num_limit == 0 or (table.indexof(slot1.data1_list, slot7) and slot1.data2_list[slot8] or 0) < slot10.num_limit) and slot12 then
 				return true
 			end
 		end

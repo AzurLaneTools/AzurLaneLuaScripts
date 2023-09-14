@@ -298,6 +298,17 @@ function slot2.ButtonInitialAnima(slot0)
 	end
 end
 
+function slot2.CardPuzzleButton(slot0)
+	slot0._chargeBtn:SetActive(false)
+	slot0._torpedoBtn:SetActive(false)
+	slot0._airStrikeBtn:SetActive(false)
+	slot0._boostBtn:SetActive(false)
+	slot0._diveBtn:SetActive(false)
+	slot0._floatBtn:SetActive(false)
+	slot0._specialBtn:SetActive(false)
+	slot0._shiftBtn:SetActive(false)
+end
+
 function slot2.HideSkillButton(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._activeBtnList) do
 		slot6:SetActive(not slot1)

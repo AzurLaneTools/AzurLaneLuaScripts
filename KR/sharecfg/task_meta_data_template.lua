@@ -187,6 +187,11 @@ pg.task_meta_data_template = setmetatable({
 		100103,
 		100104,
 		100105,
+		100111,
+		100112,
+		100113,
+		100114,
+		100115,
 		200001,
 		200002,
 		200003,
@@ -226,7 +231,11 @@ pg.task_meta_data_template = setmetatable({
 		200101,
 		200102,
 		200103,
-		200104
+		200104,
+		200111,
+		200112,
+		200113,
+		200114
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1711,6 +1720,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100111] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "진츠·META를 사용해 승리 1회",
+		id = 100111,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100112] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "진츠·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100112,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100113] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "진츠·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100113,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100114] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "진츠·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100114,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100115] = {
+		target_id_2 = "970205",
+		sub_type = 180,
+		desc = "진츠·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100115,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2028,6 +2077,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형작전에서 하타카제·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200104,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200111] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "대형작전에서 진츠·META를 사용해 1회 승리",
+		id = 200111,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200112] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "대형작전에서 진츠·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200112,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200113] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "대형작전에서 진츠·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200113,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200114] = {
+		target_id_2 = "970205",
+		sub_type = 302,
+		desc = "대형작전에서 진츠·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200114,
 		target_num = 1,
 		target_id = "100"
 	}

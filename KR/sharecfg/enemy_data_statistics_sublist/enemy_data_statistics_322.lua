@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_322 = {
+	[16306002] = {
+		cannon = 750,
+		name = "고대 유적 수호자 POWERMAX형",
+		hit_growth = 210,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 25,
+		dodge = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		fog_fx = "",
+		reload_growth = 0,
+		dodge_growth = 198,
+		luck = 0,
+		reload = 150,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 500,
+		base = 90717,
+		durability = 700000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 600,
+		id = 16306002,
+		battle_unit_type = 95,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16306003] = {
 		cannon = 750,
 		type = 1,
@@ -1031,70 +1077,6 @@ pg.enemy_data_statistics_322 = {
 		buff_list = {
 			{
 				ID = 200236,
-				LV = 1
-			}
-		}
-	},
-	[16400302] = {
-		cannon = 150,
-		name = "OFS.미사일 전함-훈련 특화형",
-		hit_growth = 210,
-		speed_growth = 0,
-		fog_fx = "",
-		air = 0,
-		speed = 20,
-		dodge = 11,
-		antisub = 0,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 0,
-		torpedo = 30,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 0,
-		base = 90723,
-		durability = 8900,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antiaircraft = 115,
-		battle_unit_type = 95,
-		id = 16400302,
-		scale = 320,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			3040101,
-			3040102,
-			3040103,
-			3040104,
-			3040105,
-			3040106,
-			3040107,
-			3040108
-		},
-		buff_list = {
-			{
-				ID = 200236,
-				LV = 1
-			},
-			{
-				ID = 50500,
 				LV = 1
 			}
 		}

@@ -4053,6 +4053,14 @@ _G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "$1 후 함대 수리 가능"
 }
 
+_G.pg.base.gametip.world_instruction_port_goods_locked = {
+	tip = "구역 확보 진척"
+}
+
+_G.pg.base.gametip.world_port_inbattle = {
+	tip = "함대가 작전 행동 중이므로 기항할 수 없습니다."
+}
+
 _G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "초기화 후 아이템이 전환됩니다."
 }
@@ -4197,8 +4205,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.6.29 ~ 2023.9.14</color>
-META전 알제리·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
+<color=#92fc63>2023.9.14 ~ 2023.12.7</color>
+META전 진츠·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -5104,6 +5112,10 @@ _G.pg.base.gametip.word_shipNation_ryza = {
 	tip = "Atelier Ryza"
 }
 
+_G.pg.base.gametip.word_shipNation_meta_index = {
+	tip = "META"
+}
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -5856,163 +5868,27 @@ _G.pg.base.gametip.help_shipinfo_fashion = {
 _G.pg.base.gametip.help_shipinfo_attr = {
 	tip = {
 		{
-			info = "1.스텟에 관하여 : "
+			info = "1. 강화 표시:"
 		},
 		{
-			info = " <color=#92fc63FF>     장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
+			info = " <color=#92fc63FF>장비</color>: 장착하고 있는 장비의 능력치 강화 표시"
 		},
 		{
-			info = " <color=#FFDE00FF>     기술</color>：함대 기술로 인한 속성이 상승합니다."
+			info = " <color=#FFDE00FF>기술</color>: 함대 기술에 의한 능력치 강화 표시"
 		},
 		{
-			info = "2.속성설명："
-		},
-		{
-			info = "      내구 : 함선소녀의 최대 HP 수치",
-			icon = {
-				path = "durability",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      포격 : 함포의 대미지가 상승합니다.",
-			icon = {
-				path = "cannon",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      대공 : 대공화기의 대미지가 상승합니다.",
-			icon = {
-				path = "antiaircraft",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는\n피해가 감소하고,소구경 포로부터 받는 피해를 무효화 할\n수도 있습니다.(피해 경감률 : 중장갑>중형장갑>경장갑)",
-			icon = {
-				path = "armor",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      뇌장 : 어뢰의 대미지가 상승합니다.",
-			icon = {
-				path = "torpedo",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      항공 : 함재기의 대미지가 상승합니다.",
-			icon = {
-				path = "air",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다.",
-			icon = {
-				path = "reload",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      기동 : 적의 탄막을 회피할 확률이 상승합니다.",
-			icon = {
-				path = "dodge",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      소모 : 매 전투에서 소비하는 연료",
-			icon = {
-				path = "expend",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가\n상승하며, 편대의 대잠 탐지 범위에 영향을 줍니다.",
-			icon = {
-				path = "antisub",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어,\n잠항력이 0이 되면 수면 위로 떠오르게 됩니다.",
-			icon = {
-				path = "oxy_max",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을\n소모하게 됩니다.",
-			icon = {
-				path = "ammo",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      지원 범위 : 잠수함대의 지원 범위 내에서 전투 중,\n잠수함대의 탄약을 소모하여 잠수함 지원이 가능.\n잠수함대는 자동으로 지원 범위 내의 적을 공격합니다.",
-			icon = {
-				path = "hunt_range",
-				atlas = "attricon",
-				posY = -2,
-				scale = 0.66,
-				posX = 0
-			}
-		},
-		{
-			info = "      행운：함선소녀의 기존 밈으로 인한 속성이 전투에\n미세하게 영향을 줍니다.",
-			icon = {
-				path = "luck",
-				atlas = "attricon",
-				posY = -2,
-				scale = 1.1,
-				posX = 0
-			}
+			info = "2. 성능에 대해:"
 		},
 		{
 			info = [[
- 3.컨디션 : 
-      컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.
-      컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고,
- 획득하는 경험치가 절반으로 감소합니다.]]
+ 내구: 함선의 HP 최대치',icon = {atlas = 'attricon',path = 'durability',posX=0,posY=-6,scale =0.6}},{info=' 포격: 함포 위력 상승',icon = {atlas = 'attricon',path = 'cannon',posX=0,posY=-6,scale =0.6}},{info=' 대공: 대공화기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'antiaircraft',posX=0,posY=-6,scale =0.6}},{info=' 장갑 타입: 장갑이 두꺼우면 대구경포의 피해량 경감
+ 또한, 소구경포에 의한 피해량을 무효화할 수 있음(피해 경감률: 중장갑>중형장갑>경장갑)',icon = {atlas = 'attricon',path = 'armor',posX=0,posY=-6,scale =0.6}},{info=' 뇌장: 어뢰가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'torpedo',posX=0,posY=-6,scale =0.6}},{info=' 항공: 함재기가 가하는 피해량 상승',icon = {atlas = 'attricon',path = 'air',posX=0,posY=-6,scale =0.6}},{info=' 장전: 무기·스킬의 재발동 시간 단축',icon = {atlas = 'attricon',path = 'reload',posX=0,posY=-6,scale =0.6}},{info=' 기동: 적탄 회피 확률 상승',icon = {atlas = 'attricon',path = 'dodge',posX=0,posY=-6,scale =0.6}},{info=' 명중: 공격 명중률 및 크리티컬율 상승',icon = {atlas = 'attricon',path = 'hit',posX=0,posY=0,scale =0.3}},{info=' 항속: 전투 중 함대 이동 속도에 영향을 줌
+ 일부 스테이지에서 아군의 턴별 최대 이동 거리에 영향을 줌
+ ',icon = {atlas = 'attricon',path = 'attr_speed',posX=0,posY=0,scale =0.6}},{info=' 소비: 전투 1회당 소비하는 연료',icon = {atlas = 'attricon',path = 'expend',posX=0,posY=-6,scale =0.6}},{info=' 대잠: 대잠 장비 피해량 상승. 대잠 탐지 범위에 영향을 줌. ',icon = {atlas = 'attricon',path = 'antisub',posX=0,posY=-6,scale =0.6}},{info=' 잠항력: 최대 잠항 시간. 잠항 상태에서 계속 소모되며, 0이 되면 부상 상태가 됨',icon = {atlas = 'attricon',path = 'oxy_max',posX=0,posY=-6,scale =0.6}},{info=' 탄약량: 전투 중 잠수함 지원 및 해역 지도에서의 적 함대 점감 시 탄약 소모',icon = {atlas = 'attricon',path = 'ammo',posX=0,posY=-6,scale =0.6}},{info=' 지원 범위: 잠수함대의 지원 범위 내에서 전투 중,
+ 잠수함대의 탄약을 소모하여 잠수함 지원을 실시할 수 있음；
+ 잠수함대는 자동으로 지원 범위 내의 적을 향해 이동하여
+점감 작전을 실시함',icon = {atlas = 'attricon',path = 'hunt_range',posX=0,posY=-6,scale =0.6}},{info=' 행운: 함선의 함력·용골에 영향을 주는 능력치. 전투 중 많은 요소에 미미한 영향을 줌.',icon = {atlas = 'attricon',path = 'luck',posX=0,posY=-6,scale =1.0}},{info='3. 컨디션:
+ 컨디션이 낮은 상태로 출격시키면, 호감도가 낮아져 받을 수 있는 경험치가 절반이 됨]]
 		}
 	}
 }
@@ -8681,6 +8557,46 @@ _G.pg.base.gametip.card_pairs_tips = {
 	tip = "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까?"
 }
 
+_G.pg.base.gametip["card_battle_card details_deck"] = {
+	tip = "커맨드 덱"
+}
+
+_G.pg.base.gametip["card_battle_card details_hand"] = {
+	tip = "선택 중인 커맨드"
+}
+
+_G.pg.base.gametip["card_battle_card details"] = {
+	tip = "커맨드 상세 정보"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_deck"] = {
+	tip = "덱 확인"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_hand"] = {
+	tip = "커맨드 확인"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_en = {
+	tip = "- LIST IS EMPTY -"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_ch = {
+	tip = "덱에 커맨드 카드가 없습니다."
+}
+
+_G.pg.base.gametip.card_puzzel_goal_ch = {
+	tip = "스테이지 목표"
+}
+
+_G.pg.base.gametip.card_puzzel_goal_en = {
+	tip = "TARGET"
+}
+
+_G.pg.base.gametip.card_puzzle_deck = {
+	tip = "덱"
+}
+
 _G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "이미 최고레벨에 도달하여,\n인식 각성을 진행할 수 없습니다."
 }
@@ -9432,7 +9348,7 @@ _G.pg.base.gametip.reflux_word_2 = {
 }
 
 _G.pg.base.gametip.ship_hunting_level_tips = {
-	tip = "*해당 지원 범위 레벨은 한계 돌파 및 장비를 통해 추가된 레벨만 포함합니다."
+	tip = "※ 한계돌파 및 장비 효과, 지휘냥에 의한 지원 범위 Lv 상승만 반영됨(최대 Lv5)"
 }
 
 _G.pg.base.gametip.acquisitionmode_is_not_open = {
@@ -9787,15 +9703,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "하우、밸리언트 건조 추가!"
+	tip = "프린츠 하인리히 상시 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "\"에스키모\" 상시 추가!"
+	tip = "뉘른베르크 상시 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "퍼시어스、이글 건조 추가!"
+	tip = "페터 슈트라서, U-37 상시 건조 추가!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -18859,6 +18775,10 @@ _G.pg.base.gametip.attr_consume = {
 	tip = "소모"
 }
 
+_G.pg.base.gametip.attr_speed = {
+	tip = "항속"
+}
+
 _G.pg.base.gametip.monthly_card_tip = {
 	tip = "30일간 매일 획득 자원"
 }
@@ -24432,4 +24352,12 @@ _G.pg.base.gametip.feast_drag_invitation_tip = {
 
 _G.pg.base.gametip.feast_drag_gift_tip = {
 	tip = "*연회 선물을 캐릭터한테 드래그하여 증정하기"
+}
+
+_G.pg.base.gametip.shoot_preview = {
+	tip = "발사 연출"
+}
+
+_G.pg.base.gametip.hit_preview = {
+	tip = "명중 연출"
 }

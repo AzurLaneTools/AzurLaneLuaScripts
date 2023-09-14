@@ -85,7 +85,7 @@ pg.item_data_chat = {
 		name = "한계 챌린지·쌍둥이 자리",
 		id = 10001,
 		time_second = 0,
-		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n<color=#A7A7AAFF>\"한계 챌린지\"에서 획득 가능(23.09.01 ~ 23.09.30)</color>",
+		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n<color=#A7A7AAFF>'한계 챌린지'에서 획득 가능(23.09.01 ~ 23.09.30).</color>",
 		scene = {}
 	},
 	[10002] = {
@@ -93,7 +93,7 @@ pg.item_data_chat = {
 		name = "한계 챌린지·게자리",
 		id = 10002,
 		time_second = 0,
-		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n<color=#A7A7AAFF>\"한계 챌린지\"에서 획득 가능(23.09.01 ~ 23.09.30)</color>",
+		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n<color=#A7A7AAFF>'한계 챌린지'에서 획득 가능(23.09.01 ~ 23.09.30).</color>",
 		scene = {}
 	},
 	[10003] = {
@@ -101,7 +101,7 @@ pg.item_data_chat = {
 		name = "한계 챌린지·사자자리",
 		id = 10003,
 		time_second = 0,
-		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n<color=#A7A7AAFF>\"한계 챌린지\"에서 획득 가능(23.09.01 ~ 23.09.30)</color>",
+		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n<color=#A7A7AAFF>'한계 챌린지'에서 획득 가능(23.09.01 ~ 23.09.30).</color>",
 		scene = {}
 	},
 	all = {

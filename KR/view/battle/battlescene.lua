@@ -125,7 +125,7 @@ function slot0.EnableSkillFloat(slot0, slot1)
 
 	if slot0._skillFloat then
 		for slot5, slot6 in ipairs(slot0._cacheSkill) do
-			slot0:appendSkill(slot6.skillName, slot6.caster, slot6.commander, slot6.hrzIcon)
+			slot0:SkillHrzPop(slot6.skillName, slot6.caster, slot6.commander, slot6.hrzIcon)
 		end
 
 		slot0._cacheSkill = {}
@@ -140,7 +140,7 @@ function slot0.EnableSkillFloat(slot0, slot1)
 	SetActive(slot0.skillTips, slot1)
 end
 
-function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
+function slot0.SkillHrzPop(slot0, slot1, slot2, slot3, slot4)
 	if not slot0._skillFloat then
 		table.insert(slot0._cacheSkill, {
 			skillName = slot1,
@@ -241,8 +241,8 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.appendSkillCover(slot0, slot1, slot2, slot3)
-	slot0:appendSkill(slot1, slot2, nil, slot3)
+function slot0.SkillHrzPopCover(slot0, slot1, slot2, slot3)
+	slot0:SkillHrzPop(slot1, slot2, nil, slot3)
 end
 
 function slot0.handleSkillFloatCld(slot0, slot1)
@@ -280,29 +280,30 @@ function slot0.commanderSkillFloat(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.painting(slot0, slot1, slot2, slot3)
+function slot0.CutInPainting(slot0, slot1, slot2, slot3, slot4)
 	if slot0._currentPainting then
 		slot0._paintingAnimator.enabled = false
 
 		setActive(slot0._currentPainting, false)
 	end
 
-	if slot0._skillPaintings[slot1.id] == nil then
-		slot4 = nil
-		slot5 = ys.Battle.BattleResourceManager:GetInstance():InstPainting((HXSet.isHx() or slot1.painting) and (slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting) or slot1.prefab)
-		slot0._skillPaintings[slot1.id] = slot5
+	slot5 = nil
 
-		setParent(slot5, slot0._paintingFitter, false)
+	if slot0._skillPaintings[(not HXSet.isHx() or slot1.painting_hx == "" or slot1.painting_hx) and (slot4 or slot1.painting or slot1.prefab)] == nil then
+		slot6 = ys.Battle.BattleResourceManager:GetInstance():InstPainting(slot5)
+		slot0._skillPaintings[slot5] = slot6
+
+		setParent(slot6, slot0._paintingFitter, false)
 	end
 
-	slot0._currentPainting = slot0._skillPaintings[slot1.id]
+	slot0._currentPainting = slot0._skillPaintings[slot5]
 
 	setActive(slot0._currentPainting, true)
 	LuaHelper.SetParticleSpeed(slot0._paintingUI, slot2)
 
-	slot4 = Vector3(slot3, 1, 1)
-	slot0._paintingUI.transform.localScale = slot4
-	slot0._paintingParticleContainer.transform.localScale = slot4
+	slot6 = Vector3(slot3, 1, 1)
+	slot0._paintingUI.transform.localScale = slot6
+	slot0._paintingParticleContainer.transform.localScale = slot6
 	slot0._paintingParticles.transform.localEulerAngles = Vector3(0, 90 * slot3, 0)
 
 	slot0._paintingParticleSystem:Play(true)
@@ -342,6 +343,19 @@ function slot0.didEnter(slot0)
 		uv0:ActiveBot(ys.Battle.BattleState.IsAutoBotActive(slot1))
 		setActive(uv2, uv0:ChatUseable())
 	end, SFX_PANEL, SFX_PANEL)
+	onButton(slot0, slot0:findTF("CardPuzzleConsole/relic/bg"), function ()
+		uv1:emit(BattleMediator.ON_PUZZLE_RELIC, {
+			relicList = uv0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent():GetRelicList()
+		})
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0:findTF("CardPuzzleConsole/deck/bg"), function ()
+		slot2 = uv0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent()
+
+		uv1:emit(BattleMediator.ON_PUZZLE_CARD, {
+			card = slot2:GetDeck():GetCardList(),
+			hand = slot2:GetHand():GetCardList()
+		})
+	end, SFX_CONFIRM)
 	slot1:ConfigBattleEndFunc(function (slot0)
 		uv0:clear()
 		uv0:emit(BattleMediator.ON_BATTLE_RESULT, slot0)
@@ -504,7 +518,9 @@ function slot0.initPauseWindow(slot0)
 		setText(slot3, "BOSS")
 		setText(slot4, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
 	elseif slot5 ~= SYSTEM_TEST and slot5 ~= SYSTEM_SUB_ROUTINE and slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_PROLOGUE and slot5 ~= SYSTEM_DODGEM and slot5 ~= SYSTEM_SIMULATION and slot5 ~= SYSTEM_SUBMARINE_RUN and slot5 ~= SYSTEM_BOSS_EXPERIMENT and slot5 ~= SYSTEM_REWARD_PERFORM then
-		if slot5 ~= SYSTEM_AIRFIGHT then
+		if slot5 == SYSTEM_AIRFIGHT then
+			-- Nothing
+		elseif slot5 ~= SYSTEM_CARDPUZZLE then
 			assert(false, "System not defined " .. (slot5 or "NIL"))
 		end
 	end
