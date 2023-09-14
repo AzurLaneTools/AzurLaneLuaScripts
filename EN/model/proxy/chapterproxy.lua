@@ -166,6 +166,7 @@ function slot0.register(slot0)
 	slot0.escortChallengeTimes = 0
 	slot0.chaptersExtend = {}
 	slot0.chapterStoryGroups = {}
+	slot0.continuousData = {}
 
 	slot0:buildMaps()
 	slot0:buildRemasterInfo()
@@ -837,7 +838,11 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 end
 
 function slot0.isClear(slot0, slot1)
-	return slot0:GetChapterItemById(slot1):isClear()
+	if not slot0:GetChapterItemById(slot1) then
+		return false
+	end
+
+	return slot2:isClear()
 end
 
 function slot0.getEscortShop(slot0)
@@ -1030,7 +1035,7 @@ function slot0.GetChapterAutoFlag(slot0, slot1)
 	return slot0:GetExtendChapterData(slot1, "AutoFightFlag")
 end
 
-function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
+function slot0.SetChapterAutoFlag(slot0, slot1, slot2, slot3)
 	if tobool(slot2) == (slot0:GetChapterAutoFlag(slot1) == 1) then
 		return
 	end
@@ -1057,6 +1062,7 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
 			end
 		end
 	else
+		slot0:StopContinuousOperation(SYSTEM_SCENARIO, slot3)
 		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
 
 		if not LOCK_BATTERY_SAVEMODE then
@@ -1068,12 +1074,27 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2)
 	slot0.facade:sendNotification(uv0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED, slot2 and 1 or 0)
 end
 
-function slot0.StopAutoFight(slot0)
+function slot0.StopAutoFight(slot0, slot1)
 	if not slot0:getActiveChapter(true) then
 		return
 	end
 
-	slot0:SetChapterAutoFlag(slot1.id, false)
+	slot0:SetChapterAutoFlag(slot2.id, false, slot1)
+end
+
+function slot0.FinishAutoFight(slot0, slot1)
+	if slot0:GetChapterAutoFlag(slot1) == 1 then
+		pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
+
+		if not LOCK_BATTERY_SAVEMODE then
+			pg.BrightnessMgr.GetInstance():ExitManualMode()
+			getProxy(SettingsProxy):RestoreFrameRate()
+		end
+	end
+
+	slot0:RemoveExtendChapter(slot1)
+
+	return slot0:GetExtendChapter(slot1)
 end
 
 function slot0.buildRemasterInfo(slot0)
@@ -1173,6 +1194,36 @@ function slot0.WriteBackOnExitBattleResult(slot0)
 			slot0:updateChapter(slot1)
 		end
 	end
+end
+
+function slot0.GetContinuousData(slot0, slot1)
+	return slot0.continuousData[slot1]
+end
+
+function slot0.InitContinuousTime(slot0, slot1, slot2)
+	slot0.continuousData[slot1] = ContinuousOperationRuntimeData.New({
+		system = slot1,
+		totalBattleTime = slot2,
+		battleTime = slot2
+	})
+end
+
+function slot0.StopContinuousOperation(slot0, slot1, slot2)
+	if not slot0:GetContinuousData(slot1) or not slot3:IsActive() then
+		return
+	end
+
+	if slot2 == ChapterConst.AUTOFIGHT_STOP_REASON.MANUAL and slot1 == SYSTEM_SCENARIO then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("multiple_sorties_stop"))
+	end
+
+	slot3:Stop(slot2)
+end
+
+function slot0.PopContinuousData(slot0, slot1)
+	slot0.continuousData[slot1] = nil
+
+	return slot0.continuousData[slot1]
 end
 
 return slot0

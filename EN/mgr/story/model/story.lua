@@ -27,7 +27,7 @@ function slot0.GetStoryStepCls(slot0)
 	})[slot0]
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
@@ -44,16 +44,32 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.steps = {}
-	slot4 = 0
-	slot5 = slot3 or {}
+	slot5 = 0
+	slot6 = slot3 or {}
+	slot7 = {}
 
-	for slot9, slot10 in ipairs(slot1.scripts) do
-		if uv0.GetStoryStepCls(slot10.mode or slot0.mode).New(slot10):ExistOption() and slot5[slot4 + 1] then
-			slot13:SetOptionSelCodes(slot5[slot4])
+	for slot11, slot12 in ipairs(slot1.scripts) do
+		slot15 = uv0.GetStoryStepCls(slot12.mode or slot0.mode).New(slot12)
+
+		slot15:SetId(slot11)
+
+		if slot15:ExistOption() then
+			if slot6[slot5 + 1] then
+				slot15:SetOptionSelCodes(slot6[slot5])
+			end
+
+			if slot4 then
+				slot15.important = true
+			end
+
+			table.insert(slot7, slot11)
 		end
 
-		table.insert(slot0.steps, slot13)
+		table.insert(slot0.steps, slot15)
 	end
+
+	table.insert(slot7, #slot0.steps)
+	slot0:HandleRecallOptions(slot7)
 
 	slot0.branchCode = nil
 	slot0.force = slot2
@@ -70,12 +86,73 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.speed = 0
 end
 
+function slot0.HandleRecallOptions(slot0, slot1)
+	function slot2(slot0, slot1)
+		slot2 = uv0.steps[slot0]
+		slot3 = {}
+
+		for slot7 = slot0, slot1 do
+			table.insert(slot3, uv0.steps[slot7])
+		end
+
+		return {
+			slot3,
+			slot2:GetOptionCnt(),
+			slot1,
+			slot0
+		}
+	end
+
+	function slot3(slot0)
+		for slot4 = slot0, 1, -1 do
+			if uv0.steps[slot4] and slot5.branchCode ~= nil then
+				return slot4
+			end
+		end
+
+		assert(false)
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot1) do
+		if slot0.steps[slot9]:IsRecallOption() then
+			slot12 = slot1[slot8 + 1]
+
+			if slot9 and slot12 then
+				table.insert(slot4, slot2(slot11, slot3(slot12)))
+			end
+		end
+	end
+
+	slot5 = 0
+
+	for slot9, slot10 in ipairs(slot4) do
+		slot11 = slot10[1]
+		slot13 = slot10[3]
+		slot14 = slot10[4]
+
+		for slot18 = 1, slot10[2] - 1 do
+			slot19 = slot13 + slot5
+
+			for slot23, slot24 in ipairs(slot11) do
+				slot25 = Clone(slot24)
+
+				slot25:SetId(slot14)
+				table.insert(slot0.steps, slot19 + slot23, slot25)
+			end
+		end
+
+		slot5 = slot5 + (slot12 - 1) * #slot11
+	end
+end
+
 function slot0.GetDialogueStyleName(slot0)
 	return slot0.dialogueBox
 end
 
 function slot0.GetTriggerDelayTime(slot0)
-	if table.indexof(uv0.STORY_AUTO_SPEED, slot0.speedData) then
+	if table.indexof(uv0.STORY_AUTO_SPEED, slot0.speed) then
 		return uv0.TRIGGER_DELAY_TIME[slot1] or 0
 	end
 
@@ -86,6 +163,14 @@ function slot0.SetAutoPlay(slot0)
 	slot0.isAuto = true
 
 	slot0:SetPlaySpeed(slot0.speedData)
+end
+
+function slot0.UpdatePlaySpeed(slot0)
+	slot0:SetPlaySpeed(getProxy(SettingsProxy):GetStorySpeed() or 0)
+end
+
+function slot0.GetPlaySpeed(slot0)
+	return slot0.speed
 end
 
 function slot0.StopAutoPlay(slot0)

@@ -15,7 +15,7 @@ function slot0.UpdatePlayer(slot0)
 		uv0.playerExpBar.fillAmount = uv1.score / uv2
 	end
 
-	if slot0.isInit then
+	if not slot0.contextData.autoSkipFlag then
 		slot0.duelAniamtion = NewBattleResultDuelAniamtion.New(slot0.playerExp, slot0.playerExpBar, slot5, slot0.contextData.oldRank, slot2)
 
 		slot0.duelAniamtion:SetUp(slot6)

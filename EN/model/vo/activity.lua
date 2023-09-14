@@ -316,7 +316,7 @@ function slot0.readyToAchieve(slot0)
 			slot4 = false
 
 			if slot0:getConfig("config_client").fireworkActID and slot5 ~= 0 then
-				slot4 = getProxy(ActivityProxy):getActivityById(slot5) and slot6:readyToAchieve()
+				slot4 = getProxy(ActivityProxy):getActivityById(slot5) and slot6:readyToAchieve() or false
 			end
 
 			return slot2 and slot3 or slot4
@@ -422,7 +422,7 @@ function slot0.readyToAchieve(slot0)
 			for slot5, slot6 in ipairs(slot0:GetBuildingIds()) do
 				slot7 = slot0:GetBuildingLevel(slot6)
 
-				if pg.activity_event_building[slot6] and slot7 < #slot8.buff and slot5.all(slot8.material[slot7], function (slot0)
+				if pg.activity_event_building[slot6] and slot7 < #slot8.buff and underscore.all(slot8.material[slot7], function (slot0)
 					slot2 = slot0[2]
 					slot3 = slot0[3]
 					slot4 = 0
@@ -605,6 +605,9 @@ function slot0.readyToAchieve(slot0)
 			slot1, slot2 = getProxy(ActivityProxy):isSurveyOpen()
 
 			return slot1 and not SurveyPage.IsEverEnter(slot2)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_ZUMA] = function (slot0)
+			return LaunchBallActivityMgr.GetInvitationAble(slot0.id)
 		end
 	}
 
@@ -637,9 +640,8 @@ function slot0.IsShowTipById(slot0)
 			slot0 = uv0:getConfig("config_client").linkids
 			slot1 = getProxy(TaskProxy)
 			slot2 = getProxy(ActivityProxy)
-			slot3 = slot2:getActivityById(slot0[1])
-			slot4 = slot2:getActivityById(slot0[2])
-			slot5 = slot2:getActivityById(slot0[3])
+
+			assert(slot2:getActivityById(slot0[1]) and slot2:getActivityById(slot0[2]) and slot2:getActivityById(slot0[3]))
 
 			return (function ()
 				slot4 = uv1.data3

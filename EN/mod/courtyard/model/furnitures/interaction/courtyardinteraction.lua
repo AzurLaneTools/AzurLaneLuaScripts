@@ -140,4 +140,7 @@ function slot0.OnStepEnd(slot0)
 	end
 end
 
+function slot0.Reset(slot0)
+end
+
 return slot0

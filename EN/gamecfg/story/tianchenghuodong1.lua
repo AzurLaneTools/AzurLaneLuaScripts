@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			say = "-- I remember... the events from way back...",
+			say = "？？年前——",
 			side = 2,
 			bgName = "bg_story_tiancheng1",
 			dir = 1,

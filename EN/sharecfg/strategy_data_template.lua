@@ -212,7 +212,12 @@ pg.strategy_data_template = setmetatable({
 		200541,
 		200544,
 		200545,
-		200546
+		200546,
+		200583,
+		200585,
+		200589,
+		200592,
+		200595
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2388,6 +2393,56 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200546,
 		icon = "200546",
 		desc = "\"▇▆▇▊▇▇▆▅▇▆\"\nAll ships within the False God's Domain have significantly reduced stats.\nIn battle, enemies will gain significantly stronger supporting barrages.",
+		arg = {}
+	},
+	[200583] = {
+		buff_id = 200583,
+		name = "Encroaching Dark Mist",
+		type = 10,
+		iconSize = "",
+		id = 200583,
+		icon = "200583",
+		desc = "The calamitous dark mist forms a terrifying foe. \nIn battle, barrages which attack your ships appear at regular intervals.",
+		arg = {}
+	},
+	[200585] = {
+		buff_id = 200585,
+		name = "Sacred Sakura's Protection",
+		type = 10,
+		iconSize = "",
+		id = 200585,
+		icon = "200585",
+		desc = "The Watatsumi's protective seal is weakening the dark mist. \nIn battle, shields spawn around your ships at regular intervals, negating damage equal to a portion of their max HP.",
+		arg = {}
+	},
+	[200589] = {
+		buff_id = 200589,
+		name = "Estuary of Faith",
+		type = 10,
+		iconSize = "",
+		id = 200589,
+		icon = "200589",
+		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
+		arg = {}
+	},
+	[200592] = {
+		buff_id = 200592,
+		name = "Estuary of Faith",
+		type = 10,
+		iconSize = "",
+		id = 200592,
+		icon = "200589",
+		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
+		arg = {}
+	},
+	[200595] = {
+		buff_id = 200595,
+		name = "Estuary of Faith",
+		type = 10,
+		iconSize = "",
+		id = 200595,
+		icon = "200589",
+		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
 		arg = {}
 	}
 }

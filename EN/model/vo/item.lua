@@ -141,9 +141,18 @@ end
 
 function slot0.CombinationDisplay(slot0, slot1)
 	return i18n("skin_gift_desc", table.concat(_.map(slot1, function (slot0)
-		return "\n（<color=#92fc63>" .. string.format("%0.1f", slot0[2] / 100) .. "%%</color>）" .. slot2.shipName .. i18n("random_skin_list_item_desc_label") .. slot2.skinName .. (ShipSkin.New({
+		slot1 = string.format("%0.1f", slot0[2] / 100)
+		slot3 = ""
+
+		if ShipSkin.New({
 			id = slot0[1]
-		}):IsLive2d() and "（<color=#92fc63>Live 2d</color>）" or "")
+		}):IsLive2d() then
+			slot3 = "（<color=#92fc63>" .. i18n("luckybag_skin_islive2d") .. "</color>）"
+		elseif slot2:IsSpine() then
+			slot3 = "（<color=#92fc63>" .. i18n("luckybag_skin_isani") .. "</color>）"
+		end
+
+		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. i18n("random_skin_list_item_desc_label") .. slot2.skinName .. slot3
 	end), ";"))
 end
 

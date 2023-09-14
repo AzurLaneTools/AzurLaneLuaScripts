@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 365
+		key_value = 368
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 366
+		key_value = 370
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2745,6 +2745,22 @@ pg.gameset = {
 	series_enemy_multiple_limit = {
 		description = "",
 		key_value = 5
+	},
+	main_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	hard_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	activity_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	archives_level_multiple_sorties_times = {
+		description = "",
+		key_value = 4
 	},
 	game_room_remax = {
 		description = "",

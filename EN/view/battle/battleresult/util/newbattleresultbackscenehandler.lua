@@ -69,7 +69,7 @@ end
 
 function slot0.ExitScenarioSystem(slot0, slot1)
 	if slot1.needHelpMessage then
-		getProxy(ChapterProxy):StopAutoFight()
+		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
 	end
 
 	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(ChapterPreCombatMediator) then

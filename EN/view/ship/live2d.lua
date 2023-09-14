@@ -110,19 +110,31 @@ end
 
 function slot11(slot0, slot1, slot2)
 	if slot1 == Live2D.EVENT_ACTION_APPLY then
-		uv0(slot0, slot2.action, slot2.focus or false)
-		slot0:applyActiveData(slot2.activeData)
+		slot4 = slot2.callback
+		slot5 = slot2.activeData
+		slot6 = slot2.focus
 
-		if slot2.callback then
+		if not uv0(slot0, slot2.action) then
+			return
+		end
+
+		if slot3 then
+			uv1(slot0, slot3, slot6 or false)
+		end
+
+		slot0:applyActiveData(slot5)
+
+		if slot4 then
 			slot4()
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
 		if slot2.ableFlag then
+			slot0.tempEnable = slot0.enablePlayActions
 			slot0.enablePlayActions = {
 				"none action apply"
 			}
 		else
-			slot0.enablePlayActions = {}
+			slot0.enablePlayActions = slot0.tempEnable
 		end
 
 		if slot2.callback then
@@ -391,6 +403,7 @@ function slot0.setReactPos(slot0, slot1)
 		end
 
 		ReflectionHelp.RefSetField(typeof(Live2dChar), "reactPos", slot0.liveCom, Vector3(0, 0, 0))
+		slot0:updateDragsSateData()
 	end
 end
 
@@ -453,7 +466,6 @@ end
 function slot0.applyActiveData(slot0, slot1)
 	slot3 = slot1.ignore
 	slot4 = slot1.idle
-	slot5 = nil
 
 	if slot1.enable and #slot2 >= 0 then
 		slot0.enablePlayActions = slot2
@@ -469,13 +481,18 @@ function slot0.applyActiveData(slot0, slot1)
 end
 
 function slot0.changeIdleIndex(slot0, slot1)
+	if slot0.idleIndex ~= slot1 then
+		slot0._animator:SetInteger("idle", slot1)
+	end
+
+	print("now idle index is " .. slot1)
+
 	if slot0._animator == nil then
 		return
 	end
 
 	slot0.idleIndex = slot1
 
-	slot0._animator:SetInteger("idle", slot1)
 	slot0:updateDragsSateData()
 end
 
@@ -488,7 +505,8 @@ end
 function slot0.updateDragsSateData(slot0)
 	slot1 = {
 		idleIndex = slot0.idleIndex,
-		isPlaying = slot0.isPlaying
+		isPlaying = slot0.isPlaying,
+		ignoreReact = slot0.ignoreReact
 	}
 
 	if slot0.drags then
@@ -558,6 +576,8 @@ function slot0.Dispose(slot0)
 
 	if slot0.live2dData then
 		slot0.live2dData:Clear()
+
+		slot0.live2dData = nil
 	end
 
 	slot0:live2dActionChange(false)

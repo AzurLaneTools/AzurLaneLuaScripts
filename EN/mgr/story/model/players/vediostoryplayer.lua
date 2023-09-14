@@ -1,11 +1,16 @@
 slot0 = class("VedioStoryPlayer", import(".StoryPlayer"))
 
+function slot0.OnReset(slot0, slot1, slot2, slot3)
+	setActive(slot0.iconImage, false)
+	slot3()
+end
+
 function slot1(slot0)
 	return PathMgr.getAssetBundle("originsource/cpk/" .. slot0 .. ".cpk")
 end
 
-function slot0.RegisterTrigger(slot0, slot1, slot2, slot3, slot4)
-	slot0:CheckAndPlay(slot2, slot2:GetVedioPath(), slot4)
+function slot0.RegisterTrigger(slot0, slot1, slot2, slot3)
+	slot0:CheckAndPlay(slot2, slot2:GetVedioPath(), slot3)
 end
 
 function slot0.CheckAndPlay(slot0, slot1, slot2, slot3)

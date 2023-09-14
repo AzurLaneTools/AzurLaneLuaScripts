@@ -638,6 +638,17 @@ pg.transform_data_template = setmetatable({
 		19109,
 		19110,
 		19111,
+		19701,
+		19702,
+		19703,
+		19704,
+		19705,
+		19706,
+		19707,
+		19708,
+		19709,
+		19710,
+		19711,
 		20801,
 		20802,
 		20803,
@@ -25026,6 +25037,411 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 				{
 					18012,
 					6
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[19701] = {
+		use_gold = 300,
+		name = "Hull Improvement Ⅰ",
+		star_limit = 2,
+		id = 19701,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 80
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[19702] = {
+		use_gold = 400,
+		name = "Reload Enhancement Ⅰ",
+		star_limit = 2,
+		id = 19702,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "",
+		icon = "rl_1",
+		skill_id = 0,
+		condition_id = {
+			19701
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[19703] = {
+		use_gold = 600,
+		name = "Anti-Air Gun Improvement Ⅰ",
+		star_limit = 3,
+		id = 19703,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "",
+		icon = "aaup_1",
+		skill_id = 0,
+		condition_id = {
+			19701
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[19704] = {
+		use_gold = 800,
+		name = "Anti-Air Enhancement Ⅰ",
+		star_limit = 3,
+		id = 19704,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "",
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			19703
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[19705] = {
+		use_gold = 1000,
+		name = "Main Gun Improvement Ⅰ",
+		star_limit = 4,
+		id = 19705,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "",
+		icon = "mgup_1",
+		skill_id = 0,
+		condition_id = {
+			19703
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[19706] = {
+		use_gold = 1200,
+		name = "Firepower Enhancement Ⅰ",
+		star_limit = 4,
+		id = 19706,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "",
+		icon = "cn_1",
+		skill_id = 0,
+		condition_id = {
+			19705
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[19707] = {
+		use_gold = 1500,
+		name = "Hull Improvement Ⅱ",
+		star_limit = 4,
+		id = 19707,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			19705
+		},
+		effect = {
+			{
+				durability = 80
+			},
+			{
+				durability = 120
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					1
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[19708] = {
+		use_gold = 1800,
+		name = "Tactical Learning",
+		star_limit = 4,
+		id = 19708,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "习得技能【战术指挥·巡洋舰】",
+		icon = "skill_red",
+		skill_id = 1052,
+		condition_id = {
+			19707
+		},
+		effect = {
+			{
+				skill_id = 2051
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[19709] = {
+		use_gold = 2000,
+		name = "Torpedo Improvement Ⅱ",
+		star_limit = 5,
+		id = 19709,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "",
+		icon = "tpup_2",
+		skill_id = 0,
+		condition_id = {
+			19707
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			},
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[19710] = {
+		use_gold = 2500,
+		name = "Torpedo Enhancement Ⅱ",
+		star_limit = 5,
+		id = 19710,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "",
+		icon = "tp_2",
+		skill_id = 0,
+		condition_id = {
+			19706,
+			19709
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[19711] = {
+		use_gold = 3000,
+		name = "Modernization",
+		star_limit = 5,
+		id = 19711,
+		max_level = 1,
+		skin_id = 303089,
+		use_ship = 1,
+		level_limit = 85,
+		descrip = "",
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			19709,
+			19710
+		},
+		effect = {
+			{
+				cannon = 20,
+				torpedo = 25
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
 				}
 			}
 		},

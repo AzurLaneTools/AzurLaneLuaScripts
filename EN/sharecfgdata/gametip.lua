@@ -10265,7 +10265,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Clemenceau, Guichen, and more!"
+	tip = "Get Unzen guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12196,7 +12196,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. You may choose two ships on which to focus your wishes."
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to May 25th can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to July 13rd can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -19257,7 +19257,7 @@ _G.pg.base.gametip.use_oil_limit_help = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-	tip = "Clearing Mode Cost Limit"
+	tip = "Cost Limit:"
 }
 
 _G.pg.base.gametip.index_awakening2 = {
@@ -23030,15 +23030,12 @@ _G.pg.base.gametip.hotspring_help = {
 	tip = {
 		{
 			info = [[
-- Open-Air Bath Overview -
-Event lasts between <color=#92fc63>May 25th to June 21st</color>.
-
-Placing your shipgirls in the Open-Air Bath allows them to recover Morale at a faster rate than normal.
-This feature unlocks after you clear all the associated daily missions unlocked up to May 29th.
-The items you need to complete the missions can be made at the Crafting Station.
-
-- Details -
-You can add or remove shipgirls from the bath by tapping the button in the top right corner of the screen, or by selecting and holding the spots your shipgirls are sat in.]]
+- Overview - 
+The Open-Air Onsen in the Youkai Resort campaign is available between <color=#92fc63>September 14th and October 4th, 23:59</color>.
+1. Add your shipgirls to the onsen's bathing slots to let them recover mood more quickly.
+2. You can drag and drop shipgirls in the water to change their position.
+3. Play The Spiriting-Away Incident? minigame to receive <color=#92fc63>Onsen Notes</color>. You can get 4 in total.
+4. Use these notes at the onsen to expand it, unlocking additional bathing slots for your shipgirls.]]
 		}
 	}
 }
@@ -23624,6 +23621,22 @@ _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "Due to being defeated during battle, "
 }
 
+_G.pg.base.gametip.multiple_sorties_main_tip = {
+	tip = "–<color=#92fc63>Auto-Search</color> is enabled by default during Repeat Sortie mode.\n–If Auto-Search is disabled, Repeat Sortie mode will be canceled as well."
+}
+
+_G.pg.base.gametip.multiple_sorties_main_end = {
+	tip = "–Expected Repeat Sortie runs: <color=#92fc63>$1</color>, Actual Repeat Sortie runs: <color=#92fc63>$2</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_rest_time = {
+	tip = "Progress: $1/$2"
+}
+
+_G.pg.base.gametip.multiple_sorties_retry_desc = {
+	tip = "Repeat $1 sorties"
+}
+
 _G.pg.base.gametip.msgbox_text_battle = {
 	tip = "Sortie"
 }
@@ -23770,6 +23783,18 @@ _G.pg.base.gametip.battle_text_bisimaiz_9 = {
 
 _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 	tip = "Geryon's combat powers are dropping– Wait, I'm detecting intense <color=#ffc038>META energy fluctuations</color>...?!"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_1 = {
+	tip = "The Shadow of Corruption is storing power! Attack the mist dragon to weaken the enemy!"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_2 = {
+	tip = "Some of the dark mist has been purged! The Shadow of Corruption's defenses have weakened."
+}
+
+_G.pg.base.gametip.battle_text_yunxian_3 = {
+	tip = "You've struck the core! The shipgirl shades are starting to collapse."
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -25187,4 +25212,242 @@ _G.pg.base.gametip.shoot_preview = {
 
 _G.pg.base.gametip.hit_preview = {
 	tip = "Hitting Preview"
+}
+
+_G.pg.base.gametip.story_label_skip = {
+	tip = "Skip"
+}
+
+_G.pg.base.gametip.story_label_auto = {
+	tip = "Auto"
+}
+
+_G.pg.base.gametip.launch_ball_skill_desc = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
+	tip = "Active: Youkai Begone"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+	tip = "Youkai Begone: All talismans shot within 5s will have a knockback effect."
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
+	tip = "Passive: Youkai Allergy/Wild Slash"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+	tip = "Youkai Allergy: Gains increased attack speed the closer youkai are to the end point.Wild Slash: After not making any attacks for 10s, Hatsuzuki enters a Rampage and quickly attacks 3 times with a knockback effect in random directions."
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+	tip = "Active: Fleeting Dream"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
+	tip = "Fleeting Dream: Instantly repels all youkai on the field, granting the corresponding base score."
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2 = {
+	tip = "Passive: Everlasting Butterfly"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+	tip = "Everlasting Butterfly: After not making any attacks for 10s, Shinano falls asleep and creates butterflies every 2s that eliminate a random youkai on the field."
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+	tip = "Active: Exorcism Stance"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+	tip = "Exorcism Stance: Greatly slows the speed of all youkai on the field for 5s."
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+	tip = "Passive: Other Self's Protection"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+	tip = "Other Self's Protection: Increases the duration of buffs obtained after repelling slowed or knocked back youkai."
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
+	tip = "Active: Lightning Upon the Wind"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+	tip = "Lightning Upon the Wind: Repels all youkai in a fan-shaped area in front of Shimakaze, granting the corresponding base score."
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+	tip = "Passive: Faster than a Flash"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+	tip = "Faster than a Flash: Reduces the cooldown of Lightning Upon the Wind by 0.5s for every youkai repelled."
+}
+
+_G.pg.base.gametip.jp6th_spring_tip1 = {
+	tip = "Do you want to use Onsen Notes<icon name=wenquanshoupai w=0.7 h=0.7/> to expand the onsen?"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip2 = {
+	tip = "Not enough Onsen Notes!"
+}
+
+_G.pg.base.gametip.jp6th_biaohoushan_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Youkai Resort campaign lasts between <color=#92fc63>September 14th and October 4th, 23:59</color>.
+Tap the Minigame button on the Youkai Resort main screen to play the minigame and read a separate event story!
+
+- Details -
+1. Minigame
+Tap the Minigame button on the Youkai Resort main screen to head to The Spiriting-Away Incident? minigame screen.
+This minigame has special missions and event stages associated with it, with new ones unlocking daily up to September 20th. There is also a shop you can buy items from.
+Complete the special missions by accomplishing specific tasks within the minigame and you'll also receive rewards.
+Lastly, you can use the points you've gained by playing the minigame to unlock other characters and buy exclusive furniture and gear skin boxes.
+
+2. Open-Air Onsen
+Tap the Open-Air Onsen button to travel to the hot springs screen.
+Placing your shipgirls in the bathing slots lets them recover their mood more quickly.
+You can also expand the onsen by using Onsen Notes, which are obtained through playing the minigame.
+
+3. Limited Construction
+Tap this button to go to the event build screen.
+
+4. New Outfits
+Tap this button to visit the skins shop.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+During The Spiriting-Away Incident? mini-event, there are rewards you can earn by playing the minigame to earn Youkai Talismans which can be traded for rewards. You will also gain clearing rewards from finishing cases.
+A new case will be unlocked every day up to September 20th. Finishing every case will unlock the endless mode.
+This mini-event is available between <color=#92fc63>September 14th and October 4th, 23:59</color>.
+
+- Rewards -
+1. Using the Youkai Talismans you earned from playing the minigame, you can exchange for items in the shop, such as limited furniture, gear skin boxes, and new characters to use in the minigame.
+2. You receive 1 gear skin box the first time you clear each case of the minigame. Additionally, you'll also receive an Onsen Note, used to level up the Open-Air Onsen, the first time you clear cases 1, 3, 5, and 7.
+3. Completing the 7th case will award you the exclusive furniture Aoandon.
+
+- How to Play -
+· Tap and hold on the minigame screen to fire talismans using your chosen character.
+Once a talisman hits the youkai procession, it will add a youkai of the same color as the talisman to the procession; line up three youkai of the same color to repel them.
+· Youkai will slowly come in from off the screen and follow the line until they reach the end goal.
+The game ends either when you've repelled enough youkai that no more come in, or when the youkai reach the end goal.
+· There are three play modes: regular cases (7 in total), a one-time special case (the interlude), and endless mode, where youkai will keep appearing indefinitely.
+· Once a day, you will gain a minigame ticket.
+When you complete the minigame while in possession of a minigame ticket, the ticket will be lost and you'll gain 150 Youkai Talismans.
+All cases will give you their rewards only once until you complete the final, 7th case.
+Once you complete the 7th case, you can receive Youkai Talismans from all play modes (including endless mode.)
+· The amount of Youkai Talismans you receive from endless mode is based on your high score.
+· You can unlock additional playable characters in the shop: Yura, Shinano, and Shimakaze.
+· Each character has her own active and passive skills. The active skill can be engaged by tapping the button on the bottom of the screen.
+· Achieving certain character-specific feats and completing missions in the minigame will reward you with Youkai Talismans.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_time = {
+	tip = "A new stage unlocks tomorrow at midnight."
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_order = {
+	tip = "Unlock the next stage by clearing the one before it."
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_pt1 = {
+	tip = "Minigame Ticket"
+}
+
+_G.pg.base.gametip.launchball_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.launchball_minigame_select = {
+	tip = "Character Select"
+}
+
+_G.pg.base.gametip.launchball_minigame_un_select = {
+	tip = "Tap again to cancel selection"
+}
+
+_G.pg.base.gametip.launchball_minigame_shop = {
+	tip = "All sold out, nya~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shinano = {
+	tip = "Unlocked after purchasing <color=#92fc63>Shinano's Token</color> at the Reward Shop."
+}
+
+_G.pg.base.gametip.launchball_lock_Yura = {
+	tip = "Unlocked after purchasing <color=#92fc63>Yura's Token</color> at the Reward Shop."
+}
+
+_G.pg.base.gametip.launchball_lock_Shimakaze = {
+	tip = "Unlocked after purchasing <color=#92fc63>Shimakaze's Token</color> at the Reward Shop."
+}
+
+_G.pg.base.gametip.launchball_spilt_series = {
+	tip = "Combo: Repel multiple youkai using a single talisman to earn bonus points."
+}
+
+_G.pg.base.gametip.launchball_spilt_mix = {
+	tip = "Absorption: When a youkai is repelled, if the adjacent youkai are of the same color, the youkai in front will be pulled towards the one in the back. If any youkai are repelled through this process, you will earn bonus points."
+}
+
+_G.pg.base.gametip.launchball_spilt_over = {
+	tip = "Penetration: After repelling a youkai, you will earn bonus points for repelling another youkai after shooting a talisman through the gap."
+}
+
+_G.pg.base.gametip.launchball_spilt_many = {
+	tip = "Multiple: Repel three or more youkai at once to earn bonus points."
+}
+
+_G.pg.base.gametip.luckybag_skin_isani = {
+	tip = "Dynamic"
+}
+
+_G.pg.base.gametip.luckybag_skin_islive2d = {
+	tip = "Live 2d"
 }

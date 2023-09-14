@@ -11,20 +11,13 @@ else
 end
 
 slot0.nameCodeMap = {}
-slot0.codeNameMap = {}
 slot0.nameCodeMap_EN = {
 	IJN = "IJN"
 }
-slot0.codeNameMap_EN = {}
 
 function slot0.init()
 	for slot3, slot4 in pairs(pg.name_code) do
 		uv0.nameCodeMap[slot4.name] = slot4.code
-		uv0.codeNameMap[slot4.code] = slot4.name
-	end
-
-	for slot3, slot4 in pairs(uv0.codeNameMap_EN) do
-		uv0.codeNameMap_EN[slot4] = slot3
 	end
 
 	if pg.gameset.code_switch.key_value == 1 and PlayerPrefs.HasKey(uv0.codeModeKey) then
@@ -112,8 +105,8 @@ function slot0.isHXNation(slot0)
 end
 
 function slot0.update()
-	slot0 = uv0.codeMode and uv0.codeNameMap or uv0.nameCodeMap
-	slot1 = uv0.codeMode and uv0.codeNameMap_EN or uv0.nameCodeMap_EN
+	slot0 = uv0.codeMode and {} or uv0.nameCodeMap
+	slot1 = uv0.codeMode and {} or uv0.nameCodeMap_EN
 	slot2 = pg.ship_data_statistics
 	pg.ship_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
@@ -196,14 +189,6 @@ function slot0.update()
 			return slot0[slot1]
 		end
 	})
-end
-
-function slot0.hxName(slot0)
-	if (uv0.codeMode and uv0.codeNameMap or uv0.nameCodeMap)[slot0] then
-		return slot1[slot0]
-	end
-
-	return slot0
 end
 
 function slot0.hxLan(slot0, slot1)

@@ -1509,13 +1509,32 @@ pg.skill_data_display = setmetatable({
 		16951,
 		16960,
 		16970,
-		16971,
+		16972,
 		16980,
 		16990,
 		17000,
 		17002,
 		17010,
 		17020,
+		17031,
+		17051,
+		17060,
+		17062,
+		17064,
+		17071,
+		17080,
+		17081,
+		17090,
+		17091,
+		17100,
+		17111,
+		17120,
+		17121,
+		17123,
+		17130,
+		17131,
+		17132,
+		17133,
 		18010,
 		18040,
 		18041,
@@ -2084,6 +2103,8 @@ pg.skill_data_display = setmetatable({
 		30072,
 		30081,
 		30082,
+		30111,
+		30112,
 		39000,
 		39001,
 		39002,
@@ -2634,6 +2655,11 @@ pg.skill_data_display = setmetatable({
 		200565,
 		200575,
 		200580,
+		200584,
+		200587,
+		200591,
+		200594,
+		200597,
 		1011540,
 		1011541,
 		1090010,
@@ -8729,8 +8755,8 @@ pg.base.skill_data_display = {
 		id = 16970,
 		name = "Guiding Flames of Intrigue"
 	},
-	[16971] = {
-		id = 16971,
+	[16972] = {
+		id = 16972,
 		name = "Guiding Flames of Intrigue"
 	},
 	[16980] = {
@@ -8756,6 +8782,82 @@ pg.base.skill_data_display = {
 	[17020] = {
 		id = 17020,
 		name = "Sanctification"
+	},
+	[17031] = {
+		id = 17031,
+		name = "Exorcism for the Mortal Realm"
+	},
+	[17051] = {
+		id = 17051,
+		name = "荡涤诸恶"
+	},
+	[17060] = {
+		id = 17060,
+		name = "Power o' Friendship"
+	},
+	[17062] = {
+		id = 17062,
+		name = "Power o' Friendship"
+	},
+	[17064] = {
+		id = 17064,
+		name = "Power o' Friendship"
+	},
+	[17071] = {
+		id = 17071,
+		name = "Don't Mess With My Best Buds!"
+	},
+	[17080] = {
+		id = 17080,
+		name = "As Evening Weaves, the Moon Sunders"
+	},
+	[17081] = {
+		id = 17081,
+		name = "As Evening Weaves, the Moon Sunders"
+	},
+	[17090] = {
+		id = 17090,
+		name = "As Leaves Fall, Geese Take Flight"
+	},
+	[17091] = {
+		id = 17091,
+		name = "As Leaves Fall, Geese Take Flight"
+	},
+	[17100] = {
+		id = 17100,
+		name = "Fists of Fury!"
+	},
+	[17111] = {
+		id = 17111,
+		name = "Ol' Reliable"
+	},
+	[17120] = {
+		id = 17120,
+		name = "Hiranuma's Protection"
+	},
+	[17121] = {
+		id = 17121,
+		name = "Hiranuma's Protection"
+	},
+	[17123] = {
+		id = 17123,
+		name = "Hiranuma's Protection"
+	},
+	[17130] = {
+		id = 17130,
+		name = "Secret Cheat Code Powers!"
+	},
+	[17131] = {
+		id = 17131,
+		name = "Secret Cheat Code Powers!"
+	},
+	[17132] = {
+		id = 17132,
+		name = "Secret Cheat Code Powers!"
+	},
+	[17133] = {
+		id = 17133,
+		name = "Secret Cheat Code Powers!"
 	},
 	[18010] = {
 		id = 18010,
@@ -11029,6 +11131,14 @@ pg.base.skill_data_display = {
 		id = 30082,
 		name = "All Out Assault II"
 	},
+	[30111] = {
+		id = 30111,
+		name = "All Out Assault - Hatsuzuki I"
+	},
+	[30112] = {
+		id = 30112,
+		name = "All Out Assault - Hatsuzuki II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -13228,6 +13338,26 @@ pg.base.skill_data_display = {
 	[200580] = {
 		id = 200580,
 		name = "Inevitable Fate"
+	},
+	[200584] = {
+		id = 200584,
+		name = "无形侵蚀"
+	},
+	[200587] = {
+		id = 200587,
+		name = "根源加护"
+	},
+	[200591] = {
+		id = 200591,
+		name = "信仰之河"
+	},
+	[200594] = {
+		id = 200594,
+		name = "信仰之河"
+	},
+	[200597] = {
+		id = 200597,
+		name = "信仰之河"
 	},
 	[1011540] = {
 		id = 1011540,

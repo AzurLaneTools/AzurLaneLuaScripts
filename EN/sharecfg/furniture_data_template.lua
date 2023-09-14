@@ -125,6 +125,8 @@ pg.furniture_data_template = setmetatable({
 			253,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100003,
 			100004,
@@ -2879,6 +2881,29 @@ pg.furniture_data_template = setmetatable({
 			302302,
 			302303,
 			302304
+		},
+		[103] = {
+			303001,
+			303002,
+			303101,
+			303102,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		}
 	},
 	get_id_list_by_tag = {
@@ -4602,7 +4627,24 @@ pg.furniture_data_template = setmetatable({
 			302121,
 			302122,
 			302123,
-			302126
+			302126,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		{
 			1108,
@@ -4887,6 +4929,8 @@ pg.furniture_data_template = setmetatable({
 			253,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100003,
 			100004,
@@ -5098,7 +5142,9 @@ pg.furniture_data_template = setmetatable({
 			302127,
 			302128,
 			302129,
-			302130
+			302130,
+			303101,
+			303102
 		},
 		[4] = {
 			1001,
@@ -5188,7 +5234,8 @@ pg.furniture_data_template = setmetatable({
 			99001,
 			300001,
 			301001,
-			302001
+			302001,
+			303001
 		},
 		[3] = {
 			1002,
@@ -5279,7 +5326,8 @@ pg.furniture_data_template = setmetatable({
 			99002,
 			300002,
 			301002,
-			302002
+			302002,
+			303002
 		},
 		[5] = {
 			1301,
@@ -5685,7 +5733,8 @@ pg.furniture_data_template = setmetatable({
 			99002,
 			300002,
 			301002,
-			302002
+			302002,
+			303002
 		},
 		[7] = {
 			1,
@@ -5789,6 +5838,8 @@ pg.furniture_data_template = setmetatable({
 			253,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100004,
 			100005,
@@ -7536,7 +7587,24 @@ pg.furniture_data_template = setmetatable({
 			302127,
 			302128,
 			302129,
-			302130
+			302130,
+			303101,
+			303102,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		[11] = {
 			131,
@@ -7583,7 +7651,9 @@ pg.furniture_data_template = setmetatable({
 		[14] = {
 			214,
 			100019,
-			100037
+			100037,
+			303103,
+			303113
 		},
 		[15] = {
 			251
@@ -7688,7 +7758,8 @@ pg.furniture_data_template = setmetatable({
 			99001,
 			300001,
 			301001,
-			302001
+			302001,
+			303001
 		},
 		[5] = {
 			1101,
@@ -8450,6 +8521,8 @@ pg.furniture_data_template = setmetatable({
 		253,
 		256,
 		257,
+		258,
+		259,
 		100002,
 		100003,
 		100004,
@@ -11023,7 +11096,28 @@ pg.furniture_data_template = setmetatable({
 		302301,
 		302302,
 		302303,
-		302304
+		302304,
+		303001,
+		303002,
+		303101,
+		303102,
+		303103,
+		303104,
+		303105,
+		303106,
+		303107,
+		303108,
+		303109,
+		303110,
+		303111,
+		303112,
+		303113,
+		303114,
+		303115,
+		303116,
+		303117,
+		303118,
+		303119
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16878,6 +16972,106 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"yanhuiyaoqingxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[258] = {
+		effect = "",
+		name = "苹果红茶",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/pingguohongcha",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "",
+		tag = 6,
+		icon = "pingguohongchaicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 0,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 258,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5.3,
+					-100
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/pingguohongcha_using",
+				0,
+				{
+					{
+						-6,
+						104
+					},
+					{
+						400,
+						526
+					},
+					"chuanmo/pingguohongcha_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[259] = {
+		effect = "",
+		name = "Sanctuary Sculpture",
+		gain_by = "须臾望月抄",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/yunxianxunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A miniature of the once majestic Prime Sakura. Its blossoms and clear stream glimmer with a crystalline light. Awarded to Commanders who displayed excellence during the \"Effulgence Before Eclipse\" event.",
+		tag = 6,
+		icon = "yunxianxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 259,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -130362,6 +130556,971 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[303001] = {
+		icon = "dibanbgyxicon",
+		name = "Youkai Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		picture = "bgyx/dibanbgyx",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Where might those pawprints lead?",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 303001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303002] = {
+		icon = "qiangbibgyxicon",
+		name = "Youkai Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		picture = "bgyx/qiangbibgyx",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "It's dark and cold out there tonight.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 303002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303101] = {
+		effect = "",
+		name = "Youkai Bridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Whispered rumors say that passing over it... is like crossing a bridge! Terrifying.",
+		themeId = 103,
+		icon = "bianqiaobgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303101,
+		can_rotate = 0,
+		size = {
+			15,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianqiaobgyxB",
+				"normal"
+			},
+			{
+				"bianqiaobgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303102] = {
+		effect = "",
+		name = "Fukuro-Mujina Gathering",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "They're planning a big prank, that much is clear.",
+		tag = 7,
+		icon = "daihebgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303102,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daihebgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303103] = {
+		effect = "",
+		name = "Lantern Youkai",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Almost too cute to be scary, but it tries its best.",
+		tag = 1,
+		icon = "dengguibgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303104] = {
+		effect = "",
+		name = "Youkai Paper Lanterns",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "They glow with an eerie light.",
+		tag = 1,
+		icon = "denglonggualanbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303104,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"denglonggualanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303105] = {
+		effect = "",
+		name = "Youkai Fox Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 103,
+		is_get_time_note = 0,
+		picture = "bgyx/diaoxiangbgyx",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Legend says it comes to life at night, when nobody is around.",
+		tag = 1,
+		icon = "diaoxiangbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303106] = {
+		effect = "",
+		name = "Oden Stall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "bgyx/guandongzhubgyx",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "There's a queue. Maybe you can't see the patrons, but they ARE there.",
+		tag = 1,
+		icon = "guandongzhubgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303106,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					-87
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303107] = {
+		effect = "",
+		name = "Kuda-Gitsune",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A type of spirit that takes the form of a small fox and hides inside bamboo tubes.",
+		tag = 1,
+		icon = "guanhubgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanhubgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303108] = {
+		effect = "",
+		name = "Red Spider Lilies",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It blooms in autumn and is planted both for spiritual and agricultural reasons.",
+		tag = 1,
+		icon = "huaduibgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303108,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaduibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303109] = {
+		effect = "",
+		name = "Youkai Street Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 103,
+		is_get_time_note = 0,
+		picture = "bgyx/ludengbgyx",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Either that's a really hot flame, or something spooky is going on...",
+		tag = 1,
+		icon = "ludengbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303110] = {
+		effect = "",
+		name = "Youkai Torii",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 103,
+		is_get_time_note = 0,
+		picture = "bgyx/niaojubgyx",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What lies beyond these gates is sacred territory.",
+		tag = 1,
+		icon = "niaojubgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303110,
+		can_rotate = 0,
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303111] = {
+		effect = "",
+		name = "Ghost Servers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Boo! Who ordered sushi?\"",
+		tag = 1,
+		icon = "piaoguibgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piaoguibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303112] = {
+		effect = "",
+		name = "Aoandon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This spirit is invoked after retelling a hundred ghost stories and extinguishing a hundred blue lanterns.",
+		tag = 1,
+		icon = "qingxingdengbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303112,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingxingdengbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303113] = {
+		effect = "",
+		name = "Kasa-Obake",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A ghostly umbrella. It won't do you many favors in a rainstorm.",
+		tag = 1,
+		icon = "sanguibgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303114] = {
+		effect = "",
+		name = "Youkai Fox Shrine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you wish to pay it respects, offer some fried tofu.",
+		tag = 1,
+		icon = "shenkanbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenkanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303115] = {
+		effect = "",
+		name = "Youkai Sakura Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Make a wish, and it may come true.",
+		tag = 1,
+		icon = "shenshubgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenshubgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303116] = {
+		effect = "",
+		name = "Youkai Water Basin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Cleanse yourself of filth. It's only the hygienic thing to do.",
+		tag = 1,
+		icon = "shouxibgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shouxibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303117] = {
+		effect = "",
+		name = "Youkai Hot Spring",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The hot water somehow gives you chills. The customers seem to love it, though.",
+		themeId = 103,
+		icon = "wenquanbgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wenquanbgyxB",
+				"normal"
+			},
+			{
+				"wenquanbgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-11.1,
+					129.2
+				},
+				{
+					426,
+					254
+				},
+				"bgyx/wenquanbgyx_mask"
+			},
+			{
+				5.3,
+				-128.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303118] = {
+		effect = "",
+		name = "Yuki-Onna",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 103,
+		is_get_time_note = 0,
+		picture = "bgyx/xuenvjiubgyx",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Brrr! Is it just me, or is it really cold all of a sudden?\"",
+		tag = 1,
+		icon = "xuenvjiubgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303119] = {
+		effect = "",
+		name = "Youkai Fireflies",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 103,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"You thought they were spirits? Tsk. Amateur mistake.\"",
+		tag = 1,
+		icon = "yinghuobgyxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 303119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinghuobgyx",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

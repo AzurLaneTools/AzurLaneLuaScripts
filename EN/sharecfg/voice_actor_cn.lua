@@ -1491,5 +1491,13 @@ pg.voice_actor_CN = {
 	[380] = {
 		code = 380,
 		actor_name = "Yuka Iwahashi"
+	},
+	[381] = {
+		code = 381,
+		actor_name = "Machico"
+	},
+	[382] = {
+		code = 382,
+		actor_name = "Mio Nonaka"
 	}
 }

@@ -3535,6 +3535,119 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[57] = {
+		subject = "Fashion Collection Lucky Bag ",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Fashion Collection Lucky Bag ",
+		name_display = "Fashion Collection Lucky Bag ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 57,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihejp6ss_l",
+		skin_inquire_relation = 69928,
+		id_str = "com.yostaren.azurlane.luckybag15",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag15",
+		extra_service_item = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40928,
+				1
+			}
+		}
+	},
 	[1000] = {
 		subject = "Fair Winds Cruise Pass",
 		limit_group = 0,
@@ -4327,7 +4440,7 @@ pg.pay_data_display = {
 					1
 				},
 				{
-					1,
+					0,
 					0,
 					0
 				}
@@ -9321,7 +9434,7 @@ pg.pay_data_display = {
 				{
 					2023,
 					4,
-					6
+					27
 				},
 				{
 					0,
@@ -9332,8 +9445,8 @@ pg.pay_data_display = {
 			{
 				{
 					2023,
-					6,
-					30
+					7,
+					12
 				},
 				{
 					23,
@@ -10198,6 +10311,7 @@ pg.pay_data_display = {
 		51,
 		52,
 		53,
+		57,
 		1000,
 		1001,
 		1002,

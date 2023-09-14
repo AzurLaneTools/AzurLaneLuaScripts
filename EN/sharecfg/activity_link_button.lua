@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4967
+			5001
 		}
 	},
 	{
@@ -50,9 +50,8 @@ pg.activity_link_button = {
 		}
 	},
 	[20] = {
-		param = "0",
+		type = 2,
 		name = "event_minigame",
-		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 5,
@@ -60,7 +59,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4961
+			4990
+		},
+		param = {
+			"SIXTH_ANNIVERSARY_JP"
 		}
 	},
 	[30] = {

@@ -417,10 +417,10 @@ pg.item_data_frame = {
 	[327] = {
 		time_limit_type = 0,
 		name = "Wisteria Seal",
-		gain_by = "",
+		gain_by = "须臾望月抄",
 		id = 327,
 		time_second = 0,
-		desc = "Obtained from an event.",
+		desc = "<color=#ffffff>\"Life, even if brief, is hard to substitute–\"</color>\nObtained from the \"Effulgence Before Eclipse\" event.",
 		scene = {}
 	},
 	[406] = {

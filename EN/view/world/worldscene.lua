@@ -1537,11 +1537,11 @@ function slot0.QueryTransport(slot0, slot1)
 		table.insert(slot4, function (slot0)
 			slot1 = pg.NewStoryMgr.GetInstance()
 
-			slot1:Play(uv0, function (slot0, slot1)
+			slot1:PlayForWorld(uv0, false, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
 				end
-			end, true)
+			end, true, false, false, true)
 		end)
 	end
 
@@ -1574,16 +1574,14 @@ function slot0.QueryTransport(slot0, slot1)
 	end
 
 	if slot6 then
-		slot7 = pg.NewStoryMgr.GetInstance()
-
 		table.insert(slot4, function (slot0)
-			slot1 = uv0
+			slot1 = pg.NewStoryMgr.GetInstance()
 
-			slot1:Play(uv1, function (slot0, slot1)
+			slot1:PlayForWorld(uv0, false, function (slot0, slot1)
 				if slot1 == 1 then
 					uv0()
 				end
-			end, true)
+			end, true, false, false, true)
 		end)
 	end
 
