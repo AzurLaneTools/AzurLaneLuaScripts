@@ -110,7 +110,7 @@ slot0.game_round = {
 		enemy_buff = 8,
 		id = 8,
 		type_index = 1,
-		speed = 50,
+		speed = 60,
 		round_bound = 8,
 		type = slot0.round_type_wuxian
 	},
@@ -259,77 +259,77 @@ slot0.enemy_create_rule = {
 		id = 1,
 		enemy_create = {
 			count = 1,
-			single = true,
+			single = false,
 			enemys = {
+				1,
 				2,
 				3,
 				4,
-				5,
-				6
+				5
 			}
 		}
 	},
 	{
-		id = 1,
+		id = 2,
 		enemy_create = {
 			count = 2,
-			single = true,
+			single = false,
 			enemys = {
+				1,
 				2,
 				3,
 				4,
-				5,
-				6
+				5
 			}
 		}
 	},
 	{
-		id = 1,
+		id = 3,
 		enemy_create = {
 			count = 3,
-			single = true,
+			single = false,
 			enemys = {
+				1,
 				2,
 				3,
 				4,
-				5,
-				6
+				5
 			}
 		}
 	},
 	{
-		id = 1,
+		id = 4,
 		enemy_create = {
 			count = 4,
-			single = true,
+			single = false,
 			enemys = {
+				1,
 				2,
 				3,
 				4,
-				5,
-				6
+				5
 			}
 		}
 	},
 	{
-		id = 1,
+		id = 5,
 		enemy_create = {
 			count = 5,
-			single = true,
+			single = false,
 			enemys = {
+				1,
 				2,
 				3,
 				4,
-				5,
-				6
+				5
 			}
 		}
 	},
 	[11] = {
-		id = 1,
+		id = 11,
 		enemy_create = {
 			count = 1,
-			single = true,
+			single = false,
 			enemys = {
 				1,
 				2,
@@ -342,10 +342,10 @@ slot0.enemy_create_rule = {
 		}
 	},
 	[12] = {
-		id = 1,
+		id = 12,
 		enemy_create = {
 			count = 2,
-			single = true,
+			single = false,
 			enemys = {
 				1,
 				2,
@@ -358,10 +358,10 @@ slot0.enemy_create_rule = {
 		}
 	},
 	[13] = {
-		id = 1,
+		id = 13,
 		enemy_create = {
 			count = 3,
-			single = true,
+			single = false,
 			enemys = {
 				1,
 				2,
@@ -374,9 +374,111 @@ slot0.enemy_create_rule = {
 		}
 	},
 	[14] = {
-		id = 1,
+		id = 14,
 		enemy_create = {
 			count = 4,
+			single = false,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			}
+		}
+	},
+	[15] = {
+		id = 15,
+		enemy_create = {
+			count = 4,
+			single = false,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			}
+		}
+	},
+	[16] = {
+		id = 16,
+		enemy_create = {
+			count = 2,
+			single = true,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5
+			}
+		}
+	},
+	[17] = {
+		id = 17,
+		enemy_create = {
+			count = 3,
+			single = true,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5
+			}
+		}
+	},
+	[18] = {
+		id = 18,
+		enemy_create = {
+			count = 4,
+			single = true,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5
+			}
+		}
+	},
+	[19] = {
+		id = 19,
+		enemy_create = {
+			count = 5,
+			single = true,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5
+			}
+		}
+	},
+	[20] = {
+		id = 20,
+		enemy_create = {
+			count = 6,
+			single = true,
+			enemys = {
+				1,
+				2,
+				3,
+				4,
+				5
+			}
+		}
+	},
+	[21] = {
+		id = 21,
+		enemy_create = {
+			count = 2,
 			single = true,
 			enemys = {
 				1,
@@ -389,27 +491,11 @@ slot0.enemy_create_rule = {
 			}
 		}
 	},
-	[21] = {
-		id = 1,
-		enemy_create = {
-			count = 2,
-			single = false,
-			enemys = {
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7
-			}
-		}
-	},
 	[22] = {
-		id = 1,
+		id = 22,
 		enemy_create = {
 			count = 3,
-			single = false,
+			single = true,
 			enemys = {
 				1,
 				2,
@@ -422,10 +508,10 @@ slot0.enemy_create_rule = {
 		}
 	},
 	[23] = {
-		id = 1,
+		id = 23,
 		enemy_create = {
 			count = 4,
-			single = false,
+			single = true,
 			enemys = {
 				1,
 				2,
@@ -465,15 +551,15 @@ slot0.round_enemy = {
 			}
 		},
 		{
-			weight = 3,
-			create_id = 4,
+			weight = 10,
+			create_id = 17,
 			time = {
 				0,
 				6000000
 			}
 		},
 		{
-			weight = 1,
+			weight = 10,
 			create_id = 5,
 			time = {
 				0,
@@ -710,7 +796,7 @@ slot0.round_enemy = {
 		},
 		{
 			weight = 2,
-			create_id = 24,
+			create_id = 22,
 			time = {
 				0,
 				6000000
@@ -719,16 +805,56 @@ slot0.round_enemy = {
 	},
 	{
 		{
-			weight = 20,
-			create_id = 1,
+			weight = 15,
+			create_id = 11,
 			time = {
 				0,
 				6000000
 			}
 		},
 		{
-			weight = 20,
-			create_id = 2,
+			weight = 15,
+			create_id = 12,
+			time = {
+				0,
+				6000000
+			}
+		},
+		{
+			weight = 10,
+			create_id = 13,
+			time = {
+				0,
+				6000000
+			}
+		},
+		{
+			weight = 10,
+			create_id = 14,
+			time = {
+				0,
+				6000000
+			}
+		},
+		{
+			weight = 5,
+			create_id = 15,
+			time = {
+				0,
+				6000000
+			}
+		},
+		{
+			weight = 5,
+			create_id = 23,
+			time = {
+				0,
+				6000000
+			}
+		},
+		{
+			weight = 2,
+			create_id = 22,
 			time = {
 				0,
 				6000000
@@ -741,13 +867,13 @@ slot0.map_data = {
 		map = "BG_01",
 		id = 1,
 		line = "round_1",
-		bgm = "longgong"
+		bgm = "map-longgong"
 	},
 	{
 		map = "BG_01a",
 		id = 2,
 		line = "round_2",
-		bgm = "longgong"
+		bgm = "map-longgong"
 	},
 	{
 		map = "BG_03",
@@ -765,7 +891,7 @@ slot0.map_data = {
 		map = "BG_01b",
 		id = 5,
 		line = "round_5",
-		bgm = "longgong"
+		bgm = "map-longgong"
 	},
 	{
 		map = "BG_02",
@@ -830,7 +956,36 @@ slot0.enemy_buff_data = {
 slot0.enemy_round_buff = {
 	{
 		id = 1,
-		buffs = {}
+		buffs = {
+			{
+				type = slot0.enemy_buff_slow,
+				rate = {
+					3,
+					100
+				}
+			},
+			{
+				type = slot0.enemy_buff_back,
+				rate = {
+					3,
+					100
+				}
+			},
+			{
+				type = slot0.enemy_buff_boom,
+				rate = {
+					3,
+					100
+				}
+			},
+			{
+				type = slot0.enemy_buff_concentrate,
+				rate = {
+					3,
+					100
+				}
+			}
+		}
 	},
 	{
 		id = 2,
@@ -838,28 +993,28 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
-					30
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
-					30
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
+					3,
 					100
 				}
 			}
@@ -871,29 +1026,29 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
-					30
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
-					30
+					3,
+					100
 				}
 			}
 		}
@@ -904,28 +1059,28 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
+					3,
 					100
 				}
 			}
@@ -937,29 +1092,29 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
-					50
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
-					50
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
-					50
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
-					50
+					3,
+					100
 				}
 			}
 		}
@@ -970,36 +1125,36 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
-					40
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
-					40
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
-					40
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
-					40
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_streng,
 				rate = {
 					1,
-					200
+					100
 				}
 			}
 		}
@@ -1010,29 +1165,29 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
-					35
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
-					35
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
-					35
+					3,
+					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
-					35
+					3,
+					100
 				}
 			},
 			{
@@ -1050,35 +1205,35 @@ slot0.enemy_round_buff = {
 			{
 				type = slot0.enemy_buff_slow,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_back,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_boom,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_concentrate,
 				rate = {
-					1,
+					3,
 					100
 				}
 			},
 			{
 				type = slot0.enemy_buff_streng,
 				rate = {
-					1,
+					3,
 					100
 				}
 			}

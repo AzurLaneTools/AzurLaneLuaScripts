@@ -47,10 +47,10 @@ slot3 = "skill trigger"
 slot4 = "skill passive"
 slot6 = "skill type press"
 slot7 = "skill type passive"
-slot0.buff_amulet_back_time = 0.3
+slot0.buff_amulet_back_time = 0.4
 slot0.buff_panic_fire_speed = 1
-slot0.buff_panic_enemy_rate = 6
-slot0.buff_sleep_butterfly_time = 2.5
+slot0.buff_panic_enemy_rate = 5
+slot0.buff_sleep_butterfly_time = 2
 slot0.slash_split_time = 0.5
 slot0.stop_enemy_time = 10
 slot0.buff_amulet_back = 1
@@ -143,7 +143,7 @@ slot0.player_skill = {
 		}
 	},
 	{
-		cd_time = 50,
+		cd_time = 60,
 		play_time = 1.3,
 		name = "player2SkillA",
 		skill_direct = false,
@@ -153,7 +153,7 @@ slot0.player_skill = {
 		buff = {}
 	},
 	{
-		cd_time = 25,
+		cd_time = 22,
 		play_time = 1.3,
 		name = "player3SkillA",
 		skill_direct = false,
@@ -344,6 +344,8 @@ function slot17(slot0, slot1, slot2)
 			LaunchBallGameVo.buffs = slot0.buffs
 
 			for slot4 = 1, #slot0.skills do
+				slot0.skills[slot4].time = slot0.skills[slot4].data.cd_time
+
 				if slot0.skills[slot4].data.type == uv2 then
 					for slot9 = 1, #slot0.skills[slot4].data.buff do
 						table.insert(slot0.buffs, {
@@ -565,6 +567,7 @@ function slot17(slot0, slot1, slot2)
 					slot0.useSkillTime = LaunchBallGameVo.gameStepTime
 				end
 
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(LaunchBallGameVo.SFX_PRESS_SKILL)
 				LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_use_skill, 1)
 			end
 

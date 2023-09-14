@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			hideOther = true,
-			actorName = "霞&初月",
+			actorName = "{namecode:180}&{namecode:189}",
 			hidePaintObj = true,
 			say = "非常满意！\n太吓人了！",
 			subActors = {

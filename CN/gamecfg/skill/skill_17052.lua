@@ -2,7 +2,6 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = "daofeng",
 	id = 17052,
 	picture = "0",
 	desc = "",

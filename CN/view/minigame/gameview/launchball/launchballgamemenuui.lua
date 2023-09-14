@@ -131,7 +131,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 		end, SFX_CONFIRM)
 		table.insert(slot0.players, {
 			tf = slot9,
-			data = slot8
+			data = slot8,
+			anim = GetComponent(findTF(slot9, "ad/icon"), typeof(Animator))
 		})
 	end
 
@@ -139,6 +140,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	setActive(slot0.skillDetailPanel, false)
 	onButton(slot0._event, findTF(slot0.skillDetailPanel, "ad"), function ()
+		setActive(uv0.skillDetailPanel, false)
+	end, SFX_CANCEL)
+	onButton(slot0._event, findTF(slot0.skillDetailPanel, "ad/btnOk"), function ()
 		setActive(uv0.skillDetailPanel, false)
 	end, SFX_CANCEL)
 
@@ -153,8 +157,10 @@ function slot0.selectPlayer(slot0, slot1)
 	for slot5 = 1, #slot0.players do
 		if slot0.players[slot5].data.id == slot1 then
 			setActive(findTF(slot0.players[slot5].tf, "ad/select"), true)
+			slot0.players[slot5].anim:Play("Attack")
 		else
 			setActive(findTF(slot0.players[slot5].tf, "ad/select"), false)
+			slot0.players[slot5].anim:Play("Idle")
 		end
 	end
 

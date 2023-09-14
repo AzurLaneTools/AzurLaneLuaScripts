@@ -157,7 +157,13 @@ function slot0.UpdateRecord(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. slot2.icon, "", slot1:Find("icon/Image"))
 	end
 
-	setText(slot1:Find("name"), slot2.name or "")
+	if slot2.name and slot2.nameColor then
+		slot1:Find("name"):GetComponent(typeof(Outline)).effectColor = Color.NewHex(string.gsub(slot2.nameColor, "#", ""))
+
+		setText(slot1:Find("name"), setColorStr(slot2.name, slot2.nameColor))
+	else
+		setText(slot1:Find("name"), slot2.name or "")
+	end
 
 	slot4 = UIItemList.New(slot1:Find("content"), slot1:Find("content/Text"))
 

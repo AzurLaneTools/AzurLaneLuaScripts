@@ -33,9 +33,32 @@ slot10 = -150
 slot11 = 0.5
 slot12 = 500
 slot13 = -500
-slot14 = 15
+slot14 = 10
+slot15 = {
+	{
+		anim_name = "01_Yellow"
+	},
+	{
+		anim_name = "02_Green"
+	},
+	{
+		anim_name = "03_White"
+	},
+	{
+		anim_name = "04_Red"
+	},
+	{
+		anim_name = "05_Blue"
+	},
+	{
+		anim_name = "06_Black"
+	},
+	{
+		anim_name = "07_Purple"
+	}
+}
 
-function slot15(slot0, slot1)
+function slot16(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._tf = uv0
@@ -59,6 +82,9 @@ function slot15(slot0, slot1)
 			if not slot0.buffIcon then
 				slot0.buffIcon = findTF(slot0._tf, "ad/iconEffect")
 			end
+
+			slot0._effectTf = findTF(slot0._tf, "ad/effect")
+			slot0._playEffects = {}
 		end,
 		setData = function (slot0, slot1, slot2)
 			slot0:clear()
@@ -71,6 +97,11 @@ function slot15(slot0, slot1)
 
 			for slot6 = 0, slot0.buffIcon.childCount - 1 do
 				setActive(slot0.buffIcon:GetChild(slot6), false)
+			end
+
+			for slot6 = #slot0._playEffects, 1, -1 do
+				setActive(slot0._playEffects[slot6].tf, false)
+				table.remove(slot0._playEffects, slot6)
 			end
 
 			slot0:stopAnim(false)
@@ -136,6 +167,19 @@ function slot15(slot0, slot1)
 				if slot0.timeToRemove <= 0 then
 					slot0.timeToRemove = nil
 					slot0.removeFlag = true
+				end
+			end
+
+			if #slot0._playEffects > 0 then
+				for slot4 = #slot0._playEffects, 1, -1 do
+					if slot0._playEffects[slot4].time then
+						slot5.time = slot5.time - LaunchBallGameVo.deltaTime
+					end
+
+					if slot5.time and slot5.time <= 0 then
+						setActive(slot5.tf, false)
+						table.remove(slot0._playEffects, slot4)
+					end
 				end
 			end
 		end,
@@ -264,10 +308,26 @@ function slot15(slot0, slot1)
 				slot0.hp = 0
 			end
 
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(LaunchBallGameVo.SFX_ENEMY_REMOVE)
+
+			if slot0:getBuff(LaunchBallGameConst.enemy_buff_boom) then
+				slot0:playEffectAnim("Bomb", uv0[slot0:getColor()].anim_name, 0.2)
+			end
+
 			slot0:stopAnim(false)
 			slot0:playAnimation("Remove")
 
-			slot0.timeToRemove = uv0
+			slot0.timeToRemove = uv1
+		end,
+		playEffectAnim = function (slot0, slot1, slot2, slot3)
+			slot4 = findTF(slot0._effectTf, slot1)
+
+			setActive(slot4, true)
+			GetComponent(slot4, typeof(Animator)):Play(slot2)
+			table.insert(slot0._playEffects, {
+				tf = slot4,
+				time = slot3
+			})
 		end,
 		getTimeRemove = function (slot0)
 			return slot0.timeToRemove
@@ -467,15 +527,19 @@ end
 
 function slot0.checkRemoveEnemy(slot0)
 	for slot4, slot5 in ipairs(slot0.enemysList) do
-		for slot9 = #slot5, 1, -1 do
-			slot5[slot9]:step()
+		slot6 = false
 
-			if slot5[slot9]:getRemoveFlag() then
-				if slot5[slot9]:getBuff() then
-					slot0:appearEnemyBuff(slot10, slot9, slot5[slot9], slot5)
+		for slot10 = #slot5, 1, -1 do
+			slot5[slot10]:step()
+
+			if slot5[slot10]:getRemoveFlag() then
+				if slot5[slot10]:getBuff() then
+					slot0:appearEnemyBuff(slot11, slot10, slot5[slot10], slot5)
 				end
 
-				slot0:returnEnemy(table.remove(slot5, slot9))
+				slot0:returnEnemy(table.remove(slot5, slot10))
+
+				slot6 = true
 			end
 		end
 	end
@@ -492,6 +556,10 @@ function slot0.checkRemoveEnemy(slot0)
 						slot11:setTimeRemove()
 
 						slot1 = slot1 + 1
+
+						slot0._eventCall(LaunchBallGameScene.SPILT_ENEMY_SCORE, {
+							num = LaunchBallGameVo.GetScore(1, 1)
+						})
 					end
 				end
 			end
@@ -522,6 +590,12 @@ function slot0.appearEnemyBuff(slot0, slot1, slot2, slot3, slot4)
 		slot0.backEnemyTime = slot5.time
 		slot0.backSpeed = uv0
 		slot0.moveBackIndex = #slot4
+
+		if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
+			slot0.backEnemyTime = slot0.backEnemyTime * 1.3
+
+			LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_use_pass_skill, 1)
+		end
 	elseif slot1 == LaunchBallGameConst.enemy_buff_boom then
 		slot6 = slot3:getDistance()
 		slot7 = slot5.distance
@@ -529,6 +603,9 @@ function slot0.appearEnemyBuff(slot0, slot1, slot2, slot3, slot4)
 		for slot11 = 1, #slot4 do
 			if not slot4[slot11]:getRemoveFlag() and math.abs(slot4[slot11]:getDistance() - slot6) <= slot7 then
 				slot4[slot11]:setTimeRemove()
+				slot0._eventCall(LaunchBallGameScene.SPILT_ENEMY_SCORE, {
+					num = LaunchBallGameVo.GetScore(1, 1)
+				})
 			end
 		end
 	elseif slot1 == LaunchBallGameConst.enemy_buff_concentrate then
@@ -726,11 +803,19 @@ function slot0.checkEnemySplit(slot0)
 
 					slot12:setSplitFlag(false)
 
-					if slot14 >= 3 and slot15 then
+					if slot14 >= 3 or slot15 then
 						slot0.seriesCount = slot0.seriesCount + 1
 
 						if slot0.splitFireIndex and slot0.fireIndex <= slot0.splitFireIndex + 1 then
 							LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_series_count, 1)
+
+							if not slot0.seriesCombat then
+								slot0.seriesCombat = 1
+							else
+								slot0.seriesCombat = slot0.seriesCombat + 1
+							end
+						else
+							slot0.seriesCombat = 0
 						end
 
 						if slot0.amuletOverFlag then
@@ -742,7 +827,7 @@ function slot0.checkEnemySplit(slot0)
 						break
 					end
 
-					slot0.seriesCount = 1
+					slot0.seriesCombat = 0
 
 					break
 				end
@@ -849,11 +934,7 @@ function slot0.checkSplit(slot0, slot1, slot2)
 	end
 
 	if slot4 >= 3 then
-		if slot0.seriesCount < 2 then
-			slot6 = true
-		elseif slot7 > 0 and slot8 > 0 then
-			slot6 = true
-		end
+		slot6 = true
 	end
 
 	if slot4 >= 3 and not slot6 then
@@ -877,7 +958,7 @@ function slot0.checkSplit(slot0, slot1, slot2)
 			})
 
 			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-				LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, slot4 * 5)
+				LaunchBallGameVo.UpdateGameResultData(LaunchBallGameVo.result_skill_count, slot4)
 			end
 		end
 
@@ -1005,8 +1086,12 @@ function slot0.getEnemyBuff(slot0)
 		if slot7 then
 			slot9 = slot6.rate[1]
 
-			if slot6.type == LaunchBallGameConst.enemy_buff_slow and LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
-				slot9 = slot9 + 5
+			if LaunchBallGameVo.GetBuff(LaunchBallPlayerControl.buff_time_max) then
+				if slot6.type == LaunchBallGameConst.enemy_buff_slow then
+					slot9 = slot9 + 2
+				elseif slot6.type == LaunchBallGameConst.enemy_buff_back then
+					slot9 = slot9 + 2
+				end
 			end
 
 			if math.random(1, slot8[2]) <= slot9 then
@@ -1147,6 +1232,10 @@ function slot0.getEnemyRule(slot0)
 	end
 
 	if slot3 then
+		if not slot0.enemyRule[slot3] then
+			print("create id not exit " .. slot3)
+		end
+
 		slot4 = slot0.enemyRule[slot3]
 		slot5 = slot4.id
 		slot6 = slot4.enemy_create.count

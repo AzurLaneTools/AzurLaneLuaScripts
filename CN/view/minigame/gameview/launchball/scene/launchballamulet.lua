@@ -355,6 +355,8 @@ end
 
 function slot0.fireAmulet(slot0)
 	if slot0.amuletL then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(LaunchBallGameVo.SFX_FIRE)
+
 		slot0.amuletPos.x = math.cos(slot0.rad) * uv0
 		slot0.amuletPos.y = math.sin(slot0.rad) * uv0
 		slot0.amuletL.tf.anchoredPosition = slot0.amuletPos
@@ -381,6 +383,8 @@ function slot0.fireAmulet(slot0)
 end
 
 function slot0.randomFireAmulet(slot0, slot1)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(LaunchBallGameVo.SFX_FIRE)
+
 	slot6 = slot0
 	slot2 = slot0:getAmulete(uv0, slot0.getRandomAmuletType(slot6))
 
@@ -494,11 +498,13 @@ function slot0.createButterfly(slot0)
 	slot1 = tf(instantiate(slot0._butterflyTpl))
 	slot1.anchoredPosition = Vector2(math.random(1, 20), math.random(1, 20))
 	slot4 = math.deg2Rad * math.random(1, 360)
+	slot6 = 3
+	findTF(slot1, "ad/anim").localScale = Vector3(Vector2(math.cos(slot4) * uv0, math.sin(slot4) * uv0).x > 0 and -1 * slot6 or 1 * slot6, slot6, slot6)
 
 	table.insert(slot0.butterflys, {
 		tf = slot1,
 		anim = GetComponent(findTF(slot1, "ad/anim"), typeof(Animator)),
-		speed = Vector2(math.cos(slot4) * uv0, math.sin(slot4) * uv0)
+		speed = slot5
 	})
 	setParent(slot1, slot0._content)
 	setActive(slot1, true)

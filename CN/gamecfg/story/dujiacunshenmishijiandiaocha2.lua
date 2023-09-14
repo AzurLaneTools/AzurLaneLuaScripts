@@ -1246,7 +1246,7 @@ return {
 			factiontag = "现在是剧团长zzz",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于演出之事，不只阁下可否能容吾等继续进行呢……？",
+			say = "关于演出之事，不知阁下可否能容吾等继续进行呢……？",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",

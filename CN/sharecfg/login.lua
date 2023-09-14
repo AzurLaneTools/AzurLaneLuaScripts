@@ -997,7 +997,7 @@ pg.login = {
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
-		bgm = "story-musicanniversary-gorgeous",
+		bgm = "",
 		date = {
 			"timer",
 			{
