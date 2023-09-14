@@ -31248,7 +31248,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 41317,
-		is_show = 32,
+		is_show = 49,
 		id = 41317,
 		config_data = {},
 		time = {
@@ -31511,7 +31511,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 33,
+		is_show = 50,
 		config_data = {
 			1680001,
 			1680002,
@@ -31704,7 +31704,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 46,
-		is_show = 22,
+		is_show = 48,
 		id = 41326,
 		config_data = {},
 		time = {
@@ -31746,7 +31746,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 26,
+		is_show = 46,
 		id = 41327,
 		config_data = {},
 		time = {
@@ -32318,7 +32318,7 @@ pg.activity_template = {
 		type = 105,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 27,
+		is_show = 47,
 		config_data = {
 			{
 				900599,

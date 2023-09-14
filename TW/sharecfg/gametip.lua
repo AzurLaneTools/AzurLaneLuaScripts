@@ -21128,86 +21128,86 @@ cs.gametip = {
 	},
 	jp6th_lihoushan_help = {
 		739751,
-		1928,
+		1952,
 		true
 	},
 	jp6th_lihoushan_time = {
-		741679,
+		741703,
 		116,
 		true
 	},
 	jp6th_lihoushan_order = {
-		741795,
+		741819,
 		110,
 		true
 	},
 	jp6th_lihoushan_pt1 = {
-		741905,
+		741929,
 		113,
 		true
 	},
 	launchball_minigame_help = {
-		742018,
+		742042,
 		357,
 		true
 	},
 	launchball_minigame_select = {
-		742375,
+		742399,
 		111,
 		true
 	},
 	launchball_minigame_un_select = {
-		742486,
+		742510,
 		133,
 		true
 	},
 	launchball_minigame_shop = {
-		742619,
+		742643,
 		107,
 		true
 	},
 	launchball_lock_Shinano = {
-		742726,
+		742750,
 		165,
 		true
 	},
 	launchball_lock_Yura = {
-		742891,
+		742915,
 		162,
 		true
 	},
 	launchball_lock_Shimakaze = {
-		743053,
+		743077,
 		166,
 		true
 	},
 	launchball_spilt_series = {
-		743219,
+		743243,
 		151,
 		true
 	},
 	launchball_spilt_mix = {
-		743370,
+		743394,
 		233,
 		true
 	},
 	launchball_spilt_over = {
-		743603,
+		743627,
 		191,
 		true
 	},
 	launchball_spilt_many = {
-		743794,
+		743818,
 		168,
 		true
 	},
 	luckybag_skin_isani = {
-		743962,
+		743986,
 		95,
 		true
 	},
 	luckybag_skin_islive2d = {
-		744057,
+		744081,
 		93,
 		true
 	}
