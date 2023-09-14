@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "黑暗中出现了一束光，她伸手想要抓住。",
+			say = "After wading through the darkness for who knows how long, a ray of light finally shone through to Owari.",
 			blackBg = true,
 			bgm = "theme-sakuraholyplace",
 			typewriter = {
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Mmgghh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "头昏昏沉沉的，就像是刚刚被什么东西重击过一样。",
+			say = "Her head was heavy. She had been subjected to far too many apparitions, or possibly visions of the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "摸了摸脑后，没感觉到有受伤的痕迹。",
+			say = "She ran her hand along her nape and felt the back of her head. No signs of injury.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "身体在不断地摇晃。",
+			say = "Strangely, though, it felt as though her feet weren't touching the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "所有的重量似乎都集中在了腰部，四肢有种奇妙的垂坠感。",
+			say = "It didn't feel like she was standing, but rather lying down – suspended in the air like with strings, something gripping her waist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "我难道被什么东西拎着在飞……？",
+			say = "The heck is this... The wind? Did a hawk capture me or somethin'?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "奇怪……怎么睁不开眼。",
+			say = "Can't even open my eyes. Dammit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "这，这就是人们常说的“梦魇”吧！",
+			say = "Startin' to think this is some kinda sleep paralysis... Or a nightmare...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "真是的，快点想起来啊，之前究竟发生了什么……",
+			say = "What was I doing before this? I can't remember...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "混乱的记忆开始在脑中翻涌，而她想要从无数繁杂的画面中找到正确的方向。",
+			say = "Her memories were a jarbled mess. It was a struggle to remember much of anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,25 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "哦，对了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			actor = 305130,
-			hidePaintObj = true,
-			dir = 1,
-			blackBg = true,
-			nameColor = "#A9F548FF",
-			say = "那个时候，不知为何，我竟然看到了{namecode:74}大人和{namecode:84}大人在神木之下的身影。",
+			say = "Oh, right!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +189,25 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "她们……好像在和什么战斗？是错觉吗……",
+			say = "I remember seeing Lady Nagato and Musashi over by the Prime Sakura!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			actor = 305130,
+			hidePaintObj = true,
+			dir = 1,
+			blackBg = true,
+			nameColor = "#A9F548FF",
+			say = "And they were, like, fighting something? Wait, nah, that's not right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人她们，原来在很多年以前就曾一同来到大圣域吗……",
+			say = "That ain't one of my memories, it's an event the Prime Sakura recorded waaay back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "这么说来，之前脑中出现的呼唤，那到底是……",
+			say = "Why would it show me that, though? Something, something, \"come to the tree\"... Sounds creepy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "头痛欲裂，她不得不停止思考。",
+			say = "A headache came over her and she was forced to stop thinking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "身体的失重感消失了，泥土和草木的香气让人感到安心。",
+			say = "Some time passed, and eventually, the feeling of being suspended wore off. She could feel the sanctuary's soil beneath her feet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "这是降落在什么地方了吗……？",
+			say = "...Am I back on the ground again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "睁开眼，不远处是哨所升起的炊烟。",
+			say = "This time when she opened her eyes, her vision had returned to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "她回头望向大神木的方向，草地在风的吹拂下泛起波浪。",
+			say = "Flowing rivers, lush fields of grass, and the Prime Sakura's great pink canopy all laid before her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,8 +339,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "我回来了？简直就像是做梦一样……",
+			actorName = "Mmgghh...",
+			say = "Guess I'm back? Some weird-ass nightmare that was...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,8 +357,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "还是先回去一趟再说，感觉……有什么大事将要发生了。",
+			actorName = "Mmgghh...",
+			say = "Got the feelin' something ain't right. I'd better hurry back to the outpost.",
 			painting = {
 				alpha = 0.3,
 				time = 1

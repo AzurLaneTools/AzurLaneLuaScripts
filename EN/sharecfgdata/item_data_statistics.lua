@@ -204435,7 +204435,7 @@ _G.pg.base.item_data_statistics[59484] = {
 }
 
 _G.pg.base.item_data_statistics[59485] = {
-	display = "用于「须臾望月抄」活动兑换，活动结束后将会消失",
+	display = "Used to exchange for items in \"Effulgence Before Eclipse.\" Will be removed after the event ends.",
 	name = "Sakura Emblems",
 	max_num = 0,
 	type = 98,

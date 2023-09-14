@@ -8789,7 +8789,7 @@ pg.base.skill_data_display = {
 	},
 	[17051] = {
 		id = 17051,
-		name = "荡涤诸恶"
+		name = "Exorcism for the Mortal Realm"
 	},
 	[17060] = {
 		id = 17060,
@@ -13341,23 +13341,23 @@ pg.base.skill_data_display = {
 	},
 	[200584] = {
 		id = 200584,
-		name = "无形侵蚀"
+		name = "Encroaching Dark Mist"
 	},
 	[200587] = {
 		id = 200587,
-		name = "根源加护"
+		name = "Sacred Sakura's Protection"
 	},
 	[200591] = {
 		id = 200591,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[200594] = {
 		id = 200594,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[200597] = {
 		id = 200597,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[1011540] = {
 		id = 1011540,

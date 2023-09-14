@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "眼前的景色慢慢变换，像是被侵蚀变色的电影胶片一般。",
+			say = "When the Great Sage began the ritual, the scenery before them changed.",
 			bgm = "story-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "大神木枯萎了，曾经繁密的枝干迅速干枯龟裂，直到再也看不到一点生息。",
+			say = "The magnificent Prime Sakura abruptly began to wither, the flowers and leaves upon its intricate branches falling as if all life had been drained from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "请展开结界，{namecode:74}大人。",
+			actorName = "Lady Nagato, now! Go into the seal!",
+			say = "Lady Nagato, now! Go into the seal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "若隐若现的结界笼罩了众人。",
+			say = "Before the impure darkness could overwhelm them, they stepped into the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "下一个瞬间，大地崩裂。",
+			say = "The earth shattered, and a black haze spewed forth like a geyser.",
 			bgm = "theme-sakuraholyplace",
 			flashout = {
 				black = false,
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "黑色的气息喷涌而出。",
+			say = "Chunks of ground that had been thrown into the air continued to float, as if gravity no longer had any effect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "爆炸撕裂了大地，破碎的地面被抛向空中，如孤岛般悬浮着。",
+			say = "They were now in the Prime Sakura, where the Watatsumi star fragment lay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一团闪烁的光芒自中心亮起，尔后又迸射出璀璨的光辉。",
+			say = "Light shone from what seemed to be the tree's roots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "中心光芒的上方，大神木粗壮的根茎被生生扯断。",
+			say = "The deeply-embedded roots were yanked out of the ground before rising up into the air with the rest of the massive tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "樱色的碎晶化为了晶莹的环带。",
+			say = "Lumps of earth looked like shining pink crystals as they reflected the dazzling light around them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "这是枯萎的遗骸，亦是夺目的丰碑。",
+			say = "Despite knowing that not everything they saw was necessarily reality, the group was overwhelmed by the sight of the inner seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "何等的伟力……",
+			say = "Such power...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -208,7 +208,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这便是大神木的核心……",
+			say = "Is this Watatsumi...? No, the core of that crystal—",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -226,7 +226,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟了……{namecode:74}——！",
+			say = "Huh?! Lady Nagato!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			side = 2,
-			say = "顾不上思考，{namecode:84}纵身一跃，跳入了黑暗的虚空之中。",
+			say = "Sensing danger, Musashi rushed over to Nagato's side with sword in hand.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "唯一值得庆幸的是，这不是一个人的战斗。",
+			say = "Even as the devouring darkness threatened to swallow the two of them whole, Nagato focused herself entirely on communing with Watatsumi.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:74}闭上双眼，努力感受来自海若的力量。",
+			say = "She closed her eyes tight, focusing every fiber of her being into feeling the star fragment's lingering power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "中心闪烁的光，就像是黑暗中的绳索，为{namecode:74}指引着根源的存在。",
+			say = "She reached for the light in the distant darkness, like navigating towards a lighthouse on a dark stormy night, like grasping for a tree's roots when caught in a flood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "她抓住了。",
+			say = "Then, finally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "封印术式·终——",
+			say = "Shard of the fallen star! Shine your light upon my path forth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人！",
+			say = "Lady Nagato!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "紫色的刀光斩断了黑色的气息。",
+			say = "With a violet spark, the dark mist reaching out to seize the girl from behind was snuffed out.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "真是千钧一发……感谢汝的救援，{namecode:84}大人。",
+			say = "That was too close... Thank you, Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "术式总算生效了。",
+			say = "I've made contact with Watatsumi. Now, we can proceed to the center of the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "在术法的加持下，仿佛有一股看不见的洋流自虚空之中浮现。",
+			say = "As a result of the ritual, the void around the shipgirls changed. Now, an invisible sea spread out beneath their feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾等可以像往常那样滑行移动……随吾来。",
+			say = "This will make movement and fighting easier. I'll lead the way now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海若正在被侵蚀影响，吾需要为它施展术式，请掩护吾。",
+			say = "Musashi, stay on guard. Something is eroding the seal, trying to break through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "发光的线条在海若周围缓慢地绘制着复杂的图形。",
+			say = "Countless rays of light slowly extended from Watatsumi in the center of the darkness, drawing some kind of pattern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "那些纹理螺旋生长着，这过程是如此漫长，却坚定不移地指向了海若。",
+			say = "An enormous gate, symbolizing the sealing ritual itself, had appeared before them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "跟随着光的指引前进，{namecode:84}，有东西来了！",
+			say = "I'm going into the center now... Huh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主炮齐射——！",
+			say = "Main cannons, prepare for salvo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "炮火虽无法击溃黑色的气息，却能阻止其凝聚成形。",
+			say = "Nagato fired her cannons, crushing the approaching black mist. However, she did not erase it entirely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_yunxian_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "右满舵！",
+			say = "Right rudder, sharp turn!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "唔——！",
+			say = "Huh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "黑色气息形成的巨口向她们袭来。",
+			say = "The dark haze took the form of a giant beast, opening its maw to attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……！",
+			say = "Urgh...!!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:84}召出舰装，臂铠顶住了怪物的尖牙。",
+			say = "Musashi immediately materialized her rigging and used her turret's plating to stop the beast's bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "齐射！",
+			say = "Hold it back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:84}的主炮喷出火舌，炮弹在空中炸成扇形，将黑色的气息撕裂。",
+			say = "Musashi's main guns fired shells that exploded in mid-air, sending pellets forth in a fan shape that tore through the beast of black mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人！",
+			say = "Lady Nagato!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白，立刻换装三式弹！",
+			say = "I know! Type 3 shells...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主炮齐射——！",
+			say = "Main cannons, prepare for salvo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "密集的弹幕命中目标，将那怪物再一次还原回了弥漫的雾气——",
+			say = "Another thick hail of shells struck the beast, causing its physical form to disperse back into the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心！有陷阱！！",
+			say = "Look out, Musashi! It's a trap!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "巨大的尖牙令臂铠变形破裂，舰装的一部分被撕扯下来，随后是刺眼的火光和连续不断的爆炸声。",
+			say = "The dispersed darkness tore into Musashi's armor like a giant maw, a shower of sparks erupting as a portion of her rigging was torn straight off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧——！",
+			say = "Nngh...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -811,7 +811,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有凝结全部躯体，而是单纯凝结出了一张用来咬人的嘴！",
+			say = "So you created just a maw instead of an entire body that we can shoot at, huh?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -828,7 +828,7 @@ return {
 			bgName = "bg_yunxian_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这怪物是越学越聪明了！",
+			say = "Not bad... Looks like even monsters are capable of learning...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -846,7 +846,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在只能硬来了！",
+			say = "But I won't let you interrupt Lady Nagato!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -864,7 +864,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冲击准备！",
+			say = "If cannons won't work... How about facing my lightning?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -880,7 +880,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "——嗡！",
+			say = "–––KRRZZSHHH!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "自虚空某处发射的剑气将黑色的气息斩成两半。",
+			say = "Faster than the eye could react, Musashi's sword had already found its way through the dark mist.",
 			flashN = {
 				color = {
 					1,
@@ -941,7 +941,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "在接触到刀光的瞬间，气息蒸腾挥发。",
+			say = "Where lightning flash met darkness, the mist seemed to melt away into nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "像是炽热铁板上的水汽，带着沙哑的嘶吼消失殆尽。",
+			say = "It sputtered and sizzled with a hoarse screech, like droplets of water sublimating on a hot iron plate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			bgName = "bg_yunxian_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大贤者出手了。",
+			say = "I thought we had been cut off, Great Sage, but I see you're still protecting us.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -982,7 +982,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多数的黑色气息都被大贤者吸引去了，她正在为我们争取时间。",
+			say = "The mist is weaker here now. Lady Nagato, let's move on!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -999,7 +999,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "{namecode:84}将余下的舰装一并解除，只留下了一柄刀。",
+			say = "Musashi shed the rest of her rigging and rushed forward with her blade drawn.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -1012,7 +1012,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "她将刀刃竖起到眉间。",
+			say = "Then, she looked to the black mist blocking the way forward and readied her sword.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -1026,7 +1026,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万钧之雷霆，听吾号令……",
+			say = "Thunderbolt that shines through eternal night, gather upon my blade.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1044,7 +1044,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "紫电一闪——！",
+			say = "With this strike, I carve a way forward!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1065,7 +1065,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "雷电如疯长的藤蔓肆意延伸，撑住了黑色气息尚未来得及闭合的空隙。",
+			say = "Lightning shot from Musashi's katana, brushing aside the darkness and clearing the way in front of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1078,7 +1078,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "加速通过这里！",
+			say = "It won't hold for long! We must press on!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

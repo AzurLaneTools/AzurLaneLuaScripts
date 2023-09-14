@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "重樱群岛·{namecode:74}宅邸·庭院",
+			say = "Past – Nagato's Abode",
 			bgm = "newyear2",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "？？年前",
+			say = "Before the Great Sage would become the foundation of the new seal in the Prime Sakura's sanctuary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "洁白的茶盏中斟满了清澈的茶水。",
+			say = "In a room for treating guests, Kawakaze, a disciple of the Guardian Fox, placed white cups of fresh tea in front of a guest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "{namecode:158}将茶轻轻推到众人面前。",
+			say = "Though her etiquette was rather simple, the refreshing aroma of the fresh tea was proof that the host would never neglect their guests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,42 +57,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "她退到了房间外，轻轻将门合上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "大贤者，你刚才说大神木已经开始枯萎。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "但我们也只是才收到了一例神木枯萎的汇报。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "After repeating this process several times, Kawakaze bowed, opened the sliding door, and gracefully exited the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +71,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "这件事居然和大神木有关吗……",
+			say = "Great Sage, I'd like to talk about the withering of the Prime Sakura you informed us of.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_142",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I've looked into it, and I've received one other report of a Sacred Sakura withering...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_142",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "Are these two situations related?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,8 +122,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "二位有一事不知。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "I have to apologize. There's something I haven't disclosed to you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,9 +135,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "重樱各处的神木都与这大神木存在着联系。",
+			say = "The roots of every Sacred Sakura in this empire are all connected to the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "当其中的一些根系因为遭受侵蚀而断裂。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "If the roots are severed by the erosion, even these hallowed trees will not be able to recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,8 +162,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "与之相连的神木失去给养，很快便会死去。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "They will be cut off from nutrients, and eventually wither.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,9 +175,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "这便是神木枯萎的原因。",
+			say = "As for the report you received, its cause can be traced back to the Prime Sakura itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "微风渐起，扬起花瓣。",
+			say = "A breeze blew through the window, bringing in some flower petals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "其中的一瓣竟飘落到了她的茶盏之中。",
+			say = "One of them happened to fall right into the Great Sage's teacup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,9 +211,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "落花捎来讯息。",
+			say = "Even this one petal of the Sacred Sakura...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,8 +225,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "嗯……神木的枯萎，已经蔓延到了整个重樱。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "...Shows that the erosion is spreading throughout all the nation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,9 +238,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "最终……大神木也会迎来同样的命运。",
+			say = "If left alone, the Prime Sakura and all of its children will wither.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "无法阻止这一切吗……不……",
+			say = "Hmm... If that is true, then we have to resolve this as soon as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "大贤者。若能找到侵蚀的源头，是不是就可以……",
+			say = "Great Sage, can we presume that the source of the erosion is somewhere within the Prime Sakura?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,9 +288,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人是否认为，这源头就在那棵枯萎的神木之上？",
+			say = "I suppose you could say that it is \"somewhere\" inside of it, yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "与大贤者对视，{namecode:84}从她的眼中得到了否定的答案。",
+			say = "The Great Sage said, evasively, before continuing to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,9 +313,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "侵蚀的源头就是大神木本身。",
+			say = "More precisely, the Prime Sakura itself is the source.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "怎么会……",
+			say = "What...?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "她望着杯中的花瓣，没有回答。",
+			say = "Nagato was surprised, but the Great Sage offered no further explanation. She simply stared at the petal floating in her teacup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "守在门外的{namecode:158}轻轻叩门。",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "何事？",
+			say = "Kawakaze?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回{namecode:74}大人，晚宴已经就绪，大家都在等您。",
+			say = "Lady Nagato, the dinner party is ready. Everyone is waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大贤者，这段时间恰巧赶上世界海军学院的代表访问，实在是分身乏术。",
+			say = "...I'm sorry to cut the conversation short, but I have important guests to entertain over the coming days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "恳请大贤者多留几日，待访问结束，再从长计议。",
+			say = "I understand you're a wanderer, but would you please stay here until I'm done? We can plan to deal with the Sacred Sakura problem then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "大贤者将双手放在膝上，微微颔首，闭目思考着。",
+			say = "After the Guardian Fox's request, the Great Sage closed her eyes in quiet thought for two, three seconds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "微风阵阵，风铃声声。",
+			say = "The sound of wind chimes traveled through the window and into the spacious room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,8 +459,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "{namecode:74}大人，那我暂留的这几日就麻烦您了。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "...I would like to take you up on that offer, Guardian Fox.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "紧张的气氛稍微缓和了一些。",
+			say = "Nagato's expression softened slightly. That was exactly what she wanted to hear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "{namecode:74}向二人作别，神情略显匆忙。",
+			say = "After drinking down the tea given to her, she stood up and followed her aide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "待脚步声远去之后——",
+			say = "Once the little girl's footsteps had faded into the distance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,9 +505,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人。",
+			say = "Musashi, I'd like to ask you one more thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,8 +519,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "令妹近况如何。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "How is Shinano doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "大贤者，{namecode:182}她……",
+			say = "...I see there's no point trying to hide anything from you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,8 +550,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "我知道，但……我能见见她吗。",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			say = "Sorry to trouble you. But... Could you let me meet her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "若是您的要求，我不敢多言。",
+			say = "If that is your request, then I won't decline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "只是今日天色已晚，不知大贤者是否介意明日再去探访？",
+			say = "But it's too late today. Let us plan for another... No, I'm sure tomorrow will do just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,9 +598,9 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
 			nameColor = "#A9F548FF",
-			say = "照你的安排便可。",
+			say = "Thank you. Tomorrow is perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "那么我就先行告退，去处理相关事宜。",
+			say = "Now, I have other business to attend to, as well. Spend your time as you please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "{namecode:84}离开了房间，这里只剩下了大贤者一人。",
+			say = "Finally, the Great Sage was left alone in the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "她望向庭院，欣赏其中的美景，不远处的湖面闪着粼粼波光。",
+			say = "She had no plans for some time, so she decided to enjoy the rest of her tea as she admired the courtyard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "夜幕即将降临。",
+			say = "It was already evening. Golden light reflected on the lake water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "她起身走到湖边，思绪却已经飘到了别处。",
+			say = "Perhaps she ought to pay a visit to the dinner party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

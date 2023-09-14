@@ -3668,7 +3668,7 @@ pg.base.memory_group = {
 		icon = "title_event",
 		type = 2,
 		link_event = 5001,
-		title = "须臾望月抄",
+		title = "Effulgence Before Eclipse",
 		memories = {
 			2961,
 			2962,

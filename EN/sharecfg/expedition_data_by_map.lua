@@ -15351,7 +15351,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750025] = {
 		map = 1750025,
-		name = "Effulgence Before Eclipse·SP|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -15395,7 +15395,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750026] = {
 		map = 1750026,
-		name = "Effulgence Before Eclipse·EX|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

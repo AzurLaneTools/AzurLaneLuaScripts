@@ -11,9 +11,9 @@ return {
 			nameColor = "#A9F548FF",
 			stopbgm = true,
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "\"To the sanctuary, where the Prime Sakura is...\"",
 			blackBg = true,
-			say = "“……到大圣域来。”",
+			say = "\"To the sanctuary, where the Prime Sakura is...\"",
 			bgm = "theme-sakuraholyplace",
 			typewriter = {
 				speed = 0.05,
@@ -22,11 +22,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "\"To the sanctuary, where the Prime Sakura is...\"",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "“在大神木的见证下，我将向你们揭示真相。”",
+			say = "\"Come to its trunk, and I shall tell you everything.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "{namecode:295}",
-			say = "那究竟是谁在呼唤……？",
+			actorName = "There it is! The voice in my head!",
+			say = "There it is! The voice in my head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,9 +56,9 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "There it is! The voice in my head!",
 			nameColor = "#A9F548FF",
-			say = "大贤者……？",
+			say = "Sounds familiar... Is it the Great Sage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "陌生的名号出现在了脑海中。",
+			say = "Owari reached into her memory and pulled out a name, identifying the voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "There it is! The voice in my head!",
 			nameColor = "#A9F548FF",
-			say = "大神木乃至圣之地，神子曾在此设下结界，外人无法靠近半步。",
+			say = "I can't go there, though. The Guardian Fox's barrier stops one from getting close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "There it is! The voice in my head!",
 			nameColor = "#A9F548FF",
-			say = "可是怎么会……",
+			say = "There's no way in hell I'm getting past that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "{namecode:295}看着自己的掌心，似乎回忆起了什么。",
+			say = "She refuted the voice, and suddenly, a sense of unease seized her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,9 +132,9 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "There it is! The voice in my head!",
 			nameColor = "#A9F548FF",
-			say = "是我在做梦吗，总感觉昨夜好像亲手触摸过大神木，而在那之后便陷入了梦魇之中……",
+			say = "Wait... But I think I touched the Prime Sakura yesterday, and I've been havin' these weird nightmares since then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "回首望去，大神木依然矗立，一切如常。",
+			say = "A flood of memories gushed forth, and with them came a headache as she turned to face the giant tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,9 +161,9 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "There it is! The voice in my head!",
 			nameColor = "#A9F548FF",
-			say = "咳——！",
+			say = "OH!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "稍稍凝视大神木，目中所视竟带着刺痛感，开始闪烁跳动。",
+			say = "The Prime Sakura's form began to quiver, then flashes of light out from its roots to its leaves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "破碎的发光纹路在大神木上若隐若现，最后完全熄灭。",
+			say = "Complicated patterns formed up in the canopy then vanished, and the lights slowly faded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "隆隆的震动从脚下传来。",
+			say = "With the final ray of light going out, the lands around the sanctuary began quaking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "结界破碎了。",
+			say = "The seal holding back the dark mist was broken.",
 			flashN = {
 				color = {
 					1,

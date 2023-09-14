@@ -17641,7 +17641,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: The Fool's Scales",
+				"Event: Effulgence Before Eclipse",
 				{
 					""
 				},

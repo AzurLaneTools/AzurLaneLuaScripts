@@ -7566,6 +7566,15 @@ function temp()
 				}
 			}
 		},
+		b = {
+			u = {
+				k = {
+					i = {
+						this = true
+					}
+				}
+			}
+		},
 		o = {
 			r = {
 				i = {
@@ -7583,15 +7592,6 @@ function temp()
 								}
 							}
 						}
-					}
-				}
-			}
-		},
-		b = {
-			u = {
-				k = {
-					i = {
-						this = true
 					}
 				}
 			}

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "重樱群岛·大圣域",
+			say = "Past – Prime Sakura Sanctuary",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "大神木脚下，湖面如镜。",
+			say = "There was a small lake at the foot of the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "重樱的大贤者将手放在大神木的枝干上，感受到一股暖流缓缓蔓延到全身。",
+			say = "By that lake, the shipgirl protector of this sanctuary, called the Great Sage by many, placed a hand on the tree with her companions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "伸手触碰神木，同样温暖的感觉从手心处传来。",
+			say = "A soft, warm sensation touched their palms as they did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "但这种温暖很快便被一阵异样的刺痛中断。",
+			say = "...But after a moment, that softness turned into pain like needles prickling their skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "两人不约而同地抽回了手，掌中残留的痛觉便如幻梦中的泡沫般消弥。",
+			say = "Sensing a disturbance, the shipgirls pulled away all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "大贤者，刚才的感觉是……",
+			say = "What was that...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,8 +102,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			side = 2,
-			actorName = "大贤者",
-			say = "曾经——",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "I have a feeling I know the answer, Musashi.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			bgName = "bg_yunxian_1",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
-			say = "曾经有人目睹到那璀璨星辰的坠落。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "\"Once upon a time, a star fell from the northern sky.\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			side = 2,
-			actorName = "大贤者",
-			say = "而星辰坠落后，黑暗便从阴影之中降临，它让海洋与大地都流下惶恐不安的泪水。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "\"Darkness spread from the sea in which it fell. Frightened, the seas and skies of Mizuho shed tears.\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			bgName = "bg_yunxian_1",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
-			say = "本已坠落的星辰哀叹于凡尘的眼泪，便燃烧了自己，将黑暗投入永恒的放逐……",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "\"Lamenting the tears of the Sakura Empire, the stars set themselves ablaze to create a blinding light that sealed the darkness into this sanctuary.\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "大贤者方才所说的，是《海若集》中记载的神话传说吧？",
+			say = "Great Sage, are you reciting a legend from the Watatsumi Chronicles?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "《海若集》距今已有数百年的历史……",
+			say = "The text that details many of the stories surrounding our sacred relic...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "如今忽然提及它的内容，莫非是和刚刚接触大神木时所感受的异样有关？",
+			say = "Why mention it now? Is it somehow related to the Prime Sakura's anomaly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,9 +227,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人。",
+			say = "Most observant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "你曾经问我，为何找到你们二人。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "During our journey here, you asked why I brought you to the Prime Sakura's sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "星辰的坠落只是预兆。",
+			say = "While the Watatsumi Chronicles themselves are but stories and legends, their contents conceal a deeper truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,9 +268,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "那放逐的日子满了，远古的阴影如今正磨牙利齿。",
+			say = "In this sanctuary – rather, within the Prime Sakura – lies a fragment of the very star that had fallen from the northern sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "在大神木之中，那颗熄灭的星辰已默默守护重樱数百年。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "The Prime Sakura's power sealed the shard away, containing the calamitous darkness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,9 +295,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "为了压制那空前的灾厄，大神木也几乎耗尽了所有的力量。",
+			say = "But impurity continues to seep out, gnawing away at the tree's power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "牢笼已经腐朽，灾厄将至，亦如数百年前的那个时候一样。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "If the rot is not expelled and the seal is not renewed, the calamitous darkness will one day return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "可是大贤者，您口中的灾厄究竟为何物？",
+			say = "What is this calamitous darkness of which you speak?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "重樱如今的力量能否将它再一次放逐？",
+			say = "...And do we have the power to deal with it in our current state?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这与塞壬的大战刚刚结束的时刻，重樱纵有战斗的意志，也怕是有心无力……",
+			say = "Indeed. We are drained from our decisive battle against the Sirens... Even if we were to fight, our power would be lacking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "而且……若灾厄是可被炮火击溃之物，大贤者想必早已将这危机轻松化解。",
+			say = "Besides, if this threat could be quashed through firepower alone, I assume you would have asked us much earlier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,9 +393,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "诚然如此。",
+			say = "It is as you say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,9 +407,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "我寻你们二位前来，只有一个目的。",
+			say = "The reason I have sought the two of you out is simple–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,8 +421,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "彻底斩断那灭世的灾厄，将它送入永远的湮灭。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Through a ritual, I wish to permanently annihilate this world-ending calamity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "湮灭……",
+			say = "Annihilate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "若是如此，大贤者汝又将如何……？",
+			say = "Are your rituals able to do that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "以淡淡的微笑代替回答，她低声咏唱起诚是如此，天空中泛起樱色的光芒。",
+			say = "Instead of answering directly, the shipgirl known as the Great Sage nodded solemnly and began chanting the words of the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "线条自光芒中生长，汇聚成了复杂的光幕。",
+			say = "The Prime Sakura began to resonate, threads of light rising from its roots towards the sky like cherry blossoms in the wind, weaving back and forth until they formed a complex structure – that of a gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "那是一道结界，广阔到足以笼罩整个湖面。",
+			say = "This was the Sakuran ritual of forming a barrier domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "在结界的图形绘制完毕之时，樱色的光也完全融入到了结界之中。",
+			say = "Once the barrier had been fully formed, the colors surrounding them seemed to be absorbed into the domain itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,9 +513,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "看来{namecode:74}大人已经发现，这道结界的特别之处。",
+			say = "There. The preparations are complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此强大的结界术法，吾在书上见过，当时未曾理解其意。",
+			say = "What incredible skill. No wonder you're the protector of this sanctuary...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "现在看大贤者亲自布置，才真切感受到其中令吾也费解的精妙……",
+			say = "I couldn't have hoped to understand during my studies, but it is astounding to see the intricacies of this ritual up close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,8 +562,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "即便如此，前路亦是凶多吉少，你们是否已经考虑明白。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Your praise honors me, but understand that the road ahead will still be dangerous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "大贤者，早在出发前往圣域之前，我们就已下定了决心。",
+			say = "That is why I am here. Explain your intentions while you guide us onward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "一柄太刀在雷电加持之下出现在{namecode:84}手中。",
+			say = "Musashi materialized her sword, which crackled with electricity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "她紧握住刀鞘，蓄势待发。",
+			say = "She then drew it from the scabbard and gripped its hilt tightly, reaffirming her determination to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,9 +615,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "……如此便好。",
+			say = "...I see your resolve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,9 +629,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，引导结界已成，灾厄随时都会突破桎梏。",
+			say = "Then I shall guide you to the star fragment – to Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,8 +643,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "届时，大神木的核心也会直接暴露在外。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Guardian Fox, I will have you enter the seal and confront Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,9 +656,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "核心是我所有力量的根源，笼罩在其周围的力场使得它无法被轻易接近。",
+			say = "Impurity has accumulated in the sacred tree along the way, but this barrier's power will protect us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,9 +670,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "但却无法摆脱自己的影子……",
+			say = "However, once you enter the seal, the darkness that has become Watatsumi's shadow will lash out at you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "您是说，核心会从暴露的那一刻开始，被灾厄侵袭。",
+			say = "I will protect Lady Nagato. Continue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,9 +702,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "是的，{namecode:84}大人。",
+			say = "...Thank you, Musashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,8 +716,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "而{namecode:74}大人，“神子”之名便是钥匙，您可以与海若高度共鸣。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Nagato, as the Sakura Empire's Guardian Fox, you are the only one who can resonate with Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,9 +729,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "让您跨越那个力场，直接接受来自海若的加护。",
+			say = "Regardless of how strong the seal is, the powers vested within you will grant you safe passage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,9 +743,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "这是其他任何人都无法做到的。",
+			say = "But know that you, alone, can accomplish this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,35 +757,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "换言之，您将暂时取得海若的全部力量——虽然此刻它已接近枯竭。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			actor = 303190,
-			actorName = "大贤者",
-			nameColor = "#A9F548FF",
-			say = "借由海若的加护，{namecode:74}大人便可将庇护之力传递给{namecode:84}大人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303190,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			side = 2,
-			actorName = "大贤者",
-			say = "核心的安危便仰仗{namecode:74}大人您了。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "For a short time, you should be able to wield Watatsumi's remaining power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,9 +770,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，在我抵达灾厄的中心之前，请务必保护{namecode:74}大人的安全。",
+			say = "We must push back the darkness and form a new seal that does not draw its power from the very same source of corruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,8 +784,35 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "在我与灾厄湮灭之后，若无意外，结界便会自行解除。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "...Yes, I will become the foundation for the new seal.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_yunxian_1",
+			hidePaintObj = true,
+			actor = 303190,
+			actorName = "I have a feeling I know the answer, Musashi.",
+			nameColor = "#A9F548FF",
+			say = "Musashi, you must protect Lady Nagato until the ritual is complete.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303190,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_1",
+			hidePaintObj = true,
+			side = 2,
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Once the mist has been vanquished, there will no longer be a need for a seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,9 +824,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "到那时，海若其中的能量虽然会完全消失，但即便是一具空壳。",
+			say = "And I will leave the star fragment, the remnants of Watatsumi, in your care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,8 +838,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "也足改变重樱的未来",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "It will be but a shell, exhausted of its power, but it should still be enough to help you change this nation's future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,9 +851,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "请代替我，继续守护重樱、守护这个世界吧。",
+			say = "Lady Nagato, Musashi... Please protect the future of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,9 +865,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "对了——",
+			say = "And finally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,8 +879,8 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "差点忘了此前和你的约定。",
+			actorName = "I have a feeling I know the answer, Musashi.",
+			say = "Musashi, I will fulfill my agreement with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她从袖中拿出一个小匣，轻轻将它放入{namecode:84}的手中。",
+			say = "The Great Sage retrieved a small box from within her sleeve and handed it to Musashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,9 +905,9 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "I have a feeling I know the answer, Musashi.",
 			nameColor = "#A9F548FF",
-			say = "修复根源之法，就在其中。",
+			say = "May this assist you in repairing the \"roots\" that make up our physical forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "{namecode:74}和{namecode:84}面色凝重。",
+			say = "A heavy air hung over the group as they steeled their resolve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "万千话语都化作了沉默的对视。",
+			say = "There might have been a thousand words the three wished to exchange, but not a single one was to be heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

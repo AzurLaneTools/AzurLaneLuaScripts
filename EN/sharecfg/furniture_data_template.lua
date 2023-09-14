@@ -17041,7 +17041,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[259] = {
 		effect = "",
 		name = "Sanctuary Sculpture",
-		gain_by = "须臾望月抄",
+		gain_by = "Effulgence Before Eclipse",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

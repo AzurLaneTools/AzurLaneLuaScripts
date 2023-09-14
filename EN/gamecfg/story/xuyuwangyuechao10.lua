@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "重樱群岛·大圣域",
+			say = "Sanctuary Outpost - A while prior",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "边界哨所内",
+			say = "Zuihou, in her anxiousness, nearly spilled tea on the floor. Musashi comforted her, then asked her to leave the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "二位大人若有什么需要，请随时吩咐。",
+			say = "If you need anything, just let me know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "短暂的沉默之后——",
+			say = "Nagato and Musashi listened for her nimble footsteps, waiting for them to fade before resuming their conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}，吾一直有一事不明。",
+			say = "You, I, and the Great Sage all came to this sanctuary once before when the dark mist plagued the Prime Sakura.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "在遭受冲击之后，吾等便被推出了那个空间。",
+			say = "The Great Sage took the recreated Watatsumi and attempted to reach a stalemate with the dark mist. I did not watch this event to its conclusion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等到意识恢复，吾等便重新出现在了大神木的脚下。",
+			say = "Just as I thought I'd be consumed by the darkness, I suddenly found myself back under the Prime Sakura in full bloom.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "但大神木不是应该已经枯萎了么……",
+			say = "Musashi, I ask you this: was the withering Prime Sakura within the seal no more than an illusion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:74}大人，您是否还记得，大贤者那时所言。",
+			say = "That is what the Great Sage said.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,11 +146,11 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			oldPhoto = true,
-			actorName = "大贤者",
+			actorName = "Once the mist has been vanquished, there will no longer be a need for a seal.",
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在我与灾厄湮灭之后，若无意外，结界便会自行解除。",
+			say = "Once the mist has been vanquished, there will no longer be a need for a seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大贤者那时施加的结界，直至今日都未解除……",
+			say = "The seal still holds. Which means, the dark mist continues to be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "恐怕是那结界遮蔽了异像。",
+			say = "And so, it continues spreading. We will only learn how severe it is by entering the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而现在，结界已经濒临崩溃，大神木的真实情况即将暴露。",
+			say = "Well... If the seal breaks, then we'll know as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾在那之后特意建立的哨所，多年以来也从未报告过异常。",
+			say = "At the very least, I've heard no reports of abnormalities from the outpost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在吾进入神木中沉睡之时，吾也曾试图在其中寻找大贤者的踪迹。",
+			say = "I also tried to reach the Great Sage through the Prime Sakura's roots whilst I was asleep within my Sacred Sakura.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "最终仍以失败告终。",
+			say = "However, the seal blocked my attempts to speak with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些枯萎的神木再也没能长出新的枝芽。",
+			say = "All the withering Sacred Sakuras across our homeland show no sign of recovery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "过去的我们无法靠近大神木，正是因为结界的阻挡。",
+			say = "There's no guarantee that cleansing the Prime Sakura will solve the problem at its roots, even if the dark mist is responsible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但若是结界消散，便可以再次进入其中。",
+			say = "That being the case, our only option is to head inside the seal and investigate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "只是，{namecode:74}大人，我有些担心。",
+			say = "A troubling proposition, as doing so invariably means fighting the Shadow of Corruption.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果结界完全消失，被禁锢其中的“息”便会逃离。",
+			say = "You are powerful, Guardian Fox, but it would be extremely dangerous even for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "正因如此，吾必须立即开始贤者术式的准备工作。",
+			say = "Yes, that is why we must finish the ritual the Great Stage started, and quickly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "贤者术式？",
+			say = "What ritual?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,42 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……那个术式被记录在《海若集》上，却并未写明名称。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_172",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305050,
-			say = "吾只是觉得这个术式早先有大贤者使用过，便取了她的名号。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "star_level_bg_172",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人不必在意……",
+			say = "Though it lacks a name, the Watatsumi Chronicles do speak of a ritual involving the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +409,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "因为预料到了这种情况，吾出发之前便有所准备，只是仪式的一些材料需要就地取材。",
+			say = "Perhaps it was made for a time precisely such as this.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "star_level_bg_172",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "If you're concerned of my safety, Musashi, do not be.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_172",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305050,
+			say = "I laid out my resolve when you, Akagi, Mikasa, and I faced off. I've not neglected to prepare for a circumstance such as this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人可以将所需之物告知于我，我去替您准备。",
+			say = "Very well. I shall help you with this ritual, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "这点小事交给{namecode:295}她们去办即可……",
+			say = "You need not waste your time. The girls stationed here may do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "仿佛忽然想到了什么，{namecode:74}环视了一下整个房间。",
+			say = "Nagato took a sip of her tea and looked around the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "这间哨所是按照重樱本土的风格修建的",
+			say = "It was furnished like a traditional Sakuran room, not reminiscent at all of a military base. It was simple, like a room at a roadside inn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "若不是窗外的大神木，仅凭这室内的陈设，恐怕会被人误会是一座普通的民宅。",
+			say = "If one removed the view of the Prime Sakura through the window, it would be the spitting image of an average room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，一直不见{namecode:295}的身影……",
+			say = "Hmh. Owari is absent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "寻觅无果，{namecode:74}端起桌上的茶盏，轻抿了一口。",
+			say = "Another sip from her teacup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，既然{namecode:295}她现在不在，{namecode:74}大人您吩咐我便是。",
+			say = "If I may, Lady Nagato, I think I should give them the order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "从一旁的架子上取来纸笔。",
+			say = "Without skipping a beat, Musashi took out a brush and paper from the storage and brought them to the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "{namecode:74}为其研墨，{namecode:84}用端正的笔法，记录下所需的材料名称。",
+			say = "With refined handwriting, she composed a list of the materials needed for the ritual that Nagato spoke of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "淡淡的墨香传来。",
+			say = "That was when, suddenly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "咚咚——",
+			say = "*clunk* *rattle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "像是有什么东西掉落的声音。",
+			say = "Something in the room fell over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,8 +627,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			actorName = "？？？",
-			say = "嗯……",
+			actorName = "*yaaaawn*...",
+			say = "*yaaaawn*...",
 			bgm = "story-afterrain-soft",
 			typewriter = {
 				speed = 0.05,
@@ -642,9 +642,9 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:297}",
+			actorName = "Hatsuzuki... Zuihou... Where are you?",
 			nameColor = "#A9F548FF",
-			say = "{namecode:189}……{namecode:88}……你们在哪？",
+			say = "Hatsuzuki... Zuihou... Where are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "从内屋传出的细语，还带着刚刚睡醒的慵懒。",
+			say = "The sliding door parted, revealing a sleepy-looking young girl, rubbing her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "一个体型娇小的少女一边揉着眼睛，一边光脚走进了客厅。",
+			say = "A curious, mirror-like object hovered beside her. Musashi and Nagato knew instinctively that it and the girl were one and the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "唔！这是{namecode:88}泡的花茶！",
+			say = "*sniff sniff*... That's the scent of Zuihou's tea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "少女睡眼惺忪地踏着小碎步来到案前，随手拿起桌上的茶盏，递到了{namecode:74}的面前。",
+			say = "With a sleepy gait, she walked over to the table, picked up a teacup, and placed it before Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "帮我也倒一杯吧。",
+			say = "Zuihooou! I want some of that tea too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "嗯~！我渴了~！",
+			say = "\"You fool! That isn't Zuihou you're addressing – it's Lady Nagato!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "{namecode:74}有些不知所措地将茶斟满。",
+			say = "Nagato, further confused by the mirror's incessant hoping, poured a serving of tea into the cup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "真香呀！",
+			say = "*gulp gulp*... Ohh, that's good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:297}一饮而尽，睡意也随之渐渐消退。",
+			say = "The girl completely ignored the dumbstruck Nagato and chugged all of the cup's contents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "将手中的茶盏放回桌上，{namecode:297}终于发现了异常。",
+			say = "Eventually, her senses came to her. She stared back and forth between the two battleships with a surprised look on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "诶……？{namecode:189}你今天怎么和平时不一样……？",
+			say = "H-Hatsuzuki... Wow, you've certainly had a makeover!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "{namecode:295}也……感觉好像变白了……？",
+			say = "You too, Owari... Your skin looks so pale...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "{namecode:84}将手中的笔搁到一旁，微笑着注视她。",
+			say = "Musashi let out an exasperated sigh and placed her brush on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:74}大人，她就是{namecode:297}吧？",
+			say = "Lady Nagato, this little one is Natori.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "诶？{namecode:74}、{namecode:74}大人……？",
+			say = "N-Nagato? Lady Nagato is here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "再次揉了揉眼，{namecode:297}反复地在二人之间确认。",
+			say = "The girl rubbed her eyes several times, adopted a look of shock, then retreated backwards at lightning speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "{namecode:84}大人，{namecode:74}大人……诶？！",
+			say = "\"Just as I said! You should've listened!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -935,7 +935,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "{namecode:297}一下子瘫坐在地。",
+			say = "The realization finally hit her. Lightning quick once more, she bowed her head to the floor in apology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "对对对对对对不起！",
+			say = "F-f-forgive my terrible rudeness!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "无妨。请抬起头来，正好{namecode:74}大人之后有要紧事，需要拜托{namecode:295}她们。",
+			say = "Raise your head. We have a mission for all you stationed here – Owari included.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以请你也一起帮忙吗？",
+			say = "May I ask you to help as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "没没没没没没问题！",
+			say = "O-of course! Anything that's within my power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1044,7 +1044,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "{namecode:74}轻轻叹了一口气。",
+			say = "Nagato quietly rolled her eyes whilst she poured new tea into her cup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾等此次前来，事先未有通知，错不在汝，不必道歉。",
+			say = "You had no chance to prepare for our arrival. Your reception will not be judged.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1075,7 +1075,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，现在情况紧急，快些安排仪式吧。",
+			say = "Musashi, it is time to prepare the ritual. I trust you to gather the materials.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1090,7 +1090,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "为清单添上最后几笔，{namecode:84}将墨迹吹干。随后将其卷好，放进袖中。",
+			say = "Finishing her list with a few final strokes, Musashi then slid the paper into her sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "她对缩在一旁的{namecode:297}以眼神示意，后者小心地走到她的身后。",
+			say = "She shot a glance at Natori, who took hold of her mirror and hurriedly circled behind Musashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1112,7 +1112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "靠近推门的时候，{namecode:84}听到了门外众人的谈话。",
+			say = "She wrapped up her preparations and entered the corridor, heading for the room with girls' voices leaking through the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这下糟了，我还没来得及和两位大人汇报{namecode:295}失踪的事。",
+			say = "Oh! Shoot! I forgot to report that Owari has gone missing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,7 +1137,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "若是被问起来的话，这该如何是好——",
+			say = "Now I've really messed up... What if Lady Nagato or Musashi get hurt because of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "几人的低声交谈被{namecode:84}突如其来的推门动作打断。",
+			say = "Musashi opened the door and gently addressed the clumsy yet endearing girl who nearly spilled her tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,7 +1161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们不用担心，{namecode:295}她现在平安无事。",
+			say = "No harm done. Moreover, we learned that Owari is safe just moments ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1179,7 +1179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "不消片刻，自有人将她送回。",
+			say = "Our companion will show her back to the outpost shortly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
