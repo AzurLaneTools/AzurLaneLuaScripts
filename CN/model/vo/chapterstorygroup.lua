@@ -60,10 +60,6 @@ function slot0.activeAlways(slot0)
 	return true
 end
 
-function slot0.isValid(slot0)
-	return true
-end
-
 function slot0.ifNeedHide(slot0)
 	return false
 end

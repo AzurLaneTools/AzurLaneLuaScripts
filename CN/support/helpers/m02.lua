@@ -1678,7 +1678,7 @@ function GetOwnedDropCount(slot0)
 				end
 			end,
 			[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
-				return getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0
+				return (getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0) + getProxy(BayProxy):GetEquipSkinCountInShips(slot0.id)
 			end,
 			[DROP_TYPE_RYZA_DROP] = function (slot0)
 				return getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id):GetItemById(slot0.id) and slot1.count or 0

@@ -417,10 +417,10 @@ pg.item_data_frame = {
 	[327] = {
 		time_limit_type = 0,
 		name = "紫藤花冠",
-		gain_by = "",
+		gain_by = "须臾望月抄",
 		id = 327,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「人生须臾，不可辜负。」</color>\n「须臾望月抄」活动获取",
 		scene = {}
 	},
 	[401] = {

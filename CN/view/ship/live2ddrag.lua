@@ -10,7 +10,17 @@ function slot0.Ctor(slot0, slot1)
 	slot0.startValue = slot1.start_value
 	slot0.range = slot1.range
 	slot0.offsetX = slot1.offset_x
+
+	if slot0.offsetX == 0 then
+		slot0.offsetX = nil
+	end
+
 	slot0.offsetY = slot1.offset_y
+
+	if slot0.offsetY == 0 then
+		slot0.offsetY = nil
+	end
+
 	slot0.smooth = slot1.smooth / 1000
 	slot0.revert = slot1.revert
 	slot0.ignoreReact = slot1.ignore_react == 1
@@ -63,11 +73,6 @@ function slot0.stopDrag(slot0)
 
 		slot0.mouseInputUp = Input.mousePosition
 		slot0.mouseInputUpTime = Time.time
-
-		if slot0.actionTrigger.reset == 1 then
-			slot0.parameterTargetValue = slot0.actionTrigger.num
-			slot0.parameterToStart = slot0.actionTrigger.time
-		end
 	end
 end
 
@@ -84,11 +89,13 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 		slot4 = {}
 		slot5 = nil
 		slot6 = false
+		slot7 = nil
 
-		if slot0.actionTrigger.action then
+		if slot0.actionTrigger.action or not slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
+			slot7 = slot0.actionTrigger.target or nil
 
 			slot0:triggerAction()
 			slot0:stopDrag()
@@ -100,6 +107,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			end
 
 			slot6 = slot0.actionTrigger.action_list[slot0.actionListIndex].focus or true
+			slot7 = slot0.actionTrigger.target or nil
 
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
 				slot0:triggerAction()
@@ -109,10 +117,16 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		print("开始播放动作： " .. slot5)
-
 		if slot4.idle and slot4.idle == slot0.idleIndex and not slot4.repeatFlag then
 			return
+		end
+
+		if slot7 then
+			slot0.parameterTargetValue = slot7
+
+			if not slot5 then
+				slot0.revertResetFlag = true
+			end
 		end
 
 		slot2 = {
@@ -175,22 +189,12 @@ function slot0.updateReactValue(slot0)
 		return
 	end
 
-	if slot0.reactX then
+	if slot0.actionIgnoreReact then
+		slot0.parameterTargetValue = slot0.startValue
+	elseif slot0.reactX then
 		slot0.parameterTargetValue = slot0.reactPos.x * slot0.reactX
 	else
 		slot0.parameterTargetValue = slot0.reactPos.y * slot0.reactY
-	end
-
-	focus = slot0.actionTrigger.action_list[slot0.actionListIndex].focus or false
-
-	if slot0.actionListIndex == #slot0.actionTrigger.action_list then
-		slot0:triggerAction()
-		slot0:stopDrag()
-		print("连锁动作播放完成 退出 ")
-	end
-
-	if slot0.live2dAction then
-		slot0.parameterTargetValue = slot0.startValue
 	end
 
 	if slot0.parameterTargetValue < 0 and slot0.dragDirect == 1 then
@@ -209,12 +213,14 @@ function slot0.updateReactValue(slot0)
 		end
 	end
 
-	if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
-		slot0:changeParameterValue(slot0.parameterTargetValue)
-	else
-		slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+	if slot0.parameterValue ~= slot0.parameterTargetValue then
+		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
+			slot0:changeParameterValue(slot0.parameterTargetValue)
+		else
+			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, 0.1)
 
-		slot0:changeParameterValue(slot1, slot2)
+			slot0:changeParameterValue(slot1, slot2)
+		end
 	end
 end
 
@@ -247,6 +253,12 @@ function slot0.checkReset(slot0)
 		if slot0.parameterToStart <= 0 then
 			slot0.parameterTargetValue = slot0.startValue
 			slot0.parameterToStart = nil
+
+			if slot0.revertResetFlag then
+				slot0:setTriggerActionFlag(false)
+
+				slot0.revertResetFlag = false
+			end
 		end
 	end
 end
@@ -392,6 +404,8 @@ function slot0.updateTrigger(slot0)
 
 		if slot0.actionTrigger.action then
 			slot1 = slot0.actionTrigger.time
+		elseif not slot0.actionTrigger.action then
+			slot1 = slot0.actionTrigger.time
 		elseif slot0.actionTrigger.action_list then
 			slot1 = slot0.actionTrigger.action_list[slot0.actionListIndex].time
 		end
@@ -406,7 +420,8 @@ end
 
 function slot0.triggerAction(slot0)
 	slot0.nextTriggerTime = uv0
-	slot0.isTriggerAtion = true
+
+	slot0:setTriggerActionFlag(true)
 end
 
 function slot0.isActionTriggerAble(slot0)
@@ -430,12 +445,17 @@ end
 function slot0.updateStateData(slot0, slot1)
 	slot0.idleIndex = slot1.idleIndex
 	slot0.live2dAction = slot1.isPlaying
+	slot0.actionIgnoreReact = slot1.ignoreReact
 
 	if not slot0.live2dAction and slot0.isTriggerAtion then
-		slot0.isTriggerAtion = false
+		slot0:setTriggerActionFlag(false)
 	end
 
 	slot0:updateTriggerAction()
+end
+
+function slot0.setTriggerActionFlag(slot0, slot1)
+	slot0.isTriggerAtion = slot1
 end
 
 function slot0.updateTriggerAction(slot0)

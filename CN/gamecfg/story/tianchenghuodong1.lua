@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			say = "二十年前——",
+			say = "？？年前——",
 			side = 2,
 			bgName = "bg_story_tiancheng1",
 			dir = 1,

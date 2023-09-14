@@ -4177,6 +4177,41 @@ pg.backyard_theme_template = {
 			302304
 		}
 	},
+	[103] = {
+		Cfg_1 = 5,
+		name = "常世温泉街",
+		hot = 1,
+		is_view = 1,
+		id = 103,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "开启温泉街的奇妙之夜！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "bgyxthemeicon",
+		deblocking = 1,
+		order = 104,
+		ids = {
+			303001,
+			303002,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303119
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4271,6 +4306,7 @@ pg.backyard_theme_template = {
 		99,
 		100,
 		101,
-		102
+		102,
+		103
 	}
 }

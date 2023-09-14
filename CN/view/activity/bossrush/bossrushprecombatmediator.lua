@@ -204,7 +204,7 @@ function slot0.bindEvent(slot0)
 			end,
 			function (slot0)
 				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
-					getProxy(ChapterProxy):StopAutoFight()
+					getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.GOLD_MAX)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
 						onYes = slot0,

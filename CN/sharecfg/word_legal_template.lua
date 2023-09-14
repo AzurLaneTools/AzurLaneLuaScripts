@@ -4350,6 +4350,26 @@ end
 temp()
 
 function temp()
+	uv0["檚"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["桎"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["貊"] = {
 		this = {
 			this = true
@@ -4361,6 +4381,16 @@ temp()
 
 function temp()
 	uv0["貉"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["猽"] = {
 		this = {
 			this = true
 		}
@@ -4646,6 +4676,16 @@ end
 temp()
 
 function temp()
+	uv0["猃"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["鲤"] = {
 		this = {
 			this = true
@@ -4839,6 +4879,16 @@ temp()
 
 function temp()
 	uv0["鲣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鳂"] = {
 		this = {
 			this = true
 		}
@@ -6162,19 +6212,6 @@ function temp()
 	uv0["神"] = {
 		["速"] = {
 			this = true
-		},
-		["通"] = {
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end
@@ -6553,13 +6590,9 @@ end
 temp()
 
 function temp()
-	uv0["奇"] = {
-		["尔"] = {
-			["沙"] = {
-				["治"] = {
-					this = true
-				}
-			}
+	uv0["峦"] = {
+		this = {
+			this = true
 		}
 	}
 end
@@ -6570,6 +6603,20 @@ function temp()
 	uv0["虒"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["奇"] = {
+		["尔"] = {
+			["沙"] = {
+				["治"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6986,16 +7033,6 @@ temp()
 function temp()
 	uv0["君"] = {
 		["主"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["峦"] = {
-		this = {
 			this = true
 		}
 	}

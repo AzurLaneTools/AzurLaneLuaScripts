@@ -4232,7 +4232,96 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_395_2",
 		"ins_reply_395_2_1",
 		"ins_op_395_1_1",
-		"op_reply_395_1_1"
+		"op_reply_395_1_1",
+		"ins_396",
+		"ins_discuss_396_1",
+		"ins_reply_396_1_1",
+		"ins_reply_396_1_2",
+		"ins_reply_396_1_3",
+		"ins_discuss_396_2",
+		"ins_reply_396_2_1",
+		"ins_reply_396_2_2",
+		"ins_discuss_396_3",
+		"ins_reply_396_3_1",
+		"ins_op_396_1_1",
+		"op_reply_396_1_1",
+		"ins_op_396_1_2",
+		"op_reply_396_1_2",
+		"ins_397",
+		"ins_discuss_397_1",
+		"ins_reply_397_1_1",
+		"ins_discuss_397_2",
+		"ins_reply_397_2_1",
+		"ins_reply_397_2_2",
+		"ins_reply_397_2_3",
+		"ins_reply_397_2_4",
+		"ins_discuss_397_3",
+		"ins_reply_397_3_1",
+		"ins_reply_397_3_2",
+		"ins_reply_397_3_3",
+		"ins_op_397_1_1",
+		"op_reply_397_1_1",
+		"ins_398",
+		"ins_discuss_398_1",
+		"ins_reply_398_1_1",
+		"ins_reply_398_1_2",
+		"ins_reply_398_1_3",
+		"ins_reply_398_1_4",
+		"ins_discuss_398_2",
+		"ins_reply_398_2_1",
+		"ins_reply_398_2_2",
+		"ins_reply_398_2_3",
+		"ins_discuss_398_3",
+		"ins_reply_398_3_1",
+		"ins_reply_398_3_2",
+		"ins_reply_398_3_3",
+		"ins_op_398_1_1",
+		"op_reply_398_1_1",
+		"ins_399",
+		"ins_discuss_399_1",
+		"ins_reply_399_1_1",
+		"ins_reply_399_1_2",
+		"ins_reply_399_1_3",
+		"ins_discuss_399_2",
+		"ins_reply_399_2_1",
+		"ins_op_399_1_1",
+		"op_reply_399_1_1",
+		"ins_op_399_1_2",
+		"op_reply_399_1_2",
+		"ins_400",
+		"ins_discuss_400_1",
+		"ins_reply_400_1_1",
+		"ins_discuss_400_2",
+		"ins_reply_400_2_1",
+		"ins_discuss_400_3",
+		"ins_reply_400_3_1",
+		"ins_op_400_1_1",
+		"op_reply_400_1_1",
+		"ins_op_400_1_2",
+		"op_reply_400_1_2",
+		"ins_401",
+		"ins_discuss_401_1",
+		"ins_reply_401_1_1",
+		"ins_reply_401_1_2",
+		"ins_discuss_401_2",
+		"ins_reply_401_2_1",
+		"ins_reply_401_2_2",
+		"ins_reply_401_2_3",
+		"ins_discuss_401_3",
+		"ins_reply_401_3_1",
+		"ins_reply_401_3_2",
+		"ins_op_401_1_1",
+		"op_reply_401_1_1",
+		"ins_402",
+		"ins_discuss_402_1",
+		"ins_reply_402_1_1",
+		"ins_discuss_402_2",
+		"ins_reply_402_2_1",
+		"ins_reply_402_2_2",
+		"ins_discuss_402_3",
+		"ins_reply_402_3_1",
+		"ins_op_402_1_1",
+		"op_reply_402_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16748,186 +16837,453 @@ pg.base.activity_ins_language = {
 		value = "这就给您带一杯～"
 	},
 	ins_390 = {
-		value = ""
+		value = "今天也是“平衡”的一天。"
 	},
 	ins_discuss_390_1 = {
-		value = ""
+		value = "哼，还是一如既往地摇摆不定。"
 	},
 	ins_reply_390_1_1 = {
-		value = ""
+		value = "嗯？下次再被那些小家伙们缠住，可别怪我袖手旁观哦？"
 	},
 	ins_reply_390_1_2 = {
-		value = ""
+		value = "哼！果然是个“狡猾”的家伙……"
 	},
 	ins_discuss_390_2 = {
-		value = ""
+		value = "不妨也帮我“平衡”一下手头的工作如何？"
 	},
 	ins_reply_390_2_1 = {
-		value = ""
+		value = "台前的工作，可只有黎塞留“大人”才能胜任哦？"
 	},
 	ins_discuss_390_3 = {
-		value = ""
+		value = "有时候，做出合适的“抉择”确实挺困难的呢……"
 	},
 	ins_reply_390_3_1 = {
-		value = ""
+		value = "优柔寡断可不是什么好性格哦，伴尔维。"
 	},
 	ins_reply_390_3_2 = {
-		value = ""
+		value = "说、说得也是呢……"
 	},
 	ins_op_390_1_1 = {
-		value = ""
+		value = "“工作”和“娱乐”，确实很难做到完全平衡。"
 	},
 	op_reply_390_1_1 = {
-		value = ""
+		value = "你只是缺少点“方法”而已哦，指挥官，需要我给你一些建议吗？呵呵~"
 	},
 	ins_391 = {
-		value = ""
+		value = "嗯……该用什么方法比较好呢……"
 	},
 	ins_discuss_391_1 = {
-		value = ""
+		value = "发现一个迷茫的孩子~要不要听听“魔女”的意见呢？"
 	},
 	ins_reply_391_1_1 = {
-		value = ""
+		value = "那、那就有劳您了……？"
 	},
 	ins_discuss_391_2 = {
-		value = ""
+		value = "要不……我来帮你把所有碍眼的烦恼都消除掉吧。"
 	},
 	ins_reply_391_2_1 = {
-		value = ""
+		value = "虽然对于如何“消除烦恼”稍微有一点好奇，不过还是先算了……"
 	},
 	ins_discuss_391_3 = {
-		value = ""
+		value = "要试试“祈祷的秘仪”吗？"
 	},
 	ins_reply_391_3_1 = {
-		value = ""
+		value = "那是……什么新的占卜方法吗？"
 	},
 	ins_op_391_1_1 = {
-		value = ""
+		value = "无论用什么方法，总是能获得好运的。"
 	},
 	op_reply_391_1_1 = {
-		value = ""
+		value = "啊……谢谢您的祝福，指挥官。"
 	},
 	ins_392 = {
-		value = ""
+		value = "水晶揭示了命运的秘密……"
 	},
 	ins_discuss_392_1 = {
-		value = ""
+		value = "多亏了魔女小姐的意见，现在感觉好多了……"
 	},
 	ins_reply_392_1_1 = {
-		value = ""
+		value = "呵呵，幸运会与你同在的~"
 	},
 	ins_discuss_392_2 = {
-		value = ""
+		value = "哇？有恋爱占卜吗？"
 	},
 	ins_reply_392_2_1 = {
-		value = ""
+		value = "当然有，呵呵~欢迎预约哦~"
 	},
 	ins_reply_392_2_2 = {
-		value = ""
+		value = "啊！我也要预约恋爱占卜！"
 	},
 	ins_reply_392_2_3 = {
-		value = ""
+		value = "哎呀，那得排个队了呢~"
 	},
 	ins_op_392_1_1 = {
-		value = ""
+		value = "我也想预约占卜。"
 	},
 	op_reply_392_1_1 = {
-		value = ""
+		value = "指挥官想占卜什么呢？难道是……恋爱之类的？呵呵~"
 	},
 	ins_393 = {
-		value = ""
+		value = "弄到大鱼了！"
 	},
 	ins_discuss_393_1 = {
-		value = ""
+		value = "叉鱼啊，确实需要一定的技巧呢。"
 	},
 	ins_reply_393_1_1 = {
-		value = ""
+		value = "嘿嘿嘿，只要看准时机“咻”地一下！也没那么难啦~"
 	},
 	ins_discuss_393_2 = {
-		value = ""
+		value = "哇？原来枪还能这么用的？！"
 	},
 	ins_reply_393_2_1 = {
-		value = ""
+		value = "嘿嘿，我这还有好~多好多特别的用枪技巧呢！"
 	},
 	ins_reply_393_2_2 = {
-		value = ""
+		value = "真的吗？教教我教教我！"
 	},
 	ins_reply_393_2_3 = {
-		value = ""
+		value = "嘿嘿，回头找你手把手地教！"
 	},
 	ins_discuss_393_3 = {
-		value = ""
+		value = "虽然感觉槽点有点多……不过，能抓到大鱼真是太好了呢！絮弗伦姐姐！"
 	},
 	ins_reply_393_3_1 = {
-		value = ""
+		value = "这就带回来给你料理！"
 	},
 	ins_reply_393_3_2 = {
-		value = ""
+		value = "欸？！我来料理吗？"
 	},
 	ins_op_393_1_1 = {
-		value = ""
+		value = "准备红烧还是清蒸？"
 	},
 	op_reply_393_1_1 = {
-		value = ""
+		value = "只要好吃都可以！"
 	},
 	ins_394 = {
-		value = ""
+		value = "或许再加点其他材料会更好？"
 	},
 	ins_discuss_394_1 = {
-		value = ""
+		value = "……也可能是前面放入材料的顺序有问题。"
 	},
 	ins_reply_394_1_1 = {
-		value = ""
+		value = "也许该找个人来试试效果……"
 	},
 	ins_discuss_394_2 = {
-		value = ""
+		value = "哇哇，是那种喝一口就能大幅度提升属性值的魔法药水吗？！"
 	},
 	ins_reply_394_2_1 = {
-		value = ""
+		value = "不不，这个怎么看都是喝一口就会持续掉HP的毒药水吧……"
 	},
 	ins_discuss_394_3 = {
-		value = ""
+		value = "这是在……炼制魔药？"
 	},
 	ins_reply_394_3_1 = {
-		value = ""
+		value = "其实…只是在试着熬些安神醒脑的饮料而已？"
 	},
 	ins_reply_394_3_2 = {
-		value = ""
+		value = "说不定，还能有些其他什么未知的效果……？"
 	},
 	ins_op_394_1_1 = {
-		value = ""
+		value = "颜色十分鲜艳呢。"
 	},
 	op_reply_394_1_1 = {
-		value = ""
+		value = "指挥官要不…来试喝一口？"
 	},
 	ins_395 = {
-		value = ""
+		value = "今天，也是倾听的一天——"
 	},
 	ins_discuss_395_1 = {
-		value = ""
+		value = "啊，最近感觉一直在出外勤，能不能远程做忏悔啊？"
 	},
 	ins_reply_395_1_1 = {
-		value = ""
+		value = "这样啊……但这里毕竟是公开的社交场合……"
 	},
 	ins_reply_395_1_2 = {
-		value = ""
+		value = "哎~要是有“电子忏悔室”之类的就好了！"
 	},
 	ins_reply_395_1_3 = {
-		value = ""
+		value = "不，比起这个，你就不像是有什么事会想忏悔的人吧……"
 	},
 	ins_reply_395_1_4 = {
-		value = ""
+		value = "啊，说得也是？哈哈哈~"
 	},
 	ins_discuss_395_2 = {
-		value = ""
+		value = "凯尔圣一直都在倾听大家的忏悔和烦恼，辛苦了。"
 	},
 	ins_reply_395_2_1 = {
-		value = ""
+		value = "呵呵，能得到大家的信任，能帮助到大家，我觉得很开心哦。"
 	},
 	ins_op_395_1_1 = {
-		value = ""
+		value = "我也能去忏悔室吗？"
 	},
 	op_reply_395_1_1 = {
+		value = "呵呵，能为指挥官指引迷途是凯尔圣的荣幸……"
+	},
+	ins_396 = {
+		value = ""
+	},
+	ins_discuss_396_1 = {
+		value = ""
+	},
+	ins_reply_396_1_1 = {
+		value = ""
+	},
+	ins_reply_396_1_2 = {
+		value = ""
+	},
+	ins_reply_396_1_3 = {
+		value = ""
+	},
+	ins_discuss_396_2 = {
+		value = ""
+	},
+	ins_reply_396_2_1 = {
+		value = ""
+	},
+	ins_reply_396_2_2 = {
+		value = ""
+	},
+	ins_discuss_396_3 = {
+		value = ""
+	},
+	ins_reply_396_3_1 = {
+		value = ""
+	},
+	ins_op_396_1_1 = {
+		value = ""
+	},
+	op_reply_396_1_1 = {
+		value = ""
+	},
+	ins_op_396_1_2 = {
+		value = ""
+	},
+	op_reply_396_1_2 = {
+		value = ""
+	},
+	ins_397 = {
+		value = ""
+	},
+	ins_discuss_397_1 = {
+		value = ""
+	},
+	ins_reply_397_1_1 = {
+		value = ""
+	},
+	ins_discuss_397_2 = {
+		value = ""
+	},
+	ins_reply_397_2_1 = {
+		value = ""
+	},
+	ins_reply_397_2_2 = {
+		value = ""
+	},
+	ins_reply_397_2_3 = {
+		value = ""
+	},
+	ins_reply_397_2_4 = {
+		value = ""
+	},
+	ins_discuss_397_3 = {
+		value = ""
+	},
+	ins_reply_397_3_1 = {
+		value = ""
+	},
+	ins_reply_397_3_2 = {
+		value = ""
+	},
+	ins_reply_397_3_3 = {
+		value = ""
+	},
+	ins_op_397_1_1 = {
+		value = ""
+	},
+	op_reply_397_1_1 = {
+		value = ""
+	},
+	ins_398 = {
+		value = ""
+	},
+	ins_discuss_398_1 = {
+		value = ""
+	},
+	ins_reply_398_1_1 = {
+		value = ""
+	},
+	ins_reply_398_1_2 = {
+		value = ""
+	},
+	ins_reply_398_1_3 = {
+		value = ""
+	},
+	ins_reply_398_1_4 = {
+		value = ""
+	},
+	ins_discuss_398_2 = {
+		value = ""
+	},
+	ins_reply_398_2_1 = {
+		value = ""
+	},
+	ins_reply_398_2_2 = {
+		value = ""
+	},
+	ins_reply_398_2_3 = {
+		value = ""
+	},
+	ins_discuss_398_3 = {
+		value = ""
+	},
+	ins_reply_398_3_1 = {
+		value = ""
+	},
+	ins_reply_398_3_2 = {
+		value = ""
+	},
+	ins_reply_398_3_3 = {
+		value = ""
+	},
+	ins_op_398_1_1 = {
+		value = ""
+	},
+	op_reply_398_1_1 = {
+		value = ""
+	},
+	ins_399 = {
+		value = ""
+	},
+	ins_discuss_399_1 = {
+		value = ""
+	},
+	ins_reply_399_1_1 = {
+		value = ""
+	},
+	ins_reply_399_1_2 = {
+		value = ""
+	},
+	ins_reply_399_1_3 = {
+		value = ""
+	},
+	ins_discuss_399_2 = {
+		value = ""
+	},
+	ins_reply_399_2_1 = {
+		value = ""
+	},
+	ins_op_399_1_1 = {
+		value = ""
+	},
+	op_reply_399_1_1 = {
+		value = ""
+	},
+	ins_op_399_1_2 = {
+		value = ""
+	},
+	op_reply_399_1_2 = {
+		value = ""
+	},
+	ins_400 = {
+		value = ""
+	},
+	ins_discuss_400_1 = {
+		value = ""
+	},
+	ins_reply_400_1_1 = {
+		value = ""
+	},
+	ins_discuss_400_2 = {
+		value = ""
+	},
+	ins_reply_400_2_1 = {
+		value = ""
+	},
+	ins_discuss_400_3 = {
+		value = ""
+	},
+	ins_reply_400_3_1 = {
+		value = ""
+	},
+	ins_op_400_1_1 = {
+		value = ""
+	},
+	op_reply_400_1_1 = {
+		value = ""
+	},
+	ins_op_400_1_2 = {
+		value = ""
+	},
+	op_reply_400_1_2 = {
+		value = ""
+	},
+	ins_401 = {
+		value = ""
+	},
+	ins_discuss_401_1 = {
+		value = ""
+	},
+	ins_reply_401_1_1 = {
+		value = ""
+	},
+	ins_reply_401_1_2 = {
+		value = ""
+	},
+	ins_discuss_401_2 = {
+		value = ""
+	},
+	ins_reply_401_2_1 = {
+		value = ""
+	},
+	ins_reply_401_2_2 = {
+		value = ""
+	},
+	ins_reply_401_2_3 = {
+		value = ""
+	},
+	ins_discuss_401_3 = {
+		value = ""
+	},
+	ins_reply_401_3_1 = {
+		value = ""
+	},
+	ins_reply_401_3_2 = {
+		value = ""
+	},
+	ins_op_401_1_1 = {
+		value = ""
+	},
+	op_reply_401_1_1 = {
+		value = ""
+	},
+	ins_402 = {
+		value = ""
+	},
+	ins_discuss_402_1 = {
+		value = ""
+	},
+	ins_reply_402_1_1 = {
+		value = ""
+	},
+	ins_discuss_402_2 = {
+		value = ""
+	},
+	ins_reply_402_2_1 = {
+		value = ""
+	},
+	ins_reply_402_2_2 = {
+		value = ""
+	},
+	ins_discuss_402_3 = {
+		value = ""
+	},
+	ins_reply_402_3_1 = {
+		value = ""
+	},
+	ins_op_402_1_1 = {
+		value = ""
+	},
+	op_reply_402_1_1 = {
 		value = ""
 	}
 }

@@ -21,6 +21,16 @@ end
 
 function slot0.OnInit(slot0)
 	slot0:InitUI()
+	slot0:bind(LevelUIConst.CONTINUOUS_OPERATION, function (slot0, slot1)
+		getProxy(ChapterProxy):InitContinuousTime(SYSTEM_SCENARIO, slot1.battleTimes)
+		LoadContextCommand.RemoveLayerByMediator(LevelContinuousOperationWindowMediator)
+		PlayerPrefs.SetInt("chapter_autofight_flag_" .. uv0.chapter.id, 1)
+		triggerButton(uv0.btnGo)
+	end)
+	slot0:bind(LevelMediator2.ON_SPITEM_CHANGED, function (slot0, slot1)
+		setActive(uv0.spCheckMark, not slot1)
+		triggerButton(uv0.btnSp)
+	end)
 end
 
 function slot0.OnDestroy(slot0)
@@ -32,8 +42,9 @@ end
 function slot0.Show(slot0)
 	slot2 = slot0.chapter:GetDailyBonusQuota()
 
+	slot0:initSPOPView()
+
 	if type(slot0.chapter:getConfig("special_operation_list")) == "table" and #slot1 > 0 and not slot2 then
-		slot0:initSPOPView()
 		setActive(slot0.btnSp, true)
 	else
 		setActive(slot0.btnSp, false)
@@ -78,46 +89,35 @@ function slot0.SetDutyTabEnabled(slot0, slot1)
 end
 
 function slot0.onConfirm(slot0)
-	if slot0.chapter:isTriesLimit() and not slot1:enoughTimes2Start() then
-		if slot1:IsSpChapter() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
-		end
-
-		return
-	end
-
 	slot2 = slot0:getSelectIds()
-	slot3 = slot0:getSPItem()
 
-	if #slot1:getNpcShipByType(2) > 0 then
-		slot5 = {
+	if #slot0.chapter:getNpcShipByType(2) > 0 then
+		slot4 = {
 			[TeamType.Vanguard] = #slot0:getFleetById(slot2[1]):getTeamByName(TeamType.Vanguard),
 			[TeamType.Main] = #slot0:getFleetById(slot2[1]):getTeamByName(TeamType.Main)
 		}
-		slot6 = {
+		slot5 = {
 			[TeamType.Vanguard] = 0,
 			[TeamType.Main] = 0
 		}
-		slot7 = nil
+		slot6 = nil
 
-		for slot11, slot12 in ipairs(slot4) do
-			slot7 = slot12
-			slot13 = slot12:getTeamType()
-			slot6[slot13] = slot6[slot13] + 1
+		for slot10, slot11 in ipairs(slot3) do
+			slot6 = slot11
+			slot12 = slot11:getTeamType()
+			slot5[slot12] = slot5[slot12] + 1
 
-			if slot5[slot13] + slot6[slot13] > 3 then
+			if slot4[slot12] + slot5[slot12] > 3 then
 				break
 			end
 		end
 
-		for slot11, slot12 in pairs(slot5) do
-			if slot12 + slot6[slot11] > 3 then
+		for slot10, slot11 in pairs(slot4) do
+			if slot11 + slot5[slot10] > 3 then
 				slot0:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 					modal = true,
 					hideNo = true,
-					content = i18n("chapter_tip_with_npc", slot7.name)
+					content = i18n("chapter_tip_with_npc", slot6.name)
 				})
 
 				return
@@ -125,36 +125,14 @@ function slot0.onConfirm(slot0)
 		end
 	end
 
-	slot0.contextData.selectedFleetIDs = Clone(slot2)
-	slot5 = "chapter_autofight_flag_" .. slot1.id
-	slot6 = nil
+	slot4 = "chapter_autofight_flag_" .. slot1.id
+	slot5, slot6 = nil
 
 	seriesAsync({
 		function (slot0)
-			slot1 = false
-			slot2 = ""
-
-			for slot6, slot7 in ipairs(uv0) do
-				slot8, slot2 = uv1:getFleetById(slot7):GetEnergyStatus()
-
-				if slot8 then
-					break
-				end
-			end
-
-			if slot1 then
-				uv1:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
-					content = slot2,
-					onYes = slot0
-				})
-			else
-				slot0()
-			end
-		end,
-		function (slot0)
 			slot1 = PlayerPrefs.GetInt("autoFight_firstUse_sp", 0) == 1
 
-			if PlayerPrefs.GetInt(uv0, 1) ~= 1 or slot1 or not uv1 then
+			if PlayerPrefs.GetInt(uv0, 1) ~= 1 or slot1 or not uv1:getSPItem() then
 				return slot0()
 			end
 
@@ -165,7 +143,7 @@ function slot0.onConfirm(slot0)
 				uv0:clearSPBuff()
 			end
 
-			uv2:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
+			uv1:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 				hideNo = true,
 				content = i18n("autofight_special_operation_tip"),
 				onYes = slot3,
@@ -173,19 +151,17 @@ function slot0.onConfirm(slot0)
 			})
 		end,
 		function (slot0)
-			uv0 = uv1:isLoop() and uv2:GetOrderedDuties() or nil
+			uv0 = uv1:GetActiveSPItemID()
+			uv2 = uv1:isLoop() and uv3:GetOrderedDuties() or nil
 
-			uv2:onCancel()
-
-			if not uv1:isValid() then
-				return
-			end
-
-			uv2:emit(LevelUIConst.TRACK_CHAPTER, uv1, slot0)
+			uv3:onCancel()
+			slot0()
 		end,
 		function (slot0)
+			getProxy(PlayerProxy):setFlag("lastFleetIndex", uv0)
+
 			slot2 = LevelMediator2.ON_TRACKING
-			slot3 = table.packParams(uv1.id, uv2, uv1.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv0, 1) == 1)
+			slot3 = table.packParams(uv2.id, uv2.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv1, 1) == 1)
 
 			if pg.m02:retrieveMediator(LevelMediator2.__cname) then
 				pg.m02:sendNotification(slot2, slot3)
@@ -241,10 +217,12 @@ function slot0.InitUI(slot0)
 	slot0.tfLimit = slot0:findTF("panel/limit_list/limit")
 	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
 	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
+	slot0.tfLimitSubTip = slot0:findTF("panel/limit_list/limit_sub_tip")
 	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
+	slot0.btnMultiple = slot0:findTF("panel/multiple")
 	slot0.formationToggle = slot0:findTF("panel/RightTabs/formation_btn")
 	slot0.commanderToggle = slot0:findTF("panel/RightTabs/commander_btn")
 	slot0.dutyToggle = slot0:findTF("panel/RightTabs/duty_btn")
@@ -388,6 +366,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	end
 
 	setActive(slot0.tfLimitElite, false)
+	setActive(slot0.tfLimitSubTip, false)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, true)
 
@@ -431,6 +410,10 @@ function slot0.set(slot0, slot1, slot2, slot3)
 			slot0()
 		end
 	end, SFX_UI_WEIGHANCHOR_GO)
+	setActive(slot0.btnMultiple, AutoBotCommand.autoBotSatisfied() and slot0.chapter:isLoop())
+	onButton(slot0, slot0.btnMultiple, function ()
+		uv0:emit(LevelUIConst.OPEN_NORMAL_CONTINUOUS_WINDOW, uv0.chapter, uv0:getSelectIds(), uv0:getSPItem(), uv0:GetOrderedDuties())
+	end, SFX_PANEL)
 	onButton(slot0, slot0.btnASHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -675,7 +658,6 @@ function slot0.updateCommanders(slot0, slot1, slot2)
 		end
 
 		onButton(slot0, slot9, function ()
-			getProxy(PlayerProxy):setFlag("lastFleetIndex", uv0:getSelectIds())
 			uv0:emit(LevelUIConst.OPEN_COMMANDER_PANEL, uv1, uv0.chapter)
 		end, SFX_PANEL)
 		onButton(slot0, slot10, function ()
@@ -986,39 +968,11 @@ function slot0.setOnHard(slot0, slot1)
 	end
 
 	onButton(slot0, slot0.btnGo, function ()
-		if uv0:isTriesLimit() and not uv0:enoughTimes2Start() then
-			if uv0:IsSpChapter() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
-			end
-
-			return
-		end
-
-		slot0, slot1 = uv1.chapter:IsEliteFleetLegal()
-
-		if not slot0 then
-			pg.TipsMgr.GetInstance():ShowTips(slot1)
-
-			return
-		end
-
-		slot2 = "chapter_autofight_flag_" .. uv1.chapter.id
-		slot3, slot4, slot5 = nil
+		slot0 = "chapter_autofight_flag_" .. uv0.chapter.id
+		slot1 = uv0.chapter
+		slot2, slot3 = nil
 
 		seriesAsync({
-			function (slot0)
-				if uv0 then
-					uv1:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
-						modal = true,
-						content = i18n("elite_fleet_confirm", Fleet.DEFAULT_NAME[uv0]),
-						onYes = slot0
-					})
-				else
-					slot0()
-				end
-			end,
 			function (slot0)
 				slot1 = PlayerPrefs.GetInt("autoFight_firstUse_sp", 0) == 1
 
@@ -1041,14 +995,12 @@ function slot0.setOnHard(slot0, slot1)
 				})
 			end,
 			function (slot0)
-				uv0 = uv1:getSPItem()
+				uv0 = uv1.chapter:GetActiveSPItemID()
 				uv2 = uv1.chapter:isLoop() and uv1:GetOrderedDuties() or nil
-				uv3 = uv1.chapter
 
 				uv1:clear()
 				uv1:onCancelHard()
-				uv1:emit(LevelUIConst.TRACK_CHAPTER, uv3, slot0)
-				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_BATTLE)
+				slot0()
 			end,
 			function (slot0)
 				slot2 = LevelMediator2.ON_ELITE_TRACKING
@@ -1071,6 +1023,10 @@ function slot0.setOnHard(slot0, slot1)
 			end
 		})
 	end, SFX_UI_WEIGHANCHOR_GO)
+	setActive(slot0.btnMultiple, AutoBotCommand.autoBotSatisfied() and slot0.chapter:isLoop())
+	onButton(slot0, slot0.btnMultiple, function ()
+		uv0:emit(LevelUIConst.OPEN_ELITE_CONTINUOUS_WINDOW, uv0.chapter, uv0:getSPItem(), uv0:GetOrderedDuties())
+	end, SFX_PANEL)
 	onButton(slot0, slot0.btnASHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -1147,6 +1103,7 @@ function slot0.updateEliteLimit(slot0)
 	setActive(slot0.tfLimit, false)
 	setActive(slot0.tfLimitTips, #slot0.propetyLimitation == 0)
 	setActive(slot0.tfLimitElite, #slot0.propetyLimitation > 0)
+	setActive(slot0.tfLimitSubTip, #slot0.propetyLimitation > 0)
 
 	if #slot0.propetyLimitation > 0 then
 		slot1, slot2 = slot0.chapter:IsPropertyLimitationSatisfy()
@@ -1169,7 +1126,7 @@ function slot0.updateEliteLimit(slot0)
 			end
 		end)
 		slot3:align(#slot0.propetyLimitation)
-		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
+		setActive(slot0.tfLimitSubTip, slot0.chapter:getConfig("submarine_num") > 0)
 	end
 
 	slot1 = slot0.chapter:isLoop() and slot0.chapter:getConfig("use_oil_limit") or {}
@@ -1600,22 +1557,11 @@ function slot0.updateSpecialOperationTickets(slot0, slot1)
 end
 
 function slot0.getLegalSPBuffList(slot0)
-	slot1 = {}
-	slot2 = slot0.chapter:getConfig("special_operation_list")
+	slot1 = slot0.chapter
 
-	for slot6, slot7 in ipairs(pg.benefit_buff_template.all) do
-		if pg.benefit_buff_template[slot7].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot2, slot8.id) then
-			for slot12, slot13 in ipairs(slot0.spOPTicketItems) do
-				if Chapter.GetSPBuffByItem(slot13.configId) == slot8.id then
-					table.insert(slot1, slot8)
-
-					break
-				end
-			end
-		end
-	end
-
-	return slot1
+	return _.map(slot1:GetSpItems(), function (slot0)
+		return Chapter.GetSPBuffByItem(slot0:GetConfigID())
+	end)
 end
 
 function slot0.initSPOPView(slot0)
@@ -1631,46 +1577,48 @@ function slot0.initSPOPView(slot0)
 	setText(slot0.spItemEmptyBlock, i18n("levelScene_select_noitem"))
 	removeAllChildren(slot0.spContainer)
 
-	slot3 = PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), 0)
+	slot2 = slot0.chapter:GetActiveSPItemID()
 
 	slot0:setSPBtnFormByBuffCount()
 
 	if #slot0:getLegalSPBuffList() == 0 then
 		slot0:clearSPBuff()
 	elseif #slot1 == 1 then
-		slot5 = pg.benefit_buff_template[slot1[1].id]
+		slot4 = pg.benefit_buff_template[slot1[1]]
 
-		slot0:setTicketInfo(slot0.btnSp, slot5.benefit_condition)
-		setText(slot0.spDesc, slot5.desc)
+		slot0:setTicketInfo(slot0.btnSp, slot4.benefit_condition)
+		setText(slot0.spDesc, slot4.desc)
 		onButton(slot0, slot0.btnSp:Find("item"), function ()
 			uv0:emit(BaseUI.ON_ITEM, tonumber(uv1.benefit_condition))
 		end)
 		onButton(slot0, slot0.btnSp, function ()
+			slot0 = Chapter.GetSPOperationItemCacheKey(uv0.chapter.id)
+
 			if uv0.spCheckMark.gameObject.activeSelf then
-				PlayerPrefs.SetInt(uv1, 0)
+				PlayerPrefs.SetInt(slot0, 0)
 				uv0:clearSPBuff()
 			else
-				uv0.spItemID = tonumber(uv2.benefit_condition)
+				uv0.spItemID = tonumber(uv1.benefit_condition)
 
-				PlayerPrefs.SetInt(uv1, uv0.spItemID)
+				PlayerPrefs.SetInt(slot0, uv0.spItemID)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_select_sp"))
 				setActive(uv0.spCheckMark, true)
 			end
 		end)
-		setActive(slot0.spCheckMark, slot4 ~= (Chapter.GetSPBuffByItem(slot3) or 0))
+		setActive(slot0.spCheckMark, slot2 == 0)
 		triggerButton(slot0.btnSp)
 	elseif #slot1 > 1 then
-		slot7 = "levelScene_select_SP_OP"
+		slot6 = "levelScene_select_SP_OP"
 
-		setText(slot0.spDesc, i18n(slot7))
+		setText(slot0.spDesc, i18n(slot6))
 
-		for slot7, slot8 in ipairs(slot1) do
-			slot9 = cloneTplTo(slot0.spTpl, slot0.spContainer)
+		for slot6, slot7 in ipairs(slot1) do
+			slot8 = cloneTplTo(slot0.spTpl, slot0.spContainer)
 
-			setText(slot9:Find("desc"), slot8.desc)
-			slot0:setTicketInfo(slot9, slot8.benefit_condition)
-			setActive(slot9:Find("block"), false)
-			onButton(slot0, slot9, function ()
+			setText(slot8:Find("desc"), slot7.desc)
+			slot0:setTicketInfo(slot8, slot7.benefit_condition)
+			setActive(slot8:Find("block"), false)
+			onButton(slot0, slot8, function ()
 				uv0:setSPBuffSelected(uv1.id)
 				setActive(uv0.spPanel, false)
 			end)
@@ -1688,19 +1636,19 @@ function slot0.initSPOPView(slot0)
 			end
 		end)
 
-		if slot3 ~= 0 then
-			slot4 = nil
+		if slot2 ~= 0 then
+			slot3 = nil
 
-			for slot8, slot9 in ipairs(slot1) do
-				if slot9.id == Chapter.GetSPBuffByItem(slot3) then
-					slot4 = true
+			for slot7, slot8 in ipairs(slot1) do
+				if slot8.id == Chapter.GetSPBuffByItem(slot2) then
+					slot3 = true
 
 					break
 				end
 			end
 
-			if slot4 then
-				slot0:setSPBuffSelected(Chapter.GetSPBuffByItem(slot3))
+			if slot3 then
+				slot0:setSPBuffSelected(Chapter.GetSPBuffByItem(slot2))
 			else
 				slot0:clearSPBuff()
 			end

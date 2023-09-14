@@ -10,14 +10,40 @@ slot0.PAINTING_ACTION_ZOOM = "zoom"
 slot0.PAINTING_ACTION_ROTATE = "rotate"
 slot1 = pg.ship_skin_template
 
+function slot2(slot0)
+	if string.lower(slot0) == "#a9f548" or slot1 == "#a9f548ff" then
+		return "#5CE6FF"
+	elseif slot1 == "#ff5c5c" then
+		return "#FF9B93"
+	elseif slot1 == "#ffa500" then
+		return "#FFC960"
+	elseif slot1 == "#ffff4d" then
+		return "#FEF15E"
+	elseif slot1 == "#696969" then
+		return "#DFDFDF"
+	elseif slot1 == "#a020f0" then
+		return "#C3ABFF"
+	elseif slot1 == "#ffffff" then
+		return "#FFFFFF"
+	else
+		return slot0
+	end
+end
+
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.actor = slot1.actor
-	slot0.nameColor = slot1.nameColor
+
+	if slot1.nameColor then
+		slot0.nameColor = uv1(slot1.nameColor)
+	else
+		slot0.nameColor = COLOR_WHITE
+	end
+
 	slot0.actorName = slot1.actorName
 	slot0.subActorName = slot1.factiontag
-	slot0.subActorNameColor = slot1.factiontagColor or "#7D7D7D"
+	slot0.subActorNameColor = slot1.factiontagColor or "#FFFFFF"
 	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
 	slot0.fontSize = slot1.fontsize
@@ -68,12 +94,45 @@ function slot0.Ctor(slot0, slot1)
 	slot0.icon = slot1.icon
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
 	slot0.canMarkNode = slot1.canMarkNode
+	slot0.portrait = slot1.portrait
+	slot0.glitchArtForPortrait = slot1.portraitNoise
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.hideOtherPainting = true
 	end
 
+	slot0.paintRwIndex = slot1.paintRwIndex or 0
 	slot0.action = slot1.action or {}
+end
+
+function slot0.GetPaintingRwIndex(slot0)
+	if not slot0.glitchArt then
+		return 0
+	end
+
+	if not slot0.expression then
+		return 0
+	end
+
+	return slot0.paintRwIndex
+end
+
+function slot0.ExistPortrait(slot0)
+	return slot0.portrait ~= nil
+end
+
+function slot0.GetPortrait(slot0)
+	if type(slot0.portrait) == "number" then
+		return pg.ship_skin_template[slot0.portrait].painting
+	elseif type(slot0.portrait) == "string" then
+		return slot0.portrait
+	else
+		return nil
+	end
+end
+
+function slot0.ShouldGlitchArtForPortrait(slot0)
+	return slot0.glitchArtForPortrait
 end
 
 function slot0.GetMode(slot0)
@@ -96,6 +155,22 @@ function slot0.GetExPression(slot0)
 	elseif slot0:GetPainting() and ShipExpressionHelper.DefaultFaceless(slot1) then
 		return ShipExpressionHelper.GetDefaultFace(slot1)
 	end
+end
+
+function slot0.ShouldAddHeadMaskWhenFade(slot0)
+	if slot0:ShouldAddGlitchArtEffect() then
+		return false
+	end
+
+	if slot0:IsNoHeadPainting() then
+		return false
+	end
+
+	if not slot0:GetExPression() then
+		return false
+	end
+
+	return true
 end
 
 function slot0.ShouldGrayingPainting(slot0, slot1)
@@ -145,6 +220,14 @@ end
 
 function slot0.GetPaintingDir(slot0)
 	return (slot0.dir or 1) * (slot0.paingtingScale or 1)
+end
+
+function slot0.GetTag(slot0)
+	if slot0.glitchArt == true then
+		return 2
+	else
+		return 1
+	end
 end
 
 function slot0.GetPaintingAlpha(slot0)
@@ -198,13 +281,37 @@ function slot0.GetContent(slot0)
 end
 
 function slot0.GetNameWithColor(slot0)
-	if (not slot0.actorName or not slot0.actorName) and not slot0:GetPaintingAndName() and not "" or slot1 == "" or slot0.withoutActorName then
+	if not slot0:GetName() then
 		return nil
 	end
 
-	slot1 = HXSet.hxLan(slot1)
+	return setColorStr(slot1, slot0:GetNameColor())
+end
 
-	return slot0.nameColor and setColorStr(slot1, slot0.nameColor) or setColorStr(slot1, COLOR_WHITE)
+function slot0.GetNameColor(slot0)
+	return slot0.nameColor or COLOR_WHITE
+end
+
+function slot0.GetNameColorCode(slot0)
+	return string.gsub(slot0:GetNameColor(), "#", "")
+end
+
+function slot0.GetCustomActorName(slot0)
+	if type(slot0.actorName) == "number" and slot0.actorName == 0 and getProxy(PlayerProxy) then
+		return getProxy(PlayerProxy):getRawData().name
+	elseif type(slot0.actorName) == "string" then
+		return slot0.actorName
+	else
+		return ""
+	end
+end
+
+function slot0.GetName(slot0)
+	if (not slot0.actorName or not slot0:GetCustomActorName()) and not slot0:GetPaintingAndName() and not "" or slot1 == "" or slot0.withoutActorName then
+		return nil
+	end
+
+	return HXSet.hxLan(slot1)
 end
 
 function slot0.GetPainting(slot0)
@@ -241,20 +348,26 @@ function slot0.GetPrevSide(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetPaintingAndName(slot0)
-	if slot0:HideOtherPainting() then
-		return nil, 
-	end
+function slot0.GetPaintingIcon(slot0)
+	slot1 = nil
 
+	return (slot0.actor ~= uv0.ACTOR_TYPE_FLAGSHIP or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()) and (slot0.actor ~= uv0.ACTOR_TYPE_PLAYER or nil) and (slot0.actor or nil) and uv1[slot0.actor].prefab
+end
+
+function slot0.GetPaintingAndName(slot0)
 	slot1, slot2 = nil
 
-	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
+	if not UnGamePlayState and slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
 		slot4 = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character)
 		slot1 = slot4:getName()
 		slot2 = slot4:getPainting()
-	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
-		slot1 = getProxy(PlayerProxy):getRawData().name
-	elseif not slot0.actor then
+	elseif not UnGamePlayState and slot0.actor == uv0.ACTOR_TYPE_PLAYER then
+		if getProxy(PlayerProxy) then
+			slot1 = getProxy(PlayerProxy):getRawData().name
+		else
+			slot1 = ""
+		end
+	elseif not slot0.actor or uv1[slot0.actor] == nil then
 		slot2 = nil
 		slot1 = nil
 	else
@@ -376,7 +489,7 @@ end
 
 function slot0.GetSubActorName(slot0)
 	if slot0.subActorName and slot0.subActorName ~= "" then
-		return setColorStr(slot0.subActorName, slot0.subActorNameColor)
+		return " " .. setColorStr(HXSet.hxLan(slot0.subActorName), slot0.subActorNameColor)
 	else
 		return ""
 	end
@@ -418,7 +531,7 @@ end
 function slot0.OnClear(slot0)
 end
 
-function slot2(slot0)
+function slot3(slot0)
 	if IsUnityEditor or UnGamePlayState then
 		return true
 	else

@@ -10114,7 +10114,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "克莱蒙梭、吉尚等角色 建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:294}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12024,13 +12024,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2023年5月11日至5月25日维护期间没有过登录行为的
+在2023年9月1日至9月14日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2023年5月25日至6月15日维护期间新注册的指挥官
+在2023年9月14日至10月4日23:59期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2023年5月11日至5月25日维护前有过登录行为的指挥官
+2023年9月1日至9月14日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -12103,7 +12103,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色"
 		},
 		{
-			info = "5.可选名单仅包含3月23日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含7月13日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -19194,7 +19194,7 @@ _G.pg.base.gametip.use_oil_limit_help = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-	tip = "周回模式下消耗上限:"
+	tip = "周回油耗上限:"
 }
 
 _G.pg.base.gametip.index_awakening2 = {
@@ -22866,9 +22866,10 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 活动规则：
-<color=#92fc63>5.25-6.15维护</color>期间开启限时活动「露天温泉」
-1.指挥官可以邀请舰船泡温泉，温泉可以提高入浴舰船的心情回复速度
-2.长按入浴舰船可拖动调整入浴位置]]
+<color=#92fc63>9.14-10.4 24时</color>期间开启限时活动「啾啾温泉」
+1.指挥官可以邀请角色泡温泉，温泉可以提高入浴角色的心情回复速度
+2.长按入浴角色可拖动调整入浴位置
+3.指挥官可通过完成「度假村神秘事件调查」来获取<color=#92fc63>温泉手牌</color>，最多可使用4个<color=#92fc63>温泉手牌</color>扩建4个入浴位置~]]
 		}
 	}
 }
@@ -23452,6 +23453,22 @@ _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "作战失败"
 }
 
+_G.pg.base.gametip.multiple_sorties_main_tip = {
+	tip = "※连续作战默认开启<color=#92fc63>「自律寻敌」</color>、<color=#92fc63>「自律作战」</color>\n※连续作战中停止<color=#92fc63>「自律寻敌」</color>会自动终止<color=#92fc63>「连续作战」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_main_end = {
+	tip = "计划连续作战<color=#92fc63>$1</color>次，实际完成连续作战<color=#92fc63>$2</color>次。"
+}
+
+_G.pg.base.gametip.multiple_sorties_rest_time = {
+	tip = "进度:$1/$2"
+}
+
+_G.pg.base.gametip.multiple_sorties_retry_desc = {
+	tip = "连续作战$1次"
+}
+
 _G.pg.base.gametip.msgbox_text_battle = {
 	tip = "出击"
 }
@@ -23598,6 +23615,18 @@ _G.pg.base.gametip.battle_text_bisimaiz_9 = {
 
 _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 	tip = "革律翁已被击破——等等，侦测到强烈的<color=#ffc038>META</color>化波动！"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_1 = {
+	tip = "无形投影正在不断汲取力量，攻击<color=#f1f102>黑色气息的源头</color>可将其削弱"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_2 = {
+	tip = "驱除部分黑色气息，无形投影的<color=#f1f102>防御永久下降</color>了！"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_3 = {
+	tip = "黑色气息的源头已被斩断，投影即将崩溃……"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -24945,4 +24974,216 @@ _G.pg.base.gametip.shoot_preview = {
 
 _G.pg.base.gametip.hit_preview = {
 	tip = "命中效果"
+}
+
+_G.pg.base.gametip.story_label_skip = {
+	tip = "跳过"
+}
+
+_G.pg.base.gametip.story_label_auto = {
+	tip = "自动"
+}
+
+_G.pg.base.gametip.launch_ball_skill_desc = {
+	tip = "查看详情"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
+	tip = "主动技能:百鬼退散"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+	tip = "百鬼退散：5秒内射出的所有符咒会对轨道上的其他妖怪产生击退效果"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
+	tip = "被动技能:鬼怪过敏/胡乱攻击"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+	tip = "鬼怪过敏：当妖怪靠近终点时，角色的攻击速度提升\n胡乱攻击：10秒内未进行任何攻击，角色会进入无法操作的“发脾气”状态，迅速向任意三个方向进行三次带有击退效果的攻击"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+	tip = "主动技能:蝶海梦花"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
+	tip = "蝶海梦花：消除场上所有妖怪，并获得对应的基础分数奖励"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2 = {
+	tip = "被动技能:幽蝶之梦"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+	tip = "幽蝶之梦：10秒内未进行任何攻击进入睡眠状态，每隔2秒出现蝴蝶随机消除场上的1个妖怪"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+	tip = "主动技能:刹那永恒"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+	tip = "刹那永恒：5秒内，场上所有妖怪大幅减速"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+	tip = "被动技能:巫女之佑"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+	tip = "巫女之佑：消除带有缓速和倒退效果的的妖怪后获得的buff持续时间增加"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
+	tip = "主动技能:风雷之刃"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+	tip = "风雷之刃：消除角色前方扇形区域内的所有妖怪，并获得对应的基础分数奖励"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+	tip = "被动技能:电光石火"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+	tip = "电光石火：角色每造成1次消除便会减少风雷之刃的冷却时间0.5秒"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip1 = {
+	tip = "是否消耗1个温泉手牌<icon name=wenquanshoupai w=0.7 h=0.7/>扩建温泉?"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip2 = {
+	tip = "温泉手牌不足~"
+}
+
+_G.pg.base.gametip.jp6th_biaohoushan_help = {
+	tip = {
+		{
+			info = [[
+活动简介：
+<color=#92fc63>9.14-10.4/24时</color>期间开启限时活动「温泉度假村」
+活动规则：
+1.活动期间开启「神秘事件调查」活动，参与活动可获得限定纪念道具<color=#92fc63>「{namecode:182}的信物」&「{namecode:206}的信物」&「{namecode:18}的信物」</color>、限定家具<color=#92fc63>「温泉青行灯」&「雪女啾」</color>、<color=#92fc63>「外观装备箱」</color>在内的丰富奖励
+2.点击「啾啾温泉」可以前往温泉界面
+3.点击「限时建造」可以前往建造界面
+4.点击「换装商店」可以前往换装商店界面
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_help = {
+	tip = {
+		{
+			info = [[
+活动简介：
+<color=#92fc63>9.14-10.4/24时</color>期间开启限时活动「度假村神秘事件调查」
+活动期间，9月20日为止每日解锁一幕剧情及游戏关卡，总计7幕。完成游戏关卡可获得<color=#92fc63>「樱花符」x150和道具奖励</color>，同时部分关卡还可获得用于解锁<color=#92fc63>「啾啾温泉」</color>入浴位的<color=#92fc63>「温泉手牌」</color>；
+活动期间每日增加<color=#92fc63>1</color>次可获得奖励的游玩次数,完成全部7幕剧情及游戏关卡后，可获得<color=#92fc63>「温泉青行灯」x1</color>并可自由选择任意关卡通关，通关时指挥官若拥有可获得奖励的游玩次数可获取「樱花符」x150
+所获得「樱花符」可用于「兑换商店」中兑换限定家具、定向蓝图·六期等奖励。
+※在「度假村神秘事件调查」关卡中，指挥官可选择包括檚、鵗、㹨、芒在内的4位角色进行游戏，每位角色在关卡中均拥有不同的主动技能与被动技能；
+※角色鵗、㹨、芒需在「兑换商店」中兑换对应信物后解锁使用；
+※兑换对应信物后在度假村地图上会出现<color=#92fc63>「幕间章」</color>，「幕间章」仅可游玩一次，完成后会从地图上消失；
+※使用角色完成「任务手册」中的对应任务，可额外获得「樱花符」；
+※7幕完成后在度假村地图上会出现<color=#92fc63>「无尽之幕」</color>，可反复挑战更高档位的分数以获取更多「樱花符」奖励，每档分数的奖励仅可获取一次。
+「无尽之幕」中每档分数及对应奖励：
+最高分数	奖励
+1000	樱花符*150
+1500	樱花符*150
+2000	樱花符*150
+3000	樱花符*150
+4000	樱花符*200
+5000	樱花符*200
+6000	樱花符*200
+7000	樱花符*200]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_time = {
+	tip = "每日0点解锁新的一幕哦~"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_order = {
+	tip = "完成前一幕后解锁~"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_pt1 = {
+	tip = "可获得奖励的游玩次数"
+}
+
+_G.pg.base.gametip.launchball_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/zuma2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.launchball_minigame_select = {
+	tip = "点击角色以选中"
+}
+
+_G.pg.base.gametip.launchball_minigame_un_select = {
+	tip = "再次点击相同角色以取消选中"
+}
+
+_G.pg.base.gametip.launchball_minigame_shop = {
+	tip = "该商品已售罄~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shinano = {
+	tip = "在商店中兑换<color=#92fc63>{namecode:182}</color>的信物后解锁哦~"
+}
+
+_G.pg.base.gametip.launchball_lock_Yura = {
+	tip = "在商店中兑换<color=#92fc63>{namecode:206}</color>的信物后解锁哦~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shimakaze = {
+	tip = "在商店中兑换<color=#92fc63>{namecode:18}</color>的信物后解锁哦~"
+}
+
+_G.pg.base.gametip.launchball_spilt_series = {
+	tip = "连击消除：达成连续消除可以获得更高的分数。"
+}
+
+_G.pg.base.gametip.launchball_spilt_mix = {
+	tip = "吸附消除：妖怪队伍中的缺口两侧颜色一致时，前方的队伍会被向后吸附，此时达成消除可以获得更高的分数。"
+}
+
+_G.pg.base.gametip.launchball_spilt_over = {
+	tip = "擦弹消除：使符咒从妖怪队伍中的缺口处穿过并造成消除可以获得更高的分数。"
+}
+
+_G.pg.base.gametip.launchball_spilt_many = {
+	tip = "多重消除：一次性达成3个以上妖怪消除可以获得更高的分数。"
 }

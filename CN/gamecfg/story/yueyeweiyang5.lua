@@ -40,23 +40,6 @@ return {
 			}
 		},
 		{
-			actor = 305050,
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这是……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_509",
@@ -65,44 +48,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			say = "在一棵树下驻足观望，伸手轻轻触摸——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301140,
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:147}！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.1,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -123,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 301650,
+			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
@@ -419,6 +364,11 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
 			}
 		},
 		{

@@ -5067,6 +5067,119 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[57] = {
+		subject = "金秋礼盒2023",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "金秋礼盒2023",
+		name_display = "金秋礼盒2023",
+		type_order = 2,
+		extra_gem = 0,
+		id = 57,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihejp6ss_l",
+		skin_inquire_relation = 69928,
+		id_str = "com.bilibili.blhx.zuanshi157",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond143",
+		extra_service_item = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40928,
+				1
+			}
+		}
+	},
 	[1000] = {
 		subject = "特许巡游凭证",
 		limit_group = 0,
@@ -7319,6 +7432,7 @@ pg.pay_data_display = {
 		51,
 		52,
 		53,
+		57,
 		1000,
 		1001,
 		1002,

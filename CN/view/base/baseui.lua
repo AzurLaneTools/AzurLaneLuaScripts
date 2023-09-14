@@ -412,14 +412,14 @@ function slot0.setImageAmount(slot0, slot1, slot2)
 end
 
 function slot0.setVisible(slot0, slot1)
-	slot0:ShowOrHideResUI(slot1)
-	setActiveViaLayer(slot0._tf, slot1)
-
 	if slot1 then
 		slot0:OnVisible()
 	else
 		slot0:OnDisVisible()
 	end
+
+	slot0:ShowOrHideResUI(slot1)
+	setActiveViaLayer(slot0._tf, slot1)
 end
 
 function slot0.OnVisible(slot0)

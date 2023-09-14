@@ -1519,5 +1519,13 @@ pg.voice_actor_CN = {
 	{
 		code = 380,
 		actor_name = "岩桥由佳"
+	},
+	{
+		code = 381,
+		actor_name = "Machico"
+	},
+	{
+		code = 382,
+		actor_name = "野中深爱"
 	}
 }
