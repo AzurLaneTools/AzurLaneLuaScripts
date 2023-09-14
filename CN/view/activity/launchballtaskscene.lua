@@ -4,6 +4,10 @@ function slot0.getUIName(slot0)
 	return "LaunchBallTaskUI"
 end
 
+function slot0.getBGM(slot0)
+	return "cw-story"
+end
+
 function slot0.init(slot0)
 	slot0.taskDatas = getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_ZUMA_TASK):getConfig("config_client")
 	slot0.iconTpl = findTF(slot0._tf, "ad/players/Viewport/Content/iconTpl")

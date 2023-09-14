@@ -91,7 +91,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 		slot6 = false
 		slot7 = nil
 
-		if slot0.actionTrigger.action or not slot0.actionTrigger.action then
+		if slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
@@ -403,8 +403,6 @@ function slot0.updateTrigger(slot0)
 		slot1 = nil
 
 		if slot0.actionTrigger.action then
-			slot1 = slot0.actionTrigger.time
-		elseif not slot0.actionTrigger.action then
 			slot1 = slot0.actionTrigger.time
 		elseif slot0.actionTrigger.action_list then
 			slot1 = slot0.actionTrigger.action_list[slot0.actionListIndex].time

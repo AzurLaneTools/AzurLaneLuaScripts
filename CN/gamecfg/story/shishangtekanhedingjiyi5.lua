@@ -299,6 +299,10 @@ return {
 				{
 					content = "藏在乐器里？",
 					flag = 1
+				},
+				{
+					content = "藏在衣服里？",
+					flag = 2
 				}
 			}
 		},
@@ -318,13 +322,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "噢！确实有可能！",
 			painting = {
 				alpha = 0.3,
@@ -336,13 +341,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = "touch",
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = "touch",
+			hidePaintObj = true,
 			say = "我、我找找看哦……！",
 			painting = {
 				alpha = 0.3,
@@ -354,13 +360,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "{namecode:204}仔细抚摸着乐器，似乎是在感受着什么。",
 			typewriter = {
 				speed = 0.05,
@@ -368,13 +375,14 @@ return {
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "指挥官也来帮一下忙吧……像这里、还有这里……",
 			painting = {
 				alpha = 0.3,
@@ -383,22 +391,17 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "藏在衣服里？",
-					flag = 2
-				}
 			}
 		},
 		{
-			actor = 399052,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			optionFlag = 1,
+			actor = 399052,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "嗯？好像……有了！",
 			painting = {
 				alpha = 0.3,

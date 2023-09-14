@@ -88,7 +88,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 		slot10 = findTF(slot8, "icon")
 
 		onButton(slot0._event, slot10, function ()
-			uv0._event:emit(BaseUI.ON_DROP, dropData)
 		end, SFX_PANEL)
 		table.insert(slot0.dropItems, slot10)
 		setActive(slot8, true)
@@ -103,14 +102,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 		slot11 = false
 
 		setActive(findTF(slot9, "ad/mask"), not ((not LaunchBallActivityMgr.GetPlayerZhuanshuIndex(slot8.id) or LaunchBallActivityMgr.CheckZhuanShuAble(ActivityConst.MINIGAME_ZUMA, slot10)) and true))
-		setText(findTF(slot9, "ad/skillPanel/skill1"), i18n(slot8.skill_1))
-
-		if slot7 == 1 then
-			setScrollText(findTF(slot9, "ad/skillPanel/skill2/text"), i18n(slot8.skill_2))
-		else
-			setText(findTF(slot9, "ad/skillPanel/skill2"), i18n(slot8.skill_2))
-		end
-
+		setScrollText(findTF(slot9, "ad/skillPanel/skill1/text"), i18n(slot8.skill_1))
+		setScrollText(findTF(slot9, "ad/skillPanel/skill2/text"), i18n(slot8.skill_2))
 		setText(findTF(slot9, "ad/skillPanel/detail/img"), i18n(uv0.skill_detail_desc))
 		onButton(slot0._event, findTF(slot9, "ad/click"), function ()
 			if not uv0 then
@@ -185,25 +178,21 @@ function slot0.showSkillPanel(slot0, slot1)
 	slot5 = i18n(slot1.skill_2_desc)
 
 	if i18n(slot1.skill_1) then
-		setText(findTF(slot0.skillDetailPanel, "ad/skill1Name"), slot2)
+		setText(findTF(slot0.skillDetailPanel, "ad/skill1Bg/skill1Name"), slot2)
 		setText(findTF(slot0.skillDetailPanel, "ad/skill1Desc"), slot3)
-		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Name"), true)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Desc"), true)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Bg"), true)
 	else
-		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Name"), false)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Desc"), false)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill1Bg"), false)
 	end
 
 	if slot4 then
-		setText(findTF(slot0.skillDetailPanel, "ad/skill2Name"), slot4)
+		setText(findTF(slot0.skillDetailPanel, "ad/skill2Bg/skill2Name"), slot4)
 		setText(findTF(slot0.skillDetailPanel, "ad/skill2Desc"), slot5)
-		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Name"), true)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Desc"), true)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Bg"), true)
 	else
-		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Name"), false)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Desc"), false)
 		setActive(findTF(slot0.skillDetailPanel, "ad/skill2Bg"), false)
 	end
