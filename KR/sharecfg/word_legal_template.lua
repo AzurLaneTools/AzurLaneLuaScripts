@@ -4644,7 +4644,18 @@ temp()
 function temp()
 	uv0["진"] = {
 		["츠"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
