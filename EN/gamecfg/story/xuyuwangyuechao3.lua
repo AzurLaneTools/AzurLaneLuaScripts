@@ -36,7 +36,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Lady Nagato, now! Go into the seal!",
+			actorName = "The Great Sage",
 			say = "Lady Nagato, now! Go into the seal!",
 			typewriter = {
 				speed = 0.05,

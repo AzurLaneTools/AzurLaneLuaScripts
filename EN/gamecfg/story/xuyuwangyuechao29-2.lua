@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将手放到腰间。",
+			say = "Unzen faced the rampaging beast anew and tightened her grip on her twin swords. A new power flowed into them and coalesced around her blades, giving them a new form.",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "无数光点汇聚成刀刃的形状。",
+			say = "She recalled the sight of her own countless failures in past dreams.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "那柄断裂的刀似乎又重新回到了{namecode:294}的手中。",
+			say = "Her swords hadn't been broken yet, and she now had others by her side.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "光点还在聚集。",
+			say = "Light gathered around her, creating many swords with the power of the concept of cleansing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "聚集成更多发光的刀刃，仿佛为{namecode:294}筑起了一道铁壁。",
+			say = "They created a wall of flashing steel around the shipgirls, repelling any shadows that dared encroach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,92 +89,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
-			bgName = "bg_yunxian_cg3_hx",
-			factiontag = "Heart of Watatsumi",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "再近一些。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再近一些……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "口中默念着，躲避开气息的进攻。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "不管敌人使出何种攻击。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "{namecode:292}与{namecode:152}始终伴行左右。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "刀光与火光交叠，从未停歇。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:292}",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:294}大人。",
+			say = "Closer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,103 +107,74 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:292}",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我们快要支撑不住了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:152}",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:294}大人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:152}",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "再往前恐怕就只能靠您自己了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "纸龙已经开始燃烧，但它依然拼尽全力护在众人周围。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:152}",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "刀身已经破损……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "{namecode:152}瞥了一眼刃上的缺口，义无反顾地向前冲去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就快到了。",
+			say = "Just a little closer...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "She channeled all her focus into a single point as she continued parrying and warding off the darkness, drawing ever nearer to the core.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "No matter what attacks the enemy threw at her, she knew that she was not alone.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "Shimanto and Ibuki had been beside her this entire time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "Lights from bursts of flame and glints of steel continued to dance and weave together, never wavering while she was yet to complete her work.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Shimanto",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Unzen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,13 +186,121 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Shimanto",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We're not going to be able to hold out much longer!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Ibuki",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Unzen!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Ibuki",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Lady Unzen, you'll have to go the rest of the way yourself!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "Shimanto's shikigami dragon had already caught on fire, yet it still tried to throw itself in the way of the enemy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Ibuki",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Ugh... My blade's about to give out...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "Ibuki cast a single glance at the notches that the shadow's teeth had left in her dulled blade, before anointing it once more in the flames of battle without hesitation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就快到了……",
+			say = "I mustn't subject you to any further danger...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Unzen",
+			bgName = "bg_yunxian_cg3_hx",
+			factiontag = "Heart of Watatsumi",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Soon, my blade will reach the core!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_1",
 			oldPhoto = true,
-			actorName = "Once the mist has been vanquished, there will no longer be a need for a seal.",
+			actorName = "The Great Sage",
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -627,7 +627,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			actorName = "*yaaaawn*...",
+			actorName = "???",
 			say = "*yaaaawn*...",
 			bgm = "story-afterrain-soft",
 			typewriter = {
@@ -642,7 +642,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Hatsuzuki... Zuihou... Where are you?",
+			actorName = "Natori",
 			nameColor = "#A9F548FF",
 			say = "Hatsuzuki... Zuihou... Where are you?",
 			painting = {

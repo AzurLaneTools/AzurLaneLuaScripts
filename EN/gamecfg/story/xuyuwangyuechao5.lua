@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "I have to apologize. There's something I haven't disclosed to you two.",
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "The roots of every Sacred Sakura in this empire are all connected to the Prime Sakura.",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "If the roots are severed by the erosion, even these hallowed trees will not be able to recover.",
 			typewriter = {
 				speed = 0.05,
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "They will be cut off from nutrients, and eventually wither.",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "As for the report you received, its cause can be traced back to the Prime Sakura itself.",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Even this one petal of the Sacred Sakura...",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "...Shows that the erosion is spreading throughout all the nation.",
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "If left alone, the Prime Sakura and all of its children will wither.",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "I suppose you could say that it is \"somewhere\" inside of it, yes...",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "More precisely, the Prime Sakura itself is the source.",
 			typewriter = {
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "...I would like to take you up on that offer, Guardian Fox.",
 			typewriter = {
 				speed = 0.05,
@@ -505,7 +505,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Musashi, I'd like to ask you one more thing.",
 			typewriter = {
@@ -519,7 +519,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "How is Shinano doing?",
 			typewriter = {
 				speed = 0.05,
@@ -550,7 +550,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			say = "Sorry to trouble you. But... Could you let me meet her?",
 			typewriter = {
 				speed = 0.05,
@@ -598,7 +598,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "I have to apologize. There's something I haven't disclosed to you two.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Thank you. Tomorrow is perfect.",
 			typewriter = {

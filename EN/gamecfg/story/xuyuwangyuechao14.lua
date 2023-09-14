@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "三人紧紧相拥以应对肆虐的风暴。",
+			say = "Hatsuzuki, Asanagi, and Natori were still holding on to each other, being dragged along by the unknown force.",
 			bgm = "battle-unknown-approaching",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "因为之前的冲击，众人被推到外围。",
+			say = "On one hand, the dragon made of dark mist had gone away – on the other, they'd lost all sense of direction due to the invisible current tossing them around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "艰难地调整身形，脚尖好像触到了什么物体柔软的表面。",
+			say = "Natori, the lowest of the three, decided to change posture and move her body. That's when her fingertips brushed against something soft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "脚下好像有什么东西！",
+			say = "There's something here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "向下望去，只有映射着宇宙星云般的巨大空洞。",
+			say = "She looked down, but couldn't see anything. It was like staring into a pitch-black abyss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "但若仔细观察，竟然可以看见随着脚部移动形成的微小涟漪。",
+			say = "She tried again, looking more closely, and this time saw ripples travel outward from the spot her fingers touched. Then, she noticed little grains of light, like distant stars in a galaxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "缓缓降落到看似空无一物的虚空之上。",
+			say = "It was as though a body of water was below them – pliable, too, like a soft mat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "脚下的触感好奇怪啊……",
+			say = "Hrmh. What an indescribable surface...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "像是软绵绵的床垫一样。",
+			say = "\"Hohoho. This must be Natori's renowned water-walking skill.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "一不小心就会陷进去的感觉。",
+			say = "It must be quicksand – you'll sink in it if you're not careful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们站成一排航行看看。",
+			say = "Asanagi, Natori, form a line and let's start our engines.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "慢慢加速……",
+			say = "We'll try to move forward. Slowly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "这是什么原理？",
+			say = "You can stand on it too?! So it wasn't my skill! What are we dealing with here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这时候就别纠结这些了吧。",
+			say = "I have no idea, and I don't think we have time to think about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "对了，得先去找到{namecode:88}，还有……",
+			say = "We've got to find Zuihou quickly, then go and rescue Musashi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "{namecode:84}大人……",
+			say = "Musashi... Could she be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "不可能的！那种东西怎么可能伤到{namecode:84}大人半分！",
+			say = "No, that's preposterous! A wee beast made of fog could never as much as scratch Musashi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "怪物现在肯定已经被{namecode:84}大人给斩杀掉了！",
+			say = "If anything, she has no doubt felled the creature by now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "嗯……",
+			say = "I hope so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "通讯器有反应吗？",
+			say = "Let's see if we can't reach anyone via our communicators.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "试着呼叫看看？",
+			say = "Hello? Does anyone read me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "回应她们的只有嗞嗞的杂音。",
+			say = "BRRRZZZT...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "轰——！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "黑色的气息向众人逼近。",
+			say = "Out of nowhere, the mist surrounded the shipgirls, birthing creatures far smaller yet far more numerous than the black dragon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们没有固定的形状，有时像是塞壬的量产型，有时又像是众人们自己的影子。",
+			say = "They had no set forms. One moment they were mass-produced ships, the next they were Sirens, and sometimes, even Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们的样貌好像每时每刻都在改变。",
+			say = "There was only one constant among them – that they were approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "抽出武器，摆开战斗的架势——",
+			say = "In response, the girls adopted fighting stances and readied their cannons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "现在只能靠我们自己了。",
+			say = "We've no choice but to fight on our own for now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "出击！",
+			say = "Come on! Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

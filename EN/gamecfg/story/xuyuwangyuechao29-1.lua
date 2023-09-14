@@ -9,7 +9,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "刀光闪动，阻挡在前方的气息被一并驱散。",
+			say = "A flash of a sword dispersed the thick, black mist.",
 			hidePaintObj = true,
 			flashN = {
 				color = {
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:152}，前来助阵。",
+			say = "Lady Shimanto, Lady Unzen, leave this place to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:152}……？",
+			say = "Ibuki?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我云游四方，循着异样的气息前来此处，却无法再前行一步。",
+			say = "Yes! I had resumed training for the sake of my master, but the way the air had changed made me suspicious, so I entered the sanctuary...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "忽然之间大地摇动，空无一物的海面之上竟然出现了一座充满异像的岛屿。",
+			say = "I-I do know that I shouldn't enter the sanctuary without permission, but I was just so worried about what was happening in here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如此这般，我便一路赶了过来。",
+			say = "Anyway, long story short, I came running to help you all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多说无用。",
+			say = "As a fellow member of the Sakura Empire, I cannot overlook this situation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:294}大人，您的身侧交给我们便是！",
+			say = "I may not be much help, but I offer what protection I can give!",
 			painting = {
 				alpha = 0.3,
 				time = 1

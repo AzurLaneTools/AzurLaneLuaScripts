@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "升腾的剑气直冲天际。",
+			say = "The released power of the sacred tree filled the seal and became a sword of energy that pierced the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "如神迹般令天空一分为二。",
+			say = "Both the cloud canopy and Shadow of Corruption alike were split in two, showing a glimpse of a different-colored sky beyond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "巨兽扭动着、哀嚎着。",
+			say = "The leviathan of mist writhed, as if feeling real agony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "黑色的气息正在向某处汇聚。",
+			say = "Already having lost its form, the mist began gathering in one place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "但与之前不同的是，肆虐的气息并非是要发起新一轮的攻击，而是正在企图逃离。",
+			say = "Instead of launching a counterattack, or even displaying a hint of malice, it was actually trying to flee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,12 +153,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:292}",
+			actorName = "Shimanto",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:294}大人！",
+			say = "Unzen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,12 +170,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:152}",
+			actorName = "Ibuki",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:292}！",
+			say = "Shimanto, are you alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,12 +187,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:292}",
+			actorName = "Shimanto",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没事……",
+			say = "Heheh, remember, I am the Dragon God! That was nothing to me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,13 +204,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg5",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当心，不能被它逃了。",
+			say = "We mustn't let the core escape us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "一团气息奋力逃出，径直掠过众人的上方。",
+			say = "The corpse of the beast spat out a black mass that emitted dark-red light as it passed over the shipgirls' heads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,12 +233,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:152}",
+			actorName = "Ibuki",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不好！",
+			say = "Is that... the core?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,13 +250,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg5",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来不及追上了……",
+			say = "We can't possibly catch up from here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "云开雾散，浓密云层被光线刺穿。",
+			say = "It was then that the clouds covering the sky opened up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "大圣域外围的景色终于映入眼帘。",
+			say = "That was the sanctuary sky that Sakuran shipgirls knew. The sight outside of the seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "因为结界的保护，爆炸区域形成了明确的界限。",
+			say = "Seemingly of its own volition, the core ascended toward the opening in the clouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,9 +306,9 @@ return {
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			hidePaintObj = true,
-			say = "开火！",
+			say = "In that case...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "将舰装唤出，朝着气息逃离的方向开火，却无一命中。",
+			say = "Unzen fired her cannons, but the core had already escaped just beyond her range.",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "距离它完全脱逃只差分毫——",
+			say = "At this rate, the calamitous black mist would reach the outside world—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "嘿——！",
+			say = "Haaaaaah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "发光的术式纹路彻底封死了它的去路。",
+			say = "The core collided with a glowing, pink pattern—the seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "被激活的结界纹路像是水上的波纹一般向四周扩散。",
+			say = "The glyphs of power spread like ripples on water, engulfing the entirety of the black mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "然后，结界忽然向内收缩，爆炸区内的时光仿佛倒流，破碎的大地重新聚合。",
+			say = "The moment it had the mist in its clutches, the seal condensed into the roots of the Prime Sakura, the center of the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "空间中所有的黑色气息都被挤压到一处——",
+			say = "Time seemed to flow backwards. The withered Prime Sakura and the islands of earth floating in the air all began returning to their original form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "大神木下方的那个光点之内。",
+			say = "Thus, the black mist was sealed once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人！",
+			say = "Lady Nagato!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赶、赶上了……",
+			say = "I-I made it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "大贤者，结界已经修复完毕……",
+			say = "Great Sage... I've repaired... the seal...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "说罢，{namecode:74}便在众人的眼前倒了下去。",
+			say = "No sooner as those words left her lips, Nagato collapsed to the ground, unconscious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "无处遁形的气息重新被那股力量捕获，瞬间被拉回中心。",
+			say = "The nearly-escaped core had been dragged instantly back into the seal. Now, its presence was seemingly gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人！",
+			say = "Lady Nagato!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:152}将其扶起。",
+			say = "Ibuki rushed to help her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像只是劳累过度。",
+			say = "...Phew. Thank goodness, it's just fatigue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "施展这种级别的术式简直就是乱来……",
+			say = "Even for the Guardian Fox, performing a ritual of such scale by force...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "这就是重樱的神子吗……",
+			say = "How much did she have to push herself for that? Phew...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "唔……我还差得远呢……",
+			say = "I sure do have a long way to go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "精疲力尽的{namecode:292}瘫倒在地。",
+			say = "Exhausted from the fierce battle, Shimanto collapsed to her knees to take a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能与你们并肩作战，实感荣幸。",
+			say = "Lady Nagato, Shimanto, Ibuki. It's an honor to have fought with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:294}将刀刃插进土中，刀刃散发着光芒，不一会儿便破碎消失了。",
+			say = "Unzen stabbed her swords into the soil. As the sacred tree's remaining power had returned to the sanctuary, the swords disappeared as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时机已至……",
+			say = "It's almost time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一只蓝色的蝴蝶停在了{namecode:294}指尖，随后是数百、数千只。",
+			say = "One blue butterfly landed by Unzen, followed by hundreds, no, a thousand more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们汇聚成发光的丝带，向着大神木之下的光点飘近。",
+			say = "The light cast by their wings extended slowly toward the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "远处传来众人的呼唤声。",
+			say = "Voices of the other shipgirls in the sanctuary reached them from afar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "但片刻之前{namecode:294}所站之处，此时已无人可以回应。",
+			say = "Amidst the cherry blossom-colored rain, the Prime Sakura also slowly merged with the light...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "在漫天的樱花雨中，大神木也随之消散。",
+			say = "Floating along the river towards destinations unknown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "花瓣汇聚成河，飘向那未知的远方。",
+			say = "When they turned back, Unzen was already gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

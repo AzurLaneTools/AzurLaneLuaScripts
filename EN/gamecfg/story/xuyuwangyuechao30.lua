@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "重樱群岛·某处",
+			say = "Past – Somewhere in the Sakura Islands",
 			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "？？年前",
+			say = "The special exercise to decide the new flagship, along with the events with Kaga, Amagi, and Akagi, had passed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:74}大人的情况如何？",
+			say = "How is Lady Nagato doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似乎已在大神木中沉睡，并无大碍。",
+			say = "Presumably safe and sleeping in the Prime Sakura?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,113 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，御神木它竟然还有这种功能吗……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "此为禁忌，莫再提及。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305120,
-			say = "属下明白。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305120,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "只是，{namecode:84}大人……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305120,
-			say = "{namecode:74}大人突然宣布退位，这一段应当如何记述？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "{namecode:74}大人曾经交代过……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不可将她受伤的真相传播出去。",
+			say = "However, I don't think that's what it's for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,63 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "你便按照她的意思处理吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			say = "{namecode:80}退出了房间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			say = "罗帐前，有一个娇小的身影正襟危坐。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301370,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "「对大贤者所托之物，研究如何？」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我已成功制造出海若神石的仿品，虽不完善……",
+			say = "Don't ever breathe a word of this to anyone again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,8 +107,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "但其展现的全新特性，已经完全超乎我的想象。",
+			actor = 305120,
+			say = "...Yes, ma'am.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,13 +119,13 @@ return {
 			}
 		},
 		{
-			actor = 301370,
+			actor = 305120,
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「{namecode:182}的情况呢？」",
+			say = "Anyway, are you sure I should really just write that Lady Nagato gave up her position as flagship because of the Reenactment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,151 +136,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "已有小成，{namecode:182}她……似乎继承了大贤者的部分力量。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "她于梦境中穿梭，却也因此长睡不醒。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301370,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "「将{namecode:182}转移至天岩岛。那里远离本岛，也远离漩涡的中心。」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301370,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "「待她苏醒之时……汝就代吾向她送去祝福吧。」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我明白了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301370,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……{namecode:84}大人，已经结束了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301370,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那么我就先行告退……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯，去客房休息吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "此行辛苦了，{namecode:133}。",
+			actor = 305120,
+			say = "If she's hurt, then we should really tell everyone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +161,306 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "如果这就是汝之计划的话……",
+			say = "We don't know how others might act if it's known that the Sakura Empire Combined Fleet's flagship is wounded and unable to battle.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Lady Nagato herself has expressed that she would like it to be known as simply part of the Reenactment.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "You and I are here to obey.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			say = "Seemingly understanding, Kii quickly nodded and left the room.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			say = "Musashi looked at a little girl sitting behind the curtain—particularly, at the treasure in her hands.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "\"Can what the Great Sage gave us really change the Sakura Empire's future...?\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Yes. I'd thought it a Wisdom Cube, but it displays wildly different characteristics.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "So far, there is little that I know about it.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "\"Hmm... What of Shinano?\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "It seems she has inherited some of the Great Sage's dream powers...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "She cannot fully control them, making the boundary between dreams and reality fuzzy for her. This is why she hasn't woken up.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "\"Then let's move her to the Diadem of Light. It's far from our mainland, so that will keep her far from the trouble stirring here.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "\"If Shinano wakes up... then offer her my blessings on my behalf.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Yes, gladly.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Mmnh... Lady Musashi? Is it already over...?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301370,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Then I'm gonna go change clothes and go to bed...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Of course. Make sure you brush your teeth first.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "Good night, Minazuki.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "What are you planning, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:83}。",
+			say = "...Yamato.",
 			painting = {
 				alpha = 0.3,
 				time = 1

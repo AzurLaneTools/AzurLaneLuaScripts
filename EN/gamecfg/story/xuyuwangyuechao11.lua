@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			stopbgm = true,
 			hidePaintObj = true,
-			actorName = "\"To the sanctuary, where the Prime Sakura is...\"",
+			actorName = "???",
 			blackBg = true,
 			say = "\"To the sanctuary, where the Prime Sakura is...\"",
 			bgm = "theme-sakuraholyplace",
@@ -22,7 +22,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "\"To the sanctuary, where the Prime Sakura is...\"",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			say = "There it is! The voice in my head!",
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			nameColor = "#A9F548FF",
 			say = "Sounds familiar... Is it the Great Sage?",
 			painting = {
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			nameColor = "#A9F548FF",
 			say = "I can't go there, though. The Guardian Fox's barrier stops one from getting close.",
 			painting = {
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			nameColor = "#A9F548FF",
 			say = "There's no way in hell I'm getting past that.",
 			painting = {
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			nameColor = "#A9F548FF",
 			say = "Wait... But I think I touched the Prime Sakura yesterday, and I've been havin' these weird nightmares since then...",
 			painting = {
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "There it is! The voice in my head!",
+			actorName = "Owari",
 			nameColor = "#A9F548FF",
 			say = "OH!",
 			painting = {

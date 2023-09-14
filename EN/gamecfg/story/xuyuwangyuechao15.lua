@@ -16,7 +16,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "斩——！",
+			say = "Haaaah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "刀光劈开不定形的气息，让它们暂时退缩。",
+			say = "Hatsuzuki's sword cut the black mist away, fending off the approaching foes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "但很快，这些诡异的怪物便卷土重来。",
+			say = "However, they quickly changed form and resumed their attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "这到底是些什么东西呀！",
+			say = "What are these things?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "火炮向着四周开火，烟尘弥漫。",
+			say = "Artillery fired all over the place, whipping up wind and smoke that disrupted the mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "斩——！",
+			say = "Haaaah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "挥动手中的刀刃，但这一击竟被挡下。",
+			say = "...Yet once more, they simply changed form and attacked again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "什么？！",
+			say = "I hit something hard! That wasn't mist, was it...?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "气息在与其接触的那个部分，仿佛在瞬间发生了物质特性的转变。",
+			say = "The moment Hatsuzuki's blade touched it this time, what was once black mist transformed into a temporary solid form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "叮！",
+			say = "PING!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "像是劈砍到某种光滑坚硬的表面，刀刃被猛地弹开。",
+			say = "She hadn't put enough strength behind it to cut through the plating, so her blade was deflected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "怎么这样……！",
+			say = "C'mon...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "{namecode:189}，我们被包围了！",
+			say = "We've been surrounded!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "这些害虫！",
+			say = "Insignificant worms! Behold as my fists of fury put a dent in you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "鱼雷！主炮！都给我齐射啊！",
+			say = "Torpedo volley! Main cannons, fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:298}你冷静点……",
+			say = "Asanagi, don't touch that black mist!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "弹药快见底了，既然此路不通，那还是去找别的突破口吧。",
+			say = "We're running out of ammo! We gotta run away while we still can!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "哪还有别的突破口啊！",
+			say = "How long do you plan to run?! Let's send up a signal flare!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "信号弹呢，快发信号弹！",
+			say = "Owari and the others may be struggling, too, but it's better than fighting alone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "如果能被其他人看到，或许还能和我们汇合！",
+			say = "Let us join up and fight together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "我来吧！",
+			say = "I'll take care of it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "主炮口向上抬起，炮弹在众人的上方爆炸。",
+			say = "Natori pointed her main cannon toward the sky and shot a signal flare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "那团闪烁的微光成了这黑暗虚空中唯一的星辰。",
+			say = "It burst in the air, becoming a lone star in the desolate black sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "弹药告罄……",
+			say = "Kh... Ammunition is wearing thin quickly...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,9 +420,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:189}",
+			actorName = "Hatsuzuki",
 			side = 2,
-			say = "愿神明护佑。",
+			say = "(\"Fight until the last light has faded...\")",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,9 +438,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:189}",
+			actorName = "Hatsuzuki",
 			side = 2,
-			say = "我们要战斗到最后一刻！",
+			say = "(I know...! I'm not giving up until the end!)",
 			painting = {
 				alpha = 0.3,
 				time = 1

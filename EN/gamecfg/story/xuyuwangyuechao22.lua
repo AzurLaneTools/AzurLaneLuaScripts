@@ -12,7 +12,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackFg = 1,
-			say = "世界天旋地转，{namecode:84}在黑暗中迷失了方向。",
+			say = "Musashi had been swallowed whole by the dragon of black mist. Aimlessly, she had been roaming a plane of darkness for hours.",
 			bgm = "story-unzen-heart",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "直到熟悉的光在她身边亮起，黑暗中出现了一道裂隙。",
+			say = "That's when a light appeared – the light from the ritual Nagato previously performed inside the seal – and enveloped her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "光芒中有一只手向她伸出。",
+			say = "The light showed her a vision of the Guardian Fox performing the same ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人？",
+			say = "Lady Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾来晚了。",
+			say = "Forgive me. I should've come sooner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能确定其他人的位置吗？",
+			say = "Do you know where the rest of the girls are?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "无法确定，但如果大贤者依然存在……",
+			say = "I do not. But, assuming the Great Sage's seal still hasn't been fully destroyed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "她们能去的只有一个地方。",
+			say = "Then there is one place. The only place they could seek shelter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大神木……",
+			say = "The Prime Sakura... They must be within the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "我去那里找她们，然后搜索大贤者的踪迹。",
+			say = "I'll go inside to look for them, as well as for any traces of the Great Sage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "仪式即将展开，吾无法脱身。",
+			say = "Aye. I will soon begin the main part of the ritual, and I have no leeway to rescue the others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,42 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们……就托付给汝了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305050,
-			say = "这张符咒，汝收好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "当汝找到她们，就将符咒点燃，吾感应到后便会启动仪式。",
+			say = "Only you can do it, Musashi. I trust you to save them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +225,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "想要彻底阻止“息”逃离，唯有使用贤者术式一途。",
+			say = "I will send you to the inside of the seal. Once you find the others, set fire to this talisman.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I shall then use the power of the sanctuary's seal to transport all of you outside it.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305050,
+			say = "But, to fully resolve this abnormality, we will need the Great Sage's help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "但即便是吾，也无法驱动那样的术式太久。",
+			say = "As it stands, my powers alone are insufficient to seal away the dark mist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "所以，时机非常关键。",
+			say = "Replicating the Watatsumi worked once. To purge the mist, we will need to take a different approach.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:74}大人，您的意思是？",
+			say = "You're referring to the dragon god?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通过贤者术式，吾可以将汝等传送出这片区域。",
+			say = "That, I am not. Never mind that – focus on finding the others as soon as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "待转移完成，吾再施加结界。",
+			say = "Once I know that you're all safe, I will attempt to strengthen the seal temporarily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "只是……请在吾无力支撑之前，务必找到大贤者。",
+			say = "As brilliant as the Great Sage's ritual is, it cannot even keep the situation from worsening as long as she is the Watatsumi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "因为在吾看来，她的力量恐怕也所剩无几了。",
+			say = "Especially now that the Watatsumi's power has nearly run out.",
 			painting = {
 				alpha = 0.3,
 				time = 1

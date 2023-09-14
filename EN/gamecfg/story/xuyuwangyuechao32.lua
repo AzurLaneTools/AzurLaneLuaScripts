@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "重樱群岛·{namecode:74}宅邸",
+			say = "Past Sakura Empire – Nagato's Abode",
 			bgm = "story-afterrain-soft",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "？？年前",
+			say = "Wanderlust would be an apt word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "世界海军学院的访问活动仍在进行当中。",
+			say = "As the Commander of a fleet, it was common for me to travel to other places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "通过云游四方，访问各国了解各地的风土人情，的确是难得的体验。",
+			say = "I got many opportunities to travel all over the world and learn the customs of various lands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "作为未来战场的指挥官，越发觉得自己任重而道远。",
+			say = "However, the responsibility on my shoulders made it difficult for me to relax and have fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "翻阅手中的行程安排。",
+			say = "I open up the itinerary and check my plans for the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "满满的注释与时间表看得人头皮发麻。",
+			say = "A packed schedule, a whole mountain of notes left by my friends... It's enough to make me dizzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "赶紧将其合上，捏了捏鼻梁。",
+			say = "But, I signed up for this, and I can't let something like this discourage me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "距离下一项安排还有点时间。",
+			say = "Plus, I happen to have a little bit of free time before my next engagement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "趁这个空隙稍微休息一下吧。",
+			say = "Maybe it would be a good idea to take a breather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "这些天来，跟随重樱的向导，参观了都城中各种名胜古迹。",
+			say = "Now that I think about it, the Sakuran tour guide showed me around various places and introduced me to quite a few shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "这个环节还是挺惬意的。",
+			say = "We'd visited places together, tried all kinds of foods...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "直到开始那冗长无聊的会议环节……",
+			say = "Worked, sat through endless meetings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "而我作为主发言人，又不得不全神贯注。",
+			say = "Looking back, I had to give speeches and manage the proceedings, so I was focused the whole time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "不知不觉，休息的时间已经过半。",
+			say = "Whoops. Can't let those kinds of thoughts get to me too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "我整理了一下衣装，推开门前往晚宴的举办地。",
+			say = "I tidied up my clothes and made my way over to the dinner venue Nagato had invited me to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

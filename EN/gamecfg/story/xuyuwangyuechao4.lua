@@ -251,7 +251,7 @@ return {
 			portrait = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			hidePaintObj = true,
 			say = "...Am I hallucinating?",
 			flashN = {
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			actorName = "(RUN...! RUN, NOW...!)",
+			actorName = "Distorted Noise",
 			say = "(RUN...! RUN, NOW...!)",
 			flashN = {
 				color = {
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
-			actorName = "Indeed. However, it seems easier said than done...",
+			actorName = "Musashi",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Is this... one of our cities...?!",
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
-			actorName = "Indeed. However, it seems easier said than done...",
+			actorName = "Musashi",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Lady Nagato, look!",
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305050,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Great Sage...",
@@ -694,7 +694,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Guardian Fox. Musashi.",
 			typewriter = {
@@ -708,7 +708,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "You two had the same dream, as I recall.",
 			typewriter = {
@@ -722,7 +722,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "Some say that dreams are an extension of reality, while others call them a reflection of your mind.",
 			typewriter = {
 				speed = 0.05,
@@ -735,7 +735,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Unlike you, however, I dream of potential futures.",
 			typewriter = {
@@ -749,7 +749,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "To be honest, I've dreamed of that same future of destruction countless times.",
 			typewriter = {
@@ -763,7 +763,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Tens... No, hundreds of times, even.",
 			typewriter = {
@@ -777,7 +777,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "I was able to act of my own will, so I investigated various things throughout the dreams.",
 			typewriter = {
 				speed = 0.05,
@@ -790,7 +790,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "That beast of black mist that withers the Prime Sakura and brings calamity to the Sakura Empire...",
 			typewriter = {
@@ -804,7 +804,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "I call it the Shadow of Corruption.",
 			typewriter = {
@@ -818,7 +818,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "While Watatsumi, that which fell from the heavens, gives us the wisdom and power to expel evil...",
 			typewriter = {
 				speed = 0.05,
@@ -831,7 +831,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "The Shadow of Corruption, too, will inevitably become the calamitous darkness.",
 			typewriter = {
@@ -863,7 +863,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "Yes. Like two sides of a coin, like light and shadow.",
 			typewriter = {
 				speed = 0.05,
@@ -876,7 +876,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Wherever there is light, there is also darkness. Normally, they maintain balance instead of leading to ruin, but...",
 			typewriter = {
@@ -907,7 +907,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "The more Watatsumi's power is used, the stronger the darkness's influence becomes.",
 			typewriter = {
@@ -921,7 +921,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "No, even if Watatsumi's power isn't used, as Wisdom Cubes grow stronger...",
 			typewriter = {
@@ -970,7 +970,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "To be more precise, they're similar but different. As time passes and branches shift, our names for them change as well.",
 			typewriter = {
 				speed = 0.05,
@@ -983,7 +983,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Regardless of the name you call them by, they tap into the same wellspring of power that gives form to our hulls... In other words, a conduit to a root source.",
 			typewriter = {
@@ -997,7 +997,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Humans may wield this power and manifest it in different ways, but this primordial wellspring is far beyond their ability to control.",
 			typewriter = {
@@ -1011,7 +1011,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "Nevertheless, if we do not define it in terms of human cognition, we would have no way of understanding its scale on a cosmic level.",
 			typewriter = {
 				speed = 0.05,
@@ -1042,7 +1042,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			say = "A miraculous entity born of countless wishes, interwoven with the laws and truths of countless worlds.",
 			typewriter = {
 				speed = 0.05,
@@ -1055,7 +1055,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "Guardian Fox. Musashi.",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "That is Watatsumi. That is me.",
 			typewriter = {
@@ -1181,7 +1181,7 @@ return {
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			say = "This is...the Prime Sakura...",
 			typewriter = {
@@ -1195,7 +1195,7 @@ return {
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			say = "The sanctuary that seals the dark mist...",
 			typewriter = {
@@ -1365,7 +1365,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			say = "We only have one choice now.",
 			painting = {
@@ -1379,7 +1379,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -1400,7 +1400,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Indeed. However, it seems easier said than done...",
+			actorName = "Musashi",
 			nameColor = "#A9F548FF",
 			say = "...You mustn't.",
 			painting = {
@@ -1418,7 +1418,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Indeed. However, it seems easier said than done...",
+			actorName = "Musashi",
 			nameColor = "#A9F548FF",
 			say = "Even if I were to escape, you...",
 			painting = {
@@ -1432,7 +1432,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -1453,7 +1453,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			say = "I vowed to do so, and I showed you my resolve during our game.",
 			painting = {
@@ -1471,7 +1471,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "The barrier's defenses still resist the erosion...",
+			actorName = "Nagato",
 			nameColor = "#A9F548FF",
 			say = "Bear witness... to the Guardian Fox's power!",
 			painting = {
@@ -1511,7 +1511,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Indeed. However, it seems easier said than done...",
+			actorName = "Musashi",
 			nameColor = "#A9F548FF",
 			say = "Lady Nagato...!",
 			painting = {

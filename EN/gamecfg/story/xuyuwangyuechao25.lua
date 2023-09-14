@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刀刃抵住黑暗的侵袭，她纵身跃起。",
+			say = "First, a swing. Cutting the dark mist's clouds aside, using the momentum to leap forth.",
 			bgm = "story-unzen-heart",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "一点寒光刺入其中，将它撕裂驱散。",
+			say = "Second, a stab. The blade pierced the enemy's heart and dispersed it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "黑气凝聚，扭曲的人形缓缓升起。",
+			say = "Black mist condensed once more into the shape of a human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "那是个黑影，映照出和她相同的样貌。",
+			say = "The Shadow of Corruption reflected her figure, her features, even her presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,8 +58,8 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "……",
+			actorName = "The Great Sage",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "同时发力前冲，刀刃摩擦生出火光。",
+			say = "Third, a sweep. The two opponents' swords clashed, sending sparks flying.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "弯腰侧身，收刀入鞘，后退半步和它拉开距离。",
+			say = "Fourth, a quick-draw. She took a half-step back and sheathed her blade. The moment the shadow showed an opening—",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "黑影却慢了半拍。",
+			say = "She loosened her sword slightly and unleashed a powerful blow upon the defenseless mist.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "斩——！",
+			say = "Haaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "横刀出鞘，在身前劈出一轮新月。",
+			say = "The sword drew a crescent moon arc in the darkness of night.",
 			hidePaintEquip = true,
 			flashN = {
 				color = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "消散的黑影中，传出放肆的笑声。",
+			say = "Her strike, affixed with the concept of the seal, cleansed the wicked mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "All is futile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "气息汇聚成无数人形，向着中央的她发起攻势。",
+			say = "As if taunting her, the darkness formed an army and roared as it closed in from all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "垫步上跳，冲刺的黑影互相碰撞，爆发出巨大的冲击。",
+			say = "She jumped straight upward, causing the army to collide and collapse into itself.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "跳动的黑影接连不断朝着她袭来，却连触碰她都做不到。",
+			say = "She then pulled back her long, flowing clothes, keeping them out of enemy reach as she danced out of range.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "All is futile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "从黑影穿梭产生的空隙中，她看到远处的那一点红光。",
+			say = "She weaved between black figures, aiming for the core—one that emitted a red gleam.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "找到你了。",
+			actorName = "The Great Sage",
+			say = "Found you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "瞬间加速，那个独特的黑影将刀尖对准了前方。",
+			say = "She instantly accelerated, aiming her blade tip toward it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,9 +292,9 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "湮灭……",
+			say = "Prepare to be annihilated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "她用尽全力刺向那一点红色，但却有一股力量在阻止刀尖的推进。",
+			say = "Though the thrust was backed by all her strength, the blade was stopped just short of the core.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -319,9 +319,9 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "这……便是……",
+			say = "This is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "暴虐的气息从黑影的伤口喷发。",
+			say = "Made not of flesh and blood, the black body emitted an ominous aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "黑影用双手握住刀刃，发出骇人的吼叫。",
+			say = "The Shadow of Corruption seized the blade in its hands and roared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,9 +355,9 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "我的终局……",
+			say = "The end... of me and Watatsumi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_yunxian_5",
 			side = 2,
 			withoutActorName = true,
-			say = "更多的手臂从黑影中生出，死死握住刀刃，试图将其拔出。",
+			say = "Arm after arm lunged from the black mist, trying to rip the blade away.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「不——！」",
+			say = "「———」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "刀刃断裂，黑色的冲击震荡了整个空间。",
+			say = "The sword broke, and a black shockwave exploded throughout the sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "她像一具断线的木偶，翻转着跌落到某座浮岛之上。",
+			say = "Powerless and limp, she fell pitifully onto a floating mass of rock and soil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "那一点红色再次被气息包裹，它们凝聚成巨大的怪物，怒吼着张开巨口。",
+			say = "The mist's core was once again concealed, and it condensed once more into a horrifying monster. The beast opened its maw and swallowed the sanctuary's protector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,8 +426,8 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "……",
+			actorName = "The Great Sage",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

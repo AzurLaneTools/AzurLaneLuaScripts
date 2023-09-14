@@ -16,7 +16,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "额……",
+			say = "Nnh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "可恶啊……",
+			say = "Damn it all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:298}，你的弹药也消耗干净了？",
+			say = "Asanagi, are you out of ammo now...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "只剩下手中的武器了，就算是用砍的，也要杀出去！",
+			say = "Nearly. But I have deadlier weapons. With one fist, I'll break us out of this quagmire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:297}就躲在我们身后吧。",
+			say = "Natori, it's dangerous. You hide behind us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "如果有机会的话，就想办法逃出去……",
+			say = "Even if only one of us can escape, you'll—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "你在说什么，我也要保护大家！",
+			say = "How dare you?! I will be the one to protect us all using my cheat abilities!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "真是的！怎么还在说这种话！都什么时候了！",
+			say = "Geez, can you cut that out already?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "又来了！",
+			say = "Yes, yes. That's enough, you two!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "勉强用舰装挡住攻击，三人背靠着背，已经退无可退。",
+			say = "They turned their rigging and used their broadside plating to narrowly fend off attacks. Their backs were truly against the wall now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "看来到此为止了……",
+			say = "Looks like this is it for us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "将刀尖对准黑色的气息，她们目光如炬。",
+			say = "But Hatsuzuki and her fellow shipgirls did not give up the fight just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "气息突然加速向众人袭来——",
+			say = "The black mist monsters all attacked at once—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,12 +250,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:189}",
+			actorName = "Hatsuzuki",
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,57 +267,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:189}",
+			actorName = "Hatsuzuki",
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			say = "皮肤上传来温暖的触感。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:298}",
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "怎么回事……？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:297}",
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "你们看，那些东西都被吓跑了！",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
-			say = "一束光芒自天空降下，被照亮的地方，气息发出悲鸣般的嘶嘶声。",
+			say = "Hatsuzuki's surroundings were lit up as bright as daytime, as if a spotlight had been pointed at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,12 +295,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:297}",
+			actorName = "Asanagi",
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好温暖。",
+			say = "What is the meaning of this...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,51 +312,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:297}",
+			actorName = "Natori",
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是{namecode:74}大人的术法吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			say = "光柱的半径缓缓扩大，直到将众人完全笼罩。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			say = "光芒之中，却呈现出另一番景象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:297}",
-			bgName = "bg_yunxian_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我、我们要被传送出去了？",
+			say = "\"Heheheh, mwahahahah! How do you like that?! See how they turn tail and run!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +332,91 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg1",
 			hidePaintObj = true,
-			say = "光芒愈发明亮，即使闭上双眼也能感受到那刺眼的白。",
+			say = "Illuminated by the light, the black mist shrieked and disappeared.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Natori",
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "So waaarm...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Natori",
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Is this Lady Nagato's ritual?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			say = "The light continued to expand and envelop the trio.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			say = "For some reason, there wasn't darkness outside the light anymore; something else entirely had unfolded.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Natori",
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Could it be? Teleportation magic?!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_cg1",
+			hidePaintObj = true,
+			say = "Instantly after, the light became so dazzling that they saw nothing but white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

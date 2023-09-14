@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "重樱风格的庭院中央，三人略显尴尬地对视着。",
+			say = "Teleported away from the black mist and into a Sakura Empire garden, the trio looked back and forth at each other dubiously.",
 			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "我们还活着吗……？",
+			say = "Are we... alive?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "狠狠地掐了一把{namecode:298}的胳膊。",
+			say = "Hatsuzuki abruptly pinched Asanagi's arm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "你干嘛！",
+			say = "Ouch! Why?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "不是在做梦！",
+			say = "Well, we're not dreaming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "下次还是掐你自己比较好！",
+			say = "If you wanted to check, then pinch your own cheek instead of my poor arm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "哈哈……顺手而已。",
+			say = "But that hurts, and I don't wanna stretch my cheeks out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "你这是什么理由啊？！",
+			say = "What sort of logic is that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "先别吵了。",
+			say = "\"Now, little girls, stop your arguing.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "探出脑袋四处查看。",
+			say = "The mirror jumped out of Natori's clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "这里到底是什么地方呀？",
+			say = "Old Man! Where are we?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "总不可能真的被传送回了重樱本岛吧。",
+			say = "\"My, my... Have we been returned to the Sakuran archipelago...?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "庭院的风格的确是重樱的没错啦，但我总觉得有些熟悉。",
+			say = "I think so... The style is Sakuran, and this place kinda looks familiar...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉……像是{namecode:74}大人的庭院？",
+			say = "Is it... Lady Nagato's courtyard?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么果然是{namecode:74}大人救了我们……",
+			say = "So Lady Nagato DID save us, after all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "先四处看看吧，我们在这里也得不出什么结论来。",
+			say = "Let's investigate the area for the time being. Standing around won't do us any good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "{namecode:298}捂着胳膊，大步流星地四处查看。",
+			say = "Rubbing her arm, Asanagi tried to start walking—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,22 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不可——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "庭院的某处传出一个声音。",
+			say = "No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +382,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "众人回首。",
+			say = "A woman's voice interrupted her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Everyone turned around toward it. There, they saw a woman in white standing next to the lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "star_level_bg_510",
 			side = 2,
 			withoutActorName = true,
-			say = "平静的湖水倒映出那人的倩影，她一席白衣，宽大的袖口处露出淡紫的内衬。",
+			say = "The lake surface reflected her figure. Despite her loose attire, her shapely curves were quite plain to see.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -418,9 +418,9 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "你再往前踏半步，便是深渊。",
+			say = "If you take another half-step forward, you will fall into a bottomless abyss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "{namecode:298}低头，发现地面在她的脚尖前方模糊了边界。",
+			say = "Asanagi looked down and, indeed, the ground at her feet and that just in front seemed different somehow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "虽然尚未踏出庭院范围之外，却已经感受到了边界之外的一丝恶寒。",
+			say = "Taking another half-step forward would mean falling into an abyss. That much seemed to be true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "赶忙抽回了脚，双手晃动着维持住平衡。",
+			say = "Getting goosebumps from the cold chill, Asanagi pulled her extended leg back to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "……？",
+			say = "Who are you...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "好漂亮的人哦……",
+			say = "\"Ho ho ho! You're a pretty little lady!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是神仙……？",
+			say = "Aha! You must be a goddess! Or a hermit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她走近，众人投去好奇的目光。",
+			say = "Heedless of the many curious eyes on her, the Great Sage approached the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,9 +546,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			side = 2,
-			say = "一、二、三……这样啊，看来你们还有别的同伴被困在那里。",
+			say = "One, two, three... I see. More of your friends are still trapped in there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_510",
 			side = 2,
 			withoutActorName = true,
-			say = "她带领众人走到湖边，平静的湖面忽然变成了之前黑气肆虐的空间。",
+			say = "She went back to the lake. The once-placid waters suddenly changed, taking on a more sinister look.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -573,7 +573,7 @@ return {
 			bgName = "star_level_bg_510",
 			side = 2,
 			withoutActorName = true,
-			say = "她们仿佛站在一处高崖，正在向下眺望。",
+			say = "It was as if it wasn't a Sakura Empire courtyard's lake at all, but an abyss leading straight to hell.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -586,7 +586,7 @@ return {
 			bgName = "star_level_bg_510",
 			side = 2,
 			withoutActorName = true,
-			say = "她指向脚下的深渊。",
+			say = "The Great Sage was unmoved as she gazed into the abyss.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -599,9 +599,9 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "找到你们的朋友了，放心，她们平安无事。",
+			say = "...I've found your friends. Don't worry; they're okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "像是回应一般，远处深渊的某处，出现了一点闪烁的光芒。",
+			say = "Light shone in the abyss, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "但那光芒很快便熄灭了。",
+			say = "Both the light and the abyss disappeared, returning the lake to its usual calm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

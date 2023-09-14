@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "密不透风的结界出现了裂缝。",
+			say = "Danger approached the courtyard, the final safe haven left by the Great Sage.",
 			bgm = "story-unzen-heart",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "多年以来，黑色气息都在不断侵蚀着这片空间中最后的净土。",
+			say = "Now that the seal was broken, the dark mist grew stronger. It now tried to encroach upon the last pure land in the Prime Sakura's sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,94 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "高悬的明月正在被阴影笼罩。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301890,
-			say = "月食……？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "众人退到深渊的湖边。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305130,
-			say = "裂痕还在扩大！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "朝着天空中的裂隙开火，被炮火撕裂的气息很快幻化成无数的乌鸦",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "吞噬一切的黑逐渐填满了天空。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305130,
-			say = "你们退到我的身后。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Indeed, just as the moon up above was eroded by shadow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +49,94 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:295}，你的弹药也没剩多少了吧。",
+			say = "A lunar eclipse...?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "The shipgirls gathered by the lake that served as the entrance to the abyss.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305130,
+			say = "That rift lettin' the black mist in is gettin' the moon, too... But that's a whole lot of mist!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Before long, the fleeting night sky had been almost fully engulfed in black mist.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "It solidified into the shape of crows and carrier-based craft that flew through the black.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305130,
+			say = "Get behind me, everyone!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301890,
+			say = "Owari, do you still have ammo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "别担心，我还能坚持。",
+			say = "Just a li'l! I can still fight a while!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "{namecode:189}，还能战斗吗？",
+			say = "How 'bout you all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "当然可以。",
+			say = "Of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有我呢！",
+			say = "I shall fight, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "那一起上吧，齐射！",
+			say = "Natori, protect Zuihou! We'll show you what we're capable of together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "主炮轰鸣，如同惊雷，传出接连不断的回响。",
+			say = "Their main guns roared like thunder, shaking their surroundings.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "但在这之后，绵连的雷声却来自更高的地方。",
+			say = "Meanwhile, real thunder crackled beyond the rift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "紫电沿着裂口爬上天空，将沿途所有的气息尽数驱散。",
+			say = "Purple lightning shone upon the full moon, warding off the black mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "雷声阵阵。",
+			say = "Lightning, symbolic of the Guardian Fox's authority, flashed multiple more times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "冲击准备！",
+			say = "Musashi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "紫电落下，如同延时摄影中的雨点，被拉长成细密的线。",
+			say = "Divine lightning struck the courtyard from above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "电光在这本就不大的空间中掀起了一场风暴。",
+			say = "Air that had once been filled with black mist cleared up all at once, causing all of the black to disappear in the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "裂口慢慢愈合，还想进入其中的气息都被紫电挡在了结界之外。",
+			say = "The rift in the sky shrunk, and the black mist that had seeped through was sucked back into it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "当风暴平息，{namecode:84}出现在众人的面前。",
+			say = "After peace and calm had returned to the courtyard, Musashi appeared before the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}大人！",
+			say = "Musashi, it really is you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:295}，还有你们。",
+			say = "Owari, Zuihou, Asanagi, Hatsuzuki. Is that everyone?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "没有其他人了吗？",
+			say = "Am I to assume that nobody else is here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "其他人……哦对了！",
+			say = "Oh... Right!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "有个白衣白发的大姐姐救了我们，然后她就不见了！",
+			say = "I dunno if she was the real one or an illusion, but the Great Sage was just here a minute ago!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，大贤者她还在坚守。",
+			say = "I see. So the Great Sage is alive and well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "你们方才见到的，便是重樱大神木的守护者。",
+			say = "Listen well. The one who created this seal, and thus the Prime Sakura, was not the Guardian Fox. It was the Great Sage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "多年以前，我曾与{namecode:74}大人以及大贤者一起并肩作战，但……",
+			say = "When disaster fell upon the Prime Sakura long ago, Lady Nagato and I worked with the Great Sage to empower the black mist's seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大贤者为了保护我和{namecode:74}大人，将我们送出了结界之外。",
+			say = "However, due to the Reenactment of Watatsumi, the Great Sage was forced to remain here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "只是，大贤者设下的结界太过强大，连{namecode:74}大人都无法轻易进行干涉。",
+			say = "Lady Nagato established the sanctuary outpost in order to research how to rescue the Great Sage, find out how to expel the darkness, and keep an eye on the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了加固那个封印以外，其它的部分{namecode:74}大人也完全无能为力。",
+			say = "Now that the seal has begun to rupture, those who monitor the sanctuary at the outpost...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以{namecode:74}大人她才设立了哨所……",
+			say = "So we're, like... free from duty now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "名义上是为了保护圣域的安全，其实是为了观察封印的情况。",
+			say = "Hmm... Now that you mention it, what was that illusion I saw before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……现在想想，之前的一些异常状况或许就是封印松动的预兆也说不定。",
+			say = "Just to be sure, WE didn't break the seal or anythin' crazy like that, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:84}大人，我们都看见您被怪物吞噬了，您的身体没关系吗？",
+			say = "I doubt that. We didn't really help much though, did we...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "上次大战之后，我的舰装已经做了特别的强化，这一点你不必担心。",
+			say = "I'll have to disagree. The message Owari sent to Kii and the signal flare you fired both helped to notify everyone of this situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到我的身边来，{namecode:74}大人给了我这个。",
+			say = "Thanks to your drive to struggle to the very end, we've managed to barely maintain the sanctuary's seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "这是……！",
+			say = "What's this...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人的符咒？！",
+			say = "Lady Nagato's charm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "快些使用吧。",
+			say = "Yes. Use it, now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "将纸符递给{namecode:189}。",
+			say = "Musashi handed it to Hatsuzuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她夹住纸符，纸符蓦地燃烧起来。",
+			say = "When she accepted it, the charm burst into flames and burned up in almost an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "……",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "诶……？",
+			say = "Musashi? Wh-what happened?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "这符咒是不是哪里搞错了？",
+			say = "I didn't do anything wrong, did I? O-or did I mess it up...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "{namecode:84}大人，您给的符咒到底是何种术式。",
+			say = "Urk... I burned Lady Nagato's precious charm, just like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "我好像失败了……",
+			say = "I've really done it now... Ugh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "不，术式已经启动了，{namecode:74}大人已经知{namecode:11}了我们的方位。",
+			say = "You did nothing wrong. This allows Lady Nagato to know where we are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "光芒逐渐耀眼，在最后一刻，{namecode:84}离开了众人的身边。",
+			say = "Light shone from above—that was the signal for teleportation magic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“即便是一具空壳，也足以改变重樱的未来。”",
+			say = "\"It will be but a shell, exhausted of its power, but it should still help you change this nation's future.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "那么这具“空壳”，我便收下了——",
+			say = "Great Sage... No, you are no empty shell.",
 			painting = {
 				alpha = 0.3,
 				time = 1

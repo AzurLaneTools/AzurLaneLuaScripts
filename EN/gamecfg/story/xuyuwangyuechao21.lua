@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大地摇动。",
+			say = "All of a sudden, the courtyard Hatsuzuki's team found themselves in began to rumble.",
 			bgm = "story-unzen-heart",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "地震了？",
+			say = "Is that an earthquake?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "不是地震，你们看天上！",
+			say = "No, it's not! Look at the sky!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "原本纯澈的夜空之上，竟然出现了一道黑色的裂痕。",
+			say = "A giant crack formed in the clear night sky, different from the crack within the seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "黑色的气息正从那里开始，污染这片天空。",
+			say = "From it, dark mist began to gush forth and infect this domain, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,9 +88,9 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "是时候了……",
+			say = "It's time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她站在早已变换了景色的湖边，一簇簇闪着幽蓝光芒的蝶群逐渐将其包围。",
+			say = "Butterflies glowing blue began to circle around the Great Sage as she stood in the courtyard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,72 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "直到完全将她吞没。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 302060,
-			say = "大姐姐？！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301890,
-			say = "{namecode:297}，快躲开！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301900,
-			say = "这些东西怎么又来了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "裂缝不断扩大，弹药早已耗尽的众人只能不断后退。",
+			say = "It wasn't long before the butterflies eventually covered every inch of her body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,148 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "大姐姐怎么不见了？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "而在她消失的地方，一道光柱从天而降。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301900,
-			say = "又有人进来了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "回应{namecode:189}的是一轮齐射。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305130,
-			say = "它们怎么到处都是！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301900,
-			say = "很危险啊！拜托你看清楚再开炮啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "光柱消失，众人终于看见了其中的二人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301900,
-			say = "{namecode:295}！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 301900,
-			say = "你这家伙尽让人担心。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305130,
-			say = "等等，等等……你们怎么在这里？！不对，这是哪里啊？",
+			say = "What in the world?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "这，这里是“安全庭院”，至少在你们来之前是……",
+			say = "Natori! The mist is coming for us again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,12 +161,128 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 301890,
-			say = "先别管这些了，把敌人清理掉再说。",
+			actor = 301900,
+			say = "How did it find us all the way here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Ever more dark mist continued to pour out of the great hole in the sky. The girls, all but out of ammunition, were cornered.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 302060,
+			say = "Hey, where'd that other lady go?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "In the spot where the Great Sage previously stood, a pillar of light projected skywards.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301900,
+			say = "Somebody else is teleporting in!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "The new arrivals fired a volley at the girls through the light before they could so much as be identified.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305130,
+			say = "Damn! They're everywhere!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301900,
+			say = "We are not \"them\"! At least identify us before you fire at us!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "It wasn't until the light faded that both sides finally recognized each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "关键是根本打不完啊，之前送我们来的那个大姐姐好像很擅长对付它们。",
+			say = "Owari! Zuihou!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "可惜现在找不到人了。",
+			say = "Thank the heavens you are alright! We'd feared for the worst!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +332,61 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "你说的那个大姐姐是我们见到的那个吗？",
+			say = "Hey, Asanagi! How come you're all here? Actually, first, where even are we?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301890,
+			say = "In the so-called \"safe haven,\" apparently. Although, it's not so safe anymore, I guess...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301890,
+			say = "First thing first – we have to deal with these enemies!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301900,
+			say = "We're here to begin with because we CAN'T deal with them! Only that lady seemed capable of it with her columns of light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +404,43 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "白衣白发……？",
+			say = "And now, she has vanished!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305130,
+			say = "\"That lady\"? Does she have white hair and wear white clothes, by any chance?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 301900,
+			say = "That she does. What of it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "没错了。",
+			say = "Aha! I knew it was the Great Sage. She's the one who saved you all, and...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "……等等，你刚才说是她送你们进来的？",
+			say = "Wait... If she did that, then who was the person we met just earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是刚才那个大姐姐明明和我们在一起的啊？",
+			say = "Either that one was a ghost, or she has an identical twin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "什么意思，你是说大姐姐其实有两个？",
+			say = "Are you suggesting there is not one, but two Great Sages?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "这怎么可能啊，我可是朝着她不小心开了一炮，还被她挡住了。",
+			say = "Not exactly! Because, like, I accidentally fired at her, and she blocked the shot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "所以那个绝对不是我的幻觉！",
+			say = "So at the very least, the one we ran into was the real deal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "这么说……我们看到的其实才是幻觉？",
+			say = "Right... In other words, the person we spoke to was just a phantom.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "哪有这么多人同时看到幻觉的啊。",
+			say = "Nonsense. This Great Sage saved us, too, lest you forget.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "但是你想想大姐姐在我们面前消失的方式，不觉得和做梦一样吗？",
+			say = "Then she knows not just teleportation magic, but also how to clone herself and create phantoms out of butterflies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "简直就像是神仙一样啊！",
+			say = "\"The lass is either a goddess or a hermit.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "既然是神仙那么会个分身什么的也在情理之中吧。",
+			say = "Yeah, Old Man! As I said, it all makes sense if she's a hermit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "我们还是不要继续聊这个话题了……",
+			say = "It really doesn't matter what you call her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301890,
-			say = "先想想怎么解决头顶的麻烦吧。",
+			say = "Let's put that aside and try to think of any way to deal with the mist, before we lose the courtyard to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

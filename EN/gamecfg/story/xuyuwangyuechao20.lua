@@ -11,12 +11,12 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			stopbgm = true,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			bgm = "battle-unknown-approaching",
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "火力掩护。",
+			say = "Zuihou, I need your aerial coverage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白！",
+			say = "On it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "我还有一些侦查型号的飞机可以伴飞！",
+			say = "Most of my little birds are, uh, gone, but I'll send what I have left!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "跟紧我。",
+			actorName = "The Great Sage",
+			say = "Make sure you stay close! We can't have you getting lost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "二人跟在她的身后，距离枯木之上的光团越来越近。",
+			say = "They cruised through the shapeless sea and approached the light emanating from the fallen Prime Sakura's branches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "我是看错了吗，怎么感觉那里的光越来越黯淡了。",
+			say = "Hey, apologies if I just need glasses, but ain't the light comin' from the branches kinda fading?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "小心！",
+			say = "Owari! Look out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "躲避敌袭，差点失去平衡。",
+			say = "An enemy vessel made of dark mist fired a volley at Owari. She dodged, but lost her balance briefly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "这，这根本打不完啊！",
+			say = "Aw crap! There's enemies, like, all around us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "外面还有更多，都往这里围过来了！",
+			say = "All around us, and more are showing up! They have us completely surrounded!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "它们是冲着我来的。",
+			actorName = "The Great Sage",
+			say = "...They're not after you. It's me they want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "她突然停了下来。",
+			say = "The Great Sage descended from the air and stood on the water's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "刀刃出鞘，寒光斩断了周围的气息，为众人争取到了一点时间。",
+			say = "She drew her katana, unleashing a wave of spiritual energy that stopped the misty foes in their tracks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,9 +184,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "这个距离应该足够了。",
+			say = "This much range should be sufficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大姐姐，你要做什么？",
+			say = "What are you gonna do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "头顶的光柱再次出现，但其展开的方式似乎有些艰难。",
+			say = "The Great Sage did not answer. She summoned a pillar of light from above Owari and Zuihou.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "当光柱将二人完全笼罩之后。",
+			say = "Once they were fully encased in light, she moved closer.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "她走近，与她们隔着光幕。",
+			say = "A smile flashed on her lips as she bid them goodbye.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "她微笑着道别，转身再次进入了黑色的深渊之中。",
+			say = "Then, she turned on her heel, and went forth to face the army of enemies all alone.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

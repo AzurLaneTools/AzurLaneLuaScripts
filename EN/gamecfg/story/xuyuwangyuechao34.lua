@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轻轻走近。",
+			say = "She might be the owner of this place... Should I apologize for entering without permission?",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -25,8 +25,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "重樱的餐食您还满意吗，来访者。",
+			actorName = "???",
+			say = "Did you find our cuisine satisfactory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉，我无意闯入……只是四处闲逛时发现了这里。",
+			say = "Ahh, umm... I'd like to apologize for barging in first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "这宅邸之内，路线复杂，您不但撞破了结界……",
+			actorName = "???",
+			say = "No worries. The way here is rather jumbled to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "还能穿过所有的可能性到达这里。",
+			actorName = "???",
+			say = "To pass through my barrier, you had to overcome the realm of possibility to arrive here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "这便是缘吧？",
+			actorName = "???",
+			say = "Hmm, perhaps I should say... that this is fate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,33 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "悄悄打量着眼前的人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303190,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			side = 2,
-			actorName = "？？？",
-			say = "您在思考，我是否也和她们一样？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_510",
-			factiontag = "Commander",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "被你发现了啊……",
+			say = "She seemed to speak in riddles, as if pondering to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,8 +101,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "我倒是能感受到，您身上与众不同的气息。",
+			actorName = "???",
+			say = "You look rather worn down by the banquet. My condolences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +115,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也是。",
+			say = "Am I being that obvious about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,41 +127,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "您也能感受到吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "她的脸上闪过一丝错愕。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "回首时，我俩四目相对。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "她的眼神温润如水。",
+			actorName = "???",
+			say = "Well, that isn't all. You're different, in many ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,66 +141,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "我转过脸去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "没想到是我先败下阵来……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_510",
-			factiontag = "Commander",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咳……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_510",
-			factiontag = "Commander",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这么晚了，你是在这里等人吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "为了掩饰尴尬，我开始转移话题。",
+			say = "You're one to talk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +153,41 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "不是，只是在思考。",
+			actorName = "???",
+			say = "Hmm... I wonder what makes you say that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "A brief look of astonishment flashes across her delicate features.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Then, our eyes met.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "I saw within them something akin to joy and loneliness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +200,29 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你有什么烦恼吗？",
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Unexpectedly, I felt myself getting jittery and had to break eye contact first.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "She was a shipgirl, of course, but staring at each other too long might lead to misunderstandings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,51 +235,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "借景消愁？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "意识到自己连珠炮似的提问有些失礼，我稍微停顿了一下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "今日的晚宴过后，在重樱的访问之旅也就画上了句号。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "再休息几日，我便要再次启程前往下一个目的地。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "人生中的无数过客，有时离别便是永诀。",
+			say = "In any case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +248,18 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "若是还能见面就好了。",
+			say = "Are you waiting for someone here?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "It felt awkward just standing there in silence, so I tried changing the subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,8 +271,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "您说什么？",
+			actorName = "???",
+			say = "...No, I was just lost in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +285,77 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "以后，要是我们还能在某处相见就好了。",
+			say = "Really?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_510",
+			factiontag = "Commander",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "If something's wrong, you can talk to me about it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "It didn't take long for me to regret my thoughtless offer.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "This was my last day at the Sakura Empire. I was supposed to start packing after the dinner party.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Despite my job and ability to travel, I didn't know when I'd meet her again.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Add the war with the Sirens, and this might be the last time I'd ever see this stranger.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_510",
+			factiontag = "Commander",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Oh, but if you're not in the mood to talk about it right now, we can another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,8 +367,8 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "人生无常，有时候，须臾便是永恒。",
+			actorName = "???",
+			say = "Another... time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,75 +381,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但我还是遇见了你，不是吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_510",
-			factiontag = "Commander",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "在所有可能性的尽头，我找到了你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "她转过脸去，不再说话。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "我们沐浴在月光下，时间缓缓流动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "我多希望时间能够再慢一些。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "转身准备离开，我的手却被她轻轻捉住。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_510",
-			hidePaintObj = true,
-			say = "她看向我，引导着我的视线，看向空中的明月。",
+			say = "I'm kind of sating my wanderlust right now. It's just, you know, it'd be nice to meet again someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,8 +393,34 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "月色真美。",
+			actorName = "???",
+			say = "Wanderlust...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_510",
+			factiontag = "Commander",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "People talk about once-in-a-lifetime encounters, and all, but we should always be optimistic where we can.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_510",
+			factiontag = "Commander",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I mean, look. I already slipped through your barrier and met you this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +431,75 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她的笑颜就这样永远地定格在了我的记忆中。",
+			say = "This time, she was the one to turn away bashfully.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Under the moonlight, the two of us gave ourselves up to the passage of time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Neither of us said a word, but we were comforted by this silent time together.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Eventually, I told her that I'd best get back to the dinner party. When I turned around to do just that...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "She grabbed my hand and gestured with her eyes up to the moon in the sky.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303190,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			side = 2,
+			actorName = "???",
+			say = "...The moon is lovely tonight, isn't it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_510",
+			hidePaintObj = true,
+			say = "Her beautiful, yet fleeting smile would be forever burned into my memory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "指挥官？",
+			say = "Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，飞机快要降落了哦？",
+			say = "Commander, we're going to land soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "埃塞克斯，你怎么还在这里？",
+			say = "Essex? Why are you still here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你身为白鹰代表，要出席黎塞留主教加冕仪式，可不能如此马虎。",
+			say = "If you want to attend Richelieu's ceremony at the Iris as an Eagle Union representative, you'll need to hurry and get ready.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "快点，跟我去换一身新衣服。",
+			say = "I prepared new clothes for you, so let's go change, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官也是，要赶紧起床准备出席仪式。",
+			say = "And Commander, I think you should get ready, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "说话声渐行渐远。",
+			say = "My friends' voices faded along with their footsteps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "似乎陷入了一段久远的回忆之中。",
+			say = "I've been steeped in nostalgic memories for a little too long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在的我正在欧罗巴……的某处。",
+			say = "Today, I'll be in Europa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "耳边传来隆隆声，飞机平稳落地。",
+			say = "There was a loud rumbling, followed by calm. It seemed we'd landed without issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,42 +706,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "稍微回想了一下今天的工作安排，不由得浑身一颤。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			factiontag = "Commander",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "看来还要在欧罗巴这里忙活一阵子了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			say = "翻了个身，享受着最后的安逸睡眠。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			say = "方才的梦境再一次出现在我的眼前。",
+			say = "I still had far too many plans today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +719,29 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（若是有缘，我们还会再次相见吧。）",
+			say = "Things are going to be busy for a while...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			say = "I closed my eyes, trying to squeeze out every moment of rest.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			say = "The face of the woman I met that night, along with the scenery of that mysterious moonlit encounter, came to mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +754,20 @@ return {
 			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（重樱的大贤者。）",
+			say = "Yeah... I'm sure we'll meet again. Somewhere, someday.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			factiontag = "Commander",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Great Sage of the Sakura Empire... Unzen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,23 +781,23 @@ return {
 			bgm = "theme-unzen",
 			sequence = {
 				{
-					"「汝已接近世界的真相。」",
+					"\"One step closer are you to revealing the truth of this world.\"",
 					2
 				},
 				{
-					"「往昔之半影虽已消弭。」",
+					"\"While you have shed the penumbra of the past,\"",
 					4
 				},
 				{
-					"「然本影已至。」",
+					"\"The true darkness is yet to come.\"",
 					6
 				},
 				{
-					"「树欲静，而风不止。」",
+					"\"Trees seek quietude, but the wind refuses to stop blowing.\"",
 					8
 				},
 				{
-					"「汝，将为之奈何？」",
+					"\"Now then, how will you proceed?\"",
 					10
 				}
 			}

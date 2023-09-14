@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一抹茶香入鼻。",
+			say = "The light fragrance of mugwort tickled her nose. Warm rays of sunshine caressed her cheek.",
 			bgm = "theme-unzen",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "和煦的阳光照在脸上。",
+			say = "In a world of comfort, Unzen awakened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "……？",
+			say = "Nnh...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "意识还有些混乱，眼前的光线太过强烈。",
+			say = "Her mind was still a mess, and her eyes had yet to adjust to the bright light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:294}大人，您醒了？",
+			say = "Good morning, Unzen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "{namecode:152}轻轻托起{namecode:294}的背，将她扶起。",
+			say = "Ibuki helped her sit up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "{namecode:294}茫然四顾，这是间装修精致的和室。",
+			say = "It seemed she was in a Sakuran room, and a rather fancy one at that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您口渴吗？",
+			say = "Are you thirsty? Heheh, how would you like some mugwort tea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "少女将温热的茶盏递到了{namecode:294}手中。",
+			say = "Ibuki handed her a cup of tea, just barely steaming. This was the source of the fragrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是{namecode:152}，您被转移到这里之后我就一直在照顾您。",
+			say = "Allow me to introduce myself properly. I'm Ibuki, and I've been tasked with taking care of you here in the sanctuary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "记忆翻涌。",
+			say = "Fragmented memories finally began to connect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "在那最后的画面中，她化蝶消散。",
+			say = "Once the black mist had been sealed again, Unzen's body had begun to disintegrate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，{namecode:294}大人。",
+			say = "I'm so glad you're okay, Unzen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "少女握住她的手，指尖传来的温度提醒着她。",
+			say = "Out of joy, Ibuki sat on the bed and grasped Unzen's empty hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "这里的一切不是梦境。",
+			say = "The texture of her hand told Unzen that this wasn't a dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，海若它……",
+			say = "Ibuki, where's Watatsumi...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "{namecode:152}起身打开房间的窗。",
+			say = "The star fragment she'd given Musashi had once been the backbone of the seal, but now, it was believed to be powerless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "悦耳的鸟鸣与清新的香气一时间充满了整个房间。",
+			say = "While the seal was being repaired, the Prime Sakura had already begun to disappear. When Unzen looked outside now, she saw no trace of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
-			say = "窗外，是大圣域熟悉的光景。",
+			say = "More precisely, what once had been the Prime Sakura had reverted into a sapling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
-			say = "被樱色水晶环绕的湖面中心，有一个身影，撑着一柄红伞，静静站立。",
+			say = "A figure with a red parasol stood on the shore of the lake surrounded by pink crystals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了——",
+			say = "Are you curious about the Prime Sakura?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自从在湖心发现您之后，那里竟然开始生长出大神木的新枝。",
+			say = "After we found you in the middle of the lake, a new tree started to grow where the roots of the Prime Sakura were.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161}大人她每天都会去查看。",
+			say = "Heheh, Amagi goes to visit every day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "{namecode:161}的身体不是已经……",
+			say = "Amagi? But I thought she already...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，您到时就直接询问{namecode:161}大人本人吧。",
+			say = "About that... Well, it would be best if you asked her yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过您的身体也是刚刚恢复，还不能掉以轻心。",
+			say = "Oh, but you're still recovering, so don't push yourself too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "若您想简单活动的话，我去为您准备外出的衣物？",
+			say = "If you want to just take a light stroll, I can get your clothes ready for you. Would you like that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "好，请带我四处走走。",
+			say = "Yes, if you wouldn't mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，{namecode:294}大人。",
+			say = "I'd be happy to, Unzen.",
 			painting = {
 				alpha = 0.3,
 				time = 1

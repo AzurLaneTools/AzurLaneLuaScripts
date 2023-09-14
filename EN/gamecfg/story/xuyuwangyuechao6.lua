@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			say = "No, I believe it's due to the influence of our roots – our hulls.",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "That isn't something particular to Shinano, but at the same time, it isn't exactly easy to solve.",
 			typewriter = {
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			say = "Yes, but...",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "There may be no way to reverse an injury of that extent.",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "The Prime Sakura's sanctuary.",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			say = "Please pay me a visit there. Bring Lady Nagato, if you'd please.",
 			typewriter = {
 				speed = 0.05,
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "We may be able to talk now, but my real body cannot leave that sanctuary.",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			say = "If possible, I'd like to talk about the most important matters there.",
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "Come to its trunk, and I shall tell you everything.",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "As the inheritor of the Guardian Fox, Lady Nagato has a power that nobody else has.",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "As for you, Musashi, I would simply be more at ease if you protected her.",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "She is the miko who protects the Sacred Sakura, and you...",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = ".........",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
 			say = "(I hope you... will protect Mizuho's seas and skies once I'm gone.)",
 			typewriter = {

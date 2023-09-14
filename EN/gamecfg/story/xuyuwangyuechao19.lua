@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "黑暗与寒冷，肆虐的“息”中，充斥着哀嚎。",
+			say = "In the dark, cold seal, monsters made of black mist shrieked and roared ceaselessly.",
 			bgm = "battle-unknown-approaching",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "在破碎的浮空岛屿之间穿梭，寻找可能的幸存者。",
+			say = "They jumped between the ethereal sea and floating rocks, launched out of the ground by the uprooting of the Prime Sakura, searching for the targets of their ire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "大贤者",
-			say = "……",
+			actorName = "The Great Sage",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一点亮光升上天空，循着光芒出现的方向，她找到了正在奋力战斗的众人。",
+			say = "After the signal flare from before, she'd used the seal's divine light to find and rescue the trio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,20 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "光柱将她们笼罩，远处被枯萎神木包裹的光芒闪烁了几下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 303190,
-			side = 2,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "大贤者",
-			say = "幸存者已被成功转移。",
+			say = "The light had repelled the black mist and brought them to this safe haven for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,19 +71,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "大贤者",
-			say = "接下来……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			say = "悬着的心还未放下，几声熟悉的轰鸣再次让她提高了警惕。",
+			actorName = "The Great Sage",
+			say = "I did warn them not to try to walk around, so I'm sure they will be safe for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +84,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "大贤者",
-			say = "舰载机?",
+			actorName = "The Great Sage",
+			say = "Next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "舰载机勉强维持着飞行的平衡，但很快机群便失控坠毁了。",
+			say = "She had a general idea of their remaining friends' whereabouts, but there was no way to narrow it down and help them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,8 +108,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "大贤者",
-			say = "是从那个方向来的？",
+			actorName = "The Great Sage",
+			say = "That sound... Is that aircraft?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +120,31 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "踏入黑色的“海面”，向前方加速航行。",
+			say = "A single carrier-based aircraft, hardly useful in the black mist's domain, quickly lost control and crash-landed.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 303190,
+			side = 2,
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actorName = "The Great Sage",
+			say = "Which direction...? Aha, that way.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			say = "She stepped into the ethereal waters and used the sanctuary's power to rush to the shipgirls' aid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "舰载机失去联络！",
+			say = "I-I've lost another carrier-based craft!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "已经没有备用的战斗型号了……",
+			say = "Urk... I don't have any more recon craft to send out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "留在这里也不是办法，看来我们得自寻出路。",
+			say = "This is rough... It's dangerous, but I've got no choice but to act.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "还是先把眼下的麻烦解决吧。",
+			say = "But first... Let's deal with what's right in front of us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有什么东西追过来了！",
+			say = "S-someone's coming this way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "方位？",
+			say = "I'll give 'em the trouncing of a lifetime! Which way, Zuihou?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "在我们的6点钟方向！",
+			say = "Behind you! Six o' clock!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "什么，在背后？！",
+			say = "Behind me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "主炮调转方向。",
+			say = "Noticing a presence in an unexpected direction, Owari used her rigging to whip around in a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "齐射！",
+			say = "Fiiiire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "叮——！",
+			say = "*PING*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "炮弹被弹开，烟尘四散。",
+			say = "Her shells were deflected by an invisible barrier, covering the surroundings in smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳咳——",
+			say = "*cough* *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么，有人？！",
+			say = "...A shipgirl?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,11 +416,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这见面礼未免太过隆重了。",
+			say = "Heehee. Bit of a rude welcome, I have to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "bg_yunxian_3",
 			side = 2,
 			withoutActorName = true,
-			say = "将刀收入鞘中，刀刃上还能看到浅浅的弹痕。",
+			say = "She floated above the water without rigging, but there was no doubt she was a shipgirl just like Owari and Zuihou.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "啊，十分抱歉！",
+			say = "Sorry, sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……对不起，请问您是？",
+			say = "(I think I saw this person in that illusion... Great Sage, or something?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "记忆中的画面再次浮现。",
+			say = "As she approached the Prime Sakura, Owari's memory of the illusion became more vivid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,13 +481,13 @@ return {
 		},
 		{
 			actor = 305130,
-			actorName = "{namecode:295}",
+			actorName = "Owari",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "大……贤者……？",
+			say = "Great Sage...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,9 +503,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "你们的朋友已被我转移到了安全地点，你们也赶快去和她们汇合。",
+			say = "That is me. I've taken your friends to a safe place, and now, I'll have you two come with me as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,9 +517,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "那里是这个空间中最后的净土，我残存的力量可以护你们周全。",
+			say = "It's the last pure land remaining in this seal. With my power, I will protect you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一道光柱出现在{namecode:295}她们的头顶。",
+			say = "Once she finished talking, light shone through the sky and enveloped Owari and Zuihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "和之前不同的是，那个光柱跳动了几下之后便消失了。",
+			say = "However, the pillar of light flickered multiple times before disappearing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "……灯光信号？",
+			say = "...Was that a light signal, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,9 +565,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "一下子消耗太多么，还是距离太远……",
+			say = "Unfortunately, straying too far away makes it consume far too much power... My remaining strength isn't enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,8 +579,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "没时间解释了，我护送你们过去。",
+			actorName = "The Great Sage",
+			say = "We have no choice. I'll just have to guide you myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,9 +592,9 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "跟我来。",
+			say = "Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

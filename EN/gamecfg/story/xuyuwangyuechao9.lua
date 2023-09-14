@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Mmgghh...",
+			actorName = "Owari",
 			say = "Guess I'm back? Some weird-ass nightmare that was...",
 			painting = {
 				alpha = 0.3,
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Mmgghh...",
+			actorName = "Owari",
 			say = "Got the feelin' something ain't right. I'd better hurry back to the outpost.",
 			painting = {
 				alpha = 0.3,

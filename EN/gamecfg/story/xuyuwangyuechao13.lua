@@ -11,9 +11,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "???",
 			stopbgm = true,
-			say = "呜哇——！",
+			say = "Aaaahhh!",
 			bgm = "battle-unknown-approaching",
 			typewriter = {
 				speed = 0.05,
@@ -22,11 +22,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜哇——啊——！",
+			say = "Heeeeelp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "奇怪的呼喊声回荡在{namecode:295}的耳边。",
+			say = "In the midst of the torrent produced by the black mist, Owari heard her friends cry out whilst she tried to return to the outpost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "这个声音是……{namecode:88}？",
+			actorName = "Owari",
+			say = "Was that... Zuihou?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,8 +68,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "不对不对，一定是我摔坏脑袋了。",
+			actorName = "Owari",
+			say = "Nah, what am I sayin'? Ain't no way that's her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,8 +86,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "这声音听起来像是{namecode:88}在天上飞……",
+			actorName = "Owari",
+			say = "It's coming from above, and last I checked, she couldn't fly through the–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900402,
-			say = "呜哇——！",
+			say = "Aaaahhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900402,
-			say = "{namecode:295}————！",
+			say = "Owariiiii! Heeeelp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,8 +150,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "……",
+			actorName = "Owari",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,8 +168,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "…………",
+			actorName = "Owari",
+			say = "You kiddin' me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,8 +186,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "诶诶诶？真的是{namecode:88}？！",
+			actorName = "Owari",
+			say = "What the heck are you doin' up there, girl?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "快——帮我——一把！",
+			say = "I dunno! Get me dooown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,8 +217,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "你怎么真的在天上飞？！",
+			actorName = "Owari",
+			say = "How are you airborne? Did ya learn how to fly using those wings you got?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "拉我一把！",
+			say = "I'm not in control! Something's lifting meeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "举目四顾寻找合适的道具，不小心瞥见了舰装之上的锁链。",
+			say = "Though she wasn't the sharpest tool in the shed, Owari quickly realized she'd need some sort of rope to save her friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +259,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "喝啊！舰装——！岂是如此不便之物！",
+			actorName = "Owari",
+			say = "What to do, what to do... Wait, I've got it! Hold on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "徒手将锁链拆下——",
+			say = "Using her bare hands, she removed a chain from her rigging and coiled it up into a lasso.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "将锁链缠绕在一起，用船锚做牵引，抛向被乱流吞没的{namecode:88}。",
+			say = "Then, like a cowgirl from a western flick, she flung it up at Zuihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,8 +299,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:295}",
-			say = "抓紧了！",
+			actorName = "Owari",
+			say = "Hang on tight, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "奋力将{namecode:88}拖出受到影响的区域，巨大的惯性让{namecode:295}和她撞了个满怀。",
+			say = "She successfully pulled Zuihou out of the air, but the momentum carrying her led her to collide with Owari.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呦！",
+			say = "Oof!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "呜呜……",
+			say = "*sniff*... *sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "呜呜呜呜呜呜……",
+			say = "Owari! Owariii! Waaahhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,20 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "从{namecode:295}的身上起来之后，{namecode:88}在一旁哭了起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			side = 2,
-			actor = 900402,
-			say = "好可怕呜呜呜呜呜……",
+			say = "Zuihou wound up on top of Owari. Neither of them were hurt, but nonetheless, Zuihou began crying as soon as she got up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +395,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "{namecode:84}大人，{namecode:84}大人她……",
+			say = "I was so scared... *sob*...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900402,
+			say = "Owari... Musashi... She's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "大地摇晃，她们所在的竟是一座浮空的小岛，这座小岛正在围绕中心缓慢公转。",
+			say = "Owari, too, got up and looked around. The impact had sent them flying to one of the massive boulders floating in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "{namecode:84}大人？她也来这里了？",
+			say = "Yeah, what about her? Did she come to the sanctuary?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一向冷静沉着的{namecode:88}居然放声大哭。",
+			say = "Zuihou, while hardly the most calm and composed person Owari knew, had never broken down crying like this before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "虽然有一堆话想问，但很明显现在的时机不对。",
+			say = "She had many questions to ask, but first of all, finding a place to gather themselves was pertinent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "总之——",
+			say = "Hey, uh, don't cry, please?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "先找个安全的地方……",
+			say = "Look, we'll find a safe place for you to calm down! Follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "剩下的之后再说！",
+			say = "You can explain all that's happened later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:295}不由分说地扛起{namecode:88}，向着远离中心的方向加速逃离。",
+			say = "Owari wrapped her arms around the sobbing Zuihou. She glanced over at the withered Prime Sakura before leading Zuihou away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

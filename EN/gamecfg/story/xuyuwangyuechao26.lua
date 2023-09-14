@@ -8,13 +8,13 @@ return {
 	scripts = {
 		{
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 1,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "为什么，你还在这里？",
+			say = "Why have you come again?",
 			flashN = {
 				color = {
 					1,
@@ -60,9 +60,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "不论消失多少次，我都会再次出现。",
+			say = "No matter how many times I face destruction, I will appear here again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,9 +74,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "我就是你。",
+			say = "Because I am you. I am Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,9 +88,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "请将剩下的一切交付于我。",
+			say = "Then pass that burden to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,9 +102,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "不……",
+			say = "I... cannot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,9 +116,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "这是只属于我的使命，只有我才能做到。",
+			say = "This is my duty. Something that only I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,9 +130,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "你错了。",
+			say = "The destiny I believe in is different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,9 +144,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "无数次的窥探让我明白，万千世界的破灭让我终于相信。",
+			say = "Countless times I have seen visions of entire branches, wiped away. Countless times, I have seen them come to fruition until I had no choice but to understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,9 +158,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "不论何种努力，最终只会带来更多的不幸。",
+			say = "Destruction is inevitable. Your efforts will only amplify the pain and misfortune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "与其徒劳无功，不如沿着唯一的道路前行至终点。",
+			say = "Only by abandoning the self and choosing annihilation can you prolong this world's existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,9 +186,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "呵……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,9 +200,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "原来如此。",
+			say = "Is this my belief as the Great Sage, rather than that of Watatsumi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,9 +214,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "将一切背负，做出巨大牺牲，这真的很高尚。",
+			say = "How noble it is to bear the weight of the world upon your shoulders. To become a martyr.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,9 +228,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "但是……你又把自己放在了怎样的位置。",
+			say = "But that is the duty of a god, not that of a human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,9 +242,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "超脱凡世，凌驾于一切之上，以神明自居，俯瞰这个世界么？",
+			say = "Who am I to transcend above the mortal realm, looking down upon creation like some sort of god? No salvation can come from that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,9 +256,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "你我从来都不是世界的旁观者，你我都只是这尘世中的一粒尘埃。",
+			say = "I must be... not a bystander of this world, but a member of it... A single grain of sand among many.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,9 +270,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "即使道路的尽头只是徒劳。",
+			say = "Even if all of my effort is in vain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,8 +284,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 0,
-			actorName = "大贤者",
-			say = "回首自己行进的足迹。",
+			actorName = "The Great Sage",
+			say = "Even if inevitable destruction comes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,9 +297,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "这便是反抗既定命运，最好的证明。",
+			say = "All that I've done to defy destiny will remain as proof that I was human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 0,
-			say = "她伸出手。",
+			say = "In this mental space, she offered a hand to \"herself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,9 +324,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "来吧，和我一起……",
+			say = "Watatsumi, Great Sage... Join me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,9 +338,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "不，我们本就是一体。",
+			say = "As one will. One concept. One shipgirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,9 +352,9 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "The Great Sage",
 			nameColor = "#A9F548FF",
-			say = "让我们把那灭世的灾厄，烧成灰。",
+			say = "Let us purge the dark mist that threatens to burn the world down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 0,
-			say = "她的目光从未如此坚定。",
+			say = "She held fast to her volition and adjusted the concept that anchored her existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "两簇交错飞行的蝴蝶相互重合，在她们周围环绕、靠近。",
+			say = "In the white space, a kaleidoscope of butterflies surrounded, approached, and crossed between them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "那里的人影终于只剩下了一个。",
+			say = "No longer were there two figures confronting each other—they were one now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "白色的巨龙将其围绕。",
+			say = "In the center of the seal, a shikigami dragon curled up its giant figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "如同倒挂的蝶蛹。",
+			say = "It made a cocoon, wherein a new being was born.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "盘绕的纸龙缝隙处有光射出——",
+			say = "The light symbolizing the concept of the sanctuary seeped in through the gaps in the paper cocoon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "纯白的空间之中——",
+			say = "The concept recorded in her hull bubbled to her surface.",
 			bgm = "theme-unzen",
 			flashN = {
 				color = {
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "在完成着装的瞬间。",
+			say = "In her rigging, she saw her existence in a new light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "无数回忆涌向脑海，错过的时光在眼前流转。",
+			say = "Collected thoughts, engraved memories, defined moments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "冰冷的金属此刻仿佛具有了生命一般。",
+			say = "Her rigging, though it affixed to her as a mere item, was given life as an essential part of the concept that was her new self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这便是……「舰装」。",
+			say = "This is my rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "吾名……{namecode:294}。",
+			say = "I am... the heavy cruiser Unzen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "「大贤者」的时代在此刻终结。",
+			say = "Her time as the Great Sage that protected the sanctuary, her time as Watatsumi, had come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "被禁锢的意志，终于获得了完整。",
+			say = "She had taken back her identity as the shipgirl Unzen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这股力量是……",
+			say = "Why, it already fits me like a glove.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "环顾周遭，纸龙默默飘离，在她的面前站着一位陌生的来客。",
+			say = "The shikigami dragon floated away slowly as another shipgirl appeared before Unzen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "大贤者。",
+			say = "Great Sage... No, Unzen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是{namecode:292}，奉{namecode:84}大人之命为您送来这身舰装。",
+			say = "I am the blueprint ship, Shimanto. On Musashi's orders, I have come to release you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "听闻大贤者未曾拥有过属于自己的舰装。",
+			say = "Like yourself, your rigging is an embodiment of ideals brought into reality, and that made it difficult for me to gather information...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "在上次的失败之后，{namecode:84}大人潜心研究您托付之物。",
+			say = "But my tireless efforts have borne fruit, and your powers have finally been restored.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,42 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但令{namecode:182}大人的情况好转，还使用“{namecode:294}”的概念为您量身制作了这身装备。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_yunxian_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 399060,
-			say = "有了这身装备，概念将被固化，您再也不必受结界束缚。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 399060,
-			side = 2,
-			bgName = "bg_yunxian_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "自跟随{namecode:74}大人和{namecode:84}大人来到大圣域之后，我便一直在寻找机会与您接触。",
+			say = "Now, you are no longer the Great Sage, but a shipgirl of the Sakura Empire just like us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +724,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "期间还发现了倒在大神木脚下的{namecode:295}，在那之后，事态突变，我不得不调整策略。",
+			say = "Without Watatsumi, the seal is extremely unstable, but that also means you are no longer bound to be its steward.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 399060,
+			side = 2,
+			bgName = "bg_yunxian_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "...In short, you've been saved by the great Dragon God.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_yunxian_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 399060,
+			say = "Well, Owari helped too, but the sudden rupture of the seal meant I had to adjust my plan on the fly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "很抱歉，这么晚才联系上您。",
+			say = "Sorry. To make it up to you, I'll pass on the offering this time. Call us even.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:292}，对么？",
+			say = "Great Dragon God, allow me to correct you about one thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说错了一点，上一次的战斗，{namecode:84}大人她们并没有失败。",
+			say = "While Watatsumi indeed played an important role, it was not the only thing maintaining the seal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为——",
+			say = "For me... No, for all of the Sakura Empire...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战斗还未结束。",
+			say = "This battle is not over yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是，大贤者。",
+			say = "That's right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你刚才说，这是由{namecode:294}建造而来。",
+			say = "However, now that I am no longer the Great Sage, it will be much more difficult to control the sanctuary's power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么……你便称呼我为{namecode:294}亦可。",
+			say = "I can confirm that the Guardian Fox is deploying the ritual, but there isn't much time left to destroy the black mist's core.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这最后的战斗，请你助我一臂之力。",
+			say = "To that end, I humbly beseech your assistance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白！",
+			say = "Say no more!",
 			painting = {
 				alpha = 0.3,
 				time = 1

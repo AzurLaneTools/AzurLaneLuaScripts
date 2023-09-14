@@ -1238,22 +1238,22 @@ pg.name_code = {
 	[294] = {
 		id = 294,
 		name = "云仙",
-		code = "猃"
+		code = "Unzen"
 	},
 	[295] = {
 		id = 295,
 		name = "尾张",
-		code = "鳂"
+		code = "Owari"
 	},
 	[297] = {
 		id = 297,
 		name = "名取",
-		code = "猽"
+		code = "Beach Paradise"
 	},
 	[298] = {
 		id = 298,
 		name = "朝凪",
-		code = "桎"
+		code = "Asanagi"
 	},
 	[400] = {
 		id = 400,

@@ -15,7 +15,7 @@ return {
 			actor = 399010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大贤者。",
+			say = "Lady Unzen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "在此别过——",
+			say = "I must withdraw!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "黑色的气息将{namecode:152}吞噬。",
+			say = "Finally, the place where Ibuki once danced her flurry of blades fell dark and silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "{namecode:294}的身边已经空无一人。",
+			say = "Unzen was all alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "气息构成的巨兽带着神明般的蔑视，注视着下方那个不断接近的微小光点。",
+			say = "The leviathan of shadow looked down upon the tiny speck of light within its domain of endless darkness with the contempt of a god.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "「Meaningless. Futile. Hopeless. Worthless. All is in vain.」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,13 +132,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这句话我已听了千百遍。",
+			say = "You're wrong.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "Nothing lasts, like bubbles on the water's surface. Wasted effort, like a castle of sand before the inevitable tide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,12 +161,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "何为徒劳？",
+			say = "It isn't futile at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,13 +178,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我曾见证万千世界的毁灭。",
+			say = "I've witnessed the destruction of countless branches.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,13 +196,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在每一次的命运中，“我”都做出了相同的抉择。",
+			say = "Each time, I made the same decision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,13 +214,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与你一起湮灭，便是我的宿命么？",
+			say = "I believed it was the Great Sage's destiny to be annihilated from existence along with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,13 +232,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我……究竟为何而生？",
+			say = "I believed it was Watatsumi's destiny to be the cocoon from which fate hatched.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,13 +250,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是为此而生的么？",
+			say = "But I am not the Great Sage, and I am not Watatsumi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "Redundant. Ostentatious. Unavailing. The incoherent mutterings of someone lost in dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,13 +279,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在那湮灭的一击之中，我斩断了所有的杂念。",
+			say = "Indeed. I tried to banish my emotions so that I could become the vessel through which the Reenactment would bear out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,13 +297,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但我错了！",
+			say = "But now, my hull is full of emotions that never should have been let in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,13 +315,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "眷恋与不舍。",
+			say = "Yearning for another, the desire to see them again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,13 +333,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迷惘与踌躇。",
+			say = "Doubt, hesitation, indecision, irresolution.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,13 +351,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这所有的一切。",
+			say = "All of these emotions define who I am, here and now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,13 +369,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是我为人的证明。",
+			say = "I am a shipgirl, and I am a human.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,13 +387,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我……",
+			say = "I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,13 +405,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不是神。",
+			say = "...am no god.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,13 +423,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,13 +441,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:294}",
+			actorName = "Unzen",
 			bgName = "bg_yunxian_cg4",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你也不是！",
+			say = "And neither are you!",
 			painting = {
 				alpha = 0.3,
 				time = 1

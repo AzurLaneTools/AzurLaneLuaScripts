@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与此同时——",
+			say = "Outside the sanctuary...",
 			bgm = "battle-unzen-2",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "重樱群岛·{namecode:74}宅邸",
+			say = "Sakura Empire - Nagato's Abode",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "黎明将至，依照指示，{namecode:75}从怀中拿出锦囊。",
+			say = "It was just before dawn, and the horizon to the east was beginning to brighten.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "锦囊之中是一个小小的纸卷。",
+			say = "The Guardian Fox's little sister, Mutsu, opened a silk pouch and retrieved the roll of paper from within.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "上面也只有寥寥几笔。",
+			say = "Inside was a message from Nagato. A mere few lines of text.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……？！",
+			say = "Huh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:75}大人，您要去哪里？",
+			say = "Lady Mutsu, where are you going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快，快去准备！",
+			say = "We have to help Nagato! Kawakaze, get ready, fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们必须马上放飞天灯！",
+			say = "Send a message to everyone in the Sakura Empire! We need to light the lanterns!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "不消片刻，巨大的天灯伴随着摇曳的烛火缓慢升空。",
+			say = "In almost no time at all, a massive lantern rose in the sky above the castle's ramparts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "它赶在黎明之前，成为了夜空中最亮的星辰。",
+			say = "It ascended higher and higher, carried by the Prime Sakura's power, shining more brilliantly than the brightest star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "彻夜未眠的{namecode:226}注意到了天空中忽然出现的亮点。",
+			say = "After a long night of guard duty, Sakawa witnessed the lanterns' rise from her bedroom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "紧接着，她匆忙跑向楼下。",
+			say = "She rushed outside, to the site of Musashi's own giant lantern, where she ran into Kii.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "都城的天灯已被点燃！",
+			say = "W-woah, what's the occasion? Did someone start a festival without me or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "惊呼的{namecode:226}撞上了门口的{namecode:80}。",
+			say = "Unlike Sakawa, who was still scrambling to order her thoughts in her head, Kii was quite calm in comparison – almost even excited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "都城的天灯已被点燃！！",
+			say = "We only light the big lanterns to notify everyone of an emergency, right?! Then that means...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "是神子在请求援助！",
+			say = "Lady Nagato calls for aid!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "……",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "那么……吾等将会响应。",
+			say = "And the Sakura Empire will answer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "点燃天灯！",
+			say = "Let's light the giant lantern!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "另一盏天灯从{namecode:84}宅邸的上空升起。",
+			say = "Another lantern ascended skyward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "越来越多的光点出现，它们向着地平线不断延伸。",
+			say = "Before long, others began to rise in response. Lights began to dot the horizon, as far as the eye could see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "仿佛连成了一条长龙。",
+			say = "One after another, the lanterns rose into the skies, forming their own galactic river in the early morning sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "天灯犹如烽火，将最紧急的讯息传递到重樱的每个角落。",
+			say = "And, as if guided by said river, they slowly floated toward the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……",
+			say = "Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "都城枯萎的神木之下，{namecode:75}默默祈福。",
+			say = "Mutsu gingerly placed one hand on the sacred tree, its dry bark betraying its spent power more clearly than ever before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "信仰的洪流向重樱各处的神木汇聚。",
+			say = "The Sacred Sakura trees, symbols of human wishes – their indomitable will to dream – were all connected by their roots to the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "看不见的根系似乎正在极速生长。",
+			say = "While corruption could spread through these roots, so too could the heartfelt wishes that nourished the Sacred Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "像一双双温柔的手，握住尽头处那已经枯死的大神木枝干，为其重新注入活力。",
+			say = "Countless hands from all over the Sakura Empire extended toward the Prime Sakura's sanctuary, gently holding its withered roots and imbuing it with vitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……",
+			say = "Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "愿这条信仰之河。",
+			say = "This has to help you somehow, Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能助你们渡过难关。",
+			say = "Nagato, please be safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
