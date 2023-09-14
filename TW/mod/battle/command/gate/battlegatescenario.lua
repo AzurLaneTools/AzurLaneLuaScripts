@@ -4,7 +4,7 @@ slot0.__name = "BattleGateScenario"
 
 function slot0.Entrance(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
-		getProxy(ChapterProxy):StopAutoFight()
+		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.DOCK_OVERLOADED)
 
 		return
 	end
@@ -30,7 +30,7 @@ function slot0.Entrance(slot0, slot1)
 	slot17 = slot2:getData()
 
 	if slot5 and slot17.oil < slot10 then
-		getProxy(ChapterProxy):StopAutoFight()
+		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.OIL_LACK)
 
 		if not ItemTipPanel.ShowOilBuyTip(slot10) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
@@ -84,7 +84,7 @@ function slot0.Entrance(slot0, slot1)
 		})
 	end, function (slot0)
 		uv0:RequestFailStandardProcess(slot0)
-		getProxy(ChapterProxy):StopAutoFight()
+		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.UNKNOWN)
 	end)
 end
 

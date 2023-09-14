@@ -4680,6 +4680,760 @@ _G.pg.base.spweapon_data_statistics[10170] = {
 	}
 }
 
+_G.pg.base.spweapon_data_statistics[10180] = {
+	tech = 0,
+	name = "三五式“綾波”對艦強擊械裝",
+	value_2_random = 5,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 11,
+	effect_id_display = 902070,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	next = 10181,
+	upgrade_id = 101,
+	value_2 = 7,
+	icon = "10180",
+	effect_id = 902070,
+	attribute_2 = "hit",
+	id = 10180,
+	rarity = 4,
+	unique = 30105,
+	important = 2,
+	prev = 0,
+	attribute_1 = "torpedo",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010730
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10181] = {
+	prev = 10180,
+	base = 10180,
+	next = 10182,
+	upgrade_id = 102,
+	id = 10181,
+	value_2 = 8,
+	value_1 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10182] = {
+	prev = 10181,
+	base = 10180,
+	next = 10183,
+	upgrade_id = 103,
+	id = 10182,
+	value_2 = 8,
+	value_1 = 13,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10183] = {
+	prev = 10182,
+	base = 10180,
+	next = 10184,
+	upgrade_id = 104,
+	id = 10183,
+	value_2 = 9,
+	value_1 = 14,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10184] = {
+	prev = 10183,
+	base = 10180,
+	next = 10185,
+	upgrade_id = 105,
+	id = 10184,
+	value_2 = 9,
+	value_1 = 15,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10185] = {
+	prev = 10184,
+	base = 10180,
+	next = 10186,
+	upgrade_id = 106,
+	id = 10185,
+	value_2 = 10,
+	value_1 = 16,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10186] = {
+	prev = 10185,
+	base = 10180,
+	next = 10187,
+	upgrade_id = 107,
+	id = 10186,
+	value_2 = 10,
+	value_1 = 17,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10187] = {
+	prev = 10186,
+	base = 10180,
+	next = 10188,
+	upgrade_id = 108,
+	id = 10187,
+	value_2 = 11,
+	value_1 = 18,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10188] = {
+	prev = 10187,
+	base = 10180,
+	next = 10189,
+	upgrade_id = 109,
+	id = 10188,
+	value_2 = 11,
+	value_1 = 19,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10189] = {
+	prev = 10188,
+	base = 10180,
+	next = 10190,
+	upgrade_id = 110,
+	id = 10189,
+	value_2 = 12,
+	value_1 = 20,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10190] = {
+	base = 10180,
+	prev = 10189,
+	next = 0,
+	upgrade_id = 111,
+	id = 10190,
+	value_2 = 13,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			10730,
+			1010730
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10200] = {
+	tech = 0,
+	name = "愛與和平之海",
+	value_2_random = 5,
+	type = 7,
+	value_1_random = 10,
+	value_1 = 17,
+	effect_id_display = 902130,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	next = 10201,
+	upgrade_id = 101,
+	value_2 = 11,
+	icon = "10200",
+	effect_id = 902130,
+	attribute_2 = "hit",
+	id = 10200,
+	rarity = 4,
+	unique = 20703,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010340
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10201] = {
+	prev = 10200,
+	base = 10200,
+	next = 10202,
+	upgrade_id = 102,
+	id = 10201,
+	value_2 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10202] = {
+	prev = 10201,
+	base = 10200,
+	next = 10203,
+	upgrade_id = 103,
+	id = 10202,
+	value_2 = 12,
+	value_1 = 18,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10203] = {
+	prev = 10202,
+	base = 10200,
+	next = 10204,
+	upgrade_id = 104,
+	id = 10203,
+	value_2 = 13,
+	value_1 = 18,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10204] = {
+	prev = 10203,
+	base = 10200,
+	next = 10205,
+	upgrade_id = 105,
+	id = 10204,
+	value_2 = 13,
+	value_1 = 19,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10205] = {
+	prev = 10204,
+	base = 10200,
+	next = 10206,
+	upgrade_id = 106,
+	id = 10205,
+	value_2 = 14,
+	value_1 = 20,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10206] = {
+	prev = 10205,
+	base = 10200,
+	next = 10207,
+	upgrade_id = 107,
+	id = 10206,
+	value_2 = 14,
+	value_1 = 21,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10207] = {
+	prev = 10206,
+	base = 10200,
+	next = 10208,
+	upgrade_id = 108,
+	id = 10207,
+	value_2 = 15,
+	value_1 = 22,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10208] = {
+	prev = 10207,
+	base = 10200,
+	next = 10209,
+	upgrade_id = 109,
+	id = 10208,
+	value_2 = 15,
+	value_1 = 23,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10209] = {
+	prev = 10208,
+	base = 10200,
+	next = 10210,
+	upgrade_id = 110,
+	id = 10209,
+	value_2 = 16,
+	value_1 = 24,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10210] = {
+	base = 10200,
+	prev = 10209,
+	next = 0,
+	upgrade_id = 111,
+	id = 10210,
+	value_2 = 17,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			10340,
+			1010340
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10220] = {
+	tech = 0,
+	name = "夜姬的任性組合",
+	value_2_random = 5,
+	type = 1,
+	value_1_random = 20,
+	value_1 = 100,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	next = 10221,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10220",
+	effect_id = 901010,
+	attribute_2 = "cannon",
+	id = 10220,
+	rarity = 4,
+	unique = 20123,
+	important = 2,
+	prev = 0,
+	attribute_1 = "durability",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010580
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10221] = {
+	prev = 10220,
+	base = 10220,
+	next = 10222,
+	upgrade_id = 102,
+	id = 10221,
+	value_2 = 10,
+	value_1 = 105,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10222] = {
+	prev = 10221,
+	base = 10220,
+	next = 10223,
+	upgrade_id = 103,
+	id = 10222,
+	value_2 = 11,
+	value_1 = 110,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10223] = {
+	prev = 10222,
+	base = 10220,
+	next = 10224,
+	upgrade_id = 104,
+	id = 10223,
+	value_2 = 12,
+	value_1 = 115,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10224] = {
+	prev = 10223,
+	base = 10220,
+	next = 10225,
+	upgrade_id = 105,
+	id = 10224,
+	value_2 = 13,
+	value_1 = 120,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10225] = {
+	prev = 10224,
+	base = 10220,
+	next = 10226,
+	upgrade_id = 106,
+	id = 10225,
+	value_2 = 14,
+	value_1 = 125,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10226] = {
+	prev = 10225,
+	base = 10220,
+	next = 10227,
+	upgrade_id = 107,
+	id = 10226,
+	value_2 = 15,
+	value_1 = 130,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10227] = {
+	prev = 10226,
+	base = 10220,
+	next = 10228,
+	upgrade_id = 108,
+	id = 10227,
+	value_2 = 16,
+	value_1 = 135,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10228] = {
+	prev = 10227,
+	base = 10220,
+	next = 10229,
+	upgrade_id = 109,
+	id = 10228,
+	value_2 = 17,
+	value_1 = 140,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10229] = {
+	prev = 10228,
+	base = 10220,
+	next = 10230,
+	upgrade_id = 110,
+	id = 10229,
+	value_2 = 18,
+	value_1 = 145,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10230] = {
+	base = 10220,
+	prev = 10229,
+	next = 0,
+	upgrade_id = 111,
+	id = 10230,
+	value_2 = 20,
+	value_1 = 150,
+	level = 11,
+	skill_upgrade = {
+		{
+			10580,
+			1010580
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10240] = {
+	tech = 0,
+	name = "破風神拳？",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 9,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	next = 10241,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10240",
+	effect_id = 901010,
+	attribute_2 = "hit",
+	id = 10240,
+	rarity = 4,
+	unique = 40202,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090020
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10241] = {
+	prev = 10240,
+	base = 10240,
+	next = 10242,
+	upgrade_id = 102,
+	id = 10241,
+	value_2 = 10,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10242] = {
+	prev = 10241,
+	base = 10240,
+	next = 10243,
+	upgrade_id = 103,
+	id = 10242,
+	value_2 = 11,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10243] = {
+	prev = 10242,
+	base = 10240,
+	next = 10244,
+	upgrade_id = 104,
+	id = 10243,
+	value_2 = 12,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10244] = {
+	prev = 10243,
+	base = 10240,
+	next = 10245,
+	upgrade_id = 105,
+	id = 10244,
+	value_2 = 13,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10245] = {
+	prev = 10244,
+	base = 10240,
+	next = 10246,
+	upgrade_id = 106,
+	id = 10245,
+	value_2 = 14,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10246] = {
+	prev = 10245,
+	base = 10240,
+	next = 10247,
+	upgrade_id = 107,
+	id = 10246,
+	value_2 = 15,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10247] = {
+	prev = 10246,
+	base = 10240,
+	next = 10248,
+	upgrade_id = 108,
+	id = 10247,
+	value_2 = 16,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10248] = {
+	prev = 10247,
+	base = 10240,
+	next = 10249,
+	upgrade_id = 109,
+	id = 10248,
+	value_2 = 17,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10249] = {
+	prev = 10248,
+	base = 10240,
+	next = 10250,
+	upgrade_id = 110,
+	id = 10249,
+	value_2 = 18,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10250] = {
+	base = 10240,
+	prev = 10249,
+	next = 0,
+	upgrade_id = 111,
+	id = 10250,
+	value_2 = 20,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			2011,
+			1090020
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10260] = {
+	tech = 0,
+	name = "大姐頭的披風",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 11,
+	effect_id_display = 901020,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	next = 10261,
+	upgrade_id = 101,
+	value_2 = 8,
+	icon = "10260",
+	effect_id = 901020,
+	attribute_2 = "hit",
+	id = 10260,
+	rarity = 4,
+	unique = 10214,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090030
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10261] = {
+	prev = 10260,
+	base = 10260,
+	next = 10262,
+	upgrade_id = 102,
+	id = 10261,
+	value_2 = 9,
+	value_1 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10262] = {
+	prev = 10261,
+	base = 10260,
+	next = 10263,
+	upgrade_id = 103,
+	id = 10262,
+	value_2 = 9,
+	value_1 = 13,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10263] = {
+	prev = 10262,
+	base = 10260,
+	next = 10264,
+	upgrade_id = 104,
+	id = 10263,
+	value_2 = 10,
+	value_1 = 14,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10264] = {
+	prev = 10263,
+	base = 10260,
+	next = 10265,
+	upgrade_id = 105,
+	id = 10264,
+	value_2 = 10,
+	value_1 = 15,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10265] = {
+	prev = 10264,
+	base = 10260,
+	next = 10266,
+	upgrade_id = 106,
+	id = 10265,
+	value_2 = 11,
+	value_1 = 16,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10266] = {
+	prev = 10265,
+	base = 10260,
+	next = 10267,
+	upgrade_id = 107,
+	id = 10266,
+	value_2 = 11,
+	value_1 = 17,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10267] = {
+	prev = 10266,
+	base = 10260,
+	next = 10268,
+	upgrade_id = 108,
+	id = 10267,
+	value_2 = 12,
+	value_1 = 18,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10268] = {
+	prev = 10267,
+	base = 10260,
+	next = 10269,
+	upgrade_id = 109,
+	id = 10268,
+	value_2 = 13,
+	value_1 = 19,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10269] = {
+	prev = 10268,
+	base = 10260,
+	next = 10270,
+	upgrade_id = 110,
+	id = 10269,
+	value_2 = 14,
+	value_1 = 20,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10270] = {
+	base = 10260,
+	prev = 10269,
+	next = 0,
+	upgrade_id = 111,
+	id = 10270,
+	value_2 = 15,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			4091,
+			1090030
+		}
+	}
+}
+
 _G.pg.base.spweapon_data_statistics[10360] = {
 	tech = 0,
 	name = "閃耀夢想",

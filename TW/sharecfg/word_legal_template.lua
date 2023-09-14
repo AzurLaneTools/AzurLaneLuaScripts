@@ -1696,7 +1696,12 @@ temp()
 function temp()
 	uv0["朱"] = {
 		["諾"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["利"] = {
 			["奧"] = {
@@ -3132,7 +3137,12 @@ function temp()
 		["羅"] = {
 			["普"] = {
 				["郡"] = {
-					this = true
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -3685,6 +3695,9 @@ temp()
 function temp()
 	uv0["若"] = {
 		["葉"] = {
+			this = true
+		},
+		["月"] = {
 			this = true
 		}
 	}
@@ -6096,6 +6109,46 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["武"] = {
+		["藏"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["酒"] = {
+		["匂"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["羽"] = {
+		["黑"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["深"] = {
+		["雪"] = {
+			this = true
 		}
 	}
 end

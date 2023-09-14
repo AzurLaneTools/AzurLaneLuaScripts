@@ -9568,6 +9568,78 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70230] = {
+		id = 70230,
+		name = "2023云仙活动 X半影回原位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 30
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
+	[70231] = {
+		id = 70231,
+		name = "2023云仙活动 EX云仙回原位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -20,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			}
+		}
+	},
+	[70232] = {
+		id = 70232,
+		name = "2023云仙活动 EX X半影回原位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 5,
+					z = 30
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

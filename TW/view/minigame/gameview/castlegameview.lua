@@ -262,10 +262,6 @@ function slot0.onGameOver(slot0)
 		uv0.popUI:updateSettlementUI()
 		uv0.popUI:popSettlementUI(true)
 	end))
-	pg.m02:sendNotification(GAME.MINI_GAME_TIME, {
-		gameid = slot0:GetMGData().id,
-		time = CastleGameVo.gameStepTime
-	})
 end
 
 function slot0.OnApplicationPaused(slot0)

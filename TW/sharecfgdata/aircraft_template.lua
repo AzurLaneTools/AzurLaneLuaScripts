@@ -30304,6 +30304,190 @@ _G.pg.base.aircraft_template[62800] = {
 	}
 }
 
+_G.pg.base.aircraft_template[62881] = {
+	attack_power = 2,
+	name = "光辉火箭弹战斗机LV1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haipenhuo",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 62881,
+	icon = "haipenhuo",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 11,
+	hp_growth = 1947,
+	speed = 50,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		62891
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[62882] = {
+	id = 62882,
+	name = "光辉火箭弹战斗机LV2",
+	hp_growth = 2201,
+	base = 62881,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62892
+	}
+}
+
+_G.pg.base.aircraft_template[62883] = {
+	id = 62883,
+	name = "光辉火箭弹战斗机LV3",
+	hp_growth = 2455,
+	base = 62881,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62893
+	}
+}
+
+_G.pg.base.aircraft_template[62884] = {
+	id = 62884,
+	name = "光辉火箭弹战斗机LV4",
+	hp_growth = 2710,
+	base = 62881,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62894
+	}
+}
+
+_G.pg.base.aircraft_template[62885] = {
+	id = 62885,
+	name = "光辉火箭弹战斗机LV5",
+	hp_growth = 2964,
+	base = 62881,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62895
+	}
+}
+
+_G.pg.base.aircraft_template[62886] = {
+	id = 62886,
+	name = "光辉火箭弹战斗机LV6",
+	hp_growth = 3218,
+	base = 62881,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62896
+	}
+}
+
+_G.pg.base.aircraft_template[62887] = {
+	id = 62887,
+	name = "光辉火箭弹战斗机LV7",
+	hp_growth = 3472,
+	base = 62881,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62897
+	}
+}
+
+_G.pg.base.aircraft_template[62888] = {
+	id = 62888,
+	name = "光辉火箭弹战斗机LV8",
+	hp_growth = 3726,
+	base = 62881,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62898
+	}
+}
+
+_G.pg.base.aircraft_template[62889] = {
+	id = 62889,
+	name = "光辉火箭弹战斗机LV9",
+	hp_growth = 3980,
+	base = 62881,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62899
+	}
+}
+
+_G.pg.base.aircraft_template[62890] = {
+	id = 62890,
+	name = "光辉火箭弹战斗机LV10",
+	hp_growth = 4234,
+	base = 62881,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62900
+	}
+}
+
 _G.pg.base.aircraft_template[63051] = {
 	attack_power = 2,
 	name = "苍龙·META_轰炸机 Lv1",
@@ -205084,6 +205268,638 @@ _G.pg.base.aircraft_template[3012005] = {
 			{
 				0.82,
 				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3020009] = {
+	attack_power = 2,
+	name = "【2022武藏活动A1】BOSS 测试者 第三波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3020009,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 260,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70106
+	},
+	weapon_ID = {
+		3020011,
+		3020012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3020010] = {
+	attack_power = 2,
+	name = "【2022武藏活动A1】BOSS 测试者 第三波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3020010,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 260,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70107
+	},
+	weapon_ID = {
+		3020011,
+		3020012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3020203] = {
+	attack_power = 2,
+	name = "【2022武藏活动A3】BOSS 清除者 第一波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3020203,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 260,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3020204
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3020210] = {
+	attack_power = 2,
+	name = "【2022武藏活动A3】BOSS 清除者 第三波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 3020210,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 3000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70096
+	},
+	weapon_ID = {
+		3020211,
+		3020212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3022009] = {
+	attack_power = 2,
+	name = "【2022武藏活动C1】BOSS 测试者 第三波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 3022009,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70106
+	},
+	weapon_ID = {
+		3022011,
+		3022012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3022010] = {
+	attack_power = 2,
+	name = "【2022武藏活动C1】BOSS 测试者 第三波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 3022010,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 40,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70107
+	},
+	weapon_ID = {
+		3022011,
+		3022012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3022203] = {
+	attack_power = 2,
+	name = "【2022武藏活动C3】BOSS 清除者 第一波 浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 220,
+	dodge = 1,
+	nationality = 3,
+	id = 3022203,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3022204
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3022210] = {
+	attack_power = 2,
+	name = "【2022武藏活动C3】BOSS 清除者 第三波 环绕浮游炮",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	nationality = 3,
+	id = 3022210,
+	icon = "fuyoupao",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 50,
+	max_hp = 8000,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70096
+	},
+	weapon_ID = {
+		3022211,
+		3022212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
 				0
 			}
 		}

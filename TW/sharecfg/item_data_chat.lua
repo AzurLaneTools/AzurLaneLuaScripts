@@ -32,6 +32,14 @@ pg.item_data_chat = {
 		desc = "獻給所有三年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與三週年限定活動獲得</color>",
 		scene = {}
 	},
+	[104] = {
+		time_limit_type = 0,
+		name = "四週年紀念",
+		id = 104,
+		time_second = 0,
+		desc = "獻給所有四年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與四週年限定活動獲取</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "召集者",
@@ -69,6 +77,7 @@ pg.item_data_chat = {
 		101,
 		102,
 		103,
+		104,
 		300,
 		301,
 		602,

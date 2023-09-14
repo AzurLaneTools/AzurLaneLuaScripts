@@ -1,39 +1,43 @@
 slot0 = class("ChapterOpCommand", import(".ChapterOpRoutine"))
 
 function slot0.execute(slot0, slot1)
-	if slot1:getBody().type == ChapterConst.OpSwitch then
-		for slot8, slot9 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleets) do
-			if slot9.id == slot2.id then
-				slot4.findex = slot8
+	slot2 = slot1:getBody()
 
-				break
-			end
+	if (function ()
+		if not getProxy(ChapterProxy):getActiveChapter() then
+			return true
 		end
 
-		slot3:updateChapter(slot4, bit.bor(ChapterConst.DirtyStrategy, ChapterConst.DirtyFleet))
-		slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
-			type = slot2.type
-		})
-		pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
+		if uv0.type == ChapterConst.OpSwitch then
+			for slot5, slot6 in ipairs(slot1.fleets) do
+				if slot6.id == uv0.id then
+					slot1.findex = slot5
 
+					break
+				end
+			end
+
+			slot0:updateChapter(slot1, bit.bor(ChapterConst.DirtyStrategy, ChapterConst.DirtyFleet))
+			uv1:sendNotification(GAME.CHAPTER_OP_DONE, {
+				type = uv0.type
+			})
+			pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_success", slot1.fleet.name))
+
+			return true
+		elseif uv0.type == ChapterConst.OpSkipBattle then
+			slot1:UpdateProgressAfterSkipBattle()
+			slot0:updateChapter(slot1)
+		elseif uv0.type == ChapterConst.OpPreClear then
+			slot1:CleanCurrentEnemy()
+			slot0:updateChapter(slot1)
+		end
+	end)() then
 		return
-	elseif slot2.type == ChapterConst.OpSkipBattle then
-		slot3 = getProxy(ChapterProxy)
-		slot4 = slot3:getActiveChapter()
-
-		slot4:UpdateProgressAfterSkipBattle()
-		slot3:updateChapter(slot4)
-	elseif slot2.type == ChapterConst.OpPreClear then
-		slot3 = getProxy(ChapterProxy)
-		slot4 = slot3:getActiveChapter()
-
-		slot4:CleanCurrentEnemy()
-		slot3:updateChapter(slot4)
 	end
 
-	slot3 = pg.ConnectionMgr.GetInstance()
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	slot3:Send(13103, {
+	slot4:Send(13103, {
 		act = slot2.type,
 		group_id = defaultValue(slot2.id, 0),
 		act_arg_1 = slot2.arg1,
@@ -41,9 +45,13 @@ function slot0.execute(slot0, slot1)
 		act_arg_3 = slot2.arg3
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
+			slot2 = getProxy(ChapterProxy):getActiveChapter()
+
+			assert(slot2)
+
 			slot3 = nil
 
-			uv0:initData(uv1, slot0, getProxy(ChapterProxy):getActiveChapter())
+			uv0:initData(uv1, slot0, slot2)
 			uv0:doDropUpdate()
 
 			if uv0.chapter then
@@ -85,14 +93,7 @@ function slot0.execute(slot0, slot1)
 								slot4 = nil
 							end
 
-							slot7 = slot1:GetExtendChapter(slot2.id) and slot3.AutoFightFlag
-
-							slot1:SetChapterAutoFlag(slot2.id, false)
-							slot1:RemoveExtendChapter(slot2.id)
-
-							if slot3 then
-								slot3.AutoFightFlag = slot7
-							end
+							slot3 = slot1:FinishAutoFight(slot2.id)
 						end
 
 						uv0:doRetreat()

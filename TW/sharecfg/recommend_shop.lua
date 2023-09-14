@@ -2,7 +2,7 @@ pg = pg or {}
 pg.recommend_shop = {
 	{
 		shop_id = 1,
-		time = "always ",
+		time = "always",
 		shop_type = 1,
 		id = 1,
 		pic = "",

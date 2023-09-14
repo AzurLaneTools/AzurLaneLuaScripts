@@ -191,7 +191,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "指揮官等級小於60級時，在普通關卡、困難關卡、每日活動中獲得的指揮官經驗和艦船經驗提高100%",
+		desc = "指揮官等級小於80級時，在普通關卡、困難關卡、每日活動中獲得的指揮官經驗和艦船經驗提高100%",
 		benefit_effect = "100",
 		id = 4,
 		icon = "Props/xinshou",
@@ -199,7 +199,7 @@ pg.base.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			60
+			80
 		}
 	},
 	{

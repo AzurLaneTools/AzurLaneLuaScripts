@@ -41,6 +41,7 @@ require("Mgr/FileDownloadMgr")
 require("Mgr/MainGroupMgr")
 require("Mgr/CipherGroupMgr")
 require("Mgr/RepairResMgr")
+require("Mgr/SceneAnimMgr")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

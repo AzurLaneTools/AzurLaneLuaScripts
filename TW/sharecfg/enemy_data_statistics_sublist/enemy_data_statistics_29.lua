@@ -1191,7 +1191,9 @@ pg.enemy_data_statistics_29 = {
 			}
 		},
 		specific_fx_scale = {},
-		appear_fx = {},
+		appear_fx = {
+			"appearsmall"
+		},
 		position_offset = {
 			0,
 			0,
@@ -1515,7 +1517,9 @@ pg.enemy_data_statistics_29 = {
 			}
 		},
 		specific_fx_scale = {},
-		appear_fx = {},
+		appear_fx = {
+			"appearsmall"
+		},
 		position_offset = {
 			0,
 			0,
@@ -1582,7 +1586,7 @@ pg.enemy_data_statistics_29 = {
 			0
 		},
 		cld_box = {
-			27.7,
+			18.7,
 			7.5,
 			9
 		},
@@ -1677,7 +1681,9 @@ pg.enemy_data_statistics_29 = {
 			}
 		},
 		specific_fx_scale = {},
-		appear_fx = {},
+		appear_fx = {
+			"appearsmall"
+		},
 		position_offset = {
 			0,
 			0,

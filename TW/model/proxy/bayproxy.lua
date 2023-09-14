@@ -10,6 +10,8 @@ function slot0.register(slot0)
 		uv0.data = {}
 		uv0.activityNpcShipIds = {}
 		uv0.metaShipIDList = {}
+		uv0.equipCountDic = {}
+		uv0.equipSkinCountDic = {}
 
 		for slot4, slot5 in ipairs(slot0.shiplist) do
 			slot6 = Ship.New(slot5)
@@ -28,6 +30,7 @@ function slot0.register(slot0)
 				end
 
 				uv1.recordShipLevelVertify(slot6)
+				uv0:UpdateShipEquipAndSkinCount(slot6, true)
 			else
 				warning("不存在的角色: " .. slot6.id)
 			end
@@ -58,6 +61,7 @@ function slot0.register(slot0)
 				end
 
 				uv1.recordShipLevelVertify(slot6)
+				uv0:UpdateShipEquipAndSkinCount(slot6, true)
 			else
 				warning("不存在的角色: " .. slot6.id)
 			end
@@ -222,6 +226,7 @@ function slot0.addShip(slot0, slot1, slot2)
 	slot0.data[slot1.id] = slot1
 
 	uv0.recordShipLevelVertify(slot1)
+	slot0:UpdateShipEquipAndSkinCount(slot1, true)
 
 	if defaultValue(slot2, true) then
 		slot0:countShip()
@@ -444,11 +449,16 @@ function slot0.updateShip(slot0, slot1)
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_HIGHEST_LEVEL, slot0.shipHighestLevel)
 	end
 
+	slot2 = slot0.data[slot1.id]
+
+	slot0:UpdateShipEquipAndSkinCount(slot2, false)
+
 	slot0.data[slot1.id] = slot1
 
 	uv0.recordShipLevelVertify(slot1)
+	slot0:UpdateShipEquipAndSkinCount(slot1, true)
 
-	if slot0.data[slot1.id]:isActivityNpc() and not slot1:isActivityNpc() then
+	if slot2:isActivityNpc() and not slot1:isActivityNpc() then
 		table.removebyvalue(slot0.activityNpcShipIds, slot1.id)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end
@@ -488,6 +498,7 @@ function slot0.removeShipById(slot0, slot1)
 	slot0.data[slot2.id] = nil
 
 	slot2:display("removed")
+	slot0:UpdateShipEquipAndSkinCount(slot2, false)
 	slot0.facade:sendNotification(uv0.SHIP_REMOVED, slot2)
 end
 
@@ -674,18 +685,36 @@ function slot0.getEquipsInShips(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.GetEquipCountInShips(slot0, slot1)
-	slot2 = 0
+function slot0.UpdateShipEquipAndSkinCount(slot0, slot1, slot2)
+	if not slot1 then
+		return
+	end
 
-	for slot6, slot7 in pairs(slot0.data) do
-		for slot11, slot12 in pairs(slot7.equipments) do
-			if slot12 and slot12.id == slot1 then
-				slot2 = slot2 + 1
-			end
+	slot3 = slot2 and 1 or -1
+
+	for slot7, slot8 in pairs(slot1.equipments) do
+		if slot8 then
+			slot0.equipCountDic[slot8.id] = defaultValue(slot0.equipCountDic[slot8.id], 0) + slot3
+
+			assert(slot0.equipCountDic[slot8.id] >= 0)
 		end
 	end
 
-	return slot2
+	for slot7, slot8 in pairs(slot1.equipmentSkins) do
+		if slot8 > 0 then
+			slot0.equipSkinCountDic[slot8] = defaultValue(slot0.equipSkinCountDic[slot8], 0) + slot3
+
+			assert(slot0.equipSkinCountDic[slot8] >= 0)
+		end
+	end
+end
+
+function slot0.GetEquipCountInShips(slot0, slot1)
+	return slot0.equipCountDic[slot1] or 0
+end
+
+function slot0.GetEquipSkinCountInShips(slot0, slot1)
+	return slot0.equipSkinCountDic[slot1] or 0
 end
 
 function slot0.GetEquipsInShipsRaw(slot0)

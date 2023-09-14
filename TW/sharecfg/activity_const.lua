@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 41182
+		act_id = 41329
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 41107
@@ -959,5 +959,14 @@ pg.activity_const = {
 	},
 	MINIGAME_XINTIAOCHENGBAO = {
 		act_id = 4961
+	},
+	MINIGAME_ZUMA = {
+		act_id = 41334
+	},
+	MINIGAME_ZUMA_TASK = {
+		act_id = 41332
+	},
+	MINIGAME_ZUMA_PT_SHOP_ID = {
+		act_id = 41333
 	}
 }

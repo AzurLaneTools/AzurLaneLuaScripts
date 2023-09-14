@@ -37,7 +37,18 @@ function slot0.GetTypewriterSpeed(slot0)
 end
 
 function slot0.GetSequence(slot0)
-	return slot0.sequence or {}
+	slot1 = {}
+	slot2 = ipairs
+	slot3 = slot0.sequence or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot1, {
+			slot6[1],
+			slot6[2]
+		})
+	end
+
+	return slot1
 end
 
 function slot0.GetAsideType(slot0)

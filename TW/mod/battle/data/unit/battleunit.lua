@@ -175,11 +175,11 @@ end
 
 function slot9.UpdateHP(slot0, slot1, slot2)
 	if not slot0:IsAlive() then
-		return
+		return 0
 	end
 
 	if not slot0:IsAlive() then
-		return
+		return 0
 	end
 
 	slot5 = slot2.isMiss
@@ -218,7 +218,7 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 		end
 
 		if uv1.IsInvincible(slot0) then
-			return
+			return 0
 		end
 	else
 		slot15 = {
@@ -274,6 +274,8 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 			validDHP = slot16
 		})
 	end
+
+	return slot1
 end
 
 function slot9.UpdateHPAction(slot0, slot1)
@@ -935,6 +937,7 @@ end
 function slot9.AddBuff(slot0, slot1, slot2)
 	slot3 = slot1:GetID()
 
+	print(slot3, pg.TimeMgr.GetInstance():GetCombatTime())
 	slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, {
 		unit_id = slot0._uniqueID,
 		buff_id = slot3

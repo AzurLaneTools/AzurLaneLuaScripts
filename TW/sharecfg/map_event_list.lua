@@ -2577,6 +2577,151 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[1680001] = {
+		help_open = 0,
+		chapter_id = 1680001,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[1680002] = {
+		help_open = 0,
+		chapter_id = 1680002,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[1680003] = {
+		help_open = 0,
+		chapter_id = 1680003,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[1680004] = {
+		help_open = 0,
+		chapter_id = 1680004,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[1680005] = {
+		help_open = 0,
+		chapter_id = 1680005,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[1680006] = {
+		help_open = 0,
+		chapter_id = 1680006,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
+	[1680021] = {
+		help_open = 0,
+		chapter_id = 1680021,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[1680022] = {
+		help_open = 0,
+		chapter_id = 1680022,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[1680023] = {
+		help_open = 0,
+		chapter_id = 1680023,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[1680024] = {
+		help_open = 0,
+		chapter_id = 1680024,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[1680025] = {
+		help_open = 0,
+		chapter_id = 1680025,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[1680026] = {
+		help_open = 0,
+		chapter_id = 1680026,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
+	[1680041] = {
+		help_open = 0,
+		chapter_id = 1680041,
+		event_list = {
+			731,
+			732
+		},
+		event_list_loop = {
+			731,
+			732
+		},
+		help_pictures = {}
+	},
 	[1690005] = {
 		help_open = 0,
 		chapter_id = 1690005,
@@ -2928,6 +3073,19 @@ pg.map_event_list = {
 		1640026,
 		1640041,
 		1650041,
+		1680001,
+		1680002,
+		1680003,
+		1680004,
+		1680005,
+		1680006,
+		1680021,
+		1680022,
+		1680023,
+		1680024,
+		1680025,
+		1680026,
+		1680041,
 		1690005,
 		1690021,
 		1690022,

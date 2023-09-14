@@ -616,7 +616,7 @@ function slot9.PreCast(slot0)
 		slot0._precastArmor = slot0._preCastInfo.armor
 	end
 
-	slot0._host:SetWeaponPreCastBound(true)
+	slot0._host:SetWeaponPreCastBound(slot0._preCastInfo.isBound)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.WEAPON_PRE_CAST, slot0._preCastInfo))
 end
 

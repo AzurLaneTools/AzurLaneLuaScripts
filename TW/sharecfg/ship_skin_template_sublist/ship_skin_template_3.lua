@@ -1,131 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103010] = {
-		ship_group = 10301,
-		name = "彭薩科拉",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 103010,
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "pengsakela",
-		illustrator = 9,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "pengsakela",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "彭薩科拉級重巡洋艦—彭薩科拉，舷號CA-24",
-		voice_actor = 56,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.05,
-					0.8,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.05,
-					0.8,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.35,
-					0.4,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.05,
-					0.8,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							0.272,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.293,
-							0.826,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[103020] = {
 		ship_group = 10302,
 		name = "鹽湖城",
@@ -9798,6 +9673,218 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.61,
 							2.26,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[107034] = {
+		ship_group = 10703,
+		name = "碧海的偶像",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 107034,
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 0,
+		painting = "salatuojia_5",
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "salatuojia_5",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "碧海與藍天的夥伴，充滿愛心的偶像·薩拉托加，全新登場！嘿嘿~指揮官，和薩拉醬一起來守護這片美好的碧藍海洋吧~！",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.634,
+					1.181,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.035,
+					-0.017,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.562,
+							2.241,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
+	[107035] = {
+		ship_group = 10703,
+		name = "聖夜的偶像",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 107035,
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 70457,
+		painting = "salatuojia_6",
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		shop_type_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "salatuojia_6",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Merry Christmas！薩拉妹妹·聖誕Ver閃亮登場！嘻嘻，有沒有感覺到不一樣的心動呀，指揮官~好啦，指揮官，難得的平安夜，你想好要帶薩拉托加去哪裡逛了嗎~？",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.634,
+					1.181,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.035,
+					-0.017,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.562,
+							2.241,
 							-0.6
 						}
 					}

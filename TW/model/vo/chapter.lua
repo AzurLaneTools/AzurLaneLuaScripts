@@ -526,7 +526,6 @@ function slot0.mergeChapterCell(slot0, slot1)
 		slot3.attachmentId = slot1.attachmentId
 		slot3.flag = slot1.flag
 		slot3.data = slot1.data
-		slot3.rival = slot1.rival
 		slot1 = slot3
 	end
 
@@ -673,10 +672,6 @@ function slot0.getAmbushDodge(slot0, slot1)
 	end
 
 	return math.clamp(slot5, 0, 1)
-end
-
-function slot0.isValid(slot0)
-	return true
 end
 
 function slot0.inWartime(slot0)
@@ -3062,7 +3057,7 @@ function slot0.enoughTimes2Start(slot0)
 	end
 end
 
-function slot0.GetDailyBonusQuota(slot0)
+function slot0.GetRestDailyBonus(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
@@ -3073,7 +3068,11 @@ function slot0.GetDailyBonusQuota(slot0)
 		slot2 = math.max(slot2, slot3.bonus_time or 0)
 	end
 
-	return not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and slot2 > 0 and math.max(slot2 - slot0.todayDefeatCount, 0) > 0
+	return math.max(slot2 - slot0.todayDefeatCount, 0)
+end
+
+function slot0.GetDailyBonusQuota(slot0)
+	return slot0:GetRestDailyBonus() > 0 and not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster()
 end
 
 slot0.OPERATION_BUFF_TYPE_COST = "more_oil"
@@ -3085,11 +3084,36 @@ function slot0.GetSPOperationItemCacheKey(slot0)
 	return "specialOPItem_" .. slot0
 end
 
+function slot0.GetSpItems(slot0)
+	slot2 = {}
+	slot3 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
+
+	if slot0:getConfig("special_operation_list") and #slot4 == 0 then
+		return slot2
+	end
+
+	for slot8, slot9 in ipairs(pg.benefit_buff_template.all) do
+		if pg.benefit_buff_template[slot9].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot4, slot10.id) then
+			slot11 = tonumber(slot10.benefit_condition)
+
+			for slot15, slot16 in ipairs(slot3) do
+				if slot11 == slot16.configId then
+					table.insert(slot2, slot16)
+
+					break
+				end
+			end
+		end
+	end
+
+	return slot2
+end
+
 function slot0.GetSPBuffByItem(slot0)
 	for slot4, slot5 in ipairs(pg.benefit_buff_template.all) do
 		buffConfig = pg.benefit_buff_template[slot5]
 
-		if tonumber(buffConfig.benefit_condition) == slot0 then
+		if buffConfig.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(buffConfig.benefit_condition) == slot0 then
 			return buffConfig.id
 		end
 	end
@@ -3111,6 +3135,24 @@ end
 
 function slot0.GetOperationBuffList(slot0)
 	return slot0.operationBuffList
+end
+
+function slot0.GetActiveSPItemID(slot0)
+	if PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.id), 0) == 0 then
+		return 0
+	end
+
+	if slot0:GetRestDailyBonus() > 0 then
+		return 0
+	end
+
+	if _.detect(slot0:GetSpItems(), function (slot0)
+		return slot0:GetConfigID() == uv0
+	end) then
+		return slot2
+	end
+
+	return 0
 end
 
 function slot0.GetAllEnemies(slot0, slot1)
@@ -3178,47 +3220,6 @@ end
 
 function slot0.GetWeather(slot0, slot1, slot2)
 	return slot0.cells[ChapterCell.Line2Name(slot1 or slot0.fleet.line.row, slot2 or slot0.fleet.line.column)] and slot4:GetWeatherFlagList() or {}
-end
-
-function slot0.GetChapterLastFleetCacheKey(slot0)
-	assert(slot0, "NIL chapterId")
-
-	return "lastFleetIndex_" .. (slot0 or 0)
-end
-
-function slot0.SaveChapterLastFleetCache(slot0, slot1)
-	if not slot0 or not slot1 then
-		return
-	end
-
-	slot2 = 0
-	slot3 = 8
-
-	for slot7, slot8 in ipairs(slot1) do
-		slot2 = slot2 + bit.lshift(slot8, slot3 * (slot7 - 1))
-	end
-
-	PlayerPrefs.SetInt(uv0.GetChapterLastFleetCacheKey(slot0), slot2)
-	PlayerPrefs.Save()
-end
-
-function slot0.GetChapterLastFleetCache(slot0)
-	if not slot0 then
-		return {}
-	end
-
-	slot1 = PlayerPrefs.GetInt(uv0.GetChapterLastFleetCacheKey(slot0), 0)
-	slot2 = {}
-	slot3 = 255
-	slot4 = 8
-
-	while slot1 > 0 do
-		table.insert(slot2, bit.band(slot1, slot3))
-
-		slot1 = bit.rshift(slot1, slot4)
-	end
-
-	return slot2
 end
 
 function slot0.GetLimitOilCost(slot0, slot1, slot2)
@@ -3303,6 +3304,17 @@ end
 
 function slot0.GetBindActID(slot0)
 	return slot0:getConfig("act_id")
+end
+
+function slot0.GetMaxBattleCount(slot0)
+	slot1 = 0
+	slot1 = (getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() ~= Map.ELITE or math.clamp(pg.gameset.hard_level_multiple_sorties_times.key_value, 0, getProxy(DailyLevelProxy):GetRestEliteCount())) and (not slot2:isRemaster() or math.clamp(pg.gameset.archives_level_multiple_sorties_times.key_value, 0, getProxy(ChapterProxy).remasterTickets)) and (not slot2:isActivity() or pg.gameset.activity_level_multiple_sorties_times.key_value) and pg.gameset.main_level_multiple_sorties_times.key_value
+
+	if slot0:isTriesLimit() then
+		slot1 = math.clamp(slot1, 0, slot0:getConfig("count") - slot0:getTodayDefeatCount())
+	end
+
+	return slot1
 end
 
 return slot0

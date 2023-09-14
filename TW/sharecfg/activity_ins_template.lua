@@ -8745,6 +8745,149 @@ pg.activity_ins_template = {
 			2909
 		}
 	},
+	[327] = {
+		ship_group = 30510,
+		name = "Musashi",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "wuzang",
+		id = 327,
+		group_id = 327,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[328] = {
+		ship_group = 30223,
+		name = "Sakawa ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jiuyun",
+		id = 328,
+		group_id = 328,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[329] = {
+		ship_group = 30187,
+		name = "Wakatsuki",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ruoyue",
+		id = 329,
+		group_id = 329,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[330] = {
+		ship_group = 30104,
+		name = "Miyuki ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shenxue",
+		id = 330,
+		group_id = 330,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[331] = {
+		ship_group = 30310,
+		name = "Haguro ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yuhei",
+		id = 331,
+		group_id = 331,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[332] = {
+		ship_group = 50601,
+		name = "ChenHai",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "zhenhai",
+		id = 332,
+		group_id = 332,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[333] = {
+		ship_group = 80108,
+		name = "Brézé",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Mayebuleize_2",
+		id = 333,
+		group_id = 333,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[334] = {
+		ship_group = 10501,
+		name = "Nevada",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "neihuada",
+		id = 334,
+		group_id = 334,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[335] = {
+		ship_group = 30505,
+		name = "SakuraCombinedFleet",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "changmen",
+		id = 335,
+		group_id = 335,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[336] = {
+		ship_group = 29901,
+		name = "Neptune",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "haiwangxing",
+		id = 336,
+		group_id = 336,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[337] = {
+		ship_group = 10207,
+		name = "Juneau",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Zhunuo_2",
+		id = 337,
+		group_id = 337,
+		order = 25,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[342] = {
 		ship_group = 1090001,
 		name = "Reisalin Stout",
@@ -8886,41 +9029,87 @@ pg.activity_ins_template = {
 	[367] = {
 		ship_group = 70207,
 		name = "Voroshilov",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_367",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_367.png",
+		is_active = 0,
 		sculpture = "fuluoxiluofu",
 		id = 367,
 		group_id = 367,
 		order = 24,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3377,
+			3380,
+			3383
+		}
 	},
 	[368] = {
 		ship_group = 70302,
 		name = "Kursk",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_368",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_368.png",
+		is_active = 0,
 		sculpture = "kuersike",
 		id = 368,
 		group_id = 368,
 		order = 24,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				8,
+				25
+			},
+			{
+				16,
+				33,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3388,
+			3391,
+			3393,
+			3395
+		}
 	},
 	[369] = {
 		ship_group = 70507,
 		name = "Sevastopol",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_369",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_369.png",
+		is_active = 0,
 		sculpture = "saiwasituoboer",
 		id = 369,
 		group_id = 369,
 		order = 24,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				8,
+				25
+			},
+			{
+				17,
+				49,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3400,
+			3403,
+			3406
+		}
 	},
 	all = {
 		1,
@@ -9242,6 +9431,17 @@ pg.activity_ins_template = {
 		318,
 		319,
 		320,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
 		342,
 		343,
 		344,

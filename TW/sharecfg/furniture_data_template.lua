@@ -113,11 +113,13 @@ pg.furniture_data_template = setmetatable({
 			225,
 			226,
 			233,
+			234,
 			235,
 			236,
 			239,
 			245,
 			251,
+			258,
 			100002,
 			100003,
 			100004,
@@ -2496,6 +2498,29 @@ pg.furniture_data_template = setmetatable({
 			301119,
 			301120,
 			301123
+		},
+		[103] = {
+			303001,
+			303002,
+			303101,
+			303102,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		}
 	},
 	get_id_list_by_tag = {
@@ -4010,7 +4035,24 @@ pg.furniture_data_template = setmetatable({
 			301118,
 			301119,
 			301120,
-			301123
+			301123,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		{
 			1108,
@@ -4251,10 +4293,12 @@ pg.furniture_data_template = setmetatable({
 			222,
 			225,
 			226,
+			234,
 			235,
 			239,
 			245,
 			251,
+			258,
 			100002,
 			100003,
 			100004,
@@ -4424,7 +4468,9 @@ pg.furniture_data_template = setmetatable({
 			99128,
 			300132,
 			300133,
-			300134
+			300134,
+			303101,
+			303102
 		},
 		[4] = {
 			1001,
@@ -4504,7 +4550,8 @@ pg.furniture_data_template = setmetatable({
 			95001,
 			99001,
 			300001,
-			301001
+			301001,
+			303001
 		},
 		[3] = {
 			1002,
@@ -4585,7 +4632,8 @@ pg.furniture_data_template = setmetatable({
 			95002,
 			99002,
 			300002,
-			301002
+			301002,
+			303002
 		},
 		[5] = {
 			1301,
@@ -4931,7 +4979,8 @@ pg.furniture_data_template = setmetatable({
 			95002,
 			99002,
 			300002,
-			301002
+			301002,
+			303002
 		},
 		[7] = {
 			1,
@@ -5028,10 +5077,12 @@ pg.furniture_data_template = setmetatable({
 			222,
 			225,
 			226,
+			234,
 			235,
 			236,
 			239,
 			245,
+			258,
 			100002,
 			100004,
 			100005,
@@ -6553,7 +6604,24 @@ pg.furniture_data_template = setmetatable({
 			301118,
 			301119,
 			301120,
-			301123
+			301123,
+			303101,
+			303102,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		[11] = {
 			131,
@@ -6595,7 +6663,9 @@ pg.furniture_data_template = setmetatable({
 		},
 		[14] = {
 			214,
-			100019
+			100019,
+			303103,
+			303113
 		},
 		[15] = {
 			251
@@ -6689,7 +6759,8 @@ pg.furniture_data_template = setmetatable({
 			95001,
 			99001,
 			300001,
-			301001
+			301001,
+			303001
 		},
 		[5] = {
 			1101,
@@ -7333,11 +7404,13 @@ pg.furniture_data_template = setmetatable({
 		225,
 		226,
 		233,
+		234,
 		235,
 		236,
 		239,
 		245,
 		251,
+		258,
 		100002,
 		100003,
 		100004,
@@ -9557,7 +9630,28 @@ pg.furniture_data_template = setmetatable({
 		301118,
 		301119,
 		301120,
-		301123
+		301123,
+		303001,
+		303002,
+		303101,
+		303102,
+		303103,
+		303104,
+		303105,
+		303106,
+		303107,
+		303108,
+		303109,
+		303110,
+		303111,
+		303112,
+		303113,
+		303114,
+		303115,
+		303116,
+		303117,
+		303118,
+		303119
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14833,6 +14927,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[234] = {
+		spine_extra = "",
+		describe = "大棋盤中心黑色高塔的微縮模型，材質與構造皆不明，但散發著危險的氣息。 ——授予在「紫絳槿嵐」特別作戰中獲得傑出成就者的紀念章。",
+		gain_by = "紫绛槿岚",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "wuzangxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "赤紅之“塔”",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 234,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"wuzangxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[235] = {
 		spine_extra = "",
 		describe = "異世界冒險的證明，似乎能為持有者帶來好運？",
@@ -15070,6 +15207,69 @@ pg.base.furniture_data_template = {
 					true
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[258] = {
+		spine_extra = "",
+		describe = "「蘋果與紅茶的黃金比例！一同暢飲吧！啾！」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "pingguohongchaicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "茉莉茶園盒裝模型",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "chuanmo/pingguohongcha",
+		canputon = 0,
+		id = 258,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5.3,
+					-100
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/pingguohongcha_using",
+				0,
+				{
+					{
+						-6,
+						104
+					},
+					{
+						400,
+						526
+					},
+					"chuanmo/pingguohongcha_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -112781,6 +112981,971 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"kaihuazy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303001] = {
+		spine_extra = "",
+		describe = "開啟溫泉街的奇妙之夜！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "常世溫泉街地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanbgyxicon",
+		spine_action_replace = "",
+		picture = "bgyx/dibanbgyx",
+		comfortable = 4,
+		canputon = 0,
+		id = 303001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303002] = {
+		spine_extra = "",
+		describe = "開啟溫泉街的奇妙之夜！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "常世溫泉街壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbibgyxicon",
+		spine_action_replace = "",
+		picture = "bgyx/qiangbibgyx",
+		comfortable = 4,
+		canputon = 0,
+		id = 303002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303101] = {
+		spine_extra = "",
+		describe = "跨過此橋，去往常世。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "常世之橋",
+		themeId = 103,
+		icon = "bianqiaobgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303101,
+		can_rotate = 0,
+		size = {
+			15,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianqiaobgyxB",
+				"normal"
+			},
+			{
+				"bianqiaobgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303102] = {
+		spine_extra = "",
+		describe = "袋貉們正在密謀搞點大動靜~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "daihebgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "袋貉集會",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303102,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daihebgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303103] = {
+		spine_extra = "",
+		describe = "小燈籠努力瞪大了眼睛~",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "獨眼小燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303104] = {
+		spine_extra = "",
+		describe = "散發著幽靜的光芒~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "denglonggualanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉紙燈掛欄",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303104,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"denglonggualanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303105] = {
+		spine_extra = "",
+		describe = "安靜沉穩的御狐石像。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉御狐石像",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "bgyx/diaoxiangbgyx",
+		canputon = 0,
+		id = 303105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303106] = {
+		spine_extra = "",
+		describe = "客人請排隊，嗯？您看不見其它客人嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guandongzhubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "常世關東煮",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "bgyx/guandongzhubgyx",
+		canputon = 0,
+		id = 303106,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					-87
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303107] = {
+		spine_extra = "",
+		describe = "勞煩幫我蓋上蓋子，謝謝。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guanhubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉管狐",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanhubgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303108] = {
+		spine_extra = "",
+		describe = "非常美麗的紅色溫泉街裝飾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huaduibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉彼岸花",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303108,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaduibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303109] = {
+		spine_extra = "",
+		describe = "發出“詭異的光”的街燈。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ludengbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "常世街燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "bgyx/ludengbgyx",
+		canputon = 0,
+		id = 303109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303110] = {
+		spine_extra = "",
+		describe = "前方即是神之領域……啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "niaojubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉鳥居",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "bgyx/niaojubgyx",
+		canputon = 0,
+		id = 303110,
+		can_rotate = 0,
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303111] = {
+		spine_extra = "",
+		describe = "壽司來囉！麻煩讓讓~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "piaoguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉遊魂",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piaoguibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303112] = {
+		spine_extra = "",
+		describe = "不給我講故事就搗蛋~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qingxingdengbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉青行燈",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303112,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingxingdengbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303113] = {
+		spine_extra = "",
+		describe = "嘎嗚！呃，咬到舌頭了……",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "sanguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "唐傘小僧",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303114] = {
+		spine_extra = "",
+		describe = "快點供奉油豆皮啦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenkanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉御狐神龕",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenkanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303115] = {
+		spine_extra = "",
+		describe = "許個願也許能實現？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenshubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉神櫻樹",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenshubgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303116] = {
+		spine_extra = "",
+		describe = "進入溫泉前請先清潔哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shouxibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉手水舍",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shouxibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303117] = {
+		spine_extra = "",
+		describe = "散發出絲絲寒意…但對於客人來說剛剛好？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "常世溫泉",
+		themeId = 103,
+		icon = "wenquanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wenquanbgyxB",
+				"normal"
+			},
+			{
+				"wenquanbgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-11.1,
+					129.2
+				},
+				{
+					426,
+					254
+				},
+				"bgyx/wenquanbgyx_mask"
+			},
+			{
+				5.3,
+				-128.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303118] = {
+		spine_extra = "",
+		describe = "啊、啊——啾！？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xuenvjiubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雪女啾",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "bgyx/xuenvjiubgyx",
+		canputon = 0,
+		id = 303118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303119] = {
+		spine_extra = "",
+		describe = "主、主動聚過來了！？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinghuobgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "溫泉螢火",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinghuobgyx",
 				"normal"
 			}
 		},

@@ -78,7 +78,6 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateContent(slot0)
-	slot1 = slot0.contextData.battleTimes
 	slot10 = tostring(slot7)
 
 	if (slot0.contextData.useTicket and math.clamp(slot0.contextData.battleTimes - slot0.activity:GetStageBonus(slot0.contextData.stageId), 0, getProxy(PlayerProxy):getRawData():getResource(pg.activity_event_worldboss[slot0.activity:getConfig("config_id")].ticket)) or 0) > 0 then

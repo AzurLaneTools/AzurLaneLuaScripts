@@ -342,5 +342,13 @@ pg.ship_spine_shift = {
 			6,
 			-24
 		}
+	},
+	yingwuluo_3 = {
+		spine = "yingwuluo_3",
+		mainui_shift = {
+			-35,
+			10,
+			0
+		}
 	}
 }

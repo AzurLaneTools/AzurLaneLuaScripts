@@ -105,7 +105,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_QUIT_BATTLE_MANUALLY, function (slot0)
 		if uv0 == SYSTEM_SCENARIO then
-			getProxy(ChapterProxy):StopAutoFight()
+			getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.MANUAL)
 		elseif uv0 == SYSTEM_WORLD then
 			nowWorld():TriggerAutoFight(false)
 		elseif uv0 == SYSTEM_ACT_BOSS then

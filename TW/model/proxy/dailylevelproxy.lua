@@ -98,8 +98,12 @@ function slot0.resetDailyCount(slot0)
 	slot0:sendNotification(uv0.ELITE_QUOTA_UPDATE)
 end
 
+function slot0.GetRestEliteCount(slot0)
+	return math.max(0, pg.gameset.elite_quota.key_value - slot0.eliteCount)
+end
+
 function slot0.IsEliteEnabled(slot0)
-	return slot0.eliteCount < pg.gameset.elite_quota.key_value
+	return slot0:GetRestEliteCount() > 0
 end
 
 function slot0.EliteCountPlus(slot0)

@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.OnReset(slot0, slot1, slot2, slot3)
+	setActive(slot0.iconImage, false)
 	setActive(slot0.asidePanel, true)
 	setActive(slot0.curtain, true)
 	setActive(slot0.hrzList.container, false)

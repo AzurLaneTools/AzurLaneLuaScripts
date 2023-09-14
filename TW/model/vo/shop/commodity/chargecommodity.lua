@@ -87,7 +87,7 @@ function slot0.GetExtraServiceItem(slot0)
 	end)
 	slot2 = slot0:GetGemCnt()
 
-	if not slot0:isMonthCard() then
+	if not slot0:isMonthCard() and slot2 > 0 then
 		table.insert(slot1, {
 			id = 4,
 			type = 1,

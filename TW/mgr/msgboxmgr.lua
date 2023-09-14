@@ -241,6 +241,10 @@ function slot6(slot0, slot1)
 				anonymous = slot3.anonymous,
 				hideName = slot3.hideName
 			})
+
+			slot4 = slot2:Find("IconTpl/name")
+
+			setText(slot4, shortenString(getText(slot4), 6))
 			onButton(uv1, slot2, function ()
 				if uv0.anonymous then
 					return

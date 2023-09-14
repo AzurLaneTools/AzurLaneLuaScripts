@@ -7,8 +7,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162361,
-					delay = 1
+					weapon_id = 162361
 				}
 			}
 		}
@@ -21,8 +20,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162362,
-					delay = 1
+					weapon_id = 162362
 				}
 			}
 		}
@@ -35,8 +33,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162363,
-					delay = 1
+					weapon_id = 162363
 				}
 			}
 		}
@@ -49,8 +46,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162364,
-					delay = 1
+					weapon_id = 162364
 				}
 			}
 		}
@@ -63,8 +59,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162365,
-					delay = 1
+					weapon_id = 162365
 				}
 			}
 		}
@@ -77,8 +72,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162366,
-					delay = 1
+					weapon_id = 162366
 				}
 			}
 		}
@@ -91,8 +85,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162367,
-					delay = 1
+					weapon_id = 162367
 				}
 			}
 		}
@@ -105,8 +98,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162368,
-					delay = 1
+					weapon_id = 162368
 				}
 			}
 		}
@@ -119,8 +111,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162369,
-					delay = 1
+					weapon_id = 162369
 				}
 			}
 		}
@@ -133,8 +124,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 162370,
-					delay = 1
+					weapon_id = 162370
 				}
 			}
 		}
@@ -142,10 +132,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 16971,
 	picture = "0",
-	castCV = "skill",
+	castCV = "",
 	desc = "",
 	aniEffect = {
 		effect = "jineng",
@@ -162,8 +152,7 @@ return {
 			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 162361,
-				delay = 1
+				weapon_id = 162361
 			}
 		}
 	}

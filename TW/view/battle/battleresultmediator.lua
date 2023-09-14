@@ -446,7 +446,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)
 		if uv0 == SYSTEM_SCENARIO then
-			getProxy(ChapterProxy):StopAutoFight()
+			getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
 		end
 	end)
 	slot0:bind(GAME.ACT_BOSS_EXCHANGE_TICKET, function (slot0, slot1)

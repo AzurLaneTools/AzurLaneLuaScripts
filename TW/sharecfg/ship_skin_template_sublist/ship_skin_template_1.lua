@@ -9569,5 +9569,137 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101441] = {
+		ship_group = 10144,
+		name = "烈日的網球場",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 101441,
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70329,
+		painting = "kubo_2",
+		illustrator = -1,
+		shop_type_id = 13,
+		lip_smoothing = 0,
+		bg = "132",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "kubo_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "30比15……呼~下一球一定要得分！ ……指揮官？你也是來打網球的嗎？",
+		voice_actor = 229,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.174,
+					1.104,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.088,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			remote = {
+				-50,
+				0,
+				0
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.19,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			touch2 = 0.54,
+			main_2 = 1.47,
+			main_1 = 3.05,
+			login = 1.32,
+			mission = 1.6
+		}
 	}
 }

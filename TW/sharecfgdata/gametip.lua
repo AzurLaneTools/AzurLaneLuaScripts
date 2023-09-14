@@ -7259,6 +7259,10 @@ _G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "此次改造操作後<color=#92fc63>【雷達掃描】</color>技能\n將升級為<color=#92fc63>【雷達掃描·改】</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_102304 = {
+	tip = "此次改造操作後<color=#92fc63>【主炮底座+1】</color>\n<color=#92fc63>【戰爭之殤】</color>技能將升級為<color=#92fc63>【戰爭之殤·改】</color>\n<color=#92fc63>【全彈發射II】</color>技能將升級為<color=#92fc63>【全彈發射III】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作後<color=#92fc63>【所有戰鬥機+1】、【所有魚雷機+1】</color>\n是否確認繼續操作？"
 }
@@ -7273,6 +7277,10 @@ _G.pg.base.gametip.ship_remould_warning_203114 = {
 <color=#92fc63>【魚雷】欄位</color>變更為<color=#92fc63>【副武器】欄位</color><color=#92fc63>
 <material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>
 是否確認繼續操作？]]
+}
+
+_G.pg.base.gametip.ship_remould_warning_203124 = {
+	tip = "此次改造操作將導致<color=#92fc63>【魚雷】欄位</color>變更為<color=#92fc63>【副武器】欄位</color><color=#92fc63>\n<material= underline c=#92fc63 event=clickDetail>查看詳情</material></color>\n是否確認繼續操作？"
 }
 
 _G.pg.base.gametip.ship_remould_warning_205124 = {
@@ -9647,7 +9655,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "信濃、涼月、樫野、千歲、千代田建造機率UP！"
+	tip = "武藏、酒匂、羽黑建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11456,6 +11464,10 @@ UID：
 
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1天$2小時$3分鐘"
+}
+
+_G.pg.base.gametip.pray_build_select_ship_instruction = {
+	tip = "選擇兩名祈願角色"
 }
 
 _G.pg.base.gametip.warning_pray_build_pool = {
@@ -18257,7 +18269,7 @@ _G.pg.base.gametip.use_oil_limit_help = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-	tip = "周回模式下消耗上限:"
+	tip = "周回油耗上限： "
 }
 
 _G.pg.base.gametip.index_awakening2 = {
@@ -22188,6 +22200,22 @@ _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "作戰失敗"
 }
 
+_G.pg.base.gametip.multiple_sorties_main_tip = {
+	tip = "※連續作戰默認開啟<color=#92fc63>「自律尋敵」</color>、<color=#92fc63>「自律作戰」</color>\n※連續作戰中停止<color=#92fc63>「自律尋敵」</color>會自動終止<color=#92fc63>「連續作戰」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_main_end = {
+	tip = "計劃連續作戰<color=#92fc63>$1</color>次，實際完成連續作戰<color=#92fc63>$2</color>次。"
+}
+
+_G.pg.base.gametip.multiple_sorties_rest_time = {
+	tip = "剩餘:$1次"
+}
+
+_G.pg.base.gametip.multiple_sorties_retry_desc = {
+	tip = "連續作戰$1次"
+}
+
 _G.pg.base.gametip.msgbox_text_battle = {
 	tip = "出擊"
 }
@@ -23248,4 +23276,196 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "擁有:"
+}
+
+_G.pg.base.gametip.shoot_preview = {
+	tip = "發射效果"
+}
+
+_G.pg.base.gametip.hit_preview = {
+	tip = "命中效果"
+}
+
+_G.pg.base.gametip.story_label_skip = {
+	tip = "跳過"
+}
+
+_G.pg.base.gametip.story_label_auto = {
+	tip = "自動"
+}
+
+_G.pg.base.gametip.launch_ball_skill_desc = {
+	tip = "查看詳情"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
+	tip = "主動技能:百鬼退散"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+	tip = "百鬼退散：5秒內射出的所有符咒會對軌道上的其他妖怪產生擊退效果"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
+	tip = "被動技能:鬼怪過敏/胡亂攻擊"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+	tip = "鬼怪過敏：當妖怪靠近終點時，角色的攻擊速度提升\n胡亂攻擊：10秒內未進行任何攻擊，角色會進入無法操作的“發脾氣”狀態，迅速向任意三個方向進行三次帶有擊退效果的攻擊"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+	tip = "主動技能:蝶海夢花"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
+	tip = "蝶海夢花：消除場上所有妖怪，並獲得對應的基礎分數獎勵"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2 = {
+	tip = "被動技能:幽蝶之夢"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+	tip = "幽蝶之夢：10秒內未進行任何攻擊進入睡眠狀態，每隔2秒出現蝴蝶隨機消除場上的1個妖怪"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+	tip = "主動技能:剎那永恆"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+	tip = "剎那永恆：5秒內，場上所有妖怪大幅減速"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+	tip = "被動技能:巫女之佑"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+	tip = "巫女之佑：消除帶有緩速和倒退效果的的妖怪後獲得的buff持續時間增加"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
+	tip = "主動技能:風雷之刃"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+	tip = "風雷之刃：消除角色前方扇形區域內的所有妖怪，並獲得對應的基礎分數獎勵"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+	tip = "被動技能:電光石火"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+	tip = "電光石火：角色每造成1次消除便會減少風雷之刃的冷卻時間0.5秒"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip1 = {
+	tip = "是否消耗1個溫泉手牌<icon name=wenquanshoupai w=0.7 h=0.7/>擴建溫泉?"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip2 = {
+	tip = "溫泉手牌不足~"
+}
+
+_G.pg.base.gametip.jp6th_biaohoushan_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>9.14-10.4/24時</color>期間開啟限時活動「溫泉渡假村」
+活動規則：
+1.活動期間開啟「神秘事件調查」活動，參與活動可獲得限定紀念道具<color=#92fc63>「{namecode:182}的信物」&「{namecode:206}的信物」&「{namecode:18}的信物」</color>、限定傢俱<color=#92fc63>「溫泉青行燈」&「雪女啾」</color>、<color=#92fc63>「外觀裝備箱」</color>在內的豐富獎勵
+2.點擊「啾啾溫泉」可以前往溫泉介面
+3.點擊「限時建造」可以前往建造介面
+4.點擊「換裝商店」可以前往換裝商店介面
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>9.14-10.4/24時</color>期間開啟限時活動「渡假村神秘事件調查」
+活動期間，9月20日為止每日解鎖一幕劇情及遊戲關卡，總計7幕。完成每幕劇情及遊戲關卡可對應獲得<color=#92fc63>外觀裝備箱（常世夜遊）x1、「櫻花符」x150</color>，同時部分關卡還可獲得用於解鎖<color=#92fc63 >「啾啾溫泉」</color>入浴位的<color=#92fc63>「溫泉手牌」</color>；
+活動期間每日增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數,完成全部7幕劇情及遊戲關卡後，可自由選擇任意關卡通關，通關時指揮官若擁有可獲得獎勵的遊玩次數可獲取「櫻花符」x150
+所獲得「櫻花符」可用於「兌換商店」中兌換限定傢俱、定向藍圖·五期等獎勵。
+※在「渡假村神秘事件調查」關卡中，指揮官可選擇包括初月、信濃、由良、島風在內的4位角色進行遊戲，每位角色在關卡中均擁有不同的主動技能與被動技能； 
+※角色信濃、由良、島風需在「兌換商店」中兌換對應信物後解鎖使用；
+※兌換對應信物後在渡假村地圖上會出現<color=#92fc63>「幕間章」</color >，「幕間章」僅可遊玩一次，完成後會從地圖上消失；
+※使用角色完成「任務手冊」中的對應任務，可額外獲得「櫻花符」；
+※7幕完成後在渡假村地圖上會出現<color=#92fc63>「無盡之幕」</color>，可反復挑戰更高檔位的分數以獲取更多「櫻花符」獎勵，每檔分數的獎勵僅可獲取一次。
+「無盡之幕」中每檔分數及對應獎勵：
+最高分數	獎勵
+1500	櫻花符*150
+2500	櫻花符*150
+3500	櫻花符*150
+5000	櫻花符*150
+7000	櫻花符*200
+9000	櫻花符*200
+11000	櫻花符*200
+13000	櫻花符*200]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_time = {
+	tip = "每日0點解鎖新的一幕哦~"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_order = {
+	tip = "完成前一幕後解鎖~"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_pt1 = {
+	tip = "可獲得獎勵的遊玩次數"
+}
+
+_G.pg.base.gametip.launchball_minigame_help = {
+	tip = "小遊戲幫助佔坑"
+}
+
+_G.pg.base.gametip.launchball_minigame_select = {
+	tip = "點擊角色以選中"
+}
+
+_G.pg.base.gametip.launchball_minigame_un_select = {
+	tip = "再次點擊相同角色以取消選中"
+}
+
+_G.pg.base.gametip.launchball_minigame_shop = {
+	tip = "該商品已售罄~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shinano = {
+	tip = "在商店中兌換<color=#92fc63>{namecode:182}</color>的信物後解鎖哦~"
+}
+
+_G.pg.base.gametip.launchball_lock_Yura = {
+	tip = "在商店中兌換<color=#92fc63>{namecode:206}</color>的信物後解鎖哦~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shimakaze = {
+	tip = "在商店中兌換<color=#92fc63>{namecode:18}</color>的信物後解鎖哦~"
+}
+
+_G.pg.base.gametip.launchball_spilt_series = {
+	tip = "連擊消除：達成連續消除可以獲得更高的分數。"
+}
+
+_G.pg.base.gametip.launchball_spilt_mix = {
+	tip = "吸附消除：妖怪隊伍中的缺口兩側顏色一致時，前方的隊伍會被向後吸附，此時達成消除可以獲得更高的分數。"
+}
+
+_G.pg.base.gametip.launchball_spilt_over = {
+	tip = "擦彈消除：使符咒從妖怪隊伍中的缺口處穿過並造成消除可以獲得更高的分數。"
+}
+
+_G.pg.base.gametip.launchball_spilt_many = {
+	tip = "多重消除：一次性達成3個以上妖怪消除可以獲得更高的分數。"
 }

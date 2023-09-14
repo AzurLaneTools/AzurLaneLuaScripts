@@ -1,7 +1,11 @@
 slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY or slot4 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
+	slot3 = getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id)
+
+	assert(slot3)
+
+	if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY or slot4 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
 		slot5, slot6, slot7 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.arg1, slot2.arg2 == 1)
 
 		if not slot5 then
@@ -504,8 +508,28 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			})
 			slot9:updatePlayer(slot10)
 		end
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE and not table.contains(slot3.data1_list, slot1.arg1) then
-		table.insert(slot3.data1_list, slot1.arg1)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE then
+		if not table.contains(slot3.data1_list, slot1.arg1) then
+			table.insert(slot3.data1_list, slot1.arg1)
+		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_ZUMA then
+		if slot1.cmd == 1 then
+			if slot1.arg1 == LaunchBallGameConst.round_type_juqing then
+				slot3.data1 = slot3.data1 + 1
+			elseif slot1.arg1 == 2 then
+				if not slot3.data1_list then
+					slot3.data1_list = {}
+				end
+
+				table.insert(slot3.data1_list, slot1.arg2)
+			elseif slot1.arg1 == 3 then
+				slot3.data2 = slot1.arg2
+			end
+		elseif slot1.cmd == 2 then
+			slot3.data3 = 1
+		end
+
+		getProxy(ActivityProxy):updateActivity(slot3)
 	end
 
 	return slot3
