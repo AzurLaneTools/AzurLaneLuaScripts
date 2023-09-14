@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "风波结束后又过去了数日，温泉度假村已经完全恢复了假日的气息。",
+			say = "風波結束後又過去了數日，溫泉渡假村已經完全恢復了假日的氣息。",
 			bgm = "map-longgong",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "入夜后前往结界内欣赏妖怪剧团的剧目，变成了一项在绝大多数同伴中备受好评的活动。",
+			say = "入夜後前往結界內欣賞妖怪劇團的劇目，變成了一項在絕大多數同伴中備受好評的活動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,19 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "然而，在某个清晨，假日办公桌上出现了这样一份文件——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_516",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……《度假村神秘事件调查报告》，布里斯托尔撰写。",
+			say = "然而，在某個清晨，假日辦公桌上出現了這樣一份文件——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +47,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我们栖身在愚昧无知的封闭岛屿上，全然不知祂已悄然降临……」",
+			say = "……《渡假村神秘事件調查報告》，布里斯托爾撰寫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +59,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，在狂风暴雪的阴影里，白色的雪变得不再是雪……」",
+			say = "「……我們棲身在愚昧無知的封閉島嶼上，全然不知祂已悄然降臨……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +71,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，在肮脏的海水中，不可名状的海怪正疯狂吞噬着扭曲的同类……」",
+			say = "「……我看見，在狂風暴雪的陰影裡，白色的雪變得不再是雪……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +83,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，暴雨之后，天空露出怪异的微笑。黑影们舞蹈着、扭曲着，渐渐吞噬了唯一的火光……」",
+			say = "「……我看見，在骯髒的海水中，不可名狀的海怪正瘋狂吞噬著扭曲的同類……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +95,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……平凡人类的法则、思维，在这里一切都没有意义……」",
+			say = "「……我看見，暴雨之後，天空露出怪異的微笑。黑影們舞蹈著、扭曲著，漸漸吞噬了唯一的火光……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +107,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我本不应前行，我本早该掉头折返，但我依然在前行，在探寻，在见证……」",
+			say = "「……平凡人類的法則、思維，在這裡一切都沒有意義……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +119,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……这些由无数伟大与奥秘所混合而成的禁忌奇迹……」",
+			say = "「……我本不應前行，我本早該掉頭折返，但我依然在前行，在探尋，在見證……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,18 +131,30 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "附带：《调查小组检讨书》4份，基洛夫、萨拉托加监制。",
+			say = "「……這些由無數偉大與奧秘所混合而成的禁忌奇蹟……」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_516",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "附帶：《調查小組報告書》4份，基洛夫、薩拉托加監製。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是什么……？",
+					content = "這是什麼……？",
 					flag = 1
 				},
 				{
-					content = "将整份报告书锁进档案柜最深处。",
+					content = "將整份報告書鎖進檔案櫃最深處。",
 					flag = 2
 				}
 			}
@@ -163,11 +163,11 @@ return {
 			actor = 312010,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "纯路人喵",
+			factiontag = "純路人喵",
 			dir = 1,
 			blackBg = true,
 			hidePaintObj = true,
-			say = "《度假村神秘事件调查》——全剧终喵~",
+			say = "《渡假村神秘事件調查》——全劇終喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1552,7 +1552,7 @@ pg.player_resource = {
 	},
 	[40935] = {
 		id = 40935,
-		name = "tw_2022yaoqing2",
+		name = "tw_2023yaoqing",
 		itemid = 80035
 	},
 	get_id_list_by_name = {
@@ -2486,7 +2486,7 @@ pg.player_resource = {
 		skinTicket40934 = {
 			40934
 		},
-		tw_2022yaoqing2 = {
+		tw_2023yaoqing = {
 			40935
 		}
 	},

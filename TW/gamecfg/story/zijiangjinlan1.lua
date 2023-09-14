@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "——此处乃重樱圣地，尊贵之人所处的居所。",
+			say = "——此處乃重櫻聖地，尊貴之人所處的居所。",
 			bgm = "story-mayrain",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "宏伟城池的天守阁中，黑发的丽人正独自眺望着远方。",
+			say = "宏偉城池的天守閣中，黑髮的麗人正獨自眺望著遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "晨曦透过薄雾落在她的身上，于木质的地板上落下纤长的淡影。",
+			say = "晨曦透過薄霧落在她的身上，於木質的地板上落下纖長的淡影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "远方的黑云依稀可见。在将至的风暴前，喧嚣的生灵已然噤声。此方世界，只余下一片无风的静籁。",
+			say = "遠方的黑雲依稀可見。在將至的風暴前，喧囂的生靈已然噤聲。此方世界，只餘下一片無風的靜籟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 900330,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "结界内部不会受到影响……外部，怕是要落花纷飞了。",
+			say = "結界內部不會受到影響……外部，怕是要落花紛飛了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "就在黑发丽人感慨之时，身边不远处传来一阵鸟鸣声。",
+			say = "就在黑髮麗人感慨之時，身邊不遠處傳來一陣鳥鳴聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 900330,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "燕子？是在寻找避雨之处么。",
+			say = "燕子？是在尋找避雨之處嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "黑发丽人向燕子伸出手，那燕子竟然真的抖动着翅膀落到了她的指尖之上。",
+			say = "黑髮麗人向燕子伸出手，那燕子竟然真的抖動翅膀落在了她的指尖上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 900330,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "在吾这里感受到了安全感所以贴过来了么，你这没戒心的小家伙……",
+			say = "在吾這裡感受到了安全感所以貼過來了嗎，你這沒戒心的小傢伙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 900330,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "现正值季节迭换之时，晴雨更替可谓常态。不早做打算，在风暴到来前才临时寻找避难所可不行哦。",
+			say = "現正值季節迭換之時，晴雨更替可謂常態。不早做打算，在風暴到來前才臨時尋找避難所可不行哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 900330,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "这守望远方的天守阁，可不是给你这样迷路的小家伙避雨用的，知道么？",
+			say = "這守望遠方的天守閣，可不是給你這樣迷路的小傢伙避雨用的，知道嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "作为对于丽人话语的回应，燕子似乎点了点头，然后继续在丽人的手中安心梳理着羽毛。",
+			say = "作為對於麗人話語的回應，燕子似乎點了點頭，然後繼續在麗人的手中安心梳理著羽毛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……方今之时，细雨纷飞五月天。",
+			say = "……方今之時，細雨紛飛五月天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#a020f0",
-			say = "{namecode:84}大人……这句连歌，稍微有些危险哦。",
+			say = "武藏大人……這句連歌，稍微有些危險哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "丽人之名乃为{namecode:84}，重樱之中地位最为尊贵的{namecode:83}级之一，理应掌管重樱的军事内政，身居高位之人。",
+			say = "麗人之名乃為武藏，重櫻之中地位最為尊貴的大和級之一，理應掌管重櫻的軍事內政，身居高位之人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "在这间绝无第二人的房间中，另一个女性的声音从某处凭空传来了。",
+			say = "在這間絕無第二人的房間中，另一個女性的聲音從某處憑空傳來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "呵呵，只是一句应景的感慨罢了。客人已经来了么？",
+			say = "呵呵，只是一句應景的感慨罷了。客人已經來了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#a020f0",
-			say = "即将接近结界外围，休息时间差不多该结束了，咳咳咳……",
+			say = "即將接近結界外圍，休息時間差不多該結束了，咳咳咳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "空荡的房间再度恢复沉寂。{namecode:84}轻轻摆了摆手，燕子也随即飞起，而后消失在窗外。",
+			say = "空蕩的房間再度恢復沉寂。武藏輕輕擺了擺手，燕子也隨即飛起，消失在窗外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "敲门声————",
+			say = "敲門聲————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，打扰了。现在{namecode:91}大人一行已经穿过了结界，{namecode:225}正在为她们引路。",
+			say = "武藏大人，打擾了。現在赤城大人一行已經穿過了結界，若月正在為她們引路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "我知道了。你也去会客室接待吧，我随后就到。",
+			say = "我知道了。妳也去會客室接待吧，我隨後就到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:84}大人。",
+			say = "遵命，武藏大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "……{namecode:91}，汝居然会如此心急。",
+			say = "……赤城，汝居然會如此心急。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "城内的屋檐皆可作为避雨之所……",
+			say = "城內的屋簷皆可作為避雨之所……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "小家伙，倘若风雨过后还能飞翔，还是尽快去往远方吧——",
+			say = "小傢伙，倘若風雨過後還能飛翔，還是盡快去往遠方吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,19 +433,19 @@ return {
 			bgm = "story-maystorm",
 			sequence = {
 				{
-					"「此世非常栖之所」",
+					"「此世非常棲之所」",
 					1
 				},
 				{
-					"「浮生之迅疾微细，尤胜草间白露、水中孤月」",
+					"「浮生之迅疾微細，尤勝草間白露、水中孤月」",
 					2
 				},
 				{
-					"「咏花之人，为无常之风所诱，荣华之梦早休」",
+					"「詠花之人，為無常之風所誘，榮華之夢早休」",
 					3
 				},
 				{
-					"「弄月之辈，为有为之云所蔽，先于明月而逝」",
+					"「弄月之輩，為有為之雲所蔽，先於明月而逝」",
 					4
 				},
 				{
@@ -453,11 +453,11 @@ return {
 					5
 				},
 				{
-					"「比之于化天，乃如梦幻泡影」",
+					"「比之於化天，乃如夢幻泡影」",
 					6
 				},
 				{
-					"「一度得生者，岂有不灭者乎？」",
+					"「一度得生者，豈有不滅者乎？」",
 					7
 				}
 			}

@@ -235478,7 +235478,7 @@ _G.pg.base.task_data_template[80434] = {
 }
 
 _G.pg.base.task_data_template[80435] = {
-	name = "台服【四周年】邀请者可获得PT：30",
+	name = "邀請者可獲得PT：30",
 	guild_coin_award = 0,
 	award = 300614,
 	type = 26,
@@ -235516,7 +235516,7 @@ _G.pg.base.task_data_template[80435] = {
 }
 
 _G.pg.base.task_data_template[80436] = {
-	name = "台服【四周年】邀请者可获得PT：30",
+	name = "邀請者可獲得PT：30",
 	guild_coin_award = 0,
 	award = 300615,
 	type = 26,
@@ -235605,7 +235605,7 @@ _G.pg.base.task_data_template[80436] = {
 }
 
 _G.pg.base.task_data_template[80437] = {
-	name = "台服【四周年】邀请者可获得PT：30",
+	name = "邀請者可獲得PT：30",
 	guild_coin_award = 0,
 	award = 300616,
 	type = 26,
@@ -235643,7 +235643,7 @@ _G.pg.base.task_data_template[80437] = {
 }
 
 _G.pg.base.task_data_template[80438] = {
-	name = "台服【四周年】邀请者可获得PT：30",
+	name = "邀請者可獲得PT：30",
 	guild_coin_award = 0,
 	award = 300617,
 	type = 26,
@@ -235732,7 +235732,7 @@ _G.pg.base.task_data_template[80438] = {
 }
 
 _G.pg.base.task_data_template[80439] = {
-	name = "台服【四周年】邀请者可获得PT：25",
+	name = "邀請者可獲得PT：25",
 	guild_coin_award = 0,
 	award = 300618,
 	type = 26,
@@ -235770,7 +235770,7 @@ _G.pg.base.task_data_template[80439] = {
 }
 
 _G.pg.base.task_data_template[80440] = {
-	name = "台服【四周年】邀请者可获得PT：25",
+	name = "邀請者可獲得PT：25",
 	guild_coin_award = 0,
 	award = 300619,
 	type = 26,
@@ -235859,7 +235859,7 @@ _G.pg.base.task_data_template[80440] = {
 }
 
 _G.pg.base.task_data_template[80441] = {
-	name = "台服【四周年】邀请者可获得PT：25",
+	name = "邀請者可獲得PT：25",
 	guild_coin_award = 0,
 	award = 300620,
 	type = 26,
@@ -235897,7 +235897,7 @@ _G.pg.base.task_data_template[80441] = {
 }
 
 _G.pg.base.task_data_template[80442] = {
-	name = "台服【四周年】邀请者可获得PT：25",
+	name = "邀請者可獲得PT：25",
 	guild_coin_award = 0,
 	award = 300621,
 	type = 26,
@@ -235986,7 +235986,7 @@ _G.pg.base.task_data_template[80442] = {
 }
 
 _G.pg.base.task_data_template[80443] = {
-	name = "台服【四周年】邀请者可获得PT：20",
+	name = "邀請者可獲得PT：20",
 	guild_coin_award = 0,
 	award = 300622,
 	type = 26,
@@ -236024,7 +236024,7 @@ _G.pg.base.task_data_template[80443] = {
 }
 
 _G.pg.base.task_data_template[80444] = {
-	name = "台服【四周年】邀请者可获得PT：20",
+	name = "邀請者可獲得PT：20",
 	guild_coin_award = 0,
 	award = 300623,
 	type = 26,
@@ -236113,7 +236113,7 @@ _G.pg.base.task_data_template[80444] = {
 }
 
 _G.pg.base.task_data_template[80445] = {
-	name = "台服【四周年】邀请者可获得PT：20",
+	name = "邀請者可獲得PT：20",
 	guild_coin_award = 0,
 	award = 300624,
 	type = 26,
@@ -236151,7 +236151,7 @@ _G.pg.base.task_data_template[80445] = {
 }
 
 _G.pg.base.task_data_template[80446] = {
-	name = "台服【四周年】邀请者可获得PT：20",
+	name = "邀請者可獲得PT：20",
 	guild_coin_award = 0,
 	award = 300625,
 	type = 26,
@@ -236240,7 +236240,7 @@ _G.pg.base.task_data_template[80446] = {
 }
 
 _G.pg.base.task_data_template[80447] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300626,
 	type = 26,
@@ -236278,7 +236278,7 @@ _G.pg.base.task_data_template[80447] = {
 }
 
 _G.pg.base.task_data_template[80448] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300627,
 	type = 26,
@@ -236367,7 +236367,7 @@ _G.pg.base.task_data_template[80448] = {
 }
 
 _G.pg.base.task_data_template[80449] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300628,
 	type = 26,
@@ -236405,7 +236405,7 @@ _G.pg.base.task_data_template[80449] = {
 }
 
 _G.pg.base.task_data_template[80450] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300629,
 	type = 26,
@@ -236494,7 +236494,7 @@ _G.pg.base.task_data_template[80450] = {
 }
 
 _G.pg.base.task_data_template[80451] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300630,
 	type = 26,
@@ -236532,7 +236532,7 @@ _G.pg.base.task_data_template[80451] = {
 }
 
 _G.pg.base.task_data_template[80452] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300631,
 	type = 26,
@@ -236621,7 +236621,7 @@ _G.pg.base.task_data_template[80452] = {
 }
 
 _G.pg.base.task_data_template[80453] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300632,
 	type = 26,
@@ -236659,7 +236659,7 @@ _G.pg.base.task_data_template[80453] = {
 }
 
 _G.pg.base.task_data_template[80454] = {
-	name = "台服【四周年】邀请者可获得PT：15",
+	name = "邀請者可獲得PT：15",
 	guild_coin_award = 0,
 	award = 300633,
 	type = 26,
@@ -236748,7 +236748,7 @@ _G.pg.base.task_data_template[80454] = {
 }
 
 _G.pg.base.task_data_template[80455] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300634,
 	type = 26,
@@ -236786,7 +236786,7 @@ _G.pg.base.task_data_template[80455] = {
 }
 
 _G.pg.base.task_data_template[80456] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300635,
 	type = 26,
@@ -236875,7 +236875,7 @@ _G.pg.base.task_data_template[80456] = {
 }
 
 _G.pg.base.task_data_template[80457] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300636,
 	type = 26,
@@ -236913,7 +236913,7 @@ _G.pg.base.task_data_template[80457] = {
 }
 
 _G.pg.base.task_data_template[80458] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300637,
 	type = 26,
@@ -237002,7 +237002,7 @@ _G.pg.base.task_data_template[80458] = {
 }
 
 _G.pg.base.task_data_template[80459] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300638,
 	type = 26,
@@ -237040,7 +237040,7 @@ _G.pg.base.task_data_template[80459] = {
 }
 
 _G.pg.base.task_data_template[80460] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300639,
 	type = 26,
@@ -237129,7 +237129,7 @@ _G.pg.base.task_data_template[80460] = {
 }
 
 _G.pg.base.task_data_template[80461] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300640,
 	type = 26,
@@ -237167,7 +237167,7 @@ _G.pg.base.task_data_template[80461] = {
 }
 
 _G.pg.base.task_data_template[80462] = {
-	name = "台服【四周年】邀请者可获得PT：10",
+	name = "邀請者可獲得PT：10",
 	guild_coin_award = 0,
 	award = 300641,
 	type = 26,

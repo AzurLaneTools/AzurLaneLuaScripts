@@ -20,6 +20,10 @@ function slot0.getUIName(slot0)
 	return LaunchBallGameVo.game_ui
 end
 
+function slot0.getBGM(slot0)
+	return LaunchBallGameVo.game_bgm
+end
+
 function slot0.didEnter(slot0)
 	if not LaunchBallGameVo.gameRoundData then
 		LaunchBallGameVo.initRoundData(3, 1)

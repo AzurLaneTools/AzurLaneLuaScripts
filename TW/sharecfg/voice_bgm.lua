@@ -105,7 +105,7 @@ pg.voice_bgm = {
 	NewMainScene = {
 		default_bgm = "main",
 		special_bgm = "",
-		time = "stop",
+		time = "",
 		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
@@ -755,5 +755,53 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-designshipVI"
+	},
+	SixthAnniversaryJPScene = {
+		default_bgm = "cw-level",
+		special_bgm = "",
+		time = "",
+		bgm = "cw-level"
+	},
+	SixthAnniversaryJPHotSpringScene = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "bar-soft"
+	},
+	YunXianMainPage = {
+		default_bgm = "theme-unzen",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-unzen"
+	},
+	ChaoZhiPtPage = {
+		default_bgm = "theme-sakuraholyplace",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-sakuraholyplace"
+	},
+	SkinMagazinePage1 = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	JapanSixthLoginPage = {
+		default_bgm = "bgm-story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "bgm-story-musicanniversary-gorgeous"
+	},
+	SixInvitePage = {
+		default_bgm = "qe-ova-15",
+		special_bgm = "",
+		time = "",
+		bgm = "qe-ova-15"
+	},
+	SixthAnniversaryJPDarkScene = {
+		default_bgm = "map-longgong",
+		special_bgm = "",
+		time = "",
+		bgm = "map-longgong"
 	}
 }

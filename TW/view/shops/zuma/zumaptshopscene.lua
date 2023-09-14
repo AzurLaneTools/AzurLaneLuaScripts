@@ -4,6 +4,10 @@ function slot0.getUIName(slot0)
 	return "ZumaPTShopUI"
 end
 
+function slot0.getBGM(slot0)
+	return "cw-story"
+end
+
 function slot0.init(slot0)
 	slot0:initData()
 	slot0:findUI()

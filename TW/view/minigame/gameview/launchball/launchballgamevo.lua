@@ -3,7 +3,7 @@ slot0.game_id = nil
 slot0.hub_id = nil
 slot0.total_times = nil
 slot0.drop = nil
-slot0.game_bgm = "bar-soft"
+slot0.game_bgm = "cw-story"
 slot0.game_time = 60000
 slot0.rule_tip = "launchball_minigame_help"
 slot0.frameRate = Application.targetFrameRate or 60
@@ -12,6 +12,9 @@ slot0.game_ui = "LaunchBallGameUI"
 slot0.SFX_COUNT_DOWN = "event:/ui/ddldaoshu2"
 slot0.launchball_minigame_select = "launchball_minigame_select"
 slot0.launchball_minigame_un_select = "launchball_minigame_un_select"
+slot0.SFX_PRESS_SKILL = "ui-maoudamashii"
+slot0.SFX_FIRE = "ui-mini_throw"
+slot0.SFX_ENEMY_REMOVE = "ui-mini_pigu"
 slot0.enemyToEndRate = nil
 slot0.gameTime = 0
 slot0.gameStepTime = 0
@@ -153,23 +156,27 @@ function slot0.GetBuff(slot0)
 	return nil
 end
 
-function slot0.GetScore(slot0, slot1, slot2)
-	slot3 = 0
-	slot3 = slot0 * uv0.base_score
+function slot0.GetScore(slot0, slot1, slot2, slot3)
+	slot4 = 0
+	slot4 = slot0 * uv0.base_score
+
+	if slot3 and slot3 > 0 then
+		slot4 = slot4 + slot3 * uv0.base_score
+	end
 
 	if slot2 then
-		slot3 = slot3 + uv0.base_score
+		slot4 = slot4 + uv0.base_score
 	end
 
 	if slot0 > 3 then
-		slot3 = slot3 + (slot0 - 3) * 10
+		slot4 = slot4 + (slot0 - 3) * 10
 	end
 
 	if slot1 > 1 then
-		slot3 = slot3 + (slot1 - 1) * uv0.series_score
+		slot4 = slot4 + (slot1 - 1) * uv0.series_score
 	end
 
-	return slot3
+	return slot4
 end
 
 function slot0.Sign(slot0, slot1, slot2)

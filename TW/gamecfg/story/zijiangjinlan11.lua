@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg7",
 			stopbgm = true,
-			say = "大棋盘·{namecode:74}控制区 第三回合",
+			say = "大棋盤·長門控制區第三回合",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这雾，碍事。",
+			say = "……這霧，礙事。",
 			effects = {
 				{
 					active = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这种只对舰载机有利的事件，明显是前辈弄出来的……",
+			say = "呵呵呵，這種只對艦載機有利的事件，明顯是前輩弄出來的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然我也不会受影响，不过单靠我一个人实在势单力薄，如果{namecode:96}在就好了。",
+			say = "雖然我也不會受影響，不過單靠我一個人實在勢單力薄，如果瑞鶴在就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "回想起来，{namecode:96}会被临时调走正是因为收到了{namecode:84}大人的命令。",
+			say = "回想起來，瑞鶴會被臨時調走正是因為收到了武藏大人的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}大人难道从那时开始就开始算计了么？！",
+			say = "武藏大人難道從那時開始就開始計算了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不至于吧，只是一盘棋而已……为了在一盘游戏上取得优势而特意准备作战任务，也太小家子气了。",
+			say = "不至於吧，只是一盤棋而已……為了在一盤遊戲上取得優勢而特意準備作戰任務，也太小家子氣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "说的也是~与前辈不同，{namecode:84}大人可不是这么小家子气的人。",
+			say = "說的也是~與前輩不同，武藏大人可不是這麼小家子氣的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可是这样也改变不了我们处在困境中的现实哦。",
+			say = "可是這樣也改變不了我們處在困境中的現實哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "确实战况不妙……我和{namecode:72}都是战列舰，原本这回合就可以彻底关闭与{namecode:84}大人的边界通道的。",
+			say = "確實戰況不妙……我和榛名都是戰列艦，原本這回合就可以徹底關閉與武藏大人的邊界通道的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "现在由于海雾的影响，恐怕需要非常好的运气才能做到了。",
+			say = "現在由於海霧的影響，恐怕需要非常好的運氣才能做到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信汝等都看到突然出现的海雾了，鉴于现状，吾必须要改变原定的作战计划。",
+			say = "相信汝等都看到突然出現的海霧了，鑑於現狀，吾必須要改變原定的作戰計劃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "本回合放弃进攻与{namecode:84}区域相邻的边界据点GH56。",
+			say = "本回合放棄進攻與武藏區域相鄰的邊界據點GH56。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:72}进入上回合攻下的据点IJ56，{namecode:71}移动至I5，保持对于{namecode:84}的压力。",
+			say = "榛名進入上回合攻下的據點IJ56，比叡移動至I5，保持對於武藏的壓力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:158}移动至H5，{namecode:157}移动至G5，防范{namecode:84}可能的入侵行动。",
+			say = "江風移動至H5，春月移動至G5，防範武藏可能的入侵行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:95}就近进入IJ12据点控制区I2。",
+			say = "翔鶴就近進入IJ12據點控制區I2。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾将上回合利用「荣耀之传承」获得的额外行动分配与汝，并使用新的指挥卡为汝提高伤害。",
+			say = "吾將上回合利用「榮耀之傳承」獲得的額外行動分配與汝，並使用新的指揮卡為汝提高傷害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "汝一人配合量产型，将小据点IJ12拿下，以上。",
+			say = "汝一人配合量產型，將小據點IJ12拿下，以上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg7",
 			hidePaintObj = true,
-			say = "{namecode:74}的话语结束后，{namecode:95}身上瞬间被两种光芒所覆盖。",
+			say = "長門的話語結束後，翔鶴身上瞬間被兩種光芒所覆蓋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哇哦……上回合{namecode:157}失去的行动力加在{namecode:95}身上了！",
+			say = "哇哦……上回合春月失去的行動力加在翔鶴身上了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不止如此，{namecode:74}大人还使用指挥卡「总旗舰之令」大幅度提高了{namecode:95}的伤害！",
+			say = "不止如此，長門大人還使用指揮卡「總旗艦之令」大幅度提高了翔鶴的傷害！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如此奇妙的感觉……这些难道不应该只是演习规则的设定么……",
+			say = "如此奇妙的感覺……這些難道不應該只是演習規則的設定嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "为什么我感觉此刻，自身正充盈着力量……",
+			say = "為什麼我感覺此刻，自身正充盈著力量……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "以现在的状态，一个人拿下一座据点感觉也绝非不可能的事，放心交给我吧！",
+			say = "一個人拿下一座據點感覺也絕非不可能的事，放心交給我吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

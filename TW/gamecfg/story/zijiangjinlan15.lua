@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg9",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第四回合 稍早之前——",
+			say = "大棋盤·赤城控制區第四回合稍早之前——",
 			bgm = "battle-againstfate",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个区域据点的构建者……也太强了吧！怪不得{namecode:84}大人打了整整三回合才打下来！",
+			say = "這個區域據點的構建者……也太強了吧！怪不得武藏大人打了整整三回合才打下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜啊……又一支量产型舰队被消灭了，再这么下去就需要让侍从来吃反击伤害了啊……",
+			say = "嗚啊……又一支量產型艦隊被消滅了，再這麼下去就需要讓侍從來吃反擊傷害了啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这可不好……重甲防御的战列舰只有我一个人！如果要是选人去挨打肯定是我！",
+			say = "這可不好……重甲防禦的戰列艦只有我一個人！如果要是選人去挨打肯定是我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:79}……冷静一点，据点已经被{namecode:91}解决了哦。",
+			say = "山城……冷靜一點，據點已經被赤城解決了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸……？开玩笑的吧……什么情况？",
+			say = "欸……？開玩笑的吧……什麼情況？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			say = "{namecode:79}抬起头望向远方，{namecode:91}正静静地站立在远方不久前还属于构建者的位置上。",
+			say = "山城抬起頭望向遠方，赤城正靜靜地站立在遠方不久前還屬於構建者的位置上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			say = "她的身边是尚未消散的彼岸花花瓣，四周是未燃尽的火焰，而不久前还在耀武扬威的构建者已经消失了。",
+			say = "她的身邊是尚未消散的彼岸花花瓣，四周是未燃盡的火焰，而不久前還在耀武揚威的構建者已經消失了。",
 			effects = {
 				{
 					active = true,
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欢迎来到大棋盘，姐姐。",
+			say = "歡迎來到大棋盤，姐姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在看到天空中出现赤红色火焰的时候我就知道你要来了，会客室的情况如何？",
+			say = "在看到天空中出現赤紅色火焰的時候我就知道妳要來了，會客室的情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沉闷无趣，所以我才来这里透透气。",
+			say = "沉悶無趣，所以我才來這裡透透氣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}前辈，请问刚刚究竟发生了什么事……？",
+			say = "赤城前輩，請問剛剛究竟發生了什麼事……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们刚才在和这里的构建者战斗的时候应该发现了，它的护盾和装甲对于各种类型的武器都有很好的抵抗效果。",
+			say = "妳們剛才在和這裡的構建者戰鬥的時候應該發現了，它的護盾和裝甲對於各種類型的武器都有很好的抵抗效果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过对于非常规方式出现的杀伤，抵抗能力就很弱，比如基于我的入场所带来的特殊伤害。",
+			say = "不過對於非常規方式出現的殺傷，抵抗能力就很弱，比如基於我的入場所帶來的特殊傷害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "利用这一点就很容易把她收拾掉。",
+			say = "利用這一點就很容易把她收拾掉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然「猩红绽放」在设定的时候是在场外停留的回合越多，伤害越高。",
+			say = "雖然「猩紅綻放」在設定的時候是在場外停留的回合越多，傷害越高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过也没必要一直等下去，时机比效果更重要，差不多刚刚好就行了。",
+			say = "不過也沒必要一直等下去，時機比效果更重要，差不多剛剛好就行了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不愧是{namecode:91}前辈，对战场上的每一个细节都牢记在心！",
+			say = "原來如此……不愧是赤城前輩，對戰場上的每一個細節都牢記在心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我对这次棋局也是认真的哦。",
+			say = "我對這次棋局也是認真的哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过构建者啊……真没想到没过多久居然在这里又见到了。",
+			say = "不過構建者啊……真沒想到沒過多久居然在這裡又見到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就算主机被干掉了，量产机还是能照常生产出来么……",
+			say = "就算主機被幹掉了，量產機還是能照常生產出來嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}，你真是太厉害了，居然亲手解决了战斗！我还以为你铁定要把我推进去抗伤害了呢！",
+			say = "赤城，妳真是太厲害了，居然親手解決了戰鬥！我還以為妳鐵定要把我推進去抗傷害了呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么会呢？这种区域据点还不到需要消耗主力的时候。越往后，量产型舰队就越没用，优先把这些消耗掉才是。",
+			say = "怎麼會呢？這種區域據點還不到需要消耗主力的時候。越往後，量產型艦隊就越沒用，優先把這些消耗掉才是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于你，后面还有更重要的地方需要你去呢。",
+			say = "至於妳，後面有有更重要的地方需要妳去呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "额？更、更重要的地方是指……？",
+			say = "呃？更、更重要的地方是指……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，热身到这里差不多就该结束了。",
+			say = "呵呵，熱身到這裡差不多就該結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈趁着我们打据点的时候，偷偷封锁了我们的边界，现在是时候去给她造成点困扰了。",
+			say = "大前輩趁著我們打據點的時候，偷偷封鎖了我們的邊界，現在是時候去給她造成點困擾了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:5}{namecode:39}，穿越中心区域进攻{namecode:74}大人与大前辈之间的边界节点，伺机切断她们两家的联系。",
+			say = "深雪神通，穿越中心區域進攻長門大人與大前輩之間的邊界節點，伺機切斷她們兩家的聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hideOther = true,
 			actorName = "{namecode:39}&{namecode:5}",
 			side = 0,
-			say = "了解。\n遵命……{namecode:91}大人！",
+			say = "了解。\n遵命……{namecode:91}大人！ 遵命……赤城大人！",
 			subActors = {
 				{
 					actor = 301040,
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "至于{namecode:79}的话，因为身负阻止大前辈向中心推进的重任，就这样直接前往中心区域内待机吧。",
+			say = "至於山城的話，因為身負阻止大前輩向中心推進的重任，就這樣直接前往中心區域內待機吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜啊…………果然变成这样了！我就知道我把自己的技能全部设置成保命系是对的！",
+			say = "嗚啊…………果然變成這樣了！我就知道我把自己的技能全部設置成保命系是對的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说不定正因为{namecode:79}有这些设定，{namecode:91}前辈才会把你派去危险的地方哟？",
+			say = "說不定正因為山城有這些設定，赤城前輩才會把妳派去危險的地方哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！是这样么……我是想着{namecode:91}肯定会派我去危险的地方，所以才设计了保命系技能啊……",
+			say = "欸？！是這樣嗎……我是想著赤城肯定會派我去危險的地方，所以才設計了保命系技能啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，从某种意义上来说，{namecode:79}和{namecode:91}前辈的相性也非常好呢~",
+			say = "呵呵，從某種意義上來說，山城和赤城前輩的相性也非常好呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}前辈，切断大前辈与中心据点的作战也让我与{namecode:79}同去吧，不知道在那边会遇到什么危险，两个人也可以相互照料一下。",
+			say = "赤城前輩，切斷大前輩與中心據點的作戰也讓我與山城同去吧，不知道在那邊會遇到什麼危險，兩個人也可以相互照料一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……虽然停留在中心区域时会受到额外减益，在回合结束后也有被攻击的概率……",
+			say = "嗯……雖然停留在中心區域中會受到額外減益，在回合結束也有被攻擊的機率……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你的提案也有道理，两个人要是都进去大前辈想要接触中心据点就没戏了。没问题，{namecode:179}你也去吧。",
+			say = "不過妳的提案也有道理，兩個人要是都進去大前輩想要接觸中心據點就沒戲了。沒問題，龍鳳妳也去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:91}前辈。",
+			say = "遵命，赤城前輩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，我可是好好利用了一把你的「变革之路」哦。那么，接下来你会如何应对呢，亲爱的大.前.辈？",
+			say = "呵呵，我可是好好利用了一把妳的「變革之路」哦。接下來妳會如何應對呢，大前輩？",
 			painting = {
 				alpha = 0.3,
 				time = 1

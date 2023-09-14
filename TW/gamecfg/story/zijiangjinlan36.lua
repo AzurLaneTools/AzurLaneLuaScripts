@@ -12,7 +12,7 @@ return {
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "帕克菲克洋·铁血浮岛要塞",
+			say = "太平洋·鐵血浮島要塞",
 			bgm = "battle-midgard-hunting",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……就是这里了吧。之前那次镜面海域生成设施不是被破坏了么，没想到又重新修好了啊……不愧是铁血。",
+			say = "呼……就是這裡了吧。之前那次鏡面海域生成設施不是被破壞了嗎，沒想到又重新修好了啊……不愧是鐵血。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "请出示身份证明————",
+			say = "請出示身份證明————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱航空母舰{namecode:96}，前来进行外交访问。验证编码为————",
+			say = "重櫻航空母艦瑞鶴，前來進行外交訪問。驗證編碼為————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,19 +87,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
-			say = "{namecode:96}面对空无一物的水面，对着突然从通讯器中响起的声音报上了身份与识别码。",
+			say = "瑞鶴面對空無一物的水面，對著突然從通訊器中響起的聲音報上了身份與識別碼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "身份已验证成功，欢迎您的来访，{namecode:96}小姐。",
+			say = "身份已驗證成功，歡迎您的來訪，瑞鶴小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "在验明身份获得进入许可后，巨大的铁血浮岛要塞随即出现在眼前。",
+			say = "在驗明身份獲得進入許可後，巨大的鐵血浮島要塞隨即出現在眼前。",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………这也是某种全新设计……？此前的镜面海域并没有这种东西啊……",
+			say = "…………這也是某種全新設計……？此前的鏡面海域並沒有這種東西啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要知道具体位置不论什么人都能进来……镜面海域不就是这种东西么？",
+			say = "只要知道具體位置不論什麼人都能進來……鏡面海域不就是這種東西嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到设计了某种进入认证，是为了防止再被塞壬渗透进来么……",
+			say = "沒想到設計了某種進入認證，是為了防止再被塞壬滲透進來嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "{namecode:96}一边思考着，一边穿梭在要塞巨大的构件之中。",
+			say = "瑞鶴一邊思考著，一邊穿梭在要塞巨大的構件之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "虽是故地重游，但她还是惊讶地发现，映入眼中的风景相比于上次到访已经发生了翻天覆地的变化。",
+			say = "雖是故地重遊，但她還是驚訝地發現，映入眼中的風景相比於上次到訪已經發生了翻天覆地的變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "一路上，除了各处或是宣示警戒或是协助导航的语音，{namecode:96}没有碰到任何一个人。",
+			say = "一路上，除了各處或是宣示警戒或是協助導航的語音，瑞鶴沒有碰到任何一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,24 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "所见之处只有在自动化运行的各类工厂设施，以及在设备间穿梭的，不知由何人操控的量产型。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "有种好奇怪的感觉……上次来的时候这里还是训练场，现在已经变成某种巨型生产基地了么……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "所見之處只有在自動化運行的各類工廠設施，以及在設備間穿梭的，不知由何人操控的量產型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……怎么会一个人都没有。",
+			say = "有種好奇怪的感覺……上次來的時候這裡還是訓練場，現在已經變成某種巨型生產基地了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "铁血要塞虽然历来都有种阴森的气氛，但是今天这个……格外阴森啊。",
+			say = "而且……怎麼會一個人都沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,46 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………如果不是身负{namecode:84}大人的正式命令，我真想掉头回去…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			say = "跟随着通讯器中没有任何感情的机械音，{namecode:96}最终来到了一处高塔前，这里似乎是铁血要塞的核心位置。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			say = "而在高塔之前，{namecode:96}在一个如同入口雕塑的设施上发现了一个似曾相识的“物件”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "镶嵌在其中的……难道是“海若”？",
+			say = "鐵血要塞雖然歷來都有種陰森的氣氛，但是今天這個……格外陰森啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +286,46 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对不对……海若不是早就跟随{namecode:182}大人的舰队返回本土了么，大前辈也是这么说的肯定错不了。",
+			say = "…………如果不是身負武藏大人的正式命令，我真想掉頭回去…………",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			say = "跟隨著通訊器中沒有任何感情的機械音，瑞鶴最終來到了一處高塔前，這裡似乎是鐵血要塞的核心位置。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			say = "而在高塔之前，瑞鶴在一個如同入口雕塑的設施上發現了一個似曾相識的\"物件\"。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "鑲嵌在其中的……難道是\"海若\"？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +342,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那这个究竟是什么东西……？",
+			say = "不對不對……海若不是早就跟隨信濃大人的艦隊返回本土了嗎，大前輩也是這麼說的肯定錯不了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "那這個究竟是什麼東西……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
-			say = "{namecode:96}走到近处，仔细观察着面前被镶嵌入机械结构的“神石”状物体。",
+			say = "瑞鶴走到近處，仔細觀察著面前被鑲嵌入機械結構的\"神石\"狀物體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "尺寸不对，颜色不对形状也不对……好奇怪，刚刚我为什么第一眼会把它当成海若呢？",
+			say = "尺寸不對，顏色不對形狀也不對……好奇怪，剛剛我為什麼第一眼會把它當成海若呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎你的到来，{namecode:96}小姐。",
+			say = "歡迎妳的到來，瑞鶴小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,24 +417,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一旁突然出现在空气中的影像打断了{namecode:96}的沉思。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "您是……铁血的{namecode:435}？！",
+			say = "一旁突然出現在空氣中的影像打斷了瑞鶴的沉思。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前在对战构建者的决战时，从广播中听闻您的身体已经康复的消息，真是令人无比振奋。",
+			say = "您是……鐵血的俾斯麥？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过据我所知，在{namecode:440}走后您现在应该接过了铁血的领导权，应该位于铁血本土才对……",
+			say = "之前在對戰構建者的決戰時，從廣播中聽聞您的身體已經康復的消息，真是令人無比振奮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么您现在会出现在这里？！",
+			say = "不過據我所知，在腓特烈大帝走後您現在應該接過了鐵血的領導權，應該位於鐵血本土才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……我面前这个镶嵌在装置中的物体究竟是？",
+			say = "為什麼您現在會出現在這裡？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +502,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它和我们的神石海若之间有什么关系么？",
+			say = "而且……我面前這個鑲嵌在裝置中的物體究竟是？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_fuxiangxian_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "它和我們的神石海若之間有什麼關係嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，你一次问的问题太多了，{namecode:96}小姐。",
+			say = "呵呵，妳一次問的問題太多了，瑞鶴小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……非常抱歉，一下子稍微有点震惊就……",
+			say = "啊……非常抱歉，一下子稍微有點震驚就……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "没关系，总之进来聊吧。",
+			say = "沒關係，總之進來聊吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我相信你有很多问题，而在你完成任务返回重樱之前，我有很长时间可以替你解答呢————",
+			say = "我相信妳有很多問題，而在妳完成任務返回重櫻之前，我有很長時間可以替妳解答呢————",
 			painting = {
 				alpha = 0.3,
 				time = 1

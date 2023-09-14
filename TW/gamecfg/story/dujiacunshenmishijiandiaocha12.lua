@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>番外篇：动如脱兔！</size>",
+					"渡假村神秘事件調查\n\n<size=45>番外篇：動如脫兔！</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "这是在正式演出开始前发生的，某一幕故事的后续——",
+			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "stopbgm",
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "温泉度假村·？？？",
+			say = "溫泉渡假村·？？？",
 			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然……奇怪的飞行物又出现了！",
+			say = "果然……奇怪的飛行物又出現了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,11 +87,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:175}阁下你快看前面！",
+			say = "……駿河閣下妳快看前面！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,12 +105,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！{namecode:175}阁下————！",
+			say = "咦？！駿河閣下————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "少女环顾四周，可并没有发现{namecode:175}的身影。",
+			say = "少女環顧四周，但並沒有發現駿河的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,12 +135,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟、糟糕……{namecode:18}跑得太快把{namecode:175}阁下落在身后了！",
+			say = "糟、糟糕……島風跑得太快把駿河閣下落在身後了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,12 +152,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！！！好忙啊好忙啊~喂！你！那边的兔子小姐！",
+			say = "啊！！！好忙啊好忙啊~喂！妳！那邊的兔子小姐！",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -173,12 +173,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是你！演出马上就要开始了，你怎么还在这里磨蹭？",
+			say = "就是妳！演出馬上就要開始了，妳怎麼還在這裡拖拖拉拉？",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -196,11 +196,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？是在喊{namecode:18}么？",
+			say = "……咦？是在喊島風嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,12 +212,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然啊，这里除了你还有第二只兔子么！",
+			say = "當然啊，這裡除了妳還有第二隻兔子嗎！",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -233,12 +233,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快去前面通知河童，告诉它演出就要开始了！",
+			say = "快去前面通知河童，告訴它演出就要開始了！",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -254,12 +254,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还得去通知其他妖怪！啊~忙死了~忙死了~",
+			say = "我還得去通知其他妖怪！啊~忙死了~忙死了~",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -305,12 +305,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "飞得好快……？！",
+			say = "飛得好快……？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,12 +324,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~论速度，{namecode:18}也不会输哦！",
+			say = "哼哼~論速度，島風也不會輸哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,12 +343,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:18}，全速前进——！",
+			say = "島風，全速前進——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,10 +371,10 @@ return {
 			side = 2,
 			actorName = "河童",
 			bgName = "bg_village_in",
-			factiontag = "为了不再怕人……",
+			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……演出时间……收到……",
+			say = "……演出時間……收到……",
 			icon = {
 				scale = 8,
 				image = "Props/story_hetong",
@@ -409,10 +409,10 @@ return {
 			side = 2,
 			actorName = "河童",
 			bgName = "bg_village_in",
-			factiontag = "为了不再怕人……",
+			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……接下来……请去通知……雪女……",
+			say = "……接下來……請去通知……雪女……",
 			icon = {
 				scale = 8,
 				image = "Props/story_hetong",
@@ -430,12 +430,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸？！还要去通知雪女是么！",
+			say = "……欸？！還要去通知雪女是嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,12 +449,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白了！{namecode:18}，再次全速前进——！",
+			say = "明白了！島風，再次全速前進——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,10 +478,10 @@ return {
 			side = 2,
 			actorName = "雪女",
 			bgName = "bg_village_in",
-			factiontag = "雪女作战中",
+			factiontag = "雪女作戰中",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，真是可爱的小兔子~多谢你来通知我。",
+			say = "哎呀，真是可愛的小兔子~多謝妳來通知我。",
 			icon = {
 				scale = 8,
 				image = "Props/story_xuenv",
@@ -516,10 +516,10 @@ return {
 			side = 2,
 			actorName = "雪女",
 			bgName = "bg_village_in",
-			factiontag = "雪女作战中",
+			factiontag = "雪女作戰中",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来能拜托你去通知鸦天狗么？",
+			say = "接下來能拜託妳去通知自稱小生的老者嗎？",
 			icon = {
 				scale = 8,
 				image = "Props/story_xuenv",
@@ -537,12 +537,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白了！{namecode:18}，再次全速前进——！",
+			say = "明白了！島風，再次全速前進——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,12 +554,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢你赶来通知，接下来是————",
+			say = "多謝妳趕來通知，接下來是————",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -594,12 +594,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了！{namecode:18}，再次全速前进——！",
+			say = "明白了！島風，再次全速前進——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,12 +621,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，小生还没说让你去找谁呢！！",
+			say = "等等，小生還沒說讓妳去找誰呢！！",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -644,11 +644,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……呼……呼…………终于全部通知完了！",
+			say = "呼……呼……呼…………終於全部通知完了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,12 +679,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妖怪剧团的演出啊……真是令人期待！",
+			say = "妖怪劇團的演出啊……真是令人期待！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,12 +698,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇怪，{namecode:18}总感觉似乎忘记了什么重要的事……",
+			say = "奇怪，島風總感覺似乎忘記了什麼重要的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,12 +717,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊——哇啊啊啊！！{namecode:18}把寻找{namecode:175}阁下的事忘到天边了！！！",
+			say = "啊——哇啊啊啊！！島風把尋找駿河閣下的事忘到天邊了！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,9 +744,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "經常壞的通訊器",
 			bgName = "bg_village_in",
-			factiontag = "经常坏的通讯器",
+			factiontag = "經常壞的經常壞的通訊器",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "滴————",
@@ -764,7 +764,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:18}，能听到么？",
+			say = "島風，能聽到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,12 +778,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜啊啊！{namecode:175}阁下！！你平安无事真是太好了！！！",
+			say = "嗚啊啊！駿河閣下！！妳平安無事真是太好了！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……发生什么事了么？",
+			say = "……發生什麼事了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,12 +847,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没什么，没什么！什么事都没有哦！",
+			say = "沒什麼，沒什麼！什麼事都沒有哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,7 +892,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我和{namecode:182}大人正在剧场会客室与妖怪剧团的剧团长协商一些事情。",
+			say = "我和信濃大人正在劇場會客室與妖怪劇團的劇團長協商一些事情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你现在能赶过来么？",
+			say = "妳現在能趕過來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,12 +926,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是{namecode:182}大人！已经收服妖怪剧团了吗！",
+			say = "不愧是信濃大人！已經收服妖怪劇團了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,7 +951,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……也不算收服，更像是合作准备惊喜之类的吧。",
+			say = "呃……也不算收服，更像是合作準備驚喜之類的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，你过来以后就知道了。",
+			say = "總之，妳過來以後就知道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -985,12 +985,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和妖怪剧团一起准备惊喜么……好有趣！",
+			say = "和妖怪劇團一起準備驚喜嗎……好有趣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,11 +1004,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官和其他同伴们一定会喜欢的！！",
+			say = "指揮官和其他同伴們一定會喜歡的！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1022,12 +1022,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "其疾如風！",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:175}阁下稍等，{namecode:18}这就来与你汇合！",
+			say = "妳現在能趕過來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1051,7 +1051,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "此时的少女们并不知道——",
+			say = "此時的少女們並不知道——",
 			effects = {
 				{
 					active = false,
@@ -1085,7 +1085,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "她们所准备的惊喜，在不久的将来会变成一份“惊吓”，狠狠地砸在同伴们的身上——！",
+			say = "她們所準備的驚喜，在不久的將來會變成一份“驚嚇”，狠狠地砸在同伴們的身上——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

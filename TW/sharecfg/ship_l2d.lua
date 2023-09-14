@@ -2891,7 +2891,6 @@ pg.ship_l2d = {
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
-		action_trigger = "",
 		revert = -1,
 		ignore_action = 1,
 		react_pos_x = 0,
@@ -2906,6 +2905,10 @@ pg.ship_l2d = {
 		range = {
 			0,
 			1
+		},
+		action_trigger = {
+			target = 1,
+			type = 2
 		}
 	},
 	[3190133] = {
@@ -3366,7 +3369,7 @@ pg.ship_l2d = {
 	},
 	[3990521] = {
 		draw_able_name = "TouchDrag1",
-		offset_x = 0,
+		offset_x = 99999,
 		gyro_y = 0,
 		action_trigger_active = "",
 		drag_direct = 1,
@@ -3429,7 +3432,7 @@ pg.ship_l2d = {
 	},
 	[3990523] = {
 		draw_able_name = "TouchDrag3",
-		offset_x = 0,
+		offset_x = 99999,
 		gyro_y = 0,
 		action_trigger_active = "",
 		drag_direct = 2,
@@ -3462,7 +3465,7 @@ pg.ship_l2d = {
 	},
 	[3990524] = {
 		draw_able_name = "TouchDrag4",
-		offset_x = 0,
+		offset_x = 99999,
 		gyro_y = 0,
 		action_trigger_active = "",
 		drag_direct = 2,

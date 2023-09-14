@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg4",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "与此同时的会客室中——",
+			say = "與此同時的會客室中——",
 			bgm = "theme-musashi-inside",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}大人的打法，完全变成以稳为主了。",
+			say = "長門大人的打法，完全變成以穩為主了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "刚刚摆出的阵型里透露出一种绝不想损失任何一名侍从的气势呢。",
+			say = "剛剛擺出的陣型裡透露出一種絕不想損失任何一名侍從的氣勢呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如此在意坛坛罐罐，对于下棋来说不是好选择，应该也与你之前的计划不同吧？",
+			say = "如此在意規矩制度，對於下棋來說不是好選擇，應該也與妳之前的計劃不同吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "唉……计划总是赶不上变化。事情既然已经发生了，也只能接受，然后思考下一步对策了。",
+			say = "唉……計劃總是趕不上變化。事情既然已經發生了，也只能接受，然後思考下一步對策了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "不过{namecode:84}大人，我帮助{namecode:74}不仅仅是因为我与她的合作关系，更重要的是我想帮助她。",
+			say = "不過武藏大人，我幫助長門不僅僅是因為我與她的合作關係，更重要的是我想幫助她。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "原来如此，那{namecode:74}大人原本想要的那个边界据点我就收下了哦？",
+			say = "原來如此，那長門大人原本想要的那個邊界據點我就收下了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}大人真是出手毫不留情呢。",
+			say = "武藏大人真是出手毫不留情呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "棋场亦如战场，过分的仁慈乃是毒药。",
+			say = "棋場亦如戰場，過分的仁慈乃是毒藥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这一点你与{namecode:74}大人不同，反而与我很像。你在对待{namecode:91}大人上也没怎么留情面吧。",
+			say = "這一點妳與長門大人不同，反而與我很像。妳在對待赤城大人上也沒怎麼留情面吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "此刻，你把{namecode:91}大人堵在中心，是想看她下一步怎么做吧？",
+			say = "此刻，妳把赤城大人堵在中心，是想看她下一步怎麼做吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "是承受损失强攻中心据点呢，还是就此放弃攻势退出中心——",
+			say = "是承受損失強攻中心據點呢，還是就此放棄攻勢退出中心——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我更愿意称这个策略为稳健，不论如何，选择权都在{namecode:91}自己手里。",
+			say = "我更願意稱這個策略為穩健，不論如何，選擇權都在赤城自己手裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "一处落后，处处落后。主动放弃主动权之人将永远也无法取得先机，你不担心么？",
+			say = "一處落後，處處落後。主動放棄主動權之人將永遠也無法取得先機，妳不擔心嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:91}进攻犀利，但是为人心浮气躁。如此下去，其部署必出混乱，我等待的就是那个时机。",
+			say = "赤城進攻犀利，但是為人心浮氣躁。如此下去，其部署必出混亂，我等待的就是那個時機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}身边也拥有着一批优秀的人才辅佐哦，要是你想要的那个机会一直不来呢？",
+			say = "赤城身邊也擁有這一批優秀的人才輔佐哦，要是妳想要的那個機會一直不來呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这批优秀的人才之中，也包括您本人么？",
+			say = "這批優秀的人才之中，也包括您本人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "就现状而言，你觉得呢？",
+			say = "就現狀而言，妳覺得呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……至少现阶段，我还等得起。",
+			say = "……至少現階段，我還等得起。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:84}",
 			stopbgm = true,
-			say = "呵呵，吾只是稍微试探一下，汝之心就乱了。",
+			say = "呵呵，吾只是稍微試探一下，汝之心就亂了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "提问吧，{namecode:82}，汝是带着问题来的吧。",
+			say = "提問吧，三笠，汝是帶著問題來的吧。",
 			bgm = "theme-musashi-outside",
 			painting = {
 				alpha = 0.3,
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "真是什么都瞒不过您。其实有几件事我怎么也想不明白。",
+			say = "真是什麼都瞞不過您。其實有幾件事我怎麼也想不明白。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "您为什么要让{namecode:182}去欧罗巴筹备博览会，然后让{namecode:96}去再次出访铁血呢？",
+			say = "您為什麼要讓信濃去歐羅巴籌備博覽會，然後讓瑞鶴再次去出訪鐵血呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这两次调动感觉都有些太过匆忙了。",
+			say = "這兩次調動感覺都有些太過匆忙了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你认为这些都是我为了让她们二人远离重樱本土而特意做出的部署？",
+			say = "妳認為這些都是我為了讓她們二人遠離重櫻本土而特意做出的部署？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "除此之外还有什么缘由么？",
+			say = "除此之外還有什麼緣由嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:182}的身份适合去一个远离重樱本土的地方代表重樱进行行动，{namecode:96}则是因为那个地方她之前去过一次，人熟地也熟。",
+			say = "信濃的身份適合去一個遠離重櫻本土的地方代表重櫻進行行動，瑞鶴則是因為那個地方她之前去過一次，人熟地也熟。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "很遗憾，这两件事单纯只是吾觉得合适罢了，仅此而已。",
+			say = "很遺憾，這兩件事單純只是吾覺得合適罷了，僅此而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "那理应跟随{namecode:182}一起返回天岩岛的海若呢？——她从铁血要塞运回来的东西其实就是海若吧？",
+			say = "那理應跟隨信濃一起返回天岩島的海若呢？——她從鐵血要塞運回來的東西其實就是海若吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "然后运载其的运输队在划归您指挥之后就下落不明了，它现在被送去了哪里？",
+			say = "然後運載其的運輸隊在歸您指揮之後就下落不明了，它現在被送去了哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "因为出现了先前在天宇启户祭上你我皆知的情况，现在海若被送到了一处更加安全的地方保管起来了。",
+			say = "因為出現了先前在天宇啟戶祭上妳我皆知的情況，現在海若被送到了一處更加安全的地方保管起來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……那您知道神石的本质是什么么？根据我的调查，涉及到神石的记录大多都有遭到篡改的痕迹。",
+			say = "……那您知道神石的本質是什麼嗎？根據我的調查，涉及到神石的紀錄大多都有遭到篡改的痕跡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我怀疑神石其存在的本身就跟众多突然出现的“圣域”一样，是由塞壬制造并留下的某种危险物品。",
+			say = "我懷疑神石其存在的本身就跟眾多突然出現的\"聖域\"一樣，是由塞壬製造並留下的某種危險物品。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这个猜测倒是十分有趣……只是很遗憾，这件事上我知道的情报和你一样多。",
+			say = "這個猜測倒是十分有趣……只是很遺憾，這件事上我知道的情報和妳一樣多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "与塞壬合作的事一直是{namecode:91}主导的，我只是在她需要的时候给予她全力支持罢了。",
+			say = "與塞壬合作的事一直是赤城主導的，我只是在她需要的時候給予她全力支持罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}，你知道{namecode:91}真正想要做的事是什么么？",
+			say = "武藏，妳知道赤城真正想要做的事是什麼嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这件事你心中已经隐约有了答案，又何必来问我呢。",
+			say = "這件事妳心中已經隱約有了答案，又何必來問我呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "………………为了这件事就要如烈火一般燃尽整个重樱么？我绝对不允许这样的事发生！",
+			say = "………………為了這件事就要如烈火一般燃盡整個重櫻嗎？我絕對不允許這樣的事發生！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "凭借什么而“不允许”呢？",
+			say = "憑藉什麼而\"不允許\"呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}通过与塞壬合作，为重樱带来了繁荣与强盛，也因此，她现在拥有重樱高层的全力支持，当然我的支持也包含在内。",
+			say = "赤城通過與塞壬合作，為重櫻帶來了繁榮與強盛，也因此，她現在擁有重櫻高層的全力支持，當然我的支持也包含在內。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你呢？",
+			say = "妳呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "在加入了{namecode:440}的作战之后，{namecode:91}应该已经惹怒了塞壬，接下来她们之间想必无法再继续合作了吧。",
+			say = "在加入了腓特烈大帝的作戰之後，赤城應該已經惹怒了塞壬，接下來她們之間想必無法再繼續合作了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "是么？那为何塞壬到现在都没有进行猛烈的报复行动？",
+			say = "是嗎？那為何塞壬到現在都沒有進行猛烈的報復行動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你以为，{namecode:91}能拥有如此权势的原因是什么？因为她与{namecode:161}的关系，或者因为她带来的塞壬技术？",
+			say = "妳以為，赤城能擁有如此權勢的原因是什麼？因為她與天城的關係，或者因為她帶來的塞壬技術？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "亦或是，整个重樱高层所有人都受到了{namecode:91}蒙骗？",
+			say = "亦或是，整個重櫻高層所有人都受到了赤城矇騙？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "皆非，如同{namecode:440}改变了铁血命运的轨迹一般，她为重樱带来的是命运的改变。",
+			say = "皆非，如同腓特烈大帝改變了鐵血命運的軌跡一般，她為重櫻帶來的是命運的改變。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "也因此，她获得了带领重樱前进的权利。",
+			say = "也因此，她獲得了帶領重櫻前進的權利。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "命运的改变……？",
+			say = "命運的改變……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,7 +844,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，假设你明天就要迎来生命的终结，你的亲朋好友也将面临相同的命运，你会做什么？",
+			say = "三笠，假設妳明天就要迎來生命的終結，妳的親朋好友也將面臨相同的命運，妳會做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……早一天知道就可以早一天做准备，我将用尽全力与这样的明天抗争。",
+			say = "……早一天知道就可以早一天做準備，我將用盡全力與這樣的明天抗爭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}就是在做这样的事。",
+			say = "赤城就是在做這樣的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如果你想要纠正她，那首先要真正了解她所做的一切。",
+			say = "如果妳想要糾正她，那首先要真正了解她所做的一切。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你知道塞壬手中的“既定剧本”么？",
+			say = "妳知道塞壬手中的\"既定劇本\"嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "既定剧本……？",
+			say = "既定劇本……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你应该听{namecode:96}说了吧，之前在构建者那里看到的“幻象”。",
+			say = "妳應該聽瑞鶴說了吧，之前在構建者那裡看到的\"幻象\"。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "……那些，并不只是单纯的幻象而已。构建者称其为记录，其实是名副其实的。",
+			say = "……那些，並不只是單純的幻象而已。構建者稱其為紀錄，其實是名副其實的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:92}会死于企业之手，{namecode:91}会在被企业重伤后自沉，{namecode:182}会死于{namecode:196}之手。",
+			say = "加賀會死於企業之手，赤城會在被企業重傷後自沉，信濃會死於射水魚之手。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾与{namecode:83}会淹没在埃塞克斯级舰载机的海洋中，{namecode:74}则会与{namecode:427}以及那个白鹰的萨拉托加手挽手消失在{namecode:96}所见的白光下。",
+			say = "吾與大和會淹沒在艾塞克斯級艦載機的海洋中，長門則會與歐根親王以及那個白鷹的薩拉托加手挽手消失在瑞鶴所見的白光下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你想要迎来这样的结局么？",
+			say = "妳想要迎來這樣的結局嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "当然不想！",
+			say = "當然不想！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}也不想。虽然并非她的主要目标，但她依然确保让这个记录成为了对我们而言没有任何意义的“幻象”。",
+			say = "赤城也不想。雖然並非她的主要目標，但她依然確保讓紀錄成為了對我們而言沒有任何意義的紀錄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然后，吾这里还有另一份记录。",
+			say = "然後，吾這裡還有另一份紀錄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "在这份记录中，{namecode:91}与{namecode:92}为了保护同伴而先后牺牲，紧接着是吾与{namecode:83}。",
+			say = "在這份紀錄中，赤城與加賀為了保護同伴而先後犧牲，緊接著是吾與大和。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝死在了争取援军的路上。{namecode:182}亲眼看着最后的同伴一个个在身边倒下，最后也淹没在无尽的潮水中。",
+			say = "汝死在了爭取援軍的路上。信濃親眼看著最後的同伴一個個在身邊倒下，最後也淹沒在無盡的潮水中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这个版本的记录你觉得好些了么？",
+			say = "這個版本的紀錄妳覺得好些了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "不……也不够好。",
+			say = "不……也不夠好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,7 +1155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾也如此觉得，也因此，吾等想要确保这个记录也能够成为对于我们而言没有任何意义的“幻象”。",
+			say = "吾也如此覺得，也因此，吾等想要確保這個紀錄也能夠成為對於我們而言沒有任何意義的\"幻象\"！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1172,7 +1172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，你的目标是高尚的，行动是正派的。",
+			say = "三笠，妳的目標是高尚的，行動是正派的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然，行正义者，易困顿于荆棘。此事犹如身负千钧之重，行万里之路，如无力量，寸步难行。",
+			say = "然，行正義者，易困頓於荊棘。此事猶如身負千鈞之重，行萬里之路，如無力量，寸步難行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1206,7 +1206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝如何能够让吾等相信，汝就能做的更好？",
+			say = "汝如何能夠讓吾等相信，汝就能做的更好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1223,7 +1223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}大人…………………",
+			say = "武藏大人…………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,7 +1240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "……这是吾等对于你的提问。",
+			say = "……這是吾等對於妳的提問。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1257,7 +1257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "但，并非是今日需要你在此处当场回答的提问。",
+			say = "但，並非今日需要妳在此處當場回答的提問。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1274,7 +1274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "本日相聚的目的在于下棋，现在还是着眼于棋盘吧。",
+			say = "本日相聚的目的在於下棋，現在還是著眼於棋盤吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}大人，让其他人等太久可不好哦？",
+			say = "三笠大人，讓其他人等太久可不好哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1

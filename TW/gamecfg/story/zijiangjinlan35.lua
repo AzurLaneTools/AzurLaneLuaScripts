@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg0",
 			stopbgm = true,
-			say = "翌日，万里晴空。天气晴朗到好像昨日的怪异天气完全不曾存在过。",
+			say = "翌日，萬里晴空。天氣晴朗到好像昨日的怪異天氣完全不曾存在過。",
 			bgm = "story-mayrain",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔啊……天变的好快。",
+			say = "唔啊……天變的好快。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "昨天一片漆黑雷雨大作，从棋盘里出来之后我都没太分清楚是不是真的出来了……",
+			say = "昨天一片漆黑雷雨大作，從棋盤裡出來之後我都沒太分清楚是不是真的出來了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这里的天气有时候就是会这样呢，不过本日是晴空万里就好，各位回去路上也能顺顺利利了。",
+			say = "這裡的天氣有時候就是會這樣呢，不過本日是晴空萬里就好，各位回去路上也能順順利利了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是啊，真是天公作美~那么大前辈，{namecode:74}大人，还有{namecode:84}大人，我们就先告辞了。",
+			say = "是啊，真是天公作美~那麼大前輩，長門大人，還有武藏大人，我們就先告辭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，有空常来玩哦。",
+			say = "嗯，有空常來玩哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}大人，怎么本日告别的时候没见到{namecode:91}和{namecode:92}啊，取得了胜利之后这么低调可不像她们的风格。",
+			say = "武藏大人，怎麼本日告別的時候沒見到赤城和加賀啊，取得了勝利之後這麼低調可不像她們的風格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这件事……好像昨夜出现了什么突发情况，她们两位收到消息后就连夜离开了。",
+			say = "關於這件事……好像昨夜出現了什麼突發情況，她們兩位收到消息後就連夜離開了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然冒着大雨连夜离开……？希望没出什么大事才好。",
+			say = "居然冒著大雨連夜離開……？希望沒出什麼大事才好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……可惜{namecode:91}大人走得十分匆忙，我也不清楚具体发生了什么情况。",
+			say = "是啊……可惜赤城大人走得十分匆忙，我也不清楚具體發生了情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}大人和{namecode:74}大人要在我这里住一阵么？",
+			say = "三笠大人和長門大人要在我這裡住一陣嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了棋盘之外，我这里还有不少有趣的游戏哦。",
+			say = "除了棋盤之外，我這裡還有不少有趣的遊戲哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢您的好意，不过您事务繁忙，我们就不便继续打扰了。",
+			say = "多謝您的好意，不過您事務繁忙，我們就不便繼續打擾了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 900330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样啊……哦对了，{namecode:74}大人，之前说的量产型性能测试一事，等我准备好了之后会再联系你的。",
+			say = "這樣啊……哦對了，長門大人，之前說的量產型性能測試一事，等我準備好了之後會再聯繫妳的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝居然还记得啊……嗯，那就静候汝的联络了。",
+			say = "汝居然還記得啊……嗯，那就靜候汝的聯絡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "告辞了，{namecode:84}。",
+			say = "告辭了，武藏。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉……{namecode:82}，没有按照你在来之前准备好的计划行动。",
+			say = "抱歉……三笠，沒有按照妳在來之前的計劃行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到{namecode:74}大人也对于一盘棋的结果念念不忘啊？",
+			say = "沒想到長門大人也對於一盤棋的結果念念不忘啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不是赢了之后{namecode:84}就会回答汝的问题么，要是吾早些知道——",
+			say = "不是贏了之後武藏就會回答汝的問題嗎，要是吾早些知道——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "——打住，不要为没发生的事苦恼了。答案只是“可能”会有而已。",
+			say = "——打住，不要為沒發生的事苦惱了。答案只是\"可能\"會有而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我有种预感，只有首先回答出她提出来的问题，之后才能得到她真正的答案。",
+			say = "我有種預感，只有首先回答出她提出來的問題，之後才能得到她真正的答案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}提到的剧本，海若的下落，御神木如今的用途……",
+			say = "武藏提到的劇本，海若的下落，御神木如今的用途……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不首先把这些都搞清楚，我们可回答不出她提出的问题啊。",
+			say = "不首先把這些都搞清楚，我們可回答不出她提出的問題啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽败，但是收获颇丰，可以这么看么？",
+			say = "雖敗，但是收穫頗豐，可以這麼看嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯~走吧，我们也该回去筹备下一步的行动计划了————",
+			say = "嗯~走吧，我們也該回去籌備下一步的行動計劃了————",
 			painting = {
 				alpha = 0.3,
 				time = 1

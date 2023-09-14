@@ -4083,7 +4083,7 @@ pg.base.transform_data_template = {
 	},
 	[3501] = {
 		use_gold = 300,
-		name = "舰体改良I",
+		name = "艦體改良I",
 		star_limit = 2,
 		id = 3501,
 		max_level = 1,
@@ -4115,14 +4115,14 @@ pg.base.transform_data_template = {
 	},
 	[3502] = {
 		use_gold = 400,
-		name = "装填强化I",
+		name = "裝填強化I",
 		star_limit = 2,
 		id = 3502,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 5,
-		descrip = "装填+5",
+		descrip = "裝填+5",
 		icon = "rl_1",
 		skill_id = 0,
 		condition_id = {
@@ -4149,14 +4149,14 @@ pg.base.transform_data_template = {
 	},
 	[3503] = {
 		use_gold = 600,
-		name = "鱼雷改良I",
+		name = "魚雷改良I",
 		star_limit = 3,
 		id = 3503,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 20,
-		descrip = "鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%",
 		icon = "tpup_1",
 		skill_id = 0,
 		condition_id = {
@@ -4183,14 +4183,14 @@ pg.base.transform_data_template = {
 	},
 	[3504] = {
 		use_gold = 800,
-		name = "雷击强化I",
+		name = "雷擊強化I",
 		star_limit = 3,
 		id = 3504,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 25,
-		descrip = "雷击+10",
+		descrip = "雷擊+10",
 		icon = "tp_1",
 		skill_id = 0,
 		condition_id = {
@@ -4251,7 +4251,7 @@ pg.base.transform_data_template = {
 	},
 	[3506] = {
 		use_gold = 1200,
-		name = "防空强化I",
+		name = "防空強化I",
 		star_limit = 4,
 		id = 3506,
 		max_level = 1,
@@ -4285,7 +4285,7 @@ pg.base.transform_data_template = {
 	},
 	[3507] = {
 		use_gold = 1500,
-		name = "舰体改良II",
+		name = "艦體改良II",
 		star_limit = 4,
 		id = 3507,
 		max_level = 2,
@@ -4329,14 +4329,14 @@ pg.base.transform_data_template = {
 	},
 	[3508] = {
 		use_gold = 3000,
-		name = "雷击强化II",
+		name = "雷擊強化II",
 		star_limit = 4,
 		id = 3508,
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 55,
-		descrip = "雷击+15/雷击+25",
+		descrip = "雷擊+15/雷擊+25",
 		icon = "tp_2",
 		skill_id = 0,
 		condition_id = {
@@ -4417,7 +4417,7 @@ pg.base.transform_data_template = {
 	},
 	[3510] = {
 		use_gold = 2500,
-		name = "防空强化II",
+		name = "防空強化II",
 		star_limit = 5,
 		id = 3510,
 		max_level = 2,
@@ -4470,10 +4470,10 @@ pg.base.transform_data_template = {
 		use_ship = 1,
 		level_limit = 85,
 		descrip = [[
-近代化改造完成，反潜+30，防空+15
-改造后<color=#92fc63>【主炮底座+1】</color>
-<color=#92fc63>【战争之殇】</color>技能将升级为<color=#92fc63>【战争之殇·改】</color>
-<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射III】</color>]],
+近代化改造完成，反潛+30，防空+15
+改造後<color=#92fc63>【主炮底座+1】</color>
+<color=#92fc63>【戰爭之殤】</color>技能升級为<color=#92fc63>【戰爭之殤·改】</color>
+<color=#92fc63>【全彈發射II】</color>技能將升級為<color=#92fc63>【全彈發射III】</color>]],
 		icon = "mt_blue",
 		skill_id = 0,
 		condition_id = {
@@ -13662,7 +13662,7 @@ pg.base.transform_data_template = {
 	},
 	[12001] = {
 		use_gold = 300,
-		name = "舰体改良I",
+		name = "艦體改良I",
 		star_limit = 2,
 		id = 12001,
 		max_level = 1,
@@ -13694,14 +13694,14 @@ pg.base.transform_data_template = {
 	},
 	[12002] = {
 		use_gold = 400,
-		name = "装填强化I",
+		name = "裝填強化I",
 		star_limit = 2,
 		id = 12002,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 5,
-		descrip = "装填+5",
+		descrip = "裝填+5",
 		icon = "rl_1",
 		skill_id = 0,
 		condition_id = {
@@ -13762,14 +13762,14 @@ pg.base.transform_data_template = {
 	},
 	[12004] = {
 		use_gold = 800,
-		name = "炮击强化I",
+		name = "炮擊強化I",
 		star_limit = 3,
 		id = 12004,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 25,
-		descrip = "炮击+10",
+		descrip = "炮擊+10",
 		icon = "cn_1",
 		skill_id = 0,
 		condition_id = {
@@ -13796,14 +13796,14 @@ pg.base.transform_data_template = {
 	},
 	[12005] = {
 		use_gold = 1000,
-		name = "鱼雷改良I",
+		name = "魚雷改良I",
 		star_limit = 4,
 		id = 12005,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 35,
-		descrip = "鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%",
 		icon = "tpup_1",
 		skill_id = 0,
 		condition_id = {
@@ -13830,14 +13830,14 @@ pg.base.transform_data_template = {
 	},
 	[12006] = {
 		use_gold = 1200,
-		name = "雷击强化I",
+		name = "雷擊強化I",
 		star_limit = 4,
 		id = 12006,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 40,
-		descrip = "雷击+10",
+		descrip = "雷擊+10",
 		icon = "tp_1",
 		skill_id = 0,
 		condition_id = {
@@ -13864,7 +13864,7 @@ pg.base.transform_data_template = {
 	},
 	[12007] = {
 		use_gold = 1500,
-		name = "舰体改良II",
+		name = "艦體改良II",
 		star_limit = 4,
 		id = 12007,
 		max_level = 2,
@@ -13908,14 +13908,14 @@ pg.base.transform_data_template = {
 	},
 	[12008] = {
 		use_gold = 1800,
-		name = "战术启发",
+		name = "戰術啟發",
 		star_limit = 4,
 		id = 12008,
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 55,
-		descrip = "习得技能【炮术指挥·先锋】",
+		descrip = "習得技能【炮術指揮·先鋒】",
 		icon = "skill_red",
 		skill_id = 1004,
 		condition_id = {
@@ -13986,14 +13986,14 @@ pg.base.transform_data_template = {
 	},
 	[12010] = {
 		use_gold = 2500,
-		name = "炮击强化II",
+		name = "炮擊強化II",
 		star_limit = 5,
 		id = 12010,
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
 		level_limit = 75,
-		descrip = "炮击+5/炮击+15",
+		descrip = "炮擊+5/炮擊+15",
 		icon = "cn_2",
 		skill_id = 0,
 		condition_id = {
@@ -14038,7 +14038,7 @@ pg.base.transform_data_template = {
 		skin_id = 203029,
 		use_ship = 1,
 		level_limit = 85,
-		descrip = "近代化改造完成，炮击+25，雷击+20\n\n改造后<color=#92fc63>【鱼雷】</color>栏位变更为<color=#92fc63>【副武器】</color>栏位，增加可装备武器类型<color=#92fc63>【副炮】</color>，改造后<color=#92fc63>【副武器】底座-1</color>",
+		descrip = "近代化改造完成，炮擊+25，雷擊+20\n\n改造後<color=#92fc63>【魚雷】</color>欄位變更為<color=#92fc63>【副武器】</color>欄位，增加可裝備武器類型<color=#92fc63>【副炮】</color>，改造後<color=#92fc63>【副武器】底座-1</color>",
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {

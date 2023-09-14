@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg14",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第十回合",
+			say = "大棋盤·赤城控制區第十回合",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			say = "第十回合，以渐暗的天空为标志，事件卡「日蚀」生效了。",
+			say = "第十回合，以漸暗的天空為標誌，事件卡「日蝕」生效了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			say = "上回合事件卡所带来温暖煦风，转眼就被笼罩了整片海域的昏暗与烦闷所取代。",
+			say = "上回合事件卡所帶來溫暖煦風，轉眼就被籠罩了整片海域的昏暗與煩悶所取代。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "第十回合……本回合就是最后一张事件卡了。",
+			say = "第十回合……本回合就是最後一張事件卡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "日蚀……姐姐。你觉得{namecode:84}做这张卡想表达什么呢？",
+			say = "日蝕……姐姐。妳覺得武藏做這張卡想表達什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谁知道呢，我不在乎也不关心，不过这气氛倒是塑造得不错，正适合给这盘棋收尾。",
+			say = "誰知道呢，我不在乎也不關心，不過這氣氛倒是塑造的不錯，正適合為這盤棋收尾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是啊……有种阴森恐怖的气氛，令人毛骨悚然。",
+			say = "是啊……有種陰森恐怖的氣氛，令人毛骨悚然。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚那把从天而降的刀是{namecode:84}大人的指挥卡吧?没想到一整局打法都十分委婉的{namecode:84}大人也准备了那么直接的卡。",
+			say = "剛剛那把從天而降的刀是武藏大人的指揮卡吧?沒想到一整局打法都十分委婉的武藏大人也準備了那麼直接的卡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那张指挥卡的名字叫做「公方之刃」，顾名思义，是专门用来消灭不听话之人的雷霆手段哦。",
+			say = "那張指揮卡的名字叫做「公方之刃」，顧名思義，是專門用來消滅不聽話之人的雷霆手段哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈以为躲过了我这边就一切安全了么，呵呵。",
+			say = "大前輩以為躲過了我這邊就一切安全了嗎，呵呵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:79}，休息得差不多了吧？你现在去E6，为我们铺平进攻的道路。",
+			say = "山城，休息的差不多了吧？妳現在去E6，為我們鋪平進攻的道路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！E6，那不是中心据点的控制区吗？我现在技能都没好，耐久也只恢复了一半，大前辈那边也肯定会一起打过来……",
+			say = "欸？！ E6，那不是中心據點的控制區嗎？我現在技能都沒好，耐久也只恢復了一半，大前輩那邊也肯定會一起打過來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "然后我就要退场了……不妥不妥，要不咱们再等一回合吧，诶嘿嘿~",
+			say = "然後我就要退場了……不妥不妥，要不然我們再等一回合吧，欸嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}前辈，{namecode:79}目前的状态确实不适合继续作战，还是让我去吧。",
+			say = "赤城前輩，山城目前的狀態確實不適合繼續作戰，還是讓我去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正也不是非要{namecode:79}才行，只要有一个人进入据点控制区，我们所有人就都能攻击中心据点了。",
+			say = "反正也不是非要山城才行，只要有一個人進入據點控制區，我們所有人就都能攻擊中心據點了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………这个倒确实是谁都可以。",
+			say = "…………這個倒確實是誰都可以。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐，还是让我去吧。",
+			say = "姐姐，還是讓我去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:92}？你确定么。",
+			say = "……加賀？妳確定嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我计算过了，没问题，不需要让{namecode:179}去冒险。",
+			say = "嗯，我計算過了，沒問題，不需要讓龍鳳去冒險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你的意思我明白。也罢，你去吧。",
+			say = "……妳的意思我明白。也罷，妳去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "其余人，在{namecode:92}到位之后随我一起对赫米忒发动攻击。",
+			say = "其餘人，在加賀到位之後隨我一起對赫米忒發動攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，万事已经具备，让我们进入最后的总攻时刻吧~",
+			say = "呵呵，萬事已經具備，讓我們進入最後的總攻時刻吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

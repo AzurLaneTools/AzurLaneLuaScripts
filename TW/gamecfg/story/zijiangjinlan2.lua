@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "一段时间后，会客室。",
+			say = "一段時間後，會客室。",
 			bgm = "theme-musashi-inside",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}大人，{namecode:74}大人，这边请。",
+			say = "三笠大人，長門大人，這邊請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "推开拉门，映入两位来访者眼中的，是已然等候在桌旁的{namecode:91}与{namecode:84}二人。",
+			say = "推開拉門，映入兩位來訪者眼中的，是已然等候在桌旁的赤城與武藏二人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到今天居然是{namecode:91}先到了，我还以为你肯定要等到最后才姗姗来迟呢。",
+			say = "沒想到今天居然是赤城先到了，我還以為妳肯定要等到最後才姍姍來遲呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "看来从欧罗巴之行中你确实学到了很多啊？",
+			say = "看來從歐羅巴之行中妳確實學到了很多啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "士别三日，就当刮目相看了哦，大前辈。",
+			say = "士別三日，就當刮目相看了哦，大前輩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这么重要的场合，我怎么敢让{namecode:84}大人久等呢？",
+			say = "這麼重要的場合，我怎麼敢讓武藏大人久等呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……抱歉{namecode:84}，让汝久等了。",
+			say = "……抱歉武藏，讓汝久等了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "无妨。我一直在和{namecode:91}大人聊天，几乎没怎么感觉到时间的流逝哦。",
+			say = "無妨。我一直在和赤城大人聊天，幾乎沒怎麼感覺到時間的流逝哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且就时间而言，大家其实都比约定的时间早来了不少。无需介意，请快入座吧。",
+			say = "況且就時間而言，大家其實都比約定的時間早來了不少。無需介意，請快入座吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "{namecode:74}大人，{namecode:82}大人，请用茶。",
+			say = "長門大人，三笠大人，請用茶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "多谢……好香啊。",
+			say = "多謝……好香啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚端上来的这杯花茶有股沁人心脾的芳香，不知是出自何人之手？",
+			say = "剛剛端上來的這杯花茶有股沁人心脾的芳香，不知是出自何人之手？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "呵呵，这些是我之前让{namecode:29}准备的。当然，我也学着做了一点，调制花茶比想象中的还要有趣哦。",
+			say = "呵呵，這些是我之前讓花月準備的。當然，我也學著做了一點，調製花茶比想像還要有趣哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "不知道在我们喝的这壶里，有没有{namecode:84}大人亲手做的呢？",
+			say = "不知道在我們喝的這壺裡，有沒有武藏大人親手做的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "也许有，也许没有。花茶毕竟只是花茶，做好之后将其混在一起可不是那么容易分辨的。",
+			say = "也許有，也許沒有。花茶畢竟只是花茶，做好之後將其混在一起可不是那麼容易分辨的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "或许味道好的是{namecode:29}做的，味道不好的是我做的吧~",
+			say = "或許味道好的是花月做的，味道不好的是我做的吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这可难住我了……我只感受到了一杯好茶，再细微的差别我可分不出来。",
+			say = "這可難住我了……我只感受到了一杯好茶，再細微的差別我可分不出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg1",
 			hidePaintObj = true,
-			say = "就在众人品茶之时，一个由幻影构成的棋盘凭空出现在了桌上的方寸空间之中。",
+			say = "就在眾人品茶之時，一個由幻影構成的棋盤憑空出現在了桌上方的方寸空間之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "终于要进入正题了。",
+			say = "終於要進入正題了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这个难道就是本日对局之棋盘么？没想到竟宛如星空般璀璨……",
+			say = "這個難道就是本日對局之棋盤嗎？沒想到竟宛如星空般璀璨……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "精巧而又复杂……{namecode:84}，这是一个更加复杂结界内部景象的缩影吧。",
+			say = "精巧而又復雜……武藏，這是一個更加複雜結界內部景象的縮影吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "不愧是{namecode:74}大人，一眼就看出了桌上棋盘的本质。",
+			say = "不愧是長門大人，一眼就看出了桌上棋盤的本質。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "没错，诸位在来的路上应该有所感受。",
+			say = "沒錯，諸位在來的路上應該有所感受。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "在此处，正用结界隐藏着一片如同棋盘上所示之景般壮丽的海域，也就是本日棋局真正的大棋盘。",
+			say = "在此處，正用結界隱藏著一片如同棋盤上所示之景般壯麗的海域，也就是本日棋局真正的大棋盤。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "随行诸位而来的侍从们已经在{namecode:226}的带领下进入了其中，相信很快就能就位了。",
+			say = "隨行諸位而來的侍從們已經在酒匂的帶領下進入了其中，相信很快就能就位了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我在路上一直在想，{namecode:84}大人究竟会提供一个怎样的棋盘，才会需要每名棋手带着五名侍从随行呢。",
+			say = "我在路上一直在想，武藏大人究竟會提供一個怎樣的棋盤，才會需要每名棋手帶著五名侍從隨行呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "没想到最后呈现出的竟是这样的形式……",
+			say = "沒想到最後呈現出的竟是這樣的形式……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "邀请函上吾不是写过让汝等尽请期待么？呵呵，本日这场我精心设计的棋局，绝对不会让你们无聊的。",
+			say = "邀請函上吾不是寫過讓汝等盡請期待嗎？呵呵，本日這場我精心設計的棋局，絕對不會讓妳們無聊的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "二位准备的事件卡也都带来了吧？",
+			say = "二位準備的事件卡也都帶來了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "嗯，带来了。用于记录信息的媒介不是普通的纸，而是特殊的金属板。想必这也是有特殊的设计在里面的吧？",
+			say = "嗯，帶來了。用於紀錄訊息的媒介不是普通的紙，而是特殊的金屬板。想必這也是有特殊的設計在裡面的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "那是自然。不论是什么样的场景，只要是在规则架构内设计的事件，都可以在结界内的大棋盘中完美复原出来哦。",
+			say = "那是自然。不論是什麼樣的場景，只要是在規則架構內設計的事件，都可以在結界內的大棋盤中完美復原出來哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "神木之风、天宇启户祭、变革之路、天晴浪高……",
+			say = "神木之風、天宇啟戶祭、變革之路、天晴浪高……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "{namecode:74}大人准备的主要以恢复为主，大前辈准备的则是看似公平，实际上却更偏向对于战列舰的加成呢。",
+			say = "長門大人準備的主要以恢復為主，大前輩準備的則是看似公平，實際上卻更偏向於對戰列艦的加成呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "说起来，大前辈这次带来的侍从里有不少都是战列舰吧？",
+			say = "說起來，大前輩這次帶來的時候，侍從裡有不少都是戰列艦吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我远离前线太久了，叫完老朋友之后不知不觉就变成这样了。不过战列舰的话大家都有，也不能算偏心嘛。",
+			say = "我遠離前線太久了，叫完老朋友之後不知不覺就變成這樣了。不過戰列艦的話大家都有，也不能算偏心嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "吾也可以看一下汝等准备的么？",
+			say = "吾也可以看一下汝等準備的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "当然可以，在对局开始之前事件卡就是要彼此公开的，请看。",
+			say = "當然可以，在對局開始之前事件卡就是要彼此公開的，請看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "多谢。唔嗯……技术革新，海雾弥散……静海惊雷……日蚀。",
+			say = "多謝。唔嗯……技術革新，海霧彌散……靜海驚雷……日蝕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "大多数都是自然灾害……如果遇到的话需要慎重应对才是。",
+			say = "大多數都是自然災害……如果遇到的話需要慎重應對才是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "不过这张技术革新，可以让航空母舰「侍从」获得额外的战斗力提升……",
+			say = "不過這張技術革新，可以讓航空母艦「侍從」獲得額外的戰鬥力提升……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "{namecode:91}，汝也准备了十分偏向航空母舰的加成啊。",
+			say = "赤城，汝也準備了十分偏向航空母艦的加成啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "这一点我和大前辈的看法一样哦，航空母舰也是大家都有的，所以是公平事件。",
+			say = "這一點我和大前輩的看法一樣哦，航空母艦也是大家都有的，所以是公平事件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "汝等那里有{namecode:92}、{namecode:179}、{namecode:103}、{namecode:104}，而吾等只有{namecode:95}。",
+			say = "汝等那裡有加賀、龍鳳、千歲、千代田，而吾等只有翔鶴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "如果不是{namecode:96}——",
+			say = "如果不是瑞鶴——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg1",
 			hidePaintObj = true,
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:226}，准备工作已经完成了么？",
+			say = "酒匂，準備工作已經完成了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，{namecode:84}大人。所有人都已经在各自的准备区域内就位了，等候下一步指示。",
+			say = "是的，武藏大人。所有人都已經在各自的準備區域內就位了，等候下一步指示。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "好。诸位请看——",
+			say = "好。諸位請看——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg1",
 			hidePaintObj = true,
-			say = "{namecode:84}轻触了一下棋盘，随即，分属于四支队伍的二十名「侍从」与二十支「量产型舰队」出现在了棋盘四角。",
+			say = "武藏輕觸了一下棋盤，隨即，分屬於四支隊伍的二十名「侍從」與二十支「量產型艦隊」出現在了棋盤四角。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "在正式开局之前，诸位可以在各自面前的准备区内进行最后的位置调整。",
+			say = "在正式開局之前，諸位可以在各自面前的準備區內進行最後的位置調整。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,7 +901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "诸位在面前小棋盘上进行的操作将会直接以指令的形式发给大棋盘对应的侍从。",
+			say = "諸位在面前小棋盤上進行的操作將會直接以指令的形式發給大棋盤對應的侍從。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -918,7 +918,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "当然，直接通过通讯器传送指令也可以。不过在对局中的所有通讯都是单向的，内部通讯无法传出，故无法交流哦。",
+			say = "當然，直接通過通訊器傳送指令也可以。不過在對局中的所有通訊是單向的，內部通訊無法傳出，故無法交流哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -935,7 +935,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}大人，请将事件卡放在这处发光区域。",
+			say = "長門大人，請將事件卡放在這處發光區域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "好的。那吾等准备的指挥卡呢，要如何处理？",
+			say = "好的。那吾等準備的指揮卡呢，要如何處理？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "啊，那个的话请保留在自己手边，等用的时候直接推入棋盘即可。",
+			say = "啊，那個的話請保留在自己手邊，等用的時候直接推入棋盤即可。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -986,7 +986,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，指挥卡的内容与每名「侍从」的技能在实际展现出来之前都是彼此保密的。",
+			say = "呵呵，指揮卡的內容與每名「侍從」的技能在實際展現出來之前都是彼此保密的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1003,7 +1003,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "在何时何地，使用出何种技能也是为将者应有的战略嘛。当然了，我们四名「大将」的技能同样也是彼此间保密的。",
+			say = "在何時何地，使用出何種技能也是為將者應有的戰略嘛。當然了，我們四名「大將」的技能同樣也是彼此間保密的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "吾了解了，感谢说明。",
+			say = "吾了解了，感謝說明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "{namecode:84}……吾有些担忧战斗的部分。如果只是普通的棋盘还好……",
+			say = "武藏……吾有些擔憂戰鬥的部分。如果只是普通的棋盤還好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1054,7 +1054,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "如今的大棋盘既为真实的海域，若吾等的操作完全反馈到大棋盘中，吾等侍从的战斗与退场……将会如何进行？",
+			say = "如今的大棋盤既為真實的海域，若吾等的操作完全反饋到大棋盤當中，吾等侍從的戰鬥與退場……將會如何進行？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "既然消灭他人侍从并不会计入得分，那相互之间的战斗就是无意义的，战斗行为也不会过多发生吧。",
+			say = "既然消滅他人侍從並不會計入得分，那相互之間的戰鬥就是無意義的，戰鬥行為也不會過多發生吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "{namecode:82}大前辈高见。只是消灭他人侍从虽然不会得分，但是侍从会挡路。如果过于碍事的话，就只能除掉了吧。",
+			say = "三笠大前輩高見。只是消滅他人侍從雖然不會得分，但是會擋路。如果過於礙事的話，就只能除掉了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，不论是侍从之间的战斗还是与据点敌人的战斗，都是对局中策略选择的一环。",
+			say = "呵呵，不論是侍從之間的戰鬥還是與據點敵人的戰鬥，都是對局中策略選擇的一環。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,7 +1122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "战斗的方面各位无需担心。在大棋盘中的侍从虽然会体验到战斗带来的刺激，烟雾与炮火也会逼真还原。",
+			say = "戰鬥的方面各位無需擔心。在大棋盤中的侍從雖然會體驗到戰鬥帶來的刺激，煙霧與炮火也會逼真還原。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1139,7 +1139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "但棋局归根结底只是棋局，不论是战斗还是退场，都只是棋盘上的设定而已，如同演习一般。",
+			say = "但棋局歸根結底只是棋局，不論是戰鬥還是退場，都只是棋盤上的設定而已，如同演習一般。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1156,7 +1156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "结界能保护各位侍从的安全，不论是与场地的敌人之间，还是各位侍从之间，都不会造成真正的伤害。",
+			say = "結界能保護各位侍從的安全，不論是與場地的敵人之間，還是各位侍從之間，都不會造成真正的傷害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "自然退场也如此。被判定为退场的侍从将会立刻离开结界，然后在舒适的休息区中等待对局结束。",
+			say = "自然退場也如此。被判定為退場的侍從將會立刻離開結界，然後在舒適的休息區中等待對局結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1190,7 +1190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "请诸位不必顾虑，只需要着眼于面前的棋局本身就好。",
+			say = "請諸位不必顧慮，只需要著眼於面前的棋局本身就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "……用到了吾从未见过的技术啊。如此便好，吾没有其它问题了。",
+			say = "……用到了吾從未見過的技術啊。如此便好，吾沒有其它問題了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1224,7 +1224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "{namecode:84}大人，我们的对局是不是可以正式开始了？",
+			say = "武藏大人，我們的對局是不是可以正式開始了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1241,7 +1241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "既然各位已准备就绪，那我就不多言了，更多的乐趣就由棋局向我们展现吧。",
+			say = "既然各位已準備就緒，那我就不多言了，更多的樂趣就由棋局向我們展現吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1258,7 +1258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}大人，请，就由你来打响我们对局的第一回合吧————",
+			say = "赤城大人，請，就由妳來打響我們對局的第一回合吧————",
 			painting = {
 				alpha = 0.3,
 				time = 1

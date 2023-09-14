@@ -2748,6 +2748,14 @@ pg.gameset = {
 		description = "",
 		key_value = 3
 	},
+	activity_level_multiple_sorties_times = {
+		description = "",
+		key_value = 3
+	},
+	archives_level_multiple_sorties_times = {
+		description = "",
+		key_value = 4
+	},
 	game_room_remax = {
 		description = "",
 		key_value = 50000

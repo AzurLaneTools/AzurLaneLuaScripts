@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}队控制区 第一回合",
+			say = "大棋盤·三笠隊控制區第一回合",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
-			say = "随着天空中的巨大图案消散为无数红色火焰，{namecode:91}的侍从们也陆续开始了行动。",
+			say = "隨著天空中的巨大圖案消散為無數紅色火焰，赤城隊的侍從們也陸續開始了行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "其名为「闪电行动」，一张能够提升全队五成战斗力与移动力的指挥卡，这样的效果居然不算作弊么？！",
+			say = "其名為「閃電行動」，一張能夠提升全隊五成戰鬥力與移動力的指揮卡，這樣的效果不算作弊嗎…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是因为加上了只能在第一回合使用的限制，所以看来还是在规则允许内。",
+			say = "也許是因為加上了只能在第一回合使用的限制，所以看來還是在規則允許內。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟第一回合刚开始，再高的战斗力也打不到其他人，最多清理一下地图上的据点嘛。",
+			say = "畢竟第一回合剛開始，再高的戰鬥力也打不到其他人，最多清理一下地圖上的據點嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "可是{namecode:140}，清理据点不才是胜利的关键么……",
+			say = "可是，旗風，清理據點不才是勝利的關鍵嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "中心据点价值10分，四个区域据点合计20分，还有合计20分的二十个小据点。",
+			say = "中心據點價值10分，四個區域據點合計20分，還有合計20分的二十個小據點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "一共只有价值50分的据点，要让四个人来分……",
+			say = "一共只有價值50分的據點，要讓四個人來分……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "你们看，{namecode:91}那边已经攻略了一个小据点了啊……",
+			say = "妳們看，赤城那邊已經攻略了一個小據點了啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，大前辈肯定做好对策了。她们有指挥卡，我们也有嘛~",
+			say = "不用擔心，大前輩肯定做好對策了。她們有指揮卡，我們也有嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，{namecode:82}前辈这回合应该不会打指挥卡。",
+			say = "關於這一點，三笠前輩這回合應該不會打指揮卡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？为什么？",
+			say = "嗯？為什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "之前与前辈商量战术的时候我们有一起研究过。根据规则，战斗要在十二个回合内分出胜负，指挥卡却只有8张。",
+			say = "之前與前輩商量戰術的時候我們有一起研究過。根據規則，戰鬥要在十二個回合內分出勝負，指揮卡卻只有8張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "因此，在对方情报不明的情况下盲目把牌打光并不是明智的策略。",
+			say = "因此，在對方情報不明的情況下盲目把牌打光並不是明智的策略。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "前辈应该会先观察一段时间，再根据对方的风格展开针对性行动。",
+			say = "前輩應該會先觀察一段時間，再根據對方的風格展開針對性行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这期间，我们会与{namecode:74}大人进行配合，首先协助她取得优势。",
+			say = "在這期間，我們會與長門大人進行配合，首先協助她取得優勢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "原来如此……一方先发，一方后动，确实是适合协作的战术。",
+			say = "原來如此……一方先發，一方後動，確實是適合協作的戰術。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从{namecode:91}刚刚的行动来看，她选择进攻了一个与{namecode:84}大人控制区共享的边界节点。",
+			say = "從赤城剛剛的行動來看，她選擇進攻了一個與武藏大人控制區共享的邊界節點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "边界上的另一个据点应该是留给{namecode:84}大人的，如此一来两片区域之间就畅行无阻了。",
+			say = "邊界上的另一個據點應該是留給武藏大人的，如此一來兩片區域之間就暢行無阻了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们与{namecode:74}大人合作，{namecode:91}与{namecode:84}大人合作也是理所应当。",
+			say = "我們與長門大人合作，赤城與武藏大人合作也是理所應當。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "果然还是变成了这样的局面，大前辈会如何出招呢……",
+			say = "果然還是變成了這樣的局面，大前輩會如何出招呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
-			say = "伴随着代表回合行动的提示来到了{namecode:82}一边，众人身边的格子也发生了变化。",
+			say = "伴隨著代表回合行動的提示來到了三笠一邊，眾人身邊的格子也發生了變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302080,
-			say = "……周围的那些发光线突然变色了？！",
+			say = "……周圍的那些發光線突然變色了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，这代表{namecode:91}的行动结束，该我们行动了。",
+			say = "嗯，這代表赤城的回合結束，該我們行動了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……天空中没有出现图案，果然大前辈没有发动指挥卡。",
+			say = "……天空中沒有出現圖案，果然大前輩沒有發動指揮卡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "{namecode:82}前辈的命令已经下达了，本回合的目标为攻略我们与{namecode:91}控制区之间的边界据点AB56。",
+			say = "三笠前輩的命令已經下達了，本回合的目標為攻略我們與赤城控制區之間的邊界據點AB56。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "咦？去打{namecode:91}大人那边，而不是{namecode:74}大人那边么……？",
+			say = "咦？去打赤城大人那邊，而不是長門大人那邊嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错。现阶段我们与{namecode:74}大人之间还没有相互支援的必要。",
+			say = "沒錯。現階段我們與長門大人之間還沒有相互支援的必要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "优先拿下{namecode:91}一侧的据点不但可以威胁她的侧翼，还可以减少被其袭击侧翼的可能性。",
+			say = "優先拿下赤城一側的據點不但可以威脅她的側翼，還可以減少被其襲擊側翼的可能性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "原来如此……不愧是{namecode:82}大前辈……攻守兼备的策略啊。",
+			say = "原來如此……不愧是三笠大前輩……攻守兼備的策略啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "大家请再次确认自身分配到的行动指令，然后，我们出发——",
+			say = "大家請再次確認自身分配到的行動指令，然後，我們出發——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg13",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第九回合",
+			say = "大棋盤·赤城控制區第九回合",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			say = "伴随着回合开始的提示，和煦的微风拂过了棋盘的每一个角落，也拂过了{namecode:91}队的各位侍从。",
+			say = "伴隨著回合開始的提示，和煦的微風拂過了棋盤的每一個角落，也拂過了赤城的各位侍從。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			say = "触发的事件卡名为「神木之风」，在每一名侍从开始行动和结束时，会分别获得一次恢复效果。",
+			say = "觸發的事件卡名為「神木之風」，在每一名侍從開始行動和結束時，會分別獲得一次恢復效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "一看就是{namecode:74}大人准备的事件卡……这是要当乌龟当到底啊。",
+			say = "一看就是長門大人準備的事件卡……這是要當烏龜當到底啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜{namecode:5}没机会体验了……我还是不明白，{namecode:91}大人，{namecode:84}大人刚刚为什么会突然对{namecode:5}发动攻击啊？",
+			say = "可惜深雪沒機會體驗了……我還是不明白，赤城大人，武藏大人剛剛為什麼會突然對深雪發動攻擊啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不用担心，都是计划内的一环。",
+			say = "不用擔心，都是計劃內的一環。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。既然，{namecode:74}和{namecode:82}铁了心要把她卡住，那除此之外就没有其他办法了。",
+			say = "嗯。既然，長門和三笠鐵了心要把她卡住，那除此之外就沒有其他辦法了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这样啊。那我们本回合怎么办？大前辈又继续开始对中心区域的攻略了，我们要跟上么？",
+			say = "……這樣啊。那我們本回合怎麼辦，三笠大前輩又繼續開始對中心區域的攻略了，我們要跟上嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，把{namecode:140}消灭掉确实也是可选项之一。",
+			say = "呵呵，把旗風消滅掉確實也是可選項之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还挺想看看如果{namecode:140}退场了，大前辈接下来要再选谁进去顶着呢~",
+			say = "我還挺想看看如果旗風退場了，大前輩接下來要再選誰進去頂著呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:179}，{namecode:92}跟我一起对{namecode:140}发动攻击。",
+			say = "龍鳳，加賀跟我一起對旗風發動攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前辈，舰载机飞过中心区域时会遭受干扰，{namecode:140}现在的状态还很好，我们不一定能将她一举拿下。",
+			say = "前輩，艦載機飛過中心區域時會遭受干擾，旗風現在的狀態還很好，我們不一定能將她一舉拿下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，反正大前辈也差不多能猜到我想做什么了，意思到了就行。",
+			say = "無妨，反正大前輩也差不多能猜到我想做什麼了，意思到了就行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那我呢？我不进入中心区域就攻击不到{namecode:140}哦——当然我不会进去就是了！",
+			say = "那我呢？我不進入中心區域就攻擊不到旗風哦——當然我不會進去就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你的话，这回合干脆利用一下事件卡的效果，向着周围随便走走好了。",
+			say = "妳的話，這回合乾脆利用一下事件卡的效果，向著周圍隨便走走好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "真的吗？太好了……这么下去{namecode:79}很快就能满血复活了！",
+			say = "真的嗎？太好了……這麼下去山城很快就能滿血復活了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，加油哦，{namecode:79}，之后中心据点的攻略还需要你呢！",
+			say = "嗯，加油哦，山城，之後中心據點的攻略還需要妳呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，我们就充分利用一下{namecode:74}大人准备的事件卡，先让大前辈在中间努力吧~",
+			say = "呵呵，我們就充分利用一下長門大人準備的事件卡，先讓大前輩先在中間努力吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

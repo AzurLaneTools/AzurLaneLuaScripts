@@ -31269,7 +31269,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -31338,7 +31338,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -31946,7 +31946,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					12
+					4
 				},
 				{
 					23,
@@ -32025,7 +32025,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					12
+					4
 				},
 				{
 					23,
@@ -32281,8 +32281,7 @@ pg.activity_template = {
 			2261,
 			2262,
 			2263,
-			2264,
-			2265
+			2264
 		},
 		time = {
 			"timer",
@@ -32302,7 +32301,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					12
+					4
 				},
 				{
 					23,
@@ -32342,35 +32341,35 @@ pg.activity_template = {
 			},
 			{
 				{
+					1000,
+					900611
+				},
+				{
 					1500,
 					900611
 				},
 				{
-					2500,
+					2000,
 					900611
 				},
 				{
-					3500,
-					900611
+					3000,
+					900612
+				},
+				{
+					4000,
+					900612
 				},
 				{
 					5000,
 					900612
 				},
 				{
+					6000,
+					900612
+				},
+				{
 					7000,
-					900612
-				},
-				{
-					9000,
-					900612
-				},
-				{
-					11000,
-					900612
-				},
-				{
-					13000,
 					900612
 				}
 			},
@@ -32394,7 +32393,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					12
+					4
 				},
 				{
 					23,
@@ -32409,8 +32408,8 @@ pg.activity_template = {
 		},
 		config_client = {
 			scene = "SIXTH_ANNIVERSARY_JP",
-			lihoushanstory = "EDU5",
-			biaohoushanstory = "EDU4",
+			lihoushanstory = "DUJIACUNSHENMISHIJIANDIAOCHA2",
+			biaohoushanstory = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 			ships = {
 				"wuzang_2",
 				"ruoyue_2",
@@ -32423,18 +32422,18 @@ pg.activity_template = {
 				"bangfeng_4"
 			},
 			zumaStory = {
-				"YUEYEWEIYANG1",
-				"YUEYEWEIYANG2",
-				"YUEYEWEIYANG3",
-				"YUEYEWEIYANG4",
-				"YUEYEWEIYANG5",
-				"YUEYEWEIYANG6",
-				"YUEYEWEIYANG7"
+				"DUJIACUNSHENMISHIJIANDIAOCHA3",
+				"DUJIACUNSHENMISHIJIANDIAOCHA4",
+				"DUJIACUNSHENMISHIJIANDIAOCHA5",
+				"DUJIACUNSHENMISHIJIANDIAOCHA6",
+				"DUJIACUNSHENMISHIJIANDIAOCHA7",
+				"DUJIACUNSHENMISHIJIANDIAOCHA8",
+				"DUJIACUNSHENMISHIJIANDIAOCHA9"
 			},
 			roleStory = {
-				"EDU1",
-				"EDU2",
-				"EDU3"
+				"DUJIACUNSHENMISHIJIANDIAOCHA10",
+				"DUJIACUNSHENMISHIJIANDIAOCHA11",
+				"DUJIACUNSHENMISHIJIANDIAOCHA12"
 			}
 		}
 	},
@@ -32467,7 +32466,7 @@ pg.activity_template = {
 				{
 					2023,
 					10,
-					12
+					4
 				},
 				{
 					23,

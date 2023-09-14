@@ -14019,7 +14019,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 3,
-		trans_skin = 0,
+		trans_skin = 301619,
 		handbook_type = 0,
 		index_id = 285,
 		code = 318,
@@ -14034,8 +14034,17 @@ pg.base.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			4071
+		},
 		description = {
 			{
 				"限時活動：歸來與新生",
@@ -14051,7 +14060,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 3,
-		trans_skin = 0,
+		trans_skin = 301629,
 		handbook_type = 0,
 		index_id = 286,
 		code = 319,
@@ -14066,8 +14075,17 @@ pg.base.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			2121
+		},
 		description = {
 			{
 				"進行輕型艦建造",

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg12",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第八回合",
+			say = "大棋盤·赤城控制區第八回合",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔啊啊啊啊啊阿，要被击沉了要被击沉了要被击沉了！",
+			say = "唔啊啊啊啊啊阿，要被擊沉了要被擊沉了要被擊沉了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "冷静点{namecode:79}……已经没事了。",
+			say = "冷靜點山城……已經沒事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒不如说你居然能没事啊……",
+			say = "倒不如說妳居然沒事啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还好我的保命技能「神乐舞」可以锁血啊！不然就要瞬间下场了呀！",
+			say = "還好我的保命技能「神樂舞」可以鎖血啊！不然就要瞬間下場了呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚刚那是什么情况啊，怎么一下子退场了三个人？！",
+			say = "剛剛那是什麼情況啊，怎麼一下子退場了三個人？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是危机四伏的战争哦。局势瞬息万变，稍有不慎便会粉身碎骨。",
+			say = "這就是危機四伏的戰爭哦。局勢瞬息萬變，稍有不慎便會粉身碎骨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈是真敢应邀，但我的策略可不是随便观察几下就能理解的。",
+			say = "大前輩是真敢應邀，但我的策略可不是隨便觀察幾下就能理解的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不清楚情况就盲目跟在我后面想要反制我，结果呢？呵呵呵~",
+			say = "不清楚情況就盲目跟在我後面想要反制我，結果呢？呵呵呵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}前辈，新的回合开始了。",
+			say = "赤城前輩，新的回合開始了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本回合的事件卡是「天晴浪高」，按效果所说，在本回合内所有战列舰得到强化的同时，所有驱逐舰会获得减益。",
+			say = "本回合的事件卡是「天晴浪高」，按效果所說，在本回合內所有戰列艦得到強化的同時，所有驅逐艦會獲得減益。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啧……是大前辈准备的战列舰特化卡啊。",
+			say = "嘖……是大前輩準備的戰列艦特化卡啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是个喜欢沉湎于过去的人……也不看看现在是什么时代了。",
+			say = "真是個喜歡沉湎於過去的人……也不看看現在是什麼時代了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}，接下来要继续进攻中心据点么？",
+			say = "赤城，接下來要繼續進攻中心據點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，中心据点接下来会有点麻烦，现在还不是时候。",
+			say = "不，中心據點接下來會有點麻煩，現在還不是時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首先把阵型收回来，观察一下局势再做决定。{namecode:5}，你的情况如何？",
+			say = "首先把陣型收回來，觀察一下局勢再做決定。深雪，妳的情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}大人，非常抱歉……周围都是其他侍从的控制区，{namecode:5}还是没法回来。",
+			say = "赤城大人，非常抱歉……周圍都是其他侍從的控制區，深雪還是沒法回來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来她们铁了心是要卡住你了。你先安心呆在那里，等到{namecode:82}的止戈效果结束后我另有安排。",
+			say = "嗯……看來她們鐵了心是要卡住妳了。妳先安心待在那裡，等到三笠的止戈效果結束後我另有安排。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只是收回阵型……这回合不进攻其他据点么？",
+			say = "只是收回陣型……這回合不進攻其他據點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不是不能打，就是打的话，又要麻烦你去当先锋吸引火力了哦？",
+			say = "也不是不能打，就是打的話，又要麻煩妳去當先鋒吸引火力了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不不不不不了不了，大家还是花时间恢复一下，恢复好了再打嘛！",
+			say = "不不不不不了不了，大家還是花時間恢復一下，恢復好了再打嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_wuzang_bg12",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这件事就交给你了哦，{namecode:179}。",
+			say = "呵呵呵，這件事就交給妳了哦，龍鳳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，尽管放心包在我身上！团队回复的事就交给我的「樱绽凤华」吧~",
+			say = "嗯，儘管放心包在我身上！團隊回復的事就交給我的「櫻綻鳳華」吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

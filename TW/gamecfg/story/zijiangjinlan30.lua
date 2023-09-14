@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "与此同时的会客室中——",
+			say = "與此同時的會客室中——",
 			bgm = "theme-shinanometa",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "雷声轰隆，暴雨倾盆。",
+			say = "雷聲轟隆，暴雨傾盆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "{namecode:84}没有点灯，只是静静坐在愈发昏暗的会客室中注视着棋盘。",
+			say = "武藏沒有點燈，只是靜靜坐在愈發昏暗的會客室中注視著棋盤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "凭借你的智慧，应该已经猜到{namecode:91}的意图了吧……",
+			say = "憑藉妳的智慧，應該已經猜到赤城的意圖了吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，没错，退场的人越多，{namecode:91}就越强。",
+			say = "呵呵，沒錯，退場的人越多，赤城就越強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "现在已经退场了5人，再这么继续下去，可能会发生非常恐怖的事哦。",
+			say = "現在已經退場了5人，再這麼繼續下去，可能會發生非常恐怖的事哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "当然，我会全力帮助{namecode:91}实现这一意图就是了。",
+			say = "當然，我會全力幫助赤城實現這一意圖就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，虽然你有意保护{namecode:140}，但是……能撑得住吾这一轮攻势么？",
+			say = "三笠，雖然妳有意識的保護旗風，但是……能撐得住吾這一輪攻勢嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "{namecode:84}打出的指挥卡在小棋盘上化为一把利刃，笔直地插在了{namecode:140}所在的位置。",
+			say = "武藏打出的指揮卡在小棋盤上化為一把利刃，筆直的插在了旗風所在的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "紧接着，{namecode:103}的位置上出现了一队舰载机，对{namecode:140}进行了一轮猛烈轰炸。",
+			say = "緊接著，千歲的位置上出現了一隊艦載機，對旗風進行了一輪猛烈轟炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
-			say = "闪光过后，{namecode:140}从棋盘上消失了。",
+			say = "閃光過後，旗風從棋盤上消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这样一来就是6人退场。很遗憾，看来汝没挡住呢……",
+			say = "這樣一來就是6人退場。很遺憾，看來汝沒擋住呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "那就再进一步，让{namecode:226}{namecode:103}一起进入中心据点的控制区好了。",
+			say = "那就再進一步，讓酒匂千歲進入中心據點的控制區好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然后是{namecode:74}那边……吾又让{namecode:225}进攻了一个小据点。",
+			say = "接下來是長門那邊……吾又讓若月進攻了一個小據點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}应该也差不多看懂吾的意图了……当然，就算没明白也肯定会紧追而上。",
+			say = "長門應該也差不多看懂吾的意圖了……當然，就算沒明白也肯定會緊追而上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "既然下决心想要用积分取胜，那每一分就无比关键……",
+			say = "既然下決心想要用積分取勝，那每一分就無比關鍵……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "只是，不论汝现在分数如何领先，只要{namecode:91}攻破中心据点的话，就是她的完美逆转。",
+			say = "只是，不論汝現在分數如何領先，只要赤城攻破中心據點的話，就是她的完美逆轉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "呵呵，两边我都在推波助澜，{namecode:82}，你打算如何应对呢？",
+			say = "呵呵，兩邊我都在推波助瀾，三笠，妳打算如何應對呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1

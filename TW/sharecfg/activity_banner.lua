@@ -288,10 +288,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = " https://www.facebook.com/azurlaneTW/",
+		param = "",
 		id = 9,
 		pic = "temp5",
-		type = 1,
+		type = 0,
 		time = {
 			{
 				{
@@ -320,10 +320,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = " https://www.azurlane.tw/",
+		param = "",
 		id = 10,
 		pic = "temp2",
-		type = 1,
+		type = 0,
 		time = {
 			{
 				{
@@ -703,7 +703,7 @@ pg.activity_banner = {
 		pic = "springfes"
 	},
 	get_id_list_by_type = {
-		{
+		[0] = {
 			9,
 			10
 		},

@@ -78,9 +78,10 @@ function slot0.CollectDialogueContent(slot0, slot1, slot2)
 
 	table.insert(slot1, {
 		icon = slot3,
-		name = slot4 and setColorStr(slot4, (function ()
+		name = slot4,
+		nameColor = (function ()
 			return uv1 and uv2 or uv0:GetNameColor() or uv3
-		end)()),
+		end)(),
 		list = {
 			setColorStr(uv2(slot2:GetContent()), slot6 and uv0 or uv3)
 		},
@@ -97,7 +98,8 @@ function slot0.CollectDialogueContent(slot0, slot1, slot2)
 
 		table.insert(slot1, {
 			isPlayer = true,
-			name = setColorStr(slot5, uv0),
+			name = slot5,
+			nameColor = uv0,
 			list = slot10
 		})
 	end

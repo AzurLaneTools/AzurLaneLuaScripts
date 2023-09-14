@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg14",
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}&{namecode:74}控制区 第十回合",
+			say = "大棋盤·三笠&長門控制區第十回合",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天……暗下来了。在结界里连天象变化都做得出来啊。",
+			say = "天……暗下來了。在結界裡連天象變化都做得出來啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人引发的的日蚀……有点不祥的感觉。",
+			say = "武藏大人引發的的日蝕……有點不祥的感覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，古时候都是这么认为的呢。不过随着时代的发展，大家都知道这只是普通的天文现象了。",
+			say = "是啊，古時候都是這麼認為的呢。不過隨著時代的發展，大家都知道這只是普通的天文現象了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然看上去确实有点渗人……",
+			say = "雖然看上去確實有點滲人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不要把古人想的太愚昧了，其实当时的人自然也知道这是天文现象的。",
+			say = "也不要把古人想的太愚昧了，其實當時的人自然也知道這是天文現象的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓日蚀象征灾祸，多数还是用于劝谏之时的借口。",
+			say = "所謂日蝕象徵災禍，多數還是用於勸諫之時的藉口。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体到{namecode:84}这次的用意上来……",
+			say = "具體到武藏這次的用意上來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "“麒麟斗而日月蚀，鲸鲵死而彗星出，河变应于千年，山崩由于朽壤。”",
+			say = "\"麒麟鬥而日月蝕，鯨鯢死而彗星出，河變應於千年，山崩由於朽壤。\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕其意为此吧。",
+			say = "恐怕其意為此吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有点复杂……",
+			say = "有點複雜……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，等对局结束之后带着问题去问{namecode:140}吧，我就先卖个关子。",
+			say = "呵呵，等對局結束之後帶著問題去問旗風吧，我就先賣個關子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}前辈，日蚀的效果与海雾不同，日蚀之下所有人的攻击距离都会受到影响，这回合不用太担心空袭的问题了吧。",
+			say = "三笠前輩，日蝕的效果與海霧不同，日蝕之下所有人的攻擊距離都會受到影響，這回合不用太擔心空襲的問題了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，{namecode:91}已经开始进攻中心据点了，光凭{namecode:103}一个人就算打过来也没什么意义。",
+			say = "嗯，赤城已經開始進攻中心據點了，光憑千歲一個人就算打過來也沒什麼意義。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是{namecode:84}那边……唉，她是每回合行动的最后一人还真是不方便进行判断……",
+			say = "只是武藏那邊……唉，她是每回合行動的最後一人還真是不方便進行判斷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}，汝来决定战略，吾一定全力配合。",
+			say = "三笠，汝來決定戰略，吾一定全力配合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,40 +294,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好，那我就来说一下我的分析与计划吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "现在是第十回合中盘，棋局将在十二回合结束，{namecode:91}既然选择开始进攻中心据点，就不太可能再来与我们相互争斗。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "因此我打算亲自前往四个接触点中仅存的E5处站住。",
+			say = "好，那我就來說一下我的分析與計劃吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +311,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果{namecode:91}受到我的挑衅全力打我，那她们就不太可能在十二回合全部结束前占领中心据点了。",
+			say = "現在是第十回合中盤，棋局將在十二回合結束，赤城既然選擇開始進攻中心據點，就不太可能再來與我們相互爭鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +327,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要{namecode:91}得不到这十分，最后根据积分结算，获胜的一定是积分最高的{namecode:74}。",
+			say = "因此我打算親自前往四個接觸點中僅存的E5處站住。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +344,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}若坚定自己的计划不受挑衅，那也没有大碍。{namecode:91}与{namecode:92}的技能虽然没有公开，但毫无疑问会用在中心据点的攻略上。",
+			say = "如果赤城受到我的挑釁全力打我，那她們就不太可能在十二回合全部結束前佔領中心據點了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +360,40 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我们只要规划好自己的行动，就不用太在意她们的动作。",
+			say = "只要赤城得不到這十分，最後根據積分結算，獲勝的一定是積分最高的長門。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "赤城若堅定自己的計劃不受挑釁，那也沒有大礙。赤城與加賀的技能雖然沒有公開，但毫無疑問會用在中心據點的攻略上。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "我們只要規劃好自己的行動，就不用太在意她們的動作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前最大的变数就是{namecode:84}，她还有一张指挥卡没有用，本人也没有入场。",
+			say = "目前最大的變數就是武藏，她還有一張指揮卡沒有用，本人也沒有入場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}不入场，我们就没机会弄清楚她的战略究竟是什么。",
+			say = "武藏不入場，我們就沒機會弄清楚她的戰略究竟是什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因此我打算彻底屏蔽掉她的操作空间。{namecode:74}，这方面就需要你的配合了。",
+			say = "因此我打算徹底屏蔽掉她的操作空間。長門，這方面就需要妳的配合了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "汝尽管说。",
+			say = "汝儘管說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,40 +477,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:181}与{namecode:65}进攻据点AB34，之后{namecode:157}将其拿下。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "现在继续防守{namecode:84}入侵已经没有意义了，因此让{namecode:158}也去参与争夺据点。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "这样的话，{namecode:95}{namecode:158}就能和之前一样抢下被{namecode:225}进攻过的据点IJ910。",
+			say = "鬼怒與羽黑進攻據點AB34，之後春月將其拿下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +494,40 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:72}和{namecode:71}去进攻最后一个可进攻的据点GH910。",
+			say = "現在繼續防守武藏入侵已經沒有意義了，因此讓江風也去參與爭奪據點。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "這樣的話，翔鶴江風就能和之前一樣搶下被若月進攻過的據點IJ910。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "榛名和比叡去進攻最後一個可進攻的據點GH910。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然本回合全员的攻击射程被缩减，但她们二人的技能组合可以相互配合进行一轮爆发式打击。",
+			say = "雖然本回合全員的攻擊射程被縮減，但她們二人的技能組合可以相互配合進行一輪爆發式打擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "{namecode:71}的技能是「威光的御召舰」，可以让所有人无视射程限制进攻自己攻击过的目标。",
+			say = "比叡的技能是「威光的御召艦」，可以讓所有人無視射程限制進攻自己攻擊過的目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:72}的则是「烈光的武勋舰」，本回合所有属性翻倍，但是下回合无法进行任何移动。",
+			say = "榛名的則是「烈光的武勳艦」，本回合所有屬性翻倍，但是下回合無法進行任何移動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "确实是完美的配合啊……",
+			say = "確實是完美的配合啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,40 +613,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，之前仔细设计了那么久，就是考虑到也许会有这种情况。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "总之，现在已经不用考虑下回合的事了，这回合就把火力全部倾泻掉，拿掉所有能拿的积分。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "这样{namecode:84}除了进攻中心据点之外，就没有任何得分的方式了。",
+			say = "呵呵，之前仔細設計了那麼久，就是考慮到也許會有這種情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +630,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在上述攻略结束之后，你拥有的积分就是16分，我7分，{namecode:91}8分，{namecode:84}6分。",
+			say = "總之，現在已經不用考慮下回合的事了，這回合就把火力全部傾瀉掉，拿掉所有能拿的積分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +646,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "中心据点价值10分。落入你我手中自不必说，就算落入{namecode:84}手中那她也只有16分，是平局。",
+			say = "這樣武藏除了進攻中心據點之外，就沒有任何得分的方式了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +663,40 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而这一部署可以在{namecode:84}行动之前完成，接下来不论她留的指挥卡是什么，是否入场，都已经没意义了。",
+			say = "在上述攻略結束之後，你擁有的積分就是16分，我7分，赤城8分，武藏6分。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "中心據點價值10分。落入你我手中自不必說，就算落入武藏手中那她也只有16分，是平局。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "而這一部署可以在武藏行動之前完成，接下來不論她留的指揮卡是什麼，是否入場，都已經沒意義了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "吾的胜机，终于要出现了啊……",
+			say = "吾的勝機，終於要出現了啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,57 +730,7 @@ return {
 			bgName = "bg_wuzang_bg14",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "正是如此。不积跬步，无以至千里。不积小流，无以成江海。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:74}，你从头到尾坚持贯彻自己的理念，终于要迎来开花结果的时候了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			actor = 305110,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过，在真正胜利之前我们不能放松警惕。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "作为第二手准备，请你绕过EF12据点向我所在的E5接近，这是我们两家唯一能进入中心据点的位置。",
+			say = "正是如此。不積跬步，無以至千里。不積小流，無以成江海。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -797,23 +747,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论{namecode:91}{namecode:92}下回合想做什么，凭借她们现在的战斗力，想一回合消灭中心据点还是太异想天开了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg14",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "剩下的就是我们的机会。如果下回合我这边没能拿下中心据点的话，我会退出E5，之后你带人进去，全力输出将其拿下。",
+			say = "長門，妳從頭到尾堅持貫徹自己的理念，終於要迎來開花結果的時候了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +764,73 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要你我接力进攻，收下胜利绝非妄谈！",
+			say = "不過，在真正勝利之前我們不能放鬆警惕。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "作為第二手準備，請妳繞過EF12據點向我所在的E5接近，這是我們兩家唯一能進入中心據點的位置。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "不論赤城加賀下回合想做什麼，憑藉她們現在的戰鬥力，想一回合消滅中心據點還是太異想天開了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "剩下的就是我們的機會。如果下回合我這邊沒能拿下中心據點的話，我會退出E5，之後妳帶人進去，全力輸出將其拿下。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_wuzang_bg14",
+			actor = 305110,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "只要妳我接力進攻，收下勝利絕非妄談！",
 			painting = {
 				alpha = 0.3,
 				time = 1

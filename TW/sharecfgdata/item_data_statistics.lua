@@ -167076,7 +167076,7 @@ _G.pg.base.item_data_statistics[59486] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 41331,
 	virtual_type = 24,
 	is_world = 0,
 	icon = "Props/wenquanshoupai",
@@ -176076,6 +176076,190 @@ _G.pg.base.item_data_statistics[60423] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60424] = {
+	display = "由巴爾的摩贈與的，作為宴會邀約的回禮",
+	name = "巴爾的摩的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60424,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60425] = {
+	display = "由布雷默頓贈與的，作為宴會邀約的回禮",
+	name = "布雷默頓的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60425,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60426] = {
+	display = "由威爾斯親王贈與的，作為宴會邀約的回禮",
+	name = "威爾斯親王的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60426,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60427] = {
+	display = "由黛朵贈與的，作為宴會邀約的回禮",
+	name = "黛朵的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60427,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60428] = {
+	display = "由可畏贈與的，作為宴會邀約的回禮",
+	name = "可畏的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60428,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60429] = {
+	display = "由{namecode:50}贈與的，作為宴會邀約的回禮",
+	name = "{namecode:50}的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60429,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60430] = {
+	display = "由{namecode:74}贈與的，作為宴會邀約的回禮",
+	name = "{namecode:74}的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60430,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60431] = {
+	display = "由扎拉贈與的，作為宴會邀約的回禮",
+	name = "扎拉的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60431,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69001] = {
 	display = [[
 可以獲得以下裝備：
@@ -179967,7 +180151,7 @@ _G.pg.base.item_data_statistics[80034] = {
 
 _G.pg.base.item_data_statistics[80035] = {
 	display = "用於『司令部動員指令』活動累計獎勵，活動結束後將會消失",
-	name = "台服2023集結點",
+	name = "集結點",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -180740,8 +180924,8 @@ _G.pg.base.item_data_statistics[89001] = {
 }
 
 _G.pg.base.item_data_statistics[89002] = {
-	display = "四周年活动的感谢纪念 ——只要不停下脚步，航路就会不断延伸！",
-	name = "四周年纪念币",
+	display = "四週年活動的感谢紀念 ——只要不停下腳步，航路就會不斷延伸！",
+	name = "四週年紀念幣",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,

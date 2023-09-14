@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg15",
 			stopbgm = true,
-			say = "大棋盘·{namecode:84}控制区 第十回合",
+			say = "大棋盤·武藏控制區第十回合",
 			bgm = "musashi-2",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "在这个无比关键的回合，{namecode:84}没有打出自己的最后一张指挥卡。",
+			say = "在這個無比關鍵的回合，武藏沒有打出自己的最後一張指揮卡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人是放弃了么……？",
+			say = "武藏大人是放棄了嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那可是{namecode:84}大人，不会这么轻易放弃的。她一定是有什么其他安排，我有种不太好的预感……",
+			say = "那可是武藏大人，不會這麼輕易放棄的。她一定是有什麼其他安排，我有種不太好的預感……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家快看，{namecode:84}大人的侍从开始行动了！",
+			say = "大家快看，武藏大人的侍從開始行動了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人的命令确认，即将对中心区域的仲裁者·赫忒米·IX展开攻击。",
+			say = "武藏大人的命令確認，即將對於中心區域的仲裁者·赫忒米·IX展開攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:103}，我来支援你了哦。",
+			say = "千歲，我來支援妳了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……{namecode:225}，你之前一直在进攻据点，都没有休整过吧。",
+			say = "……若月，妳之前一直在進攻據點，都沒有休整過吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的，{namecode:103}不也一样？",
+			say = "是的，千歲不也一樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以我们现在的状态，恐怕受到进攻的反击之后就要双双退场了……",
+			say = "以我們現在的狀態，恐怕受到進攻的反擊之後就要雙雙退場了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕是的……没能在场内见证棋盘的结局确实有些遗憾，不过既然是{namecode:84}大人的命令，我心中便没有丝毫犹豫。",
+			say = "恐怕是的……沒能在場內見證棋盤的結局確實有些遺憾，不過既然是武藏大人的命令，我心中便沒有絲毫猶豫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说的也是……已经在棋盘中待了这么久，乐趣也享受的差不多了。",
+			say = "說的也是……已經在棋盤中待了這麼久，樂趣也享受的差不多了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来就去休息室里和{namecode:104}一起边吃好吃的，边等待最终结果好了~",
+			say = "接下來就去休息室裡和千代田一起邊吃好吃的，邊等待最終結果好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……我昨天在休息室内藏了一大盒点心哦，想着给先进入休息室内的同伴们留点惊喜。",
+			say = "其實……我昨天在休息室內藏了一大盒點心哦，想著給先進入休息室內的同伴們留點驚喜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果还没有被人发现的话，我们就先偷偷吃掉一部分，再跟大家分掉吧~",
+			say = "如果還沒有被人發現的話，我們就先偷偷吃掉一部分，再跟大家分掉吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好主意！那事不宜迟，就让我们开始最后的进攻吧！",
+			say = "好主意！那事不宜遲，就讓我們開始最後的進攻吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "就这样，{namecode:225}与{namecode:103}退场了。",
+			say = "就這樣，若月與千歲退場了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "与此同时——————",
+			say = "與此同時——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92}大人，得罪了，这也是{namecode:84}大人的命令。",
+			say = "加賀大人，得罪了，這也是武藏大人的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果想来进攻我，也要做好被反噬的觉悟哦。",
+			say = "如果想來進攻我，也要做好被反噬的覺悟哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:92}大人难道有什么危险的技能么？",
+			say = "加賀大人難道有什麼危險的技能嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，这个你很快就能知道了，尽管攻过来吧。",
+			say = "呵呵，這個妳很快就能知道了，儘管攻過來吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "光芒闪过，{namecode:92}化为了发光的碎片。",
+			say = "光芒閃過，加賀化為了發光的碎片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "但是，与此前退场的人不同，碎片并没有消散，而是化为了一只巨大的妖狐",
+			say = "但是，與此前退場的人不同，碎片並沒有消散，而是化為了一隻巨大的妖狐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "妖狐向着{namecode:226}扑去，{namecode:226}立刻被蓝色的烈焰所覆盖。",
+			say = "妖狐向著酒匂撲去，酒匂立刻被藍色的烈焰所覆蓋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			actor = 302230,
 			nameColor = "#A9F548FF",
-			say = "哎…………欸？！这是什么情况！要烧起来了欸！！",
+			say = "哎…………欸？！這是什麼情況！要燒起來了欸！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "信条……「弱肉强食」。你就与我一同随着苍蓝的火焰消散吧。",
+			say = "信條……「弱肉強食」。你就與我一同隨著蒼藍的火焰消散吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			say = "伴随着{namecode:92}与{namecode:226}的退场，原本处于{namecode:84}控制的所有据点上空也出现了猛烈的白光。",
+			say = "伴隨著加賀與酒匂的退場，原本處於武藏控制的所有據點上空也出現了猛烈的白光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚发生了……什么？",
+			say = "剛剛發生了……什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}大人直到侍从全灭都没有进场……换言之，现在棋盘上没有任何属于{namecode:84}大人的棋子。",
+			say = "武藏大人直到侍從全滅都沒有進場……換言之，現在棋盤上沒有任何屬於武藏大人的棋子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从规则上来看，{namecode:84}大人已经输了。因此……所有原本由{namecode:84}大人控制的据点也会变为无人所属状态。",
+			say = "從規則上來看，武藏大人已經輸了。因此……所有原本由武藏大人控制的據點也會變為無人所屬狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}！汝见到没有取胜机会之后，就用这种方式放弃了么！",
+			say = "武藏！汝見到沒有取勝機會之後，就用這種方式放棄了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……是见到自己没有取胜机会后，就果断用最后的全部力量为{namecode:91}的胜利做铺垫了……",
+			say = "不……是見到自己沒有取勝機會後，就果斷用最後的全部力量為赤城的勝利做鋪墊了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:82}，吾等还有机会。如果吾先一步接收了{namecode:84}的领地，那么吾就拥有了22分。而{namecode:91}的得分极限是21分。",
+			say = "三笠，吾等還有機會。如果吾先一步接收了武藏的領地，那麼吾就擁有了22分。而赤城的得分極限是21分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……不用这么长时间，只要吾能拿下{namecode:84}的那一个小据点，吾就会变为17分。{namecode:91}就算之后再拿下中心据点也没用。",
+			say = "不……不用這麼長時間，只要吾能拿下武藏的那一個小據點，吾就會變為17分。赤城就算之後再拿下中心據點也沒用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间已经不允许她多线作战了！",
+			say = "時間已經不允許她多線作戰了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，大前辈你们看……那只狐狸还停留在场上，与{namecode:91}停在同一格了。",
+			say = "長門大人，大前輩妳們看……那隻狐狸還停留在場上，與赤城停在同一格了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然还有后手……",
+			say = "果然還有後手……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}前辈，对于我与姐姐一直隐藏的技能，你应该有了不少猜测吧。",
+			say = "三笠前輩，對於我與姐姐一直隱藏的技能，妳應該有了不少猜測吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……从你退场之后还能以这样的形式留在场上的情况来看，说明我的猜测基本正确啊。",
+			say = "……從妳退場之後還能以這樣的形式留在場上的情況來看，說明我的猜測基本正確啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在谜底揭晓之前，不妨前辈先来说说推论吧？",
+			say = "在謎底揭曉之前，不妨前輩先來說說推論吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚一次性退场了4人，目前现阶段合计退场了9人。",
+			say = "剛剛一次性退場了4人，目前現階段合計退場了9人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}一直在等待着场上侍从退场，说明她的另一个技能应该是退场的侍从越多，自身的战斗力就越强。",
+			say = "赤城一直在等待著場上侍從退場，說明她的另一個技能應該是退場的侍從越多，自身的戰鬥力就越強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -829,7 +829,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为在战斗过程中没看到她的战斗力出现明显变化，说明这应该是一个可以自由选择时机进行激活的主动技能。",
+			say = "因為在戰鬥過程中沒看到她的戰鬥力出現明顯變化，說明這應該是一個可以自由選擇時機進行啟動的主動技能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而你虽然退场了，却依旧以这样的形式停留在{namecode:91}的格子里，说明你的另一个技能可以在退场之后给予{namecode:91}某些帮助。",
+			say = "而妳雖然退場了，卻能以這樣的形式停留在赤城的格子裡，說明妳的另一個技能可以在退場之後給予赤城某些幫助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我猜的不错吧？",
+			say = "我猜的不錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（鼓掌声）不愧是{namecode:82}大前辈，猜的完全正确哦。",
+			say = "（鼓掌聲）不愧是三笠大前輩，猜的完全正確哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看你的部署，你应该还盘算着等到下回合，我的进攻失败后，与{namecode:74}接力抢下中心据点吧。",
+			say = "看妳的部署，妳應該還盤算著等到下回合，我的進攻失敗後，與長門接力搶下中心據點吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者因为{namecode:84}退场，领地空出，你们想重新把她的领地占领回来依靠积分取胜？",
+			say = "或者因為武藏退場，領地空出，妳們想重新把她的領地佔領回來依靠積分取勝？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哈哈哈哈，我怎么可能留出这种机会给你们？",
+			say = "哈哈哈哈，我怎麼可能留出這種機會給妳們？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}……现在日蚀尚在，依然还是第十回合，汝为何可以行动？",
+			say = "赤城……現在日蝕尚在，依然還是第十回合，汝為何可以行動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_wuzang_bg15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人，你的问题应该是，为什么{namecode:84}已经退场了，新的回合却还没有开始呢？",
+			say = "長門大人，妳的問題應該是，為什麼武藏已經退場了，新的回合卻還沒有開始呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,7 +979,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在谜底揭晓。{namecode:82}前辈，我在自己退场时，可以赋予姐姐一次移动和与本回合退场人数相同的额外攻击次数。",
+			say = "現在謎底揭曉。三笠前輩，我在自己退場時，可以賦予姐姐一次移動和與本回合退場人數相同的額外攻擊次數。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#A9F548FF",
-			say = "本回合退场的侍从数量是4，也就是说，姐姐接下来可以进行四次战斗。",
+			say = "本回合退場的侍從數量是4，也就是說，姐姐接下來可以進行四次戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而姐姐的技能就如同你猜测的那样，我就不在此赘述了。",
+			say = "而姐姐的技能就如同妳猜測的那樣，我就不在此贅述了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}，汝就为了这个，就让一半人退场了么？！",
+			say = "赤城，汝就為了這個，就讓一半人退場了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，不然呢？而且，我就要因此而取得胜利了哦？",
+			say = "是啊，不然呢？而且，我就要因此而取得勝利了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1065,7 +1065,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "失败者就请在一旁看好，接下来，是属于胜利者的表演时间了——",
+			say = "失敗者就請在一旁看好，接下來，是屬於勝利者的表演時間了——",
 			painting = {
 				alpha = 0.3,
 				time = 1

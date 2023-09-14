@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>里世界的入口</size>",
+					"渡假村神秘事件調查\n\n<size=45>裡世界的入口</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "温泉度假村·鸟居附近",
+			say = "溫泉渡假村·鳥居附近",
 			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噗噗说这里有问题……",
+			say = "噗噗說這裡有問題……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,11 +51,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:180}，你说的噗噗到底是……等等，有、有问题是什么问题？",
+			say = "霞，妳說的噗噗到底是……等等，有、有問題是什麼問題？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,11 +88,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……提灯也越来越亮了呢。难道这个鸟居后面隐藏着新的调查点吗？",
+			say = "嗯……提燈也越來越亮了呢。難道這個鳥居後面隱藏著新的調查點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,12 +106,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从形状上来看，确实也对得上那封预告信里提到的……圆形剧场的入口。",
+			say = "從形狀上來看，確實也對得上那封預告信裡提到的……圓形劇場的入口。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊啊啊啊啊！让开让开！",
+			say = "啊啊啊啊啊！讓開讓開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "伴随尖叫声一起出现的，是一声什么东西摔在地上的闷响。",
+			say = "伴隨尖叫聲一起出現的，是一聲什麼東西摔在地上的悶響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜~好痛……",
+			say = "嗚~好痛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,11 +176,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抚顺？我还奇怪怎么从刚才起你就不见了呢。",
+			say = "撫順？我還奇怪怎麼從剛才起妳就不見了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,12 +194,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么会从树上摔下来？",
+			say = "妳怎麼會從樹上摔下來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,11 +213,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜~我想从空中俯瞰全岛，这样犯人或者先遣队的踪迹就能一目了然。没想到新做的火箭失败了。",
+			say = "嗚~我想從空中俯瞰全島，這樣犯人或者先遣隊的蹤跡就能一目了然。沒想到新做的火箭失敗了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,11 +231,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种事拜托萨拉托加小姐的舰载机不就行了？",
+			say = "這種事拜託薩拉托加小姐的艦載機不就行了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,11 +249,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就缺少自己调查的仪式感了！呜~好痛……",
+			say = "那就缺少自己調查的儀式感了！嗚~好痛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,11 +267,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好，人也到齐了。现在所有的线索都指向鸟居后面，也许那里就是妖怪剧团的根据地……",
+			say = "正好，人也到齊了。現在所有的線索都指向鳥居後面，也許那裡就是妖怪劇團的根據地……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,12 +285,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走吧，我们去调查一下！",
+			say = "走吧，我們去調查一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,12 +304,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！要直接进去吗？！",
+			say = "咦？！要直接進去嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们走吧噗噗。",
+			say = "我們走吧噗噗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,12 +341,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至、至少通知一下指挥官吧！",
+			say = "至、至少通知一下指揮官吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,11 +360,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:189}~再不走的话就要被落下咯~~",
+			say = "初月~再不走的話就要被落下囉~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,12 +378,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唔、你、你们等等我啊！",
+			say = "……唔、妳、妳們等等我啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "温泉度假村·？？？",
+			say = "溫泉渡假村·？？？",
 			bgm = "map-longgong",
 			effects = {
 				{
@@ -443,12 +443,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事、事先声明，我跟着你们可不是因、因为我害怕啊！",
+			say = "事、事先聲明，我跟著妳們可不是因、因為我害怕啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,12 +462,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我、我只是担心你们遇上了危险应付不了才贴得这么近的！",
+			say = "我、我只是擔心妳們遇上了危險應付不了才貼得這麼近的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -499,12 +499,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说、说起来，我们在迷雾里已经走了十几分钟了吧……？",
+			say = "說、說起來，我們在迷霧裡已經走了十幾分鐘了吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,12 +518,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么现在都没走出去，鸟居后面有这么大么……",
+			say = "怎麼現在都沒走出去，鳥居後面有這麼大嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有哦。我们已经不在度假村里了。",
+			say = "沒有哦。我們已經不在渡假村裡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,12 +555,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶？！",
+			say = "欸？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，噗噗说快要到雾的边界了，有朋友在等着我们。",
+			say = "不用擔心，噗噗說快要到霧的邊界了，有朋友在等著我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,11 +592,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "朋友？难道神秘的妖怪剧团，终于要现身了？！",
+			say = "朋友？難道神秘的妖怪劇團，終於要現身了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,12 +610,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不是很想知道那些在等我们的“朋友”是什么……",
+			say = "我不是很想知道那些在等我們的“朋友”是什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,12 +629,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们还是先出去向指挥官汇报吧……",
+			say = "我們還是先出去向指揮官匯報吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,10 +648,10 @@ return {
 			side = 2,
 			actorName = "雪女",
 			bgName = "bg_village_in",
-			factiontag = "雪女作战中",
+			factiontag = "雪女作戰中",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经不能再回头了哦——",
+			say = "已經不能再回頭了哦——",
 			icon = {
 				scale = 8,
 				image = "Props/story_xuenv",
@@ -709,7 +709,7 @@ return {
 			side = 2,
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "礼炮爆炸的响声过后，五颜六色的彩带从房顶飘落下来。",
+			say = "怎麼現在都沒走出去，鳥居後面有這麼大嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,12 +717,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "在溫泉開party！",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎来到圆形剧场！",
+			say = "歡迎來到圓形劇場！",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -740,10 +740,10 @@ return {
 			side = 2,
 			actorName = "河童",
 			bgName = "bg_village_in",
-			factiontag = "为了不再怕人……",
+			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎……欢迎。",
+			say = "歡迎……歡迎。",
 			icon = {
 				scale = 8,
 				image = "Props/story_hetong",
@@ -761,7 +761,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
@@ -780,10 +780,10 @@ return {
 			side = 2,
 			actorName = "海坊主",
 			bgName = "bg_village_in",
-			factiontag = "有实力的年长者",
+			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不必惊慌，吾等没有恶意。",
+			say = "不必驚慌，吾等沒有惡意。",
 			icon = {
 				scale = 8,
 				image = "Props/story_haifangzhu",
@@ -801,10 +801,10 @@ return {
 			side = 2,
 			actorName = "海坊主",
 			bgName = "bg_village_in",
-			factiontag = "有实力的年长者",
+			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老朽是剧团的副团长，海坊主。欢迎来到吾等的妖怪剧场。",
+			say = "老朽是劇團的副團長，海坊主。歡迎來到吾等的妖怪劇場。",
 			icon = {
 				scale = 8,
 				image = "Props/story_haifangzhu",
@@ -820,12 +820,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "妖怪劇團喵",
 			bgName = "bg_village_in",
-			factiontag = "妖怪剧团喵",
+			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾乃剧团经理，狸猫。",
+			say = "吾乃劇團經理，妖怪劇團喵。",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -843,11 +843,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就知道！妖怪剧团果然是真实存在的！",
+			say = "我就知道！妖怪劇團果然是真實存在的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,11 +861,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以你们是妖怪？！哇~果然和我们看起来完全不一样诶！",
+			say = "所以妳們是妖怪？！哇~果然和我們看起來完全不一樣欸！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,12 +879,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来是妖怪，不是鬼啊……（超小声）",
+			say = "原來是妖怪，不是鬼啊……（超小聲）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，温泉会馆里的预告信，是你们留的吗？",
+			say = "所以，溫泉會館裡的預告信，是妳們留的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,12 +914,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……预告信？",
+			say = "……預告信？",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -935,12 +935,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小生只在温泉会馆留了一封邀请函后，便回来准备欢迎会了。",
+			say = "小生只在溫泉會館留了一封邀請函後，便回來準備歡迎會了。",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -958,11 +958,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来单纯只是邀请函吗？！",
+			say = "原來單純只是邀請函嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -974,12 +974,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错，之前剧团长已经和你们的首领商量好了，要排练新剧招待你们。",
+			say = "不錯，之前劇團長已經和妳們的首領商量好了，要排練新劇招待妳們。",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -995,12 +995,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "自稱小生的老者",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由于人手不足，贵方的首领也已经带着人员先去参与布置和排练了。",
+			say = "由於人手不足，貴方的首領也已經帶著人員先去參與佈置和排練了。",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -1022,7 +1022,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首领是指……{namecode:182}大人？",
+			say = "首領是指……信濃大人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1036,11 +1036,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……我知道了！这一定是重樱的同伴们送给我们的惊喜！",
+			say = "原來如此……我知道了！這一定是重櫻的同伴們送給我們的驚喜！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1054,12 +1054,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的不是惊吓么……（超小声）",
+			say = "真的不是驚嚇嗎……（超小聲）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,12 +1071,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "妖怪劇團喵",
 			bgName = "bg_village_in",
-			factiontag = "妖怪剧团喵",
+			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，请稍等片刻。",
+			say = "那麼，請稍等片刻",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -1092,12 +1092,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "妖怪劇團喵",
 			bgName = "bg_village_in",
-			factiontag = "妖怪剧团喵",
+			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "精彩的剧目即将开演！",
+			say = "精彩的劇目即將開演！",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -1115,11 +1115,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "尋找本日的刺激",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妖怪剧团演出的剧目么！好期待！",
+			say = "妖怪劇團演出的劇目嗎！好期待！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,11 +1161,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦，等等……就要开始了吗？我们……",
+			say = "咦，等等……就要開始了嗎？我們……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1179,11 +1179,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们还没通知指挥官啊——",
+			say = "我們還沒通知指揮官啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1

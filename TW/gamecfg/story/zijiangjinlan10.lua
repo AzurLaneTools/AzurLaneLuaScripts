@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg6",
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}控制区 第三回合",
+			say = "大棋盤·三笠控制區第三回合",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:65}，注意到刚刚{namecode:91}发动的指挥卡了么？",
+			say = "羽黑，注意到剛剛赤城發動的指揮卡了嗎？",
 			effects = {
 				{
 					active = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "「内务整备」……口气倒是挺大的。",
+			say = "「內務整備」……口氣倒是蠻大的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "全员的攻击与命中提升。虽然有无法暴击的限制，但是抵消了海雾的负面效果，增加了战斗的确定性。",
+			say = "全員的攻擊與命中提升。雖然有無法暴擊的限制，但是抵消了海霧的負面效果，增加了戰鬥的確定性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果她还准备了类似指挥卡的话，下回合{namecode:91}就能拿下区域据点，届时，她将以7分的积分暂居第一。",
+			say = "如果她還準備了類似指揮卡的話，下回合赤城就能拿下區域據點，屆時，她將以7分的積分暫居第一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "连续三回合只有进攻没有休整，真是凶猛的作战策略啊。",
+			say = "連續三回合只有進攻沒有休整，真是兇猛的作戰策略啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是啊，真没想到{namecode:91}会选择拿下第二个与{namecode:84}相邻的边界据点。",
+			say = "是啊，真沒想到赤城會選擇拿下第二個與武藏相鄰的邊界據點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "竟然连一个都没给{namecode:84}大人留下，这样一来不是只有她能够单方面自由出入{namecode:84}大人的控制区了。",
+			say = "竟然連一個都沒留給武藏大人，這樣一來不是只有她能夠單方面自由出入武藏大人的控制區了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我还以为{namecode:91}和{namecode:84}大人是牢不可破的盟友呢……",
+			say = "我還以為赤城和武藏大人是牢不可破的盟友呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "非也，凡事不能只看表象。这也许是某种相互配合的战术策略……就像我们帮助{namecode:74}大人一样。",
+			say = "非也，凡事不能只看表象。這也許是某種相互配合的戰術策略……就像我們幫助長門大人一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人也在上回合主动拿下了一个与{namecode:84}大人相邻的边界据点哦。",
+			say = "長門大人也在上回合主動拿下了一個與武藏大人相鄰的邊界據點哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且还用指挥卡「荣耀的传承」放弃{namecode:157}的行动来让本回合的某一名侍从多进行一次行动。",
+			say = "而且還用指揮卡「榮耀的傳承」放棄春月的行動來讓本回合的某一名侍從多進行一次行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来肯定会有什么大动作……",
+			say = "接下來肯定會有什麼大動作……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明{namecode:74}大人在第一回合完全是一副等{namecode:84}大人先动手的架势，没想到突然转为进攻了。",
+			say = "明明長門大人在第一回合完全是一副等武藏大人先動手的架勢，沒想到突然轉為進攻了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看来{namecode:84}大人正同时被两方警戒着啊。",
+			say = "看來武藏大人正同時被兩方同時警戒著啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过{namecode:84}大人本人倒看上去没什么争斗心，虽然第一回合运气不好，不过本回合区域据点就要被她收入囊中了。",
+			say = "不過武藏大人本人倒看上去沒什麼爭鬥心，雖然第一回合運氣不好，不過本回合區域據點就要被她收入囊中了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不知道她下一步会把目光着眼于哪里……",
+			say = "不知道她下一步會把目光著眼於哪裡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……感觉四位大人的棋路都很难让人猜透。",
+			say = "……感覺四位大人的棋路都很難讓人猜透。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正因如此，你我这般不断进行猜测才能带来更多乐趣啊~",
+			say = "正因如此，妳我這般不斷進行猜測，才能帶來更多樂趣啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明枪易躲暗箭难防，像这样将博弈全部放到明面上的机会可不多哦。",
+			say = "明槍易躲暗箭難防，像這樣將博弈全部放到明面上的機會可不多哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			say = "在众人分析局势之时，大棋盘上又出现了新的变化。",
+			say = "在眾人分析局勢之時，大棋盤上又出現了新的變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家注意，{namecode:82}前辈的命令来了，请抬头看天空。",
+			say = "大家注意，三笠前輩的命令來了，請抬頭看天空。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			say = "众人抬头望去，只见一面巨大的旗帜如山岳般高悬于空中，即便是如此浓雾，也无法将之彻底掩盖。",
+			say = "眾人抬頭望去，只見一面巨大的旗幟如山岳般高懸於空中，即便是如此濃霧，也無法將之徹底掩蓋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个是大前辈Z字旗的超级夸张版本……？！真壮观啊。",
+			say = "這個是大前輩Z字旗的超級誇張版本……？！真壯觀啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啊，我们终于也有指挥卡的协助了！",
+			say = "好啊，我們終於也有指揮卡的協助了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全员攻击提升，受到伤害降低，我们在休整了一个回合之后终于要有所行动了吧？",
+			say = "全員攻擊提升，受到傷害降低，我們在休整了一個回合之後終於要有所行動了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错，我们首先拿下第二处边界据点，彻底封锁与{namecode:91}的边界，之后向着中心据点转向。",
+			say = "沒錯，我們首先拿下第二處邊界據點，徹底封鎖與赤城的邊界，之後向著中心據點轉向。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_wuzang_bg6",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这是……我们也要进攻中心据点的意思么……？总感觉和{namecode:91}大人的打法好像……",
+			say = "這是……我們也要進攻中心據點的意思嗎……？總感覺和赤城大人的打法好像……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来确实如此。不过大前辈应该是这么想的——既然暂时看不出{namecode:91}的意图，不如先顺着她的棋路伺机而动。",
+			say = "看起確實如此。不過大前輩應該是這麼想的——既然暫時看不出赤城的意圖，不如先順著她的棋路伺機而動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来还有这一层的考虑，不愧是{namecode:82}大前辈……！",
+			say = "原來還有這一層的考慮，不愧是三笠大前輩……！",
 			painting = {
 				alpha = 0.3,
 				time = 1

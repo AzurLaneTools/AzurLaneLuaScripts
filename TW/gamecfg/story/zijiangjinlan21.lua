@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg11",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第七回合",
+			say = "大棋盤·赤城控制區第七回合",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，{namecode:91}前辈准备的事件「技术革新」终于触发了！本回合，拥有最多舰载机武器的我们将处于巨大的优势中。",
+			say = "太好了，赤城前輩準備的事件「技術革新」終於觸發了！本回合，擁有最多艦載機武器的我們將處於巨大的優勢中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过{namecode:5}那边就……因为{namecode:82}大前辈的效果，似乎两回合内那边都没法进行战斗了，转而去进攻{namecode:74}大人么？",
+			say = "不過深雪那邊就……因為三笠大前輩的效果似乎兩回合內那邊都沒法進行戰鬥了，轉而去進攻長門大人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不，那边打到这个程度就行了。",
+			say = "不，那邊打到這個程度就行了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:79}后退至E6，把{namecode:82}进攻中心据点的通道留出来。",
+			say = "山城後退至E6，把三笠進攻中心據點的通道留出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸~~救命呀~~~我已经在中间吃了好几轮伤害了，快不行了！",
+			say = "欸~~救命呀~~~我已經在中間吃了好幾輪傷害了，快不行了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别以为我看不到你的状态栏，技能一个没用过，损伤也还不到三成，给我老实呆在里面。",
+			say = "別以為我看不到妳的狀態欄，技能一個沒用過，損傷也還不到三成，給我老實的待在裡面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:5}的话，很不幸，你的所有撤离通道都被封死了，暂时先呆在原地，等待后续指令。",
+			say = "深雪的話，很不幸，妳的所有撤離通道都被封死了，暫時先待在原地，等待後續指令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 301040,
 			nameColor = "#A9F548FF",
-			say = "遵命……{namecode:91}大人！",
+			say = "遵命……赤城大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:179}、{namecode:92}还有到位之后的{namecode:79}随我一起进攻。",
+			say = "龍鳳、加賀還有到位之後的山城隨我一起進攻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，总之，中心据点的战斗就由我们先打响吧~",
+			say = "呵呵，總之，中心據點的戰鬥就由我們先打響吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			say = "大棋盘·{namecode:82}控制区 第七回合",
+			say = "大棋盤·赤城控制區第七回合",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:82}前辈，{namecode:91}开始进攻中心据点了，我们是不是跟上？",
+			say = "三笠前輩，赤城開始進攻中心據點了，我們是不是跟上？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:70}，你觉得{namecode:91}为什么要让{namecode:79}撤退，把E5这个接触点留空给我们？",
+			say = "金剛，妳覺得赤城為什麼要讓山城撤退，把E5這個接觸點留空給我們？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是因为我们彻底控制了边界，她害怕过于冒进致使{namecode:79}也像{namecode:39}{namecode:5}那样陷入死地？",
+			say = "也許是因為我們徹底控制了邊界，她害怕過於冒進導致山城也像神通深雪那樣陷入死地？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有这种可能性。不过在我看来，这更像是{namecode:91}对我们发起的进攻中心据点的邀请。",
+			say = "有這種可能性。不過在我看來，這更像是赤城對我們發起的進攻中心據點的邀請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}怎么会突然这么好心……？",
+			say = "赤城怎麼會突然這麼好心……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也许是在等我们出力之后，再在关键时刻用出其不意的手段抢下来哦。",
+			say = "也許是在等我們出力之後，再在關鍵時刻用出其不意的手段搶下來哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果她是这样盘算的话，我也有相应的反制手段。这里先就接受邀请，看看{namecode:91}接下来的企图吧。",
+			say = "如果她是這樣盤算的話，我也有相應的反制手段。這裡先就接受邀請，看看赤城接下來的企圖吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:73}进入E5保持与中心据点的接触，之后与{namecode:70}一同对位于中心区域的塔进行一轮试探性进攻。",
+			say = "霧島進入E5保持與中心據點的接觸，之後與金剛一同對位於中心區域的塔進行一輪試探性進攻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:65}原地不动保持对{namecode:5}的封锁，{namecode:181}{namecode:140}与我一同进攻边界据点EF12。",
+			say = "羽黑原地不動保持對深雪的封鎖，鬼怒旗風與我一同進攻邊界據點EF12。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？我不参与吗？大前辈，这个边界据点只靠你们打不掉啊……？",
+			say = "欸？我不參與嗎？大前輩，這個邊界據點只靠妳們打不掉啊……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 305110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这正是关键。在我们结束之后，边界据点就能让{namecode:74}用最小的代价将其收下。",
+			say = "這正是關鍵。在我們結束之後，邊界據點就能讓長門用最小的代價將其收下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_wuzang_bg11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然{namecode:74}选择靠据点的积分来取胜，我就来帮一帮她好了~",
+			say = "既然長門選擇靠據點的積分來取勝，我就來幫一幫她好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

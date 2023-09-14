@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg5",
 			stopbgm = true,
-			say = "大棋盘·{namecode:84}控制区 第二回合",
+			say = "大棋盤·武藏控制區第二回合",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……技能释放！{namecode:225}流之奥义！羽刃阵风！",
+			say = "……技能釋放！若月流之奧義！羽刃陣風！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "伴随着呼喊出的招式名，{namecode:225}的身上闪烁出耀眼的光芒，然后从众人眼中消失了。",
+			say = "伴隨著呼喊出的招式名，若月的身上閃爍出耀眼的光芒，然後從眾人眼中消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "紧接着，无数{namecode:225}的残影出现在半空中，闪耀的刀光如同疾风骤雨般劈砍在测试者身上。",
+			say = "緊接著，無數若月的殘影出現在半空中，閃耀的刀光如同疾風驟雨般劈砍在測試者身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "当刀光终于结束后，{namecode:225}重新出现在众人眼前。",
+			say = "當刀光終於結束後，若月重新出現在眾人眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚的场景就是……发动了设置好的技能？",
+			say = "剛剛的場景就是……設置技能的發動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也太帅了啊！{namecode:225}，你刚刚是怎么做到的？！平时也没见你这么厉害啊。",
+			say = "也太帥了啊！若月，妳剛剛是怎麼做到的？！平時也沒看妳這麼厲害啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也不太清楚……因为规则上没说只能写自己能做到的事，我就设计了一套梦幻剑法。",
+			say = "我也不知道啊……因為規則上沒說只能寫自己做到的事，我就設計了一套夢幻劍法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦幻，自然是只有想象中能做到的事，没想到居然真的实现了……",
+			say = "夢幻，自然是只有想像中能做到的事，沒想到居然真的實現了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实很梦幻呢，我们只看到你唰地一下消失，然后紧接着就出现了无数的残影……刚刚你有什么具体的感觉么？",
+			say = "確實很夢幻呢，我們只看到妳唰的一下消失，然後緊接著就出現了無數的殘影……剛剛妳有什麼具體的感覺嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……有点难以形容，大概是“心想事成”的感觉？",
+			say = "嗯……有點難以形容，大概是\"心想事成\"的感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我先是在脑中回想着进行斩击的画面，然后就好像真的在一瞬间获得了力量，回过神来自己就已经出现在半空中了。",
+			say = "我先是在腦中回想著進行斬擊的畫面，然後就好像真的在一瞬間獲得了力量，回過神來自己就已經出現在半空中了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真好啊……早知如此，我应该和{namecode:104}一起设计些更华丽的招式的……",
+			say = "真好啊……早知如此我應該和千代田一起設計些更華麗的招式的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……{namecode:103}姐！这次可是亏大了……",
+			say = "是啊……千歲姐！這次可是虧大了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们设计的技能具体是什么？",
+			say = "妳們設計的技能具體是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我和{namecode:103}姐一样，都叫「千之羽」，是连协技能哦~当我们都在场的时候可以对据点发动超强的攻击！",
+			say = "我和千歲姐一樣，都叫「千之羽」，是連攜技能哦~當我們都在場的時候可以對據點造成超強的攻擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从刚才的轰炸中你也感受到了吧，虽然没有全部命中，不过威力还是不错的哦~",
+			say = "從剛才的轟炸妳也感受到了吧，雖然沒有全部命中，但威力還是可以的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:226}呢，你设计的是什么样的技能？",
+			say = "酒匂呢，妳設計的是什麼樣的技能？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，其名为「{namecode:226}鬼神斩」！一个不输给{namecode:225}的华丽剑技哦！",
+			say = "呼呼呼，其名為「酒匂鬼神斬」！一個不輸給若月的華麗劍技哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等用到的时候你们就知道了~啊……好期待实际的效果啊……那个真的好帅的！",
+			say = "等用到的時候妳們就知道了~啊……好期待實際的效果啊……那個真的好帥的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……我有个小问题，发动技能必须要喊出名字么？",
+			say = "不過……我有個小問題，發動技能必須要喊出名字嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "规则书上确实是这么写的，不过好像不论大声喊还是小声喊都可以……",
+			say = "規則書上確實是這麼寫的，不過好像不論大聲喊還是小聲喊都可以……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是{namecode:103}和{namecode:104}刚刚一声都没喊啊！",
+			say = "可是千歲和千代田剛剛一聲都沒喊啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因为我们是被动技能啦！欸……光注重效果而忽略了表现形式……",
+			say = "因為我們是被動技能！欸……光注重效果而忽略了表現形式……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……那我得赶紧想一个呼喊出招式名的帅气方式了！",
+			say = "原來如此！那我得趕緊想出一個呼喊出招式名的帥氣方式了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，大家都已经完全乐在其中了啊——————",
+			say = "啊哈哈，大家都已經完全樂在其中了啊——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "通讯器中的话音未落，{namecode:27}就伴随着一片光芒出现在{namecode:226}等人面前。",
+			say = "通訊器中的話音未落，涼月就伴隨著一片光芒出現在酒匂等人面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "而原先在众人面前的{namecode:225}则同时出现在了先前{namecode:27}所在的位置上。",
+			say = "而原先在眾人面前的若月則同時出現在了先前涼月所在的位置上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "？！这个是{namecode:84}大人指挥卡「退避三舍」的效果！",
+			say = "？！這個是武藏大人指揮卡「退避三舍」的效果！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……是在看到航空作战不够理想之后，选择让我来协助么。",
+			say = "原來如此……是在看到航空作戰不夠理想之後，選擇讓我來協助嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:27}设计了什么技能呢？",
+			say = "涼月設計了什麼技能呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「攻防兼备之{namecode:27}」！在防空战上进行了特化的技能，只要在我身边，就不用担心来自空中的威胁！",
+			say = "「攻防兼備之涼月」！在防空戰上進行了特化的技能，只要在我身邊，就不用擔心來自空中的威脅！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为普通的被动技能，用来收拾一下测试者的浮游机十分合适，缺点嘛……可能就是不够帅吧，哈哈~",
+			say = "作為普通的被動技能，用來收拾一下測試者的浮游機十分合適，缺點嘛……可能就是不夠帥吧，哈哈~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只要能帮上忙，又有什么关系呢！",
+			say = "不過只要能幫上忙，又有什麼關係呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:225}，刚才在最前排吃测试者的反击辛苦了，在后方好好休息一下，接下来的就交给我吧！",
+			say = "若月，剛才在最前排吃測試者的反擊辛苦了，在後方好好休息一下，接下來的就交給我吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

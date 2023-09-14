@@ -24,7 +24,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	onButton(slot0._event, slot0.skill, function ()
 		uv0._event:emit(LaunchBallGameView.PRESS_SKILL)
-	end, SFX_CONFIRM)
+	end)
 
 	slot0.skillCd = findTF(slot0.skill, "ad/black")
 end

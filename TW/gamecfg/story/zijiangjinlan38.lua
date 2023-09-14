@@ -17,7 +17,7 @@ return {
 			actor = 307080,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "{namecode:84}，妾身发现了一系列比较在意的事，因此发来了这封联络。",
+			say = "武藏，妾身發現了一系列比較在意的事，因此發來了這封聯絡。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "博览会举行首日，妾身在会场中发现了不寻常的气息。",
+			say = "博覽會舉行首日，妾身在會場中發現了不尋常的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在妾身第一时间提醒了维内托之后，问题似乎被撒丁帝国在暗中解决了。",
+			say = "在妾身第一時間提醒了維內托之後，問題似乎被薩丁帝國在暗中解決了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，在那之后妾身依然隐约有些不协调感，而且异样感一直没有消失。",
+			say = "不過，在那之後妾身依然隱約有些不協調感，而且異樣感一直沒有消失。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事妾身还在调查之中，也许只是错觉吧。",
+			say = "這件事妾身還在調查之中，也許只是錯覺吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后的几日，会场中十分和平。各大阵营都严格遵守了停火协议，没有发生冲突。",
+			say = "之後的幾日，會場中十分和平。各大陣營都嚴格遵守了停火協議，沒有發生衝突。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塞壬也没有来捣乱，听撒丁帝国说，整片陆间海都没有出现塞壬袭击。",
+			say = "塞壬也沒有來搗亂，聽薩丁帝國說，整片地中海都沒有出現塞壬襲擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然而在第六日，塞壬似乎对皇家群岛发动了一次规模介于试探与进攻之间的不大不小的突袭。",
+			say = "然而在第六日，塞壬似乎對皇家群島發動了一次規模介於試探與進攻之間的不大不小的突襲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最合理的猜测是，这是塞壬对于此前皇家在NA海域中行动的报复。",
+			say = "最合理的猜測是，這是塞壬對於此前皇家在NA海域中行動的報復。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这次事件的异常之处有三点——",
+			say = "不過這次事件的異常之處有三點——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其一，皇家舰队根本就没有参与针对构建者主机的作战行动。",
+			say = "其一，皇家艦隊更本就沒有參與針對構建者主機的作戰行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其二，NA海域在构建者的主机被消灭后，塞壬的控制力已经大幅减弱，此等规模的舰队究竟是如何被组织起来的令人生疑。",
+			say = "其二，NA海域在構建者的主機被消滅後，塞壬的控制力已經大幅減弱，此等規模的艦隊究竟是如何被組織起來的令人生疑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其三，这次袭击似乎也在皇家的预料之中，因为伊丽莎白女王早就部署了大量舰队因此没有受到太大的损失。",
+			say = "其三，這次襲擊似乎也在皇家的預料之中，因為伊莉莎白女王早就部署了大量艦隊因此沒有受到太大的損失。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许其中另有隐情，妾身也在调查之中。",
+			say = "也許其中另有隱情，妾身也在調查之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但，倘若真是塞壬的报复行为，那吾等一定要小心。",
+			say = "但，倘若真是塞壬的報復行為，那吾等一定要小心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请一定要提高警惕。",
+			say = "請一定要提高警惕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182}敬上。",
+			say = "信濃敬上。",
 			painting = {
 				alpha = 0.3,
 				time = 1

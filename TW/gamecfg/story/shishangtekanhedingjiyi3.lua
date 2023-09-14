@@ -48,7 +48,7 @@ return {
 			},
 			options = {
 				{
-					content = "“惊喜”，是指穿泳装的尾张么？",
+					content = "“惊喜”，是指穿泳装的{namecode:295}么？",
 					flag = 1
 				},
 				{
