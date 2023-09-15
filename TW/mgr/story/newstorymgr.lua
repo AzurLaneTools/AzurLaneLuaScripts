@@ -43,7 +43,21 @@ function slot13(slot0)
 	end)
 
 	if not slot3 then
-		errorMsg("不存在剧情ID对应的Lua:" .. slot0)
+		slot5 = true
+
+		if UnGamePlayState then
+			slot6 = "GameCfg.dungeon." .. slot0
+
+			if pcall(function ()
+				return require(uv0)
+			end) then
+				slot5 = false
+			end
+		end
+
+		if slot5 then
+			errorMsg("不存在剧情ID对应的Lua:" .. slot0)
+		end
 	end
 
 	return slot3 and slot4

@@ -1901,6 +1901,11 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 					},
 					groupName = LayerWeightConst.GROUP_LEVELUI
 				})
+				pg.playerResUI:SetActive({
+					active = true,
+					groupName = LayerWeightConst.GROUP_LEVELUI,
+					showType = PlayerResUI.TYPE_ALL
+				})
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
 				uv0.levelStageView:updateStageAchieve()
@@ -2079,6 +2084,9 @@ function slot0.switchToMap(slot0, slot1)
 	slot0:setChapter(nil)
 	slot0:PlayBGM()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
+	pg.playerResUI:SetActive({
+		active = false
+	})
 
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
 	slot0.canvasGroup.interactable = true
@@ -3393,6 +3401,9 @@ function slot0.willExit(slot0)
 
 	if slot0.contextData.chapterVO then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
+		pg.playerResUI:SetActive({
+			active = false
+		})
 	end
 
 	if slot0.levelFleetView and slot0.levelFleetView.selectIds then

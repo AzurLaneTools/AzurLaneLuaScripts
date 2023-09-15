@@ -100,7 +100,7 @@ return {
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撫順閣下，阿爾弗雷多閣下，你們都在說什麼啊！",
+			say = "撫順閣下，布里斯托爾閣下，你們都在說什麼啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

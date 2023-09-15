@@ -233,7 +233,7 @@ function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
 end
 
 function slot0.IsSpineSkelCached(slot0, slot1)
-	return false
+	return slot0.pools_plural["char/" .. slot1 .. slot1] ~= nil
 end
 
 slot6 = {

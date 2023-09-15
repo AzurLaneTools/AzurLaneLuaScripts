@@ -550,6 +550,8 @@ function slot0.Dispose(slot0)
 		slot0.liveCom.EventAction = nil
 	end
 
+	slot0.liveCom:SetMouseInputActions(nil, )
+
 	slot0._readlyToStop = false
 	slot0.state = uv0.STATE_DISPOSE
 

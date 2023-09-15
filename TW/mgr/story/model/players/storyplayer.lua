@@ -146,7 +146,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	slot0.stage = uv0
 	slot7 = slot1:GetTriggerDelayTime()
 
-	if slot0.autoNext and slot4:IsImport() then
+	if slot0.autoNext and slot4:IsImport() and not slot4.optionSelCode then
 		slot0.autoNext = nil
 	end
 
@@ -210,6 +210,12 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			uv0.stage = uv1
+
+			if uv0:ShouldAutoTrigger() then
+				uv0:UnscaleDelayCall(uv2, slot0)
+
+				return
+			end
 
 			uv0:RegisetEvent(slot0)
 			uv0:TriggerEventIfAuto(uv2)

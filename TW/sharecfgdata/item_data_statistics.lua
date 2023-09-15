@@ -167158,7 +167158,7 @@ _G.pg.base.item_data_statistics[59489] = {
 }
 
 _G.pg.base.item_data_statistics[59490] = {
-	display = "可在限時活動「渡假村神秘事件調查」中解鎖角色「namecode:18」的紀念道具",
+	display = "可在限時活動「渡假村神秘事件調查」中解鎖角色「{namecode:18}」的紀念道具",
 	name = "{namecode:18}的信物",
 	max_num = 0,
 	type = 1,
