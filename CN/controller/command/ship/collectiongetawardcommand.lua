@@ -47,7 +47,7 @@ function slot0.execute(slot0, slot1)
 			elseif slot3[1] == DROP_TYPE_SHIP then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
 			elseif slot3[1] == DROP_TYPE_FURNITURE then
-				getProxy(DormProxy):addFurniture(Furniture.New({
+				getProxy(DormProxy):AddFurniture(Furniture.New({
 					count = 1,
 					id = slot3[2]
 				}))

@@ -115,6 +115,14 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			else
 				slot0.actionListIndex = slot0.actionListIndex + 1
 			end
+		elseif not slot0.actionTrigger.action then
+			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
+			slot4 = slot0.actionTriggerActive
+			slot6 = slot0.actionTrigger.focus or false
+			slot7 = slot0.actionTrigger.target or nil
+
+			slot0:triggerAction()
+			slot0:stopDrag()
 		end
 
 		if slot4.idle and slot4.idle == slot0.idleIndex and not slot4.repeatFlag then
@@ -406,6 +414,8 @@ function slot0.updateTrigger(slot0)
 			slot1 = slot0.actionTrigger.time
 		elseif slot0.actionTrigger.action_list then
 			slot1 = slot0.actionTrigger.action_list[slot0.actionListIndex].time
+		elseif not slot0.actionTrigger.action then
+			slot1 = slot0.actionTrigger.time
 		end
 
 		if slot1 <= Time.time - slot0.mouseInputDownTime then

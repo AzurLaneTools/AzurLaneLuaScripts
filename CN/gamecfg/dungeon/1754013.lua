@@ -238,7 +238,7 @@ return {
 							delay = 0.1,
 							monsterTemplateID = 16554301,
 							corrdinate = {
-								-5,
+								0,
 								0,
 								30
 							},

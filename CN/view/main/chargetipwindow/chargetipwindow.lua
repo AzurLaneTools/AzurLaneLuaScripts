@@ -101,7 +101,7 @@ function slot2(slot0, slot1)
 end
 
 function slot0.UpdateMonthCard(slot0, slot1)
-	setText(slot1:Find("title/label"), i18n("chargetip_monthcard_1"))
+	setText(slot1:Find("title/label/txt"), i18n("chargetip_monthcard_1"))
 	setText(slot1:Find("title/Text"), "X" .. slot0.chargeCommodity:getConfig("gem") + slot0.chargeCommodity:getConfig("extra_gem"))
 	setText(slot1:Find("sub_title"), i18n("chargetip_monthcard_2"))
 	uv0(slot1, slot0.chargeCommodity:getConfig("display"))
