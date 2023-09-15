@@ -9578,7 +9578,7 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 1,
 				param = {
-					x = -5,
+					x = 0,
 					z = 30
 				}
 			},

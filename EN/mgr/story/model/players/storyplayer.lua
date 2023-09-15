@@ -212,7 +212,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			uv0.stage = uv1
 
 			if uv0:ShouldAutoTrigger() then
-				slot0()
+				uv0:UnscaleDelayCall(uv2, slot0)
 
 				return
 			end
