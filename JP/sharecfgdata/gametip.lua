@@ -24504,7 +24504,7 @@ _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 }
 
 _G.pg.base.gametip.chargetip_monthcard_1 = {
-	tip = "貿易許可証を購入しました！アイテムを入手しました："
+	tip = "貿易許可証を購入しました！\nアイテムを入手しました："
 }
 
 _G.pg.base.gametip.chargetip_monthcard_2 = {
@@ -25422,7 +25422,7 @@ _G.pg.base.gametip.jp6th_lihoushan_order = {
 }
 
 _G.pg.base.gametip.jp6th_lihoushan_pt1 = {
-	tip = "入手済/入手可能上限"
+	tip = "報酬入手可能回数"
 }
 
 _G.pg.base.gametip.launchball_minigame_help = {

@@ -37,20 +37,15 @@ function slot0.getUIName(slot0)
 	return "LevelStageView"
 end
 
-function slot0.ResUISettings(slot0)
-	return true
-end
-
 function slot0.OnInit(slot0)
 	slot0:InitUI()
 	slot0:AddListener()
 
 	slot0.loader = AutoLoader.New()
-
-	setActive(slot0._tf, true)
-
 	slot0.cgComp = GetOrAddComponent(slot0._go, typeof(CanvasGroup))
 	slot0.cgComp.blocksRaycasts = not slot0.isFrozen
+
+	slot0:Show()
 end
 
 function slot0.OnDestroy(slot0)
@@ -65,6 +60,7 @@ function slot0.OnDestroy(slot0)
 	slot0:DestroyWinConditionPanel()
 	slot0:DestroyToast()
 	slot0.loader:Clear()
+	slot0:Hide()
 end
 
 slot1 = -300

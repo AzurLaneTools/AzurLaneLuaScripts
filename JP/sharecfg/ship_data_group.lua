@@ -17299,8 +17299,17 @@ pg.base.ship_data_group = {
 			"C",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			1052
+		},
 		description = {
 			{
 				"推奨入手海域8-3",
