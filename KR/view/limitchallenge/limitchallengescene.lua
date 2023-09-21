@@ -208,7 +208,7 @@ function slot0.updateLeftTime(slot0)
 			slot0.leftTimer = nil
 		end
 
-		slot0.leftTimer = Timer.New(function ()
+		function slot4()
 			if uv0 <= 0 and uv1.leftTimer then
 				uv1.leftTimer:Stop()
 
@@ -221,9 +221,12 @@ function slot0.updateLeftTime(slot0)
 			setText(uv1.leftTimeValueText, string.format("%02d:%02d:%02d", slot1, slot2, slot3))
 
 			uv0 = uv0 - 1
-		end, 1, -1)
+		end
+
+		slot0.leftTimer = Timer.New(slot4, 1, -1)
 
 		slot0.leftTimer:Start()
+		slot4()
 	end
 end
 

@@ -64,6 +64,13 @@ pg.spweapon_type = {
 			17
 		}
 	},
+	{
+		spweapon_type = 9,
+		ship_type = {
+			2,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
@@ -72,6 +79,7 @@ pg.spweapon_type = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

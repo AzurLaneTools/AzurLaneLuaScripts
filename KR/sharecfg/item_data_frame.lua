@@ -405,6 +405,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"성좌의 왕관을 쓰지 않더라도, 진정한 대의를 내세우는 자의 머리에는 승리라는 이름의 영광스러운 왕관이 내리리라.\"</color>\n\"어리석은 자의 천칭\" 참가 보상.",
 		scene = {}
 	},
+	[327] = {
+		time_limit_type = 0,
+		name = "찰나의 자색 등꽃",
+		gain_by = "",
+		id = 327,
+		time_second = 0,
+		desc = "이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -541,6 +550,7 @@ pg.item_data_frame = {
 		324,
 		325,
 		326,
+		327,
 		401,
 		402,
 		413,

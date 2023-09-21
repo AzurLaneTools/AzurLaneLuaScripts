@@ -42,6 +42,7 @@ slot2 = {
 			"motion",
 			"antiaircraft",
 			"air",
+			"hit",
 			"consume",
 			"antisub",
 			"oxy_max",
@@ -50,9 +51,7 @@ slot2 = {
 			"hunting_range",
 			"luck"
 		},
-		hide = {
-			"hit"
-		}
+		hide = {}
 	},
 	jp = {
 		prop_ignore = {
@@ -78,6 +77,7 @@ slot2 = {
 			"motion",
 			"antiaircraft",
 			"air",
+			"hit",
 			"consume",
 			"antisub",
 			"oxy_max",
@@ -86,9 +86,7 @@ slot2 = {
 			"hunting_range",
 			"luck"
 		},
-		hide = {
-			"hit"
-		}
+		hide = {}
 	},
 	kr = {
 		prop_ignore = {

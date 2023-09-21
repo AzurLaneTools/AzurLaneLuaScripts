@@ -442,7 +442,7 @@ function slot0.SetPort(slot0, slot1)
 
 	setActive(slot0.btnOperation, slot0.port:GetRealm() == 0 or slot4 == slot2:GetRealm())
 	setActive(slot0.btnDockyard, slot4 == 0 or slot4 == slot2:GetRealm())
-	setActive(slot0.btnSupply, slot4 == 0 or slot4 == slot2:GetRealm())
+	setActive(slot0.btnSupply, slot0.nGoodsPortDic[slot1.id])
 	setActive(slot0.resPanel._tf, slot2:IsSystemOpen(WorldConst.SystemResource))
 
 	slot0.inventory = slot2:GetInventoryProxy()

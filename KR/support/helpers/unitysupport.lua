@@ -785,6 +785,8 @@ slot5 = nil
 slot6 = {}
 
 function setGray(slot0, slot1, slot2)
+	slot2 = defaultValue(slot2, true)
+
 	if not slot1 and not uv0[slot0] then
 		return
 	else
@@ -813,7 +815,9 @@ function setGray(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot3) do
-		slot8.material = slot1 and uv1 or nil
+		if not GetComponent(slot8, "UIGrayScale") then
+			slot8.material = slot1 and uv1 or nil
+		end
 	end
 end
 

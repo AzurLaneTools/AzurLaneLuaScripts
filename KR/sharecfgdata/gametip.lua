@@ -7480,12 +7480,10 @@ _G.pg.base.gametip.ship_remould_warning_310044 = {
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
-개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다.
-<color=#92fc63>【주포(경순양함)】</color>이
-<color=#92fc63>【주포(중순양함)】</color>으로 변경됩니다. <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color>
-<color=#92fc63>【주포】</color> 슬롯의 장비가 해제됩니다.
-<color=#92fc63>【특수 장비】</color> 슬롯의 장비가 해제됩니다.
-계속 진행하시겠습니까?]]
+<size=35>개조로 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
+주포 슬롯은 <color=#92fc63>주포(경순양함용)</color>→<color=#92fc63>주포(중순양함용)</color>로 변경되므로, 현재 장착하고 있는 주포 슬롯의 장비는 해제됩니다. 
+함종 변경으로 장착이 불가능해진 <color=#92fc63>[특수 장비]</color>는 창고로 돌아갑니다. 
+개조를 계속하시겠습니까? <color=#92fc63><material=underline c=#A9F548 event=clickDetail>상세 내용 확인</material></color></size>]]
 }
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {

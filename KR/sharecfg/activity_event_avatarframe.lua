@@ -1198,6 +1198,17 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	{
+		task_level = "",
+		start_time = "stop",
+		icon_frame = 327,
+		link_event = 0,
+		award_display = "",
+		target = 2800,
+		task_ship = "",
+		id = 12,
+		pt_id = 59484
+	},
 	all = {
 		1,
 		2,
@@ -1209,6 +1220,7 @@ pg.activity_event_avatarframe = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

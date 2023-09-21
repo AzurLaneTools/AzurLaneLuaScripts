@@ -7,8 +7,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgRecord = nil
 end
 
-function slot0.Reset(slot0, slot1, slot2)
-	uv0.super.super.Reset(slot0, slot1, slot2)
+function slot0.Reset(slot0, slot1, slot2, slot3)
+	uv0.super.super.Reset(slot0, slot1, slot2, slot3)
 	setActive(slot0.bgPanel, true)
 	setActive(slot0.subImage.gameObject, false)
 	setActive(slot0.actorPanel, false)
@@ -41,13 +41,13 @@ function slot0.UpdateBg(slot0, slot1)
 	uv0.super.UpdateBg(slot0, slot1)
 end
 
-function slot0.OnInit(slot0, slot1, slot2)
+function slot0.OnInit(slot0, slot1, slot2, slot3)
 	if slot1:ShouldBlackScreen() then
 		setActive(slot0.curtain, true)
 		slot0.curtain:SetAsLastSibling()
-		slot2()
+		slot3()
 	else
-		uv0.super.OnInit(slot0, slot1, slot2)
+		uv0.super.OnInit(slot0, slot1, slot2, slot3)
 	end
 end
 
