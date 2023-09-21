@@ -125,24 +125,8 @@ function slot0.OnPuase(slot0)
 	slot0:StopBreath()
 end
 
-function slot1(slot0)
-	if not ReflectionHelp.RefCallMethodEx(typeof("UnityEngine.CanvasRenderer"), "GetMaterial", GetComponent(slot0, "CanvasRenderer"), {
-		typeof("System.Int32")
-	}, {
-		0
-	}) then
-		for slot5 = 1, slot0:GetComponentsInChildren(typeof(MeshImage)).Length do
-			slot1[slot5 - 1]:SetVerticesDirty()
-		end
-
-		return false
-	end
-
-	return true
-end
-
 function slot0.OnResume(slot0)
-	uv0(slot0.container:Find("fitter"):GetChild(0))
+	checkCullResume(slot0.container:Find("fitter"):GetChild(0))
 	slot0:Breath()
 end
 
