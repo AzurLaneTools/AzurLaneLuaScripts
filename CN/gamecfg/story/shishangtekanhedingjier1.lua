@@ -141,7 +141,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉信浓该怎么做",
+					content = "告诉{namecode:182}该怎么做",
 					flag = 1
 				},
 				{
