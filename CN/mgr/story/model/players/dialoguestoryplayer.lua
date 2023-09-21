@@ -328,33 +328,6 @@ function slot0.ClearCanMarkNode(slot0)
 	end
 end
 
-function slot0.UpdateIcon(slot0, slot1, slot2)
-	if not slot1:ExistIcon() then
-		setActive(slot0.iconImage.gameObject, false)
-		slot2()
-
-		return
-	end
-
-	slot3 = slot1:GetIconData()
-	slot0.iconImage.sprite = LoadSprite(slot3.image)
-
-	slot0.iconImage:SetNativeSize()
-
-	slot4 = slot0.iconImage.gameObject.transform
-
-	if slot3.pos then
-		slot4.localPosition = Vector3(slot3.pos[1], slot3.pos[2], 0)
-	else
-		slot4.localPosition = Vector3.one
-	end
-
-	slot4.localScale = Vector3(slot3.scale or 1, slot3.scale or 1, 1)
-
-	setActive(slot0.iconImage.gameObject, true)
-	slot2()
-end
-
 function slot0.GrayingOutPrevPainting(slot0, slot1, slot2, slot3)
 	if not slot1 or not slot1:IsDialogueMode() then
 		slot3()
@@ -1387,10 +1360,6 @@ function slot0.OnWillExit(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnEnd(slot0)
-	setActive(slot0.iconImage.gameObject, false)
-
-	slot0.iconImage.sprite = nil
-
 	slot0:ClearGlitchArtForPortrait()
 	slot0:ClearCanMarkNode()
 	slot0:RecyclePainting({

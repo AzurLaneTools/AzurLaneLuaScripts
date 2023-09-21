@@ -201,9 +201,9 @@ function slot0.OnStopInterAction(slot0, slot1)
 		slot3.localEulerAngles = Vector3.zero
 	end
 
-	if not slot0:GetData():AnySlotIsUsing() or table.getCount(slot0.masks) ~= 1 then
-		for slot7, slot8 in pairs(slot0.masks) do
-			setActive(slot8, false)
+	if not slot0:GetData():AnySlotIsUsing() or table.getCount(slot0.masks) < 1 then
+		for slot8, slot9 in pairs(slot0.masks) do
+			setActive(slot9, false)
 		end
 	end
 end

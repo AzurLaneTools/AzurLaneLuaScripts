@@ -1072,6 +1072,7 @@ function slot0.SetChapterAutoFlag(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.facade:sendNotification(uv0.CHAPTER_AUTO_FIGHT_FLAG_UPDATED, slot2 and 1 or 0)
+	slot0.facade:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, not slot2)
 end
 
 function slot0.StopAutoFight(slot0, slot1)
@@ -1090,6 +1091,8 @@ function slot0.FinishAutoFight(slot0, slot1)
 			pg.BrightnessMgr.GetInstance():ExitManualMode()
 			getProxy(SettingsProxy):RestoreFrameRate()
 		end
+
+		slot0.facade:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
 	end
 
 	slot0:RemoveExtendChapter(slot1)

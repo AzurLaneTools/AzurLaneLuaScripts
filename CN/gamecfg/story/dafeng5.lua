@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			soundeffect = "event:/ui/boat_drag",
 			dir = 1,
-			say = "（噗哟)——手臂感受到柔软的触感，大、{namecode:97}？",
+			say = "（噗哟)——手臂感受到柔软的触感，{namecode:97}、{namecode:97}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "仿佛看到两人的视线碰撞出了火花…同时，手臂感受到的力道越来越重，大、{namecode:97}？！",
+			say = "仿佛看到两人的视线碰撞出了火花…同时，手臂感受到的力道越来越重，{namecode:97}、{namecode:97}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

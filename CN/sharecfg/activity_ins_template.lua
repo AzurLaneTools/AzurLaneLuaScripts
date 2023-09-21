@@ -10293,6 +10293,78 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[403] = {
+		ship_group = 30708,
+		name = "Shinano",
+		sculpture = "xinnong",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 403,
+		id = 403,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[404] = {
+		ship_group = 20506,
+		name = "TywysogWales",
+		sculpture = "weiershiqinwang",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 404,
+		id = 404,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[405] = {
+		ship_group = 20602,
+		name = "Argus",
+		sculpture = "baiyanjuren",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 405,
+		id = 405,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[406] = {
+		ship_group = 20121,
+		name = "Javelin☆",
+		sculpture = "biaoqiang",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 406,
+		id = 406,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[407] = {
+		ship_group = 40123,
+		name = "Zerstörer.23",
+		sculpture = "z23",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 407,
+		id = 407,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[408] = {
+		ship_group = 30223,
+		name = "Sakawa ",
+		sculpture = "jiuyun",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 408,
+		id = 408,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -10686,6 +10758,12 @@ pg.activity_ins_template = {
 		399,
 		400,
 		401,
-		402
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408
 	}
 }

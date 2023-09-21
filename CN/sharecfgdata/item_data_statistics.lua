@@ -27362,6 +27362,65 @@ _G.pg.base.item_data_statistics[40928] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40929] = {
+	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*20，高级定向蓝图六期*2，快速完成工具*10，家具币*100",
+	name = "金秋庆典礼盒2023",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihejp6lf",
+	id = 40929,
+	display_icon = {
+		{
+			2,
+			69929,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[41001] = {
 	display = "{namecode:98}赠送的情人节礼物",
 	name = "情人节礼物",
@@ -227237,7 +227296,44 @@ _G.pg.base.item_data_statistics[69920] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			319012,
+			1300
+		},
+		{
+			299012,
+			1200
+		},
+		{
+			404032,
+			1200
+		},
+		{
+			202302,
+			1150
+		},
+		{
+			305054,
+			1150
+		},
+		{
+			102071,
+			1000
+		},
+		{
+			506012,
+			1000
+		},
+		{
+			401282,
+			1000
+		},
+		{
+			801082,
+			1000
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[69921] = {
@@ -227594,6 +227690,54 @@ _G.pg.base.item_data_statistics[69928] = {
 		{
 			307122,
 			1840
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69929] = {
+	display = "不会被看到",
+	name = "随机金秋庆典换装2023",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69929,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			303191,
+			1210
+		},
+		{
+			307083,
+			1210
+		},
+		{
+			205065,
+			2010
+		},
+		{
+			302233,
+			2010
+		},
+		{
+			206022,
+			1780
+		},
+		{
+			431233,
+			1780
 		}
 	}
 }

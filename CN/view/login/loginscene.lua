@@ -838,7 +838,7 @@ function slot0.playOpening(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end, "ui", "opening", true, true, nil)
+	end, "ui", "opening", true, false, nil)
 
 	slot0.onPlayingOP = true
 end

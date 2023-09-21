@@ -17,7 +17,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OnMapOp, function (slot0, slot1)
 		uv0:sendNotification(GAME.WORLD_MAP_OP, slot1)
 	end)
-	slot0:bind(uv0.OnMapReq, function (slot0, slot1)
+	slot0:bind(uv0.OnMapReq, function (slot0, slot1, slot2)
+		assert(uv0.fetchCallback == nil)
+
+		uv0.fetchCallback = slot2
+
 		uv0:sendNotification(GAME.WORLD_MAP_REQ, {
 			mapId = slot1
 		})
@@ -378,13 +382,10 @@ function slot0.handleNotification(slot0, slot1)
 			uv0.viewComponent:Op("OpTaskGoto", uv1.taskId)
 		end,
 		[GAME.WORLD_MAP_REQ_DONE] = function ()
-			slot0 = uv0.viewComponent:GetCommand()
+			assert(uv0.fetchCallback)
+			existCall(uv0.fetchCallback)
 
-			if uv1.result == 0 then
-				slot0:OpDone("OpFetchMapDone")
-			else
-				slot0:OpDone()
-			end
+			uv0.fetchCallback = nil
 		end,
 		[uv0.OnNotificationOpenLayer] = function ()
 			uv0:addSubLayers(uv1.context)

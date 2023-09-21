@@ -19194,7 +19194,7 @@ _G.pg.base.gametip.use_oil_limit_help = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-	tip = "周回油耗上限:"
+	tip = "周回油耗上限："
 }
 
 _G.pg.base.gametip.index_awakening2 = {
@@ -23397,6 +23397,10 @@ _G.pg.base.gametip.multiple_sorties_cost2 = {
 	tip = "和<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1个特别挑战券」</color>"
 }
 
+_G.pg.base.gametip.multiple_sorties_cost3 = {
+	tip = "和<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1个高效作战指令书」</color>"
+}
+
 _G.pg.base.gametip.multiple_sorties_stopped = {
 	tip = "已中止"
 }
@@ -25194,4 +25198,8 @@ _G.pg.base.gametip.luckybag_skin_isani = {
 
 _G.pg.base.gametip.luckybag_skin_islive2d = {
 	tip = "Live 2d"
+}
+
+_G.pg.base.gametip.SkinMagazinePage2_tip = {
+	tip = "点击签到"
 }

@@ -9783,8 +9783,8 @@ pg.activity_template = {
 			{
 				{
 					2023,
-					10,
-					4
+					9,
+					17
 				},
 				{
 					23,
@@ -10059,6 +10059,222 @@ pg.activity_template = {
 					2023,
 					10,
 					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5015] = {
+		mark = 20230921,
+		id = 5015,
+		title_res_tag = "skin_magazine2",
+		type = 86,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 48,
+		config_data = {
+			19294,
+			19295,
+			19296
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazinePage2",
+			ui_name = "SkinMagazinePage2"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANHEDINGJIER2"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIER3"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIER1"
+				}
+			}
+		}
+	},
+	[5016] = {
+		mark = 20230921,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5016,
+		config_data = {
+			19297
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5017] = {
+		mark = 20230921,
+		config_client = "",
+		title_res_tag = "Javelin_dressSkin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		id = 5017,
+		config_data = {
+			{
+				19298,
+				19299
+			},
+			{
+				19300,
+				19301
+			},
+			{
+				19302,
+				19303
+			},
+			{
+				19304,
+				19305
+			},
+			{
+				19306,
+				19307
+			},
+			{
+				19308,
+				19309
+			},
+			{
+				19310,
+				19311
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JavelinDressSkinPage",
+			ui_name = "JavelinDressSkinPage"
+		}
+	},
+	[5018] = {
+		mark = 20230921,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5018,
+		config_data = {
+			403,
+			404,
+			405,
+			406,
+			407,
+			408
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					4
 				},
 				{
 					23,
@@ -15730,6 +15946,10 @@ pg.activity_template = {
 		5012,
 		5013,
 		5014,
+		5015,
+		5016,
+		5017,
+		5018,
 		7001,
 		7002,
 		7003,

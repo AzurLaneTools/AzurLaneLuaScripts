@@ -34,8 +34,17 @@ function slot0.Ctor(slot0, slot1)
 		0
 	}
 	slot0.location = slot1.location
+	slot0.icon = slot1.icon
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
+end
+
+function slot0.ExistIcon(slot0)
+	return slot0.icon ~= nil
+end
+
+function slot0.GetIconData(slot0)
+	return slot0.icon
 end
 
 function slot0.SetId(slot0, slot1)
