@@ -786,7 +786,7 @@ pg.login = {
 	},
 	[35] = {
 		id = 35,
-		op_play = 0,
+		op_play = 1,
 		login_static = "login_0921",
 		login_cri = "",
 		bgm = "",
@@ -807,8 +807,8 @@ pg.login = {
 			{
 				{
 					2023,
-					9,
-					28
+					10,
+					12
 				},
 				{
 					23,
