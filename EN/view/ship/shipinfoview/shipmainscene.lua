@@ -1039,6 +1039,11 @@ function slot0.loadPainting(slot0, slot1, slot2)
 
 			setPaintingPrefabAsync(uv1, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
 				ShipExpressionHelper.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
+
+				slot0 = uv0:Find("fitter"):GetChild(0)
+
+				setActiveViaLayer(slot0, true)
+				checkCullResume(slot0)
 				uv2()
 			end)
 		end)

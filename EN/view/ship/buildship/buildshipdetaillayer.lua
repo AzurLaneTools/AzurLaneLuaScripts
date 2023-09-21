@@ -302,7 +302,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		uv0.canvasgroup.blocksRaycasts = true
 
 		uv1()
-	end, "ui", slot3.build_anim or "Building", true, true, {
+	end, "ui", slot3.build_anim or "Building", true, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	}, 4.5, true)
 end

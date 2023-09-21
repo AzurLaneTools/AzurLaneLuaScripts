@@ -19703,10 +19703,10 @@ pg.base.ship_data_group = {
 			"D"
 		},
 		trans_radar_chart = {
-			"B",
-			"B",
+			"C",
+			"A",
 			"E",
-			"B",
+			"A",
 			"B",
 			"D"
 		},

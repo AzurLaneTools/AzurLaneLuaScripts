@@ -23558,11 +23558,15 @@ _G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
 }
 
 _G.pg.base.gametip.multiple_sorties_cost1 = {
-	tip = "Estimated Consumption: <color=#92fc63><icon name=oil w=0.7 h=0.7/>$1 Oil </color>"
+	tip = "Cost: <color=#92fc63><icon name=oil w=0.7 h=0.7/>$1 Oil</color>"
 }
 
 _G.pg.base.gametip.multiple_sorties_cost2 = {
-	tip = "and <color=#92fc63><icon name=ticket w=0.7 h=0.7/>$1 Bonus Ticket(s)</color>."
+	tip = "<color=#92fc63><icon name=ticket w=0.7 h=0.7/>$1 Bonus Ticket(s)</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost3 = {
+	tip = "<color=#92fc63><icon name=ticket w=0.7 h=0.7/>$1 High Efficiency Combat Logistics Plan(s)</color>"
 }
 
 _G.pg.base.gametip.multiple_sorties_stopped = {
@@ -25450,4 +25454,8 @@ _G.pg.base.gametip.luckybag_skin_isani = {
 
 _G.pg.base.gametip.luckybag_skin_islive2d = {
 	tip = "Live 2d"
+}
+
+_G.pg.base.gametip.SkinMagazinePage2_tip = {
+	tip = "Collect"
 }

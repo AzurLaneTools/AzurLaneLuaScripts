@@ -11510,6 +11510,18 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[40929] = {
+		open_directly = 1,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "4929",
+		id = 40929,
+		compose_number = 0,
+		target_id = 0
+	},
 	[40951] = {
 		open_directly = 1,
 		display_effect = "",
@@ -30628,6 +30640,7 @@ pg.item_data_template = {
 		40926,
 		40927,
 		40928,
+		40929,
 		40951,
 		40952,
 		40953,

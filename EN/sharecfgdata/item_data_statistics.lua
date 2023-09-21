@@ -217207,7 +217207,44 @@ The available skins and their rarities are as follows:
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			319012,
+			1300
+		},
+		{
+			299012,
+			1200
+		},
+		{
+			404032,
+			1200
+		},
+		{
+			202302,
+			1150
+		},
+		{
+			305054,
+			1150
+		},
+		{
+			102071,
+			1000
+		},
+		{
+			506012,
+			1000
+		},
+		{
+			401282,
+			1000
+		},
+		{
+			801082,
+			1000
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[69921] = {
@@ -217565,22 +217602,8 @@ _G.pg.base.item_data_statistics[69928] = {
 }
 
 _G.pg.base.item_data_statistics[69929] = {
-	display = [[
-还未处理名称替换， 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>8.0%</color>）{namecode:516}换装 暗之龙，光之岸（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）{namecode:199}换装 盛夏的闲暇（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）{namecode:97}换装 海滨的白日美梦（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）安克雷奇换装 海豚、海洋、游泳课（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）{namecode:514}换装 清澈假日；
-（<color=#92fc63>8.0%</color>）皇家财富号换装 海边的约定；
-（<color=#92fc63>11.0%</color>）{namecode:510}换装 猎物与陷阱？；
-（<color=#92fc63>11.0%</color>）{namecode:226}换装 丛林的清凉小憩；
-（<color=#92fc63>11.0%</color>）{namecode:194}换装 日光公主；
-（<color=#92fc63>9.5%</color>）{namecode:491}换装 清凉一夏；
-（<color=#92fc63>9.5%</color>）曼彻斯特换装 海边的片刻宁静；
-]],
-	name = "随机金秋庆典换装2023",
+	display = "不会被看到",
+	name = "Random Skin",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -217598,7 +217621,32 @@ _G.pg.base.item_data_statistics[69929] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			303191,
+			1210
+		},
+		{
+			307083,
+			1210
+		},
+		{
+			205065,
+			2010
+		},
+		{
+			302233,
+			2010
+		},
+		{
+			206022,
+			1780
+		},
+		{
+			431233,
+			1780
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[69951] = {

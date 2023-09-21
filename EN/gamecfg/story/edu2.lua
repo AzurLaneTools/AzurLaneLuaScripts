@@ -424,7 +424,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "*gulp*... You scoundrel... There's no way any sane person could turn down her mouth-watering desserts...",
+			say = "Urgh... You scoundrel... Trying to bait me with the sweet, soft embrace of the sofa...",
 			painting = {
 				alpha = 0.3,
 				time = 1

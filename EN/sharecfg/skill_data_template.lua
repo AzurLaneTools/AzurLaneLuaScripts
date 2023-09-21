@@ -99969,7 +99969,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 30001,
 		type = 1,
 		max_level = 1,
-		desc = "Activates All Out Assault I: Felix Schultz once every 15 times the Main Guns are fired. If this ship has a CL Main Gun equipped: reduces the shot requirement to 6.",
+		desc = "Activates All Out Assault I: Otto von Alvensleben once every 15 times the Main Guns are fired. If this ship has a CL Main Gun equipped: reduces the shot requirement to 6.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -99983,7 +99983,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 30011,
 		type = 1,
 		max_level = 1,
-		desc = "Activates All Out Assault II: Felix Schultz once every 10 times the Main Guns are fired. If this ship has a CL Main Gun equipped: reduces the shot requirement to 4.",
+		desc = "Activates All Out Assault II: Otto von Alvensleben once every 10 times the Main Guns are fired. If this ship has a CL Main Gun equipped: reduces the shot requirement to 4.",
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -835,7 +835,7 @@ function slot0.checkEnemySplit(slot0)
 						break
 					end
 
-					slot0.seriesCount = 0
+					slot0.seriesCount = 1
 					slot0.seriesCombat = 0
 
 					break

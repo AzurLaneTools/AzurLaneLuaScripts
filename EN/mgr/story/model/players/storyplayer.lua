@@ -195,6 +195,9 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 					uv0:StartMoveNode(uv1, slot0)
 				end,
 				function (slot0)
+					uv0:UpdateIcon(uv1, slot0)
+				end,
+				function (slot0)
 					uv0:SetLocation(uv1, slot0)
 				end
 			}, slot0)
@@ -384,6 +387,33 @@ function slot0.SetLocation(slot0, slot1, slot2)
 		uv0()
 		uv1()
 	end)
+end
+
+function slot0.UpdateIcon(slot0, slot1, slot2)
+	if not slot1:ExistIcon() then
+		setActive(slot0.iconImage.gameObject, false)
+		slot2()
+
+		return
+	end
+
+	slot3 = slot1:GetIconData()
+	slot0.iconImage.sprite = LoadSprite(slot3.image)
+
+	slot0.iconImage:SetNativeSize()
+
+	slot4 = slot0.iconImage.gameObject.transform
+
+	if slot3.pos then
+		slot4.localPosition = Vector3(slot3.pos[1], slot3.pos[2], 0)
+	else
+		slot4.localPosition = Vector3.one
+	end
+
+	slot4.localScale = Vector3(slot3.scale or 1, slot3.scale or 1, 1)
+
+	setActive(slot0.iconImage.gameObject, true)
+	slot2()
 end
 
 function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
@@ -1015,6 +1045,9 @@ function slot0.Clear(slot0, slot1)
 end
 
 function slot0.StoryEnd(slot0)
+	setActive(slot0.iconImage.gameObject, false)
+
+	slot0.iconImage.sprite = nil
 	slot0.branchCodeList = {}
 	slot0.stop = false
 	slot0.pause = false

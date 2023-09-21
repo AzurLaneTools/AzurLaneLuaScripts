@@ -2519,6 +2519,9 @@ pg.memory_template = setmetatable({
 		3020,
 		3021,
 		3022,
+		3031,
+		3032,
+		3033,
 		10011,
 		10012,
 		10013,
@@ -30265,6 +30268,39 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 		id = 3022,
 		icon = "memory_dujiacunshenmishijiandiaocha",
+		is_open = 0
+	},
+	[3031] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Dreamy White Sands",
+		condition = "Complete Shinano's Vignette in \"Port Fashion Collection Vol. 2\"",
+		story = "SHISHANGTEKANHEDINGJIER1",
+		id = 3031,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3032] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Sojourn Through Clear Seas",
+		condition = "Complete Unzen's Vignette in \"Port Fashion Collection Vol. 2\"",
+		story = "SHISHANGTEKANHEDINGJIER2",
+		id = 3032,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3033] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "The Cat and the White Steed",
+		condition = "Complete Cheshire's Vignette in \"Port Fashion Collection Vol. 2\"",
+		story = "SHISHANGTEKANHEDINGJIER3",
+		id = 3033,
+		icon = "memory_shishangtekanhedingji2",
 		is_open = 0
 	},
 	[10011] = {

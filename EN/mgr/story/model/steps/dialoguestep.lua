@@ -91,13 +91,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.live2d = slot1.live2d
 	slot0.spine = slot1.spine
 	slot0.live2dOffset = slot1.live2dOffset
-	slot0.icon = slot1.icon
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
 	slot0.canMarkNode = slot1.canMarkNode
 	slot0.portrait = slot1.portrait
 	slot0.glitchArtForPortrait = slot1.portraitNoise
 
 	if slot0.hidePainting or slot0.actor == nil then
+		slot0.actor = nil
 		slot0.hideOtherPainting = true
 	end
 
@@ -499,14 +499,6 @@ function slot0.IsSamePainting(slot0, slot1)
 	return slot0:GetPainting() == slot1:GetPainting() and slot0:IsLive2dPainting() == slot1:IsLive2dPainting() and slot0:IsSpinePainting() == slot1:IsSpinePainting() and not (function ()
 		return uv0:ShouldAddGlitchArtEffect() or uv1:ShouldAddGlitchArtEffect()
 	end)()
-end
-
-function slot0.ExistIcon(slot0)
-	return slot0.icon ~= nil
-end
-
-function slot0.GetIconData(slot0)
-	return slot0.icon
 end
 
 function slot0.ExistCanMarkNode(slot0)
