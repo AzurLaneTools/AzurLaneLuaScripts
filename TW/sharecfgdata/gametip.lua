@@ -4100,7 +4100,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2023.6.29~2023.9.21</color>期間限時開放「聲望·META」的挑戰，在此期間指揮官可挑戰「聲望·META」累計其同步值獲取<color=#92fc63>「聲望·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2023.9.21~2023.12.14</color>期間限時開放「亞利桑那·META」的挑戰，在此期間指揮官可挑戰「亞利桑那·META」累計其同步值獲取<color=#92fc63>「亞利桑那·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -4129,7 +4129,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2023.7.28~2023.9.21期間，艦隊挑戰「聲望·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
+隨著信標·META挑戰的進行，從第31天開始，即2023.10.20~2023.12.14期間，艦隊挑戰「亞利桑那·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。 ]]
 		}
 	}
@@ -18148,7 +18148,7 @@ _G.pg.base.gametip.cruise_task_help_2110 = {
 }
 
 _G.pg.base.gametip.cruise_task_phase = {
-	tip = "巡游進度 | PHASE.$1"
+	tip = "巡遊進度 | PHASE.$1"
 }
 
 _G.pg.base.gametip.cruise_task_tips = {
@@ -23035,7 +23035,7 @@ _G.pg.base.gametip.battle_result_total_time = {
 }
 
 _G.pg.base.gametip.charge_game_room_coin_tip = {
-	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物資兌換<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>个$4"
+	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物資兌換<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>個$4"
 }
 
 _G.pg.base.gametip.game_room_shooting_tip = {

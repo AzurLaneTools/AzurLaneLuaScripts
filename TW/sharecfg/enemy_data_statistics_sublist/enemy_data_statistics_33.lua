@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[653] = {
+		cannon = 320,
+		name = "【斬首行動】翔鶴",
+		antiaircraft_growth = 6435,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 565,
+		air_growth = 6501,
+		dodge = 7,
+		luck = 0,
+		id = 653,
+		cannon_growth = 1800,
+		reload_growth = 0,
+		dodge_growth = 108,
+		reload = 150,
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 6,
+		fog_fx = "",
+		base = 90243,
+		durability = 14170,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 78,
+		hit_growth = 210,
+		armor = 0,
+		speed = 20,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 123800,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100352,
+			315082,
+			315083,
+			315084
+		}
+	},
 	[654] = {
 		cannon = 320,
 		name = "【斬首行動】瑞鶴",
@@ -832,50 +877,6 @@ pg.enemy_data_statistics_33 = {
 			300506,
 			300507,
 			300508
-		}
-	},
-	[751] = {
-		cannon = 250,
-		name = "【戰術研修】【BOSS】沙恩霍斯特",
-		antiaircraft_growth = 3000,
-		speed_growth = 0,
-		pilot_ai_template_id = 20006,
-		air = 0,
-		air_growth = 0,
-		dodge = 3,
-		luck = 0,
-		id = 751,
-		cannon_growth = 2000,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 4,
-		fog_fx = "",
-		base = 90223,
-		durability = 200000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 100,
-		hit_growth = 210,
-		armor = 0,
-		speed = 20,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			300509,
-			300510,
-			300511,
-			300512
 		}
 	}
 }

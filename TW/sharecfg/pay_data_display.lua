@@ -4103,6 +4103,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[4029] = {
+		subject = "福袋",
+		limit_group = 0,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "台服四週年禮盒",
+		name_display = "四週年禮盒 ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4029,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihejp6lf_l",
+		skin_inquire_relation = 86007,
+		id_str = "com.hkmanjuu.azurlane.package30",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2023鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package30",
+		extra_service_item = {
+			{
+				2,
+				86007,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86007,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81007,
+				1
+			}
+		}
+	},
+	[4030] = {
+		subject = "福袋",
+		limit_group = 0,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "台服三週年禮盒（復刻）",
+		name_display = "三週年禮盒（復刻）",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4030,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe9_l",
+		skin_inquire_relation = 86004,
+		id_str = "com.hkmanjuu.azurlane.package31",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package31",
+		extra_service_item = {
+			{
+				2,
+				86004,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86004,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81004,
+				1
+			}
+		}
+	},
 	[4850] = {
 		subject = "最高方案研發禮包（一期）",
 		limit_group = 1,
@@ -5648,6 +5874,8 @@ pg.pay_data_display = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
 		4850,
 		4851,
 		4852,

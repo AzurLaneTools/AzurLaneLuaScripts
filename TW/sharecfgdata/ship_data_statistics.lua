@@ -221851,20 +221851,16 @@ _G.pg.base.ship_data_statistics[408111] = {
 	hunting_range = {
 		{
 			{
-				-2,
-				-2
-			},
-			{
-				-2,
-				2
-			},
-			{
 				-1,
 				-3
 			},
 			{
 				-1,
 				-1
+			},
+			{
+				-1,
+				0
 			},
 			{
 				-1,
@@ -221930,7 +221926,7 @@ _G.pg.base.ship_data_statistics[408111] = {
 			},
 			{
 				2,
-				-2
+				-1
 			},
 			{
 				2,
@@ -221938,41 +221934,41 @@ _G.pg.base.ship_data_statistics[408111] = {
 			},
 			{
 				2,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				1,
 				2
+			},
+			{
+				3,
+				0
 			}
 		},
 		{
 			{
 				-1,
-				0
+				-2
 			},
 			{
-				3,
-				-1
-			},
-			{
-				3,
-				1
+				-1,
+				2
 			}
 		},
 		{
 			{
-				-3,
+				-2,
 				-1
 			},
 			{
-				-3,
+				-2,
 				1
-			}
-		},
-		{
-			{
-				-3,
-				0
-			},
-			{
-				3,
-				0
 			}
 		}
 	},
@@ -222100,20 +222096,16 @@ _G.pg.base.ship_data_statistics[408112] = {
 	hunting_range = {
 		{
 			{
-				-2,
-				-2
-			},
-			{
-				-2,
-				2
-			},
-			{
 				-1,
 				-3
 			},
 			{
 				-1,
 				-1
+			},
+			{
+				-1,
+				0
 			},
 			{
 				-1,
@@ -222179,7 +222171,7 @@ _G.pg.base.ship_data_statistics[408112] = {
 			},
 			{
 				2,
-				-2
+				-1
 			},
 			{
 				2,
@@ -222187,41 +222179,41 @@ _G.pg.base.ship_data_statistics[408112] = {
 			},
 			{
 				2,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				1,
 				2
+			},
+			{
+				3,
+				0
 			}
 		},
 		{
 			{
 				-1,
-				0
+				-2
 			},
 			{
-				3,
-				-1
-			},
-			{
-				3,
-				1
+				-1,
+				2
 			}
 		},
 		{
 			{
-				-3,
+				-2,
 				-1
 			},
 			{
-				-3,
+				-2,
 				1
-			}
-		},
-		{
-			{
-				-3,
-				0
-			},
-			{
-				3,
-				0
 			}
 		}
 	},
@@ -222349,20 +222341,16 @@ _G.pg.base.ship_data_statistics[408113] = {
 	hunting_range = {
 		{
 			{
-				-2,
-				-2
-			},
-			{
-				-2,
-				2
-			},
-			{
 				-1,
 				-3
 			},
 			{
 				-1,
 				-1
+			},
+			{
+				-1,
+				0
 			},
 			{
 				-1,
@@ -222428,7 +222416,7 @@ _G.pg.base.ship_data_statistics[408113] = {
 			},
 			{
 				2,
-				-2
+				-1
 			},
 			{
 				2,
@@ -222436,41 +222424,41 @@ _G.pg.base.ship_data_statistics[408113] = {
 			},
 			{
 				2,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				1,
 				2
+			},
+			{
+				3,
+				0
 			}
 		},
 		{
 			{
 				-1,
-				0
+				-2
 			},
 			{
-				3,
-				-1
-			},
-			{
-				3,
-				1
+				-1,
+				2
 			}
 		},
 		{
 			{
-				-3,
+				-2,
 				-1
 			},
 			{
-				-3,
+				-2,
 				1
-			}
-		},
-		{
-			{
-				-3,
-				0
-			},
-			{
-				3,
-				0
 			}
 		}
 	},
@@ -222598,20 +222586,16 @@ _G.pg.base.ship_data_statistics[408114] = {
 	hunting_range = {
 		{
 			{
-				-2,
-				-2
-			},
-			{
-				-2,
-				2
-			},
-			{
 				-1,
 				-3
 			},
 			{
 				-1,
 				-1
+			},
+			{
+				-1,
+				0
 			},
 			{
 				-1,
@@ -222677,7 +222661,7 @@ _G.pg.base.ship_data_statistics[408114] = {
 			},
 			{
 				2,
-				-2
+				-1
 			},
 			{
 				2,
@@ -222685,41 +222669,41 @@ _G.pg.base.ship_data_statistics[408114] = {
 			},
 			{
 				2,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				1,
 				2
+			},
+			{
+				3,
+				0
 			}
 		},
 		{
 			{
 				-1,
-				0
+				-2
 			},
 			{
-				3,
-				-1
-			},
-			{
-				3,
-				1
+				-1,
+				2
 			}
 		},
 		{
 			{
-				-3,
+				-2,
 				-1
 			},
 			{
-				-3,
+				-2,
 				1
-			}
-		},
-		{
-			{
-				-3,
-				0
-			},
-			{
-				3,
-				0
 			}
 		}
 	},
@@ -310194,6 +310178,510 @@ _G.pg.base.ship_data_statistics[9705024] = {
 	tag_list = {
 		"YamashiroMETA",
 		"Yamashiro"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "亞利桑那·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705030,
+	english_name = "Arizona.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1242,
+		82,
+		0,
+		49,
+		0,
+		55,
+		0,
+		16,
+		3,
+		21,
+		28,
+		0
+	},
+	attrs_growth = {
+		21381,
+		1009,
+		0,
+		660,
+		0,
+		379,
+		0,
+		237,
+		129,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"ArizonaMETA",
+		"TOC",
+		"Pennsylvania-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "亞利桑那·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705030,
+	english_name = "Arizona.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1545,
+		102,
+		0,
+		61,
+		0,
+		55,
+		0,
+		16,
+		3,
+		21,
+		28,
+		0
+	},
+	attrs_growth = {
+		21381,
+		1009,
+		0,
+		660,
+		0,
+		379,
+		0,
+		237,
+		129,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"ArizonaMETA",
+		"TOC",
+		"Pennsylvania-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "亞利桑那·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705030,
+	english_name = "Arizona.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2151,
+		143,
+		0,
+		85,
+		0,
+		55,
+		0,
+		16,
+		3,
+		21,
+		28,
+		0
+	},
+	attrs_growth = {
+		21381,
+		1009,
+		0,
+		660,
+		0,
+		379,
+		0,
+		237,
+		129,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"ArizonaMETA",
+		"TOC",
+		"Pennsylvania-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "亞利桑那·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705030,
+	english_name = "Arizona.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3059,
+		204,
+		0,
+		121,
+		0,
+		55,
+		0,
+		16,
+		3,
+		21,
+		28,
+		0
+	},
+	attrs_growth = {
+		21381,
+		1009,
+		0,
+		660,
+		0,
+		379,
+		0,
+		237,
+		129,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"ArizonaMETA",
+		"TOC",
+		"Pennsylvania-Class"
 	}
 }
 

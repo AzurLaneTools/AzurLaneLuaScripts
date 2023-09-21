@@ -1071,7 +1071,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705031] = {
-		breakout_view = "习得技能【构造之理·亚利桑那】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【構造之理·亞利桑那】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9705032,
 		repair = 0,
@@ -1106,7 +1106,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705033] = {
-		breakout_view = "【构造之理·亚利桑那】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【構造之理·亞利桑那】升級/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9705034,
 		repair = 0,
@@ -1124,7 +1124,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705034] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

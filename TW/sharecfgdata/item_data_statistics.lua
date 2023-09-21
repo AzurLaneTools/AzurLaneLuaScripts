@@ -9796,6 +9796,29 @@ _G.pg.base.item_data_statistics[21016] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21017] = {
+	display = "亞利桑那·META的專用性能提升裝置，可在“META研究室”-“能量啟動”中使用。",
+	name = "結晶：亞利桑那·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21017",
+	id = 21017,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21018] = {
 	display = "謝菲爾德·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
 	name = "結晶：謝菲爾德·META",
@@ -10111,6 +10134,29 @@ _G.pg.base.item_data_statistics[21908] = {
 	is_world = 0,
 	icon = "Props/21908",
 	id = 21908,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21909] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升亞利桑那·META同步率。",
+	name = "同步值：亞利桑那·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21909",
+	id = 21909,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -11228,7 +11274,113 @@ _G.pg.base.item_data_statistics[30302] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30302,
-	display_icon = {},
+	display_icon = {
+		{
+			9,
+			1,
+			1
+		},
+		{
+			9,
+			2,
+			1
+		},
+		{
+			9,
+			3,
+			1
+		},
+		{
+			9,
+			4,
+			1
+		},
+		{
+			9,
+			5,
+			1
+		},
+		{
+			9,
+			6,
+			1
+		},
+		{
+			9,
+			7,
+			1
+		},
+		{
+			9,
+			8,
+			1
+		},
+		{
+			9,
+			9,
+			1
+		},
+		{
+			9,
+			10,
+			1
+		},
+		{
+			9,
+			11,
+			1
+		},
+		{
+			9,
+			12,
+			1
+		},
+		{
+			9,
+			13,
+			1
+		},
+		{
+			9,
+			14,
+			1
+		},
+		{
+			9,
+			15,
+			1
+		},
+		{
+			9,
+			16,
+			1
+		},
+		{
+			9,
+			17,
+			1
+		},
+		{
+			9,
+			18,
+			1
+		},
+		{
+			9,
+			19,
+			1
+		},
+		{
+			9,
+			20,
+			1
+		},
+		{
+			9,
+			21,
+			1
+		}
+	},
 	price = {
 		1,
 		7000
@@ -180410,7 +180562,7 @@ _G.pg.base.item_data_statistics[81003] = {
 
 _G.pg.base.item_data_statistics[81004] = {
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2022，高級定向藍圖・四期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
-	name = "三周年禮盒",
+	name = "三周年禮盒（復刻）",
 	max_num = 0,
 	type = 17,
 	time_limit = 0,
@@ -180556,6 +180708,65 @@ _G.pg.base.item_data_statistics[81006] = {
 		{
 			2,
 			42036,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81007] = {
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2023，高級定向藍圖・五期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
+	name = "四周年禮盒",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihejp6lf",
+	id = 81007,
+	display_icon = {
+		{
+			2,
+			86007,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
 			2
 		},
 		{
@@ -180810,7 +181021,52 @@ _G.pg.base.item_data_statistics[86004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			319012,
+			1200
+		},
+		{
+			406012,
+			1200
+		},
+		{
+			299012,
+			910
+		},
+		{
+			305054,
+			900
+		},
+		{
+			607012,
+			900
+		},
+		{
+			407032,
+			900
+		},
+		{
+			102071,
+			810
+		},
+		{
+			408082,
+			810
+		},
+		{
+			401282,
+			790
+		},
+		{
+			801082,
+			790
+		},
+		{
+			301832,
+			790
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[86005] = {
@@ -180898,6 +181154,84 @@ _G.pg.base.item_data_statistics[86006] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[86007] = {
+	display = [[
+还未处理名称替换， 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>8.0%</color>）{namecode:516}换装 暗之龙，光之岸（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:199}换装 盛夏的闲暇（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:97}换装 海滨的白日美梦（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）安克雷奇换装 海豚、海洋、游泳课（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:514}换装 清澈假日；
+（<color=#92fc63>8.0%</color>）皇家财富号换装 海边的约定；
+（<color=#92fc63>11.0%</color>）{namecode:510}换装 猎物与陷阱？；
+（<color=#92fc63>11.0%</color>）{namecode:226}换装 丛林的清凉小憩；
+（<color=#92fc63>11.0%</color>）{namecode:194}换装 日光公主；
+（<color=#92fc63>9.5%</color>）{namecode:491}换装 清凉一夏；
+（<color=#92fc63>9.5%</color>）曼彻斯特换装 海边的片刻宁静；
+]],
+	name = "隨機換裝",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86007,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			319013,
+			820
+		},
+		{
+			399052,
+			820
+		},
+		{
+			307083,
+			820
+		},
+		{
+			205065,
+			1140
+		},
+		{
+			302233,
+			1140
+		},
+		{
+			404032,
+			1140
+		},
+		{
+			202302,
+			1120
+		},
+		{
+			506012,
+			1020
+		},
+		{
+			601032,
+			990
+		},
+		{
+			431233,
+			990
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[89001] = {

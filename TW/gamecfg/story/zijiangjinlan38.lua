@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其一，皇家艦隊更本就沒有參與針對構建者主機的作戰行動。",
+			say = "其一，皇家艦隊根本就沒有參與針對構建者主機的作戰行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1

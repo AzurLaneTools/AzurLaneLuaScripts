@@ -9701,5 +9701,112 @@ pg.base.ship_skin_template_1 = {
 			login = 1.32,
 			mission = 1.6
 		}
+	},
+	[101442] = {
+		ship_group = 10144,
+		name = "聖夜的溫暖饋贈",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 101442,
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70454,
+		painting = "kubo_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "100",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "kubo_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "唔？我正在把大家的禮物裝到盒子裡呢，一會它們就要被送到每個人的手裡了呢~嘿嘿，指揮官也來幫忙吧！",
+		voice_actor = 229,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.067,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.053,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.486,
+							2.499,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

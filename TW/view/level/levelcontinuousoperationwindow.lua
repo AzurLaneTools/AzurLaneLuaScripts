@@ -86,7 +86,7 @@ function slot0.UpdateContent(slot0)
 	end
 
 	if slot6 > 0 then
-		slot10 = slot10 .. i18n("multiple_sorties_cost2", slot6)
+		slot10 = slot10 .. i18n("multiple_sorties_cost3", slot6)
 	end
 
 	slot0.consumeText.text = slot10

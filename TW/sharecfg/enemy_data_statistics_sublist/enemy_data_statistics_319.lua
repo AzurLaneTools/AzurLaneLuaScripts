@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_319 = {
+	[15603304] = {
+		cannon = 255,
+		battle_unit_type = 95,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 390,
+		speed = 18,
+		dodge = 22,
+		id = 15603304,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 312,
+		luck = 25,
+		star = 4,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 0,
+		base = 90469,
+		durability = 110000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 280,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 410,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		scale = 144,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			873201,
+			873202,
+			873203,
+			873204,
+			873210,
+			873211,
+			873212
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603305] = {
 		cannon = 232,
 		name = "噩夢投射-「航空母艦」",
@@ -875,63 +927,6 @@ pg.enemy_data_statistics_319 = {
 			1100024
 		},
 		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604114] = {
-		cannon = 120,
-		name = "噩夢投射-「戰列艦」",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 4680,
-		air = 0,
-		rarity = 3,
-		armor = 0,
-		id = 15604114,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		dodge_growth = 170,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90622,
-		durability = 9010,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 3600,
-		fog_fx = "",
-		dodge = 17,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 0,
-		durability_growth = 68000,
-		antiaircraft = 212,
-		hit_growth = 350,
-		armor_type = 3,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			874903,
-			874906,
-			1100724,
-			1003165,
-			1100034
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 5
-			},
 			{
 				ID = 8924,
 				LV = 1

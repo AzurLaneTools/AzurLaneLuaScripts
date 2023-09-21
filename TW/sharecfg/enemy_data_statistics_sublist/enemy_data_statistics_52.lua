@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_52 = {
+	[9003] = {
+		cannon = 38,
+		name = "吹雪級量產型",
+		antiaircraft_growth = 920,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		air_growth = 0,
+		dodge = 0,
+		luck = 0,
+		id = 9003,
+		cannon_growth = 350,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 1,
+		fog_fx = "",
+		base = 90102,
+		durability = 540,
+		armor_growth = 0,
+		torpedo_growth = 2800,
+		antiaircraft = 80,
+		hit_growth = 160,
+		armor = 0,
+		speed = 15,
+		torpedo = 72,
+		antisub = 0,
+		durability_growth = 8520,
+		luck_growth = 0,
+		battle_unit_type = 20,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100218,
+			100427
+		}
+	},
 	[9004] = {
 		cannon = 40,
 		name = "白露級量產型",
@@ -837,49 +878,6 @@ pg.enemy_data_statistics_52 = {
 			318060,
 			318061,
 			318062
-		}
-	},
-	[9023] = {
-		cannon = 210,
-		name = "妙高",
-		antiaircraft_growth = 2420,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 7,
-		luck = 0,
-		id = 9023,
-		cannon_growth = 1500,
-		reload_growth = 0,
-		dodge_growth = 102,
-		reload = 150,
-		star = 4,
-		hit = 20,
-		antisub_growth = 0,
-		rarity = 3,
-		fog_fx = "",
-		base = 90203,
-		durability = 6200,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		antiaircraft = 130,
-		hit_growth = 210,
-		armor = 0,
-		speed = 18,
-		torpedo = 280,
-		antisub = 0,
-		durability_growth = 52000,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318063,
-			318064,
-			318065,
-			318066
 		}
 	}
 }

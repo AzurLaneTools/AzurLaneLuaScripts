@@ -32515,6 +32515,160 @@ pg.activity_template = {
 			}
 		}
 	},
+	[41337] = {
+		mark = 20230921,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41337,
+		config_data = {
+			19204
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41338] = {
+		mark = 20230921,
+		config_client = "",
+		title_res_tag = "FourthJp",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 52,
+		id = 41338,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FiveAnniversaryPage",
+			ui_name = "FiveAnniversaryPage"
+		}
+	},
+	[41339] = {
+		mark = 20230921,
+		config_client = "",
+		title_res_tag = "neihuada_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 51,
+		id = 41339,
+		config_data = {
+			{
+				17983,
+				17984
+			},
+			{
+				17985,
+				17986
+			},
+			{
+				17987,
+				17988
+			},
+			{
+				17989,
+				17990
+			},
+			{
+				17991,
+				17992
+			},
+			{
+				17993,
+				17994
+			},
+			{
+				17995,
+				17996
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeihuadaSkinPage",
+			ui_name = "NeihuadaSkinPage"
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -35765,6 +35919,9 @@ pg.activity_template = {
 		41334,
 		41335,
 		41336,
+		41337,
+		41338,
+		41339,
 		45000,
 		45001,
 		45002,

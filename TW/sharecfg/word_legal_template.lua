@@ -1684,7 +1684,18 @@ function temp()
 		["利"] = {
 			["桑"] = {
 				["那"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

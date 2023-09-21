@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[915] = {
+		cannon = 0,
+		name = "執棋者I型",
+		reload = 150,
+		fog_fx = "",
+		base = 90252,
+		air = 60,
+		battle_unit_type = 54,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 0,
+		durability = 20000,
+		antiaircraft = 450,
+		speed = 20,
+		armor = 0,
+		id = 915,
+		equipment_list = {
+			531018,
+			531019,
+			531020,
+			531021,
+			531022
+		}
+	},
 	[916] = {
 		cannon = 50,
 		antiaircraft_growth = 0,
@@ -776,46 +802,6 @@ pg.enemy_data_statistics_37 = {
 		antisub = 0,
 		antiaircraft = 20,
 		antiaircraft_growth = 1638,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
-		}
-	},
-	[1007] = {
-		cannon = 6,
-		battle_unit_type = 50,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 24,
-		dodge = 14,
-		id = 1007,
-		cannon_growth = 468,
-		rarity = 2,
-		reload_growth = 0,
-		dodge_growth = 210,
-		armor = 0,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90150,
-		durability = 115,
-		armor_growth = 0,
-		torpedo_growth = 3744,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 0,
-		torpedo = 45,
-		durability_growth = 8126,
-		antisub = 0,
-		antiaircraft = 21,
-		antiaircraft_growth = 1719,
 		appear_fx = {
 			"appearQ"
 		},

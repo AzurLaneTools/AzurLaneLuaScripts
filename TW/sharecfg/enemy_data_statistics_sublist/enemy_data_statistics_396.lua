@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[294055] = {
+		cannon = 0,
+		hit_growth = 126,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 5,
+		air = 55,
+		speed = 18,
+		dodge = 6,
+		id = 294055,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 80,
+		luck = 10,
+		star = 5,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 4438,
+		torpedo = 0,
+		base = 90427,
+		durability = 371,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 3744,
+		armor = 0,
+		durability_growth = 148500,
+		antiaircraft = 47,
+		antisub = 0,
+		battle_unit_type = 90,
+		scale = 150,
+		world_enhancement = {
+			29,
+			1.5,
+			1.4,
+			0.5,
+			0.1,
+			1.8,
+			4
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[294101] = {
 		cannon = 7,
 		hit_growth = 228,
@@ -2292,171 +2338,6 @@ pg.enemy_data_statistics_396 = {
 				0,
 				0.75,
 				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearBig"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[294320] = {
-		cannon = 8,
-		name = "仲裁者·天帕嵐斯·XIV",
-		type = 2,
-		speed_growth = 0,
-		battle_unit_type = 90,
-		air = 0,
-		air_growth = 0,
-		friendly_cld = 0,
-		durability = 210,
-		armor = 0,
-		id = 294320,
-		bubble_fx = "",
-		dodge_growth = 240,
-		icon = "sairenboss9",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 24,
-		luck_growth = 0,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 1800,
-		hit_growth = 130,
-		speed = 30,
-		luck = 45,
-		antisub = 0,
-		scale = 135,
-		wave_fx = "longjuanfengditu",
-		prefab = "sairenboss9",
-		cannon_growth = 575,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 19,
-		reload_growth = 0,
-		hit = 26,
-		nationality = 99,
-		durability_growth = 91700,
-		antiaircraft = 43,
-		antiaircraft_growth = 3400,
-		armor_type = 1,
-		world_enhancement = {
-			100,
-			2.5,
-			0.8,
-			0,
-			0,
-			1,
-			0.8
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.645,
-					0.568,
-					0
-				}
-			},
-			cannon2 = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.51,
-					0.443,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.464,
-					1.052,
-					0
-				},
-				{
-					-0.439,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							0.55,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.3,
-							0.87,
-							-0.4
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
 			},
 			{
 				0,

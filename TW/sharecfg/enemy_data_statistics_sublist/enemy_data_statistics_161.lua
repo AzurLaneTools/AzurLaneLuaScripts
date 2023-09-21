@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_161 = {
+	[11900102] = {
+		cannon = 100,
+		name = "艾塞克斯",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 100,
+		hit_growth = 210,
+		dodge = 0,
+		base = 90339,
+		durability_growth = 0,
+		antiaircraft = 520,
+		reload_growth = 0,
+		dodge_growth = 284,
+		speed = 30,
+		luck = 0,
+		hit = 200,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		torpedo = 0,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 11900102,
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[11900103] = {
 		cannon = 100,
 		name = "艾塞克斯",
@@ -748,46 +788,6 @@ pg.enemy_data_statistics_161 = {
 		},
 		equipment_list = {
 			100102
-		}
-	},
-	[12000204] = {
-		cannon = 14,
-		battle_unit_type = 60,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 18,
-		id = 12000204,
-		cannon_growth = 640,
-		rarity = 3,
-		reload_growth = 0,
-		dodge_growth = 264,
-		armor = 0,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90340,
-		durability = 770,
-		armor_growth = 0,
-		torpedo_growth = 4400,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 0,
-		torpedo = 54,
-		durability_growth = 21800,
-		antisub = 0,
-		antiaircraft = 40,
-		antiaircraft_growth = 1680,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1100010,
-			1100505
 		}
 	}
 }

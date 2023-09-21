@@ -2,311 +2,287 @@ pg = pg or {}
 pg.painting_filte_world = {
 	{
 		key = 1,
-		name = "shancheng"
-	},
-	{
-		key = 2,
 		name = "hao"
 	},
 	{
-		key = 3,
+		key = 2,
 		name = "wuwei"
 	},
 	{
-		key = 4,
-		name = "hermit"
-	},
-	{
-		key = 5,
-		name = "bominghan"
-	},
-	{
-		key = 6,
-		name = "linuo"
-	},
-	{
-		key = 7,
-		name = "tiancheng_hei"
-	},
-	{
-		key = 8,
-		name = "mengfeisi"
-	},
-	{
-		key = 9,
-		name = "tbniang"
-	},
-	{
-		key = 10,
-		name = "dahuangfeng"
-	},
-	{
-		key = 11,
-		name = "mengbiliai"
-	},
-	{
-		key = 12,
-		name = "temperance"
-	},
-	{
-		key = 13,
-		name = "qiye_hei"
-	},
-	{
-		key = 14,
-		name = "kelifulan"
-	},
-	{
-		key = 15,
-		name = "jiahe"
-	},
-	{
-		key = 16,
-		name = "baerdimo"
-	},
-	{
-		key = 17,
-		name = "beierfasite"
-	},
-	{
-		key = 18,
-		name = "qiye"
-	},
-	{
-		key = 19,
-		name = "luodeni"
-	},
-	{
-		key = 20,
-		name = "yilishabai"
-	},
-	{
-		key = 21,
-		name = "chicheng"
-	},
-	{
-		key = 22,
-		name = "shengwang_younv"
-	},
-	{
-		key = 23,
-		name = "masazhusai"
-	},
-	{
-		key = 24,
-		name = "buzhihuo"
-	},
-	{
-		key = 25,
-		name = "yuekecheng_hei"
-	},
-	{
-		key = 26,
-		name = "qiaozhiwushi"
-	},
-	{
-		key = 27,
-		name = "jingang"
-	},
-	{
-		key = 28,
-		name = "niukasier"
-	},
-	{
-		key = 29,
-		name = "xuefeng"
-	},
-	{
-		key = 30,
-		name = "tierbici"
-	},
-	{
-		key = 31,
-		name = "salatuojia"
-	},
-	{
-		key = 32,
-		name = "huangjiafangzhou_alter"
-	},
-	{
-		key = 33,
-		name = "unknown5"
-	},
-	{
-		key = 34,
-		name = "xianghe"
-	},
-	{
-		key = 35,
-		name = "kewei"
-	},
-	{
-		key = 36,
-		name = "weiershiqinwang"
-	},
-	{
-		key = 37,
-		name = "feilong"
-	},
-	{
-		key = 38,
-		name = "yatelanda"
-	},
-	{
-		key = 39,
-		name = "z2"
-	},
-	{
-		key = 40,
-		name = "u47"
-	},
-	{
-		key = 41,
-		name = "strength"
-	},
-	{
-		key = 42,
-		name = "safuke"
-	},
-	{
-		key = 43,
-		name = "changdao"
-	},
-	{
-		key = 44,
-		name = "yanzhan"
-	},
-	{
-		key = 45,
-		name = "nuofuke"
-	},
-	{
-		key = 46,
-		name = "nandaketa"
-	},
-	{
-		key = 47,
-		name = "gelunweier"
-	},
-	{
-		key = 48,
-		name = "yingxianzuo"
-	},
-	{
-		key = 49,
-		name = "alabama"
-	},
-	{
-		key = 50,
-		name = "guanghui"
-	},
-	{
-		key = 51,
-		name = "beikaluolaina"
-	},
-	{
-		key = 52,
-		name = "dujiaoshou"
-	},
-	{
-		key = 53,
-		name = "kente"
-	},
-	{
-		key = 54,
-		name = "bushi"
-	},
-	{
-		key = 55,
-		name = "aisaikesi"
-	},
-	{
-		key = 56,
-		name = "shengwang"
-	},
-	{
-		key = 57,
-		name = "shengli"
-	},
-	{
-		key = 58,
-		name = "xianggelila"
-	},
-	{
-		key = 59,
-		name = "mingshi"
-	},
-	{
-		key = 60,
+		key = 3,
 		name = "deyizhi"
 	},
 	{
-		key = 61,
-		name = "lituoliao"
+		key = 4,
+		name = "bominghan"
 	},
 	{
-		key = 62,
-		name = "dahuangfeng_hei"
+		key = 5,
+		name = "linuo"
 	},
 	{
-		key = 63,
-		name = "feilong_alter"
+		key = 6,
+		name = "tiancheng_hei"
 	},
 	{
-		key = 64,
-		name = "aidingbao"
+		key = 7,
+		name = "mengfeisi"
 	},
 	{
-		key = 65,
-		name = "lumang"
+		key = 8,
+		name = "tbniang"
 	},
 	{
-		key = 66,
+		key = 9,
+		name = "dahuangfeng"
+	},
+	{
+		key = 10,
+		name = "mengbiliai"
+	},
+	{
+		key = 11,
+		name = "temperance"
+	},
+	{
+		key = 12,
+		name = "qiye_hei"
+	},
+	{
+		key = 13,
+		name = "kelifulan"
+	},
+	{
+		key = 14,
+		name = "jiahe"
+	},
+	{
+		key = 15,
+		name = "baerdimo"
+	},
+	{
+		key = 16,
+		name = "beierfasite"
+	},
+	{
+		key = 17,
+		name = "qiye"
+	},
+	{
+		key = 18,
+		name = "luodeni"
+	},
+	{
+		key = 19,
 		name = "hude"
 	},
 	{
-		key = 67,
+		key = 20,
+		name = "chicheng"
+	},
+	{
+		key = 21,
+		name = "shengwang_younv"
+	},
+	{
+		key = 22,
+		name = "masazhusai"
+	},
+	{
+		key = 23,
+		name = "buzhihuo"
+	},
+	{
+		key = 24,
+		name = "yuekecheng_hei"
+	},
+	{
+		key = 25,
+		name = "qiaozhiwushi"
+	},
+	{
+		key = 26,
+		name = "jingang"
+	},
+	{
+		key = 27,
+		name = "niukasier"
+	},
+	{
+		key = 28,
+		name = "xuefeng"
+	},
+	{
+		key = 29,
+		name = "tierbici"
+	},
+	{
+		key = 30,
+		name = "salatuojia"
+	},
+	{
+		key = 31,
+		name = "huangjiafangzhou_alter"
+	},
+	{
+		key = 32,
+		name = "unknown5"
+	},
+	{
+		key = 33,
+		name = "kewei"
+	},
+	{
+		key = 34,
+		name = "weiershiqinwang"
+	},
+	{
+		key = 35,
+		name = "feilong"
+	},
+	{
+		key = 36,
+		name = "yatelanda"
+	},
+	{
+		key = 37,
+		name = "z2"
+	},
+	{
+		key = 38,
+		name = "u47"
+	},
+	{
+		key = 39,
+		name = "strength"
+	},
+	{
+		key = 40,
+		name = "safuke"
+	},
+	{
+		key = 41,
+		name = "changdao"
+	},
+	{
+		key = 42,
+		name = "yanzhan"
+	},
+	{
+		key = 43,
+		name = "nuofuke"
+	},
+	{
+		key = 44,
+		name = "nandaketa"
+	},
+	{
+		key = 45,
+		name = "gelunweier"
+	},
+	{
+		key = 46,
+		name = "yingxianzuo"
+	},
+	{
+		key = 47,
+		name = "alabama"
+	},
+	{
+		key = 48,
+		name = "beikaluolaina"
+	},
+	{
+		key = 49,
+		name = "dujiaoshou"
+	},
+	{
+		key = 50,
+		name = "kente"
+	},
+	{
+		key = 51,
+		name = "bushi"
+	},
+	{
+		key = 52,
+		name = "aisaikesi"
+	},
+	{
+		key = 53,
+		name = "xianggelila"
+	},
+	{
+		key = 54,
+		name = "guanghui"
+	},
+	{
+		key = 55,
+		name = "lituoliao"
+	},
+	{
+		key = 56,
+		name = "dahuangfeng_hei"
+	},
+	{
+		key = 57,
+		name = "shengwang"
+	},
+	{
+		key = 58,
+		name = "shengli"
+	},
+	{
+		key = 59,
+		name = "feilong_alter"
+	},
+	{
+		key = 60,
+		name = "aidingbao"
+	},
+	{
+		key = 61,
+		name = "lumang"
+	},
+	{
+		key = 62,
 		name = "ying"
 	},
 	{
-		key = 68,
+		key = 63,
 		name = "xiefeierde"
 	},
 	{
-		key = 69,
-		name = "shentong"
-	},
-	{
-		key = 70,
+		key = 64,
 		name = "juejiang"
 	},
 	{
-		key = 71,
-		name = "ruihe"
-	},
-	{
-		key = 72,
-		name = "jiahezhanlie"
-	},
-	{
-		key = 73,
+		key = 65,
 		name = "qiye_dark_shadow"
 	},
 	{
-		key = 74,
+		key = 66,
+		name = "xizhang"
+	},
+	{
+		key = 67,
+		name = "yilishabai"
+	},
+	{
+		key = 68,
 		name = "zaoshen"
 	},
 	{
-		key = 75,
-		name = "yuekegongjue"
-	},
-	{
-		key = 76,
+		key = 69,
 		name = "kubo"
 	},
 	{
-		key = 77,
-		name = "xizhang"
+		key = 70,
+		name = "yuekegongjue"
+	},
+	{
+		key = 71,
+		name = "hermit"
 	},
 	all = {
 		1,
@@ -379,12 +355,6 @@ pg.painting_filte_world = {
 		68,
 		69,
 		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77
+		71
 	}
 }
