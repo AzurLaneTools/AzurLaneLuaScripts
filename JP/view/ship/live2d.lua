@@ -80,6 +80,10 @@ function slot8(slot0, slot1)
 		return false
 	end
 
+	if slot0._readlyToStop then
+		return false
+	end
+
 	return true
 end
 
