@@ -185,15 +185,27 @@ function slot0.initBtnEvent(slot0, slot1, slot2)
 		end, SFX_PANEL)
 	elseif slot2 == 2 then
 		onButton(slot0, slot1, function ()
-			uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID5)
+			if PLATFORM_CODE == PLATFORM_CHT then
+				uv0:emit(ActivityMediator.SELECT_ACTIVITY, 41327)
+			else
+				uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID5)
+			end
 		end, SFX_PANEL)
 	elseif slot2 == 3 then
 		onButton(slot0, slot1, function ()
-			uv0:emit(ActivityMediator.EVENT_GO_SCENE, uv1)
+			if PLATFORM_CODE == PLATFORM_CHT then
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SIXTH_ANNIVERSARY_JP)
+			else
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, uv1)
+			end
 		end, SFX_PANEL)
 	elseif slot2 == 4 then
 		onButton(slot0, slot1, function ()
-			uv0:emit(ActivityMediator.GO_MINI_GAME, uv1)
+			if PLATFORM_CODE == PLATFORM_CHT then
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SIXTH_ANNIVERSARY_JP_DARK)
+			else
+				uv0:emit(ActivityMediator.GO_MINI_GAME, uv1)
+			end
 		end, SFX_PANEL)
 	elseif slot2 == 5 then
 		onButton(slot0, slot1, function ()

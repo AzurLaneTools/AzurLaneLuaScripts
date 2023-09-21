@@ -2586,6 +2586,9 @@ pg.memory_template = setmetatable({
 		3020,
 		3021,
 		3022,
+		3031,
+		3032,
+		3033,
 		10000,
 		10001,
 		10002,
@@ -31093,6 +31096,39 @@ pg.base.memory_template = {
 		story = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 		id = 3022,
 		icon = "memory_dujiacunshenmishijiandiaocha",
+		is_open = 0
+	},
+	[3031] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "雅夢の白浜",
+		condition = "「母港着せ替え特集！その②」ページで信濃を選択",
+		story = "SHISHANGTEKANHEDINGJIER1",
+		id = 3031,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3032] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "晴海小憩",
+		condition = "「母港着せ替え特集！その②」ページで雲仙を選択",
+		story = "SHISHANGTEKANHEDINGJIER2",
+		id = 3032,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3033] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ハイネス・イン・ホワイト",
+		condition = "「母港着せ替え特集！その②」ページでチェシャーを選択",
+		story = "SHISHANGTEKANHEDINGJIER3",
+		id = 3033,
+		icon = "memory_shishangtekanhedingji2",
 		is_open = 0
 	},
 	[10000] = {

@@ -8118,7 +8118,7 @@ _G.pg.base.gametip.word_rename_time_warning = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip = {
-	tip = "ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
+	tip = "<size=32>ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）</size>\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
 }
 
 _G.pg.base.gametip.word_propose_switch_tip = {
@@ -23620,6 +23620,10 @@ _G.pg.base.gametip.multiple_sorties_cost2 = {
 	tip = "<color=#92fc63>「特別戦闘券<icon name=ticket w=0.7 h=0.7/>$1」</color>"
 }
 
+_G.pg.base.gametip.multiple_sorties_cost3 = {
+	tip = "<color=#92fc63>「大作戦指令書<icon name=ticket w=0.7 h=0.7/>$1」</color>"
+}
+
 _G.pg.base.gametip.multiple_sorties_stopped = {
 	tip = "中止済"
 }
@@ -25503,4 +25507,8 @@ _G.pg.base.gametip.luckybag_skin_isani = {
 
 _G.pg.base.gametip.luckybag_skin_islive2d = {
 	tip = "Live 2d"
+}
+
+_G.pg.base.gametip.SkinMagazinePage2_tip = {
+	tip = "受け取り"
 }

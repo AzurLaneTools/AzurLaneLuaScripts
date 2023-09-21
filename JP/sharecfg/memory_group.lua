@@ -165,6 +165,7 @@ pg.memory_group = setmetatable({
 		257,
 		258,
 		259,
+		260,
 		501,
 		502,
 		503,
@@ -3921,6 +3922,19 @@ pg.base.memory_group = {
 			3020,
 			3021,
 			3022
+		}
+	},
+	[260] = {
+		id = 260,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5015,
+		title = "母港着せ替え特集！その②",
+		memories = {
+			3031,
+			3032,
+			3033
 		}
 	},
 	[501] = {

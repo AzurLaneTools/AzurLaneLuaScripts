@@ -753,7 +753,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui/skinunlockanim", slot2, true, true, nil)
+		end, "ui/skinunlockanim", slot2, true, false, nil)
 	elseif slot1 then
 		slot1()
 	end

@@ -26700,6 +26700,65 @@ _G.pg.base.item_data_statistics[40928] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40929] = {
+	display = "ランダムな（六周年着せ替え②の）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2023、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "六周年福袋②",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihejp6lf",
+	id = 40929,
+	display_icon = {
+		{
+			2,
+			69929,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[41001] = {
 	display = "明石からのバレンタインプレゼント",
 	name = "バレンタインプレゼント",
@@ -212107,8 +212166,8 @@ _G.pg.base.item_data_statistics[59483] = {
 }
 
 _G.pg.base.item_data_statistics[59484] = {
-	display = "用于头像框活动兑换，活动结束后将会消失",
-	name = "训练点数",
+	display = "「須臾望月抄」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -225664,7 +225723,44 @@ _G.pg.base.item_data_statistics[69920] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			319012,
+			1300
+		},
+		{
+			299012,
+			1200
+		},
+		{
+			404032,
+			1200
+		},
+		{
+			202302,
+			1150
+		},
+		{
+			305054,
+			1150
+		},
+		{
+			102071,
+			1000
+		},
+		{
+			506012,
+			1000
+		},
+		{
+			401282,
+			1000
+		},
+		{
+			801082,
+			1000
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[69921] = {
@@ -226021,6 +226117,54 @@ _G.pg.base.item_data_statistics[69928] = {
 		{
 			307122,
 			1840
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69929] = {
+	display = "不会被看到",
+	name = "ランダム六周年衣装②",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69929,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			303191,
+			1210
+		},
+		{
+			307083,
+			1210
+		},
+		{
+			205065,
+			2010
+		},
+		{
+			302233,
+			2010
+		},
+		{
+			206022,
+			1780
+		},
+		{
+			431233,
+			1780
 		}
 	}
 }
