@@ -195,12 +195,7 @@ function slot0.UpdatePainting(slot0)
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot1.skinId then
-		setPaintingPrefabAsync(slot0.painting, slot1:getPainting(), "kanban", function ()
-			slot0 = uv0.painting:Find("fitter"):GetChild(0)
-
-			setActiveViaLayer(slot0, true)
-			checkCullResume(slot0)
-		end)
+		setPaintingPrefabAsync(slot0.painting, slot1:getPainting(), "kanban")
 		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot1))
 
 		slot0.displaySkinID = slot1.skinId

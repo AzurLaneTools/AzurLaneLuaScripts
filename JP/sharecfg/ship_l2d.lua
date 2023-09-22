@@ -3913,7 +3913,7 @@ pg.ship_l2d = {
 		smooth = 150,
 		id = 30319104,
 		range_abs = 1,
-		offset_y = 150,
+		offset_y = 100,
 		revert_smooth = 0,
 		range = {
 			0,
