@@ -604,6 +604,15 @@ function temp()
 						}
 					}
 				}
+			},
+			g = {
+				u = {
+					r = {
+						o = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		A = {

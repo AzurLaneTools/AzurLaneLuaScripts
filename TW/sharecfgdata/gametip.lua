@@ -22140,6 +22140,10 @@ _G.pg.base.gametip.multiple_sorties_cost2 = {
 	tip = "和<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1個特別挑戰券」</color>"
 }
 
+_G.pg.base.gametip.multiple_sorties_cost3 = {
+	tip = "和<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1個高效作戰指令書」</color>"
+}
+
 _G.pg.base.gametip.multiple_sorties_stopped = {
 	tip = "已中止"
 }
