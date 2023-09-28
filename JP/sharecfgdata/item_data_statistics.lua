@@ -10394,6 +10394,29 @@ _G.pg.base.item_data_statistics[21025] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21026] = {
+	display = "プリンストン(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：プリンストン(META)",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21026",
+	id = 21026,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -18156,6 +18179,50 @@ _G.pg.base.item_data_statistics[30415] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30416] = {
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	name = "ランダム装備外装",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30416,
+	display_icon = {
+		{
+			9,
+			2049,
+			1
+		},
+		{
+			9,
+			2050,
+			1
+		},
+		{
+			9,
+			2051,
+			1
+		},
+		{
+			9,
+			2052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用すると、装備外装（晩夏）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（晩夏）",
@@ -21413,6 +21480,120 @@ _G.pg.base.item_data_statistics[30529] = {
 		{
 			9,
 			847,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30530] = {
+	display = "使用すると、装備外装（恭賀新春）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（春節2021）",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunjiezixuan",
+	id = 30530,
+	display_icon = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
 			1
 		}
 	},
@@ -183944,7 +184125,7 @@ _G.pg.base.item_data_statistics[58695] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -185321,7 +185502,7 @@ _G.pg.base.item_data_statistics[58713] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -212365,6 +212546,52 @@ _G.pg.base.item_data_statistics[59492] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59492,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59493] = {
+	display = "キャンペーン「シーズン任務」(2023.10.1~2023.11.30)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59493,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59494] = {
+	display = "不该被看到",
+	name = "通行证十三期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7013,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59494,
 	display_icon = {},
 	price = {},
 	index = {},

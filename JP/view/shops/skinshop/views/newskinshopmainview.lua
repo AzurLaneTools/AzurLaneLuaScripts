@@ -173,8 +173,12 @@ function slot0.FlushBG(slot0, slot1, slot2)
 				uv0()
 			end
 		end)
-	elseif slot2 then
-		slot2()
+	else
+		pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
+
+		if slot2 then
+			slot2()
+		end
 	end
 
 	setActive(slot0.diffBg, slot9)

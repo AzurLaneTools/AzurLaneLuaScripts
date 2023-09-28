@@ -928,12 +928,14 @@ function slot0.StartInteraction(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.ITEM_INTERACTION, slot2, slot3, slot1)
 end
 
+function slot0.WillClearInteraction(slot0, slot1, slot2)
+	slot0:DispatchEvent(CourtYardEvent.CLEAR_ITEM_INTERACTION, slot1:GetUser(), slot1:GetOwner(), slot1)
+end
+
 function slot0.ClearInteraction(slot0, slot1, slot2)
-	slot3 = slot1:GetUser()
+	slot4 = slot1:GetOwner()
 
-	slot0:DispatchEvent(CourtYardEvent.CLEAR_ITEM_INTERACTION, slot3, slot1:GetOwner(), slot1)
-
-	if isa(slot3, CourtYardFollowerFurniture) then
+	if isa(slot1:GetUser(), CourtYardFollowerFurniture) then
 		slot0:ClearInteractionForFollower(slot3, slot4, slot1, slot2)
 	elseif not slot2 then
 		if isa(slot4, CourtYardTransportFurniture) then

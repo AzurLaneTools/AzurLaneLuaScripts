@@ -5,6 +5,7 @@ slot0.MINI_GAME_OPERATOR = "BaseMiniGameMediator:MINI_GAME_OPERATOR"
 slot0.OPEN_SUB_LAYER = "BaseMiniGameMediator:OPEN_SUB_LAYER"
 slot0.MINI_GAME_COIN = "BaseMiniGameMediator:MINI_GAME_COIN"
 slot0.COIN_WINDOW_CHANGE = "BaseMiniGameMediator:COIN_WINDOW_CHANGE"
+slot0.GAME_FINISH_TRACKING = "BaseMiniGameMediator:GAME_FINISH_TRACKING"
 
 function slot0.register(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
@@ -39,6 +40,16 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(BaseMiniGameMediator.COIN_WINDOW_CHANGE, function (slot0, slot1)
 		uv0:sendNotification(GameRoomCoinMediator.CHANGE_VISIBLE, slot1)
+	end)
+	slot0:bind(BaseMiniGameMediator.GAME_FINISH_TRACKING, function (slot0, slot1)
+		uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = slot1.hub_id,
+			cmd = MiniGameOPCommand.CMD_PLAY,
+			args1 = {
+				slot1.game_id,
+				slot1.isComplete
+			}
+		})
 	end)
 end
 

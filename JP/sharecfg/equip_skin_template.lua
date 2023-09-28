@@ -30466,6 +30466,167 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[2049] = {
+		hit_sfx = "",
+		bullet_name = "paodan_xingxi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "ドットネビュラ砲弾",
+		themeid = 104,
+		desc = "廻せ廻せ廻せ廻セ廻セ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96613",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_xingxi_hit",
+		id = 2049,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2050] = {
+		hit_sfx = "",
+		bullet_name = "zidan_shizixing",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "ドットスター弾",
+		themeid = 104,
+		desc = "ワープしないキラメキ★（ほし）",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96614",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2050,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2051] = {
+		hit_sfx = "",
+		bullet_name = "yulei_yunshi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "ドットメテオ魚雷",
+		themeid = 104,
+		desc = "滅びよ！ここはお前たちの住む世界ではない！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96622",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2051,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2052] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "ドット円盤",
+		type = 1,
+		preview_hit_distance = 0,
+		themeid = 104,
+		orbit_combat = "shebei_xiangsufeidie",
+		desc = "ドット宇宙の究極的な答えは……",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xiangsufeidieui",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96641",
+		orbit_ui_back = 0,
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2052,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				1.15,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				140
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -31309,6 +31470,10 @@ pg.equip_skin_template = {
 		2045,
 		2046,
 		2047,
-		2048
+		2048,
+		2049,
+		2050,
+		2051,
+		2052
 	}
 }

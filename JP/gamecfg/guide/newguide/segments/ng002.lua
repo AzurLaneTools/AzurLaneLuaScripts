@@ -26,6 +26,12 @@ return {
 			}
 		},
 		{
+			code = 2,
+			ui = {
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/top/top_chapter/back_button"
+			}
+		},
+		{
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
 			}

@@ -27,7 +27,7 @@ function slot0.GetStoryStepCls(slot0)
 	})[slot0]
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
@@ -44,32 +44,36 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0.steps = {}
-	slot5 = 0
-	slot6 = slot3 or {}
-	slot7 = {}
+	slot6 = 0
+	slot7 = slot3 or {}
+	slot8 = {}
 
-	for slot11, slot12 in ipairs(slot1.scripts) do
-		slot15 = uv0.GetStoryStepCls(slot12.mode or slot0.mode).New(slot12)
+	for slot12, slot13 in ipairs(slot1.scripts) do
+		slot16 = uv0.GetStoryStepCls(slot13.mode or slot0.mode).New(slot13)
 
-		slot15:SetId(slot11)
+		slot16:SetId(slot12)
 
-		if slot15:ExistOption() then
-			if slot6[slot5 + 1] then
-				slot15:SetOptionSelCodes(slot6[slot5])
+		if slot16:ExistOption() then
+			if slot7[slot6 + 1] then
+				slot16:SetOptionSelCodes(slot7[slot6])
 			end
 
 			if slot4 then
-				slot15.important = true
+				slot16.important = true
 			end
 
-			table.insert(slot7, slot11)
+			table.insert(slot8, slot12)
+
+			if slot5 then
+				slot16:AutoShowOption()
+			end
 		end
 
-		table.insert(slot0.steps, slot15)
+		table.insert(slot0.steps, slot16)
 	end
 
-	table.insert(slot7, #slot0.steps)
-	slot0:HandleRecallOptions(slot7)
+	table.insert(slot8, #slot0.steps)
+	slot0:HandleRecallOptions(slot8)
 
 	slot0.branchCode = nil
 	slot0.force = slot2

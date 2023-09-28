@@ -348,6 +348,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10013] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10013,
+		dungeon_id = 5115,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"均衡の分銅",
+				"戦闘開始18秒後、赤と青の2種類の分銅を召喚し、さらに8秒間すべての攻撃を回避する。この効果は初回発動後、40秒経つ毎に再度発動する"
+			},
+			{
+				"均衡の維持",
+				"【均衡の分銅】発動15秒後に発動、赤と青の分銅をすべて消滅させる。さらに25秒間、この効果で消滅した赤と青の分銅の数の差が1個につき、自身が受けるダメージを<color=#92fc63>10%</color>軽減させる。ダメージ軽減効果は最大<color=#92fc63>3個</color>分まで適用可能"
+			}
+		},
+		award_display = {
+			{
+				14,
+				205,
+				1
+			}
+		}
+	},
+	[10014] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10014,
+		dungeon_id = 5114,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"均衡の分銅",
+				"戦闘開始18秒後、赤と青の2種類の分銅を召喚し、さらに8秒間すべての攻撃を回避する。この効果は初回発動後、40秒経つ毎に再度発動する"
+			},
+			{
+				"均衡の維持",
+				"【均衡の分銅】発動15秒後に発動、赤と青の分銅をすべて消滅させる。さらに25秒間、この効果で消滅した赤と青の分銅の数の差が1個につき、自身が受けるダメージを<color=#92fc63>20%</color>軽減させる。ダメージ軽減効果は最大<color=#92fc63>3個</color>分まで適用可能"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10005,
+				1
+			}
+		}
+	},
+	[10015] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10015,
+		dungeon_id = 5113,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"均衡の分銅",
+				"戦闘開始18秒後、赤と青の2種類の分銅を召喚し、さらに8秒間すべての攻撃を回避する。この効果は初回発動後、40秒経つ毎に再度発動する"
+			},
+			{
+				"均衡の維持",
+				"【均衡の分銅】発動15秒後に発動、赤と青の分銅をすべて消滅させる。さらに25秒間、この効果で消滅した赤と青の分銅の数の差が1個につき、自身が受けるダメージを<color=#92fc63>30%</color>軽減させる。ダメージ軽減効果は最大<color=#92fc63>3個</color>分まで適用可能"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10005,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -360,6 +447,9 @@ pg.expedition_constellation_challenge_template = {
 		10009,
 		10010,
 		10011,
-		10012
+		10012,
+		10013,
+		10014,
+		10015
 	}
 }

@@ -2589,6 +2589,11 @@ pg.memory_template = setmetatable({
 		3031,
 		3032,
 		3033,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
 		10000,
 		10001,
 		10002,
@@ -31129,6 +31134,61 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER3",
 		id = 3033,
 		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3041] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "寝待の銀輿",
+		condition = "「レーシング・ステージ！」ページで信濃を選択",
+		story = "SHISHANGTEKANSAICHE1",
+		id = 3041,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3042] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "スプレンディッド・ギア",
+		condition = "「レーシング・ステージ！」ページでボルチモアを選択",
+		story = "SHISHANGTEKANSAICHE2",
+		id = 3042,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3043] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ファイナル・ラップ",
+		condition = "「レーシング・ステージ！」ページでプリンツ·オイゲンを選択",
+		story = "SHISHANGTEKANSAICHE3",
+		id = 3043,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3044] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ウィンド・キャッチャー",
+		condition = "「レーシング・ステージ！」ページでエンタープライズを選択",
+		story = "SHISHANGTEKANSAICHE4",
+		id = 3044,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3045] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "孤高のイグニッションタイム",
+		condition = "「レーシング・ステージ！」ページでウルリッヒ·フォン·フッテンを選択",
+		story = "SHISHANGTEKANSAICHE5",
+		id = 3045,
+		icon = "memory_shishangtekansaiche",
 		is_open = 0
 	},
 	[10000] = {

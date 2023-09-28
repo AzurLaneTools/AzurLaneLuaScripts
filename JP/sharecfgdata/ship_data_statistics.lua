@@ -234120,6 +234120,10 @@ _G.pg.base.ship_data_statistics[408111] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234190,7 +234194,7 @@ _G.pg.base.ship_data_statistics[408111] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234365,6 +234369,10 @@ _G.pg.base.ship_data_statistics[408112] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234435,7 +234443,7 @@ _G.pg.base.ship_data_statistics[408112] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234610,6 +234618,10 @@ _G.pg.base.ship_data_statistics[408113] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234680,7 +234692,7 @@ _G.pg.base.ship_data_statistics[408113] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234855,6 +234867,10 @@ _G.pg.base.ship_data_statistics[408114] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234925,7 +234941,7 @@ _G.pg.base.ship_data_statistics[408114] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -341086,6 +341102,506 @@ _G.pg.base.ship_data_statistics[9706024] = {
 		"JunyoMETA",
 		"Hiyo-class",
 		"Jun'yō"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "プリンストン(META)",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706030,
+	english_name = "Princeton.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		814,
+		0,
+		0,
+		48,
+		67,
+		66,
+		0,
+		25,
+		16,
+		32,
+		49,
+		17
+	},
+	attrs_growth = {
+		15516,
+		0,
+		0,
+		643,
+		862,
+		460,
+		0,
+		385,
+		400,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"PrincetonMETA",
+		"Princeton"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "プリンストン(META)",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706030,
+	english_name = "Princeton.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1013,
+		0,
+		0,
+		60,
+		84,
+		66,
+		0,
+		25,
+		16,
+		32,
+		49,
+		21
+	},
+	attrs_growth = {
+		15516,
+		0,
+		0,
+		643,
+		862,
+		460,
+		0,
+		385,
+		400,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"PrincetonMETA",
+		"Princeton"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "プリンストン(META)",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706030,
+	english_name = "Princeton.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1410,
+		0,
+		0,
+		83,
+		117,
+		66,
+		0,
+		25,
+		16,
+		32,
+		49,
+		30
+	},
+	attrs_growth = {
+		15516,
+		0,
+		0,
+		643,
+		862,
+		460,
+		0,
+		385,
+		400,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"PrincetonMETA",
+		"Princeton"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9706034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "プリンストン(META)",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 9706030,
+	english_name = "Princeton.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9706034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2005,
+		0,
+		0,
+		118,
+		166,
+		66,
+		0,
+		25,
+		16,
+		32,
+		49,
+		43
+	},
+	attrs_growth = {
+		15516,
+		0,
+		0,
+		643,
+		862,
+		460,
+		0,
+		385,
+		400,
+		0,
+		0,
+		247
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.55,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"PrincetonMETA",
+		"Princeton"
 	}
 }
 

@@ -78,6 +78,10 @@ pg.ship_meta_breakout = setmetatable({
 		9706022,
 		9706023,
 		9706024,
+		9706031,
+		9706032,
+		9706033,
+		9706034,
 		9707011,
 		9707012,
 		9707013,
@@ -1340,6 +1344,75 @@ pg.base.ship_meta_breakout = {
 		id = 9706024,
 		item1 = 21008,
 		pre_id = 9706023,
+		weapon_ids = {}
+	},
+	[9706031] = {
+		breakout_view = "【炬火の力-プリンストン】習得/戦闘機数+1/戦闘機補正+5%",
+		gold = 500,
+		breakout_id = 9706032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9706031,
+		item1 = 21026,
+		pre_id = 0,
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[9706032] = {
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/戦闘機補正+10%",
+		gold = 1500,
+		breakout_id = 9706033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9706032,
+		item1 = 21026,
+		pre_id = 9706031,
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[9706033] = {
+		breakout_view = "【炬火の力-プリンストン】強化/艦載機数+1/攻撃機補正+15%",
+		gold = 2500,
+		breakout_id = 9706034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9706033,
+		item1 = 21026,
+		pre_id = 9706032,
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[9706034] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9706034,
+		item1 = 21026,
+		pre_id = 9706033,
 		weapon_ids = {}
 	},
 	[9707011] = {
