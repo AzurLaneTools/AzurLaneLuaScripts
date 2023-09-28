@@ -13889,12 +13889,13 @@ pg.activity_template = {
 	},
 	[4971] = {
 		mark = 20230831,
-		config_client = "",
 		title_res_tag = "bulvxieersp_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 37,
+		config_client = "",
 		id = 4971,
 		config_data = {
 			{
@@ -13924,33 +13925,6 @@ pg.activity_template = {
 			{
 				19169,
 				19170
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					9,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
