@@ -975,11 +975,11 @@ function slot0.showStoryUI(slot0, slot1)
 
 				uv0.storyCG = GetOrAddComponent(uv0.storyTF, typeof(CanvasGroup))
 				slot2 = uv0
-				uv0.storyContent = slot2:findTF("dialogue/main/content", uv0.storyTF)
+				uv0.storyContent = slot2:findTF("dialogue/content", uv0.storyTF)
 				slot2 = uv0.storyContent
 				uv0.typeWriter = slot2:GetComponent(typeof(Typewriter))
 				slot2 = uv0
-				uv0.targetNameTF = slot2:findTF("dialogue/main/name_left", uv0.storyTF)
+				uv0.targetNameTF = slot2:findTF("dialogue/content/name", uv0.storyTF)
 				slot2 = uv0
 				uv0._renamePanel = slot2:findTF("changeName_panel", uv0.storyTF)
 

@@ -26,6 +26,12 @@ slot2 = {
 				134,
 				-260
 			},
+			consume = {
+				417,
+				-260,
+				431,
+				-260
+			},
 			hunting_range = {
 				622,
 				-260,
@@ -59,6 +65,12 @@ slot2 = {
 				137,
 				-260,
 				151,
+				-260
+			},
+			consume = {
+				417,
+				-260,
+				431,
 				-260
 			},
 			hunting_range = {
@@ -119,13 +131,13 @@ slot2 = {
 			"antiaircraft",
 			"air",
 			"hit",
+			"consume",
 			"antisub",
 			"oxy_max",
 			"ammo",
 			"speed",
 			"hunting_range",
-			"luck",
-			"consume"
+			"luck"
 		},
 		hide = {}
 	},

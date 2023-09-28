@@ -1,4 +1,8 @@
 slot0 = class("StoryPlayer", import("..animation.StoryAnimtion"))
+slot1 = 0
+slot2 = 1
+slot3 = 2
+slot4 = 3
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
@@ -30,13 +34,20 @@ function slot0.Ctor(slot0, slot1)
 	slot0.flashCg = slot0.flash:GetComponent(typeof(CanvasGroup))
 	slot0.curtainF = slot0:findTF("back/curtain_front")
 	slot0.curtainFCg = slot0.curtainF:GetComponent(typeof(CanvasGroup))
+	slot0.locationTr = slot0:findTF("front/location")
+	slot0.locationTxt = slot0:findTF("front/location/Text"):GetComponent(typeof(Text))
+	slot0.locationTrPos = slot0.locationTr.localPosition
+	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
 	slot0.dialogueWin = nil
 	slot0.bgs = {}
+	slot0.branchCodeList = {}
 	slot0.stop = false
 	slot0.pause = false
 end
 
 function slot0.StoryStart(slot0, slot1)
+	slot0.branchCodeList = {}
+
 	eachChild(slot0.dialoguePanel, function (slot0)
 		setActive(slot0, false)
 	end)
@@ -45,11 +56,25 @@ function slot0.StoryStart(slot0, slot1)
 
 	setActive(slot0.dialogueWin, true)
 
-	slot0.optionUIlist = UIItemList.New(slot0.dialogueWin:Find("options_panel/options"), slot0.dialogueWin:Find("options_panel/options/option_tpl"))
-	slot0.optionPrint = slot0.dialogueWin:Find("options_panel/bg")
+	slot0.optionLUIlist = UIItemList.New(slot0.dialogueWin:Find("options_panel/options_l"), slot0.dialogueWin:Find("options_panel/options_l/option_tpl"))
+	slot0.optionCUIlist = UIItemList.New(slot0.dialogueWin:Find("options_panel/options_c"), slot0.dialogueWin:Find("options_panel/options_c/option_tpl"))
 	slot0.optionsCg = slot0.dialogueWin:Find("options_panel"):GetComponent(typeof(CanvasGroup))
 
 	slot0:OnStart(slot1)
+end
+
+function slot0.GetOptionContainer(slot0, slot1)
+	if slot1:GetOptionCnt() <= 3 then
+		setActive(slot0.optionLUIlist.container, false)
+		setActive(slot0.optionCUIlist.container, true)
+
+		return slot0.optionCUIlist
+	else
+		setActive(slot0.optionLUIlist.container, true)
+		setActive(slot0.optionCUIlist.container, false)
+
+		return slot0.optionLUIlist
+	end
 end
 
 function slot0.Pause(slot0)
@@ -72,30 +97,30 @@ function slot0.Stop(slot0)
 	slot0:NextOneImmediately()
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3, slot4)
+function slot0.Play(slot0, slot1, slot2, slot3)
 	if not slot1 then
-		slot4()
+		slot3()
 
 		return
 	end
 
 	if slot1:GetNextScriptName() or slot0.stop then
-		slot4()
+		slot3()
 
 		return
 	end
 
 	if not slot1:GetStepByIndex(slot2) then
-		slot4()
+		slot3()
 
 		return
 	end
 
-	slot3:Init(slot5)
+	pg.NewStoryMgr.GetInstance():AddRecord(slot4)
 
-	if slot5:ShouldJumpToNextScript() then
-		slot1:SetNextScriptName(slot5:GetNextScriptName())
-		slot4()
+	if slot4:ShouldJumpToNextScript() then
+		slot1:SetNextScriptName(slot4:GetNextScriptName())
+		slot3()
 
 		return
 	end
@@ -104,23 +129,24 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 		slot0:ClearEffects()
 	end
 
-	slot7 = false
+	slot6 = false
 
-	if slot6 and slot5:IsImport() and not pg.NewStoryMgr.GetInstance():IsReView() then
-		slot7 = true
-	elseif slot6 then
-		slot4()
+	if slot5 and slot4:IsImport() and not pg.NewStoryMgr.GetInstance():IsReView() then
+		slot6 = true
+	elseif slot5 then
+		slot3()
 
 		return
 	end
 
 	slot0.script = slot1
-	slot0.callback = slot4
-	slot0.step = slot5
+	slot0.callback = slot3
+	slot0.step = slot4
 	slot0.autoNext = slot1:GetAutoPlayFlag()
-	slot0.isRegisterEvent = false
+	slot0.stage = uv0
+	slot7 = slot1:GetTriggerDelayTime()
 
-	if slot0.autoNext and slot5:IsImport() then
+	if slot0.autoNext and slot4:IsImport() and not slot4.optionSelCode then
 		slot0.autoNext = nil
 	end
 
@@ -167,6 +193,12 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 				end,
 				function (slot0)
 					uv0:StartMoveNode(uv1, slot0)
+				end,
+				function (slot0)
+					uv0:UpdateIcon(uv1, slot0)
+				end,
+				function (slot0)
+					uv0:SetLocation(uv1, slot0)
 				end
 			}, slot0)
 		end,
@@ -180,11 +212,39 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			uv1:DelayCall(uv0:GetEventDelayTime(), slot0)
 		end,
 		function (slot0)
-			uv0:RegisterTrigger(uv1, uv2, uv3, slot0)
+			uv0.stage = uv1
+
+			if uv0:ShouldAutoTrigger() then
+				uv0:UnscaleDelayCall(uv2, slot0)
+
+				return
+			end
+
+			uv0:RegisetEvent(slot0)
+			uv0:TriggerEventIfAuto(uv2)
 		end,
 		function (slot0)
+			uv0.stage = uv1
+
+			if not uv2:ExistOption() then
+				slot0()
+
+				return
+			end
+
 			slot1 = uv0
-			slot1 = slot1:GetNextStep(uv1)
+
+			slot1:InitBranches(uv3, uv2, function (slot0)
+				uv0()
+			end, function ()
+				uv0:TriggerOptionIfAuto(uv1, uv2)
+			end)
+		end,
+		function (slot0)
+			uv0.stage = uv1
+			uv0.autoNext = nil
+			slot1 = uv2
+			slot1 = slot1:GetNextStep(uv3)
 
 			seriesAsync({
 				function (slot0)
@@ -219,56 +279,72 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			uv0:OnWillClear(uv1)
 			uv0:Clear(slot0)
 		end
-	}, slot4)
+	}, slot3)
 end
 
-function slot0.RegisterTrigger(slot0, slot1, slot2, slot3, slot4)
-	function slot5()
-		uv0.isRegisterEvent = true
+function slot0.TriggerEventIfAuto(slot0, slot1)
+	if not slot0:ShouldAutoTrigger() then
+		return
+	end
 
-		if uv0.pause or uv0.stop then
+	slot0:UnscaleDelayCall(slot1, function ()
+		if not uv0.autoNext then
+			setButtonEnabled(uv0._go, true)
+
 			return
 		end
 
-		if uv0.autoNext then
-			uv0.autoNext = nil
+		triggerButton(uv0._go)
+	end)
+end
 
-			uv0:UnscaleDelayCall(uv1:GetTriggerDelayTime(), function ()
-				uv0:TriggerEventAuto()
-			end)
+function slot0.TriggerOptionIfAuto(slot0, slot1, slot2)
+	if not slot0:ShouldAutoTrigger() then
+		return
+	end
+
+	if not slot2 or not slot2:ExistOption() then
+		return
+	end
+
+	slot0:UnscaleDelayCall(slot1, function ()
+		if not uv0.autoNext then
+			return
 		end
+
+		if uv1:GetOptionIndexByAutoSel() ~= nil then
+			triggerButton(uv0:GetOptionContainer(uv1).container:GetChild(slot0 - 1):Find("content"))
+		end
+	end)
+end
+
+function slot0.ShouldAutoTrigger(slot0)
+	if slot0.pause or slot0.stop then
+		return false
 	end
 
-	if slot2:ExistOption() then
-		slot0:InitBranches(slot1, slot2, function (slot0)
-			uv0:SetOptionContent(slot0)
-			uv1()
-		end, slot5)
-	else
-		slot0:RegisetEvent(slot4)
-		slot5()
-	end
+	return slot0.autoNext
 end
 
 function slot0.CanSkip(slot0)
-	return slot0.step and not slot0.step:ExistOption()
+	return slot0.step and not slot0.step:IsImport()
 end
 
-function slot0.InterruptAutoPlay(slot0)
-	if slot0.isRegisterEvent then
-		setButtonEnabled(slot0._tf, true)
-	else
-		slot0.autoNext = false
-	end
+function slot0.CancelAuto(slot0)
+	slot0.autoNext = false
 end
 
 function slot0.NextOne(slot0)
 	slot0.timeScale = 0.0001
 
-	if slot0.isRegisterEvent then
-		slot0:TriggerEventAuto()
-	else
+	if slot0.stage == uv0 then
 		slot0.autoNext = true
+	elseif slot0.stage == uv1 then
+		slot0.autoNext = true
+
+		slot0:TriggerEventIfAuto(0)
+	elseif slot0.stage == uv2 then
+		slot0:TriggerOptionIfAuto(0, slot0.step)
 	end
 end
 
@@ -280,26 +356,76 @@ function slot0.NextOneImmediately(slot0)
 	end
 end
 
-function slot0.TriggerEventAuto(slot0)
-	if slot0.step and slot0.step:ExistOption() then
-		if slot0.step:GetOptionIndexByAutoSel() ~= nil then
-			triggerButton(slot0.optionUIlist.container:GetChild(slot1 - 1):Find("content"))
-		end
-	else
-		triggerButton(slot0._go)
+function slot0.SetLocation(slot0, slot1, slot2)
+	if not slot1:ExistLocation() then
+		slot2()
+
+		return
 	end
+
+	setActive(slot0.locationTr, true)
+
+	slot0.locationTxt.text = slot1:GetLocation().text
+	slot5 = slot0.locationTr.localPosition.x - 1000
+	slot0.locationTr.localPosition = Vector3(slot5, slot0.locationTr.localPosition.y, 0)
+
+	function slot8()
+		slot0 = uv0
+
+		slot0:DelayCall(uv1.time, function ()
+			slot0 = uv0
+
+			slot0:TweenValue(uv0.locationTr, uv1, uv2, 1.5, 0, function (slot0)
+				uv0.locationTr.localPosition = Vector3(slot0, uv1, 0)
+			end)
+		end)
+	end
+
+	slot0:TweenValue(slot0.locationTr, slot5, slot0.locationTr.localPosition.x, 1.5, 0, function (slot0)
+		uv0.locationTr.localPosition = Vector3(slot0, uv1, 0)
+	end, function ()
+		uv0()
+		uv1()
+	end)
+end
+
+function slot0.UpdateIcon(slot0, slot1, slot2)
+	if not slot1:ExistIcon() then
+		setActive(slot0.iconImage.gameObject, false)
+		slot2()
+
+		return
+	end
+
+	slot3 = slot1:GetIconData()
+	slot0.iconImage.sprite = LoadSprite(slot3.image)
+
+	slot0.iconImage:SetNativeSize()
+
+	slot4 = slot0.iconImage.gameObject.transform
+
+	if slot3.pos then
+		slot4.localPosition = Vector3(slot3.pos[1], slot3.pos[2], 0)
+	else
+		slot4.localPosition = Vector3.one
+	end
+
+	slot4.localScale = Vector3(slot3.scale or 1, slot3.scale or 1, 1)
+
+	setActive(slot0.iconImage.gameObject, true)
+	slot2()
 end
 
 function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
-	slot7 = slot0.optionUIlist
+	slot7 = slot0:GetOptionContainer(slot2)
+	slot9 = slot0.branchCodeList[slot2:GetId()] or {}
 
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot2:Find("content")
-			slot5 = uv0[slot1 + 1][2]
 
-			onButton(uv1, slot3, function ()
+			onButton(uv2, slot3, function ()
 				if uv0.pause or uv0.stop then
 					return
 				end
@@ -308,21 +434,17 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				uv2:SetBranchCode(uv3)
-				uv0:ShowOrHideBranches(false, function ()
+				uv0:SetBranchCode(uv2, uv3, uv4)
+				uv0:ShowOrHideBranches(uv3, false, function ()
 					uv0(uv1)
 				end)
 			end, SFX_PANEL)
-			setButtonEnabled(slot3, not uv0[slot1 + 1][3])
+			setButtonEnabled(slot3, not table.contains(uv1, uv0[slot1 + 1][2]))
 			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
-			setActive(slot3, false)
 		end
 	end)
-
-	slot7 = slot0.optionUIlist
-
 	slot7:align(#slot2:GetOptions())
-	slot0:ShowOrHideBranches(true, function ()
+	slot0:ShowOrHideBranches(slot2, true, function ()
 		uv0 = true
 
 		if uv1 then
@@ -331,49 +453,20 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.ShowOrHideBranches(slot0, slot1, slot2)
-	if LeanTween.isTweening(go(slot0.optionsCg)) then
-		return
+function slot0.SetBranchCode(slot0, slot1, slot2, slot3)
+	slot2:SetBranchCode(slot3)
+	slot1:SetBranchCode(slot3)
+
+	if not slot0.branchCodeList[slot2:GetId()] then
+		slot0.branchCodeList[slot4] = {}
 	end
 
-	setActive(slot0.optionsCg.gameObject, true)
+	table.insert(slot0.branchCodeList[slot4], slot3)
+end
 
-	if slot1 then
-		slot0:TweenRotate(slot0.optionPrint, 360, 5, -1, 0)
-	else
-		slot0:CancelTween(slot0.optionPrint.gameObject)
-	end
-
-	slot3 = {}
-
-	table.insert(slot3, function (slot0)
-		slot2 = uv0 and 0 or 1264
-		slot3 = uv0 and 1264 or 0
-
-		uv1.optionUIlist:eachActive(function (slot0, slot1)
-			setAnchoredPosition(slot1:Find("content"), {
-				x = uv0
-			})
-			table.insert(uv1, function (slot0)
-				setActive(uv0, true)
-				uv1:TweenValue(uv0, uv0.localPosition.x, uv2, 0.5, uv3 * 0.1, function (slot0)
-					setAnchoredPosition(uv0, {
-						x = slot0
-					})
-				end, slot0)
-			end)
-		end)
-		parallelAsync({}, slot0)
-	end)
-	table.insert(slot3, function (slot0)
-		uv1:TweenMovex(rtf(uv1.optionPrint), uv0 and 0 or 525, uv0 and 525 or 0, 0.5, 0, nil, slot0)
-	end)
-	table.insert(slot3, function (slot0)
-		uv1:TweenValue(go(uv1.optionsCg), uv0 and 0 or 1, uv0 and 1 or 0, 0.2, 0, function (slot0)
-			uv0.optionsCg.alpha = slot0
-		end, slot0)
-	end)
-	parallelAsync(slot3, slot2)
+function slot0.ShowOrHideBranches(slot0, slot1, slot2, slot3)
+	setActive(slot0.optionsCg.gameObject, slot2)
+	slot3()
 end
 
 function slot0.StartMoveNode(slot0, slot1, slot2)
@@ -409,7 +502,7 @@ function slot0.MoveNode(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot1(slot0, slot1, slot2, slot3, slot4)
+function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetSpineChar(slot1, true, function (slot0)
@@ -427,7 +520,7 @@ function slot1(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot2(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 	slot4 = GameObject.New("movable")
 	slot5 = slot4.transform
 
@@ -742,28 +835,33 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 		slot11 = slot9.active
 		slot12 = slot9.interlayer
 		slot13 = slot9.center
+		slot14 = slot9.adapt
 
 		if slot0.effectPanel:Find(slot9.name) or slot0.centerPanel:Find(slot10) then
-			setActive(slot14, slot11)
-			setParent(slot14, slot13 and slot0.centerPanel or slot0.effectPanel.transform)
+			setActive(slot15, slot11)
+			setParent(slot15, slot13 and slot0.centerPanel or slot0.effectPanel.transform)
 
 			if slot12 then
-				slot0:UpdateEffectInterLayer(slot10, slot14)
+				slot0:UpdateEffectInterLayer(slot10, slot15)
 			end
 
 			if slot11 == false then
 				slot0:ClearEffectInterlayer(slot10)
 			end
+
+			if slot14 then
+				slot0:AdaptEffect(slot15)
+			end
 		else
-			slot15 = ""
+			slot16 = ""
 
 			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
-				slot15 = "ui"
+				slot16 = "ui"
 			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
-				slot15 = "effect"
+				slot16 = "effect"
 			end
 
-			if slot15 and slot15 ~= "" then
+			if slot16 and slot16 ~= "" then
 				table.insert(slot4, function (slot0)
 					LoadAndInstantiateAsync(uv0, uv1, function (slot0)
 						setParent(slot0, uv0 and uv1.centerPanel or uv1.effectPanel.transform)
@@ -779,7 +877,11 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 							uv1:ClearEffectInterlayer(uv3)
 						end
 
-						uv5()
+						if uv5 then
+							uv1:AdaptEffect(slot0)
+						end
+
+						uv6()
 					end)
 				end)
 			else
@@ -789,6 +891,13 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 	end
 
 	parallelAsync(slot4, slot2)
+end
+
+function slot0.AdaptEffect(slot0, slot1)
+	slot3 = pg.UIMgr.GetInstance().OverlayMain.parent.sizeDelta
+	slot5 = 1
+	slot5 = 1.7777777777777777 < slot3.x / slot3.y and slot4 / slot2 or slot2 / slot4
+	tf(slot1).localScale = Vector3(slot5, slot5, slot5)
 end
 
 function slot0.UpdateEffectInterLayer(slot0, slot1, slot2)
@@ -904,7 +1013,9 @@ function slot0.Reset(slot0, slot1, slot2, slot3)
 	setActive(slot0.flash, false)
 	setActive(slot0.optionsCg.gameObject, false)
 	setActive(slot0.bgGlitch, false)
+	setActive(slot0.locationTr, false)
 
+	slot0.locationTr.localPosition = slot0.locationTrPos
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
 
@@ -934,6 +1045,10 @@ function slot0.Clear(slot0, slot1)
 end
 
 function slot0.StoryEnd(slot0)
+	setActive(slot0.iconImage.gameObject, false)
+
+	slot0.iconImage.sprite = nil
+	slot0.branchCodeList = {}
 	slot0.stop = false
 	slot0.pause = false
 
@@ -1080,6 +1195,7 @@ function slot0.OnStart(slot0, slot1)
 end
 
 function slot0.OnReset(slot0, slot1, slot2, slot3)
+	slot3()
 end
 
 function slot0.OnBgUpdate(slot0, slot1)

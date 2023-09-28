@@ -21,6 +21,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.data = getProxy(MiniGameProxy):GetHubByHubId(slot0.hubId)
 	slot0.ultimate = slot0.data.ultimate
 	slot0.usedtime = slot0.data.usedtime
+	slot0.maxtime = slot0.data:getConfig("reward_need")
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -33,24 +34,26 @@ function slot0.OnFirstFlush(slot0)
 			helps = pg.gametip.catchteasure_help.tip
 		})
 	end, SFX_PANEL)
+end
+
+function slot0.OnUpdateFlush(slot0)
 	SetActive(slot0.gotBtn, slot0.ultimate == 1)
 	slot0:UpdateSigned()
 	slot0:CheckGet()
 end
 
 function slot0.UpdateSigned(slot0)
-	slot1 = slot0.data:getConfig("reward_need")
+	slot1 = slot0.maxtime
 	slot2 = slot0.usedtime
-	slot3 = slot0.ultimate == 0
 
-	for slot7, slot8 in ipairs(slot0.icons) do
-		setActive(slot8, slot7 <= slot2)
+	for slot6, slot7 in ipairs(slot0.icons) do
+		setActive(slot7, slot6 <= slot2)
 	end
 end
 
 function slot0.CheckGet(slot0)
 	if slot0.ultimate == 0 then
-		if slot0.usedtime < slot0.data:getConfig("reward_need") then
+		if slot0.usedtime < slot0.maxtime then
 			return
 		end
 

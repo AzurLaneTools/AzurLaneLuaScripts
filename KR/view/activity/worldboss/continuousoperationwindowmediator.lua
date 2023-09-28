@@ -22,15 +22,20 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		ActivityProxy.ACTIVITY_UPDATED
+		ActivityProxy.ACTIVITY_UPDATED,
+		PlayerProxy.UPDATED
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-		slot0.viewComponent:SetActivity(slot3)
+	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+			slot0.viewComponent:SetActivity(slot3)
+		end
+	elseif slot2 == PlayerProxy.UPDATED then
+		slot0.viewComponent:UpdateContent()
 	end
 end
 

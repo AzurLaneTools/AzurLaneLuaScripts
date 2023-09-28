@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "으흠… 이건 지휘관이 앉아 있는 의자….",
 			effects = {
 				{
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "지휘관, 항상 이 의자에 앉아서 업무를 보는구나….",
 			typewriter = {
 				speed = 0.05,
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "이건 스탠드 옷걸이고, 지휘관의 모자랑 겉옷이 걸려 있어….",
 			typewriter = {
 				speed = 0.05,
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "음… 책장에는 재밌어 보이는 책이 잔뜩 있네. 지금까지 전혀 눈치채지 못했어….",
 			typewriter = {
 				speed = 0.05,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "그리고 이쪽에는… 꺅!",
 			typewriter = {
 				speed = 0.05,
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "미안해, 지휘관! 부딪혔네….",
 			typewriter = {
 				speed = 0.05,

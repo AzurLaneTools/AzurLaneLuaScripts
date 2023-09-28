@@ -305,7 +305,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "어때? 집무실에서도 부두 풍경이 선명하게 보이지?",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "부두의 바닷바람까지 느껴지는 것 같지 않아?",
 			typewriter = {
 				speed = 0.05,
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "집무실은 전망이 좋으니까, 비서함이 된 후부터 계속 이렇게 해보고 싶었어… 에헤헤…",
 			typewriter = {
 				speed = 0.05,
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "…지휘관? 왜 그래? 갑자기 아무 말도…",
 			typewriter = {
 				speed = 0.05,
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "에마누엘레 페사노",
 			say = "에헤헷, 렌즈 너머의 세상에 푹 빠진 거야…?",
 			typewriter = {
 				speed = 0.05,

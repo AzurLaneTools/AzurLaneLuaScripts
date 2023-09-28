@@ -1,4 +1,4 @@
-slot0 = class("WSCommand")
+slot0 = class("WSCommand", import(".WSBaseCommand"))
 slot1 = nil
 
 function slot0.Bind(slot0)
@@ -9,79 +9,15 @@ function slot0.Unbind()
 	uv0 = nil
 end
 
-function slot0.Ctor(slot0, slot1)
-	slot0.index = slot1
-	slot0.wsOps = {}
-end
-
-function slot0.Dispose(slot0)
-end
-
-function slot0.Op(slot0, slot1, ...)
-	assert(slot1 and #slot1 > 0)
-
-	if #slot0.wsOps > 0 then
-		WorldConst.Print("ignore operation: " .. slot1 .. ", current operation: " .. slot0.wsOps[#slot0.wsOps])
-
-		return
-	end
-
-	WorldConst.Print(slot0.index .. " do operation: " .. slot1)
-	table.insert(slot0.wsOps, slot1)
-	slot0:__slot1_None__(...)
-end
-
-function slot0.OpPush(slot0, slot1, ...)
-	assert(slot1 and #slot1 > 0)
-	WorldConst.Print(slot0.index .. " push operation: " .. slot1)
-	table.insert(slot0.wsOps, slot1)
-	slot0:__slot1_None__(...)
-end
-
-function slot0.OpDone(slot0, slot1, ...)
-	assert(#slot0.wsOps > 0, "current operation can not be nil.")
-
-	slot2 = slot0.wsOps[#slot0.wsOps]
-
-	if slot1 ~= nil and slot2 .. "Done" ~= slot1 then
-		assert(false, "current operation " .. slot2 .. " mismatch with " .. slot1)
-
-		return
-	end
-
-	WorldConst.Print(slot0.index .. " operation done: " .. slot2)
-	table.remove(slot0.wsOps, #slot0.wsOps)
-
-	if slot1 then
-		slot0:__slot1_None__(...)
-	end
-end
-
-function slot0.OpClear(slot0)
-	slot0.wsOps = {}
-end
-
 function slot0.OpCall(slot0, slot1)
 	slot1(function ()
 		uv0:OpDone()
 	end)
 end
 
-function slot0.OpFetchMap(slot0, slot1, slot2)
-	slot0.fetchCallback = slot2
-
-	uv0:emit(WorldMediator.OnMapReq, slot1)
-end
-
-function slot0.OpFetchMapDone(slot0)
-	slot0.fetchCallback = nil
-
-	existCall(slot0.fetchCallback)
-end
-
 function slot0.OpSwitchMap(slot0, slot1, slot2)
 	slot2 = defaultValue(slot2, function ()
-		uv0:Op("OpInteractive")
+		uv0:OpInteractive()
 	end)
 	slot4 = nowWorld():GetActiveMap()
 
@@ -89,7 +25,7 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 		slot0:OpDone()
 		slot1:Apply()
 		slot3:TriggerAutoFight(slot3.isAutoSwitch or World.ReplacementMapType(slot3:GetActiveEntrance(), slot3:GetActiveMap()) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
-		slot0:Op("OpSetInMap", true, slot2)
+		slot0:OpSetInMap(true, slot2)
 	elseif slot1.destMapId ~= slot4.id or slot1.destGridId ~= slot4.gid then
 		slot5 = {}
 
@@ -181,7 +117,7 @@ function slot0.OpInteractive(slot0, slot1)
 				})
 			end,
 			onNo = function ()
-				uv0:Op("OpInteractive")
+				uv0:OpInteractive()
 			end
 		})
 
@@ -189,7 +125,7 @@ function slot0.OpInteractive(slot0, slot1)
 	end
 
 	if slot2:GetRound() == WorldConst.RoundElse then
-		slot0:Op("OpReqRound")
+		slot0:OpReqRound()
 
 		return
 	end
@@ -205,7 +141,7 @@ function slot0.OpInteractive(slot0, slot1)
 
 	table.insert(slot4, function (slot0)
 		if uv0:GetTaskProxy():getAutoSubmitTaskVO() then
-			uv1:Op("OpAutoSubmitTask", slot1)
+			uv1:OpAutoSubmitTask(slot1)
 		else
 			slot0()
 		end
@@ -220,7 +156,7 @@ function slot0.OpInteractive(slot0, slot1)
 				slot0()
 			else
 				function slot4()
-					uv0:Op("OpInteractive")
+					uv0:OpInteractive()
 				end
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -269,14 +205,14 @@ function slot0.OpInteractive(slot0, slot1)
 			if WorldConst.IsRookieMap(uv0.id) then
 				slot2 = uv1
 
-				slot2:Op("OpStory", WorldConst.GetRookieBattleLoseStory(), true, function ()
-					uv0:Op("OpKillWorld")
+				slot2:OpStory(WorldConst.GetRookieBattleLoseStory(), true, false, false, function ()
+					uv0:OpKillWorld()
 				end)
 
 				return
 			elseif WorldGuider.GetInstance():PlayGuide("WorldG161") then
 				uv2:TriggerAutoFight(false)
-				uv1:Op("OpInteractive")
+				uv1:OpInteractive()
 
 				return
 			end
@@ -300,7 +236,7 @@ function slot0.OpInteractive(slot0, slot1)
 	end)
 	table.insert(slot4, function (slot0)
 		if uv0:CheckFleetSalvage() then
-			uv1:Op("OpReqCatSalvage")
+			uv1:OpReqCatSalvage()
 		else
 			slot0()
 		end
@@ -316,10 +252,10 @@ function slot0.OpInteractive(slot0, slot1)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("world_boss_get_item"),
 					onYes = function ()
-						uv0:Op("OpOpenScene", SCENE.WORLDBOSS)
+						uv0:OpOpenScene(SCENE.WORLDBOSS)
 					end,
 					onNo = function ()
-						uv0:Op("OpInteractive")
+						uv0:OpInteractive()
 					end
 				})
 			end
@@ -331,9 +267,9 @@ function slot0.OpInteractive(slot0, slot1)
 
 			if slot1.type == WorldMapAttachment.TypeEvent then
 				if slot1:RemainOpEffect() then
-					uv1:Op("OpEventOp", slot1)
+					uv1:OpEventOp(slot1)
 				else
-					uv1:Op("OpEvent", slot2, slot1)
+					uv1:OpEvent(slot2, slot1)
 				end
 			elseif WorldMapAttachment.IsEnemyType(slot1.type) then
 				if uv2.isAutoFight or uv3 then
@@ -342,7 +278,7 @@ function slot0.OpInteractive(slot0, slot1)
 					assert(pg.expedition_data_template[slot3], "expedition_data_template not exist: " .. slot3)
 
 					if uv2:CheckSkipBattle() then
-						uv1:Op("OpReqSkipBattle", slot2.id)
+						uv1:OpReqSkipBattle(slot2.id)
 					elseif uv2.isAutoFight or PlayerPrefs.GetInt("world_skip_precombat", 0) == 1 then
 						uv4:emit(WorldMediator.OnStart, slot3, slot2, slot1)
 					else
@@ -356,13 +292,13 @@ function slot0.OpInteractive(slot0, slot1)
 							slot7.viewComponent = WorldPreCombatLayer
 						end
 
-						uv1:Op("OpOpenLayer", Context.New(slot7))
+						uv1:OpOpenLayer(Context.New(slot7))
 					end
 				else
 					slot0()
 				end
 			elseif slot1.type == WorldMapAttachment.TypeBox then
-				uv1:Op("OpReqBox", slot2, slot1)
+				uv1:OpReqBox(slot2, slot1)
 			else
 				assert(false, "invalide interactive type: " .. slot1.type)
 			end
@@ -386,7 +322,7 @@ function slot0.OpInteractive(slot0, slot1)
 	end)
 	table.insert(slot4, function (slot0)
 		if not uv0.isAutoFight and not uv0.isAutoSwitch and uv0:HasAutoFightDrops() then
-			uv1:Op("OpOpenLayer", Context.New({
+			uv1:OpOpenLayer(Context.New({
 				mediator = WorldAutoFightRewardMediator,
 				viewComponent = WorldAutoFightRewardLayer,
 				onRemoved = slot0
@@ -396,7 +332,7 @@ function slot0.OpInteractive(slot0, slot1)
 		end
 	end)
 	seriesAsync(slot4, function ()
-		uv0:Op("OpReqDiscover")
+		uv0:OpReqDiscover()
 	end)
 end
 
@@ -431,18 +367,18 @@ function slot0.OpReqDiscoverDone(slot0, slot1)
 
 	if slot1 and #slot1.hiddenAttachments > 0 then
 		table.insert(slot4, function (slot0)
-			uv0:Op("OpAnim", WorldConst.AnimRadar, slot0)
+			uv0:OpAnim(WorldConst.AnimRadar, slot0)
 		end)
 	end
 
 	seriesAsync(slot4, function ()
 		if uv0 then
 			uv0:Apply()
-			uv1:Op("OpInteractive")
+			uv1:OpInteractive()
 		elseif uv2:CheckMapPressing() then
-			uv1:Op("OpReqPressingMap")
+			uv1:OpReqPressingMap()
 		elseif uv3:CheckFleetMovable() then
-			uv1:Op("OpReadyToMove")
+			uv1:OpReadyToMove()
 		elseif not uv2:CheckFleetMovable(uv2:GetFleet()) and uv2:GetFleetTerrain(slot0) == WorldMapCell.TerrainWind then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_wind_move"))
 		end
@@ -466,7 +402,7 @@ function slot0.OpReadyToMove(slot0)
 
 		if slot4[math.clamp(math.ceil(math.random() * #slot4), 1, #slot4)] then
 			uv0:ClearMoveQueue()
-			slot0:Op("OpReqMoveFleet", slot3, slot4[slot5].row, slot4[slot5].column)
+			slot0:OpReqMoveFleet(slot3, slot4[slot5].row, slot4[slot5].column)
 
 			return
 		end
@@ -478,9 +414,9 @@ function slot0.OpReadyToMove(slot0)
 		elseif uv0:CheckLostMoveQueueCount() then
 			uv0:ResetLostMoveQueueCount(true)
 			slot4:TriggerAutoFight(false)
-			slot0:Op("OpInteractive")
+			slot0:OpInteractive()
 		else
-			slot0:Op("OpAutoFightSeach")
+			slot0:OpAutoFightSeach()
 		end
 
 		return
@@ -506,7 +442,7 @@ function slot0.OpReadyToMove(slot0)
 			slot4:GetProgress()
 		}
 	}) then
-		slot0:Op("OpReqEnterPort")
+		slot0:OpReqEnterPort()
 
 		return
 	end
@@ -639,7 +575,7 @@ function slot0.OpReqMoveFleetDone(slot0, slot1)
 			uv0:DisplayTargetArrow(uv2.arg1, uv2.arg2)
 		end
 
-		uv3:Op("OpActions", uv2.childOps, slot0)
+		uv3:OpActions(uv2.childOps, slot0)
 	end)
 	table.insert(slot2, function (slot0)
 		uv0:CheckMoveQueue(uv1.path)
@@ -651,7 +587,7 @@ function slot0.OpReqMoveFleetDone(slot0, slot1)
 			uv0:ClearMoveQueue()
 
 			if uv1.row == uv2.arg1 and uv1.column == uv2.arg2 then
-				uv4:Op("OpTriggerSign", uv1, uv3:GetCell(uv2.sign.row, uv2.sign.column):GetEventAttachment(), slot0)
+				uv4:OpTriggerSign(uv1, uv3:GetCell(uv2.sign.row, uv2.sign.column):GetEventAttachment(), slot0)
 			else
 				slot0()
 			end
@@ -661,7 +597,7 @@ function slot0.OpReqMoveFleetDone(slot0, slot1)
 	seriesAsync(slot2, function ()
 		uv0:HideTargetArrow()
 		uv1:Apply()
-		uv2:Op("OpInteractive")
+		uv2:OpInteractive()
 	end)
 end
 
@@ -784,9 +720,9 @@ function slot0.OpReqRound(slot0)
 end
 
 function slot0.OpReqRoundDone(slot0, slot1)
-	slot0:Op("OpActions", slot1.childOps, function ()
+	slot0:OpActions(slot1.childOps, function ()
 		uv0:Apply()
-		uv1:Op("OpInteractive", true)
+		uv1:OpInteractive(true)
 	end)
 end
 
@@ -794,7 +730,7 @@ function slot0.OpActions(slot0, slot1, slot2)
 	slot0:OpDone()
 	seriesAsync(_.map(slot1 or {}, function (slot0)
 		return function (slot0)
-			uv0:Op("OpAction", uv1, slot0)
+			uv0:OpAction(uv1, slot0)
 		end
 	end), slot2)
 end
@@ -806,7 +742,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 
 	if slot1.childOps then
 		table.insert(slot3, function (slot0)
-			uv0:Op("OpActions", uv1.childOps, slot0)
+			uv0:OpActions(uv1.childOps, slot0)
 		end)
 	end
 
@@ -819,7 +755,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpMoveFleet", uv1, function ()
+			slot1:OpMoveFleet(uv1, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -828,7 +764,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpMoveAttachment", uv1, function ()
+			slot1:OpMoveAttachment(uv1, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -837,7 +773,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpAttachmentAnim", uv1, function ()
+			slot1:OpAttachmentAnim(uv1, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -846,20 +782,20 @@ function slot0.OpAction(slot0, slot1, slot2)
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpFleetAnim", uv1, function ()
+			slot1:OpFleetAnim(uv1, function ()
 				uv0:Apply()
 				uv1()
 			end)
 		end)
 	elseif slot1.op == WorldConst.OpActionEventEffect then
 		table.insert(slot3, function (slot0)
-			uv0:Op("OpTriggerEvent", uv1, slot0)
+			uv0:OpTriggerEvent(uv1, slot0)
 		end)
 	elseif slot1.op == WorldConst.OpActionCameraMove then
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpMoveCameraTarget", uv1.attachment, 0.1, function ()
+			slot1:OpMoveCameraTarget(uv1.attachment, 0.1, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -868,7 +804,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 		table.insert(slot3, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpTrapGravityAnim", uv1.attachment, function ()
+			slot1:OpTrapGravityAnim(uv1.attachment, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -896,15 +832,11 @@ function slot0.OpEvent(slot0, slot1, slot2)
 			table.insert(slot9, function (slot0)
 				slot0(uv0)
 			end)
-		elseif slot11 and slot3.isAutoFight then
-			table.insert(slot9, function (slot0)
-				uv0:Op("OpAutoStory", uv1, {
-					uv2
-				}, true, slot0)
-			end)
 		else
 			table.insert(slot9, function (slot0)
-				uv0:Op("OpStory", uv1, true, slot0)
+				uv0:OpStory(uv1, true, true, uv2.isAutoFight and uv3 and {
+					uv3
+				} or false, slot0)
 			end)
 		end
 
@@ -920,7 +852,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 			else
 				uv2.triggered = true
 
-				uv3:Op("OpInteractive")
+				uv3:OpInteractive()
 			end
 		end)
 	elseif slot7 == WorldMapAttachment.EffectEventConsumeItem then
@@ -940,7 +872,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 					onNo = function ()
 						uv0.triggered = true
 
-						uv1:Op("OpInteractive")
+						uv1:OpInteractive()
 					end
 				})
 			end)
@@ -955,8 +887,8 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				uv2.triggered = true
 				slot1 = uv3
 
-				slot1:Op("OpStory", uv1[3], true, function ()
-					uv0:Op("OpInteractive")
+				slot1:OpStory(uv1[3], true, false, false, function ()
+					uv0:OpInteractive()
 				end)
 			else
 				slot0()
@@ -969,11 +901,11 @@ function slot0.OpEvent(slot0, slot1, slot2)
 			else
 				slot1 = uv1
 
-				slot1:Op("OpGuide", uv2[1], uv2[2], function ()
+				slot1:OpGuide(uv2[1], uv2[2], function ()
 					uv0.finishMark = uv0.data
 
 					if uv1 then
-						uv2:Op("OpInteractive")
+						uv2:OpInteractive()
 					end
 				end)
 			end
@@ -988,12 +920,12 @@ function slot0.OpEvent(slot0, slot1, slot2)
 
 			if slot6.effect_paramater[2] then
 				table.insert(slot9, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:OpStory(uv1, true, false, false, slot0)
 				end)
 			end
 
 			table.insert(slot9, function (slot0)
-				uv0:Op("OpInteractive")
+				uv0:OpInteractive()
 			end)
 		end
 	elseif slot7 == WorldMapAttachment.EffectEventCatSalvage then
@@ -1002,13 +934,13 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				table.insert(slot9, function (slot0)
 					slot1 = uv0
 
-					slot1:Op("OpStory", uv1[1], true, function (slot0)
+					slot1:OpStory(uv1[1], true, true, false, function (slot0)
 						if slot0 == uv0[2] then
 							uv1()
 						else
 							uv2.triggered = true
 
-							uv3:Op("OpInteractive")
+							uv3:OpInteractive()
 						end
 					end)
 				end)
@@ -1020,12 +952,12 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				slot10 = pg.gameset.world_catsearch_failure.description[1]
 
 				table.insert(slot9, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:OpStory(uv1, true, false, false, slot0)
 				end)
 			end
 
 			table.insert(slot9, function (slot0)
-				uv0:Op("OpInteractive")
+				uv0:OpInteractive()
 			end)
 		end
 	elseif slot7 == WorldMapAttachment.EffectEventMsgbox then
@@ -1037,7 +969,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 				onNo = uv1[1] == 0 and slot0 or function ()
 					uv0.triggered = true
 
-					uv1:Op("OpInteractive")
+					uv1:OpInteractive()
 				end,
 				hideNo = uv1[1] == 0
 			})
@@ -1057,7 +989,7 @@ function slot0.OpEvent(slot0, slot1, slot2)
 	end
 
 	seriesAsync(slot9, function ()
-		uv6:Op("OpReqEvent", uv0:NewMapOp({
+		uv6:OpReqEvent(uv0:NewMapOp({
 			op = WorldConst.OpReqEvent,
 			id = uv1.id,
 			arg1 = uv2,
@@ -1079,8 +1011,8 @@ function slot0.OpReqEvent(slot0, slot1)
 end
 
 function slot0.OpReqEventDone(slot0, slot1)
-	slot0:Op("OpTriggerEvent", slot1, function ()
-		uv0:Op("OpInteractive", true)
+	slot0:OpTriggerEvent(slot1, function ()
+		uv0:OpInteractive(true)
 	end)
 end
 
@@ -1089,12 +1021,12 @@ function slot0.OpEventOp(slot0, slot1)
 
 	slot2 = uv0
 
-	slot0:Op("OpTriggerEvent", slot2:NewMapOp({
+	slot0:OpTriggerEvent(slot2:NewMapOp({
 		op = WorldConst.OpActionEventOp,
 		attachment = slot1,
 		effect = slot1:GetOpEffect()
 	}), function ()
-		uv0:Op("OpInteractive")
+		uv0:OpInteractive()
 	end)
 end
 
@@ -1114,13 +1046,9 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 				uv0:ReContinueMoveQueue()
 				slot0()
 			end)
-		elseif slot3.isAutoFight then
-			table.insert(slot4, function (slot0)
-				uv0:Op("OpAutoStory", uv1, {}, true, slot0)
-			end)
 		else
 			table.insert(slot4, function (slot0)
-				uv0:Op("OpStory", uv1, true, slot0)
+				uv0:OpStory(uv1, true, false, uv2.isAutoFight and {} or false, slot0)
 			end)
 		end
 
@@ -1146,7 +1074,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 
 		if uv0:GetInMap() and slot8.config.icon == "chuansong01" then
 			table.insert(slot4, function (slot0)
-				uv0:Op("OpAttachmentAnim", uv1:NewMapOp({
+				uv0:OpAttachmentAnim(uv1:NewMapOp({
 					anim = "chuansong_open",
 					attachment = uv2
 				}), slot0)
@@ -1154,12 +1082,12 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		end
 
 		table.insert(slot4, function (slot0)
-			uv0:Op("OpSwitchMap", uv1, slot0)
+			uv0:OpSwitchMap(uv1, slot0)
 		end)
 	elseif slot6 == WorldMapAttachment.EffectEventShowMapMark then
 		if not slot3.isAutoFight then
 			table.insert(slot4, function (slot0)
-				uv0:Op("OpShowMarkOverview", {
+				uv0:OpShowMarkOverview({
 					ids = uv1
 				}, slot0)
 			end)
@@ -1173,7 +1101,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpMoveCamera", uv1[1], uv1[2], function ()
+			slot1:OpMoveCamera(uv1[1], uv1[2], function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1182,7 +1110,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpShakePlane", uv1[1], uv1[2], uv1[3], uv1[4], function ()
+			slot1:OpShakePlane(uv1[1], uv1[2], uv1[3], uv1[4], function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1195,7 +1123,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 
 			slot1 = uv1
 
-			slot1:Op("OpActions", uv2.childOps, function ()
+			slot1:OpActions(uv2.childOps, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1204,7 +1132,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			slot2 = uv1
 
-			slot2:Op("OpFlash", uv0[1], uv0[2], uv0[3], Color.New(uv0[4][1] / 255, uv0[4][2] / 255, uv0[4][3] / 255, uv0[4][4] / 255), function ()
+			slot2:OpFlash(uv0[1], uv0[2], uv0[3], Color.New(uv0[4][1] / 255, uv0[4][2] / 255, uv0[4][3] / 255, uv0[4][4] / 255), function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1237,7 +1165,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpActions", uv1.childOps, function ()
+			slot1:OpActions(uv1.childOps, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1250,7 +1178,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 
 			slot1 = uv1
 
-			slot1:Op("OpSetInMap", false, function ()
+			slot1:OpSetInMap(false, function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1290,7 +1218,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
-			slot1:Op("OpPlaySound", uv1[1], function ()
+			slot1:OpPlaySound(uv1[1], function ()
 				uv0:Apply()
 				uv1()
 			end)
@@ -1299,7 +1227,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			uv0:TriggerAutoFight(false)
 			uv1:Apply()
-			uv2:Op("OpOpenLayer", Context.New({
+			uv2:OpOpenLayer(Context.New({
 				mediator = WorldHelpMediator,
 				viewComponent = WorldHelpLayer,
 				data = {
@@ -1314,7 +1242,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 			uv0:Apply()
 
 			if uv1[1] > 0 then
-				uv2:Op("OpShowAllFleetHealth", slot0)
+				uv2:OpShowAllFleetHealth(slot0)
 			else
 				slot0()
 			end
@@ -1355,11 +1283,11 @@ function slot0.OpReqRetreatDone(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
-		uv0:Op("OpActions", uv1.childOps, slot0)
+		uv0:OpActions(uv1.childOps, slot0)
 	end)
 	seriesAsync(slot2, function ()
 		uv0:Apply()
-		uv1:Op("OpInteractive")
+		uv1:OpInteractive()
 	end)
 end
 
@@ -1374,7 +1302,7 @@ function slot0.OpTransport(slot0, slot1, slot2)
 	elseif not slot2:IsMapOpen() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_map_not_open"))
 	else
-		slot0:Op("OpReqTransport", slot4:GetFleet(), slot1, slot2)
+		slot0:OpReqTransport(slot4:GetFleet(), slot1, slot2)
 	end
 end
 
@@ -1392,7 +1320,7 @@ end
 
 function slot0.OpReqTransportDone(slot0, slot1)
 	seriesAsync({}, function ()
-		uv0:Op("OpSwitchMap", uv1)
+		uv0:OpSwitchMap(uv1)
 	end)
 end
 
@@ -1469,7 +1397,7 @@ function slot0.OpReqJumpOutDone(slot0, slot1)
 	end
 
 	seriesAsync(slot2, function ()
-		uv0:Op("OpSwitchMap", uv1)
+		uv0:OpSwitchMap(uv1)
 	end)
 end
 
@@ -1485,25 +1413,16 @@ function slot0.OpReqSwitchFleetDone(slot0, slot1)
 
 	slot2:GetActiveMap():UpdateFleetIndex(table.indexof(slot2.fleets, slot2:GetFleet(slot1.id)))
 	uv0.wsMap:UpdateRangeVisible(false)
-	slot0:Op("OpInteractive")
+	slot0:OpInteractive()
 end
 
-function slot0.OpStory(slot0, slot1, slot2, slot3)
-	slot4 = pg.NewStoryMgr.GetInstance()
+function slot0.OpStory(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = pg.NewStoryMgr.GetInstance()
 
-	slot4:Play(slot1, function (slot0, slot1)
+	slot7:PlayForWorld(slot1, slot4, function (slot0, slot1)
 		uv0:OpDone()
 		existCall(uv1, slot1)
-	end, slot2)
-end
-
-function slot0.OpAutoStory(slot0, slot1, slot2, slot3, slot4)
-	slot5 = pg.NewStoryMgr.GetInstance()
-
-	slot5:AutoPlay(slot1, slot2, function (slot0, slot1)
-		uv0:OpDone()
-		existCall(uv1, slot1)
-	end, slot3)
+	end, slot2, false, tobool(slot4), slot3)
 end
 
 function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
@@ -1536,15 +1455,11 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 				table.insert(uv0, function (slot0)
 					slot0(uv0)
 				end)
-			elseif slot4 and nowWorld().isAutoFight then
-				table.insert(uv0, function (slot0)
-					uv0:Op("OpAutoStory", uv1, {
-						uv2
-					}, true, slot0)
-				end)
 			else
 				table.insert(uv0, function (slot0)
-					uv0:Op("OpStory", uv1, true, slot0)
+					uv0:OpStory(uv1, true, true, nowWorld().isAutoFight and uv2 and {
+						uv2
+					} or false, slot0)
 				end)
 			end
 
@@ -1554,7 +1469,7 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 				if _.detect(uv0[2], function (slot0)
 					return slot0[1] == uv0
 				end) and slot2[2] > 0 then
-					uv1:Op("OpTriggerEvent", uv2:NewMapOp({
+					uv1:OpTriggerEvent(uv2:NewMapOp({
 						attachment = uv3,
 						effect = pg.world_effect_data[slot2[2]]
 					}), slot0)
@@ -1567,7 +1482,7 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 		end
 
 		table.insert(uv0, function (slot0)
-			uv0:Op("OpTriggerEvent", uv1:NewMapOp({
+			uv0:OpTriggerEvent(uv1:NewMapOp({
 				attachment = uv2,
 				effect = uv3
 			}), slot0)
@@ -1787,7 +1702,7 @@ end
 
 function slot0.OpReqBoxDone(slot0, slot1)
 	slot1:Apply()
-	slot0:Op("OpInteractive")
+	slot0:OpInteractive()
 end
 
 function slot0.OpSetInMap(slot0, slot1, slot2)
@@ -1896,13 +1811,13 @@ function slot0.OpRedeploy(slot0)
 			onYes = function ()
 				uv0.salvageAutoResult = true
 
-				uv1:Op("OpInteractive")
+				uv1:OpInteractive()
 			end
 		})
 	else
 		slot3, slot4 = slot1:BuildFormationIds()
 
-		slot0:Op("OpOpenScene", SCENE.WORLD_FLEET_SELECT, {
+		slot0:OpOpenScene(SCENE.WORLD_FLEET_SELECT, {
 			type = slot3,
 			fleets = slot4
 		})
@@ -1956,8 +1871,8 @@ function slot0.OpReqMaintenanceDone(slot0, slot1)
 	slot5 = uv0.wsMap
 
 	slot5:UpdateRangeVisible(false)
-	slot0:Op("OpShowAllFleetHealth", function ()
-		uv0:Op("OpInteractive")
+	slot0:OpShowAllFleetHealth(function ()
+		uv0:OpInteractive()
 	end)
 end
 
@@ -1976,7 +1891,7 @@ function slot0.OpReqVisionDone(slot0, slot1)
 	slot2:SetReqCDTime(WorldConst.OpReqVision, pg.TimeMgr.GetInstance():GetServerTime())
 	slot2:GetActiveMap():UpdateVisionFlag(true)
 	uv0.wsMap:UpdateRangeVisible(false)
-	slot0:Op("OpInteractive")
+	slot0:OpInteractive()
 end
 
 function slot0.OpReqPressingMap(slot0)
@@ -2027,7 +1942,7 @@ function slot0.OpReqPressingMapDone(slot0, slot1, slot2)
 	seriesAsync(slot3, function ()
 		uv0:Apply()
 		uv1.wsMap:UpdateRangeVisible(false)
-		uv2:Op("OpInteractive")
+		uv2:OpInteractive()
 	end)
 end
 
@@ -2066,7 +1981,7 @@ function slot0.OpReqCatSalvageDone(slot0, slot1, slot2)
 
 	seriesAsync(slot3, function ()
 		uv0:Apply()
-		uv1:Op("OpInteractive")
+		uv1:OpInteractive()
 	end)
 end
 
@@ -2079,7 +1994,7 @@ end
 
 function slot0.OpReqSkipBattleDone(slot0, slot1)
 	slot1:Apply()
-	slot0:Op("OpInteractive")
+	slot0:OpInteractive()
 end
 
 function slot0.OpPlaySound(slot0, slot1, slot2)
@@ -2098,7 +2013,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 	slot0:OpDone()
 
 	if nowWorld():GetTaskProxy():getTaskById(slot1):GetFollowingAreaId() then
-		slot0:Op("OpShowMarkOverview", {
+		slot0:OpShowMarkOverview({
 			mode = "Task",
 			taskId = slot1
 		})
@@ -2143,7 +2058,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 			for slot11, slot12 in ipairs(slot4[2]) do
 				assert(pg.world_effect_data[slot12], "without effect: " .. slot12)
 				table.insert(slot7, function (slot0)
-					uv2:Op("OpTriggerEvent", uv0:NewMapOp({
+					uv2:OpTriggerEvent(uv0:NewMapOp({
 						op = WorldConst.OpActionTaskGoto,
 						effect = pg.world_effect_data[uv1]
 					}), slot0)
@@ -2151,7 +2066,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 			end
 
 			seriesAsync(slot7, function ()
-				uv0:Op("OpInteractive")
+				uv0:OpInteractive()
 			end)
 		elseif slot4[1] == 2 then
 			if slot2:GetRealm() == checkExist(checkExist(slot2:GetActiveMap(), {
@@ -2165,7 +2080,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 					slot2:GetProgress()
 				}
 			}) then
-				slot0:Op("OpRedeploy")
+				slot0:OpRedeploy()
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_1"))
 
@@ -2200,7 +2115,7 @@ function slot0.OpAutoSubmitTask(slot0, slot1)
 end
 
 function slot0.OpAutoSubmitTaskDone(slot0, slot1)
-	slot0:Op("OpInteractive")
+	slot0:OpInteractive()
 end
 
 function slot0.OpTrapGravityAnim(slot0, slot1, slot2)
@@ -2232,11 +2147,11 @@ function slot0.OpAutoFightSeach(slot0)
 	end
 
 	if slot5 then
-		slot0:Op("OpLongMoveFleet", slot3, slot5.row, slot5.column)
+		slot0:OpLongMoveFleet(slot3, slot5.row, slot5.column)
 	elseif slot3:IsCatSalvage() then
 		slot5 = slot4[1]
 
-		slot0:Op("OpLongMoveFleet", slot3, slot5.row, slot5.column)
+		slot0:OpLongMoveFleet(slot3, slot5.row, slot5.column)
 	else
 		slot7 = {}
 		slot8 = false
@@ -2304,14 +2219,14 @@ function slot0.OpAutoFightSeach(slot0)
 
 		if slot8 then
 			table.insert(slot7, function (slot0)
-				uv0:Op("OpAutoSwitchMap", slot0)
+				uv0:OpAutoSwitchMap(slot0)
 			end)
 		end
 
 		seriesAsync(slot7, function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_suspend"))
 			uv0:TriggerAutoFight(false)
-			uv1:Op("OpInteractive")
+			uv1:OpInteractive()
 		end)
 	end
 end
@@ -2442,7 +2357,7 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 	})
 
 	if false then
-		slot0:Op("OpReqJumpOut", slot5.gid, true)
+		slot0:OpReqJumpOut(slot5.gid, true)
 	elseif not slot7 then
 		slot2:TriggerAutoSwitch(false)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip1"))
@@ -2458,9 +2373,9 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 
 		if slot7.active then
 			nowWorld():TriggerAutoFight(true)
-			slot0:Op("OpSetInMap", true)
+			slot0:OpSetInMap(true)
 		else
-			slot0:Op("OpTransport", slot8, slot7)
+			slot0:OpTransport(slot8, slot7)
 		end
 	end
 end

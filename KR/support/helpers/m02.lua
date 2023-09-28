@@ -1678,7 +1678,7 @@ function GetOwnedDropCount(slot0)
 				end
 			end,
 			[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
-				return getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0
+				return (getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0) + getProxy(BayProxy):GetEquipSkinCountInShips(slot0.id)
 			end,
 			[DROP_TYPE_RYZA_DROP] = function (slot0)
 				return getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id):GetItemById(slot0.id) and slot1.count or 0
@@ -4152,4 +4152,20 @@ function UpdateOwnDisplay(slot0, slot1)
 		setText(slot0.Find(slot0, "label"), i18n("word_own1"))
 		setText(slot0.Find(slot0, "Text"), slot2)
 	end
+end
+
+function checkCullResume(slot0)
+	if not ReflectionHelp.RefCallMethodEx(typeof("UnityEngine.CanvasRenderer"), "GetMaterial", GetComponent(slot0, "CanvasRenderer"), {
+		typeof("System.Int32")
+	}, {
+		0
+	}) then
+		for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(MeshImage)).Length do
+			slot1[slot5 - 1]:SetVerticesDirty()
+		end
+
+		return false
+	end
+
+	return true
 end

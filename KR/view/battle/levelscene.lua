@@ -340,9 +340,6 @@ function slot0.initEvents(slot0)
 	slot0:bind(LevelUIConst.OPEN_COMMANDER_PANEL, function (slot0, slot1, slot2, slot3)
 		uv0:openCommanderPanel(slot1, slot2, slot3)
 	end)
-	slot0:bind(LevelUIConst.TRACK_CHAPTER, function (slot0, slot1, slot2)
-		uv0:trackChapter(slot1, slot2)
-	end)
 	slot0:bind(LevelUIConst.HANDLE_SHOW_MSG_BOX, function (slot0, slot1)
 		uv0:HandleShowMsgBox(slot1)
 	end)
@@ -1745,17 +1742,13 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 		uv0.contextData.chapterLoopFlag = slot0
 
 		if uv1:getConfig("type") == Chapter.CustomFleet then
-			uv0:displayFleetEdit(slot3)
-		elseif #slot3:getNpcShipByType(1) > 0 then
-			if uv1:isValid() then
-				uv0:trackChapter(uv1, function ()
-					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, {}, uv1.loopFlag)
-				end)
-			end
+			uv0:displayFleetEdit(uv1)
+		elseif #uv1:getNpcShipByType(1) > 0 then
+			uv0:emit(LevelMediator2.ON_TRACKING, uv1.id)
 
 			return
 		else
-			uv0:displayFleetSelect(slot3)
+			uv0:displayFleetSelect(uv1)
 		end
 	end
 
@@ -1864,92 +1857,6 @@ function slot0.destroyFleetEdit(slot0)
 	slot0:destroyFleetSelect()
 end
 
-function slot0.isCrossStoryLimit(slot0, slot1)
-	slot2 = true
-
-	if slot1 ~= "" and #slot1 > 0 then
-		slot2 = _.all(slot1, function (slot0)
-			if slot0[1] == 1 then
-				return getProxy(TaskProxy):getTaskById(slot0[2]) and not slot2:isFinish()
-			end
-
-			return false
-		end)
-	end
-
-	return slot2
-end
-
-function slot0.trackChapter(slot0, slot1, slot2)
-	slot3 = nil
-
-	coroutine.wrap(function ()
-		slot1 = getProxy(ChapterProxy)
-
-		if uv0.contextData.map:isRemaster() then
-			if PlayerPrefs.GetString("remaster_tip") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") then
-				uv0:HandleShowMsgBox({
-					showStopRemind = true,
-					content = i18n("levelScene_activate_remaster"),
-					onYes = function ()
-						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							PlayerPrefs.SetString("remaster_tip", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
-						end
-
-						onNextTick(uv0)
-					end
-				})
-				coroutine.yield()
-			end
-
-			if slot1.remasterTickets <= 0 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
-
-				return
-			end
-		end
-
-		if slot0:isActivity() and not slot0:isRemaster() and not uv2:inActTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
-
-			return
-		end
-
-		if uv2:isTriesLimit() and not uv2:enoughTimes2Start() then
-			if uv2:IsSpChapter() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
-			end
-
-			return
-		end
-
-		slot3 = uv2:getConfig("enter_story_limit")
-
-		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) and not slot0:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
-			if tonumber(slot2) and slot5 > 0 then
-				uv0:emit(LevelMediator2.ON_PERFORM_COMBAT, slot5, uv1)
-				coroutine.yield()
-			else
-				slot6 = ChapterOpCommand.PlayChapterStory
-				slot7 = slot2
-
-				function slot8()
-					onNextTick(uv0)
-				end
-
-				slot9 = uv2:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. uv2.id, 1) == 1
-
-				slot6(slot7, slot8, slot9)
-				coroutine.yield()
-			end
-		end
-
-		existCall(uv3)
-	end)()
-end
-
 function slot0.setChapter(slot0, slot1)
 	slot2 = nil
 
@@ -1993,6 +1900,11 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						pg.UIMgr.CameraUI
 					},
 					groupName = LayerWeightConst.GROUP_LEVELUI
+				})
+				pg.playerResUI:SetActive({
+					active = true,
+					groupName = LayerWeightConst.GROUP_LEVELUI,
+					showType = PlayerResUI.TYPE_ALL
 				})
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
@@ -2172,6 +2084,9 @@ function slot0.switchToMap(slot0, slot1)
 	slot0:setChapter(nil)
 	slot0:PlayBGM()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
+	pg.playerResUI:SetActive({
+		active = false
+	})
 
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
 	slot0.canvasGroup.interactable = true
@@ -3486,6 +3401,9 @@ function slot0.willExit(slot0)
 
 	if slot0.contextData.chapterVO then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
+		pg.playerResUI:SetActive({
+			active = false
+		})
 	end
 
 	if slot0.levelFleetView and slot0.levelFleetView.selectIds then

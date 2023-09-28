@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "에마누엘레 페사뇨. 오늘은 그녀가 비서함으로 근무하는 첫날이다.",
+			say = "에마누엘레 페사노. 오늘은 그녀가 비서함으로 근무하는 첫날이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

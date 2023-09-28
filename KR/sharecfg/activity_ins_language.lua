@@ -4232,7 +4232,164 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_395_2",
 		"ins_reply_395_2_1",
 		"ins_op_395_1_1",
-		"op_reply_395_1_1"
+		"op_reply_395_1_1",
+		"ins_396",
+		"ins_discuss_396_1",
+		"ins_reply_396_1_1",
+		"ins_reply_396_1_2",
+		"ins_reply_396_1_3",
+		"ins_discuss_396_2",
+		"ins_reply_396_2_1",
+		"ins_reply_396_2_2",
+		"ins_discuss_396_3",
+		"ins_reply_396_3_1",
+		"ins_op_396_1_1",
+		"op_reply_396_1_1",
+		"ins_op_396_1_2",
+		"op_reply_396_1_2",
+		"ins_397",
+		"ins_discuss_397_1",
+		"ins_reply_397_1_1",
+		"ins_discuss_397_2",
+		"ins_reply_397_2_1",
+		"ins_reply_397_2_2",
+		"ins_reply_397_2_3",
+		"ins_reply_397_2_4",
+		"ins_discuss_397_3",
+		"ins_reply_397_3_1",
+		"ins_reply_397_3_2",
+		"ins_reply_397_3_3",
+		"ins_op_397_1_1",
+		"op_reply_397_1_1",
+		"ins_398",
+		"ins_discuss_398_1",
+		"ins_reply_398_1_1",
+		"ins_reply_398_1_2",
+		"ins_reply_398_1_3",
+		"ins_reply_398_1_4",
+		"ins_discuss_398_2",
+		"ins_reply_398_2_1",
+		"ins_reply_398_2_2",
+		"ins_reply_398_2_3",
+		"ins_discuss_398_3",
+		"ins_reply_398_3_1",
+		"ins_reply_398_3_2",
+		"ins_reply_398_3_3",
+		"ins_op_398_1_1",
+		"op_reply_398_1_1",
+		"ins_399",
+		"ins_discuss_399_1",
+		"ins_reply_399_1_1",
+		"ins_reply_399_1_2",
+		"ins_reply_399_1_3",
+		"ins_discuss_399_2",
+		"ins_reply_399_2_1",
+		"ins_op_399_1_1",
+		"op_reply_399_1_1",
+		"ins_op_399_1_2",
+		"op_reply_399_1_2",
+		"ins_400",
+		"ins_discuss_400_1",
+		"ins_reply_400_1_1",
+		"ins_discuss_400_2",
+		"ins_reply_400_2_1",
+		"ins_discuss_400_3",
+		"ins_reply_400_3_1",
+		"ins_op_400_1_1",
+		"op_reply_400_1_1",
+		"ins_op_400_1_2",
+		"op_reply_400_1_2",
+		"ins_401",
+		"ins_discuss_401_1",
+		"ins_reply_401_1_1",
+		"ins_reply_401_1_2",
+		"ins_discuss_401_2",
+		"ins_reply_401_2_1",
+		"ins_reply_401_2_2",
+		"ins_reply_401_2_3",
+		"ins_discuss_401_3",
+		"ins_reply_401_3_1",
+		"ins_reply_401_3_2",
+		"ins_op_401_1_1",
+		"op_reply_401_1_1",
+		"ins_402",
+		"ins_discuss_402_1",
+		"ins_reply_402_1_1",
+		"ins_discuss_402_2",
+		"ins_reply_402_2_1",
+		"ins_reply_402_2_2",
+		"ins_discuss_402_3",
+		"ins_reply_402_3_1",
+		"ins_op_402_1_1",
+		"op_reply_402_1_1",
+		"ins_403",
+		"ins_discuss_403_1",
+		"ins_reply_403_1_1",
+		"ins_reply_403_1_2",
+		"ins_reply_403_1_3",
+		"ins_discuss_403_2",
+		"ins_reply_403_2_1",
+		"ins_reply_403_2_2",
+		"ins_op_403_1_1",
+		"op_reply_403_1_1",
+		"ins_op_403_1_2",
+		"op_reply_403_1_2",
+		"ins_404",
+		"ins_discuss_404_1",
+		"ins_reply_404_1_1",
+		"ins_discuss_404_2",
+		"ins_reply_404_2_1",
+		"ins_reply_404_2_2",
+		"ins_op_404_1_1",
+		"op_reply_404_1_1",
+		"ins_op_404_1_2",
+		"op_reply_404_1_2",
+		"ins_405",
+		"ins_discuss_405_1",
+		"ins_reply_405_1_1",
+		"ins_reply_405_1_2",
+		"ins_reply_405_1_3",
+		"ins_reply_405_1_4",
+		"ins_discuss_405_2",
+		"ins_reply_405_2_1",
+		"ins_reply_405_2_2",
+		"ins_reply_405_2_3",
+		"ins_op_405_1_1",
+		"op_reply_405_1_1",
+		"ins_406",
+		"ins_discuss_406_1",
+		"ins_reply_406_1_1",
+		"ins_reply_406_1_2",
+		"ins_discuss_406_2",
+		"ins_reply_406_2_1",
+		"ins_reply_406_2_2",
+		"ins_reply_406_2_3",
+		"ins_op_406_1_1",
+		"op_reply_406_1_1",
+		"ins_407",
+		"ins_discuss_407_1",
+		"ins_reply_407_1_1",
+		"ins_reply_407_1_2",
+		"ins_discuss_407_2",
+		"ins_reply_407_2_1",
+		"ins_reply_407_2_2",
+		"ins_reply_407_2_3",
+		"ins_discuss_407_3",
+		"ins_reply_407_3_1",
+		"ins_reply_407_3_2",
+		"ins_reply_407_3_3",
+		"ins_reply_407_3_4",
+		"ins_op_407_1_1",
+		"op_reply_407_1_1",
+		"ins_408",
+		"ins_discuss_408_1",
+		"ins_reply_408_1_1",
+		"ins_discuss_408_2",
+		"ins_reply_408_2_1",
+		"ins_op_408_1_1",
+		"op_reply_408_1_1",
+		"ins_op_408_1_2",
+		"op_reply_408_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16748,186 +16905,657 @@ pg.base.activity_ins_language = {
 		value = "지휘관 몫도 지금 가지고 갈게."
 	},
 	ins_390 = {
-		value = ""
+		value = "오늘도 몸과 마음 모두 균형 잡힌 하루… 우후후"
 	},
 	ins_discuss_390_1 = {
-		value = ""
+		value = "흥, 어중간한 건 여전하군."
 	},
 	ins_reply_390_1_1 = {
-		value = ""
+		value = "아주 달변인걸, 장 바르. 다음에 지휘냥들한테 붙들리면 아주 재미있게 구경해 줄게."
 	},
 	ins_reply_390_1_2 = {
-		value = ""
+		value = "…윽! 야비한 녀석같으니…"
 	},
 	ins_discuss_390_2 = {
-		value = ""
+		value = "이쪽 일도 좀 '균형 있게' 도와주시겠어요?"
 	},
 	ins_reply_390_2_1 = {
-		value = ""
+		value = "어머, 앞에 나서서 하는 일은 '리슐리외 님' 몫이잖아~"
 	},
 	ins_discuss_390_3 = {
-		value = ""
+		value = "올바른 방향으로 기울이는 것도 꽤 어렵네요…."
 	},
 	ins_reply_390_3_1 = {
-		value = ""
+		value = "그렇다고 우유부단하게 굴면 오히려 손해 볼걸, 팽르베?"
 	},
 	ins_reply_390_3_2 = {
-		value = ""
+		value = "마, 맞는 말씀이네요…."
 	},
 	ins_op_390_1_1 = {
-		value = ""
+		value = "일과 오락이 양립하는 건 어렵지"
 	},
 	op_reply_390_1_1 = {
-		value = ""
+		value = "방법만 알면 어렵지 않아. 지휘관, 내가 조언해줄까? 후후후."
 	},
 	ins_391 = {
-		value = ""
+		value = "음… 오늘은 뭐가 좋을까요……."
 	},
 	ins_discuss_391_1 = {
-		value = ""
+		value = "길 잃은 어린양 발견♪ '마녀'의 의견, 듣고 싶어?"
 	},
 	ins_reply_391_1_1 = {
-		value = ""
+		value = "부, 부탁드려도 될까요…?"
 	},
 	ins_discuss_391_2 = {
-		value = ""
+		value = "제가 고민거리를 모두 지워드릴까요?"
 	},
 	ins_reply_391_2_1 = {
-		value = ""
+		value = "음… 어떻게 지워 주실지는 잘 모르겠지만, 마음만 감사히 받겠습니다…."
 	},
 	ins_discuss_391_3 = {
-		value = ""
+		value = "기도의 비적'을 시도해 보시는 건 어때요?"
 	},
 	ins_reply_391_3_1 = {
-		value = ""
+		value = "그건… 무슨 점술 같은 건가요?"
 	},
 	ins_op_391_1_1 = {
-		value = ""
+		value = "뭘 선택하든 행운은 꼭 찾아올 거야!"
 	},
 	op_reply_391_1_1 = {
-		value = ""
+		value = "가, 감사합니다…! 지휘관님."
 	},
 	ins_392 = {
-		value = ""
+		value = "수정구슬에는 운명의 비밀이 숨겨져 있어…."
 	},
 	ins_discuss_392_1 = {
-		value = ""
+		value = "마녀님 덕분에 고민이 싹 사라진 것 같아요…."
 	},
 	ins_reply_392_1_1 = {
-		value = ""
+		value = "우후후. 행운을 빌게, 팽르베♪"
 	},
 	ins_discuss_392_2 = {
-		value = ""
+		value = "우와~ 연애점도 봐줄 수 있어?"
 	},
 	ins_reply_392_2_1 = {
-		value = ""
+		value = "물론이지. 미리미리 예약해~ 후후후."
 	},
 	ins_reply_392_2_2 = {
-		value = ""
+		value = "냐하★ 그럼, 블뤼허도!"
 	},
 	ins_reply_392_2_3 = {
-		value = ""
+		value = "어머, 이거 줄이 길어지겠는걸~"
 	},
 	ins_op_392_1_1 = {
-		value = ""
+		value = "점을 예약하고 싶어."
 	},
 	op_reply_392_1_1 = {
-		value = ""
+		value = "좋아. 지휘관은 어떤 게 궁금해? 혹시… 사랑? 우후후."
 	},
 	ins_393 = {
-		value = ""
+		value = "대어를 낚았어!"
 	},
 	ins_discuss_393_1 = {
-		value = ""
+		value = "어머, 창으로… 실력이 굉장하네."
 	},
 	ins_reply_393_1_1 = {
-		value = ""
+		value = "에헤헤, 타이밍을 잘 맞춰서 찌르면 누구나 할 수 있어. 별거 아니야."
 	},
 	ins_discuss_393_2 = {
-		value = ""
+		value = "와아, 그렇게 쓸 수도 있구나!"
 	},
 	ins_reply_393_2_1 = {
-		value = ""
+		value = "에헤헤, 이거 말고도 다르게 쓸 수 있는 방법 많아~"
 	},
 	ins_reply_393_2_2 = {
-		value = ""
+		value = "정말?! 알려줘~"
 	},
 	ins_reply_393_2_3 = {
-		value = ""
+		value = "물론이지♪ 나중에 언니가 찬찬히 알려줄게♪"
 	},
 	ins_discuss_393_3 = {
-		value = ""
+		value = "지적할 게 한둘이 아니긴 하지만… 그래도 대어를 낚다니 대단하네."
 	},
 	ins_reply_393_3_1 = {
-		value = ""
+		value = "고마워, 포슈! 돌아가면 이걸로 뭐 좀 만들어줘!"
 	},
 	ins_reply_393_3_2 = {
-		value = ""
+		value = "엥?! 나보고 만들라고?"
 	},
 	ins_op_393_1_1 = {
-		value = ""
+		value = "구울 거야? 아니면 볶을 거야?"
 	},
 	op_reply_393_1_1 = {
-		value = ""
+		value = "맛만 있으면 뭐든 괜찮아♪"
 	},
 	ins_394 = {
-		value = ""
+		value = "다른 재료도 좀 넣는 편이 좋으려나…?"
 	},
 	ins_discuss_394_1 = {
-		value = ""
+		value = "…재료를 넣은 순서에 문제가 있었던 걸지도 몰라."
 	},
 	ins_reply_394_1_1 = {
-		value = ""
+		value = "일단 누군가에게 맛을 봐달라고 하는 편이 좋을지도…."
 	},
 	ins_discuss_394_2 = {
-		value = ""
+		value = "설마 이건... 한 모금 마시면 능력치가 단숨에 올라간다는 매직 포션…?!"
 	},
 	ins_reply_394_2_1 = {
-		value = ""
+		value = "아니, 아무리 봐도 이건 한 모금 마시면 HP가 점점 깎이는 포이즌 포션 아닌가요…."
 	},
 	ins_discuss_394_3 = {
-		value = ""
+		value = "이건… 무슨 마법약이라도 만들고 있는 거야?"
 	},
 	ins_reply_394_3_1 = {
-		value = ""
+		value = "아니에요… 마시면 정신 안정, 기분 전환 효과가 있는 음료를 만들고 있었다구요."
 	},
 	ins_reply_394_3_2 = {
-		value = ""
+		value = "상태를 보니 다른 효능도 기대할 만한 것 같은데…?"
 	},
 	ins_op_394_1_1 = {
-		value = ""
+		value = "색깔이 선명하군."
 	},
 	op_reply_394_1_1 = {
-		value = ""
+		value = "지휘관, 혹시 괜찮으시면… 시험 삼아 좀 드셔 보시겠어요?"
 	},
 	ins_395 = {
-		value = ""
+		value = "오늘도 경건히 귀를 기울입니다――"
 	},
 	ins_discuss_395_1 = {
-		value = ""
+		value = "요즘 외근이 좀 많은데.. 여기서 '원격으로 고해'하는 건 어렵겠지?"
 	},
 	ins_reply_395_1_1 = {
-		value = ""
+		value = "그, 글쎄요… 그렇다고 쥬스타그램을 이용하면 다들 볼 텐데…."
 	},
 	ins_reply_395_1_2 = {
-		value = ""
+		value = "그렇네… 뭔가 '고해 전용 채널' 같은 게 있으면 좋겠네~"
 	},
 	ins_reply_395_1_3 = {
-		value = ""
+		value = "어머, 그보다 쉬프랑이 뭘 고해하는 스타일은 아니지 않아?"
 	},
 	ins_reply_395_1_4 = {
-		value = ""
+		value = "응? 그렇긴 하네. 아하하하♪"
 	},
 	ins_discuss_395_2 = {
-		value = ""
+		value = "늘 모두의 고해를 들어주시고, 고민을 상담해 주셔서… 정말 감사합니다."
 	},
 	ins_reply_395_2_1 = {
-		value = ""
+		value = "처, 천만에요! 다들 저를 믿어주시고, 저도 힘이 될 수 있어서 기쁠 따름이에요!"
 	},
 	ins_op_395_1_1 = {
-		value = ""
+		value = "나도 고해해도 돼?"
 	},
 	op_reply_395_1_1 = {
+		value = "길잃은 지휘관님을 인도할 수 있다니… 케르생, 영광이에요……!"
+	},
+	ins_396 = {
+		value = ""
+	},
+	ins_discuss_396_1 = {
+		value = ""
+	},
+	ins_reply_396_1_1 = {
+		value = ""
+	},
+	ins_reply_396_1_2 = {
+		value = ""
+	},
+	ins_reply_396_1_3 = {
+		value = ""
+	},
+	ins_discuss_396_2 = {
+		value = ""
+	},
+	ins_reply_396_2_1 = {
+		value = ""
+	},
+	ins_reply_396_2_2 = {
+		value = ""
+	},
+	ins_discuss_396_3 = {
+		value = ""
+	},
+	ins_reply_396_3_1 = {
+		value = ""
+	},
+	ins_op_396_1_1 = {
+		value = ""
+	},
+	op_reply_396_1_1 = {
+		value = ""
+	},
+	ins_op_396_1_2 = {
+		value = ""
+	},
+	op_reply_396_1_2 = {
+		value = ""
+	},
+	ins_397 = {
+		value = ""
+	},
+	ins_discuss_397_1 = {
+		value = ""
+	},
+	ins_reply_397_1_1 = {
+		value = ""
+	},
+	ins_discuss_397_2 = {
+		value = ""
+	},
+	ins_reply_397_2_1 = {
+		value = ""
+	},
+	ins_reply_397_2_2 = {
+		value = ""
+	},
+	ins_reply_397_2_3 = {
+		value = ""
+	},
+	ins_reply_397_2_4 = {
+		value = ""
+	},
+	ins_discuss_397_3 = {
+		value = ""
+	},
+	ins_reply_397_3_1 = {
+		value = ""
+	},
+	ins_reply_397_3_2 = {
+		value = ""
+	},
+	ins_reply_397_3_3 = {
+		value = ""
+	},
+	ins_op_397_1_1 = {
+		value = ""
+	},
+	op_reply_397_1_1 = {
+		value = ""
+	},
+	ins_398 = {
+		value = ""
+	},
+	ins_discuss_398_1 = {
+		value = ""
+	},
+	ins_reply_398_1_1 = {
+		value = ""
+	},
+	ins_reply_398_1_2 = {
+		value = ""
+	},
+	ins_reply_398_1_3 = {
+		value = ""
+	},
+	ins_reply_398_1_4 = {
+		value = ""
+	},
+	ins_discuss_398_2 = {
+		value = ""
+	},
+	ins_reply_398_2_1 = {
+		value = ""
+	},
+	ins_reply_398_2_2 = {
+		value = ""
+	},
+	ins_reply_398_2_3 = {
+		value = ""
+	},
+	ins_discuss_398_3 = {
+		value = ""
+	},
+	ins_reply_398_3_1 = {
+		value = ""
+	},
+	ins_reply_398_3_2 = {
+		value = ""
+	},
+	ins_reply_398_3_3 = {
+		value = ""
+	},
+	ins_op_398_1_1 = {
+		value = ""
+	},
+	op_reply_398_1_1 = {
+		value = ""
+	},
+	ins_399 = {
+		value = ""
+	},
+	ins_discuss_399_1 = {
+		value = ""
+	},
+	ins_reply_399_1_1 = {
+		value = ""
+	},
+	ins_reply_399_1_2 = {
+		value = ""
+	},
+	ins_reply_399_1_3 = {
+		value = ""
+	},
+	ins_discuss_399_2 = {
+		value = ""
+	},
+	ins_reply_399_2_1 = {
+		value = ""
+	},
+	ins_op_399_1_1 = {
+		value = ""
+	},
+	op_reply_399_1_1 = {
+		value = ""
+	},
+	ins_op_399_1_2 = {
+		value = ""
+	},
+	op_reply_399_1_2 = {
+		value = ""
+	},
+	ins_400 = {
+		value = ""
+	},
+	ins_discuss_400_1 = {
+		value = ""
+	},
+	ins_reply_400_1_1 = {
+		value = ""
+	},
+	ins_discuss_400_2 = {
+		value = ""
+	},
+	ins_reply_400_2_1 = {
+		value = ""
+	},
+	ins_discuss_400_3 = {
+		value = ""
+	},
+	ins_reply_400_3_1 = {
+		value = ""
+	},
+	ins_op_400_1_1 = {
+		value = ""
+	},
+	op_reply_400_1_1 = {
+		value = ""
+	},
+	ins_op_400_1_2 = {
+		value = ""
+	},
+	op_reply_400_1_2 = {
+		value = ""
+	},
+	ins_401 = {
+		value = ""
+	},
+	ins_discuss_401_1 = {
+		value = ""
+	},
+	ins_reply_401_1_1 = {
+		value = ""
+	},
+	ins_reply_401_1_2 = {
+		value = ""
+	},
+	ins_discuss_401_2 = {
+		value = ""
+	},
+	ins_reply_401_2_1 = {
+		value = ""
+	},
+	ins_reply_401_2_2 = {
+		value = ""
+	},
+	ins_reply_401_2_3 = {
+		value = ""
+	},
+	ins_discuss_401_3 = {
+		value = ""
+	},
+	ins_reply_401_3_1 = {
+		value = ""
+	},
+	ins_reply_401_3_2 = {
+		value = ""
+	},
+	ins_op_401_1_1 = {
+		value = ""
+	},
+	op_reply_401_1_1 = {
+		value = ""
+	},
+	ins_402 = {
+		value = ""
+	},
+	ins_discuss_402_1 = {
+		value = ""
+	},
+	ins_reply_402_1_1 = {
+		value = ""
+	},
+	ins_discuss_402_2 = {
+		value = ""
+	},
+	ins_reply_402_2_1 = {
+		value = ""
+	},
+	ins_reply_402_2_2 = {
+		value = ""
+	},
+	ins_discuss_402_3 = {
+		value = ""
+	},
+	ins_reply_402_3_1 = {
+		value = ""
+	},
+	ins_op_402_1_1 = {
+		value = ""
+	},
+	op_reply_402_1_1 = {
+		value = ""
+	},
+	ins_403 = {
+		value = ""
+	},
+	ins_discuss_403_1 = {
+		value = ""
+	},
+	ins_reply_403_1_1 = {
+		value = ""
+	},
+	ins_reply_403_1_2 = {
+		value = ""
+	},
+	ins_reply_403_1_3 = {
+		value = ""
+	},
+	ins_discuss_403_2 = {
+		value = ""
+	},
+	ins_reply_403_2_1 = {
+		value = ""
+	},
+	ins_reply_403_2_2 = {
+		value = ""
+	},
+	ins_op_403_1_1 = {
+		value = ""
+	},
+	op_reply_403_1_1 = {
+		value = ""
+	},
+	ins_op_403_1_2 = {
+		value = ""
+	},
+	op_reply_403_1_2 = {
+		value = ""
+	},
+	ins_404 = {
+		value = ""
+	},
+	ins_discuss_404_1 = {
+		value = ""
+	},
+	ins_reply_404_1_1 = {
+		value = ""
+	},
+	ins_discuss_404_2 = {
+		value = ""
+	},
+	ins_reply_404_2_1 = {
+		value = ""
+	},
+	ins_reply_404_2_2 = {
+		value = ""
+	},
+	ins_op_404_1_1 = {
+		value = ""
+	},
+	op_reply_404_1_1 = {
+		value = ""
+	},
+	ins_op_404_1_2 = {
+		value = ""
+	},
+	op_reply_404_1_2 = {
+		value = ""
+	},
+	ins_405 = {
+		value = ""
+	},
+	ins_discuss_405_1 = {
+		value = ""
+	},
+	ins_reply_405_1_1 = {
+		value = ""
+	},
+	ins_reply_405_1_2 = {
+		value = ""
+	},
+	ins_reply_405_1_3 = {
+		value = ""
+	},
+	ins_reply_405_1_4 = {
+		value = ""
+	},
+	ins_discuss_405_2 = {
+		value = ""
+	},
+	ins_reply_405_2_1 = {
+		value = ""
+	},
+	ins_reply_405_2_2 = {
+		value = ""
+	},
+	ins_reply_405_2_3 = {
+		value = ""
+	},
+	ins_op_405_1_1 = {
+		value = ""
+	},
+	op_reply_405_1_1 = {
+		value = ""
+	},
+	ins_406 = {
+		value = ""
+	},
+	ins_discuss_406_1 = {
+		value = ""
+	},
+	ins_reply_406_1_1 = {
+		value = ""
+	},
+	ins_reply_406_1_2 = {
+		value = ""
+	},
+	ins_discuss_406_2 = {
+		value = ""
+	},
+	ins_reply_406_2_1 = {
+		value = ""
+	},
+	ins_reply_406_2_2 = {
+		value = ""
+	},
+	ins_reply_406_2_3 = {
+		value = ""
+	},
+	ins_op_406_1_1 = {
+		value = ""
+	},
+	op_reply_406_1_1 = {
+		value = ""
+	},
+	ins_407 = {
+		value = ""
+	},
+	ins_discuss_407_1 = {
+		value = ""
+	},
+	ins_reply_407_1_1 = {
+		value = ""
+	},
+	ins_reply_407_1_2 = {
+		value = ""
+	},
+	ins_discuss_407_2 = {
+		value = ""
+	},
+	ins_reply_407_2_1 = {
+		value = ""
+	},
+	ins_reply_407_2_2 = {
+		value = ""
+	},
+	ins_reply_407_2_3 = {
+		value = ""
+	},
+	ins_discuss_407_3 = {
+		value = ""
+	},
+	ins_reply_407_3_1 = {
+		value = ""
+	},
+	ins_reply_407_3_2 = {
+		value = ""
+	},
+	ins_reply_407_3_3 = {
+		value = ""
+	},
+	ins_reply_407_3_4 = {
+		value = ""
+	},
+	ins_op_407_1_1 = {
+		value = ""
+	},
+	op_reply_407_1_1 = {
+		value = ""
+	},
+	ins_408 = {
+		value = ""
+	},
+	ins_discuss_408_1 = {
+		value = ""
+	},
+	ins_reply_408_1_1 = {
+		value = ""
+	},
+	ins_discuss_408_2 = {
+		value = ""
+	},
+	ins_reply_408_2_1 = {
+		value = ""
+	},
+	ins_op_408_1_1 = {
+		value = ""
+	},
+	op_reply_408_1_1 = {
+		value = ""
+	},
+	ins_op_408_1_2 = {
+		value = ""
+	},
+	op_reply_408_1_2 = {
 		value = ""
 	}
 }

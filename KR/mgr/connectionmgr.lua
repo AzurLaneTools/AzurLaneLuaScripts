@@ -246,6 +246,7 @@ function slot1.onError(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
+			uv0.NewStoryMgr.GetInstance():Stop()
 			uv0.NewGuideMgr.GetInstance():Pause()
 		end
 	else

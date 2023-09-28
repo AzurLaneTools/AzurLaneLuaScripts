@@ -363,7 +363,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "지휘관, 왜 그래? 갑자기 멈춰서…",
 			painting = {
@@ -394,7 +394,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "헬레나, 에식스 쪽에 저 거대 기계의 좌표를 보내줘!",
 			painting = {
@@ -429,7 +429,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "알프레도! 시마카제! 스루가! 여기야!",
 			painting = {

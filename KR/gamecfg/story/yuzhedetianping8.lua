@@ -1756,7 +1756,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "비토리오 베네토",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1836,7 +1836,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "비토리오 베네토",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1848,7 +1848,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "비토리오 베네토",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1860,7 +1860,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "비토리오 베네토",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1872,7 +1872,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维内托",
+			actorName = "비토리오 베네토",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

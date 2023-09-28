@@ -19244,6 +19244,48 @@ pg.map_event_template = {
 		},
 		effect = {}
 	},
+	[852] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 852,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1754301,
+						{
+							2,
+							2
+						}
+					},
+					{
+						1754302,
+						{
+							1,
+							3
+						}
+					},
+					{
+						1754303,
+						{
+							3,
+							3
+						}
+					}
+				}
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -20059,6 +20101,7 @@ pg.map_event_template = {
 		848,
 		849,
 		850,
-		851
+		851,
+		852
 	}
 }

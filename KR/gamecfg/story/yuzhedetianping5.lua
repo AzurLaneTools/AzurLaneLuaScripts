@@ -823,7 +823,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "헬레나",
 			nameColor = "#A9F548FF",
 			say = "……저, 저건 대체?!",
 			painting = {
@@ -841,7 +841,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "헬레나, 어서 철수 경로를 확보해야 해!",
 			painting = {
@@ -859,7 +859,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "헬레나",
 			nameColor = "#A9F548FF",
 			say = "응…!",
 			painting = {
@@ -877,7 +877,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "지휘관, 괜찮아?! 정신 차려!",
 			painting = {
@@ -906,7 +906,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "다행이다……",
 			painting = {
@@ -924,7 +924,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "현 상황에 대응 중인 모든 함선에게 고한다! 코드 블랙! 안전 확보가 최우선이다!",
 			painting = {
@@ -942,7 +942,7 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "멤피스",
 			nameColor = "#A9F548FF",
 			say = "반복한다! 코드 블랙!",
 			painting = {

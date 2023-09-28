@@ -8,18 +8,20 @@ slot4 = 4
 slot5 = 5
 slot6 = 6
 slot7 = 7
+slot8 = Color.New(1, 0.8705, 0.4196, 1)
+slot9 = Color.New(1, 1, 1, 1)
 
 require("Mgr/Story/Include")
 
-slot8 = true
+slot10 = true
 
-function slot9(...)
+function slot11(...)
 	if uv0 and IsUnityEditor then
 		originalPrint(...)
 	end
 end
 
-slot10 = {
+slot12 = {
 	"",
 	"JP",
 	"KR",
@@ -27,7 +29,7 @@ slot10 = {
 	""
 }
 
-function slot11(slot0)
+function slot13(slot0)
 	slot1 = uv0[PLATFORM_CODE]
 
 	if slot0 == "index" then
@@ -41,7 +43,21 @@ function slot11(slot0)
 	end)
 
 	if not slot3 then
-		errorMsg("不存在剧情ID对应的Lua:" .. slot0)
+		slot5 = true
+
+		if UnGamePlayState then
+			slot6 = "GameCfg.dungeon." .. slot0
+
+			if pcall(function ()
+				return require(uv0)
+			end) then
+				slot5 = false
+			end
+		end
+
+		if slot5 then
+			errorMsg("不存在剧情ID对应的Lua:" .. slot0)
+		end
 	end
 
 	return slot3 and slot4
@@ -107,7 +123,7 @@ function slot0.IsPlayed(slot0, slot1, slot2)
 	return slot5 and slot6
 end
 
-function slot12(slot0)
+function slot14(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0) do
@@ -215,6 +231,7 @@ function slot0.Init(slot0, slot1)
 
 		uv0.skipBtn = findTF(uv0._tf, "front/btns/btns/skip_button")
 		uv0.autoBtn = findTF(uv0._tf, "front/btns/btns/auto_button")
+		uv0.autoBtnImg = findTF(uv0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
 		uv0.recordBtn = findTF(uv0._tf, "front/btns/record")
 		uv0.dialogueContainer = findTF(uv0._tf, "front/dialogue")
 		uv0.players = {
@@ -224,7 +241,9 @@ function slot0.Init(slot0, slot1)
 			CarouselPlayer.New(slot0),
 			VedioStoryPlayer.New(slot0)
 		}
+		uv0.setSpeedPanel = StorySetSpeedPanel.New(uv0._tf)
 		uv0.recordPanel = NewStoryRecordPanel.New()
+		uv0.recorder = StoryRecorder.New()
 
 		setActive(uv0._go, false)
 
@@ -236,14 +255,14 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3, slot4)
+function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 	table.insert(slot0.playQueue, {
 		slot1,
 		slot2
 	})
 
 	if #slot0.playQueue == 1 then
-		slot5 = nil
+		slot6 = nil
 
 		(function ()
 			if #uv0.playQueue == 0 then
@@ -259,7 +278,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 				table.remove(uv1.playQueue, 1)
 				uv2()
-			end, uv2, uv3)
+			end, uv2, uv3, uv4)
 		end)()
 	end
 end
@@ -306,11 +325,11 @@ function slot0.Stop(slot0)
 	end
 end
 
-function slot0.AutoPlay(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.PlayForWorld(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0.optionSelCodes = slot2 or {}
-	slot0.autoPlayFlag = true
+	slot0.autoPlayFlag = slot6
 
-	slot0:Play(slot1, slot3, slot4, slot5)
+	slot0:Play(slot1, slot3, slot4, slot5, slot7)
 end
 
 function slot0.ForceAutoPlay(slot0, slot1, slot2, slot3, slot4)
@@ -318,7 +337,7 @@ function slot0.ForceAutoPlay(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:Play(slot1, function (slot0, slot1)
 		uv0(slot0, slot1, uv1.isAutoPlay)
-	end, slot3, slot4)
+	end, slot3, slot4, true)
 end
 
 function slot0.ForceManualPlay(slot0, slot1, slot2, slot3, slot4)
@@ -326,27 +345,27 @@ function slot0.ForceManualPlay(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:Play(slot1, function (slot0, slot1)
 		uv0(slot0, slot1, uv1.isAutoPlay)
-	end, slot3, slot4)
+	end, slot3, slot4, true)
 end
 
-function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4)
-	slot5 = {}
+function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = {}
 
-	for slot9, slot10 in ipairs(slot1) do
-		table.insert(slot5, function (slot0)
-			uv0:SoloPlay(uv1, slot0, uv2, uv3)
+	for slot10, slot11 in ipairs(slot1) do
+		table.insert(slot6, function (slot0)
+			uv0:SoloPlay(uv1, slot0, uv2, uv3, uv4)
 		end)
 	end
 
-	seriesAsync(slot5, slot2)
+	seriesAsync(slot6, slot2)
 end
 
-function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
+function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0("Play Story:", slot1)
 
-	slot5 = 1
+	slot6 = 1
 
-	function slot6(slot0, slot1)
+	function slot7(slot0, slot1)
 		uv0 = uv0 - 1
 
 		if uv1 and uv0 == 0 then
@@ -357,7 +376,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if not uv1(slot1) then
-		slot6(false)
+		slot7(false)
 		uv0("not exist story file")
 
 		return nil
@@ -367,18 +386,18 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		slot3 = true
 	end
 
-	slot0.storyScript = Story.New(slot7, slot3, slot0.optionSelCodes)
+	slot0.storyScript = Story.New(slot8, slot3, slot0.optionSelCodes, slot5)
 
 	if not slot0:CheckState() then
 		uv0("story state error")
-		slot6(false)
+		slot7(false)
 
 		return nil
 	end
 
 	if not slot0.storyScript:CanPlay() then
 		uv0("story cant be played")
-		slot6(false)
+		slot7(false)
 
 		return nil
 	end
@@ -393,7 +412,6 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 	}, function ()
 		uv0:OnStart()
 
-		uv0.records = {}
 		slot0 = {}
 		uv0.currPlayer = nil
 
@@ -401,10 +419,8 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot0, function (slot0)
 				slot1 = uv0.players[uv1:GetMode()]
 				uv0.currPlayer = slot1
-				slot2 = StoryRecord.New()
 
-				table.insert(uv0.records, slot2)
-				slot1:Play(uv0.storyScript, uv2, slot2, slot0)
+				slot1:Play(uv0.storyScript, uv2, slot0)
 			end)
 		end
 
@@ -432,7 +448,7 @@ function slot0.CheckResDownload(slot0, slot1, slot2)
 	})
 end
 
-function slot13(slot0, slot1)
+function slot15(slot0, slot1)
 	ResourceMgr.Inst:getAssetAsync("ui/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(slot0)
 	end), true, true)
@@ -508,6 +524,7 @@ function slot0.RegistAutoBtn(slot0)
 
 		if uv0.storyScript:GetAutoPlayFlag() then
 			uv0.storyScript:StopAutoPlay()
+			uv0.currPlayer:CancelAuto()
 		else
 			uv0.storyScript:SetAutoPlay()
 			uv0.currPlayer:NextOne()
@@ -530,8 +547,7 @@ function slot0.RegistAutoBtn(slot0)
 end
 
 function slot0.RegistRecordBtn(slot0)
-	slot1 = slot0.recordBtn:Find("sel")
-	slot2 = slot0.recordBtn:Find("unsel")
+	slot1 = false
 
 	onButton(slot0, slot0.recordBtn, function ()
 		if uv0.storyScript:GetAutoPlayFlag() then
@@ -540,13 +556,8 @@ function slot0.RegistRecordBtn(slot0)
 
 		uv1 = not uv1
 
-		uv0.recordPanel[uv1 and "Show" or "Hide"](uv0.recordPanel)
-		uv2(uv1)
+		uv0.recordPanel[uv1 and "Show" or "Hide"](uv0.recordPanel, uv0.recorder)
 	end, SFX_PANEL)
-	(function (slot0)
-		setActive(uv0, slot0)
-		setActive(uv1, not slot0)
-	end)(false)
 end
 
 function slot0.TriggerAutoBtn(slot0)
@@ -573,7 +584,20 @@ function slot0.ForEscPress(slot0)
 	end
 end
 
+function slot0.UpdatePlaySpeed(slot0, slot1)
+	if slot0:IsRunning() and slot0.storyScript then
+		slot0.storyScript:SetPlaySpeed(slot1)
+	end
+end
+
+function slot0.GetPlaySpeed(slot0)
+	if slot0:IsRunning() and slot0.storyScript then
+		return slot0.storyScript:GetPlaySpeed()
+	end
+end
+
 function slot0.OnStart(slot0)
+	slot0.recorder:Clear()
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.autoBtn)
@@ -598,8 +622,6 @@ function slot0.OnStart(slot0)
 	setActive(slot0._go, true)
 	slot0._tf:SetAsLastSibling()
 	setActive(slot0.skipBtn, not slot0.storyScript:ShouldHideSkip())
-	setActive(slot0.autoBtn:Find("sel"), false)
-	setActive(slot0.autoBtn:Find("unsel"), true)
 	setActive(slot0.autoBtn, true)
 
 	slot0.bgmVolumeValue = pg.CriMgr.GetInstance():getBGMVolume()
@@ -610,15 +632,18 @@ function slot0.OnStart(slot0)
 end
 
 function slot0.UpdateAutoBtn(slot0)
-	slot1 = slot0.storyScript:GetAutoPlayFlag()
+	slot0:ClearAutoBtn(slot0.storyScript:GetAutoPlayFlag())
+end
 
-	setActive(slot0.autoBtn:Find("sel"), slot1)
-	setActive(slot0.autoBtn:Find("unsel"), not slot1)
-
+function slot0.ClearAutoBtn(slot0, slot1)
+	slot0.autoBtnImg.color = slot1 and uv0 or uv1
 	slot0.isAutoPlay = slot1
+
+	slot0.setSpeedPanel[slot1 and "Show" or "Hide"](slot0.setSpeedPanel)
 end
 
 function slot0.Clear(slot0)
+	slot0.recorder:Clear()
 	slot0.recordPanel:Hide()
 
 	slot0.autoPlayFlag = false
@@ -628,9 +653,14 @@ function slot0.Clear(slot0)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.recordBtn)
 	removeOnButton(slot0.autoBtn)
+	slot0:ClearAutoBtn(false)
 
 	if isActive(slot0._go) then
 		pg.DelegateInfo.Dispose(slot0)
+	end
+
+	if slot0.setSpeedPanel then
+		slot0.setSpeedPanel:Clear()
 	end
 
 	setActive(slot0.skipBtn, false)
@@ -659,8 +689,6 @@ function slot0.Clear(slot0)
 end
 
 function slot0.OnEnd(slot0, slot1)
-	slot0.records = {}
-
 	slot0:Clear()
 
 	if slot0.state == uv0 or slot0.state == uv1 then
@@ -730,26 +758,18 @@ function slot0.IsAutoPlay(slot0)
 	return getProxy(SettingsProxy):GetStoryAutoPlayFlag() or slot0.autoPlayFlag == true
 end
 
-function slot0.GetRecords(slot0)
-	slot1 = {}
-
-	for slot5 = 1, #slot0.records do
-		for slot10, slot11 in pairs(slot0.records[slot5]:GetContents()) do
-			if slot11 and slot11 ~= "" then
-				table.insert(slot1, slot11)
-			end
-		end
-	end
-
-	return slot1
-end
-
 function slot0.GetRectSize(slot0)
 	return Vector2(slot0._tf.rect.width, slot0._tf.rect.height)
 end
 
+function slot0.AddRecord(slot0, slot1)
+	slot0.recorder:Add(slot1)
+end
+
 function slot0.Quit(slot0)
+	slot0.recorder:Dispose()
 	slot0.recordPanel:Dispose()
+	slot0.setSpeedPanel:Dispose()
 
 	slot0.state = uv0
 	slot0.storyScript = nil

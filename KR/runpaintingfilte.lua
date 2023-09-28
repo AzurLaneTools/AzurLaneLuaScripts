@@ -182,18 +182,8 @@ function slot0.GetCreateExchangeShipConfigIDList()
 		10,
 		11
 	}) do
-		slot8 = false
-
-		for slot12, slot13 in ipairs(uv0.GetBuildActIDList()) do
-			if pg.activity_template[slot13].config_id == slot6 then
-				slot8 = true
-
-				break
-			end
-		end
-
-		if slot8 == true then
-			table.insert(slot0, pg.ship_data_create_material[slot6].exchange_ship_id)
+		for slot11, slot12 in ipairs(uv0.GetBuildActIDList()) do
+			table.insert(slot0, pg.ship_data_create_exchange[slot12].exchange_ship_id)
 		end
 	end
 

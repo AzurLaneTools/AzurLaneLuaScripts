@@ -4943,6 +4943,345 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[55] = {
+		subject = "가을 연회복 패키지(2023)",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "가을 연회복 패키지(2023)",
+		name_display = "가을 연회복 패키지(2023)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 55,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihejp6lf_l",
+		skin_inquire_relation = 69929,
+		id_str = "alkrgift68",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2023, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond144",
+		extra_service_item = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40929,
+				1
+			}
+		}
+	},
+	[56] = {
+		subject = "가을 연회복 패키지 복각(2022)",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "가을 연회복 패키지 복각(2022)",
+		name_display = "가을 연회복 패키지 복각(2022)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 56,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe8_l",
+		skin_inquire_relation = 69920,
+		id_str = "alkrgift69",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2022, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond145",
+		extra_service_item = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40920,
+				1
+			}
+		}
+	},
+	[57] = {
+		subject = "가을 패키지2023 ",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "가을 패키지2023 ",
+		name_display = "가을 패키지2023 ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 57,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihejp6ss_l",
+		skin_inquire_relation = 69928,
+		id_str = "alkrgift67",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2023, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond143",
+		extra_service_item = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40928,
+				1
+			}
+		}
+	},
 	[1000] = {
 		subject = "특허 투어 패스",
 		limit_group = 0,
@@ -5837,6 +6176,81 @@ pg.pay_data_display = {
 		},
 		sub_display = {
 			7012,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1012] = {
+		subject = "특허 투어 패스",
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		limit_arg = 1,
+		name = "특허 투어 패스(2023.10.8-12.7) ",
+		name_display = "특허 투어 패스",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1012,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift70",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 보클랭 한정 스킨 및 기타 보상",
+		airijp_id = "com.yostarjp.azurlane.seasonpass12",
+		extra_service_item = {
+			{
+				1,
+				4013,
+				1500
+			},
+			{
+				8,
+				59494,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4013,
+				1500
+			}
+		},
+		sub_display = {
+			7013,
 			1500
 		},
 		ignorePlatform = {},
@@ -6978,6 +7392,9 @@ pg.pay_data_display = {
 		51,
 		52,
 		53,
+		55,
+		56,
+		57,
 		1000,
 		1001,
 		1002,
@@ -6990,6 +7407,7 @@ pg.pay_data_display = {
 		1009,
 		1010,
 		1011,
+		1012,
 		2001,
 		2002,
 		2003,

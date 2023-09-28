@@ -192,6 +192,11 @@ pg.task_meta_data_template = setmetatable({
 		100113,
 		100114,
 		100115,
+		100121,
+		100122,
+		100123,
+		100124,
+		100125,
 		200001,
 		200002,
 		200003,
@@ -235,7 +240,11 @@ pg.task_meta_data_template = setmetatable({
 		200111,
 		200112,
 		200113,
-		200114
+		200114,
+		200121,
+		200122,
+		200123,
+		200124
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1760,6 +1769,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100121] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "프린스턴·META를 사용해 승리 1회",
+		id = 100121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100122] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "프린스턴·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100122,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100123] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "프린스턴·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100123,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100124] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "프린스턴·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100124,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100125] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "프린스턴·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100125,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2109,6 +2158,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형작전에서 진츠·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200114,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200121] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "대형 작전에서 프린스턴·META를 사용해 1회 승리",
+		id = 200121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200122] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "대형 작전에서 프린스턴·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200122,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200123] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "대형 작전에서 프린스턴·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200123,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200124] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "대형 작전에서 프린스턴·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200124,
 		target_num = 1,
 		target_id = "100"
 	}

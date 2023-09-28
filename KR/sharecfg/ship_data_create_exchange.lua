@@ -12,6 +12,12 @@ pg.ship_data_create_exchange = {
 		id = 4893,
 		exchange_ship_id = 105171
 	},
+	[5005] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 5005,
+		exchange_ship_id = 303191
+	},
 	[8034] = {
 		exchange_request = 40,
 		exchange_available_times = 1,
@@ -33,6 +39,7 @@ pg.ship_data_create_exchange = {
 	all = {
 		4856,
 		4893,
+		5005,
 		8034,
 		30863,
 		41249

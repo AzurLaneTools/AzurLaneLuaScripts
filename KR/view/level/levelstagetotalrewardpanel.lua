@@ -1,4 +1,4 @@
-slot0 = class("LevelStageTotalRewardPanel", import("view.base.BaseUI"))
+slot0 = class("LevelStageTotalRewardPanel", import("view.level.BaseTotalRewardPanel"))
 
 function slot0.getUIName(slot0)
 	return "LevelStageTotalRewardPanel"
@@ -7,9 +7,8 @@ end
 slot1 = 0.15
 
 function slot0.init(slot0)
-	slot0.window = slot0._tf:Find("Window")
-	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
-	slot0.emptyTip = slot0.window:Find("Layout/Box/EmptyTip")
+	uv0.super.init(slot0)
+
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid")
 	slot1 = Instantiate(slot0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
 	slot1.name = "Icon"
@@ -23,16 +22,12 @@ function slot0.init(slot0)
 	slot0.spList = slot0.window:Find("Fixed/SpList")
 
 	slot0.CloneIconTpl(slot0.spList:Find("Item/Active/Item"), "Icon")
-	setText(slot0.emptyTip, i18n("autofight_rewards_none"))
-	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), slot0.contextData.title)
-	setText(slot0.window:Find("Fixed/top/bg/obtain/title/title_en"), slot0.contextData.subTitle)
 	setText(slot0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
 	setText(slot0.boxView:Find("Content/TitleSub/Text"), i18n("settle_rewards_text"))
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-	slot0:UpdateView()
+	uv0.super.didEnter(slot0)
 
 	slot2 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
 
@@ -59,7 +54,7 @@ function slot0.willExit(slot0)
 		slot0.metaExpView:Destroy()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	uv0.super.willExit(slot0)
 end
 
 function slot0.UpdateView(slot0)
@@ -75,7 +70,6 @@ function slot0.UpdateView(slot0)
 		existCall(uv1.onClose)
 		uv0:closeView()
 	end)
-	setText(slot0.window:Find("Fixed/ButtonGO/pic"), i18n("autofight_onceagain"))
 	onButton(slot0, slot0.window:Find("Fixed/ButtonGO"), function ()
 		if uv0.contextData.spItemID and not (PlayerPrefs.GetInt("autoFight_firstUse_sp", 0) == 1) then
 			PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
@@ -97,51 +91,10 @@ function slot0.UpdateView(slot0)
 			return
 		end
 
-		slot1 = true
-		slot2 = uv0.contextData.chapter.duties
-		slot4 = uv0.contextData.chapter
-
-		if uv0.contextData.chapter:getConfig("type") == Chapter.CustomFleet then
-			seriesAsync({
-				function (slot0)
-					slot1 = uv0:GetParentView()
-
-					assert(isa(slot1, LevelScene), "Failing Get LevelScene")
-					slot1:trackChapter(uv1, slot0)
-				end,
-				function (slot0)
-					uv0.CheckOilCost(uv1, uv2, slot0)
-				end,
-				function (slot0)
-					uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv1.id, uv1.loopFlag, uv2, uv3, uv4)
-					uv0:closeView()
-				end
-			})
-
-			return
-		elseif uv0.contextData.fleets and #slot5 > 0 then
-			seriesAsync({
-				function (slot0)
-					slot1 = uv0:GetParentView()
-
-					assert(isa(slot1, LevelScene), "Failing Get LevelScene")
-					slot1:trackChapter(uv1, slot0)
-				end,
-				function (slot0)
-					uv0.CheckOilCost(uv1, uv2, slot0)
-				end,
-				function (slot0)
-					uv0:emit(LevelMediator2.ON_TRACKING, uv1.id, uv2, uv1.loopFlag, uv3, uv4, uv5)
-					uv0:closeView()
-				end
-			})
-
-			return
-		end
-
+		PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(uv0.contextData.chapter.id), uv0.contextData.spItemID or 0)
+		uv0:emit(LevelMediator2.ON_RETRACKING, uv0.contextData.chapter, true)
 		uv0:closeView()
 	end, SFX_CONFIRM)
-	setText(slot0.window:Find("Fixed/ButtonExit/pic"), i18n("autofight_leave"))
 	onButton(slot0, slot0.window:Find("Fixed/ButtonExit"), function ()
 		existCall(uv0.onClose)
 		uv1:closeView()
@@ -300,7 +253,7 @@ function slot0.UpdateSPItem(slot0)
 
 	slot5 = 1
 
-	setActive(slot0.spList, #slot4 ~= 0)
+	setActive(slot0.spList, #slot4 ~= 0 and slot0.contextData.chapter:GetRestDailyBonus() == 0)
 
 	if #slot4 == 0 then
 		return
@@ -352,44 +305,6 @@ function slot0.UpdateSPItem(slot0)
 		end)
 		setActive(slot2:Find("Active/Checkbox/Mark"), tobool(uv2.contextData.spItemID))
 	end)
-end
-
-function slot0.CloneIconTpl(slot0, slot1)
-	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
-
-	slot3 = Instantiate(slot2.prefabItem[0])
-
-	if slot1 then
-		slot3.name = slot1
-	end
-
-	setParent(slot3, slot0)
-
-	return slot3
-end
-
-function slot0.GetParentView(slot0)
-	slot3 = getProxy(ContextProxy):getCurrentContext() and pg.m02:retrieveMediator(slot2.mediator.__cname)
-
-	return slot3 and slot3:getViewComponent()
-end
-
-function slot0.HandleShowMsgBox(slot0, slot1)
-	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
-end
-
-function slot0.CheckOilCost(slot0, slot1, slot2)
-	if not getProxy(PlayerProxy):getRawData():isEnough({
-		oil = slot0:getConfig("oil") * TrackingCommand.CalculateSpItemMoreCostRate(slot1)
-	}) then
-		if not ItemTipPanel.ShowOilBuyTip(slot3) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
-		end
-
-		return
-	end
-
-	slot2()
 end
 
 function slot0.SkipAnim(slot0)

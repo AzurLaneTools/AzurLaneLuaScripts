@@ -516,6 +516,16 @@ function slot0.IsAtelierMap(slot0)
 	return slot0:getConfig("on_activity") == ActivityConst.RYZA_MAP_ACT_ID
 end
 
+slot0.AUTOFIGHT_STOP_REASON = {
+	DOCK_OVERLOADED = 2,
+	SETTLEMENT = 7,
+	SHIP_ENERGY_LOW = 6,
+	MANUAL = 1,
+	GOLD_MAX = 4,
+	BATTLE_FAILED = 5,
+	UNKNOWN = 0,
+	OIL_LACK = 3
+}
 chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
 
 function switch_chapter_skip_battle()

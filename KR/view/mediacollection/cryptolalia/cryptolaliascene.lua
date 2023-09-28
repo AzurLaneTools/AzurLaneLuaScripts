@@ -412,14 +412,14 @@ end
 
 function slot0.PlayVedio(slot0, slot1)
 	if slot0.displays[slot1] and slot2:IsPlayableState(slot0.langType) then
-		slot3 = pg.CriMgr.GetInstance()
+		slot3 = pg.BgmMgr.GetInstance()
 
-		slot3:StopBGM()
+		slot3:StopPlay()
 
 		slot4 = CryptolaliaVedioPlayer.New(slot0._tf)
 
 		slot4:Play(slot2:GetCpkName(slot0.langType), function ()
-			uv0:SwitchToDefaultBGM()
+			pg.BgmMgr.GetInstance():ContinuePlay()
 		end)
 
 		slot0.player = slot4

@@ -77,6 +77,10 @@ pg.ship_meta_breakout = setmetatable({
 		9706021,
 		9706022,
 		9706023,
+		9706031,
+		9706032,
+		9706033,
+		9706034,
 		9706024,
 		9707011,
 		9707012,
@@ -107,7 +111,7 @@ pg.ship_meta_breakout = setmetatable({
 pg.base = pg.base or {}
 pg.base.ship_meta_breakout = {
 	[9701011] = {
-		breakout_view = "스킬 [빛을 쫓는 화염·헌터] 습득/주포 발사 수 +1/주포 효율 5% 상승",
+		breakout_view = "스킬 [빛을 쫓는 화염·헌터] 습득 / 주포 효율 5% 상승",
 		gold = 500,
 		breakout_id = 9701012,
 		repair = 0,
@@ -485,7 +489,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702041] = {
-		breakout_view = "스킬 [빛을 쫓는 화염·라 갈리소니에르] 습득/주포 발사 수 +1/주포 효율 5% 상승",
+		breakout_view = "스킬 [빛을 쫓는 화염·라 갈리소니에르] 습득 / 주포 효율 5% 상승",
 		gold = 500,
 		breakout_id = 9702042,
 		repair = 0,
@@ -1327,6 +1331,75 @@ pg.base.ship_meta_breakout = {
 			60283,
 			54012
 		}
+	},
+	[9706031] = {
+		breakout_view = "스킬 [섬멸의 횃불·프린스턴] 습득/전투기 탑재량 +1 / 전투기 효율 +5%",
+		gold = 500,
+		breakout_id = 9706032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9706031,
+		item1 = 21026,
+		pre_id = 0,
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[9706032] = {
+		breakout_view = "격납고 용량 +1 / 뇌격기 탑재량 +1 / 전투기 효율 +10%",
+		gold = 1500,
+		breakout_id = 9706033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9706032,
+		item1 = 21026,
+		pre_id = 9706031,
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[9706033] = {
+		breakout_view = "[섬멸의 횃불·프린스턴] 레벨업/함재기 탑재량 +1 / 뇌격기 효율 +15%",
+		gold = 2500,
+		breakout_id = 9706034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9706033,
+		item1 = 21026,
+		pre_id = 9706032,
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[9706034] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9706034,
+		item1 = 21026,
+		pre_id = 9706033,
+		weapon_ids = {}
 	},
 	[9706024] = {
 		breakout_view = "없음",

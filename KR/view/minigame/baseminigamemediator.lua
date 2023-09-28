@@ -73,7 +73,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.MODIFY_MINI_GAME_DATA_DONE,
 		GAME.ON_APPLICATION_PAUSE,
 		GAME.GAME_COIN_COUNT_CHANGE,
-		GAME.GAME_ROOM_AWARD_DONE
+		GAME.GAME_ROOM_AWARD_DONE,
+		ActivityProxy.ACTIVITY_SHOW_AWARDS
 	}
 end
 
@@ -103,9 +104,17 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnApplicationPaused(slot3)
 	elseif slot2 == GAME.GAME_COIN_COUNT_CHANGE then
 		slot0.gameRoonCoinCount = slot3
-	elseif slot2 == GAME.GAME_ROOM_AWARD_DONE and #slot3 > 0 then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
-		slot0.viewComponent:OnGetAwardDone(slot3)
+	elseif slot2 == GAME.GAME_ROOM_AWARD_DONE then
+		if #slot3 > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
+			slot0.viewComponent:OnGetAwardDone(slot3)
+		end
+	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
+		if getProxy(ContextProxy):getContextByMediator(ActivityMediator) then
+			return
+		end
+
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	end
 end
 

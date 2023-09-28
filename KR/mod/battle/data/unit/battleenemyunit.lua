@@ -40,11 +40,13 @@ function slot8.UpdateAction(slot0)
 end
 
 function slot8.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._phaseSwitcher then
 		slot0._phaseSwitcher:UpdateHP(slot0:GetHPRate())
 	end
+
+	return slot5
 end
 
 function slot8.SetMaster(slot0, slot1)

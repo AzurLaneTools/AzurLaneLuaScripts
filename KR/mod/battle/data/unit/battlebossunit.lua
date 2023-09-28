@@ -28,11 +28,9 @@ function slot7.BarrierStateChange(slot0, slot1, slot2)
 end
 
 function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-
-	if slot1 < 0 then
-		for slot8, slot9 in ipairs(slot0._autoWeaponList) do
-			slot9:UpdatePrecastArmor(slot1)
+	if (uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4) or 0) < 0 then
+		for slot9, slot10 in ipairs(slot0._autoWeaponList) do
+			slot10:UpdatePrecastArmor(slot5)
 		end
 	end
 end

@@ -261,6 +261,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10010] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10010,
+		dungeon_id = 5112,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"위협 감지",
+				"전투 중 20초마다 발동하여 6초 동안 자신이 받는 피해량을 40% 경감하고, 6초 경과 후 다음 효과를 얻는다. [위협 감지]가 재발동하기 전, <color=#92fc63>6초가 경과되기 전까지 자신이 받는 포격/뇌격/항공 속성 피해</color> 중 가장 큰 속성 피해를 40% 경감한다. 아군 함선이 SG 레이더 를 장착한 경우, [위협 감지]의 1차 발동은 전투 시작으로부터 16초 후가 된다."
+			},
+			{
+				"스캐너 어프로치",
+				"[위협 감지] 발동 후, 10초 동안 명중이 <color=#92fc63>20%</color>, 회피율이 <color=#92fc63>20%</color> 상승한다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				204,
+				1
+			}
+		}
+	},
+	[10011] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10011,
+		dungeon_id = 5111,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"위협 감지",
+				"전투 중 20초마다 발동하여 6초 동안 자신이 받는 피해량을 40% 경감하고, 6초 경과 후 다음 효과를 얻는다. [위협 감지]가 재발동하기 전, <color=#92fc63>6초가 경과되기 전까지 자신이 받는 포격/뇌격/항공 속성 피해</color> 중 가장 큰 속성 피해를 60% 경감한다. 아군 함선이 SG 레이더 를 장착한 경우, [위협 감지]의 1차 발동은 전투 시작으로부터 16초 후가 된다."
+			},
+			{
+				"스캐너 어프로치",
+				"[위협 감지] 발동 후, 10초 동안 명중이 <color=#92fc63>30%</color>, 회피율이 <color=#92fc63>30%</color> 상승한다."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10004,
+				1
+			}
+		}
+	},
+	[10012] = {
+		painting = "hailunna",
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		id = 10012,
+		dungeon_id = 5110,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"위협 감지",
+				"전투 중 20초마다 발동하여 6초 동안 자신이 받는 피해량을 40% 경감하고, 6초 경과 후 다음 효과를 얻는다. [위협 감지]가 재발동하기 전, <color=#92fc63>6초가 경과되기 전까지 자신이 받는 포격/뇌격/항공 속성 피해</color> 중 가장 큰 속성 피해를 80% 경감한다. 아군 함선이 SG 레이더 를 장착한 경우, [위협 감지]의 1차 발동은 전투 시작으로부터 16초 후가 된다."
+			},
+			{
+				"스캐너 어프로치",
+				"[위협 감지] 발동 후, 10초 동안 명중이 <color=#92fc63>40%</color>, 회피율이 <color=#92fc63>40%</color> 상승한다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10004,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -270,6 +357,9 @@ pg.expedition_constellation_challenge_template = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010,
+		10011,
+		10012
 	}
 }

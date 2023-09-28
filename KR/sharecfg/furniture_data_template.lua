@@ -126,6 +126,8 @@ pg.furniture_data_template = setmetatable({
 			251,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100003,
 			100004,
@@ -2861,6 +2863,29 @@ pg.furniture_data_template = setmetatable({
 			302302,
 			302303,
 			302304
+		},
+		[103] = {
+			303001,
+			303002,
+			303101,
+			303102,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		}
 	},
 	get_id_list_by_tag = {
@@ -4573,7 +4598,24 @@ pg.furniture_data_template = setmetatable({
 			302121,
 			302122,
 			302123,
-			302126
+			302126,
+			303103,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303113,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		{
 			1108,
@@ -4853,6 +4895,8 @@ pg.furniture_data_template = setmetatable({
 			251,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100003,
 			100004,
@@ -5073,7 +5117,9 @@ pg.furniture_data_template = setmetatable({
 			302127,
 			302128,
 			302129,
-			302130
+			302130,
+			303101,
+			303102
 		},
 		[4] = {
 			1001,
@@ -5162,7 +5208,8 @@ pg.furniture_data_template = setmetatable({
 			99001,
 			300001,
 			301001,
-			302001
+			302001,
+			303001
 		},
 		[3] = {
 			1002,
@@ -5252,7 +5299,8 @@ pg.furniture_data_template = setmetatable({
 			99002,
 			300002,
 			301002,
-			302002
+			302002,
+			303002
 		},
 		[5] = {
 			1301,
@@ -5652,7 +5700,8 @@ pg.furniture_data_template = setmetatable({
 			99002,
 			300002,
 			301002,
-			302002
+			302002,
+			303002
 		},
 		[7] = {
 			1,
@@ -5759,6 +5808,8 @@ pg.furniture_data_template = setmetatable({
 			248,
 			256,
 			257,
+			258,
+			259,
 			100002,
 			100004,
 			100005,
@@ -7504,7 +7555,24 @@ pg.furniture_data_template = setmetatable({
 			302127,
 			302128,
 			302129,
-			302130
+			302130,
+			303101,
+			303102,
+			303104,
+			303105,
+			303106,
+			303107,
+			303108,
+			303109,
+			303110,
+			303111,
+			303112,
+			303114,
+			303115,
+			303116,
+			303117,
+			303118,
+			303119
 		},
 		[11] = {
 			131,
@@ -7553,7 +7621,9 @@ pg.furniture_data_template = setmetatable({
 			214,
 			100019,
 			100037,
-			100048
+			100048,
+			303103,
+			303113
 		},
 		[15] = {
 			251
@@ -7657,7 +7727,8 @@ pg.furniture_data_template = setmetatable({
 			99001,
 			300001,
 			301001,
-			302001
+			302001,
+			303001
 		},
 		[5] = {
 			1101,
@@ -8405,6 +8476,8 @@ pg.furniture_data_template = setmetatable({
 		251,
 		256,
 		257,
+		258,
+		259,
 		100002,
 		100003,
 		100004,
@@ -10963,7 +11036,28 @@ pg.furniture_data_template = setmetatable({
 		302301,
 		302302,
 		302303,
-		302304
+		302304,
+		303001,
+		303002,
+		303101,
+		303102,
+		303103,
+		303104,
+		303105,
+		303106,
+		303107,
+		303108,
+		303109,
+		303110,
+		303111,
+		303112,
+		303113,
+		303114,
+		303115,
+		303116,
+		303117,
+		303118,
+		303119
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16872,6 +16966,106 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[258] = {
+		spine_extra = "",
+		describe = "",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "pingguohongchaicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "苹果红茶",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/pingguohongcha",
+		canputon = 0,
+		id = 258,
+		can_rotate = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5.3,
+					-100
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/pingguohongcha_using",
+				0,
+				{
+					{
+						-6,
+						104
+					},
+					{
+						400,
+						526
+					},
+					"chuanmo/pingguohongcha_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[259] = {
+		spine_extra = "",
+		describe = "옛부터 성역을 지켜온 웅장한 '대신목'의 미니어처. 활짝 핀 꽃과 맑은 강의 수정이 빛을 발하고 있다. ――「만월이 밝아오기 전에」이벤트 참가 보상.",
+		gain_by = "만월이 밝아오기 전에",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "yunxianxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대신목 기념장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yunxianxunzhang",
+		canputon = 0,
+		id = 259,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -20530,7 +20724,7 @@ pg.base.furniture_data_template = {
 	},
 	[100053] = {
 		rarity = 4,
-		describe = "宇宙真理尽在其中！（大概）",
+		describe = "우주의 진리는 바로 이 안에!(아마) ",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20538,7 +20732,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		is_get_time_note = 0,
 		count = 1,
-		name = "真理天平 ",
+		name = "진리 천칭 ",
 		is_3d_obj = 0,
 		advice = 0,
 		themeId = 0,
@@ -130225,6 +130419,971 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[303001] = {
+		spine_extra = "",
+		describe = "요괴 온천가에서 기묘한 밤이 시작된다!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "요괴 온천의 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanbgyxicon",
+		spine_action_replace = "",
+		picture = "bgyx/dibanbgyx",
+		comfortable = 4,
+		canputon = 0,
+		id = 303001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303002] = {
+		spine_extra = "",
+		describe = "요괴 온천가에서 기묘한 밤이 시작된다!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "요괴 온천의 벽",
+		effect = "",
+		advice = 0,
+		icon = "qiangbibgyxicon",
+		spine_action_replace = "",
+		picture = "bgyx/qiangbibgyx",
+		comfortable = 4,
+		canputon = 0,
+		id = 303002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303101] = {
+		spine_extra = "",
+		describe = "다리를 건너면 저 세상…은 아니야.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "요괴 온천 대교",
+		themeId = 103,
+		icon = "bianqiaobgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303101,
+		can_rotate = 0,
+		size = {
+			15,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianqiaobgyxB",
+				"normal"
+			},
+			{
+				"bianqiaobgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303102] = {
+		spine_extra = "",
+		describe = "몰래 무언가 엄청난 소동을 계획하고 있는 오소리들",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "daihebgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "오소리 요괴 무리",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303102,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daihebgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303103] = {
+		spine_extra = "",
+		describe = "열심히 뚫어져라 쳐다보는 유령",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "등불 귀신",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303104] = {
+		spine_extra = "",
+		describe = "그윽한 빛을 뿜어내는…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "denglonggualanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 종이등",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303104,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"denglonggualanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303105] = {
+		spine_extra = "",
+		describe = "침착한 분위기의 여우상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 여우상",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "bgyx/diaoxiangbgyx",
+		canputon = 0,
+		id = 303105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303106] = {
+		spine_extra = "",
+		describe = "줄 서야지! 응? 다른 손님들이 안 보인다고?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guandongzhubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 오뎅집",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "bgyx/guandongzhubgyx",
+		canputon = 0,
+		id = 303106,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-81,
+					-87
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303107] = {
+		spine_extra = "",
+		describe = "뚜껑을 닫으세요.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guanhubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대롱여우",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanhubgyx",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[303108] = {
+		spine_extra = "",
+		describe = "빨갛고 아름다운 요괴 온천의 장식.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huaduibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 석산",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303108,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaduibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303109] = {
+		spine_extra = "",
+		describe = "요사스러운 빛을 발하는 요괴 온천의 가로등",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ludengbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 가로등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "bgyx/ludengbgyx",
+		canputon = 0,
+		id = 303109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303110] = {
+		spine_extra = "",
+		describe = "여기 앞은 신성한 영역이다…쥬쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "niaojubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "온천의 도리이",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "bgyx/niaojubgyx",
+		canputon = 0,
+		id = 303110,
+		can_rotate = 0,
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303111] = {
+		spine_extra = "",
+		describe = "초밥을 나르고 있어…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "piaoguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "유령 점원",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piaoguibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303112] = {
+		spine_extra = "",
+		describe = "이야기를 들려주지 않으면 장난칠 테다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qingxingdengbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "푸른 행등",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303112,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingxingdengbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303113] = {
+		spine_extra = "",
+		describe = "크아앙! …윽, 혀 깨물었다…",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "sanguibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "우산 요괴",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanguibgyx",
+				"normal"
+			},
+			[3] = {
+				{
+					-215,
+					24
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[303114] = {
+		spine_extra = "",
+		describe = "유부를 바치자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenkanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 여우 신사",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenkanbgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303115] = {
+		spine_extra = "",
+		describe = "소원을 빌면 들어주려나?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shenshubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 벚꽃나무",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303115,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenshubgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303116] = {
+		spine_extra = "",
+		describe = "몸을 깨끗이 한 다음에 들어가라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shouxibgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 손 씻는 물",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shouxibgyx",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[303117] = {
+		spine_extra = "",
+		describe = "왠지 오싹한 뜨거운 물. 손님은 딱 좋다고 하시는데…?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "요괴 온천",
+		themeId = 103,
+		icon = "wenquanbgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303117,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wenquanbgyxB",
+				"normal"
+			},
+			{
+				"wenquanbgyxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-11.1,
+					129.2
+				},
+				{
+					426,
+					254
+				},
+				"bgyx/wenquanbgyx_mask"
+			},
+			{
+				5.3,
+				-128.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[303118] = {
+		spine_extra = "",
+		describe = "에취!! …쥬쥬!!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 103,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xuenvjiubgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "설녀 만쥬",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "bgyx/xuenvjiubgyx",
+		canputon = 0,
+		id = 303118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[303119] = {
+		spine_extra = "",
+		describe = "따, 따라오잖아?!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 103,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yinghuobgyxicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "요괴 온천의 반딧불",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 303119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinghuobgyx",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

@@ -25,12 +25,60 @@ function slot0.Ctor(slot0, slot1)
 	slot0.options = slot1.options
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
+	slot0.recallOption = slot1.recallOption
 	slot0.nextScriptName = slot1.jumpto
 	slot0.eventDelay = slot1.eventDelay or 0
 	slot0.bgColor = slot1.bgColor or {
 		0,
 		0,
 		0
+	}
+	slot0.location = slot1.location
+	slot0.icon = slot1.icon
+	slot0.selectedBranchCode = 0
+	slot0.id = 0
+end
+
+function slot0.ExistIcon(slot0)
+	return slot0.icon ~= nil
+end
+
+function slot0.GetIconData(slot0)
+	return slot0.icon
+end
+
+function slot0.SetId(slot0, slot1)
+	slot0.id = slot1
+end
+
+function slot0.GetId(slot0)
+	return slot0.id
+end
+
+function slot0.IsRecallOption(slot0)
+	if slot0:ExistOption() and slot0:GetOptionCnt() > 1 and slot0.recallOption then
+		return true
+	end
+
+	return false
+end
+
+function slot0.SetBranchCode(slot0, slot1)
+	slot0.selectedBranchCode = slot1
+end
+
+function slot0.GetSelectedBranchCode(slot0)
+	return slot0.selectedBranchCode
+end
+
+function slot0.ExistLocation(slot0)
+	return slot0.location ~= nil
+end
+
+function slot0.GetLocation(slot0)
+	return {
+		text = slot0.location[1] or "",
+		time = slot0.location[2] or 999
 	}
 end
 
@@ -244,6 +292,14 @@ function slot0.ExistOption(slot0)
 	return slot0.options ~= nil and #slot0.options > 0
 end
 
+function slot0.GetOptionCnt(slot0)
+	if slot0:ExistOption() then
+		return #slot0.options
+	else
+		return 0
+	end
+end
+
 function slot0.SetOptionSelCodes(slot0, slot1)
 	slot0.optionSelCode = slot1
 end
@@ -287,8 +343,7 @@ function slot0.GetOptions(slot0)
 	return _.map(slot0.options or {}, function (slot0)
 		return {
 			HXSet.hxLan(slot0.content),
-			slot0.flag,
-			slot0.disable
+			slot0.flag
 		}
 	end)
 end

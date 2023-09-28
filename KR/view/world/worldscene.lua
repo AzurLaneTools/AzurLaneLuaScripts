@@ -973,7 +973,7 @@ function slot0.LoadMap(slot0, slot1, slot2)
 
 	if not slot1:IsValid() then
 		table.insert(slot3, function (slot0)
-			uv0:OpPush("OpFetchMap", uv1.id, slot0)
+			uv0:emit(WorldMediator.OnMapReq, uv1.id, slot0)
 		end)
 	end
 
@@ -1535,13 +1535,13 @@ function slot0.QueryTransport(slot0, slot1)
 		slot6 = pg.gameset.world_transfer_eventstory.description[1]
 
 		table.insert(slot4, function (slot0)
-			slot1 = pg.NewStoryMgr.GetInstance()
+			slot1 = uv0
 
-			slot1:Play(uv0, function (slot0, slot1)
-				if slot1 == 1 then
+			slot1:OpRaw("OpStory", uv1, true, true, false, function (slot0)
+				if slot0 == 1 then
 					uv0()
 				end
-			end, true)
+			end)
 		end)
 	end
 
@@ -1574,16 +1574,14 @@ function slot0.QueryTransport(slot0, slot1)
 	end
 
 	if slot6 then
-		slot7 = pg.NewStoryMgr.GetInstance()
-
 		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
-			slot1:Play(uv1, function (slot0, slot1)
-				if slot1 == 1 then
+			slot1:OpRaw("OpStory", uv1, true, true, false, function (slot0)
+				if slot0 == 1 then
 					uv0()
 				end
-			end, true)
+			end)
 		end)
 	end
 
@@ -2378,8 +2376,8 @@ function slot0.Op(slot0, slot1, ...)
 	slot0:GetCommand():Op(slot1, ...)
 end
 
-function slot0.OpPush(slot0, slot1, ...)
-	slot0:GetCommand():OpPush(slot1, ...)
+function slot0.OpRaw(slot0, slot1, ...)
+	slot0:GetCommand():OpRaw(slot1, ...)
 end
 
 function slot0.OpOpen(slot0)

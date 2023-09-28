@@ -9853,7 +9853,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "클레망소, 기샹 등의 등장 확률 UP!"
+	tip = "기간 한정 건조를 총 200회 실시하면, '운젠' 100% 획득 가능! (최대 4척까지)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11568,7 +11568,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
 사용 장비: <color=#ff5c5c>
 시제형 150mm Tbts KC 42T식 연장포
 533mm 4연장 자기 어뢰
-시제형 55mm Gerät 58 대공포</color></size>]]
+시제형 203mm SKC 3연장포改</color></size>]]
 }
 
 _G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
@@ -11786,30 +11786,22 @@ _G.pg.base.gametip.returner_help = {
 	tip = {
 		{
 			info = [[
-이벤트 설명: 
-초대 대상:
-복귀 지휘관：
-2023년 3월 9일 이후로 로그인 이력이 없는 지휘관
-신규 지휘관:
-2023년 3월 23일~5월 4일 사이에 신규 가입한 지휘관
-자격에 해당하는 지휘관은 이벤트 기간 동안 로그인 시 특별 이벤트 페이지에서 UID를 입력해 이벤트에 참여할 수 있습니다.
-초대자: 2023년 3월 9일~3월 23일 사이에 로그인 한 이력이 있는 지휘관
-초대자는 자신의 UID를 사용해 조건을 만족하는 지휘관을 초대해 이벤트에 참여할 수 있습니다.
-모집 지휘관:
-최대 2명의 지휘관을 초대할 수 있으며 전용 임무를 달성한 후집결 포인트를 받을 수 있습니다. 집결 신호가 발송된 뒤 초대자 전용임무가 개방되며, 임무 달성 후 
-집결 포인트를 받을 수 있습니다. 집결 포인트가 일정 이상 도달하면 풍성한 보상을 받을 수 있습니다. 초대 대상은 초대자의 UID를 입력한 후, 전용 임무를 활성화 할 수 있습니다. 전용 임무를 달상하면 풍성한 보상과 함께 초대자에게 집결포인트를 제공합니다. 항구 간에는 초대를 할 수 있지만 서버 간에는 할 수 없습니다.
-UID:
-사령부에서 모든 지휘관들에 지급하는 신분증으로, 개인
-정보 페이지에서 확인할 수 있습니다.]]
-		},
-		{
-			info = "UID게시 및 매칭 시스템:\n"
-		},
-		{
-			info = "초대자:\n[모집 정보 게시]버튼을 터치해 자신의 UID 정보를 게시하고 초대 대상과 빠르게 매칭합니다.\n<color=#ff5c5c>모집 정보를 게시하면 삭제할 수 없습니다.</color>"
-		},
-		{
-			info = "초대 대상:\n[매칭]버튼을 터치해 랜덤으로 시스템에 있는 초대자의UID와 빠르게 매칭합니다.:\n<Color=#ff5c5c>매칭 성공 후 변경할 수 없습니다.</color>"
+이벤트 소개: 
+
+'컴백 미션'이란, 지휘관의 로그인 상태에 따라 '현역 지휘관', '컴백·신입 지휘관'으로 분류되어, 각각 다른 보상을 획득할 수 있는 이벤트입니다. 
+■ '현역 지휘관', '컴백·신입 지휘관'에 대해
+다음 조건을 만족한 지휘관은 '현역 지휘관'으로 분류되어, '현역 지휘관' 전용 목표를 달성함으로써 보상을 획득할 수 있습니다. 
+· 2023년 9월 15일~ 9월 28일 23:59까지 한 번이라도 로그인한 적이 있고, 상기 조건을 만족하지 못한 경우에는 '컴백·신입 지휘관'으로 분류되어, 전용 임무를 클리어함으로써 보상을 획득할 수 있습니다. 
+자신이 '현역 지휘관', '컴백·신입 지휘관' 중 어디에 속하는지 판단이 어려운 경우에는 컴백 미션 배너에 표시된 내용을 확인하시기 바랍니다. 
+■ 현역 지휘관의 목표에 대해
+현역 지휘관은 최대 2명의 친구를 '컴백 미션'에 참가시킬 수 있으며, 친구가 전용 임무를 클리어하면 자신에게 '컴백 Pt'가 가산됩니다. 
+'컴백 Pt'는 총 획득 수에 따라 다양한 보상을 획득할 수 있습니다. 
+자신의 UID(이벤트 배너에 표시된 숫자)를 친구 쪽 이벤트 배너에 입력시키면, 친구는 컴백 미션에 참가할 수 있게 됩니다. 
+컴백 미션에 참가한 친구의 ID는 현역 지휘관의 배너 우측에 표시됩니다. 
+현역 지휘관은 '컴백 소집'을 탭하면, 컴백·신입 지휘관의 '현역 지휘관 검색'에 자신의 UID를 표시할 수 있습니다. 
+■컴백·신입 지휘관의 목표에 대해
+컴백·신입 지휘관은 현역 지휘관의 UID를 이벤트 배너에 입력함으로써 '컴백 미션'에 참가할 수 있습니다. 컴백 미션에 참가하면, 매일 오픈되는 전용 임무를 클리어함으로써 다양한 보상을 획득할 수 있습니다. 
+한 UID는 최대 2회까지 입력할 수 있습니다. 또한, UID는 다른 서버에 소속된 친구의 것도 입력할 수 있습니다.]]
 		}
 	}
 }
@@ -11844,46 +11836,38 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "이벤트 설명:\n"
 		},
 		{
-			info = "1. 지휘관은 소형 건조, 중형 건조, 특형 건조 중\n하나를 구성하여 희망 건조를 진행하실 수 있습니다."
+			info = "'선택 가능한 특별 건조'란, 상시 3종류의 일반 건조 중 하나를\n베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특수한 건조 시스템을\n말합니다."
 		},
 		{
-			info = "2. 희망 건조 중 모든 함선의 출현 확률은 일반 건조와 \n동일합니다:"
+			info = "1. '소형함 건조', '대형함 건조', '특형함 건조' 중 하나를\n골라, 특별 건조의 베이스로 만들 수 있습니다."
 		},
 		{
-			info = "소형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 26% N: 55%"
+			info = [[
+2. 동일 건조에서 출현하는 함선 중 두 종류를 골라
+'픽업 상태(출현율 UP 상태)'로 만들 수 있습니다.
+<color=#FF5C5C>(※ 2023년 7월 27일까지 상시 건조한 함선만
+출현합니다.)</color>]]
 		},
 		{
-			info = "중형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 51% N: 30%"
+			info = [[
+3. '선택 가능한 특별 건조'에서 '픽업'으로 선택된
+함선의 출현율은 레어도에 따라 다음과 같이
+분류됩니다.
+<color=#ffde38>SSR</color>: 2%, <color=#d797ff>SR</color>: 2.5%, <color=#3dc6ff>R</color>: 2.5%, N: 2.5%]]
 		},
 		{
-			info = "특형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 51% N: 30%"
+			info = [[
+4. '선택 가능한 특별 건조'의 함선 레어도별 출현율은
+일반 건조와 마찬가지로 다음과 같습니다.
+<color=#FF5C5C>소형함 건조</color> <color=#ffde38>SSR</color>: 7, <color=#d797ff>SR</color>: 12%, <color=#3dc6ff>R</color>: 26%, N: 55% 
+<color=#FF5C5C>대형함 건조</color> <color=#ffde38>SSR</color>: 7%, <color=#d797ff>SR</color>:12%, <color=#3dc6ff>R</color>: 51%, N: 30% 
+<color=#FF5C5C>특형함 건조</color> <color=#ffde38>SSR</color>: 7%, <color=#d797ff>SR</color>: 12%, <color=#3dc6ff>R</color>: 51%, N: 30%]]
 		},
 		{
-			info = "3. 구성 중 지휘관은 해당 건조의 모든 캐릭터 리스트를\n확인하실 수 있습니다."
+			info = "5. 베이스가 되는 일반 건조와 픽업 함선을 확정한\n후에는 '선택 가능한 특별 건조' 내용은 변경할 수 없습니다."
 		},
 		{
-			info = "4. 지휘관은 해당 건조 내 캐릭터 2명을 희망 캐릭터로 \n설정하실 수 있습니다."
-		},
-		{
-			info = "5. 1월 18일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
-		},
-		{
-			info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며, 희망 건조 캐릭터 리스트에 출현하지 않습니다."
-		},
-		{
-			info = "7. 선택한 희망 캐릭터의 건조 확률은 레어도에 따라 \n상이합니다."
-		},
-		{
-			info = "<color=#ffde38>SSR</color>: 2.0% <color=#d797ff>SR</color>: 2.5% <color=#3dc6ff>R</color>: 2.5% N: 2.5%"
-		},
-		{
-			info = "8. 2명의 캐릭터를 선택 완료하면 희망 건조 구성이 \n성공적으로 완료되는 것으로 간주됩니다."
-		},
-		{
-			info = "9. 희망 건조 구성 완료 후, 이벤트 기간 동안 수정하실 \n수 없습니다."
-		},
-		{
-			info = "10. 희망 건조에 소모되는 자원은 선택한 건조 종류와 \n동일하며, 캐릭터는 건조 대열에 추가됩니다. 고속건조재를 \n사용하여 건조를 즉시 완료하실 수 있습니다."
+			info = "6. '선택 가능한 특별 건조'는 일반 건조와 마찬가지로 최대 2척까지만\n동시에 건조할 수 있지만, 건조 시간은 고속건조재로\n단축시킬 수 있습니다."
 		}
 	}
 }
@@ -20601,6 +20585,83 @@ _G.pg.base.gametip.cruise_task_help_2308 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2310 = {
+	tip = "10/8-12/7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「프린스턴·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.battlepass_main_help_2310 = {
+	tip = {
+		{
+			info = [[
+월드 투어(2023.10.8-2023.12.7)
+
+·<color=#92fc63>개방 기간</color>
+ 2023.10.8 0시 ~ 2023.12.7 23:59:59
+
+·<color=#92fc63>투어 진도 설명</color>
+(1)이벤트 기간 동안, 투어 임무를 통해「투어 PT」를 획득할 수 있습니다.
+(2)투어 임무는 시간에 따라 개방됩니다.
+(3)「투어 PT」를 100 획득할 때마다 투어 진도가 1씩 증가합니다.
+(4)투어 진도 상승 후, 해당 레벨 보상을 획득할 수 있으며, 투어 진도는 최고 100까지 달성할 수 있습니다.
+
+·<color=#92fc63>보상 규칙</color>
+투어 진도 보상은 2가지로 나뉘어집니다:
+(1)기본 투어 보상: <color=#ff5c5c>「프린스턴·META」</color>, <color=#ff5c5c>성정 큐브</color>, <color=#ff5c5c>고급 지향형 강화 유닛·제4기</color> 등
+ 지정 투어 진도 도달 시, 기본 투어 보상을 즉시 수령할 수 있습니다.
+(2)특허 투어 보상: <color=#ff5c5c>포슈 스킨 「총애의 마조르돔」</color>, <color=#ff5c5c>다이아</color> 등
+ 「특허 투어 패스」 구매 및 지정 투어 진도 도달 시, 특허 투어 보상을 수령할 수 있습니다.
+ 주의: 「특허 투어 패스」 구매 후, 기본 투어 보상 수령에 영향을 끼치지 않습니다.
+
+·<color=#92fc63>「특허 투어 패스」설명</color>
+(1)「특허 투어 패스」는 「상점」-「특혜 패키지」에서 구매할 수 있으며, 구매 즉시 <color=#ff5c5c>1500</color> 「투어 PT」를 획득하며 특허 투어 보상이 해제됩니다.
+（2）「특허 투어 패스」는 <color=#ff5c5c>이벤트 종료 1시간 전</color> 판매가 중지됩니다(10.7 22:59:59). 구매 시간에 주의해 주세요.
+
+·<color=#92fc63>임무 설명</color>
+투어 임무는 2가지로 나뉘어집니다:
+(1)주간 임무 
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 대부분의 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 이번 이벤트 종료 시 사라지지 않습니다.
+
+·<color=#ff5c5c>특별 알림</color>
+(1)이번 월드 투어 이벤트 종료 후, 모든 투어 임무는 진행이 불가하며, 모든 투어 보상을 수령할 수 없습니다. 각 지휘관 여러분께서는 반드시 이벤트 시간을 주의하여 미리 보상을 수령해 주시기 바랍니다.
+(2)투어 진도, [특허 투어 패스]는 이번 월드 투어 이벤트에서만 효력이 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2310 = {
+	tip = {
+		{
+			info = [[
+투어 임무 설명
+
+·<color=#92fc63>개방 기간</color>
+ 2023.10.8 0시 ~ 2023.12.7 23:59:59
+
+·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
+(1)주간 임무
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 주간 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -22431,10 +22492,12 @@ _G.pg.base.gametip.hotspring_help = {
 	tip = {
 		{
 			info = [[
-이벤트 설명:
-<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '노천 온천' 오픈.
-1. 지휘관은 온천에 함선을 초대할 수 있으며 온천은 입욕 함선의 기분 회복 속도를 높일 수 있다.
-2.입욕 함선을 길게 누른 후 드래그하여 입욕 위치를 조정할 수 있다.]]
+플레이 방법:
+뒷산 이벤트에서 '쥬쥬 온천'이 <color=#92fc63>9.28 ~ 10.18 23:59</color>까지 오픈됩니다!
+1. 쥬쥬 온천의 입욕칸을 탭하면, 함선을 배치하여 컨디션 회복 속도를 높일 수 있습니다.
+2. 배치한 함선을 드래그앤드롭하면 온천에서의 위치를 조정할 수 있습니다.
+3. 미니 게임 '리조트 신비 사건 조사'를 플레이하면, 아이템 <color=#92fc63>온천 손팻말</color>을 최대 4장까지 획득할 수 있습니다.
+4. '증축' 버튼을 탭하면, <color=#92fc63>온천 손팻말</color>을 소비하여 입욕칸을 추가할 수 있습니다.]]
 		}
 	}
 }
@@ -22945,11 +23008,15 @@ _G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
 }
 
 _G.pg.base.gametip.multiple_sorties_cost1 = {
-	tip = "소모 예정 <color=#92fc63>「<icon name=oil w=0.7 h=0.7/>$1 연료」</color>"
+	tip = "<color=#92fc63>「<icon name=oil w=0.7 h=0.7/>$1 연료」</color> 소모 예정"
 }
 
 _G.pg.base.gametip.multiple_sorties_cost2 = {
-	tip = "와 <color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1 특별 도전권」</color>"
+	tip = "<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1개 특별 도전권个」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost3 = {
+	tip = "<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1개 고효율 작전 지령서」</color>"
 }
 
 _G.pg.base.gametip.multiple_sorties_stopped = {
@@ -23006,6 +23073,22 @@ _G.pg.base.gametip.multiple_sorties_stop_reason3 = {
 
 _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "작전 실패"
+}
+
+_G.pg.base.gametip.multiple_sorties_main_tip = {
+	tip = "※ 연속 작전 중에는 <color=#92fc63>자동 이동·자동 전투</color> 모드가 적용됩니다. \n※ 자동 이동을 중지하면, 연속 작전 모드도 중지됩니다."
+}
+
+_G.pg.base.gametip.multiple_sorties_main_end = {
+	tip = "※ 예상 연속 작전 수(해역 클리어 수) <color=#92fc63>$1</color>회, 실제 해역 클리어 수 <color=#92fc63>$2</color>회"
+}
+
+_G.pg.base.gametip.multiple_sorties_rest_time = {
+	tip = "진도: $1/$2"
+}
+
+_G.pg.base.gametip.multiple_sorties_retry_desc = {
+	tip = "연속 작전 $1회"
 }
 
 _G.pg.base.gametip.msgbox_text_battle = {
@@ -23154,6 +23237,18 @@ _G.pg.base.gametip.battle_text_bisimaiz_9 = {
 
 _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 	tip = "게리온 격파 완료——잠깐, 강렬한 <color=#ffc038>META</color>화 흐름이 감지됩니다!"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_1 = {
+	tip = "부정한 그림자는 힘을 축적하고 있다! 어두운 안개의 용을 공격하여, 적을 약화시켜라!"
+}
+
+_G.pg.base.gametip.battle_text_yunxian_2 = {
+	tip = "어두운 안개의 일부가 제거되었다! 부정한 그림자의 방어도가 떨어졌다."
+}
+
+_G.pg.base.gametip.battle_text_yunxian_3 = {
+	tip = "어두운 안개의 '핵'을 격파했다! 함선을 모방한 그림자도 무너지기 시작했다."
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -24514,4 +24609,190 @@ _G.pg.base.gametip.shoot_preview = {
 
 _G.pg.base.gametip.hit_preview = {
 	tip = "명중 연출"
+}
+
+_G.pg.base.gametip.story_label_skip = {
+	tip = "스킵"
+}
+
+_G.pg.base.gametip.story_label_auto = {
+	tip = "자동"
+}
+
+_G.pg.base.gametip.launch_ball_skill_desc = {
+	tip = "상세 확인"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
+	tip = "액티브: 요괴 격퇴"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+	tip = "요괴 격퇴: 5초 동안 발사한 부적이 요괴 행렬을 조금 내려오게 한다."
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
+	tip = "패시브: 요괴는 질색/난사"
+}
+
+_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+	tip = "요괴는 질색: 요괴가 중앙으로 접근하면 하츠즈키의 공격 속도가 상승한다.난사: 10초 동안 공격하지 않은 경우, 하츠즈키가 토라지며 무작위의 3방향을 향해 3회 공격 후, 요괴 행렬을 조금 내려오게 한다."
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+	tip = "액티브: 접해몽화"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
+	tip = "접해몽화: 화면 상단에 있는 모든 요괴를 격퇴한다(점수는 기본 점수만큼 획득)."
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2 = {
+	tip = "패시브: 영원한 나비"
+}
+
+_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+	tip = "영원한 나비: 10초 동안 공격하지 않은 경우, 시나노는 잠들고, 잠자는 동안 2초마다 무작위로 요괴를 1마리 퇴치한다."
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+	tip = "액티브: 요괴 퇴치술"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+	tip = "요괴 퇴치술: 5초 동안 요괴 행렬의 행진 속도를 큰 폭으로 낮춘다."
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+	tip = "패시브: 술식 전개"
+}
+
+_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+	tip = "술식 전개: '후퇴', '감속' 마크가 있는 특정 요괴를 격퇴하면 얻을 수 있는 효과의 지속 시간이 늘어난다."
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
+	tip = "액티브: 질풍신뢰"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+	tip = "질풍신뢰: 전방 부채꼴 범위 내에 있는 요괴를 모두 격퇴한다(점수는 기본 점수만큼 획득)."
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+	tip = "패시브: 전광석화"
+}
+
+_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+	tip = "전광석화: 요괴를 1회 격퇴할 때마다 '질풍신뢰'의 재사용 가능까지 걸리는 시간을 0.5초 단축한다."
+}
+
+_G.pg.base.gametip.jp6th_spring_tip1 = {
+	tip = "온천 증서<icon name=wenquanshoupai w=0.7 h=0.7/>를 소비하여 만쥬 온천을 증축하시겠습니까?"
+}
+
+_G.pg.base.gametip.jp6th_spring_tip2 = {
+	tip = "온천 손팻말이 부족합니다."
+}
+
+_G.pg.base.gametip.jp6th_biaohoushan_help = {
+	tip = {
+		{
+			info = [[
+개요:
+뒷산 이벤트 '온천 리조트'<color=#92fc63>(9.28 ~ 10.18 23:59)</color>이 진행됩니다! 
+'온천 리조트'의 '미니 게임'을 탭하면, 미니 게임과 한정 스토리를 즐길 수 있습니다. 
+또한, 미니 게임의 제7장을 클리어하면, SSR 함선으로 교환할 수 있는 특별 초대장을 획득할 수 있습니다. 
+
+플레이 방법:
+1. 뒷산 화면에서 '미니 게임'을 탭하면, 미니 게임 '신비 사건 조사' 화면으로 이동할 수 있습니다. 
+　'신비 사건 조사'에는 10/4까지 매일 오픈되는 미니 게임 스테이지와 한정 임무, 상점이 있습니다. 
+　한정 임무에서는 미니 게임에서 특정한 조건을 달성함으로써 다양한 보상을 획득할 수 있습니다. 
+　상점에서는 미니 게임을 플레이하여 얻은 Pt 아이템을 미니 게임 캐릭터 오픈 아이템·한정 가구·장비 스킨 상자 등으로 교환할 수 있습니다. 
+
+2. '쥬쥬 온천'을 탭하면, 온천 화면으로 이동합니다. 
+　온천에서는 함선을 입욕칸에 배치함으로써 함선의 컨디션 회복 속도를 상승시킬 수 있습니다. 
+　온천의 입욕칸은 미니 게임을 플레이하여 획득할 수 있는 '온천 손팻말'을 소비하여 확장(증축)할 수 있습니다. 
+
+3. '한정 건조'를 탭하면, 한정 건조 화면으로 이동합니다.
+4. '스킨'을 탭하면, 스킨 상점으로 이동합니다.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_help = {
+	tip = {
+		{
+			info = "개요:'리조트 신비 사건 조사'이란, 미니 게임을 플레이하여 수집 아이템 '벚꽃 부적'을 모아서 보상으로 교환하거나, 클리어 보상을 획득하는 미니 이벤트입니다.'리조트 신비 사건 조사'은 10/4까지 매일 1막씩 오픈되며, 제7막을 클리어하면 무한 모드가 오픈됩니다.'리조트 신비 사건 조사'은 <color=#92fc63>9.28-10.5 23:59</color>까지 진행됩니다.보상 정보:① 미니 게임 상점에서는 '벚꽃 부적'을 소비하여 한정 가구·장비 스킨 상자, '리조트 신비 사건 조사' 조작 캐릭터 오픈권 등을 획득할 수 있습니다.② 미니 게임의 각 장을 클리어하면, 1회에 한해 '장비 스킨 상자(백귀야행)'을 획득할 수 있습니다. 또한, 제1막·제3막·제5막·제7막을 클리어하면, 1회에 한해 '쥬쥬 온천'의 증축 재료인 '온천 손팻말'을 획득할 수 있습니다.③ 미니 게임 제7장을 클리어하면, 가구 '푸른 행등'을 획득할 수 있습니다. 또한, 이벤트 배너에서 SSR함선으로 교환할 수 있는 초대장을 획득할 수 있습니다.플레이 방법· 화면을 탭하거나 길게 누르면, 조작 캐릭터에서 부적을 발사할 수 있습니다.　발사된 부적이 요괴 행렬에 접촉하면, 부적과 동일한 색깔의 요괴가 행렬에 늘어나고, 같은 요괴가 3마리 나란히 줄을 서면 격퇴됩니다.· 화면 밖에서 천천히 요괴 행렬이 출현하여, X 표시를 향해 행진합니다.　요괴가 출현하지 않을 때까지 격퇴하거나, 화면의 X 마크에 요괴가 도착하면 게임이 종료됩니다.· 스테이지는 일반 스테이지(총 7막), 1회 한정 특수 스테이지(막간), 요괴가 무한히 출현하는 스테이지(무한 모드)로 구성되어 있습니다.· 이벤트 기간 중에는 매일 '보상 획득 가능 횟수'가 1회 가산됩니다.　'보상 획득 가능 횟수'를 소지한 상태로 게임을 클리어하면, 횟수를 소비함으로써 아이템 '요괴 부적'을 150장 획득할 수 있습니다.　제7막을 클리어할 때까지 모든 스테이지는 한 번만 보상을 획득할 수 있습니다.　제7막을 클리어하면, 모든 스테이지(무한 모드 포함)에서 '벚꽃 부적' 보상을 획득할 수 있습니다.· '무한 모드' 스테이지에서는 최고 득점에 따라 '벚꽃 부적'을 획득할 수 있습니다.· 조작 캐릭터 '유라', '시나노', '시마카제'는 상점에서 해당 아이템을 구입함으로써 선택할 수 있습니다.· 조작 캐릭터는 각각 액티브 스킬, 패시브 스킬을 소지하고 있으며, 화면 우측 하단의 버튼을 탭하면 액티브 스킬을 발동할 수 있습니다.· 조작 캐릭터로 다양한 조건을 달성하면, 한정 임무에서 수집 아이템 '벚꽃 부적'을 획득할 수 있습니다."
+		}
+	}
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_time = {
+	tip = "익일 0시에 새로운 스테이지가 오픈됩니다!"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_order = {
+	tip = "이전 스테이지를 클리어하면 오픈됩니다!"
+}
+
+_G.pg.base.gametip.jp6th_lihoushan_pt1 = {
+	tip = "보상 획득 가능 횟수"
+}
+
+_G.pg.base.gametip.launchball_minigame_help = {
+	tip = ""
+}
+
+_G.pg.base.gametip.launchball_minigame_select = {
+	tip = "캐릭터를 탭하여 선택"
+}
+
+_G.pg.base.gametip.launchball_minigame_un_select = {
+	tip = "동일 캐릭터를 탭하여 선택 해제"
+}
+
+_G.pg.base.gametip.launchball_minigame_shop = {
+	tip = "품절이다냥~"
+}
+
+_G.pg.base.gametip.launchball_lock_Shinano = {
+	tip = "상점에서 <color=#92fc63>'시나노의 증표'</color>를 구매하여 선택 가능"
+}
+
+_G.pg.base.gametip.launchball_lock_Yura = {
+	tip = "상점에서 <color=#92fc63>'유라의 증표'</color>를 구매하여 선택 가능"
+}
+
+_G.pg.base.gametip.launchball_lock_Shimakaze = {
+	tip = "상점에서 <color=#92fc63>'시마카제의 증표'</color>를 구매하여 선택 가능"
+}
+
+_G.pg.base.gametip.launchball_spilt_series = {
+	tip = "콤보: 부적을 1회 발사하여 여러 마리의 요괴를 동시에 격퇴하면, 획득 점수가 상승한다."
+}
+
+_G.pg.base.gametip.launchball_spilt_mix = {
+	tip = "흡착: 요괴를 격퇴한 후, 양쪽 요괴가 같은 색깔인 경우에는 전방 요괴가 자동으로 후방 요괴 쪽에 흡착된다. 그 때 요괴를 격퇴하면, 획득 점수가 상승한다."
+}
+
+_G.pg.base.gametip.launchball_spilt_over = {
+	tip = "돌파: 요괴를 격퇴한 후에 생성된 공간에 다시 부적을 발사하여 그 전방에 있는 요괴를 격퇴하면, 획득 점수가 상승한다."
+}
+
+_G.pg.base.gametip.launchball_spilt_many = {
+	tip = "멀티플: 한 번에 요괴를 3마리 이상 격퇴하면, 획득 점수가 상승한다."
+}
+
+_G.pg.base.gametip.luckybag_skin_isani = {
+	tip = "모션 일러스트"
+}
+
+_G.pg.base.gametip.luckybag_skin_islive2d = {
+	tip = "L2D"
+}
+
+_G.pg.base.gametip.SkinMagazinePage2_tip = {
+	tip = "출석 체크"
 }

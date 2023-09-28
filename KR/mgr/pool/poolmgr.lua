@@ -233,7 +233,7 @@ function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
 end
 
 function slot0.IsSpineSkelCached(slot0, slot1)
-	return false
+	return slot0.pools_plural["char/" .. slot1 .. slot1] ~= nil
 end
 
 slot6 = {
@@ -378,6 +378,8 @@ function slot0.ReturnPainting(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+
 		if tf(slot2):Find("face") then
 			setActive(slot5, false)
 		end
@@ -448,6 +450,8 @@ function slot0.ReturnPaintingWithPrefix(slot0, slot1, slot2, slot3)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot5] then
+		setActiveViaLayer(slot2, true)
+
 		if tf(slot2):Find("face") then
 			setActive(slot6, false)
 		end
