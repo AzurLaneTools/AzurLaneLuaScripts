@@ -1,6 +1,105 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107067] = {
+		ship_group = 10706,
+		name = "Bon Voyage",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1101",
+		l2d_ignore_drag = 0,
+		group_index = 7,
+		shop_id = 0,
+		painting = "qiye_8",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "155",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107067,
+		voice_actor_2 = -1,
+		prefab = "qiye_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "It feels odd taking an extended leave just to go on vacation... but I guess you need breaks to stay on top of your game. With that in mind, let's make every minute count, Commander!",
+		voice_actor = 31,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.27,
+					1.21,
+					0
+				}
+			},
+			plane = {
+				{
+					1.21,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107068] = {
 		ship_group = 10706,
 		name = "Starlight Oath",
@@ -1213,6 +1312,103 @@ pg.base.ship_skin_template_4 = {
 			},
 			{
 				0.45
+			}
+		}
+	},
+	[107096] = {
+		ship_group = 10709,
+		name = "The Gale of Course 88",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 6,
+		shop_id = 70914,
+		painting = "aisaikesi_8",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107096,
+		voice_actor_2 = -1,
+		prefab = "aisaikesi_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Cooldown lap completed! Did you see me on the racetrack, Commander? Heehee. Thanks for everything, from setting up the race to assigning racers and supporters!",
+		voice_actor = 149,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.86,
+							1.98,
+							0
+						}
+					}
+				}
 			}
 		}
 	},
@@ -10065,216 +10261,6 @@ pg.base.ship_skin_template_4 = {
 						{
 							-0.265,
 							0.657,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201141] = {
-		ship_group = 20114,
-		name = "Jokey Adjudicator",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70496,
-		painting = "yinghuochong_2",
-		illustrator = 4,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "144",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 201141,
-		voice_actor_2 = -1,
-		prefab = "yinghuochong_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Ahahaha! It is I, Glowworm, the impartial and absolute judge! Any wrongdoers will have me to answer to! Guilty verdicts will result in headbutts!",
-		voice_actor = 14,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.314,
-					0.986,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.007,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.301,
-					1.014,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.524,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201160] = {
-		ship_group = 20116,
-		name = "Hardy",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "yonggan",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 201160,
-		voice_actor_2 = -1,
-		prefab = "yonggan",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "H-class destroyer – Hardy (H87) ",
-		voice_actor = 170,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					1.13,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.36,
-					0.94,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.59,
 							0
 						}
 					}

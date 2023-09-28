@@ -288,10 +288,10 @@ end
 function slot0.playGetShipAnimate(slot0, slot1, slot2)
 	slot0.canvasgroup.blocksRaycasts = false
 	slot0.isPlayAnim = true
-	slot4 = slot0:findTF((pg.ship_data_create_material[slot2].build_anim or "Building") .. "(Clone)")
 	slot0.onLoading = true
+	slot4 = pg.CpkPlayMgr.GetInstance()
 
-	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+	slot4:PlayCpkMovie(function ()
 		uv0.onLoading = false
 
 		if uv1 and uv1.build_voice ~= "" then
@@ -302,7 +302,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		uv0.canvasgroup.blocksRaycasts = true
 
 		uv1()
-	end, "ui", slot3.build_anim or "Building", true, false, {
+	end, "ui", pg.ship_data_create_material[slot2].build_anim or "Building", true, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	}, 4.5, true)
 end

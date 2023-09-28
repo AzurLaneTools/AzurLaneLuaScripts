@@ -1229,4 +1229,16 @@ function slot0.PopContinuousData(slot0, slot1)
 	return slot0.continuousData[slot1]
 end
 
+function slot0.SetLastFleetIndex(slot0, slot1, slot2)
+	if slot2 and slot0.lastFleetIndex then
+		return
+	end
+
+	slot0.lastFleetIndex = slot1
+end
+
+function slot0.GetLastFleetIndex(slot0)
+	return slot0.lastFleetIndex
+end
+
 return slot0

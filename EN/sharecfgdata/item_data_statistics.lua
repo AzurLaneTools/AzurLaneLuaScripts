@@ -10400,6 +10400,29 @@ _G.pg.base.item_data_statistics[21025] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21026] = {
+	display = "An item that increases the potential of Princeton META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Princeton",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21026",
+	id = 21026,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -18050,6 +18073,50 @@ _G.pg.base.item_data_statistics[30415] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30416] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30416,
+	display_icon = {
+		{
+			9,
+			2049,
+			1
+		},
+		{
+			9,
+			2050,
+			1
+		},
+		{
+			9,
+			2051,
+			1
+		},
+		{
+			9,
+			2052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "Contains a random gear skin. ",
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -21307,6 +21374,120 @@ _G.pg.base.item_data_statistics[30529] = {
 		{
 			9,
 			847,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30530] = {
+	display = "Can be opened to receive 1 Spring Festival gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Spring Festival)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunjiezixuan",
+	id = 30530,
+	display_icon = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
 			1
 		}
 	},
@@ -176372,7 +176553,7 @@ _G.pg.base.item_data_statistics[58695] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -177749,7 +177930,7 @@ _G.pg.base.item_data_statistics[58713] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -204586,6 +204767,52 @@ _G.pg.base.item_data_statistics[59492] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59492,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59493] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (10/1/2023 – 11/30/2023), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59493,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59494] = {
+	display = "",
+	name = "通行证十三期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7013,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59494,
 	display_icon = {},
 	price = {},
 	index = {},

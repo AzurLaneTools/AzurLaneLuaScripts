@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A commemorative frame that brings back memories of laughter and champagne.</color>\n–\"Castle of Celebrations\" event reward.",
 		scene = {}
 	},
+	[605] = {
+		time_limit_type = 0,
+		name = "Seal of the Speedster",
+		gain_by = "",
+		id = 605,
+		time_second = 0,
+		desc = "<color=#ffffff>Victory belongs to who reaches the goal fastest.</color>\nAwarded to Commanders who participated in the \"High-Speed Raceway\" event.",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "Extreme Challenge - Gemini",
@@ -520,6 +529,15 @@ pg.item_data_frame = {
 		id = 10004,
 		time_second = 0,
 		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/9/23 - 30/9/23 Season.</color>",
+		scene = {}
+	},
+	[10005] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Libra",
+		gain_by = "",
+		id = 10005,
+		time_second = 0,
+		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/10/23 - 31/10/23 Season.</color>",
 		scene = {}
 	},
 	all = {
@@ -577,9 +595,11 @@ pg.item_data_frame = {
 		601,
 		602,
 		603,
+		605,
 		10001,
 		10002,
 		10003,
-		10004
+		10004,
+		10005
 	}
 }

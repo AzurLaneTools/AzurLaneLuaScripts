@@ -2522,6 +2522,11 @@ pg.memory_template = setmetatable({
 		3031,
 		3032,
 		3033,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
 		10011,
 		10012,
 		10013,
@@ -30301,6 +30306,61 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER3",
 		id = 3033,
 		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3041] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Moonlit Chrome",
+		condition = "Complete Shinano's Vignette in \"Port Fashion Collection! Racing Special\"",
+		story = "SHISHANGTEKANSAICHE1",
+		id = 3041,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3042] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Finish Line Flagbearer",
+		condition = "Complete Baltimore's Vignette in \"Port Fashion Collection! Racing Special\"",
+		story = "SHISHANGTEKANSAICHE2",
+		id = 3042,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3043] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Final Lap",
+		condition = "Complete Prinz Eugen's Vignette in \"Port Fashion Collection! Racing Special\"",
+		story = "SHISHANGTEKANSAICHE3",
+		id = 3043,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3044] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Wind Catcher",
+		condition = "Complete Enterprise's Vignette in \"Port Fashion Collection! Racing Special\"",
+		story = "SHISHANGTEKANSAICHE4",
+		id = 3044,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3045] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Ignition Matrician",
+		condition = "Complete Ulrich von Hutten's Vignette in \"Port Fashion Collection! Racing Special\"",
+		story = "SHISHANGTEKANSAICHE5",
+		id = 3045,
+		icon = "memory_shishangtekansaiche",
 		is_open = 0
 	},
 	[10011] = {

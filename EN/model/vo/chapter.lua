@@ -1389,9 +1389,26 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	return slot5, slot3
 end
 
+function slot0.GetNomralFleetMaxCount(slot0)
+	return slot0:getConfig("group_num")
+end
+
+function slot0.GetSubmarineFleetMaxCount(slot0)
+	return slot0:getConfig("submarine_num")
+end
+
 function slot0.EliteShipTypeFilter(slot0)
-	slot1 = getProxy(BayProxy)
-	slot1 = slot1:getRawData()
+	slot1 = getProxy(BayProxy):getRawData()
+
+	for slot5 = slot0:GetNomralFleetMaxCount() + 1, 2 do
+		table.clear(slot0.eliteFleetList[slot5])
+		table.clear(slot0.eliteCommanderList[slot5])
+	end
+
+	for slot5 = slot0:GetSubmarineFleetMaxCount() + 2 + 1, 3 do
+		table.clear(slot0.eliteFleetList[slot5])
+		table.clear(slot0.eliteCommanderList[slot5])
+	end
 
 	function slot2(slot0, slot1, slot2)
 		ChapterProxy.SortRecommendLimitation(Clone(slot1))
@@ -1569,22 +1586,23 @@ function slot0.getPoisonArea(slot0, slot1)
 	return slot2
 end
 
-function slot0.selectFleets(slot0, slot1, slot2)
-	slot3 = Clone(slot1) or {}
+function slot0.selectFleets(slot0, slot1)
+	slot2 = Clone(slot1) or {}
+	slot3 = getProxy(FleetProxy):GetRegularFleets()
 
-	for slot7 = #slot3, 1, -1 do
-		if not slot2[slot3[slot7]] or not slot8:isUnlock() or slot8:isLegalToFight() ~= true then
-			table.remove(slot3, slot7)
+	for slot7 = #slot2, 1, -1 do
+		if not slot3[slot2[slot7]] or not slot8:isUnlock() or slot8:isLegalToFight() ~= true then
+			table.remove(slot2, slot7)
 		end
 	end
 
 	slot6 = slot0:getConfig("submarine_num")
 
 	for slot10 = #({
-		[FleetType.Normal] = _.filter(slot3, function (slot0)
+		[FleetType.Normal] = _.filter(slot2, function (slot0)
 			return uv0[slot0]:getFleetType() == FleetType.Normal
 		end),
-		[FleetType.Submarine] = _.filter(slot3, function (slot0)
+		[FleetType.Submarine] = _.filter(slot2, function (slot0)
 			return uv0[slot0]:getFleetType() == FleetType.Submarine
 		end)
 	})[FleetType.Normal], slot0:getConfig("group_num") + 1, -1 do
@@ -1605,7 +1623,7 @@ function slot0.selectFleets(slot0, slot1, slot2)
 				slot12 = slot6
 			end
 
-			for slot16, slot17 in pairs(slot2) do
+			for slot16, slot17 in pairs(slot3) do
 				if slot12 <= #slot11 then
 					break
 				end
@@ -1617,15 +1635,19 @@ function slot0.selectFleets(slot0, slot1, slot2)
 		end
 	end
 
-	slot3 = {}
+	slot2 = {}
 
-	for slot10, slot11 in pairs(slot4) do
+	for slot10, slot11 in ipairs(slot4) do
 		for slot15, slot16 in ipairs(slot11) do
-			table.insert(slot3, slot16)
+			table.insert(slot2, slot16)
 		end
 	end
 
-	return slot3
+	return slot2
+end
+
+function slot0.GetDefaultFleetIndex(slot0)
+	return slot0:selectFleets(getProxy(ChapterProxy):GetLastFleetIndex())
 end
 
 function slot0.getInEliteShipIDs(slot0)
@@ -2334,9 +2356,7 @@ function slot0.writeBack(slot0, slot1, slot2)
 	end)
 
 	if slot2.statistics.submarineAid then
-		if _.detect(slot0.fleets, function (slot0)
-			return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
-		end) and not slot6:inHuntingRange(slot3.line.row, slot3.line.column) then
+		if slot0:GetSubmarineFleet() and not slot6:inHuntingRange(slot3.line.row, slot3.line.column) then
 			slot6:consumeOneStrategy(ChapterConst.StrategyCallSubOutofRange)
 		end
 
@@ -3058,21 +3078,25 @@ function slot0.enoughTimes2Start(slot0)
 end
 
 function slot0.GetRestDailyBonus(slot0)
-	slot2 = 0
+	if slot0:IsRemaster() then
+		return 0
+	end
+
+	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
-		slot2 = math.max(slot2, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
+		slot1 = math.max(slot1, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
 	end
 
 	if pg.chapter_defense[slot0.id] then
-		slot2 = math.max(slot2, slot3.bonus_time or 0)
+		slot1 = math.max(slot1, slot3.bonus_time or 0)
 	end
 
-	return math.max(slot2 - slot0.todayDefeatCount, 0)
+	return math.max(slot1 - slot0.todayDefeatCount, 0)
 end
 
 function slot0.GetDailyBonusQuota(slot0)
-	return slot0:GetRestDailyBonus() > 0 and not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster()
+	return slot0:GetRestDailyBonus() > 0
 end
 
 slot0.OPERATION_BUFF_TYPE_COST = "more_oil"
@@ -3315,6 +3339,14 @@ function slot0.GetMaxBattleCount(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.GetRegularFleetIds(slot0)
+	return _.map(_.filter(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Normal or slot1 == FleetType.Submarine
+	end), function (slot0)
+		return slot0.fleetId
+	end)
 end
 
 return slot0

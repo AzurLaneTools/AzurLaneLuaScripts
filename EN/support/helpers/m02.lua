@@ -3892,7 +3892,11 @@ slot26 = {
 		return NewPos(slot0.x - slot1.x, slot0.y - slot1.y)
 	end,
 	__mul = function (slot0, slot1)
-		return NewPos(slot0.x * slot1, slot0.y * slot1)
+		if type(slot1) == "number" then
+			return NewPos(slot0.x * slot1, slot0.y * slot1)
+		else
+			return NewPos(slot0.x * slot1.x, slot0.y * slot1.y)
+		end
 	end,
 	__eq = function (slot0, slot1)
 		return slot0.x == slot1.x and slot0.y == slot1.y

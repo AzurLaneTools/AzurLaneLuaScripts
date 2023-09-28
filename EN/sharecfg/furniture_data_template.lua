@@ -127,6 +127,8 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -165,6 +167,7 @@ pg.furniture_data_template = setmetatable({
 			100039,
 			100040,
 			100041,
+			100042,
 			100043,
 			200001,
 			200002,
@@ -4931,6 +4934,8 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -4969,6 +4974,7 @@ pg.furniture_data_template = setmetatable({
 			100039,
 			100040,
 			100041,
+			100042,
 			100043,
 			31101,
 			54104,
@@ -5840,6 +5846,8 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
+			263,
 			100002,
 			100004,
 			100005,
@@ -7618,6 +7626,7 @@ pg.furniture_data_template = setmetatable({
 			100022,
 			100030,
 			100034,
+			100042,
 			30123,
 			35128,
 			37121,
@@ -8523,6 +8532,8 @@ pg.furniture_data_template = setmetatable({
 		257,
 		258,
 		259,
+		260,
+		263,
 		100002,
 		100003,
 		100004,
@@ -8561,6 +8572,7 @@ pg.furniture_data_template = setmetatable({
 		100039,
 		100040,
 		100041,
+		100042,
 		100043,
 		200001,
 		200002,
@@ -17075,6 +17087,116 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[260] = {
+		effect = "",
+		name = "Mooncake Rabbit Bed",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You'll surely have sweet dreams in this seasonal treat of a bed.",
+		themeId = 0,
+		icon = "yuebingshuichuangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 260,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingshuichuang",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[263] = {
+		effect = "",
+		name = "Manjuu Grand Prix Cup",
+		gain_by = "High-Speed Raceway",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Awarded to the winner of the Manjuu Grand Prix, this giant cup is a symbol of glory and ability.",
+		tag = 6,
+		icon = "saichangjiangbeiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 263,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"saichangjiangbei",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -19779,6 +19901,84 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					"event:/ui/meow"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100042] = {
+		effect = "",
+		name = "Witch's Broom",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"See my broomstick, watch me fly, I'll beat your butt, don't even try!\"",
+		themeId = 0,
+		icon = "feixingsaozhouicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100042,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingsaozhou",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

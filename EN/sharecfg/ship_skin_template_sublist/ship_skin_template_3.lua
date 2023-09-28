@@ -2978,6 +2978,110 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103248] = {
+		ship_group = 10324,
+		name = "Joyride of Love",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 8,
+		shop_id = 0,
+		painting = "bulaimodun_h",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9998,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		id = 103248,
+		voice_actor_2 = -1,
+		prefab = "bulaimodun_h",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Three, two, one, go! Did you get a pic of me tossing the bouquet, Commander? Ahahah! I'm postin' this to Juustagram later, so you should do the same! It'll be like... retaking our pledge of love♪",
+		voice_actor = 134,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.76,
+					0.867,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.764,
+					0.846,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.859,
+							2.284,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103250] = {
 		ship_group = 10325,
 		name = "Baltimore μ",
@@ -10747,105 +10851,6 @@ pg.base.ship_skin_template_3 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
-		}
-	},
-	[107067] = {
-		ship_group = 10706,
-		name = "Bon Voyage",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		l2d_ignore_drag = 0,
-		group_index = 7,
-		shop_id = 0,
-		painting = "qiye_8",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "155",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107067,
-		voice_actor_2 = -1,
-		prefab = "qiye_8",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "It feels odd taking an extended leave just to go on vacation... but I guess you need breaks to stay on top of your game. With that in mind, let's make every minute count, Commander!",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.27,
-					1.21,
-					0
-				}
-			},
-			plane = {
-				{
-					1.21,
-					1.32,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.25,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

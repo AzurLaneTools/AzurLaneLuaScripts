@@ -2397,6 +2397,11 @@ pg.skill_data_display = setmetatable({
 		600043,
 		600044,
 		600045,
+		600046,
+		600047,
+		600048,
+		600049,
+		600050,
 		800010,
 		800020,
 		800021,
@@ -2562,6 +2567,7 @@ pg.skill_data_display = setmetatable({
 		800902,
 		800921,
 		800941,
+		800971,
 		902201,
 		1010140,
 		1010143,
@@ -12307,6 +12313,26 @@ pg.base.skill_data_display = {
 		id = 600045,
 		name = "Aircraft Protection"
 	},
+	[600046] = {
+		id = 600046,
+		name = "Weights of Equilibrium"
+	},
+	[600047] = {
+		id = 600047,
+		name = "Equilibrial"
+	},
+	[600048] = {
+		id = 600048,
+		name = "Uneven"
+	},
+	[600049] = {
+		id = 600049,
+		name = "Skewed"
+	},
+	[600050] = {
+		id = 600050,
+		name = "Equilibrial Collapse"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -12966,6 +12992,10 @@ pg.base.skill_data_display = {
 	[800941] = {
 		id = 800941,
 		name = "Decisions, Prudent Yet Audacious"
+	},
+	[800971] = {
+		id = 800971,
+		name = "Counterattack!"
 	},
 	[902201] = {
 		id = 902201,

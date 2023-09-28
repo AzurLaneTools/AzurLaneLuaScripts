@@ -129,6 +129,8 @@ function slot0.willExit(slot0)
 
 		slot0.chargeTipWindow = nil
 	end
+
+	Input.multiTouchEnabled = true
 end
 
 return slot0

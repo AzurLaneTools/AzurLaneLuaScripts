@@ -10391,6 +10391,30 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[409] = {
+		ship_group = 40503,
+		name = "U.V.Hutten",
+		sculpture = "wuerlixi_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 409,
+		id = 409,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[410] = {
+		ship_group = 10709,
+		name = "EssexG1",
+		sculpture = "aisaikesi",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 410,
+		id = 410,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -10791,6 +10815,8 @@ pg.activity_ins_template = {
 		405,
 		406,
 		407,
-		408
+		408,
+		409,
+		410
 	}
 }

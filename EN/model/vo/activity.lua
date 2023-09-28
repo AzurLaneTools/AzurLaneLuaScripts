@@ -361,7 +361,7 @@ function slot0.readyToAchieve(slot0)
 				return true
 			end
 
-			if slot0:getConfig("id") ~= ActivityConst.ACTIVITY_STACK_ID and slot0:getConfig("id") ~= ActivityConst.ACTIVITY_QET_ID and slot1:getConfig("reward_need") <= slot1.usedtime and slot1.ultimate == 0 then
+			if slot0:getConfig("id") ~= ActivityConst.ACTIVITY_STACK_ID and slot0:getConfig("id") ~= ActivityConst.ACTIVITY_QET_ID and slot0:getConfig("id") ~= ActivityConst.MINIGAME_RACING_ID and slot1:getConfig("reward_need") <= slot1.usedtime and slot1.ultimate == 0 then
 				return true
 			end
 

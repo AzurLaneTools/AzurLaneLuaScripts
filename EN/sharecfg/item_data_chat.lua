@@ -112,6 +112,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Virgo. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/9/23 - 30/9/23 Season.</color>",
 		scene = {}
 	},
+	[10005] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Libra",
+		id = 10005,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Libra. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/10/23 - 31/10/23 Season.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -126,6 +134,7 @@ pg.item_data_chat = {
 		10001,
 		10002,
 		10003,
-		10004
+		10004,
+		10005
 	}
 }

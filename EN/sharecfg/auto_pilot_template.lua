@@ -12839,5 +12839,21 @@ pg.auto_pilot_template = {
 				}
 			}
 		}
+	},
+	[200004] = {
+		id = 200000,
+		name = "回到中点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -12.5,
+					z = 55
+				}
+			}
+		}
 	}
 }

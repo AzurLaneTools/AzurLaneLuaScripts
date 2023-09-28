@@ -5,6 +5,7 @@ slot3 = 2
 slot4 = 3
 slot5 = 4
 slot6 = 5
+slot7 = 10
 
 function slot0.Ctor(slot0)
 	slot0.state = uv0
@@ -41,6 +42,8 @@ end
 function slot0.Init(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
+	slot0.pageAnim = slot0._tf:GetComponent(typeof(Animation))
+	slot0.pageAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.container = slot0._tf:Find("content")
 	slot2 = slot0._tf
 	slot0.tpl = slot2:Find("content/tpl")
@@ -55,6 +58,9 @@ function slot0.Init(slot0, slot1)
 	onButton(nil, slot0.closeBtn, function ()
 		triggerButton(pg.NewStoryMgr.GetInstance().recordBtn)
 	end, SFX_PANEL)
+	slot0.pageAniEvent:SetEndEvent(function ()
+		uv0:OnHide()
+	end)
 
 	slot0.state = uv0
 
@@ -62,8 +68,9 @@ function slot0.Init(slot0, slot1)
 	slot0:BlurPanel()
 end
 
-function slot7(slot0)
+function slot8(slot0)
 	setActive(slot0._tf, true)
+	slot0.pageAnim:Play("anim_storyrecordUI_record_in")
 
 	slot0.state = uv0
 
@@ -81,7 +88,7 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot8(slot0)
+function slot9(slot0)
 	slot1 = nil
 	slot2 = false
 
@@ -92,11 +99,15 @@ function slot8(slot0)
 		slot1 = table.remove(slot0.tplPools, 1)
 	end
 
+	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
+
 	return slot1, slot2
 end
 
-function slot9(slot0, slot1)
+function slot10(slot0, slot1)
 	setActive(slot1, false)
+
+	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
 
 	if #slot0.tplPools >= 5 and slot1 ~= slot0.tpl then
 		Object.Destroy(slot1.gameObject)
@@ -114,12 +125,13 @@ function slot0.UpdateList(slot0)
 	slot2 = {}
 	slot3 = 1
 	slot0.usingTpls = {}
+	slot4 = #slot0.displays < uv0 and #slot1 or uv0
 
-	for slot7, slot8 in ipairs(slot0.displays) do
+	for slot8, slot9 in ipairs(slot1) do
+		slot10 = #slot1
+
 		table.insert(slot2, function (slot0)
 			slot1, slot2 = uv0(uv1)
-
-			setActive(slot1, true)
 
 			if not slot2 then
 				uv2 = uv2 + 1
@@ -127,6 +139,7 @@ function slot0.UpdateList(slot0)
 
 			uv1:UpdateRecord(slot1, uv3)
 			table.insert(uv1.usingTpls, slot1)
+			tf(slot1):SetAsLastSibling()
 
 			if uv2 % 5 == 0 then
 				uv2 = 1
@@ -135,22 +148,50 @@ function slot0.UpdateList(slot0)
 			else
 				slot0()
 			end
+
+			slot3 = slot1:GetComponent(typeof(Animation))
+
+			if uv4 + uv5 <= uv6 then
+				setActive(slot1, true)
+				slot3:Play("anim_storyrecordUI_tql_reset")
+			else
+				GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 0
+
+				setActive(slot1, true)
+			end
 		end)
 	end
 
-	seriesAsync(slot2, function ()
-		uv0.cg.blocksRaycasts = true
-
+	table.insert(slot2, function (slot0)
 		onDelayTick(function ()
 			uv0.contentSizeFitter.enabled = false
 			uv0.contentSizeFitter.enabled = true
 
 			scrollToBottom(uv0._tf)
+			uv1()
 		end, 0.05)
+	end)
+
+	for slot8 = 1, slot4 do
+		table.insert(slot2, function (slot0)
+			slot2 = uv0.usingTpls[#uv0.usingTpls - uv1 + uv2]
+			slot3 = slot2:GetComponent(typeof(Animation))
+
+			slot3:Play("anim_storyrecordUI_tpl_in")
+			onDelayTick(function ()
+				uv0()
+			end, 0.033)
+		end)
+	end
+
+	seriesAsync(slot2, function ()
+		uv0.cg.blocksRaycasts = true
 	end)
 end
 
 function slot0.UpdateRecord(slot0, slot1, slot2)
+	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
+
 	setActive(slot1:Find("icon"), slot2.icon)
 
 	if slot2.icon then
@@ -184,13 +225,17 @@ function slot0.UpdateRecord(slot0, slot1, slot2)
 	slot4.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)).padding = slot7
 end
 
+function slot0.OnHide(slot0)
+	slot0:Clear()
+	slot0:UnblurPanel()
+	setActive(slot0._tf, false)
+
+	slot0.state = uv0
+end
+
 function slot0.Hide(slot0)
 	if slot0:IsShowing() then
-		slot0:Clear()
-		slot0:UnblurPanel()
-		setActive(slot0._tf, false)
-
-		slot0.state = uv0
+		slot0.pageAnim:Play("anim_storyrecordUI_record_out")
 	end
 end
 
@@ -206,7 +251,9 @@ function slot0.BlurPanel(slot0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.TOP_LAYER
+	})
 end
 
 function slot0.UnblurPanel(slot0)

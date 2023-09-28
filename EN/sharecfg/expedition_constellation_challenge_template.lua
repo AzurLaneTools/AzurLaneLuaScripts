@@ -348,6 +348,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10013] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10013,
+		dungeon_id = 5115,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
+			},
+			{
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>10.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
+			}
+		},
+		award_display = {
+			{
+				14,
+				205,
+				1
+			}
+		}
+	},
+	[10014] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10014,
+		dungeon_id = 5114,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
+			},
+			{
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>20.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10005,
+				1
+			}
+		}
+	},
+	[10015] = {
+		painting = "qiye",
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		id = 10015,
+		dungeon_id = 5113,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
+			},
+			{
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>30.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10005,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -360,6 +447,9 @@ pg.expedition_constellation_challenge_template = {
 		10009,
 		10010,
 		10011,
-		10012
+		10012,
+		10013,
+		10014,
+		10015
 	}
 }

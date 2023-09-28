@@ -1,6 +1,227 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301090] = {
+		ship_group = 30109,
+		name = "Akatsuki",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "xiao",
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 301090,
+		voice_actor_2 = -1,
+		prefab = "xiao",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Type III {namecode:11}-class destroyer number one - {namecode:11}.",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.103,
+					0.017
+				}
+			},
+			antiaircraft = {
+				{
+					0.886,
+					1.158,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							2.325,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301091] = {
+		ship_group = 30109,
+		name = "Akatsuki Goes North",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70108,
+		painting = "xiao_2",
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301091,
+		voice_actor_2 = -1,
+		prefab = "xiao_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Is this the place called the Northern Parliament?! It is colder than I thought... Th-thank goodness I brought gear for extreme environments! Hibiki, please wait a bit longer! Your sister is coming to see you!",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					0.88,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.9,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.103,
+					0.017,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.94,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301092] = {
 		ship_group = 30109,
 		name = "Motoninja Akatsuki",
@@ -7201,6 +7422,119 @@ pg.base.ship_skin_template_8 = {
 			}
 		}
 	},
+	[301294] = {
+		ship_group = 30129,
+		name = "Clumsy Moon Rabbit",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 70915,
+		painting = "daofeng_6",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "165",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301294,
+		voice_actor_2 = -1,
+		prefab = "daofeng_6",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Oh no! Commander, look out! ...Phew. That was really close. Apologies for my clear lack of attentiveness! I shouldn't have been in such a rush to deliver all these mooncakes...",
+		voice_actor = 284,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.188,
+					0.97,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.188,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.188,
+					1.35,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.77,
+							2.58,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301300] = {
 		ship_group = 30130,
 		name = "Kamikaze",
@@ -10738,320 +11072,6 @@ pg.base.ship_skin_template_8 = {
 						"smoke",
 						{
 							-0.45,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301570] = {
-		ship_group = 30157,
-		name = "Harutsuki",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "chunyue",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301570,
-		voice_actor_2 = -1,
-		prefab = "chunyue",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Akizuki-class destroyer number nine – Harutsuki.",
-		voice_actor = 126,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.352,
-					1.425,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.135,
-					0.036,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.334,
-					1.074,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301571] = {
-		ship_group = 30157,
-		name = "A Dance for the Coming Spring",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 0,
-		painting = "chunyue_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "126",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301571,
-		voice_actor_2 = -1,
-		prefab = "chunyue_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Happy New Year, Commander! I am currently on my way to give a Kagura dance at the shrine. If you have time... would you like to come see it?",
-		voice_actor = 126,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.983,
-					1.097,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.016,
-					-0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.995,
-					1.119,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.667,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301580] = {
-		ship_group = 30158,
-		name = "Yoizuki",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "xiaoyue",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301580,
-		voice_actor_2 = -1,
-		prefab = "xiaoyue",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Akizuki-class destroyer number ten – Yoizuki.",
-		voice_actor = 126,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.812,
-					1.325,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.759,
-					1.219,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
 							2.48,
 							0
 						}
