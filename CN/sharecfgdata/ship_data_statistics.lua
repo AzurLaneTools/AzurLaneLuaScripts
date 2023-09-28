@@ -234120,6 +234120,10 @@ _G.pg.base.ship_data_statistics[408111] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234190,7 +234194,7 @@ _G.pg.base.ship_data_statistics[408111] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234365,6 +234369,10 @@ _G.pg.base.ship_data_statistics[408112] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234435,7 +234443,7 @@ _G.pg.base.ship_data_statistics[408112] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234610,6 +234618,10 @@ _G.pg.base.ship_data_statistics[408113] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234680,7 +234692,7 @@ _G.pg.base.ship_data_statistics[408113] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{
@@ -234855,6 +234867,10 @@ _G.pg.base.ship_data_statistics[408114] = {
 	hunting_range = {
 		{
 			{
+				-2,
+				0
+			},
+			{
 				-1,
 				-3
 			},
@@ -234925,7 +234941,7 @@ _G.pg.base.ship_data_statistics[408114] = {
 		},
 		{
 			{
-				-2,
+				-3,
 				0
 			},
 			{

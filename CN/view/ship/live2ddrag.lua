@@ -1,5 +1,5 @@
 slot0 = class("Live2dDrag")
-slot1 = 6
+slot1 = 4
 
 function slot0.Ctor(slot0, slot1)
 	slot0.frameRate = Application.targetFrameRate or 60
@@ -96,13 +96,18 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 		slot4 = {}
 		slot5 = nil
 		slot6 = false
-		slot7, slot8 = nil
+		slot7, slot8, slot9 = nil
 
 		if slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
 			slot7 = slot0.actionTrigger.target or nil
+
+			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
+				slot7 = slot0.startValue
+			end
+
 			slot8 = slot0.actionTrigger.react or nil
 
 			slot0:triggerAction()
@@ -114,9 +119,9 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 				slot4 = slot0.actionTriggerActive.active_list[slot0.actionListIndex]
 			end
 
-			slot6 = slot9.focus or true
-			slot7 = slot9.target or nil
-			slot8 = slot9.react or nil
+			slot6 = slot10.focus or true
+			slot7 = slot10.target or nil
+			slot8 = slot10.react or nil
 
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
 				slot0:triggerAction()
@@ -129,7 +134,12 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
 			slot7 = slot0.actionTrigger.target or nil
-			slot8 = triggerData.react or nil
+
+			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
+				slot7 = slot0.startValue
+			end
+
+			slot8 = slot0.actionTrigger.react or nil
 
 			slot0:triggerAction()
 			slot0:stopDrag()
