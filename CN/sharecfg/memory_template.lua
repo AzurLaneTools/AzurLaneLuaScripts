@@ -2618,6 +2618,11 @@ pg.memory_template = setmetatable({
 		3031,
 		3032,
 		3033,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
 		10011,
 		10012,
 		10013,
@@ -31453,6 +31458,61 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER3",
 		id = 3033,
 		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3041] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "轰鸣的银轮",
+		condition = "完成「港区时尚特刊：Race Begins！」{namecode:182}的签到",
+		story = "SHISHANGTEKANSAICHE1",
+		id = 3041,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3042] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "迅疾的蓝星",
+		condition = "完成「港区时尚特刊：Race Begins！」巴尔的摩的签到",
+		story = "SHISHANGTEKANSAICHE2",
+		id = 3042,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3043] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Final Lap",
+		condition = "完成「港区时尚特刊：Race Begins！」{namecode:427}的签到",
+		story = "SHISHANGTEKANSAICHE3",
+		id = 3043,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3044] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Wind Catcher",
+		condition = "完成「港区时尚特刊：Race Begins！」企业的签到",
+		story = "SHISHANGTEKANSAICHE4",
+		id = 3044,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3045] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "一骑绝尘",
+		condition = "完成「港区时尚特刊：Race Begins！」{namecode:463}的签到",
+		story = "SHISHANGTEKANSAICHE5",
+		id = 3045,
+		icon = "memory_shishangtekansaiche",
 		is_open = 0
 	},
 	[10011] = {

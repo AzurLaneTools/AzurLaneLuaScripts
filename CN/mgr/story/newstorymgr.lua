@@ -255,14 +255,14 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	table.insert(slot0.playQueue, {
 		slot1,
 		slot2
 	})
 
 	if #slot0.playQueue == 1 then
-		slot6 = nil
+		slot7 = nil
 
 		(function ()
 			if #uv0.playQueue == 0 then
@@ -278,7 +278,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				table.remove(uv1.playQueue, 1)
 				uv2()
-			end, uv2, uv3, uv4)
+			end, uv2, uv3, uv4, uv5)
 		end)()
 	end
 end
@@ -329,7 +329,7 @@ function slot0.PlayForWorld(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slo
 	slot0.optionSelCodes = slot2 or {}
 	slot0.autoPlayFlag = slot6
 
-	slot0:Play(slot1, slot3, slot4, slot5, slot7)
+	slot0:Play(slot1, slot3, slot4, slot5, slot7, true)
 end
 
 function slot0.ForceAutoPlay(slot0, slot1, slot2, slot3, slot4)
@@ -348,24 +348,24 @@ function slot0.ForceManualPlay(slot0, slot1, slot2, slot3, slot4)
 	end, slot3, slot4, true)
 end
 
-function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = {}
+function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = {}
 
-	for slot10, slot11 in ipairs(slot1) do
-		table.insert(slot6, function (slot0)
-			uv0:SoloPlay(uv1, slot0, uv2, uv3, uv4)
+	for slot11, slot12 in ipairs(slot1) do
+		table.insert(slot7, function (slot0)
+			uv0:SoloPlay(uv1, slot0, uv2, uv3, uv4, uv5)
 		end)
 	end
 
-	seriesAsync(slot6, slot2)
+	seriesAsync(slot7, slot2)
 end
 
-function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	uv0("Play Story:", slot1)
 
-	slot6 = 1
+	slot7 = 1
 
-	function slot7(slot0, slot1)
+	function slot8(slot0, slot1)
 		uv0 = uv0 - 1
 
 		if uv1 and uv0 == 0 then
@@ -376,7 +376,7 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	if not uv1(slot1) then
-		slot7(false)
+		slot8(false)
 		uv0("not exist story file")
 
 		return nil
@@ -386,18 +386,18 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot3 = true
 	end
 
-	slot0.storyScript = Story.New(slot8, slot3, slot0.optionSelCodes, slot5)
+	slot0.storyScript = Story.New(slot9, slot3, slot0.optionSelCodes, slot5, slot6)
 
 	if not slot0:CheckState() then
 		uv0("story state error")
-		slot7(false)
+		slot8(false)
 
 		return nil
 	end
 
 	if not slot0.storyScript:CanPlay() then
 		uv0("story cant be played")
-		slot7(false)
+		slot8(false)
 
 		return nil
 	end

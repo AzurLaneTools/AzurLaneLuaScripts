@@ -73554,6 +73554,190 @@ _G.pg.base.aircraft_template[163240] = {
 	}
 }
 
+_G.pg.base.aircraft_template[163271] = {
+	attack_power = 2,
+	name = "普林斯顿META技能鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "tbf",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 163271,
+	icon = "tbf",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1826,
+	speed = 48,
+	max_hp = 53,
+	scale = 1,
+	weapon_ID = {
+		163281
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.52,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163272] = {
+	id = 163272,
+	name = "普林斯顿META技能鱼雷机Lv2",
+	hp_growth = 2036,
+	base = 163271,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163282
+	}
+}
+
+_G.pg.base.aircraft_template[163273] = {
+	id = 163273,
+	name = "普林斯顿META技能鱼雷机Lv3",
+	hp_growth = 2247,
+	base = 163271,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163283
+	}
+}
+
+_G.pg.base.aircraft_template[163274] = {
+	id = 163274,
+	name = "普林斯顿META技能鱼雷机Lv4",
+	hp_growth = 2458,
+	base = 163271,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163284
+	}
+}
+
+_G.pg.base.aircraft_template[163275] = {
+	id = 163275,
+	name = "普林斯顿META技能鱼雷机Lv5",
+	hp_growth = 2669,
+	base = 163271,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163285
+	}
+}
+
+_G.pg.base.aircraft_template[163276] = {
+	id = 163276,
+	name = "普林斯顿META技能鱼雷机Lv6",
+	hp_growth = 2879,
+	base = 163271,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163286
+	}
+}
+
+_G.pg.base.aircraft_template[163277] = {
+	id = 163277,
+	name = "普林斯顿META技能鱼雷机Lv7",
+	hp_growth = 3090,
+	base = 163271,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163287
+	}
+}
+
+_G.pg.base.aircraft_template[163278] = {
+	id = 163278,
+	name = "普林斯顿META技能鱼雷机Lv8",
+	hp_growth = 3301,
+	base = 163271,
+	max_hp = 91,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163288
+	}
+}
+
+_G.pg.base.aircraft_template[163279] = {
+	id = 163279,
+	name = "普林斯顿META技能鱼雷机Lv9",
+	hp_growth = 3511,
+	base = 163271,
+	max_hp = 96,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163289
+	}
+}
+
+_G.pg.base.aircraft_template[163280] = {
+	id = 163280,
+	name = "普林斯顿META技能鱼雷机Lv10",
+	hp_growth = 3641,
+	base = 163271,
+	max_hp = 100,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163290
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
@@ -169784,6 +169968,235 @@ _G.pg.base.aircraft_template[950277] = {
 		},
 		{
 			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[950382] = {
+	attack_power = 2,
+	name = "天秤座战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "F4F",
+	ACC_growth = 0,
+	crash_DMG = 39,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 950382,
+	icon = "F4F",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2686,
+	speed = 33,
+	max_hp = 39,
+	scale = 0.75,
+	weapon_ID = {
+		950385,
+		950386
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.32,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[950383] = {
+	attack_power = 2,
+	name = "天秤座鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "F6F",
+	ACC_growth = 0,
+	crash_DMG = 57,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 950383,
+	icon = "F6F",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3136,
+	speed = 30,
+	max_hp = 42,
+	scale = 0.75,
+	weapon_ID = {
+		950387
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.24,
+				-1.34,
+				0
+			},
+			{
+				1.43,
+				1.6,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[950384] = {
+	attack_power = 2,
+	name = "天秤座地毯轰炸机",
+	type = 3,
+	accuracy = 50,
+	model_ID = "tbd",
+	ACC_growth = 0,
+	crash_DMG = 240,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 950384,
+	icon = "tbd",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 0,
+	speed = 30,
+	max_hp = 1800,
+	scale = 0.75,
+	weapon_ID = {
+		950388
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
 			0,
 			0
 		},

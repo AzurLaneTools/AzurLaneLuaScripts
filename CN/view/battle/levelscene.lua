@@ -823,10 +823,6 @@ function slot0.setEliteQuota(slot0, slot1, slot2)
 	slot5.text = slot3 .. "/" .. slot2
 end
 
-function slot0.updateLastFleet(slot0, slot1)
-	slot0.lastFleetIndex = slot1
-end
-
 function slot0.updateEvent(slot0, slot1)
 	slot2 = slot1:hasFinishState()
 
@@ -1787,7 +1783,7 @@ function slot0.displayFleetSelect(slot0, slot1)
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
-	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, slot0.contextData.selectedFleetIDs or slot1:selectFleets(slot0.lastFleetIndex, slot0.fleets))
+	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, slot0.contextData.selectedFleetIDs or slot1:GetDefaultFleetIndex())
 	slot0.levelFleetView:ActionInvoke("Show")
 end
 

@@ -167,6 +167,7 @@ pg.memory_group = setmetatable({
 		258,
 		259,
 		260,
+		261,
 		501,
 		502,
 		503,
@@ -3947,6 +3948,21 @@ pg.base.memory_group = {
 			3031,
 			3032,
 			3033
+		}
+	},
+	[261] = {
+		id = 261,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5019,
+		title = "港区时尚特刊：Race Begins！",
+		memories = {
+			3041,
+			3042,
+			3043,
+			3044,
+			3045
 		}
 	},
 	[501] = {

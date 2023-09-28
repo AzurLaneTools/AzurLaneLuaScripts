@@ -192,6 +192,11 @@ pg.task_meta_data_template = setmetatable({
 		100113,
 		100114,
 		100115,
+		100121,
+		100122,
+		100123,
+		100124,
+		100125,
 		200001,
 		200002,
 		200003,
@@ -235,7 +240,11 @@ pg.task_meta_data_template = setmetatable({
 		200111,
 		200112,
 		200113,
-		200114
+		200114,
+		200121,
+		200122,
+		200123,
+		200124
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1760,6 +1769,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100121] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META获得1次胜利",
+		id = 100121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100122] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞30的敌方1次",
+		id = 100122,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100123] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞55的敌方1次",
+		id = 100123,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100124] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞80的敌方1次",
+		id = 100124,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100125] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞100的敌方1次",
+		id = 100125,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2109,6 +2158,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用{namecode:293}·META击破等级＞100的敌方1次",
 		id = 200114,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200121] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META获得1次胜利",
+		id = 200121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200122] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞70的敌方1次",
+		id = 200122,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200123] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞90的敌方1次",
+		id = 200123,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200124] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞100的敌方1次",
+		id = 200124,
 		target_num = 1,
 		target_id = "100"
 	}

@@ -56,6 +56,38 @@ function slot0.UpdataHubData(slot0, slot1)
 	slot0.facade:sendNotification(uv0.ON_HUB_DATA_UPDATE, slot3)
 end
 
+function slot0.GetHighScore(slot0, slot1)
+	return slot0:GetHubByGameId(slot1).highScores[slot1] or 0
+end
+
+function slot0.UpdataHighScore(slot0, slot1, slot2)
+	if slot2 > (slot0:GetHubByGameId(slot1).highScores[slot1] or 0) then
+		slot3.highScores[slot1] = slot2
+
+		slot0:UpdataHubData(slot3)
+		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = slot3.id,
+			cmd = MiniGameOPCommand.CMD_HIGH_SCORE,
+			args1 = {
+				slot1,
+				slot2
+			}
+		})
+	end
+end
+
+function slot0.GetRank(slot0, slot1)
+	return slot0:GetMiniGameData(slot1):GetRank()
+end
+
+function slot0.SetRank(slot0, slot1, slot2)
+	slot0:GetMiniGameData(slot1):SetRank(slot2)
+end
+
+function slot0.CanFetchRank(slot0, slot1)
+	return slot0:GetMiniGameData(slot1):CanFetchRank()
+end
+
 function slot0.RequestInitData(slot0, slot1, slot2)
 	slot4 = slot0:GetMiniGameData(slot1):getConfig("request_data") == 1
 

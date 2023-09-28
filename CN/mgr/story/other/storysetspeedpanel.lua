@@ -1,8 +1,11 @@
 slot0 = class("StorySetSpeedPanel")
 slot1 = Color.New(1, 0.8705, 0.4196, 1)
 slot2 = Color.New(1, 1, 1, 1)
+slot3 = 0
+slot4 = 1
+slot5 = 2
 
-function slot3(slot0)
+function slot6(slot0)
 	return ({
 		"0.5",
 		"1",
@@ -11,7 +14,7 @@ function slot3(slot0)
 	})[slot0]
 end
 
-function slot4()
+function slot7()
 	if table.indexof(Story.STORY_AUTO_SPEED, pg.NewStoryMgr.GetInstance():GetPlaySpeed() or 0) <= 0 or slot1 > #Story.STORY_AUTO_SPEED then
 		slot1 = 1
 	end
@@ -24,8 +27,10 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0._tf = slot1
 	slot0.speedBtn = findTF(slot0._tf, "front/btns/btns/speed")
-	slot2 = slot0.speedBtn:Find("Text")
-	slot0.speedImg = slot2:GetComponent(typeof(Image))
+	slot0.speedImg = slot0.speedBtn:Find("Text"):GetComponent(typeof(Image))
+	slot0.speedAnim = slot0.speedBtn:GetComponent(typeof(Animation))
+	slot2 = slot0.speedBtn
+	slot0.speedAniEvent = slot2:GetComponent(typeof(DftAniEvent))
 	slot0.speedPanel = findTF(slot0._tf, "front/speed_panel")
 	slot0.speedList = {
 		slot0.speedPanel:Find("adpter/frame/content/0.5"),
@@ -34,6 +39,8 @@ function slot0.Ctor(slot0, slot1)
 		slot0.speedPanel:Find("adpter/frame/content/10")
 	}
 	slot0.speedPanelImg = slot0.speedPanel:Find("adpter/frame/speed/Text"):GetComponent(typeof(Image))
+	slot0.speedPanelAnim = slot0.speedPanel:GetComponent(typeof(Animation))
+	slot0.speedPanelAniEvent = slot0.speedPanel:GetComponent(typeof(DftAniEvent))
 
 	slot0:Init()
 end
@@ -44,7 +51,11 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 
 	function slot4()
-		uv0:HideSettings()
+		if uv0.speedPanelStatus == uv1 then
+			uv0:ShowSettings()
+		elseif uv0.speedPanelStatus == uv2 then
+			uv0:HideSettings()
+		end
 	end
 
 	slot5 = SFX_PANEL
@@ -57,6 +68,8 @@ function slot0.Init(slot0)
 			uv1:HideSettings()
 		end, SFX_PANEL)
 	end
+
+	slot0.speedPanelStatus = uv1
 end
 
 function slot0.Show(slot0)
@@ -65,11 +78,18 @@ function slot0.Show(slot0)
 	slot0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", uv0())
 
 	slot0.speedImg:SetNativeSize()
+	slot0.speedAniEvent:SetEndEvent(function ()
+		setActive(uv0.speedBtn, false)
+		uv0.speedAniEvent:SetEndEvent(nil)
+	end)
+	slot0.speedAnim:Stop()
+	slot0.speedAnim:Play("anim_newstoryUI_speed_in")
 end
 
 function slot0.Hide(slot0)
-	setActive(slot0.speedBtn, false)
 	slot0:RemoveTimer()
+	slot0.speedAnim:Stop()
+	slot0.speedAnim:Play("anim_newstoryUI_speed_out")
 end
 
 function slot0.ShowSettings(slot0)
@@ -84,6 +104,21 @@ function slot0.ShowSettings(slot0)
 	for slot5, slot6 in ipairs(slot0.speedList) do
 		slot6:Find("Text"):GetComponent(typeof(Image)).color = slot6.name == slot1 and uv1 or uv2
 	end
+
+	slot0.speedPanelAniEvent:SetEndEvent(function ()
+		if uv0.speedPanelStatus == uv1 then
+			setActive(uv0.speedPanel, false)
+			uv0.speedPanelAniEvent:SetEndEvent(nil)
+		elseif uv0.speedPanelStatus == uv2 then
+			-- Nothing
+		end
+
+		uv0.speedPanelStatus = uv2
+	end)
+	slot0.speedPanelAnim:Stop()
+	slot0.speedPanelAnim:Play("anim_newstoryUI_speedpanel_in")
+
+	slot0.speedPanelStatus = uv5
 
 	slot0:AddHideSettingsTimer()
 end
@@ -109,13 +144,18 @@ end
 function slot0.HideSettings(slot0)
 	slot0:RemoveTimer()
 	slot0:Show()
-	setActive(slot0.speedPanel, false)
+	slot0.speedPanelAnim:Stop()
+	slot0.speedPanelAnim:Play("anim_newstoryUI_speedpanel_out")
+
+	slot0.speedPanelStatus = uv0
 end
 
 function slot0.Clear(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.speedBtn, false)
 	setActive(slot0.speedPanel, false)
+	slot0.speedAnim:Stop()
+	slot0.speedPanelAnim:Stop()
 end
 
 function slot0.Dispose(slot0)

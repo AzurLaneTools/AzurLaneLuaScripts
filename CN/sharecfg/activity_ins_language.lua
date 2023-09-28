@@ -4389,7 +4389,32 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_408_1_1",
 		"op_reply_408_1_1",
 		"ins_op_408_1_2",
-		"op_reply_408_1_2"
+		"op_reply_408_1_2",
+		"ins_409",
+		"ins_discuss_409_1",
+		"ins_reply_409_1_1",
+		"ins_reply_409_1_2",
+		"ins_reply_409_1_3",
+		"ins_discuss_409_2",
+		"ins_reply_409_2_1",
+		"ins_op_409_1_1",
+		"op_reply_409_1_1",
+		"ins_op_409_1_2",
+		"op_reply_409_1_2",
+		"ins_410",
+		"ins_discuss_410_1",
+		"ins_reply_410_1_1",
+		"ins_reply_410_1_2",
+		"ins_reply_410_1_3",
+		"ins_discuss_410_2",
+		"ins_reply_410_2_1",
+		"ins_reply_410_2_2",
+		"ins_discuss_410_3",
+		"ins_reply_410_3_1",
+		"ins_op_410_1_1",
+		"op_reply_410_1_1",
+		"ins_op_410_1_2",
+		"op_reply_410_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17556,6 +17581,81 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_408_1_2 = {
+		value = ""
+	},
+	ins_409 = {
+		value = ""
+	},
+	ins_discuss_409_1 = {
+		value = ""
+	},
+	ins_reply_409_1_1 = {
+		value = ""
+	},
+	ins_reply_409_1_2 = {
+		value = ""
+	},
+	ins_reply_409_1_3 = {
+		value = ""
+	},
+	ins_discuss_409_2 = {
+		value = ""
+	},
+	ins_reply_409_2_1 = {
+		value = ""
+	},
+	ins_op_409_1_1 = {
+		value = ""
+	},
+	op_reply_409_1_1 = {
+		value = ""
+	},
+	ins_op_409_1_2 = {
+		value = ""
+	},
+	op_reply_409_1_2 = {
+		value = ""
+	},
+	ins_410 = {
+		value = ""
+	},
+	ins_discuss_410_1 = {
+		value = ""
+	},
+	ins_reply_410_1_1 = {
+		value = ""
+	},
+	ins_reply_410_1_2 = {
+		value = ""
+	},
+	ins_reply_410_1_3 = {
+		value = ""
+	},
+	ins_discuss_410_2 = {
+		value = ""
+	},
+	ins_reply_410_2_1 = {
+		value = ""
+	},
+	ins_reply_410_2_2 = {
+		value = ""
+	},
+	ins_discuss_410_3 = {
+		value = ""
+	},
+	ins_reply_410_3_1 = {
+		value = ""
+	},
+	ins_op_410_1_1 = {
+		value = ""
+	},
+	op_reply_410_1_1 = {
+		value = ""
+	},
+	ins_op_410_1_2 = {
+		value = ""
+	},
+	op_reply_410_1_2 = {
 		value = ""
 	}
 }

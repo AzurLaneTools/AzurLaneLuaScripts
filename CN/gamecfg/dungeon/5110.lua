@@ -1,6 +1,6 @@
 return {
 	map_id = 10001,
-	id = 5109,
+	id = 5110,
 	stages = {
 		{
 			stageIndex = 1,

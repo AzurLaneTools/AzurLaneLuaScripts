@@ -198,212 +198,62 @@ pg.furniture_shop_template = {
 	[200003] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200003,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2021,
-					12,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200001] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200001,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200002] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200002,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200004] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200004,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					9,
-					0,
-					0
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200005] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200005,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					9,
-					0,
-					0
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[200006] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		time = "stop",
 		dorm_icon_price = 0,
 		id = 200006,
+		new = 1,
 		discount = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					9,
-					0,
-					0
-				}
-			}
-		}
+		discount_time = ""
 	},
 	[1001] = {
 		not_for_sale = 0,

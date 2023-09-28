@@ -1,5 +1,128 @@
 pg = pg or {}
 pg.enemy_data_statistics_228 = {
+	[14204202] = {
+		cannon = 82,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 1600,
+		rarity = 3,
+		air = 0,
+		torpedo = 75,
+		dodge = 12,
+		durability_growth = 249600,
+		antiaircraft = 155,
+		luck = 15,
+		reload_growth = 0,
+		dodge_growth = 170,
+		hit_growth = 210,
+		star = 4,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		base = 90476,
+		durability = 12040,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		luck_growth = 0,
+		speed = 20,
+		armor = 0,
+		id = 14204202,
+		antiaircraft_growth = 3200,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1100028,
+			724003,
+			724004,
+			1100563,
+			1100353
+		}
+	},
+	[14204203] = {
+		cannon = 135,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 3,
+		air = 210,
+		torpedo = 0,
+		dodge = 11,
+		durability_growth = 312000,
+		antiaircraft = 260,
+		luck = 15,
+		reload_growth = 0,
+		dodge_growth = 156,
+		hit_growth = 210,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3500,
+		battle_unit_type = 90,
+		base = 90477,
+		durability = 17240,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 20,
+		armor = 0,
+		id = 14204203,
+		antiaircraft_growth = 3200,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1100028,
+			1100313,
+			724005,
+			729024,
+			729029
+		}
+	},
+	[14204301] = {
+		cannon = 200,
+		hit_growth = 270,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 0,
+		speed = 20,
+		dodge = 18,
+		id = 14204301,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 312,
+		luck = 18,
+		star = 4,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 120,
+		base = 90476,
+		durability = 32100,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 225,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"juguangdeng_xingguang_BOSS"
+		},
+		equipment_list = {
+			724101
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[14204302] = {
 		cannon = 100,
 		reload = 150,
@@ -1026,284 +1149,5 @@ pg.enemy_data_statistics_228 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
-	},
-	[14300004] = {
-		cannon = 0,
-		name = "G·S·F空战狙击模块",
-		type = 15,
-		speed_growth = 0,
-		battle_unit_type = 50,
-		air = 0,
-		air_growth = 0,
-		durability = 5000,
-		friendly_cld = 1,
-		armor = 0,
-		id = 14300004,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "sairenfuyoupao2",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "",
-		prefab = "sairenfuyoupao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			4,
-			10,
-			10
-		},
-		cld_offset = {
-			-5,
-			0,
-			-5
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			plane_shadow = 1.5
-		},
-		appear_fx = {
-			"appearsmall",
-			"plane_shadow"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			3
-		},
-		equipment_list = {
-			730021,
-			730022
-		},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[14300005] = {
-		cannon = 0,
-		name = "G·S·F空战狙击模块",
-		type = 15,
-		speed_growth = 0,
-		battle_unit_type = 50,
-		air = 0,
-		air_growth = 0,
-		durability = 5000,
-		friendly_cld = 1,
-		armor = 0,
-		id = 14300005,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "sairenfuyoupao2",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "",
-		prefab = "sairenfuyoupao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			4,
-			10,
-			10
-		},
-		cld_offset = {
-			-5,
-			0,
-			-5
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			plane_shadow = 1.5
-		},
-		appear_fx = {
-			"appearsmall",
-			"plane_shadow"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			3
-		},
-		equipment_list = {
-			730023,
-			730022
-		},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[14400001] = {
-		cannon = 5,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		battle_unit_type = 25,
-		dodge = 0,
-		base = 90488,
-		durability_growth = 4000,
-		antiaircraft = 25,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 800,
-		torpedo = 27,
-		durability = 105,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 14400001,
-		equipment_list = {
-			1100100,
-			1100495
-		}
 	}
 }

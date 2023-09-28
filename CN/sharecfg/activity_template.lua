@@ -10284,6 +10284,158 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5019] = {
+		mark = 20230928,
+		id = 5019,
+		title_res_tag = "skin_magazine3",
+		type = 86,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 48,
+		config_data = {
+			19312,
+			19313,
+			19314,
+			19315,
+			19316
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazinePage3",
+			ui_name = "SkinMagazinePage3"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANSAICHE5"
+				},
+				{
+					"SHISHANGTEKANSAICHE1"
+				},
+				{
+					"SHISHANGTEKANSAICHE2"
+				},
+				{
+					"SHISHANGTEKANSAICHE3"
+				},
+				{
+					"SHISHANGTEKANSAICHE4"
+				}
+			}
+		}
+	},
+	[5020] = {
+		mark = 20230928,
+		id = 5020,
+		title_res_tag = "racing",
+		type = 57,
+		login_pop = 0,
+		config_id = 49,
+		is_show = 48,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RacePage",
+			ui_name = "RacePage"
+		},
+		config_client = {
+			gameid = 58
+		}
+	},
+	[5021] = {
+		mark = 20230928,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5021,
+		config_data = {
+			409,
+			410
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		title_res_tag = "CrusingDisplayAct",
@@ -10893,6 +11045,88 @@ pg.activity_template = {
 				{
 					9,
 					2046,
+					1
+				}
+			}
+		}
+	},
+	[7013] = {
+		mark = 20230928,
+		id = 7013,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage13"
+		},
+		config_client = {
+			map_name = "map_202310",
+			spine_name = "chess_u410",
+			tips = {
+				"battlepass_main_tip_2310",
+				"battlepass_main_help_2310",
+				"cruise_task_help_2310"
+			},
+			equip_skin = {
+				{
+					9,
+					2049,
+					1
+				},
+				{
+					9,
+					2050,
+					1
+				},
+				{
+					9,
+					2051,
+					1
+				},
+				{
+					9,
+					2052,
 					1
 				}
 			}
@@ -15950,6 +16184,9 @@ pg.activity_template = {
 		5016,
 		5017,
 		5018,
+		5019,
+		5020,
+		5021,
 		7001,
 		7002,
 		7003,
@@ -15962,6 +16199,7 @@ pg.activity_template = {
 		7010,
 		7011,
 		7012,
+		7013,
 		7101,
 		8001,
 		8002,

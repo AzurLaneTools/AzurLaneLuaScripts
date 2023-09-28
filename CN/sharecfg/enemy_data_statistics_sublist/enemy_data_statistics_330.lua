@@ -1,5 +1,157 @@
 pg = pg or {}
 pg.enemy_data_statistics_330 = {
+	[16409303] = {
+		cannon = 26,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 720,
+		battle_unit_type = 55,
+		air = 0,
+		base = 90282,
+		dodge = 20,
+		durability_growth = 30400,
+		antiaircraft = 120,
+		speed = 25,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck = 0,
+		antiaircraft_growth = 2200,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 29,
+		durability = 6200,
+		armor_growth = 0,
+		torpedo_growth = 1000,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		antisub = 0,
+		id = 16409303,
+		equipment_list = {
+			618314,
+			618315,
+			618316,
+			618317
+		}
+	},
+	[16409304] = {
+		cannon = 198,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		battle_unit_type = 95,
+		dodge = 46,
+		base = 90739,
+		durability_growth = 0,
+		antiaircraft = 300,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 27,
+		luck = 30,
+		hit = 29,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 0,
+		durability = 90000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 330,
+		armor = 0,
+		id = 16409304,
+		fog_fx = "",
+		antisub = 0,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
+	[16409401] = {
+		cannon = 208,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		battle_unit_type = 95,
+		dodge = 64,
+		base = 90739,
+		durability_growth = 0,
+		antiaircraft = 340,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 27,
+		luck = 50,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 0,
+		durability = 550000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 400,
+		armor = 0,
+		id = 16409401,
+		fog_fx = "",
+		antisub = 0,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16500001] = {
 		cannon = 5,
 		reload = 150,
@@ -817,137 +969,6 @@ pg.enemy_data_statistics_330 = {
 		},
 		equipment_list = {
 			1000865
-		}
-	},
-	[16500027] = {
-		cannon = 5,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 10002,
-		air = 0,
-		battle_unit_type = 65,
-		dodge = 0,
-		base = 90129,
-		durability_growth = 3800,
-		antiaircraft = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 14,
-		luck = 0,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 24,
-		durability = 120,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		luck_growth = 0,
-		hit_growth = 120,
-		armor = 0,
-		id = 16500027,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1100695,
-			1100710
-		}
-	},
-	[16500101] = {
-		cannon = 6,
-		name = "霞飞统御武装-「漫游」",
-		type = 1,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 15,
-		speed = 36,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 222,
-		antiaircraft_growth = 1638,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 468,
-		base = 90648,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		antiaircraft = 20,
-		hit_growth = 210,
-		armor = 0,
-		durability = 510,
-		torpedo = 54,
-		id = 16500101,
-		durability_growth = 18800,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100020,
-			1100395,
-			1100505
-		}
-	},
-	[16500102] = {
-		cannon = 20,
-		name = "霞飞统御武装-「铁卫」",
-		type = 2,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 11,
-		speed = 25,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 162,
-		antiaircraft_growth = 3744,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 936,
-		base = 90648,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		antiaircraft = 28,
-		hit_growth = 210,
-		armor = 0,
-		durability = 630,
-		torpedo = 27,
-		id = 16500102,
-		durability_growth = 23120,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100025,
-			1100105,
-			1100190,
-			1100475
 		}
 	}
 }

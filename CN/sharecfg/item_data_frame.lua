@@ -522,6 +522,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>在炎炎夏日中，一起挥洒汗水的证明</color>\n通过参与「夏日签到」获取（23.08.03 – 23.08.17）",
 		scene = {}
 	},
+	[605] = {
+		time_limit_type = 0,
+		name = "疾速之证",
+		gain_by = "",
+		id = 605,
+		time_second = 0,
+		desc = "<color=#ffffff>以极速越过终点，取得比赛胜利的证明</color>\n通过参与「疾速赛道」活动获取",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "限界的挑战者·双子座",
@@ -556,6 +565,15 @@ pg.item_data_frame = {
 		id = 10004,
 		time_second = 0,
 		desc = "<color=#ffffff>结晶之中闪烁着处女座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.09.01-23.09.30）",
+		scene = {}
+	},
+	[10005] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·天秤座",
+		gain_by = "",
+		id = 10005,
+		time_second = 0,
+		desc = "<color=#ffffff>结晶之中闪烁着天秤座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.10.01-23.10.31）",
 		scene = {}
 	},
 	all = {
@@ -617,9 +635,11 @@ pg.item_data_frame = {
 		602,
 		603,
 		604,
+		605,
 		10001,
 		10002,
 		10003,
-		10004
+		10004,
+		10005
 	}
 }

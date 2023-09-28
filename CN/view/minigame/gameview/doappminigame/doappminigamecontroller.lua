@@ -17,6 +17,36 @@ function slot0.InitTimer(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimer(DOAPPGameConfig.TIME_INTERVAL)
 	end, DOAPPGameConfig.TIME_INTERVAL, -1)
+
+	if IsUnityEditor and not slot0.handle then
+		slot0.handle = UpdateBeat:CreateListener(slot0.AddDebugInput, slot0)
+
+		UpdateBeat:AddListener(slot0.handle)
+	end
+end
+
+function slot0.AddDebugInput(slot0)
+	slot1 = {
+		"E",
+		"S",
+		"W",
+		"N"
+	}
+
+	for slot6, slot7 in ipairs({
+		"D",
+		"S",
+		"A",
+		"W"
+	}) do
+		if Input.GetKeyDown(KeyCode[slot7]) then
+			slot0.cacheInput = slot1[slot6]
+		end
+
+		if Input.GetKeyUp(KeyCode[slot7]) and slot0.cacheInput == slot1[slot6] then
+			slot0.cacheInput = nil
+		end
+	end
 end
 
 slot2 = {
@@ -501,6 +531,12 @@ function slot0.OnTimer(slot0, slot1)
 				slot2(slot4:GetChild(slot9 - 1), (slot9 - slot5) * DOAPPGameConfig.BG_DISTANCE)
 			end
 		end
+	end
+end
+
+function slot0.willExit(slot0)
+	if slot0.handle then
+		UpdateBeat:RemoveListener(slot0.handle)
 	end
 end
 

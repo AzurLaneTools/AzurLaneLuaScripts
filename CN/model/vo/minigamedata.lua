@@ -9,6 +9,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.configCsvKey = slot0:getConfig("config_csv_key")
 	slot0.runtimeData = {}
 	slot0.exData = nil
+	slot0.rank = {}
+	slot0._rankCd = 0
 end
 
 function slot0.bindConfigTable(slot0)
@@ -41,6 +43,19 @@ function slot0.CheckInTime(slot0)
 	else
 		return false
 	end
+end
+
+function slot0.GetRank(slot0)
+	return slot0.rank
+end
+
+function slot0.SetRank(slot0, slot1)
+	slot0._rankCd = GetHalfHour()
+	slot0.rank = slot1
+end
+
+function slot0.CanFetchRank(slot0)
+	return slot0._rankCd < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 return slot0

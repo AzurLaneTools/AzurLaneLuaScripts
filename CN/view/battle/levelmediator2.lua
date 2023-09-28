@@ -47,8 +47,6 @@ slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 slot0.ON_SPITEM_CHANGED = "LevelMediator2:ON_SPITEM_CHANGED"
 
 function slot0.register(slot0)
-	slot1 = getProxy(PlayerProxy)
-
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
 			chapterId = slot1,
@@ -475,12 +473,11 @@ function slot0.register(slot0)
 		end), slot2, slot3)
 	end)
 
-	slot0.player = slot1:getData()
+	slot0.player = getProxy(PlayerProxy):getData()
 
 	slot0.viewComponent:updateRes(slot0.player)
-	slot0.viewComponent:updateLastFleet(slot1:getFlag("lastFleetIndex"))
 	slot0.viewComponent:updateEvent(getProxy(EventProxy))
-	slot0.viewComponent:updateFleet(getProxy(FleetProxy):getData())
+	slot0.viewComponent:updateFleet(getProxy(FleetProxy):GetRegularFleets())
 	slot0.viewComponent:setShips(getProxy(BayProxy):getRawData())
 	slot0.viewComponent:updateVoteBookBtn(getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
@@ -542,17 +539,16 @@ end
 
 function slot0.RegisterTrackEvent(slot0)
 	slot0:bind(uv0.ON_TRACKING, function (slot0, slot1, slot2, slot3, slot4, slot5)
-		slot6 = getProxy(PlayerProxy):getFlag("lastFleetIndex")
+		slot6 = getProxy(ChapterProxy):getChapterById(slot1, true)
 
 		uv0:sendNotification(GAME.TRACKING, {
 			chapterId = slot1,
-			fleetIds = slot6,
+			fleetIds = getProxy(ChapterProxy):GetLastFleetIndex(),
 			loopFlag = slot2,
 			operationItem = slot3,
 			duties = slot4,
 			autoFightFlag = slot5
 		})
-		uv0.viewComponent:updateLastFleet(slot6)
 	end)
 	slot0:bind(uv0.ON_ELITE_TRACKING, function (slot0, slot1, slot2, slot3, slot4, slot5)
 		uv0:sendNotification(GAME.TRACKING, {
@@ -1112,7 +1108,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 			slot0.viewComponent:updateCommanderPrefab()
 		elseif slot2 == GAME.COOMMANDER_EQUIP_TO_FLEET_DONE then
-			slot0.viewComponent:updateFleet(getProxy(FleetProxy):getData())
+			slot0.viewComponent:updateFleet(getProxy(FleetProxy):GetRegularFleets())
 			slot0.viewComponent:updateFleetSelect()
 		elseif slot2 == GAME.SUBMIT_TASK_DONE then
 			if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
@@ -1156,8 +1152,6 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.cachedStoryAwards = nil
 			end
 		elseif slot2 == LevelUIConst.CONTINUOUS_OPERATION then
-			slot0.waitingTracking = true
-
 			slot0.viewComponent:emit(LevelUIConst.CONTINUOUS_OPERATION, slot3)
 		elseif slot2 == GAME.TRACKING_ERROR then
 			if slot0.waitingTracking then
@@ -1328,20 +1322,20 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 				slot4:MergeDrops(slot3, slot2)
 				slot4:MergeEvents(uv2.ListEventNotify, uv2.ListGuildEventNotify, uv2.ListGuildEventAutoReceiveNotify)
 
-				if slot4:IsActive() then
+				if uv3 then
 					slot4:ConsumeBattleTime()
+				end
 
-					if slot4:GetRestBattleTime() > 0 then
-						uv0.waitingTracking = true
+				if slot4:IsActive() and slot4:GetRestBattleTime() > 0 then
+					uv0.waitingTracking = true
 
-						uv0.viewComponent:emit(uv1.ON_RETRACKING, uv3, slot1)
+					uv0.viewComponent:emit(uv1.ON_RETRACKING, uv4, slot1)
 
-						return
-					end
+					return
 				end
 
 				getProxy(ChapterProxy):PopContinuousData(SYSTEM_SCENARIO)
-				uv0:DisplayContinuousOperationResult(uv3, slot4)
+				uv0:DisplayContinuousOperationResult(uv4, slot4)
 				slot0()
 
 				return
@@ -1367,7 +1361,7 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 				data = {
 					title = slot6,
 					subTitle = slot7,
-					chapter = uv3,
+					chapter = uv4,
 					onClose = slot0,
 					rewards = slot3,
 					resultRewards = slot2,

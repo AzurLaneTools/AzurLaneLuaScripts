@@ -21005,6 +21005,83 @@ _G.pg.base.gametip.cruise_task_help_2308 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2310 = {
+	tip = "10/1-11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「普林斯顿·META」</color>在内的丰富奖励"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2310 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2023.10.1-2023.11.30)
+
+·<color=#92fc63>开放时间</color>
+    2023.10.1 0点 ~ 2023.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「普林斯顿·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>优斯伊丽换装「悠然应援练习</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2310 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2023.9.30 0点 ~ 2023.11.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -23462,7 +23539,7 @@ _G.pg.base.gametip.multiple_sorties_main_tip = {
 }
 
 _G.pg.base.gametip.multiple_sorties_main_end = {
-	tip = "计划连续作战<color=#92fc63>$1</color>次，实际完成连续作战<color=#92fc63>$2</color>次。"
+	tip = "计划连续作战<color=#92fc63>$1</color>次，实际完成作战<color=#92fc63>$2</color>次。"
 }
 
 _G.pg.base.gametip.multiple_sorties_rest_time = {
@@ -25202,4 +25279,52 @@ _G.pg.base.gametip.luckybag_skin_islive2d = {
 
 _G.pg.base.gametip.SkinMagazinePage2_tip = {
 	tip = "点击签到"
+}
+
+_G.pg.base.gametip.racing_cost = {
+	tip = "累计\n消耗"
+}
+
+_G.pg.base.gametip.racing_rank_top_text = {
+	tip = "好友排行"
+}
+
+_G.pg.base.gametip.racing_rank_half_h = {
+	tip = "*每半个小时更新"
+}
+
+_G.pg.base.gametip.racing_rank_no_data = {
+	tip = "暂 无 相 关 数 据"
+}
+
+_G.pg.base.gametip.racing_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/racing2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/racing2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

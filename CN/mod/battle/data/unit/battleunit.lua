@@ -937,7 +937,6 @@ end
 function slot9.AddBuff(slot0, slot1, slot2)
 	slot3 = slot1:GetID()
 
-	print(slot3, pg.TimeMgr.GetInstance():GetCombatTime())
 	slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, {
 		unit_id = slot0._uniqueID,
 		buff_id = slot3

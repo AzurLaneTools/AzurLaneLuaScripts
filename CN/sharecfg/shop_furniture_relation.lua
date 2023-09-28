@@ -6,12 +6,10 @@ pg.shop_furniture_relation = setmetatable({
 			70626
 		},
 		[200001] = {
-			70633,
-			70796
+			70633
 		},
 		[200002] = {
-			70629,
-			70794
+			70629
 		},
 		[200004] = {
 			70671
@@ -29,9 +27,7 @@ pg.shop_furniture_relation = setmetatable({
 		70629,
 		70671,
 		70700,
-		70715,
-		70796,
-		70794
+		70715
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -122,31 +118,6 @@ pg.base.shop_furniture_relation = {
 			{
 				-54,
 				-20
-			}
-		}
-	},
-	[70796] = {
-		fur_id = 200001,
-		id = 70796,
-		desc = "奥古斯特·冯·帕塞瓦尔——女仆魔女",
-		scale = {
-			1.1,
-			1.1
-		},
-		position = {}
-	},
-	[70794] = {
-		fur_id = 200002,
-		id = 70794,
-		desc = "阿达尔伯特亲王——闭店后的特别时光",
-		scale = {
-			0.75,
-			0.75
-		},
-		position = {
-			[2] = {
-				-39,
-				-24
 			}
 		}
 	}

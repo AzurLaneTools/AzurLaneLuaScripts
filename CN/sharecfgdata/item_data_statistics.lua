@@ -10677,6 +10677,29 @@ _G.pg.base.item_data_statistics[21025] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21026] = {
+	display = "普林斯顿·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：普林斯顿·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21026",
+	id = 21026,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -18469,6 +18492,50 @@ _G.pg.base.item_data_statistics[30415] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30416] = {
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	name = "外观装备箱(世界巡游)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30416,
+	display_icon = {
+		{
+			9,
+			2049,
+			1
+		},
+		{
+			9,
+			2050,
+			1
+		},
+		{
+			9,
+			2051,
+			1
+		},
+		{
+			9,
+			2052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用后可从「炎炎夏日」主题外观装备中任意选择一种获得1个",
 	name = "定向外观装备箱(夏末)",
@@ -21726,6 +21793,120 @@ _G.pg.base.item_data_statistics[30529] = {
 		{
 			9,
 			847,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30530] = {
+	display = "使用后可从「2021春节」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(2021春节)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunjiezixuan",
+	id = 30530,
+	display_icon = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
 			1
 		}
 	},
@@ -185335,7 +185516,7 @@ _G.pg.base.item_data_statistics[58695] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -186707,7 +186888,7 @@ _G.pg.base.item_data_statistics[58713] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -213815,6 +213996,52 @@ _G.pg.base.item_data_statistics[59492] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59492,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59493] = {
+	display = "参与「世界巡游」(2023.10.1~2023.11.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	name = "巡游点数",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59493,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59494] = {
+	display = "不该被看到",
+	name = "通行证十三期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7013,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59494,
 	display_icon = {},
 	price = {},
 	index = {},
