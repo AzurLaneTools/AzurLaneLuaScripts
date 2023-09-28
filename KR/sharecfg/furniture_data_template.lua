@@ -128,6 +128,7 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
 			100002,
 			100003,
 			100004,
@@ -4897,6 +4898,7 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
 			100002,
 			100003,
 			100004,
@@ -5810,6 +5812,7 @@ pg.furniture_data_template = setmetatable({
 			257,
 			258,
 			259,
+			260,
 			100002,
 			100004,
 			100005,
@@ -8478,6 +8481,7 @@ pg.furniture_data_template = setmetatable({
 		257,
 		258,
 		259,
+		260,
 		100002,
 		100003,
 		100004,
@@ -17062,6 +17066,73 @@ pg.base.furniture_data_template = {
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[260] = {
+		spine_extra = "",
+		describe = "꿈에서 토끼가 월병을 선물해 줄 수도!?",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "문 케이크 토끼 침대",
+		themeId = 0,
+		icon = "yuebingshuichuangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 260,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingshuichuang",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
 			1
 		},
 		interAction_group = {}
