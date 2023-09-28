@@ -405,6 +405,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>盡情享受無人島上的美好風光吧~！ </color>\n通過參與海島限定活動獲取",
 		scene = {}
 	},
+	[605] = {
+		time_limit_type = 0,
+		name = "疾速之證",
+		gain_by = "",
+		id = 605,
+		time_second = 0,
+		desc = "<color=#ffffff>以極速越過終點，取得比賽勝利的證明</color>\n透過參與「疾速賽道」活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -460,6 +469,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		605,
 		1001
 	}
 }

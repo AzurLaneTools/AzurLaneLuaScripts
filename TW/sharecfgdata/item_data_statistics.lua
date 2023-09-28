@@ -9865,6 +9865,29 @@ _G.pg.base.item_data_statistics[21020] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21022] = {
+	display = "女灶神·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：女灶神·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21022",
+	id = 21022,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用於提升艦裝火炮性能的稀有材料，可在「META研究室」-「艦裝強化」中使用。",
 	name = "結晶化熱強鋼",
@@ -11223,6 +11246,75 @@ _G.pg.base.item_data_statistics[30203] = {
 		{
 			3,
 			48040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30204] = {
+	display = "使用後可從以下指定<color=#ffde38>裝備</color>中任意選擇一個獲得",
+	name = "定向裝備箱·裝備支援",
+	max_num = 0,
+	type = 16,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30204",
+	id = 30204,
+	display_icon = {
+		{
+			3,
+			5240,
+			1
+		},
+		{
+			3,
+			11240,
+			1
+		},
+		{
+			3,
+			17340,
+			1
+		},
+		{
+			3,
+			24340,
+			1
+		},
+		{
+			3,
+			29200,
+			1
+		},
+		{
+			3,
+			32240,
+			1
+		},
+		{
+			3,
+			38240,
+			1
+		},
+		{
+			3,
+			43040,
+			1
+		},
+		{
+			3,
+			46340,
 			1
 		}
 	},
@@ -16137,6 +16229,50 @@ _G.pg.base.item_data_statistics[30412] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30413] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30413,
+	display_icon = {
+		{
+			9,
+			2039,
+			1
+		},
+		{
+			9,
+			2040,
+			1
+		},
+		{
+			9,
+			2041,
+			1
+		},
+		{
+			9,
+			2042,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -17823,6 +17959,120 @@ _G.pg.base.item_data_statistics[30522] = {
 		{
 			9,
 			767,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30523] = {
+	display = "使用後可從「重櫻匠心」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(重櫻)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchongyingzixuan",
+	id = 30523,
+	display_icon = {
+		{
+			9,
+			300,
+			1
+		},
+		{
+			9,
+			301,
+			1
+		},
+		{
+			9,
+			302,
+			1
+		},
+		{
+			9,
+			303,
+			1
+		},
+		{
+			9,
+			304,
+			1
+		},
+		{
+			9,
+			305,
+			1
+		},
+		{
+			9,
+			306,
+			1
+		},
+		{
+			9,
+			307,
+			1
+		},
+		{
+			9,
+			308,
+			1
+		},
+		{
+			9,
+			309,
+			1
+		},
+		{
+			9,
+			310,
+			1
+		},
+		{
+			9,
+			311,
+			1
+		},
+		{
+			9,
+			312,
+			1
+		},
+		{
+			9,
+			313,
+			1
+		},
+		{
+			9,
+			314,
+			1
+		},
+		{
+			9,
+			315,
+			1
+		},
+		{
+			9,
+			316,
+			1
+		},
+		{
+			9,
+			317,
 			1
 		}
 	},
@@ -157065,7 +157315,7 @@ _G.pg.base.item_data_statistics[58695] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -158442,7 +158692,7 @@ _G.pg.base.item_data_statistics[58713] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -167118,6 +167368,52 @@ _G.pg.base.item_data_statistics[59451] = {
 	is_world = 0,
 	icon = "Props/tanxianxukezheng",
 	id = 59451,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59455] = {
+	display = "參與「世界巡遊」(2023.10.1~2023.11.30)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59455,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59456] = {
+	display = "不该被看到",
+	name = "通行證十一期對應虛擬道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7011,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59456,
 	display_icon = {},
 	price = {},
 	index = {},

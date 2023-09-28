@@ -2726,7 +2726,18 @@ function temp()
 	uv0["女"] = {
 		["灶"] = {
 			["神"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["將"] = {

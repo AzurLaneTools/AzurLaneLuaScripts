@@ -52,7 +52,13 @@ function this.ClearBg(slot0, slot1)
 		if slot0.cache[slot5].uiName == slot1 then
 			slot7 = "ui/star_level_bg_" .. slot6.bgName
 
-			if slot6.dyBg:GetComponent(typeof(CriManaEffectUI)) then
+			if IsNil(slot6.dyBg) then
+				table.remove(slot0.cache, slot5)
+
+				return
+			end
+
+			if slot8:GetComponent(typeof(CriManaEffectUI)) then
 				slot9:Pause(true)
 			end
 

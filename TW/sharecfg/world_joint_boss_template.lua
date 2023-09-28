@@ -59,12 +59,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "always",
 		name = "海倫娜·META",
 		painting = "hailunna",
 		boss_level_id = 31,
 		id = 3,
 		meta_id = 970201,
+		item_id = 100000,
 		description = {
 			{
 				"雷達掃描·Hacking",
@@ -75,32 +76,6 @@ pg.world_joint_boss_template = {
 				"「零」象限展開-5%",
 				1,
 				"戰鬥中釋放某種影響整個海域狀態的的特殊領域，使敵我雙方同時受到傷害加深效果影響。"
-			}
-		},
-		state = {
-			{
-				{
-					2022,
-					5,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {

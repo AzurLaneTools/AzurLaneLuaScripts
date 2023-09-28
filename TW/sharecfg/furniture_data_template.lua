@@ -120,6 +120,8 @@ pg.furniture_data_template = setmetatable({
 			245,
 			251,
 			258,
+			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -145,6 +147,7 @@ pg.furniture_data_template = setmetatable({
 			100025,
 			100026,
 			100027,
+			100028,
 			200001,
 			200002,
 			200003,
@@ -4299,6 +4302,8 @@ pg.furniture_data_template = setmetatable({
 			245,
 			251,
 			258,
+			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -4324,6 +4329,7 @@ pg.furniture_data_template = setmetatable({
 			100025,
 			100026,
 			100027,
+			100028,
 			54104,
 			54105
 		},
@@ -5083,6 +5089,8 @@ pg.furniture_data_template = setmetatable({
 			239,
 			245,
 			258,
+			260,
+			263,
 			100002,
 			100004,
 			100005,
@@ -5101,7 +5109,8 @@ pg.furniture_data_template = setmetatable({
 			100024,
 			100025,
 			100026,
-			100027
+			100027,
+			100028
 		},
 		[2] = {
 			120,
@@ -7411,6 +7420,8 @@ pg.furniture_data_template = setmetatable({
 		245,
 		251,
 		258,
+		260,
+		263,
 		100002,
 		100003,
 		100004,
@@ -7436,6 +7447,7 @@ pg.furniture_data_template = setmetatable({
 		100025,
 		100026,
 		100027,
+		100028,
 		200001,
 		200002,
 		200003,
@@ -15273,6 +15285,116 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[260] = {
+		spine_extra = "",
+		describe = "夢裡也許會有玉兔送來月餅！？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "桂兔美夢床",
+		themeId = 0,
+		icon = "yuebingshuichuangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 260,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingshuichuang",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[263] = {
+		spine_extra = "",
+		describe = "馳騁賽場獲得勝利的證明，巨大的獎盃象徵著榮譽與實力。",
+		gain_by = "疾速赛道",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "saichangjiangbeiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "勝利獎盃",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 263,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"saichangjiangbei",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "飛高高～飛高高～…唔！？太高了太高了！！QAQ",
@@ -17108,6 +17230,58 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100028] = {
+		spine_extra = "",
+		describe = "夏夜的點點微光，宛若降落人間的漫天星辰。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "boliguanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "螢火之森",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100028,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguan",
+				"normal",
+				{
+					"open",
+					true,
+					nil,
+					nil,
+					nil,
+					"action",
+					"bg2"
+				}
+			}
 		},
 		interAction_group = {}
 	},

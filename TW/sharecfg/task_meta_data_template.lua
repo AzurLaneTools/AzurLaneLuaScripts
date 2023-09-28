@@ -192,6 +192,11 @@ pg.task_meta_data_template = setmetatable({
 		100113,
 		100114,
 		100115,
+		100121,
+		100122,
+		100123,
+		100124,
+		100125,
 		200001,
 		200002,
 		200003,
@@ -235,7 +240,11 @@ pg.task_meta_data_template = setmetatable({
 		200111,
 		200112,
 		200113,
-		200114
+		200114,
+		200121,
+		200122,
+		200123,
+		200124
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1603,7 +1612,7 @@ pg.base.task_meta_data_template = {
 	[100081] = {
 		target_id_2 = "971201",
 		sub_type = 180,
-		desc = "使用女灶神.META获得1次胜利",
+		desc = "使用女灶神.META獲得1次勝利",
 		id = 100081,
 		target_num = 1,
 		target_id = "0"
@@ -1611,7 +1620,7 @@ pg.base.task_meta_data_template = {
 	[100082] = {
 		target_id_2 = "971201",
 		sub_type = 180,
-		desc = "使用女灶神.META击破等级>30的敌方1次",
+		desc = "使用女灶神.META擊破等級>30的敵方1次",
 		id = 100082,
 		target_num = 1,
 		target_id = "30"
@@ -1619,7 +1628,7 @@ pg.base.task_meta_data_template = {
 	[100083] = {
 		target_id_2 = "971201",
 		sub_type = 180,
-		desc = "使用女灶神.META击破等级>55的敌方1次",
+		desc = "使用女灶神.META擊破等級>55的敵方1次",
 		id = 100083,
 		target_num = 1,
 		target_id = "55"
@@ -1627,7 +1636,7 @@ pg.base.task_meta_data_template = {
 	[100084] = {
 		target_id_2 = "971201",
 		sub_type = 180,
-		desc = "使用女灶神.META击破等级>80的敌方1次",
+		desc = "使用女灶神.META擊破等級>80的敵方1次",
 		id = 100084,
 		target_num = 1,
 		target_id = "80"
@@ -1635,7 +1644,7 @@ pg.base.task_meta_data_template = {
 	[100085] = {
 		target_id_2 = "971201",
 		sub_type = 180,
-		desc = "使用女灶神.META击破等级>100的敌方1次",
+		desc = "使用女灶神.META擊破等級>100的敵方1次",
 		id = 100085,
 		target_num = 1,
 		target_id = "100"
@@ -1757,6 +1766,46 @@ pg.base.task_meta_data_template = {
 		sub_type = 180,
 		desc = "使用{namecode:293}·META擊破等級>100的敵方1次",
 		id = 100115,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100121] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META获得1次胜利",
+		id = 100121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100122] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞30的敌方1次",
+		id = 100122,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100123] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞55的敌方1次",
+		id = 100123,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100124] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞80的敌方1次",
+		id = 100124,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100125] = {
+		target_id_2 = "970603",
+		sub_type = 180,
+		desc = "使用普林斯顿·META击破等级＞100的敌方1次",
+		id = 100125,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1987,7 +2036,7 @@ pg.base.task_meta_data_template = {
 	[200081] = {
 		target_id_2 = "971201",
 		sub_type = 302,
-		desc = "大型作战内使用女灶神.META获得1次胜利",
+		desc = "大型作戰內使用女灶神.META獲得1次勝利",
 		id = 200081,
 		target_num = 1,
 		target_id = "0"
@@ -1995,7 +2044,7 @@ pg.base.task_meta_data_template = {
 	[200082] = {
 		target_id_2 = "971201",
 		sub_type = 302,
-		desc = "大型作战内使用女灶神.META击破等级>70的敌方1次",
+		desc = "大型作戰內使用女灶神.META擊破等級>70的敵方1次",
 		id = 200082,
 		target_num = 1,
 		target_id = "70"
@@ -2003,7 +2052,7 @@ pg.base.task_meta_data_template = {
 	[200083] = {
 		target_id_2 = "971201",
 		sub_type = 302,
-		desc = "大型作战内使用女灶神.META击破等级>90的敌方1次",
+		desc = "大型作戰內使用女灶神.META擊破等級>90的敵方1次",
 		id = 200083,
 		target_num = 1,
 		target_id = "90"
@@ -2011,7 +2060,7 @@ pg.base.task_meta_data_template = {
 	[200084] = {
 		target_id_2 = "971201",
 		sub_type = 302,
-		desc = "大型作战内使用女灶神.META击破等级>100的敌方1次",
+		desc = "大型作戰內使用女灶神.META擊破等級>100的敵方1次",
 		id = 200084,
 		target_num = 1,
 		target_id = "100"
@@ -2109,6 +2158,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用{namecode:293}·META击破等级＞100的敌方1次",
 		id = 200114,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200121] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META获得1次胜利",
+		id = 200121,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200122] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞70的敌方1次",
+		id = 200122,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200123] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞90的敌方1次",
+		id = 200123,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200124] = {
+		target_id_2 = "970603",
+		sub_type = 302,
+		desc = "大型作战内使用普林斯顿·META击破等级＞100的敌方1次",
+		id = 200124,
 		target_num = 1,
 		target_id = "100"
 	}

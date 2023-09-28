@@ -4,7 +4,6 @@ slot0.RESOURCE_UPDATED = "PlayerProxy.RESOURCE_UPDATED"
 
 function slot0.register(slot0)
 	slot0._flags = {}
-	slot0._fishCfg = {}
 	slot0.combatFleetId = 1
 	slot0.mainBGShiftFlag = false
 	slot0.inited = false
@@ -151,14 +150,6 @@ end
 
 function slot0.updatePlayerMedalDisplay(slot0, slot1)
 	slot0.data.displayTrophyList = slot1
-end
-
-function slot0.SetFishRes(slot0, slot1)
-	slot0._fishCfg = slot1
-end
-
-function slot0.GetFishRes(slot0)
-	return slot0._fishCfg
 end
 
 function slot0.getPlayerId(slot0)

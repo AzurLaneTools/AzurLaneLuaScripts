@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与牛仔的旅途\n\n<size=45>四　骑马同行</size>",
+					"與牛仔的旅途\n\n<size=45>四　騎馬同行</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			hidePaintObj = true,
-			say = "与内华达一同来到了一片荒野之中。",
+			say = "與內華達一同來到了一片荒野之中。",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "环顾四周，干枯的杂草在隔壁滩上稀稀疏疏地排布着，低矮的灌木丛生，四周一片枯黄。",
+			say = "環顧四周，乾枯的雜草在隔壁灘上稀稀疏疏地排佈著，低矮的灌木叢生，四周一片枯黃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年，你看起来好像有些失望哦。",
+			say = "少年，你看起來好像有些失望哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "之前提到骑马的时候，还以为会去一片碧绿的草原呢。",
+			say = "之前提到騎馬的時候，還以為會去一片碧綠的草原呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,24 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，碧绿的草原虽然好，不过茫茫绿草跟牛仔的气质可不太搭~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而且荒野有荒野的好处。",
+			say = "啊哈哈，碧綠的草原雖然好，不過茫茫綠草跟牛仔的氣質可不太搭~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,34 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的地面相比雨季的草原更加坚硬干燥，反倒更适合我们的骑马之行哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_wild",
-			say = "原来如此……内华达对骑马的了解也很深入呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那是自然。骑马和射击一样，都是我十分喜爱的个人爱好。",
+			say = "而且荒野有荒野的好處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎样，我还是挺有牛仔风范的吧~",
+			say = "這裡的地面相比雨季的草原更加堅硬乾燥，反倒更適合我們的騎馬之行哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,17 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "内华达一个人整备着马匹和用具，动作熟练又帅气。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_wild",
-			say = "不过有些意外的是，她只准备了一匹马。",
+			say = "原來如此……內華達對騎馬的了解也很深入呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是当然了，马术可不是一般人刚上手就能学会的。",
+			say = "那是自然。騎馬和射擊一樣，都是我十分喜愛的個人愛好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在还是坐在我的身后，让我带你一起骑吧~",
+			say = "怎樣，我還是挺有牛仔風範的吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,18 +181,72 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "内华达熟练地跳上马，将手伸了过来——",
+			say = "內華達一個人整備著馬匹和用具，動作熟練又帥氣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_wild",
+			say = "不過有些意外的是，她只準備了一匹馬。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "那是當然了，馬術可不是一般人剛上手就能學會的。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "現在還是坐在我的身後，讓我帶你一起騎吧~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_wild",
+			say = "內華達熟練地跳上馬，將手伸了過來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "坐在内华达身前",
+					content = "坐在內華達身前",
 					flag = 1
 				},
 				{
-					content = "坐在内华达身后",
+					content = "坐在內華達身後",
 					flag = 2
 				}
 			}
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "好，向后靠稳了，小心别滑出去！走咯！",
+			say = "好，向後靠穩了，小心別滑出去！走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "好，抱住我的腰，注意坐稳！走咯！",
+			say = "好，抱住我的腰，注意坐穩！走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "马的速度不算快。在习惯了最初的颠簸之后，荒野的清风与风景立刻环绕了过来。",
+			say = "馬的速度不算快。在習慣了最初的顛簸之後，荒野的清風與風景立刻環繞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样少年，还不错吧？接下来要加速了，一定要坐稳哦~",
+			say = "怎麼樣少年，還不錯吧？接下來要加速了，一定要坐穩哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "伴随着马蹄声，视野开始向前加速。",
+			say = "伴隨著馬蹄聲，視野開始向前加速。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,18 +351,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "我与内华达与身下的马仿佛融为了一体，变成了一艘快艇逆流行驶在褐色海洋中。",
+			say = "我與內華達與身下的馬彷彿融為了一體，變成了一艘快艇逆流行駛在褐色海洋中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是不是有点太快了……？",
+					content = "是不是有點太快了……？",
 					flag = 1
 				},
 				{
-					content = "Yahoo！~~",
+					content = "Yahoo！ ~~",
 					flag = 2
 				}
 			}
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？我觉得这个速度刚刚好哦。",
+			say = "嗯？我覺得這個速度剛剛好哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不过嘛……确实，对于观景的话还是速度慢一些好。",
+			say = "不過嘛……確實，對於觀景的話還是速度慢一些好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哈哈，少年很上道嘛！我们就是牛仔，在荒野上策马奔腾的牛仔~",
+			say = "哈哈，少年很上道嘛！我們就是牛仔，在荒野上策馬奔騰的牛仔~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过还是要注意坐稳扶好，我们这趟骑马漫步之旅距离结束还差得远呢————",
+			say = "不過還是要注意坐穩扶好，我們這趟騎馬漫步之旅距離結束還差得遠呢————",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与牛仔的旅途\n\n<size=45>七　变为传奇的旅途</size>",
+					"與牛仔的旅途\n\n<size=45>七　變為傳奇的旅途</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "内华达，再给我们讲讲之前你和指挥官去野外当牛仔的故事吧！",
+			say = "內華達，再為我們講講之前妳和指揮官去野外當牛仔的故事吧！",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎~回来之后不是讲过一遍了么。",
+			say = "哎~回來之後不是講過一遍了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是有些细节你不是完全没讲清楚嘛！",
+			say = "但是有些細節妳不是完全沒講清楚嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对啊对啊！比如跟指挥官一起去寻宝，还有跟指挥官一起击败荒野匪帮的事！",
+			say = "對啊對啊！比如跟指揮官一起去尋寶，還有跟指揮官一起擊敗荒野匪幫的事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有跟指挥官一起去河里与河马搏斗，与野马群在落日下狂奔的事！",
+			say = "還有跟指揮官一起去河裡與河馬搏鬥，與野馬群在落日下狂奔的事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好好，那我就再仔细给你们讲讲~",
+			say = "好好好，那我就再仔細為你們講講~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……不对不对，这些事情真的有发生过么？",
+			say = "……不對不對，這些事情真的有發生過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,24 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事实经过添油加醋变成故事，故事在口口相传后变成传说。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "所谓传闻与浪漫就是这么一回事哦~",
+			say = "事實經過添油加醋變成故事，故事在口耳相傳後變成傳說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于最初的真实，旅途之中真正发生的事，只要当事人自己心里清楚就足够了吧。",
+			say = "所謂傳聞與浪漫就是這麼一回事哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +187,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年，你觉得呢~？",
+			say = "至於最初的真實，旅途之中真正發生的事，只要當事人自己心裡清楚就足夠了吧。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "少年，你覺得呢~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听起来十分合理的解释——",
+			say = "聽起來十分合理的解釋——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "添油加醋的传播，确实能够给寻常的故事添加不少传奇色彩。",
+			say = "添油加醋的傳播，確實能夠給尋常的故事添加不少傳奇色彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "手头的工作已经告一段落，接下来就作为听众，一起从零开始了解一下这段新奇的冒险好了——",
+			say = "手頭的工作已經告一段落，接下來就作為聽眾，一起從零開始了解一下這段新奇的冒險好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

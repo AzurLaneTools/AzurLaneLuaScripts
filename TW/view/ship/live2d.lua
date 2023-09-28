@@ -100,9 +100,15 @@ function slot9(slot0, slot1, slot2)
 		slot1 = "main_3"
 	end
 
-	if (not slot0.isPlaying or slot2) and uv1.action2Id[slot1] then
-		slot0.liveCom:SetAction(slot3)
-		slot0:live2dActionChange(true)
+	if not slot0.isPlaying or slot2 then
+		slot3 = uv1.action2Id[slot1]
+
+		print("play action " .. slot3)
+
+		if slot3 then
+			slot0.liveCom:SetAction(slot3)
+			slot0:live2dActionChange(true)
+		end
 	end
 end
 
@@ -117,10 +123,13 @@ function slot11(slot0, slot1, slot2)
 		slot4 = slot2.callback
 		slot5 = slot2.activeData
 		slot6 = slot2.focus
+		slot7 = slot2.react
 
 		if not uv0(slot0, slot2.action) then
 			return
 		end
+
+		slot0:setReactPos(tobool(slot7))
 
 		if slot3 then
 			uv1(slot0, slot3, slot6 or false)
@@ -152,23 +161,27 @@ function slot12(slot0)
 		return
 	end
 
+	if slot0._readlyToStop then
+		return
+	end
+
 	slot1 = false
 	slot2 = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom)
 
 	for slot6 = 1, #slot0.drags do
+		slot0.drags[slot6]:changeReactValue(slot2)
 		slot0.drags[slot6]:stepParameter()
 
 		slot8 = slot0.drags[slot6]:getParameter()
+		slot9 = slot0.drags[slot6].parameterUpdateFlag
 
-		if (slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6].ignoreReact then
+		if (slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6]:getIgnoreReact() then
 			slot1 = true
 		end
 
-		if slot8 then
+		if slot8 and slot9 then
 			slot0.liveCom:ChangeParameterData(slot0.drags[slot6].parameterCom, slot8)
 		end
-
-		slot0.drags[slot6]:changeReactValue(slot2)
 	end
 
 	if slot1 ~= slot0.ignoreReact then
@@ -216,8 +229,31 @@ function slot13(slot0)
 		end
 	end
 
-	slot0.liveCom:SetDragParts(slot0.dragParts)
-	slot0.liveCom:SetMouseInputActions(System.Action(function ()
+	slot1 = slot0.liveCom
+
+	slot1:SetDragParts(slot0.dragParts)
+
+	slot1 = slot0.liveCom
+
+	function slot5()
+		if not uv0._l2dCharEnable then
+			return
+		end
+
+		uv0.mouseInputDown = false
+
+		if uv0.drags and #uv0.drags > 0 then
+			if uv0.liveCom:GetDragPart() > 0 then
+				slot1 = uv0.dragParts[slot0]
+			end
+
+			for slot4 = 1, #uv0.drags do
+				uv0.drags[slot4]:stopDrag()
+			end
+		end
+	end
+
+	slot1:SetMouseInputActions(System.Action(function ()
 		if not uv0._l2dCharEnable then
 			return
 		end
@@ -236,23 +272,16 @@ function slot13(slot0)
 				end
 			end
 		end
-	end), System.Action(function ()
-		if not uv0._l2dCharEnable then
-			return
-		end
+	end), System.Action(slot5))
 
-		uv0.mouseInputDown = false
+	slot0.paraRanges = ReflectionHelp.RefGetField(typeof(Live2dChar), "paraRanges", slot0.liveCom)
+	slot0.destinations = {}
 
-		if uv0.drags and #uv0.drags > 0 then
-			if uv0.liveCom:GetDragPart() > 0 then
-				slot1 = uv0.dragParts[slot0]
-			end
+	for slot5 = 0, ReflectionHelp.RefGetProperty(typeof(Live2dChar), "Destinations", slot0.liveCom).Length - 1 do
+		slot6 = slot1[slot5]
 
-			for slot4 = 1, #uv0.drags do
-				uv0.drags[slot4]:stopDrag()
-			end
-		end
-	end))
+		table.insert(slot0.destinations, slot1[slot5])
+	end
 
 	slot0.timer = Timer.New(function ()
 		uv0(uv1)
@@ -368,8 +397,12 @@ function slot0.SetVisible(slot0, slot1)
 	Input.gyro.enabled = PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 
 	if slot1 then
-		slot0._readlyToStop = false
 		slot0._animator.speed = 1
+
+		uv0(slot0, "idle", true)
+		slot0:setReactPos(true)
+
+		slot0._readlyToStop = false
 
 		onDelayTick(function ()
 			if not uv0._readlyToStop then

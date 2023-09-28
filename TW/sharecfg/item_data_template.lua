@@ -5241,6 +5241,18 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[21022] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 21022,
+		compose_number = 0,
+		target_id = 0
+	},
 	[21101] = {
 		open_directly = 0,
 		display_effect = "",
@@ -6036,6 +6048,64 @@ pg.item_data_template = {
 			}
 		}
 	},
+	[30204] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop_appointed",
+		other_item_cost = "[]",
+		id = 30204,
+		compose_number = 0,
+		target_id = 0,
+		usage_arg = {
+			{
+				3,
+				5240,
+				1
+			},
+			{
+				3,
+				11240,
+				1
+			},
+			{
+				3,
+				17340,
+				1
+			},
+			{
+				3,
+				24340,
+				1
+			},
+			{
+				3,
+				29200,
+				1
+			},
+			{
+				3,
+				32240,
+				1
+			},
+			{
+				3,
+				38240,
+				1
+			},
+			{
+				3,
+				43040,
+				1
+			},
+			{
+				3,
+				46340,
+				1
+			}
+		}
+	},
 	[30301] = {
 		open_directly = 0,
 		display_effect = "",
@@ -6633,6 +6703,18 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "30412",
 		id = 30412,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30413] = {
+		open_directly = 1,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30413",
+		id = 30413,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -8162,6 +8244,109 @@ pg.item_data_template = {
 			{
 				9,
 				767,
+				1
+			}
+		}
+	},
+	[30523] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop_appointed",
+		other_item_cost = "[]",
+		id = 30523,
+		compose_number = 0,
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				300,
+				1
+			},
+			{
+				9,
+				301,
+				1
+			},
+			{
+				9,
+				302,
+				1
+			},
+			{
+				9,
+				303,
+				1
+			},
+			{
+				9,
+				304,
+				1
+			},
+			{
+				9,
+				305,
+				1
+			},
+			{
+				9,
+				306,
+				1
+			},
+			{
+				9,
+				307,
+				1
+			},
+			{
+				9,
+				308,
+				1
+			},
+			{
+				9,
+				309,
+				1
+			},
+			{
+				9,
+				310,
+				1
+			},
+			{
+				9,
+				311,
+				1
+			},
+			{
+				9,
+				312,
+				1
+			},
+			{
+				9,
+				313,
+				1
+			},
+			{
+				9,
+				314,
+				1
+			},
+			{
+				9,
+				315,
+				1
+			},
+			{
+				9,
+				316,
+				1
+			},
+			{
+				9,
+				317,
 				1
 			}
 		}
@@ -21908,6 +22093,7 @@ pg.item_data_template = {
 		21017,
 		21018,
 		21020,
+		21022,
 		21101,
 		21111,
 		21121,
@@ -21952,6 +22138,7 @@ pg.item_data_template = {
 		30133,
 		30202,
 		30203,
+		30204,
 		30301,
 		30302,
 		30303,
@@ -22002,6 +22189,7 @@ pg.item_data_template = {
 		30410,
 		30411,
 		30412,
+		30413,
 		30501,
 		30502,
 		30503,
@@ -22017,6 +22205,7 @@ pg.item_data_template = {
 		30520,
 		30521,
 		30522,
+		30523,
 		30527,
 		30529,
 		30900,

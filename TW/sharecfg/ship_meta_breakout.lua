@@ -78,6 +78,10 @@ pg.ship_meta_breakout = setmetatable({
 		9706022,
 		9706023,
 		9706024,
+		9706031,
+		9706032,
+		9706033,
+		9706034,
 		9707011,
 		9707012,
 		9707013,
@@ -1342,6 +1346,75 @@ pg.base.ship_meta_breakout = {
 		pre_id = 9706023,
 		weapon_ids = {}
 	},
+	[9706031] = {
+		breakout_view = "习得技能【破敌之炬·普林斯顿】/所有战斗机+1/战斗机效率提高5%",
+		gold = 500,
+		breakout_id = 9706032,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9706031,
+		item1 = 21026,
+		pre_id = 0,
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[9706032] = {
+		breakout_view = "机库容量+1/所有鱼雷机+1/战斗机效率提高10%",
+		gold = 1500,
+		breakout_id = 9706033,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9706032,
+		item1 = 21026,
+		pre_id = 9706031,
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[9706033] = {
+		breakout_view = "【破敌之炬·普林斯顿】升级/所有舰载机+1/鱼雷机效率提高15%",
+		gold = 2500,
+		breakout_id = 9706034,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9706033,
+		item1 = 21026,
+		pre_id = 9706032,
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[9706034] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9706034,
+		item1 = 21026,
+		pre_id = 9706033,
+		weapon_ids = {}
+	},
 	[9707011] = {
 		breakout_view = "習得技能【破敵之炬·{namecode:94}】/所有魚雷機+1/魚雷機效率提高5%",
 		gold = 1000,
@@ -1615,7 +1688,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712011] = {
-		breakout_view = "习得技能【构造之理·女灶神】/团队策略-紧急维修次数+1/防空炮效率提高3%",
+		breakout_view = "習得技能【構造之理·女灶神】/團隊策略-緊急維修次數+1/防空炮效率提高3%",
 		gold = 500,
 		breakout_id = 9712012,
 		repair = 0,
@@ -1629,7 +1702,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712012] = {
-		breakout_view = "队伍携带弹药量+1/防空炮底座+1/防空炮效率提高5%",
+		breakout_view = "隊伍攜帶彈藥量+1/防空炮底座+1/防空炮效率提高5%",
 		gold = 1500,
 		breakout_id = 9712013,
 		repair = 0,
@@ -1643,7 +1716,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712013] = {
-		breakout_view = "【构造之理·女灶神】升级/团队策略-紧急维修次数+1/防空炮效率提高7%",
+		breakout_view = "【構造之理·女灶神】升級/團隊策略-緊急維修次數+1/防空炮效率提高7%",
 		gold = 2500,
 		breakout_id = 9712014,
 		repair = 0,
@@ -1657,7 +1730,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712014] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

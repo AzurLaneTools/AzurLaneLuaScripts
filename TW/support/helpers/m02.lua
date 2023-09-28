@@ -3851,7 +3851,11 @@ slot26 = {
 		return NewPos(slot0.x - slot1.x, slot0.y - slot1.y)
 	end,
 	__mul = function (slot0, slot1)
-		return NewPos(slot0.x * slot1, slot0.y * slot1)
+		if type(slot1) == "number" then
+			return NewPos(slot0.x * slot1, slot0.y * slot1)
+		else
+			return NewPos(slot0.x * slot1.x, slot0.y * slot1.y)
+		end
 	end,
 	__eq = function (slot0, slot1)
 		return slot0.x == slot1.x and slot0.y == slot1.y
@@ -4131,4 +4135,20 @@ function UpdateOwnDisplay(slot0, slot1)
 		setText(slot0.Find(slot0, "label"), i18n("word_own1"))
 		setText(slot0.Find(slot0, "Text"), slot2)
 	end
+end
+
+function checkCullResume(slot0)
+	if not ReflectionHelp.RefCallMethodEx(typeof("UnityEngine.CanvasRenderer"), "GetMaterial", GetComponent(slot0, "CanvasRenderer"), {
+		typeof("System.Int32")
+	}, {
+		0
+	}) then
+		for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(MeshImage)).Length do
+			slot1[slot5 - 1]:SetVerticesDirty()
+		end
+
+		return false
+	end
+
+	return true
 end

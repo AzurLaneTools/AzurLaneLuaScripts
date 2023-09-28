@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与牛仔的旅途\n\n<size=45>三　旅行准备</size>",
+					"與牛仔的旅途\n\n<size=45>三　旅行準備</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			say = "翌日。在工作结束之后，与内华达一同来到了小卖部。",
+			say = "翌日。在工作結束之後，與內華達一同來到了販賣部。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "稍微有点好奇，内华达说的事情究竟是——",
+			say = "稍微有點好奇，內華達說的事情究竟是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98}老板！老板，在吗？",
+			say = "明石老闆！老闆，在嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在、在的喵！原来是内华达和指挥官喵！",
+			say = "在、在的喵！原來是內華達和指揮官喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是来取昨天要我准备的东西的喵？",
+			say = "是來拿昨天要我準備的東西的喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~不知昨天我列的清单上的东西老板都准备好了吗？",
+			say = "沒錯~不知昨天我列的清單上的東西老闆都準備好了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都准备好了喵！昨天你订购的商品都装在这个背包里了喵。",
+			say = "都準備好了喵！昨天妳訂購的商品都裝在這個背包裡了喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是{namecode:98}老板，帮大忙了！多谢多谢~！",
+			say = "不愧是明石老闆，幫大忙了！多謝多謝~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气喵！优质的服务可是{namecode:98}喵吸引回头客的秘诀之一喵。",
+			say = "不客氣喵！優質的服務可是明石喵吸引回頭客的秘訣之一喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "头套、护腿、手套、头巾……",
+			say = "頭套、護腿、手套、頭巾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看着一件件确认包中物品的内华达，心里不禁有些好奇，这些东西究竟是用来做什么的呢？",
+			say = "看著一件件確認包中物品的內華達，心裡不禁有些好奇，這些東西究竟是用來做什麼的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个嘛……我也就不瞒着你了。其实——我打算带你去尝试一下骑马！",
+			say = "這個嘛……我也就不瞞著你了。其實——我打算帶你去嘗試一下騎馬！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "骑……骑马？",
+			say = "騎……騎馬？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然在看到内华达准备的装备时心里已经有了猜测，不过在实际听到后还是吃了一惊。",
+			say = "雖然在看到內華達準備的裝備時心裡已經有了猜測，不過在實際聽到後還是吃了一驚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，和指挥官去骑马……不过你订购的商品里似乎没有马鞍喵，真的没关系喵？",
+			say = "原來如此，和指揮官去騎馬……不過妳訂購的商品裡似乎沒有馬鞍喵，真的沒關係喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个嘛~舒适的马鞍不太容易找到，如果用不合适的新马鞍很容易让骑手受伤的。",
+			say = "這個嘛~舒適的馬鞍不太容易找到，如果用不合適的新馬鞍很容易讓騎手受傷的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就让指挥官用我平时用的好了~磨损得恰到好处，应该会比新马鞍更加合适一些。",
+			say = "就讓指揮官用我平時用的好了~磨損得恰到好處，應該會比新馬鞍更加合適一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此喵……准备的商品用不上了喵……",
+			say = "原來如此喵……準備的商品用不上了喵……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……嗯？好像听到了什么……",
+			say = "……嗯？好像聽到了什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没、没什么喵！如果确认完毕的话，{namecode:98}就先去整理仓库去了喵！",
+			say = "沒、沒什麼喵！如果確認完畢的話，明石就先去整理倉庫去了喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "辛苦辛苦~少年，别在那里愣着了，快来选一条喜欢的款式吧！",
+			say = "辛苦辛苦~少年，別在那裡愣著了，快來選一條喜歡的款式吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,18 +356,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "内华达递过来两条不同风格的头巾——",
+			say = "內華達遞過來兩條不同風格的頭巾——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "选择棕色带野牛纹样的头巾",
+					content = "選擇棕色帶野牛紋樣的頭巾",
 					flag = 1
 				},
 				{
-					content = "选择蓝底带白鹰纹样的头巾",
+					content = "選擇藍底帶白鷹紋樣的頭巾",
 					flag = 2
 				}
 			}
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "哟，少年，跟我的兴趣很一致嘛，那这条就让给你了~",
+			say = "喲，少年，跟我的興趣很一致嘛，那這條就讓給你了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哼哼……选择了这条么，那棕色的那条就由我收下咯~",
+			say = "哼哼……選擇了這條嗎，那棕色的那條就由我收下了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那今天就到这里。指挥官回去早点休息，明天咱们一早就出发？",
+			say = "那今天就到這裡。指揮官回去早點休息，明天我們一早就出發？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "诶？这个意思难道是……明天开始休假？那工作要怎么办……",
+			say = "欸？這個意思難道是……明天開始休假？那工作要怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心，我已经仔细确认过了，只要让俄克拉荷马她们协助处理工作，我们去度几天假没问题的~",
+			say = "放心，我已經仔細確認過了，只要讓奧克拉荷馬她們協助處理工作，我們去度幾天假沒問題的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……要是有突发的必须由指挥官本人确认的工作怎么办？",
+			say = "……要是有突發的必須由指揮官本人確認的工作怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,24 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经跟指挥部报备过指挥官休假的事了，这几天不会有这样的工作下来的！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "就算真的出现了，那大不了咱们远程处理嘛~",
+			say = "我已經跟指揮部報備過指揮官休假的事了，這幾天不會有這樣的工作下來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +486,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你已经没日没夜忙了这么久，这几天什么都别想，安心享受应得的假期吧！",
+			say = "就算真的出現了，那大不了我們遠程處理嘛~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "你已經每日每夜忙了這麼久，這幾天什麼都別想，安心享受應得的假期吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如此这般，休假的事就这样雷厉风行的定下来了——",
+			say = "如此這般，休假的事就這樣雷厲風行的定下來了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

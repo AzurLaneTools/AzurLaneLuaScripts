@@ -22431,6 +22431,153 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2039] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huoqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "火球炮彈",
+		orbit_combat = "",
+		desc = "從天而降的……大火球！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 103,
+		icon = "96512",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2039,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_huoqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2040] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shandian",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "閃電炮彈",
+		orbit_combat = "",
+		desc = "快如閃電！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 103,
+		icon = "96513",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2040,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_shandian_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2041] = {
+		hit_sfx = "",
+		bullet_name = "zidan_caihong",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "彩虹子彈",
+		orbit_combat = "",
+		desc = "雨後總會會見彩虹！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 103,
+		icon = "96514",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2041,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2042] = {
+		hit_sfx = "",
+		bullet_name = "yulei_hailang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "浪花魚雷",
+		orbit_combat = "",
+		desc = "被海浪吞噬吧！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 103,
+		icon = "96521",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2042,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
 	all = {
 		1,
 		2,
@@ -23050,6 +23197,10 @@ pg.equip_skin_template = {
 		2035,
 		2036,
 		2037,
-		2038
+		2038,
+		2039,
+		2040,
+		2041,
+		2042
 	}
 }

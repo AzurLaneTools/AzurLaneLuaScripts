@@ -3913,7 +3913,7 @@ pg.ship_l2d = {
 		smooth = 150,
 		id = 30319104,
 		range_abs = 1,
-		offset_y = 150,
+		offset_y = 100,
 		revert_smooth = 0,
 		range = {
 			0,
@@ -4413,7 +4413,7 @@ pg.ship_l2d = {
 		drag_direct = 2,
 		start_value = 0,
 		ship_skin_id = 307083,
-		ignore_react = 1,
+		ignore_react = 0,
 		mode = 1,
 		gyro = 0,
 		gyro_x = 0,

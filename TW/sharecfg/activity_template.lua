@@ -32669,6 +32669,92 @@ pg.activity_template = {
 			ui_name = "NeihuadaSkinPage"
 		}
 	},
+	[41340] = {
+		mark = 20230928,
+		config_client = "",
+		title_res_tag = "equipbox_victory",
+		type = 74,
+		login_pop = 0,
+		config_id = 41340,
+		is_show = 54,
+		id = 41340,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EquipBoxVictoryPtPage",
+			ui_name = "EquipBoxVictoryPtPage"
+		}
+	},
+	[41341] = {
+		mark = 20230928,
+		id = 41341,
+		title_res_tag = "racing",
+		type = 57,
+		login_pop = 0,
+		config_id = 49,
+		is_show = 55,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RacePage",
+			ui_name = "RacePage"
+		},
+		config_client = {
+			gameid = 58
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -34891,6 +34977,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[45910] = {
+		mark = 20230928,
+		id = 45910,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 53,
+		config_data = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage11"
+		},
+		config_client = {
+			map_name = "map_202306",
+			spine_name = "chess_jiahe",
+			tips = {
+				"battlepass_main_tip_2306",
+				"battlepass_main_help_2306",
+				"cruise_task_help_2306"
+			},
+			equip_skin = {
+				{
+					9,
+					2039,
+					1
+				},
+				{
+					9,
+					2040,
+					1
+				},
+				{
+					9,
+					2041,
+					1
+				},
+				{
+					9,
+					2042,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -35922,6 +36090,8 @@ pg.activity_template = {
 		41337,
 		41338,
 		41339,
+		41340,
+		41341,
 		45000,
 		45001,
 		45002,
@@ -35974,6 +36144,7 @@ pg.activity_template = {
 		45906,
 		45907,
 		45908,
-		45909
+		45909,
+		45910
 	}
 }

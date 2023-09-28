@@ -28,6 +28,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._check_target = slot3.check_target
 	slot0._check_weapon = slot3.check_weapon
 	slot0._check_spweapon = slot3.check_spweapon
+	slot0._check_target_gap = slot3.check_target_gap
 	slot0._time = slot3.time or 0
 	slot4 = pg.TimeMgr.GetInstance():GetCombatTime()
 
@@ -85,6 +86,16 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 
 		if slot0._maxTargetNumber < slot6 then
 			return "check target max"
+		end
+	end
+
+	if slot0._check_target_gap then
+		if math.abs(#slot0:getTargetList(slot1, slot0._check_target_gap[1].target, slot0._check_target_gap[1].arg) - #slot0:getTargetList(slot1, slot0._check_target_gap[2].target, slot0._check_target_gap[2].arg)) < slot0._minTargetNumber then
+			return "check target gap min"
+		end
+
+		if slot0._maxTargetNumber < slot7 then
+			return "check target gap max"
 		end
 	end
 

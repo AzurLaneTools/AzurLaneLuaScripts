@@ -74,9 +74,10 @@ function slot0.Clear(slot0, slot1)
 	if slot0.state == uv0 then
 		slot0.state = uv1
 
-		slot0.observer:ClearInteraction(slot0, slot1)
+		slot0.observer:WillClearInteraction(slot0, slot1)
 		slot0.user:ClearInteraction(slot0, slot1)
 		slot0.owner:ClearInteraction(slot0, slot1)
+		slot0.observer:ClearInteraction(slot0, slot1)
 
 		slot0.user = nil
 		slot0.owner = nil

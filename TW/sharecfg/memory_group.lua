@@ -199,7 +199,8 @@ pg.memory_group = setmetatable({
 		572,
 		573,
 		574,
-		577
+		577,
+		578
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4206,6 +4207,23 @@ pg.base.memory_group = {
 			2265,
 			2266,
 			2267
+		}
+	},
+	[578] = {
+		id = 578,
+		subtype = 0,
+		icon = "title_chara_neihuada",
+		type = 3,
+		link_event = 0,
+		title = "與牛仔的旅途",
+		memories = {
+			2341,
+			2342,
+			2343,
+			2344,
+			2345,
+			2346,
+			2347
 		}
 	}
 }

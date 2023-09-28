@@ -803,5 +803,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "map-longgong"
+	},
+	RacingMiniGameView = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-5"
+	},
+	RacePage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-7"
 	}
 }
