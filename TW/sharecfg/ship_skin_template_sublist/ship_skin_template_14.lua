@@ -268,48 +268,43 @@ pg.base.ship_skin_template_14 = {
 	[405032] = {
 		ship_group = 40503,
 		name = "一騎絕塵",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 405032,
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70913,
-		painting = "wuerlixi_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "132",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "wuerlixi_3",
 		l2d_se = "",
 		no_showing = "0",
-		main_UI_FX = "",
+		bgm = "",
+		illustrator2 = -1,
 		special_effects = "",
 		desc = "跑得不錯，下次能不能拿個第一名？…哼，嘴上怎麼說都行。我知道那傢伙不會屈居第二——指揮官，你也是吧？",
-		voice_actor = 190,
-		spine_offset = "",
+		group_index = 2,
+		id = 405032,
+		painting = "wuerlixi_3",
 		gyro = 0,
 		rarity_bg = "",
+		prefab = "wuerlixi_3",
+		shop_type_id = 14,
+		hand_id = 1,
+		main_UI_FX = "",
+		lip_smoothing = 0,
 		time = "",
-		l2d_para_range = "",
+		voice_actor = 190,
+		spine_offset = "",
+		bg = "132",
+		illustrator = -1,
+		l2d_ignore_drag = 0,
+		spine_action_offset = false,
 		lip_sync_gain = 0,
+		skin_type = 0,
 		live2d_offset_profile = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		shop_id = 70913,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			4
 		},
 		live2d_offset = {
-			0,
-			0,
+			83,
+			-85,
 			0
 		},
 		fx_container = {
@@ -378,6 +373,54 @@ pg.base.ship_skin_template_14 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamEyeBallX = {
+				-0.5,
+				0.5
+			},
+			ParamEyeBallY = {
+				-0.5,
+				0.5
+			}
+		},
+		ship_l2d_id = {
+			40503201,
+			40503202,
+			40503203,
+			40503204,
+			40503205,
+			40503206
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
 		}
 	},
 	[405040] = {
