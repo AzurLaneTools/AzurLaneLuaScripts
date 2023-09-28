@@ -73642,6 +73642,190 @@ _G.pg.base.aircraft_template[163090] = {
 	}
 }
 
+_G.pg.base.aircraft_template[163231] = {
+	attack_power = 2,
+	name = "隐形平沼Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "yinxingfeiji",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 7,
+	id = 163231,
+	icon = "96jiangong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 40,
+	max_hp = 9999,
+	scale = 1,
+	weapon_ID = {
+		163251
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163232] = {
+	id = 163232,
+	name = "隐形平沼Lv2",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163252
+	}
+}
+
+_G.pg.base.aircraft_template[163233] = {
+	id = 163233,
+	name = "隐形平沼Lv3",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163253
+	}
+}
+
+_G.pg.base.aircraft_template[163234] = {
+	id = 163234,
+	name = "隐形平沼Lv4",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163254
+	}
+}
+
+_G.pg.base.aircraft_template[163235] = {
+	id = 163235,
+	name = "隐形平沼Lv5",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163255
+	}
+}
+
+_G.pg.base.aircraft_template[163236] = {
+	id = 163236,
+	name = "隐形平沼Lv6",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163256
+	}
+}
+
+_G.pg.base.aircraft_template[163237] = {
+	id = 163237,
+	name = "隐形平沼Lv7",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163257
+	}
+}
+
+_G.pg.base.aircraft_template[163238] = {
+	id = 163238,
+	name = "隐形平沼Lv8",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163258
+	}
+}
+
+_G.pg.base.aircraft_template[163239] = {
+	id = 163239,
+	name = "隐形平沼Lv9",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163259
+	}
+}
+
+_G.pg.base.aircraft_template[163240] = {
+	id = 163240,
+	name = "隐形平沼Lv10",
+	hp_growth = 2280,
+	base = 163231,
+	max_hp = 9999,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163260
+	}
+}
+
 _G.pg.base.aircraft_template[163271] = {
 	attack_power = 2,
 	name = "普林斯顿META技能鱼雷机Lv1",
