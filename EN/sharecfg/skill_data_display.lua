@@ -2709,6 +2709,8 @@ pg.skill_data_display = setmetatable({
 		1010160,
 		1011970,
 		1011441,
+		1011120,
+		1011121,
 		1090020,
 		1090042,
 		1090043,
@@ -13560,6 +13562,14 @@ pg.base.skill_data_display = {
 	[1011441] = {
 		id = 1011441,
 		name = "The Bull of Scapa Flow+"
+	},
+	[1011120] = {
+		id = 1011120,
+		name = "Victorious Song+"
+	},
+	[1011121] = {
+		id = 1011121,
+		name = "Victorious Song+"
 	},
 	[1090020] = {
 		id = 1090020,

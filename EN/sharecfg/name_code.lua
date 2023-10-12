@@ -1,1873 +1,2719 @@
 pg = pg or {}
 pg.name_code = {
 	{
-		id = 1,
 		name = "Minekaze",
-		code = "Minekaze"
+		type = 1,
+		id = 1,
+		code = "Minekaze",
+		nation = 0
 	},
 	{
-		id = 2,
 		name = "Fubuki",
-		code = "Fubuki"
+		type = 1,
+		id = 2,
+		code = "Fubuki",
+		nation = 0
 	},
 	{
-		id = 3,
 		name = "Shirayuki",
-		code = "Shirayuki"
+		type = 1,
+		id = 3,
+		code = "Shirayuki",
+		nation = 0
 	},
 	{
-		id = 4,
 		name = "Hatsuyuki",
-		code = "Hatsuyuki"
+		type = 1,
+		id = 4,
+		code = "Hatsuyuki",
+		nation = 0
 	},
 	{
-		id = 5,
 		name = "Miyuki",
-		code = "Miyuki"
+		type = 1,
+		id = 5,
+		code = "Miyuki",
+		nation = 0
 	},
 	{
-		id = 6,
 		name = "Ayanami",
-		code = "Ayanami"
+		type = 1,
+		id = 6,
+		code = "Ayanami",
+		nation = 0
 	},
 	{
-		id = 7,
 		name = "Shikinami",
-		code = "Shikinami"
+		type = 1,
+		id = 7,
+		code = "Shikinami",
+		nation = 0
 	},
 	{
-		id = 8,
 		name = "Akebono",
-		code = "Akebono"
+		type = 1,
+		id = 8,
+		code = "Akebono",
+		nation = 0
 	},
 	{
-		id = 9,
 		name = "Sazanami",
-		code = "Sazanami"
+		type = 1,
+		id = 9,
+		code = "Sazanami",
+		nation = 0
 	},
 	{
-		id = 10,
 		name = "Ushio",
-		code = "Ushio"
+		type = 1,
+		id = 10,
+		code = "Ushio",
+		nation = 0
 	},
 	{
-		id = 11,
 		name = "Akatsuki",
-		code = "Akatsuki"
+		type = 1,
+		id = 11,
+		code = "Akatsuki",
+		nation = 0
 	},
 	{
-		id = 12,
 		name = "Hibiki",
-		code = "Hibiki"
+		type = 1,
+		id = 12,
+		code = "Hibiki",
+		nation = 0
 	},
 	{
-		id = 13,
 		name = "Ikazuchi",
-		code = "Ikazuchi"
+		type = 1,
+		id = 13,
+		code = "Ikazuchi",
+		nation = 0
 	},
 	{
-		id = 14,
 		name = "Inazuma",
-		code = "Inazuma"
+		type = 1,
+		id = 14,
+		code = "Inazuma",
+		nation = 0
 	},
 	{
-		id = 15,
 		name = "Shiratsuyu",
-		code = "Shiratsuyu"
+		type = 1,
+		id = 15,
+		code = "Shiratsuyu",
+		nation = 0
 	},
 	{
-		id = 16,
 		name = "Yuudachi",
-		code = "Yuudachi"
+		type = 1,
+		id = 16,
+		code = "Yuudachi",
+		nation = 0
 	},
 	{
-		id = 17,
 		name = "Shigure",
-		code = "Shigure"
+		type = 1,
+		id = 17,
+		code = "Shigure",
+		nation = 0
 	},
 	{
-		id = 18,
 		name = "Shimakaze",
-		code = "Shimakaze"
+		type = 1,
+		id = 18,
+		code = "Shimakaze",
+		nation = 0
 	},
 	{
-		id = 19,
 		name = "Kagerou",
-		code = "Kagerou"
+		type = 1,
+		id = 19,
+		code = "Kagerou",
+		nation = 0
 	},
 	{
-		id = 20,
 		name = "Shiranui",
-		code = "Shiranui"
+		type = 1,
+		id = 20,
+		code = "Shiranui",
+		nation = 0
 	},
 	{
-		id = 21,
 		name = "Kuroshio",
-		code = "Kuroshio"
+		type = 1,
+		id = 21,
+		code = "Kuroshio",
+		nation = 0
 	},
 	{
-		id = 22,
 		name = "Yukikaze",
-		code = "Yukikaze"
+		type = 1,
+		id = 22,
+		code = "Yukikaze",
+		nation = 0
 	},
 	{
-		id = 23,
 		name = "Amatsukaze",
-		code = "Amatsukaze"
+		type = 1,
+		id = 23,
+		code = "Amatsukaze",
+		nation = 0
 	},
 	{
-		id = 24,
 		name = "Nowaki",
-		code = "Nowaki"
+		type = 1,
+		id = 24,
+		code = "Nowaki",
+		nation = 0
 	},
 	{
-		id = 25,
 		name = "Arashi",
-		code = "Arashi"
+		type = 1,
+		id = 25,
+		code = "Arashi",
+		nation = 0
 	},
 	{
-		id = 26,
 		name = "Akizuki",
-		code = "Akizuki"
+		type = 1,
+		id = 26,
+		code = "Akizuki",
+		nation = 0
 	},
 	{
-		id = 27,
 		name = "Suzutsuki",
-		code = "Suzutsuki"
+		type = 1,
+		id = 27,
+		code = "Suzutsuki",
+		nation = 0
 	},
 	{
-		id = 28,
 		name = "Yoizuki",
-		code = "Yoizuki"
+		type = 1,
+		id = 28,
+		code = "Yoizuki",
+		nation = 0
 	},
 	{
-		id = 29,
 		name = "Hanazuki",
-		code = "Hanazuki"
+		type = 1,
+		id = 29,
+		code = "Hanazuki",
+		nation = 0
 	},
 	{
-		id = 30,
 		name = "Hatsuharu",
-		code = "Hatsuharu"
+		type = 1,
+		id = 30,
+		code = "Hatsuharu",
+		nation = 0
 	},
 	{
-		id = 31,
 		name = "Ariake",
-		code = "Ariake"
+		type = 1,
+		id = 31,
+		code = "Ariake",
+		nation = 0
 	},
 	{
-		id = 32,
 		name = "Yuugure",
-		code = "Yuugure"
+		type = 1,
+		id = 32,
+		code = "Yuugure",
+		nation = 0
 	},
 	{
-		id = 33,
 		name = "Mutsuki",
-		code = "Mutsuki"
+		type = 1,
+		id = 33,
+		code = "Mutsuki",
+		nation = 0
 	},
 	{
-		id = 34,
 		name = "Kisaragi",
-		code = "Kisaragi"
+		type = 1,
+		id = 34,
+		code = "Kisaragi",
+		nation = 0
 	},
 	{
-		id = 35,
 		name = "Yuugumo",
-		code = "Yuugumo"
+		type = 1,
+		id = 35,
+		code = "Yuugumo",
+		nation = 0
 	},
 	{
+		name = "Makinami",
+		type = 1,
 		id = 36,
-		name = "Makinami",
-		code = "Makinami"
+		code = "Makinami",
+		nation = 0
 	},
 	{
-		id = 37,
 		name = "Yuubari",
-		code = "Yuubari"
+		type = 1,
+		id = 37,
+		code = "Yuubari",
+		nation = 0
 	},
 	{
-		id = 38,
 		name = "Sendai",
-		code = "Sendai"
+		type = 1,
+		id = 38,
+		code = "Sendai",
+		nation = 0
 	},
 	{
-		id = 39,
 		name = "Jintsuu",
-		code = "Jintsuu"
+		type = 1,
+		id = 39,
+		code = "Jintsuu",
+		nation = 0
 	},
 	{
-		id = 40,
 		name = "Naka",
-		code = "Naka"
+		type = 1,
+		id = 40,
+		code = "Naka",
+		nation = 0
 	},
 	{
-		id = 41,
 		name = "Tenryuu",
-		code = "Tenryuu"
+		type = 1,
+		id = 41,
+		code = "Tenryuu",
+		nation = 0
 	},
 	{
-		id = 42,
 		name = "Tatsuta",
-		code = "Tatsuta"
+		type = 1,
+		id = 42,
+		code = "Tatsuta",
+		nation = 0
 	},
 	{
-		id = 43,
 		name = "Kuma",
-		code = "Kuma"
+		type = 1,
+		id = 43,
+		code = "Kuma",
+		nation = 0
 	},
 	{
-		id = 44,
 		name = "Kitakami",
-		code = "Kitakami"
+		type = 1,
+		id = 44,
+		code = "Kitakami",
+		nation = 0
 	},
 	{
-		id = 45,
 		name = "Ooi",
-		code = "Ooi"
+		type = 1,
+		id = 45,
+		code = "Ooi",
+		nation = 0
 	},
 	{
-		id = 46,
 		name = "Nagara",
-		code = "Nagara"
+		type = 1,
+		id = 46,
+		code = "Nagara",
+		nation = 0
 	},
 	{
-		id = 47,
 		name = "Abukuma",
-		code = "Abukuma"
+		type = 1,
+		id = 47,
+		code = "Abukuma",
+		nation = 0
 	},
 	{
-		id = 48,
 		name = "Isuzu",
-		code = "Isuzu"
+		type = 1,
+		id = 48,
+		code = "Isuzu",
+		nation = 0
 	},
 	{
-		id = 49,
 		name = "Agano",
-		code = "Agano"
+		type = 1,
+		id = 49,
+		code = "Agano",
+		nation = 0
 	},
 	{
-		id = 50,
 		name = "Noshiro",
-		code = "Noshiro"
+		type = 1,
+		id = 50,
+		code = "Noshiro",
+		nation = 0
 	},
 	{
-		id = 51,
 		name = "Yahagi",
-		code = "Yahagi"
+		type = 1,
+		id = 51,
+		code = "Yahagi",
+		nation = 0
 	},
 	{
-		id = 52,
 		name = "Ooyodo",
-		code = "Ooyodo"
+		type = 1,
+		id = 52,
+		code = "Ooyodo",
+		nation = 0
 	},
 	{
-		id = 53,
 		name = "Furutaka",
-		code = "Furutaka"
+		type = 1,
+		id = 53,
+		code = "Furutaka",
+		nation = 0
 	},
 	{
-		id = 54,
 		name = "Kako",
-		code = "Kako"
+		type = 1,
+		id = 54,
+		code = "Kako",
+		nation = 0
 	},
 	{
-		id = 55,
 		name = "Aoba",
-		code = "Aoba"
+		type = 1,
+		id = 55,
+		code = "Aoba",
+		nation = 0
 	},
 	{
-		id = 56,
 		name = "Kinugasa",
-		code = "Kinugasa"
+		type = 1,
+		id = 56,
+		code = "Kinugasa",
+		nation = 0
 	},
 	{
-		id = 57,
 		name = "Mogami",
-		code = "Mogami"
+		type = 1,
+		id = 57,
+		code = "Mogami",
+		nation = 0
 	},
 	{
-		id = 58,
 		name = "Mikuma",
-		code = "Mikuma"
+		type = 1,
+		id = 58,
+		code = "Mikuma",
+		nation = 0
 	},
 	{
-		id = 59,
 		name = "Suzuya",
-		code = "Suzuya"
+		type = 1,
+		id = 59,
+		code = "Suzuya",
+		nation = 0
 	},
 	{
-		id = 60,
 		name = "Kumano",
-		code = "Kumano"
+		type = 1,
+		id = 60,
+		code = "Kumano",
+		nation = 0
 	},
 	{
-		id = 61,
 		name = "Tone",
-		code = "Tone"
+		type = 1,
+		id = 61,
+		code = "Tone",
+		nation = 0
 	},
 	{
-		id = 62,
 		name = "Chikuma",
-		code = "Chikuma"
+		type = 1,
+		id = 62,
+		code = "Chikuma",
+		nation = 0
 	},
 	{
-		id = 63,
 		name = "Myoukou",
-		code = "Myoukou"
+		type = 1,
+		id = 63,
+		code = "Myoukou",
+		nation = 0
 	},
 	{
-		id = 64,
 		name = "Nachi",
-		code = "Nachi"
+		type = 1,
+		id = 64,
+		code = "Nachi",
+		nation = 0
 	},
 	{
-		id = 65,
 		name = "Haguro",
-		code = "Haguro"
+		type = 1,
+		id = 65,
+		code = "Haguro",
+		nation = 0
 	},
 	{
-		id = 66,
 		name = "Takao",
-		code = "Takao"
+		type = 1,
+		id = 66,
+		code = "Takao",
+		nation = 0
 	},
 	{
-		id = 67,
 		name = "Atago",
-		code = "Atago"
+		type = 1,
+		id = 67,
+		code = "Atago",
+		nation = 0
 	},
 	{
-		id = 68,
 		name = "Maya",
-		code = "Maya"
+		type = 1,
+		id = 68,
+		code = "Maya",
+		nation = 0
 	},
 	{
-		id = 69,
 		name = "Choukai",
-		code = "Choukai"
+		type = 1,
+		id = 69,
+		code = "Choukai",
+		nation = 0
 	},
 	{
-		id = 70,
 		name = "Kongou",
-		code = "Kongou"
+		type = 1,
+		id = 70,
+		code = "Kongou",
+		nation = 0
 	},
 	{
-		id = 71,
 		name = "Hiei",
-		code = "Hiei"
+		type = 1,
+		id = 71,
+		code = "Hiei",
+		nation = 0
 	},
 	{
-		id = 72,
 		name = "Haruna",
-		code = "Haruna"
+		type = 1,
+		id = 72,
+		code = "Haruna",
+		nation = 0
 	},
 	{
-		id = 73,
 		name = "Kirishima",
-		code = "Kirishima"
+		type = 1,
+		id = 73,
+		code = "Kirishima",
+		nation = 0
 	},
 	{
-		id = 74,
 		name = "Nagato",
-		code = "Nagato"
+		type = 1,
+		id = 74,
+		code = "Nagato",
+		nation = 0
 	},
 	{
-		id = 75,
 		name = "Mutsu",
-		code = "Mutsu"
+		type = 1,
+		id = 75,
+		code = "Mutsu",
+		nation = 0
 	},
 	{
-		id = 76,
 		name = "Ise",
-		code = "Ise"
+		type = 1,
+		id = 76,
+		code = "Ise",
+		nation = 0
 	},
 	{
-		id = 77,
 		name = "Hyuuga",
-		code = "Hyuuga"
+		type = 1,
+		id = 77,
+		code = "Hyuuga",
+		nation = 0
 	},
 	{
-		id = 78,
 		name = "Fusou",
-		code = "Fusou"
+		type = 1,
+		id = 78,
+		code = "Fusou",
+		nation = 0
 	},
 	{
-		id = 79,
 		name = "Yamashiro",
-		code = "Yamashiro"
+		type = 1,
+		id = 79,
+		code = "Yamashiro",
+		nation = 0
 	},
 	{
-		id = 80,
 		name = "Kii",
-		code = "Kii"
+		type = 1,
+		id = 80,
+		code = "Kii",
+		nation = 0
 	},
 	{
-		id = 81,
 		name = "Tosa",
-		code = "Tosa"
+		type = 1,
+		id = 81,
+		code = "Tosa",
+		nation = 0
 	},
 	{
-		id = 82,
 		name = "Mikasa",
-		code = "Mikasa"
+		type = 1,
+		id = 82,
+		code = "Mikasa",
+		nation = 0
 	},
 	{
-		id = 83,
 		name = "Yamato",
-		code = "Yamato"
+		type = 1,
+		id = 83,
+		code = "Yamato",
+		nation = 0
 	},
 	{
-		id = 84,
 		name = "Musashi",
-		code = "Musashi"
+		type = 1,
+		id = 84,
+		code = "Musashi",
+		nation = 0
 	},
 	{
-		id = 85,
 		name = "Hiyou",
-		code = "Hiyou"
+		type = 1,
+		id = 85,
+		code = "Hiyou",
+		nation = 0
 	},
 	{
-		id = 86,
 		name = "Junyou",
-		code = "Junyou"
+		type = 1,
+		id = 86,
+		code = "Junyou",
+		nation = 0
 	},
 	{
-		id = 87,
 		name = "Shouhou",
-		code = "Shouhou"
+		type = 1,
+		id = 87,
+		code = "Shouhou",
+		nation = 0
 	},
 	{
-		id = 88,
 		name = "Zuihou",
-		code = "Zuihou"
+		type = 1,
+		id = 88,
+		code = "Zuihou",
+		nation = 0
 	},
 	{
-		id = 89,
 		name = "Houshou",
-		code = "Houshou"
+		type = 1,
+		id = 89,
+		code = "Houshou",
+		nation = 0
 	},
 	{
-		id = 90,
 		name = "Ryuujou",
-		code = "Ryuujou"
+		type = 1,
+		id = 90,
+		code = "Ryuujou",
+		nation = 0
 	},
 	{
-		id = 91,
 		name = "Akagi",
-		code = "Akagi"
+		type = 1,
+		id = 91,
+		code = "Akagi",
+		nation = 0
 	},
 	{
-		id = 92,
 		name = "Kaga",
-		code = "Kaga"
+		type = 1,
+		id = 92,
+		code = "Kaga",
+		nation = 0
 	},
 	{
-		id = 93,
 		name = "Souryuu",
-		code = "Souryuu"
+		type = 1,
+		id = 93,
+		code = "Souryuu",
+		nation = 0
 	},
 	{
-		id = 94,
 		name = "Hiryuu",
-		code = "Hiryuu"
+		type = 1,
+		id = 94,
+		code = "Hiryuu",
+		nation = 0
 	},
 	{
-		id = 95,
 		name = "Shoukaku",
-		code = "Shoukaku"
+		type = 1,
+		id = 95,
+		code = "Shoukaku",
+		nation = 0
 	},
 	{
-		id = 96,
 		name = "Zuikaku",
-		code = "Zuikaku"
+		type = 1,
+		id = 96,
+		code = "Zuikaku",
+		nation = 0
 	},
 	{
-		id = 97,
 		name = "Taihou",
-		code = "Taihou"
+		type = 1,
+		id = 97,
+		code = "Taihou",
+		nation = 0
 	},
 	{
-		id = 98,
 		name = "Akashi",
-		code = "Akashi"
+		type = 1,
+		id = 98,
+		code = "Akashi",
+		nation = 0
 	},
 	{
-		id = 99,
 		name = "IJN",
-		code = "IJN"
+		type = 1,
+		id = 99,
+		code = "IJN",
+		nation = 0
 	},
 	{
-		id = 100,
 		name = "First Carrier Division",
-		code = "First Carrier Division"
+		type = 1,
+		id = 100,
+		code = "First Carrier Division",
+		nation = 0
 	},
 	{
-		id = 101,
 		name = "Second Carrier Division",
-		code = "Second Carrier Division"
+		type = 1,
+		id = 101,
+		code = "Second Carrier Division",
+		nation = 0
 	},
 	{
-		id = 102,
 		name = "Fifth Carrier Division",
-		code = "Fifth Carrier Division"
+		type = 1,
+		id = 102,
+		code = "Fifth Carrier Division",
+		nation = 0
 	},
 	{
-		id = 103,
 		name = "Chitose",
-		code = "Chitose"
+		type = 1,
+		id = 103,
+		code = "Chitose",
+		nation = 0
 	},
 	{
-		id = 104,
 		name = "Chiyoda",
-		code = "Chiyoda"
+		type = 1,
+		id = 104,
+		code = "Chiyoda",
+		nation = 0
 	},
 	{
-		id = 105,
 		name = "Fubuki Production",
-		code = "Fubuki Production"
+		type = 1,
+		id = 105,
+		code = "Fubuki Production",
+		nation = 0
 	},
 	{
-		id = 106,
 		name = "Shiratsuyu Production",
-		code = "Shiratsuyu Production"
+		type = 1,
+		id = 106,
+		code = "Shiratsuyu Production",
+		nation = 0
 	},
 	{
-		id = 107,
 		name = "Kagerou Production",
-		code = "Kagerou Production"
+		type = 1,
+		id = 107,
+		code = "Kagerou Production",
+		nation = 0
 	},
 	{
-		id = 108,
 		name = "Yuugumo Production",
-		code = "Yuugumo Production"
+		type = 1,
+		id = 108,
+		code = "Yuugumo Production",
+		nation = 0
 	},
 	{
-		id = 109,
 		name = "Mutsuki Production",
-		code = "Mutsuki Production"
+		type = 1,
+		id = 109,
+		code = "Mutsuki Production",
+		nation = 0
 	},
 	{
-		id = 110,
 		name = "Nagara Production",
-		code = "Nagara Production"
+		type = 1,
+		id = 110,
+		code = "Nagara Production",
+		nation = 0
 	},
 	{
-		id = 111,
 		name = "Sendai Production",
-		code = "Sendai Production"
+		type = 1,
+		id = 111,
+		code = "Sendai Production",
+		nation = 0
 	},
 	{
-		id = 112,
 		name = "Isuzu Production",
-		code = "Isuzu Production"
+		type = 1,
+		id = 112,
+		code = "Isuzu Production",
+		nation = 0
 	},
 	{
-		id = 113,
 		name = "Furutaka Production",
-		code = "Furutaka Production"
+		type = 1,
+		id = 113,
+		code = "Furutaka Production",
+		nation = 0
 	},
 	{
-		id = 114,
 		name = "Aoba Production",
-		code = "Aoba Production"
+		type = 1,
+		id = 114,
+		code = "Aoba Production",
+		nation = 0
 	},
 	{
-		id = 115,
 		name = "Myoukou Production",
-		code = "Myoukou Production"
+		type = 1,
+		id = 115,
+		code = "Myoukou Production",
+		nation = 0
 	},
 	{
-		id = 116,
 		name = "Takao Production",
-		code = "Takao Production"
+		type = 1,
+		id = 116,
+		code = "Takao Production",
+		nation = 0
 	},
 	{
-		id = 117,
 		name = "Mogami Production",
-		code = "Mogami Production"
+		type = 1,
+		id = 117,
+		code = "Mogami Production",
+		nation = 0
 	},
 	{
-		id = 118,
 		name = "Battleship Hiei",
-		code = "Battleship Hiei"
+		type = 1,
+		id = 118,
+		code = "Battleship Hiei",
+		nation = 0
 	},
 	{
-		id = 119,
 		name = "Battleship Kirishima",
-		code = "Battleship Kirishima"
+		type = 1,
+		id = 119,
+		code = "Battleship Kirishima",
+		nation = 0
 	},
 	{
-		id = 120,
 		name = "Carrier Akagi",
-		code = "Carrier Akagi"
+		type = 1,
+		id = 120,
+		code = "Carrier Akagi",
+		nation = 0
 	},
 	{
-		id = 121,
 		name = "Carrier Kaga",
-		code = "Carrier Kaga"
+		type = 1,
+		id = 121,
+		code = "Carrier Kaga",
+		nation = 0
 	},
 	{
-		id = 122,
 		name = "Hatsukaze",
-		code = "Hatsukaze"
+		type = 1,
+		id = 122,
+		code = "Hatsukaze",
+		nation = 0
 	},
 	{
-		id = 123,
 		name = "Kuma Production",
-		code = "Kuma Production"
+		type = 1,
+		id = 123,
+		code = "Kuma Production",
+		nation = 0
 	},
 	{
-		id = 124,
 		name = "Kamikaze",
-		code = "Kamikaze"
+		type = 1,
+		id = 124,
+		code = "Kamikaze",
+		nation = 0
 	},
 	{
-		id = 125,
 		name = "Niizuki",
-		code = "Niizuki"
+		type = 1,
+		id = 125,
+		code = "Niizuki",
+		nation = 3
 	},
 	{
-		id = 126,
 		name = "Mikazuki",
-		code = "Mikazuki"
+		type = 1,
+		id = 126,
+		code = "Mikazuki",
+		nation = 0
 	},
 	{
-		id = 127,
 		name = "Tanikaze",
-		code = "Tanikaze"
+		type = 1,
+		id = 127,
+		code = "Tanikaze",
+		nation = 0
 	},
 	{
-		id = 128,
 		name = "Hamakaze",
-		code = "Hamakaze"
+		type = 1,
+		id = 128,
+		code = "Hamakaze",
+		nation = 0
 	},
 	{
-		id = 129,
 		name = "Hatsushimo",
-		code = "Hatsushimo"
+		type = 1,
+		id = 129,
+		code = "Hatsushimo",
+		nation = 0
 	},
 	{
-		id = 130,
 		name = "Maikaze",
-		code = "Maikaze"
+		type = 1,
+		id = 130,
+		code = "Maikaze",
+		nation = 0
 	},
 	{
-		id = 131,
 		name = "Hagikaze",
-		code = "Hagikaze"
+		type = 1,
+		id = 131,
+		code = "Hagikaze",
+		nation = 0
 	},
 	{
+		name = "Yamashiro (Retrofit)",
+		type = 1,
 		id = 132,
-		name = "Yamashiro (Retrofit)",
-		code = "Yamashiro (Retrofit)"
+		code = "Yamashiro (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 133,
 		name = "Minazuki",
-		code = "Minazuki"
+		type = 1,
+		id = 133,
+		code = "Minazuki",
+		nation = 0
 	},
 	{
-		id = 134,
 		name = "Matsukaze",
-		code = "Matsukaze"
+		type = 1,
+		id = 134,
+		code = "Matsukaze",
+		nation = 0
 	},
 	{
-		id = 135,
 		name = "Oyashio",
-		code = "Oyashio"
+		type = 1,
+		id = 135,
+		code = "Oyashio",
+		nation = 0
 	},
 	{
-		id = 136,
 		name = "Shikishima",
-		code = "Shikishima"
+		type = 1,
+		id = 136,
+		code = "Shikishima",
+		nation = 0
 	},
 	{
-		id = 137,
 		name = "Uzuki",
-		code = "Uzuki"
+		type = 1,
+		id = 137,
+		code = "Uzuki",
+		nation = 0
 	},
 	{
-		id = 138,
 		name = "Asakaze",
-		code = "Asakaze"
+		type = 1,
+		id = 138,
+		code = "Asakaze",
+		nation = 0
 	},
 	{
-		id = 139,
 		name = "Harukaze",
-		code = "Harukaze"
+		type = 1,
+		id = 139,
+		code = "Harukaze",
+		nation = 0
 	},
 	{
-		id = 140,
 		name = "Hatakaze",
-		code = "Hatakaze"
+		type = 1,
+		id = 140,
+		code = "Hatakaze",
+		nation = 0
 	},
 	{
-		id = 141,
 		name = "Wakaba",
-		code = "Wakaba"
+		type = 1,
+		id = 141,
+		code = "Wakaba",
+		nation = 0
 	},
 	{
-		id = 142,
 		name = "Urakaze",
-		code = "Urakaze"
+		type = 1,
+		id = 142,
+		code = "Urakaze",
+		nation = 0
 	},
 	{
-		id = 143,
 		name = "Isokaze",
-		code = "Isokaze"
+		type = 1,
+		id = 143,
+		code = "Isokaze",
+		nation = 0
 	},
 	{
-		id = 144,
 		name = "Ashigara",
-		code = "Ashigara"
+		type = 1,
+		id = 144,
+		code = "Ashigara",
+		nation = 0
 	},
 	{
-		id = 145,
 		name = "Asashio",
-		code = "Asashio"
+		type = 1,
+		id = 145,
+		code = "Asashio",
+		nation = 0
 	},
 	{
-		id = 146,
 		name = "Ooshio",
-		code = "Ooshio"
+		type = 1,
+		id = 146,
+		code = "Ooshio",
+		nation = 0
 	},
 	{
-		id = 147,
 		name = "Michishio",
-		code = "Michishio"
+		type = 1,
+		id = 147,
+		code = "Michishio",
+		nation = 0
 	},
 	{
-		id = 148,
 		name = "Arashio",
-		code = "Arashio"
+		type = 1,
+		id = 148,
+		code = "Arashio",
+		nation = 0
 	},
 	{
-		id = 149,
 		name = "Suzukaze",
-		code = "Suzukaze"
+		type = 1,
+		id = 149,
+		code = "Suzukaze",
+		nation = 0
 	},
 	{
-		id = 150,
 		name = "Umikaze",
-		code = "Umikaze"
+		type = 1,
+		id = 150,
+		code = "Umikaze",
+		nation = 0
 	},
 	{
-		id = 151,
 		name = "Izumo",
-		code = "Izumo"
+		type = 1,
+		id = 151,
+		code = "Izumo",
+		nation = 0
 	},
 	{
-		id = 152,
 		name = "Ibuki",
-		code = "Ibuki"
+		type = 1,
+		id = 152,
+		code = "Ibuki",
+		nation = 0
 	},
 	{
-		id = 153,
 		name = "Yuunagi",
-		code = "Yuunagi"
+		type = 1,
+		id = 153,
+		code = "Yuunagi",
+		nation = 0
 	},
 	{
-		id = 154,
 		name = "I-19",
-		code = "I-19"
+		type = 1,
+		id = 154,
+		code = "I-19",
+		nation = 0
 	},
 	{
-		id = 155,
 		name = "I-26",
-		code = "I-26"
+		type = 1,
+		id = 155,
+		code = "I-26",
+		nation = 0
 	},
 	{
-		id = 156,
 		name = "I-58",
-		code = "I-58"
+		type = 1,
+		id = 156,
+		code = "I-58",
+		nation = 0
 	},
 	{
-		id = 157,
 		name = "Harutsuki",
-		code = "Harutsuki"
+		type = 1,
+		id = 157,
+		code = "Harutsuki",
+		nation = 0
 	},
 	{
-		id = 158,
 		name = "Kawakaze",
-		code = "Kawakaze"
+		type = 1,
+		id = 158,
+		code = "Kawakaze",
+		nation = 0
 	},
 	{
-		id = 159,
 		name = "Fumizuki",
-		code = "Fumizuki"
+		type = 1,
+		id = 159,
+		code = "Fumizuki",
+		nation = 0
 	},
 	{
-		id = 160,
 		name = "Nagatsuki",
-		code = "Nagatsuki"
+		type = 1,
+		id = 160,
+		code = "Nagatsuki",
+		nation = 0
 	},
 	{
-		id = 161,
 		name = "Amagi",
-		code = "Amagi"
+		type = 1,
+		id = 161,
+		code = "Amagi",
+		nation = 0
 	},
 	{
-		id = 162,
 		name = "Makinami",
-		code = "Makinami"
+		type = 1,
+		id = 162,
+		code = "Makinami",
+		nation = 0
 	},
 	{
-		id = 163,
 		name = "I-13",
-		code = "I-13"
+		type = 1,
+		id = 163,
+		code = "I-13",
+		nation = 0
 	},
 	{
-		id = 164,
 		name = "Kitakaze",
-		code = "Kitakaze"
+		type = 1,
+		id = 164,
+		code = "Kitakaze",
+		nation = 0
 	},
 	{
-		id = 165,
 		name = "Azuma",
-		code = "Azuma"
+		type = 1,
+		id = 165,
+		code = "Azuma",
+		nation = 0
 	},
 	{
-		id = 166,
 		name = "Type II Ayanami",
-		code = "Type II Ayanami"
+		type = 1,
+		id = 166,
+		code = "Type II Ayanami",
+		nation = 0
 	},
 	{
-		id = 167,
 		name = "Type I Fubuki",
-		code = "Type I Fubuki"
+		type = 1,
+		id = 167,
+		code = "Type I Fubuki",
+		nation = 0
 	},
 	{
-		id = 168,
 		name = "Type III Akatsuki",
-		code = "Type III Akatsuki"
+		type = 1,
+		id = 168,
+		code = "Type III Akatsuki",
+		nation = 0
 	},
 	{
-		id = 169,
 		name = "Hiei-chan",
-		code = "Hiei-chan"
+		type = 1,
+		id = 169,
+		code = "Hiei-chan",
+		nation = 0
 	},
 	{
-		id = 170,
 		name = "Akagi-chan",
-		code = "Akagi-chan"
+		type = 1,
+		id = 170,
+		code = "Akagi-chan",
+		nation = 0
 	},
 	{
-		id = 171,
 		name = "AI-Type Kagerou Production",
-		code = "AI-Type Kagerou Production"
+		type = 1,
+		id = 171,
+		code = "AI-Type Kagerou Production",
+		nation = 0
 	},
 	{
-		id = 172,
 		name = "AI-Type Myoukou Production",
-		code = "AI-Type Myoukou Production"
+		type = 1,
+		id = 172,
+		code = "AI-Type Myoukou Production",
+		nation = 0
 	},
 	{
-		id = 173,
 		name = "AI-Type Fusou Production",
-		code = "AI-Type Fusou Production"
+		type = 1,
+		id = 173,
+		code = "AI-Type Fusou Production",
+		nation = 0
 	},
 	{
-		id = 174,
 		name = "Kiyonami",
-		code = "Kiyonami"
+		type = 1,
+		id = 174,
+		code = "Kiyonami",
+		nation = 0
 	},
 	{
-		id = 175,
 		name = "Suruga",
-		code = "Suruga"
+		type = 1,
+		id = 175,
+		code = "Suruga",
+		nation = 0
 	},
 	{
-		id = 176,
 		name = "Akagi μ",
-		code = "Akagi μ"
+		type = 1,
+		id = 176,
+		code = "Akagi μ",
+		nation = 0
 	},
 	{
-		id = 177,
 		name = "Ise Production",
-		code = "Ise Production"
+		type = 1,
+		id = 177,
+		code = "Ise Production",
+		nation = 0
 	},
 	{
-		id = 178,
 		name = "Fusou Production",
-		code = "Fusou Production"
+		type = 1,
+		id = 178,
+		code = "Fusou Production",
+		nation = 0
 	},
 	{
-		id = 179,
 		name = "Ryuuhou",
-		code = "Ryuuhou"
+		type = 1,
+		id = 179,
+		code = "Ryuuhou",
+		nation = 0
 	},
 	{
-		id = 180,
 		name = "Kasumi",
-		code = "Kasumi"
+		type = 1,
+		id = 180,
+		code = "Kasumi",
+		nation = 0
 	},
 	{
-		id = 181,
 		name = "Kinu",
-		code = "Kinu"
+		type = 1,
+		id = 181,
+		code = "Kinu",
+		nation = 0
 	},
 	{
-		id = 182,
 		name = "Shinano",
-		code = "Shinano"
+		type = 1,
+		id = 182,
+		code = "Shinano",
+		nation = 0
 	},
 	{
-		id = 183,
 		name = "Taigei",
-		code = "Taigei"
+		type = 1,
+		id = 183,
+		code = "Taigei",
+		nation = 0
 	},
 	{
-		id = 184,
 		name = "Uranami",
-		code = "Uranami"
+		type = 1,
+		id = 184,
+		code = "Uranami",
+		nation = 0
 	},
 	{
-		id = 185,
 		name = "Naganami",
-		code = "Naganami"
+		type = 1,
+		id = 185,
+		code = "Naganami",
+		nation = 0
 	},
 	{
-		id = 186,
 		name = "Fuyutsuki",
-		code = "Fuyutsuki"
+		type = 1,
+		id = 186,
+		code = "Fuyutsuki",
+		nation = 0
 	},
 	{
-		id = 187,
 		name = "Michitsuki",
-		code = "Michitsuki"
+		type = 1,
+		id = 187,
+		code = "Michitsuki",
+		nation = 0
 	},
 	{
-		id = 188,
 		name = "Kashino",
-		code = "Kashino"
+		type = 1,
+		id = 188,
+		code = "Kashino",
+		nation = 0
 	},
 	{
-		id = 189,
 		name = "Hatsuzuki",
-		code = "Hatsuzuki"
+		type = 1,
+		id = 189,
+		code = "Hatsuzuki",
+		nation = 0
 	},
 	{
-		id = 190,
 		name = "Taihou μ",
-		code = "Taihou μ"
+		type = 1,
+		id = 190,
+		code = "Taihou μ",
+		nation = 0
 	},
 	{
-		id = 191,
 		name = "Hiryuu META",
-		code = "Hiryuu META"
+		type = 1,
+		id = 191,
+		code = "Hiryuu META",
+		nation = 0
 	},
 	{
-		id = 192,
 		name = "Oite",
-		code = "Oite"
+		type = 1,
+		id = 192,
+		code = "Oite",
+		nation = 0
 	},
 	{
-		id = 193,
 		name = "Amagi-chan",
-		code = "Amagi-chan"
+		type = 1,
+		id = 193,
+		code = "Amagi-chan",
+		nation = 0
 	},
 	{
+		name = "Ticonderoga",
+		type = 1,
 		id = 194,
-		name = "Ticonderoga",
-		code = "Ticonderoga"
+		code = "Ticonderoga",
+		nation = 0
 	},
 	{
-		id = 195,
 		name = "San Francisco",
-		code = "San Francisco"
+		type = 1,
+		id = 195,
+		code = "San Francisco",
+		nation = 0
 	},
 	{
-		id = 196,
 		name = "Archerfish",
-		code = "Archerfish"
+		type = 1,
+		id = 196,
+		code = "Archerfish",
+		nation = 0
 	},
 	{
-		id = 197,
 		name = "Boise",
-		code = "Boise"
+		type = 1,
+		id = 197,
+		code = "Boise",
+		nation = 0
 	},
 	{
-		id = 198,
 		name = "Morrison",
-		code = "Morrison"
+		type = 1,
+		id = 198,
+		code = "Morrison",
+		nation = 0
 	},
 	{
-		id = 199,
 		name = "New Jersey",
-		code = "New Jersey"
+		type = 1,
+		id = 199,
+		code = "New Jersey",
+		nation = 0
 	},
 	{
-		id = 200,
 		name = "Ticonderoga",
-		code = "Ticonderoga"
+		type = 1,
+		id = 200,
+		code = "Ticonderoga",
+		nation = 0
 	},
 	{
-		id = 201,
 		name = "Iowa",
-		code = "Iowa"
+		type = 1,
+		id = 201,
+		code = "Iowa",
+		nation = 0
 	},
 	{
-		id = 202,
 		name = "Balao",
-		code = "Balao"
+		type = 1,
+		id = 202,
+		code = "Balao",
+		nation = 0
 	},
 	{
-		id = 203,
 		name = "Kazagumo",
-		code = "Kazagumo"
+		type = 1,
+		id = 203,
+		code = "Kazagumo",
+		nation = 0
 	},
 	{
-		id = 204,
 		name = "Hakuryuu",
-		code = "Hakuryuu"
+		type = 1,
+		id = 204,
+		code = "Hakuryuu",
+		nation = 0
 	},
 	{
-		id = 205,
 		name = "Souryuu Meta",
-		code = "Souryuu Meta"
+		type = 1,
+		id = 205,
+		code = "Souryuu Meta",
+		nation = 0
 	},
 	{
-		id = 206,
 		name = "Yura",
-		code = "Yura"
+		type = 1,
+		id = 206,
+		code = "Yura",
+		nation = 0
 	},
 	{
-		id = 207,
 		name = "Yamakaze",
-		code = "Yamakaze"
+		type = 1,
+		id = 207,
+		code = "Yamakaze",
+		nation = 0
 	},
 	{
-		id = 208,
 		name = "Katsuragi",
-		code = "Katsuragi"
+		type = 1,
+		id = 208,
+		code = "Katsuragi",
+		nation = 0
 	},
 	{
-		id = 209,
 		name = "Unryuu",
-		code = "Unryuu"
+		type = 1,
+		id = 209,
+		code = "Unryuu",
+		nation = 0
 	},
 	{
-		id = 210,
 		name = "Fusou META",
-		code = "Fusou META"
+		type = 1,
+		id = 210,
+		code = "Fusou META",
+		nation = 0
 	},
 	{
+		name = "Fusou (Retrofit)",
+		type = 1,
 		id = 211,
-		name = "Fusou (Retrofit)",
-		code = "Fusou (Retrofit)"
+		code = "Fusou (Retrofit)",
+		nation = 0
 	},
 	{
+		name = "Mogami (Retrofit)",
+		type = 1,
 		id = 212,
-		name = "Mogami (Retrofit)",
-		code = "Mogami (Retrofit)"
+		code = "Mogami (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 213,
 		name = "Yuudachi (Retrofit)",
-		code = "Yuudachi (Retrofit)"
+		type = 1,
+		id = 213,
+		code = "Yuudachi (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 214,
 		name = "Mogami (Retrofit)",
-		code = "Mogami (Retrofit)"
+		type = 1,
+		id = 214,
+		code = "Mogami (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 215,
 		name = "Fusou (Retrofit)",
-		code = "Fusou (Retrofit)"
+		type = 1,
+		id = 215,
+		code = "Fusou (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 216,
 		name = "Yamashiro (Retrofit)",
-		code = "Yamashiro (Retrofit)"
+		type = 1,
+		id = 216,
+		code = "Yamashiro (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 217,
 		name = "Ise (Retrofit)",
-		code = "Ise (Retrofit)"
+		type = 1,
+		id = 217,
+		code = "Ise (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 218,
 		name = "Hyuuga (Retrofit)",
-		code = "Hyuuga (Retrofit)"
+		type = 1,
+		id = 218,
+		code = "Hyuuga (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 219,
 		name = "Kasumi (Retrofit)",
-		code = "Kasumi (Retrofit)"
+		type = 1,
+		id = 219,
+		code = "Kasumi (Retrofit)",
+		nation = 0
 	},
 	{
-		id = 220,
 		name = "Hiyou META",
-		code = "Hiyou META"
+		type = 1,
+		id = 220,
+		code = "Hiyou META",
+		nation = 0
 	},
 	{
-		id = 221,
 		name = "Junyou META",
-		code = "Junyou META"
+		type = 1,
+		id = 221,
+		code = "Junyou META",
+		nation = 0
 	},
 	[223] = {
-		id = 223,
 		name = "Yamashiro META",
-		code = "Yamashiro META"
+		type = 1,
+		id = 223,
+		code = "Yamashiro META",
+		nation = 0
 	},
 	[224] = {
-		id = 224,
 		name = "Harbin",
-		code = "Harbin"
+		type = 1,
+		id = 224,
+		code = "Harbin",
+		nation = 0
 	},
 	[225] = {
-		id = 225,
 		name = "Wakatsuki",
-		code = "Wakatsuki"
+		type = 1,
+		id = 225,
+		code = "Wakatsuki",
+		nation = 0
 	},
 	[226] = {
-		id = 226,
 		name = "Sakawa",
-		code = "Sakawa"
+		type = 1,
+		id = 226,
+		code = "Sakawa",
+		nation = 0
 	},
 	[250] = {
-		id = 250,
 		name = "I-9",
-		code = "I-9"
+		type = 1,
+		id = 250,
+		code = "I-9",
+		nation = 0
 	},
 	[251] = {
-		id = 251,
 		name = "I-16",
-		code = "I-16"
+		type = 1,
+		id = 251,
+		code = "I-16",
+		nation = 0
 	},
 	[252] = {
-		id = 252,
 		name = "I-25",
-		code = "I-25"
+		type = 1,
+		id = 252,
+		code = "I-25",
+		nation = 0
 	},
 	[253] = {
-		id = 253,
 		name = "I-54",
-		code = "I-54"
+		type = 1,
+		id = 253,
+		code = "I-54",
+		nation = 0
 	},
 	[254] = {
-		id = 254,
 		name = "I-56",
-		code = "I-56"
+		type = 1,
+		id = 254,
+		code = "I-56",
+		nation = 0
 	},
 	[255] = {
-		id = 255,
 		name = "I-60",
-		code = "I-60"
+		type = 1,
+		id = 255,
+		code = "I-60",
+		nation = 0
 	},
 	[256] = {
-		id = 256,
 		name = "I-168",
-		code = "I-168"
+		type = 1,
+		id = 256,
+		code = "I-168",
+		nation = 0
 	},
 	[257] = {
-		id = 257,
 		name = "I-490",
-		code = "I-490"
+		type = 1,
+		id = 257,
+		code = "I-490",
+		nation = 0
 	},
 	[280] = {
-		id = 280,
 		name = "Type B1",
-		code = "Type B1"
+		type = 1,
+		id = 280,
+		code = "Type B1",
+		nation = 0
 	},
 	[281] = {
-		id = 281,
 		name = "Kaidai Type",
-		code = "Kaidai Type"
+		type = 1,
+		id = 281,
+		code = "Kaidai Type",
+		nation = 0
 	},
 	[282] = {
-		id = 282,
 		name = "Type A Mod. 2",
-		code = "Type A Mod. 2"
+		type = 1,
+		id = 282,
+		code = "Type A Mod. 2",
+		nation = 0
 	},
 	[283] = {
-		id = 283,
 		name = "Type B Mod. 2",
-		code = "Type B Mod. 2"
+		type = 1,
+		id = 283,
+		code = "Type B Mod. 2",
+		nation = 0
 	},
 	[284] = {
-		id = 284,
 		name = "Kaidai Type VIa",
-		code = "Kaidai Type VIa"
+		type = 1,
+		id = 284,
+		code = "Kaidai Type VIa",
+		nation = 0
 	},
 	[285] = {
-		id = 285,
 		name = "I-Type",
-		code = "I-Type"
+		type = 1,
+		id = 285,
+		code = "I-Type",
+		nation = 0
 	},
 	[286] = {
-		id = 286,
 		name = "Mass-Produced Yuugumo Class MK 2",
-		code = "Mass-Produced Yuugumo Class MK 2"
+		type = 1,
+		id = 286,
+		code = "Mass-Produced Yuugumo Class MK 2",
+		nation = 0
 	},
 	[287] = {
-		id = 287,
 		name = "Mass-Produced Sendai Class MK 2",
-		code = "Mass-Produced Sendai Class MK 2"
+		type = 1,
+		id = 287,
+		code = "Mass-Produced Sendai Class MK 2",
+		nation = 0
 	},
 	[288] = {
-		id = 288,
 		name = "Mass-Produced Mogami Class MK 2",
-		code = "Mass-Produced Mogami Class MK 2"
+		type = 1,
+		id = 288,
+		code = "Mass-Produced Mogami Class MK 2",
+		nation = 0
 	},
 	[289] = {
-		id = 289,
 		name = "Mass-Produced Fusou Class MK 2",
-		code = "Mass-Produced Fusou Class MK 2"
+		type = 1,
+		id = 289,
+		code = "Mass-Produced Fusou Class MK 2",
+		nation = 0
 	},
 	[290] = {
-		id = 290,
 		name = "Mass-Produced Akagi Class MK 2",
-		code = "Mass-Produced Akagi Class MK 2"
+		type = 1,
+		id = 290,
+		code = "Mass-Produced Akagi Class MK 2",
+		nation = 0
 	},
 	[291] = {
-		id = 291,
 		name = "Taihou-chan",
-		code = "Taihou-chan"
+		type = 1,
+		id = 291,
+		code = "Taihou-chan",
+		nation = 0
 	},
 	[292] = {
-		id = 292,
 		name = "Shimanto",
-		code = "Shimanto"
+		type = 1,
+		id = 292,
+		code = "Shimanto",
+		nation = 0
 	},
 	[293] = {
-		id = 293,
 		name = "Jintsuu META",
-		code = "Jintsuu META"
+		type = 1,
+		id = 293,
+		code = "Jintsuu META",
+		nation = 0
 	},
 	[294] = {
-		id = 294,
 		name = "云仙",
-		code = "Unzen"
+		type = 1,
+		id = 294,
+		code = "Unzen",
+		nation = 0
 	},
 	[295] = {
-		id = 295,
 		name = "尾张",
-		code = "Owari"
+		type = 1,
+		id = 295,
+		code = "Owari",
+		nation = 0
 	},
 	[297] = {
-		id = 297,
 		name = "名取",
-		code = "Beach Paradise"
+		type = 1,
+		id = 297,
+		code = "Beach Paradise",
+		nation = 0
 	},
 	[298] = {
-		id = 298,
 		name = "朝凪",
-		code = "Asanagi"
+		type = 1,
+		id = 298,
+		code = "Asanagi",
+		nation = 0
 	},
 	[400] = {
-		id = 400,
 		name = "Z1",
-		code = "Z1"
+		type = 1,
+		id = 400,
+		code = "Z1",
+		nation = 0
 	},
 	[401] = {
-		id = 401,
 		name = "Z2",
-		code = "Z2"
+		type = 1,
+		id = 401,
+		code = "Z2",
+		nation = 0
 	},
 	[402] = {
-		id = 402,
 		name = "Z5",
-		code = "Z5"
+		type = 1,
+		id = 402,
+		code = "Z5",
+		nation = 0
 	},
 	[403] = {
-		id = 403,
 		name = "Z17",
-		code = "Z17"
+		type = 1,
+		id = 403,
+		code = "Z17",
+		nation = 0
 	},
 	[404] = {
-		id = 404,
 		name = "Z18",
-		code = "Z18"
+		type = 1,
+		id = 404,
+		code = "Z18",
+		nation = 0
 	},
 	[405] = {
-		id = 405,
 		name = "Z19",
-		code = "Z19"
+		type = 1,
+		id = 405,
+		code = "Z19",
+		nation = 0
 	},
 	[406] = {
-		id = 406,
 		name = "Z20",
-		code = "Z20"
+		type = 1,
+		id = 406,
+		code = "Z20",
+		nation = 0
 	},
 	[407] = {
-		id = 407,
 		name = "Z21",
-		code = "Z21"
+		type = 1,
+		id = 407,
+		code = "Z21",
+		nation = 0
 	},
 	[408] = {
-		id = 408,
 		name = "Z23",
-		code = "Z23"
+		type = 1,
+		id = 408,
+		code = "Z23",
+		nation = 0
 	},
 	[409] = {
-		id = 409,
 		name = "Z25",
-		code = "Z25"
+		type = 1,
+		id = 409,
+		code = "Z25",
+		nation = 0
 	},
 	[410] = {
-		id = 410,
 		name = "Z35",
-		code = "Z35"
+		type = 1,
+		id = 410,
+		code = "Z35",
+		nation = 0
 	},
 	[411] = {
-		id = 411,
 		name = "Z36",
-		code = "Z36"
+		type = 1,
+		id = 411,
+		code = "Z36",
+		nation = 0
 	},
 	[412] = {
-		id = 412,
 		name = "Z46",
-		code = "Z46"
+		type = 1,
+		id = 412,
+		code = "Z46",
+		nation = 0
 	},
 	[413] = {
-		id = 413,
 		name = "U-47",
-		code = "U-47"
+		type = 1,
+		id = 413,
+		code = "U-47",
+		nation = 0
 	},
 	[414] = {
-		id = 414,
 		name = "U-81",
-		code = "U-81"
+		type = 1,
+		id = 414,
+		code = "U-81",
+		nation = 0
 	},
 	[415] = {
-		id = 415,
 		name = "U-557",
-		code = "U-557"
+		type = 1,
+		id = 415,
+		code = "U-557",
+		nation = 0
 	},
 	[416] = {
-		id = 416,
 		name = "U-556",
-		code = "U-556"
+		type = 1,
+		id = 416,
+		code = "U-556",
+		nation = 0
 	},
 	[417] = {
-		id = 417,
 		name = "U-73",
-		code = "U-73"
+		type = 1,
+		id = 417,
+		code = "U-73",
+		nation = 0
 	},
 	[418] = {
-		id = 418,
 		name = "U-101",
-		code = "U-101"
+		type = 1,
+		id = 418,
+		code = "U-101",
+		nation = 0
 	},
 	[419] = {
-		id = 419,
 		name = "U-522",
-		code = "U-522"
+		type = 1,
+		id = 419,
+		code = "U-522",
+		nation = 0
 	},
 	[420] = {
-		id = 420,
 		name = "U-110",
-		code = "U-110"
+		type = 1,
+		id = 420,
+		code = "U-110",
+		nation = 0
 	},
 	[421] = {
-		id = 421,
 		name = "Königsberg",
-		code = "Königsberg"
+		type = 1,
+		id = 421,
+		code = "Königsberg",
+		nation = 0
 	},
 	[422] = {
-		id = 422,
 		name = "Karlsruhe",
-		code = "Karlsruhe"
+		type = 1,
+		id = 422,
+		code = "Karlsruhe",
+		nation = 0
 	},
 	[423] = {
-		id = 423,
 		name = "Köln",
-		code = "Köln"
+		type = 1,
+		id = 423,
+		code = "Köln",
+		nation = 0
 	},
 	[424] = {
-		id = 424,
 		name = "Leipzig",
-		code = "Leipzig"
+		type = 1,
+		id = 424,
+		code = "Leipzig",
+		nation = 0
 	},
 	[425] = {
-		id = 425,
 		name = "Admiral Hipper",
-		code = "Admiral Hipper"
+		type = 1,
+		id = 425,
+		code = "Admiral Hipper",
+		nation = 0
 	},
 	[426] = {
-		id = 426,
 		name = "Hipper",
-		code = "Hipper"
+		type = 1,
+		id = 426,
+		code = "Hipper",
+		nation = 0
 	},
 	[427] = {
-		id = 427,
 		name = "Prinz Eugen",
-		code = "Prinz Eugen"
+		type = 1,
+		id = 427,
+		code = "Prinz Eugen",
+		nation = 0
 	},
 	[428] = {
-		id = 428,
 		name = "Eugen",
-		code = "Eugen"
+		type = 1,
+		id = 428,
+		code = "Eugen",
+		nation = 0
 	},
 	[429] = {
-		id = 429,
 		name = "Deutschland",
-		code = "Deutschland"
+		type = 1,
+		id = 429,
+		code = "Deutschland",
+		nation = 0
 	},
 	[430] = {
-		id = 430,
 		name = "Admiral Graf Spee",
-		code = "Admiral Graf Spee"
+		type = 1,
+		id = 430,
+		code = "Admiral Graf Spee",
+		nation = 0
 	},
 	[431] = {
-		id = 431,
 		name = "Graf Spee",
-		code = "Graf Spee"
+		type = 1,
+		id = 431,
+		code = "Graf Spee",
+		nation = 0
 	},
 	[432] = {
-		id = 432,
 		name = "Spee",
-		code = "Spee"
+		type = 1,
+		id = 432,
+		code = "Spee",
+		nation = 0
 	},
 	[433] = {
-		id = 433,
 		name = "Scharnhorst",
-		code = "Scharnhorst"
+		type = 1,
+		id = 433,
+		code = "Scharnhorst",
+		nation = 0
 	},
 	[434] = {
-		id = 434,
 		name = "Gneisenau",
-		code = "Gneisenau"
+		type = 1,
+		id = 434,
+		code = "Gneisenau",
+		nation = 0
 	},
 	[435] = {
-		id = 435,
 		name = "Bismarck",
-		code = "Bismarck"
+		type = 1,
+		id = 435,
+		code = "Bismarck",
+		nation = 0
 	},
 	[436] = {
-		id = 436,
 		name = "Tirpitz",
-		code = "Tirpitz"
+		type = 1,
+		id = 436,
+		code = "Tirpitz",
+		nation = 0
 	},
 	[437] = {
-		id = 437,
 		name = "Graf Zeppelin",
-		code = "Graf Zeppelin"
+		type = 1,
+		id = 437,
+		code = "Graf Zeppelin",
+		nation = 0
 	},
 	[438] = {
-		id = 438,
 		name = "Zeppelin",
-		code = "Zeppelin"
+		type = 1,
+		id = 438,
+		code = "Zeppelin",
+		nation = 0
 	},
 	[439] = {
-		id = 439,
 		name = "Roon",
-		code = "Roon"
+		type = 1,
+		id = 439,
+		code = "Roon",
+		nation = 0
 	},
 	[440] = {
-		id = 440,
 		name = "Friedrich der Grosse",
-		code = "Friedrich der Grosse"
+		type = 1,
+		id = 440,
+		code = "Friedrich der Grosse",
+		nation = 0
 	},
 	[441] = {
-		id = 441,
 		name = "Friedrich",
-		code = "Friedrich"
+		type = 1,
+		id = 441,
+		code = "Friedrich",
+		nation = 0
 	},
 	[442] = {
-		id = 442,
 		name = "Z16",
-		code = "Z16"
+		type = 1,
+		id = 442,
+		code = "Z16",
+		nation = 0
 	},
 	[443] = {
-		id = 443,
 		name = "Z24",
-		code = "Z24"
+		type = 1,
+		id = 443,
+		code = "Z24",
+		nation = 0
 	},
 	[444] = {
-		id = 444,
 		name = "Z26",
-		code = "Z26"
+		type = 1,
+		id = 444,
+		code = "Z26",
+		nation = 0
 	},
 	[445] = {
-		id = 445,
 		name = "Z28",
-		code = "Z28"
+		type = 1,
+		id = 445,
+		code = "Z28",
+		nation = 0
 	},
 	[446] = {
-		id = 446,
 		name = "Nürnberg ",
-		code = "Nürnberg "
+		type = 1,
+		id = 446,
+		code = "Nürnberg ",
+		nation = 0
 	},
 	[447] = {
-		id = 447,
 		name = "Magdeburg",
-		code = "Magdeburg"
+		type = 1,
+		id = 447,
+		code = "Magdeburg",
+		nation = 0
 	},
 	[448] = {
-		id = 448,
 		name = "Emden",
-		code = "Emden"
+		type = 1,
+		id = 448,
+		code = "Emden",
+		nation = 0
 	},
 	[449] = {
-		id = 449,
 		name = "Elbing",
-		code = "Elbing"
+		type = 1,
+		id = 449,
+		code = "Elbing",
+		nation = 0
 	},
 	[450] = {
-		id = 450,
 		name = "Blücher",
-		code = "Blücher"
+		type = 1,
+		id = 450,
+		code = "Blücher",
+		nation = 0
 	},
 	[451] = {
-		id = 451,
 		name = "Admiral Hipper μ",
-		code = "Admiral Hipper μ"
+		type = 1,
+		id = 451,
+		code = "Admiral Hipper μ",
+		nation = 0
 	},
 	[452] = {
-		id = 452,
 		name = "Roon μ ",
-		code = "Roon μ "
+		type = 1,
+		id = 452,
+		code = "Roon μ ",
+		nation = 0
 	},
 	[453] = {
-		id = 453,
 		name = "Prinz Heinrich ",
-		code = "Prinz Heinrich "
+		type = 1,
+		id = 453,
+		code = "Prinz Heinrich ",
+		nation = 0
 	},
 	[454] = {
-		id = 454,
 		name = "Heinrich ",
-		code = "Heinrich "
+		type = 1,
+		id = 454,
+		code = "Heinrich ",
+		nation = 0
 	},
 	[455] = {
-		id = 455,
 		name = "Prinz Adalbert",
-		code = "Prinz Adalbert"
+		type = 1,
+		id = 455,
+		code = "Prinz Adalbert",
+		nation = 0
 	},
 	[456] = {
-		id = 456,
 		name = "Adalbert",
-		code = "Adalbert"
+		type = 1,
+		id = 456,
+		code = "Adalbert",
+		nation = 0
 	},
 	[457] = {
-		id = 457,
 		name = "York",
-		code = "York"
+		type = 1,
+		id = 457,
+		code = "York",
+		nation = 4
 	},
 	[458] = {
-		id = 458,
 		name = "Little Prinz Eugen",
-		code = "Little Prinz Eugen"
+		type = 1,
+		id = 458,
+		code = "Little Prinz Eugen",
+		nation = 0
 	},
 	[459] = {
-		id = 459,
 		name = "Little Spee",
-		code = "Little Spee"
+		type = 1,
+		id = 459,
+		code = "Little Spee",
+		nation = 0
 	},
 	[460] = {
-		id = 460,
 		name = "Seydlitz",
-		code = "Seydlitz"
+		type = 1,
+		id = 460,
+		code = "Seydlitz",
+		nation = 0
 	},
 	[461] = {
-		id = 461,
 		name = "Lützow",
-		code = "Lützow"
+		type = 1,
+		id = 461,
+		code = "Lützow",
+		nation = 0
 	},
 	[462] = {
-		id = 462,
 		name = "Brünhilde",
-		code = "Brünhilde"
+		type = 1,
+		id = 462,
+		code = "Brünhilde",
+		nation = 0
 	},
 	[463] = {
-		id = 463,
 		name = "Ulrich von Hutten",
-		code = "Ulrich von Hutten"
+		type = 1,
+		id = 463,
+		code = "Ulrich von Hutten",
+		nation = 0
 	},
 	[464] = {
-		id = 464,
 		name = "Hutten",
-		code = "Hutten"
+		type = 1,
+		id = 464,
+		code = "Hutten",
+		nation = 0
 	},
 	[465] = {
-		id = 465,
 		name = "Hutten",
-		code = "Hutten"
+		type = 1,
+		id = 465,
+		code = "Hutten",
+		nation = 0
 	},
 	[466] = {
-		id = 466,
 		name = "Thüringen",
-		code = "Thüringen"
+		type = 1,
+		id = 466,
+		code = "Thüringen",
+		nation = 0
 	},
 	[467] = {
-		id = 467,
 		name = "Weser",
-		code = "Weser"
+		type = 1,
+		id = 467,
+		code = "Weser",
+		nation = 0
 	},
 	[468] = {
-		id = 468,
 		name = "Elbe",
-		code = "Elbe"
+		type = 1,
+		id = 468,
+		code = "Elbe",
+		nation = 0
 	},
 	[469] = {
-		id = 469,
 		name = "Zeppy",
-		code = "Zeppy"
+		type = 1,
+		id = 469,
+		code = "Zeppy",
+		nation = 0
 	},
 	[470] = {
-		id = 470,
 		name = "Peter Strasser",
-		code = "Peter Strasser"
+		type = 1,
+		id = 470,
+		code = "Peter Strasser",
+		nation = 0
 	},
 	[471] = {
-		id = 471,
 		name = "Peter",
-		code = "Peter"
+		type = 1,
+		id = 471,
+		code = "Peter",
+		nation = 0
 	},
 	[472] = {
-		id = 472,
 		name = "Strasser",
-		code = "Strasser"
+		type = 1,
+		id = 472,
+		code = "Strasser",
+		nation = 0
 	},
 	[473] = {
-		id = 473,
 		name = "U-96",
-		code = "U-96"
+		type = 1,
+		id = 473,
+		code = "U-96",
+		nation = 0
 	},
 	[474] = {
-		id = 474,
 		name = "U-37",
-		code = "U-37"
+		type = 1,
+		id = 474,
+		code = "U-37",
+		nation = 0
 	},
 	[475] = {
-		id = 475,
 		name = "U-410",
-		code = "U-410"
+		type = 1,
+		id = 475,
+		code = "U-410",
+		nation = 0
 	},
 	[476] = {
-		id = 476,
 		name = "U-1206",
-		code = "U-1206"
+		type = 1,
+		id = 476,
+		code = "U-1206",
+		nation = 0
 	},
 	[477] = {
-		id = 477,
 		name = "Gneisenau META",
-		code = "Gneisenau META"
+		type = 1,
+		id = 477,
+		code = "Gneisenau META",
+		nation = 0
 	},
 	[478] = {
-		id = 478,
 		name = "Scharnhorst META",
-		code = "Scharnhorst META"
+		type = 1,
+		id = 478,
+		code = "Scharnhorst META",
+		nation = 0
 	},
 	[479] = {
-		id = 479,
 		name = "Mainz",
-		code = "Mainz"
+		type = 1,
+		id = 479,
+		code = "Mainz",
+		nation = 0
 	},
 	[480] = {
-		id = 480,
 		name = "Ägir",
-		code = "Ägir"
+		type = 1,
+		id = 480,
+		code = "Ägir",
+		nation = 0
 	},
 	[481] = {
-		id = 481,
 		name = "August von Parseval",
-		code = "August von Parseval"
+		type = 1,
+		id = 481,
+		code = "August von Parseval",
+		nation = 0
 	},
 	[482] = {
-		id = 482,
 		name = "August",
-		code = "August"
+		type = 1,
+		id = 482,
+		code = "August",
+		nation = 0
 	},
 	[483] = {
-		id = 483,
 		name = "Parseval",
-		code = "Parseval"
+		type = 1,
+		id = 483,
+		code = "Parseval",
+		nation = 0
 	},
 	[484] = {
-		id = 484,
 		name = "Prinz Rupprecht",
-		code = "Prinz Rupprecht"
+		type = 1,
+		id = 484,
+		code = "Prinz Rupprecht",
+		nation = 0
 	},
 	[485] = {
-		id = 485,
 		name = "Rupprecht",
-		code = "Rupprecht"
+		type = 1,
+		id = 485,
+		code = "Rupprecht",
+		nation = 0
 	},
 	[486] = {
-		id = 486,
 		name = "Odin",
-		code = "Odin"
+		type = 1,
+		id = 486,
+		code = "Odin",
+		nation = 0
 	},
 	[487] = {
-		id = 487,
 		name = "德累斯顿",
-		code = "迪特林德"
+		type = 1,
+		id = 487,
+		code = "迪特林德",
+		nation = 0
 	},
 	[488] = {
-		id = 488,
 		name = "皮劳",
-		code = "宝拉"
+		type = 1,
+		id = 488,
+		code = "宝拉",
+		nation = 0
 	},
 	[489] = {
-		id = 489,
 		name = "德弗林格尔",
-		code = "多萝泰娅"
+		type = 1,
+		id = 489,
+		code = "多萝泰娅",
+		nation = 0
 	},
 	[490] = {
-		id = 490,
 		name = "赫尔戈兰",
-		code = "赫娜洛蕾"
+		type = 1,
+		id = 490,
+		code = "赫娜洛蕾",
+		nation = 0
 	},
 	[491] = {
-		id = 491,
 		name = "亚德",
-		code = "阿黛尔"
+		type = 1,
+		id = 491,
+		code = "阿黛尔",
+		nation = 0
 	},
 	[492] = {
-		id = 492,
 		name = "舍尔海军上将",
-		code = "席勒"
+		type = 1,
+		id = 492,
+		code = "席勒",
+		nation = 0
 	},
 	[493] = {
-		id = 493,
 		name = "舍尔",
-		code = "席勒"
+		type = 1,
+		id = 493,
+		code = "席勒",
+		nation = 0
 	},
 	[494] = {
-		id = 494,
 		name = "Z47",
-		code = "Z47"
+		type = 1,
+		id = 494,
+		code = "Z47",
+		nation = 0
 	},
 	[495] = {
-		id = 495,
 		name = "Z9",
-		code = "Z9"
+		type = 1,
+		id = 495,
+		code = "Z9",
+		nation = 0
 	},
 	[496] = {
-		id = 496,
 		name = "Z11",
-		code = "Z11"
+		type = 1,
+		id = 496,
+		code = "Z11",
+		nation = 0
 	},
 	[497] = {
-		id = 497,
 		name = "Z12",
-		code = "Z12"
+		type = 1,
+		id = 497,
+		code = "Z12",
+		nation = 0
 	},
 	[498] = {
-		id = 498,
 		name = "Z13",
-		code = "Z13"
+		type = 1,
+		id = 498,
+		code = "Z13",
+		nation = 0
 	},
 	[499] = {
-		id = 499,
 		name = "Z22",
-		code = "Z22"
+		type = 1,
+		id = 499,
+		code = "Z22",
+		nation = 0
 	},
 	[500] = {
-		id = 500,
 		name = "Deutschland-class Production Model",
-		code = "Deutschland-class Production Model"
+		type = 1,
+		id = 500,
+		code = "Deutschland-class Production Model",
+		nation = 0
 	},
 	[501] = {
-		id = 501,
 		name = "Königsberg-class Production Model",
-		code = "Königsberg-class Production Model"
+		type = 1,
+		id = 501,
+		code = "Königsberg-class Production Model",
+		nation = 0
 	},
 	[502] = {
-		id = 502,
 		name = "Admiral Hipper-class Production Model",
-		code = "Admiral Hipper-class Production Model"
+		type = 1,
+		id = 502,
+		code = "Admiral Hipper-class Production Model",
+		nation = 0
 	},
 	[503] = {
-		id = 503,
 		name = "Scharnhorst-class Production Model",
-		code = "Scharnhorst-class Production Model"
+		type = 1,
+		id = 503,
+		code = "Scharnhorst-class Production Model",
+		nation = 0
 	},
 	[504] = {
-		id = 504,
 		name = "Zeppelin-class Production Model",
-		code = "Zeppelin-class Production Model"
+		type = 1,
+		id = 504,
+		code = "Zeppelin-class Production Model",
+		nation = 0
 	},
 	[505] = {
-		id = 505,
 		name = "Mass-Produced Deutschland-classs Mod I",
-		code = "Mass-Produced Deutschland-classs Mod I"
+		type = 1,
+		id = 505,
+		code = "Mass-Produced Deutschland-classs Mod I",
+		nation = 0
 	},
 	[506] = {
-		id = 506,
 		name = "Mass-Produced Königsberg-class Mod I",
-		code = "Mass-Produced Königsberg-class Mod I"
+		type = 1,
+		id = 506,
+		code = "Mass-Produced Königsberg-class Mod I",
+		nation = 0
 	},
 	[507] = {
-		id = 507,
 		name = "Mass-Produced Admiral Hipper-class Mod I",
-		code = "Mass-Produced Admiral Hipper-class Mod I"
+		type = 1,
+		id = 507,
+		code = "Mass-Produced Admiral Hipper-class Mod I",
+		nation = 0
 	},
 	[508] = {
-		id = 508,
 		name = "Mass-Produced Scharnhorst-class Mod I",
-		code = "Mass-Produced Scharnhorst-class Mod I"
+		type = 1,
+		id = 508,
+		code = "Mass-Produced Scharnhorst-class Mod I",
+		nation = 0
 	},
 	[509] = {
-		id = 509,
 		name = "Mass-Produced Graf Zeppelin-class Mod I",
-		code = "Mass-Produced Graf Zeppelin-class Mod I"
+		type = 1,
+		id = 509,
+		code = "Mass-Produced Graf Zeppelin-class Mod I",
+		nation = 0
 	},
 	[510] = {
-		id = 510,
 		name = "Otto von Alvensleben",
-		code = "Otto von Alvensleben"
+		type = 1,
+		id = 510,
+		code = "Otto von Alvensleben",
+		nation = 0
 	},
 	[511] = {
-		id = 511,
 		name = "Otto",
-		code = "Otto"
+		type = 1,
+		id = 511,
+		code = "Otto",
+		nation = 0
 	},
 	[512] = {
-		id = 512,
 		name = "Alvensleben",
-		code = "Alvensleben"
+		type = 1,
+		id = 512,
+		code = "Alvensleben",
+		nation = 0
 	},
 	[513] = {
-		id = 513,
 		name = "Alvensleben",
-		code = "Alvensleben"
+		type = 1,
+		id = 513,
+		code = "Alvensleben",
+		nation = 0
 	},
 	[514] = {
-		id = 514,
 		name = "Bismarck Zwei",
-		code = "Bismarck Zwei"
+		type = 1,
+		id = 514,
+		code = "Bismarck Zwei",
+		nation = 0
 	},
 	[515] = {
-		id = 515,
 		name = "U-556 META",
-		code = "U-556 META"
+		type = 1,
+		id = 515,
+		code = "U-556 META",
+		nation = 0
 	},
 	[516] = {
-		id = 516,
 		name = "Regensburg",
-		code = "Regensburg"
+		type = 1,
+		id = 516,
+		code = "Regensburg",
+		nation = 0
 	},
 	[517] = {
-		id = 517,
 		name = "U-556 META?",
-		code = "U-556 META?"
+		type = 1,
+		id = 517,
+		code = "U-556 META?",
+		nation = 0
 	},
 	[518] = {
-		id = 518,
 		name = "Felix Schultz",
-		code = "Felix Schultz"
+		type = 1,
+		id = 518,
+		code = "Felix Schultz",
+		nation = 0
 	},
 	[519] = {
-		id = 519,
 		name = "Felix Schultz",
-		code = "Felix Schultz"
+		type = 1,
+		id = 519,
+		code = "Felix Schultz",
+		nation = 0
 	},
 	[520] = {
-		id = 520,
 		name = "Felix Schultz",
-		code = "Felix Schultz"
+		type = 1,
+		id = 520,
+		code = "Felix Schultz",
+		nation = 0
 	},
 	[521] = {
-		id = 521,
 		name = "Hindenburg",
-		code = "Hindenburg"
+		type = 1,
+		id = 521,
+		code = "Hindenburg",
+		nation = 0
 	},
 	[522] = {
-		id = 522,
 		name = "Hatakaze META",
-		code = "Hatakaze META"
+		type = 1,
+		id = 522,
+		code = "Hatakaze META",
+		nation = 0
+	},
+	[523] = {
+		name = "Jean Bart",
+		type = 1,
+		id = 523,
+		code = "Jean Bart",
+		nation = 0
+	},
+	[524] = {
+		name = "San Diego",
+		type = 1,
+		id = 524,
+		code = "San Diego",
+		nation = 0
+	},
+	[525] = {
+		name = "Ingraham",
+		type = 1,
+		id = 525,
+		code = "Ingraham",
+		nation = 0
+	},
+	[526] = {
+		name = "Zara",
+		type = 1,
+		id = 526,
+		code = "Zara",
+		nation = 0
+	},
+	[527] = {
+		name = "Li'l Sandy",
+		type = 1,
+		id = 527,
+		code = "Li'l Sandy",
+		nation = 0
+	},
+	[528] = {
+		name = "San Diego Retrofit",
+		type = 1,
+		id = 528,
+		code = "San Diego Retrofit",
+		nation = 0
+	},
+	[10000] = {
+		name = "Type 0 Fighter Model 52",
+		type = 2,
+		id = 10000,
+		code = "Type 0 Fighter Model 52",
+		nation = 0
+	},
+	[10001] = {
+		name = "Tenzan",
+		type = 2,
+		id = 10001,
+		code = "Tenzan",
+		nation = 0
+	},
+	[10002] = {
+		name = "F6F Hellcat",
+		type = 2,
+		id = 10002,
+		code = "F6F Hellcat",
+		nation = 0
+	},
+	[10003] = {
+		name = "SB2C Helldiver",
+		type = 2,
+		id = 10003,
+		code = "SB2C Helldiver",
+		nation = 0
+	},
+	[10004] = {
+		name = "Aichi E16A Zuiun",
+		type = 2,
+		id = 10004,
+		code = "Aichi E16A Zuiun",
+		nation = 0
+	},
+	[10005] = {
+		name = "Seafang",
+		type = 2,
+		id = 10005,
+		code = "Seafang",
+		nation = 0
+	},
+	[10006] = {
+		name = "F6F Hellcat (HVAR-Mounted)",
+		type = 2,
+		id = 10006,
+		code = "F6F Hellcat (HVAR-Mounted)",
+		nation = 0
+	},
+	[10007] = {
+		name = "Tenzan Kai",
+		type = 2,
+		id = 10007,
+		code = "Tenzan Kai",
+		nation = 0
 	}
 }

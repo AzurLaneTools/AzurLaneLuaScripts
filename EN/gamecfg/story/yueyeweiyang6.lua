@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "一道细长的紫电劈向地面，不一会儿，隆隆的雷声便消失了。",
+			say = "Lightning struck several more times until a thin, purple spear of electricity finally struck in the direction of the lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

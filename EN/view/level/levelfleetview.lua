@@ -376,8 +376,11 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))
 
 	if #slot5 > 0 then
+		setActive(slot0.rtCostLimit:Find("cost_noraml"), slot5[1] > 0)
 		setText(slot0.rtCostLimit:Find("cost_noraml/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_enemy"), slot5[1]))
+		setActive(slot0.rtCostLimit:Find("cost_boss"), slot5[2] > 0)
 		setText(slot0.rtCostLimit:Find("cost_boss/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_flagship"), slot5[2]))
+		setActive(slot0.rtCostLimit:Find("cost_sub"), slot5[3] > 0)
 		setText(slot0.rtCostLimit:Find("cost_sub/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_submarine"), slot5[3]))
 	end
 
@@ -1135,8 +1138,11 @@ function slot0.updateEliteLimit(slot0)
 	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip"))
 
 	if #slot1 > 0 then
+		setActive(slot0.rtCostLimit:Find("cost_noraml"), slot1[1] > 0)
 		setText(slot0.rtCostLimit:Find("cost_noraml/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_enemy"), slot1[1]))
+		setActive(slot0.rtCostLimit:Find("cost_boss"), slot1[2] > 0)
 		setText(slot0.rtCostLimit:Find("cost_boss/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_flagship"), slot1[2]))
+		setActive(slot0.rtCostLimit:Find("cost_sub"), slot1[3] > 0)
 		setText(slot0.rtCostLimit:Find("cost_sub/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_submarine"), slot1[3]))
 	end
 end
