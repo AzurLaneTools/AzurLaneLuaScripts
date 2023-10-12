@@ -847,6 +847,26 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4885] = {
+		mark = 20230601,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4885,
+		config_data = {
+			18884
+		},
+		config_client = {
+			npc = {
+				"",
+				18884
+			}
+		}
+	},
 	[4887] = {
 		mark = 20230831,
 		title_res_tag = "card_puzzle",
@@ -7994,6 +8014,7 @@ pg.activity_template = {
 		4180,
 		4282,
 		4877,
+		4885,
 		4887,
 		4888,
 		4889,
