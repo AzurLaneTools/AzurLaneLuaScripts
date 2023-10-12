@@ -14981,8 +14981,8 @@ _G.pg.base.item_data_statistics[30325] = {
 }
 
 _G.pg.base.item_data_statistics[30326] = {
-	display = "랜덤으로 놀이동산 스타일의 장비 스킨 1개를 획득 가능 ",
-	name = "장비스킨 상자(놀이동산)",
+	display = "랜덤으로 쥬쥬랜드 스타일의 장비 스킨 1개를 획득 가능 ",
+	name = "장비스킨 상자(쥬쥬랜드)",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -20881,8 +20881,8 @@ _G.pg.base.item_data_statistics[30523] = {
 }
 
 _G.pg.base.item_data_statistics[30524] = {
-	display = "사용 후 「놀이동산」테마 장비 스킨 중 임의로 1개 선택 가능",
-	name = "지향형 장비 스킨 상자(놀이동산)",
+	display = "사용 후 「쥬쥬랜드」테마 장비 스킨 중 임의로 1개 선택 가능",
+	name = "지향형 장비 스킨 상자(쥬쥬랜드)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,
@@ -176305,7 +176305,7 @@ _G.pg.base.item_data_statistics[58695] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{
@@ -177682,7 +177682,7 @@ _G.pg.base.item_data_statistics[58713] = {
 		},
 		{
 			4,
-			304022,
+			304021,
 			1
 		},
 		{

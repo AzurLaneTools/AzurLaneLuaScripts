@@ -956,5 +956,8 @@ pg.activity_const = {
 	},
 	MINIGAME_ZUMA_PT_SHOP_ID = {
 		act_id = 4983
+	},
+	MINIGAME_RACING_ID = {
+		act_id = 5020
 	}
 }

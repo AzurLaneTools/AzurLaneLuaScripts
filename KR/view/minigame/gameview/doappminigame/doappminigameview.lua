@@ -127,6 +127,7 @@ function slot0.initBackPressSwitch(slot0)
 end
 
 function slot0.willExit(slot0)
+	slot0.gameController:willExit()
 end
 
 return slot0

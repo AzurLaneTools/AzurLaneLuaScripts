@@ -35,6 +35,7 @@ function slot0.Ctor(slot0, slot1)
 	}
 	slot0.location = slot1.location
 	slot0.icon = slot1.icon
+	slot0.autoShowOption = defaultValue(slot1.autoShowOption, false)
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
 end
@@ -53,6 +54,14 @@ end
 
 function slot0.GetId(slot0)
 	return slot0.id
+end
+
+function slot0.AutoShowOption(slot0)
+	slot0.autoShowOption = true
+end
+
+function slot0.SkipEventForOption(slot0)
+	return slot0:ExistOption() and slot0.autoShowOption
 end
 
 function slot0.IsRecallOption(slot0)

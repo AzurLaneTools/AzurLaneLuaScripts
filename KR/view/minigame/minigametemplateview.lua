@@ -213,7 +213,9 @@ function slot0.initOpenUISwich(slot0)
 			setText(slot3:Find("window/high/Text"), slot2)
 			setText(slot3:Find("window/now/Text"), slot1)
 
-			if (uv0.stageIndex == uv0:GetMGHubData().usedtime + 1 or not uv0:getShowSide()) and slot4.count > 0 then
+			slot4 = uv0:GetMGHubData()
+
+			if (not uv0:getShowSide() or uv0.stageIndex == slot4.usedtime + 1) and slot4.count > 0 then
 				uv0:SendSuccess(0)
 			end
 		end

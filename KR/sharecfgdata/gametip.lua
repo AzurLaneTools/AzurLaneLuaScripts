@@ -24345,7 +24345,7 @@ _G.pg.base.gametip.sham_shop_title = {
 }
 
 _G.pg.base.gametip.fragment_shop_title = {
-	tip = "프로토"
+	tip = "원형"
 }
 
 _G.pg.base.gametip.guild_shop_title = {
@@ -24795,4 +24795,52 @@ _G.pg.base.gametip.luckybag_skin_islive2d = {
 
 _G.pg.base.gametip.SkinMagazinePage2_tip = {
 	tip = "출석 체크"
+}
+
+_G.pg.base.gametip.racing_cost = {
+	tip = "누적\n소모"
+}
+
+_G.pg.base.gametip.racing_rank_top_text = {
+	tip = "친구 순위"
+}
+
+_G.pg.base.gametip.racing_rank_half_h = {
+	tip = "* 30분마다 업데이트"
+}
+
+_G.pg.base.gametip.racing_rank_no_data = {
+	tip = "정보가 없습니다."
+}
+
+_G.pg.base.gametip.racing_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/racing2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/racing2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

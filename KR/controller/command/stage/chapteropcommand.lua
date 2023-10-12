@@ -94,6 +94,8 @@ function slot0.execute(slot0, slot1)
 							end
 
 							slot3 = slot1:FinishAutoFight(slot2.id)
+
+							getProxy(ChapterProxy):SetLastFleetIndex(uv0.chapter:GetRegularFleetIds(), true)
 						end
 
 						uv0:doRetreat()

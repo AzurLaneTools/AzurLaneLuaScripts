@@ -158,7 +158,7 @@ function slot0.onConfirm(slot0)
 			slot0()
 		end,
 		function (slot0)
-			getProxy(PlayerProxy):setFlag("lastFleetIndex", uv0)
+			getProxy(ChapterProxy):SetLastFleetIndex(uv0)
 
 			slot2 = LevelMediator2.ON_TRACKING
 			slot3 = table.packParams(uv2.id, uv2.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv1, 1) == 1)

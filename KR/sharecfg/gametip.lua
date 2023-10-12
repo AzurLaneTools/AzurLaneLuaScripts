@@ -21648,422 +21648,447 @@ cs.gametip = {
 	},
 	fragment_shop_title = {
 		879789,
-		92,
+		89,
 		true
 	},
 	guild_shop_title = {
-		879881,
+		879878,
 		89,
 		true
 	},
 	medal_shop_title = {
-		879970,
+		879967,
 		86,
 		true
 	},
 	meta_shop_title = {
-		880056,
+		880053,
 		83,
 		true
 	},
 	mini_game_shop_title = {
-		880139,
+		880136,
 		90,
 		true
 	},
 	metaskill_up = {
-		880229,
+		880226,
 		234,
 		true
 	},
 	metaskill_overflow_tip = {
-		880463,
+		880460,
 		213,
 		true
 	},
 	msgbox_repair_cipher = {
-		880676,
+		880673,
 		109,
 		true
 	},
 	msgbox_repair_title = {
-		880785,
+		880782,
 		89,
 		true
 	},
 	equip_skin_detail_count = {
-		880874,
+		880871,
 		98,
 		true
 	},
 	faest_nothing_to_get = {
-		880972,
+		880969,
 		128,
 		true
 	},
 	feast_click_to_close = {
-		881100,
+		881097,
 		116,
 		true
 	},
 	feast_invitation_btn_label = {
-		881216,
+		881213,
 		103,
 		true
 	},
 	feast_task_btn_label = {
-		881319,
+		881316,
 		100,
 		true
 	},
 	feast_task_pt_label = {
-		881419,
+		881416,
 		93,
 		true
 	},
 	feast_task_pt_level = {
-		881512,
+		881509,
 		87,
 		true
 	},
 	feast_task_pt_get = {
-		881599,
+		881596,
 		90,
 		true
 	},
 	feast_task_pt_got = {
-		881689,
+		881686,
 		94,
 		true
 	},
 	feast_task_tag_daily = {
-		881783,
+		881780,
 		101,
 		true
 	},
 	feast_task_tag_activity = {
-		881884,
+		881881,
 		101,
 		true
 	},
 	feast_label_make_invitation = {
-		881985,
+		881982,
 		107,
 		true
 	},
 	feast_no_invitation = {
-		882092,
+		882089,
 		109,
 		true
 	},
 	feast_no_gift = {
-		882201,
+		882198,
 		100,
 		true
 	},
 	feast_label_give_invitation = {
-		882301,
+		882298,
 		107,
 		true
 	},
 	feast_label_give_invitation_finish = {
-		882408,
+		882405,
 		111,
 		true
 	},
 	feast_label_give_gift = {
-		882519,
+		882516,
 		98,
 		true
 	},
 	feast_label_give_gift_finish = {
-		882617,
+		882614,
 		105,
 		true
 	},
 	feast_label_make_ticket_tip = {
-		882722,
+		882719,
 		158,
 		true
 	},
 	feast_label_make_ticket_click_tip = {
-		882880,
+		882877,
 		127,
 		true
 	},
 	feast_label_make_ticket_failed_tip = {
-		883007,
+		883004,
 		152,
 		true
 	},
 	feast_res_window_title = {
-		883159,
+		883156,
 		99,
 		true
 	},
 	feast_res_window_go_label = {
-		883258,
+		883255,
 		101,
 		true
 	},
 	feast_tip = {
-		883359,
+		883356,
 		422,
 		true
 	},
 	feast_invitation_part1 = {
-		883781,
+		883778,
 		138,
 		true
 	},
 	feast_invitation_part2 = {
-		883919,
+		883916,
 		223,
 		true
 	},
 	feast_invitation_part3 = {
-		884142,
+		884139,
 		267,
 		true
 	},
 	feast_invitation_part4 = {
-		884409,
+		884406,
 		219,
 		true
 	},
 	uscastle2023_help = {
-		884628,
+		884625,
 		1897,
 		true
 	},
 	feast_cant_give_gift_tip = {
-		886525,
+		886522,
 		144,
 		true
 	},
 	uscastle2023_minigame_help = {
-		886669,
+		886666,
 		367,
 		true
 	},
 	feast_drag_invitation_tip = {
-		887036,
+		887033,
 		148,
 		true
 	},
 	feast_drag_gift_tip = {
-		887184,
+		887181,
 		146,
 		true
 	},
 	shoot_preview = {
-		887330,
+		887327,
 		90,
 		true
 	},
 	hit_preview = {
-		887420,
+		887417,
 		88,
 		true
 	},
 	story_label_skip = {
-		887508,
+		887505,
 		86,
 		true
 	},
 	story_label_auto = {
-		887594,
+		887591,
 		86,
 		true
 	},
 	launch_ball_skill_desc = {
-		887680,
+		887677,
 		99,
 		true
 	},
 	launch_ball_hatsuduki_skill_1 = {
-		887779,
+		887776,
 		117,
 		true
 	},
 	launch_ball_hatsuduki_skill_1_desc = {
-		887896,
+		887893,
 		190,
 		true
 	},
 	launch_ball_hatsuduki_skill_2 = {
-		888086,
+		888083,
 		127,
 		true
 	},
 	launch_ball_hatsuduki_skill_2_desc = {
-		888213,
+		888210,
 		370,
 		true
 	},
 	launch_ball_shinano_skill_1 = {
-		888583,
+		888580,
 		114,
 		true
 	},
 	launch_ball_shinano_skill_1_desc = {
-		888697,
+		888694,
 		203,
 		true
 	},
 	launch_ball_shinano_skill_2 = {
-		888900,
+		888897,
 		118,
 		true
 	},
 	launch_ball_shinano_skill_2_desc = {
-		889018,
+		889015,
 		253,
 		true
 	},
 	launch_ball_yura_skill_1 = {
-		889271,
+		889268,
 		115,
 		true
 	},
 	launch_ball_yura_skill_1_desc = {
-		889386,
+		889383,
 		182,
 		true
 	},
 	launch_ball_yura_skill_2 = {
-		889568,
+		889565,
 		112,
 		true
 	},
 	launch_ball_yura_skill_2_desc = {
-		889680,
+		889677,
 		234,
 		true
 	},
 	launch_ball_shimakaze_skill_1 = {
-		889914,
+		889911,
 		116,
 		true
 	},
 	launch_ball_shimakaze_skill_1_desc = {
-		890030,
+		890027,
 		219,
 		true
 	},
 	launch_ball_shimakaze_skill_2 = {
-		890249,
+		890246,
 		116,
 		true
 	},
 	launch_ball_shimakaze_skill_2_desc = {
-		890365,
+		890362,
 		230,
 		true
 	},
 	jp6th_spring_tip1 = {
-		890595,
+		890592,
 		193,
 		true
 	},
 	jp6th_spring_tip2 = {
-		890788,
+		890785,
 		117,
 		true
 	},
 	jp6th_biaohoushan_help = {
-		890905,
+		890902,
 		1580,
 		true
 	},
 	jp6th_lihoushan_help = {
-		892485,
+		892482,
 		3063,
 		true
 	},
 	jp6th_lihoushan_time = {
-		895548,
+		895545,
 		142,
 		true
 	},
 	jp6th_lihoushan_order = {
-		895690,
+		895687,
 		141,
 		true
 	},
 	jp6th_lihoushan_pt1 = {
-		895831,
+		895828,
 		110,
 		true
 	},
 	launchball_minigame_help = {
-		895941,
+		895938,
 		88,
 		true
 	},
 	launchball_minigame_select = {
-		896029,
+		896026,
 		119,
 		true
 	},
 	launchball_minigame_un_select = {
-		896148,
+		896145,
 		137,
 		true
 	},
 	launchball_minigame_shop = {
-		896285,
+		896282,
 		104,
 		true
 	},
 	launchball_lock_Shinano = {
-		896389,
+		896386,
 		175,
 		true
 	},
 	launchball_lock_Yura = {
-		896564,
+		896561,
 		169,
 		true
 	},
 	launchball_lock_Shimakaze = {
-		896733,
+		896730,
 		180,
 		true
 	},
 	launchball_spilt_series = {
-		896913,
+		896910,
 		205,
 		true
 	},
 	launchball_spilt_mix = {
-		897118,
+		897115,
 		293,
 		true
 	},
 	launchball_spilt_over = {
-		897411,
+		897408,
 		247,
 		true
 	},
 	launchball_spilt_many = {
-		897658,
+		897655,
 		177,
 		true
 	},
 	luckybag_skin_isani = {
-		897835,
+		897832,
 		102,
 		true
 	},
 	luckybag_skin_islive2d = {
-		897937,
+		897934,
 		89,
 		true
 	},
 	SkinMagazinePage2_tip = {
-		898026,
+		898023,
 		98,
+		true
+	},
+	racing_cost = {
+		898121,
+		88,
+		true
+	},
+	racing_rank_top_text = {
+		898209,
+		97,
+		true
+	},
+	racing_rank_half_h = {
+		898306,
+		108,
+		true
+	},
+	racing_rank_no_data = {
+		898414,
+		106,
+		true
+	},
+	racing_minigame_help = {
+		898520,
+		357,
 		true
 	}
 }

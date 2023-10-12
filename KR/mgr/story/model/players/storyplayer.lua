@@ -3,6 +3,9 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 slot4 = 3
+slot5 = 0
+slot6 = 1
+slot7 = 2
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
@@ -37,6 +40,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.locationTr = slot0:findTF("front/location")
 	slot0.locationTxt = slot0:findTF("front/location/Text"):GetComponent(typeof(Text))
 	slot0.locationTrPos = slot0.locationTr.localPosition
+	slot0.locationAnim = slot0.locationTr:GetComponent(typeof(Animation))
+	slot0.locationAniEvent = slot0.locationTr:GetComponent(typeof(DftAniEvent))
 	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
 	slot0.dialogueWin = nil
 	slot0.bgs = {}
@@ -214,14 +219,20 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0.stage = uv1
 
+			if uv2:SkipEventForOption() then
+				slot0()
+
+				return
+			end
+
 			if uv0:ShouldAutoTrigger() then
-				uv0:UnscaleDelayCall(uv2, slot0)
+				uv0:UnscaleDelayCall(uv3, slot0)
 
 				return
 			end
 
 			uv0:RegisetEvent(slot0)
-			uv0:TriggerEventIfAuto(uv2)
+			uv0:TriggerEventIfAuto(uv3)
 		end,
 		function (slot0)
 			uv0.stage = uv1
@@ -358,6 +369,7 @@ end
 
 function slot0.SetLocation(slot0, slot1, slot2)
 	if not slot1:ExistLocation() then
+		slot0.locationAniEvent:SetEndEvent(nil)
 		slot2()
 
 		return
@@ -366,27 +378,28 @@ function slot0.SetLocation(slot0, slot1, slot2)
 	setActive(slot0.locationTr, true)
 
 	slot0.locationTxt.text = slot1:GetLocation().text
-	slot5 = slot0.locationTr.localPosition.x - 1000
-	slot0.locationTr.localPosition = Vector3(slot5, slot0.locationTr.localPosition.y, 0)
 
-	function slot8()
-		slot0 = uv0
+	function slot5()
+		uv0:DelayCall(uv1.time, function ()
+			uv0.locationAnim:Play("anim_newstoryUI_iocation_out")
 
-		slot0:DelayCall(uv1.time, function ()
-			slot0 = uv0
-
-			slot0:TweenValue(uv0.locationTr, uv1, uv2, 1.5, 0, function (slot0)
-				uv0.locationTr.localPosition = Vector3(slot0, uv1, 0)
-			end)
+			uv0.locationStatus = uv1
 		end)
 	end
 
-	slot0:TweenValue(slot0.locationTr, slot5, slot0.locationTr.localPosition.x, 1.5, 0, function (slot0)
-		uv0.locationTr.localPosition = Vector3(slot0, uv1, 0)
-	end, function ()
-		uv0()
-		uv1()
+	slot0.locationAniEvent:SetEndEvent(function ()
+		if uv0.locationStatus == uv1 then
+			uv2()
+			uv3()
+		elseif uv0.locationStatus == uv4 then
+			setActive(uv0.locationTr, false)
+
+			uv0.locationStatus = uv5
+		end
 	end)
+	slot0.locationAnim:Play("anim_newstoryUI_iocation_in")
+
+	slot0.locationStatus = uv1
 end
 
 function slot0.UpdateIcon(slot0, slot1, slot2)
@@ -420,6 +433,7 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
 	slot7 = slot0:GetOptionContainer(slot2)
 	slot9 = slot0.branchCodeList[slot2:GetId()] or {}
+	slot0.selectedBranchID = nil
 
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -434,17 +448,29 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				uv0:SetBranchCode(uv2, uv3, uv4)
-				uv0:ShowOrHideBranches(uv3, false, function ()
-					uv0(uv1)
-				end)
+				uv0.selectedBranchID = uv2
+
+				uv0:SetBranchCode(uv3, uv4, uv5)
+
+				if uv6:GetComponent(typeof(Animation)) then
+					slot0:Play("anim_storydialogue_optiontpl_confirm")
+					uv6:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+						setActive(uv0.optionsCg.gameObject, false)
+						uv1(uv2)
+					end)
+				else
+					setActive(uv0.optionsCg.gameObject, false)
+					uv7(uv8)
+				end
+
+				uv0:HideBranchesWithoutSelected(uv4)
 			end, SFX_PANEL)
 			setButtonEnabled(slot3, not table.contains(uv1, uv0[slot1 + 1][2]))
 			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
 		end
 	end)
 	slot7:align(#slot2:GetOptions())
-	slot0:ShowOrHideBranches(slot2, true, function ()
+	slot0:ShowBranches(slot2, function ()
 		uv0 = true
 
 		if uv1 then
@@ -464,9 +490,24 @@ function slot0.SetBranchCode(slot0, slot1, slot2, slot3)
 	table.insert(slot0.branchCodeList[slot4], slot3)
 end
 
-function slot0.ShowOrHideBranches(slot0, slot1, slot2, slot3)
-	setActive(slot0.optionsCg.gameObject, slot2)
-	slot3()
+function slot0.ShowBranches(slot0, slot1, slot2)
+	setActive(slot0.optionsCg.gameObject, true)
+
+	for slot7 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
+		if slot3.container:GetChild(slot7):GetComponent(typeof(Animation)) then
+			slot9:Play("anim_storydialogue_optiontpl_in")
+		end
+	end
+
+	slot2()
+end
+
+function slot0.HideBranchesWithoutSelected(slot0, slot1)
+	for slot6 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
+		if slot6 ~= slot0.selectedBranchID and slot2.container:GetChild(slot6):GetComponent(typeof(Animation)) then
+			slot8:Play("anim_storydialogue_optiontpl_unselected")
+		end
+	end
 end
 
 function slot0.StartMoveNode(slot0, slot1, slot2)
@@ -502,7 +543,7 @@ function slot0.MoveNode(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot8(slot0, slot1, slot2, slot3, slot4)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetSpineChar(slot1, true, function (slot0)
@@ -520,7 +561,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot6(slot0, slot1, slot2, slot3)
+function slot9(slot0, slot1, slot2, slot3)
 	slot4 = GameObject.New("movable")
 	slot5 = slot4.transform
 
@@ -1016,6 +1057,7 @@ function slot0.Reset(slot0, slot1, slot2, slot3)
 	setActive(slot0.locationTr, false)
 
 	slot0.locationTr.localPosition = slot0.locationTrPos
+	slot0.locationStatus = uv0
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
 

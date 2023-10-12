@@ -111425,7 +111425,7 @@ pg.base.skill_data_template = {
 		id = 108310,
 		type = 3,
 		max_level = 10,
-		desc = "항공 수치가 $1 상승한다. 전투 중 2초마다 특수 공격 $2를 실시(위력은 스킬 레벨에 따라 다름)하고, 무작위의 아군 선봉함대 캐릭터 1명의 내구를 최대 내구의 $3만큼 회복시킨다",
+		desc = "항공 수치가 $1 상승한다. 전투 중 20초마다 특수 공격 $2를 실시(위력은 스킬 레벨에 따라 다름)하고, 무작위의 아군 선봉함대 캐릭터 1명의 내구를 최대 내구의 $3만큼 회복시킨다",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -122619,7 +122619,7 @@ pg.base.skill_data_template = {
 	},
 	[800981] = {
 		desc_get = "",
-		name = "횃불의 힘·프린스턴Ⅰ",
+		name = "섬멸의 횃불·프린스턴Ⅰ",
 		id = 800981,
 		type = 1,
 		max_level = 1,
@@ -122635,7 +122635,7 @@ pg.base.skill_data_template = {
 	},
 	[800982] = {
 		desc_get = "",
-		name = "횃불의 힘·프린스턴Ⅱ",
+		name = "섬멸의 횃불·프린스턴Ⅱ",
 		id = 800982,
 		type = 1,
 		max_level = 1,
@@ -122651,7 +122651,7 @@ pg.base.skill_data_template = {
 	},
 	[800985] = {
 		desc_get = "",
-		name = "횃불의 힘·프린스턴Ⅰ",
+		name = "섬멸의 횃불·프린스턴Ⅰ",
 		id = 800985,
 		type = 1,
 		max_level = 1,
@@ -122667,7 +122667,7 @@ pg.base.skill_data_template = {
 	},
 	[800987] = {
 		desc_get = "",
-		name = "횃불의 힘·프린스턴Ⅱ",
+		name = "섬멸의 횃불·프린스턴Ⅱ",
 		id = 800987,
 		type = 1,
 		max_level = 1,

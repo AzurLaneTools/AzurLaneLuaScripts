@@ -3402,6 +3402,17 @@ pg.fleet_tech_ship_class = {
 			970602
 		}
 	},
+	[970603] = {
+		shiptype = 6,
+		name = "프린스턴·META",
+		nation = 97,
+		id = 970603,
+		t_level_1 = 11,
+		t_level = 1,
+		ships = {
+			970603
+		}
+	},
 	[970701] = {
 		shiptype = 7,
 		name = "히류·META",
@@ -3742,6 +3753,7 @@ pg.fleet_tech_ship_class = {
 		970504,
 		970601,
 		970602,
+		970603,
 		970701,
 		970702,
 		970703,

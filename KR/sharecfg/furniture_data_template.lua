@@ -129,6 +129,7 @@ pg.furniture_data_template = setmetatable({
 			258,
 			259,
 			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -4899,6 +4900,7 @@ pg.furniture_data_template = setmetatable({
 			258,
 			259,
 			260,
+			263,
 			100002,
 			100003,
 			100004,
@@ -5813,6 +5815,7 @@ pg.furniture_data_template = setmetatable({
 			258,
 			259,
 			260,
+			263,
 			100002,
 			100004,
 			100005,
@@ -8482,6 +8485,7 @@ pg.furniture_data_template = setmetatable({
 		258,
 		259,
 		260,
+		263,
 		100002,
 		100003,
 		100004,
@@ -17134,6 +17138,49 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[263] = {
+		spine_extra = "",
+		describe = "모항 레이스에서 우승을 거둔 증표. 거대한 트로피는 영예와 실력을 상징한다쥬쥬.",
+		gain_by = "극속 레이스",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "saichangjiangbeiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "우승 트로피",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 263,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"saichangjiangbei",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},

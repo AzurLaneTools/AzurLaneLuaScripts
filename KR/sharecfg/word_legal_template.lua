@@ -113,6 +113,11 @@ function temp()
 				}
 			}
 		},
+		["만"] = {
+			["토"] = {
+				this = true
+			}
+		},
 		["애"] = {
 			["틀"] = {
 				this = true
@@ -1024,6 +1029,13 @@ function temp()
 				}
 			}
 		},
+		["사"] = {
+			["나"] = {
+				["기"] = {
+					this = true
+				}
+			}
+		},
 		["부"] = {
 			["쿠"] = {
 				["마"] = {
@@ -1422,6 +1434,11 @@ function temp()
 		},
 		["이"] = {
 			["테"] = {
+				this = true
+			}
+		},
+		["와"] = {
+			["리"] = {
 				this = true
 			}
 		},
@@ -4570,6 +4587,11 @@ function temp()
 				this = true
 			}
 		},
+		["토"] = {
+			["리"] = {
+				this = true
+			}
+		},
 		["치"] = {
 			this = true
 		},
@@ -4705,6 +4727,16 @@ temp()
 function temp()
 	uv0["묘"] = {
 		["코"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["운"] = {
+		["젠"] = {
 			this = true
 		}
 	}

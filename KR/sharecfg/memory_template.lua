@@ -2572,6 +2572,11 @@ pg.memory_template = setmetatable({
 		3031,
 		3032,
 		3033,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
 		10000,
 		10001,
 		10002,
@@ -30911,6 +30916,61 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER3",
 		id = 3033,
 		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3041] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "잠든 기다림의 은가마",
+		condition = "「모항 패션 컬렉션：Race Begins！」 시나노 출석 완료",
+		story = "SHISHANGTEKANSAICHE1",
+		id = 3041,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3042] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "스플렌디드 기어",
+		condition = "「모항 패션 컬렉션：Race Begins！」 볼티모어  출석 완료",
+		story = "SHISHANGTEKANSAICHE2",
+		id = 3042,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3043] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Final Lap",
+		condition = "「모항 패션 컬렉션：Race Begins！」 프린츠 오이겐 출석 완료",
+		story = "SHISHANGTEKANSAICHE3",
+		id = 3043,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3044] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Wind Catcher",
+		condition = "「모항 패션 컬렉션：Race Begins！」 엔터프라이즈 출석 완료",
+		story = "SHISHANGTEKANSAICHE4",
+		id = 3044,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3045] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "고고한 이그니션 타임",
+		condition = "「모항 패션 컬렉션：Race Begins！」 울리히 폰 후텐 출석 완료",
+		story = "SHISHANGTEKANSAICHE5",
+		id = 3045,
+		icon = "memory_shishangtekansaiche",
 		is_open = 0
 	},
 	[10000] = {

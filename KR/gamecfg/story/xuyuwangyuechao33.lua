@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "借助月光，漫无目的地行进。",
+			say = "달빛에 의지하여 목적 없이 행진한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

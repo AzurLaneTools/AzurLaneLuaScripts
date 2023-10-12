@@ -30610,8 +30610,8 @@ pg.equip_skin_template = {
 		orbit_combat_bound = {
 			"face",
 			{
-				-0.23,
-				1.25,
+				0,
+				1.15,
 				-0.91
 			}
 		},
@@ -30619,7 +30619,7 @@ pg.equip_skin_template = {
 			"face",
 			{
 				0,
-				-251
+				140
 			}
 		},
 		orbit_hidden_action = {

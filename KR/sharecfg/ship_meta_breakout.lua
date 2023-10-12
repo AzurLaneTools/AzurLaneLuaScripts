@@ -77,11 +77,11 @@ pg.ship_meta_breakout = setmetatable({
 		9706021,
 		9706022,
 		9706023,
+		9706024,
 		9706031,
 		9706032,
 		9706033,
 		9706034,
-		9706024,
 		9707011,
 		9707012,
 		9707013,
@@ -522,7 +522,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702043] = {
-		breakout_view = "[빛을 쫓는 화염·라 갈리소니에르] 레벨업/주포 효율 15% 향상",
+		breakout_view = "[빛을 쫓는 화염·라 갈리소니에르] 레벨업/주포 효율 10% 향상",
 		gold = 2500,
 		breakout_id = 9702044,
 		repair = 0,
@@ -1332,6 +1332,20 @@ pg.base.ship_meta_breakout = {
 			54012
 		}
 	},
+	[9706024] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9706024,
+		item1 = 21008,
+		pre_id = 9706023,
+		weapon_ids = {}
+	},
 	[9706031] = {
 		breakout_view = "스킬 [섬멸의 횃불·프린스턴] 습득/전투기 탑재량 +1 / 전투기 효율 +5%",
 		gold = 500,
@@ -1399,20 +1413,6 @@ pg.base.ship_meta_breakout = {
 		id = 9706034,
 		item1 = 21026,
 		pre_id = 9706033,
-		weapon_ids = {}
-	},
-	[9706024] = {
-		breakout_view = "없음",
-		gold = 0,
-		breakout_id = 0,
-		repair = 0,
-		item2 = 21001,
-		item1_num = 0,
-		level = 0,
-		item2_num = 0,
-		id = 9706024,
-		item1 = 21008,
-		pre_id = 9706023,
 		weapon_ids = {}
 	},
 	[9707011] = {

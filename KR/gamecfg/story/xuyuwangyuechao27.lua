@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "운선의 의장은 순식간에 빛나는 나비로 변하여 뿔뿔이 흩어졌다.",
+			say = "운젠의 의장은 순식간에 빛나는 나비로 변하여 뿔뿔이 흩어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

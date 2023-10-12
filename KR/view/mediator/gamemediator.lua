@@ -31,18 +31,18 @@ function slot0.handleNotification(slot0, slot1)
 		})
 
 		slot6 = pg.mini_game[slot5]
-		slot4.mediator = require("view.miniGame.gameMediator." .. slot6.mediator_name)
-		slot4.viewComponent = require("view.miniGame.gameView." .. slot6.view_name)
+		slot4.mediator = _G[slot6.mediator_name]
+		slot4.viewComponent = _G[slot6.view_name]
 		slot4.scene = slot6.view_name
 
 		print("load minigame: " .. slot6.view_name)
 
-		slot9 = {
+		slot7 = {
 			context = slot4
 		}
 
-		table.merge(slot9, slot1:getType())
-		slot0:sendNotification(GAME.LOAD_SCENE, slot9)
+		table.merge(slot7, slot1:getType())
+		slot0:sendNotification(GAME.LOAD_SCENE, slot7)
 	elseif slot2 == GAME.LOAD_SCENE_DONE then
 		print("scene loaded: ", slot3)
 
