@@ -238,7 +238,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………让·巴尔？",
+			say = "…………{namecode:523}？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……别走，让·巴尔！",
+			say = "等等……别走，{namecode:523}！",
 			painting = {
 				alpha = 0.3,
 				time = 1

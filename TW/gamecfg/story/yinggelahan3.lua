@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "为了实现将旧设备顺利搬入的“壮举”，英格拉罕和库珀正在废弃库房中奋力清理着。",
+			say = "为了实现将旧设备顺利搬入的“壮举”，{namecode:525}和库珀正在废弃库房中奋力清理着。",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "没什么啦，只是举手之劳~英格拉罕平时帮了我那么多，我来帮帮忙是理所应当的。",
+			say = "没什么啦，只是举手之劳~{namecode:525}平时帮了我那么多，我来帮帮忙是理所应当的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "天色渐暗，英格拉罕环顾着已经变为简易工作室的旧库房，满意地点了点头。",
+			say = "天色渐暗，{namecode:525}环顾着已经变为简易工作室的旧库房，满意地点了点头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕若有所思地凝视着摆放在工作台上的造型奇特的盾牌。",
+			say = "{namecode:525}若有所思地凝视着摆放在工作台上的造型奇特的盾牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕在工作台上画了几张图，然后带上护目镜，开始了针对这面盾牌的“维修”工作——",
+			say = "{namecode:525}在工作台上画了几张图，然后带上护目镜，开始了针对这面盾牌的“维修”工作——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

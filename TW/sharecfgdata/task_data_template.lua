@@ -34387,6 +34387,276 @@ _G.pg.base.task_data_template[10099] = {
 	}
 }
 
+_G.pg.base.task_data_template[10155] = {
+	name = "限時 兵裝訓練任務1",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成1次「每日挑戰-限時兵裝訓練」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10155,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10156] = {
+	name = "限時 兵裝訓練任務2",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成2次「每日挑戰-限時兵裝訓練」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10156,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10157] = {
+	name = "限時 兵裝訓練任務3",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	desc = "完成3次「每日挑戰-限時兵裝訓練」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10157,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10158] = {
+	name = "限時 兵裝訓練任務4",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	desc = "完成4次「每日挑戰-限時兵裝訓練」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10158,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10159] = {
+	name = "限時 兵裝訓練任務5",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	desc = "完成5次「每日挑戰-限時兵裝訓練」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10159,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
 _G.pg.base.task_data_template[10204] = {
 	name = "季夏(?)攻勢1",
 	guild_coin_award = 0,
@@ -61083,7 +61353,7 @@ _G.pg.base.task_data_template[14657] = {
 }
 
 _G.pg.base.task_data_template[14658] = {
-	name = "小圣地亚哥临时角色加入",
+	name = "{namecode:527}临时角色加入",
 	guild_coin_award = 0,
 	award = 91140,
 	type = 6,
@@ -79921,7 +80191,7 @@ _G.pg.base.task_data_template[15506] = {
 }
 
 _G.pg.base.task_data_template[15507] = {
-	name = "『美系V3』角色刷关：圣地亚哥",
+	name = "『美系V3』角色刷关：{namecode:524}",
 	guild_coin_award = 0,
 	award = 92807,
 	type = 6,
@@ -82641,7 +82911,7 @@ _G.pg.base.task_data_template[15585] = {
 }
 
 _G.pg.base.task_data_template[15586] = {
-	name = "『法系V2』角色刷关：让巴尔",
+	name = "『法系V2』角色刷关：{namecode:523}",
 	guild_coin_award = 0,
 	award = 93056,
 	type = 6,
@@ -120274,7 +120544,7 @@ _G.pg.base.task_data_template[17165] = {
 }
 
 _G.pg.base.task_data_template[17166] = {
-	name = "『法系V2复刻』角色刷关：让巴尔",
+	name = "『法系V2复刻』角色刷关：{namecode:523}",
 	guild_coin_award = 0,
 	award = 96307,
 	type = 6,
@@ -122532,7 +122802,7 @@ _G.pg.base.task_data_template[17242] = {
 }
 
 _G.pg.base.task_data_template[17243] = {
-	name = "小圣地亚哥复刻临时角色加入",
+	name = "{namecode:527}复刻临时角色加入",
 	guild_coin_award = 0,
 	award = 96510,
 	type = 6,
@@ -148150,6 +148420,1011 @@ _G.pg.base.task_data_template[18034] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18040] = {
+	name = "『德系V3复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98390,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18040,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18041] = {
+	name = "『德系V3复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98391,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18041,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18042] = {
+	name = "『德系V3复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98392,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18042,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59357,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18043] = {
+	name = "『德系V3复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98393,
+	type = 36,
+	desc = "通過1次任意活動關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18043,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460002,
+		1460003,
+		1460004,
+		1460005,
+		1460006,
+		1460021,
+		1460022,
+		1460023,
+		1460024,
+		1460025,
+		1460026,
+		1460041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59357,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18044] = {
+	name = "『德系V3复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98394,
+	type = 6,
+	desc = "擊敗A1或C1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18044,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18045] = {
+	name = "『德系V3复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98395,
+	type = 6,
+	desc = "擊敗A2或C2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18045,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18046] = {
+	name = "『德系V3复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98396,
+	type = 6,
+	desc = "擊敗A3或C3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18046,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18047] = {
+	name = "『德系V3复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98397,
+	type = 6,
+	desc = "擊敗B1或D1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18047,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18048] = {
+	name = "『德系V3复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98398,
+	type = 6,
+	desc = "擊敗B2或D2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18048,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59357,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18049] = {
+	name = "『德系V3复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98399,
+	type = 6,
+	desc = "擊敗B3或D3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18049,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59357,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18050] = {
+	name = "『德系V3复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98400,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1460041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18050,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59358,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460025,
+			chapterId = 1460041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18051] = {
+	name = "『德系V3复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98401,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複取得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1460026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18051,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			189,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460012,
+			chapterId = 1460026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18052] = {
+	name = "『德系V3复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98402,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18053",
+	auto_commit = 0,
+	story_id = "",
+	id = 18052,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460001,
+		1460021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18053] = {
+	name = "『德系V3复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98403,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18054",
+	auto_commit = 0,
+	story_id = "",
+	id = 18053,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460002,
+		1460022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18054] = {
+	name = "『德系V3复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98404,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18055",
+	auto_commit = 0,
+	story_id = "",
+	id = 18054,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460003,
+		1460023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41347
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18055] = {
+	name = "『德系V3复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98405,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18056",
+	auto_commit = 0,
+	story_id = "",
+	id = 18055,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460004,
+		1460024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18056] = {
+	name = "『德系V3复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98406,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18057",
+	auto_commit = 0,
+	story_id = "",
+	id = 18056,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460005,
+		1460025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18057] = {
+	name = "『德系V3复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98407,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18057,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1460006,
+		1460026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41348
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18058] = {
+	name = "『德系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98408,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18058,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			284,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18059] = {
+	name = "『德系V3复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98440,
+	type = 6,
+	desc = "通關EX",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1460051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18059,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1460026,
+			chapterId = 1460051
+		}
 	}
 }
 
@@ -236758,7 +238033,7 @@ _G.pg.base.task_data_template[80290] = {
 }
 
 _G.pg.base.task_data_template[80321] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300500,
 	type = 26,
@@ -236798,7 +238073,7 @@ _G.pg.base.task_data_template[80321] = {
 }
 
 _G.pg.base.task_data_template[80322] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300501,
 	type = 26,
@@ -236836,7 +238111,7 @@ _G.pg.base.task_data_template[80322] = {
 }
 
 _G.pg.base.task_data_template[80323] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300502,
 	type = 26,
@@ -236876,7 +238151,7 @@ _G.pg.base.task_data_template[80323] = {
 }
 
 _G.pg.base.task_data_template[80324] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300503,
 	type = 26,
@@ -236914,7 +238189,7 @@ _G.pg.base.task_data_template[80324] = {
 }
 
 _G.pg.base.task_data_template[80325] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300504,
 	type = 26,
@@ -236952,7 +238227,7 @@ _G.pg.base.task_data_template[80325] = {
 }
 
 _G.pg.base.task_data_template[80326] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300505,
 	type = 26,
@@ -236992,7 +238267,7 @@ _G.pg.base.task_data_template[80326] = {
 }
 
 _G.pg.base.task_data_template[80327] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300506,
 	type = 26,
@@ -237030,7 +238305,7 @@ _G.pg.base.task_data_template[80327] = {
 }
 
 _G.pg.base.task_data_template[80328] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300507,
 	type = 26,
@@ -237070,7 +238345,7 @@ _G.pg.base.task_data_template[80328] = {
 }
 
 _G.pg.base.task_data_template[80329] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300508,
 	type = 26,
@@ -237108,7 +238383,7 @@ _G.pg.base.task_data_template[80329] = {
 }
 
 _G.pg.base.task_data_template[80330] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300509,
 	type = 26,
@@ -237146,7 +238421,7 @@ _G.pg.base.task_data_template[80330] = {
 }
 
 _G.pg.base.task_data_template[80331] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300510,
 	type = 26,
@@ -237186,7 +238461,7 @@ _G.pg.base.task_data_template[80331] = {
 }
 
 _G.pg.base.task_data_template[80332] = {
-	name = "台服【三周年】召集者任务可获得PT：35",
+	name = "台服召集者任务可获得PT：35",
 	guild_coin_award = 0,
 	award = 300511,
 	type = 26,
@@ -237224,7 +238499,7 @@ _G.pg.base.task_data_template[80332] = {
 }
 
 _G.pg.base.task_data_template[80333] = {
-	name = "台服【三周年】召集者任务可获得PT：40",
+	name = "台服召集者任务可获得PT：40",
 	guild_coin_award = 0,
 	award = 300512,
 	type = 26,
@@ -237264,7 +238539,7 @@ _G.pg.base.task_data_template[80333] = {
 }
 
 _G.pg.base.task_data_template[80334] = {
-	name = "台服【三周年】召集者任务可获得PT：40",
+	name = "台服召集者任务可获得PT：40",
 	guild_coin_award = 0,
 	award = 300513,
 	type = 26,

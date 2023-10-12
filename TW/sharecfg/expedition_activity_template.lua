@@ -4124,8 +4124,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
@@ -4134,8 +4134,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
@@ -4144,8 +4144,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
@@ -4154,8 +4154,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
@@ -4164,8 +4164,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
@@ -4174,68 +4174,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
 	[1492013] = {
 		id = 1492013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
 	[1492113] = {
 		id = 1492113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
 	[1492213] = {
 		id = 1492213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40495,
-				180
+				41347,
+				283
 			}
 		}
 	},
 	[1493013] = {
 		id = 1493013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
 	[1493113] = {
 		id = 1493113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
 	[1493213] = {
 		id = 1493213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},
@@ -4244,8 +4244,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40496,
-				180
+				41348,
+				283
 			}
 		}
 	},

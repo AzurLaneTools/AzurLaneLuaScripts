@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "让·巴尔，你在听么？",
+			say = "{namecode:523}，你在听么？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "让·巴尔，我命令你带领教廷主力舰队，与马可波罗的神之机械一同，消灭此刻在会场之中的所有人。",
+			say = "{namecode:523}，我命令你带领教廷主力舰队，与马可波罗的神之机械一同，消灭此刻在会场之中的所有人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1223,7 +1223,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "让·巴尔，你不想复仇了么？",
+			say = "{namecode:523}，你不想复仇了么？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1477,7 +1477,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "我宣布，将让·巴尔，还有所有响应她叛乱的人即刻起逐出维希教廷。你请自便。",
+			say = "我宣布，将{namecode:523}，还有所有响应她叛乱的人即刻起逐出维希教廷。你请自便。",
 			painting = {
 				alpha = 0.3,
 				time = 1

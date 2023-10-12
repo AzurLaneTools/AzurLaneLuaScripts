@@ -299,6 +299,63 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[801] = {
+		tips = "限時兵裝訓練開放期間每天開啟",
+		limit_type = 1,
+		show_with_count = 1,
+		limit_time = 1,
+		insert_daily = 0,
+		title = "限時兵裝訓練",
+		pic = "daily8",
+		des = "限時開啟的特殊兵裝戰鬥特別訓練，完成訓練可獲得特殊兵裝或特殊兵裝材料",
+		id = 801,
+		sort = "7",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		limit_period = {
+			{
+				{
+					2023,
+					10,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7010,
+				30
+			},
+			{
+				7011,
+				70
+			}
+		}
+	},
 	all = {
 		101,
 		201,
@@ -306,6 +363,7 @@ pg.expedition_daily_template = {
 		401,
 		501,
 		601,
-		701
+		701,
+		801
 	}
 }

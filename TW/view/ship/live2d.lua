@@ -101,13 +101,11 @@ function slot9(slot0, slot1, slot2)
 	end
 
 	if not slot0.isPlaying or slot2 then
-		slot3 = uv1.action2Id[slot1]
-
-		print("play action " .. slot3)
-
-		if slot3 then
+		if uv1.action2Id[slot1] then
 			slot0.liveCom:SetAction(slot3)
 			slot0:live2dActionChange(true)
+		else
+			print(tostring(slot1) .. " action is not exist")
 		end
 	end
 end
@@ -141,13 +139,21 @@ function slot11(slot0, slot1, slot2)
 			slot4()
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
-		if slot2.ableFlag then
-			slot0.tempEnable = slot0.enablePlayActions
-			slot0.enablePlayActions = {
-				"none action apply"
-			}
+		print("able flag change " .. tostring(slot2.ableFlag))
+
+		if slot0.ableFlag ~= slot2.ableFlag then
+			slot0.ableFlag = slot2.ableFlag
+
+			if slot2.ableFlag then
+				slot0.tempEnable = slot0.enablePlayActions
+				slot0.enablePlayActions = {
+					"none action apply"
+				}
+			else
+				slot0.enablePlayActions = slot0.tempEnable
+			end
 		else
-			slot0.enablePlayActions = slot0.tempEnable
+			print("able flag 相同，不执行操作")
 		end
 
 		if slot2.callback then
@@ -493,6 +499,7 @@ function slot0.Reset(slot0)
 
 	slot0.enablePlayActions = {}
 	slot0.ignorePlayActions = {}
+	slot0.ableFlag = nil
 
 	if slot0.idleIndex ~= 0 then
 		slot0:changeIdleIndex(0)

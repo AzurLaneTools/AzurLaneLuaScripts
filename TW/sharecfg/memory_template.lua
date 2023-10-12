@@ -8832,7 +8832,7 @@ pg.base.memory_template = {
 		condition = "對應艦船科研等級達到30級",
 		story = "LUCK39904",
 		id = 724,
-		icon = "memory_wuqi",
+		icon = "memory_jhwuqi",
 		is_open = 0
 	},
 	[725] = {

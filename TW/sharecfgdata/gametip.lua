@@ -20785,6 +20785,30 @@ _G.pg.base.gametip.title_info = {
 	tip = "訊息"
 }
 
+_G.pg.base.gametip.eventshop_unlock_info = {
+	tip = "通關$1"
+}
+
+_G.pg.base.gametip.eventshop_unlock_hint = {
+	tip = "通關主線$1後，解鎖兌換"
+}
+
+_G.pg.base.gametip.commission_event_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.活動期間，派遣艦隊執行軍事委託，根據完成的委託時長可獲得等比例的「軍事委託憑證」獎勵
+<color=#92fc63>完成的每5分鐘軍事委託可獲得1個「軍事委託憑證」</color>
+例：完成1小時的「日常資源開發I」委託後，可獲得12個「軍事委託憑證」
+2.僅在活動期間完成的軍事 委託可獲得「軍事委託憑證」獎勵
+3.中途放棄軍事委託無法獲得「軍事委託憑證」獎勵
+4.消耗「軍事委託憑證」可在活動商店中兌換包括心智魔方在內的豐富獎勵
+5. 活動商店中部分道具需要達成解鎖條件方可進行兌換]]
+		}
+	}
+}
+
 _G.pg.base.gametip.decoration_medal_placeholder = {
 	tip = "尚未獲得任何勳章"
 }

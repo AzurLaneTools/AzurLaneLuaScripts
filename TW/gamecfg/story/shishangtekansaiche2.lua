@@ -481,7 +481,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巴尔的摩突然凑近倒眼前——",
+			say = "巴尔的摩突然凑到眼前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -494,7 +494,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看向一旁的马儿，它正游闲地踱着步子，似乎在寻找积雪掩盖下的野草。",
+			say = "我看向一旁的马儿，它正悠闲地踱着步子，似乎在寻找积雪掩盖下的野草。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

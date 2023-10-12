@@ -189,7 +189,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难不成，指挥官大人不希望与{namecode:294}二人在海中畅游？",
+			say = "难不成，指挥官大人不希望与{namecode:294}一同在海中畅游？",
 			painting = {
 				alpha = 0.3,
 				time = 1

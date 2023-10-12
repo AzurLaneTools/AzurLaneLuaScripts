@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "那是让·巴尔？她正在大厅的一角，似乎在思考什么。",
+			say = "那是{namecode:523}？她正在大厅的一角，似乎在思考什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "回忆起刚才让·巴尔闪躲的目光——",
+			say = "回忆起刚才{namecode:523}闪躲的目光——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "……感觉让·巴尔似乎非常不开心。",
+			say = "……感觉{namecode:523}似乎非常不开心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "啊……让·巴尔，好久不见。",
+			say = "啊……{namecode:523}，好久不见。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "我今天……也穿了礼服哦……让·巴尔觉得怎么样呢？",
+			say = "我今天……也穿了礼服哦……{namecode:523}觉得怎么样呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "等等！让·巴尔……？！",
+			say = "等等！{namecode:523}……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "啊……让·巴尔，逃走了……",
+			say = "啊……{namecode:523}，逃走了……",
 			painting = {
 				alpha = 0.3,
 				time = 1

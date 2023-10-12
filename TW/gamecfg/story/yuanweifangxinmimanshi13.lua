@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "被让·巴尔裹挟着来到了城堡中的某处。",
+			say = "被{namecode:523}裹挟着来到了城堡中的某处。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是因为我是她的妹妹……黎塞留级战列舰二号舰，让·巴尔。",
+			say = "还是因为我是她的妹妹……黎塞留级战列舰二号舰，{namecode:523}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "加油——让·巴尔！",
+			say = "加油——{namecode:523}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

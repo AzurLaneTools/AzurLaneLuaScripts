@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "是英格拉罕呀……晚上好……",
+			say = "是{namecode:525}呀……晚上好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英格拉罕轻声询问着，言语中透露出一丝不安。",
+			say = "{namecode:525}轻声询问着，言语中透露出一丝不安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			say = "布里斯托尔从英格拉罕的手中接过提灯，在手中晃了几下，然后扭动开关。",
+			say = "布里斯托尔从{namecode:525}的手中接过提灯，在手中晃了几下，然后扭动开关。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英格拉罕再一次见识到了那在眼中闪烁着的光芒。",
+			say = "{namecode:525}再一次见识到了那在眼中闪烁着的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "那样的光芒，或许也曾出现在英格拉罕自己的眼中。",
+			say = "那样的光芒，或许也曾出现在{namecode:525}自己的眼中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和布里斯托尔道别后，在回去的路上，英格拉罕突然又有了一个想法。",
+			say = "和布里斯托尔道别后，在回去的路上，{namecode:525}突然又有了一个想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

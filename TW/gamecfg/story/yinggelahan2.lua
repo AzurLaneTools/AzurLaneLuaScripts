@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕看到了静静地摆放在办公桌上的申请书，有些失落地低下了头。",
+			say = "{namecode:525}看到了静静地摆放在办公桌上的申请书，有些失落地低下了头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，很快英格拉罕就发现，申请书上虽然没有批复同意，但其实也没有批复不同意。",
+			say = "不过，很快{namecode:525}就发现，申请书上虽然没有批复同意，但其实也没有批复不同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕在替港区的同伴们修理物品的时候，是怀着怎样的心情呢？",
+			say = "{namecode:525}在替港区的同伴们修理物品的时候，是怀着怎样的心情呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
