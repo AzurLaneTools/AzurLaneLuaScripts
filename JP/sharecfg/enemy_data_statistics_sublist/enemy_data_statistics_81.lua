@@ -906,46 +906,71 @@ pg.enemy_data_statistics_81 = {
 			330704
 		}
 	},
-	[100000] = {
-		cannon = 7,
-		name = "量産型センダイ級",
-		antiaircraft_growth = 1440,
+	[113001] = {
+		cannon = 150,
+		reload = 150,
+		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 20005,
 		air = 0,
-		air_growth = 0,
+		rarity = 1,
 		dodge = 0,
 		luck = 0,
-		id = 100000,
-		cannon_growth = 460,
+		id = 113001,
+		cannon_growth = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
-		reload = 150,
+		speed = 20,
 		star = 2,
-		hit = 8,
+		hit = 40,
 		antisub_growth = 0,
-		rarity = 2,
+		air_growth = 0,
 		fog_fx = "",
-		base = 90110,
-		durability = 118,
+		base = 90105,
+		durability = 1152,
 		armor_growth = 0,
-		torpedo_growth = 1296,
-		antiaircraft = 17,
-		hit_growth = 120,
-		armor = 0,
-		speed = 15,
-		torpedo = 16,
-		antisub = 0,
-		durability_growth = 2600,
+		torpedo_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 25,
+		antiaircraft_growth = 0,
+		armor = 0,
+		torpedo = 384,
+		durability_growth = 14432,
+		antisub = 0,
+		antiaircraft = 205,
+		battle_unit_type = 20,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-1,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
 		appear_fx = {
-			"appearQ"
+			"appearsmall"
 		},
 		equipment_list = {
-			100316,
-			313092,
-			100406
+			100216,
+			100406,
+			313091,
+			330014
 		}
 	}
 }

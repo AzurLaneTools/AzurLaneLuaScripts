@@ -1347,7 +1347,7 @@ pg.base.benefit_buff_template = {
 	},
 	{
 		type_priority = 0,
-		name = "扎拉的祈愿",
+		name = "{namecode:526}的祈愿",
 		hide = 0,
 		max_time = 86400,
 		act_id = 0,
