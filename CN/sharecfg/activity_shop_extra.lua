@@ -3642,7 +3642,7 @@ pg.activity_shop_extra = {
 	},
 	[109] = {
 		commodity_id = 105011,
-		activity = 5021,
+		activity = 5022,
 		scene = "",
 		num = 1,
 		num_limit = 1,
