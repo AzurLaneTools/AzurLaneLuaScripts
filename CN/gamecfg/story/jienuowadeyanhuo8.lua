@@ -204,7 +204,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就是火力太弱了些，刚才和扎拉的一战里我们量产型损失了不少啊。",
+			say = "……就是火力太弱了些，刚才和{namecode:526}的一战里我们量产型损失了不少啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

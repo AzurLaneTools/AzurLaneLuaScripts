@@ -4832,7 +4832,7 @@ pg.base.ship_skin_template_16 = {
 	},
 	[905010] = {
 		ship_group = 90501,
-		name = "让·巴尔",
+		name = "{namecode:523}",
 		hand_id = 1,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -4856,7 +4856,7 @@ pg.base.ship_skin_template_16 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "黎塞留级战列舰—让·巴尔",
+		desc = "黎塞留级战列舰—{namecode:523}",
 		voice_actor = 148,
 		spine_offset = "",
 		gyro = 0,
@@ -10324,7 +10324,7 @@ pg.base.ship_skin_template_16 = {
 	},
 	[900055] = {
 		ship_group = 900055,
-		name = "让巴尔",
+		name = "{namecode:523}",
 		hand_id = 0,
 		bgm = "",
 		l2d_drag_rate = "",

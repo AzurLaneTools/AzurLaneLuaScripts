@@ -6512,7 +6512,7 @@ pg.base.ship_skin_template_17 = {
 	},
 	[900239] = {
 		ship_group = 900239,
-		name = "让·巴尔",
+		name = "{namecode:523}",
 		hand_id = 5,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -6536,7 +6536,7 @@ pg.base.ship_skin_template_17 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "让·巴尔黑色剪影",
+		desc = "{namecode:523}黑色剪影",
 		voice_actor = -1,
 		spine_offset = "",
 		gyro = 0,

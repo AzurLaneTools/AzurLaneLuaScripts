@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕的临时工作室，数日后————",
+			say = "{namecode:525}的临时工作室，数日后————",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕默默地将它们收起包好，转身走了出去。",
+			say = "{namecode:525}默默地将它们收起包好，转身走了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "咦？英格拉罕是你？等一下！这，这难道是……！",
+			say = "咦？{namecode:525}是你？等一下！这，这难道是……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英格拉罕在一旁观察，她仿佛看到了，在里诺的眼中闪烁着奇妙的光芒。",
+			say = "{namecode:525}在一旁观察，她仿佛看到了，在里诺的眼中闪烁着奇妙的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不知为何，英格拉罕的心中突然升起一股强烈的干劲。",
+			say = "不知为何，{namecode:525}的心中突然升起一股强烈的干劲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "和里诺道别之后，英格拉罕快步返回了之前的仓库。",
+			say = "和里诺道别之后，{namecode:525}快步返回了之前的仓库。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

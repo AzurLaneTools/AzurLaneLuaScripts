@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的第一棒，是港区No.1的偶像圣地亚哥哦~！",
+			say = "今天的第一棒，是港区No.1的偶像{namecode:524}哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥会给大家带来最燃的舞台！要认真听到最后哦！",
+			say = "{namecode:524}会给大家带来最燃的舞台！要认真听到最后哦！",
 			effects = {
 				{
 					active = true,

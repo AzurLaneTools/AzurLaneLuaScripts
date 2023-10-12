@@ -87,7 +87,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "让·巴尔",
+			say = "{namecode:523}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "英格拉罕今天要不要来陪我一起去！",
+			say = "{namecode:525}今天要不要来陪我一起去！",
 			painting = {
 				alpha = 0.3,
 				time = 1

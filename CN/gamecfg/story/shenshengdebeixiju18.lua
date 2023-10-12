@@ -91,7 +91,7 @@ return {
 			actor = 205029,
 			dir = 1,
 			actorName = "厌战",
-			say = "扎拉女士、波拉女士，在我多年的征战生涯里发现，战舰的性能并不是决定胜负的关键…",
+			say = "{namecode:526}女士、波拉女士，在我多年的征战生涯里发现，战舰的性能并不是决定胜负的关键…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "厌战猛一抬头才发现两艘扎拉级巡洋舰已经飞速驶离了射击范围",
+			say = "厌战猛一抬头才发现两艘{namecode:526}级巡洋舰已经飞速驶离了射击范围",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "扎拉朝愣在原地的厌战摆了个鬼脸",
+			say = "{namecode:526}朝愣在原地的厌战摆了个鬼脸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

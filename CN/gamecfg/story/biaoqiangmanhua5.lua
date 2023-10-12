@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，所以最后才有{namecode:400}和圣地亚哥的名字吗…",
+			say = "啊，所以最后才有{namecode:400}和{namecode:524}的名字吗…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

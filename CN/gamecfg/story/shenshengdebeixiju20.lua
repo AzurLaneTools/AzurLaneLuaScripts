@@ -466,7 +466,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "扎拉、波拉以及所有帝国军舰听令，以罗穆路斯之名，展现帝国的战斗艺术吧！",
+			say = "{namecode:526}、波拉以及所有帝国军舰听令，以罗穆路斯之名，展现帝国的战斗艺术吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

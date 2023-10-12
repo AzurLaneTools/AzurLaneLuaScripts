@@ -180,7 +180,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "哼，维希教廷，黎塞留级战列舰二号舰——让·巴尔号，迎敌！",
+			say = "哼，维希教廷，黎塞留级战列舰二号舰——{namecode:523}号，迎敌！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			actorName = "马萨诸塞&让巴尔",
+			actorName = "马萨诸塞&{namecode:523}",
 			say = "<size=66>放马过来吧，大洋彼岸“最强”的战列舰！！</size>",
 			dir = 1,
 			bgm = "story-masazhusai",

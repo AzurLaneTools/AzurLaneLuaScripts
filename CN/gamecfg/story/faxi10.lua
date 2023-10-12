@@ -595,7 +595,7 @@ return {
 		{
 			dir = 1,
 			side = 1,
-			say = "原维希教廷第一旗舰——让·巴尔号通告陆间海全军舰队",
+			say = "原维希教廷第一旗舰——{namecode:523}号通告陆间海全军舰队",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -853,7 +853,7 @@ return {
 		{
 			dir = 1,
 			side = 1,
-			say = "维…自由鸢尾第二旗舰——让·巴尔号",
+			say = "维…自由鸢尾第二旗舰——{namecode:523}号",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

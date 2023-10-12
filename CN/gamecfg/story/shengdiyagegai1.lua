@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>一　圣地亚哥、想改造？！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>一　{namecode:524}、想改造？！</size>",
 					1
 				}
 			}
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是圣地亚哥~呀吼~",
+			say = "啊，是{namecode:524}~呀吼~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥今天也是一样充满精神呢",
+			say = "{namecode:524}今天也是一样充满精神呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿、嘿、嘿~不愧是圣地亚哥，真是聪明，萨拉托加，成功进行了改造啦~",
+			say = "嘿、嘿、嘿~不愧是{namecode:524}，真是聪明，萨拉托加，成功进行了改造啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥当然很聪明啦！嘿嘿，不过，改造是什么意思呀？",
+			say = "{namecode:524}当然很聪明啦！嘿嘿，不过，改造是什么意思呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等一下，别跑那么快——哎呀，这孩子真是的…圣地亚哥可不能学她哟",
+			say = "等一下，别跑那么快——哎呀，这孩子真是的…{namecode:524}可不能学她哟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，小小的改造之种在圣地亚哥的心中种了下来，终有一天将发芽，长成一棵大树吧——也许",
+			say = "就这样，小小的改造之种在{namecode:524}的心中种了下来，终有一天将发芽，长成一棵大树吧——也许",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

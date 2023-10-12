@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，不愧是圣地亚哥，还是这么有趣呢~",
+			say = "哈哈，不愧是{namecode:524}，还是这么有趣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞的偶像歌手圣地亚哥，简称圣诞亚哥！嘿嘿，我是不是很聪明~",
+			say = "圣诞的偶像歌手{namecode:524}，简称圣诞亚哥！嘿嘿，我是不是很聪明~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "首都方向我来负责，让·巴尔，你负责布列塔尼区域，马赛曲，你负责诺曼底区域。",
+			say = "首都方向我来负责，{namecode:523}，你负责布列塔尼区域，马赛曲，你负责诺曼底区域。",
 			painting = {
 				alpha = 0.3,
 				time = 1

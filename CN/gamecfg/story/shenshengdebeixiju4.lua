@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…加富尔…凯撒…扎拉级重巡…帝国舰队主力出动了？这照片的拍摄位置是……",
+			say = "这是…加富尔…凯撒…{namecode:526}级重巡…帝国舰队主力出动了？这照片的拍摄位置是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

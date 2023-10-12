@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "伸了个懒腰，英格拉罕准备开始一天的工作。",
+			say = "伸了个懒腰，{namecode:525}准备开始一天的工作。",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "呀吼~英格拉罕！",
+			say = "呀吼~{namecode:525}！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕拉开身后的仓库大门，堆积如山的物品令库珀一时间震撼不已。",
+			say = "{namecode:525}拉开身后的仓库大门，堆积如山的物品令库珀一时间震撼不已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

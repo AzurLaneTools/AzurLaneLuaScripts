@@ -187,7 +187,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "圣地亚哥？哎呀呀，越猜越远了哟？——５、４、３、２、１…０！时间到~",
+			say = "{namecode:524}？哎呀呀，越猜越远了哟？——５、４、３、２、１…０！时间到~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

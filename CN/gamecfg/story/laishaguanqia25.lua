@@ -474,7 +474,7 @@ return {
 			actor = 601080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等回到港区之后，还可以拉英格拉罕、达芬奇、{namecode:98}她们一起来帮忙，相信修好传送门只是时间问题！",
+			say = "等回到港区之后，还可以拉{namecode:525}、达芬奇、{namecode:98}她们一起来帮忙，相信修好传送门只是时间问题！",
 			painting = {
 				alpha = 0.3,
 				time = 1

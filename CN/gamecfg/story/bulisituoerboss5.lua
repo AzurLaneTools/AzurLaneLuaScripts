@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			say = "库珀与英格拉罕在黑暗的设施中前进着。",
+			say = "库珀与{namecode:525}在黑暗的设施中前进着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（英格拉罕那家伙怎么不把话说明白啊，我就知道事情是这样子！）",
+			say = "（{namecode:525}那家伙怎么不把话说明白啊，我就知道事情是这样子！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "英格拉罕！通讯恢复了啊，你那边怎么样，还安全么？",
+			say = "{namecode:525}！通讯恢复了啊，你那边怎么样，还安全么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不愧是英格拉罕！多亏你之前在突发联络时用的暗语，我才能这么快理解事态的严重性并且做出正确的应对！",
+			say = "不愧是{namecode:525}！多亏你之前在突发联络时用的暗语，我才能这么快理解事态的严重性并且做出正确的应对！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯……不愧是英格拉罕，让简单的事情完美复杂化了。",
+			say = "嗯……不愧是{namecode:525}，让简单的事情完美复杂化了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒是英格拉罕那家伙真的应该好好检讨一下才是。",
+			say = "倒是{namecode:525}那家伙真的应该好好检讨一下才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "附带：《英格拉罕的检讨书》，艾伦·萨姆、库珀监制。",
+			say = "附带：《{namecode:525}的检讨书》，艾伦·萨姆、库珀监制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

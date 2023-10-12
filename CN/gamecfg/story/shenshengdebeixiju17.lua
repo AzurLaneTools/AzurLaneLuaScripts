@@ -157,7 +157,7 @@ return {
 			side = 2,
 			actor = 900197,
 			dir = 1,
-			say = "拥有世界最强装甲的扎拉级重巡洋舰可不是那么容易就会被击败的！",
+			say = "拥有世界最强装甲的{namecode:526}级重巡洋舰可不是那么容易就会被击败的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,20 +11,29 @@ else
 end
 
 slot0.nameCodeMap = {}
+slot0.nameEquipCodeMap = {}
 slot0.nameCodeMap_EN = {
 	IJN = "IRN"
 }
 
 function slot0.init()
 	for slot3, slot4 in pairs(pg.name_code) do
-		uv0.nameCodeMap[slot4.name] = slot4.code
+		slot5 = nil
+
+		if slot4.type == 1 then
+			slot5 = uv0.nameCodeMap
+		elseif slot4.type == 2 then
+			slot5 = uv0.nameEquipCodeMap
+		else
+			assert(false)
+		end
+
+		slot5[slot4.name] = slot4.code
 	end
 
 	if pg.gameset.code_switch.key_value == 1 and PlayerPrefs.HasKey(uv0.codeModeKey) then
 		uv0.codeMode = PlayerPrefs.GetInt(uv0.codeModeKey) == 1
 	end
-
-	uv0.update()
 
 	if PLATFORM_CODE == PLATFORM_CH then
 		slot0 = nil
@@ -52,6 +61,8 @@ function slot0.init()
 			System.IO.File.WriteAllText(slot0, "Localization = false\nLocalization_skin = false")
 		end
 	end
+
+	uv0.update()
 end
 
 function slot0.calcLocalizationUse()
@@ -94,11 +105,13 @@ end
 
 function slot0.isHXNation(slot0)
 	uv0.nationHX = uv0.nationHX or {
-		[Nation.JP] = true,
 		[Nation.US] = true,
-		[Nation.META] = true,
+		[Nation.JP] = true,
+		[Nation.DE] = true,
 		[Nation.CN] = true,
-		[Nation.DE] = true
+		[Nation.ITA] = true,
+		[Nation.MNF] = true,
+		[Nation.META] = true
 	}
 
 	return uv0.nationHX[slot0]
@@ -106,8 +119,9 @@ end
 
 function slot0.update()
 	slot0 = uv0.codeMode and {} or uv0.nameCodeMap
-	slot1 = uv0.codeMode and {} or uv0.nameCodeMap_EN
-	slot2 = pg.ship_data_statistics
+	slot1 = uv0.codeMode and {} or uv0.nameEquipCodeMap
+	slot2 = uv0.codeMode and {} or uv0.nameCodeMap_EN
+	slot3 = pg.ship_data_statistics
 	pg.ship_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
 			if uv0[slot1] == nil then
@@ -139,7 +153,7 @@ function slot0.update()
 			return slot0[slot1]
 		end
 	})
-	slot3 = pg.fleet_tech_ship_class
+	slot4 = pg.fleet_tech_ship_class
 	pg.fleet_tech_ship_class = setmetatable({}, {
 		__index = function (slot0, slot1)
 			if uv0[slot1] == nil then
@@ -165,7 +179,7 @@ function slot0.update()
 			return slot0[slot1]
 		end
 	})
-	slot4 = pg.enemy_data_statistics
+	slot5 = pg.enemy_data_statistics
 	pg.enemy_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
 			if uv0[slot1] == nil then
@@ -189,19 +203,35 @@ function slot0.update()
 			return slot0[slot1]
 		end
 	})
+	slot6 = pg.equip_data_statistics
+	pg.equip_data_statistics = setmetatable({}, {
+		__index = function (slot0, slot1)
+			if uv0[slot1] == nil then
+				return slot2
+			elseif slot2.name == nil then
+				slot0[slot1] = slot2
+
+				return slot0[slot1]
+			end
+
+			if uv1[slot2.name] then
+				slot0[slot1] = setmetatable({
+					name = uv1[slot2.name]
+				}, {
+					__index = slot2
+				})
+			else
+				slot0[slot1] = slot2
+			end
+
+			return slot0[slot1]
+		end
+	})
 end
 
 function slot0.hxLan(slot0, slot1)
 	return string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)
-		slot1 = pg.name_code[tonumber(slot0)]
-
-		if PLATFORM_CODE == PLATFORM_CH then
-			return slot1.code
-		else
-			slot2 = slot1 and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
-
-			return slot2
-		end
+		return pg.name_code[tonumber(slot0)] and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
 	end)
 end
 

@@ -281,7 +281,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你想想，萨拉托加增援舰队的调动，圣地亚哥司令部的支援！",
+			say = "你想想，萨拉托加增援舰队的调动，{namecode:524}司令部的支援！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "啊，好像当时在圣地亚哥司令部坐镇的就是{namecode:199}。",
+			say = "啊，好像当时在{namecode:524}司令部坐镇的就是{namecode:199}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

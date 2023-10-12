@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从上次熬夜被批评之后，扎拉与我共同工作的时间就多了起来",
+			say = "自从上次熬夜被批评之后，{namecode:526}与我共同工作的时间就多了起来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如，如果打扰到扎拉阁下和指挥官工作的话，万分抱歉！",
+			say = "如，如果打扰到{namecode:526}阁下和指挥官工作的话，万分抱歉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……其，其实属下是来向扎拉阁下道谢的。",
+			say = "那个……其，其实属下是来向{namecode:526}阁下道谢的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多亏了扎拉阁下上次的建议，属下和她们玩得很开心，也交到了新的朋友！实在是非常感谢！",
+			say = "多亏了{namecode:526}阁下上次的建议，属下和她们玩得很开心，也交到了新的朋友！实在是非常感谢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是说上次那件事吗？哎呀，我不是说过了吗，只是举手之劳而已。同伴之间，不需要那么客套的。还有，叫我扎拉就好了呢",
+			say = "你是说上次那件事吗？哎呀，我不是说过了吗，只是举手之劳而已。同伴之间，不需要那么客套的。还有，叫我{namecode:526}就好了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哪里的事！扎拉阁下明明特地带我去服装店一件一件的挑选——",
+			say = "哪里的事！{namecode:526}阁下明明特地带我去服装店一件一件的挑选——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

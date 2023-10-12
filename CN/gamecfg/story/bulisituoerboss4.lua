@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，英格拉罕？你不是在休假中么，怎么也跑来这边了。",
+			say = "哟，{namecode:525}？你不是在休假中么，怎么也跑来这边了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "英格拉罕你的话，我觉得还是提前准备一份反省书比较好哦……",
+			say = "{namecode:525}你的话，我觉得还是提前准备一份反省书比较好哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_148",
 			dir = 1,
 			blackBg = true,
-			say = "英格拉罕短暂的假期，从这一刻起彻底结束了。",
+			say = "{namecode:525}短暂的假期，从这一刻起彻底结束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

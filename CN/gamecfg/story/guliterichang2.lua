@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家好~我是港区NO.1的偶像圣地亚哥~",
+			say = "大家好~我是港区NO.1的偶像{namecode:524}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "圣地亚哥有很多很多特长！但是要说一个的话，果然还是擅长唱歌哦！",
+			say = "{namecode:524}有很多很多特长！但是要说一个的话，果然还是擅长唱歌哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很不错的特长啊，活力系的偶像圣地亚哥，听起来就超可爱的！",
+			say = "很不错的特长啊，活力系的偶像{namecode:524}，听起来就超可爱的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感、感谢大家看到最后，接下来就请圣地亚哥为本次节目献唱一首吧！",
+			say = "感、感谢大家看到最后，接下来就请{namecode:524}为本次节目献唱一首吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然事发突然？不过就交给圣地亚哥吧~我♪是♪No♪One♪~",
+			say = "虽然事发突然？不过就交给{namecode:524}吧~我♪是♪No♪One♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10589,7 +10589,7 @@ pg.base.ship_skin_template_1 = {
 	},
 	[101480] = {
 		ship_group = 10148,
-		name = "英格拉罕",
+		name = "{namecode:525}",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -10613,7 +10613,7 @@ pg.base.ship_skin_template_1 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "艾伦·萨姆纳级驱逐舰—英格拉罕，舷号DD-694",
+		desc = "艾伦·萨姆纳级驱逐舰—{namecode:525}，舷号DD-694",
 		voice_actor = 282,
 		spine_offset = "",
 		gyro = 0,

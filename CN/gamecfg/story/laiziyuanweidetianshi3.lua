@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（让·巴尔跟黎塞留主教……？）",
+			say = "（{namecode:523}跟黎塞留主教……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "黎塞留与让·巴尔似乎并未注意到站在不远处的霞飞，依然在专心谈论着什么。",
+			say = "黎塞留与{namecode:523}似乎并未注意到站在不远处的霞飞，依然在专心谈论着什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

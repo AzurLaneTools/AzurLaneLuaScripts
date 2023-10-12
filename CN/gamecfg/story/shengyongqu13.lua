@@ -230,7 +230,7 @@ return {
 			expression = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "还有斯特拉斯堡、普罗旺斯、布列塔尼，让·巴尔…多亏了你的皇家盟友，这种时光已经不会再有了。",
+			say = "还有斯特拉斯堡、普罗旺斯、布列塔尼，{namecode:523}…多亏了你的皇家盟友，这种时光已经不会再有了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "敦刻尔克因为伤势过重一直停留在凯比尔港。至于让·巴尔她们…呵呵，已经连“遗骸”都被铁血夺走了。",
+			say = "敦刻尔克因为伤势过重一直停留在凯比尔港。至于{namecode:523}她们…呵呵，已经连“遗骸”都被铁血夺走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

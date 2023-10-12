@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶！圣地亚哥害得宿舍后院里长满了小麦！？……那不是正好可以补贴粮食……",
+			say = "诶诶！{namecode:524}害得宿舍后院里长满了小麦！？……那不是正好可以补贴粮食……",
 			flashout = {
 				black = true,
 				dur = 1,

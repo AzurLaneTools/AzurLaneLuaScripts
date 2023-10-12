@@ -67,7 +67,7 @@ return {
 			},
 			options = {
 				{
-					content = "将任务书递给英格拉罕。",
+					content = "将任务书递给{namecode:525}。",
 					flag = 1
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕接过任务书，有些疑惑地翻了起来。",
+			say = "{namecode:525}接过任务书，有些疑惑地翻了起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕阅读完毕之后，将任务书抱在怀里，歪着脑袋望了过来。",
+			say = "{namecode:525}阅读完毕之后，将任务书抱在怀里，歪着脑袋望了过来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕看来已经完全理解了任务，径直向着通讯室的方向走去了。",
+			say = "{namecode:525}看来已经完全理解了任务，径直向着通讯室的方向走去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "虽然布里斯托尔的思维比较活跃，不过交给同为艾伦·萨姆纳级的英格拉罕去传达应该不会出问题。",
+			say = "虽然布里斯托尔的思维比较活跃，不过交给同为艾伦·萨姆纳级的{namecode:525}去传达应该不会出问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通讯测试，一二三……这里是英格拉罕，呼叫布里斯托尔。",
+			say = "通讯测试，一二三……这里是{namecode:525}，呼叫布里斯托尔。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "咦，英格拉罕？现在还不到定期联络的时间啊，出什么事了么？",
+			say = "咦，{namecode:525}？现在还不到定期联络的时间啊，出什么事了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等，等一下啊英格拉罕！到底发生了什么事了？！",
+			say = "等，等一下啊{namecode:525}！到底发生了什么事了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

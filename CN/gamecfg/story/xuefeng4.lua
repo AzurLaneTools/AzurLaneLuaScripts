@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "姐姐她听说圣地亚哥的运气很好所以……{namecode:22}酱，对不起……！",
+			say = "姐姐她听说{namecode:524}的运气很好所以……{namecode:22}酱，对不起……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

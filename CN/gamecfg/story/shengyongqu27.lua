@@ -249,7 +249,7 @@ return {
 			side = 2,
 			actor = 902010,
 			dir = 1,
-			say = "我们不会接受你的道歉，因为这样就代表让·巴尔等人的牺牲毫无意义。",
+			say = "我们不会接受你的道歉，因为这样就代表{namecode:523}等人的牺牲毫无意义。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，让巴尔和敦刻尔克姐姐那边也来了呢。",
+			say = "啊，{namecode:523}和敦刻尔克姐姐那边也来了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

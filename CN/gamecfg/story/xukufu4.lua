@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过明明都是维希教廷，敦刻尔克给人感觉就像姐姐一样，让巴尔就截然相反呢…",
+			say = "不过明明都是维希教廷，敦刻尔克给人感觉就像姐姐一样，{namecode:523}就截然相反呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哦对了，指挥官，你知道吗，我和让巴尔的名字来源都是著名的海盗哦！呃，她那个应该也算海盗吧？",
+			say = "哦对了，指挥官，你知道吗，我和{namecode:523}的名字来源都是著名的海盗哦！呃，她那个应该也算海盗吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "管他的，总之，让巴尔给人的感觉就很像是冷酷的海盗呢，不过我对那种没什么兴趣就是了～",
+			say = "管他的，总之，{namecode:523}给人的感觉就很像是冷酷的海盗呢，不过我对那种没什么兴趣就是了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，不过，让巴尔那样的有时候也觉得挺帅的呢。",
+			say = "啊，不过，{namecode:523}那样的有时候也觉得挺帅的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

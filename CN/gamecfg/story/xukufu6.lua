@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "让巴尔？手里拿着的是…报告书？",
+			say = "{namecode:523}？手里拿着的是…报告书？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "顺着让·巴尔示意的方向看去，沙发上，絮库夫正香甜地睡着。",
+			say = "顺着{namecode:523}示意的方向看去，沙发上，絮库夫正香甜地睡着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "让·巴尔说完就离开了。",
+			say = "{namecode:523}说完就离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

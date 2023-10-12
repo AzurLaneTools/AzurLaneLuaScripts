@@ -370,7 +370,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "也罢~对于你们昨夜对扎拉和特伦托做的事，我不好好回一下礼可不行啊~",
+			say = "也罢~对于你们昨夜对{namecode:526}和特伦托做的事，我不好好回一下礼可不行啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

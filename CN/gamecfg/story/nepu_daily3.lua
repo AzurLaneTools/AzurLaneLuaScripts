@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 107030,
 			dir = -1,
-			actorName = "萨拉托加＆圣地亚哥",
+			actorName = "萨拉托加＆{namecode:524}",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "把你们涅普涅普掉～♪",

@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,

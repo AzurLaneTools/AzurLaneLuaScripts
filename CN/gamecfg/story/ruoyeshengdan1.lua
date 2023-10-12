@@ -127,7 +127,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是圣地亚哥啊，我正在为晚上的圣诞派对做准备呢，不过…",
+			say = "是{namecode:524}啊，我正在为晚上的圣诞派对做准备呢，不过…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这个姜饼！圣地亚哥来的也算是正好，来帮我尝尝看味道，给点意见吧",
+			say = "就是这个姜饼！{namecode:524}来的也算是正好，来帮我尝尝看味道，给点意见吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			say = "圣地亚哥一口气吃掉了好几个姜饼",
+			say = "{namecode:524}一口气吃掉了好几个姜饼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然圣地亚哥完全不懂就是了！",
+			say = "虽然{namecode:524}完全不懂就是了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

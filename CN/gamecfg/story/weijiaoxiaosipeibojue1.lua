@@ -297,7 +297,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "圣地亚哥就负责去写给萨拉托加的报告好了！也许她那边会知道什么事！",
+			say = "{namecode:524}就负责去写给萨拉托加的报告好了！也许她那边会知道什么事！",
 			painting = {
 				alpha = 0.3,
 				time = 1

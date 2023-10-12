@@ -66,7 +66,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "中午就好好尝尝扎拉的手艺吧~",
+			say = "中午就好好尝尝{namecode:526}的手艺吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，中午的指挥室，我和扎拉两个人正在享用着便当。",
+			say = "就这样，中午的指挥室，我和{namecode:526}两个人正在享用着便当。",
 			effects = {
 				{
 					active = false,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "扎拉很健谈，好像什么话题都能够聊上一些。",
+			say = "{namecode:526}很健谈，好像什么话题都能够聊上一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 					flag = 2
 				},
 				{
-					content = "喜欢扎拉你这种",
+					content = "喜欢{namecode:526}你这种",
 					flag = 3
 				}
 			}
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "别放在心上啦。无论如何，扎拉都会兑现当初的承诺：为你的舰队带来胜利与荣光，以及作为秘书舰陪伴在你的身边。",
+			say = "别放在心上啦。无论如何，{namecode:526}都会兑现当初的承诺：为你的舰队带来胜利与荣光，以及作为秘书舰陪伴在你的身边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总感觉自己一直在被扎拉牵着鼻子走，她永远一副游刃有余的样子。",
+			say = "总感觉自己一直在被{namecode:526}牵着鼻子走，她永远一副游刃有余的样子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

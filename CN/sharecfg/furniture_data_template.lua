@@ -73718,7 +73718,7 @@ pg.base.furniture_data_template = {
 	},
 	[41113] = {
 		spine_extra = "",
-		describe = "严禁圣地亚哥靠近此树！",
+		describe = "严禁{namecode:524}靠近此树！",
 		gain_by = "",
 		type = 2,
 		dir = 0,

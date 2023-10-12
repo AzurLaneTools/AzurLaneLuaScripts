@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "观礼台上是……让·巴尔。",
+			say = "观礼台上是……{namecode:523}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不对，你不是让·巴尔……",
+			say = "不对，你不是{namecode:523}……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "让·巴尔绝对不会说出这种话！",
+			say = "{namecode:523}绝对不会说出这种话！",
 			painting = {
 				alpha = 0.3,
 				time = 1

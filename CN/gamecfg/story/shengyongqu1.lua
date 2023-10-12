@@ -34,7 +34,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "维希教廷第一旗舰——让·巴尔号通告陆间海全军舰队。",
+			say = "维希教廷第一旗舰——{namecode:523}号通告陆间海全军舰队。",
 			effects = {
 				{
 					active = true,
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "在进行自沉的那一刻，让·巴尔就已经结束了。",
+			say = "在进行自沉的那一刻，{namecode:523}就已经结束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "凡事皆有定期，万物皆有定时。这就是黎塞留级战列舰让·巴尔的最终结局么。",
+			say = "凡事皆有定期，万物皆有定时。这就是黎塞留级战列舰{namecode:523}的最终结局么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "我是谁并不重要，重要的是你，让·巴尔。",
+			say = "我是谁并不重要，重要的是你，{namecode:523}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "让·巴尔，回答我。这样的结局真的是你所追求的么？",
+			say = "{namecode:523}，回答我。这样的结局真的是你所追求的么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "让·巴尔，我问你，你真的身处死亡之中了么？",
+			say = "{namecode:523}，我问你，你真的身处死亡之中了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

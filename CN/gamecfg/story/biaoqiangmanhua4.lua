@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "「作者：标枪(删除线)、{namecode:400}、圣地亚哥等」",
+			say = "「作者：标枪(删除线)、{namecode:400}、{namecode:524}等」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

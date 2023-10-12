@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "扎拉少见地面露难色",
+			say = "{namecode:526}少见地面露难色",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "扎拉也被抱住了",
+			say = "{namecode:526}也被抱住了",
 			action = {
 				{
 					type = "shake",
@@ -364,7 +364,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "差点忘了小扎拉也在这里呢。上次龙骑兵交到朋友，也多亏了小扎拉呢！好孩子好孩子~",
+			say = "差点忘了小{namecode:526}也在这里呢。上次龙骑兵交到朋友，也多亏了小{namecode:526}呢！好孩子好孩子~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "连平时游刃有余的扎拉都感到头疼的人物，真要相处起来的话我应该也会比较难应付吧",
+			say = "连平时游刃有余的{namecode:526}都感到头疼的人物，真要相处起来的话我应该也会比较难应付吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

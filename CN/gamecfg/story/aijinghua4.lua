@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱老大！只要活用你教的那些，圣地亚哥也能成为虚拟Vtuber吗？我会加油的！老大也要加油哦！",
+			say = "绊爱老大！只要活用你教的那些，{namecode:524}也能成为虚拟Vtuber吗？我会加油的！老大也要加油哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

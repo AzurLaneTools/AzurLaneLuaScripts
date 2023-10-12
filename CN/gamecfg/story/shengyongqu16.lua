@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "黎塞留在不久之前就离开茶会，带着让·巴尔向教堂方向去了哦。",
+			say = "黎塞留在不久之前就离开茶会，带着{namecode:523}向教堂方向去了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 902010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，让·巴尔也在啊。其实也没有什么急事啦，只是看到茶会的主人在茶会期间离席不归，有点好奇而已。",
+			say = "啊，{namecode:523}也在啊。其实也没有什么急事啦，只是看到茶会的主人在茶会期间离席不归，有点好奇而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

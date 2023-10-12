@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "接下来还有英格拉罕的私人联络频道可以试一试……",
+			say = "接下来还有{namecode:525}的私人联络频道可以试一试……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "英格拉罕！英格拉罕！这里是调查员——",
+			say = "{namecode:525}！{namecode:525}！这里是调查员——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（……暗号……暗号，要是想让英格拉罕理解到暗号内容的话，这句话应该……对，这么回答！）",
+			say = "（……暗号……暗号，要是想让{namecode:525}理解到暗号内容的话，这句话应该……对，这么回答！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "不过英格拉罕依然让我在废弃基地附近寻找掩护……是只要坚定守住这里就有办法的意思么？",
+			say = "不过{namecode:525}依然让我在废弃基地附近寻找掩护……是只要坚定守住这里就有办法的意思么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

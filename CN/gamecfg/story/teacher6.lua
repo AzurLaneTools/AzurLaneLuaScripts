@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～之前是我太急了～圣地亚哥的话…就从简单的内容开始学起吧～",
+			say = "嗯～之前是我太急了～{namecode:524}的话…就从简单的内容开始学起吧～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -391,7 +391,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			hidePaintObj = true,
 			say = "啊……圣座冠冕，那个怪物手里拿着的是圣座冠冕！",
 			painting = {

@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是……演唱会……？圣地亚哥…？",
+			say = "这是……演唱会……？{namecode:524}…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

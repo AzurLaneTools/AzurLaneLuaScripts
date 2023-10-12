@@ -919,8 +919,8 @@ _G.pg.base.item_data_statistics[40] = {
 }
 
 _G.pg.base.item_data_statistics[41] = {
-	display = "瑞云T2设计图",
-	name = "瑞云T2设计图",
+	display = "{namecode:10004}T2设计图",
+	name = "{namecode:10004}T2设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -2828,8 +2828,8 @@ _G.pg.base.item_data_statistics[10029] = {
 }
 
 _G.pg.base.item_data_statistics[10030] = {
-	display = "F6F地狱猫T2设计图",
-	name = "F6F地狱猫T2设计图",
+	display = "{namecode:10002}T2设计图",
+	name = "{namecode:10002}T2设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -2874,8 +2874,8 @@ _G.pg.base.item_data_statistics[10031] = {
 }
 
 _G.pg.base.item_data_statistics[10032] = {
-	display = "SB2C地狱俯冲者T3设计图",
-	name = "SB2C地狱俯冲者T3设计图",
+	display = "{namecode:10003}T3设计图",
+	name = "{namecode:10003}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -3242,8 +3242,8 @@ _G.pg.base.item_data_statistics[10047] = {
 }
 
 _G.pg.base.item_data_statistics[10048] = {
-	display = "海毒牙T2设计图",
-	name = "海毒牙T2设计图",
+	display = "{namecode:10005}T2设计图",
+	name = "{namecode:10005}T2设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -3679,8 +3679,8 @@ _G.pg.base.item_data_statistics[10066] = {
 }
 
 _G.pg.base.item_data_statistics[10067] = {
-	display = "零战五二型T2设计图",
-	name = "零战五二型T2设计图",
+	display = "{namecode:10000}T2设计图",
+	name = "{namecode:10000}T2设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -3702,8 +3702,8 @@ _G.pg.base.item_data_statistics[10067] = {
 }
 
 _G.pg.base.item_data_statistics[10068] = {
-	display = "天山T3设计图",
-	name = "天山T3设计图",
+	display = "{namecode:10001}T3设计图",
+	name = "{namecode:10001}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -4185,8 +4185,8 @@ _G.pg.base.item_data_statistics[10088] = {
 }
 
 _G.pg.base.item_data_statistics[10089] = {
-	display = "瑞云T3设计图",
-	name = "瑞云T3设计图",
+	display = "{namecode:10004}T3设计图",
+	name = "{namecode:10004}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5220,8 +5220,8 @@ _G.pg.base.item_data_statistics[11009] = {
 }
 
 _G.pg.base.item_data_statistics[11010] = {
-	display = "F6F地狱猫T3设计图",
-	name = "F6F地狱猫T3设计图",
+	display = "{namecode:10002}T3设计图",
+	name = "{namecode:10002}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5358,8 +5358,8 @@ _G.pg.base.item_data_statistics[11015] = {
 }
 
 _G.pg.base.item_data_statistics[11016] = {
-	display = "海毒牙T3设计图",
-	name = "海毒牙T3设计图",
+	display = "{namecode:10005}T3设计图",
+	name = "{namecode:10005}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5519,8 +5519,8 @@ _G.pg.base.item_data_statistics[11022] = {
 }
 
 _G.pg.base.item_data_statistics[11023] = {
-	display = "零战五二型T3设计图",
-	name = "零战五二型T3设计图",
+	display = "{namecode:10000}T3设计图",
+	name = "{namecode:10000}T3设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -6186,8 +6186,8 @@ _G.pg.base.item_data_statistics[11053] = {
 }
 
 _G.pg.base.item_data_statistics[11054] = {
-	display = "F6F地狱猫（HVAR搭载型）T0设计图",
-	name = "F6F地狱猫（HVAR搭载型）T0设计图",
+	display = "{namecode:10006}T0设计图",
+	name = "{namecode:10006}T0设计图",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -28812,7 +28812,7 @@ _G.pg.base.item_data_statistics[41031] = {
 }
 
 _G.pg.base.item_data_statistics[41032] = {
-	display = "圣地亚哥赠送的情人节礼物",
+	display = "{namecode:524}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -35806,7 +35806,7 @@ _G.pg.base.item_data_statistics[41226] = {
 }
 
 _G.pg.base.item_data_statistics[41227] = {
-	display = "圣地亚哥赠送的情人节礼物",
+	display = "{namecode:524}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41165,7 +41165,7 @@ _G.pg.base.item_data_statistics[41459] = {
 }
 
 _G.pg.base.item_data_statistics[41460] = {
-	display = "让·巴尔赠送的情人节礼物",
+	display = "{namecode:523}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -42407,7 +42407,7 @@ _G.pg.base.item_data_statistics[41626] = {
 }
 
 _G.pg.base.item_data_statistics[41627] = {
-	display = "圣地亚哥赠送的情人节礼物",
+	display = "{namecode:524}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -47766,7 +47766,7 @@ _G.pg.base.item_data_statistics[41859] = {
 }
 
 _G.pg.base.item_data_statistics[41860] = {
-	display = "让·巴尔赠送的情人节礼物",
+	display = "{namecode:523}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -48594,7 +48594,7 @@ _G.pg.base.item_data_statistics[41895] = {
 }
 
 _G.pg.base.item_data_statistics[41896] = {
-	display = "小圣地亚哥赠送的情人节礼物",
+	display = "{namecode:527}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -49790,7 +49790,7 @@ _G.pg.base.item_data_statistics[41948] = {
 }
 
 _G.pg.base.item_data_statistics[41949] = {
-	display = "扎拉赠送的情人节礼物",
+	display = "{namecode:526}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -52708,7 +52708,7 @@ _G.pg.base.item_data_statistics[43041] = {
 }
 
 _G.pg.base.item_data_statistics[43042] = {
-	display = "圣地亚哥赠送的情人节礼物",
+	display = "{namecode:524}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -52984,7 +52984,7 @@ _G.pg.base.item_data_statistics[43053] = {
 }
 
 _G.pg.base.item_data_statistics[43054] = {
-	display = "小圣地亚哥赠送的情人节礼物",
+	display = "{namecode:527}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -59286,7 +59286,7 @@ _G.pg.base.item_data_statistics[43327] = {
 }
 
 _G.pg.base.item_data_statistics[43328] = {
-	display = "扎拉赠送的情人节礼物",
+	display = "{namecode:526}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -59608,7 +59608,7 @@ _G.pg.base.item_data_statistics[43341] = {
 }
 
 _G.pg.base.item_data_statistics[43342] = {
-	display = "让·巴尔赠送的情人节礼物",
+	display = "{namecode:523}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -210114,7 +210114,7 @@ _G.pg.base.item_data_statistics[59254] = {
 
 _G.pg.base.item_data_statistics[59255] = {
 	display = "用于「明日之星✩闪亮登场！ 」活动提升角色好感，活动结束后将会消失",
-	name = "友好度-小圣地亚哥",
+	name = "友好度-{namecode:527}",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -211562,8 +211562,8 @@ _G.pg.base.item_data_statistics[59331] = {
 }
 
 _G.pg.base.item_data_statistics[59332] = {
-	display = "领取可获得鹩换装「放学后的甜蜜时光」2天限时体验",
-	name = "鹩限定换装体验券",
+	display = "领取可获得{namecode:97}换装「放学后的甜蜜时光」2天限时体验",
+	name = "{namecode:97}限定换装体验券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -214050,8 +214050,8 @@ _G.pg.base.item_data_statistics[59494] = {
 }
 
 _G.pg.base.item_data_statistics[59601] = {
-	display = "三笠收藏的驱逐船模-茳",
-	name = "船模-茳",
+	display = "三笠收藏的驱逐船模-{namecode:158}",
+	name = "船模-{namecode:158}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214073,8 +214073,8 @@ _G.pg.base.item_data_statistics[59601] = {
 }
 
 _G.pg.base.item_data_statistics[59602] = {
-	display = "三笠收藏的驱逐船模-松",
-	name = "船模-松",
+	display = "三笠收藏的驱逐船模-{namecode:33}",
+	name = "船模-{namecode:33}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214096,8 +214096,8 @@ _G.pg.base.item_data_statistics[59602] = {
 }
 
 _G.pg.base.item_data_statistics[59603] = {
-	display = "三笠收藏的驱逐船模-樟",
-	name = "船模-樟",
+	display = "三笠收藏的驱逐船模-{namecode:34}",
+	name = "船模-{namecode:34}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214119,8 +214119,8 @@ _G.pg.base.item_data_statistics[59603] = {
 }
 
 _G.pg.base.item_data_statistics[59604] = {
-	display = "三笠收藏的巡洋船模-獒",
-	name = "船模-獒",
+	display = "三笠收藏的巡洋船模-{namecode:66}",
+	name = "船模-{namecode:66}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214142,8 +214142,8 @@ _G.pg.base.item_data_statistics[59604] = {
 }
 
 _G.pg.base.item_data_statistics[59605] = {
-	display = "鲐号战列舰1：100舰船模型",
-	name = "船模-鲐",
+	display = "{namecode:82}号战列舰1：100舰船模型",
+	name = "船模-{namecode:82}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214165,7 +214165,7 @@ _G.pg.base.item_data_statistics[59605] = {
 }
 
 _G.pg.base.item_data_statistics[59606] = {
-	display = "（曾经）陈列在鲐前辈博物馆中的船模零件，用于修复船模，活动结束后将会消失",
+	display = "（曾经）陈列在{namecode:82}前辈博物馆中的船模零件，用于修复船模，活动结束后将会消失",
 	name = "零件",
 	max_num = 0,
 	type = 0,
@@ -214188,8 +214188,8 @@ _G.pg.base.item_data_statistics[59606] = {
 }
 
 _G.pg.base.item_data_statistics[59607] = {
-	display = "三笠收藏的巡洋船模-犬",
-	name = "船模-犬",
+	display = "三笠收藏的巡洋船模-{namecode:67}",
+	name = "船模-{namecode:67}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214211,8 +214211,8 @@ _G.pg.base.item_data_statistics[59607] = {
 }
 
 _G.pg.base.item_data_statistics[59608] = {
-	display = "三笠收藏的巡洋船模-猋",
-	name = "船模-猋",
+	display = "三笠收藏的巡洋船模-{namecode:69}",
+	name = "船模-{namecode:69}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214234,8 +214234,8 @@ _G.pg.base.item_data_statistics[59608] = {
 }
 
 _G.pg.base.item_data_statistics[59609] = {
-	display = "三笠收藏的战列船模-鲨",
-	name = "船模-鲨",
+	display = "三笠收藏的战列船模-{namecode:74}",
+	name = "船模-{namecode:74}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214257,8 +214257,8 @@ _G.pg.base.item_data_statistics[59609] = {
 }
 
 _G.pg.base.item_data_statistics[59610] = {
-	display = "三笠收藏的战列船模-鲛",
-	name = "船模-鲛",
+	display = "三笠收藏的战列船模-{namecode:75}",
+	name = "船模-{namecode:75}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214280,8 +214280,8 @@ _G.pg.base.item_data_statistics[59610] = {
 }
 
 _G.pg.base.item_data_statistics[59611] = {
-	display = "三笠收藏的战巡船模-鲟",
-	name = "船模-鲟",
+	display = "三笠收藏的战巡船模-{namecode:71}",
+	name = "船模-{namecode:71}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214303,8 +214303,8 @@ _G.pg.base.item_data_statistics[59611] = {
 }
 
 _G.pg.base.item_data_statistics[59612] = {
-	display = "三笠收藏的航母船模-凰",
-	name = "船模-凰",
+	display = "三笠收藏的航母船模-{namecode:91}",
+	name = "船模-{namecode:91}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214326,8 +214326,8 @@ _G.pg.base.item_data_statistics[59612] = {
 }
 
 _G.pg.base.item_data_statistics[59613] = {
-	display = "三笠收藏的航母船模-鹬",
-	name = "船模-鹬",
+	display = "三笠收藏的航母船模-{namecode:95}",
+	name = "船模-{namecode:95}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214349,8 +214349,8 @@ _G.pg.base.item_data_statistics[59613] = {
 }
 
 _G.pg.base.item_data_statistics[59614] = {
-	display = "三笠收藏的航母船模-鹤",
-	name = "船模-鹤",
+	display = "三笠收藏的航母船模-{namecode:96}",
+	name = "船模-{namecode:96}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214418,8 +214418,8 @@ _G.pg.base.item_data_statistics[59616] = {
 }
 
 _G.pg.base.item_data_statistics[59621] = {
-	display = "三笠收藏的驱逐船模-茳",
-	name = "船模-茳",
+	display = "三笠收藏的驱逐船模-{namecode:158}",
+	name = "船模-{namecode:158}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214441,8 +214441,8 @@ _G.pg.base.item_data_statistics[59621] = {
 }
 
 _G.pg.base.item_data_statistics[59622] = {
-	display = "三笠收藏的驱逐船模-松",
-	name = "船模-松",
+	display = "三笠收藏的驱逐船模-{namecode:33}",
+	name = "船模-{namecode:33}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214464,8 +214464,8 @@ _G.pg.base.item_data_statistics[59622] = {
 }
 
 _G.pg.base.item_data_statistics[59623] = {
-	display = "三笠收藏的驱逐船模-樟",
-	name = "船模-樟",
+	display = "三笠收藏的驱逐船模-{namecode:34}",
+	name = "船模-{namecode:34}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214487,8 +214487,8 @@ _G.pg.base.item_data_statistics[59623] = {
 }
 
 _G.pg.base.item_data_statistics[59624] = {
-	display = "三笠收藏的巡洋船模-獒",
-	name = "船模-獒",
+	display = "三笠收藏的巡洋船模-{namecode:66}",
+	name = "船模-{namecode:66}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214510,8 +214510,8 @@ _G.pg.base.item_data_statistics[59624] = {
 }
 
 _G.pg.base.item_data_statistics[59625] = {
-	display = "鲐号战列舰1：100舰船模型",
-	name = "船模-鲐",
+	display = "{namecode:82}号战列舰1：100舰船模型",
+	name = "船模-{namecode:82}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214533,7 +214533,7 @@ _G.pg.base.item_data_statistics[59625] = {
 }
 
 _G.pg.base.item_data_statistics[59626] = {
-	display = "（曾经）陈列在鲐前辈博物馆中的船模零件，用于修复船模，活动结束后将会消失",
+	display = "（曾经）陈列在{namecode:82}前辈博物馆中的船模零件，用于修复船模，活动结束后将会消失",
 	name = "零件",
 	max_num = 0,
 	type = 0,
@@ -214556,8 +214556,8 @@ _G.pg.base.item_data_statistics[59626] = {
 }
 
 _G.pg.base.item_data_statistics[59627] = {
-	display = "三笠收藏的巡洋船模-犬",
-	name = "船模-犬",
+	display = "三笠收藏的巡洋船模-{namecode:67}",
+	name = "船模-{namecode:67}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214579,8 +214579,8 @@ _G.pg.base.item_data_statistics[59627] = {
 }
 
 _G.pg.base.item_data_statistics[59628] = {
-	display = "三笠收藏的巡洋船模-猋",
-	name = "船模-猋",
+	display = "三笠收藏的巡洋船模-{namecode:69}",
+	name = "船模-{namecode:69}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214602,8 +214602,8 @@ _G.pg.base.item_data_statistics[59628] = {
 }
 
 _G.pg.base.item_data_statistics[59629] = {
-	display = "三笠收藏的战列船模-鲨",
-	name = "船模-鲨",
+	display = "三笠收藏的战列船模-{namecode:74}",
+	name = "船模-{namecode:74}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214625,8 +214625,8 @@ _G.pg.base.item_data_statistics[59629] = {
 }
 
 _G.pg.base.item_data_statistics[59630] = {
-	display = "三笠收藏的战列船模-鲛",
-	name = "船模-鲛",
+	display = "三笠收藏的战列船模-{namecode:75}",
+	name = "船模-{namecode:75}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214648,8 +214648,8 @@ _G.pg.base.item_data_statistics[59630] = {
 }
 
 _G.pg.base.item_data_statistics[59631] = {
-	display = "三笠收藏的战巡船模-鲟",
-	name = "船模-鲟",
+	display = "三笠收藏的战巡船模-{namecode:71}",
+	name = "船模-{namecode:71}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214671,8 +214671,8 @@ _G.pg.base.item_data_statistics[59631] = {
 }
 
 _G.pg.base.item_data_statistics[59632] = {
-	display = "三笠收藏的航母船模-凰",
-	name = "船模-凰",
+	display = "三笠收藏的航母船模-{namecode:91}",
+	name = "船模-{namecode:91}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214694,8 +214694,8 @@ _G.pg.base.item_data_statistics[59632] = {
 }
 
 _G.pg.base.item_data_statistics[59633] = {
-	display = "三笠收藏的航母船模-鹬",
-	name = "船模-鹬",
+	display = "三笠收藏的航母船模-{namecode:95}",
+	name = "船模-{namecode:95}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -214717,8 +214717,8 @@ _G.pg.base.item_data_statistics[59633] = {
 }
 
 _G.pg.base.item_data_statistics[59634] = {
-	display = "三笠收藏的航母船模-鹤",
-	name = "船模-鹤",
+	display = "三笠收藏的航母船模-{namecode:96}",
+	name = "船模-{namecode:96}",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -215246,8 +215246,8 @@ _G.pg.base.item_data_statistics[59720] = {
 }
 
 _G.pg.base.item_data_statistics[59721] = {
-	display = "由圣地亚哥赠与的，作为宴会邀约的回礼",
-	name = "圣地亚哥的回礼",
+	display = "由{namecode:524}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:524}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -215292,8 +215292,8 @@ _G.pg.base.item_data_statistics[59722] = {
 }
 
 _G.pg.base.item_data_statistics[59723] = {
-	display = "由獒赠与的，作为宴会邀约的回礼",
-	name = "獒的回礼",
+	display = "由{namecode:66}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:66}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -215430,8 +215430,8 @@ _G.pg.base.item_data_statistics[59728] = {
 }
 
 _G.pg.base.item_data_statistics[59729] = {
-	display = "由犬赠与的，作为宴会邀约的回礼",
-	name = "犬的回礼",
+	display = "由{namecode:67}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:67}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -215454,7 +215454,7 @@ _G.pg.base.item_data_statistics[59729] = {
 
 _G.pg.base.item_data_statistics[59730] = {
 	display = "可以获得舰船和回礼",
-	name = "圣地亚哥礼包",
+	name = "{namecode:524}礼包",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215500,7 +215500,7 @@ _G.pg.base.item_data_statistics[59731] = {
 
 _G.pg.base.item_data_statistics[59732] = {
 	display = "可以获得舰船和回礼",
-	name = "獒礼包",
+	name = "{namecode:66}礼包",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215638,7 +215638,7 @@ _G.pg.base.item_data_statistics[59737] = {
 
 _G.pg.base.item_data_statistics[59738] = {
 	display = "可以获得舰船和回礼",
-	name = "犬礼包",
+	name = "{namecode:67}礼包",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215660,8 +215660,8 @@ _G.pg.base.item_data_statistics[59738] = {
 }
 
 _G.pg.base.item_data_statistics[59739] = {
-	display = "可以获得圣地亚哥及其回礼",
-	name = "宴会邀请函（圣地亚哥）",
+	display = "可以获得{namecode:524}及其回礼",
+	name = "宴会邀请函（{namecode:524}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215728,8 +215728,8 @@ _G.pg.base.item_data_statistics[59740] = {
 }
 
 _G.pg.base.item_data_statistics[59741] = {
-	display = "可以获得獒和及其回礼",
-	name = "宴会邀请函（獒）",
+	display = "可以获得{namecode:66}及其回礼",
+	name = "宴会邀请函（{namecode:66}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215932,8 +215932,8 @@ _G.pg.base.item_data_statistics[59746] = {
 }
 
 _G.pg.base.item_data_statistics[59747] = {
-	display = "可以获得犬及其回礼",
-	name = "宴会邀请函（犬）",
+	display = "可以获得{namecode:67}及其回礼",
+	name = "宴会邀请函（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -215966,8 +215966,8 @@ _G.pg.base.item_data_statistics[59747] = {
 }
 
 _G.pg.base.item_data_statistics[59748] = {
-	display = "集齐18个可以获得圣地亚哥专属改造道具-闪耀的麦克风",
-	name = "圣地亚哥之星",
+	display = "集齐18个可以获得{namecode:524}专属改造道具-闪耀的麦克风",
+	name = "{namecode:524}之星",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -215989,7 +215989,7 @@ _G.pg.base.item_data_statistics[59748] = {
 }
 
 _G.pg.base.item_data_statistics[59749] = {
-	display = "「我是No.1！！」——用于完成圣地亚哥近代化改造",
+	display = "「我是No.1！！」——用于完成{namecode:524}近代化改造",
 	name = "闪耀的麦克风",
 	max_num = 1,
 	type = 7,
@@ -216132,8 +216132,8 @@ _G.pg.base.item_data_statistics[59753] = {
 }
 
 _G.pg.base.item_data_statistics[59754] = {
-	display = "由桐赠与的，作为共度平安夜的回礼",
-	name = "桐的回礼",
+	display = "由{namecode:2}赠与的，作为共度平安夜的回礼",
+	name = "{namecode:2}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -216280,8 +216280,8 @@ _G.pg.base.item_data_statistics[59758] = {
 }
 
 _G.pg.base.item_data_statistics[59759] = {
-	display = "可以获得桐及其回礼",
-	name = "圣夜的赠礼（桐）",
+	display = "可以获得{namecode:2}及其回礼",
+	name = "圣夜的赠礼（{namecode:2}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -216603,8 +216603,8 @@ _G.pg.base.item_data_statistics[59771] = {
 }
 
 _G.pg.base.item_data_statistics[59772] = {
-	display = "集齐18个可以获得圣地亚哥专属改造道具-闪耀的麦克风",
-	name = "圣地亚哥之星",
+	display = "集齐18个可以获得{namecode:524}专属改造道具-闪耀的麦克风",
+	name = "{namecode:524}之星",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -216627,7 +216627,7 @@ _G.pg.base.item_data_statistics[59772] = {
 
 _G.pg.base.item_data_statistics[59773] = {
 	display = "参与活动闪耀战斗之星的纪念品",
-	name = "圣地亚哥纪念之星",
+	name = "{namecode:524}纪念之星",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -216925,7 +216925,7 @@ _G.pg.base.item_data_statistics[59785] = {
 }
 
 _G.pg.base.item_data_statistics[59786] = {
-	display = "猤的修行打卡凭证",
+	display = "{namecode:181}的修行打卡凭证",
 	name = "修行打卡单",
 	max_num = 0,
 	type = 0,
@@ -216948,8 +216948,8 @@ _G.pg.base.item_data_statistics[59786] = {
 }
 
 _G.pg.base.item_data_statistics[59788] = {
-	display = "集齐18个可以获得圣地亚哥专属改造道具-闪耀的麦克风",
-	name = "圣地亚哥之星",
+	display = "集齐18个可以获得{namecode:524}专属改造道具-闪耀的麦克风",
+	name = "{namecode:524}之星",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -217891,7 +217891,7 @@ _G.pg.base.item_data_statistics[59840] = {
 }
 
 _G.pg.base.item_data_statistics[59842] = {
-	display = "集齐7个可以获得椿专属改造道具-烤肉味香水",
+	display = "集齐7个可以获得{namecode:16}专属改造道具-烤肉味香水",
 	name = "烤肉",
 	max_num = 0,
 	type = 0,
@@ -217914,7 +217914,7 @@ _G.pg.base.item_data_statistics[59842] = {
 }
 
 _G.pg.base.item_data_statistics[59843] = {
-	display = "「饿的时候闻一下反而更饿了！」——用于完成椿近代化改造",
+	display = "「饿的时候闻一下反而更饿了！」——用于完成{namecode:16}近代化改造",
 	name = "烤肉味香水",
 	max_num = 1,
 	type = 7,
@@ -218014,7 +218014,7 @@ _G.pg.base.item_data_statistics[59846] = {
 }
 
 _G.pg.base.item_data_statistics[59847] = {
-	display = "集齐7个可以获得椿专属改造道具-烤肉味香水",
+	display = "集齐7个可以获得{namecode:16}专属改造道具-烤肉味香水",
 	name = "烤肉",
 	max_num = 0,
 	type = 0,
@@ -218221,8 +218221,8 @@ _G.pg.base.item_data_statistics[59906] = {
 }
 
 _G.pg.base.item_data_statistics[59907] = {
-	display = "可以获得圣地亚哥及其回礼",
-	name = "宴会邀请函（圣地亚哥）",
+	display = "可以获得{namecode:524}及其回礼",
+	name = "宴会邀请函（{namecode:524}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -218289,8 +218289,8 @@ _G.pg.base.item_data_statistics[59908] = {
 }
 
 _G.pg.base.item_data_statistics[59909] = {
-	display = "可以获得獒和及其回礼",
-	name = "宴会邀请函（獒）",
+	display = "可以获得{namecode:66}及其回礼",
+	name = "宴会邀请函（{namecode:66}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -218493,8 +218493,8 @@ _G.pg.base.item_data_statistics[59914] = {
 }
 
 _G.pg.base.item_data_statistics[59915] = {
-	display = "可以获得犬及其回礼",
-	name = "宴会邀请函（犬）",
+	display = "可以获得{namecode:67}及其回礼",
+	name = "宴会邀请函（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -218527,8 +218527,8 @@ _G.pg.base.item_data_statistics[59915] = {
 }
 
 _G.pg.base.item_data_statistics[59916] = {
-	display = "由圣地亚哥赠与的，作为宴会邀约的回礼",
-	name = "圣地亚哥的回礼",
+	display = "由{namecode:524}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:524}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -218573,8 +218573,8 @@ _G.pg.base.item_data_statistics[59917] = {
 }
 
 _G.pg.base.item_data_statistics[59918] = {
-	display = "由獒赠与的，作为宴会邀约的回礼",
-	name = "獒的回礼",
+	display = "由{namecode:66}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:66}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -218711,8 +218711,8 @@ _G.pg.base.item_data_statistics[59923] = {
 }
 
 _G.pg.base.item_data_statistics[59924] = {
-	display = "由犬赠与的，作为宴会邀约的回礼",
-	name = "犬的回礼",
+	display = "由{namecode:67}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:67}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -219103,8 +219103,8 @@ _G.pg.base.item_data_statistics[59941] = {
 }
 
 _G.pg.base.item_data_statistics[59942] = {
-	display = "可以获得犬及其年贺状",
-	name = "年贺状（犬）",
+	display = "可以获得{namecode:67}及其年贺状",
+	name = "年贺状（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -219171,8 +219171,8 @@ _G.pg.base.item_data_statistics[59943] = {
 }
 
 _G.pg.base.item_data_statistics[59944] = {
-	display = "可以获得鹬及其年贺状",
-	name = "年贺状（鹬）",
+	display = "可以获得{namecode:95}及其年贺状",
+	name = "年贺状（{namecode:95}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -219205,8 +219205,8 @@ _G.pg.base.item_data_statistics[59944] = {
 }
 
 _G.pg.base.item_data_statistics[59945] = {
-	display = "可以获得鹤及其年贺状",
-	name = "年贺状（鹤）",
+	display = "可以获得{namecode:96}及其年贺状",
+	name = "年贺状（{namecode:96}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -219330,8 +219330,8 @@ _G.pg.base.item_data_statistics[59948] = {
 }
 
 _G.pg.base.item_data_statistics[59949] = {
-	display = "由犬处收到的，新年年贺状",
-	name = "犬的年贺状",
+	display = "由{namecode:67}处收到的，新年年贺状",
+	name = "{namecode:67}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -219376,8 +219376,8 @@ _G.pg.base.item_data_statistics[59950] = {
 }
 
 _G.pg.base.item_data_statistics[59951] = {
-	display = "由鹬处收到的，新年年贺状",
-	name = "鹬的年贺状",
+	display = "由{namecode:95}处收到的，新年年贺状",
+	name = "{namecode:95}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -219399,8 +219399,8 @@ _G.pg.base.item_data_statistics[59951] = {
 }
 
 _G.pg.base.item_data_statistics[59952] = {
-	display = "由鹤处收到的，新年年贺状",
-	name = "鹤的年贺状",
+	display = "由{namecode:96}处收到的，新年年贺状",
+	name = "{namecode:96}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -220618,8 +220618,8 @@ _G.pg.base.item_data_statistics[61001] = {
 }
 
 _G.pg.base.item_data_statistics[60039] = {
-	display = "可以获得犬及其回礼",
-	name = "三周年邀请函（犬）",
+	display = "可以获得{namecode:67}及其回礼",
+	name = "三周年邀请函（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -221108,8 +221108,8 @@ _G.pg.base.item_data_statistics[60055] = {
 }
 
 _G.pg.base.item_data_statistics[60056] = {
-	display = "由犬赠与的，作为宴会邀约的回礼",
-	name = "犬的回礼",
+	display = "由{namecode:67}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:67}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -221381,8 +221381,8 @@ _G.pg.base.item_data_statistics[60084] = {
 }
 
 _G.pg.base.item_data_statistics[60085] = {
-	display = "可以获得鹬及其回礼",
-	name = "三周年邀请函（鹬）",
+	display = "可以获得{namecode:95}及其回礼",
+	name = "三周年邀请函（{namecode:95}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -221415,8 +221415,8 @@ _G.pg.base.item_data_statistics[60085] = {
 }
 
 _G.pg.base.item_data_statistics[60086] = {
-	display = "可以获得鹤及其回礼",
-	name = "三周年邀请函（鹤）",
+	display = "可以获得{namecode:96}及其回礼",
+	name = "三周年邀请函（{namecode:96}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -221621,8 +221621,8 @@ _G.pg.base.item_data_statistics[60093] = {
 }
 
 _G.pg.base.item_data_statistics[60094] = {
-	display = "由鹬赠与的，作为宴会邀约的回礼",
-	name = "鹬的回礼",
+	display = "由{namecode:95}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:95}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -221644,8 +221644,8 @@ _G.pg.base.item_data_statistics[60094] = {
 }
 
 _G.pg.base.item_data_statistics[60095] = {
-	display = "由鹤赠与的，作为宴会邀约的回礼",
-	name = "鹤的回礼",
+	display = "由{namecode:96}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:96}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -221852,8 +221852,8 @@ _G.pg.base.item_data_statistics[60106] = {
 }
 
 _G.pg.base.item_data_statistics[60107] = {
-	display = "可以获得犬及其年贺状",
-	name = "年贺状（犬）",
+	display = "可以获得{namecode:67}及其年贺状",
+	name = "年贺状（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -221920,8 +221920,8 @@ _G.pg.base.item_data_statistics[60108] = {
 }
 
 _G.pg.base.item_data_statistics[60109] = {
-	display = "可以获得鹬及其年贺状",
-	name = "年贺状（鹬）",
+	display = "可以获得{namecode:95}及其年贺状",
+	name = "年贺状（{namecode:95}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -221954,8 +221954,8 @@ _G.pg.base.item_data_statistics[60109] = {
 }
 
 _G.pg.base.item_data_statistics[60110] = {
-	display = "可以获得鹤及其年贺状",
-	name = "年贺状（鹤）",
+	display = "可以获得{namecode:96}及其年贺状",
+	name = "年贺状（{namecode:96}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -222079,8 +222079,8 @@ _G.pg.base.item_data_statistics[60113] = {
 }
 
 _G.pg.base.item_data_statistics[60114] = {
-	display = "由犬处收到的，新年年贺状",
-	name = "犬的年贺状",
+	display = "由{namecode:67}处收到的，新年年贺状",
+	name = "{namecode:67}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -222125,8 +222125,8 @@ _G.pg.base.item_data_statistics[60115] = {
 }
 
 _G.pg.base.item_data_statistics[60116] = {
-	display = "由鹬处收到的，新年年贺状",
-	name = "鹬的年贺状",
+	display = "由{namecode:95}处收到的，新年年贺状",
+	name = "{namecode:95}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -222148,8 +222148,8 @@ _G.pg.base.item_data_statistics[60116] = {
 }
 
 _G.pg.base.item_data_statistics[60117] = {
-	display = "由鹤处收到的，新年年贺状",
-	name = "鹤的年贺状",
+	display = "由{namecode:96}处收到的，新年年贺状",
+	name = "{namecode:96}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -222473,8 +222473,8 @@ _G.pg.base.item_data_statistics[60129] = {
 }
 
 _G.pg.base.item_data_statistics[60130] = {
-	display = "可以获得鹩及其贺年卡",
-	name = "贺年卡（鹩）",
+	display = "可以获得{namecode:97}及其贺年卡",
+	name = "贺年卡（{namecode:97}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -222643,8 +222643,8 @@ _G.pg.base.item_data_statistics[60134] = {
 }
 
 _G.pg.base.item_data_statistics[60135] = {
-	display = "由鹩处收到的，春节贺年卡",
-	name = "鹩的贺年卡",
+	display = "由{namecode:97}处收到的，春节贺年卡",
+	name = "{namecode:97}的贺年卡",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223029,8 +223029,8 @@ _G.pg.base.item_data_statistics[60149] = {
 }
 
 _G.pg.base.item_data_statistics[60150] = {
-	display = "可以获得犬及其回礼",
-	name = "四周年邀请函（犬）",
+	display = "可以获得{namecode:67}及其回礼",
+	name = "四周年邀请函（{namecode:67}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -223097,8 +223097,8 @@ _G.pg.base.item_data_statistics[60151] = {
 }
 
 _G.pg.base.item_data_statistics[60152] = {
-	display = "可以获得獒及其回礼",
-	name = "四周年邀请函（獒）",
+	display = "可以获得{namecode:66}及其回礼",
+	name = "四周年邀请函（{namecode:66}）",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
@@ -223301,8 +223301,8 @@ _G.pg.base.item_data_statistics[60157] = {
 }
 
 _G.pg.base.item_data_statistics[60158] = {
-	display = "由犬赠与的，作为宴会邀约的回礼",
-	name = "犬的回礼",
+	display = "由{namecode:67}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:67}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223347,8 +223347,8 @@ _G.pg.base.item_data_statistics[60159] = {
 }
 
 _G.pg.base.item_data_statistics[60160] = {
-	display = "由獒赠与的，作为宴会邀约的回礼",
-	name = "獒的回礼",
+	display = "由{namecode:66}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:66}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223623,8 +223623,8 @@ _G.pg.base.item_data_statistics[60204] = {
 }
 
 _G.pg.base.item_data_statistics[60205] = {
-	display = "由鹬赠与的，作为宴会邀约的回礼",
-	name = "鹬的回礼",
+	display = "由{namecode:95}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:95}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223646,8 +223646,8 @@ _G.pg.base.item_data_statistics[60205] = {
 }
 
 _G.pg.base.item_data_statistics[60206] = {
-	display = "由鹤赠与的，作为宴会邀约的回礼",
-	name = "鹤的回礼",
+	display = "由{namecode:96}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:96}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223715,8 +223715,8 @@ _G.pg.base.item_data_statistics[60208] = {
 }
 
 _G.pg.base.item_data_statistics[60209] = {
-	display = "由鹬处收到的，新年年贺状",
-	name = "鹬的年贺状",
+	display = "由{namecode:95}处收到的，新年年贺状",
+	name = "{namecode:95}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -223738,8 +223738,8 @@ _G.pg.base.item_data_statistics[60209] = {
 }
 
 _G.pg.base.item_data_statistics[60210] = {
-	display = "由鹤处收到的，新年年贺状",
-	name = "鹤的年贺状",
+	display = "由{namecode:96}处收到的，新年年贺状",
+	name = "{namecode:96}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -224129,8 +224129,8 @@ _G.pg.base.item_data_statistics[60226] = {
 }
 
 _G.pg.base.item_data_statistics[60227] = {
-	display = "由鹩处收到的，春节贺年卡",
-	name = "鹩的贺年卡",
+	display = "由{namecode:97}处收到的，春节贺年卡",
+	name = "{namecode:97}的贺年卡",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -224428,8 +224428,8 @@ _G.pg.base.item_data_statistics[60239] = {
 }
 
 _G.pg.base.item_data_statistics[60240] = {
-	display = "由莲赠与的，作为宴会邀约的回礼",
-	name = "莲的回礼",
+	display = "由{namecode:22}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:22}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -224704,8 +224704,8 @@ _G.pg.base.item_data_statistics[60260] = {
 }
 
 _G.pg.base.item_data_statistics[60261] = {
-	display = "由鲨赠与的，作为宴会邀约的回礼",
-	name = "鲨的回礼",
+	display = "由{namecode:74}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:74}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -224727,8 +224727,8 @@ _G.pg.base.item_data_statistics[60261] = {
 }
 
 _G.pg.base.item_data_statistics[60262] = {
-	display = "由莲赠与的，作为宴会邀约的回礼",
-	name = "莲的回礼",
+	display = "由{namecode:22}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:22}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -225049,8 +225049,8 @@ _G.pg.base.item_data_statistics[60275] = {
 }
 
 _G.pg.base.item_data_statistics[60276] = {
-	display = "由鸗处收到的，新年年贺状",
-	name = "鸗的年贺状",
+	display = "由{namecode:179}处收到的，新年年贺状",
+	name = "{namecode:179}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -225141,8 +225141,8 @@ _G.pg.base.item_data_statistics[60279] = {
 }
 
 _G.pg.base.item_data_statistics[60280] = {
-	display = "由扎拉处收到的，新年年贺状",
-	name = "扎拉的年贺状",
+	display = "由{namecode:526}处收到的，新年年贺状",
+	name = "{namecode:526}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -225233,8 +225233,8 @@ _G.pg.base.item_data_statistics[60283] = {
 }
 
 _G.pg.base.item_data_statistics[60284] = {
-	display = "由鹬处收到的，新年年贺状",
-	name = "鹬的年贺状",
+	display = "由{namecode:95}处收到的，新年年贺状",
+	name = "{namecode:95}的年贺状",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -225279,8 +225279,8 @@ _G.pg.base.item_data_statistics[60290] = {
 }
 
 _G.pg.base.item_data_statistics[60291] = {
-	display = "由鹩处收到的，春节贺年卡",
-	name = "鹩的贺年卡",
+	display = "由{namecode:97}处收到的，春节贺年卡",
+	name = "{namecode:97}的贺年卡",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -226728,8 +226728,8 @@ _G.pg.base.item_data_statistics[60430] = {
 }
 
 _G.pg.base.item_data_statistics[60431] = {
-	display = "由扎拉赠与的，作为宴会邀约的回礼",
-	name = "扎拉的回礼",
+	display = "由{namecode:526}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:526}的回礼",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -226791,8 +226791,8 @@ _G.pg.base.item_data_statistics[69001] = {
 +6 F4U海盗T3*3
 +6 Me-155A舰载战斗机T2*3
 +6 梭鱼T2*3
-+6 天山T2*3
-+6 SB2C地狱俯冲者T2*3
++6 {namecode:10001}T2*3
++6 {namecode:10003}*3
 +6 Ju-87C俯冲轰炸机T3*3
 +6 潜艇用G7e声导鱼雷T2*3
 +6 潜艇用95式纯氧鱼雷T2*3
@@ -226853,13 +226853,13 @@ _G.pg.base.item_data_statistics[69902] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会转化为对应原价9折的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>8%</color>）桐换装  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）{namecode:2}换装  Music Pixy（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8%</color>）克利夫兰换装  骑士之夜（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）鹩换装  毒苹果（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）{namecode:97}换装  毒苹果（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>9.5%</color>）欧若拉换装  黎明的赞歌；
 （<color=#92fc63>9.5%</color>）伊丽莎白换装  女王的舞踏会；
 （<color=#92fc63>9.5%</color>）阿贾克斯换装  晚会女王；
-（<color=#92fc63>9.5%</color>）茗换装  黑猫来袭！；
+（<color=#92fc63>9.5%</color>）{namecode:98}换装  黑猫来袭！；
 （<color=#92fc63>9.5%</color>）女将换装  小小的管弦乐队；
 （<color=#92fc63>9.5%</color>）南达科他换装  剧场上的独奏；
 （<color=#92fc63>9.5%</color>）{namecode:414}换装  静谧小夜曲；
@@ -226890,14 +226890,14 @@ _G.pg.base.item_data_statistics[69903] = {
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
 （<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）{namecode:152}换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12%</color>）侌换装  出云千本樱；
+（<color=#92fc63>12%</color>）{namecode:151}换装  出云千本樱；
 （<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
-（<color=#92fc63>12%</color>）柉换装  新年合战；
+（<color=#92fc63>12%</color>）{namecode:143}换装  新年合战；
 （<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
 （<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
-（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
+（<color=#92fc63>12%</color>）{namecode:144}换装  幕间小憩；]],
 	name = "随机新年换装",
 	max_num = 0,
 	type = 98,
@@ -226929,8 +226929,8 @@ _G.pg.base.item_data_statistics[69904] = {
 （<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
 （<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
 （<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
-（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
-（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）{namecode:32}换装  夕暮春华；
+（<color=#92fc63>10.5%</color>）{namecode:6}换装  新岁之鬼神；
 （<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
 （<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
 	name = "随机春节换装",
@@ -226967,7 +226967,7 @@ _G.pg.base.item_data_statistics[69905] = {
 （<color=#92fc63>11.0%</color>）大黄蜂换装  Bubbly Anniversary！；
 （<color=#92fc63>11.0%</color>）约克城换装  优雅与朦胧之夜；
 （<color=#92fc63>11.0%</color>）{namecode:431}换装  未知的晚会；
-（<color=#92fc63>11.0%</color>）栴换装  晚会幸运星！；]],
+（<color=#92fc63>11.0%</color>）{namecode:17}换装  晚会幸运星！；]],
 	name = "随机二周年换装",
 	max_num = 0,
 	type = 98,
@@ -226993,15 +226993,15 @@ _G.pg.base.item_data_statistics[69906] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>7.0%</color>）鹬换装  散花舞鹤（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.0%</color>）{namecode:95}换装  散花舞鹤（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>9.2%</color>）{namecode:413}换装  静谧一隅；
 （<color=#92fc63>9.2%</color>）{namecode:427}换装  Wein Kornblume；
 （<color=#92fc63>9.2%</color>）{namecode:436}换装  铁血的冰风；
-（<color=#92fc63>9.2%</color>）峦换装  轻扬的风花；
+（<color=#92fc63>9.2%</color>）{namecode:152}换装  轻扬的风花；
 （<color=#92fc63>9.2%</color>）西雅图换装  绚烂的盛宴；
-（<color=#92fc63>9.2%</color>）椿换装  肉肉之宴！；
+（<color=#92fc63>9.2%</color>）{namecode:16}换装  肉肉之宴！；
 （<color=#92fc63>9.2%</color>）贝尔法斯特换装  优雅而高贵的从者；
-（<color=#92fc63>9.2%</color>）让巴尔换装  不羁的BloodStone；
+（<color=#92fc63>9.2%</color>）{namecode:523}换装  不羁的BloodStone；
 （<color=#92fc63>9.2%</color>）{namecode:439}换装  暗红色的微笑；
 （<color=#92fc63>10.2%</color>）{namecode:429}换装  魔姬的夜宴；]],
 	name = "随机国庆换装",
@@ -227029,19 +227029,19 @@ _G.pg.base.item_data_statistics[69908] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>8.0%</color>）鸗换装 凤舞新年（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）鲪换装  百花庆云（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）貅换装 祭典的秘境?（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:179}换装 凤舞新年（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:175}换装  百花庆云（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:50}换装 祭典的秘境?（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>7.4%</color>）{namecode:440}换装  雅乐的黯衣；
-（<color=#92fc63>7.4%</color>）鲨换装  御狐的辉振袖；
-（<color=#92fc63>6.8%</color>）栀换装  正月小恶魔；
+（<color=#92fc63>7.4%</color>）{namecode:74}换装  御狐的辉振袖；
+（<color=#92fc63>6.8%</color>）{namecode:12}换装  正月小恶魔；
 （<color=#92fc63>6.8%</color>）独角兽换装  祈愿的雪与梅；
 （<color=#92fc63>6.8%</color>）{namecode:410}换装  projekt Kirschblüte；
-（<color=#92fc63>6.8%</color>）鳗换装  随性的闪耀之星；
-（<color=#92fc63>6.8%</color>）柚换装  新年的愿望；
+（<color=#92fc63>6.8%</color>）{namecode:73}换装  随性的闪耀之星；
+（<color=#92fc63>6.8%</color>）{namecode:6}换装  新年的愿望；
 （<color=#92fc63>6.8%</color>）南安普顿换装  正月的LittleKnight；
 （<color=#92fc63>6.8%</color>）克利夫兰换装  新年对决！；
-（<color=#92fc63>6.8%</color>）蕸换装  新年暖洋洋；
+（<color=#92fc63>6.8%</color>）{namecode:180}换装  新年暖洋洋；
 （<color=#92fc63>6.8%</color>）皇家方舟换装  新年的守护者；]],
 	name = "随机新年换装",
 	max_num = 0,
@@ -227068,16 +227068,16 @@ _G.pg.base.item_data_statistics[69909] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>7.5%</color>）猉换装 细语春霞（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.5%</color>）莲换装  冬之雪风（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.5%</color>）鹩换装 凤鸣春晓（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）{namecode:165}换装 细语春霞（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）{namecode:22}换装  冬之雪风（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）{namecode:97}换装 凤鸣春晓（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>6.6%</color>）天狼星换装  碧波青云；
 （<color=#92fc63>6.6%</color>）确捷换装  白玉佳人；
-（<color=#92fc63>6.6%</color>）峦换装  新桃换旧符；
+（<color=#92fc63>6.6%</color>）{namecode:152}换装  新桃换旧符；
 （<color=#92fc63>6.6%</color>）光辉换装  钟情春日；
 （<color=#92fc63>5.7%</color>）{namecode:429}换装  华灯下的支配者；
 （<color=#92fc63>5.7%</color>）黑太子换装  Fairmaid·Spring；
-（<color=#92fc63>5.7%</color>）鲟换装  红梅垂香；
+（<color=#92fc63>5.7%</color>）{namecode:71}换装  红梅垂香；
 （<color=#92fc63>5.7%</color>）比洛克西换装  俊俏丽人；
 （<color=#92fc63>5.7%</color>）格洛斯特换装  绛紫奢情；
 （<color=#92fc63>5.7%</color>）{namecode:433}换装  雪豹与白梅；
@@ -227118,7 +227118,7 @@ _G.pg.base.item_data_statistics[69910] = {
 （<color=#92fc63>7.6%</color>）利托里奥换装  Calabria Aurea；
 （<color=#92fc63>7.0%</color>）宁海换装  姹紫盛筵；
 （<color=#92fc63>7.0%</color>）比洛克西换装  洛城女帝；
-（<color=#92fc63>7.0%</color>）豼换装  告白的蓝闪蝶；
+（<color=#92fc63>7.0%</color>）{namecode:49}换装  告白的蓝闪蝶；
 （<color=#92fc63>7.0%</color>）哈曼换装 舞会的傲娇妖精；
 （<color=#92fc63>7.0%</color>）福尔班换装  香槟盛宴；
 （<color=#92fc63>7.0%</color>）苏塞克斯换装  葡萄酒与红玫瑰]],
@@ -227190,7 +227190,7 @@ _G.pg.base.item_data_statistics[69912] = {
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
 （<color=#92fc63>8.0%</color>）{namecode:470}换装 节庆的Chronos（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）让巴尔换装  舶刀Première neige（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:523}换装  舶刀Première neige（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）黎塞留换装 常緑Rêve prophétique（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>5.0%</color>）{namecode:486}换装  挥毫苍雪；
 （<color=#92fc63>5.0%</color>）{namecode:436}换装  松之节句、白之冰华；

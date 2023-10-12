@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>三　圣地亚哥、苦恼中？！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>三　{namecode:524}、苦恼中？！</size>",
 					1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过聪明如圣地亚哥，一定早晚能搞明白的，嗯！",
+			say = "不过聪明如{namecode:524}，一定早晚能搞明白的，嗯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，是我是我啦，圣地亚哥~",
+			say = "啊哈哈哈，是我是我啦，{namecode:524}~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛…原来是圣地亚哥啊，吓了我一跳…",
+			say = "什么嘛…原来是{namecode:524}啊，吓了我一跳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "蜕变之路似乎也并不是那么好走，有了心理准备的圣地亚哥，似乎距离“改造”又更进了一步——也许",
+			say = "蜕变之路似乎也并不是那么好走，有了心理准备的{namecode:524}，似乎距离“改造”又更进了一步——也许",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

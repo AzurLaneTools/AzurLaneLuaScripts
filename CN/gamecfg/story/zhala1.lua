@@ -212,7 +212,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是说…指挥官，其实不信任扎拉？不惜透支自己的身体也要一个人在深夜偷偷处理事务。如果真的是这样的话……",
+			say = "还是说…指挥官，其实不信任{namecode:526}？不惜透支自己的身体也要一个人在深夜偷偷处理事务。如果真的是这样的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "扎拉突然自责起来。",
+			say = "{namecode:526}突然自责起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的吗？那指挥官以后也会听扎拉的话吗？",
+			say = "真的吗？那指挥官以后也会听{namecode:526}的话吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话说，从刚刚起，就总感觉背上好像盖着什么东西。这个是——扎拉的披风？",
+			say = "话说，从刚刚起，就总感觉背上好像盖着什么东西。这个是——{namecode:526}的披风？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

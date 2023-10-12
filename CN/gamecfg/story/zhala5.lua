@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么想让扎拉帮你做的吗？不用顾虑太多，什么事情都可以的",
+			say = "有什么想让{namecode:526}帮你做的吗？不用顾虑太多，什么事情都可以的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			},
 			options = {
 				{
-					content = "让扎拉帮忙掏耳朵",
+					content = "让{namecode:526}帮忙掏耳朵",
 					flag = 1
 				}
 			}
@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "扎拉",
+			actorName = "{namecode:526}",
 			say = "那么，我要开始了。指挥官，不要动哦~",
 			dir = 1,
 			blackBg = true,
@@ -318,7 +318,7 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "扎拉",
+			actorName = "{namecode:526}",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "突然意识到，自己仿佛一只落入陷阱的小鸟，只能任由扎拉摆布。",
+			say = "突然意识到，自己仿佛一只落入陷阱的小鸟，只能任由{namecode:526}摆布。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,11 +376,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "扎拉",
+			actorName = "{namecode:526}",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "在享受完扎拉的服务之前，指挥官可不能睡着哦？",
+			say = "在享受完{namecode:526}的服务之前，指挥官可不能睡着哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

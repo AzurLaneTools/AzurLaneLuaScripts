@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "干得好圣地亚哥！小海豹的最后的线索就是在这里了！",
+			say = "干得好{namecode:524}！小海豹的最后的线索就是在这里了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

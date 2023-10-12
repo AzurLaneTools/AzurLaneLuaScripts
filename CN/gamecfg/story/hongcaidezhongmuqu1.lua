@@ -661,7 +661,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
-			say = "针对维希教廷旗舰让巴尔的情报依然稀少，关于她的状态、她所处的位置，我们均一无所知。",
+			say = "针对维希教廷旗舰{namecode:523}的情报依然稀少，关于她的状态、她所处的位置，我们均一无所知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

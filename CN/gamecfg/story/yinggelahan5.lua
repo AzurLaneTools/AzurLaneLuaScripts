@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "凭借惊人的毅力，英格拉罕在这一周左右的时间里，完成了总量约四分之一的委托。",
+			say = "凭借惊人的毅力，{namecode:525}在这一周左右的时间里，完成了总量约四分之一的委托。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "完成这一切的英格拉罕决定暂时休息一下。",
+			say = "完成这一切的{namecode:525}决定暂时休息一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不知过了多久，英格拉罕在朦胧中感觉到有什么东西正在戳她的脸。",
+			say = "不知过了多久，{namecode:525}在朦胧中感觉到有什么东西正在戳她的脸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "英格拉罕你觉得，大家为什么会不约而同地来找你修理或者改造各种小物件呢？",
+			say = "{namecode:525}你觉得，大家为什么会不约而同地来找你修理或者改造各种小物件呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "也因此大家在拜托了英格拉罕维修之后，不论等多久才能拿到都愿意！",
+			say = "也因此大家在拜托了{namecode:525}维修之后，不论等多久才能拿到都愿意！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "英格拉罕揉了揉自己的眉间。",
+			say = "{namecode:525}揉了揉自己的眉间。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "一股被人看穿了心思的羞怯感涌上心头，英格拉罕突然觉得脸颊发烫。",
+			say = "一股被人看穿了心思的羞怯感涌上心头，{namecode:525}突然觉得脸颊发烫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

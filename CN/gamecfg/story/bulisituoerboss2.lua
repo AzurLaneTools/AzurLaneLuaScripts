@@ -362,7 +362,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是既然如此，英格拉罕为什么要派我过来呢？",
+			say = "可是既然如此，{namecode:525}为什么要派我过来呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			}
 		},
 		{
-			say = "不久之后，休假中的英格拉罕收到了来自演习舰队的联络。",
+			say = "不久之后，休假中的{namecode:525}收到了来自演习舰队的联络。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,

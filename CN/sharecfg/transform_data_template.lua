@@ -5005,7 +5005,7 @@ pg.base.transform_data_template = {
 近代化改造完成
 
 改造后<color=#92fc63>【主炮底座+1】</color>
-改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【专属弹幕-圣地亚哥I】</color>]],
+改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【专属弹幕-{namecode:524}I】</color>]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {

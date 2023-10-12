@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "加斯科涅，劝说让·巴尔大人执行命令。",
+			say = "加斯科涅，劝说{namecode:523}大人执行命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "让·巴尔大人，请不要违抗教廷司令部的命令。",
+			say = "{namecode:523}大人，请不要违抗教廷司令部的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "让·巴尔用力锤向通讯器，在其外壳上留下了一处凹陷。",
+			say = "{namecode:523}用力锤向通讯器，在其外壳上留下了一处凹陷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 807020,
-			say = "让·巴尔大人，您别生气，克莱蒙梭大人或许有自己的苦衷。",
+			say = "{namecode:523}大人，您别生气，克莱蒙梭大人或许有自己的苦衷。",
 			painting = {
 				alpha = 0.3,
 				time = 1

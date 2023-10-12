@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "原本以为还有什么体力活的我，被扎拉拉到一张长椅上，一起看着天空",
+			say = "原本以为还有什么体力活的我，被{namecode:526}拉到一张长椅上，一起看着天空",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "扎拉一直盯着我的脸。",
+			say = "{namecode:526}一直盯着我的脸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "到头来，自己还是一直被扎拉牵着鼻子走。每当想要反击的时候，总是被制服得服服帖帖的。",
+			say = "到头来，自己还是一直被{namecode:526}牵着鼻子走。每当想要反击的时候，总是被制服得服服帖帖的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "也许确实是累了吧，扎拉就这样靠在了自己怀里",
+			say = "也许确实是累了吧，{namecode:526}就这样靠在了自己怀里",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

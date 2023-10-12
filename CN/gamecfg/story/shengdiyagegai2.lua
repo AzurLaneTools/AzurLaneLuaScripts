@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>二　圣地亚哥、想特训？！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>二　{namecode:524}、想特训？！</size>",
 					1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳，就是这样，圣地亚哥。虽然坚持不到几秒…不过，大概能感受到吧，所谓“改造”的感觉",
+			say = "咳、咳咳，就是这样，{namecode:524}。虽然坚持不到几秒…不过，大概能感受到吧，所谓“改造”的感觉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，圣地亚哥为什么突然想知道改造的事情呢？",
+			say = "不过，{namecode:524}为什么突然想知道改造的事情呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好咯，圣地亚哥。所谓的改造呀，可不仅仅是改变一点形象这么简单哦！",
+			say = "听好咯，{namecode:524}。所谓的改造呀，可不仅仅是改变一点形象这么简单哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "经过了与{namecode:408}等伙伴们的交流，圣地亚哥对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
+			say = "经过了与{namecode:408}等伙伴们的交流，{namecode:524}对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

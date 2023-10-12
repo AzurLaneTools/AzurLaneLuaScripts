@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "让·巴尔和其他人究竟发生了什么？",
+			say = "{namecode:523}和其他人究竟发生了什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "你会问让·巴尔的问题，应该是在阿非利加见到了阿尔及利亚吧。",
+			say = "你会问{namecode:523}的问题，应该是在阿非利加见到了阿尔及利亚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让·巴尔究竟限于何等深渊之中，为什么要继续站在维希教廷那边？",
+			say = "{namecode:523}究竟限于何等深渊之中，为什么要继续站在维希教廷那边？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

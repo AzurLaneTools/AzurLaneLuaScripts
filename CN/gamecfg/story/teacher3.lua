@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥！",
+			say = "{namecode:524}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学习啊……嗯！圣地亚哥很聪明的！学习什么的，当然不在话下～",
+			say = "学习啊……嗯！{namecode:524}很聪明的！学习什么的，当然不在话下～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有干劲是好事呀～（太好了！圣地亚哥是个好孩子呀～）",
+			say = "有干劲是好事呀～（太好了！{namecode:524}是个好孩子呀～）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣、圣地亚哥！！！你没事吧？！快醒醒啊！为什么这么简单的算术题会做到神经错乱啦！！——",
+			say = "圣、{namecode:524}！！！你没事吧？！快醒醒啊！为什么这么简单的算术题会做到神经错乱啦！！——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

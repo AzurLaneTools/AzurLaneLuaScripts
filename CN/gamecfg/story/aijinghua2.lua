@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，圣地亚哥酱～我不是在睡觉啦～刚才还在清除病毒的，不过很不顺利……",
+			say = "啊，{namecode:524}酱～我不是在睡觉啦～刚才还在清除病毒的，不过很不顺利……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -306,7 +306,7 @@ return {
 			},
 			options = {
 				{
-					content = "圣地亚哥也要试试吗？",
+					content = "{namecode:524}也要试试吗？",
 					flag = 1
 				},
 				{
@@ -394,7 +394,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "稍微休息一下吧～接下来就交给圣地亚哥了～！",
+			say = "稍微休息一下吧～接下来就交给{namecode:524}了～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，圣地亚哥酱没问题吗？这个还挺难的呢？",
+			say = "不过，{namecode:524}酱没问题吗？这个还挺难的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "交给圣地亚哥真的没问题吗……？",
+			say = "交给{namecode:524}真的没问题吗……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "圣地亚哥酱！？这就把病毒都清除干净了！！？？",
+			say = "{namecode:524}酱！？这就把病毒都清除干净了！！？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～？这就通过了吗～？圣地亚哥还想多玩会呢～～～",
+			say = "诶～？这就通过了吗～？{namecode:524}还想多玩会呢～～～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "圣地亚哥用旁人完全看不懂的手法随便敲了几下，病毒就被被彻底清除完毕了",
+			say = "{namecode:524}用旁人完全看不懂的手法随便敲了几下，病毒就被被彻底清除完毕了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "圣地亚哥酱！谢谢你～～～！！！你太厉害了啦～！圣地亚哥酱是天才啊～！",
+			say = "{namecode:524}酱！谢谢你～～～！！！你太厉害了啦～！{namecode:524}酱是天才啊～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这样把病毒清除全都交给圣地亚哥酱的话，只要一瞬间就能全部解决了不是嘛！？",
+			say = "就这样把病毒清除全都交给{namecode:524}酱的话，只要一瞬间就能全部解决了不是嘛！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好呀～就交给圣地亚哥吧～！",
+			say = "好呀～就交给{namecode:524}吧～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "算了，就都全部交给圣地亚哥吧……",
+			say = "算了，就都全部交给{namecode:524}吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

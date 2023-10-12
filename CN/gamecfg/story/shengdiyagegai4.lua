@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>四　圣地亚哥、向前进～！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>四　{namecode:524}、向前进～！</size>",
 					1
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊，是圣地亚哥么，今天看来也是状态不错的样子",
+			say = "啊，是{namecode:524}么，今天看来也是状态不错的样子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "在企业的开导下，终于达成了顿悟（？）的圣地亚哥，改造之日，已经近在咫尺了——也许",
+			say = "在企业的开导下，终于达成了顿悟（？）的{namecode:524}，改造之日，已经近在咫尺了——也许",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=45>三 Hello~我是圣地亚哥哟~♪</size>",
+					"「虚拟链接的共时性」日常編\n\n<size=45>三 Hello~我是{namecode:524}哟~♪</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Hello~我是圣地亚哥哟~♪",
+			say = "Hello~我是{namecode:524}哟~♪",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -124,7 +124,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘛不过，一开始圣地亚哥酱跑来说“想要当Vtuber！”的时候还是吓了我一跳呢",
+			say = "嘛不过，一开始{namecode:524}酱跑来说“想要当Vtuber！”的时候还是吓了我一跳呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好～！等到有人气以后，就拜托指挥官在后宅准备圣地亚哥专用的演唱会舞台～！为此我会努力的～！",
+			say = "好～！等到有人气以后，就拜托指挥官在后宅准备{namecode:524}专用的演唱会舞台～！为此我会努力的～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，圣地亚哥酱想要这么叫的话，就这么叫吧！接下来就交给我吧！",
+			say = "算了，{namecode:524}酱想要这么叫的话，就这么叫吧！接下来就交给我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一富士二鹰三圣地亚哥，gogogo～！！",
+			say = "一富士二鹰三{namecode:524}，gogogo～！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊～这是圣地亚哥的台词才对啦～～～！",
+			say = "啊～这是{namecode:524}的台词才对啦～～～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

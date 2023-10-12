@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "不但要进行作战准备，还要保证AF至圣地亚哥司令部的补给线通畅。",
+			say = "不但要进行作战准备，还要保证AF至{namecode:524}司令部的补给线通畅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

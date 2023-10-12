@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦……不愧是英格拉罕，不容小觑啊！",
+			say = "哇哦……不愧是{namecode:525}，不容小觑啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

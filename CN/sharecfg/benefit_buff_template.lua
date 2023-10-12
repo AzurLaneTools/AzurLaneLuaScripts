@@ -1347,11 +1347,11 @@ pg.base.benefit_buff_template = {
 	},
 	{
 		type_priority = 0,
-		name = "扎拉的祈愿",
+		name = "{namecode:526}的祈愿",
 		hide = 0,
 		max_time = 86400,
 		act_id = 0,
-		desc = "扎拉的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		desc = "{namecode:526}的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
 		benefit_effect = "520",
 		id = 72,
 		icon = "Props/jianchuanqiyuan",

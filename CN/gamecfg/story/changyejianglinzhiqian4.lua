@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，让·巴尔女士这几天也被克莱蒙梭大人调回到土伦了吧。",
+			say = "然后，{namecode:523}女士这几天也被克莱蒙梭大人调回到土伦了吧。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

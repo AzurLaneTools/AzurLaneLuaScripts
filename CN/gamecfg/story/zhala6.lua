@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "原本以为会是一场愉快的约会的我，现在正提着四个袋子跟在扎拉的后面。",
+			say = "原本以为会是一场愉快的约会的我，现在正提着四个袋子跟在{namecode:526}的后面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "扎拉手上拿着一叠衣服，双眼盯着我，似乎还在冒着光。",
+			say = "{namecode:526}手上拿着一叠衣服，双眼盯着我，似乎还在冒着光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

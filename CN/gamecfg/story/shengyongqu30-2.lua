@@ -380,7 +380,7 @@ return {
 			side = 2,
 			actor = 999010,
 			dir = 1,
-			say = "电文来自，维希教廷舰队总旗舰，让·巴尔。",
+			say = "电文来自，维希教廷舰队总旗舰，{namecode:523}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让·巴尔…………？这怎么可能！让·巴尔不是早就已经在卡萨布兰卡…",
+			say = "{namecode:523}…………？这怎么可能！{namecode:523}不是早就已经在卡萨布兰卡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……其实，皇家之前收到过在铁血控制的海域内目击到疑似让·巴尔活动的情报…",
+			say = "……其实，皇家之前收到过在铁血控制的海域内目击到疑似{namecode:523}活动的情报…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "…只是拖走让·巴尔的残骸还不够…铁血…她们究竟对让·巴尔做了什么！",
+			say = "…只是拖走{namecode:523}的残骸还不够…铁血…她们究竟对{namecode:523}做了什么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 805010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等、等等！别走，告诉我让·巴尔究竟发生什么事了！",
+			say = "等、等等！别走，告诉我{namecode:523}究竟发生什么事了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让·巴尔，我的妹妹，你现在究竟深陷于怎样的深渊之中啊…",
+			say = "{namecode:523}，我的妹妹，你现在究竟深陷于怎样的深渊之中啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -999,7 +999,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "让·巴尔大人，又有新的敌人过来了……",
+			say = "{namecode:523}大人，又有新的敌人过来了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,7 +1140,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1157,7 +1157,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1174,7 +1174,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1196,7 +1196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让·巴尔，你作为教国的骑士，作为舰队的领袖，怎么能如此失态？",
+			say = "{namecode:523}，你作为教国的骑士，作为舰队的领袖，怎么能如此失态？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,7 +1242,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1349,7 +1349,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actorName = "沃克兰",
-			say = "让·巴尔大人！援、援军来了！",
+			say = "{namecode:523}大人！援、援军来了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "通讯中传来的消息令让·巴尔十分费解。",
+			say = "通讯中传来的消息令{namecode:523}十分费解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1455,7 +1455,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1472,7 +1472,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1540,7 +1540,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1557,7 +1557,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1608,7 +1608,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1680,7 +1680,7 @@ return {
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			say = "……你！",
 			dialogShake = {
 				speed = 0.08,
@@ -1800,7 +1800,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1817,7 +1817,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1854,7 +1854,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "让·巴尔深吸了一口气，将通讯器的话筒放到嘴边。",
+			say = "{namecode:523}深吸了一口气，将通讯器的话筒放到嘴边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1884,7 +1884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原维希教廷所属，现在已然自由的鸢尾骑士们，我是让·巴尔。",
+			say = "原维希教廷所属，现在已然自由的鸢尾骑士们，我是{namecode:523}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1953,7 +1953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "如您所愿，让·巴尔大人！",
+			say = "如您所愿，{namecode:523}大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1990,7 +1990,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "当然没有问题。还有，你现在依然是我们的舰队领袖哦，让·巴尔大人。",
+			say = "当然没有问题。还有，你现在依然是我们的舰队领袖哦，{namecode:523}大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2083,7 +2083,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "让·巴尔丢弃了手中残破的维希教廷旗帜，向着黎塞留单膝跪下。",
+			say = "{namecode:523}丢弃了手中残破的维希教廷旗帜，向着黎塞留单膝跪下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2094,7 +2094,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "黎塞留将旗帜搭在让·巴尔的肩上，庄重的宣告着。",
+			say = "黎塞留将旗帜搭在{namecode:523}的肩上，庄重的宣告着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2124,7 +2124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恢复让·巴尔身为鸢尾教国护教骑士团团长、鸢尾教国舰队司令及其被不公正剥夺的一切身份与头衔。",
+			say = "恢复{namecode:523}身为鸢尾教国护教骑士团团长、鸢尾教国舰队司令及其被不公正剥夺的一切身份与头衔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2158,7 +2158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与我们并肩作战吧，让·巴尔。",
+			say = "与我们并肩作战吧，{namecode:523}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2170,7 +2170,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
@@ -2187,7 +2187,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
@@ -2204,7 +2204,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "让·巴尔",
+			actorName = "{namecode:523}",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,

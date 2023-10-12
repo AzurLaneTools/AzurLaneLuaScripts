@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是的哦，扎拉姐。波拉这里也全歼敌人了…",
+			say = "是的哦，{namecode:526}姐。波拉这里也全歼敌人了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心，这个可是英格拉罕帮我做的，已经陪我执行过无数次任务了，绝对厉害！",
+			say = "放心，这个可是{namecode:525}帮我做的，已经陪我执行过无数次任务了，绝对厉害！",
 			painting = {
 				alpha = 0.3,
 				time = 1

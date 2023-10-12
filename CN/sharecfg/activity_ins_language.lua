@@ -10333,7 +10333,7 @@ pg.base.activity_ins_language = {
 		value = "初梦啊…{namecode:27}梦到了好多好多的噗太！不知道代表着什么呢…"
 	},
 	ins_reply_171_2_1 = {
-		value = "圣地亚哥梦到了好多圣地亚哥一起跳舞！"
+		value = "{namecode:524}梦到了好多{namecode:524}一起跳舞！"
 	},
 	ins_reply_171_2_2 = {
 		value = "{namecode:180}也梦到了很多很多的噗噗…"
@@ -10402,7 +10402,7 @@ pg.base.activity_ins_language = {
 		value = "哦？那我先说声谢谢了！"
 	},
 	ins_discuss_173_2 = {
-		value = "圣地亚哥也有御守吗！"
+		value = "{namecode:524}也有御守吗！"
 	},
 	ins_reply_173_2_1 = {
 		value = "给你准备了一个帮助学业的！"
@@ -10963,7 +10963,7 @@ pg.base.activity_ins_language = {
 		value = "还要谢谢波拉你帮我涂的漂亮指甲呢~"
 	},
 	ins_reply_189_2_1 = {
-		value = "呵呵~扎拉本来气质就好，随便涂一涂也好看的。"
+		value = "呵呵~{namecode:526}本来气质就好，随便涂一涂也好看的。"
 	},
 	ins_op_189_1_1 = {
 		value = "是专业的啊！"
@@ -11059,7 +11059,7 @@ pg.base.activity_ins_language = {
 		value = "哼，真不懂被这些小动物围着有什么好开心的。"
 	},
 	ins_reply_192_1_2 = {
-		value = "让巴尔还真是不坦率呀~下次一起来吧，小动物们不是还挺亲近你的嘛~"
+		value = "{namecode:523}还真是不坦率呀~下次一起来吧，小动物们不是还挺亲近你的嘛~"
 	},
 	ins_reply_192_1_3 = {
 		value = "鬼知道它们为什么会凑上来…"
@@ -11968,7 +11968,7 @@ pg.base.activity_ins_language = {
 		value = "啊哈哈哈天旋地转劈里啪啦超级回转旋风过山车~太有趣啦！"
 	},
 	ins_discuss_219_1 = {
-		value = "圣地亚哥，感觉又多了好多星星呀…"
+		value = "{namecode:524}，感觉又多了好多星星呀…"
 	},
 	ins_reply_219_1_1 = {
 		value = "哈哈哈哈，晕头转向也是游乐园少不了的有趣体验！"

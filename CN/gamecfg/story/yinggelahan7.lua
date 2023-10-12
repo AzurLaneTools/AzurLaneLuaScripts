@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "是英格拉罕啊，来得正好。",
+			say = "是{namecode:525}啊，来得正好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕有些犹豫地从我手中接过了文件。",
+			say = "{namecode:525}有些犹豫地从我手中接过了文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕急忙将视线转到一边。",
+			say = "{namecode:525}急忙将视线转到一边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕没有说话，抱着文件轻轻点了点头。",
+			say = "{namecode:525}没有说话，抱着文件轻轻点了点头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在准备出门时，被英格拉罕从身后叫住了。",
+			say = "在准备出门时，被{namecode:525}从身后叫住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "英格拉罕从怀中掏出了一个亮闪闪的徽章，小心翼翼地为我别在胸前。",
+			say = "{namecode:525}从怀中掏出了一个亮闪闪的徽章，小心翼翼地为我别在胸前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这样的话，没有名字可不行。干脆叫“英格拉罕的维修工坊”或者“英格拉罕的万事屋”之类的？",
+			say = "这样的话，没有名字可不行。干脆叫“{namecode:525}的维修工坊”或者“{namecode:525}的万事屋”之类的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

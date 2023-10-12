@@ -141,7 +141,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥那个笨蛋不在身边我倒是觉得清净了不少……",
+			say = "{namecode:524}那个笨蛋不在身边我倒是觉得清净了不少……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
