@@ -23156,7 +23156,7 @@ _G.pg.base.gametip.game_ticket_current_month = {
 }
 
 _G.pg.base.gametip.pre_combat_consume = {
-	tip = "當前遊戲幣到達上限,無法繼續領取"
+	tip = "消耗： "
 }
 
 _G.pg.base.gametip.file_down_msgbox = {

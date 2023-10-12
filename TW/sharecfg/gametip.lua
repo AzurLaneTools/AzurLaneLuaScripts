@@ -20763,511 +20763,511 @@ cs.gametip = {
 	},
 	pre_combat_consume = {
 		735042,
-		128,
+		92,
 		true
 	},
 	file_down_msgbox = {
-		735170,
+		735134,
 		232,
 		true
 	},
 	file_down_mgr_title = {
-		735402,
+		735366,
 		98,
 		true
 	},
 	file_down_mgr_progress = {
-		735500,
+		735464,
 		91,
 		true
 	},
 	file_down_mgr_error = {
-		735591,
+		735555,
 		135,
 		true
 	},
 	last_building_not_shown = {
-		735726,
+		735690,
 		133,
 		true
 	},
 	setting_group_prefs_tip = {
-		735859,
+		735823,
 		108,
 		true
 	},
 	group_prefs_switch_tip = {
-		735967,
+		735931,
 		144,
 		true
 	},
 	main_group_msgbox_content = {
-		736111,
+		736075,
 		225,
 		true
 	},
 	word_maingroup_checking = {
-		736336,
+		736300,
 		96,
 		true
 	},
 	word_maingroup_checktoupdate = {
-		736432,
+		736396,
 		104,
 		true
 	},
 	word_maingroup_checkfailure = {
-		736536,
+		736500,
 		118,
 		true
 	},
 	word_maingroup_updating = {
-		736654,
+		736618,
 		99,
 		true
 	},
 	word_maingroup_updatesuccess = {
-		736753,
+		736717,
 		104,
 		true
 	},
 	word_maingroup_updatefailure = {
-		736857,
+		736821,
 		119,
 		true
 	},
 	group_download_tip = {
-		736976,
+		736940,
 		136,
 		true
 	},
 	word_manga_checking = {
-		737112,
+		737076,
 		92,
 		true
 	},
 	word_manga_checktoupdate = {
-		737204,
+		737168,
 		100,
 		true
 	},
 	word_manga_checkfailure = {
-		737304,
+		737268,
 		114,
 		true
 	},
 	word_manga_updating = {
-		737418,
+		737382,
 		107,
 		true
 	},
 	word_manga_updatesuccess = {
-		737525,
+		737489,
 		100,
 		true
 	},
 	word_manga_updatefailure = {
-		737625,
+		737589,
 		115,
 		true
 	},
 	cryptolalia_lock_res = {
-		737740,
+		737704,
 		102,
 		true
 	},
 	cryptolalia_not_download_res = {
-		737842,
+		737806,
 		113,
 		true
 	},
 	cryptolalia_timelimie = {
-		737955,
+		737919,
 		91,
 		true
 	},
 	cryptolalia_label_downloading = {
-		738046,
+		738010,
 		114,
 		true
 	},
 	cryptolalia_delete_res = {
-		738160,
+		738124,
 		102,
 		true
 	},
 	cryptolalia_delete_res_tip = {
-		738262,
+		738226,
 		118,
 		true
 	},
 	cryptolalia_delete_res_title = {
-		738380,
+		738344,
 		104,
 		true
 	},
 	cryptolalia_use_gem_title = {
-		738484,
+		738448,
 		112,
 		true
 	},
 	cryptolalia_use_ticket_title = {
-		738596,
+		738560,
 		115,
 		true
 	},
 	cryptolalia_exchange = {
-		738711,
+		738675,
 		96,
 		true
 	},
 	cryptolalia_exchange_success = {
-		738807,
+		738771,
 		104,
 		true
 	},
 	cryptolalia_list_title = {
-		738911,
+		738875,
 		98,
 		true
 	},
 	cryptolalia_list_subtitle = {
-		739009,
+		738973,
 		97,
 		true
 	},
 	cryptolalia_download_done = {
-		739106,
+		739070,
 		101,
 		true
 	},
 	cryptolalia_coming_soom = {
-		739207,
+		739171,
 		102,
 		true
 	},
 	cryptolalia_unopen = {
-		739309,
+		739273,
 		94,
 		true
 	},
 	cryptolalia_no_ticket = {
-		739403,
+		739367,
 		146,
 		true
 	},
 	collect_page_got = {
-		739549,
+		739513,
 		92,
 		true
 	},
 	charge_menu_month_tip = {
-		739641,
+		739605,
 		136,
 		true
 	},
 	activity_shop_title = {
-		739777,
+		739741,
 		89,
 		true
 	},
 	street_shop_title = {
-		739866,
+		739830,
 		87,
 		true
 	},
 	military_shop_title = {
-		739953,
+		739917,
 		89,
 		true
 	},
 	quota_shop_title1 = {
-		740042,
+		740006,
 		93,
 		true
 	},
 	sham_shop_title = {
-		740135,
+		740099,
 		91,
 		true
 	},
 	fragment_shop_title = {
-		740226,
+		740190,
 		89,
 		true
 	},
 	guild_shop_title = {
-		740315,
+		740279,
 		86,
 		true
 	},
 	medal_shop_title = {
-		740401,
+		740365,
 		86,
 		true
 	},
 	meta_shop_title = {
-		740487,
+		740451,
 		83,
 		true
 	},
 	mini_game_shop_title = {
-		740570,
+		740534,
 		90,
 		true
 	},
 	metaskill_up = {
-		740660,
+		740624,
 		196,
 		true
 	},
 	metaskill_overflow_tip = {
-		740856,
+		740820,
 		157,
 		true
 	},
 	msgbox_repair_cipher = {
-		741013,
+		740977,
 		96,
 		true
 	},
 	msgbox_repair_title = {
-		741109,
+		741073,
 		89,
 		true
 	},
 	equip_skin_detail_count = {
-		741198,
+		741162,
 		94,
 		true
 	},
 	shoot_preview = {
-		741292,
+		741256,
 		89,
 		true
 	},
 	hit_preview = {
-		741381,
+		741345,
 		87,
 		true
 	},
 	story_label_skip = {
-		741468,
+		741432,
 		86,
 		true
 	},
 	story_label_auto = {
-		741554,
+		741518,
 		86,
 		true
 	},
 	launch_ball_skill_desc = {
-		741640,
+		741604,
 		98,
 		true
 	},
 	launch_ball_hatsuduki_skill_1 = {
-		741738,
+		741702,
 		118,
 		true
 	},
 	launch_ball_hatsuduki_skill_1_desc = {
-		741856,
+		741820,
 		190,
 		true
 	},
 	launch_ball_hatsuduki_skill_2 = {
-		742046,
+		742010,
 		132,
 		true
 	},
 	launch_ball_hatsuduki_skill_2_desc = {
-		742178,
+		742142,
 		337,
 		true
 	},
 	launch_ball_shinano_skill_1 = {
-		742515,
+		742479,
 		116,
 		true
 	},
 	launch_ball_shinano_skill_1_desc = {
-		742631,
+		742595,
 		175,
 		true
 	},
 	launch_ball_shinano_skill_2 = {
-		742806,
+		742770,
 		116,
 		true
 	},
 	launch_ball_shinano_skill_2_desc = {
-		742922,
+		742886,
 		215,
 		true
 	},
 	launch_ball_yura_skill_1 = {
-		743137,
+		743101,
 		113,
 		true
 	},
 	launch_ball_yura_skill_1_desc = {
-		743250,
+		743214,
 		149,
 		true
 	},
 	launch_ball_yura_skill_2 = {
-		743399,
+		743363,
 		113,
 		true
 	},
 	launch_ball_yura_skill_2_desc = {
-		743512,
+		743476,
 		188,
 		true
 	},
 	launch_ball_shimakaze_skill_1 = {
-		743700,
+		743664,
 		118,
 		true
 	},
 	launch_ball_shimakaze_skill_1_desc = {
-		743818,
+		743782,
 		201,
 		true
 	},
 	launch_ball_shimakaze_skill_2 = {
-		744019,
+		743983,
 		118,
 		true
 	},
 	launch_ball_shimakaze_skill_2_desc = {
-		744137,
+		744101,
 		184,
 		true
 	},
 	jp6th_spring_tip1 = {
-		744321,
+		744285,
 		162,
 		true
 	},
 	jp6th_spring_tip2 = {
-		744483,
+		744447,
 		100,
 		true
 	},
 	jp6th_biaohoushan_help = {
-		744583,
+		744547,
 		734,
 		true
 	},
 	jp6th_lihoushan_help = {
-		745317,
+		745281,
 		1952,
 		true
 	},
 	jp6th_lihoushan_time = {
-		747269,
+		747233,
 		116,
 		true
 	},
 	jp6th_lihoushan_order = {
-		747385,
+		747349,
 		110,
 		true
 	},
 	jp6th_lihoushan_pt1 = {
-		747495,
+		747459,
 		113,
 		true
 	},
 	launchball_minigame_help = {
-		747608,
+		747572,
 		357,
 		true
 	},
 	launchball_minigame_select = {
-		747965,
+		747929,
 		111,
 		true
 	},
 	launchball_minigame_un_select = {
-		748076,
+		748040,
 		133,
 		true
 	},
 	launchball_minigame_shop = {
-		748209,
+		748173,
 		107,
 		true
 	},
 	launchball_lock_Shinano = {
-		748316,
+		748280,
 		165,
 		true
 	},
 	launchball_lock_Yura = {
-		748481,
+		748445,
 		162,
 		true
 	},
 	launchball_lock_Shimakaze = {
-		748643,
+		748607,
 		166,
 		true
 	},
 	launchball_spilt_series = {
-		748809,
+		748773,
 		151,
 		true
 	},
 	launchball_spilt_mix = {
-		748960,
+		748924,
 		233,
 		true
 	},
 	launchball_spilt_over = {
-		749193,
+		749157,
 		191,
 		true
 	},
 	launchball_spilt_many = {
-		749384,
+		749348,
 		168,
 		true
 	},
 	luckybag_skin_isani = {
-		749552,
+		749516,
 		95,
 		true
 	},
 	luckybag_skin_islive2d = {
-		749647,
+		749611,
 		93,
 		true
 	},
 	racing_cost = {
-		749740,
+		749704,
 		88,
 		true
 	},
 	racing_rank_top_text = {
-		749828,
+		749792,
 		96,
 		true
 	},
 	racing_rank_half_h = {
-		749924,
+		749888,
 		101,
 		true
 	},
 	racing_rank_no_data = {
-		750025,
+		749989,
 		101,
 		true
 	},
 	racing_minigame_help = {
-		750126,
+		750090,
 		357,
 		true
 	}
