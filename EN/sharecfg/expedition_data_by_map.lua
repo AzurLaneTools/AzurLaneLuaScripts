@@ -1200,7 +1200,7 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 213,
 		clouds_pos = {
 			{
 				332,
