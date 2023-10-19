@@ -858,6 +858,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 			if slot0.grid then
 				slot0.grid:RefreshFleetCells()
+				slot0.grid:UpdateFloor()
 
 				slot4 = true
 			end
@@ -1560,8 +1561,8 @@ function slot0.UpdateSwitchMapButton(slot0)
 	slot2 = getProxy(ChapterProxy)
 	slot3 = slot2:getMapById(slot1.id - 1)
 
-	setActive(slot0.btnPrev, slot3)
-	setActive(slot0.btnNext, slot2:getMapById(slot1.id + 1))
+	setActive(slot0.btnPrev, tobool(slot3))
+	setActive(slot0.btnNext, tobool(slot2:getMapById(slot1.id + 1)))
 
 	slot5 = Color.New(0.5, 0.5, 0.5, 1)
 
@@ -1782,19 +1783,10 @@ function slot0.displayFleetSelect(slot0, slot1)
 
 	slot0.levelFleetView:updateSpecialOperationTickets(slot0.spTickets)
 	slot0.levelFleetView:Load()
+	slot0.levelFleetView:ActionInvoke("setHardShipVOs", slot0.shipVOs)
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
 	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, slot0.contextData.selectedFleetIDs or slot1:GetDefaultFleetIndex())
 	slot0.levelFleetView:ActionInvoke("Show")
-end
-
-function slot0.updateFleetSelect(slot0)
-	if slot0.levelFleetView:isShowing() then
-		slot0.levelFleetView:ActionInvoke("set", slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView:getSelectIds())
-
-		if slot0.levelCMDFormationView:isShowing() and slot0.fleets[slot0.levelCMDFormationView.fleet.id] then
-			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot2)
-		end
-	end
 end
 
 function slot0.hideFleetSelect(slot0)
@@ -1833,24 +1825,40 @@ function slot0.displayFleetEdit(slot0, slot1)
 	slot0.levelFleetView:ActionInvoke("Show")
 end
 
-function slot0.updateFleetEdit(slot0, slot1, slot2)
-	if slot0.levelFleetView then
-		if slot1 and slot0.levelFleetView.chapter.id == slot1.id then
-			slot0.levelFleetView:ActionInvoke("setOnHard", slot1)
-		end
-
-		if slot1 and slot0.levelCMDFormationView:isShowing() then
-			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1:wrapEliteFleet(slot2))
-		end
-	end
-end
-
 function slot0.hideFleetEdit(slot0)
 	slot0:hideFleetSelect()
 end
 
 function slot0.destroyFleetEdit(slot0)
 	slot0:destroyFleetSelect()
+end
+
+function slot0.RefreshFleetSelectView(slot0, slot1)
+	if not slot0.levelFleetView then
+		return
+	end
+
+	assert(slot0.levelFleetView:GetLoaded())
+
+	slot3 = nil
+
+	if slot0.levelFleetView:IsSelectMode() then
+		slot0.levelFleetView:ActionInvoke("set", slot1 or slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView:getSelectIds())
+
+		if slot0.levelCMDFormationView:isShowing() then
+			slot3 = slot0.fleets[slot0.levelCMDFormationView.fleet.id]
+		end
+	else
+		slot0.levelFleetView:ActionInvoke("setOnHard", slot1 or slot0.levelFleetView.chapter)
+
+		if slot0.levelCMDFormationView:isShowing() then
+			slot3 = slot1:wrapEliteFleet(slot0.levelCMDFormationView.fleet.id)
+		end
+	end
+
+	if slot3 then
+		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot3)
+	end
 end
 
 function slot0.setChapter(slot0, slot1)
@@ -1927,6 +1935,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 
 				uv0.levelStageView:updateStageFleet()
+				uv0.levelStageView:updateSupportFleet()
 				uv0.levelStageView:updateFleetBuff()
 				onNextTick(slot0)
 			end,
@@ -2549,10 +2558,6 @@ function slot0.initGrid(slot0, slot1)
 	slot0.grid:ExtendItem("arrowTpl", slot0.arrowTarget)
 	slot0.grid:ExtendItem("destinationMarkTpl", slot0.destinationMarkTpl)
 
-	function slot0.grid.onCellClick(slot0)
-		uv0:clickGridCell(slot0)
-	end
-
 	function slot0.grid.onShipStepChange(slot0)
 		uv0.levelStageView:updateAmbushRate(slot0)
 	end
@@ -2569,12 +2574,6 @@ function slot0.destroyGrid(slot0)
 		slot0:disableLevelCamera()
 		setActive(slot0.dragLayer, true)
 		setActive(slot0.uiMain, false)
-	end
-end
-
-function slot0.clickGridCell(slot0, slot1)
-	if not slot0:isfrozen() then
-		slot0.levelStageView:clickGridCell(slot1)
 	end
 end
 

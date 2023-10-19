@@ -32,6 +32,7 @@ function slot9.InitBattle(slot0, slot1)
 
 	slot0:InitWeatherData()
 	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, uv4.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
+	slot0:InitUserSupportShipsData(uv4.FRIENDLY_CODE, slot0._battleInitData.SupportUnitList)
 	slot0:InitUserAidData()
 	slot0:SetSubmarinAidData()
 	slot0._cameraUtil:SetFocusFleet(slot0:GetFleetByIFF(uv4.FRIENDLY_CODE))
@@ -105,6 +106,14 @@ function slot9.TirggerBattleStartBuffs(slot0)
 			elseif slot19 == slot9 then
 				slot19:TriggerBuff(uv1.BuffEffectType.ON_REAR)
 			end
+		end
+
+		for slot19, slot20 in ipairs(slot5:GetSupportUnitList()) do
+			underscore.each(slot0._battleInitData.ChapterBuffIDs or {}, function (slot0)
+				if uv0.GetSLGStrategyBuffByCombatBuffID(slot0).type == ChapterConst.AirDominanceStrategyBuffType then
+					uv2:AddBuff(uv1.Battle.BattleBuffUnit.New(slot0))
+				end
+			end)
 		end
 	end
 end
@@ -448,6 +457,14 @@ function slot9.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
 	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_FLEET, {
 		fleetVO = slot5
 	}))
+end
+
+function slot9.InitUserSupportShipsData(slot0, slot1, slot2)
+	slot3 = slot0:GetFleetByIFF(slot1)
+
+	for slot7, slot8 in ipairs(slot2) do
+		slot9 = slot0:SpawnSupportUnit(slot8, slot1)
+	end
 end
 
 function slot9.InitUserAidData(slot0)
@@ -1289,6 +1306,14 @@ function slot9.SpawnManualSub(slot0, slot1, slot2)
 	return slot4
 end
 
+function slot9.SpawnSupportUnit(slot0, slot1, slot2)
+	slot3 = slot0:generateSupportPlayerUnit(slot1, slot2)
+
+	slot0:GetFleetByIFF(slot2):AppendSupportUnit(slot3)
+
+	return slot3
+end
+
 function slot9.ShutdownPlayerUnit(slot0, slot1)
 	slot2 = slot0._unitList[slot1]
 	slot4 = slot0:GetFleetByIFF(slot2:GetIFF())
@@ -1507,6 +1532,31 @@ function slot9.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	return slot10
 end
 
+function slot9.generateSupportPlayerUnit(slot0, slot1, slot2)
+	slot3 = slot0:GenerateUnitID()
+	slot4 = slot1.properties
+	slot4.level = slot1.level
+	slot4.formationID = uv0.FORMATION_ID
+	slot4.id = slot1.id
+
+	uv1.AttrFixer(slot0._battleInitData.battleType, slot4)
+
+	slot6 = uv2.CreateBattleUnitData(slot3, uv3.UnitType.SUPPORT_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot4, slot1.baseProperties, slot1.proficiency or {
+		1,
+		1,
+		1
+	}, slot1.baseList, slot1.preloasList)
+
+	slot6:InitCurrentHP(1)
+	slot6:SetShipName(slot1.name)
+
+	slot0._spectreShipList[slot3] = slot6
+
+	slot6:SetPosition(Clone(uv0.AirSupportUnitPos))
+
+	return slot6
+end
+
 function slot9.SwitchSpectreUnit(slot0, slot1)
 	slot2 = slot1:GetUniqueID()
 	slot4 = slot1:GetIFF() == uv0.FRIENDLY_CODE and slot0._friendlyShipList or slot0._foeShipList
@@ -1589,6 +1639,7 @@ function slot9.SpawnAirFighter(slot0, slot1)
 				uv1:DispatchEvent(uv2.Event.New(uv3.REMOVE_AIR_FIGHTER_ICON, {
 					index = uv4
 				}))
+				uv1:DispatchEvent(uv2.Event.New(uv3.UPDATE_AIR_SUPPORT_LABEL, {}))
 			end)
 			slot2:SetLiveCallBack(function ()
 				uv0.currentNumber = uv0.currentNumber - 1
@@ -1601,6 +1652,7 @@ function slot9.SpawnAirFighter(slot0, slot1)
 	slot0:DispatchEvent(uv1.Event.New(uv2.ADD_AIR_FIGHTER_ICON, {
 		index = slot2
 	}))
+	slot0:DispatchEvent(uv1.Event.New(uv2.UPDATE_AIR_SUPPORT_LABEL, {}))
 
 	slot4.timer = pg.TimeMgr.GetInstance():AddBattleTimer("striker", -1, slot1.interval, function ()
 		slot0 = uv0.onceNumber
@@ -1674,6 +1726,10 @@ function slot9.GetAirFighterInfo(slot0, slot1)
 	return slot0._airFighterList[slot1]
 end
 
+function slot9.GetAirFighterList(slot0)
+	return slot0._airFighterList
+end
+
 function slot9.CreateAircraft(slot0, slot1, slot2, slot3, slot4)
 	slot6 = uv0.CreateAircraftUnit(slot0:GenerateAircraftID(), slot2, slot1, slot3)
 
@@ -1725,7 +1781,7 @@ function slot9.KillAircraft(slot0, slot1)
 	slot2:Clear()
 	slot0._cldSystem:DeleteAircraftCld(slot2)
 
-	if slot2:IsUndefeated() then
+	if slot2:IsUndefeated() and slot2:GetCurrentState() ~= slot2.STRIKE_STATE_RECYCLE then
 		slot0:HandleAircraftMissDamage(slot2, slot0._fleetList[slot2:GetIFF() * -1])
 	end
 

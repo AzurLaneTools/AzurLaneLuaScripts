@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队3rd？\n\n<size=45>五　夕阳的晚宴</size>",
+					"戰鬥！皇家女僕隊3rd？\n\n<size=45>五 夕陽的晚宴</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，演习结束了————",
+			say = "就這樣，演習結束了————",
 			bgm = "story-richang",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "本次航空演习加深了皇家、白鹰与撒丁帝国之间的交流，所有参与者都在相互交流中获得了技能的提升，是一次十分富有意义的活动————",
+			say = "本次航空演習加深了皇家、白鷹與薩丁帝國之間的交流，所有參與者都在相互交流中獲得了技能的提升，是一次十分富有意義的活動————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈？！等等，最关键的演习结果呢？！哪边赢了哪边输了？",
+			say = "哈？！等等，最關鍵的演習結果呢？！哪邊贏了哪邊輸了？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -83,11 +83,11 @@ return {
 			},
 			options = {
 				{
-					content = "有皇家女仆的那一方赢了。",
+					content = "有皇家女僕的那一方贏了。",
 					flag = 1
 				},
 				{
-					content = "有皇家女仆的那一方输了。",
+					content = "有皇家女僕的那一方輸了。",
 					flag = 2
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，是这样么，我完全理解了…………个鬼啊！",
+			say = "原來如此，是這樣嗎，我完全理解了…………個鬼啊！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这说了跟没说有区别么！",
+			say = "妳這說了跟沒說有區別嗎！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在之前的演习安排阶段，你还特意不让我参与指挥，就这么在意输赢么？",
+			say = "在之前的演習安排階段，妳還特意不讓我參與指揮，就這麼在意輸贏嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒也没有那么在意……大家都玩得很开心，也不能说本王没达到目的……",
+			say = "倒也沒有那麼在意……大家都玩得很開心，也不能說本王沒達到目的……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错，重要的不是结果，而是过程——",
+			say = "沒錯，重要的不是結果，而是過程——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）————",
+			say = "（敲門聲）————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 206070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打扰了，指挥官~啊……陛下您好，抱歉打扰您和指挥官的谈话了。",
+			say = "打擾了，指揮官~啊……陛下您好，抱歉打擾您和指揮官的談話了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，本王跟指挥官已经谈完了。你有事就办吧。",
+			say = "無妨，本王跟指揮官已經談完了。妳有事就說吧。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，陛下。指挥官，这里是上次演习作战的报告书，请您过目。",
+			say = "遵命，陛下。指揮官，這裡是上次演習作戰的報告書，請您過目。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "接过阿尔比恩的报告书——",
+			say = "接過阿爾比恩的報告書——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "从远超常规报告书的厚度上而言，阿尔比恩应该写了相当多的总结和反思在里面……",
+			say = "從遠超常規報告書的厚度上而言，阿爾比恩應該寫了相當多的總結和反思在裡面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 206070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么指挥官，女王陛下，我就先告辞了。本日由皇家举办的庆功宴，也请您不要忘记参加哦。",
+			say = "那麼指揮官，女王陛下，我就先告辭了。本日由皇家舉辦的慶功宴，也請您不要忘記參加哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "额，还有这件事么……",
+			say = "呃，還有這件事嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心吧，阿尔比恩，我会把过度沉迷工作的指挥官抓去会场的。",
+			say = "放心吧，阿爾比恩，我會把過度沉迷工作的指揮官抓去會場的。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -317,7 +317,7 @@ return {
 			actor = 206070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就在会场恭候两位的到来了。嘿嘿……曼彻斯特前辈兴致勃勃地说要做一桌好吃的呢~",
+			say = "那我就在會場恭候兩位的到來了。嘿嘿……曼徹斯特前輩興致勃勃地說要做一桌好吃的呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……等等，还是你留在这里陪指挥官，本王亲自去监督宴会的准备情况吧。",
+			say = "……等等，還是妳留在這裡陪指揮官，本王親自去監督宴會的準備情況吧。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要记得及时把指挥官抓去会场，在这之前的时间……就这样在指挥室中好好休息一下如何？",
+			say = "只要記得及時把指揮官抓去會場，在這之前的時間……就這樣在指揮室中好好休息一下如何？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……只要不会打扰到指挥官工作的话。",
+			say = "……只要不會打擾到指揮官工作的話。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心吧——你也没有意见吧，指挥官？",
+			say = "放心吧——你也沒有意見吧，指揮官？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

@@ -230,7 +230,8 @@ function slot0.ShowOrHideResUI(slot0, slot1)
 		active = slot1,
 		clear = not slot1 and not slot0:isLayer(),
 		weight = slot2.weight or slot0:getWeightFromData(),
-		groupName = slot2.groupName or slot0:getGroupNameFromData()
+		groupName = slot2.groupName or slot0:getGroupNameFromData(),
+		canvasOrder = slot2.order or false
 	}, {
 		__index = slot2
 	}))

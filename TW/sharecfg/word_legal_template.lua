@@ -461,6 +461,11 @@ function temp()
 						}
 					}
 				}
+			},
+			["比"] = {
+				["恩"] = {
+					this = true
+				}
 			}
 		},
 		["布"] = {
@@ -1868,6 +1873,13 @@ function temp()
 							}
 						}
 					}
+				}
+			}
+		},
+		["徹"] = {
+			["斯"] = {
+				["特"] = {
+					this = true
 				}
 			}
 		}
@@ -6180,6 +6192,18 @@ function temp()
 	uv0["深"] = {
 		["雪"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["雅"] = {
+		["努"] = {
+			["斯"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>四　少女真实的心</size>",
+					"花之語\n\n<size=45>四 少女真實的心</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "又是几日过去了……不知之前她种下去的紫丁香和茉莉花现在长势如何了呢？",
+			say = "又是幾日過去了……不知之前她種下去的紫丁香和茉莉花現在長的如何了呢？",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在想起了与{namecode:29}和约定，脚步不自觉地向着花房的方向走了过去。",
+			say = "在想起了與花月的約定之後，腳步不自覺地向著花房的方向走了過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "花朵芬芳的气息跟悠扬的歌声一同传入思绪中——",
+			say = "花朵芬芳的氣息跟悠揚的歌聲一同傳入思緒中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "花儿哟~♫花儿哟~♫",
+			say = "花兒喲~♫花兒喲~♫",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -118,7 +118,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不见方三日，世上满樱花~♫",
+			say = "不見方三日，世上滿櫻花~♫",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -142,7 +142,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官！今天是来和{namecode:29}一起赏花的么？",
+			say = "……指揮官！今天是來和花月一起賞花的嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -170,11 +170,11 @@ return {
 			},
 			options = {
 				{
-					content = "（点头示意）",
+					content = "（點頭示意）",
 					flag = 1
 				},
 				{
-					content = "花与榵都十分令人牵挂——",
+					content = "花與花月都十分令人牽掛——",
 					flag = 2
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，指挥官能来陪{namecode:29}，{namecode:29}很高兴，花园里的花朵们也会很高兴的吧~",
+			say = "嘿嘿，指揮官能來陪花月，花月很高興，花園裡的花朵們也會很高興的吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "您不在的这几天，这里又多了好多漂亮的花哦。",
+			say = "您不在的這幾天，這裡又多了好多漂亮的花哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "谢、谢谢指挥官……好害羞……",
+			say = "謝、謝謝指揮官……好害羞……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "感受着清风与阳光，与{namecode:29}一同漫步在花海之中。",
+			say = "感受著清風與陽光，與花月一同漫步在花海之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，咱们之前一起种的紫丁香还有茉莉花，已经在茁壮成长了哟。",
+			say = "指揮官，我們之前一起種的紫丁香還有茉莉花，已經在茁壯成長了喲。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}指了指旁边正释放着绿意的两丛花——当然，距离真正开花还有很长时间就是了。",
+			say = "花月指了指旁邊正釋放著綠意的兩叢花——當然，距離真正開花還有很長時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了指挥官的帮助，它们才能像现在这样生长在花圃之中哦。",
+			say = "多虧了指揮官的幫助，它們才能像現在這樣生長在花圃之中哦。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:29}觉得每种花都有自己不可替代的特质。",
+			say = "花月覺得每種花都有自己不可替代的特質。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -406,7 +406,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些花儿生长得很快，没过多久就绚烂夺目起来……也有些花儿会选择在角落里默默地积蓄力量。",
+			say = "有些花兒生長得很快，沒過多久就絢爛奪目起來……也有些花兒會選擇在角落裡默默地積蓄力量。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -430,7 +430,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不管是哪种花，只要时机成熟，它们都会绽放出漂亮的花朵哦？",
+			say = "不過不管是哪種花，只要時機成熟，它們都會綻放出漂亮的花朵哦？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -448,11 +448,11 @@ return {
 			},
 			options = {
 				{
-					content = "确实如此。",
+					content = "確實如此。",
 					flag = 1
 				},
 				{
-					content = "你刚刚只是在聊花的事情么~？",
+					content = "妳剛剛只是在聊花的事情嗎~？",
 					flag = 2
 				}
 			}
@@ -466,7 +466,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿……",
+			say = "欸嘿嘿……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼哼~♫先不聊这个咯。",
+			say = "嗯哼哼哼~♫先不聊這個了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官渴了么~我给您准备了花茶，去房间里品尝一下吧？",
+			say = "指揮官渴了嗎~我幫您準備了花茶，去房間裡品嚐一下吧？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -538,7 +538,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！在那之前，还请您收好这个……",
+			say = "啊！在那之前，還請您收好這個……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}突然递过来一支漂亮的大波斯菊，粉色的花瓣在阳光下显得更加灿烂。",
+			say = "花月突然遞過來一支漂亮的大波斯菊，粉色的花瓣在陽光下顯得更加燦爛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "因为之前有些在意{namecode:29}提到过的“花的意思”，所以稍微去了解了一下……",
+			say = "因為之前有些在意花月提到過的“花的意思”，所以稍微去了解了一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "大波斯菊，我记得它的花语应该是——",
+			say = "大波斯菊，我記得它的花語應該是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

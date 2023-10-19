@@ -79146,6 +79146,506 @@ _G.pg.base.ship_data_statistics[201344] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[201351] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "雅努斯",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201350,
+	english_name = "HMS Janus",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201351,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		333,
+		22,
+		90,
+		35,
+		0,
+		86,
+		0,
+		74,
+		78,
+		43.2,
+		53,
+		64
+	},
+	attrs_growth = {
+		9474,
+		309,
+		1075,
+		759,
+		0,
+		597,
+		0,
+		1138,
+		1436,
+		0,
+		0,
+		714
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"J-Class",
+		"Jersey Skill"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201352] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "雅努斯",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201350,
+	english_name = "HMS Janus",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201352,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		414,
+		28,
+		112,
+		44,
+		0,
+		86,
+		0,
+		74,
+		78,
+		43.2,
+		53,
+		80
+	},
+	attrs_growth = {
+		9474,
+		309,
+		1075,
+		759,
+		0,
+		597,
+		0,
+		1138,
+		1436,
+		0,
+		0,
+		714
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"J-Class",
+		"Jersey Skill"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201353] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "雅努斯",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201350,
+	english_name = "HMS Janus",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201353,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		576,
+		39,
+		157,
+		61,
+		0,
+		86,
+		0,
+		74,
+		78,
+		43.2,
+		53,
+		112
+	},
+	attrs_growth = {
+		9474,
+		309,
+		1075,
+		759,
+		0,
+		597,
+		0,
+		1138,
+		1436,
+		0,
+		0,
+		714
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"J-Class",
+		"Jersey Skill"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201354] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "雅努斯",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201350,
+	english_name = "HMS Janus",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201354,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		820,
+		55,
+		223,
+		86,
+		0,
+		86,
+		0,
+		74,
+		78,
+		43.2,
+		53,
+		159
+	},
+	attrs_growth = {
+		9474,
+		309,
+		1075,
+		759,
+		0,
+		597,
+		0,
+		1138,
+		1436,
+		0,
+		0,
+		714
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.55,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"J-Class",
+		"Jersey Skill"
+	}
+}
+
 _G.pg.base.ship_data_statistics[201514] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -82317,6 +82817,514 @@ _G.pg.base.ship_data_statistics[202084] = {
 	tag_list = {
 		"Town-Class",
 		"Sheffield"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202091] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼徹斯特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202090,
+	english_name = "HMS Manchester",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202091,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		640,
+		26,
+		51,
+		63,
+		0,
+		64,
+		0,
+		54,
+		29,
+		32,
+		41,
+		33
+	},
+	attrs_growth = {
+		15620,
+		361,
+		688,
+		1329,
+		0,
+		445,
+		0,
+		799,
+		730,
+		0,
+		0,
+		393
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202092] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼徹斯特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202090,
+	english_name = "HMS Manchester",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202092,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		796,
+		32,
+		64,
+		78,
+		0,
+		64,
+		0,
+		54,
+		29,
+		32,
+		41,
+		41
+	},
+	attrs_growth = {
+		15620,
+		361,
+		688,
+		1329,
+		0,
+		445,
+		0,
+		799,
+		730,
+		0,
+		0,
+		393
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202093] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼徹斯特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202090,
+	english_name = "HMS Manchester",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202093,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1109,
+		45,
+		89,
+		109,
+		0,
+		64,
+		0,
+		54,
+		29,
+		32,
+		41,
+		57
+	},
+	attrs_growth = {
+		15620,
+		361,
+		688,
+		1329,
+		0,
+		445,
+		0,
+		799,
+		730,
+		0,
+		0,
+		393
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202094] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曼徹斯特",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202090,
+	english_name = "HMS Manchester",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202094,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1577,
+		65,
+		126,
+		155,
+		0,
+		64,
+		0,
+		54,
+		29,
+		32,
+		41,
+		82
+	},
+	attrs_growth = {
+		15620,
+		361,
+		688,
+		1329,
+		0,
+		445,
+		0,
+		799,
+		730,
+		0,
+		0,
+		393
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Town-Class"
 	}
 }
 
@@ -109510,6 +110518,502 @@ _G.pg.base.ship_data_statistics[206064] = {
 	},
 	tag_list = {
 		"Colossus-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿爾比恩",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206070,
+	english_name = "HMS Albion",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1105,
+		0,
+		0,
+		51,
+		81,
+		60,
+		0,
+		32,
+		19,
+		28,
+		78,
+		31
+	},
+	attrs_growth = {
+		29663,
+		0,
+		0,
+		1096,
+		1002,
+		417,
+		0,
+		517,
+		397,
+		0,
+		0,
+		375
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		113,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Centaur-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿爾比恩",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206070,
+	english_name = "HMS Albion",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1374,
+		0,
+		0,
+		63,
+		101,
+		60,
+		0,
+		32,
+		19,
+		28,
+		78,
+		39
+	},
+	attrs_growth = {
+		29663,
+		0,
+		0,
+		1096,
+		1002,
+		417,
+		0,
+		517,
+		397,
+		0,
+		0,
+		375
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		113,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Centaur-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿爾比恩",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206070,
+	english_name = "HMS Albion",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1913,
+		0,
+		0,
+		88,
+		141,
+		60,
+		0,
+		32,
+		19,
+		28,
+		78,
+		54
+	},
+	attrs_growth = {
+		29663,
+		0,
+		0,
+		1096,
+		1002,
+		417,
+		0,
+		517,
+		397,
+		0,
+		0,
+		375
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		113,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Centaur-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿爾比恩",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206070,
+	english_name = "HMS Albion",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2722,
+		0,
+		0,
+		125,
+		202,
+		60,
+		0,
+		32,
+		19,
+		28,
+		78,
+		77
+	},
+	attrs_growth = {
+		29663,
+		0,
+		0,
+		1096,
+		1002,
+		417,
+		0,
+		517,
+		397,
+		0,
+		0,
+		375
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		113,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		4
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Centaur-Class",
 		"Royal Fleet-CVL"
 	}
 }

@@ -28951,6 +28951,80 @@ _G.pg.base.aircraft_template[61026] = {
 	}
 }
 
+_G.pg.base.aircraft_template[61028] = {
+	attack_power = 2,
+	name = "阿尔比恩天袭者预警机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "tianxizhe",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 61028,
+	icon = "tianxizhe",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2282,
+	speed = 66,
+	max_hp = 69,
+	scale = 1,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[61030] = {
 	attack_power = 2,
 	name = "飞鸟川专武-巨大炎龙",
@@ -66738,6 +66812,551 @@ _G.pg.base.aircraft_template[100814] = {
 			0,
 			0
 		}
+	}
+}
+
+_G.pg.base.aircraft_template[160001] = {
+	attack_power = 2,
+	name = "阿尔比恩一技能海大黄蜂",
+	type = 1,
+	accuracy = 24,
+	model_ID = "haidahuangfeng",
+	ACC_growth = 0,
+	crash_DMG = 190,
+	dodge = 0.3,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160001,
+	icon = "haidahuangfeng",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10,
+	hp_growth = 2189,
+	speed = 60,
+	max_hp = 57,
+	scale = 1,
+	weapon_ID = {
+		160011
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.52,
+				-1.61,
+				0
+			},
+			{
+				0.6,
+				1.5,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.86,
+			-0.12,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160002] = {
+	max_hp = 64,
+	hp_growth = 2474,
+	base = 160001,
+	id = 160002,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160012
+	}
+}
+
+_G.pg.base.aircraft_template[160003] = {
+	max_hp = 72,
+	hp_growth = 2760,
+	base = 160001,
+	id = 160003,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160013
+	}
+}
+
+_G.pg.base.aircraft_template[160004] = {
+	max_hp = 79,
+	hp_growth = 3045,
+	base = 160001,
+	id = 160004,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160014
+	}
+}
+
+_G.pg.base.aircraft_template[160005] = {
+	max_hp = 87,
+	hp_growth = 3330,
+	base = 160001,
+	id = 160005,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160015
+	}
+}
+
+_G.pg.base.aircraft_template[160006] = {
+	max_hp = 94,
+	hp_growth = 3616,
+	base = 160001,
+	id = 160006,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160016
+	}
+}
+
+_G.pg.base.aircraft_template[160007] = {
+	max_hp = 101,
+	hp_growth = 3901,
+	base = 160001,
+	id = 160007,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160017
+	}
+}
+
+_G.pg.base.aircraft_template[160008] = {
+	max_hp = 109,
+	hp_growth = 4187,
+	base = 160001,
+	id = 160008,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160018
+	}
+}
+
+_G.pg.base.aircraft_template[160009] = {
+	max_hp = 116,
+	hp_growth = 4472,
+	base = 160001,
+	id = 160009,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160019
+	}
+}
+
+_G.pg.base.aircraft_template[160010] = {
+	max_hp = 124,
+	hp_growth = 4758,
+	base = 160001,
+	id = 160010,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160020
+	}
+}
+
+_G.pg.base.aircraft_template[160021] = {
+	attack_power = 2,
+	name = "阿尔比恩梭鱼1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "suoyu",
+	ACC_growth = 0,
+	crash_DMG = 480,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160021,
+	icon = "suoyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 6,
+	hp_growth = 1678,
+	speed = 52,
+	max_hp = 44,
+	scale = 1,
+	weapon_ID = {
+		160031,
+		160061
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160022] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 160021,
+	id = 160022,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160032,
+		160062
+	}
+}
+
+_G.pg.base.aircraft_template[160023] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 160021,
+	id = 160023,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160033,
+		160063
+	}
+}
+
+_G.pg.base.aircraft_template[160024] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 160021,
+	id = 160024,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160034,
+		160064
+	}
+}
+
+_G.pg.base.aircraft_template[160025] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 160021,
+	id = 160025,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160035,
+		160065
+	}
+}
+
+_G.pg.base.aircraft_template[160026] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 160021,
+	id = 160026,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160036,
+		160066
+	}
+}
+
+_G.pg.base.aircraft_template[160027] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 160021,
+	id = 160027,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160037,
+		160067
+	}
+}
+
+_G.pg.base.aircraft_template[160028] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 160021,
+	id = 160028,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160038,
+		160068
+	}
+}
+
+_G.pg.base.aircraft_template[160029] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 160021,
+	id = 160029,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160039,
+		160069
+	}
+}
+
+_G.pg.base.aircraft_template[160030] = {
+	max_hp = 95,
+	hp_growth = 3648,
+	base = 160021,
+	id = 160030,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160040,
+		160070
+	}
+}
+
+_G.pg.base.aircraft_template[160041] = {
+	attack_power = 2,
+	name = "阿尔比恩梭鱼2",
+	type = 2,
+	accuracy = 23,
+	model_ID = "suoyu",
+	ACC_growth = 0,
+	crash_DMG = 480,
+	dodge = 1.05,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160041,
+	icon = "suoyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 6,
+	hp_growth = 1678,
+	speed = 52,
+	max_hp = 44,
+	scale = 1,
+	weapon_ID = {
+		160051,
+		160061
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160042] = {
+	max_hp = 49,
+	hp_growth = 1897,
+	base = 160041,
+	id = 160042,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160052,
+		160062
+	}
+}
+
+_G.pg.base.aircraft_template[160043] = {
+	max_hp = 55,
+	hp_growth = 2116,
+	base = 160041,
+	id = 160043,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160053,
+		160063
+	}
+}
+
+_G.pg.base.aircraft_template[160044] = {
+	max_hp = 61,
+	hp_growth = 2335,
+	base = 160041,
+	id = 160044,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160054,
+		160064
+	}
+}
+
+_G.pg.base.aircraft_template[160045] = {
+	max_hp = 66,
+	hp_growth = 2554,
+	base = 160041,
+	id = 160045,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160055,
+		160065
+	}
+}
+
+_G.pg.base.aircraft_template[160046] = {
+	max_hp = 72,
+	hp_growth = 2772,
+	base = 160041,
+	id = 160046,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160056,
+		160066
+	}
+}
+
+_G.pg.base.aircraft_template[160047] = {
+	max_hp = 78,
+	hp_growth = 2991,
+	base = 160041,
+	id = 160047,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160057,
+		160067
+	}
+}
+
+_G.pg.base.aircraft_template[160048] = {
+	max_hp = 83,
+	hp_growth = 3210,
+	base = 160041,
+	id = 160048,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160058,
+		160068
+	}
+}
+
+_G.pg.base.aircraft_template[160049] = {
+	max_hp = 89,
+	hp_growth = 3429,
+	base = 160041,
+	id = 160049,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160059,
+		160069
+	}
+}
+
+_G.pg.base.aircraft_template[160050] = {
+	max_hp = 95,
+	hp_growth = 3648,
+	base = 160041,
+	id = 160050,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160060,
+		160070
 	}
 }
 
@@ -205917,6 +206536,462 @@ _G.pg.base.aircraft_template[3022210] = {
 		},
 		{
 			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029206] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 H难度】BOSS 阿尔比恩 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 68,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029206,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2550,
+	speed = 33,
+	max_hp = 145,
+	scale = 0.75,
+	weapon_ID = {
+		3029209
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029207] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 H难度】BOSS 阿尔比恩 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 119,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029207,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3360,
+	speed = 30,
+	max_hp = 205,
+	scale = 0.75,
+	weapon_ID = {
+		3029210
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029208] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 H难度】BOSS 阿尔比恩 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "suoyu",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029208,
+	icon = "suoyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2950,
+	speed = 30,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		3029211
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029306] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 EX】BOSS 阿尔比恩 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "haiduya",
+	ACC_growth = 0,
+	crash_DMG = 216,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029306,
+	icon = "haiduya",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3400,
+	speed = 33,
+	max_hp = 324,
+	scale = 0.75,
+	weapon_ID = {
+		3029309
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029307] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 EX】BOSS 阿尔比恩 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "haiyan",
+	ACC_growth = 0,
+	crash_DMG = 296,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029307,
+	icon = "haiyan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3900,
+	speed = 30,
+	max_hp = 365,
+	scale = 0.75,
+	weapon_ID = {
+		3029310
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3029308] = {
+	attack_power = 2,
+	name = "【2022女仆共斗 EX】BOSS 阿尔比恩 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "suoyu",
+	ACC_growth = 0,
+	crash_DMG = 256,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3029308,
+	icon = "suoyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3600,
+	speed = 30,
+	max_hp = 336,
+	scale = 0.75,
+	weapon_ID = {
+		3029311
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
 			0,
 			0
 		},

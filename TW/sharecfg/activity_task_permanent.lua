@@ -5,10 +5,12 @@ pg.activity_task_permanent = setmetatable({
 		6000,
 		6001,
 		6002,
+		6006,
 		6008,
 		6009,
 		6010,
 		6011,
+		6015,
 		6018
 	}
 }, confHX)
@@ -83,6 +85,17 @@ pg.base.activity_task_permanent = {
 			35032,
 			35033
 		}
+	},
+	[6006] = {
+		gametip = "可獲得曼非斯限定換裝“Mystical Night”",
+		banner_route = "permanent_mengfeisi",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6006,
+		activity_name = "混沌的萬聖之夜",
+		over_task_id = "",
+		eliminate_task_id = {}
 	},
 	[6008] = {
 		gametip = "可獲得大潮限定換裝「馴鹿與聖誕禮物」",
@@ -169,6 +182,32 @@ pg.base.activity_task_permanent = {
 			35133,
 			35134,
 			35135
+		}
+	},
+	[6015] = {
+		gametip = "可獲得貝利限定換裝「搗蛋黑兔」",
+		banner_route = "permanent_beili",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6015,
+		activity_name = "搗蛋萬聖夜",
+		over_task_id = "",
+		eliminate_task_id = {
+			35182,
+			35183,
+			35184,
+			35185,
+			35186,
+			35187,
+			35188,
+			35189,
+			35190,
+			35191,
+			35192,
+			35193,
+			35194,
+			35195
 		}
 	},
 	[6018] = {

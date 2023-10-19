@@ -5955,6 +5955,29 @@ _G.pg.base.item_data_statistics[11052] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[11053] = {
+	display = "海怒T0設計圖",
+	name = "海怒T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/27300",
+	id = 11053,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[12003] = {
 	display = "五聯裝533mm磁性魚雷T3設計圖",
 	name = "五聯裝533mm磁性魚雷T3設計圖",
@@ -15226,6 +15249,123 @@ _G.pg.base.item_data_statistics[30337] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30339] = {
+	display = "可以獲得一件隨機的幽靈狂歡風格外觀裝備",
+	name = "外觀裝備箱(萬聖)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxwansheng",
+	id = 30339,
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30340] = {
 	display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 	name = "外觀裝備箱(鍊金工房)",
@@ -17275,6 +17415,120 @@ _G.pg.base.item_data_statistics[30511] = {
 		{
 			9,
 			237,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30512] = {
+	display = "使用後可從「幽靈狂歡」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(萬聖)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxwanshengzixuan",
+	id = 30512,
+	display_icon = {
+		{
+			9,
+			670,
+			1
+		},
+		{
+			9,
+			671,
+			1
+		},
+		{
+			9,
+			672,
+			1
+		},
+		{
+			9,
+			673,
+			1
+		},
+		{
+			9,
+			674,
+			1
+		},
+		{
+			9,
+			675,
+			1
+		},
+		{
+			9,
+			676,
+			1
+		},
+		{
+			9,
+			677,
+			1
+		},
+		{
+			9,
+			678,
+			1
+		},
+		{
+			9,
+			679,
+			1
+		},
+		{
+			9,
+			680,
+			1
+		},
+		{
+			9,
+			681,
+			1
+		},
+		{
+			9,
+			682,
+			1
+		},
+		{
+			9,
+			683,
+			1
+		},
+		{
+			9,
+			684,
+			1
+		},
+		{
+			9,
+			685,
+			1
+		},
+		{
+			9,
+			686,
+			1
+		},
+		{
+			9,
+			687,
 			1
 		}
 	},
@@ -159312,6 +159566,153 @@ _G.pg.base.item_data_statistics[58718] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58719] = {
+	display = "有幾率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58719,
+	display_icon = {
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58720] = {
+	display = "有幾率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58720,
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58721] = {
+	display = "有幾率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58721,
+	display_icon = {
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			11053,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[58722] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
@@ -162350,6 +162751,29 @@ _G.pg.base.item_data_statistics[59016] = {
 	is_world = 0,
 	icon = "Props/gameticket",
 	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59017] = {
+	display = "用於解鎖角色密語的專門票據。",
+	name = "密語獎券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/soundStoryTicket",
+	id = 59017,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167088,6 +167512,75 @@ _G.pg.base.item_data_statistics[59351] = {
 	is_world = 0,
 	icon = "Props/hero_pt",
 	id = 59351,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59352] = {
+	display = "參與「戰鬥！皇家女僕隊3rd？」獲得的點數，累計一定程度可以領取報酬",
+	name = "貢獻值",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/albion_pt",
+	id = 59352,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59353] = {
+	display = "參與「戰鬥！皇家女僕隊3rd？」EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59353,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59354] = {
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59354,
 	display_icon = {},
 	price = {},
 	index = {},

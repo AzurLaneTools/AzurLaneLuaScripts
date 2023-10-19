@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队3rd？\n\n<size=45>二　麦田上的守望者</size>",
+					"戰鬥！皇家女僕隊3rd？\n\n<size=45>二 麥田上的守望者</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前线航母编队收到讯号，已与指挥部建立连接………光辉前辈，请下达指令吧。",
+			say = "前線航母編隊收到訊號，已與指揮部建立連接………光輝前輩，請下達指令吧。",
 			bgm = "theme-royalknights-battle",
 			flashout = {
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "你那边的情况如何，舰队已经到达预定位置了么？",
+			say = "妳那邊的情況如何，艦隊已經到達預定位置了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "嗯，我们已经抵达了指定区域，目前尚未发现敌方目标，而且今天的海况看起来并不是很理想……",
+			say = "嗯，我們已經抵達了指定區域，目前尚未發現敵方目標，而且今天的海況看起來並不是很理想……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天气的影响对于双方都是均等的，优先发现对面的一方将会获得战斗的主动权。",
+			say = "天氣的影響對於雙方都是均等的，優先發現對面的一方將會獲得戰鬥的主動權。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "侦察机已经出发了么？",
+			say = "偵察機已經出發了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "嗯！目前英仙座前辈正在指挥侦察机编队对周边区域进行无死角侦察，相信很快就能有结果了。",
+			say = "嗯！目前英仙座前輩正在指揮偵察機編隊對周邊區域進行無死角偵察，相信很快就能有結果了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好，我也会协助你们分析侦察数据的~有新情况再联络，光辉通讯结束。",
+			say = "很好，我也會協助妳們分析偵察數據的~有新情況再聯絡，光輝通訊結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206040,
-			say = "阿尔比恩，刚刚的通讯很有前线指挥官的气质了哦？",
+			say = "阿爾比恩，剛剛的通訊很有前線指揮官的氣質了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "我还差得远呢，半人马前辈……",
+			say = "我還差得遠呢，半人馬前輩……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "真没想到一上来就遇到了白鹰与撒丁帝国的联合舰队……也许要遭遇苦战了。",
+			say = "真沒想到一上來就遇到了白鷹與薩丁帝國的聯合艦隊……也許要遭遇苦戰了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "如果能在这种状况下取胜的话，就更能说明我们皇家舰队的实力了吧？",
+			say = "如果能在這種狀況下取勝的話，就更能說明我們皇家艦隊的實力了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "嘿嘿……如果要以这个作为目标的话，那我们每个人都要加油了呢，曼彻斯特前辈，雅努斯前辈！",
+			say = "嘿嘿……如果要以這個作為目標的話，那我們每個人都要加油了呢，曼徹斯特前輩，雅努斯前輩！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "嗯~护卫就包在我身上吧~",
+			say = "嗯~護衛就包在我身上吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201350,
-			say = "阿尔比恩姐姐，英仙座姐姐发来了一个坐标……好像是在那里发现了敌方舰载机群的位置！",
+			say = "阿爾比恩姐姐，英仙座姐姐發來了一個座標……好像是在那裡發現了敵方艦載機群的位置！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201350,
-			say = "唔……英仙座姐姐发来的通讯里只有一个坐标和“麦田上的麻雀群”七个字……",
+			say = "唔……英仙座姐姐發來的通訊裡只有一個座標和“麥田上的麻雀群”七個字……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不愧是英仙座前辈，就算是明码发报也能做到密码一般的效果！",
+			say = "原來如此……不愧是英仙座前輩，就算是明碼發報也能做到密碼一般的效果！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "既然已经展开了交火，对面发现英仙座前辈的位置也只是时间问题。",
+			say = "既然已經展開了交火，對面發現英仙座前輩的位置也只是時間問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "事不宜迟，我们立刻向着前辈给出的坐标进行支援吧！",
+			say = "事不宜遲，我們立刻向著前輩給出的座標進行支援吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

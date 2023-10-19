@@ -8,7 +8,11 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.ResUISettings(slot0)
-	return true
+	return {
+		order = 5,
+		anim = true,
+		showType = PlayerResUI.TYPE_ALL
+	}
 end
 
 function slot0.SetBossProxy(slot0, slot1, slot2)

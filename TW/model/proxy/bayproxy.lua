@@ -797,7 +797,9 @@ function slot0.getProposeGroupList(slot0)
 	return slot1
 end
 
-function slot0.getEliteRecommendShip(slot0, slot1, slot2, slot3)
+function slot0.GetRecommendShip(slot0, slot1, slot2, slot3)
+	assert(slot3)
+
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0:getShipsByTypes(slot1)) do
@@ -821,54 +823,7 @@ function slot0.getEliteRecommendShip(slot0, slot1, slot2, slot3)
 		slot9 = slot4[slot7]
 		slot11 = slot9:getGroupId()
 
-		if not table.contains(slot2, slot9.id) and not table.contains(slot6, slot11) and ShipStatus.ShipStatusCheck("inElite", slot9, nil, {
-			inElite = slot3
-		}) then
-			slot8 = slot9
-
-			break
-		else
-			slot7 = slot7 - 1
-		end
-	end
-
-	return slot8
-end
-
-function slot0.getChallengeRecommendShip(slot0, slot1, slot2, slot3)
-	table.sort(slot0:getShipsByTypes(slot1), function (slot0, slot1)
-		return slot0:getShipCombatPower() < slot1:getShipCombatPower()
-	end)
-
-	slot5 = {}
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot2) do
-		slot12 = slot0.data[slot11]
-		slot5[#slot5 + 1] = slot12:getGroupId()
-
-		if slot6[Challenge.shipTypeFixer(slot12:getShipType())] == nil then
-			slot6[slot13] = 0
-		end
-
-		slot6[slot13] = slot6[slot13] + 1
-	end
-
-	slot7 = #slot4
-	slot8 = nil
-
-	while slot7 > 0 do
-		slot9 = slot4[slot7]
-		slot10 = slot9.id
-		slot11 = slot9:getGroupId()
-
-		if slot6[Challenge.shipTypeFixer(slot9:getShipType())] == nil then
-			slot6[slot12] = 0
-		end
-
-		if slot6[slot12] < Challenge.SAME_TYPE_LIMIT and not table.contains(slot2, slot10) and not table.contains(slot5, slot11) and ShipStatus.ShipStatusCheck("inActivity", slot9, nil, {
-			inActivity = slot3
-		}) then
+		if not table.contains(slot2, slot9.id) and not table.contains(slot6, slot11) and slot3(slot9) then
 			slot8 = slot9
 
 			break

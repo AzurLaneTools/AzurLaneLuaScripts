@@ -309,6 +309,7 @@ function slot6.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_AIMBIAS, slot0.onInitAimBias)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK, slot0.onUpdateAimBiasLock)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HOST_AIMBIAS, slot0.onHostAimBias)
+	slot0._unitData:RegisterEventListener(slot0, uv0.REMOVE_AIMBIAS, slot0.onRemoveAimBias)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
@@ -350,6 +351,7 @@ function slot6.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.HOST_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.REMOVE_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_BUFF_CLOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 
@@ -1229,6 +1231,14 @@ end
 
 function slot6.onHostAimBias(slot0, slot1)
 	slot0._factory:MakeAimBiasBar(slot0)
+end
+
+function slot6.onRemoveAimBias(slot0, slot1)
+	slot0._aimBiarBar:SetActive(false)
+	slot0._aimBiarBar:Dispose()
+
+	slot0._aimBiarBar = nil
+	slot0._aimBiarBarTF = nil
 end
 
 function slot6.AddAimBiasFogFX(slot0)

@@ -628,6 +628,19 @@ function slot3.TargetAircraftHarm(slot0)
 	return slot2
 end
 
+function slot3.TargetAircraftGB(slot0)
+	slot2 = {}
+	slot3 = slot0:GetIFF()
+
+	for slot7, slot8 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetAircraftList()) do
+		if slot3 ~= slot8:GetIFF() and slot8:IsVisitable() and slot8:GetMotherUnit() == nil then
+			slot2[#slot2 + 1] = slot8
+		end
+	end
+
+	return slot2
+end
+
 function slot3.TargetDiveState(slot0, slot1, slot2)
 	slot3 = slot1 and slot1.diveState or ys.Battle.BattleConst.OXY_STATE.DIVE
 	slot4 = slot2 or uv0.TargetEntityUnit()

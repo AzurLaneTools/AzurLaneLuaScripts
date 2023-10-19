@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队3rd？\n\n<size=45>四　聊天与穿插</size>",
+					"戰鬥！皇家女僕隊3rd？\n\n<size=45>四 聊天與穿插</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "演习海域中的某处————",
+			say = "演習海域中的某處————",
 			bgm = "theme-royalknights-battle",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "试图进行突袭的敌方舰队发现~",
+			say = "試圖進行突襲的敵方艦隊發現~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "想要趁我们还没有磨合好的时候扰乱我们的阵型么……",
+			say = "想要趁我們還沒有磨合好的時候擾亂我們的陣型麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "提出这个鲁莽战术的是你吧，曼彻斯特。",
+			say = "提出這個魯莽戰術的是妳吧，曼徹斯特。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "不是鲁莽，是大胆！请叫它大胆的战术哦！",
+			say = "不是魯莽，是大膽！請叫它大膽的戰術哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "单纯从胆量大小的数值意义上来说，你跟雅努斯两个人脱离航空编队的保护冲入敌阵的行为……就勉强算大胆好了。",
+			say = "單純從膽量大小的數值意義上來說，妳跟雅努斯兩個人脫離航空編隊的保護衝入敵陣的行為……就勉強算大膽好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "但是你们的企图已经被我们识破了，接下来打算怎么办？",
+			say = "但是妳們的企圖已經被我們識破了，接下來打算怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "航空支援已经在路上了，你们还是乖乖束手就擒比较好哦~",
+			say = "航空支援已經在路上了，妳們還是乖乖束手就擒比較好哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "呵……呵……呵，你刚才说什么，航空支援？",
+			say = "呵……呵……呵，妳剛才說什麼，航空支援？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "本次演习双方的航空力量是均等的，在上空已经激战至白热化的情况下，你们怎么可能获得航空支援呢！",
+			say = "本次演習雙方的航空力量是均等的，在上空已經激戰至白熱化的情況下，妳們怎麼可能獲得航空支援呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "但是帝国小姐确实是这么说的……等等，我再向无畏确认一下……",
+			say = "但是帝國小姐確實是這麼說的……等等，我再向無畏確認一下……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "呼呼呼~就是现在雅努斯，全速前进吧！",
+			say = "呼呼呼~就是現在雅努斯，全速前進吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉贾维斯……雅努斯先走一步————！",
+			say = "抱歉賈維斯……雅努斯先走一步————！",
 			effects = {
 				{
 					active = false,
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "哎…………？！等等，快拦住她，贾维斯！",
+			say = "哎…………？！等等，快攔住她，賈維斯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "……抱歉，已经来不及了。",
+			say = "……抱歉，已經來不及了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "没想到你居然会选择用聊天的方式分散我们的注意力……",
+			say = "沒想到妳居然會選擇用聊天的方式分散我們的注意力……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "哼哼，对于对手的任何弱点都应该抓在手里嘛~",
+			say = "哼哼，對於對手的任何弱點都應該抓在手裡嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "里诺，贾维斯，现在有一艘驱逐舰正在向着伟大的帝国接近……",
+			say = "雷諾，賈維斯，現在有一艘驅逐艦正在向著偉大的帝國接近……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "帝国陷入危机，需要支援……重复，帝国陷入危机，需要支援————",
+			say = "帝國陷入危機，需要支援……重複，帝國陷入危機，需要支援————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "贾维斯面不改色地切断了通讯器。",
+			say = "賈維斯面不改色地切斷了通訊器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "……贾维斯小姐？！",
+			say = "……賈維斯小姐？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "虽然很对不住帝国，不过我们再赶回去也已经来不及了。",
+			say = "雖然很對不起帝國，不過我們再趕回去也已經來不及了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201340,
-			say = "我们现在应该做的是看住曼彻斯特，避免防线的进一步崩溃。",
+			say = "我們現在應該做的是看住曼徹斯特，避免防線的進一步崩潰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "没错没错，你们就一起留在这里陪我到演习结束吧~",
+			say = "沒錯沒錯，妳們就一起留在這裡陪我到演習結束吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "反正已经搞砸了，也不用太在意的意思么……哈哈哈……",
+			say = "反正已經搞砸了，也不用太在意的意思嗎……哈哈哈……",
 			painting = {
 				alpha = 0.3,
 				time = 1

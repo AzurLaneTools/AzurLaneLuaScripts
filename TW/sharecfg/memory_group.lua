@@ -117,6 +117,7 @@ pg.memory_group = setmetatable({
 		226,
 		227,
 		228,
+		229,
 		230,
 		231,
 		232,
@@ -200,7 +201,8 @@ pg.memory_group = setmetatable({
 		573,
 		574,
 		577,
-		578
+		578,
+		579
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2741,6 +2743,21 @@ pg.base.memory_group = {
 			2363
 		}
 	},
+	[229] = {
+		id = 229,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "戰鬥！皇家女僕隊3rd？",
+		memories = {
+			2378,
+			2379,
+			2380,
+			2381,
+			2382
+		}
+	},
 	[230] = {
 		id = 230,
 		subtype = 2,
@@ -4224,6 +4241,23 @@ pg.base.memory_group = {
 			2345,
 			2346,
 			2347
+		}
+	},
+	[579] = {
+		id = 579,
+		subtype = 0,
+		icon = "title_chara_huayue",
+		type = 3,
+		link_event = 0,
+		title = "花之語",
+		memories = {
+			2371,
+			2372,
+			2373,
+			2374,
+			2375,
+			2376,
+			2377
 		}
 	}
 }

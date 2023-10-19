@@ -386,7 +386,7 @@ function slot0.UpdateStory(slot0)
 		end)()
 	end)
 	setActive(slot0.storyBar, false)
-	setActive(slot0.storyAward, slot0.storyTask)
+	setActive(slot0.storyAward, tobool(slot0.storyTask))
 
 	if slot0.storyTask then
 		slot12 = slot0.storyTask:getConfig("award_display")

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>五　挥之不去的思念</size>",
+					"花之語\n\n<size=45>五 揮之不去的思念</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-richang-7",
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "今天也辛苦啦，指挥官。这样一来，这些绚烂的蔷薇花也种植完毕……",
+			say = "今天也辛苦啦，指揮官。這樣一來，這些絢爛的薔薇花也種植完畢……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿！指挥官也差不多要变成园艺大师了呢。",
+			say = "嘿嘿！指揮官也差不多要變成園藝大師了呢。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "从初春到盛夏再到晚秋，与{namecode:29}一起整顿花房的习惯竟不知不觉坚持了下来。",
+			say = "從初春到盛夏再到晚秋，與花月一起整頓花房的習慣竟不知不覺堅持了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "不过此时，天空中的阴云似乎正在集结，继续进行户外作业似乎稍微有些危险——",
+			say = "不過此時，天空中的陰雲似乎正在集結，繼續進行戶外作業似乎稍微有些危險——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "——正这样想着的时候，雨点便落在了脸上。",
+			say = "——正這樣想著的時候，雨點便落在了臉上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官！快进来躲雨！",
+			say = "指、指揮官！快進來躲雨！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -171,7 +171,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被淋湿了感冒可不行……在天空放晴之前，先在花房里避一避吧~",
+			say = "被淋濕了感冒可不行……在天空放晴之前，先在花房裡躲一躲吧~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}说话的语调微微上扬了起来，似乎对于现状有些开心。",
+			say = "花月說話的語調微微上揚了起來，似乎對於現狀有些開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "与{namecode:29}并排坐在屋檐下，一边喝茶，一边聆听着落雨打在泥土上的声音。",
+			say = "與花月並排坐在屋簷下，一邊喝茶，一邊聆聽著落雨打在泥土上的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下雨天时，被打湿的泥土也会散发出一种清新的气息呢……",
+			say = "下雨天時，被打濕的泥土也會散發出一種清新的氣息呢……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -268,7 +268,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官！你渴了么？{namecode:29}去给你倒一杯花茶吧……",
+			say = "指、指揮官！你渴了嗎？花月去幫你倒一杯花茶吧……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -286,11 +286,11 @@ return {
 			},
 			options = {
 				{
-					content = "是有些渴……那就辛苦榵了。",
+					content = "是有些渴……那就辛苦花月了。",
 					flag = 1
 				},
 				{
-					content = "那我们现在在喝的是……？",
+					content = "那我們現在在喝的是……？",
 					flag = 2
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "{namecode:29}转身去里屋准备花茶了，全然没有注意到身边正摆着刚下雨时端来的茶壶。",
+			say = "花月轉身去裡屋準備花茶了，全然沒有注意到身邊正擺著剛下雨時端來的茶壺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "能感觉到她似乎有什么话想说……虽然并不渴，但是就当做转换气氛好了。",
+			say = "能感覺到她似乎有什麼話想說……雖然並不渴，但是就當做轉換氣氛好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "似乎过了比准备一壶茶稍微更长一些的时间，{namecode:29}带着一壶新茶重新回到落雨的檐下。",
+			say = "似乎過了比準備一壺茶稍微更長一些的時間，花月帶著一壺新茶重新回到落雨的簷下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "……欸？指挥官，您旁边的这壶茶是…………{namecode:29}之前准备的么？",
+			say = "……欸？指揮官，您旁邊的這壺茶是…………花月之前準備的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "…………抱歉指挥官，我有点心不在焉了……",
+			say = "…………抱歉指揮官，我有點心不在焉了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "欸？！好、好像是这样诶…………不过这壶稍微有些冷了，我再去冲一壶新的哦！",
+			say = "欸？！好、好像是這樣欸…………不過這壺稍微有些冷了，我再去沖一壺新的哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 2,
-			say = "似乎过了比准备一壶茶稍微更长一些的时间，{namecode:29}带着一壶新茶重新回到落雨的檐下。",
+			say = "似乎過了比準備一壺茶稍微更長一些的時間，花月帶著一壺新茶重新回到落雨的簷下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "两人在屋檐下，听着雨，有一搭没一搭的闲聊着些什么。",
+			say = "兩人在屋簷下，聽著雨，有一搭沒一搭的閒聊著些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "又是一杯茶毕，不过这次在放下杯子后，手背上传来温暖又柔软的触感。",
+			say = "又是一杯茶畢，不過這次在放下杯子後，手背上傳來溫暖又柔軟的觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,11 +471,11 @@ return {
 			},
 			options = {
 				{
-					content = "榵……？",
+					content = "花月……？",
 					flag = 1
 				},
 				{
-					content = "（假装没注意到）",
+					content = "（假裝沒注意到）",
 					flag = 2
 				}
 			}
@@ -489,7 +489,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "啊，指、指挥官！对、对不起！我、我只是想拿一下茶杯……",
+			say = "啊，指、指揮官！對、對不起！我、我只是想拿一下茶杯……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "虽然这么说着，不过{namecode:29}并没有将手抽回去。",
+			say = "雖然這麼說著，不過花月並沒有將手抽回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 2,
-			say = "{namecode:29}似乎也在假装没有注意到。",
+			say = "花月似乎也在假裝沒有注意到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那、那个！指，指挥官，我，我……",
+			say = "那、那個！指，指揮官，我，我……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "——就在此时，雨滴逐渐变得稀疏，太阳从云后再次探出头来。",
+			say = "——就在此時，雨滴逐漸變得稀疏，太陽從雲後再次探出頭來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "真是一场犹如突袭的阵雨……你刚才是有话想说么？",
+			say = "真是一場猶如突襲的陣雨……妳剛才是有話想說嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许有，不过已经随着雨水一起流走了吧……",
+			say = "也許有，不過已經隨著雨水一起流走了吧……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -685,7 +685,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，今天请收下这个吧~它挂在指挥室的书架上会很漂亮哦。",
+			say = "指揮官，今天請收下這個吧~它掛在指揮室的書架上會很漂亮哦。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}不知从那里递来了一个漂亮的天竺葵花环。",
+			say = "花月不知從那裡遞來了一個漂亮的天竺葵花環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "天竺葵————挥之不去的思念。",
+			say = "天竺葵————揮之不去的思念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那今天的劳动就到这里，{namecode:29}等待着指挥官的下次光临哦~?",
+			say = "那今天的勞動就到這裡，花月等待著指揮官的下次光臨哦~?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

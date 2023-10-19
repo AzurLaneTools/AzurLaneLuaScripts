@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>七　珍惜眼前的幸福</size>",
+					"花之語\n\n<size=45>七 珍惜眼前的幸福</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "新春宴会上，{namecode:29}的花束得到了伙伴们的一致好评——",
+			say = "新春宴會上，花月的花束得到了夥伴們的一致好評——",
 			bgm = "story-china",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好漂亮的颜色~！谢谢{namecode:29}……",
+			say = "好漂亮的顏色~！謝謝花月……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -71,7 +71,7 @@ return {
 			actor = 301582,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "味道也很清新呢~能让人想起春天盛开的花丛。",
+			say = "味道也很清新呢~能讓人想起春天盛開的花叢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢两位的夸奖~♫毕竟，这是在指挥官的指导之下做出来的嘛……",
+			say = "謝謝兩位的誇獎~♫畢竟，這是在指揮官的指導之下做出來的嘛……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -108,7 +108,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，看起来大家都很开心呢！",
+			say = "嘿嘿，看起來大家都很開心呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！差不多是时候了！指挥官，该、该陪我去看烟花了……",
+			say = "啊！差不多是時候了！指揮官，該、該陪我去看煙火了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "绚烂的彩色在天空中怒放，而后化成点点星光融入漆黑的夜空之中。",
+			say = "絢爛的彩色在天空中怒放，而後化成點點星光融入漆黑的夜空之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烟花……也是一种美丽又绚烂的花呀……",
+			say = "煙火……也是一種美麗又絢爛的花呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "虽然闻上去只有火药的气味————",
+			say = "雖然聞上去只有火藥的氣味————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿……是啊，虽然闻上去只有火药的气味。",
+			say = "哎嘿嘿……是啊，雖然聞上去只有火藥的氣味。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是即便如此，也依然能够给人带来温暖与幸福的感觉……",
+			say = "但是即便如此，卻依然能夠給人帶來溫暖與幸福的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……尤其是与您一同观赏的时候。",
+			say = "……尤其與您一同觀賞的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个！指挥官……",
+			say = "那、那個！指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,11 +280,11 @@ return {
 			},
 			options = {
 				{
-					content = "[静静等待]",
+					content = "[靜靜等待]",
 					flag = 1
 				},
 				{
-					content = "——我想一直陪在榵的身边。",
+					content = "——我想一直陪在花月的身邊。",
 					flag = 2
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
-			say = "在烟花的映照之下，绯红爬上了她的面庞——",
+			say = "在煙花的映照之下，緋紅爬上了她的面龐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是，那个……明年，指挥官还会待在{namecode:29}的身边，和{namecode:29}一起……赏花么？",
+			say = "就是，那個……明年，指揮官還會待在花月的身邊，和花月一起……賞花麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不仅是明年，还有以后……呜，好害羞……",
+			say = "不、不僅是明年，還有以後……嗚，好害羞……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以后，指挥官……能一直像现在这样，陪在{namecode:29}的身边么？",
+			say = "以後，指揮官……能一直像現在這樣，陪在花月的身邊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
-			say = "答案当然是肯定的。",
+			say = "答案當然是肯定的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……谢谢指挥官……",
+			say = "嘿嘿……謝謝指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，指挥官快看，新一轮烟花升空了哦——",
+			say = "啊，指揮官快看，新一輪煙火升空了哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
-			say = "{namecode:29}愣了一小会，而后绯红爬上了她的面庞——",
+			say = "花月愣了一小會，而後緋紅爬上了她的面龐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真、真是的！指挥官……明明我好不容易克服内心的犹豫做出一次决定……",
+			say = "真、真是的！指揮官……明明我好不容易克服內心的猶豫做出一次決定……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易决定想跟指挥官吐露心声的……结果还被您抢先了！",
+			say = "好不容易終於決定想跟指揮官吐露心聲的……結果還被您搶先了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不过既然您已经说出来了，那{namecode:29}心里也就有了答案……",
+			say = "不、不過您既然已經說出來了，那花月心裡也就有了答案……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢您，指挥官……一直在身边陪伴着我……现在的{namecode:29}很开心！",
+			say = "謝謝您，指揮官……一直在身邊陪伴著我……現在的花月很開心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "在盛开的烟花之下，{namecode:29}把一支木棉花递到了我的手中。",
+			say = "在盛開的煙花之下，花月把一支木棉花遞到了我的手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……请收下这个吧。这朵花的花语是……",
+			say = "指揮官……請收下這個吧。這朵花的花語是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "脸上不禁露出了微笑，因为我记得它的意思——",
+			say = "臉上不禁露出了微笑，因為我記得它的意思——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

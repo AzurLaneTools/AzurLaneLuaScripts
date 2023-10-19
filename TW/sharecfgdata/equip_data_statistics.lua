@@ -16697,6 +16697,274 @@ _G.pg.base.equip_data_statistics[3631] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3640] = {
+	type = 10,
+	name = "阿爾比恩的報告書",
+	speciality = "無",
+	tech = 0,
+	value_2 = 10,
+	ammo = 10,
+	nationality = 2,
+	descrip = "阿爾比恩的演習報告書。從遠超常規報告書的厚度上而言，應該寫了相當多的總結與反思在裡面。",
+	rarity = 4,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3640,
+	icon = "3640",
+	value_1 = "50",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60100
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3641] = {
+	id = 3641,
+	value_2 = 12,
+	value_1 = "55",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3642] = {
+	id = 3642,
+	value_2 = 14,
+	value_1 = "60",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3643] = {
+	id = 3643,
+	value_2 = 16,
+	value_1 = "65",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3644] = {
+	id = 3644,
+	value_2 = 18,
+	value_1 = "70",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3645] = {
+	id = 3645,
+	value_2 = 20,
+	value_1 = "75",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3646] = {
+	id = 3646,
+	value_2 = 22,
+	value_1 = "80",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3647] = {
+	id = 3647,
+	value_2 = 24,
+	value_1 = "90",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3648] = {
+	id = 3648,
+	value_2 = 26,
+	value_1 = "100",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3649] = {
+	id = 3649,
+	value_2 = 28,
+	value_1 = "110",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3650] = {
+	id = 3650,
+	value_2 = 30,
+	value_1 = "120",
+	base = 3640,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3651] = {
+	value_2 = 32,
+	anti_siren = 100,
+	base = 3640,
+	id = 3651,
+	value_1 = "130",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3660] = {
+	type = 10,
+	name = "小王冠",
+	speciality = "無",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 2,
+	descrip = "常在J級驅逐艦頭頂看到的小王冠。小巧而不失莊重的金冠，象徵少女們所珍視的榮譽與希望。",
+	rarity = 5,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3660,
+	icon = "3660",
+	value_1 = "140",
+	attribute_2 = "luck",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60110
+	},
+	hidden_skill_id = {},
+	part_main = {
+		1
+	},
+	part_sub = {
+		1
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3661] = {
+	id = 3661,
+	value_1 = "161",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3662] = {
+	id = 3662,
+	value_1 = "182",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3663] = {
+	id = 3663,
+	value_1 = "203",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3664] = {
+	id = 3664,
+	value_1 = "224",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3665] = {
+	id = 3665,
+	value_1 = "245",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3666] = {
+	id = 3666,
+	value_1 = "266",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3667] = {
+	id = 3667,
+	value_2 = 2,
+	value_1 = "287",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3668] = {
+	id = 3668,
+	value_2 = 2,
+	value_1 = "308",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3669] = {
+	id = 3669,
+	value_2 = 2,
+	value_1 = "329",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3670] = {
+	id = 3670,
+	value_2 = 2,
+	value_1 = "350",
+	base = 3660,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3671] = {
+	value_2 = 3,
+	anti_siren = 100,
+	base = 3660,
+	id = 3671,
+	value_1 = "370",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3672] = {
+	value_2 = 3,
+	anti_siren = 200,
+	base = 3660,
+	id = 3672,
+	value_1 = "390",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3673] = {
+	value_2 = 3,
+	anti_siren = 300,
+	base = 3660,
+	id = 3673,
+	value_1 = "410",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3680] = {
 	tech = 1,
 	name = "12磅長管炮",
@@ -104666,6 +104934,56 @@ _G.pg.base.equip_data_statistics[60853] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[60911] = {
+	type = 99,
+	name = "航空攻擊展示-阿爾比恩I",
+	speciality = "無",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "航母空襲展示用",
+	id = 60911,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60911
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[60912] = {
+	id = 60912,
+	name = "航空攻擊展示-阿爾比恩II",
+	base = 60911,
+	weapon_id = {
+		60912
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[60913] = {
+	id = 60913,
+	name = "航空攻擊展示-阿爾比恩III",
+	base = 60911,
+	weapon_id = {
+		60913
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[60981] = {
 	type = 99,
 	name = "航空攻击展示-露娜I",
@@ -116106,6 +116424,59 @@ _G.pg.base.equip_data_statistics[79962] = {
 	base = 79961,
 	weapon_id = {
 		79962
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79971] = {
+	type = 1,
+	name = "專屬彈幕-雅努斯I",
+	speciality = "無",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能彈幕",
+	id = 79971,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60901
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79972] = {
+	id = 79972,
+	name = "專屬彈幕-雅努斯II",
+	base = 79971,
+	weapon_id = {
+		60902
 	},
 	hidden_skill_id = {}
 }

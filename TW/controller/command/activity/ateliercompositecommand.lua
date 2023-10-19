@@ -18,10 +18,14 @@ end
 function slot0.execute(slot0, slot1)
 	slot2 = slot1.body
 	slot6 = getProxy(ActivityProxy)
+	slot6 = slot6:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+
+	assert(slot6)
+
 	slot7 = pg.ConnectionMgr.GetInstance()
 
 	slot7:Send(26053, {
-		act_id = slot6:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK).id,
+		act_id = slot6.id,
 		recipe_id = slot2.formulaId,
 		items = slot2.items,
 		times = slot2.repeats

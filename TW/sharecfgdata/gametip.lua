@@ -394,6 +394,10 @@ _G.pg.base.gametip.word_shipState_sham = {
 	tip = "該角色正在「模擬戰」作戰哦~"
 }
 
+_G.pg.base.gametip.word_shipState_support = {
+	tip = "該角色在支援艦隊中哦~"
+}
+
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "驅逐"
 }
@@ -10536,7 +10540,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
 9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
 10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取
-11.3.23-4.06維護前期間可以參與演習戰鬥，獎勵領取的截止時間為4.12 23:59]]
+11.10.19-11.02維護前期間可以參與演習戰鬥，獎勵領取的截止時間為11.08 23:59]]
 		},
 		{
 			info = [[
@@ -23653,4 +23657,12 @@ _G.pg.base.gametip.racing_minigame_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine = {
+	tip = "確認部署"
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+	tip = "取消部署"
 }

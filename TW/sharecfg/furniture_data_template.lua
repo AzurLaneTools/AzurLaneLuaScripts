@@ -148,6 +148,7 @@ pg.furniture_data_template = setmetatable({
 			100026,
 			100027,
 			100028,
+			100029,
 			200001,
 			200002,
 			200003,
@@ -4330,6 +4331,7 @@ pg.furniture_data_template = setmetatable({
 			100026,
 			100027,
 			100028,
+			100029,
 			54104,
 			54105
 		},
@@ -5110,7 +5112,8 @@ pg.furniture_data_template = setmetatable({
 			100025,
 			100026,
 			100027,
-			100028
+			100028,
+			100029
 		},
 		[2] = {
 			120,
@@ -7448,6 +7451,7 @@ pg.furniture_data_template = setmetatable({
 		100026,
 		100027,
 		100028,
+		100029,
 		200001,
 		200002,
 		200003,
@@ -17282,6 +17286,73 @@ pg.base.furniture_data_template = {
 					"bg2"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100029] = {
+		spine_extra = "",
+		describe = "乘風破浪啾！ 你就是今夏最靚的啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "啾啾衝浪池(臨時)",
+		themeId = 0,
+		icon = "yongchiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100029,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchi",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

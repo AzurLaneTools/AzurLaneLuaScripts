@@ -20,6 +20,9 @@ slot0.ON_ELITE_OEPN_DECK = "LevelMediator2:ON_ELITE_OEPN_DECK"
 slot0.ON_ELITE_CLEAR = "LevelMediator2:ON_ELITE_CLEAR"
 slot0.ON_ELITE_RECOMMEND = "LevelMediator2:ON_ELITE_RECOMMEND"
 slot0.ON_ELITE_ADJUSTMENT = "LevelMediator2:ON_ELITE_ADJUSTMENT"
+slot0.ON_SUPPORT_OPEN_DECK = "LevelMediator2:ON_SUPPORT_OPEN_DECK"
+slot0.ON_SUPPORT_CLEAR = "LevelMediator2:ON_SUPPORT_CLEAR"
+slot0.ON_SUPPORT_RECOMMEND = "LevelMediator2:ON_SUPPORT_RECOMMEND"
 slot0.ON_ACTIVITY_MAP = "LevelMediator2:ON_ACTIVITY_MAP"
 slot0.GO_ACT_SHOP = "LevelMediator2:GO_ACT_SHOP"
 slot0.ON_SWITCH_NORMAL_MAP = "LevelMediator2:ON_SWITCH_NORMAL_MAP"
@@ -34,6 +37,7 @@ slot0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN = "LevelMediator2:ON_CLICK_RECEIVE_R
 slot0.GET_REMASTER_TICKETS_DONE = "LevelMediator2:GET_REMASTER_TICKETS_DONE"
 slot0.ON_FLEET_SHIPINFO = "LevelMediator2:ON_FLEET_SHIPINFO"
 slot0.ON_STAGE_SHIPINFO = "LevelMediator2:ON_STAGE_SHIPINFO"
+slot0.ON_SUPPORT_SHIPINFO = "LevelMediator2:ON_SUPPORT_SHIPINFO"
 slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
@@ -200,7 +204,7 @@ function slot0.register(slot0)
 
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3)
-		uv0.viewComponent.levelFleetView:setOnHard(slot3)
+		uv0.viewComponent:RefreshFleetSelectView(slot3)
 	end)
 	slot0:bind(uv0.NOTICE_AUTOBOT_ENABLED, function (slot0, slot1)
 		uv0:sendNotification(GAME.COMMON_FLAG, {
@@ -214,7 +218,7 @@ function slot0.register(slot0)
 		slot4:eliteFleetRecommend(slot3, slot1.index)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3)
-		uv0.viewComponent.levelFleetView:setOnHard(slot3)
+		uv0.viewComponent:RefreshFleetSelectView(slot3)
 	end)
 	slot0:bind(uv0.ON_ELITE_ADJUSTMENT, function (slot0, slot1)
 		slot2 = getProxy(ChapterProxy)
@@ -266,6 +270,71 @@ function slot0.register(slot0)
 			}),
 			otherSelectedIds = slot11
 		})
+	end)
+	slot0:bind(uv0.ON_SUPPORT_OPEN_DECK, function (slot0, slot1)
+		slot2 = slot1.shipType
+		slot3 = slot1.shipVO
+		slot4 = slot1.fleet
+		slot5 = slot1.chapter
+		slot6 = slot1.teamType
+		slot9 = {}
+
+		for slot13, slot14 in pairs(getProxy(BayProxy):getRawData()) do
+			if not ShipType.ContainInLimitBundle(slot2, slot14:getShipType()) then
+				table.insert(slot9, slot13)
+			end
+		end
+
+		slot10 = {}
+
+		for slot14, slot15 in pairs(slot4) do
+			table.insert(slot10, slot14.id)
+		end
+
+		slot11, slot12, slot13 = uv0:getSupportDockCallbackFuncs(slot4, slot3, slot5)
+
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			selectedMax = 1,
+			useBlackBlock = true,
+			selectedMin = 0,
+			energyDisplay = true,
+			ignoredIds = slot9,
+			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
+			quitTeam = slot3 ~= nil,
+			teamFilter = slot6,
+			leftTopInfo = i18n("word_formation"),
+			onShip = slot11,
+			confirmSelect = slot12,
+			onSelected = slot13,
+			hideTagFlags = setmetatable({
+				inSupport = slot5:getConfig("formation")
+			}, {
+				__index = ShipStatus.TAG_HIDE_SUPPORT
+			}),
+			otherSelectedIds = slot10
+		})
+
+		uv0.contextData.selectedChapterVO = slot5
+	end)
+	slot0:bind(uv0.ON_SUPPORT_CLEAR, function (slot0, slot1)
+		slot3 = slot1.chapterVO
+
+		slot3:ClearSupportFleetList(slot1.index)
+
+		slot4 = getProxy(ChapterProxy)
+
+		slot4:updateChapter(slot3)
+		slot4:duplicateSupportFleet(slot3)
+		uv0.viewComponent:RefreshFleetSelectView(slot3)
+	end)
+	slot0:bind(uv0.ON_SUPPORT_RECOMMEND, function (slot0, slot1)
+		slot3 = slot1.chapterVO
+		slot4 = getProxy(ChapterProxy)
+
+		slot4:SupportFleetRecommend(slot3, slot1.index)
+		slot4:updateChapter(slot3)
+		slot4:duplicateSupportFleet(slot3)
+		uv0.viewComponent:RefreshFleetSelectView(slot3)
 	end)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function ()
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
@@ -323,6 +392,14 @@ function slot0.register(slot0)
 		})
 
 		uv0.contextData.editEliteChapter = slot1.chapter.id
+	end)
+	slot0:bind(uv0.ON_SUPPORT_SHIPINFO, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
+		})
+
+		uv0.contextData.selectedChapterVO = slot1.chapter
 	end)
 	slot0:bind(uv0.ON_STAGE_SHIPINFO, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
@@ -663,7 +740,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot0.contextData.commanderOPChapter then
 			slot0.contextData.commanderOPChapter.eliteCommanderList = getProxy(ChapterProxy):getChapterById(slot3.chapterId).eliteCommanderList
 
-			slot0.viewComponent:updateFleetEdit(slot0.contextData.commanderOPChapter, slot3.index)
+			slot0.viewComponent:RefreshFleetSelectView(slot0.contextData.commanderOPChapter)
 		end
 	else
 		if slot2 == GAME.CHAPTER_OP_DONE then
@@ -775,17 +852,7 @@ function slot0.handleNotification(slot0, slot1)
 
 				assert(slot1)
 
-				if slot0 == ChapterConst.OpSkipBattle then
-					slot5 = uv1.viewComponent.levelStageView
-
-					slot5:tryAutoAction(function ()
-						if not uv0.viewComponent.levelStageView then
-							return
-						end
-
-						uv0.viewComponent.levelStageView:tryAutoTrigger()
-					end)
-				elseif slot0 == ChapterConst.OpPreClear then
+				if slot0 == ChapterConst.OpSkipBattle or slot0 == ChapterConst.OpPreClear then
 					slot5 = uv1.viewComponent.levelStageView
 
 					slot5:tryAutoAction(function ()
@@ -892,44 +959,9 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpAmbush then
 					uv1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpBox then
-					slot5 = slot1.fleet.line
+					slot5 = uv1
 
-					if pg.box_data_template[slot1:getChapterCell(slot5.row, slot5.column).attachmentId].type == ChapterConst.BoxAirStrike then
-						uv1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, uv2)
-						coroutine.yield()
-
-						if uv0.aiActs and #uv0.aiActs > 0 then
-							slot8 = uv0.aiActs[1].commanderSkillEffectId
-							slot9 = slot1.fleet:findCommanderBySkillId(slot8)
-
-							assert(slot9, "can not find commander by skill: " .. slot8)
-							uv1.viewComponent:doPlayCommander(slot9, uv2)
-							coroutine.yield()
-							uv1.viewComponent:easeAvoid(uv1.viewComponent.grid.cellFleets[slot1.fleets[slot1.findex].id].tf.position, uv2)
-							coroutine.yield()
-						end
-					elseif slot7.type == ChapterConst.BoxTorpedo then
-						if slot1.fleet:canClearTorpedo() then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_destroy_torpedo"))
-						else
-							uv1.viewComponent:doPlayTorpedo(uv2)
-							coroutine.yield()
-						end
-					elseif slot7.type == ChapterConst.BoxBanaiDamage then
-						uv1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, uv2)
-						coroutine.yield()
-					elseif slot7.type == ChapterConst.BoxLavaDamage then
-						uv1.viewComponent:doPlayAnim("AirStrikeLava", function (slot0)
-							setActive(slot0, false)
-							uv0()
-						end)
-						pg.CriMgr.GetInstance():PlaySE_V3("ui-magma")
-						coroutine.yield()
-					end
-
-					slot8 = uv1.viewComponent.levelStageView
-
-					slot8:tryAutoAction(function ()
+					slot5:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
 						if not uv0.viewComponent.levelStageView then
 							return
 						end
@@ -977,8 +1009,6 @@ function slot0.handleNotification(slot0, slot1)
 					slot6 = uv1
 
 					slot6:playAIActions(uv0.aiActs, uv0.extraFlag, function ()
-						uv0.viewComponent.levelStageView:SwitchMissileBottomStagePanel(false)
-						uv0.viewComponent.grid:HideMissileAimingMark()
 						uv0.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 					end)
 				elseif slot0 == ChapterConst.OpSupply then
@@ -1057,7 +1087,7 @@ function slot0.handleNotification(slot0, slot1)
 							end)
 						end,
 						function (slot0)
-							uv0.viewComponent.levelStageView:SwitchSubTeleportBottomStage(false)
+							uv0.viewComponent.levelStageView:SwitchBottomStagePanel(false)
 							uv0.viewComponent.grid:TurnOffSubTeleport()
 							uv0.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 						end
@@ -1109,7 +1139,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateCommanderPrefab()
 		elseif slot2 == GAME.COOMMANDER_EQUIP_TO_FLEET_DONE then
 			slot0.viewComponent:updateFleet(getProxy(FleetProxy):GetRegularFleets())
-			slot0.viewComponent:updateFleetSelect()
+			slot0.viewComponent:RefreshFleetSelectView()
 		elseif slot2 == GAME.SUBMIT_TASK_DONE then
 			if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
 				slot0.viewComponent:updateMapItems()
@@ -1550,6 +1580,45 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 
 		uv3:updateChapter(uv0)
 		uv3:duplicateEliteFleet(uv0)
+	end
+end
+
+function slot0.getSupportDockCallbackFuncs(slot0, slot1, slot2, slot3)
+	slot4 = getProxy(ChapterProxy)
+
+	return function (slot0, slot1)
+		slot2, slot3 = ShipStatus.ShipStatusCheck("inSupport", slot0, slot1)
+
+		if not slot2 then
+			return slot2, slot3
+		end
+
+		for slot7, slot8 in pairs(uv0) do
+			if slot0:isSameKind(slot7) then
+				return false, i18n("ship_formationMediator_changeNameError_sameShip")
+			end
+		end
+
+		return true
+	end, function (slot0, slot1, slot2)
+		slot1()
+	end, function (slot0)
+		slot1 = uv0:getSupportFleet()
+
+		if uv1 then
+			assert(table.indexof(slot1, uv1.id))
+
+			if slot0[1] then
+				slot1[slot2] = slot0[1]
+			else
+				table.remove(slot1, slot2)
+			end
+		else
+			table.insert(slot1, slot0[1])
+		end
+
+		uv2:updateChapter(uv0)
+		uv2:duplicateSupportFleet(uv0)
 	end
 end
 

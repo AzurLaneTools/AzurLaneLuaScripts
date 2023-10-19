@@ -2796,6 +2796,42 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6006] = {
+		mark = 20211028,
+		title_res_tag = "mengfeisipifu_permanent",
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 6006,
+		is_show = 10,
+		id = 6006,
+		config_data = {},
+		page_info = {
+			class_name = "MemphisHalloweenPage",
+			ui_name = "memphishalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"MENGFEISIWANSHENG1"
+				},
+				{
+					"MENGFEISIWANSHENG2"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG3"
+				},
+				{},
+				{
+					"MENGFEISIWANSHENG4"
+				},
+				{
+					"MENGFEISIWANSHENG5"
+				}
+			}
+		}
+	},
 	[6008] = {
 		mark = 20211223,
 		title_res_tag = "dachaosd_permanent",
@@ -3020,6 +3056,75 @@ pg.activity_template = {
 				{},
 				{
 					"BIAOQIANGMANHUA5"
+				}
+			}
+		}
+	},
+	[6015] = {
+		mark = 20221027,
+		title_res_tag = "beiliwanshengjie_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6015,
+		config_data = {
+			{
+				35182,
+				35183
+			},
+			{
+				35184,
+				35185
+			},
+			{
+				35186,
+				35187
+			},
+			{
+				35188,
+				35189
+			},
+			{
+				35190,
+				35191
+			},
+			{
+				35192,
+				35193
+			},
+			{
+				35194,
+				35195
+			}
+		},
+		page_info = {
+			class_name = "BaileyHalloweenPage",
+			ui_name = "baileyhalloweenpage"
+		},
+		config_client = {
+			story = {
+				{
+					"BEILIWANSHENGJIE1"
+				},
+				{
+					"BEILIWANSHENGJIE2"
+				},
+				{
+					"BEILIWANSHENGJIE3"
+				},
+				{
+					"BEILIWANSHENGJIE4"
+				},
+				{
+					"BEILIWANSHENGJIE5"
+				},
+				{
+					"BEILIWANSHENGJIE6"
+				},
+				{
+					"BEILIWANSHENGJIE7"
 				}
 			}
 		}
@@ -32734,12 +32839,13 @@ pg.activity_template = {
 	},
 	[41344] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41344,
 		config_data = {
@@ -32749,38 +32855,11 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41345] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -32788,43 +32867,18 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 41345,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 41345
 	},
 	[41346] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41346,
 		config_data = {
@@ -32847,43 +32901,17 @@ pg.activity_template = {
 			18056,
 			18057,
 			18059
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41347] = {
 		mark = 20231012,
-		id = 41347,
 		title_res_tag = "DexiV3_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 58,
+		id = 41347,
 		config_data = {
 			1460001,
 			1460002,
@@ -32891,33 +32919,6 @@ pg.activity_template = {
 			1460021,
 			1460022,
 			1460023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "DexiV3MainPage",
@@ -32929,12 +32930,13 @@ pg.activity_template = {
 	},
 	[41348] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41348,
 		config_data = {
 			1460004,
@@ -32945,33 +32947,6 @@ pg.activity_template = {
 			1460026,
 			1460041,
 			1460051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -33098,41 +33073,15 @@ pg.activity_template = {
 	},
 	[41351] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41351,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -33195,42 +33144,16 @@ pg.activity_template = {
 	},
 	[41353] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41353,
 		config_data = {
 			4
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59358
@@ -33279,41 +33202,15 @@ pg.activity_template = {
 	},
 	[41355] = {
 		mark = 20231012,
-		config_client = "",
 		title_res_tag = "dexiV3_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 32,
 		is_show = 55,
+		config_client = "",
 		id = 41355,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "DexiV3LoginPage",
 			ui_name = "DexiV3LoginPage"
@@ -33435,28 +33332,41 @@ pg.activity_template = {
 	},
 	[41358] = {
 		mark = 20231012,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41358,
 		config_data = {
-			10155,
-			10156,
-			10157,
-			10158,
-			10159
-		},
+			10150,
+			10151,
+			10152,
+			10153,
+			10154
+		}
+	},
+	[41359] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31962,100}]",
+		config_client = "",
+		id = 41359,
 		time = {
 			"timer",
 			{
 				{
 					2023,
 					10,
-					12
+					19
 				},
 				{
 					0,
@@ -33467,8 +33377,423 @@ pg.activity_template = {
 			{
 				{
 					2023,
+					11,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41360] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 52,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 0,
+		id = 41360,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
 					10,
 					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "ActivityBossAlbionScene",
+			entrance_bg = "activitybanner/temp10",
+			story = {
+				{
+					10000,
+					"NVPUGONGDOUSANQI1"
+				},
+				{
+					7500,
+					"NVPUGONGDOUSANQI2"
+				},
+				{
+					5000,
+					"NVPUGONGDOUSANQI3"
+				},
+				{
+					2500,
+					"NVPUGONGDOUSANQI4"
+				},
+				{
+					0,
+					"NVPUGONGDOUSANQI5"
+				}
+			}
+		}
+	},
+	[41361] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2014,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 41361,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41362] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 41362,
+		is_show = 0,
+		config_client = "",
+		id = 41362,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41363] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41363,
+		config_data = {
+			18015,
+			18016,
+			18017,
+			18018,
+			18019,
+			18020
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41364] = {
+		mark = 20231019,
+		id = 41364,
+		title_res_tag = "royal_fortune",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 58,
+		config_data = {
+			{
+				18559,
+				18560
+			},
+			{
+				18561,
+				18562
+			},
+			{
+				18563,
+				18564
+			},
+			{
+				18565,
+				18566
+			},
+			{
+				18567,
+				18568
+			},
+			{
+				18569,
+				18570
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RoyalFortunePage",
+			ui_name = "RoyalFortunePage"
+		},
+		config_client = {
+			story = {
+				{
+					"WANSHENGYEDEQIYU1"
+				},
+				{
+					"WANSHENGYEDEQIYU2"
+				},
+				{
+					"WANSHENGYEDEQIYU3"
+				},
+				{
+					"WANSHENGYEDEQIYU4"
+				},
+				{
+					"WANSHENGYEDEQIYU5"
+				},
+				{
+					"WANSHENGYEDEQIYU6"
+				}
+			}
+		}
+	},
+	[41365] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41365,
+		config_data = {
+			18035
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41366] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 41366,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "阿爾比恩、雅努斯等角色建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>阿爾比恩</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>雅努斯</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>曼徹斯特</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[41367] = {
+		mark = 20231019,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41367,
+		config_data = {
+			338,
+			339,
+			340,
+			341
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					2
 				},
 				{
 					23,
@@ -35861,10 +36186,12 @@ pg.activity_template = {
 		6000,
 		6001,
 		6002,
+		6006,
 		6008,
 		6009,
 		6010,
 		6011,
+		6015,
 		6018,
 		100001,
 		40009,
@@ -36806,6 +37133,15 @@ pg.activity_template = {
 		41356,
 		41357,
 		41358,
+		41359,
+		41360,
+		41361,
+		41362,
+		41363,
+		41364,
+		41365,
+		41366,
+		41367,
 		45000,
 		45001,
 		45002,
