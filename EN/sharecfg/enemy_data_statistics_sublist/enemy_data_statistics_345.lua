@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_345 = {
+	[16514303] = {
+		cannon = 320,
+		name = "Special Pawn - Sevastopol",
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		hit_growth = 320,
+		dodge = 24,
+		base = 90753,
+		antiaircraft = 390,
+		speed = 18,
+		reload_growth = 0,
+		dodge_growth = 228,
+		luck = 30,
+		battle_unit_type = 95,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		torpedo = 180,
+		durability = 155000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		torpedo_growth = 0,
+		air = 300,
+		id = 16514303,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3059341,
+			3059342,
+			3059343,
+			3059344,
+			3059345,
+			3059346,
+			3059347,
+			3059348,
+			3059349
+		}
+	},
 	[16514304] = {
 		cannon = 330,
 		name = "Omitter γ",
@@ -860,47 +907,5 @@ pg.enemy_data_statistics_345 = {
 			1004025
 		},
 		buff_list = {}
-	},
-	[16517003] = {
-		cannon = 1000,
-		name = "Omitter α",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 210,
-		dodge = 0,
-		base = 90428,
-		antiaircraft = 250,
-		speed = 18,
-		reload_growth = 0,
-		dodge_growth = 284,
-		luck = 0,
-		battle_unit_type = 95,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 750,
-		durability = 320000,
-		armor_growth = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		torpedo_growth = 0,
-		fog_fx = "",
-		id = 16517003,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
 	}
 }

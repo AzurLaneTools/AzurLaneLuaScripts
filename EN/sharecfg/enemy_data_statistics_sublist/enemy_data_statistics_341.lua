@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_341 = {
+	[16504201] = {
+		cannon = 150,
+		name = "Émile Bertin Mechanicus Pawn - Defender",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 20,
+		luck = 22,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 156,
+		antiaircraft_growth = 3200,
+		reload = 150,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2000,
+		base = 90742,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		antiaircraft = 205,
+		hit_growth = 210,
+		armor = 0,
+		durability = 15950,
+		torpedo = 105,
+		id = 16504201,
+		durability_growth = 291200,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1101074,
+			1101079,
+			1101084,
+			1101089,
+			769004
+		}
+	},
 	[16504202] = {
 		cannon = 154,
 		name = "Joffre Mechanicus Pawn - Striker",
@@ -985,41 +1033,5 @@ pg.enemy_data_statistics_341 = {
 			1000753,
 			1000758
 		}
-	},
-	[16506250] = {
-		cannon = 300,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		battle_unit_type = 95,
-		dodge = 0,
-		base = 90740,
-		durability_growth = 0,
-		antiaircraft = 250,
-		reload_growth = 0,
-		dodge_growth = 256,
-		speed = 20,
-		luck = 0,
-		hit = 32,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 0,
-		durability = 500000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16506250,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

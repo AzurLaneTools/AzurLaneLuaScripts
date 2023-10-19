@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.enemy_data_statistics_219 = {
+	[13900351] = {
+		cannon = 145,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 190,
+		speed = 20,
+		dodge = 11,
+		id = 13900351,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck = 18,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3200,
+		torpedo = 0,
+		base = 90455,
+		durability = 16130,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		durability_growth = 310000,
+		antiaircraft = 250,
+		antisub = 0,
+		battle_unit_type = 90,
+		bound_bone = {
+			cannon = {
+				{
+					2.54,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.14,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					2.5,
+					0
+				}
+			},
+			lighting = {
+				{
+					2.5,
+					-4.8,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			qinraozhe_120 = 2.5
+		},
+		appear_fx = {
+			"appearQ",
+			"qinraozhe_120"
+		},
+		equipment_list = {
+			1002254
+		}
+	},
 	[13900381] = {
 		cannon = 102,
 		reload = 150,
@@ -884,36 +963,5 @@ pg.enemy_data_statistics_219 = {
 		equipment_list = {
 			680419
 		}
-	},
-	[13900501] = {
-		cannon = 800,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		rarity = 3,
-		air = 0,
-		torpedo = 250,
-		dodge = 5,
-		durability_growth = 0,
-		antiaircraft = 500,
-		speed = 23,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 50,
-		star = 4,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90428,
-		durability = 280000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		fog_fx = "",
-		id = 13900501,
-		antisub = 0
 	}
 }
