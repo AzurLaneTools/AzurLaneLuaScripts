@@ -815,5 +815,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-7"
+	},
+	PiratePage = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
+	},
+	SecretShipyardScene = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
 	}
 }

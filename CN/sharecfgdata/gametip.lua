@@ -25357,6 +25357,10 @@ _G.pg.base.gametip.levelscene_airexpel_select_boss = {
 	tip = "无法选择敌方旗舰作为目标"
 }
 
+_G.pg.base.gametip.levelscene_airexpel_select_battle = {
+	tip = "无法选择处于交战状态的敌方舰队作为目标 "
+}
+
 _G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
 	tip = "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>左</color>驱离一格，是否确认"
 }

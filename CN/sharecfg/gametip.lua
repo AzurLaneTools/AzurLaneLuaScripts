@@ -22111,63 +22111,68 @@ cs.gametip = {
 		132,
 		true
 	},
-	levelscene_airexpel_select_confirm_left = {
+	levelscene_airexpel_select_battle = {
 		803416,
+		156,
+		true
+	},
+	levelscene_airexpel_select_confirm_left = {
+		803572,
 		203,
 		true
 	},
 	levelscene_airexpel_select_confirm_right = {
-		803619,
+		803775,
 		204,
 		true
 	},
 	levelscene_airexpel_select_confirm_up = {
-		803823,
+		803979,
 		201,
 		true
 	},
 	levelscene_airexpel_select_confirm_down = {
-		804024,
+		804180,
 		203,
 		true
 	},
 	shipyard_phase_1 = {
-		804227,
+		804383,
 		86,
 		true
 	},
 	shipyard_phase_2 = {
-		804313,
+		804469,
 		86,
 		true
 	},
 	shipyard_button_1 = {
-		804399,
+		804555,
 		93,
 		true
 	},
 	shipyard_button_2 = {
-		804492,
+		804648,
 		137,
 		true
 	},
 	shipyard_introduce = {
-		804629,
+		804785,
 		219,
 		true
 	},
 	help_supportfleet = {
-		804848,
+		805004,
 		358,
 		true
 	},
 	word_status_inSupportFleet = {
-		805206,
+		805362,
 		105,
 		true
 	},
 	ship_formationMediator_request_replace_support = {
-		805311,
+		805467,
 		205,
 		true
 	}

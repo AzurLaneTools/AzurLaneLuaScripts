@@ -256,6 +256,8 @@ return {
 		elseif slot0 == uv2 then
 			return "3"
 		end
+
+		return "0"
 	end,
 	QueryWithProduct = function ()
 		if uv0 == Application.identifier then

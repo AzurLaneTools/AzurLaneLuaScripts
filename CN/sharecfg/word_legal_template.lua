@@ -1813,6 +1813,32 @@ end
 temp()
 
 function temp()
+	uv0["休"] = {
+		["斯"] = {
+			["敦"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		},
+		["贝"] = {
+			["塔"] = {
+				["伯"] = {
+					["爵"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["彭"] = {
 		["萨"] = {
 			["科"] = {
@@ -1871,27 +1897,6 @@ function temp()
 		["加"] = {
 			["哥"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["休"] = {
-		["斯"] = {
-			["敦"] = {
-				this = true
-			}
-		},
-		["贝"] = {
-			["塔"] = {
-				["伯"] = {
-					["爵"] = {
-						this = true
-					}
-				}
 			}
 		}
 	}

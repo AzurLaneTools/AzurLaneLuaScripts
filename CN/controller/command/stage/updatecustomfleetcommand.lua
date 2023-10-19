@@ -29,20 +29,21 @@ function slot0.execute(slot0, slot1)
 		slot11[#slot11 + 1] = slot17
 	end
 
-	slot13 = {}
+	slot13 = slot7:getConfig("map")
 	slot14 = {}
+	slot15 = {}
 
-	for slot18, slot19 in ipairs(slot7:getSupportFleet()) do
-		slot14[#slot14 + 1] = slot19
+	for slot19, slot20 in ipairs(slot7:getSupportFleet()) do
+		slot15[#slot15 + 1] = slot20
 	end
 
-	slot13.map_id = mapId
-	slot13.main_id = slot14
-	slot13.commanders = {}
-	slot11[#slot11 + 1] = slot13
-	slot15 = pg.ConnectionMgr.GetInstance()
+	slot14.map_id = slot13
+	slot14.main_id = slot15
+	slot14.commanders = {}
+	slot11[#slot11 + 1] = slot14
+	slot16 = pg.ConnectionMgr.GetInstance()
 
-	slot15:Send(13107, {
+	slot16:Send(13107, {
 		id = slot8,
 		elite_fleet_list = slot11
 	}, 13108, function (slot0)
