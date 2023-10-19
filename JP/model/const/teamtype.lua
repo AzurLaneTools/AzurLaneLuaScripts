@@ -2,6 +2,7 @@ slot0 = class("TeamType")
 slot0.Vanguard = "vanguard"
 slot0.Main = "main"
 slot0.Submarine = "submarine"
+slot0.Support = "support"
 slot0.TeamTypeIndex = {
 	slot0.Vanguard,
 	slot0.Main,

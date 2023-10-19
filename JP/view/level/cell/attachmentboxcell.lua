@@ -51,7 +51,7 @@ function slot0.Update(slot0)
 		end)
 	end
 
-	if slot0.box and slot1.flag == 0 then
+	if slot0.box and slot1.flag == ChapterConst.CellFlagActive then
 		setActive(findTF(slot0.box, "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
 
 		if slot1.trait == ChapterConst.TraitVirgin then
@@ -59,7 +59,7 @@ function slot0.Update(slot0)
 		end
 	end
 
-	setActive(slot0.tf, slot1.flag == 0)
+	setActive(slot0.tf, slot1.flag == ChapterConst.CellFlagActive)
 end
 
 function slot0.RemoveTween(slot0)

@@ -19,6 +19,12 @@ pg.strategy_data_template = setmetatable({
 		91,
 		92,
 		93,
+		94,
+		95,
+		96,
+		97,
+		1000,
+		1001,
 		8650,
 		8732,
 		8744,
@@ -386,7 +392,7 @@ pg.base.strategy_data_template = {
 	[92] = {
 		buff_id = 0,
 		name = "夜がやってきた！",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 92,
 		icon = "92",
@@ -396,12 +402,76 @@ pg.base.strategy_data_template = {
 	[93] = {
 		buff_id = 0,
 		name = "朝を迎えた！",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 93,
 		icon = "93",
 		desc = "「昼状態」では、「待ち伏せマス」に敵は出現しません",
 		arg = {}
+	},
+	[94] = {
+		buff_id = 9727,
+		name = "航空支援（敵）",
+		type = 10,
+		iconSize = "",
+		id = 94,
+		icon = "94",
+		desc = "航空支援を担う敵艦隊の存在が確認された。戦闘中、敵は航空攻撃を仕掛けてくるだろう…",
+		arg = {}
+	},
+	[95] = {
+		buff_id = 0,
+		name = "航空支援（味方）",
+		type = 10,
+		iconSize = "",
+		id = 95,
+		icon = "95",
+		desc = "航空支援が可能な味方艦隊が指示を待っている。戦闘中、我々の敵に航空攻撃を仕掛けてくれるだろう…",
+		arg = {}
+	},
+	[96] = {
+		buff_id = 262,
+		name = "情報掌握",
+		type = 10,
+		iconSize = "",
+		id = 96,
+		icon = "",
+		desc = "味方艦隊の情報が敵中枢艦隊に知られた。当該艦隊は次の敵中枢艦隊との戦闘で、与えるダメージが30％ダウンし、受けるダメージが30％アップする",
+		arg = {}
+	},
+	[97] = {
+		buff_id = 0,
+		name = "情報掌握",
+		type = 10,
+		iconSize = "",
+		id = 97,
+		icon = "96",
+		desc = "味方艦隊の情報が敵中枢艦隊に知られた。当該艦隊は次の敵中枢艦隊との戦闘で、与えるダメージが30％ダウンし、受けるダメージが30％アップする",
+		arg = {}
+	},
+	[1000] = {
+		buff_id = 0,
+		name = "航空攻撃",
+		type = 7,
+		iconSize = "",
+		id = 1000,
+		icon = "1000",
+		desc = "敵艦隊に航空攻撃を1回仕掛ける",
+		arg = {
+			support_missile
+		}
+	},
+	[1001] = {
+		buff_id = 0,
+		name = "敵艦駆逐",
+		type = 7,
+		iconSize = "",
+		id = 1001,
+		icon = "1001",
+		desc = "敵艦隊を周りの空いているマスに移動させる",
+		arg = {
+			expel
+		}
 	},
 	[8650] = {
 		buff_id = 8650,

@@ -66,6 +66,10 @@ function slot0.HandleClickTrigger(slot0, slot1, slot2, slot3)
 		if not IsNil(uv1) then
 			uv2:OnPointerUp(slot1)
 		end
+
+		if not IsNil(uv1) then
+			uv2:OnPointerClick(slot1)
+		end
 	end)
 end
 

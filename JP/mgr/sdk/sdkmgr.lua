@@ -479,6 +479,8 @@ function slot0.GetDeviceId(slot0)
 		return slot0:Get("GetDeviceId")
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		return slot0:Get("GetDeviceModel")
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		return SystemInfo.deviceUniqueIdentifier
 	else
 		return ""
 	end

@@ -6,6 +6,7 @@ slot3 = class("BattleAOEScaleableComponent")
 slot0.Battle.BattleAOEScaleableComponent = slot3
 slot3.__name = "BattleAOEScaleableComponent"
 slot3.FILL = 1
+slot3.EXPEND = 2
 
 function slot3.Ctor(slot0, slot1)
 	slot0._area = slot1
@@ -37,6 +38,15 @@ function slot3.ConfigData(slot0, slot1, slot2)
 		slot0._lowerBound = slot2.lowerBound
 		slot0._rearBound = slot2.rearBound
 		slot0._frontOffset = slot2.frontOffset
+	elseif slot1 == uv0.EXPEND then
+		slot0._area:SetFXStatic(false)
+
+		slot0.updateScale = uv0.doExpend
+		slot0._expendDuration = slot2.expendDuration
+		slot0._widthExpendSpeed = slot2.widthSpeed
+		slot0._heightExpendSpeed = slot2.heightSpeed
+		slot0._expendStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+		slot0._lastExpendTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	end
 end
 
@@ -55,4 +65,16 @@ function slot3.doFill(slot0)
 	slot0._referencePoint.z = slot3 * 0.5 + slot0._lowerBound
 
 	slot0._area:SetPosition(slot0._referencePoint)
+end
+
+function slot3.doExpend(slot0)
+	if pg.TimeMgr.GetInstance():GetCombatTime() - slot0._expendStartTime < slot0._expendDuration then
+		slot2 = slot0._area:GetWidth()
+		slot3 = slot0._area:GetHeight()
+		slot4 = slot1 - slot0._lastExpendTime
+
+		slot0._area:SetWidth(slot2 + slot0._widthExpendSpeed * slot4)
+		slot0._area:SetHeight(slot3 + slot0._heightExpendSpeed * slot4)
+		slot0._area:GetCldComponent():ResetSize(slot2, 5, slot3)
+	end
 end

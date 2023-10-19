@@ -35,6 +35,10 @@ function slot0.DestroyGO(slot0)
 	end
 end
 
+function slot0.Update(slot0)
+	assert(false, "not implemented")
+end
+
 function slot0.Clear(slot0)
 	slot0.parent = nil
 	slot0.info = nil

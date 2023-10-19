@@ -230,7 +230,7 @@ function slot0.update()
 end
 
 function slot0.hxLan(slot0, slot1)
-	return string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)
+	return string.gsub(slot0 or "", "{namecode:(%d+).-}", function (slot0)
 		return pg.name_code[tonumber(slot0)] and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
 	end)
 end

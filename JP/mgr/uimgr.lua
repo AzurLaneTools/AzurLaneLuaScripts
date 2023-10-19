@@ -24,6 +24,7 @@ function slot0.Init(slot0, slot1)
 	slot0.OverlayMain = slot0.overlayCamera:Find("Overlay/UIMain")
 	slot0.OverlayToast = slot0.overlayCamera:Find("Overlay/UIOverlay")
 	slot0.OverlayEffect = slot0.overlayCamera:Find("Overlay/UIEffect")
+	slot0._normalUIMain = nil
 	slot0._cameraBlurPartial = slot0.uiCamera:GetComponent("UIPartialBlur")
 	slot0._levelCameraPartial = slot0.levelCamera:GetComponent("UIPartialBlur")
 

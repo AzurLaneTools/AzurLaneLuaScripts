@@ -14049,5 +14049,63 @@ pg.ship_skin_expression_ex = {
 				"3"
 			}
 		}
+	},
+	xiusidunII = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		lose = "",
+		feeling4 = "",
+		painting = "xiusidunII",
+		skill = "",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		profile = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"6"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"6|4|6"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"6"
+			}
+		}
 	}
 }

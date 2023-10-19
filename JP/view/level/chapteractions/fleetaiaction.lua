@@ -40,18 +40,16 @@ function slot0.applyTo(slot0, slot1, slot2)
 end
 
 function slot0.applyToFleet(slot0, slot1, slot2, slot3)
-	slot4 = 0
-
 	if not slot2:isValid() then
 		return false, "fleet " .. slot2.id .. " is invalid."
 	end
 
-	slot5 = 0
+	slot4 = 0
 
 	if slot1:isPlayingWithBombEnemy() then
 		if not slot3 then
 			_.each(slot0.cellUpdates, function (slot0)
-				if uv0:getChapterCell(slot0.row, slot0.column).flag == 0 and slot0.flag == 1 then
+				if uv0:getChapterCell(slot0.row, slot0.column).flag == ChapterConst.CellFlagActive and slot0.flag == ChapterConst.CellFlagDisabled then
 					slot2 = pg.specialunit_template[slot1.attachmentId]
 
 					assert(slot2, "specialunit_template not exist: " .. slot1.attachmentId)
@@ -65,9 +63,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 			end)
 		end
 	elseif slot0.target then
-		slot6 = _.detect(slot0.cellUpdates, function (slot0)
-			return slot0.row == uv0.target.row and slot0.column == uv0.target.column and slot0.flag ~= 1
-		end) or _.detect(slot0.cellUpdates, function (slot0)
+		slot5 = _.detect(slot0.cellUpdates, function (slot0)
 			return slot0.row == uv0.target.row and slot0.column == uv0.target.column
 		end)
 
@@ -77,104 +73,108 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 					uv0:updateFleetShipHp(slot0.id, slot0.hpRant)
 				end)
 
-				slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+				slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
 			end
 
-			if slot6 then
-				if isa(slot6, ChapterChampionPackage) then
-					slot1:mergeChampion(slot6)
+			if slot5 then
+				if isa(slot5, ChapterChampionPackage) then
+					slot1:mergeChampion(slot5)
 
-					slot5 = bit.bor(slot5, ChapterConst.DirtyChampion)
+					slot4 = bit.bor(slot4, ChapterConst.DirtyChampion)
 				else
-					slot1:mergeChapterCell(slot6)
+					slot1:mergeChapterCell(slot5)
 
-					slot5 = bit.bor(slot5, ChapterConst.DirtyAttachment)
+					slot4 = bit.bor(slot4, ChapterConst.DirtyAttachment)
 				end
 
-				slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+				slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
 			end
 		end
 	end
 
-	return true, slot5
+	return true, slot4
 end
 
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
-	if slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column) then
-		if slot1:isPlayingWithBombEnemy() then
-			slot6 = slot1:getMapShip(slot1.fleets[slot4])
+	assert(slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column))
 
-			slot2.viewComponent:doPlayStrikeAnim(slot6, slot6:GetMapStrikeAnim(), slot3)
-		elseif slot0.actType == ChapterConst.ActType_Poison then
-			slot3()
-		else
-			if slot0.target then
-				slot5 = slot1.fleets[slot4]
-				slot6 = _.detect(slot0.cellUpdates, function (slot0)
-					return slot0.row == uv0.target.row and slot0.column == uv0.target.column
-				end)
+	if slot1:isPlayingWithBombEnemy() then
+		slot6 = slot1:getMapShip(slot1.fleets[slot4])
 
-				assert(slot6, "can not find cell")
+		slot2.viewComponent:doPlayStrikeAnim(slot6, slot6:GetMapStrikeAnim(), slot3)
+	elseif slot0.actType == ChapterConst.ActType_Poison then
+		slot3()
+	else
+		if slot0.target then
+			slot5 = slot1.fleets[slot4]
+			slot6 = _.detect(slot0.cellUpdates, function (slot0)
+				return slot0.row == uv0.target.row and slot0.column == uv0.target.column
+			end)
 
-				if slot6.attachment == ChapterConst.AttachLandbase then
-					if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
-						slot8 = slot1:getMapShip(slot5)
+			assert(slot6, "can not find cell")
 
-						slot2.viewComponent:doPlayStrikeAnim(slot8, slot8:GetMapStrikeAnim(), slot3)
-					else
-						assert(false)
-					end
+			if slot6.attachment == ChapterConst.AttachLandbase then
+				if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
+					slot8 = slot1:getMapShip(slot5)
 
-					return
-				end
-
-				slot7 = "-" .. slot6.data / 100 .. "%"
-				slot8 = slot0.commanderSkillEffectId
-
-				assert(slot5:getSkill(slot8), "can not find skill: " .. slot8)
-
-				slot10 = slot5:findCommanderBySkillId(slot8)
-
-				assert(slot10, "command can not find by skill id: " .. slot8)
-
-				slot11 = slot2.viewComponent
-
-				slot11:doPlayCommander(slot10, function ()
-					if uv0:GetType() == FleetSkill.TypeAttack then
-						slot0 = uv0
-						slot1 = nil
-
-						switch(slot0:GetArgs()[1], {
-							airfight = function ()
-								uv0 = "AirStrikeUI"
-							end,
-							torpedo = function ()
-								uv0 = "SubTorpedoUI"
-							end,
-							cannon = function ()
-								uv0 = "CannonUI"
-							end
-						})
-						assert(slot1)
-
-						slot2 = uv1.viewComponent
-						slot4 = uv2
-
-						slot2:doPlayStrikeAnim(slot4:getStrikeAnimShip(uv3, slot1), slot1, function ()
-							uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
-						end)
-
-						return
-					end
-
+					slot2.viewComponent:doPlayStrikeAnim(slot8, slot8:GetMapStrikeAnim(), slot3)
+				else
 					assert(false)
-				end)
+				end
 
 				return
 			end
 
-			slot3()
+			slot7 = "-" .. slot6.data / 100 .. "%"
+			slot8 = slot0.commanderSkillEffectId
+
+			assert(slot5:getSkill(slot8), "can not find skill: " .. slot8)
+
+			slot10 = slot5:findCommanderBySkillId(slot8)
+
+			assert(slot10, "command can not find by skill id: " .. slot8)
+
+			slot11 = slot2.viewComponent
+
+			slot11:doPlayCommander(slot10, function ()
+				if uv0:GetType() == FleetSkill.TypeAirStrikeDodge then
+					uv1.viewComponent:easeAvoid(uv1.viewComponent.grid.cellFleets[uv2.id].tf.position, uv3)
+
+					return
+				elseif uv0:GetType() == FleetSkill.TypeAttack then
+					slot0 = uv0
+					slot1 = nil
+
+					switch(slot0:GetArgs()[1], {
+						airfight = function ()
+							uv0 = "AirStrikeUI"
+						end,
+						torpedo = function ()
+							uv0 = "SubTorpedoUI"
+						end,
+						cannon = function ()
+							uv0 = "CannonUI"
+						end
+					})
+					assert(slot1)
+
+					slot2 = uv1.viewComponent
+					slot4 = uv4
+
+					slot2:doPlayStrikeAnim(slot4:getStrikeAnimShip(uv2, slot1), slot1, function ()
+						uv0.viewComponent:strikeEnemy(uv1.target, uv2, uv3)
+					end)
+
+					return
+				else
+					assert(false)
+				end
+			end)
+
+			return
 		end
+
+		slot3()
 	end
 end
 

@@ -21,7 +21,7 @@ function slot2.Update(slot0)
 	slot2 = slot0.config
 	slot3 = slot0.info.trait ~= ChapterConst.TraitLurk
 
-	if (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss) and slot1.flag ~= ChapterConst.CellFlagDisabled and slot0.chapter:existFleet(FleetType.Transport, slot1.row, slot1.column) then
+	if ChapterConst.IsEnemyAttach(slot1.attachment) and slot1.flag == ChapterConst.CellFlagActive and slot0.chapter:existFleet(FleetType.Transport, slot1.row, slot1.column) then
 		slot3 = false
 	end
 
@@ -65,9 +65,10 @@ function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
 	setActive(slot0.tfDamageCount, slot4 and slot2.data > 0)
 
 	slot6 = slot2.trait == ChapterConst.TraitVirgin
+	slot7 = ChapterConst.IsBossCell(slot2)
 
-	setActive(slot0.tfEffectFound, slot6 and slot2.attachment ~= ChapterConst.AttachBoss)
-	setActive(slot0.tfEffectFoundBoss, slot6 and slot2.attachment == ChapterConst.AttachBoss)
+	setActive(slot0.tfEffectFound, slot6 and not slot7)
+	setActive(slot0.tfEffectFoundBoss, slot6 and slot7)
 
 	if slot6 then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)

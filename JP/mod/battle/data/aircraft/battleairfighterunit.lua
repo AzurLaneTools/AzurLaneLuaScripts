@@ -19,6 +19,8 @@ slot3.STRIKE_STATE_DOWN = 2
 slot3.STRIKE_STATE_ATTACK = 3
 slot3.STRIKE_STATE_UP = 4
 slot3.STRIKE_STATE_FREE = 5
+slot3.STRIKE_STATE_BACKWARD = 6
+slot3.STRIKE_STATE_RECYCLE = 7
 
 function slot3.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -31,6 +33,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0:calcYShakeMax()
 
 	slot0._speedDir = Vector3(1, 0, 0)
+	slot0._backwardWeaponID = {}
 end
 
 function slot3.Update(slot0, slot1)
@@ -40,7 +43,15 @@ end
 
 function slot3.UpdateWeapon(slot0)
 	for slot4, slot5 in ipairs(slot0:GetWeapon()) do
+		slot8 = slot5:GetCurrentState()
+
 		slot5:Update()
+
+		slot9 = slot5:GetCurrentState()
+
+		if table.contains(slot0._backwardWeaponID, slot5:GetWeaponId()) and slot8 == slot5.STATE_READY and (slot9 == slot5.STATE_ATTACK or slot9 == slot5.STATE_OVER_HEAT) then
+			slot0:changeState(uv0.STRIKE_STATE_BACKWARD)
+		end
 	end
 end
 
@@ -55,11 +66,21 @@ function slot3.CreateWeapon(slot0)
 		slot1[1] = uv0.Battle.BattleDataFunction.CreateAirFighterWeaponUnit(slot0._weaponTemplateID, slot0, 1)
 	end
 
+	if slot0._backwardWeaponID then
+		for slot5, slot6 in ipairs(slot0._backwardWeaponID) do
+			slot1[slot5] = uv0.Battle.BattleDataFunction.CreateAirFighterWeaponUnit(slot6, slot0, slot5)
+		end
+	end
+
 	return slot1
 end
 
 function slot3.SetWeaponTemplateID(slot0, slot1)
 	slot0._weaponTemplateID = slot1
+end
+
+function slot3.SetBackwardWeaponID(slot0, slot1)
+	slot0._backwardWeaponID = slot1
 end
 
 function slot3.SetTemplate(slot0, slot1)
@@ -80,6 +101,12 @@ end
 function slot3.Free(slot0)
 	slot0._undefeated = true
 
+	slot0:LiveCallBack()
+
+	slot0._aliveState = false
+end
+
+function slot3.recycle(slot0)
 	slot0:LiveCallBack()
 
 	slot0._aliveState = false
@@ -194,8 +221,14 @@ function slot3.changeState(slot0, slot1)
 		slot0.updateStrike = uv0._updatePosUp
 
 		slot0:changeToUpState()
+	elseif slot1 == uv0.STRIKE_STATE_BACKWARD then
+		slot0.updateStrike = uv0._updateBackward
+
+		slot0:changeToBackwardState()
 	elseif slot1 == uv0.STRIKE_STATE_FREE then
 		slot0.updateStrike = uv0._updateFree
+	elseif slot1 == uv0.STRIKE_STATE_RECYCLE then
+		slot0.updateStrike = uv0._updateRecycle
 	end
 
 	slot0:DispatchStrikeStateChange()
@@ -288,4 +321,22 @@ end
 
 function slot3._updateFree(slot0)
 	slot0:Free()
+end
+
+function slot3.changeToBackwardState(slot0)
+end
+
+function slot3._updateBackward(slot0)
+	slot0._pos:Add(slot0._speed)
+
+	slot0._pos.y = math.max(uv0.HEIGHT, slot0._pos.y - 0.04)
+	slot0._viewPos = slot0._pos + slot0._formationOffsetOppo
+
+	if uv0.DOWN_X < slot0._pos.x then
+		slot0:changeState(uv0.STRIKE_STATE_RECYCLE)
+	end
+end
+
+function slot3._updateRecycle(slot0)
+	slot0:recycle()
 end

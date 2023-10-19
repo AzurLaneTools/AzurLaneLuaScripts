@@ -939,6 +939,30 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20022] = {
+		id = 20019,
+		name = "蛋船固定移动ai-26 15章烟幕蛋船",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",
@@ -6181,7 +6205,7 @@ pg.auto_pilot_template = {
 		list = {
 			{
 				index = 1,
-				to = 1,
+				to = 2,
 				type = 1,
 				param = {
 					x = -5,
@@ -6193,7 +6217,7 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 0,
 				param = {
-					duration = -1
+					duration = 0.5
 				}
 			}
 		}
@@ -9636,6 +9660,48 @@ pg.auto_pilot_template = {
 				type = 0,
 				param = {
 					duration = 0.5
+				}
+			}
+		}
+	},
+	[70233] = {
+		id = 70233,
+		name = "主线15-4 三阶段 初月移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 30,
+					Z2 = 50,
+					X2 = 0,
+					moveCount = 240,
+					duration = -1,
+					X1 = -20,
+					stopCount = 90
+				}
+			}
+		}
+	},
+	[70234] = {
+		id = 70234,
+		name = "主线15-4 三阶段 若月移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 60,
+					Z2 = 80,
+					X2 = 0,
+					moveCount = 240,
+					duration = -1,
+					X1 = -20,
+					stopCount = 90
 				}
 			}
 		}

@@ -5180,6 +5180,111 @@ pg.activity_template = {
 			ui_name = "NeihuadaSkinPage"
 		}
 	},
+	[5023] = {
+		mark = 20231019,
+		id = 5023,
+		title_res_tag = "pirate",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		config_data = {
+			{
+				19331,
+				19332
+			},
+			{
+				19333,
+				19334
+			},
+			{
+				19335,
+				19336
+			},
+			{
+				19337,
+				19338
+			},
+			{
+				19339,
+				19340
+			},
+			{
+				19341,
+				19342
+			},
+			{
+				19343,
+				19344
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PiratePage",
+			ui_name = "PiratePage"
+		},
+		config_client = {
+			firstStory = "HUANGJIACAIFUDEMIMICHUANCHANG1",
+			story = {
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG2"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG3"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG4"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG5"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG6"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG7"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG8"
+				}
+			},
+			shipyard_phase_1 = {
+				"ようこそ～今日の計画は？",
+				"ふふん、ようやく来たのね！早く偉業を成そうではないかー",
+				"終わったら進水式の進行をよろしく♪"
+			},
+			shipyard_phase_2 = {
+				"早く来てー！さあ偉大なる冒険がお待ちかねだ～！",
+				"出航出航～！目的地は？謎の暗礁海域？それとも黄金海岸？"
+			}
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		id = 7011,
@@ -7628,6 +7733,51 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6020] = {
+		mark = 20221019,
+		title_res_tag = "manchao_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6020,
+		config_data = {
+			{
+				35244,
+				35245
+			},
+			{
+				35246,
+				35247
+			},
+			{
+				35248,
+				35249
+			},
+			{
+				35250,
+				35251
+			},
+			{
+				35252,
+				35253
+			},
+			{
+				35254,
+				35255
+			},
+			{
+				35256,
+				35257
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPermanentPage"
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		time = "stop",
@@ -8125,6 +8275,7 @@ pg.activity_template = {
 		5020,
 		5021,
 		5022,
+		5023,
 		7011,
 		7012,
 		7013,
@@ -8211,6 +8362,7 @@ pg.activity_template = {
 		6017,
 		6018,
 		6019,
+		6020,
 		100001,
 		100003,
 		10006,

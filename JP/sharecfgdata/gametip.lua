@@ -722,6 +722,10 @@ _G.pg.base.gametip.word_shipState_sham = {
 	tip = "特殊作戦を遂行しています"
 }
 
+_G.pg.base.gametip.word_shipState_support = {
+	tip = "すでに支援艦隊に編成されています"
+}
+
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "駆逐"
 }
@@ -4464,7 +4468,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.8.31-2023.11.23</color>
+<color=#92fc63>2023.8.31-2023.12.7</color>
 META戦・神通(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
@@ -16201,7 +16205,7 @@ _G.pg.base.gametip.guild_event_help_tip = {
 ・「強敵」の強さは、大艦隊作戦に参加したメンバーの人数によって決まります。
 ・「強敵」は1日に1度しか戦闘を行うことが出来ません
 。
-・「強敵」は「作戦編成」で攻撃艦隊を編成し、戦闘を開始させるうことができます。
+・「強敵」は「作戦編成」で攻撃艦隊を編成し、戦闘を開始させることができます。
 ・作戦編成の際、他の大艦隊メンバーの「支援派遣艦船」を最大3隻まで選択することが出来ます。その際、自分の所持艦船を最低2隻以上選択しなければなりません。
 ・「強敵」を撃破しますと、大艦隊作戦が終了されます。
 ]]
@@ -25625,4 +25629,112 @@ _G.pg.base.gametip.racing_minigame_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine = {
+	tip = "目標確定"
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+	tip = "攻撃中止"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_cancel = {
+	tip = "駆逐中止"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+	tip = "敵艦隊のみ選択できます"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_outrange = {
+	tip = "敵艦隊を移動させられるマスがありません"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_boss = {
+	tip = "敵中枢艦隊を選択できません"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_battle = {
+	tip = "交戦中の敵艦隊を選択できません"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+	tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>左</color>に1マス移動させる。オーダーを確定しますか？"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
+	tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>右</color>に1マス移動させる。オーダーを確定しますか？"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+	tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>上</color>に1マス移動させる。オーダーを確定しますか？"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+	tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>下</color>に1マス移動させる。オーダーを確定しますか？"
+}
+
+_G.pg.base.gametip.shipyard_phase_1 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_phase_2 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_button_1 = {
+	tip = "乞うご期待"
+}
+
+_G.pg.base.gametip.shipyard_button_2 = {
+	tip = "「テンペスタ秘密造船所」すべての任務クリアで解放"
+}
+
+_G.pg.base.gametip.shipyard_introduce = {
+	tip = "<size=30>任務は10/25（水）まで毎日2個ずつ開放されます\n開放から七日間、毎日開放される任務をクリアし、\n限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>をGET!</size>"
+}
+
+_G.pg.base.gametip.help_supportfleet = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.word_status_inSupportFleet = {
+	tip = "支援出撃中"
+}
+
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "すでに支援艦隊に編成されています。編成を切り替えますか？"
+}
+
+_G.pg.base.gametip.tw_unsupport_tip = {
+	tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
 }

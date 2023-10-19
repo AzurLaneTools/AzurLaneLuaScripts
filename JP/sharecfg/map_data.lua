@@ -493,6 +493,35 @@ pg.map_data = {
 			b = 0.23
 		}
 	},
+	[10013] = {
+		map_id = 10013,
+		long_pos = "-44.9, -51.0, 192.0;39.8, -51.6, 192.0;-7.3, -51.0, 192.0;22.4, -51.3, 192.0;-19.1, -51.0, 192.0;53.9, -51.0, 192.0",
+		sea_pos = "-27.1, -5.6, 54.0;-43.0, -1.0, 52.8",
+		long_scale = "4.5, 4.5, 1.0;4.5, 4.5, 1.0;4.5, 4.5, 1.0;4.5, 4.5, 1.0;4.5, 4.5, 1.0;4.5, 4.5, 1.0",
+		sky_pos = "-42.0, -57.8, 224.1;-42.1, -56.5, 200.0",
+		sea_scale = "9.4, 19.2, 28.4;22.5, 1.0, 12.2",
+		range_left = -200,
+		close_scale = "5.6, 5.6, 1.3;5.6, 5.6, 1.3;5.6, 5.6, 1.3;-5.6, 5.6, 1.3;-5.6, 5.6, 1.3;-5.6, 5.6, 1.3;-5.6, 5.6, 1.3;-5.6, 5.6, 1.3",
+		range_right = 244.6,
+		sky_scale = "11.0, 11.0, 1.0;11.0, 9.0, 1.0",
+		mid_pos = "-95.5, -12.4, 122.0;-29.2, -11.9, 122.0;21.8, -11.9, 122.0;76.0, -11.9, 122.0;144.1, -11.9, 122.0",
+		close_speed = 6.08,
+		sea_shot = "gelidai;sea_enjianiao",
+		mid_scale = "-4.5, 4.5, 1.0;-4.5, 4.5, 1.0;-4.5, 4.5, 1.0;-4.5, 4.5, 1.0;-4.5, 4.5, 1.0",
+		close_shot = "enjianiao_jj01;enjianiao_jj02;enjianiao_jj03;enjianiao_jj02;enjianiao_jj01;enjianiao_jj03;enjianiao_jj02;enjianiao_jj01",
+		long_shot = "enjianiao_yj01;enjianiao_yj02;enjianiao_yj01;enjianiao_yj02;enjianiao_yj02;enjianiao_yj01",
+		sky_shot = "sky_enjianiao_normal;enjianiao_wuqi",
+		close_pos = "-174.2, -6.2, 108.2;-114.0, -6.2, 108.2;-50.7, -6.2, 108.2;-0.9, -6.2, 108.2;52.4, -6.2, 108.2;107.0, -6.2, 108.2;152.3, -6.2, 108.2;196.9, -6.2, 108.2",
+		mid_shot = "enjianiao_zj01;enjianiao_zj02;enjianiao_zj03;enjianiao_zj03;enjianiao_zj02",
+		mid_speed = 2.3,
+		long_speed = 0.4,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			r = 0.03,
+			b = 0.23
+		}
+	},
 	[40000] = {
 		map_id = 40000,
 		long_pos = "229.6, -29.6, 164.6",
@@ -5122,6 +5151,7 @@ pg.map_data = {
 		10010,
 		10011,
 		10012,
+		10013,
 		40000,
 		50000,
 		50001,

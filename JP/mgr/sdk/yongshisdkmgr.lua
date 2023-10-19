@@ -236,7 +236,7 @@ return {
 		return slot0
 	end,
 	GetChannelUID = function ()
-		slot0 = uv0.channelUID
+		slot0 = uv0.GetPackageCode(Application.identifier)
 
 		originalPrint("channelUID : " .. slot0)
 
@@ -256,6 +256,8 @@ return {
 		elseif slot0 == uv2 then
 			return "3"
 		end
+
+		return "0"
 	end,
 	QueryWithProduct = function ()
 		if uv0 == Application.identifier then

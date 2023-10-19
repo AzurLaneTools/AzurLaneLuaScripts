@@ -288,6 +288,7 @@ end
 function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
+	slot6 = getProxy(ChapterProxy)
 
 	return function (slot0, slot1)
 		slot2, slot3 = ShipStatus.ShipStatusCheck("inFleet", slot0, slot1)
@@ -328,17 +329,23 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		if not uv1:GetRegularFleetByShip(slot3) or slot4.id == uv2.id then
+		if uv1:GetRegularFleetByShip(slot3) and slot4.id ~= uv2.id then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = false,
+				content = i18n("ship_formationMediator_quest_replace", slot4.defaultName),
+				onYes = slot1
+			})
+		elseif uv3:CheckUnitInSupportFleet(slot3) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = false,
+				content = i18n("ship_formationMediator_request_replace_support"),
+				onYes = slot1
+			})
+		else
 			slot1()
 
 			return
 		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = false,
-			content = i18n("ship_formationMediator_quest_replace", setSizeStr(slot4.defaultName, 36)),
-			onYes = slot1
-		})
 	end, function (slot0)
 		if not uv0:getShipById(slot0[1]) then
 			if uv1 == nil then
@@ -350,87 +357,98 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot3 = uv3:getShipPos(uv1)
+		function slot2()
+			slot1 = uv2:getShipPos(uv3)
 
-		if uv4:GetRegularFleetByShip(slot1) == nil then
-			if uv1 == nil then
-				uv3:insertShip(slot1, nil, uv5)
-			else
-				uv3:removeShip(uv1)
-				uv3:insertShip(slot1, slot3, uv5)
-			end
+			if uv0:GetRegularFleetByShip(uv1) == nil then
+				if uv3 == nil then
+					uv2:insertShip(uv1, nil, uv4)
+				else
+					uv2:removeShip(uv3)
+					uv2:insertShip(uv1, slot1, uv4)
+				end
 
-			uv4.EdittingFleet = uv3
-
-			return
-		end
-
-		slot4 = slot2:getShipPos(slot1)
-
-		if slot2.id == uv3.id then
-			if uv1 == nil then
-				uv3:removeShip(slot1)
-				uv3:insertShip(slot1, nil, uv5)
-
-				uv4.EdittingFleet = uv3
+				uv0.EdittingFleet = uv2
 
 				return
 			end
 
-			if uv1.id == slot1.id then
+			slot2 = slot0:getShipPos(uv1)
+
+			if slot0.id == uv2.id then
+				if uv3 == nil then
+					uv2:removeShip(uv1)
+					uv2:insertShip(uv1, nil, uv4)
+
+					uv0.EdittingFleet = uv2
+
+					return
+				end
+
+				if uv3.id == uv1.id then
+					return
+				end
+
+				uv2:removeShip(uv3)
+				uv2:removeShip(uv1)
+
+				if slot2 < slot1 then
+					uv2:insertShip(uv3, slot2, uv4)
+					uv2:insertShip(uv1, slot1, uv4)
+				else
+					uv2:insertShip(uv1, slot1, uv4)
+					uv2:insertShip(uv3, slot2, uv4)
+				end
+
+				uv0.EdittingFleet = uv2
+
 				return
 			end
 
-			uv3:removeShip(uv1)
-			uv3:removeShip(slot1)
+			if not slot0:canRemove(uv1) and uv3 == nil then
+				slot3, slot4 = slot0:getShipPos(uv1)
 
-			if slot4 < slot3 then
-				uv3:insertShip(uv1, slot4, uv5)
-				uv3:insertShip(slot1, slot3, uv5)
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationMediator_replaceError_onlyShip", slot0.defaultName, Fleet.C_TEAM_NAME[slot4]))
 			else
-				uv3:insertShip(slot1, slot3, uv5)
-				uv3:insertShip(uv1, slot4, uv5)
+				slot0:removeShip(uv1)
+
+				if uv3 then
+					slot0:insertShip(uv3, slot2, uv4)
+					uv5:sendNotification(GAME.UPDATE_FLEET, {
+						fleet = slot0
+					})
+					uv2:removeShip(uv3)
+					uv2:insertShip(uv1, slot1, uv4)
+
+					uv0.EdittingFleet = uv2
+
+					uv6.saveEdit()
+					uv5:sendNotification(GAME.UPDATE_FLEET, {
+						fleet = uv2
+					})
+				else
+					uv5:sendNotification(GAME.UPDATE_FLEET, {
+						fleet = slot0
+					})
+					uv2:insertShip(uv1, nil, uv4)
+
+					uv0.EdittingFleet = uv2
+
+					uv6.saveEdit()
+					uv5:sendNotification(GAME.UPDATE_FLEET, {
+						fleet = uv2
+					})
+				end
 			end
-
-			uv4.EdittingFleet = uv3
-
-			return
 		end
 
-		if not slot2:canRemove(slot1) and uv1 == nil then
-			slot5, slot6 = slot2:getShipPos(slot1)
-
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationMediator_replaceError_onlyShip", slot2.defaultName, Fleet.C_TEAM_NAME[slot6]))
+		if uv7:CheckUnitInSupportFleet(slot1) then
+			uv6:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
+				shipId = slot1.id,
+				callback = slot2
+			})
 		else
-			slot2:removeShip(slot1)
-
-			if uv1 then
-				slot2:insertShip(uv1, slot4, uv5)
-				uv6:sendNotification(GAME.UPDATE_FLEET, {
-					fleet = slot2
-				})
-				uv3:removeShip(uv1)
-				uv3:insertShip(slot1, slot3, uv5)
-
-				uv4.EdittingFleet = uv3
-
-				uv2.saveEdit()
-				uv6:sendNotification(GAME.UPDATE_FLEET, {
-					fleet = uv3
-				})
-			else
-				uv6:sendNotification(GAME.UPDATE_FLEET, {
-					fleet = slot2
-				})
-				uv3:insertShip(slot1, nil, uv5)
-
-				uv4.EdittingFleet = uv3
-
-				uv2.saveEdit()
-				uv6:sendNotification(GAME.UPDATE_FLEET, {
-					fleet = uv3
-				})
-			end
+			slot2()
 		end
 	end
 end

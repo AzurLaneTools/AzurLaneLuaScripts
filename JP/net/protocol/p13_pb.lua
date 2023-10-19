@@ -39,6 +39,8 @@ slot2 = {
 	CS_13103_ACT_ARG_1_FIELD = slot0.FieldDescriptor(),
 	CS_13103_ACT_ARG_2_FIELD = slot0.FieldDescriptor(),
 	CS_13103_ACT_ARG_3_FIELD = slot0.FieldDescriptor(),
+	CS_13103_ACT_ARG_4_FIELD = slot0.FieldDescriptor(),
+	CS_13103_ACT_ARG_5_FIELD = slot0.FieldDescriptor(),
 	SC_13104_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_13104_MOVE_PATH_FIELD = slot0.FieldDescriptor(),
 	SC_13104_DROP_LIST_FIELD = slot0.FieldDescriptor(),
@@ -699,6 +701,24 @@ slot2.CS_13103_ACT_ARG_3_FIELD.has_default_value = false
 slot2.CS_13103_ACT_ARG_3_FIELD.default_value = 0
 slot2.CS_13103_ACT_ARG_3_FIELD.type = 13
 slot2.CS_13103_ACT_ARG_3_FIELD.cpp_type = 3
+slot2.CS_13103_ACT_ARG_4_FIELD.name = "act_arg_4"
+slot2.CS_13103_ACT_ARG_4_FIELD.full_name = "p13.cs_13103.act_arg_4"
+slot2.CS_13103_ACT_ARG_4_FIELD.number = 6
+slot2.CS_13103_ACT_ARG_4_FIELD.index = 5
+slot2.CS_13103_ACT_ARG_4_FIELD.label = 1
+slot2.CS_13103_ACT_ARG_4_FIELD.has_default_value = false
+slot2.CS_13103_ACT_ARG_4_FIELD.default_value = 0
+slot2.CS_13103_ACT_ARG_4_FIELD.type = 13
+slot2.CS_13103_ACT_ARG_4_FIELD.cpp_type = 3
+slot2.CS_13103_ACT_ARG_5_FIELD.name = "act_arg_5"
+slot2.CS_13103_ACT_ARG_5_FIELD.full_name = "p13.cs_13103.act_arg_5"
+slot2.CS_13103_ACT_ARG_5_FIELD.number = 7
+slot2.CS_13103_ACT_ARG_5_FIELD.index = 6
+slot2.CS_13103_ACT_ARG_5_FIELD.label = 1
+slot2.CS_13103_ACT_ARG_5_FIELD.has_default_value = false
+slot2.CS_13103_ACT_ARG_5_FIELD.default_value = 0
+slot2.CS_13103_ACT_ARG_5_FIELD.type = 13
+slot2.CS_13103_ACT_ARG_5_FIELD.cpp_type = 3
 CS_13103.name = "cs_13103"
 CS_13103.full_name = "p13.cs_13103"
 CS_13103.nested_types = {}
@@ -708,7 +728,9 @@ CS_13103.fields = {
 	slot2.CS_13103_GROUP_ID_FIELD,
 	slot2.CS_13103_ACT_ARG_1_FIELD,
 	slot2.CS_13103_ACT_ARG_2_FIELD,
-	slot2.CS_13103_ACT_ARG_3_FIELD
+	slot2.CS_13103_ACT_ARG_3_FIELD,
+	slot2.CS_13103_ACT_ARG_4_FIELD,
+	slot2.CS_13103_ACT_ARG_5_FIELD
 }
 CS_13103.is_extendable = false
 CS_13103.extensions = {}

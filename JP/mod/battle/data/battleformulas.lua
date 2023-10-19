@@ -388,7 +388,11 @@ function slot0.CalculateBiasDecay(slot0)
 end
 
 function slot0.CalculateBiasDecayMonster(slot0)
-	return math.min(slot0 * uv0.AIM_BIAS_DECAY_MOD + uv0.AIM_BIAS_DECAY_BASE, uv0.AIM_BIAS_DECAY_SPEED_MAX_MONSTER)
+	return math.min(slot0 * uv0.AIM_BIAS_DECAY_MOD, uv0.AIM_BIAS_DECAY_SPEED_MAX_MONSTER)
+end
+
+function slot0.CalculateBiasDecayMonsterInSmoke(slot0)
+	return math.min(slot0 * uv0.AIM_BIAS_DECAY_MOD * uv0.AIM_BIAS_DECAY_SMOKE, uv0.AIM_BIAS_DECAY_SPEED_MAX_MONSTER)
 end
 
 function slot0.CalculateBiasDecayDiving(slot0)

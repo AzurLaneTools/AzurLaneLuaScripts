@@ -42,6 +42,10 @@ function slot3.UpdateHostileSubmarineCount(slot0, slot1)
 	slot0._submarineCount = slot1
 end
 
+function slot3.GetCount(slot0)
+	return slot0._submarineCount
+end
+
 function slot3.ActiveWarning(slot0, slot1)
 	slot2 = false
 	slot3 = #slot0._warningRequestTable

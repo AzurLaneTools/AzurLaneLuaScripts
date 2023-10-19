@@ -106,7 +106,7 @@ pg.voice_bgm = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "Login-orchestral-ver"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -815,5 +815,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-7"
+	},
+	PiratePage = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
+	},
+	SecretShipyardScene = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
 	}
 }

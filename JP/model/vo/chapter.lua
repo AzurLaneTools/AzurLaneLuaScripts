@@ -111,31 +111,37 @@ function slot0.BuildEliteFleetList(slot0)
 		{},
 		{}
 	}
-	slot3 = ipairs
-	slot4 = slot0 or {}
+	slot3 = {}
+	slot4 = ipairs
+	slot5 = slot0 or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot8 = {}
-
-		for slot12, slot13 in ipairs(slot7.main_id) do
-			slot8[#slot8 + 1] = slot13
-		end
-
-		slot1[slot6] = slot8
+	for slot7, slot8 in slot4(slot5) do
 		slot9 = {}
 
-		for slot13, slot14 in ipairs(slot7.commanders) do
-			slot16 = slot14.pos
+		for slot13, slot14 in ipairs(slot8.main_id) do
+			slot9[#slot9 + 1] = slot14
+		end
 
-			if getProxy(CommanderProxy):getCommanderById(slot14.id) and Commander.canEquipToFleetList(slot2, slot6, slot16, slot15) then
-				slot9[slot16] = slot15
+		if slot7 == 4 then
+			table.insert(slot3, slot9)
+		else
+			slot1[slot7] = slot9
+		end
+
+		slot10 = {}
+
+		for slot14, slot15 in ipairs(slot8.commanders) do
+			slot17 = slot15.pos
+
+			if getProxy(CommanderProxy):getCommanderById(slot15.id) and Commander.canEquipToFleetList(slot2, slot7, slot17, slot16) then
+				slot10[slot17] = slot16
 			end
 		end
 
-		slot2[slot6] = slot9
+		slot2[slot7] = slot10
 	end
 
-	return slot1, slot2
+	return slot1, slot2, slot3
 end
 
 function slot0.__index(slot0, slot1)
@@ -359,11 +365,9 @@ function slot0.update(slot0, slot1)
 	slot0.fleets = {}
 
 	for slot11, slot12 in ipairs(slot1.group_list) do
-		slot13 = ChapterFleet.New()
+		slot13 = ChapterFleet.New(slot12, slot7)
 
 		slot13:setup(slot0)
-		slot13:updateNpcShipList(slot7)
-		slot13:update(slot12)
 
 		slot0.fleets[slot11] = slot13
 	end
@@ -390,7 +394,7 @@ function slot0.update(slot0, slot1)
 	if slot1.ai_list then
 		for slot11, slot12 in ipairs(slot1.ai_list) do
 			if slot12.item_flag ~= 1 then
-				slot0:mergeChampionImmediately(ChapterChampionPackage.New(slot12))
+				slot0:mergeChampion(ChapterChampionPackage.New(slot12), true)
 			end
 		end
 	end
@@ -518,23 +522,33 @@ function slot0.findChapterCells(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.mergeChapterCell(slot0, slot1)
-	slot4 = slot0.cells[ChapterCell.Line2Name(slot1.row, slot1.column)] == nil or slot3.attachment ~= slot1.attachment or slot3.attachmentId ~= slot1.attachmentId
-
-	if slot3 then
-		slot3.attachment = slot1.attachment
-		slot3.attachmentId = slot1.attachmentId
-		slot3.flag = slot1.flag
-		slot3.data = slot1.data
-		slot1 = slot3
+function slot0.GetBossCell(slot0)
+	for slot4, slot5 in pairs(slot0.cells) do
+		if ChapterConst.IsBossCell(slot5) then
+			return slot5
+		end
 	end
 
-	if slot4 and ChapterConst.NeedMarkAsLurk(slot1) then
+	return nil
+end
+
+function slot0.mergeChapterCell(slot0, slot1, slot2)
+	slot5 = slot0.cells[ChapterCell.Line2Name(slot1.row, slot1.column)] == nil or slot4.attachment ~= slot1.attachment or slot4.attachmentId ~= slot1.attachmentId
+
+	if slot4 then
+		slot4.attachment = slot1.attachment
+		slot4.attachmentId = slot1.attachmentId
+		slot4.flag = slot1.flag
+		slot4.data = slot1.data
+		slot1 = slot4
+	end
+
+	if not slot2 and slot5 and ChapterConst.NeedMarkAsLurk(slot1) then
 		slot1.trait = ChapterConst.TraitLurk
 	end
 
-	if slot1.attachment == ChapterConst.AttachBoss and slot0:getChampionIndex(slot1.row, slot1.column) then
-		table.remove(slot0.champions, slot5)
+	if ChapterConst.IsBossCell(slot1) and slot0:getChampionIndex(slot1.row, slot1.column) then
+		table.remove(slot0.champions, slot6)
 	end
 
 	slot0:updateChapterCell(slot1)
@@ -793,7 +807,8 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 	return slot0.pathFinder:Find(slot2, slot3)
 end
 
-function slot0.FindBossPath(slot0, slot1, slot2, slot3)
+function slot0.FindBossPath(slot0, slot1, slot2)
+	slot3 = ChapterConst.SubjectPlayer
 	slot4 = {}
 
 	for slot8 = 0, ChapterConst.MaxRow - 1 do
@@ -808,18 +823,16 @@ function slot0.FindBossPath(slot0, slot1, slot2, slot3)
 			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot17:IsWalkable() then
 				slot13 = PathFinding.PrioNormal
 
-				if slot0:considerAsObstacle(slot1, slot17.row, slot17.column) then
+				if slot0:considerAsObstacle(slot3, slot17.row, slot17.column) then
 					slot13 = PathFinding.PrioObstacle
 				end
 
-				slot18, slot19 = slot0:existEnemy(slot1, slot17.row, slot17.column)
-
-				if slot18 then
+				if slot0:GetEnemy(slot17.row, slot17.column) then
 					slot13 = PathFinding.PrioNormal
-					slot15 = slot19 ~= ChapterConst.AttachBoss
+					slot15 = not ChapterConst.IsBossCell(slot18)
 				end
 
-				slot14 = (slot1 ~= ChapterConst.SubjectPlayer or slot17.forbiddenDirections) and ChapterConst.ForbiddenNone
+				slot14 = slot17.forbiddenDirections
 			end
 
 			slot4[slot8][slot12].forbiddens = slot14
@@ -828,17 +841,15 @@ function slot0.FindBossPath(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	if slot1 == ChapterConst.SubjectPlayer then
-		for slot9, slot10 in ipairs(slot0:getCoastalGunArea()) do
-			slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
-		end
+	for slot9, slot10 in ipairs(slot0:getCoastalGunArea()) do
+		slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
 	end
 
-	if slot4[slot3.row] and slot4[slot3.row][slot3.column] then
-		slot5.priority = slot0:considerAsStayPoint(slot1, slot3.row, slot3.column) and PathFinding.PrioNormal or PathFinding.PrioObstacle
+	if slot4[slot2.row] and slot4[slot2.row][slot2.column] then
+		slot6.priority = slot0:considerAsStayPoint(slot3, slot2.row, slot2.column) and PathFinding.PrioNormal or PathFinding.PrioObstacle
 	end
 
-	return OrientedWeightPathFinding.StaticFind(slot4, ChapterConst.MaxRow, ChapterConst.MaxColumn, slot2, slot3)
+	return OrientedWeightPathFinding.StaticFind(slot4, ChapterConst.MaxRow, ChapterConst.MaxColumn, slot1, slot2)
 end
 
 function slot0.getWaveCount(slot0)
@@ -898,14 +909,8 @@ function slot0.getWaveCount(slot0)
 	return 1
 end
 
-function slot0.bossRefreshed(slot0)
-	for slot4, slot5 in pairs(slot0.cells) do
-		if slot5.attachment == ChapterConst.AttachBoss then
-			return true
-		end
-	end
-
-	return false
+function slot0.IsFinalBossRefreshed(slot0)
+	return tobool(slot0:findChapterCell(ChapterConst.AttachBoss))
 end
 
 function slot0.getFleetAmmo(slot0, slot1)
@@ -922,7 +927,7 @@ function slot0.getFleetAmmo(slot0, slot1)
 	return slot2, slot1.restAmmo
 end
 
-function slot0.GetActiveStrategies(slot0)
+function slot0.GetInteractableStrategies(slot0)
 	table.insert(_.filter(slot0.fleet:getStrategies(), function (slot0)
 		return pg.strategy_data_template[slot0.id] and slot1.type ~= ChapterConst.StgTypeBindFleetPassive
 	end), 1, {
@@ -941,11 +946,17 @@ function slot0.GetActiveStrategies(slot0)
 		})
 	end
 
+	if slot0:getChapterSupportFleet() then
+		table.insertto(slot1, _.filter(slot4:getStrategies(), function (slot0)
+			return pg.strategy_data_template[slot0.id] and slot1.type == ChapterConst.StgTypeBindSupportConsume
+		end))
+	end
+
 	if #slot0.strategies > 0 then
-		for slot7, slot8 in pairs(slot0.strategies) do
+		for slot8, slot9 in pairs(slot0.strategies) do
 			table.insert(slot1, {
-				id = slot7,
-				count = slot8
+				id = slot8,
+				count = slot9
 			})
 		end
 	end
@@ -1000,24 +1011,22 @@ function slot0.getFleetStates(slot0, slot1)
 		table.insert(slot2, slot7)
 	end
 
-	return slot2
-end
-
-function slot0.GetShowingStrategies(slot0)
-	slot2 = slot0:getFleetStates(slot0.fleet)
-
-	_.each(slot0.buff_list, function (slot0)
+	underscore.each(slot0.buff_list, function (slot0)
 		if ChapterConst.Buff2Stg[slot0] then
 			table.insert(uv0, ChapterConst.Buff2Stg[slot0])
 		end
 	end)
 
 	if slot0:getPlayType() == ChapterConst.TypeDOALink and slot0:GetBuffOfLinkAct() then
-		table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot3)])
+		table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot8)])
 	end
 
-	return _.filter(slot2, function (slot0)
-		return pg.strategy_data_template[slot0].icon ~= ""
+	return slot2
+end
+
+function slot0.GetShowingStrategies(slot0)
+	return _.filter(slot0:getFleetStates(slot0.fleet), function (slot0)
+		return pg.strategy_data_template[slot0] and slot1.icon ~= ""
 	end)
 end
 
@@ -1032,7 +1041,7 @@ function slot0.getAirDominanceValue(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.fleets) do
-		if slot7:isValid() then
+		if slot7:isValid() and slot7:getFleetType() == FleetType.Normal then
 			slot1 = slot1 + slot7:getFleetAirDominanceValue()
 			slot2 = slot2 + slot7:getAntiAircraftSums()
 		end
@@ -1070,7 +1079,7 @@ function slot0.updateExtraFlags(slot0, slot1, slot2)
 
 	for slot7, slot8 in ipairs(slot1) do
 		if not table.contains(slot0.extraFlagList, slot8) then
-			table.insert(slot0.extraFlagList, slot8)
+			table.insert(slot0.extraFlagList, 1, slot8)
 
 			slot3 = true
 		end
@@ -1111,7 +1120,7 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 			table.insert(uv0, slot1)
 		end
 	end)
-	table.insertto(slot2, slot0:GetFleetAttachmentConfig("attach_buff", slot1.line.row, slot1.line.column) or {})
+	table.insertto(slot2, slot0:GetCellEventByKey("attach_buff", slot1.line.row, slot1.line.column) or {})
 	_.each(slot0:GetWeather(), function (slot0)
 		if type(pg.weather_data_template[slot0].effect_args) == "table" and slot1.buff and slot1.buff > 0 then
 			table.insert(uv0, slot1.buff)
@@ -1121,12 +1130,8 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 	return slot2, slot0:buildBattleBuffList(slot1)
 end
 
-function slot0.GetFleetAttachmentConfig(slot0, slot1, slot2, slot3)
-	if not slot0.cellAttachments[ChapterCell.Line2Name(slot2 or slot0.fleet.line.row, slot3 or slot0.fleet.line.column)] then
-		return
-	end
-
-	return uv0.GetEventTemplateByKey(slot1, slot5.attachmentId)
+function slot0.GetStageFlags(slot0)
+	return slot0:GetCellEventByKey("stage_flags", slot0.fleet.line.row, slot0.fleet.line.column) or {}
 end
 
 function slot0.GetCellEventByKey(slot0, slot1, slot2, slot3)
@@ -1534,6 +1539,26 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 	return true
 end
 
+function slot0.ClearSupportFleetList(slot0, slot1)
+	slot0.supportFleet = {}
+end
+
+function slot0.setSupportFleetList(slot0, slot1)
+	slot0.supportFleet = slot1[1]
+end
+
+function slot0.getSupportFleet(slot0)
+	slot0.supportFleet = slot0.supportFleet or {}
+
+	return slot0.supportFleet
+end
+
+function slot0.getChapterSupportFleet(slot0)
+	return table.Find(slot0.fleets, function (slot0, slot1)
+		return slot1:getFleetType() == FleetType.Support
+	end)
+end
+
 function slot0.getDragExtend(slot0)
 	slot1 = slot0.theme
 	slot2 = 99999999
@@ -1692,20 +1717,6 @@ function slot0.getMaxColumnByRow(slot0, slot1)
 	return slot2
 end
 
-function slot0.withNpc(slot0)
-	_.any(slot0.fleets, function (slot0)
-		if slot0.npcShip then
-			uv0 = _.detect(slot0:getShips(true), function (slot0)
-				return slot0.id == uv0.npcShip.id
-			end)
-		end
-
-		return uv0 ~= nil
-	end)
-
-	return Clone(nil)
-end
-
 function slot0.getFleet(slot0, slot1, slot2, slot3)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.line.row == uv0 and slot0.line.column == uv1 and (not uv2 or slot0:getFleetType() == uv2) and slot0:isValid()
@@ -1733,9 +1744,11 @@ function slot0.getChampion(slot0, slot1, slot2)
 end
 
 function slot0.getChampionIndex(slot0, slot1, slot2)
-	if slot0:getChampion(slot1, slot2) then
-		return table.indexof(slot0.champions, slot3)
+	if not slot0:getChampion(slot1, slot2) then
+		return
 	end
+
+	return table.indexof(slot0.champions, slot3)
 end
 
 function slot0.getChampionVisibility(slot0, slot1, slot2, slot3)
@@ -1744,26 +1757,16 @@ function slot0.getChampionVisibility(slot0, slot1, slot2, slot3)
 	return slot1.flag == ChapterConst.CellFlagActive
 end
 
-function slot0.mergeChampion(slot0, slot1)
+function slot0.mergeChampion(slot0, slot1, slot2)
 	if slot0:getChampionIndex(slot1.row, slot1.column) then
-		slot0.champions[slot2] = slot1
+		slot0.champions[slot3] = slot1
 
 		return true
 	else
-		slot1.trait = ChapterConst.TraitLurk
+		if not slot2 then
+			slot1.trait = ChapterConst.TraitLurk
+		end
 
-		table.insert(slot0.champions, slot1)
-
-		return false
-	end
-end
-
-function slot0.mergeChampionImmediately(slot0, slot1)
-	if slot0:getChampionIndex(slot1.row, slot1.column) then
-		slot0.champions[slot2] = slot1
-
-		return true
-	else
 		table.insert(slot0.champions, slot1)
 
 		return false
@@ -1787,7 +1790,7 @@ function slot0.considerAsObstacle(slot0, slot1, slot2, slot3)
 
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot4.flag == ChapterConst.CellFlagActive then
-			if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy then
+			if ChapterConst.IsEnemyAttach(slot4.attachment) then
 				return true
 			end
 
@@ -1888,14 +1891,22 @@ function slot0.existBarrier(slot0, slot1, slot2)
 	return false
 end
 
+function slot0.GetEnemy(slot0, slot1, slot2)
+	if slot0:getChapterCell(slot1, slot2) and slot3.flag == ChapterConst.CellFlagActive and ChapterConst.IsEnemyAttach(slot3.attachment) then
+		return slot3
+	end
+
+	if slot0:getChampion(slot1, slot2) and slot4.flag ~= ChapterConst.CellFlagDisabled then
+		return slot4
+	end
+end
+
 function slot0.existEnemy(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
-		if slot0:getChapterCell(slot2, slot3) and slot4.flag == ChapterConst.CellFlagActive and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
-			return true, slot4.attachment
-		end
+		if slot0:GetEnemy(slot2, slot3) then
+			slot5 = nil
 
-		if slot0:existChampion(slot2, slot3) then
-			return true, ChapterConst.AttachChampion
+			return true, (not isa(slot4, ChapterCell) or slot4.attachment) and ChapterConst.AttachChampion
 		end
 	elseif slot1 == ChapterConst.SubjectChampion and (slot0:existFleet(FleetType.Normal, slot2, slot3) or slot0:existFleet(FleetType.Transport, slot2, slot3)) then
 		return true
@@ -1911,11 +1922,7 @@ function slot0.existFleet(slot0, slot1, slot2, slot3)
 end
 
 function slot0.existChampion(slot0, slot1, slot2)
-	if _.any(slot0.champions, function (slot0)
-		return slot0.flag == ChapterConst.CellFlagActive and slot0.row == uv0 and slot0.column == uv1 and uv2:getChampionVisibility(slot0)
-	end) then
-		return true
-	end
+	return slot0:getChampion(slot1, slot2) and slot3.flag == ChapterConst.CellFlagActive and slot0:getChampionVisibility(slot3)
 end
 
 function slot0.existAlly(slot0, slot1)
@@ -2159,7 +2166,7 @@ function slot0.getQuadCellPic(slot0, slot1)
 
 	if slot1.trait == ChapterConst.TraitLurk then
 		-- Nothing
-	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == ChapterConst.CellFlagActive then
+	elseif slot1.flag == ChapterConst.CellFlagActive and ChapterConst.IsEnemyAttach(slot1.attachment) and slot1.flag == ChapterConst.CellFlagActive then
 		slot2 = "cell_enemy"
 	elseif slot1.attachment == ChapterConst.AttachBox and slot1.flag == ChapterConst.CellFlagActive then
 		slot3 = pg.box_data_template[slot1.attachmentId]
@@ -2211,11 +2218,9 @@ function slot0.getStrikeAnimShip(slot0, slot1, slot2)
 end
 
 function slot0.GetSubmarineFleet(slot0)
-	for slot4, slot5 in pairs(slot0.fleets) do
-		if slot5:getFleetType() == FleetType.Submarine and slot5:isValid() then
-			return slot5, slot4
-		end
-	end
+	return table.Find(slot0.fleets, function (slot0, slot1)
+		return slot1:getFleetType() == FleetType.Submarine and slot1:isValid()
+	end)
 end
 
 function slot0.getStageCell(slot0, slot1, slot2)
@@ -2338,16 +2343,20 @@ end
 
 function slot0.writeBack(slot0, slot1, slot2)
 	function slot4(slot0)
-		if uv0.statistics[slot0.id] then
-			slot0.hpRant = slot1.bp
+		if not uv0.statistics[slot0.id] then
+			return
 		end
+
+		slot0.hpRant = slot1.bp
 	end
 
 	for slot8, slot9 in pairs(slot0.fleet.ships) do
 		slot4(slot9)
 	end
 
-	slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)
+	if not slot2.skipAmmo then
+		slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)
+	end
 
 	_.each(_.filter(slot3:getStrategies(), function (slot0)
 		return pg.strategy_data_template[slot0.id] and slot1.type == ChapterConst.StgTypeBindFleetPassive and slot0.count > 0
@@ -2372,56 +2381,82 @@ function slot0.writeBack(slot0, slot1, slot2)
 	slot0:UpdateComboHistory(slot2.statistics._battleScore)
 
 	if slot1 then
-		slot6 = nil
+		slot6, slot7 = nil
 
-		if _.detect(slot0.champions, function (slot0)
-			return slot0.id == uv0.stageId and slot0.row == uv1.line.row and slot0.column == uv1.line.column and slot0.flag ~= ChapterConst.CellFlagDisabled
-		end) then
-			slot7:Iter()
-
-			slot6 = slot7.attachment
-		else
-			slot8 = slot0:getChapterCell(slot3.line.row, slot3.line.column)
-			slot8.flag = ChapterConst.CellFlagDisabled
-
-			slot0:updateChapterCell(slot8)
+		if slot0:getChampion(slot3.line.row, slot3.line.column) then
+			slot8:Iter()
 
 			slot6 = slot8.attachment
+			slot7 = slot8.attachmentId
+
+			if slot8.flag == ChapterConst.CellFlagDisabled then
+				slot0:RemoveChampion(slot8)
+			end
+		else
+			slot9 = slot0:getChapterCell(slot3.line.row, slot3.line.column)
+			slot7 = slot9.attachmentId
+
+			if slot9.attachment == ChapterConst.AttachEnemy or slot6 == ChapterConst.AttachBoss then
+				slot9.flag = ChapterConst.CellFlagDisabled
+
+				slot0:updateChapterCell(slot9)
+			else
+				slot0:clearChapterCell(slot9.row, slot9.column)
+			end
 		end
 
 		assert(slot6, "attachment can not be nil.")
 
 		if slot6 == ChapterConst.AttachEnemy or slot6 == ChapterConst.AttachElite or slot6 == ChapterConst.AttachChampion then
-			if (not slot7 or slot7.flag == ChapterConst.CellFlagDisabled) and _.detect(slot0.achieves, function (slot0)
+			if (not slot8 or slot8.flag == ChapterConst.CellFlagDisabled) and _.detect(slot0.achieves, function (slot0)
 				return slot0.type == ChapterConst.AchieveType2
 			end) then
-				slot8.count = slot8.count + 1
+				slot9.count = slot9.count + 1
 			end
 		elseif slot6 == ChapterConst.AttachBoss and _.detect(slot0.achieves, function (slot0)
 			return slot0.type == ChapterConst.AchieveType1
 		end) then
-			slot8.count = slot8.count + 1
+			slot9.count = slot9.count + 1
 		end
 
 		if slot0:CheckChapterWin() then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
 		end
 
-		if slot7 and slot7.flag == ChapterConst.CellFlagDisabled or not slot7 and slot6 ~= ChapterConst.AttachBox then
-			slot0:RemoveChampion(slot7)
-
+		if slot8 and slot8.flag == ChapterConst.CellFlagDisabled or not slot8 and slot6 ~= ChapterConst.AttachBox then
 			slot3.defeatEnemies = slot3.defeatEnemies + 1
 			slot0.defeatEnemies = slot0.defeatEnemies + 1
-		end
+			slot10 = pg.expedition_data_template[slot7]
 
-		getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
-			score = slot2.statistics._battleScore,
-			line = {
-				row = slot3.line.row,
-				column = slot3.line.column
-			},
-			type = slot6
-		})
+			if not slot0:isLoop() and slot10 and slot10.type == ChapterConst.ExpeditionTypeMulBoss then
+				slot12 = slot3:GetStatusStrategy()
+
+				_.each(pg.chapter_model_multistageboss[slot0.id].guild_buff, function (slot0)
+					if not table.contains(uv0, slot0) then
+						table.insert(uv0, slot0)
+					end
+				end)
+
+				if slot0:getNextValidIndex() > 0 then
+					slot14 = slot0.fleets[slot13]
+					slot12 = slot14:GetStatusStrategy()
+
+					_.each(slot11, function (slot0)
+						table.removebyvalue(uv0, slot0)
+					end)
+				end
+			end
+
+			getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
+				score = slot2.statistics._battleScore,
+				line = {
+					row = slot3.line.row,
+					column = slot3.line.column
+				},
+				attachment = slot6,
+				attachmentId = slot7
+			})
+		end
 	end
 end
 
@@ -2429,9 +2464,7 @@ function slot0.CleanCurrentEnemy(slot0)
 	slot2 = slot0.fleet.line
 	slot3 = nil
 
-	if slot0:existChampion(slot2.row, slot2.column) then
-		slot3 = slot0:getChampion(slot2.row, slot2.column)
-
+	if slot0:getChampion(slot2.row, slot2.column) then
 		slot3:Iter()
 
 		if slot3.flag == ChapterConst.CellFlagDisabled then
@@ -2442,74 +2475,18 @@ function slot0.CleanCurrentEnemy(slot0)
 	end
 
 	if slot0:getChapterCell(slot2.row, slot2.column).attachment == ChapterConst.AttachEnemy then
-		slot0:updateChapterCell(ChapterCell.New({
-			item_id = 0,
-			item_data = 0,
-			item_flag = 0,
-			pos = {
-				row = slot2.row,
-				column = slot2.column
-			},
-			item_type = ChapterConst.AttachNone
-		}))
+		slot0:clearChapterCell(slot2.row, slot2.column)
 
 		return
 	end
 end
 
 function slot0.UpdateProgressAfterSkipBattle(slot0)
-	slot2 = slot0.fleet.line
-	slot3, slot4 = nil
-
-	if slot0:existChampion(slot2.row, slot2.column) then
-		slot4 = slot0:getChampion(slot2.row, slot2.column)
-
-		slot4:Iter()
-
-		slot3 = slot4.attachment
-	else
-		slot4 = slot0:getChapterCell(slot1.line.row, slot1.line.column)
-		slot4.flag = ChapterConst.CellFlagDisabled
-
-		slot0:updateChapterCell(slot4)
-
-		slot3 = slot4.attachment
-	end
-
-	assert(slot3, "attachment can not be nil.")
-
-	if slot3 == ChapterConst.AttachEnemy or slot3 == ChapterConst.AttachElite or slot3 == ChapterConst.AttachChampion and slot4.flag == ChapterConst.CellFlagDisabled then
-		if _.detect(slot0.achieves, function (slot0)
-			return slot0.type == ChapterConst.AchieveType2
-		end) then
-			slot5.count = slot5.count + 1
-		end
-	elseif slot3 == ChapterConst.AttachBoss and _.detect(slot0.achieves, function (slot0)
-		return slot0.type == ChapterConst.AchieveType1
-	end) then
-		slot5.count = slot5.count + 1
-	end
-
-	if slot0:CheckChapterWin() then
-		pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
-	end
-
-	if slot3 ~= ChapterConst.AttachChampion or slot4.flag == ChapterConst.CellFlagDisabled then
-		if slot3 == ChapterConst.AttachChampion then
-			slot0:RemoveChampion(slot4)
-		end
-
-		slot1.defeatEnemies = slot1.defeatEnemies + 1
-		slot0.defeatEnemies = slot0.defeatEnemies + 1
-	end
-
-	getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
-		score = ys.Battle.BattleConst.BattleScore.S,
-		line = {
-			row = slot1.line.row,
-			column = slot1.line.column
-		},
-		type = slot3
+	slot0:writeBack(true, {
+		skipAmmo = true,
+		statistics = {
+			_battleScore = ys.Battle.BattleConst.BattleScore.S
+		}
 	})
 end
 
@@ -2676,9 +2653,7 @@ function slot0.CheckChapterLose(slot0)
 end
 
 function slot0.CheckChapterWillWin(slot0)
-	if slot0:existOni() then
-		return true
-	elseif slot0:isPlayingWithBombEnemy() then
+	if slot0:existOni() or slot0:isPlayingWithBombEnemy() then
 		return true
 	end
 
@@ -3078,11 +3053,11 @@ function slot0.enoughTimes2Start(slot0)
 end
 
 function slot0.GetRestDailyBonus(slot0)
-	if slot0:IsRemaster() then
-		return 0
-	end
-
 	slot1 = 0
+
+	if slot0:IsRemaster() then
+		return slot1
+	end
 
 	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
 		slot1 = math.max(slot1, pg.expedition_activity_template[slot7] and slot8.bonus_time or 0)
@@ -3183,7 +3158,7 @@ function slot0.GetAllEnemies(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.cells) do
-		if (slot7.attachment == ChapterConst.AttachEnemy or slot7.attachment == ChapterConst.AttachElite or slot7.attachment == ChapterConst.AttachBoss or slot7.attachment == ChapterConst.AttachBox and pg.box_data_template[slot7.attachmentId].type == ChapterConst.BoxEnemy) and (slot1 or slot7.flag ~= ChapterConst.CellFlagDisabled) then
+		if ChapterConst.IsEnemyAttach(slot7.attachment) and (slot1 or slot7.flag ~= ChapterConst.CellFlagDisabled) then
 			table.insert(slot2, slot7)
 		end
 	end

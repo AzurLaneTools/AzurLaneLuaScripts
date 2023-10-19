@@ -10,6 +10,7 @@ slot0.TypeSpHunt = 7
 slot0.TypeSpBomb = 8
 slot0.TypeDefence = 10
 slot0.TypeDOALink = 11
+slot0.TypeMultiStageBoss = 12
 slot0.SubjectPlayer = 1
 slot0.SubjectChampion = 2
 slot0.MaxRow = 10
@@ -39,14 +40,36 @@ slot0.AttachBomb_Enemy = 24
 slot0.AttachBarrier = 25
 slot0.AttachHugeSupply = 26
 slot0.AttachLandbase = 100
-slot0.AttachStaticEnemys = {
+slot0.AttachEnemyTypes = {
 	slot0.AttachEnemy,
 	slot0.AttachAmbush,
 	slot0.AttachElite,
 	slot0.AttachBoss,
 	slot0.AttachAreaBoss,
-	slot0.AttachBomb_Enemy
+	slot0.AttachBomb_Enemy,
+	slot0.AttachChampion
 }
+
+function slot0.IsEnemyAttach(slot0)
+	return table.contains(uv0.AttachEnemyTypes, slot0)
+end
+
+function slot0.IsBossCell(slot0)
+	if slot0.attachment == uv0.AttachBoss then
+		return true
+	end
+
+	if not uv0.IsEnemyAttach(slot0.attachment) then
+		return false
+	end
+
+	if not pg.expedition_data_template[slot0.attachmentId] then
+		return
+	end
+
+	return slot1.type == uv0.ExpeditionTypeBoss or slot1.type == uv0.ExpeditionTypeMulBoss
+end
+
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
@@ -69,6 +92,7 @@ slot0.FlagWeatherFog = 102
 slot0.ActType_Poison = 1
 slot0.ActType_SubmarineHunting = 2
 slot0.ActType_TargetDown = 3
+slot0.ActType_Expel = 4
 slot0.BoxBarrier = 0
 slot0.BoxDrop = 1
 slot0.BoxStrategy = 2
@@ -97,6 +121,8 @@ slot0.StgTypeConst = 3
 slot0.StgTypePassive = 4
 slot0.StgTypeBindChapter = 5
 slot0.StgTypeBindFleetPassive = 6
+slot0.StgTypeBindSupportConsume = 7
+slot0.StgTypeStatus = 10
 slot0.StrategyAmmoRich = 10001
 slot0.StrategyAmmoPoor = 10002
 slot0.StrategyHuntingRange = -1
@@ -110,6 +136,11 @@ slot0.StrategyCallSubOutofRange = 10
 slot0.StrategySubTeleport = 11
 slot0.StrategySonarDetect = 12
 slot0.StrategyMissileStrike = 18
+slot0.StrategyAirSupport = 1000
+slot0.StrategyExpel = 1001
+slot0.StrategyAirSupportFoe = 94
+slot0.StrategyAirSupportFriendly = 95
+slot0.StrategyIntelligenceRecorded = 96
 slot0.StrategyForms = {
 	slot0.StrategyFormSignleLine,
 	slot0.StrategyFormDoubleLine,
@@ -118,17 +149,13 @@ slot0.StrategyForms = {
 slot0.StrategyPresents = {
 	slot0.StrategyRepair
 }
-slot0.StgDtRepair = "healthy"
-slot0.StgDtAirPrepare = "air"
-slot0.StgDtAirStrike = "strike"
-slot0.StgDtCannon = "cannonry"
-slot0.StgDtDemine = "removal"
-slot0.StgDtTorpedo = "torpedo"
-slot0.QuadStateNormal = 1
-slot0.QuadStateFrozen = 2
-slot0.QuadStateStrategy = 3
+slot0.QuadStateFrozen = 1
+slot0.QuadStateNormal = 2
+slot0.QuadStateBarrierSetting = 3
 slot0.QuadStateTeleportSub = 4
 slot0.QuadStateMissileStrike = 5
+slot0.QuadStateAirSuport = 6
+slot0.QuadStateExpel = 7
 slot0.PlaneName = "plane"
 slot0.LineCross = 2
 slot0.CellEaseOutAlpha = 0.01
@@ -136,16 +163,15 @@ slot0.CellNormalColor = Color.white
 slot0.CellTargetColor = Color.green
 slot0.ChildItem = "item"
 slot0.ChildAttachment = "attachment"
-
-function slot0.NeedSelectTarget(slot0)
-	return pg.strategy_data_template[slot0].arg[1] == uv0.StgDtAirStrike or slot1.arg[1] == uv0.StgDtCannon
-end
-
 slot0.TraitNone = 0
 slot0.TraitLurk = 1
 slot0.TraitVirgin = 2
 
 function slot0.NeedMarkAsLurk(slot0)
+	if slot0.flag ~= ChapterConst.CellFlagActive then
+		return false
+	end
+
 	if slot0.attachment == uv0.AttachBox then
 		slot1 = pg.box_data_template[slot0.attachmentId]
 
@@ -155,11 +181,13 @@ function slot0.NeedMarkAsLurk(slot0)
 			return nil
 		end
 
-		return slot0.flag == ChapterConst.CellFlagActive and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
-	else
-		slot1 = slot0.flag == ChapterConst.CellFlagActive and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
-
-		return slot1
+		return slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy
+	elseif uv0.IsBossCell(slot0) then
+		return true
+	elseif slot0.attachment == uv0.AttachAmbush then
+		return false
+	elseif uv0.IsEnemyAttach(slot0.attachment) then
+		return true
 	end
 end
 
@@ -395,7 +423,9 @@ end
 slot0.AmmoRich = 4
 slot0.AmmoPoor = 0
 slot0.ExpeditionAILair = 6
+slot0.ExpeditionTypeMulBoss = 94
 slot0.ExpeditionTypeUnTouchable = 97
+slot0.ExpeditionTypeBoss = 99
 slot0.EnemySize = {
 	1,
 	2,
@@ -414,7 +444,8 @@ slot0.EnemySize = {
 	[98.0] = 100,
 	[97.0] = 100,
 	[95.0] = 98,
-	[99.0] = 99
+	[99.0] = 99,
+	[94.0] = 99
 }
 slot0.EnemyPreference = {
 	1,
@@ -434,7 +465,8 @@ slot0.EnemyPreference = {
 	[98.0] = 9,
 	[97.0] = 100,
 	[95.0] = 8,
-	[99.0] = 99
+	[99.0] = 99,
+	[94.0] = 99
 }
 slot0.ShamMoneyItem = 59900
 slot0.MarkHuntingRange = 1
@@ -480,6 +512,7 @@ slot0.TemplateOni = "tpl_oni"
 slot0.TemplateFleet = "tpl_ship"
 slot0.TemplateSub = "tpl_sub"
 slot0.TemplateTransport = "tpl_transport"
+slot0.AirDominanceStrategyBuffType = 1001
 slot0.AirDominance = {
 	[0] = {
 		name = pg.gametip.no_airspace_competition.tip,

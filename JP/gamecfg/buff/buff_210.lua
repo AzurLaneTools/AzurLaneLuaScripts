@@ -4,7 +4,7 @@ return {
 	time = 0,
 	color = "yellow",
 	picture = "",
-	desc = "舰队伤害降低50%",
+	desc = "",
 	stack = 1,
 	id = 210,
 	icon = 210,

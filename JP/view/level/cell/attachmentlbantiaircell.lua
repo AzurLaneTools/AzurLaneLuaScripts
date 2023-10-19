@@ -37,7 +37,7 @@ function slot0.Update(slot0)
 		end)
 	end
 
-	if slot0.antiAirGun and slot1.flag ~= 1 then
+	if slot0.antiAirGun and slot1.flag ~= ChapterConst.CellFlagDisabled then
 		slot3 = pg.land_based_template[slot1.attachmentId]
 
 		assert(slot3, "land_based_template not exist: " .. slot1.attachmentId)
@@ -49,7 +49,7 @@ function slot0.Update(slot0)
 		tf(slot0.antiAirGun):Find("Slider"):GetComponent(typeof(Slider)).value = math.max(slot5 - slot2 + slot4, 0) / slot4
 	end
 
-	setActive(slot0.tf, slot1.flag ~= 1)
+	setActive(slot0.tf, slot1.flag ~= ChapterConst.CellFlagDisabled)
 end
 
 return slot0
