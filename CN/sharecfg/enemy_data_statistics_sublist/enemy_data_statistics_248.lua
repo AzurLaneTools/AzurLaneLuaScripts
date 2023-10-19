@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.enemy_data_statistics_248 = {
+	[14603203] = {
+		cannon = 122,
+		hit_growth = 210,
+		bubble_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		rarity = 3,
+		dodge = 11,
+		luck = 18,
+		id = 14603203,
+		cannon_growth = 1700,
+		reload_growth = 0,
+		dodge_growth = 156,
+		reload = 150,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		base = 90467,
+		durability = 13670,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		luck_growth = 0,
+		antiaircraft_growth = 3200,
+		armor = 0,
+		speed = 20,
+		torpedo = 105,
+		antisub = 0,
+		durability_growth = 249600,
+		antiaircraft = 205,
+		battle_unit_type = 90,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1003137,
+			1003142,
+			1003147,
+			1003152,
+			1003197,
+			1003212,
+			1003252
+		},
+		buff_list = {}
+	},
 	[14603204] = {
 		cannon = 135,
 		hit_growth = 210,
@@ -1168,64 +1225,5 @@ pg.enemy_data_statistics_248 = {
 			1003155
 		},
 		buff_list = {}
-	},
-	[14604104] = {
-		cannon = 120,
-		hit_growth = 350,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		rarity = 3,
-		dodge = 17,
-		luck = 0,
-		id = 14604104,
-		cannon_growth = 3600,
-		reload_growth = 0,
-		dodge_growth = 170,
-		reload = 150,
-		star = 4,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90468,
-		durability = 9010,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 4680,
-		armor = 0,
-		speed = 14,
-		torpedo = 0,
-		antisub = 0,
-		durability_growth = 68000,
-		antiaircraft = 212,
-		battle_unit_type = 65,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1003160,
-			1003165,
-			1003170,
-			1003175
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 5
-			}
-		}
 	}
 }

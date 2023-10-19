@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_51 = {
+	[9022] = {
+		cannon = 260,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 1700,
+		rarity = 4,
+		air = 0,
+		torpedo = 320,
+		dodge = 7,
+		durability_growth = 53000,
+		antiaircraft = 145,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 102,
+		hit_growth = 210,
+		star = 5,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 60,
+		base = 90207,
+		durability = 6600,
+		armor_growth = 0,
+		torpedo_growth = 3200,
+		luck_growth = 0,
+		speed = 18,
+		armor = 0,
+		id = 9022,
+		antiaircraft_growth = 3200,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			318060,
+			318061,
+			318062
+		}
+	},
 	[9023] = {
 		cannon = 210,
 		battle_unit_type = 60,
@@ -970,87 +1007,6 @@ pg.enemy_data_statistics_51 = {
 			318026,
 			319079,
 			319084
-		}
-	},
-	[905400] = {
-		cannon = 535,
-		antiaircraft_growth = 0,
-		rarity = 4,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		antisub = 0,
-		reload = 150,
-		antiaircraft = 713,
-		battle_unit_type = 95,
-		dodge_growth = 0,
-		icon = "xinyue_jp",
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90176,
-		durability = 44944,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 32,
-		armor = 0,
-		id = 905400,
-		prefab = "xinyue_jp",
-		cannon_growth = 0,
-		pilot_ai_template_id = 30002,
-		fog_fx = "",
-		dodge = 120,
-		reload_growth = 0,
-		hit = 50,
-		torpedo = 682,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					0.88,
-					0.93,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.22,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.88,
-					0.93,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			319081,
-			319082
 		}
 	}
 }

@@ -2091,25 +2091,21 @@ function slot0.OnAirExpelSelect(slot0, slot1)
 	slot0.airSupportTarget = slot0.airSupportTarget or {}
 	slot4 = slot0.airSupportTarget
 
-	if slot0.contextData.chapterVO:GetEnemy(slot1.row, slot1.column) and ChapterConst.IsBossCell(slot5) then
-		if not slot4.source then
+	if slot0.contextData.chapterVO:GetEnemy(slot1.row, slot1.column) then
+		if ChapterConst.IsBossCell(slot5) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelscene_airexpel_select_boss"))
 
 			return
-		end
-
-		slot5 = nil
-	end
-
-	if slot5 then
-		if slot4.source and table.equal(slot4.source:GetLine(), slot5:GetLine()) then
-			slot5 = nil
 		end
 
 		if slot2:existFleet(FleetType.Normal, slot1.row, slot1.column) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelscene_airexpel_select_battle"))
 
 			return
+		end
+
+		if slot4.source and table.equal(slot4.source:GetLine(), slot5:GetLine()) then
+			slot5 = nil
 		end
 
 		slot4.source = slot5

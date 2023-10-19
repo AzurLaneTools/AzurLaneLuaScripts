@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_336 = {
+	[16500201] = {
+		cannon = 20,
+		name = "霞飞统御武装-「漫游」",
+		type = 1,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 19,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 270,
+		antiaircraft_growth = 2800,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 1200,
+		base = 90648,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		antiaircraft = 65,
+		hit_growth = 210,
+		armor = 0,
+		durability = 950,
+		torpedo = 80,
+		id = 16500201,
+		durability_growth = 96000,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1101070,
+			1101075,
+			1101080,
+			1101085
+		}
+	},
 	[16500202] = {
 		cannon = 30,
 		name = "霞飞统御武装-「铁卫」",
@@ -977,55 +1024,6 @@ pg.enemy_data_statistics_336 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		torpedo = 24,
-		base = 90250,
-		durability = 1820,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 133600,
-		antiaircraft = 95,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000741,
-			1000746,
-			1000751,
-			1000756,
-			1000761,
-			1000766,
-			1000771
-		},
-		buff_list = {}
-	},
-	[16501203] = {
-		cannon = 34,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 12,
-		id = 16501203,
-		cannon_growth = 1700,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 170,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 27,
 		base = 90250,
 		durability = 1820,
 		armor_growth = 0,

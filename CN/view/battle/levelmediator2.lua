@@ -950,6 +950,7 @@ function slot0.handleNotification(slot0, slot1)
 							uv1.viewComponent.levelStageView:popStageStrategy()
 						end
 
+						uv1.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 						uv1.viewComponent.levelStageView:updateAmbushRate(uv0.fleet.line, true)
 						uv1.viewComponent.levelStageView:updateStageStrategy()
 						uv1.viewComponent.levelStageView:updateFleetBuff()

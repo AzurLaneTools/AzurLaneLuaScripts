@@ -1116,8 +1116,18 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 	slot2 = slot0.buff_list and Clone(slot0.buff_list) or {}
 
 	_.each(slot0:getFleetStates(slot1), function (slot0)
-		if pg.strategy_data_template[slot0].buff_id ~= 0 then
-			table.insert(uv0, slot1)
+		slot1 = pg.strategy_data_template[slot0].buff_id
+
+		if slot0 == ChapterConst.StrategyIntelligenceRecorded then
+			slot2 = uv0:GetLine()
+
+			if uv1:GetEnemy(slot2.row, slot2.column) and not ChapterConst.IsBossCell(slot3) then
+				return
+			end
+		end
+
+		if slot1 ~= 0 then
+			table.insert(uv2, slot1)
 		end
 	end)
 	table.insertto(slot2, slot0:GetCellEventByKey("attach_buff", slot1.line.row, slot1.line.column) or {})
