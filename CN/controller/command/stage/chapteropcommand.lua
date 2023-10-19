@@ -42,7 +42,9 @@ function slot0.execute(slot0, slot1)
 		group_id = defaultValue(slot2.id, 0),
 		act_arg_1 = slot2.arg1,
 		act_arg_2 = slot2.arg2,
-		act_arg_3 = slot2.arg3
+		act_arg_3 = slot2.arg3,
+		act_arg_4 = slot2.arg4,
+		act_arg_5 = slot2.arg5
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
 			slot2 = getProxy(ChapterProxy):getActiveChapter()
@@ -63,6 +65,9 @@ function slot0.execute(slot0, slot1)
 					uv0:doMove()
 					uv0:doTeleportByPortal()
 					getProxy(ChapterProxy):SetExtendChapterData(slot2.id, "FleetMoveDistance", #slot0.move_path)
+				elseif uv1.type == ChapterConst.OpBox then
+					uv0:AddBoxAction()
+					uv0:doCollectAI()
 				else
 					uv0:doMapUpdate()
 					uv0:doAIUpdate()
@@ -99,9 +104,6 @@ function slot0.execute(slot0, slot1)
 						end
 
 						uv0:doRetreat()
-					elseif uv1.type == ChapterConst.OpBox then
-						uv0:doCollectAI()
-						uv0:doOpenBox()
 					elseif uv1.type == ChapterConst.OpStory then
 						uv0:doCollectAI()
 						uv0:doPlayStory()
@@ -151,7 +153,7 @@ function slot0.execute(slot0, slot1)
 					items = slot4,
 					exittype = uv1.exittype or 0,
 					aiActs = uv0.aiActs,
-					extraFlag = uv0.extraFlag or 0,
+					extraFlag = uv0.extraFlag,
 					oldLine = uv1.ordLine,
 					win = uv1.win,
 					teleportPaths = uv0.teleportPaths,

@@ -1,7 +1,6 @@
 pg = pg or {}
-slot0 = pg
-slot0.ViewUtils = class("ViewUtils")
-slot1 = slot0.ViewUtils
+slot1 = class("ViewUtils")
+pg.ViewUtils = slot1
 
 function slot1.SetLayer(slot0, slot1)
 	if IsNil(go(slot0)) then

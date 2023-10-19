@@ -168,6 +168,7 @@ pg.memory_group = setmetatable({
 		259,
 		260,
 		261,
+		262,
 		501,
 		502,
 		503,
@@ -3964,6 +3965,24 @@ pg.base.memory_group = {
 			3043,
 			3044,
 			3045
+		}
+	},
+	[262] = {
+		id = 262,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5023,
+		title = "皇家财富的秘密船厂",
+		memories = {
+			3061,
+			3062,
+			3063,
+			3064,
+			3065,
+			3066,
+			3067,
+			3068
 		}
 	},
 	[501] = {

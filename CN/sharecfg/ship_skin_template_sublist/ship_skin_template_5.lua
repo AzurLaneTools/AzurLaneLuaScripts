@@ -1,6 +1,138 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201210] = {
+		ship_group = 20121,
+		name = "标枪",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "biaoqiang",
+		illustrator = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201210,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "J级驱逐舰—标枪，舷号F61",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.545,
+					0.537,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							0.32,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.354,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
 	[201211] = {
 		ship_group = 20121,
 		name = "22娘",
@@ -11320,119 +11452,6 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.526,
 							2.455,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[202231] = {
-		ship_group = 20223,
-		name = "自习室的Cyclamen",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70196,
-		painting = "quejie_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 202231,
-		voice_actor_2 = -1,
-		prefab = "quejie_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
-		voice_actor = 188,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					0.71,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.24,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.42,
 							-0.568
 						}
 					}

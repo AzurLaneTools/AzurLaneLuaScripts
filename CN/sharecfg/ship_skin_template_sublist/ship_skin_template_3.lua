@@ -1,6 +1,112 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103102] = {
+		ship_group = 10310,
+		name = "悠哉进行曲",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70140,
+		painting = "wensensi_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 103102,
+		voice_actor_2 = -1,
+		prefab = "wensensi_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "出发上学喽，准时的文森斯是个好孩子~",
+		voice_actor = 144,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.63,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.65,
+					0.64,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.72,
+					0.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							2.11,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103110] = {
 		ship_group = 10311,
 		name = "威奇塔",
@@ -10943,103 +11049,6 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.51,
 							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107068] = {
-		ship_group = 10706,
-		name = "誓约的星光",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 8,
-		shop_id = 0,
-		painting = "qiye_h",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9998,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 107068,
-		voice_actor_2 = -1,
-		prefab = "qiye_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "怎、怎么样？会不会有些奇怪…不，我当然不讨厌，不如说，不论谁都憧憬过披上它的那天吧，只是……",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-1.22,
-					1.02,
-					0
-				}
-			},
-			plane = {
-				{
-					1,
-					1.92,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.35,
 							0
 						}
 					}

@@ -74149,6 +74149,202 @@ _G.pg.base.item_data_statistics[55056] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[55057] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55057,
+	display_icon = {
+		{
+			2,
+			11023,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10066,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55058] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55058,
+	display_icon = {
+		{
+			2,
+			13002,
+			1
+		},
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10065,
+			1
+		},
+		{
+			2,
+			10057,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55059] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55059,
+	display_icon = {
+		{
+			2,
+			11033,
+			1
+		},
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10024,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55060] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55060,
+	display_icon = {
+		{
+			2,
+			11024,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10063,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[55501] = {
 	display = "有几率获得以下设计图",
 	name = "未知设计图",
@@ -76611,6 +76807,182 @@ _G.pg.base.item_data_statistics[55556] = {
 		{
 			2,
 			10055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55557] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55557,
+	display_icon = {
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10066,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55558] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55558,
+	display_icon = {
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10065,
+			1
+		},
+		{
+			2,
+			10057,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55559] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55559,
+	display_icon = {
+		{
+			2,
+			10004,
+			1
+		},
+		{
+			2,
+			10024,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[55560] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 55560,
+	display_icon = {
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10063,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10003,
 			1
 		}
 	},
@@ -84688,6 +85060,607 @@ _G.pg.base.item_data_statistics[56056] = {
 		{
 			4,
 			206011,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[56057] = {
+	display = "当前关卡有几率获得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 56057,
+	display_icon = {
+		{
+			4,
+			107051,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			302051,
+			1
+		},
+		{
+			4,
+			101431,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[56058] = {
+	display = "当前关卡有几率获得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 56058,
+	display_icon = {
+		{
+			4,
+			307031,
+			1
+		},
+		{
+			4,
+			307041,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			305031,
+			1
+		},
+		{
+			4,
+			306011,
+			1
+		},
+		{
+			4,
+			306021,
+			1
+		},
+		{
+			4,
+			305021,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[56059] = {
+	display = "当前关卡有几率获得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 56059,
+	display_icon = {
+		{
+			4,
+			306031,
+			1
+		},
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			105081,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			101301,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[56060] = {
+	display = "当前关卡有几率获得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 56060,
+	display_icon = {
+		{
+			4,
+			102311,
+			1
+		},
+		{
+			4,
+			103051,
+			1
+		},
+		{
+			4,
+			107071,
+			1
+		},
+		{
+			4,
+			101171,
+			1
+		},
+		{
+			4,
+			201211,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			105031,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			301171,
+			1
+		},
+		{
+			4,
+			103031,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			102011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			107041,
 			1
 		},
 		{

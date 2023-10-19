@@ -700,8 +700,8 @@ pg.effect_offset = {
 		top_cover_offset = false,
 		offset = {
 			0,
-			-0.5,
-			0
+			-0.85,
+			0.8
 		}
 	},
 	shield03 = {

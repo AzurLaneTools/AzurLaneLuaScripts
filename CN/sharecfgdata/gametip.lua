@@ -394,6 +394,10 @@ _G.pg.base.gametip.word_shipState_sham = {
 	tip = "该角色正在「模拟战」作战哦~"
 }
 
+_G.pg.base.gametip.word_shipState_support = {
+	tip = "该角色在支援舰队中哦~"
+}
+
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "驱逐"
 }
@@ -4114,7 +4118,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2023.8.31-2023.11.23</color>期间限时开放「貎·META」的挑战，在此期间指挥官可挑战「貎·META」累计其同步值获取<color=#92fc63>「貎·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的挑战，在此期间指挥官可挑战「貎·META」累计其同步值获取<color=#92fc63>「貎·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4143,7 +4147,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标貎·META挑战的进行，从第31天开始，即2023.10.1~2023.11.23期间，舰队挑战「貎·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标貎·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标貎·META挑战的进行，从第31天开始，即2023.10.1~2023.12.7期间，舰队挑战「貎·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标貎·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标貎·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -17625,7 +17629,7 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2023.8.31-2023.11.23</color>期间限时开放「貎·META」的「资讯同步」，通过「信标貎·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「貎·META」角色</color>
+·<color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的「资讯同步」，通过「信标貎·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「貎·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
 ·注意：<color=#ff5c5c>「貎·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
@@ -25327,4 +25331,104 @@ _G.pg.base.gametip.racing_minigame_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine = {
+	tip = "确认部署"
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+	tip = "取消部署"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_cancel = {
+	tip = "取消驱逐"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+	tip = "只能选择敌方舰队作为目标"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_outrange = {
+	tip = "目标点不在驱离范围内"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_boss = {
+	tip = "无法选择敌方旗舰作为目标"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+	tip = "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>左</color>驱离一格，是否确认"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
+	tip = "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>右</color>驱离一格，是否确认"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+	tip = "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>上</color>驱离一格，是否确认"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+	tip = "发布指令：将<color=#92fc63>$1</color>向<color=#92fc63>下</color>驱离一格，是否确认"
+}
+
+_G.pg.base.gametip.shipyard_phase_1 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_phase_2 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_button_1 = {
+	tip = "敬请期待"
+}
+
+_G.pg.base.gametip.shipyard_button_2 = {
+	tip = "完成「秘密船厂」的全部建造任务后解锁 "
+}
+
+_G.pg.base.gametip.shipyard_introduce = {
+	tip = "10月25日为止，每天零点解锁2个任务\n完成七日活动任务，可获得限定装备<color=#ff9892>「飓风旗」 </color>"
+}
+
+_G.pg.base.gametip.help_supportfleet = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.word_status_inSupportFleet = {
+	tip = "支援舰队中"
+}
+
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "您当前选择的舰船已经在<color=#92fc63>支援舰队</color>中, 是否进行切换？"
 }

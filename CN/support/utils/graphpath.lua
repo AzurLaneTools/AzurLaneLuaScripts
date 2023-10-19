@@ -1,5 +1,5 @@
-GraphPath = class("GraphPath")
-slot0 = GraphPath
+slot0 = class("GraphPath")
+GraphPath = slot0
 
 function slot0.Ctor(slot0, slot1)
 	slot0.points = {}

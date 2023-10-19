@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[305115] = {
+		ship_group = 30511,
+		name = "湛蓝回眸",
+		hand_id = 2,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 70842,
+		painting = "sanli_6",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "129",
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 305115,
+		voice_actor_2 = -1,
+		prefab = "sanli_6",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "前面突然说要一起去旅行的时候，还以为有什么正事呢——罢了，托你的福，不仅能游山玩水，还能穿上如此美丽的衣服。指挥官，尽情享受吧！哈哈哈！",
+		voice_actor = 47,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.258,
+					1.387,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.443,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305118] = {
 		ship_group = 30511,
 		name = "无垢舰裳",
@@ -10596,150 +10709,6 @@ pg.base.ship_skin_template_11 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[331051] = {
-		ship_group = 30105,
-		name = "黯然礼装",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 11,
-		shop_id = 70420,
-		painting = "lingbo_10",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		bg = "135",
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 331051,
-		voice_actor_2 = -1,
-		prefab = "lingbo_10",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官，谢谢你能来参加宴会。{namecode:6}在这里等了很久了。……有点可怕？{namecode:6}不大明白…的说。",
-		voice_actor = 32,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			-70,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.279,
-					1.071,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.274,
-					1.175,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.304,
-					1.139,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.53,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_para_range = {
-			ParamAngleY = {
-				0,
-				0
-			},
-			ParamEyeBallX = {
-				-0.2,
-				0.2
-			},
-			ParamEyeBallY = {
-				-10,
-				10
-			},
-			ParamBodyAngleY = {
-				0,
-				0
 			}
 		}
 	}

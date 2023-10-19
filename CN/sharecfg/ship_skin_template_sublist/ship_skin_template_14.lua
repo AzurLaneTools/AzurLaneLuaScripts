@@ -1,6 +1,117 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[502018] = {
+		ship_group = 50201,
+		name = "凤冠霞帔",
+		hand_id = 9,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 8,
+		shop_id = 0,
+		painting = "yixian_h",
+		illustrator = 21,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9998,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		id = 502018,
+		voice_actor_2 = 197,
+		prefab = "yixian_h",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼…让您久等了，指挥官。逸仙不才，烦请指挥官多多包涵了——",
+		voice_actor = 74,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.064,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.097,
+					0.961,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.946,
+							4.368,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502019] = {
 		ship_group = 50201,
 		name = "逸仙.改",
@@ -11287,137 +11398,6 @@ pg.base.ship_skin_template_14 = {
 					}
 				}
 			}
-		}
-	},
-	[701021] = {
-		ship_group = 70102,
-		name = "囚牢里的危险兔",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70323,
-		painting = "weiyan_2",
-		illustrator = 1,
-		shop_type_id = 12,
-		lip_smoothing = 0,
-		bg = "130",
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 701021,
-		voice_actor_2 = -1,
-		prefab = "weiyan_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官同志，来看威严的房间吗？…嗯？这个Шутки不好笑吗？那…指挥官同志，威严的房间去看你了吗？",
-		voice_actor = 221,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			-53.3,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.26,
-					0.675,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.216,
-					0.637,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.21,
-					0.651,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.554,
-							2.1,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 9.83,
-			home = 5.73,
-			main_1 = 1.7
 		}
 	}
 }

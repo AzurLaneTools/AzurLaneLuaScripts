@@ -155,6 +155,7 @@ end
 
 function slot7.InitAirStrikeIcon(slot0)
 	slot0._airStrikeView = uv0.Battle.BattleAirStrikeIconView.New(slot0._ui:findTF("AirFighterContainer/AirStrikeIcon"))
+	slot0._airSupportTF = slot0._ui:findTF("AirSupportLabel")
 end
 
 function slot7.InitCommonWarning(slot0)
@@ -246,6 +247,7 @@ function slot7.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIT_ENEMY, slot0.onEnemyHit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AIR_FIGHTER_ICON, slot0.onAddAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER_ICON, slot0.onRemoveAirStrike)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_AIR_SUPPORT_LABEL, slot0.onUpdateAirSupportLabel)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
@@ -264,6 +266,9 @@ function slot7.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIT_ENEMY)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_AIR_FIGHTER_ICON)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER_ICON)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_AIR_SUPPORT_LABEL)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.SHOW_PAINTING)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.CAMERA_FOCUS)
 	slot0._cameraUtil:UnregisterEventListener(slot0, uv0.BULLET_TIME)
@@ -420,6 +425,30 @@ function slot7.onCommonInit(slot0, slot1)
 	slot2, slot3, slot4, slot5 = slot0._dataProxy:GetTotalBounds()
 
 	slot0._sightView:SetAreaBound(slot4, slot5)
+
+	slot6, slot7 = nil
+
+	if slot0._dataProxy:GetInitData().ChapterBuffIDs then
+		for slot11, slot12 in ipairs(slot0._dataProxy:GetInitData().ChapterBuffIDs) do
+			if slot12 == 9727 then
+				slot6 = true
+
+				break
+			end
+		end
+	end
+
+	if #slot0._dataProxy:GetFleetByIFF(uv1.FRIENDLY_CODE):GetSupportUnitList() > 0 then
+		slot7 = true
+	end
+
+	if slot7 and not slot6 then
+		slot0._airAdavantageTF = slot0._airSupportTF:Find("player_advantage")
+	elseif slot6 and not slot7 then
+		slot0._airAdavantageTF = slot0._airSupportTF:Find("enemy_advantage")
+	elseif slot6 and slot7 then
+		slot0._airAdavantageTF = slot0._airSupportTF:Find("draw")
+	end
 end
 
 function slot7.onAddFleet(slot0, slot1)
@@ -506,8 +535,25 @@ function slot7.onRemoveAirStrike(slot0, slot1)
 	slot0._airStrikeView:RemoveIcon(slot2, slot0._dataProxy:GetAirFighterInfo(slot2))
 end
 
+function slot7.onUpdateAirSupportLabel(slot0, slot1)
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot0._dataProxy:GetAirFighterList()) do
+		slot3 = slot3 + slot8.totalNumber
+	end
+
+	if slot3 == 0 or slot0._warningView:GetCount() > 0 then
+		eachChild(slot0._airSupportTF, function (slot0)
+			setActive(slot0, false)
+		end)
+	elseif slot0._airAdavantageTF then
+		setActive(slot0._airAdavantageTF, true)
+	end
+end
+
 function slot7.onUpdateHostileSubmarine(slot0, slot1)
 	slot0._warningView:UpdateHostileSubmarineCount(slot0._dataProxy:GetEnemySubmarineCount())
+	slot0:onUpdateAirSupportLabel()
 end
 
 function slot7.onUpdateEnvironmentWarning(slot0, slot1)

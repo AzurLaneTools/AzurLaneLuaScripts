@@ -42,6 +42,19 @@ slot2 = {
 
 		return _.flatten(_.values(slot0)), slot0
 	end,
+	inSupport = function ()
+		slot0 = {}
+
+		if getProxy(ChapterProxy).mapSupportFleetCache then
+			for slot5, slot6 in pairs(slot1.mapSupportFleetCache) do
+				assert(uv0.expedition_data_by_map[slot5], "Missing Map Config " .. (slot5 or "NIL"))
+
+				slot0[slot5] = _.flatten(slot6)
+			end
+		end
+
+		return _.flatten(_.values(slot0)), slot0
+	end,
 	inActivity = function ()
 		slot0 = {}
 
@@ -131,6 +144,10 @@ function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
 				return slot0 == uv0
 			end)
 		elseif slot2 == "inActivity" then
+			return _.any(slot0.extraInfo[slot2][slot3] or {}, function (slot0)
+				return slot0 == uv0
+			end)
+		elseif slot2 == "inSupport" then
 			return _.any(slot0.extraInfo[slot2][slot3] or {}, function (slot0)
 				return slot0 == uv0
 			end)

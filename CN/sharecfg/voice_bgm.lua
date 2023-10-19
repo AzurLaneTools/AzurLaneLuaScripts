@@ -106,7 +106,7 @@ pg.voice_bgm = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "Login-orchestral-ver"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",

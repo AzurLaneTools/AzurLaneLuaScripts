@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202231] = {
+		ship_group = 20223,
+		name = "自习室的Cyclamen",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70196,
+		painting = "quejie_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 202231,
+		voice_actor_2 = -1,
+		prefab = "quejie_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
+		voice_actor = 188,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					0.71,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.87,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.42,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[202232] = {
 		ship_group = 20223,
 		name = "白玉佳人",
@@ -11270,119 +11383,6 @@ pg.base.ship_skin_template_6 = {
 			antiaircraft = {
 				{
 					1.23,
-					1.288,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.415,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[205111] = {
-		ship_group = 20511,
-		name = "进击的冒失女仆",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70697,
-		painting = "fuchou_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 17,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "150",
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 205111,
-		voice_actor_2 = -1,
-		prefab = "fuchou_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "又、又搞砸了呢…还好指挥官没看到……哇哇！？指挥官？您什么时候来的？我没事！请您稍等，我马上把这里整理好…——呀…！",
-		voice_actor = 318,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					1.205,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.2,
-					1.255,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.26,
 					1.288,
 					0
 				}

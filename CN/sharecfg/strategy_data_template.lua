@@ -20,6 +20,12 @@ pg.strategy_data_template = setmetatable({
 		91,
 		92,
 		93,
+		94,
+		95,
+		96,
+		97,
+		1000,
+		1001,
 		8650,
 		8732,
 		8744,
@@ -399,7 +405,7 @@ pg.base.strategy_data_template = {
 	[92] = {
 		buff_id = 0,
 		name = "夜幕降临 ",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 92,
 		icon = "92",
@@ -409,12 +415,76 @@ pg.base.strategy_data_template = {
 	[93] = {
 		buff_id = 0,
 		name = "旭日初升 ",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 93,
 		icon = "93",
 		desc = "太阳升起，现在危险区域的怪物伏击效果消失了 ",
 		arg = {}
+	},
+	[94] = {
+		buff_id = 9727,
+		name = "空中支援（敌方） ",
+		type = 10,
+		iconSize = "",
+		id = 94,
+		icon = "94",
+		desc = "场上存在敌方航空支援舰队，舰队在战斗中将会遭到来自敌方的空中打击。",
+		arg = {}
+	},
+	[95] = {
+		buff_id = 0,
+		name = "空中支援（己方） ",
+		type = 10,
+		iconSize = "",
+		id = 95,
+		icon = "95",
+		desc = "场上存在我方航空支援舰队，舰队在战斗中将会获得来自我方的空中支援。",
+		arg = {}
+	},
+	[96] = {
+		buff_id = 262,
+		name = "战术分析",
+		type = 10,
+		iconSize = "",
+		id = 96,
+		icon = "",
+		desc = "（实际生效挂载buff用）敌方旗舰掌握了我方舰队的情报，该舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
+		arg = {}
+	},
+	[97] = {
+		buff_id = 0,
+		name = "战术分析",
+		type = 10,
+		iconSize = "",
+		id = 97,
+		icon = "96",
+		desc = "敌方旗舰掌握了我方舰队的情报，该舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
+		arg = {}
+	},
+	[1000] = {
+		buff_id = 0,
+		name = "空袭打击 ",
+		type = 7,
+		iconSize = "",
+		id = 1000,
+		icon = "1000",
+		desc = "进行一次空袭打击",
+		arg = {
+			support_missile
+		}
+	},
+	[1001] = {
+		buff_id = 0,
+		name = "战术驱离 ",
+		type = 7,
+		iconSize = "",
+		id = 1001,
+		icon = "1001",
+		desc = "呼叫舰载机将目标向周围空置海面驱离一格",
+		arg = {
+			expel
+		}
 	},
 	[8650] = {
 		buff_id = 8650,

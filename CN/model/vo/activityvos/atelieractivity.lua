@@ -1,4 +1,4 @@
-slot0 = class("AtelierActivity", import("model.vo.Activity"))
+slot0 = class("AtelierActivity", import(".VirtualBagActivity"))
 
 function slot0.Ctor(slot0, ...)
 	uv0.super.Ctor(slot0, ...)

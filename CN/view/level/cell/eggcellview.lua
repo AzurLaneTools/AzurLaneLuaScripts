@@ -57,9 +57,10 @@ function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
 	slot0:SetActive(slot7)
 
 	slot9 = slot2.trait == ChapterConst.TraitVirgin
+	slot10 = ChapterConst.IsBossCell(slot2)
 
-	setActive(slot0.tfEffectFound, slot9 and slot2.attachment ~= ChapterConst.AttachBoss)
-	setActive(slot0.tfEffectFoundBoss, slot9 and slot2.attachment == ChapterConst.AttachBoss)
+	setActive(slot0.tfEffectFound, slot9 and not slot10)
+	setActive(slot0.tfEffectFoundBoss, slot9 and slot10)
 
 	if slot9 then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)

@@ -8,6 +8,8 @@ slot3 = slot0.Battle.BattleAirFighterCharacter
 
 function slot3.Ctor(slot0)
 	uv0.super.Ctor(slot0)
+
+	slot0._scaleVector = Vector3(1, 1, 1)
 end
 
 function slot3.SetUnitData(slot0, slot1)
@@ -50,12 +52,18 @@ end
 function slot3.onStrikeStateChange(slot0)
 	if slot0._unitData:GetStrikeState() == uv0.STRIKE_STATE_FLY then
 		slot2 = (12 / (slot0._unitData:GetFormationIndex() + 3) + 1) * slot0._unitData:GetSize()
-		slot0._tf.localScale = Vector3(slot2, slot2, slot2)
+
+		slot0._scaleVector:Set(slot2, slot2, slot2)
+
+		slot0._tf.localScale = slot0._scaleVector
 
 		slot0._shadow:SetActive(false)
 	elseif slot1 == uv0.STRIKE_STATE_BACK then
 		slot2 = slot0._unitData:GetSize()
-		slot0._tf.localScale = Vector3(-slot2, slot2, slot2)
+
+		slot0._scaleVector:Set(-slot2, slot2, slot2)
+
+		slot0._tf.localScale = slot0._scaleVector
 
 		slot0._HPBar:SetActive(true)
 		slot0._shadow:SetActive(true)
@@ -67,5 +75,11 @@ function slot3.onStrikeStateChange(slot0)
 		-- Nothing
 	elseif slot1 == uv0.STRIKE_STATE_FREE then
 		-- Nothing
+	elseif slot1 == uv0.STRIKE_STATE_BACKWARD then
+		slot2 = slot0._unitData:GetSize()
+
+		slot0._scaleVector:Set(slot2, slot2, slot2)
+
+		slot0._tf.localScale = slot0._scaleVector
 	end
 end

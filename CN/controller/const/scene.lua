@@ -64,6 +64,7 @@ SCENE = {
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	WORLD_FLEET_SELECT = "world fleet select",
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
+	SECRET_SHIPYARD = "SECRET_SHIPYARD",
 	RESOLVEEQUIP = "scene resolve equip",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
@@ -712,6 +713,10 @@ slot0 = {
 	[SCENE.ZUMA_PT_SHOP] = function (slot0, slot1)
 		slot0.mediator = ZumaPTShopMediator
 		slot0.viewComponent = ZumaPTShopScene
+	end,
+	[SCENE.SECRET_SHIPYARD] = function (slot0, slot1)
+		slot0.mediator = SecretShipyardMediator
+		slot0.viewComponent = SecretShipyardScene
 	end
 }
 

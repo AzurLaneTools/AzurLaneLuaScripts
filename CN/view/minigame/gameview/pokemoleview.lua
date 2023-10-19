@@ -393,8 +393,6 @@ function slot23(slot0, slot1)
 			slot0._life = slot0._data.life
 			slot0._attakeAble = true
 		end,
-		move = function (slot0)
-		end,
 		stop = function (slot0)
 			slot0._animator:SetBool("stop", true)
 		end,

@@ -15,7 +15,8 @@ slot0.flagList = {
 	"isActivityNpc",
 	"inGuildEvent",
 	"inGuildBossEvent",
-	"inChallenge"
+	"inChallenge",
+	"inSupport"
 }
 
 function slot0.checkShipFlag(slot0, slot1, slot2)
@@ -60,6 +61,12 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			"shipstatus",
 			"red",
 			i18n("word_status_inHardFormation")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inSupport") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_inSupportFleet")
 		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inActivity") then
 		return {
@@ -135,8 +142,8 @@ end
 slot0.FILTER_SHIPS_FLAGS_1 = {
 	inExercise = false,
 	inChapter = true,
-	inClass = true,
 	inFleet = false,
+	inSupport = true,
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
@@ -144,34 +151,36 @@ slot0.FILTER_SHIPS_FLAGS_1 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
-	inChallenge = true,
+	inClass = true,
 	isActivityNpc = true,
+	inChallenge = true,
 	inWorld = true,
 	inAdmiral = true
 }
 slot0.FILTER_SHIPS_FLAGS_2 = {
+	inGuildBossEvent = true,
+	inChallenge = true,
+	inBackyard = true,
+	inSupport = true,
+	inClass = true,
+	inActivity = true,
+	inGuildEvent = true,
+	isActivityNpc = true,
+	inWorld = true,
+	inAdmiral = true,
 	inExercise = true,
 	inChapter = true,
-	inClass = true,
 	inFleet = true,
 	inPvP = true,
-	inActivity = true,
 	inTactics = true,
 	inElite = true,
-	inGuildEvent = true,
-	inEvent = true,
-	inBackyard = true,
-	inGuildBossEvent = true,
-	isActivityNpc = true,
-	inChallenge = true,
-	inWorld = true,
-	inAdmiral = true
+	inEvent = true
 }
 slot0.FILTER_SHIPS_FLAGS_3 = {
 	inExercise = false,
 	inChapter = true,
-	inClass = true,
 	inFleet = false,
+	inSupport = true,
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
@@ -179,28 +188,30 @@ slot0.FILTER_SHIPS_FLAGS_3 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
-	inChallenge = true,
+	inClass = true,
 	isActivityNpc = true,
+	inChallenge = true,
 	inWorld = true,
 	inAdmiral = false
 }
 slot0.FILTER_SHIPS_FLAGS_4 = {
-	inExercise = true,
+	inPvP = true,
 	inChallenge = true,
+	inBackyard = true,
+	inSupport = true,
+	inClass = true,
+	inActivity = true,
+	inGuildEvent = true,
+	isActivityNpc = true,
+	inWorld = true,
+	inAdmiral = true,
+	inExercise = true,
 	inChapter = true,
 	inFleet = true,
-	inPvP = true,
-	inActivity = true,
+	inGuildBossEvent = true,
 	inTactics = true,
 	inElite = true,
-	inGuildEvent = true,
-	inEvent = true,
-	inBackyard = true,
-	inClass = true,
-	isActivityNpc = true,
-	inGuildBossEvent = true,
-	inWorld = true,
-	inAdmiral = true
+	inEvent = true
 }
 slot0.TAG_HIDE_ALL = {
 	inExercise = true,
@@ -222,13 +233,14 @@ slot0.TAG_HIDE_BASE = {
 	inExercise = true,
 	inChallenge = false,
 	inChapter = false,
-	inFleet = false,
+	inSupport = false,
 	inPvP = false,
 	inActivity = false,
 	inTactics = false,
 	inElite = true,
 	inClass = false,
 	inEvent = false,
+	inFleet = false,
 	inBackyard = false,
 	isActivityNpc = false,
 	inWorld = false,
@@ -280,6 +292,14 @@ slot0.TAG_HIDE_LEVEL = {
 	inBackyard = true,
 	inChallenge = true,
 	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inAdmiral = true
+}
+slot0.TAG_HIDE_SUPPORT = {
+	inBackyard = true,
+	inChallenge = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
@@ -369,7 +389,12 @@ slot0.STATE_CHANGE_CHECK = 1
 slot0.STATE_CHANGE_TIP = 2
 slot1 = {
 	inFleet = {
-		inEvent = 0
+		inEvent = 0,
+		inSupport = 1
+	},
+	inSupport = {
+		inEvent = 0,
+		inFleet = 0
 	},
 	inElite = {
 		inEvent = 0,
@@ -386,8 +411,9 @@ slot1 = {
 	inEvent = {
 		inEvent = 0,
 		inChapter = 0,
-		isActivityNpc = 0,
+		inSupport = 0,
 		inFleet = 1,
+		isActivityNpc = 0,
 		inPvP = 1
 	},
 	inClass = {
@@ -415,17 +441,18 @@ slot1 = {
 	onDestroy = {
 		inExercise = 1,
 		inChallenge = 0,
-		inClass = 0,
+		inSupport = 0,
 		inFleet = 1,
-		inPvP = 1,
+		inClass = 0,
 		inActivity = 0,
 		inTactics = 1,
 		inBackyard = 1,
 		inGuildEvent = 0,
 		inEvent = 0,
 		inChapter = 0,
-		inGuildBossEvent = 1,
+		inPvP = 1,
 		isActivityNpc = 0,
+		inGuildBossEvent = 1,
 		inWorld = 0,
 		inAdmiral = 0
 	},
@@ -488,6 +515,9 @@ slot2 = {
 	},
 	inWorld = {
 		tips_block = "word_shipState_world"
+	},
+	inSupport = {
+		tips_block = "word_shipState_support"
 	}
 }
 

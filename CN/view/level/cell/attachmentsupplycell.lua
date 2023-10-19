@@ -28,7 +28,7 @@ function slot0.Update(slot0)
 		setActive(findTF(slot0.supply, "empty"), false)
 	end
 
-	setActive(slot0.tf, slot1.flag == 0)
+	setActive(slot0.tf, slot1.flag == ChapterConst.CellFlagActive)
 end
 
 function slot0.RemoveTween(slot0)

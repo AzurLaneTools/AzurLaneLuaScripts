@@ -10,6 +10,7 @@ function slot0.initData(slot0, slot1, slot2, slot3)
 	slot0.items = {}
 	slot0.fullpath = nil
 	slot0.flag = 0
+	slot0.extraFlag = 0
 end
 
 function slot0.doDropUpdate(slot0)
@@ -18,7 +19,7 @@ end
 
 function slot0.doMapUpdate(slot0)
 	slot2 = slot0.flag
-	slot3 = slot0.extraFlag or 0
+	slot3 = slot0.extraFlag
 	slot4 = slot0.chapter
 
 	if #slot0.data.map_update > 0 then
@@ -72,7 +73,7 @@ end
 
 function slot0.doAIUpdate(slot0)
 	slot2 = slot0.flag
-	slot3 = slot0.extraFlag or 0
+	slot3 = slot0.extraFlag
 	slot4 = slot0.chapter
 
 	if #slot0.data.ai_list > 0 then
@@ -148,7 +149,7 @@ function slot0.doRetreat(slot0)
 end
 
 function slot0.doMove(slot0)
-	slot1 = slot0.extraFlag or 0
+	slot1 = slot0.extraFlag
 	slot3 = slot0.chapter
 	slot4 = nil
 
@@ -176,9 +177,6 @@ function slot0.doOpenBox(slot0)
 	slot5 = slot3.fleet.line
 	slot6 = slot3:getChapterCell(slot5.row, slot5.column)
 	slot6.flag = ChapterConst.CellFlagDisabled
-
-	slot3:updateChapterCell(slot6)
-
 	slot2 = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
 	slot7 = pg.box_data_template[slot6.attachmentId]
 
@@ -204,7 +202,10 @@ function slot0.doOpenBox(slot0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot7.effect_id))
 	end
 
+	slot3:clearChapterCell(slot5.row, slot5.column)
+
 	slot0.flag = slot2
+	slot0.extraFlag = bit.bor(slot0.extraFlag, ChapterConst.DirtyAutoAction)
 end
 
 function slot0.doPlayStory(slot0)
@@ -234,31 +235,33 @@ end
 
 function slot0.doStrategy(slot0)
 	slot1 = slot0.flag
-	slot4 = slot0.chapter.fleet
+	slot3 = slot0.chapter
 
 	if pg.strategy_data_template[slot0.op.arg1].type == ChapterConst.StgTypeForm then
-		for slot9, slot10 in ipairs(slot4.stgIds) do
+		for slot9, slot10 in ipairs(slot3.fleet.stgIds) do
 			if pg.strategy_data_template[slot10].type == ChapterConst.StgTypeForm then
-				slot4.stgIds[slot9] = slot5.id
+				slot5.stgIds[slot9] = slot4.id
 			end
 		end
 
-		PlayerPrefs.SetInt("team_formation_" .. slot4.id, slot5.id)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
-	elseif slot5.type == ChapterConst.StgTypeConsume then
-		slot4:consumeOneStrategy(slot5.id)
+		PlayerPrefs.SetInt("team_formation_" .. slot5.id, slot4.id)
+		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_change", slot4.name))
+	elseif slot4.type == ChapterConst.StgTypeConsume then
+		slot3.fleet:consumeOneStrategy(slot4.id)
 
-		if slot5.id ~= ChapterConst.StrategyMissileStrike then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
+		if slot4.id == ChapterConst.StrategyRepair or slot4.id == ChapterConst.StrategyExchange then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot4.name))
 		end
-	end
 
-	if slot5.id == ChapterConst.StrategyExchange then
-		slot6 = slot3:getFleetById(slot2.id)
-		slot7 = slot3:getFleetById(slot2.arg2)
-		slot7.line = slot6.line
-		slot6.line = slot7.line
-		slot1 = bit.bor(slot1, ChapterConst.DirtyFleet)
+		if slot4.id == ChapterConst.StrategyExchange then
+			slot6 = slot3:getFleetById(slot2.id)
+			slot7 = slot3:getFleetById(slot2.arg2)
+			slot7.line = slot6.line
+			slot6.line = slot7.line
+			slot1 = bit.bor(slot1, ChapterConst.DirtyFleet)
+		end
+	elseif slot4.type == ChapterConst.StgTypeBindSupportConsume then
+		slot3:getChapterSupportFleet():consumeOneStrategy(slot4.id)
 	end
 
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyStrategy)
@@ -325,20 +328,33 @@ function slot0.doCollectAI(slot0)
 	end
 
 	_.each(slot1.ai_act_list, function (slot0)
-		if slot0.act_type == ChapterConst.ActType_TargetDown then
-			slot1 = ChapterMissileExplodeAction.New(slot0)
+		slot1 = nil
 
-			if uv0.op.type == ChapterConst.OpStrategy then
-				slot1:SetTargetLine({
-					row = uv0.op.arg2,
-					column = uv0.op.arg3
-				})
+		if slot0.act_type == ChapterConst.ActType_TargetDown then
+			if uv0.op.arg1 == ChapterConst.StrategyMissileStrike then
+				slot1 = ChapterMissileExplodeAction.New(slot0)
+			elseif uv0.op.arg1 == ChapterConst.StrategyAirSupport then
+				slot1 = ChapterAirSupportAIAction.New(slot0)
 			end
 
-			table.insert(uv0.aiActs, slot1)
+			assert(uv0.op.type == ChapterConst.OpStrategy and slot1)
+			slot1:SetTargetLine({
+				row = uv0.op.arg2,
+				column = uv0.op.arg3
+			})
+		elseif slot0.act_type == ChapterConst.ActType_Expel then
+			ChapterExpelAIAction.New(slot0):SetTargetLine({
+				row = uv0.op.arg2,
+				column = uv0.op.arg3
+			}, {
+				row = uv0.op.arg4,
+				column = uv0.op.arg5
+			})
 		else
-			table.insert(uv0.aiActs, ChapterAIAction.New(slot0))
+			slot1 = ChapterAIAction.New(slot0)
 		end
+
+		table.insert(uv0.aiActs, slot1)
 	end)
 	_.each(slot1.fleet_act_list, function (slot0)
 		table.insert(uv0.aiActs, FleetAIAction.New(slot0))
@@ -363,7 +379,7 @@ function slot0.doBarrier(slot0)
 		slot4.flag = ChapterConst.CellFlagDisabled
 	end
 
-	slot3.modelCount = slot3.modelCount + (slot4.flag == 1 and -1 or 1)
+	slot3.modelCount = slot3.modelCount + (slot4.flag == ChapterConst.CellFlagDisabled and -1 or 1)
 	slot4.flag = 1 - slot4.flag
 
 	slot3:updateChapterCell(slot4)
@@ -405,7 +421,7 @@ end
 
 function slot0.doEnemyRound(slot0)
 	slot1 = slot0.chapter
-	slot2 = slot0.extraFlag or 0
+	slot2 = slot0.extraFlag
 
 	slot1:IncreaseRound()
 
@@ -455,7 +471,28 @@ end
 function slot0.doCollectCommonAction(slot0)
 	slot0.aiActs = slot0.aiActs or {}
 
-	table.insert(slot0.aiActs, ChapterCommonAction.New(slot0.op, slot0.data))
+	table.insert(slot0.aiActs, ChapterCommonAction.New(slot0))
+end
+
+function slot0.AddBoxAction(slot0)
+	slot1 = slot0.chapter
+	slot3 = slot1.fleet.line
+	slot4 = slot1:getChapterCell(slot3.row, slot3.column)
+	slot5 = pg.box_data_template[slot4.attachmentId]
+
+	assert(slot5, "box_data_template not exist: " .. slot4.attachmentId)
+
+	if slot5.type == ChapterConst.BoxStrategy then
+		table.insert(slot0.items, Item.New({
+			type = DROP_TYPE_STRATEGY,
+			id = slot5.effect_id,
+			count = slot5.effect_arg
+		}))
+	end
+
+	slot0.aiActs = slot0.aiActs or {}
+
+	table.insert(slot0.aiActs, ChapterBoxAction.New(slot0))
 end
 
 return slot0

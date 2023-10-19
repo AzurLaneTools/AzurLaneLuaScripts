@@ -100,7 +100,7 @@ end
 
 function slot0.AddDrag(slot0)
 	slot1 = 0
-	slot2 = 0
+	slot2 = nil
 	slot3 = slot0.dragEvent
 
 	slot3:AddBeginDragFunc(function (slot0, slot1)
