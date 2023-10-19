@@ -936,11 +936,10 @@ end
 
 function slot9.AddBuff(slot0, slot1, slot2)
 	slot3 = slot1:GetID()
-
-	slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, {
+	slot4 = {
 		unit_id = slot0._uniqueID,
 		buff_id = slot3
-	}))
+	}
 
 	if slot0:GetBuff(slot3) then
 		slot6 = slot5:GetLv()
@@ -962,6 +961,7 @@ function slot9.AddBuff(slot0, slot1, slot2)
 
 				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_STACK, slot4))
 			else
+				slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, slot4))
 				slot0:RemoveBuff(slot3)
 
 				slot0._buffList[slot3] = slot1
@@ -971,6 +971,8 @@ function slot9.AddBuff(slot0, slot1, slot2)
 			end
 		end
 	else
+		slot0:DispatchEvent(uv0.Event.New(uv1.BUFF_CAST, slot4))
+
 		slot0._buffList[slot3] = slot1
 
 		slot1:Attach(slot0)
@@ -1719,6 +1721,14 @@ function slot9.AttachAimBias(slot0, slot1)
 end
 
 function slot9.DetachAimBias(slot0)
+	slot0:DispatchEvent(uv0.Event.New(uv1.REMOVE_AIMBIAS))
+	slot0._aimBias:RemoveCrew(slot0)
+
+	slot0._aimBias = nil
+end
+
+function slot9.ExitSmokeArea(slot0)
+	slot0._aimBias:SmokeExitPause()
 end
 
 function slot9.UpdateAimBiasSkillState(slot0)

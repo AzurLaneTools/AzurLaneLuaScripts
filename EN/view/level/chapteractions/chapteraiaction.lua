@@ -55,7 +55,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 				slot3()
 			end
 
-			slot2.viewComponent.grid:PlayAttachmentEffect(slot4.row, slot4.column, "huoqiubaozha", Vector2(0, 0))
+			slot2.viewComponent.grid:PlayAttachmentEffect(slot4.row, slot4.column, "huoqiubaozha", Vector2.zero)
 			slot3()
 		elseif slot5.type == ChapterConst.LBDock then
 			slot3()
@@ -64,7 +64,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 
 			slot6:doPlayAnim("AntiAirFire", function (slot0)
 				setActive(slot0, false)
-				uv0.viewComponent.grid:PlayChampionInsideEffect(uv1.stgTarget.row, uv1.stgTarget.column, "huoqiubaozha", uv2)
+				uv0.viewComponent.grid:PlayAttachmentEffect(uv1.stgTarget.row, uv1.stgTarget.column, "huoqiubaozha", Vector2.zero, uv2)
 			end)
 		else
 			assert(false)
@@ -213,7 +213,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 		end
 
 		if slot0.actType == ChapterConst.ActType_SubmarineHunting and slot1:getChapterCell(slot6.row, slot6.column) and slot7.attachment == ChapterConst.AttachBarrier then
-			slot7.flag = 1
+			slot7.flag = ChapterConst.CellFlagDisabled
 
 			slot1:mergeChapterCell(slot7)
 
@@ -271,7 +271,7 @@ function slot0.applyToStrategy(slot0, slot1, slot2, slot3)
 end
 
 function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead coastalgun at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 
@@ -308,7 +308,7 @@ function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
 end
 
 function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead Harbor at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 
@@ -345,7 +345,7 @@ function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
 end
 
 function slot0.applyToDock(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead Dock at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 
@@ -375,7 +375,7 @@ function slot0.applyToDock(slot0, slot1, slot2, slot3)
 end
 
 function slot0.applyToAntiAir(slot0, slot1, slot2, slot3)
-	if slot2.flag == 1 then
+	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead antiairGun at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
 

@@ -270,6 +270,17 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 
+			slot6 = {}
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(uv0:getSupportFleet()) do
+				slot7[#slot7 + 1] = slot12
+			end
+
+			slot6.map_id = slot1
+			slot6.main_id = slot7
+			slot6.commanders = {}
+			slot4[#slot4 + 1] = slot6
 			uv1.chapterId = uv2
 			uv1.fleetIds = uv3
 			uv1.fleetDatas = slot4

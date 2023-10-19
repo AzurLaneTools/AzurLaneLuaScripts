@@ -12901,6 +12901,16 @@ pg.painting_filte_map = {
 			"painting/xiusidun"
 		}
 	},
+	xiusidunii = {
+		key = "xiusidunii",
+		res_list = {
+			"painting/xiusidunii_tex",
+			"painting/xiusidunii_rw_tex",
+			"painting/xiusidunii_n_tex",
+			"painting/xiusidunii_n",
+			"painting/xiusidunii"
+		}
+	},
 	xixuegui = {
 		key = "xixuegui",
 		res_list = {
@@ -16270,6 +16280,7 @@ pg.painting_filte_map = {
 		"xipeierhaijunshangjiang",
 		"xipeierhaijunshangjiang_3",
 		"xiusidun",
+		"xiusidunii",
 		"xixuegui",
 		"xixuegui_2",
 		"xixuegui_3",

@@ -1,10 +1,9 @@
 slot0 = class("ChapterCommonAction")
 
-function slot0.Ctor(slot0, slot1, slot2)
-	slot0.op = slot1
-	slot0.data = slot2
-	slot0.flag = 0
-	slot0.extraFlag = 0
+function slot0.Ctor(slot0, slot1)
+	slot0.command = setmetatable({}, ChapterOpCommand)
+
+	slot0.command:initData(slot1.op, slot1.data, slot1.chapter)
 end
 
 function slot0.applyTo(slot0, slot1, slot2)
@@ -12,16 +11,16 @@ function slot0.applyTo(slot0, slot1, slot2)
 		return true
 	end
 
-	slot0.chapter = slot1
+	slot0.command.chapter = slot1
 
-	ChapterOpRoutine.doMapUpdate(slot0)
-	ChapterOpRoutine.doAIUpdate(slot0)
-	ChapterOpRoutine.doShipUpdate(slot0)
-	ChapterOpRoutine.doBuffUpdate(slot0)
-	ChapterOpRoutine.doCellFlagUpdate(slot0)
-	ChapterOpRoutine.doExtraFlagUpdate(slot0)
+	slot0.command:doMapUpdate()
+	slot0.command:doAIUpdate()
+	slot0.command:doShipUpdate()
+	slot0.command:doBuffUpdate()
+	slot0.command:doCellFlagUpdate()
+	slot0.command:doExtraFlagUpdate()
 
-	return true, slot0.flag, slot0.extraFlag
+	return true, slot0.command.flag, slot0.command.extraFlag
 end
 
 function slot0.PlayAIAction(slot0, slot1, slot2, slot3)

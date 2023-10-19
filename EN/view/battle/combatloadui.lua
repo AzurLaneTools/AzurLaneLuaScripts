@@ -51,12 +51,19 @@ function slot0.Preload(slot0)
 
 	if slot0.contextData.system == SYSTEM_DEBUG then
 		slot3 = {}
+		slot5 = getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId)
 
-		for slot10, slot11 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
+		assert(slot5)
+
+		for slot10, slot11 in ipairs(slot2:getShipsByFleet(slot5)) do
 			slot3[slot11.configId] = slot11
 		end
 
-		for slot12, slot13 in ipairs(slot4:getFleetById(11):getTeamByName(TeamType.Submarine)) do
+		slot7 = slot4:getFleetById(11)
+
+		assert(slot7)
+
+		for slot12, slot13 in ipairs(slot7:getTeamByName(TeamType.Submarine)) do
 			slot14 = slot2:getShipById(slot13)
 			slot3[slot14.configId] = slot14
 		end
@@ -216,6 +223,9 @@ function slot0.Preload(slot0)
 			end
 		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
 			slot6 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
+
+			assert(slot6)
+
 			slot8 = slot6:GetFleetIds()
 			slot9 = slot8[slot6:GetStaegLevel() + 1]
 			slot10 = slot8[#slot8]
@@ -352,7 +362,11 @@ function slot0.Preload(slot0)
 
 			uv0.addChapterBuffRes(table.mergeArray(slot15:GetBattleLuaBuffs(), slot6:GetBattleLuaBuffs(WorldMap.FactionEnemy, slot15)))
 		elseif slot0.contextData.mainFleetId then
-			for slot11, slot12 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
+			slot6 = getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId)
+
+			assert(slot6)
+
+			for slot11, slot12 in ipairs(slot2:getShipsByFleet(slot6)) do
 				table.insert(slot3, slot12)
 			end
 		end

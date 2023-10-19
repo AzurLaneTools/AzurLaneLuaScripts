@@ -29,9 +29,21 @@ function slot0.execute(slot0, slot1)
 		slot11[#slot11 + 1] = slot17
 	end
 
-	slot12 = pg.ConnectionMgr.GetInstance()
+	slot13 = slot7:getConfig("map")
+	slot14 = {}
+	slot15 = {}
 
-	slot12:Send(13107, {
+	for slot19, slot20 in ipairs(slot7:getSupportFleet()) do
+		slot15[#slot15 + 1] = slot20
+	end
+
+	slot14.map_id = slot13
+	slot14.main_id = slot15
+	slot14.commanders = {}
+	slot11[#slot11 + 1] = slot14
+	slot16 = pg.ConnectionMgr.GetInstance()
+
+	slot16:Send(13107, {
 		id = slot8,
 		elite_fleet_list = slot11
 	}, 13108, function (slot0)

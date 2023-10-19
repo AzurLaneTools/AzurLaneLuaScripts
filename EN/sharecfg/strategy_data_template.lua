@@ -20,6 +20,12 @@ pg.strategy_data_template = setmetatable({
 		91,
 		92,
 		93,
+		94,
+		95,
+		96,
+		97,
+		1000,
+		1001,
 		8650,
 		8732,
 		8744,
@@ -399,7 +405,7 @@ pg.base.strategy_data_template = {
 	[92] = {
 		buff_id = 0,
 		name = "Nightfall",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 92,
 		icon = "92",
@@ -409,12 +415,76 @@ pg.base.strategy_data_template = {
 	[93] = {
 		buff_id = 0,
 		name = "Daybreak",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 93,
 		icon = "93",
 		desc = "Enemies won't appear on Ambush tiles during daytime.",
 		arg = {}
+	},
+	[94] = {
+		buff_id = 9727,
+		name = "Enemy Air Support",
+		type = 10,
+		iconSize = "",
+		id = 94,
+		icon = "94",
+		desc = "The enemy is currently providing air support on this battlefield. Enemy airstrikes will appear during battle.",
+		arg = {}
+	},
+	[95] = {
+		buff_id = 0,
+		name = "Ally Air Support",
+		type = 10,
+		iconSize = "",
+		id = 95,
+		icon = "95",
+		desc = "Allies are ready to provide your fleet with air support. Allied airstrikes will appear during battle.",
+		arg = {}
+	},
+	[96] = {
+		buff_id = 262,
+		name = "Data Analyzed",
+		type = 10,
+		iconSize = "",
+		id = 96,
+		icon = "",
+		desc = "The enemy's flagship fleet has captured critical information about your fleet. During the next battle with the boss, your fleet will deal 30% less damage and take 30% more damage.",
+		arg = {}
+	},
+	[97] = {
+		buff_id = 0,
+		name = "Data Analyzed",
+		type = 10,
+		iconSize = "",
+		id = 97,
+		icon = "96",
+		desc = "The enemy's flagship fleet has captured critical information about your fleet. During the next battle with the boss, your fleet will deal 30% less damage and take 30% more damage.",
+		arg = {}
+	},
+	[1000] = {
+		buff_id = 0,
+		name = "Airstrike",
+		type = 7,
+		iconSize = "",
+		id = 1000,
+		icon = "1000",
+		desc = "Launches 1 airstrike against the enemy fleet.",
+		arg = {
+			support_missile
+		}
+	},
+	[1001] = {
+		buff_id = 0,
+		name = "Tactical Isolation",
+		type = 7,
+		iconSize = "",
+		id = 1001,
+		icon = "1001",
+		desc = "Move an enemy fleet to an empty tile next to it.",
+		arg = {
+			expel
+		}
 	},
 	[8650] = {
 		buff_id = 8650,

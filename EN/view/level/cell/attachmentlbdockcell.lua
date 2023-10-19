@@ -30,7 +30,7 @@ function slot0.Update(slot0)
 		slot0.dock:Find("Slider"):GetComponent(typeof(Slider)).value = math.max(slot3 - slot5 + slot7, 0) / slot7
 	end
 
-	setActive(slot0.tf, slot1.flag == 0)
+	setActive(slot0.tf, slot1.flag == ChapterConst.CellFlagActive)
 end
 
 return slot0

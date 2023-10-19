@@ -47,7 +47,6 @@ function slot0.Update(slot0)
 
 	if slot0.triggerUpper then
 		slot0.triggerUpper.info = slot0.info
-		slot0.triggerUpper.chapter = slot0.chapter
 
 		slot0.triggerUpper:Update()
 	end

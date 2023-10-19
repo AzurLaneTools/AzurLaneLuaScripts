@@ -329,6 +329,9 @@ function slot0.register(slot0)
 		elseif uv0 == SYSTEM_BOSS_RUSH or uv0 == SYSTEM_BOSS_RUSH_EX then
 			slot3 = ys.Battle.BattleConst.BattleScore.C < uv1.contextData.score
 			slot6 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId):GetSeriesData()
+
+			assert(slot6)
+
 			slot7 = slot6:GetStaegLevel() + 1
 			slot8 = slot6:GetExpeditionIds()
 			slot10 = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag

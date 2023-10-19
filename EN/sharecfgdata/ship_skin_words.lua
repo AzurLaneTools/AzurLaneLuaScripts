@@ -6895,6 +6895,49 @@ _G.pg.base.ship_skin_words[102293] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[102310] = {
+	feeling1 = "Am I misremembering? You used to be more, uh...",
+	feeling3 = "*whispering* N-no, Houston, you can't hang around the Commander all day every... Huh? N-nothing, Commander! So, how about we take a walk together?",
+	lose = "I lost... I'd better review my mistakes carefully...",
+	propose = "Th-that's weird... I wanted to answer normally, but now that it's really happening, I'm so happy that I don't know what to say... *inhale*... *exhale*... For realsies?! I love you, too, Commander!☆",
+	expedition = "Mister Rocket and Mister Plane are friends~... Commander, were you listening?! U-umm! The commission is done, so you'd better go check it out!",
+	win_mvp = "Thanks for the praise! Heheh...",
+	home = "Heheh! Another huge combat mission victory for Houston!",
+	mission = "Commander, you have unfinished missions. Let's take care of them together!",
+	touch2 = "You just never stop being a perv, huh?",
+	voice_key_2 = -1,
+	skill = "Three, two, one... Lift-off!",
+	drop_descrip = "Cleveland-class light cruiser – Houston II, Hull Number CL-81.",
+	mail = "Commander, you have a letter. Oh, do you want me to bring it to you?",
+	touch = "Commander? Something wrong?",
+	profile = "...You think I seem a lot more stable now? Heheh, thanks for the compliment! I think I come off that way because of how composed I've become.",
+	mission_complete = "I'll go check for any missed rewards just in case.",
+	feeling4 = "Why do I look troubled? Listen close! ...D-do you hear my heartbeat, Commander? It's thumping and pounding all because of you...",
+	unlock = "Commander, I return to you in a whole new style. ...I look like a different person altogether? Heehee, that's what they call growth, isn't it?",
+	feeling5 = "Commander, do you remember what I said to you long ago? It's okay if you don't. Either way, I'm going to confess again... *exhale*... L-listen carefully, please!",
+	main = "Yahoo? Kinda takes you back, huh... How long has it been since I last said that? If you wanna hear it again... Y-yahoo~☆|Which Houston is your type, Commander? The energetic, happy-go-lucky one? Or the cool and calm one? ...Both? Heheheh~|You can't master something overnight. Time and effort are key... Keep an eye on me while I do my best, okay, Commander?",
+	battle = "I'm in top form... Let's start today's work!",
+	upgrade = "I'm so strong now, I bet I could hit escape velocity with ease!",
+	voice_key = 10231,
+	headtouch = "That feels good... Pat me more, Commander...",
+	feeling2 = "It's been so long since we played, Commander~ And it's even more fun than I remember! Heheh!♪",
+	login = "Welcome back! Now, let's get to today's work... Huh? Where should we hang out after? But we haven't even started... Focus, Commander!",
+	vote = "",
+	hp_warning = "May our return to the port be a safe one...",
+	id = 102310,
+	detail = "Like they say, knowledge is power—and I'm just overflowing with power right now. Commander, I'm ready to exceed expectations any time!",
+	couple_encourage = {
+		{
+			{
+				10326
+			},
+			1,
+			" You've changed, too.",
+			0
+		}
+	}
+}
+
 _G.pg.base.ship_skin_words[103010] = {
 	feeling1 = "Hey, Commander, this isn't OK at all.",
 	feeling3 = "Are we going out? OK, I'll let you decide where we're going. I'm fine with going anywhere, so just pick whatever you want!",

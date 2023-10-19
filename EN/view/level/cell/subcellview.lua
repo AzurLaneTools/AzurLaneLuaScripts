@@ -17,6 +17,23 @@ function slot2.GetOrder(slot0)
 	return ChapterConst.CellPriorityFleet
 end
 
+function slot2.OverrideCanvas(slot0)
+	uv0.super.OverrideCanvas(slot0)
+
+	slot0.markCanvas = GetOrAddComponent(slot0.tf:Find("mark"), typeof(Canvas))
+	slot0.markCanvas.overrideSorting = true
+end
+
+function slot2.ResetCanvasOrder(slot0)
+	uv0.super.ResetCanvasOrder(slot0)
+
+	if not slot0.markCanvas then
+		return
+	end
+
+	pg.ViewUtils.SetSortingOrder(slot0.markCanvas, slot0.line.row * ChapterConst.PriorityPerRow + ChapterConst.CellPriorityTopMark)
+end
+
 function slot2.LoadEffectShuihua(slot0)
 	slot1 = "qianting_01"
 	slot2 = slot0.shuihuaLoader

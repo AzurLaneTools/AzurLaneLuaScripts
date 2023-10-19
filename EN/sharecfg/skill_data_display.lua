@@ -1535,6 +1535,9 @@ pg.skill_data_display = setmetatable({
 		17131,
 		17132,
 		17133,
+		17146,
+		17147,
+		17150,
 		18010,
 		18040,
 		18041,
@@ -8866,6 +8869,18 @@ pg.base.skill_data_display = {
 	[17133] = {
 		id = 17133,
 		name = "Secret Cheat Code Powers!"
+	},
+	[17146] = {
+		id = 17146,
+		name = "Space City Strike"
+	},
+	[17147] = {
+		id = 17147,
+		name = "Space City Strike"
+	},
+	[17150] = {
+		id = 17150,
+		name = "Fortitude in Chaos"
 	},
 	[18010] = {
 		id = 18010,

@@ -55,10 +55,10 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 
 		slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
 
-		if slot1:getChapterCell(slot2.line.row, slot2.line.column) and slot6.attachment == ChapterConst.AttachBox and slot6.flag ~= 1 and pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxTorpedo then
-			slot6.flag = 1
+		if slot1:getChapterCell(slot2.line.row, slot2.line.column) and slot6.attachment == ChapterConst.AttachBox and slot6.flag ~= ChapterConst.CellFlagDisabled and pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxTorpedo then
+			slot6.flag = ChapterConst.CellFlagDisabled
 
-			slot1:updateChapterCell(slot6)
+			slot1:clearChapterCell(slot6.row, slot6.column)
 
 			slot5 = bit.bor(slot5, ChapterConst.DirtyAttachment)
 		end
@@ -74,7 +74,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		else
 			slot5 = slot1.fleets[slot4]
 
-			if slot1:getChapterCell(slot5.line.row, slot5.line.column) and slot6.attachment == ChapterConst.AttachBox and slot6.flag ~= 1 and pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxTorpedo then
+			if slot1:getChapterCell(slot5.line.row, slot5.line.column) and slot6.attachment == ChapterConst.AttachBox and slot6.flag ~= ChapterConst.CellFlagDisabled and pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxTorpedo then
 				slot2.viewComponent:doPlayTorpedo(slot3)
 
 				return

@@ -225,7 +225,8 @@ pg.ship_skin_words_extra = setmetatable({
 		305130,
 		301890,
 		302060,
-		301900
+		301900,
+		102310
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15574,6 +15575,64 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"H-heheh! Do not underestimate my charms... Wait, you're stopping already?!"
+			}
+		}
+	},
+	[102310] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 102310,
+		login = {
+			{
+				1100,
+				"Yahoo!☆ Here's my warmest welcome, Commander~... Is it nostalgic for you? Heheh, well, you said you like me this way too, right?☆"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mmhah... Th-that feels nice, but... You really didn't need to take a whole day off just to pet me all day..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, am I doing a good job? Heheh, I know exactly what you're thinking these days!☆"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I get to hang out with the Commander! Yahoo... Hey, you just laughed! Gosh, you promised you wouldn't!|Are you cold? Then take my coat... Eww. I wanted you to WEAR it, not SNIFF it!|Ah, Commander... You wrote about all the days we've spent together? Heheh, let's look back on our memories together some time... I'm sure it'll be fun!♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Maybe I should call you the Kinky Commander from now on..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Now that I really think about it, I've loved you ever since we first met. But I didn't understand my feelings back then... I'm really glad I didn't miss my chance... Umm, so... Can't forget to do this. Ahem... Y-yahoo~☆"
 			}
 		}
 	}

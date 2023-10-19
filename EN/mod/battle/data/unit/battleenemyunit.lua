@@ -18,6 +18,14 @@ function slot8.Ctor(slot0, slot1, slot2)
 	slot0._level = slot0._battleProxy:GetDungeonLevel()
 end
 
+function slot8.Dispose(slot0)
+	if slot0._aimBias then
+		slot0._aimBias:Dispose()
+	end
+
+	uv0.super.Dispose(slot0)
+end
+
 function slot8.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	uv0.super.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 

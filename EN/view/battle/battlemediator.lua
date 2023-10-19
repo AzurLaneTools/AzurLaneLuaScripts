@@ -464,6 +464,7 @@ function slot0.GenBattleData(slot0)
 	slot1.VanguardUnitList = {}
 	slot1.SubUnitList = {}
 	slot1.AidUnitList = {}
+	slot1.SupportUnitList = {}
 	slot1.SubFlag = -1
 	slot1.ActID = slot0.contextData.actId
 	slot1.bossLevel = slot0.contextData.bossLevel
@@ -490,8 +491,7 @@ function slot0.GenBattleData(slot0)
 		slot1.KizunaJamming = slot7.extraFlagList
 		slot1.DefeatCount = slot8:getDefeatCount()
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot7:getFleetBattleBuffs(slot8)
-		slot13 = slot8.line.column
-		slot1.StageWaveFlags = slot7:GetFleetAttachmentConfig("stage_flags", slot8.line.row, slot13)
+		slot1.StageWaveFlags = slot7:GetStageFlags()
 		slot1.ChapterWeatherIDS = slot7:GetWeather(slot8.line.row, slot8.line.column)
 		slot1.MapAuraSkills = slot6.GetChapterAuraBuffs(slot7)
 		slot1.MapAidSkills = {}
@@ -552,6 +552,12 @@ function slot0.GenBattleData(slot0)
 
 		for slot21, slot22 in ipairs(slot12) do
 			slot17(slot22, slot14, slot1.SubUnitList)
+		end
+
+		if slot7:getChapterSupportFleet() then
+			for slot23, slot24 in pairs(slot18:getShips()) do
+				slot17(slot24, {}, slot1.SupportUnitList)
+			end
 		end
 
 		slot0.viewComponent:setFleet(slot10, slot11, slot12)
@@ -933,6 +939,9 @@ function slot0.GenBattleData(slot0)
 		slot0.viewComponent:setFleet(slot11, slot12, slot13)
 	elseif slot2 == SYSTEM_BOSS_RUSH or slot2 == SYSTEM_BOSS_RUSH_EX then
 		slot7 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
+
+		assert(slot7)
+
 		slot9 = slot7:GetFleetIds()
 		slot10 = slot9[slot7:GetStaegLevel() + 1]
 		slot11 = slot9[#slot9]

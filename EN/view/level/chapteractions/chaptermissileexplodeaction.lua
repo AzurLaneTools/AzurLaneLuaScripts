@@ -117,13 +117,18 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			table.ParallelIpairsAsync(uv0.cellUpdates, function (slot0, slot1, slot2)
-				if slot1.attachment == ChapterConst.AttachBoss then
+				if ChapterConst.IsBossCell(slot1) then
 					uv0.viewComponent.grid:PlayShellFx(slot1)
 					slot2()
 				else
 					uv0.viewComponent:strikeEnemy(slot1, "-" .. (slot1.data - (uv1:GetRawChapterCell(slot1.row, slot1.column) and slot3.data or 0)) / 100 .. "%", slot2)
 				end
 			end, slot0)
+		end,
+		function (slot0)
+			uv0.viewComponent.levelStageView:SwitchBottomStagePanel(false)
+			uv0.viewComponent.grid:HideMissileAimingMark()
+			slot0()
 		end,
 		slot3
 	})

@@ -722,6 +722,10 @@ _G.pg.base.gametip.word_shipState_sham = {
 	tip = "She's in the middle of a simulation!"
 }
 
+_G.pg.base.gametip.word_shipState_support = {
+	tip = "This ship is already in your Support Fleet."
+}
+
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "Destroyer"
 }
@@ -4487,7 +4491,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>8/31/23 to 11/22/23</color>, challenge Jintsuu META
+From <color=#92fc63>8/31/23 to 12/7/23</color>, challenge Jintsuu META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Jintsuu META</color> as well
 as other great rewards.
@@ -25566,4 +25570,108 @@ _G.pg.base.gametip.racing_minigame_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine = {
+	tip = "Confirm Target"
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+	tip = "Only enemy fleets can be targeted."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_outrange = {
+	tip = "No available tile for the target to move to."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_boss = {
+	tip = "Cannot select the enemy flagship as a target."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_battle = {
+	tip = "Cannot select enemy fleet already in combat as a target."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+	tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>left</color>. Continue?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
+	tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>right</color>. Continue?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+	tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>up</color>. Continue?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+	tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>down</color>. Continue?"
+}
+
+_G.pg.base.gametip.shipyard_phase_1 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_phase_2 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_button_1 = {
+	tip = "Stay Tuned"
+}
+
+_G.pg.base.gametip.shipyard_button_2 = {
+	tip = "Unlocked after completing all missions in \"Tempesta's Secret Shipyard\"."
+}
+
+_G.pg.base.gametip.shipyard_introduce = {
+	tip = "2 new missions unlock every day until 10/25.\nComplete them all to earn the limited gear, <color=#ff9892>Tempesta Banner</color>!"
+}
+
+_G.pg.base.gametip.help_supportfleet = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.word_status_inSupportFleet = {
+	tip = "In Support Fleet"
+}
+
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
 }

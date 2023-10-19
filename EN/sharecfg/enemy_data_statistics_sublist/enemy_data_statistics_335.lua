@@ -1,556 +1,16 @@
 pg = pg or {}
 pg.enemy_data_statistics_335 = {
-	[16501105] = {
-		cannon = 0,
+	[16500013] = {
+		cannon = 12,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 0,
-		battle_unit_type = 70,
-		air = 44,
-		base = 90252,
-		dodge = 5,
-		durability_growth = 54400,
-		antiaircraft = 45,
-		speed = 22,
-		reload_growth = 0,
-		dodge_growth = 72,
-		luck = 0,
-		antisub = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 3627,
-		antiaircraft_growth = 3744,
-		torpedo = 0,
-		durability = 1070,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		fog_fx = "",
-		id = 16501105,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000801,
-			1000806,
-			1000816,
-			1000821
-		}
-	},
-	[16501201] = {
-		cannon = 28,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 14,
-		id = 16501201,
-		cannon_growth = 1600,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 198,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 52,
-		base = 90249,
-		durability = 1480,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 125600,
-		antiaircraft = 115,
-		antisub = 0,
-		antiaircraft_growth = 3600,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000681,
-			1000686,
-			1000691,
-			1000696,
-			1000701
-		},
-		buff_list = {}
-	},
-	[16501202] = {
-		cannon = 30,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 12,
-		id = 16501202,
-		cannon_growth = 1700,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 170,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 24,
-		base = 90250,
-		durability = 1820,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 133600,
-		antiaircraft = 95,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000741,
-			1000746,
-			1000751,
-			1000756,
-			1000761,
-			1000766,
-			1000771
-		},
-		buff_list = {}
-	},
-	[16501203] = {
-		cannon = 34,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 12,
-		id = 16501203,
-		cannon_growth = 1700,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 170,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 27,
-		base = 90250,
-		durability = 1820,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 133600,
-		antiaircraft = 95,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000741,
-			1000746,
-			1000751,
-			1000756,
-			1000761,
-			1000766,
-			1000771
-		},
-		buff_list = {}
-	},
-	[16501204] = {
-		cannon = 100,
-		hit_growth = 210,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		luck = 4,
-		dodge = 11,
-		cannon_growth = 2500,
-		speed = 20,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 156,
-		id = 16501204,
-		torpedo = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 160000,
-		base = 90251,
-		durability = 3200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		antiaircraft = 110,
-		antiaircraft_growth = 3600,
-		antisub = 0,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000776,
-			1000781,
-			1000786,
-			1000791,
-			1000796
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
-	},
-	[16501205] = {
-		cannon = 61,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 11,
-		id = 16501205,
-		cannon_growth = 1700,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 4,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 55,
-		base = 90250,
-		durability = 2010,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 128000,
-		antiaircraft = 120,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000741,
-			1000746,
-			1000751,
-			1000756,
-			1000761,
-			1000766,
-			1000771
-		},
-		buff_list = {}
-	},
-	[16501206] = {
-		cannon = 120,
-		hit_growth = 210,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		luck = 4,
-		dodge = 11,
-		cannon_growth = 3600,
-		speed = 20,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 156,
-		id = 16501206,
-		torpedo = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 249600,
-		base = 90251,
-		durability = 3850,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		antiaircraft = 135,
-		antiaircraft_growth = 3200,
-		antisub = 0,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000776,
-			1000781,
-			1000786,
-			1000791,
-			1000796
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
-	},
-	[16501301] = {
-		cannon = 130,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		battle_unit_type = 95,
-		dodge = 11,
-		base = 90741,
-		durability_growth = 0,
-		antiaircraft = 180,
-		reload_growth = 0,
-		dodge_growth = 108,
-		speed = 35,
-		luck = 8,
-		hit = 16,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 100,
-		durability = 16500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16501301,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
-	},
-	[16501302] = {
-		cannon = 160,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		battle_unit_type = 95,
-		dodge = 11,
-		base = 90741,
-		durability_growth = 0,
-		antiaircraft = 180,
-		reload_growth = 0,
-		dodge_growth = 108,
-		speed = 35,
-		luck = 8,
-		hit = 16,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 110,
-		durability = 24680,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16501302,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
-	},
-	[16501303] = {
-		cannon = 180,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		base = 90740,
-		dodge = 14,
-		durability_growth = 0,
-		antiaircraft = 360,
-		speed = 30,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 8,
-		battle_unit_type = 95,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 120,
-		durability = 31500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		id = 16501303,
-		fog_fx = "",
-		antisub = 0,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
-	},
-	[16502001] = {
-		cannon = 7,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 560,
-		battle_unit_type = 25,
-		air = 0,
-		base = 90743,
-		dodge = 0,
-		durability_growth = 10000,
-		antiaircraft = 60,
-		speed = 15,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		antisub = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1000,
-		torpedo = 33,
-		durability = 300,
-		armor_growth = 0,
-		torpedo_growth = 3250,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		fog_fx = "",
-		id = 16502001,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100072,
-			1100182,
-			1100492
-		}
-	},
-	[16502002] = {
-		cannon = 16,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 880,
-		battle_unit_type = 30,
-		air = 0,
-		base = 90744,
-		dodge = 0,
-		durability_growth = 19200,
-		antiaircraft = 120,
-		speed = 15,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		antisub = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 2250,
-		torpedo = 26,
-		durability = 510,
-		armor_growth = 0,
-		torpedo_growth = 2250,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		fog_fx = "",
-		id = 16502002,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100337,
-			1100272,
-			1100492
-		}
-	},
-	[16502003] = {
-		cannon = 18,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 1800,
+		cannon_growth = 1500,
 		battle_unit_type = 35,
 		air = 0,
 		base = 90745,
 		dodge = 0,
-		durability_growth = 35200,
-		antiaircraft = 95,
+		durability_growth = 16000,
+		antiaircraft = 35,
 		speed = 12,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -559,39 +19,39 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 1400,
-		torpedo = 17,
-		durability = 1190,
+		antiaircraft_growth = 1000,
+		torpedo = 15,
+		durability = 270,
 		armor_growth = 0,
-		torpedo_growth = 1250,
+		torpedo_growth = 1200,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502003,
+		id = 16500013,
 		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
+			yuanchou_kandao = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_gongjian"
+			"yuanchou_kandao"
 		},
 		equipment_list = {
-			1100552,
-			1100587
+			1100550,
+			1100585
 		}
 	},
-	[16502004] = {
-		cannon = 43,
+	[16500014] = {
+		cannon = 35,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 2200,
+		cannon_growth = 2000,
 		battle_unit_type = 60,
 		air = 0,
 		base = 90746,
 		dodge = 0,
-		durability_growth = 70400,
-		antiaircraft = 105,
+		durability_growth = 33600,
+		antiaircraft = 40,
 		speed = 10,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -600,40 +60,40 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 1400,
+		antiaircraft_growth = 1200,
 		torpedo = 0,
-		durability = 4930,
+		durability = 650,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502004,
+		id = 16500014,
 		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
+			yuanchou_kandao = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_gongjian"
+			"yuanchou_kandao"
 		},
 		equipment_list = {
-			1100052,
-			1100917,
-			1100922
+			1100050,
+			1100915,
+			1100920
 		}
 	},
-	[16502005] = {
+	[16500015] = {
 		cannon = 0,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
 		battle_unit_type = 65,
-		air = 48,
+		air = 35,
 		base = 90747,
 		dodge = 0,
-		durability_growth = 65600,
-		antiaircraft = 115,
+		durability_growth = 27200,
+		antiaircraft = 40,
 		speed = 10,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -641,33 +101,33 @@ pg.enemy_data_statistics_335 = {
 		antisub = 0,
 		hit = 10,
 		antisub_growth = 0,
-		air_growth = 2000,
-		antiaircraft_growth = 1800,
+		air_growth = 1800,
+		antiaircraft_growth = 1200,
 		torpedo = 0,
-		durability = 4420,
+		durability = 560,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502005,
+		id = 16500015,
 		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
+			yuanchou_kandao = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_gongjian"
+			"yuanchou_kandao"
 		},
 		equipment_list = {
-			1100052,
-			1100387,
-			1100932,
-			1100937
+			1100050,
+			1100385,
+			1100930,
+			1100935
 		}
 	},
-	[16502006] = {
-		cannon = 60,
+	[16500016] = {
+		cannon = 45,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
@@ -686,24 +146,25 @@ pg.enemy_data_statistics_335 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		antiaircraft_growth = 0,
-		torpedo = 120,
-		durability = 80,
+		torpedo = 85,
+		durability = 60,
 		armor_growth = 0,
 		torpedo_growth = 900,
 		luck_growth = 0,
 		hit_growth = 1200,
 		armor = 0,
-		id = 16502006,
+		id = 16500016,
 		fog_fx = "",
 		antisub = 0,
+		specific_fx_scale = {},
 		appear_fx = {
 			"appearsmall"
 		},
 		equipment_list = {
-			1000867
+			1000865
 		}
 	},
-	[16502007] = {
+	[16500017] = {
 		cannon = 5,
 		reload = 150,
 		speed_growth = 0,
@@ -713,7 +174,7 @@ pg.enemy_data_statistics_335 = {
 		battle_unit_type = 65,
 		dodge = 0,
 		base = 90129,
-		durability_growth = 4400,
+		durability_growth = 3800,
 		antiaircraft = 0,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -724,34 +185,34 @@ pg.enemy_data_statistics_335 = {
 		air_growth = 0,
 		antiaircraft_growth = 0,
 		torpedo = 24,
-		durability = 220,
+		durability = 120,
 		armor_growth = 0,
-		torpedo_growth = 2200,
+		torpedo_growth = 1600,
 		luck_growth = 0,
 		hit_growth = 120,
 		armor = 0,
-		id = 16502007,
+		id = 16500017,
 		fog_fx = "",
 		antisub = 0,
 		appear_fx = {
 			"appearsmall"
 		},
 		equipment_list = {
-			1100697,
-			1100712
+			1100695,
+			1100710
 		}
 	},
-	[16502011] = {
-		cannon = 7,
+	[16500021] = {
+		cannon = 5,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 560,
+		cannon_growth = 300,
 		battle_unit_type = 25,
 		air = 0,
 		base = 90743,
 		dodge = 0,
-		durability_growth = 10000,
-		antiaircraft = 60,
+		durability_growth = 4000,
+		antiaircraft = 25,
 		speed = 15,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -760,40 +221,40 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 1000,
-		torpedo = 33,
-		durability = 300,
+		antiaircraft_growth = 800,
+		torpedo = 27,
+		durability = 105,
 		armor_growth = 0,
-		torpedo_growth = 3250,
+		torpedo_growth = 3000,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502011,
+		id = 16500021,
 		specific_fx_scale = {
-			yuanchou_kandao = 0.04
+			yuanchou_tianping = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_kandao"
+			"yuanchou_tianping"
 		},
 		equipment_list = {
-			1100072,
-			1100182,
-			1100492
+			1100070,
+			1100180,
+			1100490
 		}
 	},
-	[16502012] = {
-		cannon = 16,
+	[16500022] = {
+		cannon = 10,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 880,
+		cannon_growth = 800,
 		battle_unit_type = 30,
 		air = 0,
 		base = 90744,
 		dodge = 0,
-		durability_growth = 19200,
-		antiaircraft = 120,
+		durability_growth = 5920,
+		antiaircraft = 45,
 		speed = 15,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -802,40 +263,40 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 2250,
-		torpedo = 26,
-		durability = 510,
+		antiaircraft_growth = 1600,
+		torpedo = 22,
+		durability = 180,
 		armor_growth = 0,
-		torpedo_growth = 2250,
+		torpedo_growth = 2000,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502012,
+		id = 16500022,
 		specific_fx_scale = {
-			yuanchou_kandao = 0.04
+			yuanchou_tianping = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_kandao"
+			"yuanchou_tianping"
 		},
 		equipment_list = {
-			1100337,
-			1100272,
-			1100492
+			1100335,
+			1100270,
+			1100490
 		}
 	},
-	[16502013] = {
-		cannon = 18,
+	[16500023] = {
+		cannon = 12,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 1800,
+		cannon_growth = 1500,
 		battle_unit_type = 35,
 		air = 0,
 		base = 90745,
 		dodge = 0,
-		durability_growth = 35200,
-		antiaircraft = 95,
+		durability_growth = 16000,
+		antiaircraft = 35,
 		speed = 12,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -844,39 +305,39 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 1400,
-		torpedo = 17,
-		durability = 1190,
+		antiaircraft_growth = 1000,
+		torpedo = 15,
+		durability = 270,
 		armor_growth = 0,
-		torpedo_growth = 1250,
+		torpedo_growth = 1200,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502013,
+		id = 16500023,
 		specific_fx_scale = {
-			yuanchou_kandao = 0.04
+			yuanchou_tianping = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_kandao"
+			"yuanchou_tianping"
 		},
 		equipment_list = {
-			1100552,
-			1100587
+			1100550,
+			1100585
 		}
 	},
-	[16502014] = {
-		cannon = 43,
+	[16500024] = {
+		cannon = 35,
 		reload = 150,
 		speed_growth = 0,
-		cannon_growth = 2200,
+		cannon_growth = 2000,
 		battle_unit_type = 60,
 		air = 0,
 		base = 90746,
 		dodge = 0,
-		durability_growth = 70400,
-		antiaircraft = 105,
+		durability_growth = 33600,
+		antiaircraft = 40,
 		speed = 10,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -885,40 +346,40 @@ pg.enemy_data_statistics_335 = {
 		hit = 10,
 		antisub_growth = 0,
 		air_growth = 0,
-		antiaircraft_growth = 1400,
+		antiaircraft_growth = 1200,
 		torpedo = 0,
-		durability = 4930,
+		durability = 650,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502014,
+		id = 16500024,
 		specific_fx_scale = {
-			yuanchou_kandao = 0.04
+			yuanchou_tianping = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_kandao"
+			"yuanchou_tianping"
 		},
 		equipment_list = {
-			1100052,
-			1100917,
-			1100922
+			1100050,
+			1100915,
+			1100920
 		}
 	},
-	[16502015] = {
+	[16500025] = {
 		cannon = 0,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
 		battle_unit_type = 65,
-		air = 48,
+		air = 35,
 		base = 90747,
 		dodge = 0,
-		durability_growth = 65600,
-		antiaircraft = 115,
+		durability_growth = 27200,
+		antiaircraft = 40,
 		speed = 10,
 		reload_growth = 0,
 		dodge_growth = 0,
@@ -926,33 +387,33 @@ pg.enemy_data_statistics_335 = {
 		antisub = 0,
 		hit = 10,
 		antisub_growth = 0,
-		air_growth = 2000,
-		antiaircraft_growth = 1800,
+		air_growth = 1800,
+		antiaircraft_growth = 1200,
 		torpedo = 0,
-		durability = 4420,
+		durability = 560,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,
 		hit_growth = 144,
 		armor = 0,
 		fog_fx = "",
-		id = 16502015,
+		id = 16500025,
 		specific_fx_scale = {
-			yuanchou_kandao = 0.04
+			yuanchou_tianping = 0.04
 		},
 		appear_fx = {
 			"appearsmall",
-			"yuanchou_kandao"
+			"yuanchou_tianping"
 		},
 		equipment_list = {
-			1100052,
-			1100387,
-			1100932,
-			1100937
+			1100050,
+			1100385,
+			1100930,
+			1100935
 		}
 	},
-	[16502016] = {
-		cannon = 60,
+	[16500026] = {
+		cannon = 45,
 		reload = 150,
 		speed_growth = 0,
 		cannon_growth = 0,
@@ -971,14 +432,14 @@ pg.enemy_data_statistics_335 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		antiaircraft_growth = 0,
-		torpedo = 120,
-		durability = 80,
+		torpedo = 85,
+		durability = 60,
 		armor_growth = 0,
 		torpedo_growth = 900,
 		luck_growth = 0,
 		hit_growth = 1200,
 		armor = 0,
-		id = 16502016,
+		id = 16500026,
 		fog_fx = "",
 		antisub = 0,
 		specific_fx_scale = {},
@@ -986,7 +447,571 @@ pg.enemy_data_statistics_335 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			1000867
+			1000865
+		}
+	},
+	[16500027] = {
+		cannon = 5,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 300,
+		pilot_ai_template_id = 10002,
+		air = 0,
+		battle_unit_type = 65,
+		dodge = 0,
+		base = 90129,
+		durability_growth = 3800,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 14,
+		luck = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 24,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		luck_growth = 0,
+		hit_growth = 120,
+		armor = 0,
+		id = 16500027,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1100695,
+			1100710
+		}
+	},
+	[16500101] = {
+		cannon = 6,
+		name = "Joffre Mechanicus Pawn - Wanderer",
+		type = 1,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 15,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 222,
+		antiaircraft_growth = 1638,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 468,
+		base = 90648,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		antiaircraft = 20,
+		hit_growth = 210,
+		armor = 0,
+		durability = 510,
+		torpedo = 54,
+		id = 16500101,
+		durability_growth = 18800,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100020,
+			1100395,
+			1100505
+		}
+	},
+	[16500102] = {
+		cannon = 20,
+		name = "Joffre Mechanicus Pawn - Defender",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		antiaircraft_growth = 3744,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 936,
+		base = 90648,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		antiaircraft = 28,
+		hit_growth = 210,
+		armor = 0,
+		durability = 630,
+		torpedo = 27,
+		id = 16500102,
+		durability_growth = 23120,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100025,
+			1100105,
+			1100190,
+			1100475
+		}
+	},
+	[16500103] = {
+		cannon = 24,
+		name = "Joffre Mechanicus Pawn - Striker",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 7,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 102,
+		antiaircraft_growth = 2880,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2016,
+		base = 90648,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 2763,
+		antiaircraft = 35,
+		hit_growth = 210,
+		armor = 0,
+		durability = 780,
+		torpedo = 33,
+		id = 16500103,
+		durability_growth = 41600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100030,
+			1100620,
+			1100650,
+			1100475
+		}
+	},
+	[16500104] = {
+		cannon = 31,
+		name = "Joffre Mechanicus Pawn - Annihilator",
+		type = 5,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 3,
+		speed = 14,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 48,
+		antiaircraft_growth = 3744,
+		reload = 150,
+		hit = 18,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2592,
+		base = 90648,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 45,
+		hit_growth = 210,
+		armor = 0,
+		durability = 1020,
+		torpedo = 0,
+		id = 16500104,
+		durability_growth = 49600,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100030,
+			1100550,
+			1100915,
+			1100735
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
+	[16500105] = {
+		cannon = 0,
+		name = "Joffre Mechanicus Pawn - Moderator",
+		type = 7,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 31,
+		fog_fx = "",
+		dodge = 9,
+		speed = 16,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 132,
+		antiaircraft_growth = 3168,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 2574,
+		cannon_growth = 0,
+		base = 90648,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 38,
+		hit_growth = 210,
+		armor = 0,
+		durability = 890,
+		torpedo = 0,
+		id = 16500105,
+		durability_growth = 39200,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100020,
+			1100170,
+			1100925,
+			1100935
+		}
+	},
+	[16500111] = {
+		cannon = 6,
+		name = "Le Mars Mechanicus Pawn - Wanderer",
+		type = 1,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 15,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 222,
+		antiaircraft_growth = 1638,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 468,
+		base = 90279,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		antiaircraft = 20,
+		hit_growth = 210,
+		armor = 0,
+		durability = 510,
+		torpedo = 54,
+		id = 16500111,
+		durability_growth = 18800,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100020,
+			1100395,
+			1100505
+		}
+	},
+	[16500112] = {
+		cannon = 20,
+		name = "Le Mars Mechanicus Pawn - Defender",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		antiaircraft_growth = 3744,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 936,
+		base = 90279,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		antiaircraft = 28,
+		hit_growth = 210,
+		armor = 0,
+		durability = 630,
+		torpedo = 27,
+		id = 16500112,
+		durability_growth = 23120,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100025,
+			1100105,
+			1100190,
+			1100475
+		}
+	},
+	[16500113] = {
+		cannon = 24,
+		name = "Le Mars Mechanicus Pawn - Striker",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 7,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 102,
+		antiaircraft_growth = 2880,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2016,
+		base = 90279,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 2763,
+		antiaircraft = 35,
+		hit_growth = 210,
+		armor = 0,
+		durability = 780,
+		torpedo = 33,
+		id = 16500113,
+		durability_growth = 41600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100030,
+			1100620,
+			1100650,
+			1100475
+		}
+	},
+	[16500114] = {
+		cannon = 31,
+		name = "Le Mars Mechanicus Pawn - Annihilator",
+		type = 5,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 3,
+		speed = 14,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 48,
+		antiaircraft_growth = 3744,
+		reload = 150,
+		hit = 18,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2592,
+		base = 90279,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 45,
+		hit_growth = 210,
+		armor = 0,
+		durability = 1020,
+		torpedo = 0,
+		id = 16500114,
+		durability_growth = 49600,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100030,
+			1100550,
+			1100915,
+			1100735
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 1
+			}
+		}
+	},
+	[16500115] = {
+		cannon = 0,
+		name = "Le Mars Mechanicus Pawn - Moderator",
+		type = 7,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 31,
+		fog_fx = "",
+		dodge = 9,
+		speed = 16,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 132,
+		antiaircraft_growth = 3168,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 2574,
+		cannon_growth = 0,
+		base = 90279,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 38,
+		hit_growth = 210,
+		armor = 0,
+		durability = 890,
+		torpedo = 0,
+		id = 16500115,
+		durability_growth = 39200,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100020,
+			1100170,
+			1100925,
+			1100935
+		}
+	},
+	[16500121] = {
+		cannon = 6,
+		name = "Émile Bertin Mechanicus Pawn - Wanderer",
+		type = 1,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 15,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 222,
+		antiaircraft_growth = 1638,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 468,
+		base = 90742,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		antiaircraft = 20,
+		hit_growth = 210,
+		armor = 0,
+		durability = 510,
+		torpedo = 54,
+		id = 16500121,
+		durability_growth = 18800,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100020,
+			1100395,
+			1100505
 		}
 	}
 }

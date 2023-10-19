@@ -312,6 +312,7 @@ ShareCfg = {
 	["ShareCfg.gametip"] = true,
 	["ShareCfg.task_data_template"] = true,
 	["ShareCfg.emoji_small_template"] = true,
+	["ShareCfg.chapter_model_multistageboss"] = true,
 	["ShareCfg.expedition_island_template"] = true,
 	["ShareCfg.activity_event_question"] = true,
 	["ShareCfg.equip_data_by_type"] = true,

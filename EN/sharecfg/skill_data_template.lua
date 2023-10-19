@@ -309,6 +309,7 @@ pg.skill_data_template = setmetatable({
 		60410,
 		60420,
 		60430,
+		60440,
 		7000,
 		9010,
 		9020,
@@ -1034,6 +1035,8 @@ pg.skill_data_template = setmetatable({
 		17110,
 		17120,
 		17130,
+		17140,
+		17150,
 		18010,
 		18040,
 		18050,
@@ -1584,6 +1587,8 @@ pg.skill_data_template = setmetatable({
 		30102,
 		30111,
 		30112,
+		30121,
+		30122,
 		101010,
 		101020,
 		101030,
@@ -11614,6 +11619,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "When equipped by a Sakura Empire ship: increases your Sakura Empire ships' LCK by 1 (does not stack).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60440] = {
+		desc_get = "",
+		name = "Fly the Banner",
+		id = 60440,
+		type = 0,
+		max_level = 0,
+		desc = "During battle, increases the equipping ship's FP by 5.0% if there is an enemy within a radius of 20 units.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -83186,6 +83205,209 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 			}
 		}
 	},
+	[17140] = {
+		desc_get = "",
+		name = "Space City Strike",
+		id = 17140,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and AA by $1. Every 12s: executes a $2 special attack (DMG is based on the skill's level). For every 2 enemy aircraft shot down within your fleet's AA Range: increases your Eagle Union ships' AA by $3 (can be stacked up to 3 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[17150] = {
+		desc_get = "",
+		name = "Fortitude in Chaos",
+		id = 17150,
+		type = 2,
+		max_level = 10,
+		desc = "Once per battle, when this ship's HP falls below 15.0% as a result of DMG taken: for 3s, this ship recovers 2.0% of her max HP every second, but her SPD is decreased by 60.0%. When this effect ends: increases this ship's EVA by 5.0% and restores $1 of her max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -98219,11 +98441,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[29351] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault - San Diego I",
 		id = 29351,
 		type = 1,
 		max_level = 1,
-		desc = "Activates All Out Assault Ⅰ: San Diego once every 16 times the Main Guns are fired.",
+		desc = "Activates All Out Assault I: San Diego once every 16 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -100244,6 +100466,34 @@ One of the following two effects apply based on what type of weapon this ship ha
 		type = 1,
 		max_level = 1,
 		desc = "Activates All Out Assault II: Hatsuzuki once every 16 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30121] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 30121,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Houston II once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30122] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		id = 30122,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Houston II once every 10 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1

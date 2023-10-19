@@ -21,7 +21,8 @@ pg.activity_task_permanent = setmetatable({
 		6016,
 		6017,
 		6018,
-		6019
+		6019,
+		6020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -498,6 +499,32 @@ pg.base.activity_task_permanent = {
 			35234,
 			35235,
 			35236
+		}
+	},
+	[6020] = {
+		gametip = "Get an outfit for Michishio",
+		banner_route = "permanent_manchao",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6020,
+		activity_name = "Fluttering Fanfare",
+		over_task_id = "",
+		eliminate_task_id = {
+			35244,
+			35245,
+			35246,
+			35247,
+			35248,
+			35249,
+			35250,
+			35251,
+			35252,
+			35253,
+			35254,
+			35255,
+			35256,
+			35257
 		}
 	}
 }
