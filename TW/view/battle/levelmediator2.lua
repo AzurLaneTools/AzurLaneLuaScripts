@@ -950,6 +950,7 @@ function slot0.handleNotification(slot0, slot1)
 							uv1.viewComponent.levelStageView:popStageStrategy()
 						end
 
+						uv1.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 						uv1.viewComponent.levelStageView:updateAmbushRate(uv0.fleet.line, true)
 						uv1.viewComponent.levelStageView:updateStageStrategy()
 						uv1.viewComponent.levelStageView:updateFleetBuff()
@@ -1042,7 +1043,6 @@ function slot0.handleNotification(slot0, slot1)
 							slot9:updateRes(slot8)
 							slot7:updatePlayer(slot8)
 
-							uv2.viewComponent.grid.subTeleportMode = false
 							slot9 = uv2.viewComponent.grid
 
 							slot9:moveSub(table.indexof(uv0.fleets, slot1), uv1.fullpath, nil, function ()

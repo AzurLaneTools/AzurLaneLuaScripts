@@ -25,7 +25,6 @@ function slot0.init(slot0)
 	slot0.lastSelectedId = -1
 	slot0.quadState = -1
 	slot0.subTeleportTargetLine = nil
-	slot0.subTeleportMode = false
 	slot0.missileStrikeTargetLine = nil
 	slot0.cellEdges = {}
 	slot0.walls = {}
@@ -211,6 +210,7 @@ function slot0.initAll(slot0, slot1)
 		end,
 		function ()
 			uv0:OnChangeSubAutoAttack()
+			uv0:updateQuadCells(ChapterConst.QuadStateNormal)
 			existCall(uv1)
 		end
 	})
@@ -747,9 +747,9 @@ function slot0.updateFleet(slot0, slot1, slot2)
 				slot15.overrideSorting = true
 				slot15.sortingOrder = ChapterConst.PriorityMax
 				slot0.opBtns[slot1] = slot14
-			end
 
-			setActive(slot14, true)
+				slot0:UpdateOpBtns()
+			end
 
 			slot14.position = slot4.tfOp.position
 			slot15 = slot9 and ChapterConst.IsBossCell(slot9)
@@ -760,16 +760,17 @@ function slot0.updateFleet(slot0, slot1, slot2)
 			end
 
 			slot15 = slot15 or slot16
+			slot18 = slot13 and slot7 and slot10
 
-			setActive(slot14:Find("retreat"):Find("retreat"), slot13 and slot7 and not slot0.subTeleportMode and slot10 and not slot15 and _.any(slot3.fleets, function (slot0)
+			setActive(slot14:Find("retreat"):Find("retreat"), slot18 and not slot15 and _.any(slot3.fleets, function (slot0)
 				return slot0.id ~= uv0.id and slot0:getFleetType() == FleetType.Normal and slot0:isValid()
 			end))
-			setActive(slot18:Find("escape"), slot13 and slot7 and not slot0.subTeleportMode and slot15)
-			setActive(slot18, slot18:Find("retreat").gameObject.activeSelf or slot18:Find("escape").gameObject.activeSelf)
+			setActive(slot19:Find("escape"), slot18 and slot15)
+			setActive(slot19, slot19:Find("retreat").gameObject.activeSelf or slot19:Find("escape").gameObject.activeSelf)
 
-			if slot18.gameObject.activeSelf then
-				onButton(slot0, slot18, function ()
-					if uv0.parent:isfrozen() or uv0.subTeleportMode then
+			if slot19.gameObject.activeSelf then
+				onButton(slot0, slot19, function ()
+					if uv0.parent:isfrozen() then
 						return
 					end
 
@@ -827,19 +828,19 @@ function slot0.updateFleet(slot0, slot1, slot2)
 			setActive(slot14:Find("exchange"), false)
 			setActive(slot4.tfAmmo, not slot12)
 
-			slot20, slot21 = slot3:getFleetAmmo(slot5)
-			slot22 = slot21 .. "/" .. slot20
+			slot21, slot22 = slot3:getFleetAmmo(slot5)
+			slot23 = slot22 .. "/" .. slot21
 
-			if slot21 == 0 then
-				slot22 = setColorStr(slot22, COLOR_RED)
+			if slot22 == 0 then
+				slot23 = setColorStr(slot23, COLOR_RED)
 			end
 
-			setText(slot4.tfAmmoText, slot22)
+			setText(slot4.tfAmmoText, slot23)
 
 			if slot10 or slot12 then
-				slot23 = slot3:getChampion(slot6.row, slot6.column)
+				slot24 = slot3:getChampion(slot6.row, slot6.column)
 
-				if slot10 and slot11 == ChapterConst.AttachChampion and slot23:getPoolType() == ChapterConst.TemplateChampion then
+				if slot10 and slot11 == ChapterConst.AttachChampion and slot24:getPoolType() == ChapterConst.TemplateChampion then
 					slot4.tfArrow.anchoredPosition = Vector2(0, 180)
 					slot4.tfAmmo.anchoredPosition = Vector2(60, 100)
 				else
@@ -862,7 +863,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 			end
 
 			slot4:SetActiveNoPassIcon(slot3:existBarrier(slot6.row, slot6.column))
-			slot4:UpdateIconRecorded(table.contains(slot5:GetStatusStrategy(), ChapterConst.StrategyIntelligenceRecorded))
+			slot4:UpdateIconRecordedFlag(table.contains(slot5:GetStatusStrategy(), ChapterConst.StrategyIntelligenceRecorded))
 		elseif slot8 == FleetType.Submarine then
 			slot9 = slot3:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column) or slot3:existAlly(slot5)
 
@@ -885,6 +886,12 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	end
 
 	existCall(slot2)
+end
+
+function slot0.UpdateOpBtns(slot0)
+	table.Foreach(slot0.opBtns, function (slot0, slot1)
+		setActive(slot1, uv0.quadState == ChapterConst.QuadStateNormal)
+	end)
 end
 
 function slot0.GetCellFleet(slot0, slot1)
@@ -1603,6 +1610,8 @@ function slot0.updateQuadCells(slot0, slot1)
 	elseif slot1 == ChapterConst.QuadStateExpel then
 		slot0:UpdateQuadStateAirExpel()
 	end
+
+	slot0:UpdateOpBtns()
 end
 
 function slot0.PlayQuadsParallelAnim(slot0, slot1)
@@ -1842,7 +1851,6 @@ function slot0.PrepareSubTeleport(slot0)
 	slot2 = slot1:GetSubmarineFleet()
 	slot3 = slot0.cellFleets[slot2.id]
 	slot4 = slot2.startPos
-	slot0.subTeleportMode = true
 
 	for slot8, slot9 in pairs(slot1.fleets) do
 		if slot9:getFleetType() == FleetType.Normal then
@@ -1875,7 +1883,6 @@ function slot0.TurnOffSubTeleport(slot0)
 	slot0:ClearEdges("SubmarineHunting")
 	slot0:UpdateDestinationMark()
 
-	slot0.subTeleportMode = false
 	slot4 = slot1.subAutoAttack == 1
 
 	slot0.cellFleets[slot1:GetSubmarineFleet().id]:SetActiveModel(slot4)
@@ -2084,17 +2091,19 @@ function slot0.OnAirExpelSelect(slot0, slot1)
 	slot0.airSupportTarget = slot0.airSupportTarget or {}
 	slot4 = slot0.airSupportTarget
 
-	if slot0.contextData.chapterVO:GetEnemy(slot1.row, slot1.column) and ChapterConst.IsBossCell(slot5) then
-		if not slot4.source then
+	if slot0.contextData.chapterVO:GetEnemy(slot1.row, slot1.column) then
+		if ChapterConst.IsBossCell(slot5) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelscene_airexpel_select_boss"))
 
 			return
 		end
 
-		slot5 = nil
-	end
+		if slot2:existFleet(FleetType.Normal, slot1.row, slot1.column) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelscene_airexpel_select_battle"))
 
-	if slot5 then
+			return
+		end
+
 		if slot4.source and table.equal(slot4.source:GetLine(), slot5:GetLine()) then
 			slot5 = nil
 		end

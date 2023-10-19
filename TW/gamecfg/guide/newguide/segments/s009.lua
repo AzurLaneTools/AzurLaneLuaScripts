@@ -53,7 +53,7 @@ return {
 				text = slot0[3]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/retreat_button",
+				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/Normal/retreat_button",
 				pathIndex = -1,
 				triggerType = {
 					1

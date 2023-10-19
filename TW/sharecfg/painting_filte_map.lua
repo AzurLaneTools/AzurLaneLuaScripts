@@ -12048,6 +12048,11 @@ pg.painting_filte_map = {
 	xiusidun = {
 		key = "xiusidun",
 		res_list = {
+			"painting/xiusidunii_tex",
+			"painting/xiusidunii_rw_tex",
+			"painting/xiusidunii_n_tex",
+			"painting/xiusidunii_n",
+			"painting/xiusidunii",
 			"painting/xiusidun_tex",
 			"painting/xiusidun"
 		}

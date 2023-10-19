@@ -10,6 +10,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0.tfAmmoText = slot0.tfAmmo:Find("text")
 	slot0.tfOp = slot0.tf:Find("op")
 	slot0.tfIconRecorded = nil
+	slot0.RecordedFlag = nil
 end
 
 function slot2.GetOrder(slot0)
@@ -66,25 +67,29 @@ function slot2.SetActiveNoPassIcon(slot0, slot1)
 	end
 end
 
-function slot2.UpdateIconRecorded(slot0, slot1)
-	slot2 = "IconRecorded"
+function slot2.UpdateIconRecordedFlag(slot0, slot1)
+	slot0.RecordedFlag = slot1
 
-	if not slot1 then
-		if slot0.loader then
-			slot0.loader:ClearRequest(slot2)
+	slot0:UpdateIconRecorded()
+end
+
+function slot2.UpdateIconRecorded(slot0)
+	if not (slot0.RecordedFlag and slot0.visible) then
+		if not IsNil(slot0.tfIconRecorded) then
+			setActive(slot0.tfIconRecorded, false)
 		end
 	else
-		if slot0:GetLoader():GetRequestPackage(slot2) then
-			return
+		if IsNil(slot0.tfIconRecorded) then
+			slot2 = pg.PoolMgr.GetInstance()
+
+			slot2:GetPrefab("effect/fleet_status_recorded", "", false, function (slot0)
+				uv0.tfIconRecorded = tf(slot0)
+
+				setParent(slot0, uv0.tf, false)
+			end)
 		end
 
-		slot4 = slot0:GetLoader()
-
-		slot4:GetPrefabBYStopLoading("effect/fleet_status_recorded", "", function (slot0)
-			uv0.tfIconRecorded = tf(slot0)
-
-			setParent(slot0, uv0.tf, false)
-		end, slot2)
+		setActive(slot0.tfIconRecorded, true)
 	end
 end
 
@@ -105,10 +110,8 @@ function slot2.SetSpineVisible(slot0, slot1)
 	slot0.visible = slot1
 
 	uv0.super.SetSpineVisible(slot0, slot1)
-
-	if not IsNil(slot0.tfIconRecorded) then
-		setActive(slot0.tfIconRecorded, slot1)
-	end
+	setActive(slot0.tfShadow, slot1)
+	slot0:UpdateIconRecorded()
 end
 
 function slot2.StopTween(slot0)
