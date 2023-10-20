@@ -94,6 +94,18 @@ _G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "連携解除に失敗しました"
 }
 
+_G.pg.base.gametip.new_airi_error_code_100215 = {
+	tip = "X(旧Twitter)アカウントでの新規連携は行えません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100216 = {
+	tip = "連携済のX(旧Twitter)アカウントは変更できません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100217 = {
+	tip = "このアプリはX(旧Twitter)での新規登録はできません"
+}
+
 _G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "連携を解除しました"
 }

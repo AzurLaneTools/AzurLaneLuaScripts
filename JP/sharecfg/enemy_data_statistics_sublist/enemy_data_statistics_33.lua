@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[622] = {
+		cannon = 300,
+		name = "ズイカク",
+		antiaircraft_growth = 3604,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 280,
+		air_growth = 4490,
+		dodge = 6,
+		speed = 15,
+		luck = 0,
+		id = 622,
+		reload_growth = 0,
+		dodge_growth = 90,
+		fog_fx = "",
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		cannon_growth = 1200,
+		base = 90244,
+		durability = 1000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 43,
+		hit_growth = 210,
+		armor = 0,
+		reload = 150,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 43200,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							-0.03,
+							0.94
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							1.23,
+							2.53
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			100360,
+			311081,
+			311084,
+			312048,
+			312050,
+			312051,
+			312052
+		}
+	},
 	[623] = {
 		cannon = 200,
 		name = "ショウホウ",
@@ -1019,47 +1095,6 @@ pg.enemy_data_statistics_33 = {
 		},
 		equipment_list = {
 			300006
-		}
-	},
-	[704] = {
-		cannon = 0,
-		name = "超弩級PTボート",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		luck = 0,
-		id = 704,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90070,
-		durability = 25510,
-		armor_growth = 0,
-		torpedo_growth = 14000,
-		speed = 15,
-		armor = 0,
-		antisub = 0,
-		wave_fx = "danchuanlanghuaxiao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 800,
-		durability_growth = 810000,
-		antiaircraft = 0,
-		hit_growth = 120,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300011
 		}
 	}
 }

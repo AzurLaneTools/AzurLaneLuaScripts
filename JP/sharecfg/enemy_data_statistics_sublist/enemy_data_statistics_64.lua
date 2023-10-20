@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_64 = {
+	[101003] = {
+		cannon = 46,
+		name = "カゲロウ",
+		antiaircraft_growth = 1638,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 15,
+		luck = 0,
+		id = 101003,
+		cannon_growth = 520,
+		reload_growth = 0,
+		dodge_growth = 222,
+		reload = 150,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 2,
+		fog_fx = "",
+		base = 90169,
+		durability = 280,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		antiaircraft = 35,
+		hit_growth = 210,
+		armor = 0,
+		speed = 24,
+		torpedo = 180,
+		antisub = 0,
+		durability_growth = 12000,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100211,
+			100411
+		}
+	},
 	[101004] = {
 		cannon = 46,
 		name = "クレイヴン",
@@ -989,47 +1030,6 @@ pg.enemy_data_statistics_64 = {
 		battle_unit_type = 20,
 		appear_fx = {
 			"appearsmall"
-		}
-	},
-	[101029] = {
-		cannon = 0,
-		name = "量産型PTボート",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		luck = 0,
-		id = 101029,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90070,
-		durability = 70,
-		armor_growth = 0,
-		torpedo_growth = 720,
-		speed = 15,
-		armor = 0,
-		antisub = 0,
-		wave_fx = "danchuanlanghuaxiao2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		torpedo = 9,
-		durability_growth = 2830,
-		antiaircraft = 0,
-		hit_growth = 120,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300012
 		}
 	}
 }

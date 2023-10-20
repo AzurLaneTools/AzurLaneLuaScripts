@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.enemy_data_statistics_221 = {
+	[14100302] = {
+		cannon = 95,
+		hit_growth = 210,
+		rarity = 2,
+		speed_growth = 0,
+		luck = 5,
+		air = 0,
+		id = 14100302,
+		reload = 150,
+		antiaircraft = 115,
+		battle_unit_type = 95,
+		dodge_growth = 132,
+		icon = "miaogaodc",
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90113,
+		durability = 5400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		antisub = 0,
+		scale = 240,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		fog_fx = "",
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 50,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			710021,
+			710022,
+			710024
+		}
+	},
 	[14101001] = {
 		cannon = 8,
 		reload = 150,
@@ -1289,69 +1373,6 @@ pg.enemy_data_statistics_221 = {
 			712001,
 			712002,
 			712003
-		}
-	},
-	[14102102] = {
-		cannon = 22,
-		reload = 150,
-		battle_unit_type = 50,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		rarity = 4,
-		dodge = 22,
-		luck = 0,
-		id = 14102102,
-		cannon_growth = 626,
-		reload_growth = 0,
-		dodge_growth = 360,
-		speed = 36,
-		star = 5,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90345,
-		durability = 3060,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		luck_growth = 0,
-		hit_growth = 280,
-		armor = 0,
-		torpedo = 94,
-		durability_growth = 21600,
-		antisub = 0,
-		antiaircraft = 72,
-		antiaircraft_growth = 3000,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			712004,
-			712005,
-			712006
 		}
 	}
 }

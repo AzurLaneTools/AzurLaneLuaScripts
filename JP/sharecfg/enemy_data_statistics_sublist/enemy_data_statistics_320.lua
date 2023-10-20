@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_320 = {
+	[16305202] = {
+		cannon = 130,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 3,
+		air = 206,
+		torpedo = 0,
+		dodge = 11,
+		durability_growth = 308000,
+		antiaircraft = 251,
+		luck = 18,
+		reload_growth = 0,
+		dodge_growth = 156,
+		hit_growth = 210,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3500,
+		battle_unit_type = 90,
+		base = 90715,
+		durability = 17020,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 20,
+		armor = 0,
+		id = 16305202,
+		antiaircraft_growth = 3200,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			3035336,
+			3035337,
+			3035338,
+			3035339,
+			3035340,
+			3035346
+		}
+	},
 	[16305301] = {
 		cannon = 362,
 		name = "謎のピュリっち！？",
@@ -1011,56 +1051,6 @@ pg.enemy_data_statistics_320 = {
 		buff_list = {
 			{
 				ID = 200236,
-				LV = 1
-			}
-		}
-	},
-	[16400208] = {
-		cannon = 70,
-		battle_unit_type = 90,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 2,
-		air = 0,
-		speed = 20,
-		dodge = 11,
-		id = 16400208,
-		cannon_growth = 2500,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 0,
-		star = 2,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 30,
-		base = 90723,
-		durability = 2790,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		durability_growth = 160000,
-		antiaircraft = 85,
-		antisub = 0,
-		antiaircraft_growth = 3600,
-		scale = 275,
-		equipment_list = {
-			1006080,
-			1006085,
-			1006220,
-			1006225,
-			1006230
-		},
-		buff_list = {
-			{
-				ID = 200236,
-				LV = 1
-			},
-			{
-				ID = 50500,
 				LV = 1
 			}
 		}

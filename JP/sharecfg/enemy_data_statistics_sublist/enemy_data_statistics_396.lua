@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[295058] = {
+		cannon = 215,
+		name = "蒼龍(META)-Tier.13",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 456,
+		hit_growth = 0,
+		dodge = 26,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 358,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 18,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 930000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295058,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295059] = {
 		cannon = 225,
 		name = "蒼龍(META)-Tier.14",
@@ -881,47 +917,6 @@ pg.enemy_data_statistics_396 = {
 		antisub = 0,
 		fog_fx = "",
 		id = 295080,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295081] = {
-		cannon = 247,
-		name = "シャルンホルスト(META)-Tier.6",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 16,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 246,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 16,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 148,
-		durability = 150000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295081,
 		buff_list = {
 			{
 				ID = 8830,

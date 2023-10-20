@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_142 = {
+	[11900103] = {
+		cannon = 100,
+		name = "エセックス（闘志）",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 100,
+		hit_growth = 210,
+		dodge = 0,
+		base = 90339,
+		durability_growth = 0,
+		antiaircraft = 520,
+		reload_growth = 0,
+		dodge_growth = 284,
+		speed = 30,
+		luck = 0,
+		hit = 200,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		torpedo = 0,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 11900103,
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[11900104] = {
 		cannon = 460,
 		name = "エセックス（底力）",
@@ -863,49 +903,6 @@ pg.enemy_data_statistics_142 = {
 		},
 		equipment_list = {
 			540101
-		}
-	},
-	[12000231] = {
-		cannon = 115,
-		battle_unit_type = 45,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 70039,
-		air = 0,
-		speed = 33,
-		dodge = 30,
-		id = 12000231,
-		cannon_growth = 0,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 398,
-		armor = 0,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90180,
-		durability = 15400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		luck = 5,
-		torpedo = 180,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 165,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			608021,
-			608022,
-			608023,
-			608024
 		}
 	}
 }

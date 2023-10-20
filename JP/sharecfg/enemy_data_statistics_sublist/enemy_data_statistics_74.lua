@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_74 = {
+	[107010] = {
+		cannon = 155,
+		name = "シグレ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		air_growth = 0,
+		dodge = 46,
+		luck = 0,
+		id = 107010,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		reload = 150,
+		star = 4,
+		hit = 38,
+		antisub_growth = 0,
+		rarity = 3,
+		fog_fx = "",
+		base = 90166,
+		durability = 4500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 425,
+		hit_growth = 0,
+		armor = 0,
+		speed = 36,
+		torpedo = 750,
+		antisub = 0,
+		durability_growth = 27500,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			317029,
+			100432
+		}
+	},
 	[107011] = {
 		cannon = 168,
 		name = "ノワキ",
@@ -1116,89 +1157,6 @@ pg.enemy_data_statistics_74 = {
 		battle_unit_type = 30,
 		appear_fx = {
 			"appearQ"
-		},
-		equipment_list = {
-			100207,
-			100517,
-			100427
-		}
-	},
-	[108004] = {
-		cannon = 90,
-		name = "量産型ミョウコウ級",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 20003,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 108004,
-		reload_growth = 0,
-		dodge_growth = 0,
-		fog_fx = "",
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		cannon_growth = 0,
-		base = 90113,
-		durability = 1800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 75,
-		hit_growth = 120,
-		armor = 0,
-		reload = 150,
-		torpedo = 120,
-		antisub = 0,
-		durability_growth = 32000,
-		luck_growth = 0,
-		battle_unit_type = 30,
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.35,
-							1.17,
-							0.51
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							1.39,
-							1.41,
-							0.54
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.02,
-							1.82,
-							0.76
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall"
 		},
 		equipment_list = {
 			100207,

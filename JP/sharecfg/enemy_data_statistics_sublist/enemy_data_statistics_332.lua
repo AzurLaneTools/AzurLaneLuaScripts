@@ -1,5 +1,56 @@
 pg = pg or {}
 pg.enemy_data_statistics_332 = {
+	[16502301] = {
+		cannon = 180,
+		name = "ジョッフル駒式統御武装「Blast」",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 22,
+		speed = 26,
+		luck = 18,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 312,
+		antiaircraft_growth = 0,
+		reload = 150,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 0,
+		base = 90648,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 185,
+		hit_growth = 210,
+		armor = 0,
+		durability = 38600,
+		torpedo = 120,
+		id = 16502301,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			3053001,
+			3053002,
+			3053003,
+			3053004,
+			3053005,
+			3053006,
+			3053007
+		}
+	},
 	[16502302] = {
 		cannon = 81,
 		name = "ル・マルス駒式統御武装「Moderate」",
@@ -1009,41 +1060,5 @@ pg.enemy_data_statistics_332 = {
 			1000818,
 			1000823
 		}
-	},
-	[16503301] = {
-		cannon = 170,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		battle_unit_type = 95,
-		dodge = 14,
-		base = 90741,
-		durability_growth = 0,
-		antiaircraft = 260,
-		reload_growth = 0,
-		dodge_growth = 196,
-		speed = 35,
-		luck = 25,
-		hit = 38,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 125,
-		durability = 86200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 330,
-		armor = 0,
-		id = 16503301,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

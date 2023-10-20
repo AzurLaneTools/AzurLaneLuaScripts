@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_114 = {
+	[10082009] = {
+		cannon = 9,
+		battle_unit_type = 60,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 20,
+		dodge = 11,
+		id = 10082009,
+		cannon_growth = 800,
+		rarity = 2,
+		reload_growth = 0,
+		dodge_growth = 156,
+		armor = 0,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90180,
+		durability = 880,
+		armor_growth = 0,
+		torpedo_growth = 4800,
+		luck_growth = 0,
+		hit_growth = 210,
+		luck = 0,
+		torpedo = 65,
+		durability_growth = 29000,
+		antisub = 0,
+		antiaircraft = 30,
+		antiaircraft_growth = 1760,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			540005,
+			540006
+		}
+	},
 	[10082101] = {
 		cannon = 0,
 		reload = 150,
@@ -933,94 +973,6 @@ pg.enemy_data_statistics_114 = {
 			550052,
 			550053,
 			550054
-		}
-	},
-	[10091006] = {
-		cannon = 8,
-		hit_growth = 210,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 4,
-		air = 0,
-		speed = 28,
-		dodge = 19,
-		luck = 0,
-		id = 10091006,
-		cannon_growth = 800,
-		reload_growth = 0,
-		dodge_growth = 270,
-		reload = 150,
-		star = 4,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 65,
-		base = 90253,
-		durability = 560,
-		armor_growth = 0,
-		torpedo_growth = 4800,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		armor = 0,
-		durability_growth = 23500,
-		antiaircraft = 30,
-		antisub = 0,
-		antiaircraft_growth = 1760,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			550011,
-			550012,
-			550013
 		}
 	}
 }

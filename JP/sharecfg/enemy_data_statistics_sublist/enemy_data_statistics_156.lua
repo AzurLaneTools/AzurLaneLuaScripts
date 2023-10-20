@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_156 = {
+	[12300410] = {
+		cannon = 86,
+		battle_unit_type = 70,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 145,
+		speed = 16,
+		dodge = 15,
+		id = 12300410,
+		cannon_growth = 0,
+		rarity = 3,
+		reload_growth = 0,
+		dodge_growth = 120,
+		armor = 0,
+		star = 4,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 4500,
+		reload = 150,
+		base = 90237,
+		durability = 7820,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 350,
+		luck = 0,
+		torpedo = 0,
+		durability_growth = 59600,
+		antisub = 0,
+		antiaircraft = 230,
+		antiaircraft_growth = 5280,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1100024,
+			1100174,
+			1100798,
+			1100804,
+			1100808
+		}
+	},
 	[12300411] = {
 		cannon = 0,
 		reload = 150,
@@ -895,82 +938,6 @@ pg.enemy_data_statistics_156 = {
 			611175,
 			611176,
 			611177
-		}
-	},
-	[12300443] = {
-		cannon = 200,
-		hit_growth = 210,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 300,
-		speed = 16,
-		dodge = 22,
-		id = 12300443,
-		cannon_growth = 0,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 312,
-		luck = 20,
-		star = 6,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90238,
-		durability = 93200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 390,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.1,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.27,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					0.43,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			611191,
-			611193,
-			611195,
-			611196,
-			611197,
-			611198,
-			611199
 		}
 	}
 }

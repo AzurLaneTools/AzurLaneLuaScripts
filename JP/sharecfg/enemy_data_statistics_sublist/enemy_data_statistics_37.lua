@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[912] = {
+		cannon = 10,
+		name = "チェイサーⅠ型",
+		reload = 150,
+		fog_fx = "",
+		base = 90249,
+		air = 0,
+		battle_unit_type = 52,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 30,
+		durability = 4400,
+		antiaircraft = 250,
+		speed = 20,
+		armor = 0,
+		id = 912,
+		equipment_list = {
+			531005,
+			531006,
+			531007,
+			531008
+		}
+	},
 	[913] = {
 		cannon = 20,
 		name = "ナビゲーターⅠ型",
@@ -859,47 +884,6 @@ pg.enemy_data_statistics_37 = {
 		torpedo = 54,
 		antisub = 0,
 		durability_growth = 7800,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
-		}
-	},
-	[1007] = {
-		cannon = 6,
-		name = "グリッドレイ",
-		antiaircraft_growth = 1719,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		air_growth = 0,
-		dodge = 14,
-		luck = 0,
-		id = 1007,
-		cannon_growth = 468,
-		reload_growth = 0,
-		dodge_growth = 210,
-		reload = 150,
-		star = 3,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 2,
-		fog_fx = "",
-		base = 90150,
-		durability = 115,
-		armor_growth = 0,
-		torpedo_growth = 3744,
-		antiaircraft = 21,
-		hit_growth = 210,
-		armor = 0,
-		speed = 24,
-		torpedo = 45,
-		antisub = 0,
-		durability_growth = 8126,
 		luck_growth = 0,
 		battle_unit_type = 50,
 		appear_fx = {

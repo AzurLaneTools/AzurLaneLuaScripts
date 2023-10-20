@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_65 = {
+	[101029] = {
+		cannon = 0,
+		name = "量産型PTボート",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		luck = 0,
+		id = 101029,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 35,
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90070,
+		durability = 70,
+		armor_growth = 0,
+		torpedo_growth = 720,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		fog_fx = "",
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 9,
+		durability_growth = 2830,
+		antiaircraft = 0,
+		hit_growth = 120,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300012
+		}
+	},
 	[101030] = {
 		cannon = 36,
 		name = "量産型自爆ボート",
@@ -1063,68 +1104,6 @@ pg.enemy_data_statistics_65 = {
 				ID = 50510,
 				LV = 1
 			}
-		}
-	},
-	[102015] = {
-		cannon = 88,
-		name = "戦艦ヒエイ",
-		antiaircraft_growth = 1521,
-		speed_growth = 0,
-		reload = 150,
-		air = 0,
-		fog_fx = "",
-		dodge = 0,
-		speed = 15,
-		luck = 0,
-		id = 102015,
-		reload_growth = 0,
-		dodge_growth = 0,
-		air_growth = 0,
-		star = 5,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 4,
-		cannon_growth = 1638,
-		base = 90119,
-		durability = 1120,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 32,
-		hit_growth = 120,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 28730,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 55,
-		fx_container = {
-			{
-				1.47,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.1,
-				0.137,
-				-0.7175
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		appear_fx = {
-			"appearbig"
-		},
-		equipment_list = {
-			300007,
-			312025
 		}
 	}
 }
