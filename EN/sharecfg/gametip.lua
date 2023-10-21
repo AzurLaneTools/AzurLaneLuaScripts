@@ -22945,5 +22945,10 @@ cs.gametip = {
 		873015,
 		203,
 		true
+	},
+	tw_unsupport_tip = {
+		873218,
+		158,
+		true
 	}
 }

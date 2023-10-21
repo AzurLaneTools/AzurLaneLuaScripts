@@ -25675,3 +25675,7 @@ _G.pg.base.gametip.word_status_inSupportFleet = {
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
 	tip = "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
 }
+
+_G.pg.base.gametip.tw_unsupport_tip = {
+	tip = "Twitter account binding not available now. Please use Yostar account binding."
+}
