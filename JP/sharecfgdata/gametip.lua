@@ -26132,7 +26132,7 @@ _G.pg.base.gametip.harbor_backhill_help = {
 		{
 			info = [[
 イベント概要：
-裏山キャンペーン「饅頭アジト」<color=#92fc63>10.25-11.9 メンテナンスまで</color>開催！
+裏山キャンペーン「饅頭アジト」<color=#92fc63>10.26-11.9 メンテナンスまで</color>開催！
 
 ■遊び方
 ・秘密造船所
@@ -26161,4 +26161,8 @@ _G.pg.base.gametip.harbor_backhill_help = {
 
 _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 	tip = "メモリーズ【$1】ダウンロード中"
+}
+
+_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }

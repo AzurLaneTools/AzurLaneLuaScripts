@@ -74122,7 +74122,7 @@ _G.pg.base.aircraft_template[163390] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		163400,
-		163340
+		163410
 	}
 }
 

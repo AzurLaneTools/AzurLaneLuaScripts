@@ -22945,5 +22945,10 @@ cs.gametip = {
 		953766,
 		149,
 		true
+	},
+	charge_scene_buy_confirm_backyard = {
+		953915,
+		220,
+		true
 	}
 }

@@ -9100,40 +9100,35 @@ pg.base.ship_skin_template_18 = {
 	[9600031] = {
 		ship_group = 960003,
 		name = "古城のキラーレディ",
+		l2d_se = "",
 		hand_id = 1,
 		bgm = "",
-		l2d_drag_rate = "",
 		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70921,
-		painting = "jinluhao_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 8,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "174",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 9600031,
-		voice_actor_2 = -1,
-		prefab = "jinluhao_2",
-		l2d_se = "",
-		main_UI_FX = "",
 		special_effects = "",
 		desc = "指揮官さま、この組み合わせは？……怖くない？変ね…メアリーちゃんのアイデアが役に立てないなんて…分かったぁ～、斧を持ってたらどぉ？指揮官さま♡",
-		voice_actor = 384,
-		spine_offset = "",
+		group_index = 1,
+		bg_sp = "1102",
+		painting = "jinluhao_2",
 		gyro = 0,
 		rarity_bg = "",
+		prefab = "jinluhao_2",
+		shop_type_id = 8,
+		main_UI_FX = "",
+		shop_id = 70921,
+		lip_smoothing = 0,
 		time = "",
-		l2d_para_range = "",
+		spine_offset = "",
+		illustrator = -1,
+		bg = "174",
+		l2d_ignore_drag = 0,
+		voice_actor = 384,
+		spine_action_offset = false,
 		lip_sync_gain = 0,
+		skin_type = 0,
 		live2d_offset_profile = "",
+		id = 9600031,
+		voice_actor_2 = -1,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -9209,6 +9204,47 @@ pg.base.ship_skin_template_18 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			}
+		},
+		ship_l2d_id = {
+			96000311,
+			96000312,
+			96000313,
+			96000314,
+			96000315,
+			96000316,
+			96000317,
+			96000318,
+			96000319,
+			96000320
+		},
+		l2d_drag_rate = {
+			0.5,
+			1,
+			1
 		}
 	},
 	[9600040] = {

@@ -51,7 +51,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:InitStudents(getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_PIRATE_ID) and slot1.id, 2, 3)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xuanshangban", function ()
-		if not uv0.XuanShangBanFirstTip() then
+		if uv0.XuanShangBanFirstTip() then
 			PlayerPrefs.SetInt("FIRST_INTO_ACT_" .. ActivityConst.PIRATE_MEDAL_ACT_ID .. "_" .. getProxy(PlayerProxy):getData().id, 1)
 		end
 
