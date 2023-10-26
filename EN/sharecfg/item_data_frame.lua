@@ -540,6 +540,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/10/23 - 31/10/23 Season.</color>",
 		scene = {}
 	},
+	[10006] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·天蝎座",
+		gain_by = "",
+		id = 10006,
+		time_second = 0,
+		desc = "<color=#ffffff>结晶之中闪烁着天秤座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.11.01-23.11.30）",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -600,6 +609,7 @@ pg.item_data_frame = {
 		10002,
 		10003,
 		10004,
-		10005
+		10005,
+		10006
 	}
 }

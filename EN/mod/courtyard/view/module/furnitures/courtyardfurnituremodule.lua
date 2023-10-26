@@ -37,8 +37,13 @@ function slot0.OnInit(slot0)
 		slot0.animators[slot5.key] = (slot0.data:GetAnimatorMask() and slot0.interactionTF:Find("animtor_mask") or slot0.interactionTF):Find("Animator" .. slot5.key)
 	end
 
-	slot0:InitAttachment()
-	slot0:EnableTrigger(false)
+	slot1 = slot0:GetData().selectedFlag
+
+	slot0:InitAttachment(slot1)
+
+	if not slot1 then
+		slot0:EnableTrigger(false)
+	end
 
 	if slot0.data:IsSpine() then
 		slot0.animator = CourtYardFurnitureAnimatorAgent.New(slot0)
@@ -78,6 +83,12 @@ function slot0.GetCenterPoint(slot0)
 	return Vector3(slot3.x, slot3.y, 0)
 end
 
+function slot0.GetSpinePoint(slot0)
+	slot2 = slot0:GetParentTF():InverseTransformPoint(slot0._tf:Find("spine_icon/spine").position)
+
+	return Vector3(slot2.x, slot2.y, 0)
+end
+
 function slot0.GetBodyMask(slot0, slot1)
 	return slot0.bodyMasks[slot1]
 end
@@ -114,10 +125,14 @@ function slot0.EnableTrigger(slot0, slot1)
 	slot0.dragAgent:Enable(slot1)
 end
 
-function slot0.InitAttachment(slot0)
+function slot0.InitAttachment(slot0, slot1)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Emit("SelectFurniture", uv0.data.id)
 	end, SFX_PANEL)
+
+	if slot1 then
+		triggerButton(slot0._tf)
+	end
 end
 
 function slot0.OnBeginDrag(slot0)
@@ -296,7 +311,7 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_POSITION_CHANGE, slot0.OnPositionUpdate)
-	_courtyard:GetView().poolMgr:GetFurniturePool():Enqueue(slot0._go)
+	slot0:GetView().poolMgr:GetFurniturePool():Enqueue(slot0._go)
 end
 
 return slot0

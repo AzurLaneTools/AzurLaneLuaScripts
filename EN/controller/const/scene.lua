@@ -10,55 +10,58 @@ SCENE = {
 	DAILYLEVEL = "scene dailylevel",
 	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	SKINATALAS = "scene skinatals",
-	NEWGUILD = "scene newguild",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	PLAYER_INFO = "scene player info",
 	SETTINGS = "scene settings",
-	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	COLLECTSHIP = "scene collect ship",
+	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	CRUSING = "crusing",
 	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
-	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	GUILD = "scene guild",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
 	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
-	AMUSEMENT_PARK = "amusement park",
+	NEWGUILD = "scene newguild",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	AMUSEMENT_PARK = "amusement park",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
-	TRANSITION = "scene transition",
+	HARBOR_BACKHILL = "HARBOR_BACKHILL",
 	MUSIC_FESTIVAL = "music festival",
+	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
+	TRANSITION = "scene transition",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
-	SINGLE_ACTIVITY = "single activity",
-	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
 	SHIP_PROFILE = "ship profile",
 	SIXTH_ANNIVERSARY_JP_HOTSPRING = "SIXTH_ANNIVERSARY_JP_HOTSPRING",
-	ACT_BOSS_SPF = "act boss spf",
+	SINGLE_ACTIVITY = "single activity",
 	TECHNOLOGY = "technology",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
+	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
+	EQUIP_CODE = "equip code",
+	ACT_BOSS_SPF = "act boss spf",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
-	RYZA_TASK = "ryza task scene",
-	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
-	RANDOM_DOCKYARD = "random dockyard",
 	EVENT = "scene event",
 	REFLUX = "reflux",
-	SUMMARY = "summary",
-	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
+	RYZA_TASK = "ryza task scene",
+	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
+	RANDOM_DOCKYARD = "random dockyard",
+	SUMMARY = "summary",
+	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
 	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	NAVALTACTICS = "naval tactics",
-	SCULPTURE = "sculpture",
-	CREATE_PLAYER = "scene create player",
-	RESOLVESHIPS = "scene resolve ships",
 	MAINUI = "scene mainUI",
-	WORLD = "scene world",
+	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
+	CREATE_PLAYER = "scene create player",
 	ACTIVITY = "scene activity",
 	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	BULLETINBOARD = "scene bulletinboard",
+	RESOLVESHIPS = "scene resolve ships",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
+	WORLD = "scene world",
 	BACKYARD = "scene court yard",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
@@ -129,7 +132,7 @@ SCENE = {
 	ACT_BOSS_BATTLE = "act boss battle",
 	NEW_SERVER_CARNIVAL = "new server carnival",
 	CARD_PAIRS = "card pairs",
-	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
+	SCULPTURE = "sculpture",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
@@ -717,6 +720,18 @@ slot0 = {
 	[SCENE.SECRET_SHIPYARD] = function (slot0, slot1)
 		slot0.mediator = SecretShipyardMediator
 		slot0.viewComponent = SecretShipyardScene
+	end,
+	[SCENE.EQUIP_CODE] = function (slot0, slot1)
+		slot0.mediator = EquipCodeMediator
+		slot0.viewComponent = EquipCodeScene
+	end,
+	[SCENE.HARBOR_BACKHILL] = function (slot0, slot1)
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = HarborBackHillScene
+	end,
+	[SCENE.TEMPESTA_MEDAL_COLLECTION] = function (slot0, slot1)
+		slot0.mediator = TempestaMedalCollectionMediator
+		slot0.viewComponent = TempestaMedalCollectionScene
 	end
 }
 
@@ -938,6 +953,17 @@ slot1 = {
 			paintingNameList = slot3,
 			finishFunc = slot1
 		})
+	end,
+	EquipCodeShareMediator = function (slot0, slot1)
+		slot2 = {}
+
+		table.insert(slot2, function (slot0)
+			pg.m02:sendNotification(GAME.EQUIP_CODE_REQUEST, {
+				shipGroupId = uv0.context.data.shipGroupId,
+				callback = slot0
+			})
+		end)
+		seriesAsync(slot2, slot1)
 	end
 }
 

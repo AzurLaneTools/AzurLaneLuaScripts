@@ -72,12 +72,21 @@ function slot0.execute(slot0, slot1)
 			}):getConfig("name")
 		end
 
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("charge_scene_buy_confirm", slot8, slot10),
-			onYes = function ()
-				uv0()
-			end
-		})
+		if _BackyardMsgBoxMgr then
+			_BackyardMsgBoxMgr:Show({
+				content = i18n("charge_scene_buy_confirm_backyard", slot8, slot10),
+				onYes = function ()
+					uv0()
+				end
+			})
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("charge_scene_buy_confirm", slot8, slot10),
+				onYes = function ()
+					uv0()
+				end
+			})
+		end
 	else
 		slot9()
 	end

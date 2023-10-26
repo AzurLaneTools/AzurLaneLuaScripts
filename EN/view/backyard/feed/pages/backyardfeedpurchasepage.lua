@@ -19,10 +19,12 @@ function slot0.OnLoaded(slot0)
 	slot0.tenBtn = slot0.calPanel:Find("ten_btn")
 	slot0.confirmBtn = slot0._tf:Find("frame/ok_btn")
 	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+	slot0.closetBtn = slot0._tf:Find("frame/close")
+	slot0._parentTF = slot0._tf.parent
 
 	setText(slot0.cancelBtn:Find("text"), i18n("word_cancel"))
 	setText(slot0.confirmBtn:Find("text"), i18n("word_ok"))
-	setText(slot0.calPanel:Find("total"), i18n("backyard_theme_total_print") .. ":")
+	setText(slot0._tf:Find("frame/title"), i18n("words_information"))
 end
 
 function slot0.OnInit(slot0)
@@ -30,6 +32,9 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cancelBtn, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.closetBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
@@ -118,6 +123,10 @@ function slot0.UpdateFood(slot0, slot1)
 
 	slot0.foodName.text = slot2.name
 	slot0.foodDesc.text = slot2.display
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)

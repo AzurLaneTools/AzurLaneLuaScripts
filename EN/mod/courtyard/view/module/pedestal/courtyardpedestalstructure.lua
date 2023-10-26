@@ -15,6 +15,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.state = uv0
 end
 
+function slot0.GetRect(slot0)
+	return slot0.parent:GetView():GetRect()
+end
+
+function slot0.IsEditModeOrIsVisit(slot0)
+	return slot0.parent:GetController():IsEditModeOrIsVisit()
+end
+
 function slot0.IsEmpty(slot0)
 	return slot0.state == uv0
 end

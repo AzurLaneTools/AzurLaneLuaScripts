@@ -78,6 +78,7 @@ slot0._INITED = "CourtYardEvent:_INITED"
 slot0._NO_POS_TO_ADD_SHIP = "CourtYardEvent:_NO_POS_TO_ADD_SHIP"
 slot0._TOUCH_SHIP = "CourtYardEvent:_TOUCH_SHIP"
 slot0._ADD_ITEM_FAILED = "CourtYardEvent:_ADD_ITEM_FAILED"
+slot0._FURNITURE_SELECTED = "CourtYardEvent:_FURNITURE_SELECTED"
 slot0._FEAST_INTERACTION = "CourtYardEvent:_Feast_INTERACTION"
 
 return slot0

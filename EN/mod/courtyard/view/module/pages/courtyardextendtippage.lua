@@ -14,13 +14,16 @@ function slot0.OnLoaded(slot0)
 	slot0.itemTF = findTF(slot0._tf, "frame")
 	slot0.okBtn = findTF(slot0._tf, "frame/ok_btn")
 	slot0.cancelBtn = findTF(slot0._tf, "frame/cancel_btn")
+	slot0.closeBtn = findTF(slot0._tf, "frame/close")
+	slot0._parent = slot0._tf.parent
 
-	setText(slot0.okBtn:Find("text"), i18n("word_ok"))
-	setText(slot0.cancelBtn:Find("text"), i18n("word_cancel"))
+	setText(slot0.okBtn:Find("Text"), i18n("word_ok"))
+	setText(slot0.cancelBtn:Find("Text"), i18n("word_cancel"))
 	setText(slot0:findTF("frame/tip_1/text_1"), i18n("backyard_extend_tip_1"))
 	setText(slot0:findTF("frame/tip_1/text_2"), i18n("backyard_extend_tip_2"))
 	setText(slot0:findTF("frame/tip_2/text_1"), i18n("backyard_extend_tip_3"))
 	setText(slot0:findTF("frame/tip_2/text_2"), i18n("backyard_extend_tip_4"))
+	setText(slot0:findTF("frame/title"), i18n("words_information"))
 end
 
 function slot0.OnInit(slot0)
@@ -32,6 +35,9 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
+		uv0:Hide()
+	end, SFX_CANCEL)
+	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 end
@@ -49,9 +55,6 @@ function slot0.Show(slot0)
 	end
 
 	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
 	setText(slot0.text1, slot3.text1)
 	setText(slot0.text2, setColorStr(slot3.text2, COLOR_GREEN))
 	setText(slot0.text3, slot3.text3)
@@ -62,6 +65,7 @@ function slot0.Show(slot0)
 		type = DROP_TYPE_ITEM,
 		id = slot1.id
 	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot0.showing = true
 end
@@ -71,7 +75,7 @@ function slot0.Hide(slot0)
 		slot0.showing = false
 
 		setActive(slot0._tf, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parent)
 	end
 end
 

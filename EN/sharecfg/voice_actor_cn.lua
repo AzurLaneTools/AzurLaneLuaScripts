@@ -1499,5 +1499,25 @@ pg.voice_actor_CN = {
 	[382] = {
 		code = 382,
 		actor_name = "Mio Nonaka"
+	},
+	[383] = {
+		code = 383,
+		actor_name = "仓持若菜"
+	},
+	[384] = {
+		code = 384,
+		actor_name = "HINATA YUKA"
+	},
+	[385] = {
+		code = 385,
+		actor_name = "佐藤日向"
+	},
+	[386] = {
+		code = 386,
+		actor_name = "川口莉奈"
+	},
+	[387] = {
+		code = 387,
+		actor_name = "叶山郁美"
 	}
 }

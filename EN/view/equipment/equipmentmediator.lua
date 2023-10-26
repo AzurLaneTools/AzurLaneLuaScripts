@@ -142,7 +142,7 @@ function slot0.register(slot0)
 	else
 		slot3 = slot0.equipmentProxy:getEquipments(true)
 
-		for slot7, slot8 in pairs(slot1:getEquipsInShips()) do
+		for slot7, slot8 in ipairs(slot1:getEquipsInShips()) do
 			table.insert(slot3, slot8)
 		end
 

@@ -13,7 +13,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lvTxt = slot0.detailTF:Find("top/level"):GetComponent(typeof(Text))
 	slot0.shipType = slot0.detailTF:Find("top/type")
 	slot0.propsTr = slot0.detailTF:Find("info")
-	slot0.propsTr1 = slot0.detailTF:Find("info1")
 	slot0.nameTxt = slot0.detailTF:Find("name_mask/name")
 	slot0.frame = slot0.content:Find("front/frame")
 	slot0.UIlist = UIItemList.New(slot0.content:Find("front/stars"), slot0.content:Find("front/stars/star_tpl"))
@@ -21,7 +20,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.proposeMark = slot0.content:Find("front/propose")
 	slot0.otherBg = slot0.content:Find("front/bg_other")
 
-	setActive(slot0.propsTr1, false)
 	setActive(slot0.shipState, false)
 
 	slot0.loader = AutoLoader.New()
@@ -69,21 +67,6 @@ end
 function slot0.updateProps(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr:GetChild(slot5)
-
-		if slot5 < #slot1 then
-			slot6.gameObject:SetActive(true)
-
-			slot6:GetChild(0):GetComponent("Text").text = slot1[slot5 + 1][1]
-			slot6:GetChild(1):GetComponent("Text").text = slot1[slot5 + 1][2]
-		else
-			slot6.gameObject:SetActive(false)
-		end
-	end
-end
-
-function slot0.updateProps1(slot0, slot1)
-	for slot5 = 0, 2 do
-		slot6 = slot0.propsTr1:GetChild(slot5)
 
 		if slot5 < #slot1 then
 			slot6.gameObject:SetActive(true)

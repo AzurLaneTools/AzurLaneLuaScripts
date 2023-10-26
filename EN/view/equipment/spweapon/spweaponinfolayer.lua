@@ -92,7 +92,7 @@ function slot0.didEnter(slot0)
 	slot0.isShowUnique = table.contains(uv0.SHOW_UNIQUE, slot1)
 
 	onButton(slot0, slot0._tf:Find("bg"), function ()
-		uv0:emit(uv1.ON_CLOSE)
+		uv0:closeView()
 	end, SOUND_BACK)
 	slot0:initAndSetBtn(slot1)
 
@@ -161,10 +161,15 @@ function slot0.initAndSetBtn(slot0, slot1)
 		setText(slot0.replaceConfirmBtn:Find("label"), i18n("msgbox_text_confirm"))
 		setText(slot0.replaceCancelBtn:Find("label"), i18n("msgbox_text_cancel"))
 		onButton(slot0, slot0.replaceCancelBtn, function ()
-			uv0:emit(uv1.ON_CLOSE)
+			uv0:closeView()
 		end, SFX_CANCEL)
 		onButton(slot0, slot0.replaceConfirmBtn, function ()
-			uv0:emit(SpWeaponInfoMediator.ON_EQUIP)
+			if uv0.contextData.quickCallback then
+				uv0.contextData.quickCallback()
+				uv0:closeView()
+			else
+				uv0:emit(SpWeaponInfoMediator.ON_EQUIP)
+			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif slot1 == uv0.TYPE_DISPLAY then
 		slot0.displayEquipTF = slot0:findTF("equipment", slot0.displayPanel) or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
@@ -304,7 +309,7 @@ function slot0.willExit(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	slot0:emit(uv0.ON_CLOSE)
+	slot0:closeView()
 end
 
 return slot0

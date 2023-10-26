@@ -19,6 +19,9 @@ pg.shop_furniture_relation = setmetatable({
 		},
 		[200006] = {
 			70715
+		},
+		[200009] = {
+			70921
 		}
 	},
 	all = {
@@ -27,7 +30,8 @@ pg.shop_furniture_relation = setmetatable({
 		70629,
 		70671,
 		70700,
-		70715
+		70715,
+		70921
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -117,6 +121,25 @@ pg.base.shop_furniture_relation = {
 			},
 			{
 				-54,
+				-20
+			}
+		}
+	},
+	[70921] = {
+		fur_id = 200009,
+		id = 70921,
+		desc = "金鹿号——古堡中的恐怖淑女",
+		scale = {
+			1,
+			0.9
+		},
+		position = {
+			{
+				-65,
+				-165
+			},
+			{
+				-15,
 				-20
 			}
 		}

@@ -1,8 +1,13 @@
 slot0 = class("CourtYardDispatcher")
 
-function slot0.Ctor(slot0)
+function slot0.Ctor(slot0, slot1)
+	slot0.host = slot1
 	slot0.__callbacks = {}
 	slot0.__list = {}
+end
+
+function slot0.GetHost(slot0)
+	return slot0.host
 end
 
 function slot0.AddListener(slot0, slot1, slot2)

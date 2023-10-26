@@ -124,7 +124,7 @@ slot1 = {
 }
 
 function slot0.OnFeastShipBubbleInterAction(slot0, slot1)
-	slot2 = _courtyard:GetView().poolMgr
+	slot2 = slot0:GetView().poolMgr
 	slot5 = slot2["Get" .. (uv0[slot1] or uv0[1]) .. "Pool"](slot2):Dequeue()
 
 	slot5.transform:SetParent(slot0._tf, false)

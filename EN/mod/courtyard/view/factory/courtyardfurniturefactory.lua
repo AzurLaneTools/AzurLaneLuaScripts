@@ -1,16 +1,17 @@
 slot0 = class("CourtYardFurnitureFactory")
 
-function slot0.Ctor(slot0)
+function slot0.Ctor(slot0, slot1)
+	slot0.poolMgr = slot1
 	slot0.caches = {}
 	slot0.jobs = {}
 
-	table.insert(slot0.jobs, CourtYardFurnitureJob.New(function ()
+	table.insert(slot0.jobs, CourtYardFurnitureJob.New(slot0.poolMgr, function ()
 		uv0:OnJobFinish()
 	end))
 end
 
 function slot0.Make(slot0, slot1)
-	slot2 = _courtyard:GetView().poolMgr:GetFurniturePool():Dequeue()
+	slot2 = slot0.poolMgr:GetFurniturePool():Dequeue()
 	slot3 = nil
 
 	table.insert(slot0.caches, {

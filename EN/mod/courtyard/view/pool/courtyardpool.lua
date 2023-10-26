@@ -1,16 +1,16 @@
 slot0 = class("CourtYardPool")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
-	slot0.prefab = slot1
-	slot0.parentTF = _courtyard:GetView().poolRoot
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+	slot0.prefab = slot2
+	slot0.parentTF = slot1
 
 	GetOrAddComponent(slot0.prefab, typeof(CanvasGroup))
 	slot0.prefab.transform:SetParent(slot0.parentTF, false)
 
 	slot0.layer = slot0.parentTF.gameObject.layer
 	slot0.items = {}
-	slot0.max = slot3
-	slot0.initCnt = slot2
+	slot0.max = slot4
+	slot0.initCnt = slot3
 
 	slot0:Init()
 end

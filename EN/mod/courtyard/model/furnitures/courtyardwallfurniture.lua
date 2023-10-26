@@ -1,9 +1,9 @@
 slot0 = class("CourtYardWallFurniture", import(".CourtYardFurniture"))
 
-function slot0.Ctor(slot0, slot1)
-	pg.furniture_data_template[slot1.configId or slot1.id].size[2] = 1
+function slot0.Ctor(slot0, slot1, slot2)
+	pg.furniture_data_template[slot2.configId or slot2.id].size[2] = 1
 
-	uv0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.Init(slot0, slot1)
@@ -68,7 +68,7 @@ function slot0.Rotate(slot0)
 end
 
 function slot0.InActivityRange(slot0, slot1)
-	return (slot1.x == _courtyard:GetController():GetStorey():GetRange().x or slot1.y == slot2.y) and slot1.x ~= slot1.y
+	return (slot1.x == slot0:GetHost():GetStorey():GetRange().x or slot1.y == slot2.y) and slot1.x ~= slot1.y
 end
 
 function slot0.LeftDirectionLimited(slot0)
@@ -80,7 +80,7 @@ function slot0.RightDirectionLimited(slot0)
 end
 
 function slot0.NormalizePosition(slot0, slot1, slot2)
-	slot3 = _courtyard:GetController():GetStorey():GetRange().x
+	slot3 = slot0:GetHost():GetStorey():GetRange().x
 	slot4 = slot0:_GetDirection(slot1) == 1
 	slot6 = math.max(slot2, math.min((slot4 and Vector2(slot1.x, slot1.y) or Vector2(slot1.y, slot1.x)).x, slot3 - slot0:GetWidth()))
 	slot8 = slot4 and Vector2(slot6, slot3) or Vector2(slot3, slot6)

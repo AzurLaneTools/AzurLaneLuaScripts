@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.pudding = false
 	slot0.completion = false
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
-	slot0.rect = _courtyard:GetView():GetRect()
+	slot0.rect = slot0:GetView():GetRect()
 	slot0.floor = slot0.rect:Find("floor")
 	slot0.wall = slot0.rect:Find("wall")
 	slot0.mat = slot0.rect:Find("carpet")
@@ -40,7 +40,7 @@ function slot0.OnIconLoaed(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.dragAgent = CourtYardDragAgent.New(slot0)
+	slot0.dragAgent = CourtYardDragAgent.New(slot0, slot0:GetView():GetRect())
 	slot0.completion = true
 end
 

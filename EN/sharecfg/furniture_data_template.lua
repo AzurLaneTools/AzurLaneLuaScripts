@@ -129,6 +129,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100003,
 			100004,
@@ -169,12 +171,14 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100042,
 			100043,
+			100047,
 			200001,
 			200002,
 			200003,
 			200004,
 			200005,
 			200006,
+			200009,
 			12002,
 			12102,
 			12103,
@@ -2907,6 +2911,49 @@ pg.furniture_data_template = setmetatable({
 			303117,
 			303118,
 			303119
+		},
+		[104] = {
+			304001,
+			304002,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131,
+			304201,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307
 		}
 	},
 	get_id_list_by_tag = {
@@ -4647,7 +4694,37 @@ pg.furniture_data_template = setmetatable({
 			303116,
 			303117,
 			303118,
-			303119
+			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130
 		},
 		{
 			1108,
@@ -4809,7 +4886,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1,
@@ -4936,6 +5014,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100003,
 			100004,
@@ -4976,6 +5056,7 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100042,
 			100043,
+			100047,
 			31101,
 			54104,
 			54105
@@ -4991,6 +5072,7 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200009,
 			13101,
 			13126,
 			13127,
@@ -5150,7 +5232,8 @@ pg.furniture_data_template = setmetatable({
 			302129,
 			302130,
 			303101,
-			303102
+			303102,
+			304131
 		},
 		[4] = {
 			1001,
@@ -5241,7 +5324,8 @@ pg.furniture_data_template = setmetatable({
 			300001,
 			301001,
 			302001,
-			303001
+			303001,
+			304001
 		},
 		[3] = {
 			1002,
@@ -5333,7 +5417,8 @@ pg.furniture_data_template = setmetatable({
 			300002,
 			301002,
 			302002,
-			303002
+			303002,
+			304002
 		},
 		[5] = {
 			1301,
@@ -5646,7 +5731,14 @@ pg.furniture_data_template = setmetatable({
 			302301,
 			302302,
 			302303,
-			302304
+			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307
 		}
 	},
 	get_id_list_by_type = {
@@ -5740,7 +5832,8 @@ pg.furniture_data_template = setmetatable({
 			300002,
 			301002,
 			302002,
-			303002
+			303002,
+			304002
 		},
 		[7] = {
 			1,
@@ -5848,6 +5941,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100004,
 			100005,
@@ -5876,7 +5971,8 @@ pg.furniture_data_template = setmetatable({
 			100039,
 			100040,
 			100041,
-			100043
+			100043,
+			100047
 		},
 		[2] = {
 			120,
@@ -5901,6 +5997,7 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200009,
 			1102,
 			1103,
 			1104,
@@ -7612,7 +7709,36 @@ pg.furniture_data_template = setmetatable({
 			303116,
 			303117,
 			303118,
-			303119
+			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304116,
+			304117,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131
 		},
 		[11] = {
 			131,
@@ -7768,7 +7894,8 @@ pg.furniture_data_template = setmetatable({
 			300001,
 			301001,
 			302001,
-			303001
+			303001,
+			304001
 		},
 		[5] = {
 			1101,
@@ -7906,7 +8033,9 @@ pg.furniture_data_template = setmetatable({
 			98105,
 			98138,
 			300109,
-			302111
+			302111,
+			304115,
+			304118
 		},
 		[3] = {
 			1108,
@@ -8069,7 +8198,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1301,
@@ -8378,7 +8508,13 @@ pg.furniture_data_template = setmetatable({
 			302301,
 			302302,
 			302303,
-			302304
+			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304307
 		},
 		[8] = {
 			17121
@@ -8399,7 +8535,8 @@ pg.furniture_data_template = setmetatable({
 			33301,
 			38301,
 			76305,
-			98302
+			98302,
+			304306
 		},
 		[12] = {
 			46131
@@ -8534,6 +8671,8 @@ pg.furniture_data_template = setmetatable({
 		259,
 		260,
 		263,
+		264,
+		265,
 		100002,
 		100003,
 		100004,
@@ -8574,12 +8713,14 @@ pg.furniture_data_template = setmetatable({
 		100041,
 		100042,
 		100043,
+		100047,
 		200001,
 		200002,
 		200003,
 		200004,
 		200005,
 		200006,
+		200009,
 		1001,
 		1002,
 		1101,
@@ -11129,7 +11270,48 @@ pg.furniture_data_template = setmetatable({
 		303116,
 		303117,
 		303118,
-		303119
+		303119,
+		304001,
+		304002,
+		304101,
+		304102,
+		304103,
+		304104,
+		304105,
+		304106,
+		304107,
+		304108,
+		304109,
+		304110,
+		304111,
+		304112,
+		304113,
+		304114,
+		304115,
+		304116,
+		304117,
+		304118,
+		304119,
+		304120,
+		304121,
+		304122,
+		304123,
+		304124,
+		304125,
+		304126,
+		304127,
+		304128,
+		304129,
+		304130,
+		304131,
+		304201,
+		304301,
+		304302,
+		304303,
+		304304,
+		304305,
+		304306,
+		304307
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17197,6 +17379,101 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[264] = {
+		effect = "",
+		name = "璀璨航针",
+		gain_by = "飓风与青春之泉",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/fengfanxunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "此为初见的象征，亦为再会的信物。我心中的人啊，愿海风永远与你同行。\n——「飓风与青春之泉」活动纪念章 ",
+		tag = 6,
+		icon = "fengfanxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 264,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[265] = {
+		effect = "",
+		name = "命运之骰",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "——骰子已经掷出了。",
+		tag = 6,
+		icon = "shimiantouicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 0,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 265,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shimiantou",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8",
+						"action9"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -20060,6 +20337,86 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[100047] = {
+		effect = "",
+		name = "啾啾斗篷魔术",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "看我大变活人啾！",
+		themeId = 0,
+		icon = "yinxingmoshubuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100047,
+		can_rotate = 0,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxingmoshubuB",
+				"normal"
+			},
+			{
+				"yinxingmoshubuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		effect = "",
 		name = "The Conquered Unhulde's Throne",
@@ -20555,6 +20912,90 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[200009] = {
+		effect = "",
+		name = "万圣夜舞台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "一个人就能演出整支乐队的效果！",
+		themeId = 0,
+		icon = "furniture_jinluhao_2icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 0,
+		tag = 7,
+		comfortable = 0,
+		belong = 1,
+		canputon = 0,
+		id = 200009,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_jinluhao_2B",
+				"normal"
+			},
+			{
+				"furniture_jinluhao_2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					9600031
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -131721,6 +132162,1767 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"yinghuobgyx",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[304001] = {
+		icon = "dibanhdcicon",
+		name = "Pirate Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 104,
+		picture = "hdc/dibanhdc",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Feels like a home away from home!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 304001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304002] = {
+		icon = "qiangbihdcicon",
+		name = "Pirate Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 104,
+		picture = "hdc/qiangbihdc",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "A bit fancier than the crewmates' quarter.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 304002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304101] = {
+		effect = "",
+		name = "Pirate Treasure Chest",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/baoxianghdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Shiver me timbers! That's a lot of loot!",
+		tag = 1,
+		icon = "baoxianghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304102] = {
+		effect = "",
+		name = "Steering Wheel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/chuanduohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Turn portside!",
+		tag = 1,
+		icon = "chuanduohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304103] = {
+		effect = "",
+		name = "Pirate Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanghdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's nailed to the floor so when the waves rock the ship, it won't slide around.",
+		tag = 1,
+		icon = "chuanghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304103,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3,
+					13
+				},
+				{
+					1,
+					1
+				},
+				"hdc/chuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304104] = {
+		effect = "",
+		name = "Piratejuu Crew Member",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/chuanyuanjiuhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Oi! That git drank me beer!\"",
+		tag = 1,
+		icon = "chuanyuanjiuhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304105] = {
+		effect = "",
+		name = "Piratejuu Captain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/chuanzhangjiuhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't ask him how he lost those parts (he didn't.)",
+		tag = 1,
+		icon = "chuanzhangjiuhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304106] = {
+		effect = "",
+		name = "Pirate Ship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dachuanhdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Never forget – do what you want, 'cause a pirate is free!",
+		tag = 1,
+		icon = "dachuanhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304106,
+		can_rotate = 0,
+		size = {
+			5,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-302,
+					10.7
+				},
+				{
+					1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			},
+			{
+				"dance",
+				{
+					111.8,
+					-226.3
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304107] = {
+		effect = "",
+		name = "Pirate Cannon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/dapaohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Loaded, aye? Fire!",
+		tag = 1,
+		icon = "dapaohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304107,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304108] = {
+		effect = "",
+		name = "Golden Pirate Cannon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/dapao2hdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Loaded, aye? Fire!",
+		tag = 1,
+		icon = "dapao2hdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304108,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304109] = {
+		effect = "",
+		name = "Pirate Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dashafahdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Had too much beer? Lie down over here.",
+		tag = 1,
+		icon = "dashafahdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304109,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.8,
+					16.6
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dashafahdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304110] = {
+		effect = "",
+		name = "Pirate Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/dazhuozihdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A mix of frugality and ingenuity.",
+		tag = 1,
+		icon = "dazhuozihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 304110,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {
+			0,
+			-11.4
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304111] = {
+		effect = "",
+		name = "Pirate Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/denghdc",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Helps you at least see the floor beneath your feet.",
+		tag = 1,
+		icon = "denghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304112] = {
+		effect = "",
+		name = "Miniature Lighthouse",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/dengtahdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's too small to light the way, but it does raise crew morale.",
+		tag = 1,
+		icon = "dengtahdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304112,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304113] = {
+		effect = "",
+		name = "Pirate Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dengzihdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The captain promised we'll upgrade to chairs with backrests after the next successful raid.",
+		tag = 1,
+		icon = "dengzihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					60.5
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304114] = {
+		effect = "",
+		name = "Seaside Hammock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/diaochuanghdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Now you can bring the beach with you on your voyages.",
+		tag = 1,
+		icon = "diaochuanghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304114,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					9.7,
+					-36.4
+				},
+				{
+					1,
+					1
+				},
+				"hdc/diaochuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304115] = {
+		effect = "",
+		name = "Pirate Trapdoor",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/dilonghdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It leads to a secret extra hold.",
+		tag = 1,
+		icon = "dilonghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304115,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304116] = {
+		effect = "",
+		name = "Pirate Globe",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/diqiuyihdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Where to next, Cap'n?",
+		tag = 1,
+		icon = "diqiuyihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304117] = {
+		effect = "",
+		name = "Pirate Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/gongzuozhuohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Shh! The quartermaster is trying to work!",
+		tag = 1,
+		icon = "gongzuozhuohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304117,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304118] = {
+		effect = "",
+		name = "Sea Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/haishuihdc",
+		count = 8,
+		is_3d_obj = 0,
+		describe = "A faithful replication, though not quite as wet.",
+		tag = 1,
+		icon = "haishuihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304118,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304119] = {
+		effect = "",
+		name = "Golden Steering Wheel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/jinchuanduohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "When the pirate life pays off, it pays off bigtime.",
+		tag = 1,
+		icon = "jinchuanduohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304119,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304120] = {
+		effect = "",
+		name = "Golden Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/jinyuganghdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Look! I'm swimming in cash!\"",
+		tag = 1,
+		icon = "jinyuganghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304120,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0.8,
+					-23.8
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/jinyuganghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304121] = {
+		effect = "",
+		name = "Pirate Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/loutihdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Drunk crewmates will definitely want to hold the railing and watch their step.",
+		tag = 1,
+		icon = "loutihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304121,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304122] = {
+		effect = "",
+		name = "Pirate Compass",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/luopanhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This little baby is delicate. No brawling near it, ya hear?",
+		tag = 1,
+		icon = "luopanhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304123] = {
+		effect = "",
+		name = "Pirate Cannon Balls",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/paodanhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Keep stored in a dry place, and be careful when you haul them.",
+		tag = 1,
+		icon = "paodanhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304123,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304124] = {
+		effect = "",
+		name = "Shark Hatch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/shayuhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Alright, who's the landlubber keeping a shark as a pet in the lower hold?",
+		tag = 1,
+		icon = "shayuhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304124,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304125] = {
+		effect = "",
+		name = "Pirate Telescope",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/wangyuanjinghdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Cap'n! I can see land!\"",
+		tag = 1,
+		icon = "wangyuanjinghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304126] = {
+		effect = "",
+		name = "Pirate Boat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/xiaochuanhdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If a ship is a lady, are her boats her children?",
+		tag = 1,
+		icon = "xiaochuanhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304126,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					12.9,
+					-2.1
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/xiaochuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304127] = {
+		effect = "",
+		name = "Small Pirate Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/xiaozhuohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A simple construction that fits right in on a ship.",
+		tag = 1,
+		icon = "xiaozhuohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 304127,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			5.83
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304128] = {
+		effect = "",
+		name = "Pirate Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/yizihdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't throw these around just because you got into an argument!",
+		tag = 1,
+		icon = "yizihdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304128,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					18,
+					27.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304129] = {
+		effect = "",
+		name = "Pirate Barrel Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/zaotonghdc",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The most practical way to bathe in the middle of the sea.",
+		tag = 1,
+		icon = "zaotonghdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304129,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-11,
+					-12
+				},
+				{
+					1,
+					1
+				},
+				"hdc/zaotonghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304130] = {
+		effect = "",
+		name = "Square Pirate Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/zhuohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A clean table. How many beer bottles we leaving on here, eh?",
+		tag = 1,
+		icon = "zhuohdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 304130,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			1.59
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304131] = {
+		effect = "",
+		name = "Tempesta Tentacle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 104,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"This is Golden Hind. I'd like to speak to you about your ship's extended warranty~\"",
+		tag = 7,
+		icon = "chushouhdcicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304131,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chushouhdc",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[304201] = {
+		effect = "",
+		name = "Pirate Beer",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/pijiuhdc",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "Did you know beer used to be safer to drink than water for many hundreds of years?",
+		tag = 2,
+		icon = "pijiuhdcicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 304201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304301] = {
+		effect = "",
+		name = "Cargo Deck Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/chuanghuhdc",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Sometimes, you see a distant flock of seagulls through it.",
+		tag = 5,
+		icon = "chuanghuhdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304302] = {
+		effect = "",
+		name = "Pirate Map",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/hanghaituhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Where in the world ARE we?",
+		tag = 5,
+		icon = "hanghaituhdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304303] = {
+		effect = "",
+		name = "Pirate Beer Cellar",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/jiujiaohdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You can smell the beer even from the top deck. Whether that's a good or a bad thing depends on you.",
+		tag = 5,
+		icon = "jiujiaohdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304304] = {
+		effect = "",
+		name = "Pirate Candle",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/lazhuhdc",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "A necessary danger in the hold of a wood ship.",
+		tag = 5,
+		icon = "lazhuhdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304305] = {
+		effect = "",
+		name = "Cabin Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/menhdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"Close the door! I don't want no wind getting in!\"",
+		tag = 5,
+		icon = "menhdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304306] = {
+		effect = "",
+		name = "Nighttime View",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/yekonghdc",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A clean view of the night sky. Perfect for a night battle, wouldn't you say?",
+		tag = 5,
+		icon = "yekonghdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304306,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304307] = {
+		effect = "",
+		name = "Fishing Net",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 104,
+		is_get_time_note = 0,
+		picture = "hdc/yuwanghdc",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Taking advantage of the sea's bounty is a great way to save on rations.",
+		tag = 5,
+		icon = "yuwanghdcicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 304307,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

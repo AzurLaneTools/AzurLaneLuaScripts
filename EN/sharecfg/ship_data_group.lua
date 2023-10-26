@@ -1634,6 +1634,21 @@ pg.ship_data_group = setmetatable({
 		[960001] = {
 			571
 		},
+		[960002] = {
+			613
+		},
+		[960003] = {
+			610
+		},
+		[960004] = {
+			611
+		},
+		[960005] = {
+			614
+		},
+		[960006] = {
+			612
+		},
 		[1010001] = {
 			10001
 		},
@@ -2504,6 +2519,11 @@ pg.ship_data_group = setmetatable({
 		418,
 		555,
 		571,
+		613,
+		610,
+		611,
+		614,
+		612,
 		10001,
 		10002,
 		10003,
@@ -26080,6 +26100,166 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"Event: Halloween Hijinks",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[613] = {
+		type = 24,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 546,
+		code = 613,
+		group_type = 960002,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[610] = {
+		type = 23,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 547,
+		code = 610,
+		group_type = 960003,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[611] = {
+		type = 22,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 548,
+		code = 611,
+		group_type = 960004,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[614] = {
+		type = 22,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 549,
+		code = 614,
+		group_type = 960005,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[612] = {
+		type = 23,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 550,
+		code = 612,
+		group_type = 960006,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},

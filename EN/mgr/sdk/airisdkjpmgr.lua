@@ -458,10 +458,6 @@ return {
 
 			originalPrint("SDK Error Code:" .. slot1)
 
-			if slot1 == 100215 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("tw_unsupport_tip"))
-			end
-
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)
 			else

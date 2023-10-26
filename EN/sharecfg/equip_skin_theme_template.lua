@@ -1046,6 +1046,30 @@ pg.equip_skin_theme_template = {
 			847
 		}
 	},
+	[51] = {
+		id = 51,
+		name = "Pirate Gathering",
+		ids = {
+			850,
+			851,
+			852,
+			853,
+			854,
+			855,
+			856,
+			857,
+			858,
+			859,
+			860,
+			861,
+			862,
+			863,
+			864,
+			865,
+			866,
+			867
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1178,6 +1202,7 @@ pg.equip_skin_theme_template = {
 		48,
 		49,
 		50,
+		51,
 		101,
 		102,
 		103,

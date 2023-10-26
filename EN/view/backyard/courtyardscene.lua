@@ -12,6 +12,12 @@ function slot0.PlayBGM(slot0)
 	pg.BgmMgr.GetInstance():StopPlay()
 end
 
+function slot0.preload(slot0, slot1)
+	_BackyardMsgBoxMgr = BackyardMsgBoxMgr.New()
+
+	_BackyardMsgBoxMgr:Init(slot0, slot1)
+end
+
 function slot0.SetDorm(slot0, slot1)
 	slot0.dorm = slot1
 end
@@ -30,7 +36,7 @@ function slot0.init(slot0)
 	slot0.mainTF = slot0:findTF("main")
 	slot0.mainCG = GetOrAddComponent(slot0.mainTF, typeof(CanvasGroup))
 	slot0.bg = slot0:findTF("bg000")
-	slot0.viewBtn = slot0:findTF("main/eye_btn")
+	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
 	slot0.emptyFoodPage = CourtYardEmptyFoodPage.New(slot0._tf, slot0.event)
 end
 
@@ -40,10 +46,6 @@ function slot0.didEnter(slot0)
 	slot0:FlushMainView()
 
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 3)
-
-	onToggle(slot0, slot0.viewBtn, function (slot0)
-		uv0:emit(CourtYardMediator.FOLD, slot0)
-	end, SFX_PANEL)
 end
 
 function slot0.OnCourtYardLoaded(slot0)
@@ -117,8 +119,10 @@ function slot0.AddVisitorShip(slot0)
 end
 
 function slot0.FoldPanel(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.panels) do
-		slot6:Fold(slot1)
+	if slot1 then
+		slot0.animation:Play("anim_courtyard_mainui_hide")
+	else
+		slot0.animation:Play("anim_courtyard_mainui_in")
 	end
 end
 
@@ -126,8 +130,6 @@ function slot0.OnEnterOrExitEdit(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.panels) do
 		slot6:OnEnterOrExitEdit(slot1)
 	end
-
-	setActive(slot0.viewBtn, not slot1)
 
 	Input.multiTouchEnabled = not slot1
 end
@@ -177,6 +179,10 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	_BackyardMsgBoxMgr:Destroy()
+
+	_BackyardMsgBoxMgr = nil
+
 	for slot4, slot5 in ipairs(slot0.panels) do
 		slot5:Detach()
 	end
@@ -194,6 +200,8 @@ function slot0.willExit(slot0)
 	if slot0.contextData.mode ~= CourtYardConst.SYSTEM_VISIT then
 		pg.m02:sendNotification(GAME.OPEN_ADD_EXP, 0)
 	end
+
+	getProxy(DormProxy):ClearNewFlag()
 end
 
 return slot0

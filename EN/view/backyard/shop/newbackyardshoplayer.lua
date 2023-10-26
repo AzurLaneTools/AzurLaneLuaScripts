@@ -35,10 +35,8 @@ function slot10(slot0, slot1, slot2)
 		uv1.btn = uv3
 	end, SFX_PANEL)
 	(function (slot0, slot1)
-		setActive(slot0:Find("btn_di"), slot1)
-		setAnchoredPosition(slot0:Find("Text"), {
-			x = slot1 and 18 or 0
-		})
+		setActive(slot0:Find("sel"), slot1)
+		setActive(slot0:Find("unsel"), not slot1)
 	end)(slot1, false)
 end
 
@@ -83,18 +81,15 @@ end
 
 function slot0.init(slot0)
 	slot0.pageContainer = slot0:findTF("pages")
-	slot0.btnTpl = slot0:findTF("adpter/list/tpl")
-	slot0.btnContainer = slot0:findTF("adpter/list")
+	slot0.adpter = slot0:findTF("adpter")
+	slot0.btnTpl = slot0:findTF("adpter/tag/list/tpl")
+	slot0.btnContainer = slot0:findTF("adpter/tag/list")
 	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
 	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
 	slot1 = slot0:findTF("adpter/top/res_gem/Text")
 	slot0.gemTxt = slot1:GetComponent(typeof(Text))
 	slot0.goldAddBtn = slot0:findTF("adpter/top/res_gold/jiahao")
 	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
-
-	SetActive(slot0:findTF("adpter/top/top_word1"), false)
-	SetActive(slot0:findTF("adpter/top/top_word"), true)
-
 	slot0.help = slot0:findTF("adpter/top/help")
 	slot0.themePage = BackYardThemePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	slot0.furniturePage = BackYardFurniturePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
@@ -115,6 +110,10 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
+		if uv0.contextData.onDeattch then
+			uv0.contextData.onDeattch()
+		end
+
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.help, function ()
@@ -129,6 +128,15 @@ function slot0.didEnter(slot0)
 	slot0:InitPageFooter()
 	slot0:UpdateRes()
 	triggerButton(slot0.btns[slot0.contextData.page or uv1])
+
+	if slot0.contextData.topLayer then
+		slot2 = GetOrAddComponent(slot0._tf, typeof(Canvas))
+		slot2.overrideSorting = true
+		slot2.sortingOrder = 900
+
+		GetOrAddComponent(slot0._tf, typeof(GraphicRaycaster))
+	end
+
 	getProxy(SettingsProxy):UpdateNewThemeValue()
 end
 
@@ -137,13 +145,44 @@ function slot0.UpdateRes(slot0)
 	slot0.gemTxt.text = slot0.player:getTotalGem()
 end
 
+slot11 = {
+	"0",
+	"1",
+	"4",
+	"2",
+	"8",
+	"3",
+	"6",
+	"7"
+}
+
 function slot0.InitPageFooter(slot0)
 	slot0.btns = {}
 
 	for slot4, slot5 in ipairs(slot0.pages) do
 		slot6 = cloneTplTo(slot0.btnTpl, slot0.btnContainer)
+		slot7 = slot6:Find("unsel")
+		slot7 = slot7:GetComponent(typeof(Image))
+		slot7.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "text_tag" .. slot4 - 1)
 
-		setText(slot6:Find("Text"), uv0(slot4))
+		slot7:SetNativeSize()
+
+		slot8 = slot6:Find("sel/Text")
+		slot8 = slot8:GetComponent(typeof(Image))
+		slot8.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "text_tag" .. slot4 - 1)
+
+		slot8:SetNativeSize()
+
+		slot10 = slot6:Find("sel/icon")
+		slot10 = slot10:GetComponent(typeof(Image))
+
+		LoadSpriteAtlasAsync("ui/CourtyardUI_atlas", "icon_" .. uv0[slot4], function (slot0)
+			if uv0.exited then
+				return
+			end
+
+			uv1.sprite = slot0
+		end)
 		uv1(slot0, slot6, function ()
 			if uv0.pageType == uv1 then
 				return
@@ -157,7 +196,10 @@ function slot0.InitPageFooter(slot0)
 				uv0.pages[uv0.pageType]:Hide()
 			end
 
-			uv2:ExecuteAction("SetUp", uv1, uv0.dorm, uv0.player)
+			slot0 = uv2
+
+			slot0:ExecuteAction("SetUp", uv1, uv0.dorm, uv0.player, function ()
+			end)
 
 			uv0.pageType = uv1
 
@@ -181,9 +223,7 @@ function slot0.UpdateSpecialPageFooter(slot0)
 end
 
 function slot0.willExit(slot0)
-	if slot0.contextData.onDeattch then
-		slot0.contextData.onDeattch()
-	end
+	slot0.isOverlay = false
 
 	slot0.contextData.filterPanel:Destroy()
 	slot0.themePage:Destroy()

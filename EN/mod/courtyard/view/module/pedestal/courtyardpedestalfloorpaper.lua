@@ -39,7 +39,7 @@ function slot0.OnLoaded(slot0, slot1)
 		slot0:InitSpine(slot1)
 	end
 
-	tf(slot1):SetSiblingIndex(_courtyard:GetView():GetRect():GetSiblingIndex())
+	tf(slot1):SetSiblingIndex(slot0:GetRect():GetSiblingIndex())
 
 	slot3 = uv0[slot0.level]
 	slot1.transform.localScale = Vector3(slot3, slot3, 1)

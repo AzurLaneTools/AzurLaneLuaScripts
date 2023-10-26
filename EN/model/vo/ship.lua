@@ -1297,9 +1297,7 @@ function slot0.IsMaxStarByTmpID(slot0)
 end
 
 function slot0.IsSpweaponUnlock(slot0)
-	if slot0:getShipType() == ShipType.FengFanS then
-		return false, "spweapon_tip_sail_locked"
-	elseif not slot0:CanAccumulateExp() then
+	if not slot0:CanAccumulateExp() then
 		return false, "spweapon_tip_locked"
 	else
 		return true

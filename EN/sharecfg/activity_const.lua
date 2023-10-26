@@ -959,5 +959,14 @@ pg.activity_const = {
 	},
 	MINIGAME_RACING_ID = {
 		act_id = 5020
+	},
+	MINIGAME_PIRATE_ID = {
+		act_id = 5047
+	},
+	PIRATE_MEDAL_ACT_ID = {
+		act_id = 5048
+	},
+	BOAT_QIAN_SHAO_ZHAN = {
+		act_id = 5023
 	}
 }

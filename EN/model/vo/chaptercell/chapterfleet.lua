@@ -147,7 +147,6 @@ function slot0.updateShips(slot0, slot1)
 	_.each(slot1 or {}, function (slot0)
 		if uv0:fetchShipVO(slot0.id) then
 			slot1.hpRant = slot0.hp_rant
-			slot1.strategies = Clone(slot0.strategies)
 			uv0.ships[slot1.id] = slot1
 
 			table.insert(uv0[slot1:getTeamType()], slot1)
@@ -171,7 +170,6 @@ function slot0.flushShips(slot0)
 	for slot7, slot8 in ipairs(_.keys(slot0.ships)) do
 		if slot0:fetchShipVO(slot8) then
 			slot9.hpRant = slot0.ships[slot8].hpRant
-			slot9.strategies = slot0.ships[slot8].strategies
 		end
 
 		slot0.ships[slot8] = slot9
@@ -206,16 +204,6 @@ function slot0.updateShipHp(slot0, slot1, slot2)
 	if slot0.ships[slot1] then
 		slot3.hpChange = slot2 - slot3.hpRant
 		slot3.hpRant = slot2
-	end
-end
-
-function slot0.updateShipStg(slot0, slot1, slot2, slot3)
-	if slot0.ships[slot1] then
-		_.each(slot4.strategies, function (slot0)
-			if slot0.id == uv0 then
-				slot0.count = uv1
-			end
-		end)
 	end
 end
 
@@ -280,7 +268,6 @@ function slot0.replaceShip(slot0, slot1, slot2)
 					slot0:removeShip(slot1)
 				else
 					slot4.hpRant = slot2.hp_rant
-					slot4.strategies = Clone(slot2.strategies)
 					slot0.ships[slot1] = nil
 					slot0.ships[slot4.id] = slot4
 
@@ -302,7 +289,6 @@ end
 function slot0.addShip(slot0, slot1)
 	if not slot0.ships[slot1.id] and slot0:fetchShipVO(slot1.id) then
 		slot2.hpRant = slot1.hp_rant
-		slot2.strategies = Clone(slot1.strategies)
 
 		if #slot0[slot2:getTeamType()] < 3 then
 			table.insert(slot3, slot2)

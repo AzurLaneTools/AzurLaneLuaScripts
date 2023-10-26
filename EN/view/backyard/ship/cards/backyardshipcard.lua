@@ -1,7 +1,7 @@
 slot0 = class("BackYardShipCard", import(".BackYardBaseCard"))
 
 function slot0.OnInit(slot0)
-	slot0.info = FormationCard.New(slot0._go)
+	slot0.info = BackYardFormationCard.New(slot0._go)
 
 	onButton(slot0, slot0._content, function ()
 		uv0:emit(NewBackYardShipInfoMediator.OPEN_CHUANWU, uv0.type, uv0.ship)
@@ -33,6 +33,27 @@ function slot0.OnFlush(slot0)
 		slot0.targteShipId = slot1.id
 	end
 
+	slot3 = slot1:getLevelExpConfig()
+	slot4 = slot0:CalcShipAddExpSpeed()
+	slot5 = {}
+
+	table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
+		if slot1 and not slot1:isEnd() then
+			slot2 = slot1:getConfig("config_data")[1][4]
+
+			_.each(slot1:getData1List(), function (slot0)
+				uv0[slot0] = (uv0[slot0] or 0) + uv1
+			end)
+		end
+	end)
+
+	slot7 = 0
+	slot8 = 0
+
+	for slot12, slot13 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+		slot8 = slot8 + tonumber(slot13:getConfig("benefit_effect"))
+	end
+
 	if slot0.type == Ship.STATE_TRAIN then
 		slot2:updateProps({
 			{
@@ -41,31 +62,22 @@ function slot0.OnFlush(slot0)
 			},
 			{
 				i18n("word_next_level"),
-				math.max(slot1:getLevelExpConfig().exp - slot1.exp, 0)
+				math.max(slot3.exp - slot1.exp, 0)
 			},
 			{
 				i18n("word_exp_chinese") .. i18n("word_get"),
-				slot0:CalcShipAddExpSpeed()
+				slot4
+			},
+			{
+				i18n("word_nowenergy"),
+				slot1.energy
+			},
+			{
+				i18n("word_energy_recov_speed"),
+				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot8 > 0 and setColorStr("+" .. 10 * slot8, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 	elseif slot0.type == Ship.STATE_REST then
-		table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
-			if slot1 and not slot1:isEnd() then
-				slot2 = slot1:getConfig("config_data")[1][4]
-
-				_.each(slot1:getData1List(), function (slot0)
-					uv0[slot0] = (uv0[slot0] or 0) + uv1
-				end)
-			end
-		end)
-
-		slot5 = slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (({})[slot1.id] or 0)
-		slot6 = 0
-
-		for slot10, slot11 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
-			slot6 = slot6 + tonumber(slot11:getConfig("benefit_effect"))
-		end
-
 		slot2:updateProps1({
 			{
 				i18n("word_lv"),
@@ -77,7 +89,7 @@ function slot0.OnFlush(slot0)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				10 * slot5 .. (slot6 > 0 and setColorStr("+" .. 10 * slot6, COLOR_GREEN) or "") .. "/h"
+				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot8 > 0 and setColorStr("+" .. 10 * slot8, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 	end

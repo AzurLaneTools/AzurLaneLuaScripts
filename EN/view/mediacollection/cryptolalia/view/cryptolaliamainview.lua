@@ -69,7 +69,7 @@ function slot0.FlushState(slot0, slot1, slot2, slot3)
 	setActive(slot0.deleteBtn, Cryptolalia.STATE_PLAYABLE == slot4)
 	setText(slot0.deleteBtn:Find("label"), i18n("cryptolalia_delete_res", slot1:GetResSize(slot2)))
 	setActive(slot0.stateBtn, Cryptolalia.STATE_PLAYABLE ~= slot4)
-	setActive(slot0.switchBtn, false)
+	setActive(slot0.switchBtn, slot4 ~= Cryptolalia.STATE_DOWNLOADING and PLATFORM_CODE == PLATFORM_CH and slot1:IsMultiVersion())
 
 	slot5 = Vector2(0, 0)
 	slot6 = Vector2(20, -9.2)
