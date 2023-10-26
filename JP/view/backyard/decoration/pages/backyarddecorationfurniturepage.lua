@@ -109,6 +109,9 @@ function slot0.OnLoaded(slot0)
 	slot0:bind(BackYardDecorationPutlistPage.SELECTED_FURNITRUE, function ()
 		uv0:ClearMark()
 	end)
+	slot0:bind(BackYardDecrationLayer.INNER_SELECTED_FURNITRUE, function (slot0, slot1)
+		uv0:Selected(slot1)
+	end)
 
 	slot1 = slot0._tf
 	slot0.scrollRect = slot1:GetComponent("LScrollRect")
@@ -200,6 +203,18 @@ function slot0.ClearMark(slot0)
 	end
 
 	slot0.selectedId = nil
+end
+
+function slot0.Selected(slot0, slot1)
+	slot0:ClearMark()
+
+	for slot5, slot6 in pairs(slot0.cards) do
+		if slot6.furniture.id == slot1 then
+			slot6:UpdateMark(slot1)
+		end
+	end
+
+	slot0.selectedId = slot1
 end
 
 function slot0.OnInitItem(slot0, slot1)

@@ -1,4 +1,5 @@
 slot0 = class("BackYardDecrationLayer", import("...base.BaseUI"))
+slot0.INNER_SELECTED_FURNITRUE = "BackYardDecrationLayer:INNER_SELECTED_FURNITRUE"
 slot1 = 1
 slot2 = 2
 slot3 = 3

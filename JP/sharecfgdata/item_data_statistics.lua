@@ -61371,7 +61371,7 @@ _G.pg.base.item_data_statistics[50003] = {
 }
 
 _G.pg.base.item_data_statistics[50004] = {
-	display = "甘口？辛口？好みは人それぞれ…<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+	display = "甘口？辛口？好みは人それぞれ…<<color=#6dd329>（60分間寮舎経験値効率が5%アップ）</color>",
 	name = "海軍カレー",
 	max_num = 0,
 	type = 3,

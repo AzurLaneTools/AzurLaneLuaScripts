@@ -12,12 +12,17 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.Init(slot0, slot1, slot2)
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn(false)
 	setActive(slot0._tf, false)
 
 	slot3 = ResourceMgr.Inst
 	slot6 = slot2:GetFirstSlot()
 
 	slot3:getAssetAsync("sfurniture/" .. slot6:GetName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		pg.UIMgr.GetInstance():LoadingOff()
+
 		if uv0.exited then
 			return
 		end
@@ -32,6 +37,7 @@ function slot0.Init(slot0, slot1, slot2)
 
 		uv0.furnitureSpineStateAnimUI = GetOrAddComponent(uv0._tf, typeof(SpineAnimUI))
 
+		uv0:OnUpdateScale(uv1)
 		uv0:OnReset(uv1)
 	end), true, true)
 end
@@ -39,6 +45,10 @@ end
 function slot0.OnInit(slot0, slot1, slot2)
 	slot0:Init(slot1, slot2)
 	setParent(slot0._tf, slot0.rectTF)
+end
+
+function slot0.OnUpdateScale(slot0, slot1)
+	slot0._tf.localScale = Vector3(CourtYardCalcUtil.GetSign(slot1._tf.localScale.x), 1, 1)
 end
 
 function slot0.OnUpdate(slot0, slot1)
