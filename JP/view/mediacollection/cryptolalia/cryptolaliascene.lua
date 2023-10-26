@@ -358,7 +358,34 @@ function slot0.ClearAuditionTimer(slot0)
 	end
 end
 
+function slot0.IsDownloading(slot0, slot1)
+	if not slot1 then
+		return false
+	end
+
+	if slot1:ExistLang(Cryptolalia.LANG_TYPE_CH) and slot0.downloadMgr:IsDownloadState(Cryptolalia.BuildCpkPath(slot1:GetCpkName(Cryptolalia.LANG_TYPE_CH))) then
+		return true
+	end
+
+	if slot1:ExistLang(Cryptolalia.LANG_TYPE_JP) and slot0.downloadMgr:IsDownloadState(Cryptolalia.BuildCpkPath(slot1:GetCpkName(Cryptolalia.LANG_TYPE_JP))) then
+		return true
+	end
+
+	return false
+end
+
 function slot0.DownloadRes(slot0, slot1)
+	slot2 = ipairs
+	slot3 = slot0.displays or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot0:IsDownloading(slot6) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("cryptolalia_download_task_already_exists", slot6:GetName()))
+
+			return
+		end
+	end
+
 	if IsUnityEditor then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
 

@@ -1,6 +1,7 @@
 slot0 = class("ShipProfileMediator", import("...base.ContextMediator"))
 slot0.CLICK_ROTATE_BTN = "ShipProfileMediator:CLICK_ROTATE_BTN"
 slot0.OPEN_CRYPTOLALIA = "ShipProfileMediator:OPEN_CRYPTOLALIA"
+slot0.OPEN_EQUIP_CODE_SHARE = "ShipProfileMediator.OPEN_EQUIP_CODE_SHARE"
 
 function slot0.register(slot0)
 	slot1 = getProxy(CollectionProxy)
@@ -68,6 +69,15 @@ function slot0.register(slot0)
 				finishCallback = function ()
 					uv0.viewComponent:onWeddingReview(false)
 				end
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_EQUIP_CODE_SHARE, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = EquipCodeShareMediator,
+			viewComponent = EquipCodeShareLayer,
+			data = {
+				shipGroupId = slot1
 			}
 		}))
 	end)

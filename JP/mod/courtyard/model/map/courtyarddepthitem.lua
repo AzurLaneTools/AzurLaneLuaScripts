@@ -1,14 +1,14 @@
 slot0 = class("CourtYardDepthItem", import("...CourtYardDispatcher"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.ob = {
-		id = slot1,
+		id = slot2,
 		type = slot0:GetDeathType()
 	}
-	slot0.initSizeX = slot2 or 0
-	slot0.initSizeY = slot3 or 0
+	slot0.initSizeX = slot3 or 0
+	slot0.initSizeY = slot4 or 0
 	slot0.sizeX = slot0.initSizeX
 	slot0.sizeY = slot0.initSizeY
 	slot0.posX = 0

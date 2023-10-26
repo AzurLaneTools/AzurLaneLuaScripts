@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5001
+			5051
 		}
 	},
 	{
@@ -59,10 +59,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4990
+			5047
 		},
 		param = {
-			"SIXTH_ANNIVERSARY_JP"
+			"HARBOR_BACKHILL"
 		}
 	},
 	[30] = {

@@ -19,8 +19,7 @@ function slot0.register(slot0)
 	slot0:on(22001, function (slot0)
 		slot1 = OilResourceField.New()
 
-		print("olilv:" .. slot0.oil_well_level .. "|" .. slot0.oil_well_lv_up_time)
-		slot1:SetLevel(slot0.oil_well_level > 0 and slot0.oil_well_level or 1)
+		slot1:SetLevel(slot0.oil_well_level)
 		slot1:SetUpgradeTimeStamp(slot0.oil_well_lv_up_time)
 
 		uv0._oilVO = slot1
@@ -287,7 +286,7 @@ end
 function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
 	slot2 = getProxy(PlayerProxy):getData()
 
-	if slot0:GetOilVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) then
+	if slot0:GetOilVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetClassVO():CanUpgrade(slot2.level, slot2.gold) then
 		return true
 	end
 

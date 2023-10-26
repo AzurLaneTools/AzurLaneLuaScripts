@@ -265,6 +265,8 @@ function slot0.execute(slot0, slot1)
 			slot5:AddBuff(ActivityBuff.New(slot5.id, slot3, pg.TimeMgr.GetInstance():GetServerTime() + slot4.max_time))
 			getProxy(ActivityProxy):updateActivity(slot5)
 		end
+	elseif slot2.dropType == DROP_TYPE_COMMANDER_CAT then
+		-- Nothing
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot2.dropType then
 		slot3 = getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot2.dropType].activity_id)
 

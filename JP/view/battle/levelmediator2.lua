@@ -942,9 +942,9 @@ function slot0.handleNotification(slot0, slot1)
 						end
 					}, function ()
 						uv0 = uv1.contextData.chapterVO
-						slot0 = uv0
+						slot0 = uv0.fleet
 
-						if _.any(slot0:getFleetStgs(uv0.fleet), function (slot0)
+						if _.any(slot0:getStrategies(), function (slot0)
 							return slot0.id == ChapterConst.StrategyExchange and slot0.count > 0
 						end) then
 							uv1.viewComponent.levelStageView:popStageStrategy()
@@ -981,9 +981,9 @@ function slot0.handleNotification(slot0, slot1)
 
 						slot0:updateBombPanel(true)
 
-						slot0 = uv1
+						slot0 = uv1.fleet
 
-						if _.any(slot0:getFleetStgs(uv1.fleet), function (slot0)
+						if _.any(slot0:getStrategies(), function (slot0)
 							return slot0.id == ChapterConst.StrategyExchange and slot0.count > 0
 						end) then
 							uv0.viewComponent.levelStageView:updateStageStrategy()

@@ -10415,6 +10415,90 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[411] = {
+		ship_group = 960002,
+		name = "São Martinho",
+		sculpture = "Shengmading_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 411,
+		id = 411,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[412] = {
+		ship_group = 960001,
+		name = "Royal Fortune",
+		sculpture = "Huangjiacaifu_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 412,
+		id = 412,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[413] = {
+		ship_group = 960004,
+		name = "Mary Celeste",
+		sculpture = "mali_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 413,
+		id = 413,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[414] = {
+		ship_group = 50207,
+		name = "HaiTien",
+		sculpture = "haitian_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 414,
+		id = 414,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[415] = {
+		ship_group = 960005,
+		name = "Whydah",
+		sculpture = "weida_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 415,
+		id = 415,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[416] = {
+		ship_group = 960003,
+		name = "Golden Hind",
+		sculpture = "jinluhao_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 416,
+		id = 416,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[417] = {
+		ship_group = 960006,
+		name = "Adventure Galley",
+		sculpture = "jialimaoxian_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 417,
+		id = 417,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -10817,6 +10901,13 @@ pg.activity_ins_template = {
 		407,
 		408,
 		409,
-		410
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417
 	}
 }

@@ -19,6 +19,7 @@ function slot0.register(slot0)
 
 	if slot0.gameRoomId and slot0.gameRoomId > 0 then
 		slot0.gameRoomData = pg.game_room_template[slot0.gameRoomId]
+		slot0.gameRoonCoinCount = 0
 
 		slot0.viewComponent:setGameRoomData(slot0.gameRoomData)
 	end
@@ -54,7 +55,7 @@ function slot0.register(slot0)
 end
 
 function slot0.onUIAvalible(slot0)
-	if slot0.gameRoomData then
+	if slot0.gameRoomData and slot0.gameRoomData.add_base > 0 then
 		slot0:loadCoinLayer()
 	end
 end

@@ -183,7 +183,9 @@ function slot0.GetCreateExchangeShipConfigIDList()
 		11
 	}) do
 		for slot11, slot12 in ipairs(uv0.GetBuildActIDList()) do
-			table.insert(slot0, pg.ship_data_create_exchange[slot12].exchange_ship_id)
+			slot13 = pg.ship_data_create_exchange[slot12] and pg.ship_data_create_exchange[slot12].exchange_ship_id
+
+			table.insert(slot0, shipConfigID)
 		end
 	end
 

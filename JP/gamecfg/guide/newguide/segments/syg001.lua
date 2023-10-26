@@ -81,7 +81,7 @@ return {
 				posX = -595.6,
 				text = slot0[4],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/leftPanel/train_btn",
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomleft/train_btn",
 					lineMode = 1
 				}
 			}
@@ -95,7 +95,7 @@ return {
 				posX = 348.85,
 				text = slot0[5],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/comfortable",
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/btns/topright/comfortable",
 					lineMode = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 				posX = 562.01,
 				text = slot0[6],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/shop_btn",
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/shop_btn",
 					lineMode = 1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 				posX = 395.2,
 				text = slot0[7],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/decorate_btn",
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/decorate_btn",
 					lineMode = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/stock_bg",
+				path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomleft/feed_btn",
 				triggerType = {
 					1
 				},
@@ -164,12 +164,12 @@ return {
 				dir = -1,
 				mode = 2,
 				posY = 0,
-				posX = 0,
+				posX = 200,
 				text = slot0[10]
 			},
 			ui = {
-				scale = 1,
-				path = "/OverlayCamera/Overlay/UIMain/BackYardFeedUI(Clone)/frame/food_50001/icon_bg/icon",
+				scale = 0.13,
+				path = "/UICamera/Canvas/UIMain/BackYardFeedUI(Clone)/frame/food_50001/icon_bg/icon",
 				triggerType = {
 					3
 				}
@@ -178,7 +178,7 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/BackYardFeedUI(Clone)/close",
+				path = "/UICamera/Canvas/UIMain/BackYardFeedUI(Clone)/close",
 				triggerType = {
 					1
 				},
@@ -205,7 +205,7 @@ return {
 				text = slot0[12]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/leftPanel/train_btn",
+				path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomleft/train_btn",
 				triggerType = {
 					1
 				}
@@ -222,7 +222,7 @@ return {
 			},
 			ui = {
 				scale = 1.5,
-				path = "/OverlayCamera/Overlay/UIMain/frame/panel/1/content",
+				path = "/UICamera/Canvas/UIMain/NewBackYardShipInfoUI(Clone)/frame/panel/1/content",
 				triggerType = {
 					1
 				}

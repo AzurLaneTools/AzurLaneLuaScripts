@@ -206,7 +206,7 @@ pg.commander_ability_template = {
 		id = 121,
 		group_id = 12,
 		icon = "zhanlie_paoji_1",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター</color>の火力が8アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター、風帆M</color>の火力が8アップ",
 		add = {
 			{
 				1,
@@ -215,7 +215,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				8
@@ -236,6 +237,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<モニター>火力",
+				8
+			},
+			{
+				"<風帆M>火力",
 				8
 			}
 		}
@@ -248,7 +253,7 @@ pg.commander_ability_template = {
 		id = 122,
 		group_id = 12,
 		icon = "zhanlie_paoji_2",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター</color>の火力が11アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター、風帆M</color>の火力が11アップ",
 		add = {
 			{
 				1,
@@ -257,7 +262,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				11
@@ -278,6 +284,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<モニター>火力",
+				11
+			},
+			{
+				"<風帆M>火力",
 				11
 			}
 		}
@@ -290,7 +300,7 @@ pg.commander_ability_template = {
 		id = 123,
 		group_id = 12,
 		icon = "zhanlie_paoji_3",
-		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター</color>の火力が16アップ",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター、風帆M</color>の火力が16アップ",
 		add = {
 			{
 				1,
@@ -299,7 +309,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				16
@@ -321,6 +332,196 @@ pg.commander_ability_template = {
 			{
 				"<モニター>火力",
 				16
+			},
+			{
+				"<風帆M>火力",
+				16
+			}
+		}
+	},
+	[131] = {
+		cost = 0,
+		name = "火力強化・主力",
+		next = 132,
+		worth = 2,
+		id = 131,
+		group_id = 13,
+		icon = "zhanlie_paoji_1",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター、風帆</color>の火力が10アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				10
+			}
+		},
+		add_desc = {
+			{
+				"<戦艦>火力",
+				10
+			},
+			{
+				"<巡戦>火力",
+				10
+			},
+			{
+				"<航戦>火力",
+				10
+			},
+			{
+				"<モニター>火力",
+				10
+			},
+			{
+				"<風帆>火力",
+				10
+			}
+		}
+	},
+	[132] = {
+		cost = 0,
+		name = "火力制圧・主力",
+		next = 0,
+		worth = 3,
+		id = 132,
+		group_id = 13,
+		icon = "zhanlie_paoji_2",
+		desc = "<color=#3dc6ff>巡戦、戦艦、航戦、モニター、風帆</color>の火力が14アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				14
+			}
+		},
+		add_desc = {
+			{
+				"<戦艦>火力",
+				14
+			},
+			{
+				"<巡戦>火力",
+				14
+			},
+			{
+				"<航戦>火力",
+				14
+			},
+			{
+				"<モニター>火力",
+				14
+			},
+			{
+				"<風帆>火力",
+				14
+			}
+		}
+	},
+	[141] = {
+		cost = 0,
+		name = "火力強化・前衛",
+		next = 142,
+		worth = 2,
+		id = 141,
+		group_id = 14,
+		icon = "xunyang_paoji_1",
+		desc = "<color=#3dc6ff>軽巡、重巡、超巡、風帆</color>の火力が6アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				6
+			}
+		},
+		add_desc = {
+			{
+				"<軽巡>火力",
+				6
+			},
+			{
+				"<重巡>火力",
+				6
+			},
+			{
+				"<超巡>火力",
+				6
+			},
+			{
+				"<風帆>火力",
+				6
+			}
+		}
+	},
+	[142] = {
+		cost = 0,
+		name = "火力制圧・前衛",
+		next = 0,
+		worth = 3,
+		id = 142,
+		group_id = 14,
+		icon = "xunyang_paoji_2",
+		desc = "<color=#3dc6ff>軽巡、重巡、超巡、風帆</color>の火力が8アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				8
+			}
+		},
+		add_desc = {
+			{
+				"<軽巡>火力",
+				8
+			},
+			{
+				"<重巡>火力",
+				8
+			},
+			{
+				"<超巡>火力",
+				8
+			},
+			{
+				"<風帆>火力",
+				8
 			}
 		}
 	},
@@ -786,7 +987,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				8
@@ -817,7 +1019,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				11
@@ -848,7 +1051,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				16
@@ -882,7 +1086,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				10
@@ -916,7 +1121,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				14
@@ -950,7 +1156,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				20
@@ -981,7 +1188,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				4
@@ -1012,7 +1220,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				5
@@ -1043,7 +1252,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				8
@@ -1077,7 +1287,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				3
@@ -1111,7 +1322,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				4
@@ -1145,7 +1357,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				6
@@ -1655,7 +1868,7 @@ pg.commander_ability_template = {
 		id = 651,
 		group_id = 65,
 		icon = "teshu_one_1",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の装填が3アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の装填が3アップ",
 		add = {
 			{
 				1,
@@ -1663,7 +1876,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				3
@@ -1676,6 +1892,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<工作艦>装填",
+				3
+			},
+			{
+				"<運送艦>装填",
+				3
+			},
+			{
+				"<風帆>装填",
 				3
 			}
 		}
@@ -1688,7 +1912,7 @@ pg.commander_ability_template = {
 		id = 652,
 		group_id = 65,
 		icon = "teshu_one_2",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の装填が4アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の装填が4アップ",
 		add = {
 			{
 				1,
@@ -1696,7 +1920,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				4
@@ -1709,6 +1936,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<工作艦>装填",
+				4
+			},
+			{
+				"<運送艦>装填",
+				4
+			},
+			{
+				"<風帆>装填",
 				4
 			}
 		}
@@ -1721,7 +1956,7 @@ pg.commander_ability_template = {
 		id = 653,
 		group_id = 65,
 		icon = "teshu_one_3",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の装填が6アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の装填が6アップ",
 		add = {
 			{
 				1,
@@ -1729,7 +1964,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				6
@@ -1742,6 +1980,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<工作艦>装填",
+				6
+			},
+			{
+				"<運送艦>装填",
+				6
+			},
+			{
+				"<風帆>装填",
 				6
 			}
 		}
@@ -2243,7 +2489,7 @@ pg.commander_ability_template = {
 		id = 751,
 		group_id = 75,
 		icon = "teshu_naijiu_1",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の耐久が40アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の耐久が40アップ",
 		add = {
 			{
 				1,
@@ -2251,7 +2497,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				40
@@ -2264,6 +2513,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<工作艦>耐久",
+				40
+			},
+			{
+				"<運送艦>耐久",
+				40
+			},
+			{
+				"<風帆>耐久",
 				40
 			}
 		}
@@ -2276,7 +2533,7 @@ pg.commander_ability_template = {
 		id = 752,
 		group_id = 75,
 		icon = "teshu_naijiu_2",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の耐久が56アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の耐久が56アップ",
 		add = {
 			{
 				1,
@@ -2284,7 +2541,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				56
@@ -2297,6 +2557,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<工作艦>耐久",
+				56
+			},
+			{
+				"<運送艦>耐久",
+				56
+			},
+			{
+				"<風帆>耐久",
 				56
 			}
 		}
@@ -2309,7 +2577,7 @@ pg.commander_ability_template = {
 		id = 753,
 		group_id = 75,
 		icon = "teshu_naijiu_3",
-		desc = "<color=#3dc6ff>モニター、工作艦</color>の耐久が80アップ",
+		desc = "<color=#3dc6ff>モニター、工作艦、運送艦、風帆</color>の耐久が80アップ",
 		add = {
 			{
 				1,
@@ -2317,7 +2585,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				80
@@ -2331,6 +2602,140 @@ pg.commander_ability_template = {
 			{
 				"<工作艦>耐久",
 				80
+			},
+			{
+				"<運送艦>耐久",
+				80
+			},
+			{
+				"<風帆>耐久",
+				80
+			}
+		}
+	},
+	[761] = {
+		cost = 0,
+		name = "新人機関士・小型",
+		next = 762,
+		worth = 1,
+		id = 761,
+		group_id = 76,
+		icon = "teshu_naijiu_1",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の耐久が30アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				30
+			}
+		},
+		add_desc = {
+			{
+				"<潜水艦、潜水空母>耐久",
+				30
+			},
+			{
+				"<駆逐>耐久",
+				30
+			},
+			{
+				"<風帆>耐久",
+				30
+			}
+		}
+	},
+	[762] = {
+		cost = 0,
+		name = "熟練機関士・小型",
+		next = 763,
+		worth = 2,
+		id = 762,
+		group_id = 76,
+		icon = "teshu_naijiu_2",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の耐久が42アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				42
+			}
+		},
+		add_desc = {
+			{
+				"<潜水艦、潜水空母>耐久",
+				42
+			},
+			{
+				"<駆逐>耐久",
+				42
+			},
+			{
+				"<風帆>耐久",
+				42
+			}
+		}
+	},
+	[763] = {
+		cost = 0,
+		name = "機関長・小型",
+		next = 0,
+		worth = 3,
+		id = 763,
+		group_id = 76,
+		icon = "teshu_naijiu_3",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の耐久が60アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				60
+			}
+		},
+		add_desc = {
+			{
+				"<潜水艦、潜水空母>耐久",
+				60
+			},
+			{
+				"<駆逐>耐久",
+				60
+			},
+			{
+				"<風帆>耐久",
+				60
 			}
 		}
 	},
@@ -2436,7 +2841,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				3
@@ -2467,7 +2873,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				4
@@ -2498,7 +2905,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				6
@@ -2532,7 +2940,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				1
@@ -2566,7 +2975,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				2
@@ -2600,7 +3010,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				3
@@ -2621,7 +3032,7 @@ pg.commander_ability_template = {
 		id = 901,
 		group_id = 90,
 		icon = "quzhu_one_1",
-		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐</color>の回避が5アップ",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の回避が5アップ",
 		add = {
 			{
 				1,
@@ -2631,7 +3042,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				5
@@ -2644,6 +3058,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<駆逐>回避",
+				5
+			},
+			{
+				"<風帆>回避",
 				5
 			}
 		}
@@ -2656,7 +3074,7 @@ pg.commander_ability_template = {
 		id = 902,
 		group_id = 90,
 		icon = "quzhu_one_2",
-		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐</color>の回避が7アップ",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の回避が7アップ",
 		add = {
 			{
 				1,
@@ -2666,7 +3084,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				7
@@ -2679,6 +3100,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<駆逐>回避",
+				7
+			},
+			{
+				"<風帆>回避",
 				7
 			}
 		}
@@ -2691,7 +3116,7 @@ pg.commander_ability_template = {
 		id = 903,
 		group_id = 90,
 		icon = "quzhu_one_3",
-		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐</color>の回避が10アップ",
+		desc = "<color=#3dc6ff>潜水艦、潜水空母、駆逐、風帆</color>の回避が10アップ",
 		add = {
 			{
 				1,
@@ -2701,7 +3126,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				10
@@ -2714,6 +3142,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<駆逐>回避",
+				10
+			},
+			{
+				"<風帆>回避",
 				10
 			}
 		}
@@ -5465,6 +5897,114 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[5141] = {
+		cost = 0,
+		name = "戦闘準備",
+		next = 0,
+		worth = 1,
+		id = 5141,
+		group_id = 514,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>巡戦、戦列、風帆M</color>の火力が25アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					22,
+					24
+				},
+				2,
+				25
+			}
+		},
+		add_desc = {
+			{
+				"<戦艦>火力",
+				25
+			},
+			{
+				"<巡戦>火力",
+				25
+			},
+			{
+				"<風帆M>火力",
+				25
+			}
+		}
+	},
+	[5151] = {
+		cost = 0,
+		name = "帆を下ろせ！",
+		next = 0,
+		worth = 1,
+		id = 5151,
+		group_id = 515,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>軽巡、重巡、超巡、風帆V</color>の火力が10、回避が5アップ",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				2,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				9,
+				5
+			}
+		},
+		add_desc = {
+			{
+				"<軽巡>火力",
+				10
+			},
+			{
+				"<重巡>火力",
+				10
+			},
+			{
+				"<超巡>火力",
+				10
+			},
+			{
+				"<風帆V>火力",
+				10
+			},
+			{
+				"<軽巡>回避",
+				5
+			},
+			{
+				"<重巡>回避",
+				5
+			},
+			{
+				"<超巡>回避",
+				5
+			},
+			{
+				"<風帆V>回避",
+				5
+			}
+		}
+	},
 	all = {
 		101,
 		102,
@@ -5475,6 +6015,10 @@ pg.commander_ability_template = {
 		121,
 		122,
 		123,
+		131,
+		132,
+		141,
+		142,
 		201,
 		202,
 		203,
@@ -5538,6 +6082,9 @@ pg.commander_ability_template = {
 		751,
 		752,
 		753,
+		761,
+		762,
+		763,
 		801,
 		802,
 		803,
@@ -5607,6 +6154,8 @@ pg.commander_ability_template = {
 		5101,
 		5111,
 		5121,
-		5131
+		5131,
+		5141,
+		5151
 	}
 }

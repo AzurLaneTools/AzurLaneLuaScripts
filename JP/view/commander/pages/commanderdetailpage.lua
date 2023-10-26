@@ -242,13 +242,16 @@ function slot0.updateTalents(slot0)
 
 	slot0.talentList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0(uv1[slot1 + 1], slot2)
+			slot3 = uv0[slot1 + 1]
+
+			uv1(slot3, slot2)
 			onButton(uv2, slot2, function ()
-				uv0:emit(CommandRoomMediator.ON_TREE_MSGBOX, uv1[uv2 + 1])
+				uv0:emit(CommandRoomMediator.ON_TREE_MSGBOX, uv1)
 			end, SFX_PANEL)
+			setActive(slot2:Find("lock"), not uv3:IsLearnedTalent(slot3.id))
 		end
 	end)
-	slot0.talentList:align(#slot0.commanderVO:getTalents())
+	slot0.talentList:align(#slot0.commanderVO:GetDisplayTalents())
 end
 
 function slot0.updateTalentAddition(slot0, slot1, slot2)

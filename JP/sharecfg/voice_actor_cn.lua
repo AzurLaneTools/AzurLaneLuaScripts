@@ -1475,5 +1475,25 @@ pg.voice_actor_CN = {
 	[382] = {
 		code = 382,
 		actor_name = "野中深愛"
+	},
+	[383] = {
+		code = 383,
+		actor_name = "倉持若菜"
+	},
+	[384] = {
+		code = 384,
+		actor_name = "陽向葵ゅか"
+	},
+	[385] = {
+		code = 385,
+		actor_name = "佐藤日向"
+	},
+	[386] = {
+		code = 386,
+		actor_name = "川口莉奈"
+	},
+	[387] = {
+		code = 387,
+		actor_name = "葉山いくみ"
 	}
 }

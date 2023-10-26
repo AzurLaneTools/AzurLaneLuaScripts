@@ -60659,6 +60659,1913 @@ _G.pg.base.task_data_template[19344] = {
 	}
 }
 
+_G.pg.base.task_data_template[19350] = {
+	name = "『海盗活动』登陆送皮肤体验券",
+	guild_coin_award = 0,
+	award = 900750,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19350,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			375,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19361] = {
+	name = "『海盗版本』古堡活动累计杀敌1",
+	guild_coin_award = 0,
+	award = 900752,
+	type = 26,
+	desc = "任意の敵艦を100隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19361,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19362] = {
+	name = "『海盗版本』古堡活动累计杀敌2",
+	guild_coin_award = 0,
+	award = 900753,
+	type = 26,
+	desc = "任意の敵艦を150隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19362,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19363] = {
+	name = "『海盗版本』古堡活动累计杀敌3",
+	guild_coin_award = 0,
+	award = 900754,
+	type = 26,
+	desc = "任意の敵艦を150隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19363,
+	target_num = 150,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19364] = {
+	name = "『海盗版本』古堡活动累计杀敌4",
+	guild_coin_award = 0,
+	award = 900755,
+	type = 26,
+	desc = "任意の敵艦を200隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19364,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19365] = {
+	name = "『海盗版本』古堡活动累计杀敌5",
+	guild_coin_award = 0,
+	award = 900756,
+	type = 26,
+	desc = "任意の敵艦を250隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19365,
+	target_num = 250,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19366] = {
+	name = "『海盗版本』古堡活动累计杀敌6",
+	guild_coin_award = 0,
+	award = 900757,
+	type = 26,
+	desc = "任意の敵艦を300隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19366,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19367] = {
+	name = "『海盗版本』古堡活动累计杀敌7",
+	guild_coin_award = 0,
+	award = 900758,
+	type = 26,
+	desc = "任意の敵艦を300隻撃破する",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19367,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			202172,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19368] = {
+	name = "『海盗版本』古堡活动观看剧情1",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」序幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19368,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3291,
+		3292,
+		3293
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19369] = {
+	name = "『海盗版本』古堡活动观看剧情2",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第一幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19369,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3294,
+		3295,
+		3296
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19370] = {
+	name = "『海盗版本』古堡活动观看剧情3",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第二幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19370,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3297,
+		3298,
+		3299
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19371] = {
+	name = "『海盗版本』古堡活动观看剧情4",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第三幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19371,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3300,
+		3301,
+		3302
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19372] = {
+	name = "『海盗版本』古堡活动观看剧情5",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第四幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19372,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3303,
+		3304,
+		3305
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19373] = {
+	name = "『海盗版本』古堡活动观看剧情6",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第五幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19373,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3306,
+		3307,
+		3308
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19374] = {
+	name = "『海盗版本』古堡活动观看剧情7",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第六幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19374,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3309,
+		3310,
+		3311
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19375] = {
+	name = "『海盗版本』古堡活动观看剧情8",
+	guild_coin_award = 0,
+	award = 91826,
+	type = 26,
+	desc = "「嵐夜綺譚」第七幕をクリア",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19375,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		3312,
+		3313,
+		3314
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19376] = {
+	name = "『海盗版本』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 900798,
+	type = 6,
+	desc = "装備外装箱（パイレーツ）を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "30349",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19376,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30531,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19377] = {
+	name = "『海盗版本』-日常建造",
+	guild_coin_award = 0,
+	award = 900799,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19377,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19378] = {
+	name = "『海盗版本』-日常出击",
+	guild_coin_award = 0,
+	award = 900800,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19378,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19379] = {
+	name = "『海盗版本』-日常困难本",
+	guild_coin_award = 0,
+	award = 900801,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19379,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19380] = {
+	name = "『海盗版本』-通关T1",
+	guild_coin_award = 0,
+	award = 900802,
+	type = 6,
+	desc = "T1クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760001",
+	next_task = "19381",
+	auto_commit = 0,
+	story_id = "",
+	id = 19380,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59497,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19381] = {
+	name = "『海盗版本』-通关T2",
+	guild_coin_award = 0,
+	award = 900803,
+	type = 6,
+	desc = "T2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760002",
+	next_task = "19382",
+	auto_commit = 0,
+	story_id = "",
+	id = 19381,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59497,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19382] = {
+	name = "『海盗版本』-通关T3",
+	guild_coin_award = 0,
+	award = 900804,
+	type = 6,
+	desc = "T3クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760003",
+	next_task = "19383",
+	auto_commit = 0,
+	story_id = "",
+	id = 19382,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59497,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19383] = {
+	name = "『海盗版本』-通关T4",
+	guild_coin_award = 0,
+	award = 900805,
+	type = 6,
+	desc = "T4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760004",
+	next_task = "19384",
+	auto_commit = 0,
+	story_id = "",
+	id = 19383,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59497,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19384] = {
+	name = "『海盗版本』-通关T5",
+	guild_coin_award = 0,
+	award = 900806,
+	type = 6,
+	desc = "T5クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760005",
+	next_task = "19385",
+	auto_commit = 0,
+	story_id = "",
+	id = 19384,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59497,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19385] = {
+	name = "『海盗版本』-通关T6",
+	guild_coin_award = 0,
+	award = 900807,
+	type = 6,
+	desc = "T6クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760006",
+	next_task = "19386",
+	auto_commit = 0,
+	story_id = "",
+	id = 19385,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59497,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19386] = {
+	name = "『海盗版本』通关SP",
+	guild_coin_award = 0,
+	award = 900808,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19386,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1760003,
+			chapterId = 1760041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19387] = {
+	name = "『海盗版本』通关EX",
+	guild_coin_award = 0,
+	award = 900809,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19387,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1760004,
+			chapterId = 1760051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19388] = {
+	name = "『海盗版本』-T1的3星",
+	guild_coin_award = 0,
+	award = 900810,
+	type = 6,
+	desc = "T1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760001",
+	next_task = "19389",
+	auto_commit = 0,
+	story_id = "",
+	id = 19388,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19389] = {
+	name = "『海盗版本』-T2的3星",
+	guild_coin_award = 0,
+	award = 900811,
+	type = 6,
+	desc = "T2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760002",
+	next_task = "19390",
+	auto_commit = 0,
+	story_id = "",
+	id = 19389,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19390] = {
+	name = "『海盗版本』-T3的3星",
+	guild_coin_award = 0,
+	award = 900812,
+	type = 6,
+	desc = "T3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760003",
+	next_task = "19391",
+	auto_commit = 0,
+	story_id = "",
+	id = 19390,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19391] = {
+	name = "『海盗版本』-T4的3星",
+	guild_coin_award = 0,
+	award = 900813,
+	type = 6,
+	desc = "T4の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760004",
+	next_task = "19392",
+	auto_commit = 0,
+	story_id = "",
+	id = 19391,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19392] = {
+	name = "『海盗版本』-T5的3星",
+	guild_coin_award = 0,
+	award = 900814,
+	type = 6,
+	desc = "T5の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760005",
+	next_task = "19393",
+	auto_commit = 0,
+	story_id = "",
+	id = 19392,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19393] = {
+	name = "『海盗版本』-T6的3星",
+	guild_coin_award = 0,
+	award = 900815,
+	type = 6,
+	desc = "T6の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760006",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19393,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19394] = {
+	name = "『海盗版本』-三星通关T4",
+	guild_coin_award = 0,
+	award = 900819,
+	type = 6,
+	desc = "T4の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760004",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19394,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150080,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19395] = {
+	name = "『海盗版本』-三星通关T5",
+	guild_coin_award = 0,
+	award = 900816,
+	type = 6,
+	desc = "T5の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760005",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19395,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19396] = {
+	name = "『海盗版本』-三星通关T6",
+	guild_coin_award = 0,
+	award = 900817,
+	type = 6,
+	desc = "T6の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760006",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19396,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			25,
+			960021,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19397] = {
+	name = "『海盗版本』通关SP",
+	guild_coin_award = 0,
+	award = 900818,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1760041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19397,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			300
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1760003,
+			chapterId = 1760041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19398] = {
+	name = "『海盗版本』完成啾啾船厂第7场",
+	guild_coin_award = 0,
+	award = 900820,
+	type = 6,
+	desc = "ミニゲーム「秘密造船所」ステージ7をクリア",
+	count_inherit = 0,
+	sub_type = 415,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19398,
+	target_num = 7,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	scene = {
+		"HARBOR_BACKHILL"
+	}
+}
+
+_G.pg.base.task_data_template[19399] = {
+	name = "『海盗版本』累计PT15000点",
+	guild_coin_award = 0,
+	award = 900821,
+	type = 6,
+	desc = "「旧き金貨」を累計15000入手する",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "5058",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "376",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19399,
+	target_num = 15000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			25,
+			960031,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19400] = {
+	name = "『海盗版本』完成六个悬赏以获得大佬章",
+	guild_coin_award = 0,
+	award = 900822,
+	type = 6,
+	desc = "完成六个悬赏以获得大佬章",
+	count_inherit = 0,
+	sub_type = 90,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19400,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		19394,
+		19395,
+		19396,
+		19397,
+		19398,
+		19399
+	},
+	open_need = {},
+	award_display = {
+		{
+			5,
+			264,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19401] = {
+	name = "『海盗版本』通关任务10次",
+	guild_coin_award = 0,
+	award = 900830,
+	type = 6,
+	desc = "「テンペスタと若返りの泉」ステージ10回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19401,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1760001,
+		1760002,
+		1760003,
+		1760004,
+		1760005,
+		1760006,
+		1760041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19402] = {
+	name = "『海盗版本』通关任务30次",
+	guild_coin_award = 0,
+	award = 900831,
+	type = 6,
+	desc = "「テンペスタと若返りの泉」ステージ30回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19402,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1760001,
+		1760002,
+		1760003,
+		1760004,
+		1760005,
+		1760006,
+		1760041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19403] = {
+	name = "『海盗版本』通关任务60次",
+	guild_coin_award = 0,
+	award = 900832,
+	type = 6,
+	desc = "「テンペスタと若返りの泉」ステージ60回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19403,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1760001,
+		1760002,
+		1760003,
+		1760004,
+		1760005,
+		1760006,
+		1760041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59497,
+			3000
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "戦闘勝利-日常",
 	guild_coin_award = 0,

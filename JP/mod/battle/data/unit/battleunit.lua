@@ -153,10 +153,11 @@ function slot9.PlayFX(slot0, slot1, slot2)
 	}))
 end
 
-function slot9.SwitchShader(slot0, slot1, slot2)
+function slot9.SwitchShader(slot0, slot1, slot2, slot3)
 	slot0:DispatchEvent(uv0.Event.New(uv1.SWITCH_SHADER, {
 		shader = slot1,
-		color = slot2
+		color = slot2,
+		args = slot3
 	}))
 end
 

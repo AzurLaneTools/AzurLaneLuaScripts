@@ -1597,25 +1597,21 @@ function slot0.tryPlayMapStory(slot0)
 
 	seriesAsync({
 		function (slot0)
-			if uv0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not uv0.contextData.map:isRemaster() and not pg.SystemOpenMgr.GetInstance().active then
-				slot2 = pg.NewStoryMgr.GetInstance()
-
-				slot2:Play(slot1, function (slot0)
-					uv0(not slot0)
-				end)
+			if uv0.contextData.map:getConfig("enter_story") and slot1 ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) and not uv0.contextData.map:isRemaster() and not pg.SystemOpenMgr.GetInstance().active then
+				if tonumber(slot1) and slot2 > 0 then
+					uv0:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2)
+				else
+					pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
+				end
 
 				return
 			end
 
 			slot0()
 		end,
-		function (slot0, slot1)
-			if not slot1 then
-				return slot0()
-			end
-
-			if uv0.contextData.map:getConfig("guide_id") and slot2 ~= "" then
-				pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot2, nil, slot0)
+		function (slot0)
+			if uv0.contextData.map:getConfig("guide_id") and slot1 ~= "" then
+				pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot1, nil, slot0)
 
 				return
 			end

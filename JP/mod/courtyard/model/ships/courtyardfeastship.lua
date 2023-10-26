@@ -1,14 +1,14 @@
 slot0 = class("CourtYardFeastShip", import(".CourtYardShip"))
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
-	slot0.bubble = slot1.bubble or 0
-	slot0.isSpecial = slot1.isSpecial
+	slot0.bubble = slot2.bubble or 0
+	slot0.isSpecial = slot2.isSpecial
 	slot0.interActionConfig = {}
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FEAST) and not slot2:isEnd() then
-		slot0.interActionConfig = slot2:getConfig("config_client")
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FEAST) and not slot3:isEnd() then
+		slot0.interActionConfig = slot3:getConfig("config_client")
 	end
 end
 

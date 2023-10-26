@@ -30,22 +30,25 @@ function slot0.initData(slot0)
 	slot0.shipType = pg.fleet_tech_ship_class[slot0.classID].shiptype
 	slot0.classLevel = pg.fleet_tech_ship_class[slot0.classID].t_level
 	slot0.typeToColor = {
-		Color.New(0.25882352941176473, 0.9215686274509803, 1, 1),
-		Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
-		Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
-		Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
-		Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
-		Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
-		[18] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
-		[9] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		[10] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		[11] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		[13] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
-		[17] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
-		[12] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
-		[19] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
+		[ShipType.QuZhu] = Color.New(0.25882352941176473, 0.9215686274509803, 1, 1),
+		[ShipType.QingXun] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		[ShipType.ZhongXun] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		[ShipType.ChaoXun] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		[ShipType.ZhanXun] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.ZhanLie] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.HangXun] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.HangZhan] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.LeiXun] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.ZhongPao] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[ShipType.QingHang] = Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
+		[ShipType.ZhengHang] = Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
+		[ShipType.QianTing] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.QianMu] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.WeiXiu] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.Yunshu] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.FengFanS] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.FengFanV] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[ShipType.FengFanM] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
 	}
 end
 
@@ -93,7 +96,7 @@ function slot0.updateDetail(slot0)
 	setImageSprite(slot0.typeTextImg, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot0.shipType), true)
 	setText(slot0.nameText, ShipGroup.getDefaultShipNameByGroupID(slot0.groupID))
 
-	if ShipGroup.IsMetaGroup(slot0.groupID) then
+	if ShipGroup.IsMetaGroup(slot0.groupID) or ShipGroup.IsMotGroup(slot0.groupID) then
 		setActive(slot0.levelImg, false)
 	else
 		setImageSprite(slot0.levelImg, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot0.classLevel), true)
@@ -131,7 +134,7 @@ function slot0.updateDetail(slot0)
 			setActive(slot2, true)
 		end
 	end)
-	slot6:align(#ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot0.groupID].add_get_shiptype))
+	slot6:align(#slot0:getSpecialTypeList(pg.fleet_tech_ship_template[slot0.groupID].add_get_shiptype))
 
 	slot8 = pg.fleet_tech_ship_template[slot0.groupID].add_level_attr
 	slot9 = pg.fleet_tech_ship_template[slot0.groupID].add_level_value
@@ -169,7 +172,11 @@ function slot0.updateDetail(slot0)
 			setActive(slot2, true)
 		end
 	end)
-	slot10:align(#ShipType.FilterOverQuZhuType(pg.fleet_tech_ship_template[slot0.groupID].add_level_shiptype))
+	slot10:align(#slot0:getSpecialTypeList(pg.fleet_tech_ship_template[slot0.groupID].add_level_shiptype))
+end
+
+function slot0.getSpecialTypeList(slot0, slot1)
+	return ShipType.FilterOverFengFanType(ShipType.FilterOverQuZhuType(slot1))
 end
 
 return slot0

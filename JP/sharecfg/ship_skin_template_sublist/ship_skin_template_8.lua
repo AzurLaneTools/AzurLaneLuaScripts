@@ -1,701 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301100] = {
-		ship_group = 30110,
-		name = "響",
-		hand_id = 6,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "xiang",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301100,
-		voice_actor_2 = -1,
-		prefab = "xiang",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "特Ⅲ型駆逐艦二番艦・響",
-		voice_actor = 182,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.103,
-					0.017
-				}
-			},
-			antiaircraft = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							2.325,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301101] = {
-		ship_group = 30110,
-		name = "正月デビル響ちゃん",
-		hand_id = 6,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70290,
-		painting = "xiang_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "126",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301101,
-		voice_actor_2 = -1,
-		prefab = "xiang_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "おいでませ母港のお正月！というわけで第六駆逐隊、新顔の響ちゃん、正月衣装で再登場！指揮官、チャンネル変えず引き続きよろしく～！",
-		voice_actor = 182,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.103,
-					0.017
-				}
-			},
-			antiaircraft = {
-				{
-					0.886,
-					1.158,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							2.325,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301110] = {
-		ship_group = 30111,
-		name = "雷",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "lei",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301110,
-		voice_actor_2 = -1,
-		prefab = "lei",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "特Ⅲ型駆逐艦三番艦・雷",
-		voice_actor = 55,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.058,
-					0.761,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.5,
-					0.8,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.472,
-					0.337,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.5,
-					0.5,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.12,
-							0.82,
-							-0.47
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0,
-							2.76,
-							-1.59
-						}
-					}
-				}
-			}
-		}
-	},
-	[301111] = {
-		ship_group = 30111,
-		name = "サクラブレイク",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70022,
-		painting = "lei_2",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301111,
-		voice_actor_2 = -1,
-		prefab = "lei_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "い、雷がお菓子になっちゃった！？どうしよう！雷、指揮官に食べられちゃうよ！",
-		voice_actor = 55,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.05,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.54,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301112] = {
-		ship_group = 30111,
-		name = "オマツリイカツチ",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70220,
-		painting = "lei_3",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "114",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301112,
-		voice_actor_2 = -1,
-		prefab = "lei_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "雷、いつもは電と一緒にお祭りに参加してるけど、指揮官と一緒のお祭りは初めてだね。なんだか「でーと」みたい！",
-		voice_actor = 55,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.05,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.77,
-					0.69,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.405,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301113] = {
-		ship_group = 30111,
-		name = "払暁のイカヅチ",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70431,
-		painting = "lei_4",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "135",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301113,
-		voice_actor_2 = -1,
-		prefab = "lei_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "払暁（ふつぎょう）に舞う、妖精の雷！なるほどね！そういう「せってい」ね！指揮官、雷と一緒にパーティーに行こ？",
-		voice_actor = 55,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.492,
-					1.157,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.507,
-					1.15,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.003,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.479,
-					1.2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.575,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301120] = {
 		ship_group = 30112,
 		name = "電",
@@ -11152,6 +10457,793 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.46,
 							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301591] = {
+		ship_group = 30159,
+		name = "ショーグンナタラ",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70128,
+		painting = "pufeng_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "100",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301591,
+		voice_actor_2 = -1,
+		prefab = "pufeng_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "驚く前に言っとくけど、センゴク時代にはもうクリスマスがあったんだから、このクリスマスの格好は普通よ！ふ・つ・う！",
+		voice_actor = 115,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.74,
+					1.75,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.7,
+					1.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.45,
+					1.48,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301592] = {
+		ship_group = 30159,
+		name = "センゴク☆バンド！",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70565,
+		painting = "pufeng_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301592,
+		voice_actor_2 = -1,
+		prefab = "pufeng_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "うっ、せっかく機材が揃ったのに参加者が…指揮官！はい、つべこべいうでない！今日からお前はこの「センゴク☆バンド」のメンバーよ！",
+		voice_actor = 115,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.355,
+					1.009,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.035,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.364,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.322,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301600] = {
+		ship_group = 30160,
+		name = "磯風",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "jifeng",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 301600,
+		voice_actor_2 = -1,
+		prefab = "jifeng",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "陽炎型駆逐艦十二番艦・磯風",
+		voice_actor = 147,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.23,
+					1.14,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.16,
+					1.21,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.41,
+					3.33,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301601] = {
+		ship_group = 30160,
+		name = "新年大合戦",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70135,
+		painting = "jifeng_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "101",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301601,
+		voice_actor_2 = -1,
+		prefab = "jifeng_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "大将大将！見て見て！お正月の服！浦風さまが作ってくれた！今年も一緒にセンゴクごっこをよろしく！",
+		voice_actor = 147,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.897,
+					0.977,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.868,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301602] = {
+		ship_group = 30160,
+		name = "センゴク☆ユニット！",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 0,
+		painting = "jifeng_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301602,
+		voice_actor_2 = -1,
+		prefab = "jifeng_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "大将！磯風、頑張って機材を揃えたよ！あとは浦風様さえいれば「センゴク☆ユニット」は完璧だ！大将ももちろん参加していいぞ！",
+		voice_actor = 147,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.954,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.897,
+					0.977,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.868,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301610] = {
+		ship_group = 30161,
+		name = "浜風",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "bangfeng",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 301610,
+		voice_actor_2 = -1,
+		prefab = "bangfeng",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "陽炎型駆逐艦十三番艦・浜風",
+		voice_actor = 112,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.06,
+					1.12,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.06,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.42,
+					3.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							2.61,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301611] = {
+		ship_group = 30161,
+		name = "ザ・優等生",
+		hand_id = 6,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70092,
+		painting = "bangfeng_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301611,
+		voice_actor_2 = -1,
+		prefab = "bangfeng_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "勉強は面白い。新しい知識を得た時の喜び、難しい問題を解けた時の達成感…一度やったらわかるよ。だから指揮官、一緒に勉強しよ？",
+		voice_actor = 112,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.17,
+					0.62,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.2,
+					0.64,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.19,
+					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.43,
 							0
 						}
 					}

@@ -5,96 +5,103 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.group = slot0:findTF("buff_group")
-	slot0.tpl = slot0:findTF("bufftpl", slot0.group)
-	slot0.buffTip = slot0:findTF("tip")
-	slot0.buffTipTxt = slot0.buffTip:Find("Text"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0:findTF("frame/close")
+	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/list/content"), slot0:findTF("frame/list/content/tpl"))
+	slot0.totalExp = slot0:findTF("frame/subtitle/Text"):GetComponent(typeof(Text))
+
+	setText(slot0:findTF("frame/title"), i18n("courtyard_label_exp_addition"))
+	setText(slot0:findTF("frame/subtitle"), i18n("courtyard_label_total_exp_addition"))
+
+	slot0.timers = {}
 end
 
 function slot0.OnInit(slot0)
-	slot0.buffCards = {}
-end
-
-function slot0.GetTpl(slot0)
-	slot1 = nil
-	slot2 = true
-
-	for slot6, slot7 in pairs(slot0.buffCards) do
-		slot2 = false
-
-		if not slot7:IsUsing() then
-			slot1 = slot7._tf
-
-			break
-		end
-	end
-
-	if not slot1 and not slot2 then
-		slot1 = Object.Instantiate(slot0.tpl, slot0.tpl.parent)
-	elseif not slot1 and slot2 then
-		slot1 = slot0.tpl
-	end
-
-	return slot1
+	onButton(slot0, slot0._tf, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.closeBtn, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
 end
 
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:Flush(slot1)
+
+	slot0.list = slot1
 end
 
 function slot0.Flush(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.buffCards) do
-		slot6:RemoveTimer()
-	end
+	slot2 = 0
+	slot3 = {}
 
-	for slot5 = 1, #slot1 do
-		slot6 = slot0:GetTpl()
-
-		slot0:FlushBuff(slot1[slot5], slot6)
-
-		slot6.anchoredPosition = Vector2(0, -(slot5 - 1) * (slot0.tpl.sizeDelta.y + 30))
-	end
-end
-
-function slot0.FlushBuff(slot0, slot1, slot2)
-	if not slot0.buffCards[slot2] then
-		slot0.buffCards[slot2] = CourtYardBuffCard.New(slot2.gameObject)
-	end
-
-	slot3:Flush(slot1)
-	onButton(slot0, slot3._tf, function ()
-		uv0:DisplayBuffDesc(uv1)
-	end, SFX_PANEL)
-end
-
-function slot0.DisplayBuffDesc(slot0, slot1)
-	slot2 = slot1.buff
-	slot3 = slot0.buffTip
-
-	slot3:SetAsLastSibling()
-	LeanTween.cancel(slot0.buffTip.gameObject)
-
-	rtf(slot0.buffTip).anchoredPosition = rtf(slot1._tf).anchoredPosition + Vector2(slot0.tpl.sizeDelta.x * 0.5, slot0.tpl.sizeDelta.y * -0.5)
-	slot0.buffTipTxt.text = slot2:getConfig("desc")
-	slot4 = LeanTween.scale(rtf(slot0.buffTip), Vector3(1, 1, 1), 0.3)
-
-	slot4:setOnComplete(System.Action(function ()
-		if not IsNil(uv0.buffTip) then
-			LeanTween.scale(rtf(uv0.buffTip), Vector3(0, 0, 0), 0.3):setDelay(2)
+	for slot7, slot8 in ipairs(slot1) do
+		if slot8:getLeftTime() > 0 then
+			table.insert(slot3, slot8)
 		end
-	end))
+	end
+
+	slot0.uiItemList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+
+			updateDrop(slot2:Find("award"), {
+				count = 0,
+				type = DROP_TYPE_BUFF,
+				id = slot3.id
+			})
+			setText(slot2:Find("Text"), slot3:getConfig("desc"))
+			uv1:AddTimer(slot2:Find("time"), slot3)
+
+			uv2 = uv2 + tonumber(slot3:getConfig("benefit_effect"))
+		end
+	end)
+	slot0.uiItemList:align(#slot3)
+
+	slot0.totalExp.text = slot2 .. "%"
+end
+
+function slot0.AddTimer(slot0, slot1, slot2)
+	slot0:RemoveTimer(slot2.id)
+
+	slot3 = Timer.New(function ()
+		if uv0:getLeftTime() > 0 then
+			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+
+			setText(uv1, slot0 <= 600 and setColorStr(slot1, COLOR_RED) or setColorStr(slot1, "#72bc42"))
+		else
+			uv2:RemoveTimer(uv0.id)
+			uv2:Flush(uv2.list)
+		end
+	end, 1, -1)
+
+	slot3.func()
+	slot3:Start()
+
+	slot0.timers[slot2.id] = slot3
+end
+
+function slot0.RemoveTimer(slot0, slot1)
+	if slot0.timers[slot1] then
+		slot0.timers[slot1]:Stop()
+
+		slot0.timers[slot1] = nil
+	end
+end
+
+function slot0.RemoveAllTimer(slot0)
+	slot1 = pairs
+	slot2 = slot0.timers or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		slot5:Stop()
+	end
+
+	slot0.timers = {}
 end
 
 function slot0.OnDestroy(slot0)
-	slot1 = pairs
-	slot2 = slot0.buffCards or {}
-
-	for slot4, slot5 in slot1(slot2) do
-		slot5:Dispose()
-	end
-
-	slot0.buffCards = nil
+	slot0:RemoveAllTimer()
 end
 
 return slot0

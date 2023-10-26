@@ -344,6 +344,10 @@ pg.expedition_data_by_map = setmetatable({
 		1750012,
 		1750025,
 		1750026,
+		1760001,
+		1760002,
+		1760003,
+		1760004,
 		2100000,
 		2100001,
 		2100010,
@@ -16026,6 +16030,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1750012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760001] = {
+		map = 1760001,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-temepest-1",
+		enter_story = "1767002",
+		ani_name = "Map_1760001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760002] = {
+		map = 1760002,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-up",
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		ani_name = "Map_1760002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760003] = {
+		map = 1760003,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-tempest",
+		enter_story = "",
+		ani_name = "Map_1760002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1760002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760004] = {
+		map = 1760004,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-up",
+		enter_story = "",
+		ani_name = "Map_1760001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1760002,
 		clouds_pos = {
 			{
 				332,

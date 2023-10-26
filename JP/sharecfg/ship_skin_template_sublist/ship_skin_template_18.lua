@@ -1,1516 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_18 = {
-	[900267] = {
-		ship_group = 900267,
-		name = "ガングート",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "gangute",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900267,
-		voice_actor_2 = -1,
-		prefab = "gangute",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ガングート級戦艦――ガングート",
-		voice_actor = 222,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.558,
-					1.084,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.623,
-					1.027,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					0.022,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.595,
-					1.143,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.611,
-							2.1,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900268] = {
-		ship_group = 900268,
-		name = "サラトガ",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "salatuojia",
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900268,
-		voice_actor_2 = -1,
-		prefab = "salatuojia",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "レキシントン級航空母艦・サラトガ（CV-3)",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.772,
-					0.605,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.887,
-							1.243,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.642,
-							1.068,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900269] = {
-		ship_group = 900269,
-		name = "エセックス",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "aisaikesi",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900269,
-		voice_actor_2 = -1,
-		prefab = "aisaikesi",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "エセックス級航空母艦・エセックス（CV-9)",
-		voice_actor = 149,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.12,
-					1.3,
-					0
-				}
-			},
-			plane = {
-				{
-					1.09,
-					1.32,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900270] = {
-		ship_group = 900270,
-		name = "イントレピッド",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "wuwei",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900270,
-		voice_actor_2 = -1,
-		prefab = "wuwei",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "エセックス級空母「イントレピッド」（CV-11)",
-		voice_actor = 225,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.483,
-					1.215,
-					0
-				}
-			},
-			plane = {
-				{
-					1.438,
-					1.204,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900271] = {
-		ship_group = 900271,
-		name = "バンカー・ヒル",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "bangkeshan",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900271,
-		voice_actor_2 = -1,
-		prefab = "bangkeshan",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "エセックス級航空母艦・バンカー・ヒル（CV-17)",
-		voice_actor = 179,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.29,
-					1.03,
-					0
-				}
-			},
-			plane = {
-				{
-					1.41,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900272] = {
-		ship_group = 900272,
-		name = "リシュリュー",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "lisailiu",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900272,
-		voice_actor_2 = -1,
-		prefab = "lisailiu",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "リシュリュー級戦艦リシュリュー",
-		voice_actor = 148,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.67,
-					1.335,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.66,
-					1.365,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.66,
-					1.299,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900273] = {
-		ship_group = 900273,
-		name = "ベアルン",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "beiyaen",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900273,
-		voice_actor_2 = -1,
-		prefab = "beiyaen",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "航空母艦ベアルン",
-		voice_actor = 235,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.13,
-					0
-				}
-			},
-			plane = {
-				{
-					1.244,
-					1.128,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.07,
-							-1.85
-						}
-					}
-				}
-			}
-		}
-	},
-	[900274] = {
-		ship_group = 900274,
-		name = "ハウ",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "hao",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900274,
-		voice_actor_2 = -1,
-		prefab = "hao",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "キングジョージⅤ世級戦艦·ハウ(HMS Howe)",
-		voice_actor = 116,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.063,
-					1.184,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.112,
-					1.175,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.003,
-					-0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.118,
-					1.193,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.315,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[900275] = {
-		ship_group = 900275,
-		name = "ヴァリアント",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "yingyong",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900275,
-		voice_actor_2 = -1,
-		prefab = "yingyong",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
-		voice_actor = 240,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.605,
-					1.205,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.607,
-					1.255,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.014,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.59,
-					1.288,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.415,
-							0.53
-						}
-					}
-				}
-			}
-		}
-	},
-	[900276] = {
-		ship_group = 900276,
-		name = "パーシュース",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "yingxianzuo",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900276,
-		voice_actor_2 = -1,
-		prefab = "yingxianzuo",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "コロッサス級航空母艦・パーシュース （HMS Perseus）",
-		voice_actor = 241,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.789,
-					1.258,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.747,
-					1.311,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.785,
-					1.358,
-					0
-				}
-			},
-			plane = {
-				{
-					2.785,
-					1.301,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[900277] = {
-		ship_group = 900277,
-		name = "イーグル",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "ying",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900277,
-		voice_actor_2 = -1,
-		prefab = "ying",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "イーグル級航空母艦·イーグル （HMS Eagle）",
-		voice_actor = 239,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.462,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.463,
-					1.198,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					-0.018,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.466,
-					1.186,
-					0
-				}
-			},
-			plane = {
-				{
-					1.446,
-					1.124,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[900278] = {
-		ship_group = 900278,
-		name = "長門",
-		hand_id = 6,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "changmen",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900278,
-		voice_actor_2 = -1,
-		prefab = "changmen",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "長門型戦艦一番艦・長門",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					1.092,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900279] = {
-		ship_group = 900279,
-		name = "レンジャー",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "tujizhe",
-		illustrator = 14,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900279,
-		voice_actor_2 = -1,
-		prefab = "tujizhe",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "レンジャー級航空母艦・レンジャー（CV-4)",
-		voice_actor = 74,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.75,
-					0.88,
-					0
-				}
-			},
-			plane = {
-				{
-					0.75,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							0.55,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.3,
-							0.87,
-							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[900280] = {
-		ship_group = 900280,
-		name = "加賀",
-		hand_id = 2,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "jiahezhanlie",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900280,
-		voice_actor_2 = -1,
-		prefab = "jiahezhanlie",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "加賀型戦艦一番艦・加賀",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.14,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.085,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[900281] = {
 		ship_group = 900281,
 		name = "鳳翔",
@@ -9941,7 +8431,7 @@ pg.base.ship_skin_template_18 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "海賊船――ロイヤル・フォーチューン",
+		desc = "風帆艦-ロイヤル・フォーチュン",
 		voice_actor = 346,
 		spine_offset = "",
 		gyro = 0,
@@ -10269,6 +8759,1137 @@ pg.base.ship_skin_template_18 = {
 			},
 			{
 				1.1
+			}
+		}
+	},
+	[9600020] = {
+		ship_group = 960002,
+		name = "サン・マルチーニョ",
+		hand_id = 3,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "shengmading",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9600020,
+		voice_actor_2 = -1,
+		prefab = "shengmading",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "風帆艦-サン・マルチーニョ",
+		voice_actor = 383,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.999,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.992,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.188,
+					1.161,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.669,
+							2.61,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600021] = {
+		ship_group = 960002,
+		name = "黒金の影",
+		hand_id = 3,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70920,
+		painting = "shengmading_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "174",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 9600021,
+		voice_actor_2 = -1,
+		prefab = "shengmading_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "輝ける黄金を繋索（けいさく）せし者の光と相反した一面を見せよう。案ずることはない。私は私のまま、愛憎も信ずる心も変わりない。…どうしても気になるなら、改めて私を知ってみたらどうだ…？",
+		voice_actor = 383,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.995,
+					1.005,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.995,
+					0.998,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.24,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.686,
+							2.547,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600030] = {
+		ship_group = 960003,
+		name = "ゴールデン・ハインド",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "jinluhao",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9600030,
+		voice_actor_2 = -1,
+		prefab = "jinluhao",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "風帆艦-ゴールデン・ハインド",
+		voice_actor = 384,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.998,
+					0.999,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.996,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.005,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.178,
+					1.165,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.698,
+							2.467,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600031] = {
+		ship_group = 960003,
+		name = "古城のキラーレディ",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70921,
+		painting = "jinluhao_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "174",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 9600031,
+		voice_actor_2 = -1,
+		prefab = "jinluhao_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官さま、この組み合わせは？……怖くない？変ね…メアリーちゃんのアイデアが役に立てないなんて…分かったぁ～、斧を持ってたらどぉ？指揮官さま♡",
+		voice_actor = 384,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.001,
+					1.008,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.003,
+					1.004,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.232,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.702,
+							2.419,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600040] = {
+		ship_group = 960004,
+		name = "メアリー・セレスト",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "mali",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9600040,
+		voice_actor_2 = -1,
+		prefab = "mali",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "風帆艦-メアリー・セレスト",
+		voice_actor = 385,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.005,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					0.995,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.287,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.613,
+							2.438,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600041] = {
+		ship_group = 960004,
+		name = "グリムナイト・リーパー",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70922,
+		painting = "mali_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "174",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 9600041,
+		voice_actor_2 = -1,
+		prefab = "mali_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "私はメアリー・セレスト、月無き夜のサイレント・リーパー……うん、この衣装は幽霊船である私に合っている",
+		voice_actor = 385,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.007,
+					1.008,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.998,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.185,
+					1.19,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.321,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600050] = {
+		ship_group = 960005,
+		name = "ウィダー",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "weida",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9600050,
+		voice_actor_2 = -1,
+		prefab = "weida",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "風帆艦-ウィダー",
+		voice_actor = 386,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.006,
+					1.014,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.011,
+					1.015,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.237,
+					1.201,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.755,
+							2.496,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600051] = {
+		ship_group = 960005,
+		name = "レイジー・パイレーツ・エンゲル",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70923,
+		painting = "weida_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "174",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 9600051,
+		voice_actor_2 = -1,
+		prefab = "weida_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "トリック・オア・トリートの天使が呼ばれて登場……ん？どうしてこんな格好をしてるのかって？そんな質問に答えなきゃならないなんてしんどいよ…とにかく、トリック・オア・トリート！指揮官、時間は大事だから早くお菓子渡して。それをもらったら帰ってゲームするから…",
+		voice_actor = 386,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.005,
+					1.008,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.998,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-174,
+				-269,
+				0
+			},
+			{
+				1.9
+			}
+		}
+	},
+	[9600060] = {
+		ship_group = 960006,
+		name = "アドヴェンチャー・ギャレー",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "jialimaoxian",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9600060,
+		voice_actor_2 = -1,
+		prefab = "jialimaoxian",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "風帆艦-アドヴェンチャー・ギャレー",
+		voice_actor = 387,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.994,
+					0.985,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.988,
+					0.997,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.162,
+					1.158,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.656,
+							2.436,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600061] = {
+		ship_group = 960006,
+		name = "赤き月のカーニヴァル",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70924,
+		painting = "jialimaoxian_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "174",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 9600061,
+		voice_actor_2 = -1,
+		prefab = "jialimaoxian_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「あははは！ご主人様…ようやく見つけたぁ！さぁ、ディナーの用意はできているからあたしについてき……食事する気分じゃないって？せっかくイキのいいの捌いたのに…」――指揮官？なぜ後ずさってる…？",
+		voice_actor = 387,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.987,
+					1.001,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.996,
+					1.004,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.223,
+					1.195,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.603,
+							2.481,
+							0
+						}
+					}
+				}
 			}
 		}
 	},
@@ -11125,6 +10746,554 @@ pg.base.ship_skin_template_18 = {
 						{
 							-0.4,
 							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9703010] = {
+		ship_group = 970301,
+		name = "トレント(META)",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "teluntuo_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9703010,
+		voice_actor_2 = -1,
+		prefab = "teluntuo_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "重巡洋艦・トレント、指揮官の補佐に来ました。私が現れたことで指揮官がよくできるようになるなら、それに越したことはありませんわ",
+		voice_actor = 224,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.357,
+					0.865,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					0.856,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.806,
+							1.9,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9703020] = {
+		ship_group = 970302,
+		name = "アルジェリー(META)",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "aerjiliya_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9703020,
+		voice_actor_2 = -1,
+		prefab = "aerjiliya_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "あなたが指揮官ね。私は重巡アルジェリーよ。さて、ここではどんな喜びを味わわせてもらえるのかしら？失望はさせないでね？ふふふ",
+		voice_actor = 142,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.357,
+					0.865,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					0.856,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.806,
+							1.9,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704010] = {
+		ship_group = 970401,
+		name = "グナイゼナウ(META)",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "genaisennao_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9704010,
+		voice_actor_2 = -1,
+		prefab = "genaisennao_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "あなたは…指揮官、ですね。つまり私に命令する権力を持っていますね。あなたという個体に興味はありませんが、あなたから発せられる命令には従わせていただきます。――今のうちは、ね",
+		voice_actor = 26,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.73,
+					1.031,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.59,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.47,
+					1.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704020] = {
+		ship_group = 970402,
+		name = "シャルンホルスト(META)",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "shaenhuosite_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9704020,
+		voice_actor_2 = -1,
+		prefab = "shaenhuosite_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "鉄血巡洋戦艦シャルンホルストだ。優秀な指揮官と協力できるのを楽しみにしている。我が期待が覆されることがないよう願いたい",
+		voice_actor = 38,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.57,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.33,
+					1.58,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704030] = {
+		ship_group = 970403,
+		name = "レパルス(META)",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "fanji_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9704030,
+		voice_actor_2 = -1,
+		prefab = "fanji_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "レナウン級巡洋戦艦、レパルス。いろいろ経験してきたけど…まあ、今はこの母港の一員として、困ったことがあったら何でも任せて",
+		voice_actor = 41,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.53,
+					0.76,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.57,
+					0.86,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.59,
+					0.84,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
 							0
 						}
 					}

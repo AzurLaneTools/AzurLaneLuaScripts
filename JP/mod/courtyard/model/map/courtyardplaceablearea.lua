@@ -1,21 +1,21 @@
 slot0 = class("CourtYardPlaceableArea", import("...CourtYardDispatcher"))
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0)
+function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1)
 
-	slot0.sizeX = slot1.x
-	slot0.sizeY = slot1.y
-	slot0.minSizeX = slot1.z
-	slot0.minSizeY = slot1.w
+	slot0.sizeX = slot2.x
+	slot0.sizeY = slot2.y
+	slot0.minSizeX = slot2.z
+	slot0.minSizeY = slot2.w
 	slot0.map = {}
 	slot0.mats = {}
 	slot0.chars = {}
 
-	for slot5 = 0, slot0.sizeX do
-		slot0.map[slot5] = {}
+	for slot6 = 0, slot0.sizeX do
+		slot0.map[slot6] = {}
 
-		for slot9 = 0, slot0.sizeY do
-			slot0.map[slot5][slot9] = false
+		for slot10 = 0, slot0.sizeY do
+			slot0.map[slot6][slot10] = false
 		end
 	end
 

@@ -1,9 +1,9 @@
 slot0 = class("CourtYardFurniturePlaceableArea", import("...map.CourtYardPlaceableArea"))
 
-function slot0.Ctor(slot0, slot1, slot2)
-	slot0.furniture = slot1
+function slot0.Ctor(slot0, slot1, slot2, slot3)
+	slot0.furniture = slot2
 
-	uv0.super.Ctor(slot0, slot2)
+	uv0.super.Ctor(slot0, slot1, slot3)
 end
 
 function slot0.LegalPosition(slot0, slot1, slot2)

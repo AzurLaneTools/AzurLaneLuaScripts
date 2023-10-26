@@ -32,7 +32,6 @@ function slot0.setLastLogin(slot0, slot1)
 	slot0.data = slot1:clone()
 
 	slot0.data:display("logged in")
-	slot0:clearTranscode()
 
 	if PLATFORM_CODE == PLATFORM_JP then
 		slot0:clearTranscode()

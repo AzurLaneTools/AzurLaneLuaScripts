@@ -8,12 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.recoders = {}
 	slot0.playName = nil
 	slot0.waitForStop = false
-
-	if _courtyard:GetController():IsFeast() then
-		slot0.defaultBgm = pg.voice_bgm.FeastScene.default_bgm
-	else
-		slot0.defaultBgm = pg.voice_bgm.CourtYardScene.default_bgm
-	end
+	slot0.defaultBgm = slot0:GetDefaultBgm()
 
 	slot0:PlayVoice(slot0.defaultBgm)
 end

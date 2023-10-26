@@ -6,8 +6,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.group = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.icon = findTF(slot0._tf, "icon"):GetComponent(typeof(Image))
 	slot0.comfortableTF = findTF(slot0._tf, "comfortable")
-	slot0.comfortable = findTF(slot0._tf, "comfortable/Text"):GetComponent(typeof(Text))
-	slot0.name = findTF(slot0._tf, "name/Text"):GetComponent(typeof(Text))
+	slot0.comfortable = findTF(slot0._tf, "comfortable"):GetComponent(typeof(Text))
+	slot0.name = findTF(slot0._tf, "name"):GetComponent(typeof(Text))
+	slot0.themeName = findTF(slot0._tf, "theme"):GetComponent(typeof(Text))
 	slot0.desc = findTF(slot0._tf, "desc"):GetComponent(typeof(Text))
 	slot0.resGold = findTF(slot0._tf, "res/gold")
 	slot0.resGoldTxt = findTF(slot0._tf, "res/gold/Text"):GetComponent(typeof(Text))
@@ -21,6 +22,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.skinMark = findTF(slot0._tf, "skin_mark")
 	slot0.maskUnOpen = findTF(slot0._tf, "mask1")
 	slot0.countDownTm = findTF(slot0._tf, "time/Text"):GetComponent(typeof(Text))
+	slot0.timerTr = findTF(slot0._tf, "time")
+
+	setActive(slot0.timerTr, false)
 end
 
 function slot0.Update(slot0, slot1)
@@ -30,8 +34,9 @@ function slot0.Update(slot0, slot1)
 
 	slot0.furniture = slot1
 	slot0.name.text = shortenString(HXSet.hxLan(slot1:getConfig("name")), 9)
+	slot0.themeName.text = shortenString(slot1:GetThemeName(), 7)
 	slot0.desc.text = HXSet.hxLan(slot1:getConfig("describe"))
-	slot0.comfortable.text = slot1:getConfig("comfortable")
+	slot0.comfortable.text = "+" .. slot1:getConfig("comfortable")
 
 	GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getConfig("icon"), "", function (slot0)
 		uv0.icon.sprite = slot0
@@ -55,16 +60,6 @@ function slot0.Update(slot0, slot1)
 	setActive(slot0.hotTF, false)
 	setActive(slot0.newTF, slot1:IsNew() and slot7)
 
-	if slot9 or slot8 then
-		setAnchoredPosition(slot0.comfortableTF, {
-			y = -35
-		})
-	else
-		setAnchoredPosition(slot0.comfortableTF, {
-			y = -6
-		})
-	end
-
 	slot10, slot11 = slot1:inTime()
 
 	if slot1:isTimeLimit() and slot10 then
@@ -75,6 +70,7 @@ function slot0.Update(slot0, slot1)
 		slot0.countDownTm.text = ""
 	end
 
+	setActive(slot0.timerTr, slot13)
 	slot0:UpdateSkinType()
 end
 
@@ -97,6 +93,7 @@ function slot0.UpdateCountdown(slot0, slot1)
 		if uv1 < uv0:GetServerTime() then
 			uv2.countDownTm.text = ""
 
+			setActive(uv2.timerTr, false)
 			uv2:DestoryTimer()
 
 			return
@@ -106,7 +103,7 @@ function slot0.UpdateCountdown(slot0, slot1)
 			slot2 = 0
 		end
 
-		if (math.floor(slot2 / 86400) > 0 and i18n("time_remaining_tip") .. slot3 .. i18n("word_date") or math.floor(slot2 / 3600) > 0 and i18n("time_remaining_tip") .. slot4 .. i18n("word_hour") or math.floor(slot2 / 60) > 0 and i18n("time_remaining_tip") .. slot5 .. i18n("word_minute") or i18n("time_remaining_tip") .. slot2 .. i18n("word_second")) ~= uv2.prevStr then
+		if (math.floor(slot2 / 86400) > 0 and slot3 .. i18n("word_date") or math.floor(slot2 / 3600) > 0 and slot4 .. i18n("word_hour") or math.floor(slot2 / 60) > 0 and slot5 .. i18n("word_minute") or slot2 .. i18n("word_second")) ~= uv2.prevStr then
 			uv2.prevStr = slot0
 			uv2.countDownTm.text = slot0
 		end

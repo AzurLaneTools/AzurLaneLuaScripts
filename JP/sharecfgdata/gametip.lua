@@ -1766,11 +1766,11 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
-	tip = "食糧備蓄は"
+	tip = "<size=26>食糧備蓄は</size>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
-	tip = "持つね…早く補充しよう！"
+	tip = "<size=26>持つね…早く補充しよう！</size>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
@@ -1786,31 +1786,27 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
-	tip = "<size=30>快適度計算時に適用される家具数：\n壁紙:<color=#92fc63>$1</color>/床:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/雑貨:<color=#92fc63>$3</color>/マット:<color=#92fc63>$5</color>/壁飾り:<color=#92fc63>$6</color>/蒐集品:<color=#92fc63>$7</color>\n</size>"
+	tip = "寮舎快適度は家具の配置場所に影響されず、\n快適度が上からn番目の家具を合算する数値になります"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-	tip = [[
-<size=45>$1</size>
-経験値<color=#92fc63>+$2%</color><size=30>
-合計快適度は所持家具の各カテゴリーにおける快適度が上からn番目までの家具を合算した数値になります。合算に適用される家具数は寮舎の拡張回数によって決まります。
-</size>]]
+	tip = "寮舎快適度を掲載する際に使用される家具の数は寮舎の\n拡張回数によって決まります。現在の拡張回数： <color=#72bc42>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
-	tip = "<color=#ff5c5c>清貧</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
+	tip = "清貧"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
-	tip = "<color=#ffde38>普通</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
+	tip = "普通"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
-	tip = "<color=#c5cfdf>快適</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
+	tip = "快適"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
@@ -1835,10 +1831,6 @@ _G.pg.base.gametip.backyard_backyardScene_name = {
 
 _G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "疲労度が回復しました！"
-}
-
-_G.pg.base.gametip.backyard_backyardScene_timeRest = {
-	tip = "残り時間<color=#92fc63>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
@@ -10157,7 +10149,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「雲仙」を確定で入手可能！（最大4隻まで）"
+	tip = "サン・マルチーニョ、ゴールデン・ハインドなど出現率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14365,6 +14357,10 @@ _G.pg.base.gametip.indexsort_extraindex = {
 	tip = "追加ﾌｨﾙﾀｰ"
 }
 
+_G.pg.base.gametip.indexsort_label = {
+	tip = "ラベル"
+}
+
 _G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
@@ -14383,6 +14379,10 @@ _G.pg.base.gametip.indexsort_rarityeng = {
 
 _G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
+}
+
+_G.pg.base.gametip.indexsort_labeleng = {
+	tip = "LABEL"
 }
 
 _G.pg.base.gametip.fightfail_up = {
@@ -18865,7 +18865,7 @@ _G.pg.base.gametip.fleet_select_title = {
 }
 
 _G.pg.base.gametip.backyard_rename_title = {
-	tip = "寮舎名称"
+	tip = "名前変更"
 }
 
 _G.pg.base.gametip.backyard_rename_tip = {
@@ -23938,6 +23938,14 @@ _G.pg.base.gametip.battle_text_yunxian_3 = {
 	tip = "闇靄の「核」を撃破した！艦船を模した影も崩壊し始めた"
 }
 
+_G.pg.base.gametip.battle_text_haidao_1 = {
+	tip = "///「テンペスタ」じゃないなら全力を出そう！///"
+}
+
+_G.pg.base.gametip.battle_text_haidao_2 = {
+	tip = "///「壁雲の守り手」が突撃！サン・マルチーニョ戦力上昇！///"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -25688,11 +25696,28 @@ _G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
 }
 
 _G.pg.base.gametip.shipyard_phase_1 = {
-	tip = "占坑"
+	tip = {
+		{
+			info = [[
+イベント概要：
+「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。
+ミニゲームは<color=#92fc63>10月26日（木）～-11月9日（木）23:59</color>まで開催されます。
+
+遊び方：
+・「テンペスタの秘密造船所」では様々な任務が出現します。すべての任務をクリアすると、ミニゲームで使用する船が完成します。
+・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。
+・ミニゲームは11月1日（水）まで毎日新しいステージが開放されます。
+・ステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手できます。
+　  ステージ3 テンペスタ用設備「果物の補給」
+     ステージ5 テンペスタ用装備セット 
+     ステージ7 限定家具「始まりの冒険船」
+・ステージ7をクリアすると、任意のステージを選択してプレイすることができます]]
+		}
+	}
 }
 
 _G.pg.base.gametip.shipyard_phase_2 = {
-	tip = "占坑"
+	tip = "废弃"
 }
 
 _G.pg.base.gametip.shipyard_button_1 = {
@@ -25749,4 +25774,391 @@ _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
 
 _G.pg.base.gametip.tw_unsupport_tip = {
 	tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
+}
+
+_G.pg.base.gametip.courtyard_label_train = {
+	tip = "訓練"
+}
+
+_G.pg.base.gametip.courtyard_label_rest = {
+	tip = "休憩"
+}
+
+_G.pg.base.gametip.courtyard_label_capacity = {
+	tip = "食糧"
+}
+
+_G.pg.base.gametip.courtyard_label_share = {
+	tip = "シェア"
+}
+
+_G.pg.base.gametip.courtyard_label_shop = {
+	tip = "ショップ"
+}
+
+_G.pg.base.gametip.courtyard_label_decoration = {
+	tip = "編集"
+}
+
+_G.pg.base.gametip.courtyard_label_template = {
+	tip = "模板"
+}
+
+_G.pg.base.gametip.courtyard_label_floor = {
+	tip = "フロア"
+}
+
+_G.pg.base.gametip.courtyard_label_exp_addition = {
+	tip = "経験効果"
+}
+
+_G.pg.base.gametip.courtyard_label_total_exp_addition = {
+	tip = "経験強化効果："
+}
+
+_G.pg.base.gametip.courtyard_label_comfortable_addition = {
+	tip = "経験強化効果："
+}
+
+_G.pg.base.gametip.courtyard_label_placed_furniture = {
+	tip = "配置済み家具"
+}
+
+_G.pg.base.gametip.courtyard_label_shop_1 = {
+	tip = "シヨップ"
+}
+
+_G.pg.base.gametip.courtyard_label_clear = {
+	tip = "クリア"
+}
+
+_G.pg.base.gametip.courtyard_label_save = {
+	tip = "セーブ"
+}
+
+_G.pg.base.gametip.courtyard_label_save_theme = {
+	tip = "テーマセーブ"
+}
+
+_G.pg.base.gametip.courtyard_label_using = {
+	tip = "$1Fに配置中"
+}
+
+_G.pg.base.gametip.courtyard_label_search_holder = {
+	tip = "search..."
+}
+
+_G.pg.base.gametip.courtyard_label_filter = {
+	tip = "絞り込み"
+}
+
+_G.pg.base.gametip.courtyard_label_time = {
+	tip = "时间"
+}
+
+_G.pg.base.gametip.courtyard_label_week = {
+	tip = "一周内"
+}
+
+_G.pg.base.gametip.courtyard_label_month = {
+	tip = "一月内"
+}
+
+_G.pg.base.gametip.courtyard_label_year = {
+	tip = "一年内"
+}
+
+_G.pg.base.gametip.courtyard_label_putlist_title = {
+	tip = "配置済み家具一覧"
+}
+
+_G.pg.base.gametip.courtyard_label_custom_theme = {
+	tip = "マイセット"
+}
+
+_G.pg.base.gametip.courtyard_label_system_theme = {
+	tip = "プリセット"
+}
+
+_G.pg.base.gametip.courtyard_tip_furniture_not_in_layer = {
+	tip = "家具はこのフロアに配置されていません"
+}
+
+_G.pg.base.gametip.courtyard_label_detail = {
+	tip = "詳細"
+}
+
+_G.pg.base.gametip.courtyard_label_place_pnekey = {
+	tip = "一括配置"
+}
+
+_G.pg.base.gametip.courtyard_label_delete = {
+	tip = "削除"
+}
+
+_G.pg.base.gametip.courtyard_label_cancel_share = {
+	tip = "シェア中止"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_template_list = {
+	tip = "没有找到符合条件的家具主题"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
+	tip = "没有找到符合条件的家具主题\n请前往管理界面重新保存自定义主题"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_collection_list = {
+	tip = "没有找到符合条件的收藏"
+}
+
+_G.pg.base.gametip.courtyard_label_go = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.mot_class_t_level_1 = {
+	tip = "星を導く者"
+}
+
+_G.pg.base.gametip.mot_class_t_level_2 = {
+	tip = "壁雲の守り手"
+}
+
+_G.pg.base.gametip.equip_share_label_1 = {
+	tip = "対軽装甲"
+}
+
+_G.pg.base.gametip.equip_share_label_2 = {
+	tip = "対中装甲"
+}
+
+_G.pg.base.gametip.equip_share_label_3 = {
+	tip = "対重装甲"
+}
+
+_G.pg.base.gametip.equip_share_label_4 = {
+	tip = "対航空"
+}
+
+_G.pg.base.gametip.equip_share_label_5 = {
+	tip = "一撃火力"
+}
+
+_G.pg.base.gametip.equip_share_label_6 = {
+	tip = "安定火力"
+}
+
+_G.pg.base.gametip.equip_share_label_7 = {
+	tip = "ﾒｲﾝ用"
+}
+
+_G.pg.base.gametip.equip_share_label_8 = {
+	tip = "ﾃﾞｲﾘｰ用"
+}
+
+_G.pg.base.gametip.equip_share_label_9 = {
+	tip = "ｾｲﾚｰﾝ用"
+}
+
+_G.pg.base.gametip.equipcode_input = {
+	tip = "装備コードを入力してください"
+}
+
+_G.pg.base.gametip.equipcode_slot_unmatch = {
+	tip = "適用できない装備編成です"
+}
+
+_G.pg.base.gametip.equipcode_share_nolabel = {
+	tip = "ラベルを2つ設定してからシェアできます"
+}
+
+_G.pg.base.gametip.equipcode_share_exceedlimit = {
+	tip = "ラベルは2つまでしか選択できません"
+}
+
+_G.pg.base.gametip.equipcode_illegal = {
+	tip = "正しい装備コードを入力してください"
+}
+
+_G.pg.base.gametip.equipcode_confirm_doublecheck = {
+	tip = "読み込んだ装備編成を適用しますか？"
+}
+
+_G.pg.base.gametip.equipcode_import_success = {
+	tip = "装備編成を適用しました"
+}
+
+_G.pg.base.gametip.equipcode_share_success = {
+	tip = "装備編成をシェアしました"
+}
+
+_G.pg.base.gametip.equipcode_like_limited = {
+	tip = "今日はすでにこの装備編成をいいねしました"
+}
+
+_G.pg.base.gametip.equipcode_like_success = {
+	tip = "いいねしました"
+}
+
+_G.pg.base.gametip.equipcode_dislike_success = {
+	tip = "通報しました"
+}
+
+_G.pg.base.gametip.equipcode_report_type_1 = {
+	tip = "装備編成が意味不明"
+}
+
+_G.pg.base.gametip.equipcode_report_type_2 = {
+	tip = "装備編成が古すぎる"
+}
+
+_G.pg.base.gametip.equipcode_report_warning = {
+	tip = "短期間に大量に通報されると一時的にシェアできなくなります"
+}
+
+_G.pg.base.gametip.equipcode_level_unmatched = {
+	tip = "ﾚﾍﾞﾙ違い"
+}
+
+_G.pg.base.gametip.equipcode_equipment_unowned = {
+	tip = "未所持"
+}
+
+_G.pg.base.gametip.equipcode_diff_selected = {
+	tip = "変更済み"
+}
+
+_G.pg.base.gametip.equipcode_export_success = {
+	tip = "装備コードをコビーしました"
+}
+
+_G.pg.base.gametip.equipcode_unsaved_tips = {
+	tip = "読み込んだ装備編成は適用されません。前の画面に戻りますか？"
+}
+
+_G.pg.base.gametip.equipcode_share_ruletips = {
+	tip = "ラベルを2つ設定し装備編成をシェアしましょう！"
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode7 = {
+	tip = "今日はすでにこの艦船の装備編成をシェアしました"
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode44 = {
+	tip = "本日はこれ以上装備編成をシェアできません"
+}
+
+_G.pg.base.gametip.equipcode_share_title = {
+	tip = "装備編成"
+}
+
+_G.pg.base.gametip.equipcode_share_titleeng = {
+	tip = "EQUIPMENTS"
+}
+
+_G.pg.base.gametip.equipcode_share_listempty = {
+	tip = "まだ装備編成がシェアされていません"
+}
+
+_G.pg.base.gametip.equipcode_equip_occupied = {
+	tip = "使用中"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_1 = {
+	tip = "<color=#E3CEAF>威力こそ低いが装填が早い火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+	tip = "<color=#E3CEAF>威力・装填速度共に普通な火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_3 = {
+	tip = "<color=#E3CEAF>威力は絶大だが装填が非常に遅い火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_4 = {
+	tip = "<color=#E3CEAF>装甲甲板</color>\n<color=#F1B969>装備すると耐久が上がるが速力が下がる</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_5 = {
+	tip = "<color=#E3CEAF>船員饅頭</color>\n<color=#F1B969>装備すると速力が上がる</color>"
+}
+
+_G.pg.base.gametip.sail_boat_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/sailboat_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/sailboat_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pirate_wanted_help = {
+	tip = [[
+イベント期間：10.26-11.9 メンテナンスまで
+
+遊び方
+1.イベント期間中、限定任務が出現します
+2.限定任務をクリアすると、様々な報酬を入手できます
+アビリティ固定の新オフニャ、限定テンペスタ用設備、家具「燦々たる針路」   
+受け取り時間は11月15日（水）23:59まで]]
+}
+
+_G.pg.base.gametip.harbor_backhill_help = {
+	tip = {
+		{
+			info = [[
+イベント概要：
+裏山キャンペーン「饅頭アジト」<color=#92fc63>10.25-11.9 メンテナンスまで</color>開催！
+
+■遊び方
+・秘密造船所
+「秘密造船所」をタップすると、前哨戦イベント「テンペスタの秘密造船所」に参加することができます。
+さらに、前哨戦イベントをクリアするとミニゲームを遊ぶことができ、11/1まで毎日開放されるステージをすべてクリアすると下記豪華報酬を入手できます！
+　ステージ3　テンペスタ用新SR設備「果物の補給」
+　ステージ5　テンペスタ兵装セット　ステージ7　限定家具「始まりの冒険船」
+
+・記念アイテム
+「記念アイテム」をタップすると、イベントの限定任務を確認・報酬受取することができます。
+任務をクリアすると、SSR主砲「旧式重火砲」、新オフニャ「べらーみ」「きっど」、限定家具「燦々たる針路」を入手可能！
+
+・イベント交換
+海域イベント「テンペスタと若返りの泉」交換ショップに遷移できます。
+
+・限定建造
+限定建造画面に遷移できます。
+
+・着せ替え
+きせかえショップに遷移できます。
+
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cryptolalia_download_task_already_exists = {
+	tip = "メモリーズ【$1】ダウンロード中"
 }

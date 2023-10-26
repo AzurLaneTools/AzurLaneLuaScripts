@@ -4,13 +4,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.mask = slot0._tf:Find("mask")
-	slot0.count = slot0._tf:Find("count"):GetComponent(typeof(Text))
-	slot0.nameTxt = slot0._tf:Find("name_bg/Text"):GetComponent(typeof(Text))
-	slot0.addTF = slot0._tf:Find("add_btn")
+	slot0.count = slot0._tf:Find("icon_bg/count"):GetComponent(typeof(Text))
+	slot0.nameTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
+	slot0.addTF = slot0._tf:Find("add")
 	slot0.icon = slot0._tf:Find("icon_bg/icon")
 	slot0.startPos = slot0._tf.anchoredPosition
 	slot0.width = slot0._tf.sizeDelta.x
-	slot0.space = 20
+	slot0.space = 33
 end
 
 function slot0.UpdatePositin(slot0, slot1)
@@ -34,13 +34,11 @@ end
 
 function slot0.UpdateCnt(slot0, slot1)
 	slot0.count.text = slot1
-	slot2 = slot1 == 0
 
-	setActive(slot0.mask, slot2)
+	setActive(slot0.mask, slot1 == 0)
 
 	slot0.count.text = slot1
-	slot3 = slot0.name
-	slot0.nameTxt.text = slot2 and setColorStr(slot3, "#2f2d2b") or setColorStr(slot3, "#4E3E42FF")
+	slot0.nameTxt.text = slot0.name
 end
 
 function slot0.Dispose(slot0)

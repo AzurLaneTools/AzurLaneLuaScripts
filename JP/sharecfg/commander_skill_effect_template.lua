@@ -1505,6 +1505,134 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[9600111] = {
+		id = 9600111,
+		name = "环球航行",
+		effect_type = "battle_buff",
+		args = {
+			40400
+		},
+		condition = {}
+	},
+	[9600112] = {
+		id = 9600112,
+		name = "环球航行",
+		effect_type = "battle_buff",
+		args = {
+			40410
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			}
+		}
+	},
+	[9600113] = {
+		id = 9600113,
+		name = "环球航行",
+		effect_type = "battle_buff",
+		args = {
+			40420
+		},
+		condition = {}
+	},
+	[9600211] = {
+		id = 9600211,
+		name = "私掠者的是与非",
+		effect_type = "battle_buff",
+		args = {
+			40430
+		},
+		condition = {}
+	},
+	[9600212] = {
+		id = 9600212,
+		name = "私掠者的是与非",
+		effect_type = "move_speed",
+		args = {
+			1
+		},
+		condition = {
+			{
+				"around_enemy",
+				3,
+				{
+					1,
+					2,
+					3
+				}
+			}
+		}
+	},
+	[9600213] = {
+		id = 9600213,
+		name = "私掠者的是与非",
+		effect_type = "battle_buff",
+		args = {
+			40450
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			}
+		}
+	},
+	[9600311] = {
+		id = 9600311,
+		name = "“高速”的山姆",
+		effect_type = "hunt_lv",
+		args = {
+			1
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9600312] = {
+		id = 9600312,
+		name = "“高速”的山姆",
+		effect_type = "battle_buff",
+		args = {
+			40460
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9600313] = {
+		id = 9600313,
+		name = "“高速”的山姆",
+		effect_type = "battle_buff",
+		args = {
+			40470
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
 	[9100111] = {
 		id = 9100111,
 		name = "31节的正义",
@@ -1752,6 +1880,39 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[99600212] = {
+		id = 99600212,
+		name = "私掠者的是非",
+		effect_type = "battle_buff",
+		args = {
+			40440
+		},
+		condition = {
+			{
+				"around_enemy",
+				3,
+				{
+					1,
+					2,
+					3
+				}
+			}
+		}
+	},
+	[99600311] = {
+		id = 99600311,
+		name = "“高速”的山姆",
+		effect_type = "battle_buff",
+		args = {
+			40480
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1848,6 +2009,15 @@ pg.commander_skill_effect_template = {
 		420211,
 		420212,
 		420213,
+		9600111,
+		9600112,
+		9600113,
+		9600211,
+		9600212,
+		9600213,
+		9600311,
+		9600312,
+		9600313,
 		9100111,
 		9100112,
 		9100113,
@@ -1863,6 +2033,8 @@ pg.commander_skill_effect_template = {
 		9400112,
 		9400113,
 		9400212,
-		9410213
+		9410213,
+		99600212,
+		99600311
 	}
 }

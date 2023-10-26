@@ -315,6 +315,7 @@ function slot6.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
 	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_BUFF_CLOCK, slot0.onAddBuffClock)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SWITCH_SPINE, slot0.onSwitchSpine)
+	slot0._unitData:RegisterEventListener(slot0, uv0.SWITCH_SHADER, slot0.onSwitchShader)
 
 	slot5 = slot0.onUpdateScore
 
@@ -353,6 +354,8 @@ function slot6.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.REMOVE_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_BUFF_CLOCK)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.SWITCH_SPINE)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.SWITCH_SHADER)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 
 	slot4 = uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON
@@ -1440,13 +1443,17 @@ end
 function slot6.SonarAcitve(slot0, slot1)
 end
 
-function slot6.SwitchShader(slot0, slot1, slot2)
+function slot6.SwitchShader(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(slot0._go)
 
 	slot2 = slot2 or Color.New(0, 0, 0, 0)
 
 	if slot1 then
 		slot0._animator:ShiftShader(uv0.GetInstance():GetShader(slot1), slot2)
+
+		if slot3 then
+			slot0:spineSemiTransparentFade(0, slot3.invisible, 0)
+		end
 	end
 
 	slot0._shaderType = slot1
@@ -1478,4 +1485,10 @@ function slot6.SwitchSpine(slot0, slot1)
 	end
 
 	slot0._factory:SwitchCharacterSpine(slot0, slot1)
+end
+
+function slot6.onSwitchShader(slot0, slot1)
+	slot2 = slot1.Data
+
+	slot0:SwitchShader(slot2.shader, slot2.color, slot2.args)
 end

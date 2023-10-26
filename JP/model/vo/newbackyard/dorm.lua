@@ -2,6 +2,9 @@ slot0 = class("Dorm", import("..BaseVO"))
 slot0.MAX_FLOOR = 2
 slot0.MAX_LEVEL = 4
 slot0.DORM_2_FLOOR_COMFORTABLE_ADDITION = 20
+slot0.COMFORTABLE_LEVEL_1 = 1
+slot0.COMFORTABLE_LEVEL_2 = 2
+slot0.COMFORTABLE_LEVEL_3 = 3
 
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id or slot1.lv
@@ -135,6 +138,28 @@ function slot0.getComfortable(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.GetComfortableLevel(slot0, slot1)
+	if slot1 < 30 then
+		return uv0.COMFORTABLE_LEVEL_1
+	elseif slot1 >= 30 and slot1 < 68 then
+		return uv0.COMFORTABLE_LEVEL_2
+	else
+		return uv0.COMFORTABLE_LEVEL_3
+	end
+end
+
+function slot0._GetComfortableLevel(slot0)
+	return slot0:GetComfortableLevel(slot0:getComfortable())
+end
+
+function slot0.GetComfortableColor(slot0, slot1)
+	return ({
+		Color.New(0.9490196, 0.772549, 0.772549, 1),
+		Color.New(0.9882353, 0.9333333, 0.7647059, 1),
+		Color.New(0.8588235, 0.9490196, 0.772549, 1)
+	})[slot1]
 end
 
 function slot0.increaseTrainPos(slot0)
@@ -299,6 +324,8 @@ end
 
 function slot0.AddFurniture(slot0, slot1)
 	if not slot0.furnitures[slot1.id] then
+		slot1:MarkNew()
+
 		slot0.furnitures[slot1.id] = slot1
 	else
 		slot2 = slot0.furnitures[slot1.id]

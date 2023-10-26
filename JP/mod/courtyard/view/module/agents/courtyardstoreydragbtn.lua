@@ -1,9 +1,9 @@
 slot0 = class("CourtYardStoreyDragBtn")
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
-	slot0.agent = CourtYardDragAgent.New(slot0)
+	slot0.agent = CourtYardDragAgent.New(slot0, slot2)
 
 	slot0.agent:Enable(false)
 end

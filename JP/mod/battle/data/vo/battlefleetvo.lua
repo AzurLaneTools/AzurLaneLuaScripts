@@ -260,8 +260,6 @@ function slot8.AppendPlayerUnit(slot0, slot1)
 	slot0._unitList[#slot0._unitList + 1] = slot1
 	slot0._maxCount = slot0._maxCount + 1
 
-	print(slot0._maxCount)
-
 	if slot1:IsMainFleetUnit() then
 		slot0:appendMainUnit(slot1)
 	else

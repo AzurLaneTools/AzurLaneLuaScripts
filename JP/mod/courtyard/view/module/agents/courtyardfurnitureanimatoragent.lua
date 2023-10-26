@@ -45,6 +45,14 @@ function slot0.SetState(slot0, slot1)
 	end
 end
 
+function slot0.GetNormalAnimationName(slot0)
+	return slot0:State2Action(CourtYardFurniture.STATE_IDLE)
+end
+
+function slot0.RestartAnimation(slot0, slot1)
+	slot0.spineAnimUI:SetAction(slot1, 0)
+end
+
 function slot0._PlayAction(slot0, slot1, slot2, slot3)
 	slot0.spineAnimUI:SetActionCallBack(not slot2 and function (slot0)
 		if slot0 == "finish" then

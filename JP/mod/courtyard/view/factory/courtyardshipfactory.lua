@@ -1,7 +1,11 @@
 slot0 = class("CourtYardShipFactory")
 
+function slot0.Ctor(slot0, slot1)
+	slot0.poolMgr = slot1
+end
+
 function slot0.Make(slot0, slot1)
-	slot2 = _courtyard:GetView().poolMgr:GetShipPool():Dequeue()
+	slot2 = slot0.poolMgr:GetShipPool():Dequeue()
 	slot3 = SpineRole.New(slot1)
 	slot4 = nil
 	slot5 = slot1:GetPrefab()
@@ -30,7 +34,7 @@ function slot0.Make(slot0, slot1)
 		uv2:Init()
 	end)
 
-	return (not _courtyard:GetController():IsVisit() or CourtYardOtherPlayerShipModule.New(slot1, slot2, slot3)) and ({
+	return (slot1:GetShipType() ~= CourtYardConst.SHIP_TYPE_OTHER or CourtYardOtherPlayerShipModule.New(slot1, slot2, slot3)) and ({
 		CourtYardShipModule,
 		CourtYardVisitorShipModule,
 		CourtYardFeastShipModule

@@ -154,7 +154,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	setActive(slot0.gameButtonLock, not slot0:checkTaskFinish() or not slot0:checkMinigame())
-	setActive(slot0.gameButton, slot0:checkTaskFinish())
+	setActive(slot0.gameButton, slot0:checkTaskFinish() or slot0:checkMinigame())
 	slot0.uilist:align(#slot0.taskGroup[slot0.count])
 end
 

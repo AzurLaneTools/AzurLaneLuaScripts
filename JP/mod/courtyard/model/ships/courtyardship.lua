@@ -11,19 +11,19 @@ slot0.STATE_STOP = 8
 slot0.STATE_INTERACT = 9
 slot0.STATE_CANCEL_INTERACT = 10
 
-function slot0.Ctor(slot0, slot1)
-	slot0.id = slot1.id
-	slot0.configId = slot1.configId
-	slot0.prefab = slot1:getPrefab()
-	slot0.attachments = slot1:getAttachmentPrefab()
-	slot0.inimacy = slot1.state_info_3 or 0
-	slot0.coin = slot1.state_info_4 or 0
-	slot0.skinId = slot1.skinId
-	slot0.groupId = slot1.groupId
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.id = slot2.id
+	slot0.configId = slot2.configId
+	slot0.prefab = slot2:getPrefab()
+	slot0.attachments = slot2:getAttachmentPrefab()
+	slot0.inimacy = slot2.state_info_3 or 0
+	slot0.coin = slot2.state_info_4 or 0
+	slot0.skinId = slot2.skinId
+	slot0.groupId = slot2.groupId
 	slot0.config = pg.ship_data_statistics[slot0.configId]
 	slot0.moveTime = math.floor(1 / slot0.config.backyard_speed)
 
-	uv0.super.Ctor(slot0, slot0.id, 1, 1)
+	uv0.super.Ctor(slot0, slot1, slot0.id, 1, 1)
 
 	slot0.state = uv0.STATE_IDLE
 	slot0.moveCnt = 0
@@ -56,7 +56,7 @@ function slot0.SetPosition(slot0, slot1)
 end
 
 function slot0.InActivityRange(slot0, slot1)
-	return slot1.x < _courtyard:GetController():GetStorey():GetRange().x and slot1.y < slot2.y and slot1.x >= 0 and slot1.y >= 0
+	return slot1.x < slot0:GetHost():GetStorey():GetRange().x and slot1.y < slot2.y and slot1.x >= 0 and slot1.y >= 0
 end
 
 function slot0.GetDeathType(slot0)

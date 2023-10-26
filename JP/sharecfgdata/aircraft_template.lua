@@ -73738,6 +73738,394 @@ _G.pg.base.aircraft_template[163280] = {
 	}
 }
 
+_G.pg.base.aircraft_template[163311] = {
+	attack_power = 2,
+	name = "圣马丁圣洁轰炸lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 163311,
+	icon = "huixing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163321,
+		163331
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163312] = {
+	id = 163312,
+	name = "圣马丁圣洁轰炸lv2",
+	hp_growth = 1846,
+	base = 163311,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163322,
+		163332
+	}
+}
+
+_G.pg.base.aircraft_template[163313] = {
+	id = 163313,
+	name = "圣马丁圣洁轰炸lv3",
+	hp_growth = 2087,
+	base = 163311,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163323,
+		163333
+	}
+}
+
+_G.pg.base.aircraft_template[163314] = {
+	id = 163314,
+	name = "圣马丁圣洁轰炸lv4",
+	hp_growth = 2327,
+	base = 163311,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163324,
+		163334
+	}
+}
+
+_G.pg.base.aircraft_template[163315] = {
+	id = 163315,
+	name = "圣马丁圣洁轰炸lv5",
+	hp_growth = 2568,
+	base = 163311,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163325,
+		163335
+	}
+}
+
+_G.pg.base.aircraft_template[163316] = {
+	id = 163316,
+	name = "圣马丁圣洁轰炸lv6",
+	hp_growth = 2809,
+	base = 163311,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163326,
+		163336
+	}
+}
+
+_G.pg.base.aircraft_template[163317] = {
+	id = 163317,
+	name = "圣马丁圣洁轰炸lv7",
+	hp_growth = 3050,
+	base = 163311,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163327,
+		163337
+	}
+}
+
+_G.pg.base.aircraft_template[163318] = {
+	id = 163318,
+	name = "圣马丁圣洁轰炸lv8",
+	hp_growth = 3290,
+	base = 163311,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163328,
+		163338
+	}
+}
+
+_G.pg.base.aircraft_template[163319] = {
+	id = 163319,
+	name = "圣马丁圣洁轰炸lv9",
+	hp_growth = 3531,
+	base = 163311,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163329,
+		163339
+	}
+}
+
+_G.pg.base.aircraft_template[163320] = {
+	id = 163320,
+	name = "圣马丁圣洁轰炸lv10",
+	hp_growth = 3772,
+	base = 163311,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163330,
+		163340
+	}
+}
+
+_G.pg.base.aircraft_template[163381] = {
+	attack_power = 2,
+	name = "圣马丁圣洁轰炸 + lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 163381,
+	icon = "huixing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 60,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		163391,
+		163401
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163382] = {
+	id = 163382,
+	name = "圣马丁圣洁轰炸 + lv2",
+	hp_growth = 1846,
+	base = 163381,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163392,
+		163402
+	}
+}
+
+_G.pg.base.aircraft_template[163383] = {
+	id = 163383,
+	name = "圣马丁圣洁轰炸 + lv3",
+	hp_growth = 2087,
+	base = 163381,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163393,
+		163403
+	}
+}
+
+_G.pg.base.aircraft_template[163384] = {
+	id = 163384,
+	name = "圣马丁圣洁轰炸 + lv4",
+	hp_growth = 2327,
+	base = 163381,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163394,
+		163404
+	}
+}
+
+_G.pg.base.aircraft_template[163385] = {
+	id = 163385,
+	name = "圣马丁圣洁轰炸 + lv5",
+	hp_growth = 2568,
+	base = 163381,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163395,
+		163405
+	}
+}
+
+_G.pg.base.aircraft_template[163386] = {
+	id = 163386,
+	name = "圣马丁圣洁轰炸 + lv6",
+	hp_growth = 2809,
+	base = 163381,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163396,
+		163406
+	}
+}
+
+_G.pg.base.aircraft_template[163387] = {
+	id = 163387,
+	name = "圣马丁圣洁轰炸 + lv7",
+	hp_growth = 3050,
+	base = 163381,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163397,
+		163407
+	}
+}
+
+_G.pg.base.aircraft_template[163388] = {
+	id = 163388,
+	name = "圣马丁圣洁轰炸 + lv8",
+	hp_growth = 3290,
+	base = 163381,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163398,
+		163408
+	}
+}
+
+_G.pg.base.aircraft_template[163389] = {
+	id = 163389,
+	name = "圣马丁圣洁轰炸 + lv9",
+	hp_growth = 3531,
+	base = 163381,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163399,
+		163409
+	}
+}
+
+_G.pg.base.aircraft_template[163390] = {
+	id = 163390,
+	name = "圣马丁圣洁轰炸 + lv10",
+	hp_growth = 3772,
+	base = 163381,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163400,
+		163340
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
@@ -229596,6 +229984,240 @@ _G.pg.base.aircraft_template[3087326] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3093001] = {
+	attack_power = 2,
+	name = "【2023海盗活动T4】BOSS 执棋者I型 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3093001,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3093004
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3093002] = {
+	attack_power = 2,
+	name = "【2023海盗活动T4】BOSS 执棋者I型 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3093002,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3093005
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3093003] = {
+	attack_power = 2,
+	name = "【2023海盗活动T4】BOSS 执棋者I型 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3093003,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 750,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3093006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
 				0
 			}
 		}

@@ -40,10 +40,6 @@ function slot0.CleanUntilMediator(slot0, slot1)
 	end
 end
 
-function slot0.onRegister(slot0)
-	slot0.lastContext = nil
-end
-
 function slot0.GetPrevContext(slot0, slot1)
 	return slot0.data[#slot0.data - slot1]
 end

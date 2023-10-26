@@ -15,7 +15,12 @@ function slot0.register(slot0)
 	end
 
 	slot4 = getProxy(BayProxy):getShipById()
-	slot5, slot6 = EquipmentProxy.StaticGetSpWeapon(slot0.contextData.shipId, slot0.contextData.spWeaponUid)
+	slot5, slot6 = unpack(slot0.contextData.shipVO and {
+		slot0.contextData.shipVO:GetSpWeapon(),
+		slot0.contextData.shipVO
+	} or {
+		EquipmentProxy.StaticGetSpWeapon(slot0.contextData.shipId, slot0.contextData.spWeaponUid)
+	})
 
 	if slot0.contextData.spWeaponConfigId then
 		slot5 = SpWeapon.New({

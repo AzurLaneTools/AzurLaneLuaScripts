@@ -49,7 +49,7 @@ function slot0.Clear(slot0)
 end
 
 function slot0.GetPool(slot0)
-	return _courtyard:GetView().poolMgr:GetGridPool()
+	return slot0:GetView().poolMgr:GetGridPool()
 end
 
 function slot0.GetColor(slot0, slot1)

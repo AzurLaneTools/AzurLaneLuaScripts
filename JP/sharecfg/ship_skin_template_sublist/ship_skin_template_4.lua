@@ -1,312 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107070] = {
-		ship_group = 10707,
-		name = "ホーネット",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "dahuangfeng",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 107070,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ヨークタウン級航空母艦・ホーネット（CV-8)",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.757,
-					1.097,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.492,
-					0.598,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.76,
-							0.4,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.53,
-							0.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107071] = {
-		ship_group = 10707,
-		name = "Bubbly Anniversary！",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70189,
-		painting = "dahuangfeng_2",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "115",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107071,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Congratulations！指揮官、いつもお疲れ！さあて、景気づけにシャンパンを開けて、思いっきりパーティーを楽しんでこー！",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.99,
-					0.96,
-					0
-				}
-			},
-			plane = {
-				{
-					0.97,
-					0.94,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107072] = {
-		ship_group = 10707,
-		name = "デリシャス·ラブ！",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70479,
-		painting = "dahuangfeng_3",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107072,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ふーふー…焼き立てピザ、やっぱり最高！ほら、指揮官もこれ食べてみない？今度エンプラ姉にもオススメしよう！",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.536,
-					1.01,
-					0
-				}
-			},
-			plane = {
-				{
-					1.552,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.601,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107073] = {
 		ship_group = 10707,
 		name = "チアリング・ジャスティス！",
@@ -10381,6 +10075,472 @@ pg.base.ship_skin_template_4 = {
 						{
 							-0.49,
 							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201210] = {
+		ship_group = 20121,
+		name = "ジャベリン",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "biaoqiang",
+		illustrator = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201210,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "J級駆逐艦・ジャベリン（F61)",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.545,
+					0.537,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							0.32,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.354,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[201212] = {
+		ship_group = 20121,
+		name = "ビーチピクニック！",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70088,
+		painting = "biaoqiang_3",
+		illustrator = 1,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		bg = "106",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201212,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官、みんな～早く早く！せっかくみんなとのお出かけなんだから、モタモタしないの！ジャベリンは弁当をいっぱい作ったから、海辺でピクニックでもやりましょー！",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.24,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.22,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[201213] = {
+		ship_group = 20121,
+		name = "制服はお揃い♪",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70176,
+		painting = "biaoqiang_4",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201213,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "じゃじゃーん！ジャベリンのみんなとお揃いの制服！どう？かわいいですか？ふふん、これを着てオシゴトを頑張るから、ぜひ見に来てね！",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.78,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.04,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.5,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201214] = {
+		ship_group = 20121,
+		name = "びそくぜんしんっ！",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 0,
+		painting = "biaoqiang_5",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201214,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang_5",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ジャベリン、びそくぜんしんでいきまーす！です♪",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.47,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.4,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.5,
 							0
 						}
 					}

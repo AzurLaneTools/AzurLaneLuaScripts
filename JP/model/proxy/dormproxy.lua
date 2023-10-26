@@ -174,16 +174,16 @@ function slot0.AddFurnitrues(slot0, slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
-function slot0.getFurnitrueCount(slot0, slot1)
-	slot3 = 0
-
-	for slot7, slot8 in pairs(slot0:getFurnitrues()) do
-		if slot8.configId == slot1 then
-			slot3 = slot3 + 1
-		end
+function slot0.ClearNewFlag(slot0)
+	for slot5, slot6 in pairs(slot0.data:GetPurchasedFurnitures()) do
+		slot6:ClearNewFlag()
 	end
+end
 
-	return slot3
+function slot0._ClearNewFlag(slot0, slot1)
+	if slot0.data:GetPurchasedFurnitures()[slot1] then
+		slot3:ClearNewFlag()
+	end
 end
 
 function slot0.addDorm(slot0, slot1)

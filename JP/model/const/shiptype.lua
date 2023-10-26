@@ -18,6 +18,8 @@ slot0.Yunshu = 19
 slot0.DaoQuV = 20
 slot0.DaoQuM = 21
 slot0.FengFanS = 22
+slot0.FengFanV = 23
+slot0.FengFanM = 24
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
@@ -38,7 +40,9 @@ slot0.AllShipType = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23,
+	24
 }
 slot0.SpecificTypeTable = {
 	auxiliary = "AUX",
@@ -79,7 +83,9 @@ function slot0.Type2Print(slot0)
 			"yunshu",
 			"daoquv",
 			"daoqum",
-			"fengfans"
+			"fengfans",
+			"fengfanv",
+			"fengfanm"
 		}
 	end
 
@@ -112,7 +118,9 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_yunshu",
 			"battle_daoqu",
 			"battle_daoqu",
-			"battle_fengfans"
+			"battle_fengfans",
+			"battle_fengfanv",
+			"battle_fengfanm"
 		}
 	end
 
@@ -143,7 +151,10 @@ function slot0.Type2CNLabel(slot0)
 			"label_22",
 			"label_23",
 			"label_23",
-			"label_24"
+			"label_24",
+			"label_25",
+			"label_26",
+			fengfan = "label_27"
 		}
 	end
 
@@ -182,6 +193,11 @@ slot0.BundleList = {
 		slot0.QuZhu,
 		slot0.DaoQuM,
 		slot0.DaoQuV
+	},
+	fengfan = {
+		slot0.FengFanS,
+		slot0.FengFanV,
+		slot0.FengFanM
 	}
 }
 
@@ -224,11 +240,11 @@ function slot0.CloakShipType(slot0)
 	return table.contains(uv0.CloakShipTypeList, slot0)
 end
 
-slot0.QuZhuShipType = {
-	[slot0.QuZhu] = true,
-	[slot0.DaoQuV] = true,
-	[slot0.DaoQuM] = true
-}
+slot0.QuZhuShipType = {}
+
+for slot4, slot5 in ipairs(slot0.BundleList.quzhu) do
+	slot0.QuZhuShipType[slot5] = true
+end
 
 function slot0.IsTypeQuZhu(slot0)
 	return uv0.QuZhuShipType[slot0]
@@ -246,6 +262,47 @@ function slot0.FilterOverQuZhuType(slot0)
 			return false
 		end
 	end)
+end
+
+slot0.FengFanType = {}
+
+for slot4, slot5 in ipairs(slot0.BundleList.fengfan) do
+	slot0.FengFanType[slot5] = true
+end
+
+function slot0.IsTypeFengFan(slot0)
+	return uv0.FengFanType[slot0]
+end
+
+function slot0.FilterOverFengFanType(slot0)
+	slot1 = false
+
+	return underscore.filter(slot0, function (slot0)
+		if not uv0 or not uv1.IsTypeFengFan(slot0) then
+			uv0 = uv0 or uv1.IsTypeFengFan(slot0)
+
+			return true
+		else
+			return false
+		end
+	end)
+end
+
+function slot0.MergeFengFanType(slot0, slot1, slot2)
+	slot3 = uv0.BundleList.fengfan[1]
+
+	if underscore.all(uv0.BundleList.fengfan, function (slot0)
+		return uv0[uv1] == uv0[slot0] and uv2[uv1] == uv2[slot0]
+	end) then
+		table.insert(underscore.filter(slot0, function (slot0)
+			return not table.contains(uv0.BundleList.fengfan, slot0)
+		end), table.indexof(slot0, slot3), "fengfan")
+
+		slot1.fengfan = slot1[slot3]
+		slot2.fengfan = slot2[slot3]
+	end
+
+	return slot0
 end
 
 return slot0

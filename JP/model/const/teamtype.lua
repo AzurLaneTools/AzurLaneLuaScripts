@@ -16,7 +16,8 @@ slot0.VanguardShipType = {
 	ShipType.LeiXun,
 	ShipType.ChaoXun,
 	ShipType.Yunshu,
-	ShipType.DaoQuV
+	ShipType.DaoQuV,
+	ShipType.FengFanV
 }
 slot0.MainShipType = {
 	ShipType.ZhanXun,
@@ -26,7 +27,8 @@ slot0.MainShipType = {
 	ShipType.HangZhan,
 	ShipType.WeiXiu,
 	ShipType.ZhongPao,
-	ShipType.DaoQuM
+	ShipType.DaoQuM,
+	ShipType.FengFanM
 }
 slot0.SubShipType = {
 	ShipType.QianTing,

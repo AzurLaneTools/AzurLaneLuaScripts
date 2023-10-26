@@ -3,9 +3,10 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.poolMgr = slot1
 	slot0.state = uv0
-	slot0.callback = slot1
+	slot0.callback = slot2
 	slot0.rollBacks = {}
 end
 
@@ -119,7 +120,7 @@ function slot5(slot0, slot1, slot2, slot3)
 end
 
 function slot6(slot0, slot1, slot2, slot3)
-	slot5 = _courtyard:GetView().poolRoot:Find("mask")
+	slot5 = slot0.poolMgr.root:Find("mask")
 
 	for slot9, slot10 in pairs(slot2:GetBodyMasks()) do
 		slot11 = slot0:CloneTplTo(slot5, slot1:Find("interaction"), "body_mask" .. slot9)
@@ -215,7 +216,7 @@ end
 
 function slot10(slot0, slot1, slot2, slot3)
 	if slot2:GetAnimatorMask() then
-		slot6 = slot0:CloneTplTo(_courtyard:GetView().poolRoot:Find("mask"), slot1:Find("interaction"), "animtor_mask")
+		slot6 = slot0:CloneTplTo(slot0.poolMgr.root:Find("mask"), slot1:Find("interaction"), "animtor_mask")
 		slot6.sizeDelta = slot4.size
 
 		setAnchoredPosition(slot6, slot4.offset)
