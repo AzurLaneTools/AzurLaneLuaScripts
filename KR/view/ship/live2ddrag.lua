@@ -182,6 +182,10 @@ function slot0.fillterAction(slot0, slot1)
 end
 
 function slot0.setTargetValue(slot0, slot1)
+	if not slot0.reactX and not slot0.reactY then
+		print("set target value = " .. slot1)
+	end
+
 	slot0.parameterTargetValue = slot1
 end
 
@@ -212,7 +216,11 @@ function slot0.stepParameter(slot0)
 	slot0:updateState()
 	slot0:updateTrigger()
 
-	slot0.parameterUpdateFlag = false
+	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_ACTION then
+		slot0.parameterUpdateFlag = true
+	else
+		slot0.parameterUpdateFlag = false
+	end
 
 	slot0:updateGyro()
 	slot0:updateDrag()
@@ -317,11 +325,11 @@ function slot0.updateParameter(slot0)
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
 		elseif slot0.smooth and slot0.smooth > 0 then
-			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, 0.1)
+			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
 
 			slot0:setParameterValue(slot1, slot2)
 		else
-			slot0:setParameterValue(parameterValue, slot0.parameterTargetValue)
+			slot0:setParameterValue(slot0.parameterTargetValue, 0)
 		end
 	end
 end
@@ -435,22 +443,51 @@ function slot0.updateTrigger(slot0)
 		end
 	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
 		if slot0.firstActive then
+			print("enable is true ")
 			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 				ableFlag = true
 			})
 		elseif slot0.firstStop then
+			slot6 = slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5
+
+			if math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 and slot6 and not slot0.l2dIsPlaying then
+				print("set time for apply ")
+
+				slot0.clickTriggerTime = 0.01
+				slot0.clickApplyFlag = true
+			end
+		elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 then
+			slot0.clickTriggerTime = slot0.clickTriggerTime - Time.deltaTime
+
+			if slot0.clickTriggerTime <= 0 then
+				slot0.clickTriggerTime = nil
+
+				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+					ableFlag = false
+				})
+
+				if slot0.clickApplyFlag then
+					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+
+					slot0.clickApplyFlag = false
+				end
+			end
+		end
+	elseif slot1 == Live2D.DRAG_DOWN_ACTION and slot0.active then
+		if slot0.firstActive then
+			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+				ableFlag = true
+			})
+		end
+
+		if slot3 <= Time.time - slot0.mouseInputDownTime then
 			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 				ableFlag = false
 			})
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 
-			if slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5 and not slot0.l2dIsPlaying and math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 then
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
-			end
+			slot0.mouseInputDownTime = Time.time
 		end
-	elseif slot1 == Live2D.DRAG_DOWN_ACTION and slot0.active and slot3 <= Time.time - slot0.mouseInputDownTime then
-		slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
-
-		slot0.mouseInputDownTime = Time.time
 	end
 end
 

@@ -250,7 +250,8 @@ pg.memory_group = setmetatable({
 		587,
 		588,
 		589,
-		590
+		590,
+		591
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5376,6 +5377,23 @@ pg.base.memory_group = {
 			2945,
 			2946,
 			2947
+		}
+	},
+	[591] = {
+		id = 591,
+		subtype = 0,
+		icon = "title_chara_kelaimengsuo",
+		type = 3,
+		link_event = 0,
+		title = "순백에 감추어진 것",
+		memories = {
+			3051,
+			3052,
+			3053,
+			3054,
+			3055,
+			3056,
+			3057
 		}
 	}
 }

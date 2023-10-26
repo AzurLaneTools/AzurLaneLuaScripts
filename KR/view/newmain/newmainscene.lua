@@ -119,7 +119,6 @@ function slot0.didEnter(slot0)
 			uv0.bannerView:Init()
 			uv0.actBtnView:Init()
 			uv0:PlayEnterAnimation(slot0)
-			uv0:ShowOrHideResUI(true)
 
 			uv0.resAnimFlag = true
 		end,
@@ -167,6 +166,7 @@ function slot0.BlurView(slot0)
 		},
 		weight = LayerWeightConst.BASE_LAYER + 1
 	})
+	slot0:ShowOrHideResUI(true)
 end
 
 function slot0._FoldPanels(slot0, slot1, slot2)

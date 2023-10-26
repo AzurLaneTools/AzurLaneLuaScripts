@@ -15831,40 +15831,14 @@ pg.activity_template = {
 	},
 	[5020] = {
 		mark = 20230928,
-		id = 5020,
 		title_res_tag = "racing",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 49,
 		is_show = 48,
+		id = 5020,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RacePage",
 			ui_name = "RacePage"
@@ -15913,6 +15887,77 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[5022] = {
+		mark = 20231012,
+		config_client = "",
+		title_res_tag = "neihuada_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		id = 5022,
+		config_data = {
+			{
+				19317,
+				19318
+			},
+			{
+				19319,
+				19320
+			},
+			{
+				19321,
+				19322
+			},
+			{
+				19323,
+				19324
+			},
+			{
+				19325,
+				19326
+			},
+			{
+				19327,
+				19328
+			},
+			{
+				19329,
+				19330
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					10,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeihuadaSkinPage",
+			ui_name = "NeihuadaSkinPage"
 		}
 	},
 	[7004] = {
@@ -16798,123 +16843,6 @@ pg.activity_template = {
 						2022,
 						5,
 						11
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		}
-	},
-	[8019] = {
-		mark = 20220915,
-		config_client = "",
-		title_res_tag = "newserver_main2",
-		type = 3,
-		login_pop = 0,
-		config_id = 31,
-		is_show = 21,
-		id = 8019,
-		config_data = {},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2022,
-						10,
-						17
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2022,
-						9,
-						15
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						10,
-						16
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		},
-		page_info = {
-			class_name = "NewServerLoginPage",
-			ui_name = "NewServerLoginPage"
-		}
-	},
-	[8020] = {
-		mark = 20220915,
-		title_res_tag = "",
-		page_info = "",
-		type = 30,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		id = 8020,
-		config_data = {
-			103
-		},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2022,
-						10,
-						17
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2022,
-						9,
-						15
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2022,
-						10,
-						16
 					},
 					{
 						23,
@@ -22333,6 +22261,7 @@ pg.activity_template = {
 		5019,
 		5020,
 		5021,
+		5022,
 		7004,
 		7005,
 		7006,
@@ -22345,8 +22274,6 @@ pg.activity_template = {
 		7013,
 		8009,
 		8010,
-		8019,
-		8020,
 		8029,
 		8030,
 		8040,
