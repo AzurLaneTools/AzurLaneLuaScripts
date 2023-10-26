@@ -290,6 +290,7 @@ pg.skill_data_template = setmetatable({
 		60280,
 		60281,
 		60340,
+		60450,
 		7000,
 		9010,
 		9020,
@@ -11104,6 +11105,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "北方聯合角色裝備時，戰鬥中自身幸運提高3",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60450] = {
+		desc_get = "",
+		name = "航海望远镜",
+		id = 60450,
+		type = 0,
+		max_level = 0,
+		desc = "狩猎范围等级+1",
 		system_transform = {},
 		world_death_mark = {
 			1
