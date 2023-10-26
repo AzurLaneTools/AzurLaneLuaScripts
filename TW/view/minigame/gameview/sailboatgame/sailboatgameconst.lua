@@ -34,7 +34,7 @@ this.equip_data = {
 		type = this.equip_type_weapon
 	},
 	{
-		speed = -40,
+		speed = -30,
 		hp = 0,
 		id = 3,
 		icon = "equip_3",
@@ -43,7 +43,7 @@ this.equip_data = {
 		type = this.equip_type_weapon
 	},
 	{
-		speed = 0,
+		speed = -20,
 		hp = 50,
 		id = 4,
 		icon = "equip_4",
@@ -52,7 +52,7 @@ this.equip_data = {
 		type = this.equip_type_hp
 	},
 	{
-		speed = 100,
+		speed = 80,
 		hp = 0,
 		id = 5,
 		icon = "equip_5",
@@ -6795,7 +6795,7 @@ this.enemy_rule = {
 		id = 720,
 		create_time = {
 			0,
-			20
+			15
 		},
 		time = {
 			30,
@@ -6834,7 +6834,7 @@ this.enemy_rule = {
 		id = 721,
 		create_time = {
 			0,
-			11
+			20
 		},
 		time = {
 			30,
@@ -6951,7 +6951,7 @@ this.enemy_rule = {
 		id = 724,
 		create_time = {
 			0,
-			18
+			15
 		},
 		time = {
 			30,
@@ -7029,7 +7029,7 @@ this.enemy_rule = {
 		id = 727,
 		create_time = {
 			0,
-			17
+			13
 		},
 		time = {
 			30,
@@ -7068,7 +7068,7 @@ this.enemy_rule = {
 		id = 728,
 		create_time = {
 			0,
-			15
+			12
 		},
 		time = {
 			30,
@@ -8956,7 +8956,7 @@ this.game_enemy = {
 		hp = 5,
 		remove_time = 1,
 		id = 106,
-		boom = 20,
+		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
 		weapons = {
 			{},
@@ -9193,7 +9193,7 @@ this.game_enemy = {
 		hp = 5,
 		remove_time = 1,
 		id = 806,
-		boom = 20,
+		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
 		weapons = {
 			{},

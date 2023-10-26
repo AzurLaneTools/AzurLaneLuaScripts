@@ -199,9 +199,6 @@ function slot0.InitPageFooter(slot0)
 			slot0 = uv2
 
 			slot0:ExecuteAction("SetUp", uv1, uv0.dorm, uv0.player, function ()
-				pg.UIMgr.GetInstance():OverlayPanel(uv0.adpter)
-
-				uv0.isOverlay = true
 			end)
 
 			uv0.pageType = uv1
@@ -226,10 +223,6 @@ function slot0.UpdateSpecialPageFooter(slot0)
 end
 
 function slot0.willExit(slot0)
-	if slot0.isOverlay then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.adpter, slot0._tf)
-	end
-
 	slot0.isOverlay = false
 
 	slot0.contextData.filterPanel:Destroy()

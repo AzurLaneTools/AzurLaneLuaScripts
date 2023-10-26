@@ -32,6 +32,7 @@ function slot0.Init(slot0, slot1, slot2)
 
 		uv0.furnitureSpineStateAnimUI = GetOrAddComponent(uv0._tf, typeof(SpineAnimUI))
 
+		uv0:OnUpdateScale(uv1)
 		uv0:OnReset(uv1)
 	end), true, true)
 end
@@ -39,6 +40,10 @@ end
 function slot0.OnInit(slot0, slot1, slot2)
 	slot0:Init(slot1, slot2)
 	setParent(slot0._tf, slot0.rectTF)
+end
+
+function slot0.OnUpdateScale(slot0, slot1)
+	slot0._tf.localScale = Vector3(CourtYardCalcUtil.GetSign(slot1._tf.localScale.x), 1, 1)
 end
 
 function slot0.OnUpdate(slot0, slot1)

@@ -51,7 +51,11 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:InitStudents(getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_PIRATE_ID) and slot1.id, 2, 3)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xuanshangban", function ()
-		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.TEMPESTA_MEDAL_COLLECTION)
+		if uv0.XuanShangBanFirstTip() then
+			PlayerPrefs.SetInt("FIRST_INTO_ACT_" .. ActivityConst.PIRATE_MEDAL_ACT_ID .. "_" .. getProxy(PlayerProxy):getData().id, 1)
+		end
+
+		uv1:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.TEMPESTA_MEDAL_COLLECTION)
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "mimichuanchang", function ()
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SECRET_SHIPYARD)
@@ -62,8 +66,12 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
+function slot0.XuanShangBanFirstTip()
+	return PlayerPrefs.GetInt("FIRST_INTO_ACT_" .. ActivityConst.PIRATE_MEDAL_ACT_ID .. "_" .. getProxy(PlayerProxy):getData().id) == 0
+end
+
 function slot0.XuanShangBanTip()
-	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.PIRATE_MEDAL_ACT_ID))
+	return uv0.XuanShangBanFirstTip() or Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.PIRATE_MEDAL_ACT_ID))
 end
 
 function slot0.IsFinishAllActTask()

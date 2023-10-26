@@ -50,4 +50,15 @@ function slot0.GetSign(slot0)
 	end
 end
 
+function slot0.GetTransformSign(slot0, slot1)
+	slot2 = slot0
+	slot3 = slot1.localScale.x * slot0.localScale.x
+
+	while slot2.parent ~= slot1 do
+		slot3 = slot3 * slot2.parent.localScale.x
+	end
+
+	return uv0.GetSign(slot3)
+end
+
 return slot0

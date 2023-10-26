@@ -194,7 +194,9 @@ end
 
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
-	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.BASE_LAYER
+	})
 
 	if slot0.OnEnter then
 		slot0.OnEnter()
@@ -203,7 +205,7 @@ end
 
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
-	setParent(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 
 	if slot0.OnExit then
 		slot0.OnExit()

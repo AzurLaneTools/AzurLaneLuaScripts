@@ -1,4 +1,5 @@
 slot0 = class("BackYardDecrationLayer", import("...base.BaseUI"))
+slot0.INNER_SELECTED_FURNITRUE = "BackYardDecrationLayer:INNER_SELECTED_FURNITRUE"
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -120,16 +121,7 @@ function slot0.didEnter(slot0)
 
 		slot0:ShowFilterPanel(function (slot0)
 			slot1 = nil
-
-			if i18n("backyard_sort_tag_price") == slot0 then
-				slot1 = "text_price"
-			elseif i18n("backyard_sort_tag_comfortable") == slot0 then
-				slot1 = "text_comfortable"
-			elseif i18n("backyard_sort_tag_size") == slot0 then
-				slot1 = "text_area"
-			end
-
-			uv0.filterBtnTxt.sprite = GetSpriteFromAtlas("ui/NewBackYardDecorateUI_atlas", slot1)
+			uv0.filterBtnTxt.sprite = GetSpriteFromAtlas("ui/NewBackYardDecorateUI_atlas", i18n("backyard_sort_tag_price") == slot0 and "text_price" or i18n("backyard_sort_tag_comfortable") == slot0 and "text_comfortable" or i18n("backyard_sort_tag_size") == slot0 and "text_area" or "text_default")
 
 			uv0.filterBtnTxt:SetNativeSize()
 		end)

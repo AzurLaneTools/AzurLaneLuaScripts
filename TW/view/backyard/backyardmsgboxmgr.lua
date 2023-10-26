@@ -72,7 +72,9 @@ function slot0.Common(slot0, slot1)
 		uv0:Hide()
 	end, SFX_PANEL)
 	setActive(slot0._tf, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.TOP_LAYER
+	})
 end
 
 function slot0.ShowHelp(slot0, slot1)

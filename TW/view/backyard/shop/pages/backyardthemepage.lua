@@ -372,7 +372,8 @@ function slot0.BlurView(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.adpter, {
 		pbList = {
 			slot0:findTF("adpter/descript")
-		}
+		},
+		weight = LayerWeightConst.SECOND_LAYER
 	})
 end
 

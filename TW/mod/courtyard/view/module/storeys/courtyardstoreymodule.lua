@@ -375,6 +375,8 @@ function slot0.OnItemDirChange(slot0, slot1, slot2)
 		if slot0.data:InEidtMode() and slot0.gridAgent then
 			slot0.gridAgent:Flush(slot2)
 		end
+
+		slot0:GetFurnitureStateMgr(slot1):OnUpdateScale(slot0:Item2Module(slot1))
 	else
 		slot0.gridAgent:Flush(slot2)
 	end

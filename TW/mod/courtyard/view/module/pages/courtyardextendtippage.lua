@@ -23,6 +23,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/tip_1/text_2"), i18n("backyard_extend_tip_2"))
 	setText(slot0:findTF("frame/tip_2/text_1"), i18n("backyard_extend_tip_3"))
 	setText(slot0:findTF("frame/tip_2/text_2"), i18n("backyard_extend_tip_4"))
+	setText(slot0:findTF("frame/title"), i18n("words_information"))
 end
 
 function slot0.OnInit(slot0)

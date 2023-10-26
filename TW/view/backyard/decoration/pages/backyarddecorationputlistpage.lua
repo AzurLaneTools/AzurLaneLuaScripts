@@ -1,16 +1,12 @@
 slot0 = class("BackYardDecorationPutlistPage", import(".BackYardDecorationBasePage"))
 slot0.SELECTED_FURNITRUE = "BackYardDecorationPutlistPage:SELECTED_FURNITRUE"
-slot0.INNER_SELECTED_FURNITRUE = "BackYardDecorationPutlistPage:INNER_SELECTED_FURNITRUE"
 
 function slot0.getUIName(slot0)
 	return "BackYardPutListPage"
 end
 
 function slot0.OnLoaded(slot0)
-	slot0:bind(BackYardDecorationFurniturePage.SELECTED_FURNITRUE, function ()
-		uv0:ClearMark()
-	end)
-	slot0:bind(uv0.INNER_SELECTED_FURNITRUE, function (slot0, slot1)
+	slot0:bind(BackYardDecrationLayer.INNER_SELECTED_FURNITRUE, function (slot0, slot1)
 		uv0:Selected(slot1)
 	end)
 
@@ -97,14 +93,10 @@ function slot0.OnInit(slot0)
 			end
 
 			if uv2(slot1) then
-				if uv1.card then
-					uv1.card:MarkOrUnMark(false)
-				end
-
 				uv1:emit(BackYardDecorationMediator.ON_SELECTED_FURNITRUE, slot3.furniture.id)
-				slot3:MarkOrUnMark(true)
+				slot3:MarkOrUnMark(uv1.card.furniture.id)
 
-				uv1.card = slot3
+				uv1.selectedId = uv1.card.furniture.id
 
 				uv1:emit(uv3.SELECTED_FURNITRUE)
 			end
@@ -113,11 +105,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.ClearMark(slot0)
-	for slot4, slot5 in pairs(slot0.cards) do
-		slot5:MarkOrUnMark(false)
-	end
+	slot0.selectedId = nil
 
-	slot0.card = nil
+	for slot4, slot5 in pairs(slot0.cards) do
+		slot5:MarkOrUnMark(slot0.selectedId)
+	end
 end
 
 function slot0.Selected(slot0, slot1)
@@ -125,13 +117,13 @@ function slot0.Selected(slot0, slot1)
 
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture and slot6.furniture.id == slot1 then
-			slot6:MarkOrUnMark(true)
-
-			slot0.card = slot6
+			slot6:MarkOrUnMark(slot1)
 
 			break
 		end
 	end
+
+	slot0.selectedId = slot1
 end
 
 function slot0.change2ScrPos(slot0, slot1)
@@ -149,7 +141,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:Update(slot0.displays[slot1 + 1])
+	slot3:Update(slot0.displays[slot1 + 1], slot0.selectedId)
 end
 
 function slot0.OnDisplayList(slot0)

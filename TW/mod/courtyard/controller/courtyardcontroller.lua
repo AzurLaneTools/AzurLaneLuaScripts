@@ -262,6 +262,10 @@ end
 
 function slot0.UnSelectFurniture(slot0, slot1)
 	slot0.storey:UnSelectFurniture(slot1)
+
+	if not slot0.storey:GetFurniture(slot1):GetOpFlag() then
+		slot0:SendNotification(CourtYardEvent._FURNITURE_SELECTED, -99999)
+	end
 end
 
 function slot0.BeginDragFurniture(slot0, slot1)

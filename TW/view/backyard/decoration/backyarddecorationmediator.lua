@@ -319,7 +319,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.END_TAKE_THEME_PHOTO then
 		GetOrAddComponent(slot0.viewComponent._tf, typeof(CanvasGroup)).alpha = 1
 	elseif slot2 == CourtYardEvent._FURNITURE_SELECTED then
-		slot0.viewComponent:emit(BackYardDecorationPutlistPage.INNER_SELECTED_FURNITRUE, slot3)
+		slot0.viewComponent:emit(BackYardDecrationLayer.INNER_SELECTED_FURNITRUE, slot3)
 	end
 end
 

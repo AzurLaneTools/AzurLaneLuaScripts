@@ -23,14 +23,16 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.MarkOrUnMark(slot0, slot1)
-	setActive(slot0.mark, slot1)
+	setActive(slot0.mark, slot0.furniture.id == slot1)
 end
 
-function slot0.Update(slot0, slot1)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.furniture = slot1
 	slot0.nameTxt.text = slot1:getConfig("name")
 	slot0.tagTxt.text = uv0(slot1:getConfig("tag"))
 	slot0.icon.sprite = LoadSprite("furnitureicon/" .. slot1:getConfig("icon"))
+
+	slot0:MarkOrUnMark(slot2)
 end
 
 function slot0.Clear(slot0)
