@@ -25802,7 +25802,7 @@ _G.pg.base.gametip.harbor_backhill_help = {
 		{
 			info = [[
 活动简介：
-<color=#92fc63>10.25-11.9 维护</color>期间开启限时活动「神秘港湾」
+<color=#92fc63>10.26-11.9 维护</color>期间开启限时活动「神秘港湾」
 活动规则：
 1.活动期间开启「皇家财富的秘密船厂」第二阶段，参与活动可获得限定家具<color=#92fc63>「启航的冒险船」</color>、<color=#92fc63>「飓风的馈赠」</color>、<color=#92fc63>「果蔬补给品」</color>、<color=#92fc63>「喵箱SSR型」</color>在内的丰富奖励
 2.活动期间开启「啾啾悬赏板」，参与活动可获得限定纪念章<color=#92fc63>「璀璨航针」</color>、<color=#92fc63>「旧式重火炮」</color>、<color=#92fc63>「基德喵」&「贝拉喵」</color>在内的丰富奖励

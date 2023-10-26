@@ -203,7 +203,7 @@ function slot0.OnAddAward(slot0, slot1, slot2)
 
 	slot4 = 1 / uv0
 
-	if CourtYardCalcUtil.GetSign(slot0._tf.localScale.x) ~= CourtYardCalcUtil.GetSign(slot0._tf.parent.localScale.x) then
+	if CourtYardCalcUtil.GetTransformSign(slot0._tf, slot0.rect) < 0 then
 		slot0.additionTF.localScale = Vector3(-slot4, slot4, slot4)
 	end
 
