@@ -26037,7 +26037,7 @@ _G.pg.base.gametip.sail_boat_minigame_help = {
 
 _G.pg.base.gametip.pirate_wanted_help = {
 	tip = [[
-This event is available between <color=#92fc63>October 26th and November 8th.</color>
+This event is available between <color=#f15a22>October 26th and November 8th.</color>
 
 - Overview -
 1. Exclusive missions are available during this event.
