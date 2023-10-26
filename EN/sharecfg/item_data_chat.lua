@@ -122,10 +122,10 @@ pg.item_data_chat = {
 	},
 	[10006] = {
 		time_limit_type = 0,
-		name = "限界的挑战者·天蝎座",
+		name = "Extreme Challenge - Scorpio",
 		id = 10006,
 		time_second = 0,
-		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Scorpio. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 11/1/23 - 11/30/23 Season.",
 		scene = {}
 	},
 	all = {

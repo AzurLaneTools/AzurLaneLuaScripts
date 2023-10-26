@@ -40,6 +40,10 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
 
+function slot0.setChargedList(slot0, slot1)
+	slot0.chargedList = slot1
+end
+
 function slot0.initDamonds(slot0)
 	slot0.diamondUIItemList = slot0:initDiamondList(slot0.diamondPanel)
 end

@@ -8910,15 +8910,15 @@ pg.base.skill_data_display = {
 	},
 	[17160] = {
 		id = 17160,
-		name = "暗影无形"
+		name = "Unseen Phantom"
 	},
 	[17161] = {
 		id = 17161,
-		name = "暗影无形"
+		name = "Unseen Phantom"
 	},
 	[17171] = {
 		id = 17171,
-		name = "深海的幽灵"
+		name = "Ghost Ship of the Deep"
 	},
 	[17181] = {
 		id = 17181,
@@ -8930,19 +8930,19 @@ pg.base.skill_data_display = {
 	},
 	[17240] = {
 		id = 17240,
-		name = "迷雾之境"
+		name = "Pierce the Mistveil"
 	},
 	[17250] = {
 		id = 17250,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[17251] = {
 		id = 17251,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[17252] = {
 		id = 17252,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[18010] = {
 		id = 18010,
@@ -11226,11 +11226,11 @@ pg.base.skill_data_display = {
 	},
 	[30131] = {
 		id = 30131,
-		name = "专属弹幕-玛丽·西莱斯特号I"
+		name = "All Out Assault I"
 	},
 	[30132] = {
 		id = 30132,
-		name = "专属弹幕-玛丽·西莱斯特号II"
+		name = "All Out Assault II"
 	},
 	[39000] = {
 		id = 39000,
@@ -12422,27 +12422,27 @@ pg.base.skill_data_display = {
 	},
 	[600060] = {
 		id = 600060,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600061] = {
 		id = 600061,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[600070] = {
 		id = 600070,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600071] = {
 		id = 600071,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[600072] = {
 		id = 600072,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600073] = {
 		id = 600073,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[800010] = {
 		id = 800010,
@@ -13502,23 +13502,23 @@ pg.base.skill_data_display = {
 	},
 	[200619] = {
 		id = 200619,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200621] = {
 		id = 200621,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200623] = {
 		id = 200623,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200632] = {
 		id = 200632,
-		name = "流星轰炸"
+		name = "Meteor Missiles"
 	},
 	[200635] = {
 		id = 200635,
-		name = "流星轰炸"
+		name = "Meteor Missiles"
 	},
 	[1011540] = {
 		id = 1011540,
@@ -13702,19 +13702,19 @@ pg.base.skill_data_display = {
 	},
 	[1017160] = {
 		id = 1017160,
-		name = "暗影无形 +"
+		name = "Unseen Phantom+"
 	},
 	[1017161] = {
 		id = 1017161,
-		name = "暗影无形 +"
+		name = "Unseen Phantom+"
 	},
 	[1017251] = {
 		id = 1017251,
-		name = "深海的恩典 +"
+		name = "Hindhorn's Grace+"
 	},
 	[1017252] = {
 		id = 1017252,
-		name = "深海的恩典 +"
+		name = "Hindhorn's Grace+"
 	},
 	[1090020] = {
 		id = 1090020,

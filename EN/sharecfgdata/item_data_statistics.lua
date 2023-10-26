@@ -28525,8 +28525,8 @@ _G.pg.base.item_data_statistics[40986] = {
 }
 
 _G.pg.base.item_data_statistics[40987] = {
-	display = "Contains 1 Random Outfit, 2023 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 5, 10 Quick Finishers, and 100 Decor Tokens ",
-	name = "美服独有请勿删除万圣节福袋",
+	display = "Contains 1 Random Outfit, 2023 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 6, 10 Quick Finishers, and 100 Decor Tokens ",
+	name = "Halloween Lucky Box 2023",
 	max_num = 0,
 	type = 17,
 	time_limit = 0,
@@ -198697,8 +198697,8 @@ _G.pg.base.item_data_statistics[58968] = {
 }
 
 _G.pg.base.item_data_statistics[58969] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198746,8 +198746,8 @@ _G.pg.base.item_data_statistics[58969] = {
 }
 
 _G.pg.base.item_data_statistics[58970] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198795,8 +198795,8 @@ _G.pg.base.item_data_statistics[58970] = {
 }
 
 _G.pg.base.item_data_statistics[58971] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198844,8 +198844,8 @@ _G.pg.base.item_data_statistics[58971] = {
 }
 
 _G.pg.base.item_data_statistics[58972] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198893,8 +198893,8 @@ _G.pg.base.item_data_statistics[58972] = {
 }
 
 _G.pg.base.item_data_statistics[58973] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198942,8 +198942,8 @@ _G.pg.base.item_data_statistics[58973] = {
 }
 
 _G.pg.base.item_data_statistics[58974] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -198991,8 +198991,8 @@ _G.pg.base.item_data_statistics[58974] = {
 }
 
 _G.pg.base.item_data_statistics[58975] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199040,8 +199040,8 @@ _G.pg.base.item_data_statistics[58975] = {
 }
 
 _G.pg.base.item_data_statistics[58976] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199089,8 +199089,8 @@ _G.pg.base.item_data_statistics[58976] = {
 }
 
 _G.pg.base.item_data_statistics[58977] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199138,8 +199138,8 @@ _G.pg.base.item_data_statistics[58977] = {
 }
 
 _G.pg.base.item_data_statistics[58978] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199187,8 +199187,8 @@ _G.pg.base.item_data_statistics[58978] = {
 }
 
 _G.pg.base.item_data_statistics[58979] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199231,8 +199231,8 @@ _G.pg.base.item_data_statistics[58979] = {
 }
 
 _G.pg.base.item_data_statistics[58980] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199275,8 +199275,8 @@ _G.pg.base.item_data_statistics[58980] = {
 }
 
 _G.pg.base.item_data_statistics[58981] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199324,8 +199324,8 @@ _G.pg.base.item_data_statistics[58981] = {
 }
 
 _G.pg.base.item_data_statistics[58982] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199368,8 +199368,8 @@ _G.pg.base.item_data_statistics[58982] = {
 }
 
 _G.pg.base.item_data_statistics[58983] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199507,8 +199507,8 @@ _G.pg.base.item_data_statistics[58983] = {
 }
 
 _G.pg.base.item_data_statistics[58984] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199641,8 +199641,8 @@ _G.pg.base.item_data_statistics[58984] = {
 }
 
 _G.pg.base.item_data_statistics[58985] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199775,8 +199775,8 @@ _G.pg.base.item_data_statistics[58985] = {
 }
 
 _G.pg.base.item_data_statistics[58986] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -199909,8 +199909,8 @@ _G.pg.base.item_data_statistics[58986] = {
 }
 
 _G.pg.base.item_data_statistics[58987] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -200043,8 +200043,8 @@ _G.pg.base.item_data_statistics[58987] = {
 }
 
 _G.pg.base.item_data_statistics[58988] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -200177,8 +200177,8 @@ _G.pg.base.item_data_statistics[58988] = {
 }
 
 _G.pg.base.item_data_statistics[58989] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "Chance to receive following ships from this stage",
+	name = "Mystery Ship",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -200316,8 +200316,8 @@ _G.pg.base.item_data_statistics[58989] = {
 }
 
 _G.pg.base.item_data_statistics[58990] = {
-	display = "有几率获得以下装备外观之一",
-	name = "外观装备箱(航海家)",
+	display = "Chance to receive following gear skins",
+	name = "Gear Skin Box (Pirate)",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -207840,8 +207840,8 @@ _G.pg.base.item_data_statistics[59494] = {
 }
 
 _G.pg.base.item_data_statistics[59495] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -207864,7 +207864,7 @@ _G.pg.base.item_data_statistics[59495] = {
 
 _G.pg.base.item_data_statistics[59496] = {
 	display = "用于古堡活动",
-	name = "骰子",
+	name = "Momopoly Dice ",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -207887,7 +207887,7 @@ _G.pg.base.item_data_statistics[59496] = {
 
 _G.pg.base.item_data_statistics[59497] = {
 	display = "用于「飓风与青春之泉」活动兑换，活动结束后将会消失",
-	name = "远古金币",
+	name = "Old Gold Coins",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -222029,7 +222029,7 @@ _G.pg.base.item_data_statistics[69981] = {
 
 _G.pg.base.item_data_statistics[69982] = {
 	display = "不会被看到",
-	name = "美服独有请勿删除万圣节福袋",
+	name = "Random Ship skin",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,

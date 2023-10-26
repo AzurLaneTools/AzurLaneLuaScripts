@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_32 = {
 	[90835] = {
 		cannon = 0,
-		name = "王座城邦-大型战列舰",
+		name = "Crownpolis Man-of-War",
 		type = 24,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -163,7 +163,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90836] = {
 		cannon = 0,
-		name = "新世界-快速帆船",
+		name = "New World Clipper",
 		type = 15,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -318,7 +318,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90837] = {
 		cannon = 0,
-		name = "新世界-火攻船",
+		name = "New World Fire Ship",
 		type = 16,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -459,7 +459,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90838] = {
 		cannon = 0,
-		name = "“往日幽影”-护卫舰",
+		name = "Shadow of Old - Corvette",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -607,7 +607,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90839] = {
 		cannon = 0,
-		name = "“往日幽影”-巡航舰",
+		name = "Shadow of Old - Frigate",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -755,7 +755,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90840] = {
 		cannon = 0,
-		name = "“往日幽影”-战列舰",
+		name = "Shadow of Old - Ship of the Line",
 		type = 24,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -918,7 +918,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90841] = {
 		cannon = 0,
-		name = "“往日幽影”-大型战列舰",
+		name = "Shadow of Old - Man-of-War",
 		type = 24,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1079,7 +1079,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90842] = {
 		cannon = 0,
-		name = "“往日幽影“-快速帆船",
+		name = "Shadow of Old - Clipper",
 		type = 15,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1234,7 +1234,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90843] = {
 		cannon = 0,
-		name = "“往日幽影”-火攻船",
+		name = "Shadow of Old - Fire Ship",
 		type = 16,
 		speed_growth = 0,
 		battle_unit_type = 49,

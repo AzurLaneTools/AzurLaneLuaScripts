@@ -3170,7 +3170,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90832] = {
 		cannon = 0,
-		name = "科律治城邦-护卫舰",
+		name = "Collegepolis Corvette",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -3318,7 +3318,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90833] = {
 		cannon = 0,
-		name = "繁星城邦-巡航舰",
+		name = "Stellapolis Frigate",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -3466,7 +3466,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90834] = {
 		cannon = 0,
-		name = "别兰特城邦-战列舰",
+		name = "Plantpolis Ship of the Line",
 		type = 24,
 		speed_growth = 0,
 		battle_unit_type = 49,

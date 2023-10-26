@@ -10264,7 +10264,7 @@ pg.base.ship_skin_template_18 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Pirate sailing frigate – Royal Fortune.",
+		desc = "Sailing frigate – Royal Fortune.",
 		voice_actor = 346,
 		spine_offset = "",
 		gyro = 0,
@@ -10967,8 +10967,8 @@ pg.base.ship_skin_template_18 = {
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			45,
+			-183,
 			0
 		},
 		fx_container = {

@@ -15512,7 +15512,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760001] = {
 		map = 1760001,
-		name = "飓风与青春之泉·上篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15556,7 +15556,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760002] = {
 		map = 1760002,
-		name = "飓风与青春之泉·下篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15600,7 +15600,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760003] = {
 		map = 1760003,
-		name = "飓风与青春之泉·SP|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth·SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -15644,7 +15644,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760004] = {
 		map = 1760004,
-		name = "飓风与青春之泉·EX|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

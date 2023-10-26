@@ -549,7 +549,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 23,
-		type_name = "风帆",
+		type_name = "Sailing Frigate",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -578,7 +578,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.24,
 		ship_type = 24,
-		type_name = "风帆",
+		type_name = "Sailing Frigate",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,

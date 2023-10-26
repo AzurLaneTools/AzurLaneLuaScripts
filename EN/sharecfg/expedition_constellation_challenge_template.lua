@@ -448,12 +448,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>20%</color>，自身造成的伤害提高<color=#92fc63>20%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>40.0%</color>, but increasing their DMG dealt by <color=#92fc63>20.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>10%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>10.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {
@@ -477,12 +477,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>40%</color>，自身造成的伤害提高<color=#92fc63>40%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>60.0%</color>, but increasing their DMG dealt by <color=#92fc63>40.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>20%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>20.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {
@@ -506,12 +506,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>60%</color>，自身造成的伤害提高<color=#92fc63>60%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>80.0%</color>, but increasing their DMG dealt by <color=#92fc63>60.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>30%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>30.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {

@@ -498,7 +498,7 @@ pg.enemy_data_statistics_356 = {
 	},
 	[16560301] = {
 		cannon = 120,
-		name = "“旧日辉煌”级战列舰",
+		name = "Light of Old - Ship of the Line",
 		hit_growth = 210,
 		speed_growth = 0,
 		pilot_ai_template_id = 20004,

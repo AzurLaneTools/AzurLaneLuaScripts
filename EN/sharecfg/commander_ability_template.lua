@@ -206,7 +206,7 @@ pg.commander_ability_template = {
 		id = 121,
 		group_id = 12,
 		icon = "zhanlie_paoji_1",
-		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs,  Bms and IXMs</color> gain 8 FP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 8 FP.",
 		add = {
 			{
 				1,
@@ -253,7 +253,7 @@ pg.commander_ability_template = {
 		id = 122,
 		group_id = 12,
 		icon = "zhanlie_paoji_2",
-		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs,  Bms and IXMs</color> gain 11 FP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 11 FP.",
 		add = {
 			{
 				1,
@@ -300,7 +300,7 @@ pg.commander_ability_template = {
 		id = 123,
 		group_id = 12,
 		icon = "zhanlie_paoji_3",
-		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs,  Bms and IXMs</color> gain 16 FP.",
+		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 16 FP.",
 		add = {
 			{
 				1,
@@ -341,13 +341,13 @@ pg.commander_ability_template = {
 	},
 	[131] = {
 		cost = 0,
-		name = "炮火力量·M",
+		name = "Firepower Boost - Main",
 		next = 132,
 		worth = 2,
 		id = 131,
 		group_id = 13,
 		icon = "zhanlie_paoji_1",
-		desc = "<color=#3dc6ff>战巡、战列、航战、重炮、风帆</color>炮击提高10点",
+		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 10 FP.",
 		add = {
 			{
 				1,
@@ -367,36 +367,36 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<战列>炮击",
+				"BBs: FP",
 				10
 			},
 			{
-				"<战巡>炮击",
+				"BCs: FP",
 				10
 			},
 			{
-				"<航战>炮击",
+				"BBVs: FP",
 				10
 			},
 			{
-				"<重炮>炮击",
+				"BMs: FP",
 				10
 			},
 			{
-				"<风帆>炮击",
+				"IXs: FP",
 				10
 			}
 		}
 	},
 	[132] = {
 		cost = 0,
-		name = "炮火覆盖·M",
+		name = "Firepower Mastery - Main",
 		next = 0,
 		worth = 3,
 		id = 132,
 		group_id = 13,
 		icon = "zhanlie_paoji_2",
-		desc = "<color=#3dc6ff>战巡、战列、航战、重炮、风帆</color>炮击提高14点",
+		desc = "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 14 FP.",
 		add = {
 			{
 				1,
@@ -416,36 +416,36 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<战列>炮击",
+				"BBs: FP",
 				14
 			},
 			{
-				"<战巡>炮击",
+				"BCs: FP",
 				14
 			},
 			{
-				"<航战>炮击",
+				"BBVs: FP",
 				14
 			},
 			{
-				"<重炮>炮击",
+				"BMs: FP",
 				14
 			},
 			{
-				"<风帆>炮击",
+				"IXs: FP",
 				14
 			}
 		}
 	},
 	[141] = {
 		cost = 0,
-		name = "炮火力量·V",
+		name = "Firepower Boost - Vanguard",
 		next = 142,
 		worth = 2,
 		id = 141,
 		group_id = 14,
 		icon = "xunyang_paoji_1",
-		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆</color>炮击提高6点",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 6 FP.",
 		add = {
 			{
 				1,
@@ -464,32 +464,32 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<轻巡>炮击",
+				"CLs: FP",
 				6
 			},
 			{
-				"<重巡>炮击",
+				"CAs: FP",
 				6
 			},
 			{
-				"<超巡>炮击",
+				"CBs: FP",
 				6
 			},
 			{
-				"<风帆>炮击",
+				"IXs: FP",
 				6
 			}
 		}
 	},
 	[142] = {
 		cost = 0,
-		name = "炮火覆盖·V",
+		name = "Firepower Mastery - Vanguard",
 		next = 0,
 		worth = 3,
 		id = 142,
 		group_id = 14,
 		icon = "xunyang_paoji_2",
-		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆</color>炮击提高8点",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 8 FP.",
 		add = {
 			{
 				1,
@@ -508,19 +508,19 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<轻巡>炮击",
+				"CLs: FP",
 				8
 			},
 			{
-				"<重巡>炮击",
+				"CAs: FP",
 				8
 			},
 			{
-				"<超巡>炮击",
+				"CBs: FP",
 				8
 			},
 			{
-				"<风帆>炮击",
+				"IXs: FP",
 				8
 			}
 		}
@@ -1862,13 +1862,13 @@ pg.commander_ability_template = {
 	},
 	[651] = {
 		cost = 0,
-		name = "Loading Ace - Special",
+		name = "Loading Rookie - Miscellaneous",
 		next = 652,
 		worth = 1,
 		id = 651,
 		group_id = 65,
 		icon = "teshu_one_1",
-		desc = "Your <color=#3dc6ff>BMs, ARs, AEs and IXs</color> gain 3 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 3 RLD.",
 		add = {
 			{
 				1,
@@ -1906,13 +1906,13 @@ pg.commander_ability_template = {
 	},
 	[652] = {
 		cost = 0,
-		name = "Loading Rookie - Special",
+		name = "Loading Adept - Miscellaneous",
 		next = 653,
 		worth = 2,
 		id = 652,
 		group_id = 65,
 		icon = "teshu_one_2",
-		desc = "Your <color=#3dc6ff>BMs, ARs, AEs and IXs</color> gain 4 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 4 RLD.",
 		add = {
 			{
 				1,
@@ -1950,13 +1950,13 @@ pg.commander_ability_template = {
 	},
 	[653] = {
 		cost = 0,
-		name = "Loading Adept - Special",
+		name = "Loading Ace - Miscellaneous",
 		next = 0,
 		worth = 3,
 		id = 653,
 		group_id = 65,
 		icon = "teshu_one_3",
-		desc = "Your <color=#3dc6ff>BMs, ARs, AEs and IXs</color> gain 6 RLD.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 6 RLD.",
 		add = {
 			{
 				1,
@@ -2483,13 +2483,13 @@ pg.commander_ability_template = {
 	},
 	[751] = {
 		cost = 0,
-		name = "Rookie Engineer - Special",
+		name = "Rookie Engineer - Miscellaneous",
 		next = 752,
 		worth = 1,
 		id = 751,
 		group_id = 75,
 		icon = "teshu_naijiu_1",
-		desc = "Your <color=#3dc6ff>BMs, ARs, Aes and IXs</color> gain 40 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 40 HP.",
 		add = {
 			{
 				1,
@@ -2527,13 +2527,13 @@ pg.commander_ability_template = {
 	},
 	[752] = {
 		cost = 0,
-		name = "Adept Engineer - Special",
+		name = "Adept Engineer - Miscellaneous",
 		next = 753,
 		worth = 2,
 		id = 752,
 		group_id = 75,
 		icon = "teshu_naijiu_2",
-		desc = "Your <color=#3dc6ff>BMs, ARs, Aes and IXs</color> gain 56 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 56 HP.",
 		add = {
 			{
 				1,
@@ -2571,13 +2571,13 @@ pg.commander_ability_template = {
 	},
 	[753] = {
 		cost = 0,
-		name = "Ace Engineer - Special",
+		name = "Ace Engineer - Miscellaneous",
 		next = 0,
 		worth = 3,
 		id = 753,
 		group_id = 75,
 		icon = "teshu_naijiu_3",
-		desc = "Your <color=#3dc6ff>BMs, ARs, Aes and IXs</color> gain 80 HP.",
+		desc = "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 80 HP.",
 		add = {
 			{
 				1,
@@ -2615,13 +2615,13 @@ pg.commander_ability_template = {
 	},
 	[761] = {
 		cost = 0,
-		name = "轮机手·小型舰",
+		name = "Rookie Engineer - Small Ships",
 		next = 762,
 		worth = 1,
 		id = 761,
 		group_id = 76,
 		icon = "teshu_naijiu_1",
-		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高30点",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 30 HP.",
 		add = {
 			{
 				1,
@@ -2642,20 +2642,28 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<小型舰>耐久",
+				"SSs, SSVs: HP",
+				30
+			},
+			{
+				"DDs: HP",
+				30
+			},
+			{
+				"IXs: HP",
 				30
 			}
 		}
 	},
 	[762] = {
 		cost = 0,
-		name = "熟练轮机手·小型舰",
+		name = "Adept Engineer - Small Ships",
 		next = 763,
 		worth = 2,
 		id = 762,
 		group_id = 76,
 		icon = "teshu_naijiu_2",
-		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高42点",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 42 HP.",
 		add = {
 			{
 				1,
@@ -2676,20 +2684,28 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<小型舰>耐久",
+				"SSs, SSVs: HP",
+				42
+			},
+			{
+				"DDs: HP",
+				42
+			},
+			{
+				"IXs: HP",
 				42
 			}
 		}
 	},
 	[763] = {
 		cost = 0,
-		name = "轮机长·小型舰",
+		name = "Ace Engineer - Small Ships",
 		next = 0,
 		worth = 3,
 		id = 763,
 		group_id = 76,
 		icon = "teshu_naijiu_3",
-		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高60点",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 60 HP.",
 		add = {
 			{
 				1,
@@ -2710,7 +2726,15 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<小型舰>耐久",
+				"SSs, SSVs: HP",
+				60
+			},
+			{
+				"DDs: HP",
+				60
+			},
+			{
+				"IXs: HP",
 				60
 			}
 		}
@@ -3008,7 +3032,7 @@ pg.commander_ability_template = {
 		id = 901,
 		group_id = 90,
 		icon = "quzhu_one_1",
-		desc = "Your <color=#3dc6ff>SSs, SSVs, Dds and IXs</color> gain 5 EVA.",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 5 EVA.",
 		add = {
 			{
 				1,
@@ -3029,7 +3053,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"SSs & SSVs: EVA",
+				"SSs, SSVs: EVA",
 				5
 			},
 			{
@@ -3050,7 +3074,7 @@ pg.commander_ability_template = {
 		id = 902,
 		group_id = 90,
 		icon = "quzhu_one_2",
-		desc = "Your <color=#3dc6ff>SSs, SSVs, Dds and IXs</color> gain 7 EVA.",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 7 EVA.",
 		add = {
 			{
 				1,
@@ -3071,7 +3095,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"SSs & SSVs: EVA",
+				"SSs, SSVs: EVA",
 				7
 			},
 			{
@@ -3092,7 +3116,7 @@ pg.commander_ability_template = {
 		id = 903,
 		group_id = 90,
 		icon = "quzhu_one_3",
-		desc = "Your <color=#3dc6ff>SSs, SSVs, Dds and IXs</color> gain 10 EVA.",
+		desc = "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 10 EVA.",
 		add = {
 			{
 				1,
@@ -3113,7 +3137,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"SSs & SSVs: EVA",
+				"SSs, SSVs: EVA",
 				10
 			},
 			{
@@ -5887,13 +5911,13 @@ pg.commander_ability_template = {
 	},
 	[5141] = {
 		cost = 0,
-		name = "战备状态",
+		name = "Combat Ready",
 		next = 0,
 		worth = 1,
 		id = 5141,
 		group_id = 514,
 		icon = "special_one",
-		desc = "<color=#3dc6ff>战巡、战列、风帆M</color>炮击提高25点",
+		desc = "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 25 FP.",
 		add = {
 			{
 				1,
@@ -5910,28 +5934,28 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<战巡>炮击",
+				"BBs: FP",
 				25
 			},
 			{
-				"<战列>炮击",
+				"BCs: FP",
 				25
 			},
 			{
-				"<风帆M>炮击",
+				"IXMs: FP",
 				25
 			}
 		}
 	},
 	[5151] = {
 		cost = 0,
-		name = "展旗扬帆",
+		name = "Hoist Sails!",
 		next = 0,
 		worth = 1,
 		id = 5151,
 		group_id = 515,
 		icon = "special_one",
-		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆V</color>炮击提高10点，机动提高5点",
+		desc = "Your <color=#3dc6ff>CLs, CAs, CBs, and IXVs</color> gain 10 FP and 5 EVA.",
 		add = {
 			{
 				1,
@@ -5960,35 +5984,35 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<轻巡>炮击",
+				"CLs: FP",
 				10
 			},
 			{
-				"<重巡>炮击",
+				"CAs: FP",
 				10
 			},
 			{
-				"<超巡>炮击",
+				"CBs: FP",
 				10
 			},
 			{
-				"<风帆V>炮击",
+				"IXVs: FP",
 				10
 			},
 			{
-				"<轻巡>机动",
+				"CLs: EVA",
 				5
 			},
 			{
-				"<重巡>机动",
+				"CAs: EVA",
 				5
 			},
 			{
-				"<超巡>机动",
+				"CBs: EVA",
 				5
 			},
 			{
-				"<风帆V>机动",
+				"IXVs: EVA",
 				5
 			}
 		}

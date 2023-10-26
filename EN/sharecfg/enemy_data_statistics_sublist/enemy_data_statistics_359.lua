@@ -314,7 +314,7 @@ pg.enemy_data_statistics_359 = {
 	},
 	[16565301] = {
 		cannon = 280,
-		name = "提斯塔-ErrObj",
+		name = "Tester ErrObj",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,

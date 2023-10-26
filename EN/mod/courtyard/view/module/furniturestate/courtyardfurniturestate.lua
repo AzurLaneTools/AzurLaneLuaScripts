@@ -12,12 +12,21 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.Init(slot0, slot1, slot2)
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn(false)
+	setActive(slot0._tf, false)
+
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("furnitrues/" .. slot2:GetPicture(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		pg.UIMgr.GetInstance():LoadingOff()
+
 		if uv0.exited then
 			return
 		end
+
+		setActive(uv0._tf, true)
 
 		uv0.furnitureStateImg.sprite = slot0:GetComponent(typeof(Image)).sprite
 		uv0._tf.sizeDelta = slot0.transform.sizeDelta

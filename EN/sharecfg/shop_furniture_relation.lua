@@ -128,7 +128,7 @@ pg.base.shop_furniture_relation = {
 	[70921] = {
 		fur_id = 200009,
 		id = 70921,
-		desc = "金鹿号——古堡中的恐怖淑女",
+		desc = "Golden Hind - Forlorn Femme Fatale",
 		scale = {
 			1,
 			0.9

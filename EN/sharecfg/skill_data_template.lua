@@ -11230,7 +11230,7 @@ pg.base.skill_data_template = {
 		id = 60120,
 		type = 0,
 		max_level = 0,
-		desc = "Increases the Ammo Capacity of the ship equipping this gear by +1.",
+		desc = "Increases AMO by 1 for the boat equipping this gear (the Submarine Fleet's AMO cap is 6.)",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -11702,11 +11702,11 @@ pg.base.skill_data_template = {
 	},
 	[60450] = {
 		desc_get = "",
-		name = "航海望远镜",
+		name = "Nautical Telescope",
 		id = 60450,
 		type = 0,
 		max_level = 0,
-		desc = "狩猎范围等级+1",
+		desc = "Increases ASR by 1 for the boat equipping this gear.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -11716,11 +11716,11 @@ pg.base.skill_data_template = {
 	},
 	[60460] = {
 		desc_get = "",
-		name = "果蔬补给品",
+		name = "Fruit Rations",
 		id = 60460,
 		type = 0,
 		max_level = 0,
-		desc = "在战斗中受到伤害，导致耐久低于60%时，恢复自身5%耐久（每场战斗仅能发动一次）",
+		desc = "Once per battle, when the ship with this gear's HP falls below 60.0% as a result of DMG taken: restores 5.0% of that ship's max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -83498,11 +83498,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17160] = {
 		desc_get = "",
-		name = "暗影无形",
+		name = "Unseen Phantom",
 		id = 17160,
 		type = 1,
 		max_level = 10,
-		desc = "战斗中，自身造成的伤害提高$1；自身受到攻击时，有$2概率进入【暗影】状态，【暗影】状态持续5秒，持续期间自身回避率提高$3，结束后发射一轮特殊弹幕$4（弹幕威力依据技能等级），【暗影】状态触发后进入15秒冷却",
+		desc = "Increases this ship's DMG dealt by $1. When this ship is attacked: $2 chance for this ship to enter the Phantom state. \nThis state increases her Evasion Rate by $3 and lasts for 5s. When this state ends: fires a $4 special barrage (DMG is based on the skill's level). There is a 15s cooldown between Phantom state activations.",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -83687,11 +83687,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17170] = {
 		desc_get = "",
-		name = "深海的幽灵",
+		name = "Ghost Ship of the Deep",
 		id = 17170,
 		type = 2,
 		max_level = 10,
-		desc = "进入战斗后，自身炮击属性提高$1，恢复自身25%耐久；战斗中，因自身技能效果导致回避率上升时，恢复自身$2耐久；在战斗中受到伤害导致自身耐久首次低于40%后5秒，或自身参加作战超过60秒后，召唤一个继承自身部分属性的【幽灵船】（幽灵船不会攻击、继承属性的百分比随技能等级提高)，【幽灵船】持续存在时间5秒，召唤【幽灵船】的同时自身撤退并离开战斗",
+		desc = "When the battle starts: increases this ship's FP by $1 and restores 25.0% of her max HP. When this ship's Evasion Rate increases as a result of her skills activating: restores $2 of this ship's max HP. \nOnce per battle, 5s after this ship's HP falls below 40.0% as a result of DMG taken, or 60s after she has entered the battle: summons a Ghost Ship which copies some of this ship's stats, then this ship leaves the battle. The Ghost Ship lasts for 5s, does not attack, and the percentages of stats it copies are based on the skill's level.",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -83811,11 +83811,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17190] = {
 		desc_get = "",
-		name = "黄金光辉永不黯淡",
+		name = "Untarnishable Brilliance of Gold",
 		id = 17190,
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始后，自身炮击属性提升$1，受到的伤害降低$2，并获得一枚护盾，抵消自身耐久$3的伤害，护盾持续30秒；在队伍中（存活）时，队伍中飓风阵营角色炮击属性提升$1，造成的伤害提升$1",
+		desc = "When the battle starts: deploys a barrier (lasts 30s) that can negate up to $3 of this ship's max HP in DMG, and increases this ship's FP by $1 and decreases her DMG taken by $2 until the battle ends. While this ship is afloat: increases your Tempesta ships' FP and DMG dealt by $1.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -83962,11 +83962,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17200] = {
 		desc_get = "",
-		name = "圣洁轰炸",
+		name = "Peerless Cannons of Destruction",
 		id = 17200,
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时，若队伍中存在至少2个飓风阵营角色，自身首轮主炮装填时间缩短$1；自身每次主炮发射时，触发一轮特殊弹幕$2（威力依据技能等级）",
+		desc = "When the battle starts, if there are 2 or more Tempesta ships in your fleet: decreases the loading time of this ship's first volley by $1. When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -84059,7 +84059,7 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17210] = {
 		desc_get = "",
-		name = "只为安眠",
+		name = "For a Good Night's Sleep",
 		id = 17210,
 		type = 1,
 		max_level = 10,
@@ -84113,11 +84113,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17220] = {
 		desc_get = "",
-		name = "困了…",
+		name = "What a Pain...",
 		id = 17220,
 		type = 3,
 		max_level = 10,
-		desc = "进入战斗后，自身炮击属性提高$1并在五秒内每秒回复自身$2耐久；自身在战斗中受到伤害，导致耐久首次低于30%后5秒，或自身参加作战超过45秒后，撤退并离开战斗",
+		desc = "Increases this ship's FP by $1. When the battle starts: restores $2 of her max HP once per second for 5s. 5s after this ship's HP falls below 30.0% as a result of DMG taken, or 45s after she has entered the battle: this ship leaves the battle.",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -84237,11 +84237,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17240] = {
 		desc_get = "",
-		name = "迷雾之境",
+		name = "Pierce the Mistveil",
 		id = 17240,
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时，自身炮击、装填属性提高$1；围绕自身生成领域，领域内的敌方单位航速降低$2且每秒受到30点伤害，若战斗开始时队伍中存在其他飓风阵营角色，领域每秒造成的伤害提高至60点",
+		desc = "Increases this ship's FP and RLD by $1. Creates a Deep Domain area around this ship that decreases the enemy's SPD by $2 and inflicts 30 DMG every second to enemies within it; when the battle starts, if there is another Tempesta ship in your fleet, this DMG is increased to 60.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -84343,11 +84343,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17250] = {
 		desc_get = "",
-		name = "深海的恩典",
+		name = "Hindhorn's Grace",
 		id = 17250,
 		type = 3,
 		max_level = 10,
-		desc = "战斗中，自身受到的伤害降低$1，每18秒触发一轮特殊弹幕$2（威力依据技能等级）；自身在战斗中受到伤害导致耐久低于40%时，回复自身$1最大耐久并在3秒内回避所有伤害，每场战斗最多触发一次",
+		desc = "Decreases this ship's DMG taken by $1 and, every 18s, fires a $2 special barrage (DMG is based on the skill's level).\nOnce per battle, when this ship's HP falls below 40.0% as a result of DMG taken: this ship evades all attacks for 3s and recovers $1 of her max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -84440,11 +84440,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17260] = {
 		desc_get = "",
-		name = "狂暴之爪",
+		name = "Claws of Mistrust",
 		id = 17260,
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时，自身机动属性提高$1；自身一号武器栏位武器开火时，触发一轮特殊弹幕$2（威力依据技能等级）",
+		desc = "Increases this ship's EVA by $1. When this ship fires the weapon in her Main Gun slot: additionally fires a $2 special barrage (DMG is based on the skill's level).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -84537,11 +84537,11 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 	},
 	[17270] = {
 		desc_get = "",
-		name = "宝藏守护",
+		name = "Treasure of the Loyal Protector",
 		id = 17270,
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始时，自身回避率提高$1；自身在战斗中受到伤害导致耐久低于35%时，回复自身$2最大耐久，每场战斗最多触发一次",
+		desc = "Increases this ship's Evasion Rate by $1. Once per battle, when this ship's HP falls below 35.0% as a result of DMG taken: restores $2 of this ship's max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101736,11 +101736,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30131] = {
 		desc_get = "",
-		name = "专属弹幕-玛丽·西莱斯特号I",
+		name = "All Out Assault I",
 		id = 30131,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行28次攻击，触发专属弹幕-玛丽·西莱斯特号I",
+		desc = "Activates All Out Assault I: Mary Celeste once every 28 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101750,11 +101750,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30132] = {
 		desc_get = "",
-		name = "专属弹幕-玛丽·西莱斯特号II",
+		name = "All Out Assault II",
 		id = 30132,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行40次攻击，触发专属弹幕-玛丽·西莱斯特号II",
+		desc = "Activates All Out Assault II: Mary Celeste once every 40 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101764,11 +101764,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30141] = {
 		desc_get = "",
-		name = "专属弹幕-维达号I",
+		name = "All Out Assault I",
 		id = 30141,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行28次攻击，触发专属弹幕-维达号I",
+		desc = "Activates All Out Assault I: Whydah once every 28 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101778,11 +101778,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30142] = {
 		desc_get = "",
-		name = "专属弹幕-维达号II",
+		name = "All Out Assault II",
 		id = 30142,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行40次攻击，触发专属弹幕-维达号II",
+		desc = "Activates All Out Assault II: Whydah once every 40 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101792,11 +101792,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30151] = {
 		desc_get = "",
-		name = "专属弹幕-金鹿号I",
+		name = "All Out Assault I",
 		id = 30151,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行22次攻击，触发专属弹幕-金鹿号I",
+		desc = "Activates All Out Assault I: Golden Hind once every 22 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101806,11 +101806,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30152] = {
 		desc_get = "",
-		name = "专属弹幕-金鹿号II",
+		name = "All Out Assault II",
 		id = 30152,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行30次攻击，触发专属弹幕-金鹿号II",
+		desc = "Activates All Out Assault II: Golden Hind once every 30 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101820,11 +101820,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30161] = {
 		desc_get = "",
-		name = "专属弹幕-加里冒险号I",
+		name = "All Out Assault I",
 		id = 30161,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行30次攻击，触发专属弹幕-加里冒险号I",
+		desc = "Activates All Out Assault I: Adventure Galley once every 30 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -101834,11 +101834,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[30162] = {
 		desc_get = "",
-		name = "专属弹幕-加里冒险号II",
+		name = "All Out Assault II",
 		id = 30162,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行20次攻击，触发专属弹幕-加里冒险号II",
+		desc = "Activates All Out Assault II: Adventure Galley once every 20 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -123953,11 +123953,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[902230] = {
 		desc_get = "",
-		name = "飓风的加护",
+		name = "Tempesta's Protection",
 		id = 902230,
 		type = 2,
 		max_level = 1,
-		desc = "自身受到的航空伤害降低15%；进入战斗时，为自身生成一枚可以阻挡6枚子弹的护盾，护盾持续10秒",
+		desc = "Decreases this ship's aircraft DMG taken by 15.0%. When the battle starts: deploys a shield (lasts 10s) that can block up to 6 enemy shells.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -123967,11 +123967,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[902240] = {
 		desc_get = "",
-		name = "飓风的庇佑",
+		name = "Tempesta's Blessing",
 		id = 902240,
 		type = 2,
 		max_level = 1,
-		desc = "自身受到的航空伤害降低25%，战斗开始前40秒，自身受到的伤害降低10%",
+		desc = "Decreases this ship's aircraft DMG taken by 25.0%. For the first 40s of battle: decreases this ship's DMG taken by 10.0%.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -123981,11 +123981,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[902250] = {
 		desc_get = "",
-		name = "飓风的复苏",
+		name = "Tempesta's Resurgence",
 		id = 902250,
 		type = 2,
 		max_level = 1,
-		desc = "自身受到的航空伤害降低20%，战斗开始第40秒，回复自身8%最大耐久值",
+		desc = "Decreases this ship's aircraft DMG taken by 20.0%. Once per battle, 40s after the battle starts: restores 8.0% of this ship's max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -128159,11 +128159,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[1017160] = {
 		desc_get = "",
-		name = "暗影无形 +",
+		name = "Unseen Phantom+",
 		id = 1017160,
 		type = 1,
 		max_level = 10,
-		desc = "战斗中，自身造成的伤害提高$1；自身受到攻击时，有$2概率进入【暗影】状态，【暗影】状态持续5秒，持续期间自身回避率提高$3，结束后随机选定一名敌人使自身在接下来5秒对其造成的伤害提高15%，同时发射一轮必定暴击的特殊弹幕$4（弹幕威力依据技能等级），【暗影】状态触发后进入15秒冷却",
+		desc = "Increases this ship's DMG dealt by $1. When this ship is attacked: $2 chance for this ship to enter the Phantom state. \nThis state increases her Evasion Rate by $3 and lasts for 5s. When this state ends, one random enemy is chosen; for 5s, Mary Celeste deals 15.0% increased DMG to this enemy and she fires a $4 special barrage (DMG is based on the skill's level) that always deals Critical DMG. There is a 15s cooldown between Phantom state activations.",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -128348,11 +128348,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[1017200] = {
 		desc_get = "",
-		name = "圣洁轰炸 +",
+		name = "Peerless Cannons of Destruction+",
 		id = 1017200,
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时，自身首轮主炮装填时间缩短$1，自身护甲类型修改为中甲；自身每次主炮发射时，触发一轮特殊弹幕$2，特殊弹幕有10%概率对命中的敌方单位造成进水持续伤害，持续18秒，(进水效果每3秒结算一次，弹幕与进水伤害依据炮击属性和技能等级)",
+		desc = "Decreases the loading time of this ship's first volley by $1 and changes her Armor Type to Medium Armor. When this ship fires her Main Guns: fires a $2 special barrage with a 10.0% chance to inflict a special Flooding ailment to enemies hit for 18s (barrage and Flooding DMG are based on this ship's FP stat and the skill's level; Flooding DMG procs once every 3s).",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -128445,11 +128445,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[1017270] = {
 		desc_get = "",
-		name = "宝藏守护 +",
+		name = "Treasure of the Loyal Protector+",
 		id = 1017270,
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始时，自身回避率提高$1；自身在战斗中受到伤害导致耐久低于50%时，回复自身$2最大耐久，该效果每战斗最多触发一次；自身在战斗中受到伤害导致耐久低于35%时，回复自身$2最大耐久，该效果每场战斗最多触发一次",
+		desc = "Increases this ship's Evasion Rate by $1. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: restores $2 of this ship's max HP; also once per battle, when this ship's HP falls below 35.0% as a result of DMG taken: restores $2 of this ship's max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -128551,11 +128551,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[1017250] = {
 		desc_get = "",
-		name = "深海的恩典 +",
+		name = "Hindhorn's Grace+",
 		id = 1017250,
 		type = 3,
 		max_level = 10,
-		desc = "战斗中，自身受到的伤害降低$3，每18秒触发一轮特殊弹幕$1（威力依据技能等级），被特殊弹幕命中的敌方单位6秒内受到来自我方飓风阵营角色造成的伤害提高$2；自身在战斗中受到伤害导致耐久低于50%时，回复自身$3最大耐久并在3秒内回避所有伤害，每场战斗最多触发一次",
+		desc = "Decreases this ship's DMG taken by $3 and, every 18s, fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 more DMG from your Tempesta ships for 6s. \nOnce per battle, when this ship's HP falls below 50.0% as a result of DMG taken: this ship evades all attacks for 3s and recovers $3 of her max HP.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -128693,11 +128693,11 @@ One of the following two effects apply based on what type of weapon this ship ha
 	},
 	[1017210] = {
 		desc_get = "",
-		name = "只为安眠 +",
+		name = "For a Good Night's Sleep+",
 		id = 1017210,
 		type = 1,
 		max_level = 10,
-		desc = "进入战斗时及进入战斗后每10秒，进行一次特殊攻击$1（威力依据技能等级），任意被特殊攻击命中的单位存活时，维达号自身受到的所有伤害降低$2",
+		desc = "When the battle starts, and every 10s: performs a $1 special attack (DMG is based on the skill's level). As long as at least 1 enemy hit by this attack is afloat: decreases Whydah's DMG taken by $2.",
 		system_transform = {
 			[11.0] = 3500
 		},

@@ -488,7 +488,7 @@ pg.commander_data_template = {
 	},
 	[960011] = {
 		rarity = 5,
-		name = "德雷喵",
+		name = "Drake",
 		exp = 500,
 		nationality = 96,
 		max_level = 30,
@@ -515,7 +515,7 @@ pg.commander_data_template = {
 	},
 	[960021] = {
 		rarity = 5,
-		name = "基德喵",
+		name = "Kidd",
 		exp = 500,
 		nationality = 96,
 		max_level = 30,
@@ -542,7 +542,7 @@ pg.commander_data_template = {
 	},
 	[960031] = {
 		rarity = 4,
-		name = "贝拉喵",
+		name = "Bellamy",
 		exp = 300,
 		nationality = 96,
 		max_level = 30,

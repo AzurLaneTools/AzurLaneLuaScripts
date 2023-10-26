@@ -159,7 +159,7 @@ function slot0.GetMoveY(slot0)
 end
 
 function slot0.UpdateFloor(slot0, slot1)
-	slot0:SetActive(slot0.granaryBtn, slot0:IsInner() and getProxy(DormProxy).floor == 1)
+	SetActive(slot0.granaryBtn, slot0:IsInner() and getProxy(DormProxy).floor == 1)
 	slot0:UpdateTrainBtn()
 	setActive(slot0.icon1, getProxy(DormProxy).floor == 1)
 	setActive(slot0.icon2, getProxy(DormProxy).floor == 2)
