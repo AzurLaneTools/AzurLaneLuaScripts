@@ -1407,7 +1407,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
-	tip = "<color=#393A3C>后宅还没有添加休息的角色</color>,<color=#92fc63>食物将不会消耗</color>"
+	tip = "<color=#393A3C>后宅还没有添加休息的角色</color>,<color=#72bc42>食物将不会消耗</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1495,7 +1495,7 @@ _G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
-	tip = "开启栏位需要消耗<color=#92fc63>$1钻石</color>,是否确认开启"
+	tip = "开启栏位需要消耗<color=#72bc42>$1钻石</color>,是否确认开启"
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
@@ -1563,7 +1563,7 @@ _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 }
 
 _G.pg.base.gametip.backyard_open_2floor = {
-	tip = "开启二层需要消耗<icon name=diamond w=0.7 h=0.7/><color=#92fc63FF>$1</color>是否确定开启\n *新楼层<color=#FF4B14>不会增加</color>训练栏位，仅用于摆放家具"
+	tip = "开启二层需要消耗<icon name=diamond w=0.7 h=0.7/><color=#72bc42>$1</color>是否确定开启\n *新楼层<color=#FF4B14>不会增加</color>训练栏位，仅用于摆放家具"
 }
 
 _G.pg.base.gametip.backyarad_theme_replace = {
@@ -25816,4 +25816,8 @@ _G.pg.base.gametip.harbor_backhill_help = {
 
 _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 	tip = "$1密语正在下载中"
+}
+
+_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+	tip = "是否使用<color=#72bc42>$1钻石</color>购买<color=#72bc42>$2</color>"
 }

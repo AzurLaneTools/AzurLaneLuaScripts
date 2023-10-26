@@ -74,7 +74,7 @@ function slot0.execute(slot0, slot1)
 
 		if _BackyardMsgBoxMgr then
 			_BackyardMsgBoxMgr:Show({
-				content = i18n("charge_scene_buy_confirm", slot8, slot10),
+				content = i18n("charge_scene_buy_confirm_backyard", slot8, slot10),
 				onYes = function ()
 					uv0()
 				end

@@ -130,7 +130,7 @@ function slot0.UpdateSkinType(slot0)
 
 		GetImageSpriteFromAtlasAsync("QIcon/" .. slot5.prefab, "", slot0.shipIcon.gameObject)
 
-		slot0.shipTxt.text = ShipGroup.getDefaultShipConfig(slot5.ship_group).name .. "-" .. slot5.name
+		slot0.shipTxt.text = shortenString(ShipGroup.getDefaultShipConfig(slot5.ship_group).name .. "-" .. slot5.name, 15)
 	end
 end
 

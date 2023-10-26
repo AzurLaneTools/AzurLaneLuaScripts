@@ -39,6 +39,10 @@ function slot0.Update(slot0, slot1)
 	slot0.comfortable.text = "+" .. slot1:getConfig("comfortable")
 
 	GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getConfig("icon"), "", function (slot0)
+		if IsNil(uv0.icon) then
+			return
+		end
+
 		uv0.icon.sprite = slot0
 	end)
 

@@ -8956,7 +8956,7 @@ this.game_enemy = {
 		hp = 5,
 		remove_time = 1,
 		id = 106,
-		boom = 20,
+		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
 		weapons = {
 			{},
@@ -9193,7 +9193,7 @@ this.game_enemy = {
 		hp = 5,
 		remove_time = 1,
 		id = 806,
-		boom = 20,
+		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
 		weapons = {
 			{},

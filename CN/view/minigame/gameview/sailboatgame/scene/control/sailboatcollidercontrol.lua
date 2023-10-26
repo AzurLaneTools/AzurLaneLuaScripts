@@ -39,10 +39,12 @@ function slot0.step(slot0, slot1)
 			slot14, slot15 = slot13:getWorldColliderData()
 
 			if uv0.CheckRectCollider(slot5, slot14, slot6, slot15) then
-				if slot13:getConfig("boom") then
-					slot13:damage({
+				if slot13:getConfig("boom") and slot13:getConfig("boom") > 0 then
+					if slot13:damage({
 						num = 999
-					})
+					}) then
+						slot0._eventCall(SailBoatGameEvent.DESTROY_ENEMY, slot13:getDestroyData())
+					end
 				elseif slot2:checkColliderDamage() then
 					slot2:flash()
 					slot2:damage({
