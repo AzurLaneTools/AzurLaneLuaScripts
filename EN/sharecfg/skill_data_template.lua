@@ -83691,7 +83691,7 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 		id = 17170,
 		type = 2,
 		max_level = 10,
-		desc = "When the battle starts: increases this ship's FP by $1 and restores 25.0% of her max HP. When this ship's Evasion Rate increases as a result of her skills activating: restores $2 of this ship's max HP. \nOnce per battle, 5s after this ship's HP falls below 40.0% as a result of DMG taken, or 60s after she has entered the battle: summons a Ghost Ship which copies some of this ship's stats, then this ship leaves the battle. The Ghost Ship lasts for 5s, does not attack, and the percentages of stats it copies are based on the skill's level.",
+		desc = "When the battle starts: increases this ship's FP by $1 and restores 25.0% of her max HP. When this ship's Evasion Rate increases as a result of her skills activating: restores $2 of this ship's max HP. \nOnce per battle, 5s after this ship's HP falls below 40.0% as a result of DMG taken, or 60s after she has entered the battle: summons a Ghost Ship which copies some of this ship's stats, then this ship leaves the battle. The Ghost Ship lasts for 5s, does not attack, and the percentages of stats it copies increases based on the skill's level.",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -84063,7 +84063,7 @@ When this ship fires her Main Guns: $1 chance to fire a $3 special barrage (DMG 
 		id = 17210,
 		type = 1,
 		max_level = 10,
-		desc = "进入战斗时及进入战斗后每10秒，进行一次特殊攻击$1（威力依据技能等级）",
+		desc = "When the battle starts, and every 10s: performs a $1 special attack (DMG is based on the skill's level).",
 		system_transform = {
 			[11.0] = 3500
 		},

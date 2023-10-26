@@ -8922,11 +8922,11 @@ pg.base.skill_data_display = {
 	},
 	[17181] = {
 		id = 17181,
-		name = "深海的幽灵"
+		name = "Ghost Ship of the Deep"
 	},
 	[17231] = {
 		id = 17231,
-		name = "困了…"
+		name = "What a Pain..."
 	},
 	[17240] = {
 		id = 17240,

@@ -1559,7 +1559,7 @@ pg.commander_skill_template = {
 	},
 	[960012] = {
 		desc_world = "When assigned to a fleet with at least 1 IX: decreases your Flagship's DMG taken by a moderate amount based on the Tactics stat.",
-		name = "环球航行",
+		name = "Towards Land's End",
 		next_id = 960013,
 		exp = 0,
 		prev_id = 960011,
@@ -1580,7 +1580,7 @@ pg.commander_skill_template = {
 	},
 	[960013] = {
 		desc_world = "Increases the EVA of your IXVs and IXMs by a large amount based on the Tactics stat.",
-		name = "环球航行",
+		name = "Towards Land's End",
 		next_id = 0,
 		exp = 0,
 		prev_id = 960012,
@@ -1685,7 +1685,7 @@ pg.commander_skill_template = {
 	},
 	[960032] = {
 		desc_world = "When assigned as the Command Cat of your Submarine Fleet: when the battle starts, restores 2.0% of your IXs' max HP.",
-		name = "“高速”的山姆",
+		name = "Breakneck Sam",
 		next_id = 960033,
 		exp = 0,
 		prev_id = 960031,
@@ -1706,7 +1706,7 @@ pg.commander_skill_template = {
 	},
 	[960033] = {
 		desc_world = "When assigned as the Command Cat of your Submarine Fleet: increases the ACC of your SS, SSVs, and IXSs by a moderate amount based on the Tactics stat.",
-		name = "“高速”的山姆",
+		name = "Breakneck Sam",
 		next_id = 0,
 		exp = 0,
 		prev_id = 960032,

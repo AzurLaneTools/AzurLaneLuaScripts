@@ -1765,7 +1765,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-	tip = "Expand Supply Capacity from  <color=#72bc42>$1</color> to <color=#72bc42>$2</color>."
+	tip = "Expand Supply Capacity from <color=#72bc42>$1</color> to <color=#72bc42>$2</color>."
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
@@ -1777,11 +1777,11 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
-	tip = "Furniture does not have to be placed to contribute comfort. The dorm's total comfort is calculated as a sum of the n highest-comfort pieces of furniture in each slot."
+	tip = "Furniture does not have to be placed to contribute comfort. The dorm's total comfort is calculated as a sum of a certain number of the highest-comfort pieces of furniture in each slot."
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-	tip = "The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Current expansions: <color=#72bc42>$1</color>\n</size>"
+	tip = "The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Current expansions: <color=#72bc42>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
@@ -23860,11 +23860,11 @@ _G.pg.base.gametip.battle_text_yunxian_3 = {
 }
 
 _G.pg.base.gametip.battle_text_haidao_1 = {
-	tip = "/// Warning: Non-Tempesta Ship Detected ///"
+	tip = "<color=#f1f102>/// Warning: Non-Tempesta Ship Detected ///</color>"
 }
 
 _G.pg.base.gametip.battle_text_haidao_2 = {
-	tip = "/// The Nebula Guardian attacks! São Martinho has powered up! ///"
+	tip = "<color=#f1f102>/// The Nebula Guardian attacks! São Martinho has powered up! ///</color>"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -26036,19 +26036,12 @@ _G.pg.base.gametip.sail_boat_minigame_help = {
 }
 
 _G.pg.base.gametip.pirate_wanted_help = {
-	tip = {
-		{
-			info = [[
+	tip = [[
 This event is available between <color=#92fc63>October 26th and November 8th.</color>
 
 - Overview -
 1. Exclusive missions are available during this event.
-2. Complete the missions to receive all kinds of rewards, including new Meowfficers, Tempesta gear and Augment Modules, limited furniture ""Brilliant Compass.""]]
-		},
-		{
-			info = "Rewards are claimable up to November 15th, 23:59."
-		}
-	}
+2. Complete the missions to receive all kinds of rewards, including new Meowfficers, Tempesta gear and Augment Modules, limited furniture ""Brilliant Compass.""Rewards are claimable up to November 15th, 23:59.]]
 }
 
 _G.pg.base.gametip.harbor_backhill_help = {
@@ -26089,5 +26082,5 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
-	tip = "是否使用<color=#72bc42>$1钻石</color>购买<color=#72bc42>$2</color>"
+	tip = "Spend <color=#72bc42>$1 Gems</color> to buy <color=#72bc42>$2</color>?"
 }

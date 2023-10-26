@@ -17382,7 +17382,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[264] = {
 		effect = "",
 		name = "Brilliant Compass",
-		gain_by = "飓风与青春之泉",
+		gain_by = "Tempesta and the Fountain of Youth",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

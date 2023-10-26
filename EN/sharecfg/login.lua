@@ -1009,7 +1009,7 @@ pg.login = {
 	},
 	[40] = {
 		id = 40,
-		op_play = 0,
+		op_play = 1,
 		login_static = "login",
 		login_cri = "",
 		bgm = "theme-SeaAndSun-image",
@@ -1069,7 +1069,7 @@ pg.login = {
 	},
 	[41] = {
 		id = 41,
-		op_play = 0,
+		op_play = 1,
 		login_static = "login_1031",
 		login_cri = "",
 		bgm = "story-oldcastle-carnival",
@@ -1129,7 +1129,7 @@ pg.login = {
 	},
 	[42] = {
 		id = 42,
-		op_play = 0,
+		op_play = 1,
 		login_static = "login",
 		login_cri = "",
 		bgm = "theme-SeaAndSun-image",

@@ -1375,7 +1375,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90844] = {
 		cannon = 0,
-		name = "加里冒险号",
+		name = "Adventure Galley",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1519,7 +1519,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90845] = {
 		cannon = 0,
-		name = "圣马丁号",
+		name = "São Martinho",
 		type = 24,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1671,7 +1671,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90846] = {
 		cannon = 0,
-		name = "玛丽·西莱斯特号",
+		name = "Mary Celeste",
 		type = 22,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1810,7 +1810,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90847] = {
 		cannon = 0,
-		name = "维达号",
+		name = "Whydah",
 		type = 22,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1949,7 +1949,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90848] = {
 		cannon = 0,
-		name = "金鹿号",
+		name = "Golden Hind",
 		type = 23,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -2093,7 +2093,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90849] = {
 		cannon = 0,
-		name = "埃尔薇菈",
+		name = "Elbing",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

@@ -382,7 +382,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50041] = {
 		cannon = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		type = 23,
 		speed_growth = 10000,
 		battle_unit_type = 49,
@@ -523,7 +523,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50042] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 5500,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -546,7 +546,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50043] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 6100,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -569,7 +569,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50044] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 6650,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -592,7 +592,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50045] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 7200,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -615,7 +615,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50046] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 7750,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -638,7 +638,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50047] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 8300,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -661,7 +661,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50048] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 8850,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -684,7 +684,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50049] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 9400,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -707,7 +707,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50050] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 10000,
 		speed_growth = 10000,
 		luck_growth = 10000,

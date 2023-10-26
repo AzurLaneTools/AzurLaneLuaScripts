@@ -3185,7 +3185,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960001] = {
 		shiptype = 22,
-		name = "皇家财富号",
+		name = "Royal Fortune",
 		nation = 96,
 		id = 960001,
 		t_level_1 = 1,
@@ -3196,7 +3196,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960002] = {
 		shiptype = 24,
-		name = "圣马丁号",
+		name = "São Martinho",
 		nation = 96,
 		id = 960002,
 		t_level_1 = 1,
@@ -3207,7 +3207,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960003] = {
 		shiptype = 23,
-		name = "金鹿号",
+		name = "Golden Hind",
 		nation = 96,
 		id = 960003,
 		t_level_1 = 2,
@@ -3218,7 +3218,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960004] = {
 		shiptype = 22,
-		name = "玛丽·西莱斯特号",
+		name = "Mary Celeste",
 		nation = 96,
 		id = 960004,
 		t_level_1 = 3,
@@ -3229,7 +3229,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960005] = {
 		shiptype = 22,
-		name = "维达号",
+		name = "Whydah",
 		nation = 96,
 		id = 960005,
 		t_level_1 = 4,
@@ -3240,7 +3240,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960006] = {
 		shiptype = 23,
-		name = "加里冒险号",
+		name = "Adventure Galley",
 		nation = 96,
 		id = 960006,
 		t_level_1 = 5,

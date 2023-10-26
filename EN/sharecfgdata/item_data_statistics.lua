@@ -6071,8 +6071,8 @@ _G.pg.base.item_data_statistics[11054] = {
 }
 
 _G.pg.base.item_data_statistics[11055] = {
-	display = "旧式重火炮T3设计图",
-	name = "旧式重火炮T3设计图",
+	display = "T3 Old Heavy Cannon Design",
+	name = "T3 Old Heavy Cannon Design",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -17422,7 +17422,7 @@ _G.pg.base.item_data_statistics[30348] = {
 }
 
 _G.pg.base.item_data_statistics[30349] = {
-	display = "可以获得一件随机的航海集结风格外观装备",
+	display = "Contains a random gear skin.",
 	name = "Gear Skin Box (Pirate)",
 	max_num = 0,
 	type = 11,
@@ -21638,8 +21638,8 @@ _G.pg.base.item_data_statistics[30530] = {
 }
 
 _G.pg.base.item_data_statistics[30531] = {
-	display = "使用后可从「航海集结」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(航海家)",
+	display = "Can be opened to receive 1 Pirate Gathering-themed gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Pirate)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,
@@ -207863,8 +207863,8 @@ _G.pg.base.item_data_statistics[59495] = {
 }
 
 _G.pg.base.item_data_statistics[59496] = {
-	display = "用于古堡活动",
-	name = "Momopoly Dice ",
+	display = "The rolls will determine your fate.",
+	name = "Investigation Dice",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -207886,7 +207886,7 @@ _G.pg.base.item_data_statistics[59496] = {
 }
 
 _G.pg.base.item_data_statistics[59497] = {
-	display = "用于「飓风与青春之泉」活动兑换，活动结束后将会消失",
+	display = "Used to exchange for items in \"Tempesta and the Fountain of Youth.\" Will be removed after the event ends.",
 	name = "Old Gold Coins",
 	max_num = 0,
 	type = 98,
