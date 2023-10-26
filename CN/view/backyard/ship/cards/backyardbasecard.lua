@@ -9,8 +9,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0:OnInit()
 
-	slot0.startPos = Vector2(160, -354)
-	slot0.space = 284
+	slot0.startPos = Vector2(135, -354)
+	slot0.space = 255
 end
 
 function slot0.Disable(slot0)

@@ -10,8 +10,12 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
+function slot0.GetView(slot0)
+	return slot0.map:GetHost():GetBridge():GetView()
+end
+
 function slot0.Init(slot0)
-	slot1 = _courtyard:GetView():GetRect():Find("grids")
+	slot1 = slot0:GetView():GetRect():Find("grids")
 	slot3 = slot0.map.minSizeY
 	slot5 = slot0.map.sizeY
 
@@ -19,7 +23,7 @@ function slot0.Init(slot0)
 		slot10 = {}
 
 		for slot14 = slot3, slot5 do
-			slot15 = _courtyard:GetView().poolMgr:GetGridPool():Dequeue()
+			slot15 = slot0:GetView().poolMgr:GetGridPool():Dequeue()
 
 			setParent(slot15, slot1)
 
@@ -53,7 +57,7 @@ function slot0.Clear(slot0)
 		for slot9, slot10 in pairs(slot5) do
 			slot10:GetComponent(typeof(Image)).color = Color.New(0, 1, 0, 1)
 
-			_courtyard:GetView().poolMgr:GetGridPool():Enqueue(slot10)
+			slot0:GetView().poolMgr:GetGridPool():Enqueue(slot10)
 		end
 	end
 

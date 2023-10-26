@@ -23,9 +23,7 @@ function slot0.register(slot0)
 				wrap = ChargeScene.TYPE_DIAMOND
 			})
 		elseif slot1 == PlayerConst.ResDormMoney then
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-				wrap = ChargeScene.TYPE_GIFT
-			})
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 		end
 	end)
 	slot0.viewComponent:SetDorm(getProxy(DormProxy):getRawData())

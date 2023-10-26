@@ -7,15 +7,16 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.frame = slot0:findTF("frame/window1")
-	slot0.content = slot0:findTF("frame/window1/content"):GetComponent(typeof(Text))
-	slot0.frame1 = slot0:findTF("frame/window2")
-	slot0.content1 = slot0:findTF("frame/window2/content"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("frame/window2/mask/icon"):GetComponent(typeof(RawImage))
-	slot0.cancelBtn = slot0:findTF("frame/btns/cancel")
-	slot0.cancelBtnTxt = slot0:findTF("frame/btns/cancel/Text"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("frame/btns/confirm")
-	slot0.confirmBtnTxt = slot0:findTF("frame/btns/confirm/Text"):GetComponent(typeof(Text))
+	slot0.frame = slot0:findTF("window1")
+	slot0.content = slot0:findTF("window1/content"):GetComponent(typeof(Text))
+	slot0.frame1 = slot0:findTF("window2")
+	slot0.content1 = slot0:findTF("window2/content"):GetComponent(typeof(Text))
+	slot0.icon = slot0:findTF("window2/mask/Icon"):GetComponent(typeof(RawImage))
+	slot0.cancelBtn = slot0:findTF("btns/cancel")
+	slot0.cancelBtnTxt = slot0:findTF("btns/cancel/Text"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0:findTF("btns/confirm")
+	slot0.confirmBtnTxt = slot0:findTF("btns/confirm/Text"):GetComponent(typeof(Text))
+	slot0._parentTF = slot0._tf.parent
 end
 
 function slot0.OnInit(slot0)
@@ -64,7 +65,7 @@ end
 
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	SetParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
 function slot0.Hide(slot0)
@@ -75,7 +76,7 @@ function slot0.Hide(slot0)
 	end
 
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	SetParent(slot0._tf, slot0._parentTF)
 end
 
 function slot0.OnDestroy(slot0)

@@ -202,7 +202,7 @@ function slot0.AddListener(slot0)
 			return pg.expedition_data_template[slot0.attachmentId].dungeon_id > 0
 		end
 
-		if slot0:existChampion(slot2.row, slot2.column) then
+		if slot0:existVisibleChampion(slot2.row, slot2.column) then
 			slot4 = true
 			slot6 = slot0:getChampion(slot2.row, slot2.column)
 

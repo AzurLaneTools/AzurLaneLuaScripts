@@ -3240,6 +3240,18 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[11055] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 11055,
+		compose_number = 0,
+		target_id = 0
+	},
 	[12000] = {
 		open_directly = 0,
 		display_effect = "",
@@ -7164,6 +7176,18 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[30349] = {
+		open_directly = 1,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30349",
+		id = 30349,
+		compose_number = 0,
+		target_id = 0
+	},
 	[30401] = {
 		open_directly = 1,
 		display_effect = "",
@@ -10402,6 +10426,109 @@ pg.item_data_template = {
 			{
 				9,
 				397,
+				1
+			}
+		}
+	},
+	[30531] = {
+		open_directly = 0,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop_appointed",
+		other_item_cost = "[]",
+		id = 30531,
+		compose_number = 0,
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				850,
+				1
+			},
+			{
+				9,
+				851,
+				1
+			},
+			{
+				9,
+				852,
+				1
+			},
+			{
+				9,
+				853,
+				1
+			},
+			{
+				9,
+				854,
+				1
+			},
+			{
+				9,
+				855,
+				1
+			},
+			{
+				9,
+				856,
+				1
+			},
+			{
+				9,
+				857,
+				1
+			},
+			{
+				9,
+				858,
+				1
+			},
+			{
+				9,
+				859,
+				1
+			},
+			{
+				9,
+				860,
+				1
+			},
+			{
+				9,
+				861,
+				1
+			},
+			{
+				9,
+				862,
+				1
+			},
+			{
+				9,
+				863,
+				1
+			},
+			{
+				9,
+				864,
+				1
+			},
+			{
+				9,
+				865,
+				1
+			},
+			{
+				9,
+				866,
+				1
+			},
+			{
+				9,
+				867,
 				1
 			}
 		}
@@ -32331,6 +32458,7 @@ pg.item_data_template = {
 		11052,
 		11053,
 		11054,
+		11055,
 		12000,
 		12001,
 		12002,
@@ -32615,6 +32743,7 @@ pg.item_data_template = {
 		30346,
 		30347,
 		30348,
+		30349,
 		30401,
 		30402,
 		30403,
@@ -32661,6 +32790,7 @@ pg.item_data_template = {
 		30528,
 		30529,
 		30530,
+		30531,
 		30900,
 		30911,
 		30912,

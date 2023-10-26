@@ -426,7 +426,7 @@ function slot0.updateChapter(slot0, slot1, slot2)
 		})
 	end
 
-	if slot4.fleet then
+	if slot4.active and slot4.fleet then
 		slot4.fleet:clearShipHpChange()
 	end
 

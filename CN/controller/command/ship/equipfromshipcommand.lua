@@ -6,88 +6,102 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot2.pos
 	slot6 = slot2.oldShipId
 	slot7 = slot2.oldPos
+	slot9 = getProxy(EquipmentProxy)
 
-	if getProxy(BayProxy):getShipById(slot2.shipId) == nil then
+	if not getProxy(BayProxy):getShipById(slot2.shipId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot4))
 
 		return
 	end
 
-	if slot9:getEquip(slot5) and getProxy(PlayerProxy):getData():getMaxEquipmentBag() <= getProxy(EquipmentProxy):getCapacity() then
+	if slot10:getEquip(slot5) and getProxy(PlayerProxy):getData():getMaxEquipmentBag() <= slot9:getCapacity() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return
 	end
 
-	if slot8:getShipById(slot6) == nil then
+	if not slot8:getShipById(slot6) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot6))
 
 		return
 	end
 
-	if not slot10:getEquip(slot7) then
+	if not slot11:getEquip(slot7) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_error_noEquip"))
 
 		return
 	end
 
-	slot12, slot13 = slot9:canEquipAtPos(slot11, slot5)
+	slot13, slot14 = slot10:canEquipAtPos(slot12, slot5)
 
-	if not slot12 then
-		pg.TipsMgr.GetInstance():ShowTips(slot13)
+	if not slot13 then
+		pg.TipsMgr.GetInstance():ShowTips(slot14)
 
 		return
 	end
 
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("ship_equip_exchange_tip", slot10:getName(), slot11.config.name, slot9:getName()),
-		onYes = function ()
-			function slot0(slot0, slot1, slot2, slot3)
-				slot5 = getProxy(EquipmentProxy):getEquipmentById(slot1)
-				slot5.count = 1
+	slot15 = {}
 
-				assert(slot5 and slot5.count > 0)
-				pg.ConnectionMgr.GetInstance():Send(12006, {
-					type = 0,
-					equip_id = slot1,
-					ship_id = slot2,
-					pos = slot3
-				}, 12007, function (slot0)
-					if slot0.result == 0 then
-						slot2 = pg.equip_skin_template
+	table.insert(slot15, function (slot0)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("ship_equip_exchange_tip", uv0:getName(), uv1.config.name, uv2:getName()),
+			onYes = slot0
+		})
+	end)
+	table.insert(slot15, function (slot0)
+		slot1 = pg.ConnectionMgr.GetInstance()
 
-						if uv0:getEquip(uv1) then
-							uv2:addEquipment(slot1)
-						end
+		slot1:Send(12006, {
+			equip_id = 0,
+			type = 0,
+			ship_id = uv0,
+			pos = uv1
+		}, 12007, function (slot0)
+			if slot0.result == 0 then
+				slot1 = uv0:getEquip(uv1)
 
-						uv0:updateEquip(uv1, uv3)
-						uv4:updateShip(uv0)
-						uv2:removeEquipmentById(uv5, 1)
-						uv6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[uv5].name), "green")
-					else
-						pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
-					end
-				end)
-			end
+				uv0:updateEquip(uv1, nil)
+				uv2:updateShip(uv0)
 
-			pg.ConnectionMgr.GetInstance():Send(12006, {
-				equip_id = 0,
-				type = 0,
-				ship_id = uv2,
-				pos = uv3
-			}, 12007, function (slot0)
-				if slot0.result == 0 then
-					uv0:updateEquip(uv1, nil)
-					uv2:updateShip(uv0)
-					getProxy(EquipmentProxy):addEquipment(uv0:getEquip(uv1))
-					uv3(uv4, uv5, uv6, uv7)
-				else
-					pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
+				if uv3.id == uv0.id then
+					uv3 = uv0
 				end
-			end)
-		end
-	})
+
+				uv4:addEquipment(slot1)
+				uv5(uv3, uv6, uv7, uv8)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
+			end
+		end)
+	end)
+	seriesAsync(slot15, function (slot0, slot1, slot2, slot3)
+		slot4 = uv0:getEquipmentById(slot1)
+		slot4.count = 1
+
+		assert(slot4 and slot4.count > 0)
+		pg.ConnectionMgr.GetInstance():Send(12006, {
+			type = 0,
+			equip_id = slot1,
+			ship_id = slot2,
+			pos = slot3
+		}, 12007, function (slot0)
+			if slot0.result == 0 then
+				slot2 = pg.equip_skin_template
+
+				if uv0:getEquip(uv1) then
+					uv2:addEquipment(slot1)
+				end
+
+				uv0:updateEquip(uv1, uv3)
+				uv4:updateShip(uv0)
+				uv2:removeEquipmentById(uv5, 1)
+				uv6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[uv5].name), "green")
+			else
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
+			end
+		end)
+	end)
 end
 
 return slot0

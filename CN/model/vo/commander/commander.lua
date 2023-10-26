@@ -1,6 +1,8 @@
 slot0 = class("Commander", import("..BaseVO"))
 slot1 = pg.commander_level
 slot2 = pg.commander_attribute_template
+slot3 = 0
+slot4 = 1
 
 function slot0.rarity2Print(slot0)
 	if not uv0.prints then
@@ -84,6 +86,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.feedTime = slot1.home_feed_time or 0
 end
 
+function slot0.IsRegularTalent(slot0)
+	return slot0:getConfig("ability_refresh_type") == uv0
+end
+
 function slot0.getRenameTime(slot0)
 	return slot0.renameTime
 end
@@ -136,6 +142,66 @@ end
 
 function slot0.getSkills(slot0)
 	return slot0.skills
+end
+
+function slot5(slot0, slot1)
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.configId < slot1.configId
+	end)
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot0:IsLearnedTalent(slot6.id) then
+			return slot6
+		end
+	end
+
+	return slot1[1]
+end
+
+function slot0.GetDisplayTalents(slot0)
+	if slot0:IsRegularTalent() then
+		slot1 = {}
+		slot5 = "ability_show"
+
+		for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
+			if not slot1[CommanderTalent.New({
+				id = slot6
+			}).groupId] then
+				slot1[slot7.groupId] = {}
+			end
+
+			table.insert(slot1[slot7.groupId], slot7)
+		end
+
+		slot2 = {}
+		slot3 = {}
+
+		for slot7, slot8 in pairs(slot1) do
+			slot9 = uv0(slot0, slot8)
+
+			table.insert(slot2, slot9)
+
+			slot3[slot9.id] = slot0:IsLearnedTalent(slot9.id)
+		end
+
+		table.sort(slot2, function (slot0, slot1)
+			return (uv0[slot0.id] and 1 or 0) > (uv0[slot1.id] and 1 or 0)
+		end)
+
+		return slot2
+	else
+		return slot0:getTalents()
+	end
+end
+
+function slot0.IsLearnedTalent(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.talents) do
+		if slot6.id == slot1 then
+			return true
+		end
+	end
+
+	return false
 end
 
 function slot0.getTalents(slot0)

@@ -23,7 +23,7 @@ function slot0.FurnituresUpdated(slot0, slot1)
 	end
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3)
+function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0:Show()
 
 	slot0.pageType = slot1
@@ -31,6 +31,10 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0.player = slot3
 
 	slot0:OnSetUp()
+
+	if slot4 then
+		slot4()
+	end
 end
 
 function slot0.Show(slot0)

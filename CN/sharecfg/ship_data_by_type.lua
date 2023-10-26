@@ -541,6 +541,64 @@ pg.ship_data_by_type = {
 		},
 		arena_buff = {}
 	},
+	[23] = {
+		distory_resource_gold_ratio = 14,
+		energy_recover_time_ratio = 1.5,
+		team_limit = 3,
+		fix_resource_gold = 20,
+		distory_resource_oil_ratio = 0,
+		energy_recover_food_ratio = 0.12,
+		ship_type = 23,
+		type_name = "风帆",
+		team_type = "vanguard",
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
+		},
+		arena_buff = {
+			52
+		}
+	},
+	[24] = {
+		distory_resource_gold_ratio = 22,
+		energy_recover_time_ratio = 2,
+		team_limit = 3,
+		fix_resource_gold = 42,
+		distory_resource_oil_ratio = 0,
+		energy_recover_food_ratio = 0.24,
+		ship_type = 24,
+		type_name = "风帆",
+		team_type = "main",
+		strengthen_choose_type = {
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
+		},
+		arena_buff = {
+			54
+		}
+	},
 	all = {
 		1,
 		2,
@@ -560,6 +618,8 @@ pg.ship_data_by_type = {
 		19,
 		20,
 		21,
-		22
+		22,
+		23,
+		24
 	}
 }

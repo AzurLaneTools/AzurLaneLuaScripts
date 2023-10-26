@@ -1,8 +1,8 @@
 slot0 = class("CourtYardPaper")
 
-function slot0.Ctor(slot0, slot1)
-	slot0.id = slot1.id
-	slot0.configId = slot1.configId or slot0.id
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.id = slot2.id
+	slot0.configId = slot2.configId or slot0.id
 	slot0.config = pg.furniture_data_template[slot0.configId]
 end
 

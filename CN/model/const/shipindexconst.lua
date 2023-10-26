@@ -221,7 +221,8 @@ slot0.CampSN = bit.lshift(1, 6)
 slot0.CampFF = bit.lshift(1, 7)
 slot0.CampMNF = bit.lshift(1, 8)
 slot0.CampMETA = bit.lshift(1, 9)
-slot0.CampOther = bit.lshift(1, 10)
+slot0.CampMot = bit.lshift(1, 10)
+slot0.CampOther = bit.lshift(1, 11)
 slot0.CampIndexs = {
 	slot0.CampUS,
 	slot0.CampEN,
@@ -233,6 +234,7 @@ slot0.CampIndexs = {
 	slot0.CampFF,
 	slot0.CampMNF,
 	slot0.CampMETA,
+	slot0.CampMot,
 	slot0.CampOther
 }
 slot0.CampAll = IndexConst.BitAll(slot0.CampIndexs)
@@ -251,6 +253,7 @@ slot0.CampNames = {
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
 	"word_shipNation_meta_index",
+	"word_shipNation_mot",
 	"word_shipNation_other"
 }
 

@@ -6,26 +6,20 @@ end
 
 slot0.Mode = {
 	OR = 2,
-	AND = 1
+	AND = 1,
+	NUM = 3
 }
 
 function slot0.init(slot0)
-	slot0.panel = slot0:findTF("index_panel")
-	slot0.layout = slot0:findTF("layout", slot0.panel)
-	slot0.panelTemplate = slot0:findTF("Template", slot0.layout)
+	slot0.panel = slot0._tf:Find("index_panel")
+	slot0.layout = slot0.panel:Find("layout")
+	slot0.contianer = slot0.layout:Find("container")
 
-	setActive(slot0.panelTemplate, false)
+	eachChild(slot0.contianer, function (slot0)
+		setActive(slot0, false)
+	end)
 
-	slot1 = slot0.layout:Find("bgpart")
-	slot2 = slot0.layout:GetChild(slot0.layout.childCount - 1)
-
-	for slot6 = 0, slot0.layout.childCount - 1 do
-		setActive(slot0.layout:GetChild(slot6), false)
-	end
-
-	setActive(slot1, true)
-	setActive(slot2, true)
-
+	slot0.panelTemplate = slot0.layout:Find("container/Template")
 	slot0.displayList = {}
 	slot0.typeList = {}
 	slot0.btnConfirm = slot0:findTF("layout/btns/ok", slot0.panel)
@@ -59,6 +53,7 @@ function slot0.didEnter(slot0)
 	slot0.panel.localScale = Vector3.zero
 
 	LeanTween.scale(slot0.panel, Vector3(1, 1, 1), 0.2)
+	setText(slot0.panel:Find("layout/tip"), slot0.contextData.tip or "")
 	slot0:InitGroup()
 	slot0:BlurPanel()
 end
@@ -87,7 +82,7 @@ function slot0.InitGroup(slot0)
 	end
 
 	if slot0.contextData.customPanels.minHeight then
-		slot0.layout:GetComponent(typeof(LayoutElement)).minHeight = slot0.contextData.customPanels.minHeight
+		GetOrAddComponent(slot0.layout, typeof(LayoutElement)).minHeight = slot0.contextData.customPanels.minHeight
 	end
 
 	if slot0.contextData.customPanels.layoutPos then
@@ -101,7 +96,7 @@ function slot0.InitDropdown(slot0, slot1)
 	slot2 = slot1.tags
 	slot3 = tf(Instantiate(slot0.panelTemplate))
 
-	setParent(slot3, slot0.layout, false)
+	setParent(slot3, slot0.contianer, false)
 	setActive(slot3, true)
 
 	slot4 = uv0.Clone2Full(slot3:Find("bg"), #slot2)
@@ -134,7 +129,7 @@ function slot0.InitCustoms(slot0, slot1)
 	slot3 = slot0.contextData.customPanels[slot1.tags[1]]
 	slot4 = tf(Instantiate(slot0.panelTemplate))
 
-	setParent(slot4, slot0.layout, false)
+	setParent(slot4, slot0.contianer, false)
 	setActive(slot4, true)
 
 	go(slot4).name = slot1.titleTxt
@@ -161,51 +156,77 @@ function slot0.InitCustoms(slot0, slot1)
 		setText(findTF(slot16, "Image"), i18n(slot3.names[slot15]))
 		setImageSprite(slot16, slot0.greySprite)
 		onButton(slot0, slot16, function ()
-			if uv0 == uv1.Mode.AND then
-				if uv2 == 1 or uv3.contextData.indexDatas[uv4] == uv5[1] then
-					uv3.contextData.indexDatas[uv4] = uv6
-				else
-					uv3.contextData.indexDatas[uv4] = bit.bxor(uv3.contextData.indexDatas[uv4], uv6)
-				end
+			switch(uv0, {
+				[uv1.Mode.AND] = function ()
+					if uv0 == 1 or uv1.contextData.indexDatas[uv2] == uv3[1] then
+						uv1.contextData.indexDatas[uv2] = uv4
+					else
+						uv1.contextData.indexDatas[uv2] = bit.bxor(uv1.contextData.indexDatas[uv2], uv4)
+					end
 
-				if uv3.contextData.indexDatas[uv4] == 0 or uv3.contextData.indexDatas[uv4] == uv7 then
-					uv3.contextData.indexDatas[uv4] = uv5[1]
-				end
-			elseif uv0 == uv1.Mode.OR then
-				if uv8.isSort then
-					uv3.contextData.indexDatas[uv4] = uv6
-				else
-					uv3.contextData.indexDatas[uv4] = uv6 == uv3.contextData.indexDatas[uv4] and uv5[1] or uv6
-				end
-			end
+					if uv1.contextData.indexDatas[uv2] == 0 or uv1.contextData.indexDatas[uv2] == uv5 then
+						uv1.contextData.indexDatas[uv2] = uv3[1]
+					end
+				end,
+				[uv1.Mode.OR] = function ()
+					if uv0.isSort then
+						uv1.contextData.indexDatas[uv2] = uv3
+					else
+						uv1.contextData.indexDatas[uv2] = uv3 == uv1.contextData.indexDatas[uv2] and uv4[1] or uv3
+					end
+				end,
+				[uv1.Mode.NUM] = function ()
+					slot0 = uv0.contextData.indexDatas[uv1]
+					slot1 = 0
 
+					while slot0 > 0 do
+						slot1 = slot1 + 1
+						slot0 = bit.band(slot0, slot0 - 1)
+					end
+
+					if slot1 < uv2.num or bit.band(uv0.contextData.indexDatas[uv1], uv3) > 0 then
+						uv0.contextData.indexDatas[uv1] = bit.bxor(uv0.contextData.indexDatas[uv1], uv3)
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("equipcode_share_exceedlimit"))
+					end
+				end
+			})
 			uv9()
 		end, SFX_UI_TAG)
 	end
 
 	table.insert(slot0.updateList, function ()
-		if uv0 == uv1.Mode.AND then
-			if uv2.contextData.indexDatas[uv3] == uv4[1] then
-				for slot3, slot4 in ipairs(uv5) do
+		switch(uv0, {
+			[uv1.Mode.AND] = function ()
+				if uv0.contextData.indexDatas[uv1] == uv2[1] then
+					for slot3, slot4 in ipairs(uv3) do
+						slot6 = findTF(slot4, "Image")
+
+						setImageSprite(slot4, uv2[slot3] == uv2[1] and uv4 or uv0.greySprite)
+					end
+				else
+					for slot3, slot4 in ipairs(uv3) do
+						slot6 = findTF(slot4, "Image")
+
+						setImageSprite(slot4, uv2[slot3] ~= uv2[1] and bit.band(uv0.contextData.indexDatas[uv1], uv2[slot3]) > 0 and uv4 or uv0.greySprite)
+					end
+				end
+			end,
+			[uv1.Mode.OR] = function ()
+				for slot3, slot4 in ipairs(uv0) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, uv4[slot3] == uv4[1] and uv6 or uv2.greySprite)
+					setImageSprite(slot4, uv1[slot3] == uv2.contextData.indexDatas[uv3] and uv4 or uv2.greySprite)
 				end
-			else
-				for slot3, slot4 in ipairs(uv5) do
+			end,
+			[uv1.Mode.NUM] = function ()
+				for slot3, slot4 in ipairs(uv0) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, uv4[slot3] ~= uv4[1] and bit.band(uv2.contextData.indexDatas[uv3], uv4[slot3]) > 0 and uv6 or uv2.greySprite)
+					setImageSprite(slot4, bit.band(uv1.contextData.indexDatas[uv2], uv3[slot3]) > 0 and uv4 or uv1.greySprite)
 				end
 			end
-		elseif uv0 == uv1.Mode.OR then
-			for slot3, slot4 in ipairs(uv5) do
-				slot6 = findTF(slot4, "Image")
-
-				setImageSprite(slot4, uv4[slot3] == uv2.contextData.indexDatas[uv3] and uv6 or uv2.greySprite)
-			end
-		end
-
+		})
 		uv2:OnDatasChange(uv3)
 
 		if uv2.simpleDropdownDic[uv3] then

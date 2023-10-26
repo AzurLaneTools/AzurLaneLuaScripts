@@ -134,7 +134,7 @@ pg.settings_other_template = {
 		desc = "功能开启后，我拜访好友的后宅后，会在好友的后宅显示我的秘书舰"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		type = 0,
 		alignment = 0,

@@ -34,6 +34,8 @@ slot0.ON_ADD_SHIP_EXP = "ShipMainMediator:ON_ADD_SHIP_EXP"
 slot0.OPEN_EQUIPMENT_INDEX = "ShipMainMediator:OPEN_EQUIPMENT_INDEX"
 slot0.EQUIP_CHANGE_NOTICE = "ShipMainMediator:EQUIP_CHANGE_NOTICE"
 slot0.ON_SELECT_SPWEAPON = "ShipMainMediator:ON_SELECT_SPWEAPON"
+slot0.OPEN_EQUIP_CODE = "ShipMainMediator:OPEN_EQUIP_CODE"
+slot0.OPEN_EQUIP_CODE_SHARE = "ShipMainMediator:OPEN_EQUIP_CODE_SHARE"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -124,10 +126,14 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SELECT_EQUIPMENT, function (slot0, slot1)
+		slot2 = getProxy(EquipmentProxy)
 		slot4 = getProxy(BayProxy)
-		slot6 = slot4:getEquipsInShips(slot4:getShipById(uv0.contextData.shipId), slot1)
+		slot5 = slot4:getShipById(uv0.contextData.shipId)
+		slot6 = slot4:getEquipsInShips(function (slot0, slot1)
+			return uv0.id ~= slot1 and not uv0:isForbiddenAtPos(slot0, uv1)
+		end)
 
-		for slot10, slot11 in ipairs(getProxy(EquipmentProxy):getEquipments(true)) do
+		for slot10, slot11 in ipairs(slot2:getEquipments(true)) do
 			if not slot5:isForbiddenAtPos(slot11, slot1) then
 				table.insert(slot6, slot11)
 			end
@@ -287,6 +293,22 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
 			autoOpenShipConfigID = uv1.configId
 		})
+	end)
+	slot0:bind(uv0.OPEN_EQUIP_CODE, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.EQUIP_CODE, {
+			shipId = uv0.contextData.shipId,
+			code = slot1.code
+		})
+	end)
+	slot0:bind(uv0.OPEN_EQUIP_CODE_SHARE, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = EquipCodeShareMediator,
+			viewComponent = EquipCodeShareLayer,
+			data = {
+				shipId = slot1,
+				shipGroupId = slot2
+			}
+		}))
 	end)
 
 	if slot0.contextData.selectedId then

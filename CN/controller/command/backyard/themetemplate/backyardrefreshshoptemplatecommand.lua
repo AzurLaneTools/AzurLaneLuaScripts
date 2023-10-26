@@ -4,7 +4,8 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.type
 	slot5 = slot2.force
-	slot7 = false
+	slot6 = slot2.timeType
+	slot8 = false
 
 	if slot2.page == getProxy(DormProxy).MAX_PAGE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shop_reach_last_page"))
@@ -12,13 +13,13 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot6.lastPages[slot3] < slot4 then
+	if slot7.lastPages[slot3] < slot4 then
 		slot0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_ERRO)
 
 		return
 	end
 
-	function slot8(slot0, slot1)
+	function slot9(slot0, slot1)
 		slot2 = {}
 		slot3 = ipairs
 		slot4 = slot0.theme_id_list or {}
@@ -60,14 +61,14 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	function slot9(slot0)
+	function slot10(slot0)
 		uv0:sendNotification(GAME.BACKYARD_GET_IMG_MD5, {
 			type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
 			callback = slot0
 		})
 	end
 
-	function slot10(slot0)
+	function slot11(slot0)
 		seriesAsync({
 			function (slot0)
 				uv0(uv1, slot0)
@@ -82,9 +83,9 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot12 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(19117, {
+	slot12:Send(19117, {
 		typ = slot3,
 		page = slot4,
 		num = BackYardConst.THEME_TEMPLATE_SHOP_REFRSH_CNT

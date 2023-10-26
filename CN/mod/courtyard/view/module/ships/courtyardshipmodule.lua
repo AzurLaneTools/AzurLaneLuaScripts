@@ -98,7 +98,7 @@ function slot0.InitAttachment(slot0)
 end
 
 function slot0.OnBeginDrag(slot0)
-	if not _courtyard:GetView():GetCurrStorey():AllModulesAreCompletion() then
+	if not slot0:GetView():GetCurrStorey():AllModulesAreCompletion() then
 		return
 	end
 
@@ -192,8 +192,8 @@ function slot0.OnAddAward(slot0, slot1, slot2)
 
 	setText(slot3:Find("Text"), slot1 or "")
 
-	if slot2 == 2 and _courtyard:GetView().poolMgr:GetHeartPool() then
-		slot4 = _courtyard:GetView().poolMgr:GetHeartPool():Dequeue()
+	if slot2 == 2 and slot0:GetView().poolMgr:GetHeartPool() then
+		slot4 = slot0:GetView().poolMgr:GetHeartPool():Dequeue()
 
 		slot4.transform:SetParent(slot0._tf, false)
 
@@ -304,7 +304,7 @@ function slot0.OnDispose(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	_courtyard:GetView().poolMgr:GetShipPool():Enqueue(slot0._go)
+	slot0:GetView().poolMgr:GetShipPool():Enqueue(slot0._go)
 end
 
 return slot0

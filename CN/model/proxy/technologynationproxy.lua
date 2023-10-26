@@ -23,6 +23,54 @@ function slot0.register(slot0)
 		uv0:setTimer()
 		uv0:initSetableAttrAddition(slot0.techset_list)
 	end)
+
+	if IsUnityEditor then
+		slot1 = {
+			ShipType.FengFanM,
+			ShipType.FengFanS,
+			ShipType.FengFanV
+		}
+
+		function slot2(slot0)
+			if #uv0 ~= #slot0 then
+				return false
+			end
+
+			slot1 = {}
+			slot2 = {}
+
+			for slot6, slot7 in ipairs(uv0) do
+				slot1[slot7] = (slot1[slot7] or 0) + 1
+			end
+
+			for slot6, slot7 in ipairs(slot0) do
+				slot2[slot7] = (slot2[slot7] or 0) + 1
+			end
+
+			for slot6, slot7 in pairs(slot1) do
+				if slot2[slot6] ~= slot7 then
+					return false
+				end
+			end
+
+			return true
+		end
+
+		for slot6, slot7 in ipairs(pg.fleet_tech_ship_class.all) do
+			if pg.fleet_tech_ship_class[slot7].nation == Nation.MOT then
+				slot10 = pg.fleet_tech_ship_template[slot7]
+				slot12 = slot10.add_level_shiptype
+
+				if not slot2(slot10.add_get_shiptype) then
+					assert(false, "请检查fleet_tech_ship_class中的add_get_shiptype， ID：" .. slot7)
+				end
+
+				if not slot2(slot12) then
+					assert(false, "请检查fleet_tech_ship_class中的add_level_shiptype， ID：" .. slot7)
+				end
+			end
+		end
+	end
 end
 
 function slot0.flushData(slot0)
@@ -73,11 +121,7 @@ function slot0.shipGroupFilter(slot0)
 end
 
 function slot0.nationPointFilter(slot0)
-	slot0.nationToPoint = {}
-	slot0.nationToPointLog = {}
-	slot0.nationToPointLog2 = {}
-
-	for slot5, slot6 in ipairs({
+	slot1 = {
 		Nation.US,
 		Nation.EN,
 		Nation.JP,
@@ -89,7 +133,17 @@ function slot0.nationPointFilter(slot0)
 		Nation.MNF,
 		Nation.FR,
 		Nation.META
-	}) do
+	}
+
+	if not LOCK_TEC_MOT then
+		table.insert(slot1, Nation.MOT)
+	end
+
+	slot0.nationToPoint = {}
+	slot0.nationToPointLog = {}
+	slot0.nationToPointLog2 = {}
+
+	for slot5, slot6 in ipairs(slot1) do
 		slot0.nationToPoint[slot6] = 0
 		slot0.nationToPointLog[slot6] = {
 			{},

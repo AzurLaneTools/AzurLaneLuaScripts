@@ -1,15 +1,26 @@
 slot0 = class("BackYardDecorationPutlistPage", import(".BackYardDecorationBasePage"))
+slot0.SELECTED_FURNITRUE = "BackYardDecorationPutlistPage:SELECTED_FURNITRUE"
+slot0.INNER_SELECTED_FURNITRUE = "BackYardDecorationPutlistPage:INNER_SELECTED_FURNITRUE"
 
 function slot0.getUIName(slot0)
 	return "BackYardPutListPage"
 end
 
 function slot0.OnLoaded(slot0)
-	slot0._bg = slot0:findTF("bg")
-	slot0.scrollRect = slot0:findTF("bg/frame0/frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.scrollRectTF = slot0:findTF("bg/frame0/frame/scrollrect")
-	slot0.emptyTF = slot0:findTF("bg/frame0/frame/empty")
-	slot0.arr = slot0:findTF("bg/frame0/frame/arr")
+	slot0:bind(BackYardDecorationFurniturePage.SELECTED_FURNITRUE, function ()
+		uv0:ClearMark()
+	end)
+	slot0:bind(uv0.INNER_SELECTED_FURNITRUE, function (slot0, slot1)
+		uv0:Selected(slot1)
+	end)
+
+	slot0._bg = slot0:findTF("frame")
+	slot0.scrollRect = slot0:findTF("frame/frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.scrollRectTF = slot0:findTF("frame/frame/scrollrect")
+	slot0.emptyTF = slot0:findTF("frame/frame/empty")
+	slot0.arr = slot0:findTF("frame/frame/arr")
+
+	setText(slot0:findTF("frame/title/Text"), i18n("courtyard_label_putlist_title"))
 end
 
 function slot0.OnInit(slot0)
@@ -86,10 +97,41 @@ function slot0.OnInit(slot0)
 			end
 
 			if uv2(slot1) then
+				if uv1.card then
+					uv1.card:MarkOrUnMark(false)
+				end
+
 				uv1:emit(BackYardDecorationMediator.ON_SELECTED_FURNITRUE, slot3.furniture.id)
+				slot3:MarkOrUnMark(true)
+
+				uv1.card = slot3
+
+				uv1:emit(uv3.SELECTED_FURNITRUE)
 			end
 		end
 	end)
+end
+
+function slot0.ClearMark(slot0)
+	for slot4, slot5 in pairs(slot0.cards) do
+		slot5:MarkOrUnMark(false)
+	end
+
+	slot0.card = nil
+end
+
+function slot0.Selected(slot0, slot1)
+	slot0:ClearMark()
+
+	for slot5, slot6 in pairs(slot0.cards) do
+		if slot6.furniture and slot6.furniture.id == slot1 then
+			slot6:MarkOrUnMark(true)
+
+			slot0.card = slot6
+
+			break
+		end
+	end
 end
 
 function slot0.change2ScrPos(slot0, slot1)
@@ -154,20 +196,25 @@ function slot0.Show(slot0)
 end
 
 function slot0.Hide(slot0)
-	slot2 = LeanTween.value(slot0._bg.gameObject, 0, -slot0._bg.rect.width, 0.4)
-	slot2 = slot2:setOnUpdate(System.Action_float(function (slot0)
-		setAnchoredPosition(uv0._bg, {
-			x = slot0
-		})
-	end))
+	slot6 = 0.4
 
-	slot2:setOnComplete(System.Action(function ()
+	function slot5()
 		uv0.super.Hide(uv1)
 
 		if uv1.OnShow then
 			uv1.OnShow(false)
 		end
-	end))
+	end
+
+	LeanTween.value(slot0._bg.gameObject, 0, -slot0._bg.rect.width, slot6):setOnUpdate(System.Action_float(function (slot0)
+		setAnchoredPosition(uv0._bg, {
+			x = slot0
+		})
+	end)):setOnComplete(System.Action(slot5))
+
+	for slot5, slot6 in pairs(slot0.cards) do
+		slot6:Clear()
+	end
 end
 
 function slot0.OnDormUpdated(slot0)

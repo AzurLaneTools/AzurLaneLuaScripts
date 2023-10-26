@@ -181,6 +181,33 @@ function slot0.onRegister(slot0)
 		end
 	end
 
+	function slot3(slot0, slot1)
+		slot2 = 0
+
+		for slot6, slot7 in ipairs(slot0) do
+			if slot7.type == DROP_TYPE_COMMANDER_CAT then
+				slot2 = slot2 + 1
+			end
+		end
+
+		if slot2 == 0 then
+			return
+		end
+
+		for slot7, slot8 in ipairs(getProxy(CommanderProxy):GetNewestCommander(slot2)) do
+			table.insert(slot1, function (slot0)
+				uv0:addSubLayers(Context.New({
+					viewComponent = NewCommanderScene,
+					mediator = NewCommanderMediator,
+					data = {
+						commander = uv1,
+						onExit = slot0
+					}
+				}))
+			end)
+		end
+	end
+
 	slot0:bind(BaseUI.ON_ACHIEVE, function (slot0, slot1, slot2)
 		slot3 = {}
 
@@ -194,6 +221,7 @@ function slot0.onRegister(slot0)
 			table.insert(slot3, function (slot0)
 				uv0(uv1, uv2)
 				uv3(uv1, uv2)
+				uv4(uv1, uv2)
 				slot0()
 			end)
 		end
@@ -214,6 +242,7 @@ function slot0.onRegister(slot0)
 			table.insert(slot2, function (slot0)
 				uv0(uv1, uv2)
 				uv3(uv1, uv2)
+				uv4(uv1, uv2)
 				slot0()
 			end)
 		end

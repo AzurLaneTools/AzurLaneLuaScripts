@@ -95,11 +95,9 @@ function slot0.doShipUpdate(slot0)
 
 	if #slot0.data.ship_update > 0 then
 		_.each(slot1.ship_update, function (slot0)
-			if uv0:getShip(slot0.id) and slot1.hpRant * slot0.hp_rant == 0 and slot1:getShipType() == ShipType.WeiXiu then
-				uv1 = bit.bor(uv1, ChapterConst.DirtyStrategy)
-			end
-
 			uv0:updateShipHp(slot0.id, slot0.hp_rant)
+
+			uv1 = bit.bor(uv1, ChapterConst.DirtyStrategy)
 		end)
 
 		slot2 = bit.bor(slot2, ChapterConst.DirtyFleet)
@@ -141,8 +139,6 @@ function slot0.doRetreat(slot0)
 		end
 	else
 		slot3:retreat(slot1.win)
-
-		slot2 = ChapterConst.DirtyMapItems
 	end
 
 	slot0.flag = slot2

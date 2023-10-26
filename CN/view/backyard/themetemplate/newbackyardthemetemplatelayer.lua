@@ -15,10 +15,8 @@ function slot1(slot0, slot1, slot2)
 		uv1.btn = uv3
 	end, SFX_PANEL)
 	(function (slot0, slot1)
-		setActive(slot0:Find("btn_di"), slot1)
-		setAnchoredPosition(slot0:Find("Text"), {
-			x = slot1 and 18 or 0
-		})
+		setActive(slot0:Find("sel"), slot1)
+		setActive(slot0:Find("unsel"), not slot1)
 	end)(slot1, false)
 end
 
@@ -27,24 +25,26 @@ function slot0.forceGC(slot0)
 end
 
 function slot0.getUIName(slot0)
-	return "NewBackYardShopUI"
+	return "NewBackYardTemplateUI"
+end
+
+function slot0.preload(slot0, slot1)
+	_backYardThemeTemplateMsgbox = BackyardMsgBoxMgr.New()
+
+	_backYardThemeTemplateMsgbox:Init(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.tpl = slot0:findTF("adpter/list/tpl")
-	slot0.container = slot0:findTF("adpter/list")
+	slot0.tpl = slot0:findTF("adpter/tag/list/tpl")
+	slot0.container = slot0:findTF("adpter/tag/list")
 	slot0.pageContainer = slot0:findTF("pages")
-	slot0.container:GetComponent(typeof(VerticalLayoutGroup)).spacing = 40
 	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
 	slot0.homeBtn = slot0:findTF("adpter/top/help")
 	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
 	slot1 = slot0:findTF("adpter/top/res_gem/Text")
 	slot0.gemTxt = slot1:GetComponent(typeof(Text))
 	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
-
-	SetActive(slot0:findTF("adpter/top/top_word1"), true)
-	SetActive(slot0:findTF("adpter/top/top_word"), false)
-
+	slot0.goldAddBtn = slot0:findTF("adpter/top/res_gold/jiahao")
 	slot0.tags = {
 		[BackYardConst.THEME_TEMPLATE_TYPE_SHOP] = i18n("backyard_theme_shop_title"),
 		[BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM] = i18n("backyard_theme_mine_title"),
@@ -243,6 +243,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.gemAddBtn, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.ON_CHARGE, PlayerConst.ResDiamond)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.goldAddBtn, function ()
+		uv0:emit(NewBackYardThemeTemplateMediator.ON_CHARGE, PlayerConst.ResDormMoney)
+	end, SFX_PANEL)
 	seriesAsync({
 		function (slot0)
 			uv0:emit(NewBackYardThemeTemplateMediator.FETCH_ALL_THEME, slot0)
@@ -259,8 +262,16 @@ function slot0.InitPages(slot0)
 
 	for slot4, slot5 in pairs(slot0.tags) do
 		slot6 = cloneTplTo(slot0.tpl, slot0.container)
+		slot7 = slot6:Find("unsel"):GetComponent(typeof(Image))
+		slot7.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "text_tp_" .. slot4)
 
-		setText(slot6:Find("Text"), slot5)
+		slot7:SetNativeSize()
+
+		slot8 = slot6:Find("sel/Text"):GetComponent(typeof(Image))
+		slot8.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "text_tp_" .. slot4)
+
+		slot8:SetNativeSize()
+		setActive(slot6:Find("line"), slot4 ~= BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION)
 		uv0(slot0, slot6, function ()
 			uv0.listPage:ExecuteAction("SetUp", uv1, uv0:GetDataForType(uv1), uv0.dorm, uv0.player)
 
@@ -317,6 +328,10 @@ function slot0.UpdateRes(slot0)
 end
 
 function slot0.willExit(slot0)
+	_backYardThemeTemplateMsgbox:Destroy()
+
+	_backYardThemeTemplateMsgbox = nil
+
 	slot0.listPage:Destroy()
 	slot0.contextData.msgBox:Destroy()
 	BackYardThemeTempalteUtil.ClearAllCache()

@@ -1,6 +1,7 @@
 slot0 = class("CourtYardBridge")
 
 function slot0.Ctor(slot0, slot1)
+	slot0.core = slot1.core
 	slot0.isSetup = false
 	slot0.controller = slot0:System2Controller(slot1.system, slot1)
 	slot0.view = CourtYardView.New(slot1.name, slot0.controller:GetStorey())
@@ -61,7 +62,9 @@ function slot0.Exit(slot0)
 end
 
 function slot0.SendNotification(slot0, slot1, slot2)
-	pg.m02:sendNotification(slot1, slot2)
+	if slot0.core then
+		slot0.core:sendNotification(slot1, slot2)
+	end
 end
 
 function slot0.Dispose(slot0)
@@ -74,9 +77,9 @@ end
 
 function slot0.System2Controller(slot0, slot1, slot2)
 	if slot1 == CourtYardConst.SYSTEM_FEAST then
-		return CourtYardFeastController.New(slot2)
+		return CourtYardFeastController.New(slot0, slot2)
 	else
-		return CourtYardController.New(slot2)
+		return CourtYardController.New(slot0, slot2)
 	end
 end
 

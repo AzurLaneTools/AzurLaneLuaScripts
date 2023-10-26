@@ -1803,5 +1803,16 @@ pg.effect_offset = {
 			1.8,
 			0
 		}
+	},
+	jialimaoxianhao_hit = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = true,
+		offset = {
+			2,
+			0,
+			4
+		}
 	}
 }

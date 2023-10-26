@@ -1,10 +1,10 @@
 slot0 = class("CourtYardStorey", import("..map.CourtYardPlaceableArea"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.Ctor(slot0, slot1, slot4)
 
-	slot0.id = slot1
-	slot0.style = slot2
+	slot0.id = slot2
+	slot0.style = slot3
 	slot0.level = 1
 	slot0.furnitures = {}
 	slot0.ships = {}
@@ -439,7 +439,7 @@ function slot0.ResetShip(slot0, slot1, slot2)
 		slot3(slot1, slot4)
 	else
 		slot0:RemoveShip(slot1)
-		_courtyard:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot1.id)
+		slot0:GetHost():SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot1.id)
 	end
 end
 

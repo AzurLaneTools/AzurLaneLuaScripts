@@ -2088,6 +2088,59 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "SailBoatGameView",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "帆船小游戏",
+		config_data = "",
+		config_csv = "",
+		id = 59,
+		hub_id = 50,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54003,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					3,
+					150160,
+					1
+				},
+				{
+					2,
+					54024,
+					2
+				},
+				{
+					2,
+					59355,
+					1
+				},
+				{
+					2,
+					20013,
+					2
+				},
+				{
+					5,
+					304106,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2289,6 +2342,7 @@ pg.mini_game = {
 		56,
 		57,
 		58,
+		59,
 		1001,
 		1002,
 		1003,

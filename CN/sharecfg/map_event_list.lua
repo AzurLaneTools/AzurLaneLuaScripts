@@ -3821,6 +3821,17 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[1760041] = {
+		help_open = 0,
+		chapter_id = 1760041,
+		event_list = {
+			586
+		},
+		event_list_loop = {
+			586
+		},
+		help_pictures = {}
+	},
 	[2100243] = {
 		help_open = 1,
 		chapter_id = 2100243,
@@ -4647,6 +4658,7 @@ pg.map_event_list = {
 		1740026,
 		1740041,
 		1750041,
+		1760041,
 		2100243,
 		2100244,
 		2100245,

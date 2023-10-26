@@ -14,11 +14,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.bgAgent = CourtYardBGAgent.New(slot0)
 	slot0.bgmAgent = CourtYardBGMAgent.New(slot0)
 	slot0.factorys = {
-		[CourtYardConst.OBJ_TYPE_SHIP] = CourtYardShipFactory.New(),
-		[CourtYardConst.OBJ_TYPE_COMMOM] = CourtYardFurnitureFactory.New()
+		[CourtYardConst.OBJ_TYPE_SHIP] = CourtYardShipFactory.New(slot0:GetView().poolMgr),
+		[CourtYardConst.OBJ_TYPE_COMMOM] = CourtYardFurnitureFactory.New(slot0:GetView().poolMgr)
 	}
 	slot0.descPage = CourtYardFurnitureDescPage.New(slot0)
 	slot0.playTheLutePage = CourtyardPlayTheLutePage.New(slot0)
+end
+
+function slot0.GetDefaultBgm(slot0)
+	return pg.voice_bgm.CourtYardScene.default_bgm
 end
 
 function slot0.OnInit(slot0)
@@ -29,15 +33,28 @@ function slot0.OnInit(slot0)
 	slot0.gridsTF = slot0.rectTF:Find("grids")
 	slot0.rootTF = slot0._tf:Find("root")
 	slot0.selectedTF = slot0._tf:Find("root/drag")
-	slot0.rotationBtn = slot0.selectedTF:Find("panel/rotation")
-	slot0.removeBtn = slot0.selectedTF:Find("panel/cancel")
-	slot0.confirmBtn = slot0.selectedTF:Find("panel/ok")
-	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/move"))
+	slot0.selectedAnimation = slot0.selectedTF:GetComponent(typeof(Animation))
+	slot0.dftAniEvent = slot0.selectedTF:GetComponent(typeof(DftAniEvent))
+	slot0.rotationBtn = slot0.selectedTF:Find("panel/animroot/rotation")
+	slot0.removeBtn = slot0.selectedTF:Find("panel/animroot/cancel")
+	slot0.confirmBtn = slot0.selectedTF:Find("panel/animroot/ok")
+	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/animroot"), slot0.rectTF)
 	slot0.effectContainer = slot0._tf:Find("effects")
+	slot1 = slot0.rootTF:Find("white"):GetComponent(typeof(Image)).material
+	slot2 = slot0.rootTF:Find("green"):GetComponent(typeof(Image)).material
+	slot3 = slot0.rootTF:Find("red"):GetComponent(typeof(Image)).material
+	slot0.furnitureStateMgrs = {
+		CourtyardFurnitureState.New(slot0._tf:Find("root/furnitureState"), slot0.rectTF, slot1, slot2, slot3),
+		CourtyardSpineFurnitureState.New(slot0._tf:Find("root/furnitureSpineState"), slot0.rectTF, slot1, slot2, slot3)
+	}
 
 	slot0:InitPedestalModule()
 
 	slot0.bg.localScale = Vector3(0.95, 0.95, 1)
+end
+
+function slot0.GetFurnitureStateMgr(slot0, slot1)
+	return slot1:IsSpine() and slot0.furnitureStateMgrs[2] or slot0.furnitureStateMgrs[1]
 end
 
 function slot0.InitPedestalModule(slot0)
@@ -152,7 +169,7 @@ function slot0.AllModulesAreCompletion(slot0)
 end
 
 function slot0.OnRemindSave(slot0)
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+	_BackyardMsgBoxMgr:Show({
 		content = i18n("backyard_backyardScene_quest_saveFurniture"),
 		onYes = function ()
 			uv0:Emit("SaveFurnitures")
@@ -221,13 +238,42 @@ function slot0.OnSelectedItem(slot0, slot1, slot2)
 	slot0.gridAgent = slot0:GetGridAgent(slot1, slot2)
 
 	if isa(slot1, CourtYardFurniture) then
+		slot0.selectedAnimation:Play("anim_courtyard_dragin")
+
+		slot3 = slot0:Item2Module(slot1)
+
+		slot0:InitFurnitureState(slot3, slot1)
 		setParent(slot0.selectedTF, slot0.rectTF)
 
-		slot0.selectedTF.sizeDelta = slot0:Item2Module(slot1)._tf.sizeDelta
+		slot0.selectedTF.sizeDelta = slot3._tf.sizeDelta
 
 		slot0:UpdateSelectedPosition(slot1)
 		slot0:RegisterOp(slot1)
 	end
+end
+
+function slot0.InitFurnitureState(slot0, slot1, slot2)
+	slot0:GetFurnitureStateMgr(slot2):OnInit(slot1, slot2)
+end
+
+function slot0.UpdateFurnitureState(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetFurnitureStateMgr(slot3)
+
+	if _.any(slot2, function (slot0)
+		return slot0.flag == 2
+	end) then
+		slot4:OnCantPlace()
+	else
+		slot4:OnCanPlace()
+	end
+end
+
+function slot0.ResetFurnitureSelectedState(slot0, slot1)
+	slot0:GetFurnitureStateMgr(slot1):OnReset(slot0:Item2Module(slot1))
+end
+
+function slot0.ClearFurnitureSelectedState(slot0, slot1)
+	slot0:GetFurnitureStateMgr(slot1):OnClear()
 end
 
 function slot0.OnDragItem(slot0, slot1)
@@ -240,6 +286,7 @@ function slot0.OnDragingItem(slot0, slot1, slot2, slot3, slot4)
 
 	if isa(slot1, CourtYardFurniture) then
 		slot0:UpdateSelectedPosition(slot1)
+		slot0:UpdateFurnitureState(slot5, slot2, slot1)
 	end
 end
 
@@ -249,6 +296,7 @@ function slot0.OnDragItemEnd(slot0, slot1, slot2)
 	if isa(slot1, CourtYardFurniture) then
 		slot0.gridAgent:Flush(slot2)
 		slot0:UpdateSelectedPosition(slot1)
+		slot0:ResetFurnitureSelectedState(slot1)
 	end
 end
 
@@ -260,7 +308,12 @@ function slot0.OnUnSelectedItem(slot0, slot1)
 	slot0.gridAgent = nil
 
 	if isa(slot1, CourtYardFurniture) then
-		setParent(slot0.selectedTF, slot0.rootTF)
+		slot0.dftAniEvent:SetEndEvent(function ()
+			uv0.dftAniEvent:SetEndEvent(nil)
+			setParent(uv0.selectedTF, uv0.rootTF)
+		end)
+		slot0:ClearFurnitureSelectedState(slot1)
+		slot0.selectedAnimation:Play("anim_courtyard_dragout")
 		slot0:UnRegisterOp()
 	end
 end
@@ -552,7 +605,10 @@ function slot0.OnBackPressed(slot0)
 end
 
 function slot0.UpdateSelectedPosition(slot0, slot1)
-	slot0.selectedTF.localPosition = slot0:Item2Module(slot1):GetCenterPoint()
+	slot2 = slot0:Item2Module(slot1)
+	slot0.selectedTF.localPosition = slot2:GetCenterPoint()
+
+	slot0:GetFurnitureStateMgr(slot1):OnUpdate(slot2)
 end
 
 function slot0.GetGridAgent(slot0, slot1, slot2)
@@ -566,6 +622,20 @@ function slot0.GetGridAgent(slot0, slot1, slot2)
 	slot3:Reset(slot2)
 
 	return slot3
+end
+
+function slot0.ItemsIsLoaded(slot0)
+	if table.getCount(slot0.modules) == 0 then
+		return false
+	end
+
+	for slot4, slot5 in pairs(slot0.modules) do
+		if not slot5:IsInit() then
+			return false
+		end
+	end
+
+	return true
 end
 
 function slot0.Item2Module(slot0, slot1)
@@ -608,6 +678,10 @@ function slot0.OnEndTakePhoto(slot0)
 end
 
 function slot0.OnDispose(slot0)
+	slot0.exited = true
+
+	slot0.dftAniEvent:SetEndEvent(nil)
+
 	for slot4, slot5 in pairs(slot0.modules) do
 		slot5:Dispose()
 	end

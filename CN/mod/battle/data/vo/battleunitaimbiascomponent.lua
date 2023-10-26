@@ -192,10 +192,12 @@ function slot6.UpdateSkillLock(slot0)
 end
 
 function slot6.SmokeExitPause(slot0)
-	slot0._pauseStartTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._pauseStartTimeStamp = slot1
 
 	uv0.SetCurrent(slot0._host, "lockAimBias", 1)
 	slot0:UpdateSkillLock()
+	slot0:Update(slot1)
 
 	slot0._smokeRestoreTimer = pg.TimeMgr.GetInstance():AddBattleTimer("smokeRestoreTimer", 0, uv1.AIM_BIAS_SMOKE_RESTORE_DURATION, function ()
 		uv0:removeRestoreTimer()
