@@ -6,13 +6,8 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0.purchase.text = i18n("purchase_backyard_theme_desc_for_all")
 
 	setActive(slot0.purchaseTr, true)
-	setAnchoredPosition(slot0.btns, {
-		y = 215
-	})
-	setText(slot0.gemPurchaseBtn:Find("content/Text"), i18n("fur_all_buy"))
-	setText(slot0.goldPurchaseBtn:Find("content/Text"), i18n("fur_all_buy"))
-	setActive(slot0.goldPurchaseIcon, false)
-	setActive(slot0.gemPurchaseIcon, false)
+	setText(slot0.gemPurchaseBtn:Find("content/Text"), i18n("word_buy"))
+	setText(slot0.goldPurchaseBtn:Find("content/Text"), i18n("word_buy"))
 end
 
 function slot0.GetAddList(slot0)

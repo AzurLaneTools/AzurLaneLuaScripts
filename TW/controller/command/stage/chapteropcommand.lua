@@ -51,13 +51,13 @@ function slot0.execute(slot0, slot1)
 
 			assert(slot2)
 
-			slot3 = nil
+			slot3, slot4 = nil
 
 			uv0:initData(uv1, slot0, slot2)
 			uv0:doDropUpdate()
 
 			if uv0.chapter then
-				slot4 = uv0.items
+				slot5 = uv0.items
 
 				if uv1.type == ChapterConst.OpMove then
 					uv0:doCollectCommonAction()
@@ -85,17 +85,17 @@ function slot0.execute(slot0, slot1)
 								slot1:addRemasterPassCount(uv0.chapter.id)
 							end
 
-							slot5 = pg.TimeMgr.GetInstance()
-							slot6 = slot1:getMapById(slot2:getConfig("map"))
+							slot6 = pg.TimeMgr.GetInstance()
+							slot7 = slot1:getMapById(slot2:getConfig("map"))
 
-							if uv1.win and slot6:getMapType() == Map.ELITE and slot5:IsSameDay(slot2:getStartTime(), slot5:GetServerTime()) then
+							if uv1.win and slot7:getMapType() == Map.ELITE and slot6:IsSameDay(slot2:getStartTime(), slot6:GetServerTime()) then
 								getProxy(DailyLevelProxy):EliteCountPlus()
 							end
 
-							if slot4 and #slot4 > 0 then
-								getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot4)
+							if slot5 and #slot5 > 0 then
+								getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot5)
 
-								slot4 = nil
+								slot5 = nil
 							end
 
 							slot3 = slot1:FinishAutoFight(slot2.id)
@@ -150,7 +150,7 @@ function slot0.execute(slot0, slot1)
 					arg2 = uv1.arg2,
 					path = slot0.move_path,
 					fullpath = uv0.fullpath,
-					items = slot4,
+					items = slot5,
 					exittype = uv1.exittype or 0,
 					aiActs = uv0.aiActs,
 					extraFlag = uv0.extraFlag,
@@ -158,7 +158,8 @@ function slot0.execute(slot0, slot1)
 					win = uv1.win,
 					teleportPaths = uv0.teleportPaths,
 					chapterVO = uv0.chapter,
-					extendData = slot3
+					extendData = slot3,
+					finalChapterVO = slot4
 				})
 			end
 		else

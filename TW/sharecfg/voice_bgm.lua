@@ -827,5 +827,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-SeaAndSun-image"
+	},
+	TempestaMedalCollectionScene = {
+		default_bgm = "theme-tempest-up",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-tempest-up"
+	},
+	PiratePtPage = {
+		default_bgm = "Story-temepest-2",
+		special_bgm = "",
+		time = "",
+		bgm = "Story-temepest-2"
+	},
+	PirateMainPage = {
+		default_bgm = "theme-tempest",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-tempest"
+	},
+	HarborBackHillScene = {
+		default_bgm = "Theme-SeaAndSun-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "Theme-SeaAndSun-soft"
 	}
 }

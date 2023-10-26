@@ -59,10 +59,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			41334
+			5047
 		},
 		param = {
-			"SIXTH_ANNIVERSARY_JP"
+			"HARBOR_BACKHILL"
 		}
 	},
 	[30] = {
@@ -82,13 +82,15 @@ pg.activity_link_button = {
 	[40] = {
 		param = "0",
 		name = "event_escort",
-		time = "stop",
-		text_pic = "text_event_escort",
 		type = 0,
-		pic = "event_escort",
+		text_pic = "text_event_escort",
 		id = 40,
 		group_id = 6,
-		order = 1
+		pic = "event_escort",
+		order = 1,
+		time = {
+			"default"
+		}
 	},
 	[60] = {
 		param = "0",

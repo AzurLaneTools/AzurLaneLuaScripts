@@ -8,7 +8,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0.maxCount = 1
 
 	slot0:UpdateMainInfo()
-	slot0:UpdateRes()
 	slot0:UpdateBtns()
 	slot0:UpdatePrice()
 	slot0:Show()

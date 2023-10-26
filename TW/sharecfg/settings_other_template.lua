@@ -134,7 +134,7 @@ pg.settings_other_template = {
 		desc = "功能開啟後，我拜訪好友的後宅後，會在好友的後宅顯示我的秘書艦"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		type = 0,
 		alignment = 0,
@@ -152,7 +152,7 @@ pg.settings_other_template = {
 		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
 	},
 	[17] = {
-		default = 0,
+		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
 		alignment = 0,

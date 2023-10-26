@@ -69,6 +69,37 @@ function slot0.register(slot0)
 			uv0:sendNotification(GAME.GET_COMMANDER_HOME)
 		end
 	end)
+
+	slot0.newCommanderList = {}
+
+	slot0:on(25039, function (slot0)
+		for slot4, slot5 in ipairs(slot0.commander_list) do
+			slot6 = Commander.New(slot5)
+
+			uv0:addCommander(slot6)
+			table.insert(uv0.newCommanderList, slot6)
+		end
+	end)
+end
+
+function slot0.GetNewestCommander(slot0, slot1, slot2)
+	slot3 = defaultValue(slot2, true)
+
+	if slot1 >= #slot0.newCommanderList then
+		return slot0.newCommanderList
+	else
+		slot4 = {}
+
+		for slot9 = #slot0.newCommanderList - slot1 + 1, #slot0.newCommanderList do
+			table.insert(slot4, slot0.newCommanderList[slot9])
+		end
+
+		return slot4
+	end
+
+	if slot3 then
+		slot0.newCommanderList = {}
+	end
 end
 
 function slot0.getPrefabFleetById(slot0, slot1)
@@ -148,6 +179,18 @@ function slot0.getCommanderById(slot0, slot1)
 	if slot0.data[slot1] then
 		return slot2:clone()
 	end
+end
+
+function slot0.GetSameConfigIdCommanderCount(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7.configId == slot1 then
+			slot2 = slot2 + 1
+		end
+	end
+
+	return slot2
 end
 
 function slot0.addCommander(slot0, slot1)

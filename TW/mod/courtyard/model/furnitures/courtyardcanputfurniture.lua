@@ -1,10 +1,10 @@
 slot0 = class("CourtYardCanPutFurniture", import(".CourtYardFurniture"))
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.childs = {}
-	slot0.placeableArea = CourtYardFurniturePlaceableArea.New(slot0, Vector4(35, 35, 0, 0))
+	slot0.placeableArea = CourtYardFurniturePlaceableArea.New(slot1, slot0, Vector4(35, 35, 0, 0))
 end
 
 function slot0.GetPlaceableArea(slot0)

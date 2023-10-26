@@ -138,15 +138,18 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 		end
 	end
 
-	for slot13, slot14 in ipairs(ShipType.FilterOverQuZhuType(ShipType.AllShipType)) do
-		slot15 = slot13 <= slot6.childCount and slot6:GetChild(slot13 - 1) or cloneTplTo(slot7, slot6)
+	UIItemList.StaticAlign(slot6, slot7, #ShipType.MergeFengFanType(ShipType.FilterOverQuZhuType(ShipType.AllShipType), slot8, slot9), function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot14), slot15)
-		setActive(slot15:Find("main"), slot8[slot14] and not slot9[slot14])
-		setActive(slot15:Find("sub"), slot9[slot14] and not slot8[slot14])
-		setImageAlpha(slot15, not slot8[slot14] and not slot9[slot14] and 0.3 or 1)
-	end
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1]
 
+			GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot3), slot2)
+			setActive(slot2:Find("main"), uv1[slot3] and not uv2[slot3])
+			setActive(slot2:Find("sub"), uv2[slot3] and not uv1[slot3])
+			setImageAlpha(slot2, not uv1[slot3] and not uv2[slot3] and 0.3 or 1)
+		end
+	end)
 	setActive(slot3, false)
 end
 

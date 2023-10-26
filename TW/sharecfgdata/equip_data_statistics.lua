@@ -17013,10 +17013,13 @@ _G.pg.base.equip_data_statistics[3680] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		22
+		22,
+		23
 	},
 	part_sub = {
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {
@@ -17134,10 +17137,13 @@ _G.pg.base.equip_data_statistics[3700] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		22
+		22,
+		23
 	},
 	part_sub = {
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {
@@ -17295,10 +17301,13 @@ _G.pg.base.equip_data_statistics[3720] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		22
+		22,
+		23
 	},
 	part_sub = {
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {
@@ -17470,10 +17479,14 @@ _G.pg.base.equip_data_statistics[3740] = {
 	},
 	hidden_skill_id = {},
 	part_main = {
-		22
+		22,
+		23,
+		24
 	},
 	part_sub = {
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {
@@ -17598,10 +17611,14 @@ _G.pg.base.equip_data_statistics[3760] = {
 	skill_id = {},
 	hidden_skill_id = {},
 	part_main = {
-		22
+		22,
+		23,
+		24
 	},
 	part_sub = {
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {
@@ -129469,13 +129486,17 @@ _G.pg.base.equip_data_statistics[91260] = {
 		6,
 		7,
 		10,
-		22
+		22,
+		23,
+		24
 	},
 	part_sub = {
 		6,
 		7,
 		10,
-		22
+		22,
+		23,
+		24
 	},
 	equip_parameters = {},
 	label = {

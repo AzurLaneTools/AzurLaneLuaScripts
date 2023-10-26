@@ -5,16 +5,29 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.titleRest = slot0:findTF("frame/top/title_rest")
-	slot0.titleTrain = slot0:findTF("frame/top/title_train")
 	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
 	slot1 = slot0:findTF("frame/top/value/Text")
 	slot0.counterTxt = slot1:GetComponent(typeof(Text))
 	slot0.cardContainer = slot0:findTF("frame/panel")
+	slot0.closeBtn = slot0:findTF("frame/top/close")
 	slot0.mainPanel = slot0:findTF("frame")
 	slot0.toggles = {
-		[Ship.STATE_REST] = slot0:findTF("frame/top/rest_btn"),
-		[Ship.STATE_TRAIN] = slot0:findTF("frame/top/train_btn")
+		[Ship.STATE_REST] = slot0:findTF("frame/top/rest"),
+		[Ship.STATE_TRAIN] = slot0:findTF("frame/top/train")
+	}
+	slot0.animations = {
+		[Ship.STATE_REST] = slot0:findTF("frame/top/rest"):GetComponent(typeof(Animation)),
+		[Ship.STATE_TRAIN] = slot0:findTF("frame/top/train"):GetComponent(typeof(Animation))
+	}
+	slot0.animationName = {
+		[Ship.STATE_REST] = {
+			"anim_backyard_shipinfo_rest_Select",
+			"anim_backyard_shipinfo_rest_unSelect"
+		},
+		[Ship.STATE_TRAIN] = {
+			"anim_backyard_shipinfo_train_Select",
+			"anim_backyard_shipinfo_train_unSelect"
+		}
 	}
 	slot0.addShipTpl = slot0.cardContainer:Find("AddShipTpl")
 	slot0.extendShipTpl = slot0.cardContainer:Find("ExtendShipTpl")
@@ -30,19 +43,23 @@ function slot0.init(slot0)
 	table.insert(slot0.cards[2], BackYardEmptyCard.New(slot0.addShipTpl, slot0.event))
 	table.insert(slot0.cards[3], BackYardExtendCard.New(slot0.extendShipTpl, slot0.event))
 	setText(slot0:findTF("frame/desc1"), i18n("backyard_longpress_ship_tip"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0.mainPanel, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	setText(slot0:findTF("frame/top/rest/Text"), i18n("courtyard_label_rest"))
+	setText(slot0:findTF("frame/top/train/Text"), i18n("courtyard_label_train"))
+	setText(slot0:findTF("frame/top/rest/Text_un"), i18n("courtyard_label_rest"))
+	setText(slot0:findTF("frame/top/train/Text_un"), i18n("courtyard_label_train"))
 end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.closeBtn, function ()
+		uv0:emit(uv1.ON_CLOSE)
+	end, SFX_PANEL)
 
-	slot1 = Color.New(1, 1, 1, 1)
+	slot1 = Color.New(0.2235294, 0.227451, 0.2352941, 1)
 	slot6 = 1
-	slot2 = Color.New(0.5, 0.5, 0.5, slot6)
+	slot2 = Color.New(0.5137255, 0.5137255, 0.5137255, slot6)
 
 	for slot6, slot7 in pairs(slot0.toggles) do
 		onToggle(slot0, slot7, function (slot0)
@@ -50,7 +67,12 @@ function slot0.didEnter(slot0)
 				uv0:SwitchToPage(uv1)
 			end
 
-			uv2:GetComponent(typeof(Image)).color = slot0 and uv3 or uv4
+			uv2:Find("icon"):GetComponent(typeof(Image)).color = slot0 and uv3 or uv4
+			slot2 = uv0.animationName[uv1]
+			slot3 = slot0 and 1 or 2
+
+			uv0.animations[uv1]:Play(slot2[slot3])
+			print(slot2[slot3])
 		end, SFX_PANEL)
 	end
 
@@ -111,9 +133,6 @@ function slot0.SwitchToPage(slot0, slot1)
 	elseif slot1 == Ship.STATE_REST then
 		slot0.descTxt.text = i18n("backyard_rest_tip")
 	end
-
-	setActive(slot0.titleRest, slot1 == Ship.STATE_REST)
-	setActive(slot0.titleTrain, slot1 == Ship.STATE_TRAIN)
 end
 
 function slot0.UpdateSlots(slot0)
@@ -124,21 +143,10 @@ function slot0.UpdateSlots(slot0)
 
 	for slot10, slot11 in ipairs(slot0:GetCardTypeCnt(slot1)) do
 		for slot16, slot17 in ipairs(slot0:GetTypeCards(slot10, slot11)) do
-			table.insert(slot6, function (slot0)
-				if uv0.exited then
-					return
-				end
-
-				uv1 = uv1 + 1
-
-				uv2:Flush(uv3, uv4[uv5])
-				uv2:SetSiblingIndex(uv1)
-				onNextTick(slot0)
-			end)
+			slot17:Flush(slot1, slot4[slot16])
+			slot17:SetSiblingIndex(slot5 + 1)
 		end
 	end
-
-	seriesAsync(slot6)
 
 	slot0.counterTxt.text = slot2[1] .. "/" .. slot2[2] + slot2[1]
 end
@@ -166,10 +174,6 @@ function slot0.GetTypeCards(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	slot4 = slot0._tf
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.mainPanel, slot4)
-
 	for slot4, slot5 in ipairs(slot0.cards) do
 		for slot9, slot10 in ipairs(slot5) do
 			slot10:Dispose()

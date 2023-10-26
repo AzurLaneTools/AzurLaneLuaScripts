@@ -53,7 +53,7 @@ function slot0.register(slot0)
 
 	slot4 = getProxy(EquipmentProxy):getEquipments(true)
 
-	for slot8, slot9 in pairs(getProxy(BayProxy):getEquipsInShips()) do
+	for slot8, slot9 in ipairs(getProxy(BayProxy):getEquipsInShips()) do
 		table.insert(slot4, slot9)
 	end
 
@@ -70,7 +70,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.DESTROY_EQUIPMENTS_DONE,
 		BagProxy.ITEM_UPDATED,
 		uv0.BATCHDESTROY_MODE,
-		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.REVERT_EQUIPMENT_DONE,
 		GAME.FRAG_SELL_DONE,
 		GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED

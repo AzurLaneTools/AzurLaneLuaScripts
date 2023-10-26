@@ -8,16 +8,22 @@ function slot0.OnLoaded(slot0)
 	slot0.icon = slot0._tf:Find("frame/tip/icon"):GetComponent(typeof(Image))
 	slot0.consume = slot0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
 	slot0.desc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
-	slot0.addBtn = slot0._tf:Find("frame/ok_btn")
-	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
+	slot0.addBtn = slot0._tf:Find("frame/confirm")
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0._parentTF = slot0._tf.parent
 
-	setText(slot0.cancelBtn:Find("text"), i18n("word_cancel"))
-	setText(slot0.addBtn:Find("text"), i18n("word_ok"))
+	setText(slot0.cancelBtn:Find("Text"), i18n("word_cancel"))
+	setText(slot0.addBtn:Find("Text"), i18n("word_ok"))
 	setText(slot0._tf:Find("frame/tip"), i18n("backyard_food_shop_tip"))
+	setText(slot0._tf:Find("frame/title"), i18n("words_information"))
 end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
@@ -59,6 +65,10 @@ function slot0.Extend(slot0, slot1)
 	end
 
 	slot0:Hide()
+end
+
+function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)

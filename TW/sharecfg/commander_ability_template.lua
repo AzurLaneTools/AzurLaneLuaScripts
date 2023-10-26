@@ -215,7 +215,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				8
@@ -257,7 +258,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				11
@@ -299,7 +301,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				16
@@ -321,6 +324,192 @@ pg.commander_ability_template = {
 			{
 				"<重炮>炮擊",
 				16
+			}
+		}
+	},
+	[131] = {
+		cost = 0,
+		name = "炮火力量·M",
+		next = 132,
+		worth = 2,
+		id = 131,
+		group_id = 13,
+		icon = "zhanlie_paoji_1",
+		desc = "<color=#3dc6ff>战巡、战列、航战、重炮、风帆</color>炮击提高10点",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				10
+			}
+		},
+		add_desc = {
+			{
+				"<战列>炮击",
+				10
+			},
+			{
+				"<战巡>炮击",
+				10
+			},
+			{
+				"<航战>炮击",
+				10
+			},
+			{
+				"<重炮>炮击",
+				10
+			},
+			{
+				"<风帆>炮击",
+				10
+			}
+		}
+	},
+	[132] = {
+		cost = 0,
+		name = "炮火覆盖·M",
+		next = 0,
+		worth = 3,
+		id = 132,
+		group_id = 13,
+		icon = "zhanlie_paoji_2",
+		desc = "<color=#3dc6ff>战巡、战列、航战、重炮、风帆</color>炮击提高14点",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				14
+			}
+		},
+		add_desc = {
+			{
+				"<战列>炮击",
+				14
+			},
+			{
+				"<战巡>炮击",
+				14
+			},
+			{
+				"<航战>炮击",
+				14
+			},
+			{
+				"<重炮>炮击",
+				14
+			},
+			{
+				"<风帆>炮击",
+				14
+			}
+		}
+	},
+	[141] = {
+		cost = 0,
+		name = "炮火力量·V",
+		next = 142,
+		worth = 2,
+		id = 141,
+		group_id = 14,
+		icon = "xunyang_paoji_1",
+		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆</color>炮击提高6点",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				6
+			}
+		},
+		add_desc = {
+			{
+				"<轻巡>炮击",
+				6
+			},
+			{
+				"<重巡>炮击",
+				6
+			},
+			{
+				"<超巡>炮击",
+				6
+			},
+			{
+				"<风帆>炮击",
+				6
+			}
+		}
+	},
+	[142] = {
+		cost = 0,
+		name = "炮火覆盖·V",
+		next = 0,
+		worth = 3,
+		id = 142,
+		group_id = 14,
+		icon = "xunyang_paoji_2",
+		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆</color>炮击提高8点",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				8
+			}
+		},
+		add_desc = {
+			{
+				"<轻巡>炮击",
+				8
+			},
+			{
+				"<重巡>炮击",
+				8
+			},
+			{
+				"<超巡>炮击",
+				8
+			},
+			{
+				"<风帆>炮击",
+				8
 			}
 		}
 	},
@@ -786,7 +975,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				8
@@ -817,7 +1007,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				11
@@ -848,7 +1039,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				16
@@ -882,7 +1074,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				10
@@ -916,7 +1109,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				14
@@ -950,7 +1144,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				20
@@ -981,7 +1176,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				4
@@ -1012,7 +1208,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				5
@@ -1043,7 +1240,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				8
@@ -1077,7 +1275,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				3
@@ -1111,7 +1310,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				4
@@ -1145,7 +1345,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				6
@@ -1663,7 +1864,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				3
@@ -1696,7 +1900,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				4
@@ -1729,7 +1936,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				6
@@ -2251,7 +2461,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				40
@@ -2284,7 +2497,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				56
@@ -2317,7 +2533,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				80
@@ -2331,6 +2550,108 @@ pg.commander_ability_template = {
 			{
 				"<維修>耐久",
 				80
+			}
+		}
+	},
+	[761] = {
+		cost = 0,
+		name = "轮机手·小型舰",
+		next = 762,
+		worth = 1,
+		id = 761,
+		group_id = 76,
+		icon = "teshu_naijiu_1",
+		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高30点",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				30
+			}
+		},
+		add_desc = {
+			{
+				"<小型舰>耐久",
+				30
+			}
+		}
+	},
+	[762] = {
+		cost = 0,
+		name = "熟练轮机手·小型舰",
+		next = 763,
+		worth = 2,
+		id = 762,
+		group_id = 76,
+		icon = "teshu_naijiu_2",
+		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高42点",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				42
+			}
+		},
+		add_desc = {
+			{
+				"<小型舰>耐久",
+				42
+			}
+		}
+	},
+	[763] = {
+		cost = 0,
+		name = "轮机长·小型舰",
+		next = 0,
+		worth = 3,
+		id = 763,
+		group_id = 76,
+		icon = "teshu_naijiu_3",
+		desc = "<color=#3dc6ff>潜艇、潜母、驱逐、风帆</color>耐久提高60点",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				60
+			}
+		},
+		add_desc = {
+			{
+				"<小型舰>耐久",
+				60
 			}
 		}
 	},
@@ -2436,7 +2757,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				3
@@ -2467,7 +2789,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				4
@@ -2498,7 +2821,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				6
@@ -2532,7 +2856,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				1
@@ -2566,7 +2891,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				2
@@ -2600,7 +2926,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				3
@@ -2631,7 +2958,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				5
@@ -2662,7 +2992,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				7
@@ -2693,7 +3026,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				10
@@ -5369,6 +5705,114 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[5141] = {
+		cost = 0,
+		name = "战备状态",
+		next = 0,
+		worth = 1,
+		id = 5141,
+		group_id = 514,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>战巡、战列、风帆M</color>炮击提高25点",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					22,
+					24
+				},
+				2,
+				25
+			}
+		},
+		add_desc = {
+			{
+				"<战巡>炮击",
+				25
+			},
+			{
+				"<战列>炮击",
+				25
+			},
+			{
+				"<风帆M>炮击",
+				25
+			}
+		}
+	},
+	[5151] = {
+		cost = 0,
+		name = "展旗扬帆",
+		next = 0,
+		worth = 1,
+		id = 5151,
+		group_id = 515,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>轻巡、重巡、超巡、风帆V</color>炮击提高10点，机动提高5点",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				2,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				9,
+				5
+			}
+		},
+		add_desc = {
+			{
+				"<轻巡>炮击",
+				10
+			},
+			{
+				"<重巡>炮击",
+				10
+			},
+			{
+				"<超巡>炮击",
+				10
+			},
+			{
+				"<风帆V>炮击",
+				10
+			},
+			{
+				"<轻巡>机动",
+				5
+			},
+			{
+				"<重巡>机动",
+				5
+			},
+			{
+				"<超巡>机动",
+				5
+			},
+			{
+				"<风帆V>机动",
+				5
+			}
+		}
+	},
 	all = {
 		101,
 		102,
@@ -5379,6 +5823,10 @@ pg.commander_ability_template = {
 		121,
 		122,
 		123,
+		131,
+		132,
+		141,
+		142,
 		201,
 		202,
 		203,
@@ -5442,6 +5890,9 @@ pg.commander_ability_template = {
 		751,
 		752,
 		753,
+		761,
+		762,
+		763,
 		801,
 		802,
 		803,
@@ -5511,6 +5962,8 @@ pg.commander_ability_template = {
 		5101,
 		5111,
 		5121,
-		5131
+		5131,
+		5141,
+		5151
 	}
 }

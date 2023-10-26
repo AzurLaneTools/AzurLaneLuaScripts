@@ -100118,7 +100118,8 @@ _G.pg.base.ship_data_template[9600011] = {
 		29961
 	},
 	hide_buff_list = {
-		16200
+		16200,
+		60450
 	}
 }
 
@@ -100165,7 +100166,8 @@ _G.pg.base.ship_data_template[9600012] = {
 		29961
 	},
 	hide_buff_list = {
-		16200
+		16200,
+		60450
 	}
 }
 
@@ -100212,7 +100214,8 @@ _G.pg.base.ship_data_template[9600013] = {
 		29961
 	},
 	hide_buff_list = {
-		16200
+		16200,
+		60450
 	}
 }
 
@@ -100259,7 +100262,8 @@ _G.pg.base.ship_data_template[9600014] = {
 		29962
 	},
 	hide_buff_list = {
-		16200
+		16200,
+		60450
 	}
 }
 

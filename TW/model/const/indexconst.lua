@@ -484,22 +484,16 @@ slot4 = slot0.EquipmentExtraNone
 
 table.insert(slot0.EquipmentExtraIndexs, 1, slot4)
 
-function slot0.filterEquipByExtra(slot0, slot1, slot2)
-	slot1 = slot1 or 0
-
-	if not slot2 and slot0.shipId then
+function slot0.filterEquipByExtra(slot0, slot1)
+	if bit.band(slot1 or 0, uv0.EquipmentExtraEquiping) > 0 and not slot0.shipId then
 		return false
 	end
 
-	if bit.band(slot1, uv0.EquipmentExtraEquiping) > 0 and not slot0.shipId then
+	if bit.band(slot1, uv0.EquipmentExtraStrengthen) > 0 and (not pg.equip_data_template[slot0.id] or not slot2.next or slot2.next == 0) then
 		return false
 	end
 
-	if bit.band(slot1, uv0.EquipmentExtraStrengthen) > 0 and (not pg.equip_data_template[slot0.id] or not slot3.next or slot3.next == 0) then
-		return false
-	end
-
-	if bit.band(slot1, uv0.EquipmentExtraTransform) > 0 and (not EquipmentProxy.EquipTransformTargetDict[Equipment.GetEquipRootStatic(slot0.id)] or not slot3.targets) then
+	if bit.band(slot1, uv0.EquipmentExtraTransform) > 0 and (not EquipmentProxy.EquipTransformTargetDict[Equipment.GetEquipRootStatic(slot0.id)] or not slot2.targets) then
 		return false
 	end
 
@@ -684,8 +678,9 @@ slot0.SpWeaponRarityIndexs = {
 	slot0.SpWeaponRarity3
 }
 slot0.SpWeaponRarityAll = slot0.BitAll(slot0.SpWeaponRarityIndexs)
+slot4 = slot0.SpWeaponRarityAll
 
-table.insert(slot0.SpWeaponRarityIndexs, 1, slot0.SpWeaponRarityAll)
+table.insert(slot0.SpWeaponRarityIndexs, 1, slot4)
 
 function slot0.filterSpWeaponByRarity(slot0, slot1)
 	if not slot1 or slot1 == uv0.SpWeaponRarityAll then
@@ -693,6 +688,32 @@ function slot0.filterSpWeaponByRarity(slot0, slot1)
 	end
 
 	return bit.band(bit.lshift(1, math.max(slot0:GetRarity() - 2, 0)), slot1) > 0
+end
+
+slot0.LABEL_COUNT = 9
+slot0.ECodeLabelNames = {}
+slot0.ECodeLabelIndexs = {}
+
+for slot4 = 1, slot0.LABEL_COUNT do
+	table.insert(slot0.ECodeLabelNames, "equip_share_label_" .. slot4)
+	table.insert(slot0.ECodeLabelIndexs, bit.lshift(1, slot4 - 1))
+end
+
+table.insert(slot0.ECodeLabelNames, 1, "index_all")
+table.insert(slot0.ECodeLabelIndexs, 1, slot0.BitAll(slot0.ECodeLabelIndexs))
+
+function slot0.filterEquipCodeByLable(slot0, slot1)
+	if not slot1 or slot1 == uv0 then
+		return true
+	end
+
+	for slot5, slot6 in ipairs(slot0:GetLabels()) do
+		if bit.band(bit.lshift(1, slot6 - 1), slot1) > 0 then
+			return true
+		end
+	end
+
+	return false
 end
 
 return slot0

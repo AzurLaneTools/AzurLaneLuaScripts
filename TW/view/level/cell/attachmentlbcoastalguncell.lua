@@ -39,7 +39,7 @@ function slot0.Update(slot0)
 
 			uv0:Update()
 		end)
-	elseif slot1.flag == ChapterConst.CellFlagActive and slot0.state ~= uv0.StateDead then
+	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0.state ~= uv0.StateDead then
 		slot0.state = uv0.StateDead
 
 		if not IsNil(slot0.enemy) then

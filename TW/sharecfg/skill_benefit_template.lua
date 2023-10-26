@@ -286,6 +286,33 @@ pg.skill_benefit_template = {
 		},
 		world_extra_effect = {}
 	},
+	[6045001] = {
+		skill_id = 60450,
+		skill_group_level = 0,
+		type = 3,
+		id = 6045001,
+		lv = 1,
+		skill_group = 0,
+		limit = {
+			150180,
+			150181,
+			150182,
+			150183,
+			150184,
+			150185,
+			150186,
+			150187,
+			150188,
+			150189,
+			150190,
+			150191
+		},
+		effect = {
+			0,
+			1
+		},
+		world_extra_effect = {}
+	},
 	[1017001] = {
 		skill_id = 10170,
 		skill_group_level = 1,
@@ -3692,6 +3719,7 @@ pg.skill_benefit_template = {
 		416109,
 		416110,
 		641101,
+		6045001,
 		1017001,
 		1017002,
 		1017003,

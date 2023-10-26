@@ -1420,7 +1420,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
-	tip = "後宅還沒有增加休息的角色,<color=#A9F548>食物將不會消耗</color>"
+	tip = "<color=#393A3C>後宅還沒有加入休息的角色</color>，<color=#92fc63>食物將不會消耗</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1432,7 +1432,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-	tip = "存糧上限：<color=#A9F548>$1</color>提升到<color=#A9F548>$2</color>"
+	tip = "存糧上限：<color=#72bc42>$1</color>提升到<color=#72bc42>$2</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
@@ -1444,33 +1444,27 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
-	tip = "<size=30>當前各類傢俱計入舒適度的數量：\n牆紙:<color=#92fc63>$1</color>/地板:<color=#92fc63>$4</color>/傢俱:<color=#92fc63>$2</color>/裝飾:<color=#92fc63>$3</color>/地墊:<color=#92fc63>$5</color>/牆飾:<color=#92fc63>$6</color>/收藏:<color=#92fc63>$7</color>\n</size>"
+	tip = "舒適度不受擺放影響，計算各類傢俱中舒適度最高的前n件總和。"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-	tip = [[
-<size=45>$1</size>
-當前經驗收益<color=#92fc63>+$2%</color><size=30>
-
-<color=#92fc63>舒適度</color>不受擺放影響，計算<color=#92fc63>各類傢俱</color>中舒適度最高的<color=#92fc63>前n件</color>總和
-各類傢俱的n值受後宅擴建次數影響  當前次數:<color=#92fc63>$3</color>
-</size>]]
+	tip = "各類傢俱的n值受後宅擴建次數影響，目前擴建次數：<color=#72bc42>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "將花費<color=#A9F548>$1</color>,是否繼續？"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
-	tip = "<color=#CC0000>艱苦</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
+	tip = "艱苦"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
-	tip = "<color=#FFBB11>普通</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
+	tip = "普通"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
-	tip = "<color=#00EEFF>舒適</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
+	tip = "舒適"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
@@ -1495,10 +1489,6 @@ _G.pg.base.gametip.backyard_backyardScene_name = {
 
 _G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "疲勞恢復完成，從後宅離開"
-}
-
-_G.pg.base.gametip.backyard_backyardScene_timeRest = {
-	tip = "剩餘時間:<color=#A9F548>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
@@ -9663,11 +9653,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "土佐、天城、加賀(戰列)、足柄  建造追加！"
+	tip = "三笠、比叡 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "花月、長波、那珂、旗風 建造追加！"
+	tip = "濱風 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -13469,6 +13459,10 @@ _G.pg.base.gametip.indexsort_extraindex = {
 	tip = "附加索引"
 }
 
+_G.pg.base.gametip.indexsort_label = {
+	tip = "標籤"
+}
+
 _G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
@@ -13487,6 +13481,10 @@ _G.pg.base.gametip.indexsort_rarityeng = {
 
 _G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
+}
+
+_G.pg.base.gametip.indexsort_labeleng = {
+	tip = "LABEL"
 }
 
 _G.pg.base.gametip.fightfail_up = {
@@ -17788,7 +17786,7 @@ _G.pg.base.gametip.fleet_select_title = {
 }
 
 _G.pg.base.gametip.backyard_rename_title = {
-	tip = "請輸入名稱"
+	tip = "修改名稱"
 }
 
 _G.pg.base.gametip.backyard_rename_tip = {
@@ -23665,4 +23663,292 @@ _G.pg.base.gametip.levelscene_deploy_submarine = {
 
 _G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
 	tip = "取消部署"
+}
+
+_G.pg.base.gametip.courtyard_label_train = {
+	tip = "訓練"
+}
+
+_G.pg.base.gametip.courtyard_label_rest = {
+	tip = "休息"
+}
+
+_G.pg.base.gametip.courtyard_label_capacity = {
+	tip = "食量"
+}
+
+_G.pg.base.gametip.courtyard_label_share = {
+	tip = "分享"
+}
+
+_G.pg.base.gametip.courtyard_label_shop = {
+	tip = "商店"
+}
+
+_G.pg.base.gametip.courtyard_label_decoration = {
+	tip = "管理"
+}
+
+_G.pg.base.gametip.courtyard_label_template = {
+	tip = "範本"
+}
+
+_G.pg.base.gametip.courtyard_label_floor = {
+	tip = "目前樓層"
+}
+
+_G.pg.base.gametip.courtyard_label_exp_addition = {
+	tip = "經驗加成"
+}
+
+_G.pg.base.gametip.courtyard_label_total_exp_addition = {
+	tip = "經驗總加成 ："
+}
+
+_G.pg.base.gametip.courtyard_label_comfortable_addition = {
+	tip = "當前經驗總加成 ："
+}
+
+_G.pg.base.gametip.courtyard_label_placed_furniture = {
+	tip = "已放入傢俱"
+}
+
+_G.pg.base.gametip.courtyard_label_shop_1 = {
+	tip = "傢俱商店"
+}
+
+_G.pg.base.gametip.courtyard_label_clear = {
+	tip = "清空"
+}
+
+_G.pg.base.gametip.courtyard_label_save = {
+	tip = "儲存"
+}
+
+_G.pg.base.gametip.courtyard_label_save_theme = {
+	tip = "儲存主題"
+}
+
+_G.pg.base.gametip.courtyard_label_using = {
+	tip = "$1F使用中"
+}
+
+_G.pg.base.gametip.courtyard_label_search_holder = {
+	tip = "點擊搜尋"
+}
+
+_G.pg.base.gametip.courtyard_label_filter = {
+	tip = "篩選"
+}
+
+_G.pg.base.gametip.courtyard_label_time = {
+	tip = "時間"
+}
+
+_G.pg.base.gametip.courtyard_label_week = {
+	tip = "一週內"
+}
+
+_G.pg.base.gametip.courtyard_label_month = {
+	tip = "一月內"
+}
+
+_G.pg.base.gametip.courtyard_label_year = {
+	tip = "一年內"
+}
+
+_G.pg.base.gametip.courtyard_label_putlist_title = {
+	tip = "已放入傢俱列表"
+}
+
+_G.pg.base.gametip.courtyard_label_custom_theme = {
+	tip = "自訂主題"
+}
+
+_G.pg.base.gametip.courtyard_label_system_theme = {
+	tip = "系統主題"
+}
+
+_G.pg.base.gametip.courtyard_tip_furniture_not_in_layer = {
+	tip = "傢俱不在目前樓層"
+}
+
+_G.pg.base.gametip.courtyard_label_detail = {
+	tip = "詳情"
+}
+
+_G.pg.base.gametip.courtyard_label_place_pnekey = {
+	tip = "一鍵佈置"
+}
+
+_G.pg.base.gametip.courtyard_label_delete = {
+	tip = "刪除"
+}
+
+_G.pg.base.gametip.courtyard_label_cancel_share = {
+	tip = "取消分享"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_template_list = {
+	tip = "沒有找到符合條件的傢俱主題"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
+	tip = "沒有找到符合條件的傢俱主題\n請前往管理介面重新儲存自訂主題"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_collection_list = {
+	tip = "沒有找到符合條件的收藏"
+}
+
+_G.pg.base.gametip.courtyard_label_go = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.mot_class_t_level_1 = {
+	tip = "牽星者"
+}
+
+_G.pg.base.gametip.mot_class_t_level_2 = {
+	tip = "雲牆守衛"
+}
+
+_G.pg.base.gametip.equip_share_label_1 = {
+	tip = "輕型護甲"
+}
+
+_G.pg.base.gametip.equip_share_label_2 = {
+	tip = "中型護甲"
+}
+
+_G.pg.base.gametip.equip_share_label_3 = {
+	tip = "重型護甲"
+}
+
+_G.pg.base.gametip.equip_share_label_4 = {
+	tip = "對空火力"
+}
+
+_G.pg.base.gametip.equip_share_label_5 = {
+	tip = "爆發輸出"
+}
+
+_G.pg.base.gametip.equip_share_label_6 = {
+	tip = "平滑輸出"
+}
+
+_G.pg.base.gametip.equip_share_label_7 = {
+	tip = "主線攻略"
+}
+
+_G.pg.base.gametip.equip_share_label_8 = {
+	tip = "日常任務"
+}
+
+_G.pg.base.gametip.equip_share_label_9 = {
+	tip = "大型作戰"
+}
+
+_G.pg.base.gametip.equipcode_input = {
+	tip = "請輸入裝備碼"
+}
+
+_G.pg.base.gametip.equipcode_slot_unmatch = {
+	tip = "裝備碼對應了當前角色無法使用的裝備"
+}
+
+_G.pg.base.gametip.equipcode_share_nolabel = {
+	tip = "請選擇兩個標籤後再分享配裝方案"
+}
+
+_G.pg.base.gametip.equipcode_share_exceedlimit = {
+	tip = "已選擇的標籤數量超過兩個"
+}
+
+_G.pg.base.gametip.equipcode_illegal = {
+	tip = "裝備碼解析失敗"
+}
+
+_G.pg.base.gametip.equipcode_confirm_doublecheck = {
+	tip = "確認要匯入目前配裝結果嗎？"
+}
+
+_G.pg.base.gametip.equipcode_import_success = {
+	tip = "裝備匯入成功"
+}
+
+_G.pg.base.gametip.equipcode_share_success = {
+	tip = "配裝方案分享成功"
+}
+
+_G.pg.base.gametip.equipcode_like_limited = {
+	tip = "今天已經按讚過該配裝方案了"
+}
+
+_G.pg.base.gametip.equipcode_like_success = {
+	tip = "按讚成功"
+}
+
+_G.pg.base.gametip.equipcode_dislike_success = {
+	tip = "檢舉成功"
+}
+
+_G.pg.base.gametip.equipcode_report_type_1 = {
+	tip = "無意義的配裝"
+}
+
+_G.pg.base.gametip.equipcode_report_type_2 = {
+	tip = "已過時的配裝"
+}
+
+_G.pg.base.gametip.equipcode_report_warning = {
+	tip = "短期內大量異常檢舉可能導致該功能被停用"
+}
+
+_G.pg.base.gametip.equipcode_level_unmatched = {
+	tip = "等級不符"
+}
+
+_G.pg.base.gametip.equipcode_equipment_unowned = {
+	tip = "未擁有"
+}
+
+_G.pg.base.gametip.equipcode_diff_selected = {
+	tip = "不同裝備"
+}
+
+_G.pg.base.gametip.equipcode_export_success = {
+	tip = "成功複製裝備碼"
+}
+
+_G.pg.base.gametip.equipcode_unsaved_tips = {
+	tip = "裝備變更尚未匯入，是否確認退出？"
+}
+
+_G.pg.base.gametip.equipcode_share_ruletips = {
+	tip = "請選擇兩個標籤，確定後將配裝方案分享至伺服器"
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode7 = {
+	tip = "今天已經分享過該船的配裝方案了"
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode44 = {
+	tip = "已達單日配裝分享上限，分享失敗"
+}
+
+_G.pg.base.gametip.equipcode_share_title = {
+	tip = "配裝方案"
+}
+
+_G.pg.base.gametip.equipcode_share_titleeng = {
+	tip = "EQUIPMENTS"
+}
+
+_G.pg.base.gametip.equipcode_share_listempty = {
+	tip = "無可顯示內容"
+}
+
+_G.pg.base.gametip.equipcode_equip_occupied = {
+	tip = "被佔用"
 }

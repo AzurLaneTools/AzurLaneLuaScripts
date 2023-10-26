@@ -11,14 +11,17 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollRect = slot0:findTF("frame/bg"):GetComponent("LScrollRect")
-	slot0.searchInput = slot0:findTF("sort_bg/fliter_container/search")
-	slot0.searchBtn = slot0:findTF("sort_bg/fliter_container/search/btn")
-	slot0.filterBtn = slot0:findTF("sort_bg/fliter_container/filter")
+	slot0.scrollRect = slot0:findTF("adpter/frame/bg"):GetComponent("LScrollRect")
+	slot0.searchInput = slot0:findTF("adpter/search")
+	slot0.searchClear = slot0:findTF("adpter/search/clear")
+	slot0.filterBtn = slot0:findTF("adpter/filter")
 	slot0.filterBtnTxt = slot0.filterBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.filterBtnTxt.text = i18n("word_default")
-	slot0.orderBtn = slot0:findTF("sort_bg/fliter_container/order")
+	slot0.orderBtn = slot0:findTF("adpter/order")
+	slot0.orderBtnIcon = slot0.orderBtn:Find("icon")
 	slot0.orderBtnTxt = slot0.orderBtn:Find("Text"):GetComponent(typeof(Text))
+
+	setText(slot0.searchInput:Find("Placeholder"), i18n("courtyard_label_search_holder"))
 end
 
 function slot0.OnInit(slot0)
@@ -32,11 +35,16 @@ function slot0.OnInit(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	onButton(slot0, slot0.searchBtn, function ()
+	onInputChanged(slot0, slot0.searchInput, function ()
+		setActive(uv0.searchClear, getInputText(uv0.searchInput) ~= "")
 		uv0:OnSearchKeyChange()
 	end)
+	onButton(slot0, slot0.searchClear, function ()
+		setInputText(uv0.searchInput, "")
+	end, SFX_PANEL)
 
 	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_DASC
+	slot0.orderBtnIcon.localScale = Vector3(1, -1, 1)
 
 	onToggle(slot0, slot0.orderBtn, function (slot0)
 		uv0.orderMode = slot0 and BackYardDecorationFilterPanel.ORDER_MODE_ASC or BackYardDecorationFilterPanel.ORDER_MODE_DASC
@@ -45,6 +53,8 @@ function slot0.OnInit(slot0)
 		uv0:UpdateFliterData()
 		uv0.contextData.filterPanel:Sort()
 		uv0:OnFilterDone()
+
+		uv0.orderBtnIcon.localScale = Vector3(1, slot0 and 1 or -1, 1)
 	end, SFX_PANEL)
 	(function (slot0)
 		slot1 = ""
@@ -152,7 +162,10 @@ function slot0.GetData(slot0)
 		slot7 = pg.furniture_data_template.get_id_list_by_type
 
 		for slot11, slot12 in ipairs(uv0(slot0.pageType)) do
-			for slot16, slot17 in ipairs(slot7[slot12]) do
+			slot13 = ipairs
+			slot14 = slot7[slot12] or {}
+
+			for slot16, slot17 in slot13(slot14) do
 				slot5(slot17)
 			end
 		end

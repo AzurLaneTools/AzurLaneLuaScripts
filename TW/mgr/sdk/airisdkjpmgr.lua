@@ -198,6 +198,10 @@ function AccountRebornResult(slot0, slot1)
 	end
 end
 
+function OnYoStarMessageReceivedRespone(slot0, slot1, slot2, slot3)
+	warning("OnYoStarMessageReceivedRespone")
+end
+
 return {
 	OnAiriBuying = -1,
 	BuyingLimit = 60,

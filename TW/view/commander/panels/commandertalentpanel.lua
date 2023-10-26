@@ -1,6 +1,7 @@
 slot0 = class("CommanderTalentPanel", import("...base.BasePanel"))
 
 function slot0.init(slot0)
+	slot0.resetFrame = slot0:findTF("frame/point/reset_frame")
 	slot0.resetTimeTF = slot0:findTF("frame/point/reset_frame/reset_time")
 	slot0.resetTimeTxt = slot0:findTF("frame/point/reset_frame/reset_time/Text"):GetComponent(typeof(Text))
 	slot0.resetTimeBtn = slot0:findTF("frame/point/reset_frame/reset_btn")
@@ -155,6 +156,7 @@ function slot0.update(slot0, slot1)
 	slot0.pointTxt.text = slot1:getTalentPoint()
 
 	slot0:removeTimer()
+	setActive(slot0.resetFrame, not slot1:IsRegularTalent())
 
 	slot2 = slot1:GetNextResetAbilityTime()
 	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
@@ -190,11 +192,17 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateTalents(slot0)
-	slot2 = slot0.commanderVO:getTalents()
+	slot2 = slot0.commanderVO:GetDisplayTalents()
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateTalentCard(slot2, uv1[slot1 + 1])
+			slot3 = uv0[slot1 + 1]
+
+			uv1:updateTalentCard(slot2, slot3)
+
+			if slot3 then
+				setActive(slot2:Find("unlock/lock"), not uv2:IsLearnedTalent(slot3.id))
+			end
 		end
 	end)
 	slot0.uilist:align(CommanderConst.MAX_TELENT_COUNT)
@@ -208,7 +216,7 @@ function slot0.updateTalentCard(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot2:getConfig("icon"), "", slot3:Find("icon"))
 
 		if slot3:Find("tree_btn") then
-			onButton(slot0, slot3:Find("tree_btn"), function ()
+			onButton(slot0, slot5, function ()
 				uv0.parent:openTreePanel(uv1)
 			end, SFX_PANEL)
 		end

@@ -5336,6 +5336,58 @@ _G.pg.base.shop_template[43005] = {
 	}
 }
 
+_G.pg.base.shop_template[43006] = {
+	time_second = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "5000功勋兑换黑潮",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43006,
+	resource_num = 5000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301271
+	}
+}
+
+_G.pg.base.shop_template[43007] = {
+	time_second = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "5000功勋兑换亲潮",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 5,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43007,
+	resource_num = 5000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301281
+	}
+}
+
 _G.pg.base.shop_template[43008] = {
 	time_second = 0,
 	resource_type = 3,
@@ -18694,8 +18746,8 @@ _G.pg.base.shop_template[70090] = {
 		{
 			{
 				2023,
-				9,
-				14
+				10,
+				26
 			},
 			{
 				0,
@@ -18706,8 +18758,8 @@ _G.pg.base.shop_template[70090] = {
 		{
 			{
 				2023,
-				10,
-				11
+				11,
+				8
 			},
 			{
 				23,
@@ -18770,8 +18822,8 @@ _G.pg.base.shop_template[70091] = {
 		{
 			{
 				2023,
-				9,
-				14
+				10,
+				26
 			},
 			{
 				0,
@@ -18782,8 +18834,8 @@ _G.pg.base.shop_template[70091] = {
 		{
 			{
 				2023,
-				10,
-				11
+				11,
+				8
 			},
 			{
 				23,
@@ -18846,8 +18898,8 @@ _G.pg.base.shop_template[70092] = {
 		{
 			{
 				2023,
-				9,
-				14
+				10,
+				26
 			},
 			{
 				0,
@@ -18858,8 +18910,8 @@ _G.pg.base.shop_template[70092] = {
 		{
 			{
 				2023,
-				10,
-				11
+				11,
+				8
 			},
 			{
 				23,
@@ -21612,8 +21664,8 @@ _G.pg.base.shop_template[70171] = {
 		{
 			{
 				2023,
-				9,
-				14
+				10,
+				26
 			},
 			{
 				0,
@@ -21624,8 +21676,8 @@ _G.pg.base.shop_template[70171] = {
 		{
 			{
 				2023,
-				10,
-				11
+				11,
+				8
 			},
 			{
 				23,

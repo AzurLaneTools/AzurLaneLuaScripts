@@ -7,7 +7,7 @@ end
 function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent, slot0.event, slot0.contextData)
+	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent.parent, slot0.event, slot0.contextData)
 	slot0.refreshList = {}
 end
 
@@ -46,8 +46,8 @@ function slot0.InitList(slot0)
 end
 
 function slot1(slot0, slot1, slot2)
-	if (slot0.isEmpty and 0 or 1) == (slot1.isEmpty and 0 or 1) then
-		if (slot0:IsSystem() and 0 or 1) == (slot1:IsSystem() and 0 or 1) then
+	if (slot0.isEmpty and 1 or 0) == (slot1.isEmpty and 1 or 0) then
+		if (slot0:IsSystem() and 1 or 0) == (slot1:IsSystem() and 1 or 0) then
 			if slot0.order == slot1.order then
 				return slot1.id < slot0.id
 			else

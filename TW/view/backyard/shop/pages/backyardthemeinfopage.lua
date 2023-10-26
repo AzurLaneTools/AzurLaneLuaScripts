@@ -5,21 +5,22 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollRect = slot0:findTF("list"):GetComponent("LScrollRect")
-	slot0.nameTxt = slot0:findTF("name"):GetComponent(typeof(Text))
-	slot0.enNameTxt = slot0:findTF("en_name"):GetComponent(typeof(Text))
-	slot0.numberTxt = slot0:findTF("number/Text"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("icon/Image"):GetComponent(typeof(Image))
-	slot0.desc = slot0:findTF("desc"):GetComponent(typeof(Text))
-	slot0.backBtn = slot0:findTF("back")
+	slot0.scrollRect = slot0:findTF("frame/list"):GetComponent("LScrollRect")
+	slot0.nameTxt = slot0:findTF("frame/name"):GetComponent(typeof(Text))
+	slot0.icon = slot0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
+	slot0.desc = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
+	slot0.backBtn = slot0:findTF("frame/back")
 	slot0.leftArrBtn = slot0:findTF("arr_left")
 	slot0.rightArrBtn = slot0:findTF("arr_right")
 	slot0.gemTxt = slot0:findTF("res_gem/Text"):GetComponent(typeof(Text))
 	slot0.goldTxt = slot0:findTF("res_gold/Text"):GetComponent(typeof(Text))
 	slot0.gemAddBtn = slot0:findTF("res_gem/jiahao")
 	slot0.goldAddBtn = slot0:findTF("res_gold/jiahao")
-	slot0.purchaseBtn = slot0:findTF("purchase_btn")
-	slot0.purchaseAllBtn = slot0:findTF("purchase_all_btn")
+	slot0.purchaseBtn = slot0:findTF("frame/purchase_btn")
+	slot0.purchaseAllBtn = slot0:findTF("frame/purchase_all_btn")
+
+	setText(slot0.purchaseBtn:Find("Text"), i18n("fur_onekey_buy"))
+	setText(slot0.purchaseAllBtn:Find("Text"), i18n("fur_all_buy"))
 end
 
 function slot0.OnInit(slot0)
@@ -160,9 +161,8 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 end
 
 function slot0.UpdateThemeInfo(slot0)
-	slot0.nameTxt.text = HXSet.hxLan(slot0.themeVO:getConfig("name"))
-	slot0.enNameTxt.text = "FURNITURE"
-	slot0.numberTxt.text = slot0.index < 10 and "0" .. slot0.index or slot0.index
+	slot1 = slot0.themeVO
+	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
 
 	GetSpriteFromAtlasAsync("BackYardTheme/theme_" .. slot1.id, "", function (slot0)
 		if IsNil(uv0.icon) then
@@ -194,7 +194,7 @@ end
 
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 
 	if slot0.OnEnter then
 		slot0.OnEnter()
@@ -203,7 +203,7 @@ end
 
 function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	setParent(slot0._tf, slot0._parentTf)
 
 	if slot0.OnExit then
 		slot0.OnExit()

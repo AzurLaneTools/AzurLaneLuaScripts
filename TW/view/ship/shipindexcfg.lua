@@ -67,7 +67,9 @@ return {
 				ShipType.LeiXun,
 				ShipType.ZhongPao,
 				ShipType.Yunshu,
-				ShipType.FengFanS
+				ShipType.FengFanS,
+				ShipType.FengFanV,
+				ShipType.FengFanM
 			}
 		}
 	},
@@ -127,7 +129,11 @@ return {
 		},
 		{
 			types = {
-				Nation.MOT,
+				Nation.MOT
+			}
+		},
+		{
+			types = {
 				Nation.CM,
 				Nation.BURIN,
 				Nation.LINK

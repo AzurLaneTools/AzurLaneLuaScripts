@@ -19,6 +19,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.nameTxt = findTF(slot0._tf, "name"):GetComponent(typeof(Text))
 	slot0.tagTxt = findTF(slot0._tf, "tag"):GetComponent(typeof(Text))
 	slot0.icon = findTF(slot0._tf, "icon"):GetComponent(typeof(Image))
+	slot0.mark = findTF(slot0._tf, "mark")
+end
+
+function slot0.MarkOrUnMark(slot0, slot1)
+	setActive(slot0.mark, slot1)
 end
 
 function slot0.Update(slot0, slot1)
@@ -26,6 +31,10 @@ function slot0.Update(slot0, slot1)
 	slot0.nameTxt.text = slot1:getConfig("name")
 	slot0.tagTxt.text = uv0(slot1:getConfig("tag"))
 	slot0.icon.sprite = LoadSprite("furnitureicon/" .. slot1:getConfig("icon"))
+end
+
+function slot0.Clear(slot0)
+	slot0:MarkOrUnMark(false)
 end
 
 return slot0

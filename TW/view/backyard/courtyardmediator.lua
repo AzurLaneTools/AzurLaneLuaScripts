@@ -88,17 +88,12 @@ function slot0.register(slot0)
 			return
 		end
 
-		getProxy(DormProxy).floor = slot1
-		uv0.contextData.floor = slot1
-
 		_courtyard:Dispose()
 
 		_courtyard = nil
 
 		gcAll()
-
-		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData(slot1))
-
+		uv0.viewComponent:emit(uv1.SET_UP, slot1)
 		uv0.viewComponent:SwitchFloorDone()
 	end)
 	slot0:bind(uv0.FOLD, function (slot0, slot1)
@@ -295,15 +290,14 @@ function slot0.OnExtend(slot0)
 	if getProxy(BagProxy):getItemCountById(ITEM_BACKYARD_AREA_EXTEND) <= 0 then
 		slot3 = pg.shop_template[getProxy(DormProxy):getRawData():GetExpandId()]
 
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		_BackyardMsgBoxMgr:Show({
 			content = i18n("backyard_buyExtendItem_question", slot3.resource_num .. pg.item_data_statistics[id2ItemId(slot3.resource_type)].name),
 			onYes = function ()
 				uv0:sendNotification(GAME.SHOPPING, {
 					count = 1,
 					id = uv1
 				})
-			end,
-			weight = LayerWeightConst.SECOND_LAYER
+			end
 		})
 
 		return
@@ -363,7 +357,8 @@ function slot0.GenCourtYardData(slot0, slot1)
 		storeyId = slot1,
 		style = slot4,
 		mapSize = slot5,
-		name = slot0.viewComponent:getUIName()
+		name = slot0.viewComponent:getUIName(),
+		core = pg.m02
 	}
 end
 

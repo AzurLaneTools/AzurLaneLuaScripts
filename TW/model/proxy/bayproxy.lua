@@ -662,27 +662,23 @@ function slot0.getBayPowerRooted(slot0)
 	return slot0:getBayPower()^0.667
 end
 
-function slot0.getEquipsInShips(slot0, slot1, slot2)
-	function slot3(slot0, slot1, slot2)
-		slot0.shipId = slot1
-		slot0.shipPos = slot2
+function slot0.getEquipsInShips(slot0, slot1)
+	slot2 = {}
 
-		return slot0
-	end
-
-	slot4 = {}
-
-	for slot8, slot9 in pairs(slot0.data) do
-		if not slot1 or slot1.id ~= slot9.id then
-			for slot13, slot14 in pairs(slot9.equipments) do
-				if slot14 and (not slot1 or not slot2 or not slot1:isForbiddenAtPos(slot14, slot2)) then
-					table.insert(slot4, slot3(Clone(slot14), slot9.id, slot13))
-				end
+	for slot6, slot7 in pairs(slot0.data) do
+		for slot11, slot12 in pairs(slot7.equipments) do
+			if slot12 and (not slot1 or slot1(slot12, slot7.id)) then
+				table.insert(slot2, setmetatable({
+					shipId = slot7.id,
+					shipPos = slot11
+				}, {
+					__index = slot12
+				}))
 			end
 		end
 	end
 
-	return slot4
+	return slot2
 end
 
 function slot0.UpdateShipEquipAndSkinCount(slot0, slot1, slot2)

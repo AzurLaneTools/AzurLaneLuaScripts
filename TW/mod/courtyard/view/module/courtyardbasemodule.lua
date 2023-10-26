@@ -25,6 +25,10 @@ function slot0.Init(slot0)
 	end
 end
 
+function slot0.IsInit(slot0)
+	return slot0.state == uv0
+end
+
 function slot0.AddListener(slot0, slot1, slot2)
 	function slot3(slot0, slot1, ...)
 		uv0(uv1, ...)
@@ -43,8 +47,16 @@ function slot0.RemoveListener(slot0, slot1, slot2)
 	end
 end
 
+function slot0.GetController(slot0)
+	return slot0.data:GetHost()
+end
+
+function slot0.GetView(slot0)
+	return slot0:GetController():GetBridge():GetView()
+end
+
 function slot0.Emit(slot0, slot1, ...)
-	_courtyard:GetController():Receive(slot1, ...)
+	slot0:GetController():Receive(slot1, ...)
 end
 
 function slot0.Dispose(slot0)

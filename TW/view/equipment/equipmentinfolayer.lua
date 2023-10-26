@@ -106,7 +106,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		uv0:emit(uv1.ON_CLOSE)
+		uv0:closeView()
 	end, SOUND_BACK)
 	slot0:initAndSetBtn(slot1)
 
@@ -219,7 +219,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 				return
 			end
 
-			uv0:emit(uv1.ON_CLOSE)
+			uv0:closeView()
 		end, SFX_CANCEL)
 		onButton(slot0, slot0.replaceConfirmBtn, function ()
 			slot0, slot1 = uv0.shipVO:canEquipAtPos(uv0.equipmentVO, uv0.contextData.pos)
@@ -230,7 +230,12 @@ function slot0.initAndSetBtn(slot0, slot1)
 				return
 			end
 
-			uv0:emit(EquipmentInfoMediator.ON_EQUIP)
+			if uv0.contextData.quickCallback then
+				uv0.contextData.quickCallback()
+				uv0:closeView()
+			else
+				uv0:emit(EquipmentInfoMediator.ON_EQUIP)
+			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif slot1 == EquipmentInfoMediator.TYPE_DISPLAY then
 		slot0.displayEquipTF = slot0:findTF("equipment", slot0.displayPanel) or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
@@ -564,7 +569,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	slot0:emit(uv0.ON_CLOSE)
+	slot0:closeView()
 end
 
 return slot0

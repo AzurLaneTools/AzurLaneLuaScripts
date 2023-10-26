@@ -33,11 +33,12 @@ function slot0.register(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_REFRESH, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ON_REFRESH, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE, {
+			timeType = slot3,
 			type = slot1,
 			page = slot2,
-			force = slot3
+			force = slot4
 		})
 	end)
 	slot0:bind(uv0.ON_SEARCH, function (slot0, slot1, slot2)
@@ -157,9 +158,7 @@ function slot0.register(slot0)
 				wrap = ChargeScene.TYPE_DIAMOND
 			})
 		elseif slot1 == PlayerConst.ResDormMoney then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-				wrap = ChargeScene.TYPE_GIFT
-			})
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 		end
 	end)
 	slot0:bind(uv0.FETCH_ALL_THEME, function (slot0, slot1)
