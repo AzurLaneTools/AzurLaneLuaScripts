@@ -258,7 +258,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（こいつ…全然話を聞かない……）",
+			say = "（…全然話を聞かない……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

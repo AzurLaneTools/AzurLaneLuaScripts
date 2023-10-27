@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "よぉし、ショータイムといくよー",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -543,7 +543,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "そうでしょそうでしょ～",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -580,7 +580,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "ひぃ…！は、ハットにさわるな――！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -596,7 +596,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "い、今から真面目な話をす……わあああ！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {

@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "なにをする気……？",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "分かった！「若返りの泉」だよ！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "あの機械の塔がやつの力の源だよ！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "……き、聞いてみるよ！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -458,7 +458,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "たーみなる、まだいる？",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {
@@ -576,7 +576,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "せ、成功した……！",
 			actor = 9600050,
-			actorName = "ヴィダー",
+			actorName = "ウィダー",
 			hidePaintObj = true,
 			withoutPainting = true,
 			typewriter = {

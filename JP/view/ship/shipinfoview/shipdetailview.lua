@@ -115,8 +115,6 @@ function slot0.InitDetail(slot0)
 		setActive(slot0.showRecordBtn, true)
 		setActive(slot0.showQuickBtn, true)
 	end
-
-	setActive(slot0.showQuickBtn, false)
 end
 
 function slot0.InitEvent(slot0)
