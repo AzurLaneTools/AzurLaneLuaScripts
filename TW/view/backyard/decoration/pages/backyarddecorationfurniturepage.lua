@@ -210,11 +210,11 @@ function slot0.Selected(slot0, slot1)
 
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture.id == slot1 then
-			slot0.selectedId = slot1
-
 			slot6:UpdateMark(slot1)
 		end
 	end
+
+	slot0.selectedId = slot1
 end
 
 function slot0.OnInitItem(slot0, slot1)
