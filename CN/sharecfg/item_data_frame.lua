@@ -582,7 +582,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10006,
 		time_second = 0,
-		desc = "<color=#ffffff>结晶之中闪烁着天秤座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.11.01-23.11.30）",
+		desc = "<color=#ffffff>结晶之中闪烁着天蝎座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.11.01-23.11.30）",
 		scene = {}
 	},
 	all = {

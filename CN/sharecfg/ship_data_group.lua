@@ -25772,6 +25772,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},

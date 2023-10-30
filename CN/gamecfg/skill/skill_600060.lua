@@ -23,6 +23,17 @@ return {
 			arg_list = {
 				weapon_id = 950398
 			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			targetAniEffect = "",
+			target_choise = {
+				"TargetSelf"
+			},
+			arg_list = {
+				buff_id = 600068
+			}
 		}
 	}
 }
