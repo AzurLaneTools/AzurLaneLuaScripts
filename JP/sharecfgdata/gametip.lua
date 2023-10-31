@@ -26029,7 +26029,7 @@ _G.pg.base.gametip.equipcode_diff_selected = {
 }
 
 _G.pg.base.gametip.equipcode_export_success = {
-	tip = "装備コードをコビーしました"
+	tip = "装備コードをコピーしました"
 }
 
 _G.pg.base.gametip.equipcode_unsaved_tips = {
