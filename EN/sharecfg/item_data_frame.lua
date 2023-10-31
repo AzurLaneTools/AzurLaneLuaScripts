@@ -501,7 +501,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10001,
 		time_second = 0,
-		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Gemini. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] (06/15/23 - 06/30/23)",
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Gemini. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 6/15/23 - 6/30/23 Season.",
 		scene = {}
 	},
 	[10002] = {
@@ -528,7 +528,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10004,
 		time_second = 0,
-		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/9/23 - 30/9/23 Season.</color>",
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Virgo. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 9/1/23 - 9/30/23 Season.",
 		scene = {}
 	},
 	[10005] = {
@@ -537,7 +537,7 @@ pg.item_data_frame = {
 		gain_by = "",
 		id = 10005,
 		time_second = 0,
-		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/10/23 - 31/10/23 Season.</color>",
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Libra. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 10/1/23 - 10/31/23 Season.",
 		scene = {}
 	},
 	[10006] = {
