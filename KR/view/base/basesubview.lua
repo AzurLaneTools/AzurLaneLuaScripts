@@ -232,7 +232,8 @@ function slot0.ShowOrHideResUI(slot0, slot1)
 	pg.playerResUI:SetActive(setmetatable({
 		active = slot1,
 		weight = slot2.weight,
-		groupName = slot2.groupName
+		groupName = slot2.groupName,
+		canvasOrder = slot2.order or false
 	}, {
 		__index = slot2
 	}))

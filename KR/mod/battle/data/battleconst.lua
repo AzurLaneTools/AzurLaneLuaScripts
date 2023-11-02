@@ -39,6 +39,7 @@ slot0.UnitType = {
 	SUB_UNIT = 10,
 	CONST_UNIT = 11,
 	MINION_UNIT = 12,
+	SUPPORT_UNIT = 13,
 	CARDPUZZLE_PLAYER_UNIT = 30
 }
 slot0.CharacterUnitType = {

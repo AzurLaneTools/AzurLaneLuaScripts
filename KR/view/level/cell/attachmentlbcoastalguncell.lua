@@ -15,7 +15,7 @@ function slot0.Update(slot0)
 
 	slot2 = slot0.state
 
-	if slot1.flag == 0 and slot0.state ~= uv0.StateLive then
+	if slot1.flag == ChapterConst.CellFlagActive and slot0.state ~= uv0.StateLive then
 		slot0.state = uv0.StateLive
 		slot0.dead = nil
 
@@ -39,7 +39,7 @@ function slot0.Update(slot0)
 
 			uv0:Update()
 		end)
-	elseif slot1.flag == 1 and slot0.state ~= uv0.StateDead then
+	elseif slot1.flag == ChapterConst.CellFlagDisabled and slot0.state ~= uv0.StateDead then
 		slot0.state = uv0.StateDead
 
 		if not IsNil(slot0.enemy) then
@@ -75,7 +75,7 @@ function slot0.Update(slot0)
 		end)
 	end
 
-	if slot1.flag == 0 and slot0.enemy then
+	if slot1.flag == ChapterConst.CellFlagActive and slot0.enemy then
 		setActive(findTF(slot0.enemy, "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
 
 		if slot1.trait == ChapterConst.TraitVirgin then

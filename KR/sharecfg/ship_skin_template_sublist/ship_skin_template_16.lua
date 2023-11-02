@@ -1,6 +1,117 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
+	[901019] = {
+		ship_group = 90101,
+		name = "르 마르스·改 ",
+		hand_id = 16,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 9,
+		shop_id = 0,
+		painting = "lemaer_g",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9997,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 901019,
+		voice_actor_2 = -1,
+		prefab = "lemaer_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "개·조·완·료! 새로운 힘을 손에 넣은 르 마르스, 등장했습니다~! 에헤헤, 지휘관님, 저, 전보다 믿음직해졌나요? ",
+		voice_actor = 124,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[901020] = {
 		ship_group = 90102,
 		name = "타르투 ",
@@ -6034,7 +6145,7 @@ pg.base.ship_skin_template_16 = {
 		skin_type = -1,
 		id = 900011,
 		voice_actor_2 = -1,
-		prefab = "bisimai",
+		prefab = "unknown1",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
@@ -6158,7 +6269,7 @@ pg.base.ship_skin_template_16 = {
 		skin_type = -1,
 		id = 900012,
 		voice_actor_2 = -1,
-		prefab = "bisimai",
+		prefab = "unknown2",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
@@ -11372,112 +11483,6 @@ pg.base.ship_skin_template_16 = {
 		id = 900106,
 		voice_actor_2 = -1,
 		prefab = "Dunkeerke_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "无描述",
-		voice_actor = 0,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.28,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900107] = {
-		ship_group = 900107,
-		name = "埃米尔·贝尔汀",
-		hand_id = 0,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "Aimierbeierding_2",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900107,
-		voice_actor_2 = -1,
-		prefab = "Aimierbeierding_2",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",

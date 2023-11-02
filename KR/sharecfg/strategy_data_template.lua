@@ -19,6 +19,12 @@ pg.strategy_data_template = setmetatable({
 		91,
 		92,
 		93,
+		94,
+		95,
+		96,
+		97,
+		1000,
+		1001,
 		8650,
 		8732,
 		8744,
@@ -386,7 +392,7 @@ pg.base.strategy_data_template = {
 	[92] = {
 		buff_id = 0,
 		name = "다크나이트",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 92,
 		icon = "92",
@@ -396,12 +402,76 @@ pg.base.strategy_data_template = {
 	[93] = {
 		buff_id = 0,
 		name = "썬라이징",
-		type = 3,
+		type = 10,
 		iconSize = "",
 		id = 93,
 		icon = "93",
 		desc = "태양이 솟아올라, 위험 해역의 매복 효과가 사라집니다.",
 		arg = {}
+	},
+	[94] = {
+		buff_id = 9727,
+		name = "항공 지원 (아군)",
+		type = 10,
+		iconSize = "",
+		id = 94,
+		icon = "94",
+		desc = "항공 지원을 담당하는 적 함대의 존재가 확인되었다. 전투 중에 적은 항공 공격을 가할 것이다.",
+		arg = {}
+	},
+	[95] = {
+		buff_id = 0,
+		name = "항공 지원 (아군)",
+		type = 10,
+		iconSize = "",
+		id = 95,
+		icon = "95",
+		desc = "항공 지원이 가능한 아군 함대가 지시를 기다리고 있다. 전투 중에 적에게 항공 공격을 가할 것이다.",
+		arg = {}
+	},
+	[96] = {
+		buff_id = 262,
+		name = "전술 분석",
+		type = 10,
+		iconSize = "",
+		id = 96,
+		icon = "",
+		desc = "아군 함대 정보가 보스 함대에 알려졌다. 해당 함대는 다음 보스 함대와의 전투에서 가하는 피해량이 30% 저하하고, 받는 피해량이 30% 상승한다.",
+		arg = {}
+	},
+	[97] = {
+		buff_id = 0,
+		name = "전술 분석",
+		type = 10,
+		iconSize = "",
+		id = 97,
+		icon = "96",
+		desc = "아군 함대 정보가 보스 함대에 알려졌다. 해당 함대는 다음 보스 함대와의 전투에서 가하는 피해량이 30% 저하하고, 받는 피해량이 30% 상승한다.",
+		arg = {}
+	},
+	[1000] = {
+		buff_id = 0,
+		name = "공습 타격",
+		type = 7,
+		iconSize = "",
+		id = 1000,
+		icon = "1000",
+		desc = "적 함대에 공습 타격을 1회 가한다.",
+		arg = {
+			support_missile
+		}
+	},
+	[1001] = {
+		buff_id = 0,
+		name = "적함 구축",
+		type = 7,
+		iconSize = "",
+		id = 1001,
+		icon = "1001",
+		desc = "적 함대를 주변의 비어 있는 칸으로 이동시킨다.",
+		arg = {
+			expel
+		}
 	},
 	[8650] = {
 		buff_id = 8650,

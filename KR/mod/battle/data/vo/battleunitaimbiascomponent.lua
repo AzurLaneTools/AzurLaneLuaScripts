@@ -19,6 +19,10 @@ slot6.STATE_EXPIRE = "STATE_EXPIRE"
 function slot6.Ctor(slot0)
 end
 
+function slot6.Dispose(slot0)
+	slot0:clear()
+end
+
 function slot6.init(slot0)
 	slot0._crewList = {}
 	slot0._maxBiasRange = 0
@@ -187,6 +191,30 @@ function slot6.UpdateSkillLock(slot0)
 	slot0._host:DispatchEvent(uv2.Event.New(uv3.UPDATE_AIMBIAS_LOCK))
 end
 
+function slot6.SmokeExitPause(slot0)
+	slot0._pauseStartTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime()
+
+	uv0.SetCurrent(slot0._host, "lockAimBias", 1)
+	slot0:UpdateSkillLock()
+
+	slot0._smokeRestoreTimer = pg.TimeMgr.GetInstance():AddBattleTimer("smokeRestoreTimer", 0, uv1.AIM_BIAS_SMOKE_RESTORE_DURATION, function ()
+		uv0:removeRestoreTimer()
+		uv0._host:DetachAimBias()
+	end, true)
+end
+
+function slot6.SomkeExitResume(slot0)
+	slot0:removeRestoreTimer()
+
+	slot0._lastUpdateTimeStamp = slot0._lastUpdateTimeStamp + pg.TimeMgr.GetInstance():GetCombatTime() - slot0._pauseStartTimeStamp
+
+	slot0:UpdateSkillLock()
+end
+
+function slot6.SmokeRecover(slot0)
+	slot0._currentBiasRange = math.min(slot0._maxBiasRange, slot0._currentBiasRange + slot0._maxBiasRange * uv0.AIM_BIAS_SMOKE_RECOVERY_RATE)
+end
+
 function slot6.ChangeState(slot0, slot1)
 	slot0._state = slot1
 end
@@ -213,7 +241,18 @@ function slot6.biasEffect(slot0)
 	end
 end
 
+function slot6.removeRestoreTimer(slot0)
+	uv0.SetCurrent(slot0._host, "lockAimBias", 0)
+	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._smokeRestoreTimer)
+
+	slot0._smokeRestoreTimer = nil
+end
+
 function slot6.clear(slot0)
+	if slot0._smokeRestoreTimer then
+		slot0:removeRestoreTimer()
+	end
+
 	slot0._crewList = {}
 	slot0._pos = nil
 	slot0._state = uv0.STATE_EXPIRE

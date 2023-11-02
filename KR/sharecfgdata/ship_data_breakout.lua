@@ -4449,6 +4449,69 @@ _G.pg.base.ship_data_breakout[102304] = {
 	weapon_ids = {}
 }
 
+_G.pg.base.ship_data_breakout[102311] = {
+	use_gold = 1000,
+	breakout_id = 102312,
+	use_char_num = 1,
+	use_char = 10231,
+	breakout_view = "스킬 습득 - 특수 탄막 I / 주포 효율 +5%",
+	level = 10,
+	id = 102311,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		170201
+	}
+}
+
+_G.pg.base.ship_data_breakout[102312] = {
+	use_gold = 3000,
+	breakout_id = 102313,
+	use_char_num = 1,
+	use_char = 10231,
+	breakout_view = "주포 발사 수 +1 / 주포 효율 +10%",
+	level = 30,
+	id = 102312,
+	icon = "10001",
+	pre_id = 102311,
+	use_item = {},
+	weapon_ids = {
+		12100,
+		12100
+	}
+}
+
+_G.pg.base.ship_data_breakout[102313] = {
+	use_gold = 10000,
+	breakout_id = 102314,
+	use_char_num = 2,
+	use_char = 10231,
+	breakout_view = "특수 탄막 강화 / 주포 효율 +15%",
+	level = 70,
+	id = 102313,
+	icon = "10001",
+	pre_id = 102312,
+	use_item = {},
+	weapon_ids = {
+		170202
+	}
+}
+
+_G.pg.base.ship_data_breakout[102314] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 10231,
+	breakout_view = "없음",
+	level = 0,
+	id = 102314,
+	icon = "10001",
+	pre_id = 102313,
+	use_item = {},
+	weapon_ids = {}
+}
+
 _G.pg.base.ship_data_breakout[103011] = {
 	use_gold = 100,
 	breakout_id = 103012,

@@ -137,7 +137,7 @@ return {
 				text = slot0[6]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/start_button",
+				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/Fixed/start_button",
 				pathIndex = -1,
 				triggerType = {
 					1

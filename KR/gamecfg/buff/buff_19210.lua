@@ -139,13 +139,13 @@ return {
 			}
 		}
 	},
-	desc_get = "占坑",
+	desc_get = "",
 	name = "吾妻·特殊弹幕",
 	init_effect = "",
 	time = 0,
 	color = "red",
 	picture = "",
-	desc = "占坑",
+	desc = "",
 	stack = 1,
 	id = 19210,
 	icon = 19210,
@@ -158,26 +158,10 @@ return {
 			},
 			arg_list = {
 				skill_id = 19210,
-				minWeaponNumber = 1,
-				check_weapon = true,
-				type = {
-					3
-				}
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onStartGame"
-			},
-			arg_list = {
-				skill_id = 19210,
-				minWeaponNumber = 1,
+				maxWeaponNumber = 0,
 				check_weapon = true,
 				weapon_group = {
-					43100,
-					43120,
-					43140
+					33100
 				}
 			}
 		},

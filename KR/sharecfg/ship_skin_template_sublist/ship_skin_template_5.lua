@@ -1,6 +1,112 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201215] = {
+		ship_group = 20121,
+		name = "베개 싸움!",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 0,
+		painting = "biaoqiang_7",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 201215,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang_7",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "라피, Z23, 아야나미, 그리고 유니콘도 같이하자! 에헤헤, 오늘은 절대 지지 않겠어!",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.735,
+					0.871,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.72,
+					0.863,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							2.269,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201216] = {
 		ship_group = 20121,
 		name = "왕도 아이돌·원기120!",
@@ -11350,119 +11456,6 @@ pg.base.ship_skin_template_5 = {
 		},
 		l2d_voice_calibrate = {
 			login = 7
-		}
-	},
-	[202242] = {
-		ship_group = 20224,
-		name = "Fairmaid·Spring",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70308,
-		painting = "heitaizi_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "128",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202242,
-		voice_actor_2 = -1,
-		prefab = "heitaizi_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이스트 글림의 전통옷 ‘치파오’라고 해요. 왠지 모르게 이런 옷을 입고 오래된 음악을 듣고 있으니 약간… 지휘관님, 이렇게 좀 더 쉬어도 될까요?",
-		voice_actor = 77,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			-130,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.15,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					1.05,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.12,
-					1.12,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.2,
-							-0.568
-						}
-					}
-				}
-			}
 		}
 	}
 }

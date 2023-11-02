@@ -1,6 +1,117 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[701060] = {
+		ship_group = 70106,
+		name = "스트례미텔니",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "shensu",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 701060,
+		voice_actor_2 = -1,
+		prefab = "shensu",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "그네브니급 구축함—스트레미테르누이호",
+		voice_actor = 263,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.516,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.535,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.487,
+					0.994,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.08,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[701061] = {
 		ship_group = 70106,
 		name = "한가로운 게임 시간",
@@ -11250,117 +11361,6 @@ pg.base.ship_skin_template_15 = {
 						{
 							-0.48,
 							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[901019] = {
-		ship_group = 90101,
-		name = "르 마르스·改 ",
-		hand_id = 16,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 9,
-		shop_id = 0,
-		painting = "lemaer_g",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9997,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 901019,
-		voice_actor_2 = -1,
-		prefab = "lemaer_g",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "개·조·완·료! 새로운 힘을 손에 넣은 르 마르스, 등장했습니다~! 에헤헤, 지휘관님, 저, 전보다 믿음직해졌나요? ",
-		voice_actor = 124,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.18,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.12,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.17,
-					0.93,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
 							0
 						}
 					}

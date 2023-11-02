@@ -19286,6 +19286,444 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[853] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 853,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						151030,
+						{
+							4,
+							2
+						}
+					}
+				}
+			}
+		}
+	},
+	[854] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 854,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						151030,
+						{
+							3,
+							3
+						}
+					}
+				}
+			}
+		}
+	},
+	[855] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 855,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						151310,
+						{
+							2,
+							2
+						}
+					}
+				}
+			},
+			{
+				"flag",
+				0,
+				101
+			}
+		}
+	},
+	[856] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 856,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						152030,
+						{
+							9,
+							6
+						}
+					}
+				}
+			}
+		}
+	},
+	[857] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 857,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						152030,
+						{
+							7,
+							9
+						}
+					}
+				}
+			}
+		}
+	},
+	[858] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 858,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						152310,
+						{
+							8,
+							7
+						}
+					}
+				}
+			},
+			{
+				"flag",
+				0,
+				101
+			}
+		}
+	},
+	[859] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 859,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						153030,
+						{
+							4,
+							2
+						}
+					}
+				}
+			}
+		}
+	},
+	[860] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 860,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						153310,
+						{
+							2,
+							1
+						}
+					}
+				}
+			},
+			{
+				"flag",
+				0,
+				101
+			}
+		}
+	},
+	[861] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 861,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						154030,
+						{
+							8,
+							10
+						}
+					}
+				}
+			}
+		}
+	},
+	[862] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 862,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						154310,
+						{
+							1,
+							1
+						}
+					},
+					{
+						154310,
+						{
+							9,
+							11
+						}
+					}
+				}
+			},
+			{
+				"flag",
+				0,
+				101
+			}
+		}
+	},
+	[863] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 863,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				101,
+				0
+			}
+		}
+	},
+	[864] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 864,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				101,
+				0
+			}
+		}
+	},
+	[865] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 865,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				101,
+				0
+			}
+		}
+	},
+	[866] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 866,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_if",
+				103,
+				0
+			},
+			{
+				"flag_if",
+				101,
+				103
+			}
+		}
+	},
+	[867] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 867,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				102
+			}
+		}
+	},
+	[868] = {
+		grid_color = "",
+		memory = 0,
+		gametip = "",
+		type = 3,
+		preinstall = 3,
+		c_type = 0,
+		id = 868,
+		animation = "",
+		round_gametip = "",
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag",
+				0,
+				102
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -20102,6 +20540,22 @@ pg.map_event_template = {
 		849,
 		850,
 		851,
-		852
+		852,
+		853,
+		854,
+		855,
+		856,
+		857,
+		858,
+		859,
+		860,
+		861,
+		862,
+		863,
+		864,
+		865,
+		866,
+		867,
+		868
 	}
 }

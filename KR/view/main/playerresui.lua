@@ -156,6 +156,12 @@ function slot0.CustomSetting(slot0, slot1)
 	slot0.oilAddBtn.anchoredPosition3D = Vector3(slot0.oilPos.x + slot3, slot0.oilPos.y, 1)
 
 	NotchAdapt.AdjustUI()
+	setCanvasOverrideSorting(slot0._tf, tobool(slot1.canvasOrder))
+
+	if slot1.canvasOrder then
+		GetComponent(slot0._tf, typeof(Canvas)).sortingOrder = slot1.canvasOrder
+	end
+
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
 		weight = slot1.weight,
 		groupName = slot1.groupName

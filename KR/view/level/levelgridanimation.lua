@@ -156,28 +156,25 @@ end
 
 function slot0.shakeCell(slot0, slot1, slot2)
 	slot3 = slot0.contextData.chapterVO
-	slot4, slot5 = nil
-	slot7 = slot3:getChapterCell(slot1.row, slot1.column)
+	slot4 = nil
+	slot6 = slot3:getChapterCell(slot1.row, slot1.column)
 
-	if slot3:getChampion(slot1.row, slot1.column) and slot6.flag == ChapterConst.CellFlagActive then
-		slot5 = slot0.cellChampions[slot3:getChampionIndex(slot1.row, slot1.column)].tf:Find("huoqiubaozha")
-	elseif table.contains(ChapterConst.AttachStaticEnemys, slot7.attachment) then
-		slot5 = slot0.attachmentCells[ChapterCell.Line2Name(slot1.row, slot1.column)].tf:Find("huoqiubaozha")
+	if slot3:getChampion(slot1.row, slot1.column) and slot5.flag == ChapterConst.CellFlagActive then
+		slot4 = slot0.cellChampions[slot3:getChampionIndex(slot1.row, slot1.column)].tf
+	elseif ChapterConst.IsEnemyAttach(slot6.attachment) then
+		slot4 = slot0.attachmentCells[ChapterCell.Line2Name(slot1.row, slot1.column)].tf
 	else
 		existCall(slot2)
 
 		return
 	end
 
-	slot8 = slot4.localPosition.x
-	slot9 = slot4.localPosition
-	slot9.x = slot8 + 10
-	slot4.localPosition = slot9
-	slot10 = LeanTween.moveX(slot4, slot8 - 10, 0.05)
-	slot10 = slot10:setEase(LeanTweenType.easeInOutSine)
-	slot10 = slot10:setLoopPingPong(3)
+	slot7 = slot4.localPosition.x
+	slot8 = slot4.localPosition
+	slot8.x = slot7 + 10
+	slot4.localPosition = slot8
 
-	slot10:setOnComplete(System.Action(function ()
+	LeanTween.moveX(slot4, slot7 - 10, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(3):setOnComplete(System.Action(function ()
 		slot0 = uv0.localPosition
 		slot0.x = uv1
 		uv0.localPosition = slot0
@@ -186,10 +183,7 @@ function slot0.shakeCell(slot0, slot1, slot2)
 			uv2()
 		end
 	end))
-
-	if not IsNil(slot5) then
-		setActive(slot5, true)
-	end
+	slot0:PlayAttachmentEffect(slot1.row, slot1.column, "huoqiubaozha", Vector2.zero)
 
 	return slot4
 end
@@ -318,9 +312,9 @@ function slot0.PlayAttachmentEffect(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.PlayParticleSystem(slot0, slot1, slot2, slot3, slot4)
-	slot5 = PoolMgr.GetInstance()
+	slot5 = slot0.loader
 
-	slot5:GetPrefab("effect/" .. slot1, slot1, false, function (slot0)
+	slot5:GetPrefab("effect/" .. slot1, slot1, function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then
@@ -331,56 +325,9 @@ function slot0.PlayParticleSystem(slot0, slot1, slot2, slot3, slot4)
 
 		if not IsNil(slot0:GetComponent(typeof(ParticleSystemEvent))) then
 			slot1:SetEndEvent(function (slot0)
-				PoolMgr.GetInstance():ReturnPrefab("effect/" .. uv0, uv0, uv1)
+				uv0.loader:ReturnPrefab(uv1)
 				existCall(uv2)
 			end)
 		end
-	end)
-end
-
-function slot0.PlayChampionInsideEffect(slot0, slot1, slot2, slot3, slot4)
-	slot5 = nil
-	slot7 = nil
-
-	for slot11, slot12 in ipairs(slot0.contextData.chapterVO.champions) do
-		if slot12.row == slot1 and slot12.column == slot2 and slot12.flag ~= 1 then
-			slot7 = slot11
-
-			break
-		end
-	end
-
-	if slot7 then
-		slot5 = slot0.cellChampions[slot7].tf
-	end
-
-	if not slot5 then
-		slot4()
-
-		return
-	end
-
-	slot0:PlayInsideParticleSystem(slot3, slot5, slot4)
-end
-
-function slot0.PlayInsideParticleSystem(slot0, slot1, slot2, slot3)
-	if IsNil(go(tf(slot2):Find(slot1))) then
-		slot3()
-
-		return
-	end
-
-	setActive(slot4, true)
-	slot4:GetComponent(typeof(ParticleSystem)):Play()
-
-	if IsNil(slot4:GetComponent(typeof(ParticleSystemEvent))) then
-		slot3()
-
-		return
-	end
-
-	slot5:SetEndEvent(function (slot0)
-		setActive(uv0, false)
-		existCall(uv1)
 	end)
 end

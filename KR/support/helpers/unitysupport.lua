@@ -147,17 +147,17 @@ slot0 = nil
 slot1 = true
 slot2 = -1
 
-function onButton(slot0, slot1, slot2, slot3)
-	slot4 = GetOrAddComponent(slot1, typeof(Button))
+function onButton(slot0, slot1, slot2, slot3, slot4)
+	slot5 = GetOrAddComponent(slot1, typeof(Button))
 
-	assert(slot4, "could not found Button component on " .. slot1.name)
+	assert(slot5, "could not found Button component on " .. slot1.name)
 	assert(slot2, "callback should exist")
 
-	slot5 = slot4.onClick
+	slot6 = slot5.onClick
 
-	pg.DelegateInfo.Add(slot0, slot5)
-	slot5:RemoveAllListeners()
-	slot5:AddListener(function ()
+	pg.DelegateInfo.Add(slot0, slot6)
+	slot6:RemoveAllListeners()
+	slot6:AddListener(function ()
 		if uv0 == Time.frameCount and Input.touchCount > 1 then
 			return
 		end

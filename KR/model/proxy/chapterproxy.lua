@@ -12,6 +12,7 @@ function slot0.register(slot0)
 	slot0:on(13001, function (slot0)
 		uv0.mapEliteFleetCache = {}
 		uv0.mapEliteCommanderCache = {}
+		uv0.mapSupportFleetCache = {}
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.fleet_list) do
@@ -21,7 +22,7 @@ function slot0.register(slot0)
 		end
 
 		for slot5, slot6 in pairs(slot1) do
-			uv0.mapEliteFleetCache[slot5], uv0.mapEliteCommanderCache[slot5] = Chapter.BuildEliteFleetList(slot6)
+			uv0.mapEliteFleetCache[slot5], uv0.mapEliteCommanderCache[slot5], uv0.mapSupportFleetCache[slot5] = Chapter.BuildEliteFleetList(slot6)
 		end
 
 		for slot5, slot6 in ipairs(slot0.chapter_list) do
@@ -35,7 +36,12 @@ function slot0.register(slot0)
 					{},
 					{}
 				})
-				slot7:setEliteCommanders({
+				slot7:setEliteCommanders(Clone(uv0.mapEliteCommanderCache[slot8]) or {
+					{},
+					{},
+					{}
+				})
+				slot7:setSupportFleetList(Clone(uv0.mapSupportFleetCache[slot8]) or {
 					{},
 					{},
 					{}
@@ -64,6 +70,7 @@ function slot0.register(slot0)
 
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inChapter")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inSupport")
 	end)
 	slot0:on(13105, function (slot0)
 		if uv0:getActiveChapter() then
@@ -175,6 +182,7 @@ end
 function slot0.setEliteCache(slot0, slot1)
 	slot0.mapEliteFleetCache = {}
 	slot0.mapEliteCommanderCache = {}
+	slot0.mapSupportFleetCache = {}
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -184,10 +192,11 @@ function slot0.setEliteCache(slot0, slot1)
 	end
 
 	for slot6, slot7 in pairs(slot2) do
-		slot0.mapEliteFleetCache[slot6], slot0.mapEliteCommanderCache[slot6] = Chapter.BuildEliteFleetList(slot7)
+		slot0.mapEliteFleetCache[slot6], slot0.mapEliteCommanderCache[slot6], slot0.mapSupportFleetCache[slot6] = Chapter.BuildEliteFleetList(slot7)
 	end
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inSupport")
 
 	for slot6, slot7 in pairs(slot0.data) do
 		slot7:setEliteFleetList(Clone(slot0.mapEliteFleetCache[slot7:getConfig("formation")]) or {
@@ -196,6 +205,11 @@ function slot0.setEliteCache(slot0, slot1)
 			{}
 		})
 		slot7:setEliteCommanders(Clone(slot0.mapEliteCommanderCache[slot8]) or {
+			{},
+			{},
+			{}
+		})
+		slot7:setSupportFleetList(Clone(slot0.mapSupportFleetCache[slot8]) or {
 			{},
 			{},
 			{}
@@ -350,15 +364,24 @@ function slot0.getChapterById(slot0, slot1, slot2)
 	if not slot0.data[slot1] then
 		assert(pg.chapter_template[slot1], "Not Exist Chapter ID: " .. (slot1 or "NIL"))
 
-		if Chapter.New({
+		slot3 = Chapter.New({
 			id = slot1
-		}):getConfig("type") == Chapter.CustomFleet then
-			slot3:setEliteFleetList(Clone(slot0.mapEliteFleetCache[slot3:getConfig("formation")]) or {
+		})
+		slot4 = slot3:getConfig("formation")
+
+		if slot3:getConfig("type") == Chapter.CustomFleet then
+			slot3:setEliteFleetList(Clone(slot0.mapEliteFleetCache[slot4]) or {
 				{},
 				{},
 				{}
 			})
 			slot3:setEliteCommanders(Clone(slot0.mapEliteCommanderCache[slot4]) or {
+				{},
+				{},
+				{}
+			})
+		elseif slot3:getConfig("type") == Chapter.SelectFleet then
+			slot3:setSupportFleetList(Clone(slot0.mapSupportFleetCache[slot4]) or {
 				{},
 				{},
 				{}
@@ -591,21 +614,66 @@ function slot0.RemoveExtendChapter(slot0, slot1)
 end
 
 function slot0.duplicateEliteFleet(slot0, slot1)
-	if slot1:getConfig("type") == Chapter.CustomFleet then
-		slot4 = slot1:getConfig("formation")
-		slot0.mapEliteFleetCache[slot4] = Clone(slot1:getEliteFleetList())
-		slot0.mapEliteCommanderCache[slot4] = Clone(slot1:getEliteFleetCommanders())
+	if slot1:getConfig("type") ~= Chapter.CustomFleet then
+		return
+	end
 
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+	slot4 = slot1:getConfig("formation")
+	slot0.mapEliteFleetCache[slot4] = Clone(slot1:getEliteFleetList())
+	slot0.mapEliteCommanderCache[slot4] = Clone(slot1:getEliteFleetCommanders())
 
-		for slot8, slot9 in ipairs(uv0.FormationToChapters[slot4]) do
-			if slot0:getChapterById(slot9, true).configId ~= slot1.configId then
-				slot10:setEliteFleetList(Clone(slot2))
-				slot10:setEliteCommanders(Clone(slot3))
-				slot0:updateChapter(slot10)
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+
+	for slot8, slot9 in ipairs(uv0.FormationToChapters[slot4]) do
+		if slot0:getChapterById(slot9, true).configId ~= slot1.configId then
+			slot10:setEliteFleetList(Clone(slot2))
+			slot10:setEliteCommanders(Clone(slot3))
+			slot0:updateChapter(slot10)
+		end
+	end
+end
+
+function slot0.duplicateSupportFleet(slot0, slot1)
+	slot3 = slot1:getConfig("formation")
+	slot7 = slot1:getSupportFleet()
+	slot0.mapSupportFleetCache[slot3] = {
+		Clone(slot7)
+	}
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inSupport")
+
+	for slot7, slot8 in ipairs(uv0.FormationToChapters[slot3]) do
+		if slot0:getChapterById(slot8, true).configId ~= slot1.configId then
+			slot9:setSupportFleetList({
+				Clone(slot2)
+			})
+			slot0:updateChapter(slot9)
+		end
+	end
+end
+
+function slot0.CheckUnitInSupportFleet(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1.id
+
+	for slot7, slot8 in pairs(slot0.mapSupportFleetCache) do
+		for slot12, slot13 in ipairs(slot8) do
+			if table.contains(slot13, slot3) then
+				slot2[slot7] = true
+
+				break
 			end
 		end
 	end
+
+	return next(slot2), slot2
+end
+
+function slot0.RemoveUnitFromSupportFleet(slot0, slot1)
+	slot0:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
+		shipId = slot1.id,
+		callback = next
+	})
 end
 
 function slot0.getActiveChapter(slot0, slot1)
@@ -756,15 +824,14 @@ function slot0.SortRecommendLimitation(slot0)
 end
 
 function slot0.eliteFleetRecommend(slot0, slot1, slot2)
-	slot3 = getProxy(BayProxy)
-	slot4 = slot1:getEliteFleetList()[slot2]
+	slot3 = slot1:getEliteFleetList()[slot2]
 
-	uv0.SortRecommendLimitation(slot1:getConfig("limitation")[slot2] and Clone(slot5[1]) or {
+	uv0.SortRecommendLimitation(slot1:getConfig("limitation")[slot2] and Clone(slot4[1]) or {
 		0,
 		0,
 		0
 	})
-	uv0.SortRecommendLimitation(slot5 and Clone(slot5[2]) or {
+	uv0.SortRecommendLimitation(slot4 and Clone(slot4[2]) or {
 		0,
 		0,
 		0
@@ -775,66 +842,90 @@ function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 		0
 	})
 
-	slot9 = {}
+	slot8 = {}
 
-	for slot13, slot14 in ipairs(slot1:getEliteFleetList()) do
-		for slot18, slot19 in ipairs(slot14) do
-			slot9[#slot9 + 1] = slot19
+	for slot12, slot13 in ipairs(slot1:getEliteFleetList()) do
+		for slot17, slot18 in ipairs(slot13) do
+			slot8[#slot8 + 1] = slot18
 		end
 	end
 
-	slot10 = {
-		[TeamType.Main] = slot6,
-		[TeamType.Vanguard] = slot7,
-		[TeamType.Submarine] = slot8
-	}
-	slot11 = getProxy(BayProxy):getRawData()
+	slot9 = nil
 
-	for slot15, slot16 in ipairs(slot4) do
-		slot20 = 0
+	table.clean(slot3)
+	table.insertto(slot3, slot0:FleetRecommend(slot3, slot8, (slot2 <= 2 or {
+		[TeamType.Submarine] = slot7
+	}) and {
+		[TeamType.Main] = slot5,
+		[TeamType.Vanguard] = slot6
+	}, function (slot0)
+		return ShipStatus.ShipStatusCheck("inElite", slot0, nil, {
+			inElite = uv0:getConfig("formation")
+		})
+	end))
+end
 
-		for slot25, slot26 in ipairs(slot10[TeamType.GetTeamFromShipType(slot11[slot16]:getShipType())]) do
-			if ShipType.ContainInLimitBundle(slot26, slot18) then
-				slot20 = slot26
+function slot0.SupportFleetRecommend(slot0, slot1, slot2)
+	slot3 = slot1:getSupportFleet()
+
+	table.clean(slot3)
+	table.insertto(slot3, slot0:FleetRecommend(slot3, table.shallowCopy(slot3), {
+		[TeamType.Main] = {
+			"hang",
+			"hang",
+			"hang"
+		}
+	}, function (slot0)
+		return ShipStatus.ShipStatusCheck("inSupport", slot0, nil, {
+			inSupport = uv0:getConfig("formation")
+		})
+	end))
+end
+
+function slot0.FleetRecommend(slot0, slot1, slot2, slot3, slot4)
+	slot2 = table.shallowCopy(slot2)
+	slot5 = getProxy(BayProxy)
+	slot6 = getProxy(BayProxy):getRawData()
+
+	for slot10, slot11 in ipairs(table.shallowCopy(slot1)) do
+		slot15 = 0
+
+		for slot20, slot21 in ipairs(slot3[TeamType.GetTeamFromShipType(slot6[slot11]:getShipType())]) do
+			if ShipType.ContainInLimitBundle(slot21, slot13) then
+				slot15 = slot21
 
 				break
 			end
 		end
 
-		for slot25, slot26 in ipairs(slot21) do
-			if slot26 == slot20 then
-				table.remove(slot21, slot25)
+		for slot20, slot21 in ipairs(slot16) do
+			if slot21 == slot15 then
+				table.remove(slot16, slot20)
 
 				break
 			end
 		end
 	end
 
-	function slot12(slot0, slot1)
+	function slot7(slot0, slot1)
 		slot3 = uv0
 
-		if slot3:getEliteRecommendShip(underscore.filter(TeamType.GetShipTypeListFromTeam(slot1), function (slot0)
+		if slot3:GetRecommendShip(underscore.filter(TeamType.GetShipTypeListFromTeam(slot1), function (slot0)
 			return ShipType.ContainInLimitBundle(uv0, slot0)
-		end), uv1, uv2:getConfig("formation")) then
+		end), uv1, uv2) then
 			slot4 = slot3.id
 			uv1[#uv1 + 1] = slot4
 			uv3[#uv3 + 1] = slot4
 		end
 	end
 
-	slot13 = nil
-	slot13 = (slot2 <= 2 or {
-		[TeamType.Submarine] = slot8
-	}) and {
-		[TeamType.Main] = slot6,
-		[TeamType.Vanguard] = slot7
-	}
-
-	for slot17, slot18 in pairs(slot13) do
-		for slot22, slot23 in ipairs(slot18) do
-			slot12(slot23, slot17)
+	for slot11, slot12 in pairs(slot3) do
+		for slot16, slot17 in ipairs(slot12) do
+			slot7(slot17, slot11)
 		end
 	end
+
+	return slot1
 end
 
 function slot0.isClear(slot0, slot1)
@@ -935,8 +1026,10 @@ function slot0.GetChapterAuraBuffs(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.fleets) do
-		for slot11, slot12 in ipairs(slot6:getMapAura()) do
-			table.insert(slot1, slot12)
+		if slot6:getFleetType() ~= FleetType.Support then
+			for slot11, slot12 in ipairs(slot6:getMapAura()) do
+				table.insert(slot1, slot12)
+			end
 		end
 	end
 
@@ -947,7 +1040,7 @@ function slot0.GetChapterAidBuffs(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.fleets) do
-		if slot6 ~= slot0.fleet then
+		if slot6 ~= slot0.fleet and slot6:getFleetType() ~= FleetType.Support then
 			for slot11, slot12 in pairs(slot6:getMapAid()) do
 				slot1[slot11] = slot12
 			end
@@ -1018,7 +1111,7 @@ function slot0.GetSkipPrecombat(slot0)
 		slot0.skipPrecombat = PlayerPrefs.GetInt("chapter_skip_precombat", 0)
 	end
 
-	return slot0.skipPrecombat > 0 and true or false
+	return slot0.skipPrecombat > 0
 end
 
 function slot0.UpdateSkipPrecombat(slot0, slot1)

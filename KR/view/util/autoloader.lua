@@ -328,7 +328,7 @@ end
 function slot0.GetRequestPackage(slot0, slot1, slot2)
 	slot2 = slot2 or uv0.PartLoading + uv0.PartLoaded
 
-	return bit.band(slot2, uv0.PartLoading) > 0 and slot0._loadingRequest[slot1] or bit.band(slot2, uv0.PartLoaded) > 0 and slot0._returnRequest[slot1]
+	return bit.band(slot2, uv0.PartLoading) > 0 and slot0._loadingRequest[slot1] or bit.band(slot2, uv0.PartLoaded) > 0 and slot0._returnRequest[slot1] or nil
 end
 
 function slot0.GetLoadingRP(slot0, slot1)
@@ -357,7 +357,7 @@ function slot0.ClearRequest(slot0, slot1, slot2)
 					print("AutoLoader Unload Atlas: " .. slot3.path .. " ;")
 				elseif isa(slot3, uv4) then
 					print("AutoLoader Unload Bundle: " .. slot3.path .. " ;")
-				else
+				elseif isa(slot3, uv5) then
 					print("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
 				end
 			end

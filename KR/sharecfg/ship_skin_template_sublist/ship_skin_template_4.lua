@@ -1,6 +1,105 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107073] = {
+		ship_group = 10707,
+		name = "치어링 저스티스!",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1101",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70732,
+		painting = "dahuangfeng_4",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107073,
+		voice_actor_2 = -1,
+		prefab = "dahuangfeng_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "다들 파이팅! 이제 1점만 더 따면 역전이야!!! ……휴우. …꿀꺽꿀꺽, …푸핫! 지휘관! 음료수 고마워! 그리고 하나 더. 관전하느라 수고했어!",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.07,
+					1.285,
+					0
+				}
+			},
+			plane = {
+				{
+					0.062,
+					0.096,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.696,
+							1.875,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107080] = {
 		ship_group = 10708,
 		name = "와스프",
@@ -10440,112 +10539,6 @@ pg.base.ship_skin_template_4 = {
 						{
 							-0.43,
 							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201215] = {
-		ship_group = 20121,
-		name = "베개 싸움!",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 5,
-		shop_id = 0,
-		painting = "biaoqiang_7",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "109",
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 201215,
-		voice_actor_2 = -1,
-		prefab = "biaoqiang_7",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "라피, Z23, 아야나미, 그리고 유니콘도 같이하자! 에헤헤, 오늘은 절대 지지 않겠어!",
-		voice_actor = 23,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.735,
-					0.871,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.72,
-					0.863,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							2.269,
 							0
 						}
 					}

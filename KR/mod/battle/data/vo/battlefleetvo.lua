@@ -47,6 +47,10 @@ function slot8.UpdateAutoComponent(slot0, slot1)
 		slot6:UpdateAirAssist()
 	end
 
+	for slot5, slot6 in ipairs(slot0._supportList) do
+		slot6:UpdateWeapon(slot1)
+	end
+
 	for slot5, slot6 in ipairs(slot0._cloakList) do
 		slot6:UpdateCloak(slot1)
 	end
@@ -609,6 +613,7 @@ function slot8.init(slot0)
 	slot0._scoutList = {}
 	slot0._mainList = {}
 	slot0._subList = {}
+	slot0._supportList = {}
 	slot0._cloakList = {}
 	slot0._manualSubList = {}
 	slot0._manualSubBench = {}
@@ -1420,4 +1425,12 @@ end
 
 function slot8.GetCardPuzzleComponent(slot0)
 	return slot0._cardPuzzleComponent
+end
+
+function slot8.AppendSupportUnit(slot0, slot1)
+	slot0._supportList[#slot0._supportList + 1] = slot1
+end
+
+function slot8.GetSupportUnitList(slot0)
+	return slot0._supportList
 end

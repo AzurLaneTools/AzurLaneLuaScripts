@@ -30,7 +30,11 @@ function slot0.execute(slot0, slot1)
 				table.insert(uv0.data1_list, uv1)
 			end
 
-			uv0.data2_list[table.indexof(uv0.data1_list, uv1)] = uv2
+			slot2 = table.indexof(uv0.data1_list, uv1)
+
+			assert(slot2)
+
+			uv0.data2_list[slot2] = uv2
 
 			uv3:updateActivity(uv0)
 			uv4:sendNotification(GAME.BLACK_WHITE_GRID_OP_DONE, {

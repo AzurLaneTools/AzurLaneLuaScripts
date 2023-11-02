@@ -498,6 +498,10 @@ _G.pg.base.gametip.word_shipState_sham = {
 	tip = "해당 함선은 모의전을 진행 중입니다."
 }
 
+_G.pg.base.gametip.word_shipState_support = {
+	tip = "이미 지원 함대에 편성되어 있습니다."
+}
+
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "구축"
 }
@@ -4205,7 +4209,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.9.14 ~ 2023.12.7</color>
+<color=#92fc63>2023.9.14 ~ 2023.12.14</color>
 META전 진츠·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
@@ -17257,7 +17261,7 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1. <color=#92fc63>정보 동기화</color>
-·<color=#92fc63>2023.6.29-2023.9.14점검 전</color>까지 「알제리·META」의 「정보 동기화」가 한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「알제리·META」 캐릭터</color>를 획득할 수 있습니다.
+·<color=#92fc63>2023.9.21-2023.12.14점검 전</color>까지 「알제리·META」의 「정보 동기화」가 한정 개방됩니다. 「비콘·META」 전투를 통해 동기화 수치를 획득하여, 일정 수치에 도달하면 <color=#92fc63>「알제리·META」 캐릭터</color>를 획득할 수 있습니다.
 ·META 캐릭터 획득 후 캐릭터의 <color=#92fc63>「정보 동기화」</color> 모듈을 통해<color=#92fc63>기재된 시간</color> 동안 계속해서 육성 재료를 포함한 풍성한 보상을 획득할 수 있습니다.
 ·주의:<color=#ff5c5c>「알제리·META」의 「정보 동기화」는 기간 종료 후 잠시 폐쇄되며, 이미 누적된 동기화 수치 역시 사라집니다</color>.
 
@@ -24843,4 +24847,108 @@ _G.pg.base.gametip.racing_minigame_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine = {
+	tip = "목표 확정"
+}
+
+_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+	tip = "공격 중지"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_cancel = {
+	tip = "구축 중지"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+	tip = "적 함대만 선택할 수 있습니다."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_outrange = {
+	tip = "적 함대를 이동시킬 수 있는 칸이 없습니다."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_boss = {
+	tip = "보스 함대를 선택할 수 없습니다."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_battle = {
+	tip = "교전 중인 적 함대는 선택할 수 없습니다."
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>왼쪽</color>으로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
+	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>오른쪽</color>으로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>위</color>로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
+}
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>아래</color>로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
+}
+
+_G.pg.base.gametip.shipyard_phase_1 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_phase_2 = {
+	tip = "占坑"
+}
+
+_G.pg.base.gametip.shipyard_button_1 = {
+	tip = "기대 만발"
+}
+
+_G.pg.base.gametip.shipyard_button_2 = {
+	tip = "비밀 조선소'의 모든 임무를 클리어하여 오픈"
+}
+
+_G.pg.base.gametip.shipyard_introduce = {
+	tip = "임무는 11/8(수)까지 매일 2개씩 오픈됩니다.\n오픈 후 7일 동안 매일 오픈되는 임무를 클리어하면, 한정 장비 <color=#ff9892>'템페스타 플래그'</color>를 획득할 수 있습니다!"
+}
+
+_G.pg.base.gametip.help_supportfleet = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/supportfleet_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.word_status_inSupportFleet = {
+	tip = "지원 출격 중"
+}
+
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "이미 지원 함대에 편성되어 있습니다. 편성을 변경하시겠습니까?"
 }

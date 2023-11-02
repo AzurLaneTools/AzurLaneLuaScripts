@@ -301,27 +301,25 @@ function slot0.updateStageView(slot0, slot1)
 	slot4 = slot2.time_limit
 	slot5 = slot2.sink_limit
 	slot6 = Clone(slot2.award_display)
-	slot7 = slot0.chapter.fleet.line
-	slot8 = slot0.chapter:getStageCell(slot7.row, slot7.column)
 
 	if checkExist(pg.expedition_activity_template[slot1], {
 		"pt_drop_display"
-	}) and type(slot9) == "table" then
-		slot10 = getProxy(ActivityProxy)
+	}) and type(slot7) == "table" then
+		slot8 = getProxy(ActivityProxy)
 
-		for slot14 = #slot9, 1, -1 do
-			if slot10:getActivityById(slot9[slot14][1]) and not slot15:isEnd() then
+		for slot12 = #slot7, 1, -1 do
+			if slot8:getActivityById(slot7[slot12][1]) and not slot13:isEnd() then
 				table.insert(slot6, 1, {
 					2,
-					id2ItemId(slot9[slot14][2])
+					id2ItemId(slot7[slot12][2])
 				})
 			end
 		end
 	end
 
-	slot10 = UIItemList.New(slot0._spoilsContainer, slot0._item)
+	slot8 = UIItemList.New(slot0._spoilsContainer, slot0._item)
 
-	slot10:make(function (slot0, slot1, slot2)
+	slot8:make(function (slot0, slot1, slot2)
 		slot3 = slot2
 		slot4 = uv0[slot1 + 1]
 
@@ -356,9 +354,9 @@ function slot0.updateStageView(slot0, slot1)
 			end
 		end, SFX_PANEL)
 	end)
-	slot10:align(math.min(#slot6, 6))
+	slot8:align(math.min(#slot6, 6))
 
-	function slot11(slot0, slot1)
+	function slot9(slot0, slot1)
 		if type(slot0) == "table" then
 			setActive(slot1, true)
 			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
@@ -367,27 +365,27 @@ function slot0.updateStageView(slot0, slot1)
 		end
 	end
 
-	slot12 = {
+	slot10 = {
 		findTF(slot0._goals, "goal_tpl"),
 		findTF(slot0._goals, "goal_sink"),
 		findTF(slot0._goals, "goal_time")
 	}
-	slot14 = 1
+	slot12 = 1
 
-	for slot18, slot19 in ipairs({
+	for slot16, slot17 in ipairs({
 		slot2.objective_1,
 		slot2.objective_2,
 		slot2.objective_3
 	}) do
-		if type(slot19) ~= "string" then
-			slot11(slot19, slot12[slot14])
+		if type(slot17) ~= "string" then
+			slot9(slot17, slot10[slot12])
 
-			slot14 = slot14 + 1
+			slot12 = slot12 + 1
 		end
 	end
 
-	for slot18 = slot14, #slot12 do
-		slot11("", slot12[slot18])
+	for slot16 = slot12, #slot10 do
+		slot9("", slot10[slot16])
 	end
 end
 
