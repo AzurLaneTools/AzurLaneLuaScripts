@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_battleshipyard_4",
 			hidePaintObj = true,
-			say = "내레이션",
+			say = "로열 포춘의 비밀 조선소, 하부 선체 부설 완료",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "로열 포춘",
+			say = "'위험을 무릅쓰고 멀리 가려는 사람만이 자신의 한계를 알 수 있다.'는 말이 있지. 배도 마찬가지야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "로열 포춘",
+			say = "아무리 좋은 품질의 목재를 쓰더라도, 항해를 오랫동안 계속하면 썩기 마련이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "로열 포춘",
+			say = "눈에 보이는 것뿐만 아니라, 보이지 않는 다양한 미생물이 선체 바닥 표면에 부착되고 말아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "로열 포춘",
+			say = "색깔이 다채로워져서 예술적인 가치는 생길지도 모르지만, 배 자체에는 굉장히 안 좋은 상황이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "로열 포춘",
+			say = "부착된 것들은 선채 밑바닥을 부식시켜 항행 속도에도 영향을 줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "로열 포춘",
+			say = "그대로 방치하면 아무리 뛰어난 전함이라도 일 년도 안 되어서 녹슬어 구멍투성이가 되고 말걸?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_4",
-			say = "로열 포춘",
+			say = "그런 꼴이 되지 않도록 방오도료라는 것도 개발되었어.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -157,7 +157,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_4",
-			say = "로열 포춘",
+			say = "이번에 사용할 건 로진이랑 타르를 혼합해서 만든 '흑색 도료'야. 성능은 평범하지만 가성비가 좋아!",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -176,7 +176,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_4",
-			say = "로열 포춘",
+			say = "그렇지만 뭐… 아무리 노력해도 최대 1년 정도밖에 유지가 안 되니까, 시간이 지나면 다시 칠해야 해.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "로열 포춘",
+			say = "배를 오래 활약할 수 있게 하려면 세심하게 유지 보수를 실시하는 게 중요해.",
 			painting = {
 				alpha = 0.3,
 				time = 1

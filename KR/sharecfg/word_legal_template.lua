@@ -2197,6 +2197,29 @@ end
 temp()
 
 function temp()
+	uv0["휴"] = {
+		["스"] = {
+			["턴"] = {
+				this = true,
+				["Ⅱ"] = {
+					this = true
+				}
+			}
+		},
+		["가"] = {
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["펜"] = {
 		["사"] = {
 			["콜"] = {
@@ -2286,26 +2309,6 @@ function temp()
 		["시"] = {
 			["로"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["휴"] = {
-		["스"] = {
-			["턴"] = {
-				this = true
-			}
-		},
-		["가"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
-				}
 			}
 		}
 	}

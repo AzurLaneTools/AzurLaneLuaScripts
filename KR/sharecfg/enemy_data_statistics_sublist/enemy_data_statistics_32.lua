@@ -1829,7 +1829,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90826] = {
 		cannon = 0,
-		name = "이세·改",
+		name = "伊势改",
 		type = 10,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1981,7 +1981,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90827] = {
 		cannon = 0,
-		name = "휴가·改",
+		name = "日向改",
 		type = 10,
 		speed_growth = 0,
 		battle_unit_type = 49,
