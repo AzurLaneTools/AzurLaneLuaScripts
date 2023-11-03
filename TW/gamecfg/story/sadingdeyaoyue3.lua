@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>三　事难巨细</size>",
+					"薩丁的邀請\n\n<size=45>三　事難鉅細</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "白鹰·？？？",
+			say = "白鷹·？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -58,7 +58,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗨~指挥官，工作辛苦了！",
+			say = "嗨~指揮官，工作辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加？例行联络的时间还没到，外面出什么事了么？",
+			say = "薩拉托加？例行聯絡的時間還沒到，外面出什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其实……司令部又收到名义上发给指挥官的私人邮件了！",
+			say = "其實……司令部又收到名義上發給指揮官的私人郵件了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………又是苏维埃同盟发的么？",
+			say = "…………又是蘇維埃聯盟發的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "猜对了！真是的……我已经可以100%确定她是故意的了！",
+			say = "猜對了！真是的……我已經可以100%確定她是故意的了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "现在对外联络受限，她们一时联络不到也还算正常……",
+			say = "現在對外聯絡受限，她們一時聯絡不到也還算正常…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然理论上是这样！不过这件事北方联合肯定不知道，所以还是故意的！",
+			say = "雖然理論上是這樣！不過這件事北方聯合肯定不知道，所以還是故意的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……这次通讯说了什么？",
+			say = "……這次通訊說了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，你知道撒丁帝国想要举办世界博览会的事了么？",
+			say = "指揮官，妳知道薩丁帝國想要舉辦世界博覽會的事了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像从前几天的报告里看到过，世界博览会已经很多年没举办过了吧？",
+			say = "好像從前幾天的報告裡看過，世界博覽會已經很多年沒辦了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错~真不知道撒丁帝国是怎么突然想起来这件事的。",
+			say = "沒錯~真不知道薩丁帝國是怎麼突然想起來這件事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看来她们这次是野心勃勃地想要做一次世界焦点呢~",
+			say = "看來她們這次是野心勃勃地想要做一次世界焦點呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "既然是采用和平的方式，倒也没什么不好。",
+			say = "既然是採取和平的方式，倒也沒什麼不好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "你提到这件事……难道说，跟北方联合的联络内容有关？",
+			say = "妳提到這件事……難道說，跟北方聯合的聯絡內容有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错！",
+			say = "沒錯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……该不会是，参会邀请函？",
+			say = "……該不會是，參會邀請函？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错~指挥官有兴趣去撒丁帝国度个假么？",
+			say = "沒錯~指揮官有興趣去薩丁帝國度個假嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……现在正是测试的紧要关头，我怎么能抛下这里不管去博览会玩呢。",
+			say = "……現在正是測試的緊要關頭，我怎麼能拋下這裡不管去博覽會玩呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然对不住北方联合的一番好意，不过这件事就代我拒绝了吧。",
+			say = "雖然對不起北方聯合的一番好意，不過這件事就代我拒絕了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，没问题哦~",
+			say = "嗯，沒問題哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "至于白鹰这边，我们计划派埃塞克斯带队前往，场馆的主题也想好了。",
+			say = "至於白鷹這邊，我們計劃派艾塞克斯帶隊前往，場館的主題也想好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "资料我一会发过来，指挥官可以当成调剂用的画册看看哦。",
+			say = "資料我等一下發過來，指揮官可以當成調劑用的畫冊看看哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这次场馆的设计特别有科幻感，肯定会吸引全世界的目光的——",
+			say = "這次的場館設計特別有科幻感，肯定會吸引全世界的目光的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……新一轮设备调试即将开始……",
+			say = "指揮官……新一輪設備測試即將開始……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "领航员小姐已经在等你了……",
+			say = "領航員小姐已經在等你了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，那指挥官你先忙，我就继续去进行博览会的准备工作了~",
+			say = "啊，那指揮官你先忙，我就繼續去做博覽會的準備了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯，你也注意休息。",
+			say = "嗯，妳也注意休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "了解~萨拉托加通讯结束。",
+			say = "了解~薩拉托加通訊結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101260,
-			say = "……指挥官，累了么？",
+			say = "……指揮官，累了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "累的话，就睡一觉……我去让领航员小姐……换个时间。",
+			say = "累的話，就睡一覺……我去讓領航員小姐……換個時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不用不用，我们出发吧————",
+			say = "不用不用，我們出發吧————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

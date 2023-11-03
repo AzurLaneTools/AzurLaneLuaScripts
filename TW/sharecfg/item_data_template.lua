@@ -4912,8 +4912,8 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "[]",
 		id = 18126,
-		compose_number = 0,
-		target_id = 0
+		compose_number = 8,
+		target_id = 18127
 	},
 	[18127] = {
 		open_directly = 0,
@@ -6117,6 +6117,18 @@ pg.item_data_template = {
 				1
 			}
 		}
+	},
+	[30205] = {
+		open_directly = 0,
+		display_effect = "OpenBox",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30205",
+		id = 30205,
+		compose_number = 0,
+		target_id = 0
 	},
 	[30301] = {
 		open_directly = 0,
@@ -22267,6 +22279,7 @@ pg.item_data_template = {
 		30202,
 		30203,
 		30204,
+		30205,
 		30301,
 		30302,
 		30303,

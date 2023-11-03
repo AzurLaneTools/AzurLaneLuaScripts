@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>四　令世人向皇家瞩目</size>",
+					"薩丁的邀請\n\n<size=45>四　令世人向皇家矚目</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "皇家·帝国博物馆",
+			say = "皇家帝國博物館",
 			side = 2,
 			bgName = "star_level_bg_116",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，您已经挑了两个小时了，要不要休息一下？",
+			say = "陛下，您已經挑了兩個小時了，要不要休息一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茶点已经准备完毕，要用茶么，陛下？",
+			say = "茶點已經準備完畢，要用茶嗎，陛下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别急，再等等……",
+			say = "別急，再等等…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本王现在没心思用下午茶——厌战，帮我把这幅画搬下来。",
+			say = "本王現在沒心思用下午茶——厭戰，幫我把這幅畫搬下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔——这也，太——重——了——",
+			say = "唔——這也，太——重——了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是帝国博物馆压箱底的宝贝，搬运的时候小心哦！",
+			say = "這可是帝國博物館壓箱底的寶貝，搬運的時候要小心喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有这边这个——英勇，你去搬！",
+			say = "還有這邊這個——英勇，妳去搬！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……赫敏来帮我~",
+			say = "欸……赫敏來幫我~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，我来帮您一起搬~",
+			say = "遵命，我來幫您一起搬~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，真的要送这些珍宝去撒丁帝国参展么？要是在海外出了点意外的话……",
+			say = "陛下，真的要送這些珍寶去薩丁帝國參展嗎？要是在海外出了點意外的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本次我们虽然不是主办方，但是要拿出主办方的气势来！",
+			say = "這次我們雖然不是主辦方，但還是要拿出主辦方的氣勢來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人气是自由的！只要用合法的手段将人气源源不断吸引到我们的场馆，就算撒丁帝国也无话可说！",
+			say = "人氣是自由的！只要用合法的手段將人氣源源不斷吸引到我們的場館，就算薩丁帝國也無話可說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自然要挑选一些上好的东西过去！",
+			say = "自然要挑選一些上好的東西過去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过当然，我怎么真的舍得让这些珍贵的文物出海巡展呢。",
+			say = "不過當然，我怎麼真的捨得讓這些珍貴的文物出海巡展呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会找皇家最好的工匠制作以假乱真的仿制品。长途奔波海外展览这种事就让仿品去做吧~",
+			say = "我會找皇家最好的工匠製作以假亂真的仿製品。長途奔波海外展覽這種事就讓仿品去做吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此！这样的话确实就不用担心文物的安全了！",
+			say = "原來如此！這樣的話確實就不用擔心文物的安全了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……再加上这件好了。豪，你接一下。",
+			say = "嗯……再加上這件好了。豪，妳接一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，陛下……",
+			say = "遵命，陛下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了，就先这些。贝法，清单写好了么？",
+			say = "好了，就先這些。貝法，清單寫好了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经写完了，请过目。",
+			say = "已經寫完了，請過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……文物的数量好像有点太多了。",
+			say = "嗯……文物的數量好像有點太多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只带这些去参展的话，说不定会被撒丁的那些家伙认为我们只有这些古董能拿得出手……",
+			say = "只帶這些去參展的話，說不定會被薩丁的那些傢伙認為我們只有這些古董能拿得出手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来有必要给我们的展品增添一些科技气息……",
+			say = "看來有必要為我們的展品增添一些科技氣息…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝法，你再给我拟一份清单吧！",
+			say = "貝法，妳再幫我擬一份清單吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把那种不是非常重要，但是又能彰显皇家科技水准的东西列出来让我挑！",
+			say = "把那種不是非常重要，但又能彰顯皇家科技水準的東西列出來讓我挑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，我一会就去办。",
+			say = "遵命，我等下就去辦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是陛下，这样一来我们的展品数量就大大超过预期了啊……",
+			say = "可是陛下，這樣一來我們的展品數量就大大超過預期了啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就把我们的水晶宫再修大一点！",
+			say = "那就把我們的水晶宮再修大一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，不止是修大一点，还要比我们以前修过的都要华丽！",
+			say = "不，不只修大一點，還要比我們以前修過的都要華麗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区区撒丁帝国根本不足为虑，我要让所有人都拜倒在皇家富丽堂皇的宫殿之下！",
+			say = "區區薩丁帝國根本不足為慮，我要讓所有人都拜倒在皇家富麗堂皇的宮殿之下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "具体会场的负责工作就让陆间海那边的光辉去弄好了。",
+			say = "具體會場的負責工作就讓地中海那邊的光輝去弄好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于展品运输舰队……就交给谢菲带队吧。",
+			say = "至於展品運輸艦隊……就交給謝菲帶隊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，我还是认为由我来带队会更好。",
+			say = "陛下，我還是認為由我來帶隊會更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别担心，会场那边的事光辉和谢菲足够应付了。",
+			say = "別擔心，會場那邊的事光輝和謝菲足夠應付了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我更在意的是，赤色中轴会不会借助这次展会明修栈道暗度陈仓做些小动作。",
+			say = "我更在意的是，赤色中軸會不會藉助這次展會明修棧道暗度陳倉做些小動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在整个博览会期间，我需要直布罗陀、北海、多佛尔海峡三处时刻有舰队警戒待命，以备不时之需。",
+			say = "在整個博覽會期間，我需要直布羅陀、北海、多佛海峽三處時刻有艦隊警戒待命，以備不時之需。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事就分别交给你们三人带队负责了——厌战、英勇、豪。",
+			say = "這件事就分別交給你們三人帶隊負責了──厭戰、英勇、豪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 		},
 		{
 			actor = 205020,
-			actorName = "厌战&英勇&豪",
+			actorName = "厭戰&英勇&豪",
 			bgName = "star_level_bg_116",
 			side = 0,
 			dir = 1,
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好。那展品就选到这里，我们去享用下午茶吧~",
+			say = "很好。那展品就選到這裡，我們去享用下午茶吧~",
 			effects = {
 				{
 					active = false,

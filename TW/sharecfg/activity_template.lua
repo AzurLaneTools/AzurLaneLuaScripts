@@ -630,6 +630,219 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4460] = {
+		mark = 20231102,
+		id = 4460,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 16,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MainzTecCatchupPage",
+			ui_name = "MainzTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42023
+		}
+	},
+	[4461] = {
+		mark = 20231102,
+		config_client = "",
+		title_res_tag = "maoxiV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 18,
+		id = 4461,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3FramePage",
+			ui_name = "YidaliV3FramePage"
+		}
+	},
+	[4462] = {
+		mark = 20231102,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 19,
+		is_show = 0,
+		config_client = "",
+		id = 4462,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4463] = {
+		mark = 20231102,
+		id = 4463,
+		title_res_tag = "yidaliV3_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 17,
+		config_data = {
+			{
+				17801
+			},
+			{
+				17802
+			},
+			{
+				17803
+			},
+			{
+				17804
+			},
+			{
+				17805
+			},
+			{
+				17806
+			},
+			{
+				17807
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3SkinPage",
+			ui_name = "YidaliV3SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"SADINGDEYAOYUE1"
+				},
+				{
+					"SADINGDEYAOYUE2"
+				},
+				{
+					"SADINGDEYAOYUE3"
+				},
+				{
+					"SADINGDEYAOYUE4"
+				},
+				{
+					"SADINGDEYAOYUE5"
+				},
+				{
+					"SADINGDEYAOYUE6"
+				},
+				{
+					"SADINGDEYAOYUE7"
+				}
+			}
+		}
+	},
 	[4686] = {
 		mark = 20230209,
 		time = "stop",
@@ -33293,7 +33506,7 @@ pg.activity_template = {
 		type = 11,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 54,
+		is_show = 10,
 		config_data = {},
 		time = {
 			"timer",
@@ -33454,7 +33667,7 @@ pg.activity_template = {
 	},
 	[41361] = {
 		mark = 20231019,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 46,
 		login_pop = 0,
@@ -33462,34 +33675,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 41361,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 41361
 	},
 	[41362] = {
 		mark = 20231019,
@@ -33532,12 +33719,13 @@ pg.activity_template = {
 	},
 	[41363] = {
 		mark = 20231019,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41363,
 		config_data = {
@@ -33547,43 +33735,17 @@ pg.activity_template = {
 			18018,
 			18019,
 			18020
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41364] = {
 		mark = 20231019,
-		id = 41364,
 		title_res_tag = "royal_fortune",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 58,
+		id = 41364,
 		config_data = {
 			{
 				18559,
@@ -33608,33 +33770,6 @@ pg.activity_template = {
 			{
 				18569,
 				18570
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -33707,41 +33842,15 @@ pg.activity_template = {
 	},
 	[41366] = {
 		mark = 20231019,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41366,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -33761,12 +33870,13 @@ pg.activity_template = {
 	},
 	[41367] = {
 		mark = 20231019,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41367,
 		config_data = {
@@ -33774,33 +33884,6 @@ pg.activity_template = {
 			339,
 			340,
 			341
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[45000] = {
@@ -36006,7 +36089,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 53,
+		is_show = 11,
 		config_data = {
 			101,
 			102,
@@ -36099,6 +36182,10 @@ pg.activity_template = {
 		4067,
 		4076,
 		4254,
+		4460,
+		4461,
+		4462,
+		4463,
 		4686,
 		4732,
 		4733,

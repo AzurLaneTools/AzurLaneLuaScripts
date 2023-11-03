@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>二　细心的秘书舰</size>",
+					"聽妳說喜歡\n\n<size=45>二　細心的秘書艦</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "贾维斯成为秘书舰已经过了好几天，开始逐渐了解她的性格了。",
+			say = "傑維斯成為秘書艦已經過了好幾天，開始逐漸了解她的個性了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "哈啊……不是说了要勤开窗通风么？请指挥官多为自己的健康着想一下。",
+			say = "哈啊……不是說了要勤開窗通風嗎？請指揮官多為自己的健康著想一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "贾维斯打开了窗户，房间内顿时涌入了新鲜的冷空气。",
+			say = "傑維斯打開了窗戶，房間內頓時湧入了新鮮的冷空氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "这个季节的话确实会有些冷，给，把这件外套披上。",
+			say = "這個季節的話確實會有些冷，給你，把這件外套披上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "然后我现在去准备热茶……",
+			say = "然後我現在就去準備熱茶…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "你要是病倒的话可就麻烦了。不仅港区的工作会堆积起来，我也不得不一直照顾你。",
+			say = "你要是病倒的話可就麻煩了。不只港區的工作會堆積起來，我也不得不一直照顧你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "没办法，谁让我现在是秘书舰呢。不用客气，这些都是分内的工作。",
+			say = "沒辦法，誰讓我現在是秘書艦。不用客氣，這些都是分內的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然贾维斯表面上是一副不情愿的模样，实际上责任心非常强。",
+			say = "雖然傑維斯表面上是一副不情願的模樣，實際上責任感非常強。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "交给她的工作都能漂亮地完成，指挥室也被打理得井井有条。",
+			say = "交給她的工作都能漂亮地完成，指揮室也被打理得井井有條。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "这是新的墨水，之前我看到桌子上的墨水瓶快用完了，所以去仓库拿的。",
+			say = "這是新的墨水，之前我看到桌子上的墨水瓶快用完了，所以去倉庫拿的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "可不要把墨水弄到桌子上了，清理起来很麻烦。",
+			say = "可不要把墨水弄到桌子上了，清理起來很麻煩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示感谢",
+					content = "表示感謝",
 					flag = 1
 				}
 			}
@@ -237,7 +237,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不用客气，这是秘书舰分内的工作。",
+			say = "不用客氣，這是秘書艦分內的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后……拿墨水的时候我还顺便清点了仓库，这个是清单。",
+			say = "然後……拿墨水的時候我還順便清點了倉庫，這個是清單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "废弃的文件也已经用碎纸机处理掉了。",
+			say = "廢棄的文件也已經用碎紙機處理掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还有————",
+			say = "還有————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "在贾维斯面面俱到的协助下，本日工作效率有了飞速提升。",
+			say = "在傑維斯面面俱到的協助下，本日工作效率有了快速提升。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "这样节约下来的时间就可以处理更多的工作了！",
+			say = "這樣節約下來的時間就可以處理更多的工作了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "工作要讲究劳逸结合，保证你的健康也是我的职责之一。",
+			say = "工作要講究勞逸結合，確保你的健康也是我的職責之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "差不多该去休息了吧，指挥官？",
+			say = "差不多該去休息了吧，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

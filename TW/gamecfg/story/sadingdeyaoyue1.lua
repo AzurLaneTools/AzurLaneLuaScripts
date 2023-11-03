@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>一　令世人瞩目</size>",
+					"薩丁的邀請\n\n<size=45>一　令世人矚目</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "撒丁帝国·会议室",
+			say = "薩丁帝國·會議室",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
@@ -58,7 +58,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "久等了，撒丁帝国的盟友们。",
+			say = "久等了，薩丁帝國的盟友們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "关于贵方提出的世界博览会参展邀请，铁血决定应约参展。",
+			say = "關於貴方提出的世界博覽會參展邀請，鐵血決定應約參展。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这个结果不知二位可否满意呢？",
+			say = "這個結果不知二位可否滿意呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这真是一个令人振奋的好消息。非常感谢，{namecode:435}阁下。",
+			say = "這真是一個令人振奮的好消息。非常感謝，俾斯麥閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "有了铁血的支持，这次博览会一定会闪耀出更加夺目的光芒。",
+			say = "有了鐵血的支持，這次博覽會一定會閃耀出更奪目的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，您言重了，维内托阁下。",
+			say = "呵呵，您言重了，維內托閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "撒丁帝国是铁血忠实的盟友，你们想要做的事，我们自然会全力支持。",
+			say = "薩丁帝國是鐵血忠實的盟友，妳們想做的事，我們自然會全力支持。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "为了确保博览会顺利举行而延长停火协议的事自然也没问题。",
+			say = "為了確保博覽會順利舉行而延長停火協議的事自然也沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这件事是赤色中轴内的多数共识，我们已经在安排推进了。",
+			say = "這件事是赤色中軸內的多數共識，我們已經在安排推進了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不论过去发生了什么，未来又将发生什么。",
+			say = "不論過去發生了什麼，未來又會發生什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "至少当下的和平是值得每一个人珍惜的，铁血自然也不例外。",
+			say = "至少當下的和平是值得每一個人珍惜的，鐵血自然也不例外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我已经将博览会的事交给了{namecode:427}，她在近日就会带队抵达罗马。",
+			say = "我已經將博覽會的事交給了歐根親王，她在近日就會帶隊抵達羅馬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在博览会期间，她可以全权代表铁血处理一切相关事务。",
+			say = "在博覽會期間，她可以全權代表鐵血處理一切相關事務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么安排，你们看可以么？",
+			say = "這麼安排，妳們看可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们当然没问题。{namecode:427}办事认真可靠，她的能力是有目共睹的。",
+			say = "我們當然沒問題。歐根親王辦事認真可靠，她的能力是有目共睹的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "撒丁帝国由衷欢迎铁血代表团的到来~",
+			say = "薩丁帝國由衷歡迎鐵血代表團的到來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就太好了。我在此预祝本次由撒丁帝国主办的世界博览会能够取得圆满成功——",
+			say = "那就太好了。我在此預祝本次由薩丁帝國主辦的世界博覽會能夠圓滿成功——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼…………终于结束了，我们的博览会计划总算是有了个好的开头……",
+			say = "呼…………終於結束了，我們的博覽會計畫總算是有了個好的開頭……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "嗯？刚才谈的不是挺顺利的…你这幅表情是怎么回事啊……？",
+			say = "嗯？剛才談的不是還挺順利的…妳這副表情是怎麼回事啊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "我这副表情是……压力的具现化！",
+			say = "我這副表情是……壓力的具現化！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "我是真的完全没想到有生之年还能再见到{namecode:435}，更别提跟她开会了……",
+			say = "我真的完全沒想到有生之年還能再見到俾斯麥，更別提跟她開會了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "铁血这件事做的也太夸张了，不论是治疗技术还是保密水平……",
+			say = "鐵血這件事做的也太誇張了，不論是治療技術還是保密程度…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "是啊~真没想到{namecode:435}居然能完好无损的回来。",
+			say = "是啊~真沒想到俾斯麥居然能完好的回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "不过这不也挺好么？以后不用再跟隔着通讯器都能释放压力的{namecode:440}打交道了。",
+			say = "不過這不也蠻好的嗎？以後不用再跟隔著通訊器都能釋放壓力的腓特烈大帝打交道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "利托里奥，你说铁血这次不会在博览会期间发动进攻吧？",
+			say = "利托里奧，妳說鐵血這次不會在博覽會期間發動攻擊吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "嗯……好问题。",
+			say = "嗯……好問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "按照逻辑来看，不会。",
+			say = "按照邏輯來看，不會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "此前由北方联合牵头的打击行动，如果不是因为{namecode:440}的惊人之举是不可能鸣金收兵的。",
+			say = "先前由北方聯合牽頭的打擊行動，如果不是因為腓特烈大帝的驚人之舉是不可能鳴金收兵的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "以后的事虽然不好说，不过现在的铁血比所有阵营都更需要这场和平。",
+			say = "以後的事雖然不好說，不過現在的鐵血比所有陣營都更需要這場和平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "我觉得她应该不会趁机……去做些什么吧。",
+			say = "我覺得她應該不會趁機……去做點什麼吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "怎么连你也这么不确定了……",
+			say = "怎麼連妳也這麼不確定了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "逻辑终究是逻辑，毕竟是那个{namecode:435}，我也实在是拿不准啊……",
+			say = "邏輯終究是邏輯，畢竟是那個俾斯麥，我也實在是猜不透啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "不过最起码！我们有绝对有能力保证在陆间海中不会有此类事件发生。",
+			say = "不過最起碼！我們有絕對有能力保證在地中海中不會有此類事件發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "只要会场不出乱子，我们也算是尽到东道主的责任了嘛~",
+			say = "只要會場不出亂子，我們也算是盡到東道主的責任了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "现在铁血表示了支持，重樱与维希教廷肯定也没问题。",
+			say = "現在鐵血表示了支持，重櫻與維希教廷肯定也沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "至于碧蓝航线……北方联合肯定会支持我们，更多的支持相信也只是时间问题。",
+			say = "至於碧藍航線…北方聯合會肯定會支持我們，更多的支持相信只是時間問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "这种既能扩大影响力，听起来好听又没什么成本的活动，她们是绝对不会错过的。",
+			say = "這種既能擴大影響力，聽起來好聽又沒什麼成本的活動，它們是絕對不會錯過的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "在世界局势有所缓和的当下，举办一场世界博览会真是再合适不过了。",
+			say = "在世界局勢緩和的當下，舉辦一場世界博覽會真是再適合不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "倒不如说就算我们不提出来，恐怕也有别的阵营在做这个打算。",
+			say = "倒不如說就算我們不提出來，恐怕有別的陣營在做這個打算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "呵呵，这次是被我们撒丁帝国抢占了先机呢。",
+			say = "呵呵，這次是被我們薩丁帝國搶先了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "届时，各国齐聚的博览会会场就是展现撒丁帝国威仪的最好舞台！",
+			say = "屆時，各國齊聚的博覽會場地就是展現薩丁帝國威儀的最佳舞台！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "马可波罗偶尔还是能提出来些有价值的建议啊~",
+			say = "馬可波羅偶爾還是能提出來些有價值的建議~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "利托里奥，一会陪我去浴场泡个澡吧？",
+			say = "利托里奧，等一下陪我去浴場泡個澡吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "接下来还有场馆的设计工作，人在放松的时候更容易想出好点子哦？",
+			say = "接下來還有場館的設計工作，人們在放鬆的時候更容易想出好點子哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常赞同，乐意奉陪——",
+			say = "非常贊同，樂意奉陪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

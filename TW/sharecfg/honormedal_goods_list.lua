@@ -717,6 +717,23 @@ pg.honormedal_goods_list = {
 			42026
 		}
 	},
+	{
+		price = 15,
+		goods_purchase_limit = 20,
+		goods_icon = "Props/30205",
+		type = 2,
+		group = 10028,
+		num = 1,
+		goods_name = "鸢尾装备研发支援箱",
+		goods_type = 1,
+		id = 41,
+		is_ship = 0,
+		goods_rarity = 2,
+		order = 31,
+		goods = {
+			30205
+		}
+	},
 	all = {
 		1,
 		2,
@@ -757,6 +774,7 @@ pg.honormedal_goods_list = {
 		37,
 		38,
 		39,
-		40
+		40,
+		41
 	}
 }

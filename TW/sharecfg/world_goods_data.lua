@@ -1430,6 +1430,17 @@ pg.world_goods_data = {
 		price_num = 300,
 		price_type = 12
 	},
+	[80204] = {
+		id = 80204,
+		priority = 5,
+		price_id = 101,
+		item_num = 1,
+		item_id = 2122,
+		item_type = 12,
+		frequency = 1,
+		price_num = 500,
+		price_type = 12
+	},
 	[90101] = {
 		id = 90101,
 		priority = 5,
@@ -2122,6 +2133,7 @@ pg.world_goods_data = {
 		80202,
 		80104,
 		80203,
+		80204,
 		90101,
 		90201,
 		90102,

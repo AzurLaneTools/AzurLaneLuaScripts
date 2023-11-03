@@ -988,6 +988,19 @@ pg.world_newshop_data = {
 		price_num = 300,
 		price_type = 12
 	},
+	[40402] = {
+		port_id = 4,
+		priority = 21,
+		price_id = 101,
+		item_id = 2122,
+		id = 40402,
+		item_num = 1,
+		unlock_num = 50,
+		item_type = 12,
+		frequency = 1,
+		price_num = 500,
+		price_type = 12
+	},
 	[40403] = {
 		port_id = 4,
 		priority = 22,
@@ -1104,6 +1117,7 @@ pg.world_newshop_data = {
 		40306,
 		40307,
 		40401,
+		40402,
 		40403,
 		40404,
 		40405

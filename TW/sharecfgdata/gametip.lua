@@ -9653,15 +9653,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "三笠、比叡 建造追加！"
+	tip = "駿河 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "濱風 建造追加！"
+	tip = "能代、風雲、白雪、霞 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "赤城(μ兵裝) 建造追加！"
+	tip = "龍鳳 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {

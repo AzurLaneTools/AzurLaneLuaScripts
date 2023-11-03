@@ -342,6 +342,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「即使歷經時間與戰火的磨損，曾經的誓言依舊如恆星般閃耀」</color>\n「泠誓光庭」活動獲取",
 		scene = {}
 	},
+	[321] = {
+		time_limit_type = 0,
+		name = "雄鷹之輝",
+		gain_by = "雄鷹的敘事歌",
+		id = 321,
+		time_second = 0,
+		desc = "<color=#ffffff>「縱使未來荊棘密布，七丘之上的雄鷹也將繼續翱翔。」</color>\n「雄鷹的敘事歌」活動獲取",
+		scene = {}
+	},
 	[322] = {
 		time_limit_type = 0,
 		name = "流嵐紫霆",
@@ -462,6 +471,7 @@ pg.item_data_frame = {
 		318,
 		319,
 		320,
+		321,
 		322,
 		401,
 		402,

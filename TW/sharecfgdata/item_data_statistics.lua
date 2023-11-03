@@ -11347,6 +11347,29 @@ _G.pg.base.item_data_statistics[30204] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30205] = {
+	display = "包含一件稀有的鸢尾装备研发初始装备",
+	name = "鸢尾装备研发支援箱",
+	max_num = 0,
+	type = 5,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/30205",
+	id = 30205,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30301] = {
 	display = "裡面夾著一張小紙條——「聖誕快樂喵！接下來也要一起加油喵～」",
 	name = "{namecode:98}的聖誕禮物",
@@ -167144,6 +167167,29 @@ _G.pg.base.item_data_statistics[59329] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59329,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59330] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	id = 59330,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>四　贾维斯与雅努斯</size>",
+					"聽妳說喜歡\n\n<size=45>四　傑維斯與雅努斯</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚－（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "打、打扰了！",
+			say = "打、打擾了！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "来访者是与贾维斯同为J级驱逐舰的雅努斯。",
+			say = "來訪者是與傑維斯同為J級驅逐艦的雅努斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "雅努斯？是有什么事情要找指挥官么？",
+			say = "雅努斯？是有什麼事情要找指揮官嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不要紧张，深呼吸——",
+			say = "不要緊張，深呼吸——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "现在好些了吧？",
+			say = "現在好一點了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "嗯，谢谢你贾维斯。",
+			say = "嗯，謝謝妳傑維斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "那、那个，我是来提交演习申请的！",
+			say = "那、那個，我是來提交演習申請的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "这是申请书，请收下……",
+			say = "這是申請書，請收下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "好的，书面申请我收下了，等指挥官审批后会通知具体的演习时间。",
+			say = "好的，書面申請我收下了，等指揮官審核後會通知具體的演習時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "那、那我就先告辞了！指挥官还有贾维斯，工作加油哦！",
+			say = "那、那我就先告辭了！指揮官還有傑維斯，工作加油哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "我也要为演习好好做准备才行！",
+			say = "我也要為演習好好做準備才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "雅努斯离开后，感觉贾维斯好像难得的有些心不在焉。",
+			say = "雅努斯離開後，感覺傑維斯好像難得的有點心不在焉。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大概是因为雅努斯要参加演习的事？",
+			say = "大概是因為雅努斯要參加演習的事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			},
 			options = {
 				{
-					content = "开口询问",
+					content = "開口詢問",
 					flag = 1
 				}
 			}
@@ -410,7 +410,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔，被你看出来了么？",
+			say = "唔，被你看出來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我确实有些担心雅努斯那孩子…………",
+			say = "我確實有些擔心雅努斯那孩子…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然她很懂事也很听话，但是在与人相处这方面稍微有些过于内向了。",
+			say = "雖然她很懂事也很聽話，但是在與人相處這方面稍微有些過於內向了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而演习这种事是很需要沟通的……",
+			say = "而演習這種事是很需要溝通的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			},
 			options = {
 				{
-					content = "之后一起去看演习吧。",
+					content = "之後一起去看演習吧。",
 					flag = 2
 				}
 			}

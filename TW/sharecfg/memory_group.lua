@@ -112,6 +112,7 @@ pg.memory_group = setmetatable({
 		219,
 		220,
 		221,
+		222,
 		224,
 		225,
 		226,
@@ -200,6 +201,7 @@ pg.memory_group = setmetatable({
 		572,
 		573,
 		574,
+		576,
 		577,
 		578,
 		579
@@ -2623,6 +2625,23 @@ pg.base.memory_group = {
 			2197
 		}
 	},
+	[222] = {
+		id = 222,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "薩丁的邀請",
+		memories = {
+			2211,
+			2212,
+			2213,
+			2214,
+			2215,
+			2216,
+			2217
+		}
+	},
 	[224] = {
 		id = 224,
 		subtype = 1,
@@ -4207,6 +4226,23 @@ pg.base.memory_group = {
 			2125,
 			2126,
 			2127
+		}
+	},
+	[576] = {
+		id = 576,
+		subtype = 0,
+		icon = "title_chara_jiaweisi",
+		type = 3,
+		link_event = 0,
+		title = "聽你說喜歡",
+		memories = {
+			2201,
+			2202,
+			2203,
+			2204,
+			2205,
+			2206,
+			2207
 		}
 	},
 	[577] = {

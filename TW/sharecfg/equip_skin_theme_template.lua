@@ -634,7 +634,7 @@ pg.equip_skin_theme_template = {
 	},
 	[35] = {
 		id = 35,
-		name = "童话世界",
+		name = "童話世界",
 		ids = {
 			580,
 			581,

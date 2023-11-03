@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>一　冷淡的秘书舰</size>",
+					"聽妳說喜歡\n\n<size=45>一　冷淡的秘書艦</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家所属，J级驱逐舰贾维斯号，从今天开始担任秘书舰一职。",
+			say = "皇家所屬，J級驅逐艦傑維斯號，從今天開始擔任秘書艦一職。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "你来的很准时——让秘书舰等太久可不能算是好指挥官呢。",
+			say = "你來的很準時——讓秘書艦等太久可不能算是好指揮官呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,24 +88,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "来到指挥室的时候，秘书舰贾维斯已经在办公桌前等待了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201340,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "那么指挥官，让我们开始今天的工作吧。",
+			say = "來到指揮室的時候，秘書艦傑維斯已經在辦公桌前等待了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先从文件的整理开始——",
+			say = "那麼指揮官，就讓我們開始今天的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +122,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些是需要优先处理的文件，请过目。",
+			say = "先從文件的整理開始——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201340,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "這些是需要優先處理的文件，請過目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "接过贾维斯递来的文件，仔细端详起来。",
+			say = "接過傑維斯遞來的文件，仔細端詳起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "…………眼睛离文件太近了。",
+			say = "…………眼睛離文件太近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "指挥官，如果不想以后的世界渐渐变模糊的话，还请老老实实端正一下坐姿。",
+			say = "指揮官，如果不想以後的世界漸漸模糊的話，還請老實端正一下坐姿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "良好的习惯可以提高工作的效率，这一点请牢记。",
+			say = "良好的習慣可以提高工作的效率，請牢記這一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "唔，这份文件上的内容有些令人在意啊——",
+			say = "唔，這份文件上的內容有點令人在意啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "……指挥官，觉得维持坐姿太累了装作没听到可不好，我要采取强制措施了。",
+			say = "……指揮官，覺得維持坐姿太累了裝作沒聽到可不好，我要採取強制措施了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感受到了背部传来的压力……被迫改变了坐姿。",
+			say = "感受到了背部傳來的壓力……被迫改變了坐姿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "嗯，现在好多了。",
+			say = "嗯，現在好多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "然后，请时刻保持桌面的整洁与有序，不要乱堆东西。",
+			say = "然後，請隨時保持桌面的整潔與秩序，不要亂堆東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不然工作效率变慢，任务就会堆积起来。",
+			say = "不然工作效率變慢，任務就會堆積起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "就像拖延着的病不治，变麻烦了就晚了。",
+			say = "就像拖延著的病不治，變麻煩就太晚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "尽管贾维斯嘴上这样说着，手上却已经开始进行文件的归类与整理了。",
+			say = "儘管傑維斯嘴上這樣說著，手上卻已經開始進行文件的歸類與整理了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然看起来有些冷淡，工作确实认真负责——",
+			say = "雖然看起來有些冷淡，工作確實認真負責——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "指挥官，你有在好好听么？",
+			say = "指揮官，你有在好好聽嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不好好记下来的话，下次就请不要指望我来帮你了。",
+			say = "不好好記下來的話，下次就請不要指望我來幫你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "——希望接下来能够更加了解她吧。",
+			say = "——希望接下來能夠更加了解她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
