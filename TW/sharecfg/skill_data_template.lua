@@ -268,6 +268,7 @@ pg.skill_data_template = setmetatable({
 		6950,
 		6960,
 		6970,
+		6980,
 		6990,
 		60100,
 		60110,
@@ -10797,6 +10798,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "自由鳶尾、維希教廷陣營角色裝備時，戰鬥開始後30秒，回復自身3%耐久，每場戰鬥限1次",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6980] = {
+		desc_get = "",
+		name = "薩丁的邀請",
+		id = 6980,
+		type = 0,
+		max_level = 0,
+		desc = "戰鬥中，自身為非薩丁陣營角色且與維托里奧·維內托同時出擊時：①若自身為先鋒艦隊角色，自身炮擊、雷擊、機動屬性提高10.0% ②若自身為主力艦隊角色，自身炮擊、航空、命中屬性提高8.0%",
 		system_transform = {},
 		world_death_mark = {
 			1

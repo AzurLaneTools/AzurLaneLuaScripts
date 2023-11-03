@@ -4234,7 +4234,7 @@ pg.base.memory_group = {
 		icon = "title_chara_jiaweisi",
 		type = 3,
 		link_event = 0,
-		title = "聽你說喜歡",
+		title = "聽妳說喜歡",
 		memories = {
 			2201,
 			2202,
