@@ -98,7 +98,7 @@ pg.roll_attr = {
 	{
 		ID = 12,
 		name = "Folklore Scholar",
-		default_value = "Average",
+		default_value = "Novice",
 		random_value = {
 			"Bad",
 			"Novice",

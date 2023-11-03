@@ -959,7 +959,7 @@ return {
 			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Congratulations. You have attained average proficiency in the Folklore Scholar skill. Your Intelligence stat is 90 and your Education stat is 30.",
+			say = "Congratulations. You have attained novice proficiency in the Folklore Scholar skill. Your Intelligence stat is 90 and your Education stat is 30.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

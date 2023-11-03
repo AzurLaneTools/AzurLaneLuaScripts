@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "(Ah, right, my Folklore Scholar proficiency is only average. If I tell her the truth, she'll probably lose interest.)",
+			say = "(Ah, right, my Folklore Scholar proficiency is only novice. If I tell her the truth, she'll probably lose interest.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

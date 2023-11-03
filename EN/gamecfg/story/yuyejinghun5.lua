@@ -311,7 +311,7 @@ return {
 			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Congratulations. Yes, you have remembered the skill Folklore Scholar. You have average proficiency in this skill.",
+			say = "Congratulations. Yes, you have remembered the skill Folklore Scholar. You have novice proficiency in this skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I'm not jumping on the bandwagon so soon... Also, how come I only have average proficiency in it?",
+			say = "I'm not jumping on the bandwagon so soon... Also, how come I only have novice proficiency in it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
