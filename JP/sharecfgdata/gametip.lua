@@ -26166,3 +26166,237 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }
+
+_G.pg.base.gametip.roll_room1 = {
+	tip = "使用人部屋"
+}
+
+_G.pg.base.gametip.roll_room2 = {
+	tip = "1Fホール"
+}
+
+_G.pg.base.gametip.roll_room3 = {
+	tip = "客間"
+}
+
+_G.pg.base.gametip.roll_room4 = {
+	tip = "中庭"
+}
+
+_G.pg.base.gametip.roll_room5 = {
+	tip = "リビング"
+}
+
+_G.pg.base.gametip.roll_room6 = {
+	tip = "執事ルーム"
+}
+
+_G.pg.base.gametip.roll_room7 = {
+	tip = "ダイニング"
+}
+
+_G.pg.base.gametip.roll_room8 = {
+	tip = "キッチン"
+}
+
+_G.pg.base.gametip.roll_room9 = {
+	tip = "宴会ホール"
+}
+
+_G.pg.base.gametip.roll_room10 = {
+	tip = "展望デッキ"
+}
+
+_G.pg.base.gametip.roll_room11 = {
+	tip = "ベッドルーム"
+}
+
+_G.pg.base.gametip.roll_room12 = {
+	tip = "コレクションルーム"
+}
+
+_G.pg.base.gametip.roll_room13 = {
+	tip = "2Fホール"
+}
+
+_G.pg.base.gametip.roll_room14 = {
+	tip = "ベッドルーム"
+}
+
+_G.pg.base.gametip.roll_room15 = {
+	tip = "書斎"
+}
+
+_G.pg.base.gametip.roll_room16 = {
+	tip = "隠し部屋"
+}
+
+_G.pg.base.gametip.roll_room17 = {
+	tip = "ガーデン"
+}
+
+_G.pg.base.gametip.roll_attr_list = {
+	tip = {
+		"説得",
+		"応急手当",
+		"META研究",
+		"ｾｲﾚｰﾝ研究",
+		"情報分析",
+		"機械修理",
+		"薬理学",
+		"民俗学",
+		"心理学",
+		"地質学",
+		"鍵開け",
+		"目星",
+		"手さばき",
+		"ランニング",
+		"ダイビング",
+		"メカ操縦",
+		"戦術研究",
+		"格闘",
+		"射撃",
+		"サバイバル",
+		"キューブ研究",
+		"危険察知",
+		"魅惑",
+		"釣り",
+		"法律学",
+		"量産艦操縦",
+		"艤装修理",
+		"罠制作",
+		"砲術",
+		"天文学",
+		"暗号学",
+		"法律研究",
+		"料理",
+		"石油調査",
+		"図書館",
+		"ナビゲート",
+		"乗馬",
+		"ヒプノシス",
+		"追跡",
+		"言語",
+		"登攀",
+		"ｱｲﾃﾑ整理",
+		"時間調整",
+		"書類作業",
+		"艦隊集結",
+		"兵站業務",
+		"外交学",
+		"保健",
+		"農学",
+		"土木工事",
+		"戦術指揮"
+	}
+}
+
+_G.pg.base.gametip.roll_notimes = {
+	tip = "ロール回数が不足しています"
+}
+
+_G.pg.base.gametip.roll_tip2 = {
+	tip = "開放されたエリアを探索するとロールできます"
+}
+
+_G.pg.base.gametip.roll_reward_word1 = {
+	tip = "序幕"
+}
+
+_G.pg.base.gametip.roll_reward_word2 = {
+	tip = "第一幕"
+}
+
+_G.pg.base.gametip.roll_reward_word3 = {
+	tip = "第二幕"
+}
+
+_G.pg.base.gametip.roll_reward_word4 = {
+	tip = "第三幕"
+}
+
+_G.pg.base.gametip.roll_reward_word5 = {
+	tip = "第四幕"
+}
+
+_G.pg.base.gametip.roll_reward_word6 = {
+	tip = "第五幕"
+}
+
+_G.pg.base.gametip.roll_reward_word7 = {
+	tip = "第六幕"
+}
+
+_G.pg.base.gametip.roll_reward_word8 = {
+	tip = "第七幕"
+}
+
+_G.pg.base.gametip.roll_reward_tip = {
+	tip = "完成済$1/$2"
+}
+
+_G.pg.base.gametip.roll_unlock = {
+	tip = "すべてのエンディングを集めると探索者を作成できます"
+}
+
+_G.pg.base.gametip.roll_noname = {
+	tip = "名前を入力してからボタンをタップしてください"
+}
+
+_G.pg.base.gametip.roll_card_info = {
+	tip = "基本情報"
+}
+
+_G.pg.base.gametip.roll_card_attr = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.roll_card_skill = {
+	tip = "技能"
+}
+
+_G.pg.base.gametip.roll_times_left = {
+	tip = "残り回数:$1"
+}
+
+_G.pg.base.gametip.roll_room_unexplored = {
+	tip = "???"
+}
+
+_G.pg.base.gametip.roll_reward_got = {
+	tip = "受取済"
+}
+
+_G.pg.base.gametip.roll_gametip = {
+	tip = {
+		{
+			info = [[
+概要 
+開催期間:11月3日(金)データ更新後～11月16日(木)メンテナンスまで
+ 期間限定任務「敵を累計XXの体撃破する」をクリアし、キャッスルを探索しストーリーを解放し、ストーリー解放数報酬である「探索報酬」から限定家具「運命のダイス」などの報酬をGET！
+
+ ◇「探索」について
+ 「嵐夜綺譚」イベントバナーに表示される「累計撃破数」限定任務をクリアする毎に、「探索ロール回数」を1回入手できます。
+ イベントバナー右下の「探索」ボタンをタップすると、古城探索画面に移行することができます。探索画面では、右下のロールボタンタップでロール回数を消費し、探索エリアを解放（ストーリーを開放）することができます。
+ 探索エリアをタップすると、ストーリーを読むことができます。
+
+  探索画面でのロール結果次第で、「成功」か「失敗」の結果が表示されます。「成功」になると、新たに2つの探索可能エリアが開放され、「失敗」になると新たに1つのエリアが開放されます。
+ 探索するエリアによって、違うストーリーを読むことができますが、ストーリーでゲームオーバー（バッドエンド）になった場合探索前に自動で戻され、再度ロールすることができます。（ロール回数を消費せず、ロール回数を所持していない場合でもロールできます）
+
+ 探索したエリアの数に応じて、探索画面右の「探索報酬」で限定家具「運命のダイス」などの報酬を入手できます。
+ また、すべてのストーリーを読み終えると、「探索者」機能が開放され、探索者のプロフィールカードを作成する事ができます。
+
+ ◇「探索者作成」について
+ すべてのストーリーをクリアする、「探索者作成」機能が開放されます。
+ 「探索者作成」では、名前を入力することでランダムの探索者プロフィールを表示させることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.roll_ending_tip1 = {
+	tip = "1Fと2Fのすべてのエリアを探索し物語の終末を確かめよう！"
+}
+
+_G.pg.base.gametip.roll_ending_tip2 = {
+	tip = "1Fと2Fのすべてのエリアを探索しよう！"
+}

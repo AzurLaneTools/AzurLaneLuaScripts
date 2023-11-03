@@ -108,11 +108,36 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp4",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene Cryptolalia",
 			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					11,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -256,11 +281,36 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5022",
-		time = "stop",
-		type = 3,
+		param = "5053",
 		id = 9,
-		pic = "temp9"
+		pic = "temp9",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					11,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[90] = {
 		param = "",

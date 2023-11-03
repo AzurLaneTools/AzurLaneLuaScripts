@@ -3,12 +3,13 @@ slot1 = 1
 slot2 = 2
 slot3 = 3
 slot4 = 4
+slot5 = 5
 
-function slot5(slot0)
+function slot6(slot0)
 	return PathMgr.getAssetBundle("originsource/cipher/" .. slot0 .. ".txt")
 end
 
-function slot6(slot0)
+function slot7(slot0)
 	return PathMgr.getAssetBundle("originsource/cipher/" .. slot0 .. ".cpk")
 end
 
@@ -77,14 +78,21 @@ end
 function slot0._Play(slot0)
 	if slot0.state == uv0 then
 		slot0.player:Pause(false)
+	elseif slot0.state == uv1 then
+		slot0.subtile = Clone(slot0.subtileBackUp)
+
+		slot0.player.player:SetSeekPosition(0)
+		slot0.player.player:Start()
 	else
+		slot0.subtile = Clone(slot0.subtileBackUp)
+
 		slot0.player:PlayCpk()
 	end
 
 	setActive(slot0.playBtn, false)
 	setActive(slot0.backBtn, false)
 
-	slot0.state = uv1
+	slot0.state = uv2
 end
 
 function slot0.Pause(slot0)
@@ -113,7 +121,7 @@ function slot0.DownloadCpkAndSubtitle(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot7(slot0)
+function slot8(slot0)
 	slot3 = {}
 
 	for slot7 = 1, PathMgr.ReadAllLines(uv0(slot0)).Length do
@@ -137,26 +145,26 @@ function slot0.LoadVedioPlayer(slot0, slot1, slot2)
 	slot3:getAssetAsync("Cryptolalia/" .. slot1, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		slot1 = Object.Instantiate(slot0, uv0.root)
 		uv0.text = slot1.transform:Find("Text"):GetComponent(typeof(Text))
-		uv0.subtile = uv1(uv2)
+		uv0.subtileBackUp = uv1(uv2)
 		uv0.player = slot1.transform:Find("cpk"):GetComponent(typeof(CriManaCpkUI))
 		uv0.playBtn = slot1.transform:Find("play")
 		uv0.backBtn = slot1.transform:Find("back")
 		uv0._go = slot1
 
-		uv0.player:SetPlayEndHandler(System.Action(function ()
-			uv0:OnPlayEnd()
-		end))
 		uv0:_Play()
 		uv3()
 	end), true, true)
 end
 
 function slot0.OnPlayEnd(slot0)
+	slot0.player.player.frameInfo.frameNo = 0
+	slot0.state = uv0
+
 	setActive(slot0.playBtn, true)
 	setActive(slot0.backBtn, true)
 end
 
-function slot8(slot0)
+function slot9(slot0)
 	if not slot0.frameInfo then
 		return 0
 	end
@@ -166,7 +174,7 @@ function slot8(slot0)
 	return slot1.frameNo / slot1.framerateN / slot1.framerateD * 1000000
 end
 
-function slot9(slot0, slot1)
+function slot10(slot0, slot1)
 	if not slot0 or #slot0 <= 0 then
 		return ""
 	end
@@ -183,15 +191,21 @@ function slot9(slot0, slot1)
 end
 
 function slot0.Update(slot0)
-	if slot0.text == nil or slot0.subtile == nil or slot0.player == nil then
+	if slot0.text == nil or slot0.subtile == nil or slot0.player == nil or slot0.player.player.frameInfo == nil then
 		return
 	end
 
-	if slot0.state == uv0 then
+	if slot0.state == uv0 or slot0.state == uv1 then
 		return
 	end
 
-	slot2, slot3 = uv2(slot0.subtile, uv1(slot0.player.player))
+	if slot0.player.player.frameInfo.frameNo >= slot0.player.player.movieInfo.totalFrames - 1 then
+		slot0:OnPlayEnd()
+
+		return
+	end
+
+	slot2, slot3 = uv3(slot0.subtile, uv2(slot0.player.player))
 
 	if slot2 and slot2 ~= "" then
 		slot0.hideTime = slot3

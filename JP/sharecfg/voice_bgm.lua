@@ -851,5 +851,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "Theme-SeaAndSun-soft"
+	},
+	CastlePtPage = {
+		default_bgm = "story-oldcastle-carnival",
+		special_bgm = "",
+		time = "",
+		bgm = "story-oldcastle-carnival"
+	},
+	CastleMainScene = {
+		default_bgm = "story-oldcastle-carnival",
+		special_bgm = "",
+		time = "",
+		bgm = "story-oldcastle-carnival"
 	}
 }

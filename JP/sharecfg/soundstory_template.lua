@@ -1,6 +1,58 @@
 pg = pg or {}
 pg.soundstory_template = {
-	[2] = {
+	{
+		CV_JP = "石見舞菜香",
+		audition_resource_CN = "ss-50601-1",
+		audition_text = "今日は貸し切りにしてもらっています。せっかくなので、ゆっくりお休みになられてはいかがです？",
+		story_resource_CN = "soundStory1_CN",
+		story_pic = "",
+		overview = "静謐な二人の茶室。普段の疲れを癒やす膝枕だけでなく、ちょっと特別な方法も…",
+		name = "悠然の茶室",
+		ship_id = 50601,
+		audition_resource_JP = "ss-50601-2",
+		CV_CN = "龟娘",
+		id = 1,
+		story_resource_JP = "soundStory1_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		CV_JP = "近藤玲奈",
 		audition_resource_CN = "",
 		audition_text = "ふぅ、楽しかった♪ふふっ、頑張っちゃいましたね。こんなに海で遊んだの、いつぶりでしょう…？",
@@ -52,7 +104,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[3] = {
+	{
 		CV_JP = "木野 日菜",
 		audition_resource_CN = "",
 		time = "always",
@@ -78,8 +130,142 @@ pg.soundstory_template = {
 			3
 		}
 	},
+	{
+		CV_JP = "富田美憂",
+		audition_resource_CN = "",
+		time = "always",
+		audition_text = "観覧車に乗ったとき、てっぺんでのお約束♪最上級の思い出、ハニーにあげちゃう♡",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "大観覧車、アイスクリーム…アイスクリームよりも激甘な彼女とのひととき",
+		ship_id = 10517,
+		audition_resource_JP = "ss-10517-1",
+		name = "舌先に融ける、甘さ",
+		CV_CN = "",
+		id = 4,
+		story_resource_JP = "soundStory4_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		}
+	},
+	{
+		CV_JP = "井上ほの花",
+		audition_resource_CN = "",
+		audition_text = "さぁ、体の力を抜いて？恥ずかしがることなどありませんわ.",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "何もない昼下がり、人間さんことあなたにエムデンは最高のご褒美を授けようとしている…",
+		name = "最高のご褒美",
+		ship_id = 40207,
+		audition_resource_JP = "ss-40207-1",
+		CV_CN = "",
+		id = 5,
+		story_resource_JP = "soundStory5_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "伊藤あすか",
+		audition_resource_CN = "",
+		audition_text = "それにしても遅いわね…もうハムマンをいつまで待たせる気？",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "柄にもないイタズラをしようとする、素直じゃない彼女によるアクシデント？！",
+		name = "特別プレゼント?!",
+		ship_id = 10125,
+		audition_resource_JP = "ss-10125-1",
+		CV_CN = "",
+		id = 6,
+		story_resource_JP = "soundStory6_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
+		1,
 		2,
-		3
+		3,
+		4,
+		5,
+		6
 	}
 }
