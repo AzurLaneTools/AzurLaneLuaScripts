@@ -26084,3 +26084,238 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "Spend <color=#72bc42>$1 Gems</color> to buy <color=#72bc42>$2</color>?"
 }
+
+_G.pg.base.gametip.roll_room1 = {
+	tip = "Servants' Room"
+}
+
+_G.pg.base.gametip.roll_room2 = {
+	tip = "1st Floor Hall"
+}
+
+_G.pg.base.gametip.roll_room3 = {
+	tip = "Guest Room"
+}
+
+_G.pg.base.gametip.roll_room4 = {
+	tip = "Courtyard"
+}
+
+_G.pg.base.gametip.roll_room5 = {
+	tip = "Living Room"
+}
+
+_G.pg.base.gametip.roll_room6 = {
+	tip = "Housekeeper's Room"
+}
+
+_G.pg.base.gametip.roll_room7 = {
+	tip = "Dining Room"
+}
+
+_G.pg.base.gametip.roll_room8 = {
+	tip = "Kitchen"
+}
+
+_G.pg.base.gametip.roll_room9 = {
+	tip = "Banquet Hall"
+}
+
+_G.pg.base.gametip.roll_room10 = {
+	tip = "Observation Deck"
+}
+
+_G.pg.base.gametip.roll_room11 = {
+	tip = "Second Bedroom"
+}
+
+_G.pg.base.gametip.roll_room12 = {
+	tip = "Collection Room"
+}
+
+_G.pg.base.gametip.roll_room13 = {
+	tip = "2nd Floor Hall"
+}
+
+_G.pg.base.gametip.roll_room14 = {
+	tip = "Main Bedroom"
+}
+
+_G.pg.base.gametip.roll_room15 = {
+	tip = "Study"
+}
+
+_G.pg.base.gametip.roll_room16 = {
+	tip = "Secret Room"
+}
+
+_G.pg.base.gametip.roll_room17 = {
+	tip = "Garden"
+}
+
+_G.pg.base.gametip.roll_attr_list = {
+	tip = {
+		"Persuasion",
+		"First Aid",
+		"META Research",
+		"Siren Research",
+		"Info Analysis",
+		"Machine Mechanic",
+		"Pharmacology",
+		"Folklore Scholar",
+		"Psychology",
+		"Geology",
+		"Lockpicking",
+		"Eagle Eye",
+		"Swiftness",
+		"Running",
+		"Diving",
+		"Mech Piloting",
+		"Tactics Research",
+		"CQC",
+		"Marksmanship",
+		"Survival",
+		"Cube Research",
+		"Danger Sense",
+		"Enamor",
+		"Fishing",
+		"Law Scholar",
+		"Ship Piloting",
+		"Rigging Mechanic",
+		"Trap-Making",
+		"Gunnery",
+		"Astronomy",
+		"Cryptology",
+		"Law Research",
+		"Cooking",
+		"Oil Investigation",
+		"Librarian",
+		"Navigation",
+		"Riding",
+		"Hypnosis",
+		"Tracking",
+		"Language",
+		"Climbing",
+		"Item Management",
+		"Time Management",
+		"Paperwork Filing",
+		"Fleet Gathering",
+		"Logistics",
+		"Diplomacy",
+		"Hygiene",
+		"Agriculture",
+		"Civil Engineering",
+		"Tactical Command"
+	}
+}
+
+_G.pg.base.gametip.roll_notimes = {
+	tip = "You don't have enough rolls. Complete event missions to get more."
+}
+
+_G.pg.base.gametip.roll_tip2 = {
+	tip = "You must explore the unlocked area(s) to be able to roll again."
+}
+
+_G.pg.base.gametip.roll_reward_word1 = {
+	tip = "Prologue"
+}
+
+_G.pg.base.gametip.roll_reward_word2 = {
+	tip = "Chapter 1"
+}
+
+_G.pg.base.gametip.roll_reward_word3 = {
+	tip = "Chapter 2"
+}
+
+_G.pg.base.gametip.roll_reward_word4 = {
+	tip = "Chapter 3"
+}
+
+_G.pg.base.gametip.roll_reward_word5 = {
+	tip = "Chapter 4"
+}
+
+_G.pg.base.gametip.roll_reward_word6 = {
+	tip = "Chapter 5"
+}
+
+_G.pg.base.gametip.roll_reward_word7 = {
+	tip = "Chapter 6"
+}
+
+_G.pg.base.gametip.roll_reward_word8 = {
+	tip = "Finale"
+}
+
+_G.pg.base.gametip.roll_reward_tip = {
+	tip = "Completed $1/$2"
+}
+
+_G.pg.base.gametip.roll_unlock = {
+	tip = "Unlock all stories to create your own investigator."
+}
+
+_G.pg.base.gametip.roll_noname = {
+	tip = "You need to name your investigator first."
+}
+
+_G.pg.base.gametip.roll_card_info = {
+	tip = "Profile"
+}
+
+_G.pg.base.gametip.roll_card_attr = {
+	tip = "Stats"
+}
+
+_G.pg.base.gametip.roll_card_skill = {
+	tip = "Skills"
+}
+
+_G.pg.base.gametip.roll_times_left = {
+	tip = "Rolls Left: $1"
+}
+
+_G.pg.base.gametip.roll_room_unexplored = {
+	tip = "???"
+}
+
+_G.pg.base.gametip.roll_reward_got = {
+	tip = "Claimed"
+}
+
+_G.pg.base.gametip.roll_gametip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+This event is available between November 3rd and November 15th.
+Complete the event missions, investigate the castle, and unlock story chapters to receive various exploration rewards, including the limited furniture, Dice of Destiny.
+
+· How to Investigate
+On the A Bump in the Rainy Night event banner, there are event missions for sinking enemy ships. Each time you complete one, you receive one Die Roll.
+You can then tap the button on the bottom right of the event banner to move around the castle and investigate. On the investigation screen, you may use your Die Rolls to unlock new areas to search for clues.
+Tapping on a searchable area will initiate the story.
+
+Your rolls on the investigation screen can end in either success or failure. When your roll succeeds, you unlock 2 new searchable areas, while if it fails, you only unlock 1.
+Different story events will play out depending on where you investigate. If you get a game over, you will automatically be returned to the point you were before. This will not count as a Die Roll, and you can try for a roll even if you have 0 attempts.
+
+You will unlock rewards based on the amount of areas you have investigated, such as the limited furniture, Dice of Destiny.
+After you have read the whole story, you unlock the character creation function which lets you create a profile for your investigator.
+
+· Character Creation
+Finishing the whole story will unlock the character creation function.
+Here, you can input a name to generate a random investigator's profile.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.roll_ending_tip1 = {
+	tip = "Explore all areas on the 1st and 2nd Floor to reach the finale of the story."
+}
+
+_G.pg.base.gametip.roll_ending_tip2 = {
+	tip = "You haven't explored all areas on the 1st and 2nd Floor yet."
+}
