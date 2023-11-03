@@ -209323,6 +209323,120 @@ _G.pg.base.item_data_statistics[58990] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58991] = {
+	display = "随机获得一件「航海集结」主题外观装备",
+	name = "外观装备箱(航海家)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	id = 58991,
+	display_icon = {
+		{
+			9,
+			850,
+			1
+		},
+		{
+			9,
+			851,
+			1
+		},
+		{
+			9,
+			852,
+			1
+		},
+		{
+			9,
+			853,
+			1
+		},
+		{
+			9,
+			854,
+			1
+		},
+		{
+			9,
+			855,
+			1
+		},
+		{
+			9,
+			856,
+			1
+		},
+		{
+			9,
+			857,
+			1
+		},
+		{
+			9,
+			858,
+			1
+		},
+		{
+			9,
+			859,
+			1
+		},
+		{
+			9,
+			860,
+			1
+		},
+		{
+			9,
+			861,
+			1
+		},
+		{
+			9,
+			862,
+			1
+		},
+		{
+			9,
+			863,
+			1
+		},
+		{
+			9,
+			864,
+			1
+		},
+		{
+			9,
+			865,
+			1
+		},
+		{
+			9,
+			866,
+			1
+		},
+		{
+			9,
+			867,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -217033,8 +217147,8 @@ _G.pg.base.item_data_statistics[59495] = {
 }
 
 _G.pg.base.item_data_statistics[59496] = {
-	display = "用于古堡活动",
-	name = "骰子",
+	display = "掷出骰子吧——",
+	name = "探索之骰",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -217046,7 +217160,7 @@ _G.pg.base.item_data_statistics[59496] = {
 	link_id = 5055,
 	virtual_type = 99,
 	is_world = 0,
-	icon = "Props/skinTicket",
+	icon = "Props/59496",
 	id = 59496,
 	display_icon = {},
 	price = {},

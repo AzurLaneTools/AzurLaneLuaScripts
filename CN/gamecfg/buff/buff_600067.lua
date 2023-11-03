@@ -4,13 +4,10 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onHPRatioUpdate"
+					"onTakeHealing"
 				},
 				arg_list = {
-					hpUpperBound = 1,
-					hpLowerBound = 0,
-					skill_id = 600066,
-					hpSigned = 1
+					skill_id = 600066
 				}
 			}
 		}
@@ -20,13 +17,10 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onHPRatioUpdate"
+					"onTakeHealing"
 				},
 				arg_list = {
-					hpUpperBound = 1,
-					hpLowerBound = 0,
-					skill_id = 600065,
-					hpSigned = 1
+					skill_id = 600065
 				}
 			}
 		}
@@ -36,13 +30,10 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onHPRatioUpdate"
+					"onTakeHealing"
 				},
 				arg_list = {
-					hpUpperBound = 1,
-					hpLowerBound = 0,
-					skill_id = 600064,
-					hpSigned = 1
+					skill_id = 600064
 				}
 			}
 		}
@@ -67,13 +58,10 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onHPRatioUpdate"
+				"onTakeHealing"
 			},
 			arg_list = {
-				hpUpperBound = 1,
-				hpLowerBound = 0,
-				skill_id = 600064,
-				hpSigned = 1
+				skill_id = 600064
 			}
 		}
 	}

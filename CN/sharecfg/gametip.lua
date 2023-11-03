@@ -22600,5 +22600,205 @@ cs.gametip = {
 		816588,
 		172,
 		true
+	},
+	roll_room1 = {
+		816760,
+		89,
+		true
+	},
+	roll_room2 = {
+		816849,
+		80,
+		true
+	},
+	roll_room3 = {
+		816929,
+		83,
+		true
+	},
+	roll_room4 = {
+		817012,
+		80,
+		true
+	},
+	roll_room5 = {
+		817092,
+		83,
+		true
+	},
+	roll_room6 = {
+		817175,
+		83,
+		true
+	},
+	roll_room7 = {
+		817258,
+		80,
+		true
+	},
+	roll_room8 = {
+		817338,
+		80,
+		true
+	},
+	roll_room9 = {
+		817418,
+		83,
+		true
+	},
+	roll_room10 = {
+		817501,
+		84,
+		true
+	},
+	roll_room11 = {
+		817585,
+		81,
+		true
+	},
+	roll_room12 = {
+		817666,
+		84,
+		true
+	},
+	roll_room13 = {
+		817750,
+		81,
+		true
+	},
+	roll_room14 = {
+		817831,
+		81,
+		true
+	},
+	roll_room15 = {
+		817912,
+		81,
+		true
+	},
+	roll_room16 = {
+		817993,
+		81,
+		true
+	},
+	roll_room17 = {
+		818074,
+		84,
+		true
+	},
+	roll_attr_list = {
+		818158,
+		631,
+		true
+	},
+	roll_notimes = {
+		818789,
+		115,
+		true
+	},
+	roll_tip2 = {
+		818904,
+		124,
+		true
+	},
+	roll_reward_word1 = {
+		819028,
+		87,
+		true
+	},
+	roll_reward_word2 = {
+		819115,
+		90,
+		true
+	},
+	roll_reward_word3 = {
+		819205,
+		90,
+		true
+	},
+	roll_reward_word4 = {
+		819295,
+		90,
+		true
+	},
+	roll_reward_word5 = {
+		819385,
+		90,
+		true
+	},
+	roll_reward_word6 = {
+		819475,
+		90,
+		true
+	},
+	roll_reward_word7 = {
+		819565,
+		90,
+		true
+	},
+	roll_reward_word8 = {
+		819655,
+		87,
+		true
+	},
+	roll_reward_tip = {
+		819742,
+		93,
+		true
+	},
+	roll_unlock = {
+		819835,
+		159,
+		true
+	},
+	roll_noname = {
+		819994,
+		93,
+		true
+	},
+	roll_card_info = {
+		820087,
+		90,
+		true
+	},
+	roll_card_attr = {
+		820177,
+		84,
+		true
+	},
+	roll_card_skill = {
+		820261,
+		85,
+		true
+	},
+	roll_times_left = {
+		820346,
+		94,
+		true
+	},
+	roll_room_unexplored = {
+		820440,
+		87,
+		true
+	},
+	roll_reward_got = {
+		820527,
+		88,
+		true
+	},
+	roll_gametip = {
+		820615,
+		1177,
+		true
+	},
+	roll_ending_tip1 = {
+		821792,
+		139,
+		true
+	},
+	roll_ending_tip2 = {
+		821931,
+		142,
+		true
 	}
 }

@@ -59690,14 +59690,14 @@ _G.pg.base.task_data_template[19367] = {
 _G.pg.base.task_data_template[19368] = {
 	name = "『海盗版本』古堡活动观看剧情1",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900841,
+	type = 6,
 	desc = "完成序幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59711,20 +59711,20 @@ _G.pg.base.task_data_template[19368] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19368,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3291,
-		3292,
-		3293
+		4564,
+		4565,
+		4566
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			54006,
+			1
 		}
 	}
 }
@@ -59732,14 +59732,14 @@ _G.pg.base.task_data_template[19368] = {
 _G.pg.base.task_data_template[19369] = {
 	name = "『海盗版本』古堡活动观看剧情2",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900842,
+	type = 6,
 	desc = "完成第一幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59753,20 +59753,20 @@ _G.pg.base.task_data_template[19369] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19369,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3294,
-		3295,
-		3296
+		4567,
+		4568,
+		4569
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			54006,
+			1
 		}
 	}
 }
@@ -59774,14 +59774,14 @@ _G.pg.base.task_data_template[19369] = {
 _G.pg.base.task_data_template[19370] = {
 	name = "『海盗版本』古堡活动观看剧情3",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900843,
+	type = 6,
 	desc = "完成第二幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59795,20 +59795,20 @@ _G.pg.base.task_data_template[19370] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19370,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3297,
-		3298,
-		3299
+		4570,
+		4571,
+		4572
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			50004,
+			5
 		}
 	}
 }
@@ -59816,14 +59816,14 @@ _G.pg.base.task_data_template[19370] = {
 _G.pg.base.task_data_template[19371] = {
 	name = "『海盗版本』古堡活动观看剧情4",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900844,
+	type = 6,
 	desc = "完成第三幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59837,20 +59837,20 @@ _G.pg.base.task_data_template[19371] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19371,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3300,
-		3301,
-		3302
+		4573,
+		4574,
+		4575
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			58991,
+			1
 		}
 	}
 }
@@ -59858,14 +59858,14 @@ _G.pg.base.task_data_template[19371] = {
 _G.pg.base.task_data_template[19372] = {
 	name = "『海盗版本』古堡活动观看剧情5",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900845,
+	type = 6,
 	desc = "完成第四幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59879,20 +59879,20 @@ _G.pg.base.task_data_template[19372] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19372,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3303,
-		3304,
-		3305
+		4576,
+		4577,
+		4578
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			54034,
+			2
 		}
 	}
 }
@@ -59900,14 +59900,14 @@ _G.pg.base.task_data_template[19372] = {
 _G.pg.base.task_data_template[19373] = {
 	name = "『海盗版本』古堡活动观看剧情6",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900846,
+	type = 6,
 	desc = "完成第五幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59921,20 +59921,20 @@ _G.pg.base.task_data_template[19373] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19373,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3306,
-		3307,
-		3308
+		4579,
+		4580,
+		4581
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			58991,
+			1
 		}
 	}
 }
@@ -59942,14 +59942,14 @@ _G.pg.base.task_data_template[19373] = {
 _G.pg.base.task_data_template[19374] = {
 	name = "『海盗版本』古堡活动观看剧情7",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900847,
+	type = 6,
 	desc = "完成第六幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -59963,20 +59963,20 @@ _G.pg.base.task_data_template[19374] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19374,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3309,
-		3310,
-		3311
+		4582,
+		4583,
+		4584
 	},
 	open_need = {},
 	award_display = {
 		{
 			2,
-			17003,
-			10
+			20013,
+			1
 		}
 	}
 }
@@ -59984,14 +59984,14 @@ _G.pg.base.task_data_template[19374] = {
 _G.pg.base.task_data_template[19375] = {
 	name = "『海盗版本』古堡活动观看剧情8",
 	guild_coin_award = 0,
-	award = 91826,
-	type = 26,
+	award = 900848,
+	type = 6,
 	desc = "完成第七幕剧情",
 	count_inherit = 0,
 	sub_type = 1005,
 	target_id_2 = "",
 	story_icon = "",
-	is_head = 0,
+	is_head = 1,
 	task_fold = 0,
 	award_choice = "",
 	visibility = 0,
@@ -60005,20 +60005,20 @@ _G.pg.base.task_data_template[19375] = {
 	auto_commit = 0,
 	scene = "",
 	id = 19375,
-	target_num = 1,
+	target_num = 3,
 	fix_task = 0,
 	added_tip = 0,
 	target_id = {
-		3312,
-		3313,
-		3314
+		4585,
+		4586,
+		4587
 	},
 	open_need = {},
 	award_display = {
 		{
-			2,
-			17003,
-			10
+			5,
+			265,
+			1
 		}
 	}
 }

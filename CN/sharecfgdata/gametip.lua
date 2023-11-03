@@ -25821,3 +25821,238 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "是否使用<color=#72bc42>$1钻石</color>购买<color=#72bc42>$2</color>"
 }
+
+_G.pg.base.gametip.roll_room1 = {
+	tip = "佣人休息室"
+}
+
+_G.pg.base.gametip.roll_room2 = {
+	tip = "大厅"
+}
+
+_G.pg.base.gametip.roll_room3 = {
+	tip = "接待室"
+}
+
+_G.pg.base.gametip.roll_room4 = {
+	tip = "中庭"
+}
+
+_G.pg.base.gametip.roll_room5 = {
+	tip = "会客厅"
+}
+
+_G.pg.base.gametip.roll_room6 = {
+	tip = "管家房"
+}
+
+_G.pg.base.gametip.roll_room7 = {
+	tip = "餐厅"
+}
+
+_G.pg.base.gametip.roll_room8 = {
+	tip = "厨房"
+}
+
+_G.pg.base.gametip.roll_room9 = {
+	tip = "宴会厅"
+}
+
+_G.pg.base.gametip.roll_room10 = {
+	tip = "观景台"
+}
+
+_G.pg.base.gametip.roll_room11 = {
+	tip = "次卧"
+}
+
+_G.pg.base.gametip.roll_room12 = {
+	tip = "收藏室"
+}
+
+_G.pg.base.gametip.roll_room13 = {
+	tip = "大厅"
+}
+
+_G.pg.base.gametip.roll_room14 = {
+	tip = "主卧"
+}
+
+_G.pg.base.gametip.roll_room15 = {
+	tip = "书房"
+}
+
+_G.pg.base.gametip.roll_room16 = {
+	tip = "密室"
+}
+
+_G.pg.base.gametip.roll_room17 = {
+	tip = "后花园"
+}
+
+_G.pg.base.gametip.roll_attr_list = {
+	tip = {
+		"交涉",
+		"急救",
+		"META研究",
+		"塞壬研究",
+		"情报分析",
+		"机械维修",
+		"药理学",
+		"民俗研究",
+		"心理学",
+		"地质学",
+		"开锁",
+		"观察力",
+		"潜行",
+		"奔跑",
+		"潜水",
+		"机甲驾驶",
+		"战术研究",
+		"格斗",
+		"射击",
+		"荒野求生",
+		"魔方研究",
+		"危机感应",
+		"魅惑术",
+		"钓鱼",
+		"法律学",
+		"量产型驾驶",
+		"舰装维修",
+		"陷阱制作",
+		"炮术",
+		"天文学",
+		"密码学",
+		"法律研究",
+		"烹饪",
+		"石油勘探",
+		"快速阅读",
+		"导航学",
+		"骑术",
+		"催眠术",
+		"追踪术",
+		"语言学",
+		"攀爬",
+		"物品整理",
+		"时间规划",
+		"文件处理",
+		"舰队集结",
+		"后勤调度",
+		"外交学",
+		"养生术",
+		"农学",
+		"土木工程学",
+		"战场指挥"
+	}
+}
+
+_G.pg.base.gametip.roll_notimes = {
+	tip = "骰子数量不足，前往活动获取"
+}
+
+_G.pg.base.gametip.roll_tip2 = {
+	tip = "调查全部已解锁的区域后才能再次投掷"
+}
+
+_G.pg.base.gametip.roll_reward_word1 = {
+	tip = "序幕"
+}
+
+_G.pg.base.gametip.roll_reward_word2 = {
+	tip = "第一幕"
+}
+
+_G.pg.base.gametip.roll_reward_word3 = {
+	tip = "第二幕"
+}
+
+_G.pg.base.gametip.roll_reward_word4 = {
+	tip = "第三幕"
+}
+
+_G.pg.base.gametip.roll_reward_word5 = {
+	tip = "第四幕"
+}
+
+_G.pg.base.gametip.roll_reward_word6 = {
+	tip = "第五幕"
+}
+
+_G.pg.base.gametip.roll_reward_word7 = {
+	tip = "第六幕"
+}
+
+_G.pg.base.gametip.roll_reward_word8 = {
+	tip = "终幕"
+}
+
+_G.pg.base.gametip.roll_reward_tip = {
+	tip = "已完成$1/$2"
+}
+
+_G.pg.base.gametip.roll_unlock = {
+	tip = "— 调查古堡解锁全部剧情后，可以解锁随机生成角色卡功能 —"
+}
+
+_G.pg.base.gametip.roll_noname = {
+	tip = "姓名不能为空"
+}
+
+_G.pg.base.gametip.roll_card_info = {
+	tip = "基本信息"
+}
+
+_G.pg.base.gametip.roll_card_attr = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.roll_card_skill = {
+	tip = "技能"
+}
+
+_G.pg.base.gametip.roll_times_left = {
+	tip = "剩余次数:$1"
+}
+
+_G.pg.base.gametip.roll_room_unexplored = {
+	tip = "???"
+}
+
+_G.pg.base.gametip.roll_reward_got = {
+	tip = "已领取"
+}
+
+_G.pg.base.gametip.roll_gametip = {
+	tip = {
+		{
+			info = [[
+活动简介：
+<color=#92fc63>11.3-11.16维护</color>期间开启「雨夜惊魂活动」活动。
+「调查奖励」
+·调查古堡完成剧情获取奖励
+·推进剧情会用到探索之骰，通过雨夜惊魂活动累计继承敌人获取
+「角色卡」
+·角色卡上的信息将随着古堡的调查逐渐渐显
+·解锁全部剧情后，可以解锁随机生成角色卡功能
+·角色卡姓名默认为指挥官名称，可以编辑修改，可以不限次数的随机属性数值、技能与技能熟练度
+「投掷」
+探索之骰使用规则：
+投掷两个十面骰，第一个骰子为十位数数字，第二个骰子为个位数数值，当结果为：
+1~5时：判定大成功
+6~50时：判定成功
+51~94时：判定失败
+95~100时：判定大失败（00=100）
+·当出现失败与大失败时，只能前往一个区域
+触发BE剧情后将返回上一个区域同时返还一个骰子，下一次投掷结果必定为成功或大成功
+·当出现成功与大成功时，可以前往两个区域，未探索的区域后续也可以返回进行探索]]
+		}
+	}
+}
+
+_G.pg.base.gametip.roll_ending_tip1 = {
+	tip = "终幕已然显现，请前往古堡1F与2F中完成调查"
+}
+
+_G.pg.base.gametip.roll_ending_tip2 = {
+	tip = "仍有未探索区域，请前往古堡1F与2F中完成调查"
+}
