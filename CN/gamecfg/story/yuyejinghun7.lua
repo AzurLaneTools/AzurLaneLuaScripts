@@ -703,7 +703,7 @@ return {
 			actorName = "传奇调查员KP（自称）",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算熟练程度只有普通，但是拿来应付这种古堡里的贵族大小姐也是绰绰有余了哦~",
+			say = "就算熟练程度只有入门，但是拿来应付这种古堡里的贵族大小姐也是绰绰有余了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜，你已回忆起技能：民俗研究。熟练程度：普通。智力：90，教育：30。",
+			say = "恭喜，你已回忆起技能：民俗研究。熟练程度：入门。智力：90，教育：30。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………智力超群却只有中学学历，依靠神秘学破获了多起大案但熟练程度只有普通？",
+			say = "…………智力超群却只有中学学历，依靠神秘学破获了多起大案但熟练程度只有入门？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

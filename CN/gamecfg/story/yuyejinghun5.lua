@@ -311,7 +311,7 @@ return {
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜，你已回忆起技能：民俗研究，熟练度，普通。",
+			say = "恭喜，你已回忆起技能：民俗研究，熟练度，入门。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……基于刻板印象的设计呢，那熟练度为什么只有普通？",
+			say = "……基于刻板印象的设计呢，那熟练度为什么只有入门？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

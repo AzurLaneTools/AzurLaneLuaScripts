@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了……我的民俗研究水平只有普通程度，如果实话实说的话，也许就能摆脱危机了。",
+			say = "对了……我的民俗研究水平只有入门程度，如果实话实说的话，也许就能摆脱危机了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
