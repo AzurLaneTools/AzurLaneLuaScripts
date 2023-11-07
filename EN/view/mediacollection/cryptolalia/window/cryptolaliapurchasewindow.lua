@@ -70,6 +70,8 @@ function slot0.Show(slot0, slot1)
 	slot0.gemCntTxt.text = setColorStr(slot5, getProxy(PlayerProxy):getRawData():getResource(slot3.id) < slot3.count and COLOR_RED or COLOR_GREEN) .. setColorStr("/" .. slot3.count, "#AFAFAF")
 	slot7 = slot1:GetCost(Cryptolalia.COST_TYPE_TICKET)
 	slot0.ticketCntTxt.text = setColorStr(slot8, slot4:getResource(slot7.id) < slot7.count and COLOR_RED or COLOR_GREEN) .. setColorStr("/" .. slot7.count, "#AFAFAF")
+
+	triggerToggle(slot0.ticketToggle, true)
 end
 
 function slot0.Hide(slot0)
