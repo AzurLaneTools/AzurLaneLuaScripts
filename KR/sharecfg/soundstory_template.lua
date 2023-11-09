@@ -10,7 +10,7 @@ pg.soundstory_template = {
 		name = "여유로운 다실",
 		ship_id = 50601,
 		audition_resource_JP = "ss-50601-2",
-		CV_CN = "龟娘",
+		CV_CN = "",
 		id = 1,
 		story_resource_JP = "soundStory1_JP",
 		order = 2,
@@ -133,13 +133,14 @@ pg.soundstory_template = {
 	{
 		CV_JP = "Miyu Tomita",
 		audition_resource_CN = "",
+		time = "always",
 		audition_text = "관람차에 탔을 때, 가장 높은 곳에서 한 약속♪ 최고의 추억을 자기한테 만들어 줄게♡",
 		story_resource_CN = "",
 		story_pic = "",
 		overview = "대관람차, 아이스크림... 아이스크림보다 더 감미로운 그녀와의 시간.",
-		name = "혀끝에서 녹는 달콤함",
 		ship_id = 10517,
 		audition_resource_JP = "ss-10517-1",
+		name = "혀끝에서 녹는 달콤함",
 		CV_CN = "",
 		id = 4,
 		story_resource_JP = "soundStory4_JP",
@@ -153,33 +154,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
