@@ -4,8 +4,8 @@ slot2 = 1
 slot3 = 2
 slot4 = 3
 
-function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.moveState = uv1
 end

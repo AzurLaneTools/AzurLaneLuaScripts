@@ -218,7 +218,7 @@ function slot0.updateWithIndex(slot0, slot1)
 		return
 	end
 
-	slot0.group:UpdateBigF(slot0:GetCurFilePath())
+	slot0.group:UpdateF(slot0:GetCurFilePath())
 end
 
 function slot0.onUpdateD(slot0)

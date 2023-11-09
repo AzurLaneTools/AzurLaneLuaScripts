@@ -8,7 +8,7 @@ end
 
 function slot0.Unlock(slot0)
 	if getProxy(DormProxy):getRawData():getExtendTrainPosShopId() then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		_BackyardMsgBoxMgr:Show({
 			content = i18n("backyard_backyardShipInfoLayer_quest_openPos", pg.shop_template[slot2].resource_num),
 			onYes = function ()
 				if getProxy(PlayerProxy):getRawData() and slot0:getTotalGem() < uv0 then

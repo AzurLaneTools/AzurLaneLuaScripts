@@ -35,9 +35,10 @@ function slot0.InitDetail(slot0)
 	slot0.equipmentsGrid = slot0.equipments:Find("equipments")
 	slot0.detailEquipmentTpl = slot0.equipments:Find("equipment_tpl")
 	slot0.emptyGridTpl = slot0.equipments:Find("empty_tpl")
-	slot0.lockGridTpl = slot0.equipments:Find("lock_tpl")
 	slot0.showRecordBtn = slot0.equipments:Find("unload_all")
 	slot0.showQuickBtn = slot0.equipments:Find("quickButton")
+	slot0.showECodeShareBtn = slot0.equipments:Find("shareButton")
+	slot0.equipCodeBtn = slot0.equipments:Find("equip_code")
 	slot0.lockBtn = slot0.detailPanel:Find("lock_btn")
 	slot0.unlockBtn = slot0.detailPanel:Find("unlock_btn")
 	slot0.viewBtn = slot0.detailPanel:Find("view_btn")
@@ -99,7 +100,6 @@ function slot0.InitDetail(slot0)
 	setActive(slot0.recordPanel, false)
 	setActive(slot0.detailEquipmentTpl, false)
 	setActive(slot0.emptyGridTpl, false)
-	setActive(slot0.lockGridTpl, false)
 	setActive(slot0.detailPanel, true)
 
 	slot0.onSelected = false
@@ -233,6 +233,14 @@ function slot0.InitEvent(slot0)
 			uv0:CloseQuickPanel()
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.equipCodeBtn, function ()
+		uv0:emit(ShipMainMediator.OPEN_EQUIP_CODE, {})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.showECodeShareBtn, function ()
+		slot0 = uv0:GetShipVO()
+
+		uv0:emit(ShipMainMediator.OPEN_EQUIP_CODE_SHARE, slot0.id, slot0:getGroupId())
+	end, SFX_PANEL)
 	onButton(slot0, slot0.unloadAllBtn, function ()
 		slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0:GetShipVO())
 
@@ -291,8 +299,13 @@ function slot0.InitEvent(slot0)
 			end
 
 			setActive(findTF(tf(slot1), "IconTpl/icon_bg/equip_flag"), slot3.shipId and slot3.shipId > 0)
+			setActive(findTF(tf(slot1), "IconTpl/mask"), slot3.mask)
 			onButton(uv0, tf(slot1), function ()
-				uv0:changeEquip(uv1)
+				if uv0.mask then
+					return
+				end
+
+				uv1:changeEquip(uv0)
 			end, SFX_PANEL)
 		end
 	end
@@ -306,140 +319,17 @@ function slot0.InitEvent(slot0)
 	end, SFX_PANEL)
 	triggerToggle(slot0.equiping, true)
 	onButton(slot0, slot0.fillter, function ()
-		table.remove(Clone(IndexConst.EquipmentExtraIndexs), 2)
-		table.remove(Clone(IndexConst.EquipmentExtraNames), 2)
-
 		uv0.indexData = uv0.indexData or {}
 
-		uv0:emit(ShipMainMediator.OPEN_EQUIPMENT_INDEX, {
+		if not uv1.EQUIPMENT_INDEX then
+			uv1.EQUIPMENT_INDEX = Clone(StoreHouseConst.EQUIPMENT_INDEX_COMMON)
+
+			table.removebyvalue(uv1.EQUIPMENT_INDEX.customPanels.extraIndex.options, IndexConst.EquipmentExtraEquiping)
+			table.removebyvalue(uv1.EQUIPMENT_INDEX.customPanels.extraIndex.names, "index_equip")
+		end
+
+		uv0:emit(ShipMainMediator.OPEN_EQUIPMENT_INDEX, setmetatable({
 			indexDatas = Clone(uv0.indexData),
-			customPanels = {
-				minHeight = 650,
-				typeIndex = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = IndexConst.EquipmentTypeIndexs,
-					names = IndexConst.EquipmentTypeNames
-				},
-				equipPropertyIndex = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = IndexConst.EquipPropertyIndexs,
-					names = IndexConst.EquipPropertyNames
-				},
-				equipPropertyIndex2 = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = IndexConst.EquipPropertyIndexs,
-					names = IndexConst.EquipPropertyNames
-				},
-				equipAmmoIndex1 = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = IndexConst.EquipAmmoIndexs_1,
-					names = IndexConst.EquipAmmoIndexs_1_Names
-				},
-				equipAmmoIndex2 = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = IndexConst.EquipAmmoIndexs_2,
-					names = IndexConst.EquipAmmoIndexs_2_Names
-				},
-				equipCampIndex = {
-					mode = CustomIndexLayer.Mode.AND,
-					options = IndexConst.EquipCampIndexs,
-					names = IndexConst.EquipCampNames
-				},
-				rarityIndex = {
-					mode = CustomIndexLayer.Mode.AND,
-					options = IndexConst.EquipmentRarityIndexs,
-					names = IndexConst.RarityNames
-				},
-				extraIndex = {
-					mode = CustomIndexLayer.Mode.OR,
-					options = slot0,
-					names = slot1
-				}
-			},
-			groupList = {
-				{
-					dropdown = false,
-					titleTxt = "indexsort_type",
-					titleENTxt = "indexsort_typeeng",
-					tags = {
-						"typeIndex"
-					}
-				},
-				{
-					dropdown = true,
-					titleTxt = "indexsort_index",
-					titleENTxt = "indexsort_indexeng",
-					tags = {
-						"equipPropertyIndex",
-						"equipPropertyIndex2",
-						"equipAmmoIndex1",
-						"equipAmmoIndex2"
-					}
-				},
-				{
-					dropdown = false,
-					titleTxt = "indexsort_camp",
-					titleENTxt = "indexsort_campeng",
-					tags = {
-						"equipCampIndex"
-					}
-				},
-				{
-					dropdown = false,
-					titleTxt = "indexsort_rarity",
-					titleENTxt = "indexsort_rarityeng",
-					tags = {
-						"rarityIndex"
-					}
-				},
-				{
-					dropdown = false,
-					titleTxt = "indexsort_extraindex",
-					titleENTxt = "indexsort_indexeng",
-					tags = {
-						"extraIndex"
-					}
-				}
-			},
-			dropdownLimit = {
-				equipPropertyIndex = {
-					include = {
-						typeIndex = IndexConst.EquipmentTypeAll
-					},
-					exclude = {}
-				},
-				equipPropertyIndex2 = {
-					include = {
-						typeIndex = IndexConst.EquipmentTypeEquip
-					},
-					exclude = {
-						typeIndex = IndexConst.EquipmentTypeAll
-					}
-				},
-				equipAmmoIndex1 = {
-					include = {
-						typeIndex = IndexConst.BitAll({
-							IndexConst.EquipmentTypeSmallCannon,
-							IndexConst.EquipmentTypeMediumCannon,
-							IndexConst.EquipmentTypeBigCannon
-						})
-					},
-					exclude = {
-						typeIndex = IndexConst.EquipmentTypeAll
-					}
-				},
-				equipAmmoIndex2 = {
-					include = {
-						typeIndex = IndexConst.BitAll({
-							IndexConst.EquipmentTypeWarshipTorpedo,
-							IndexConst.EquipmentTypeSubmaraineTorpedo
-						})
-					},
-					exclude = {
-						typeIndex = IndexConst.EquipmentTypeAll
-					}
-				}
-			},
 			callback = function (slot0)
 				uv0.indexData.typeIndex = slot0.typeIndex
 				uv0.indexData.equipPropertyIndex = slot0.equipPropertyIndex
@@ -449,54 +339,46 @@ function slot0.InitEvent(slot0)
 				uv0.indexData.equipCampIndex = slot0.equipCampIndex
 				uv0.indexData.rarityIndex = slot0.rarityIndex
 				uv0.indexData.extraIndex = slot0.extraIndex
+				slot1 = underscore(uv0.indexData):chain():keys():all(function (slot0)
+					return uv0.indexData[slot0] == uv1.EQUIPMENT_INDEX.customPanels[slot0].options[1]
+				end):value()
 
-				if table.equal(uv0.indexData, uv1) then
-					setActive(findTF(uv0.fillter, "on"), false)
-					setActive(findTF(uv0.fillter, "off"), true)
-				else
-					setActive(findTF(uv0.fillter, "on"), true)
-					setActive(findTF(uv0.fillter, "off"), false)
-				end
-
+				setActive(findTF(uv0.fillter, "on"), not slot1)
+				setActive(findTF(uv0.fillter, "off"), slot1)
 				uv0:updateQuickPanel(true)
 			end
-		})
+		}, {
+			__index = uv1.EQUIPMENT_INDEX
+		}))
 	end, SFX_PANEL)
 end
 
 function slot0.changeEquip(slot0, slot1)
-	if slot0:GetShipVO() and {
+	if {
+		quickFlag = true,
 		type = EquipmentInfoMediator.TYPE_REPLACE,
 		equipmentId = slot1.id,
 		shipId = slot0:GetShipVO().id,
 		pos = slot0.selectedEquip.index,
 		oldShipId = slot1.shipId,
 		oldPos = slot1.shipPos
-	} or slot1.shipId and {
-		showTransformTip = true,
-		type = EquipmentInfoMediator.TYPE_DISPLAY,
-		equipmentId = slot1.id,
-		shipId = slot1.shipId,
-		pos = slot1.shipPos
-	} or nil then
-		slot4.quickFlag = true
-
+	} then
 		if PlayerPrefs.GetInt("QUICK_CHANGE_EQUIP", 1) == 1 then
 			slot0:emit(BaseUI.ON_EQUIPMENT, slot4)
 		else
-			slot6, slot7 = slot3:canEquipAtPos(slot1, slot2)
+			slot5, slot6 = slot3:canEquipAtPos(slot1, slot2)
 
-			if not slot6 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_equipmentInfoLayer_error_canNotEquip", slot7))
+			if not slot5 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_equipmentInfoLayer_error_canNotEquip", slot6))
 
 				return
 			end
 
 			if slot1.shipId then
-				slot10, slot11 = ShipStatus.ShipStatusCheck("onModify", getProxy(BayProxy):getShipById(slot1.shipId))
+				slot9, slot10 = ShipStatus.ShipStatusCheck("onModify", getProxy(BayProxy):getShipById(slot1.shipId))
 
-				if not slot10 then
-					pg.TipsMgr.GetInstance():ShowTips(slot11)
+				if not slot9 then
+					pg.TipsMgr.GetInstance():ShowTips(slot10)
 				else
 					slot0:emit(ShipMainMediator.EQUIP_CHANGE_NOTICE, {
 						notice = GAME.EQUIP_FROM_SHIP,
@@ -767,19 +649,21 @@ function slot0.getEquipments(slot0)
 	slot2 = slot0:GetShipVO()
 	slot6 = getProxy(EquipmentProxy):getEquipmentsByFillter(slot2:getShipType(), pg.ship_data_template[slot2.configId]["equip_" .. slot0.selectedEquip.index])
 
-	if slot0.equipingFlag and slot1:getEquipsInShips(slot2, slot0.selectedEquip.index) and #slot7 > 0 then
-		for slot11, slot12 in ipairs(slot7) do
-			if not slot2:isForbiddenAtPos(slot12, slot0.selectedEquip.index) then
-				table.insert(slot6, slot12)
-			end
+	if slot0.equipingFlag then
+		function slot10(slot0, slot1)
+			return uv0.id ~= slot1 and not uv0:isForbiddenAtPos(slot0, uv1.selectedEquip.index)
+		end
+
+		for slot10, slot11 in ipairs(slot1:getEquipsInShips(slot10)) do
+			table.insert(slot6, slot11)
 		end
 	end
 
 	slot7 = {}
-	slot8 = table.mergeArray({}, {
+	slot8 = {
 		slot0.indexData.equipPropertyIndex,
 		slot0.indexData.equipPropertyIndex2
-	}, true)
+	}
 
 	for slot12, slot13 in pairs(slot6) do
 		if slot0:checkFillter(slot13, slot8) then
@@ -798,25 +682,7 @@ function slot0.getEquipments(slot0)
 end
 
 function slot0.checkFillter(slot0, slot1, slot2)
-	if slot1.count <= 0 and not not slot1.shipId then
-		return false
-	elseif not IndexConst.filterEquipByType(slot1, slot0.indexData.typeIndex) then
-		return false
-	elseif not IndexConst.filterEquipByProperty(slot1, slot2) then
-		return false
-	elseif not IndexConst.filterEquipAmmo1(slot1, slot0.indexData.equipAmmoIndex1) then
-		return false
-	elseif not IndexConst.filterEquipAmmo2(slot1, slot0.indexData.equipAmmoIndex2) then
-		return false
-	elseif not IndexConst.filterEquipByCamp(slot1, slot0.indexData.equipCampIndex) then
-		return false
-	elseif not IndexConst.filterEquipByRarity(slot1, slot0.indexData.rarityIndex) then
-		return false
-	elseif not IndexConst.filterEquipByExtra(slot1, slot0.indexData.extraIndex, slot0.equipingFlag) then
-		return false
-	end
-
-	return true
+	return (slot1.count > 0 or slot1.shipId and slot0.equipingFlag) and IndexConst.filterEquipByType(slot1, slot0.indexData.typeIndex) and IndexConst.filterEquipByProperty(slot1, slot2) and IndexConst.filterEquipAmmo1(slot1, slot0.indexData.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot1, slot0.indexData.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot1, slot0.indexData.equipCampIndex) and IndexConst.filterEquipByRarity(slot1, slot0.indexData.rarityIndex) and IndexConst.filterEquipByExtra(slot1, slot0.indexData.extraIndex)
 end
 
 function slot0.UpdateLock(slot0)

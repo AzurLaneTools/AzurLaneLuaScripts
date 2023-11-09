@@ -130,6 +130,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100003,
 			100004,
@@ -189,6 +191,7 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200009,
 			12002,
 			12101,
 			12102,
@@ -2889,6 +2892,49 @@ pg.furniture_data_template = setmetatable({
 			303117,
 			303118,
 			303119
+		},
+		[104] = {
+			304001,
+			304002,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131,
+			304201,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307
 		}
 	},
 	get_id_list_by_tag = {
@@ -4618,7 +4664,37 @@ pg.furniture_data_template = setmetatable({
 			303116,
 			303117,
 			303118,
-			303119
+			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130
 		},
 		{
 			1108,
@@ -4773,7 +4849,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1,
@@ -4902,6 +4979,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100003,
 			100004,
@@ -4968,6 +5047,7 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200009,
 			13101,
 			13126,
 			13127,
@@ -5125,7 +5205,8 @@ pg.furniture_data_template = setmetatable({
 			302129,
 			302130,
 			303101,
-			303102
+			303102,
+			304131
 		},
 		[4] = {
 			1001,
@@ -5215,7 +5296,8 @@ pg.furniture_data_template = setmetatable({
 			300001,
 			301001,
 			302001,
-			303001
+			303001,
+			304001
 		},
 		[3] = {
 			1002,
@@ -5306,7 +5388,8 @@ pg.furniture_data_template = setmetatable({
 			300002,
 			301002,
 			302002,
-			303002
+			303002,
+			304002
 		},
 		[5] = {
 			1301,
@@ -5614,7 +5697,14 @@ pg.furniture_data_template = setmetatable({
 			302301,
 			302302,
 			302303,
-			302304
+			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307
 		}
 	},
 	get_id_list_by_type = {
@@ -5707,7 +5797,8 @@ pg.furniture_data_template = setmetatable({
 			300002,
 			301002,
 			302002,
-			303002
+			303002,
+			304002
 		},
 		[7] = {
 			1,
@@ -5818,6 +5909,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			260,
 			263,
+			264,
+			265,
 			100002,
 			100004,
 			100005,
@@ -5882,6 +5975,7 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200009,
 			1102,
 			1103,
 			1104,
@@ -7581,7 +7675,36 @@ pg.furniture_data_template = setmetatable({
 			303116,
 			303117,
 			303118,
-			303119
+			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304116,
+			304117,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131
 		},
 		[11] = {
 			131,
@@ -7737,7 +7860,8 @@ pg.furniture_data_template = setmetatable({
 			300001,
 			301001,
 			302001,
-			303001
+			303001,
+			304001
 		},
 		[5] = {
 			1101,
@@ -7872,7 +7996,9 @@ pg.furniture_data_template = setmetatable({
 			98105,
 			98138,
 			300109,
-			302111
+			302111,
+			304115,
+			304118
 		},
 		[3] = {
 			1108,
@@ -8028,7 +8154,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1301,
@@ -8332,7 +8459,13 @@ pg.furniture_data_template = setmetatable({
 			302301,
 			302302,
 			302303,
-			302304
+			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304307
 		},
 		[8] = {
 			17121
@@ -8353,7 +8486,8 @@ pg.furniture_data_template = setmetatable({
 			33301,
 			38301,
 			76305,
-			98302
+			98302,
+			304306
 		},
 		[12] = {
 			46131
@@ -8489,6 +8623,8 @@ pg.furniture_data_template = setmetatable({
 		259,
 		260,
 		263,
+		264,
+		265,
 		100002,
 		100003,
 		100004,
@@ -8548,6 +8684,7 @@ pg.furniture_data_template = setmetatable({
 		200004,
 		200005,
 		200006,
+		200009,
 		1001,
 		1002,
 		1101,
@@ -11069,7 +11206,48 @@ pg.furniture_data_template = setmetatable({
 		303116,
 		303117,
 		303118,
-		303119
+		303119,
+		304001,
+		304002,
+		304101,
+		304102,
+		304103,
+		304104,
+		304105,
+		304106,
+		304107,
+		304108,
+		304109,
+		304110,
+		304111,
+		304112,
+		304113,
+		304114,
+		304115,
+		304116,
+		304117,
+		304118,
+		304119,
+		304120,
+		304121,
+		304122,
+		304123,
+		304124,
+		304125,
+		304126,
+		304127,
+		304128,
+		304129,
+		304130,
+		304131,
+		304201,
+		304301,
+		304302,
+		304303,
+		304304,
+		304305,
+		304306,
+		304307
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17188,6 +17366,101 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[264] = {
+		spine_extra = "",
+		describe = "만남의 상징이자 재회를 다짐하는 약속의 증표. 당신에게 바닷바람이 늘 함께하기를\n――'템페스타와 청춘의 샘' 이벤트 참가 보상.",
+		gain_by = "템페스타와 청춘의 샘",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "fengfanxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "빛나는 항침",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/fengfanxunzhang",
+		canputon = 0,
+		id = 264,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[265] = {
+		spine_extra = "",
+		describe = "――주사위는 이미 굴려졌다......",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "shimiantouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "운명의 주사위",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 265,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shimiantou",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8",
+						"action9"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -20396,7 +20669,7 @@ pg.base.furniture_data_template = {
 	},
 	[100047] = {
 		spine_extra = "",
-		describe = "사람으로 대변신쥬!",
+		describe = "",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20406,7 +20679,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "쥬쥬 망토 마술",
+		name = "",
 		themeId = 0,
 		icon = "yinxingmoshubuicon",
 		deblocking = 1,
@@ -20949,7 +21222,7 @@ pg.base.furniture_data_template = {
 	},
 	[100054] = {
 		rarity = 4,
-		describe = "먹으면 조금씩 다 이해할 수 있어!",
+		describe = "우주의 모든 이치를... 응... 알 것... 같아...",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20957,7 +21230,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		is_get_time_note = 0,
 		count = 1,
-		name = "마법의 빵 ",
+		name = "마법의 빵",
 		is_3d_obj = 0,
 		advice = 0,
 		themeId = 0,
@@ -21534,6 +21807,90 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[200009] = {
+		spine_extra = "",
+		describe = "그 모습은 그야말로 새터데이 할로윈 나이트(?)!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "할로윈 스테이지",
+		themeId = 0,
+		icon = "furniture_jinluhao_2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 0,
+		picture = "",
+		canputon = 0,
+		id = 200009,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_jinluhao_2B",
+				"normal"
+			},
+			{
+				"furniture_jinluhao_2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					9600031
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -131598,6 +131955,1767 @@ pg.base.furniture_data_template = {
 				"yinghuobgyx",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[304001] = {
+		spine_extra = "",
+		describe = "원양선이여, 자유와 보물을 위해 출항하라!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "항해의 집 벽",
+		effect = "",
+		advice = 0,
+		icon = "dibanhdcicon",
+		spine_action_replace = "",
+		picture = "hdc/dibanhdc",
+		comfortable = 4,
+		canputon = 0,
+		id = 304001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304002] = {
+		spine_extra = "",
+		describe = "원양선이여, 자유와 보물을 위해 출항하라!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "항해의 집 바닥",
+		effect = "",
+		advice = 0,
+		icon = "qiangbihdcicon",
+		spine_action_replace = "",
+		picture = "hdc/qiangbihdc",
+		comfortable = 4,
+		canputon = 0,
+		id = 304002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304101] = {
+		spine_extra = "",
+		describe = "미믹 걱정 없이 안심하고 열 수 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baoxianghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적의 보물상자",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "hdc/baoxianghdc",
+		canputon = 0,
+		id = 304101,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304102] = {
+		spine_extra = "",
+		describe = "바퀴를 꼭 잡고 용맹스럽게 바다를 누벼라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanduohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "타륜",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/chuanduohdc",
+		canputon = 0,
+		id = 304102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304103] = {
+		spine_extra = "",
+		describe = "구조가 매우 안정적이어서 파도에 흔들려도 굴러떨어지지 않는다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 침대",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/chuanghdc",
+		canputon = 0,
+		id = 304103,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3,
+					13
+				},
+				{
+					1,
+					1
+				},
+				"hdc/chuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304104] = {
+		spine_extra = "",
+		describe = "이 만쥬가 내 맥주를 다 마셨어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanyuanjiuhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 선원 만쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/chuanyuanjiuhdc",
+		canputon = 0,
+		id = 304104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304105] = {
+		spine_extra = "",
+		describe = "잘난 체 하고 있다쥬쥬.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanzhangjiuhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 선장 만쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/chuanzhangjiuhdc",
+		canputon = 0,
+		id = 304105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304106] = {
+		spine_extra = "",
+		describe = "두려워하지 말고 마음 가는 대로 대모험!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dachuanhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "출항하는 모험선",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "hdc/dachuanhdc",
+		canputon = 0,
+		id = 304106,
+		can_rotate = 0,
+		size = {
+			5,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-302,
+					10.7
+				},
+				{
+					1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			},
+			{
+				"dance",
+				{
+					111.8,
+					-226.3
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304107] = {
+		spine_extra = "",
+		describe = "준비, 발사!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dapaohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 대포",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/dapaohdc",
+		canputon = 0,
+		id = 304107,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304108] = {
+		spine_extra = "",
+		describe = "준비, 발사!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dapao2hdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 황금 대포",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "hdc/dapao2hdc",
+		canputon = 0,
+		id = 304108,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304109] = {
+		spine_extra = "",
+		describe = "과음하면 여기 누워서 쉴 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dashafahdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 소파",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/dashafahdc",
+		canputon = 0,
+		id = 304109,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.8,
+					16.6
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dashafahdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304110] = {
+		spine_extra = "",
+		describe = "테이블 밑에 통을 둘 수 있는 공간 절약형 설계.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dazhuozihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/dazhuozihdc",
+		canputon = 1,
+		id = 304110,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {
+			0,
+			-11.4
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304111] = {
+		spine_extra = "",
+		describe = "발밑 바닥이 보일 정도의 은은한 빛.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "denghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 램프",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/denghdc",
+		canputon = 0,
+		id = 304111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304112] = {
+		spine_extra = "",
+		describe = "육지에서 항구로 향하는 길을 비추는 미니 등대.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengtahdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "미니 등대",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/dengtahdc",
+		canputon = 0,
+		id = 304112,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304113] = {
+		spine_extra = "",
+		describe = "과음하면 제대로 앉기 힘들 것 같은 의자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dengzihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 체어",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/dengzihdc",
+		canputon = 0,
+		id = 304113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					60.5
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304114] = {
+		spine_extra = "",
+		describe = "해먹에 몸을 맡기고 푸른 하늘을 바라보자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaochuanghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "모래사장의 해먹",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/diaochuanghdc",
+		canputon = 0,
+		id = 304114,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					9.7,
+					-36.4
+				},
+				{
+					1,
+					1
+				},
+				"hdc/diaochuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304115] = {
+		spine_extra = "",
+		describe = "숨겨진 선창과 연결된 통로.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dilonghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "비밀 통로",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/dilonghdc",
+		canputon = 0,
+		id = 304115,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304116] = {
+		spine_extra = "",
+		describe = "내 꿈은 세계 일주!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diqiuyihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 지구본",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/diqiuyihdc",
+		canputon = 0,
+		id = 304116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304117] = {
+		spine_extra = "",
+		describe = "지금은 일하는 중이니까 조용히!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gongzuozhuohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 집무 책상",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/gongzuozhuohdc",
+		canputon = 0,
+		id = 304117,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304118] = {
+		spine_extra = "",
+		describe = "파도 무늬가 그려진 카펫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 8,
+		tag = 1,
+		icon = "haishuihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "바다의 카펫",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/haishuihdc",
+		canputon = 0,
+		id = 304118,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304119] = {
+		spine_extra = "",
+		describe = "이건 꽤 비싸겠군!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jinchuanduohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "황금 타륜",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "hdc/jinchuanduohdc",
+		canputon = 0,
+		id = 304119,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304120] = {
+		spine_extra = "",
+		describe = "황금 바다에서 헤엄치고 싶은 당신에게 추천!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jinyuganghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "황금 욕조",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/jinyuganghdc",
+		canputon = 0,
+		id = 304120,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0.8,
+					-23.8
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/jinyuganghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304121] = {
+		spine_extra = "",
+		describe = "예부터 많은 주정뱅이들이 굴러 떨어졌다는 소문이 전해지는 계단.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "loutihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 계단",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/loutihdc",
+		canputon = 0,
+		id = 304121,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304122] = {
+		spine_extra = "",
+		describe = "정밀한 기재에 흠집이 날 수 있으니 이 근처에서 싸우는 건 금지!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "luopanhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 나침반",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/luopanhdc",
+		canputon = 0,
+		id = 304122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304123] = {
+		spine_extra = "",
+		describe = "건조한 곳에 보관하자. 꺼낼 때는 조심하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paodanhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 포환",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/paodanhdc",
+		canputon = 0,
+		id = 304123,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304124] = {
+		spine_extra = "",
+		describe = "사, 상어는 누가 키우는 거지?!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shayuhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "상어 선창",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/shayuhdc",
+		canputon = 0,
+		id = 304124,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304125] = {
+		spine_extra = "",
+		describe = "보물이 있는 곳을 찾아라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wangyuanjinghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 망원경",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/wangyuanjinghdc",
+		canputon = 0,
+		id = 304125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304126] = {
+		spine_extra = "",
+		describe = "보트를 타고 조용히 상륙하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaochuanhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 보트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/xiaochuanhdc",
+		canputon = 0,
+		id = 304126,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					12.9,
+					-2.1
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/xiaochuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304127] = {
+		spine_extra = "",
+		describe = "통을 놓고 유리판을 깔기만 하면 끝나는 간이 테이블.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaozhuohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 미니 테이블",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/xiaozhuohdc",
+		canputon = 1,
+		id = 304127,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			5.83
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304128] = {
+		spine_extra = "",
+		describe = "의자를 무기로 쓰는 건 금지!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizihdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 의자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/yizihdc",
+		canputon = 0,
+		id = 304128,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					18,
+					27.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304129] = {
+		spine_extra = "",
+		describe = "물은 아껴서 쓰자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zaotonghdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 욕조",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/zaotonghdc",
+		canputon = 0,
+		id = 304129,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-11,
+					-12
+				},
+				{
+					1,
+					1
+				},
+				"hdc/zaotonghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304130] = {
+		spine_extra = "",
+		describe = "깨끗한 테이블. 술병을 몇 병 놓아두는 편이 좋으려나?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuohdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "해적 사각 테이블",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/zhuohdc",
+		canputon = 1,
+		id = 304130,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			1.59
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304131] = {
+		spine_extra = "",
+		describe = "잠깐 시간 좀 내줄래~♡",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 104,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "chushouhdcicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "템페스타의 촉수",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 304131,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chushouhdc",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[304201] = {
+		spine_extra = "",
+		describe = "……캬아!",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 2,
+		icon = "pijiuhdcicon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "해적 맥주",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/pijiuhdc",
+		canputon = 0,
+		id = 304201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304301] = {
+		spine_extra = "",
+		describe = "가끔 날아가는 갈매기가 보인다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "chuanghuhdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "선창 창문",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/chuanghuhdc",
+		canputon = 0,
+		id = 304301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304302] = {
+		spine_extra = "",
+		describe = "……지금은 어디쯤 있는 거지?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "hanghaituhdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "해적 항해도",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/hanghaituhdc",
+		canputon = 0,
+		id = 304302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304303] = {
+		spine_extra = "",
+		describe = "밖에서도 술 냄새… 아니, 향기가 난다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jiujiaohdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "해적 술창고",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/jiujiaohdc",
+		canputon = 0,
+		id = 304303,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304304] = {
+		spine_extra = "",
+		describe = "해적선의 선창을 밝히는 작은 촛불.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 5,
+		icon = "lazhuhdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "해적 촛불",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/lazhuhdc",
+		canputon = 0,
+		id = 304304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304305] = {
+		spine_extra = "",
+		describe = "바닷바람이 안으로 들어오지 않도록 문은 꼭 닫기!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "menhdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "오두막 문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "hdc/menhdc",
+		canputon = 0,
+		id = 304305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304306] = {
+		spine_extra = "",
+		describe = "청량한 바닷바람… 야간 전투에도 적합한 날씨로군.",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "yekonghdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "밤하늘의 풍경",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/yekonghdc",
+		canputon = 0,
+		id = 304306,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304307] = {
+		spine_extra = "",
+		describe = "물고기를 많이 낚았으니, 오늘 저녁은 진수성찬이다!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 104,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "yuwanghdcicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "어망",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "hdc/yuwanghdc",
+		canputon = 0,
+		id = 304307,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

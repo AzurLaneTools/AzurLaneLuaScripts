@@ -60,11 +60,13 @@ function slot0.OnLoaded(slot0)
 	slot0.sortContainer = slot0:findTF("bg/frame/sorts/sort_container")
 	slot0.filterContainer = slot0:findTF("bg/frame/filters/rect_view/conent/theme_panel")
 	slot0.selectedAllBtn = slot0:findTF("bg/frame/filters/rect_view/conent/all_panel/sort_tpl")
+	slot0.close = slot0:findTF("bg/close")
 
 	setText(slot0:findTF("bg/frame/title"), i18n("indexsort_sort"))
 	setText(slot0:findTF("bg/frame/title_filter"), i18n("indexsort_index"))
 	setText(slot0.selectedAllBtn:Find("Text"), i18n("index_all"))
 	setText(slot0:findTF("bg/frame/confirm_btn/Text"), i18n("word_ok"))
+	setText(slot0:findTF("bg/title"), i18n("courtyard_label_filter"))
 end
 
 function slot0.setFilterData(slot0, slot1)
@@ -95,6 +97,9 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0._go, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.close, function ()
+		uv0:Hide()
+	end, SFX_PANEL)
 	slot0:initSortPanel()
 	slot0:initFilterPanel()
 	triggerToggle(slot0.selectedAllBtn, true)
@@ -122,7 +127,8 @@ end
 
 function slot0.onSwitch(slot0, slot1, slot2)
 	onToggle(slot0, slot1, function (slot0)
-		setActive(uv0:Find("mark"), not slot0)
+		uv0:Find("Text"):GetComponent(typeof(Text)).color = slot0 and Color.New(1, 1, 1, 1) or Color.New(0.2235294, 0.227451, 0.2352941, 1)
+
 		uv1(slot0)
 	end, SFX_PANEL)
 end
@@ -135,15 +141,17 @@ function slot0.initFilterPanel(slot0)
 		return uv0.filterConfig[slot0].order < uv0.filterConfig[slot1].order
 	end)
 
-	for slot5, slot6 in ipairs(slot1) do
-		if slot0.filterConfig[slot6].is_view == 1 then
-			slot8 = cloneTplTo(slot0.filterTpl, slot0.filterContainer)
+	slot2 = 0
 
-			setText(slot8:Find("Text"), slot7.name)
+	for slot6, slot7 in ipairs(slot1) do
+		if slot0.filterConfig[slot7].is_view == 1 then
+			slot9 = cloneTplTo(slot0.filterTpl, slot0.filterContainer)
 
-			slot0.filterBtns[slot6] = slot8
+			setText(slot9:Find("Text"), slot8.name)
 
-			slot0:onSwitch(slot8, function (slot0)
+			slot0.filterBtns[slot7] = slot9
+
+			slot0:onSwitch(slot9, function (slot0)
 				if slot0 then
 					table.insert(uv0.filterData, uv1)
 					triggerToggle(uv0.selectedAllBtn, uv0:isSelectedAll())
@@ -154,20 +162,22 @@ function slot0.initFilterPanel(slot0)
 
 					if uv0:isSelectedNone() then
 						triggerToggle(uv0.selectedAllBtn, true)
-						setActive(uv0.selectedAllBtn:Find("mark"), false)
+
+						uv0.selectedAllBtn:Find("Text"):GetComponent(typeof(Text)).color = Color.New(1, 1, 1, 1)
 					end
 				end
 			end)
+			setActive(slot9:Find("line"), (slot2 + 1) % 4 ~= 0)
 		end
 	end
 
 	slot0.otherTF = cloneTplTo(slot0.filterTpl, slot0.filterContainer)
+	slot4 = slot0.otherTF
+
+	setText(slot4:Find("Text"), i18n("backyard_filter_tag_other"))
+
 	slot3 = slot0.otherTF
-
-	setText(slot3:Find("Text"), i18n("backyard_filter_tag_other"))
-
-	slot2 = slot0.otherTF
-	slot0.otherTFToggle = slot2:GetComponent(typeof(Toggle))
+	slot0.otherTFToggle = slot3:GetComponent(typeof(Toggle))
 	slot0.selectedOther = false
 
 	slot0:onSwitch(slot0.otherTF, function (slot0)
@@ -177,7 +187,8 @@ function slot0.initFilterPanel(slot0)
 			triggerToggle(uv0.selectedAllBtn, uv0:isSelectedAll())
 		elseif uv0:isSelectedNone() then
 			triggerToggle(uv0.selectedAllBtn, true)
-			setActive(uv0.selectedAllBtn:Find("mark"), false)
+
+			uv0.selectedAllBtn:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.2235294, 0.227451, 0.2352941, 1)
 		end
 	end)
 	onToggle(slot0, slot0.selectedAllBtn, function (slot0)
@@ -197,7 +208,7 @@ function slot0.initFilterPanel(slot0)
 			uv0.selectedOther = false
 		end
 
-		setActive(uv0.selectedAllBtn:Find("mark"), not slot0)
+		uv0.selectedAllBtn:Find("Text"):GetComponent(typeof(Text)).color = slot0 and Color.New(1, 1, 1, 1) or Color.New(0.2235294, 0.227451, 0.2352941, 1)
 	end, SFX_PANEL)
 end
 

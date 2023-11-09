@@ -141,6 +141,8 @@ slot0.StrategyExpel = 1001
 slot0.StrategyAirSupportFoe = 94
 slot0.StrategyAirSupportFriendly = 95
 slot0.StrategyIntelligenceRecorded = 96
+slot0.StrategyBuffTypeNormal = 0
+slot0.StrategyBuffTypeOnlyBoss = 1
 slot0.StrategyForms = {
 	slot0.StrategyFormSignleLine,
 	slot0.StrategyFormDoubleLine,

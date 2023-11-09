@@ -9706,6 +9706,23 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70235] = {
+		id = 70235,
+		name = "2023海盗活动EX 水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					X = -8,
+					duration = 300,
+					offsetZ = 1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

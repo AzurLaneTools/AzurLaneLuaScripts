@@ -23,34 +23,33 @@ function slot0.OnInit(slot0)
 	slot1 = slot0:findTF("preview_raw")
 	slot0.rawImage = slot1:GetComponent(typeof(RawImage))
 	slot0.listRect = slot0:findTF("adpter/list")
-	slot0.sortBg = slot0:findTF("sort_bg")
-
-	setActive(slot0.sortBg, false)
-
-	slot0.refreshBtns = slot0:findTF("refresh_btns")
-
-	setText(slot0.refreshBtns:Find("random/Text"), i18n("word_random"))
-	setText(slot0.refreshBtns:Find("hot/Text"), i18n("word_hot"))
-	setText(slot0.refreshBtns:Find("new/Text"), i18n("word_new"))
-
+	slot0.refreshBtns = slot0:findTF("adpter/refresh_btns")
 	slot0.btns = {
 		[5] = slot0.refreshBtns:Find("random"),
 		[3] = slot0.refreshBtns:Find("hot"),
 		[2] = slot0.refreshBtns:Find("new")
 	}
-	slot2 = slot0:findTF("search/Placeholder"):GetComponent(typeof(Image))
-	slot2.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "search_theme")
 
-	slot2:SetNativeSize()
+	setText(slot0.refreshBtns:Find("random/Text"), i18n("word_random"))
+	setText(slot0.refreshBtns:Find("random/sel/Text"), i18n("word_random"))
+	setText(slot0.refreshBtns:Find("hot/Text"), i18n("word_hot"))
+	setText(slot0.refreshBtns:Find("hot/sel/Text"), i18n("word_hot"))
+	setText(slot0.refreshBtns:Find("new/Text"), i18n("word_new"))
 
-	for slot6, slot7 in pairs(slot0.btns) do
-		onButton(slot0, slot7, function ()
+	slot4 = "word_new"
+
+	setText(slot0.refreshBtns:Find("new/sel/Text"), i18n(slot4))
+
+	for slot4, slot5 in pairs(slot0.btns) do
+		onButton(slot0, slot5, function ()
 			if uv0:CanClickRefBtn(uv1) then
 				if uv0.selectedRefBtn then
 					setActive(uv0.selectedRefBtn:Find("sel"), false)
+					setActive(uv0.selectedRefBtn:Find("Text"), true)
 				end
 
 				setActive(uv2:Find("sel"), true)
+				setActive(uv2:Find("Text"), false)
 				uv0:SwitchPage(uv1, 1)
 
 				uv0.selectedRefBtn = uv2
@@ -59,18 +58,14 @@ function slot0.OnInit(slot0)
 	end
 
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
+		_backYardThemeTemplateMsgbox:ShowHelp({
 			helps = pg.gametip.backyard_theme_template_shop_tip.tip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.GO_DECORATION)
 	end, SFX_PANEL)
-
-	slot3 = slot0.scrollRect.onValueChanged
-
-	slot3:RemoveAllListeners()
+	slot0.scrollRect.onValueChanged:RemoveAllListeners()
 
 	slot0.arrLeftBtnShop = slot0:findTF("adpter/list/zuobian_shop")
 	slot0.arrRightBtnShop = slot0:findTF("adpter/list/youbian_shop")
@@ -92,7 +87,7 @@ function slot0.OnInit(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot3()
+	function slot1()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			uv0:emit(NewBackYardThemeTemplateMediator.ON_GET_SPCAIL_TYPE_TEMPLATE, BackYardConst.ThemeSortIndex2ServerIndex(uv0.sortIndex, uv0.asc))
 		else
@@ -108,17 +103,23 @@ function slot0.OnInit(slot0)
 		uv1()
 	end
 
-	slot0.contextData.sortPage = BackYardThemeTemplateSortPanel.New(slot0._parentTf, slot0.event, slot0.contextData)
-
-	function slot0.contextData.sortPage.OnConfirm()
-		uv0.sortIndex = uv0.contextData.sortPage.index
-
-		uv1()
-	end
-
 	slot0.contextData.infoPage = BackYardThemeTemplateInfoPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 	slot0.contextData.furnitureMsgBox = BackYardFurnitureMsgBoxPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 	slot0.contextData.themeMsgBox = BackYardThemeTemplatePurchaseMsgbox.New(slot0._parentTf, slot0.event, slot0.contextData)
+
+	setText(slot0.goBtn:Find("Text"), i18n("courtyard_label_go"))
+	setText(slot0:findTF("tip1"), i18n("courtyard_label_empty_template_list"))
+	setText(slot0:findTF("tip2"), i18n("courtyard_label_empty_custom_template_list"))
+	setText(slot0:findTF("tip3"), i18n("courtyard_label_empty_collection_list"))
+end
+
+function slot0.InitInput(slot0)
+	onInputChanged(slot0, slot0.searchInput, function ()
+		setActive(uv0.searchClear, getInputText(uv0.searchInput) ~= "")
+	end)
+	onInputEndEdit(slot0, slot0.searchInput, function ()
+		uv0:OnSearchKeyChange()
+	end)
 end
 
 function slot0.UpdateArr(slot0)
@@ -151,8 +152,10 @@ function slot0.CanClickRefBtn(slot0, slot1)
 end
 
 function slot0.SwitchPage(slot0, slot1, slot2, slot3)
+	slot5 = slot0.timeType
+
 	if getProxy(DormProxy).TYPE ~= slot1 or slot3 then
-		slot0:emit(NewBackYardThemeTemplateMediator.ON_REFRESH, slot1, slot2, slot3)
+		slot0:emit(NewBackYardThemeTemplateMediator.ON_REFRESH, slot1, slot2, slot5, slot3)
 
 		if not slot3 then
 			uv0.nextClickRefreshTime = BackYardConst.MANUAL_REFRESH_THEME_TEMPLATE_TIME + pg.TimeMgr.GetInstance():GetServerTime()
@@ -307,16 +310,6 @@ function slot0.GetData(slot0)
 			slot1 = defaultValue(slot0.sortIndex, 1)
 			slot2 = defaultValue(slot0.asc, true)
 		end
-
-		slot3 = BackYardThemeTemplateSortPanel.GetSortArr(slot1)
-
-		table.sort(slot0.list, function (slot0, slot1)
-			if uv0 then
-				return slot0[uv1] < slot1[uv1]
-			else
-				return slot1[uv1] < slot0[uv1]
-			end
-		end)
 	end
 
 	return slot0.list
@@ -365,6 +358,13 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	if getProxy(DormProxy):NeedShopShowHelp() then
 		-- Nothing
+	end
+
+	if slot0.pageType ~= BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		for slot8, slot9 in pairs(slot0.btns) do
+			setActive(slot9:Find("sel"), false)
+			setActive(slot9:Find("Text"), true)
+		end
 	end
 end
 
@@ -444,6 +444,16 @@ function slot0.CreateCard(slot0, slot1)
 	return BackYardThemeTemplateCard.New(slot1)
 end
 
+function slot0.OnUpdateCard(slot0, slot1, slot2)
+	uv0.super.OnUpdateCard(slot0, slot1, slot2)
+
+	if slot0.cards[slot2].template:ShouldFetch() then
+		slot0:emit(NewBackYardThemeTemplateMediator.ON_GET_THEMPLATE_DATA, slot3.template.id, function (slot0)
+			uv0:FlushData(slot0)
+		end)
+	end
+end
+
 function slot0.OnCardClick(slot0, slot1)
 	if slot1.template == slot0.card then
 		return
@@ -484,10 +494,6 @@ function slot0.OnDestroy(slot0)
 	slot0.descPages.OnSortChange = nil
 
 	slot0.descPages:Destroy()
-
-	slot0.contextData.sortPage.OnConfirm = nil
-
-	slot0.contextData.sortPage:Destroy()
 	slot0.contextData.infoPage:Destroy()
 	slot0.contextData.furnitureMsgBox:Destroy()
 	slot0.contextData.themeMsgBox:Destroy()

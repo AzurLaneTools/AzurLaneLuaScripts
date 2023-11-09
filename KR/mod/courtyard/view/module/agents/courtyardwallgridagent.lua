@@ -47,7 +47,7 @@ function slot0.UpdatePositionAndColor(slot0, slot1, slot2)
 end
 
 function slot0.GetPool(slot0)
-	return _courtyard:GetView().poolMgr:GetWallGridPool()
+	return slot0:GetView().poolMgr:GetWallGridPool()
 end
 
 return slot0

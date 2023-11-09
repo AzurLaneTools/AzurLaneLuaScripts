@@ -200,13 +200,13 @@ pg.commander_ability_template = {
 	},
 	[121] = {
 		cost = 0,
-		name = "루키의 포격술 (주력)",
+		name = "신참 포병·주력",
 		next = 122,
 		worth = 1,
 		id = 121,
 		group_id = 12,
 		icon = "zhanlie_paoji_1",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함</color>의 포격 수치가 8 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함, 범선M</color>의 포격이 8 상승",
 		add = {
 			{
 				1,
@@ -215,7 +215,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				8
@@ -236,19 +237,23 @@ pg.commander_ability_template = {
 			},
 			{
 				"<모니터함>포격",
+				8
+			},
+			{
+				"<범선M>포격",
 				8
 			}
 		}
 	},
 	[122] = {
 		cost = 0,
-		name = "숙련된 포격술 (주력)",
+		name = "고참 포병·주력",
 		next = 123,
 		worth = 2,
 		id = 122,
 		group_id = 12,
 		icon = "zhanlie_paoji_2",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함</color>의 포격 수치가 11 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함, 범선M</color>의 포격이 11 상승",
 		add = {
 			{
 				1,
@@ -257,7 +262,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				11
@@ -278,19 +284,23 @@ pg.commander_ability_template = {
 			},
 			{
 				"<모니터함>포격",
+				11
+			},
+			{
+				"<범선M>포격",
 				11
 			}
 		}
 	},
 	[123] = {
 		cost = 0,
-		name = "포격 마스터 (주력)",
+		name = "포병장·주력",
 		next = 0,
 		worth = 3,
 		id = 123,
 		group_id = 12,
 		icon = "zhanlie_paoji_3",
-		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함</color>의 포격 수치가 16 상승",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함, 범선M</color>의 포격이 16 상승",
 		add = {
 			{
 				1,
@@ -299,7 +309,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					10,
-					13
+					13,
+					24
 				},
 				2,
 				16
@@ -321,6 +332,196 @@ pg.commander_ability_template = {
 			{
 				"<모니터함>포격",
 				16
+			},
+			{
+				"<범선M>포격",
+				16
+			}
+		}
+	},
+	[131] = {
+		cost = 0,
+		name = "포격 강화·주력",
+		next = 132,
+		worth = 2,
+		id = 131,
+		group_id = 13,
+		icon = "zhanlie_paoji_1",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함, 범선</color>의 포격이 10 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				10
+			}
+		},
+		add_desc = {
+			{
+				"<전함>포격",
+				10
+			},
+			{
+				"<순양전함>포격",
+				10
+			},
+			{
+				"<항공전함>포격",
+				10
+			},
+			{
+				"<모니터함>포격",
+				10
+			},
+			{
+				"<범선>포격",
+				10
+			}
+		}
+	},
+	[132] = {
+		cost = 0,
+		name = "포격 제압·주력",
+		next = 0,
+		worth = 3,
+		id = 132,
+		group_id = 13,
+		icon = "zhanlie_paoji_2",
+		desc = "<color=#3dc6ff>순양전함, 전함, 항공전함, 모니터함, 범선</color>의 포격이 14 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					10,
+					13,
+					22,
+					23,
+					24
+				},
+				2,
+				14
+			}
+		},
+		add_desc = {
+			{
+				"<전함>포격",
+				14
+			},
+			{
+				"<순양전함>포격",
+				14
+			},
+			{
+				"<항공전함>포격",
+				14
+			},
+			{
+				"<모니터함>포격",
+				14
+			},
+			{
+				"<범선>포격",
+				14
+			}
+		}
+	},
+	[141] = {
+		cost = 0,
+		name = "포격 강화·선봉",
+		next = 142,
+		worth = 2,
+		id = 141,
+		group_id = 14,
+		icon = "xunyang_paoji_1",
+		desc = "<color=#3dc6ff>경순양함, 중순양함, 초갑형순양함, 범선</color>의 포격이 6 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				6
+			}
+		},
+		add_desc = {
+			{
+				"<경순양함>포격",
+				6
+			},
+			{
+				"<중순양함>포격",
+				6
+			},
+			{
+				"<초갑형순양함>포격",
+				6
+			},
+			{
+				"<범선>포격",
+				6
+			}
+		}
+	},
+	[142] = {
+		cost = 0,
+		name = "포격 제압·선봉",
+		next = 0,
+		worth = 3,
+		id = 142,
+		group_id = 14,
+		icon = "xunyang_paoji_2",
+		desc = "<color=#3dc6ff>경순양함, 중순양함, 초갑형순양함, 범선</color>의 포격이 8 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					22,
+					23,
+					24
+				},
+				2,
+				8
+			}
+		},
+		add_desc = {
+			{
+				"<경순양함>포격",
+				8
+			},
+			{
+				"<중순양함>포격",
+				8
+			},
+			{
+				"<초갑형순양함>포격",
+				8
+			},
+			{
+				"<범선>포격",
+				8
 			}
 		}
 	},
@@ -786,7 +987,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				8
@@ -817,7 +1019,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				11
@@ -848,7 +1051,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				4,
 				16
@@ -882,7 +1086,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				10
@@ -916,7 +1121,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				14
@@ -950,7 +1156,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				4,
 				20
@@ -981,7 +1188,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				4
@@ -1012,7 +1220,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				5
@@ -1043,7 +1252,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				12,
 				8
@@ -1077,7 +1287,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				3
@@ -1111,7 +1322,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				4
@@ -1145,7 +1357,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				12,
 				6
@@ -1649,13 +1862,13 @@ pg.commander_ability_template = {
 	},
 	[651] = {
 		cost = 0,
-		name = "루키의 장전술 (특수)",
+		name = "신참 장전수·특수",
 		next = 652,
 		worth = 1,
 		id = 651,
 		group_id = 65,
 		icon = "teshu_one_1",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 장전 수치가 3 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 장전이 3 상승",
 		add = {
 			{
 				1,
@@ -1663,7 +1876,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				3
@@ -1676,19 +1892,27 @@ pg.commander_ability_template = {
 			},
 			{
 				"<공작함>장전",
+				3
+			},
+			{
+				"<운송함>장전",
+				3
+			},
+			{
+				"<범선>장전",
 				3
 			}
 		}
 	},
 	[652] = {
 		cost = 0,
-		name = "숙련된 장전술 (특수)",
+		name = "고참 장전수·특수",
 		next = 653,
 		worth = 2,
 		id = 652,
 		group_id = 65,
 		icon = "teshu_one_2",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 장전 수치가 4 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 장전이 4 상승",
 		add = {
 			{
 				1,
@@ -1696,7 +1920,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				4
@@ -1709,19 +1936,27 @@ pg.commander_ability_template = {
 			},
 			{
 				"<공작함>장전",
+				4
+			},
+			{
+				"<운송함>장전",
+				4
+			},
+			{
+				"<범선>장전",
 				4
 			}
 		}
 	},
 	[653] = {
 		cost = 0,
-		name = "장전 마스터 (특수)",
+		name = "달인 장전수·특수",
 		next = 0,
 		worth = 3,
 		id = 653,
 		group_id = 65,
 		icon = "teshu_one_3",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 장전 수치가 6 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 장전이 6 상승",
 		add = {
 			{
 				1,
@@ -1729,7 +1964,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				6,
 				6
@@ -1742,6 +1980,14 @@ pg.commander_ability_template = {
 			},
 			{
 				"<공작함>장전",
+				6
+			},
+			{
+				"<운송함>장전",
+				6
+			},
+			{
+				"<범선>장전",
 				6
 			}
 		}
@@ -2237,13 +2483,13 @@ pg.commander_ability_template = {
 	},
 	[751] = {
 		cost = 0,
-		name = "기관사 루키 (특수)",
+		name = "신참 기관사·특수",
 		next = 752,
 		worth = 1,
 		id = 751,
 		group_id = 75,
 		icon = "teshu_naijiu_1",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 내구 수치가 40 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 내구가 40 상승",
 		add = {
 			{
 				1,
@@ -2251,7 +2497,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				40
@@ -2264,19 +2513,27 @@ pg.commander_ability_template = {
 			},
 			{
 				"<공작함>내구",
+				40
+			},
+			{
+				"<운송함>내구",
+				40
+			},
+			{
+				"<범선>내구",
 				40
 			}
 		}
 	},
 	[752] = {
 		cost = 0,
-		name = "숙련된 기관사 (특수)",
+		name = "고참 기관사·특수",
 		next = 753,
 		worth = 2,
 		id = 752,
 		group_id = 75,
 		icon = "teshu_naijiu_2",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 내구 수치가 56 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 내구가 56 상승",
 		add = {
 			{
 				1,
@@ -2284,7 +2541,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				56
@@ -2297,19 +2557,27 @@ pg.commander_ability_template = {
 			},
 			{
 				"<공작함>내구",
+				56
+			},
+			{
+				"<운송함>내구",
+				56
+			},
+			{
+				"<범선>내구",
 				56
 			}
 		}
 	},
 	[753] = {
 		cost = 0,
-		name = "기관장 (특수)",
+		name = "달인 기관사·특수",
 		next = 0,
 		worth = 3,
 		id = 753,
 		group_id = 75,
 		icon = "teshu_naijiu_3",
-		desc = "<color=#3dc6ff>모니터함, 공작함</color>의 내구 수치가 80 상승",
+		desc = "<color=#3dc6ff>모니터함, 공작함, 운송함, 범선</color>의 내구가 80 상승",
 		add = {
 			{
 				1,
@@ -2317,7 +2585,10 @@ pg.commander_ability_template = {
 				{
 					12,
 					13,
-					19
+					19,
+					22,
+					23,
+					24
 				},
 				1,
 				80
@@ -2331,6 +2602,140 @@ pg.commander_ability_template = {
 			{
 				"<공작함>내구",
 				80
+			},
+			{
+				"<운송함>내구",
+				80
+			},
+			{
+				"<범선>내구",
+				80
+			}
+		}
+	},
+	[761] = {
+		cost = 0,
+		name = "신참 기관사·소형",
+		next = 762,
+		worth = 1,
+		id = 761,
+		group_id = 76,
+		icon = "teshu_naijiu_1",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 내구가 30 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				30
+			}
+		},
+		add_desc = {
+			{
+				"<잠수함, 잠수항모>내구",
+				30
+			},
+			{
+				"<구축함>내구",
+				30
+			},
+			{
+				"<범선>내구",
+				30
+			}
+		}
+	},
+	[762] = {
+		cost = 0,
+		name = "고참 기관사·소형",
+		next = 763,
+		worth = 2,
+		id = 762,
+		group_id = 76,
+		icon = "teshu_naijiu_2",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 내구가 42 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				42
+			}
+		},
+		add_desc = {
+			{
+				"<잠수함, 잠수항모>내구",
+				42
+			},
+			{
+				"<구축함>내구",
+				42
+			},
+			{
+				"<범선>내구",
+				42
+			}
+		}
+	},
+	[763] = {
+		cost = 0,
+		name = "기관장·소형",
+		next = 0,
+		worth = 3,
+		id = 763,
+		group_id = 76,
+		icon = "teshu_naijiu_3",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 내구가 60 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					8,
+					17,
+					20,
+					21,
+					22,
+					23,
+					24
+				},
+				1,
+				60
+			}
+		},
+		add_desc = {
+			{
+				"<잠수함, 잠수항모>내구",
+				60
+			},
+			{
+				"<구축함>내구",
+				60
+			},
+			{
+				"<범선>내구",
+				60
 			}
 		}
 	},
@@ -2436,7 +2841,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				3
@@ -2467,7 +2873,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				4
@@ -2498,7 +2905,8 @@ pg.commander_ability_template = {
 					2,
 					3,
 					18,
-					20
+					20,
+					23
 				},
 				8,
 				6
@@ -2532,7 +2940,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				1
@@ -2566,7 +2975,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				2
@@ -2600,7 +3010,8 @@ pg.commander_ability_template = {
 					10,
 					12,
 					13,
-					21
+					21,
+					24
 				},
 				8,
 				3
@@ -2615,13 +3026,13 @@ pg.commander_ability_template = {
 	},
 	[901] = {
 		cost = 0,
-		name = "조타수 루키 (소형함)",
+		name = "조타수·소형",
 		next = 902,
 		worth = 1,
 		id = 901,
 		group_id = 90,
 		icon = "quzhu_one_1",
-		desc = "<color=#3dc6ff>잠수함, 구축함</color>의 기동 수치가 5 상승",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 기동이 5 상승",
 		add = {
 			{
 				1,
@@ -2631,7 +3042,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				5
@@ -2639,24 +3053,28 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<잠수함>기동",
+				"<잠수함, 잠수항모>기동",
 				5
 			},
 			{
 				"<구축함>기동",
+				5
+			},
+			{
+				"<범선>기동",
 				5
 			}
 		}
 	},
 	[902] = {
 		cost = 0,
-		name = "숙련된 조타수 (소형함)",
+		name = "고참 조타수·소형",
 		next = 903,
 		worth = 2,
 		id = 902,
 		group_id = 90,
 		icon = "quzhu_one_2",
-		desc = "<color=#3dc6ff>잠수함, 구축함</color>의 기동 수치가 7 상승",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 기동이 7 상승",
 		add = {
 			{
 				1,
@@ -2666,7 +3084,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				7
@@ -2674,24 +3095,28 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<잠수함>기동",
+				"<잠수함, 잠수항모>기동",
 				7
 			},
 			{
 				"<구축함>기동",
+				7
+			},
+			{
+				"<범선>기동",
 				7
 			}
 		}
 	},
 	[903] = {
 		cost = 0,
-		name = "항해사 (소형함)",
+		name = "항해장·소형",
 		next = 0,
 		worth = 3,
 		id = 903,
 		group_id = 90,
 		icon = "quzhu_one_3",
-		desc = "<color=#3dc6ff>잠수함, 구축함</color>의 기동 수치가 10 상승",
+		desc = "<color=#3dc6ff>잠수함, 잠수항모, 구축함, 범선<color>의 기동이 10 상승",
 		add = {
 			{
 				1,
@@ -2701,7 +3126,10 @@ pg.commander_ability_template = {
 					8,
 					17,
 					20,
-					21
+					21,
+					22,
+					23,
+					24
 				},
 				9,
 				10
@@ -2709,11 +3137,15 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<잠수함>기동",
+				"<잠수함, 잠수항모>기동",
 				10
 			},
 			{
 				"<구축함>기동",
+				10
+			},
+			{
+				"<범선>기동",
 				10
 			}
 		}
@@ -5453,6 +5885,114 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[5141] = {
+		cost = 0,
+		name = "전투 준비",
+		next = 0,
+		worth = 1,
+		id = 5141,
+		group_id = 514,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>전함, 순양전함, 범선M</color>의 포격이 25 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					22,
+					24
+				},
+				2,
+				25
+			}
+		},
+		add_desc = {
+			{
+				"<전함>포격",
+				25
+			},
+			{
+				"<순양전함>포격",
+				25
+			},
+			{
+				"<범선M>火力",
+				25
+			}
+		}
+	},
+	[5151] = {
+		cost = 0,
+		name = "돛을 내려라!",
+		next = 0,
+		worth = 1,
+		id = 5151,
+		group_id = 515,
+		icon = "special_one",
+		desc = "<color=#3dc6ff>경순양함, 중순양함, 초갑형순양함, 범선V</color>의 포격이 10, 기동이 5 상승",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				2,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18,
+					23
+				},
+				9,
+				5
+			}
+		},
+		add_desc = {
+			{
+				"<경순양함>포격",
+				10
+			},
+			{
+				"<중순양함>포격",
+				10
+			},
+			{
+				"<초갑형순양함>포격",
+				10
+			},
+			{
+				"<범선V>포격",
+				10
+			},
+			{
+				"<경순양함>기동",
+				5
+			},
+			{
+				"<중순양함>기동",
+				5
+			},
+			{
+				"<초갑형순양함>기동",
+				5
+			},
+			{
+				"<범선V>기동",
+				5
+			}
+		}
+	},
 	all = {
 		101,
 		102,
@@ -5463,6 +6003,10 @@ pg.commander_ability_template = {
 		121,
 		122,
 		123,
+		131,
+		132,
+		141,
+		142,
 		201,
 		202,
 		203,
@@ -5526,6 +6070,9 @@ pg.commander_ability_template = {
 		751,
 		752,
 		753,
+		761,
+		762,
+		763,
 		801,
 		802,
 		803,
@@ -5595,6 +6142,8 @@ pg.commander_ability_template = {
 		5101,
 		5111,
 		5121,
-		5131
+		5131,
+		5141,
+		5151
 	}
 }

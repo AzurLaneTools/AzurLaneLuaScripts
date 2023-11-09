@@ -1036,33 +1036,25 @@ function updateShip(slot0, slot1, slot2)
 end
 
 function updateCommander(slot0, slot1, slot2)
-	slot4 = ShipRarity.Rarity2Print(slot1:getRarity())
-	slot5 = slot1:getPainting()
+	slot3 = pg.commander_data_template[slot1]
+	slot5 = ShipRarity.Rarity2Print(slot3.rarity)
+	slot6 = slot3.painting
 
 	if (slot2 or {}).anonymous then
-		slot4 = 1
-		slot5 = "unknown"
+		slot5 = 1
+		slot6 = "unknown"
 	end
 
-	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot4), findTF(slot0, "icon_bg"))
-	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot5), findTF(slot0, "icon_bg"))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
 
 	if slot2.gray then
-		setGray(slot6, true, true)
+		setGray(slot7, true, true)
 	end
 
-	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot5, "", findTF(slot0, "icon_bg/icon"))
-
-	if findTF(slot0, "icon_bg/lv") then
-		setActive(slot9, true)
-
-		if findTF(slot9, "Text") and slot1.level then
-			setText(slot10, slot1.level)
-		end
-	end
-
-	setIconStars(slot0, slot2.initStar, slot1.getStar(slot1))
-	setIconName(slot0, slot1.getName(slot1), slot2)
+	GetImageSpriteFromAtlasAsync("CommanderIcon/" .. slot6, "", findTF(slot0, "icon_bg/icon"))
+	setIconStars(slot0, slot2.initStar, 0)
+	setIconName(slot0, slot3.name, slot2)
 end
 
 function updateStrategy(slot0, slot1, slot2)
@@ -1210,10 +1202,12 @@ function getDropInfo(slot0)
 			table.insert(slot1, pg.equip_skin_template[slot8].name .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_BUFF then
 			table.insert(slot1, pg.benefit_buff_template[slot8].name .. "x" .. slot9)
+		elseif slot7 == DROP_TYPE_COMMANDER_CAT then
+			table.insert(slot1, pg.commander_data_template[slot8].name .. "x" .. slot9)
 		end
 	end
 
-	return table.concat(slot1, ",")
+	return table.concat(slot1, "、")
 end
 
 function updateDrop(slot0, slot1, slot2)
@@ -1384,6 +1378,9 @@ function updateDrop(slot0, slot1, slot2)
 		end,
 		[DROP_TYPE_BUFF] = function ()
 			updateBuff(uv0, uv1.id, uv2)
+		end,
+		[DROP_TYPE_COMMANDER_CAT] = function ()
+			updateCommander(uv0, uv1.id, uv2)
 		end
 	})
 	setIconCount(slot0, slot5 or slot1.count)
@@ -1567,6 +1564,12 @@ function updateDropCfg(slot0)
 			slot0.desc = slot0.cfg.desc
 
 			return slot0.cfg
+		end,
+		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
+			slot0.cfg = pg.commander_data_template[slot0.id]
+			slot0.desc = ""
+
+			return slot0.cfg
 		end
 	}
 	uv1 = uv1 or function (slot0)
@@ -1697,6 +1700,9 @@ function GetOwnedDropCount(slot0)
 				else
 					return slot1:GetInventoryProxy():GetItemCount(slot0.id), false
 				end
+			end,
+			[DROP_TYPE_COMMANDER_CAT] = function (slot0)
+				return getProxy(CommanderProxy):GetSameConfigIdCommanderCount(slot0.id)
 			end
 		}
 
@@ -1758,6 +1764,9 @@ function getDropRarity(slot0)
 		end,
 		[DROP_TYPE_BUFF] = function ()
 			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_COMMANDER_CAT] = function ()
+			return pg.commander_data_template[uv0.id].rarity
 		end
 	}, function ()
 		return 1
@@ -2227,7 +2236,7 @@ function filterSpecChars(slot0)
 
 				slot2 = slot2 + 1
 			end
-		elseif slot6 == 227 and (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_KR) then
+		elseif slot6 == 227 and PLATFORM_CODE == PLATFORM_JP then
 			slot8 = string.byte(slot0, slot5 + 2)
 
 			if string.byte(slot0, slot5 + 1) and slot8 and slot7 > 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
@@ -2818,27 +2827,6 @@ function enableNotch(slot0, slot1)
 			slot3.enabled = false
 		end
 	end
-end
-
-function numberFormat(slot0, slot1)
-	slot2 = ""
-	slot4 = string.len(tostring(slot0))
-
-	if slot1 == nil then
-		slot1 = ","
-	end
-
-	slot1 = tostring(slot1)
-
-	for slot8 = 1, slot4 do
-		slot2 = string.char(string.byte(slot3, slot4 + 1 - slot8)) .. slot2
-
-		if slot8 % 3 == 0 and slot4 - slot8 ~= 0 then
-			slot2 = slot1 .. slot2
-		end
-	end
-
-	return slot2
 end
 
 function comma_value(slot0)
@@ -3576,14 +3564,18 @@ function updateEquipInfo(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	for slot12, slot13 in ipairs(ShipType.FilterOverQuZhuType(ShipType.AllShipType)) do
-		slot14 = slot12 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5)
+	UIItemList.StaticAlign(slot5, slot6, #ShipType.MergeFengFanType(ShipType.FilterOverQuZhuType(ShipType.AllShipType), slot7, slot8), function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot13), slot14)
-		setActive(slot14:Find("main"), slot7[slot13] and not slot8[slot13])
-		setActive(slot14:Find("sub"), slot8[slot13] and not slot7[slot13])
-		setImageAlpha(slot14, not slot7[slot13] and not slot8[slot13] and 0.3 or 1)
-	end
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1]
+
+			GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot3), slot2)
+			setActive(slot2:Find("main"), uv1[slot3] and not uv2[slot3])
+			setActive(slot2:Find("sub"), uv2[slot3] and not uv1[slot3])
+			setImageAlpha(slot2, not uv1[slot3] and not uv2[slot3] and 0.3 or 1)
+		end
+	end)
 end
 
 function updateEquipUpgradeInfo(slot0, slot1, slot2)
@@ -4172,4 +4164,39 @@ function checkCullResume(slot0)
 	end
 
 	return true
+end
+
+function parseEquipCode(slot0)
+	slot1 = {}
+
+	if slot0 and slot0 ~= "" then
+		slot1 = string.split(base64.dec(slot0), "/")
+		slot1[5], slot1[6] = unpack(string.split(slot1[5], "\\"))
+
+		if #slot1 < 6 or slot0 ~= base64.enc(table.concat({
+			table.concat(underscore.first(slot1, 5), "/"),
+			slot1[6]
+		}, "\\")) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipcode_illegal"))
+
+			slot1 = {}
+		end
+	end
+
+	for slot5 = 1, 6 do
+		slot1[slot5] = slot1[slot5] and tonumber(slot1[slot5], 32) or 0
+	end
+
+	return slot1
+end
+
+function buildEquipCode(slot0)
+	return base64.enc(table.concat({
+		table.concat(underscore.map(slot0:getAllEquipments(), function (slot0)
+			return ConversionBase(32, slot0 and slot0.id or 0)
+		end), "/"),
+		ConversionBase(32, checkExist(slot0:GetSpWeapon(), {
+			"id"
+		}) or 0)
+	}, "\\"))
 end

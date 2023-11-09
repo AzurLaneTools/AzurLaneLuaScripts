@@ -1516,7 +1516,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
-	tip = "휴식 시킬 함선을 배치하기 전까지 <color=#92fc63>식량은 줄어들지 않습니다.</color>"
+	tip = "<color=#393A3C>휴식 시킬 함선을 배치하기 전까지</color>,<color=#72bc42>식량은 줄어들지 않습니다.</color>"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1528,7 +1528,7 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-	tip = "식량 창고를 <color=#92fc63>$1</color>에서 <color=#92fc63>$2</color>으로 확장"
+	tip = "식량 창고를 <color=#72bc42>$1</color>에서 <color=#72bc42>$2</color>으로 확장"
 }
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
@@ -1540,32 +1540,27 @@ _G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
-	tip = "<size=30>현재 각 카테고리 가구 쾌적도에 도달하는 수량：\n벽지:<color=#92fc63>$1</color>/바닥:<color=#92fc63>$4</color>/가구:<color=#92fc63>$2</color>/장식:<color=#92fc63>$3</color>/카펫:<color=#92fc63>$5</color>/벽장식:<color=#92fc63>$6</color>/수집품:<color=#92fc63>$7</color>\n</size> "
+	tip = "숙소 쾌적도는 가구 배치에 영향을 받지 않으며, 쾌적도가 가장 높은 상위 n번째 가구의 쾌적도를 합산하여 계산합니다."
 }
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-	tip = [[
-<size=30>$1</size>
-현재 경험치<color=#92fc63>+$2%</color><size=30>
-<color=#92fc63>쾌적도</color>는 가구 배치에 영향을 받지 않으며，<color=#92fc63>각 카테고리 가구</color>중 
-쾌적도가 가장 높은<color=#92fc63>상위 n건</color>의 합계치를 계산합니다 각 카테고리 가구의 n치는 숙소 확장 횟수의 영향을 받습니다. 현재 횟수:<color=#92fc63>$3</color>
-</size>]]
+	tip = "숙소 쾌적도를 게재할 때 사용되는 가구 수는 숙소 확장 횟수에 따라 결정됩니다. 현재 확장 횟수: <color=#72bc42>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "<color=#92fc63>$1</color>을(를) 소비합니다. 진행하시겠습니까?"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent1_1 = {
-	tip = "<color=#ff5c5c>불편</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
+	tip = "검소"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent2_2 = {
-	tip = "<color=#ffde38>보통</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
+	tip = "보통"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_comforChatContent3_3 = {
-	tip = "<color=#c5cfdf>쾌적</color>"
+_G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
+	tip = "쾌적"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
@@ -1592,10 +1587,6 @@ _G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "피로도가 회복되었습니다!"
 }
 
-_G.pg.base.gametip.backyard_backyardScene_timeRest = {
-	tip = "남은 시간 <color=#92fc63>$1</color>"
-}
-
 _G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
 	tip = "휴식시간：<color=#92fc63>$1</color> 경험치 증가：<color=#92fc63>$2</color>"
 }
@@ -1613,7 +1604,7 @@ _G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
-	tip = "<color=#92fc63>$1 다이아</color>를 사용하여 휴식 슬롯을 개방하시겠습니까?"
+	tip = "<color=#72bc42>$1 다이아</color>를 사용하여 휴식 슬롯을 개방하시겠습니까?"
 }
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
@@ -1681,7 +1672,7 @@ _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 }
 
 _G.pg.base.gametip.backyard_open_2floor = {
-	tip = "<color=#92fc63>$1</color> 다이아를 사용하여 숙소의 2층을 개방하시겠습니까?\n※쾌적도가 <color=#92fc63>20</color> 증가합니다. ※휴식 슬롯의 개수는 1층과 동일합니다."
+	tip = "<color=#72bc42>$1</color> 다이아를 사용하여 숙소의 2층을 개방하시겠습니까?\n※쾌적도가 <color=#92fc63>20</color> 증가합니다. ※휴식 슬롯의 개수는 1층과 동일합니다."
 }
 
 _G.pg.base.gametip.backyarad_theme_replace = {
@@ -8355,11 +8346,11 @@ _G.pg.base.gametip.ship_quick_change_nofreeequip = {
 }
 
 _G.pg.base.gametip.word_nowenergy = {
-	tip = "현재 심정"
+	tip = "컨디션"
 }
 
 _G.pg.base.gametip.word_energy_recov_speed = {
-	tip = "회복속도"
+	tip = "회복 속도"
 }
 
 _G.pg.base.gametip.destroy_eliteship_tip = {
@@ -9857,7 +9848,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, '운젠' 100% 획득 가능! (최대 4척까지)"
+	tip = "상 마르티뉴, 골든 하인드 등 캐릭터 등장 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13823,6 +13814,10 @@ _G.pg.base.gametip.indexsort_extraindex = {
 	tip = "추가 색인"
 }
 
+_G.pg.base.gametip.indexsort_label = {
+	tip = "라벨"
+}
+
 _G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
@@ -13841,6 +13836,10 @@ _G.pg.base.gametip.indexsort_rarityeng = {
 
 _G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
+}
+
+_G.pg.base.gametip.indexsort_labeleng = {
+	tip = "LABEL"
 }
 
 _G.pg.base.gametip.fightfail_up = {
@@ -18344,7 +18343,7 @@ _G.pg.base.gametip.fleet_select_title = {
 }
 
 _G.pg.base.gametip.backyard_rename_title = {
-	tip = "숙소명칭"
+	tip = "이름 변경"
 }
 
 _G.pg.base.gametip.backyard_rename_tip = {
@@ -24894,11 +24893,28 @@ _G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
 }
 
 _G.pg.base.gametip.shipyard_phase_1 = {
-	tip = "占坑"
+	tip = {
+		{
+			info = [[
+이벤트 개요:
+'템페스타의 비밀 조선소'란, 임무 이벤트 '템페스타의 비밀 조선소'에서 만든 함선을 조종하여 넓은 바다에서 적을 무찌르거나 보물을 회수하면서, 종점에 도달해 점수를 얻는 미니 게임입니다. 
+미니 게임은 <color=#92fc63>11월 9일(목) ~ 11월 23일(목) 23:59까지 진행됩니다. 
+
+플레이 방법:
+・'템페스타의 비밀 조선소'에서는 다양한 임무가 등장합니다. 모든 임무를 클리어하면 미니 게임에서 사용할 배가 완성됩니다.
+・미니 게임에서는 스테이지를 선택하고 장착하고자 하는 장비를 선택하면, 해전 게임을 즐길 수 있습니다.
+・미니 게임은 11월 1일(수)까지 매일 새로운 스테이지가 오픈됩니다.
+・스테이지를 클리어하면, 각 스테이지에서 1회 한정으로 클리어 보상을 획득할 수 있습니다.
+　스테이지 3 템페스타용 설비 '과일 보급품'
+스테이지 5 템페스타용 장비 세트 
+스테이지 7 한정 가구 '출항하는 모험선'
+・스테이지 7을 클리어하면 임의의 스테이지를 선택해 플레이할 수 있습니다.]]
+		}
+	}
 }
 
 _G.pg.base.gametip.shipyard_phase_2 = {
-	tip = "占坑"
+	tip = "废弃"
 }
 
 _G.pg.base.gametip.shipyard_button_1 = {
@@ -24951,4 +24967,630 @@ _G.pg.base.gametip.word_status_inSupportFleet = {
 
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
 	tip = "이미 지원 함대에 편성되어 있습니다. 편성을 변경하시겠습니까?"
+}
+
+_G.pg.base.gametip.courtyard_label_train = {
+	tip = "훈련"
+}
+
+_G.pg.base.gametip.courtyard_label_rest = {
+	tip = "휴식"
+}
+
+_G.pg.base.gametip.courtyard_label_capacity = {
+	tip = "식량"
+}
+
+_G.pg.base.gametip.courtyard_label_share = {
+	tip = "공유"
+}
+
+_G.pg.base.gametip.courtyard_label_shop = {
+	tip = "상점"
+}
+
+_G.pg.base.gametip.courtyard_label_decoration = {
+	tip = "편집"
+}
+
+_G.pg.base.gametip.courtyard_label_template = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_floor = {
+	tip = "플로어"
+}
+
+_G.pg.base.gametip.courtyard_label_exp_addition = {
+	tip = "경험치 효과"
+}
+
+_G.pg.base.gametip.courtyard_label_total_exp_addition = {
+	tip = "총 경험치 효과:"
+}
+
+_G.pg.base.gametip.courtyard_label_comfortable_addition = {
+	tip = "총 경험치 효과:"
+}
+
+_G.pg.base.gametip.courtyard_label_placed_furniture = {
+	tip = "배치 완료 가구"
+}
+
+_G.pg.base.gametip.courtyard_label_shop_1 = {
+	tip = "상점"
+}
+
+_G.pg.base.gametip.courtyard_label_clear = {
+	tip = "클리어"
+}
+
+_G.pg.base.gametip.courtyard_label_save = {
+	tip = "저장"
+}
+
+_G.pg.base.gametip.courtyard_label_save_theme = {
+	tip = "테마 저장"
+}
+
+_G.pg.base.gametip.courtyard_label_using = {
+	tip = "$1 플로어에 배치 중"
+}
+
+_G.pg.base.gametip.courtyard_label_search_holder = {
+	tip = "search..."
+}
+
+_G.pg.base.gametip.courtyard_label_filter = {
+	tip = "필터링"
+}
+
+_G.pg.base.gametip.courtyard_label_time = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_week = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_month = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_year = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_putlist_title = {
+	tip = "배치 완료 가구 목록"
+}
+
+_G.pg.base.gametip.courtyard_label_custom_theme = {
+	tip = "내 세팅"
+}
+
+_G.pg.base.gametip.courtyard_label_system_theme = {
+	tip = "프리셋"
+}
+
+_G.pg.base.gametip.courtyard_tip_furniture_not_in_layer = {
+	tip = "가구가 해당 플로어에 배치되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.courtyard_label_detail = {
+	tip = "상세 내용"
+}
+
+_G.pg.base.gametip.courtyard_label_place_pnekey = {
+	tip = "일괄 배치"
+}
+
+_G.pg.base.gametip.courtyard_label_delete = {
+	tip = "삭제"
+}
+
+_G.pg.base.gametip.courtyard_label_cancel_share = {
+	tip = "공유 중지"
+}
+
+_G.pg.base.gametip.courtyard_label_empty_template_list = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_empty_collection_list = {
+	tip = ""
+}
+
+_G.pg.base.gametip.courtyard_label_go = {
+	tip = "확인"
+}
+
+_G.pg.base.gametip.mot_class_t_level_1 = {
+	tip = "별의 인도자"
+}
+
+_G.pg.base.gametip.mot_class_t_level_2 = {
+	tip = "구름의 수호자"
+}
+
+_G.pg.base.gametip.equip_share_label_1 = {
+	tip = "대경장갑"
+}
+
+_G.pg.base.gametip.equip_share_label_2 = {
+	tip = "대중형장갑"
+}
+
+_G.pg.base.gametip.equip_share_label_3 = {
+	tip = "대중장갑"
+}
+
+_G.pg.base.gametip.equip_share_label_4 = {
+	tip = "대항공"
+}
+
+_G.pg.base.gametip.equip_share_label_5 = {
+	tip = "폭발적 화력"
+}
+
+_G.pg.base.gametip.equip_share_label_6 = {
+	tip = "안정적 화력"
+}
+
+_G.pg.base.gametip.equip_share_label_7 = {
+	tip = "메인용"
+}
+
+_G.pg.base.gametip.equip_share_label_8 = {
+	tip = "데일리용"
+}
+
+_G.pg.base.gametip.equip_share_label_9 = {
+	tip = "세이렌용"
+}
+
+_G.pg.base.gametip.equipcode_input = {
+	tip = "장비 코드를 입력하십시오."
+}
+
+_G.pg.base.gametip.equipcode_slot_unmatch = {
+	tip = "이 장비 편성은 적용할 수 없습니다."
+}
+
+_G.pg.base.gametip.equipcode_share_nolabel = {
+	tip = "라벨을 2개 설정한 후에 공유할 수 있습니다."
+}
+
+_G.pg.base.gametip.equipcode_share_exceedlimit = {
+	tip = "라벨은 2개까지 선택할 수 있습니다."
+}
+
+_G.pg.base.gametip.equipcode_illegal = {
+	tip = "올바른 장비 코드를 입력하십시오."
+}
+
+_G.pg.base.gametip.equipcode_confirm_doublecheck = {
+	tip = "가져온 장비 편성을 적용하시겠습니까?"
+}
+
+_G.pg.base.gametip.equipcode_import_success = {
+	tip = "장비 편성을 적용했습니다."
+}
+
+_G.pg.base.gametip.equipcode_share_success = {
+	tip = "장비 편성을 공유했습니다."
+}
+
+_G.pg.base.gametip.equipcode_like_limited = {
+	tip = "오늘은 이미 해당 장비 편성에 좋아요를 보냈습니다."
+}
+
+_G.pg.base.gametip.equipcode_like_success = {
+	tip = "좋아요를 보냈습니다."
+}
+
+_G.pg.base.gametip.equipcode_dislike_success = {
+	tip = "신고 완료"
+}
+
+_G.pg.base.gametip.equipcode_report_type_1 = {
+	tip = "장비 편성이 무의미함"
+}
+
+_G.pg.base.gametip.equipcode_report_type_2 = {
+	tip = "장비 편성이 너무 오래됨"
+}
+
+_G.pg.base.gametip.equipcode_report_warning = {
+	tip = "단기간에 대량으로 신고를 받으면 일시적으로 공유가 불가능해집니다."
+}
+
+_G.pg.base.gametip.equipcode_level_unmatched = {
+	tip = "레벨 차이"
+}
+
+_G.pg.base.gametip.equipcode_equipment_unowned = {
+	tip = "미소지"
+}
+
+_G.pg.base.gametip.equipcode_diff_selected = {
+	tip = "변경 완료"
+}
+
+_G.pg.base.gametip.equipcode_export_success = {
+	tip = "장비 코드를 복사했습니다."
+}
+
+_G.pg.base.gametip.equipcode_unsaved_tips = {
+	tip = "가져온 장비 편성은 적용이 불가능합니다. 이전 화면으로 돌아가시겠습니까?"
+}
+
+_G.pg.base.gametip.equipcode_share_ruletips = {
+	tip = "라벨을 2개 설정하여 장비 편성을 공유해 보세요!"
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode7 = {
+	tip = "오늘은 이미 해당 함선의 장비 편성을 공유했습니다."
+}
+
+_G.pg.base.gametip.equipcode_share_errorcode44 = {
+	tip = "오늘은 더 이상 장비 편성을 공유할 수 없습니다."
+}
+
+_G.pg.base.gametip.equipcode_share_title = {
+	tip = "장비 편성"
+}
+
+_G.pg.base.gametip.equipcode_share_titleeng = {
+	tip = "EQUIPMENTS"
+}
+
+_G.pg.base.gametip.equipcode_share_listempty = {
+	tip = "아직 장비 편성을 공유하지 않았습니다."
+}
+
+_G.pg.base.gametip.equipcode_equip_occupied = {
+	tip = "사용 중"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_1 = {
+	tip = "<color=#E3CEAF>위력은 낮지만 장전 속도가 빠른 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+	tip = "<color=#E3CEAF>위력·장전 속도 모두 보통인 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_3 = {
+	tip = "<color=#E3CEAF>위력은 강하지만 장전 속도가 무척 느린 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_4 = {
+	tip = "<color=#E3CEAF>장갑 갑판</color>\n<color=#F1B969>장착하면 내구가 상승하지만, 항속이 저하한다</color>."
+}
+
+_G.pg.base.gametip.sail_boat_equip_tip_5 = {
+	tip = "<color=#E3CEAF>선원 만쥬</color>\n<color=#F1B969>장착하면 항속이 상승한다</color>."
+}
+
+_G.pg.base.gametip.sail_boat_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/sailboat_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/sailboat_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pirate_wanted_help = {
+	tip = [[
+이벤트 기간: <color=#f15a22>11.9 ~ 11.23 점검까지 </color>
+
+플레이 방법
+1. 이벤트 기간 중에는 한정 임무가 등장합니다.
+2. 한정 임무를 클리어하면 다양한 보상을 획득할 수 있습니다.
+　어빌리티가 고정된 새로운 지휘냥, 한정 템페스타용 설비, 가구 '찬란한 침로'
+수령 시간은 11월 29일(수) 23:59까지]]
+}
+
+_G.pg.base.gametip.harbor_backhill_help = {
+	tip = {
+		{
+			info = [[
+이벤트 개요:
+뒷산 이벤트 '신비 항만'<color=#92fc63>11.9 ~ 11.23점검까지</color> 진행!
+
+■ 플레이 방법
+・비밀 조선소
+'비밀 조선소'를 탭하면, 전초전 이벤트 '템페스타의 비밀 조선소'에 참여할 수 있습니다.
+또한, 전초전 이벤트를 클리어하면 미니 게임을 플레이할 수 있고, 11/1까지 매일 오픈되는 스테이지를 모두 클리어하면, 다음과 같이 푸짐한 보상을 획득할 수 있습니다!
+　스테이지 3　템페스타용 신규 SR 설비 '과일 보급품'
+　스테이지 5　템페스타 장비 세트　스테이지 7　한정 가구 '출항하는 모험선'
+
+・기념 아이템
+'기념 아이템'을 탭하면, 이벤트 한정 임무를 확인하고 보상을 수령할 수 있습니다. 
+임무를 클리어하면, SSR 주포 '구식 중화포', 신규 지휘냥 '벨라미', '키드', 한정 가구 '찬란한 침로' 획득 가능! 
+
+・이벤트 교환
+해역 이벤트 '템페스타와 청춘의 샘' 교환 상점으로 이동할 수 있습니다. 
+
+・한정 건조
+한정 건조 화면으로 이동할 수 있습니다. 
+
+・스킨
+스킨 상점으로 이동할 수 있습니다. 
+
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cryptolalia_download_task_already_exists = {
+	tip = "시크릿즈 [$1] 다운로드 중"
+}
+
+_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+	tip = "<color=#72bc42>$1다이아를 사용하여</color>구매하시겠습니까?<color=#72bc42>$2</color>"
+}
+
+_G.pg.base.gametip.roll_room1 = {
+	tip = "하인 휴게실"
+}
+
+_G.pg.base.gametip.roll_room2 = {
+	tip = "1F 홀"
+}
+
+_G.pg.base.gametip.roll_room3 = {
+	tip = "객실"
+}
+
+_G.pg.base.gametip.roll_room4 = {
+	tip = "정원"
+}
+
+_G.pg.base.gametip.roll_room5 = {
+	tip = "거실"
+}
+
+_G.pg.base.gametip.roll_room6 = {
+	tip = "집사 룸"
+}
+
+_G.pg.base.gametip.roll_room7 = {
+	tip = "식당"
+}
+
+_G.pg.base.gametip.roll_room8 = {
+	tip = "주방"
+}
+
+_G.pg.base.gametip.roll_room9 = {
+	tip = "연회장"
+}
+
+_G.pg.base.gametip.roll_room10 = {
+	tip = "전망대"
+}
+
+_G.pg.base.gametip.roll_room11 = {
+	tip = "세컨드 베드룸"
+}
+
+_G.pg.base.gametip.roll_room12 = {
+	tip = "수집실"
+}
+
+_G.pg.base.gametip.roll_room13 = {
+	tip = "2F 홀"
+}
+
+_G.pg.base.gametip.roll_room14 = {
+	tip = "메인 베드룸"
+}
+
+_G.pg.base.gametip.roll_room15 = {
+	tip = "서재"
+}
+
+_G.pg.base.gametip.roll_room16 = {
+	tip = "시크릿 룸"
+}
+
+_G.pg.base.gametip.roll_room17 = {
+	tip = "가든"
+}
+
+_G.pg.base.gametip.roll_attr_list = {
+	tip = {
+		"설득",
+		"응급처치",
+		"META연구",
+		"세이렌 연구",
+		"정보 분석",
+		"기계 수리",
+		"약리학",
+		"민속학",
+		"심리학",
+		"지질학",
+		"열쇠 열기",
+		"관찰력",
+		"잠행",
+		"달리기",
+		"잠수",
+		"메카 조종",
+		"전술 연구",
+		"격투",
+		"사격",
+		"서바이벌",
+		"큐브연구",
+		"위험찰지",
+		"매혹술",
+		"낚시",
+		"법학",
+		"양산형 운전",
+		"함정정비",
+		"함정제작",
+		"포술",
+		"천문학",
+		"암호학",
+		"법률연구",
+		"조리",
+		"석유탐사",
+		"퀵 리딩",
+		"항법학",
+		"승마술",
+		"최면술",
+		"추적술",
+		"언어학",
+		"등반",
+		"물건정리",
+		"시간계획",
+		"문서처리",
+		"함대집결",
+		"병참배치",
+		"외교학",
+		"양생술",
+		"농학",
+		"토목공학",
+		"전장지휘"
+	}
+}
+
+_G.pg.base.gametip.roll_notimes = {
+	tip = "주사위 부족, 이벤트에서 획득하세요"
+}
+
+_G.pg.base.gametip.roll_tip2 = {
+	tip = "잠금 해제된 모든 구역을 조사한 후에야 다시 던질 수 있습니다"
+}
+
+_G.pg.base.gametip.roll_reward_word1 = {
+	tip = "서막"
+}
+
+_G.pg.base.gametip.roll_reward_word2 = {
+	tip = "제1막"
+}
+
+_G.pg.base.gametip.roll_reward_word3 = {
+	tip = "제2막"
+}
+
+_G.pg.base.gametip.roll_reward_word4 = {
+	tip = "제3막"
+}
+
+_G.pg.base.gametip.roll_reward_word5 = {
+	tip = "제4막"
+}
+
+_G.pg.base.gametip.roll_reward_word6 = {
+	tip = "제5막"
+}
+
+_G.pg.base.gametip.roll_reward_word7 = {
+	tip = "제6막"
+}
+
+_G.pg.base.gametip.roll_reward_word8 = {
+	tip = "종막"
+}
+
+_G.pg.base.gametip.roll_reward_tip = {
+	tip = "$1/$2 완성함"
+}
+
+_G.pg.base.gametip.roll_unlock = {
+	tip = "—— 옛 성채 조사 및 전부 스토리 해제 후, 랜덤 캐릭터 생성 카드 기능 해제 가능 ——"
+}
+
+_G.pg.base.gametip.roll_noname = {
+	tip = "이름은 비워 둘 수 없습니다"
+}
+
+_G.pg.base.gametip.roll_card_info = {
+	tip = "기본 정보"
+}
+
+_G.pg.base.gametip.roll_card_attr = {
+	tip = "능력"
+}
+
+_G.pg.base.gametip.roll_card_skill = {
+	tip = "스킬"
+}
+
+_G.pg.base.gametip.roll_times_left = {
+	tip = "남은 횟수:$1"
+}
+
+_G.pg.base.gametip.roll_room_unexplored = {
+	tip = "???"
+}
+
+_G.pg.base.gametip.roll_reward_got = {
+	tip = "수령함"
+}
+
+_G.pg.base.gametip.roll_gametip = {
+	tip = {
+		{
+			info = [[
+ 이벤트 소개:
+<color=#92fc63>11.9-11.23점검 전 </color> '비가 오는 밤의 괴담' 오픈.
+""조사 보상""
+·옛 성채를 조사하여 스토리 완성하면 보상 획득 가능
+·스토리 추진에 탐색의 주사위를 사용되며, 이벤트 통해 적 누적 격침하면 
+""캐릭터 카드""획득 가능
+·캐릭터 카드의 정보는 옛 성채의 조사에 따라 점차 드러나게 됩니다
+·모든 스토리 해제한 후 랜덤 캐릭터 카드 생성 기능 해제
+·캐릭터 카드의 이름은 지휘관 기본 이름으로 인식되고, 편집이 가능하며, 횟수에 제한이 없이 속성, 스킬과 스킬 숙련도 랜덤 가능
+""투척""
+탐색 주사위 사용 규칙:
+10면 주사위 2개 투척하면, 첫 번째 주사위는 10자리 숫자, 두 번째 주사위는 한자리 숫자, 결과가 
+1~5일 때:대성공 판정
+6~50일 때:성공 판정
+51~94일 때:실패 판정
+95~100일 때:대실패 판정(00=100)
+·실패와 대실패가 있을 때 한 구역으로 갈 수 있으며
+ BE 스토리 촉발된 후 지난 구역으로 돌아가면 동시에 주사위 하나를 반환하고 다음 투척 결과가 성공 또는 성공 확정
+·성공 또는 성공 나타나면 두 구역으로 이동할 수 있으며 탐색 전인 구역도 다시 돌아와서 탐색 가능]]
+		}
+	}
+}
+
+_G.pg.base.gametip.roll_ending_tip1 = {
+	tip = "종막이 이미 나타났으니, 옛 성채 1F와 2F에서 조사를 완료하세요"
+}
+
+_G.pg.base.gametip.roll_ending_tip2 = {
+	tip = "여전히 미탐색 구역이 있으니, 옛 성채 1F와 2F에서 조사를 완료하세요"
 }

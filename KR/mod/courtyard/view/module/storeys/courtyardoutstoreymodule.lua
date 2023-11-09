@@ -11,7 +11,7 @@ function slot0.OnInit(slot0)
 	slot0.rotationBtn = slot0.selectedTF:Find("panel/rotation")
 	slot0.removeBtn = slot0.selectedTF:Find("panel/cancel")
 	slot0.confirmBtn = slot0.selectedTF:Find("panel/ok")
-	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/move"))
+	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/animroot"), slot0.rectTF)
 end
 
 function slot0.EnableZoom(slot0, slot1)

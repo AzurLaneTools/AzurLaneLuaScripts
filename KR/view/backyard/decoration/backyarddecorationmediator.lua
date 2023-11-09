@@ -105,10 +105,17 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ADD_FURNITURE, function (slot0, slot1, slot2)
 		_courtyard:GetController():AddFurniture({
+			selected = true,
 			id = uv0:GenUniqueID(uv0.dorm, slot1.configId),
 			configId = slot1.configId,
 			date = slot1.date
 		})
+		getProxy(DormProxy):_ClearNewFlag(slot1.configId)
+
+		slot4 = uv0.dorm:GetFurniture(slot1.configId)
+
+		slot4:ClearNewFlag()
+		uv0.viewComponent:UpdateFurnitrue(slot4)
 
 		if slot2 then
 			slot2()
@@ -248,6 +255,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		CourtYardEvent._SYN_FURNITURE,
 		CourtYardEvent._EXIT_MODE,
+		CourtYardEvent._FURNITURE_SELECTED,
 		DormProxy.THEME_TEMPLATE_ADDED,
 		DormProxy.THEME_TEMPLATE_DELTETED,
 		GAME.BACKYARD_GET_THEME_TEMPLATE_DONE,
@@ -310,6 +318,8 @@ function slot0.handleNotification(slot0, slot1)
 		GetOrAddComponent(slot0.viewComponent._tf, typeof(CanvasGroup)).alpha = 0
 	elseif slot2 == uv0.END_TAKE_THEME_PHOTO then
 		GetOrAddComponent(slot0.viewComponent._tf, typeof(CanvasGroup)).alpha = 1
+	elseif slot2 == CourtYardEvent._FURNITURE_SELECTED then
+		slot0.viewComponent:emit(BackYardDecrationLayer.INNER_SELECTED_FURNITRUE, slot3)
 	end
 end
 

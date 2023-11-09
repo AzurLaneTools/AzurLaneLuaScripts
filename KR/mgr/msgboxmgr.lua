@@ -421,6 +421,8 @@ function slot9(slot0, slot1)
 		setText(slot5, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_BUFF then
 		setText(slot5, slot1.drop.cfg.desc)
+	elseif slot1.drop.type == DROP_TYPE_COMMANDER_CAT then
+		setText(slot5, "")
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1.drop.type then
 		setText(slot5, slot1.drop.cfg.display)
 	else

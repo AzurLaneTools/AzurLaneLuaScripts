@@ -481,7 +481,7 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.updateStrategyIcon(slot0)
-	slot2 = _.detect(slot0.chapter:getFleetStgs(slot0.chapter.fleet), function (slot0)
+	slot2 = _.detect(slot0.chapter.fleet:getStrategies(), function (slot0)
 		return slot0.id == ChapterConst.StrategyRepair
 	end)
 

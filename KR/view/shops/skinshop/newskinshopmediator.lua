@@ -46,6 +46,7 @@ function slot0.register(slot0)
 			mediator = NewBackYardShopMediator,
 			viewComponent = NewBackYardShopLayer,
 			data = {
+				topLayer = true,
 				page = 5
 			}
 		}))

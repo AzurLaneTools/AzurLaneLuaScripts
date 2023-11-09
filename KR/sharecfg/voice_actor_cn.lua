@@ -1495,5 +1495,25 @@ pg.voice_actor_CN = {
 	[382] = {
 		code = 382,
 		actor_name = "Mio Nonaka"
+	},
+	[383] = {
+		code = 383,
+		actor_name = "Wakana Kuramochi"
+	},
+	[384] = {
+		code = 384,
+		actor_name = "Yuka Hinata"
+	},
+	[385] = {
+		code = 385,
+		actor_name = "Hinata Satou"
+	},
+	[386] = {
+		code = 386,
+		actor_name = "Rina Kawaguchi"
+	},
+	[387] = {
+		code = 387,
+		actor_name = "Ikumi Hayama"
 	}
 }

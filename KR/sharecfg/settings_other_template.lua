@@ -134,7 +134,7 @@ pg.settings_other_template = {
 		desc = "기능 ON 후, 자신이 친구의 숙소를 방문하면, 친구 숙소에 내 비서함이 나타납니다."
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		type = 0,
 		alignment = 0,

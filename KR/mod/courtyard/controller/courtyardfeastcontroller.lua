@@ -2,7 +2,7 @@ slot0 = class("CourtYardFeastController", import(".CourtYardController"))
 
 function slot0.ShipBubbleInterActionFinish(slot0, slot1)
 	if slot0.storey:GetShip(slot1) then
-		_courtyard:SendNotification(CourtYardEvent._FEAST_INTERACTION, {
+		slot0:SendNotification(CourtYardEvent._FEAST_INTERACTION, {
 			groupId = slot1,
 			special = slot2:GetIsSpecialValue()
 		})
@@ -48,7 +48,7 @@ function slot0.AddShipWithSpecialPosition(slot0, slot1)
 		slot2:SetPosition(slot3)
 		slot0.storey:AddShip(slot2)
 	else
-		_courtyard:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot2.id)
+		slot0:SendNotification(CourtYardEvent._NO_POS_TO_ADD_SHIP, slot2.id)
 	end
 end
 

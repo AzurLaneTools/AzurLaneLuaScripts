@@ -21,7 +21,7 @@ function slot0.OnLoaded(slot0, slot1)
 				return
 			end
 
-			if _courtyard:GetController():IsEditModeOrIsVisit() then
+			if uv0:IsEditModeOrIsVisit() then
 				return
 			end
 
@@ -32,7 +32,7 @@ function slot0.OnLoaded(slot0, slot1)
 				return
 			end
 
-			if _courtyard:GetController():IsEditModeOrIsVisit() then
+			if uv0:IsEditModeOrIsVisit() then
 				return
 			end
 
