@@ -3935,7 +3935,7 @@ pg.base.memory_group = {
 		icon = "title_event",
 		type = 2,
 		link_event = 5054,
-		title = "雨夜惊魂",
+		title = "비가 오는 밤의 괴담",
 		memories = {
 			3101,
 			3102,

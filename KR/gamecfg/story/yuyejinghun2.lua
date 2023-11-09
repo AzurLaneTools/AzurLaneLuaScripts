@@ -9,11 +9,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			actorName = "一本正经的后辈KP",
-			factiontag = "真相只有一个",
+			actorName = "에식스",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大失败……这可不太妙啊。",
+			say = "D100 판정 결과는… 대실패… 이거 큰일이네요.",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -24,10 +24,10 @@ return {
 			portrait = 107060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "享受剧本吧",
+			factiontag = "성실한 마스터 선배",
 			hidePaintObj = true,
-			actorName = "一本正经的KP",
-			say = "我记得这一幕的设计是……嗯，确实不太妙。",
+			actorName = "엔터프라이즈",
+			say = "여긴 분명…… 아아, 확실히 위험한 상황이긴 하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掷骰失败，会发生什么事么……？",
+			say = "――무슨 일이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,10 +48,10 @@ return {
 			portrait = 107090,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			hidePaintObj = true,
-			actorName = "一本正经的后辈KP",
-			say = "这一点的话……稍后您就知道了。那么，让我们继续吧——",
+			actorName = "에식스",
+			say = "아… 곧 알게 되실 거예요. 자, 계속 탐색해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

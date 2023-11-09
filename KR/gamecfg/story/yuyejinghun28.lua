@@ -10,13 +10,13 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "文学少女KP",
+			factiontag = "하이티엔",
 			dir = 1,
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，完结撒花~！",
+			say = "축하드려요, 지휘관님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,12 +47,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "代理KP",
+			factiontag = "Z2",
 			dir = 1,
 			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……居然真的，完整体验了所有的BE。",
+			say = "……네. 설마 정말로 모든 엔딩을 다 모으실 줄은…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,11 +66,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡女仆长",
+			factiontag = "로열 포춘",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你都不知道一边看见你骰运不济，一边憋笑，然后还要一本正经演出有多困难。",
+			say = "지휘관이 주사위 판정에서 실패하는 걸 보면서 NPC를 연기하는 거… 너무 힘들더라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,12 +84,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "위다",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也忍得很辛苦。",
+			say = "맞아~ 연기… 너무 피곤해……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,11 +103,11 @@ return {
 			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡大小姐",
+			factiontag = "골든 하인드",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是~",
+			say = "나도~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,12 +121,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：布莱克勋爵",
+			factiontag = "프린츠 오이겐",
 			dir = 1,
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在机关室也笑得很厉害哦，花时间设计这个剧本也算物有所值了。",
+			say = "지휘관을 보면서 우리도 장치실에서 즐거운 시간을 보냈어♪ 정성 들여 시나리오를 준비하길 잘했네♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,11 +140,11 @@ return {
 			actor = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "运势高涨的KP大人",
+			factiontag = "유키카제",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以说，都让{namecode:22:雪风}大人来扔骰子就好啦！",
+			say = "주사위 굴리는 역할을 이 유키카제 님한테 맡겼으면 훨씬 잘 굴러갔을 거다~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,11 +158,11 @@ return {
 			actor = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "代理KP",
+			factiontag = "Z2",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行，那样会破坏游戏平衡。",
+			say = "게임 밸런스가 깨지면 안 되잖아요…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,10 +176,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "지휘관",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，最后的TE结局里，布莱克勋爵的结婚对象难道是……",
+			say = "――그나저나 트루엔딩의 연회에서 웨딩드레스를 입고 있던 건 설마…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,12 +189,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "브리스톨",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，当然是复活的妻子啦~",
+			say = "물론 부활한 부인 만쥬지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,10 +208,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "지휘관",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有一个疑问，关于二小姐。她到底从校博物馆顺回了多少道具？",
+			say = "――아, 그리고 하나 더. 차녀는 왜 M대에서 부적이랑 램프를 가지고 나온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,10 +221,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "지휘관",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉她好像早就洞察了所有真相？",
+			say = "――설마 처음부터 모든 걸 다 알고 있었던 건…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +234,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "에식스",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这点，我只能说女仆长没有受到影响就是因为二小姐的缘故。",
+			say = "그럴지도 몰라요. 메이드가 교단의 영향을 받지 않은 것도 차녀가 가지고 온 부적 덕분일지도 모르고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,11 +253,11 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "에식스",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于其它的细节，还是留给指挥官自己回味好啦。",
+			say = "뭐, 다른 세부적인 부분도 그렇지만, 어느 정도는 수수께끼로 남겨두는 편이 좋겠네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,12 +271,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "에식스",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一千个人心中有一千个哈姆雷特，就算是设计剧本的我们，也不能剥夺您回味剧本的乐趣。",
+			say = "여기서 다 설명해버리면 지휘관님의 즐거움을 빼앗는 게 되니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,12 +290,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "엔터프라이즈",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于剧情的讨论就先到这里吧？既然指挥官已经体验了全部内容，有什么想反馈的么？",
+			say = "스토리를 되새기는 건 나중에 해도 되니까, 지휘관. 어서 전부 클리어한 감상을 들려줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,11 +306,11 @@ return {
 			},
 			options = {
 				{
-					content = "有！",
+					content = "여름이 지난 지가 언젠데…",
 					flag = 1
 				},
 				{
-					content = "恐怖要素太多了！",
+					content = "너무 오싹해서 춥잖아…!",
 					flag = 2
 				}
 			}
@@ -319,12 +319,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "브리스톨",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……毕竟是为了契合主题嘛！",
+			say = "이건 할로윈용으로 만든 거라구!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,11 +338,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古老神祇之影",
+			factiontag = "메리 셀러스트",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，剧中很多逼真的效果是我用阿尔戈做出来的哦。",
+			say = "깜짝 놀라게 해 주는 게 특기인 유령선이 연출을 담당했으니 오싹한 게 당연하지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,12 +356,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "엔터프라이즈",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这么一想……港区中胆小的同伴也有不少。",
+			say = "모항에는 이런 게 질색인 애들도 많다는 게 마음에 걸려.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,11 +375,11 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "엔터프라이즈",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉确实有一定的改进空间。",
+			say = "그런 부분은 좀 개선해야겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,11 +390,11 @@ return {
 			},
 			options = {
 				{
-					content = "增加全年龄模式！",
+					content = "심약자 모드를 추가하자",
 					flag = 1
 				},
 				{
-					content = "提供多人探索模式！",
+					content = "팀플레이 옵션을 추가하자",
 					flag = 2
 				}
 			}
@@ -403,12 +403,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "엔터프라이즈",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……这确实是个可行的方案。",
+			say = "좋은 생각이군…… 충분히 실현 가능한 아이디어야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,12 +422,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "위다",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管怎么改剧本，还请继续让二小姐留在房间里被游戏和可乐薯片包围！",
+			say = "스토리는 어떻게 되든 상관없으니까, 차녀 캐릭터는 감자칩이랑 산소 콜라에 둘러싸여서 방에 틀어박혀 있다는 걸로 해줘…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,12 +441,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "위다",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "————非常感谢！",
+			say = "……잘 부탁해~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜惊魂\n\n<size=45>END</size>",
+					"비가 오는 밤의 괴담\n\n<size=45>END</size>",
 					1
 				}
 			}

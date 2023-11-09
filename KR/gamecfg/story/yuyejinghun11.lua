@@ -10,12 +10,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "虽然管家表面上答应得很干脆，但是你对于她是否真的会配合这一点保持怀疑。",
+			say = "집사는 협조적인 태도를 보였지만, 당신은 그녀가 정말로 도와줄지 확신을 가질 수 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,34 +42,34 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，你决定————",
+			say = "당신은――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去管家房里调查",
+					content = "집사의 방을 조사한다",
 					flag = 1
 				},
 				{
-					content = "偷偷潜入管家的房间",
+					content = "집사의 방에 잠입한다",
 					flag = 2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "调查员",
+			actorName = "탐정",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "卧室一类的房间要征得房间主人的同意……那么我想先去您的房间看看。",
+			say = "――'방 주인의 동의 없이는 들어가면 안 된다'고 했지. 방 좀 보여줄 수 있을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,28 +79,28 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			optionFlag = 1,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这恐怕有些不太方便。",
+			say = "……그건 어렵겠군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			optionFlag = 1,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大小姐刚才说有事找我，让我在接待结束后去找她。",
+			say = "아까 큰 아가씨께 볼일이 끝나면 와달라고 분부를 받은 상태다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,28 +110,28 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			optionFlag = 1,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，我的房间目前有些凌乱……您可以先调查其它公共区域，稍后再来我的房间吧。",
+			say = "그리고 방 청소가 아직 덜 끝나서 말이지… 우선은 다른 곳부터 탐색해 봐라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			optionFlag = 1,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么我就先离开了，您请便。",
+			say = "그럼 이만, 먼저 실례하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（总觉得管家有点可疑……偷偷去她房间里调查一下吧。）",
+			say = "(이 집사도 왠지 수상해… 우선은 그녀의 방부터 조사해 보자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（所谓的调查，就是要出其不意，这样才能离真相越来越近。）",
+			say = "(동의를 얻으라고는 했지만, 이럴 땐 의표를 찔러야 제대로 된 진실에 접근할 수 있겠지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,22 +170,22 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我明白了，那么我先去一些公共区域看看，至于房间……等明早再说吧。",
+			say = "――알았어. 일단은 공용 공간부터 조사하도록 할게. 방 조사는… 내일 아침에 해도 늦지 않겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			optionFlag = 2,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，公共区域基本都集中在一楼，比如餐厅厨房和后花园。",
+			say = "상관없다. 공용 공간이라…… 주방이나 정원이라면 1층에 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,13 +195,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			optionFlag = 2,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……二楼虽然有收藏室和图书馆，不过门都是锁上的。",
+			say = "2층에는 도서실과 컬렉션 방이 있는데, 아마 모두 잠겨 있을 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,22 +214,22 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "那么二楼的公共区域也等明天早上吧。",
+			say = "――2층에 있는 공용 공간도 내일 조사해야겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			optionFlag = 2,
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，您请便。那么，大小姐还有事找我，我就先离开了。",
+			say = "좋아. 그럼 천천히 둘러봐라. 난 큰 아가씨께서 기다리고 계셔서 이만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,11 +239,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "성실한 마스터 선배",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家的身影很快就消失在了房间里。",
+			say = "집사는 방을 나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,25 +251,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "调查员",
+			actorName = "탐정",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得刚才她说她的房间就在隔壁，那么应该是从这扇门出去后……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 107090,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "你整理好了思绪，并且决定了前进的方向。",
+			say = "――아까 분명 옆방이 자기 방이라고 했었지? 그럼 이 방이…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +265,25 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于管家刚才提及的规定已经完全被你抛之脑后——",
+			say = "당신은 잠시 생각을 정리한 후, 다음 조사 장소를 결정했습니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 107090,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…방 주인의 동의를 얻지도 않고 말이죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
+			factiontag = "문학소녀 마스터",
 			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "文学少女KP",
+			actorName = "하이티엔",
 			hidePaintObj = true,
-			say = "在打开房门的一刹那，映入眼帘的景象使你产生了仿佛置身在博物馆中的错觉。",
+			say = "방에 들어서자, 마치 박물관 속에 던져진 것 같은 경치가 눈앞에 펼쳐졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,11 +325,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你看到房间里摆放着琳琅满目的珍品——",
+			say = "진귀한 보석 장식이 온 방 안을 수놓고 있었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,11 +339,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "数不清的枪支被挂在墙上、放在展示柜里亦或是支在五斗柜和梳妆台上。",
+			say = "그리고 셀 수 없이 많은 총기가 벽과 선반, 장롱, 옷장 위에 장식되어 있거나, 놓여 있었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个数量也……太夸张了。如果要从这里调查线索的话，需要小心前进才是……",
+			say = "――너무 많은데… 단서 찾을 때 조심해야겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "咔哒——（机关声）",
+			say = "찰칵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……我好像……踩到了什么东西？",
+			say = "――지금 뭘 밟은 것 같은데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +388,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "随着你向前迈开的脚步一同落下的，还有一声清脆的卡扣声。",
+			say = "당신이 발을 앞으로 내딛자, 찰칵하며 무언가가 맞물리는 소리가 울렸습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,11 +402,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "紧接着，神奇的一幕发生了。",
+			say = "그리고 다음 순간, 기묘한 일이 일어났습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,11 +416,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "目光所及之处的所有枪支全都指向了你。",
+			say = "눈에 보이는 모든 총구가 일제히 당신 쪽을 겨누기 시작한 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,11 +430,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "或银或黑的枪管泛着凌厉光芒，仿佛在宣告着你可悲的未来。",
+			say = "은빛, 그리고 칠흑빛으로 빛나는 총신이 반사하는 빛은 곧 당신이 맞이할 비참한 미래를 말해주는 듯했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……就算如此，只要速度够快——",
+			say = "――재빠르게 움직이면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,11 +456,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "虽然结局已近在眼前，但你的意志并没有认输。",
+			say = "마지막 순간이 눈앞으로 다가왔지만, 당신의 의지는 꺾이지 않았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,11 +470,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "（d100=17），检定成功。你成功想起了自己身轻如燕的步伐。",
+			say = "D100 판정, 17…… 당신은 새와 같은 가벼움을 떠올렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,11 +484,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "调查员，你已成功回忆起基础属性：敏捷，数值：70。请问这里要进行一个敏捷判定么？",
+			say = "탐정은 또 다른 기본 능력치를 기억해 냈다. 민첩성, 70! 지휘관, 한번 굴려볼까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,18 +502,18 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "如果是大成功的话，就可以安然通过哦！",
+			say = "여기서 대성공이 나오면 위기에서 벗어날 수 있을지도 몰라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我点名让{namecode:22:雪风}来投！",
+					content = "유키카제 님, 부탁해!",
 					flag = 1
 				}
 			}
@@ -522,11 +522,11 @@ return {
 			portrait = 301160,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			factiontag = "행운 최대치 마스터",
+			actorName = "유키카제",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "{namecode:22:雪风}大人的投掷结果是——（d100=1）大成功！",
+			say = "유키카제 님의 결과는…… D100 판정, 1! 대성공!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来我命不该绝！3、2、1——跑！",
+			say = "――해냈어! 다행히 여기서 죽을 운명은 아니었네! 이대로 도망칠게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,11 +553,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "고증 담당 마스터",
+			actorName = "셰필드",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "在你弹跳起来准备直冲房门的那一刻，“嗙嗙嗙嗙嗙”的响声不绝于耳。",
+			say = "당신이 방문 쪽을 향해 크게 점프하던 그 순간, 등 뒤에서 총성이 울렸습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,11 +567,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "고증 담당 마스터",
+			actorName = "셰필드",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "硝烟过后，每一支枪都完成了自己的使命——在你身上留下了“浓墨重彩”的一击。",
+			say = "총성이 발사된 후, 모든 총기는 자신의 사명을 완수했습니다. 당신의 몸에 확실히 치명적인 일격을 남긴 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,11 +581,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你的视野渐渐陷入黑暗。在意识消失前的最后一刻，你成功想起来了自己的体型。",
+			say = "당신의 시야는 점점 흐려지기 시작했고, 의식을 잃기 전에 당신은 마침내 자신의 체격 능력치를 기억해 냈습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,11 +595,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "很明显，你魁梧的体型在这个狭小的空间中根本避无可避。",
+			say = "음… 지휘관님의 체격으로는 이 좁은 공간에서 공격을 피하긴 어려웠던 것 같아요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,11 +609,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你已成功回忆起基础属性：体型：80。",
+			say = "아, 죄송해요. 능력치를 알려드리는 걸 깜빡했네요. 체격은… 80입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,11 +627,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "然后毫无悬念的，你的调查之旅终结于此——",
+			say = "안타깝게도 탐정의 모험은 여기서 끝을 맞이하고 말았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"古堡调查实录\n\n<size=45>BE-03-高大威猛</size>",
+					"배드엔딩 -03- 너무 넓은 등짝",
 					1
 				}
 			}
@@ -652,12 +652,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "子曰：",
+			factiontag = "문학소녀 마스터",
 			nameColor = "#A9F548FF",
 			bgm = "theme-ijndailymeeting",
-			actorName = "文学少女KP",
+			actorName = "하이티엔",
 			hidePaintObj = true,
-			say = "指挥官，未经允许擅闯少女的闺房是不可以的哦~",
+			say = "어휴, 지휘관님. 주인의 동의 없이 방에 들어가시면 안 되죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……为什么会有人在自己房间里设置这种死亡机关？",
+			say = "――아니, 자기 방에 이런 함정을 설치하는 사람이 대체 어디 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她自己不需要出入房间么……？",
+			say = "――애초에 집사는 이런 방을 어떻게 드나드는 건데…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,11 +691,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "고증 담당 마스터",
+			actorName = "셰필드",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家的体型可没有80之巨哦。顺带一提，房间中的枪可是有148把之多呢。",
+			say = "그녀는 그렇게까지 몸집이 크지 않아서요. 참고로 하나 더 말씀드리자면, 방에 있는 총은 총 148정입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,11 +705,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说，在踩到机关的那一刻，指挥官就无路可逃了呢。",
+			say = "그러니까 스위치를 밟으면 그대로 끝이라는 거지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个结局……看上去怎么充满了有明确指向性的偏好？",
+			say = "――이건 초심자한테 너무 가혹하잖아… 이런 설정을 넣은 건 대체 누구야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,11 +731,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~谁知道呢~",
+			say = "그, 글쎄요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

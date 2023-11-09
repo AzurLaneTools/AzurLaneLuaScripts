@@ -10,12 +10,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "虽然管家表面上答应得很干脆，但是你对于她是否真的会配合这一点保持怀疑。",
+			say = "집사는 협조적인 태도를 보였지만, 당신은 그녀가 정말로 도와줄지 확신을 가질 수 없었니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,22 +42,22 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，你决定————",
+			say = "당신은――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这里要谨慎一些，继续收集更多信息",
+					content = "신중히 정보 수집을 실시한다",
 					flag = 1
 				},
 				{
-					content = "问她要城堡的地图吧",
+					content = "성의 지도를 손에 넣는다",
 					flag = 2
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（嗯，已知信息还是太少了……再多收集一些情报吧。）",
+			say = "(역시 정보가 너무 적어… 조금만 더 정보를 모아서 움직이자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我明白了。那么，我想了解下城堡里房间的分布情况，这样也好方便后续的调查。",
+			say = "――각 층의 통로와 방 배치 정보가 필요해. 혹시 성 내부 지도 같은 건 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（嗯……管家和女仆长都提到过会迷路……不知道会不会是在暗示要根据地图的指示前进？）",
+			say = "(로열 포춘도 통로가 복잡하다고 했었고, 지도를 보면서 움직이는 편이 나을지도?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（试试看能不能拿到地图吧。）",
+			say = "(일단은 지도를 얻을 수 있는지부터 물어보자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我明白了。那么，为了了解城堡里房间的分布情况，希望你能给我提供一份地图。",
+			say = "――각 층의 통로와 방 배치 정보가 필요해. 혹시 성 내부 지도 한 장 받을 수 있을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "这样也好方便后续的调查，同时避免闯进不该进入的区域。",
+			say = "――지도만 있으면 길 잃을 걱정도 없을 테고, 들어가면 안 되는 방에도 안 들어갈 거 아니야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,22 +144,22 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家没有回答，她看着你，那双犀利的眼睛里似乎闪烁着某种光芒。",
+			say = "집사는 아무 말도 하지 않습니다. 그저 눈을 반짝이며 당신을 쳐다보고 있을 뿐입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "说服她",
+					content = "설득을 시도한다",
 					flag = 1
 				},
 				{
-					content = "用勋爵大人的名号压她一头",
+					content = "만주 경의 이름을 언급한다",
 					flag = 2
 				}
 			}
@@ -168,11 +168,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=17）成功。在游说的过程中，你游刃有余且越发自信。",
+			say = "D100 판정… 17. 성공! 당신은 그녀를 설득하면서 점점 더 자신감을 얻게 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你相信管家无论如何也不可能拒绝你的提议。然后，你猛然想起了自己的自信源自何处。",
+			say = "그녀가 요청에 응하지 않을 것이라고 확신한 당신은 문득 이 자신감이 어디서 온 건지 깨닫기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,11 +196,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——是你俊美的外貌和绝佳的口才。在成长的过程中，你深刻地认识到自己的外貌极其出色。",
+			say = "그 원천은 바로 당신의 뛰어난 외모와 언변…… 특히 외모에 있어서는 지금까지 겪은 인생을 통해 자신이 너무 아름답다는 사실을 여러 번 깨달은 바 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,11 +210,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然它给你带来了一些困扰，但如果善加利用就会带来意想不到的惊喜。",
+			say = "때로는 그로 인해 곤경에 빠질 때도 있지만, 잘 활용한다면 예상치 못한 효과를 발휘할 수 있을지도 모릅니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,26 +224,26 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你成功回忆起技能：魅惑术，熟练程度：精通。",
+			say = "'매혹' 기술을 기억해 냈습니다. 숙련도는 '보통'입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……啊？",
+					content = "뭐?",
 					flag = 1
 				},
 				{
-					content = "……什么术？",
+					content = "잘못 들은 거 아니지…?",
 					flag = 2
 				},
 				{
-					content = "这谁设计的！",
+					content = "이 설정은 누가 만든 거야…?",
 					flag = 3
 				}
 			},
@@ -256,12 +256,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "급작스럽게 교체된 마스터",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "你没听错，魅惑术。",
+			say = "네, '매혹'입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,12 +271,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "급작스럽게 교체된 마스터",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "魅惑术哦。",
+			say = "잘못 들으신 게 아닙니다. 네, 매혹이 맞습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,12 +286,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "급작스럽게 교체된 마스터",
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "让我做她的代理，自己跑去机关室玩的那个人。",
+			say = "자기 대신 저를 마스터로 두고, 무대 뒤 장치실로 놀러간 사람이 만들었죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,11 +301,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "급작스럽게 교체된 마스터",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在魅惑术的帮助下，你的社交技巧也有了很大的提升。",
+			say = "…'매혹' 기술 덕분에 당신의 사교 기술도 큰폭으로 상승했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,11 +315,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "급작스럽게 교체된 마스터",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这让你在工作中获益匪浅，每次收集线索都能从相关人员口中获得重要线索。",
+			say = "업무에 있어서 특히 관계자에게 정보를 끌어낼 때 큰 도움이 될 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "――…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,11 +341,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "급작스럽게 교체된 마스터",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最终，管家成功被你说服了。",
+			say = "어쨌든 당신은 집사를 설득하는 데 성공했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,11 +355,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
-			say = "在餐厅那里有城堡的简易地图，有需要的话您可以自取。",
+			say = "성의 지도는 식당에 놓여져 있으니, 필요하면 가서 가져가도록 해라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,12 +369,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "餐厅的位置在走廊的另一边，原本可以从中庭直接穿过去，不过现在中庭正在翻修，得绕一下。",
+			say = "아, 식당은 이 홀 맞은편에 있다. 원래는 안뜰을 그대로 통과해서 갈 수도 있지만, 지금은 리모델링 공사 중이니 돌아서 가도록 해라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,11 +384,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家一边说着，一边用手在空中比划着路线，金色的袖扣在灯光下折射出幽暗的光。",
+			say = "그녀는 손가락으로 허공에 그림을 그리면서 식당으로 가는 방법을 가르쳐 주었습니다. 그때, 소매 단추가 조명빛에 반사되는 것이 보였습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,12 +398,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您很在意这枚袖扣么？",
+			say = "이 단추가 신경이 쓰이는가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，真是一枚漂亮的袖扣。",
+			say = "――아, 단추가 참 귀엽구나 싶어서….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,11 +425,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
-			say = "谢谢。这是大小姐送我礼物……",
+			say = "큰 아가씨께서 주신 단추다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,11 +439,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "敏锐的观察力让你注意到了一些容易被人忽视的细节，那枚金属袖扣的图案似乎在哪里见过。",
+			say = "보통 사람이라면 간과하고 지나칠 부분을 당신은 예리한 눈으로 금세 알아차렸습니다. 당신은 단추에 있는 문양을 어디선가 본 적이 있다는 것을 기억해냈습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "성실한 마스터 선배",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=31），成功。你知道这惊人的熟悉感究竟从何而来，这个图案和大小姐的发饰形状如出一辙。",
+			say = "D100 판정, 31. 성공이다. 당신은 이 기시감의 원인을 알아챘다. 이 단추의 문양은 장녀가 쓰고 있던 머리 장식에 있던 것과 똑같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（相同的教派标记……）",
+			say = "(같은 교단의 문양……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,12 +479,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还是得再提醒您一下，城堡内部很大，晚上行动的话会有迷路风险，还请小心。",
+			say = "성 내부는 무척 넓다. 밤에 섣불리 움직이면 길을 잃을 수 있으니 조심해라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,12 +494,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "역할: 집사",
+			actorName = "상 마르티뉴",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，请原谅我再强调一下，卧室一类的非公共区域，请务必在征得房间主人的同意后才能进入。",
+			say = "그리고 다시 한번 말하는데, 침실 같은 개인 공간은 꼭 주인의 동의를 얻은 후에 들어가도록 해라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,11 +509,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "역할: 집사",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
-			say = "那么，大小姐还在等我，您请自便。",
+			say = "그럼 나는 큰 아가씨께서 기다리고 계셔서 이만 실례하마.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,11 +523,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说完，管家向你微微鞠躬，离开了会客厅。",
+			say = "집사는 가볍게 인사를 건넨 후 손님방에서 나갔습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

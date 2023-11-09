@@ -10,12 +10,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "女仆长带着决绝的背影离开了。门外嘈杂的响声更盛，但是你很清楚她拖延不了多久。",
+			say = "말을 끝낸 메이드는 결심을 굳히고 몸을 돌려 서재를 나갔습니다. 문 너머에서 나는 소음이 더 심해진 걸 보니, 그녀도 오래 버티지는 못할 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,22 +42,22 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看着她留下的提灯以及几本没来得及检查完毕的书，你决定——",
+			say = "그녀가 남긴 램프… 그리고 아직 확인하지 않은 몇 권의 책을 앞에 두고 당신은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "立刻撤离",
+					content = "문을 열고 탈출한다",
 					flag = 1
 				},
 				{
-					content = "从窗户逃出去",
+					content = "창문으로 탈출한다",
 					flag = 2
 				}
 			}
@@ -66,12 +66,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "时间紧迫，你当机立断决定离开这个房间躲避危险。你伸手握上了门把，但你的大脑突然警铃大作。",
+			say = "시간이 얼마 남지 않아 바로 탈출을 감행한 당신이 문고리에 손을 대자, 갑자기 뇌에서 요란한 경보음이 울렸습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,12 +81,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "很显然，直接从大门逃出去的办法并不明智，或许你该找找其它出口。",
+			say = "문으로 당당히 걸어 나가는 것은 이 상황에서 절대 현명한 선택지가 아닙니다. 다른 탈출 방법을 찾아야 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,12 +96,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "房间只有一个出口，但是你很确定一旦你选择开门就会被守在外面的敌人捕获。",
+			say = "서재의 출구는 문뿐이지만… 그렇다고 문을 통해 복도로 뛰쳐나가면 바로 잡히고 말 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果不能从正门走的话……那就只能走窗户了。",
+			say = "――정면 돌격이 무리라면, 창문으로 도망치는 수밖에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "或许可以制作出逃生用的道具？",
+			say = "――탈출용 도구 같은 것도 만들 수 있나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你环顾四周，将目光锁定到了厚实的窗帘上，这或许可以帮得上忙，你打算尝试一下。",
+			say = "재료가 될 만한 것은 없는지 당신은 주위를 둘러보았고, 그때 두툼한 커튼이 눈에 들어왔습니다. 이 커튼으로 무언가 만들 수 있을지도 모릅니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "성실한 마스터 선배",
+			actorName = "엔터프라이즈",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=2），大成功！你成功回忆起了技能：陷阱制作，熟练度：入门。并且成功制作了一根牢固的绳索。",
+			say = "D100 판정, 2… 대성공이야! '함정 제작' 기술로 당신은 튼튼한 탈출용 밧줄을 만들어 냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很好，撤离工具和撤离路线都确保了。至于那个提灯……女仆特意提到是二小姐留下来的，仔细检查一下吧。",
+			say = "――좋아, 이제 탈출 도구로 탈출 경로도 확보했고… 이제 남은 건 메이드에게 받은 차녀의 램프인데… 조금 더 살펴보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=47），民俗研究检定成功。",
+			say = "D100 판정, 47… '민속학' 체크 성공입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_515",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你很确定曾经在密斯卡托尼克大学博物馆藏品介绍手册上看到过它，并且确信它和此前的护符有着同样的力量。",
+			say = "램프를 직접 손에 들자, 당신은 M대 박물관 소장품 팸플릿에서 소개문을 읽은 기억이 났습니다. …분명 주머니에 있는 부적과 동등한 힘이 이 램프 안에 잠들어 있을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然是好东西……看来二小姐在休学回家的时候收获颇丰啊。",
+			say = "――아하… 아마 차녀가 휴학할 때 잠깐 '대여'해서 나온 거겠지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然还有些细节不清楚，不过根据目前掌握到的信息，已经能够确信这座城堡的大小姐正在举行某个邪恶仪式。",
+			say = "(아직 세세한 부분까지 따라잡지는 못했지만, 지금 있는 정보로 추정해 보면, 장녀는 무언가 사악한 의식을 치르고 있는 것이 틀림없어.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "管家和厨师长都是她的同谋，目的是为了复活其多年前去世的婚约者。",
+			say = "(집사와 요리사도 그녀 편이고… 아마 그들의 목적은 소꿉친구인 모건의 부활이겠지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那些失踪的仆人应该都已经成为了仪式的祭品，而现在她们还想抓我去献祭……",
+			say = "(실종된 하인들은 아마 모두 의식의 제물로 바쳐졌을 테고… 이제는 또 나를 제물로 바치려 하고 있지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是一伙危险的人……还是先逃出城堡，之后再带领警方一起回来救人吧。",
+			say = "――여러모로 위험한 상황인데… 일단은 성에서 탈출해서 경찰을 데리고 사람들을 돕는 게 좋겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "잠시 후――",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -296,11 +296,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "依靠绳索，你顺利从书房逃了出来。",
+			say = "당신은 밧줄을 타고 서재에서 무사히 탈출했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,11 +310,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然而落地之后，突然出现的茫茫白雾让你迷失了方向。",
+			say = "그러나 땅에 내리자마자, 갑자기 자욱한 안개 속에 빠져 나아갈 방향을 잃고 말았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,11 +324,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本你想凭借记忆找到下山的路，却不知不觉来到了一片花园之中。",
+			say = "어떻게든 기억을 더듬어 산에서 내려가려고 했지만, 자신도 모르는 사이에 어떤 정원으로 들어서고 말았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,11 +338,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=36），观察检定成功。花园之中的迷雾慢慢散去，一个巨大的魔法阵出现在你的眼前。",
+			say = "D100 판정, 36… '관찰력' 체크 성공입니다. 안개가 서서히 걷히면서 당신의 눈앞에 거대한 마법진이 모습을 드러냈습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "法阵闪烁着幽暗的光芒，扭曲了空间，让你无法看清隐藏在魔法阵后的石像。",
+			say = "은은한 빛을 발하며 공간 그 자체를 일그러뜨리고 있는 마법진의 힘 때문인지, 당신은 그 뒤에 자리 잡은 석상의 모습을 제대로 쳐다볼 수 없었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,11 +366,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你能感觉到一股邪恶又冰冷的力量飘散在空中。",
+			say = "그렇지만 차갑고도 사악한 힘이 주변에 감돌고 있는 것이 피부를 통해 느껴졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,11 +380,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=36）民俗研究判定成功。你认出了这个邪神雕像正是大小姐所信奉的教派所崇拜之神，而仪式，也已经启动了。",
+			say = "D100 판정, 36… '민속학' 체크 성공입니다. 그 석상이 바로 장녀가 믿는 교단에서 모시는 사악한 우상이라는 것을 깨달았습니다. 그녀의 의식 또한 이미 시작되고 말았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……才出虎口又入狼穴。没想到误打误撞来到了举行仪式的现场。",
+			say = "――위기 상황인데… 대충 걷다가 의식이 거행되는 현장으로 들어서다니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,11 +406,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰冷的视线骤然打在你的身上，模糊的幻影在幽蓝中显现。",
+			say = "자신을 꿰뚫는 듯한 차가운 시선과 함께, 남색 안개 속에서 어렴풋이 환영이 떠올랐습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,11 +420,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "祂注意到了你的存在，祂正等待着你的奉献。",
+			say = "'그것'은 당신의 존재를 눈치채고, 제물로 몸을 바치기를 가만히 기다리고 있는 듯했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,11 +434,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "￥#@%#@嘶——嘶——",
+			say = "￥#@%#@쉬이이익!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,11 +448,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "不可名状之物",
+			factiontag = "역할: 형언하기 어려운 무언가",
 			nameColor = "#FF9B93",
 			actor = 9600041,
-			actorName = "古老神祇之影",
-			say = "最后的祭品，是汝？",
+			actorName = "메리 셀러스트",
+			say = "네가 마지막 공물인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,11 +462,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每一个音节都如同尖锐的利刃刺向你的精神，你的理性正在飓风中飘摇。",
+			say = "'그것'의 말 한마디 한마디는 날카로운 칼날처럼 정신을 후벼팠고, 당신의 이성은 거친 파도에 휩쓸리는 배처럼 요동쳤습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,11 +476,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，你携带在身上的护符与提灯似乎形成了某种共鸣，柔和的光芒笼罩着你。",
+			say = "그때, 주머니 속의 부적과 램프가 공명을 일으켰고, 은은하고 부드러운 빛이 당신을 감쌌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,11 +490,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "片刻后，不适的感觉消失了。",
+			say = "그러자 소름 끼치는 불쾌감이 순식간에 사라졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,11 +504,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "전설적인 탐정 마스터",
+			actorName = "브리스톨",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "￥#@%#@嘶——嘶——",
+			say = "￥#@%#@쉬이이익!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,11 +518,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "不可名状之物",
+			factiontag = "역할: 형언하기 어려운 무언가",
 			nameColor = "#FF9B93",
 			actor = 9600041,
-			actorName = "古老神祇之影",
-			say = "有趣。准备了这些东西，看来汝是来谈判的？",
+			actorName = "메리 셀러스트",
+			say = "하하하, 재밌군. 이런 것까지 들고 오다니 용의주도한 녀석이네. 혹시 협상이라도 하러 온 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,11 +532,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "甜美的声音直接从你的脑海中涌现，诱惑着你的精神，动摇着你的意志。",
+			say = "달콤하면서도 상쾌한 목소리가 당신의 머릿속에 직접 울려 퍼집니다. 당신을 유혹해 의지를 흔들어 놓으려는 것처럼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,30 +546,30 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然而，作为优秀的调查员，你深知与邪神做交易的危险。况且你清楚，二小姐准备这些也绝不是为了所谓的“谈判”。",
+			say = "그러나 뛰어난 탐정인 당신은 사악한 신의 거래가 불러오는 위험성에 대해 잘 알고 있었습니다. 분명 차녀도 '협상'이나 하라고 이것들을 당신에게 맡기지는 않았을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "消灭祂！",
+					content = "'그것'의 숨통을 끊자!",
 					flag = 1
 				},
 				{
-					content = "为了二小姐！",
+					content = "위다를 위해!",
 					flag = 2
 				},
 				{
-					content = "为了委托费！",
+					content = "돈을 위해!",
 					flag = 3
 				},
 				{
-					content = "为了爱与正义！",
+					content = "사랑과 정의를 위해!",
 					flag = 4
 				}
 			}
@@ -578,11 +578,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下定决心后，你决定主动驱逐这个还未成型的恐怖实体，完成对于二小姐和女仆长的承诺，结束古堡中发生的一切。",
+			say = "결심을 굳힌 당신은 아직 완전히 모습을 구현하지 못한 '그것'을 쫓아내기로 했습니다. 차녀, 그리고 메이드와 맺은 약속대로 이 오래된 성에서 일어난 모든 사건에 마침표를 찍기로 합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,11 +592,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你将提灯的亮度开到最大，然后用尽全力将护符扔了出去。",
+			say = "램프의 밝기를 최대한으로 올리고, '그것'을 향해 힘껏 부적을 던졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,11 +606,11 @@ return {
 			portrait = 301160,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			factiontag = "행운 최대치 마스터",
+			actorName = "유키카제",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=1）投掷检定大成功！指挥官，借助{namecode:22:雪风}大人的好运消灭祂吧——！",
+			say = "결과는 1, '투척' 대성공인 거다! 지휘관! 유키카제 님의 행운의 힘으로 '그것'을 물리치는 거다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,11 +620,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "护符在接触到邪神的幻影后迸发出猛烈的爆炸，你手中的提灯也在此刻爆发出刺眼的金色光芒。",
+			say = "부적이 사신의 환영에 닿자, 격렬한 폭발이 일어났습니다. 당신이 손에 들고 있는 램프도 그에 공명하듯 눈부신 금빛을 발했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,11 +634,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你同时感受到了难以言说的痛苦、绝望、死亡、不安与……一抹嘲弄。",
+			say = "고통, 절망, 죽음, 불안… 그리고 아주 조금의 조소… 당신은 찰나의 순간에 다양한 감정을 느꼈습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,11 +648,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "邪神在耀眼的光芒下化作黑烟，消失了。",
+			say = "사신의 환영은 빛 속에서 검은 불꽃이 되어 타버렸고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,11 +662,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天亮了，雨停了。",
+			say = "긴긴밤을 보낸 끝에 비가 그치며 드디어 아침이 밝아왔습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,12 +676,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
+			factiontag = "성실한 마스터 후배",
 			nameColor = "#A9F548FF",
 			bgm = "story-oldcastle-carnival",
-			actorName = "一本正经的后辈KP",
+			actorName = "에식스",
 			hidePaintObj = true,
-			say = "那天清晨，你驱赶了那不可名状之神的化身，然后迅速离开了莱顿城堡。",
+			say = "당신은 형언하기 어려운 사신의 화신을 처치하고 바로 성을 떠났습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,11 +708,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回到阿卡姆小镇后，你亲自去警局报警。多亏了你多年来在警局的良好信誉，他们相信了你。",
+			say = "마을로 돌아온 당신은 바로 경찰에게 달려갔습니다. 오랫동안 쌓아온 당신의 실적 덕분에 경찰은 당신의 증언을 믿어 주었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,11 +722,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这不是他们处理的第一起神秘案件，也不会是最后一起。",
+			say = "이 사건은 그들이 겪는 첫 초자연적 사건도 아닐뿐더러, 마지막 사건도 아닐 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,11 +736,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "后来，管家替大小姐和厨师抗下了所有罪责，被警察带走。",
+			say = "집사와 요리사가 모든 죄를 뒤집어쓰고 경찰에 연행되며 사건은 막을 내렸습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,11 +750,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然你知道真相，但是想到在相册里露出微笑的每一个人，最后你还是选择了闭口不谈。",
+			say = "모든 진실을 알고 있는 당신은 앨범에 담겨 있던 그녀들의 천진난만한 미소를 떠올리고는 입을 다물기로 결심합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,11 +764,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再之后，你与二小姐成为了笔友。她写信告诉你，女仆小姐在当日只受到了轻伤，大小姐等人还是念及旧情没有下死手。",
+			say = "그 이후로 편지를 주고받기 시작한 차녀를 통해, 당신은 메이드가 가벼운 부상만 입고 도망쳤다는 것을 알게 되었습니다. 역시 장녀도 오랜 시간을 함께한 존재에게 손을 쓸 수는 없었던 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,11 +778,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你又解决了一次神秘事件，并且获得了相当丰厚的报酬，但是回到了工作室后却没有一身轻松的感觉。",
+			say = "이렇게 사건을 또 하나 해결하고 큰 보수를 손에 넣었지만, 당신은 여전히 찝찝한 기분을 지울 수 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,11 +792,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你总是心里隐隐觉得有些不对劲。你开始强迫自己转移注意力，很快，你将这次的事件埋藏进了心底。",
+			say = "어딘가 석연치 않은 부분이 마음을 어지럽혔지만, 당신은 억지로 주의를 돌리기로 합니다. 이번 사건을 완전히 잊는 데에는 의외로 긴 시간이 걸리지는 않았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,11 +806,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "几个月后，你在报纸头条中看到了阿卡姆郊外的莱顿城堡发生大火的消息。城堡内的所有人无一幸免。",
+			say = "몇 달 후, 신문의 1면의 어떤 기사가 당신의 눈에 들어옵니다. 아캄 인근의 오래된 성에 큰 화재가 발생하였고, 생존자는 단 한 명도 없다는 내용의 기사…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,11 +820,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又过了一段时间，你受邀参加了一场盛大的婚礼。",
+			say = "얼마간 시간이 더 흘러, 당신은 어떤 성대한 결혼식에 초대를 받습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,11 +834,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的前雇主布莱克勋爵在挺过了巨大的悲痛后，终于重新振作开启了新生活。",
+			say = "옛 고용주였던 만쥬 경이 드디어 깊은 슬픔을 극복하고 새로운 인생을 시작하기로 한 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,11 +848,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这本该是一件好事，然而……你总觉得那名身着婚纱的新娘似乎在哪里看到过。",
+			say = "경사스러운 일이어야 할 테지만… 초청된 연회에서 당신은 웨딩드레스를 입고 있는 여성에게 정신이 팔리고 맙니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,11 +862,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "성실한 마스터 후배",
+			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "究竟，是在哪里呢————",
+			say = "자꾸 그녀를 어디서 본 것만 같다는 생각이 듭니다. 그런데… 대체 어디서…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"古堡调查实录\n\n<size=45>TE-真爱永恒</size>",
+					"트루엔딩 - 진정한 사랑은 영원히",
 					1
 				}
 			}
