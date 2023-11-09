@@ -236,7 +236,7 @@ return {
 		return slot0
 	end,
 	GetChannelUID = function ()
-		slot0 = uv0.GetPackageCode(Application.identifier)
+		slot0 = uv0.channelUID
 
 		originalPrint("channelUID : " .. slot0)
 

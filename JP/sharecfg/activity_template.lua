@@ -5182,12 +5182,13 @@ pg.activity_template = {
 	},
 	[5023] = {
 		mark = 20231019,
-		id = 5023,
 		title_res_tag = "pirate",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 48,
+		id = 5023,
 		config_data = {
 			{
 				19331,
@@ -5216,33 +5217,6 @@ pg.activity_template = {
 			{
 				19343,
 				19344
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -5275,53 +5249,27 @@ pg.activity_template = {
 				}
 			},
 			shipyard_phase_1 = {
-				"ようこそ～今日の計画は？",
-				"ふふん、ようやく来たのね！早く偉業を成そうではないかー",
-				"終わったら進水式の進行をよろしく♪"
+				"欢迎欢迎~今天的计划是什么？",
+				"哼哼，你可算来了！让我们快点完成这项伟大的工作吧~",
+				"等完工后，就由你来主持剪彩仪式吧~"
 			},
 			shipyard_phase_2 = {
-				"早く来てー！さあ偉大なる冒険がお待ちかねだ～！",
-				"出航出航～！目的地は？謎の暗礁海域？それとも黄金海岸？"
+				"快点来吧，伟大的冒险就在前方！我已经等不及啦~",
+				"出发出发~目的地是哪里？神秘的暗礁，还是黄金的海岸~？"
 			}
 		}
 	},
 	[5047] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 50,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5047,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			scene = "HARBOR_BACKHILL",
 			ships = {
@@ -5468,7 +5416,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5050,
-		is_show = 49,
+		is_show = 36,
 		id = 5050,
 		config_data = {},
 		time = {
@@ -5505,12 +5453,13 @@ pg.activity_template = {
 	},
 	[5051] = {
 		mark = 20231026,
-		id = 5051,
 		title_res_tag = "pirate_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 50,
+		id = 5051,
 		config_data = {
 			1760001,
 			1760002,
@@ -5520,33 +5469,6 @@ pg.activity_template = {
 			1760006,
 			1760041,
 			1760051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "PirateMainPage",
@@ -5558,43 +5480,17 @@ pg.activity_template = {
 	},
 	[5052] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5052,
 		config_data = {
 			19350
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5053] = {
@@ -5604,7 +5500,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5053,
-		is_show = 51,
+		is_show = 37,
 		config_data = {
 			{
 				19361
@@ -5931,7 +5827,7 @@ pg.activity_template = {
 	},
 	[5056] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -5939,43 +5835,18 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31953,100}]",
 		config_client = "",
-		id = 5056,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 5056
 	},
 	[5057] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5057,
 		config_data = {
@@ -6000,33 +5871,6 @@ pg.activity_template = {
 			19401,
 			19402,
 			19403
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5058] = {
@@ -6070,42 +5914,16 @@ pg.activity_template = {
 	},
 	[5059] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5059,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					10,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5060] = {
 		mark = 20231026,
@@ -6155,12 +5973,13 @@ pg.activity_template = {
 	},
 	[5061] = {
 		mark = 20231026,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5061,
 		config_data = {
@@ -6171,14 +5990,28 @@ pg.activity_template = {
 			415,
 			416,
 			417
+		}
+	},
+	[5062] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5062,
+		config_data = {
+			19404
 		},
 		time = {
 			"timer",
 			{
 				{
 					2023,
-					10,
-					26
+					11,
+					9
 				},
 				{
 					0,
@@ -6190,7 +6023,650 @@ pg.activity_template = {
 				{
 					2023,
 					11,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5063] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		id = 5063,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
 					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5064] = {
+		mark = 20231109,
+		config_client = "",
+		title_res_tag = "DaofengV2_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 38,
+		id = 5064,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JapanV2frameRePage",
+			ui_name = "JapanV2frameRePage"
+		}
+	},
+	[5065] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5065,
+		config_data = {
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			60435
+		}
+	},
+	[5066] = {
+		mark = 20231109,
+		config_client = "",
+		title_res_tag = "yidaliV2_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 48,
+		is_show = 35,
+		id = 5066,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DaofengV2LoginPage",
+			ui_name = "DaofengV2LoginPage"
+		}
+	},
+	[5067] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		id = 5067,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5068] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 5067,
+		is_show = 0,
+		config_client = "",
+		id = 5068,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5069] = {
+		mark = 20231109,
+		id = 5069,
+		title_res_tag = "daofeng_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 40,
+		config_data = {
+			1560001,
+			1560002,
+			1560003,
+			1560021,
+			1560022,
+			1560023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DaofengMainRePage",
+			ui_name = "DaofengMainRePage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5070] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5070,
+		config_data = {
+			1560004,
+			1560005,
+			1560006,
+			1560024,
+			1560025,
+			1560026,
+			1560041,
+			1560052
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5071] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5071,
+		config_data = {
+			19405,
+			19406,
+			19407,
+			19408,
+			19409,
+			19410,
+			19411,
+			19412,
+			19413,
+			19414,
+			19415,
+			19416,
+			19417,
+			19418,
+			19419,
+			19420,
+			19421,
+			19422,
+			19424
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5072] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 378,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 5072,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5073] = {
+		mark = 20231109,
+		config_client = "",
+		title_res_tag = "daofeng_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5073,
+		is_show = 39,
+		id = 5073,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DaofengPTRePage",
+			ui_name = "DaofengPTRePage"
+		}
+	},
+	[5074] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31972,100}]",
+		config_client = "",
+		id = 5074,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5075] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5075,
+		config_data = {
+			2295,
+			2296,
+			2297,
+			2298,
+			2299,
+			2300,
+			2301,
+			2302,
+			2303,
+			2304,
+			2305,
+			2306,
+			2307,
+			2308,
+			2309,
+			2310,
+			2311,
+			2312,
+			2313,
+			2314,
+			2315,
+			2316
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_daofeng",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "zhumo_pt",
+			pt_id = 378,
+			bgm = "map-longgong"
+		}
+	},
+	[5077] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5077,
+		config_data = {
+			1565002,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
 				},
 				{
 					23,
@@ -9206,6 +9682,21 @@ pg.activity_template = {
 		5059,
 		5060,
 		5061,
+		5062,
+		5063,
+		5064,
+		5065,
+		5066,
+		5067,
+		5068,
+		5069,
+		5070,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5077,
 		7011,
 		7012,
 		7013,

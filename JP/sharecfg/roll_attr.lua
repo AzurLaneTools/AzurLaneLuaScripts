@@ -98,7 +98,7 @@ pg.roll_attr = {
 	{
 		ID = 12,
 		name = "民族研究",
-		default_value = "普通",
+		default_value = "初心者",
 		random_value = {
 			"下手",
 			"初心者",

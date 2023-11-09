@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.icon = slot0._tf:Find("icon_bg/icon")
 	slot0.startPos = slot0._tf.anchoredPosition
 	slot0.width = slot0._tf.sizeDelta.x
-	slot0.space = 33
+	slot0.space = 36
 end
 
 function slot0.UpdatePositin(slot0, slot1)

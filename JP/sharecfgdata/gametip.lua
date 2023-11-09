@@ -10149,7 +10149,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "サン・マルチーニョ、ゴールデン・ハインドなど出現率UP!"
+	tip = "期間限定建造を累計200回行うと「島風」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -1175,6 +1175,16 @@ pg.player_resource = {
 		name = "haidao_pt",
 		itemid = 59497
 	},
+	[377] = {
+		id = 377,
+		name = "skinTicket59",
+		itemid = 59498
+	},
+	[378] = {
+		id = 378,
+		name = "rixiv2_pt1",
+		itemid = 59500
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2191,6 +2201,12 @@ pg.player_resource = {
 		haidao_pt = {
 			376
 		},
+		skinTicket59 = {
+			377
+		},
+		rixiv2_pt1 = {
+			378
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2614,6 +2630,8 @@ pg.player_resource = {
 		371,
 		375,
 		376,
+		377,
+		378,
 		950,
 		951,
 		952,

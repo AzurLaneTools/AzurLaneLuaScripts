@@ -50,7 +50,7 @@ function slot0.OnInit(slot0)
 
 	slot0:InitPedestalModule()
 
-	slot0.bg.localScale = Vector3(0.95, 0.95, 1)
+	slot0.bg.localScale = Vector3(1.438, 1.438, 1)
 end
 
 function slot0.GetFurnitureStateMgr(slot0, slot1)
