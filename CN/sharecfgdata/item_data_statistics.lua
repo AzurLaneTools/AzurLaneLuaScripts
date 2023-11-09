@@ -22170,6 +22170,120 @@ _G.pg.base.item_data_statistics[30531] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30532] = {
+	display = "使用后可从「水上乐园」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(水上乐园)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshuishangleyuanzixuan",
+	id = 30532,
+	display_icon = {
+		{
+			9,
+			460,
+			1
+		},
+		{
+			9,
+			461,
+			1
+		},
+		{
+			9,
+			462,
+			1
+		},
+		{
+			9,
+			463,
+			1
+		},
+		{
+			9,
+			464,
+			1
+		},
+		{
+			9,
+			465,
+			1
+		},
+		{
+			9,
+			466,
+			1
+		},
+		{
+			9,
+			467,
+			1
+		},
+		{
+			9,
+			468,
+			1
+		},
+		{
+			9,
+			469,
+			1
+		},
+		{
+			9,
+			470,
+			1
+		},
+		{
+			9,
+			471,
+			1
+		},
+		{
+			9,
+			472,
+			1
+		},
+		{
+			9,
+			473,
+			1
+		},
+		{
+			9,
+			474,
+			1
+		},
+		{
+			9,
+			475,
+			1
+		},
+		{
+			9,
+			476,
+			1
+		},
+		{
+			9,
+			477,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "使用后可从T4部件中任意选择一种获得1个",
 	name = "定向部件T4",
@@ -217192,6 +217306,75 @@ _G.pg.base.item_data_statistics[59497] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59498] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59498,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59499] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	id = 59499,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59500] = {
+	display = "用于「碧海光粼」复刻活动兑换，活动结束后将会消失",
+	name = "玉贝",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/rixiv2_pt",
+	id = 59500,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-{namecode:158}",
 	name = "船模-{namecode:158}",
@@ -229886,6 +230069,29 @@ _G.pg.base.item_data_statistics[60431] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60431,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60435] = {
+	display = "于「碧海光粼」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5065,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 60435,
 	display_icon = {},
 	price = {},
 	index = {},

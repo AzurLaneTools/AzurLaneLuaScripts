@@ -412,6 +412,10 @@ function slot0.GetSubmarineFleetMaxCount(slot0)
 	return slot0:getConfig("submarine_num")
 end
 
+function slot0.GetSupportFleetMaxCount(slot0)
+	return slot0:getConfig("support_group_num")
+end
+
 function slot0.EliteShipTypeFilter(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
 
@@ -423,6 +427,17 @@ function slot0.EliteShipTypeFilter(slot0)
 	for slot5 = slot0:GetSubmarineFleetMaxCount() + 2 + 1, 3 do
 		table.clear(slot0.eliteFleetList[slot5])
 		table.clear(slot0.eliteCommanderList[slot5])
+	end
+
+	if slot0:getConfig("type") == Chapter.SelectFleet then
+		for slot6, slot7 in ipairs({
+			1,
+			2,
+			3
+		}) do
+			table.clear(slot0.eliteFleetList[slot7])
+			table.clear(slot0.eliteCommanderList[slot7])
+		end
 	end
 
 	function slot2(slot0, slot1, slot2)
@@ -485,65 +500,76 @@ end
 
 function slot0.singleEliteFleetVertify(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
-	slot4 = slot0:getConfig("limitation")
 
-	if #slot0.eliteFleetList[slot1] == 0 then
+	if not slot0.eliteFleetList[slot1] or #slot3 == 0 then
 		return false
-	else
-		slot5 = 0
-		slot6 = 0
-		slot7 = {}
+	end
 
-		for slot11, slot12 in ipairs(slot3) do
-			if slot2[slot12]:getFlag("inEvent") then
-				return false, i18n("elite_disable_ship_escort")
-			end
+	slot4 = 0
+	slot5 = 0
+	slot6 = {}
 
-			if slot13:getTeamType() == TeamType.Main then
-				slot5 = slot5 + 1
-			elseif slot14 == TeamType.Vanguard then
-				slot6 = slot6 + 1
-			end
-
-			slot7[#slot7 + 1] = slot13:getShipType()
+	for slot10, slot11 in ipairs(slot3) do
+		if slot2[slot11]:getFlag("inEvent") then
+			return false, i18n("elite_disable_ship_escort")
 		end
 
-		if slot1 >= 3 then
-			-- Nothing
-		elseif slot5 * slot6 == 0 and slot5 + slot6 ~= 0 then
-			return false
-		else
-			slot8 = 1
+		if slot12:getTeamType() == TeamType.Main then
+			slot4 = slot4 + 1
+		elseif slot13 == TeamType.Vanguard then
+			slot5 = slot5 + 1
+		end
 
-			for slot12, slot13 in ipairs(slot4[slot1]) do
-				slot14 = 0
-				slot15 = 0
+		slot6[#slot6 + 1] = slot12:getShipType()
+	end
 
-				for slot19, slot20 in ipairs(slot13) do
-					if slot20 ~= 0 then
-						slot14 = slot14 + 1
+	if slot1 >= 3 then
+		return true
+	end
 
-						if underscore.any(slot7, function (slot0)
-							return ShipType.ContainInLimitBundle(uv0, slot0)
-						end) then
-							slot15 = 1
+	if slot0:getConfig("type") ~= Chapter.CustomFleet then
+		return true
+	end
 
-							break
-						end
-					end
-				end
+	if slot4 * slot5 == 0 and slot4 + slot5 ~= 0 then
+		return false
+	end
 
-				if slot14 == 0 then
+	slot7 = slot0:getConfig("limitation")[slot1]
+
+	assert(slot7, "Missing chapter config [limitation] Id: " .. slot0.id)
+
+	slot8 = 1
+	slot9 = ipairs
+	slot10 = slot7 or {}
+
+	for slot12, slot13 in slot9(slot10) do
+		slot14 = 0
+		slot15 = 0
+
+		for slot19, slot20 in ipairs(slot13) do
+			if slot20 ~= 0 then
+				slot14 = slot14 + 1
+
+				if underscore.any(slot6, function (slot0)
+					return ShipType.ContainInLimitBundle(uv0, slot0)
+				end) then
 					slot15 = 1
+
+					break
 				end
-
-				slot8 = slot8 * slot15
-			end
-
-			if slot8 == 0 then
-				return false, i18n("elite_disable_formation_unsatisfied")
 			end
 		end
+
+		if slot14 == 0 then
+			slot15 = 1
+		end
+
+		slot8 = slot8 * slot15
+	end
+
+	if slot8 == 0 then
+		return false, i18n("elite_disable_formation_unsatisfied")
 	end
 
 	return true
@@ -619,38 +645,6 @@ end
 
 function slot0.GetDropShipList(slot0)
 	return slot0.dropShipIdList
-end
-
-function slot0.triggerSkill(slot0, slot1, slot2)
-	slot3 = _.filter(slot1:findSkills(slot2), function (slot0)
-		return _.any(slot0:GetTriggers(), function (slot0)
-			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
-		end) == (uv0:getFleetType() == FleetType.Submarine) and _.all(slot0:GetTriggers(), function (slot0)
-			return uv0:triggerCheck(uv1, uv2, slot0)
-		end)
-	end)
-
-	return _.reduce(slot3, nil, function (slot0, slot1)
-		slot3 = slot1:GetArgs()
-
-		if slot1:GetType() == FleetSkill.TypeMoveSpeed or slot2 == FleetSkill.TypeHuntingLv or slot2 == FleetSkill.TypeTorpedoPowerUp then
-			return (slot0 or 0) + slot3[1]
-		elseif slot2 == FleetSkill.TypeAmbushDodge or slot2 == FleetSkill.TypeAirStrikeDodge then
-			return math.max(slot0 or 0, slot3[1])
-		elseif slot2 == FleetSkill.TypeAttack or slot2 == FleetSkill.TypeStrategy then
-			slot0 = slot0 or {}
-
-			table.insert(slot0, slot3)
-
-			return slot0
-		elseif slot2 == FleetSkill.TypeBattleBuff then
-			slot0 = slot0 or {}
-
-			table.insert(slot0, slot3[1])
-
-			return slot0
-		end
-	end), slot3
 end
 
 function slot0.getOniChapterInfo(slot0)

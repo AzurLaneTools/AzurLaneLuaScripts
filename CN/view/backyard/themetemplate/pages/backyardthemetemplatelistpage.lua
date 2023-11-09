@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	slot0.helpBtn = slot0:findTF("adpter/help")
 	slot1 = slot0:findTF("preview_raw")
 	slot0.rawImage = slot1:GetComponent(typeof(RawImage))
-	slot0.listRect = slot0:findTF("adpter/list")
+	slot0.listRect = slot0:findTF("list/frame")
 	slot0.refreshBtns = slot0:findTF("adpter/refresh_btns")
 	slot0.btns = {
 		[5] = slot0.refreshBtns:Find("random"),
@@ -67,8 +67,8 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 	slot0.scrollRect.onValueChanged:RemoveAllListeners()
 
-	slot0.arrLeftBtnShop = slot0:findTF("adpter/list/zuobian_shop")
-	slot0.arrRightBtnShop = slot0:findTF("adpter/list/youbian_shop")
+	slot0.arrLeftBtnShop = slot0:findTF("list/frame/zuobian_shop")
+	slot0.arrRightBtnShop = slot0:findTF("list/frame/youbian_shop")
 
 	onButton(slot0, slot0.arrLeftBtnShop, function ()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then

@@ -1439,7 +1439,7 @@ _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
 }
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
-	tip = "将花费<color=#92fc63>$1</color>,是否继续？"
+	tip = "将花费<color=#72bc42>$1</color>,是否继续？"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
@@ -1459,7 +1459,7 @@ _G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
 }
 
 _G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
-	tip = "是否<color=#92fc63>保存</color>当前设置"
+	tip = "是否<color=#72bc42>保存</color>当前设置"
 }
 
 _G.pg.base.gametip.backyard_backyardScene_restSuccess = {
@@ -6494,11 +6494,11 @@ _G.pg.base.gametip.help_battle_defense = {
 }
 
 _G.pg.base.gametip.backyard_theme_set_tip = {
-	tip = "请选择将要对<color=#92fc63>$1</color>进行的操作"
+	tip = "请选择将要对<color=#72bc42>$1</color>进行的操作"
 }
 
 _G.pg.base.gametip.backyard_theme_save_tip = {
-	tip = "是否确定要将当前后宅配置保存为\n<color=#92fc63>$1</color>"
+	tip = "是否确定要将当前后宅配置保存为\n<color=#72bc42>$1</color>"
 }
 
 _G.pg.base.gametip.backyard_theme_defaultname = {
@@ -10108,7 +10108,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "圣马丁号、金鹿号等角色建造概率UP!"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:18}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14696,7 +14696,7 @@ _G.pg.base.gametip.backyard_theme_template_shop_tip = {
 ·可以对喜欢的主题进行点赞与收藏操作
 
 2.保存并分享自定义主题
-※<color=#92fc63>更新前的主题需要在管理界面再次保存才会出现在我的主题列表中</color>
+※<color=#72bc42>更新前的主题需要在管理界面再次保存才会出现在我的主题列表中</color>
 ·最多可以保存5个自定义主题，并分享其中的2个，其他玩家可以浏览您分享的主题并使用它们
 ·也可以复制主题的ID，主动将它分享给其他玩家
 ·在已经上传2个主题的情况下，上传其他主题，或者更新已经上传的主题，需要先取消分享后再次进行分享

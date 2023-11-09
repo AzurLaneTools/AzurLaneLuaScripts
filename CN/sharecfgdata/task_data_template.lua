@@ -61290,6 +61290,1012 @@ _G.pg.base.task_data_template[19403] = {
 	}
 }
 
+_G.pg.base.task_data_template[19404] = {
+	name = "『岛风复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 900833,
+	type = 6,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19404,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			377,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19405] = {
+	name = "『岛风复刻』通关EX",
+	guild_coin_award = 0,
+	award = 900877,
+	type = 6,
+	desc = "通关EX关卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1560052",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19405,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1560026,
+			chapterId = 1560052
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19406] = {
+	name = "『岛风复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 900878,
+	type = 36,
+	desc = "建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19406,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59500,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19407] = {
+	name = "『岛风复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 900879,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19407,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59500,
+			300
+		},
+		{
+			2,
+			60435,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19408] = {
+	name = "『岛风复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 900880,
+	type = 36,
+	desc = "通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 19408,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59500,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19409] = {
+	name = "『岛风复刻』通关A1/C1",
+	guild_coin_award = 0,
+	award = 900881,
+	type = 6,
+	desc = "击败A1或C1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19409,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560001,
+		1560021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			60435,
+			1
+		},
+		{
+			2,
+			59500,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19410] = {
+	name = "『岛风复刻』通关A2/C2",
+	guild_coin_award = 0,
+	award = 900882,
+	type = 6,
+	desc = "击败A2或C2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19410,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560002,
+		1560022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			60435,
+			1
+		},
+		{
+			2,
+			59500,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19411] = {
+	name = "『岛风复刻』通关A3/C3",
+	guild_coin_award = 0,
+	award = 900883,
+	type = 6,
+	desc = "击败A3或C3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19411,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560003,
+		1560023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			60435,
+			2
+		},
+		{
+			2,
+			59500,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19412] = {
+	name = "『岛风复刻』通关B1/D1",
+	guild_coin_award = 0,
+	award = 900884,
+	type = 6,
+	desc = "击败B1或D1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19412,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560004,
+		1560024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			60435,
+			1
+		},
+		{
+			2,
+			59500,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19413] = {
+	name = "『岛风复刻』通关B2/D2",
+	guild_coin_award = 0,
+	award = 900885,
+	type = 6,
+	desc = "击败B2或D2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19413,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560005,
+		1560025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			60435,
+			1
+		},
+		{
+			2,
+			59500,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19414] = {
+	name = "『岛风复刻』通关B3/D3",
+	guild_coin_award = 0,
+	award = 900886,
+	type = 6,
+	desc = "击败B3或D3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19414,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560006,
+		1560026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			60435,
+			2
+		},
+		{
+			2,
+			59500,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19415] = {
+	name = "『岛风复刻』通关SP",
+	guild_coin_award = 0,
+	award = 900887,
+	type = 6,
+	desc = "通关SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1560041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19415,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			60435,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1560025,
+			chapterId = 1560041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19416] = {
+	name = "『岛风复刻』通关D3",
+	guild_coin_award = 0,
+	award = 900888,
+	type = 6,
+	desc = "通关D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1560026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19416,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			208,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1560012,
+			chapterId = 1560026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19417] = {
+	name = "『岛风复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 900889,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "19418",
+	auto_commit = 0,
+	story_id = "",
+	id = 19417,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560001,
+		1560021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19418] = {
+	name = "『岛风复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 900890,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "19419",
+	auto_commit = 0,
+	story_id = "",
+	id = 19418,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560002,
+		1560022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19419] = {
+	name = "『岛风复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 900891,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "19420",
+	auto_commit = 0,
+	story_id = "",
+	id = 19419,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560003,
+		1560023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5069
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19420] = {
+	name = "『岛风复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 900892,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "19421",
+	auto_commit = 0,
+	story_id = "",
+	id = 19420,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560004,
+		1560024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19421] = {
+	name = "『岛风复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 900893,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "19422",
+	auto_commit = 0,
+	story_id = "",
+	id = 19421,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560005,
+		1560025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19422] = {
+	name = "『岛风复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 900894,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19422,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560006,
+		1560026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19424] = {
+	name = "『岛风复刻』-日常活动关卡",
+	guild_coin_award = 0,
+	award = 900896,
+	type = 36,
+	desc = "通过1次任意活动关卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 19424,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1560001,
+		1560002,
+		1560003,
+		1560021,
+		1560022,
+		1560023,
+		1560004,
+		1560005,
+		1560006,
+		1560024,
+		1560025,
+		1560026,
+		1560041,
+		1560052
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59500,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5070
+		}
+	}
+}
+
 _G.pg.base.task_data_template[35000] = {
 	name = "【常驻活动】季夏(?)攻势1",
 	guild_coin_award = 0,

@@ -20,6 +20,13 @@ function slot2.Dispose(slot0)
 		slot0._castClock = nil
 	end
 
+	if slot0._aimBiarBar then
+		slot0._factory:GetHPBarPool():DestroyObj(slot0._aimBiarBar:GetGO())
+		slot0._aimBiarBar:Dispose()
+
+		slot0._aimBiarBar = nil
+	end
+
 	LeanTween.cancel(slot0._HPBar)
 	uv0.super.Dispose(slot0)
 end
