@@ -5872,7 +5872,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"2|0|1"
+				"2||1"
 			}
 		},
 		mission = {

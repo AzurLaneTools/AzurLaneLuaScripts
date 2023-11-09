@@ -3609,6 +3609,15 @@ pg.drop_data_restore = {
 		drop_id = 900730,
 		target_id = 105011
 	},
+	[407] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 407,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 316
+	},
 	[998] = {
 		target_type = 7,
 		type = 1,
@@ -6693,6 +6702,7 @@ pg.drop_data_restore = {
 		404,
 		405,
 		406,
+		407,
 		998,
 		1000,
 		1001,

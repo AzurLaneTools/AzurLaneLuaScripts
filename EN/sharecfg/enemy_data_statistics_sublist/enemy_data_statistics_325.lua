@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_325 = {
+	[16502011] = {
+		cannon = 7,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 560,
+		battle_unit_type = 25,
+		air = 0,
+		base = 90743,
+		dodge = 0,
+		durability_growth = 10000,
+		antiaircraft = 60,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 1000,
+		torpedo = 33,
+		durability = 300,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502011,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100072,
+			1100182,
+			1100492
+		}
+	},
 	[16502012] = {
 		cannon = 16,
 		reload = 150,
@@ -1008,52 +1050,6 @@ pg.enemy_data_statistics_325 = {
 			1100172,
 			1100927,
 			1100937
-		}
-	},
-	[16502121] = {
-		cannon = 22,
-		name = "Émile Bertin Mechanicus Pawn - Wanderer",
-		type = 1,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 22,
-		speed = 36,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 360,
-		antiaircraft_growth = 3000,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 626,
-		base = 90742,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		antiaircraft = 72,
-		hit_growth = 280,
-		armor = 0,
-		durability = 3060,
-		torpedo = 94,
-		id = 16502121,
-		durability_growth = 21600,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100022,
-			1100397,
-			1100507
 		}
 	}
 }

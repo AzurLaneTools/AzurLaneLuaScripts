@@ -17,6 +17,8 @@ function slot0.OnLoaded(slot0)
 	slot0.confirmBtn = slot0:findTF("btns/confirm")
 	slot0.confirmBtnTxt = slot0:findTF("btns/confirm/Text"):GetComponent(typeof(Text))
 	slot0._parentTF = slot0._tf.parent
+
+	setText(slot0:findTF("title"), i18n("words_information"))
 end
 
 function slot0.OnInit(slot0)

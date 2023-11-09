@@ -2178,7 +2178,7 @@ function slot0.IsListOfFleetEmpty(slot0, slot1)
 
 		return slot2 == 0
 	elseif slot0.mode == uv0.EDIT then
-		return not slot0.chapter:singleEliteFleetVertify(slot1)
+		return #slot0.eliteFleetList[slot1] == 0
 	end
 end
 

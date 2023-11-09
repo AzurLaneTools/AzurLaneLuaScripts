@@ -2375,7 +2375,7 @@ pg.base.memory_group = {
 		subtype = 1,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 5069,
 		title = "Upon the Shimmering Blue ",
 		memories = {
 			1801,

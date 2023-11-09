@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_276 = {
+	[15603304] = {
+		cannon = 255,
+		battle_unit_type = 95,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 390,
+		speed = 18,
+		dodge = 22,
+		id = 15603304,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 312,
+		luck = 25,
+		star = 4,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 0,
+		base = 90469,
+		durability = 110000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 280,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 410,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		scale = 144,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			873201,
+			873202,
+			873203,
+			873204,
+			873210,
+			873211,
+			873212
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603305] = {
 		cannon = 232,
 		name = "Data Phantom CV",
@@ -1082,64 +1134,6 @@ pg.enemy_data_statistics_276 = {
 			874905
 		},
 		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604204] = {
-		cannon = 210,
-		name = "Data Phantom BB",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 3600,
-		air = 0,
-		rarity = 3,
-		armor = 0,
-		id = 15604204,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90622,
-		durability = 23200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 18,
-		antisub = 0,
-		cannon_growth = 2500,
-		fog_fx = "",
-		dodge = 11,
-		reload_growth = 0,
-		hit = 32,
-		torpedo = 0,
-		durability_growth = 368400,
-		antiaircraft = 235,
-		hit_growth = 210,
-		armor_type = 3,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			1003175,
-			1101104,
-			1100724,
-			1003165,
-			874907,
-			874909
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			},
 			{
 				ID = 8924,
 				LV = 1

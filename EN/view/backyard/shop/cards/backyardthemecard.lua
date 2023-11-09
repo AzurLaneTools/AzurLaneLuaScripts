@@ -4,7 +4,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.content = slot0._tf:Find("content")
-	slot0.icon = slot0.content:Find("icon"):GetComponent(typeof(Image))
+	slot0.icon = slot0.content:Find("icon_mask/icon"):GetComponent(typeof(Image))
 	slot0.nameTxt = slot0.content:Find("Text"):GetComponent(typeof(Text))
 	slot0.discountTF = slot0.content:Find("discount")
 	slot0.discountTxt = slot0.discountTF:Find("Text"):GetComponent(typeof(Text))
@@ -20,7 +20,7 @@ function slot0.Update(slot0, slot1, slot2)
 		uv0.icon.sprite = slot0
 	end)
 
-	slot0.nameTxt.text = string.gsub(string.gsub(slot1:GetName(), "<size=%d+>", ""), "</size>", "")
+	slot0.nameTxt.text = string.gsub(string.gsub(shortenString(slot1:GetName(), 7), "<size=%d+>", ""), "</size>", "")
 	slot5 = slot1:GetDiscount()
 	slot6 = slot1:HasDiscount()
 

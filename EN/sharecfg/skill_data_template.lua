@@ -332,6 +332,7 @@ pg.skill_data_template = setmetatable({
 		9110,
 		9120,
 		9709,
+		9711,
 		10010,
 		10020,
 		10030,
@@ -12524,6 +12525,20 @@ pg.base.skill_data_template = {
 		desc_get = "",
 		name = "Future Content ",
 		id = 9709,
+		type = 0,
+		max_level = 0,
+		desc = "",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[9711] = {
+		desc_get = "",
+		name = "布里之誓·purin",
+		id = 9711,
 		type = 0,
 		max_level = 0,
 		desc = "",

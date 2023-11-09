@@ -5,7 +5,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0._tf = slot1.transform
 	slot0.content = slot0._tf:Find("content")
 	slot0.mask = slot0.content:Find("mask")
-	slot0.iconRaw = slot0.content:Find("icon_raw"):GetComponent(typeof(RawImage))
+	slot0.iconRaw = slot0.content:Find("icon_mask/icon_raw"):GetComponent(typeof(RawImage))
 	slot0.nameTxt = slot0.content:Find("Text"):GetComponent(typeof(Text))
 	slot0.pos = slot0.content:Find("pos")
 	slot0.posTxt = slot0.pos:Find("Text"):GetComponent(typeof(Text))

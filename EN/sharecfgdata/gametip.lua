@@ -94,6 +94,18 @@ _G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "Unable to unbind the account"
 }
 
+_G.pg.base.gametip.new_airi_error_code_100215 = {
+	tip = "You cannot bind this account to an X (previously Twitter) account: 100215 "
+}
+
+_G.pg.base.gametip.new_airi_error_code_100216 = {
+	tip = "This account is already bound to an X (previously Twitter) account"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100217 = {
+	tip = "You cannot register a new account with an X (previously Twitter) account: 100217"
+}
+
 _G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "Authorization canceled"
 }
@@ -10255,7 +10267,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for São Martinho, Golden Hind, and more!"
+	tip = "Receive an extra copy of Shimakaze after doing a total of 200 builds! (Limit of 4 times)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
