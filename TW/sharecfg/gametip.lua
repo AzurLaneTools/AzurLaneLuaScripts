@@ -21650,5 +21650,15 @@ cs.gametip = {
 		757856,
 		97,
 		true
+	},
+	cryptolalia_download_task_already_exists = {
+		757953,
+		127,
+		true
+	},
+	charge_scene_buy_confirm_backyard = {
+		758080,
+		172,
+		true
 	}
 }

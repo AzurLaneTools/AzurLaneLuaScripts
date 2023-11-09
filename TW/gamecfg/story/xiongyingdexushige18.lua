@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "在通向大剧场地下的通道中，阿尔弗雷多一行人正打着提灯小心前进着。",
+			say = "在通往大劇場地下的通道中，阿爾弗雷多一行人正打著提燈小心前進著。",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……没想到达·芬奇也会带提灯。",
+			say = "……沒想到達·文西也會帶提燈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "有趣的东西我可是随身带了不少哦，当然也包括提灯这种既有气氛又很实用的小道具~",
+			say = "有趣的東西我可是隨身帶了不少哦，當然也包括提燈這種既有氣氛又很實用的小道具~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "确实很实用……在照明失灵的通道中帮大忙了。",
+			say = "確實很實用……在照明失靈的通道中幫大忙了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "佩萨格诺，你在这种时候也要记笔记么……？",
+			say = "佩薩格諾，妳在這種時候也要記筆記嗎…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "因为这是一场有意义的旅途……一定能够在日后成为有趣的故事。",
+			say = "因為這是一場有意義的旅程……一定能夠在日後成為有趣的故事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "而且……还能整理我们当前的探索进度。",
+			say = "而且……還能整理我們目前的探索進度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊…………地图到头了。",
+			say = "啊…………地圖到頭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "什么叫地图到头了……？",
+			say = "什麼叫地圖到頭了妳…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "地图上已经没有路了。从我们行走过的距离来说……现在应该要碰到外墙了才对。",
+			say = "地圖上已經沒有路了。從我們行走過的距離來說……現在應該要碰到外牆了才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸？！可是我们眼前的路还在延伸哦！",
+			say = "欸？！可是我們眼前的路還在延伸！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "没错……这是问题所在。",
+			say = "沒錯……這是問題所在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我们已经走了这么久，按理说就算横跨了整个地下区域也不为过，结果却连通道没能走出去……",
+			say = "我們已經走了這麼久，照理說就算橫跨了整個地下區域也不為過，結果卻連通道都能沒走出去…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇，你的提灯开始闪了哦，不会出故障了吧……",
+			say = "達·文西，妳的提燈開始閃了哦，不會出故障了吧…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "绝对不可能，我做的东西怎么会在这时候出故障！",
+			say = "絕對不可能，我做的東西怎麼會在這時候出故障！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，提灯熄灭了……",
+			say = "啊，提燈熄滅了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "什么鬼啊————？！！！！！！",
+			say = "什麼鬼啊————？！！！！！！",
 			effects = {
 				{
 					active = true,
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我的提灯怎么会出问题？！可恶……看我现在就把你给拆了检查一下！！！",
+			say = "我的提燈怎麼會出問題？！可惡……看我現在就把妳拆了檢查一下！！！",
 			effects = {
 				{
 					active = false,
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "有、有点不太对劲…………我们不会已经中招了吧……",
+			say = "有、有點不太對勁…………我們不會已經中招了吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔弗雷多回头看向入口的方向，可是映入眼帘的却是不见尽头的漆黑隧道。",
+			say = "阿爾弗雷多回頭看向入口的方向，可是映入眼簾的是不見盡頭的漆黑隧道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "得、得赶紧跟维内托大人汇报一下！",
+			say = "得、得趕緊跟維內托大人報告一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我刚刚已经试过了。通讯器没有反应，联络中断了。",
+			say = "我剛剛已經試過了哦。通訊器沒有反應，聯絡中斷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "也许罗马大人就是使用这条通道前往地下的时候遭遇到了相同的情况。",
+			say = "看來羅馬大人就是在使用本條通道前往地下的時候遭遇到了類似情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "狂怒之后的达·芬奇突然变得好冷静……",
+			say = "狂怒之後的達·文西突然變得好冷靜…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "因为急也没有用嘛，不如冷静下来思考一下现状。",
+			say = "因為急也沒有用嘛，不如冷靜下來思考現狀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "异常的空间、对外联络中断，两项加起来能得出的结论似乎只有镜面海域一个。",
+			say = "異常的空間、對外聯絡中斷，兩項加起來能得出的結論似乎只有鏡面海域一個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "托里拆利的猜测已经基本得到证实了……虽然我们此前从未见过如此特殊的镜面海域。",
+			say = "托里切利的猜測已經基本上得到證實了……雖然我們以前從未見過如此特殊的鏡面海域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
-			say = "这里是单行道，既然有进口，那绝对也有出口。打起精神来继续前进吧！",
+			say = "這裡是單行道，既然有入口，那絕對也有出口。打起精神來繼續前進吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#ffa500",
 			side = 2,
-			say = "「终于，一切都结束了。」",
+			say = "「終於，一切都結束了。」",
 			bgm = "theme-roma-image",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「我行走于人世间，不再留下任何痕迹。」",
+			say = "「我行走於人世間，不再留下任何痕跡。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「我见证了名为救赎的枷锁。」",
+			say = "「我見證了名為救贖的枷鎖。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「见证了名为光明的黑暗。」",
+			say = "「見證了名為光明的黑暗。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「见证了名为复兴的衰退。」",
+			say = "「見證了名為復興的衰退。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「就由我来毁灭吧。」",
+			say = "「就由我來毀滅吧。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "「有从无中生。」",
+			say = "「有從無中生。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#ffa500",
 			blackBg = true,
-			say = "「就由我来创造出一个新的世界，一个新的帝国——」",
+			say = "「就由我來創造出一個新的世界，一個新的帝國—」",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "在不知道前进了多久之后，无尽的通道似乎终于走到了尽头。",
+			say = "在不知道前進了多久之後，無盡的通道似乎終於走到了盡頭。",
 			bgm = "story-roma-inside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "这还真是……就算在梦里也没见过的奇怪场景啊！",
+			say = "這還真是……就算在夢裡也沒見過的奇怪場景啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "博尔扎诺，你对这里怎么看？",
+			say = "波爾察諾，妳對這裡怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……就眼见的景象来看，这里毫无疑问是镜面海域。",
+			say = "……就眼前的景象來看，這裡毫無疑問是鏡面海域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没错！不过我不是问性质啦，而是看到这里的感想~",
+			say = "沒錯！不過我不是問性質啦，而是看到這裡的感想~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……感想么？我感受到了荒芜、凄凉、破败与拒绝感……",
+			say = "……感想嗎？我感受到了荒蕪、淒涼、破敗與拒絕感……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "还要再加上不甘与悲伤对吧？我也有这种感觉！",
+			say = "還要再加上不甘心與悲傷對吧？我也有這種感覺！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "其实，我觉得这里不像是塞壬创造的。",
+			say = "其實，我覺得這裡不像是塞壬創造的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "要得出这个结论似乎还缺少足够的证据支持……",
+			say = "要得出這個結論似乎還缺少足夠的證據支持……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "哎~也不用太认真，我就是随便发表一下不负责任的感慨罢了~",
+			say = "哎~也不用太認真，我就是隨便發表一下不負責任的感慨罷了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "继续前进吧，继续前进~让我看看绿色雄鹰在哪里！",
+			say = "繼續前進吧，繼續前進~讓我看看綠色雄鷹在哪裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……加里波第阁下，我们的此行的目的应该是跟达·芬奇等人汇合，之后一同寻找失踪的罗马大人。",
+			say = "……加里波底閣下，我們的此行的目的應該是跟達·文西等人匯合，之後一同尋找失蹤的羅馬大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "啊，你快看天上的极光带，那些……是不是都是由绿色雄鹰构成的？",
+			say = "啊，妳快看天上的極光帶，那些……是不是都是由綠色雄鷹構成的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……确实是十分壮观的景象，而且总感觉散发着危险的气息。",
+			say = "……確實是十分壯觀的景象，而且總覺得散發著危險的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "有点像翡翠，又还发着光，好想抓一只回家养起来……",
+			say = "有點像翡翠，又還發著光，好想抓一隻回家養起來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "喂————老鹰老鹰，快看这边！",
+			say = "喂————老鷹老鷹，快看這邊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "加里波第突然兴奋地挥舞起双手，对着天空中由绿色雄鹰构成的光带呼喊起来。",
+			say = "加里波底突然興奮地揮舞起雙手，對著天空中由綠色雄鷹構成的光帶呼喊起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "天空的光带也随即对加里波第的“召唤”做出了回应。",
+			say = "天空的光帶也隨即對加里波底的「召喚」做出了回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "无数光点从光带中分离出来，向着二人的方向高速俯冲而来。",
+			say = "無數光點從光帶中分離出來，向著二人的方向高速俯衝而來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……加里波第阁下，快调整防空炮角度，准备对空作战！",
+			say = "……加里波底閣下，快調整防空炮角度，準備對空作戰！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "欸…………？！哎？！准、准备迎敌！",
+			say = "欸…………？！哎？！準、準備迎敵！",
 			painting = {
 				alpha = 0.3,
 				time = 1

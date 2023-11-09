@@ -820,5 +820,221 @@ pg.enemy_data_statistics_1 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
+	},
+	[50018] = {
+		speed_growth = 0,
+		name = "潛艇「Flea」2",
+		durability_growth = 1770,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		hit_growth = 8850,
+		reload_growth = 0,
+		dodge_growth = 4310,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50011,
+		armor_growth = 0,
+		torpedo_growth = 8850,
+		luck_growth = 8850,
+		antiaircraft_growth = 0,
+		id = 50018,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50019] = {
+		speed_growth = 0,
+		name = "潛艇「Flea」2",
+		durability_growth = 1880,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		hit_growth = 9400,
+		reload_growth = 0,
+		dodge_growth = 4640,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50011,
+		armor_growth = 0,
+		torpedo_growth = 9400,
+		luck_growth = 9400,
+		antiaircraft_growth = 0,
+		id = 50019,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50020] = {
+		speed_growth = 0,
+		name = "潛艇「Flea」2",
+		durability_growth = 2000,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		hit_growth = 10000,
+		reload_growth = 0,
+		dodge_growth = 5000,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50011,
+		armor_growth = 0,
+		torpedo_growth = 10000,
+		luck_growth = 10000,
+		antiaircraft_growth = 0,
+		id = 50020,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50021] = {
+		cannon = 0,
+		name = "革律翁",
+		type = 5,
+		speed_growth = 10000,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 0,
+		friendly_cld = 0,
+		armor = 0,
+		id = 50021,
+		bubble_fx = "",
+		dodge_growth = 10000,
+		icon = "bisimaiZ_jianzhuang",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 10000,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 5000,
+		hit_growth = 5000,
+		speed = 0,
+		luck = 0,
+		antisub = 0,
+		scale = 120,
+		wave_fx = "",
+		prefab = "bisimaiZ_jianzhuang",
+		cannon_growth = 5000,
+		pilot_ai_template_id = 20006,
+		reload = 0,
+		dodge = 0,
+		reload_growth = 5000,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 5000,
+		antiaircraft = 0,
+		antiaircraft_growth = 5000,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			9,
+			9,
+			12
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.78,
+							0.55,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.51,
+							2.28,
+							2.1
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

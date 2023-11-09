@@ -636,7 +636,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:207}、{namecode:150}、{namecode:206}、{namecode:208}在塞壬的第一轮偷袭中受伤，但是都不严重。",
+			say = "{namecode:207}、{namecode:150}、{namecode:206}、{namecode:208}在塞壬的第一輪偷襲中受傷，但都不嚴重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过{namecode:182}大人，{namecode:84}大人在临行前有过嘱托。",
+			say = "不過信濃大人，武藏大人在臨行前有過囑託。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果此行之中发生意外，就请{namecode:80}与伤者一同带领运输船队返回本岛，{namecode:182}大人请接下这份新的调动命令。",
+			say = "如果此行之中發生意外，就請紀伊與傷者一同帶領運輸船隊返回本島，信濃大人請接下這份新的調動命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这是{namecode:84}的命令，还是{namecode:91}的命令？",
+			say = "這是武藏的命令，還是赤城的命令？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这我就不清楚了……不过{namecode:91}大人目前还未返回本岛，在她外出期间，诸多事务均是由{namecode:84}大人代为负责的。",
+			say = "這我就不清楚了……不過赤城大人目前還未返回本島，在她外出期間，諸多事務均是由武藏大人代為負責的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哈？这个{namecode:84}是{namecode:182}大人的姐姐吧？！",
+			say = "哈？這個武藏是信濃大人的姊姊吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

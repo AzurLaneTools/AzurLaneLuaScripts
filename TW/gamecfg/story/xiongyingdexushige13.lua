@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「黑夜使阳光更灿烂。」",
+			say = "「黑夜使陽光更燦爛。」",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「废墟使高楼更宏伟。」",
+			say = "「廢墟使高樓更宏偉。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「而战争，使帝国更伟大。」",
+			say = "「而戰爭，使帝國更偉大。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「罗马的意志已经做出了决定。」",
+			say = "「羅馬的意志已經做出了決定。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「伟大的奥古斯都。」",
+			say = "「偉大的奧古斯都。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「再次渡过卢比孔河。」",
+			say = "「再渡過盧比孔河。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「开创一个崭新的时代吧——」",
+			say = "「開創一個嶄新的時代吧—」",
 			painting = {
 				alpha = 0.3,
 				time = 1

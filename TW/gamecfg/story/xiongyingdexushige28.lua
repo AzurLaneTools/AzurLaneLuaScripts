@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "异常镜面海域·上空",
+			say = "異常鏡面海域·上空",
 			bgm = "battle-roma-sky",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "……达·芬奇就是机械师，佩萨格诺是瞭望手，那，舰队指挥的位置不就非我莫属了？！",
+			say = "……達·文西是機械師，佩薩格諾是瞭望手，那，艦隊指揮的位置就非我莫屬啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "哼哼哼——这就是担任舰队指挥的感觉……",
+			say = "哼哼哼——這就是擔任艦隊指揮官的感覺…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "视野良好，气势极佳，当指挥官的感觉真不错！",
+			say = "視野良好，氣勢極佳，當指揮官的感覺真感覺不錯啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "达·芬奇你真是太厉害了！怎么就突然变出来一支飞空舰队啊！",
+			say = "達·文西妳真是太厲害了！怎麼就突然變出來一支飛空艦隊啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "只要明白了这里的运行规律，这种事小意思啦~",
+			say = "只要明白了這裡的運作規律，這種事小意思啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "敌人既然用数量压我们，我们就来个以彼之道还施彼身！",
+			say = "敵人既然用數量壓制我們，我們就來個以彼之道還施彼身！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "嗯——好，调整完毕，接下来只需要操作旗舰就能对舰队进行简单指挥了！",
+			say = "嗯——好，調整完畢，接下來只需要操作旗艦就能對艦隊進行簡單指揮了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "虽然复杂的战术执行不了，不过做到把进入视野的敌人都轰烂可是完全没问题哦~",
+			say = "雖然複雜的戰術執行不了，不過做到把進入視野的敵人都轟爛可是完全沒問題哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "这些战舰实在有些……复古，而且……那些气囊，看起来一点也不安全。",
+			say = "這些戰艦實在有些……復古，而且……那些氣囊，看起來一點也不安全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "我还是觉得在水面上作战更好。",
+			say = "我還是覺得在水面上作戰比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "放心啦，放心！这些飞空战舰都是我钻了这里镜面海域的空子，用海域内的设施生产出来的。",
+			say = "放心啦，放心！這些飛空戰艦都是我鑽了這裡鏡面海域的漏洞，用海域內的設施生產出來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "虽然看上去是脆弱的木质结构，其实强度一点都不比量产型差哦！",
+			say = "雖然看起來是脆弱的木質結構，其實強度一點都不比量產型差！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "不比量产型差……这种说法听起来也完全不能让人安心！",
+			say = "不比量產型差……這種說法聽起來完全不能讓人安心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "如果被集火的话……",
+			say = "如果被擊火的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "哼哼，这种情况我早就考虑到了哦。",
+			say = "哼哼，這種情況我早就考慮到了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "莱昂纳多·达·芬奇",
-			say = "飞空战舰上已经准备好了紧急逃生手段，被击落的时候就会自动把我们带下去，你就放心吧！",
+			say = "飛空戰艦上已經準備好了緊急逃生手段，被擊落的時候就會自動把我們帶下去，妳就放心吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "就这样，飞空战舰群开始向着远方醒目的巨大大剧场前进了。",
+			say = "就這樣，飛空戰艦群開始朝著遠方醒目的巨大劇場前進了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩萨格诺观察着天空与水面，达·芬奇一直在忙碌地调整着些什么。",
+			say = "佩薩格諾觀察著天空與水面，達·文西一直在忙碌的調整著些什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔弗雷多则在飞空战舰的甲板上跑来跑去，拍照记录着身边“属于自己的”庞大舰队。",
+			say = "阿爾弗雷多則在飛空戰艦的甲板上跑來跑去，拍照紀錄著身邊「屬於自己的」龐大艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			actorName = "阿尔弗雷多·奥里亚尼",
 			nameColor = "#A9F548FF",
-			say = "咔嚓——咔嚓——宏伟的阿尔弗雷多舰队记录完毕！",
+			say = "咔嚓——咔嚓——宏偉的阿爾弗雷多艦隊紀錄完畢！",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "嘿嘿嘿，这些照片要是发出去的话……不得了，可太不得了了！",
+			say = "嘿嘿嘿，這些照片要是發出去的話……不得了，可太不得了了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "……我说你，不要在我工作的时候捣乱。",
+			say = "……我說妳，不要在我工作的時候搗亂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "我可是船长！船长在自己的船上想做什么都可以吧！",
+			say = "我可是船長！船長在自己的船上想做什麼都可以吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "……那阿尔弗雷多船长，我有一个重要情报要汇报。",
+			say = "……那阿爾弗雷多船長，我有一個重要情報要報告。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩萨格诺用手挡住了阿尔弗雷多的镜头，伸出另一只手指向远方。",
+			say = "佩薩格諾用手擋住了阿爾弗雷多的鏡頭，伸出另一隻手指向遠方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "——在那片海域发现了战斗迹象。",
+			say = "——在那片海域發現了戰鬥跡象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "还看不清卷入战斗的人是谁，也许是维内托大人派来协助我们的同伴。",
+			say = "還看不清楚捲入戰鬥的人是誰，或許是維內托大人派來協助我們的同伴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "那可不好！达·芬奇，重新设定舰队航向，我们得赶紧过去支援才行！",
+			say = "那可不妙！達·文西，重新設定艦隊航向，我們得趕緊過去支援才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			actorName = "阿尔弗雷多·奥里亚尼",
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "阿尔弗雷多舰队，全军出击！",
+			say = "阿爾弗雷多艦隊，全軍出擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

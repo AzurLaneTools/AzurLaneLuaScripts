@@ -1155,308 +1155,427 @@ pg.name_code = {
 		code = "吾妻",
 		nation = 0
 	},
-	[169] = {
+	{
+		name = "特II型綾波",
+		type = 1,
+		id = 166,
+		code = "特II型綾波",
+		nation = 0
+	},
+	{
+		name = "特I型吹雪",
+		type = 1,
+		id = 167,
+		code = "特I型吹雪",
+		nation = 0
+	},
+	{
+		name = "特III型曉",
+		type = 1,
+		id = 168,
+		code = "特III型曉",
+		nation = 0
+	},
+	{
 		name = "小比叡",
 		type = 1,
 		id = 169,
 		code = "小比叡",
 		nation = 0
 	},
-	[170] = {
+	{
 		name = "小赤城",
 		type = 1,
 		id = 170,
 		code = "小赤城",
 		nation = 0
 	},
-	[174] = {
+	{
+		name = "陽炎級量產型.verAI",
+		type = 1,
+		id = 171,
+		code = "陽炎級量產型.verAI",
+		nation = 0
+	},
+	{
+		name = "妙高級量產型.verAI",
+		type = 1,
+		id = 172,
+		code = "妙高級量產型.verAI",
+		nation = 0
+	},
+	{
+		name = "扶桑級量產型.verAI",
+		type = 1,
+		id = 173,
+		code = "扶桑級量產型.verAI",
+		nation = 0
+	},
+	{
 		name = "清波",
 		type = 1,
 		id = 174,
 		code = "清波",
 		nation = 0
 	},
-	[175] = {
+	{
 		name = "駿河",
 		type = 1,
 		id = 175,
 		code = "駿河",
 		nation = 0
 	},
-	[176] = {
+	{
 		name = "赤城(μ兵裝)",
 		type = 1,
 		id = 176,
 		code = "赤城(μ兵裝)",
 		nation = 0
 	},
-	[179] = {
+	{
+		name = "伊勢級量產型",
+		type = 1,
+		id = 177,
+		code = "伊勢級量產型",
+		nation = 0
+	},
+	{
+		name = "扶桑級量產型",
+		type = 1,
+		id = 178,
+		code = "扶桑級量產型",
+		nation = 0
+	},
+	{
 		name = "龍鳳",
 		type = 1,
 		id = 179,
 		code = "龍鳳",
 		nation = 0
 	},
-	[180] = {
+	{
 		name = "霞",
 		type = 1,
 		id = 180,
 		code = "霞",
 		nation = 0
 	},
-	[181] = {
+	{
 		name = "鬼怒",
 		type = 1,
 		id = 181,
 		code = "鬼怒",
 		nation = 0
 	},
-	[182] = {
+	{
 		name = "信濃",
 		type = 1,
 		id = 182,
 		code = "信濃",
 		nation = 0
 	},
-	[183] = {
+	{
 		name = "大鯨",
 		type = 1,
 		id = 183,
 		code = "大鯨",
 		nation = 0
 	},
-	[184] = {
+	{
 		name = "浦波",
 		type = 1,
 		id = 184,
 		code = "浦波",
 		nation = 0
 	},
-	[185] = {
+	{
 		name = "長波",
 		type = 1,
 		id = 185,
 		code = "長波",
 		nation = 0
 	},
-	[186] = {
+	{
 		name = "冬月",
 		type = 1,
 		id = 186,
 		code = "冬月",
 		nation = 0
 	},
-	[187] = {
+	{
 		name = "滿月",
 		type = 1,
 		id = 187,
 		code = "滿月",
 		nation = 0
 	},
-	[188] = {
+	{
 		name = "樫野",
 		type = 1,
 		id = 188,
 		code = "樫野",
 		nation = 0
 	},
-	[189] = {
+	{
 		name = "初月",
 		type = 1,
 		id = 189,
 		code = "初月",
 		nation = 0
 	},
-	[191] = {
+	{
+		name = "大鳳(μ兵裝)",
+		type = 1,
+		id = 190,
+		code = "大鳳(μ兵裝)",
+		nation = 0
+	},
+	{
 		name = "飛龍·META",
 		type = 1,
 		id = 191,
 		code = "飛龍·META",
 		nation = 0
 	},
-	[192] = {
+	{
 		name = "追風",
 		type = 1,
 		id = 192,
 		code = "追風",
 		nation = 0
 	},
-	[193] = {
+	{
 		name = "小天城",
 		type = 1,
 		id = 193,
 		code = "小天城",
 		nation = 0
 	},
-	[194] = {
+	{
 		name = "提康德羅加",
 		type = 1,
 		id = 194,
 		code = "提康德羅加",
 		nation = 0
 	},
-	[195] = {
+	{
 		name = "舊金山",
 		type = 1,
 		id = 195,
 		code = "舊金山",
 		nation = 0
 	},
-	[196] = {
+	{
 		name = "射水魚",
 		type = 1,
 		id = 196,
 		code = "射水魚",
 		nation = 0
 	},
-	[197] = {
+	{
 		name = "波夕",
 		type = 1,
 		id = 197,
 		code = "波夕",
 		nation = 0
 	},
-	[198] = {
+	{
 		name = "莫里森",
 		type = 1,
 		id = 198,
 		code = "莫里森",
 		nation = 0
 	},
-	[199] = {
+	{
 		name = "紐澤西",
 		type = 1,
 		id = 199,
 		code = "紐澤西",
 		nation = 0
 	},
-	[200] = {
+	{
 		name = "提康",
 		type = 1,
 		id = 200,
 		code = "提康",
 		nation = 0
 	},
-	[201] = {
+	{
 		name = "愛荷華",
 		type = 1,
 		id = 201,
 		code = "愛荷華",
 		nation = 0
 	},
-	[202] = {
+	{
 		name = "巴勞鱵",
 		type = 1,
 		id = 202,
 		code = "巴勞鱵",
 		nation = 0
 	},
-	[203] = {
+	{
 		name = "風雲",
 		type = 1,
 		id = 203,
 		code = "風雲",
 		nation = 0
 	},
-	[204] = {
+	{
 		name = "白龍",
 		type = 1,
 		id = 204,
 		code = "白龍",
 		nation = 0
 	},
-	[205] = {
+	{
 		name = "蒼龍·META",
 		type = 1,
 		id = 205,
 		code = "蒼龍·META",
 		nation = 0
 	},
-	[206] = {
+	{
 		name = "由良",
 		type = 1,
 		id = 206,
 		code = "由良",
 		nation = 0
 	},
-	[207] = {
+	{
 		name = "山風",
 		type = 1,
 		id = 207,
 		code = "山風",
 		nation = 0
 	},
-	[208] = {
+	{
 		name = "葛城",
 		type = 1,
 		id = 208,
 		code = "葛城",
 		nation = 0
 	},
-	[209] = {
+	{
 		name = "雲龍",
 		type = 1,
 		id = 209,
 		code = "雲龍",
 		nation = 0
 	},
-	[210] = {
+	{
 		name = "扶桑·META",
 		type = 1,
 		id = 210,
 		code = "扶桑·META",
 		nation = 0
 	},
-	[211] = {
+	{
 		name = "扶桑改",
 		type = 1,
 		id = 211,
 		code = "扶桑改",
 		nation = 0
 	},
-	[212] = {
+	{
 		name = "最上改",
 		type = 1,
 		id = 212,
 		code = "最上改",
 		nation = 0
 	},
-	[220] = {
+	{
+		name = "夕立.改",
+		type = 1,
+		id = 213,
+		code = "夕立.改",
+		nation = 0
+	},
+	{
+		name = "最上.改",
+		type = 1,
+		id = 214,
+		code = "最上.改",
+		nation = 0
+	},
+	{
+		name = "扶桑.改",
+		type = 1,
+		id = 215,
+		code = "扶桑.改",
+		nation = 0
+	},
+	{
+		name = "山城.改",
+		type = 1,
+		id = 216,
+		code = "山城.改",
+		nation = 0
+	},
+	{
+		name = "伊勢.改",
+		type = 1,
+		id = 217,
+		code = "伊勢.改",
+		nation = 0
+	},
+	{
+		name = "日向.改",
+		type = 1,
+		id = 218,
+		code = "日向.改",
+		nation = 0
+	},
+	{
+		name = "霞.改",
+		type = 1,
+		id = 219,
+		code = "霞.改",
+		nation = 0
+	},
+	{
 		name = "飛鷹·META",
 		type = 1,
 		id = 220,
 		code = "飛鷹·META",
 		nation = 0
 	},
-	[221] = {
+	{
 		name = "隼鷹·META",
 		type = 1,
 		id = 221,
 		code = "隼鷹·META",
 		nation = 0
 	},
-	[223] = {
+	{
+		name = "鎮海",
+		type = 1,
+		id = 222,
+		code = "鎮海",
+		nation = 0
+	},
+	{
 		name = "山城·META",
 		type = 1,
 		id = 223,
 		code = "山城·META",
 		nation = 0
 	},
-	[224] = {
+	{
 		name = "哈爾濱",
 		type = 1,
 		id = 224,
 		code = "哈爾濱",
 		nation = 0
 	},
-	[225] = {
+	{
 		name = "若月",
 		type = 1,
 		id = 225,
 		code = "若月",
 		nation = 0
 	},
-	[226] = {
+	{
 		name = "酒匂",
 		type = 1,
 		id = 226,
@@ -1561,11 +1680,67 @@ pg.name_code = {
 		code = "伊型",
 		nation = 0
 	},
+	[286] = {
+		name = "夕雲級量產型T2",
+		type = 1,
+		id = 286,
+		code = "夕雲級量產型T2",
+		nation = 0
+	},
+	[287] = {
+		name = "川內級量產型T2",
+		type = 1,
+		id = 287,
+		code = "川內級量產型T2",
+		nation = 0
+	},
+	[288] = {
+		name = "最上級量產型T2",
+		type = 1,
+		id = 288,
+		code = "最上級量產型T2",
+		nation = 0
+	},
+	[289] = {
+		name = "扶桑級量產型T2",
+		type = 1,
+		id = 289,
+		code = "扶桑級量產型T2",
+		nation = 0
+	},
+	[290] = {
+		name = "赤城級量產型T2",
+		type = 1,
+		id = 290,
+		code = "赤城級量產型T2",
+		nation = 0
+	},
 	[291] = {
 		name = "小大鳳",
 		type = 1,
 		id = 291,
 		code = "小大鳳",
+		nation = 0
+	},
+	[292] = {
+		name = "四萬十",
+		type = 1,
+		id = 292,
+		code = "四萬十",
+		nation = 0
+	},
+	[293] = {
+		name = "神通·META",
+		type = 1,
+		id = 293,
+		code = "神通·META",
+		nation = 0
+	},
+	[294] = {
+		name = "雲仙",
+		type = 1,
+		id = 294,
+		code = "雲仙",
 		nation = 0
 	},
 	[295] = {
@@ -2413,6 +2588,139 @@ pg.name_code = {
 		type = 1,
 		id = 517,
 		code = "U-556.META？",
+		nation = 0
+	},
+	[518] = {
+		name = "菲利克斯·舒爾茨",
+		type = 1,
+		id = 518,
+		code = "菲利克斯·舒爾茨",
+		nation = 0
+	},
+	[519] = {
+		name = "菲利克斯",
+		type = 1,
+		id = 519,
+		code = "菲利克斯",
+		nation = 0
+	},
+	[520] = {
+		name = "舒爾茨",
+		type = 1,
+		id = 520,
+		code = "舒爾茨",
+		nation = 0
+	},
+	[521] = {
+		name = "興登堡",
+		type = 1,
+		id = 521,
+		code = "興登堡",
+		nation = 0
+	},
+	[522] = {
+		name = "旗風·META",
+		type = 1,
+		id = 522,
+		code = "旗風·META",
+		nation = 0
+	},
+	[523] = {
+		name = "讓·巴爾",
+		type = 1,
+		id = 523,
+		code = "讓·巴爾",
+		nation = 0
+	},
+	[524] = {
+		name = "聖地牙哥",
+		type = 1,
+		id = 524,
+		code = "聖地牙哥",
+		nation = 0
+	},
+	[525] = {
+		name = "英格拉罕",
+		type = 1,
+		id = 525,
+		code = "英格拉罕",
+		nation = 0
+	},
+	[526] = {
+		name = "札拉",
+		type = 1,
+		id = 526,
+		code = "札拉",
+		nation = 0
+	},
+	[527] = {
+		name = "小聖地牙哥",
+		type = 1,
+		id = 527,
+		code = "小聖地牙哥",
+		nation = 0
+	},
+	[528] = {
+		name = "聖地牙哥.改",
+		type = 1,
+		id = 528,
+		code = "聖地牙哥.改",
+		nation = 0
+	},
+	[10000] = {
+		name = "零戰五二型",
+		type = 2,
+		id = 10000,
+		code = "零戰五二型",
+		nation = 0
+	},
+	[10001] = {
+		name = "天山",
+		type = 2,
+		id = 10001,
+		code = "天山",
+		nation = 0
+	},
+	[10002] = {
+		name = "F6F地獄貓",
+		type = 2,
+		id = 10002,
+		code = "F6F地獄貓",
+		nation = 0
+	},
+	[10003] = {
+		name = "SB2C地獄俯衝者",
+		type = 2,
+		id = 10003,
+		code = "SB2C地獄俯衝者",
+		nation = 0
+	},
+	[10004] = {
+		name = "瑞雲",
+		type = 2,
+		id = 10004,
+		code = "瑞雲",
+		nation = 0
+	},
+	[10005] = {
+		name = "海毒牙",
+		type = 2,
+		id = 10005,
+		code = "海毒牙",
+		nation = 0
+	},
+	[10006] = {
+		name = "F6F地獄貓（HVAR搭載型）",
+		type = 2,
+		id = 10006,
+		code = "F6F地獄貓（HVAR搭載型）",
+		nation = 0
+	},
+	[10007] = {
+		name = "天山改",
+		type = 2,
+		id = 10007,
+		code = "天山改",
 		nation = 0
 	}
 }

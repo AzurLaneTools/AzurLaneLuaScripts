@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "加里波第阁下，你没事吧！",
+			say = "加里波底閣下，妳沒事吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没事，只是擦伤而已……你也小心！",
+			say = "沒事，只是擦傷而已……妳也小心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "真没想到居然会突然陷入苦战……",
+			say = "真沒想到居然會突然陷入苦戰……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "先不提没有远程武器的幽灵鸟，那些突然从海面上出现的幽灵船算什么啊？！",
+			say = "先不提沒有遠程武器的幽靈鳥，那些突然從海面上出現的幽靈船算什麼啊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "非常抱歉……我也被之前平静的海面所迷惑，有些放松警惕了。",
+			say = "非常抱歉……我也被之前平靜的海面所迷惑，有些放鬆警戒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "啊？你不需要道歉啊，现在的事态完全是由于我的鲁莽行动导致的。",
+			say = "啊？妳不需要道歉啊，現在的狀況完全是因為我的魯莽行動所導致的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "没关系，打不过就跑，准备撤退吧！",
+			say = "沒關係，打不過就跑，準備撤退吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "这个恐怕做不到……我们进来的入口已经消失，没有退路了。",
+			say = "這個恐怕做不到……我們進來的入口已經消失，沒有退路了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "欸？那就看看周围有什么能撤退的地方，总要先脱困才是啊！",
+			say = "欸？那就看看周圍有什麼能撤退的地方，總要先脫困才行啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……没办法了。加里波第阁下，接下来不论发生什么都不要停，我带你冲出去。",
+			say = "……沒辦法了。加里波底閣下，接下來不論發生什麼事都不要停，我帶妳衝出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "你在说什么啊，这种时候应该是我来保护你才对吧？你选个方向，我带你冲出去~",
+			say = "妳在說什麼啊，這種時候應該是我來保護妳才對吧？妳選個方向，我帶妳衝出去~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "……刚刚的炮击，来自天上？",
+			say = "……剛剛的炮擊，來自天上？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "加里波第与博尔扎诺抬起头，看向炮弹飞来的方向。",
+			say = "加里波底與波爾察諾抬起頭，看著炮彈飛來的方向。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "夜幕下，一支由飞空战舰组成的庞大舰队正缓缓从绿色云层中驶出。",
+			say = "夜幕下，一隻由飛空戰艦組成的龐大艦隊正緩緩從綠雲中駛出。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "由无数看似原始但威力巨大的火炮编制出的弹幕正向视野内的所有敌人倾泻着。",
+			say = "由無數看似原始但威力巨大的火炮編制出的彈幕正向視野內的所有敵人傾瀉著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "这些……究竟是什么？",
+			say = "這些……究竟是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "既然没攻击我们，那肯定是援军！",
+			say = "既然沒攻擊我們，那肯定是援軍！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……我们可没有如此怪异的飞空艇部队……究竟是从哪里冒出来的……",
+			say = "……我們可沒有如此怪異的飛空艇部隊……究竟是從哪裡冒出來的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "管它的！麻烦的事等把敌人消灭干净之后再想，我们也继续上吧！",
+			say = "管它的！麻煩的事等把敵人消滅乾淨之後再想，我們也繼續上吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

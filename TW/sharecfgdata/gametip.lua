@@ -23952,3 +23952,11 @@ _G.pg.base.gametip.equipcode_share_listempty = {
 _G.pg.base.gametip.equipcode_equip_occupied = {
 	tip = "被佔用"
 }
+
+_G.pg.base.gametip.cryptolalia_download_task_already_exists = {
+	tip = "$1密語正在下載中"
+}
+
+_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+	tip = "是否使用<color=#72bc42>$1鑽石</color>購買<color=#72bc42>$2</color>"
+}

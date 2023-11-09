@@ -718,42 +718,16 @@ pg.activity_template = {
 	},
 	[4462] = {
 		mark = 20231102,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 19,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4462,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4463] = {
 		mark = 20231102,
@@ -839,6 +813,557 @@ pg.activity_template = {
 				},
 				{
 					"SADINGDEYAOYUE7"
+				}
+			}
+		}
+	},
+	[4471] = {
+		mark = 20231109,
+		id = 4471,
+		title_res_tag = "yidaliV3_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 25,
+		config_data = {
+			1660001,
+			1660002,
+			1660003,
+			1660021,
+			1660022,
+			1660023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3MainPage",
+			ui_name = "YidaliV3MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4472] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4472,
+		config_data = {
+			1660004,
+			1660005,
+			1660006,
+			1660024,
+			1660025,
+			1660026,
+			1660041,
+			1660051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					10
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4473] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4473,
+		config_data = {
+			17815,
+			17816,
+			17817,
+			17818,
+			17819,
+			17820,
+			17821,
+			17822,
+			17823,
+			17824,
+			17825,
+			17826,
+			17827,
+			17828,
+			17829,
+			17830,
+			17831,
+			17832,
+			17833
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4474] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4474,
+		config_data = {
+			1665001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4475] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 271,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4475,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4476] = {
+		mark = 20231109,
+		id = 4476,
+		title_res_tag = "yidaliV3_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4476,
+		is_show = 19,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YidaliV3PtPage",
+			ui_name = "YidaliV3PtPage"
+		},
+		config_client = {
+			linkActID = 4476
+		}
+	},
+	[4477] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 4477,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "羅馬、李奧納多·達文西等角色建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>羅馬</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>李奧納多·達·文西</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>朱塞佩·加里波底</color>：0.5%",
+				" ",
+				"<color=#d797ff>阿爾弗雷多·奧里亞尼</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>博爾扎諾</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4478] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4478,
+		config_data = {
+			17814
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4479] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4479,
+		config_data = {
+			1780,
+			1781,
+			1782,
+			1783,
+			1784,
+			1785,
+			1786,
+			1787,
+			1788,
+			1789,
+			1790,
+			1791,
+			1792,
+			1793,
+			1794,
+			1795,
+			1796,
+			1797,
+			1798,
+			1799,
+			1800
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yidaliv3",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "zhusaipei_pt",
+			use_secretary = false,
+			pt_id = 271,
+			outline = {
+				0,
+				0,
+				0,
+				1
+			}
+		}
+	},
+	[4480] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31965,100}]",
+		config_client = "",
+		id = 4480,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4481] = {
+		mark = 20231109,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4481,
+		config_data = {
+			321,
+			322,
+			323,
+			324,
+			325,
+			326
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -36186,6 +36711,17 @@ pg.activity_template = {
 		4461,
 		4462,
 		4463,
+		4471,
+		4472,
+		4473,
+		4474,
+		4475,
+		4476,
+		4477,
+		4478,
+		4479,
+		4480,
+		4481,
 		4686,
 		4732,
 		4733,

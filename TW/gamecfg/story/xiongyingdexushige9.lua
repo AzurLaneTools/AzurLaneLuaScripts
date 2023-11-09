@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「人群向我发出了邀请。」",
+			say = "「群眾向我發出了邀請。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「来一同战斗么？加入这场为了新生的战斗。」",
+			say = "「來一同戰鬥嗎？加入這場為了新生的戰鬥。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我与罗穆路斯同行。」",
+			say = "「我與羅穆盧斯同行。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「敌人蜂拥而至。」",
+			say = "「敵人蜂擁而至。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「但是，有谁能阻止我们呢？」",
+			say = "「但是，有誰能阻止我們呢？」",
 			painting = {
 				alpha = 0.3,
 				time = 1

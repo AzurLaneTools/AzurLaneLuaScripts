@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第五日·维希教廷馆",
+			say = "博覽會第五日·維希教廷館",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息室内，福煦正在整理着这几日从会场中收集到的信息，霞飞则对着窗户思考着什么。",
+			say = "休息室內，福熙正在整理著這幾日從會場中收集到的資訊，霞飛則對著窗戶思考著什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "铁血代表团访问了重樱馆……白鹰与自由鸢尾进行了会谈。",
+			say = "鐵血代表團訪問了重櫻館……白鷹與自由鳶尾進行了會談。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "撒丁帝国与北方联合交往密切，东煌馆则每天都有人拜访……",
+			say = "薩丁帝國與北方聯合交往密切，東煌館則每天都有人拜訪……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "会场上还真是热闹。相比起来我们的大圣堂可就……冷清的有点厉害啊。",
+			say = "會場上還真是熱鬧。相比起來我們的大聖堂可就……冷清的有點厲害啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "冷清点也挺好……能少不少麻烦事。",
+			say = "冷清點也挺好……能少不少麻煩事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我们本次的任务就是呆在这里，仅此而已。",
+			say = "我們本次的任務就是待在這裡，僅此而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "就连整理这些资料也是不必要的，你在自己给自己增加工作哦。",
+			say = "就連整理這些資料也是不必要的，妳在自己給自己增加工作哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "啊哈哈……说的也是。不过我就是属于那种闲不下来的性格嘛。",
+			say = "啊哈哈……說的也是。不過我就是屬於那種閒不下來的個性嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "请进~",
+			say = "請進~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 901130,
-			say = "打扰了。北方联合的阿芙乐尔女士现在正在会客厅等待，说是有事情想与我们的代表商量。",
+			say = "打擾了。北方聯合的曙光女士現在正在會客廳等待，說是有事情想與我們的代表商量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "阿芙乐尔……？霞飞，你怎么看？",
+			say = "曙光……？霞飛，妳怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "没什么看法……既然都到会客厅了，一会直接问问她就是了。",
+			say = "沒什麼看法……既然都到會客廳了，等一下直接問她就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "那就是要见的意思咯~不屈，让她在会客厅稍候片刻，我们一会就到。",
+			say = "那就是要見的意思了~不屈，讓她在會客廳稍候片刻，我們等一下就到。",
 			painting = {
 				alpha = 0.3,
 				time = 1

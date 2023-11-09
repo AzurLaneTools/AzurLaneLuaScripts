@@ -82,7 +82,7 @@ function slot0.OnFlush(slot0, slot1)
 		SetActive(slot0.templateBtn, not LOCK_BACKYARD_TEMPLATE)
 
 		if not LOCK_BACKYARD_TEMPLATE then
-			pg.SystemGuideMgr.GetInstance():PlayBackYardThemeTemplate()
+			slot0:PlayBackYardThemeTemplate()
 			SetActive(slot0.templateBtn, slot2:IsMaxLevel() and slot0:IsInner())
 		end
 	end
@@ -94,6 +94,21 @@ function slot0.OnFlush(slot0, slot1)
 	end
 
 	slot0:UpdateFloor()
+end
+
+function slot0.PlayBackYardThemeTemplate(slot0)
+	if getProxy(DormProxy):getRawData():IsMaxLevel() and not pg.NewStoryMgr.GetInstance():GetPlayedFlag(90021) then
+		_BackyardMsgBoxMgr:Show({
+			modal = true,
+			hideNo = true,
+			hideClose = true,
+			content = i18n("open_backyard_theme_template_tip"),
+			weight = LayerWeightConst.TOP_LAYER
+		})
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = "NG0020"
+		})
+	end
 end
 
 function slot0.UpdateTrainBtn(slot0)

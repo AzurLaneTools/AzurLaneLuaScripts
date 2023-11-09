@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第四日·会场某处",
+			say = "博覽會第四日·會場某處",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……虽然你看起来成竹在胸的样子。不过请允许我提醒尊贵的{namecode:427}阁下——",
+			say = "……雖然妳看起來胸有成竹的樣子。不過請容許我提醒尊貴的歐根親王閣下——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "您就真的不担心会出什么问题么？",
+			say = "您就真的不擔心會出什麼問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "这是一场充满着爱与和平的世界博览会，哪里会有什么危险呢~",
+			say = "這是一場充滿愛與和平的世界博覽會，哪裡會有什麼危險呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……我当然不是说会有什么人能对她们造成危险，我是指……",
+			say = "……我當然不是說會有什麼人能對她們造成危險，我是指……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "放心放心，既然这么多人对我们的计划舰有兴趣，那就让她们一次性看个够好了~",
+			say = "放心放心，既然這麼多人對我們的計劃艦有興趣，那就讓她們一次性看個夠好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "这不是武力炫耀，而是成人之美哦。",
+			say = "這不是武力炫耀，而是成人之美哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "顺其自然也是一种成人之美嘛。",
+			say = "順其自然也是一種成人之美嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过还是感谢你的关心~",
+			say = "不過還是感謝妳的關心~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "不，你误会了。相比关心你，我更在意自己会不会被卷入她们引发的麻烦事件里。",
+			say = "不，妳誤會了。相較於關心妳，我更在意自己會不會被捲入她們引發麻煩的事件裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "哎，你看那边！刚从东煌馆里出来的那个人，是不是喀琅施塔得？！",
+			say = "哎，妳看那邊！剛從東煌館出來的那個人，是不是喀琅施塔得？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "看上去好像是她……你想干什么？",
+			say = "看上去好像是她……妳想幹嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "哼哼~这几天去北方联合馆好几次都没见到她人，终于让我抓到了吧。",
+			say = "哼哼~這幾天去北方聯合館好幾次都沒見到她人，終於讓我抓到了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "走吧，我们约她喝一杯去！",
+			say = "走吧，我們約她喝一杯去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……等等，就你的酒量我劝你还是不要……！",
+			say = "……等等，就妳的酒量我勸妳還是不要……！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊真是的——这些敌人怎么打都打不完啊！",
+			say = "啊真是的——這些敵人怎麼打都打不完！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "尤其是天上的那些大鸟真烦！虽然没有远程攻击手段，但是我们也没有舰载机去处理！",
+			say = "尤其是天上的那些大鳥真煩！雖然沒有遠程攻擊手段，但我們也沒有艦載機去處理！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "战况不妙……这么下去不是个办法，立刻寻找撤退路线！",
+			say = "戰況不妙……這麼下去不是辦法，立刻尋找撤退路線！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "西边的那个岛怎么样？周围没看到敌人，地表还被密林覆盖。",
+			say = "西邊的那個島怎麼樣？周圍沒看到敵人，地表還被密林覆蓋。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "只要能逃上去的话，幽灵舰队和幽灵鸟都拿我们没办法了。",
+			say = "只要能逃上去的話，幽靈艦隊和幽靈鳥都拿我們沒辦法了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那个位置……很不错！不过我们得首先突出眼前的重围才行！",
+			say = "那個位置……很不錯！不過我們得先突出眼前的重圍才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要逃跑的话，拉出足够的烟雾就行吧？就交给我吧——",
+			say = "要逃跑的話，拉出足夠的煙霧就行吧？就交給我吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达·芬奇浮出水面，向前方的水面抛出了某个物体。",
+			say = "達·文西浮出水面，向前方的水面拋出了某個物體。",
 			effects = {
 				{
 					active = true,
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "随即，海面上出现了一个巨大机械装置。",
+			say = "隨即，海面上出現了一個巨大機械裝置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "伴随着轰鸣声，大量烟雾开始向周围扩散，不一会儿便遮蔽了整片海域。",
+			say = "伴隨著轟鳴聲，大量煙霧開始向周圍擴散，沒一下子便遮蔽了整片海域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "就是现在，大家停止开火，抓紧时间撤退了！",
+			say = "就是現在，大家停止開火，抓緊時間退了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "借助烟雾的掩护，众人顺利逃入了岛上的密林中。",
+			say = "藉由煙霧的掩護，眾人順利逃入了島上的密林中。",
 			effects = {
 				{
 					active = false,
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "一段时间后，丢失目标的幽灵舰队重新归于虚无，幽灵雄鹰也重新汇聚成了天上的光带。",
+			say = "一段時間後，失去目標的幽靈艦隊重新歸於虛無，幽靈雄鷹也重新匯聚成了天上的光帶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呼……好险。这下总算安全了。",
+			say = "呼……好險。這下總算安全了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇，你刚才扔出去的是什么东西啊？",
+			say = "達·文西，妳剛才丟出去的是什麼東西啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "怎么突然变成了那么夸张的大机器！然后呼啦，整片海域就都被烟雾填满了！",
+			say = "怎麼突然變成那麼誇張的大機器了！然後呼啦，整片海域就都被煙霧填滿了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "简直就像什么魔法道具一样……",
+			say = "簡直就像什麼魔法道具……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个……我也不清楚。原本我准备的只是一个能发射烟雾的诱饵而已。",
+			say = "這個……我也不清楚。原本我準備的只是一個能發射煙霧的誘餌而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不过…………我好像有了一个想法，如果能验证的话……",
+			say = "不過…………我好像有了一個想法，如果能驗證的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "达·芬奇若有所思地取出一些备用零件，现场组装了一批小型飞行器。",
+			say = "達·文西若有所思地取出一些備用零件，現場組裝了一批小型飛行器。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你们快站到我的身后来！如果我的猜想是正确的话……",
+			say = "妳們快站到我的身後來！如果我的猜想是正確的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
-			say = "接下来就要有有趣的事发生了————",
+			say = "接下來就要有有趣的事發生了————",
 			painting = {
 				alpha = 0.3,
 				time = 1

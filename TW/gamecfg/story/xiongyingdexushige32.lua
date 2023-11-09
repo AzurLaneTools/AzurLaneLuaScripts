@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "异常镜面海域·水下",
+			say = "異常鏡面海域·水下",
 			bgm = "battle-roma-image",
 			flashout = {
 				black = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "随着深度的增加，来自水面的炮声也变得愈发沉闷与遥远。",
+			say = "隨著深度的增加，來自水面的炮聲也變得愈發沉悶與遙遠。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "藏得挺深啊……",
+			say = "藏得挺深啊…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "正常来说，被卷入这里的人肯定都会被水面上的大剧场所吸引至此。",
+			say = "正常來說，被捲入這裡的人一定都會被水面上的大劇場吸引至此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "就算发现了荆棘异常之处，也会在将其破坏之后离开吧，没人会特意来检查水下……",
+			say = "就算發現了荊棘異常之處，也會在將其破壞之後離開吧，沒人會特意來檢查水下……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "……当然，这可骗不过我。",
+			say = "……當然，這可騙不過我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "在不知道下潜了多久之后，一套巨大的装置进入了达·芬奇的视野。",
+			say = "在不知道下潛了多久之後，一套巨大的裝置進入了達·文西的視野。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "果然如此……真正的重要的东西其实藏在这里。",
+			say = "果然如此……真正的重要的東西其實藏在這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "看上去……这套装置的功能大概是提取信息与制造敌人……",
+			say = "看上去……這套裝置的功能大概是提取資訊與製造敵人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "看来真正的罗马大人就被困在这里。",
+			say = "看來真正的羅馬大人就被困在這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "因为被机器直接实时的读取了数据，才产生了水面上那个战斗力如此逼真的幽灵棋子……",
+			say = "因為被機器直接即時的讀取了數據，才產生了水面上那個戰鬥力如此逼真的幽靈棋子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "从结构判断……困住罗马大人的位置，应该还要再靠下一点么……",
+			say = "從結構判斷……困住羅馬大人的位置，應該還要再靠下一點嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "达·芬奇贴着传输管线向下移动，终于发现了一个由玻璃合围而成的透明舱室，在深海中散发着幽暗的微光。",
+			say = "達·文西貼著傳輸管線向下移動，終於發現了一個由玻璃包合圍而成的透明艙室，在深海中散發著幽暗的微光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "……罗马大人的位置发现！",
+			say = "……羅馬大人的位置發現！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "唔……如果要想从这里把罗马大人救出来的话……",
+			say = "嗯……如果要從這裡把羅馬大人救出來的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "需要解除部分舰装，还需要……嗯，手头的工具能行！",
+			say = "需要解除部分艦裝，還需要……嗯，手邊的工具能行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "罗马大人等着我，我来救您了！",
+			say = "羅馬大人等著我，我來救您了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_underwater",
 			actor = 608020,
 			nameColor = "#A9F548FF",
-			say = "呼~救援结束，罗马大人已经安全进入救援艇。",
+			say = "呼~救援結束，羅馬大人已經安全進入救援艇。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "虽然不确定这个机器和上面的大剧场哪个是真正的维持装置，不过炸了准没错。",
+			say = "雖然不確定這個機器和上面的大劇場哪個是真正的維持裝置，不過炸了準沒錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "让我看看需要的炸药量和安放位置————",
+			say = "讓我看看需要的炸藥量和安置位置————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "就在达·芬奇思考着如何炸掉眼前的巨大设施时，从下方更深的水下传来了一股猛烈的乱流。",
+			say = "就在達·文西思考著如何炸掉眼前的巨大設施時，從下方更深的水下傳來了一股猛烈的亂流。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "刚刚的冲击和声响是……从下面传上来的？！",
+			say = "剛剛的衝擊和聲響是……從下面傳上來的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "下面更深处难道还有东西？！",
+			say = "下面更深處難道還有東西？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "又是一阵冲击与轰鸣，不过这次袭击的方向来自于水面。",
+			say = "又是一陣衝擊與轟鳴，但這次攻擊的方向來自於水面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "看起来水面上庞大的大剧场终于在阿尔弗雷多舰队的炮击下土崩瓦解了。",
+			say = "看起來水面上龐大的大劇場終於在阿爾弗雷多艦隊的炮擊下土崩瓦解了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "不妙不妙不妙……被这么上下夹击，水下的环境已经乱成一团糟了！",
+			say = "不妙不妙不妙……被這麼上下夾擊，水下的環境已經亂成一團糟了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "……计划改变，这里还是先撤退好了！罗马大人的安危才是第一位的！",
+			say = "……計劃改變，這裡還是先撤退好了！羅馬大人的安危才是第一位的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "在湍急的水流中，达·芬奇努力维持着平衡向水面接近。与此同时，身边复杂的机械结构正以肉眼可见的速度瓦解着。",
+			say = "在湍急的水流中，達·文西努力維持著平衡向水面接近。同時，身邊複雜的機械結構正以肉眼可見的速度瓦解著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			actor = 608020,
-			say = "这下倒也省事了……罗马大人，再坚持一下，我们马上就能回家了！",
+			say = "這下倒也省事了……羅馬大人，再堅持一下，我們馬上就能回家了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "伴随着海面上的大剧场、亦或是海面下巨型装置的崩坏，所有幽灵船与幽灵雄鹰都在转瞬间失去了踪迹。",
+			say = "伴隨著海面上的大劇場、亦或是海面下巨型裝置的崩壞，所有幽靈船與幽靈雄鷹都在轉瞬間失去了蹤跡。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "早在达·芬奇与罗马彻底浮出水面之前，战斗就已经彻底结束了。",
+			say = "早在達·文西與羅馬徹底浮出水面之前，戰鬥就已經徹底結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 603050,
-			say = "看起来，镜面海域彻底解除也只是时间问题了……",
+			say = "看起來，鏡面海域徹底解除也只是時間問題了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 603050,
-			say = "罗马大人，您还好么？",
+			say = "羅馬大人，您還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "我这是…………",
+			say = "我這是…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "我好像做了一场漫长的梦…………",
+			say = "我好像做了一場漫長的夢…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 602020,
-			say = "您没事就太好啦！不过罗马大人，您的手上拿的是……？",
+			say = "您沒事就太好了！不過羅馬大人，您的手上拿的是……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "在众人疑惑地注视下，罗马抬起右手，看了看紧握在手中的地砖模样的东西。",
+			say = "在眾人疑惑地注視下，羅馬抬起右手，看了看緊握在手中的地磚模樣的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "地砖上裂纹密布。并且伴随着镜面海域的瓦解，密布的裂纹还在更加迅猛地扩散着。",
+			say = "地磚上裂紋密布。而伴隨著鏡面海域的瓦解，密布的裂痕還在更加迅猛地擴散著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "这个是，似乎被塞壬换掉的亚历山大图书馆地砖仿品……",
+			say = "這個是，似乎被塞壬換掉的亞歷山大圖書館地磚仿品……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "果然与此次异常事态有关么……",
+			say = "果然與此異常事態有關嗎…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "嚯嚯嚯~阿尔弗雷多舰队，安全着陆！罗马大人您还好么！",
+			say = "嚯嚯嚯~阿爾弗雷多艦隊，安全降落！羅馬大人您還好嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "你带来的那些东西是……？",
+			say = "妳帶來的那些東西是……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "这些都是达·芬奇弄出来的飞空战舰哦，可厉害了！",
+			say = "這些都是達·文西弄出來的飛空戰艦哦，可厲害了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "之前我们开着它们在天上和幽灵鸟大战了三百回合呢！",
+			say = "之前我們開著它們在天上和幽靈鳥大戰了三百回合呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……听起来还真是个，精彩的故事。",
+			say = "……聽起來還真是個精彩的故事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -868,7 +868,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "咦？达·芬奇，你为什么要躺在地上呀？",
+			say = "咦？達·文西，為什麼要躺在地上呀？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 608020,
-			say = "那当然是因为……我已经，累坏了……！",
+			say = "那當然是因為……我已經，累壞了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,7 +900,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "欸——可是现在还不是休息的时候哦！",
+			say = "欸——可是現在還不是休息的時候！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -916,7 +916,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔弗雷多架起相机，设置好定时拍照后一路小跑到达·芬奇身边，用手强行把她拉了起来。",
+			say = "阿爾弗雷多架起相機，設定好定時拍照後一路小跑步到達·文西身邊，用手強行把她拉了起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -932,7 +932,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "任务完成之后，小队成员当然要进行胜利的合照啦！",
+			say = "任務完成之後，小隊成員當然要進行勝利的合照！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 601080,
-			say = "还有3秒！达·芬奇、佩萨格诺，快摆个手势什么的！",
+			say = "還有3秒！達·文西、佩薩格諾，快擺個手勢什麼的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			bgName = "bg_roma_11",
 			side = 2,
 			actor = 608020,
-			say = "唉……真拿你没办法！",
+			say = "唉……真拿妳沒辦法！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩格萨诺略带疑惑地回过头，达·芬奇则突然起身勾住阿尔弗雷多的脖子，用另一只手比出了“V”。",
+			say = "佩格薩諾略帶疑惑地回過頭，達·文西則突然起身勾住阿爾弗雷多的脖子，用另一隻手比出了「V」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "嘿嘿嘿，阿尔弗雷多队，任务圆满完成，该回家咯！",
+			say = "嘿嘿嘿，阿爾弗雷多隊，任務圓滿完成，該回家了！",
 			flashout = {
 				dur = 0.5,
 				alpha = {

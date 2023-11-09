@@ -350,6 +350,15 @@ pg.login = {
 			}
 		}
 	},
+	[24] = {
+		id = 24,
+		login_static = "login",
+		date = "stop",
+		op_play = 0,
+		op_time = "",
+		login_cri = "loginbg_230401",
+		bgm = "login-2022401jp"
+	},
 	[1001] = {
 		id = 1001,
 		op_play = 1,
@@ -478,15 +487,6 @@ pg.login = {
 		op_time = "stop",
 		login_cri = "",
 		bgm = ""
-	},
-	[24] = {
-		id = 24,
-		login_static = "login",
-		date = "stop",
-		op_play = 0,
-		op_time = "",
-		login_cri = "loginbg_230401",
-		bgm = "login-2022401jp"
 	},
 	[1004] = {
 		id = 1004,
@@ -627,6 +627,66 @@ pg.login = {
 		login_cri = "",
 		bgm = ""
 	},
+	[1011] = {
+		id = 1011,
+		op_play = 1,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2023,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -638,16 +698,17 @@ pg.login = {
 		9,
 		10,
 		12,
+		24,
 		1001,
 		1002,
 		1003,
-		24,
 		1004,
 		1005,
 		1006,
 		1007,
 		1008,
 		1009,
-		1010
+		1010,
+		1011
 	}
 }

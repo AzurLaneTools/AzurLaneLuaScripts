@@ -48,7 +48,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走在队伍前方的阿尔弗雷多不断按动着快门，相机的闪光灯在昏暗的海域中如同灯塔般显眼。",
+			say = "走在隊伍前方的阿爾弗雷多不斷按動著快門，相機的閃光燈在昏暗的海域中如同燈塔般顯眼。",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呼呼呼，我已经发现这片镜面海域的一个秘密了！",
+			say = "呼呼呼，我已經發現這片鏡面海域的一個秘密了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你们看天上的光带，那些其实不是极光，而是很多很多的绿色雄鹰哦！",
+			say = "妳們看天上的光帶，那些其實不是極光，而是很多很多的綠色雄鷹哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "之前皇家的雅努斯和那个自称调查员看到的绿色幽灵应该就是这些东西了！",
+			say = "之前皇家的雅努斯和那位自稱調查員看到的綠色幽靈應該就是這些東西了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如此庞大的光带居然是由无数透明的绿色雄鹰构成的啊，真是太壮观了……",
+			say = "如此龐大的光帶居然是由無數透明的綠色雄鷹構成的啊，真是太壯觀了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "但是不对啊……镜面海域中的投影为什么能跑到外面去……",
+			say = "但是不對啊……鏡面海域中的投影為什麼能跑到外面去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "难道说这些不是单纯的光与影……而是拥有实体的……",
+			say = "難道說這些不是單純的光與影……而是擁有實體的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓————光带就先拍到这里好了。",
+			say = "咔嚓————光帶就先拍到這裡好了。",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "接下来找一找特写镜头……这个拍得好的话说不定能得奖啊……",
+			say = "接下來找一找特寫鏡頭……這個拍的好的話說不定能得獎啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦，发现了一只落单的雄鹰！那就用这个角度————",
+			say = "哇哦，發現了一隻落單的雄鷹！那就用這個角度吧————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "阿尔弗雷多将镜头对准天空，打开了连拍模式。",
+			say = "阿爾弗雷多將鏡頭對準天空，開啟了連拍模式。",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "连续闪烁的闪光灯吸引了天空中正在巡逻的雄鹰，使其转变方向，向着水面俯冲而来。",
+			say = "連續閃爍的閃光燈吸引了天空中正在巡邏的雄鷹，使其轉變方向，向著水面俯衝而來。",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "不好，阿尔弗雷多快躲开！这些鹰是敌人！",
+			say = "不好，阿爾弗雷多快躲開！這些鷹是敵人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "在千钧一发之际，佩萨格诺开火命中了俯冲而来的雄鹰。",
+			say = "在千鈞一髮之際，佩薩格諾開火命中了俯衝而來的雄鷹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好、好险……可恶，亏我还在给你拍照啊！",
+			say = "好、好險……可惡，虧我還在幫你拍照啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "真是太过分了！怎么可以袭击记者呢！果然镜面海域里就没什么好东西！",
+			say = "真是太過分了！怎麼可以襲擊記者呢！果然鏡面海域裡就沒什麼好東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "一击……没能彻底消灭。",
+			say = "一擊……沒能徹底消滅。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "小心……更多的敌人飞过来了！",
+			say = "小心……更多的敵人飛過來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "海域中狂风突起，借助风势，被命中的雄鹰飞入高空重整架势。",
+			say = "海域中狂風突起，藉助風勢，被命中的雄鷹飛入高空重整架勢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "天上的光带散开为无数光点，空旷的海面上也出现了许多宛如幽灵船一般的敌人。",
+			say = "天上的光帶散開為無數光點，空曠的海面上也出現了許多宛如幽靈船一般的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这、这都是些什么啊？！幽灵雄鹰和幽灵船？！",
+			say = "這、這都是些什麼啊？！幽靈雄鷹和幽靈船？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——这场景拍下来绝对能得奖！",
+			say = "咔嚓——這場景拍下來絕對能得獎！",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "凭空出现了宛如投影的实体，究竟是什么原理呢……好在意。",
+			say = "憑空出現了宛如的投影實體，究竟是什麼原理呢……好在意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "达·芬奇，阿尔弗雷多……我觉得现在……不是思考和拍照的时候。",
+			say = "達·文西，阿爾弗雷多……我覺得現在……不是思考和拍照的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "啊对哦！大家注意，准备迎战！",
+			say = "啊對哦！大家注意，準備迎戰！",
 			painting = {
 				alpha = 0.3,
 				time = 1

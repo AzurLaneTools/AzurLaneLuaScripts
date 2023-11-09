@@ -3549,6 +3549,72 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_320_3_1",
 		"ins_op_320_1_1",
 		"op_reply_320_1_1",
+		"ins_321",
+		"ins_discuss_321_1",
+		"ins_reply_321_1_1",
+		"ins_reply_321_1_2",
+		"ins_discuss_321_2",
+		"ins_reply_321_2_1",
+		"ins_reply_321_2_2",
+		"ins_discuss_321_3",
+		"ins_reply_321_3_1",
+		"ins_op_321_1_1",
+		"op_reply_321_1_1",
+		"ins_op_321_1_2",
+		"op_reply_321_1_2",
+		"ins_322",
+		"ins_discuss_322_1",
+		"ins_reply_322_1_1",
+		"ins_reply_322_1_2",
+		"ins_discuss_322_2",
+		"ins_reply_322_2_1",
+		"ins_reply_322_2_2",
+		"ins_discuss_322_3",
+		"ins_reply_322_3_1",
+		"ins_reply_322_3_2",
+		"ins_reply_322_3_3",
+		"ins_op_322_1_1",
+		"op_reply_322_1_1",
+		"ins_323",
+		"ins_discuss_323_1",
+		"ins_reply_323_1_1",
+		"ins_reply_323_1_2",
+		"ins_reply_323_1_3",
+		"ins_discuss_323_2",
+		"ins_reply_323_2_1",
+		"ins_reply_323_2_2",
+		"ins_reply_323_2_3",
+		"ins_op_323_1_1",
+		"op_reply_323_1_1",
+		"ins_324",
+		"ins_discuss_324_1",
+		"ins_reply_324_1_1",
+		"ins_discuss_324_2",
+		"ins_reply_324_2_1",
+		"ins_reply_324_2_2",
+		"ins_reply_324_2_3",
+		"ins_op_324_1_1",
+		"op_reply_324_1_1",
+		"ins_325",
+		"ins_discuss_325_1",
+		"ins_reply_325_1_1",
+		"ins_discuss_325_2",
+		"ins_reply_325_2_1",
+		"ins_reply_325_2_2",
+		"ins_reply_325_2_3",
+		"ins_reply_325_2_4",
+		"ins_discuss_325_3",
+		"ins_reply_325_3_1",
+		"ins_op_325_1_1",
+		"op_reply_325_1_1",
+		"ins_326",
+		"ins_discuss_326_1",
+		"ins_reply_326_1_1",
+		"ins_discuss_326_2",
+		"ins_reply_326_2_1",
+		"ins_reply_326_2_2",
+		"ins_op_326_1_1",
+		"op_reply_326_1_1",
 		"ins_327",
 		"ins_discuss_327_1",
 		"ins_reply_327_1_1",
@@ -14431,6 +14497,204 @@ pg.base.activity_ins_language = {
 	op_reply_320_1_1 = {
 		value = "主人也在背後默默幫了許多忙吧，您也辛苦了。"
 	},
+	ins_321 = {
+		value = ""
+	},
+	ins_discuss_321_1 = {
+		value = ""
+	},
+	ins_reply_321_1_1 = {
+		value = ""
+	},
+	ins_reply_321_1_2 = {
+		value = ""
+	},
+	ins_discuss_321_2 = {
+		value = ""
+	},
+	ins_reply_321_2_1 = {
+		value = ""
+	},
+	ins_reply_321_2_2 = {
+		value = ""
+	},
+	ins_discuss_321_3 = {
+		value = ""
+	},
+	ins_reply_321_3_1 = {
+		value = ""
+	},
+	ins_op_321_1_1 = {
+		value = ""
+	},
+	op_reply_321_1_1 = {
+		value = ""
+	},
+	ins_op_321_1_2 = {
+		value = ""
+	},
+	op_reply_321_1_2 = {
+		value = ""
+	},
+	ins_322 = {
+		value = ""
+	},
+	ins_discuss_322_1 = {
+		value = ""
+	},
+	ins_reply_322_1_1 = {
+		value = ""
+	},
+	ins_reply_322_1_2 = {
+		value = ""
+	},
+	ins_discuss_322_2 = {
+		value = ""
+	},
+	ins_reply_322_2_1 = {
+		value = ""
+	},
+	ins_reply_322_2_2 = {
+		value = ""
+	},
+	ins_discuss_322_3 = {
+		value = ""
+	},
+	ins_reply_322_3_1 = {
+		value = ""
+	},
+	ins_reply_322_3_2 = {
+		value = ""
+	},
+	ins_reply_322_3_3 = {
+		value = ""
+	},
+	ins_op_322_1_1 = {
+		value = ""
+	},
+	op_reply_322_1_1 = {
+		value = ""
+	},
+	ins_323 = {
+		value = ""
+	},
+	ins_discuss_323_1 = {
+		value = ""
+	},
+	ins_reply_323_1_1 = {
+		value = ""
+	},
+	ins_reply_323_1_2 = {
+		value = ""
+	},
+	ins_reply_323_1_3 = {
+		value = ""
+	},
+	ins_discuss_323_2 = {
+		value = ""
+	},
+	ins_reply_323_2_1 = {
+		value = ""
+	},
+	ins_reply_323_2_2 = {
+		value = ""
+	},
+	ins_reply_323_2_3 = {
+		value = ""
+	},
+	ins_op_323_1_1 = {
+		value = ""
+	},
+	op_reply_323_1_1 = {
+		value = ""
+	},
+	ins_324 = {
+		value = ""
+	},
+	ins_discuss_324_1 = {
+		value = ""
+	},
+	ins_reply_324_1_1 = {
+		value = ""
+	},
+	ins_discuss_324_2 = {
+		value = ""
+	},
+	ins_reply_324_2_1 = {
+		value = ""
+	},
+	ins_reply_324_2_2 = {
+		value = ""
+	},
+	ins_reply_324_2_3 = {
+		value = ""
+	},
+	ins_op_324_1_1 = {
+		value = ""
+	},
+	op_reply_324_1_1 = {
+		value = ""
+	},
+	ins_325 = {
+		value = ""
+	},
+	ins_discuss_325_1 = {
+		value = ""
+	},
+	ins_reply_325_1_1 = {
+		value = ""
+	},
+	ins_discuss_325_2 = {
+		value = ""
+	},
+	ins_reply_325_2_1 = {
+		value = ""
+	},
+	ins_reply_325_2_2 = {
+		value = ""
+	},
+	ins_reply_325_2_3 = {
+		value = ""
+	},
+	ins_reply_325_2_4 = {
+		value = ""
+	},
+	ins_discuss_325_3 = {
+		value = ""
+	},
+	ins_reply_325_3_1 = {
+		value = ""
+	},
+	ins_op_325_1_1 = {
+		value = ""
+	},
+	op_reply_325_1_1 = {
+		value = ""
+	},
+	ins_326 = {
+		value = ""
+	},
+	ins_discuss_326_1 = {
+		value = ""
+	},
+	ins_reply_326_1_1 = {
+		value = ""
+	},
+	ins_discuss_326_2 = {
+		value = ""
+	},
+	ins_reply_326_2_1 = {
+		value = ""
+	},
+	ins_reply_326_2_2 = {
+		value = ""
+	},
+	ins_op_326_1_1 = {
+		value = ""
+	},
+	op_reply_326_1_1 = {
+		value = ""
+	},
 	ins_327 = {
 		value = "外皮的酥脆與鯛魚的鮮嫩在口中一同爆發，果然是令人陶醉的極上之美味…！"
 	},
@@ -14780,127 +15044,127 @@ pg.base.activity_ins_language = {
 		value = "一點也不辛苦哦？反而還被治癒了呢～"
 	},
 	ins_338 = {
-		value = ""
+		value = "這下你們也是“會魔法的貓”了~"
 	},
 	ins_discuss_338_1 = {
-		value = ""
+		value = "小傢伙們都很可愛呢！"
 	},
 	ins_reply_338_1_1 = {
-		value = ""
+		value = "參加活動的時候，有這些孩子們一起…就比較不會緊張了，大概…"
 	},
 	ins_reply_338_1_2 = {
-		value = ""
+		value = "哦哦，加油啊雅努斯！"
 	},
 	ins_discuss_338_2 = {
-		value = ""
+		value = "小心，小貓咪們太興奮的話，可是會控制不住的哦。"
 	},
 	ins_reply_338_2_1 = {
-		value = ""
+		value = "大家都是乖孩子，應、應該不會的吧……？"
 	},
 	ins_discuss_338_3 = {
-		value = ""
+		value = "Nice貓耳！呼呼，皇家全員貓耳化計劃推進得很順利呀~"
 	},
 	ins_reply_338_3_1 = {
-		value = ""
+		value = "欸？雖然不太明白，總、總之雅努斯會努力的？"
 	},
 	ins_op_338_1_1 = {
-		value = ""
+		value = "會放什麼魔法呢？"
 	},
 	op_reply_338_1_1 = {
-		value = ""
+		value = "嗯……讓人覺得可愛的魔法……？"
 	},
 	ins_339 = {
-		value = ""
+		value = "今天的阿爾比恩是“後輩惡魔”哦？"
 	},
 	ins_discuss_339_1 = {
-		value = ""
+		value = "嗯？ “後輩惡魔”是……？"
 	},
 	ins_reply_339_1_1 = {
-		value = ""
+		value = "每個遇到的人都是阿爾比恩的前輩，所以是“後輩惡魔”哦，半人馬前輩。"
 	},
 	ins_reply_339_1_2 = {
-		value = ""
+		value = "原、原來如此… 啊，不用叫我”前輩“的，總覺得怪怪的……"
 	},
 	ins_reply_339_1_3 = {
-		value = ""
+		value = "好的，半人馬前輩~"
 	},
 	ins_discuss_339_2 = {
-		value = ""
+		value = "哦哦？這樣的話，無論對誰都能理直氣壯地惡作劇或者要糖果了呢！"
 	},
 	ins_reply_339_2_1 = {
-		value = ""
+		value = "雖然感覺“前輩”和“長輩”還是不太一樣，不過…既然都這麼說了，阿貝克隆比前輩，trick or treat！"
 	},
 	ins_reply_339_2_2 = {
-		value = ""
+		value = "唔？！居然中計了！？"
 	},
 	ins_op_339_1_1 = {
-		value = ""
+		value = "萬聖節的裝扮？"
 	},
 	op_reply_339_1_1 = {
-		value = ""
+		value = "是正式的萬聖節裝扮哦，指揮官“前輩”。"
 	},
 	ins_340 = {
-		value = ""
+		value = "啊哈哈，好像搞砸了呢……"
 	},
 	ins_discuss_340_1 = {
-		value = ""
+		value = "是在…煉製什麼魔藥嗎？"
 	},
 	ins_reply_340_1_1 = {
-		value = ""
+		value = "唔，如果我說這是在做南瓜粥，妳會相信我嗎……？"
 	},
 	ins_reply_340_1_2 = {
-		value = ""
+		value = "是……叫做“南瓜粥”的特別魔藥嗎？"
 	},
 	ins_reply_340_1_3 = {
-		value = ""
+		value = "哎，就當作是吧！"
 	},
 	ins_discuss_340_2 = {
-		value = ""
+		value = "所以才和妳說廚房的事交給別人就好……"
 	},
 	ins_reply_340_2_1 = {
-		value = ""
+		value = "哎呀~人總是要挑戰一下自己的嘛~"
 	},
 	ins_reply_340_2_2 = {
-		value = ""
+		value = "哈啊…妳等一下，我去陪妳一起收拾吧。"
 	},
 	ins_reply_340_2_3 = {
-		value = ""
+		value = "嗚…謝謝妳格羅斯特！"
 	},
 	ins_op_340_1_1 = {
-		value = ""
+		value = "相當……特別的顏色呢。"
 	},
 	op_reply_340_1_1 = {
-		value = ""
+		value = "說、說不定喝一口能有什麼奇效？ …對不起我開玩笑的……"
 	},
 	ins_341 = {
-		value = ""
+		value = "南瓜大炮，發射！"
 	},
 	ins_discuss_341_1 = {
-		value = ""
+		value = "哈哈！在萬聖夜以南瓜炮彈一決勝負，好像挺不錯！"
 	},
 	ins_reply_341_1_1 = {
-		value = ""
+		value = "哦哦，燃起來啦！"
 	},
 	ins_discuss_341_2 = {
-		value = ""
+		value = "雖然感覺萬聖夜應該不是這樣的，不過算了，這樣好像也挺刺激的！"
 	},
 	ins_reply_341_2_1 = {
-		value = ""
+		value = "嘿嘿，熱熱鬧鬧的多好~"
 	},
 	ins_discuss_341_3 = {
-		value = ""
+		value = "南瓜啊……要是能炸成糖果雨多好……"
 	},
 	ins_reply_341_3_1 = {
-		value = ""
+		value = "唔？好像也不是不能試試？"
 	},
 	ins_reply_341_3_2 = {
-		value = ""
+		value = "欸？真的可以嗎？"
 	},
 	ins_op_341_1_1 = {
-		value = ""
+		value = "南瓜炮擊戰，似乎很值得期待。"
 	},
 	op_reply_341_1_1 = {
-		value = ""
+		value = "哈哈，果然指揮官也覺得這個很棒吧！"
 	},
 	ins_342 = {
 		value = "嗯哼，要放點什麼材料好呢~"

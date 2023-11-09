@@ -385,13 +385,13 @@ function slot0.getSkills(slot0)
 end
 
 function slot0.getFleetType(slot0)
-	if slot0.id == uv0.MAIN_FLEET_ID then
+	if slot0.id == GuildBossMission.MAIN_FLEET_ID then
 		return FleetType.Normal
-	elseif slot0.id == uv0.SUB_FLEET_ID then
+	elseif slot0.id == GuildBossMission.SUB_FLEET_ID then
 		return FleetType.Submarine
 	end
 
-	assert(false)
+	assert(false, slot0.id)
 end
 
 function slot0.BuildBattleBuffList(slot0)

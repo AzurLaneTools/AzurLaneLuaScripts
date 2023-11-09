@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「帝国正在衰亡。」",
+			say = "「帝國正在衰亡。」",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在盲目中寻求混乱。」",
+			say = "「在盲目中尋求混亂。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「在混乱中寻求救赎。」",
+			say = "「在混亂中尋求救贖。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「盛极而衰，此乃万物之理。」",
+			say = "「盛極而衰，此乃萬物之理。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我本是知晓的，我本想避免的。」",
+			say = "「我本是知曉的，我本想避免的。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「然而，交汇的命运正在分离。」",
+			say = "「然而，交匯的命運正在分離。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「纵使漫天雄鹰，已无人注视。」",
+			say = "「縱使漫天雄鷹，已無人注視。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「纵使呐喊悲呼，亦无人聆听。」",
+			say = "「縱使吶喊悲呼，亦無人聆聽。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「一个破碎的帝国，这就是仅有的答案么？」",
+			say = "「一個破碎的帝國，這就是僅有的答案嗎？」",
 			painting = {
 				alpha = 0.3,
 				time = 1

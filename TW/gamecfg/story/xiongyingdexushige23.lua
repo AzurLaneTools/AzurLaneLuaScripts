@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「帝国已然行将就木，我亦如此。」",
+			say = "「帝國已然行將就木，我亦如此。」",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不再哭泣，因为泪已流尽。」",
+			say = "「我不再哭泣，因為淚已流盡。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不再言语，因为喉已沙哑。」",
+			say = "「我不再言語，因為喉已沙啞。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「然而，废墟之中，有声音再次呼唤了我的名字。」",
+			say = "「然而，廢墟之中，有聲音再次呼喚了我的名字。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「那个声音是如此微弱，以至于我几乎无法察觉。」",
+			say = "「那個聲音是如此微弱，以至於我幾乎無法察覺。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「声音阐述着它的理想与信念。」",
+			say = "「聲音闡述著它的理想與信念。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「如同黑暗中的烛火，为无尽冬日带来了些许温暖。」",
+			say = "「如同黑暗中的燭火，為無盡冬日帶來了些許溫暖。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「你的祈愿，罗马已经听到。」",
+			say = "「你的祈願，羅馬已經聽到。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「快点成长为燎原烈火，为帝国带来新生吧——」",
+			say = "「快點成長為燎原烈火，為帝國帶來新生吧——」",
 			painting = {
 				alpha = 0.3,
 				time = 1

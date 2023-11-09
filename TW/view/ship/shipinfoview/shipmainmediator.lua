@@ -289,9 +289,9 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.ON_META, function ()
+	slot0:bind(uv0.ON_META, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER, {
-			autoOpenShipConfigID = uv1.configId
+			autoOpenShipConfigID = slot1.configId
 		})
 	end)
 	slot0:bind(uv0.OPEN_EQUIP_CODE, function (slot0, slot1)

@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "海面上的敌人已经消灭殆尽，空中仅存的幽灵雄鹰也在这一轮齐射中化为了虚无。",
+			say = "海面上的敵人已經消滅殆盡，空中僅存的幽靈雄鷹也在這一輪齊射中化為了虛無。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "…………战斗，结束了？",
+			say = "…………戰鬥，結束了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "哟~两位都还好吧？",
+			say = "喲~兩位都還好吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "我们都没大事哦，感谢及时支援！",
+			say = "我們都沒事哦，感謝及時支援！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "阿尔弗雷多……你是从哪里弄来这么一支小说里才会存在的奇怪舰队的……",
+			say = "阿爾弗雷多……妳是從哪裡弄來這麼一隻小說裡才會存在的奇怪艦隊的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这些都是达·芬奇弄出来的，我也不是很清楚！",
+			say = "這些都是達·文西弄出來的，我也不是很清楚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "哼哼~其实，这个东西的原理是————",
+			say = "哼哼~其實，這個東西的原理是————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "大家都明白了么！",
+			say = "大家都明白了！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "我也是……不过现状我已经清楚了。",
+			say = "我也是……不過現狀我已經清楚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "与我和加里波第阁下此前推测的结论一致，海域中那座大的离谱的大剧场明显有问题。",
+			say = "與我和加里波底閣下先前推測的結論一致，海域中那座大的離譜的大劇場明顯有問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "只要到达那里，大概就能找到破坏镜面海域的方法了。",
+			say = "只要到達那裡，大概就能找到破壞鏡面海域的方法了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "先一步被困在此处的罗马大人恐怕也能得出相同的结论……",
+			say = "先一步被困在此處的羅馬大人恐怕也得能得出相同的結論…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "那么说来，我们可能在前往中心的路上就能遇到她？",
+			say = "那麼說來，我們可能在前往中心的路上就能遇到她？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "可能性很高。就是希望我们能够赶在她遇到危险之前与她汇合……",
+			say = "可能性很高。就是希望我們能夠趕在她遇到危險之前與她匯合……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "那接下来就是全速赶路的时间了~",
+			say = "那接下來就是全速趕路的時間了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "你们要不要一起上来？这个战舰其实飞得很快哦！",
+			say = "妳們要不要一起上來？這個戰艦其實飛得很快哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "我很有兴趣！",
+			say = "我很有興趣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "……其实我也有些兴趣。不过，如果我们全坐上飞空战舰的话，就等于放弃了水面战场。",
+			say = "……其實我也有些興趣。不過，如果我們全坐上飛空戰艦的話，就等於放棄水面戰場了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "飞空战舰上下不便。如果在前方遭遇敌人的密集火力，我们可能不会有平安降落的机会。",
+			say = "飛空戰艦上下不便。如果在前方遭遇敵人的密集火力，我們可能不會有平安降落的機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "唔……说的有道理，如果被四面八方一起攻击的话，就算被击落的概率也很高……",
+			say = "嗯……說的有道理，如果被四面八方一起攻擊的話，就算被擊落的機率也很高……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "那我们就先不上去啦，还是现在这样从空中和水面相互掩护的队形更好。",
+			say = "那我們就先不上去啦，還是現在這樣從空中和水面互相掩護的隊形比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "嘿嘿……明明刚才还在头疼制空问题，没想到居然会以这种方式解决。",
+			say = "嘿嘿……明明剛才還在頭痛制空問題，沒想到居然會以這種方式解決。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 602020,
-			say = "飞空战舰对战幽灵雄鹰，感觉越来越有趣了~",
+			say = "飛空戰艦對戰幽靈雄鷹，感覺越來越有趣了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

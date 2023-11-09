@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "撒丁大剧场·地下仓库",
+			say = "薩丁大劇場·地下倉庫",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "本日未被展出的皇家文物都存放在这里。",
+			say = "本日未被展出的皇家文物都存放在這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "让我看看，异常气息的源头————",
+			say = "讓我看看，異常氣息的源頭————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "是在这个柜子里么？！",
+			say = "是在這個櫃子裡嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马突然揭开面前某个收纳箱的防尘布，玻璃后的展品漏了出来。",
+			say = "羅馬突然揭開面前某個收納箱的防塵布，玻璃後的展品漏了出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "这个是…………亚历山大图书馆的地砖？",
+			say = "這個是…………亞歷山卓圖書館的地磚？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "我记得是在不久前的亚历山大港考古中发现的，然后被送到了皇家帝国博物馆……",
+			say = "我記得是在不久前的亞歷山卓港考古中發現的，然後被送到了皇家帝國博物館……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "现在这么着急用仿品来参展，是想炫耀对于罗马的征服么，还是对于罗马的蔑视呢……",
+			say = "現在這麼急著用仿品來參展，是想炫耀對於羅馬的征服嗎，還是對於羅馬的蔑視呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "不论哪种都令人不快就是了。",
+			say = "不論哪一種都令人不快就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马从展示柜中拿出了亚历山大图书馆地砖的仿品，将其放在手中细细观察着。",
+			say = "羅馬從展示櫃中拿出了亞歷山卓圖書館地磚的仿品，將其放在手中細細觀察著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "这个地砖果然不对劲……",
+			say = "這個地磚果然不對勁……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "虽然外表的仿制无可挑剔，不过其内部的构造就……",
+			say = "雖然外表的仿製無可挑剔，不過其內部的構造就…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "不知为何，在一瞬间，罗马的心中产生了自己手里正拿着某个尖端科技造物的错觉。",
+			say = "不知為何，在一瞬間，羅馬的心中產生了手裡正拿著某個尖端科技造物的錯覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "奇怪……这块地砖前几天跟皇家展品一起送来的时候我就检查过，当时并没有这种感觉。",
+			say = "奇怪……這塊地磚前幾天跟皇家展品一起送來的時候我就檢查過，當時並沒有這種感覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "难道是展品在被送到这里之后又被什么人换掉了么？",
+			say = "難道是展品在被送到這裡之後又被什麼人換掉了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "可是原本送来的就是仿品，用仿品换仿品究竟有什么意义……",
+			say = "可是原本送來的就是仿品，用仿品換仿品究竟有什麼意義……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "陷入沉思的罗马闭上双眼，下意识用手抚摸着这块有些奇怪的地砖。",
+			say = "陷入沉思的羅馬閉上雙眼，下意識用手撫摸著這塊有些奇怪的地磚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "她仿佛看到了亚历山大灯塔散发出的光辉，图书馆中漫天飞舞的莎草纸，骏马掀起的扬尘与高架渠带来的水雾。",
+			say = "她彷彿看到了亞歷山卓燈塔散發出的光輝，圖書館中漫天飛舞的莎草紙，駿馬掀起的揚塵與高架渠帶來的水霧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "光辉……扬尘与水雾…………？！",
+			say = "光輝……揚塵與水霧…………？！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_roma_5",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马睁开了双眼。",
+			say = "羅馬睜開了雙眼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "我现在，究竟身处何方……？",
+			say = "我現在，究竟身處何方……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

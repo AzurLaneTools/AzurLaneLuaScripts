@@ -71,6 +71,7 @@ function slot0.Common(slot0, slot1)
 
 		uv0:Hide()
 	end, SFX_PANEL)
+	setActive(slot0.cancelBtn, not slot1.hideNo)
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.TOP_LAYER

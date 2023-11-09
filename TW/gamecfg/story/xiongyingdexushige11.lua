@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「日月轮转，沧海桑田。」",
+			say = "「日月輪轉，滄海桑田。」",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不清楚在此处呆了多久。」",
+			say = "「我不清楚在此處待了多久。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「胜利接着胜利，凯旋接着凯旋。」",
+			say = "「勝利接著勝利，凱旋接著凱旋。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我来，我见，我征服。」",
+			say = "「我來，我見，我征服。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「号角已经吹响，军团已经集结。」",
+			say = "「號角已經吹響，軍團已經集結。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「共和国的凯撒正在等待。」",
+			say = "「共和國的凱撒正在等待。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「是时候再次出征了——」",
+			say = "「是時候再次出征了——」",
 			painting = {
 				alpha = 0.3,
 				time = 1

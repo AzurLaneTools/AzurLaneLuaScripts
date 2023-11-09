@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宏伟的撒丁大剧场中，人声鼎沸，礼炮齐鸣。",
+			say = "在宏偉的薩丁大劇場中，人聲鼎沸，禮炮齊鳴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一位身着红袍的少女正矗立在焦点的正中央。",
+			say = "一位身著紅袍的少女正矗立在焦點的正中央。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,8 +91,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "诸位远道而来的朋友们啊，欢迎你们！",
+			actorName = "羅馬",
+			say = "諸位遠道而來的朋友們啊，歡迎妳們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,8 +109,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "此刻，烈日高升，彩带飞扬，庆典的时刻就要到了。",
+			actorName = "羅馬",
+			say = "此刻，烈日高升，彩帶飛揚，慶典的時刻就要到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,8 +127,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "因战争中断了数十年后，规模最大的世界性集会——世界博览会就要召开了！",
+			actorName = "羅馬",
+			say = "因戰爭中斷了數十年後，規模最大的世界性集會——世界博覽會就要召開了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,8 +145,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "在过去的日子里，连接我们的海洋被分隔，交流的纽带被斩断。",
+			actorName = "羅馬",
+			say = "在過去的日子裡，連接我們的海洋被分隔，交流的紐帶被斬斷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,8 +163,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "但是现在，我们终于又有了一个机会，能让彼此相聚一堂，享受片刻的欢愉。",
+			actorName = "羅馬",
+			say = "但現在，我們終於又有了一個機會，能讓彼此相聚一堂，享受片刻的歡愉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,8 +181,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "这一切都是因为我们从未放弃。",
+			actorName = "羅馬",
+			say = "這一切都是因為我們從未放棄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,8 +199,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "出现在这里的各位，就是我们重建彼此间联系的证明！",
+			actorName = "羅馬",
+			say = "出現在這裡的各位，就是我們重建彼此間連結的證明！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,8 +217,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "因此，朋友们啊，欢庆吧！",
+			actorName = "羅馬",
+			say = "因此，朋友們啊，歡慶吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,8 +235,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "在这宏伟的会场之中，尽情享受这场盛会吧！",
+			actorName = "羅馬",
+			say = "在這宏偉的會場之中，盡情享受這場盛會吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,8 +253,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "吾乃罗马，在此代表主办方撒丁帝国宣布——",
+			actorName = "羅馬",
+			say = "吾乃羅馬，在此代表主辦單位薩丁帝國宣告—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,8 +271,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "本届世界博览会————开幕！",
+			actorName = "羅馬",
+			say = "本屆世界博覽會————開幕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "彩带在礼炮声中倾泻而下，大剧场中的掌声经久不息。",
+			say = "彩帶在禮炮聲中傾瀉而下，大劇場中的掌聲經久不息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一瞬间，罗马感觉自己仿佛回到了那个最鼎盛的时代，那个受到罗穆路斯祝福的时代。",
+			say = "這一瞬間，羅馬感覺自己彷彿回到了那個最鼎盛的時代，那個受到羅穆盧斯祝福的時代。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她满意的环视了会场一周，然后踏步进了阴影中。",
+			say = "她滿意的環視了會場一周，然後踏步進了陰影中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来似乎还有更多的庆祝活动，不过她的心思已经不在这上面了。",
+			say = "接下來似乎還有更多的慶祝活動，不過她的心思已經不在這上面了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "撒丁大剧场·文物展区",
+			say = "薩丁大劇場·文物展區",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "博览会已经开幕，这里很快也要对外开放了。",
+			say = "博覽會已經開幕，這裡很快也要對外開放了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "在喧嚣的浪潮到来之前，此处仅存片刻的宁静了么……",
+			say = "在喧囂的浪潮到來之前，此處僅存片刻的寧靜了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……一切的辛劳都是为了此刻的绽放。",
+			say = "……一切的辛勞都是為了此刻的綻放。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "也好……就让更多的人沐浴在罗穆路斯的光辉之中吧。",
+			say = "也好……就讓更多的人沐浴在羅穆盧斯的光輝之中吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马若有所思的地行走在空旷的展区中，突然，她感受到了某种异样。",
+			say = "羅馬若有所思的地行走在空曠的展區中，突然，她感受到了某種異樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "什么人？！现出身来！？",
+			say = "什麼人？！現出身來！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马的声音在展厅中回荡，除此之外，无人应答。",
+			say = "羅馬的聲音在展場中迴盪，除此之外，無人回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "奇怪…………感受到的异常难道不是来自与人，而是物？",
+			say = "奇怪…………感受到的異常不是來自於與人，而是物？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马看向周围的提示牌，这里是皇家展品区。",
+			say = "羅馬看向周圍的提示牌，這裡是皇家展品區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "皇家的展品每一件我都经手检查过……除了大量赝品之外，并没有混入异常的东西。",
+			say = "皇家的展品每一件我都經手檢查過……除了是贗品之外，並沒有混入異常的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "可是这里的气息又……分明与昨日检查时大不一样。",
+			say = "可是這裡的氣息又……分明與昨日檢查時大不一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "难道是储存展品的保管区出了什么问题么……",
+			say = "難道是儲存展品的保管區出了什麼問題嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "保管区位于守备严密的地下仓库，如果那里被动了手脚的话……不好！",
+			say = "保管區位於守備嚴密的地下倉庫，如果那裡被動了手腳的話…不好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "文物展区中的喧嚣即将开始，皇家展厅中却已经空无一人了。",
+			say = "文物展區中的喧囂即將開始，皇家展廳中卻已經空無一人了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,39 +645,39 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「我立了一座纪念碑。」",
+					"「我立了一座紀念碑。」",
 					2
 				},
 				{
-					"「它比青铜更坚牢，比金字塔更巍然。」",
+					"「它比青銅更堅牢，比金字塔更巍然。」",
 					4
 				},
 				{
-					"「无论是暴雨的侵蚀，北风的肆虐。」",
+					"「無論是風雨的侵蝕，北風的肆虐。」",
 					6
 				},
 				{
-					"「亦或是岁月的无尽轮回，光阴的昼夜消逝。」",
+					"「亦或是歲月的無盡輪迴，光陰的晝夜消逝。」",
 					8
 				},
 				{
-					"「都不能把它摧毁。」",
+					"「都不能把它摧毀。」",
 					10
 				},
 				{
-					"「我不会完全死亡，我的大部分将躲过死神。」",
+					"「我不會完全死亡，我的大部分將躲過死神。」",
 					12
 				},
 				{
-					"「虽死而犹有生机。」",
+					"「雖死而猶有生機。」",
 					14
 				},
 				{
-					"「死后的荣誉将会使我继续生存，直至永恒。」",
+					"「死後的榮譽將會使我繼續生存，直至永恆。」",
 					16
 				},
 				{
-					"  ——————撒丁帝国诗歌·节选",
+					"  ——————薩丁帝國詩歌·節選",
 					18
 				}
 			}

@@ -1316,6 +1316,9 @@ pg.ship_data_group = setmetatable({
 		[60106] = {
 			506
 		},
+		[60109] = {
+			563
+		},
 		[60104] = {
 			504
 		},
@@ -1325,11 +1328,17 @@ pg.ship_data_group = setmetatable({
 		[60103] = {
 			490
 		},
+		[60108] = {
+			562
+		},
 		[60107] = {
 			541
 		},
 		[60201] = {
 			501
+		},
+		[60202] = {
+			559
 		},
 		[60301] = {
 			414
@@ -1343,11 +1352,17 @@ pg.ship_data_group = setmetatable({
 		[60303] = {
 			489
 		},
+		[60305] = {
+			560
+		},
 		[60501] = {
 			500
 		},
 		[60502] = {
 			410
+		},
+		[60503] = {
+			561
 		},
 		[60505] = {
 			411
@@ -1363,6 +1378,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[60801] = {
 			503
+		},
+		[60802] = {
+			558
 		},
 		[70108] = {
 			499
@@ -2185,22 +2203,28 @@ pg.ship_data_group = setmetatable({
 		534,
 		415,
 		506,
+		563,
 		504,
 		505,
 		490,
+		562,
 		541,
 		501,
+		559,
 		414,
 		542,
 		413,
 		489,
+		560,
 		500,
 		410,
+		561,
 		411,
 		412,
 		502,
 		540,
 		503,
+		558,
 		499,
 		497,
 		431,
@@ -20647,6 +20671,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[563] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 464,
+		code = 563,
+		group_type = 60109,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[504] = {
 		type = 1,
 		redirect_id = 101,
@@ -20743,6 +20799,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[562] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 468,
+		code = 562,
+		group_type = 60108,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[541] = {
 		type = 1,
 		redirect_id = 101,
@@ -20800,6 +20888,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[559] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 472,
+		code = 559,
+		group_type = 60202,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
 				{
 					""
 				},
@@ -20935,6 +21055,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[560] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 477,
+		code = 560,
+		group_type = 60305,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[500] = {
 		type = 5,
 		redirect_id = 101,
@@ -20992,6 +21144,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：神聖的悲喜劇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[561] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 481,
+		code = 561,
+		group_type = 60503,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
 				{
 					""
 				},
@@ -21152,6 +21336,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：復興的讚美詩",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[558] = {
+		type = 8,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 488,
+		code = 558,
+		group_type = 60802,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雄鷹的敘事歌",
 				{
 					""
 				},

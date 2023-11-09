@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「黑海是帝国的池塘，陆间海是帝国的花园。」",
+			say = "「黑海是帝國的池塘，地中海是帝國的花園。」",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「欧罗巴是帝国的武库，阿非利加是帝国的粮仓。」",
+			say = "「歐羅巴是帝國的武庫，阿非利加是帝國的糧倉。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「从哈德良长城上的火炬到亚历山大港中的灯塔，帝国的光辉普照黎庶。」",
+			say = "「從哈德良長城上的火炬到亞歷山卓港中的燈塔，帝國的光輝普照黎庶。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「雄鹰啊，在这广袤的疆土上尽情翱翔吧。」",
+			say = "「雄鷹啊，在這廣闊的疆土上盡情翱翔吧。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「罗马将会长存。」",
+			say = "「羅馬將會長存。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「因为，罗马与神同行——」",
+			say = "「因為，羅馬與神同行——」",
 			painting = {
 				alpha = 0.3,
 				time = 1

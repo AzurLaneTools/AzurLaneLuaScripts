@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会第三日·会场某处",
+			say = "博覽會第三日·會場某處",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "布里斯托尔，你的绿色幽灵事件调查的怎么样了？",
+			say = "布里斯托爾，妳的綠色幽靈事件調查的怎麼樣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "那件事啊！现在正调查到紧要关头呢！",
+			say = "那件事啊！現在正調查到緊要關頭呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "具体来说呢？",
+			say = "具體來說呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "……具体来说……还在努力调查中！",
+			say = "……具體來說……還在努力調查中！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我有种预感，这件事背后绝对隐藏了一个惊天大事件！",
+			say = "我有種預感，這件事背後絕對隱藏了一個驚天大事件！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "都已经第三天了……你还不放弃啊。",
+			say = "都已經第三天了……妳還不放棄啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "是才到第三天才对！传奇调查员是不会放弃的！",
+			say = "是才到第三天才對！傳奇調查員不會放棄的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "{namecode:525}今天要不要来陪我一起去！",
+			say = "英格拉罕今天要不要來陪我一起去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "不要，还是各国的展馆更有趣一点。",
+			say = "不要，還是各國的展館更有趣一點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼~那我就先走一步，差不多该开始今天的调查了！",
+			say = "哼~那我就先走一步，差不多該開始今天的調查了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "听上去她那里还没有取得任何进展啊。",
+			say = "聽起來她那裡還沒有任何進展。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……其实，我觉得布里斯托尔看错的可能性还挺高的。",
+			say = "……其實，我覺得布里斯托爾看錯的可能性還挺高的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "就算如此，她在最后肯定也能交上来一份十分有趣的调查报告哦。",
+			say = "就算如此，她在最後肯定也能交上來一份十分有趣的調查報告哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "啊哈哈，有趣到可以重塑现实的程度呢……",
+			say = "啊哈哈，有趣到可以重塑現實的程度呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "打扰了，请问你是来自白鹰的埃塞克斯小姐吧？",
+			say = "打擾了，請問妳是來自白鷹的艾塞克斯小姐吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "是我。你是……自由鸢尾的贞德小姐？",
+			say = "是我。妳是……自由鳶尾的貞德小姐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "没错~一直以来都没什么和你并肩战斗的机会，能被你认出来真是太好了。",
+			say = "沒錯~一直以來都沒什麼能跟妳並肩戰鬥的機會，能被妳認出來真是太好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "自由鸢尾在阿非利加取得的各种成果，我在白鹰也常有耳闻。",
+			say = "自由鳶尾在阿非利加所取得的各種成果，我在白鷹也常有耳聞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "对于贞德小姐可是印象深刻呢。",
+			say = "對於貞德小姐可是印象深刻呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "那真是我的荣幸。不知道白鹰代表团的各位接下来有什么安排么？",
+			say = "那真是我的榮幸。不知道白鷹代表團的各位接下來有什麼安排嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我们还没想好今天要去参观的展馆，贞德小姐有推荐么？",
+			say = "我們還沒想好今天要去參觀的展館，貞德小姐有推薦嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "如果不介意的话，可否由我来招待各位去虚像凯旋门内参观一下呢？",
+			say = "如果不介意的話，可否由我來招待各位去虛像凱旋門內參觀一下呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "能顺势与各位一同共度午餐时光就更好了~",
+			say = "能順勢與各位一同共度午餐時光就更好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "这个当然没问题！加深与贵方的联系也是我此行的任务之一。",
+			say = "這個當然沒問題！加深與貴方的連結也是我此行的任務之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 802020,
-			say = "……那就太好了，大家这边请————",
+			say = "……那就太好了，大家這邊請————",
 			painting = {
 				alpha = 0.3,
 				time = 1

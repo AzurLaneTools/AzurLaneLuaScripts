@@ -1998,6 +1998,38 @@ function slot0.CheckChapterWillWin(slot0)
 	end
 end
 
+function slot0.triggerSkill(slot0, slot1, slot2)
+	slot3 = _.filter(slot1:findSkills(slot2), function (slot0)
+		return _.any(slot0:GetTriggers(), function (slot0)
+			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
+		end) == (uv0:getFleetType() == FleetType.Submarine) and _.all(slot0:GetTriggers(), function (slot0)
+			return uv0:triggerCheck(uv1, uv2, slot0)
+		end)
+	end)
+
+	return _.reduce(slot3, nil, function (slot0, slot1)
+		slot3 = slot1:GetArgs()
+
+		if slot1:GetType() == FleetSkill.TypeMoveSpeed or slot2 == FleetSkill.TypeHuntingLv or slot2 == FleetSkill.TypeTorpedoPowerUp then
+			return (slot0 or 0) + slot3[1]
+		elseif slot2 == FleetSkill.TypeAmbushDodge or slot2 == FleetSkill.TypeAirStrikeDodge then
+			return math.max(slot0 or 0, slot3[1])
+		elseif slot2 == FleetSkill.TypeAttack or slot2 == FleetSkill.TypeStrategy then
+			slot0 = slot0 or {}
+
+			table.insert(slot0, slot3)
+
+			return slot0
+		elseif slot2 == FleetSkill.TypeBattleBuff then
+			slot0 = slot0 or {}
+
+			table.insert(slot0, slot3[1])
+
+			return slot0
+		end
+	end), slot3
+end
+
 function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	if slot3[1] == FleetSkill.TriggerDDHead then
 		return #slot1:getShipsByTeam(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())

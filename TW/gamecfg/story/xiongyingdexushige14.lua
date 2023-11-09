@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "撒丁大剧场·文物展区",
+			say = "薩丁大劇場·文物展區",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这个展厅看起来和上个展厅一样……毫无异常。",
+			say = "這個展廳看起來和上個展廳一樣……毫無異常。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "倒不如说每个地方都跟我们离开的时候差不多呀……",
+			say = "倒不如說每個地方都跟我們離開的時候差不多呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……真没想到罗马大人会在演讲结束之后就……失踪了。",
+			say = "嗯……真沒想到羅馬大人會在演講結束後就……失蹤了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼哼，平静的展馆之中暗流涌动，其背后究竟有着怎么离奇之处与曲折的故事呢！",
+			say = "哼哼哼，平靜的展館之中暗流湧動，背後究竟有著怎樣的離奇之處與曲折的故事呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我的记者之魂已经燃起来了！",
+			say = "我的記者之魂已經燃起來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……别太张扬，你还记得维内托大人的警告么。",
+			say = "……別太張揚，妳還記得維內托大人的警告嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "如果把事情弄得太引人注目的话————",
+			say = "如果把事情搞得太引人注目的話————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘶——我当然记得！我们一定要在外界毫无察觉的情况下暗中解决问题！",
+			say = "嘶——我當然記得！我們一定要在外界毫無察覺的情況下暗中解決問題！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇，你在看什么呢？找到什么可疑之处了么？",
+			say = "達·文西，妳在看什麼呢？找到什麼可疑之處了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没，我只是在看这些展品而已。",
+			say = "沒，我只是在看這些展品而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……这些都是各大阵营带来的参展文物吧？",
+			say = "……這些都是各大陣營帶來的參展文物吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错，不过大多数都是精致的仿品就是了。",
+			say = "沒錯，不過大多數都是精緻的仿品就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "虽然能骗过绝大多数人，但是骗不过我。",
+			say = "雖然能騙過絕大多數人，但騙不過我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸？这也太抠门了吧！明明我们拿来的都是真品！",
+			say = "欸？這也太摳門了吧！明明我們拿來的都是真品！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不……其实我们拿来的也基本都是仿品……",
+			say = "不……其實我們拿來的也基本上都是仿品……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "原本文物去海外展出就有很高的的损坏风险。动荡的局势和塞壬永不停息的袭击更是将这一风险无限放大。",
+			say = "原本文物去海外展出就有很高的損壞風險。動盪的局勢和塞壬永不停息的襲擊更是將這一風險無限放大。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "就算是我们自己的文物，拿出来展示也需要慎之又慎。",
+			say = "就算是我們自己的文物，拿出來展示也需要慎之又慎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,24 +337,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "塞壬在陆间海中的袭击虽不频繁，但现在也不算罕见了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_roma_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 601080,
-			say = "原来如此……这里面还有这种道理。",
+			say = "塞壬在地中海中的襲擊雖不頻繁，但現在也不算罕見了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +354,24 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那敢于送真品过来的，岂不是非常厉害？",
+			say = "原來如此……這裡面還有這種道理。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_roma_6",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actor = 601080,
+			say = "那敢於送真品過來的，豈不是非常厲害？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "是相当厉害……尤其是东煌送来的几件。",
+			say = "是相當厲害……尤其是東煌送來的幾件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不知道她们是有相当的自信呢，还是仿制的过于逼真连我也没看出来呢……",
+			say = "不知道她們是有相當的自信呢，還是仿製的過於逼真連我也沒看出來呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "等事情结束之后我一定再去好好观察一下！",
+			say = "等事情結束之後我一定再去好好觀察！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "有人过来了。你们快收一收侦探的样子，表现正常一点……",
+			say = "有人過來了。妳們快收一收偵探的樣子，表現正常一點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊，那边是东煌的海天和海圻？",
+			say = "啊，那邊是東煌的海天和海圻？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "还有一个不认识的大姐姐正在和皇家的光辉聊天！",
+			say = "還有一個不認識的大姊姊正在和皇室的光輝聊天！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……你什么时候跟东煌的人交上朋友的？",
+			say = "……妳什麼時候跟東煌的人交上朋友的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "就在佩萨格诺去北方联合馆的时候哦~我们还给海圻玩了达·芬奇飞行器呢！",
+			say = "就在佩薩格諾去北方聯合館的時候哦~我們還讓海圻玩了達·文西飛行器呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……不要随便给客人玩危险的东西！",
+			say = "……不要隨便給客人玩危險的東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "才不危险呢！达·芬奇出品，品质有保证！",
+			say = "才不危險呢！達·文西出品，品質有保證！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "真没想到这么快又遇到了，我们过去打个招呼吧！",
+			say = "真沒想到這麼快又遇到了，我們過去打個招呼吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "等等……打扰别人谈话是不好的，我们也不是十分悠闲的状态了。",
+			say = "等等……打擾別人談話是不好的，我們也不是十分悠閒的狀態了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601090,
-			say = "既然这里检查完毕……该去下一个区域了，罗马大人还在等着我们呢。",
+			say = "既然這裡檢查完畢……該去下一個區域了，羅馬大人還在等我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1

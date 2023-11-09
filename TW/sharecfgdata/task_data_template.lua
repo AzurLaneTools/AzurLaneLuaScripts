@@ -143594,6 +143594,947 @@ _G.pg.base.task_data_template[17810] = {
 	}
 }
 
+_G.pg.base.task_data_template[17814] = {
+	name = "『意大利V3』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97763,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17814,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			272,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17815] = {
+	name = "『意大利V3』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 97764,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(舞蹈)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30336",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17815,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30507,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17816] = {
+	name = "『意大利V3』通关EX",
+	guild_coin_award = 0,
+	award = 97804,
+	type = 6,
+	desc = "通關EX關卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1660051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17816,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660026,
+			chapterId = 1660051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17817] = {
+	name = "『意大利V3』-日常建造",
+	guild_coin_award = 0,
+	award = 97805,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17817,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59331,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17818] = {
+	name = "『意大利V3』-日常出击",
+	guild_coin_award = 0,
+	award = 97806,
+	type = 36,
+	desc = "艦隊出征，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17818,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59331,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17819] = {
+	name = "『意大利V3』-日常困难本",
+	guild_coin_award = 0,
+	award = 97807,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17819,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59331,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17820] = {
+	name = "『意大利V3』通关A1/C1",
+	guild_coin_award = 0,
+	award = 97808,
+	type = 6,
+	desc = "通關A1或C1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17821",
+	auto_commit = 0,
+	story_id = "",
+	id = 17820,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660001,
+		1660021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59331,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17821] = {
+	name = "『意大利V3』通关A2/C2",
+	guild_coin_award = 0,
+	award = 97809,
+	type = 6,
+	desc = "通關A2或C2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17822",
+	auto_commit = 0,
+	story_id = "",
+	id = 17821,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660002,
+		1660022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59331,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17822] = {
+	name = "『意大利V3』通关A3/C3",
+	guild_coin_award = 0,
+	award = 97810,
+	type = 6,
+	desc = "通關A3或C3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17823",
+	auto_commit = 0,
+	story_id = "",
+	id = 17822,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660003,
+		1660023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59331,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17823] = {
+	name = "『意大利V3』通关B1/D1",
+	guild_coin_award = 0,
+	award = 97811,
+	type = 6,
+	desc = "通關B1或D1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17824",
+	auto_commit = 0,
+	story_id = "",
+	id = 17823,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660004,
+		1660024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59331,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17824] = {
+	name = "『意大利V3』通关B2/D2",
+	guild_coin_award = 0,
+	award = 97812,
+	type = 6,
+	desc = "通關B2或D2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17825",
+	auto_commit = 0,
+	story_id = "",
+	id = 17824,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660005,
+		1660025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59331,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17825] = {
+	name = "『意大利V3』通关B3/D3",
+	guild_coin_award = 0,
+	award = 97813,
+	type = 6,
+	desc = "通關B3或D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17826",
+	auto_commit = 0,
+	story_id = "",
+	id = 17825,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660006,
+		1660026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59331,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17826] = {
+	name = "『意大利V3』通关SP",
+	guild_coin_award = 0,
+	award = 97814,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1660041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17826,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660025,
+			chapterId = 1660041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17827] = {
+	name = "『意大利V3』通关D3",
+	guild_coin_award = 0,
+	award = 97815,
+	type = 6,
+	desc = "通關D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1660026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17827,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			232,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660012,
+			chapterId = 1660026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17828] = {
+	name = "『意大利V3』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 97816,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17829",
+	auto_commit = 0,
+	story_id = "",
+	id = 17828,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660001,
+		1660021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17829] = {
+	name = "『意大利V3』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 97817,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17830",
+	auto_commit = 0,
+	story_id = "",
+	id = 17829,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660002,
+		1660022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17830] = {
+	name = "『意大利V3』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 97818,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17831",
+	auto_commit = 0,
+	story_id = "",
+	id = 17830,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660003,
+		1660023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4471
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17831] = {
+	name = "『意大利V3』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 97819,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17832",
+	auto_commit = 0,
+	story_id = "",
+	id = 17831,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660004,
+		1660024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17832] = {
+	name = "『意大利V3』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 97820,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17833",
+	auto_commit = 0,
+	story_id = "",
+	id = 17832,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660005,
+		1660025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17833] = {
+	name = "『意大利V3』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 97821,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17833,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1660006,
+		1660026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4472
+		}
+	}
+}
+
 _G.pg.base.task_data_template[17834] = {
 	name = "美服2复刻-战斗胜利I",
 	guild_coin_award = 0,

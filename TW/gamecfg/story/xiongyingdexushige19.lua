@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "一段时间，或许更长时间之后——",
+			say = "一段時間，或許更久之後——",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "再坚持一下啦，阿尔弗雷多。风速计的反应越来越强烈，不远处肯定有能让空气流通的出口！",
+			say = "再堅持一下啦，阿爾弗雷多。風速計的反應越來越強烈，不遠處一定有能讓空氣流通的出口！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇的小道具就是方便……既然如此，那我就再加把劲吧！",
+			say = "達·文西的小道具就是方便……既然如此，那我就再加把勁吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "前方好像有亮光……",
+			say = "前方好像有亮光…",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -135,7 +135,7 @@ return {
 			actor = 601080,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "噢！我也看到了，终于要到出口了么！",
+			say = "噢！我也看到了，終於要到出口了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我得赶紧把墨镜戴上！你们也记得保护一下眼睛哦！",
+			say = "我得趕緊把墨鏡帶上！妳們也記得保護一下眼睛哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "在眼睛习惯黑暗之后突然进入光照环境，可是会导致短期致盲的！",
+			say = "在眼睛習慣黑暗之後突然進入光照環境，可是會導致短期致盲的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "随着众人逐渐接近出口，眼前不属于黑暗的部分正变得越来越明显。",
+			say = "隨著眾人逐漸接近出口，眼前不屬於黑暗的部分變得越來越明顯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过，预想中的强光却没有出现。",
+			say = "不過，預想中的強光卻沒有出現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			side = 2,
-			say = "出口之外的世界一片荒芜。空气中没有生命的气息，天空漆黑的连星星都被隐去。",
+			say = "出口之外的世界一片荒蕪。空氣中沒有生命的氣息，天空漆黑的連星星都被隱去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "…………展馆地下的空间里居然出现了广阔无垠的海面？",
+			say = "…………展館地下的空間居然出現了廣闊無垠的海面？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我已经100%可以确信了，这里就是镜面海域！",
+			say = "我已經100%可以確信了，這裡就是鏡面海域！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "虽然说起来有点奇怪……我反而有些安心了。",
+			say = "雖然說起來有點奇怪……我反而有些安心了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我能理解！只要是镜面海域，破坏海域维持装置就能解除危机！",
+			say = "我能理解！只要是鏡面海域，破壞海域維持裝置就能解除危機！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "而且更重要的是，既然明白了是塞壬搞的鬼，就没什么可怕的~！",
+			say = "而且更重要的是，既然明白了是塞壬搞的鬼，就沒什麼可怕的~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "“当我在人生的旅途游走过半的时候……不经意踏进一片幽暗的森林，在其中迷失了前进的方向。”",
+			say = "「當我在人生的旅途遊走過半的時候……不經意踏進一片幽暗的森林，在其中迷失了前進的方向。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这里和诗歌里面描绘的地狱边境一模一样，空旷又荒凉……",
+			say = "這裡和詩歌裡面描繪的地獄邊境一模一樣，空曠又荒涼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过天上的极光看起来还是挺美丽的嘛~",
+			say = "不過天上的極光看起來還挺美麗的嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——都是难得的素材，全部拍下！",
+			say = "咔嚓——都是難得的素材，全部拍下！",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "阿尔弗雷多，你弄出来的动静太大了，谨慎一些……",
+			say = "阿爾弗雷多，妳弄出來的動靜太大了，謹慎一點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "没事没事~这里空空荡荡的，什么敌人都没有啦~",
+			say = "沒事沒事~這裡空空蕩蕩的，什麼敵人都沒有啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "即便如此，罗马大人依然被困在这里……",
+			say = "即便如此，羅馬大人依然被困在這裡…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这里一定隐藏着不为人知的危险，我也建议小心一些行动比较好。",
+			say = "這裡一定隱藏著不為人知的危險，我也建議小心一些行動比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "……说的有道理！那我们就首先谨慎地，侦察一下周边环境吧！",
+			say = "……說的有道理！那我們就先謹慎的，偵察一下週邊環境吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
