@@ -1026,7 +1026,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			bgName = "bg_white",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

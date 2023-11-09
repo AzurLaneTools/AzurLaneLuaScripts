@@ -1108,7 +1108,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "那是自然！這可是我達·文西的發明！只要不突然展開艦裝，承載力是絕對沒問題的！",
 			painting = {
 				alpha = 0.3,
@@ -1159,7 +1159,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "那邊的是波爾察諾和加里波底…？",
 			painting = {
 				alpha = 0.3,
@@ -1176,7 +1176,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "奇怪，她們不是負責維持大劇場保全的嗎，怎麼會跑到這裡來。",
 			painting = {
 				alpha = 0.3,
@@ -1193,7 +1193,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "而且在低頭用通訊器交談著什麼哦……",
 			painting = {
 				alpha = 0.3,
@@ -1210,7 +1210,7 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "我聞到了事件的味道！一定有什麼事發生了！",
 			painting = {
 				alpha = 0.3,

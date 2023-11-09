@@ -2337,8 +2337,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 6,
 		ships = {
-			60103,
-			60108
+			60102
 		}
 	},
 	[60102] = {
@@ -2349,7 +2348,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 130,
 		t_level = 5,
 		ships = {
-			60103
+			60103,
+			60108
 		}
 	},
 	[60103] = {
@@ -2372,7 +2372,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 128,
 		t_level = 4,
 		ships = {
-			60106
+			60106,
+			60109
 		}
 	},
 	[60105] = {

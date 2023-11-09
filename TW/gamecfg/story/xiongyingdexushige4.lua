@@ -63,7 +63,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "會場地圖展開，事件紀錄開始……",
 			painting = {
 				alpha = 0.3,
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "北方聯合館，氣勢恢宏，使用的建材雪白且十分堅固……也許能抵抗隕石撞擊呢。",
 			painting = {
 				alpha = 0.3,
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "文琴佐跟神速的組合……有一段時間沒見了。",
 			painting = {
 				alpha = 0.3,
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "妳們也是在會場巡邏嗎？",
 			painting = {
 				alpha = 0.3,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "欸……就要走了嗎？",
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "自顧自的跑掉了……還是那麼充滿精神。",
 			painting = {
 				alpha = 0.3,
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "沒關係……這次分別之後下次相見就不知道是什麼時候了，需要更加珍惜。",
 			painting = {
 				alpha = 0.3,
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "而且我對北方聯合館也有些興趣……她們常年在極地作戰，也許會有什麼應對惡劣海況的特殊技術……",
 			painting = {
 				alpha = 0.3,

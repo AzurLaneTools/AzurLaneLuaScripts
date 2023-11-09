@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "左弦，彈幕太薄了！",
 			painting = {
 				alpha = 0.3,
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "達·文西，妳還能變出來更多的戰艦嗎？",
 			painting = {
 				alpha = 0.3,
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "再這麼打下去我們就要被雜魚淹沒了！",
 			painting = {
 				alpha = 0.3,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "道理我都明白，可是我就帶了那麼多材料……早知道會用在這種地方我一定會把貨倉裝滿的……",
 			painting = {
 				alpha = 0.3,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "嗚嗚嗚……這裡先維持住戰線，等待水面的加里波底她們取得突破吧！",
 			painting = {
 				alpha = 0.3,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "……可是，那邊看起來戰況也不太妙的樣子。",
 			painting = {
 				alpha = 0.3,
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "欸？！為什麼啊？！因為那個棋子和羅馬大人太像，導致她們放不開手腳嗎？",
 			painting = {
 				alpha = 0.3,
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "這也許是一方面，不過另一方面……這個棋子的戰鬥力，好強……",
 			painting = {
 				alpha = 0.3,
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "我以前有幸看過羅馬大人的火力測試演習……這個棋子，大概能做到和羅馬大人本人不相上下的程度。",
 			painting = {
 				alpha = 0.3,
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "不妙……一方有所顧慮，一方戰鬥力誇張又火力全開。",
 			painting = {
 				alpha = 0.3,
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "這樣下去……最多再過半小時她們就先撐不住了。",
 			painting = {
 				alpha = 0.3,
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "連這個都能算出來嗎…？！那我們得趕快想點辦法才行！",
 			painting = {
 				alpha = 0.3,
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "嗯……我再想了，給我點時間。",
 			painting = {
 				alpha = 0.3,
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "雄鷹群正在向旗艦…也就是我們現在這一艘接近！我們快要被撕出缺口了！",
 			painting = {
 				alpha = 0.3,
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "嗯……別急，再等一下……",
 			painting = {
 				alpha = 0.3,
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "……我們是不是想辦法先降下去比較好。",
 			painting = {
 				alpha = 0.3,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "雖然妳有提到緊急逃生裝置，不過可以的話，我不是很想用到它……",
 			painting = {
 				alpha = 0.3,
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "不……等等……我有了！",
 			painting = {
 				alpha = 0.3,
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "你們看大劇場那些大得離譜的外牆上，是不是都被那些同樣大的離譜的荊棘覆蓋了？",
 			painting = {
 				alpha = 0.3,
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
+			actorName = "埃曼努埃爾·佩薩格諾",
 			say = "……那些荊棘有什麼不對勁的地方嗎？",
 			painting = {
 				alpha = 0.3,
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "沒錯，那些荊棘很奇怪！",
 			painting = {
 				alpha = 0.3,
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "一般來說，荊棘這種東西會朝著建築的夾縫中生長吧？如果時間夠長，它們甚至能把堅固的建築弄得面目全非。",
 			painting = {
 				alpha = 0.3,
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "可是這些荊棘不一樣！一道道荊棘環繞在外牆出現破損的結構附近，就像在維持建築的主體，避免其崩潰一樣！",
 			painting = {
 				alpha = 0.3,
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "妳是指……這些荊棘的存在不是為了破壞大劇場，而是避免了大劇場的崩壞？",
 			painting = {
 				alpha = 0.3,
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "沒錯，正是如此！回想起來我們的主要目的——解除鏡面海域。",
 			painting = {
 				alpha = 0.3,
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "既然這個大劇場大概率就是鏡面海域維持裝置，或至少是某個海域中的重要設施，那對它發動攻擊肯定是有意義的！",
 			painting = {
 				alpha = 0.3,
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "如果能粉碎大劇場的話，說不定我們根本不用全部消滅敵人就能脫困了！",
 			painting = {
 				alpha = 0.3,
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "說得對啊，達·文西探員！艦隊將火力集中至荊棘從與大劇場外牆，想辦法破壞它！",
 			painting = {
 				alpha = 0.3,
@@ -598,7 +598,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "除此之外還有一件事，我對於羅馬大人現在的位置有了一個猜測，我需要去驗證一下。",
 			painting = {
 				alpha = 0.3,
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "機械師申請離艦！",
 			painting = {
 				alpha = 0.3,
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "欸？批，批准……！不過妳要怎麼下去？",
 			painting = {
 				alpha = 0.3,
@@ -649,7 +649,7 @@ return {
 			bgName = "bg_roma_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
+			actorName = "李奧納多·達·文西",
 			say = "哼哼，當然是使用緊急撤離用滑翔翼囉！回頭見————",
 			painting = {
 				alpha = 0.3,

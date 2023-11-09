@@ -491,7 +491,7 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
+			actorName = "阿爾弗雷多·奧里亞尼",
 			say = "阿爾弗雷多艦隊，準備戰鬥！",
 			painting = {
 				alpha = 0.3,
