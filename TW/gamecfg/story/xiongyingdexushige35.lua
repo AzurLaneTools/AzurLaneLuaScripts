@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "您放任{namecode:484}自由行动已经是第四天了，把{namecode:486}一个人留在科技馆中也是第四天了。",
+			say = "您放任魯普雷希特親王自由行動已經是第四天了，把奧丁一個人留在科技館中也是第四天了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "再说了，{namecode:486}不喜欢热闹，{namecode:484}我也管不住她。",
+			say = "再說了，奧丁不喜歡熱鬧，魯普雷希特親王我也管不住她。",
 			painting = {
 				alpha = 0.3,
 				time = 1

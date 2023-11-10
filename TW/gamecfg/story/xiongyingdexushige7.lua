@@ -118,7 +118,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "波爾察諾和加里波底正在朝著橡樹花穹頂方向前進。",
+			say = "博爾扎諾和加里波底正在朝著橡樹花穹頂方向前進。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……所以說，妳們現在從會場巡邏改成跟蹤波爾察諾和加里波底了……？",
+			say = "……所以說，妳們現在從會場巡邏改成跟蹤博爾扎諾和加里波底了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "如果好奇波爾察諾她們在做什麼的話，上去問一下就好吧？",
+			say = "如果好奇博爾扎諾她們在做什麼的話，上去問一下就好吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "大家注意，情況有變！波爾察諾她們沒有進入橡樹花穹頂！",
+			say = "大家注意，情況有變！博爾扎諾她們沒有進入橡樹花穹頂！",
 			painting = {
 				alpha = 0.3,
 				time = 1

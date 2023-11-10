@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我是來自白鷹的調查員布里斯托！現在正在調查博覽會綠色幽靈事件中！",
+			say = "我是來自白鷹的調查員布里斯托爾！現在正在調查博覽會綠色幽靈事件中！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "自稱調查員的布里斯托帶著點亮的提燈，風風火火地跑來，又有風風火火地跑走了。",
+			say = "自稱調查員的布里斯托爾帶著點亮的提燈，風風火火地跑來，又有風風火火地跑走了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

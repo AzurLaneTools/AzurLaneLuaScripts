@@ -997,7 +997,7 @@ return {
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩格薩諾略帶疑惑地回過頭，達·文西則突然起身勾住阿爾弗雷多的脖子，用另一隻手比出了「V」。",
+			say = "佩薩格諾略帶疑惑地回過頭，達·文西則突然起身勾住阿爾弗雷多的脖子，用另一隻手比出了「V」。",
 			painting = {
 				alpha = 0.3,
 				time = 1

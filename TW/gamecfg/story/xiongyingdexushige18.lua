@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "什麼叫地圖到頭了妳…？",
+			say = "什麼叫地圖到頭了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

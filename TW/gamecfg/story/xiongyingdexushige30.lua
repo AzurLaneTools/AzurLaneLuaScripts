@@ -524,7 +524,7 @@ return {
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "波爾察諾",
+			actorName = "博爾扎諾",
 			say = "加里波底閣下？！",
 			painting = {
 				alpha = 0.3,
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "朱塞佩・加里波第",
-			say = "天空和水面的雜魚就交給阿爾弗雷多她們，波爾察諾，跟我一起進攻！",
+			say = "天空和水面的雜魚就交給阿爾弗雷多她們，博爾扎諾，跟我一起進攻！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			side = 1,
 			bgName = "bg_roma_10",
 			hidePaintObj = true,
-			actorName = "波爾察諾",
+			actorName = "博爾扎諾",
 			blackBg = true,
 			nameColor = "#A9F548FF",
 			say = "嗯……祝我們好運，上吧！",

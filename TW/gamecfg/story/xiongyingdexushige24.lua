@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "薩丁大劇場中，波爾察諾與加里波底正朝著地下通道快速前進。",
+			say = "薩丁大劇場中，博爾扎諾與加里波底正朝著地下通道快速前進。",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "波爾察諾呼叫達·文西，能聽到嗎?",
+			say = "博爾扎諾呼叫達·文西，能聽到嗎?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 602020,
 			nameColor = "#A9F548FF",
 			blackFg = 0.2,
-			say = "啊！大事不好了，波爾察諾！有一個展櫃的文物被偷了！",
+			say = "啊！大事不好了，博爾扎諾！有一個展櫃的文物被偷了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			actor = 603050,
 			nameColor = "#A9F548FF",
 			blackFg = 1,
-			say = "維內托大人，這裡是波爾察諾，我們在地下倉庫發現了展品失竊狀況。",
+			say = "維內托大人，這裡是博爾扎諾，我們在地下倉庫發現了展品失竊狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			actor = 602020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "綠色雄鷹一定就在那裡等著我們~前進吧，波爾察諾！",
+			say = "綠色雄鷹一定就在那裡等著我們~前進吧，博爾扎諾！",
 			painting = {
 				alpha = 0.3,
 				time = 1

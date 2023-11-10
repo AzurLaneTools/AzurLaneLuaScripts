@@ -728,7 +728,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊哈哈……作為賠禮，請讓我送……們過去吧！",
+			say = "啊哈哈……作為賠禮，請讓我送……妳們過去吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "李奧納多·達·文西",
-			say = "那邊的是波爾察諾和加里波底…？",
+			say = "那邊的是博爾扎諾和加里波底…？",
 			painting = {
 				alpha = 0.3,
 				time = 1

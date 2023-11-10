@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "不愧是{namecode:175}阁下，真是深思熟虑！{namecode:18}一跑到外面来就得意忘形了……",
+			say = "不虧是駿河閣下，真是深思熟慮！島風一跑到外面就得意忘形了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "{namecode:175}压低声音，抓住{namecode:18}的衣角，示意她调转方向。",
+			say = "駿河壓低聲音，抓住島風的衣角，示意她調轉方向。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "沒錯，我是薩丁帝國所屬波爾察諾，旁邊是我的同伴波爾察諾。請問小姐您是鐵血的……？",
+			say = "沒錯，我是薩丁帝國所屬博爾扎諾，旁邊是我的同伴加里波底。請問小姐您是鐵血的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "太好了……刚才{namecode:175}阁下一动不动的，{namecode:18}都不知道该怎么办了！",
+			say = "太好了……剛才駿河閣下一動不動的，島風都不知道該怎麼辦了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

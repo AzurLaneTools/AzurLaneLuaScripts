@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603050,
-			say = "如果在開會第一天就對外宣布發生了這麼大的事故，接下來不論做什麼大概都沒發挽回風評了…",
+			say = "如果在開會第一天就對外宣布發生了這麼大的事故，接下來不論做什麼大概都沒辦法挽回風評了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "！妳剛才說什麼，波爾察諾？！",
+			say = "！妳剛才說什麼，博爾扎諾？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "不是不是，我不是在意這個！好主意啊，波爾察諾……這種奇怪的異常情況確實應該先讓專業人士看看。",
+			say = "不是不是，我不是在意這個！好主意啊，博爾扎諾……這種奇怪的異常情況確實應該先讓專業人士看看。",
 			painting = {
 				alpha = 0.3,
 				time = 1

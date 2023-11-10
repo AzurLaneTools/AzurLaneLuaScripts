@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我利用巡邏機的後門進行反向接入，發現波爾察諾正在依照不同分區搜尋會場上空的監視器紀錄。",
+			say = "我利用巡邏機的後門進行反向接入，發現博爾扎諾正在依照不同分區搜尋會場上空的監視器紀錄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "維內托大人，波爾察諾和加里波底可能都是在調查這件事。",
+			say = "維內托大人，博爾扎諾和加里波底可能都是在調查這件事。",
 			painting = {
 				alpha = 0.3,
 				time = 1

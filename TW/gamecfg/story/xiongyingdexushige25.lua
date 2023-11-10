@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "波爾察諾，妳對這裡怎麼看？",
+			say = "博爾扎諾，妳對這裡怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1

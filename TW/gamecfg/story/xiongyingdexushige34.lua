@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "布里斯托爾，妳的綠色幽靈事件調查的怎麼樣了？",
+			say = "布里斯托爾爾，妳的綠色幽靈事件調查的怎麼樣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……其實，我覺得布里斯托爾看錯的可能性還挺高的。",
+			say = "……其實，我覺得布里斯托爾爾看錯的可能性還挺高的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

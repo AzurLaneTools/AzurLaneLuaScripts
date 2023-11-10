@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息室內，福熙正在整理著這幾日從會場中收集到的資訊，霞飛則對著窗戶思考著什麼。",
+			say = "休息室內，福煦正在整理著這幾日從會場中收集到的資訊，霞飛則對著窗戶思考著什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1

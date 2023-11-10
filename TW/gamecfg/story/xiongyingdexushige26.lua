@@ -347,7 +347,7 @@ return {
 			bgName = "bg_roma_8",
 			hidePaintObj = true,
 			side = 2,
-			say = "加里波底與波爾察諾抬起頭，看著炮彈飛來的方向。",
+			say = "加里波底與博爾扎諾抬起頭，看著炮彈飛來的方向。",
 			painting = {
 				alpha = 0.3,
 				time = 1

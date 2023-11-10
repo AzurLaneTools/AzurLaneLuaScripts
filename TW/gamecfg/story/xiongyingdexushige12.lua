@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "嗯，我知道。我這次來找你們也是奉了維內托大人的命令。",
+			say = "嗯，我知道。我這次來找妳們也是奉了維內托大人的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "她希望你們能夠正式參與調查。",
+			say = "她希望妳們能夠正式參與調查。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "快點把飛行器恢復原狀，然後跟我來，維內托大人正在等你們。",
+			say = "快點把飛行器恢復原狀，然後跟我來，維內托大人正在等妳們。",
 			painting = {
 				alpha = 0.3,
 				time = 1

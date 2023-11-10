@@ -98,7 +98,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "羅馬突然揭開面前某個收納箱的防塵布，玻璃後的展品漏了出來。",
+			say = "羅馬突然揭開面前某個收納箱的防塵布，玻璃後的展品露了出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
