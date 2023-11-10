@@ -138181,49 +138181,6 @@ _G.pg.base.task_data_template[19422] = {
 	}
 }
 
-_G.pg.base.task_data_template[19423] = {
-	name = "『岛风复刻』外观装备箱保底",
-	guild_coin_award = 0,
-	award = 900895,
-	type = 6,
-	desc = "Open 20 Gear Skin Box (Floating Funland)",
-	count_inherit = 0,
-	sub_type = 52,
-	target_id_2 = "",
-	story_icon = "",
-	is_head = 1,
-	task_fold = 0,
-	award_choice = "",
-	visibility = 1,
-	ryza_type = 0,
-	quick_finish = 0,
-	level = 1,
-	ryza_icon = "",
-	priority_type = 0,
-	target_id = "30329",
-	next_task = "0",
-	auto_commit = 0,
-	story_id = "",
-	id = 19423,
-	target_num = 20,
-	fix_task = 0,
-	added_tip = 0,
-	open_need = {},
-	award_display = {
-		{
-			2,
-			30532,
-			1
-		}
-	},
-	scene = {
-		"SHOP",
-		{
-			warp = "shopstreet"
-		}
-	}
-}
-
 _G.pg.base.task_data_template[19424] = {
 	name = "『岛风复刻』-日常活动关卡",
 	guild_coin_award = 0,
