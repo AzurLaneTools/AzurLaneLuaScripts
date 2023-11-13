@@ -58,8 +58,31 @@ pg.activity_link_button = {
 		pic = "event_minigame",
 		order = 1,
 		time = {
-			"default",
-			5047
+			"timer",
+			{
+				{
+					2023,
+					10,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		param = {
 			"HARBOR_BACKHILL"

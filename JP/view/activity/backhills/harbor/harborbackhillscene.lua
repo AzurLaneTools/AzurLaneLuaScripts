@@ -58,11 +58,53 @@ function slot0.didEnter(slot0)
 		uv1:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.TEMPESTA_MEDAL_COLLECTION)
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "mimichuanchang", function ()
+		if uv0:IsMiniGameEnd() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+
+			return
+		end
+
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SECRET_SHIPYARD)
 	end)
 	slot0:BindItemActivityShop()
-	slot0:BindItemSkinShop()
-	slot0:BindItemBuildShip()
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "huanzhuangshangdian", function ()
+		if uv0:IsMiniGameEnd() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+
+			return
+		end
+
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SKINSHOP)
+	end)
+	slot0:InitFacilityCross(slot0._map, slot0._upper, "xianshijianzao", function ()
+		if uv0:IsMiniGameEnd() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+
+			return
+		end
+
+		slot0 = nil
+		slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
+
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot1:isEnd() then
+			slot0 = BuildShipScene.PROJECTS.ACTIVITY
+		elseif slot2 and not slot2:isEnd() then
+			slot0 = ({
+				BuildShipScene.PROJECTS.SPECIAL,
+				BuildShipScene.PROJECTS.LIGHT,
+				BuildShipScene.PROJECTS.HEAVY
+			})[slot2:getConfig("config_client").id]
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.GETBOAT, ctx or {
+			page = BuildShipScene.PAGE_BUILD,
+			projectName = slot0
+		})
+	end)
 	slot0:UpdateView()
 end
 
@@ -96,6 +138,10 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.upper_xuanshangban:Find("Tip"), uv0.XuanShangBanTip())
 end
 
+function slot0.IsMiniGameEnd(slot0)
+	return not getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_PIRATE_ID) or slot1:isEnd()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
@@ -104,6 +150,8 @@ end
 function slot0.IsShowMainTip(slot0)
 	if slot0 and not slot0:isEnd() then
 		return uv0.XuanShangBanTip() or uv0.MiMiChuanChangTip()
+	else
+		return uv0.XuanShangBanTip()
 	end
 end
 
