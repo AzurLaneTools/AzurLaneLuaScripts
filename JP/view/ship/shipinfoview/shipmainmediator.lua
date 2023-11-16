@@ -252,7 +252,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDPOST, {
 			selectedMin = 1,
 			selectedMax = 1,
-			mode = CommandRoomScene.MODE_SELECT,
+			mode = CommanderCatScene.MODE_SELECT,
 			onShip = function (slot0)
 				if slot0.shipId == uv0.contextData.shipId then
 					return false, i18n("commander_ship_already_equip")

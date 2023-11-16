@@ -3,33 +3,34 @@ slot0 = class("BuildCommaderCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
-	slot7 = getProxy(PlayerProxy):getData()
-	slot8 = getProxy(BagProxy)
-	slot10 = {}
+	slot5 = slot2.tip
+	slot8 = getProxy(PlayerProxy):getData()
+	slot9 = getProxy(BagProxy)
+	slot11 = {}
 
-	for slot14, slot15 in ipairs(getProxy(CommanderProxy):getPoolById(slot2.id):getConsume()) do
-		if slot15[1] == DROP_TYPE_RESOURCE then
-			if slot7:getResById(slot15[2]) < slot15[3] then
+	for slot15, slot16 in ipairs(getProxy(CommanderProxy):getPoolById(slot2.id):getConsume()) do
+		if slot16[1] == DROP_TYPE_RESOURCE then
+			if slot8:getResById(slot16[2]) < slot16[3] then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return
 			end
-		elseif slot15[1] == DROP_TYPE_ITEM and slot8:getItemCountById(slot15[2]) < slot15[3] then
+		elseif slot16[1] == DROP_TYPE_ITEM and slot9:getItemCountById(slot16[2]) < slot16[3] then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
 		end
 
-		table.insert(slot10, Item.New({
-			type = slot15[1],
-			id = slot15[2],
-			count = slot15[3]
+		table.insert(slot11, Item.New({
+			type = slot16[1],
+			id = slot16[2],
+			count = slot16[3]
 		}))
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot12 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(25002, {
+	slot12:Send(25002, {
 		boxid = slot3
 	}, 25003, function (slot0)
 		if slot0.result == 0 then
@@ -40,13 +41,16 @@ function slot0.execute(slot0, slot1)
 			end
 
 			uv2:sendNotification(GAME.COMMANDER_ON_BUILD_DONE)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_done"))
+
+			if uv3 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_done"))
+			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_erro", slot0.result))
 		end
 
-		if uv3 then
-			uv3()
+		if uv4 then
+			uv4()
 		end
 	end)
 end

@@ -24,6 +24,7 @@ function slot0.init(slot0)
 	slot0.treePanel = CommanderTreePage.New(slot0._tf, slot0.event)
 	slot0.msgbox = CommanderMsgBoxPage.New(slot0._tf, slot0.event)
 	slot0.antor = slot0._tf:GetComponent(typeof(Animator))
+	slot0.skipBtn = slot0._tf:Find("skip")
 	slot0.getEffect = slot0:findTF("main/effect")
 	slot0.skipAnim = true
 
@@ -34,11 +35,15 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER + 1
 	})
+	setText(slot0:findTF("main/info/content/abilitys/attrs/command/name/Text"), i18n("commander_command_ability"))
+	setText(slot0:findTF("main/info/content/abilitys/attrs/tactic/name/Text"), i18n("commander_tactical_ability"))
+	setText(slot0:findTF("main/info/content/abilitys/attrs/support/name/Text"), i18n("commander_logistics_ability"))
+	setText(slot0:findTF("main/info/content/copyright/title"), i18n("commander_get_commander_coptyright"))
 end
 
 function slot0.openTreePanel(slot0, slot1)
 	function slot2()
-		uv0.treePanel:ActionInvoke("openTreePanel", uv1, LayerWeightConst.SECOND_LAYER + 2)
+		uv0.treePanel:ActionInvoke("Show", uv1, LayerWeightConst.SECOND_LAYER + 2)
 	end
 
 	if slot0.treePanel:GetLoaded() then
@@ -96,7 +101,7 @@ function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	function slot2()
-		uv0.msgbox:ActionInvoke("OnUpdate", uv1)
+		uv0.msgbox:ActionInvoke("Show", uv1)
 	end
 
 	if slot0.msgbox:GetLoaded() then
@@ -120,6 +125,15 @@ function slot0.didEnter(slot0)
 			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.skipBtn, function (slot0)
+		if uv0.isAnim then
+			return
+		end
+
+		getProxy(CommanderProxy).hasSkipFlag = true
+
+		uv0:DoExit()
+	end, SFX_CANCEL)
 	onButton(slot0, slot0.lockBtn, function ()
 		uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1 - uv0.contextData.commander:getLock())
 	end, SFX_PANEL)
@@ -132,22 +146,28 @@ function slot0.didEnter(slot0)
 			end
 
 			uv0.isAnim = nil
-		elseif uv0.contextData.commander:isSSR() and not getProxy(CommanderProxy):getCommanderById(uv0.contextData.commander.id):isLocked() then
-			uv0:openMsgBox({
-				content = i18n("commander_lock_tip"),
-				onYes = function ()
-					uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1)
-					uv0:emit(uv1.ON_CLOSE)
-				end,
-				layer = LayerWeightConst.SECOND_LAYER + 2,
-				onNo = function ()
-					uv0:emit(uv1.ON_CLOSE)
-				end
-			})
 		else
-			uv0:emit(uv1.ON_CLOSE)
+			uv0:DoExit()
 		end
 	end, SFX_CANCEL)
+end
+
+function slot0.DoExit(slot0)
+	if slot0.contextData.commander:ShouldTipLock() then
+		slot0:openMsgBox({
+			content = i18n("commander_lock_tip"),
+			onYes = function ()
+				uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1)
+				uv0:emit(uv1.ON_CLOSE)
+			end,
+			layer = LayerWeightConst.SECOND_LAYER + 2,
+			onNo = function ()
+				uv0:emit(uv1.ON_CLOSE)
+			end
+		})
+	else
+		slot0:emit(uv0.ON_CLOSE)
+	end
 end
 
 function slot0.updateLockState(slot0)

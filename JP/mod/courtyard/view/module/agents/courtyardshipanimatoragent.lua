@@ -56,7 +56,7 @@ function slot0.PlayAction(slot0, slot1, slot2)
 end
 
 function slot0.CheckMissTagAction(slot0, slot1)
-	if pg.furniture_specail_action[slot0.data:GetInterActionData():GetOwner().id] and _.detect(slot3.actions, function (slot0)
+	if pg.furniture_specail_action[slot0.data:GetInterActionData():GetOwner().configId] and _.detect(slot3.actions, function (slot0)
 		return slot0[1] == uv0
 	end) then
 		slot0:AddAnimFinishTimer(slot4[2])

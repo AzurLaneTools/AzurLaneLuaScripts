@@ -238,7 +238,7 @@ function slot0.getTalent(slot0, slot1)
 end
 
 function slot0.resetTalents(slot0)
-	slot0.talents = slot0.talentOrigins
+	slot0.talents = Clone(slot0.talentOrigins)
 end
 
 function slot0.getNotLearnedList(slot0)
@@ -473,8 +473,12 @@ function slot0.UpdateLevelAndExp(slot0, slot1, slot2)
 	slot0.level = slot1
 end
 
-function slot0.getName(slot0)
-	return slot0.name or slot0:getConfig("name")
+function slot0.getName(slot0, slot1)
+	if slot1 then
+		return slot0:getConfig("name")
+	else
+		return slot0.name or slot0:getConfig("name")
+	end
 end
 
 function slot0.setName(slot0, slot1)
@@ -487,6 +491,14 @@ end
 
 function slot0.isSSR(slot0)
 	return slot0:getRarity() == 5
+end
+
+function slot0.isSR(slot0)
+	return slot0:getRarity() == 4
+end
+
+function slot0.isR(slot0)
+	return slot0:getRarity() == 3
 end
 
 function slot0.getPainting(slot0)
@@ -550,7 +562,7 @@ end
 function slot0.getUpgradeConsume(slot0)
 	slot1 = slot0:getConfig("exp_cost")
 
-	return math.floor(slot1 + slot1 * (slot0.level - 1) * (0.85 + 0.15 * slot0.level))
+	return slot1 + slot1 * (slot0.level - 1) * (0.85 + 0.15 * slot0.level)
 end
 
 function slot0.canEquipToEliteChapter(slot0, slot1, slot2, slot3)
@@ -601,6 +613,26 @@ function slot0.UpdateHomeOpTime(slot0, slot1, slot2)
 	elseif slot1 == 3 then
 		slot0.playTime = slot2
 	end
+end
+
+function slot0.IsSameTalent(slot0)
+	if #slot0:getTalentOrigins() == #slot0:getTalents() and _.all(slot1, function (slot0)
+		return _.any(uv0, function (slot0)
+			return slot0.id == uv0.id
+		end)
+	end) then
+		return true
+	end
+
+	return false
+end
+
+function slot0.CanReset(slot0)
+	return slot0:GetNextResetAbilityTime() <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.ShouldTipLock(slot0)
+	return slot0:isSSR() and not slot0:isLocked()
 end
 
 return slot0

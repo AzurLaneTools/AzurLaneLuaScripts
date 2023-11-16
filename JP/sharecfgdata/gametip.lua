@@ -866,10 +866,6 @@ _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>不満</color>"
 }
 
-_G.pg.base.gametip.word_secondseach = {
-	tip = "/回"
-}
-
 _G.pg.base.gametip.word_max_page = {
 	tip = "最大"
 }
@@ -8914,6 +8910,10 @@ _G.pg.base.gametip.twitter_link_title = {
 	tip = "連携中のツイッター：$1"
 }
 
+_G.pg.base.gametip.commander_material_noenough = {
+	tip = "材料不足"
+}
+
 _G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "自爆を阻止した上ボス撃破"
 }
@@ -10125,7 +10125,7 @@ _G.pg.base.gametip.commander_build_pool_tip = {
 }
 
 _G.pg.base.gametip.commander_select_matiral_erro = {
-	tip = "オフニャのレベルが最大になっています。同じ名前のオフニャを消費するスキル強化以外強化を行えません"
+	tip = "レベル最大です。同じ名前のオフニャを消費するスキル強化のみ行えます"
 }
 
 _G.pg.base.gametip.commander_material_is_rarity = {
@@ -14350,7 +14350,7 @@ _G.pg.base.gametip.indexsort_type = {
 }
 
 _G.pg.base.gametip.indexsort_rarity = {
-	tip = "ﾚｱﾘﾃｨ"
+	tip = "レアリティ"
 }
 
 _G.pg.base.gametip.indexsort_extraindex = {
@@ -19940,7 +19940,7 @@ _G.pg.base.gametip.acceleration_tips_1 = {
 }
 
 _G.pg.base.gametip.acceleration_tips_2 = {
-	tip = "<color=#827c7c><size=24>(訓練完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
+	tip = "<color=#827c7c><size=24>(完了予定：ネコハコR$1個、ネコハコSR$2個、ネコハコSSR$3個)</size></color>"
 }
 
 _G.pg.base.gametip.noacceleration_tips = {
@@ -26399,4 +26399,156 @@ _G.pg.base.gametip.roll_ending_tip1 = {
 
 _G.pg.base.gametip.roll_ending_tip2 = {
 	tip = "1Fと2Fのすべてのエリアを探索しよう！"
+}
+
+_G.pg.base.gametip.commandercat_label_raw_name = {
+	tip = "元の名前"
+}
+
+_G.pg.base.gametip.commandercat_label_custom_name = {
+	tip = "変更後名前"
+}
+
+_G.pg.base.gametip.commandercat_label_display_name = {
+	tip = "変更後名前"
+}
+
+_G.pg.base.gametip.commander_selected_max = {
+	tip = "オフニャを最大$1匹選択可能"
+}
+
+_G.pg.base.gametip.word_talent = {
+	tip = "ｱﾋﾞﾘﾃｨ"
+}
+
+_G.pg.base.gametip.word_click_to_close = {
+	tip = "画面タップで戻る"
+}
+
+_G.pg.base.gametip.commander_subtile_ablity = {
+	tip = "基本能力効果"
+}
+
+_G.pg.base.gametip.commander_subtile_talent = {
+	tip = "アビリティ効果"
+}
+
+_G.pg.base.gametip.commander_confirm_tip = {
+	tip = "*強化素材に使われるオフニャは消費されます"
+}
+
+_G.pg.base.gametip.commander_level_up_tip = {
+	tip = "※レベル5上がる度にアビリティPtを1Pt得られます"
+}
+
+_G.pg.base.gametip.commander_skill_effect = {
+	tip = "スキル"
+}
+
+_G.pg.base.gametip.commander_choice_talent_1 = {
+	tip = "取得または成長させるアビリティを選択してください"
+}
+
+_G.pg.base.gametip.commander_choice_talent_2 = {
+	tip = "アビリティ"
+}
+
+_G.pg.base.gametip.commander_choice_talent_3 = {
+	tip = "新たに習得できません。入れ替えるアビリティを選択してください"
+}
+
+_G.pg.base.gametip.commander_get_box_tip_1 = {
+	tip = "ネコハコ？？型"
+}
+
+_G.pg.base.gametip.commander_get_box_tip = {
+	tip = "ランダムなオフニャ入り"
+}
+
+_G.pg.base.gametip.commander_total_gold = {
+	tip = "合計消費:"
+}
+
+_G.pg.base.gametip.commander_use_box_tip = {
+	tip = "ネコハコ選択"
+}
+
+_G.pg.base.gametip.commander_use_box_queue = {
+	tip = "訓練選択"
+}
+
+_G.pg.base.gametip.commander_command_ability = {
+	tip = "指揮補助"
+}
+
+_G.pg.base.gametip.commander_logistics_ability = {
+	tip = "兵站補助"
+}
+
+_G.pg.base.gametip.commander_tactical_ability = {
+	tip = "戦術補助"
+}
+
+_G.pg.base.gametip.commander_choice_talent_4 = {
+	tip = "※Ptを使ってアビリティを成長させよう！"
+}
+
+_G.pg.base.gametip.commander_rename_tip = {
+	tip = "※オフニャは２４時間に一度しか名前を変更できません"
+}
+
+_G.pg.base.gametip.commander_home_level_label = {
+	tip = "現在Lv"
+}
+
+_G.pg.base.gametip.commander_get_commander_coptyright = {
+	tip = "オフニャ管理センター——"
+}
+
+_G.pg.base.gametip.commander_choice_talent_reset = {
+	tip = "資金$1を消費しアビリティを初期化しますか？\tアビリティが初期配置になり、アビリティポイント$2を入手可能"
+}
+
+_G.pg.base.gametip.commander_lock_setting_title = {
+	tip = "訓練完了時、下記の条件を満たすオフニャのロックを確認する"
+}
+
+_G.pg.base.gametip.skin_exchange_confirm = {
+	tip = " <color=#92fc63>$1 *1</color> を消費して <color=#92fc63>$2</color>と交換しますか"
+}
+
+_G.pg.base.gametip.skin_purchase_confirm = {
+	tip = "<color=#92fc63>$1 *1</color>を消費し、割引価格<icon name=gem w=0.7 h=0.7/>$2で$3着せ替えを購入しますか？"
+}
+
+_G.pg.base.gametip.blackfriday_pack_lock = {
+	tip = "礼包将于$1解锁购买 "
+}
+
+_G.pg.base.gametip.skin_exchange_title = {
+	tip = "下記着せ替え交換可能"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+}
+
+_G.pg.base.gametip.skin_discount_desc = {
+	tip = "$1 *1を消費し、割引価格$2で$3着せ替えを購入しますか？"
+}
+
+_G.pg.base.gametip.skin_exchange_timelimit = {
+	tip = "下記アイテムの交換対象は$1メンテナンス後に変更されます。お早めにご使用ください"
+}
+
+_G.pg.base.gametip.blackfriday_pack_purchased = {
+	tip = "已购买"
+}
+
+_G.pg.base.gametip.commander_unsel_lock_flag_tip = {
+	tip = "保護確認設定は設定されていません。オフニャ訓練完了時に保護確認画面が表示されません"
+}
+
+_G.pg.base.gametip.skin_discount_timelimit = {
+	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
 }

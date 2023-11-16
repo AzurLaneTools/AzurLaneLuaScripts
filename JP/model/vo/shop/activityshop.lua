@@ -49,7 +49,7 @@ function slot0.getSortGoods(slot0)
 			return (slot0:canPurchase() or slot2) and 0 or 1
 		end,
 		function (slot0)
-			slot1, slot2 = slot0:CheckTimeLimit()
+			slot1, slot2, slot3 = slot0:CheckTimeLimit()
 
 			return slot1 and slot2 and 0 or 1
 		end,

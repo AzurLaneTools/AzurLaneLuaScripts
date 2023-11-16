@@ -56,6 +56,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.urTag = slot0._tf:Find("frame/urTag")
 	slot0.lockBg = slot0._tf:Find("lock_bg")
 	slot0.lockTxt = slot0.lockBg:Find("btn/Text"):GetComponent(typeof(Text))
+	slot0.sIconOldPosition = Vector2(0, 20)
 end
 
 function slot0.update(slot0, slot1)
@@ -97,6 +98,7 @@ function slot0.update(slot0, slot1)
 		LoadSpriteAsync("shipmodels/" .. slot6, function (slot0)
 			if slot0 then
 				setImageSprite(uv0.storyIcon, slot0, true)
+				uv0:UpdateStoryIconPosition(uv1)
 			end
 		end)
 		onButton(slot0, slot0.storyIconFrame, function ()
@@ -110,6 +112,24 @@ function slot0.update(slot0, slot1)
 
 	setActive(slot0.frame, true)
 	setActive(slot0._go, true)
+end
+
+function slot0.UpdateStoryIconPosition(slot0, slot1)
+	if type(slot1:getConfig("story_icon_shift")) == "table" and #slot2 >= 2 then
+		slot5 = slot0.sIconOldPosition
+
+		setAnchoredPosition(slot0.storyIcon, {
+			x = slot5.x + slot2[1],
+			y = slot5.y + slot2[2]
+		})
+	else
+		slot5 = slot0.sIconOldPosition
+
+		setAnchoredPosition(slot0.storyIcon, {
+			x = slot5.x + 0,
+			y = slot5.y + 0
+		})
+	end
 end
 
 function slot0.updateBtnState(slot0, slot1)

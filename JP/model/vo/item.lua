@@ -25,6 +25,7 @@ slot0.EXP_BOOK_TYPE = 22
 slot0.LOVE_LETTER_TYPE = 23
 slot0.SPWEAPON_MATERIAL_TYPE = 24
 slot0.METALESSON_TYPE = 25
+slot0.SKIN_ASSIGNED_TYPE = 26
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -105,16 +106,6 @@ function slot0.isTecSpeedUpType(slot0)
 	return slot0:getConfig("type") == uv0.TEC_SPEEDUP_TYPE
 end
 
-function slot0.VItem2SkinCouponShopId(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(pg.shop_discount_coupon_template.get_id_list_by_item[slot0]) do
-		table.insert(slot1, slot7)
-	end
-
-	return slot1
-end
-
 function slot0.IsMaxCnt(slot0)
 	return slot0:getConfig("max_num") <= slot0.count
 end
@@ -154,6 +145,30 @@ function slot0.CombinationDisplay(slot0, slot1)
 
 		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. i18n("random_skin_list_item_desc_label") .. slot2.skinName .. slot3
 	end), ";"))
+end
+
+function slot0.InTimeLimitSkinAssigned(slot0)
+	if pg.item_data_statistics[slot0].type ~= uv0.SKIN_ASSIGNED_TYPE then
+		return false
+	end
+
+	return getProxy(ActivityProxy):IsActivityNotEnd(pg.item_data_template[slot0].usage_arg[1])
+end
+
+function slot0.IsAllSkinOwner(slot0)
+	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
+
+	slot2 = slot0:getTempCfgTable().usage_arg[3]
+
+	if Item.InTimeLimitSkinAssigned(slot0.id) then
+		slot2 = table.mergeArray(slot1[2], slot2, true)
+	end
+
+	slot3 = getProxy(ShipSkinProxy)
+
+	return underscore.all(slot2, function (slot0)
+		return uv0:hasNonLimitSkin(slot0)
+	end), slot2
 end
 
 return slot0

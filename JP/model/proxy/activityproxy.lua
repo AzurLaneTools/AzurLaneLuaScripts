@@ -651,30 +651,6 @@ function slot0.remove(slot0)
 	slot0:RemoveInstagramTimer()
 end
 
-function slot0.ExistSkinCouponActivityAndItemId(slot0, slot1)
-	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1) and slot2.data1 == 1
-end
-
-function slot0.ExistSkinCoupon(slot0, slot1)
-	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1)
-end
-
-function slot0.ExistSkinCouponActivity(slot0)
-	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot1:isEnd()
-end
-
-function slot0.MarkSkinCoupon(slot0, slot1)
-	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() then
-		slot2.data1 = 1
-
-		if not table.contains(slot2.data1_list, slot1) then
-			table.insert(slot2.data1_list, slot1)
-		end
-
-		slot0:updateActivity(slot2)
-	end
-end
-
 function slot0.addActivityParameter(slot0, slot1)
 	slot3 = slot1.stopTime
 

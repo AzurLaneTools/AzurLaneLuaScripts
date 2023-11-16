@@ -30,7 +30,7 @@ function slot0.isDisCount(slot0)
 	slot1 = uv0.InCommodityDiscountTime(slot0.id)
 
 	if slot0:IsItemDiscountType() then
-		return slot1
+		return true
 	else
 		slot2 = slot0:getConfig("discount") ~= 0 and slot1
 
@@ -76,7 +76,7 @@ function slot0.GetPrice(slot0)
 	slot2 = slot0:getConfig("resource_num")
 
 	if slot0:isDisCount() and slot0:IsItemDiscountType() then
-		slot4 = pg.shop_discount_coupon_template[slot0.id].discounted_price
+		slot4 = SkinCouponActivity.StaticGetNewPrice(slot2)
 		slot1 = (slot2 - slot4) / slot2 * 100
 		slot2 = slot4
 	elseif slot3 then
@@ -84,6 +84,10 @@ function slot0.GetPrice(slot0)
 	end
 
 	return slot2, slot1
+end
+
+function slot0.GetBasePrice(slot0)
+	return slot0:getConfig("resource_num")
 end
 
 function slot0.GetName(slot0)
@@ -95,11 +99,7 @@ function slot0.GetResType(slot0)
 end
 
 function slot0.IsItemDiscountType(slot0)
-	slot2 = pg.shop_discount_coupon_template
-
-	return slot0:getConfig("genre") == ShopArgs.SkinShop and slot2[slot0.id] ~= nil and (function (slot0)
-		return getProxy(ActivityProxy):ExistSkinCouponActivityAndItemId(slot0)
-	end)(slot2[slot0.id].item)
+	return slot0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticCanUsageSkinCoupon(slot0.id)
 end
 
 function slot0.getLimitCount(slot0)
@@ -115,7 +115,11 @@ function slot0.getLimitCount(slot0)
 end
 
 function slot0.GetDiscountItem(slot0)
-	return pg.item_data_statistics[pg.shop_discount_coupon_template[slot0.id].item]
+	if slot0:IsItemDiscountType() then
+		return SkinCouponActivity.StaticGetItemConfig()
+	end
+
+	return nil
 end
 
 function slot0.isLevelLimit(slot0, slot1, slot2)
@@ -196,12 +200,30 @@ function slot0.GetDropList(slot0)
 	return slot1
 end
 
-function slot0.IsGroupLimit(slot0, slot1)
+function slot0.IsGroupLimit(slot0)
 	if slot0:getConfig("group") <= 0 then
 		return false
 	end
 
-	return slot0:getConfig("group_limit") > 0 and slot3 <= (slot0.groupCount or 0)
+	return slot0:getConfig("group_limit") > 0 and slot2 <= (slot0.groupCount or 0)
+end
+
+function slot0.GetLimitDesc(slot0)
+	slot2 = slot0.buyCount or 0
+
+	if slot0:getLimitCount() > 0 then
+		return i18n("charge_limit_all", slot1 - slot2, slot1)
+	end
+
+	if slot0:getConfig("group_limit") > 0 then
+		if (slot0:getConfig("group_type") or 0) == 1 then
+			return i18n("charge_limit_daily", slot3 - slot0.groupCount, slot3)
+		elseif slot4 == 2 then
+			return i18n("charge_limit_weekly", slot3 - slot0.groupCount, slot3)
+		end
+	end
+
+	return ""
 end
 
 return slot0

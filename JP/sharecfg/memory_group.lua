@@ -170,6 +170,7 @@ pg.memory_group = setmetatable({
 		262,
 		263,
 		264,
+		265,
 		501,
 		502,
 		503,
@@ -258,7 +259,8 @@ pg.memory_group = setmetatable({
 		588,
 		589,
 		590,
-		591
+		591,
+		592
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4051,6 +4053,19 @@ pg.base.memory_group = {
 			3128
 		}
 	},
+	[265] = {
+		id = 265,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5082,
+		title = "今日主推商品是…？",
+		memories = {
+			3141,
+			3142,
+			3143
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -5575,6 +5590,23 @@ pg.base.memory_group = {
 			3055,
 			3056,
 			3057
+		}
+	},
+	[592] = {
+		id = 592,
+		subtype = 0,
+		icon = "title_chara_pangpei",
+		type = 3,
+		link_event = 0,
+		title = "キャプテンポンペイにおまかせを！",
+		memories = {
+			3131,
+			3132,
+			3133,
+			3134,
+			3135,
+			3136,
+			3137
 		}
 	}
 }
