@@ -21,10 +21,12 @@ function slot0.register(slot0)
 			op = 3
 		})
 	end)
-	slot0:bind(uv0.ON_SEL_COMMANDER, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_SEL_COMMANDER, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.PUT_COMMANDER_IN_CATTERY, {
 			id = slot1,
-			commanderId = slot2
+			commanderId = slot2,
+			tip = defaultValue(slot3, true),
+			callback = slot4
 		})
 	end)
 	slot0:bind(uv0.ON_CHANGE_STYLE, function (slot0, slot1, slot2)

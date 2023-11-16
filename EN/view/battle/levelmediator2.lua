@@ -91,12 +91,12 @@ function slot0.register(slot0)
 			slot8 = getProxy(CommanderProxy):getCommanderById(slot6[slot2])
 		end
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
-			mode = CommandRoomScene.MODE_SELECT,
+			mode = CommanderCatScene.MODE_SELECT,
 			activeCommander = slot8,
 			ignoredIds = {},
-			fleetType = CommandRoomScene.FLEET_TYPE_HARD_CHAPTER,
+			fleetType = CommanderCatScene.FLEET_TYPE_HARD_CHAPTER,
 			chapterId = slot5,
 			onCommander = function (slot0)
 				return true

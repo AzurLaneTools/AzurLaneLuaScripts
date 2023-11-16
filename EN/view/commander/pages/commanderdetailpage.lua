@@ -9,7 +9,44 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Load()
 end
 
-function slot0.OnInit(slot0)
+function slot0.RegisterEvent(slot0)
+	slot0:bind(CommanderCatScene.EVENT_CLOSE_DESC, function (slot0)
+		triggerToggle(uv0.skillBtn, false)
+		triggerToggle(uv0.additionBtn, false)
+		triggerToggle(uv0.otherBtn, false)
+	end)
+	slot0:bind(CommanderCatScene.EVENT_FOLD, function (slot0, slot1)
+		triggerToggle(uv0.skillBtn, false)
+		triggerToggle(uv0.additionBtn, false)
+		triggerToggle(uv0.otherBtn, false)
+
+		if slot1 then
+			LeanTween.moveY(rtf(uv0.commanderInfo), -400, 0.5)
+		else
+			LeanTween.moveY(rtf(uv0.commanderInfo), 71, 0.5)
+		end
+	end)
+	slot0:bind(CommanderCatScene.EVENT_PREVIEW, function (slot0, slot1)
+		uv0:UpdatePreView(slot1)
+	end)
+	slot0:bind(CommanderCatScene.EVENT_PREVIEW_PLAY, function (slot0, slot1, slot2)
+		triggerToggle(uv0.skillBtn, true)
+		triggerToggle(uv0.otherBtn, not (not slot1 or #slot1 <= 0 or slot2))
+		triggerToggle(uv0.additionBtn, false)
+		setToggleEnabled(uv0.additionBtn, false)
+		uv0:UpdatePreViewWithOther(slot1)
+	end)
+	slot0:bind(CommanderCatScene.EVENT_PREVIEW_ADDITION, function (slot0, slot1)
+		triggerToggle(uv0.skillBtn, true)
+		triggerToggle(uv0.additionBtn, true)
+		uv0:UpdatePreviewAddition(slot1)
+	end)
+	slot0:bind(CommanderCatDockPage.ON_SORT, function (slot0, slot1)
+		uv0:OnSort(slot1)
+	end)
+end
+
+function slot0.OnLoaded(slot0)
 	slot0.statement = slot0:findTF("detail/statement")
 	slot0.statement.localScale = Vector3(1, 0, 1)
 	slot0.talentSkill = slot0:findTF("detail/talent_skill")
@@ -19,7 +56,7 @@ function slot0.OnInit(slot0)
 	slot0.talentAdditionTF = slot0:findTF("talents/scroll/content", slot0.statement)
 	slot0.talentAdditionList = UIItemList.New(slot0.talentAdditionTF, slot0.talentAdditionTF:GetChild(0))
 	slot0.skillIcon = slot0:findTF("skill/icon/Image", slot0.talentSkill)
-	slot0.lockTF = slot0:findTF("lock")
+	slot0.lockTF = slot0:findTF("info/lock")
 	slot0.commanderInfo = slot0:findTF("info")
 	slot0.expPanel = slot0:findTF("exp", slot0.commanderInfo)
 	slot0.commanderLevelTxt = slot0:findTF("exp/level", slot0.commanderInfo):GetComponent(typeof(Text))
@@ -39,8 +76,23 @@ function slot0.OnInit(slot0)
 	slot0.abilityTF = slot0:findTF("ablitys", slot0.commanderInfo)
 	slot0.skillBtn = slot0:findTF("skill_btn", slot0.commanderInfo)
 	slot0.additionBtn = slot0:findTF("addition_btn", slot0.commanderInfo)
+	slot0.otherBtn = slot0:findTF("other_btn", slot0.commanderInfo)
+	slot0.otherCommanderNameTxt = slot0:findTF("detail/other/name/Text"):GetComponent(typeof(Text))
+	slot0.otherCommanderSkillImg = slot0:findTF("detail/other/skill/Image")
+	slot0.otherCommanderTalentList = UIItemList.New(slot0:findTF("detail/other/talent"), slot0:findTF("detail/other/talent/tpl"))
+	slot0.otherCommanderDescTxt = slot0:findTF("detail/other/desc/mask/Text"):GetComponent(typeof(ScrollText))
 	slot0.blurPanel = slot0._parentTf.parent
 	slot0.blurPanelParent = slot0.blurPanel.parent
+	slot0.renamePanel = CommanderRenamePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+
+	setText(slot0:findTF("detail/statement/atttrs/title/Text"), i18n("commander_subtile_ablity"))
+	setText(slot0:findTF("detail/statement/talents/title/Text"), i18n("commander_subtile_talent"))
+end
+
+function slot0.OnInit(slot0)
+	slot0:RegisterEvent()
+
+	slot0.isOnAddition = false
 	slot0.isOnSkill = false
 
 	onToggle(slot0, slot0.skillBtn, function (slot0)
@@ -49,12 +101,9 @@ function slot0.OnInit(slot0)
 		uv0:Blur()
 
 		if slot0 then
-			uv0:emit(CommanderInfoMediator.ON_CLOSE_PANEL_SElF)
+			uv0:emit(CommanderCatScene.EVENT_OPEN_DESC)
 		end
 	end, SFX_PANEL)
-
-	slot0.isOnAddition = false
-
 	onToggle(slot0, slot0.additionBtn, function (slot0)
 		uv0.isOnAddition = slot0
 		uv0.statement.localScale = slot0 and Vector3(1, 1, 1) or Vector3(1, 0, 1)
@@ -62,93 +111,69 @@ function slot0.OnInit(slot0)
 		uv0:Blur()
 
 		if slot0 then
-			uv0:emit(CommanderInfoMediator.ON_CLOSE_PANEL_SElF)
+			uv0:emit(CommanderCatScene.EVENT_OPEN_DESC)
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.otherBtn, function (slot0)
+		uv0.isOnOther = slot0
+
+		uv0:Blur()
+
+		if slot0 then
+			uv0:emit(CommanderCatScene.EVENT_OPEN_DESC)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.modifyNameBtn, function ()
 		if not uv0.commanderVO:canModifyName() then
-			uv0:emit(CommandRoomMediator.SHOW_MSGBOX, {
+			uv0.contextData.msgBox:ExecuteAction("Show", {
 				content = i18n("commander_rename_coldtime_tip", slot0:getRenameTimeDesc())
 			})
 		else
-			uv0:emit(CommandRoomMediator.OPEN_RENAME_PANEL, slot0)
+			uv0.renamePanel:ExecuteAction("Show", slot0)
 		end
 	end, SFX_PANEL)
-	slot0:Hide()
-
-	slot0.blurFlag = false
-end
-
-function slot0.updateLockState(slot0)
-	setActive(slot0.lockTF:Find("image"), slot0.commanderVO:getLock() == 0)
-	onButton(slot0, slot0.lockTF, function ()
-		uv1:emit(CommandRoomMediator.ON_LOCK, uv1.commanderVO.id, 1 - uv0)
-	end, SFX_PANEL)
-end
-
-function slot0.HideExp(slot0)
-	setActive(slot0.expPanel, false)
-end
-
-function slot0.Blur(slot0)
-	function slot1(slot0)
-		uv0.blurFlag = slot0
-
-		if slot0 then
-			pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel)
-		else
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0.blurPanelParent)
-		end
-	end
-
-	if slot0.isOnAddition or slot0.isOnSkill then
-		slot1(true)
-	else
-		slot1(false)
-	end
-end
-
-function slot0.onPaintingView(slot0)
-	if slot0.blurFlag then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
-	end
-end
-
-function slot0.onExitPaintingView(slot0)
-	if slot0.blurFlag then
-		pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
-	end
 end
 
 function slot0.Update(slot0, slot1, slot2)
 	slot0.commanderVO = slot1
-	slot0.newCommander = slot2
 
 	slot0:UpdateInfo()
-	slot0:updateTalents()
-	slot0:updateSkills()
-	slot0:updateLockState()
-	slot0:updatePreView(nil)
+	slot0:UpdateTalents()
+	slot0:UpdateSkills()
+	slot0:UpdateAbilityAddition()
+	slot0:UpdateTalentAddition()
+	slot0:UpdateAbilitys()
+	slot0:UpdateLockState()
 	slot0:UpdateLevel()
+	slot0:UpdateStyle(slot2)
 	slot0._tf:SetAsFirstSibling()
 	slot0:Show()
 end
 
-function slot0.updatePreView(slot0, slot1, slot2)
-	slot0:updateAbilitys(slot1)
-	slot0:updatePreviewAddition(slot1, slot2)
-	slot0:UpdateLevel(slot1)
+function slot0.UpdateLockState(slot0)
+	setActive(slot0.lockTF:Find("image"), slot0.commanderVO:getLock() == 0)
+	onButton(slot0, slot0.lockTF, function ()
+		uv1:emit(CommanderCatMediator.LOCK, uv1.commanderVO.id, 1 - uv0)
+	end, SFX_PANEL)
 end
 
-function slot0.updatePreviewAddition(slot0, slot1, slot2)
-	slot0:updateAbilityAddition(slot1, slot2)
-	slot0:updateTalentAddition(slot1, slot2)
+function slot0.UpdateStyle(slot0, slot1)
+	if slot1 then
+		triggerToggle(slot0.skillBtn, true)
+		triggerToggle(slot0.additionBtn, true)
+		setActive(slot0.lockTF, false)
+	end
+
+	setButtonEnabled(slot0.modifyNameBtn, not slot1)
 end
 
 function slot0.UpdateInfo(slot0)
-	slot1 = slot0.commanderVO
+	if slot0.rarityPrint ~= Commander.rarity2Print(slot0.commanderVO:getRarity()) then
+		LoadImageSpriteAsync("CommanderRarity/" .. slot2, slot0.rarityImg, true)
 
-	LoadImageSpriteAsync("CommanderRarity/" .. Commander.rarity2Print(slot1:getRarity()), slot0.rarityImg, true)
+		slot0.rarityPrint = slot2
+	end
+
 	eachChild(slot0.fleetnums, function (slot0)
 		setActive(slot0, go(slot0).name == tostring(uv0.fleetId or ""))
 	end)
@@ -160,7 +185,70 @@ function slot0.UpdateInfo(slot0)
 	setActive(slot0.fleetTF, slot1.fleetId and not slot1.inBattle and not slot1.sub)
 	setActive(slot0.leisureTF, not slot1.inFleet and not slot1.inBattle)
 	setActive(slot0.labelInBattleTF, slot1.inBattle)
-	slot0.commanderNameTxt:SetText(slot1:getName())
+	slot0.commanderNameTxt:SetText(slot0.commanderVO:getName(defaultValue(slot0.forceDefaultName, false)))
+end
+
+function slot0.OnSort(slot0, slot1)
+	slot3 = not slot1
+	slot0.forceDefaultName = slot3
+
+	slot0.commanderNameTxt:SetText(slot0.commanderVO:getName(slot3))
+end
+
+function slot0.UpdatePreView(slot0, slot1)
+	slot0:UpdateAbilitys(slot1)
+	slot0:UpdatePreviewAddition(slot1)
+	slot0:UpdateLevel(slot1)
+end
+
+function slot0.UpdatePreViewWithOther(slot0, slot1)
+	if not slot1 or #slot1 <= 0 then
+		return
+	end
+
+	slot2 = Clone(slot0.commanderVO)
+
+	slot2:addExp(CommanderCatUtil.GetSkillExpAndCommanderExp(slot2, slot1))
+	slot0:UpdateOtherCommander(getProxy(CommanderProxy):getCommanderById(slot1[#slot1]))
+	slot0:UpdateLevel(slot2)
+	slot0:UpdateAbilitys(slot2)
+end
+
+function slot0.UpdatePreviewAddition(slot0, slot1)
+	slot0:UpdateAbilityAddition(slot1)
+	slot0:UpdateTalentAddition()
+end
+
+function slot0.UpdateOtherCommander(slot0, slot1)
+	slot0.otherCommanderNameTxt.text = slot1:getName()
+	slot4 = slot1:GetDisplayTalents()
+
+	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot1:getSkills()[1]:getConfig("icon"), "", slot0.otherCommanderSkillImg)
+	slot0.otherCommanderTalentList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot2:Find("Text"), "")
+
+			if uv0[slot1 + 1] then
+				uv1:UpdateTalent(uv2, slot3, slot2)
+				onToggle(uv1, slot2, function (slot0)
+					if slot0 then
+						uv0.otherCommanderDescTxt:SetText(uv1:getConfig("desc"))
+					end
+				end, SFX_PANEL)
+
+				if slot1 == 0 then
+					triggerToggle(slot2, true)
+				end
+			end
+
+			setActive(slot2:Find("empty"), slot3 == nil)
+
+			slot2:GetComponent(typeof(Image)).enabled = slot3 ~= nil
+
+			setActive(slot2:Find("lock"), slot3 and not uv2:IsLearnedTalent(slot3.id))
+		end
+	end)
+	slot0.otherCommanderTalentList:align(5)
 end
 
 function slot0.UpdateLevel(slot0, slot1)
@@ -174,7 +262,7 @@ function slot0.UpdateLevel(slot0, slot1)
 	end
 end
 
-function slot0.updateAbilitys(slot0, slot1)
+function slot0.UpdateAbilitys(slot0, slot1)
 	slot3 = slot0.commanderVO:getAbilitys()
 	slot4 = nil
 
@@ -195,64 +283,61 @@ function slot0.updateAbilitys(slot0, slot1)
 	end
 end
 
-function slot0.updateAbilityAddition(slot0, slot1, slot2)
-	slot4 = slot0.commanderVO:getAbilitysAddition()
-	slot5 = nil
+function slot0.UpdateAbilityAddition(slot0, slot1)
+	slot3 = slot0.commanderVO:getAbilitysAddition()
+	slot4 = nil
 
 	if slot1 then
-		slot5 = slot1:getAbilitysAddition()
+		slot4 = slot1:getAbilitysAddition()
 	end
 
-	slot6 = 0
+	slot5 = 0
 
-	for slot10, slot11 in pairs(slot4) do
-		if slot11 > 0 then
-			slot12 = slot0.abilityAdditionTF:GetChild(slot6)
+	for slot9, slot10 in pairs(slot3) do
+		if slot10 > 0 then
+			slot11 = slot0.abilityAdditionTF:GetChild(slot5)
 
-			GetImageSpriteFromAtlasAsync("attricon", slot10, slot12:Find("bg/icon"), false)
-			setText(slot12:Find("bg/name"), AttributeType.Type2Name(slot10))
+			GetImageSpriteFromAtlasAsync("attricon", slot9, slot11:Find("bg/icon"), false)
+			setText(slot11:Find("bg/name"), AttributeType.Type2Name(slot9))
 
-			slot13 = string.format("%0.3f", slot11)
+			slot12 = string.format("%0.3f", slot10)
 
-			setText(slot12:Find("bg/value"), "+" .. math.floor(slot11 * 1000) / 1000 .. "%")
+			setText(slot11:Find("bg/value"), "+" .. math.floor(slot10 * 1000) / 1000 .. "%")
 
-			slot14 = slot5 and slot5[slot10] or slot11
+			slot13 = slot4 and slot4[slot9] or slot10
 
-			if slot2 then
-				setActive(slot12:Find("up"), slot14 < slot11)
-				setActive(slot12:Find("down"), slot11 < slot14)
-			else
-				setActive(slot12:Find("up"), slot11 < slot14)
-				setActive(slot12:Find("down"), slot14 < slot11)
-			end
+			setActive(slot11:Find("up"), slot13 < slot10)
+			setActive(slot11:Find("down"), slot10 < slot13)
 
-			slot6 = slot6 + 1
+			slot5 = slot5 + 1
 		end
 	end
 end
 
-function slot0.updateTalents(slot0)
-	function slot1(slot0, slot1)
-		setText(slot1:Find("Text"), slot0:getConfig("name"))
-		GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot0:getConfig("icon"), "", slot1)
-	end
-
+function slot0.UpdateTalents(slot0)
 	slot0.talentList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-
-			uv1(slot3, slot2)
-			onButton(uv2, slot2, function ()
-				uv0:emit(CommandRoomMediator.ON_TREE_MSGBOX, uv1)
-			end, SFX_PANEL)
-			setActive(slot2:Find("lock"), not uv3:IsLearnedTalent(slot3.id))
+			uv1:UpdateTalent(uv2, uv0[slot1 + 1], slot2)
 		end
 	end)
 	slot0.talentList:align(#slot0.commanderVO:GetDisplayTalents())
 end
 
-function slot0.updateTalentAddition(slot0, slot1, slot2)
-	slot4 = nil
+function slot0.UpdateTalent(slot0, slot1, slot2, slot3)
+	setText(slot3:Find("Text"), slot2:getConfig("name"))
+	GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot2:getConfig("icon"), "", slot3)
+
+	if slot3:GetComponent(typeof(Button)) then
+		onButton(slot0, slot3, function ()
+			uv0.contextData.treePanel:ExecuteAction("Show", uv1)
+		end, SFX_PANEL)
+	end
+
+	setActive(slot3:Find("lock"), not slot1:IsLearnedTalent(slot2.id))
+end
+
+function slot0.UpdateTalentAddition(slot0)
+	slot2 = nil
 
 	slot0.talentAdditionList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -269,32 +354,46 @@ function slot0.updateTalentAddition(slot0, slot1, slot2)
 	slot0.talentAdditionList:align(#_.values(slot0.commanderVO:getTalentsDesc()))
 end
 
-function slot0.updateSkills(slot0)
+function slot0.UpdateSkills(slot0)
 	slot1 = slot0.commanderVO
 	slot3 = slot1:getSkills()[1]
 
 	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3:getConfig("icon"), "", slot0.skillIcon)
 	onButton(slot0, slot0.skillIcon, function ()
-		uv0:emit(CommandRoomMediator.ON_CMD_SKILL, uv1)
-	end)
+		uv0:emit(CommanderCatMediator.SKILL_INFO, uv1)
+	end, SFX_PANEL)
 end
 
-function slot0.ToggleOn(slot0)
-	triggerToggle(slot0.skillBtn, true)
-	triggerToggle(slot0.additionBtn, true)
-	setActive(slot0.lockTF, false)
-end
+function slot0.CanBack(slot0)
+	if slot0.renamePanel and slot0.renamePanel:GetLoaded() and slot0.renamePanel:isShowing() then
+		slot0.renamePanel:Hide()
 
-function slot0.tweenHide(slot0, slot1)
-	LeanTween.moveY(rtf(slot0._tf), -1100, slot1)
-end
+		return false
+	end
 
-function slot0.tweenShow(slot0, slot1)
-	LeanTween.moveY(rtf(slot0._tf), 0, slot1)
+	return true
 end
 
 function slot0.OnDestroy(slot0)
-	if slot0.blurFlag then
+	if slot0.isBlur then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
+	end
+
+	if slot0.renamePanel then
+		slot0.renamePanel:Destroy()
+
+		slot0.renamePanel = nil
+	end
+end
+
+function slot0.Blur(slot0)
+	if slot0.isOnAddition or slot0.isOnSkill or slot0.isOnOther then
+		slot0.isBlur = true
+
+		pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
+	else
+		slot0.isBlur = false
+
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
 	end
 end

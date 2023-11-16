@@ -23,7 +23,9 @@ function slot0.GetType2Class()
 		[ActivityConst.ACTIVITY_TYPE_HOTSPRING] = SpringActivity,
 		[ActivityConst.ACTIVITY_TYPE_HOTSPRING_2] = Spring2Activity,
 		[ActivityConst.ACTIVITY_TYPE_TASK_RYZA] = ActivityTaskActivity,
-		[ActivityConst.ACTIVITY_TYPE_PUZZLA] = PuzzleActivity
+		[ActivityConst.ACTIVITY_TYPE_PUZZLA] = PuzzleActivity,
+		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] = SkinCouponActivity,
+		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = ManualSignActivity
 	}
 
 	return uv0
@@ -319,7 +321,7 @@ function slot0.readyToAchieve(slot0)
 				slot4 = getProxy(ActivityProxy):getActivityById(slot5) and slot6:readyToAchieve() or false
 			end
 
-			return slot2 and slot3 or slot4
+			return slot2 and slot3 or slot4 or type(slot0:getConfig("config_client")[2]) == "number" and ManualSignActivity.IsManualSignActAndAnyAwardCanGet(slot6)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = function (...)
 			return uv0.readyToAchieveDic[ActivityConst.ACTIVITY_TYPE_PIZZA_PT](...)
@@ -608,6 +610,13 @@ function slot0.readyToAchieve(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_ZUMA] = function (slot0)
 			return LaunchBallActivityMgr.GetInvitationAble(slot0.id)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_GIFT_UP] = function (slot0)
+			slot1 = slot0:getConfig("config_client").gifts[2]
+
+			return underscore(slot1):chain():first(math.min(#slot1, slot0:getNDay())):any(function (slot0)
+				return getProxy(ShopsProxy):GetGiftCommodity(slot0, Goods.TYPE_GIFT_PACKAGE):canPurchase() and slot1:inTime() and not slot1:IsGroupLimit()
+			end):value()
 		end
 	}
 
@@ -780,6 +789,12 @@ function slot0.getStartTime(slot0)
 	else
 		return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
 	end
+end
+
+function slot0.getNDay(slot0, slot1)
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return slot2:DiffDay(slot1 or slot0:getStartTime(), slot2:GetServerTime()) + 1
 end
 
 function slot0.isVariableTime(slot0)

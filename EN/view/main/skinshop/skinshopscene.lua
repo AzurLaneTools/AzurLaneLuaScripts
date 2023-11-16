@@ -819,29 +819,21 @@ function slot0.updateBuyBtn(slot0, slot1)
 		onButton(slot0, slot0.buyBtn, function ()
 			if uv0.type == Goods.TYPE_SKIN then
 				if uv1.showCardId == slot0.id then
-					slot2 = i18n("charge_scene_buy_confirm", slot0:GetPrice(), uv2.name)
-
 					if uv0:isDisCount() and slot0:IsItemDiscountType() then
-						slot2 = i18n("discount_coupon_tip", slot1, slot0:GetDiscountItem().name, uv2.name)
-					end
-
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = slot2,
-						onYes = function ()
-							if uv0 then
-								uv1:emit(SkinShopMediator.ON_SHOPPING_BY_ACT, uv2.id, 1)
-							else
-								uv1:emit(SkinShopMediator.ON_SHOPPING, uv2.id, 1)
+						uv1:emit(SkinShopMediator.ON_SHOPPING_BY_ACT, slot0.id, 1)
+					else
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							content = i18n("charge_scene_buy_confirm", slot0:GetPrice(), uv2.name),
+							onYes = function ()
+								uv0:emit(SkinShopMediator.ON_SHOPPING, uv1.id, 1)
 							end
-						end
-					})
+						})
+					end
+				else
+					pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 					return
 				end
-
-				pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
-
-				return
 			end
 		end, SFX_PANEL)
 		onButton(slot0, slot0.activityBtn, function ()

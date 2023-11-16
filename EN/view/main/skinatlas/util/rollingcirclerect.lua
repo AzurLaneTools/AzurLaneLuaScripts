@@ -20,7 +20,7 @@ function slot0.AddItem(slot0, slot1)
 	slot2 = nil
 
 	if #slot0.childs <= 0 then
-		slot2 = RollingCircleItem.New(slot0.tpl, slot3 + 1, slot1)
+		RollingCircleItem.New(slot0.tpl, slot3 + 1, slot1):Init()
 	else
 		slot2 = RollingCircleItem.New(Object.Instantiate(slot0.tpl, slot0.tpl.parent), slot3 + 1, slot1)
 		slot5 = slot0.childs[#slot0.childs]
@@ -30,6 +30,7 @@ function slot0.AddItem(slot0, slot1)
 		slot2:SetNext(slot6)
 		slot6:SetPrev(slot2)
 		slot5:SetNext(slot2)
+		slot2:Init()
 	end
 
 	table.insert(slot0.childs, slot2)

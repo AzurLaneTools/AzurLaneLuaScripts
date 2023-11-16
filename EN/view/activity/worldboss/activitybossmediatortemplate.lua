@@ -495,11 +495,11 @@ function slot0.BindEvent(slot0)
 		}))
 	end)
 	slot0:bind(uv0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
-		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
-			mode = CommandRoomScene.MODE_SELECT,
+			mode = CommanderCatScene.MODE_SELECT,
 			activeCommander = uv0:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2],
-			fleetType = CommandRoomScene.FLEET_TYPE_ACTBOSS,
+			fleetType = CommanderCatScene.FLEET_TYPE_ACTBOSS,
 			ignoredIds = {},
 			onCommander = function (slot0)
 				return true

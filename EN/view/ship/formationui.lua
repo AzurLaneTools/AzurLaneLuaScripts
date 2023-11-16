@@ -235,7 +235,7 @@ function slot0.quickExitFunc(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.isOpenCommander = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator") and not LOCK_COMMANDER
+	slot0.isOpenCommander = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator") and not LOCK_COMMANDER
 	slot1 = getProxy(ActivityProxy):getBuffShipList()
 
 	slot0._formationLogic:AddHeroInfoModify(function (slot0, slot1)

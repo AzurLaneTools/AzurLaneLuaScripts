@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5069",
+		param = "5082",
 		id = 1,
-		pic = "temp1",
+		pic = "temp9",
 		type = 3,
 		time = {
 			{
 				{
 					2023,
 					11,
-					9
+					16
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					15
+					30
 				},
 				{
 					23,
@@ -34,13 +34,12 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp2",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new",
-				page = 1
+				wrap = 2
 			}
 		},
 		time = {
@@ -48,7 +47,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					9
+					16
 				},
 				{
 					0,
@@ -60,7 +59,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					15
+					30
 				},
 				{
 					23,
@@ -83,7 +82,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					9
+					16
 				},
 				{
 					0,
@@ -95,7 +94,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					15
+					30
 				},
 				{
 					23,
@@ -173,28 +172,28 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5053",
+		param = "5078",
 		id = 6,
-		pic = "temp9",
+		pic = "temp1",
 		type = 3,
 		time = {
 			{
 				{
 					2023,
 					11,
-					3
+					16
 				},
 				{
-					12,
+					0,
 					0,
 					0
 				}
 			},
 			{
 				{
-					2023,
-					11,
-					15
+					2024,
+					1,
+					10
 				},
 				{
 					23,
@@ -206,12 +205,13 @@ pg.activity_banner = {
 	},
 	{
 		id = 7,
-		pic = "temp6",
+		pic = "temp2",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -219,7 +219,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					9
+					16
 				},
 				{
 					0,
@@ -231,7 +231,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					15
+					23
 				},
 				{
 					23,
@@ -322,7 +322,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					9
+					16
 				},
 				{
 					0,
@@ -334,7 +334,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					15
+					30
 				},
 				{
 					23,
@@ -353,10 +353,35 @@ pg.activity_banner = {
 	},
 	[95] = {
 		param = "",
-		time = "stop",
-		type = 11,
 		id = 95,
-		pic = "temp100"
+		pic = "temp100",
+		type = 11,
+		time = {
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[99] = {
 		param = "",

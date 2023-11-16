@@ -54,7 +54,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	}
 
 	if isa(slot1, ActivityCommodity) then
-		slot4, slot5 = slot1:CheckTimeLimit()
+		slot4, slot5, slot6 = slot1:CheckTimeLimit()
 
 		setActive(slot0.timeLimitTF, slot4)
 

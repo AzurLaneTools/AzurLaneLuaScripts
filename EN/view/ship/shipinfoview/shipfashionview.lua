@@ -282,24 +282,15 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		elseif uv4 then
 			if uv5 or uv6 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
+			elseif Goods.Create({
+				shop_id = uv4.id
+			}, Goods.TYPE_SKIN):isDisCount() and slot0:IsItemDiscountType() then
+				uv2:emit(ShipMainMediator.BUY_ITEM_BY_ACT, uv4.id, 1)
 			else
-				slot0 = Goods.Create({
-					shop_id = uv4.id
-				}, Goods.TYPE_SKIN)
-				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv3.name)
-
-				if slot0:isDisCount() and slot0:IsItemDiscountType() then
-					slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, uv3.name)
-				end
-
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = slot3,
+					content = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv3.name),
 					onYes = function ()
-						if uv0 then
-							uv1:emit(ShipMainMediator.BUY_ITEM_BY_ACT, uv2.id, 1)
-						else
-							uv1:emit(ShipMainMediator.BUY_ITEM, uv2.id, 1)
-						end
+						uv0:emit(ShipMainMediator.BUY_ITEM, uv1.id, 1)
 					end
 				})
 			end

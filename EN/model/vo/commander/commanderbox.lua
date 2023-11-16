@@ -93,4 +93,16 @@ function slot0.getFetchPrefab(slot0)
 	return slot0.rarity2Str[slot0.pool:getRarity()] .. "NekoBox4"
 end
 
+function slot0.IsSsr(slot0)
+	return slot0.pool:getRarity() == 3
+end
+
+function slot0.IsSr(slot0)
+	return slot0.pool:getRarity() == 2
+end
+
+function slot0.IsR(slot0)
+	return slot0.pool:getRarity() == 1
+end
+
 return slot0

@@ -180,6 +180,12 @@ function slot0.setItem(slot0, slot1)
 				uv0:closeView()
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
 			end, SFX_PANEL)
+		elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
+			setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
+			onButton(slot0, slot0.useOneBtn, function ()
+				uv0.contextData.confirmCall()
+				uv0:closeView()
+			end, SFX_PANEL)
 		end
 	end
 end

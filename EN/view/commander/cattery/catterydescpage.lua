@@ -34,6 +34,7 @@ function slot0.OnLoaded(slot0)
 	slot0.commanderLevelTxt = slot0.commanderExp:Find("level/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpTxt = slot0.commanderExp:Find("value_bg/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpImg = slot0.commanderExp:Find("exp/Image")
+	slot0.pageContainer = slot0._tf:Find("")
 	slot1 = slot0:findTF("left/tags")
 	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
 	slot0.pagesTF = slot0:findTF("right/pages")
@@ -102,7 +103,15 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.page = nil
 
 	triggerToggle(slot0.tags[1], true)
-	slot0:Flush(slot2)
+
+	if slot2 then
+		slot0:Flush(slot2)
+	end
+end
+
+function slot0.Show(slot0)
+	uv0.super.Show(slot0)
+	slot0:emit(CommanderHomeLayer.DESC_PAGE_OPEN)
 end
 
 function slot0.Flush(slot0, slot1)
@@ -181,6 +190,7 @@ function slot0.ReturnChar(slot0)
 end
 
 function slot0.Hide(slot0)
+	slot0:emit(CommanderHomeLayer.DESC_PAGE_CLOSE)
 	slot0.toggleGroup:SetAllTogglesOff()
 	uv0.super.Hide(slot0)
 

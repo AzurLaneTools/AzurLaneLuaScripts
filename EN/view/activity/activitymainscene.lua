@@ -2,6 +2,7 @@ slot0 = class("ActivityMainScene", import("..base.BaseUI"))
 slot0.LOCK_ACT_MAIN = "ActivityMainScene:LOCK_ACT_MAIN"
 slot0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
 slot0.GET_PAGE_BGM = "ActivityMainScene.GET_PAGE_BGM"
+slot0.FLUSH_TABS = "ActivityMainScene.FLUSH_TABS"
 
 function slot0.preload(slot0, slot1)
 	slot1()
@@ -48,6 +49,7 @@ function slot0.init(slot0)
 	slot0.windowList = {}
 	slot0.lockAll = slot0:findTF("blur_panel/lock_all")
 	slot0.awardWindow = AwardWindow.New(slot0._tf, slot0.event)
+	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
 	setActive(slot0.tab, false)
 	setActive(slot0.lockAll, false)
@@ -80,6 +82,9 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:bind(uv0.GET_PAGE_BGM, function (slot0, slot1, slot2)
 		slot2.bgm = uv0:getBGM(slot1) or uv0:getBGM()
+	end)
+	slot0:bind(uv0.FLUSH_TABS, function ()
+		uv0:flushTabs()
 	end)
 end
 
@@ -355,9 +360,11 @@ function slot0.HideWindow(slot0, slot1)
 end
 
 function slot0.ShowAwardWindow(slot0, slot1, slot2, slot3)
-	if slot0.awardWindow then
-		slot0.awardWindow:ExecuteAction("Flush", slot1, slot2, slot3)
-	end
+	slot0.awardWindow:ExecuteAction("Flush", slot1, slot2, slot3)
+end
+
+function slot0.OnChargeSuccess(slot0, slot1)
+	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
 end
 
 function slot0.willExit(slot0)
@@ -375,6 +382,12 @@ function slot0.willExit(slot0)
 		slot0.awardWindow:Destroy()
 
 		slot0.awardWindow = nil
+	end
+
+	if slot0.chargeTipWindow then
+		slot0.chargeTipWindow:Destroy()
+
+		slot0.chargeTipWindow = nil
 	end
 end
 

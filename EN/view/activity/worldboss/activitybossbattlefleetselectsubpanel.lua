@@ -148,7 +148,7 @@ function slot0.UpdateView(slot0)
 	slot0:clearFleets()
 	slot0:UpdateFleets()
 
-	slot1 = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator")
+	slot1 = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator")
 
 	triggerToggle(slot0.viewParent.contextData.showCommander and slot1 and slot0.commanderToggle or slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot1)

@@ -197,6 +197,21 @@ pg.world_collection_file_group = {
 			11108
 		}
 	},
+	[1130] = {
+		name = "Creator and Magister",
+		id_2 = "113",
+		name_abbreviate = "21",
+		type = 4,
+		id = 1130,
+		child = {
+			11301,
+			11302,
+			11303,
+			11304,
+			11305,
+			11306
+		}
+	},
 	[1150] = {
 		name = "Present and Future",
 		id_2 = "115",
@@ -240,6 +255,21 @@ pg.world_collection_file_group = {
 			13204,
 			13205,
 			13206
+		}
+	},
+	[1330] = {
+		name = "Global Crisis",
+		id_2 = "133",
+		name_abbreviate = "22",
+		type = 2,
+		id = 1330,
+		child = {
+			13301,
+			13302,
+			13303,
+			13304,
+			13305,
+			13306
 		}
 	},
 	[1410] = {
@@ -301,7 +331,26 @@ pg.world_collection_file_group = {
 			14405,
 			14406,
 			14407,
-			14408
+			14408,
+			14409,
+			14410
+		}
+	},
+	[1460] = {
+		name = "Richard Archives I",
+		id_2 = "146",
+		name_abbreviate = "23",
+		type = 3,
+		id = 1460,
+		child = {
+			14601,
+			14602,
+			14603,
+			14604,
+			14605,
+			14606,
+			14607,
+			14608
 		}
 	},
 	all = {
@@ -318,12 +367,15 @@ pg.world_collection_file_group = {
 		910,
 		1010,
 		1110,
+		1130,
 		1150,
 		1310,
 		1320,
+		1330,
 		1410,
 		1420,
 		1430,
-		1440
+		1440,
+		1460
 	}
 }

@@ -145,36 +145,30 @@ function slot4(slot0, slot1, slot2)
 					}
 				end,
 				[13] = function ()
-					slot1 = getDropName(uv0)
-					slot2 = Item.VItem2SkinCouponShopId(uv0.id)
+					slot0 = getDropName(uv0)
 
-					if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", slot1))
-
-						return
-					elseif slot0:ExistSkinCoupon(uv0.id) then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot1))
+					if not SkinCouponActivity.StaticExistActivity() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", slot0))
 
 						return
-					elseif _.all(slot2, function (slot0)
-						return getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot0].effect_args[1])
-					end) then
+					elseif SkinCouponActivity.StaticOwnMaxCntSkinCoupon() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot0))
+
+						return
+					elseif SkinCouponActivity.StaticOwnAllSkin() then
 						if uv1.count > 1 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot1))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot0))
 						end
 
-						slot3 = 14
-
+						if SkinCouponActivity.StaticGetEquivalentRes() == nil then
+							return {}
+						else
+							return {
+								Item.New(slot1)
+							}
+						end
+					else
 						return {
-							Item.New({
-								type = DROP_TYPE_RESOURCE,
-								id = slot3,
-								count = pg.shop_discount_coupon_template[slot2[1]].change,
-								name = getDropName({
-									type = DROP_TYPE_RESOURCE,
-									id = slot3
-								}) .. "(" .. slot1 .. ")"
-							}),
 							uv1
 						}
 					end

@@ -94,18 +94,6 @@ _G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "Unable to unbind the account"
 }
 
-_G.pg.base.gametip.new_airi_error_code_100215 = {
-	tip = "You cannot bind this account to an X (previously Twitter) account: 100215 "
-}
-
-_G.pg.base.gametip.new_airi_error_code_100216 = {
-	tip = "This account is already bound to an X (previously Twitter) account"
-}
-
-_G.pg.base.gametip.new_airi_error_code_100217 = {
-	tip = "You cannot register a new account with an X (previously Twitter) account: 100217"
-}
-
 _G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "Authorization canceled"
 }
@@ -864,10 +852,6 @@ _G.pg.base.gametip.word_tired = {
 
 _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>Angry</color>"
-}
-
-_G.pg.base.gametip.word_secondseach = {
-	tip = "/wave"
 }
 
 _G.pg.base.gametip.word_max_page = {
@@ -9000,6 +8984,10 @@ _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 
 _G.pg.base.gametip.twitter_link_title = {
 	tip = "Twitter Account:$1"
+}
+
+_G.pg.base.gametip.commander_material_noenough = {
+	tip = "Insufficient crafting materials"
 }
 
 _G.pg.base.gametip.battle_result_boss_destruct = {
@@ -26330,4 +26318,156 @@ _G.pg.base.gametip.roll_ending_tip1 = {
 
 _G.pg.base.gametip.roll_ending_tip2 = {
 	tip = "You haven't explored all areas on the 1st and 2nd Floor yet."
+}
+
+_G.pg.base.gametip.commandercat_label_raw_name = {
+	tip = "Original Name"
+}
+
+_G.pg.base.gametip.commandercat_label_custom_name = {
+	tip = "Custom Name"
+}
+
+_G.pg.base.gametip.commandercat_label_display_name = {
+	tip = "Custom Name"
+}
+
+_G.pg.base.gametip.commander_selected_max = {
+	tip = "Select up to a maximum of $1 Meowfficers."
+}
+
+_G.pg.base.gametip.word_talent = {
+	tip = "Talent"
+}
+
+_G.pg.base.gametip.word_click_to_close = {
+	tip = "Tap to close"
+}
+
+_G.pg.base.gametip.commander_subtile_ablity = {
+	tip = "Inherent Bonuses"
+}
+
+_G.pg.base.gametip.commander_subtile_talent = {
+	tip = "Talent Bonuses"
+}
+
+_G.pg.base.gametip.commander_confirm_tip = {
+	tip = "*This will consume the assigned Meowfficers."
+}
+
+_G.pg.base.gametip.commander_level_up_tip = {
+	tip = "*Gain 1 Talent Point every 5 levels."
+}
+
+_G.pg.base.gametip.commander_skill_effect = {
+	tip = "Skill Effects"
+}
+
+_G.pg.base.gametip.commander_choice_talent_1 = {
+	tip = "Select the Talent to learn or upgrade."
+}
+
+_G.pg.base.gametip.commander_choice_talent_2 = {
+	tip = "Available Talents"
+}
+
+_G.pg.base.gametip.commander_choice_talent_3 = {
+	tip = "Select the Talent you'd like to overwrite."
+}
+
+_G.pg.base.gametip.commander_get_box_tip_1 = {
+	tip = "Unknown Cat Box"
+}
+
+_G.pg.base.gametip.commander_get_box_tip = {
+	tip = "Gives you a random \nCat Box."
+}
+
+_G.pg.base.gametip.commander_total_gold = {
+	tip = "Total Cost:"
+}
+
+_G.pg.base.gametip.commander_use_box_tip = {
+	tip = "Cat Boxes Owned:"
+}
+
+_G.pg.base.gametip.commander_use_box_queue = {
+	tip = "Selected"
+}
+
+_G.pg.base.gametip.commander_command_ability = {
+	tip = "Directives"
+}
+
+_G.pg.base.gametip.commander_logistics_ability = {
+	tip = "Logistics"
+}
+
+_G.pg.base.gametip.commander_tactical_ability = {
+	tip = "Tactics"
+}
+
+_G.pg.base.gametip.commander_choice_talent_4 = {
+	tip = "Meowfficer Talents can be improved by using Talent Points"
+}
+
+_G.pg.base.gametip.commander_rename_tip = {
+	tip = "You can only change a Meowfficer's name once every 24 hours."
+}
+
+_G.pg.base.gametip.commander_home_level_label = {
+	tip = "Current Level"
+}
+
+_G.pg.base.gametip.commander_get_commander_coptyright = {
+	tip = "Meowfficer Boarding"
+}
+
+_G.pg.base.gametip.commander_choice_talent_reset = {
+	tip = "Spend $1 Coins to respec this Meowfficer's Talents?Talents will be \t reset to their initial state, and you will be refunded $2 Talent Points."
+}
+
+_G.pg.base.gametip.commander_lock_setting_title = {
+	tip = "Upon finishing Cat Box training, auto-lock Meowfficers based on the following criteria:"
+}
+
+_G.pg.base.gametip.skin_exchange_confirm = {
+	tip = "Spend <color=#92fc63>1 $1</color> to exchange for <color=#92fc63>$2</color>?"
+}
+
+_G.pg.base.gametip.skin_purchase_confirm = {
+	tip = "Spend <color=#92fc63>1 $1</color> to purchase the following skin, <color=#FFDE38FF>$3</color>, at a discounted price of <icon name=gem w=0.7 h=0.7/>$2?"
+}
+
+_G.pg.base.gametip.blackfriday_pack_lock = {
+	tip = "Available on $1"
+}
+
+_G.pg.base.gametip.skin_exchange_title = {
+	tip = "Redeemable Skins"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+	tip = "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you own all the eligible skins, this voucher cannot be used."
+}
+
+_G.pg.base.gametip.skin_discount_desc = {
+	tip = "Spend 1 $1 to purchase $3 at a discounted price of $2?"
+}
+
+_G.pg.base.gametip.skin_exchange_timelimit = {
+	tip = "The pool of skins that this item may be redeemed for will change after maintenance on $1. Please plan your usage accordingly."
+}
+
+_G.pg.base.gametip.blackfriday_pack_purchased = {
+	tip = "Purchased"
+}
+
+_G.pg.base.gametip.commander_unsel_lock_flag_tip = {
+	tip = "No auto-lock option chosen. When Meowfficers finish training, you won't be asked if you want to lock them."
+}
+
+_G.pg.base.gametip.skin_discount_timelimit = {
+	tip = "The item $1 will expire after $2 maintenance, please use it in time in the Outfit Shop."
 }

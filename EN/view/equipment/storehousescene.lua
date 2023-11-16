@@ -1025,6 +1025,9 @@ end
 function slot0.sortItems(slot0)
 	table.sort(slot0.itemVOs, CompareFuncs({
 		function (slot0)
+			return -slot0:getConfig("order")
+		end,
+		function (slot0)
 			return -slot0:getConfig("rarity")
 		end,
 		function (slot0)
@@ -1129,6 +1132,55 @@ function slot0.updateItem(slot0, slot1, slot2)
 		elseif slot4:getConfig("type") == Item.LOVE_LETTER_TYPE then
 			onButton(slot0, slot3.go, function ()
 				uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)
+			end, SFX_PANEL)
+		elseif slot4:getConfig("type") == Item.SKIN_ASSIGNED_TYPE then
+			onButton(slot0, slot3.go, function ()
+				slot0 = uv0
+
+				slot0:emit(uv1.ON_ITEM, uv2.id, function ()
+					slot1 = uv0:getTempCfgTable().usage_arg[3]
+
+					if Item.InTimeLimitSkinAssigned(uv0.id) then
+						slot1 = table.mergeArray(slot0[2], slot1, true)
+					end
+
+					slot2 = getProxy(ShipSkinProxy)
+
+					if underscore.all(slot1, function (slot0)
+						return uv0:hasNonLimitSkin(slot0)
+					end) then
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							hideNo = true,
+							content = i18n("blackfriday_pack_select_skinall")
+						})
+					else
+						slot3 = {}
+
+						for slot7, slot8 in ipairs(slot0[2]) do
+							slot3[slot8] = true
+						end
+
+						uv1:emit(EquipmentMediator.ITEM_ADD_LAYER, Context.New({
+							viewComponent = SelectSkinLayer,
+							mediator = SkinAtlasMediator,
+							data = {
+								mode = SelectSkinLayer.MODE_SELECT,
+								itemId = uv0.id,
+								selectableSkinList = underscore.map(slot1, function (slot0)
+									return SelectableSkin.New({
+										id = slot0,
+										isTimeLimit = uv0[slot0] or false
+									})
+								end),
+								OnConfirm = function (slot0)
+									uv0:emit(EquipmentMediator.ON_USE_ITEM, uv1.id, 1, {
+										slot0
+									})
+								end
+							}
+						}))
+					end
+				end)
 			end, SFX_PANEL)
 		else
 			onButton(slot0, slot3.go, function ()

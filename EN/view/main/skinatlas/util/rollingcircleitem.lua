@@ -1,5 +1,5 @@
 slot0 = class("RollingCircleItem")
-slot1 = 2
+slot1 = 73
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.tr = slot1
@@ -7,7 +7,6 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.id = slot3
 
 	slot0:SetIndex(slot2)
-	slot0:Init()
 end
 
 function slot0.GetID(slot0)
@@ -42,7 +41,7 @@ function slot0.Init(slot0)
 
 	slot2 = slot1:GetLocalposition()
 
-	slot0:UpdateLocalPosition(Vector3(slot2.x, slot2.y + slot1:GetSpace(), 0))
+	slot0:UpdateLocalPosition(Vector3(slot2.x, slot2.y - slot1:GetSpace(), 0))
 end
 
 function slot0.GetSpace(slot0)

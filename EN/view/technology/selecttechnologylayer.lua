@@ -19,18 +19,18 @@ function slot0.init(slot0)
 
 	slot0.bg = slot0:findTF("frame/bg")
 	slot0.bluePrintBtn = slot0:findTF("blueprint_btn", slot0.bg)
-	slot0.bluePrintBtnTip = slot0.bluePrintBtn:Find("word/tip")
+	slot0.bluePrintBtnTip = slot0.bluePrintBtn:Find("tip")
 	slot0.technologyBtn = slot0:findTF("technology_btn", slot0.bg)
-	slot0.technologyBtnTip = slot0.technologyBtn:Find("word/tip")
+	slot0.technologyBtnTip = slot0.technologyBtn:Find("tip")
 	slot0.fleetBtn = slot0:findTF("fleet_btn", slot0.bg)
-	slot0.fleetBtnTip = slot0.fleetBtn:Find("word/tip")
+	slot0.fleetBtnTip = slot0.fleetBtn:Find("tip")
 	slot0.transformBtn = slot0:findTF("transform_btn", slot0.bg)
-	slot0.transformBtnTip = slot0.transformBtn:Find("word/tip")
+	slot0.transformBtnTip = slot0.transformBtn:Find("tip")
 
 	setActive(slot0.transformBtn, not LOCK_EQUIPMENT_TRANSFORM)
 
 	slot0.metaBtn = slot0:findTF("meta_btn", slot0.bg)
-	slot0.metaBtnTip = slot0.metaBtn:Find("word/tip")
+	slot0.metaBtnTip = slot0.metaBtn:Find("tip")
 
 	setActive(slot0.metaBtn, true)
 

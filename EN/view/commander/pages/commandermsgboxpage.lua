@@ -23,11 +23,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdate(slot0, slot1)
+function slot0.Show(slot0, slot1)
+	uv0.super.Show(slot0)
+
 	if slot1.content1 then
 		setText(slot0.text1, slot1.content)
 		setText(slot0.text2, slot1.content1)
-	else
+	elseif slot1.content then
 		setText(slot0.text, setColorStr(slot1.content, "#847D7B"))
 	end
 
@@ -60,11 +62,6 @@ function slot0.OnUpdate(slot0, slot1)
 	end
 
 	slot0._tf:SetAsLastSibling()
-	slot0:Show()
-end
-
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = slot0.layer or LayerWeightConst.SECOND_LAYER
 	})

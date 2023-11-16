@@ -3,31 +3,53 @@ slot0 = class("PutCommanderInCatteryCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.id
-	slot6 = getProxy(CommanderProxy)
+	slot6 = slot2.callback
+	slot7 = slot2.tip
+	slot8 = getProxy(CommanderProxy)
 
-	if not (slot2.commanderId == 0) and not slot6:getCommanderById(slot4) then
+	if not (slot2.commanderId == 0) and not slot8:getCommanderById(slot4) then
+		if slot6 then
+			slot6()
+		end
+
 		return
 	end
 
-	if not slot6:GetCommanderHome() then
+	if not slot8:GetCommanderHome() then
+		if slot6 then
+			slot6()
+		end
+
 		return
 	end
 
-	if not slot7:GetCatteryById(slot3) or not slot8:CanUse() then
+	if not slot9:GetCatteryById(slot3) or not slot10:CanUse() then
+		if slot6 then
+			slot6()
+		end
+
 		return
 	end
 
-	if not slot5 and slot8:ExistCommander() and slot8:GetCommanderId() == slot4 then
+	if not slot5 and slot10:ExistCommander() and slot10:GetCommanderId() == slot4 then
+		if slot6 then
+			slot6()
+		end
+
 		return
 	end
 
-	if slot5 and not slot8:ExistCommander() then
+	if slot5 and not slot10:ExistCommander() then
+		if slot6 then
+			slot6()
+		end
+
 		return
 	end
 
-	slot9 = pg.ConnectionMgr.GetInstance()
+	slot11 = pg.ConnectionMgr.GetInstance()
 
-	slot9:Send(25030, {
+	slot11:Send(25030, {
 		slotidx = slot3,
 		commander_id = slot4
 	}, 25031, function (slot0)
@@ -35,15 +57,18 @@ function slot0.execute(slot0, slot1)
 			if uv0 then
 				uv2:UpdateCommanderLevelAndExp(uv1:GetCommanderId(), slot0)
 				uv1:RemoveCommander()
-				pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_remove_commander_success"))
+
+				if uv3 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_remove_commander_success"))
+				end
 			else
 				if uv1:ExistCommander() then
 					uv2:UpdateCommanderLevelAndExp(uv1:GetCommanderId(), slot0)
 				end
 
-				uv1:AddCommander(uv3, slot0.time)
+				uv1:AddCommander(uv4, slot0.time)
 
-				slot1 = uv4:getCommanderById(uv3)
+				slot1 = uv5:getCommanderById(uv4)
 				slot3 = slot1:ExitFeedFlag()
 				slot4 = slot1:ExitPlayFlag()
 
@@ -75,9 +100,13 @@ function slot0.execute(slot0, slot1)
 
 				if #slot5 > 0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("cat_home_interaction", table.concat(slot5, ", ")))
-				else
+				elseif uv3 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("cattery_add_commander_success"))
 				end
+			end
+
+			if uv6 then
+				uv6()
 			end
 
 			uv2:sendNotification(GAME.PUT_COMMANDER_IN_CATTERY_DONE, {

@@ -41,7 +41,8 @@ function slot0.GenEventSearchData(slot0, slot1)
 		isLevelPoint = slot1.isLevelPoint,
 		image = slot1.image,
 		customPosition = slot1.pos or slot3 or slot1.eulerAngles or slot1.isLevelPoint,
-		clearChildEvent = slot1.eventPath ~= nil
+		clearChildEvent = slot1.eventPath ~= nil,
+		keepScrollTxt = slot1.keepScrollTxt
 	}
 	slot5, slot6 = nil
 

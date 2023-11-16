@@ -117,7 +117,7 @@ function slot0.execute(slot0, slot1)
 				slot6.data1KeyValueList[1][slot2.id] = (slot6.data1KeyValueList[1][slot2.id] or 0) + slot2.count
 			end
 		elseif slot4 == 13 then
-			getProxy(ActivityProxy):MarkSkinCoupon(slot2.id)
+			SkinCouponActivity.AddSkinCoupon(slot2.id)
 		elseif slot4 == 14 then
 			slot5 = nowWorld():GetBossProxy()
 
