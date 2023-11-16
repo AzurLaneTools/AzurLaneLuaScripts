@@ -171,7 +171,6 @@ pg.memory_group = setmetatable({
 		262,
 		263,
 		264,
-		265,
 		501,
 		502,
 		503,
@@ -4063,19 +4062,6 @@ pg.base.memory_group = {
 			3126,
 			3127,
 			3128
-		}
-	},
-	[265] = {
-		id = 265,
-		subtype = 3,
-		icon = "title_event",
-		type = 2,
-		link_event = 5082,
-		title = "今日主推商品是…？",
-		memories = {
-			3141,
-			3142,
-			3143
 		}
 	},
 	[501] = {

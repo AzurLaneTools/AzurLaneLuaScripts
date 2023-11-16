@@ -2701,9 +2701,6 @@ pg.memory_template = setmetatable({
 		3135,
 		3136,
 		3137,
-		3141,
-		3142,
-		3143,
 		10011,
 		10012,
 		10013,
@@ -32452,39 +32449,6 @@ pg.base.memory_template = {
 		story = "PANGPEI7",
 		id = 3137,
 		icon = "memory_pangpei",
-		is_open = 0
-	},
-	[3141] = {
-		type = 1,
-		subtitle = "",
-		mask = "bg/bg_memory",
-		title = "新型促销方式探索",
-		condition = "解锁「今日主推商品是…？」DAY1",
-		story = "JINRIZHUTUISHANGPINSHI1",
-		id = 3141,
-		icon = "memory_jinrizhutuishangpinshi",
-		is_open = 0
-	},
-	[3142] = {
-		type = 1,
-		subtitle = "",
-		mask = "bg/bg_memory",
-		title = "今日主推商品是…？",
-		condition = "解锁「今日主推商品是…？」DAY2",
-		story = "JINRIZHUTUISHANGPINSHI2",
-		id = 3142,
-		icon = "memory_jinrizhutuishangpinshi",
-		is_open = 0
-	},
-	[3143] = {
-		type = 1,
-		subtitle = "",
-		mask = "bg/bg_memory",
-		title = "限时特惠大狂欢！",
-		condition = "解锁「今日主推商品是…？」DAY3",
-		story = "JINRIZHUTUISHANGPINSHI3",
-		id = 3143,
-		icon = "memory_jinrizhutuishangpinshi",
 		is_open = 0
 	},
 	[10011] = {

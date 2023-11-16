@@ -156,11 +156,7 @@ function slot0.InTimeLimitSkinAssigned(slot0)
 end
 
 function slot0.IsAllSkinOwner(slot0)
-	if slot0:getConfig("type") ~= uv0.SKIN_ASSIGNED_TYPE then
-		assert(false)
-
-		return false
-	end
+	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
 
 	slot2 = slot0:getTempCfgTable().usage_arg[3]
 

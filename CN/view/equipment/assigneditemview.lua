@@ -78,7 +78,7 @@ function slot0.OnInit(slot0)
 			end)
 		end
 
-		if Item.New(uv0.displayDrops[uv0.selectedIndex]):getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
+		if Item.New(uv0.displayDrops[uv0.selectedIndex]).type == DROP_TYPE_ITEM and slot1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blackfriday_pack_select_skinall"),
