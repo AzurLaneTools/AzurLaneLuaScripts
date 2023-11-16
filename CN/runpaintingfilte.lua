@@ -183,9 +183,9 @@ function slot0.GetCreateExchangeShipConfigIDList()
 		11
 	}) do
 		for slot11, slot12 in ipairs(uv0.GetBuildActIDList()) do
-			slot13 = pg.ship_data_create_exchange[slot12] and pg.ship_data_create_exchange[slot12].exchange_ship_id
-
-			table.insert(slot0, shipConfigID)
+			if pg.ship_data_create_exchange[slot12] and not table.contains(slot0, pg.ship_data_create_exchange[slot12].exchange_ship_id) then
+				table.insert(slot0, slot13)
+			end
 		end
 	end
 

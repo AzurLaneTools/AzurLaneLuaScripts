@@ -12,6 +12,7 @@ slot0.ON_UNEQUIP_EQUIPMENT_SKIN = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT_SKIN"
 slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
 slot0.NO_UPDATE = "EquipmentMediator:NO_UPDATE"
 slot0.ITEM_GO_SCENE = "item go scene"
+slot0.ITEM_ADD_LAYER = "EquipmentMediator.ITEM_ADD_LAYER"
 slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
@@ -22,6 +23,9 @@ function slot0.register(slot0)
 
 	slot0:bind(uv0.ITEM_GO_SCENE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+	end)
+	slot0:bind(uv0.ITEM_ADD_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(slot1)
 	end)
 	slot0:bind(uv0.ON_USE_ITEM, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.USE_ITEM, {

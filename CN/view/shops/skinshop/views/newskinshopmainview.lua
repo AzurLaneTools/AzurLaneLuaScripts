@@ -698,22 +698,16 @@ function slot0.OnPurchase(slot0, slot1)
 		return
 	end
 
-	slot4 = i18n("charge_scene_buy_confirm", slot1:GetPrice(), pg.ship_skin_template[slot1:getSkinId()].name)
-
 	if slot1:isDisCount() and slot1:IsItemDiscountType() then
-		slot4 = i18n("discount_coupon_tip", slot2, slot1:GetDiscountItem().name, slot3)
-	end
-
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = slot4,
-		onYes = function ()
-			if uv0 then
-				uv1:emit(NewSkinShopMediator.ON_SHOPPING_BY_ACT, uv2.id, 1)
-			else
-				uv1:emit(NewSkinShopMediator.ON_SHOPPING, uv2.id, 1)
+		slot0:emit(NewSkinShopMediator.ON_SHOPPING_BY_ACT, slot1.id, 1)
+	else
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("charge_scene_buy_confirm", slot1:GetPrice(), pg.ship_skin_template[slot1:getSkinId()].name),
+			onYes = function ()
+				uv0:emit(NewSkinShopMediator.ON_SHOPPING, uv1.id, 1)
 			end
-		end
-	})
+		})
+	end
 end
 
 function slot0.OnActivity(slot0, slot1)

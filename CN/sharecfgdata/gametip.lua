@@ -522,10 +522,6 @@ _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>生气</color>"
 }
 
-_G.pg.base.gametip.word_secondseach = {
-	tip = "/轮"
-}
-
 _G.pg.base.gametip.word_max_page = {
 	tip = "最大页"
 }
@@ -8845,6 +8841,10 @@ _G.pg.base.gametip.shop_street_activity_tip = {
 
 _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 	tip = "<color=#A1E400FF>$1</COLOR> 出现时间为：<color=#A1E400FF>$2</COLOR>"
+}
+
+_G.pg.base.gametip.commander_material_noenough = {
+	tip = "材料不足"
 }
 
 _G.pg.base.gametip.battle_result_boss_destruct = {
@@ -26055,4 +26055,156 @@ _G.pg.base.gametip.roll_ending_tip1 = {
 
 _G.pg.base.gametip.roll_ending_tip2 = {
 	tip = "仍有未探索区域，请前往古堡1F与2F中完成调查"
+}
+
+_G.pg.base.gametip.commandercat_label_raw_name = {
+	tip = "原始名称"
+}
+
+_G.pg.base.gametip.commandercat_label_custom_name = {
+	tip = "自定义名称"
+}
+
+_G.pg.base.gametip.commandercat_label_display_name = {
+	tip = "自定义名称"
+}
+
+_G.pg.base.gametip.commander_selected_max = {
+	tip = "最多选择$1个指挥喵"
+}
+
+_G.pg.base.gametip.word_talent = {
+	tip = "天赋"
+}
+
+_G.pg.base.gametip.word_click_to_close = {
+	tip = "点击空白关闭"
+}
+
+_G.pg.base.gametip.commander_subtile_ablity = {
+	tip = "能力加成"
+}
+
+_G.pg.base.gametip.commander_subtile_talent = {
+	tip = "天赋加成"
+}
+
+_G.pg.base.gametip.commander_confirm_tip = {
+	tip = "*确认后负责陪玩的指挥喵会消失"
+}
+
+_G.pg.base.gametip.commander_level_up_tip = {
+	tip = "*指挥喵每升5级可获得1点天赋点"
+}
+
+_G.pg.base.gametip.commander_skill_effect = {
+	tip = "技能效果"
+}
+
+_G.pg.base.gametip.commander_choice_talent_1 = {
+	tip = "选择要提升或者习得的天赋"
+}
+
+_G.pg.base.gametip.commander_choice_talent_2 = {
+	tip = "可选择天赋"
+}
+
+_G.pg.base.gametip.commander_choice_talent_3 = {
+	tip = "天赋槽已满，选择要替换的天赋"
+}
+
+_G.pg.base.gametip.commander_get_box_tip_1 = {
+	tip = "喵箱??型"
+}
+
+_G.pg.base.gametip.commander_get_box_tip = {
+	tip = "可能收到随机类型的喵箱，\n敬请期待喵!"
+}
+
+_G.pg.base.gametip.commander_total_gold = {
+	tip = "合计价格："
+}
+
+_G.pg.base.gametip.commander_use_box_tip = {
+	tip = "选择喵箱"
+}
+
+_G.pg.base.gametip.commander_use_box_queue = {
+	tip = "培育队列"
+}
+
+_G.pg.base.gametip.commander_command_ability = {
+	tip = "指挥能力"
+}
+
+_G.pg.base.gametip.commander_logistics_ability = {
+	tip = "后勤能力"
+}
+
+_G.pg.base.gametip.commander_tactical_ability = {
+	tip = "战术能力"
+}
+
+_G.pg.base.gametip.commander_choice_talent_4 = {
+	tip = "*使用天赋点可能获得天赋的成长"
+}
+
+_G.pg.base.gametip.commander_rename_tip = {
+	tip = "**每只指挥喵每天只能进行一次更名操作"
+}
+
+_G.pg.base.gametip.commander_home_level_label = {
+	tip = "当前等级"
+}
+
+_G.pg.base.gametip.commander_get_commander_coptyright = {
+	tip = "指挥喵管理中心——"
+}
+
+_G.pg.base.gametip.commander_choice_talent_reset = {
+	tip = "是否消耗$1物资，将天赋还原为初始状态\t重置后可用天赋$2点，天赋将还原为：    "
+}
+
+_G.pg.base.gametip.commander_lock_setting_title = {
+	tip = "喵箱训练完成并同时满足以下条件时询问是否锁定"
+}
+
+_G.pg.base.gametip.skin_exchange_confirm = {
+	tip = "是否使用 <color=#92fc63>$1 *1</color> 兑换 <color=#92fc63>$2</color>"
+}
+
+_G.pg.base.gametip.skin_purchase_confirm = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3皮肤"
+}
+
+_G.pg.base.gametip.blackfriday_pack_lock = {
+	tip = "礼包将于$1解锁购买 "
+}
+
+_G.pg.base.gametip.skin_exchange_title = {
+	tip = "可兑换换装"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+}
+
+_G.pg.base.gametip.skin_discount_desc = {
+	tip = "是否消耗$1*1 购买折后价 $2 的 $3"
+}
+
+_G.pg.base.gametip.skin_exchange_timelimit = {
+	tip = "以下道具的可兑换列表将于$1维护后变更，请及时前往仓库使用 "
+}
+
+_G.pg.base.gametip.blackfriday_pack_purchased = {
+	tip = "已购买"
+}
+
+_G.pg.base.gametip.commander_unsel_lock_flag_tip = {
+	tip = "当前未勾选询问锁定选项，指挥喵训练完成时将不会询问是否锁定指挥喵"
+}
+
+_G.pg.base.gametip.skin_discount_timelimit = {
+	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
 }

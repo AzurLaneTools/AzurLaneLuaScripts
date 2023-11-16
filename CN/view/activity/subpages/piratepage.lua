@@ -53,7 +53,7 @@ function slot0.CheckRed(slot0)
 		slot1 = true
 	end
 
-	if math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0.activity:getStartTime()) / 86400) + 1 < 8 and PlayerPrefs.GetInt("PiratePage" .. slot2, 0) == 0 then
+	if slot0.activity:getNDay() < 8 and PlayerPrefs.GetInt("PiratePage" .. slot2, 0) == 0 then
 		PlayerPrefs.SetInt("PiratePage" .. slot2, 1)
 
 		slot1 = true

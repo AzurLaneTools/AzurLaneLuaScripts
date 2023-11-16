@@ -18,7 +18,7 @@ function slot0.register(slot0)
 	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
-	slot0.viewComponent:SetOpenCommander(pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator") and not LOCK_COMMANDER)
+	slot0.viewComponent:SetOpenCommander(pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator") and not LOCK_COMMANDER)
 
 	slot3 = _.map({
 		FleetProxy.CHALLENGE_FLEET_ID,
@@ -339,10 +339,10 @@ function slot0.onSelectCommander(slot0, slot1, slot2)
 	end)
 
 	assert(slot3)
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 		maxCount = 1,
-		mode = CommandRoomScene.MODE_SELECT,
-		fleetType = CommandRoomScene.FLEET_TYPE_LIMIT_CHALLENGE,
+		mode = CommanderCatScene.MODE_SELECT,
+		fleetType = CommanderCatScene.FLEET_TYPE_LIMIT_CHALLENGE,
 		activeCommander = slot3:getCommanderByPos(slot1),
 		ignoredIds = {},
 		onCommander = function (slot0)

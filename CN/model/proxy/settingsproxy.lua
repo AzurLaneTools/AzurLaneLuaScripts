@@ -579,28 +579,6 @@ function slot0.SetChatFlag(slot0, slot1)
 	end
 end
 
-function slot0.SetCommanderPlaySortData(slot0, slot1)
-	slot3 = slot1.asc and 1 or 0
-
-	if slot0.commanderPlaySortDataValue1 ~= slot1.sortData or slot0.commanderPlaySortDataValue2 ~= slot3 then
-		PlayerPrefs.SetString("commander_play_sortdata", slot2 .. "#" .. slot3)
-		PlayerPrefs.Save()
-
-		slot0.commanderPlaySortDataValue1 = slot2
-		slot0.commanderPlaySortDataValue2 = slot3
-	end
-end
-
-function slot0.GetCommanderPlaySortData(slot0)
-	if not slot0.commanderPlaySortDataValue1 or not slot0.commanderPlaySortDataValue2 then
-		slot3 = string.split(PlayerPrefs.GetString("commander_play_sortdata", "Rarity#0"), "#")
-		slot0.commanderPlaySortDataValue1 = slot3[1]
-		slot0.commanderPlaySortDataValue2 = tonumber(slot3[2])
-	end
-
-	return slot0.commanderPlaySortDataValue1, slot0.commanderPlaySortDataValue2
-end
-
 function slot0.IsShowActivityMapSPTip()
 	return PlayerPrefs.GetInt("ActivityMapSPTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
 end
@@ -776,6 +754,127 @@ function slot0.IsDisplayResultPainting(slot0)
 	end
 
 	return slot2
+end
+
+function slot0.IsDisplayCommanderCatCustomName(slot0)
+	if not slot0.customFlag then
+		slot0.customFlag = PlayerPrefs.GetInt("DisplayCommanderCatCustomName" .. getProxy(PlayerProxy):getRawData().id, 0) == 0
+	end
+
+	return slot0.customFlag
+end
+
+function slot0.SetDisplayCommanderCatCustomName(slot0, slot1)
+	if slot1 == slot0.customFlag then
+		return
+	end
+
+	slot0.customFlag = slot1
+
+	PlayerPrefs.SetInt("DisplayCommanderCatCustomName" .. getProxy(PlayerProxy):getRawData().id, slot0.customFlag and 0 or 1)
+	PlayerPrefs.Save()
+end
+
+function slot0.GetCommanderQuicklyToolRarityConfig(slot0)
+	if not slot0.quicklyToolRarityConfig then
+		slot1 = getProxy(PlayerProxy)
+		slot0.quicklyToolRarityConfig = _.map(string.split(PlayerPrefs.GetString("CommanderQuicklyToolRarityConfig" .. slot1:getRawData().id, "1#1#1"), "#"), function (slot0)
+			return tonumber(slot0) == 1
+		end)
+	end
+
+	return slot0.quicklyToolRarityConfig
+end
+
+function slot0.SaveCommanderQuicklyToolRarityConfig(slot0, slot1)
+	slot2 = false
+
+	for slot6, slot7 in ipairs(slot0.quicklyToolRarityConfig) do
+		if slot1[slot6] ~= slot7 then
+			slot2 = true
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot0.quicklyToolRarityConfig = slot1
+		slot5 = getProxy(PlayerProxy)
+
+		PlayerPrefs.SetString("CommanderQuicklyToolRarityConfig" .. slot5:getRawData().id, table.concat(_.map(slot0.quicklyToolRarityConfig, function (slot0)
+			return slot0 and "1" or "0"
+		end), "#"))
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetCommanderLockFlagRarityConfig(slot0)
+	if not slot0.lockFlagRarityConfig then
+		slot1 = getProxy(PlayerProxy)
+		slot0.lockFlagRarityConfig = _.map(string.split(PlayerPrefs.GetString("CommanderLockFlagRarityConfig_" .. slot1:getRawData().id, "1#0#0"), "#"), function (slot0)
+			return tonumber(slot0) == 1
+		end)
+	end
+
+	return slot0.lockFlagRarityConfig
+end
+
+function slot0.SaveCommanderLockFlagRarityConfig(slot0, slot1)
+	slot2 = false
+
+	for slot6, slot7 in ipairs(slot0.lockFlagRarityConfig) do
+		if slot1[slot6] ~= slot7 then
+			slot2 = true
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot0.lockFlagRarityConfig = slot1
+		slot5 = getProxy(PlayerProxy)
+
+		PlayerPrefs.SetString("CommanderLockFlagRarityConfig_" .. slot5:getRawData().id, table.concat(_.map(slot0.lockFlagRarityConfig, function (slot0)
+			return slot0 and "1" or "0"
+		end), "#"))
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetCommanderLockFlagTalentConfig(slot0)
+	if not slot0.lockFlagTalentConfig then
+		slot3 = {}
+
+		if PlayerPrefs.GetString("CommanderLockFlagTalentConfig" .. getProxy(PlayerProxy):getRawData().id, "") == "" then
+			for slot7, slot8 in ipairs(CommanderCatUtil.GetAllTalentNames()) do
+				slot3[slot8.id] = true
+			end
+		else
+			slot7 = "#"
+
+			for slot7, slot8 in ipairs(string.split(slot2, slot7)) do
+				if #string.split(slot8, "*") == 2 then
+					slot3[tonumber(slot9[1])] = tonumber(slot9[2]) == 1
+				end
+			end
+		end
+
+		slot0.lockFlagTalentConfig = slot3
+	end
+
+	return slot0.lockFlagTalentConfig
+end
+
+function slot0.SaveCommanderLockFlagTalentConfig(slot0, slot1)
+	slot0.lockFlagTalentConfig = slot1
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		table.insert(slot2, slot6 .. "*" .. (slot7 and "1" or "0"))
+	end
+
+	PlayerPrefs.SetString("CommanderLockFlagTalentConfig" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot2, "#"))
+	PlayerPrefs.Save()
 end
 
 function slot0.Reset(slot0)

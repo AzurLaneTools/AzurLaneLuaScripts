@@ -161,7 +161,7 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3)
 end
 
 function slot0.CheckCommanderPanel(slot0)
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator") and not LOCK_COMMANDER
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator") and not LOCK_COMMANDER
 end
 
 function slot0.UpdateDesc(slot0)

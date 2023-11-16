@@ -126,6 +126,7 @@ function slot0.OnShopping(slot0, slot1)
 			slot0.mainView:Flush(slot3)
 		end
 
+		slot0:UpdateCouponBtn()
 		slot0:UpdateCommodities(slot2, false)
 
 		slot0.commodities = slot2
@@ -147,6 +148,8 @@ function slot0.init(slot0)
 
 	setText(slot0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
 
+	slot0.couponTr = slot0:findTF("overlay/blur_panel/adapt/top/coupon")
+	slot0.couponSelTr = slot0.couponTr:Find("selected")
 	slot0.rollingCircleRect = RollingCircleRect.New(slot0:findTF("overlay/left/mask/content/0"), slot0:findTF("overlay/left"))
 
 	slot0.rollingCircleRect:SetCallback(slot0, uv0.OnSelectSkinPage, uv0.OnConfirmSkinPage)
@@ -201,29 +204,45 @@ function slot0.didEnter(slot0)
 	onInputChanged(slot0, slot0.inptuTr, function ()
 		uv0:OnSearch()
 	end)
-
-	slot1 = true
-
-	onButton(slot0, slot0.changeBtn, function ()
-		uv0 = not uv0
-
-		setActive(uv1.inptuTr, uv0)
-		setActive(uv1.indexBtn, uv0)
-		setActive(uv1.live2dFilter, not uv0)
-
-		if getInputText(uv1.inptuTr) ~= "" then
-			setInputText(uv1.inptuTr, "")
+	onToggle(slot0, slot0.changeBtn, function (slot0)
+		if slot0 and getInputText(uv0.inptuTr) ~= "" then
+			setInputText(uv0.inptuTr, "")
 		end
-
-		setImageSprite(uv1.changeBtn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv0 and "search_on" or "search_off", true))
 	end, SFX_PANEL)
-	triggerButton(slot0.changeBtn)
 	onButton(slot0, slot0.live2dFilter, function ()
 		uv0.defaultIndex.extraIndex = uv0.defaultIndex.extraIndex == SkinIndexLayer.ExtraL2D and SkinIndexLayer.ExtraALL or SkinIndexLayer.ExtraL2D
 
 		uv0:OnFilter(uv0.defaultIndex)
 	end, SFX_PANEL)
+
+	slot0.isFilterCoupon = false
+
+	onButton(slot0, slot0.couponTr, function ()
+		if not SkinCouponActivity.StaticExistActivityAndCoupon() then
+			uv0.isFilterCoupon = false
+
+			uv0:UpdateCouponBtn()
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		uv0.isFilterCoupon = not uv0.isFilterCoupon
+
+		setActive(uv0.couponSelTr, uv0.isFilterCoupon)
+		uv0:OnFilter(uv0.defaultIndex)
+	end, SFX_PANEL)
 	slot0:SetUp()
+end
+
+function slot0.UpdateCouponBtn(slot0)
+	slot1 = SkinCouponActivity.StaticExistActivityAndCoupon()
+
+	if slot0.isFilterCoupon and not slot1 then
+		slot0.isFilterCoupon = false
+	end
+
+	slot0.couponTr.localScale = slot1 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
 function slot0.OnSelectSkinPage(slot0, slot1)
@@ -277,6 +296,7 @@ function slot0.SetUp(slot0)
 	slot0.cgGroup.blocksRaycasts = false
 
 	slot0:UpdateTitle(slot1)
+	slot0:UpdateCouponBtn()
 	setActive(slot0.rollingCircleMaskTr, slot1 == uv0.MODE_OVERVIEW)
 
 	if slot1 == uv0.MODE_EXPERIENCE then
@@ -466,6 +486,14 @@ function slot0.Sort(slot0, slot1, slot2)
 	end
 end
 
+function slot0.IsCouponType(slot0, slot1, slot2)
+	if slot1 and not SkinCouponActivity.StaticIsShop(slot2.id) then
+		return false
+	end
+
+	return true
+end
+
 function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 	slot0:ClearCards()
 
@@ -473,7 +501,7 @@ function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 	slot0.displays = {}
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) then
+		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) and slot0:IsCouponType(slot0.isFilterCoupon, slot8) then
 			table.insert(slot0.displays, slot8)
 		end
 	end

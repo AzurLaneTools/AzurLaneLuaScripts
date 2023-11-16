@@ -1,26 +1,41 @@
-slot0 = class("CommanderBuildPoolPanel")
+slot0 = class("CommanderBuildPoolPanel", import("...base.BaseSubView"))
+
+function slot0.getUIName(slot0)
+	return "CommanderBuildPoolUI"
+end
+
 slot1 = 10
 
-function slot0.Ctor(slot0, slot1, slot2)
-	slot0._tf = slot1
-	slot0.parent = slot2
+function slot0.OnLoaded(slot0)
 	slot0.buildPoolList = UIItemList.New(slot0._tf:Find("frame/bg/content/list"), slot0._tf:Find("frame/bg/content/list/1"))
-	slot3 = slot0._tf:Find("frame/bg/content/queue/list1/pos")
-	slot0.posListTop = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list1"), slot3)
-	slot0.posListBottom = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list2"), slot3)
+	slot1 = slot0._tf:Find("frame/bg/content/queue/list1/pos")
+	slot0.posListTop = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list1"), slot1)
+	slot0.posListBottom = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list2"), slot1)
 	slot0.autoBtn = slot0._tf:Find("frame/bg/auto_btn")
 	slot0.startBtn = slot0._tf:Find("frame/bg/start_btn")
-	slot4 = slot0._tf:Find("statistics/Text")
-	slot0.selectedTxt = slot4:GetComponent(typeof(Text))
+	slot2 = slot0._tf:Find("statistics/Text")
+	slot0.selectedTxt = slot2:GetComponent(typeof(Text))
+	slot0.sprites = {
+		slot0._tf:Find("frame/bg/content/list/1/icon/iconImg"):GetComponent(typeof(Image)).sprite,
+		slot0._tf:Find("frame/bg/content/list/2/icon/iconImg"):GetComponent(typeof(Image)).sprite,
+		slot0._tf:Find("frame/bg/content/list/3/icon/iconImg"):GetComponent(typeof(Image)).sprite
+	}
 
-	setActive(slot0._tf, false)
-	onButton(slot0.parent, slot0._tf, function ()
+	setText(slot0:findTF("frame/bg/content/Text"), i18n("commander_use_box_tip"))
+	setText(slot0:findTF("frame/bg/content/queue/title/Text"), i18n("commander_use_box_queue"))
+end
+
+function slot0.OnInit(slot0)
+	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0.parent, slot0._tf:Find("frame/bg/close_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/bg/close_btn"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0.parent, slot0.autoBtn, function ()
+	onButton(slot0, slot0.autoBtn, function ()
 		if uv1 <= #uv0.selected then
 			return
 		end
@@ -28,25 +43,19 @@ function slot0.Ctor(slot0, slot1, slot2)
 		uv0:AutoSelect()
 		uv0:UpdatePos()
 	end, SFX_PANEL)
-	onButton(slot0.parent, slot0.startBtn, function ()
+	onButton(slot0, slot0.startBtn, function ()
 		if #uv0.selected == 0 then
 			return
 		end
 
-		uv0.parent:emit(CommandRoomMediator.SHOW_MSGBOX, {
+		uv0.contextData.msgBox:ExecuteAction("Show", {
 			content = i18n("commander_select_box_tip", #uv0.selected),
 			onYes = function ()
-				uv0.parent:emit(CommandRoomMediator.ON_BATCH_BUILD, uv0.selected)
+				uv0:emit(CommanderCatMediator.BATCH_BUILD, uv0.selected)
 				uv0:Hide()
 			end
 		})
 	end, SFX_PANEL)
-
-	slot0.sprites = {
-		slot0._tf:Find("frame/bg/content/list/1/icon/iconImg"):GetComponent(typeof(Image)).sprite,
-		slot0._tf:Find("frame/bg/content/list/2/icon/iconImg"):GetComponent(typeof(Image)).sprite,
-		slot0._tf:Find("frame/bg/content/list/3/icon/iconImg"):GetComponent(typeof(Image)).sprite
-	}
 end
 
 function slot0.AutoSelect(slot0)
@@ -140,7 +149,7 @@ function slot0.UpdatePos(slot0)
 		if uv0.selected[slot0] then
 			slot3:GetComponent(typeof(Image)).sprite = uv0:poolId2Sprite(slot2)
 
-			onButton(uv0.parent, slot3, function ()
+			onButton(uv0, slot3, function ()
 				uv0:ReduceCount(uv1, 1, uv2)
 			end, SFX_PANEL)
 		else
@@ -171,6 +180,9 @@ function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.isShow = false
+end
+
+function slot0.OnDestroy(slot0)
 end
 
 return slot0

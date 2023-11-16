@@ -87,7 +87,7 @@ function slot0.GetInfoTrans(slot0, slot1)
 	slot4 = slot0.auxBoost
 
 	if slot0.type == AttributeType.CD then
-		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. i18n("word_secondseach")
+		slot3 = uv0.CalcWeanponCD(slot3, slot1) .. "s" .. pg.equip_data_code.WAVE.text
 	elseif slot0.type == AttributeType.AirDurability then
 		slot3 = math.floor(slot3[1] + slot3[2] * ((slot1 and slot1.level or 100) - 1) / 1000)
 	elseif slot0.type == AttributeType.AntiSiren then
@@ -104,25 +104,25 @@ function slot0.GetInfoTrans(slot0, slot1)
 end
 
 function slot5(slot0)
-	if string.match(slot0, i18n("word_secondseach")) then
-		slot0 = string.gsub(slot0, i18n("word_secondseach"), "")
+	if string.match(slot0, pg.equip_data_code.WAVE.text) then
+		slot0 = string.gsub(slot0, slot1, "")
 	end
 
 	if #{
 		string.match(string.gsub(slot0, " ", ""), "~(%d+)")
 	} > 0 then
-		slot0 = string.gsub(slot0, "~" .. slot1[1], "")
+		slot0 = string.gsub(slot0, "~" .. slot2[1], "")
 	end
 
-	slot1 = {
+	slot2 = {
 		string.match(slot0, "(%d+)x(%d+)")
 	}
 
-	while #slot1 > 0 do
-		slot2 = slot1[1]
-		slot3 = slot1[2]
-		slot1 = {
-			string.match(string.gsub(slot0, slot2 .. "x" .. slot3, slot2 * slot3, 1), "(%d+)x(%d+)")
+	while #slot2 > 0 do
+		slot3 = slot2[1]
+		slot4 = slot2[2]
+		slot2 = {
+			string.match(string.gsub(slot0, slot3 .. "x" .. slot4, slot3 * slot4, 1), "(%d+)x(%d+)")
 		}
 	end
 

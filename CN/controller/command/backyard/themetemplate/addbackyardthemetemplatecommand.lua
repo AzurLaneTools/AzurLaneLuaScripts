@@ -25,7 +25,7 @@ function slot0.execute(slot0, slot1)
 		end
 
 		table.insert(slot7, {
-			shipId = 0,
+			shipId = 1,
 			id = tostring(slot12.configId),
 			x = slot12.x,
 			y = slot12.y,

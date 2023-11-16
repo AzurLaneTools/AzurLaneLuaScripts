@@ -67,21 +67,30 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		function slot0()
-			uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
-			uv0:Hide()
-		end
+		slot0 = {}
 
 		if uv0.itemVO:IsDoaSelectCharItem() then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("doa_character_select_confirm", HXSet.hxLan(pg.ship_data_statistics[uv0.displayDrops[uv0.selectedIndex].id].name)),
-				onYes = function ()
-					uv0()
-				end
-			})
-		else
-			slot0()
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("doa_character_select_confirm", HXSet.hxLan(pg.ship_data_statistics[uv0.displayDrops[uv0.selectedIndex].id].name)),
+					onYes = slot0
+				})
+			end)
 		end
+
+		if Item.New(uv0.displayDrops[uv0.selectedIndex]):getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("blackfriday_pack_select_skinall"),
+					onYes = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
+			uv0:Hide()
+		end)
 	end, SFX_PANEL)
 end
 
@@ -166,8 +175,21 @@ function slot0.update(slot0, slot1)
 		__index = slot3
 	}))
 	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot3)
+
+	if underscore.any(slot0.displayDrops, function (slot0)
+		return slot0.type == DROP_TYPE_ITEM and slot0.cfg.type == Item.SKIN_ASSIGNED_TYPE
+	end) then
+		RegisterDetailButton(slot0, slot0.itemTF:Find("left/detail"), slot3)
+	end
+
 	setText(slot0.nameTF, slot1:getConfig("name"))
 	setText(slot0.descTF, slot1:getConfig("display"))
+end
+
+function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

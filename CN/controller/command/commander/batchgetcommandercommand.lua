@@ -7,6 +7,12 @@ function slot0.execute(slot0, slot1)
 
 	for slot10, slot11 in ipairs(slot1:getBody().boxIds) do
 		table.insert(slot6, function (slot0)
+			if uv0:CheckFullCapacity() then
+				slot0()
+
+				return
+			end
+
 			uv0:sendNotification(GAME.COMMANDER_ON_OPEN_BOX, {
 				notify = false,
 				id = uv1,
@@ -28,6 +34,14 @@ function slot0.execute(slot0, slot1)
 			commanders = uv2
 		})
 	end)
+end
+
+function slot0.CheckFullCapacity(slot0)
+	if getProxy(PlayerProxy):getRawData().commanderBagMax <= getProxy(CommanderProxy):getCommanderCnt() then
+		return true
+	end
+
+	return false
 end
 
 return slot0

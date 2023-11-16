@@ -1031,7 +1031,7 @@ function updateShip(slot0, slot1, slot2)
 	end
 
 	setIconStars(slot0, slot2.initStar, slot1:getStar())
-	setIconName(slot0, slot1:getName(), slot2)
+	setIconName(slot0, slot2.isSkin and slot1:GetSkinConfig().name or slot1:getName(), slot2)
 	setIconColorful(slot0, slot2.isSkin and 5 or slot1:getRarity(), slot2)
 end
 
@@ -2890,7 +2890,7 @@ end
 
 function updateCrusingActivityTask(slot0)
 	slot1 = getProxy(TaskProxy)
-	slot2 = math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0:getStartTime()) / 86400) + 1
+	slot2 = slot0:getNDay()
 	slot6 = "config_data"
 
 	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
@@ -3104,37 +3104,36 @@ end
 
 function getActivityTask(slot0, slot1)
 	slot2 = getProxy(TaskProxy)
-	slot4 = pg.TimeMgr.GetInstance()
-	slot6, slot7, slot8 = nil
-	slot12 = #slot0:getConfig("config_data")
+	slot5, slot6, slot7 = nil
+	slot11 = #slot0:getConfig("config_data")
 
-	for slot12 = math.max(slot0.data3, 1), math.min(slot4:DiffDay(slot0.data1, slot4:GetServerTime()) + 1, slot12) do
-		for slot17, slot18 in ipairs(_.flatten({
-			slot3[slot12]
+	for slot11 = math.max(slot0.data3, 1), math.min(slot0:getNDay(slot0.data1), slot11) do
+		for slot16, slot17 in ipairs(_.flatten({
+			slot3[slot11]
 		})) do
-			if slot2.getTaskById(slot2, slot18) then
-				return slot6.id, slot6
+			if slot2.getTaskById(slot2, slot17) then
+				return slot5.id, slot5
 			end
 
-			if slot7 then
-				if slot2.getFinishTaskById(slot2, slot18) then
-					slot7 = slot8
+			if slot6 then
+				if slot2.getFinishTaskById(slot2, slot17) then
+					slot6 = slot7
 				elseif slot1 then
-					return slot18
+					return slot17
 				else
-					return slot7.id, slot7
+					return slot6.id, slot6
 				end
 			else
-				slot7 = slot2.getFinishTaskById(slot2, slot18)
-				slot8 = slot8 or slot18
+				slot6 = slot2.getFinishTaskById(slot2, slot17)
+				slot7 = slot7 or slot17
 			end
 		end
 	end
 
-	if slot7 then
-		return slot7.id, slot7
+	if slot6 then
+		return slot6.id, slot6
 	else
-		return slot8
+		return slot7
 	end
 end
 
@@ -4096,31 +4095,69 @@ function RegisterDetailButton(slot0, slot1, slot2)
 	updateDropCfg(slot2)
 	switch(slot2.type, {
 		[DROP_TYPE_ITEM] = function ()
-			if uv1[getProxy(TechnologyProxy):getItemCanUnlockBluePrint(uv0.id) and "tech" or uv0.cfg.type] then
+			if uv0.cfg.type == Item.SKIN_ASSIGNED_TYPE then
+				slot1 = pg.item_data_template[uv0.id].usage_arg[3]
+
+				if Item.InTimeLimitSkinAssigned(uv0.id) then
+					slot1 = table.mergeArray(slot0[2], slot1, true)
+				end
+
+				slot2 = {}
+
+				for slot6, slot7 in ipairs(slot0[2]) do
+					slot2[slot7] = true
+				end
+
+				onButton(uv1, uv2, function ()
+					uv0:closeView()
+					pg.m02:sendNotification(GAME.LOAD_LAYERS, {
+						parentContext = getProxy(ContextProxy):getCurrentContext(),
+						context = Context.New({
+							viewComponent = SelectSkinLayer,
+							mediator = SkinAtlasMediator,
+							data = {
+								mode = SelectSkinLayer.MODE_VIEW,
+								itemId = uv1.id,
+								selectableSkinList = underscore.map(uv2, function (slot0)
+									return SelectableSkin.New({
+										id = slot0,
+										isTimeLimit = uv0[slot0] or false
+									})
+								end)
+							}
+						})
+					})
+				end, SFX_PANEL)
+				setActive(uv2, true)
+
+				return
+			end
+
+			if uv3[getProxy(TechnologyProxy):getItemCanUnlockBluePrint(uv0.id) and "tech" or uv0.cfg.type] then
 				slot1 = {
 					item2Row = true,
+					content = i18n(uv3[slot0]),
 					itemList = underscore.map(uv0.cfg.display_icon, function (slot0)
 						return {
 							type = slot0[1],
 							id = slot0[2],
 							count = slot0[3]
 						}
-					end),
-					content = i18n(uv1[slot0])
+					end)
 				}
 
 				if slot0 == 11 then
-					onButton(uv2, uv3, function ()
+					onButton(uv1, uv2, function ()
 						uv0:emit(BaseUI.ON_DROP_LIST_OWN, uv1)
 					end, SFX_PANEL)
 				else
-					onButton(uv2, uv3, function ()
+					onButton(uv1, uv2, function ()
 						uv0:emit(BaseUI.ON_DROP_LIST, uv1)
 					end, SFX_PANEL)
 				end
 			end
 
-			setActive(uv3, tobool(uv1[slot0]))
+			setActive(uv2, tobool(uv3[slot0]))
 		end,
 		[DROP_TYPE_EQUIP] = function ()
 			onButton(uv0, uv1, function ()

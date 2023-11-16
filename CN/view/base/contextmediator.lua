@@ -345,7 +345,7 @@ function slot0.commonBind(slot0)
 				weight = LayerWeightConst.TOP_LAYER
 			})
 		end,
-		[BaseUI.ON_ITEM] = function (slot0, slot1, slot2)
+		[BaseUI.ON_ITEM] = function (slot0, slot1, slot2, slot3)
 			slot0:addSubLayers(Context.New({
 				mediator = ItemInfoMediator,
 				viewComponent = ItemInfoLayer,
@@ -353,7 +353,8 @@ function slot0.commonBind(slot0)
 					drop = {
 						type = DROP_TYPE_ITEM,
 						id = slot2
-					}
+					},
+					confirmCall = slot3
 				}
 			}))
 		end,

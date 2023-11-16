@@ -101,7 +101,7 @@ pg.open_systems_limited = {
 		name = "指挥喵",
 		story_id = "",
 		id = 14,
-		mediator = "CommandRoomMediator",
+		mediator = "CommanderCatMediator",
 		level = 40
 	},
 	[15] = {

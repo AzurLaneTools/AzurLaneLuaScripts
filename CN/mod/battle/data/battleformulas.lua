@@ -625,6 +625,13 @@ function slot0.parseCompareUnitAttr(slot0, slot1, slot2)
 	return getCompareFuncByPunctuation(string.sub(slot0, slot3, slot4))(tonumber(string.sub(slot0, 1, slot3 - 1)) or slot1:GetAttrByName(slot6), tonumber(slot7) or slot2:GetAttrByName(slot7))
 end
 
+function slot0.parseCompareUnitTemplate(slot0, slot1, slot2)
+	slot3, slot4 = string.find(slot0, "%p+")
+	slot7 = string.sub(slot0, slot4 + 1, #slot0)
+
+	return getCompareFuncByPunctuation(string.sub(slot0, slot3, slot4))(tonumber(string.sub(slot0, 1, slot3 - 1)) or slot1:GetTemplateValue(slot6), tonumber(slot7) or slot2:GetTemplateValue(slot7))
+end
+
 function slot0.parseCompare(slot0, slot1)
 	slot2, slot3 = string.find(slot0, "%p+")
 	slot6 = string.sub(slot0, slot3 + 1, #slot0)

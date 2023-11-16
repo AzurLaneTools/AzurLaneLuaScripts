@@ -5,6 +5,7 @@ function slot0.Execute(slot0, slot1)
 	slot0:RequestActivityTask()
 	slot0:RequestColoring()
 	slot0:RequestMetaData()
+	slot0:RequestManualSignAct()
 	slot1()
 end
 
@@ -61,6 +62,17 @@ end
 
 function slot0.RequestMetaData(slot0)
 	getProxy(MetaCharacterProxy):requestMetaTacticsInfo()
+end
+
+function slot0.RequestManualSignAct(slot0)
+	for slot5, slot6 in pairs(getProxy(ActivityProxy):getRawData()) do
+		if slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN and not slot6:TodayIsSigned() then
+			pg.m02:sendNotification(GAME.ACT_MANUAL_SIGN, {
+				activity_id = slot6.id,
+				cmd = ManualSignActivity.OP_SIGN
+			})
+		end
+	end
 end
 
 return slot0

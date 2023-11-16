@@ -20,12 +20,10 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0.expUp, false)
 
 	slot0.formationTF = slot0.infoTF:Find("formation")
-
-	setActive(slot0.formationTF, false)
-
 	slot0.inbattleTF = slot0.infoTF:Find("inbattle")
 
 	setActive(slot0.inbattleTF, false)
+	setActive(slot0.formationTF, false)
 
 	slot0.tip = slot0._tf:Find("tip")
 
@@ -65,6 +63,8 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
+	setActive(slot0.formationTF, slot1 and slot1.inFleet and not slot1.inBattle)
+	setActive(slot0.inbattleTF, slot1 and slot1.inBattle)
 	setActive(slot0.infoTF, slot1 and slot1.id ~= 0)
 	setActive(slot0.emptyTF, not slot1)
 	setActive(slot0.quitTF, slot1 and slot1.id == 0)
@@ -144,6 +144,10 @@ function slot0.clear(slot0)
 	if LeanTween.isTweening(slot0.infoTF) then
 		LeanTween.cancel(slot0.infoTF)
 	end
+end
+
+function slot0.Dispose(slot0)
+	slot0:clear()
 end
 
 return slot0
