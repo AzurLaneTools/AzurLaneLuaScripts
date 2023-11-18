@@ -153,7 +153,7 @@ function slot0.IsMatchKey(slot0, slot1)
 		return true
 	end
 
-	return string.find(string.lower(slot0.shipName), string.lower(string.gsub(slot1, "%.", "%%."))) or string.find(string.lower(slot0.skinName), slot1)
+	return string.find(string.lower(slot0.shipName), string.lower(string.gsub(string.lower(string.gsub(slot1, "%.", "%%.")), "%-", "%%-"))) or string.find(string.lower(slot0.skinName), slot1)
 end
 
 function slot0.ToShip(slot0)
