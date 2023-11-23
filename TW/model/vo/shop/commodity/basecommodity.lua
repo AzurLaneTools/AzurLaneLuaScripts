@@ -116,23 +116,31 @@ function slot0.inTime(slot0)
 	if type(slot1) == "string" then
 		return slot1 == "always"
 	else
-		slot2 = nil
+		slot2, slot3 = slot0:getTimeStamp()
+
+		if slot2 and slot3 then
+			return slot2 <= pg.TimeMgr.GetInstance():GetServerTime() and slot4 <= slot3, slot3 - slot4
+		else
+			return true
+		end
+	end
+end
+
+function slot0.getTimeStamp(slot0)
+	if slot0:getConfig("time") and type(slot1) == "table" then
+		slot2, slot3 = nil
 
 		if #slot1 > 0 then
 			slot2 = pg.TimeMgr.GetInstance():ParseTimeEx(slot1[1][1][1] .. "-" .. slot1[1][1][2] .. "-" .. slot1[1][1][3] .. " " .. slot1[1][2][1] .. ":" .. slot1[1][2][2] .. ":" .. slot1[1][2][3], nil, true)
 		end
-
-		slot3 = nil
 
 		if #slot1 > 1 then
 			slot3 = pg.TimeMgr.GetInstance():ParseTimeEx(slot1[2][1][1] .. "-" .. slot1[2][1][2] .. "-" .. slot1[2][1][3] .. " " .. slot1[2][2][1] .. ":" .. slot1[2][2][2] .. ":" .. slot1[2][2][3], nil, true)
 		end
 
 		if slot2 and slot3 then
-			return slot2 <= pg.TimeMgr.GetInstance():GetServerTime() and slot4 <= slot3, slot3 - slot4
+			return slot2, slot3
 		end
-
-		return true
 	end
 end
 

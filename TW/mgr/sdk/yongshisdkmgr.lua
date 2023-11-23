@@ -60,6 +60,7 @@ function PaySuccess(slot0, slot1)
 	end
 
 	getProxy(ShopsProxy):removeWaitTimer()
+	originalPrint(slot0 + " - " + slot1)
 	pg.m02:sendNotification(GAME.CHARGE_CONFIRM, {
 		payId = slot0,
 		bsId = slot1

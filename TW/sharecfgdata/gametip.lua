@@ -526,10 +526,6 @@ _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>生氣</color>"
 }
 
-_G.pg.base.gametip.word_secondseach = {
-	tip = "/輪"
-}
-
 _G.pg.base.gametip.word_max_page = {
 	tip = "最大頁"
 }
@@ -8460,6 +8456,10 @@ _G.pg.base.gametip.twitter_link_title = {
 	tip = "</size>"
 }
 
+_G.pg.base.gametip.commander_material_noenough = {
+	tip = "材料不足"
+}
+
 _G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "阻止boss自毀並擊破boss"
 }
@@ -9649,7 +9649,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "武藏、酒匂、羽黑建造機率UP！"
+	tip = "曙光、塔什干、蘇維埃俄羅斯、水星紀念、威嚴建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -23959,4 +23959,124 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "是否使用<color=#72bc42>$1鑽石</color>購買<color=#72bc42>$2</color>"
+}
+
+_G.pg.base.gametip.commandercat_label_raw_name = {
+	tip = "原始名稱"
+}
+
+_G.pg.base.gametip.commandercat_label_custom_name = {
+	tip = "自訂名稱"
+}
+
+_G.pg.base.gametip.commandercat_label_display_name = {
+	tip = "自訂名稱"
+}
+
+_G.pg.base.gametip.commander_selected_max = {
+	tip = "最多選擇$1個指揮喵"
+}
+
+_G.pg.base.gametip.word_talent = {
+	tip = "天賦"
+}
+
+_G.pg.base.gametip.word_click_to_close = {
+	tip = "點選空白關閉"
+}
+
+_G.pg.base.gametip.commander_subtile_ablity = {
+	tip = "能力加成"
+}
+
+_G.pg.base.gametip.commander_subtile_talent = {
+	tip = "天賦加成"
+}
+
+_G.pg.base.gametip.commander_confirm_tip = {
+	tip = "*確認後負責陪玩的指揮喵會消失"
+}
+
+_G.pg.base.gametip.commander_level_up_tip = {
+	tip = "*指揮喵每升5級可獲得1點天賦點"
+}
+
+_G.pg.base.gametip.commander_skill_effect = {
+	tip = "技能效果"
+}
+
+_G.pg.base.gametip.commander_choice_talent_1 = {
+	tip = "選擇要提升或者習得的天賦"
+}
+
+_G.pg.base.gametip.commander_choice_talent_2 = {
+	tip = "可選擇天賦"
+}
+
+_G.pg.base.gametip.commander_choice_talent_3 = {
+	tip = "天賦槽已滿，選擇要替換的天賦"
+}
+
+_G.pg.base.gametip.commander_get_box_tip_1 = {
+	tip = "喵箱??型"
+}
+
+_G.pg.base.gametip.commander_get_box_tip = {
+	tip = "可能收到隨機類型的喵箱，\n敬請期待喵!"
+}
+
+_G.pg.base.gametip.commander_total_gold = {
+	tip = "合計價格："
+}
+
+_G.pg.base.gametip.commander_use_box_tip = {
+	tip = "選擇喵箱"
+}
+
+_G.pg.base.gametip.commander_use_box_queue = {
+	tip = "培育隊列"
+}
+
+_G.pg.base.gametip.commander_command_ability = {
+	tip = "指揮能力"
+}
+
+_G.pg.base.gametip.commander_logistics_ability = {
+	tip = "後勤能力"
+}
+
+_G.pg.base.gametip.commander_tactical_ability = {
+	tip = "戰術能力"
+}
+
+_G.pg.base.gametip.commander_choice_talent_4 = {
+	tip = "*使用天賦點可能獲得天賦的成長"
+}
+
+_G.pg.base.gametip.commander_rename_tip = {
+	tip = "**每隻指揮喵每天只能進行一次更名操作"
+}
+
+_G.pg.base.gametip.commander_home_level_label = {
+	tip = "目前等級"
+}
+
+_G.pg.base.gametip.commander_get_commander_coptyright = {
+	tip = "指揮喵管理中心——"
+}
+
+_G.pg.base.gametip.commander_choice_talent_reset = {
+	tip = "是否消耗$1物資，將天賦還原為初始狀態\t重置後可用天賦$2點，天賦將還原為："
+}
+
+_G.pg.base.gametip.commander_lock_setting_title = {
+	tip = "喵箱訓練完成並同時滿足以下條件時詢問是否鎖定"
+}
+
+_G.pg.base.gametip.skin_exchange_confirm = {
+	tip = "是否使用 <color=#92fc63>$1 *1</color> 兌換 <color=#92fc63>$2</color>"
+}
+
+_G.pg.base.gametip.skin_purchase_confirm = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3造型"
 }

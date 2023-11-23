@@ -14,6 +14,7 @@ _G.pg.base.item_data_statistics[1] = {
 	is_world = 0,
 	icon = "Equips/5200",
 	id = 1,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37,6 +38,7 @@ _G.pg.base.item_data_statistics[2] = {
 	is_world = 0,
 	icon = "Equips/1600",
 	id = 2,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -60,6 +62,7 @@ _G.pg.base.item_data_statistics[3] = {
 	is_world = 0,
 	icon = "Equips/1700",
 	id = 3,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -83,6 +86,7 @@ _G.pg.base.item_data_statistics[4] = {
 	is_world = 0,
 	icon = "Equips/1900",
 	id = 4,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -106,6 +110,7 @@ _G.pg.base.item_data_statistics[5] = {
 	is_world = 0,
 	icon = "Equips/2500",
 	id = 5,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -129,6 +134,7 @@ _G.pg.base.item_data_statistics[6] = {
 	is_world = 0,
 	icon = "Equips/5000",
 	id = 6,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -152,6 +158,7 @@ _G.pg.base.item_data_statistics[7] = {
 	is_world = 0,
 	icon = "Equips/6000",
 	id = 7,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175,6 +182,7 @@ _G.pg.base.item_data_statistics[8] = {
 	is_world = 0,
 	icon = "Equips/7000",
 	id = 8,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -198,6 +206,7 @@ _G.pg.base.item_data_statistics[9] = {
 	is_world = 0,
 	icon = "Equips/11000",
 	id = 9,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -221,6 +230,7 @@ _G.pg.base.item_data_statistics[10] = {
 	is_world = 0,
 	icon = "Equips/12000",
 	id = 10,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -244,6 +254,7 @@ _G.pg.base.item_data_statistics[11] = {
 	is_world = 0,
 	icon = "Equips/13000",
 	id = 11,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -267,6 +278,7 @@ _G.pg.base.item_data_statistics[12] = {
 	is_world = 0,
 	icon = "Equips/14100",
 	id = 12,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -290,6 +302,7 @@ _G.pg.base.item_data_statistics[13] = {
 	is_world = 0,
 	icon = "Equips/16000",
 	id = 13,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -313,6 +326,7 @@ _G.pg.base.item_data_statistics[14] = {
 	is_world = 0,
 	icon = "Equips/17000",
 	id = 14,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -336,6 +350,7 @@ _G.pg.base.item_data_statistics[15] = {
 	is_world = 0,
 	icon = "Equips/18000",
 	id = 15,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -359,6 +374,7 @@ _G.pg.base.item_data_statistics[16] = {
 	is_world = 0,
 	icon = "Equips/19000",
 	id = 16,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -382,6 +398,7 @@ _G.pg.base.item_data_statistics[17] = {
 	is_world = 0,
 	icon = "Equips/21000",
 	id = 17,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -405,6 +422,7 @@ _G.pg.base.item_data_statistics[18] = {
 	is_world = 0,
 	icon = "Equips/21100",
 	id = 18,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -428,6 +446,7 @@ _G.pg.base.item_data_statistics[19] = {
 	is_world = 0,
 	icon = "Equips/21300",
 	id = 19,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -451,6 +470,7 @@ _G.pg.base.item_data_statistics[20] = {
 	is_world = 0,
 	icon = "Equips/22000",
 	id = 20,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -474,6 +494,7 @@ _G.pg.base.item_data_statistics[21] = {
 	is_world = 0,
 	icon = "Equips/26000",
 	id = 21,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -497,6 +518,7 @@ _G.pg.base.item_data_statistics[22] = {
 	is_world = 0,
 	icon = "Equips/29000",
 	id = 22,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -520,6 +542,7 @@ _G.pg.base.item_data_statistics[23] = {
 	is_world = 0,
 	icon = "Equips/31100",
 	id = 23,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -543,6 +566,7 @@ _G.pg.base.item_data_statistics[24] = {
 	is_world = 0,
 	icon = "Equips/32000",
 	id = 24,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -566,6 +590,7 @@ _G.pg.base.item_data_statistics[25] = {
 	is_world = 0,
 	icon = "Equips/34000",
 	id = 25,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -589,6 +614,7 @@ _G.pg.base.item_data_statistics[26] = {
 	is_world = 0,
 	icon = "Equips/35000",
 	id = 26,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -612,6 +638,7 @@ _G.pg.base.item_data_statistics[27] = {
 	is_world = 0,
 	icon = "Equips/36100",
 	id = 27,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -635,6 +662,7 @@ _G.pg.base.item_data_statistics[28] = {
 	is_world = 0,
 	icon = "Equips/37000",
 	id = 28,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -658,6 +686,7 @@ _G.pg.base.item_data_statistics[29] = {
 	is_world = 0,
 	icon = "Equips/38000",
 	id = 29,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -681,6 +710,7 @@ _G.pg.base.item_data_statistics[30] = {
 	is_world = 0,
 	icon = "Equips/41000",
 	id = 30,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -704,6 +734,7 @@ _G.pg.base.item_data_statistics[31] = {
 	is_world = 0,
 	icon = "Equips/46000",
 	id = 31,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -727,6 +758,7 @@ _G.pg.base.item_data_statistics[32] = {
 	is_world = 0,
 	icon = "Equips/46100",
 	id = 32,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -750,6 +782,7 @@ _G.pg.base.item_data_statistics[33] = {
 	is_world = 0,
 	icon = "Equips/41100",
 	id = 33,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -773,6 +806,7 @@ _G.pg.base.item_data_statistics[34] = {
 	is_world = 0,
 	icon = "Equips/43100",
 	id = 34,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -796,6 +830,7 @@ _G.pg.base.item_data_statistics[35] = {
 	is_world = 0,
 	icon = "Equips/44000",
 	id = 35,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -819,6 +854,7 @@ _G.pg.base.item_data_statistics[36] = {
 	is_world = 0,
 	icon = "Equips/45000",
 	id = 36,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -842,6 +878,7 @@ _G.pg.base.item_data_statistics[37] = {
 	is_world = 0,
 	icon = "Equips/47000",
 	id = 37,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -865,6 +902,7 @@ _G.pg.base.item_data_statistics[38] = {
 	is_world = 0,
 	icon = "Equips/49000",
 	id = 38,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -888,6 +926,7 @@ _G.pg.base.item_data_statistics[39] = {
 	is_world = 0,
 	icon = "Equips/37300",
 	id = 39,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -911,6 +950,7 @@ _G.pg.base.item_data_statistics[40] = {
 	is_world = 0,
 	icon = "Equips/38200",
 	id = 40,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -934,6 +974,7 @@ _G.pg.base.item_data_statistics[41] = {
 	is_world = 0,
 	icon = "Equips/39200",
 	id = 41,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -957,6 +998,7 @@ _G.pg.base.item_data_statistics[42] = {
 	is_world = 0,
 	icon = "Equips/27200",
 	id = 42,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -980,6 +1022,7 @@ _G.pg.base.item_data_statistics[43] = {
 	is_world = 0,
 	icon = "Equips/5300",
 	id = 43,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1003,6 +1046,7 @@ _G.pg.base.item_data_statistics[44] = {
 	is_world = 0,
 	icon = "Equips/6100",
 	id = 44,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1026,6 +1070,7 @@ _G.pg.base.item_data_statistics[45] = {
 	is_world = 0,
 	icon = "Equips/2900",
 	id = 45,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1049,6 +1094,7 @@ _G.pg.base.item_data_statistics[46] = {
 	is_world = 0,
 	icon = "Equips/3000",
 	id = 46,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1072,6 +1118,7 @@ _G.pg.base.item_data_statistics[47] = {
 	is_world = 0,
 	icon = "Equips/4000",
 	id = 47,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1095,6 +1142,7 @@ _G.pg.base.item_data_statistics[48] = {
 	is_world = 0,
 	icon = "Equips/4100",
 	id = 48,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1118,6 +1166,7 @@ _G.pg.base.item_data_statistics[49] = {
 	is_world = 0,
 	icon = "Equips/15000",
 	id = 49,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1141,6 +1190,7 @@ _G.pg.base.item_data_statistics[50] = {
 	is_world = 0,
 	icon = "Equips/15100",
 	id = 50,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1164,6 +1214,7 @@ _G.pg.base.item_data_statistics[51] = {
 	is_world = 0,
 	icon = "Equips/35400",
 	id = 51,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1187,6 +1238,7 @@ _G.pg.base.item_data_statistics[52] = {
 	is_world = 0,
 	icon = "Equips/35500",
 	id = 52,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1210,6 +1262,7 @@ _G.pg.base.item_data_statistics[53] = {
 	is_world = 0,
 	icon = "Equips/45300",
 	id = 53,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1233,6 +1286,7 @@ _G.pg.base.item_data_statistics[54] = {
 	is_world = 0,
 	icon = "Equips/45400",
 	id = 54,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1256,6 +1310,7 @@ _G.pg.base.item_data_statistics[55] = {
 	is_world = 0,
 	icon = "Equips/5500",
 	id = 55,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1279,6 +1334,7 @@ _G.pg.base.item_data_statistics[56] = {
 	is_world = 0,
 	icon = "Equips/50000",
 	id = 56,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1302,6 +1358,7 @@ _G.pg.base.item_data_statistics[57] = {
 	is_world = 0,
 	icon = "Equips/50200",
 	id = 57,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1325,6 +1382,7 @@ _G.pg.base.item_data_statistics[58] = {
 	is_world = 0,
 	icon = "Equips/50300",
 	id = 58,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1348,6 +1406,7 @@ _G.pg.base.item_data_statistics[59] = {
 	is_world = 0,
 	icon = "Equips/55000",
 	id = 59,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1371,6 +1430,7 @@ _G.pg.base.item_data_statistics[60] = {
 	is_world = 0,
 	icon = "Equips/55100",
 	id = 60,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1394,6 +1454,7 @@ _G.pg.base.item_data_statistics[61] = {
 	is_world = 0,
 	icon = "Equips/55200",
 	id = 61,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1417,6 +1478,7 @@ _G.pg.base.item_data_statistics[62] = {
 	is_world = 0,
 	icon = "Equips/55300",
 	id = 62,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1440,6 +1502,7 @@ _G.pg.base.item_data_statistics[63] = {
 	is_world = 0,
 	icon = "Equips/55400",
 	id = 63,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1463,6 +1526,7 @@ _G.pg.base.item_data_statistics[64] = {
 	is_world = 0,
 	icon = "Equips/55460",
 	id = 64,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1486,6 +1550,7 @@ _G.pg.base.item_data_statistics[65] = {
 	is_world = 0,
 	icon = "Equips/55480",
 	id = 65,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1509,6 +1574,7 @@ _G.pg.base.item_data_statistics[66] = {
 	is_world = 0,
 	icon = "Equips/55500",
 	id = 66,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1532,6 +1598,7 @@ _G.pg.base.item_data_statistics[67] = {
 	is_world = 0,
 	icon = "Equips/28300",
 	id = 67,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1555,6 +1622,7 @@ _G.pg.base.item_data_statistics[68] = {
 	is_world = 0,
 	icon = "Equips/32300",
 	id = 68,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1578,6 +1646,7 @@ _G.pg.base.item_data_statistics[70] = {
 	is_world = 0,
 	icon = "Equips/85120",
 	id = 70,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1601,6 +1670,7 @@ _G.pg.base.item_data_statistics[71] = {
 	is_world = 0,
 	icon = "Equips/85240",
 	id = 71,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1624,6 +1694,7 @@ _G.pg.base.item_data_statistics[73] = {
 	is_world = 0,
 	icon = "Equips/85300",
 	id = 73,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1647,6 +1718,7 @@ _G.pg.base.item_data_statistics[74] = {
 	is_world = 0,
 	icon = "Equips/85360",
 	id = 74,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1670,6 +1742,7 @@ _G.pg.base.item_data_statistics[75] = {
 	is_world = 0,
 	icon = "Equips/85420",
 	id = 75,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1693,6 +1766,7 @@ _G.pg.base.item_data_statistics[76] = {
 	is_world = 0,
 	icon = "Equips/85440",
 	id = 76,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1716,6 +1790,7 @@ _G.pg.base.item_data_statistics[77] = {
 	is_world = 0,
 	icon = "Equips/85180",
 	id = 77,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1739,6 +1814,7 @@ _G.pg.base.item_data_statistics[78] = {
 	is_world = 0,
 	icon = "Equips/50700",
 	id = 78,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1762,6 +1838,7 @@ _G.pg.base.item_data_statistics[79] = {
 	is_world = 0,
 	icon = "Equips/50780",
 	id = 79,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1785,6 +1862,7 @@ _G.pg.base.item_data_statistics[80] = {
 	is_world = 0,
 	icon = "Equips/50800",
 	id = 80,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1808,6 +1886,7 @@ _G.pg.base.item_data_statistics[81] = {
 	is_world = 0,
 	icon = "Equips/50820",
 	id = 81,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1831,6 +1910,7 @@ _G.pg.base.item_data_statistics[82] = {
 	is_world = 0,
 	icon = "Equips/50840",
 	id = 82,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1854,6 +1934,7 @@ _G.pg.base.item_data_statistics[83] = {
 	is_world = 0,
 	icon = "Equips/50860",
 	id = 83,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1877,6 +1958,7 @@ _G.pg.base.item_data_statistics[1001] = {
 	is_world = 0,
 	icon = "Props/potechi",
 	id = 1001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1900,6 +1982,7 @@ _G.pg.base.item_data_statistics[1004] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 1004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1923,6 +2006,7 @@ _G.pg.base.item_data_statistics[1005] = {
 	is_world = 0,
 	icon = "props/manjuuema",
 	id = 1005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1946,6 +2030,7 @@ _G.pg.base.item_data_statistics[1006] = {
 	is_world = 0,
 	icon = "props/lingdang",
 	id = 1006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1969,6 +2054,7 @@ _G.pg.base.item_data_statistics[1008] = {
 	is_world = 0,
 	icon = "Equips/640",
 	id = 1008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -1992,6 +2078,7 @@ _G.pg.base.item_data_statistics[1009] = {
 	is_world = 0,
 	icon = "Equips/640",
 	id = 1009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2015,6 +2102,7 @@ _G.pg.base.item_data_statistics[1010] = {
 	is_world = 0,
 	icon = "Props/zuozhanbaogao",
 	id = 1010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2038,6 +2126,7 @@ _G.pg.base.item_data_statistics[1011] = {
 	is_world = 0,
 	icon = "Props/zuozhanbaogao",
 	id = 1011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2061,6 +2150,7 @@ _G.pg.base.item_data_statistics[1012] = {
 	is_world = 0,
 	icon = "Props/zuozhanbaogao",
 	id = 1012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2084,6 +2174,7 @@ _G.pg.base.item_data_statistics[1013] = {
 	is_world = 0,
 	icon = "props/lingdang",
 	id = 1013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2107,6 +2198,7 @@ _G.pg.base.item_data_statistics[1014] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 1014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2130,6 +2222,7 @@ _G.pg.base.item_data_statistics[10000] = {
 	is_world = 0,
 	icon = "Equips/1000",
 	id = 10000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2153,6 +2246,7 @@ _G.pg.base.item_data_statistics[10001] = {
 	is_world = 0,
 	icon = "Equips/1100",
 	id = 10001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2176,6 +2270,7 @@ _G.pg.base.item_data_statistics[10002] = {
 	is_world = 0,
 	icon = "Equips/1200",
 	id = 10002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2199,6 +2294,7 @@ _G.pg.base.item_data_statistics[10003] = {
 	is_world = 0,
 	icon = "Equips/1300",
 	id = 10003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2222,6 +2318,7 @@ _G.pg.base.item_data_statistics[10004] = {
 	is_world = 0,
 	icon = "Equips/1400",
 	id = 10004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2245,6 +2342,7 @@ _G.pg.base.item_data_statistics[10005] = {
 	is_world = 0,
 	icon = "Equips/1500",
 	id = 10005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2268,6 +2366,7 @@ _G.pg.base.item_data_statistics[10006] = {
 	is_world = 0,
 	icon = "Equips/1800",
 	id = 10006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2291,6 +2390,7 @@ _G.pg.base.item_data_statistics[10007] = {
 	is_world = 0,
 	icon = "Equips/2000",
 	id = 10007,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2314,6 +2414,7 @@ _G.pg.base.item_data_statistics[10008] = {
 	is_world = 0,
 	icon = "Equips/2100",
 	id = 10008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2337,6 +2438,7 @@ _G.pg.base.item_data_statistics[10009] = {
 	is_world = 0,
 	icon = "Equips/2200",
 	id = 10009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2360,6 +2462,7 @@ _G.pg.base.item_data_statistics[10010] = {
 	is_world = 0,
 	icon = "Equips/2300",
 	id = 10010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2383,6 +2486,7 @@ _G.pg.base.item_data_statistics[10011] = {
 	is_world = 0,
 	icon = "Equips/2400",
 	id = 10011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2406,6 +2510,7 @@ _G.pg.base.item_data_statistics[10012] = {
 	is_world = 0,
 	icon = "Equips/2600",
 	id = 10012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2429,6 +2534,7 @@ _G.pg.base.item_data_statistics[10013] = {
 	is_world = 0,
 	icon = "Equips/2700",
 	id = 10013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2452,6 +2558,7 @@ _G.pg.base.item_data_statistics[10014] = {
 	is_world = 0,
 	icon = "Equips/5100",
 	id = 10014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2475,6 +2582,7 @@ _G.pg.base.item_data_statistics[10015] = {
 	is_world = 0,
 	icon = "Equips/5200",
 	id = 10015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2498,6 +2606,7 @@ _G.pg.base.item_data_statistics[10016] = {
 	is_world = 0,
 	icon = "Equips/11100",
 	id = 10016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2521,6 +2630,7 @@ _G.pg.base.item_data_statistics[10017] = {
 	is_world = 0,
 	icon = "Equips/11200",
 	id = 10017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2544,6 +2654,7 @@ _G.pg.base.item_data_statistics[10018] = {
 	is_world = 0,
 	icon = "Equips/12100",
 	id = 10018,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2567,6 +2678,7 @@ _G.pg.base.item_data_statistics[10019] = {
 	is_world = 0,
 	icon = "Equips/13100",
 	id = 10019,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2590,6 +2702,7 @@ _G.pg.base.item_data_statistics[10021] = {
 	is_world = 0,
 	icon = "Equips/14200",
 	id = 10021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2613,6 +2726,7 @@ _G.pg.base.item_data_statistics[10022] = {
 	is_world = 0,
 	icon = "Equips/14300",
 	id = 10022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2636,6 +2750,7 @@ _G.pg.base.item_data_statistics[10024] = {
 	is_world = 0,
 	icon = "Equips/16100",
 	id = 10024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2659,6 +2774,7 @@ _G.pg.base.item_data_statistics[10025] = {
 	is_world = 0,
 	icon = "Equips/16200",
 	id = 10025,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2682,6 +2798,7 @@ _G.pg.base.item_data_statistics[10026] = {
 	is_world = 0,
 	icon = "Equips/16300",
 	id = 10026,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2705,6 +2822,7 @@ _G.pg.base.item_data_statistics[10027] = {
 	is_world = 0,
 	icon = "Equips/16400",
 	id = 10027,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2728,6 +2846,7 @@ _G.pg.base.item_data_statistics[10028] = {
 	is_world = 0,
 	icon = "Equips/17100",
 	id = 10028,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2751,6 +2870,7 @@ _G.pg.base.item_data_statistics[10029] = {
 	is_world = 0,
 	icon = "Equips/17200",
 	id = 10029,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2774,6 +2894,7 @@ _G.pg.base.item_data_statistics[10030] = {
 	is_world = 0,
 	icon = "Equips/17300",
 	id = 10030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2797,6 +2918,7 @@ _G.pg.base.item_data_statistics[10031] = {
 	is_world = 0,
 	icon = "Equips/18100",
 	id = 10031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2820,6 +2942,7 @@ _G.pg.base.item_data_statistics[10032] = {
 	is_world = 0,
 	icon = "Equips/19100",
 	id = 10032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2843,6 +2966,7 @@ _G.pg.base.item_data_statistics[10033] = {
 	is_world = 0,
 	icon = "Equips/19200",
 	id = 10033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2866,6 +2990,7 @@ _G.pg.base.item_data_statistics[10034] = {
 	is_world = 0,
 	icon = "Equips/21200",
 	id = 10034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2889,6 +3014,7 @@ _G.pg.base.item_data_statistics[10035] = {
 	is_world = 0,
 	icon = "Equips/21400",
 	id = 10035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2912,6 +3038,7 @@ _G.pg.base.item_data_statistics[10036] = {
 	is_world = 0,
 	icon = "Equips/21500",
 	id = 10036,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2935,6 +3062,7 @@ _G.pg.base.item_data_statistics[10037] = {
 	is_world = 0,
 	icon = "Equips/22100",
 	id = 10037,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2958,6 +3086,7 @@ _G.pg.base.item_data_statistics[10038] = {
 	is_world = 0,
 	icon = "Equips/23000",
 	id = 10038,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -2981,6 +3110,7 @@ _G.pg.base.item_data_statistics[10039] = {
 	is_world = 0,
 	icon = "Equips/24000",
 	id = 10039,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3004,6 +3134,7 @@ _G.pg.base.item_data_statistics[10040] = {
 	is_world = 0,
 	icon = "Equips/24100",
 	id = 10040,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3027,6 +3158,7 @@ _G.pg.base.item_data_statistics[10041] = {
 	is_world = 0,
 	icon = "Equips/24200",
 	id = 10041,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3050,6 +3182,7 @@ _G.pg.base.item_data_statistics[10042] = {
 	is_world = 0,
 	icon = "Equips/26100",
 	id = 10042,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3073,6 +3206,7 @@ _G.pg.base.item_data_statistics[10043] = {
 	is_world = 0,
 	icon = "Equips/26200",
 	id = 10043,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3096,6 +3230,7 @@ _G.pg.base.item_data_statistics[10044] = {
 	is_world = 0,
 	icon = "Equips/26300",
 	id = 10044,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3119,6 +3254,7 @@ _G.pg.base.item_data_statistics[10045] = {
 	is_world = 0,
 	icon = "Equips/26400",
 	id = 10045,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3142,6 +3278,7 @@ _G.pg.base.item_data_statistics[10046] = {
 	is_world = 0,
 	icon = "Equips/26500",
 	id = 10046,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3165,6 +3302,7 @@ _G.pg.base.item_data_statistics[10047] = {
 	is_world = 0,
 	icon = "Equips/27000",
 	id = 10047,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3188,6 +3326,7 @@ _G.pg.base.item_data_statistics[10048] = {
 	is_world = 0,
 	icon = "Equips/27100",
 	id = 10048,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3211,6 +3350,7 @@ _G.pg.base.item_data_statistics[10049] = {
 	is_world = 0,
 	icon = "Equips/28000",
 	id = 10049,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3234,6 +3374,7 @@ _G.pg.base.item_data_statistics[10050] = {
 	is_world = 0,
 	icon = "Equips/28100",
 	id = 10050,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3257,6 +3398,7 @@ _G.pg.base.item_data_statistics[10051] = {
 	is_world = 0,
 	icon = "Equips/29100",
 	id = 10051,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3280,6 +3422,7 @@ _G.pg.base.item_data_statistics[10052] = {
 	is_world = 0,
 	icon = "Equips/31000",
 	id = 10052,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3303,6 +3446,7 @@ _G.pg.base.item_data_statistics[10053] = {
 	is_world = 0,
 	icon = "Equips/31200",
 	id = 10053,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3326,6 +3470,7 @@ _G.pg.base.item_data_statistics[10054] = {
 	is_world = 0,
 	icon = "Equips/32100",
 	id = 10054,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3349,6 +3494,7 @@ _G.pg.base.item_data_statistics[10055] = {
 	is_world = 0,
 	icon = "Equips/32200",
 	id = 10055,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3372,6 +3518,7 @@ _G.pg.base.item_data_statistics[10056] = {
 	is_world = 0,
 	icon = "Equips/33000",
 	id = 10056,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3395,6 +3542,7 @@ _G.pg.base.item_data_statistics[10057] = {
 	is_world = 0,
 	icon = "Equips/34100",
 	id = 10057,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3418,6 +3566,7 @@ _G.pg.base.item_data_statistics[10059] = {
 	is_world = 0,
 	icon = "Equips/35100",
 	id = 10059,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3441,6 +3590,7 @@ _G.pg.base.item_data_statistics[10060] = {
 	is_world = 0,
 	icon = "Equips/35200",
 	id = 10060,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3464,6 +3614,7 @@ _G.pg.base.item_data_statistics[10062] = {
 	is_world = 0,
 	icon = "Equips/36200",
 	id = 10062,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3487,6 +3638,7 @@ _G.pg.base.item_data_statistics[10063] = {
 	is_world = 0,
 	icon = "Equips/36300",
 	id = 10063,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3510,6 +3662,7 @@ _G.pg.base.item_data_statistics[10064] = {
 	is_world = 0,
 	icon = "Equips/36400",
 	id = 10064,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3533,6 +3686,7 @@ _G.pg.base.item_data_statistics[10065] = {
 	is_world = 0,
 	icon = "Equips/36600",
 	id = 10065,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3556,6 +3710,7 @@ _G.pg.base.item_data_statistics[10066] = {
 	is_world = 0,
 	icon = "Equips/37100",
 	id = 10066,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3579,6 +3734,7 @@ _G.pg.base.item_data_statistics[10067] = {
 	is_world = 0,
 	icon = "Equips/37200",
 	id = 10067,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3602,6 +3758,7 @@ _G.pg.base.item_data_statistics[10068] = {
 	is_world = 0,
 	icon = "Equips/38100",
 	id = 10068,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3625,6 +3782,7 @@ _G.pg.base.item_data_statistics[10069] = {
 	is_world = 0,
 	icon = "Equips/39000",
 	id = 10069,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3648,6 +3806,7 @@ _G.pg.base.item_data_statistics[10070] = {
 	is_world = 0,
 	icon = "Equips/39100",
 	id = 10070,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3671,6 +3830,7 @@ _G.pg.base.item_data_statistics[10071] = {
 	is_world = 0,
 	icon = "Equips/42000",
 	id = 10071,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3694,6 +3854,7 @@ _G.pg.base.item_data_statistics[10072] = {
 	is_world = 0,
 	icon = "Equips/42100",
 	id = 10072,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3717,6 +3878,7 @@ _G.pg.base.item_data_statistics[10073] = {
 	is_world = 0,
 	icon = "Equips/42200",
 	id = 10073,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3740,6 +3902,7 @@ _G.pg.base.item_data_statistics[10074] = {
 	is_world = 0,
 	icon = "Equips/43000",
 	id = 10074,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3763,6 +3926,7 @@ _G.pg.base.item_data_statistics[10075] = {
 	is_world = 0,
 	icon = "Equips/44000",
 	id = 10075,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3786,6 +3950,7 @@ _G.pg.base.item_data_statistics[10076] = {
 	is_world = 0,
 	icon = "Equips/44100",
 	id = 10076,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3809,6 +3974,7 @@ _G.pg.base.item_data_statistics[10077] = {
 	is_world = 0,
 	icon = "Equips/46200",
 	id = 10077,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3832,6 +3998,7 @@ _G.pg.base.item_data_statistics[10078] = {
 	is_world = 0,
 	icon = "Equips/46300",
 	id = 10078,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3855,6 +4022,7 @@ _G.pg.base.item_data_statistics[10079] = {
 	is_world = 0,
 	icon = "Equips/41100",
 	id = 10079,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3878,6 +4046,7 @@ _G.pg.base.item_data_statistics[10080] = {
 	is_world = 0,
 	icon = "Equips/43100",
 	id = 10080,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3901,6 +4070,7 @@ _G.pg.base.item_data_statistics[10081] = {
 	is_world = 0,
 	icon = "Equips/45000",
 	id = 10081,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3924,6 +4094,7 @@ _G.pg.base.item_data_statistics[10082] = {
 	is_world = 0,
 	icon = "Equips/45100",
 	id = 10082,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3947,6 +4118,7 @@ _G.pg.base.item_data_statistics[10083] = {
 	is_world = 0,
 	icon = "Equips/45200",
 	id = 10083,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3970,6 +4142,7 @@ _G.pg.base.item_data_statistics[10084] = {
 	is_world = 0,
 	icon = "Equips/47000",
 	id = 10084,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -3993,6 +4166,7 @@ _G.pg.base.item_data_statistics[10085] = {
 	is_world = 0,
 	icon = "Equips/47100",
 	id = 10085,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4016,6 +4190,7 @@ _G.pg.base.item_data_statistics[10086] = {
 	is_world = 0,
 	icon = "Equips/49000",
 	id = 10086,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4039,6 +4214,7 @@ _G.pg.base.item_data_statistics[10087] = {
 	is_world = 0,
 	icon = "Equips/37300",
 	id = 10087,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4062,6 +4238,7 @@ _G.pg.base.item_data_statistics[10088] = {
 	is_world = 0,
 	icon = "Equips/38200",
 	id = 10088,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4085,6 +4262,7 @@ _G.pg.base.item_data_statistics[10089] = {
 	is_world = 0,
 	icon = "Equips/39200",
 	id = 10089,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4108,6 +4286,7 @@ _G.pg.base.item_data_statistics[10090] = {
 	is_world = 0,
 	icon = "Equips/5400",
 	id = 10090,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4131,6 +4310,7 @@ _G.pg.base.item_data_statistics[10091] = {
 	is_world = 0,
 	icon = "Equips/2900",
 	id = 10091,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4154,6 +4334,7 @@ _G.pg.base.item_data_statistics[10092] = {
 	is_world = 0,
 	icon = "Equips/3000",
 	id = 10092,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4177,6 +4358,7 @@ _G.pg.base.item_data_statistics[10093] = {
 	is_world = 0,
 	icon = "Equips/4100",
 	id = 10093,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4200,6 +4382,7 @@ _G.pg.base.item_data_statistics[10094] = {
 	is_world = 0,
 	icon = "Equips/15000",
 	id = 10094,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4223,6 +4406,7 @@ _G.pg.base.item_data_statistics[10095] = {
 	is_world = 0,
 	icon = "Equips/15100",
 	id = 10095,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4246,6 +4430,7 @@ _G.pg.base.item_data_statistics[10096] = {
 	is_world = 0,
 	icon = "Equips/35400",
 	id = 10096,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4269,6 +4454,7 @@ _G.pg.base.item_data_statistics[10097] = {
 	is_world = 0,
 	icon = "Equips/35500",
 	id = 10097,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4292,6 +4478,7 @@ _G.pg.base.item_data_statistics[10098] = {
 	is_world = 0,
 	icon = "Equips/45300",
 	id = 10098,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4315,6 +4502,7 @@ _G.pg.base.item_data_statistics[10099] = {
 	is_world = 0,
 	icon = "Equips/45400",
 	id = 10099,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4338,6 +4526,7 @@ _G.pg.base.item_data_statistics[10100] = {
 	is_world = 0,
 	icon = "Equips/5500",
 	id = 10100,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4361,6 +4550,7 @@ _G.pg.base.item_data_statistics[10101] = {
 	is_world = 0,
 	icon = "Equips/50100",
 	id = 10101,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4384,6 +4574,7 @@ _G.pg.base.item_data_statistics[10102] = {
 	is_world = 0,
 	icon = "Equips/50300",
 	id = 10102,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4407,6 +4598,7 @@ _G.pg.base.item_data_statistics[10103] = {
 	is_world = 0,
 	icon = "Equips/50400",
 	id = 10103,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4430,6 +4622,7 @@ _G.pg.base.item_data_statistics[10104] = {
 	is_world = 0,
 	icon = "Equips/55000",
 	id = 10104,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4453,6 +4646,7 @@ _G.pg.base.item_data_statistics[10105] = {
 	is_world = 0,
 	icon = "Equips/55100",
 	id = 10105,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4476,6 +4670,7 @@ _G.pg.base.item_data_statistics[10106] = {
 	is_world = 0,
 	icon = "Equips/55200",
 	id = 10106,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4499,6 +4694,7 @@ _G.pg.base.item_data_statistics[10107] = {
 	is_world = 0,
 	icon = "Equips/55300",
 	id = 10107,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4522,6 +4718,7 @@ _G.pg.base.item_data_statistics[10108] = {
 	is_world = 0,
 	icon = "Equips/55400",
 	id = 10108,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4545,6 +4742,7 @@ _G.pg.base.item_data_statistics[10109] = {
 	is_world = 0,
 	icon = "Equips/55500",
 	id = 10109,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4568,6 +4766,7 @@ _G.pg.base.item_data_statistics[10110] = {
 	is_world = 0,
 	icon = "Equips/28300",
 	id = 10110,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4591,6 +4790,7 @@ _G.pg.base.item_data_statistics[10111] = {
 	is_world = 0,
 	icon = "Equips/32300",
 	id = 10111,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4600,7 +4800,7 @@ _G.pg.base.item_data_statistics[10111] = {
 
 _G.pg.base.item_data_statistics[10113] = {
 	display = "B-38 三聯裝152mm主炮Mk5T2設計圖",
-	name = "B-38 三聯裝152mm主炮Mk5T2設計圖",
+	name = "B-38三聯裝152mm主炮Mk5T2設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -4614,6 +4814,7 @@ _G.pg.base.item_data_statistics[10113] = {
 	is_world = 0,
 	icon = "Equips/85120",
 	id = 10113,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4637,6 +4838,7 @@ _G.pg.base.item_data_statistics[10114] = {
 	is_world = 0,
 	icon = "Equips/85240",
 	id = 10114,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4660,6 +4862,7 @@ _G.pg.base.item_data_statistics[10116] = {
 	is_world = 0,
 	icon = "Equips/85300",
 	id = 10116,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4683,6 +4886,7 @@ _G.pg.base.item_data_statistics[10117] = {
 	is_world = 0,
 	icon = "Equips/85360",
 	id = 10117,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4706,6 +4910,7 @@ _G.pg.base.item_data_statistics[10118] = {
 	is_world = 0,
 	icon = "Equips/85180",
 	id = 10118,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4729,6 +4934,7 @@ _G.pg.base.item_data_statistics[10119] = {
 	is_world = 0,
 	icon = "Equips/50700",
 	id = 10119,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4752,6 +4958,7 @@ _G.pg.base.item_data_statistics[10120] = {
 	is_world = 0,
 	icon = "Equips/50860",
 	id = 10120,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4775,6 +4982,7 @@ _G.pg.base.item_data_statistics[10121] = {
 	is_world = 0,
 	icon = "Equips/25100",
 	id = 10121,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4798,6 +5006,7 @@ _G.pg.base.item_data_statistics[10122] = {
 	is_world = 0,
 	icon = "Equips/7200",
 	id = 10122,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4821,6 +5030,7 @@ _G.pg.base.item_data_statistics[10123] = {
 	is_world = 0,
 	icon = "Equips/55720",
 	id = 10123,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4844,6 +5054,7 @@ _G.pg.base.item_data_statistics[10124] = {
 	is_world = 0,
 	icon = "Equips/55800",
 	id = 10124,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4867,6 +5078,7 @@ _G.pg.base.item_data_statistics[10125] = {
 	is_world = 0,
 	icon = "Equips/55920",
 	id = 10125,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4890,6 +5102,7 @@ _G.pg.base.item_data_statistics[11000] = {
 	is_world = 0,
 	icon = "Equips/1000",
 	id = 11000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4913,6 +5126,7 @@ _G.pg.base.item_data_statistics[11001] = {
 	is_world = 0,
 	icon = "Equips/1400",
 	id = 11001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4936,6 +5150,7 @@ _G.pg.base.item_data_statistics[11002] = {
 	is_world = 0,
 	icon = "Equips/1500",
 	id = 11002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4959,6 +5174,7 @@ _G.pg.base.item_data_statistics[11003] = {
 	is_world = 0,
 	icon = "Equips/2600",
 	id = 11003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -4982,6 +5198,7 @@ _G.pg.base.item_data_statistics[11004] = {
 	is_world = 0,
 	icon = "Equips/2700",
 	id = 11004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5005,6 +5222,7 @@ _G.pg.base.item_data_statistics[11005] = {
 	is_world = 0,
 	icon = "Equips/5200",
 	id = 11005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5028,6 +5246,7 @@ _G.pg.base.item_data_statistics[11006] = {
 	is_world = 0,
 	icon = "Equips/11200",
 	id = 11006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5051,6 +5270,7 @@ _G.pg.base.item_data_statistics[11009] = {
 	is_world = 0,
 	icon = "Equips/16400",
 	id = 11009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5074,6 +5294,7 @@ _G.pg.base.item_data_statistics[11010] = {
 	is_world = 0,
 	icon = "Equips/17300",
 	id = 11010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5097,6 +5318,7 @@ _G.pg.base.item_data_statistics[11011] = {
 	is_world = 0,
 	icon = "Equips/19200",
 	id = 11011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5120,6 +5342,7 @@ _G.pg.base.item_data_statistics[11012] = {
 	is_world = 0,
 	icon = "Equips/24000",
 	id = 11012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5143,6 +5366,7 @@ _G.pg.base.item_data_statistics[11013] = {
 	is_world = 0,
 	icon = "Equips/24200",
 	id = 11013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5166,6 +5390,7 @@ _G.pg.base.item_data_statistics[11014] = {
 	is_world = 0,
 	icon = "Equips/26200",
 	id = 11014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5189,6 +5414,7 @@ _G.pg.base.item_data_statistics[11015] = {
 	is_world = 0,
 	icon = "Equips/26500",
 	id = 11015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5212,6 +5438,7 @@ _G.pg.base.item_data_statistics[11016] = {
 	is_world = 0,
 	icon = "Equips/27100",
 	id = 11016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5235,6 +5462,7 @@ _G.pg.base.item_data_statistics[11017] = {
 	is_world = 0,
 	icon = "Equips/28100",
 	id = 11017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5258,6 +5486,7 @@ _G.pg.base.item_data_statistics[11018] = {
 	is_world = 0,
 	icon = "Equips/31000",
 	id = 11018,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5281,6 +5510,7 @@ _G.pg.base.item_data_statistics[11019] = {
 	is_world = 0,
 	icon = "Equips/32200",
 	id = 11019,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5304,6 +5534,7 @@ _G.pg.base.item_data_statistics[11021] = {
 	is_world = 0,
 	icon = "Equips/35200",
 	id = 11021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5327,6 +5558,7 @@ _G.pg.base.item_data_statistics[11023] = {
 	is_world = 0,
 	icon = "Equips/37200",
 	id = 11023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5350,6 +5582,7 @@ _G.pg.base.item_data_statistics[11024] = {
 	is_world = 0,
 	icon = "Equips/39100",
 	id = 11024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5373,6 +5606,7 @@ _G.pg.base.item_data_statistics[11025] = {
 	is_world = 0,
 	icon = "Equips/43000",
 	id = 11025,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5396,6 +5630,7 @@ _G.pg.base.item_data_statistics[11026] = {
 	is_world = 0,
 	icon = "Equips/44100",
 	id = 11026,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5419,6 +5654,7 @@ _G.pg.base.item_data_statistics[11027] = {
 	is_world = 0,
 	icon = "Equips/46300",
 	id = 11027,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5442,6 +5678,7 @@ _G.pg.base.item_data_statistics[11028] = {
 	is_world = 0,
 	icon = "Equips/540",
 	id = 11028,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5465,6 +5702,7 @@ _G.pg.base.item_data_statistics[11029] = {
 	is_world = 0,
 	icon = "Equips/45100",
 	id = 11029,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5488,6 +5726,7 @@ _G.pg.base.item_data_statistics[11030] = {
 	is_world = 0,
 	icon = "Equips/45200",
 	id = 11030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5511,6 +5750,7 @@ _G.pg.base.item_data_statistics[11031] = {
 	is_world = 0,
 	icon = "Equips/47100",
 	id = 11031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5534,6 +5774,7 @@ _G.pg.base.item_data_statistics[11032] = {
 	is_world = 0,
 	icon = "Equips/37300",
 	id = 11032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5557,6 +5798,7 @@ _G.pg.base.item_data_statistics[11033] = {
 	is_world = 0,
 	icon = "Equips/38200",
 	id = 11033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5580,6 +5822,7 @@ _G.pg.base.item_data_statistics[11034] = {
 	is_world = 0,
 	icon = "Equips/3000",
 	id = 11034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5603,6 +5846,7 @@ _G.pg.base.item_data_statistics[11035] = {
 	is_world = 0,
 	icon = "Equips/15100",
 	id = 11035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5626,6 +5870,7 @@ _G.pg.base.item_data_statistics[11036] = {
 	is_world = 0,
 	icon = "Equips/35500",
 	id = 11036,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5649,6 +5894,7 @@ _G.pg.base.item_data_statistics[11037] = {
 	is_world = 0,
 	icon = "Equips/45400",
 	id = 11037,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5672,6 +5918,7 @@ _G.pg.base.item_data_statistics[11038] = {
 	is_world = 0,
 	icon = "Equips/50100",
 	id = 11038,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5695,6 +5942,7 @@ _G.pg.base.item_data_statistics[11039] = {
 	is_world = 0,
 	icon = "Equips/50400",
 	id = 11039,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5718,6 +5966,7 @@ _G.pg.base.item_data_statistics[11040] = {
 	is_world = 0,
 	icon = "Equips/55100",
 	id = 11040,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5741,6 +5990,7 @@ _G.pg.base.item_data_statistics[11041] = {
 	is_world = 0,
 	icon = "Equips/55200",
 	id = 11041,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5764,6 +6014,7 @@ _G.pg.base.item_data_statistics[11042] = {
 	is_world = 0,
 	icon = "Equips/85000",
 	id = 11042,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5773,7 +6024,7 @@ _G.pg.base.item_data_statistics[11042] = {
 
 _G.pg.base.item_data_statistics[11043] = {
 	display = "B-38 三聯裝152mm主炮Mk5T3設計圖",
-	name = "B-38 三聯裝152mm主炮Mk5T3設計圖",
+	name = "B-38三聯裝152mm主炮Mk5T3設計圖",
 	max_num = 0,
 	type = 9,
 	time_limit = 0,
@@ -5787,6 +6038,7 @@ _G.pg.base.item_data_statistics[11043] = {
 	is_world = 0,
 	icon = "Equips/85120",
 	id = 11043,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5810,6 +6062,7 @@ _G.pg.base.item_data_statistics[11046] = {
 	is_world = 0,
 	icon = "Equips/50860",
 	id = 11046,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5833,6 +6086,7 @@ _G.pg.base.item_data_statistics[11047] = {
 	is_world = 0,
 	icon = "Equips/37400",
 	id = 11047,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5856,6 +6110,7 @@ _G.pg.base.item_data_statistics[11048] = {
 	is_world = 0,
 	icon = "Equips/55600",
 	id = 11048,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5879,6 +6134,7 @@ _G.pg.base.item_data_statistics[11049] = {
 	is_world = 0,
 	icon = "Equips/55000",
 	id = 11049,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5902,6 +6158,7 @@ _G.pg.base.item_data_statistics[11050] = {
 	is_world = 0,
 	icon = "Equips/15240",
 	id = 11050,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5925,6 +6182,7 @@ _G.pg.base.item_data_statistics[11051] = {
 	is_world = 0,
 	icon = "Equips/27320",
 	id = 11051,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5948,6 +6206,7 @@ _G.pg.base.item_data_statistics[11052] = {
 	is_world = 0,
 	icon = "Equips/51240",
 	id = 11052,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5971,6 +6230,7 @@ _G.pg.base.item_data_statistics[11053] = {
 	is_world = 0,
 	icon = "Equips/27300",
 	id = 11053,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -5994,6 +6254,7 @@ _G.pg.base.item_data_statistics[12003] = {
 	is_world = 0,
 	icon = "Equips/45200",
 	id = 12003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6017,6 +6278,7 @@ _G.pg.base.item_data_statistics[13000] = {
 	is_world = 0,
 	icon = "Equips/24300",
 	id = 13000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6040,6 +6302,7 @@ _G.pg.base.item_data_statistics[13001] = {
 	is_world = 0,
 	icon = "Equips/24160",
 	id = 13001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6063,6 +6326,7 @@ _G.pg.base.item_data_statistics[13002] = {
 	is_world = 0,
 	icon = "Equips/34100",
 	id = 13002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6086,6 +6350,7 @@ _G.pg.base.item_data_statistics[13003] = {
 	is_world = 0,
 	icon = "Equips/34180",
 	id = 13003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6109,6 +6374,7 @@ _G.pg.base.item_data_statistics[13004] = {
 	is_world = 0,
 	icon = "Equips/43060",
 	id = 13004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6132,6 +6398,7 @@ _G.pg.base.item_data_statistics[13005] = {
 	is_world = 0,
 	icon = "Equips/7300",
 	id = 13005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6155,6 +6422,7 @@ _G.pg.base.item_data_statistics[13006] = {
 	is_world = 0,
 	icon = "Equips/22260",
 	id = 13006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6178,6 +6446,7 @@ _G.pg.base.item_data_statistics[13007] = {
 	is_world = 0,
 	icon = "Equips/26600",
 	id = 13007,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6201,6 +6470,7 @@ _G.pg.base.item_data_statistics[13008] = {
 	is_world = 0,
 	icon = "Equips/36560",
 	id = 13008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6224,6 +6494,7 @@ _G.pg.base.item_data_statistics[13009] = {
 	is_world = 0,
 	icon = "Equips/1160",
 	id = 13009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6247,6 +6518,7 @@ _G.pg.base.item_data_statistics[13010] = {
 	is_world = 0,
 	icon = "Equips/1760",
 	id = 13010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6270,6 +6542,7 @@ _G.pg.base.item_data_statistics[13011] = {
 	is_world = 0,
 	icon = "Equips/26620",
 	id = 13011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6293,6 +6566,7 @@ _G.pg.base.item_data_statistics[13012] = {
 	is_world = 0,
 	icon = "Equips/14500",
 	id = 13012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6316,6 +6590,7 @@ _G.pg.base.item_data_statistics[13013] = {
 	is_world = 0,
 	icon = "Equips/44200",
 	id = 13013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6339,6 +6614,7 @@ _G.pg.base.item_data_statistics[13014] = {
 	is_world = 0,
 	icon = "Equips/12200",
 	id = 13014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6362,6 +6638,7 @@ _G.pg.base.item_data_statistics[13015] = {
 	is_world = 0,
 	icon = "Equips/36700",
 	id = 13015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6385,6 +6662,7 @@ _G.pg.base.item_data_statistics[13016] = {
 	is_world = 0,
 	icon = "Equips/33100",
 	id = 13016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6408,6 +6686,7 @@ _G.pg.base.item_data_statistics[13017] = {
 	is_world = 0,
 	icon = "Equips/50600",
 	id = 13017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6431,6 +6710,7 @@ _G.pg.base.item_data_statistics[13018] = {
 	is_world = 0,
 	icon = "Equips/23100",
 	id = 13018,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6454,6 +6734,7 @@ _G.pg.base.item_data_statistics[13019] = {
 	is_world = 0,
 	icon = "Equips/23120",
 	id = 13019,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6477,6 +6758,7 @@ _G.pg.base.item_data_statistics[13020] = {
 	is_world = 0,
 	icon = "Equips/21600",
 	id = 13020,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6500,6 +6782,7 @@ _G.pg.base.item_data_statistics[13021] = {
 	is_world = 0,
 	icon = "Equips/26660",
 	id = 13021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6523,6 +6806,7 @@ _G.pg.base.item_data_statistics[13022] = {
 	is_world = 0,
 	icon = "Equips/44300",
 	id = 13022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6546,6 +6830,7 @@ _G.pg.base.item_data_statistics[13023] = {
 	is_world = 0,
 	icon = "Equips/51000",
 	id = 13023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6569,6 +6854,7 @@ _G.pg.base.item_data_statistics[13024] = {
 	is_world = 0,
 	icon = "Equips/1260",
 	id = 13024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6592,6 +6878,7 @@ _G.pg.base.item_data_statistics[13025] = {
 	is_world = 0,
 	icon = "Equips/44400",
 	id = 13025,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6615,6 +6902,7 @@ _G.pg.base.item_data_statistics[13026] = {
 	is_world = 0,
 	icon = "Equips/47160",
 	id = 13026,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6638,6 +6926,7 @@ _G.pg.base.item_data_statistics[13027] = {
 	is_world = 0,
 	icon = "Equips/55160",
 	id = 13027,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6661,6 +6950,7 @@ _G.pg.base.item_data_statistics[13028] = {
 	is_world = 0,
 	icon = "Equips/55900",
 	id = 13028,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6684,6 +6974,7 @@ _G.pg.base.item_data_statistics[13029] = {
 	is_world = 0,
 	icon = "Equips/38300",
 	id = 13029,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6707,6 +6998,7 @@ _G.pg.base.item_data_statistics[13030] = {
 	is_world = 0,
 	icon = "Equips/39340",
 	id = 13030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6730,6 +7022,7 @@ _G.pg.base.item_data_statistics[13031] = {
 	is_world = 0,
 	icon = "Equips/22280",
 	id = 13031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6753,6 +7046,7 @@ _G.pg.base.item_data_statistics[13032] = {
 	is_world = 0,
 	icon = "Equips/50360",
 	id = 13032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6776,6 +7070,7 @@ _G.pg.base.item_data_statistics[13033] = {
 	is_world = 0,
 	icon = "Equips/85540",
 	id = 13033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6799,6 +7094,7 @@ _G.pg.base.item_data_statistics[13034] = {
 	is_world = 0,
 	icon = "Equips/85560",
 	id = 13034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6822,6 +7118,7 @@ _G.pg.base.item_data_statistics[13035] = {
 	is_world = 0,
 	icon = "Equips/46400",
 	id = 13035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6845,6 +7142,7 @@ _G.pg.base.item_data_statistics[13036] = {
 	is_world = 0,
 	icon = "Equips/56100",
 	id = 13036,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -6876,6 +7174,7 @@ _G.pg.base.item_data_statistics[14001] = {
 	is_world = 0,
 	icon = "Props/14001",
 	id = 14001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -6937,6 +7236,7 @@ _G.pg.base.item_data_statistics[14002] = {
 	is_world = 0,
 	icon = "Props/14002",
 	id = 14002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -6994,6 +7294,7 @@ _G.pg.base.item_data_statistics[14003] = {
 	is_world = 0,
 	icon = "Props/14003",
 	id = 14003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -7051,6 +7352,7 @@ _G.pg.base.item_data_statistics[14004] = {
 	is_world = 0,
 	icon = "Props/14004",
 	id = 14004,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -7100,6 +7402,7 @@ _G.pg.base.item_data_statistics[15001] = {
 	is_world = 0,
 	icon = "Props/medal",
 	id = 15001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7123,6 +7426,7 @@ _G.pg.base.item_data_statistics[15002] = {
 	is_world = 0,
 	icon = "Props/nengyuanshi",
 	id = 15002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7146,6 +7450,7 @@ _G.pg.base.item_data_statistics[15003] = {
 	is_world = 0,
 	icon = "Props/15003",
 	id = 15003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7169,6 +7474,7 @@ _G.pg.base.item_data_statistics[15004] = {
 	is_world = 0,
 	icon = "Props/nengyuanshi",
 	id = 15004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7192,6 +7498,7 @@ _G.pg.base.item_data_statistics[15005] = {
 	is_world = 0,
 	icon = "Props/kuojian_",
 	id = 15005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7215,6 +7522,7 @@ _G.pg.base.item_data_statistics[15006] = {
 	is_world = 0,
 	icon = "Props/ring",
 	id = 15006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7238,6 +7546,7 @@ _G.pg.base.item_data_statistics[15008] = {
 	is_world = 0,
 	icon = "Props/15008",
 	id = 15008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7261,6 +7570,7 @@ _G.pg.base.item_data_statistics[15009] = {
 	is_world = 0,
 	icon = "Props/15009",
 	id = 15009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7284,6 +7594,7 @@ _G.pg.base.item_data_statistics[15010] = {
 	is_world = 0,
 	icon = "Props/15010",
 	id = 15010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7307,6 +7618,7 @@ _G.pg.base.item_data_statistics[15011] = {
 	is_world = 0,
 	icon = "Props/tiara",
 	id = 15011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7330,6 +7642,7 @@ _G.pg.base.item_data_statistics[15012] = {
 	is_world = 0,
 	icon = "Props/15012",
 	id = 15012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7353,6 +7666,7 @@ _G.pg.base.item_data_statistics[15013] = {
 	is_world = 0,
 	icon = "Props/15013",
 	id = 15013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7376,6 +7690,7 @@ _G.pg.base.item_data_statistics[15014] = {
 	is_world = 0,
 	icon = "Props/15014",
 	id = 15014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7399,6 +7714,7 @@ _G.pg.base.item_data_statistics[15015] = {
 	is_world = 0,
 	icon = "Props/15015",
 	id = 15015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7422,6 +7738,7 @@ _G.pg.base.item_data_statistics[15016] = {
 	is_world = 0,
 	icon = "Props/15016",
 	id = 15016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7445,6 +7762,7 @@ _G.pg.base.item_data_statistics[15017] = {
 	is_world = 0,
 	icon = "Props/15017",
 	id = 15017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7468,6 +7786,7 @@ _G.pg.base.item_data_statistics[15020] = {
 	is_world = 0,
 	icon = "Props/15019",
 	id = 15020,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7491,6 +7810,7 @@ _G.pg.base.item_data_statistics[15021] = {
 	is_world = 0,
 	icon = "Props/15020",
 	id = 15021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7514,6 +7834,7 @@ _G.pg.base.item_data_statistics[16001] = {
 	is_world = 0,
 	icon = "Props/16001",
 	id = 16001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7537,6 +7858,7 @@ _G.pg.base.item_data_statistics[16002] = {
 	is_world = 0,
 	icon = "Props/16002",
 	id = 16002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7560,6 +7882,7 @@ _G.pg.base.item_data_statistics[16003] = {
 	is_world = 0,
 	icon = "Props/16003",
 	id = 16003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7583,6 +7906,7 @@ _G.pg.base.item_data_statistics[16004] = {
 	is_world = 0,
 	icon = "Props/16004",
 	id = 16004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7606,6 +7930,7 @@ _G.pg.base.item_data_statistics[16011] = {
 	is_world = 0,
 	icon = "Props/16011",
 	id = 16011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7629,6 +7954,7 @@ _G.pg.base.item_data_statistics[16012] = {
 	is_world = 0,
 	icon = "Props/16012",
 	id = 16012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7652,6 +7978,7 @@ _G.pg.base.item_data_statistics[16013] = {
 	is_world = 0,
 	icon = "Props/16013",
 	id = 16013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7675,6 +8002,7 @@ _G.pg.base.item_data_statistics[16014] = {
 	is_world = 0,
 	icon = "Props/16014",
 	id = 16014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7698,6 +8026,7 @@ _G.pg.base.item_data_statistics[16021] = {
 	is_world = 0,
 	icon = "Props/16021",
 	id = 16021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7721,6 +8050,7 @@ _G.pg.base.item_data_statistics[16022] = {
 	is_world = 0,
 	icon = "Props/16022",
 	id = 16022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7744,6 +8074,7 @@ _G.pg.base.item_data_statistics[16023] = {
 	is_world = 0,
 	icon = "Props/16023",
 	id = 16023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7767,6 +8098,7 @@ _G.pg.base.item_data_statistics[16024] = {
 	is_world = 0,
 	icon = "Props/16024",
 	id = 16024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7790,6 +8122,7 @@ _G.pg.base.item_data_statistics[16501] = {
 	is_world = 0,
 	icon = "Props/16501",
 	id = 16501,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7813,6 +8146,7 @@ _G.pg.base.item_data_statistics[16502] = {
 	is_world = 0,
 	icon = "Props/16502",
 	id = 16502,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7836,6 +8170,7 @@ _G.pg.base.item_data_statistics[17001] = {
 	is_world = 1,
 	icon = "Props/17001",
 	id = 17001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7859,6 +8194,7 @@ _G.pg.base.item_data_statistics[17002] = {
 	is_world = 1,
 	icon = "Props/17002",
 	id = 17002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7882,6 +8218,7 @@ _G.pg.base.item_data_statistics[17003] = {
 	is_world = 1,
 	icon = "Props/17003",
 	id = 17003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7905,6 +8242,7 @@ _G.pg.base.item_data_statistics[17004] = {
 	is_world = 1,
 	icon = "Props/17004",
 	id = 17004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7928,6 +8266,7 @@ _G.pg.base.item_data_statistics[17011] = {
 	is_world = 1,
 	icon = "Props/17011",
 	id = 17011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7951,6 +8290,7 @@ _G.pg.base.item_data_statistics[17012] = {
 	is_world = 1,
 	icon = "Props/17012",
 	id = 17012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7974,6 +8314,7 @@ _G.pg.base.item_data_statistics[17013] = {
 	is_world = 1,
 	icon = "Props/17013",
 	id = 17013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -7997,6 +8338,7 @@ _G.pg.base.item_data_statistics[17014] = {
 	is_world = 1,
 	icon = "Props/17014",
 	id = 17014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8020,6 +8362,7 @@ _G.pg.base.item_data_statistics[17021] = {
 	is_world = 1,
 	icon = "Props/17021",
 	id = 17021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8043,6 +8386,7 @@ _G.pg.base.item_data_statistics[17022] = {
 	is_world = 1,
 	icon = "Props/17022",
 	id = 17022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8066,6 +8410,7 @@ _G.pg.base.item_data_statistics[17023] = {
 	is_world = 1,
 	icon = "Props/17023",
 	id = 17023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8089,6 +8434,7 @@ _G.pg.base.item_data_statistics[17024] = {
 	is_world = 1,
 	icon = "Props/17024",
 	id = 17024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8112,6 +8458,7 @@ _G.pg.base.item_data_statistics[17031] = {
 	is_world = 1,
 	icon = "Props/17031",
 	id = 17031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8135,6 +8482,7 @@ _G.pg.base.item_data_statistics[17032] = {
 	is_world = 1,
 	icon = "Props/17032",
 	id = 17032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8158,6 +8506,7 @@ _G.pg.base.item_data_statistics[17033] = {
 	is_world = 1,
 	icon = "Props/17033",
 	id = 17033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8181,6 +8530,7 @@ _G.pg.base.item_data_statistics[17034] = {
 	is_world = 1,
 	icon = "Props/17034",
 	id = 17034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8204,6 +8554,7 @@ _G.pg.base.item_data_statistics[17041] = {
 	is_world = 1,
 	icon = "Props/17041",
 	id = 17041,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8227,6 +8578,7 @@ _G.pg.base.item_data_statistics[17042] = {
 	is_world = 1,
 	icon = "Props/17042",
 	id = 17042,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8250,6 +8602,7 @@ _G.pg.base.item_data_statistics[17043] = {
 	is_world = 1,
 	icon = "Props/17043",
 	id = 17043,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8273,6 +8626,7 @@ _G.pg.base.item_data_statistics[17044] = {
 	is_world = 1,
 	icon = "Props/17044",
 	id = 17044,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8296,6 +8650,7 @@ _G.pg.base.item_data_statistics[17990] = {
 	is_world = 1,
 	icon = "Props/17990",
 	id = 17990,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8319,6 +8674,7 @@ _G.pg.base.item_data_statistics[17991] = {
 	is_world = 1,
 	icon = "Props/17991",
 	id = 17991,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8342,6 +8698,7 @@ _G.pg.base.item_data_statistics[18000] = {
 	is_world = 0,
 	icon = "Props/nengyuanshi",
 	id = 18000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8365,6 +8722,7 @@ _G.pg.base.item_data_statistics[18001] = {
 	is_world = 0,
 	icon = "Props/18001",
 	id = 18001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8388,6 +8746,7 @@ _G.pg.base.item_data_statistics[18002] = {
 	is_world = 0,
 	icon = "Props/18002",
 	id = 18002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8411,6 +8770,7 @@ _G.pg.base.item_data_statistics[18003] = {
 	is_world = 0,
 	icon = "Props/18003",
 	id = 18003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8434,6 +8794,7 @@ _G.pg.base.item_data_statistics[18011] = {
 	is_world = 0,
 	icon = "Props/18011",
 	id = 18011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8457,6 +8818,7 @@ _G.pg.base.item_data_statistics[18012] = {
 	is_world = 0,
 	icon = "Props/18012",
 	id = 18012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8480,6 +8842,7 @@ _G.pg.base.item_data_statistics[18013] = {
 	is_world = 0,
 	icon = "Props/18013",
 	id = 18013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8503,6 +8866,7 @@ _G.pg.base.item_data_statistics[18021] = {
 	is_world = 0,
 	icon = "Props/18021",
 	id = 18021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8526,6 +8890,7 @@ _G.pg.base.item_data_statistics[18022] = {
 	is_world = 0,
 	icon = "Props/18022",
 	id = 18022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8549,6 +8914,7 @@ _G.pg.base.item_data_statistics[18023] = {
 	is_world = 0,
 	icon = "Props/18023",
 	id = 18023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8572,6 +8938,7 @@ _G.pg.base.item_data_statistics[18031] = {
 	is_world = 0,
 	icon = "Props/18031",
 	id = 18031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8595,6 +8962,7 @@ _G.pg.base.item_data_statistics[18032] = {
 	is_world = 0,
 	icon = "Props/18032",
 	id = 18032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8618,6 +8986,7 @@ _G.pg.base.item_data_statistics[18033] = {
 	is_world = 0,
 	icon = "Props/18033",
 	id = 18033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8641,6 +9010,7 @@ _G.pg.base.item_data_statistics[18101] = {
 	is_world = 1,
 	icon = "Props/18101",
 	id = 18101,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8664,6 +9034,7 @@ _G.pg.base.item_data_statistics[18102] = {
 	is_world = 1,
 	icon = "Props/18102",
 	id = 18102,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8687,6 +9058,7 @@ _G.pg.base.item_data_statistics[18103] = {
 	is_world = 1,
 	icon = "Props/18103",
 	id = 18103,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8710,6 +9082,7 @@ _G.pg.base.item_data_statistics[18104] = {
 	is_world = 1,
 	icon = "Props/18104",
 	id = 18104,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8733,6 +9106,7 @@ _G.pg.base.item_data_statistics[18105] = {
 	is_world = 1,
 	icon = "Props/18105",
 	id = 18105,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8756,6 +9130,7 @@ _G.pg.base.item_data_statistics[18106] = {
 	is_world = 1,
 	icon = "Props/18106",
 	id = 18106,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8779,6 +9154,7 @@ _G.pg.base.item_data_statistics[18107] = {
 	is_world = 1,
 	icon = "Props/18107",
 	id = 18107,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8802,6 +9178,7 @@ _G.pg.base.item_data_statistics[18108] = {
 	is_world = 1,
 	icon = "Props/18108",
 	id = 18108,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8825,6 +9202,7 @@ _G.pg.base.item_data_statistics[18109] = {
 	is_world = 1,
 	icon = "Props/18109",
 	id = 18109,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8848,6 +9226,7 @@ _G.pg.base.item_data_statistics[18110] = {
 	is_world = 1,
 	icon = "Props/18110",
 	id = 18110,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8871,6 +9250,7 @@ _G.pg.base.item_data_statistics[18111] = {
 	is_world = 1,
 	icon = "Props/18111",
 	id = 18111,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8894,6 +9274,7 @@ _G.pg.base.item_data_statistics[18112] = {
 	is_world = 1,
 	icon = "Props/18112",
 	id = 18112,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8917,6 +9298,7 @@ _G.pg.base.item_data_statistics[18113] = {
 	is_world = 1,
 	icon = "Props/18113",
 	id = 18113,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8940,6 +9322,7 @@ _G.pg.base.item_data_statistics[18114] = {
 	is_world = 1,
 	icon = "Props/18114",
 	id = 18114,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8963,6 +9346,7 @@ _G.pg.base.item_data_statistics[18115] = {
 	is_world = 1,
 	icon = "Props/18115",
 	id = 18115,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -8986,6 +9370,7 @@ _G.pg.base.item_data_statistics[18116] = {
 	is_world = 1,
 	icon = "Props/18116",
 	id = 18116,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9009,6 +9394,7 @@ _G.pg.base.item_data_statistics[18117] = {
 	is_world = 1,
 	icon = "Props/18117",
 	id = 18117,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9032,6 +9418,7 @@ _G.pg.base.item_data_statistics[18118] = {
 	is_world = 1,
 	icon = "Props/18118",
 	id = 18118,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9055,6 +9442,7 @@ _G.pg.base.item_data_statistics[18119] = {
 	is_world = 1,
 	icon = "Props/18119",
 	id = 18119,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9078,6 +9466,7 @@ _G.pg.base.item_data_statistics[18120] = {
 	is_world = 1,
 	icon = "Props/18120",
 	id = 18120,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9101,6 +9490,7 @@ _G.pg.base.item_data_statistics[18121] = {
 	is_world = 1,
 	icon = "Props/18121",
 	id = 18121,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9124,6 +9514,7 @@ _G.pg.base.item_data_statistics[18122] = {
 	is_world = 1,
 	icon = "Props/18122",
 	id = 18122,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9147,6 +9538,7 @@ _G.pg.base.item_data_statistics[18123] = {
 	is_world = 1,
 	icon = "Props/18123",
 	id = 18123,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9170,6 +9562,7 @@ _G.pg.base.item_data_statistics[18124] = {
 	is_world = 1,
 	icon = "Props/18124",
 	id = 18124,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9193,6 +9586,7 @@ _G.pg.base.item_data_statistics[18125] = {
 	is_world = 1,
 	icon = "Props/18125",
 	id = 18125,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9216,6 +9610,7 @@ _G.pg.base.item_data_statistics[18126] = {
 	is_world = 1,
 	icon = "Props/18126",
 	id = 18126,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9239,6 +9634,7 @@ _G.pg.base.item_data_statistics[18127] = {
 	is_world = 1,
 	icon = "Props/18127",
 	id = 18127,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9262,6 +9658,7 @@ _G.pg.base.item_data_statistics[20001] = {
 	is_world = 0,
 	icon = "Props/20001",
 	id = 20001,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -9288,6 +9685,7 @@ _G.pg.base.item_data_statistics[20010] = {
 	is_world = 0,
 	icon = "Props/20010",
 	id = 20010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9311,6 +9709,7 @@ _G.pg.base.item_data_statistics[20011] = {
 	is_world = 0,
 	icon = "Props/20011",
 	id = 20011,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -9337,6 +9736,7 @@ _G.pg.base.item_data_statistics[20012] = {
 	is_world = 0,
 	icon = "Props/20012",
 	id = 20012,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -9363,6 +9763,7 @@ _G.pg.base.item_data_statistics[20013] = {
 	is_world = 0,
 	icon = "Props/20013",
 	id = 20013,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -9389,6 +9790,7 @@ _G.pg.base.item_data_statistics[20101] = {
 	is_world = 0,
 	icon = "Props/20101",
 	id = 20101,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -9415,6 +9817,7 @@ _G.pg.base.item_data_statistics[20102] = {
 	is_world = 0,
 	icon = "Props/20102",
 	id = 20102,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -9441,6 +9844,7 @@ _G.pg.base.item_data_statistics[20103] = {
 	is_world = 0,
 	icon = "Props/20103",
 	id = 20103,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -9467,6 +9871,7 @@ _G.pg.base.item_data_statistics[21001] = {
 	is_world = 0,
 	icon = "Props/21001",
 	id = 21001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9490,6 +9895,7 @@ _G.pg.base.item_data_statistics[21002] = {
 	is_world = 0,
 	icon = "Props/21002",
 	id = 21002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9513,6 +9919,7 @@ _G.pg.base.item_data_statistics[21003] = {
 	is_world = 0,
 	icon = "Props/21003",
 	id = 21003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9536,6 +9943,7 @@ _G.pg.base.item_data_statistics[21004] = {
 	is_world = 0,
 	icon = "Props/21004",
 	id = 21004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9559,6 +9967,7 @@ _G.pg.base.item_data_statistics[21005] = {
 	is_world = 0,
 	icon = "Props/21005",
 	id = 21005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9582,6 +9991,7 @@ _G.pg.base.item_data_statistics[21006] = {
 	is_world = 0,
 	icon = "Props/21006",
 	id = 21006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9605,6 +10015,7 @@ _G.pg.base.item_data_statistics[21007] = {
 	is_world = 0,
 	icon = "Props/21007",
 	id = 21007,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9628,6 +10039,7 @@ _G.pg.base.item_data_statistics[21008] = {
 	is_world = 0,
 	icon = "Props/21008",
 	id = 21008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9651,6 +10063,7 @@ _G.pg.base.item_data_statistics[21009] = {
 	is_world = 0,
 	icon = "Props/21009",
 	id = 21009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9674,6 +10087,7 @@ _G.pg.base.item_data_statistics[21010] = {
 	is_world = 0,
 	icon = "Props/21010",
 	id = 21010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9697,6 +10111,7 @@ _G.pg.base.item_data_statistics[21011] = {
 	is_world = 0,
 	icon = "Props/21011",
 	id = 21011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9720,6 +10135,7 @@ _G.pg.base.item_data_statistics[21012] = {
 	is_world = 0,
 	icon = "Props/21012",
 	id = 21012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9743,6 +10159,7 @@ _G.pg.base.item_data_statistics[21013] = {
 	is_world = 0,
 	icon = "Props/21013",
 	id = 21013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9766,6 +10183,7 @@ _G.pg.base.item_data_statistics[21014] = {
 	is_world = 0,
 	icon = "Props/21014",
 	id = 21014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9789,6 +10207,7 @@ _G.pg.base.item_data_statistics[21015] = {
 	is_world = 0,
 	icon = "Props/21015",
 	id = 21015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9812,6 +10231,7 @@ _G.pg.base.item_data_statistics[21016] = {
 	is_world = 0,
 	icon = "Props/21016",
 	id = 21016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9835,6 +10255,7 @@ _G.pg.base.item_data_statistics[21017] = {
 	is_world = 0,
 	icon = "Props/21017",
 	id = 21017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9858,6 +10279,7 @@ _G.pg.base.item_data_statistics[21018] = {
 	is_world = 0,
 	icon = "Props/21018",
 	id = 21018,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9881,6 +10303,7 @@ _G.pg.base.item_data_statistics[21020] = {
 	is_world = 0,
 	icon = "Props/21020",
 	id = 21020,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9904,6 +10327,7 @@ _G.pg.base.item_data_statistics[21022] = {
 	is_world = 0,
 	icon = "Props/21022",
 	id = 21022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9927,6 +10351,7 @@ _G.pg.base.item_data_statistics[21101] = {
 	is_world = 0,
 	icon = "Props/21101",
 	id = 21101,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9950,6 +10375,7 @@ _G.pg.base.item_data_statistics[21111] = {
 	is_world = 0,
 	icon = "Props/21111",
 	id = 21111,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9973,6 +10399,7 @@ _G.pg.base.item_data_statistics[21121] = {
 	is_world = 0,
 	icon = "Props/21121",
 	id = 21121,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9996,6 +10423,7 @@ _G.pg.base.item_data_statistics[21131] = {
 	is_world = 0,
 	icon = "Props/21131",
 	id = 21131,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10019,6 +10447,7 @@ _G.pg.base.item_data_statistics[21901] = {
 	is_world = 0,
 	icon = "Props/21901",
 	id = 21901,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10042,6 +10471,7 @@ _G.pg.base.item_data_statistics[21902] = {
 	is_world = 0,
 	icon = "Props/21902",
 	id = 21902,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10065,6 +10495,7 @@ _G.pg.base.item_data_statistics[21903] = {
 	is_world = 0,
 	icon = "Props/21903",
 	id = 21903,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10088,6 +10519,7 @@ _G.pg.base.item_data_statistics[21904] = {
 	is_world = 0,
 	icon = "Props/21904",
 	id = 21904,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10111,6 +10543,7 @@ _G.pg.base.item_data_statistics[21905] = {
 	is_world = 0,
 	icon = "Props/21905",
 	id = 21905,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10134,6 +10567,7 @@ _G.pg.base.item_data_statistics[21906] = {
 	is_world = 0,
 	icon = "Props/21906",
 	id = 21906,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10157,6 +10591,7 @@ _G.pg.base.item_data_statistics[21907] = {
 	is_world = 0,
 	icon = "Props/21907",
 	id = 21907,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10180,6 +10615,7 @@ _G.pg.base.item_data_statistics[21908] = {
 	is_world = 0,
 	icon = "Props/21908",
 	id = 21908,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10203,6 +10639,7 @@ _G.pg.base.item_data_statistics[21909] = {
 	is_world = 0,
 	icon = "Props/21909",
 	id = 21909,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10226,6 +10663,7 @@ _G.pg.base.item_data_statistics[30001] = {
 	is_world = 0,
 	icon = "Props/30000",
 	id = 30001,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10252,6 +10690,7 @@ _G.pg.base.item_data_statistics[30011] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 30011,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10282,6 +10721,7 @@ _G.pg.base.item_data_statistics[30012] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 30012,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10308,6 +10748,7 @@ _G.pg.base.item_data_statistics[30013] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 30013,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10334,6 +10775,7 @@ _G.pg.base.item_data_statistics[30014] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 30014,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10360,6 +10802,7 @@ _G.pg.base.item_data_statistics[30015] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 30015,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10386,6 +10829,7 @@ _G.pg.base.item_data_statistics[30021] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 30021,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10416,6 +10860,7 @@ _G.pg.base.item_data_statistics[30022] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 30022,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10442,6 +10887,7 @@ _G.pg.base.item_data_statistics[30023] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 30023,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10468,6 +10914,7 @@ _G.pg.base.item_data_statistics[30024] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 30024,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10494,6 +10941,7 @@ _G.pg.base.item_data_statistics[30025] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 30025,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10520,6 +10968,7 @@ _G.pg.base.item_data_statistics[30031] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 30031,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10550,6 +10999,7 @@ _G.pg.base.item_data_statistics[30032] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 30032,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10576,6 +11026,7 @@ _G.pg.base.item_data_statistics[30033] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 30033,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10602,6 +11053,7 @@ _G.pg.base.item_data_statistics[30034] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 30034,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10628,6 +11080,7 @@ _G.pg.base.item_data_statistics[30035] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 30035,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10654,6 +11107,7 @@ _G.pg.base.item_data_statistics[30041] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 30041,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10684,6 +11138,7 @@ _G.pg.base.item_data_statistics[30042] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 30042,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10710,6 +11165,7 @@ _G.pg.base.item_data_statistics[30043] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 30043,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10736,6 +11192,7 @@ _G.pg.base.item_data_statistics[30044] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 30044,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10762,6 +11219,7 @@ _G.pg.base.item_data_statistics[30045] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 30045,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10788,6 +11246,7 @@ _G.pg.base.item_data_statistics[30103] = {
 	is_world = 0,
 	icon = "Props/30103",
 	id = 30103,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -10814,6 +11273,7 @@ _G.pg.base.item_data_statistics[30104] = {
 	is_world = 0,
 	icon = "Props/54014",
 	id = 30104,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -10837,6 +11297,7 @@ _G.pg.base.item_data_statistics[30112] = {
 	is_world = 0,
 	icon = "Props/30112",
 	id = 30112,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -10886,6 +11347,7 @@ _G.pg.base.item_data_statistics[30113] = {
 	is_world = 0,
 	icon = "Props/30113",
 	id = 30113,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -10935,6 +11397,7 @@ _G.pg.base.item_data_statistics[30114] = {
 	is_world = 0,
 	icon = "Props/30114",
 	id = 30114,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -10984,6 +11447,7 @@ _G.pg.base.item_data_statistics[30121] = {
 	is_world = 0,
 	icon = "Props/30121",
 	id = 30121,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -11013,6 +11477,7 @@ _G.pg.base.item_data_statistics[30132] = {
 	is_world = 0,
 	icon = "Props/30132",
 	id = 30132,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -11057,6 +11522,7 @@ _G.pg.base.item_data_statistics[30133] = {
 	is_world = 0,
 	icon = "Props/30133",
 	id = 30133,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -11101,6 +11567,7 @@ _G.pg.base.item_data_statistics[30202] = {
 	is_world = 0,
 	icon = "Props/30202",
 	id = 30202,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -11235,6 +11702,7 @@ _G.pg.base.item_data_statistics[30203] = {
 	is_world = 0,
 	icon = "Props/30203",
 	id = 30203,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -11294,6 +11762,7 @@ _G.pg.base.item_data_statistics[30204] = {
 	is_world = 0,
 	icon = "Props/30204",
 	id = 30204,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -11363,6 +11832,7 @@ _G.pg.base.item_data_statistics[30205] = {
 	is_world = 0,
 	icon = "Props/30205",
 	id = 30205,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -11386,6 +11856,7 @@ _G.pg.base.item_data_statistics[30301] = {
 	is_world = 0,
 	icon = "Props/chrisgift",
 	id = 30301,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -11412,6 +11883,7 @@ _G.pg.base.item_data_statistics[30302] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30302,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -11544,6 +12016,7 @@ _G.pg.base.item_data_statistics[30303] = {
 	is_world = 0,
 	icon = "Props/appearanceboxnep",
 	id = 30303,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -11646,6 +12119,7 @@ _G.pg.base.item_data_statistics[30304] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchspr",
 	id = 30304,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -11758,6 +12232,7 @@ _G.pg.base.item_data_statistics[30305] = {
 	is_world = 0,
 	icon = "Props/appearanceboxkaixue",
 	id = 30305,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -11870,6 +12345,7 @@ _G.pg.base.item_data_statistics[30306] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30306,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12002,6 +12478,7 @@ _G.pg.base.item_data_statistics[30307] = {
 	is_world = 0,
 	icon = "Props/appearanceboxsummer",
 	id = 30307,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12119,6 +12596,7 @@ _G.pg.base.item_data_statistics[30308] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchuansong",
 	id = 30308,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12236,6 +12714,7 @@ _G.pg.base.item_data_statistics[30309] = {
 	is_world = 0,
 	icon = "Props/appearancebox",
 	id = 30309,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12368,6 +12847,7 @@ _G.pg.base.item_data_statistics[30310] = {
 	is_world = 0,
 	icon = "Props/appearanceboxxiaozhu",
 	id = 30310,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12485,6 +12965,7 @@ _G.pg.base.item_data_statistics[30311] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhuangjia",
 	id = 30311,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12602,6 +13083,7 @@ _G.pg.base.item_data_statistics[30312] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchspr",
 	id = 30312,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12714,6 +13196,7 @@ _G.pg.base.item_data_statistics[30314] = {
 	is_world = 0,
 	icon = "Props/appearanceboxsading",
 	id = 30314,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12831,6 +13314,7 @@ _G.pg.base.item_data_statistics[30315] = {
 	is_world = 0,
 	icon = "Props/appearanceboxouxiang",
 	id = 30315,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -12948,6 +13432,7 @@ _G.pg.base.item_data_statistics[30317] = {
 	is_world = 0,
 	icon = "Props/appearanceboxbeilian",
 	id = 30317,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13065,6 +13550,7 @@ _G.pg.base.item_data_statistics[30318] = {
 	is_world = 0,
 	icon = "Props/appearanceboxbaiying",
 	id = 30318,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13182,6 +13668,7 @@ _G.pg.base.item_data_statistics[30319] = {
 	is_world = 0,
 	icon = "Props/appearanceboxfaxi",
 	id = 30319,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13299,6 +13786,7 @@ _G.pg.base.item_data_statistics[30320] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyiyuan",
 	id = 30320,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13416,6 +13904,7 @@ _G.pg.base.item_data_statistics[30321] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchongying",
 	id = 30321,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13533,6 +14022,7 @@ _G.pg.base.item_data_statistics[30322] = {
 	is_world = 0,
 	icon = "Props/appearanceboxjichang",
 	id = 30322,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13650,6 +14140,7 @@ _G.pg.base.item_data_statistics[30323] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdoa",
 	id = 30323,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13767,6 +14258,7 @@ _G.pg.base.item_data_statistics[30324] = {
 	is_world = 0,
 	icon = "Props/appearanceboxtiexue",
 	id = 30324,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -13884,6 +14376,7 @@ _G.pg.base.item_data_statistics[30325] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchunjie",
 	id = 30325,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14001,6 +14494,7 @@ _G.pg.base.item_data_statistics[30326] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyouleyuan",
 	id = 30326,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14118,6 +14612,7 @@ _G.pg.base.item_data_statistics[30327] = {
 	is_world = 0,
 	icon = "Props/appearanceboxidolmaster",
 	id = 30327,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14235,6 +14730,7 @@ _G.pg.base.item_data_statistics[30328] = {
 	is_world = 0,
 	icon = "Props/appearanceboxniuzai",
 	id = 30328,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14352,6 +14848,7 @@ _G.pg.base.item_data_statistics[30329] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshuishangleyuan",
 	id = 30329,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14469,6 +14966,7 @@ _G.pg.base.item_data_statistics[30330] = {
 	is_world = 0,
 	icon = "Props/appearanceboxssss",
 	id = 30330,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14586,6 +15084,7 @@ _G.pg.base.item_data_statistics[30331] = {
 	is_world = 0,
 	icon = "Props/appearanceboxnvpu",
 	id = 30331,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14703,6 +15202,7 @@ _G.pg.base.item_data_statistics[30332] = {
 	is_world = 0,
 	icon = "Props/appearancebox2023chunjie_tw",
 	id = 30332,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14820,6 +15320,7 @@ _G.pg.base.item_data_statistics[30333] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhongyue",
 	id = 30333,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -14937,6 +15438,7 @@ _G.pg.base.item_data_statistics[30334] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdonghuangshishang",
 	id = 30334,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15054,6 +15556,7 @@ _G.pg.base.item_data_statistics[30335] = {
 	is_world = 0,
 	icon = "Props/appearanceboxtonghua",
 	id = 30335,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15171,6 +15674,7 @@ _G.pg.base.item_data_statistics[30336] = {
 	is_world = 0,
 	icon = "Props/appearanceboxwudao",
 	id = 30336,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15288,6 +15792,7 @@ _G.pg.base.item_data_statistics[30337] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdexibulvxieer",
 	id = 30337,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15405,6 +15910,7 @@ _G.pg.base.item_data_statistics[30339] = {
 	is_world = 0,
 	icon = "Props/appearanceboxwansheng",
 	id = 30339,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15522,6 +16028,7 @@ _G.pg.base.item_data_statistics[30340] = {
 	is_world = 0,
 	icon = "Props/appearanceboxlaisha",
 	id = 30340,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15639,6 +16146,7 @@ _G.pg.base.item_data_statistics[30341] = {
 	is_world = 0,
 	icon = "Props/equipskin_drop_display",
 	id = 30341,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15753,6 +16261,7 @@ _G.pg.base.item_data_statistics[30345] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhaidaomaoxian",
 	id = 30345,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15870,6 +16379,7 @@ _G.pg.base.item_data_statistics[30348] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyeyou",
 	id = 30348,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -15987,6 +16497,7 @@ _G.pg.base.item_data_statistics[30401] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30401,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16031,6 +16542,7 @@ _G.pg.base.item_data_statistics[30402] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30402,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16075,6 +16587,7 @@ _G.pg.base.item_data_statistics[30403] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30403,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16119,6 +16632,7 @@ _G.pg.base.item_data_statistics[30404] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30404,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16163,6 +16677,7 @@ _G.pg.base.item_data_statistics[30405] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30405,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16207,6 +16722,7 @@ _G.pg.base.item_data_statistics[30406] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30406,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16251,6 +16767,7 @@ _G.pg.base.item_data_statistics[30407] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30407,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16305,6 +16822,7 @@ _G.pg.base.item_data_statistics[30408] = {
 	is_world = 0,
 	icon = "Equips/96331",
 	id = 30408,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16344,6 +16862,7 @@ _G.pg.base.item_data_statistics[30409] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30409,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16388,6 +16907,7 @@ _G.pg.base.item_data_statistics[30410] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30410,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16432,6 +16952,7 @@ _G.pg.base.item_data_statistics[30411] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30411,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16486,6 +17007,7 @@ _G.pg.base.item_data_statistics[30412] = {
 	is_world = 0,
 	icon = "Equips/96531",
 	id = 30412,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16525,6 +17047,7 @@ _G.pg.base.item_data_statistics[30413] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	id = 30413,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16569,6 +17092,7 @@ _G.pg.base.item_data_statistics[30501] = {
 	is_world = 0,
 	icon = "Props/appearanceboxxiamozixuan",
 	id = 30501,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16683,6 +17207,7 @@ _G.pg.base.item_data_statistics[30502] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchsprzixuan",
 	id = 30502,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16792,6 +17317,7 @@ _G.pg.base.item_data_statistics[30503] = {
 	is_world = 0,
 	icon = "Props/appearanceboxkaixuezixuan",
 	id = 30503,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -16896,6 +17422,7 @@ _G.pg.base.item_data_statistics[30504] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdonghuangshishangzixuan",
 	id = 30504,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17010,6 +17537,7 @@ _G.pg.base.item_data_statistics[30505] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhuangjiazixuan",
 	id = 30505,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17124,6 +17652,7 @@ _G.pg.base.item_data_statistics[30506] = {
 	is_world = 0,
 	icon = "Props/appearanceboxtonghuazixuan",
 	id = 30506,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17238,6 +17767,7 @@ _G.pg.base.item_data_statistics[30507] = {
 	is_world = 0,
 	icon = "Props/appearanceboxwudaozixuan",
 	id = 30507,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17352,6 +17882,7 @@ _G.pg.base.item_data_statistics[30508] = {
 	is_world = 0,
 	icon = "Props/appearanceboxsadingzixuan",
 	id = 30508,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17466,6 +17997,7 @@ _G.pg.base.item_data_statistics[30509] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdexibulvxieerzixuan",
 	id = 30509,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17580,6 +18112,7 @@ _G.pg.base.item_data_statistics[30511] = {
 	is_world = 0,
 	icon = "Props/appearanceboxbeilianzixuan",
 	id = 30511,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17694,6 +18227,7 @@ _G.pg.base.item_data_statistics[30512] = {
 	is_world = 0,
 	icon = "Props/appearanceboxwanshengzixuan",
 	id = 30512,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17808,6 +18342,7 @@ _G.pg.base.item_data_statistics[30513] = {
 	is_world = 0,
 	icon = "Props/appearanceboxlaishazixuan",
 	id = 30513,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -17922,6 +18457,7 @@ _G.pg.base.item_data_statistics[30514] = {
 	is_world = 0,
 	icon = "Props/appearanceboxbaiyingzixuan",
 	id = 30514,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18036,6 +18572,7 @@ _G.pg.base.item_data_statistics[30518] = {
 	is_world = 0,
 	icon = "Props/appearanceboxfaxizixuan",
 	id = 30518,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18150,6 +18687,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyiyuanzixuan",
 	id = 30520,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18264,6 +18802,7 @@ _G.pg.base.item_data_statistics[30521] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdoazixuan",
 	id = 30521,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18378,6 +18917,7 @@ _G.pg.base.item_data_statistics[30522] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhaidaomaoxianzixuan",
 	id = 30522,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18492,6 +19032,7 @@ _G.pg.base.item_data_statistics[30523] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchongyingzixuan",
 	id = 30523,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18606,6 +19147,7 @@ _G.pg.base.item_data_statistics[30527] = {
 	is_world = 0,
 	icon = "Props/appearanceboxsssszixuan",
 	id = 30527,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18720,6 +19262,7 @@ _G.pg.base.item_data_statistics[30529] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyeyouzixuan",
 	id = 30529,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -18834,6 +19377,7 @@ _G.pg.base.item_data_statistics[30900] = {
 	is_world = 0,
 	icon = "Props/Wsuijibujian",
 	id = 30900,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -18883,6 +19427,7 @@ _G.pg.base.item_data_statistics[30911] = {
 	is_world = 0,
 	icon = "Props/Wsucaixiang3",
 	id = 30911,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -18927,6 +19472,7 @@ _G.pg.base.item_data_statistics[30912] = {
 	is_world = 0,
 	icon = "Props/Wsucaixiang2",
 	id = 30912,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -18981,6 +19527,7 @@ _G.pg.base.item_data_statistics[30913] = {
 	is_world = 0,
 	icon = "Props/30913",
 	id = 30913,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19035,6 +19582,7 @@ _G.pg.base.item_data_statistics[30914] = {
 	is_world = 0,
 	icon = "Props/Wshejitujin",
 	id = 30914,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19079,6 +19627,7 @@ _G.pg.base.item_data_statistics[30915] = {
 	is_world = 0,
 	icon = "Props/Wshejitucai",
 	id = 30915,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19123,6 +19672,7 @@ _G.pg.base.item_data_statistics[40000] = {
 	is_world = 0,
 	icon = "ChargeIcon/box3",
 	id = 40000,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -19177,6 +19727,7 @@ _G.pg.base.item_data_statistics[40003] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40003,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -19206,6 +19757,7 @@ _G.pg.base.item_data_statistics[40004] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40004,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19245,6 +19797,7 @@ _G.pg.base.item_data_statistics[40005] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxLv10",
 	id = 40005,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19294,6 +19847,7 @@ _G.pg.base.item_data_statistics[40006] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxLv20",
 	id = 40006,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19343,6 +19897,7 @@ _G.pg.base.item_data_statistics[40007] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxLv30",
 	id = 40007,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19407,6 +19962,7 @@ _G.pg.base.item_data_statistics[40008] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxLv50",
 	id = 40008,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19471,6 +20027,7 @@ _G.pg.base.item_data_statistics[40009] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxDaily",
 	id = 40009,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19515,6 +20072,7 @@ _G.pg.base.item_data_statistics[40011] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxLv70",
 	id = 40011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19579,6 +20137,7 @@ _G.pg.base.item_data_statistics[40012] = {
 	is_world = 0,
 	icon = "Props/support1",
 	id = 40012,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -19643,6 +20202,7 @@ _G.pg.base.item_data_statistics[40013] = {
 	is_world = 0,
 	icon = "Props/support2",
 	id = 40013,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -19732,6 +20292,7 @@ _G.pg.base.item_data_statistics[40014] = {
 	is_world = 0,
 	icon = "Props/support3",
 	id = 40014,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -19821,6 +20382,7 @@ _G.pg.base.item_data_statistics[40016] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech1_promotion",
 	id = 40016,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19855,6 +20417,7 @@ _G.pg.base.item_data_statistics[40017] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech1_normal",
 	id = 40017,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19884,6 +20447,7 @@ _G.pg.base.item_data_statistics[40018] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech1_promotion",
 	id = 40018,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19913,6 +20477,7 @@ _G.pg.base.item_data_statistics[40019] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech2_promotion",
 	id = 40019,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19947,6 +20512,7 @@ _G.pg.base.item_data_statistics[40020] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech2_normal",
 	id = 40020,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -19976,6 +20542,7 @@ _G.pg.base.item_data_statistics[40021] = {
 	is_world = 0,
 	icon = "ChargeIcon/tech2_promotion",
 	id = 40021,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20005,6 +20572,7 @@ _G.pg.base.item_data_statistics[40022] = {
 	is_world = 0,
 	icon = "ChargeIcon/lv_70",
 	id = 40022,
+	order = 0,
 	display_icon = {
 		{
 			8,
@@ -20194,6 +20762,7 @@ _G.pg.base.item_data_statistics[40023] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxSkill",
 	id = 40023,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20248,6 +20817,7 @@ _G.pg.base.item_data_statistics[40100] = {
 	is_world = 0,
 	icon = "ChargeIcon/ringbox",
 	id = 40100,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20277,6 +20847,7 @@ _G.pg.base.item_data_statistics[40101] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40101,
+	order = 0,
 	display_icon = {
 		{
 			5,
@@ -20316,6 +20887,7 @@ _G.pg.base.item_data_statistics[40102] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40102,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20345,6 +20917,7 @@ _G.pg.base.item_data_statistics[40103] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40103,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20379,6 +20952,7 @@ _G.pg.base.item_data_statistics[40104] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40104,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20418,6 +20992,7 @@ _G.pg.base.item_data_statistics[40105] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40105,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20447,6 +21022,7 @@ _G.pg.base.item_data_statistics[40106] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxFur",
 	id = 40106,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20481,6 +21057,7 @@ _G.pg.base.item_data_statistics[40107] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40107,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20510,6 +21087,7 @@ _G.pg.base.item_data_statistics[40108] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40108,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20549,6 +21127,7 @@ _G.pg.base.item_data_statistics[40109] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40109,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20578,6 +21157,7 @@ _G.pg.base.item_data_statistics[40110] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40110,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20617,6 +21197,7 @@ _G.pg.base.item_data_statistics[40111] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40111,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20646,6 +21227,7 @@ _G.pg.base.item_data_statistics[40112] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40112,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20685,6 +21267,7 @@ _G.pg.base.item_data_statistics[40113] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40113,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20714,6 +21297,7 @@ _G.pg.base.item_data_statistics[40114] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40114,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20753,6 +21337,7 @@ _G.pg.base.item_data_statistics[40115] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40115,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20782,6 +21367,7 @@ _G.pg.base.item_data_statistics[40116] = {
 	is_world = 0,
 	icon = "ChargeIcon/box4",
 	id = 40116,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20821,6 +21407,7 @@ _G.pg.base.item_data_statistics[40117] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxOil",
 	id = 40117,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -20850,6 +21437,7 @@ _G.pg.base.item_data_statistics[40118] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxBuild",
 	id = 40118,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20889,6 +21477,7 @@ _G.pg.base.item_data_statistics[40119] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxChips",
 	id = 40119,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20925,6 +21514,7 @@ _G.pg.base.item_data_statistics[40124] = {
 	is_world = 0,
 	icon = "Props/research1",
 	id = 40124,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -20981,6 +21571,7 @@ _G.pg.base.item_data_statistics[40125] = {
 	is_world = 0,
 	icon = "Props/research2",
 	id = 40125,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21030,6 +21621,7 @@ _G.pg.base.item_data_statistics[40126] = {
 	is_world = 0,
 	icon = "Props/lv_70",
 	id = 40126,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -21053,6 +21645,7 @@ _G.pg.base.item_data_statistics[40128] = {
 	is_world = 0,
 	icon = "ChargeIcon/boxBuild2",
 	id = 40128,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21092,6 +21685,7 @@ _G.pg.base.item_data_statistics[40129] = {
 	is_world = 0,
 	icon = "ChargeIcon/support5",
 	id = 40129,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21161,6 +21755,7 @@ _G.pg.base.item_data_statistics[40701] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi1",
 	id = 40701,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21195,6 +21790,7 @@ _G.pg.base.item_data_statistics[40702] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi1",
 	id = 40702,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21229,6 +21825,7 @@ _G.pg.base.item_data_statistics[40703] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi2",
 	id = 40703,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -21263,6 +21860,7 @@ _G.pg.base.item_data_statistics[40704] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi2",
 	id = 40704,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -21297,6 +21895,7 @@ _G.pg.base.item_data_statistics[40705] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi3",
 	id = 40705,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21336,6 +21935,7 @@ _G.pg.base.item_data_statistics[40706] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi3",
 	id = 40706,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21375,6 +21975,7 @@ _G.pg.base.item_data_statistics[40707] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi4",
 	id = 40707,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21409,6 +22010,7 @@ _G.pg.base.item_data_statistics[40708] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi4",
 	id = 40708,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21443,6 +22045,7 @@ _G.pg.base.item_data_statistics[40709] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi5",
 	id = 40709,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21477,6 +22080,7 @@ _G.pg.base.item_data_statistics[40710] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi5",
 	id = 40710,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21511,6 +22115,7 @@ _G.pg.base.item_data_statistics[40711] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi6",
 	id = 40711,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21545,6 +22150,7 @@ _G.pg.base.item_data_statistics[40712] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi6",
 	id = 40712,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21579,6 +22185,7 @@ _G.pg.base.item_data_statistics[40713] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi7",
 	id = 40713,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -21613,6 +22220,7 @@ _G.pg.base.item_data_statistics[40714] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi7",
 	id = 40714,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -21647,6 +22255,7 @@ _G.pg.base.item_data_statistics[40715] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi8",
 	id = 40715,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -21681,6 +22290,7 @@ _G.pg.base.item_data_statistics[40716] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi8",
 	id = 40716,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -21715,6 +22325,7 @@ _G.pg.base.item_data_statistics[40717] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi9",
 	id = 40717,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21749,6 +22360,7 @@ _G.pg.base.item_data_statistics[40718] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi9",
 	id = 40718,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21783,6 +22395,7 @@ _G.pg.base.item_data_statistics[40719] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi10",
 	id = 40719,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21817,6 +22430,7 @@ _G.pg.base.item_data_statistics[40720] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi10",
 	id = 40720,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21851,6 +22465,7 @@ _G.pg.base.item_data_statistics[40721] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi11",
 	id = 40721,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21885,6 +22500,7 @@ _G.pg.base.item_data_statistics[40722] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi11",
 	id = 40722,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21919,6 +22535,7 @@ _G.pg.base.item_data_statistics[40723] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi12",
 	id = 40723,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21953,6 +22570,7 @@ _G.pg.base.item_data_statistics[40724] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi12",
 	id = 40724,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -21987,6 +22605,7 @@ _G.pg.base.item_data_statistics[40725] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi13",
 	id = 40725,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22021,6 +22640,7 @@ _G.pg.base.item_data_statistics[40726] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi13",
 	id = 40726,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22055,6 +22675,7 @@ _G.pg.base.item_data_statistics[40727] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuwuzi14",
 	id = 40727,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22089,6 +22710,7 @@ _G.pg.base.item_data_statistics[40728] = {
 	is_world = 0,
 	icon = "ChargeIcon/huiliuzuanshi14",
 	id = 40728,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22123,6 +22745,7 @@ _G.pg.base.item_data_statistics[40908] = {
 	is_world = 0,
 	icon = "Props/fudai1",
 	id = 40908,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22177,6 +22800,7 @@ _G.pg.base.item_data_statistics[40909] = {
 	is_world = 0,
 	icon = "Props/fudai2",
 	id = 40909,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22231,6 +22855,7 @@ _G.pg.base.item_data_statistics[40910] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40910,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22290,6 +22915,7 @@ _G.pg.base.item_data_statistics[40918] = {
 	is_world = 0,
 	icon = "SquareIcon/kebu_2",
 	id = 40918,
+	order = 0,
 	display_icon = {
 		{
 			7,
@@ -22319,6 +22945,7 @@ _G.pg.base.item_data_statistics[40921] = {
 	is_world = 0,
 	icon = "Props/support6",
 	id = 40921,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22418,6 +23045,7 @@ _G.pg.base.item_data_statistics[40927] = {
 	is_world = 0,
 	icon = "Props/lihejp6lf",
 	id = 40927,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22477,6 +23105,7 @@ _G.pg.base.item_data_statistics[40930] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40930,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22531,6 +23160,7 @@ _G.pg.base.item_data_statistics[40931] = {
 	is_world = 0,
 	icon = "Props/lihe1",
 	id = 40931,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22585,6 +23215,7 @@ _G.pg.base.item_data_statistics[40932] = {
 	is_world = 0,
 	icon = "Props/fudai3",
 	id = 40932,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22644,6 +23275,7 @@ _G.pg.base.item_data_statistics[40933] = {
 	is_world = 0,
 	icon = "Props/fudai3",
 	id = 40933,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22703,6 +23335,7 @@ _G.pg.base.item_data_statistics[40934] = {
 	is_world = 0,
 	icon = "Props/fudai4",
 	id = 40934,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22762,6 +23395,7 @@ _G.pg.base.item_data_statistics[40935] = {
 	is_world = 0,
 	icon = "Props/fudai0",
 	id = 40935,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22821,6 +23455,7 @@ _G.pg.base.item_data_statistics[40936] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40936,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22880,6 +23515,7 @@ _G.pg.base.item_data_statistics[40937] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40937,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22939,6 +23575,7 @@ _G.pg.base.item_data_statistics[40938] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40938,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -22998,6 +23635,7 @@ _G.pg.base.item_data_statistics[40939] = {
 	is_world = 0,
 	icon = "Props/lihe3",
 	id = 40939,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -23057,6 +23695,7 @@ _G.pg.base.item_data_statistics[40940] = {
 	is_world = 0,
 	icon = "Props/TWAndroid",
 	id = 40940,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -23106,6 +23745,7 @@ _G.pg.base.item_data_statistics[41201] = {
 	is_world = 0,
 	icon = "SquareIcon/gin",
 	id = 41201,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23129,6 +23769,7 @@ _G.pg.base.item_data_statistics[41202] = {
 	is_world = 0,
 	icon = "SquareIcon/kin",
 	id = 41202,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23152,6 +23793,7 @@ _G.pg.base.item_data_statistics[41203] = {
 	is_world = 0,
 	icon = "SquareIcon/kaxin",
 	id = 41203,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23175,6 +23817,7 @@ _G.pg.base.item_data_statistics[41204] = {
 	is_world = 0,
 	icon = "SquareIcon/tangsi",
 	id = 41204,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23198,6 +23841,7 @@ _G.pg.base.item_data_statistics[41205] = {
 	is_world = 0,
 	icon = "SquareIcon/gelideli",
 	id = 41205,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23221,6 +23865,7 @@ _G.pg.base.item_data_statistics[41206] = {
 	is_world = 0,
 	icon = "SquareIcon/keleiwen",
 	id = 41206,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23244,6 +23889,7 @@ _G.pg.base.item_data_statistics[41207] = {
 	is_world = 0,
 	icon = "SquareIcon/maikaoer",
 	id = 41207,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23267,6 +23913,7 @@ _G.pg.base.item_data_statistics[41208] = {
 	is_world = 0,
 	icon = "SquareIcon/moli",
 	id = 41208,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23290,6 +23937,7 @@ _G.pg.base.item_data_statistics[41209] = {
 	is_world = 0,
 	icon = "SquareIcon/fulaiche",
 	id = 41209,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23313,6 +23961,7 @@ _G.pg.base.item_data_statistics[41210] = {
 	is_world = 0,
 	icon = "SquareIcon/aosiben",
 	id = 41210,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23336,6 +23985,7 @@ _G.pg.base.item_data_statistics[41211] = {
 	is_world = 0,
 	icon = "SquareIcon/saqieer",
 	id = 41211,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23359,6 +24009,7 @@ _G.pg.base.item_data_statistics[41212] = {
 	is_world = 0,
 	icon = "SquareIcon/aolike",
 	id = 41212,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23382,6 +24033,7 @@ _G.pg.base.item_data_statistics[41213] = {
 	is_world = 0,
 	icon = "SquareIcon/fute",
 	id = 41213,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23405,6 +24057,7 @@ _G.pg.base.item_data_statistics[41214] = {
 	is_world = 0,
 	icon = "SquareIcon/sipengsi",
 	id = 41214,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23428,6 +24081,7 @@ _G.pg.base.item_data_statistics[41215] = {
 	is_world = 0,
 	icon = "SquareIcon/bensen",
 	id = 41215,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23451,6 +24105,7 @@ _G.pg.base.item_data_statistics[41216] = {
 	is_world = 0,
 	icon = "SquareIcon/lafei",
 	id = 41216,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23474,6 +24129,7 @@ _G.pg.base.item_data_statistics[41217] = {
 	is_world = 0,
 	icon = "SquareIcon/ximusi",
 	id = 41217,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23497,6 +24153,7 @@ _G.pg.base.item_data_statistics[41218] = {
 	is_world = 0,
 	icon = "SquareIcon/haman",
 	id = 41218,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23520,6 +24177,7 @@ _G.pg.base.item_data_statistics[41219] = {
 	is_world = 0,
 	icon = "SquareIcon/aierdeliqi",
 	id = 41219,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23543,6 +24201,7 @@ _G.pg.base.item_data_statistics[41220] = {
 	is_world = 0,
 	icon = "SquareIcon/aomaha",
 	id = 41220,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23566,6 +24225,7 @@ _G.pg.base.item_data_statistics[41221] = {
 	is_world = 0,
 	icon = "SquareIcon/luoli",
 	id = 41221,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23589,6 +24249,7 @@ _G.pg.base.item_data_statistics[41222] = {
 	is_world = 0,
 	icon = "SquareIcon/bulukelin",
 	id = 41222,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23612,6 +24273,7 @@ _G.pg.base.item_data_statistics[41223] = {
 	is_world = 0,
 	icon = "SquareIcon/feinikesi",
 	id = 41223,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23635,6 +24297,7 @@ _G.pg.base.item_data_statistics[41224] = {
 	is_world = 0,
 	icon = "SquareIcon/hailunna",
 	id = 41224,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23658,6 +24321,7 @@ _G.pg.base.item_data_statistics[41225] = {
 	is_world = 0,
 	icon = "SquareIcon/yatelanda",
 	id = 41225,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23681,6 +24345,7 @@ _G.pg.base.item_data_statistics[41226] = {
 	is_world = 0,
 	icon = "SquareIcon/zhunuo",
 	id = 41226,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23704,6 +24369,7 @@ _G.pg.base.item_data_statistics[41227] = {
 	is_world = 0,
 	icon = "SquareIcon/shengdiyage",
 	id = 41227,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23727,6 +24393,7 @@ _G.pg.base.item_data_statistics[41228] = {
 	is_world = 0,
 	icon = "SquareIcon/kelifulan",
 	id = 41228,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23750,6 +24417,7 @@ _G.pg.base.item_data_statistics[41229] = {
 	is_world = 0,
 	icon = "SquareIcon/gelunbiya",
 	id = 41229,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23773,6 +24441,7 @@ _G.pg.base.item_data_statistics[41230] = {
 	is_world = 0,
 	icon = "SquareIcon/pengsakela",
 	id = 41230,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23796,6 +24465,7 @@ _G.pg.base.item_data_statistics[41231] = {
 	is_world = 0,
 	icon = "SquareIcon/yanhucheng",
 	id = 41231,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23819,6 +24489,7 @@ _G.pg.base.item_data_statistics[41232] = {
 	is_world = 0,
 	icon = "SquareIcon/beianpudun",
 	id = 41232,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23842,6 +24513,7 @@ _G.pg.base.item_data_statistics[41233] = {
 	is_world = 0,
 	icon = "SquareIcon/zhijiage",
 	id = 41233,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23865,6 +24537,7 @@ _G.pg.base.item_data_statistics[41234] = {
 	is_world = 0,
 	icon = "SquareIcon/xiusidun",
 	id = 41234,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23888,6 +24561,7 @@ _G.pg.base.item_data_statistics[41235] = {
 	is_world = 0,
 	icon = "SquareIcon/botelan",
 	id = 41235,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23911,6 +24585,7 @@ _G.pg.base.item_data_statistics[41236] = {
 	is_world = 0,
 	icon = "SquareIcon/bolisi",
 	id = 41236,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23934,6 +24609,7 @@ _G.pg.base.item_data_statistics[41237] = {
 	is_world = 0,
 	icon = "SquareIcon/asituoliya",
 	id = 41237,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23957,6 +24633,7 @@ _G.pg.base.item_data_statistics[41238] = {
 	is_world = 0,
 	icon = "SquareIcon/kunxi",
 	id = 41238,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -23980,6 +24657,7 @@ _G.pg.base.item_data_statistics[41239] = {
 	is_world = 0,
 	icon = "SquareIcon/wensensi",
 	id = 41239,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24003,6 +24681,7 @@ _G.pg.base.item_data_statistics[41240] = {
 	is_world = 0,
 	icon = "SquareIcon/weiqita",
 	id = 41240,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24026,6 +24705,7 @@ _G.pg.base.item_data_statistics[41241] = {
 	is_world = 0,
 	icon = "SquareIcon/neihuada",
 	id = 41241,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24049,6 +24729,7 @@ _G.pg.base.item_data_statistics[41242] = {
 	is_world = 0,
 	icon = "SquareIcon/ekelahema",
 	id = 41242,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24072,6 +24753,7 @@ _G.pg.base.item_data_statistics[41243] = {
 	is_world = 0,
 	icon = "SquareIcon/binxifaniya",
 	id = 41243,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24095,6 +24777,7 @@ _G.pg.base.item_data_statistics[41244] = {
 	is_world = 0,
 	icon = "SquareIcon/yalisangna",
 	id = 41244,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24118,6 +24801,7 @@ _G.pg.base.item_data_statistics[41245] = {
 	is_world = 0,
 	icon = "SquareIcon/tiannaxi",
 	id = 41245,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24141,6 +24825,7 @@ _G.pg.base.item_data_statistics[41246] = {
 	is_world = 0,
 	icon = "SquareIcon/jialifuniya",
 	id = 41246,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24164,6 +24849,7 @@ _G.pg.base.item_data_statistics[41247] = {
 	is_world = 0,
 	icon = "SquareIcon/keluoladuo",
 	id = 41247,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24187,6 +24873,7 @@ _G.pg.base.item_data_statistics[41248] = {
 	is_world = 0,
 	icon = "SquareIcon/malilan",
 	id = 41248,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24210,6 +24897,7 @@ _G.pg.base.item_data_statistics[41249] = {
 	is_world = 0,
 	icon = "SquareIcon/xifujiniya",
 	id = 41249,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24233,6 +24921,7 @@ _G.pg.base.item_data_statistics[41250] = {
 	is_world = 0,
 	icon = "SquareIcon/beikaluolaina",
 	id = 41250,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24256,6 +24945,7 @@ _G.pg.base.item_data_statistics[41251] = {
 	is_world = 0,
 	icon = "SquareIcon/huashengdun",
 	id = 41251,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24279,6 +24969,7 @@ _G.pg.base.item_data_statistics[41252] = {
 	is_world = 0,
 	icon = "SquareIcon/nandaketa",
 	id = 41252,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24302,6 +24993,7 @@ _G.pg.base.item_data_statistics[41253] = {
 	is_world = 0,
 	icon = "SquareIcon/changdao",
 	id = 41253,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24325,6 +25017,7 @@ _G.pg.base.item_data_statistics[41254] = {
 	is_world = 0,
 	icon = "SquareIcon/boge",
 	id = 41254,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24348,6 +25041,7 @@ _G.pg.base.item_data_statistics[41255] = {
 	is_world = 0,
 	icon = "SquareIcon/lanli",
 	id = 41255,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24371,6 +25065,7 @@ _G.pg.base.item_data_statistics[41256] = {
 	is_world = 0,
 	icon = "SquareIcon/liekexingdun",
 	id = 41256,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24394,6 +25089,7 @@ _G.pg.base.item_data_statistics[41257] = {
 	is_world = 0,
 	icon = "SquareIcon/salatuojia",
 	id = 41257,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24417,6 +25113,7 @@ _G.pg.base.item_data_statistics[41258] = {
 	is_world = 0,
 	icon = "SquareIcon/tujizhe",
 	id = 41258,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24440,6 +25137,7 @@ _G.pg.base.item_data_statistics[41259] = {
 	is_world = 0,
 	icon = "SquareIcon/yuekecheng",
 	id = 41259,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24463,6 +25161,7 @@ _G.pg.base.item_data_statistics[41260] = {
 	is_world = 0,
 	icon = "SquareIcon/qiye",
 	id = 41260,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24486,6 +25185,7 @@ _G.pg.base.item_data_statistics[41261] = {
 	is_world = 0,
 	icon = "SquareIcon/dahuangfeng",
 	id = 41261,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24509,6 +25209,7 @@ _G.pg.base.item_data_statistics[41262] = {
 	is_world = 0,
 	icon = "SquareIcon/hufeng",
 	id = 41262,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24532,6 +25233,7 @@ _G.pg.base.item_data_statistics[41263] = {
 	is_world = 0,
 	icon = "SquareIcon/zaoshen",
 	id = 41263,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24555,6 +25257,7 @@ _G.pg.base.item_data_statistics[41264] = {
 	is_world = 0,
 	icon = "SquareIcon/nvjiang",
 	id = 41264,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24578,6 +25281,7 @@ _G.pg.base.item_data_statistics[41265] = {
 	is_world = 0,
 	icon = "SquareIcon/akasita",
 	id = 41265,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24601,6 +25305,7 @@ _G.pg.base.item_data_statistics[41266] = {
 	is_world = 0,
 	icon = "SquareIcon/rexin",
 	id = 41266,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24624,6 +25329,7 @@ _G.pg.base.item_data_statistics[41267] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaolietuquan",
 	id = 41267,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24647,6 +25353,7 @@ _G.pg.base.item_data_statistics[41268] = {
 	is_world = 0,
 	icon = "SquareIcon/dadouquan",
 	id = 41268,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24670,6 +25377,7 @@ _G.pg.base.item_data_statistics[41269] = {
 	is_world = 0,
 	icon = "SquareIcon/huixing",
 	id = 41269,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24693,6 +25401,7 @@ _G.pg.base.item_data_statistics[41270] = {
 	is_world = 0,
 	icon = "SquareIcon/xinyue",
 	id = 41270,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24716,6 +25425,7 @@ _G.pg.base.item_data_statistics[41271] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaotiane",
 	id = 41271,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24739,6 +25449,7 @@ _G.pg.base.item_data_statistics[41272] = {
 	is_world = 0,
 	icon = "SquareIcon/huti",
 	id = 41272,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24762,6 +25473,7 @@ _G.pg.base.item_data_statistics[41273] = {
 	is_world = 0,
 	icon = "SquareIcon/mingyunnvshen",
 	id = 41273,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24785,6 +25497,7 @@ _G.pg.base.item_data_statistics[41274] = {
 	is_world = 0,
 	icon = "SquareIcon/gelunweier",
 	id = 41274,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24808,6 +25521,7 @@ _G.pg.base.item_data_statistics[41275] = {
 	is_world = 0,
 	icon = "SquareIcon/yinghuochong",
 	id = 41275,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24831,6 +25545,7 @@ _G.pg.base.item_data_statistics[41276] = {
 	is_world = 0,
 	icon = "SquareIcon/biaoqiang",
 	id = 41276,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24854,6 +25569,7 @@ _G.pg.base.item_data_statistics[41277] = {
 	is_world = 0,
 	icon = "SquareIcon/tianhou",
 	id = 41277,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24877,6 +25593,7 @@ _G.pg.base.item_data_statistics[41278] = {
 	is_world = 0,
 	icon = "SquareIcon/xixuegui",
 	id = 41278,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24900,6 +25617,7 @@ _G.pg.base.item_data_statistics[41279] = {
 	is_world = 0,
 	icon = "SquareIcon/liande",
 	id = 41279,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24923,6 +25641,7 @@ _G.pg.base.item_data_statistics[41280] = {
 	is_world = 0,
 	icon = "SquareIcon/ajilisi",
 	id = 41280,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24946,6 +25665,7 @@ _G.pg.base.item_data_statistics[41281] = {
 	is_world = 0,
 	icon = "SquareIcon/ajiakesi",
 	id = 41281,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24969,6 +25689,7 @@ _G.pg.base.item_data_statistics[41282] = {
 	is_world = 0,
 	icon = "SquareIcon/xiefeierde",
 	id = 41282,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24992,6 +25713,7 @@ _G.pg.base.item_data_statistics[41283] = {
 	is_world = 0,
 	icon = "SquareIcon/aidingbao",
 	id = 41283,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25015,6 +25737,7 @@ _G.pg.base.item_data_statistics[41284] = {
 	is_world = 0,
 	icon = "SquareIcon/beierfasite",
 	id = 41284,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25038,6 +25761,7 @@ _G.pg.base.item_data_statistics[41285] = {
 	is_world = 0,
 	icon = "SquareIcon/aruituosha",
 	id = 41285,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25061,6 +25785,7 @@ _G.pg.base.item_data_statistics[41286] = {
 	is_world = 0,
 	icon = "SquareIcon/jialadiya",
 	id = 41286,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25084,6 +25809,7 @@ _G.pg.base.item_data_statistics[41287] = {
 	is_world = 0,
 	icon = "SquareIcon/ouruola",
 	id = 41287,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25107,6 +25833,7 @@ _G.pg.base.item_data_statistics[41288] = {
 	is_world = 0,
 	icon = "SquareIcon/lundun",
 	id = 41288,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25130,6 +25857,7 @@ _G.pg.base.item_data_statistics[41289] = {
 	is_world = 0,
 	icon = "SquareIcon/shiluopujun",
 	id = 41289,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25153,6 +25881,7 @@ _G.pg.base.item_data_statistics[41290] = {
 	is_world = 0,
 	icon = "SquareIcon/kente",
 	id = 41290,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25176,6 +25905,7 @@ _G.pg.base.item_data_statistics[41291] = {
 	is_world = 0,
 	icon = "SquareIcon/safuke",
 	id = 41291,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25199,6 +25929,7 @@ _G.pg.base.item_data_statistics[41292] = {
 	is_world = 0,
 	icon = "SquareIcon/nuofuke",
 	id = 41292,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25222,6 +25953,7 @@ _G.pg.base.item_data_statistics[41293] = {
 	is_world = 0,
 	icon = "SquareIcon/duosaitejun",
 	id = 41293,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25245,6 +25977,7 @@ _G.pg.base.item_data_statistics[41294] = {
 	is_world = 0,
 	icon = "SquareIcon/yueke",
 	id = 41294,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25268,6 +26001,7 @@ _G.pg.base.item_data_statistics[41295] = {
 	is_world = 0,
 	icon = "SquareIcon/aikesaite",
 	id = 41295,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25291,6 +26025,7 @@ _G.pg.base.item_data_statistics[41296] = {
 	is_world = 0,
 	icon = "SquareIcon/susaikesi",
 	id = 41296,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25314,6 +26049,7 @@ _G.pg.base.item_data_statistics[41297] = {
 	is_world = 0,
 	icon = "SquareIcon/shengwang",
 	id = 41297,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25337,6 +26073,7 @@ _G.pg.base.item_data_statistics[41298] = {
 	is_world = 0,
 	icon = "SquareIcon/fanji",
 	id = 41298,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25360,6 +26097,7 @@ _G.pg.base.item_data_statistics[41299] = {
 	is_world = 0,
 	icon = "SquareIcon/hude",
 	id = 41299,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25383,6 +26121,7 @@ _G.pg.base.item_data_statistics[41300] = {
 	is_world = 0,
 	icon = "SquareIcon/yilishabai",
 	id = 41300,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25406,6 +26145,7 @@ _G.pg.base.item_data_statistics[41301] = {
 	is_world = 0,
 	icon = "SquareIcon/yanzhan",
 	id = 41301,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25429,6 +26169,7 @@ _G.pg.base.item_data_statistics[41302] = {
 	is_world = 0,
 	icon = "SquareIcon/naerxun",
 	id = 41302,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25452,6 +26193,7 @@ _G.pg.base.item_data_statistics[41303] = {
 	is_world = 0,
 	icon = "SquareIcon/luodeni",
 	id = 41303,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25475,6 +26217,7 @@ _G.pg.base.item_data_statistics[41304] = {
 	is_world = 0,
 	icon = "SquareIcon/weiershiqinwang",
 	id = 41304,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25498,6 +26241,7 @@ _G.pg.base.item_data_statistics[41305] = {
 	is_world = 0,
 	icon = "SquareIcon/yuekegongjue",
 	id = 41305,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25521,6 +26265,7 @@ _G.pg.base.item_data_statistics[41306] = {
 	is_world = 0,
 	icon = "SquareIcon/jingjishen",
 	id = 41306,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25544,6 +26289,7 @@ _G.pg.base.item_data_statistics[41307] = {
 	is_world = 0,
 	icon = "SquareIcon/dujiaoshou",
 	id = 41307,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25567,6 +26313,7 @@ _G.pg.base.item_data_statistics[41308] = {
 	is_world = 0,
 	icon = "SquareIcon/huangjiafangzhou",
 	id = 41308,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25590,6 +26337,7 @@ _G.pg.base.item_data_statistics[41309] = {
 	is_world = 0,
 	icon = "SquareIcon/guanghui",
 	id = 41309,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25613,6 +26361,7 @@ _G.pg.base.item_data_statistics[41310] = {
 	is_world = 0,
 	icon = "SquareIcon/shengli",
 	id = 41310,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25636,6 +26385,7 @@ _G.pg.base.item_data_statistics[41311] = {
 	is_world = 0,
 	icon = "SquareIcon/guangrong",
 	id = 41311,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25659,6 +26409,7 @@ _G.pg.base.item_data_statistics[41312] = {
 	is_world = 0,
 	icon = "SquareIcon/heianjie",
 	id = 41312,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25682,6 +26433,7 @@ _G.pg.base.item_data_statistics[41313] = {
 	is_world = 0,
 	icon = "SquareIcon/kongbu",
 	id = 41313,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25705,6 +26457,7 @@ _G.pg.base.item_data_statistics[41314] = {
 	is_world = 0,
 	icon = "SquareIcon/abeikelongbi",
 	id = 41314,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25728,6 +26481,7 @@ _G.pg.base.item_data_statistics[41315] = {
 	is_world = 0,
 	icon = "SquareIcon/chuixue",
 	id = 41315,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25751,6 +26505,7 @@ _G.pg.base.item_data_statistics[41316] = {
 	is_world = 0,
 	icon = "SquareIcon/lingbo",
 	id = 41316,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25774,6 +26529,7 @@ _G.pg.base.item_data_statistics[41317] = {
 	is_world = 0,
 	icon = "SquareIcon/xiao",
 	id = 41317,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25797,6 +26553,7 @@ _G.pg.base.item_data_statistics[41318] = {
 	is_world = 0,
 	icon = "SquareIcon/lei",
 	id = 41318,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25820,6 +26577,7 @@ _G.pg.base.item_data_statistics[41319] = {
 	is_world = 0,
 	icon = "SquareIcon/dian",
 	id = 41319,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25843,6 +26601,7 @@ _G.pg.base.item_data_statistics[41320] = {
 	is_world = 0,
 	icon = "SquareIcon/bailu",
 	id = 41320,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25866,6 +26625,7 @@ _G.pg.base.item_data_statistics[41321] = {
 	is_world = 0,
 	icon = "SquareIcon/xili",
 	id = 41321,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25889,6 +26649,7 @@ _G.pg.base.item_data_statistics[41322] = {
 	is_world = 0,
 	icon = "SquareIcon/shiyu",
 	id = 41322,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25912,6 +26673,7 @@ _G.pg.base.item_data_statistics[41323] = {
 	is_world = 0,
 	icon = "SquareIcon/xuefeng",
 	id = 41323,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25935,6 +26697,7 @@ _G.pg.base.item_data_statistics[41324] = {
 	is_world = 0,
 	icon = "SquareIcon/yangyan",
 	id = 41324,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25958,6 +26721,7 @@ _G.pg.base.item_data_statistics[41325] = {
 	is_world = 0,
 	icon = "SquareIcon/buzhihuo",
 	id = 41325,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25981,6 +26745,7 @@ _G.pg.base.item_data_statistics[41326] = {
 	is_world = 0,
 	icon = "SquareIcon/yefen",
 	id = 41326,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26004,6 +26769,7 @@ _G.pg.base.item_data_statistics[41327] = {
 	is_world = 0,
 	icon = "SquareIcon/chuchun",
 	id = 41327,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26027,6 +26793,7 @@ _G.pg.base.item_data_statistics[41328] = {
 	is_world = 0,
 	icon = "SquareIcon/ruoye",
 	id = 41328,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26050,6 +26817,7 @@ _G.pg.base.item_data_statistics[41329] = {
 	is_world = 0,
 	icon = "SquareIcon/chushuang",
 	id = 41329,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26073,6 +26841,7 @@ _G.pg.base.item_data_statistics[41330] = {
 	is_world = 0,
 	icon = "SquareIcon/youming",
 	id = 41330,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26096,6 +26865,7 @@ _G.pg.base.item_data_statistics[41331] = {
 	is_world = 0,
 	icon = "SquareIcon/ximu",
 	id = 41331,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26119,6 +26889,7 @@ _G.pg.base.item_data_statistics[41332] = {
 	is_world = 0,
 	icon = "SquareIcon/heichao",
 	id = 41332,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26142,6 +26913,7 @@ _G.pg.base.item_data_statistics[41333] = {
 	is_world = 0,
 	icon = "SquareIcon/qinchao",
 	id = 41333,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26165,6 +26937,7 @@ _G.pg.base.item_data_statistics[41334] = {
 	is_world = 0,
 	icon = "SquareIcon/xizhang",
 	id = 41334,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26188,6 +26961,7 @@ _G.pg.base.item_data_statistics[41335] = {
 	is_world = 0,
 	icon = "SquareIcon/changliang",
 	id = 41335,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26211,6 +26985,7 @@ _G.pg.base.item_data_statistics[41336] = {
 	is_world = 0,
 	icon = "SquareIcon/wushiling",
 	id = 41336,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26234,6 +27009,7 @@ _G.pg.base.item_data_statistics[41337] = {
 	is_world = 0,
 	icon = "SquareIcon/awuwei",
 	id = 41337,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26257,6 +27033,7 @@ _G.pg.base.item_data_statistics[41338] = {
 	is_world = 0,
 	icon = "SquareIcon/zuishang",
 	id = 41338,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26280,6 +27057,7 @@ _G.pg.base.item_data_statistics[41339] = {
 	is_world = 0,
 	icon = "SquareIcon/sanwei",
 	id = 41339,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26303,6 +27081,7 @@ _G.pg.base.item_data_statistics[41340] = {
 	is_world = 0,
 	icon = "SquareIcon/guying",
 	id = 41340,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26326,6 +27105,7 @@ _G.pg.base.item_data_statistics[41341] = {
 	is_world = 0,
 	icon = "SquareIcon/jiagu",
 	id = 41341,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26349,6 +27129,7 @@ _G.pg.base.item_data_statistics[41342] = {
 	is_world = 0,
 	icon = "SquareIcon/qingye",
 	id = 41342,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26372,6 +27153,7 @@ _G.pg.base.item_data_statistics[41343] = {
 	is_world = 0,
 	icon = "SquareIcon/yili",
 	id = 41343,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26395,6 +27177,7 @@ _G.pg.base.item_data_statistics[41344] = {
 	is_world = 0,
 	icon = "SquareIcon/miaogao",
 	id = 41344,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26418,6 +27201,7 @@ _G.pg.base.item_data_statistics[41345] = {
 	is_world = 0,
 	icon = "SquareIcon/nazhi",
 	id = 41345,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26441,6 +27225,7 @@ _G.pg.base.item_data_statistics[41346] = {
 	is_world = 0,
 	icon = "SquareIcon/zubing",
 	id = 41346,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26464,6 +27249,7 @@ _G.pg.base.item_data_statistics[41347] = {
 	is_world = 0,
 	icon = "SquareIcon/gaoxiong",
 	id = 41347,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26487,6 +27273,7 @@ _G.pg.base.item_data_statistics[41348] = {
 	is_world = 0,
 	icon = "SquareIcon/aidang",
 	id = 41348,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26510,6 +27297,7 @@ _G.pg.base.item_data_statistics[41349] = {
 	is_world = 0,
 	icon = "SquareIcon/moye",
 	id = 41349,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26533,6 +27321,7 @@ _G.pg.base.item_data_statistics[41350] = {
 	is_world = 0,
 	icon = "SquareIcon/niaohai",
 	id = 41350,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26556,6 +27345,7 @@ _G.pg.base.item_data_statistics[41351] = {
 	is_world = 0,
 	icon = "SquareIcon/jingang",
 	id = 41351,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26579,6 +27369,7 @@ _G.pg.base.item_data_statistics[41352] = {
 	is_world = 0,
 	icon = "SquareIcon/birui",
 	id = 41352,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26602,6 +27393,7 @@ _G.pg.base.item_data_statistics[41353] = {
 	is_world = 0,
 	icon = "SquareIcon/zhenming",
 	id = 41353,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26625,6 +27417,7 @@ _G.pg.base.item_data_statistics[41354] = {
 	is_world = 0,
 	icon = "SquareIcon/wudao",
 	id = 41354,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26648,6 +27441,7 @@ _G.pg.base.item_data_statistics[41355] = {
 	is_world = 0,
 	icon = "SquareIcon/tiancheng",
 	id = 41355,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26671,6 +27465,7 @@ _G.pg.base.item_data_statistics[41356] = {
 	is_world = 0,
 	icon = "SquareIcon/fusang",
 	id = 41356,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26694,6 +27489,7 @@ _G.pg.base.item_data_statistics[41357] = {
 	is_world = 0,
 	icon = "SquareIcon/shancheng",
 	id = 41357,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26717,6 +27513,7 @@ _G.pg.base.item_data_statistics[41358] = {
 	is_world = 0,
 	icon = "SquareIcon/yishi",
 	id = 41358,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26740,6 +27537,7 @@ _G.pg.base.item_data_statistics[41359] = {
 	is_world = 0,
 	icon = "SquareIcon/rixiang",
 	id = 41359,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26763,6 +27561,7 @@ _G.pg.base.item_data_statistics[41360] = {
 	is_world = 0,
 	icon = "SquareIcon/changmen",
 	id = 41360,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26786,6 +27585,7 @@ _G.pg.base.item_data_statistics[41361] = {
 	is_world = 0,
 	icon = "SquareIcon/luao",
 	id = 41361,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26809,6 +27609,7 @@ _G.pg.base.item_data_statistics[41362] = {
 	is_world = 0,
 	icon = "SquareIcon/jiahezhanlie",
 	id = 41362,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26832,6 +27633,7 @@ _G.pg.base.item_data_statistics[41363] = {
 	is_world = 0,
 	icon = "SquareIcon/feiying",
 	id = 41363,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26855,6 +27657,7 @@ _G.pg.base.item_data_statistics[41364] = {
 	is_world = 0,
 	icon = "SquareIcon/sunying",
 	id = 41364,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26878,6 +27681,7 @@ _G.pg.base.item_data_statistics[41365] = {
 	is_world = 0,
 	icon = "SquareIcon/fengxiang",
 	id = 41365,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26901,6 +27705,7 @@ _G.pg.base.item_data_statistics[41366] = {
 	is_world = 0,
 	icon = "SquareIcon/xiangfeng",
 	id = 41366,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26924,6 +27729,7 @@ _G.pg.base.item_data_statistics[41367] = {
 	is_world = 0,
 	icon = "SquareIcon/longxiang",
 	id = 41367,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26947,6 +27753,7 @@ _G.pg.base.item_data_statistics[41368] = {
 	is_world = 0,
 	icon = "SquareIcon/chicheng",
 	id = 41368,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26970,6 +27777,7 @@ _G.pg.base.item_data_statistics[41369] = {
 	is_world = 0,
 	icon = "SquareIcon/jiahe",
 	id = 41369,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -26993,6 +27801,7 @@ _G.pg.base.item_data_statistics[41370] = {
 	is_world = 0,
 	icon = "SquareIcon/canglong",
 	id = 41370,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27016,6 +27825,7 @@ _G.pg.base.item_data_statistics[41371] = {
 	is_world = 0,
 	icon = "SquareIcon/feilong",
 	id = 41371,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27039,6 +27849,7 @@ _G.pg.base.item_data_statistics[41372] = {
 	is_world = 0,
 	icon = "SquareIcon/xianghe",
 	id = 41372,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27062,6 +27873,7 @@ _G.pg.base.item_data_statistics[41373] = {
 	is_world = 0,
 	icon = "SquareIcon/ruihe",
 	id = 41373,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27085,6 +27897,7 @@ _G.pg.base.item_data_statistics[41374] = {
 	is_world = 0,
 	icon = "SquareIcon/dafeng",
 	id = 41374,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27108,6 +27921,7 @@ _G.pg.base.item_data_statistics[41375] = {
 	is_world = 0,
 	icon = "SquareIcon/mingshi",
 	id = 41375,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27131,6 +27945,7 @@ _G.pg.base.item_data_statistics[41376] = {
 	is_world = 0,
 	icon = "SquareIcon/z1",
 	id = 41376,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27154,6 +27969,7 @@ _G.pg.base.item_data_statistics[41377] = {
 	is_world = 0,
 	icon = "SquareIcon/z23",
 	id = 41377,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27177,6 +27993,7 @@ _G.pg.base.item_data_statistics[41378] = {
 	is_world = 0,
 	icon = "SquareIcon/Z25",
 	id = 41378,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27200,6 +28017,7 @@ _G.pg.base.item_data_statistics[41379] = {
 	is_world = 0,
 	icon = "SquareIcon/kenisibao",
 	id = 41379,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27223,6 +28041,7 @@ _G.pg.base.item_data_statistics[41380] = {
 	is_world = 0,
 	icon = "SquareIcon/kaersilue",
 	id = 41380,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27246,6 +28065,7 @@ _G.pg.base.item_data_statistics[41381] = {
 	is_world = 0,
 	icon = "SquareIcon/kelong",
 	id = 41381,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27269,6 +28089,7 @@ _G.pg.base.item_data_statistics[41382] = {
 	is_world = 0,
 	icon = "SquareIcon/laibixi",
 	id = 41382,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27292,6 +28113,7 @@ _G.pg.base.item_data_statistics[41383] = {
 	is_world = 0,
 	icon = "SquareIcon/xipeierhaijunshangjiang",
 	id = 41383,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27315,6 +28137,7 @@ _G.pg.base.item_data_statistics[41384] = {
 	is_world = 0,
 	icon = "SquareIcon/ougen",
 	id = 41384,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27338,6 +28161,7 @@ _G.pg.base.item_data_statistics[41385] = {
 	is_world = 0,
 	icon = "SquareIcon/deyizhi",
 	id = 41385,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27361,6 +28185,7 @@ _G.pg.base.item_data_statistics[41386] = {
 	is_world = 0,
 	icon = "SquareIcon/sipeibojue",
 	id = 41386,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27384,6 +28209,7 @@ _G.pg.base.item_data_statistics[41387] = {
 	is_world = 0,
 	icon = "SquareIcon/shaenhuosite",
 	id = 41387,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27407,6 +28233,7 @@ _G.pg.base.item_data_statistics[41388] = {
 	is_world = 0,
 	icon = "SquareIcon/genaisennao",
 	id = 41388,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27430,6 +28257,7 @@ _G.pg.base.item_data_statistics[41389] = {
 	is_world = 0,
 	icon = "SquareIcon/tierbici",
 	id = 41389,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27453,6 +28281,7 @@ _G.pg.base.item_data_statistics[41390] = {
 	is_world = 0,
 	icon = "SquareIcon/qibolin",
 	id = 41390,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27476,6 +28305,7 @@ _G.pg.base.item_data_statistics[41391] = {
 	is_world = 0,
 	icon = "SquareIcon/anshan",
 	id = 41391,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27499,6 +28329,7 @@ _G.pg.base.item_data_statistics[41392] = {
 	is_world = 0,
 	icon = "SquareIcon/fushun",
 	id = 41392,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27522,6 +28353,7 @@ _G.pg.base.item_data_statistics[41393] = {
 	is_world = 0,
 	icon = "SquareIcon/changchun",
 	id = 41393,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27545,6 +28377,7 @@ _G.pg.base.item_data_statistics[41394] = {
 	is_world = 0,
 	icon = "SquareIcon/taiyuan",
 	id = 41394,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27568,6 +28401,7 @@ _G.pg.base.item_data_statistics[41395] = {
 	is_world = 0,
 	icon = "SquareIcon/yixian",
 	id = 41395,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27591,6 +28425,7 @@ _G.pg.base.item_data_statistics[41396] = {
 	is_world = 0,
 	icon = "SquareIcon/ninghai",
 	id = 41396,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27614,6 +28449,7 @@ _G.pg.base.item_data_statistics[41397] = {
 	is_world = 0,
 	icon = "SquareIcon/pinghai",
 	id = 41397,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27637,6 +28473,7 @@ _G.pg.base.item_data_statistics[41398] = {
 	is_world = 0,
 	icon = "SquareIcon/afuleer",
 	id = 41398,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27660,6 +28497,7 @@ _G.pg.base.item_data_statistics[41399] = {
 	is_world = 0,
 	icon = "SquareIcon/beili",
 	id = 41399,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27683,6 +28521,7 @@ _G.pg.base.item_data_statistics[41400] = {
 	is_world = 0,
 	icon = "SquareIcon/z19",
 	id = 41400,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27706,6 +28545,7 @@ _G.pg.base.item_data_statistics[41401] = {
 	is_world = 0,
 	icon = "SquareIcon/z20",
 	id = 41401,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27729,6 +28569,7 @@ _G.pg.base.item_data_statistics[41402] = {
 	is_world = 0,
 	icon = "SquareIcon/z21",
 	id = 41402,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27752,6 +28593,7 @@ _G.pg.base.item_data_statistics[41403] = {
 	is_world = 0,
 	icon = "SquareIcon/Z46",
 	id = 41403,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27775,6 +28617,7 @@ _G.pg.base.item_data_statistics[41404] = {
 	is_world = 0,
 	icon = "SquareIcon/shenfeng",
 	id = 41404,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27798,6 +28641,7 @@ _G.pg.base.item_data_statistics[41405] = {
 	is_world = 0,
 	icon = "SquareIcon/songfeng",
 	id = 41405,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27821,6 +28665,7 @@ _G.pg.base.item_data_statistics[41406] = {
 	is_world = 0,
 	icon = "SquareIcon/muyue",
 	id = 41406,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27844,6 +28689,7 @@ _G.pg.base.item_data_statistics[41407] = {
 	is_world = 0,
 	icon = "SquareIcon/ruyue",
 	id = 41407,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27867,6 +28713,7 @@ _G.pg.base.item_data_statistics[41408] = {
 	is_world = 0,
 	icon = "SquareIcon/maoyue",
 	id = 41408,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27890,6 +28737,7 @@ _G.pg.base.item_data_statistics[41409] = {
 	is_world = 0,
 	icon = "SquareIcon/shuiwuyue",
 	id = 41409,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27913,6 +28761,7 @@ _G.pg.base.item_data_statistics[41410] = {
 	is_world = 0,
 	icon = "SquareIcon/wenyue",
 	id = 41410,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27936,6 +28785,7 @@ _G.pg.base.item_data_statistics[41411] = {
 	is_world = 0,
 	icon = "SquareIcon/changyue",
 	id = 41411,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27959,6 +28809,7 @@ _G.pg.base.item_data_statistics[41412] = {
 	is_world = 0,
 	icon = "SquareIcon/sanriyue",
 	id = 41412,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -27982,6 +28833,7 @@ _G.pg.base.item_data_statistics[41413] = {
 	is_world = 0,
 	icon = "SquareIcon/jiangfeng",
 	id = 41413,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28005,6 +28857,7 @@ _G.pg.base.item_data_statistics[41414] = {
 	is_world = 0,
 	icon = "SquareIcon/xinyue_jp",
 	id = 41414,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28028,6 +28881,7 @@ _G.pg.base.item_data_statistics[41415] = {
 	is_world = 0,
 	icon = "SquareIcon/chunyue",
 	id = 41415,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28051,6 +28905,7 @@ _G.pg.base.item_data_statistics[41416] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaoyue",
 	id = 41416,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28074,6 +28929,7 @@ _G.pg.base.item_data_statistics[41417] = {
 	is_world = 0,
 	icon = "SquareIcon/ladefute",
 	id = 41417,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28097,6 +28953,7 @@ _G.pg.base.item_data_statistics[41418] = {
 	is_world = 0,
 	icon = "SquareIcon/jiejinsi",
 	id = 41418,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28120,6 +28977,7 @@ _G.pg.base.item_data_statistics[41419] = {
 	is_world = 0,
 	icon = "SquareIcon/nigulasi",
 	id = 41419,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28143,6 +29001,7 @@ _G.pg.base.item_data_statistics[41420] = {
 	is_world = 0,
 	icon = "SquareIcon/lishiman",
 	id = 41420,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28166,6 +29025,7 @@ _G.pg.base.item_data_statistics[41421] = {
 	is_world = 0,
 	icon = "SquareIcon/huonululu",
 	id = 41421,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28189,6 +29049,7 @@ _G.pg.base.item_data_statistics[41422] = {
 	is_world = 0,
 	icon = "SquareIcon/shengluyisi",
 	id = 41422,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28212,6 +29073,7 @@ _G.pg.base.item_data_statistics[41423] = {
 	is_world = 0,
 	icon = "SquareIcon/qiubite",
 	id = 41423,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28235,6 +29097,7 @@ _G.pg.base.item_data_statistics[41424] = {
 	is_world = 0,
 	icon = "SquareIcon/zexi",
 	id = 41424,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28258,6 +29121,7 @@ _G.pg.base.item_data_statistics[41425] = {
 	is_world = 0,
 	icon = "SquareIcon/chuannei",
 	id = 41425,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28281,6 +29145,7 @@ _G.pg.base.item_data_statistics[41426] = {
 	is_world = 0,
 	icon = "SquareIcon/shentong",
 	id = 41426,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28304,6 +29169,7 @@ _G.pg.base.item_data_statistics[41427] = {
 	is_world = 0,
 	icon = "SquareIcon/nake",
 	id = 41427,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28327,6 +29193,7 @@ _G.pg.base.item_data_statistics[41428] = {
 	is_world = 0,
 	icon = "SquareIcon/pufeng",
 	id = 41428,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28350,6 +29217,7 @@ _G.pg.base.item_data_statistics[41429] = {
 	is_world = 0,
 	icon = "SquareIcon/jifeng",
 	id = 41429,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28373,6 +29241,7 @@ _G.pg.base.item_data_statistics[41430] = {
 	is_world = 0,
 	icon = "SquareIcon/bangfeng",
 	id = 41430,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28396,6 +29265,7 @@ _G.pg.base.item_data_statistics[41431] = {
 	is_world = 0,
 	icon = "SquareIcon/gufeng",
 	id = 41431,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28419,6 +29289,7 @@ _G.pg.base.item_data_statistics[41432] = {
 	is_world = 0,
 	icon = "SquareIcon/sanli",
 	id = 41432,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28442,6 +29313,7 @@ _G.pg.base.item_data_statistics[41433] = {
 	is_world = 0,
 	icon = "SquareIcon/aheye",
 	id = 41433,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28465,6 +29337,7 @@ _G.pg.base.item_data_statistics[41434] = {
 	is_world = 0,
 	icon = "SquareIcon/wudi",
 	id = 41434,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28488,6 +29361,7 @@ _G.pg.base.item_data_statistics[41435] = {
 	is_world = 0,
 	icon = "SquareIcon/huoqiangshou",
 	id = 41435,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28511,6 +29385,7 @@ _G.pg.base.item_data_statistics[41436] = {
 	is_world = 0,
 	icon = "SquareIcon/feiji",
 	id = 41436,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28534,6 +29409,7 @@ _G.pg.base.item_data_statistics[41437] = {
 	is_world = 0,
 	icon = "SquareIcon/yamaijia",
 	id = 41437,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28557,6 +29433,7 @@ _G.pg.base.item_data_statistics[41438] = {
 	is_world = 0,
 	icon = "SquareIcon/mengbiliai",
 	id = 41438,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28580,6 +29457,7 @@ _G.pg.base.item_data_statistics[41439] = {
 	is_world = 0,
 	icon = "SquareIcon/danfo",
 	id = 41439,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28603,6 +29481,7 @@ _G.pg.base.item_data_statistics[41440] = {
 	is_world = 0,
 	icon = "SquareIcon/zhaochao",
 	id = 41440,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28626,6 +29505,7 @@ _G.pg.base.item_data_statistics[41441] = {
 	is_world = 0,
 	icon = "SquareIcon/dachao",
 	id = 41441,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28649,6 +29529,7 @@ _G.pg.base.item_data_statistics[41442] = {
 	is_world = 0,
 	icon = "SquareIcon/manchao",
 	id = 41442,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28672,6 +29553,7 @@ _G.pg.base.item_data_statistics[41443] = {
 	is_world = 0,
 	icon = "SquareIcon/huangchao",
 	id = 41443,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28695,6 +29577,7 @@ _G.pg.base.item_data_statistics[41444] = {
 	is_world = 0,
 	icon = "SquareIcon/beierfasite_younv",
 	id = 41444,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28718,6 +29601,7 @@ _G.pg.base.item_data_statistics[41445] = {
 	is_world = 0,
 	icon = "SquareIcon/I19",
 	id = 41445,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28741,6 +29625,7 @@ _G.pg.base.item_data_statistics[41446] = {
 	is_world = 0,
 	icon = "SquareIcon/I26",
 	id = 41446,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28764,6 +29649,7 @@ _G.pg.base.item_data_statistics[41447] = {
 	is_world = 0,
 	icon = "SquareIcon/I58",
 	id = 41447,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28787,6 +29673,7 @@ _G.pg.base.item_data_statistics[41448] = {
 	is_world = 0,
 	icon = "SquareIcon/U81",
 	id = 41448,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28810,6 +29697,7 @@ _G.pg.base.item_data_statistics[41449] = {
 	is_world = 0,
 	icon = "SquareIcon/tiaoyu",
 	id = 41449,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28833,6 +29721,7 @@ _G.pg.base.item_data_statistics[41450] = {
 	is_world = 0,
 	icon = "SquareIcon/U47",
 	id = 41450,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28856,6 +29745,7 @@ _G.pg.base.item_data_statistics[41451] = {
 	is_world = 0,
 	icon = "SquareIcon/U557",
 	id = 41451,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28879,6 +29769,7 @@ _G.pg.base.item_data_statistics[41452] = {
 	is_world = 0,
 	icon = "SquareIcon/Z35",
 	id = 41452,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28902,6 +29793,7 @@ _G.pg.base.item_data_statistics[41453] = {
 	is_world = 0,
 	icon = "SquareIcon/z18",
 	id = 41453,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28925,6 +29817,7 @@ _G.pg.base.item_data_statistics[41454] = {
 	is_world = 0,
 	icon = "SquareIcon/kaixuan",
 	id = 41454,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28948,6 +29841,7 @@ _G.pg.base.item_data_statistics[41455] = {
 	is_world = 0,
 	icon = "SquareIcon/fuerban",
 	id = 41455,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28971,6 +29865,7 @@ _G.pg.base.item_data_statistics[41456] = {
 	is_world = 0,
 	icon = "SquareIcon/aimierbeierding",
 	id = 41456,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -28994,6 +29889,7 @@ _G.pg.base.item_data_statistics[41457] = {
 	is_world = 0,
 	icon = "SquareIcon/xukufu",
 	id = 41457,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29017,6 +29913,7 @@ _G.pg.base.item_data_statistics[41458] = {
 	is_world = 0,
 	icon = "SquareIcon/lemaer",
 	id = 41458,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29040,6 +29937,7 @@ _G.pg.base.item_data_statistics[41459] = {
 	is_world = 0,
 	icon = "SquareIcon/dunkeerke",
 	id = 41459,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29063,6 +29961,7 @@ _G.pg.base.item_data_statistics[41460] = {
 	is_world = 0,
 	icon = "SquareIcon/rangbaer",
 	id = 41460,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29086,6 +29985,7 @@ _G.pg.base.item_data_statistics[41461] = {
 	is_world = 0,
 	icon = "SquareIcon/masazhusai",
 	id = 41461,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29109,6 +30009,7 @@ _G.pg.base.item_data_statistics[41462] = {
 	is_world = 0,
 	icon = "SquareIcon/bushi",
 	id = 41462,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29132,6 +30033,7 @@ _G.pg.base.item_data_statistics[41463] = {
 	is_world = 0,
 	icon = "SquareIcon/banrenma",
 	id = 41463,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29155,6 +30057,7 @@ _G.pg.base.item_data_statistics[41464] = {
 	is_world = 0,
 	icon = "SquareIcon/aisaikesi",
 	id = 41464,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29178,6 +30081,7 @@ _G.pg.base.item_data_statistics[41465] = {
 	is_world = 0,
 	icon = "SquareIcon/daqinghuayu",
 	id = 41465,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29201,6 +30105,7 @@ _G.pg.base.item_data_statistics[41466] = {
 	is_world = 0,
 	icon = "SquareIcon/lumang",
 	id = 41466,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29224,6 +30129,7 @@ _G.pg.base.item_data_statistics[41467] = {
 	is_world = 0,
 	icon = "SquareIcon/mengfeisi",
 	id = 41467,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29247,6 +30153,7 @@ _G.pg.base.item_data_statistics[41468] = {
 	is_world = 0,
 	icon = "SquareIcon/niukasier",
 	id = 41468,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29270,6 +30177,7 @@ _G.pg.base.item_data_statistics[41469] = {
 	is_world = 0,
 	icon = "SquareIcon/huobi",
 	id = 41469,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29293,6 +30201,7 @@ _G.pg.base.item_data_statistics[41470] = {
 	is_world = 0,
 	icon = "SquareIcon/keerke",
 	id = 41470,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29316,6 +30225,7 @@ _G.pg.base.item_data_statistics[41471] = {
 	is_world = 0,
 	icon = "SquareIcon/mingniabolisi",
 	id = 41471,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29339,6 +30249,7 @@ _G.pg.base.item_data_statistics[41472] = {
 	is_world = 0,
 	icon = "SquareIcon/heizewude",
 	id = 41472,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29362,6 +30273,7 @@ _G.pg.base.item_data_statistics[41473] = {
 	is_world = 0,
 	icon = "SquareIcon/kangkede",
 	id = 41473,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29385,6 +30297,7 @@ _G.pg.base.item_data_statistics[41474] = {
 	is_world = 0,
 	icon = "SquareIcon/qifeng",
 	id = 41474,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29408,6 +30321,7 @@ _G.pg.base.item_data_statistics[41475] = {
 	is_world = 0,
 	icon = "SquareIcon/juanbo",
 	id = 41475,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29431,6 +30345,7 @@ _G.pg.base.item_data_statistics[41476] = {
 	is_world = 0,
 	icon = "SquareIcon/tianlangxing",
 	id = 41476,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29454,6 +30369,7 @@ _G.pg.base.item_data_statistics[41477] = {
 	is_world = 0,
 	icon = "SquareIcon/kulasuo",
 	id = 41477,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29477,6 +30393,7 @@ _G.pg.base.item_data_statistics[41478] = {
 	is_world = 0,
 	icon = "SquareIcon/biaoyu",
 	id = 41478,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29500,6 +30417,7 @@ _G.pg.base.item_data_statistics[41479] = {
 	is_world = 0,
 	icon = "SquareIcon/jinboli",
 	id = 41479,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29523,6 +30441,7 @@ _G.pg.base.item_data_statistics[41480] = {
 	is_world = 0,
 	icon = "SquareIcon/malani",
 	id = 41480,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29546,6 +30465,7 @@ _G.pg.base.item_data_statistics[41481] = {
 	is_world = 0,
 	icon = "SquareIcon/zhuiganzhe",
 	id = 41481,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29569,6 +30489,7 @@ _G.pg.base.item_data_statistics[41498] = {
 	is_world = 0,
 	icon = "SquareIcon/haiwangxing",
 	id = 41498,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29592,6 +30513,7 @@ _G.pg.base.item_data_statistics[41499] = {
 	is_world = 0,
 	icon = "SquareIcon/junzhu",
 	id = 41499,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29615,6 +30537,7 @@ _G.pg.base.item_data_statistics[41500] = {
 	is_world = 0,
 	icon = "SquareIcon/yichui",
 	id = 41500,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29638,6 +30561,7 @@ _G.pg.base.item_data_statistics[41501] = {
 	is_world = 0,
 	icon = "SquareIcon/chuyun",
 	id = 41501,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29661,6 +30585,7 @@ _G.pg.base.item_data_statistics[41502] = {
 	is_world = 0,
 	icon = "SquareIcon/luoen",
 	id = 41502,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29684,6 +30609,7 @@ _G.pg.base.item_data_statistics[41503] = {
 	is_world = 0,
 	icon = "SquareIcon/luyijiushi",
 	id = 41503,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29707,6 +30633,7 @@ _G.pg.base.item_data_statistics[41601] = {
 	is_world = 0,
 	icon = "SquareIcon/gin",
 	id = 41601,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29730,6 +30657,7 @@ _G.pg.base.item_data_statistics[41602] = {
 	is_world = 0,
 	icon = "SquareIcon/kin",
 	id = 41602,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29753,6 +30681,7 @@ _G.pg.base.item_data_statistics[41603] = {
 	is_world = 0,
 	icon = "SquareIcon/kaxin",
 	id = 41603,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29776,6 +30705,7 @@ _G.pg.base.item_data_statistics[41604] = {
 	is_world = 0,
 	icon = "SquareIcon/tangsi",
 	id = 41604,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29799,6 +30729,7 @@ _G.pg.base.item_data_statistics[41605] = {
 	is_world = 0,
 	icon = "SquareIcon/gelideli",
 	id = 41605,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29822,6 +30753,7 @@ _G.pg.base.item_data_statistics[41606] = {
 	is_world = 0,
 	icon = "SquareIcon/keleiwen",
 	id = 41606,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29845,6 +30777,7 @@ _G.pg.base.item_data_statistics[41607] = {
 	is_world = 0,
 	icon = "SquareIcon/maikaoer",
 	id = 41607,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29868,6 +30801,7 @@ _G.pg.base.item_data_statistics[41608] = {
 	is_world = 0,
 	icon = "SquareIcon/moli",
 	id = 41608,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29891,6 +30825,7 @@ _G.pg.base.item_data_statistics[41609] = {
 	is_world = 0,
 	icon = "SquareIcon/fulaiche",
 	id = 41609,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29914,6 +30849,7 @@ _G.pg.base.item_data_statistics[41610] = {
 	is_world = 0,
 	icon = "SquareIcon/aosiben",
 	id = 41610,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29937,6 +30873,7 @@ _G.pg.base.item_data_statistics[41611] = {
 	is_world = 0,
 	icon = "SquareIcon/saqieer",
 	id = 41611,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29960,6 +30897,7 @@ _G.pg.base.item_data_statistics[41612] = {
 	is_world = 0,
 	icon = "SquareIcon/aolike",
 	id = 41612,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -29983,6 +30921,7 @@ _G.pg.base.item_data_statistics[41613] = {
 	is_world = 0,
 	icon = "SquareIcon/fute",
 	id = 41613,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30006,6 +30945,7 @@ _G.pg.base.item_data_statistics[41614] = {
 	is_world = 0,
 	icon = "SquareIcon/sipengsi",
 	id = 41614,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30029,6 +30969,7 @@ _G.pg.base.item_data_statistics[41615] = {
 	is_world = 0,
 	icon = "SquareIcon/bensen",
 	id = 41615,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30052,6 +30993,7 @@ _G.pg.base.item_data_statistics[41616] = {
 	is_world = 0,
 	icon = "SquareIcon/lafei",
 	id = 41616,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30075,6 +31017,7 @@ _G.pg.base.item_data_statistics[41617] = {
 	is_world = 0,
 	icon = "SquareIcon/ximusi",
 	id = 41617,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30098,6 +31041,7 @@ _G.pg.base.item_data_statistics[41618] = {
 	is_world = 0,
 	icon = "SquareIcon/haman",
 	id = 41618,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30121,6 +31065,7 @@ _G.pg.base.item_data_statistics[41619] = {
 	is_world = 0,
 	icon = "SquareIcon/aierdeliqi",
 	id = 41619,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30144,6 +31089,7 @@ _G.pg.base.item_data_statistics[41620] = {
 	is_world = 0,
 	icon = "SquareIcon/aomaha",
 	id = 41620,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30167,6 +31113,7 @@ _G.pg.base.item_data_statistics[41621] = {
 	is_world = 0,
 	icon = "SquareIcon/luoli",
 	id = 41621,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30190,6 +31137,7 @@ _G.pg.base.item_data_statistics[41622] = {
 	is_world = 0,
 	icon = "SquareIcon/bulukelin",
 	id = 41622,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30213,6 +31161,7 @@ _G.pg.base.item_data_statistics[41623] = {
 	is_world = 0,
 	icon = "SquareIcon/feinikesi",
 	id = 41623,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30236,6 +31185,7 @@ _G.pg.base.item_data_statistics[41624] = {
 	is_world = 0,
 	icon = "SquareIcon/hailunna",
 	id = 41624,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30259,6 +31209,7 @@ _G.pg.base.item_data_statistics[41625] = {
 	is_world = 0,
 	icon = "SquareIcon/yatelanda",
 	id = 41625,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30282,6 +31233,7 @@ _G.pg.base.item_data_statistics[41626] = {
 	is_world = 0,
 	icon = "SquareIcon/zhunuo",
 	id = 41626,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30305,6 +31257,7 @@ _G.pg.base.item_data_statistics[41627] = {
 	is_world = 0,
 	icon = "SquareIcon/shengdiyage",
 	id = 41627,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30328,6 +31281,7 @@ _G.pg.base.item_data_statistics[41628] = {
 	is_world = 0,
 	icon = "SquareIcon/kelifulan",
 	id = 41628,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30351,6 +31305,7 @@ _G.pg.base.item_data_statistics[41629] = {
 	is_world = 0,
 	icon = "SquareIcon/gelunbiya",
 	id = 41629,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30374,6 +31329,7 @@ _G.pg.base.item_data_statistics[41630] = {
 	is_world = 0,
 	icon = "SquareIcon/pengsakela",
 	id = 41630,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30397,6 +31353,7 @@ _G.pg.base.item_data_statistics[41631] = {
 	is_world = 0,
 	icon = "SquareIcon/yanhucheng",
 	id = 41631,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30420,6 +31377,7 @@ _G.pg.base.item_data_statistics[41632] = {
 	is_world = 0,
 	icon = "SquareIcon/beianpudun",
 	id = 41632,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30443,6 +31401,7 @@ _G.pg.base.item_data_statistics[41633] = {
 	is_world = 0,
 	icon = "SquareIcon/zhijiage",
 	id = 41633,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30466,6 +31425,7 @@ _G.pg.base.item_data_statistics[41634] = {
 	is_world = 0,
 	icon = "SquareIcon/xiusidun",
 	id = 41634,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30489,6 +31449,7 @@ _G.pg.base.item_data_statistics[41635] = {
 	is_world = 0,
 	icon = "SquareIcon/botelan",
 	id = 41635,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30512,6 +31473,7 @@ _G.pg.base.item_data_statistics[41636] = {
 	is_world = 0,
 	icon = "SquareIcon/bolisi",
 	id = 41636,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30535,6 +31497,7 @@ _G.pg.base.item_data_statistics[41637] = {
 	is_world = 0,
 	icon = "SquareIcon/asituoliya",
 	id = 41637,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30558,6 +31521,7 @@ _G.pg.base.item_data_statistics[41638] = {
 	is_world = 0,
 	icon = "SquareIcon/kunxi",
 	id = 41638,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30581,6 +31545,7 @@ _G.pg.base.item_data_statistics[41639] = {
 	is_world = 0,
 	icon = "SquareIcon/wensensi",
 	id = 41639,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30604,6 +31569,7 @@ _G.pg.base.item_data_statistics[41640] = {
 	is_world = 0,
 	icon = "SquareIcon/weiqita",
 	id = 41640,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30627,6 +31593,7 @@ _G.pg.base.item_data_statistics[41641] = {
 	is_world = 0,
 	icon = "SquareIcon/neihuada",
 	id = 41641,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30650,6 +31617,7 @@ _G.pg.base.item_data_statistics[41642] = {
 	is_world = 0,
 	icon = "SquareIcon/ekelahema",
 	id = 41642,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30673,6 +31641,7 @@ _G.pg.base.item_data_statistics[41643] = {
 	is_world = 0,
 	icon = "SquareIcon/binxifaniya",
 	id = 41643,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30696,6 +31665,7 @@ _G.pg.base.item_data_statistics[41644] = {
 	is_world = 0,
 	icon = "SquareIcon/yalisangna",
 	id = 41644,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30719,6 +31689,7 @@ _G.pg.base.item_data_statistics[41645] = {
 	is_world = 0,
 	icon = "SquareIcon/tiannaxi",
 	id = 41645,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30742,6 +31713,7 @@ _G.pg.base.item_data_statistics[41646] = {
 	is_world = 0,
 	icon = "SquareIcon/jialifuniya",
 	id = 41646,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30765,6 +31737,7 @@ _G.pg.base.item_data_statistics[41647] = {
 	is_world = 0,
 	icon = "SquareIcon/keluoladuo",
 	id = 41647,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30788,6 +31761,7 @@ _G.pg.base.item_data_statistics[41648] = {
 	is_world = 0,
 	icon = "SquareIcon/malilan",
 	id = 41648,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30811,6 +31785,7 @@ _G.pg.base.item_data_statistics[41649] = {
 	is_world = 0,
 	icon = "SquareIcon/xifujiniya",
 	id = 41649,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30834,6 +31809,7 @@ _G.pg.base.item_data_statistics[41650] = {
 	is_world = 0,
 	icon = "SquareIcon/beikaluolaina",
 	id = 41650,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30857,6 +31833,7 @@ _G.pg.base.item_data_statistics[41651] = {
 	is_world = 0,
 	icon = "SquareIcon/huashengdun",
 	id = 41651,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30880,6 +31857,7 @@ _G.pg.base.item_data_statistics[41652] = {
 	is_world = 0,
 	icon = "SquareIcon/nandaketa",
 	id = 41652,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30903,6 +31881,7 @@ _G.pg.base.item_data_statistics[41653] = {
 	is_world = 0,
 	icon = "SquareIcon/changdao",
 	id = 41653,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30926,6 +31905,7 @@ _G.pg.base.item_data_statistics[41654] = {
 	is_world = 0,
 	icon = "SquareIcon/boge",
 	id = 41654,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30949,6 +31929,7 @@ _G.pg.base.item_data_statistics[41655] = {
 	is_world = 0,
 	icon = "SquareIcon/lanli",
 	id = 41655,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30972,6 +31953,7 @@ _G.pg.base.item_data_statistics[41656] = {
 	is_world = 0,
 	icon = "SquareIcon/liekexingdun",
 	id = 41656,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -30995,6 +31977,7 @@ _G.pg.base.item_data_statistics[41657] = {
 	is_world = 0,
 	icon = "SquareIcon/salatuojia",
 	id = 41657,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31018,6 +32001,7 @@ _G.pg.base.item_data_statistics[41658] = {
 	is_world = 0,
 	icon = "SquareIcon/tujizhe",
 	id = 41658,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31041,6 +32025,7 @@ _G.pg.base.item_data_statistics[41659] = {
 	is_world = 0,
 	icon = "SquareIcon/yuekecheng",
 	id = 41659,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31064,6 +32049,7 @@ _G.pg.base.item_data_statistics[41660] = {
 	is_world = 0,
 	icon = "SquareIcon/qiye",
 	id = 41660,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31087,6 +32073,7 @@ _G.pg.base.item_data_statistics[41661] = {
 	is_world = 0,
 	icon = "SquareIcon/dahuangfeng",
 	id = 41661,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31110,6 +32097,7 @@ _G.pg.base.item_data_statistics[41662] = {
 	is_world = 0,
 	icon = "SquareIcon/hufeng",
 	id = 41662,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31133,6 +32121,7 @@ _G.pg.base.item_data_statistics[41663] = {
 	is_world = 0,
 	icon = "SquareIcon/zaoshen",
 	id = 41663,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31156,6 +32145,7 @@ _G.pg.base.item_data_statistics[41664] = {
 	is_world = 0,
 	icon = "SquareIcon/nvjiang",
 	id = 41664,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31179,6 +32169,7 @@ _G.pg.base.item_data_statistics[41665] = {
 	is_world = 0,
 	icon = "SquareIcon/akasita",
 	id = 41665,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31202,6 +32193,7 @@ _G.pg.base.item_data_statistics[41666] = {
 	is_world = 0,
 	icon = "SquareIcon/rexin",
 	id = 41666,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31225,6 +32217,7 @@ _G.pg.base.item_data_statistics[41667] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaolietuquan",
 	id = 41667,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31248,6 +32241,7 @@ _G.pg.base.item_data_statistics[41668] = {
 	is_world = 0,
 	icon = "SquareIcon/dadouquan",
 	id = 41668,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31271,6 +32265,7 @@ _G.pg.base.item_data_statistics[41669] = {
 	is_world = 0,
 	icon = "SquareIcon/huixing",
 	id = 41669,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31294,6 +32289,7 @@ _G.pg.base.item_data_statistics[41670] = {
 	is_world = 0,
 	icon = "SquareIcon/xinyue",
 	id = 41670,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31317,6 +32313,7 @@ _G.pg.base.item_data_statistics[41671] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaotiane",
 	id = 41671,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31340,6 +32337,7 @@ _G.pg.base.item_data_statistics[41672] = {
 	is_world = 0,
 	icon = "SquareIcon/huti",
 	id = 41672,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31363,6 +32361,7 @@ _G.pg.base.item_data_statistics[41673] = {
 	is_world = 0,
 	icon = "SquareIcon/mingyunnvshen",
 	id = 41673,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31386,6 +32385,7 @@ _G.pg.base.item_data_statistics[41674] = {
 	is_world = 0,
 	icon = "SquareIcon/gelunweier",
 	id = 41674,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31409,6 +32409,7 @@ _G.pg.base.item_data_statistics[41675] = {
 	is_world = 0,
 	icon = "SquareIcon/yinghuochong",
 	id = 41675,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31432,6 +32433,7 @@ _G.pg.base.item_data_statistics[41676] = {
 	is_world = 0,
 	icon = "SquareIcon/biaoqiang",
 	id = 41676,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31455,6 +32457,7 @@ _G.pg.base.item_data_statistics[41677] = {
 	is_world = 0,
 	icon = "SquareIcon/tianhou",
 	id = 41677,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31478,6 +32481,7 @@ _G.pg.base.item_data_statistics[41678] = {
 	is_world = 0,
 	icon = "SquareIcon/xixuegui",
 	id = 41678,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31501,6 +32505,7 @@ _G.pg.base.item_data_statistics[41679] = {
 	is_world = 0,
 	icon = "SquareIcon/liande",
 	id = 41679,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31524,6 +32529,7 @@ _G.pg.base.item_data_statistics[41680] = {
 	is_world = 0,
 	icon = "SquareIcon/ajilisi",
 	id = 41680,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31547,6 +32553,7 @@ _G.pg.base.item_data_statistics[41681] = {
 	is_world = 0,
 	icon = "SquareIcon/ajiakesi",
 	id = 41681,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31570,6 +32577,7 @@ _G.pg.base.item_data_statistics[41682] = {
 	is_world = 0,
 	icon = "SquareIcon/xiefeierde",
 	id = 41682,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31593,6 +32601,7 @@ _G.pg.base.item_data_statistics[41683] = {
 	is_world = 0,
 	icon = "SquareIcon/aidingbao",
 	id = 41683,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31616,6 +32625,7 @@ _G.pg.base.item_data_statistics[41684] = {
 	is_world = 0,
 	icon = "SquareIcon/beierfasite",
 	id = 41684,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31639,6 +32649,7 @@ _G.pg.base.item_data_statistics[41685] = {
 	is_world = 0,
 	icon = "SquareIcon/aruituosha",
 	id = 41685,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31662,6 +32673,7 @@ _G.pg.base.item_data_statistics[41686] = {
 	is_world = 0,
 	icon = "SquareIcon/jialadiya",
 	id = 41686,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31685,6 +32697,7 @@ _G.pg.base.item_data_statistics[41687] = {
 	is_world = 0,
 	icon = "SquareIcon/ouruola",
 	id = 41687,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31708,6 +32721,7 @@ _G.pg.base.item_data_statistics[41688] = {
 	is_world = 0,
 	icon = "SquareIcon/lundun",
 	id = 41688,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31731,6 +32745,7 @@ _G.pg.base.item_data_statistics[41689] = {
 	is_world = 0,
 	icon = "SquareIcon/shiluopujun",
 	id = 41689,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31754,6 +32769,7 @@ _G.pg.base.item_data_statistics[41690] = {
 	is_world = 0,
 	icon = "SquareIcon/kente",
 	id = 41690,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31777,6 +32793,7 @@ _G.pg.base.item_data_statistics[41691] = {
 	is_world = 0,
 	icon = "SquareIcon/safuke",
 	id = 41691,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31800,6 +32817,7 @@ _G.pg.base.item_data_statistics[41692] = {
 	is_world = 0,
 	icon = "SquareIcon/nuofuke",
 	id = 41692,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31823,6 +32841,7 @@ _G.pg.base.item_data_statistics[41693] = {
 	is_world = 0,
 	icon = "SquareIcon/duosaitejun",
 	id = 41693,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31846,6 +32865,7 @@ _G.pg.base.item_data_statistics[41694] = {
 	is_world = 0,
 	icon = "SquareIcon/yueke",
 	id = 41694,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31869,6 +32889,7 @@ _G.pg.base.item_data_statistics[41695] = {
 	is_world = 0,
 	icon = "SquareIcon/aikesaite",
 	id = 41695,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31892,6 +32913,7 @@ _G.pg.base.item_data_statistics[41696] = {
 	is_world = 0,
 	icon = "SquareIcon/susaikesi",
 	id = 41696,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31915,6 +32937,7 @@ _G.pg.base.item_data_statistics[41697] = {
 	is_world = 0,
 	icon = "SquareIcon/shengwang",
 	id = 41697,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31938,6 +32961,7 @@ _G.pg.base.item_data_statistics[41698] = {
 	is_world = 0,
 	icon = "SquareIcon/fanji",
 	id = 41698,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31961,6 +32985,7 @@ _G.pg.base.item_data_statistics[41699] = {
 	is_world = 0,
 	icon = "SquareIcon/hude",
 	id = 41699,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -31984,6 +33009,7 @@ _G.pg.base.item_data_statistics[41700] = {
 	is_world = 0,
 	icon = "SquareIcon/yilishabai",
 	id = 41700,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32007,6 +33033,7 @@ _G.pg.base.item_data_statistics[41701] = {
 	is_world = 0,
 	icon = "SquareIcon/yanzhan",
 	id = 41701,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32030,6 +33057,7 @@ _G.pg.base.item_data_statistics[41702] = {
 	is_world = 0,
 	icon = "SquareIcon/naerxun",
 	id = 41702,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32053,6 +33081,7 @@ _G.pg.base.item_data_statistics[41703] = {
 	is_world = 0,
 	icon = "SquareIcon/luodeni",
 	id = 41703,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32076,6 +33105,7 @@ _G.pg.base.item_data_statistics[41704] = {
 	is_world = 0,
 	icon = "SquareIcon/weiershiqinwang",
 	id = 41704,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32099,6 +33129,7 @@ _G.pg.base.item_data_statistics[41705] = {
 	is_world = 0,
 	icon = "SquareIcon/yuekegongjue",
 	id = 41705,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32122,6 +33153,7 @@ _G.pg.base.item_data_statistics[41706] = {
 	is_world = 0,
 	icon = "SquareIcon/jingjishen",
 	id = 41706,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32145,6 +33177,7 @@ _G.pg.base.item_data_statistics[41707] = {
 	is_world = 0,
 	icon = "SquareIcon/dujiaoshou",
 	id = 41707,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32168,6 +33201,7 @@ _G.pg.base.item_data_statistics[41708] = {
 	is_world = 0,
 	icon = "SquareIcon/huangjiafangzhou",
 	id = 41708,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32191,6 +33225,7 @@ _G.pg.base.item_data_statistics[41709] = {
 	is_world = 0,
 	icon = "SquareIcon/guanghui",
 	id = 41709,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32214,6 +33249,7 @@ _G.pg.base.item_data_statistics[41710] = {
 	is_world = 0,
 	icon = "SquareIcon/shengli",
 	id = 41710,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32237,6 +33273,7 @@ _G.pg.base.item_data_statistics[41711] = {
 	is_world = 0,
 	icon = "SquareIcon/guangrong",
 	id = 41711,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32260,6 +33297,7 @@ _G.pg.base.item_data_statistics[41712] = {
 	is_world = 0,
 	icon = "SquareIcon/heianjie",
 	id = 41712,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32283,6 +33321,7 @@ _G.pg.base.item_data_statistics[41713] = {
 	is_world = 0,
 	icon = "SquareIcon/kongbu",
 	id = 41713,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32306,6 +33345,7 @@ _G.pg.base.item_data_statistics[41714] = {
 	is_world = 0,
 	icon = "SquareIcon/abeikelongbi",
 	id = 41714,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32329,6 +33369,7 @@ _G.pg.base.item_data_statistics[41715] = {
 	is_world = 0,
 	icon = "SquareIcon/chuixue",
 	id = 41715,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32352,6 +33393,7 @@ _G.pg.base.item_data_statistics[41716] = {
 	is_world = 0,
 	icon = "SquareIcon/lingbo",
 	id = 41716,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32375,6 +33417,7 @@ _G.pg.base.item_data_statistics[41717] = {
 	is_world = 0,
 	icon = "SquareIcon/xiao",
 	id = 41717,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32398,6 +33441,7 @@ _G.pg.base.item_data_statistics[41718] = {
 	is_world = 0,
 	icon = "SquareIcon/lei",
 	id = 41718,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32421,6 +33465,7 @@ _G.pg.base.item_data_statistics[41719] = {
 	is_world = 0,
 	icon = "SquareIcon/dian",
 	id = 41719,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32444,6 +33489,7 @@ _G.pg.base.item_data_statistics[41720] = {
 	is_world = 0,
 	icon = "SquareIcon/bailu",
 	id = 41720,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32467,6 +33513,7 @@ _G.pg.base.item_data_statistics[41721] = {
 	is_world = 0,
 	icon = "SquareIcon/xili",
 	id = 41721,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32490,6 +33537,7 @@ _G.pg.base.item_data_statistics[41722] = {
 	is_world = 0,
 	icon = "SquareIcon/shiyu",
 	id = 41722,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32513,6 +33561,7 @@ _G.pg.base.item_data_statistics[41723] = {
 	is_world = 0,
 	icon = "SquareIcon/xuefeng",
 	id = 41723,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32536,6 +33585,7 @@ _G.pg.base.item_data_statistics[41724] = {
 	is_world = 0,
 	icon = "SquareIcon/yangyan",
 	id = 41724,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32559,6 +33609,7 @@ _G.pg.base.item_data_statistics[41725] = {
 	is_world = 0,
 	icon = "SquareIcon/buzhihuo",
 	id = 41725,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32582,6 +33633,7 @@ _G.pg.base.item_data_statistics[41726] = {
 	is_world = 0,
 	icon = "SquareIcon/yefen",
 	id = 41726,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32605,6 +33657,7 @@ _G.pg.base.item_data_statistics[41727] = {
 	is_world = 0,
 	icon = "SquareIcon/chuchun",
 	id = 41727,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32628,6 +33681,7 @@ _G.pg.base.item_data_statistics[41728] = {
 	is_world = 0,
 	icon = "SquareIcon/ruoye",
 	id = 41728,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32651,6 +33705,7 @@ _G.pg.base.item_data_statistics[41729] = {
 	is_world = 0,
 	icon = "SquareIcon/chushuang",
 	id = 41729,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32674,6 +33729,7 @@ _G.pg.base.item_data_statistics[41730] = {
 	is_world = 0,
 	icon = "SquareIcon/youming",
 	id = 41730,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32697,6 +33753,7 @@ _G.pg.base.item_data_statistics[41731] = {
 	is_world = 0,
 	icon = "SquareIcon/ximu",
 	id = 41731,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32720,6 +33777,7 @@ _G.pg.base.item_data_statistics[41732] = {
 	is_world = 0,
 	icon = "SquareIcon/heichao",
 	id = 41732,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32743,6 +33801,7 @@ _G.pg.base.item_data_statistics[41733] = {
 	is_world = 0,
 	icon = "SquareIcon/qinchao",
 	id = 41733,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32766,6 +33825,7 @@ _G.pg.base.item_data_statistics[41734] = {
 	is_world = 0,
 	icon = "SquareIcon/xizhang",
 	id = 41734,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32789,6 +33849,7 @@ _G.pg.base.item_data_statistics[41735] = {
 	is_world = 0,
 	icon = "SquareIcon/changliang",
 	id = 41735,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32812,6 +33873,7 @@ _G.pg.base.item_data_statistics[41736] = {
 	is_world = 0,
 	icon = "SquareIcon/wushiling",
 	id = 41736,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32835,6 +33897,7 @@ _G.pg.base.item_data_statistics[41737] = {
 	is_world = 0,
 	icon = "SquareIcon/awuwei",
 	id = 41737,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32858,6 +33921,7 @@ _G.pg.base.item_data_statistics[41738] = {
 	is_world = 0,
 	icon = "SquareIcon/zuishang",
 	id = 41738,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32881,6 +33945,7 @@ _G.pg.base.item_data_statistics[41739] = {
 	is_world = 0,
 	icon = "SquareIcon/sanwei",
 	id = 41739,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32904,6 +33969,7 @@ _G.pg.base.item_data_statistics[41740] = {
 	is_world = 0,
 	icon = "SquareIcon/guying",
 	id = 41740,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32927,6 +33993,7 @@ _G.pg.base.item_data_statistics[41741] = {
 	is_world = 0,
 	icon = "SquareIcon/jiagu",
 	id = 41741,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32950,6 +34017,7 @@ _G.pg.base.item_data_statistics[41742] = {
 	is_world = 0,
 	icon = "SquareIcon/qingye",
 	id = 41742,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32973,6 +34041,7 @@ _G.pg.base.item_data_statistics[41743] = {
 	is_world = 0,
 	icon = "SquareIcon/yili",
 	id = 41743,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -32996,6 +34065,7 @@ _G.pg.base.item_data_statistics[41744] = {
 	is_world = 0,
 	icon = "SquareIcon/miaogao",
 	id = 41744,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33019,6 +34089,7 @@ _G.pg.base.item_data_statistics[41745] = {
 	is_world = 0,
 	icon = "SquareIcon/nazhi",
 	id = 41745,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33042,6 +34113,7 @@ _G.pg.base.item_data_statistics[41746] = {
 	is_world = 0,
 	icon = "SquareIcon/zubing",
 	id = 41746,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33065,6 +34137,7 @@ _G.pg.base.item_data_statistics[41747] = {
 	is_world = 0,
 	icon = "SquareIcon/gaoxiong",
 	id = 41747,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33088,6 +34161,7 @@ _G.pg.base.item_data_statistics[41748] = {
 	is_world = 0,
 	icon = "SquareIcon/aidang",
 	id = 41748,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33111,6 +34185,7 @@ _G.pg.base.item_data_statistics[41749] = {
 	is_world = 0,
 	icon = "SquareIcon/moye",
 	id = 41749,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33134,6 +34209,7 @@ _G.pg.base.item_data_statistics[41750] = {
 	is_world = 0,
 	icon = "SquareIcon/niaohai",
 	id = 41750,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33157,6 +34233,7 @@ _G.pg.base.item_data_statistics[41751] = {
 	is_world = 0,
 	icon = "SquareIcon/jingang",
 	id = 41751,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33180,6 +34257,7 @@ _G.pg.base.item_data_statistics[41752] = {
 	is_world = 0,
 	icon = "SquareIcon/birui",
 	id = 41752,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33203,6 +34281,7 @@ _G.pg.base.item_data_statistics[41753] = {
 	is_world = 0,
 	icon = "SquareIcon/zhenming",
 	id = 41753,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33226,6 +34305,7 @@ _G.pg.base.item_data_statistics[41754] = {
 	is_world = 0,
 	icon = "SquareIcon/wudao",
 	id = 41754,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33249,6 +34329,7 @@ _G.pg.base.item_data_statistics[41755] = {
 	is_world = 0,
 	icon = "SquareIcon/tiancheng",
 	id = 41755,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33272,6 +34353,7 @@ _G.pg.base.item_data_statistics[41756] = {
 	is_world = 0,
 	icon = "SquareIcon/fusang",
 	id = 41756,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33295,6 +34377,7 @@ _G.pg.base.item_data_statistics[41757] = {
 	is_world = 0,
 	icon = "SquareIcon/shancheng",
 	id = 41757,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33318,6 +34401,7 @@ _G.pg.base.item_data_statistics[41758] = {
 	is_world = 0,
 	icon = "SquareIcon/yishi",
 	id = 41758,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33341,6 +34425,7 @@ _G.pg.base.item_data_statistics[41759] = {
 	is_world = 0,
 	icon = "SquareIcon/rixiang",
 	id = 41759,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33364,6 +34449,7 @@ _G.pg.base.item_data_statistics[41760] = {
 	is_world = 0,
 	icon = "SquareIcon/changmen",
 	id = 41760,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33387,6 +34473,7 @@ _G.pg.base.item_data_statistics[41761] = {
 	is_world = 0,
 	icon = "SquareIcon/luao",
 	id = 41761,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33410,6 +34497,7 @@ _G.pg.base.item_data_statistics[41762] = {
 	is_world = 0,
 	icon = "SquareIcon/jiahezhanlie",
 	id = 41762,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33433,6 +34521,7 @@ _G.pg.base.item_data_statistics[41763] = {
 	is_world = 0,
 	icon = "SquareIcon/feiying",
 	id = 41763,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33456,6 +34545,7 @@ _G.pg.base.item_data_statistics[41764] = {
 	is_world = 0,
 	icon = "SquareIcon/sunying",
 	id = 41764,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33479,6 +34569,7 @@ _G.pg.base.item_data_statistics[41765] = {
 	is_world = 0,
 	icon = "SquareIcon/fengxiang",
 	id = 41765,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33502,6 +34593,7 @@ _G.pg.base.item_data_statistics[41766] = {
 	is_world = 0,
 	icon = "SquareIcon/xiangfeng",
 	id = 41766,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33525,6 +34617,7 @@ _G.pg.base.item_data_statistics[41767] = {
 	is_world = 0,
 	icon = "SquareIcon/longxiang",
 	id = 41767,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33548,6 +34641,7 @@ _G.pg.base.item_data_statistics[41768] = {
 	is_world = 0,
 	icon = "SquareIcon/chicheng",
 	id = 41768,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33571,6 +34665,7 @@ _G.pg.base.item_data_statistics[41769] = {
 	is_world = 0,
 	icon = "SquareIcon/jiahe",
 	id = 41769,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33594,6 +34689,7 @@ _G.pg.base.item_data_statistics[41770] = {
 	is_world = 0,
 	icon = "SquareIcon/canglong",
 	id = 41770,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33617,6 +34713,7 @@ _G.pg.base.item_data_statistics[41771] = {
 	is_world = 0,
 	icon = "SquareIcon/feilong",
 	id = 41771,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33640,6 +34737,7 @@ _G.pg.base.item_data_statistics[41772] = {
 	is_world = 0,
 	icon = "SquareIcon/xianghe",
 	id = 41772,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33663,6 +34761,7 @@ _G.pg.base.item_data_statistics[41773] = {
 	is_world = 0,
 	icon = "SquareIcon/ruihe",
 	id = 41773,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33686,6 +34785,7 @@ _G.pg.base.item_data_statistics[41774] = {
 	is_world = 0,
 	icon = "SquareIcon/dafeng",
 	id = 41774,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33709,6 +34809,7 @@ _G.pg.base.item_data_statistics[41775] = {
 	is_world = 0,
 	icon = "SquareIcon/mingshi",
 	id = 41775,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33732,6 +34833,7 @@ _G.pg.base.item_data_statistics[41776] = {
 	is_world = 0,
 	icon = "SquareIcon/z1",
 	id = 41776,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33755,6 +34857,7 @@ _G.pg.base.item_data_statistics[41777] = {
 	is_world = 0,
 	icon = "SquareIcon/z23",
 	id = 41777,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33778,6 +34881,7 @@ _G.pg.base.item_data_statistics[41778] = {
 	is_world = 0,
 	icon = "SquareIcon/Z25",
 	id = 41778,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33801,6 +34905,7 @@ _G.pg.base.item_data_statistics[41779] = {
 	is_world = 0,
 	icon = "SquareIcon/kenisibao",
 	id = 41779,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33824,6 +34929,7 @@ _G.pg.base.item_data_statistics[41780] = {
 	is_world = 0,
 	icon = "SquareIcon/kaersilue",
 	id = 41780,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33847,6 +34953,7 @@ _G.pg.base.item_data_statistics[41781] = {
 	is_world = 0,
 	icon = "SquareIcon/kelong",
 	id = 41781,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33870,6 +34977,7 @@ _G.pg.base.item_data_statistics[41782] = {
 	is_world = 0,
 	icon = "SquareIcon/laibixi",
 	id = 41782,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33893,6 +35001,7 @@ _G.pg.base.item_data_statistics[41783] = {
 	is_world = 0,
 	icon = "SquareIcon/xipeierhaijunshangjiang",
 	id = 41783,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33916,6 +35025,7 @@ _G.pg.base.item_data_statistics[41784] = {
 	is_world = 0,
 	icon = "SquareIcon/ougen",
 	id = 41784,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33939,6 +35049,7 @@ _G.pg.base.item_data_statistics[41785] = {
 	is_world = 0,
 	icon = "SquareIcon/deyizhi",
 	id = 41785,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33962,6 +35073,7 @@ _G.pg.base.item_data_statistics[41786] = {
 	is_world = 0,
 	icon = "SquareIcon/sipeibojue",
 	id = 41786,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -33985,6 +35097,7 @@ _G.pg.base.item_data_statistics[41787] = {
 	is_world = 0,
 	icon = "SquareIcon/shaenhuosite",
 	id = 41787,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34008,6 +35121,7 @@ _G.pg.base.item_data_statistics[41788] = {
 	is_world = 0,
 	icon = "SquareIcon/genaisennao",
 	id = 41788,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34031,6 +35145,7 @@ _G.pg.base.item_data_statistics[41789] = {
 	is_world = 0,
 	icon = "SquareIcon/tierbici",
 	id = 41789,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34054,6 +35169,7 @@ _G.pg.base.item_data_statistics[41790] = {
 	is_world = 0,
 	icon = "SquareIcon/qibolin",
 	id = 41790,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34077,6 +35193,7 @@ _G.pg.base.item_data_statistics[41791] = {
 	is_world = 0,
 	icon = "SquareIcon/anshan",
 	id = 41791,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34100,6 +35217,7 @@ _G.pg.base.item_data_statistics[41792] = {
 	is_world = 0,
 	icon = "SquareIcon/fushun",
 	id = 41792,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34123,6 +35241,7 @@ _G.pg.base.item_data_statistics[41793] = {
 	is_world = 0,
 	icon = "SquareIcon/changchun",
 	id = 41793,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34146,6 +35265,7 @@ _G.pg.base.item_data_statistics[41794] = {
 	is_world = 0,
 	icon = "SquareIcon/taiyuan",
 	id = 41794,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34169,6 +35289,7 @@ _G.pg.base.item_data_statistics[41795] = {
 	is_world = 0,
 	icon = "SquareIcon/yixian",
 	id = 41795,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34192,6 +35313,7 @@ _G.pg.base.item_data_statistics[41796] = {
 	is_world = 0,
 	icon = "SquareIcon/ninghai",
 	id = 41796,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34215,6 +35337,7 @@ _G.pg.base.item_data_statistics[41797] = {
 	is_world = 0,
 	icon = "SquareIcon/pinghai",
 	id = 41797,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34238,6 +35361,7 @@ _G.pg.base.item_data_statistics[41798] = {
 	is_world = 0,
 	icon = "SquareIcon/afuleer",
 	id = 41798,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34261,6 +35385,7 @@ _G.pg.base.item_data_statistics[41799] = {
 	is_world = 0,
 	icon = "SquareIcon/beili",
 	id = 41799,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34284,6 +35409,7 @@ _G.pg.base.item_data_statistics[41800] = {
 	is_world = 0,
 	icon = "SquareIcon/z19",
 	id = 41800,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34307,6 +35433,7 @@ _G.pg.base.item_data_statistics[41801] = {
 	is_world = 0,
 	icon = "SquareIcon/z20",
 	id = 41801,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34330,6 +35457,7 @@ _G.pg.base.item_data_statistics[41802] = {
 	is_world = 0,
 	icon = "SquareIcon/z21",
 	id = 41802,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34353,6 +35481,7 @@ _G.pg.base.item_data_statistics[41803] = {
 	is_world = 0,
 	icon = "SquareIcon/Z46",
 	id = 41803,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34376,6 +35505,7 @@ _G.pg.base.item_data_statistics[41804] = {
 	is_world = 0,
 	icon = "SquareIcon/shenfeng",
 	id = 41804,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34399,6 +35529,7 @@ _G.pg.base.item_data_statistics[41805] = {
 	is_world = 0,
 	icon = "SquareIcon/songfeng",
 	id = 41805,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34422,6 +35553,7 @@ _G.pg.base.item_data_statistics[41806] = {
 	is_world = 0,
 	icon = "SquareIcon/muyue",
 	id = 41806,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34445,6 +35577,7 @@ _G.pg.base.item_data_statistics[41807] = {
 	is_world = 0,
 	icon = "SquareIcon/ruyue",
 	id = 41807,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34468,6 +35601,7 @@ _G.pg.base.item_data_statistics[41808] = {
 	is_world = 0,
 	icon = "SquareIcon/maoyue",
 	id = 41808,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34491,6 +35625,7 @@ _G.pg.base.item_data_statistics[41809] = {
 	is_world = 0,
 	icon = "SquareIcon/shuiwuyue",
 	id = 41809,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34514,6 +35649,7 @@ _G.pg.base.item_data_statistics[41810] = {
 	is_world = 0,
 	icon = "SquareIcon/wenyue",
 	id = 41810,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34537,6 +35673,7 @@ _G.pg.base.item_data_statistics[41811] = {
 	is_world = 0,
 	icon = "SquareIcon/changyue",
 	id = 41811,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34560,6 +35697,7 @@ _G.pg.base.item_data_statistics[41812] = {
 	is_world = 0,
 	icon = "SquareIcon/sanriyue",
 	id = 41812,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34583,6 +35721,7 @@ _G.pg.base.item_data_statistics[41813] = {
 	is_world = 0,
 	icon = "SquareIcon/jiangfeng",
 	id = 41813,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34606,6 +35745,7 @@ _G.pg.base.item_data_statistics[41814] = {
 	is_world = 0,
 	icon = "SquareIcon/xinyue_jp",
 	id = 41814,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34629,6 +35769,7 @@ _G.pg.base.item_data_statistics[41815] = {
 	is_world = 0,
 	icon = "SquareIcon/chunyue",
 	id = 41815,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34652,6 +35793,7 @@ _G.pg.base.item_data_statistics[41816] = {
 	is_world = 0,
 	icon = "SquareIcon/xiaoyue",
 	id = 41816,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34675,6 +35817,7 @@ _G.pg.base.item_data_statistics[41817] = {
 	is_world = 0,
 	icon = "SquareIcon/ladefute",
 	id = 41817,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34698,6 +35841,7 @@ _G.pg.base.item_data_statistics[41818] = {
 	is_world = 0,
 	icon = "SquareIcon/jiejinsi",
 	id = 41818,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34721,6 +35865,7 @@ _G.pg.base.item_data_statistics[41819] = {
 	is_world = 0,
 	icon = "SquareIcon/nigulasi",
 	id = 41819,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34744,6 +35889,7 @@ _G.pg.base.item_data_statistics[41820] = {
 	is_world = 0,
 	icon = "SquareIcon/lishiman",
 	id = 41820,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34767,6 +35913,7 @@ _G.pg.base.item_data_statistics[41821] = {
 	is_world = 0,
 	icon = "SquareIcon/huonululu",
 	id = 41821,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34790,6 +35937,7 @@ _G.pg.base.item_data_statistics[41822] = {
 	is_world = 0,
 	icon = "SquareIcon/shengluyisi",
 	id = 41822,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34813,6 +35961,7 @@ _G.pg.base.item_data_statistics[41823] = {
 	is_world = 0,
 	icon = "SquareIcon/qiubite",
 	id = 41823,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34836,6 +35985,7 @@ _G.pg.base.item_data_statistics[41824] = {
 	is_world = 0,
 	icon = "SquareIcon/zexi",
 	id = 41824,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34859,6 +36009,7 @@ _G.pg.base.item_data_statistics[41825] = {
 	is_world = 0,
 	icon = "SquareIcon/chuannei",
 	id = 41825,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34882,6 +36033,7 @@ _G.pg.base.item_data_statistics[41826] = {
 	is_world = 0,
 	icon = "SquareIcon/shentong",
 	id = 41826,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34905,6 +36057,7 @@ _G.pg.base.item_data_statistics[41827] = {
 	is_world = 0,
 	icon = "SquareIcon/nake",
 	id = 41827,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34928,6 +36081,7 @@ _G.pg.base.item_data_statistics[41828] = {
 	is_world = 0,
 	icon = "SquareIcon/pufeng",
 	id = 41828,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34951,6 +36105,7 @@ _G.pg.base.item_data_statistics[41829] = {
 	is_world = 0,
 	icon = "SquareIcon/jifeng",
 	id = 41829,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34974,6 +36129,7 @@ _G.pg.base.item_data_statistics[41830] = {
 	is_world = 0,
 	icon = "SquareIcon/bangfeng",
 	id = 41830,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -34997,6 +36153,7 @@ _G.pg.base.item_data_statistics[41831] = {
 	is_world = 0,
 	icon = "SquareIcon/gufeng",
 	id = 41831,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35020,6 +36177,7 @@ _G.pg.base.item_data_statistics[41832] = {
 	is_world = 0,
 	icon = "SquareIcon/sanli",
 	id = 41832,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35043,6 +36201,7 @@ _G.pg.base.item_data_statistics[41833] = {
 	is_world = 0,
 	icon = "SquareIcon/aheye",
 	id = 41833,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35066,6 +36225,7 @@ _G.pg.base.item_data_statistics[41834] = {
 	is_world = 0,
 	icon = "SquareIcon/wudi",
 	id = 41834,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35089,6 +36249,7 @@ _G.pg.base.item_data_statistics[41835] = {
 	is_world = 0,
 	icon = "SquareIcon/huoqiangshou",
 	id = 41835,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35112,6 +36273,7 @@ _G.pg.base.item_data_statistics[41836] = {
 	is_world = 0,
 	icon = "SquareIcon/feiji",
 	id = 41836,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35135,6 +36297,7 @@ _G.pg.base.item_data_statistics[41837] = {
 	is_world = 0,
 	icon = "SquareIcon/yamaijia",
 	id = 41837,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35158,6 +36321,7 @@ _G.pg.base.item_data_statistics[41838] = {
 	is_world = 0,
 	icon = "SquareIcon/mengbiliai",
 	id = 41838,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35181,6 +36345,7 @@ _G.pg.base.item_data_statistics[41839] = {
 	is_world = 0,
 	icon = "SquareIcon/danfo",
 	id = 41839,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35204,6 +36369,7 @@ _G.pg.base.item_data_statistics[41840] = {
 	is_world = 0,
 	icon = "SquareIcon/zhaochao",
 	id = 41840,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35227,6 +36393,7 @@ _G.pg.base.item_data_statistics[41841] = {
 	is_world = 0,
 	icon = "SquareIcon/dachao",
 	id = 41841,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35250,6 +36417,7 @@ _G.pg.base.item_data_statistics[41842] = {
 	is_world = 0,
 	icon = "SquareIcon/manchao",
 	id = 41842,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35273,6 +36441,7 @@ _G.pg.base.item_data_statistics[41843] = {
 	is_world = 0,
 	icon = "SquareIcon/huangchao",
 	id = 41843,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35296,6 +36465,7 @@ _G.pg.base.item_data_statistics[41844] = {
 	is_world = 0,
 	icon = "SquareIcon/beierfasite_younv",
 	id = 41844,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35319,6 +36489,7 @@ _G.pg.base.item_data_statistics[41845] = {
 	is_world = 0,
 	icon = "SquareIcon/I19",
 	id = 41845,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35342,6 +36513,7 @@ _G.pg.base.item_data_statistics[41846] = {
 	is_world = 0,
 	icon = "SquareIcon/I26",
 	id = 41846,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35365,6 +36537,7 @@ _G.pg.base.item_data_statistics[41847] = {
 	is_world = 0,
 	icon = "SquareIcon/I58",
 	id = 41847,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35388,6 +36561,7 @@ _G.pg.base.item_data_statistics[41848] = {
 	is_world = 0,
 	icon = "SquareIcon/U81",
 	id = 41848,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35411,6 +36585,7 @@ _G.pg.base.item_data_statistics[41849] = {
 	is_world = 0,
 	icon = "SquareIcon/tiaoyu",
 	id = 41849,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35434,6 +36609,7 @@ _G.pg.base.item_data_statistics[41850] = {
 	is_world = 0,
 	icon = "SquareIcon/U47",
 	id = 41850,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35457,6 +36633,7 @@ _G.pg.base.item_data_statistics[41851] = {
 	is_world = 0,
 	icon = "SquareIcon/U557",
 	id = 41851,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35480,6 +36657,7 @@ _G.pg.base.item_data_statistics[41852] = {
 	is_world = 0,
 	icon = "SquareIcon/Z35",
 	id = 41852,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35503,6 +36681,7 @@ _G.pg.base.item_data_statistics[41853] = {
 	is_world = 0,
 	icon = "SquareIcon/z18",
 	id = 41853,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35526,6 +36705,7 @@ _G.pg.base.item_data_statistics[41854] = {
 	is_world = 0,
 	icon = "SquareIcon/kaixuan",
 	id = 41854,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35549,6 +36729,7 @@ _G.pg.base.item_data_statistics[41855] = {
 	is_world = 0,
 	icon = "SquareIcon/fuerban",
 	id = 41855,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35572,6 +36753,7 @@ _G.pg.base.item_data_statistics[41856] = {
 	is_world = 0,
 	icon = "SquareIcon/aimierbeierding",
 	id = 41856,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35595,6 +36777,7 @@ _G.pg.base.item_data_statistics[41857] = {
 	is_world = 0,
 	icon = "SquareIcon/xukufu",
 	id = 41857,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35618,6 +36801,7 @@ _G.pg.base.item_data_statistics[41858] = {
 	is_world = 0,
 	icon = "SquareIcon/lemaer",
 	id = 41858,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35641,6 +36825,7 @@ _G.pg.base.item_data_statistics[41859] = {
 	is_world = 0,
 	icon = "SquareIcon/dunkeerke",
 	id = 41859,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35664,6 +36849,7 @@ _G.pg.base.item_data_statistics[41860] = {
 	is_world = 0,
 	icon = "SquareIcon/rangbaer",
 	id = 41860,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35687,6 +36873,7 @@ _G.pg.base.item_data_statistics[41861] = {
 	is_world = 0,
 	icon = "SquareIcon/masazhusai",
 	id = 41861,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35710,6 +36897,7 @@ _G.pg.base.item_data_statistics[41862] = {
 	is_world = 0,
 	icon = "SquareIcon/bushi",
 	id = 41862,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35733,6 +36921,7 @@ _G.pg.base.item_data_statistics[41863] = {
 	is_world = 0,
 	icon = "SquareIcon/banrenma",
 	id = 41863,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35756,6 +36945,7 @@ _G.pg.base.item_data_statistics[41864] = {
 	is_world = 0,
 	icon = "SquareIcon/aisaikesi",
 	id = 41864,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35779,6 +36969,7 @@ _G.pg.base.item_data_statistics[41865] = {
 	is_world = 0,
 	icon = "SquareIcon/daqinghuayu",
 	id = 41865,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35802,6 +36993,7 @@ _G.pg.base.item_data_statistics[41866] = {
 	is_world = 0,
 	icon = "SquareIcon/lumang",
 	id = 41866,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35825,6 +37017,7 @@ _G.pg.base.item_data_statistics[41867] = {
 	is_world = 0,
 	icon = "SquareIcon/mengfeisi",
 	id = 41867,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35848,6 +37041,7 @@ _G.pg.base.item_data_statistics[41868] = {
 	is_world = 0,
 	icon = "SquareIcon/niukasier",
 	id = 41868,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35871,6 +37065,7 @@ _G.pg.base.item_data_statistics[41869] = {
 	is_world = 0,
 	icon = "SquareIcon/huobi",
 	id = 41869,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35894,6 +37089,7 @@ _G.pg.base.item_data_statistics[41870] = {
 	is_world = 0,
 	icon = "SquareIcon/keerke",
 	id = 41870,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35917,6 +37113,7 @@ _G.pg.base.item_data_statistics[41871] = {
 	is_world = 0,
 	icon = "SquareIcon/mingniabolisi",
 	id = 41871,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35940,6 +37137,7 @@ _G.pg.base.item_data_statistics[41872] = {
 	is_world = 0,
 	icon = "SquareIcon/heizewude",
 	id = 41872,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35963,6 +37161,7 @@ _G.pg.base.item_data_statistics[41873] = {
 	is_world = 0,
 	icon = "SquareIcon/kangkede",
 	id = 41873,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -35986,6 +37185,7 @@ _G.pg.base.item_data_statistics[41874] = {
 	is_world = 0,
 	icon = "SquareIcon/qifeng",
 	id = 41874,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36009,6 +37209,7 @@ _G.pg.base.item_data_statistics[41875] = {
 	is_world = 0,
 	icon = "SquareIcon/juanbo",
 	id = 41875,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36032,6 +37233,7 @@ _G.pg.base.item_data_statistics[41876] = {
 	is_world = 0,
 	icon = "SquareIcon/tianlangxing",
 	id = 41876,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36055,6 +37257,7 @@ _G.pg.base.item_data_statistics[41877] = {
 	is_world = 0,
 	icon = "SquareIcon/kulasuo",
 	id = 41877,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36078,6 +37281,7 @@ _G.pg.base.item_data_statistics[41878] = {
 	is_world = 0,
 	icon = "SquareIcon/biaoyu",
 	id = 41878,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36101,6 +37305,7 @@ _G.pg.base.item_data_statistics[41879] = {
 	is_world = 0,
 	icon = "SquareIcon/jinboli",
 	id = 41879,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36124,6 +37329,7 @@ _G.pg.base.item_data_statistics[41880] = {
 	is_world = 0,
 	icon = "SquareIcon/malani",
 	id = 41880,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36147,6 +37353,7 @@ _G.pg.base.item_data_statistics[41881] = {
 	is_world = 0,
 	icon = "SquareIcon/zhuiganzhe",
 	id = 41881,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36170,6 +37377,7 @@ _G.pg.base.item_data_statistics[41882] = {
 	is_world = 0,
 	icon = "SquareIcon/haiwangxing",
 	id = 41882,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36193,6 +37401,7 @@ _G.pg.base.item_data_statistics[41883] = {
 	is_world = 0,
 	icon = "SquareIcon/junzhu",
 	id = 41883,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36216,6 +37425,7 @@ _G.pg.base.item_data_statistics[41884] = {
 	is_world = 0,
 	icon = "SquareIcon/yichui",
 	id = 41884,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36239,6 +37449,7 @@ _G.pg.base.item_data_statistics[41885] = {
 	is_world = 0,
 	icon = "SquareIcon/chuyun",
 	id = 41885,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36262,6 +37473,7 @@ _G.pg.base.item_data_statistics[41886] = {
 	is_world = 0,
 	icon = "SquareIcon/luoen",
 	id = 41886,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36285,6 +37497,7 @@ _G.pg.base.item_data_statistics[41887] = {
 	is_world = 0,
 	icon = "SquareIcon/luyijiushi",
 	id = 41887,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36308,6 +37521,7 @@ _G.pg.base.item_data_statistics[41888] = {
 	is_world = 0,
 	icon = "SquareIcon/duwei",
 	id = 41888,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36331,6 +37545,7 @@ _G.pg.base.item_data_statistics[41889] = {
 	is_world = 0,
 	icon = "SquareIcon/aierwen",
 	id = 41889,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36354,6 +37569,7 @@ _G.pg.base.item_data_statistics[41890] = {
 	is_world = 0,
 	icon = "SquareIcon/beiqi",
 	id = 41890,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36377,6 +37593,7 @@ _G.pg.base.item_data_statistics[41891] = {
 	is_world = 0,
 	icon = "SquareIcon/sitanli",
 	id = 41891,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36400,6 +37617,7 @@ _G.pg.base.item_data_statistics[41892] = {
 	is_world = 0,
 	icon = "SquareIcon/simoli",
 	id = 41892,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36423,6 +37641,7 @@ _G.pg.base.item_data_statistics[41893] = {
 	is_world = 0,
 	icon = "SquareIcon/haerxibaoweier",
 	id = 41893,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36446,6 +37665,7 @@ _G.pg.base.item_data_statistics[41894] = {
 	is_world = 0,
 	icon = "SquareIcon/hailunna_younv",
 	id = 41894,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36469,6 +37689,7 @@ _G.pg.base.item_data_statistics[41895] = {
 	is_world = 0,
 	icon = "SquareIcon/shenghuan",
 	id = 41895,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36492,6 +37713,7 @@ _G.pg.base.item_data_statistics[41896] = {
 	is_world = 0,
 	icon = "SquareIcon/shengdiyage_younv",
 	id = 41896,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36515,6 +37737,7 @@ _G.pg.base.item_data_statistics[41897] = {
 	is_world = 0,
 	icon = "SquareIcon/bominghan",
 	id = 41897,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36538,6 +37761,7 @@ _G.pg.base.item_data_statistics[41898] = {
 	is_world = 0,
 	icon = "SquareIcon/biluokexi",
 	id = 41898,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36561,6 +37785,7 @@ _G.pg.base.item_data_statistics[41899] = {
 	is_world = 0,
 	icon = "SquareIcon/kelifulan_younv",
 	id = 41899,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36584,6 +37809,7 @@ _G.pg.base.item_data_statistics[41900] = {
 	is_world = 0,
 	icon = "SquareIcon/kelifulan_idol",
 	id = 41900,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36607,6 +37833,7 @@ _G.pg.base.item_data_statistics[41901] = {
 	is_world = 0,
 	icon = "SquareIcon/baerdimo",
 	id = 41901,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36630,6 +37857,7 @@ _G.pg.base.item_data_statistics[41902] = {
 	is_world = 0,
 	icon = "SquareIcon/alabama",
 	id = 41902,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36653,6 +37881,7 @@ _G.pg.base.item_data_statistics[41903] = {
 	is_world = 0,
 	icon = "SquareIcon/bangkeshan",
 	id = 41903,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36676,6 +37905,7 @@ _G.pg.base.item_data_statistics[41904] = {
 	is_world = 0,
 	icon = "SquareIcon/duli",
 	id = 41904,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36699,6 +37929,7 @@ _G.pg.base.item_data_statistics[41905] = {
 	is_world = 0,
 	icon = "SquareIcon/badan",
 	id = 41905,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36722,6 +37953,7 @@ _G.pg.base.item_data_statistics[41906] = {
 	is_world = 0,
 	icon = "SquareIcon/xianggelila",
 	id = 41906,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36745,6 +37977,7 @@ _G.pg.base.item_data_statistics[41907] = {
 	is_world = 0,
 	icon = "SquareIcon/jiqi",
 	id = 41907,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36768,6 +38001,7 @@ _G.pg.base.item_data_statistics[41908] = {
 	is_world = 0,
 	icon = "SquareIcon/huisheng",
 	id = 41908,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36791,6 +38025,7 @@ _G.pg.base.item_data_statistics[41909] = {
 	is_world = 0,
 	icon = "SquareIcon/yonggan",
 	id = 41909,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36814,6 +38049,7 @@ _G.pg.base.item_data_statistics[41910] = {
 	is_world = 0,
 	icon = "SquareIcon/lieren",
 	id = 41910,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36837,6 +38073,7 @@ _G.pg.base.item_data_statistics[41911] = {
 	is_world = 0,
 	icon = "SquareIcon/nananpudun",
 	id = 41911,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36860,6 +38097,7 @@ _G.pg.base.item_data_statistics[41912] = {
 	is_world = 0,
 	icon = "SquareIcon/gelasige",
 	id = 41912,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36883,6 +38121,7 @@ _G.pg.base.item_data_statistics[41913] = {
 	is_world = 0,
 	icon = "SquareIcon/geluosite",
 	id = 41913,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36906,6 +38145,7 @@ _G.pg.base.item_data_statistics[41914] = {
 	is_world = 0,
 	icon = "SquareIcon/xiefeierde_idol",
 	id = 41914,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36929,6 +38169,7 @@ _G.pg.base.item_data_statistics[41915] = {
 	is_world = 0,
 	icon = "SquareIcon/daiduo",
 	id = 41915,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36952,6 +38193,7 @@ _G.pg.base.item_data_statistics[41916] = {
 	is_world = 0,
 	icon = "SquareIcon/heitaizi",
 	id = 41916,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36975,6 +38217,7 @@ _G.pg.base.item_data_statistics[41917] = {
 	is_world = 0,
 	icon = "SquareIcon/quejie",
 	id = 41917,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -36998,6 +38241,7 @@ _G.pg.base.item_data_statistics[41918] = {
 	is_world = 0,
 	icon = "SquareIcon/qiaozhiwushi",
 	id = 41918,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37021,6 +38265,7 @@ _G.pg.base.item_data_statistics[41919] = {
 	is_world = 0,
 	icon = "SquareIcon/kewei",
 	id = 41919,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37044,6 +38289,7 @@ _G.pg.base.item_data_statistics[41921] = {
 	is_world = 0,
 	icon = "SquareIcon/pubo",
 	id = 41921,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37067,6 +38313,7 @@ _G.pg.base.item_data_statistics[41922] = {
 	is_world = 0,
 	icon = "SquareIcon/xiang",
 	id = 41922,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37090,6 +38337,7 @@ _G.pg.base.item_data_statistics[41923] = {
 	is_world = 0,
 	icon = "SquareIcon/xia",
 	id = 41923,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37113,6 +38361,7 @@ _G.pg.base.item_data_statistics[41924] = {
 	is_world = 0,
 	icon = "SquareIcon/qingbo",
 	id = 41924,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37136,6 +38385,7 @@ _G.pg.base.item_data_statistics[41925] = {
 	is_world = 0,
 	icon = "SquareIcon/guinu",
 	id = 41925,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37159,6 +38409,7 @@ _G.pg.base.item_data_statistics[41926] = {
 	is_world = 0,
 	icon = "SquareIcon/linggu",
 	id = 41926,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37182,6 +38433,7 @@ _G.pg.base.item_data_statistics[41927] = {
 	is_world = 0,
 	icon = "SquareIcon/nengdai",
 	id = 41927,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37205,6 +38457,7 @@ _G.pg.base.item_data_statistics[41928] = {
 	is_world = 0,
 	icon = "SquareIcon/birui_younv",
 	id = 41928,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37228,6 +38481,7 @@ _G.pg.base.item_data_statistics[41929] = {
 	is_world = 0,
 	icon = "SquareIcon/junhe",
 	id = 41929,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37251,6 +38505,7 @@ _G.pg.base.item_data_statistics[41930] = {
 	is_world = 0,
 	icon = "SquareIcon/longfeng",
 	id = 41930,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37274,6 +38529,7 @@ _G.pg.base.item_data_statistics[41931] = {
 	is_world = 0,
 	icon = "SquareIcon/chicheng_younv",
 	id = 41931,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37297,6 +38553,7 @@ _G.pg.base.item_data_statistics[41932] = {
 	is_world = 0,
 	icon = "SquareIcon/chicheng_idol",
 	id = 41932,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37320,6 +38577,7 @@ _G.pg.base.item_data_statistics[41933] = {
 	is_world = 0,
 	icon = "SquareIcon/I25",
 	id = 41933,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37343,6 +38601,7 @@ _G.pg.base.item_data_statistics[41934] = {
 	is_world = 0,
 	icon = "SquareIcon/I56",
 	id = 41934,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37366,6 +38625,7 @@ _G.pg.base.item_data_statistics[41935] = {
 	is_world = 0,
 	icon = "SquareIcon/I168",
 	id = 41935,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37389,6 +38649,7 @@ _G.pg.base.item_data_statistics[41936] = {
 	is_world = 0,
 	icon = "SquareIcon/I13",
 	id = 41936,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37412,6 +38673,7 @@ _G.pg.base.item_data_statistics[41937] = {
 	is_world = 0,
 	icon = "SquareIcon/Z2",
 	id = 41937,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37435,6 +38697,7 @@ _G.pg.base.item_data_statistics[41938] = {
 	is_world = 0,
 	icon = "SquareIcon/Z36",
 	id = 41938,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37458,6 +38721,7 @@ _G.pg.base.item_data_statistics[41939] = {
 	is_world = 0,
 	icon = "SquareIcon/xipeier_idol",
 	id = 41939,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37481,6 +38745,7 @@ _G.pg.base.item_data_statistics[41940] = {
 	is_world = 0,
 	icon = "SquareIcon/bisimai",
 	id = 41940,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37504,6 +38769,7 @@ _G.pg.base.item_data_statistics[41941] = {
 	is_world = 0,
 	icon = "SquareIcon/qibolin_younv",
 	id = 41941,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37527,6 +38793,7 @@ _G.pg.base.item_data_statistics[41942] = {
 	is_world = 0,
 	icon = "SquareIcon/U73",
 	id = 41942,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37550,6 +38817,7 @@ _G.pg.base.item_data_statistics[41943] = {
 	is_world = 0,
 	icon = "SquareIcon/U101",
 	id = 41943,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37573,6 +38841,7 @@ _G.pg.base.item_data_statistics[41944] = {
 	is_world = 0,
 	icon = "SquareIcon/U110",
 	id = 41944,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37596,6 +38865,7 @@ _G.pg.base.item_data_statistics[41945] = {
 	is_world = 0,
 	icon = "SquareIcon/U522",
 	id = 41945,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37619,6 +38889,7 @@ _G.pg.base.item_data_statistics[41946] = {
 	is_world = 0,
 	icon = "SquareIcon/U556",
 	id = 41946,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37642,6 +38913,7 @@ _G.pg.base.item_data_statistics[41947] = {
 	is_world = 0,
 	icon = "SquareIcon/longqibing",
 	id = 41947,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37665,6 +38937,7 @@ _G.pg.base.item_data_statistics[41948] = {
 	is_world = 0,
 	icon = "SquareIcon/teluntuo",
 	id = 41948,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37688,6 +38961,7 @@ _G.pg.base.item_data_statistics[41949] = {
 	is_world = 0,
 	icon = "SquareIcon/zhala",
 	id = 41949,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37711,6 +38985,7 @@ _G.pg.base.item_data_statistics[41950] = {
 	is_world = 0,
 	icon = "SquareIcon/lituoliao",
 	id = 41950,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37734,6 +39009,7 @@ _G.pg.base.item_data_statistics[41951] = {
 	is_world = 0,
 	icon = "SquareIcon/jiafuerbojue",
 	id = 41951,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37757,6 +39033,7 @@ _G.pg.base.item_data_statistics[41952] = {
 	is_world = 0,
 	icon = "SquareIcon/kaisa",
 	id = 41952,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37780,6 +39057,7 @@ _G.pg.base.item_data_statistics[41953] = {
 	is_world = 0,
 	icon = "SquareIcon/juejiang",
 	id = 41953,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37803,6 +39081,7 @@ _G.pg.base.item_data_statistics[41954] = {
 	is_world = 0,
 	icon = "SquareIcon/edu",
 	id = 41954,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37826,6 +39105,7 @@ _G.pg.base.item_data_statistics[41955] = {
 	is_world = 0,
 	icon = "SquareIcon/jiasikenie_idol",
 	id = 41955,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37849,6 +39129,7 @@ _G.pg.base.item_data_statistics[41956] = {
 	is_world = 0,
 	icon = "SquareIcon/xiyatu",
 	id = 41956,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37872,6 +39153,7 @@ _G.pg.base.item_data_statistics[41957] = {
 	is_world = 0,
 	icon = "SquareIcon/zuozhiya",
 	id = 41957,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37895,6 +39177,7 @@ _G.pg.base.item_data_statistics[41958] = {
 	is_world = 0,
 	icon = "SquareIcon/beifeng",
 	id = 41958,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37918,6 +39201,7 @@ _G.pg.base.item_data_statistics[41959] = {
 	is_world = 0,
 	icon = "SquareIcon/wuqi",
 	id = 41959,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37941,6 +39225,7 @@ _G.pg.base.item_data_statistics[41960] = {
 	is_world = 0,
 	icon = "SquareIcon/feiteliedadi",
 	id = 41960,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37964,6 +39249,7 @@ _G.pg.base.item_data_statistics[41961] = {
 	is_world = 0,
 	icon = "SquareIcon/jiasikenie",
 	id = 41961,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -37987,6 +39273,7 @@ _G.pg.base.item_data_statistics[42000] = {
 	is_world = 0,
 	icon = "Props/42000",
 	id = 42000,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38041,6 +39328,7 @@ _G.pg.base.item_data_statistics[42001] = {
 	is_world = 0,
 	icon = "Props/42001",
 	id = 42001,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38067,6 +39355,7 @@ _G.pg.base.item_data_statistics[42002] = {
 	is_world = 0,
 	icon = "Props/42002",
 	id = 42002,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38093,6 +39382,7 @@ _G.pg.base.item_data_statistics[42003] = {
 	is_world = 0,
 	icon = "Props/42003",
 	id = 42003,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38119,6 +39409,7 @@ _G.pg.base.item_data_statistics[42004] = {
 	is_world = 0,
 	icon = "Props/42004",
 	id = 42004,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38145,6 +39436,7 @@ _G.pg.base.item_data_statistics[42005] = {
 	is_world = 0,
 	icon = "Props/42005",
 	id = 42005,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38171,6 +39463,7 @@ _G.pg.base.item_data_statistics[42006] = {
 	is_world = 0,
 	icon = "Props/42006",
 	id = 42006,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38197,6 +39490,7 @@ _G.pg.base.item_data_statistics[42010] = {
 	is_world = 0,
 	icon = "Props/42010",
 	id = 42010,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38271,6 +39565,7 @@ _G.pg.base.item_data_statistics[42011] = {
 	is_world = 0,
 	icon = "Props/42011",
 	id = 42011,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38297,6 +39592,7 @@ _G.pg.base.item_data_statistics[42012] = {
 	is_world = 0,
 	icon = "Props/42012",
 	id = 42012,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38323,6 +39619,7 @@ _G.pg.base.item_data_statistics[42013] = {
 	is_world = 0,
 	icon = "Props/42013",
 	id = 42013,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38349,6 +39646,7 @@ _G.pg.base.item_data_statistics[42014] = {
 	is_world = 0,
 	icon = "Props/42014",
 	id = 42014,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38375,6 +39673,7 @@ _G.pg.base.item_data_statistics[42015] = {
 	is_world = 0,
 	icon = "Props/42015",
 	id = 42015,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38401,6 +39700,7 @@ _G.pg.base.item_data_statistics[42016] = {
 	is_world = 0,
 	icon = "Props/42016",
 	id = 42016,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38427,6 +39727,7 @@ _G.pg.base.item_data_statistics[42017] = {
 	is_world = 0,
 	icon = "Props/42017",
 	id = 42017,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38461,6 +39762,7 @@ _G.pg.base.item_data_statistics[42020] = {
 	is_world = 0,
 	icon = "Props/42020",
 	id = 42020,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38555,6 +39857,7 @@ _G.pg.base.item_data_statistics[42021] = {
 	is_world = 0,
 	icon = "Props/42021",
 	id = 42021,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38581,6 +39884,7 @@ _G.pg.base.item_data_statistics[42022] = {
 	is_world = 0,
 	icon = "Props/42022",
 	id = 42022,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38607,6 +39911,7 @@ _G.pg.base.item_data_statistics[42023] = {
 	is_world = 0,
 	icon = "Props/42023",
 	id = 42023,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38633,6 +39938,7 @@ _G.pg.base.item_data_statistics[42024] = {
 	is_world = 0,
 	icon = "Props/42024",
 	id = 42024,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38659,6 +39965,7 @@ _G.pg.base.item_data_statistics[42025] = {
 	is_world = 0,
 	icon = "Props/42025",
 	id = 42025,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38685,6 +39992,7 @@ _G.pg.base.item_data_statistics[42026] = {
 	is_world = 0,
 	icon = "Props/42026",
 	id = 42026,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38724,6 +40032,7 @@ _G.pg.base.item_data_statistics[42030] = {
 	is_world = 0,
 	icon = "Props/42030",
 	id = 42030,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -38833,6 +40142,7 @@ _G.pg.base.item_data_statistics[42031] = {
 	is_world = 0,
 	icon = "Props/42031",
 	id = 42031,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38859,6 +40169,7 @@ _G.pg.base.item_data_statistics[42032] = {
 	is_world = 0,
 	icon = "Props/42032",
 	id = 42032,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38885,6 +40196,7 @@ _G.pg.base.item_data_statistics[42033] = {
 	is_world = 0,
 	icon = "Props/42033",
 	id = 42033,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38911,6 +40223,7 @@ _G.pg.base.item_data_statistics[42034] = {
 	is_world = 0,
 	icon = "Props/42034",
 	id = 42034,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38937,6 +40250,7 @@ _G.pg.base.item_data_statistics[42035] = {
 	is_world = 0,
 	icon = "Props/42035",
 	id = 42035,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -38963,6 +40277,7 @@ _G.pg.base.item_data_statistics[42036] = {
 	is_world = 0,
 	icon = "Props/42036",
 	id = 42036,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39012,6 +40327,7 @@ _G.pg.base.item_data_statistics[42040] = {
 	is_world = 0,
 	icon = "Props/42040",
 	id = 42040,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39136,6 +40452,7 @@ _G.pg.base.item_data_statistics[42041] = {
 	is_world = 0,
 	icon = "Props/42041",
 	id = 42041,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -39162,6 +40479,7 @@ _G.pg.base.item_data_statistics[42042] = {
 	is_world = 0,
 	icon = "Props/42042",
 	id = 42042,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -39188,6 +40506,7 @@ _G.pg.base.item_data_statistics[42043] = {
 	is_world = 0,
 	icon = "Props/42043",
 	id = 42043,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -39214,6 +40533,7 @@ _G.pg.base.item_data_statistics[42044] = {
 	is_world = 0,
 	icon = "Props/42044",
 	id = 42044,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -39240,6 +40560,7 @@ _G.pg.base.item_data_statistics[42045] = {
 	is_world = 0,
 	icon = "Props/42045",
 	id = 42045,
+	order = 0,
 	display_icon = {},
 	price = {
 		9,
@@ -39266,6 +40587,7 @@ _G.pg.base.item_data_statistics[42046] = {
 	is_world = 0,
 	icon = "Props/42046",
 	id = 42046,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39312,20 +40634,21 @@ _G.pg.base.item_data_statistics[42046] = {
 _G.pg.base.item_data_statistics[44001] = {
 	display = "$1贈送的情人節禮物",
 	name = "情人節禮物",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 23,
-	time_limit = 0,
-	rarity = 8,
+	virtual_type = 0,
+	id = 44001,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/manhanquanxi ",
 	price = "",
-	id = 44001,
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -39348,6 +40671,7 @@ _G.pg.base.item_data_statistics[50001] = {
 	is_world = 0,
 	icon = "Props/suansukele",
 	id = 50001,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39374,6 +40698,7 @@ _G.pg.base.item_data_statistics[50002] = {
 	is_world = 0,
 	icon = "Props/mizhilengqueshui",
 	id = 50002,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39400,6 +40725,7 @@ _G.pg.base.item_data_statistics[50003] = {
 	is_world = 0,
 	icon = "Props/yuleitianfuluo",
 	id = 50003,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39426,6 +40752,7 @@ _G.pg.base.item_data_statistics[50004] = {
 	is_world = 0,
 	icon = "Props/haijungali",
 	id = 50004,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39452,6 +40779,7 @@ _G.pg.base.item_data_statistics[50005] = {
 	is_world = 0,
 	icon = "Props/huangjialiaoli",
 	id = 50005,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39478,6 +40806,7 @@ _G.pg.base.item_data_statistics[50006] = {
 	is_world = 0,
 	icon = "Props/manhanquanxi",
 	id = 50006,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -39504,6 +40833,7 @@ _G.pg.base.item_data_statistics[51001] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39538,6 +40868,7 @@ _G.pg.base.item_data_statistics[51002] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39572,6 +40903,7 @@ _G.pg.base.item_data_statistics[51003] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39606,6 +40938,7 @@ _G.pg.base.item_data_statistics[51004] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51004,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39640,6 +40973,7 @@ _G.pg.base.item_data_statistics[51005] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51005,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39674,6 +41008,7 @@ _G.pg.base.item_data_statistics[51006] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51006,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39708,6 +41043,7 @@ _G.pg.base.item_data_statistics[51007] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51007,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39742,6 +41078,7 @@ _G.pg.base.item_data_statistics[51008] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51008,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39776,6 +41113,7 @@ _G.pg.base.item_data_statistics[51009] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51009,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39810,6 +41148,7 @@ _G.pg.base.item_data_statistics[51010] = {
 	is_world = 0,
 	icon = "Props/51001",
 	id = 51010,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39844,6 +41183,7 @@ _G.pg.base.item_data_statistics[52001] = {
 	is_world = 0,
 	icon = "Props/52001",
 	id = 52001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39898,6 +41238,7 @@ _G.pg.base.item_data_statistics[52002] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -39977,6 +41318,7 @@ _G.pg.base.item_data_statistics[52003] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40126,6 +41468,7 @@ _G.pg.base.item_data_statistics[52004] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -40149,6 +41492,7 @@ _G.pg.base.item_data_statistics[52011] = {
 	is_world = 0,
 	icon = "Props/52001",
 	id = 52011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40203,6 +41547,7 @@ _G.pg.base.item_data_statistics[52012] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52012,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40282,6 +41627,7 @@ _G.pg.base.item_data_statistics[52021] = {
 	is_world = 0,
 	icon = "Props/52001",
 	id = 52021,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40331,6 +41677,7 @@ _G.pg.base.item_data_statistics[52022] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52022,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40410,6 +41757,7 @@ _G.pg.base.item_data_statistics[52031] = {
 	is_world = 0,
 	icon = "Props/52001",
 	id = 52031,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40459,6 +41807,7 @@ _G.pg.base.item_data_statistics[52032] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52032,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40538,6 +41887,7 @@ _G.pg.base.item_data_statistics[52033] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52033,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40687,6 +42037,7 @@ _G.pg.base.item_data_statistics[52040] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52040,
+	order = 0,
 	display_icon = {
 		{
 			21,
@@ -40771,6 +42122,7 @@ _G.pg.base.item_data_statistics[52041] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52041,
+	order = 0,
 	display_icon = {
 		{
 			21,
@@ -40915,6 +42267,7 @@ _G.pg.base.item_data_statistics[52050] = {
 	is_world = 0,
 	icon = "Props/15020",
 	id = 52050,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40949,6 +42302,7 @@ _G.pg.base.item_data_statistics[52051] = {
 	is_world = 0,
 	icon = "Props/15016",
 	id = 52051,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -40988,6 +42342,7 @@ _G.pg.base.item_data_statistics[52061] = {
 	is_world = 0,
 	icon = "Props/52001",
 	id = 52061,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -41037,6 +42392,7 @@ _G.pg.base.item_data_statistics[52062] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 52062,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -41116,6 +42472,7 @@ _G.pg.base.item_data_statistics[53000] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53000,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41180,6 +42537,7 @@ _G.pg.base.item_data_statistics[53010] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53010,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41244,6 +42602,7 @@ _G.pg.base.item_data_statistics[53011] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53011,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41308,6 +42667,7 @@ _G.pg.base.item_data_statistics[53020] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53020,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41392,6 +42752,7 @@ _G.pg.base.item_data_statistics[53021] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53021,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41476,6 +42837,7 @@ _G.pg.base.item_data_statistics[53022] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53022,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41560,6 +42922,7 @@ _G.pg.base.item_data_statistics[53030] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53030,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41644,6 +43007,7 @@ _G.pg.base.item_data_statistics[53031] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53031,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41728,6 +43092,7 @@ _G.pg.base.item_data_statistics[53032] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53032,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41812,6 +43177,7 @@ _G.pg.base.item_data_statistics[53033] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53033,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -41896,6 +43262,7 @@ _G.pg.base.item_data_statistics[53040] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53040,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42035,6 +43402,7 @@ _G.pg.base.item_data_statistics[53041] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53041,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42174,6 +43542,7 @@ _G.pg.base.item_data_statistics[53042] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53042,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42313,6 +43682,7 @@ _G.pg.base.item_data_statistics[53043] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53043,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42452,6 +43822,7 @@ _G.pg.base.item_data_statistics[53044] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53044,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42581,6 +43952,7 @@ _G.pg.base.item_data_statistics[53050] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53050,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42710,6 +44082,7 @@ _G.pg.base.item_data_statistics[53051] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53051,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42839,6 +44212,7 @@ _G.pg.base.item_data_statistics[53052] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53052,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -42968,6 +44342,7 @@ _G.pg.base.item_data_statistics[53053] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53053,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43097,6 +44472,7 @@ _G.pg.base.item_data_statistics[53054] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53054,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43226,6 +44602,7 @@ _G.pg.base.item_data_statistics[53055] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53055,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43355,6 +44732,7 @@ _G.pg.base.item_data_statistics[53060] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53060,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43494,6 +44872,7 @@ _G.pg.base.item_data_statistics[53061] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53061,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43633,6 +45012,7 @@ _G.pg.base.item_data_statistics[53062] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53062,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43772,6 +45152,7 @@ _G.pg.base.item_data_statistics[53063] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53063,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -43911,6 +45292,7 @@ _G.pg.base.item_data_statistics[53064] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53064,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44050,6 +45432,7 @@ _G.pg.base.item_data_statistics[53065] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53065,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44189,6 +45572,7 @@ _G.pg.base.item_data_statistics[53066] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53066,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44328,6 +45712,7 @@ _G.pg.base.item_data_statistics[53070] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53070,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44482,6 +45867,7 @@ _G.pg.base.item_data_statistics[53071] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53071,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44636,6 +46022,7 @@ _G.pg.base.item_data_statistics[53072] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53072,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44790,6 +46177,7 @@ _G.pg.base.item_data_statistics[53073] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53073,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -44944,6 +46332,7 @@ _G.pg.base.item_data_statistics[53074] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53074,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -45098,6 +46487,7 @@ _G.pg.base.item_data_statistics[53075] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53075,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -45252,6 +46642,7 @@ _G.pg.base.item_data_statistics[53076] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53076,
+	order = 0,
 	display_icon = {
 		{
 			3,
@@ -45406,6 +46797,7 @@ _G.pg.base.item_data_statistics[53077] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53077,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45510,6 +46902,7 @@ _G.pg.base.item_data_statistics[53080] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53080,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45559,6 +46952,7 @@ _G.pg.base.item_data_statistics[53081] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53081,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45608,6 +47002,7 @@ _G.pg.base.item_data_statistics[53082] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53082,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45657,6 +47052,7 @@ _G.pg.base.item_data_statistics[53083] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53083,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45706,6 +47102,7 @@ _G.pg.base.item_data_statistics[53084] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53084,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45755,6 +47152,7 @@ _G.pg.base.item_data_statistics[53085] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53085,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45804,6 +47202,7 @@ _G.pg.base.item_data_statistics[53086] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53086,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45853,6 +47252,7 @@ _G.pg.base.item_data_statistics[53087] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53087,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45902,6 +47302,7 @@ _G.pg.base.item_data_statistics[53088] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53088,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -45951,6 +47352,7 @@ _G.pg.base.item_data_statistics[53090] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53090,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46000,6 +47402,7 @@ _G.pg.base.item_data_statistics[53091] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53091,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46049,6 +47452,7 @@ _G.pg.base.item_data_statistics[53092] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53092,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46098,6 +47502,7 @@ _G.pg.base.item_data_statistics[53093] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53093,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46147,6 +47552,7 @@ _G.pg.base.item_data_statistics[53094] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53094,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46196,6 +47602,7 @@ _G.pg.base.item_data_statistics[53095] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53095,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46245,6 +47652,7 @@ _G.pg.base.item_data_statistics[53096] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53096,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46294,6 +47702,7 @@ _G.pg.base.item_data_statistics[53097] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53097,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46343,6 +47752,7 @@ _G.pg.base.item_data_statistics[53098] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53098,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46392,6 +47802,7 @@ _G.pg.base.item_data_statistics[53099] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53099,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46441,6 +47852,7 @@ _G.pg.base.item_data_statistics[53990] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53990,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46520,6 +47932,7 @@ _G.pg.base.item_data_statistics[53991] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53991,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46654,6 +48067,7 @@ _G.pg.base.item_data_statistics[53992] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 53992,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46753,6 +48167,7 @@ _G.pg.base.item_data_statistics[53993] = {
 	is_world = 0,
 	icon = "Props/54011",
 	id = 53993,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46787,6 +48202,7 @@ _G.pg.base.item_data_statistics[53994] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 53994,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46831,6 +48247,7 @@ _G.pg.base.item_data_statistics[53995] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 53995,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46885,6 +48302,7 @@ _G.pg.base.item_data_statistics[54001] = {
 	is_world = 0,
 	icon = "Props/54001",
 	id = 54001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46924,6 +48342,7 @@ _G.pg.base.item_data_statistics[54002] = {
 	is_world = 0,
 	icon = "Props/54002",
 	id = 54002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -46978,6 +48397,7 @@ _G.pg.base.item_data_statistics[54003] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 54003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47047,6 +48467,7 @@ _G.pg.base.item_data_statistics[54004] = {
 	is_world = 0,
 	icon = "Props/54001",
 	id = 54004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -47070,6 +48491,7 @@ _G.pg.base.item_data_statistics[54005] = {
 	is_world = 0,
 	icon = "Props/54002",
 	id = 54005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -47093,6 +48515,7 @@ _G.pg.base.item_data_statistics[54006] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 54006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -47116,6 +48539,7 @@ _G.pg.base.item_data_statistics[54007] = {
 	is_world = 0,
 	icon = "Props/54004",
 	id = 54007,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -47139,6 +48563,7 @@ _G.pg.base.item_data_statistics[54011] = {
 	is_world = 0,
 	icon = "Props/54011",
 	id = 54011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47188,6 +48613,7 @@ _G.pg.base.item_data_statistics[54012] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 54012,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47262,6 +48688,7 @@ _G.pg.base.item_data_statistics[54013] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 54013,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47361,6 +48788,7 @@ _G.pg.base.item_data_statistics[54014] = {
 	is_world = 0,
 	icon = "Props/54011",
 	id = 54014,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47410,6 +48838,7 @@ _G.pg.base.item_data_statistics[54015] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 54015,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47459,6 +48888,7 @@ _G.pg.base.item_data_statistics[54016] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 54016,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47508,6 +48938,7 @@ _G.pg.base.item_data_statistics[54017] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 54017,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47582,6 +49013,7 @@ _G.pg.base.item_data_statistics[54018] = {
 	is_world = 0,
 	icon = "Props/54014",
 	id = 54018,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47631,6 +49063,7 @@ _G.pg.base.item_data_statistics[54021] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 54021,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47678,6 +49111,7 @@ _G.pg.base.item_data_statistics[54022] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 54022,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47745,6 +49179,7 @@ _G.pg.base.item_data_statistics[54023] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 54023,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47832,6 +49267,7 @@ _G.pg.base.item_data_statistics[54024] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 54024,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -47939,6 +49375,7 @@ _G.pg.base.item_data_statistics[54025] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 54025,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48066,6 +49503,7 @@ _G.pg.base.item_data_statistics[54031] = {
 	is_world = 0,
 	icon = "Props/30001",
 	id = 54031,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48092,6 +49530,7 @@ _G.pg.base.item_data_statistics[54032] = {
 	is_world = 0,
 	icon = "Props/30002",
 	id = 54032,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48118,6 +49557,7 @@ _G.pg.base.item_data_statistics[54033] = {
 	is_world = 0,
 	icon = "Props/30003",
 	id = 54033,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48144,6 +49584,7 @@ _G.pg.base.item_data_statistics[54034] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 54034,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48170,6 +49611,7 @@ _G.pg.base.item_data_statistics[54035] = {
 	is_world = 0,
 	icon = "Props/30005",
 	id = 54035,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48196,6 +49638,7 @@ _G.pg.base.item_data_statistics[54039] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 54039,
+	order = 0,
 	display_icon = {},
 	price = {
 		1,
@@ -48222,6 +49665,7 @@ _G.pg.base.item_data_statistics[54041] = {
 	is_world = 0,
 	icon = "Props/18002",
 	id = 54041,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48256,6 +49700,7 @@ _G.pg.base.item_data_statistics[54042] = {
 	is_world = 0,
 	icon = "Props/18012",
 	id = 54042,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48290,6 +49735,7 @@ _G.pg.base.item_data_statistics[54043] = {
 	is_world = 0,
 	icon = "Props/18022",
 	id = 54043,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48324,6 +49770,7 @@ _G.pg.base.item_data_statistics[54044] = {
 	is_world = 0,
 	icon = "Props/18032",
 	id = 54044,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48358,6 +49805,7 @@ _G.pg.base.item_data_statistics[54045] = {
 	is_world = 0,
 	icon = "Props/18003",
 	id = 54045,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48397,6 +49845,7 @@ _G.pg.base.item_data_statistics[54046] = {
 	is_world = 0,
 	icon = "Props/18013",
 	id = 54046,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48436,6 +49885,7 @@ _G.pg.base.item_data_statistics[54047] = {
 	is_world = 0,
 	icon = "Props/18023",
 	id = 54047,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48475,6 +49925,7 @@ _G.pg.base.item_data_statistics[54048] = {
 	is_world = 0,
 	icon = "Props/18033",
 	id = 54048,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48514,6 +49965,7 @@ _G.pg.base.item_data_statistics[54049] = {
 	is_world = 0,
 	icon = "Props/54031",
 	id = 54049,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48537,6 +49989,7 @@ _G.pg.base.item_data_statistics[54050] = {
 	is_world = 0,
 	icon = "Props/54032",
 	id = 54050,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48560,6 +50013,7 @@ _G.pg.base.item_data_statistics[54051] = {
 	is_world = 0,
 	icon = "Props/54033",
 	id = 54051,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48583,6 +50037,7 @@ _G.pg.base.item_data_statistics[54100] = {
 	is_world = 0,
 	icon = "Props/54014",
 	id = 54100,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48617,6 +50072,7 @@ _G.pg.base.item_data_statistics[54101] = {
 	is_world = 0,
 	icon = "Props/54014",
 	id = 54101,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48656,6 +50112,7 @@ _G.pg.base.item_data_statistics[54102] = {
 	is_world = 0,
 	icon = "Props/54014",
 	id = 54102,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48695,6 +50152,7 @@ _G.pg.base.item_data_statistics[54103] = {
 	is_world = 0,
 	icon = "Props/54011",
 	id = 54103,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48734,6 +50192,7 @@ _G.pg.base.item_data_statistics[54104] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 54104,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48773,6 +50232,7 @@ _G.pg.base.item_data_statistics[54105] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 54105,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48812,6 +50272,7 @@ _G.pg.base.item_data_statistics[54106] = {
 	is_world = 0,
 	icon = "Props/54011",
 	id = 54106,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48851,6 +50312,7 @@ _G.pg.base.item_data_statistics[54107] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 54107,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48890,6 +50352,7 @@ _G.pg.base.item_data_statistics[54108] = {
 	is_world = 0,
 	icon = "Props/54013",
 	id = 54108,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -48929,6 +50392,7 @@ _G.pg.base.item_data_statistics[55001] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48952,6 +50416,7 @@ _G.pg.base.item_data_statistics[55002] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48975,6 +50440,7 @@ _G.pg.base.item_data_statistics[55003] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -48998,6 +50464,7 @@ _G.pg.base.item_data_statistics[55004] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55004,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49047,6 +50514,7 @@ _G.pg.base.item_data_statistics[55005] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55005,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49096,6 +50564,7 @@ _G.pg.base.item_data_statistics[55006] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55006,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49145,6 +50614,7 @@ _G.pg.base.item_data_statistics[55007] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55007,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49194,6 +50664,7 @@ _G.pg.base.item_data_statistics[55008] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55008,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49248,6 +50719,7 @@ _G.pg.base.item_data_statistics[55009] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55009,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49297,6 +50769,7 @@ _G.pg.base.item_data_statistics[55010] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55010,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49346,6 +50819,7 @@ _G.pg.base.item_data_statistics[55011] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49395,6 +50869,7 @@ _G.pg.base.item_data_statistics[55012] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55012,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49444,6 +50919,7 @@ _G.pg.base.item_data_statistics[55013] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55013,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49493,6 +50969,7 @@ _G.pg.base.item_data_statistics[55014] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55014,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49542,6 +51019,7 @@ _G.pg.base.item_data_statistics[55015] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55015,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49591,6 +51069,7 @@ _G.pg.base.item_data_statistics[55016] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55016,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49640,6 +51119,7 @@ _G.pg.base.item_data_statistics[55017] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55017,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49689,6 +51169,7 @@ _G.pg.base.item_data_statistics[55018] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55018,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49738,6 +51219,7 @@ _G.pg.base.item_data_statistics[55019] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55019,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49787,6 +51269,7 @@ _G.pg.base.item_data_statistics[55020] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55020,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49836,6 +51319,7 @@ _G.pg.base.item_data_statistics[55021] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55021,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49885,6 +51369,7 @@ _G.pg.base.item_data_statistics[55022] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55022,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49934,6 +51419,7 @@ _G.pg.base.item_data_statistics[55023] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55023,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -49983,6 +51469,7 @@ _G.pg.base.item_data_statistics[55024] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55024,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50032,6 +51519,7 @@ _G.pg.base.item_data_statistics[55025] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55025,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50081,6 +51569,7 @@ _G.pg.base.item_data_statistics[55026] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55026,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50135,6 +51624,7 @@ _G.pg.base.item_data_statistics[55027] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55027,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50184,6 +51674,7 @@ _G.pg.base.item_data_statistics[55028] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55028,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50233,6 +51724,7 @@ _G.pg.base.item_data_statistics[55029] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55029,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50282,6 +51774,7 @@ _G.pg.base.item_data_statistics[55030] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55030,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50331,6 +51824,7 @@ _G.pg.base.item_data_statistics[55031] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55031,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50380,6 +51874,7 @@ _G.pg.base.item_data_statistics[55032] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55032,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50429,6 +51924,7 @@ _G.pg.base.item_data_statistics[55033] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55033,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50478,6 +51974,7 @@ _G.pg.base.item_data_statistics[55034] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55034,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50527,6 +52024,7 @@ _G.pg.base.item_data_statistics[55035] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55035,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50576,6 +52074,7 @@ _G.pg.base.item_data_statistics[55036] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55036,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50625,6 +52124,7 @@ _G.pg.base.item_data_statistics[55037] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55037,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50674,6 +52174,7 @@ _G.pg.base.item_data_statistics[55038] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55038,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50723,6 +52224,7 @@ _G.pg.base.item_data_statistics[55039] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55039,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50772,6 +52274,7 @@ _G.pg.base.item_data_statistics[55040] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55040,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50821,6 +52324,7 @@ _G.pg.base.item_data_statistics[55041] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55041,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50870,6 +52374,7 @@ _G.pg.base.item_data_statistics[55042] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55042,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50919,6 +52424,7 @@ _G.pg.base.item_data_statistics[55043] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55043,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -50968,6 +52474,7 @@ _G.pg.base.item_data_statistics[55044] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55044,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51017,6 +52524,7 @@ _G.pg.base.item_data_statistics[55045] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55045,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51066,6 +52574,7 @@ _G.pg.base.item_data_statistics[55046] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55046,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51115,6 +52624,7 @@ _G.pg.base.item_data_statistics[55047] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55047,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51164,6 +52674,7 @@ _G.pg.base.item_data_statistics[55048] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55048,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51213,6 +52724,7 @@ _G.pg.base.item_data_statistics[55049] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55049,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51262,6 +52774,7 @@ _G.pg.base.item_data_statistics[55050] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55050,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51311,6 +52824,7 @@ _G.pg.base.item_data_statistics[55051] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55051,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51360,6 +52874,7 @@ _G.pg.base.item_data_statistics[55052] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55052,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51409,6 +52924,7 @@ _G.pg.base.item_data_statistics[55053] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55053,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51458,6 +52974,7 @@ _G.pg.base.item_data_statistics[55054] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55054,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51507,6 +53024,7 @@ _G.pg.base.item_data_statistics[55055] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55055,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51556,6 +53074,7 @@ _G.pg.base.item_data_statistics[55056] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55056,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51605,6 +53124,7 @@ _G.pg.base.item_data_statistics[55501] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55501,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -51628,6 +53148,7 @@ _G.pg.base.item_data_statistics[55502] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55502,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -51651,6 +53172,7 @@ _G.pg.base.item_data_statistics[55503] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55503,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -51674,6 +53196,7 @@ _G.pg.base.item_data_statistics[55504] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55504,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51723,6 +53246,7 @@ _G.pg.base.item_data_statistics[55505] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55505,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51772,6 +53296,7 @@ _G.pg.base.item_data_statistics[55506] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55506,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51821,6 +53346,7 @@ _G.pg.base.item_data_statistics[55507] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55507,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51870,6 +53396,7 @@ _G.pg.base.item_data_statistics[55508] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55508,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51919,6 +53446,7 @@ _G.pg.base.item_data_statistics[55509] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55509,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -51968,6 +53496,7 @@ _G.pg.base.item_data_statistics[55510] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55510,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52017,6 +53546,7 @@ _G.pg.base.item_data_statistics[55511] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55511,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52066,6 +53596,7 @@ _G.pg.base.item_data_statistics[55512] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55512,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52115,6 +53646,7 @@ _G.pg.base.item_data_statistics[55513] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55513,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52164,6 +53696,7 @@ _G.pg.base.item_data_statistics[55514] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55514,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52213,6 +53746,7 @@ _G.pg.base.item_data_statistics[55515] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55515,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52262,6 +53796,7 @@ _G.pg.base.item_data_statistics[55516] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55516,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52311,6 +53846,7 @@ _G.pg.base.item_data_statistics[55517] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55517,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52355,6 +53891,7 @@ _G.pg.base.item_data_statistics[55518] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55518,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52399,6 +53936,7 @@ _G.pg.base.item_data_statistics[55519] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55519,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52443,6 +53981,7 @@ _G.pg.base.item_data_statistics[55520] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55520,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52487,6 +54026,7 @@ _G.pg.base.item_data_statistics[55521] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55521,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52531,6 +54071,7 @@ _G.pg.base.item_data_statistics[55522] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55522,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52575,6 +54116,7 @@ _G.pg.base.item_data_statistics[55523] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55523,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52619,6 +54161,7 @@ _G.pg.base.item_data_statistics[55524] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55524,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52663,6 +54206,7 @@ _G.pg.base.item_data_statistics[55525] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55525,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52707,6 +54251,7 @@ _G.pg.base.item_data_statistics[55526] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55526,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52756,6 +54301,7 @@ _G.pg.base.item_data_statistics[55527] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55527,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52800,6 +54346,7 @@ _G.pg.base.item_data_statistics[55528] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55528,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52844,6 +54391,7 @@ _G.pg.base.item_data_statistics[55529] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55529,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52888,6 +54436,7 @@ _G.pg.base.item_data_statistics[55530] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55530,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52932,6 +54481,7 @@ _G.pg.base.item_data_statistics[55531] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55531,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -52976,6 +54526,7 @@ _G.pg.base.item_data_statistics[55532] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55532,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53020,6 +54571,7 @@ _G.pg.base.item_data_statistics[55533] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55533,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53064,6 +54616,7 @@ _G.pg.base.item_data_statistics[55534] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55534,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53108,6 +54661,7 @@ _G.pg.base.item_data_statistics[55535] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55535,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53152,6 +54706,7 @@ _G.pg.base.item_data_statistics[55536] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55536,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53196,6 +54751,7 @@ _G.pg.base.item_data_statistics[55537] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55537,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53240,6 +54796,7 @@ _G.pg.base.item_data_statistics[55538] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55538,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53284,6 +54841,7 @@ _G.pg.base.item_data_statistics[55539] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55539,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53328,6 +54886,7 @@ _G.pg.base.item_data_statistics[55540] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55540,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53372,6 +54931,7 @@ _G.pg.base.item_data_statistics[55541] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55541,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53416,6 +54976,7 @@ _G.pg.base.item_data_statistics[55542] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55542,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53460,6 +55021,7 @@ _G.pg.base.item_data_statistics[55543] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55543,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53504,6 +55066,7 @@ _G.pg.base.item_data_statistics[55544] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55544,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53548,6 +55111,7 @@ _G.pg.base.item_data_statistics[55545] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55545,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53592,6 +55156,7 @@ _G.pg.base.item_data_statistics[55546] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55546,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53636,6 +55201,7 @@ _G.pg.base.item_data_statistics[55547] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55547,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53680,6 +55246,7 @@ _G.pg.base.item_data_statistics[55548] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55548,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53724,6 +55291,7 @@ _G.pg.base.item_data_statistics[55549] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55549,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53768,6 +55336,7 @@ _G.pg.base.item_data_statistics[55550] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55550,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53812,6 +55381,7 @@ _G.pg.base.item_data_statistics[55551] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55551,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53856,6 +55426,7 @@ _G.pg.base.item_data_statistics[55552] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55552,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53900,6 +55471,7 @@ _G.pg.base.item_data_statistics[55553] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55553,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53944,6 +55516,7 @@ _G.pg.base.item_data_statistics[55554] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55554,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -53988,6 +55561,7 @@ _G.pg.base.item_data_statistics[55555] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55555,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -54032,6 +55606,7 @@ _G.pg.base.item_data_statistics[55556] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 55556,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -54076,6 +55651,7 @@ _G.pg.base.item_data_statistics[56000] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -54099,6 +55675,7 @@ _G.pg.base.item_data_statistics[56001] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56001,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54148,6 +55725,7 @@ _G.pg.base.item_data_statistics[56002] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56002,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54217,6 +55795,7 @@ _G.pg.base.item_data_statistics[56003] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56003,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54296,6 +55875,7 @@ _G.pg.base.item_data_statistics[56004] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56004,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54405,6 +55985,7 @@ _G.pg.base.item_data_statistics[56005] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56005,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54534,6 +56115,7 @@ _G.pg.base.item_data_statistics[56006] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56006,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54673,6 +56255,7 @@ _G.pg.base.item_data_statistics[56007] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56007,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54817,6 +56400,7 @@ _G.pg.base.item_data_statistics[56008] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56008,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -54966,6 +56550,7 @@ _G.pg.base.item_data_statistics[56009] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56009,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55120,6 +56705,7 @@ _G.pg.base.item_data_statistics[56010] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56010,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55274,6 +56860,7 @@ _G.pg.base.item_data_statistics[56011] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56011,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55428,6 +57015,7 @@ _G.pg.base.item_data_statistics[56012] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56012,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55587,6 +57175,7 @@ _G.pg.base.item_data_statistics[56013] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56013,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55736,6 +57325,7 @@ _G.pg.base.item_data_statistics[56014] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56014,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -55885,6 +57475,7 @@ _G.pg.base.item_data_statistics[56015] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56015,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56034,6 +57625,7 @@ _G.pg.base.item_data_statistics[56016] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56016,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56188,6 +57780,7 @@ _G.pg.base.item_data_statistics[56017] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56017,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56342,6 +57935,7 @@ _G.pg.base.item_data_statistics[56018] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56018,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56491,6 +58085,7 @@ _G.pg.base.item_data_statistics[56019] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56019,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56640,6 +58235,7 @@ _G.pg.base.item_data_statistics[56020] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56020,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56794,6 +58390,7 @@ _G.pg.base.item_data_statistics[56021] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56021,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -56943,6 +58540,7 @@ _G.pg.base.item_data_statistics[56022] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56022,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57092,6 +58690,7 @@ _G.pg.base.item_data_statistics[56023] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56023,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57241,6 +58840,7 @@ _G.pg.base.item_data_statistics[56024] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56024,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57400,6 +59000,7 @@ _G.pg.base.item_data_statistics[56025] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56025,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57549,6 +59150,7 @@ _G.pg.base.item_data_statistics[56026] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56026,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57698,6 +59300,7 @@ _G.pg.base.item_data_statistics[56027] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56027,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -57852,6 +59455,7 @@ _G.pg.base.item_data_statistics[56028] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56028,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58006,6 +59610,7 @@ _G.pg.base.item_data_statistics[56029] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56029,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58160,6 +59765,7 @@ _G.pg.base.item_data_statistics[56030] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56030,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58314,6 +59920,7 @@ _G.pg.base.item_data_statistics[56031] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56031,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58463,6 +60070,7 @@ _G.pg.base.item_data_statistics[56032] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56032,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58622,6 +60230,7 @@ _G.pg.base.item_data_statistics[56033] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56033,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58771,6 +60380,7 @@ _G.pg.base.item_data_statistics[56034] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56034,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -58920,6 +60530,7 @@ _G.pg.base.item_data_statistics[56035] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56035,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59074,6 +60685,7 @@ _G.pg.base.item_data_statistics[56036] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56036,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59228,6 +60840,7 @@ _G.pg.base.item_data_statistics[56037] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56037,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59377,6 +60990,7 @@ _G.pg.base.item_data_statistics[56038] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56038,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59526,6 +61140,7 @@ _G.pg.base.item_data_statistics[56039] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56039,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59680,6 +61295,7 @@ _G.pg.base.item_data_statistics[56040] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56040,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59834,6 +61450,7 @@ _G.pg.base.item_data_statistics[56041] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56041,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -59983,6 +61600,7 @@ _G.pg.base.item_data_statistics[56042] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56042,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60137,6 +61755,7 @@ _G.pg.base.item_data_statistics[56043] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56043,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60286,6 +61905,7 @@ _G.pg.base.item_data_statistics[56044] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56044,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60440,6 +62060,7 @@ _G.pg.base.item_data_statistics[56045] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56045,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60589,6 +62210,7 @@ _G.pg.base.item_data_statistics[56046] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56046,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60738,6 +62360,7 @@ _G.pg.base.item_data_statistics[56047] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56047,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -60887,6 +62510,7 @@ _G.pg.base.item_data_statistics[56048] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56048,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61041,6 +62665,7 @@ _G.pg.base.item_data_statistics[56049] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56049,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61190,6 +62815,7 @@ _G.pg.base.item_data_statistics[56050] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56050,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61339,6 +62965,7 @@ _G.pg.base.item_data_statistics[56051] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56051,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61488,6 +63115,7 @@ _G.pg.base.item_data_statistics[56052] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56052,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61642,6 +63270,7 @@ _G.pg.base.item_data_statistics[56053] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56053,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61791,6 +63420,7 @@ _G.pg.base.item_data_statistics[56054] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56054,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -61940,6 +63570,7 @@ _G.pg.base.item_data_statistics[56055] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56055,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -62089,6 +63720,7 @@ _G.pg.base.item_data_statistics[56056] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56056,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -62243,6 +63875,7 @@ _G.pg.base.item_data_statistics[56500] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56500,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -62266,6 +63899,7 @@ _G.pg.base.item_data_statistics[56501] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56501,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -62289,6 +63923,7 @@ _G.pg.base.item_data_statistics[56502] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 56502,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -62312,6 +63947,7 @@ _G.pg.base.item_data_statistics[57001] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62361,6 +63997,7 @@ _G.pg.base.item_data_statistics[57002] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62410,6 +64047,7 @@ _G.pg.base.item_data_statistics[57003] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62459,6 +64097,7 @@ _G.pg.base.item_data_statistics[57011] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62508,6 +64147,7 @@ _G.pg.base.item_data_statistics[57012] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57012,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62557,6 +64197,7 @@ _G.pg.base.item_data_statistics[57013] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57013,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62601,6 +64242,7 @@ _G.pg.base.item_data_statistics[57021] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -62624,6 +64266,7 @@ _G.pg.base.item_data_statistics[57022] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57022,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -62763,6 +64406,7 @@ _G.pg.base.item_data_statistics[57023] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57023,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -62912,6 +64556,7 @@ _G.pg.base.item_data_statistics[57031] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57031,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -62961,6 +64606,7 @@ _G.pg.base.item_data_statistics[57032] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57032,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63010,6 +64656,7 @@ _G.pg.base.item_data_statistics[57033] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57033,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63059,6 +64706,7 @@ _G.pg.base.item_data_statistics[57034] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57034,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63108,6 +64756,7 @@ _G.pg.base.item_data_statistics[57035] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57035,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63157,6 +64806,7 @@ _G.pg.base.item_data_statistics[57036] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57036,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63206,6 +64856,7 @@ _G.pg.base.item_data_statistics[57037] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57037,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63255,6 +64906,7 @@ _G.pg.base.item_data_statistics[57038] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57038,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63304,6 +64956,7 @@ _G.pg.base.item_data_statistics[57041] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57041,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63353,6 +65006,7 @@ _G.pg.base.item_data_statistics[57042] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57042,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63402,6 +65056,7 @@ _G.pg.base.item_data_statistics[57043] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57043,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63451,6 +65106,7 @@ _G.pg.base.item_data_statistics[57044] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57044,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63500,6 +65156,7 @@ _G.pg.base.item_data_statistics[57045] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57045,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63549,6 +65206,7 @@ _G.pg.base.item_data_statistics[57046] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57046,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63598,6 +65256,7 @@ _G.pg.base.item_data_statistics[57047] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57047,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63647,6 +65306,7 @@ _G.pg.base.item_data_statistics[57048] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57048,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63696,6 +65356,7 @@ _G.pg.base.item_data_statistics[57051] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57051,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63745,6 +65406,7 @@ _G.pg.base.item_data_statistics[57052] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57052,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63794,6 +65456,7 @@ _G.pg.base.item_data_statistics[57053] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57053,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63843,6 +65506,7 @@ _G.pg.base.item_data_statistics[57054] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57054,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63892,6 +65556,7 @@ _G.pg.base.item_data_statistics[57055] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57055,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -63946,6 +65611,7 @@ _G.pg.base.item_data_statistics[57056] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57056,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -64000,6 +65666,7 @@ _G.pg.base.item_data_statistics[57057] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57057,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -64054,6 +65721,7 @@ _G.pg.base.item_data_statistics[57058] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57058,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -64108,6 +65776,7 @@ _G.pg.base.item_data_statistics[57061] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57061,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64232,6 +65901,7 @@ _G.pg.base.item_data_statistics[57062] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57062,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64356,6 +66026,7 @@ _G.pg.base.item_data_statistics[57063] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57063,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64480,6 +66151,7 @@ _G.pg.base.item_data_statistics[57064] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57064,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64609,6 +66281,7 @@ _G.pg.base.item_data_statistics[57065] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57065,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64738,6 +66411,7 @@ _G.pg.base.item_data_statistics[57066] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57066,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -64872,6 +66546,7 @@ _G.pg.base.item_data_statistics[57067] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57067,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65006,6 +66681,7 @@ _G.pg.base.item_data_statistics[57068] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57068,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65150,6 +66826,7 @@ _G.pg.base.item_data_statistics[57071] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57071,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65274,6 +66951,7 @@ _G.pg.base.item_data_statistics[57072] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57072,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65398,6 +67076,7 @@ _G.pg.base.item_data_statistics[57073] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57073,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65522,6 +67201,7 @@ _G.pg.base.item_data_statistics[57074] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57074,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65656,6 +67336,7 @@ _G.pg.base.item_data_statistics[57075] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57075,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65790,6 +67471,7 @@ _G.pg.base.item_data_statistics[57076] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57076,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -65929,6 +67611,7 @@ _G.pg.base.item_data_statistics[57077] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57077,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -66073,6 +67756,7 @@ _G.pg.base.item_data_statistics[57078] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57078,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -66227,6 +67911,7 @@ _G.pg.base.item_data_statistics[57111] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57111,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66276,6 +67961,7 @@ _G.pg.base.item_data_statistics[57112] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57112,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66325,6 +68011,7 @@ _G.pg.base.item_data_statistics[57113] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57113,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66374,6 +68061,7 @@ _G.pg.base.item_data_statistics[57114] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57114,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66418,6 +68106,7 @@ _G.pg.base.item_data_statistics[57115] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57115,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66462,6 +68151,7 @@ _G.pg.base.item_data_statistics[57116] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57116,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66506,6 +68196,7 @@ _G.pg.base.item_data_statistics[57121] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57121,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66555,6 +68246,7 @@ _G.pg.base.item_data_statistics[57122] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57122,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66604,6 +68296,7 @@ _G.pg.base.item_data_statistics[57123] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57123,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66653,6 +68346,7 @@ _G.pg.base.item_data_statistics[57124] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57124,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66692,6 +68386,7 @@ _G.pg.base.item_data_statistics[57125] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57125,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66731,6 +68426,7 @@ _G.pg.base.item_data_statistics[57126] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57126,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -66770,6 +68466,7 @@ _G.pg.base.item_data_statistics[57131] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57131,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -66904,6 +68601,7 @@ _G.pg.base.item_data_statistics[57132] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57132,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -67038,6 +68736,7 @@ _G.pg.base.item_data_statistics[57133] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57133,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -67182,6 +68881,7 @@ _G.pg.base.item_data_statistics[57134] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57134,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -67316,6 +69016,7 @@ _G.pg.base.item_data_statistics[57135] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57135,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -67450,6 +69151,7 @@ _G.pg.base.item_data_statistics[57136] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57136,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -67594,6 +69296,7 @@ _G.pg.base.item_data_statistics[57141] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57141,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67643,6 +69346,7 @@ _G.pg.base.item_data_statistics[57142] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57142,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67692,6 +69396,7 @@ _G.pg.base.item_data_statistics[57143] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57143,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67741,6 +69446,7 @@ _G.pg.base.item_data_statistics[57144] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57144,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67790,6 +69496,7 @@ _G.pg.base.item_data_statistics[57145] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57145,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67839,6 +69546,7 @@ _G.pg.base.item_data_statistics[57146] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57146,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67888,6 +69596,7 @@ _G.pg.base.item_data_statistics[57151] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57151,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67932,6 +69641,7 @@ _G.pg.base.item_data_statistics[57152] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57152,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -67976,6 +69686,7 @@ _G.pg.base.item_data_statistics[57153] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57153,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -68020,6 +69731,7 @@ _G.pg.base.item_data_statistics[57154] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57154,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -68059,6 +69771,7 @@ _G.pg.base.item_data_statistics[57155] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57155,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -68098,6 +69811,7 @@ _G.pg.base.item_data_statistics[57156] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57156,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -68137,6 +69851,7 @@ _G.pg.base.item_data_statistics[57161] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57161,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68271,6 +69986,7 @@ _G.pg.base.item_data_statistics[57162] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57162,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68405,6 +70121,7 @@ _G.pg.base.item_data_statistics[57163] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57163,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68549,6 +70266,7 @@ _G.pg.base.item_data_statistics[57164] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57164,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68688,6 +70406,7 @@ _G.pg.base.item_data_statistics[57165] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57165,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68827,6 +70546,7 @@ _G.pg.base.item_data_statistics[57166] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57166,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -68971,6 +70691,7 @@ _G.pg.base.item_data_statistics[57171] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57171,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69020,6 +70741,7 @@ _G.pg.base.item_data_statistics[57172] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57172,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69069,6 +70791,7 @@ _G.pg.base.item_data_statistics[57173] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57173,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69118,6 +70841,7 @@ _G.pg.base.item_data_statistics[57174] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57174,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69162,6 +70886,7 @@ _G.pg.base.item_data_statistics[57175] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57175,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69206,6 +70931,7 @@ _G.pg.base.item_data_statistics[57176] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57176,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69250,6 +70976,7 @@ _G.pg.base.item_data_statistics[57177] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57177,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -69384,6 +71111,7 @@ _G.pg.base.item_data_statistics[57178] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57178,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -69523,6 +71251,7 @@ _G.pg.base.item_data_statistics[57179] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57179,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -69662,6 +71391,7 @@ _G.pg.base.item_data_statistics[57181] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57181,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69711,6 +71441,7 @@ _G.pg.base.item_data_statistics[57182] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57182,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69760,6 +71491,7 @@ _G.pg.base.item_data_statistics[57183] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57183,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69809,6 +71541,7 @@ _G.pg.base.item_data_statistics[57184] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57184,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69858,6 +71591,7 @@ _G.pg.base.item_data_statistics[57185] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57185,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69907,6 +71641,7 @@ _G.pg.base.item_data_statistics[57186] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57186,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -69956,6 +71691,7 @@ _G.pg.base.item_data_statistics[57191] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57191,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70005,6 +71741,7 @@ _G.pg.base.item_data_statistics[57192] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57192,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70054,6 +71791,7 @@ _G.pg.base.item_data_statistics[57193] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57193,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70103,6 +71841,7 @@ _G.pg.base.item_data_statistics[57194] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57194,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70152,6 +71891,7 @@ _G.pg.base.item_data_statistics[57195] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57195,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70201,6 +71941,7 @@ _G.pg.base.item_data_statistics[57196] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57196,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -70250,6 +71991,7 @@ _G.pg.base.item_data_statistics[57201] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57201,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -70384,6 +72126,7 @@ _G.pg.base.item_data_statistics[57202] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57202,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -70518,6 +72261,7 @@ _G.pg.base.item_data_statistics[57203] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57203,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -70657,6 +72401,7 @@ _G.pg.base.item_data_statistics[57204] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57204,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -70796,6 +72541,7 @@ _G.pg.base.item_data_statistics[57205] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57205,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -70935,6 +72681,7 @@ _G.pg.base.item_data_statistics[57206] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57206,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -71074,6 +72821,7 @@ _G.pg.base.item_data_statistics[57211] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57211,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71123,6 +72871,7 @@ _G.pg.base.item_data_statistics[57212] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57212,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71172,6 +72921,7 @@ _G.pg.base.item_data_statistics[57213] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57213,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71221,6 +72971,7 @@ _G.pg.base.item_data_statistics[57214] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57214,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71270,6 +73021,7 @@ _G.pg.base.item_data_statistics[57215] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57215,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71319,6 +73071,7 @@ _G.pg.base.item_data_statistics[57216] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57216,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71368,6 +73121,7 @@ _G.pg.base.item_data_statistics[57221] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57221,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71412,6 +73166,7 @@ _G.pg.base.item_data_statistics[57222] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57222,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71456,6 +73211,7 @@ _G.pg.base.item_data_statistics[57223] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57223,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71500,6 +73256,7 @@ _G.pg.base.item_data_statistics[57224] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57224,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71544,6 +73301,7 @@ _G.pg.base.item_data_statistics[57225] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57225,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71588,6 +73346,7 @@ _G.pg.base.item_data_statistics[57226] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57226,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -71627,6 +73386,7 @@ _G.pg.base.item_data_statistics[57231] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57231,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -71761,6 +73521,7 @@ _G.pg.base.item_data_statistics[57232] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57232,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -71895,6 +73656,7 @@ _G.pg.base.item_data_statistics[57233] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57233,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -72034,6 +73796,7 @@ _G.pg.base.item_data_statistics[57234] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57234,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -72178,6 +73941,7 @@ _G.pg.base.item_data_statistics[57235] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57235,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -72322,6 +74086,7 @@ _G.pg.base.item_data_statistics[57236] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57236,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -72466,6 +74231,7 @@ _G.pg.base.item_data_statistics[57241] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57241,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72515,6 +74281,7 @@ _G.pg.base.item_data_statistics[57242] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57242,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72564,6 +74331,7 @@ _G.pg.base.item_data_statistics[57243] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57243,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72613,6 +74381,7 @@ _G.pg.base.item_data_statistics[57244] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57244,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72662,6 +74431,7 @@ _G.pg.base.item_data_statistics[57245] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57245,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72706,6 +74476,7 @@ _G.pg.base.item_data_statistics[57246] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57246,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -72750,6 +74521,7 @@ _G.pg.base.item_data_statistics[57247] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57247,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -72884,6 +74656,7 @@ _G.pg.base.item_data_statistics[57248] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57248,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -73018,6 +74791,7 @@ _G.pg.base.item_data_statistics[57249] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57249,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -73152,6 +74926,7 @@ _G.pg.base.item_data_statistics[57251] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57251,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73201,6 +74976,7 @@ _G.pg.base.item_data_statistics[57252] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57252,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73250,6 +75026,7 @@ _G.pg.base.item_data_statistics[57253] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57253,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73299,6 +75076,7 @@ _G.pg.base.item_data_statistics[57254] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57254,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73348,6 +75126,7 @@ _G.pg.base.item_data_statistics[57255] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57255,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73397,6 +75176,7 @@ _G.pg.base.item_data_statistics[57256] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57256,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73446,6 +75226,7 @@ _G.pg.base.item_data_statistics[57257] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57257,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73495,6 +75276,7 @@ _G.pg.base.item_data_statistics[57258] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57258,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -73539,6 +75321,7 @@ _G.pg.base.item_data_statistics[57259] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57259,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -73673,6 +75456,7 @@ _G.pg.base.item_data_statistics[57260] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57260,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -73807,6 +75591,7 @@ _G.pg.base.item_data_statistics[57261] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57261,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -73941,6 +75726,7 @@ _G.pg.base.item_data_statistics[57262] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57262,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -74075,6 +75861,7 @@ _G.pg.base.item_data_statistics[57263] = {
 	is_world = 0,
 	icon = "Props/appearanceboxnep",
 	id = 57263,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -74174,6 +75961,7 @@ _G.pg.base.item_data_statistics[57271] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57271,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74223,6 +76011,7 @@ _G.pg.base.item_data_statistics[57272] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57272,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74272,6 +76061,7 @@ _G.pg.base.item_data_statistics[57273] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57273,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74321,6 +76111,7 @@ _G.pg.base.item_data_statistics[57274] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57274,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74370,6 +76161,7 @@ _G.pg.base.item_data_statistics[57275] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57275,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74419,6 +76211,7 @@ _G.pg.base.item_data_statistics[57276] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57276,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74468,6 +76261,7 @@ _G.pg.base.item_data_statistics[57281] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57281,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74517,6 +76311,7 @@ _G.pg.base.item_data_statistics[57282] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57282,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74566,6 +76361,7 @@ _G.pg.base.item_data_statistics[57283] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57283,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74615,6 +76411,7 @@ _G.pg.base.item_data_statistics[57284] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57284,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74664,6 +76461,7 @@ _G.pg.base.item_data_statistics[57285] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57285,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74713,6 +76511,7 @@ _G.pg.base.item_data_statistics[57286] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57286,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -74762,6 +76561,7 @@ _G.pg.base.item_data_statistics[57291] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57291,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -74896,6 +76696,7 @@ _G.pg.base.item_data_statistics[57292] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57292,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -75030,6 +76831,7 @@ _G.pg.base.item_data_statistics[57293] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57293,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -75169,6 +76971,7 @@ _G.pg.base.item_data_statistics[57294] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57294,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -75308,6 +77111,7 @@ _G.pg.base.item_data_statistics[57295] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57295,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -75447,6 +77251,7 @@ _G.pg.base.item_data_statistics[57296] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57296,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -75586,6 +77391,7 @@ _G.pg.base.item_data_statistics[57301] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57301,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75635,6 +77441,7 @@ _G.pg.base.item_data_statistics[57302] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57302,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75684,6 +77491,7 @@ _G.pg.base.item_data_statistics[57303] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57303,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75733,6 +77541,7 @@ _G.pg.base.item_data_statistics[57304] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57304,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75782,6 +77591,7 @@ _G.pg.base.item_data_statistics[57305] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57305,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75831,6 +77641,7 @@ _G.pg.base.item_data_statistics[57306] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57306,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75880,6 +77691,7 @@ _G.pg.base.item_data_statistics[57311] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57311,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75924,6 +77736,7 @@ _G.pg.base.item_data_statistics[57312] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57312,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -75968,6 +77781,7 @@ _G.pg.base.item_data_statistics[57313] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57313,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -76012,6 +77826,7 @@ _G.pg.base.item_data_statistics[57314] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57314,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -76056,6 +77871,7 @@ _G.pg.base.item_data_statistics[57315] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57315,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -76100,6 +77916,7 @@ _G.pg.base.item_data_statistics[57316] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57316,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -76139,6 +77956,7 @@ _G.pg.base.item_data_statistics[57321] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57321,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76273,6 +78091,7 @@ _G.pg.base.item_data_statistics[57322] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57322,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76407,6 +78226,7 @@ _G.pg.base.item_data_statistics[57323] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57323,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76546,6 +78366,7 @@ _G.pg.base.item_data_statistics[57324] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57324,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76685,6 +78506,7 @@ _G.pg.base.item_data_statistics[57325] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57325,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76829,6 +78651,7 @@ _G.pg.base.item_data_statistics[57326] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57326,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -76978,6 +78801,7 @@ _G.pg.base.item_data_statistics[57331] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57331,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77027,6 +78851,7 @@ _G.pg.base.item_data_statistics[57332] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57332,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77076,6 +78901,7 @@ _G.pg.base.item_data_statistics[57333] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57333,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77125,6 +78951,7 @@ _G.pg.base.item_data_statistics[57334] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57334,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77174,6 +79001,7 @@ _G.pg.base.item_data_statistics[57335] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57335,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77223,6 +79051,7 @@ _G.pg.base.item_data_statistics[57336] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57336,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77272,6 +79101,7 @@ _G.pg.base.item_data_statistics[57341] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57341,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77321,6 +79151,7 @@ _G.pg.base.item_data_statistics[57342] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57342,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77370,6 +79201,7 @@ _G.pg.base.item_data_statistics[57343] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57343,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77419,6 +79251,7 @@ _G.pg.base.item_data_statistics[57344] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57344,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77468,6 +79301,7 @@ _G.pg.base.item_data_statistics[57345] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57345,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77517,6 +79351,7 @@ _G.pg.base.item_data_statistics[57346] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57346,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -77566,6 +79401,7 @@ _G.pg.base.item_data_statistics[57351] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57351,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -77700,6 +79536,7 @@ _G.pg.base.item_data_statistics[57352] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57352,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -77834,6 +79671,7 @@ _G.pg.base.item_data_statistics[57353] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57353,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -77968,6 +79806,7 @@ _G.pg.base.item_data_statistics[57354] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57354,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -78107,6 +79946,7 @@ _G.pg.base.item_data_statistics[57355] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57355,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -78246,6 +80086,7 @@ _G.pg.base.item_data_statistics[57356] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57356,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -78385,6 +80226,7 @@ _G.pg.base.item_data_statistics[57361] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57361,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78434,6 +80276,7 @@ _G.pg.base.item_data_statistics[57362] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57362,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78483,6 +80326,7 @@ _G.pg.base.item_data_statistics[57363] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57363,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78532,6 +80376,7 @@ _G.pg.base.item_data_statistics[57364] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57364,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78581,6 +80426,7 @@ _G.pg.base.item_data_statistics[57365] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57365,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78630,6 +80476,7 @@ _G.pg.base.item_data_statistics[57366] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57366,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78679,6 +80526,7 @@ _G.pg.base.item_data_statistics[57371] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57371,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78723,6 +80571,7 @@ _G.pg.base.item_data_statistics[57372] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57372,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78767,6 +80616,7 @@ _G.pg.base.item_data_statistics[57373] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57373,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78811,6 +80661,7 @@ _G.pg.base.item_data_statistics[57374] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57374,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78855,6 +80706,7 @@ _G.pg.base.item_data_statistics[57375] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57375,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78899,6 +80751,7 @@ _G.pg.base.item_data_statistics[57376] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57376,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -78943,6 +80796,7 @@ _G.pg.base.item_data_statistics[57381] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57381,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79077,6 +80931,7 @@ _G.pg.base.item_data_statistics[57382] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57382,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79211,6 +81066,7 @@ _G.pg.base.item_data_statistics[57383] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57383,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79345,6 +81201,7 @@ _G.pg.base.item_data_statistics[57384] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57384,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79484,6 +81341,7 @@ _G.pg.base.item_data_statistics[57385] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57385,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79628,6 +81486,7 @@ _G.pg.base.item_data_statistics[57386] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57386,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -79777,6 +81636,7 @@ _G.pg.base.item_data_statistics[57391] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57391,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -79826,6 +81686,7 @@ _G.pg.base.item_data_statistics[57392] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57392,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -79875,6 +81736,7 @@ _G.pg.base.item_data_statistics[57393] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57393,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -79924,6 +81786,7 @@ _G.pg.base.item_data_statistics[57394] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57394,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -79973,6 +81836,7 @@ _G.pg.base.item_data_statistics[57395] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57395,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80017,6 +81881,7 @@ _G.pg.base.item_data_statistics[57396] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57396,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80061,6 +81926,7 @@ _G.pg.base.item_data_statistics[57397] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57397,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -80195,6 +82061,7 @@ _G.pg.base.item_data_statistics[57398] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57398,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -80329,6 +82196,7 @@ _G.pg.base.item_data_statistics[57399] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57399,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -80463,6 +82331,7 @@ _G.pg.base.item_data_statistics[57401] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57401,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80512,6 +82381,7 @@ _G.pg.base.item_data_statistics[57402] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57402,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80561,6 +82431,7 @@ _G.pg.base.item_data_statistics[57403] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57403,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80610,6 +82481,7 @@ _G.pg.base.item_data_statistics[57404] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57404,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80659,6 +82531,7 @@ _G.pg.base.item_data_statistics[57405] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57405,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80708,6 +82581,7 @@ _G.pg.base.item_data_statistics[57406] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57406,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80757,6 +82631,7 @@ _G.pg.base.item_data_statistics[57411] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57411,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80806,6 +82681,7 @@ _G.pg.base.item_data_statistics[57412] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57412,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80855,6 +82731,7 @@ _G.pg.base.item_data_statistics[57413] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57413,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80904,6 +82781,7 @@ _G.pg.base.item_data_statistics[57414] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57414,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -80953,6 +82831,7 @@ _G.pg.base.item_data_statistics[57415] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57415,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -81002,6 +82881,7 @@ _G.pg.base.item_data_statistics[57416] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57416,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -81051,6 +82931,7 @@ _G.pg.base.item_data_statistics[57421] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57421,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81185,6 +83066,7 @@ _G.pg.base.item_data_statistics[57422] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57422,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81319,6 +83201,7 @@ _G.pg.base.item_data_statistics[57423] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57423,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81458,6 +83341,7 @@ _G.pg.base.item_data_statistics[57424] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57424,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81592,6 +83476,7 @@ _G.pg.base.item_data_statistics[57425] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57425,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81731,6 +83616,7 @@ _G.pg.base.item_data_statistics[57426] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57426,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -81870,6 +83756,7 @@ _G.pg.base.item_data_statistics[57431] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57431,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -81919,6 +83806,7 @@ _G.pg.base.item_data_statistics[57432] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57432,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -81968,6 +83856,7 @@ _G.pg.base.item_data_statistics[57433] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57433,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82017,6 +83906,7 @@ _G.pg.base.item_data_statistics[57434] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57434,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82066,6 +83956,7 @@ _G.pg.base.item_data_statistics[57435] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57435,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82115,6 +84006,7 @@ _G.pg.base.item_data_statistics[57436] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57436,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82164,6 +84056,7 @@ _G.pg.base.item_data_statistics[57441] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57441,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82208,6 +84101,7 @@ _G.pg.base.item_data_statistics[57442] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57442,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82252,6 +84146,7 @@ _G.pg.base.item_data_statistics[57443] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57443,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82296,6 +84191,7 @@ _G.pg.base.item_data_statistics[57444] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57444,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82340,6 +84236,7 @@ _G.pg.base.item_data_statistics[57445] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57445,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82384,6 +84281,7 @@ _G.pg.base.item_data_statistics[57446] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57446,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -82428,6 +84326,7 @@ _G.pg.base.item_data_statistics[57451] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57451,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -82562,6 +84461,7 @@ _G.pg.base.item_data_statistics[57452] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57452,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -82696,6 +84596,7 @@ _G.pg.base.item_data_statistics[57453] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57453,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -82835,6 +84736,7 @@ _G.pg.base.item_data_statistics[57454] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57454,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -82969,6 +84871,7 @@ _G.pg.base.item_data_statistics[57455] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57455,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -83108,6 +85011,7 @@ _G.pg.base.item_data_statistics[57456] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57456,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -83252,6 +85156,7 @@ _G.pg.base.item_data_statistics[57461] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57461,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83301,6 +85206,7 @@ _G.pg.base.item_data_statistics[57462] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57462,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83350,6 +85256,7 @@ _G.pg.base.item_data_statistics[57463] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57463,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83399,6 +85306,7 @@ _G.pg.base.item_data_statistics[57471] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57471,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83448,6 +85356,7 @@ _G.pg.base.item_data_statistics[57472] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57472,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83497,6 +85406,7 @@ _G.pg.base.item_data_statistics[57473] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57473,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83546,6 +85456,7 @@ _G.pg.base.item_data_statistics[57474] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57474,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83595,6 +85506,7 @@ _G.pg.base.item_data_statistics[57475] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57475,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83644,6 +85556,7 @@ _G.pg.base.item_data_statistics[57476] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57476,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83693,6 +85606,7 @@ _G.pg.base.item_data_statistics[57477] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57477,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83742,6 +85656,7 @@ _G.pg.base.item_data_statistics[57478] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57478,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -83786,6 +85701,7 @@ _G.pg.base.item_data_statistics[57479] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57479,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -83920,6 +85836,7 @@ _G.pg.base.item_data_statistics[57480] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57480,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -84054,6 +85971,7 @@ _G.pg.base.item_data_statistics[57481] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57481,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -84188,6 +86106,7 @@ _G.pg.base.item_data_statistics[57482] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57482,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -84322,6 +86241,7 @@ _G.pg.base.item_data_statistics[57483] = {
 	is_world = 0,
 	icon = "Props/appearanceboxchuansong",
 	id = 57483,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -84436,6 +86356,7 @@ _G.pg.base.item_data_statistics[57491] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57491,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84485,6 +86406,7 @@ _G.pg.base.item_data_statistics[57492] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57492,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84534,6 +86456,7 @@ _G.pg.base.item_data_statistics[57493] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57493,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84583,6 +86506,7 @@ _G.pg.base.item_data_statistics[57494] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57494,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84632,6 +86556,7 @@ _G.pg.base.item_data_statistics[57495] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57495,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84681,6 +86606,7 @@ _G.pg.base.item_data_statistics[57496] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57496,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -84725,6 +86651,7 @@ _G.pg.base.item_data_statistics[57497] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57497,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -84859,6 +86786,7 @@ _G.pg.base.item_data_statistics[57498] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57498,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -84993,6 +86921,7 @@ _G.pg.base.item_data_statistics[57499] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57499,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -85127,6 +87056,7 @@ _G.pg.base.item_data_statistics[57501] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57501,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85176,6 +87106,7 @@ _G.pg.base.item_data_statistics[57502] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57502,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85225,6 +87156,7 @@ _G.pg.base.item_data_statistics[57503] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57503,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85274,6 +87206,7 @@ _G.pg.base.item_data_statistics[57504] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57504,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85323,6 +87256,7 @@ _G.pg.base.item_data_statistics[57505] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57505,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85372,6 +87306,7 @@ _G.pg.base.item_data_statistics[57506] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57506,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85421,6 +87356,7 @@ _G.pg.base.item_data_statistics[57511] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57511,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85470,6 +87406,7 @@ _G.pg.base.item_data_statistics[57512] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57512,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85519,6 +87456,7 @@ _G.pg.base.item_data_statistics[57513] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57513,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85568,6 +87506,7 @@ _G.pg.base.item_data_statistics[57514] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57514,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85617,6 +87556,7 @@ _G.pg.base.item_data_statistics[57515] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57515,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85666,6 +87606,7 @@ _G.pg.base.item_data_statistics[57516] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57516,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -85715,6 +87656,7 @@ _G.pg.base.item_data_statistics[57521] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57521,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -85849,6 +87791,7 @@ _G.pg.base.item_data_statistics[57522] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57522,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -85983,6 +87926,7 @@ _G.pg.base.item_data_statistics[57523] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57523,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -86122,6 +88066,7 @@ _G.pg.base.item_data_statistics[57524] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57524,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -86256,6 +88201,7 @@ _G.pg.base.item_data_statistics[57525] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57525,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -86395,6 +88341,7 @@ _G.pg.base.item_data_statistics[57526] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57526,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -86534,6 +88481,7 @@ _G.pg.base.item_data_statistics[57531] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57531,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86583,6 +88531,7 @@ _G.pg.base.item_data_statistics[57532] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57532,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86632,6 +88581,7 @@ _G.pg.base.item_data_statistics[57533] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57533,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86681,6 +88631,7 @@ _G.pg.base.item_data_statistics[57534] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57534,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86730,6 +88681,7 @@ _G.pg.base.item_data_statistics[57535] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57535,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86779,6 +88731,7 @@ _G.pg.base.item_data_statistics[57536] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57536,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86828,6 +88781,7 @@ _G.pg.base.item_data_statistics[57541] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57541,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86872,6 +88826,7 @@ _G.pg.base.item_data_statistics[57542] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57542,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86916,6 +88871,7 @@ _G.pg.base.item_data_statistics[57543] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57543,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -86960,6 +88916,7 @@ _G.pg.base.item_data_statistics[57544] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57544,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -87004,6 +88961,7 @@ _G.pg.base.item_data_statistics[57545] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57545,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -87048,6 +89006,7 @@ _G.pg.base.item_data_statistics[57546] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57546,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -87092,6 +89051,7 @@ _G.pg.base.item_data_statistics[57551] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57551,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87226,6 +89186,7 @@ _G.pg.base.item_data_statistics[57552] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57552,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87360,6 +89321,7 @@ _G.pg.base.item_data_statistics[57553] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57553,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87499,6 +89461,7 @@ _G.pg.base.item_data_statistics[57554] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57554,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87633,6 +89596,7 @@ _G.pg.base.item_data_statistics[57555] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57555,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87772,6 +89736,7 @@ _G.pg.base.item_data_statistics[57556] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57556,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -87911,6 +89876,7 @@ _G.pg.base.item_data_statistics[57560] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57560,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -87960,6 +89926,7 @@ _G.pg.base.item_data_statistics[57561] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57561,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88009,6 +89976,7 @@ _G.pg.base.item_data_statistics[57562] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57562,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88058,6 +90026,7 @@ _G.pg.base.item_data_statistics[57563] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57563,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88107,6 +90076,7 @@ _G.pg.base.item_data_statistics[57564] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57564,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88156,6 +90126,7 @@ _G.pg.base.item_data_statistics[57565] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57565,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88205,6 +90176,7 @@ _G.pg.base.item_data_statistics[57566] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57566,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88249,6 +90221,7 @@ _G.pg.base.item_data_statistics[57567] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57567,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -88383,6 +90356,7 @@ _G.pg.base.item_data_statistics[57568] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57568,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -88517,6 +90491,7 @@ _G.pg.base.item_data_statistics[57569] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57569,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -88651,6 +90626,7 @@ _G.pg.base.item_data_statistics[57590] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57590,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88700,6 +90676,7 @@ _G.pg.base.item_data_statistics[57591] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57591,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88749,6 +90726,7 @@ _G.pg.base.item_data_statistics[57592] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57592,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88798,6 +90776,7 @@ _G.pg.base.item_data_statistics[57593] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57593,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88847,6 +90826,7 @@ _G.pg.base.item_data_statistics[57594] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57594,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88896,6 +90876,7 @@ _G.pg.base.item_data_statistics[57595] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57595,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88945,6 +90926,7 @@ _G.pg.base.item_data_statistics[57596] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57596,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -88994,6 +90976,7 @@ _G.pg.base.item_data_statistics[57597] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57597,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -89043,6 +91026,7 @@ _G.pg.base.item_data_statistics[57598] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57598,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -89092,6 +91076,7 @@ _G.pg.base.item_data_statistics[57599] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57599,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -89141,6 +91126,7 @@ _G.pg.base.item_data_statistics[57600] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57600,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -89190,6 +91176,7 @@ _G.pg.base.item_data_statistics[57601] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57601,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -89239,6 +91226,7 @@ _G.pg.base.item_data_statistics[57602] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57602,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -89373,6 +91361,7 @@ _G.pg.base.item_data_statistics[57603] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57603,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -89507,6 +91496,7 @@ _G.pg.base.item_data_statistics[57604] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57604,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -89641,6 +91631,7 @@ _G.pg.base.item_data_statistics[57605] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57605,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -89775,6 +91766,7 @@ _G.pg.base.item_data_statistics[57606] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57606,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -89909,6 +91901,7 @@ _G.pg.base.item_data_statistics[57607] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57607,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -90043,6 +92036,7 @@ _G.pg.base.item_data_statistics[57608] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57608,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90092,6 +92086,7 @@ _G.pg.base.item_data_statistics[57609] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57609,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90141,6 +92136,7 @@ _G.pg.base.item_data_statistics[57610] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57610,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90190,6 +92186,7 @@ _G.pg.base.item_data_statistics[57611] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57611,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90239,6 +92236,7 @@ _G.pg.base.item_data_statistics[57612] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57612,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90288,6 +92286,7 @@ _G.pg.base.item_data_statistics[57613] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57613,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90337,6 +92336,7 @@ _G.pg.base.item_data_statistics[57614] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57614,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90381,6 +92381,7 @@ _G.pg.base.item_data_statistics[57615] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57615,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90425,6 +92426,7 @@ _G.pg.base.item_data_statistics[57616] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57616,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90469,6 +92471,7 @@ _G.pg.base.item_data_statistics[57617] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57617,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90513,6 +92516,7 @@ _G.pg.base.item_data_statistics[57618] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57618,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90557,6 +92561,7 @@ _G.pg.base.item_data_statistics[57619] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57619,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -90601,6 +92606,7 @@ _G.pg.base.item_data_statistics[57620] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57620,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -90735,6 +92741,7 @@ _G.pg.base.item_data_statistics[57621] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57621,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -90869,6 +92876,7 @@ _G.pg.base.item_data_statistics[57622] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57622,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -91003,6 +93011,7 @@ _G.pg.base.item_data_statistics[57623] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57623,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -91137,6 +93146,7 @@ _G.pg.base.item_data_statistics[57624] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57624,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -91271,6 +93281,7 @@ _G.pg.base.item_data_statistics[57625] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57625,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -91405,6 +93416,7 @@ _G.pg.base.item_data_statistics[57630] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57630,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91454,6 +93466,7 @@ _G.pg.base.item_data_statistics[57631] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57631,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91503,6 +93516,7 @@ _G.pg.base.item_data_statistics[57632] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57632,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91552,6 +93566,7 @@ _G.pg.base.item_data_statistics[57633] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57633,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91601,6 +93616,7 @@ _G.pg.base.item_data_statistics[57634] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57634,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91650,6 +93666,7 @@ _G.pg.base.item_data_statistics[57635] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57635,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91699,6 +93716,7 @@ _G.pg.base.item_data_statistics[57636] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57636,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91748,6 +93766,7 @@ _G.pg.base.item_data_statistics[57637] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57637,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91797,6 +93816,7 @@ _G.pg.base.item_data_statistics[57638] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57638,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91846,6 +93866,7 @@ _G.pg.base.item_data_statistics[57639] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57639,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91895,6 +93916,7 @@ _G.pg.base.item_data_statistics[57640] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57640,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91944,6 +93966,7 @@ _G.pg.base.item_data_statistics[57641] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57641,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -91993,6 +94016,7 @@ _G.pg.base.item_data_statistics[57642] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57642,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92127,6 +94151,7 @@ _G.pg.base.item_data_statistics[57643] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57643,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92261,6 +94286,7 @@ _G.pg.base.item_data_statistics[57644] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57644,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92395,6 +94421,7 @@ _G.pg.base.item_data_statistics[57645] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57645,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92529,6 +94556,7 @@ _G.pg.base.item_data_statistics[57646] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57646,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92663,6 +94691,7 @@ _G.pg.base.item_data_statistics[57647] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57647,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -92802,6 +94831,7 @@ _G.pg.base.item_data_statistics[57648] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57648,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -92851,6 +94881,7 @@ _G.pg.base.item_data_statistics[57649] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57649,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -92900,6 +94931,7 @@ _G.pg.base.item_data_statistics[57650] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57650,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -92949,6 +94981,7 @@ _G.pg.base.item_data_statistics[57651] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57651,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -92998,6 +95031,7 @@ _G.pg.base.item_data_statistics[57652] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57652,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93047,6 +95081,7 @@ _G.pg.base.item_data_statistics[57653] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57653,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93096,6 +95131,7 @@ _G.pg.base.item_data_statistics[57654] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57654,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93140,6 +95176,7 @@ _G.pg.base.item_data_statistics[57655] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57655,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93184,6 +95221,7 @@ _G.pg.base.item_data_statistics[57656] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57656,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93228,6 +95266,7 @@ _G.pg.base.item_data_statistics[57657] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57657,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93272,6 +95311,7 @@ _G.pg.base.item_data_statistics[57658] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57658,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93316,6 +95356,7 @@ _G.pg.base.item_data_statistics[57659] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57659,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -93360,6 +95401,7 @@ _G.pg.base.item_data_statistics[57660] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57660,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -93494,6 +95536,7 @@ _G.pg.base.item_data_statistics[57661] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57661,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -93628,6 +95671,7 @@ _G.pg.base.item_data_statistics[57662] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57662,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -93762,6 +95806,7 @@ _G.pg.base.item_data_statistics[57663] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57663,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -93896,6 +95941,7 @@ _G.pg.base.item_data_statistics[57664] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57664,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -94030,6 +96076,7 @@ _G.pg.base.item_data_statistics[57665] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57665,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -94169,6 +96216,7 @@ _G.pg.base.item_data_statistics[57670] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57670,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94218,6 +96266,7 @@ _G.pg.base.item_data_statistics[57671] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57671,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94267,6 +96316,7 @@ _G.pg.base.item_data_statistics[57672] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57672,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94316,6 +96366,7 @@ _G.pg.base.item_data_statistics[57673] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57673,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94365,6 +96416,7 @@ _G.pg.base.item_data_statistics[57674] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57674,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94414,6 +96466,7 @@ _G.pg.base.item_data_statistics[57675] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57675,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94463,6 +96516,7 @@ _G.pg.base.item_data_statistics[57676] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57676,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94512,6 +96566,7 @@ _G.pg.base.item_data_statistics[57677] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57677,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94561,6 +96616,7 @@ _G.pg.base.item_data_statistics[57678] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57678,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94610,6 +96666,7 @@ _G.pg.base.item_data_statistics[57679] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57679,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94659,6 +96716,7 @@ _G.pg.base.item_data_statistics[57680] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57680,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94708,6 +96766,7 @@ _G.pg.base.item_data_statistics[57681] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57681,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -94757,6 +96816,7 @@ _G.pg.base.item_data_statistics[57682] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57682,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -94891,6 +96951,7 @@ _G.pg.base.item_data_statistics[57683] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57683,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -95025,6 +97086,7 @@ _G.pg.base.item_data_statistics[57684] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57684,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -95159,6 +97221,7 @@ _G.pg.base.item_data_statistics[57685] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57685,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -95288,6 +97351,7 @@ _G.pg.base.item_data_statistics[57686] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57686,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -95417,6 +97481,7 @@ _G.pg.base.item_data_statistics[57687] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57687,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -95546,6 +97611,7 @@ _G.pg.base.item_data_statistics[57688] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57688,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95595,6 +97661,7 @@ _G.pg.base.item_data_statistics[57689] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57689,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95644,6 +97711,7 @@ _G.pg.base.item_data_statistics[57690] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57690,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95693,6 +97761,7 @@ _G.pg.base.item_data_statistics[57691] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57691,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95742,6 +97811,7 @@ _G.pg.base.item_data_statistics[57692] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57692,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95791,6 +97861,7 @@ _G.pg.base.item_data_statistics[57693] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57693,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95840,6 +97911,7 @@ _G.pg.base.item_data_statistics[57694] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57694,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95884,6 +97956,7 @@ _G.pg.base.item_data_statistics[57695] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57695,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95928,6 +98001,7 @@ _G.pg.base.item_data_statistics[57696] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57696,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -95972,6 +98046,7 @@ _G.pg.base.item_data_statistics[57697] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57697,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -96016,6 +98091,7 @@ _G.pg.base.item_data_statistics[57698] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57698,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -96060,6 +98136,7 @@ _G.pg.base.item_data_statistics[57699] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57699,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -96104,6 +98181,7 @@ _G.pg.base.item_data_statistics[57700] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57700,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96238,6 +98316,7 @@ _G.pg.base.item_data_statistics[57701] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57701,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96372,6 +98451,7 @@ _G.pg.base.item_data_statistics[57702] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57702,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96506,6 +98586,7 @@ _G.pg.base.item_data_statistics[57703] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57703,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96635,6 +98716,7 @@ _G.pg.base.item_data_statistics[57704] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57704,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96764,6 +98846,7 @@ _G.pg.base.item_data_statistics[57705] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57705,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -96893,6 +98976,7 @@ _G.pg.base.item_data_statistics[57707] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57707,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -96942,6 +99026,7 @@ _G.pg.base.item_data_statistics[57708] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57708,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -96991,6 +99076,7 @@ _G.pg.base.item_data_statistics[57709] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57709,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97040,6 +99126,7 @@ _G.pg.base.item_data_statistics[57710] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57710,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97089,6 +99176,7 @@ _G.pg.base.item_data_statistics[57711] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57711,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97138,6 +99226,7 @@ _G.pg.base.item_data_statistics[57712] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57712,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97187,6 +99276,7 @@ _G.pg.base.item_data_statistics[57713] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57713,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97236,6 +99326,7 @@ _G.pg.base.item_data_statistics[57714] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57714,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97285,6 +99376,7 @@ _G.pg.base.item_data_statistics[57715] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57715,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97329,6 +99421,7 @@ _G.pg.base.item_data_statistics[57716] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57716,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -97463,6 +99556,7 @@ _G.pg.base.item_data_statistics[57717] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57717,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -97597,6 +99691,7 @@ _G.pg.base.item_data_statistics[57718] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57718,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -97731,6 +99826,7 @@ _G.pg.base.item_data_statistics[57720] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57720,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97780,6 +99876,7 @@ _G.pg.base.item_data_statistics[57721] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57721,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97829,6 +99926,7 @@ _G.pg.base.item_data_statistics[57722] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57722,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97878,6 +99976,7 @@ _G.pg.base.item_data_statistics[57723] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57723,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97927,6 +100026,7 @@ _G.pg.base.item_data_statistics[57724] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57724,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -97976,6 +100076,7 @@ _G.pg.base.item_data_statistics[57725] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57725,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98025,6 +100126,7 @@ _G.pg.base.item_data_statistics[57726] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57726,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98074,6 +100176,7 @@ _G.pg.base.item_data_statistics[57727] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57727,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98123,6 +100226,7 @@ _G.pg.base.item_data_statistics[57728] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57728,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98172,6 +100276,7 @@ _G.pg.base.item_data_statistics[57729] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57729,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98221,6 +100326,7 @@ _G.pg.base.item_data_statistics[57730] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57730,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98265,6 +100371,7 @@ _G.pg.base.item_data_statistics[57731] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57731,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -98309,6 +100416,7 @@ _G.pg.base.item_data_statistics[57732] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57732,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -98443,6 +100551,7 @@ _G.pg.base.item_data_statistics[57733] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57733,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -98577,6 +100686,7 @@ _G.pg.base.item_data_statistics[57734] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57734,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -98711,6 +100821,7 @@ _G.pg.base.item_data_statistics[57735] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57735,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -98845,6 +100956,7 @@ _G.pg.base.item_data_statistics[57736] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57736,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -98979,6 +101091,7 @@ _G.pg.base.item_data_statistics[57737] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57737,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -99113,6 +101226,7 @@ _G.pg.base.item_data_statistics[57738] = {
 	is_world = 0,
 	icon = "Props/appearanceboxouxiang",
 	id = 57738,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -99227,6 +101341,7 @@ _G.pg.base.item_data_statistics[57740] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57740,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99276,6 +101391,7 @@ _G.pg.base.item_data_statistics[57741] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57741,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99325,6 +101441,7 @@ _G.pg.base.item_data_statistics[57742] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57742,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99374,6 +101491,7 @@ _G.pg.base.item_data_statistics[57743] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57743,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99423,6 +101541,7 @@ _G.pg.base.item_data_statistics[57744] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57744,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99472,6 +101591,7 @@ _G.pg.base.item_data_statistics[57745] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57745,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99521,6 +101641,7 @@ _G.pg.base.item_data_statistics[57746] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57746,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99570,6 +101691,7 @@ _G.pg.base.item_data_statistics[57747] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57747,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99619,6 +101741,7 @@ _G.pg.base.item_data_statistics[57748] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57748,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99668,6 +101791,7 @@ _G.pg.base.item_data_statistics[57749] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57749,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99717,6 +101841,7 @@ _G.pg.base.item_data_statistics[57750] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57750,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99766,6 +101891,7 @@ _G.pg.base.item_data_statistics[57751] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57751,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99810,6 +101936,7 @@ _G.pg.base.item_data_statistics[57752] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57752,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99854,6 +101981,7 @@ _G.pg.base.item_data_statistics[57753] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57753,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -99898,6 +102026,7 @@ _G.pg.base.item_data_statistics[57754] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57754,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100032,6 +102161,7 @@ _G.pg.base.item_data_statistics[57755] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57755,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100166,6 +102296,7 @@ _G.pg.base.item_data_statistics[57756] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57756,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100300,6 +102431,7 @@ _G.pg.base.item_data_statistics[57757] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57757,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100434,6 +102566,7 @@ _G.pg.base.item_data_statistics[57758] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57758,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100568,6 +102701,7 @@ _G.pg.base.item_data_statistics[57759] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57759,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100702,6 +102836,7 @@ _G.pg.base.item_data_statistics[57760] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57760,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -100836,6 +102971,7 @@ _G.pg.base.item_data_statistics[57762] = {
 	is_world = 0,
 	icon = "Props/54012",
 	id = 57762,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -100890,6 +103026,7 @@ _G.pg.base.item_data_statistics[57763] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57763,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -100939,6 +103076,7 @@ _G.pg.base.item_data_statistics[57764] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57764,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -100988,6 +103126,7 @@ _G.pg.base.item_data_statistics[57765] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57765,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101037,6 +103176,7 @@ _G.pg.base.item_data_statistics[57766] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57766,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101086,6 +103226,7 @@ _G.pg.base.item_data_statistics[57767] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57767,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101135,6 +103276,7 @@ _G.pg.base.item_data_statistics[57768] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57768,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101184,6 +103326,7 @@ _G.pg.base.item_data_statistics[57770] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57770,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101233,6 +103376,7 @@ _G.pg.base.item_data_statistics[57771] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57771,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101282,6 +103426,7 @@ _G.pg.base.item_data_statistics[57772] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57772,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101331,6 +103476,7 @@ _G.pg.base.item_data_statistics[57773] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57773,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101380,6 +103526,7 @@ _G.pg.base.item_data_statistics[57774] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57774,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101429,6 +103576,7 @@ _G.pg.base.item_data_statistics[57775] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57775,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101478,6 +103626,7 @@ _G.pg.base.item_data_statistics[57776] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57776,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101527,6 +103676,7 @@ _G.pg.base.item_data_statistics[57777] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57777,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101576,6 +103726,7 @@ _G.pg.base.item_data_statistics[57778] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57778,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101625,6 +103776,7 @@ _G.pg.base.item_data_statistics[57779] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57779,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101674,6 +103826,7 @@ _G.pg.base.item_data_statistics[57780] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57780,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101723,6 +103876,7 @@ _G.pg.base.item_data_statistics[57781] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57781,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -101772,6 +103926,7 @@ _G.pg.base.item_data_statistics[57782] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57782,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -101906,6 +104061,7 @@ _G.pg.base.item_data_statistics[57783] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57783,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -102040,6 +104196,7 @@ _G.pg.base.item_data_statistics[57784] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57784,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -102174,6 +104331,7 @@ _G.pg.base.item_data_statistics[57785] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57785,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -102308,6 +104466,7 @@ _G.pg.base.item_data_statistics[57786] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57786,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -102442,6 +104601,7 @@ _G.pg.base.item_data_statistics[57787] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57787,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -102581,6 +104741,7 @@ _G.pg.base.item_data_statistics[57788] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57788,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102630,6 +104791,7 @@ _G.pg.base.item_data_statistics[57789] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57789,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102679,6 +104841,7 @@ _G.pg.base.item_data_statistics[57790] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57790,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102728,6 +104891,7 @@ _G.pg.base.item_data_statistics[57791] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57791,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102777,6 +104941,7 @@ _G.pg.base.item_data_statistics[57792] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57792,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102826,6 +104991,7 @@ _G.pg.base.item_data_statistics[57793] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57793,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102875,6 +105041,7 @@ _G.pg.base.item_data_statistics[57794] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57794,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102919,6 +105086,7 @@ _G.pg.base.item_data_statistics[57795] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57795,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -102963,6 +105131,7 @@ _G.pg.base.item_data_statistics[57796] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57796,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -103007,6 +105176,7 @@ _G.pg.base.item_data_statistics[57797] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57797,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -103051,6 +105221,7 @@ _G.pg.base.item_data_statistics[57798] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57798,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -103095,6 +105266,7 @@ _G.pg.base.item_data_statistics[57799] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57799,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -103139,6 +105311,7 @@ _G.pg.base.item_data_statistics[57800] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57800,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103268,6 +105441,7 @@ _G.pg.base.item_data_statistics[57801] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57801,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103397,6 +105571,7 @@ _G.pg.base.item_data_statistics[57802] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57802,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103526,6 +105701,7 @@ _G.pg.base.item_data_statistics[57803] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57803,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103655,6 +105831,7 @@ _G.pg.base.item_data_statistics[57804] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57804,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103784,6 +105961,7 @@ _G.pg.base.item_data_statistics[57805] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57805,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -103918,6 +106096,7 @@ _G.pg.base.item_data_statistics[57806] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57806,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -103967,6 +106146,7 @@ _G.pg.base.item_data_statistics[57807] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57807,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104011,6 +106191,7 @@ _G.pg.base.item_data_statistics[57808] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57808,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -104145,6 +106326,7 @@ _G.pg.base.item_data_statistics[57810] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57810,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104194,6 +106376,7 @@ _G.pg.base.item_data_statistics[57811] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57811,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104243,6 +106426,7 @@ _G.pg.base.item_data_statistics[57812] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57812,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104292,6 +106476,7 @@ _G.pg.base.item_data_statistics[57813] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57813,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104341,6 +106526,7 @@ _G.pg.base.item_data_statistics[57814] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57814,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104390,6 +106576,7 @@ _G.pg.base.item_data_statistics[57815] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57815,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104439,6 +106626,7 @@ _G.pg.base.item_data_statistics[57816] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57816,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104488,6 +106676,7 @@ _G.pg.base.item_data_statistics[57817] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57817,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104537,6 +106726,7 @@ _G.pg.base.item_data_statistics[57818] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57818,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104586,6 +106776,7 @@ _G.pg.base.item_data_statistics[57819] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57819,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104635,6 +106826,7 @@ _G.pg.base.item_data_statistics[57820] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57820,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104684,6 +106876,7 @@ _G.pg.base.item_data_statistics[57821] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57821,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -104733,6 +106926,7 @@ _G.pg.base.item_data_statistics[57822] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57822,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -104867,6 +107061,7 @@ _G.pg.base.item_data_statistics[57823] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57823,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -105001,6 +107196,7 @@ _G.pg.base.item_data_statistics[57824] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57824,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -105135,6 +107331,7 @@ _G.pg.base.item_data_statistics[57825] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57825,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -105269,6 +107466,7 @@ _G.pg.base.item_data_statistics[57826] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57826,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -105403,6 +107601,7 @@ _G.pg.base.item_data_statistics[57827] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57827,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -105542,6 +107741,7 @@ _G.pg.base.item_data_statistics[57828] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57828,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105591,6 +107791,7 @@ _G.pg.base.item_data_statistics[57829] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57829,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105640,6 +107841,7 @@ _G.pg.base.item_data_statistics[57830] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57830,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105689,6 +107891,7 @@ _G.pg.base.item_data_statistics[57831] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57831,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105738,6 +107941,7 @@ _G.pg.base.item_data_statistics[57832] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57832,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105787,6 +107991,7 @@ _G.pg.base.item_data_statistics[57833] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57833,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105836,6 +108041,7 @@ _G.pg.base.item_data_statistics[57834] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57834,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105885,6 +108091,7 @@ _G.pg.base.item_data_statistics[57835] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57835,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105929,6 +108136,7 @@ _G.pg.base.item_data_statistics[57836] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57836,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -105973,6 +108181,7 @@ _G.pg.base.item_data_statistics[57837] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57837,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -106017,6 +108226,7 @@ _G.pg.base.item_data_statistics[57838] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57838,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -106061,6 +108271,7 @@ _G.pg.base.item_data_statistics[57839] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57839,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -106105,6 +108316,7 @@ _G.pg.base.item_data_statistics[57840] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57840,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106234,6 +108446,7 @@ _G.pg.base.item_data_statistics[57841] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57841,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106363,6 +108576,7 @@ _G.pg.base.item_data_statistics[57842] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57842,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106492,6 +108706,7 @@ _G.pg.base.item_data_statistics[57843] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57843,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106621,6 +108836,7 @@ _G.pg.base.item_data_statistics[57844] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57844,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106750,6 +108966,7 @@ _G.pg.base.item_data_statistics[57845] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57845,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -106884,6 +109101,7 @@ _G.pg.base.item_data_statistics[57846] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57846,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -106933,6 +109151,7 @@ _G.pg.base.item_data_statistics[57847] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57847,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -106977,6 +109196,7 @@ _G.pg.base.item_data_statistics[57848] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57848,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -107111,6 +109331,7 @@ _G.pg.base.item_data_statistics[57850] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57850,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107160,6 +109381,7 @@ _G.pg.base.item_data_statistics[57851] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57851,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107209,6 +109431,7 @@ _G.pg.base.item_data_statistics[57852] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57852,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107258,6 +109481,7 @@ _G.pg.base.item_data_statistics[57853] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57853,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107307,6 +109531,7 @@ _G.pg.base.item_data_statistics[57854] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57854,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107356,6 +109581,7 @@ _G.pg.base.item_data_statistics[57855] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57855,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107405,6 +109631,7 @@ _G.pg.base.item_data_statistics[57856] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57856,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107454,6 +109681,7 @@ _G.pg.base.item_data_statistics[57857] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57857,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107503,6 +109731,7 @@ _G.pg.base.item_data_statistics[57858] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57858,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107552,6 +109781,7 @@ _G.pg.base.item_data_statistics[57859] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57859,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107601,6 +109831,7 @@ _G.pg.base.item_data_statistics[57860] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57860,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107650,6 +109881,7 @@ _G.pg.base.item_data_statistics[57861] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57861,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -107699,6 +109931,7 @@ _G.pg.base.item_data_statistics[57862] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57862,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -107833,6 +110066,7 @@ _G.pg.base.item_data_statistics[57863] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57863,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -107967,6 +110201,7 @@ _G.pg.base.item_data_statistics[57864] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57864,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -108101,6 +110336,7 @@ _G.pg.base.item_data_statistics[57865] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57865,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -108235,6 +110471,7 @@ _G.pg.base.item_data_statistics[57866] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57866,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -108369,6 +110606,7 @@ _G.pg.base.item_data_statistics[57867] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57867,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -108508,6 +110746,7 @@ _G.pg.base.item_data_statistics[57868] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57868,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108557,6 +110796,7 @@ _G.pg.base.item_data_statistics[57869] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57869,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108606,6 +110846,7 @@ _G.pg.base.item_data_statistics[57870] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57870,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108655,6 +110896,7 @@ _G.pg.base.item_data_statistics[57871] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57871,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108704,6 +110946,7 @@ _G.pg.base.item_data_statistics[57872] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57872,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108753,6 +110996,7 @@ _G.pg.base.item_data_statistics[57873] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57873,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108802,6 +111046,7 @@ _G.pg.base.item_data_statistics[57874] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57874,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108851,6 +111096,7 @@ _G.pg.base.item_data_statistics[57875] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57875,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108895,6 +111141,7 @@ _G.pg.base.item_data_statistics[57876] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57876,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108939,6 +111186,7 @@ _G.pg.base.item_data_statistics[57877] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57877,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -108983,6 +111231,7 @@ _G.pg.base.item_data_statistics[57878] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57878,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -109027,6 +111276,7 @@ _G.pg.base.item_data_statistics[57879] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57879,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -109071,6 +111321,7 @@ _G.pg.base.item_data_statistics[57880] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57880,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109205,6 +111456,7 @@ _G.pg.base.item_data_statistics[57881] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57881,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109339,6 +111591,7 @@ _G.pg.base.item_data_statistics[57882] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57882,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109473,6 +111726,7 @@ _G.pg.base.item_data_statistics[57883] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57883,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109607,6 +111861,7 @@ _G.pg.base.item_data_statistics[57884] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57884,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109741,6 +111996,7 @@ _G.pg.base.item_data_statistics[57885] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57885,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -109880,6 +112136,7 @@ _G.pg.base.item_data_statistics[57886] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57886,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -109929,6 +112186,7 @@ _G.pg.base.item_data_statistics[57887] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57887,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -109973,6 +112231,7 @@ _G.pg.base.item_data_statistics[57888] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57888,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -110112,6 +112371,7 @@ _G.pg.base.item_data_statistics[57889] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57889,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110161,6 +112421,7 @@ _G.pg.base.item_data_statistics[57890] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57890,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110210,6 +112471,7 @@ _G.pg.base.item_data_statistics[57891] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57891,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110259,6 +112521,7 @@ _G.pg.base.item_data_statistics[57892] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57892,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110308,6 +112571,7 @@ _G.pg.base.item_data_statistics[57893] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57893,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110357,6 +112621,7 @@ _G.pg.base.item_data_statistics[57894] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57894,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110401,6 +112666,7 @@ _G.pg.base.item_data_statistics[57895] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57895,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -110535,6 +112801,7 @@ _G.pg.base.item_data_statistics[57896] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57896,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -110669,6 +112936,7 @@ _G.pg.base.item_data_statistics[57897] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57897,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -110803,6 +113071,7 @@ _G.pg.base.item_data_statistics[57900] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57900,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110852,6 +113121,7 @@ _G.pg.base.item_data_statistics[57901] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57901,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110901,6 +113171,7 @@ _G.pg.base.item_data_statistics[57902] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57902,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110950,6 +113221,7 @@ _G.pg.base.item_data_statistics[57903] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57903,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -110999,6 +113271,7 @@ _G.pg.base.item_data_statistics[57904] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57904,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111048,6 +113321,7 @@ _G.pg.base.item_data_statistics[57905] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57905,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111097,6 +113371,7 @@ _G.pg.base.item_data_statistics[57906] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57906,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111146,6 +113421,7 @@ _G.pg.base.item_data_statistics[57907] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57907,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111195,6 +113471,7 @@ _G.pg.base.item_data_statistics[57908] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57908,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111244,6 +113521,7 @@ _G.pg.base.item_data_statistics[57909] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57909,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111293,6 +113571,7 @@ _G.pg.base.item_data_statistics[57910] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57910,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111342,6 +113621,7 @@ _G.pg.base.item_data_statistics[57911] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57911,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -111391,6 +113671,7 @@ _G.pg.base.item_data_statistics[57912] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57912,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -111525,6 +113806,7 @@ _G.pg.base.item_data_statistics[57913] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57913,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -111659,6 +113941,7 @@ _G.pg.base.item_data_statistics[57914] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57914,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -111793,6 +114076,7 @@ _G.pg.base.item_data_statistics[57915] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57915,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -111927,6 +114211,7 @@ _G.pg.base.item_data_statistics[57916] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57916,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -112061,6 +114346,7 @@ _G.pg.base.item_data_statistics[57917] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57917,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -112200,6 +114486,7 @@ _G.pg.base.item_data_statistics[57918] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57918,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112249,6 +114536,7 @@ _G.pg.base.item_data_statistics[57919] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57919,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112298,6 +114586,7 @@ _G.pg.base.item_data_statistics[57920] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57920,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112347,6 +114636,7 @@ _G.pg.base.item_data_statistics[57921] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57921,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112396,6 +114686,7 @@ _G.pg.base.item_data_statistics[57922] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57922,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112445,6 +114736,7 @@ _G.pg.base.item_data_statistics[57923] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57923,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112494,6 +114786,7 @@ _G.pg.base.item_data_statistics[57924] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57924,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112543,6 +114836,7 @@ _G.pg.base.item_data_statistics[57925] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57925,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112587,6 +114881,7 @@ _G.pg.base.item_data_statistics[57926] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57926,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112631,6 +114926,7 @@ _G.pg.base.item_data_statistics[57927] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57927,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112675,6 +114971,7 @@ _G.pg.base.item_data_statistics[57928] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57928,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112719,6 +115016,7 @@ _G.pg.base.item_data_statistics[57929] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57929,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -112763,6 +115061,7 @@ _G.pg.base.item_data_statistics[57930] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57930,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -112897,6 +115196,7 @@ _G.pg.base.item_data_statistics[57931] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57931,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113031,6 +115331,7 @@ _G.pg.base.item_data_statistics[57932] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57932,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113165,6 +115466,7 @@ _G.pg.base.item_data_statistics[57933] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57933,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113299,6 +115601,7 @@ _G.pg.base.item_data_statistics[57934] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57934,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113433,6 +115736,7 @@ _G.pg.base.item_data_statistics[57935] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57935,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113572,6 +115876,7 @@ _G.pg.base.item_data_statistics[57936] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57936,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -113621,6 +115926,7 @@ _G.pg.base.item_data_statistics[57937] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57937,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -113665,6 +115971,7 @@ _G.pg.base.item_data_statistics[57938] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57938,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -113804,6 +116111,7 @@ _G.pg.base.item_data_statistics[57941] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57941,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -113853,6 +116161,7 @@ _G.pg.base.item_data_statistics[57942] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57942,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -113902,6 +116211,7 @@ _G.pg.base.item_data_statistics[57943] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57943,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -113951,6 +116261,7 @@ _G.pg.base.item_data_statistics[57944] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57944,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114000,6 +116311,7 @@ _G.pg.base.item_data_statistics[57945] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57945,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114049,6 +116361,7 @@ _G.pg.base.item_data_statistics[57946] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57946,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114093,6 +116406,7 @@ _G.pg.base.item_data_statistics[57947] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57947,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -114227,6 +116541,7 @@ _G.pg.base.item_data_statistics[57948] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57948,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -114361,6 +116676,7 @@ _G.pg.base.item_data_statistics[57949] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57949,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -114495,6 +116811,7 @@ _G.pg.base.item_data_statistics[57950] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57950,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114544,6 +116861,7 @@ _G.pg.base.item_data_statistics[57951] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57951,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114593,6 +116911,7 @@ _G.pg.base.item_data_statistics[57952] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57952,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114642,6 +116961,7 @@ _G.pg.base.item_data_statistics[57953] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57953,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114691,6 +117011,7 @@ _G.pg.base.item_data_statistics[57954] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57954,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114740,6 +117061,7 @@ _G.pg.base.item_data_statistics[57955] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57955,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114789,6 +117111,7 @@ _G.pg.base.item_data_statistics[57956] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57956,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114838,6 +117161,7 @@ _G.pg.base.item_data_statistics[57957] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57957,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114887,6 +117211,7 @@ _G.pg.base.item_data_statistics[57958] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57958,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114936,6 +117261,7 @@ _G.pg.base.item_data_statistics[57959] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57959,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -114985,6 +117311,7 @@ _G.pg.base.item_data_statistics[57960] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57960,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -115034,6 +117361,7 @@ _G.pg.base.item_data_statistics[57961] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57961,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -115083,6 +117411,7 @@ _G.pg.base.item_data_statistics[57962] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57962,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115217,6 +117546,7 @@ _G.pg.base.item_data_statistics[57963] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57963,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115351,6 +117681,7 @@ _G.pg.base.item_data_statistics[57964] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57964,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115485,6 +117816,7 @@ _G.pg.base.item_data_statistics[57965] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57965,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115619,6 +117951,7 @@ _G.pg.base.item_data_statistics[57966] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57966,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115753,6 +118086,7 @@ _G.pg.base.item_data_statistics[57967] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57967,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -115892,6 +118226,7 @@ _G.pg.base.item_data_statistics[57968] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57968,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -115941,6 +118276,7 @@ _G.pg.base.item_data_statistics[57969] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57969,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -115990,6 +118326,7 @@ _G.pg.base.item_data_statistics[57970] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57970,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116039,6 +118376,7 @@ _G.pg.base.item_data_statistics[57971] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57971,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116088,6 +118426,7 @@ _G.pg.base.item_data_statistics[57972] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57972,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116137,6 +118476,7 @@ _G.pg.base.item_data_statistics[57973] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57973,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116186,6 +118526,7 @@ _G.pg.base.item_data_statistics[57974] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57974,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116235,6 +118576,7 @@ _G.pg.base.item_data_statistics[57975] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57975,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116279,6 +118621,7 @@ _G.pg.base.item_data_statistics[57976] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57976,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116323,6 +118666,7 @@ _G.pg.base.item_data_statistics[57977] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57977,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116367,6 +118711,7 @@ _G.pg.base.item_data_statistics[57978] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57978,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116411,6 +118756,7 @@ _G.pg.base.item_data_statistics[57979] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57979,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -116455,6 +118801,7 @@ _G.pg.base.item_data_statistics[57980] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57980,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -116589,6 +118936,7 @@ _G.pg.base.item_data_statistics[57981] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57981,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -116723,6 +119071,7 @@ _G.pg.base.item_data_statistics[57982] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57982,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -116857,6 +119206,7 @@ _G.pg.base.item_data_statistics[57983] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57983,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -116991,6 +119341,7 @@ _G.pg.base.item_data_statistics[57984] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57984,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -117125,6 +119476,7 @@ _G.pg.base.item_data_statistics[57985] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57985,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -117264,6 +119616,7 @@ _G.pg.base.item_data_statistics[57986] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57986,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117313,6 +119666,7 @@ _G.pg.base.item_data_statistics[57987] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57987,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117357,6 +119711,7 @@ _G.pg.base.item_data_statistics[57988] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 57988,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -117496,6 +119851,7 @@ _G.pg.base.item_data_statistics[57989] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57989,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117545,6 +119901,7 @@ _G.pg.base.item_data_statistics[57990] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57990,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117594,6 +119951,7 @@ _G.pg.base.item_data_statistics[57991] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57991,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117643,6 +120001,7 @@ _G.pg.base.item_data_statistics[57992] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57992,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117692,6 +120051,7 @@ _G.pg.base.item_data_statistics[57993] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57993,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117741,6 +120101,7 @@ _G.pg.base.item_data_statistics[57994] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57994,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117790,6 +120151,7 @@ _G.pg.base.item_data_statistics[57995] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57995,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117839,6 +120201,7 @@ _G.pg.base.item_data_statistics[57996] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57996,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117888,6 +120251,7 @@ _G.pg.base.item_data_statistics[57997] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57997,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117937,6 +120301,7 @@ _G.pg.base.item_data_statistics[57998] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57998,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -117986,6 +120351,7 @@ _G.pg.base.item_data_statistics[57999] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 57999,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -118035,6 +120401,7 @@ _G.pg.base.item_data_statistics[58000] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58000,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -118084,6 +120451,7 @@ _G.pg.base.item_data_statistics[58001] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58001,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118218,6 +120586,7 @@ _G.pg.base.item_data_statistics[58002] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58002,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118352,6 +120721,7 @@ _G.pg.base.item_data_statistics[58003] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58003,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118486,6 +120856,7 @@ _G.pg.base.item_data_statistics[58004] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58004,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118620,6 +120991,7 @@ _G.pg.base.item_data_statistics[58005] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58005,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118754,6 +121126,7 @@ _G.pg.base.item_data_statistics[58006] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58006,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -118893,6 +121266,7 @@ _G.pg.base.item_data_statistics[58007] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58007,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -118942,6 +121316,7 @@ _G.pg.base.item_data_statistics[58008] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58008,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -118991,6 +121366,7 @@ _G.pg.base.item_data_statistics[58009] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58009,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119040,6 +121416,7 @@ _G.pg.base.item_data_statistics[58010] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58010,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119089,6 +121466,7 @@ _G.pg.base.item_data_statistics[58011] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58011,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119138,6 +121516,7 @@ _G.pg.base.item_data_statistics[58012] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58012,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119187,6 +121566,7 @@ _G.pg.base.item_data_statistics[58013] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58013,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119236,6 +121616,7 @@ _G.pg.base.item_data_statistics[58014] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58014,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119280,6 +121661,7 @@ _G.pg.base.item_data_statistics[58015] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58015,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119324,6 +121706,7 @@ _G.pg.base.item_data_statistics[58016] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58016,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119368,6 +121751,7 @@ _G.pg.base.item_data_statistics[58017] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58017,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119412,6 +121796,7 @@ _G.pg.base.item_data_statistics[58018] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58018,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -119456,6 +121841,7 @@ _G.pg.base.item_data_statistics[58019] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58019,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -119590,6 +121976,7 @@ _G.pg.base.item_data_statistics[58020] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58020,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -119724,6 +122111,7 @@ _G.pg.base.item_data_statistics[58021] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58021,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -119858,6 +122246,7 @@ _G.pg.base.item_data_statistics[58022] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58022,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -119992,6 +122381,7 @@ _G.pg.base.item_data_statistics[58023] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58023,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -120126,6 +122516,7 @@ _G.pg.base.item_data_statistics[58024] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58024,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -120265,6 +122656,7 @@ _G.pg.base.item_data_statistics[58025] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58025,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120314,6 +122706,7 @@ _G.pg.base.item_data_statistics[58026] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58026,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120358,6 +122751,7 @@ _G.pg.base.item_data_statistics[58027] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58027,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -120497,6 +122891,7 @@ _G.pg.base.item_data_statistics[58028] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58028,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120546,6 +122941,7 @@ _G.pg.base.item_data_statistics[58029] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58029,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120595,6 +122991,7 @@ _G.pg.base.item_data_statistics[58030] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58030,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120644,6 +123041,7 @@ _G.pg.base.item_data_statistics[58031] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58031,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120693,6 +123091,7 @@ _G.pg.base.item_data_statistics[58032] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58032,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120742,6 +123141,7 @@ _G.pg.base.item_data_statistics[58033] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58033,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -120786,6 +123186,7 @@ _G.pg.base.item_data_statistics[58034] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58034,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -120920,6 +123321,7 @@ _G.pg.base.item_data_statistics[58035] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58035,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -121054,6 +123456,7 @@ _G.pg.base.item_data_statistics[58036] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58036,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -121188,6 +123591,7 @@ _G.pg.base.item_data_statistics[58040] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58040,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121237,6 +123641,7 @@ _G.pg.base.item_data_statistics[58041] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58041,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121286,6 +123691,7 @@ _G.pg.base.item_data_statistics[58042] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58042,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121335,6 +123741,7 @@ _G.pg.base.item_data_statistics[58043] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58043,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121384,6 +123791,7 @@ _G.pg.base.item_data_statistics[58044] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58044,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121433,6 +123841,7 @@ _G.pg.base.item_data_statistics[58045] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58045,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121482,6 +123891,7 @@ _G.pg.base.item_data_statistics[58046] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58046,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121531,6 +123941,7 @@ _G.pg.base.item_data_statistics[58047] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58047,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121580,6 +123991,7 @@ _G.pg.base.item_data_statistics[58048] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58048,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121629,6 +124041,7 @@ _G.pg.base.item_data_statistics[58049] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58049,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121678,6 +124091,7 @@ _G.pg.base.item_data_statistics[58050] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58050,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121722,6 +124136,7 @@ _G.pg.base.item_data_statistics[58051] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58051,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -121766,6 +124181,7 @@ _G.pg.base.item_data_statistics[58052] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58052,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -121900,6 +124316,7 @@ _G.pg.base.item_data_statistics[58053] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58053,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -122034,6 +124451,7 @@ _G.pg.base.item_data_statistics[58054] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58054,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -122168,6 +124586,7 @@ _G.pg.base.item_data_statistics[58055] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58055,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -122302,6 +124721,7 @@ _G.pg.base.item_data_statistics[58056] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58056,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -122436,6 +124856,7 @@ _G.pg.base.item_data_statistics[58057] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58057,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -122570,6 +124991,7 @@ _G.pg.base.item_data_statistics[58058] = {
 	is_world = 0,
 	icon = "Props/appearanceboxjichang",
 	id = 58058,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -122684,6 +125106,7 @@ _G.pg.base.item_data_statistics[58060] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58060,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122733,6 +125156,7 @@ _G.pg.base.item_data_statistics[58061] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58061,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122782,6 +125206,7 @@ _G.pg.base.item_data_statistics[58062] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58062,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122831,6 +125256,7 @@ _G.pg.base.item_data_statistics[58063] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58063,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122880,6 +125306,7 @@ _G.pg.base.item_data_statistics[58064] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58064,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122929,6 +125356,7 @@ _G.pg.base.item_data_statistics[58065] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58065,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -122978,6 +125406,7 @@ _G.pg.base.item_data_statistics[58066] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58066,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -123027,6 +125456,7 @@ _G.pg.base.item_data_statistics[58067] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58067,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -123076,6 +125506,7 @@ _G.pg.base.item_data_statistics[58068] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58068,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -123120,6 +125551,7 @@ _G.pg.base.item_data_statistics[58069] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58069,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -123164,6 +125596,7 @@ _G.pg.base.item_data_statistics[58070] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58070,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -123298,6 +125731,7 @@ _G.pg.base.item_data_statistics[58071] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58071,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -123432,6 +125866,7 @@ _G.pg.base.item_data_statistics[58072] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58072,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -123566,6 +126001,7 @@ _G.pg.base.item_data_statistics[58073] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58073,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -123705,6 +126141,7 @@ _G.pg.base.item_data_statistics[58074] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58074,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -123844,6 +126281,7 @@ _G.pg.base.item_data_statistics[58075] = {
 	is_world = 0,
 	icon = "Props/appearanceboxdoa",
 	id = 58075,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -123958,6 +126396,7 @@ _G.pg.base.item_data_statistics[58076] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58076,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124007,6 +126446,7 @@ _G.pg.base.item_data_statistics[58077] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58077,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124056,6 +126496,7 @@ _G.pg.base.item_data_statistics[58078] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58078,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124105,6 +126546,7 @@ _G.pg.base.item_data_statistics[58079] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58079,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124154,6 +126596,7 @@ _G.pg.base.item_data_statistics[58080] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58080,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124203,6 +126646,7 @@ _G.pg.base.item_data_statistics[58081] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58081,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124252,6 +126696,7 @@ _G.pg.base.item_data_statistics[58082] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58082,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124301,6 +126746,7 @@ _G.pg.base.item_data_statistics[58083] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58083,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124350,6 +126796,7 @@ _G.pg.base.item_data_statistics[58084] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58084,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124399,6 +126846,7 @@ _G.pg.base.item_data_statistics[58085] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58085,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124448,6 +126896,7 @@ _G.pg.base.item_data_statistics[58086] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58086,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124497,6 +126946,7 @@ _G.pg.base.item_data_statistics[58087] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58087,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -124546,6 +126996,7 @@ _G.pg.base.item_data_statistics[58088] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58088,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -124680,6 +127131,7 @@ _G.pg.base.item_data_statistics[58089] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58089,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -124814,6 +127266,7 @@ _G.pg.base.item_data_statistics[58090] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58090,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -124948,6 +127401,7 @@ _G.pg.base.item_data_statistics[58091] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58091,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -125082,6 +127536,7 @@ _G.pg.base.item_data_statistics[58092] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58092,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -125216,6 +127671,7 @@ _G.pg.base.item_data_statistics[58093] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58093,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -125355,6 +127811,7 @@ _G.pg.base.item_data_statistics[58094] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58094,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125404,6 +127861,7 @@ _G.pg.base.item_data_statistics[58095] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58095,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125453,6 +127911,7 @@ _G.pg.base.item_data_statistics[58096] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58096,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125502,6 +127961,7 @@ _G.pg.base.item_data_statistics[58097] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58097,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125551,6 +128011,7 @@ _G.pg.base.item_data_statistics[58098] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58098,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125600,6 +128061,7 @@ _G.pg.base.item_data_statistics[58099] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58099,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125649,6 +128111,7 @@ _G.pg.base.item_data_statistics[58100] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58100,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125698,6 +128161,7 @@ _G.pg.base.item_data_statistics[58101] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58101,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125742,6 +128206,7 @@ _G.pg.base.item_data_statistics[58102] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58102,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125786,6 +128251,7 @@ _G.pg.base.item_data_statistics[58103] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58103,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125830,6 +128296,7 @@ _G.pg.base.item_data_statistics[58104] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58104,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125874,6 +128341,7 @@ _G.pg.base.item_data_statistics[58105] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58105,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -125918,6 +128386,7 @@ _G.pg.base.item_data_statistics[58106] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58106,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126052,6 +128521,7 @@ _G.pg.base.item_data_statistics[58107] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58107,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126186,6 +128656,7 @@ _G.pg.base.item_data_statistics[58108] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58108,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126320,6 +128791,7 @@ _G.pg.base.item_data_statistics[58109] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58109,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126454,6 +128926,7 @@ _G.pg.base.item_data_statistics[58110] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58110,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126588,6 +129061,7 @@ _G.pg.base.item_data_statistics[58111] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58111,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126727,6 +129201,7 @@ _G.pg.base.item_data_statistics[58112] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58112,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -126776,6 +129251,7 @@ _G.pg.base.item_data_statistics[58113] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58113,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -126820,6 +129296,7 @@ _G.pg.base.item_data_statistics[58114] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58114,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -126959,6 +129436,7 @@ _G.pg.base.item_data_statistics[58120] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58120,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127008,6 +129486,7 @@ _G.pg.base.item_data_statistics[58121] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58121,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127057,6 +129536,7 @@ _G.pg.base.item_data_statistics[58122] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58122,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127106,6 +129586,7 @@ _G.pg.base.item_data_statistics[58123] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58123,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127155,6 +129636,7 @@ _G.pg.base.item_data_statistics[58124] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58124,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127204,6 +129686,7 @@ _G.pg.base.item_data_statistics[58125] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58125,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127253,6 +129736,7 @@ _G.pg.base.item_data_statistics[58126] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58126,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127302,6 +129786,7 @@ _G.pg.base.item_data_statistics[58127] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58127,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127351,6 +129836,7 @@ _G.pg.base.item_data_statistics[58128] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58128,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127400,6 +129886,7 @@ _G.pg.base.item_data_statistics[58129] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58129,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127449,6 +129936,7 @@ _G.pg.base.item_data_statistics[58130] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58130,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127498,6 +129986,7 @@ _G.pg.base.item_data_statistics[58131] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58131,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -127547,6 +130036,7 @@ _G.pg.base.item_data_statistics[58132] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58132,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -127681,6 +130171,7 @@ _G.pg.base.item_data_statistics[58133] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58133,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -127815,6 +130306,7 @@ _G.pg.base.item_data_statistics[58134] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58134,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -127949,6 +130441,7 @@ _G.pg.base.item_data_statistics[58135] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58135,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -128083,6 +130576,7 @@ _G.pg.base.item_data_statistics[58136] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58136,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -128217,6 +130711,7 @@ _G.pg.base.item_data_statistics[58137] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58137,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -128356,6 +130851,7 @@ _G.pg.base.item_data_statistics[58138] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58138,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128405,6 +130901,7 @@ _G.pg.base.item_data_statistics[58139] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58139,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128454,6 +130951,7 @@ _G.pg.base.item_data_statistics[58140] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58140,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128503,6 +131001,7 @@ _G.pg.base.item_data_statistics[58141] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58141,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128552,6 +131051,7 @@ _G.pg.base.item_data_statistics[58142] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58142,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128601,6 +131101,7 @@ _G.pg.base.item_data_statistics[58143] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58143,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128650,6 +131151,7 @@ _G.pg.base.item_data_statistics[58144] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58144,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128699,6 +131201,7 @@ _G.pg.base.item_data_statistics[58145] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58145,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128743,6 +131246,7 @@ _G.pg.base.item_data_statistics[58146] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58146,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128787,6 +131291,7 @@ _G.pg.base.item_data_statistics[58147] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58147,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128831,6 +131336,7 @@ _G.pg.base.item_data_statistics[58148] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58148,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128875,6 +131381,7 @@ _G.pg.base.item_data_statistics[58149] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58149,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -128919,6 +131426,7 @@ _G.pg.base.item_data_statistics[58150] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58150,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129053,6 +131561,7 @@ _G.pg.base.item_data_statistics[58151] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58151,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129187,6 +131696,7 @@ _G.pg.base.item_data_statistics[58152] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58152,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129321,6 +131831,7 @@ _G.pg.base.item_data_statistics[58153] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58153,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129455,6 +131966,7 @@ _G.pg.base.item_data_statistics[58154] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58154,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129589,6 +132101,7 @@ _G.pg.base.item_data_statistics[58155] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58155,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129728,6 +132241,7 @@ _G.pg.base.item_data_statistics[58156] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58156,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -129777,6 +132291,7 @@ _G.pg.base.item_data_statistics[58157] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58157,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -129821,6 +132336,7 @@ _G.pg.base.item_data_statistics[58158] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58158,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -129960,6 +132476,7 @@ _G.pg.base.item_data_statistics[58160] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58160,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130009,6 +132526,7 @@ _G.pg.base.item_data_statistics[58161] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58161,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130058,6 +132576,7 @@ _G.pg.base.item_data_statistics[58162] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58162,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130107,6 +132626,7 @@ _G.pg.base.item_data_statistics[58163] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58163,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130156,6 +132676,7 @@ _G.pg.base.item_data_statistics[58164] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58164,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130205,6 +132726,7 @@ _G.pg.base.item_data_statistics[58165] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58165,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130254,6 +132776,7 @@ _G.pg.base.item_data_statistics[58166] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58166,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130303,6 +132826,7 @@ _G.pg.base.item_data_statistics[58167] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58167,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130352,6 +132876,7 @@ _G.pg.base.item_data_statistics[58168] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58168,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130401,6 +132926,7 @@ _G.pg.base.item_data_statistics[58169] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58169,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130450,6 +132976,7 @@ _G.pg.base.item_data_statistics[58170] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58170,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130499,6 +133026,7 @@ _G.pg.base.item_data_statistics[58171] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58171,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -130548,6 +133076,7 @@ _G.pg.base.item_data_statistics[58172] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58172,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -130682,6 +133211,7 @@ _G.pg.base.item_data_statistics[58173] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58173,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -130816,6 +133346,7 @@ _G.pg.base.item_data_statistics[58174] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58174,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -130950,6 +133481,7 @@ _G.pg.base.item_data_statistics[58175] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58175,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -131084,6 +133616,7 @@ _G.pg.base.item_data_statistics[58176] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58176,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -131218,6 +133751,7 @@ _G.pg.base.item_data_statistics[58177] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58177,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -131357,6 +133891,7 @@ _G.pg.base.item_data_statistics[58178] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58178,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131406,6 +133941,7 @@ _G.pg.base.item_data_statistics[58179] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58179,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131455,6 +133991,7 @@ _G.pg.base.item_data_statistics[58180] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58180,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131504,6 +134041,7 @@ _G.pg.base.item_data_statistics[58181] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58181,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131553,6 +134091,7 @@ _G.pg.base.item_data_statistics[58182] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58182,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131602,6 +134141,7 @@ _G.pg.base.item_data_statistics[58183] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58183,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131651,6 +134191,7 @@ _G.pg.base.item_data_statistics[58184] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58184,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131700,6 +134241,7 @@ _G.pg.base.item_data_statistics[58185] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58185,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131744,6 +134286,7 @@ _G.pg.base.item_data_statistics[58186] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58186,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131788,6 +134331,7 @@ _G.pg.base.item_data_statistics[58187] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58187,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131832,6 +134376,7 @@ _G.pg.base.item_data_statistics[58188] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58188,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131876,6 +134421,7 @@ _G.pg.base.item_data_statistics[58189] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58189,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -131920,6 +134466,7 @@ _G.pg.base.item_data_statistics[58190] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58190,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132054,6 +134601,7 @@ _G.pg.base.item_data_statistics[58191] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58191,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132188,6 +134736,7 @@ _G.pg.base.item_data_statistics[58192] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58192,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132322,6 +134871,7 @@ _G.pg.base.item_data_statistics[58193] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58193,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132456,6 +135006,7 @@ _G.pg.base.item_data_statistics[58194] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58194,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132590,6 +135141,7 @@ _G.pg.base.item_data_statistics[58195] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58195,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132729,6 +135281,7 @@ _G.pg.base.item_data_statistics[58196] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58196,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -132778,6 +135331,7 @@ _G.pg.base.item_data_statistics[58197] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58197,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -132822,6 +135376,7 @@ _G.pg.base.item_data_statistics[58198] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58198,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -132961,6 +135516,7 @@ _G.pg.base.item_data_statistics[58200] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58200,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133010,6 +135566,7 @@ _G.pg.base.item_data_statistics[58201] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58201,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133059,6 +135616,7 @@ _G.pg.base.item_data_statistics[58202] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58202,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133108,6 +135666,7 @@ _G.pg.base.item_data_statistics[58203] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58203,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133157,6 +135716,7 @@ _G.pg.base.item_data_statistics[58204] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58204,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133206,6 +135766,7 @@ _G.pg.base.item_data_statistics[58205] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58205,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133255,6 +135816,7 @@ _G.pg.base.item_data_statistics[58206] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58206,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133304,6 +135866,7 @@ _G.pg.base.item_data_statistics[58207] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58207,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133353,6 +135916,7 @@ _G.pg.base.item_data_statistics[58208] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58208,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133402,6 +135966,7 @@ _G.pg.base.item_data_statistics[58209] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58209,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133451,6 +136016,7 @@ _G.pg.base.item_data_statistics[58210] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58210,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133500,6 +136066,7 @@ _G.pg.base.item_data_statistics[58211] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58211,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -133549,6 +136116,7 @@ _G.pg.base.item_data_statistics[58212] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58212,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -133683,6 +136251,7 @@ _G.pg.base.item_data_statistics[58213] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58213,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -133817,6 +136386,7 @@ _G.pg.base.item_data_statistics[58214] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58214,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -133951,6 +136521,7 @@ _G.pg.base.item_data_statistics[58215] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58215,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -134085,6 +136656,7 @@ _G.pg.base.item_data_statistics[58216] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58216,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -134219,6 +136791,7 @@ _G.pg.base.item_data_statistics[58217] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58217,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -134358,6 +136931,7 @@ _G.pg.base.item_data_statistics[58218] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58218,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134407,6 +136981,7 @@ _G.pg.base.item_data_statistics[58219] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58219,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134456,6 +137031,7 @@ _G.pg.base.item_data_statistics[58220] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58220,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134505,6 +137081,7 @@ _G.pg.base.item_data_statistics[58221] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58221,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134554,6 +137131,7 @@ _G.pg.base.item_data_statistics[58222] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58222,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134603,6 +137181,7 @@ _G.pg.base.item_data_statistics[58223] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58223,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134652,6 +137231,7 @@ _G.pg.base.item_data_statistics[58224] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58224,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134701,6 +137281,7 @@ _G.pg.base.item_data_statistics[58225] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58225,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134745,6 +137326,7 @@ _G.pg.base.item_data_statistics[58226] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58226,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134789,6 +137371,7 @@ _G.pg.base.item_data_statistics[58227] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58227,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134833,6 +137416,7 @@ _G.pg.base.item_data_statistics[58228] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58228,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134877,6 +137461,7 @@ _G.pg.base.item_data_statistics[58229] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58229,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -134921,6 +137506,7 @@ _G.pg.base.item_data_statistics[58230] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58230,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135055,6 +137641,7 @@ _G.pg.base.item_data_statistics[58231] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58231,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135189,6 +137776,7 @@ _G.pg.base.item_data_statistics[58232] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58232,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135323,6 +137911,7 @@ _G.pg.base.item_data_statistics[58233] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58233,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135457,6 +138046,7 @@ _G.pg.base.item_data_statistics[58234] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58234,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135591,6 +138181,7 @@ _G.pg.base.item_data_statistics[58235] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58235,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135730,6 +138321,7 @@ _G.pg.base.item_data_statistics[58236] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58236,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -135779,6 +138371,7 @@ _G.pg.base.item_data_statistics[58237] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58237,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -135823,6 +138416,7 @@ _G.pg.base.item_data_statistics[58238] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58238,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -135962,6 +138556,7 @@ _G.pg.base.item_data_statistics[58240] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58240,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136011,6 +138606,7 @@ _G.pg.base.item_data_statistics[58241] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58241,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136060,6 +138656,7 @@ _G.pg.base.item_data_statistics[58242] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58242,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136109,6 +138706,7 @@ _G.pg.base.item_data_statistics[58243] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58243,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136158,6 +138756,7 @@ _G.pg.base.item_data_statistics[58244] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58244,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136207,6 +138806,7 @@ _G.pg.base.item_data_statistics[58245] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58245,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136256,6 +138856,7 @@ _G.pg.base.item_data_statistics[58246] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58246,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136305,6 +138906,7 @@ _G.pg.base.item_data_statistics[58247] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58247,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136354,6 +138956,7 @@ _G.pg.base.item_data_statistics[58248] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58248,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136398,6 +139001,7 @@ _G.pg.base.item_data_statistics[58249] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58249,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -136442,6 +139046,7 @@ _G.pg.base.item_data_statistics[58250] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58250,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -136576,6 +139181,7 @@ _G.pg.base.item_data_statistics[58251] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58251,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -136710,6 +139316,7 @@ _G.pg.base.item_data_statistics[58252] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58252,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -136844,6 +139451,7 @@ _G.pg.base.item_data_statistics[58253] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58253,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -136983,6 +139591,7 @@ _G.pg.base.item_data_statistics[58254] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58254,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -137122,6 +139731,7 @@ _G.pg.base.item_data_statistics[58255] = {
 	is_world = 0,
 	icon = "Props/appearanceboxidolmaster",
 	id = 58255,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -137236,6 +139846,7 @@ _G.pg.base.item_data_statistics[58260] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58260,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137285,6 +139896,7 @@ _G.pg.base.item_data_statistics[58261] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58261,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137334,6 +139946,7 @@ _G.pg.base.item_data_statistics[58262] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58262,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137383,6 +139996,7 @@ _G.pg.base.item_data_statistics[58263] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58263,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137432,6 +140046,7 @@ _G.pg.base.item_data_statistics[58264] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58264,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137481,6 +140096,7 @@ _G.pg.base.item_data_statistics[58265] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58265,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137530,6 +140146,7 @@ _G.pg.base.item_data_statistics[58266] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58266,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137579,6 +140196,7 @@ _G.pg.base.item_data_statistics[58267] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58267,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137628,6 +140246,7 @@ _G.pg.base.item_data_statistics[58268] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58268,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137677,6 +140296,7 @@ _G.pg.base.item_data_statistics[58269] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58269,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137726,6 +140346,7 @@ _G.pg.base.item_data_statistics[58270] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58270,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137775,6 +140396,7 @@ _G.pg.base.item_data_statistics[58271] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58271,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -137824,6 +140446,7 @@ _G.pg.base.item_data_statistics[58272] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58272,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -137958,6 +140581,7 @@ _G.pg.base.item_data_statistics[58273] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58273,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -138092,6 +140716,7 @@ _G.pg.base.item_data_statistics[58274] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58274,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -138226,6 +140851,7 @@ _G.pg.base.item_data_statistics[58275] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58275,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -138360,6 +140986,7 @@ _G.pg.base.item_data_statistics[58276] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58276,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -138494,6 +141121,7 @@ _G.pg.base.item_data_statistics[58277] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58277,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -138633,6 +141261,7 @@ _G.pg.base.item_data_statistics[58278] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58278,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138682,6 +141311,7 @@ _G.pg.base.item_data_statistics[58279] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58279,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138731,6 +141361,7 @@ _G.pg.base.item_data_statistics[58280] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58280,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138780,6 +141411,7 @@ _G.pg.base.item_data_statistics[58281] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58281,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138829,6 +141461,7 @@ _G.pg.base.item_data_statistics[58282] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58282,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138878,6 +141511,7 @@ _G.pg.base.item_data_statistics[58283] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58283,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138927,6 +141561,7 @@ _G.pg.base.item_data_statistics[58284] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58284,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -138976,6 +141611,7 @@ _G.pg.base.item_data_statistics[58285] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58285,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -139020,6 +141656,7 @@ _G.pg.base.item_data_statistics[58286] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58286,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -139064,6 +141701,7 @@ _G.pg.base.item_data_statistics[58287] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58287,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -139108,6 +141746,7 @@ _G.pg.base.item_data_statistics[58288] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58288,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -139152,6 +141791,7 @@ _G.pg.base.item_data_statistics[58289] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58289,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -139196,6 +141836,7 @@ _G.pg.base.item_data_statistics[58290] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58290,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -139330,6 +141971,7 @@ _G.pg.base.item_data_statistics[58291] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58291,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -139464,6 +142106,7 @@ _G.pg.base.item_data_statistics[58292] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58292,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -139598,6 +142241,7 @@ _G.pg.base.item_data_statistics[58293] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58293,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -139732,6 +142376,7 @@ _G.pg.base.item_data_statistics[58294] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58294,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -139866,6 +142511,7 @@ _G.pg.base.item_data_statistics[58295] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58295,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -140005,6 +142651,7 @@ _G.pg.base.item_data_statistics[58296] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58296,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140054,6 +142701,7 @@ _G.pg.base.item_data_statistics[58297] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58297,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140098,6 +142746,7 @@ _G.pg.base.item_data_statistics[58298] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58298,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -140237,6 +142886,7 @@ _G.pg.base.item_data_statistics[58300] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58300,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140286,6 +142936,7 @@ _G.pg.base.item_data_statistics[58301] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58301,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140335,6 +142986,7 @@ _G.pg.base.item_data_statistics[58302] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58302,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140384,6 +143036,7 @@ _G.pg.base.item_data_statistics[58303] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58303,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140433,6 +143086,7 @@ _G.pg.base.item_data_statistics[58304] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58304,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140482,6 +143136,7 @@ _G.pg.base.item_data_statistics[58305] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58305,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140526,6 +143181,7 @@ _G.pg.base.item_data_statistics[58306] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58306,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -140660,6 +143316,7 @@ _G.pg.base.item_data_statistics[58307] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58307,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -140794,6 +143451,7 @@ _G.pg.base.item_data_statistics[58308] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58308,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -140928,6 +143586,7 @@ _G.pg.base.item_data_statistics[58400] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58400,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -140977,6 +143636,7 @@ _G.pg.base.item_data_statistics[58401] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58401,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141026,6 +143686,7 @@ _G.pg.base.item_data_statistics[58402] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58402,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141075,6 +143736,7 @@ _G.pg.base.item_data_statistics[58403] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58403,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141124,6 +143786,7 @@ _G.pg.base.item_data_statistics[58404] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58404,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141173,6 +143836,7 @@ _G.pg.base.item_data_statistics[58405] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58405,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141222,6 +143886,7 @@ _G.pg.base.item_data_statistics[58406] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58406,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141271,6 +143936,7 @@ _G.pg.base.item_data_statistics[58407] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58407,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141320,6 +143986,7 @@ _G.pg.base.item_data_statistics[58408] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58408,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141364,6 +144031,7 @@ _G.pg.base.item_data_statistics[58409] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58409,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -141408,6 +144076,7 @@ _G.pg.base.item_data_statistics[58410] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58410,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -141542,6 +144211,7 @@ _G.pg.base.item_data_statistics[58411] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58411,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -141676,6 +144346,7 @@ _G.pg.base.item_data_statistics[58412] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58412,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -141810,6 +144481,7 @@ _G.pg.base.item_data_statistics[58413] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58413,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -141949,6 +144621,7 @@ _G.pg.base.item_data_statistics[58414] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58414,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -142088,6 +144761,7 @@ _G.pg.base.item_data_statistics[58415] = {
 	is_world = 0,
 	icon = "Props/appearanceboxssss",
 	id = 58415,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -142202,6 +144876,7 @@ _G.pg.base.item_data_statistics[58420] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58420,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142251,6 +144926,7 @@ _G.pg.base.item_data_statistics[58421] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58421,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142300,6 +144976,7 @@ _G.pg.base.item_data_statistics[58422] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58422,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142349,6 +145026,7 @@ _G.pg.base.item_data_statistics[58423] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58423,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142398,6 +145076,7 @@ _G.pg.base.item_data_statistics[58424] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58424,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142447,6 +145126,7 @@ _G.pg.base.item_data_statistics[58425] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58425,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142496,6 +145176,7 @@ _G.pg.base.item_data_statistics[58426] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58426,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142545,6 +145226,7 @@ _G.pg.base.item_data_statistics[58427] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58427,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142594,6 +145276,7 @@ _G.pg.base.item_data_statistics[58428] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58428,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142643,6 +145326,7 @@ _G.pg.base.item_data_statistics[58429] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58429,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142692,6 +145376,7 @@ _G.pg.base.item_data_statistics[58430] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58430,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142741,6 +145426,7 @@ _G.pg.base.item_data_statistics[58431] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58431,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -142790,6 +145476,7 @@ _G.pg.base.item_data_statistics[58432] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58432,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -142924,6 +145611,7 @@ _G.pg.base.item_data_statistics[58433] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58433,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -143058,6 +145746,7 @@ _G.pg.base.item_data_statistics[58434] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58434,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -143192,6 +145881,7 @@ _G.pg.base.item_data_statistics[58435] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58435,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -143326,6 +146016,7 @@ _G.pg.base.item_data_statistics[58436] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58436,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -143460,6 +146151,7 @@ _G.pg.base.item_data_statistics[58437] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58437,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -143599,6 +146291,7 @@ _G.pg.base.item_data_statistics[58438] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58438,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143648,6 +146341,7 @@ _G.pg.base.item_data_statistics[58439] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58439,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143697,6 +146391,7 @@ _G.pg.base.item_data_statistics[58440] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58440,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143746,6 +146441,7 @@ _G.pg.base.item_data_statistics[58441] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58441,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143795,6 +146491,7 @@ _G.pg.base.item_data_statistics[58442] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58442,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143844,6 +146541,7 @@ _G.pg.base.item_data_statistics[58443] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58443,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143893,6 +146591,7 @@ _G.pg.base.item_data_statistics[58444] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58444,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143942,6 +146641,7 @@ _G.pg.base.item_data_statistics[58445] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58445,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -143986,6 +146686,7 @@ _G.pg.base.item_data_statistics[58446] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58446,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -144030,6 +146731,7 @@ _G.pg.base.item_data_statistics[58447] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58447,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -144074,6 +146776,7 @@ _G.pg.base.item_data_statistics[58448] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58448,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -144118,6 +146821,7 @@ _G.pg.base.item_data_statistics[58449] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58449,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -144162,6 +146866,7 @@ _G.pg.base.item_data_statistics[58450] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58450,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144296,6 +147001,7 @@ _G.pg.base.item_data_statistics[58451] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58451,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144430,6 +147136,7 @@ _G.pg.base.item_data_statistics[58452] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58452,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144564,6 +147271,7 @@ _G.pg.base.item_data_statistics[58453] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58453,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144698,6 +147406,7 @@ _G.pg.base.item_data_statistics[58454] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58454,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144832,6 +147541,7 @@ _G.pg.base.item_data_statistics[58455] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58455,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -144971,6 +147681,7 @@ _G.pg.base.item_data_statistics[58456] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58456,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145020,6 +147731,7 @@ _G.pg.base.item_data_statistics[58457] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58457,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145064,6 +147776,7 @@ _G.pg.base.item_data_statistics[58458] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58458,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -145203,6 +147916,7 @@ _G.pg.base.item_data_statistics[58459] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58459,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145252,6 +147966,7 @@ _G.pg.base.item_data_statistics[58460] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58460,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145301,6 +148016,7 @@ _G.pg.base.item_data_statistics[58461] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58461,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145350,6 +148066,7 @@ _G.pg.base.item_data_statistics[58470] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58470,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145399,6 +148116,7 @@ _G.pg.base.item_data_statistics[58471] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58471,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145448,6 +148166,7 @@ _G.pg.base.item_data_statistics[58472] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58472,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145497,6 +148216,7 @@ _G.pg.base.item_data_statistics[58473] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58473,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145546,6 +148266,7 @@ _G.pg.base.item_data_statistics[58474] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58474,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145595,6 +148316,7 @@ _G.pg.base.item_data_statistics[58475] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58475,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145644,6 +148366,7 @@ _G.pg.base.item_data_statistics[58476] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58476,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145693,6 +148416,7 @@ _G.pg.base.item_data_statistics[58477] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58477,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145742,6 +148466,7 @@ _G.pg.base.item_data_statistics[58478] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58478,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145791,6 +148516,7 @@ _G.pg.base.item_data_statistics[58479] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58479,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145840,6 +148566,7 @@ _G.pg.base.item_data_statistics[58480] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58480,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145889,6 +148616,7 @@ _G.pg.base.item_data_statistics[58481] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58481,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -145938,6 +148666,7 @@ _G.pg.base.item_data_statistics[58482] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58482,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146072,6 +148801,7 @@ _G.pg.base.item_data_statistics[58483] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58483,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146206,6 +148936,7 @@ _G.pg.base.item_data_statistics[58484] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58484,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146340,6 +149071,7 @@ _G.pg.base.item_data_statistics[58485] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58485,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146474,6 +149206,7 @@ _G.pg.base.item_data_statistics[58486] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58486,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146608,6 +149341,7 @@ _G.pg.base.item_data_statistics[58487] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58487,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -146747,6 +149481,7 @@ _G.pg.base.item_data_statistics[58488] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58488,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -146796,6 +149531,7 @@ _G.pg.base.item_data_statistics[58489] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58489,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -146845,6 +149581,7 @@ _G.pg.base.item_data_statistics[58490] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58490,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -146894,6 +149631,7 @@ _G.pg.base.item_data_statistics[58491] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58491,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -146943,6 +149681,7 @@ _G.pg.base.item_data_statistics[58492] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58492,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -146992,6 +149731,7 @@ _G.pg.base.item_data_statistics[58493] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58493,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147041,6 +149781,7 @@ _G.pg.base.item_data_statistics[58494] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58494,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147090,6 +149831,7 @@ _G.pg.base.item_data_statistics[58495] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58495,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147134,6 +149876,7 @@ _G.pg.base.item_data_statistics[58496] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58496,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147178,6 +149921,7 @@ _G.pg.base.item_data_statistics[58497] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58497,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147222,6 +149966,7 @@ _G.pg.base.item_data_statistics[58498] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58498,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147266,6 +150011,7 @@ _G.pg.base.item_data_statistics[58499] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58499,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -147310,6 +150056,7 @@ _G.pg.base.item_data_statistics[58500] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58500,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -147444,6 +150191,7 @@ _G.pg.base.item_data_statistics[58501] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58501,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -147578,6 +150326,7 @@ _G.pg.base.item_data_statistics[58502] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58502,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -147712,6 +150461,7 @@ _G.pg.base.item_data_statistics[58503] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58503,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -147846,6 +150596,7 @@ _G.pg.base.item_data_statistics[58504] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58504,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -147980,6 +150731,7 @@ _G.pg.base.item_data_statistics[58505] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58505,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -148119,6 +150871,7 @@ _G.pg.base.item_data_statistics[58506] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58506,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148168,6 +150921,7 @@ _G.pg.base.item_data_statistics[58507] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58507,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148212,6 +150966,7 @@ _G.pg.base.item_data_statistics[58508] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58508,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -148351,6 +151106,7 @@ _G.pg.base.item_data_statistics[58510] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58510,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148400,6 +151156,7 @@ _G.pg.base.item_data_statistics[58511] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58511,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148449,6 +151206,7 @@ _G.pg.base.item_data_statistics[58512] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58512,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148498,6 +151256,7 @@ _G.pg.base.item_data_statistics[58513] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58513,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148547,6 +151306,7 @@ _G.pg.base.item_data_statistics[58514] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58514,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148596,6 +151356,7 @@ _G.pg.base.item_data_statistics[58515] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58515,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148645,6 +151406,7 @@ _G.pg.base.item_data_statistics[58516] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58516,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148694,6 +151456,7 @@ _G.pg.base.item_data_statistics[58517] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58517,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148743,6 +151506,7 @@ _G.pg.base.item_data_statistics[58518] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58518,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148787,6 +151551,7 @@ _G.pg.base.item_data_statistics[58519] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58519,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -148831,6 +151596,7 @@ _G.pg.base.item_data_statistics[58520] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58520,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -148965,6 +151731,7 @@ _G.pg.base.item_data_statistics[58521] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58521,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -149099,6 +151866,7 @@ _G.pg.base.item_data_statistics[58522] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58522,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -149233,6 +152001,7 @@ _G.pg.base.item_data_statistics[58523] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58523,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -149372,6 +152141,7 @@ _G.pg.base.item_data_statistics[58524] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58524,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -149511,6 +152281,7 @@ _G.pg.base.item_data_statistics[58530] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58530,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149560,6 +152331,7 @@ _G.pg.base.item_data_statistics[58531] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58531,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149609,6 +152381,7 @@ _G.pg.base.item_data_statistics[58532] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58532,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149658,6 +152431,7 @@ _G.pg.base.item_data_statistics[58533] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58533,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149707,6 +152481,7 @@ _G.pg.base.item_data_statistics[58534] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58534,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149756,6 +152531,7 @@ _G.pg.base.item_data_statistics[58535] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58535,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149805,6 +152581,7 @@ _G.pg.base.item_data_statistics[58536] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58536,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149854,6 +152631,7 @@ _G.pg.base.item_data_statistics[58537] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58537,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149903,6 +152681,7 @@ _G.pg.base.item_data_statistics[58538] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58538,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -149952,6 +152731,7 @@ _G.pg.base.item_data_statistics[58539] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58539,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -150001,6 +152781,7 @@ _G.pg.base.item_data_statistics[58540] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58540,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -150050,6 +152831,7 @@ _G.pg.base.item_data_statistics[58541] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58541,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -150099,6 +152881,7 @@ _G.pg.base.item_data_statistics[58542] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58542,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150233,6 +153016,7 @@ _G.pg.base.item_data_statistics[58543] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58543,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150367,6 +153151,7 @@ _G.pg.base.item_data_statistics[58544] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58544,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150501,6 +153286,7 @@ _G.pg.base.item_data_statistics[58545] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58545,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150635,6 +153421,7 @@ _G.pg.base.item_data_statistics[58546] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58546,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150769,6 +153556,7 @@ _G.pg.base.item_data_statistics[58547] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58547,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -150908,6 +153696,7 @@ _G.pg.base.item_data_statistics[58548] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58548,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -150957,6 +153746,7 @@ _G.pg.base.item_data_statistics[58549] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58549,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151006,6 +153796,7 @@ _G.pg.base.item_data_statistics[58550] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58550,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151055,6 +153846,7 @@ _G.pg.base.item_data_statistics[58551] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58551,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151104,6 +153896,7 @@ _G.pg.base.item_data_statistics[58552] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58552,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151153,6 +153946,7 @@ _G.pg.base.item_data_statistics[58553] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58553,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151202,6 +153996,7 @@ _G.pg.base.item_data_statistics[58554] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58554,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151251,6 +154046,7 @@ _G.pg.base.item_data_statistics[58555] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58555,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151295,6 +154091,7 @@ _G.pg.base.item_data_statistics[58556] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58556,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151339,6 +154136,7 @@ _G.pg.base.item_data_statistics[58557] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58557,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151383,6 +154181,7 @@ _G.pg.base.item_data_statistics[58558] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58558,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151427,6 +154226,7 @@ _G.pg.base.item_data_statistics[58559] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58559,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -151471,6 +154271,7 @@ _G.pg.base.item_data_statistics[58560] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58560,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -151605,6 +154406,7 @@ _G.pg.base.item_data_statistics[58561] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58561,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -151739,6 +154541,7 @@ _G.pg.base.item_data_statistics[58562] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58562,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -151873,6 +154676,7 @@ _G.pg.base.item_data_statistics[58563] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58563,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -152007,6 +154811,7 @@ _G.pg.base.item_data_statistics[58564] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58564,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -152141,6 +154946,7 @@ _G.pg.base.item_data_statistics[58565] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58565,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -152280,6 +155086,7 @@ _G.pg.base.item_data_statistics[58566] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58566,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152329,6 +155136,7 @@ _G.pg.base.item_data_statistics[58567] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58567,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152373,6 +155181,7 @@ _G.pg.base.item_data_statistics[58568] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58568,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -152512,6 +155321,7 @@ _G.pg.base.item_data_statistics[58570] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58570,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152561,6 +155371,7 @@ _G.pg.base.item_data_statistics[58571] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58571,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152610,6 +155421,7 @@ _G.pg.base.item_data_statistics[58572] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58572,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152659,6 +155471,7 @@ _G.pg.base.item_data_statistics[58573] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58573,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152708,6 +155521,7 @@ _G.pg.base.item_data_statistics[58574] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58574,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152757,6 +155571,7 @@ _G.pg.base.item_data_statistics[58575] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58575,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152806,6 +155621,7 @@ _G.pg.base.item_data_statistics[58576] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58576,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152855,6 +155671,7 @@ _G.pg.base.item_data_statistics[58577] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58577,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152904,6 +155721,7 @@ _G.pg.base.item_data_statistics[58578] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58578,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -152953,6 +155771,7 @@ _G.pg.base.item_data_statistics[58579] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58579,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -153002,6 +155821,7 @@ _G.pg.base.item_data_statistics[58580] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58580,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -153051,6 +155871,7 @@ _G.pg.base.item_data_statistics[58581] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58581,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -153100,6 +155921,7 @@ _G.pg.base.item_data_statistics[58582] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58582,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153234,6 +156056,7 @@ _G.pg.base.item_data_statistics[58583] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58583,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153368,6 +156191,7 @@ _G.pg.base.item_data_statistics[58584] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58584,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153502,6 +156326,7 @@ _G.pg.base.item_data_statistics[58585] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58585,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153636,6 +156461,7 @@ _G.pg.base.item_data_statistics[58586] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58586,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153770,6 +156596,7 @@ _G.pg.base.item_data_statistics[58587] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58587,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -153909,6 +156736,7 @@ _G.pg.base.item_data_statistics[58588] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58588,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -153958,6 +156786,7 @@ _G.pg.base.item_data_statistics[58589] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58589,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154007,6 +156836,7 @@ _G.pg.base.item_data_statistics[58590] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58590,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154056,6 +156886,7 @@ _G.pg.base.item_data_statistics[58591] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58591,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154105,6 +156936,7 @@ _G.pg.base.item_data_statistics[58592] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58592,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154154,6 +156986,7 @@ _G.pg.base.item_data_statistics[58593] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58593,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154203,6 +157036,7 @@ _G.pg.base.item_data_statistics[58594] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58594,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154252,6 +157086,7 @@ _G.pg.base.item_data_statistics[58595] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58595,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154296,6 +157131,7 @@ _G.pg.base.item_data_statistics[58596] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58596,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154340,6 +157176,7 @@ _G.pg.base.item_data_statistics[58597] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58597,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154384,6 +157221,7 @@ _G.pg.base.item_data_statistics[58598] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58598,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154428,6 +157266,7 @@ _G.pg.base.item_data_statistics[58599] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58599,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -154472,6 +157311,7 @@ _G.pg.base.item_data_statistics[58600] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58600,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -154606,6 +157446,7 @@ _G.pg.base.item_data_statistics[58601] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58601,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -154740,6 +157581,7 @@ _G.pg.base.item_data_statistics[58602] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58602,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -154874,6 +157716,7 @@ _G.pg.base.item_data_statistics[58603] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58603,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -155008,6 +157851,7 @@ _G.pg.base.item_data_statistics[58604] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58604,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -155142,6 +157986,7 @@ _G.pg.base.item_data_statistics[58605] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58605,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -155281,6 +158126,7 @@ _G.pg.base.item_data_statistics[58606] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58606,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155330,6 +158176,7 @@ _G.pg.base.item_data_statistics[58607] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58607,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155374,6 +158221,7 @@ _G.pg.base.item_data_statistics[58608] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58608,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -155513,6 +158361,7 @@ _G.pg.base.item_data_statistics[58609] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58609,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155562,6 +158411,7 @@ _G.pg.base.item_data_statistics[58610] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58610,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155611,6 +158461,7 @@ _G.pg.base.item_data_statistics[58611] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58611,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155660,6 +158511,7 @@ _G.pg.base.item_data_statistics[58620] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58620,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155709,6 +158561,7 @@ _G.pg.base.item_data_statistics[58621] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58621,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155758,6 +158611,7 @@ _G.pg.base.item_data_statistics[58622] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58622,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155807,6 +158661,7 @@ _G.pg.base.item_data_statistics[58623] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58623,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155856,6 +158711,7 @@ _G.pg.base.item_data_statistics[58624] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58624,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155905,6 +158761,7 @@ _G.pg.base.item_data_statistics[58625] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58625,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -155954,6 +158811,7 @@ _G.pg.base.item_data_statistics[58626] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58626,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156003,6 +158861,7 @@ _G.pg.base.item_data_statistics[58627] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58627,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156052,6 +158911,7 @@ _G.pg.base.item_data_statistics[58628] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58628,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156101,6 +158961,7 @@ _G.pg.base.item_data_statistics[58629] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58629,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156150,6 +159011,7 @@ _G.pg.base.item_data_statistics[58630] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58630,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156199,6 +159061,7 @@ _G.pg.base.item_data_statistics[58631] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58631,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -156248,6 +159111,7 @@ _G.pg.base.item_data_statistics[58632] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58632,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -156382,6 +159246,7 @@ _G.pg.base.item_data_statistics[58633] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58633,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -156516,6 +159381,7 @@ _G.pg.base.item_data_statistics[58634] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58634,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -156650,6 +159516,7 @@ _G.pg.base.item_data_statistics[58635] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58635,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -156784,6 +159651,7 @@ _G.pg.base.item_data_statistics[58636] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58636,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -156918,6 +159786,7 @@ _G.pg.base.item_data_statistics[58637] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58637,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -157057,6 +159926,7 @@ _G.pg.base.item_data_statistics[58638] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58638,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157106,6 +159976,7 @@ _G.pg.base.item_data_statistics[58639] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58639,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157155,6 +160026,7 @@ _G.pg.base.item_data_statistics[58640] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58640,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157204,6 +160076,7 @@ _G.pg.base.item_data_statistics[58641] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58641,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157253,6 +160126,7 @@ _G.pg.base.item_data_statistics[58642] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58642,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157302,6 +160176,7 @@ _G.pg.base.item_data_statistics[58643] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58643,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157351,6 +160226,7 @@ _G.pg.base.item_data_statistics[58644] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58644,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157400,6 +160276,7 @@ _G.pg.base.item_data_statistics[58645] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58645,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157444,6 +160321,7 @@ _G.pg.base.item_data_statistics[58646] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58646,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157488,6 +160366,7 @@ _G.pg.base.item_data_statistics[58647] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58647,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157532,6 +160411,7 @@ _G.pg.base.item_data_statistics[58648] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58648,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157576,6 +160456,7 @@ _G.pg.base.item_data_statistics[58649] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58649,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -157620,6 +160501,7 @@ _G.pg.base.item_data_statistics[58650] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58650,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -157754,6 +160636,7 @@ _G.pg.base.item_data_statistics[58651] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58651,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -157888,6 +160771,7 @@ _G.pg.base.item_data_statistics[58652] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58652,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -158022,6 +160906,7 @@ _G.pg.base.item_data_statistics[58653] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58653,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -158156,6 +161041,7 @@ _G.pg.base.item_data_statistics[58654] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58654,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -158290,6 +161176,7 @@ _G.pg.base.item_data_statistics[58655] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58655,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -158429,6 +161316,7 @@ _G.pg.base.item_data_statistics[58656] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58656,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158478,6 +161366,7 @@ _G.pg.base.item_data_statistics[58657] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58657,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158522,6 +161411,7 @@ _G.pg.base.item_data_statistics[58658] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58658,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -158661,6 +161551,7 @@ _G.pg.base.item_data_statistics[58660] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58660,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158710,6 +161601,7 @@ _G.pg.base.item_data_statistics[58661] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58661,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158759,6 +161651,7 @@ _G.pg.base.item_data_statistics[58662] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58662,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158808,6 +161701,7 @@ _G.pg.base.item_data_statistics[58663] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58663,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158857,6 +161751,7 @@ _G.pg.base.item_data_statistics[58664] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58664,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158906,6 +161801,7 @@ _G.pg.base.item_data_statistics[58665] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58665,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -158955,6 +161851,7 @@ _G.pg.base.item_data_statistics[58666] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58666,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159004,6 +161901,7 @@ _G.pg.base.item_data_statistics[58667] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58667,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159053,6 +161951,7 @@ _G.pg.base.item_data_statistics[58668] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58668,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159097,6 +161996,7 @@ _G.pg.base.item_data_statistics[58669] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58669,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159141,6 +162041,7 @@ _G.pg.base.item_data_statistics[58670] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58670,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -159275,6 +162176,7 @@ _G.pg.base.item_data_statistics[58671] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58671,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -159409,6 +162311,7 @@ _G.pg.base.item_data_statistics[58672] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58672,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -159548,6 +162451,7 @@ _G.pg.base.item_data_statistics[58673] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58673,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -159687,6 +162591,7 @@ _G.pg.base.item_data_statistics[58674] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58674,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -159826,6 +162731,7 @@ _G.pg.base.item_data_statistics[58680] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58680,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159875,6 +162781,7 @@ _G.pg.base.item_data_statistics[58681] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58681,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159924,6 +162831,7 @@ _G.pg.base.item_data_statistics[58682] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58682,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -159973,6 +162881,7 @@ _G.pg.base.item_data_statistics[58683] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58683,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160022,6 +162931,7 @@ _G.pg.base.item_data_statistics[58684] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58684,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160071,6 +162981,7 @@ _G.pg.base.item_data_statistics[58685] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58685,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160120,6 +163031,7 @@ _G.pg.base.item_data_statistics[58686] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58686,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160169,6 +163081,7 @@ _G.pg.base.item_data_statistics[58687] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58687,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160218,6 +163131,7 @@ _G.pg.base.item_data_statistics[58688] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58688,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160267,6 +163181,7 @@ _G.pg.base.item_data_statistics[58689] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58689,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160316,6 +163231,7 @@ _G.pg.base.item_data_statistics[58690] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58690,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160365,6 +163281,7 @@ _G.pg.base.item_data_statistics[58691] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58691,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -160414,6 +163331,7 @@ _G.pg.base.item_data_statistics[58692] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58692,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -160548,6 +163466,7 @@ _G.pg.base.item_data_statistics[58693] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58693,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -160682,6 +163601,7 @@ _G.pg.base.item_data_statistics[58694] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58694,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -160816,6 +163736,7 @@ _G.pg.base.item_data_statistics[58695] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58695,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -160950,6 +163871,7 @@ _G.pg.base.item_data_statistics[58696] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58696,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -161089,6 +164011,7 @@ _G.pg.base.item_data_statistics[58697] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58697,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -161228,6 +164151,7 @@ _G.pg.base.item_data_statistics[58698] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58698,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161277,6 +164201,7 @@ _G.pg.base.item_data_statistics[58699] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58699,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161326,6 +164251,7 @@ _G.pg.base.item_data_statistics[58700] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58700,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161375,6 +164301,7 @@ _G.pg.base.item_data_statistics[58701] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58701,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161424,6 +164351,7 @@ _G.pg.base.item_data_statistics[58702] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58702,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161473,6 +164401,7 @@ _G.pg.base.item_data_statistics[58703] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58703,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161522,6 +164451,7 @@ _G.pg.base.item_data_statistics[58704] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58704,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161571,6 +164501,7 @@ _G.pg.base.item_data_statistics[58705] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58705,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161615,6 +164546,7 @@ _G.pg.base.item_data_statistics[58706] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58706,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161659,6 +164591,7 @@ _G.pg.base.item_data_statistics[58707] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58707,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161703,6 +164636,7 @@ _G.pg.base.item_data_statistics[58708] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58708,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161747,6 +164681,7 @@ _G.pg.base.item_data_statistics[58709] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58709,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -161791,6 +164726,7 @@ _G.pg.base.item_data_statistics[58710] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58710,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -161925,6 +164861,7 @@ _G.pg.base.item_data_statistics[58711] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58711,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162059,6 +164996,7 @@ _G.pg.base.item_data_statistics[58712] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58712,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162193,6 +165131,7 @@ _G.pg.base.item_data_statistics[58713] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58713,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162327,6 +165266,7 @@ _G.pg.base.item_data_statistics[58714] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58714,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162466,6 +165406,7 @@ _G.pg.base.item_data_statistics[58715] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58715,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162605,6 +165546,7 @@ _G.pg.base.item_data_statistics[58716] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58716,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -162654,6 +165596,7 @@ _G.pg.base.item_data_statistics[58717] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58717,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -162698,6 +165641,7 @@ _G.pg.base.item_data_statistics[58718] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58718,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -162837,6 +165781,7 @@ _G.pg.base.item_data_statistics[58719] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58719,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -162886,6 +165831,7 @@ _G.pg.base.item_data_statistics[58720] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58720,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -162935,6 +165881,7 @@ _G.pg.base.item_data_statistics[58721] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58721,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -162984,6 +165931,7 @@ _G.pg.base.item_data_statistics[58722] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58722,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163033,6 +165981,7 @@ _G.pg.base.item_data_statistics[58723] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58723,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163082,6 +166031,7 @@ _G.pg.base.item_data_statistics[58724] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58724,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163131,6 +166081,7 @@ _G.pg.base.item_data_statistics[58725] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58725,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163180,6 +166131,7 @@ _G.pg.base.item_data_statistics[58726] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58726,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163229,6 +166181,7 @@ _G.pg.base.item_data_statistics[58727] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58727,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163278,6 +166231,7 @@ _G.pg.base.item_data_statistics[58728] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58728,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163327,6 +166281,7 @@ _G.pg.base.item_data_statistics[58729] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58729,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163376,6 +166331,7 @@ _G.pg.base.item_data_statistics[58730] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58730,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163425,6 +166381,7 @@ _G.pg.base.item_data_statistics[58731] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58731,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163474,6 +166431,7 @@ _G.pg.base.item_data_statistics[58732] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58732,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163518,6 +166476,7 @@ _G.pg.base.item_data_statistics[58733] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58733,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -163562,6 +166521,7 @@ _G.pg.base.item_data_statistics[58734] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58734,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -163696,6 +166656,7 @@ _G.pg.base.item_data_statistics[58735] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58735,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -163830,6 +166791,7 @@ _G.pg.base.item_data_statistics[58736] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58736,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -163964,6 +166926,7 @@ _G.pg.base.item_data_statistics[58737] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58737,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -164098,6 +167061,7 @@ _G.pg.base.item_data_statistics[58738] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58738,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -164237,6 +167201,7 @@ _G.pg.base.item_data_statistics[58739] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58739,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -164376,6 +167341,7 @@ _G.pg.base.item_data_statistics[58740] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58740,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164425,6 +167391,7 @@ _G.pg.base.item_data_statistics[58741] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58741,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164474,6 +167441,7 @@ _G.pg.base.item_data_statistics[58742] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58742,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164523,6 +167491,7 @@ _G.pg.base.item_data_statistics[58743] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58743,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164572,6 +167541,7 @@ _G.pg.base.item_data_statistics[58744] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58744,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164621,6 +167591,7 @@ _G.pg.base.item_data_statistics[58745] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58745,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164665,6 +167636,7 @@ _G.pg.base.item_data_statistics[58746] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58746,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164709,6 +167681,7 @@ _G.pg.base.item_data_statistics[58747] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58747,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164753,6 +167726,7 @@ _G.pg.base.item_data_statistics[58748] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58748,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164797,6 +167771,7 @@ _G.pg.base.item_data_statistics[58749] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58749,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -164841,6 +167816,7 @@ _G.pg.base.item_data_statistics[58750] = {
 	is_world = 0,
 	icon = "Props/equipskin_drop_display",
 	id = 58750,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -164955,6 +167931,7 @@ _G.pg.base.item_data_statistics[58751] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58751,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -165094,6 +168071,7 @@ _G.pg.base.item_data_statistics[58752] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58752,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -165233,6 +168211,7 @@ _G.pg.base.item_data_statistics[58753] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58753,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -165372,6 +168351,7 @@ _G.pg.base.item_data_statistics[58754] = {
 	is_world = 0,
 	icon = "Props/54000",
 	id = 58754,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -165511,6 +168491,7 @@ _G.pg.base.item_data_statistics[58836] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58836,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -165560,6 +168541,7 @@ _G.pg.base.item_data_statistics[58837] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58837,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -165609,6 +168591,7 @@ _G.pg.base.item_data_statistics[58838] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58838,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -165658,6 +168641,7 @@ _G.pg.base.item_data_statistics[58839] = {
 	is_world = 0,
 	icon = "Props/55000",
 	id = 58839,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -165707,6 +168691,7 @@ _G.pg.base.item_data_statistics[59000] = {
 	is_world = 0,
 	icon = "Props/exp",
 	id = 59000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165730,6 +168715,7 @@ _G.pg.base.item_data_statistics[59001] = {
 	is_world = 0,
 	icon = "Props/gold",
 	id = 59001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165753,6 +168739,7 @@ _G.pg.base.item_data_statistics[59002] = {
 	is_world = 0,
 	icon = "Props/oil",
 	id = 59002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165776,6 +168763,7 @@ _G.pg.base.item_data_statistics[59003] = {
 	is_world = 0,
 	icon = "Props/exploit",
 	id = 59003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165799,6 +168787,7 @@ _G.pg.base.item_data_statistics[59004] = {
 	is_world = 0,
 	icon = "Props/gem",
 	id = 59004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165822,6 +168811,7 @@ _G.pg.base.item_data_statistics[59005] = {
 	is_world = 0,
 	icon = "Props/gem",
 	id = 59005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165845,6 +168835,7 @@ _G.pg.base.item_data_statistics[59006] = {
 	is_world = 0,
 	icon = "Props/dormMoney",
 	id = 59006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165868,6 +168859,7 @@ _G.pg.base.item_data_statistics[59008] = {
 	is_world = 0,
 	icon = "Props/guildIcon",
 	id = 59008,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165891,6 +168883,7 @@ _G.pg.base.item_data_statistics[59009] = {
 	is_world = 0,
 	icon = "Props/design_prt",
 	id = 59009,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165914,6 +168907,7 @@ _G.pg.base.item_data_statistics[59010] = {
 	is_world = 0,
 	icon = "Props/specialarmor_prt",
 	id = 59010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165937,6 +168931,7 @@ _G.pg.base.item_data_statistics[59011] = {
 	is_world = 0,
 	icon = "Props/specialarmor_prt",
 	id = 59011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165960,6 +168955,7 @@ _G.pg.base.item_data_statistics[59012] = {
 	is_world = 0,
 	icon = "Props/weekly_pt",
 	id = 59012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -165983,6 +168979,7 @@ _G.pg.base.item_data_statistics[59015] = {
 	is_world = 0,
 	icon = "Props/gamecoin",
 	id = 59015,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166006,6 +169003,7 @@ _G.pg.base.item_data_statistics[59016] = {
 	is_world = 0,
 	icon = "Props/gameticket",
 	id = 59016,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166029,6 +169027,7 @@ _G.pg.base.item_data_statistics[59017] = {
 	is_world = 0,
 	icon = "Props/soundStoryTicket",
 	id = 59017,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166052,6 +169051,7 @@ _G.pg.base.item_data_statistics[59100] = {
 	is_world = 0,
 	icon = "props/equipment_expand",
 	id = 59100,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166075,6 +169075,7 @@ _G.pg.base.item_data_statistics[59101] = {
 	is_world = 0,
 	icon = "props/dockyard_expand",
 	id = 59101,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166098,6 +169099,7 @@ _G.pg.base.item_data_statistics[59102] = {
 	is_world = 0,
 	icon = "Props/battery",
 	id = 59102,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166121,6 +169123,7 @@ _G.pg.base.item_data_statistics[59103] = {
 	is_world = 0,
 	icon = "Props/yisegefuke_pt",
 	id = 59103,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166144,6 +169147,7 @@ _G.pg.base.item_data_statistics[59104] = {
 	is_world = 0,
 	icon = "Props/hongfeng",
 	id = 59104,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166167,6 +169171,7 @@ _G.pg.base.item_data_statistics[59106] = {
 	is_world = 0,
 	icon = "Props/crownPT",
 	id = 59106,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166190,6 +169195,7 @@ _G.pg.base.item_data_statistics[59107] = {
 	is_world = 0,
 	icon = "Props/hongfeng",
 	id = 59107,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166213,6 +169219,7 @@ _G.pg.base.item_data_statistics[59108] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59108,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166236,6 +169243,7 @@ _G.pg.base.item_data_statistics[59109] = {
 	is_world = 0,
 	icon = "Props/omamori",
 	id = 59109,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166259,6 +169267,7 @@ _G.pg.base.item_data_statistics[59111] = {
 	is_world = 0,
 	icon = "Props/yisegefuke_pt",
 	id = 59111,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166282,6 +169291,7 @@ _G.pg.base.item_data_statistics[59112] = {
 	is_world = 0,
 	icon = "Props/faxipt",
 	id = 59112,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166305,6 +169315,7 @@ _G.pg.base.item_data_statistics[59113] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59113,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166328,6 +169339,7 @@ _G.pg.base.item_data_statistics[59114] = {
 	is_world = 0,
 	icon = "props/commander_expand",
 	id = 59114,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166351,6 +169363,7 @@ _G.pg.base.item_data_statistics[59115] = {
 	is_world = 0,
 	icon = "Props/nvpu_pt",
 	id = 59115,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166374,6 +169387,7 @@ _G.pg.base.item_data_statistics[59116] = {
 	is_world = 0,
 	icon = "Props/StarPT",
 	id = 59116,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166397,6 +169411,7 @@ _G.pg.base.item_data_statistics[59117] = {
 	is_world = 0,
 	icon = "Props/utawarePT",
 	id = 59117,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166420,6 +169435,7 @@ _G.pg.base.item_data_statistics[59118] = {
 	is_world = 0,
 	icon = "Props/chuansong",
 	id = 59118,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166443,6 +169459,7 @@ _G.pg.base.item_data_statistics[59119] = {
 	is_world = 0,
 	icon = "Props/longxiang",
 	id = 59119,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166466,6 +169483,7 @@ _G.pg.base.item_data_statistics[59120] = {
 	is_world = 0,
 	icon = "Props/tiancheng",
 	id = 59120,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166489,6 +169507,7 @@ _G.pg.base.item_data_statistics[59121] = {
 	is_world = 0,
 	icon = "Props/crownPT",
 	id = 59121,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166512,6 +169531,7 @@ _G.pg.base.item_data_statistics[59122] = {
 	is_world = 0,
 	icon = "Props/59122",
 	id = 59122,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166535,6 +169555,7 @@ _G.pg.base.item_data_statistics[59123] = {
 	is_world = 0,
 	icon = "Props/lierenPT",
 	id = 59123,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166558,6 +169579,7 @@ _G.pg.base.item_data_statistics[59124] = {
 	is_world = 0,
 	icon = "Props/omamori",
 	id = 59124,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166581,6 +169603,7 @@ _G.pg.base.item_data_statistics[59128] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59128,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166604,6 +169627,7 @@ _G.pg.base.item_data_statistics[59129] = {
 	is_world = 0,
 	icon = "Props/bsm_pt",
 	id = 59129,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166627,6 +169651,7 @@ _G.pg.base.item_data_statistics[59130] = {
 	is_world = 0,
 	icon = "Props/shengdiyagePT",
 	id = 59130,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166650,6 +169675,7 @@ _G.pg.base.item_data_statistics[59133] = {
 	is_world = 0,
 	icon = "Props/faxipt",
 	id = 59133,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166673,6 +169699,7 @@ _G.pg.base.item_data_statistics[59134] = {
 	is_world = 0,
 	icon = "Props/newmeixipt",
 	id = 59134,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166696,6 +169723,7 @@ _G.pg.base.item_data_statistics[59135] = {
 	is_world = 0,
 	icon = "Props/qixihaibaopt",
 	id = 59135,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166719,6 +169747,7 @@ _G.pg.base.item_data_statistics[59136] = {
 	is_world = 0,
 	icon = "Props/vote_pt",
 	id = 59136,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166742,6 +169771,7 @@ _G.pg.base.item_data_statistics[59137] = {
 	is_world = 0,
 	icon = "Props/yidali_pt",
 	id = 59137,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166765,6 +169795,7 @@ _G.pg.base.item_data_statistics[59138] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu",
 	id = 59138,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166788,6 +169819,7 @@ _G.pg.base.item_data_statistics[59140] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59140,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166811,6 +169843,7 @@ _G.pg.base.item_data_statistics[59141] = {
 	is_world = 0,
 	icon = "Props/junhe_pt",
 	id = 59141,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166834,6 +169867,7 @@ _G.pg.base.item_data_statistics[59142] = {
 	is_world = 0,
 	icon = "Props/special_ticket",
 	id = 59142,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166857,6 +169891,7 @@ _G.pg.base.item_data_statistics[59143] = {
 	is_world = 0,
 	icon = "Props/music_pt",
 	id = 59143,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166880,6 +169915,7 @@ _G.pg.base.item_data_statistics[59146] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_r",
 	id = 59146,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166903,6 +169939,7 @@ _G.pg.base.item_data_statistics[59147] = {
 	is_world = 0,
 	icon = "Props/xinrixi_pt",
 	id = 59147,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166926,6 +169963,7 @@ _G.pg.base.item_data_statistics[59148] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_m",
 	id = 59148,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166949,6 +169987,7 @@ _G.pg.base.item_data_statistics[59149] = {
 	is_world = 0,
 	icon = "Props/maoxi_pt",
 	id = 59149,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166972,6 +170011,7 @@ _G.pg.base.item_data_statistics[59150] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59150,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166995,6 +170035,7 @@ _G.pg.base.item_data_statistics[59151] = {
 	is_world = 0,
 	icon = "Props/longxiang",
 	id = 59151,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167018,6 +170059,7 @@ _G.pg.base.item_data_statistics[59152] = {
 	is_world = 0,
 	icon = "Props/sofmap_pt",
 	id = 59152,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167041,6 +170083,7 @@ _G.pg.base.item_data_statistics[59153] = {
 	is_world = 0,
 	icon = "Props/drum",
 	id = 59153,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167064,6 +170107,7 @@ _G.pg.base.item_data_statistics[59154] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_m",
 	id = 59154,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167087,6 +170131,7 @@ _G.pg.base.item_data_statistics[59155] = {
 	is_world = 0,
 	icon = "Props/meixiv3_pt",
 	id = 59155,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167110,6 +170155,7 @@ _G.pg.base.item_data_statistics[59156] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59156,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167133,6 +170179,7 @@ _G.pg.base.item_data_statistics[59157] = {
 	is_world = 0,
 	icon = "Props/tiancheng_fk",
 	id = 59157,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167156,6 +170203,7 @@ _G.pg.base.item_data_statistics[59158] = {
 	is_world = 0,
 	icon = "Props/xiaoshengwang_pt",
 	id = 59158,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167179,6 +170227,7 @@ _G.pg.base.item_data_statistics[59159] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59159,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167202,6 +170251,7 @@ _G.pg.base.item_data_statistics[59160] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_f",
 	id = 59160,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167225,6 +170275,7 @@ _G.pg.base.item_data_statistics[59163] = {
 	is_world = 0,
 	icon = "Props/bishengke_pt",
 	id = 59163,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167248,6 +170299,7 @@ _G.pg.base.item_data_statistics[59165] = {
 	is_world = 0,
 	icon = "Props/faxiv2_pt",
 	id = 59165,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167271,6 +170323,7 @@ _G.pg.base.item_data_statistics[59168] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59168,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167294,6 +170347,7 @@ _G.pg.base.item_data_statistics[59169] = {
 	is_world = 0,
 	icon = "Props/naerweike2_pt",
 	id = 59169,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167317,6 +170371,7 @@ _G.pg.base.item_data_statistics[59170] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_y",
 	id = 59170,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167340,6 +170395,7 @@ _G.pg.base.item_data_statistics[59171] = {
 	is_world = 0,
 	icon = "Props/yingxiv2_pt",
 	id = 59171,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167363,6 +170419,7 @@ _G.pg.base.item_data_statistics[59172] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59172,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167386,6 +170443,7 @@ _G.pg.base.item_data_statistics[59173] = {
 	is_world = 0,
 	icon = "Props/meifu2_pt",
 	id = 59173,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167409,6 +170467,7 @@ _G.pg.base.item_data_statistics[59174] = {
 	is_world = 0,
 	icon = "Props/bsm_pt",
 	id = 59174,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167432,6 +170491,7 @@ _G.pg.base.item_data_statistics[59175] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59175,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167455,6 +170515,7 @@ _G.pg.base.item_data_statistics[59181] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59181,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167478,6 +170539,7 @@ _G.pg.base.item_data_statistics[59182] = {
 	is_world = 0,
 	icon = "Props/shinano_pt",
 	id = 59182,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167501,6 +170563,7 @@ _G.pg.base.item_data_statistics[59180] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_s",
 	id = 59180,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167524,6 +170587,7 @@ _G.pg.base.item_data_statistics[59183] = {
 	is_world = 0,
 	icon = "Props/pulinsidun_pt",
 	id = 59183,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167547,6 +170611,7 @@ _G.pg.base.item_data_statistics[59184] = {
 	is_world = 0,
 	icon = "props/candymagic",
 	id = 59184,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167570,6 +170635,7 @@ _G.pg.base.item_data_statistics[59185] = {
 	is_world = 0,
 	icon = "Props/music2_pt",
 	id = 59185,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167593,6 +170659,7 @@ _G.pg.base.item_data_statistics[59186] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59186,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167616,6 +170683,7 @@ _G.pg.base.item_data_statistics[59187] = {
 	is_world = 0,
 	icon = "props/music_stage1",
 	id = 59187,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167639,6 +170707,7 @@ _G.pg.base.item_data_statistics[59188] = {
 	is_world = 0,
 	icon = "Props/lierenPT",
 	id = 59188,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167662,6 +170731,7 @@ _G.pg.base.item_data_statistics[59189] = {
 	is_world = 0,
 	icon = "Props/DOA_pt",
 	id = 59189,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167685,6 +170755,7 @@ _G.pg.base.item_data_statistics[59190] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59190,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167708,6 +170779,7 @@ _G.pg.base.item_data_statistics[59192] = {
 	is_world = 0,
 	icon = "Props/DexiV3_pt",
 	id = 59192,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167731,6 +170803,7 @@ _G.pg.base.item_data_statistics[59193] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59193,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167754,6 +170827,7 @@ _G.pg.base.item_data_statistics[59194] = {
 	is_world = 0,
 	icon = "props/meishi",
 	id = 59194,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167777,6 +170851,7 @@ _G.pg.base.item_data_statistics[59191] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_t",
 	id = 59191,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167800,6 +170875,7 @@ _G.pg.base.item_data_statistics[59195] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu",
 	id = 59195,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167823,6 +170899,7 @@ _G.pg.base.item_data_statistics[59196] = {
 	is_world = 0,
 	icon = "Props/yidali_pt",
 	id = 59196,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167846,6 +170923,7 @@ _G.pg.base.item_data_statistics[59197] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59197,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167869,6 +170947,7 @@ _G.pg.base.item_data_statistics[59198] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59198,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167892,6 +170971,7 @@ _G.pg.base.item_data_statistics[59199] = {
 	is_world = 0,
 	icon = "Props/donghuangjie",
 	id = 59199,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167915,6 +170995,7 @@ _G.pg.base.item_data_statistics[59200] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_mv2",
 	id = 59200,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167938,6 +171019,7 @@ _G.pg.base.item_data_statistics[59201] = {
 	is_world = 0,
 	icon = "Props/beilian2_pt",
 	id = 59201,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167961,6 +171043,7 @@ _G.pg.base.item_data_statistics[59202] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59202,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -167984,6 +171067,7 @@ _G.pg.base.item_data_statistics[59203] = {
 	is_world = 0,
 	icon = "Props/bamboo",
 	id = 59203,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168007,6 +171091,7 @@ _G.pg.base.item_data_statistics[59204] = {
 	is_world = 0,
 	icon = "Props/bamboo",
 	id = 59204,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168030,6 +171115,7 @@ _G.pg.base.item_data_statistics[59205] = {
 	is_world = 0,
 	icon = "Props/bamboo",
 	id = 59205,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168053,6 +171139,7 @@ _G.pg.base.item_data_statistics[59206] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_yv2",
 	id = 59206,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168076,6 +171163,7 @@ _G.pg.base.item_data_statistics[59207] = {
 	is_world = 0,
 	icon = "Props/newmeixipt",
 	id = 59207,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168099,6 +171187,7 @@ _G.pg.base.item_data_statistics[59208] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59208,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168122,6 +171211,7 @@ _G.pg.base.item_data_statistics[59209] = {
 	is_world = 0,
 	icon = "Props/yidaliV2_pt",
 	id = 59209,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168145,6 +171235,7 @@ _G.pg.base.item_data_statistics[59210] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59210,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168168,6 +171259,7 @@ _G.pg.base.item_data_statistics[59211] = {
 	is_world = 0,
 	icon = "Props/xiaotiancheng_pt",
 	id = 59211,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168191,6 +171283,7 @@ _G.pg.base.item_data_statistics[59212] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_v4",
 	id = 59212,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168214,6 +171307,7 @@ _G.pg.base.item_data_statistics[59213] = {
 	is_world = 0,
 	icon = "Props/xiongxiaobai_pt",
 	id = 59213,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168237,6 +171331,7 @@ _G.pg.base.item_data_statistics[59214] = {
 	is_world = 0,
 	icon = "Props/xinzexi_pt",
 	id = 59214,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168260,6 +171355,7 @@ _G.pg.base.item_data_statistics[59215] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59215,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168283,6 +171379,7 @@ _G.pg.base.item_data_statistics[59216] = {
 	is_world = 0,
 	icon = "Props/xiaoqiye_pt",
 	id = 59216,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168306,6 +171403,7 @@ _G.pg.base.item_data_statistics[59217] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59217,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168329,6 +171427,7 @@ _G.pg.base.item_data_statistics[59218] = {
 	is_world = 0,
 	icon = "Props/houshancailiao3",
 	id = 59218,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168352,6 +171451,7 @@ _G.pg.base.item_data_statistics[59219] = {
 	is_world = 0,
 	icon = "Props/AmusementparkshopPT",
 	id = 59219,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168375,6 +171475,7 @@ _G.pg.base.item_data_statistics[59220] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59220,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168398,6 +171499,7 @@ _G.pg.base.item_data_statistics[59221] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_r",
 	id = 59221,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168421,6 +171523,7 @@ _G.pg.base.item_data_statistics[59222] = {
 	is_world = 0,
 	icon = "Props/TWkaifuPT",
 	id = 59222,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168444,6 +171547,7 @@ _G.pg.base.item_data_statistics[59223] = {
 	is_world = 0,
 	icon = "Props/xinrixi_pt",
 	id = 59223,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168467,6 +171571,7 @@ _G.pg.base.item_data_statistics[59224] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59224,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168490,6 +171595,7 @@ _G.pg.base.item_data_statistics[59225] = {
 	is_world = 0,
 	icon = "Props/junhe_pt",
 	id = 59225,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168513,6 +171619,7 @@ _G.pg.base.item_data_statistics[59226] = {
 	is_world = 0,
 	icon = "Props/special_ticket",
 	id = 59226,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168536,6 +171643,7 @@ _G.pg.base.item_data_statistics[59227] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59227,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168559,6 +171667,7 @@ _G.pg.base.item_data_statistics[59229] = {
 	is_world = 0,
 	icon = "Props/meixiv3_pt",
 	id = 59229,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168582,6 +171691,7 @@ _G.pg.base.item_data_statistics[59230] = {
 	is_world = 0,
 	icon = "Props/idolm_pt",
 	id = 59230,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168605,6 +171715,7 @@ _G.pg.base.item_data_statistics[59231] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59231,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168628,6 +171739,7 @@ _G.pg.base.item_data_statistics[59232] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_m",
 	id = 59232,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168651,6 +171763,7 @@ _G.pg.base.item_data_statistics[59233] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59233,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168674,6 +171787,7 @@ _G.pg.base.item_data_statistics[59234] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_rv2",
 	id = 59234,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168697,6 +171811,7 @@ _G.pg.base.item_data_statistics[59235] = {
 	is_world = 0,
 	icon = "Props/rixiv2_pt",
 	id = 59235,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168720,6 +171835,7 @@ _G.pg.base.item_data_statistics[59237] = {
 	is_world = 0,
 	icon = "Props/houshancailiao4",
 	id = 59237,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168743,6 +171859,7 @@ _G.pg.base.item_data_statistics[59238] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59238,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168766,6 +171883,7 @@ _G.pg.base.item_data_statistics[59239] = {
 	is_world = 0,
 	icon = "Props/yaoyaoquan",
 	id = 59239,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168789,6 +171907,7 @@ _G.pg.base.item_data_statistics[59240] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59240,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168812,6 +171931,7 @@ _G.pg.base.item_data_statistics[59241] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59241,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168835,6 +171955,7 @@ _G.pg.base.item_data_statistics[59242] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59242,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168858,6 +171979,7 @@ _G.pg.base.item_data_statistics[59243] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_m",
 	id = 59243,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168881,6 +172003,7 @@ _G.pg.base.item_data_statistics[59245] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59245,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168904,6 +172027,7 @@ _G.pg.base.item_data_statistics[59246] = {
 	is_world = 0,
 	icon = "Props/faxiv2_pt",
 	id = 59246,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168927,6 +172051,7 @@ _G.pg.base.item_data_statistics[59247] = {
 	is_world = 0,
 	icon = "props/candymagic",
 	id = 59247,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168950,6 +172075,7 @@ _G.pg.base.item_data_statistics[59249] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59249,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168973,6 +172099,7 @@ _G.pg.base.item_data_statistics[59250] = {
 	is_world = 0,
 	icon = "Props/fuxu_pt",
 	id = 59250,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -168996,6 +172123,7 @@ _G.pg.base.item_data_statistics[59251] = {
 	is_world = 0,
 	icon = "Props/ssss_pt",
 	id = 59251,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169019,6 +172147,7 @@ _G.pg.base.item_data_statistics[59252] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59252,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169042,6 +172171,7 @@ _G.pg.base.item_data_statistics[59253] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59253,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169065,6 +172195,7 @@ _G.pg.base.item_data_statistics[59254] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59254,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169088,6 +172219,7 @@ _G.pg.base.item_data_statistics[59255] = {
 	is_world = 0,
 	icon = "Props/shengdiyagePT",
 	id = 59255,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169111,6 +172243,7 @@ _G.pg.base.item_data_statistics[59256] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_d",
 	id = 59256,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169134,6 +172267,7 @@ _G.pg.base.item_data_statistics[59257] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59257,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169157,6 +172291,7 @@ _G.pg.base.item_data_statistics[59258] = {
 	is_world = 0,
 	icon = "Props/dexiur_pt",
 	id = 59258,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169180,6 +172315,7 @@ _G.pg.base.item_data_statistics[59259] = {
 	is_world = 0,
 	icon = "Props/nvpukuojian",
 	id = 59259,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169203,6 +172339,7 @@ _G.pg.base.item_data_statistics[59260] = {
 	is_world = 0,
 	icon = "props/yanhua",
 	id = 59260,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169226,6 +172363,7 @@ _G.pg.base.item_data_statistics[59261] = {
 	is_world = 0,
 	icon = "props/xinniandezhufu",
 	id = 59261,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169249,6 +172387,7 @@ _G.pg.base.item_data_statistics[59263] = {
 	is_world = 0,
 	icon = "Props/donghuangjie",
 	id = 59263,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169272,6 +172411,7 @@ _G.pg.base.item_data_statistics[59264] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59264,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169295,6 +172435,7 @@ _G.pg.base.item_data_statistics[59265] = {
 	is_world = 0,
 	icon = "Props/bristol_pt",
 	id = 59265,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169318,6 +172459,7 @@ _G.pg.base.item_data_statistics[59266] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 59266,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169341,6 +172483,7 @@ _G.pg.base.item_data_statistics[59267] = {
 	is_world = 0,
 	icon = "Props/youlidianshu",
 	id = 59267,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169364,6 +172507,7 @@ _G.pg.base.item_data_statistics[59268] = {
 	is_world = 0,
 	icon = "Props/huizhidianshu",
 	id = 59268,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169387,6 +172531,7 @@ _G.pg.base.item_data_statistics[59269] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59269,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169410,6 +172555,103 @@ _G.pg.base.item_data_statistics[59270] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59270,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59271] = {
+	display = "用於「北境序曲」活動兌換，活動結束後將會消失",
+	name = "情報Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/maoxi_pt",
+	id = 59271,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59272] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59272,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59273] = {
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59273,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59274] = {
+	display = "於「北境序曲」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4257,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59274,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169433,6 +172675,7 @@ _G.pg.base.item_data_statistics[59275] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_mv3",
 	id = 59275,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169456,6 +172699,7 @@ _G.pg.base.item_data_statistics[59276] = {
 	is_world = 0,
 	icon = "Props/maoxiv3_pt",
 	id = 59276,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169479,6 +172723,7 @@ _G.pg.base.item_data_statistics[59277] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59277,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169502,6 +172747,7 @@ _G.pg.base.item_data_statistics[59278] = {
 	is_world = 0,
 	icon = "Props/naerweike2_pt",
 	id = 59278,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169525,6 +172771,7 @@ _G.pg.base.item_data_statistics[59279] = {
 	is_world = 0,
 	icon = "Props/tower_pt",
 	id = 59279,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169548,6 +172795,7 @@ _G.pg.base.item_data_statistics[59280] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59280,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169571,6 +172819,7 @@ _G.pg.base.item_data_statistics[59282] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59282,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169594,6 +172843,7 @@ _G.pg.base.item_data_statistics[59283] = {
 	is_world = 0,
 	icon = "Props/yingxiv2_pt",
 	id = 59283,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169617,6 +172867,7 @@ _G.pg.base.item_data_statistics[59284] = {
 	is_world = 0,
 	icon = "Props/buildTicket",
 	id = 59284,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169640,6 +172891,7 @@ _G.pg.base.item_data_statistics[59285] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59285,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169663,6 +172915,7 @@ _G.pg.base.item_data_statistics[59286] = {
 	is_world = 0,
 	icon = "Props/xiaoshengwang_pt",
 	id = 59286,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169686,6 +172939,7 @@ _G.pg.base.item_data_statistics[59287] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_y",
 	id = 59287,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169709,6 +172963,7 @@ _G.pg.base.item_data_statistics[59290] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59290,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169732,6 +172987,7 @@ _G.pg.base.item_data_statistics[59293] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59293,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169755,6 +173011,7 @@ _G.pg.base.item_data_statistics[59294] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59294,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169778,6 +173035,7 @@ _G.pg.base.item_data_statistics[59295] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59295,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169801,6 +173059,7 @@ _G.pg.base.item_data_statistics[59296] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59296,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169824,6 +173083,7 @@ _G.pg.base.item_data_statistics[59297] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59297,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169847,6 +173107,7 @@ _G.pg.base.item_data_statistics[59298] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59298,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169870,6 +173131,7 @@ _G.pg.base.item_data_statistics[59299] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59299,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169893,6 +173155,7 @@ _G.pg.base.item_data_statistics[59301] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59301,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169916,6 +173179,7 @@ _G.pg.base.item_data_statistics[59302] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59302,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169939,6 +173203,7 @@ _G.pg.base.item_data_statistics[59303] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59303,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169962,6 +173227,7 @@ _G.pg.base.item_data_statistics[59304] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59304,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169985,6 +173251,7 @@ _G.pg.base.item_data_statistics[59305] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_d",
 	id = 59305,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170008,6 +173275,7 @@ _G.pg.base.item_data_statistics[59307] = {
 	is_world = 0,
 	icon = "Props/gonghai_pt",
 	id = 59307,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170031,6 +173299,7 @@ _G.pg.base.item_data_statistics[59308] = {
 	is_world = 0,
 	icon = "Props/little_eugen_pt",
 	id = 59308,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170054,6 +173323,7 @@ _G.pg.base.item_data_statistics[59309] = {
 	is_world = 0,
 	icon = "Props/little_eugen_pt",
 	id = 59309,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170077,6 +173347,7 @@ _G.pg.base.item_data_statistics[59310] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59310,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170100,6 +173371,7 @@ _G.pg.base.item_data_statistics[59311] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_yv3",
 	id = 59311,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170123,6 +173395,7 @@ _G.pg.base.item_data_statistics[59316] = {
 	is_world = 0,
 	icon = "Props/qianwei_pt",
 	id = 59316,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170146,6 +173419,7 @@ _G.pg.base.item_data_statistics[59317] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59317,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170169,6 +173443,7 @@ _G.pg.base.item_data_statistics[59318] = {
 	is_world = 0,
 	icon = "Props/naiyouquqi",
 	id = 59318,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170192,6 +173467,7 @@ _G.pg.base.item_data_statistics[59319] = {
 	is_world = 0,
 	icon = "Props/naiyouquqi",
 	id = 59319,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170215,6 +173491,7 @@ _G.pg.base.item_data_statistics[59320] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 59320,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170238,6 +173515,7 @@ _G.pg.base.item_data_statistics[59322] = {
 	is_world = 0,
 	icon = "Props/commission_pt",
 	id = 59322,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170261,6 +173539,7 @@ _G.pg.base.item_data_statistics[59323] = {
 	is_world = 0,
 	icon = "Props/joffre_pt",
 	id = 59323,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170284,6 +173563,7 @@ _G.pg.base.item_data_statistics[59324] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 59324,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170307,6 +173587,7 @@ _G.pg.base.item_data_statistics[59325] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59325,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170330,6 +173611,7 @@ _G.pg.base.item_data_statistics[59326] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_s",
 	id = 59326,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170353,6 +173635,7 @@ _G.pg.base.item_data_statistics[59327] = {
 	is_world = 0,
 	icon = "Props/buildTicket",
 	id = 59327,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170376,6 +173659,7 @@ _G.pg.base.item_data_statistics[59328] = {
 	is_world = 0,
 	icon = "Props/shinano_pt",
 	id = 59328,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170399,6 +173683,7 @@ _G.pg.base.item_data_statistics[59329] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59329,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170422,6 +173707,7 @@ _G.pg.base.item_data_statistics[59330] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_yv2",
 	id = 59330,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170445,6 +173731,7 @@ _G.pg.base.item_data_statistics[59331] = {
 	is_world = 0,
 	icon = "Props/yidaliv3_pt",
 	id = 59331,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170468,6 +173755,7 @@ _G.pg.base.item_data_statistics[59332] = {
 	is_world = 0,
 	icon = "SquareIcon/dafeng_3",
 	id = 59332,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170491,6 +173779,7 @@ _G.pg.base.item_data_statistics[59333] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59333,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170514,6 +173803,7 @@ _G.pg.base.item_data_statistics[59334] = {
 	is_world = 0,
 	icon = "Props/meifu2_pt",
 	id = 59334,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170537,6 +173827,7 @@ _G.pg.base.item_data_statistics[59336] = {
 	is_world = 0,
 	icon = "Props/bulvxieer_pt",
 	id = 59336,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170560,6 +173851,7 @@ _G.pg.base.item_data_statistics[59337] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59337,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170583,6 +173875,7 @@ _G.pg.base.item_data_statistics[59338] = {
 	is_world = 0,
 	icon = "Props/kfc_pt",
 	id = 59338,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170606,6 +173899,7 @@ _G.pg.base.item_data_statistics[59339] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet1",
 	id = 59339,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170629,6 +173923,7 @@ _G.pg.base.item_data_statistics[59340] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet2",
 	id = 59340,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170652,6 +173947,7 @@ _G.pg.base.item_data_statistics[59341] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet3",
 	id = 59341,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170675,6 +173971,7 @@ _G.pg.base.item_data_statistics[59342] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet4",
 	id = 59342,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170698,6 +173995,7 @@ _G.pg.base.item_data_statistics[59343] = {
 	is_world = 0,
 	icon = "Props/kfcFurnitureSet5",
 	id = 59343,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170721,6 +174019,7 @@ _G.pg.base.item_data_statistics[59344] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_s",
 	id = 59344,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170744,6 +174043,7 @@ _G.pg.base.item_data_statistics[59345] = {
 	is_world = 0,
 	icon = "Props/rixiv3_pt",
 	id = 59345,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170767,6 +174067,7 @@ _G.pg.base.item_data_statistics[59346] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59346,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170790,6 +174091,7 @@ _G.pg.base.item_data_statistics[59349] = {
 	is_world = 0,
 	icon = "Props/houshancailiao5",
 	id = 59349,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170813,6 +174115,7 @@ _G.pg.base.item_data_statistics[59350] = {
 	is_world = 0,
 	icon = "Props/little_spee_pt",
 	id = 59350,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170836,6 +174139,7 @@ _G.pg.base.item_data_statistics[59351] = {
 	is_world = 0,
 	icon = "Props/hero_pt",
 	id = 59351,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170859,6 +174163,7 @@ _G.pg.base.item_data_statistics[59352] = {
 	is_world = 0,
 	icon = "Props/albion_pt",
 	id = 59352,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170882,6 +174187,7 @@ _G.pg.base.item_data_statistics[59353] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 59353,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170905,6 +174211,7 @@ _G.pg.base.item_data_statistics[59354] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59354,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170932,6 +174239,7 @@ _G.pg.base.item_data_statistics[59355] = {
 	is_world = 0,
 	icon = "Props/jvfengdekuizeng",
 	id = 59355,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170955,6 +174263,7 @@ _G.pg.base.item_data_statistics[59356] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_t",
 	id = 59356,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -170978,6 +174287,7 @@ _G.pg.base.item_data_statistics[59357] = {
 	is_world = 0,
 	icon = "Props/DexiV3_pt",
 	id = 59357,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171001,6 +174311,7 @@ _G.pg.base.item_data_statistics[59358] = {
 	is_world = 0,
 	icon = "Props/buildTicket",
 	id = 59358,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171024,6 +174335,7 @@ _G.pg.base.item_data_statistics[59359] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59359,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171047,6 +174359,7 @@ _G.pg.base.item_data_statistics[59363] = {
 	is_world = 0,
 	icon = "Props/ryza_mission_pt",
 	id = 59363,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171070,6 +174383,7 @@ _G.pg.base.item_data_statistics[59364] = {
 	is_world = 0,
 	icon = "Props/ryza_pt",
 	id = 59364,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171093,6 +174407,7 @@ _G.pg.base.item_data_statistics[59365] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59365,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171116,6 +174431,7 @@ _G.pg.base.item_data_statistics[59390] = {
 	is_world = 0,
 	icon = "Props/donghuangjie",
 	id = 59390,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171139,6 +174455,7 @@ _G.pg.base.item_data_statistics[59403] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59403,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171162,6 +174479,7 @@ _G.pg.base.item_data_statistics[59404] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59404,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171185,6 +174503,7 @@ _G.pg.base.item_data_statistics[59405] = {
 	is_world = 0,
 	icon = "Props/jidifengbao_pt",
 	id = 59405,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171208,6 +174527,7 @@ _G.pg.base.item_data_statistics[59406] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59406,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171231,6 +174551,7 @@ _G.pg.base.item_data_statistics[59420] = {
 	is_world = 0,
 	icon = "Props/DOA_pt",
 	id = 59420,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171254,6 +174575,7 @@ _G.pg.base.item_data_statistics[59421] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59421,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171277,6 +174599,7 @@ _G.pg.base.item_data_statistics[59450] = {
 	is_world = 0,
 	icon = "Props/liuzhounianhaidao_pt",
 	id = 59450,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171300,6 +174623,7 @@ _G.pg.base.item_data_statistics[59451] = {
 	is_world = 0,
 	icon = "Props/tanxianxukezheng",
 	id = 59451,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171323,6 +174647,7 @@ _G.pg.base.item_data_statistics[59455] = {
 	is_world = 0,
 	icon = "props/battlepass_pt",
 	id = 59455,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171346,6 +174671,7 @@ _G.pg.base.item_data_statistics[59456] = {
 	is_world = 0,
 	icon = "props/summer_stamp",
 	id = 59456,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171369,6 +174695,7 @@ _G.pg.base.item_data_statistics[59457] = {
 	is_world = 0,
 	icon = "props/island_invitation_pt",
 	id = 59457,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171392,6 +174719,7 @@ _G.pg.base.item_data_statistics[59458] = {
 	is_world = 0,
 	icon = "Props/little_taihou_pt",
 	id = 59458,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171415,6 +174743,7 @@ _G.pg.base.item_data_statistics[59466] = {
 	is_world = 0,
 	icon = "Props/ssss_pt",
 	id = 59466,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171438,6 +174767,7 @@ _G.pg.base.item_data_statistics[59469] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 59469,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171461,6 +174791,7 @@ _G.pg.base.item_data_statistics[59486] = {
 	is_world = 0,
 	icon = "Props/wenquanshoupai",
 	id = 59486,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171484,6 +174815,7 @@ _G.pg.base.item_data_statistics[59487] = {
 	is_world = 0,
 	icon = "Props/zuma_pt",
 	id = 59487,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171507,6 +174839,7 @@ _G.pg.base.item_data_statistics[59488] = {
 	is_world = 0,
 	icon = "Props/xinwu_xinnong",
 	id = 59488,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171530,6 +174863,7 @@ _G.pg.base.item_data_statistics[59489] = {
 	is_world = 0,
 	icon = "Props/xinwu_youliang",
 	id = 59489,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171553,6 +174887,7 @@ _G.pg.base.item_data_statistics[59490] = {
 	is_world = 0,
 	icon = "Props/xinwu_daofeng",
 	id = 59490,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171576,6 +174911,7 @@ _G.pg.base.item_data_statistics[59601] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59601,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171599,6 +174935,7 @@ _G.pg.base.item_data_statistics[59602] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59602,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171622,6 +174959,7 @@ _G.pg.base.item_data_statistics[59603] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59603,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171645,6 +174983,7 @@ _G.pg.base.item_data_statistics[59604] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59604,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171668,6 +175007,7 @@ _G.pg.base.item_data_statistics[59605] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59605,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171691,6 +175031,7 @@ _G.pg.base.item_data_statistics[59606] = {
 	is_world = 0,
 	icon = "Props/gear",
 	id = 59606,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171714,6 +175055,7 @@ _G.pg.base.item_data_statistics[59607] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59607,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171737,6 +175079,7 @@ _G.pg.base.item_data_statistics[59608] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59608,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171760,6 +175103,7 @@ _G.pg.base.item_data_statistics[59609] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59609,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171783,6 +175127,7 @@ _G.pg.base.item_data_statistics[59610] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59610,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171806,6 +175151,7 @@ _G.pg.base.item_data_statistics[59611] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59611,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171829,6 +175175,7 @@ _G.pg.base.item_data_statistics[59612] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59612,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171852,6 +175199,7 @@ _G.pg.base.item_data_statistics[59613] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59613,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171875,6 +175223,7 @@ _G.pg.base.item_data_statistics[59614] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59614,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171898,6 +175247,7 @@ _G.pg.base.item_data_statistics[59615] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59615,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171921,6 +175271,7 @@ _G.pg.base.item_data_statistics[59616] = {
 	is_world = 0,
 	icon = "Props/xinhuiliupt",
 	id = 59616,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171944,6 +175295,7 @@ _G.pg.base.item_data_statistics[59621] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59621,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171967,6 +175319,7 @@ _G.pg.base.item_data_statistics[59622] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59622,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -171990,6 +175343,7 @@ _G.pg.base.item_data_statistics[59623] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59623,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172013,6 +175367,7 @@ _G.pg.base.item_data_statistics[59624] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59624,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172036,6 +175391,7 @@ _G.pg.base.item_data_statistics[59625] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59625,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172059,6 +175415,7 @@ _G.pg.base.item_data_statistics[59626] = {
 	is_world = 0,
 	icon = "Props/gear",
 	id = 59626,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172082,6 +175439,7 @@ _G.pg.base.item_data_statistics[59627] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59627,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172105,6 +175463,7 @@ _G.pg.base.item_data_statistics[59628] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59628,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172128,6 +175487,7 @@ _G.pg.base.item_data_statistics[59629] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59629,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172151,6 +175511,7 @@ _G.pg.base.item_data_statistics[59630] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59630,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172174,6 +175535,7 @@ _G.pg.base.item_data_statistics[59631] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59631,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172197,6 +175559,7 @@ _G.pg.base.item_data_statistics[59632] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59632,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172220,6 +175583,7 @@ _G.pg.base.item_data_statistics[59633] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59633,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172243,6 +175607,7 @@ _G.pg.base.item_data_statistics[59634] = {
 	is_world = 0,
 	icon = "Props/jiujiu",
 	id = 59634,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172266,6 +175631,7 @@ _G.pg.base.item_data_statistics[59701] = {
 	is_world = 0,
 	icon = "Props/draw_a",
 	id = 59701,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172289,6 +175655,7 @@ _G.pg.base.item_data_statistics[59702] = {
 	is_world = 0,
 	icon = "Props/draw_b",
 	id = 59702,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172312,6 +175679,7 @@ _G.pg.base.item_data_statistics[59703] = {
 	is_world = 0,
 	icon = "Props/draw_c",
 	id = 59703,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172335,6 +175703,7 @@ _G.pg.base.item_data_statistics[59704] = {
 	is_world = 0,
 	icon = "Props/draw_d",
 	id = 59704,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172358,6 +175727,7 @@ _G.pg.base.item_data_statistics[59705] = {
 	is_world = 0,
 	icon = "Props/draw_e",
 	id = 59705,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172381,6 +175751,7 @@ _G.pg.base.item_data_statistics[59706] = {
 	is_world = 0,
 	icon = "Props/draw_f",
 	id = 59706,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172404,6 +175775,7 @@ _G.pg.base.item_data_statistics[59707] = {
 	is_world = 0,
 	icon = "Props/draw_g",
 	id = 59707,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172427,6 +175799,7 @@ _G.pg.base.item_data_statistics[59708] = {
 	is_world = 0,
 	icon = "props/red_packet",
 	id = 59708,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172450,6 +175823,7 @@ _G.pg.base.item_data_statistics[59709] = {
 	is_world = 0,
 	icon = "props/hudiejie",
 	id = 59709,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172473,6 +175847,7 @@ _G.pg.base.item_data_statistics[59710] = {
 	is_world = 0,
 	icon = "props/memorycard",
 	id = 59710,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172496,6 +175871,7 @@ _G.pg.base.item_data_statistics[59711] = {
 	is_world = 0,
 	icon = "props/yizhounian",
 	id = 59711,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172519,6 +175895,7 @@ _G.pg.base.item_data_statistics[59712] = {
 	is_world = 0,
 	icon = "props/memorycard",
 	id = 59712,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172542,6 +175919,7 @@ _G.pg.base.item_data_statistics[59713] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 59713,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172565,6 +175943,7 @@ _G.pg.base.item_data_statistics[59714] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 59714,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172588,6 +175967,7 @@ _G.pg.base.item_data_statistics[59715] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 59715,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172611,6 +175991,7 @@ _G.pg.base.item_data_statistics[59716] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 59716,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172634,6 +176015,7 @@ _G.pg.base.item_data_statistics[59717] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 59717,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172657,6 +176039,7 @@ _G.pg.base.item_data_statistics[59718] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 59718,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172680,6 +176063,7 @@ _G.pg.base.item_data_statistics[59719] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 59719,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172703,6 +176087,7 @@ _G.pg.base.item_data_statistics[59720] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59720,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172726,6 +176111,7 @@ _G.pg.base.item_data_statistics[59721] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59721,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172749,6 +176135,7 @@ _G.pg.base.item_data_statistics[59722] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59722,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172772,6 +176159,7 @@ _G.pg.base.item_data_statistics[59723] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59723,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172795,6 +176183,7 @@ _G.pg.base.item_data_statistics[59724] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59724,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172818,6 +176207,7 @@ _G.pg.base.item_data_statistics[59725] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59725,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172841,6 +176231,7 @@ _G.pg.base.item_data_statistics[59726] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59726,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172864,6 +176255,7 @@ _G.pg.base.item_data_statistics[59727] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59727,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172887,6 +176279,7 @@ _G.pg.base.item_data_statistics[59728] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59728,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172910,6 +176303,7 @@ _G.pg.base.item_data_statistics[59729] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59729,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172933,6 +176327,7 @@ _G.pg.base.item_data_statistics[59730] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59730,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172956,6 +176351,7 @@ _G.pg.base.item_data_statistics[59731] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59731,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -172979,6 +176375,7 @@ _G.pg.base.item_data_statistics[59732] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59732,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173002,6 +176399,7 @@ _G.pg.base.item_data_statistics[59733] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59733,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173025,6 +176423,7 @@ _G.pg.base.item_data_statistics[59734] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59734,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173048,6 +176447,7 @@ _G.pg.base.item_data_statistics[59735] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59735,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173071,6 +176471,7 @@ _G.pg.base.item_data_statistics[59736] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59736,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173094,6 +176495,7 @@ _G.pg.base.item_data_statistics[59737] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59737,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173117,6 +176519,7 @@ _G.pg.base.item_data_statistics[59738] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59738,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173140,6 +176543,7 @@ _G.pg.base.item_data_statistics[59739] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59739,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173163,6 +176567,7 @@ _G.pg.base.item_data_statistics[59740] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59740,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173186,6 +176591,7 @@ _G.pg.base.item_data_statistics[59741] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59741,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173209,6 +176615,7 @@ _G.pg.base.item_data_statistics[59742] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59742,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173232,6 +176639,7 @@ _G.pg.base.item_data_statistics[59743] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59743,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173255,6 +176663,7 @@ _G.pg.base.item_data_statistics[59744] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59744,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173278,6 +176687,7 @@ _G.pg.base.item_data_statistics[59745] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59745,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173301,6 +176711,7 @@ _G.pg.base.item_data_statistics[59746] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59746,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173324,6 +176735,7 @@ _G.pg.base.item_data_statistics[59747] = {
 	is_world = 0,
 	icon = "props/yaoqinghan",
 	id = 59747,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173347,6 +176759,7 @@ _G.pg.base.item_data_statistics[59748] = {
 	is_world = 0,
 	icon = "Props/linkstar",
 	id = 59748,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173370,6 +176783,7 @@ _G.pg.base.item_data_statistics[59749] = {
 	is_world = 0,
 	icon = "Props/shanyaomaikefeng",
 	id = 59749,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173395,6 +176809,7 @@ _G.pg.base.item_data_statistics[59761] = {
 	is_world = 0,
 	icon = "Props/lizhanzhizheng",
 	id = 59761,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173418,6 +176833,7 @@ _G.pg.base.item_data_statistics[59762] = {
 	is_world = 0,
 	icon = "Props/yanzhandabaojian",
 	id = 59762,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173443,6 +176859,7 @@ _G.pg.base.item_data_statistics[59763] = {
 	is_world = 0,
 	icon = "Props/touzi",
 	id = 59763,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173466,6 +176883,7 @@ _G.pg.base.item_data_statistics[59764] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 59764,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173489,6 +176907,7 @@ _G.pg.base.item_data_statistics[59765] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 59765,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173512,6 +176931,7 @@ _G.pg.base.item_data_statistics[59766] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 59766,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173535,6 +176955,7 @@ _G.pg.base.item_data_statistics[59767] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 59767,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173558,6 +176979,7 @@ _G.pg.base.item_data_statistics[59768] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 59768,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173581,6 +177003,7 @@ _G.pg.base.item_data_statistics[59769] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 59769,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173604,6 +177027,7 @@ _G.pg.base.item_data_statistics[59770] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 59770,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173627,6 +177051,7 @@ _G.pg.base.item_data_statistics[59771] = {
 	is_world = 0,
 	icon = "props/memorycard",
 	id = 59771,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173650,6 +177075,7 @@ _G.pg.base.item_data_statistics[59772] = {
 	is_world = 0,
 	icon = "Props/linkstar",
 	id = 59772,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173673,6 +177099,7 @@ _G.pg.base.item_data_statistics[59773] = {
 	is_world = 0,
 	icon = "Props/linkstar",
 	id = 59773,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173696,6 +177123,7 @@ _G.pg.base.item_data_statistics[59774] = {
 	is_world = 0,
 	icon = "props/yizhounian",
 	id = 59774,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173719,6 +177147,7 @@ _G.pg.base.item_data_statistics[59775] = {
 	is_world = 0,
 	icon = "Props/u556xunzhang",
 	id = 59775,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173742,6 +177171,7 @@ _G.pg.base.item_data_statistics[59776] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 59776,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173765,6 +177195,7 @@ _G.pg.base.item_data_statistics[59777] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 59777,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173788,6 +177219,7 @@ _G.pg.base.item_data_statistics[59778] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 59778,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173811,6 +177243,7 @@ _G.pg.base.item_data_statistics[59779] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 59779,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173834,6 +177267,7 @@ _G.pg.base.item_data_statistics[59780] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 59780,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173857,6 +177291,7 @@ _G.pg.base.item_data_statistics[59781] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 59781,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173880,6 +177315,7 @@ _G.pg.base.item_data_statistics[59782] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 59782,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173903,6 +177339,7 @@ _G.pg.base.item_data_statistics[59784] = {
 	is_world = 0,
 	icon = "props/music_stage",
 	id = 59784,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173926,6 +177363,7 @@ _G.pg.base.item_data_statistics[59785] = {
 	is_world = 0,
 	icon = "Props/juus",
 	id = 59785,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173949,6 +177387,7 @@ _G.pg.base.item_data_statistics[59786] = {
 	is_world = 0,
 	icon = "props/xiuxingdan",
 	id = 59786,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173972,6 +177411,7 @@ _G.pg.base.item_data_statistics[59788] = {
 	is_world = 0,
 	icon = "Props/linkstar",
 	id = 59788,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173995,6 +177435,7 @@ _G.pg.base.item_data_statistics[59791] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 59791,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174018,6 +177459,7 @@ _G.pg.base.item_data_statistics[59792] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 59792,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174041,6 +177483,7 @@ _G.pg.base.item_data_statistics[59793] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 59793,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174064,6 +177507,7 @@ _G.pg.base.item_data_statistics[59794] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 59794,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174087,6 +177531,7 @@ _G.pg.base.item_data_statistics[59795] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 59795,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174110,6 +177555,7 @@ _G.pg.base.item_data_statistics[59796] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 59796,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174133,6 +177579,7 @@ _G.pg.base.item_data_statistics[59797] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 59797,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174156,6 +177603,7 @@ _G.pg.base.item_data_statistics[59801] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59801,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174179,6 +177627,7 @@ _G.pg.base.item_data_statistics[59802] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59802,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174202,6 +177651,7 @@ _G.pg.base.item_data_statistics[59803] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59803,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174225,6 +177675,7 @@ _G.pg.base.item_data_statistics[59804] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59804,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174248,6 +177699,7 @@ _G.pg.base.item_data_statistics[59805] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59805,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174271,6 +177723,7 @@ _G.pg.base.item_data_statistics[59806] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59806,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174294,6 +177747,7 @@ _G.pg.base.item_data_statistics[59807] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59807,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174317,6 +177771,7 @@ _G.pg.base.item_data_statistics[59808] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59808,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174340,6 +177795,7 @@ _G.pg.base.item_data_statistics[59809] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59809,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174363,6 +177819,7 @@ _G.pg.base.item_data_statistics[59810] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59810,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174386,6 +177843,7 @@ _G.pg.base.item_data_statistics[59811] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59811,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174409,6 +177867,7 @@ _G.pg.base.item_data_statistics[59812] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59812,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174432,6 +177891,7 @@ _G.pg.base.item_data_statistics[59813] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59813,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174455,6 +177915,7 @@ _G.pg.base.item_data_statistics[59814] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59814,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174478,6 +177939,7 @@ _G.pg.base.item_data_statistics[59815] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59815,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174501,6 +177963,7 @@ _G.pg.base.item_data_statistics[59816] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 59816,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174524,6 +177987,7 @@ _G.pg.base.item_data_statistics[59821] = {
 	is_world = 0,
 	icon = "Props/voteT1",
 	id = 59821,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174547,6 +178011,7 @@ _G.pg.base.item_data_statistics[59822] = {
 	is_world = 0,
 	icon = "Props/voteT2",
 	id = 59822,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174570,6 +178035,7 @@ _G.pg.base.item_data_statistics[59823] = {
 	is_world = 0,
 	icon = "Props/activity_tickets",
 	id = 59823,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174593,6 +178059,7 @@ _G.pg.base.item_data_statistics[59824] = {
 	is_world = 0,
 	icon = "Props/voteT3",
 	id = 59824,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174616,6 +178083,7 @@ _G.pg.base.item_data_statistics[59831] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59831,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174639,6 +178107,7 @@ _G.pg.base.item_data_statistics[59832] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59832,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174662,6 +178131,7 @@ _G.pg.base.item_data_statistics[59833] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59833,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174685,6 +178155,7 @@ _G.pg.base.item_data_statistics[59834] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59834,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174708,6 +178179,7 @@ _G.pg.base.item_data_statistics[59835] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59835,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174731,6 +178203,7 @@ _G.pg.base.item_data_statistics[59836] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59836,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174754,6 +178227,7 @@ _G.pg.base.item_data_statistics[59837] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59837,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174777,6 +178251,7 @@ _G.pg.base.item_data_statistics[59838] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59838,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174800,6 +178275,7 @@ _G.pg.base.item_data_statistics[59839] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 59839,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174823,6 +178299,7 @@ _G.pg.base.item_data_statistics[59841] = {
 	is_world = 0,
 	icon = "props/erzhounian",
 	id = 59841,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174846,6 +178323,7 @@ _G.pg.base.item_data_statistics[59842] = {
 	is_world = 0,
 	icon = "Props/barbecue",
 	id = 59842,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174869,6 +178347,7 @@ _G.pg.base.item_data_statistics[59843] = {
 	is_world = 0,
 	icon = "Props/barbecueperfume",
 	id = 59843,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174894,6 +178373,7 @@ _G.pg.base.item_data_statistics[59844] = {
 	is_world = 0,
 	icon = "Props/symbolqinglong",
 	id = 59844,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174920,6 +178400,7 @@ _G.pg.base.item_data_statistics[59845] = {
 	is_world = 0,
 	icon = "Props/symbolbaihu",
 	id = 59845,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174946,6 +178427,7 @@ _G.pg.base.item_data_statistics[59847] = {
 	is_world = 0,
 	icon = "Props/barbecue",
 	id = 59847,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174969,6 +178451,7 @@ _G.pg.base.item_data_statistics[59848] = {
 	is_world = 0,
 	icon = "Props/barbecue_badge",
 	id = 59848,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -174992,6 +178475,7 @@ _G.pg.base.item_data_statistics[59900] = {
 	is_world = 0,
 	icon = "Props/shuju",
 	id = 59900,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175015,6 +178499,7 @@ _G.pg.base.item_data_statistics[59901] = {
 	is_world = 0,
 	icon = "Props/59901",
 	id = 59901,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175038,6 +178523,7 @@ _G.pg.base.item_data_statistics[59902] = {
 	is_world = 0,
 	icon = "Props/59902",
 	id = 59902,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175061,6 +178547,7 @@ _G.pg.base.item_data_statistics[59926] = {
 	is_world = 0,
 	icon = "props/zhongqiufanpai",
 	id = 59926,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175084,6 +178571,7 @@ _G.pg.base.item_data_statistics[59938] = {
 	is_world = 0,
 	icon = "Props/lizhanzhizheng",
 	id = 59938,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175107,6 +178595,7 @@ _G.pg.base.item_data_statistics[59939] = {
 	is_world = 0,
 	icon = "Props/lizhanzhizheng",
 	id = 59939,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175130,6 +178619,7 @@ _G.pg.base.item_data_statistics[59940] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59940,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175189,6 +178679,7 @@ _G.pg.base.item_data_statistics[59941] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59941,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175223,6 +178714,7 @@ _G.pg.base.item_data_statistics[59942] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59942,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175257,6 +178749,7 @@ _G.pg.base.item_data_statistics[59943] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59943,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175291,6 +178784,7 @@ _G.pg.base.item_data_statistics[59944] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59944,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175325,6 +178819,7 @@ _G.pg.base.item_data_statistics[59945] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59945,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175359,6 +178854,7 @@ _G.pg.base.item_data_statistics[59946] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59946,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175393,6 +178889,7 @@ _G.pg.base.item_data_statistics[59947] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59947,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -175427,6 +178924,7 @@ _G.pg.base.item_data_statistics[59948] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59948,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175450,6 +178948,7 @@ _G.pg.base.item_data_statistics[59949] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59949,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175473,6 +178972,7 @@ _G.pg.base.item_data_statistics[59950] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59950,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175496,6 +178996,7 @@ _G.pg.base.item_data_statistics[59951] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59951,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175519,6 +179020,7 @@ _G.pg.base.item_data_statistics[59952] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59952,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175542,6 +179044,7 @@ _G.pg.base.item_data_statistics[59953] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59953,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175565,6 +179068,7 @@ _G.pg.base.item_data_statistics[59954] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang",
 	id = 59954,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175588,6 +179092,7 @@ _G.pg.base.item_data_statistics[59960] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 59960,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175611,6 +179116,7 @@ _G.pg.base.item_data_statistics[59961] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 59961,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175634,6 +179140,7 @@ _G.pg.base.item_data_statistics[59962] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 59962,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175657,6 +179164,7 @@ _G.pg.base.item_data_statistics[59963] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 59963,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175680,6 +179188,7 @@ _G.pg.base.item_data_statistics[59964] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 59964,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175703,6 +179212,7 @@ _G.pg.base.item_data_statistics[59965] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 59965,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175726,6 +179236,7 @@ _G.pg.base.item_data_statistics[59966] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 59966,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175749,6 +179260,7 @@ _G.pg.base.item_data_statistics[59967] = {
 	is_world = 0,
 	icon = "Props/nvpu2_pt",
 	id = 59967,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175772,6 +179284,7 @@ _G.pg.base.item_data_statistics[59968] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 59968,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175795,6 +179308,7 @@ _G.pg.base.item_data_statistics[59969] = {
 	is_world = 0,
 	icon = "props/chunjiedaka",
 	id = 59969,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175818,6 +179332,7 @@ _G.pg.base.item_data_statistics[59970] = {
 	is_world = 0,
 	icon = "props/z23draw_a",
 	id = 59970,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175841,6 +179356,7 @@ _G.pg.base.item_data_statistics[59971] = {
 	is_world = 0,
 	icon = "props/z23draw_b",
 	id = 59971,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175864,6 +179380,7 @@ _G.pg.base.item_data_statistics[59972] = {
 	is_world = 0,
 	icon = "props/z23draw_c",
 	id = 59972,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175887,6 +179404,7 @@ _G.pg.base.item_data_statistics[59973] = {
 	is_world = 0,
 	icon = "props/z23draw_d",
 	id = 59973,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175910,6 +179428,7 @@ _G.pg.base.item_data_statistics[59974] = {
 	is_world = 0,
 	icon = "props/z23draw_e",
 	id = 59974,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175933,6 +179452,7 @@ _G.pg.base.item_data_statistics[59975] = {
 	is_world = 0,
 	icon = "props/z23draw_f",
 	id = 59975,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175956,6 +179476,7 @@ _G.pg.base.item_data_statistics[59976] = {
 	is_world = 0,
 	icon = "props/z23draw_g",
 	id = 59976,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175979,6 +179500,7 @@ _G.pg.base.item_data_statistics[59977] = {
 	is_world = 0,
 	icon = "props/z23draw_h",
 	id = 59977,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176002,6 +179524,7 @@ _G.pg.base.item_data_statistics[59978] = {
 	is_world = 0,
 	icon = "props/z23draw_i",
 	id = 59978,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176025,6 +179548,7 @@ _G.pg.base.item_data_statistics[59979] = {
 	is_world = 0,
 	icon = "Props/lizhanzhizheng",
 	id = 59979,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176048,6 +179572,7 @@ _G.pg.base.item_data_statistics[59981] = {
 	is_world = 0,
 	icon = "Props/u556xunzhang",
 	id = 59981,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176071,6 +179596,7 @@ _G.pg.base.item_data_statistics[59982] = {
 	is_world = 0,
 	icon = "props/shabaidraw_a",
 	id = 59982,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176094,6 +179620,7 @@ _G.pg.base.item_data_statistics[59983] = {
 	is_world = 0,
 	icon = "props/shabaidraw_b",
 	id = 59983,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176117,6 +179644,7 @@ _G.pg.base.item_data_statistics[59984] = {
 	is_world = 0,
 	icon = "props/shabaidraw_c",
 	id = 59984,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176140,6 +179668,7 @@ _G.pg.base.item_data_statistics[59985] = {
 	is_world = 0,
 	icon = "props/shabaidraw_d",
 	id = 59985,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176163,6 +179692,7 @@ _G.pg.base.item_data_statistics[59986] = {
 	is_world = 0,
 	icon = "props/shabaidraw_e",
 	id = 59986,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176186,6 +179716,7 @@ _G.pg.base.item_data_statistics[59987] = {
 	is_world = 0,
 	icon = "props/shabaidraw_f",
 	id = 59987,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176209,6 +179740,7 @@ _G.pg.base.item_data_statistics[59988] = {
 	is_world = 0,
 	icon = "props/shabaidraw_g",
 	id = 59988,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176232,6 +179764,7 @@ _G.pg.base.item_data_statistics[60011] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 60011,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176255,6 +179788,7 @@ _G.pg.base.item_data_statistics[60012] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 60012,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176278,6 +179812,7 @@ _G.pg.base.item_data_statistics[60021] = {
 	is_world = 0,
 	icon = "Props/red_packet",
 	id = 60021,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176301,6 +179836,7 @@ _G.pg.base.item_data_statistics[60022] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60022,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176324,6 +179860,7 @@ _G.pg.base.item_data_statistics[60023] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60023,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176347,6 +179884,7 @@ _G.pg.base.item_data_statistics[60030] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176370,6 +179908,7 @@ _G.pg.base.item_data_statistics[60031] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176393,6 +179932,7 @@ _G.pg.base.item_data_statistics[60032] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176416,6 +179956,7 @@ _G.pg.base.item_data_statistics[60033] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176439,6 +179980,7 @@ _G.pg.base.item_data_statistics[60034] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176462,6 +180004,7 @@ _G.pg.base.item_data_statistics[60035] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176485,6 +180028,7 @@ _G.pg.base.item_data_statistics[60036] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60036,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176508,6 +180052,7 @@ _G.pg.base.item_data_statistics[60037] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60037,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176531,6 +180076,7 @@ _G.pg.base.item_data_statistics[60038] = {
 	is_world = 0,
 	icon = "Props/zuantou",
 	id = 60038,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176554,6 +180100,7 @@ _G.pg.base.item_data_statistics[61001] = {
 	is_world = 0,
 	icon = "Props/tebiezuozhan",
 	id = 61001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176577,6 +180124,7 @@ _G.pg.base.item_data_statistics[60057] = {
 	is_world = 0,
 	icon = "Props/59122",
 	id = 60057,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176600,6 +180148,7 @@ _G.pg.base.item_data_statistics[60058] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 60058,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176623,6 +180172,7 @@ _G.pg.base.item_data_statistics[60105] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60105,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176646,6 +180196,7 @@ _G.pg.base.item_data_statistics[60106] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60106,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176680,6 +180231,7 @@ _G.pg.base.item_data_statistics[60107] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60107,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176714,6 +180266,7 @@ _G.pg.base.item_data_statistics[60108] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60108,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176748,6 +180301,7 @@ _G.pg.base.item_data_statistics[60109] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60109,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176782,6 +180336,7 @@ _G.pg.base.item_data_statistics[60110] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60110,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176816,6 +180371,7 @@ _G.pg.base.item_data_statistics[60111] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60111,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176850,6 +180406,7 @@ _G.pg.base.item_data_statistics[60112] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60112,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -176884,6 +180441,7 @@ _G.pg.base.item_data_statistics[60113] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60113,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176907,6 +180465,7 @@ _G.pg.base.item_data_statistics[60114] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60114,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176930,6 +180489,7 @@ _G.pg.base.item_data_statistics[60115] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60115,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176953,6 +180513,7 @@ _G.pg.base.item_data_statistics[60116] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60116,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176976,6 +180537,7 @@ _G.pg.base.item_data_statistics[60117] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60117,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176999,6 +180561,7 @@ _G.pg.base.item_data_statistics[60118] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60118,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177022,6 +180585,7 @@ _G.pg.base.item_data_statistics[60119] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2022",
 	id = 60119,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177032,20 +180596,21 @@ _G.pg.base.item_data_statistics[60119] = {
 _G.pg.base.item_data_statistics[60129] = {
 	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲得指定角色）",
 	name = "賀年卡（辛丑）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 21,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60129,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60129,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177055,20 +180620,21 @@ _G.pg.base.item_data_statistics[60129] = {
 _G.pg.base.item_data_statistics[60130] = {
 	display = "可以獲得大鳳及其賀年卡",
 	name = "賀年卡（大鳳）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 11,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60130,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60130,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {
 		{
 			4,
@@ -177089,20 +180655,21 @@ _G.pg.base.item_data_statistics[60130] = {
 _G.pg.base.item_data_statistics[60131] = {
 	display = "可以獲得企業及其賀年卡",
 	name = "賀年卡（企業）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 11,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60131,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60131,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {
 		{
 			4,
@@ -177123,20 +180690,21 @@ _G.pg.base.item_data_statistics[60131] = {
 _G.pg.base.item_data_statistics[60132] = {
 	display = "可以獲得貝爾法斯特及其賀年卡",
 	name = "賀年卡（貝爾法斯特）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 11,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60132,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60132,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {
 		{
 			4,
@@ -177157,20 +180725,21 @@ _G.pg.base.item_data_statistics[60132] = {
 _G.pg.base.item_data_statistics[60133] = {
 	display = "可以獲得寧海及其賀年卡",
 	name = "賀年卡（寧海）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 11,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60133,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60133,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {
 		{
 			4,
@@ -177191,20 +180760,21 @@ _G.pg.base.item_data_statistics[60133] = {
 _G.pg.base.item_data_statistics[60134] = {
 	display = "可以獲得平海及其賀年卡",
 	name = "賀年卡（平海）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 11,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60134,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60134,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {
 		{
 			4,
@@ -177225,20 +180795,21 @@ _G.pg.base.item_data_statistics[60134] = {
 _G.pg.base.item_data_statistics[60135] = {
 	display = "由大鳳處收到的，春節賀年卡",
 	name = "大鳳的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60135,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60135,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177248,20 +180819,21 @@ _G.pg.base.item_data_statistics[60135] = {
 _G.pg.base.item_data_statistics[60136] = {
 	display = "由企業處收到的，春節賀年卡",
 	name = "企業的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60136,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60136,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177271,20 +180843,21 @@ _G.pg.base.item_data_statistics[60136] = {
 _G.pg.base.item_data_statistics[60137] = {
 	display = "由貝爾法斯特處收到的，春節賀年卡",
 	name = "貝爾法斯特的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60137,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60137,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177294,20 +180867,21 @@ _G.pg.base.item_data_statistics[60137] = {
 _G.pg.base.item_data_statistics[60138] = {
 	display = "由寧海處收到的，春節賀年卡",
 	name = "寧海的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60138,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60138,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177317,20 +180891,21 @@ _G.pg.base.item_data_statistics[60138] = {
 _G.pg.base.item_data_statistics[60139] = {
 	display = "由平海處收到的，春節賀年卡",
 	name = "平海的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60139,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka",
 	price = "",
-	id = 60139,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -177353,6 +180928,7 @@ _G.pg.base.item_data_statistics[60140] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60140,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177376,6 +180952,7 @@ _G.pg.base.item_data_statistics[60141] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60141,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177399,6 +180976,7 @@ _G.pg.base.item_data_statistics[60142] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60142,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177422,6 +181000,7 @@ _G.pg.base.item_data_statistics[60143] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60143,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177445,6 +181024,7 @@ _G.pg.base.item_data_statistics[60144] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60144,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177468,6 +181048,7 @@ _G.pg.base.item_data_statistics[60145] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60145,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177491,6 +181072,7 @@ _G.pg.base.item_data_statistics[60146] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60146,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177514,6 +181096,7 @@ _G.pg.base.item_data_statistics[60147] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60147,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177537,6 +181120,7 @@ _G.pg.base.item_data_statistics[60148] = {
 	is_world = 0,
 	icon = "Props/javelin",
 	id = 60148,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177560,6 +181144,7 @@ _G.pg.base.item_data_statistics[60149] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60149,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177624,6 +181209,7 @@ _G.pg.base.item_data_statistics[60150] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60150,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177658,6 +181244,7 @@ _G.pg.base.item_data_statistics[60151] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60151,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177692,6 +181279,7 @@ _G.pg.base.item_data_statistics[60152] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60152,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177726,6 +181314,7 @@ _G.pg.base.item_data_statistics[60153] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60153,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177760,6 +181349,7 @@ _G.pg.base.item_data_statistics[60154] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60154,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177794,6 +181384,7 @@ _G.pg.base.item_data_statistics[60155] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60155,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177828,6 +181419,7 @@ _G.pg.base.item_data_statistics[60156] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60156,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177862,6 +181454,7 @@ _G.pg.base.item_data_statistics[60157] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60157,
+	order = 0,
 	display_icon = {
 		{
 			4,
@@ -177896,6 +181489,7 @@ _G.pg.base.item_data_statistics[60158] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60158,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177919,6 +181513,7 @@ _G.pg.base.item_data_statistics[60159] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60159,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177942,6 +181537,7 @@ _G.pg.base.item_data_statistics[60160] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60160,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177965,6 +181561,7 @@ _G.pg.base.item_data_statistics[60161] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60161,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177988,6 +181585,7 @@ _G.pg.base.item_data_statistics[60162] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60162,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178011,6 +181609,7 @@ _G.pg.base.item_data_statistics[60163] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60163,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178034,6 +181633,7 @@ _G.pg.base.item_data_statistics[60164] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60164,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178057,6 +181657,7 @@ _G.pg.base.item_data_statistics[60165] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60165,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178080,6 +181681,7 @@ _G.pg.base.item_data_statistics[60199] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60199,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178103,6 +181705,7 @@ _G.pg.base.item_data_statistics[60200] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60200,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178126,6 +181729,7 @@ _G.pg.base.item_data_statistics[60201] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60201,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178149,6 +181753,7 @@ _G.pg.base.item_data_statistics[60202] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60202,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178172,6 +181777,7 @@ _G.pg.base.item_data_statistics[60203] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60203,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178195,6 +181801,7 @@ _G.pg.base.item_data_statistics[60204] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60204,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178218,6 +181825,7 @@ _G.pg.base.item_data_statistics[60205] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60205,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178241,6 +181849,7 @@ _G.pg.base.item_data_statistics[60206] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60206,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178264,6 +181873,7 @@ _G.pg.base.item_data_statistics[60207] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60207,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178287,6 +181897,7 @@ _G.pg.base.item_data_statistics[60208] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60208,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178310,6 +181921,7 @@ _G.pg.base.item_data_statistics[60209] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60209,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178333,6 +181945,7 @@ _G.pg.base.item_data_statistics[60210] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60210,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178356,6 +181969,7 @@ _G.pg.base.item_data_statistics[60211] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60211,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178379,6 +181993,7 @@ _G.pg.base.item_data_statistics[60212] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60212,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178402,6 +182017,7 @@ _G.pg.base.item_data_statistics[60213] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60213,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178425,6 +182041,7 @@ _G.pg.base.item_data_statistics[60214] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60214,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178448,6 +182065,7 @@ _G.pg.base.item_data_statistics[60215] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60215,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178471,6 +182089,7 @@ _G.pg.base.item_data_statistics[60216] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023_tw",
 	id = 60216,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178494,6 +182113,7 @@ _G.pg.base.item_data_statistics[60217] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 60217,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178517,6 +182137,7 @@ _G.pg.base.item_data_statistics[60218] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 60218,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178540,6 +182161,7 @@ _G.pg.base.item_data_statistics[60219] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 60219,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178563,6 +182185,7 @@ _G.pg.base.item_data_statistics[60220] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 60220,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178586,6 +182209,7 @@ _G.pg.base.item_data_statistics[60221] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 60221,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178609,6 +182233,7 @@ _G.pg.base.item_data_statistics[60222] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 60222,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178632,6 +182257,7 @@ _G.pg.base.item_data_statistics[60223] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 60223,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178655,6 +182281,7 @@ _G.pg.base.item_data_statistics[60224] = {
 	is_world = 0,
 	icon = "props/draw_h",
 	id = 60224,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178678,6 +182305,7 @@ _G.pg.base.item_data_statistics[60225] = {
 	is_world = 0,
 	icon = "props/draw_i",
 	id = 60225,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178688,20 +182316,21 @@ _G.pg.base.item_data_statistics[60225] = {
 _G.pg.base.item_data_statistics[60226] = {
 	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲取指定角色）",
 	name = "賀年卡（壬寅）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 21,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60226,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60226,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178711,20 +182340,21 @@ _G.pg.base.item_data_statistics[60226] = {
 _G.pg.base.item_data_statistics[60227] = {
 	display = "由大鳳處收到的，春節賀年卡",
 	name = "大鳳的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60227,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60227,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178734,20 +182364,21 @@ _G.pg.base.item_data_statistics[60227] = {
 _G.pg.base.item_data_statistics[60228] = {
 	display = "由企業處收到的，春節賀年卡",
 	name = "企業的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60228,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60228,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178757,20 +182388,21 @@ _G.pg.base.item_data_statistics[60228] = {
 _G.pg.base.item_data_statistics[60229] = {
 	display = "由貝爾法斯特處收到的，春節賀年卡",
 	name = "貝爾法斯特的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60229,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60229,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178780,20 +182412,21 @@ _G.pg.base.item_data_statistics[60229] = {
 _G.pg.base.item_data_statistics[60230] = {
 	display = "由寧海處收到的，春節賀年卡",
 	name = "寧海的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60230,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60230,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178803,20 +182436,21 @@ _G.pg.base.item_data_statistics[60230] = {
 _G.pg.base.item_data_statistics[60231] = {
 	display = "由平海處收到的，春節賀年卡",
 	name = "平海的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60231,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60231,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178826,20 +182460,21 @@ _G.pg.base.item_data_statistics[60231] = {
 _G.pg.base.item_data_statistics[60232] = {
 	display = "由長春處收到的，春節賀年卡",
 	name = "長春的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60232,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60232,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178849,20 +182484,21 @@ _G.pg.base.item_data_statistics[60232] = {
 _G.pg.base.item_data_statistics[60233] = {
 	display = "由太原處收到的，春節賀年卡",
 	name = "太原的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60233,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2022",
 	price = "",
-	id = 60233,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178872,20 +182508,21 @@ _G.pg.base.item_data_statistics[60233] = {
 _G.pg.base.item_data_statistics[60234] = {
 	display = "用於「情報解密」，活動結束後將會消失",
 	name = "情報點",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 0,
-	time_limit = 0,
-	rarity = 2,
+	virtual_type = 99,
+	id = 60234,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 41068,
-	virtual_type = 99,
-	is_world = 0,
 	icon = "Props/information_pt",
 	price = "",
-	id = 60234,
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178895,20 +182532,21 @@ _G.pg.base.item_data_statistics[60234] = {
 _G.pg.base.item_data_statistics[60235] = {
 	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
 	name = "初夏2022邀請函",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 21,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60235,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60235,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178918,20 +182556,21 @@ _G.pg.base.item_data_statistics[60235] = {
 _G.pg.base.item_data_statistics[60236] = {
 	display = "由鐵必制處收到的，初夏2022回禮",
 	name = "鐵必制的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60236,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60236,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178941,20 +182580,21 @@ _G.pg.base.item_data_statistics[60236] = {
 _G.pg.base.item_data_statistics[60237] = {
 	display = "由齊柏林伯爵處收到的，初夏2022回禮",
 	name = "齊柏林伯爵的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60237,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60237,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178964,20 +182604,21 @@ _G.pg.base.item_data_statistics[60237] = {
 _G.pg.base.item_data_statistics[60238] = {
 	display = "由華盛頓處收到的，初夏2022回禮",
 	name = "華盛頓的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60238,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60238,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -178987,20 +182628,21 @@ _G.pg.base.item_data_statistics[60238] = {
 _G.pg.base.item_data_statistics[60239] = {
 	display = "由胡德處收到的，初夏2022回禮",
 	name = "胡德的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60239,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60239,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179010,20 +182652,21 @@ _G.pg.base.item_data_statistics[60239] = {
 _G.pg.base.item_data_statistics[60240] = {
 	display = "由雪風處收到的，初夏2022回禮",
 	name = "雪風的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60240,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60240,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179033,20 +182676,21 @@ _G.pg.base.item_data_statistics[60240] = {
 _G.pg.base.item_data_statistics[60241] = {
 	display = "由蒙彼利埃處收到的，初夏2022回禮",
 	name = "蒙彼利埃的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60241,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60241,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179056,20 +182700,21 @@ _G.pg.base.item_data_statistics[60241] = {
 _G.pg.base.item_data_statistics[60242] = {
 	display = "由確捷處收到的，初夏2022回禮",
 	name = "確捷的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60242,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60242,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179079,20 +182724,21 @@ _G.pg.base.item_data_statistics[60242] = {
 _G.pg.base.item_data_statistics[60243] = {
 	display = "由惡毒處收到的，初夏2022回禮",
 	name = "惡毒的回禮（初夏2022）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60243,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/yaoqinghan",
 	price = "",
-	id = 60243,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179115,6 +182761,7 @@ _G.pg.base.item_data_statistics[60260] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60260,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179138,6 +182785,7 @@ _G.pg.base.item_data_statistics[60261] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60261,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179161,6 +182809,7 @@ _G.pg.base.item_data_statistics[60262] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60262,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179184,6 +182833,7 @@ _G.pg.base.item_data_statistics[60263] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60263,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179207,6 +182857,7 @@ _G.pg.base.item_data_statistics[60264] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60264,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179230,6 +182881,7 @@ _G.pg.base.item_data_statistics[60265] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60265,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179253,6 +182905,7 @@ _G.pg.base.item_data_statistics[60266] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60266,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179276,6 +182929,7 @@ _G.pg.base.item_data_statistics[60267] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60267,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179299,6 +182953,7 @@ _G.pg.base.item_data_statistics[60268] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60268,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179322,6 +182977,7 @@ _G.pg.base.item_data_statistics[60283] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023",
 	id = 60283,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179345,6 +183001,7 @@ _G.pg.base.item_data_statistics[60284] = {
 	is_world = 0,
 	icon = "Props/nianhezhuang2023",
 	id = 60284,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179355,20 +183012,21 @@ _G.pg.base.item_data_statistics[60284] = {
 _G.pg.base.item_data_statistics[60290] = {
 	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲取指定角色）",
 	name = "賀年卡（癸卯）",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 21,
-	time_limit = 0,
-	rarity = 4,
+	virtual_type = 0,
+	id = 60290,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60290,
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179378,20 +183036,21 @@ _G.pg.base.item_data_statistics[60290] = {
 _G.pg.base.item_data_statistics[60291] = {
 	display = "由大鳳處收到的，春節賀年卡",
 	name = "大鳳的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60291,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60291,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179401,20 +183060,21 @@ _G.pg.base.item_data_statistics[60291] = {
 _G.pg.base.item_data_statistics[60292] = {
 	display = "由U-110處收到的，春節賀年卡",
 	name = "U-110的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60292,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60292,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179424,20 +183084,21 @@ _G.pg.base.item_data_statistics[60292] = {
 _G.pg.base.item_data_statistics[60293] = {
 	display = "由阿拉巴馬處收到的，春節賀年卡",
 	name = "阿拉巴馬的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60293,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60293,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179447,20 +183108,21 @@ _G.pg.base.item_data_statistics[60293] = {
 _G.pg.base.item_data_statistics[60294] = {
 	display = "由肇和處收到的，春節賀年卡",
 	name = "肇和的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60294,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60294,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179470,20 +183132,21 @@ _G.pg.base.item_data_statistics[60294] = {
 _G.pg.base.item_data_statistics[60295] = {
 	display = "由應瑞處收到的，春節賀年卡",
 	name = "應瑞的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60295,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60295,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179493,20 +183156,21 @@ _G.pg.base.item_data_statistics[60295] = {
 _G.pg.base.item_data_statistics[60296] = {
 	display = "由長春處收到的，春節賀年卡",
 	name = "長春的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60296,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60296,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179516,20 +183180,21 @@ _G.pg.base.item_data_statistics[60296] = {
 _G.pg.base.item_data_statistics[60297] = {
 	display = "由太原處收到的，春節賀年卡",
 	name = "太原的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60297,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60297,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179539,20 +183204,21 @@ _G.pg.base.item_data_statistics[60297] = {
 _G.pg.base.item_data_statistics[60298] = {
 	display = "由逸仙處收到的，春節賀年卡",
 	name = "逸仙的賀年卡",
-	max_num = 0,
+	drop_oil_max = 0,
 	type = 1,
-	time_limit = 0,
-	rarity = 9,
+	virtual_type = 0,
+	id = 60298,
 	shop_id = -1,
 	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
 	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
 	icon = "Props/henianka2023",
 	price = "",
-	id = 60298,
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	drop_gold_max = 0,
+	is_world = 0,
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
@@ -179575,6 +183241,7 @@ _G.pg.base.item_data_statistics[60299] = {
 	is_world = 0,
 	icon = "props/draw_a",
 	id = 60299,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179598,6 +183265,7 @@ _G.pg.base.item_data_statistics[60300] = {
 	is_world = 0,
 	icon = "props/draw_b",
 	id = 60300,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179621,6 +183289,7 @@ _G.pg.base.item_data_statistics[60301] = {
 	is_world = 0,
 	icon = "props/draw_c",
 	id = 60301,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179644,6 +183313,7 @@ _G.pg.base.item_data_statistics[60302] = {
 	is_world = 0,
 	icon = "props/draw_d",
 	id = 60302,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179667,6 +183337,7 @@ _G.pg.base.item_data_statistics[60303] = {
 	is_world = 0,
 	icon = "props/draw_e",
 	id = 60303,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179690,6 +183361,7 @@ _G.pg.base.item_data_statistics[60304] = {
 	is_world = 0,
 	icon = "props/draw_f",
 	id = 60304,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179713,6 +183385,7 @@ _G.pg.base.item_data_statistics[60305] = {
 	is_world = 0,
 	icon = "props/draw_g",
 	id = 60305,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179736,6 +183409,7 @@ _G.pg.base.item_data_statistics[60306] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60306,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179759,6 +183433,7 @@ _G.pg.base.item_data_statistics[60307] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60307,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179782,6 +183457,7 @@ _G.pg.base.item_data_statistics[60308] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60308,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179805,6 +183481,7 @@ _G.pg.base.item_data_statistics[60309] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60309,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179828,6 +183505,7 @@ _G.pg.base.item_data_statistics[60310] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60310,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179851,6 +183529,7 @@ _G.pg.base.item_data_statistics[60311] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60311,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179874,6 +183553,7 @@ _G.pg.base.item_data_statistics[60312] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60312,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179897,6 +183577,7 @@ _G.pg.base.item_data_statistics[60313] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60313,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179920,6 +183601,7 @@ _G.pg.base.item_data_statistics[60314] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60314,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179943,6 +183625,7 @@ _G.pg.base.item_data_statistics[60315] = {
 	is_world = 0,
 	icon = "Props/chuizisuipian",
 	id = 60315,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179966,6 +183649,7 @@ _G.pg.base.item_data_statistics[60316] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60316,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179989,6 +183673,7 @@ _G.pg.base.item_data_statistics[60317] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60317,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180012,6 +183697,7 @@ _G.pg.base.item_data_statistics[60318] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60318,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180035,6 +183721,7 @@ _G.pg.base.item_data_statistics[60319] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60319,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180058,6 +183745,7 @@ _G.pg.base.item_data_statistics[60320] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60320,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180081,6 +183769,7 @@ _G.pg.base.item_data_statistics[60321] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60321,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180104,6 +183793,7 @@ _G.pg.base.item_data_statistics[60322] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60322,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180127,6 +183817,7 @@ _G.pg.base.item_data_statistics[60323] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60323,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180150,6 +183841,7 @@ _G.pg.base.item_data_statistics[60324] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60324,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180173,6 +183865,7 @@ _G.pg.base.item_data_statistics[60401] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60401,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180196,6 +183889,7 @@ _G.pg.base.item_data_statistics[60402] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60402,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180219,6 +183913,7 @@ _G.pg.base.item_data_statistics[60403] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60403,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180242,6 +183937,7 @@ _G.pg.base.item_data_statistics[60404] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60404,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180265,6 +183961,7 @@ _G.pg.base.item_data_statistics[60405] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60405,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180288,6 +183985,7 @@ _G.pg.base.item_data_statistics[60406] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60406,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180311,6 +184009,7 @@ _G.pg.base.item_data_statistics[60407] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60407,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180334,6 +184033,7 @@ _G.pg.base.item_data_statistics[60408] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60408,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180357,6 +184057,7 @@ _G.pg.base.item_data_statistics[60409] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60409,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180380,6 +184081,7 @@ _G.pg.base.item_data_statistics[60410] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60410,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180403,6 +184105,7 @@ _G.pg.base.item_data_statistics[60411] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60411,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180426,6 +184129,7 @@ _G.pg.base.item_data_statistics[60412] = {
 	is_world = 0,
 	icon = "Props/puzzle",
 	id = 60412,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180449,6 +184153,7 @@ _G.pg.base.item_data_statistics[60423] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60423,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180472,6 +184177,7 @@ _G.pg.base.item_data_statistics[60424] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60424,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180495,6 +184201,7 @@ _G.pg.base.item_data_statistics[60425] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60425,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180518,6 +184225,7 @@ _G.pg.base.item_data_statistics[60426] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60426,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180541,6 +184249,7 @@ _G.pg.base.item_data_statistics[60427] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60427,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180564,6 +184273,7 @@ _G.pg.base.item_data_statistics[60428] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60428,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180587,6 +184297,7 @@ _G.pg.base.item_data_statistics[60429] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60429,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180610,6 +184321,7 @@ _G.pg.base.item_data_statistics[60430] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60430,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180633,6 +184345,7 @@ _G.pg.base.item_data_statistics[60431] = {
 	is_world = 0,
 	icon = "Props/yaoqinghan",
 	id = 60431,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180686,6 +184399,7 @@ _G.pg.base.item_data_statistics[69001] = {
 	is_world = 0,
 	icon = "Props/lv70_equip",
 	id = 69001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180725,6 +184439,7 @@ _G.pg.base.item_data_statistics[69908] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69908,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180768,6 +184483,7 @@ _G.pg.base.item_data_statistics[69909] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69909,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180805,6 +184521,7 @@ _G.pg.base.item_data_statistics[69910] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69910,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180828,6 +184545,7 @@ _G.pg.base.item_data_statistics[69911] = {
 	is_world = 0,
 	icon = "Props/u556xunzhang",
 	id = 69911,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180861,6 +184579,7 @@ _G.pg.base.item_data_statistics[69927] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69927,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180924,6 +184643,7 @@ _G.pg.base.item_data_statistics[69930] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69930,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180958,6 +184678,7 @@ _G.pg.base.item_data_statistics[69931] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69931,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180996,6 +184717,7 @@ _G.pg.base.item_data_statistics[69932] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69932,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181030,6 +184752,7 @@ _G.pg.base.item_data_statistics[69933] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69933,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181070,6 +184793,7 @@ _G.pg.base.item_data_statistics[69934] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69934,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181107,6 +184831,7 @@ _G.pg.base.item_data_statistics[69935] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69935,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181146,6 +184871,7 @@ _G.pg.base.item_data_statistics[69936] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69936,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181188,6 +184914,7 @@ _G.pg.base.item_data_statistics[69937] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69937,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181221,6 +184948,7 @@ _G.pg.base.item_data_statistics[69938] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69938,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181253,6 +184981,7 @@ _G.pg.base.item_data_statistics[69939] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 69939,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181276,6 +185005,7 @@ _G.pg.base.item_data_statistics[70024] = {
 	is_world = 0,
 	icon = "Props/music_jiasikenie",
 	id = 70024,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181299,6 +185029,7 @@ _G.pg.base.item_data_statistics[70025] = {
 	is_world = 0,
 	icon = "Props/music_jiasikenie",
 	id = 70025,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181322,6 +185053,7 @@ _G.pg.base.item_data_statistics[70026] = {
 	is_world = 0,
 	icon = "Props/music_jiasikenie",
 	id = 70026,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181345,6 +185077,7 @@ _G.pg.base.item_data_statistics[70027] = {
 	is_world = 0,
 	icon = "Props/music_kelifulan",
 	id = 70027,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181368,6 +185101,7 @@ _G.pg.base.item_data_statistics[70028] = {
 	is_world = 0,
 	icon = "Props/music_kelifulan",
 	id = 70028,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181391,6 +185125,7 @@ _G.pg.base.item_data_statistics[70029] = {
 	is_world = 0,
 	icon = "Props/music_kelifulan",
 	id = 70029,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181414,6 +185149,7 @@ _G.pg.base.item_data_statistics[70030] = {
 	is_world = 0,
 	icon = "Props/music_xiefei",
 	id = 70030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181437,6 +185173,7 @@ _G.pg.base.item_data_statistics[70031] = {
 	is_world = 0,
 	icon = "Props/music_xiefei",
 	id = 70031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181460,6 +185197,7 @@ _G.pg.base.item_data_statistics[70032] = {
 	is_world = 0,
 	icon = "Props/music_xiefei",
 	id = 70032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181483,6 +185221,7 @@ _G.pg.base.item_data_statistics[70033] = {
 	is_world = 0,
 	icon = "Props/music_xipeier",
 	id = 70033,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181506,6 +185245,7 @@ _G.pg.base.item_data_statistics[70034] = {
 	is_world = 0,
 	icon = "Props/music_xipeier",
 	id = 70034,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181529,6 +185269,7 @@ _G.pg.base.item_data_statistics[70035] = {
 	is_world = 0,
 	icon = "Props/music_xipeier",
 	id = 70035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181552,6 +185293,7 @@ _G.pg.base.item_data_statistics[70036] = {
 	is_world = 0,
 	icon = "Props/music_chicheng",
 	id = 70036,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181575,6 +185317,7 @@ _G.pg.base.item_data_statistics[70037] = {
 	is_world = 0,
 	icon = "Props/music_chicheng",
 	id = 70037,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181598,6 +185341,7 @@ _G.pg.base.item_data_statistics[70038] = {
 	is_world = 0,
 	icon = "Props/music_chicheng",
 	id = 70038,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181621,6 +185365,7 @@ _G.pg.base.item_data_statistics[70050] = {
 	is_world = 0,
 	icon = "Props/TWkaifuPT",
 	id = 70050,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181644,6 +185389,7 @@ _G.pg.base.item_data_statistics[70051] = {
 	is_world = 0,
 	icon = "Props/30004",
 	id = 70051,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -181688,6 +185434,7 @@ _G.pg.base.item_data_statistics[70052] = {
 	is_world = 0,
 	icon = "Props/TWAndroid",
 	id = 70052,
+	order = 0,
 	display_icon = {
 		{
 			1,
@@ -181722,6 +185469,7 @@ _G.pg.base.item_data_statistics[70053] = {
 	is_world = 0,
 	icon = "Props/music_xingguang",
 	id = 70053,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181745,6 +185493,7 @@ _G.pg.base.item_data_statistics[70054] = {
 	is_world = 0,
 	icon = "Props/music_xingguang",
 	id = 70054,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181768,6 +185517,7 @@ _G.pg.base.item_data_statistics[70055] = {
 	is_world = 0,
 	icon = "Props/music_xingguang",
 	id = 70055,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181791,6 +185541,7 @@ _G.pg.base.item_data_statistics[70056] = {
 	is_world = 0,
 	icon = "Props/music_xingguang",
 	id = 70056,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181814,6 +185565,7 @@ _G.pg.base.item_data_statistics[70057] = {
 	is_world = 0,
 	icon = "Props/music_xingguang",
 	id = 70057,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181837,6 +185589,7 @@ _G.pg.base.item_data_statistics[70058] = {
 	is_world = 0,
 	icon = "Props/music_pomie",
 	id = 70058,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181860,6 +185613,7 @@ _G.pg.base.item_data_statistics[70059] = {
 	is_world = 0,
 	icon = "Props/music_pomie",
 	id = 70059,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181883,6 +185637,7 @@ _G.pg.base.item_data_statistics[70060] = {
 	is_world = 0,
 	icon = "Props/music_pomie",
 	id = 70060,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181906,6 +185661,7 @@ _G.pg.base.item_data_statistics[70061] = {
 	is_world = 0,
 	icon = "Props/music_pomie",
 	id = 70061,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181929,6 +185685,7 @@ _G.pg.base.item_data_statistics[70062] = {
 	is_world = 0,
 	icon = "Props/music_yangguang",
 	id = 70062,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181952,6 +185709,7 @@ _G.pg.base.item_data_statistics[70063] = {
 	is_world = 0,
 	icon = "Props/music_yangguang",
 	id = 70063,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181975,6 +185733,7 @@ _G.pg.base.item_data_statistics[70064] = {
 	is_world = 0,
 	icon = "Props/music_yangguang",
 	id = 70064,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181998,6 +185757,7 @@ _G.pg.base.item_data_statistics[70065] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70065,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182021,6 +185781,7 @@ _G.pg.base.item_data_statistics[70066] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70066,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182044,6 +185805,7 @@ _G.pg.base.item_data_statistics[70067] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70067,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182067,6 +185829,7 @@ _G.pg.base.item_data_statistics[70068] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70068,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182090,6 +185853,7 @@ _G.pg.base.item_data_statistics[70069] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70069,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182113,6 +185877,7 @@ _G.pg.base.item_data_statistics[70070] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70070,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182136,6 +185901,7 @@ _G.pg.base.item_data_statistics[70071] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70071,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182159,6 +185925,7 @@ _G.pg.base.item_data_statistics[70072] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70072,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182182,6 +185949,7 @@ _G.pg.base.item_data_statistics[70073] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70073,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182205,6 +185973,7 @@ _G.pg.base.item_data_statistics[70074] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70074,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182228,6 +185997,7 @@ _G.pg.base.item_data_statistics[70075] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70075,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182251,6 +186021,7 @@ _G.pg.base.item_data_statistics[70076] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70076,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182274,6 +186045,7 @@ _G.pg.base.item_data_statistics[70077] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70077,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182297,6 +186069,7 @@ _G.pg.base.item_data_statistics[70078] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70078,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182320,6 +186093,7 @@ _G.pg.base.item_data_statistics[70079] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70079,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182343,6 +186117,7 @@ _G.pg.base.item_data_statistics[70080] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70080,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182366,6 +186141,7 @@ _G.pg.base.item_data_statistics[70081] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70081,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182389,6 +186165,7 @@ _G.pg.base.item_data_statistics[70082] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70082,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182412,6 +186189,7 @@ _G.pg.base.item_data_statistics[70083] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70083,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182435,6 +186213,7 @@ _G.pg.base.item_data_statistics[70084] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70084,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182458,6 +186237,7 @@ _G.pg.base.item_data_statistics[70085] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70085,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182481,6 +186261,7 @@ _G.pg.base.item_data_statistics[70086] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70086,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182504,6 +186285,7 @@ _G.pg.base.item_data_statistics[70087] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70087,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182527,6 +186309,7 @@ _G.pg.base.item_data_statistics[70088] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70088,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182550,6 +186333,7 @@ _G.pg.base.item_data_statistics[70089] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70089,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182573,6 +186357,7 @@ _G.pg.base.item_data_statistics[70090] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70090,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182596,6 +186381,7 @@ _G.pg.base.item_data_statistics[70091] = {
 	is_world = 0,
 	icon = "Props/idolphotos",
 	id = 70091,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182619,6 +186405,7 @@ _G.pg.base.item_data_statistics[70092] = {
 	is_world = 0,
 	icon = "Props/idolarchives",
 	id = 70092,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182642,6 +186429,7 @@ _G.pg.base.item_data_statistics[70093] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70093,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182665,6 +186453,7 @@ _G.pg.base.item_data_statistics[70094] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70094,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182688,6 +186477,7 @@ _G.pg.base.item_data_statistics[70095] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70095,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182711,6 +186501,7 @@ _G.pg.base.item_data_statistics[70096] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70096,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182734,6 +186525,7 @@ _G.pg.base.item_data_statistics[70097] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70097,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182757,6 +186549,7 @@ _G.pg.base.item_data_statistics[70098] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70098,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182780,6 +186573,7 @@ _G.pg.base.item_data_statistics[70099] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70099,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182803,6 +186597,7 @@ _G.pg.base.item_data_statistics[70100] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70100,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182826,6 +186621,7 @@ _G.pg.base.item_data_statistics[70101] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70101,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182849,6 +186645,7 @@ _G.pg.base.item_data_statistics[70102] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70102,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182872,6 +186669,7 @@ _G.pg.base.item_data_statistics[70103] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70103,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182895,6 +186693,7 @@ _G.pg.base.item_data_statistics[70104] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70104,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182918,6 +186717,7 @@ _G.pg.base.item_data_statistics[70126] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70126,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182941,6 +186741,7 @@ _G.pg.base.item_data_statistics[70127] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70127,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182964,6 +186765,7 @@ _G.pg.base.item_data_statistics[70128] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70128,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182987,6 +186789,7 @@ _G.pg.base.item_data_statistics[70129] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70129,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183010,6 +186813,7 @@ _G.pg.base.item_data_statistics[70130] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70130,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183033,6 +186837,7 @@ _G.pg.base.item_data_statistics[70131] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70131,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183056,6 +186861,7 @@ _G.pg.base.item_data_statistics[70132] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70132,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183079,6 +186885,7 @@ _G.pg.base.item_data_statistics[70133] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70133,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183102,6 +186909,7 @@ _G.pg.base.item_data_statistics[70134] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70134,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183125,6 +186933,7 @@ _G.pg.base.item_data_statistics[70135] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70135,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183148,6 +186957,7 @@ _G.pg.base.item_data_statistics[70136] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70136,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183171,6 +186981,7 @@ _G.pg.base.item_data_statistics[70137] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70137,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183194,6 +187005,7 @@ _G.pg.base.item_data_statistics[70138] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70138,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183217,6 +187029,7 @@ _G.pg.base.item_data_statistics[70139] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70139,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183240,6 +187053,7 @@ _G.pg.base.item_data_statistics[70140] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70140,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183263,6 +187077,7 @@ _G.pg.base.item_data_statistics[70141] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70141,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183286,6 +187101,7 @@ _G.pg.base.item_data_statistics[70142] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70142,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183309,6 +187125,7 @@ _G.pg.base.item_data_statistics[70143] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70143,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183332,6 +187149,7 @@ _G.pg.base.item_data_statistics[70146] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70146,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183355,6 +187173,7 @@ _G.pg.base.item_data_statistics[70147] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70147,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183378,6 +187197,7 @@ _G.pg.base.item_data_statistics[70148] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70148,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183401,6 +187221,7 @@ _G.pg.base.item_data_statistics[70149] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70149,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183424,6 +187245,7 @@ _G.pg.base.item_data_statistics[70150] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70150,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183447,6 +187269,7 @@ _G.pg.base.item_data_statistics[70151] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70151,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183470,6 +187293,7 @@ _G.pg.base.item_data_statistics[70152] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70152,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183493,6 +187317,7 @@ _G.pg.base.item_data_statistics[70153] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70153,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183516,6 +187341,7 @@ _G.pg.base.item_data_statistics[70154] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70154,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183539,6 +187365,7 @@ _G.pg.base.item_data_statistics[70155] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70155,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183562,6 +187389,7 @@ _G.pg.base.item_data_statistics[70156] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70156,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183585,6 +187413,7 @@ _G.pg.base.item_data_statistics[70157] = {
 	is_world = 0,
 	icon = "Props/gridsireninfo",
 	id = 70157,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183608,6 +187437,7 @@ _G.pg.base.item_data_statistics[80000] = {
 	is_world = 0,
 	icon = "Props/59122",
 	id = 80000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183631,6 +187461,7 @@ _G.pg.base.item_data_statistics[80001] = {
 	is_world = 0,
 	icon = "Props/nvpu_ticket",
 	id = 80001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183654,6 +187485,7 @@ _G.pg.base.item_data_statistics[80005] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183677,6 +187509,7 @@ _G.pg.base.item_data_statistics[80002] = {
 	is_world = 0,
 	icon = "Props/54002",
 	id = 80002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183700,6 +187533,7 @@ _G.pg.base.item_data_statistics[80003] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183723,6 +187557,7 @@ _G.pg.base.item_data_statistics[80004] = {
 	is_world = 0,
 	icon = "Props/appearanceboxyouleyuanzixuan",
 	id = 80004,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -183837,6 +187672,7 @@ _G.pg.base.item_data_statistics[80010] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80010,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183860,6 +187696,7 @@ _G.pg.base.item_data_statistics[80013] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80013,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183883,6 +187720,7 @@ _G.pg.base.item_data_statistics[80014] = {
 	is_world = 0,
 	icon = "Props/drum",
 	id = 80014,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183906,6 +187744,7 @@ _G.pg.base.item_data_statistics[80015] = {
 	is_world = 0,
 	icon = "Props/appearanceboxjichangzixuan",
 	id = 80015,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -184020,6 +187859,7 @@ _G.pg.base.item_data_statistics[80018] = {
 	is_world = 0,
 	icon = "Props/suijijichangwaiguan",
 	id = 80018,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -184134,6 +187974,7 @@ _G.pg.base.item_data_statistics[80019] = {
 	is_world = 0,
 	icon = "Props/appearanceboxshuishangleyuanzixuan",
 	id = 80019,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -184248,6 +188089,7 @@ _G.pg.base.item_data_statistics[80030] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 80030,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184271,6 +188113,7 @@ _G.pg.base.item_data_statistics[80031] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80031,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184294,6 +188137,7 @@ _G.pg.base.item_data_statistics[80032] = {
 	is_world = 0,
 	icon = "Props/skinTicket",
 	id = 80032,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184317,6 +188161,7 @@ _G.pg.base.item_data_statistics[80033] = {
 	is_world = 0,
 	icon = "Props/appearanceboxnvpuzixuan",
 	id = 80033,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -184431,6 +188276,7 @@ _G.pg.base.item_data_statistics[80034] = {
 	is_world = 0,
 	icon = "Props/appearanceboxhongyuezixuan",
 	id = 80034,
+	order = 0,
 	display_icon = {
 		{
 			9,
@@ -184545,6 +188391,7 @@ _G.pg.base.item_data_statistics[80035] = {
 	is_world = 0,
 	icon = "Props/union_pt",
 	id = 80035,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184568,6 +188415,7 @@ _G.pg.base.item_data_statistics[81000] = {
 	is_world = 0,
 	icon = "Props/fudai3",
 	id = 81000,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184627,6 +188475,7 @@ _G.pg.base.item_data_statistics[81001] = {
 	is_world = 0,
 	icon = "Props/fudai6",
 	id = 81001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184686,6 +188535,7 @@ _G.pg.base.item_data_statistics[81002] = {
 	is_world = 0,
 	icon = "Props/fudai7",
 	id = 81002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184745,6 +188595,7 @@ _G.pg.base.item_data_statistics[81003] = {
 	is_world = 0,
 	icon = "Props/lihe8",
 	id = 81003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184804,6 +188655,7 @@ _G.pg.base.item_data_statistics[81004] = {
 	is_world = 0,
 	icon = "Props/lihe9",
 	id = 81004,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184863,6 +188715,7 @@ _G.pg.base.item_data_statistics[81005] = {
 	is_world = 0,
 	icon = "Props/fudai6",
 	id = 81005,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184922,6 +188775,7 @@ _G.pg.base.item_data_statistics[81006] = {
 	is_world = 0,
 	icon = "Props/fudaiqp1_tw",
 	id = 81006,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -184981,6 +188835,7 @@ _G.pg.base.item_data_statistics[81007] = {
 	is_world = 0,
 	icon = "Props/lihejp6lf",
 	id = 81007,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -185055,6 +188910,7 @@ _G.pg.base.item_data_statistics[86000] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185100,6 +188956,7 @@ _G.pg.base.item_data_statistics[86001] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185146,6 +189003,7 @@ _G.pg.base.item_data_statistics[86002] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185179,6 +189037,7 @@ _G.pg.base.item_data_statistics[86003] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86003,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185245,6 +189104,7 @@ _G.pg.base.item_data_statistics[86004] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86004,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185334,6 +189194,7 @@ _G.pg.base.item_data_statistics[86005] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86005,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185377,6 +189238,7 @@ _G.pg.base.item_data_statistics[86006] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86006,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185414,6 +189276,7 @@ _G.pg.base.item_data_statistics[86007] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86007,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185478,6 +189341,7 @@ _G.pg.base.item_data_statistics[89001] = {
 	is_world = 0,
 	icon = "props/sanzhounian_tw",
 	id = 89001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185501,6 +189365,7 @@ _G.pg.base.item_data_statistics[89002] = {
 	is_world = 0,
 	icon = "props/sizhounian_tw",
 	id = 89002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185524,6 +189389,7 @@ _G.pg.base.item_data_statistics[100000] = {
 	is_world = 0,
 	icon = "Props/100000",
 	id = 100000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185547,6 +189413,7 @@ _G.pg.base.item_data_statistics[100002] = {
 	is_world = 0,
 	icon = "Props/100002",
 	id = 100002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185570,6 +189437,7 @@ _G.pg.base.item_data_statistics[110000] = {
 	is_world = 0,
 	icon = "Props/Wdashijiehuobi",
 	id = 110000,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185593,6 +189461,7 @@ _G.pg.base.item_data_statistics[110001] = {
 	is_world = 0,
 	icon = "Props/Wdashijiezhaungbeibi",
 	id = 110001,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185616,6 +189485,7 @@ _G.pg.base.item_data_statistics[110002] = {
 	is_world = 0,
 	icon = "Props/Wdashijiezhanbeiwuzi",
 	id = 110002,
+	order = 0,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -185639,6 +189509,7 @@ _G.pg.base.item_data_statistics[150000] = {
 	is_world = 0,
 	icon = "Props/Wsucaixiang3",
 	id = 150000,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -185683,6 +189554,7 @@ _G.pg.base.item_data_statistics[150001] = {
 	is_world = 0,
 	icon = "Props/Wsucaixiang2",
 	id = 150001,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -185737,6 +189609,7 @@ _G.pg.base.item_data_statistics[150002] = {
 	is_world = 0,
 	icon = "Props/Wsucaixiang1",
 	id = 150002,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -185791,6 +189664,7 @@ _G.pg.base.item_data_statistics[150003] = {
 	is_world = 0,
 	icon = "Props/Wshejitujin",
 	id = 150003,
+	order = 0,
 	display_icon = {
 		{
 			2,
@@ -185835,6 +189709,7 @@ _G.pg.base.item_data_statistics[150004] = {
 	is_world = 0,
 	icon = "Props/150004",
 	id = 150004,
+	order = 0,
 	display_icon = {
 		{
 			2,

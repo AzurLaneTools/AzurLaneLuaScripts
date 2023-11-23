@@ -12,6 +12,8 @@ function slot0.OnLoaded(slot0)
 	slot0.descLevelTxt = slot0.descPanel:Find("frame/level"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0.descPanel:Find("frame/Text"):GetComponent(typeof(Text))
 	slot0.expTxt = slot0:findTF("bg/frame/level/exp"):GetComponent(typeof(Text))
+
+	setText(slot0:findTF("bg/frame/level/label"), i18n("commander_home_level_label"))
 end
 
 function slot0.OnInit(slot0)

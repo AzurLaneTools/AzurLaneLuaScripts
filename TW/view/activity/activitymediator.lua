@@ -42,6 +42,10 @@ slot0.ON_SHAKE_BEADS_RESULT = "on shake beads result"
 slot0.GO_PERFORM_COMBAT = "ActivityMediator.GO_PERFORM_COMBAT"
 slot0.ON_AWARD_WINDOW = "ActivityMediator:ON_AWARD_WINDOW"
 slot0.GO_CARDPUZZLE_COMBAT = "ActivityMediator.GO_CARDPUZZLE_COMBAT"
+slot0.CHARGE = "ActivityMediator.CHARGE"
+slot0.BUY_ITEM = "ActivityMediator.BUY_ITEM"
+slot0.OPEN_CHARGE_ITEM_PANEL = "ActivityMediator.OPEN_CHARGE_ITEM_PANEL"
+slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -322,6 +326,33 @@ function slot0.register(slot0)
 			combatID = slot1
 		})
 	end)
+	slot0:bind(uv0.CHARGE, function (slot0, slot1)
+		uv0:sendNotification(GAME.CHARGE_OPERATION, {
+			shopId = slot1
+		})
+	end)
+	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHOPPING, {
+			id = slot1,
+			count = slot2
+		})
+	end)
+	slot0:bind(uv0.OPEN_CHARGE_ITEM_PANEL, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeItemPanelMediator,
+			viewComponent = ChargeItemPanelLayer,
+			data = {
+				panelConfig = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_CHARGE_BIRTHDAY, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeBirthdayMediator,
+			viewComponent = ChargeBirthdayLayer,
+			data = {}
+		}))
+	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
@@ -480,6 +511,22 @@ function slot0.initNotificationHandleDic(slot0)
 			slot2 = slot1:getBody()
 
 			slot0.viewComponent:loadLayers()
+		end,
+		[GAME.CHARGE_SUCCESS] = function (slot0, slot1)
+			slot0.viewComponent:updateTaskLayers()
+			slot0.viewComponent:OnChargeSuccess(Goods.Create({
+				shop_id = slot1:getBody().shopId
+			}, Goods.TYPE_CHARGE))
+		end,
+		[GAME.SHOPPING_DONE] = function (slot0, slot1)
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				uv0.viewComponent:updateTaskLayers()
+			end)
+		end,
+		[GAME.ACT_MANUAL_SIGN_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
 		end
 	}
 end

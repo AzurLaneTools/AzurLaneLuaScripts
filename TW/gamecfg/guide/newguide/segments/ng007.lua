@@ -17,7 +17,7 @@ return {
 				text = slot0[1]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/boxes_btn",
+				path = "/UICamera/Canvas/UIMain/CommanderCatUI(Clone)/blur_panel/pages/CommanderCatDockUI(Clone)/box/boxes_btn",
 				fingerPos = {
 					posY = -60,
 					posX = 45
@@ -51,7 +51,7 @@ return {
 			ui = {
 				scale = 1,
 				customSize = true,
-				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/content/list/2/icon",
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/CommanderBuildPoolUI(Clone)/frame/bg/content/list/2/icon",
 				triggerType = {
 					3
 				}
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/start_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/CommanderBuildPoolUI(Clone)/frame/bg/start_btn"
 			}
 		},
 		{

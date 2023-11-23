@@ -168,11 +168,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
 		slot3 = uv0.contextData.fleets
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
-			mode = CommandRoomScene.MODE_SELECT,
+			mode = CommanderCatScene.MODE_SELECT,
 			activeCommander = slot3[slot1]:getCommanders()[slot2],
-			fleetType = CommandRoomScene.FLEET_TYPE_BOSSRUSH,
+			fleetType = CommanderCatScene.FLEET_TYPE_BOSSRUSH,
 			fleets = slot3,
 			ignoredIds = {},
 			onCommander = function (slot0)

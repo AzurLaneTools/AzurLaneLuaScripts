@@ -31,7 +31,7 @@ slot1 = {
 	{
 		id = "NG005",
 		condition = function ()
-			return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator")
+			return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator")
 		end,
 		args = function ()
 			return {}

@@ -49,7 +49,7 @@ function slot0.Update(slot0, slot1)
 		slot5:Start()
 		slot0.timer.func()
 		onButton(slot0._parent, slot0.quicklyTool, function ()
-			uv0._parent:emit(CommandRoomScene.ON_QUICKLY_TOOL_WINDOW, uv1.id)
+			uv0._parent:emit(CommanderCatScene.EVENT_QUICKLY_TOOL, uv1.id)
 		end, SFX_PANEL)
 	elseif slot2 == CommanderBox.STATE_FINISHED then
 		slot0.timerTxt.text = "COMPLETE"
@@ -62,7 +62,7 @@ function slot0.Update(slot0, slot1)
 				return
 			end
 
-			uv0._parent:emit(CommandRoomMediator.ON_GET, uv1.id)
+			uv0._parent:emit(CommanderCatMediator.GET, uv1.id)
 		end, SFX_PANEL)
 	end
 

@@ -288,6 +288,19 @@ function slot3.TargetAttrCompare(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot3.TargetTempCompare(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = slot2 or uv0.TargetEntityUnit()
+
+	for slot8, slot9 in pairs(slot4) do
+		if slot9:IsAlive() and uv1.parseCompareUnitTemplate(slot1.tempCompare, slot9, slot0) then
+			table.insert(slot3, slot9)
+		end
+	end
+
+	return slot3
+end
+
 function slot3.TargetHPCompare(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot2 or uv0.TargetEntityUnit()

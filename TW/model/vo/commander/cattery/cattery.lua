@@ -39,7 +39,7 @@ function slot0.RemoveCommander(slot0)
 end
 
 function slot0.ExistCommander(slot0)
-	return slot0.commanderId ~= 0 and getProxy(CommanderProxy):getCommanderById(slot0.commanderId) ~= nil
+	return slot0.commanderId ~= 0 and getProxy(CommanderProxy):RawGetCommanderById(slot0.commanderId) ~= nil
 end
 
 function slot0.GetCommanderId(slot0)

@@ -1185,6 +1185,11 @@ pg.player_resource = {
 		name = "rixiv2_pt1",
 		itemid = 59500
 	},
+	[379] = {
+		id = 379,
+		name = "commission_pt3",
+		itemid = 59501
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1478,6 +1483,11 @@ pg.player_resource = {
 	[4699] = {
 		id = 4699,
 		name = "skin_rerun_pt_jp2023",
+		itemid = 0
+	},
+	[5081] = {
+		id = 5081,
+		name = "skin_rerun_pt_us2023",
 		itemid = 0
 	},
 	[100004] = {
@@ -2292,6 +2302,9 @@ pg.player_resource = {
 		rixiv2_pt1 = {
 			378
 		},
+		commission_pt3 = {
+			379
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2468,6 +2481,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_jp2023 = {
 			4699
+		},
+		skin_rerun_pt_us2023 = {
+			5081
 		},
 		skin_rerun_pt = {
 			100004
@@ -2768,6 +2784,7 @@ pg.player_resource = {
 		376,
 		377,
 		378,
+		379,
 		950,
 		951,
 		952,
@@ -2827,6 +2844,7 @@ pg.player_resource = {
 		4276,
 		4599,
 		4699,
+		5081,
 		100004,
 		40275,
 		30853,

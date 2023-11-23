@@ -220,8 +220,8 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot9 == 17 then
 		if slot10 == 0 then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
-				fleetType = CommandRoomScene.FLEET_TYPE_COMMON
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
+				fleetType = CommanderCatScene.FLEET_TYPE_COMMON
 			})
 		end
 	elseif slot9 == 18 then

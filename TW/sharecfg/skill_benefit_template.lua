@@ -278,7 +278,10 @@ pg.skill_benefit_template = {
 			727,
 			728,
 			729,
-			730
+			730,
+			731,
+			732,
+			733
 		},
 		effect = {
 			0,

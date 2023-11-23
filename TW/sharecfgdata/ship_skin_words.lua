@@ -12439,6 +12439,40 @@ _G.pg.base.ship_skin_words[108031] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[108032] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "格里德利，能拜託妳幫我和指揮官拍一張合照嗎？謝謝啦！",
+	mission = "",
+	touch2 = "我要把你的行為告訴大家！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "五顏六色的氣球、五顏六色的花，還有五顏六色的好吃的東西！嘿嘿，晚會真棒啊！",
+	mail = "",
+	touch = "乾杯！嘿嘿，我看姐姐們都是這樣做的！",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "五顏六色的氣球、五顏六色的花，還有五顏六色的好吃的東西！嘿嘿，晚會真棒啊！",
+	feeling5 = "",
+	main = "如果拿著很多很多氣球的話，我是不是也能飛起來呢？嘿嘿~|欸欸？為什麼不讓我喝嘛，明明我都不是小孩了！|指揮官，教我交際舞嘛！我也想像姐姐們那樣跟指揮官跳舞呢！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官，你終於來啦！我還擔心指揮官會不會迷路了，找不到會場了呢……",
+	vote = "",
+	hp_warning = "",
+	id = 108032,
+	detail = "指揮官，這個送給你！這是我特別訂的手捧花！{namecode:95}小姐說，指揮官一定會喜歡這個的！",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[108040] = {
 	feeling1 = "沒事的，指揮官只要多曬曬太陽，把煩惱的事情都曬走，一定能振作起來的！",
 	feeling3 = "啊，發現指揮官啦！我抱！ ……這樣會讓指揮官很困擾？是，是我太用力了嗎！不是的？那是因為什麼呢？",

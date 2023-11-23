@@ -431,7 +431,7 @@ function slot0.setCommanderPrefabs(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator")
+	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator")
 
 	onButton(slot0, slot0:findTF("back_button", slot0.topChapter), function ()
 		if uv0:isfrozen() then

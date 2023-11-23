@@ -66,7 +66,7 @@ function slot0.isOpenSystem(slot0, slot1, slot2)
 		return false
 	end
 
-	if slot2 == "CommandRoomMediator" then
+	if slot2 == "CommanderCatMediator" then
 		return uv0(slot1)
 	else
 		for slot6, slot7 in pairs(uv1.all) do

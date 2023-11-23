@@ -24,7 +24,7 @@ return {
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/right_panel/commanders/box/home",
+				path = "/OverlayCamera/Overlay/UIMain/blur_panel/pages/CommanderCatDockUI(Clone)/box/home",
 				triggerType = {
 					1
 				},
@@ -47,7 +47,7 @@ return {
 				text = slot0[1]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/home",
+				path = "/UICamera/Canvas/UIMain/CommanderCatUI(Clone)/blur_panel/pages/CommanderCatDockUI(Clone)/box/home",
 				triggerType = {
 					1
 				},
@@ -76,6 +76,8 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
+				delay = 0.3,
+				keepScrollTxt = true,
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/CatteryDescPage(Clone)/right/pages/CommanderHomeSelCommanderPage(Clone)/scrollrect/content/0",
 				triggerType = {
 					1
@@ -215,7 +217,7 @@ return {
 				text = slot0[7]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/left_panel/help_btn",
+				path = "/UICamera/Canvas/UIMain/CommanderCatUI(Clone)/blur_panel/left_panel/help_btn",
 				fingerPos = {
 					posY = -45,
 					posX = 45
@@ -234,7 +236,7 @@ return {
 				text = slot0[7]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/left_panel/help_btn",
+				path = "/OverlayCamera/Overlay/UIMain/blur_panel/left_panel/help_btn",
 				fingerPos = {
 					posY = -45,
 					posX = 45

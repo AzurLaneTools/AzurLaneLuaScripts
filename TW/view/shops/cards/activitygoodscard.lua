@@ -72,11 +72,8 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot10)
+			setActive(slot0.unexchangeTag, true)
 		end
-	end
-
-	if slot0.unexchangeTag then
-		setActive(slot0.unexchangeTag, slot6)
 	end
 
 	updateDrop(slot0.itemTF, {
@@ -87,7 +84,7 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.limitTimeSellTF, false)
 
 	if slot5 then
-		slot8, slot9 = slot0.goodsVO:CheckTimeLimit()
+		slot8, slot9, slot10 = slot0.goodsVO:CheckTimeLimit()
 
 		setActive(slot0.limitTimeSellTF, slot8 and slot9)
 
@@ -96,7 +93,9 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot0.sellEndTag, true)
 			removeOnButton(slot0.mask)
 			onButton(slot0, slot0.mask, function ()
-				pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", getDropName(uv0)))
+				if uv0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", getDropName(uv1)))
+				end
 			end, SFX_PANEL)
 		end
 	end

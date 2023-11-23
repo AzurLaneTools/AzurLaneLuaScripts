@@ -173,7 +173,7 @@ function slot0.setActivity(slot0, slot1)
 	end
 
 	slot0.taskGroupList = {}
-	slot2 = math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot1:getStartTime()) / 86400) + 1
+	slot2 = slot1:getNDay()
 	slot6 = "config_data"
 
 	for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do

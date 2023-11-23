@@ -65,7 +65,13 @@ function slot1.SetBorder(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot1.GetFinalSpeed(slot0)
-	return slot0:BorderLimit(slot0:AdditiveForce(slot0:getInitialSpeed()))
+	slot1 = slot0:getInitialSpeed()
+
+	if not slot0._unstoppable then
+		slot1 = slot0:AdditiveForce(slot1)
+	end
+
+	return slot0:BorderLimit(slot1)
 end
 
 function slot1.CorpsAreaLimit(slot0, slot1)
@@ -124,7 +130,7 @@ function slot1.ImmuneMaxAreaLimit(slot0, slot1)
 end
 
 function slot1.getInitialSpeed(slot0)
-	if slot0._isForceMove then
+	if slot0._isForceMove and not slot0._unstoppable then
 		slot0:UpdateForceMove()
 
 		return slot0._forceSpeed
@@ -228,4 +234,8 @@ end
 
 function slot1.RemoveAdditiveSpeed(slot0)
 	slot0._additiveSpeed = Vector3.zero
+end
+
+function slot1.ActiveUnstoppable(slot0, slot1)
+	slot0._unstoppable = slot1
 end

@@ -105,10 +105,10 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OnSelectEliteCommander, function (slot0, slot1, slot2, slot3)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
-			mode = CommandRoomScene.MODE_SELECT,
-			fleetType = CommandRoomScene.FLEET_TYPE_WORLD,
+			mode = CommanderCatScene.MODE_SELECT,
+			fleetType = CommanderCatScene.FLEET_TYPE_WORLD,
 			fleets = uv0.contextData.fleets,
 			activeCommander = Fleet.New({
 				ship_list = {},

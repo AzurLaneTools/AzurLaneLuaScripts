@@ -72,13 +72,7 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "level"
 	},
-	CommanderInfoScene = {
-		default_bgm = "backyard",
-		special_bgm = "",
-		time = "",
-		bgm = "backyard"
-	},
-	CommandRoomScene = {
+	CommanderCatScene = {
 		default_bgm = "backyard",
 		special_bgm = "",
 		time = "",
@@ -887,5 +881,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "Theme-longgong"
+	},
+	CollectionEventPtPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	BlackFridayGiftPage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "bar-soft"
+	},
+	BlackFridayWithManualSignPage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "bar-soft"
 	}
 }
