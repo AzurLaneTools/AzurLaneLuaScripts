@@ -163,6 +163,8 @@ pg.memory_group = setmetatable({
 		263,
 		264,
 		265,
+		266,
+		267,
 		501,
 		502,
 		503,
@@ -3884,6 +3886,57 @@ pg.base.memory_group = {
 			3141,
 			3142,
 			3143
+		}
+	},
+	[266] = {
+		id = 266,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5101,
+		title = "The Ninja Scrolls: Azur Flash",
+		memories = {
+			3151,
+			3152,
+			3153,
+			3154,
+			3155,
+			3156,
+			3157,
+			3158,
+			3159,
+			3160,
+			3161,
+			3162,
+			3163,
+			3164,
+			3165,
+			3166,
+			3167,
+			3168,
+			3169,
+			3170,
+			3171,
+			3172,
+			3173,
+			3174
+		}
+	},
+	[267] = {
+		id = 267,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5096,
+		title = "The Ninja Scrolls: At Your Leisure",
+		memories = {
+			3181,
+			3182,
+			3183,
+			3184,
+			3185,
+			3186,
+			3187
 		}
 	},
 	[501] = {

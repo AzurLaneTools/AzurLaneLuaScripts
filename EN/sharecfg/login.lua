@@ -1190,37 +1190,11 @@ pg.login = {
 	[4001] = {
 		id = 4001,
 		login_static = "login_20231116us",
+		date = "stop",
 		op_play = 0,
 		op_time = "",
 		login_cri = "login_20231116us",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	all = {
 		1,

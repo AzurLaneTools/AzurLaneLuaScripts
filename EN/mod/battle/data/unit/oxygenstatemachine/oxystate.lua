@@ -215,6 +215,10 @@ function slot3.GetTarget(slot0)
 	return slot0._target
 end
 
+function slot3.GetCurrentState(slot0)
+	return slot0._currentState
+end
+
 function slot3.GetCurrentStateName(slot0)
 	return slot0._currentState.__name
 end

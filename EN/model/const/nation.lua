@@ -45,9 +45,10 @@ function slot0.Nation2Print(slot0)
 			[102.0] = "bili",
 			[101.0] = "np",
 			[107.0] = "um",
+			[106.0] = "um",
 			[105.0] = "um",
 			[98.0] = "cm",
-			[106.0] = "um",
+			[110.0] = "um",
 			[103.0] = "um",
 			[109.0] = "um"
 		}
@@ -77,9 +78,10 @@ function slot0.Nation2Side(slot0)
 			[102.0] = "Cn",
 			[101.0] = "Jp",
 			[107.0] = "Imas",
+			[106.0] = "Jp",
 			[105.0] = "Jp",
 			[98.0] = "West",
-			[106.0] = "Jp",
+			[110.0] = "Jp",
 			[103.0] = "Jp",
 			[109.0] = "West"
 		}
@@ -109,9 +111,10 @@ function slot0.Nation2BG(slot0)
 			[102.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
 			[107.0] = "bg/bg_church_imas",
+			[106.0] = "bg/bg_church",
 			[105.0] = "bg/bg_church",
 			[98.0] = "bg/bg_church",
-			[106.0] = "bg/bg_church",
+			[110.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
 			[109.0] = "bg/bg_church"
 		}
@@ -145,7 +148,8 @@ function slot0.Nation2Name(slot0)
 			[106] = i18n("word_shipNation_doa"),
 			[107] = i18n("word_shipNation_imas"),
 			[108] = i18n("word_shipNation_ssss"),
-			[109] = i18n("word_shipNation_ryza")
+			[109] = i18n("word_shipNation_ryza"),
+			[110] = i18n("word_shipNation_senran")
 		}
 	end
 
@@ -177,7 +181,8 @@ function slot0.Nation2facionName(slot0)
 			[106] = i18n("guild_faction_unknown"),
 			[107] = i18n("guild_faction_unknown"),
 			[108] = i18n("guild_faction_unknown"),
-			[109] = i18n("guild_faction_unknown")
+			[109] = i18n("guild_faction_unknown"),
+			[110] = i18n("guild_faction_unknown")
 		}
 	end
 

@@ -30,16 +30,24 @@ function slot0.CustomOnClick(slot0)
 end
 
 function slot0.IsShowTip(slot0)
-	if getProxy(ActivityProxy):getActivityById(slot0:GetActivityID()) and slot2:getConfig("config_client").scene then
-		slot4 = Context.New()
+	if getProxy(ActivityProxy):getActivityById(slot0:GetActivityID()) then
+		if slot2:getConfig("config_client").scene then
+			slot4 = Context.New()
 
-		SCENE.SetSceneInfo(slot4, slot3)
+			if IsUnityEditor then
+				assert(table.Find(SCENE, function (slot0, slot1)
+					return slot1 == uv0
+				end), "not Find name in scene.lua : " .. slot3)
+			end
 
-		if slot4.viewComponent.IsShowMainTip then
-			return slot5(slot2)
+			SCENE.SetSceneInfo(slot4, slot3)
+
+			if slot4.viewComponent.IsShowMainTip then
+				return slot5(slot2)
+			end
+
+			errorMsg("scene has not function IsShowMainTip Tip Activity id:", slot1 or "NIL")
 		end
-
-		errorMsg("scene has not function IsShowMainTip Tip Activity id:", slot1 or "NIL")
 	end
 end
 

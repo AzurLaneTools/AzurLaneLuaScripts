@@ -682,7 +682,8 @@ function slot0.IsShowTipById(slot0)
 		[pg.activity_const.NEWYEAR_SNACK_PAGE_ID.act_id] = NewYearSnackPage.IsTip,
 		[ActivityConst.WWF_TASK_ID] = WWFPtPage.IsShowRed,
 		[ActivityConst.NEWMEIXIV4_SKIRMISH_ID] = NewMeixiV4SkirmishPage.IsShowRed,
-		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed
+		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed,
+		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 
@@ -943,10 +944,6 @@ end
 
 function slot0.IsActivityReady(slot0)
 	return slot0 and not slot0:isEnd() and slot0:readyToAchieve()
-end
-
-function slot0.isHaveActivableMedal()
-	return uv0.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
 function slot0.GetEndTimeStrByConfig(slot0)

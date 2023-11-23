@@ -30,6 +30,7 @@ slot0.Corrected = "corrected"
 slot0.OxyMax = "oxy_max"
 slot0.OxyCost = "oxy_cost"
 slot0.OxyRecovery = "oxy_recovery"
+slot0.OxyRecoverySurface = "oxy_recovery_surface"
 slot0.OxyRecoveryBench = "oxy_recovery_bench"
 slot0.OxyAttackDuration = "attack_duration"
 slot0.OxyRaidDistance = "raid_distance"
@@ -101,6 +102,7 @@ slot0.attrNameTable = {
 	[slot0.OxyCost] = "oxyCost",
 	[slot0.OxyRecovery] = "oxyRecovery",
 	[slot0.OxyRecoveryBench] = "oxyRecoveryBench",
+	[slot0.OxyRecoverySurface] = "oxyRecoverySurface",
 	[slot0.OxyAttackDuration] = "oxyAtkDuration",
 	[slot0.OxyRaidDistance] = "raidDist"
 }

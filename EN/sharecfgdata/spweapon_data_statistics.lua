@@ -15833,3 +15833,1072 @@ _G.pg.base.spweapon_data_statistics[12570] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[12580] = {
+	tech = 0,
+	name = "Twin Blades - Two-Sided Winding Flash",
+	value_2_random = 0,
+	type = 2,
+	value_1_random = 0,
+	value_1 = 20,
+	effect_id_display = 110310,
+	level = 1,
+	descrip = "Asuka's Augment Module",
+	uncraftable = 1,
+	next = 12581,
+	upgrade_id = 10001,
+	value_2 = 20,
+	icon = "12580",
+	effect_id = 110310,
+	attribute_2 = "torpedo",
+	id = 12580,
+	rarity = 4,
+	unique = 1100001,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			110020
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12581] = {
+	prev = 12580,
+	base = 12580,
+	next = 12582,
+	upgrade_id = 10002,
+	id = 12581,
+	value_2 = 21,
+	value_1 = 21,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12582] = {
+	prev = 12581,
+	base = 12580,
+	next = 12583,
+	upgrade_id = 10003,
+	id = 12582,
+	value_2 = 22,
+	value_1 = 22,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12583] = {
+	prev = 12582,
+	base = 12580,
+	next = 12584,
+	upgrade_id = 10004,
+	id = 12583,
+	value_2 = 23,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12584] = {
+	prev = 12583,
+	base = 12580,
+	next = 12585,
+	upgrade_id = 10005,
+	id = 12584,
+	value_2 = 24,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12585] = {
+	prev = 12584,
+	base = 12580,
+	next = 12586,
+	upgrade_id = 10006,
+	id = 12585,
+	value_2 = 25,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12586] = {
+	prev = 12585,
+	base = 12580,
+	next = 12587,
+	upgrade_id = 10007,
+	id = 12586,
+	value_2 = 26,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12587] = {
+	prev = 12586,
+	base = 12580,
+	next = 12588,
+	upgrade_id = 10008,
+	id = 12587,
+	value_2 = 27,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12588] = {
+	prev = 12587,
+	base = 12580,
+	next = 12589,
+	upgrade_id = 10009,
+	id = 12588,
+	value_2 = 28,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12589] = {
+	prev = 12588,
+	base = 12580,
+	next = 12590,
+	upgrade_id = 10010,
+	id = 12589,
+	value_2 = 29,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12590] = {
+	base = 12580,
+	prev = 12589,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12590,
+	value_2 = 30,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			110020,
+			110030
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12600] = {
+	tech = 0,
+	name = "Sword Draw - Phoenix's Flashing Flight",
+	value_2_random = 0,
+	type = 4,
+	value_1_random = 0,
+	value_1 = 12,
+	effect_id_display = 110320,
+	level = 1,
+	descrip = "Asuka's Augment Module",
+	uncraftable = 1,
+	next = 12601,
+	upgrade_id = 10001,
+	value_2 = 8,
+	icon = "12600",
+	effect_id = 110320,
+	attribute_2 = "reload",
+	id = 12600,
+	rarity = 4,
+	unique = 1100002,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			110060
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12601] = {
+	prev = 12600,
+	base = 12600,
+	next = 12602,
+	upgrade_id = 10002,
+	id = 12601,
+	value_2 = 9,
+	value_1 = 14,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12602] = {
+	prev = 12601,
+	base = 12600,
+	next = 12603,
+	upgrade_id = 10003,
+	id = 12602,
+	value_2 = 10,
+	value_1 = 16,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12603] = {
+	prev = 12602,
+	base = 12600,
+	next = 12604,
+	upgrade_id = 10004,
+	id = 12603,
+	value_2 = 11,
+	value_1 = 18,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12604] = {
+	prev = 12603,
+	base = 12600,
+	next = 12605,
+	upgrade_id = 10005,
+	id = 12604,
+	value_2 = 12,
+	value_1 = 20,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12605] = {
+	prev = 12604,
+	base = 12600,
+	next = 12606,
+	upgrade_id = 10006,
+	id = 12605,
+	value_2 = 13,
+	value_1 = 22,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12606] = {
+	prev = 12605,
+	base = 12600,
+	next = 12607,
+	upgrade_id = 10007,
+	id = 12606,
+	value_2 = 14,
+	value_1 = 24,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12607] = {
+	prev = 12606,
+	base = 12600,
+	next = 12608,
+	upgrade_id = 10008,
+	id = 12607,
+	value_2 = 15,
+	value_1 = 26,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12608] = {
+	prev = 12607,
+	base = 12600,
+	next = 12609,
+	upgrade_id = 10009,
+	id = 12608,
+	value_2 = 16,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12609] = {
+	prev = 12608,
+	base = 12600,
+	next = 12610,
+	upgrade_id = 10010,
+	id = 12609,
+	value_2 = 17,
+	value_1 = 30,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12610] = {
+	base = 12600,
+	prev = 12609,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12610,
+	value_2 = 18,
+	value_1 = 32,
+	level = 11,
+	skill_upgrade = {
+		{
+			110040,
+			110060
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12620] = {
+	tech = 0,
+	name = "Six Swords - Homura the Pioneer",
+	value_2_random = 0,
+	type = 8,
+	value_1_random = 0,
+	value_1 = 27,
+	effect_id_display = 110330,
+	level = 1,
+	descrip = "Homura's Augment Module",
+	uncraftable = 1,
+	next = 12621,
+	upgrade_id = 10001,
+	value_2 = 9,
+	icon = "12620",
+	effect_id = 110330,
+	attribute_2 = "hit",
+	id = 12620,
+	rarity = 4,
+	unique = 1100003,
+	important = 2,
+	prev = 0,
+	attribute_1 = "torpedo",
+	usability = {
+		8
+	},
+	skill_upgrade = {
+		{
+			0,
+			110090
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12621] = {
+	prev = 12620,
+	base = 12620,
+	next = 12622,
+	upgrade_id = 10002,
+	id = 12621,
+	value_2 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12622] = {
+	prev = 12621,
+	base = 12620,
+	next = 12623,
+	upgrade_id = 10003,
+	id = 12622,
+	value_2 = 10,
+	value_1 = 28,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12623] = {
+	prev = 12622,
+	base = 12620,
+	next = 12624,
+	upgrade_id = 10004,
+	id = 12623,
+	value_2 = 11,
+	value_1 = 28,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12624] = {
+	prev = 12623,
+	base = 12620,
+	next = 12625,
+	upgrade_id = 10005,
+	id = 12624,
+	value_2 = 11,
+	value_1 = 29,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12625] = {
+	prev = 12624,
+	base = 12620,
+	next = 12626,
+	upgrade_id = 10006,
+	id = 12625,
+	value_2 = 12,
+	value_1 = 30,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12626] = {
+	prev = 12625,
+	base = 12620,
+	next = 12627,
+	upgrade_id = 10007,
+	id = 12626,
+	value_2 = 12,
+	value_1 = 31,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12627] = {
+	prev = 12626,
+	base = 12620,
+	next = 12628,
+	upgrade_id = 10008,
+	id = 12627,
+	value_2 = 13,
+	value_1 = 32,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12628] = {
+	prev = 12627,
+	base = 12620,
+	next = 12629,
+	upgrade_id = 10009,
+	id = 12628,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12629] = {
+	prev = 12628,
+	base = 12620,
+	next = 12630,
+	upgrade_id = 10010,
+	id = 12629,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12630] = {
+	base = 12620,
+	prev = 12629,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12630,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			110070,
+			110090
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12640] = {
+	tech = 0,
+	name = "Folding Fan - Frosty Sleeves Snow Dance",
+	value_2_random = 0,
+	type = 7,
+	value_1_random = 0,
+	value_1 = 20,
+	effect_id_display = 110340,
+	level = 1,
+	descrip = "Yumi's Augment Module",
+	uncraftable = 1,
+	next = 12641,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "12640",
+	effect_id = 110340,
+	attribute_2 = "hit",
+	id = 12640,
+	rarity = 4,
+	unique = 1100004,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			110120
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12641] = {
+	prev = 12640,
+	base = 12640,
+	next = 12642,
+	upgrade_id = 10002,
+	id = 12641,
+	value_2 = 6,
+	value_1 = 22,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12642] = {
+	prev = 12641,
+	base = 12640,
+	next = 12643,
+	upgrade_id = 10003,
+	id = 12642,
+	value_2 = 7,
+	value_1 = 24,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12643] = {
+	prev = 12642,
+	base = 12640,
+	next = 12644,
+	upgrade_id = 10004,
+	id = 12643,
+	value_2 = 8,
+	value_1 = 26,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12644] = {
+	prev = 12643,
+	base = 12640,
+	next = 12645,
+	upgrade_id = 10005,
+	id = 12644,
+	value_2 = 9,
+	value_1 = 28,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12645] = {
+	prev = 12644,
+	base = 12640,
+	next = 12646,
+	upgrade_id = 10006,
+	id = 12645,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12646] = {
+	prev = 12645,
+	base = 12640,
+	next = 12647,
+	upgrade_id = 10007,
+	id = 12646,
+	value_2 = 11,
+	value_1 = 32,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12647] = {
+	prev = 12646,
+	base = 12640,
+	next = 12648,
+	upgrade_id = 10008,
+	id = 12647,
+	value_2 = 12,
+	value_1 = 34,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12648] = {
+	prev = 12647,
+	base = 12640,
+	next = 12649,
+	upgrade_id = 10009,
+	id = 12648,
+	value_2 = 13,
+	value_1 = 36,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12649] = {
+	prev = 12648,
+	base = 12640,
+	next = 12650,
+	upgrade_id = 10010,
+	id = 12649,
+	value_2 = 14,
+	value_1 = 38,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12650] = {
+	base = 12640,
+	prev = 12649,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12650,
+	value_2 = 15,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			110100,
+			110120
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12660] = {
+	tech = 0,
+	name = "Feather Fan - Purple Ice Linked Blossoms",
+	value_2_random = 0,
+	type = 6,
+	value_1_random = 0,
+	value_1 = 20,
+	effect_id_display = 110350,
+	level = 1,
+	descrip = "Fubuki's Augment Module",
+	uncraftable = 1,
+	next = 12661,
+	upgrade_id = 10001,
+	value_2 = 10,
+	icon = "12660",
+	effect_id = 110350,
+	attribute_2 = "reload",
+	id = 12660,
+	rarity = 4,
+	unique = 1100005,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			110150
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12661] = {
+	prev = 12660,
+	base = 12660,
+	next = 12662,
+	upgrade_id = 10002,
+	id = 12661,
+	value_2 = 11,
+	value_1 = 21,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12662] = {
+	prev = 12661,
+	base = 12660,
+	next = 12663,
+	upgrade_id = 10003,
+	id = 12662,
+	value_2 = 12,
+	value_1 = 22,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12663] = {
+	prev = 12662,
+	base = 12660,
+	next = 12664,
+	upgrade_id = 10004,
+	id = 12663,
+	value_2 = 13,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12664] = {
+	prev = 12663,
+	base = 12660,
+	next = 12665,
+	upgrade_id = 10005,
+	id = 12664,
+	value_2 = 14,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12665] = {
+	prev = 12664,
+	base = 12660,
+	next = 12666,
+	upgrade_id = 10006,
+	id = 12665,
+	value_2 = 15,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12666] = {
+	prev = 12665,
+	base = 12660,
+	next = 12667,
+	upgrade_id = 10007,
+	id = 12666,
+	value_2 = 16,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12667] = {
+	prev = 12666,
+	base = 12660,
+	next = 12668,
+	upgrade_id = 10008,
+	id = 12667,
+	value_2 = 17,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12668] = {
+	prev = 12667,
+	base = 12660,
+	next = 12669,
+	upgrade_id = 10009,
+	id = 12668,
+	value_2 = 18,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12669] = {
+	prev = 12668,
+	base = 12660,
+	next = 12670,
+	upgrade_id = 10010,
+	id = 12669,
+	value_2 = 19,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12670] = {
+	base = 12660,
+	prev = 12669,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12670,
+	value_2 = 20,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			110140,
+			110150
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12680] = {
+	tech = 0,
+	name = "Shuriken - Full Moon Hidden in Shade",
+	value_2_random = 0,
+	type = 7,
+	value_1_random = 0,
+	value_1 = 27,
+	effect_id_display = 110360,
+	level = 1,
+	descrip = "Murasaki's Augment Module",
+	uncraftable = 1,
+	next = 12681,
+	upgrade_id = 10001,
+	value_2 = 9,
+	icon = "12680",
+	effect_id = 110360,
+	attribute_2 = "antiaircraft",
+	id = 12680,
+	rarity = 4,
+	unique = 1100006,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			110180
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12681] = {
+	prev = 12680,
+	base = 12680,
+	next = 12682,
+	upgrade_id = 10002,
+	id = 12681,
+	value_2 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12682] = {
+	prev = 12681,
+	base = 12680,
+	next = 12683,
+	upgrade_id = 10003,
+	id = 12682,
+	value_2 = 10,
+	value_1 = 28,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12683] = {
+	prev = 12682,
+	base = 12680,
+	next = 12684,
+	upgrade_id = 10004,
+	id = 12683,
+	value_2 = 11,
+	value_1 = 28,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12684] = {
+	prev = 12683,
+	base = 12680,
+	next = 12685,
+	upgrade_id = 10005,
+	id = 12684,
+	value_2 = 11,
+	value_1 = 29,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12685] = {
+	prev = 12684,
+	base = 12680,
+	next = 12686,
+	upgrade_id = 10006,
+	id = 12685,
+	value_2 = 12,
+	value_1 = 30,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12686] = {
+	prev = 12685,
+	base = 12680,
+	next = 12687,
+	upgrade_id = 10007,
+	id = 12686,
+	value_2 = 12,
+	value_1 = 31,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12687] = {
+	prev = 12686,
+	base = 12680,
+	next = 12688,
+	upgrade_id = 10008,
+	id = 12687,
+	value_2 = 13,
+	value_1 = 32,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12688] = {
+	prev = 12687,
+	base = 12680,
+	next = 12689,
+	upgrade_id = 10009,
+	id = 12688,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12689] = {
+	prev = 12688,
+	base = 12680,
+	next = 12690,
+	upgrade_id = 10010,
+	id = 12689,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12690] = {
+	base = 12680,
+	prev = 12689,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12690,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			110170,
+			110180
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12700] = {
+	tech = 0,
+	name = "Tachis - Hankane",
+	value_2_random = 0,
+	type = 4,
+	value_1_random = 0,
+	value_1 = 20,
+	effect_id_display = 110370,
+	level = 1,
+	descrip = "Yūyaki's Augment Module",
+	uncraftable = 1,
+	next = 12701,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "12700",
+	effect_id = 110370,
+	attribute_2 = "hit",
+	id = 12700,
+	rarity = 4,
+	unique = 1100007,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			110210
+		}
+	},
+	label = {
+		"SRSPW"
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12701] = {
+	prev = 12700,
+	base = 12700,
+	next = 12702,
+	upgrade_id = 10002,
+	id = 12701,
+	value_2 = 6,
+	value_1 = 21,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12702] = {
+	prev = 12701,
+	base = 12700,
+	next = 12703,
+	upgrade_id = 10003,
+	id = 12702,
+	value_2 = 7,
+	value_1 = 22,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12703] = {
+	prev = 12702,
+	base = 12700,
+	next = 12704,
+	upgrade_id = 10004,
+	id = 12703,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12704] = {
+	prev = 12703,
+	base = 12700,
+	next = 12705,
+	upgrade_id = 10005,
+	id = 12704,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12705] = {
+	prev = 12704,
+	base = 12700,
+	next = 12706,
+	upgrade_id = 10006,
+	id = 12705,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12706] = {
+	prev = 12705,
+	base = 12700,
+	next = 12707,
+	upgrade_id = 10007,
+	id = 12706,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12707] = {
+	prev = 12706,
+	base = 12700,
+	next = 12708,
+	upgrade_id = 10008,
+	id = 12707,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12708] = {
+	prev = 12707,
+	base = 12700,
+	next = 12709,
+	upgrade_id = 10009,
+	id = 12708,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12709] = {
+	prev = 12708,
+	base = 12700,
+	next = 12710,
+	upgrade_id = 10010,
+	id = 12709,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12710] = {
+	base = 12700,
+	prev = 12709,
+	next = 0,
+	upgrade_id = 10011,
+	id = 12710,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			110190,
+			110210
+		}
+	}
+}

@@ -67,6 +67,8 @@ function slot2(slot0, slot1)
 	else
 		slot0.mainSpineAnim = slot0.spineAnimList[#slot0.spineAnimList]
 	end
+
+	slot0.idleName = nil
 end
 
 function slot3(slot0, slot1)
@@ -137,7 +139,39 @@ function slot0.DoSpecialTouch(slot0)
 	end
 end
 
+function slot0.DoDragTouch(slot0)
+	if string.find(slot0.mainSpineAnim.name, "gaoxiong_6") == 1 and not slot0.inAction then
+		slot0.inAction = true
+
+		if not slot0.idleName or slot0.idleName ~= "ex" then
+			slot0.idleName = "ex"
+
+			slot0:SetActionWithFinishCallback("drag", 0, function ()
+				uv0:SetAction("ex", 0)
+
+				uv0.inAction = false
+			end)
+		elseif slot0.idleName == "ex" then
+			slot0.idleName = "normal"
+
+			slot0:SetActionWithFinishCallback("drag_ex", 0, function ()
+				uv0:SetAction("normal", 0)
+
+				uv0.inAction = false
+			end)
+		end
+	end
+end
+
 function slot0.SetAction(slot0, slot1, slot2)
+	if slot2 == 1 and slot0.inAction then
+		return
+	end
+
+	if slot1 == "normal" and slot0.idleName ~= nil then
+		slot1 = slot0.idleName
+	end
+
 	for slot6, slot7 in ipairs(slot0.spineAnimList) do
 		slot7:SetAction(slot1, slot2)
 	end
@@ -152,6 +186,20 @@ function slot0.SetActionWithCallback(slot0, slot1, slot2, slot3)
 
 			if slot0 == "finish" and uv1 then
 				uv1()
+			end
+		end)
+		slot0.mainSpineAnim:SetAction(slot1, 0)
+	end
+end
+
+function slot0.SetActionWithFinishCallback(slot0, slot1, slot2, slot3)
+	slot0:SetAction(slot1, slot2)
+
+	if slot0.mainSpineAnim then
+		slot0.mainSpineAnim:SetActionCallBack(function (slot0)
+			if slot0 == "finish" and uv0 then
+				uv1.mainSpineAnim:SetActionCallBack(nil)
+				uv0()
 			end
 		end)
 		slot0.mainSpineAnim:SetAction(slot1, 0)

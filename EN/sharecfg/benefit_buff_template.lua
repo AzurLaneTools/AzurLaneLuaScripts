@@ -153,7 +153,19 @@ pg.benefit_buff_template = setmetatable({
 		300097,
 		300098,
 		300099,
-		300100
+		300100,
+		300101,
+		300102,
+		300103,
+		300104,
+		300105,
+		300106,
+		300107,
+		300108,
+		300109,
+		300110,
+		300111,
+		300112
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2970,6 +2982,222 @@ pg.base.benefit_buff_template = {
 			286,
 			5000,
 			1000000000000.0
+		}
+	},
+	[300101] = {
+		type_priority = 0,
+		name = "EXP Boost I",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships gain 2.0% more EXP from sorties.",
+		benefit_effect = "2",
+		id = 300101,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300102] = {
+		type_priority = 0,
+		name = "EXP Boost II",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships gain 4.0% more EXP from sorties.",
+		benefit_effect = "4",
+		id = 300102,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300103] = {
+		type_priority = 0,
+		name = "EXP Boost III",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships gain 5.0% more EXP from sorties.",
+		benefit_effect = "5",
+		id = 300103,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300104] = {
+		type_priority = 0,
+		name = "Damage Boost I",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships deal 1.0% more DMG from sorties.",
+		benefit_effect = "500",
+		id = 300104,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300105] = {
+		type_priority = 0,
+		name = "Damage Boost II",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships deal 2.0% more DMG from sorties.",
+		benefit_effect = "502",
+		id = 300105,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300106] = {
+		type_priority = 0,
+		name = "Damage Boost III",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "All your ships deal 3.0% more DMG from sorties.",
+		benefit_effect = "504",
+		id = 300106,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300107] = {
+		type_priority = 0,
+		name = "Skill Learning Speed I",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Leveling skills in the Tactical Class takes 2.0% less time.",
+		benefit_effect = "200",
+		id = 300107,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300108] = {
+		type_priority = 0,
+		name = "Skill Learning Speed II",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Leveling skills in the Tactical Class takes 4.0% less time.",
+		benefit_effect = "400",
+		id = 300108,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300109] = {
+		type_priority = 0,
+		name = "Skill Learning Speed III",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Leveling skills in the Tactical Class takes 5.0% less time.",
+		benefit_effect = "500",
+		id = 300109,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300110] = {
+		type_priority = 0,
+		name = "Dorm EXP Boost I",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Your ships gain 2.0% more EXP in the Dorm.",
+		benefit_effect = "2",
+		id = 300110,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300111] = {
+		type_priority = 0,
+		name = "Dorm EXP Boost II",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Your ships gain 4.0% more EXP in the Dorm.",
+		benefit_effect = "4",
+		id = 300111,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300112] = {
+		type_priority = 0,
+		name = "Dorm EXP Boost III",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "Your ships gain 5.0% more EXP in the Dorm.",
+		benefit_effect = "5",
+		id = 300112,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
 		}
 	}
 }

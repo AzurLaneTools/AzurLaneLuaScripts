@@ -106,7 +106,7 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.upper_jichangwutai:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2):getConfig("config_id")).count > 0)
 	setActive(slot0.modelTip, slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
 	setActive(slot0.upper_leijipt:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF):readyToAchieve())
-	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
+	setActive(slot0.upper_jinianzhang:Find("tip"), uv0.MedalTip())
 end
 
 function slot0.getStageShip(slot0)
@@ -166,12 +166,16 @@ function slot0.getStudents(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot0.MedalTip()
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+end
+
 function slot0.IsShowMainTip(slot0)
 	assert(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2))
 
 	return (function ()
 		return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
-	end)() or Activity.isHaveActivableMedal() or (function ()
+	end)() or uv0.MedalTip() or (function ()
 		slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
 		return slot0:getConfig("reward_need") <= slot0.usedtime and slot0.ultimate == 0

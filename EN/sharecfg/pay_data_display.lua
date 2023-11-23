@@ -56,6 +56,7 @@ pg.pay_data_display = setmetatable({
 		1010,
 		1011,
 		1012,
+		1013,
 		2001,
 		2002,
 		2003,
@@ -5214,6 +5215,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7013,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1013] = {
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		limit_arg = 1,
+		name = "Fair Winds Cruise Pass (2023.12)",
+		name_display = "Fair Winds Cruise Pass",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1013,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.passport16",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport16",
+		extra_service_item = {
+			{
+				1,
+				4014,
+				1500
+			},
+			{
+				8,
+				59511,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4014,
+				1500
+			}
+		},
+		sub_display = {
+			7014,
 			1500
 		},
 		ignorePlatform = {},
@@ -10387,22 +10463,22 @@ pg.base.pay_data_display = {
 		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_arg = 4,
-		name = "舰艇教材礼包(2023秋)",
+		name = "Skill Book Pack",
 		name_display = "Skill Book Pack",
 		type_order = 0,
 		extra_gem = 0,
 		id = 2019,
-		money = 18,
+		money = 299,
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao110",
+		id_str = "com.yostaren.azurlane.pack5",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "Buy to receive a large amount of Skill Books.",
-		airijp_id = "com.yostarjp.azurlane.package110",
+		airijp_id = "com.yostaren.azurlane.pack5",
 		extra_service_item = {
 			{
 				2,

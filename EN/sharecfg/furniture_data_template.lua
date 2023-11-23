@@ -131,6 +131,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -171,6 +172,7 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100042,
 			100043,
+			100044,
 			100047,
 			200001,
 			200002,
@@ -2954,6 +2956,35 @@ pg.furniture_data_template = setmetatable({
 			304305,
 			304306,
 			304307
+		},
+		[105] = {
+			305001,
+			305002,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_tag = {
@@ -4724,7 +4755,26 @@ pg.furniture_data_template = setmetatable({
 			304127,
 			304128,
 			304129,
-			304130
+			304130,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119
 		},
 		{
 			1108,
@@ -5016,6 +5066,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -5056,6 +5107,7 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100042,
 			100043,
+			100044,
 			100047,
 			31101,
 			54104,
@@ -5233,7 +5285,11 @@ pg.furniture_data_template = setmetatable({
 			302130,
 			303101,
 			303102,
-			304131
+			304131,
+			305301,
+			305302,
+			305303,
+			305304
 		},
 		[4] = {
 			1001,
@@ -5325,7 +5381,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[3] = {
 			1002,
@@ -5418,7 +5475,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[5] = {
 			1301,
@@ -5738,7 +5796,9 @@ pg.furniture_data_template = setmetatable({
 			304304,
 			304305,
 			304306,
-			304307
+			304307,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_type = {
@@ -5833,7 +5893,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[7] = {
 			1,
@@ -5943,6 +6004,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100004,
 			100005,
@@ -5972,6 +6034,7 @@ pg.furniture_data_template = setmetatable({
 			100040,
 			100041,
 			100043,
+			100044,
 			100047
 		},
 		[2] = {
@@ -7738,7 +7801,23 @@ pg.furniture_data_template = setmetatable({
 			304128,
 			304129,
 			304130,
-			304131
+			304131,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305109,
+			305110,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118
 		},
 		[11] = {
 			131,
@@ -7895,7 +7974,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[5] = {
 			1101,
@@ -8035,7 +8115,10 @@ pg.furniture_data_template = setmetatable({
 			300109,
 			302111,
 			304115,
-			304118
+			304118,
+			305108,
+			305111,
+			305119
 		},
 		[3] = {
 			1108,
@@ -8514,7 +8597,12 @@ pg.furniture_data_template = setmetatable({
 			304303,
 			304304,
 			304305,
-			304307
+			304307,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305
 		},
 		[8] = {
 			17121
@@ -8536,7 +8624,8 @@ pg.furniture_data_template = setmetatable({
 			38301,
 			76305,
 			98302,
-			304306
+			304306,
+			305306
 		},
 		[12] = {
 			46131
@@ -8673,6 +8762,7 @@ pg.furniture_data_template = setmetatable({
 		263,
 		264,
 		265,
+		266,
 		100002,
 		100003,
 		100004,
@@ -8713,6 +8803,7 @@ pg.furniture_data_template = setmetatable({
 		100041,
 		100042,
 		100043,
+		100044,
 		100047,
 		200001,
 		200002,
@@ -11311,7 +11402,34 @@ pg.furniture_data_template = setmetatable({
 		304304,
 		304305,
 		304306,
-		304307
+		304307,
+		305001,
+		305002,
+		305101,
+		305102,
+		305103,
+		305104,
+		305105,
+		305106,
+		305107,
+		305108,
+		305109,
+		305110,
+		305111,
+		305112,
+		305113,
+		305114,
+		305115,
+		305116,
+		305117,
+		305118,
+		305119,
+		305301,
+		305302,
+		305303,
+		305304,
+		305305,
+		305306
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17474,6 +17592,52 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[266] = {
+		effect = "",
+		name = "Akashi Castle Scroll",
+		gain_by = "The Ninja Scrolls: Azur Flash",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A scroll depicting the stunning view of the stormy Akashi Castle. \nObtained from the \"The Ninja Scrolls: Azur Flash\" event.",
+		tag = 6,
+		icon = "shanluanxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 266,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"sk-az-battle-boss"
+			}
+		},
+		spine = {
+			{
+				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -20334,6 +20498,86 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100044] = {
+		effect = "",
+		name = "Manjuu Bonfire",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's nice and warm. Warning: may make your enemies respawn.",
+		themeId = 0,
+		icon = "jiujiuyinghuoicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100044,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiujiuyinghuoB",
+				"normal"
+			},
+			{
+				"jiujiuyinghuoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						0,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"sit1",
+						"sit"
+					},
+					"sit"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -133917,6 +134161,1141 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		can_rotate = 0,
 		size = {
 			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305001] = {
+		icon = "dibanslicon",
+		name = "Shinobi Mansion Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		picture = "sl/dibansl",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "A modest lawn, evened out by the feet of many trainees.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 305001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305002] = {
+		icon = "qiangbislicon",
+		name = "Shinobi Mansion Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		picture = "sl/qiangbisl",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Were you expecting a more remote location? Tsk, tsk. An expert shinobi hides in the open.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 305002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305101] = {
+		effect = "",
+		name = "Shinobi Short Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/aizhuosl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Snack break time! The milk tea is first come, first served.",
+		tag = 1,
+		icon = "aizhuoslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305102] = {
+		effect = "",
+		name = "Bebeby Statues",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/beibeidiaoxiangsl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A trio of splendid statues and a present from your fellow ninjas. It feels like they're smiling for you.",
+		tag = 1,
+		icon = "beibeidiaoxiangslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305102,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305103] = {
+		effect = "",
+		name = "Shaded Bush",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/caocongsl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "The perfect spot to practice your hiding skills.",
+		tag = 1,
+		icon = "caocongslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305104] = {
+		effect = "",
+		name = "Shinobi Cabinet",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/choutiguisl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Loaded with various ninja tools and gadgets. Don't just rummage through it for the sake of it.",
+		tag = 1,
+		icon = "choutiguislicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305104,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305105] = {
+		effect = "",
+		name = "Bamboo Fence (Tall)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/dalangansl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "It's surprisingly sturdy. Makes you wonder if it's reinforced with Ninja Arts.",
+		tag = 1,
+		icon = "dalanganslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305105,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305106] = {
+		effect = "",
+		name = "Closed Sliding Door",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sl/fangzisl",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You need a special shinobi trick to slide it open.",
+		tag = 1,
+		icon = "fangzislicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305106,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27,
+					-25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305107] = {
+		effect = "",
+		name = "Shaded Flower Bush",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/huacongsl",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "The shaded bush's evolved form. Mind the thorns.",
+		tag = 1,
+		icon = "huacongslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305108] = {
+		effect = "",
+		name = "Floor Trapdoor",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/mudidian1sl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You'd think it would be covered up. It's more ninja-y that way.",
+		tag = 1,
+		icon = "mudidian1slicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305108,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305109] = {
+		effect = "",
+		name = "Shinobi Stone Trail",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/shitousl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Fresh and natural. Looks pretty, but it's very awkward to walk over.",
+		tag = 1,
+		icon = "shitouslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305109,
+		can_rotate = 0,
+		size = {
+			4,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305110] = {
+		effect = "",
+		name = "Shinobi Bookcase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/shuguisl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Filled with books on secret arts and techniques.",
+		tag = 1,
+		icon = "shuguislicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305110,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305111] = {
+		effect = "",
+		name = "Green Shinobi Tatami",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/tatamisl",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Beware, you might just fall asleep if you lie down here.",
+		tag = 1,
+		icon = "tatamislicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305111,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305112] = {
+		effect = "",
+		name = "Shinobi Stone Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/tingzisl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "You'll want to sneak around when it's lit to avoid detection.",
+		tag = 1,
+		icon = "tingzislicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305113] = {
+		effect = "",
+		name = "Shinobi Open-Air Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sl/wenquansl",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's lovely and all, but where does the water come from?",
+		tag = 1,
+		icon = "wenquanslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305113,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					104.3,
+					-100.6
+				},
+				{
+					-1,
+					1
+				},
+				"sl/wenquansl_using",
+				0,
+				{
+					{
+						0,
+						0
+					},
+					{
+						884,
+						440
+					},
+					"sl/wenquansl_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305114] = {
+		effect = "",
+		name = "Bamboo Fence (Short)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/xiaolangansl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Shorter, but every bit as sturdy as the other. Is there some magic going on here?",
+		tag = 1,
+		icon = "xiaolanganslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305114,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305115] = {
+		effect = "",
+		name = "Porch Corner",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/zhuanjiaosl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Corners are places of meetings, both between things and people.",
+		tag = 1,
+		icon = "zhuanjiaoslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305115,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305116] = {
+		effect = "",
+		name = "Shinobi Mansion Porch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sl/zoulangsl",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A nice place to rest your legs.",
+		tag = 1,
+		icon = "zoulangslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305116,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-39.6,
+					11.8
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					64,
+					64
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305117] = {
+		effect = "",
+		name = "Shinobi Cushion",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "sl/zuodiansl",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A lovingly crafted and, well, cushy cushion.",
+		tag = 1,
+		icon = "zuodianslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305118] = {
+		effect = "",
+		name = "Shinobi Sliding Doors",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It takes a shinobi to open these.",
+		tag = 1,
+		icon = "chuanglamenslicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305118,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanglamensl",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305119] = {
+		effect = "",
+		name = "Shinobi Mansion Wooden Flooring",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/mudidian2sl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Please practice your Ninja Arts outside. Floor repairs aren't cheap.",
+		tag = 1,
+		icon = "mudidian2slicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 305119,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305301] = {
+		effect = "",
+		name = "Spring Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The spirit of spring emanates from it. You wonder what it looks like on the other side.",
+		tag = 7,
+		icon = "lamenchunslicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenchunsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305302] = {
+		effect = "",
+		name = "Summer Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The feel of summer emanates from it. You wonder what it looks like on the other side.",
+		tag = 7,
+		icon = "lamenxiaslicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenxiasl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305303] = {
+		effect = "",
+		name = "Autumn Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The atmosphere of autumn emanates from it. You wonder what it looks like on the other side.",
+		tag = 7,
+		icon = "lamenqiuslicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenqiusl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305304] = {
+		effect = "",
+		name = "Winter Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 105,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The essence of winter emanates from it. You wonder what it looks like on the other side.",
+		tag = 7,
+		icon = "lamendongslicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamendongsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305305] = {
+		effect = "",
+		name = "Secret Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/lamensl",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "You'd be forgiven for mistaking it for a partition.",
+		tag = 5,
+		icon = "lamensl",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305306] = {
+		effect = "",
+		name = "Wallpaper of Vanishing",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 105,
+		is_get_time_note = 0,
+		picture = "sl/huwaisl",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Can't see me! Can't see me!",
+		tag = 5,
+		icon = "huwaiicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 305306,
+		can_rotate = 0,
+		size = {
+			4,
 			0
 		},
 		offset = {},

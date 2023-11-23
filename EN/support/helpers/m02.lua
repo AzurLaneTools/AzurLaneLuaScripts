@@ -308,24 +308,27 @@ end
 slot2 = {}
 
 function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
+	LoadPaintingPrefabAsync(slot0, slot5, slot1, slot2, slot3)
+end
+
+function LoadPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 	slot5 = findTF(slot0, "fitter")
 
 	assert(slot5, "请添加子物体fitter")
 	removeAllChildren(slot5)
 
 	slot6 = GetOrAddComponent(slot5, "PaintingScaler")
-	slot6.FrameName = slot2 or ""
+	slot6.FrameName = slot3 or ""
 	slot6.Tween = 1
-	slot7 = slot1
+	uv0[slot0] = slot2
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
-		slot1 = slot1 .. "_n"
-	end
-
-	uv0[slot0] = slot1
-	slot8 = PoolMgr.GetInstance()
-
-	slot8:GetPainting(slot1, true, function (slot0)
+	PoolMgr.GetInstance():GetPainting(slot2, true, function (slot0)
 		if IsNil(uv0) or uv1[uv0] ~= uv2 then
 			PoolMgr.GetInstance():ReturnPainting(uv2, slot0)
 
@@ -342,8 +345,12 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot1, false)
 		end
 
+		if not IsNil(findTF(slot0, "Drag")) then
+			setActive(slot2, false)
+		end
+
 		if not IsNil(findTF(slot0, "hx")) then
-			setActive(slot2, HXSet.isHx())
+			setActive(slot3, HXSet.isHx())
 		end
 
 		if uv5 then

@@ -185,7 +185,7 @@ function slot0.BindItemSkinShop(slot0)
 	end)
 end
 
-function slot0.BindItemBuildShip(slot0, slot1)
+function slot0.BindItemBuildShip(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xianshijianzao", function ()
 		slot0 = nil
 		slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
@@ -204,7 +204,7 @@ function slot0.BindItemBuildShip(slot0, slot1)
 			return
 		end
 
-		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.GETBOAT, uv1 or {
+		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.GETBOAT, {
 			page = BuildShipScene.PAGE_BUILD,
 			projectName = slot0
 		})

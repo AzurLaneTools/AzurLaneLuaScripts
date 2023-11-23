@@ -755,10 +755,12 @@ function slot0.handleNotification(slot0, slot1)
 				slot2 = uv1.contextData.chapterVO:IsAutoFight()
 
 				if uv0.type == ChapterConst.OpRetreat and not uv0.id then
+					slot1 = uv0.finalChapterLevelData
+
 					if uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 						uv1.viewComponent:setChapter(nil)
 						uv1.viewComponent:updateChapterTF(slot1.id)
-						uv1:OnExitChapter(uv0.chapterVO, uv0.win, uv0.extendData)
+						uv1:OnExitChapter(slot1, uv0.win, uv0.extendData)
 
 						return
 					end
@@ -905,7 +907,7 @@ function slot0.handleNotification(slot0, slot1)
 						return
 					end
 
-					uv1:OnExitChapter(uv0.chapterVO, uv0.win, uv0.extendData)
+					uv1:OnExitChapter(slot1, uv0.win, uv0.extendData)
 				elseif slot0 == ChapterConst.OpMove then
 					seriesAsync({
 						function (slot0)

@@ -2402,6 +2402,47 @@ pg.skill_data_display = setmetatable({
 		109240,
 		109241,
 		109242,
+		110010,
+		110011,
+		110021,
+		110022,
+		110023,
+		110024,
+		110030,
+		110031,
+		110032,
+		110033,
+		110034,
+		110040,
+		110043,
+		110051,
+		110060,
+		110063,
+		110070,
+		110080,
+		110090,
+		110091,
+		110130,
+		110140,
+		110141,
+		110142,
+		110150,
+		110151,
+		110152,
+		110160,
+		110162,
+		110170,
+		110172,
+		110174,
+		110181,
+		110182,
+		110190,
+		110191,
+		110192,
+		110200,
+		110210,
+		110211,
+		110212,
 		200026,
 		200203,
 		600031,
@@ -2422,6 +2463,11 @@ pg.skill_data_display = setmetatable({
 		600071,
 		600072,
 		600073,
+		600080,
+		600084,
+		600090,
+		600091,
+		600092,
 		800010,
 		800020,
 		800021,
@@ -2588,6 +2634,11 @@ pg.skill_data_display = setmetatable({
 		800921,
 		800941,
 		800971,
+		800990,
+		800991,
+		801000,
+		801015,
+		801017,
 		902201,
 		1010140,
 		1010143,
@@ -12365,6 +12416,170 @@ pg.base.skill_data_display = {
 		id = 109242,
 		name = "Luna Judgment+"
 	},
+	[110010] = {
+		id = 110010,
+		name = "Twin Blades - Followup Slash"
+	},
+	[110011] = {
+		id = 110011,
+		name = "Twin Blades - Followup Slash"
+	},
+	[110021] = {
+		id = 110021,
+		name = "Twin Blades Combo Strike"
+	},
+	[110022] = {
+		id = 110022,
+		name = "Twin Blades Combo Strike"
+	},
+	[110023] = {
+		id = 110023,
+		name = "Twin Blades Combo Strike"
+	},
+	[110024] = {
+		id = 110024,
+		name = "Twin Blades Combo Strike"
+	},
+	[110030] = {
+		id = 110030,
+		name = "Twin Blades Combo Strike+"
+	},
+	[110031] = {
+		id = 110031,
+		name = "Twin Blades Combo Strike+"
+	},
+	[110032] = {
+		id = 110032,
+		name = "Twin Blades Combo Strike+"
+	},
+	[110033] = {
+		id = 110033,
+		name = "Followup - Hanzō-Style Full Bloom"
+	},
+	[110034] = {
+		id = 110034,
+		name = "Followup - Hanzō-Style Full Bloom"
+	},
+	[110040] = {
+		id = 110040,
+		name = "Fierce Sky Phoenix Flash"
+	},
+	[110043] = {
+		id = 110043,
+		name = "Fierce Sky Phoenix Flash"
+	},
+	[110051] = {
+		id = 110051,
+		name = "Phoenix's Superb Fire Dance"
+	},
+	[110060] = {
+		id = 110060,
+		name = "Fierce Sky Phoenix Flash+"
+	},
+	[110063] = {
+		id = 110063,
+		name = "Fierce Sky Phoenix Flash+"
+	},
+	[110070] = {
+		id = 110070,
+		name = "Blaze of Sacrifice"
+	},
+	[110080] = {
+		id = 110080,
+		name = "Flaming Crimson"
+	},
+	[110090] = {
+		id = 110090,
+		name = "Blaze of Sacrifice+"
+	},
+	[110091] = {
+		id = 110091,
+		name = "Blaze of Sacrifice+"
+	},
+	[110130] = {
+		id = 110130,
+		name = "Management Member's Pressure"
+	},
+	[110140] = {
+		id = 110140,
+		name = "Purple Ice Blast"
+	},
+	[110141] = {
+		id = 110141,
+		name = "Purple Ice Blast"
+	},
+	[110142] = {
+		id = 110142,
+		name = "Purple Ice Blast"
+	},
+	[110150] = {
+		id = 110150,
+		name = "Purple Ice Blast+"
+	},
+	[110151] = {
+		id = 110151,
+		name = "Purple Ice Blast+"
+	},
+	[110152] = {
+		id = 110152,
+		name = "Purple Ice Blast+"
+	},
+	[110160] = {
+		id = 110160,
+		name = "Bebeby, Hide Me!"
+	},
+	[110162] = {
+		id = 110162,
+		name = "Bebeby, Hide Me!"
+	},
+	[110170] = {
+		id = 110170,
+		name = "Root of Calamity Storm"
+	},
+	[110172] = {
+		id = 110172,
+		name = "Root of Calamity Storm"
+	},
+	[110174] = {
+		id = 110174,
+		name = "Root of Calamity Storm"
+	},
+	[110181] = {
+		id = 110181,
+		name = "Root of Calamity Storm+"
+	},
+	[110182] = {
+		id = 110182,
+		name = "Root of Calamity Storm+"
+	},
+	[110190] = {
+		id = 110190,
+		name = "Soul of Tohno"
+	},
+	[110191] = {
+		id = 110191,
+		name = "Soul of Tohno"
+	},
+	[110192] = {
+		id = 110192,
+		name = "Soul of Tohno"
+	},
+	[110200] = {
+		id = 110200,
+		name = "Enka Tuypa"
+	},
+	[110210] = {
+		id = 110210,
+		name = "Soul of Tohno+"
+	},
+	[110211] = {
+		id = 110211,
+		name = "Soul of Tohno+"
+	},
+	[110212] = {
+		id = 110212,
+		name = "Soul of Tohno+"
+	},
 	[200026] = {
 		id = 200026,
 		name = "Paralyzing Advance "
@@ -12444,6 +12659,26 @@ pg.base.skill_data_display = {
 	[600073] = {
 		id = 600073,
 		name = "Fatal Sting"
+	},
+	[600080] = {
+		id = 600080,
+		name = "Blinding Burst"
+	},
+	[600084] = {
+		id = 600084,
+		name = "Surefire Shot"
+	},
+	[600090] = {
+		id = 600090,
+		name = "Surefire Shot"
+	},
+	[600091] = {
+		id = 600091,
+		name = "Surefire Shot"
+	},
+	[600092] = {
+		id = 600092,
+		name = "Charging Fury"
 	},
 	[800010] = {
 		id = 800010,
@@ -13108,6 +13343,26 @@ pg.base.skill_data_display = {
 	[800971] = {
 		id = 800971,
 		name = "Counterattack!"
+	},
+	[800990] = {
+		id = 800990,
+		name = "Descend Upon a Nightmare"
+	},
+	[800991] = {
+		id = 800991,
+		name = "Descend Upon a Nightmare"
+	},
+	[801000] = {
+		id = 801000,
+		name = "Fade into Darkness"
+	},
+	[801015] = {
+		id = 801015,
+		name = "Cinders of Hope - Erebus"
+	},
+	[801017] = {
+		id = 801017,
+		name = "Cinders of Hope - Erebus"
 	},
 	[902201] = {
 		id = 902201,

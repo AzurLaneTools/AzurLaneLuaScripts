@@ -197,6 +197,11 @@ pg.task_meta_data_template = setmetatable({
 		100123,
 		100124,
 		100125,
+		100131,
+		100132,
+		100133,
+		100134,
+		100135,
 		200001,
 		200002,
 		200003,
@@ -244,7 +249,11 @@ pg.task_meta_data_template = setmetatable({
 		200121,
 		200122,
 		200123,
-		200124
+		200124,
+		200131,
+		200132,
+		200133,
+		200134
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1809,6 +1818,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100131] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "Win 1 battle with Erebus META in your fleet.",
+		id = 100131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100132] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Erebus META in your fleet.",
+		id = 100132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100133] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Erebus META in your fleet.",
+		id = 100133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100134] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Erebus META in your fleet.",
+		id = 100134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100135] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Erebus META in your fleet.",
+		id = 100135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2190,6 +2239,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Princeton META in your fleet.",
 		id = 200124,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200131] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Erebus META in your fleet.",
+		id = 200131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200132] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Erebus META in your fleet.",
+		id = 200132,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200133] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Erebus META in your fleet.",
+		id = 200133,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200134] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Erebus META in your fleet.",
+		id = 200134,
 		target_num = 1,
 		target_id = "100"
 	}

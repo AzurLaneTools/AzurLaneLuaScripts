@@ -230,7 +230,21 @@ pg.strategy_data_template = setmetatable({
 		200624,
 		200627,
 		200630,
-		200633
+		200633,
+		200645,
+		200646,
+		200647,
+		200648,
+		200649,
+		200655,
+		200658,
+		200661,
+		200664,
+		200667,
+		200670,
+		200673,
+		200676,
+		200679
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2819,6 +2833,160 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		icon = "200630",
 		buff_type = 0,
 		desc = "During battle, Grimoire Terminal will support your fleet with missiles.",
+		arg = {}
+	},
+	[200645] = {
+		buff_id = 200645,
+		name = "Land Pulse Device - Yin",
+		iconSize = "",
+		type = 10,
+		id = 200645,
+		icon = "200645",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200646] = {
+		buff_id = 200646,
+		name = "Land Pulse Device - Yang",
+		iconSize = "",
+		type = 10,
+		id = 200646,
+		icon = "200646",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200647] = {
+		buff_id = 200647,
+		name = "Land Pulse Device - Flash",
+		iconSize = "",
+		type = 10,
+		id = 200647,
+		icon = "200647",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and barriers that decrease their DMG taken.",
+		arg = {}
+	},
+	[200648] = {
+		buff_id = 200648,
+		name = "Land Pulse Device - Ryou",
+		iconSize = "",
+		type = 10,
+		id = 200648,
+		icon = "200648",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and an HP recovery effect.",
+		arg = {}
+	},
+	[200649] = {
+		buff_id = 200649,
+		name = "Land Pulse Device - Ken",
+		iconSize = "",
+		type = 10,
+		id = 200649,
+		icon = "200649",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and inflicts a damage-over-time poison ailment to shipgirls they hit.",
+		arg = {}
+	},
+	[200655] = {
+		buff_id = 200655,
+		name = "Land Pulse Device - Yin",
+		iconSize = "",
+		type = 10,
+		id = 200655,
+		icon = "200650",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200658] = {
+		buff_id = 200658,
+		name = "Land Pulse Device - Yang",
+		iconSize = "",
+		type = 10,
+		id = 200658,
+		icon = "200651",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200661] = {
+		buff_id = 200661,
+		name = "Land Pulse Device - Flash",
+		iconSize = "",
+		type = 10,
+		id = 200661,
+		icon = "200652",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and barriers that decrease its DMG taken.",
+		arg = {}
+	},
+	[200664] = {
+		buff_id = 200664,
+		name = "Land Pulse Device - Ryou",
+		iconSize = "",
+		type = 10,
+		id = 200664,
+		icon = "200653",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and an HP recovery effect.",
+		arg = {}
+	},
+	[200667] = {
+		buff_id = 200667,
+		name = "Land Pulse Device - Yin",
+		iconSize = "",
+		type = 10,
+		id = 200667,
+		icon = "200650",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200670] = {
+		buff_id = 200670,
+		name = "Land Pulse Device - Yang",
+		iconSize = "",
+		type = 10,
+		id = 200670,
+		icon = "200651",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
+		arg = {}
+	},
+	[200673] = {
+		buff_id = 200673,
+		name = "Land Pulse Device - Flash",
+		iconSize = "",
+		type = 10,
+		id = 200673,
+		icon = "200652",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and barriers that decrease its DMG taken.",
+		arg = {}
+	},
+	[200676] = {
+		buff_id = 200676,
+		name = "Land Pulse Device - Ryou",
+		iconSize = "",
+		type = 10,
+		id = 200676,
+		icon = "200653",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and an HP recovery effect.",
+		arg = {}
+	},
+	[200679] = {
+		buff_id = 200679,
+		name = "Land Pulse Device - Ken",
+		iconSize = "",
+		type = 10,
+		id = 200679,
+		icon = "200654",
+		buff_type = 0,
+		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and inflicts a damage-over-time poison ailment to enemies it hits.",
 		arg = {}
 	}
 }

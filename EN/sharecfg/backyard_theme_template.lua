@@ -4168,6 +4168,45 @@ pg.backyard_theme_template = {
 			304108
 		}
 	},
+	[105] = {
+		Cfg_1 = 5,
+		name = "Shinobi Mansion",
+		hot = 1,
+		is_view = 1,
+		id = 105,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Do you want to experience the ninja life? Then apply to the Shinobi Mansion today!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "slthemeicon",
+		deblocking = 1,
+		order = 106,
+		ids = {
+			305001,
+			305002,
+			305101,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305119,
+			305305,
+			305306
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4260,6 +4299,7 @@ pg.backyard_theme_template = {
 		101,
 		102,
 		103,
-		104
+		104,
+		105
 	}
 }

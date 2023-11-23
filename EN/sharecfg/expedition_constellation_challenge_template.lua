@@ -522,6 +522,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10019] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10019,
+		dungeon_id = 5121,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>3.0%</color> (can stack up to 20 times)."
+			},
+			{
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>10.0% of that shipgirl's HP in DMG</color>."
+			}
+		},
+		award_display = {
+			{
+				14,
+				207,
+				1
+			}
+		}
+	},
+	[10020] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10020,
+		dungeon_id = 5120,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>4.0%</color> (can stack up to 20 times)."
+			},
+			{
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>20.0% of that shipgirl's HP in DMG</color>."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10007,
+				1
+			}
+		}
+	},
+	[10021] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10021,
+		dungeon_id = 5119,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>5.0%</color> (can stack up to 20 times)."
+			},
+			{
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>30.0% of that shipgirl's HP in DMG</color>."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10007,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -540,6 +627,9 @@ pg.expedition_constellation_challenge_template = {
 		10015,
 		10016,
 		10017,
-		10018
+		10018,
+		10019,
+		10020,
+		10021
 	}
 }

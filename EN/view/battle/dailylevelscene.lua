@@ -731,6 +731,20 @@ function slot0.clearTween(slot0)
 	slot1(slot0.descMain)
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.descMode then
+		if LeanTween.isTweening(go(slot0.stageContain)) or LeanTween.isTweening(go(slot0.selQuicklyTF)) then
+			return
+		end
+
+		slot0:enableDescMode(false)
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.willExit(slot0)
 	if slot0.selectedStage then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)

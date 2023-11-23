@@ -350,6 +350,16 @@ function slot0.CloseCommentPanel(slot0)
 	setActive(slot0.optionalPanel, false)
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.inDetail then
+		slot0:ExitDetail()
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.willExit(slot0)
 	slot4 = pg.UIMgr.GetInstance()._normalUIMain
 
