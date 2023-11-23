@@ -56,10 +56,10 @@ function slot0.Show(slot0)
 
 	setActive(slot0._tf, true)
 	setText(slot0.text1, slot3.text1)
-	setText(slot0.text2, setColorStr(slot3.text2, COLOR_GREEN))
+	setText(slot0.text2, setColorStr(slot3.text2, "#72bc42"))
 	setText(slot0.text3, slot3.text3)
 	setText(slot0.text4, slot3.text4)
-	setText(slot0.valueTxt, tonumber(slot1.count) <= 0 and setColorStr(slot1.count, COLOR_RED) or setColorStr(slot1.count, COLOR_GREEN))
+	setText(slot0.valueTxt, tonumber(slot1.count) <= 0 and setColorStr(slot1.count, COLOR_RED) or setColorStr(slot1.count, "#72bc42"))
 	setText(slot0.text5, slot3.text6)
 	updateDrop(slot0.itemTF, {
 		type = DROP_TYPE_ITEM,

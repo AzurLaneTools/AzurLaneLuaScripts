@@ -863,5 +863,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-oldcastle-carnival"
+	},
+	DaofengV2LoginPage = {
+		default_bgm = "theme-IJNdailymeeting",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-IJNdailymeeting"
+	},
+	JapanV2frameRePage = {
+		default_bgm = "battle-longgong",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-longgong"
+	},
+	DaofengMainRePage = {
+		default_bgm = "Map-longgong",
+		special_bgm = "",
+		time = "",
+		bgm = "Map-longgong"
+	},
+	DaofengPTRePage = {
+		default_bgm = "Theme-longgong",
+		special_bgm = "",
+		time = "",
+		bgm = "Theme-longgong"
 	}
 }

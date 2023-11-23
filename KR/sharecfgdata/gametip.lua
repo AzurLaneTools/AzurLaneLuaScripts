@@ -9848,7 +9848,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "상 마르티뉴, 골든 하인드 등 캐릭터 등장 확률 UP!"
+	tip = "한정 건조 횟수 누적 200회를 채울 때마다 UR 함선 「시마카제」 획득 가능(최대 4회)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

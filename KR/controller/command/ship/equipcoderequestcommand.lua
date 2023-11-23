@@ -15,16 +15,12 @@ function slot0.execute(slot0, slot1)
 				slot0.recent_infos
 			}) do
 				for slot12, slot13 in ipairs(slot8) do
-					slot14 = EquipCode.New(setmetatable({
+					if EquipCode.New(setmetatable({
 						new = slot7 - 1,
 						shipGroupId = uv0
 					}, {
 						__index = slot13
-					}))
-
-					warning(slot14:IsValid())
-
-					if slot14:IsValid() then
+					})):IsValid() then
 						table.insert(slot3, slot14)
 					end
 				end

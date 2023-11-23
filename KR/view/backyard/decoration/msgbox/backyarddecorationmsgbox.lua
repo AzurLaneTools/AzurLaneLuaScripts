@@ -13,8 +13,8 @@ function slot0.OnLoaded(slot0)
 	slot0.input = slot0:findTF("frame/bound/input")
 	slot0.inputField = slot0:findTF("frame/bound/input/InputField")
 	slot0.desc = slot0:findTF("frame/bound/desc"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("frame/bound/Icon"):GetComponent(typeof(Image))
-	slot0.iconRaw = slot0:findTF("frame/bound/Icon_raw"):GetComponent(typeof(RawImage))
+	slot0.icon = slot0:findTF("frame/bound/mask/Icon"):GetComponent(typeof(Image))
+	slot0.iconRaw = slot0:findTF("frame/bound/mask/Icon_raw"):GetComponent(typeof(RawImage))
 	slot0.title = slot0:findTF("frame/title"):GetComponent(typeof(Text))
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.innerMsgbox = slot0:findTF("msg")
@@ -100,7 +100,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 	onInputChanged(slot0, slot0.inputField, function ()
 		if not uv0.unEmpty then
-			setText(uv0.desc, i18n("backyard_theme_save_tip", getInputText(uv0.inputField)))
+			setText(uv0.desc, i18n("backyard_theme_save_tip"))
 		end
 	end)
 end
@@ -163,6 +163,9 @@ function slot0.NewTheme(slot0)
 
 	slot0.desc.text = i18n("backyard_theme_save_tip", i18n("backyard_theme_defaultname") .. slot2)
 	slot0.icon.sprite = LoadSprite("furnitureicon/default_theme")
+
+	setActive(slot0.iconRaw.gameObject, false)
+	setActive(slot0.icon.gameObject, true)
 end
 
 function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3, slot4)

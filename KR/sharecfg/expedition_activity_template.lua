@@ -4860,8 +4860,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
@@ -4870,8 +4870,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
@@ -4880,8 +4880,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
@@ -4890,8 +4890,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
@@ -4900,8 +4900,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
@@ -4910,68 +4910,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
 	[1562013] = {
 		id = 1562013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
 	[1562113] = {
 		id = 1562113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
 	[1562213] = {
 		id = 1562213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20844,
-				212
+				5069,
+				378
 			}
 		}
 	},
 	[1563013] = {
 		id = 1563013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
 	[1563113] = {
 		id = 1563113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
 	[1563213] = {
 		id = 1563213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},
@@ -4980,8 +4980,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				20845,
-				212
+				5070,
+				378
 			}
 		}
 	},

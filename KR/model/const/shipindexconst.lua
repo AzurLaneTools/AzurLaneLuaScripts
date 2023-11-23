@@ -184,7 +184,7 @@ slot0.TypeNames = {
 }
 
 function slot0.filterByType(slot0, slot1)
-	if not slot1 or slot1 == uv0.EquipmentTypeAll then
+	if not slot1 or slot1 == uv0.TypeAll then
 		return true
 	end
 

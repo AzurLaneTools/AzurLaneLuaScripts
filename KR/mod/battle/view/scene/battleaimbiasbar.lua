@@ -90,3 +90,7 @@ function slot1.Dispose(slot0)
 	slot0._lock = nil
 	slot0._aimBiasBarGO = nil
 end
+
+function slot1.GetGO(slot0)
+	return slot0._aimBiasBarGO
+end

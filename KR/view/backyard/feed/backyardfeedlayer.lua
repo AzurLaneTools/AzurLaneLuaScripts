@@ -73,10 +73,11 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateDorm(slot0)
-	slot1 = getProxy(DormProxy):getRawData()
+	slot0:InitCharChat(getProxy(DormProxy):getRawData())
 
-	slot0:InitCharChat(slot1)
-	slot0:InitCapcity(slot1)
+	if not slot0.playing then
+		slot0:InitCapcity(slot1)
+	end
 end
 
 function slot0.InitCharChat(slot0, slot1)
@@ -143,6 +144,7 @@ function slot0.UpdateCapacityWithAnim(slot0, slot1, slot2)
 		LeanTween.cancel(slot0.capacityBar.gameObject)
 	end
 
+	slot0.playing = true
 	slot3 = slot0.capacityBarEffect.value
 	slot4 = slot1 / slot2
 
@@ -152,8 +154,10 @@ function slot0.UpdateCapacityWithAnim(slot0, slot1, slot2)
 	LeanTween.value(slot0.capacityBar.gameObject, slot3, slot4, 0.396):setEase(LeanTweenType.easeInOutQuart):setOnUpdate(System.Action_float(function (slot0)
 		uv0.capacityBar.value = slot0
 	end)):setOnComplete(System.Action(function ()
-		uv0:UpdateCapacity(uv1, uv2)
-	end)):setDelay(0.066)
+		uv0.playing = false
+
+		uv0:UpdateDorm()
+	end)):setDelay(0.069)
 end
 
 function slot2(slot0, slot1)

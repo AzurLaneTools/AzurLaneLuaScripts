@@ -41,7 +41,7 @@ end
 function slot0.InitScrollRect(slot0, slot1)
 	slot0._tf.sizeDelta = Vector2(slot0._tf.sizeDelta.x, 1080 + (slot1 - 1) * 150)
 
-	scrollTo(slot0.scrollView, 0.5, 0.5)
+	scrollTo(slot0.scrollView, 0.508, 0.655)
 end
 
 function slot0.OnDispose(slot0)

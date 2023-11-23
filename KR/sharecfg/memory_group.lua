@@ -2471,7 +2471,7 @@ pg.base.memory_group = {
 		subtype = 1,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 5069,
 		title = "맑고 푸른 바다",
 		memories = {
 			1801,

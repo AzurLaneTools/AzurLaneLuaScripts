@@ -37,6 +37,7 @@ function slot0.init(slot0)
 
 	setText(slot0.searchInput:Find("holder"), i18n("courtyard_label_search_holder"))
 
+	slot0.searchClear = slot0:findTF("adpter/bottom/animroot/root/fliter_container/search/search/clear")
 	slot0.hideBtn = slot0:findTF("adpter/bottom/animroot/root/fliter_container/hide")
 	slot0.showBtn = slot0:findTF("adpter/bottom/animroot/show_btn")
 	slot0.showPutListBtn = slot0:findTF("adpter/putlist_btn")
@@ -102,6 +103,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.shopBtn, function ()
 		uv0:emit(BackYardDecorationMediator.OPEN_SHOP)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.searchClear, function ()
+		setInputText(uv0.searchInput, "")
+	end, SFX_PANEL)
 	onButton(slot0, slot0.saveBtn, function ()
 		uv0.dftAniEvent:SetEndEvent(function ()
 			uv0.dftAniEvent:SetEndEvent(nil)
@@ -131,6 +135,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
+		setActive(uv0.searchClear, slot0 ~= "")
 		uv0.pages[uv0.pageType]:ExecuteAction("SearchKeyUpdated", slot0)
 	end)
 	onButton(slot0, slot0.showPutListBtn, function ()

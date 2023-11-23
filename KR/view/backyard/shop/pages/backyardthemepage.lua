@@ -14,9 +14,9 @@ end
 function slot0.LoadList(slot0)
 	slot0._parentTF = slot0._tf.parent
 	slot0.adpter = slot0:findTF("adpter")
-	slot0.themeContainer = slot0:findTF("adpter/list")
-	slot0.scrollRect = slot0:findTF("adpter/list/mask"):GetComponent("LScrollRect")
-	slot0.scrollRectWidth = slot0:findTF("adpter/list/mask").rect.width
+	slot0.themeContainer = slot0:findTF("list/frame")
+	slot0.scrollRect = slot0:findTF("list/frame/mask"):GetComponent("LScrollRect")
+	slot0.scrollRectWidth = slot0:findTF("list/frame/mask").rect.width
 	slot0.searchInput = slot0:findTF("adpter/search")
 	slot0.searchClear = slot0.searchInput:Find("clear")
 
