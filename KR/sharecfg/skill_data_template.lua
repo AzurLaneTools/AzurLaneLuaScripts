@@ -12513,7 +12513,7 @@ pg.base.skill_data_template = {
 	},
 	[9711] = {
 		desc_get = "",
-		name = "布里之誓·purin",
+		name = "부린의 서약·purin",
 		id = 9711,
 		type = 0,
 		max_level = 0,

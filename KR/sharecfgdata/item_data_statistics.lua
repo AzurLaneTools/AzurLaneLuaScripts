@@ -208014,7 +208014,7 @@ _G.pg.base.item_data_statistics[59499] = {
 }
 
 _G.pg.base.item_data_statistics[59500] = {
-	display = "「폭풍의 그림자」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	display = "「맑고 푸른 바다」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "옥패",
 	max_num = 0,
 	type = 98,
@@ -219897,7 +219897,7 @@ _G.pg.base.item_data_statistics[60431] = {
 }
 
 _G.pg.base.item_data_statistics[60435] = {
-	display = "「폭풍의 그림자」 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
+	display = "「맑고 푸른 바다」 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
