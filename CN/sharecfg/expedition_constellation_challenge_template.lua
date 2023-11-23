@@ -522,6 +522,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10019] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10019,
+		dungeon_id = 5121,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"致盲之箭 ",
+				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>3%</color>，最多叠加20层"
+			},
+			{
+				"百步穿杨",
+				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>10%</color>的伤害"
+			}
+		},
+		award_display = {
+			{
+				14,
+				207,
+				1
+			}
+		}
+	},
+	[10020] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10020,
+		dungeon_id = 5120,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"致盲之箭 ",
+				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>4%</color>，最多叠加20层"
+			},
+			{
+				"百步穿杨",
+				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>20%</color>的伤害"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10007,
+				1
+			}
+		}
+	},
+	[10021] = {
+		painting = "yanzhan",
+		button_style = 7,
+		information_icon = "yanzhan_constellation",
+		id = 10021,
+		dungeon_id = 5119,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"致盲之箭 ",
+				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>5%</color>，最多叠加20层"
+			},
+			{
+				"百步穿杨",
+				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>30%</color>的伤害"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10007,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -540,6 +627,9 @@ pg.expedition_constellation_challenge_template = {
 		10015,
 		10016,
 		10017,
-		10018
+		10018,
+		10019,
+		10020,
+		10021
 	}
 }

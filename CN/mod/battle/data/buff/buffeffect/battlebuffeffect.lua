@@ -420,6 +420,20 @@ function slot3.victimRequire(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot3.killerWeaponRequire(slot0, slot1, slot2, slot3)
+	if not slot2 then
+		return false
+	end
+
+	if not slot2.GetWeapon then
+		return false
+	end
+
+	if table.contains(slot1, slot2:GetWeapon():GetWeaponId()) then
+		return true
+	end
+end
+
 function slot3.onInitGame(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
@@ -650,8 +664,14 @@ function slot3.onTeammateHpRatioUpdate(slot0, slot1, slot2, slot3)
 	slot0:onFriendlyHpRatioUpdate(slot1, slot2, slot3)
 end
 
-function slot3.onBulletKill(slot0, slot1, slot2)
-	slot0:onTrigger(slot1, slot2)
+function slot3.onBulletKill(slot0, slot1, slot2, slot3)
+	if slot0._tempData.arg_list.killer_weapon_id then
+		if slot0:killerWeaponRequire(slot0._tempData.arg_list.killer_weapon_id, slot3.killer, slot1) then
+			slot0:onTrigger(slot1, slot2)
+		end
+	else
+		slot0:onTrigger(slot1, slot2)
+	end
 end
 
 function slot3.onBattleBuffCount(slot0, slot1, slot2, slot3)

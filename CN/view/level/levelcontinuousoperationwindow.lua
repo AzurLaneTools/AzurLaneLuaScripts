@@ -50,9 +50,14 @@ function slot0.didEnter(slot0)
 
 		uv0:UpdateContent()
 	end)
-	slot0._pageUtil:setMaxNum(slot0.contextData.maxCount)
 
-	slot0.contextData.battleTimes = slot0.contextData.battleTimes or 1
+	slot3 = slot0.contextData.maxCount
+
+	slot0._pageUtil:setMaxNum(slot3)
+
+	if slot3 >= 0 then
+		slot0.contextData.battleTimes = math.min(slot3, slot0.contextData.battleTimes or 1)
+	end
 
 	slot0._pageUtil:setDefaultNum(slot0.contextData.battleTimes)
 	slot0:UpdateContent()

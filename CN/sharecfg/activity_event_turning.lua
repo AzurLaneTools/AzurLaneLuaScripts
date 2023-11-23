@@ -3,6 +3,7 @@ pg.activity_event_turning = {
 	{
 		id = 1,
 		total_num = 7,
+		type = 1,
 		groupid_list = {
 			1050001,
 			1050004,
@@ -67,7 +68,76 @@ pg.activity_event_turning = {
 			{}
 		}
 	},
+	{
+		id = 2,
+		total_num = 7,
+		type = 2,
+		groupid_list = {
+			1100001,
+			1100002,
+			1100003,
+			1100004,
+			1100005,
+			1100006,
+			1100007
+		},
+		task_table = {
+			{
+				19450,
+				19451
+			},
+			{
+				19452,
+				19453
+			},
+			{
+				19454,
+				19455
+			},
+			{
+				19456,
+				19457
+			},
+			{
+				19458,
+				19459
+			},
+			{
+				19460,
+				19461
+			},
+			{
+				19462,
+				19463
+			}
+		},
+		story_list = {},
+		story_task = {
+			{
+				"CANGSHANRENFATIERICHANG1"
+			},
+			{
+				"CANGSHANRENFATIERICHANG2"
+			},
+			{
+				"CANGSHANRENFATIERICHANG3"
+			},
+			{
+				"CANGSHANRENFATIERICHANG4"
+			},
+			{
+				"CANGSHANRENFATIERICHANG5"
+			},
+			{
+				"CANGSHANRENFATIERICHANG6"
+			},
+			{
+				"CANGSHANRENFATIERICHANG7"
+			}
+		}
+	},
 	all = {
-		1
+		1,
+		2
 	}
 }

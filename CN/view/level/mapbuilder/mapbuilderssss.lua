@@ -48,20 +48,20 @@ function slot0.OnInit(slot0)
 	setParent(slot0.buttons, slot0.mainLayer)
 end
 
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
+function slot0.ShowButtons(slot0)
+	uv0.super.ShowButtons(slot0)
 	setActive(slot0.buttons, true)
 	setParent(slot0.challengeBtn, slot0.leftChapter)
-	slot0.challengeBtn:SetSiblingIndex(6)
+	slot0.challengeBtn:SetSiblingIndex(5)
 	setParent(slot0.missionBtn, slot0.rightChapter)
 	slot0.missionBtn:SetSiblingIndex(0)
 end
 
-function slot0.Hide(slot0)
+function slot0.HideButtons(slot0)
 	setParent(slot0.challengeBtn, slot0.buttons)
 	setParent(slot0.missionBtn, slot0.buttons)
 	setActive(slot0.buttons, false)
-	uv0.super.Hide(slot0)
+	uv0.super.HideButtons(slot0)
 end
 
 slot2 = {

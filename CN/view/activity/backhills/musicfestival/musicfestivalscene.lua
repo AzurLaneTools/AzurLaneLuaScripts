@@ -140,7 +140,7 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.btn_actskin:Find("tip"), slot1:getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot5:isEnd() and slot5:readyToAchieve())
 	setActive(slot0.btn_ins:Find("tip"), getProxy(InstagramProxy):ShouldShowTip())
 	setActive(slot0.screen:Find("tip"), IdolPTPage.NeedTip())
-	setActive(slot0.foutain:Find("tip"), Activity.isHaveActivableMedal())
+	setActive(slot0.foutain:Find("tip"), uv0.MedalTip())
 	setActive(slot0.stage:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(slot0.HUB_ID).count > 0)
 end
 
@@ -289,6 +289,10 @@ function slot0.TryPlayStory(slot0)
 	if "TIANHOUYUYI2" then
 		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
+end
+
+function slot0.MedalTip()
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
 function slot0.willExit(slot0)

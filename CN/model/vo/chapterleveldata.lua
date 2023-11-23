@@ -225,16 +225,6 @@ function slot0.retreat(slot0, slot1)
 
 		slot0:updateTodayDefeatCount()
 	end
-
-	slot0.active = false
-	slot0.dueTime = nil
-	slot0.cells = nil
-	slot0.fleets = nil
-	slot0.findex = nil
-	slot0.champions = nil
-	slot0.cellAttachments = nil
-	slot0.round = nil
-	slot0.airDominanceStatus = nil
 end
 
 function slot0.CleanLevelData(slot0)

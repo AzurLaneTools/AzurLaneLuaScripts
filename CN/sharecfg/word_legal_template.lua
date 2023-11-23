@@ -972,7 +972,18 @@ function temp()
 		},
 		["暗"] = {
 			["界"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -6964,6 +6975,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		this = {
+			this = true
 		}
 	}
 end
@@ -7071,6 +7085,7 @@ temp()
 function temp()
 	uv0["飞"] = {
 		["鸟"] = {
+			this = true,
 			["川"] = {
 				["千"] = {
 					["濑"] = {
@@ -7126,6 +7141,51 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["斑"] = {
+		["鸠"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["焰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["雪"] = {
+		["泉"] = {
+			this = true
+		},
+		["不"] = {
+			["归"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["夕"] = {
+		["烧"] = {
+			this = true
 		}
 	}
 end

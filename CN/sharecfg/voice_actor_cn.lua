@@ -1547,5 +1547,9 @@ pg.voice_actor_CN = {
 	{
 		code = 387,
 		actor_name = "叶山郁美"
+	},
+	{
+		code = 388,
+		actor_name = "原田瞳"
 	}
 }

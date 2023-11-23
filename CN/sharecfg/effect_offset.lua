@@ -1814,5 +1814,16 @@ pg.effect_offset = {
 			0,
 			4
 		}
+	},
+	shanluan_hudun = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
 	}
 }

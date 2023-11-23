@@ -5,6 +5,8 @@ slot0.TYPESHINANO = 3
 slot0.TYPESKIRMISH = 4
 slot0.TYPEBISMARCK = 5
 slot0.TYPESSSS = 6
+slot0.TYPEATELIER = 7
+slot0.TYPESENRANKAGURA = 8
 
 function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
@@ -136,6 +138,12 @@ function slot0.OnHide(slot0)
 	end
 
 	slot0.tweens = {}
+end
+
+function slot0.ShowButtons(slot0)
+end
+
+function slot0.HideButtons(slot0)
 end
 
 function slot0.Update(slot0, slot1)

@@ -150,19 +150,29 @@ function slot0.StopChat(slot0)
 	slot0:StopCV()
 end
 
-function slot0.PlayCV(slot0, slot1, slot2)
-	slot3, slot4 = nil
+function slot1(slot0, slot1)
+	slot2, slot3 = nil
 
-	if slot0.name == "mingshi_live2d" then
-		slot3 = "cv-chargeShop"
-		slot4 = slot1
+	if string.find(slot1, "/") then
+		slot4 = string.split(slot1, "/")
+		slot2 = slot4[1]
+		slot3 = slot4[2]
+	elseif slot0.name == "mingshi_live2d" then
+		slot2 = "cv-chargeShop"
+		slot3 = slot1
 	elseif string.find(slot1, "ryza_shop") then
-		slot3 = "cv-1090002"
-		slot4 = slot1
+		slot2 = "cv-1090002"
+		slot3 = slot1
 	else
-		slot3 = "cv-shop"
-		slot4 = slot1
+		slot2 = "cv-shop"
+		slot3 = slot1
 	end
+
+	return slot2, slot3
+end
+
+function slot0.PlayCV(slot0, slot1, slot2)
+	slot3, slot4 = uv0(slot0, slot1)
 
 	slot0:StopCV()
 	pg.CriMgr.GetInstance():PlayCV_V3(slot3, slot4, slot2)

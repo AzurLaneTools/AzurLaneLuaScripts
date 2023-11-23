@@ -7363,6 +7363,66 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[1770013] = {
+		id = 1770013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
+	[1771013] = {
+		id = 1771013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
+	[1772013] = {
+		id = 1772013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
+	[1773013] = {
+		id = 1773013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
+	[1774013] = {
+		id = 1774013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
+	[1775013] = {
+		id = 1775013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5101,
+				380
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -8428,6 +8488,12 @@ pg.expedition_activity_template = {
 		1764013,
 		1765013,
 		1766013,
+		1770013,
+		1771013,
+		1772013,
+		1773013,
+		1774013,
+		1775013,
 		3000013,
 		3000113,
 		3000213,

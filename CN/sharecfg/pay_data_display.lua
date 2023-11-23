@@ -68,6 +68,7 @@ pg.pay_data_display = setmetatable({
 		1010,
 		1011,
 		1012,
+		1013,
 		2001,
 		2002,
 		2003,
@@ -85,7 +86,8 @@ pg.pay_data_display = setmetatable({
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -6471,6 +6473,81 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1013] = {
+		subject = "特许巡游凭证",
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		limit_arg = 1,
+		name = "特许巡游凭证(2023.12)",
+		name_display = "特许巡游凭证",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1013,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass15",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梅限定换装和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.seasonpass14",
+		extra_service_item = {
+			{
+				1,
+				4014,
+				1500
+			},
+			{
+				8,
+				59511,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4014,
+				1500
+			}
+		},
+		sub_display = {
+			7014,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		subject = "最高方案研发礼包(一期)",
 		limit_group = 1,
@@ -7768,6 +7845,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40028,
+				1
+			}
+		}
+	},
+	[2019] = {
+		subject = "舰艇教材礼包",
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "舰艇教材礼包(2023秋)",
+		name_display = "舰艇教材礼包",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2019,
+		money = 18,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao110",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得大量教材奖励",
+		airijp_id = "com.yostarjp.azurlane.package110",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

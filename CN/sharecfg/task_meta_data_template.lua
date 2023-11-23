@@ -197,6 +197,11 @@ pg.task_meta_data_template = setmetatable({
 		100123,
 		100124,
 		100125,
+		100131,
+		100132,
+		100133,
+		100134,
+		100135,
 		200001,
 		200002,
 		200003,
@@ -244,7 +249,11 @@ pg.task_meta_data_template = setmetatable({
 		200121,
 		200122,
 		200123,
-		200124
+		200124,
+		200131,
+		200132,
+		200133,
+		200134
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1809,6 +1818,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100131] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "使用黑暗界·META获得1次胜利",
+		id = 100131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100132] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "使用黑暗界·META击破等级＞30的敌方1次",
+		id = 100132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100133] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "使用黑暗界·META击破等级＞55的敌方1次",
+		id = 100133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100134] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "使用黑暗界·META击破等级＞80的敌方1次",
+		id = 100134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100135] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "使用黑暗界·META击破等级＞100的敌方1次",
+		id = 100135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2190,6 +2239,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用普林斯顿·META击破等级＞100的敌方1次",
 		id = 200124,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200131] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "大型作战内使用黑暗界·META获得1次胜利",
+		id = 200131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200132] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "大型作战内使用黑暗界·META击破等级＞70的敌方1次",
+		id = 200132,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200133] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "大型作战内使用黑暗界·META击破等级＞90的敌方1次",
+		id = 200133,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200134] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "大型作战内使用黑暗界·META击破等级＞100的敌方1次",
+		id = 200134,
 		target_num = 1,
 		target_id = "100"
 	}

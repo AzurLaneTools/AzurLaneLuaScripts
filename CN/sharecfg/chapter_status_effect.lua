@@ -282,6 +282,76 @@ pg.chapter_status_effect = {
 		id = 60,
 		camera_focus = ""
 	},
+	[61] = {
+		strategy = 200645,
+		id = 61,
+		camera_focus = ""
+	},
+	[62] = {
+		strategy = 200655,
+		id = 62,
+		camera_focus = ""
+	},
+	[63] = {
+		strategy = 200646,
+		id = 63,
+		camera_focus = ""
+	},
+	[64] = {
+		strategy = 200658,
+		id = 64,
+		camera_focus = ""
+	},
+	[65] = {
+		strategy = 200647,
+		id = 65,
+		camera_focus = ""
+	},
+	[66] = {
+		strategy = 200661,
+		id = 66,
+		camera_focus = ""
+	},
+	[67] = {
+		strategy = 200648,
+		id = 67,
+		camera_focus = ""
+	},
+	[68] = {
+		strategy = 200664,
+		id = 68,
+		camera_focus = ""
+	},
+	[69] = {
+		strategy = 200649,
+		id = 69,
+		camera_focus = ""
+	},
+	[70] = {
+		strategy = 200667,
+		id = 70,
+		camera_focus = ""
+	},
+	[71] = {
+		strategy = 200670,
+		id = 71,
+		camera_focus = ""
+	},
+	[72] = {
+		strategy = 200673,
+		id = 72,
+		camera_focus = ""
+	},
+	[73] = {
+		strategy = 200676,
+		id = 73,
+		camera_focus = ""
+	},
+	[74] = {
+		strategy = 200679,
+		id = 74,
+		camera_focus = ""
+	},
 	[101] = {
 		strategy = 94,
 		id = 101,
@@ -352,6 +422,20 @@ pg.chapter_status_effect = {
 		58,
 		59,
 		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
+		73,
+		74,
 		101,
 		102,
 		103
