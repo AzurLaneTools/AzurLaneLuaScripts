@@ -26525,7 +26525,7 @@ _G.pg.base.gametip.skin_discount_desc = {
 }
 
 _G.pg.base.gametip.skin_exchange_timelimit = {
-	tip = "The pool of skins that this item may be redeemed for will change after maintenance on $1. Please plan your usage accordingly."
+	tip = "The pool of skins that this item may be redeemed for will change after $1. Please plan your usage accordingly."
 }
 
 _G.pg.base.gametip.blackfriday_pack_purchased = {

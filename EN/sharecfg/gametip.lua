@@ -23768,101 +23768,101 @@ cs.gametip = {
 	},
 	skin_exchange_timelimit = {
 		899787,
-		214,
+		198,
 		true
 	},
 	blackfriday_pack_purchased = {
-		900001,
+		899985,
 		99,
 		true
 	},
 	commander_unsel_lock_flag_tip = {
-		900100,
+		900084,
 		200,
 		true
 	},
 	skin_discount_timelimit = {
-		900300,
+		900284,
 		175,
 		true
 	},
 	shan_luan_task_progress_tip = {
-		900475,
+		900459,
 		104,
 		true
 	},
 	shan_luan_task_level_tip = {
-		900579,
+		900563,
 		104,
 		true
 	},
 	shan_luan_task_help = {
-		900683,
+		900667,
 		876,
 		true
 	},
 	shan_luan_task_buff_default = {
-		901559,
+		901543,
 		94,
 		true
 	},
 	senran_pt_consume_tip = {
-		901653,
+		901637,
 		228,
 		true
 	},
 	senran_pt_not_enough = {
-		901881,
+		901865,
 		139,
 		true
 	},
 	senran_pt_help = {
-		902020,
+		902004,
 		595,
 		true
 	},
 	senran_pt_rank = {
-		902615,
+		902599,
 		101,
 		true
 	},
 	senran_pt_words_feiniao = {
-		902716,
+		902700,
 		420,
 		true
 	},
 	senran_pt_words_banjiu = {
-		903136,
+		903120,
 		524,
 		true
 	},
 	senran_pt_words_yan = {
-		903660,
+		903644,
 		419,
 		true
 	},
 	senran_pt_words_xuequan = {
-		904079,
+		904063,
 		453,
 		true
 	},
 	senran_pt_words_xuebugui = {
-		904532,
+		904516,
 		433,
 		true
 	},
 	senran_pt_words_zi = {
-		904965,
+		904949,
 		394,
 		true
 	},
 	senran_pt_words_xishao = {
-		905359,
+		905343,
 		392,
 		true
 	},
 	senrankagura_backhill_help = {
-		905751,
+		905735,
 		1252,
 		true
 	}

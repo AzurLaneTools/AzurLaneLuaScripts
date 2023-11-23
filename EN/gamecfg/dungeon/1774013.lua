@@ -313,7 +313,20 @@ return {
 									setAI = 10001
 								}
 							}
-						},
+						}
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 114,
+					conditionType = 0,
+					preWaves = {
+						500,
+						102,
+						101
+					},
+					triggerParam = {},
+					spawn = {
 						{
 							monsterTemplateID = 16574302,
 							delay = 0,
