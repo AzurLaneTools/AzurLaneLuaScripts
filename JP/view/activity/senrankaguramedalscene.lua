@@ -8,6 +8,59 @@ function slot0.getUIName(slot0)
 	return "SenrankaguraMedalUI"
 end
 
+function slot0.GetTaskCountAble()
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TASK_ID) then
+		return false
+	end
+
+	slot3 = {}
+	slot4 = 0
+
+	for slot8, slot9 in ipairs(pg.activity_template[slot0].config_client.player_task) do
+		for slot13, slot14 in ipairs(slot9) do
+			table.insert(slot3, slot14)
+		end
+	end
+
+	slot5 = nil
+
+	function slot5(slot0)
+		if not slot0 then
+			return true
+		end
+
+		slot2 = getProxy(TaskProxy):getFinishTaskById(slot0)
+
+		if not getProxy(TaskProxy):getTaskById(slot0) and not slot2 then
+			return false
+		end
+
+		slot3 = pg.task_data_template[slot0].activity_client_config.before
+
+		if slot1 and slot1:getTaskStatus() <= 0 then
+			return false
+		end
+
+		return uv0(slot3)
+	end
+
+	for slot9 = 1, #slot3 do
+		if getProxy(TaskProxy):getTaskById(slot3[slot9]) then
+			slot12 = pg.task_data_template[slot10].activity_client_config.before
+
+			if slot11:getTaskStatus() == 1 then
+				if not pg.task_data_template[slot10].activity_client_config.before then
+					slot4 = slot4 + 1
+				elseif slot5(slot13) then
+					slot4 = slot4 + 1
+				end
+			end
+		end
+	end
+
+	return slot4 > 0, slot4
+end
+
 function slot0.init(slot0)
 	slot0.activityId = ActivityConst.SENRANKAGURA_TASK_ID
 	slot0.taskActivity = getProxy(ActivityProxy):getActivityById(slot0.activityId)
