@@ -3535,6 +3535,17 @@ pg.fleet_tech_ship_class = {
 			971201
 		}
 	},
+	[971301] = {
+		shiptype = 13,
+		name = "ハンター(META)",
+		nation = 97,
+		id = 971301,
+		t_level_1 = 7,
+		t_level = 3,
+		ships = {
+			971301
+		}
+	},
 	all = {
 		10101,
 		10102,
@@ -3831,6 +3842,7 @@ pg.fleet_tech_ship_class = {
 		970702,
 		970703,
 		970801,
-		971201
+		971201,
+		971301
 	}
 }

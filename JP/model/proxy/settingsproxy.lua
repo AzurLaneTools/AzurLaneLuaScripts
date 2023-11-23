@@ -877,6 +877,26 @@ function slot0.SaveCommanderLockFlagTalentConfig(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
+function slot0.GetMainPaintingVariantFlag(slot0, slot1)
+	if not slot0.mainPaintingVariantFlag then
+		slot0.mainPaintingVariantFlag = {}
+	end
+
+	if not slot0.mainPaintingVariantFlag[slot1] then
+		slot0.mainPaintingVariantFlag[slot1] = PlayerPrefs.GetInt(slot1 .. "_mainMeshImagePainting_ex_" .. getProxy(PlayerProxy):getRawData().id, 0)
+	end
+
+	return slot0.mainPaintingVariantFlag[slot1]
+end
+
+function slot0.SwitchMainPaintingVariantFlag(slot0, slot1)
+	slot3 = 1 - slot0:GetMainPaintingVariantFlag(slot1)
+	slot0.mainPaintingVariantFlag[slot1] = slot3
+
+	PlayerPrefs.SetInt(slot1 .. "_mainMeshImagePainting_ex_" .. getProxy(PlayerProxy):getRawData().id, slot3)
+	PlayerPrefs.Save()
+end
+
 function slot0.Reset(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()

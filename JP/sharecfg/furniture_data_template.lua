@@ -141,6 +141,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -194,6 +195,7 @@ pg.furniture_data_template = setmetatable({
 			100052,
 			100053,
 			100054,
+			100055,
 			200001,
 			200002,
 			200003,
@@ -2953,6 +2955,35 @@ pg.furniture_data_template = setmetatable({
 			304305,
 			304306,
 			304307
+		},
+		[105] = {
+			305001,
+			305002,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_tag = {
@@ -4712,7 +4743,26 @@ pg.furniture_data_template = setmetatable({
 			304127,
 			304128,
 			304129,
-			304130
+			304130,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119
 		},
 		{
 			1108,
@@ -5009,6 +5059,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -5062,6 +5113,7 @@ pg.furniture_data_template = setmetatable({
 			100052,
 			100053,
 			100054,
+			100055,
 			31101,
 			54104,
 			54105
@@ -5236,7 +5288,11 @@ pg.furniture_data_template = setmetatable({
 			302130,
 			303101,
 			303102,
-			304131
+			304131,
+			305301,
+			305302,
+			305303,
+			305304
 		},
 		[4] = {
 			1001,
@@ -5327,7 +5383,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[3] = {
 			1002,
@@ -5419,7 +5476,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[5] = {
 			1301,
@@ -5738,7 +5796,9 @@ pg.furniture_data_template = setmetatable({
 			304304,
 			304305,
 			304306,
-			304307
+			304307,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_type = {
@@ -5832,7 +5892,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[7] = {
 			1,
@@ -5953,6 +6014,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100004,
 			100005,
@@ -5993,7 +6055,8 @@ pg.furniture_data_template = setmetatable({
 			100051,
 			100052,
 			100053,
-			100054
+			100054,
+			100055
 		},
 		[2] = {
 			120,
@@ -7739,7 +7802,23 @@ pg.furniture_data_template = setmetatable({
 			304128,
 			304129,
 			304130,
-			304131
+			304131,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305109,
+			305110,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118
 		},
 		[11] = {
 			143,
@@ -8109,7 +8188,12 @@ pg.furniture_data_template = setmetatable({
 			304303,
 			304304,
 			304305,
-			304307
+			304307,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305
 		},
 		[13] = {
 			100015,
@@ -8212,7 +8296,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[5] = {
 			1101,
@@ -8355,7 +8440,10 @@ pg.furniture_data_template = setmetatable({
 			300109,
 			302111,
 			304115,
-			304118
+			304118,
+			305108,
+			305111,
+			305119
 		},
 		[3] = {
 			1108,
@@ -8537,7 +8625,8 @@ pg.furniture_data_template = setmetatable({
 			38301,
 			76305,
 			98302,
-			304306
+			304306,
+			305306
 		},
 		[12] = {
 			46131
@@ -8684,6 +8773,7 @@ pg.furniture_data_template = setmetatable({
 		263,
 		264,
 		265,
+		266,
 		100002,
 		100003,
 		100004,
@@ -8737,6 +8827,7 @@ pg.furniture_data_template = setmetatable({
 		100052,
 		100053,
 		100054,
+		100055,
 		200001,
 		200002,
 		200003,
@@ -11313,7 +11404,34 @@ pg.furniture_data_template = setmetatable({
 		304304,
 		304305,
 		304306,
-		304307
+		304307,
+		305001,
+		305002,
+		305101,
+		305102,
+		305103,
+		305104,
+		305105,
+		305106,
+		305107,
+		305108,
+		305109,
+		305110,
+		305111,
+		305112,
+		305113,
+		305114,
+		305115,
+		305116,
+		305117,
+		305118,
+		305119,
+		305301,
+		305302,
+		305303,
+		305304,
+		305305,
+		305306
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18031,6 +18149,52 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[266] = {
+		spine_extra = "",
+		describe = "暴風あかし城の景色が描かれる巻物。広げると壮麗？な景色を見ることができる。\n――「蒼閃忍法帖」に参加した指揮官に贈る",
+		gain_by = "蒼閃忍法帖",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "shanluanxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "暴風城絵巻",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 266,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"sk-az-battle-boss"
+			}
+		},
+		spine = {
+			{
+				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -21874,6 +22038,86 @@ pg.base.furniture_data_template = {
 					1,
 					1
 				}
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100055] = {
+		spine_extra = "",
+		describe = "変わり身の術を記す巻物。使用すると姿を隠せる…ピョ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "変わり身の巻物",
+		themeId = 0,
+		icon = "tishenjuanzhouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100055,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tishenjuanzhouB",
+				"normal"
+			},
+			{
+				"tishenjuanzhouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand2"
+					},
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
 			}
 		},
 		followBone = {
@@ -134663,6 +134907,1141 @@ pg.base.furniture_data_template = {
 		can_rotate = 0,
 		size = {
 			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305001] = {
+		spine_extra = "",
+		describe = "忍の日常を体験したい？忍屋敷に今すぐ申し込みを！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "忍屋敷の床",
+		effect = "",
+		advice = 0,
+		icon = "dibanslicon",
+		spine_action_replace = "",
+		picture = "sl/dibansl",
+		comfortable = 4,
+		canputon = 0,
+		id = 305001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305002] = {
+		spine_extra = "",
+		describe = "忍の日常を体験したい？忍屋敷に今すぐ申し込みを！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "忍屋敷壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbislicon",
+		spine_action_replace = "",
+		picture = "sl/qiangbisl",
+		comfortable = 4,
+		canputon = 0,
+		id = 305002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305101] = {
+		spine_extra = "",
+		describe = "ティータイムだよ～ミルクティーは早い者勝ちだからね！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "aizhuoslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍ローテーブル",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/aizhuosl",
+		canputon = 0,
+		id = 305101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305102] = {
+		spine_extra = "",
+		describe = "忍からプレゼントされたゴージャスな置物。べべたんが……笑っている？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "beibeidiaoxiangslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "べべたん像",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/beibeidiaoxiangsl",
+		canputon = 0,
+		id = 305102,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305103] = {
+		spine_extra = "",
+		describe = "隠れ身の術を練習するのに最高なオブジェクト！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "caocongslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "影隠れブッシュ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/caocongsl",
+		canputon = 0,
+		id = 305103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305104] = {
+		spine_extra = "",
+		describe = "様々な忍アイテムが収納されている家具。気安く開けないように！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "choutiguislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍引き出し",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/choutiguisl",
+		canputon = 0,
+		id = 305104,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305105] = {
+		spine_extra = "",
+		describe = "意外と頑丈な竹垣！これが…忍術か？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "dalanganslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "竹垣・高",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/dalangansl",
+		canputon = 0,
+		id = 305105,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305106] = {
+		spine_extra = "",
+		describe = "開けるには特別な忍術が必要？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangzislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "開けぬ引き戸",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/fangzisl",
+		canputon = 0,
+		id = 305106,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27,
+					-25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305107] = {
+		spine_extra = "",
+		describe = "影隠れブッシュの強化版。トゲトゲに気をつけよう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huacongslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "影隠れフラワーブッシュ",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/huacongsl",
+		canputon = 0,
+		id = 305107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305108] = {
+		spine_extra = "",
+		describe = "窓は……床に？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mudidian1slicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "床の隠し扉",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/mudidian1sl",
+		canputon = 0,
+		id = 305108,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305109] = {
+		spine_extra = "",
+		describe = "フレッシュでナチュラル。見て目麗しくも歩きづらい",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の石小路",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/shitousl",
+		canputon = 0,
+		id = 305109,
+		can_rotate = 0,
+		size = {
+			4,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305110] = {
+		spine_extra = "",
+		describe = "忍術の教科書がいっぱい！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "shuguislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の本棚",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/shuguisl",
+		canputon = 0,
+		id = 305110,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305111] = {
+		spine_extra = "",
+		describe = "横になったらすぐ寝てしまいそう…Zzzzz",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "tatamislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の緑畳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/tatamisl",
+		canputon = 0,
+		id = 305111,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305112] = {
+		spine_extra = "",
+		describe = "屋敷の庭園でよく見かける石灯籠",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "tingzislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の石灯篭",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/tingzisl",
+		canputon = 0,
+		id = 305112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305113] = {
+		spine_extra = "",
+		describe = "お湯は一体どこから湧き出ているの……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wenquanslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の露天風呂",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/wenquansl",
+		canputon = 0,
+		id = 305113,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					104.3,
+					-100.6
+				},
+				{
+					-1,
+					1
+				},
+				"sl/wenquansl_using",
+				0,
+				{
+					{
+						0,
+						0
+					},
+					{
+						884,
+						440
+					},
+					"sl/wenquansl_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305114] = {
+		spine_extra = "",
+		describe = "意外と頑丈な竹垣！これも忍術と関係あるの…？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaolanganslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "竹垣・低",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/xiaolangansl",
+		canputon = 0,
+		id = 305114,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305115] = {
+		spine_extra = "",
+		describe = "出会いは曲がり角から！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuanjiaoslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "曲がり角の縁側",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/zhuanjiaosl",
+		canputon = 0,
+		id = 305115,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305116] = {
+		spine_extra = "",
+		describe = "順番通りに座って～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zoulangslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍屋敷の縁側",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/zoulangsl",
+		canputon = 0,
+		id = 305116,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-39.6,
+					11.8
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					64,
+					64
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305117] = {
+		spine_extra = "",
+		describe = "丁寧に仕上がり、柔らかくいい座り心地！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuodianslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍の座布団",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/zuodiansl",
+		canputon = 0,
+		id = 305117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305118] = {
+		spine_extra = "",
+		describe = "忍術で操縦できる引き戸なり！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanglamenslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍引き戸",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305118,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanglamensl",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305119] = {
+		spine_extra = "",
+		describe = "部屋の中で変な術を放たないでください！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mudidian2slicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "忍屋敷フローリング",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/mudidian2sl",
+		canputon = 0,
+		id = 305119,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305301] = {
+		spine_extra = "",
+		describe = "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenchunslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "春の引き戸",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenchunsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305302] = {
+		spine_extra = "",
+		describe = "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenxiaslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "夏の引き戸",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenxiasl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305303] = {
+		spine_extra = "",
+		describe = "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenqiuslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "秋の引き戸",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenqiusl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305304] = {
+		spine_extra = "",
+		describe = "季節シリーズの引き戸。向こうにどんな風景が見えるのかな？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamendongslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "冬の引き戸",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamendongsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305305] = {
+		spine_extra = "",
+		describe = "扉だと分かるまい……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "lamensl",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "フスマの隠し扉",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/lamensl",
+		canputon = 0,
+		id = 305305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305306] = {
+		spine_extra = "",
+		describe = "えへへ～見えないよ～",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "huwaiicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "隠れ身の壁紙",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/huwaisl",
+		canputon = 0,
+		id = 305306,
+		can_rotate = 0,
+		size = {
+			4,
 			0
 		},
 		offset = {},

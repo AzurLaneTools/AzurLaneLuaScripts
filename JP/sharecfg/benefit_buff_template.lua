@@ -153,7 +153,19 @@ pg.benefit_buff_template = setmetatable({
 		300097,
 		300098,
 		300099,
-		300100
+		300100,
+		300101,
+		300102,
+		300103,
+		300104,
+		300105,
+		300106,
+		300107,
+		300108,
+		300109,
+		300110,
+		300111,
+		300112
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2970,6 +2982,222 @@ pg.base.benefit_buff_template = {
 			286,
 			5000,
 			1000000000000.0
+		}
+	},
+	[300101] = {
+		type_priority = 0,
+		name = "艦船経験値向上Ⅰ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージで、味方キャラが入手する経験値が2%アップ",
+		benefit_effect = "2",
+		id = 300101,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300102] = {
+		type_priority = 0,
+		name = "艦船経験値向上Ⅱ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージで、味方キャラが入手する経験値が4%アップ",
+		benefit_effect = "4",
+		id = 300102,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300103] = {
+		type_priority = 0,
+		name = "艦船経験値向上Ⅲ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージで、味方キャラが入手する経験値が5%アップ",
+		benefit_effect = "5",
+		id = 300103,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300104] = {
+		type_priority = 0,
+		name = "与ダメージ増加Ⅰ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが1%アップ",
+		benefit_effect = "500",
+		id = 300104,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300105] = {
+		type_priority = 0,
+		name = "与ダメージ増加Ⅱ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが2%アップ",
+		benefit_effect = "502",
+		id = 300105,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300106] = {
+		type_priority = 0,
+		name = "与ダメージ増加Ⅲ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが3%アップ",
+		benefit_effect = "504",
+		id = 300106,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300107] = {
+		type_priority = 0,
+		name = "スキル強化時間短縮Ⅰ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦術教室でのスキル強化所要時間が2%短縮",
+		benefit_effect = "200",
+		id = 300107,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300108] = {
+		type_priority = 0,
+		name = "スキル強化時間短縮Ⅱ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦術教室でのスキル強化所要時間が4%短縮",
+		benefit_effect = "400",
+		id = 300108,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300109] = {
+		type_priority = 0,
+		name = "スキル強化時間短縮Ⅲ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦術教室でのスキル強化所要時間が5%短縮",
+		benefit_effect = "500",
+		id = 300109,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300110] = {
+		type_priority = 0,
+		name = "寮舎経験値向上Ⅰ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "寮舎での経験値入手量が2%アップ",
+		benefit_effect = "2",
+		id = 300110,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300111] = {
+		type_priority = 0,
+		name = "寮舎経験値向上Ⅱ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "寮舎での経験値入手量が4%アップ",
+		benefit_effect = "4",
+		id = 300111,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300112] = {
+		type_priority = 0,
+		name = "寮舎経験値向上Ⅲ",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "寮舎での経験値入手量が5%アップ",
+		benefit_effect = "5",
+		id = 300112,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
 		}
 	}
 }

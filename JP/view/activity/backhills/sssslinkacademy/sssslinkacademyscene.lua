@@ -79,7 +79,7 @@ function slot0.UpdateView(slot0)
 
 	setActive(slot0.upper_xiaoyouxi:Find("tip"), uv0.IsMiniActNeedTip(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and slot3.id))
 	setActive(slot0.upper_huodongye:Find("tip"), slot1:getActivityById(ActivityConst.SSSS_PT) and slot5:readyToAchieve())
-	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
+	setActive(slot0.upper_jinianzhang:Find("tip"), uv0.MedalTip())
 	setActive(slot0.upper_huoyuehuodong:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and slot8:readyToAchieve())
 end
 
@@ -87,14 +87,16 @@ function slot0.willExit(slot0)
 	slot0:clearStudents()
 end
 
+function slot0.MedalTip()
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+end
+
 function slot0.IsShowMainTip(slot0)
 	slot1 = getProxy(ActivityProxy)
 
 	return (function ()
 		return Activity.IsActivityReady(uv0:getActivityById(ActivityConst.SSSS_PT))
-	end)() or (function ()
-		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
-	end)() or (function ()
+	end)() or uv0.MedalTip()() or (function ()
 		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 	end)() or (function ()
 		return Activity.IsActivityReady(uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY))

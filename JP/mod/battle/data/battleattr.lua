@@ -265,6 +265,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	slot3.oxyMax = slot1.oxy_max
 	slot3.oxyCost = slot1.oxy_cost
 	slot3.oxyRecovery = slot1.oxy_recovery
+	slot3.oxyRecoverySurface = slot1.oxy_recovery_surface
 	slot3.oxyRecoveryBench = slot1.oxy_recovery_bench
 	slot3.oxyAtkDuration = slot1.attack_duration
 	slot3.raidDist = slot1.raid_distance

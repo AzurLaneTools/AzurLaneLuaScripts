@@ -1834,7 +1834,20 @@ function temp()
 		["レ"] = {
 			["バ"] = {
 				["ス"] = {
-					this = true
+					this = true,
+					["("] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										[")"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -4903,6 +4916,9 @@ function temp()
 		},
 		["張"] = {
 			this = true
+		},
+		["焼"] = {
+			this = true
 		}
 	}
 end
@@ -4923,6 +4939,14 @@ function temp()
 	uv0["雪"] = {
 		["風"] = {
 			this = true
+		},
+		["泉"] = {
+			this = true
+		},
+		["不"] = {
+			["帰"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5994,6 +6018,7 @@ function temp()
 			}
 		},
 		["鳥"] = {
+			this = true,
 			["川"] = {
 				["ち"] = {
 					["せ"] = {
@@ -6816,6 +6841,9 @@ function temp()
 					}
 				}
 			}
+		},
+		this = {
+			this = true
 		}
 	}
 end
@@ -6973,6 +7001,26 @@ temp()
 function temp()
 	uv0["ひ"] = {
 		["め"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["斑"] = {
+		["鳩"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["焔"] = {
+		this = {
 			this = true
 		}
 	}

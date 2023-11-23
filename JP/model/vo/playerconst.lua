@@ -80,7 +80,7 @@ function slot4(slot0, slot1, slot2)
 				Item.New({
 					type = DROP_TYPE_RESOURCE,
 					id = slot1.resource_type,
-					count = slot1.resource_num * (slot0.number or slot0.count),
+					count = slot1.resource_num * slot0.count,
 					name = getDropName({
 						type = DROP_TYPE_RESOURCE,
 						id = slot1.resource_type
@@ -97,11 +97,7 @@ function slot4(slot0, slot1, slot2)
 			for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot4)) do
 				if pg.battlepass_event_pt[slot5.id].pt == slot0.id then
 					return {
-						Item.New({
-							type = slot0.type,
-							id = slot0.id,
-							count = slot0.number or slot0.count
-						})
+						Item.New(slot0)
 					}
 				end
 			end
@@ -111,16 +107,12 @@ function slot4(slot0, slot1, slot2)
 				Item.New({
 					count = 1,
 					type = slot0.type,
-					id = slot0.number or slot0.count
+					id = slot0.count
 				})
 			}
 		end,
 		[DROP_TYPE_VITEM] = function (slot0, slot1, slot2)
-			assert(Item.New({
-				type = slot0.type,
-				id = slot0.id,
-				count = slot0.number or slot0.count
-			}):getConfig("type") == 0, "item type error:must be virtual type from " .. slot3.id)
+			assert(Item.New(slot0):getConfig("type") == 0, "item type error:must be virtual type from " .. slot3.id)
 
 			return switch(slot3:getConfig("virtual_type"), {
 				function ()
@@ -186,11 +178,7 @@ function slot4(slot0, slot1, slot2)
 					table.remove(slot1, slot2)
 				else
 					slot3 = Player.metaShip2Res(slot0.id)
-					slot4 = Item.New({
-						type = slot0.type,
-						id = slot0.id,
-						count = slot0.number or slot0.count
-					})
+					slot4 = Item.New(slot0)
 					slot5 = Item.New({
 						type = slot3[1].type,
 						id = slot3[1].id,
@@ -212,25 +200,17 @@ function slot4(slot0, slot1, slot2)
 					count = 1,
 					type = DROP_TYPE_ITEM,
 					id = slot0.id,
-					extra = slot0.count or slot0.number
+					extra = slot0.count
 				})
 			}
 		end,
 		[DROP_TYPE_RYZA_DROP] = function (slot0)
 			return {
-				Item.New({
-					type = slot0.type,
-					id = slot0.id,
-					count = slot0.number or slot0.count
-				})
+				Item.New(slot0)
 			}
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
-			slot1 = Item.New({
-				type = slot0.type,
-				id = slot0.id,
-				count = slot0.number or slot0.count
-			})
+			slot1 = Item.New(slot0)
 			slot1.isNew = not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot0.id)
 
 			return {
@@ -240,11 +220,7 @@ function slot4(slot0, slot1, slot2)
 	}
 
 	return unpack(switch(slot0.type, uv0, nil, slot0, slot1, slot2) or {
-		Item.New({
-			type = slot0.type,
-			id = slot0.id,
-			count = slot0.number or slot0.count
-		})
+		Item.New(slot0)
 	}, 1, 2)
 end
 
@@ -258,7 +234,15 @@ function slot0.addTranDrop(slot0, slot1)
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot0) do
+	function slot8(slot0)
+		return {
+			type = slot0.type,
+			id = slot0.id,
+			count = slot0.number or slot0.count
+		}
+	end
+
+	for slot8, slot9 in ipairs(underscore.map(slot0, slot8)) do
 		slot10, slot11 = uv0(slot9, slot4, slot1)
 
 		if slot10 then

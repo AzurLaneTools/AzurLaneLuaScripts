@@ -197,6 +197,11 @@ pg.task_meta_data_template = setmetatable({
 		100123,
 		100124,
 		100125,
+		100131,
+		100132,
+		100133,
+		100134,
+		100135,
 		200001,
 		200002,
 		200003,
@@ -244,7 +249,11 @@ pg.task_meta_data_template = setmetatable({
 		200121,
 		200122,
 		200123,
-		200124
+		200124,
+		200131,
+		200132,
+		200133,
+		200134
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1809,6 +1818,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100131] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "エレバス(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100132] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "エレバス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100132,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100133] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "エレバス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100133,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100134] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "エレバス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100134,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100135] = {
+		target_id_2 = "971301",
+		sub_type = 180,
+		desc = "エレバス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100135,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2190,6 +2239,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200124,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200131] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊で1回勝利する",
+		id = 200131,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200132] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200132,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200133] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200133,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200134] = {
+		target_id_2 = "971301",
+		sub_type = 302,
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200134,
 		target_num = 1,
 		target_id = "100"
 	}

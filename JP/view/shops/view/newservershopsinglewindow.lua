@@ -14,23 +14,19 @@ function slot0.InitWindow(slot0, slot1, slot2)
 
 		uv3:Close()
 	end, SFX_CANCEL)
-	updateDrop(slot0.itemTF, slot3)
+	updateDrop(slot0.itemTF:Find("left/IconTpl"), slot3)
+	UpdateOwnDisplay(slot0.itemOwnTF, slot3)
+	RegisterDetailButton(slot0, slot0.itemDetailTF, slot3)
 
-	slot4, slot5 = GetOwnedDropCount(slot3)
+	slot4 = slot3.type == DROP_TYPE_SHIP
 
-	setActive(slot0.itemOwnTF.parent, slot5)
-	setText(slot0.itemOwnTF, slot4)
-	setText(slot0.itemOwnLabelTF, i18n("word_own1"))
+	SetActive(slot0.itemTF:Find("ship_group"), slot4)
 
-	slot6 = slot3.type == DROP_TYPE_SHIP
+	if slot4 then
+		slot6 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot3.id].group_type))
 
-	SetActive(slot0.itemTF:Find("ship_group"), slot6)
-
-	if slot6 then
-		slot8 = tobool(getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot3.id].group_type))
-
-		SetActive(slot7:Find("unlocked"), slot8)
-		SetActive(slot7:Find("locked"), not slot8)
+		SetActive(slot5:Find("unlocked"), slot6)
+		SetActive(slot5:Find("locked"), not slot6)
 	end
 
 	slot0.descTF.text = slot3.desc or slot3.cfg.desc

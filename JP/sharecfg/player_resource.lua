@@ -1190,6 +1190,26 @@ pg.player_resource = {
 		name = "commission_pt3",
 		itemid = 59501
 	},
+	[380] = {
+		id = 380,
+		name = "shanluan_pt",
+		itemid = 59506
+	},
+	[381] = {
+		id = 381,
+		name = "shanluan_mission_pt",
+		itemid = 59508
+	},
+	[382] = {
+		id = 382,
+		name = "skinTicket60",
+		itemid = 59509
+	},
+	[383] = {
+		id = 383,
+		name = "newserver_pt_231123",
+		itemid = 59512
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1464,6 +1484,11 @@ pg.player_resource = {
 		id = 4013,
 		name = "Battlepass_13",
 		itemid = 59493
+	},
+	[4014] = {
+		id = 4014,
+		name = "Battlepass_14",
+		itemid = 59510
 	},
 	[4186] = {
 		id = 4186,
@@ -2220,6 +2245,18 @@ pg.player_resource = {
 		commission_pt3 = {
 			379
 		},
+		shanluan_pt = {
+			380
+		},
+		shanluan_mission_pt = {
+			381
+		},
+		skinTicket60 = {
+			382
+		},
+		newserver_pt_231123 = {
+			383
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2384,6 +2421,9 @@ pg.player_resource = {
 		},
 		Battlepass_13 = {
 			4013
+		},
+		Battlepass_14 = {
+			4014
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2649,6 +2689,10 @@ pg.player_resource = {
 		377,
 		378,
 		379,
+		380,
+		381,
+		382,
+		383,
 		950,
 		951,
 		952,
@@ -2704,6 +2748,7 @@ pg.player_resource = {
 		4011,
 		4012,
 		4013,
+		4014,
 		4186,
 		4276,
 		4599,

@@ -6179,7 +6179,7 @@ pg.activity_template = {
 	},
 	[5072] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -6187,34 +6187,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 5072,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 5072
 	},
 	[5073] = {
 		mark = 20231109,
@@ -6372,12 +6346,13 @@ pg.activity_template = {
 	},
 	[5077] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5077,
 		config_data = {
@@ -6387,33 +6362,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5078] = {
@@ -6530,32 +6478,24 @@ pg.activity_template = {
 			}
 		}
 	},
-	[7011] = {
-		mark = 20230525,
-		id = 7011,
-		title_res_tag = "CrusingDisplayAct",
-		type = 54,
+	[5090] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
 		login_pop = 0,
-		config_id = 0,
-		is_show = 14,
-		config_data = {
-			101,
-			102,
-			103,
-			104,
-			105,
-			106,
-			107,
-			108,
-			109
-		},
+		config_id = 380,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 5090,
 		time = {
 			"timer",
 			{
 				{
 					2023,
-					6,
-					1
+					11,
+					23
 				},
 				{
 					0,
@@ -6566,8 +6506,8 @@ pg.activity_template = {
 			{
 				{
 					2023,
-					7,
-					31
+					12,
+					13
 				},
 				{
 					23,
@@ -6575,6 +6515,944 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[5091] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5091,
+		config_data = {
+			1777001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5092] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5092,
+		config_data = {
+			19464,
+			19465,
+			19466,
+			19467,
+			19449
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5093] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5093,
+		config_data = {
+			70158,
+			70161,
+			70162,
+			70159,
+			70160,
+			70163,
+			70164
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5094] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5094,
+		config_data = {
+			19469,
+			19470,
+			19471,
+			19472,
+			19473,
+			19474,
+			19475,
+			19476,
+			19477,
+			19478,
+			19479,
+			19480,
+			19481,
+			19482,
+			19483,
+			19484,
+			19485,
+			19486,
+			19487,
+			19488,
+			19489,
+			19490,
+			19491,
+			19492,
+			19493,
+			19494,
+			19495,
+			19496,
+			19497,
+			19498,
+			19499,
+			19500,
+			19501,
+			19502,
+			19503,
+			19504,
+			19505,
+			19506,
+			19507,
+			19508,
+			19509,
+			19510,
+			19511,
+			19512,
+			19513,
+			19514,
+			19515,
+			19516,
+			19517,
+			19518,
+			19519,
+			19520,
+			19521,
+			19522,
+			19523,
+			19524,
+			19525,
+			19526,
+			19527,
+			19528,
+			19529,
+			19530,
+			19531,
+			19532,
+			19533,
+			19534,
+			19535,
+			19536
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			pt_id = 381,
+			player_task = {
+				{
+					19469,
+					19470,
+					19471,
+					19472,
+					19473,
+					19474,
+					19475,
+					19476,
+					19477,
+					19478,
+					19479,
+					19480
+				},
+				{
+					19481,
+					19482,
+					19483,
+					19484,
+					19485,
+					19486,
+					19487,
+					19488,
+					19489,
+					19490,
+					19491
+				},
+				{
+					19492,
+					19493,
+					19494,
+					19495,
+					19496,
+					19497,
+					19498,
+					19499,
+					19500,
+					19501,
+					19502,
+					19503,
+					19504
+				},
+				{
+					19505,
+					19506,
+					19507,
+					19508,
+					19509,
+					19510,
+					19511,
+					19512
+				},
+				{
+					19513,
+					19514,
+					19515,
+					19516,
+					19517,
+					19518,
+					19519,
+					19520
+				},
+				{
+					19521,
+					19522,
+					19523,
+					19524,
+					19525,
+					19526,
+					19527,
+					19528
+				},
+				{
+					19529,
+					19530,
+					19531,
+					19532,
+					19533,
+					19534,
+					19535,
+					19536
+				}
+			},
+			buff = {
+				{
+					pt = {
+						15,
+						30
+					},
+					benefit = {
+						300101,
+						300104,
+						300107,
+						300110
+					}
+				},
+				{
+					pt = {
+						30,
+						45
+					},
+					benefit = {
+						300102,
+						300105,
+						300108,
+						300111
+					}
+				},
+				{
+					pt = {
+						45,
+						1000
+					},
+					benefit = {
+						300103,
+						300106,
+						300109,
+						300112
+					}
+				}
+			}
+		}
+	},
+	[5095] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5095,
+		config_data = {
+			300101,
+			300102,
+			300103,
+			300104,
+			300105,
+			300106,
+			300107,
+			300108,
+			300109,
+			300110,
+			300111,
+			300112
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "SENRANKAGURA_BACKHILL",
+			ships = {
+				"feiniao",
+				"banjiu",
+				"yan",
+				"xuequan",
+				"xuebugui",
+				"zi_shanluan",
+				"xishao",
+				"xiao",
+				"linuo",
+				"wudao",
+				"yuhei",
+				"lei",
+				"dian"
+			}
+		}
+	},
+	[5096] = {
+		mark = 20231123,
+		config_client = "",
+		title_res_tag = "senrankagura_task",
+		type = 61,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 47,
+		id = 5096,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SenrankaguraTaskPage",
+			ui_name = "SenrankaguraTaskPage"
+		}
+	},
+	[5097] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5097,
+		config_data = {
+			2329,
+			2330,
+			2331,
+			2332,
+			2333,
+			2334,
+			2335,
+			2336,
+			2337,
+			2338,
+			2339,
+			2340,
+			2341,
+			2342,
+			2343,
+			2344,
+			2345,
+			2346,
+			2347,
+			2348,
+			2349,
+			2350,
+			2351,
+			2352,
+			2353,
+			2354,
+			2355,
+			2356
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_senran",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "banjiu_pt",
+			pt_id = 380,
+			bgm = "sk-az-pv1",
+			enter = {
+				{
+					"cv-1100002/shop1",
+					"cv-1100002/shop3"
+				},
+				{
+					"いらっしゃいませ、指揮官。ゆっくり見ていってください",
+					"こんにちは指揮官。わざわざお越し頂き、ありがとうございます"
+				}
+			},
+			purchase = {
+				{
+					"cv-1100002/shop5",
+					"cv-1100002/shop6"
+				},
+				{
+					"毎度ありがとうございます。またごひいきに",
+					"お気に召した商品があって、とても嬉しいです"
+				}
+			},
+			purchase_all = {
+				"cv-1100002/shop7",
+				"申し訳ありません。そちらの商品ですが、現在完売しておりまして……"
+			},
+			touch = {
+				{
+					"cv-1100002/shop9",
+					"cv-1100002/shop10"
+				},
+				{
+					"わたくしに何かご用でしょうか？",
+					"気になる商品などありましたら、遠慮なくお声がけください"
+				}
+			}
+		}
+	},
+	[5098] = {
+		mark = 20231123,
+		config_client = "",
+		title_res_tag = "senrankagura_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5098,
+		is_show = 48,
+		id = 5098,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SenrankaguraPtPage",
+			ui_name = "SenrankaguraPtPage"
+		}
+	},
+	[5099] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 107,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		id = 5099,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			words_key = {
+				"senran_pt_words_feiniao",
+				"senran_pt_words_banjiu",
+				"senran_pt_words_yan",
+				"senran_pt_words_xuequan",
+				"senran_pt_words_xuebugui",
+				"senran_pt_words_zi",
+				"senran_pt_words_xishao"
+			},
+			stand_anim = {
+				"banjiu",
+				"feiniao",
+				"xishao",
+				"xuebugui",
+				"xuequan",
+				"yan",
+				"zi_shanluan"
+			},
+			show_list = {
+				{
+					"xuan_1",
+					"xuan_2"
+				},
+				{
+					"yin_1",
+					"yin_2"
+				},
+				{
+					"yang_1",
+					"yang_2"
+				},
+				{
+					"shan_1",
+					"shan_2"
+				},
+				{
+					"liao_1",
+					"liao_2"
+				}
+			}
+		}
+	},
+	[5100] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31952,100}]",
+		config_client = "",
+		id = 5100,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5101] = {
+		mark = 20231123,
+		id = 5101,
+		title_res_tag = "senrankagura_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		config_data = {
+			1770001,
+			1770002,
+			1770003,
+			1770004,
+			1770005,
+			1770021,
+			1770022,
+			1770023,
+			1770024,
+			1770025,
+			1770041,
+			1770051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SenrankaguraMainPage",
+			ui_name = "SenrankaguraMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5102] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5102,
+		config_data = {
+			418,
+			419,
+			420,
+			421,
+			422,
+			423,
+			424
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5103] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 5103,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "飛鳥、雪泉、雪不帰など出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>飛鳥</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>雪泉</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>雪不帰</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>斑鳩</color>：0.5%",
+				" ",
+				"<color=#d797ff>夕焼</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[7011] = {
+		mark = 20230525,
+		title_res_tag = "CrusingDisplayAct",
+		time = "stop",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		id = 7011,
+		config_data = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109
 		},
 		page_info = {
 			class_name = "CrusingDisplayActPage",
@@ -6614,12 +7492,13 @@ pg.activity_template = {
 	},
 	[7012] = {
 		mark = 20230720,
-		id = 7012,
 		title_res_tag = "CrusingDisplayAct",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 14,
+		id = 7012,
 		config_data = {
 			111,
 			112,
@@ -6630,33 +7509,6 @@ pg.activity_template = {
 			117,
 			118,
 			119
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "CrusingDisplayActPage",
@@ -6772,6 +7624,205 @@ pg.activity_template = {
 					9,
 					2052,
 					1
+				}
+			}
+		}
+	},
+	[7014] = {
+		mark = 20231123,
+		id = 7014,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage14"
+		},
+		config_client = {
+			map_name = "map_202312",
+			spine_name = "chess_chuchun",
+			tips = {
+				"battlepass_main_tip_2312",
+				"battlepass_main_help_2312",
+				"cruise_task_help_2312"
+			},
+			equip_skin = {
+				{
+					9,
+					2053,
+					1
+				},
+				{
+					9,
+					2054,
+					1
+				},
+				{
+					9,
+					2055,
+					1
+				},
+				{
+					9,
+					2056,
+					1
+				}
+			}
+		}
+	},
+	[8050] = {
+		mark = 20231123,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		type = 3,
+		login_pop = 0,
+		config_id = 49,
+		is_show = 49,
+		id = 8050,
+		config_data = {},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2023,
+						11,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2023,
+						11,
+						23
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2023,
+						12,
+						14
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewServerLoginPage",
+			ui_name = "NewServerLoginPage"
+		}
+	},
+	[8051] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8051,
+		config_data = {
+			103
+		},
+		time = {
+			{
+				"olduser",
+				{
+					{
+						2023,
+						11,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2023,
+						11,
+						23
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2023,
+						12,
+						14
+					},
+					{
+						23,
+						59,
+						59
+					}
 				}
 			}
 		}
@@ -9553,9 +10604,26 @@ pg.activity_template = {
 		5077,
 		5078,
 		5079,
+		5090,
+		5091,
+		5092,
+		5093,
+		5094,
+		5095,
+		5096,
+		5097,
+		5098,
+		5099,
+		5100,
+		5101,
+		5102,
+		5103,
 		7011,
 		7012,
 		7013,
+		7014,
+		8050,
+		8051,
 		2001,
 		2002,
 		2003,

@@ -136,6 +136,14 @@ pg.item_data_chat = {
 		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.11.01-23.11.30）</color></size>",
 		scene = {}
 	},
+	[10007] = {
+		time_limit_type = 0,
+		name = "限界挑戦・いて座",
+		id = 10007,
+		time_second = 0,
+		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.12.01-23.12.31）</color></size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -153,6 +161,7 @@ pg.item_data_chat = {
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007
 	}
 }

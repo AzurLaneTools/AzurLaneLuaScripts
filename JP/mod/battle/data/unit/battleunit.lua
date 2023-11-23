@@ -1436,6 +1436,7 @@ function slot9.InitOxygen(slot0)
 	slot0._currentOxy = slot0:GetAttrByName("oxyMax")
 	slot0._oxyRecovery = slot0:GetAttrByName("oxyRecovery")
 	slot0._oxyRecoveryBench = slot0:GetAttrByName("oxyRecoveryBench")
+	slot0._oxyRecoverySurface = slot0:GetAttrByName("oxyRecoverySurface")
 	slot0._oxyConsume = slot0:GetAttrByName("oxyCost")
 	slot0._oxyState = uv0.Battle.OxyState.New(slot0)
 
@@ -1462,7 +1463,11 @@ end
 
 function slot9.OxyRecover(slot0, slot1)
 	slot2 = nil
-	slot0._currentOxy = math.min(slot0._maxOxy, slot0._currentOxy + ((not slot1 or slot0._oxyRecoveryBench) and slot0._oxyRecovery) * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
+	slot2 = (slot1 ~= uv0.Battle.OxyState.STATE_FREE_BENCH or slot0._oxyRecoveryBench) and (slot1 ~= uv0.Battle.OxyState.STATE_FREE_FLOAT or slot0._oxyRecovery) and slot0._oxyRecoverySurface
+
+	print(slot1, slot2)
+
+	slot0._currentOxy = math.min(slot0._maxOxy, slot0._currentOxy + slot2 * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
 end
 
 function slot9.OxyConsume(slot0)

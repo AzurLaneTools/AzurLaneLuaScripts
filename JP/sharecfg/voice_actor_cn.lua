@@ -1495,5 +1495,9 @@ pg.voice_actor_CN = {
 	[387] = {
 		code = 387,
 		actor_name = "葉山いくみ"
+	},
+	[388] = {
+		code = 388,
+		actor_name = "原田ひとみ"
 	}
 }

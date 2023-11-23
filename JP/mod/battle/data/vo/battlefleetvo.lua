@@ -146,7 +146,7 @@ function slot8.RandomMainVictim(slot0, slot1)
 		slot9 = true
 
 		for slot13, slot14 in ipairs(slot1) do
-			if slot8:GetAttrByName(slot14) == 1 then
+			if slot8:GetAttrByName(slot14) >= 1 then
 				slot9 = false
 
 				break

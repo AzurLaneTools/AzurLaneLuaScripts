@@ -104,6 +104,12 @@ function slot0.execute(slot0, slot1)
 						end
 
 						uv0:doRetreat()
+
+						if not uv1.id then
+							slot4 = Clone(uv0.chapter)
+
+							uv0.chapter:CleanLevelData()
+						end
 					elseif uv1.type == ChapterConst.OpStory then
 						uv0:doCollectAI()
 						uv0:doPlayStory()
@@ -157,9 +163,8 @@ function slot0.execute(slot0, slot1)
 					oldLine = uv1.ordLine,
 					win = uv1.win,
 					teleportPaths = uv0.teleportPaths,
-					chapterVO = uv0.chapter,
 					extendData = slot3,
-					finalChapterVO = slot4
+					finalChapterLevelData = slot4
 				})
 			end
 		else
