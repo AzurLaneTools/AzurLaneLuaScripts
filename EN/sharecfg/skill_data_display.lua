@@ -12538,7 +12538,7 @@ pg.base.skill_data_display = {
 	},
 	[110172] = {
 		id = 110172,
-		name = "Root of Calamity Storm"
+		name = "Root of Calamity's Wrath"
 	},
 	[110174] = {
 		id = 110174,
@@ -12550,7 +12550,7 @@ pg.base.skill_data_display = {
 	},
 	[110182] = {
 		id = 110182,
-		name = "Root of Calamity Storm+"
+		name = "Root of Calamity's Wrath"
 	},
 	[110190] = {
 		id = 110190,

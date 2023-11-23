@@ -21017,7 +21017,7 @@ Cruise Missions Seasonal Campaign
 - Overview -
 "Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
 Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
-Erebus META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for U-410, "Practice Makes Perfect"
+Erebus META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Hatsuharu, "Hatsuharu's Cat Café Caper"
 
 - How to Play -
 · Two types of missions will be released at the same time at the start of the campaign season:
@@ -26582,7 +26582,12 @@ _G.pg.base.gametip.senran_pt_not_enough = {
 _G.pg.base.gametip.senran_pt_help = {
 	tip = {
 		{
-			info = "This event is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n1. Participate in The Ninja Scrolls, complete tasks on the Mission Board, and finish time-limited missions to receive <color=#92fc63>Ninja Teachings</color>.2. Spend your Ninja Teachings in the Ninjutsu Dojo and increase the attribute level to 8 to receive rewards, including <color=#92fc63>Homura</color>, an SR Submarine.3. Homura is claimable until <color=#92fc63>midnight on December 13th.</color>"
+			info = [[
+This event is available between <color=#92fc63>November 23rd and December 6th.</color>
+
+1. Participate in The Ninja Scrolls, complete tasks on the Mission Board, and finish time-limited missions to receive <color=#92fc63>Ninja Teachings</color>.
+2. Spend your Ninja Teachings in the Ninjutsu Dojo and increase the attribute level to 8 to receive rewards, including <color=#92fc63>Homura</color>, an SR Submarine.
+3. Homura is claimable until <color=#92fc63>midnight on December 13th.</color>]]
 		}
 	}
 }

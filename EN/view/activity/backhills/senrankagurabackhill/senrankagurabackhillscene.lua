@@ -86,7 +86,7 @@ function slot0.willExit(slot0)
 end
 
 function slot0.MedalTip()
-	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_MEDAL_ID)) or Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TASK_ID))
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_MEDAL_ID)) or SenrankaguraMedalScene.GetTaskCountAble()
 end
 
 function slot0.TaskTip()

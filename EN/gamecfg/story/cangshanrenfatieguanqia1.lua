@@ -486,35 +486,35 @@ return {
 			},
 			sequence = {
 				{
-					"Shinobis – they were shadows who lived long ago during the Warring States era.",
+					"<size=34>Shinobis – they were shadows who lived long ago during the Warring States era.</size>",
 					1
 				},
 				{
-					"They hid among crowds, they snooped, provoked, deceived, and assassinated.",
+					"<size=34>They hid among crowds, they snooped, provoked, deceived, and assassinated.</size>",
 					2
 				},
 				{
-					"Where there was dirty work, there were shinobis to undertake it.",
+					"<size=34>Where there was dirty work, there were shinobis to undertake it.</size>",
 					3
 				},
 				{
-					"As time went on, they disappeared from the public consciousness, becoming little more than legends.",
+					"<size=34>As time went on, they disappeared from the public consciousness, becoming little more than legends.</size>",
 					4
 				},
 				{
-					"But, though the people had forgotten them, the nature of man was still what it was.",
+					"<size=34>But, though the people had forgotten them, the nature of man was still what it was.</size>",
 					5
 				},
 				{
-					"Those who lived in the dark underworld were still needed.",
+					"<size=34>Those who lived in the dark underworld were still needed.</size>",
 					6
 				},
 				{
-					"Shinobis have continued to exist to this day.",
+					"<size=34>Shinobis have continued to exist to this day.</size>",
 					7
 				},
 				{
-					"And here, in a faraway land, a battle of theirs was beginning to unfold...",
+					"<size=34>And here, in a faraway land, a battle of theirs was beginning to unfold...</size>",
 					8
 				}
 			}

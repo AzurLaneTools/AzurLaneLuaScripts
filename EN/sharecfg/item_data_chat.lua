@@ -130,10 +130,10 @@ pg.item_data_chat = {
 	},
 	[10007] = {
 		time_limit_type = 0,
-		name = "Extreme Challenge – Sagittarius",
+		name = "Extreme Challenge - Sagittarius",
 		id = 10007,
 		time_second = 0,
-		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 11/1/23 - 11/30/23 Season.</color>",
+		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 12/1/23 - 12/31/23 Season.</color>",
 		scene = {}
 	},
 	all = {

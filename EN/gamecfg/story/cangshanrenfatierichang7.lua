@@ -834,7 +834,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "飞鸟",
+			actorName = "Asuka",
 			say = "White sands and blue waves – I'm coming for you!",
 			painting = {
 				alpha = 0.3,

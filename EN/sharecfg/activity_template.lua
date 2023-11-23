@@ -7894,7 +7894,23 @@ pg.activity_template = {
 		},
 		config_client = {
 			id = 4,
-			bg = "loadingbg/bg_build_4_act',rate_tip={'<color=#ffde38>Super Rare</color>: 7%','<color=#d797ff>Elite</color>: 12%','<color=#3dc6ff>Rare</color>: 51%','Normal: 30%','<color=#ffde38>Asuka</color>: 2.0% <color=#92FC63>(up!)</color>',' ','<color=#ffde38>Yumi</color>: 2.0% <color=#92FC63>(up!)</color>',' ','<color=#ffde38>Fubuki</color>: 2.0% <color=#92FC63>(up!)</color>',' ','<color=#ffde38>Ikaruga</color>: 0.5%',' ','<color=#d797ff>Yūyaki</color>: 2.5% <color=#92FC63>(up!)</color>'},buildship_tip='Rate UP for Asuka, Yumi, Fubuki, and more!"
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "Rate UP for Asuka, Yumi, Fubuki, and more!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Normal: 30%",
+				"<color=#ffde38>Asuka</color>: 2.0% <color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Yumi</color>: 2.0% <color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Fubuki</color>: 2.0% <color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Ikaruga</color>: 0.5%",
+				" ",
+				"<color=#d797ff>Yūyaki</color>: 2.5% <color=#92FC63>(up!)</color>"
+			}
 		}
 	},
 	[7011] = {

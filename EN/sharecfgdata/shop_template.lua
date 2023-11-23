@@ -21509,7 +21509,7 @@ _G.pg.base.shop_template[60451] = {
 	resource_type = 14,
 	genre = "gift_package",
 	type = 2,
-	desc = "Skill Book Pack",
+	desc = "1380钻石购买限时建造礼包高级（230427活动）",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 2,
@@ -21547,9 +21547,9 @@ _G.pg.base.shop_template[60451] = {
 		},
 		{
 			{
-				2023,
-				12,
-				13
+				2024,
+				4,
+				3
 			},
 			{
 				23,

@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 11000010,
+			actor = 11000011,
 			say = "Cute as all heck!",
 			painting = {
 				alpha = 0.3,

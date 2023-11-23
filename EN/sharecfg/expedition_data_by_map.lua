@@ -15780,7 +15780,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770003] = {
 		map = 1770003,
-		name = "The Ninja Scrolls: Azur Flash-SP|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -15824,7 +15824,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770004] = {
 		map = 1770004,
-		name = "The Ninja Scrolls: Azur Flash-EX|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

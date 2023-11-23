@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 303100,
-			say = "…………欸？",
+			say = "...Are you serious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
