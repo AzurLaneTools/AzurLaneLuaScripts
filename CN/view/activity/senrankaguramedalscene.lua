@@ -8,6 +8,59 @@ function slot0.getUIName(slot0)
 	return "SenrankaguraMedalUI"
 end
 
+function slot0.GetTaskCountAble()
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TASK_ID) then
+		return false
+	end
+
+	slot3 = {}
+	slot4 = 0
+
+	for slot8, slot9 in ipairs(pg.activity_template[slot0].config_client.player_task) do
+		for slot13, slot14 in ipairs(slot9) do
+			table.insert(slot3, slot14)
+		end
+	end
+
+	slot5 = nil
+
+	function slot5(slot0)
+		if not slot0 then
+			return true
+		end
+
+		slot2 = getProxy(TaskProxy):getFinishTaskById(slot0)
+
+		if not getProxy(TaskProxy):getTaskById(slot0) and not slot2 then
+			return false
+		end
+
+		slot3 = pg.task_data_template[slot0].activity_client_config.before
+
+		if slot1 and slot1:getTaskStatus() <= 0 then
+			return false
+		end
+
+		return uv0(slot3)
+	end
+
+	for slot9 = 1, #slot3 do
+		if getProxy(TaskProxy):getTaskById(slot3[slot9]) then
+			slot12 = pg.task_data_template[slot10].activity_client_config.before
+
+			if slot11:getTaskStatus() == 1 then
+				if not pg.task_data_template[slot10].activity_client_config.before then
+					slot4 = slot4 + 1
+				elseif slot5(slot13) then
+					slot4 = slot4 + 1
+				end
+			end
+		end
+	end
+
+	return slot4 > 0, slot4
+end
+
 function slot0.init(slot0)
 	slot0.activityId = ActivityConst.SENRANKAGURA_TASK_ID
 	slot0.taskActivity = getProxy(ActivityProxy):getActivityById(slot0.activityId)
@@ -45,10 +98,12 @@ function slot0.init(slot0)
 
 	slot1 = findTF(slot0._tf, "ad")
 	slot0.btnDetail = findTF(slot1, "btnDetail")
-	slot0.btnBack = findTF(slot1, "btnBack")
-	slot0.btnHelp = findTF(slot1, "btnHelp")
-	slot0.btnHome = findTF(slot1, "btnHome")
+	slot0.btnBack = findTF(slot1, "frame/btnBack")
+	slot0.btnHelp = findTF(slot1, "frame/btnHelp")
+	slot0.btnHome = findTF(slot1, "frame/btnHome")
+	slot0.hxTf = findTF(slot1, "hx")
 
+	setActive(slot0.hxTf, PLATFORM_CODE == PLATFORM_CH)
 	onButton(slot0, slot0.btnDetail, function ()
 		if uv0:getMedalGetAble() then
 			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
@@ -65,15 +120,12 @@ function slot0.init(slot0)
 	onButton(slot0, slot0.btnHome, function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_CONFIRM)
-
-	function slot5()
+	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip[uv0].tip
 		})
-	end
-
-	onButton(slot0, slot0.btnHelp, slot5, SFX_CONFIRM)
+	end, SFX_CONFIRM)
 
 	slot0.btnPlayers = {}
 
@@ -307,13 +359,13 @@ function slot0.initTaskListIds(slot0, slot1, slot2)
 end
 
 function slot0.initTaskPanel(slot0)
-	onButton(slot0, findTF(slot0.taskPanel, "ad/btnBack"), function ()
+	onButton(slot0, findTF(slot0.taskPanel, "ad/frame/btnBack"), function ()
 		setActive(uv0.taskPanel, false)
 	end, SOUND_BACK)
-	onButton(slot0, findTF(slot0.taskPanel, "ad/btnHome"), function ()
+	onButton(slot0, findTF(slot0.taskPanel, "ad/frame/btnHome"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_CONFIRM)
-	onButton(slot0, findTF(slot0.taskPanel, "ad/btnHelp"), function ()
+	onButton(slot0, findTF(slot0.taskPanel, "ad/frame/btnHelp"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip[uv0].tip
