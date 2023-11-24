@@ -94,7 +94,7 @@ return {
 				"onBulletKill"
 			},
 			arg_list = {
-				buff_id = 110014,
+				buff_id = 110230,
 				initialCD = true,
 				time = 10,
 				killer_weapon_id = {
@@ -111,7 +111,7 @@ return {
 				"onBulletKill"
 			},
 			arg_list = {
-				buff_id = 110015,
+				buff_id = 110231,
 				initialCD = true,
 				time = 10,
 				killer_weapon_id = {

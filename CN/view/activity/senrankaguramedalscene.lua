@@ -110,8 +110,10 @@ function slot0.init(slot0)
 				cmd = 1,
 				activity_id = ActivityConst.SENRANKAGURA_MEDAL_ID
 			})
-		else
+		elseif uv0.taskActivity then
 			uv0:openDetailPane()
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
 		end
 	end, SOUND_BACK)
 	onButton(slot0, slot0.btnBack, function ()
@@ -131,12 +133,15 @@ function slot0.init(slot0)
 
 	for slot5 = 1, uv0 do
 		slot6 = slot5
-		slot7 = findTF(slot1, "player/" .. slot5)
-		GetComponent(findTF(slot7, "img"), typeof(Image)).alphaHitTestMinimumThreshold = 0.5
+		GetComponent(findTF(findTF(slot1, "player/" .. slot5), "img"), typeof(Image)).alphaHitTestMinimumThreshold = 0.5
 
-		onButton(slot0, slot7, function ()
-			uv0:openTaskPanel(uv1)
-		end, SFX_CONFIRM)
+		if slot0.taskActivity then
+			onButton(slot0, slot7, function ()
+				uv0:openTaskPanel(uv1)
+			end, SFX_CONFIRM)
+		end
+
+		setActive(findTF(slot7, "redTip"), false)
 		table.insert(slot0.btnPlayers, slot7)
 	end
 
@@ -168,9 +173,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.updateUI(slot0)
-	slot1 = slot0:getMedalGetAble()
-
-	setActive(findTF(slot0.btnDetail, "detail"), not slot1)
+	setActive(findTF(slot0.btnDetail, "detail"), not slot0:getMedalGetAble() and slot0.taskActivity)
 	setActive(findTF(slot0.btnDetail, "get"), slot1)
 
 	slot3 = getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_MEDAL_ID)
@@ -201,6 +204,27 @@ function slot0.updateUI(slot0)
 	end
 
 	if slot0.taskActivity then
+		slot11 = slot0:getGetAbleTask()
+		slot12 = {}
+
+		for slot16 = 1, #slot0.taskIds do
+			slot17 = slot16
+
+			for slot21, slot22 in ipairs(slot0.taskIds[slot16]) do
+				if table.contains(slot11, slot22) then
+					if not slot12[slot17] then
+						slot12[slot17] = 1
+					else
+						slot12[slot17] = slot12[slot17] + 1
+					end
+				end
+			end
+		end
+
+		for slot16 = 1, #slot0.btnPlayers do
+			setActive(findTF(slot0.btnPlayers[slot16], "redTip"), slot12[slot16] ~= nil)
+		end
+
 		slot0:updateDetailPanel()
 		slot0:updateTask()
 	end
@@ -393,6 +417,7 @@ function slot0.initTaskPanel(slot0)
 	slot0.taskButtonTpl = findTF(slot0.taskPanel, "ad/taskButtonTpl")
 	slot0.taskList = {}
 	slot6 = findTF(slot0.taskPanel, "ad/task/content")
+	slot0.taskDragTf = findTF(slot0.taskPanel, "ad/task/drag")
 
 	setActive(findTF(slot0.taskPanel, "ad/taskTpl"), false)
 	setActive(findTF(slot0.taskPanel, "ad/taskButtonTpl"), false)

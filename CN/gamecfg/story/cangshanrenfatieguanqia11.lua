@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "飞鸟",
+			actorName = "雪泉",
 			say = "飞鸟小姐！……嗯，你是飞鸟小姐对吧？",
 			painting = {
 				alpha = 0.3,
