@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Asuka",
+			actorName = "Yumi",
 			say = "Asuka! I mean... That IS you, right?",
 			painting = {
 				alpha = 0.3,

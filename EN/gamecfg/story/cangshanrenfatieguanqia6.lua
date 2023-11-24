@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "I talking to 'em right before we got sent here. There's a high chance Yumi's somewhere around here.",
+			say = "I was talking to 'em right before we got sent here. There's a high chance Yumi's somewhere around here.",
 			painting = {
 				alpha = 0.3,
 				time = 1

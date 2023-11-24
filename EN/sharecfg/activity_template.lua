@@ -8520,6 +8520,123 @@ pg.activity_template = {
 			}
 		}
 	},
+	[8052] = {
+		mark = 20231123,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8052,
+		config_data = {
+			103
+		},
+		time = {
+			{
+				"newuser",
+				{
+					{
+						2023,
+						11,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2023,
+						11,
+						24
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2023,
+						12,
+						14
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		}
+	},
+	[8053] = {
+		mark = 20231123,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		type = 3,
+		login_pop = 0,
+		config_id = 49,
+		is_show = 49,
+		id = 8053,
+		config_data = {},
+		time = {
+			{
+				"newuser",
+				{
+					{
+						2023,
+						11,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2023,
+						11,
+						24
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2023,
+						12,
+						14
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewServerLoginPage",
+			ui_name = "NewServerLoginPage"
+		}
+	},
 	[2051] = {
 		mark = 20201229,
 		time = "stop",
@@ -30029,6 +30146,8 @@ pg.activity_template = {
 		8010,
 		8050,
 		8051,
+		8052,
+		8053,
 		2051,
 		2052,
 		2053,
