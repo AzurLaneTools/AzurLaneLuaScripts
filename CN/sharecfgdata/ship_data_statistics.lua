@@ -383546,7 +383546,9 @@ _G.pg.base.ship_data_statistics[11000021] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		221
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -383672,7 +383674,9 @@ _G.pg.base.ship_data_statistics[11000022] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		222
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -383798,7 +383802,9 @@ _G.pg.base.ship_data_statistics[11000023] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		223
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -383924,7 +383930,9 @@ _G.pg.base.ship_data_statistics[11000024] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		224
+	},
 	default_equip_list = {
 		102,
 		107,
