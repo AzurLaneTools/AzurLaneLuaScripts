@@ -102,48 +102,6 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "还是说……你更喜欢卧室呢？若是与你共度一夜，我也很乐意哦？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 11000050,
-			say = "……我可不是自愿过来的哦。通常来说，这种行为应该被称为“绑架”吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "呵呵……明明拥有诱人的身材，没想到却是如此保守的大小姐呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",

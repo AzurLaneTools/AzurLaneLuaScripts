@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "我们要穿那扇大门，进入城池之中！",
+			say = "我们要穿过那扇大门，进入城池之中！",
 			painting = {
 				alpha = 0.3,
 				time = 1

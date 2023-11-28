@@ -109,7 +109,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊哈哈，那你可以尽管放心。肯定会有数不尽战斗在等着你的。",
+			say = "……啊哈哈，那你可以尽管放心。肯定会有数不尽的战斗在等着你的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 404040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就和队伍里有一对和性格不同的双胞胎差不多嘛。",
+			say = "就和队伍里有一对性格不同的双胞胎差不多嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说……我觉得无论什么时候，都应该允许居家学习和居家修行、",
+			say = "所以说……我觉得无论什么时候，都应该允许居家学习和居家修行",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，这里这到底是哪片海域？我应该没有离常规航线太远才对……",
+			say = "说起来，这里到底是哪片海域？我应该没有离常规航线太远才对……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "飞鸟小姐，这片土地上……大概运行着和我们那那边不同的「法则」。我的感觉……是这么告诉我的。",
+			say = "飞鸟小姐，这片土地上……大概运行着和我们那边不同的「法则」。我的感觉……是这么告诉我的。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

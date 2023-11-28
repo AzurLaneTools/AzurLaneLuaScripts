@@ -4,28 +4,54 @@ slot0.SUBMIT_TASK = "activity submit task "
 slot0.TASK_GO = "task go "
 
 function slot0.register(slot0)
-	slot0.submitTaskNum = 0
-
 	slot0:bind(uv0.SUBMIT_TASK, function (slot0, slot1)
-		if uv0.submitTaskNum > 0 then
-			return
-		end
-
-		uv0.submitTaskNum = 1
 		uv0.displayAwards = {}
+		slot2 = uv0
 
-		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
+		slot2:sendNotification(GAME.SUBMIT_TASK, slot1, function (slot0)
+			if not slot0 then
+				-- Nothing
+			end
+		end)
 	end)
 	slot0:bind(uv0.SUBMIT_TASK_ALL, function (slot0, slot1)
-		if uv0.submitTaskNum > 0 then
-			return
+		slot2 = getProxy(TaskProxy)
+		slot3 = false
+		slot4 = {}
+
+		for slot8 = 1, #slot1 do
+			slot9 = slot2:getTaskById(slot1[slot8])
+
+			table.insert(slot4, slot9)
+
+			if not slot9 then
+				return
+			end
+
+			if not slot3 and slot9:IsOverflowShipExpItem() then
+				slot3 = true
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("player_expResource_mail_fullBag"),
+					onYes = function ()
+						uv0.displayAwards = {}
+
+						uv0:sendNotification(GAME.SUBMIT_TASK_ONESTEP, {
+							resultList = uv1
+						})
+					end,
+					onNo = function ()
+					end
+				})
+			end
 		end
 
-		uv0.submitTaskNum = #slot1
-		uv0.displayAwards = {}
+		if not slot3 then
+			uv0.displayAwards = {}
 
-		for slot5 = 1, #slot1 do
-			uv0:sendNotification(GAME.SUBMIT_TASK, slot1[slot5])
+			uv0:sendNotification(GAME.SUBMIT_TASK_ONESTEP, {
+				resultList = slot4
+			})
 		end
 	end)
 	slot0:bind(uv0.TASK_GO, function (slot0, slot1)
@@ -49,8 +75,6 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
-		slot0.submitTaskNum = slot0.submitTaskNum - 1
-
 		if #slot3 > 0 then
 			for slot7 = 1, #slot3 do
 				if slot3[slot7].configId ~= slot0.viewComponent.ptId then
@@ -59,15 +83,7 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		end
 
-		if slot0.submitTaskNum == 0 then
-			if #slot0.displayAwards > 0 then
-				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.displayAwards)
-			end
-
-			slot0.viewComponent:updateUI()
-
-			slot0.displayAwards = {}
-		end
+		slot0:checkShowTaskAward()
 	elseif slot2 == GAME.ACTIVITY_UPDATED then
 		-- Nothing
 	elseif slot2 == GAME.MEMORYBOOK_UNLOCK_DONE then
@@ -78,6 +94,16 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.MEMORYBOOK_UNLOCK_AWARD_DONE then
 		-- Nothing
 	end
+end
+
+function slot0.checkShowTaskAward(slot0)
+	if #slot0.displayAwards > 0 then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.displayAwards)
+	end
+
+	slot0.viewComponent:updateUI()
+
+	slot0.displayAwards = {}
 end
 
 return slot0

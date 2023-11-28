@@ -68,7 +68,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "嗯，我一醒来就在这里了。然后为了解情况，首先对周边环境进行了侦察……",
+			say = "嗯，我一醒来就在这里了。然后为了了解情况，首先对周边环境进行了侦察……",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

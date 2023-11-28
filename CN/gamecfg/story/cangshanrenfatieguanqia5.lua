@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "忍者能到做很厉害的事情吧～？像变身或者分身之类的~",
+			say = "忍者能做到很厉害的事情吧～？像变身或者分身之类的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
