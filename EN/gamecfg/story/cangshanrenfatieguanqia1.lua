@@ -102,48 +102,6 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Or perhaps you'd prefer it if I called it a bedroom? I certainly wouldn't mind spending the night here with you.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 11000050,
-			say = "...I have not accepted any invitation of yours. This is what most people would call a \"kidnapping.\"",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Heheheh... I didn't expect someone with such curves to be such a prude.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",

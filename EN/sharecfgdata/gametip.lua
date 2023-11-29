@@ -13772,15 +13772,15 @@ _G.pg.base.gametip.word_equipskin_aux = {
 }
 
 _G.pg.base.gametip.msgbox_repair = {
-	tip = "Repair Assets"
+	tip = "Repair \nAssets"
 }
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
-	tip = "Repair Live2D"
+	tip = "Repair \nLive2D"
 }
 
 _G.pg.base.gametip.msgbox_repair_painting = {
-	tip = "Download Art Asset"
+	tip = "Download \nArt Asset"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -25114,7 +25114,7 @@ _G.pg.base.gametip.metaskill_overflow_tip = {
 }
 
 _G.pg.base.gametip.msgbox_repair_cipher = {
-	tip = "Redownload Assets"
+	tip = "Redownload   Assets"
 }
 
 _G.pg.base.gametip.msgbox_repair_title = {
