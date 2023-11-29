@@ -102,48 +102,6 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "それとも…ベッドルームの方が良かったかしら？一夜をともにするのは、やぶさかでは無いけれど？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 11000050,
-			say = "……私は同意しておりませんよ。一般的には、このような行為を「誘拐」と呼ぶのですが？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "フフフ…扇情的な肉体を誇る割に、その実は身持ちの堅いお嬢さんだったのね",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",

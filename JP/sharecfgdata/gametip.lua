@@ -26699,7 +26699,7 @@ _G.pg.base.gametip.senran_pt_words_feiniao = {
 		},
 		{
 			"1100001/pt4",
-			"我还能继续努力！"
+			"私、まだまだやれます！"
 		},
 		{
 			"1100001/pt5",

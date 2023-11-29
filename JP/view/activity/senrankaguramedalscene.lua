@@ -141,7 +141,7 @@ function slot0.init(slot0)
 			end, SFX_CONFIRM)
 		end
 
-		setActive(findTF(slot7, "redTip", false))
+		setActive(findTF(slot7, "redTip"), false)
 		table.insert(slot0.btnPlayers, slot7)
 	end
 

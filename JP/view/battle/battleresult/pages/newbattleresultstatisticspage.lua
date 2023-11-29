@@ -600,7 +600,7 @@ function slot0.DisplayShipDialogue(slot0, slot1)
 	if slot0.contextData.score > 1 then
 		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot1:getCVIntimacy())
 	else
-		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_LOSE)
+		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_LOSE, nil, , slot1:getCVIntimacy())
 	end
 
 	slot0.chatText.text = slot3

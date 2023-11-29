@@ -23408,41 +23408,41 @@ cs.gametip = {
 	},
 	senran_pt_words_feiniao = {
 		973498,
-		433,
+		442,
 		true
 	},
 	senran_pt_words_banjiu = {
-		973931,
+		973940,
 		549,
 		true
 	},
 	senran_pt_words_yan = {
-		974480,
+		974489,
 		483,
 		true
 	},
 	senran_pt_words_xuequan = {
-		974963,
+		974972,
 		520,
 		true
 	},
 	senran_pt_words_xuebugui = {
-		975483,
+		975492,
 		515,
 		true
 	},
 	senran_pt_words_zi = {
-		975998,
+		976007,
 		470,
 		true
 	},
 	senran_pt_words_xishao = {
-		976468,
+		976477,
 		414,
 		true
 	},
 	senrankagura_backhill_help = {
-		976882,
+		976891,
 		1462,
 		true
 	}
