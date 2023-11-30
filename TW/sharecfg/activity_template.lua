@@ -851,13 +851,12 @@ pg.activity_template = {
 	},
 	[4247] = {
 		mark = 20231123,
-		config_client = "",
+		id = 4247,
 		title_res_tag = "maoxi_pt",
 		type = 74,
 		login_pop = 0,
 		config_id = 4247,
 		is_show = 29,
-		id = 4247,
 		config_data = {},
 		time = {
 			"timer",
@@ -889,6 +888,9 @@ pg.activity_template = {
 		page_info = {
 			class_name = "SNPtPage",
 			ui_name = "SNPtPage"
+		},
+		config_client = {
+			linkActID = 4240
 		}
 	},
 	[4248] = {
