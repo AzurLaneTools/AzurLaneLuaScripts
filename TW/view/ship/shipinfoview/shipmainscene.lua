@@ -982,26 +982,28 @@ function slot0.setPreOrNext(slot0, slot1, slot2)
 end
 
 function slot0.loadPainting(slot0, slot1, slot2)
+	slot1 = MainMeshImagePainting.StaticGetPaintingName(slot1)
+
 	if slot0.isLoading == true then
 		return
 	end
 
-	for slot6, slot7 in pairs(slot0.tablePainting) do
-		slot7.localScale = Vector3(1, 1, 1)
+	for slot7, slot8 in pairs(slot0.tablePainting) do
+		slot8.localScale = Vector3(1, 1, 1)
 	end
 
 	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 and not slot2 then
 		return
 	end
 
-	slot3 = 0
-	slot3 = slot0.isRight and 1800 or -1800
+	slot4 = 0
+	slot4 = slot0.isRight and 1800 or -1800
 	slot0.isLoading = true
-	slot5 = slot0.paintingCode
-	slot6 = {}
+	slot6 = slot0.paintingCode
+	slot7 = {}
 
 	if slot0:getPaintingFromTable(false) then
-		table.insert(slot6, function (slot0)
+		table.insert(slot7, function (slot0)
 			slot1 = uv0
 			slot2 = uv0
 			slot2 = slot2:GetComponent(typeof(CanvasGroup))
@@ -1023,28 +1025,28 @@ function slot0.loadPainting(slot0, slot1, slot2)
 		end)
 	end
 
-	slot7 = slot0:getPaintingFromTable(true)
+	slot8 = slot0:getPaintingFromTable(true)
 	slot0.paintingCode = slot1
 
-	if slot0.paintingCode and slot7 then
-		slot8 = slot7:GetComponent(typeof(RectTransform))
+	if slot0.paintingCode and slot8 then
+		slot9 = slot8:GetComponent(typeof(RectTransform))
 
-		table.insert(slot6, function (slot0)
+		table.insert(slot7, function (slot0)
 			uv0.nowPainting = uv1
 
-			setPaintingPrefabAsync(uv1, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
+			LoadPaintingPrefabAsync(uv1, uv2, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
 				ShipExpressionHelper.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
 				uv2()
 			end)
 		end)
-		table.insert(slot6, function (slot0)
+		table.insert(slot7, function (slot0)
 			LeanTween.cancel(go(uv0))
 			LeanTween.moveX(uv0, 0, 0.3):setFrom(uv1):setOnComplete(System.Action(slot0))
 			LeanTween.alphaCanvas(uv2:GetComponent(typeof(CanvasGroup)), 1, 0.3):setFrom(0):setUseEstimatedTime(true)
 		end)
 	end
 
-	parallelAsync(slot6, function ()
+	parallelAsync(slot7, function ()
 		uv0.LoadShipVOId = uv0.shipVO.id
 		uv0.LoadPaintingCode = uv1
 		uv0.isLoading = false

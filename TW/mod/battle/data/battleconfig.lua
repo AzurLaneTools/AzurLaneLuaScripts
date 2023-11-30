@@ -411,8 +411,9 @@ slot0.AIM_BIAS_MAX_RANGE_MONSTER = 60
 slot0.AIM_BIAS_MAX_RANGE_SUB = 25
 slot0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 slot0.FLEET_ATTR_CAP = {
+	yuanchou = 9,
 	ReisalinAP = 99,
-	yuanchou = 9
+	huohun = 5
 }
 slot0.TARGET_SELECT_PRIORITY = {
 	C14_1 = 10,

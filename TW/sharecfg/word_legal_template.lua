@@ -3719,6 +3719,9 @@ function temp()
 		},
 		["張"] = {
 			this = true
+		},
+		["燒"] = {
+			this = true
 		}
 	}
 end
@@ -3739,6 +3742,14 @@ function temp()
 	uv0["雪"] = {
 		["風"] = {
 			this = true
+		},
+		["泉"] = {
+			this = true
+		},
+		["不"] = {
+			["歸"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -4449,6 +4460,7 @@ function temp()
 			}
 		},
 		["鳥"] = {
+			this = true,
 			["川"] = {
 				["千"] = {
 					["瀨"] = {
@@ -6289,6 +6301,36 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["斑"] = {
+		["鳩"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["焰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["紫"] = {
+		this = {
+			this = true
 		}
 	}
 end

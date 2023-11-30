@@ -309,7 +309,7 @@ return {
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MEDAL_ACT_ID) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			return Activity.isHaveActivableMedal()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MEDAL_ACT_ID))
 		end
 	},
 	{

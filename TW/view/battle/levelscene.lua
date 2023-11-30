@@ -190,10 +190,6 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.actEliteBtn, false)
 
-	slot0.actRyzaBtn = slot0:findTF("buttons/btn_ryza", slot0.leftChapter)
-
-	setActive(slot0.actRyzaBtn, false)
-
 	slot0.actExtraBtn = slot0:findTF("buttons/btn_act_extra", slot0.leftChapter)
 	slot0.actExtraBtnAnim = slot0:findTF("usm", slot0.actExtraBtn)
 	slot0.remasterBtn = slot0:findTF("buttons/btn_remaster", slot0.leftChapter)
@@ -1116,22 +1112,17 @@ function slot0.updateActivityBtns(slot0)
 			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
-		slot14 = ChapterConst.IsAtelierMap(slot0.contextData.map)
-
 		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {
 			"isHardMap"
-		}) and slot6 ~= Map.ACTIVITY_HARD and not slot14)
-		setActive(slot0.actRyzaBtn, slot13 and slot6 ~= Map.ACTIVITY_HARD and slot14)
+		}) and slot6 ~= Map.ACTIVITY_HARD)
 		setActive(slot0.actNormalBtn, slot6 ~= Map.ACTIVITY_EASY)
 		setActive(slot0.actExtraRank, slot6 == Map.ACT_EXTRA)
 		setActive(slot0.actExchangeShopBtn, not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS)
-		setActive(slot0.actAtelierBuffBtn, AtelierActivity.IsActivityBuffMap(slot0.contextData.map) and not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS)
 		setActive(slot0.ptTotal, not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity and not slot0.ptActivity:isEnd())
 		slot0:updateActivityRes()
 	else
 		setActive(slot0.actExtraBtn, false)
 		setActive(slot0.actEliteBtn, false)
-		setActive(slot0.actRyzaBtn, false)
 		setActive(slot0.actNormalBtn, false)
 		setActive(slot0.actExtraRank, false)
 		setActive(slot0.actExchangeShopBtn, false)
@@ -1366,7 +1357,6 @@ function slot0.registerActBtn(slot0)
 	end
 
 	onButton(slot0, slot0.actEliteBtn, slot3, SFX_PANEL)
-	onButton(slot0, slot0.actRyzaBtn, slot3, SFX_PANEL)
 	slot0:bind(LevelUIConst.SWITCH_CHALLENGE_MAP, slot3)
 	onButton(slot0, slot0.actNormalBtn, function ()
 		if uv0:isfrozen() then
@@ -1496,7 +1486,9 @@ slot6 = {
 	[slot5.TYPESHINANO] = "MapBuilderShinano",
 	[slot5.TYPESKIRMISH] = "MapBuilderSkirmish",
 	[slot5.TYPEBISMARCK] = "MapBuilderBismarck",
-	[slot5.TYPESSSS] = "MapBuilderSSSS"
+	[slot5.TYPESSSS] = "MapBuilderSSSS",
+	[slot5.TYPEATELIER] = "MapBuilderAtelier",
+	[slot5.TYPESENRANKAGURA] = "MapBuilderSenrankagura"
 }
 
 function slot0.SwitchMapBuilder(slot0, slot1)
@@ -1508,6 +1500,7 @@ function slot0.SwitchMapBuilder(slot0, slot1)
 	slot0.mapBuilder = slot2
 
 	slot2.buffer:Show()
+	slot2.buffer:ShowButtons()
 end
 
 function slot0.GetMapBuilderInBuffer(slot0, slot1)
@@ -1976,6 +1969,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 					end
 				}, function ()
 					onNextTick(uv0)
+					uv1.mapBuilder.buffer:HideButtons()
 				end)
 			end,
 			function (slot0)
@@ -2048,8 +2042,8 @@ function slot0.switchToMap(slot0, slot1)
 		uv0.map.localScale = slot0
 		uv0.float.localScale = slot0
 	end):setOnComplete(System.Action(function ()
-		uv0.mapBuilder.buffer:Update(uv0.contextData.map)
 		uv0.mapBuilder.buffer:Show()
+		uv0.mapBuilder.buffer:Update(uv0.contextData.map)
 		uv0:UpdateSwitchMapButton()
 		uv0:updateMapItems()
 		uv0.mapBuilder.buffer:UpdateButtons()
@@ -2082,6 +2076,7 @@ function slot0.switchToMap(slot0, slot1)
 	end
 
 	slot0:SwitchMapBG(slot0.contextData.map)
+	slot0.mapBuilder.buffer:ShowButtons()
 	slot0:setChapter(nil)
 	slot0:PlayBGM()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)

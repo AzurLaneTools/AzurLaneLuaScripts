@@ -132,6 +132,11 @@ function slot0.UpdateCapacity(slot0, slot1, slot2)
 	slot3 = slot1 / slot2
 	slot0.capacityBar.value = slot3
 	slot0.capacityBarEffect.value = slot3
+
+	slot0:UpdateCapacityTxt(slot1, slot2)
+end
+
+function slot0.UpdateCapacityTxt(slot0, slot1, slot2)
 	slot0.capacityTxt.text = "<color=#eb9e30>" .. slot1 .. "</color><color=#606064>/" .. slot2 .. "</color>"
 end
 
@@ -148,6 +153,7 @@ function slot0.UpdateCapacityWithAnim(slot0, slot1, slot2)
 	slot3 = slot0.capacityBarEffect.value
 	slot4 = slot1 / slot2
 
+	slot0:UpdateCapacityTxt(slot1, slot2)
 	LeanTween.value(slot0.capacityBarEffect.gameObject, slot3, slot4, 0.396):setOnUpdate(System.Action_float(function (slot0)
 		uv0.capacityBarEffect.value = slot0
 	end)):setEase(LeanTweenType.easeOutQuint)

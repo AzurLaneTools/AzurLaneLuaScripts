@@ -143,7 +143,10 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 			slot2:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, slot10)
 		end
 	else
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot19)
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, {
+			unit = slot2,
+			killer = slot1
+		})
 		slot0:obituary(slot2, slot23, slot1)
 		slot0:KillCountStatistics(slot7.id, slot2:GetAttrByName("id"))
 	end

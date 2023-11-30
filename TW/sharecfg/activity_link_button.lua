@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4471
+			5101
 		}
 	},
 	{
@@ -50,8 +50,9 @@ pg.activity_link_button = {
 		}
 	},
 	[20] = {
-		type = 2,
+		param = "0",
 		name = "event_minigame",
+		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 5,
@@ -59,10 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5047
-		},
-		param = {
-			"HARBOR_BACKHILL"
+			5095
 		}
 	},
 	[30] = {
@@ -75,8 +73,7 @@ pg.activity_link_button = {
 		pic = "event_boss",
 		order = 1,
 		time = {
-			"default",
-			41360
+			"default"
 		}
 	},
 	[40] = {

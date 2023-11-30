@@ -230518,6 +230518,2628 @@ _G.pg.base.aircraft_template[3093003] = {
 	}
 }
 
+_G.pg.base.aircraft_template[3103001] = {
+	attack_power = 2,
+	name = "【2023闪乱联动T4】BOSS 战忍机铠人形航母 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3103001,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {
+		3103004
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3103002] = {
+	attack_power = 2,
+	name = "【2023闪乱联动T4】BOSS 战忍机铠人形航母 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	nationality = 3,
+	id = 3103002,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2760,
+	speed = 70,
+	max_hp = 116,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3103005
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3103003] = {
+	attack_power = 2,
+	name = "【2023闪乱联动T4】BOSS 战忍机铠人形航母 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	nationality = 3,
+	id = 3103003,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2760,
+	speed = 70,
+	max_hp = 116,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3103006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108303] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK3】BOSS 雪泉 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108303,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108306
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108304] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK3】BOSS 雪泉 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108304,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 33,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108307,
+		3108309
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108305] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK3】BOSS 雪泉 地毯式轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108305,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 5000,
+	speed = 33,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108308
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108403] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK4】BOSS 紫 战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108403,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 30,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108406
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108404] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK4】BOSS 紫 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108404,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 33,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108407
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3108405] = {
+	attack_power = 2,
+	name = "【2023闪乱联动TSK4】BOSS 紫 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3108405,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 33,
+	max_hp = 198,
+	scale = 0.75,
+	weapon_ID = {
+		3108408,
+		3108409
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109065] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109065,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {
+		3109075,
+		1100750
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109066] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv2",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109066,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {
+		3109076,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109067] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv3",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109067,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 33,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {
+		3109077,
+		1100752
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109068] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv4",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109068,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 33,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {
+		3109078,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109069] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv5",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109069,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 33,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		3109079,
+		1100754
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109070] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109070,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		3109080
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109071] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109071,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3109081
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109072] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109072,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		3109082
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109073] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109073,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		3109083
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109074] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109074,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		3109084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109185] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109185,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {
+		3109075,
+		1100750
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109186] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 轰炸机Lv2",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109186,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {
+		3109076,
+		1100751
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109187] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 轰炸机Lv3",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109187,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 33,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {
+		3109077,
+		1100752
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109188] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 轰炸机Lv4",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109188,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 33,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {
+		3109078,
+		1100753
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109189] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 轰炸机Lv5",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109189,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 33,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {
+		3109079,
+		1100754
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109190] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 战斗机Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109190,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		3109080
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109191] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 战斗机Lv2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109191,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3109081
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109192] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 战斗机Lv3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109192,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3040,
+	speed = 30,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		3109082
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109193] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 战斗机Lv4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109193,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3420,
+	speed = 30,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		3109083
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109194] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍机铠人形航母 战斗机Lv5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3109194,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3800,
+	speed = 30,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		3109084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109240] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航母 精英 浮游炮Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	nationality = 3,
+	id = 3109240,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2760,
+	speed = 70,
+	max_hp = 116,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3109245,
+		1000910
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109241] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航母 精英 浮游炮Lv2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 142,
+	dodge = 1,
+	nationality = 3,
+	id = 3109241,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3220,
+	speed = 70,
+	max_hp = 156,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3109246,
+		1000911
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109242] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航母 精英 浮游炮Lv3",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 182,
+	dodge = 1,
+	nationality = 3,
+	id = 3109242,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 198,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3109247,
+		1000912
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109243] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航母 精英 浮游炮Lv4",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 232,
+	dodge = 1,
+	nationality = 3,
+	id = 3109243,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 4140,
+	speed = 70,
+	max_hp = 243,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3109248,
+		1000913
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3109244] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航母 精英 浮游炮Lv5",
+	type = 1,
+	accuracy = 23,
+	model_ID = "sairenfeiji_shanluan",
+	ACC_growth = 0,
+	crash_DMG = 294,
+	dodge = 1,
+	nationality = 3,
+	id = 3109244,
+	icon = "sairenfeiji_shanluan",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 4600,
+	speed = 70,
+	max_hp = 290,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3109249,
+		1000914
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {

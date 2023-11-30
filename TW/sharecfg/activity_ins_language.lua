@@ -3851,7 +3851,84 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_369_3",
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
-		"op_reply_369_1_1"
+		"op_reply_369_1_1",
+		"ins_418",
+		"ins_discuss_418_1",
+		"ins_reply_418_1_1",
+		"ins_reply_418_1_2",
+		"ins_discuss_418_2",
+		"ins_reply_418_2_1",
+		"ins_reply_418_2_2",
+		"ins_discuss_418_3",
+		"ins_reply_418_3_1",
+		"ins_op_418_1_1",
+		"op_reply_418_1_1",
+		"ins_op_418_1_2",
+		"op_reply_418_1_2",
+		"ins_419",
+		"ins_discuss_419_1",
+		"ins_reply_419_1_1",
+		"ins_reply_419_1_2",
+		"ins_discuss_419_2",
+		"ins_reply_419_2_1",
+		"ins_reply_419_2_2",
+		"ins_op_419_1_1",
+		"op_reply_419_1_1",
+		"ins_op_419_1_2",
+		"op_reply_419_1_2",
+		"ins_420",
+		"ins_discuss_420_1",
+		"ins_reply_420_1_1",
+		"ins_reply_420_1_2",
+		"ins_discuss_420_2",
+		"ins_reply_420_2_1",
+		"ins_reply_420_2_2",
+		"ins_reply_420_2_3",
+		"ins_op_420_1_1",
+		"op_reply_420_1_1",
+		"ins_op_420_1_2",
+		"op_reply_420_1_2",
+		"ins_421",
+		"ins_discuss_421_1",
+		"ins_reply_421_1_1",
+		"ins_reply_421_1_2",
+		"ins_discuss_421_2",
+		"ins_reply_421_2_1",
+		"ins_reply_421_2_2",
+		"ins_discuss_421_3",
+		"ins_reply_421_3_1",
+		"ins_reply_421_3_2",
+		"ins_op_421_1_1",
+		"op_reply_421_1_1",
+		"ins_422",
+		"ins_discuss_422_1",
+		"ins_reply_422_1_1",
+		"ins_reply_422_1_2",
+		"ins_discuss_422_2",
+		"ins_reply_422_2_1",
+		"ins_reply_422_2_2",
+		"ins_op_422_1_1",
+		"op_reply_422_1_1",
+		"ins_423",
+		"ins_discuss_423_1",
+		"ins_reply_423_1_1",
+		"ins_reply_423_1_2",
+		"ins_reply_423_1_3",
+		"ins_discuss_423_2",
+		"ins_reply_423_2_1",
+		"ins_reply_423_2_2",
+		"ins_op_423_1_1",
+		"op_reply_423_1_1",
+		"ins_424",
+		"ins_discuss_424_1",
+		"ins_reply_424_1_1",
+		"ins_reply_424_1_2",
+		"ins_discuss_424_2",
+		"ins_reply_424_2_1",
+		"ins_op_424_1_1",
+		"op_reply_424_1_1",
+		"ins_op_424_1_2",
+		"op_reply_424_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14498,202 +14575,202 @@ pg.base.activity_ins_language = {
 		value = "主人也在背後默默幫了許多忙吧，您也辛苦了。"
 	},
 	ins_321 = {
-		value = ""
+		value = "感受羅馬的威光吧！"
 	},
 	ins_discuss_321_1 = {
-		value = ""
+		value = "為羅馬大人訂製的「特別戰車試作型一號」，實際的效果還是挺不錯的嘛！嗯哼~"
 	},
 	ins_reply_321_1_1 = {
-		value = ""
+		value = "我很期待之後的「正式型號」！"
 	},
 	ins_reply_321_1_2 = {
-		value = ""
+		value = "不會讓您失望的！"
 	},
 	ins_discuss_321_2 = {
-		value = ""
+		value = "這是在做什麼…？"
 	},
 	ins_reply_321_2_1 = {
-		value = ""
+		value = "巡視港區！順便向世人展現羅馬的威光！"
 	},
 	ins_reply_321_2_2 = {
-		value = ""
+		value = "不愧是羅馬，很有氣勢呢。"
 	},
 	ins_discuss_321_3 = {
-		value = ""
+		value = "唔…還能這樣「改車」啊…還挺威風的，或許下次能參考下…"
 	},
 	ins_reply_321_3_1 = {
-		value = ""
+		value = "嘻嘻，有需求的話，隨時可以找達文西下「改造訂單」喔！"
 	},
 	ins_op_321_1_1 = {
-		value = ""
+		value = "巡邏港區辛苦了哦。"
 	},
 	op_reply_321_1_1 = {
-		value = ""
+		value = "只是應盡的職責罷了，況且這也是向世人展現威光的機會！"
 	},
 	ins_op_321_1_2 = {
-		value = ""
+		value = "撲面而來的威光！"
 	},
 	op_reply_321_1_2 = {
-		value = ""
+		value = "哼哼，就允許你下次坐上來跟我分享這份喜悅吧。"
 	},
 	ins_322 = {
-		value = ""
+		value = "鏘鏘！偉大的全新天才發明——汪汪小喵登場！"
 	},
 	ins_discuss_322_1 = {
-		value = ""
+		value = "哇哇，這是什麼？"
 	},
 	ins_reply_322_1_1 = {
-		value = ""
+		value = "嘿嘿，這是針對同時喜歡狗和貓的人開發的特別機械寵物！"
 	},
 	ins_reply_322_1_2 = {
-		value = ""
+		value = "啊，原來如此，所以才叫汪汪小喵啊"
 	},
 	ins_discuss_322_2 = {
-		value = ""
+		value = "哈哈，這個有趣！不知道內部結構是什麼樣的？"
 	},
 	ins_reply_322_2_1 = {
-		value = ""
+		value = "還有好多系列靈感準備實現呢！靈敏有興趣的話一起來研究吧！"
 	},
 	ins_reply_322_2_2 = {
-		value = ""
+		value = "真的嗎？好啊好啊~"
 	},
 	ins_discuss_322_3 = {
-		value = ""
+		value = "欸？！明明是喵咪卻會汪汪叫？"
 	},
 	ins_reply_322_3_1 = {
-		value = ""
+		value = "沒錯！有沒有種很特別的感覺~"
 	},
 	ins_reply_322_3_2 = {
-		value = ""
+		value = "嗯…有點微妙…？"
 	},
 	ins_reply_322_3_3 = {
-		value = ""
+		value = "沒關係！新鮮事物總是需要時間讓世人理解的！"
 	},
 	ins_op_322_1_1 = {
-		value = ""
+		value = "我也想要一個。"
 	},
 	op_reply_322_1_1 = {
-		value = ""
+		value = "好！那就幫指揮官弄一個會喵喵叫的汪汪吧！"
 	},
 	ins_323 = {
-		value = ""
+		value = "悠長閒適的午後，果然和紅茶還有點心是最相配的"
 	},
 	ins_discuss_323_1 = {
-		value = ""
+		value = "呵呵，現沏的紅茶，會讓美味的蛋糕更美味呢"
 	},
 	ins_reply_323_1_1 = {
-		value = ""
+		value = "皇家的各位果然對下午茶頗有研究~"
 	},
 	ins_reply_323_1_2 = {
-		value = ""
+		value = "朱塞佩小姐若是有興趣的話，不妨下次一起來參加茶會如何？"
 	},
 	ins_reply_323_1_3 = {
-		value = ""
+		value = "樂意之至~"
 	},
 	ins_discuss_323_2 = {
-		value = ""
+		value = "唔，桌上這一疊莫非都是…"
 	},
 	ins_reply_323_2_1 = {
-		value = ""
+		value = "沒錯，正是下午待處理的文件！"
 	},
 	ins_reply_323_2_2 = {
-		value = ""
+		value = "面對這樣的文件山，還能如此淡定地享受下午茶，不愧是妳啊…"
 	},
 	ins_reply_323_2_3 = {
-		value = ""
+		value = "勞逸結合可是很重要的，安心安心，我會在享受完下午茶再好好把它們解決掉的~"
 	},
 	ins_op_323_1_1 = {
-		value = ""
+		value = "勞逸結合也是很重要的呢"
 	},
 	op_reply_323_1_1 = {
-		value = ""
+		value = "沒錯！指揮官真是了解我呢~"
 	},
 	ins_324 = {
-		value = ""
+		value = "在自然的風景中，有了新的體悟，得好好記下來才行。"
 	},
 	ins_discuss_324_1 = {
-		value = ""
+		value = "瞭望手佩薩格諾，報告你的發現~"
 	},
 	ins_reply_324_1_1 = {
-		value = ""
+		value = "是外出途中偶然發現的山谷，有著不錯的自然風光…"
 	},
 	ins_discuss_324_2 = {
-		value = ""
+		value = "真好~西南風也想出去玩~"
 	},
 	ins_reply_324_2_1 = {
-		value = ""
+		value = "玩？旅行……算玩嗎？"
 	},
 	ins_reply_324_2_2 = {
-		value = ""
+		value = "旅行能讓心情變好，能讓心情變好的事就是玩！"
 	},
 	ins_reply_324_2_3 = {
-		value = ""
+		value = "原來如此…這麼說的話，旅行確實…很好玩。"
 	},
 	ins_op_324_1_1 = {
-		value = ""
+		value = "下次再去探索一樣的風景點吧！"
 	},
 	op_reply_324_1_1 = {
-		value = ""
+		value = "嗯，我很期待…！"
 	},
 	ins_325 = {
-		value = ""
+		value = "走過路過不要錯過~最新的“港區秘聞”出版啦！"
 	},
 	ins_discuss_325_1 = {
-		value = ""
+		value = "來啦！幫我留一份！"
 	},
 	ins_reply_325_1_1 = {
-		value = ""
+		value = "早就幫你留好啦！"
 	},
 	ins_discuss_325_2 = {
-		value = ""
+		value = "是什麼有趣的故事書嗎！？我也要一份！"
 	},
 	ins_reply_325_2_1 = {
-		value = ""
+		value = "那個，西南風，裡面大概不是妳想的那種有趣故事…"
 	},
 	ins_reply_325_2_2 = {
-		value = ""
+		value = "是個強而有力的競爭對手呢，看來還有我沒完全掌握的情報來源呀…"
 	},
 	ins_reply_325_2_3 = {
-		value = ""
+		value = "不一定要做競爭對手的！也可以合作分享些情報嘛！"
 	},
 	ins_reply_325_2_4 = {
-		value = ""
+		value = "好主意！"
 	},
 	ins_discuss_325_3 = {
-		value = ""
+		value = "這些情報都是從哪裡取得的…"
 	},
 	ins_reply_325_3_1 = {
-		value = ""
+		value = "這是「企業機密」哦！嘿嘿~"
 	},
 	ins_op_325_1_1 = {
-		value = ""
+		value = "有點在意內容"
 	},
 	op_reply_325_1_1 = {
-		value = ""
+		value = "也留了一份給指揮官！看完請順便說一下感想！"
 	},
 	ins_326 = {
-		value = ""
+		value = "好劇本加上精彩的演出，總是能讓人回味許久…"
 	},
 	ins_discuss_326_1 = {
-		value = ""
+		value = "嗯？波爾察諾在劇院嗎？"
 	},
 	ins_reply_326_1_1 = {
-		value = ""
+		value = "嗯，我在獨自品味話劇。"
 	},
 	ins_discuss_326_2 = {
-		value = ""
+		value = "咦？根據我的情報，今天應該沒有話劇演出才對呀？"
 	},
 	ins_reply_326_2_1 = {
-		value = ""
+		value = "之前的精彩演出還在腦海裡，只要坐在劇場裡稍加想像，就能「看」得一清二楚…"
 	},
 	ins_reply_326_2_2 = {
-		value = ""
+		value = "感覺……多少能理解，旅途中遇見的美麗景象，也是只要閉上眼睛，就能清晰地重現呢……"
 	},
 	ins_op_326_1_1 = {
-		value = ""
+		value = "下次一起去看新劇目吧"
 	},
 	op_reply_326_1_1 = {
-		value = ""
+		value = "只要指揮官不介意的話…"
 	},
 	ins_327 = {
 		value = "外皮的酥脆與鯛魚的鮮嫩在口中一同爆發，果然是令人陶醉的極上之美味…！"
@@ -15405,5 +15482,236 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_369_1_1 = {
 		value = "指揮官同志，你這小看人的說法是怎麼回事！我當然好得很！"
+	},
+	ins_418 = {
+		value = ""
+	},
+	ins_discuss_418_1 = {
+		value = ""
+	},
+	ins_reply_418_1_1 = {
+		value = ""
+	},
+	ins_reply_418_1_2 = {
+		value = ""
+	},
+	ins_discuss_418_2 = {
+		value = ""
+	},
+	ins_reply_418_2_1 = {
+		value = ""
+	},
+	ins_reply_418_2_2 = {
+		value = ""
+	},
+	ins_discuss_418_3 = {
+		value = ""
+	},
+	ins_reply_418_3_1 = {
+		value = ""
+	},
+	ins_op_418_1_1 = {
+		value = ""
+	},
+	op_reply_418_1_1 = {
+		value = ""
+	},
+	ins_op_418_1_2 = {
+		value = ""
+	},
+	op_reply_418_1_2 = {
+		value = ""
+	},
+	ins_419 = {
+		value = ""
+	},
+	ins_discuss_419_1 = {
+		value = ""
+	},
+	ins_reply_419_1_1 = {
+		value = ""
+	},
+	ins_reply_419_1_2 = {
+		value = ""
+	},
+	ins_discuss_419_2 = {
+		value = ""
+	},
+	ins_reply_419_2_1 = {
+		value = ""
+	},
+	ins_reply_419_2_2 = {
+		value = ""
+	},
+	ins_op_419_1_1 = {
+		value = ""
+	},
+	op_reply_419_1_1 = {
+		value = ""
+	},
+	ins_op_419_1_2 = {
+		value = ""
+	},
+	op_reply_419_1_2 = {
+		value = ""
+	},
+	ins_420 = {
+		value = ""
+	},
+	ins_discuss_420_1 = {
+		value = ""
+	},
+	ins_reply_420_1_1 = {
+		value = ""
+	},
+	ins_reply_420_1_2 = {
+		value = ""
+	},
+	ins_discuss_420_2 = {
+		value = ""
+	},
+	ins_reply_420_2_1 = {
+		value = ""
+	},
+	ins_reply_420_2_2 = {
+		value = ""
+	},
+	ins_reply_420_2_3 = {
+		value = ""
+	},
+	ins_op_420_1_1 = {
+		value = ""
+	},
+	op_reply_420_1_1 = {
+		value = ""
+	},
+	ins_op_420_1_2 = {
+		value = ""
+	},
+	op_reply_420_1_2 = {
+		value = ""
+	},
+	ins_421 = {
+		value = ""
+	},
+	ins_discuss_421_1 = {
+		value = ""
+	},
+	ins_reply_421_1_1 = {
+		value = ""
+	},
+	ins_reply_421_1_2 = {
+		value = ""
+	},
+	ins_discuss_421_2 = {
+		value = ""
+	},
+	ins_reply_421_2_1 = {
+		value = ""
+	},
+	ins_reply_421_2_2 = {
+		value = ""
+	},
+	ins_discuss_421_3 = {
+		value = ""
+	},
+	ins_reply_421_3_1 = {
+		value = ""
+	},
+	ins_reply_421_3_2 = {
+		value = ""
+	},
+	ins_op_421_1_1 = {
+		value = ""
+	},
+	op_reply_421_1_1 = {
+		value = ""
+	},
+	ins_422 = {
+		value = ""
+	},
+	ins_discuss_422_1 = {
+		value = ""
+	},
+	ins_reply_422_1_1 = {
+		value = ""
+	},
+	ins_reply_422_1_2 = {
+		value = ""
+	},
+	ins_discuss_422_2 = {
+		value = ""
+	},
+	ins_reply_422_2_1 = {
+		value = ""
+	},
+	ins_reply_422_2_2 = {
+		value = ""
+	},
+	ins_op_422_1_1 = {
+		value = ""
+	},
+	op_reply_422_1_1 = {
+		value = ""
+	},
+	ins_423 = {
+		value = ""
+	},
+	ins_discuss_423_1 = {
+		value = ""
+	},
+	ins_reply_423_1_1 = {
+		value = ""
+	},
+	ins_reply_423_1_2 = {
+		value = ""
+	},
+	ins_reply_423_1_3 = {
+		value = ""
+	},
+	ins_discuss_423_2 = {
+		value = ""
+	},
+	ins_reply_423_2_1 = {
+		value = ""
+	},
+	ins_reply_423_2_2 = {
+		value = ""
+	},
+	ins_op_423_1_1 = {
+		value = ""
+	},
+	op_reply_423_1_1 = {
+		value = ""
+	},
+	ins_424 = {
+		value = ""
+	},
+	ins_discuss_424_1 = {
+		value = ""
+	},
+	ins_reply_424_1_1 = {
+		value = ""
+	},
+	ins_reply_424_1_2 = {
+		value = ""
+	},
+	ins_discuss_424_2 = {
+		value = ""
+	},
+	ins_reply_424_2_1 = {
+		value = ""
+	},
+	ins_op_424_1_1 = {
+		value = ""
+	},
+	op_reply_424_1_1 = {
+		value = ""
+	},
+	ins_op_424_1_2 = {
+		value = ""
+	},
+	op_reply_424_1_2 = {
+		value = ""
 	}
 }

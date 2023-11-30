@@ -9913,5 +9913,128 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101451] = {
+		ship_group = 10145,
+		name = "Charming Rabbit",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 101451,
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70541,
+		painting = "ailunsamuna_2",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "ailunsamuna_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "歡迎光臨，指揮官！——雖然很想熱情地招待你啦，不過當下好像發生了點意外…沒事沒事，我自己可以解決的！",
+		voice_actor = 266,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			-36,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.39,
+					1.31,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.33,
+					1.2,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.18,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
 	}
 }

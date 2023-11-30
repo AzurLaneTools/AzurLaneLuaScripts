@@ -1622,6 +1622,27 @@ pg.ship_data_group = setmetatable({
 		[1090006] = {
 			10096
 		},
+		[1100001] = {
+			10101
+		},
+		[1100002] = {
+			10102
+		},
+		[1100003] = {
+			10103
+		},
+		[1100004] = {
+			10104
+		},
+		[1100005] = {
+			10105
+		},
+		[1100006] = {
+			10106
+		},
+		[1100007] = {
+			10107
+		},
 		[29901] = {
 			20001
 		},
@@ -1762,6 +1783,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[971201] = {
 			30022
+		},
+		[970103] = {
+			30024
 		}
 	},
 	all = {
@@ -2305,6 +2329,13 @@ pg.ship_data_group = setmetatable({
 		10094,
 		10095,
 		10096,
+		10101,
+		10102,
+		10103,
+		10104,
+		10105,
+		10106,
+		10107,
 		20001,
 		20002,
 		20003,
@@ -2351,7 +2382,8 @@ pg.ship_data_group = setmetatable({
 		30017,
 		30018,
 		30020,
-		30022
+		30022,
+		30024
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24102,6 +24134,230 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[10101] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10101,
+		code = 10101,
+		group_type = 1100001,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10102] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10102,
+		code = 10102,
+		group_type = 1100002,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10103] = {
+		type = 8,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10103,
+		code = 10103,
+		group_type = 1100003,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10104] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10104,
+		code = 10104,
+		group_type = 1100004,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10105] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10105,
+		code = 10105,
+		group_type = 1100005,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10106] = {
+		type = 6,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10106,
+		code = 10106,
+		group_type = 1100006,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10107] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 110,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10107,
+		code = 10107,
+		group_type = 1100007,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼閃忍法帖",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		type = 2,
 		redirect_id = 101,
@@ -25745,6 +26001,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9712011
+					}
+				},
+				0
+			}
+		}
+	},
+	[30024] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30024,
+		code = 30024,
+		group_type = 970103,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701031
 					}
 				},
 				0

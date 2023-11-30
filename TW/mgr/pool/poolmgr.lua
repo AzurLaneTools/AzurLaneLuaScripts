@@ -356,6 +356,21 @@ function slot0.DelTempCache(slot0, slot1)
 	slot0.ui_tempCache[slot1] = nil
 end
 
+function slot0.PreloadPainting(slot0, slot1, slot2)
+	slot3 = {}
+
+	if not slot0.pools_plural["painting/" .. slot1 .. slot1] then
+		table.insert(slot3, function (slot0)
+			uv0:GetPainting(uv1, true, function (slot0)
+				uv0.pools_plural[uv1]:Enqueue(slot0)
+				uv2()
+			end)
+		end)
+	end
+
+	seriesAsync(slot3, slot2)
+end
+
 function slot0.GetPainting(slot0, slot1, slot2, slot3)
 	slot4 = "painting/" .. slot1
 	slot5 = slot4 .. slot1

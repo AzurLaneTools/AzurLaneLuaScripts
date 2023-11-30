@@ -354,28 +354,29 @@ function slot0.getModExpAdditions(slot0, slot1)
 	slot3 = pg.ship_data_template[slot0.configId].group_type
 	slot4 = pg.ship_data_strengthen
 	slot5 = {}
+	slot6 = uv0.getBuffExp()
 
-	for slot9, slot10 in pairs(ShipModAttr.ID_TO_ATTR) do
-		slot11 = 0
+	for slot10, slot11 in pairs(ShipModAttr.ID_TO_ATTR) do
+		slot12 = 0
 
-		if slot9 ~= ShipModLayer.IGNORE_ID then
-			for slot15, slot16 in pairs(slot1) do
-				slot17 = slot2[slot16.configId]
-				slot18 = slot17.strengthen_id
+		if slot10 ~= ShipModLayer.IGNORE_ID then
+			for slot16, slot17 in pairs(slot1) do
+				slot18 = slot2[slot17.configId]
+				slot19 = slot18.strengthen_id
 
-				assert(slot4[slot18], "ship_data_strengthen>>" .. slot18)
+				assert(slot4[slot19], "ship_data_strengthen>>" .. slot19)
 
-				slot19 = slot4[slot18].attr_exp[slot9 - 1]
+				slot20 = slot4[slot19].attr_exp[slot10 - 1]
 
-				if slot17.group_type == slot3 then
-					slot19 = slot19 * 2
+				if slot18.group_type == slot3 then
+					slot20 = slot20 * 2
 				end
 
-				slot11 = slot11 + slot19
+				slot12 = slot12 + slot20
 			end
 		end
 
-		slot5[slot10] = math.floor(slot11 * (1 + uv0.getBuffExp()))
+		slot5[slot11] = math.floor(slot12 * (1 + slot6))
 	end
 
 	return slot5

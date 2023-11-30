@@ -49,10 +49,10 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "backyard",
+		default_bgm = "sk-home",
 		special_bgm = "",
 		time = "",
-		bgm = "backyard"
+		bgm = "sk-home"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -91,7 +91,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "sk-theme",
 		special_bgm = "",
 		time = "",
 		bgm = "login"
@@ -175,7 +175,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	BuildShipScene = {
-		default_bgm = "main",
+		default_bgm = "sk-gachamenu",
 		special_bgm = "",
 		time = "",
 		bgm = "main"
@@ -899,5 +899,53 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "bar-soft"
+	},
+	SenrankaguraMainPage = {
+		default_bgm = "sk-az-battle",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-battle"
+	},
+	SenrankaguraPtPage = {
+		default_bgm = "sk-az-pv2",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-pv2"
+	},
+	SenrankaguraBackHillScene = {
+		default_bgm = "sk-az-story",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-story"
+	},
+	SenrankaguraTaskPage = {
+		default_bgm = "sk-az-pv1",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-pv1"
+	},
+	SenrankaguraMedalScene = {
+		default_bgm = "sk-az-battle",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-battle"
+	},
+	SenrankaguraTrainScene = {
+		default_bgm = "sk-az-pv2",
+		special_bgm = "",
+		time = "",
+		bgm = "sk-az-pv2"
+	},
+	NewServerMainPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	NewServerLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

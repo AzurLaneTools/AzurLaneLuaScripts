@@ -68,7 +68,8 @@ pg.pay_data_display = setmetatable({
 		4907,
 		4908,
 		4909,
-		4910
+		4910,
+		4911
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5972,6 +5973,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45910,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4911] = {
+		subject = "特許巡遊憑證",
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		limit_arg = 1,
+		name = "特許巡遊憑證（十二期）",
+		name_display = "特許巡遊憑證",
+		type_order = 4,
+		extra_gem = 0,
+		id = 4911,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass12",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·福煦限定换装和其他奖励",
+		airijp_id = "com.hkmanjuu.azurlane.battlepass12",
+		extra_service_item = {
+			{
+				1,
+				4012,
+				1500
+			},
+			{
+				8,
+				59468,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4012,
+				1500
+			}
+		},
+		sub_display = {
+			45911,
 			1500
 		},
 		ignorePlatform = {},

@@ -2918,6 +2918,74 @@ pg.map_event_list = {
 			"helpbg/battle_lianjin_jupao"
 		}
 	},
+	[1770001] = {
+		help_open = 0,
+		chapter_id = 1770001,
+		event_list = {
+			869,
+			870
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1770002] = {
+		help_open = 0,
+		chapter_id = 1770002,
+		event_list = {
+			871,
+			872
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1770003] = {
+		help_open = 0,
+		chapter_id = 1770003,
+		event_list = {
+			873,
+			874
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1770004] = {
+		help_open = 0,
+		chapter_id = 1770004,
+		event_list = {
+			875,
+			876
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1770005] = {
+		help_open = 0,
+		chapter_id = 1770005,
+		event_list = {
+			877,
+			878
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[1770041] = {
+		help_open = 0,
+		chapter_id = 1770041,
+		event_list = {
+			879,
+			880,
+			881,
+			882,
+			883,
+			884,
+			885,
+			886,
+			887,
+			888
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	all = {
 		1401,
 		1402,
@@ -3093,6 +3161,12 @@ pg.map_event_list = {
 		1690024,
 		1690025,
 		1690031,
-		1690041
+		1690041,
+		1770001,
+		1770002,
+		1770003,
+		1770004,
+		1770005,
+		1770041
 	}
 }

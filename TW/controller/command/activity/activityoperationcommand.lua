@@ -347,6 +347,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			else
 				slot3.data3 = slot3.data3 + 1
 				slot3.data4 = slot2.number[1]
+				slot3.data1_list[slot1.arg1] = slot3.data4
 			end
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SHRINE then

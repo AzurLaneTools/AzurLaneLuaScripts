@@ -72,10 +72,7 @@ function slot0.didEnter(slot0)
 		}))
 	end)
 	slot0:BindItemSkinShop()
-	slot0:BindItemBuildShip({
-		page = 1,
-		projectName = BuildShipScene.PROJECTS.LIGHT
-	})
+	slot0:BindItemBuildShip()
 	slot0:UpdateView()
 end
 

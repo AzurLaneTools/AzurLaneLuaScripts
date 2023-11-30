@@ -35,7 +35,7 @@ function slot3.GetBubbleFlag(slot0)
 end
 
 function slot3.DoUpdateOxy(slot0, slot1)
-	slot1:OxyRecover()
+	slot1:OxyRecover(uv0.Battle.OxyState.STATE_FREE_FLOAT)
 end
 
 function slot3.IsVisible(slot0)
