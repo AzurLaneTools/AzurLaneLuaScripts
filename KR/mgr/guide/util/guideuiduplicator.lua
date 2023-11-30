@@ -79,8 +79,10 @@ function slot0.InitDuplication(slot0, slot1, slot2, slot3)
 
 	uv2(slot1)
 
-	for slot12 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
-		setActive(slot8[slot12 - 1].gameObject, false)
+	if not slot3.keepScrollTxt then
+		for slot12 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
+			setActive(slot8[slot12 - 1].gameObject, false)
+		end
 	end
 
 	slot1.sizeDelta = slot2.sizeDelta

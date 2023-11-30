@@ -11,12 +11,12 @@ return {
 			style = {
 				dir = -1,
 				mode = 1,
-				posY = -200,
+				posY = 100,
 				posX = 200,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/CommanderDetailUI(Clone)/info/skill_btn",
+				path = "/UICamera/Canvas/UIMain/CommanderCatUI(Clone)/blur_panel/pages/CommanderDetailUI(Clone)/info/skill_btn",
 				triggerType = {
 					2
 				}
@@ -26,12 +26,12 @@ return {
 			style = {
 				dir = -1,
 				mode = 1,
-				posY = -200,
+				posY = 100,
 				posX = 100,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/main/CommanderDetailUI(Clone)/info/addition_btn",
+				path = "/UICamera/Canvas/UIMain/CommanderCatUI(Clone)/blur_panel/pages/CommanderDetailUI(Clone)/info/addition_btn",
 				triggerType = {
 					2
 				}

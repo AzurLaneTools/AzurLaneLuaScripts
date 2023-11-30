@@ -1309,9 +1309,16 @@ function slot1.emit(slot0, slot1, ...)
 					context = slot1
 				})
 			end,
+			sendNotification = function (slot0, ...)
+				uv0.m02:sendNotification(...)
+			end,
 			viewComponent = slot0
 		}
 	end
 
 	return ContextMediator.CommonBindDic[slot1](slot0.analogyMediator, slot1, ...)
+end
+
+function slot1.closeView(slot0)
+	slot0:hide()
 end

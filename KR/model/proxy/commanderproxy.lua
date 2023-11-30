@@ -181,6 +181,12 @@ function slot0.getCommanderById(slot0, slot1)
 	end
 end
 
+function slot0.RawGetCommanderById(slot0, slot1)
+	if slot0.data[slot1] then
+		return slot2
+	end
+end
+
 function slot0.GetSameConfigIdCommanderCount(slot0, slot1)
 	slot2 = 0
 

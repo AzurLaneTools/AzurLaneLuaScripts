@@ -93,7 +93,7 @@ return {
 			actorName = "세 함선 소녀",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "「「「教えてください、ニーミ先生！」」」",
+			say = "「「「가르쳐 주세요, Z23 선생님!」」」",
 			subActors = {
 				{
 					actor = 201210,

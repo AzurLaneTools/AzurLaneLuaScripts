@@ -29,9 +29,9 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0._commanderBtn, function ()
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COMMANDROOM, {
+		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COMMANDERCAT, {
 			fromMain = true,
-			fleetType = CommandRoomScene.FLEET_TYPE_COMMON
+			fleetType = CommanderCatScene.FLEET_TYPE_COMMON
 		})
 		uv0:Hide()
 	end, SFX_MAIN)
@@ -54,7 +54,7 @@ function slot0.Show(slot0)
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator") then
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator") then
 		slot0._commanderBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
 	else
 		slot0._commanderBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)

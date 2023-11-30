@@ -1,4 +1,6 @@
 slot0 = class("CommanderHomeLayer", import("...base.BaseUI"))
+slot0.DESC_PAGE_OPEN = "CommanderHomeLayer:DESC_PAGE_OPEN"
+slot0.DESC_PAGE_CLOSE = "CommanderHomeLayer:DESC_PAGE_CLOSE"
 
 function slot0.getUIName(slot0)
 	return "CommanderHomeUI"
@@ -120,11 +122,13 @@ function slot0.OnDisplayAwardDone(slot0, slot1)
 end
 
 function slot0.init(slot0)
+	slot0.frame = slot0:findTF("bg")
 	slot0.closeBtn = slot0:findTF("bg/frame/close_btn")
 	slot0.levelInfoBtn = slot0:findTF("bg/frame/title/help")
 	slot0.levelTxt = slot0:findTF("bg/frame/title/Text"):GetComponent(typeof(Text))
 	slot0.scrollRect = slot0:findTF("bg/frame/scrollrect"):GetComponent("ScrollRect")
 	slot0.scrollRectContent = slot0:findTF("bg/frame/scrollrect/content")
+	slot0.batchBtn = slot0:findTF("bg/frame/batch")
 	slot0.opAnim = slot0:findTF("animation"):GetComponent(typeof(Animator))
 	slot0.UIlist = UIItemList.New(slot0.scrollRectContent, slot0.scrollRectContent:Find("tpl"))
 	slot0.helpBtn = slot0:findTF("bg/frame/help")
@@ -133,6 +137,7 @@ function slot0.init(slot0)
 	slot0.catteryDescPage = CatteryDescPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.levelInfoPage = CommanderHomeLevelInfoPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.awardDisplayView = CatteryOpAnimPage.New(slot0._tf, slot0.event)
+	slot0.batchSelPage = CommanderHomeBatchSelPage.New(slot0._tf, slot0.event)
 	slot0.flower = CatteryFlowerView.New(slot0:findTF("bg/frame/flower"))
 	slot0.bubbleTF = slot0:findTF("bg/bubble")
 	slot0.bubbleClean = slot0.bubbleTF:Find("clean")
@@ -140,7 +145,17 @@ function slot0.init(slot0)
 	slot0.bubblePlay = slot0.bubbleTF:Find("play")
 end
 
+function slot0.RegisterEvent(slot0)
+	slot0:bind(uv0.DESC_PAGE_CLOSE, function ()
+		setActive(uv0.frame, true)
+	end)
+	slot0:bind(uv0.DESC_PAGE_OPEN, function ()
+		setActive(uv0.frame, false)
+	end)
+end
+
 function slot0.didEnter(slot0)
+	slot0:RegisterEvent()
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -171,6 +186,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.bubblePlay, function ()
 		uv0:CancelOpAnim()
 		uv0:emit(CommanderHomeMediator.ON_PLAY)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.batchBtn, function ()
+		uv0.batchSelPage:ExecuteAction("Update", uv0.home)
 	end, SFX_PANEL)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -307,6 +325,10 @@ function slot0.onBackPressed(slot0)
 		slot0.levelInfoPage:Hide()
 
 		return
+	end
+
+	if slot0.batchSelPage:GetLoaded() and slot0.batchSelPage:isShowing() then
+		slot0.batchSelPage:Hide()
 	end
 
 	uv0.super.onBackPressed(slot0)

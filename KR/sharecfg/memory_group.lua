@@ -254,7 +254,8 @@ pg.memory_group = setmetatable({
 		588,
 		589,
 		590,
-		591
+		591,
+		592
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5491,6 +5492,23 @@ pg.base.memory_group = {
 			3055,
 			3056,
 			3057
+		}
+	},
+	[592] = {
+		id = 592,
+		subtype = 0,
+		icon = "title_chara_pangpei",
+		type = 3,
+		link_event = 0,
+		title = "캡틴 폼페이에게 맡겨주시라!",
+		memories = {
+			3131,
+			3132,
+			3133,
+			3134,
+			3135,
+			3136,
+			3137
 		}
 	}
 }

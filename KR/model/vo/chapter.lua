@@ -576,9 +576,14 @@ function slot0.IsEliteFleetLegal(slot0)
 	slot5, slot6 = nil
 
 	for slot10 = 1, #slot0.eliteFleetList do
-		slot11, slot12 = slot0:singleEliteFleetVertify(slot10)
+		xpcall(function ()
+			uv0, uv1 = uv2:singleEliteFleetVertify(uv3)
+		end, function (slot0)
+			debug.traceback(slot0)
+			error("singleEliteFleetVertify Error")
+		end)
 
-		if not slot11 then
+		if not nil then
 			if not slot12 then
 				if slot10 >= 3 then
 					slot3 = slot3 + 1
@@ -778,26 +783,12 @@ end
 function slot0.singleEliteFleetVertify(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
 
-	if not slot0.eliteFleetList[slot1] or #slot3 == 0 then
-		return false
+	if not (slot0.eliteFleetList and slot0.eliteFleetList[slot1]) then
+		error("eliteFleetList empty")
 	end
 
-	slot4 = 0
-	slot5 = 0
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot3) do
-		if slot2[slot11]:getFlag("inEvent") then
-			return false, i18n("elite_disable_ship_escort")
-		end
-
-		if slot12:getTeamType() == TeamType.Main then
-			slot4 = slot4 + 1
-		elseif slot13 == TeamType.Vanguard then
-			slot5 = slot5 + 1
-		end
-
-		slot6[#slot6 + 1] = slot12:getShipType()
+	if not slot3 or #slot3 == 0 then
+		return false
 	end
 
 	if slot1 >= 3 then
@@ -808,13 +799,37 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 		return true
 	end
 
+	slot4 = 0
+	slot5 = 0
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot3) do
+		if slot2[slot11] then
+			if slot12:getFlag("inEvent") then
+				return false, i18n("elite_disable_ship_escort")
+			end
+
+			if slot12:getTeamType() == TeamType.Main then
+				slot4 = slot4 + 1
+			elseif slot13 == TeamType.Vanguard then
+				slot5 = slot5 + 1
+			end
+
+			slot6[#slot6 + 1] = slot12:getShipType()
+		else
+			error("ship empty")
+		end
+	end
+
 	if slot4 * slot5 == 0 and slot4 + slot5 ~= 0 then
 		return false
 	end
 
-	slot7 = slot0:getConfig("limitation")[slot1]
-
-	assert(slot7, "Missing chapter config [limitation] Id: " .. slot0.id)
+	if not checkExist(slot0:getConfig("limitation"), {
+		slot1
+	}) then
+		error("Missing chapter config [limitation] Id: " .. slot0.id)
+	end
 
 	slot8 = 1
 	slot9 = ipairs

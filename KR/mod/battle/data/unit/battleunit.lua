@@ -891,6 +891,10 @@ function slot9.Boost(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot4, slot5)
 end
 
+function slot9.ActiveUnstoppable(slot0, slot1)
+	slot0._move:ActiveUnstoppable(slot1)
+end
+
 function slot9.SetImmuneCommonBulletCLD(slot0)
 	slot0._immuneCommonBulletCLD = true
 end
@@ -1200,6 +1204,10 @@ end
 
 function slot9.GetTemplate(slot0)
 	return nil
+end
+
+function slot9.GetTemplateValue(slot0, slot1)
+	return slot0:GetTemplate()[slot1]
 end
 
 function slot9.GetUniqueID(slot0)

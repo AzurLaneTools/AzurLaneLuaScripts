@@ -16202,7 +16202,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5053,
-		is_show = 51,
+		is_show = 37,
 		id = 5053,
 		config_data = {
 			{
@@ -16607,42 +16607,16 @@ pg.activity_template = {
 	},
 	[5063] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 14,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5063,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5064] = {
 		mark = 20231109,
@@ -16651,7 +16625,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 13,
-		is_show = 38,
+		is_show = 37,
 		id = 5064,
 		config_data = {},
 		time = {
@@ -16688,42 +16662,16 @@ pg.activity_template = {
 	},
 	[5065] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5065,
 		config_data = {
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			60435
@@ -16731,41 +16679,15 @@ pg.activity_template = {
 	},
 	[5066] = {
 		mark = 20231109,
-		config_client = "",
 		title_res_tag = "yidaliV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 48,
 		is_show = 35,
+		config_client = "",
 		id = 5066,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "DaofengV2LoginPage",
 			ui_name = "DaofengV2LoginPage"
@@ -16773,42 +16695,16 @@ pg.activity_template = {
 	},
 	[5067] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5067,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5068] = {
 		mark = 20231109,
@@ -16851,12 +16747,13 @@ pg.activity_template = {
 	},
 	[5069] = {
 		mark = 20231109,
-		id = 5069,
 		title_res_tag = "daofeng_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 40,
+		id = 5069,
 		config_data = {
 			1560001,
 			1560002,
@@ -16864,33 +16761,6 @@ pg.activity_template = {
 			1560021,
 			1560022,
 			1560023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "DaofengMainRePage",
@@ -16902,12 +16772,13 @@ pg.activity_template = {
 	},
 	[5070] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5070,
 		config_data = {
 			1560004,
@@ -16919,45 +16790,19 @@ pg.activity_template = {
 			1560041,
 			1560052
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[5071] = {
 		mark = 20231109,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5071,
 		config_data = {
@@ -16980,33 +16825,6 @@ pg.activity_template = {
 			19421,
 			19422,
 			19424
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5072] = {
@@ -17055,7 +16873,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5073,
-		is_show = 39,
+		is_show = 38,
 		id = 5073,
 		config_data = {},
 		time = {
@@ -17245,6 +17063,120 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[5078] = {
+		mark = 20231116,
+		id = 5078,
+		title_res_tag = "collection_event_pt",
+		type = 11,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 39,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CollectionEventPtPage",
+			ui_name = "CollectionEventPtPage"
+		},
+		config_client = {
+			shopActID = 5079
+		}
+	},
+	[5079] = {
+		mark = 20231116,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5079,
+		config_data = {
+			2317,
+			2318,
+			2319,
+			2320,
+			2321,
+			2322,
+			2323,
+			2324,
+			2325,
+			2326,
+			2327,
+			2328
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_commission",
+			{
+				0.925,
+				0.925,
+				0.925,
+				1
+			},
+			pt_id = 379,
+			use_secretary = false,
+			painting = "mengfeisi_pt",
+			event_shop = true,
+			outline = {
+				0,
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -19727,8 +19659,8 @@ pg.activity_template = {
 			{
 				{
 					2023,
-					5,
-					19
+					12,
+					1
 				},
 				{
 					0,
@@ -19739,8 +19671,8 @@ pg.activity_template = {
 			{
 				{
 					2023,
-					5,
-					28
+					12,
+					10
 				},
 				{
 					23,
@@ -23626,6 +23558,8 @@ pg.activity_template = {
 		5074,
 		5075,
 		5077,
+		5078,
+		5079,
 		7004,
 		7005,
 		7006,

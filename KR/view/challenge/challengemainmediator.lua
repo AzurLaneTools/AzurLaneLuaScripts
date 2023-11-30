@@ -93,12 +93,12 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2)
-		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
-			mode = CommandRoomScene.MODE_SELECT,
+			mode = CommanderCatScene.MODE_SELECT,
 			activeCommander = uv0:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2],
 			ignoredIds = {},
-			fleetType = CommandRoomScene.FLEET_TYPE_CHALLENGE,
+			fleetType = CommanderCatScene.FLEET_TYPE_CHALLENGE,
 			onCommander = function (slot0)
 				return true
 			end,

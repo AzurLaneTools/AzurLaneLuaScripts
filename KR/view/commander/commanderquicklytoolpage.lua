@@ -67,7 +67,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		uv0:emit(CommandRoomMediator.ON_USE_QUICKLY_TOOL, uv0.itemId, uv0.value, uv0.boxId)
+		uv0:emit(CommanderCatMediator.USE_QUICKLY_TOOL, uv0.itemId, uv0.value, uv0.boxId)
 		uv0:Hide()
 	end, SFX_PANEL)
 end

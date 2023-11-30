@@ -9,11 +9,11 @@ slot0.ON_ACTIVE_TECH = "CommissionInfoMediator.ON_ACTIVE_TECH"
 slot0.ON_TECH_FINISHED = "CommissionInfoMediator.ON_TECH_FINISHED"
 slot0.ON_TECH_QUEUE_FINISH = "CommissionInfoMediator.ON_TECH_QUEUE_FINISH"
 slot0.ON_INS = "CommissionInfoMediator.ON_INS"
-slot0.ON_UR_ACTIVITY = "CommanderInfoMediator:ON_UR_ACTIVITY"
-slot0.ON_CRUSING = "CommanderInfoMediator.ON_CRUSING"
-slot0.GET_CLASS_RES = "CommanderInfoMediator:GET_CLASS_RES"
-slot0.FINISH_CLASS_ALL = "CommanderInfoMediator:FINISH_CLASS_ALL"
-slot0.GO_META_BOSS = "CommanderInfoMediator:GO_META_BOSS"
+slot0.ON_UR_ACTIVITY = "CommissionInfoMediator:ON_UR_ACTIVITY"
+slot0.ON_CRUSING = "CommissionInfoMediator.ON_CRUSING"
+slot0.GET_CLASS_RES = "CommissionInfoMediator:GET_CLASS_RES"
+slot0.FINISH_CLASS_ALL = "CommissionInfoMediator:FINISH_CLASS_ALL"
+slot0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())

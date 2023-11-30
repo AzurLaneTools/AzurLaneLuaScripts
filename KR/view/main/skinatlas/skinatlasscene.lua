@@ -41,7 +41,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.indexBtn, function ()
 		uv0:emit(SkinAtlasMediator.OPEN_INDEX, {
@@ -69,7 +69,7 @@ function slot0.didEnter(slot0)
 	onInputChanged(slot0, slot0.inptuTr, function ()
 		uv0:OnSearch()
 	end)
-	slot0:InitSkinPages(next)
+	slot0:InitSkinPages()
 end
 
 function slot0.SwitchPreviewSkin(slot0, slot1)
@@ -192,26 +192,34 @@ function slot0.MatchIndex(slot0, slot1)
 	return ShipIndexConst.filterByType(slot3, slot0.defaultIndex.typeIndex) and ShipIndexConst.filterByCamp(slot3, slot0.defaultIndex.campIndex) and ShipIndexConst.filterByRarity(slot3, slot0.defaultIndex.rarityIndex) and SkinAtlasIndexLayer.filterByExtra(slot1, slot0.defaultIndex.extraIndex)
 end
 
-function slot0.UpdateSkinCards(slot0)
-	slot1 = slot0.skinPageID
-	slot2 = getInputText(slot0.inptuTr)
-	slot0.displays = {}
+function slot0.GetSkinList(slot0, slot1, slot2)
+	slot3 = {}
 
-	for slot7, slot8 in pairs(getProxy(ShipSkinProxy):GetOwnSkins()) do
-		if (slot1 == uv0.PAGE_ALL or slot8:IsType(slot1)) and not slot8:IsDefault() and slot8:IsMatchKey(slot2) and slot0:MatchIndex(slot8) then
-			table.insert(slot0.displays, slot8)
+	for slot8, slot9 in pairs(getProxy(ShipSkinProxy):GetOwnSkins()) do
+		if (slot1 == uv0.PAGE_ALL or slot9:IsType(slot1)) and not slot9:IsDefault() and slot9:IsMatchKey(slot2) and slot0:MatchIndex(slot9) then
+			table.insert(slot3, slot9)
 		end
 	end
 
-	table.sort(slot0.displays, function (slot0, slot1)
+	return slot3
+end
+
+function slot0.UpdateSkinCards(slot0)
+	slot0.displays = slot0:GetSkinList(slot0.skinPageID, getInputText(slot0.inptuTr))
+
+	slot0:SortDisplay(slot0.displays)
+	slot0.scrollrect:SetTotalCount(#slot0.displays)
+	setActive(slot0.emptyTr, #slot0.displays == 0)
+end
+
+function slot0.SortDisplay(slot0, slot1)
+	table.sort(slot1, function (slot0, slot1)
 		if slot0:getConfig("ship_group") == slot1:getConfig("ship_group") then
 			return slot0:getConfig("group_index") < slot1:getConfig("group_index")
 		else
 			return slot2 < slot3
 		end
 	end)
-	slot0.scrollrect:SetTotalCount(#slot0.displays)
-	setActive(slot0.emptyTr, #slot0.displays == 0)
 end
 
 function slot0.OnInitItem(slot0, slot1)

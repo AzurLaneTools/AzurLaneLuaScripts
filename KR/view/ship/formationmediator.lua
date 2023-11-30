@@ -146,10 +146,10 @@ function slot0.onSelectCommander(slot0, slot1)
 		end
 	end
 
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 		maxCount = 1,
-		mode = CommandRoomScene.MODE_SELECT,
-		fleetType = CommandRoomScene.FLEET_TYPE_COMMON,
+		mode = CommanderCatScene.MODE_SELECT,
+		fleetType = CommanderCatScene.FLEET_TYPE_COMMON,
 		activeCommander = slot4,
 		ignoredIds = slot5,
 		onCommander = function (slot0)

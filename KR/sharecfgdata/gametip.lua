@@ -622,10 +622,6 @@ _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>불만</color>"
 }
 
-_G.pg.base.gametip.word_secondseach = {
-	tip = "/회"
-}
-
 _G.pg.base.gametip.word_max_page = {
 	tip = "최대"
 }
@@ -8607,6 +8603,10 @@ _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 
 _G.pg.base.gametip.twitter_link_title = {
 	tip = "连接中的推特账号：$1"
+}
+
+_G.pg.base.gametip.commander_material_noenough = {
+	tip = "재료 부족"
 }
 
 _G.pg.base.gametip.battle_result_boss_destruct = {
@@ -25593,4 +25593,156 @@ _G.pg.base.gametip.roll_ending_tip1 = {
 
 _G.pg.base.gametip.roll_ending_tip2 = {
 	tip = "여전히 미탐색 구역이 있으니, 옛 성채 1F와 2F에서 조사를 완료하세요"
+}
+
+_G.pg.base.gametip.commandercat_label_raw_name = {
+	tip = "기존 이름"
+}
+
+_G.pg.base.gametip.commandercat_label_custom_name = {
+	tip = "변경 후 이름"
+}
+
+_G.pg.base.gametip.commandercat_label_display_name = {
+	tip = "변경 후 이름"
+}
+
+_G.pg.base.gametip.commander_selected_max = {
+	tip = "지휘냥 최대 $1마리 선택 가능"
+}
+
+_G.pg.base.gametip.word_talent = {
+	tip = "어빌리티"
+}
+
+_G.pg.base.gametip.word_click_to_close = {
+	tip = "화면을 탭하여 닫기"
+}
+
+_G.pg.base.gametip.commander_subtile_ablity = {
+	tip = "能力加成"
+}
+
+_G.pg.base.gametip.commander_subtile_talent = {
+	tip = "天赋加成"
+}
+
+_G.pg.base.gametip.commander_confirm_tip = {
+	tip = "*확정을 탭하면 강화 재료로 지정된 지휘냥이 사라집니다."
+}
+
+_G.pg.base.gametip.commander_level_up_tip = {
+	tip = "* 지휘냥의 레벨이 5 상승할 때마다 어빌리티 포인트 1 획득"
+}
+
+_G.pg.base.gametip.commander_skill_effect = {
+	tip = "스킬 효과"
+}
+
+_G.pg.base.gametip.commander_choice_talent_1 = {
+	tip = "습득·강화 어빌리티 선택"
+}
+
+_G.pg.base.gametip.commander_choice_talent_2 = {
+	tip = "선택 가능 어빌리티"
+}
+
+_G.pg.base.gametip.commander_choice_talent_3 = {
+	tip = "새로 습득할 수 없습니다. 교체할 어빌리티를 선택하십시오."
+}
+
+_G.pg.base.gametip.commander_get_box_tip_1 = {
+	tip = "喵箱??型"
+}
+
+_G.pg.base.gametip.commander_get_box_tip = {
+	tip = "可能收到随机类型的喵箱，\n敬请期待喵!"
+}
+
+_G.pg.base.gametip.commander_total_gold = {
+	tip = "合计价格："
+}
+
+_G.pg.base.gametip.commander_use_box_tip = {
+	tip = "选择喵箱"
+}
+
+_G.pg.base.gametip.commander_use_box_queue = {
+	tip = "培育队列"
+}
+
+_G.pg.base.gametip.commander_command_ability = {
+	tip = "指挥能力"
+}
+
+_G.pg.base.gametip.commander_logistics_ability = {
+	tip = "后勤能力"
+}
+
+_G.pg.base.gametip.commander_tactical_ability = {
+	tip = "战术能力"
+}
+
+_G.pg.base.gametip.commander_choice_talent_4 = {
+	tip = "*使用天赋点可能获得天赋的成长"
+}
+
+_G.pg.base.gametip.commander_rename_tip = {
+	tip = "**每只指挥喵每天只能进行一次更名操作"
+}
+
+_G.pg.base.gametip.commander_home_level_label = {
+	tip = "현재 레벨"
+}
+
+_G.pg.base.gametip.commander_get_commander_coptyright = {
+	tip = "지휘냥 센터――"
+}
+
+_G.pg.base.gametip.commander_choice_talent_reset = {
+	tip = "물자 $1을 소비하여 어빌리티를 초기화하시겠습니까? \t어빌리티가 초기 배치로 돌아가, 어빌리티 포인트 $2 획득 가능"
+}
+
+_G.pg.base.gametip.commander_lock_setting_title = {
+	tip = "훈련 완료 시, 다음 조건을 만족시키는 지휘냥의 잠금 확인"
+}
+
+_G.pg.base.gametip.skin_exchange_confirm = {
+	tip = "<color=#92fc63>$1×1</color>을 소비하여 <color=#92fc63>$2</color>)로 교환하시겠습니까?"
+}
+
+_G.pg.base.gametip.skin_purchase_confirm = {
+	tip = "<color=#92fc63>$1×1</color>을 소비하여 할인가 <icon name=gem w=0.7 h=0.7/> $2로 $3 스킨을 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.blackfriday_pack_lock = {
+	tip = "礼包将于$1解锁购买 "
+}
+
+_G.pg.base.gametip.skin_exchange_title = {
+	tip = "아래 스킨 교환 가능"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+}
+
+_G.pg.base.gametip.skin_discount_desc = {
+	tip = "$1×1을 소비하여 할인가 $2로 $3 스킨을 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.skin_exchange_timelimit = {
+	tip = "아래 아이템의 교환 대상은 $1 점검 후에 변경됩니다. 가급적 빠르게 사용하시기 바랍니다."
+}
+
+_G.pg.base.gametip.blackfriday_pack_purchased = {
+	tip = "已购买"
+}
+
+_G.pg.base.gametip.commander_unsel_lock_flag_tip = {
+	tip = "보호 확인이 설정되어 있지 않습니다. 지휘냥 훈련 완료 시에 보호 확인 화면이 표시되지 않습니다."
+}
+
+_G.pg.base.gametip.skin_discount_timelimit = {
+	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
 }

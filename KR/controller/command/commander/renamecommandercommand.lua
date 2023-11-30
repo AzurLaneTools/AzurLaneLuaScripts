@@ -39,7 +39,10 @@ function slot0.execute(slot0, slot1)
 			uv0:setName(uv1)
 			uv0:setRenameTime(pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.commander_rename_coldtime.key_value)
 			uv2:updateCommander(uv0)
-			uv3:sendNotification(GAME.COMMANDER_RENAME_DONE)
+			uv3:sendNotification(GAME.COMMANDER_RENAME_DONE, {
+				id = uv0.id,
+				name = uv1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("rename_commander_erro", slot0.result))
 		end

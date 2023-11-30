@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 	slot6 = getProxy(CommanderProxy)
 	slot7 = slot6:getBoxById(slot2.id)
 
-	if getProxy(PlayerProxy):getData().commanderBagMax <= slot6:getCommanderCnt() then
+	if getProxy(PlayerProxy):getRawData().commanderBagMax <= slot6:getCommanderCnt() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_capcity_is_max"))
 
 		if slot4 then

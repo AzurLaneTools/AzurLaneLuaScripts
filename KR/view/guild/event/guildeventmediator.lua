@@ -240,10 +240,10 @@ function slot0.SelectBossBattleCommander(slot0, slot1, slot2, slot3)
 		table.insert(slot9, slot3.id)
 	end
 
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 		maxCount = 1,
-		mode = CommandRoomScene.MODE_SELECT,
-		fleetType = CommandRoomScene.FLEET_TYPE_GUILDBOSS,
+		mode = CommanderCatScene.MODE_SELECT,
+		fleetType = CommanderCatScene.FLEET_TYPE_GUILDBOSS,
 		activeCommander = slot3,
 		ignoredIds = slot9,
 		fleets = slot0.contextData.editBossFleet,

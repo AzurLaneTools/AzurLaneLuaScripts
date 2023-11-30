@@ -1,5 +1,5 @@
-slot0 = class("CommanderIndexPage", import("...base.BaseSubView"))
-slot1 = {
+class("CommanderIndexPage", import("...base.BaseSubView")).NATION_OTHER = -1
+slot4 = {
 	sort = {
 		{
 			i18n("word_achieved_item"),
@@ -14,16 +14,7 @@ slot1 = {
 			"Rarity"
 		}
 	},
-	nation = {
-		Nation.US,
-		Nation.EN,
-		Nation.JP,
-		Nation.DE,
-		Nation.CN,
-		Nation.SN,
-		Nation.FF,
-		Nation.MNF
-	},
+	nation = {},
 	rarity = {
 		{
 			i18n("word_ssr"),
@@ -37,28 +28,71 @@ slot1 = {
 			i18n("word_r"),
 			3
 		}
+	},
+	name = {
+		{
+			i18n("commandercat_label_raw_name"),
+			1
+		},
+		{
+			i18n(slot8),
+			2
+		}
 	}
 }
+slot8 = "commandercat_label_custom_name"
+
+for slot8, slot9 in ipairs({
+	Nation.US,
+	Nation.EN,
+	Nation.JP,
+	Nation.DE,
+	Nation.CN,
+	Nation.SN,
+	Nation.FF,
+	Nation.MNF
+}) do
+	table.insert(slot4.nation, slot9)
+end
+
+table.insert(slot4.nation, slot0.NATION_OTHER)
+
+function slot0.IsOtherNation(slot0)
+	if not uv0.displayNations then
+		uv0.displayNations = {}
+
+		for slot4, slot5 in ipairs(uv1) do
+			uv0.displayNations[slot5] = true
+		end
+	end
+
+	return uv0.displayNations[slot0] ~= true
+end
 
 function slot0.getUIName(slot0)
 	return "CommanderIndexUI"
 end
 
-function slot0.OnInit(slot0)
-	slot0.inited = false
-
-	slot0:resetData()
-
-	slot0.sortPanel = slot0:findTF("frame/frame/frame/sort_panel")
-	slot0.tpl = slot0:findTF("tpl", slot0.sortPanel)
-	slot0.nationPanel = slot0:findTF("frame/frame/frame/nation_panel")
-	slot0.nationAllBtn = slot0:findTF("all_btn", slot0.nationPanel)
-	slot0.rarityPanel = slot0:findTF("frame/frame/frame/rarity_panel")
-	slot0.rarityAllBtn = slot0:findTF("content/all", slot0.rarityPanel)
+function slot0.OnLoaded(slot0)
+	slot0.sortPanel = slot0:findTF("frame/frame/frame/sort_panel/content")
+	slot0.nationPanel = slot0:findTF("frame/frame/frame/nation_panel/content")
+	slot0.rarityPanel = slot0:findTF("frame/frame/frame/rarity_panel/content")
+	slot0.namePanel = slot0:findTF("frame/frame/frame/name_panel/content")
+	slot0.sortTpl = slot0.sortPanel:Find("tpl")
+	slot0.nationTpl = slot0.nationPanel:Find("tpl")
+	slot0.rarityTpl = slot0.rarityPanel:Find("tpl")
+	slot0.nameTpl = slot0.namePanel:Find("tpl")
 	slot0.cancelBtn = slot0:findTF("frame/frame/cancel_btn")
 	slot0.confirmBtn = slot0:findTF("frame/frame/confirm_btn")
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
 
+	setText(slot0:findTF("frame/frame/frame/sort_panel/title/Text"), i18n("indexsort_sort"))
+	setText(slot0:findTF("frame/frame/frame/nation_panel/title/Text"), i18n("indexsort_camp"))
+	setText(slot0:findTF("frame/frame/frame/rarity_panel/title/Text"), i18n("indexsort_rarity"))
+	setText(slot0:findTF("frame/frame/frame/name_panel/title/Text"), i18n("commandercat_label_display_name"))
+end
+
+function slot0.OnInit(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -69,26 +103,53 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.confirm then
-			uv0.confirm()
-		end
+		uv0.data.displayCustomName = uv0.displayName == uv1
 
+		uv0:emit(CommanderCatDockPage.ON_SORT, uv0.data.displayCustomName)
 		uv0:Hide()
 	end, SFX_PANEL)
-	slot0:initToggle()
+
+	slot0.nationAllBtn = cloneTplTo(slot0.nationTpl, slot0.nationPanel)
+
+	setText(slot0.nationAllBtn:Find("Text"), i18n("index_all"))
+	onToggle(slot0, slot0.nationAllBtn, function (slot0)
+		if slot0 then
+			for slot4, slot5 in pairs(uv0.nationToggles) do
+				triggerToggle(slot5, false)
+			end
+
+			uv0.data.nationData = {}
+		end
+
+		setToggleEnabled(uv0.nationAllBtn, not slot0)
+	end, SFX_PANEL)
+
+	slot0.rarityAllBtn = cloneTplTo(slot0.rarityTpl, slot0.rarityPanel)
+
+	setText(slot0.rarityAllBtn:Find("Text"), i18n("index_all"))
+	onToggle(slot0, slot0.rarityAllBtn, function (slot0)
+		if slot0 then
+			for slot4, slot5 in pairs(uv0.rarityToggles) do
+				triggerToggle(slot5, false)
+			end
+
+			uv0.data.rarityData = {}
+		end
+
+		setToggleEnabled(uv0.rarityAllBtn, not slot0)
+	end, SFX_PANEL)
+	slot0:Reset()
+	slot0:InitSort()
+	slot0:InitNation()
+	slot0:InitRarity()
+	slot0:InitDisplayName()
 end
 
-function slot0.initToggle(slot0)
-	slot0:initSort()
-	slot0:initNation()
-	slot0:initRarity()
-end
-
-function slot0.initSort(slot0)
+function slot0.InitSort(slot0)
 	slot0.sortToggles = {}
 
 	for slot4, slot5 in ipairs(uv0.sort) do
-		slot6 = cloneTplTo(slot0.tpl, slot0.sortPanel:Find("content"))
+		slot6 = cloneTplTo(slot0.sortTpl, slot0.sortPanel)
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
@@ -101,27 +162,11 @@ function slot0.initSort(slot0)
 	end
 end
 
-function slot0.initNation(slot0)
+function slot0.InitNation(slot0)
 	slot0.nationToggles = {}
 
-	function slot4(slot0)
-		if slot0 then
-			for slot4, slot5 in pairs(uv0.nationToggles) do
-				triggerToggle(slot5, false)
-			end
-
-			uv0.data.nationData = {}
-		end
-
-		setToggleEnabled(uv0.nationAllBtn, not slot0)
-	end
-
-	slot5 = SFX_PANEL
-
-	onToggle(slot0, slot0.nationAllBtn, slot4, slot5)
-
 	for slot4, slot5 in pairs(uv0.nation) do
-		slot6 = cloneTplTo(slot0.nationAllBtn, slot0.nationPanel:Find("content"))
+		slot6 = cloneTplTo(slot0.nationTpl, slot0.nationPanel)
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
@@ -142,33 +187,25 @@ function slot0.initNation(slot0)
 				end
 			end
 		end, SFX_PANEL)
-		setText(slot6:Find("Text"), Nation.Nation2Name(slot5))
+		setText(slot6:Find("Text"), slot0:Nation2Name(slot5))
 
 		slot0.nationToggles[slot5] = slot6
 	end
 end
 
-function slot0.initRarity(slot0)
+function slot0.Nation2Name(slot0, slot1)
+	if slot1 == uv0.NATION_OTHER then
+		return i18n("index_other")
+	else
+		return Nation.Nation2Name(slot1)
+	end
+end
+
+function slot0.InitRarity(slot0)
 	slot0.rarityToggles = {}
 
-	function slot4(slot0)
-		if slot0 then
-			for slot4, slot5 in pairs(uv0.rarityToggles) do
-				triggerToggle(slot5, false)
-			end
-
-			uv0.data.rarityData = {}
-		end
-
-		setToggleEnabled(uv0.rarityAllBtn, not slot0)
-	end
-
-	slot5 = SFX_PANEL
-
-	onToggle(slot0, slot0.rarityAllBtn, slot4, slot5)
-
 	for slot4, slot5 in pairs(uv0.rarity) do
-		slot6 = cloneTplTo(slot0.rarityAllBtn, slot0.rarityPanel:Find("content"))
+		slot6 = cloneTplTo(slot0.rarityTpl, slot0.rarityPanel)
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
@@ -195,13 +232,30 @@ function slot0.initRarity(slot0)
 	end
 end
 
+function slot0.InitDisplayName(slot0)
+	slot0.nameToggles = {}
+
+	for slot4, slot5 in ipairs(uv0.name) do
+		slot6 = cloneTplTo(slot0.nameTpl, slot0.namePanel)
+
+		setText(slot6:Find("Text"), slot5[1])
+		onToggle(slot0, slot6, function (slot0)
+			if slot0 then
+				uv0.displayName = uv1[2]
+			end
+		end, SFX_PANEL)
+
+		slot0.nameToggles[slot5[2]] = slot6
+	end
+end
+
 function slot0.Show(slot0, slot1)
 	setActive(slot0._tf, true)
-	slot0:updateSelected(slot1)
+	slot0.UpdateSelected(slot0, slot1)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-function slot0.updateSelected(slot0, slot1)
+function slot0.UpdateSelected(slot0, slot1)
 	triggerToggle(slot0.sortToggles[slot1.sortData or "Level"], true)
 
 	if #(slot1.nationData or {}) > 0 then
@@ -219,11 +273,14 @@ function slot0.updateSelected(slot0, slot1)
 	else
 		triggerToggle(slot0.rarityAllBtn, true)
 	end
+
+	triggerToggle(slot0.nameToggles[defaultValue(slot1.displayCustomName, true) and uv0 or uv1], true)
 end
 
-function slot0.resetData(slot0)
+function slot0.Reset(slot0)
 	slot0.data = {
 		sortData = "Level",
+		displayCustomName = true,
 		nationData = {},
 		rarityData = {}
 	}
@@ -231,11 +288,12 @@ end
 
 function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
-	slot0:resetData()
+	slot0.Reset(slot0)
 	setParent(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)
+	uv0.displayNations = nil
 end
 
 return slot0

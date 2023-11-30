@@ -6130,12 +6130,12 @@ pg.base.ship_skin_template_11 = {
 		},
 		l2d_para_range = {
 			ParamAngleX = {
-				-25,
-				-15
+				-30,
+				-10
 			},
 			ParamAngleY = {
-				15,
-				25
+				0,
+				30
 			},
 			ParamBodyAngleX = {
 				-10,

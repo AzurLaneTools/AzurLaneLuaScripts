@@ -35,12 +35,7 @@ function slot0.InitFashion(slot0)
 	slot0.onSelected = false
 	slot0.isShareSkinFlag = false
 
-	onToggle(slot0, slot0.shareBtn, function (slot0)
-		uv0.fashionGroup = false
-		uv0.isShareSkinFlag = slot0
-
-		uv0:UpdateFashion(true)
-	end, SFX_PANEL)
+	slot0:RegisterShareToggle()
 	slot0:bind(ShipMainMediator.ON_NEXTSHIP_PREPARE, function (slot0, slot1)
 		if uv0.isShareSkinFlag and slot1 and #uv0:GetShareSkins(slot1) <= 0 then
 			uv0.isShareSkinFlag = false
@@ -248,18 +243,11 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		end)
 	end
 
-	slot5 = (slot0:GetShipVO():proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot0:GetShipVO():getRemouldSkinId() == slot1.id and slot0:GetShipVO():isRemoulded()) and 1 or 0
 	slot6 = slot1.shop_id > 0 and pg.shop_template[slot1.shop_id] or nil
-	slot7 = false
-
-	if HXSet.isHx() and slot6 then
-		slot7 = pg.shop_template[slot6.id].isHX == 1
-	end
-
-	slot8 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
-	slot10 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or slot5 >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD
-	slot11 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
-	slot12 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot1.id)
+	slot7 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
+	slot9 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or ((slot0:GetShipVO():proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot0:GetShipVO():getRemouldSkinId() == slot1.id and slot0:GetShipVO():isRemoulded()) and 1 or 0) >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD
+	slot10 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
+	slot11 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot1.id)
 
 	setGray(slot2.confirm, false)
 	setActive(slot2.using, false)
@@ -267,18 +255,18 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 	setActive(slot2.buy, false)
 	setActive(slot2.experience, false)
 
-	if slot1.id == slot0:GetShipVO().skinId and slot11 and slot11:isExpireType() then
+	if slot1.id == slot0:GetShipVO().skinId and slot10 and slot10:isExpireType() then
 		setActive(slot2.experience, true)
-	elseif slot9 then
+	elseif slot8 then
 		setActive(slot2.using, true)
-	elseif slot10 and ShipSkin.IsShareSkin(slot0:GetShipVO(), slot1.id) and not ShipSkin.CanUseShareSkinForShip(slot0:GetShipVO(), slot1.id) then
+	elseif slot9 and ShipSkin.IsShareSkin(slot0:GetShipVO(), slot1.id) and not ShipSkin.CanUseShareSkinForShip(slot0:GetShipVO(), slot1.id) then
 		setActive(slot2.change, true)
 		setGray(slot2.confirm, true)
-	elseif slot10 then
+	elseif slot9 then
 		setActive(slot2.change, true)
 	elseif slot6 then
 		setActive(slot2.buy, true)
-		setGray(slot2.confirm, slot8 or slot12)
+		setGray(slot2.confirm, slot7 or slot11)
 	else
 		setActive(slot2.change, true)
 		setGray(slot2.confirm, true)
@@ -294,28 +282,13 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		elseif uv4 then
 			if uv5 or uv6 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
+			elseif Goods.Create({
+				shop_id = uv4.id
+			}, Goods.TYPE_SKIN):isDisCount() and slot0:IsItemDiscountType() then
+				uv2:emit(ShipMainMediator.BUY_ITEM_BY_ACT, uv4.id, 1)
 			else
-				slot0 = Goods.Create({
-					shop_id = uv4.id
-				}, Goods.TYPE_SKIN)
-				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv3.name)
-
-				if slot0:isDisCount() and slot0:IsItemDiscountType() then
-					slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, uv3.name)
-				end
-
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = slot3,
-					onYes = function ()
-						if uv0 then
-							uv1:emit(ShipMainMediator.BUY_ITEM_BY_ACT, uv2.id, 1)
-						else
-							uv1:emit(ShipMainMediator.BUY_ITEM, uv2.id, 1)
-						end
-					end
-				})
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(uv3.name)),
+					content = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv3.name),
 					onYes = function ()
 						uv0:emit(ShipMainMediator.BUY_ITEM, uv1.id, 1)
 					end
@@ -328,9 +301,27 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 			return
 		end
 
-		triggerToggle(uv0.shareBtn, false)
+		uv0:SilentTriggerToggleFalse()
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
+end
+
+function slot0.SilentTriggerToggleFalse(slot0)
+	slot0.fashionGroup = false
+	slot0.isShareSkinFlag = false
+
+	removeOnToggle(slot0.shareBtn)
+	triggerToggle(slot0.shareBtn, false)
+	slot0:RegisterShareToggle()
+end
+
+function slot0.RegisterShareToggle(slot0)
+	onToggle(slot0, slot0.shareBtn, function (slot0)
+		uv0.fashionGroup = false
+		uv0.isShareSkinFlag = slot0
+
+		uv0:UpdateFashion()
+	end, SFX_PANEL)
 end
 
 function slot0.OnDestroy(slot0)

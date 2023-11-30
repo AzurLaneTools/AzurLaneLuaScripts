@@ -17,9 +17,11 @@ function slot0.OnInit(slot0)
 
 	slot0.input = findTF(slot0._tf, "frame/bg/content/input")
 	slot0.confirmBtn = slot0._tf:Find("frame/confirm_btn")
+
+	setText(slot0:findTF("frame/bg/content/label"), i18n("commander_rename_tip"))
 end
 
-function slot0.Show(slot0, slot1, slot2)
+function slot0.Show(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0._tf, true)
@@ -30,9 +32,8 @@ function slot0.Show(slot0, slot1, slot2)
 			return
 		end
 
-		if uv1 then
-			uv1(slot0)
-		end
+		uv0:emit(CommanderCatMediator.RENAME, uv1.id, slot0)
+		uv0:Hide()
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
@@ -47,7 +48,9 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0:Hide()
+	if slot0.isShowMsgBox then
+		slot0:Hide()
+	end
 end
 
 return slot0

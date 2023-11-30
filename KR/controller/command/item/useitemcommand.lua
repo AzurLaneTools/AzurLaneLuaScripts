@@ -44,7 +44,7 @@ function slot0.execute(slot0, slot1)
 					id = uv1,
 					count = uv2
 				})
-			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED or uv3.usage == ItemUsage.INVITATION then
+			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED or uv3.usage == ItemUsage.INVITATION or uv3.usage == ItemUsage.SKIN_SELECT then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3.usage == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
@@ -61,7 +61,7 @@ function slot0.execute(slot0, slot1)
 			elseif uv3.usage == ItemUsage.REDUCE_COMMANDER_TIME then
 				uv4:sendNotification(GAME.REFRESH_COMMANDER_BOXES)
 			else
-				assert(false, "未处理类型")
+				assert(false, "未处理类型" .. uv3.usage)
 			end
 
 			if QRJ_ITEM_ID_RANGE[1] <= uv1 and uv1 <= slot2[2] then

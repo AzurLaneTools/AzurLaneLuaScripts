@@ -175,6 +175,19 @@ function slot0.ShowAndCheckDrops(slot0, slot1)
 		end)
 	end
 
+	if underscore.detect(slot1, function (slot0)
+		return slot0.type == DROP_TYPE_ITEM and updateDropCfg(slot0).type == Item.SKIN_ASSIGNED_TYPE and Item.InTimeLimitSkinAssigned(slot0.id)
+	end) then
+		table.insert(slot2, function (slot0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("skin_exchange_usetip", getDropName(uv0)),
+				onYes = slot0,
+				onNo = slot0
+			})
+		end)
+	end
+
 	seriesAsync(slot2, function ()
 		slot0 = nil
 		slot1 = getProxy(TechnologyProxy)

@@ -72406,3 +72406,67 @@ _G.pg.base.shop_template[100104] = {
 		10040
 	}
 }
+
+_G.pg.base.shop_template[100105] = {
+	time_second = 0,
+	resource_type = 3002,
+	genre = "world_collection_task",
+	type = 20,
+	desc = "档案坐标记录仪6",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100105,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2055,
+		10050
+	}
+}
+
+_G.pg.base.shop_template[100106] = {
+	time_second = 0,
+	resource_type = 3002,
+	genre = "world_collection_task",
+	type = 20,
+	desc = "档案坐标记录仪7",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 100106,
+	resource_num = 800,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2056,
+		10060
+	}
+}

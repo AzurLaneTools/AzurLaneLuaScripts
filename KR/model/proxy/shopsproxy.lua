@@ -444,4 +444,20 @@ function slot0.GetRecommendCommodities(slot0)
 	return slot4
 end
 
+function slot0.GetGiftCommodity(slot0, slot1, slot2)
+	if Goods.Create({
+		shop_id = slot1
+	}, slot2):isChargeType() then
+		slot3:updateBuyCount(ChargeConst.getBuyCount(slot0.chargeList, slot3.id))
+	else
+		slot3:updateBuyCount(ChargeConst.getBuyCount(slot0.normalList, slot3.id))
+
+		if (slot3:getConfig("group") or 0) > 0 then
+			slot3:updateGroupCount(ChargeConst.getGroupLimit(slot0.normalGroupList, slot5))
+		end
+	end
+
+	return slot3
+end
+
 return slot0

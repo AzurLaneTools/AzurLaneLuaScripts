@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5069",
+		param = "5078",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					30
 				},
 				{
 					0,
@@ -20,9 +20,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2023,
-					11,
-					30
+					2024,
+					1,
+					25
 				},
 				{
 					23,
@@ -37,10 +37,10 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene equip",
 			{
-				projectName = "new",
-				page = 1
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -48,7 +48,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					30
 				},
 				{
 					0,
@@ -59,8 +59,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					11,
-					30
+					12,
+					7
 				},
 				{
 					23,
@@ -73,36 +73,11 @@ pg.activity_banner = {
 	{
 		id = 3,
 		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -118,10 +93,10 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					9
+					3
 				},
 				{
-					0,
+					12,
 					0,
 					0
 				}
@@ -130,7 +105,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					22
+					10
 				},
 				{
 					23,
@@ -174,9 +149,21 @@ pg.activity_banner = {
 	},
 	{
 		param = "5053",
-		id = 6,
-		pic = "temp9",
+		time = "stop",
 		type = 3,
+		id = 6,
+		pic = "temp9"
+	},
+	{
+		id = 7,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
@@ -194,44 +181,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					11,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					29
+					15
 				},
 				{
 					23,
@@ -253,7 +203,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					9
 				},
 				{
 					0,
@@ -265,7 +215,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					29
+					15
 				},
 				{
 					23,
@@ -290,7 +240,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					9
 				},
 				{
 					0,
@@ -302,7 +252,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					29
+					15
 				},
 				{
 					23,
@@ -322,7 +272,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					9
 				},
 				{
 					0,
@@ -334,7 +284,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					29
+					15
 				},
 				{
 					23,
@@ -368,7 +318,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					23
+					9
 				},
 				{
 					0,
@@ -380,7 +330,7 @@ pg.activity_banner = {
 				{
 					2023,
 					11,
-					29
+					15
 				},
 				{
 					23,

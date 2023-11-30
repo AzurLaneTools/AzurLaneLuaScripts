@@ -2,7 +2,13 @@ pg = pg or {}
 ys = ys or {}
 cs = cs or {}
 
-function slot0(slot0, slot1)
+function slot0(slot0)
+	return string.gsub(slot0 or "", "<%[(.-)%]>", function (slot0)
+		return pg.equip_data_code[slot0] and slot1.text
+	end)
+end
+
+function slot1(slot0, slot1)
 	return function (slot0, slot1)
 		slot2 = slot0.__name
 
@@ -24,10 +30,12 @@ function slot0(slot0, slot1)
 
 		slot4 = {}
 
-		if uv1 then
-			for slot8, slot9 in pairs(slot3) do
-				if type(slot9) == "string" then
-					slot4[slot8] = HXSet.hxLan(slot9)
+		for slot8, slot9 in pairs(slot3) do
+			if type(slot9) == "string" then
+				slot4[slot8] = uv1(slot9)
+
+				if uv2 then
+					slot4[slot8] = HXSet.hxLan(slot4[slot8])
 				end
 			end
 		end
@@ -53,13 +61,13 @@ function slot0(slot0, slot1)
 end
 
 confSP = confSP or {
-	__index = slot0(2, true)
+	__index = slot1(2, true)
 }
 confMT = confMT or {
-	__index = slot0(1, true)
+	__index = slot1(1, true)
 }
 confHX = confHX or {
-	__index = slot0(0, true)
+	__index = slot1(0, true)
 }
 
 require("localConfig")

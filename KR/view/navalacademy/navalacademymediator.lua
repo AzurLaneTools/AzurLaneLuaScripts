@@ -60,8 +60,8 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CLASS)
 	end)
 	slot0:bind(uv0.ON_OPEN_COMMANDER, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
-			fleetType = CommandRoomScene.FLEET_TYPE_COMMON
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
+			fleetType = CommanderCatScene.FLEET_TYPE_COMMON
 		})
 	end)
 	slot0:bind(uv0.ON_OPEN_COLLECTION, function (slot0)
