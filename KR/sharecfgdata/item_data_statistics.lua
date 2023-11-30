@@ -212128,7 +212128,7 @@ _G.pg.base.item_data_statistics[59500] = {
 }
 
 _G.pg.base.item_data_statistics[59501] = {
-	display = "用于「委托兑换计划III」活动兑换，活动结束后将会消失",
+	display = "「의뢰 교환 계획III」 이벤트 교환용. 이벤트 종료 후 사라짐.",
 	name = "군사의뢰 증빙",
 	max_num = 0,
 	type = 98,

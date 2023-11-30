@@ -22838,161 +22838,161 @@ cs.gametip = {
 	},
 	commander_subtile_ablity = {
 		920947,
-		100,
+		108,
 		true
 	},
 	commander_subtile_talent = {
-		921047,
-		100,
+		921055,
+		108,
 		true
 	},
 	commander_confirm_tip = {
-		921147,
+		921163,
 		163,
 		true
 	},
 	commander_level_up_tip = {
-		921310,
+		921326,
 		165,
 		true
 	},
 	commander_skill_effect = {
-		921475,
+		921491,
 		99,
 		true
 	},
 	commander_choice_talent_1 = {
-		921574,
+		921590,
 		123,
 		true
 	},
 	commander_choice_talent_2 = {
-		921697,
+		921713,
 		115,
 		true
 	},
 	commander_choice_talent_3 = {
-		921812,
+		921828,
 		170,
 		true
 	},
 	commander_get_box_tip_1 = {
-		921982,
-		98,
-		true
-	},
-	commander_get_box_tip = {
-		922080,
-		139,
-		true
-	},
-	commander_total_gold = {
-		922219,
-		99,
-		true
-	},
-	commander_use_box_tip = {
-		922318,
-		97,
-		true
-	},
-	commander_use_box_queue = {
-		922415,
-		99,
-		true
-	},
-	commander_command_ability = {
-		922514,
-		101,
-		true
-	},
-	commander_logistics_ability = {
-		922615,
-		103,
-		true
-	},
-	commander_tactical_ability = {
-		922718,
+		921998,
 		102,
 		true
 	},
+	commander_get_box_tip = {
+		922100,
+		155,
+		true
+	},
+	commander_total_gold = {
+		922255,
+		98,
+		true
+	},
+	commander_use_box_tip = {
+		922353,
+		101,
+		true
+	},
+	commander_use_box_queue = {
+		922454,
+		100,
+		true
+	},
+	commander_command_ability = {
+		922554,
+		102,
+		true
+	},
+	commander_logistics_ability = {
+		922656,
+		104,
+		true
+	},
+	commander_tactical_ability = {
+		922760,
+		103,
+		true
+	},
 	commander_choice_talent_4 = {
-		922820,
-		133,
+		922863,
+		167,
 		true
 	},
 	commander_rename_tip = {
-		922953,
-		138,
+		923030,
+		145,
 		true
 	},
 	commander_home_level_label = {
-		923091,
+		923175,
 		103,
 		true
 	},
 	commander_get_commander_coptyright = {
-		923194,
+		923278,
 		120,
 		true
 	},
 	commander_choice_talent_reset = {
-		923314,
+		923398,
 		250,
 		true
 	},
 	commander_lock_setting_title = {
-		923564,
+		923648,
 		171,
 		true
 	},
 	skin_exchange_confirm = {
-		923735,
+		923819,
 		186,
 		true
 	},
 	skin_purchase_confirm = {
-		923921,
+		924005,
 		215,
 		true
 	},
 	blackfriday_pack_lock = {
-		924136,
+		924220,
 		112,
 		true
 	},
 	skin_exchange_title = {
-		924248,
+		924332,
 		110,
 		true
 	},
 	blackfriday_pack_select_skinall = {
-		924358,
+		924442,
 		210,
 		true
 	},
 	skin_discount_desc = {
-		924568,
+		924652,
 		159,
 		true
 	},
 	skin_exchange_timelimit = {
-		924727,
+		924811,
 		208,
 		true
 	},
 	blackfriday_pack_purchased = {
-		924935,
+		925019,
 		99,
 		true
 	},
 	commander_unsel_lock_flag_tip = {
-		925034,
+		925118,
 		227,
 		true
 	},
 	skin_discount_timelimit = {
-		925261,
+		925345,
 		155,
 		true
 	}

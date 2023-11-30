@@ -25620,11 +25620,11 @@ _G.pg.base.gametip.word_click_to_close = {
 }
 
 _G.pg.base.gametip.commander_subtile_ablity = {
-	tip = "能力加成"
+	tip = "기본 능력 효과"
 }
 
 _G.pg.base.gametip.commander_subtile_talent = {
-	tip = "天赋加成"
+	tip = "어빌리티 효과 "
 }
 
 _G.pg.base.gametip.commander_confirm_tip = {
@@ -25652,43 +25652,43 @@ _G.pg.base.gametip.commander_choice_talent_3 = {
 }
 
 _G.pg.base.gametip.commander_get_box_tip_1 = {
-	tip = "喵箱??型"
+	tip = "냥박스??형 "
 }
 
 _G.pg.base.gametip.commander_get_box_tip = {
-	tip = "可能收到随机类型的喵箱，\n敬请期待喵!"
+	tip = "랜덤 유형의 냥박스를 받을 수 있다냥, \n기대해줘냥!"
 }
 
 _G.pg.base.gametip.commander_total_gold = {
-	tip = "合计价格："
+	tip = "합계 소비:"
 }
 
 _G.pg.base.gametip.commander_use_box_tip = {
-	tip = "选择喵箱"
+	tip = "냥박스 선택"
 }
 
 _G.pg.base.gametip.commander_use_box_queue = {
-	tip = "培育队列"
+	tip = "훈련 선택"
 }
 
 _G.pg.base.gametip.commander_command_ability = {
-	tip = "指挥能力"
+	tip = "지휘 능력"
 }
 
 _G.pg.base.gametip.commander_logistics_ability = {
-	tip = "后勤能力"
+	tip = "보조 능력"
 }
 
 _G.pg.base.gametip.commander_tactical_ability = {
-	tip = "战术能力"
+	tip = "전술 능력"
 }
 
 _G.pg.base.gametip.commander_choice_talent_4 = {
-	tip = "*使用天赋点可能获得天赋的成长"
+	tip = "*어빌리티 Pt를 사용하면 어빌리티 성장 시킬 수 있습니다."
 }
 
 _G.pg.base.gametip.commander_rename_tip = {
-	tip = "**每只指挥喵每天只能进行一次更名操作"
+	tip = "**각 지휘냥은 하루에 한 번만 이름 변경 가능"
 }
 
 _G.pg.base.gametip.commander_home_level_label = {
