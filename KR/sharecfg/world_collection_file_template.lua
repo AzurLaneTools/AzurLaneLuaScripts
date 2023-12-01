@@ -1324,7 +1324,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13101] = {
 		id = 13101,
 		name = "매체 기록: 쓰나미 전 30분",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 1,
 		content = [[
@@ -1345,7 +1345,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13102] = {
 		id = 13102,
 		name = "시정부 기록: 시 경찰서의 조언",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 2,
 		content = [[
@@ -1367,7 +1367,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13103] = {
 		id = 13103,
 		name = "매체 기록: 어두운 비밀!",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 3,
 		content = [[
@@ -1384,7 +1384,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13104] = {
 		id = 13104,
 		name = "뉴스 보도: 외교적 대응",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 4,
 		content = [[
@@ -1398,7 +1398,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13105] = {
 		id = 13105,
 		name = "뉴스 보도: 위약 분쟁",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 5,
 		content = [[
@@ -1413,7 +1413,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13106] = {
 		id = 13106,
 		name = "사회 자료: 이글 유니온의 비밀 실험은 어떻게 된 걸까요?",
-		subTitle = "",
+		subTitle = "창조주와 심판자",
 		is_classified = 0,
 		group_ID = 6,
 		content = [[
@@ -1530,7 +1530,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13301] = {
 		id = 13301,
 		name = "이상 기상",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 1,
 		content = [[
@@ -1545,7 +1545,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13302] = {
 		id = 13302,
 		name = "혼란스러운 여론",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 2,
 		content = [[
@@ -1572,7 +1572,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13303] = {
 		id = 13303,
 		name = "노상의 대치",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 3,
 		content = [[
@@ -1594,7 +1594,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13304] = {
 		id = 13304,
 		name = "디플레이션",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 4,
 		content = [[
@@ -1609,7 +1609,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13305] = {
 		id = 13305,
 		name = "물가 급등",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 5,
 		content = [[
@@ -1638,7 +1638,7 @@ Reply to 아오스타 (Aoste_mailbox@personal.edu)
 	[13306] = {
 		id = 13306,
 		name = "에너지 부족",
-		subTitle = "",
+		subTitle = "세계의 위기",
 		is_classified = 0,
 		group_ID = 6,
 		content = [[
@@ -1975,7 +1975,7 @@ No.7 익명 (ID: nUfhvbFmD) 17:28
 <리차드 사건> 조사위원회 설립에 관한 몇 가지 결의
 ......국방부는 ■월■일 버뮤다 해역 대양연방함대 훈련장에서 디비전13의 리차드호가 일으킨 일련의 중대 사고의 진상을 규명하기 위한 조사위원회 구성을 요구했다. 이와 함께 국방부의 제안으로 본 사건에 <리차드 사건>이라는 명칭을 공식적으로 사용한다.
 조사위원회는 국방부, 합동참모본부, 백악관 3자 대표, 연방대법원 대표, 무력항소법원 대표, 대양연방이사회 대표, 대양연방군사위원회 대표, 대양연방 국제비서국 대표, 국립과학원 고문단을 포함해 3자 대표가 공동 초청한 관련 분야 인사 144명으로 구성된다.
-조사위원회 본부는 서머스 섬에 설립된다.
+조사위원회 본부는 사모스 섬'에 설립된다.
 첫 회의 개최 시기는 사전 증거 수집 작업의 진행 상황에 따라 다소 불확실하나 올해 ■월 ■일 전으로 개최하여야 한다.
 본 회의에 앞서 위원회 집행부는 국방부와 합동참모본부, 백악관 3자 대표가 맡는다.
 결의안이 발표된 후, 위원회의 집행 부서는 조사 위원회의 이름으로 다음을 수행할 수 있다.
@@ -2024,7 +2024,7 @@ No.7 익명 (ID: nUfhvbFmD) 17:28
 		content = [[
 Bonhomme Richard
 @Richard_NavyOfficial · 1개월 전
-서머스 섬, 내가 왔다———!
+사모스 섬', 내가 왔다———!
 다들 뉴스에서 보셨겠죠?
 이번 대양연방 버뮤다 해역 훈련에, 저는 디비전13에 임시 편입하는 형식으로 참가했는데요.
 (아직 보지 못하셨다면, 뉴스 링크를 통해 확인하실 수 있습니다 -> 이동 클릭)
@@ -2165,7 +2165,7 @@ Bonhomme Richard
 	[14409] = {
 		id = 14409,
 		name = "버뮤다 사건 관련 결의",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 9,
 		content = [[
@@ -2182,7 +2182,7 @@ Bonhomme Richard
 	[14410] = {
 		id = 14410,
 		name = "조사 결의Ⅰ",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 10,
 		content = [[
@@ -2202,7 +2202,7 @@ Bonhomme Richard
 	[14601] = {
 		id = 14601,
 		name = "조사 결의Ⅱ",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 1,
 		content = [[
@@ -2224,7 +2224,7 @@ Bonhomme Richard
 	[14602] = {
 		id = 14602,
 		name = "항공모함 함장의 경력 조사 및 정신 분석 결과",
-		subTitle = "保密等级：III",
+		subTitle = "기밀 수준: III",
 		is_classified = 0,
 		group_ID = 2,
 		content = [[
@@ -2254,7 +2254,7 @@ Bonhomme Richard
 	[14603] = {
 		id = 14603,
 		name = "복구된 음성 통신 기록",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 3,
 		content = [[
@@ -2288,7 +2288,7 @@ Bonhomme Richard
 	[14604] = {
 		id = 14604,
 		name = "잔해 조사 보고서",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 4,
 		content = [[
@@ -2303,7 +2303,7 @@ Bonhomme Richard
 	[14605] = {
 		id = 14605,
 		name = "함재기 손상 평가",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 5,
 		content = [[
@@ -2319,7 +2319,7 @@ Bonhomme Richard
 	[14606] = {
 		id = 14606,
 		name = "함교 통신 기록",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 6,
 		content = [[
@@ -2353,7 +2353,7 @@ Bonhomme Richard
 	[14607] = {
 		id = 14607,
 		name = "승무원 심문 조서",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 7,
 		content = [[
@@ -2390,7 +2390,7 @@ Bonhomme Richard
 	[14608] = {
 		id = 14608,
 		name = "조사 결의Ⅲ",
-		subTitle = "保密等级：V",
+		subTitle = "기밀 수준: V",
 		is_classified = 0,
 		group_ID = 8,
 		content = [[
