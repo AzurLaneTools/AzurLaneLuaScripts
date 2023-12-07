@@ -23,6 +23,7 @@ slot0.FengFanM = 24
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
+slot0.WeiZhi = 25
 slot0.AllShipType = {
 	1,
 	2,
@@ -85,7 +86,8 @@ function slot0.Type2Print(slot0)
 			"daoqum",
 			"fengfans",
 			"fengfanv",
-			"fengfanm"
+			"fengfanm",
+			"weizhi"
 		}
 	end
 
@@ -120,7 +122,8 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_daoqu",
 			"battle_fengfans",
 			"battle_fengfanv",
-			"battle_fengfanm"
+			"battle_fengfanm",
+			"battle_weizhi"
 		}
 	end
 

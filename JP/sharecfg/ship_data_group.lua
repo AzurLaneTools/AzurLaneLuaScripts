@@ -2014,6 +2014,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[971301] = {
 			30027
+		},
+		[970206] = {
+			30028
 		}
 	},
 	all = {
@@ -2687,7 +2690,8 @@ pg.ship_data_group = setmetatable({
 		30024,
 		30025,
 		30026,
-		30027
+		30027,
+		30028
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -30390,6 +30394,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9713011
+					}
+				},
+				0
+			}
+		}
+	},
+	[30028] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30028,
+		code = 30028,
+		group_type = 970206,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702061
 					}
 				},
 				0

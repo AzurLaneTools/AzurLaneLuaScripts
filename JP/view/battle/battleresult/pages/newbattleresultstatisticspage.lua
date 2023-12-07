@@ -214,7 +214,9 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_PANEL)
 
 	if slot0.contextData.autoSkipFlag then
-		triggerButton(slot0.confrimBtn)
+		onNextTick(function ()
+			triggerButton(uv0.confrimBtn)
+		end)
 	end
 end
 

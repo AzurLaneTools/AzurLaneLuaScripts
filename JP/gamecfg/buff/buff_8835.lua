@@ -18,7 +18,7 @@ return {
 				randExtraRange = 70,
 				dotType = 10,
 				time = 3,
-				number = -10179,
+				number = -13043,
 				WorldBossDotDamage = {
 					paramA = 358,
 					useGlobalAttr = "WorldBossSupportDays"

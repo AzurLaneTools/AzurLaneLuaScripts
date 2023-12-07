@@ -18,13 +18,12 @@ slot0.TYPES = {
 	ACT_RETURN = 16,
 	COMMANDER = 10,
 	RYZA_TASK = 21,
-	ISLAND = 22,
-	EVENT = 15,
-	SERVER = 12,
 	BLUEPRINT = 14,
 	BUILD = 4,
+	SERVER = 12,
+	ISLAND = 22,
 	ACT_NEWBIE = 17,
-	VOTE_OREDER = 18,
+	EVENT = 15,
 	ATTIRE = 6,
 	FRIEND = 8,
 	NEW_SERVER = 20,
@@ -112,9 +111,6 @@ function slot0.BindConditions(slot0)
 		slot2, slot3 = TrainingCampScene.isTecActOn()
 
 		return slot1 or slot3
-	end)
-	slot0:BindCondition(uv0.TYPES.VOTE_OREDER, function ()
-		return getProxy(VoteProxy):GetOrderBook()
 	end)
 	slot0:BindCondition(uv0.TYPES.MEMORY_REVIEW, function ()
 		if getProxy(PlayerProxy):getRawData() then

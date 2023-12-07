@@ -194,19 +194,6 @@ return {
 		end
 	},
 	{
-		banner = "vote_frame_hall",
-		event = ActivityMediator.GO_FISRT_VOTE,
-		data = {},
-		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return getProxy(VoteProxy):GetVoteBookActivty() and not slot1:isEnd()
-		end,
-		isTip = function ()
-			return getProxy(VoteProxy):ExistPastVoteAward()
-		end
-	},
-	{
 		banner = "event_square",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
@@ -300,19 +287,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970205",
+		banner = "meta_entrance_970206",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9702051
+				autoOpenShipConfigID = 9702061
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970205) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970206) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970205):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970206):isPassType() then
 				return false
 			end
 

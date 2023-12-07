@@ -221,7 +221,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "レナウン(META)",
 		painting = "shengwang",
 		boss_level_id = 106,
@@ -363,12 +363,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "神通(META)",
 		painting = "shentong",
 		boss_level_id = 166,
 		id = 12,
 		meta_id = 970205,
+		item_id = 100000,
 		description = {
 			{
 				"策謀の鉄壁",
@@ -386,12 +387,44 @@ pg.world_joint_boss_template = {
 				"戦闘開始50秒後下記の効果を得る：4秒経過するごとに、<color=#92fc63>戦闘終了時まで自身が受けるダメージが10％アップ</color>。"
 			}
 		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
+	{
+		item_id = 100000,
+		name = "キーロフ(META)",
+		painting = "jiluofu",
+		boss_level_id = 181,
+		id = 13,
+		meta_id = 970206,
+		description = {
+			{
+				"マシナリー・サポート",
+				2,
+				"キーロフ(META)は2体の戦闘支援ユニット「フスプィーシカ」と「カミエータ」を召喚する。\n<color=#92fc63>「フスプィーシカ」は重装甲タイプ</color>のユニットで、近距離での電撃兵器と磁気榴弾ランチャーを装備し、自身が受ける雷撃属性のダメージが上昇する；<color=#92fc63>「カミエータ」は中装甲タイプ</color>のユニットで、長距離光線兵器と凍結爆弾を装備し、自身が受ける砲撃属性のダメージが上昇する。\n支援ユニットが破壊された場合、3秒後に破壊された支援ユニットが<color=#92fc63>再度召喚される</color>。"
+			},
+			{
+				"コンビネーション・フレームワーク",
+				1,
+				"戦闘可能な支援ユニット1体につき、キーロフ(META)の火力・雷装・命中が上昇する。支援ユニットが撃破される度に、キーロフ(META)の<color=#92fc63>防御力が戦闘終了時までダウンする</color>。"
+			}
+		},
 		state = {
 			{
 				{
 					2023,
-					8,
-					31
+					12,
+					7
 				},
 				{
 					0,
@@ -401,8 +434,8 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2023,
-					12,
+					2024,
+					3,
 					7
 				},
 				{
@@ -414,13 +447,13 @@ pg.world_joint_boss_template = {
 		},
 		p_offset = {
 			-118.8,
-			585.5,
+			545.7,
 			0.8,
 			0.8
 		},
 		p_offset_other = {
 			426,
-			587.7,
+			545.7,
 			0.8,
 			0.8
 		}
@@ -437,6 +470,7 @@ pg.world_joint_boss_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

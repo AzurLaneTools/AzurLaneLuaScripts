@@ -477,6 +477,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2021」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[416] = {
+		time_limit_type = 0,
+		name = "殿堂入り：チェシャー",
+		gain_by = "",
+		id = 416,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2023」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[418] = {
+		time_limit_type = 0,
+		name = "殿堂入り：信濃",
+		gain_by = "",
+		id = 418,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2023」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[419] = {
+		time_limit_type = 0,
+		name = "殿堂入り：能代",
+		gain_by = "",
+		id = 419,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2023」殿堂入りページで入手可能",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "饅頭ピザ屋記念枠",
@@ -639,6 +666,9 @@ pg.item_data_frame = {
 		408,
 		409,
 		410,
+		416,
+		418,
+		419,
 		501,
 		601,
 		602,

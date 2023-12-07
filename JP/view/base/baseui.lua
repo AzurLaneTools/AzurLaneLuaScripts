@@ -80,12 +80,13 @@ function slot0.load(slot0)
 			uv0:preload(slot0)
 		end,
 		function (slot0)
-			slot1 = PoolMgr.GetInstance()
+			slot1 = uv0
 
-			slot1:GetUI(uv0, true, function (slot0)
-				uv0 = slot0
+			slot1:LoadUIFromPool(uv1, function (slot0)
+				print("Loaded " .. uv0)
 
-				print("Loaded " .. uv1)
+				uv1 = slot0
+
 				uv2()
 			end)
 		end
@@ -99,6 +100,10 @@ function slot0.load(slot0)
 
 		uv2:onUILoaded(uv0)
 	end)
+end
+
+function slot0.LoadUIFromPool(slot0, slot1, slot2)
+	PoolMgr.GetInstance():GetUI(slot1, true, slot2)
 end
 
 function slot0.getBGM(slot0, slot1)

@@ -202,6 +202,11 @@ pg.task_meta_data_template = setmetatable({
 		100133,
 		100134,
 		100135,
+		100141,
+		100142,
+		100143,
+		100144,
+		100145,
 		200001,
 		200002,
 		200003,
@@ -253,7 +258,11 @@ pg.task_meta_data_template = setmetatable({
 		200131,
 		200132,
 		200133,
-		200134
+		200134,
+		200141,
+		200142,
+		200143,
+		200144
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1858,6 +1867,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100141] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "キーロフ(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100142] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "キーロフ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100143] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "キーロフ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100144] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "キーロフ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100145] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "キーロフ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2271,6 +2320,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200134,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200141] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊で1回勝利する",
+		id = 200141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200142] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200142,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200143] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200143,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200144] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200144,
 		target_num = 1,
 		target_id = "100"
 	}

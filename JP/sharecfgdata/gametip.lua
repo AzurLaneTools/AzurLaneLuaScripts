@@ -4468,8 +4468,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.8.31-2023.12.7</color>
-META戦・神通(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2023.12.7-2024.3.7</color>
+META戦・キーロフ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -17738,7 +17738,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2023.6.8-2023.8.31</color>神通(META) META戦開放期間は「神通・META」の解析Ptを入手できます。
+※<color=#92fc63>2023.12.7-2024.3.7</color>キーロフ(META) META戦開放期間は「キーロフ・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -23893,7 +23893,7 @@ _G.pg.base.gametip.sort_energy = {
 }
 
 _G.pg.base.gametip.dockyard_search_holder = {
-	tip = "タップでキャラ名を入力"
+	tip = "キャラ名入力"
 }
 
 _G.pg.base.gametip.loveletter_exchange_tip1 = {
@@ -25899,7 +25899,7 @@ _G.pg.base.gametip.courtyard_label_placed_furniture = {
 }
 
 _G.pg.base.gametip.courtyard_label_shop_1 = {
-	tip = "シヨップ"
+	tip = "ショップ"
 }
 
 _G.pg.base.gametip.courtyard_label_clear = {
@@ -26881,4 +26881,151 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
   6.「限定建造」をタップすると、限定建造画面に遷移できます。]]
 		}
 	}
+}
+
+_G.pg.base.gametip.vote_lable_not_start = {
+	tip = "未開放"
+}
+
+_G.pg.base.gametip.vote_lable_voting = {
+	tip = "進行中"
+}
+
+_G.pg.base.gametip.vote_lable_title = {
+	tip = "<size=32>人気投票開催期間</size> <size=24>2023/12/7 - 2024/2/5 24時</size>"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_1 = {
+	tip = "累計投票"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_2 = {
+	tip = "累計投票数："
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_1 = {
+	tip = "項目投票"
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_2 = {
+	tip = "項目投票数："
+}
+
+_G.pg.base.gametip.vote_lable_window_title = {
+	tip = "報酬一覧"
+}
+
+_G.pg.base.gametip.vote_lable_rearch = {
+	tip = "達成済"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_title = {
+	tip = "デイリー"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_tip = {
+	tip = "<size=28>デイリー任務クリアで</size>$1<size=28>入手</size>"
+}
+
+_G.pg.base.gametip.vote_lable_task_title = {
+	tip = "限定任務"
+}
+
+_G.pg.base.gametip.vote_lable_task_list_is_empty = {
+	tip = "すべての投票券を入手しました"
+}
+
+_G.pg.base.gametip.vote_lable_ship_votes = {
+	tip = "$1票"
+}
+
+_G.pg.base.gametip.vote_help_2023 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>アズールレーン2023開催について</color>
+
+概要：
+· アズールレーン人気投票2023では、限定任務クリアで自動で入手できる投票券を使って推しの艦船に投票し、投票数に応じて報酬を入手できるイベントになります。
+・メイン画面右上の「人気投票」で限定任務並びに順位の確認、各項目での投票を行えます。　
+・人気投票の開催期間：<color=#92fc63>2023年12月7日 – 2024年2月6日0時まで</color>となります
+·人気投票における「日程結果」では、各投票項目での全サーバーでの合計投票数が表示されます。
+·過去の人気投票イベントでのTOP3艦船は<color=#92fc63>殿堂入り</color>として扱われ、今回の投票イベントに参加しません。また、裏山画面の「殿堂入り」でTOP3艦船たちのミニストーリーを読むことができます
+·殿堂入り艦船以外の、下記<color=#92fc63>2023年11月23日以前に実装された艦船・特別計画艦</color>に投票できます。（特別計画艦以外のコラボキャラ・μ兵装・Ⅱ型艦船は人気投票の対象外となっており、またMETA・リトル艦船は「特別投票」枠にて投票できます）。
+
+投票券の入手方法：
+指揮官レベルが25以上を達成すると、下記の方法で<color=#92fc63>投票券</color>を入手できます。
+人気投票本戦（特別投票を除く）：
+· 人気投票開催期間中に出現する<color=#92fc63>限定デイリー任務</color>をクリアすると、投票券が自動で<color=#92fc63>加算されます</color>。デイリー任務による投票券の入手上限は<color=#92fc63>一日20枚まで</color>になります。
+· 人気投票開催期間中に出現する<color=#92fc63>限定1回の任務</color>をクリアすると、投票券が自動で<color=#92fc63>加算されます</color>。それぞれの投票項目での投票券入手上限が存在します。
+	投票券入手任務と投票券の入手上限については「限定任務」にて確認できます。　
+	各項目における投票券入手数上限：
+		予選：480
+		グループ戦A：200
+		グループ戦B：200
+		グループ戦C：200
+		グループ戦D：200
+		復活戦：160
+		決勝戦：280
+· 各項目の投票期間終了後、残りの投票券が<color=#92fc63>自動で削除され</color>、限定任務の進捗は<color=#92fc63>リセット</color>されます。
+特別投票：
+特別投票開催期間中、ゲームにログインすると1日1枚<color=#92fc63>投票券</color>を入手できます。
+
+開催日程：
+本戦・特別投票は下記のスケジュールで行われます：
+<color=#92fc63>予選</color>：	2023年12月7日（木）メンテナンス後-2023年12月18日（月）23:59まで
+<color=#92fc63>グループ戦A</color>：	2023年12月21日（木）0時-2023年12月25日（月）23:59まで
+<color=#92fc63>特別投票Ⅰ</color>：2023年12月26日（火）0時-2023年12月28日（木）23:59まで
+<color=#92fc63>グループ戦B</color>：	2023年12月30日（土）0時-2024年1月3日（水）23:59まで
+<color=#92fc63>特別投票Ⅱ</color>：2024年1月4日（木）0時-2024年1月6日（土）23:59
+<color=#92fc63>グループ戦C</color>：	2024年1月8日（月）0時-2024年1月12日（金）23:59まで
+<color=#92fc63>特別投票Ⅲ</color>：2024年1月13日（土）0時-2024年1月15日（月）23:59まで
+<color=#92fc63>グループ戦D</color>：	2024年1月17日（水）0時-2024年1月21日（日）23:59まで
+<color=#92fc63>復活戦</color>：2024年1月23日（火）0時-2024年1月26日（金）23:59まで
+<color=#92fc63>決勝戦</color>：	2024年1月30日（火）0時-2024年2月5日（月）23:59まで
+
+各項目の投票期間、最終結果は裏山の<color=#92fc63>「日程結果」</color>にて確認できます。
+
+各項目のルールについて：
+<color=#92fc63>予選</color>
+<color=#92fc63>予選</color>は投票期間中キャラの投票数が表示されず、現在順位のみ表示されます。
+<color=#92fc63>予選</color>は殿堂入り艦船、コラボキャラ（特別計画艦を除く）、μ兵装艦船、META艦船、リトル艦船以外の全キャラが参加します。
+<color=#92fc63>予選</color>では票数TOP240までの艦船がグループ戦に進出します。グループ戦ではそれぞれのグループ毎に60名の艦船が参加します。
+
+<color=#92fc63>グループ戦</color>
+<color=#92fc63>グループ戦</color>は<color=#92fc63>予選</color>得票数TOP240の艦船が4つのグループに分けられます。
+それぞれのグループ戦で得票数TOP5までの艦船は<color=#92fc63>決勝戦</color>に進出します。得票数が6位から15位までの艦船は<color=#92fc63>復活戦</color>に進出します。
+
+<color=#92fc63>特別投票</color>
+<color=#92fc63>特別投票</color>は全部で3項目に分けられ、それぞれセイレーン、META艦船、リトル艦船が参加します。特別投票に参加する艦船は本戦には参加できません。
+
+<color=#92fc63>復活戦</color>
+<color=#92fc63>復活戦</color>は<color=#92fc63>グループ戦で</color>でそれぞれ得票数6位～15位の艦船が参加します。
+<color=#92fc63>復活戦</color>の得票数TOP15の艦船が<color=#92fc63>復活戦</color>に進出します。
+
+<color=#92fc63>決勝戦</color>
+<color=#92fc63>決勝戦</color>はグループ戦から合計20名、復活戦から30名の艦船が参加します。
+
+得票数が同数の場合：
+<color=#92fc63>予選</color>で得票数が同票の艦船は、最終結果の票数に先に到達した順で順位が決まります。
+<color=#92fc63>グループ戦</color>、<color=#92fc63>復活戦</color>、<color=#92fc63>決勝戦</color>で得票数が同票の艦船は、<color=#92fc63>予選</color>での最終順位で順位が決まります。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.vote_tip_level_limit = {
+	tip = "指揮官Lv25以上の場合のみ投票券を入手出来ます"
+}
+
+_G.pg.base.gametip.vote_label_rank = {
+	tip = " 順位"
+}
+
+_G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
+	tip = "※30分に一度更新されます"
+}
+
+_G.pg.base.gametip.vote_tip_area_closed = {
+	tip = "イベント開催期間外です"
 }
