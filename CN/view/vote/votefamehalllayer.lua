@@ -1,7 +1,11 @@
 slot0 = class("VoteFameHallLayer", import("..base.BaseUI"))
 
 function slot0.getUIName(slot0)
-	return "VoteFameHallUI"
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return "VoteFameHallUIForCht"
+	else
+		return "VoteFameHallUI"
+	end
 end
 
 function slot0.SetPastVoteData(slot0, slot1)
@@ -88,11 +92,10 @@ function slot0.UpdateTips(slot0, slot1)
 		slot10 = pg.vote_champion[slot9]
 		slot11 = slot10.story
 		slot14 = getProxy(TaskProxy):getTaskById(slot10.task) or slot13:getFinishTaskById(slot12)
-
-		setActive(slot0:findTF(slot1 .. "/" .. slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive())
-
 		slot4[slot8][2] = slot3:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot12].award_display[1][2]) ~= nil and slot17:isOwned()
 		slot4[slot8][1] = ShipGroup.getDefaultShipConfig(slot10.ship_group).name
+
+		setActive(slot0:findTF(slot1 .. "/" .. slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive() and (slot17 == nil or not slot17:isOwned()))
 	end
 
 	slot5 = _.map(slot4, function (slot0)
@@ -103,14 +106,16 @@ end
 
 function slot0.UpdateBtnsTip(slot0)
 	slot1 = getProxy(TaskProxy)
+	slot2 = getProxy(AttireProxy)
 
-	for slot5, slot6 in pairs(slot0.displays) do
-		slot9 = slot0.btns[slot5]
+	for slot6, slot7 in pairs(slot0.displays) do
+		slot10 = slot0.btns[slot6]
 
-		setActive(slot9:Find("tip"), _.any(slot6, function (slot0)
+		setActive(slot10:Find("tip"), _.any(slot7, function (slot0)
 			slot3 = uv0:getTaskById(pg.vote_champion[slot0].task) or uv0:getFinishTaskById(slot2)
+			slot5 = uv1:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot2].award_display[1][2])
 
-			return slot3 and slot3:isFinish() and not slot3:isReceive()
+			return slot3 and slot3:isFinish() and not slot3:isReceive() and (slot5 == nil or not slot5:isOwned())
 		end))
 	end
 end

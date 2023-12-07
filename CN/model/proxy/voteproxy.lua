@@ -122,9 +122,14 @@ function slot0.GetPastVoteData(slot0)
 end
 
 function slot0.ExistPastVoteAward(slot0)
-	for slot5, slot6 in pairs(slot0:GetPastVoteData()) do
-		if _.any(slot6, function (slot0)
-			return getProxy(TaskProxy):getTaskById(pg.vote_champion[slot0].task) and slot2:isFinish() and not slot2:isReceive()
+	slot2 = getProxy(AttireProxy)
+
+	for slot6, slot7 in pairs(slot0:GetPastVoteData()) do
+		if _.any(slot7, function (slot0)
+			slot1 = pg.vote_champion[slot0]
+			slot4 = uv0:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot1.task].award_display[1][2])
+
+			return getProxy(TaskProxy):getTaskById(slot1.task) and slot2:isFinish() and not slot2:isReceive() and (slot4 == nil or not slot4:isOwned())
 		end) then
 			return true
 		end

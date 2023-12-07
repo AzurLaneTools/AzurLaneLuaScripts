@@ -8335,6 +8335,47 @@ pg.activity_template = {
 			"RENQITOUPIAOXINPIANZHANG8"
 		}
 	},
+	[1071] = {
+		mark = 20231207,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 0,
+		id = 1071,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"RENQITOUPIAOXINPIANZHANG9"
+		}
+	},
 	[1072] = {
 		mark = 20231207,
 		title_res_tag = "",
@@ -8376,6 +8417,47 @@ pg.activity_template = {
 			"RENQITOUPIAOXINPIANZHANG10"
 		}
 	},
+	[1073] = {
+		mark = 20231207,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 38,
+		is_show = 0,
+		id = 1073,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"RENQITOUPIAOXINPIANZHANG11"
+		}
+	},
 	[1074] = {
 		mark = 20231207,
 		title_res_tag = "",
@@ -8415,6 +8497,47 @@ pg.activity_template = {
 		},
 		config_client = {
 			"RENQITOUPIAOXINPIANZHANG12"
+		}
+	},
+	[1075] = {
+		mark = 20231207,
+		title_res_tag = "",
+		page_info = "",
+		type = 19,
+		login_pop = 0,
+		config_id = 39,
+		is_show = 0,
+		id = 1075,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"RENQITOUPIAOXINPIANZHANG13"
 		}
 	},
 	[1076] = {
@@ -12171,8 +12294,11 @@ pg.activity_template = {
 		1068,
 		1069,
 		1070,
+		1071,
 		1072,
+		1073,
 		1074,
+		1075,
 		1076,
 		1077,
 		1078,
