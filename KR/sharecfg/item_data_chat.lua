@@ -128,6 +128,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n<color=#A7A7AAFF>'한계 챌린지'에서 획득 가능(23.12.01 ~ 23.12.31).</color>",
 		scene = {}
 	},
+	[10007] = {
+		time_limit_type = 0,
+		name = "한계 챌린지·궁수자리",
+		id = 10007,
+		time_second = 0,
+		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n<color=#A7A7AAFF>'한계 챌린지'에서 획득 가능(24.1.01 ~ 24.1.31).</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -144,6 +152,7 @@ pg.item_data_chat = {
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007
 	}
 }

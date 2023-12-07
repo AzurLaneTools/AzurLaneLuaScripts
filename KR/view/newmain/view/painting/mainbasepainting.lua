@@ -58,6 +58,19 @@ function slot0.Unload(slot0)
 	slot0.cvLoader:Stop()
 	slot0:RemoveTimer()
 	slot0:OnUnload()
+
+	slot0.paintingName = nil
+end
+
+function slot0.UnloadOnlyPainting(slot0)
+	slot0.state = uv0
+
+	removeOnButton(slot0.container)
+	slot0.longPressEvent:RemoveAllListeners()
+	slot0:RemoveTimer()
+	slot0:OnUnload()
+
+	slot0.paintingName = nil
 end
 
 function slot0.InitClickEvent(slot0)

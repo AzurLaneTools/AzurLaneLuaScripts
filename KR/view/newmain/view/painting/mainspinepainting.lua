@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.bgTr = slot3
 	slot0.spTF = findTF(slot1, "spinePainting")
 	slot0.spBg = findTF(slot3, "spinePainting")
+	slot0.uiCam = GameObject.Find("UICamera"):GetComponent("Camera")
 end
 
 function slot0.GetCenterPos(slot0)
@@ -53,27 +54,101 @@ function slot0.AdJustOrderInLayer(slot0, slot1)
 end
 
 function slot0.InitSpecialTouch(slot0)
+	slot0.specialClickDic = {}
+
 	if not findTF(slot0.spTF:GetChild(0), "hitArea") then
 		return
 	end
 
 	eachChild(slot1, function (slot0)
-		onButton(uv0, slot0, function ()
-			if uv0:GetSpecialTouchEvent(uv1.name) == "special" then
-				if uv0.isDragAndZoomState then
-					return
-				end
+		if slot0.name == "drag" then
+			uv0.dragEvent = GetOrAddComponent(slot0, typeof(EventTriggerListener))
+			slot1 = uv0.dragEvent
 
-				if uv0.chatting then
-					return
-				end
+			slot1:AddPointDownFunc(function (slot0, slot1)
+				uv0.dragActive = true
+				uv0.dragStart = slot1.position
+			end)
 
-				uv0.spinePainting:DoSpecialTouch()
-			else
-				uv0:TriggerEvent(slot0)
-				uv0:TriggerPersonalTask(uv0.ship.groupId)
+			slot1 = uv0.dragEvent
+
+			slot1:AddPointUpFunc(function (slot0, slot1)
+				if uv0.dragActive then
+					uv0.dragActive = false
+					uv0.dragOffset = Vector2(uv0.dragStart.x - slot1.position.x, uv0.dragStart.y - slot1.position.y)
+
+					if math.abs(uv0.dragOffset.x) < 200 or math.abs(uv0.dragOffset.y) < 200 then
+						uv0.dragUp = slot1.position
+						slot2 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
+
+						for slot6 = 1, #uv0.specialClickDic do
+							slot7 = uv0.specialClickDic[slot6]
+
+							if math.abs(slot7.tf:InverseTransformPoint(slot2).x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
+								uv0:TriggerEvent(slot7.name)
+								uv0:TriggerPersonalTask(slot7.task)
+
+								return
+							end
+						end
+					end
+				end
+			end)
+
+			slot1 = uv0.dragEvent
+
+			slot1:AddDragFunc(function (slot0, slot1)
+				if uv0.dragActive then
+					if uv0.isDragAndZoomState then
+						uv0.dragActive = false
+
+						return
+					end
+
+					if uv0.chatting then
+						uv0.dragActive = false
+
+						return
+					end
+
+					uv0.dragOffset = Vector2(uv0.dragStart.x - slot1.position.x, uv0.dragStart.y - slot1.position.y)
+
+					if math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200 then
+						uv0.dragActive = false
+
+						uv0.spinePainting:DoDragTouch()
+					end
+				end
+			end)
+		else
+			if uv0:GetSpecialTouchEvent(slot0.name) then
+				table.insert(uv0.specialClickDic, {
+					name = slot1,
+					task = uv0.ship.groupId,
+					bound = slot0.sizeDelta,
+					tf = slot0
+				})
 			end
-		end)
+
+			onButton(uv0, slot0, function ()
+				slot0 = uv0:GetSpecialTouchEvent(uv1.name)
+
+				if uv1.name == "special" then
+					if uv0.isDragAndZoomState then
+						return
+					end
+
+					if uv0.chatting then
+						return
+					end
+
+					uv0.spinePainting:DoSpecialTouch()
+				else
+					uv0:TriggerEvent(slot0)
+					uv0:TriggerPersonalTask(uv0.ship.groupId)
+				end
+			end)
+		end
 	end)
 end
 
@@ -108,6 +183,10 @@ function slot0.OnUnload(slot0)
 		slot0.spinePainting:Dispose()
 
 		slot0.spinePainting = nil
+	end
+
+	if slot0.dragEvent then
+		ClearEventTrigger(slot0.dragEvent)
 	end
 end
 

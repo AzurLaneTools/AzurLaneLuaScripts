@@ -122,12 +122,16 @@ function slot0.UpdateView(slot0)
 
 	assert(slot5)
 	setActive(slot0.upper_daoyvjianshe:Find("tip"), slot5 and slot5:readyToAchieve())
-	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
+	setActive(slot0.upper_jinianzhang:Find("tip"), uv0.MedalTip())
 end
 
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
+end
+
+function slot0.MedalTip()
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
 function slot0.IsShowMainTip(slot0)
@@ -136,7 +140,7 @@ function slot0.IsShowMainTip(slot0)
 
 		return (function ()
 			return uv0:getActivityById(ActivityConst.DOA_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()
-		end)() or Activity.isHaveActivableMedal() or (function ()
+		end)() or uv0.MedalTip() or (function ()
 			return uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_VOLLEYBALL)
 		end)() or (function ()
 			return uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_PENGPENGDONG)

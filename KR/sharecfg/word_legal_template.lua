@@ -909,6 +909,7 @@ function temp()
 				}
 			},
 			["카"] = {
+				this = true,
 				["가"] = {
 					["와"] = {
 						[" "] = {
@@ -1779,6 +1780,11 @@ function temp()
 		},
 		["노"] = {
 			["카"] = {
+				this = true
+			}
+		},
+		["무"] = {
+			["라"] = {
 				this = true
 			}
 		}
@@ -3166,7 +3172,18 @@ function temp()
 		["레"] = {
 			["버"] = {
 				["스"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -3713,6 +3730,11 @@ function temp()
 			},
 			["즈"] = {
 				["치"] = {
+					this = true
+				}
+			},
+			["루"] = {
+				["가"] = {
 					this = true
 				}
 			}
@@ -4272,6 +4294,16 @@ function temp()
 		},
 		["라"] = {
 			this = true
+		},
+		["미"] = {
+			this = true
+		},
+		["우"] = {
+			["야"] = {
+				["키"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -4423,6 +4455,7 @@ function temp()
 		["라"] = {
 			["사"] = {
 				["키"] = {
+					this = true,
 					[" "] = {
 						["시"] = {
 							["온"] = {

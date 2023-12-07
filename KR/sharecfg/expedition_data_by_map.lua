@@ -346,6 +346,10 @@ pg.expedition_data_by_map = setmetatable({
 		1760002,
 		1760003,
 		1760004,
+		1770001,
+		1770002,
+		1770003,
+		1770004,
 		2100000,
 		2100001,
 		2100010,
@@ -13972,7 +13976,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 4580,
-		ui_type = 1,
+		ui_type = 7,
 		bg = "Map_1690001",
 		destory_icon_suffix = "blue",
 		animtor = 1,
@@ -14016,7 +14020,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 4580,
-		ui_type = 1,
+		ui_type = 7,
 		bg = "Map_1690002",
 		destory_icon_suffix = "blue",
 		animtor = 1,
@@ -14060,7 +14064,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 4580,
-		ui_type = 1,
+		ui_type = 7,
 		bg = "Map_1690002",
 		destory_icon_suffix = "blue",
 		animtor = 1,
@@ -14104,7 +14108,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 4580,
-		ui_type = 1,
+		ui_type = 7,
 		bg = "Map_1690002",
 		destory_icon_suffix = "blue",
 		animtor = 1,
@@ -16163,6 +16167,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1760002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1770001] = {
+		map = 1770001,
+		name = "창섬인법첩|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "sk-az-story",
+		enter_story = "CANGSHANRENFATIEGUANQIA1",
+		ani_name = "Map_1770001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5101,
+		ui_type = 8,
+		bg = "Map_1770001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1770002] = {
+		map = 1770002,
+		name = "창섬인법첩·도전|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "sk-menu",
+		enter_story = "",
+		ani_name = "Map_1770002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5101,
+		ui_type = 8,
+		bg = "Map_1770002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1770001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1770003] = {
+		map = 1770003,
+		name = "창섬인법첩·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "sk-theme",
+		enter_story = "",
+		ani_name = "Map_1770001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5101,
+		ui_type = 8,
+		bg = "Map_1770001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1770004] = {
+		map = 1770004,
+		name = "창섬인법첩·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "sk-az-pv1",
+		enter_story = "",
+		ani_name = "Map_1770002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5101,
+		ui_type = 8,
+		bg = "Map_1770002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1770002,
 		clouds_pos = {
 			{
 				332,

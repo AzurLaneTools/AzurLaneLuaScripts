@@ -300,6 +300,12 @@ function slot0.UnFold(slot0)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.pageType and (slot0.pageType == uv0.PAGE_PLAY or slot0.pageType == uv0.PAGE_TALENT) then
+		triggerButton(slot0.toggles[uv0.PAGE_DOCK])
+
+		return
+	end
+
 	if slot0.contextData.msgBox and slot0.contextData.msgBox:GetLoaded() and slot0.contextData.msgBox:isShowing() then
 		slot0.contextData.msgBox:Hide()
 

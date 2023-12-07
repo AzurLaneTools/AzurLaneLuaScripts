@@ -1,112 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[101501] = {
-		ship_group = 10150,
-		name = "다시 찾아온 여름의 전쟁",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70778,
-		painting = "hamanII_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "106",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 101501,
-		voice_actor_2 = -1,
-		prefab = "hamanII_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "흥! 지휘관이 외로워할까봐 걱정돼서 바닷가에 가자고 약속한 거라구! 딱히 깊은 의미는… 자, 잠깐! 무슨 짓이야?! 그만해!",
-		voice_actor = 5,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.25,
-					0.81,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.067,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102010] = {
 		ship_group = 10201,
 		name = "오마하",
@@ -11343,6 +11237,229 @@ pg.base.ship_skin_template_2 = {
 							-0.26,
 							2.11,
 							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103110] = {
+		ship_group = 10311,
+		name = "위치타",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "weiqita",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 103110,
+		voice_actor_2 = -1,
+		prefab = "weiqita",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "위치타급 중순양함·위치타 (CA-45)",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.86,
+					0.52,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					0.52,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.42,
+					0.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							1.05,
+							0.14
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.78,
+							-0.69
+						}
+					}
+				}
+			}
+		}
+	},
+	[103111] = {
+		ship_group = 10311,
+		name = "\"장군\"의 저녁 만찬",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70427,
+		painting = "weiqita_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "135",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103111,
+		voice_actor_2 = -1,
+		prefab = "weiqita_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "드디어 왔구나, 지휘관. 정신 차려, 오늘 너는 내 참모로 출격해야 하니까, 맥없이 남들한테 비웃음을 사지 말라고. 좋았어, 출발하자.",
+		voice_actor = 24,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.416,
+					1.131,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.385,
+					1.125,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.401,
+							2.602,
+							0.14
 						}
 					}
 				}

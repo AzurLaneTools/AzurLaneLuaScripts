@@ -576,14 +576,9 @@ function slot0.IsEliteFleetLegal(slot0)
 	slot5, slot6 = nil
 
 	for slot10 = 1, #slot0.eliteFleetList do
-		xpcall(function ()
-			uv0, uv1 = uv2:singleEliteFleetVertify(uv3)
-		end, function (slot0)
-			debug.traceback(slot0)
-			error("singleEliteFleetVertify Error")
-		end)
+		slot11, slot12 = slot0:singleEliteFleetVertify(slot10)
 
-		if not nil then
+		if not slot11 then
 			if not slot12 then
 				if slot10 >= 3 then
 					slot3 = slot3 + 1
@@ -630,60 +625,61 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 		slot3[slot8[1]] = 0
 	end
 
-	slot4 = 0
+	slot4 = slot0:getEliteFleetList()
+	slot5 = 0
 
-	for slot8 = 1, 2 do
-		if slot0:singleEliteFleetVertify(slot8) then
-			slot9 = {}
+	for slot9 = 1, 2 do
+		if slot0:singleEliteFleetVertify(slot9) then
 			slot10 = {}
+			slot11 = {}
 
-			for slot14, slot15 in ipairs(slot2) do
-				slot16, slot17, slot18, slot19 = unpack(slot15)
+			for slot15, slot16 in ipairs(slot2) do
+				slot17, slot18, slot19, slot20 = unpack(slot16)
 
-				if string.sub(slot16, 1, 5) == "fleet" then
-					slot9[slot16] = 0
-					slot10[slot16] = slot19
+				if string.sub(slot17, 1, 5) == "fleet" then
+					slot10[slot17] = 0
+					slot11[slot17] = slot20
 				end
 			end
 
-			for slot15, slot16 in ipairs(slot0.eliteFleetList[slot8]) do
-				slot4 = slot4 + 1
-				slot18 = intProperties(slot1[slot16]:getProperties())
+			for slot16, slot17 in ipairs(slot4[slot9]) do
+				slot5 = slot5 + 1
+				slot19 = intProperties(slot1[slot17]:getProperties())
 
-				for slot22, slot23 in pairs(slot3) do
-					if string.sub(slot22, 1, 5) == "fleet" then
-						if slot22 == "fleet_totle_level" then
-							slot9[slot22] = slot9[slot22] + slot17.level
+				for slot23, slot24 in pairs(slot3) do
+					if string.sub(slot23, 1, 5) == "fleet" then
+						if slot23 == "fleet_totle_level" then
+							slot10[slot23] = slot10[slot23] + slot18.level
 						end
-					elseif slot22 == "level" then
-						slot3[slot22] = slot23 + slot17.level
+					elseif slot23 == "level" then
+						slot3[slot23] = slot24 + slot18.level
 					else
-						slot3[slot22] = slot23 + slot18[slot22]
+						slot3[slot23] = slot24 + slot19[slot23]
 					end
 				end
 			end
 
-			for slot15, slot16 in pairs(slot9) do
-				if slot15 == "fleet_totle_level" and slot10[slot15] < slot16 then
-					slot3[slot15] = slot3[slot15] + 1
+			for slot16, slot17 in pairs(slot10) do
+				if slot16 == "fleet_totle_level" and slot11[slot16] < slot17 then
+					slot3[slot16] = slot3[slot16] + 1
 				end
 			end
 		end
 	end
 
-	slot5 = {}
+	slot6 = {}
 
-	for slot9, slot10 in ipairs(slot2) do
-		slot11, slot12, slot13 = unpack(slot10)
+	for slot10, slot11 in ipairs(slot2) do
+		slot12, slot13, slot14 = unpack(slot11)
 
-		if slot11 == "level" and slot4 > 0 then
-			slot3[slot11] = math.ceil(slot3[slot11] / slot4)
+		if slot12 == "level" and slot5 > 0 then
+			slot3[slot12] = math.ceil(slot3[slot12] / slot5)
 		end
 
-		slot5[slot9] = AttributeType.EliteConditionCompare(slot12, slot3[slot11], slot13) and 1 or 0
+		slot6[slot10] = AttributeType.EliteConditionCompare(slot13, slot3[slot12], slot14) and 1 or 0
 	end
 
-	return slot5, slot3
+	return slot6, slot3
 end
 
 function slot0.GetNomralFleetMaxCount(slot0)
@@ -699,26 +695,34 @@ function slot0.GetSupportFleetMaxCount(slot0)
 end
 
 function slot0.EliteShipTypeFilter(slot0)
-	slot1 = getProxy(BayProxy):getRawData()
-
-	for slot5 = slot0:GetNomralFleetMaxCount() + 1, 2 do
-		table.clear(slot0.eliteFleetList[slot5])
-		table.clear(slot0.eliteCommanderList[slot5])
-	end
-
-	for slot5 = slot0:GetSubmarineFleetMaxCount() + 2 + 1, 3 do
-		table.clear(slot0.eliteFleetList[slot5])
-		table.clear(slot0.eliteCommanderList[slot5])
-	end
-
 	if slot0:getConfig("type") == Chapter.SelectFleet then
-		for slot6, slot7 in ipairs({
+		for slot5, slot6 in ipairs({
 			1,
 			2,
 			3
 		}) do
-			table.clear(slot0.eliteFleetList[slot7])
-			table.clear(slot0.eliteCommanderList[slot7])
+			table.clear(slot0.eliteFleetList[slot6])
+			table.clear(slot0.eliteCommanderList[slot6])
+		end
+	else
+		for slot4 = slot0:GetNomralFleetMaxCount() + 1, 2 do
+			table.clear(slot0.eliteFleetList[slot4])
+			table.clear(slot0.eliteCommanderList[slot4])
+		end
+
+		for slot4 = slot0:GetSubmarineFleetMaxCount() + 2 + 1, 3 do
+			table.clear(slot0.eliteFleetList[slot4])
+			table.clear(slot0.eliteCommanderList[slot4])
+		end
+	end
+
+	slot1 = getProxy(BayProxy):getRawData()
+
+	for slot5, slot6 in ipairs(slot0.eliteFleetList) do
+		for slot10 = #slot6, 1, -1 do
+			if slot1[slot6[slot10]] == nil then
+				table.remove(slot6, slot10)
+			end
 		end
 	end
 
@@ -741,14 +745,6 @@ function slot0.EliteShipTypeFilter(slot0)
 				table.remove(slot1, slot8)
 			else
 				table.removebyvalue(slot0, slot7)
-			end
-		end
-	end
-
-	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
-		for slot11 = #slot7, 1, -1 do
-			if slot1[slot7[slot11]] == nil then
-				table.remove(slot7, slot11)
 			end
 		end
 	end
@@ -783,11 +779,7 @@ end
 function slot0.singleEliteFleetVertify(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
 
-	if not (slot0.eliteFleetList and slot0.eliteFleetList[slot1]) then
-		error("eliteFleetList empty")
-	end
-
-	if not slot3 or #slot3 == 0 then
+	if not slot0:getEliteFleetList()[slot1] or #slot3 == 0 then
 		return false
 	end
 
@@ -816,8 +808,6 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 			end
 
 			slot6[#slot6 + 1] = slot12:getShipType()
-		else
-			error("ship empty")
 		end
 	end
 
@@ -825,15 +815,11 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 		return false
 	end
 
-	if not checkExist(slot0:getConfig("limitation"), {
-		slot1
-	}) then
-		error("Missing chapter config [limitation] Id: " .. slot0.id)
-	end
-
 	slot8 = 1
 	slot9 = ipairs
-	slot10 = slot7 or {}
+	slot10 = checkExist(slot0:getConfig("limitation"), {
+		slot1
+	}) or {}
 
 	for slot12, slot13 in slot9(slot10) do
 		slot14 = 0
@@ -879,18 +865,6 @@ function slot0.getSupportFleet(slot0)
 	slot0.supportFleet = slot0.supportFleet or {}
 
 	return slot0.supportFleet
-end
-
-function slot0.getInEliteShipIDs(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0.eliteFleetList) do
-		for slot10, slot11 in ipairs(slot6) do
-			slot1[#slot1 + 1] = slot11
-		end
-	end
-
-	return slot1
 end
 
 function slot0.activeAlways(slot0)

@@ -11009,5 +11009,111 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101501] = {
+		ship_group = 10150,
+		name = "다시 찾아온 여름의 전쟁",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70778,
+		painting = "hamanII_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 101501,
+		voice_actor_2 = -1,
+		prefab = "hamanII_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "흥! 지휘관이 외로워할까봐 걱정돼서 바닷가에 가자고 약속한 거라구! 딱히 깊은 의미는… 자, 잠깐! 무슨 짓이야?! 그만해!",
+		voice_actor = 5,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					0.81,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

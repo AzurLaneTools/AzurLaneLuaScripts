@@ -1515,5 +1515,9 @@ pg.voice_actor_CN = {
 	[387] = {
 		code = 387,
 		actor_name = "Ikumi Hayama"
+	},
+	[388] = {
+		code = 388,
+		actor_name = "하라다 히토미"
 	}
 }

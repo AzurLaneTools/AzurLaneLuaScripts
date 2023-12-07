@@ -913,6 +913,7 @@ slot0.DIVE_PROPERTIES = {
 	AttributeType.OxyCost,
 	AttributeType.OxyRecovery,
 	AttributeType.OxyRecoveryBench,
+	AttributeType.OxyRecoverySurface,
 	AttributeType.OxyAttackDuration,
 	AttributeType.OxyRaidDistance
 }

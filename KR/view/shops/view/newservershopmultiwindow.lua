@@ -29,18 +29,14 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		uv1.curCount = slot0
 		uv1.itemCountTF.text = slot0 * uv2:getConfig("num")
 	end)(1)
-	updateDrop(slot0.topItem, slot3)
-	updateDrop(slot0.bottomItem, slot3)
-
-	slot10, slot11 = GetOwnedDropCount(slot3)
-
-	setActive(slot0.ownerTF.parent, slot11)
-	setText(slot0.ownerTF, slot10)
-	setText(slot0.ownerLabelTF, i18n("word_own1"))
+	updateDrop(slot0.topItem:Find("left/IconTpl"), slot3)
+	UpdateOwnDisplay(slot0.ownerTF, slot3)
+	RegisterDetailButton(slot0, slot0.detailTF, slot3)
 
 	slot0.nameTF.text = slot3.cfg.name
 	slot0.descTF.text = slot3.desc or slot3.cfg.desc
 
+	updateDrop(slot0.bottomItem, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0 then
 			uv0(uv1, uv2.curCount, uv3.cfg.name)

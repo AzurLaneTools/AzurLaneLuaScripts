@@ -428,7 +428,7 @@ pg.world_joint_boss_template = {
 				{
 					2023,
 					12,
-					14
+					21
 				},
 				{
 					23,

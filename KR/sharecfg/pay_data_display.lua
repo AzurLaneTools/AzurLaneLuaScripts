@@ -67,6 +67,7 @@ pg.pay_data_display = setmetatable({
 		1010,
 		1011,
 		1012,
+		1013,
 		2001,
 		2002,
 		2003,
@@ -82,7 +83,8 @@ pg.pay_data_display = setmetatable({
 		2015,
 		2016,
 		2017,
-		2018
+		2018,
+		2019
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -6344,6 +6346,81 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1013] = {
+		subject = "특허 투어 패스",
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		limit_arg = 1,
+		name = "특허 투어 패스(2023.12)",
+		name_display = "특허 투어 패스",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1013,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift71",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 보클랭 한정 스킨 및 기타 보상",
+		airijp_id = "com.yostarjp.azurlane.seasonpass14",
+		extra_service_item = {
+			{
+				1,
+				4014,
+				1500
+			},
+			{
+				8,
+				59511,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4014,
+				1500
+			}
+		},
+		sub_display = {
+			7014,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		subject = "PR함 개발 패키지(제1기)",
 		limit_group = 1,
@@ -7425,6 +7502,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40028,
+				1
+			}
+		}
+	},
+	[2019] = {
+		subject = "스킬 교본 패키지",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 4,
+		name = "스킬 교본 패키지(2023가을)",
+		name_display = "스킬 교본 패키지",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2019,
+		money = 3900,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift72",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "대량의 스킬 교본 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package110",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

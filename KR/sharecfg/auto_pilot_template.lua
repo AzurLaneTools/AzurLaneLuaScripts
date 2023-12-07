@@ -7082,7 +7082,7 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 0,
 				param = {
-					duration = -1
+					duration = 0.5
 				}
 			}
 		}
@@ -7106,7 +7106,7 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 0,
 				param = {
-					duration = -1
+					duration = 0.5
 				}
 			}
 		}

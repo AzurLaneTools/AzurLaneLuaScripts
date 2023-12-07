@@ -149,7 +149,19 @@ pg.benefit_buff_template = setmetatable({
 		300097,
 		300098,
 		300099,
-		300100
+		300100,
+		300101,
+		300102,
+		300103,
+		300104,
+		300105,
+		300106,
+		300107,
+		300108,
+		300109,
+		300110,
+		300111,
+		300112
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2910,6 +2922,222 @@ pg.base.benefit_buff_template = {
 			286,
 			5000,
 			1000000000000.0
+		}
+	},
+	[300101] = {
+		type_priority = 0,
+		name = "함선 경험치 보너스1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 2% 증가",
+		benefit_effect = "2",
+		id = 300101,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300102] = {
+		type_priority = 0,
+		name = "함선 경험치 보너스2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 4% 증가",
+		benefit_effect = "4",
+		id = 300102,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300103] = {
+		type_priority = 0,
+		name = "함선 경험치 보너스3",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 5% 증가",
+		benefit_effect = "5",
+		id = 300103,
+		icon = "Props/xinshou",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300104] = {
+		type_priority = 0,
+		name = "전투 대미지 보너스1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 입히는 대미지 1% 증가",
+		benefit_effect = "500",
+		id = 300104,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300105] = {
+		type_priority = 0,
+		name = "전투 대미지 보너스2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 입히는 대미지 2% 증가",
+		benefit_effect = "502",
+		id = 300105,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300106] = {
+		type_priority = 0,
+		name = "전투 대미지 보너스3",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "스테이지 내 입히는 대미지 3% 증가",
+		benefit_effect = "504",
+		id = 300106,
+		icon = "Props/buff_minigame_11",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300107] = {
+		type_priority = 0,
+		name = "전술학원 스킬 강화 시간 단축1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전술학원 내 스킬 강화 시간 2% 단축",
+		benefit_effect = "200",
+		id = 300107,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300108] = {
+		type_priority = 0,
+		name = "전술학원 스킬 강화 시간 단축2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전술학원 내 스킬 강화 시간 4% 단축",
+		benefit_effect = "400",
+		id = 300108,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300109] = {
+		type_priority = 0,
+		name = "전술학원 스킬 강화 시간 단축3",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "전술학원 내 스킬 강화 시간 5% 단축",
+		benefit_effect = "500",
+		id = 300109,
+		icon = "Props/buff_minigame_10",
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
+		}
+	},
+	[300110] = {
+		type_priority = 0,
+		name = "숙소 경험치 보너스1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "숙소 경험치 보너스 2% 증가",
+		benefit_effect = "2",
+		id = 300110,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			15,
+			30
+		}
+	},
+	[300111] = {
+		type_priority = 0,
+		name = "숙소 경험치 보너스2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "숙소 경험치 보너스 4% 증가",
+		benefit_effect = "4",
+		id = 300111,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			30,
+			45
+		}
+	},
+	[300112] = {
+		type_priority = 0,
+		name = "숙소 경험치 보너스3",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "숙소 경험치 보너스 5% 증가",
+		benefit_effect = "5",
+		id = 300112,
+		icon = "Props/buff_minigame_12",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"pt",
+			381,
+			45,
+			1000
 		}
 	}
 }

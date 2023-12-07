@@ -132,6 +132,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -186,6 +187,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			200001,
 			200002,
 			200003,
@@ -2936,6 +2938,35 @@ pg.furniture_data_template = setmetatable({
 			304305,
 			304306,
 			304307
+		},
+		[105] = {
+			305001,
+			305002,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_tag = {
@@ -4695,7 +4726,26 @@ pg.furniture_data_template = setmetatable({
 			304127,
 			304128,
 			304129,
-			304130
+			304130,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305108,
+			305109,
+			305110,
+			305111,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118,
+			305119
 		},
 		{
 			1108,
@@ -4982,6 +5032,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100003,
 			100004,
@@ -5036,6 +5087,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			54104,
 			54105
 		},
@@ -5208,7 +5260,11 @@ pg.furniture_data_template = setmetatable({
 			302130,
 			303101,
 			303102,
-			304131
+			304131,
+			305301,
+			305302,
+			305303,
+			305304
 		},
 		[4] = {
 			1001,
@@ -5299,7 +5355,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[3] = {
 			1002,
@@ -5391,7 +5448,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[5] = {
 			1301,
@@ -5706,7 +5764,9 @@ pg.furniture_data_template = setmetatable({
 			304304,
 			304305,
 			304306,
-			304307
+			304307,
+			305305,
+			305306
 		}
 	},
 	get_id_list_by_type = {
@@ -5800,7 +5860,8 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
-			304002
+			304002,
+			305002
 		},
 		[7] = {
 			1,
@@ -5913,6 +5974,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			264,
 			265,
+			266,
 			100002,
 			100004,
 			100005,
@@ -5954,7 +6016,8 @@ pg.furniture_data_template = setmetatable({
 			100052,
 			100053,
 			100054,
-			100055
+			100055,
+			100056
 		},
 		[2] = {
 			120,
@@ -7707,7 +7770,23 @@ pg.furniture_data_template = setmetatable({
 			304128,
 			304129,
 			304130,
-			304131
+			304131,
+			305101,
+			305102,
+			305103,
+			305104,
+			305105,
+			305106,
+			305107,
+			305109,
+			305110,
+			305112,
+			305113,
+			305114,
+			305115,
+			305116,
+			305117,
+			305118
 		},
 		[11] = {
 			131,
@@ -7864,7 +7943,8 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
-			304001
+			304001,
+			305001
 		},
 		[5] = {
 			1101,
@@ -8001,7 +8081,10 @@ pg.furniture_data_template = setmetatable({
 			300109,
 			302111,
 			304115,
-			304118
+			304118,
+			305108,
+			305111,
+			305119
 		},
 		[3] = {
 			1108,
@@ -8468,7 +8551,12 @@ pg.furniture_data_template = setmetatable({
 			304303,
 			304304,
 			304305,
-			304307
+			304307,
+			305301,
+			305302,
+			305303,
+			305304,
+			305305
 		},
 		[8] = {
 			17121
@@ -8490,7 +8578,8 @@ pg.furniture_data_template = setmetatable({
 			38301,
 			76305,
 			98302,
-			304306
+			304306,
+			305306
 		},
 		[12] = {
 			46131
@@ -8628,6 +8717,7 @@ pg.furniture_data_template = setmetatable({
 		263,
 		264,
 		265,
+		266,
 		100002,
 		100003,
 		100004,
@@ -8682,6 +8772,7 @@ pg.furniture_data_template = setmetatable({
 		100053,
 		100054,
 		100055,
+		100056,
 		200001,
 		200002,
 		200003,
@@ -11251,7 +11342,34 @@ pg.furniture_data_template = setmetatable({
 		304304,
 		304305,
 		304306,
-		304307
+		304307,
+		305001,
+		305002,
+		305101,
+		305102,
+		305103,
+		305104,
+		305105,
+		305106,
+		305107,
+		305108,
+		305109,
+		305110,
+		305111,
+		305112,
+		305113,
+		305114,
+		305115,
+		305116,
+		305117,
+		305118,
+		305119,
+		305301,
+		305302,
+		305303,
+		305304,
+		305305,
+		305306
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17465,6 +17583,52 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[266] = {
+		spine_extra = "",
+		describe = "풍운 아카시 성의 경치가 그려진 두루마리. 펼치면 웅장?한 경치를 감상할 수 있다. \n――\"창섬인법첩\" 이벤트 참가 보상.",
+		gain_by = "창섬인법첩",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "shanluanxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "풍운성 그림 두루마리",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 266,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"sk-az-battle-boss"
+			}
+		},
+		spine = {
+			{
+				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -21318,7 +21482,7 @@ pg.base.furniture_data_template = {
 	},
 	[100055] = {
 		spine_extra = "",
-		describe = "대역의 비법이 기록된 두루마리, 그 비술만 쓰면 보이지 않는 곳으로 숨어버릴 수 있습니다!",
+		describe = "변신술이 기록된 두루마리. 사용하면 모습을 숨길 수 있다...쥬쥬!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -21328,7 +21492,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "대역 두루마리",
+		name = "변신 두루마리",
 		themeId = 0,
 		icon = "tishenjuanzhouicon",
 		deblocking = 1,
@@ -21393,6 +21557,80 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100056] = {
+		spine_extra = "",
+		describe = "全员注意，敌方大门所在的方向，就是下方！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "舰桥模拟器",
+		themeId = 0,
+		icon = "zhandouzhihuixitongicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100056,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhandouzhihuixitongB",
+				"normal"
+			},
+			{
+				"zhandouzhihuixitongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -133794,6 +134032,1141 @@ pg.base.furniture_data_template = {
 		can_rotate = 0,
 		size = {
 			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305001] = {
+		spine_extra = "",
+		describe = "닌자의 일상을 체험해 보고 싶다고? 지금 바로 닌자 저택에 신청을!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "닌자의 집 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanslicon",
+		spine_action_replace = "",
+		picture = "sl/dibansl",
+		comfortable = 4,
+		canputon = 0,
+		id = 305001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305002] = {
+		spine_extra = "",
+		describe = "닌자의 일상을 체험해 보고 싶다고? 지금 바로 닌자 저택에 신청을!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "닌자의 집 벽지",
+		effect = "",
+		advice = 0,
+		icon = "qiangbislicon",
+		spine_action_replace = "",
+		picture = "sl/qiangbisl",
+		comfortable = 4,
+		canputon = 0,
+		id = 305002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305101] = {
+		spine_extra = "",
+		describe = "티타임이야~ 밀크티는 제일 빠른 사람 거라구!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "aizhuoslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "낮은 닌자 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/aizhuosl",
+		canputon = 0,
+		id = 305101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305102] = {
+		spine_extra = "",
+		describe = "닌자에게 선물 받은 우아한 장식품. 베베땅이…… 웃고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "beibeidiaoxiangslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "베베땅 동상",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/beibeidiaoxiangsl",
+		canputon = 0,
+		id = 305102,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305103] = {
+		spine_extra = "",
+		describe = "은신술을 연습하기에는 최고인 오브젝트!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "caocongslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "은신용 풀숲",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/caocongsl",
+		canputon = 0,
+		id = 305103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305104] = {
+		spine_extra = "",
+		describe = "다양한 닌자 아이템이 수납된 가구. 마음대로 열지 않도록!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "choutiguislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 서랍장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/choutiguisl",
+		canputon = 0,
+		id = 305104,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305105] = {
+		spine_extra = "",
+		describe = "의외로 튼튼한 대나무 울타리! 이건… 인술의 힘?!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "dalanganslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "높은 대나무 울타리",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/dalangansl",
+		canputon = 0,
+		id = 305105,
+		can_rotate = 0,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305106] = {
+		spine_extra = "",
+		describe = "열려면 특별한 인술이 필요할지도?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangzislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "열리지 않는 미닫이문",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/fangzisl",
+		canputon = 0,
+		id = 305106,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27,
+					-25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305107] = {
+		spine_extra = "",
+		describe = "은신용 풀숲의 강화판. 가시에 찔리지 않도록 주의!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huacongslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "은신용 꽃 풀숲",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/huacongsl",
+		canputon = 0,
+		id = 305107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305108] = {
+		spine_extra = "",
+		describe = "창문이…… 왜 바닥에?!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mudidian1slicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "바닥의 숨겨진 문",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/mudidian1sl",
+		canputon = 0,
+		id = 305108,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305109] = {
+		spine_extra = "",
+		describe = "신선하고 자연스러운 마루. 보기엔 아름답지만 발이 좀 아프다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 돌길",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/shitousl",
+		canputon = 0,
+		id = 305109,
+		can_rotate = 0,
+		size = {
+			4,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305110] = {
+		spine_extra = "",
+		describe = "인술 교과서로 가득!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "shuguislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 책장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/shuguisl",
+		canputon = 0,
+		id = 305110,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305111] = {
+		spine_extra = "",
+		describe = "누우면 바로 잠들 것 같아… 쿨쿨쿨…",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "tatamislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "녹색 닌자 다다미",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/tatamisl",
+		canputon = 0,
+		id = 305111,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305112] = {
+		spine_extra = "",
+		describe = "저택 정원에서 흔히 볼 수 있는 석등",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "tingzislicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 석등",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/tingzisl",
+		canputon = 0,
+		id = 305112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305113] = {
+		spine_extra = "",
+		describe = "뜨거운 물은 대체 어디서 솟아나고 있는 걸까……?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wenquanslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 노천온천",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "sl/wenquansl",
+		canputon = 0,
+		id = 305113,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					104.3,
+					-100.6
+				},
+				{
+					-1,
+					1
+				},
+				"sl/wenquansl_using",
+				0,
+				{
+					{
+						0,
+						0
+					},
+					{
+						884,
+						440
+					},
+					"sl/wenquansl_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305114] = {
+		spine_extra = "",
+		describe = "의외로 튼튼한 대나무 울타리! 이것도 인술과 관련이 있는 건가…?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaolanganslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "낮은 대나무 울타리",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/xiaolangansl",
+		canputon = 0,
+		id = 305114,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305115] = {
+		spine_extra = "",
+		describe = "자고로 만남이란 모퉁이에서 시작되는 법!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuanjiaoslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "모퉁이 툇마루",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/zhuanjiaosl",
+		canputon = 0,
+		id = 305115,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305116] = {
+		spine_extra = "",
+		describe = "순서대로 앉아~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zoulangslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 저택 툇마루",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/zoulangsl",
+		canputon = 0,
+		id = 305116,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-39.6,
+					11.8
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					64,
+					64
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305117] = {
+		spine_extra = "",
+		describe = "정성스럽게 마무리되어 앉았을 때 부드럽고 편안한 느낌!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "zuodianslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 방석",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/zuodiansl",
+		canputon = 0,
+		id = 305117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305118] = {
+		spine_extra = "",
+		describe = "인술로 조종할 수 있는 미닫이문!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuanglamenslicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자 미닫이문",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305118,
+		can_rotate = 0,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanglamensl",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305119] = {
+		spine_extra = "",
+		describe = "방에서 이상한 술법은 쓰지 마세요!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mudidian2slicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "닌자의 집 마루",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "sl/mudidian2sl",
+		canputon = 0,
+		id = 305119,
+		can_rotate = 0,
+		size = {
+			12,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305301] = {
+		spine_extra = "",
+		describe = "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenchunslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "봄 미닫이문",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenchunsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305302] = {
+		spine_extra = "",
+		describe = "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenxiaslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "여름 미닫이문",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenxiasl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305303] = {
+		spine_extra = "",
+		describe = "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamenqiuslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "가을 미닫이문",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamenqiusl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305304] = {
+		spine_extra = "",
+		describe = "미닫이문의 계절 시리즈. 문밖에는 어떤 풍경이 보일까?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 105,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "lamendongslicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "겨울 미닫이문",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lamendongsl",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[305305] = {
+		spine_extra = "",
+		describe = "문이라는 건 아무도 모르겠지……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "lamensl",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "창호의 숨겨진 문",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/lamensl",
+		canputon = 0,
+		id = 305305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[305306] = {
+		spine_extra = "",
+		describe = "에헤헤~ 안 보이지롱~",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 105,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "huwaiicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "은신용 벽지",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "sl/huwaisl",
+		canputon = 0,
+		id = 305306,
+		can_rotate = 0,
+		size = {
+			4,
 			0
 		},
 		offset = {},
