@@ -226137,6 +226137,30 @@ _G.pg.base.item_data_statistics[59827] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59828] = {
+	display = "用于参加人气投票的投票次数，每轮投票结束时次数清零（仅限AZURLANE人气投票2023预选赛阶段使用）",
+	name = "投票券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 2,
+	is_world = 0,
+	icon = "Props/voteT3",
+	id = 59828,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59831] = {
 	display = "为标枪的漫画涂上彩色吧！",
 	name = "漫画彩页1",
