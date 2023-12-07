@@ -20143,6 +20143,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21922,6 +21932,16 @@ pg.base.ship_data_group = {
 				"Event: Inverted Orthant",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
