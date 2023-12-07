@@ -1,7 +1,8 @@
 slot0 = class("VoteMediator", import("..base.ContextMediator"))
 slot0.ON_VOTE = "VoteMediator:ON_VOTE"
 slot0.ON_FILTER = "VoteMediator:ON_FILTER"
-slot0.ON_WEB = "VoteMediator:ON_WEB"
+slot0.ON_SCHEDULE = "VoteMediator:ON_SCHEDULE"
+slot0.OPEN_EXCHANGE = "VoteMediator:OPEN_EXCHANGE"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_VOTE, function (slot0, slot1, slot2, slot3)
@@ -11,25 +12,6 @@ function slot0.register(slot0)
 			count = slot3
 		})
 	end)
-	slot0:bind(uv0.ON_WEB, function (slot0)
-		if not _.detect(pg.activity_vote.all, function (slot0)
-			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
-		end) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
-
-			return
-		end
-
-		uv0:sendNotification(GAME.REQUEST_WEB_VOTE_INFO, {
-			configId = slot1,
-			callback = function ()
-				uv0:addSubLayers(Context.New({
-					mediator = WebVoteMediator,
-					viewComponent = WebVoteLayer
-				}))
-			end
-		})
-	end)
 	slot0:bind(uv0.ON_FILTER, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			viewComponent = CustomIndexLayer,
@@ -37,19 +19,31 @@ function slot0.register(slot0)
 			data = slot1
 		}))
 	end)
-	slot0:setShareData()
-end
+	slot0:bind(uv0.ON_SCHEDULE, function ()
+		uv0:addSubLayers(Context.New({
+			mediator = VoteScheduleMediator,
+			viewComponent = VoteScheduleScene
+		}))
+	end)
+	slot0:bind(uv0.OPEN_EXCHANGE, function ()
+		if not getProxy(VoteProxy):GetOpeningNonFunVoteGroup() then
+			return
+		end
 
-function slot0.setShareData(slot0)
-	slot1 = getProxy(VoteProxy)
-
-	slot0.viewComponent:setVotes(slot1:getVoteGroup(), slot1.votes)
+		uv0:addSubLayers(Context.New({
+			mediator = VoteExchangeMediator,
+			viewComponent = VoteExchangeScene,
+			data = {
+				voteGroup = slot0
+			}
+		}))
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.ON_NEW_VOTE_DONE,
-		VoteProxy.VOTEGROUP_UPDATE
+		GAME.ACT_NEW_PT_DONE
 	}
 end
 
@@ -57,9 +51,38 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.ON_NEW_VOTE_DONE then
-		slot0:setShareData()
 		slot0.viewComponent:updateMainview(false)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("vote_success"))
+		slot0:DisplayAwards(slot3.awards)
+	elseif slot2 == GAME.ACT_NEW_PT_DONE then
+		slot0:DisplayAwards(slot3.awards)
+	end
+end
+
+function slot0.DisplayAwards(slot0, slot1)
+	slot2 = nil
+
+	function slot2()
+		if #uv0.cache <= 0 then
+			return
+		end
+
+		slot1 = uv0.viewComponent
+
+		slot1:emit(BaseUI.ON_ACHIEVE, uv0.cache[1], function ()
+			table.remove(uv0.cache, 1)
+			uv1()
+		end)
+	end
+
+	if not slot0.cache then
+		slot0.cache = {}
+	end
+
+	table.insert(slot0.cache, slot1)
+
+	if #slot0.cache == 1 then
+		slot2()
 	end
 end
 

@@ -71,13 +71,20 @@ function slot0.execute(slot0, slot1)
 				slot5:updateActivity(slot7)
 			end
 		elseif slot4 == 2 or slot4 == 3 then
-			slot5 = getProxy(VoteProxy)
-
 			if slot4 == 2 then
-				slot6 = getProxy(ActivityProxy)
-				slot7 = getProxy(VoteProxy):GetVoteActivity()
-				slot7.data1 = slot7.data1 + slot3.count
-				slot5.votes = slot5.votes + slot3.count
+				for slot10, slot11 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
+					slot11.data1 = slot11.data1 + slot3.count
+
+					if pg.activity_vote[slot11:getConfig("config_id")] and slot13.ticket_id_period == slot3.id then
+						slot11.data3 = slot11.data3 + slot3.count
+					end
+
+					slot5:updateActivity(slot11)
+					pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_VOTE, {
+						ptId = slot3.id,
+						ptCount = slot3.count
+					})
+				end
 			end
 		elseif slot4 == 4 then
 			slot6[slot3.id] = (getProxy(ColoringProxy):getColorItems()[slot3.id] or 0) + slot3.count

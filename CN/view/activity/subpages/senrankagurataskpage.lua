@@ -47,11 +47,6 @@ function slot0.onDestroy(slot0)
 end
 
 function slot0.findUI(slot0)
-	setLocalPosition(slot0._tf, {
-		x = 0,
-		y = 0
-	})
-
 	slot1 = slot0:findTF("IconList")
 	slot0.nameList = {
 		"feiniao",

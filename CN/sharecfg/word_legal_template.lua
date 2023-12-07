@@ -6327,7 +6327,18 @@ function temp()
 		},
 		["洛"] = {
 			["夫"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

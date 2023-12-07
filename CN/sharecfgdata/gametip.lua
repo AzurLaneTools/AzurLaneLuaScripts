@@ -4104,7 +4104,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的挑战，在此期间指挥官可挑战「貎·META」累计其同步值获取<color=#92fc63>「貎·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2023.12.7-2024.3.7</color>期间限时开放「基洛夫·META」的挑战，在此期间指挥官可挑战「基洛夫·META」累计其同步值获取<color=#92fc63>「基洛夫·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4125,7 +4125,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标貎·META暂不可使用指挥喵与潜艇
+·挑战信标基洛夫·META暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -4133,8 +4133,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标貎·META挑战的进行，从第31天开始，即2023.10.1~2023.12.7期间，舰队挑战「貎·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标貎·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标貎·META战斗中出现，每次挑战均会触发。]]
+随着信标基洛夫·META挑战的进行，从第31天开始，即2024.1.7~2024.3.7期间，舰队挑战「基洛夫·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标基洛夫·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标基洛夫·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -17631,9 +17631,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2023.8.31-2023.12.7</color>期间限时开放「貎·META」的「资讯同步」，通过「信标貎·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「貎·META」角色</color>
+·<color=#92fc63>2023.12.7-2024.3.7</color>期间限时开放「基洛夫·META」的「资讯同步」，通过「信标基洛夫·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「基洛夫·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「貎·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「基洛夫·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -26531,4 +26531,151 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 6.「限时建造」：建造限时角色。]]
 		}
 	}
+}
+
+_G.pg.base.gametip.vote_lable_not_start = {
+	tip = "未开启"
+}
+
+_G.pg.base.gametip.vote_lable_voting = {
+	tip = "进行中"
+}
+
+_G.pg.base.gametip.vote_lable_title = {
+	tip = "<size=36>赛程总时间</size> <size=32>2023/12/7 - 2024/2/5 24时</size>"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_1 = {
+	tip = "累计投票"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_2 = {
+	tip = "累计已投票 ："
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_1 = {
+	tip = "本轮投票"
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_2 = {
+	tip = "本轮已投票 ："
+}
+
+_G.pg.base.gametip.vote_lable_window_title = {
+	tip = "奖励一览"
+}
+
+_G.pg.base.gametip.vote_lable_rearch = {
+	tip = "已达成"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_title = {
+	tip = "每日任务"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_tip = {
+	tip = "完成每日任务可获得$1奖励"
+}
+
+_G.pg.base.gametip.vote_lable_task_title = {
+	tip = "期间任务"
+}
+
+_G.pg.base.gametip.vote_lable_task_list_is_empty = {
+	tip = "本轮投票券已兑换完毕"
+}
+
+_G.pg.base.gametip.vote_lable_ship_votes = {
+	tip = "$1票"
+}
+
+_G.pg.base.gametip.vote_help_2023 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>AZURLANE人气投票2023活动规则说明</color>
+
+活动说明：
+· 活动时间：<color=#92fc63>2023年12月7日 – 2024年2月5日24时</color>
+· 本次人气投票活动，将显示服务器合计投票情况。
+· 2021年投票活动进入决胜阶段<color=#92fc63>前三名</color>的角色，本次将加入<color=#92fc63>荣耀殿堂</color>。包括2017、2019年往届荣耀殿堂角色在内，共9名角色，不参与本次投票。
+· 除9名殿堂角色外，其余<color=#92fc63>2023年11月23日前</color>加入游戏的角色将参与常规投票（方案舰角色参与常规投票；联动、META、小船角色不参与常规投票；II型、Zwei型、μ型、IF型视为与本体同一角色，不参与本次人气投票）。
+
+投票券获取方式：
+指挥官等级达到25级的玩家，可以通过以下方式获得<color=#92fc63>投票券</color>。
+除趣味投票外的其他投票阶段：
+· 活动期间，通过完成<color=#92fc63>每日任务</color>，可获得<color=#92fc63>投票券</color>。每个每日任务可获得<color=#92fc63>投票券x2</color>，每日可获得上限为20张。
+· 活动期间，通过完成<color=#92fc63>期间任务</color>，可获得<color=#92fc63>投票券</color>。每个投票阶段可通过期间任务获得的投票券数量有上限。
+	期间任务可获取投票券上限：
+		预选赛：480
+		小组赛A：200
+		小组赛B：200
+		小组赛C：200
+		小组赛D：200
+		决胜复活赛：160
+		决赛：280
+· 每轮投票结束时，剩余的<color=#92fc63>投票券</color>、<color=#92fc63>期间任务进度</color>将<color=#92fc63>重置清空</color>。
+趣味投票阶段：
+活动期间，每日登陆可获得<color=#92fc63>投票券</color>。
+
+赛程安排：
+本次投票分为以下10个阶段：
+<color=#92fc63>预选赛</color>：	2023年12月7日维护后-2023年12月18日24时
+<color=#92fc63>小组赛A</color>：	2023年12月21日0时-2023年12月25日24时
+<color=#92fc63>趣味投票一</color>：2023年12月26日0时-2023年12月28日24时
+<color=#92fc63>小组赛B</color>：	2023年12月30日0时-2024年1月3日24时
+<color=#92fc63>趣味投票二</color>：2024年1月4日0时-2024年1月6日24时
+<color=#92fc63>小组赛C</color>：	2024年1月8日0时-2024年1月12日24时
+<color=#92fc63>趣味投票三</color>：2024年1月13日0时-2024年1月15日24时
+<color=#92fc63>小组赛D</color>：	2024年1月17日0时-2024年1月21日24时
+<color=#92fc63>决胜复活赛</color>：2024年1月23日0时-2024年1月26日24时
+<color=#92fc63>决赛</color>：	2024年1月30日0时-2024年2月5日24时
+
+每轮投票结束后，将在<color=#92fc63>赛程信息</color>中展示该轮投票的统计结果。
+
+各阶段规则：
+<color=#92fc63>预选赛</color>
+<color=#92fc63>预选赛</color>投票结果仅展示角色得票排名，不展示得票数量。
+<color=#92fc63>预选赛</color>由除9名殿堂角色、联动角色、META角色、小船角色外，其他角色参加。II型、Zwei型、μ型、IF型视为与本体同一角色，不参与本次人气投票。
+<color=#92fc63>预选赛</color>获得票数排名前240名的角色，将根据排名，自动
+分成4组，每组60名角色，进入<color=#92fc63>小组赛</color>。
+
+<color=#92fc63>小组赛</color>
+<color=#92fc63>小组赛</color>由<color=#92fc63>预选赛</color>前240名的角色自动分组组成，共4个小
+组，每组60名角色。
+每个小组内获得前5名的角色，将直接进入<color=#92fc63>决赛</color>，第6至第15名的角色，将进入<color=#92fc63>决胜复活赛</color>。其余角色将被淘汰。
+
+<color=#92fc63>趣味投票</color>
+<color=#92fc63>趣味投票</color>共分为3场：塞壬、META、小船。趣味投票角色不参与常规投票。
+
+<color=#92fc63>决胜复活赛</color>
+<color=#92fc63>决胜复活赛</color>由<color=#92fc63>小组赛</color>每个小组第6名至第15名的角色参加。
+<color=#92fc63>决胜复活赛</color>中的前15名角色，将进入<color=#92fc63>决赛</color>，其余角色将被淘汰。
+
+<color=#92fc63>决赛</color>
+<color=#92fc63>决赛</color>由<color=#92fc63>小组赛</color>各小组的前5名，<color=#92fc63>决胜复活赛</color>的前15名，共35名角色参加。
+
+同票规则：
+<color=#92fc63>预选赛</color>中若出现同票情况，按照达到票数的先后处理。
+<color=#92fc63>小组赛</color>、<color=#92fc63>决胜复活赛</color>、<color=#92fc63>决赛</color>中若出现同票情况，按照<color=#92fc63>预
+选赛</color>的排名先后处理。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.vote_tip_level_limit = {
+	tip = "需要指挥官等级<color=#92fc63>Lv25</color>后，才可使用换票处"
+}
+
+_G.pg.base.gametip.vote_label_rank = {
+	tip = "名次"
+}
+
+_G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
+	tip = "排行榜每半小时更新一次"
+}
+
+_G.pg.base.gametip.vote_tip_area_closed = {
+	tip = "该区域未处于开启时间内"
 }

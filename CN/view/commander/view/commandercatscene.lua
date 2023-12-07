@@ -232,6 +232,10 @@ function slot0.UpdateMainView(slot0, slot1, slot2)
 
 		slot0:ReturnCommanderPainting()
 		setCommanderPaintingPrefab(slot0.paintingTF, slot3, "info")
+
+		if slot0.paintingTF:Find("fitter"):GetChild(0) then
+			slot4:GetComponent(typeof(Image)).raycastTarget = false
+		end
 	end
 
 	if slot0.bgName ~= slot1:getConfig("bg") then

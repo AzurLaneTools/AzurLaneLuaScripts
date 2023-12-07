@@ -96,6 +96,10 @@ pg.enemy_data_by_type = {
 		type_name = "风帆",
 		type = 24
 	},
+	{
+		type_name = "未知",
+		type = 25
+	},
 	all = {
 		1,
 		2,
@@ -120,6 +124,7 @@ pg.enemy_data_by_type = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

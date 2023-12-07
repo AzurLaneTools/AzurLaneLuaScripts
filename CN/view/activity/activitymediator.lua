@@ -4,9 +4,6 @@ slot0.EVENT_OPERATION = "event operation"
 slot0.GO_SHOPS_LAYER = "event go shop layer"
 slot0.GO_SHOPS_LAYER_STEEET = "event go shop layer in shopstreet"
 slot0.BATTLE_OPERA = "event difficult sel"
-slot0.REQUEST_VOTE_INFO = "event request vote info"
-slot0.GO_VOTE_LAYER = "event go vote layer"
-slot0.GO_FISRT_VOTE = "event go first vote"
 slot0.GO_BACKYARD = "event go backyard"
 slot0.GO_LOTTERY = "event go lottery"
 slot0.EVENT_COLORING_ACHIEVE = "event coloring achieve"
@@ -27,7 +24,6 @@ slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.NEXT_DISPLAY_AWARD = "next display awards"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
-slot0.OPEN_VOTEBOOK = "event open vote book"
 slot0.FETCH_INSTARGRAM = "fetch instagram"
 slot0.MUSIC_GAME_OPERATOR = "get music game final prize"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
@@ -62,12 +58,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.GO_MINI_GAME, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1)
-	end)
-	slot0:bind(uv0.OPEN_VOTEBOOK, function (slot0)
-		uv0:addSubLayers(Context.New({
-			mediator = VoteOrderBookMediator,
-			viewComponent = VoteOrderBookLayer
-		}))
 	end)
 	slot0:bind(uv0.GO_SUBMARINE_RUN, function (slot0, slot1)
 		uv0:sendNotification(GAME.BEGIN_STAGE, {
@@ -211,31 +201,6 @@ function slot0.register(slot0)
 				mapIdx = slot1
 			})
 		end
-	end)
-	slot0:bind(uv0.REQUEST_VOTE_INFO, function (slot0, slot1)
-		uv0:sendNotification(GAME.REQUEST_VOTE_INFO, slot1)
-	end)
-	slot0:bind(uv0.GO_VOTE_LAYER, function (slot0, slot1)
-		if not _.detect(pg.activity_vote.all, function (slot0)
-			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
-		end) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
-
-			return
-		end
-
-		uv0:sendNotification(GAME.REQUEST_VOTE_INFO, {
-			configId = slot2,
-			callback = function ()
-				uv0:sendNotification(GAME.GO_SCENE, SCENE.VOTE)
-			end
-		})
-	end)
-	slot0:bind(uv0.GO_FISRT_VOTE, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = VoteFameHallMediator,
-			viewComponent = VoteFameHallLayer
-		}))
 	end)
 	slot0:bind(uv0.GO_LOTTERY, function (slot0)
 		uv0:addSubLayers(Context.New({
@@ -448,12 +413,6 @@ function slot0.initNotificationHandleDic(slot0)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
 		end,
 		[VoteProxy.VOTE_ORDER_BOOK_DELETE] = function (slot0, slot1)
-			slot2 = slot1:getBody()
-			slot3 = slot0.viewComponent.pageDic or {}
-
-			if slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_2] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_3] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_4] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_5] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_6] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_7] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_8] then
-				slot4:UpdateOrderBookBtn(slot2)
-			end
 		end,
 		[VoteProxy.VOTE_ORDER_BOOK_UPDATE] = function (...)
 			uv0.handleDic[VoteProxy.VOTE_ORDER_BOOK_DELETE](...)

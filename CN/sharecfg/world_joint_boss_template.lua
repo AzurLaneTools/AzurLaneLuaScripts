@@ -221,7 +221,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "声望·META",
 		painting = "shengwang",
 		boss_level_id = 106,
@@ -363,12 +363,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "貎·META",
 		painting = "shentong",
 		boss_level_id = 166,
 		id = 12,
 		meta_id = 970205,
+		item_id = 100000,
 		description = {
 			{
 				"谋断的铁壁",
@@ -386,12 +387,44 @@ pg.world_joint_boss_template = {
 				"战斗开始50秒后，自身会随着时间流逝逐渐变得虚弱，<color=#92fc63>受到的伤害逐步提升</color>，每过4秒增加10%。"
 			}
 		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
+	{
+		item_id = 100000,
+		name = "基洛夫·META",
+		painting = "jiluofu",
+		boss_level_id = 181,
+		id = 13,
+		meta_id = 970206,
+		description = {
+			{
+				"机械支援协议",
+				2,
+				"基洛夫·META会部署名为「闪流」与「彗星」的两台战斗机械协同作战。\n<color=#92fc63>「闪流」拥有重型装甲</color>，装备了近距离持续电击武器与磁能榴弹，自身会额外受到更多雷击伤害；<color=#92fc63>「彗星」拥有中型装甲</color>，装备了远距离光束武器与冷冻炸弹，自身会额外受到更多炮击伤害。\n若战斗机械被消灭，支援协议会在3秒后将其<color=#92fc63>重新部署至战场</color>。"
+			},
+			{
+				"联合战斗框架",
+				1,
+				"每台战斗机械存活时，都能为基洛夫·META提供一定的炮击、雷击、命中加成。每消灭一台战斗机械，都会使基洛夫·META自身<color=#92fc63>防御力永久下降</color>。"
+			}
+		},
 		state = {
 			{
 				{
 					2023,
-					8,
-					31
+					12,
+					7
 				},
 				{
 					0,
@@ -401,8 +434,8 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2023,
-					12,
+					2024,
+					3,
 					7
 				},
 				{
@@ -414,13 +447,13 @@ pg.world_joint_boss_template = {
 		},
 		p_offset = {
 			-118.8,
-			585.5,
+			545.7,
 			0.8,
 			0.8
 		},
 		p_offset_other = {
 			426,
-			587.7,
+			545.7,
 			0.8,
 			0.8
 		}
@@ -437,6 +470,7 @@ pg.world_joint_boss_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

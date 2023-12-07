@@ -906,6 +906,9 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 				table.insert(slot4, function (slot0)
 					LoadAndInstantiateAsync(uv0, uv1, function (slot0)
 						setParent(slot0, uv0 and uv1.centerPanel or uv1.effectPanel.transform)
+
+						slot0.transform.localScale = Vector3.one
+
 						setActive(slot0, uv2)
 
 						slot0.name = uv3

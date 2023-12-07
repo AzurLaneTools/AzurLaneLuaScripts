@@ -225,22 +225,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		getProxy(ActivityProxy):updateActivity(slot3)
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_VOTE then
-		slot9 = getProxy(VoteProxy):getVoteGroup()
-
-		if slot1.cmd == 1 then
-			slot9:voteShip(slot1.arg2)
-
-			slot8.votes = slot8.votes - 1
-		elseif slot1.cmd == 2 then
-			slot9:loveShip(slot1.arg2)
-
-			slot8.loves = slot8.loves - 1
-		end
-
-		slot9:sortList()
-		slot8:setVoteGroup(slot9)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("vote_success"))
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BB then
 		slot3.data1 = slot3.data1 + 1
 		slot3.data2 = slot3.data2 - 1

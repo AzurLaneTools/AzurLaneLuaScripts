@@ -477,6 +477,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>为独角兽特别制作的角色专属头像框</color>\n「Azurlane人气投票2021」活动获取",
 		scene = {}
 	},
+	[415] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：应瑞",
+		gain_by = "",
+		id = 415,
+		time_second = 0,
+		desc = "<color=#ffffff>为应瑞特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		scene = {}
+	},
+	[416] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：柴郡",
+		gain_by = "",
+		id = 416,
+		time_second = 0,
+		desc = "<color=#ffffff>为柴郡特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		scene = {}
+	},
+	[417] = {
+		time_limit_type = 0,
+		name = "殿堂纪念：{namecode:199:新泽西}",
+		gain_by = "",
+		id = 417,
+		time_second = 0,
+		desc = "<color=#ffffff>为{namecode:199:新泽西}特别制作的角色专属头像框</color>\n「Azurlane人气投票2023」活动获取",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "美味的纪念 ",
@@ -648,6 +675,9 @@ pg.item_data_frame = {
 		405,
 		406,
 		407,
+		415,
+		416,
+		417,
 		501,
 		601,
 		602,
