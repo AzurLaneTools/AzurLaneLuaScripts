@@ -1991,6 +1991,13 @@ pg.skill_data_template = setmetatable({
 		801012,
 		801015,
 		801017,
+		801020,
+		801030,
+		801040,
+		801051,
+		801052,
+		801055,
+		801057,
 		901010,
 		901020,
 		902010,
@@ -126747,6 +126754,325 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG by 8.0%.",
 		system_transform = {
 			[51.0] = 801017
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801020] = {
+		desc_get = "",
+		name = "Vspyshka's Roar",
+		id = 801020,
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, and every 20s: summons a $1 support unit Vspyshka to fight in the battle for 10s. /nVspyshka's stats change based on Kirov META's stats./nThe higher the skill level, the higher Vspyshka's stats and the more DMG it deals.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801030] = {
+		desc_get = "",
+		name = "Kometa's Brilliance",
+		id = 801030,
+		type = 3,
+		max_level = 10,
+		desc = "Sets this ship's Main Gun Range and Targeting Range to 75 and increases this ship's EVA by $1. When the battle starts, for each other ship afloat in your fleet: increases this ship's FP by $2 (can stack up to 5 times; gains the maximum stacks if the only ships afloat are this ship and your Flagship).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[801040] = {
+		desc_get = "",
+		name = "Coordinated Dance",
+		id = 801040,
+		type = 1,
+		max_level = 10,
+		desc = "Every 15s: $1 chance to peform a $2 special attack that decreases the SPD of enemies hit by 30.0% for 8s; the first time each battle that this attack actives: also increases hit enemies' DMG taken by 15.0% for 8s (special attack DMG is based on the skill's level; the DMG taken increase effect does not stack with the skill \"Kirov, Reporting!\").",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801051] = {
+		desc_get = "",
+		name = "Cinders of Hope - Kirov",
+		id = 801051,
+		type = 3,
+		max_level = 1,
+		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 801055
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801052] = {
+		desc_get = "",
+		name = "Cinders of Hope - Kirov",
+		id = 801052,
+		type = 3,
+		max_level = 1,
+		desc = "Every 8 times this ship fires her Main Guns: fires a special barrage.",
+		system_transform = {
+			[51.0] = 801057
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801055] = {
+		desc_get = "",
+		name = "Cinders of Hope - Kirov",
+		id = 801055,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		system_transform = {
+			[51.0] = 801055
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801057] = {
+		desc_get = "",
+		name = "Cinders of Hope - Kirov",
+		id = 801057,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
+		system_transform = {
+			[51.0] = 801057
 		},
 		world_death_mark = {
 			1

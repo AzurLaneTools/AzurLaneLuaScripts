@@ -134,7 +134,7 @@ function slot0.Disable(slot0)
 		slot1.anim = false
 
 		slot0:Enable(slot1)
-	else
+	elseif slot0:IsLoaded() then
 		slot0.state = uv0
 
 		setActive(slot0._go, false)

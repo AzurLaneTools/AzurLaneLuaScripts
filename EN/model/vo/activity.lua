@@ -300,21 +300,6 @@ function slot0.readyToAchieve(slot0)
 				end
 			end
 
-			if getProxy(VoteProxy):IsVoteBookAct(slot0.id) then
-				slot5 = nil
-
-				if _.detect(pg.activity_vote.all, function (slot0)
-					return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
-				end) then
-					slot5 = VoteGroup.New({
-						id = slot4,
-						list = {}
-					})
-				end
-
-				slot3 = slot5 and slot5:GetStage() == VoteGroup.VOTE_STAGE
-			end
-
 			slot4 = false
 
 			if slot0:getConfig("config_client").fireworkActID and slot5 ~= 0 then

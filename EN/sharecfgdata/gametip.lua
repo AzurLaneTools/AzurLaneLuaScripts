@@ -4473,9 +4473,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>8/31/23 to 12/7/23</color>, challenge Jintsuu META
+From <color=#92fc63>12/7/23 to 3/6/24</color>, challenge Kirov META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Jintsuu META</color> as well
+to obtain the limited character, <color=#92fc63>Kirov META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -10263,15 +10263,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Howe and Valiant added to standard build pool!"
+	tip = "Prinz Heinrich added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Hermione added to the standard build pool!"
+	tip = "Nürnberg added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Perseus and Eagle added to standard build pool!"
+	tip = "Peter Strasser, U-37 and Weser added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -26789,4 +26789,151 @@ You can also claim the Elite collaboration character Murasaki as a milestone rew
 6. The Limited Construction button takes you to the build screen.]]
 		}
 	}
+}
+
+_G.pg.base.gametip.vote_lable_not_start = {
+	tip = "Locked"
+}
+
+_G.pg.base.gametip.vote_lable_voting = {
+	tip = "In Progress"
+}
+
+_G.pg.base.gametip.vote_lable_title = {
+	tip = "<size=30>Popularity Poll is open between</size> <size=28>7/12/2023 and 5/2/2024 12 AM</size>"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_1 = {
+	tip = "Total Votes"
+}
+
+_G.pg.base.gametip.vote_lable_acc_title_2 = {
+	tip = "Total Votes:"
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_1 = {
+	tip = "Votes This Round"
+}
+
+_G.pg.base.gametip.vote_lable_curr_title_2 = {
+	tip = "Votes This Round:"
+}
+
+_G.pg.base.gametip.vote_lable_window_title = {
+	tip = "Rewards"
+}
+
+_G.pg.base.gametip.vote_lable_rearch = {
+	tip = "Completed"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_title = {
+	tip = "Dailies"
+}
+
+_G.pg.base.gametip.vote_lable_daily_task_tip = {
+	tip = "Complete daily missions to receive $1 reward(s)."
+}
+
+_G.pg.base.gametip.vote_lable_task_title = {
+	tip = "Event Tasks"
+}
+
+_G.pg.base.gametip.vote_lable_task_list_is_empty = {
+	tip = "You have obtained every ballot."
+}
+
+_G.pg.base.gametip.vote_lable_ship_votes = {
+	tip = "$1 vote(s)"
+}
+
+_G.pg.base.gametip.vote_help_2023 = {
+	tip = {
+		{
+			info = [[
+<color=#FFDD00>Azur Lane Popularity Poll 2023 Information</color>
+
+- Overview -
+· Complete event missions to collect ballots and use them to vote for your favorite shipgirls and receive rewards based on how many votes you have cast.
+· Tap the Popularity Poll button in the top right corner on the main screen to view the event missions, current rankings, and cast votes in the active round.
+· The Popularity Poll is available from <color=#92fc63>December 7th, 2023 to 12 AM on February 5th, 2024</color>.
+· The Daily Results board displays the current total votes in each round across all servers.
+· Excluding shipgirls already in the Hall of Fame, <color=#92fc63>all shipgirls available in the game before November 23rd, 2023</color> are eligible to participate. Collaboration characters (excluding blueprint ships), µ-rigging, and Type II rigging shipgirls as well as Kaga(BB) cannot participate in the poll, but META and Little shipgirls can be voted on in the special vote rounds.
+
+- Obtaining Ballots -
+All Commanders who have reached Commander Level 25 are able to obtain <color=#92fc63>ballots</color> through the following means:
+Qualifiers (Excluding Special Votes):
+· Completing the <color=#92fc63>daily missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. You can obtain up to a maximum of <color=#92fc63>20 ballots a day</color> this way.
+· Completing the <color=#92fc63>one-time missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. Each poll round has a limit on how many ballots may be obtained this way.
+For more on the mission objectives and the maximum caps on ballots obtained, please check the Event Tasks tab.
+
+Max Ballot Caps for Each Round of the Poll:
+Qualifiers: 480
+Group A: 200
+Group B: 200
+Group C: 200
+Group D: 200
+Repechage: 160
+Finals: 280
+When all the polling rounds have finished, your remaining ballots will be <color=#92fc63>automatically removed</color> and your progress on the event missions will <color=#92fc63>reset</color>.
+Special Votes:
+You receive <color=#92fc63>1 ballot</color> a day when you log in to the game.
+
+- Voting Schedule -
+The main and special votes follow the schedule below:
+<color=#92fc63>Qualifiers</color>: after the 7/12/2023 maintenance to 18/12/2023, 11:59 PM.
+<color=#92fc63>Group A</color>: from 21/12/2023, midnight to 25/12/2023, 11:59 PM.
+<color=#92fc63>Special Vote I</color>: from 26/12/2023, midnight to 28/12/2023, 11:59 PM.
+<color=#92fc63>Group B</color>: from 30/12/2023, midnight to 3/1/2024, 11:59 PM.
+<color=#92fc63>Special Vote II</color>: from 4/1/2024, midnight to 6/1/2024, 11:59 PM.
+<color=#92fc63>Group C</color>: from 8/1/2024, midnight to 12/1/2024, 11:59 PM.
+<color=#92fc63>Special Vote III</color>: from 13/1/2024, midnight to 15/1/2024, 11:59 PM.
+<color=#92fc63>Group D</color>: from 17/1/2024, midnight to 21/1/2024, 11:59 PM.
+<color=#92fc63>Repechage</color>: from 23/1/2024, midnight to 26/1/2024, 11:59 PM.
+<color=#92fc63>Finals</color>: from 30/1/2024, midnight to 5/2/2024, 11:59 PM.
+
+The voting time and final results of each round are available on the <color=#92fc63>Daily Results</color>.
+
+- Round-Specific Rules -
+<color=#92fc63>Qualifiers</color>
+During the Qualifiers round, the total number of votes for each character will not be shown, only their current rankings.
+All shipgirls are able to participate in this round, with the exceptions of: shipgirls in the Hall of Fame, collaboration characters (excluding blueprint ships), µ-rigging shipgirls,Type II rigging shipgirls, Kaga(BB), META shipgirls, and Little shipgirls.
+The top 240 shipgirls with the most votes this round advance to the group votes. Each group consists of 60 shipgirls.
+
+<color=#92fc63>Group Votes</color>
+The group votes will consist of all the winners from the qualifiers divided into four groups.
+The top 5 shipgirls with the most votes in each group will advance to the finals. The shipgirls from 6th to 15th place will instead advance to the <color=#92fc63>repechage</color>.
+
+<color=#92fc63>Special Votes</color>
+There will be a total of 3 special votes, one each dedicated to Sirens, META shipgirls, and Little shipgirls. The participants in this round cannot participate in the main poll.
+
+<color=#92fc63>Repechage</color>
+The repechage will consist of all shipgirls who placed between 6th and 15th from each group during the group votes.
+The top 15 shipgirls with the most votes in this round will advance to the finals.
+
+<color=#92fc63>Finals</color>
+A total of 20 participants from the group votes and 15 from the repechage will participate in the finals.
+
+- In Case of a Tie in Number of Votes -
+In the <color=#92fc63>qualifiers</color>, if there occurs a tie in the number of votes between shipgirls, the winner will be chosen based on the order of who reached the final number of votes first.
+In the <color=#92fc63>group votes</color>, the <color=#92fc63>repechage</color>, and the <color=#92fc63>finals</color>, the winner will be chosen based on the order of the final rankings in the qualifiers.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.vote_tip_level_limit = {
+	tip = "Becomes obtainable after you reach Commander Level 25."
+}
+
+_G.pg.base.gametip.vote_label_rank = {
+	tip = "Rank"
+}
+
+_G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
+	tip = "The ranking is updated every 30 minutes."
+}
+
+_G.pg.base.gametip.vote_tip_area_closed = {
+	tip = "Event unavailable "
 }

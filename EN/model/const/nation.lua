@@ -13,6 +13,7 @@ slot0.FR = 10
 slot0.MOT = 96
 slot0.META = 97
 slot0.BURIN = 98
+slot0.SIRE = 99
 slot0.LINK = 100
 slot0.IDOL_LINK = 107
 
@@ -39,17 +40,18 @@ function slot0.Nation2Print(slot0)
 			"mnf",
 			"ff",
 			[96.0] = "mot",
-			[108.0] = "um",
-			[104.0] = "um",
 			[97.0] = "meta",
+			[104.0] = "um",
+			[108.0] = "um",
 			[102.0] = "bili",
 			[101.0] = "np",
 			[107.0] = "um",
-			[106.0] = "um",
-			[105.0] = "um",
-			[98.0] = "cm",
 			[110.0] = "um",
 			[103.0] = "um",
+			[98.0] = "cm",
+			[106.0] = "um",
+			[105.0] = "um",
+			[99.0] = "sr",
 			[109.0] = "um"
 		}
 	end

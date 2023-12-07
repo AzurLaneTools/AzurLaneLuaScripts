@@ -58,11 +58,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_VOTE_BOOK, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = VoteOrderBookMediator,
-			viewComponent = VoteOrderBookLayer,
-			onRemoved = slot1
-		}))
 	end)
 	slot0:bind(uv0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
 		uv0.contextData.commanderOPChapter = slot2
@@ -562,7 +557,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateEvent(getProxy(EventProxy))
 	slot0.viewComponent:updateFleet(getProxy(FleetProxy):GetRegularFleets())
 	slot0.viewComponent:setShips(getProxy(BayProxy):getRawData())
-	slot0.viewComponent:updateVoteBookBtn(getProxy(VoteProxy):GetOrderBook())
+	slot0.viewComponent:updateVoteBookBtn()
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 
 	for slot12, slot13 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
@@ -655,23 +650,7 @@ function slot0.RegisterTrackEvent(slot0)
 end
 
 function slot0.NoticeVoteBook(slot0, slot1)
-	if getProxy(VoteProxy):IsNewOrderBook() then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			noText = "text_iknow",
-			yesText = "text_forward",
-			content = i18n("vote_get_book"),
-			onYes = function ()
-				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
-					uv0.viewComponent:emit(uv1.ON_VOTE_BOOK, uv2)
-				else
-					existCall(uv2)
-				end
-			end,
-			onNo = slot1
-		})
-	else
-		slot1()
-	end
+	slot1()
 end
 
 function slot0.TryPlaySubGuide(slot0)
@@ -723,7 +702,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
-		slot0.viewComponent:updateVoteBookBtn(slot3)
+		slot0.viewComponent:updateVoteBookBtn()
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
 	elseif slot2 == uv0.ON_TRACKING or slot2 == uv0.ON_ELITE_TRACKING or slot2 == uv0.ON_RETRACKING then

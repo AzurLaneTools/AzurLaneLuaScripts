@@ -24,16 +24,48 @@ pg.vote_champion = {
 		group = 2019,
 		story = "RENQIBISIMAI"
 	},
+	[7] = {
+		ship_group = 10517,
+		task = 31045,
+		rank = 1,
+		id = 7,
+		group = 2021,
+		story = "RENQIXINZEXI"
+	},
+	[8] = {
+		ship_group = 40303,
+		task = 31046,
+		rank = 2,
+		id = 8,
+		group = 2021,
+		story = "RENQIOUGEN"
+	},
+	[9] = {
+		ship_group = 49902,
+		task = 31047,
+		rank = 3,
+		id = 9,
+		group = 2021,
+		story = "RENQIFEITELIEDADI"
+	},
 	get_id_list_by_group = {
 		[2019] = {
 			4,
 			5,
 			6
+		},
+		[2021] = {
+			7,
+			8,
+			9
 		}
 	},
 	all = {
 		4,
 		5,
-		6
+		6,
+		7,
+		8,
+		9
 	}
 }

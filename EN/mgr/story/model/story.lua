@@ -72,7 +72,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 		table.insert(slot0.steps, slot16)
 	end
 
-	table.insert(slot8, #slot0.steps)
+	if #slot0.steps > 0 then
+		table.insert(slot8, #slot0.steps)
+	end
+
 	slot0:HandleRecallOptions(slot8)
 
 	slot0.branchCode = nil

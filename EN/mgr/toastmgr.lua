@@ -7,6 +7,7 @@ slot0.TYPE_TECPOINT = "Tecpoint"
 slot0.TYPE_TROPHY = "Trophy"
 slot0.TYPE_META = "Meta"
 slot0.TYPE_CRUSING = "Crusing"
+slot0.TYPE_VOTE = "Vote"
 slot0.ToastInfo = {
 	[slot0.TYPE_ATTIRE] = {
 		Attire = "attire_tpl"
@@ -24,6 +25,9 @@ slot0.ToastInfo = {
 	},
 	[slot0.TYPE_CRUSING] = {
 		Crusing = "crusing_pt_tpl"
+	},
+	[slot0.TYPE_VOTE] = {
+		Vote = "vote_tpl"
 	}
 }
 
@@ -166,7 +170,7 @@ function slot0.UpdateAttire(slot0, slot1, slot2, slot3)
 	assert(isa(slot6, AttireFrame))
 	setActive(slot4.transform:Find("bg/icon_frame"), slot6:getType() == AttireConst.TYPE_ICON_FRAME)
 	setActive(slot4.transform:Find("bg/chat_frame"), slot7 == AttireConst.TYPE_CHAT_FRAME)
-	setText(slot4.transform:Find("bg/Text"), slot6:getConfig("name"))
+	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot6:getConfig("name")))
 end
 
 slot0.FADE_TIME = 0.4
@@ -401,6 +405,36 @@ function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 		id = slot5
 	}), "", slot7:Find("PointIcon"), true)
 	setText(slot7:Find("info/name"), pg.item_data_statistics[id2ItemId(slot5)].name)
+	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
+	setAnchoredPosition(slot7, {
+		x = slot7.rect.width
+	})
+	LeanTween.alphaCanvas(GetComponent(slot7, typeof(CanvasGroup)), 1, 0.5):setFrom(0):setOnComplete(System.Action(function ()
+		LeanTween.alphaCanvas(uv0, 0, 0.5):setDelay(5):setOnComplete(System.Action(function ()
+			setActive(uv0, false)
+			uv1.pools[uv2.type .. "Tpl"]:Enqueue(go(uv0))
+
+			if uv3 then
+				uv3()
+			end
+		end))
+
+		if uv5 then
+			uv5()
+		end
+	end))
+end
+
+function slot0.UpdateVote(slot0, slot1, slot2, slot3)
+	slot4 = slot1.info
+	slot5 = slot4.ptId
+	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
+
+	LoadImageSpriteAtlasAsync(getDropIcon({
+		type = DROP_TYPE_ITEM,
+		id = slot5
+	}), "", slot7:Find("PointIcon"), true)
+	setText(slot7:Find("info/name"), pg.item_data_statistics[slot5].name)
 	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
 	setAnchoredPosition(slot7, {
 		x = slot7.rect.width

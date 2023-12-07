@@ -221,7 +221,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "Renown META",
 		painting = "shengwang",
 		boss_level_id = 106,
@@ -388,12 +388,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Jintsuu META",
 		painting = "shentong",
 		boss_level_id = 166,
 		id = 12,
 		meta_id = 970205,
+		item_id = 100000,
 		description = {
 			{
 				"Ironclad Ultimatum",
@@ -411,12 +412,44 @@ pg.world_joint_boss_template = {
 				"50s after the battle starts: until the battle ends, <color=#92fc63>increases this ship's DMG taken by 10.0% for every 4s passed.</color>"
 			}
 		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
+	{
+		item_id = 100000,
+		name = "Kirov META",
+		painting = "jiluofu",
+		boss_level_id = 181,
+		id = 13,
+		meta_id = 970206,
+		description = {
+			{
+				"Mechanized Support",
+				2,
+				"Kirov META summons 2 combat support units, Vspyshka and Kometa.\n<color=#92fc63>Vspyshka is a unit with Heavy Armor</color>, close-range electric weapons, and homing bomb launchers, and takes increased torpedo DMG.<color=#92fc63>Kometa is a unit with Medium Armor</color>, long-range laser weapons, and bombs that cause freezing, and takes increased cannon DMG.\nWhen a support unit is destroyed, <color=#92fc63>it respawns after 3s</color>."
+			},
+			{
+				"Live and Die by Teamwork",
+				1,
+				"Increases Kirov META's FP, TRP, and ACC for each active support unit. When a support unit is destroyed: <color=#92fc63>decreases Kirov META's defense until the battle ends</color>."
+			}
+		},
 		state = {
 			{
 				{
 					2023,
-					8,
-					31
+					12,
+					7
 				},
 				{
 					0,
@@ -426,8 +459,8 @@ pg.world_joint_boss_template = {
 			},
 			{
 				{
-					2023,
-					12,
+					2024,
+					3,
 					7
 				},
 				{
@@ -439,13 +472,13 @@ pg.world_joint_boss_template = {
 		},
 		p_offset = {
 			-118.8,
-			585.5,
+			545.7,
 			0.8,
 			0.8
 		},
 		p_offset_other = {
 			426,
-			587.7,
+			545.7,
 			0.8,
 			0.8
 		}
@@ -462,6 +495,7 @@ pg.world_joint_boss_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

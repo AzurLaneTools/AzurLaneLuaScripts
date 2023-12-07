@@ -5790,6 +5790,16 @@ pg.painting_filte_map = {
 			"painting/jiluofu_4"
 		}
 	},
+	jiluofu_alter = {
+		key = "jiluofu_alter",
+		res_list = {
+			"painting/jiluofu_alter_tex",
+			"painting/jiluofu_alter_rw_tex",
+			"painting/jiluofu_alter_n_tex",
+			"painting/jiluofu_alter_n",
+			"painting/jiluofu_alter"
+		}
+	},
 	jinboli = {
 		key = "jinboli",
 		res_list = {
@@ -15737,6 +15747,7 @@ pg.painting_filte_map = {
 		"jiluofu_2",
 		"jiluofu_3",
 		"jiluofu_4",
+		"jiluofu_alter",
 		"jinboli",
 		"jinboli_3",
 		"jingang",

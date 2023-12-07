@@ -1,16 +1,18 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5101",
 		id = 1,
 		pic = "temp2",
-		type = 3,
+		type = 2,
+		param = {
+			"scene vote entrance"
+		},
 		time = {
 			{
 				{
 					2023,
-					11,
-					23
+					12,
+					7
 				},
 				{
 					0,
@@ -20,9 +22,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2023,
-					12,
-					6
+					2024,
+					2,
+					5
 				},
 				{
 					23,
@@ -37,18 +39,18 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene level",
 			{
-				projectName = "new",
-				page = 1
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
 			{
 				{
 					2023,
-					11,
-					23
+					12,
+					7
 				},
 				{
 					0,
@@ -60,7 +62,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					6
+					21
 				},
 				{
 					23,
@@ -213,17 +215,14 @@ pg.activity_banner = {
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"scene level"
 		},
 		time = {
 			{
 				{
 					2023,
-					11,
-					23
+					12,
+					7
 				},
 				{
 					0,
@@ -235,7 +234,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					6
+					21
 				},
 				{
 					23,
@@ -384,35 +383,10 @@ pg.activity_banner = {
 	},
 	[95] = {
 		param = "",
-		id = 95,
-		pic = "temp100",
+		time = "stop",
 		type = 11,
-		time = {
-			{
-				{
-					2023,
-					11,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 95,
+		pic = "temp100"
 	},
 	[99] = {
 		param = "",
@@ -468,19 +442,19 @@ pg.activity_banner = {
 		pic = "autumn"
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			4,
-			8,
-			9
-		},
 		[2] = {
+			1,
 			2,
 			3,
 			5,
 			6,
 			7,
 			10
+		},
+		[3] = {
+			4,
+			8,
+			9
 		},
 		[9] = {
 			90,

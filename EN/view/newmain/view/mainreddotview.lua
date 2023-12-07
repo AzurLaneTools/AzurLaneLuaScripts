@@ -132,10 +132,6 @@ function slot0.GetNotifyType(slot0)
 			},
 			[pg.RedDotMgr.TYPES.ACT_RETURN] = {
 				GAME.REMOVE_LAYERS
-			},
-			[pg.RedDotMgr.TYPES.VOTE_OREDER] = {
-				VoteProxy.VOTE_ORDER_BOOK_DELETE,
-				VoteProxy.VOTE_ORDER_BOOK_UPDATE
 			}
 		}
 	end

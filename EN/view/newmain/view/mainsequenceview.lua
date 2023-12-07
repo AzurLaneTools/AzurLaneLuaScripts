@@ -4,6 +4,7 @@ function slot0.Ctor(slot0)
 	slot0.sequence = {
 		MainRefundSequence.New(),
 		MainForcePlayerNameModificationSequence.New(),
+		MainRequestVoteInfoSequence.New(),
 		MainStroySequence.New(),
 		MainRequestActDataSequence.New(),
 		MainUrShipReFetchSequence.New(),

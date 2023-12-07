@@ -7,7 +7,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.035
@@ -23,7 +23,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.04
@@ -39,7 +39,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.045
@@ -55,7 +55,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.05
@@ -71,7 +71,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.055
@@ -87,7 +87,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.06
@@ -103,7 +103,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.065
@@ -119,7 +119,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.07
@@ -135,7 +135,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.075
@@ -151,7 +151,7 @@ return {
 				targetAniEffect = "",
 				target_choise = {
 					"TargetAllHelp",
-					"TargetHelpLeastHPRatio"
+					"TargetSelf"
 				},
 				arg_list = {
 					maxHPRatio = 0.08
@@ -182,7 +182,7 @@ return {
 			targetAniEffect = "",
 			target_choise = {
 				"TargetAllHelp",
-				"TargetHelpLeastHPRatio"
+				"TargetSelf"
 			},
 			arg_list = {
 				maxHPRatio = 0.035

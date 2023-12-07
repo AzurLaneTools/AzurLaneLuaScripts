@@ -153,10 +153,26 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4935
+			5093
 		},
 		param = {
-			"SSSS_MEDAL_COLLECTION"
+			"SENRANKAGURA_MEDAL"
+		}
+	},
+	[101] = {
+		type = 2,
+		name = "event_senran",
+		text_pic = "text_event_senran",
+		id = 101,
+		group_id = 100,
+		pic = "event_senran",
+		order = 1,
+		time = {
+			"default",
+			5099
+		},
+		param = {
+			"SENRANKAGURA_TRAIN"
 		}
 	},
 	get_id_list_by_name = {
@@ -191,6 +207,9 @@ pg.activity_link_button = {
 		},
 		event_medal = {
 			100
+		},
+		event_senran = {
+			101
 		}
 	},
 	all = {
@@ -205,6 +224,7 @@ pg.activity_link_button = {
 		70,
 		80,
 		90,
-		100
+		100,
+		101
 	}
 }

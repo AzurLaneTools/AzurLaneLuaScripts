@@ -202,6 +202,11 @@ pg.task_meta_data_template = setmetatable({
 		100133,
 		100134,
 		100135,
+		100141,
+		100142,
+		100143,
+		100144,
+		100145,
 		200001,
 		200002,
 		200003,
@@ -253,7 +258,11 @@ pg.task_meta_data_template = setmetatable({
 		200131,
 		200132,
 		200133,
-		200134
+		200134,
+		200141,
+		200142,
+		200143,
+		200144
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1858,6 +1867,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100141] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "Win 1 battle with Kirov META in your fleet.",
+		id = 100141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100142] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Kirov META in your fleet.",
+		id = 100142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100143] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Kirov META in your fleet.",
+		id = 100143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100144] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Kirov META in your fleet.",
+		id = 100144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100145] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Kirov META in your fleet.",
+		id = 100145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2271,6 +2320,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Erebus META in your fleet.",
 		id = 200134,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200141] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Kirov META in your fleet.",
+		id = 200141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200142] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Kirov META in your fleet.",
+		id = 200142,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200143] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Kirov META in your fleet.",
+		id = 200143,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200144] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kirov META in your fleet.",
+		id = 200144,
 		target_num = 1,
 		target_id = "100"
 	}

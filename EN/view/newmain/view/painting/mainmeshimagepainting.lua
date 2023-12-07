@@ -17,12 +17,12 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.StaticGetPaintingName(slot0)
-	if HXSet.isHx() then
-		return slot0
-	end
-
 	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot0 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
 		slot1 = slot1 .. "_n"
+	end
+
+	if HXSet.isHx() then
+		return slot1
 	end
 
 	if getProxy(SettingsProxy):GetMainPaintingVariantFlag(slot0) == uv0.PAINTING_VARIANT_EX and not PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_ex")) then

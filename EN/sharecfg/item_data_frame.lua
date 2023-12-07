@@ -450,6 +450,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A special portrait frame made to commemorate Bismarck.</color>\nObtained through the Azur Lane 2021 Popularity Poll.",
 		scene = {}
 	},
+	[417] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: New Jersey",
+		gain_by = "",
+		id = 417,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate New Jersey.</color>\nObtained from the Azur Lane Popularity Poll 2023.",
+		scene = {}
+	},
+	[420] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: Prinz Eugen",
+		gain_by = "",
+		id = 420,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Prinz Eugen.</color>\nObtained from the Azur Lane Popularity Poll 2023.",
+		scene = {}
+	},
+	[421] = {
+		time_limit_type = 0,
+		name = "Hall of Fame: Friedrich der Große",
+		gain_by = "",
+		id = 421,
+		time_second = 0,
+		desc = "<color=#ffffff>A special portrait frame made to commemorate Friedrich der Große.</color>\nObtained from the Azur Lane Popularity Poll 2023.",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "Manjuu Pizzeria Frame ",
@@ -609,6 +636,9 @@ pg.item_data_frame = {
 		406,
 		411,
 		412,
+		417,
+		420,
+		421,
 		501,
 		601,
 		602,

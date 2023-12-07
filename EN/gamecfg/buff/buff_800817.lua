@@ -14,7 +14,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onStartGame"
+				"onSubmarineRaid"
 			},
 			arg_list = {
 				skill_id = 800817,

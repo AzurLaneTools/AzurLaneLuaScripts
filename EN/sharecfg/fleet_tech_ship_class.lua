@@ -3337,6 +3337,17 @@ pg.fleet_tech_ship_class = {
 			970205
 		}
 	},
+	[970206] = {
+		shiptype = 2,
+		name = "Kirov META",
+		nation = 97,
+		id = 970206,
+		t_level_1 = 8,
+		t_level = 3,
+		ships = {
+			970206
+		}
+	},
 	[970301] = {
 		shiptype = 3,
 		name = "Trento META",
@@ -3825,6 +3836,7 @@ pg.fleet_tech_ship_class = {
 		970203,
 		970204,
 		970205,
+		970206,
 		970301,
 		970302,
 		970401,

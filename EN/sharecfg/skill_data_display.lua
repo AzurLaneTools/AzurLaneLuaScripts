@@ -2639,6 +2639,12 @@ pg.skill_data_display = setmetatable({
 		801000,
 		801015,
 		801017,
+		801020,
+		801030,
+		801031,
+		801032,
+		801040,
+		801041,
 		902201,
 		1010140,
 		1010143,
@@ -13363,6 +13369,30 @@ pg.base.skill_data_display = {
 	[801017] = {
 		id = 801017,
 		name = "Cinders of Hope - Erebus"
+	},
+	[801020] = {
+		id = 801020,
+		name = "Vspyshka's Roar"
+	},
+	[801030] = {
+		id = 801030,
+		name = "Kometa's Brilliance"
+	},
+	[801031] = {
+		id = 801031,
+		name = "Kometa's Brilliance"
+	},
+	[801032] = {
+		id = 801032,
+		name = "Kometa's Brilliance"
+	},
+	[801040] = {
+		id = 801040,
+		name = "Coordinated Dance"
+	},
+	[801041] = {
+		id = 801041,
+		name = "Coordinated Dance"
 	},
 	[902201] = {
 		id = 902201,
