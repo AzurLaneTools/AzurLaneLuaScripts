@@ -1,7 +1,11 @@
 slot0 = class("VoteFameHallLayer", import("..base.BaseUI"))
 
 function slot0.getUIName(slot0)
-	return "VoteFameHallUI"
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return "VoteFameHallUIForCht"
+	else
+		return "VoteFameHallUI"
+	end
 end
 
 function slot0.SetPastVoteData(slot0, slot1)
