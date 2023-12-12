@@ -26800,7 +26800,7 @@ _G.pg.base.gametip.vote_lable_voting = {
 }
 
 _G.pg.base.gametip.vote_lable_title = {
-	tip = "<size=30>Popularity Poll is open between</size> <size=28>7/12/2023 and 5/2/2024 12 AM</size>"
+	tip = "<size=30>Popularity Poll is open between</size> <size=28>12/7/2023 and 2/5/2024 12 AM</size>"
 }
 
 _G.pg.base.gametip.vote_lable_acc_title_1 = {
