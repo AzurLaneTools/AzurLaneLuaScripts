@@ -50,7 +50,17 @@ function slot0.onRegister(slot0)
 		uv0:sendNotification(GAME.GO_BACK, slot1)
 	end)
 	slot0:bind(BaseUI.ON_HOME, function (slot0)
-		if getProxy(ContextProxy):getCurrentContext():retriveLastChild() and slot3 ~= slot2 then
+		if getProxy(ContextProxy):getCurrentContext().mediator == NewMainMediator then
+			for slot6 = #slot2.children, 1, -1 do
+				uv0:sendNotification(GAME.REMOVE_LAYERS, {
+					context = slot2.children[slot6]
+				})
+			end
+
+			return
+		end
+
+		if slot2:retriveLastChild() and slot3 ~= slot2 then
 			uv0:sendNotification(GAME.REMOVE_LAYERS, {
 				onHome = true,
 				context = slot3
