@@ -91,17 +91,44 @@ function slot0.HandleCurrActStory(slot0, slot1)
 	end
 end
 
+function slot0.PreRaceIsEnd()
+	slot0 = nil
+
+	for slot4, slot5 in ipairs(pg.activity_vote.all) do
+		if pg.activity_vote[slot5].type == VoteConst.RACE_TYPE_PRE then
+			slot0 = slot5
+
+			break
+		end
+	end
+
+	if not slot0 then
+		return false
+	end
+
+	return pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.activity_vote[slot0].time_vote[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
 function slot0.HandleEndStory()
 	if getProxy(VoteProxy):IsAllRaceEnd() then
 		uv0.Play({
 			uv0.GetStoryNameByType(uv0.END)
 		})
+	elseif uv0.PreRaceIsEnd() then
+		uv0.Play(_.map({
+			uv0.ENTER_SCENE,
+			uv0.ENTER_MAIN_STAGE,
+			uv0.ENTER_SUB_STAGE,
+			uv0.ENTER_SCHEDULE,
+			uv0.ENTER_HALL,
+			uv0.ENTER_EXCHANGE
+		}, function (slot0)
+			return uv0.GetStoryNameByType(slot0)
+		end))
 	end
 end
 
 function slot0.CollectEnterGuide(slot0, slot1)
-	print(slot0)
-
 	if slot0 and not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.GetStoryNameByType(uv0.ENTER_SCENE)) then
 		table.insert(slot1, "NG0042")
 	end

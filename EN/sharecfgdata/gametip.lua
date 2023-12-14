@@ -26937,3 +26937,7 @@ _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "Event unavailable "
 }
+
+_G.pg.base.gametip.rect_ship_card_tpl_add = {
+	tip = "Tap to Add"
+}

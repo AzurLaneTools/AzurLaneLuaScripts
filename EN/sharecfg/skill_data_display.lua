@@ -2001,6 +2001,8 @@ pg.skill_data_display = setmetatable({
 		29162,
 		29171,
 		29172,
+		29173,
+		29174,
 		29181,
 		29182,
 		29191,
@@ -2762,6 +2764,7 @@ pg.skill_data_display = setmetatable({
 		1011900,
 		1010250,
 		1010251,
+		1010380,
 		1090030,
 		1090031,
 		1090032,
@@ -2797,6 +2800,12 @@ pg.skill_data_display = setmetatable({
 		1017161,
 		1017251,
 		1017252,
+		1012620,
+		1012621,
+		1012622,
+		1011940,
+		1011941,
+		1011942,
 		1090020,
 		1090042,
 		1090043,
@@ -2817,7 +2826,11 @@ pg.skill_data_display = setmetatable({
 		1090170,
 		1090171,
 		1090172,
-		1090191
+		1090191,
+		1090210,
+		1090211,
+		1090220,
+		1090221
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10818,6 +10831,14 @@ pg.base.skill_data_display = {
 		id = 29172,
 		name = "EX Barrage: Z1 Ⅱ"
 	},
+	[29173] = {
+		id = 29173,
+		name = "EX Barrage: Z1 Ⅰ"
+	},
+	[29174] = {
+		id = 29174,
+		name = "EX Barrage: Z1 Ⅱ"
+	},
 	[29181] = {
 		id = 29181,
 		name = "EX Barrage: Anshan Ⅰ"
@@ -13862,6 +13883,10 @@ pg.base.skill_data_display = {
 		id = 1010251,
 		name = "Javelin Raid+"
 	},
+	[1010380] = {
+		id = 1010380,
+		name = "Z Vanguard+"
+	},
 	[1090030] = {
 		id = 1090030,
 		name = "Anti-Air Mode - Montpelier"
@@ -14002,6 +14027,30 @@ pg.base.skill_data_display = {
 		id = 1017252,
 		name = "Hindhorn's Grace+"
 	},
+	[1012620] = {
+		id = 1012620,
+		name = "Terni Shields+"
+	},
+	[1012621] = {
+		id = 1012621,
+		name = "Terni Shields+"
+	},
+	[1012622] = {
+		id = 1012622,
+		name = "Terni Shields+"
+	},
+	[1011940] = {
+		id = 1011940,
+		name = "Fantastical Takeoff+"
+	},
+	[1011941] = {
+		id = 1011941,
+		name = "Fantastical Takeoff+"
+	},
+	[1011942] = {
+		id = 1011942,
+		name = "Fantastical Takeoff+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -14085,5 +14134,21 @@ pg.base.skill_data_display = {
 	[1090191] = {
 		id = 1090191,
 		name = "Focused Assault - Takao"
+	},
+	[1090210] = {
+		id = 1090210,
+		name = "Emergency Maneuvers - Fortune"
+	},
+	[1090211] = {
+		id = 1090211,
+		name = "Emergency Maneuvers - Fortune"
+	},
+	[1090220] = {
+		id = 1090220,
+		name = "Reload Command - Königsberg"
+	},
+	[1090221] = {
+		id = 1090221,
+		name = "Reload Command - Königsberg"
 	}
 }

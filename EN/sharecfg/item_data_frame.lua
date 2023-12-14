@@ -423,6 +423,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Life, even if brief, is hard to substitute–\"</color>\nObtained from the \"Effulgence Before Eclipse\" event.",
 		scene = {}
 	},
+	[328] = {
+		time_limit_type = 0,
+		name = "Light-Chasing Ring of Stars",
+		gain_by = "",
+		id = 328,
+		time_second = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -633,6 +642,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		328,
 		406,
 		411,
 		412,

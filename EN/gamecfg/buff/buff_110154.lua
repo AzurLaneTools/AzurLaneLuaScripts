@@ -7,7 +7,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 4000,
+					rant = 5000,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -22,7 +22,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 4330,
+					rant = 5550,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -37,7 +37,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 4660,
+					rant = 6100,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -52,7 +52,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 4990,
+					rant = 6650,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -67,7 +67,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 5320,
+					rant = 7200,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -82,7 +82,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 5650,
+					rant = 7750,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -97,7 +97,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 6980,
+					rant = 8300,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -112,7 +112,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 6310,
+					rant = 8850,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -127,7 +127,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 6640,
+					rant = 9400,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -142,7 +142,7 @@ return {
 					"onChargeWeaponFire"
 				},
 				arg_list = {
-					rant = 7000,
+					rant = 10000,
 					target = "TargetSelf",
 					skill_id = 110152
 				}
@@ -167,7 +167,7 @@ return {
 				"onChargeWeaponFire"
 			},
 			arg_list = {
-				rant = 4000,
+				rant = 5000,
 				target = "TargetSelf",
 				skill_id = 110152
 			}

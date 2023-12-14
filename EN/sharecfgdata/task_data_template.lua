@@ -40953,6 +40953,286 @@ _G.pg.base.task_data_template[10164] = {
 	}
 }
 
+_G.pg.base.task_data_template[10165] = {
+	name = "[Event] Emergency Module Development I",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "Clear the Emergency Module Development Daily Challenge 1 time.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 10165,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10166] = {
+	name = "[Event] Emergency Module Development II",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "Clear the Emergency Module Development Daily Challenge 2 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 10166,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10167] = {
+	name = "[Event] Emergency Module Development III",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	desc = "Clear the Emergency Module Development Daily Challenge 3 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 10167,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10168] = {
+	name = "[Event] Emergency Module Development IV",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	desc = "Clear the Emergency Module Development Daily Challenge 4 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 10168,
+	target_num = 4,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10169] = {
+	name = "[Event] Emergency Module Development V",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	desc = "Clear the Emergency Module Development Daily Challenge 5 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 10169,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
 _G.pg.base.task_data_template[10204] = {
 	name = "June (?) Attack 1",
 	guild_coin_award = 0,
@@ -145069,126 +145349,6 @@ _G.pg.base.task_data_template[19424] = {
 	}
 }
 
-_G.pg.base.task_data_template[19431] = {
-	name = "黑五登陆奖励1",
-	guild_coin_award = 0,
-	award = 900931,
-	type = 14,
-	desc = "Log in once.",
-	count_inherit = 0,
-	sub_type = 1011,
-	target_id_2 = "",
-	story_icon = "",
-	is_head = 1,
-	task_fold = 0,
-	award_choice = "",
-	visibility = 0,
-	ryza_type = 0,
-	quick_finish = 0,
-	level = 1,
-	story_id = "",
-	priority_type = 0,
-	ryza_icon = "",
-	fix_task = 0,
-	next_task = "0",
-	auto_commit = 0,
-	story_icon_shift = "",
-	target_id = "0",
-	scene = "",
-	id = 19431,
-	target_num = 1,
-	activity_client_config = "",
-	added_tip = 0,
-	open_need = {},
-	award_display = {
-		{
-			2,
-			54016,
-			5
-		}
-	}
-}
-
-_G.pg.base.task_data_template[19432] = {
-	name = "黑五登陆奖励2",
-	guild_coin_award = 0,
-	award = 900932,
-	type = 14,
-	desc = "Log in once.",
-	count_inherit = 0,
-	sub_type = 1011,
-	target_id_2 = "",
-	story_icon = "",
-	is_head = 1,
-	task_fold = 0,
-	award_choice = "",
-	visibility = 0,
-	ryza_type = 0,
-	quick_finish = 0,
-	level = 1,
-	story_id = "",
-	priority_type = 0,
-	ryza_icon = "",
-	fix_task = 0,
-	next_task = "0",
-	auto_commit = 0,
-	story_icon_shift = "",
-	target_id = "0",
-	scene = "",
-	id = 19432,
-	target_num = 1,
-	activity_client_config = "",
-	added_tip = 0,
-	open_need = {},
-	award_display = {
-		{
-			2,
-			54051,
-			1
-		}
-	}
-}
-
-_G.pg.base.task_data_template[19433] = {
-	name = "黑五登陆奖励3",
-	guild_coin_award = 0,
-	award = 900933,
-	type = 14,
-	desc = "Log in once.",
-	count_inherit = 0,
-	sub_type = 1011,
-	target_id_2 = "",
-	story_icon = "",
-	is_head = 1,
-	task_fold = 0,
-	award_choice = "",
-	visibility = 0,
-	ryza_type = 0,
-	quick_finish = 0,
-	level = 1,
-	story_id = "",
-	priority_type = 0,
-	ryza_icon = "",
-	fix_task = 0,
-	next_task = "0",
-	auto_commit = 0,
-	story_icon_shift = "",
-	target_id = "0",
-	scene = "",
-	id = 19433,
-	target_num = 1,
-	activity_client_config = "",
-	added_tip = 0,
-	open_need = {},
-	award_display = {
-		{
-			2,
-			54006,
-			3
-		}
-	}
-}
-
 _G.pg.base.task_data_template[19449] = {
 	name = "『闪乱联动』通关EX",
 	guild_coin_award = 0,
@@ -151292,6 +151452,570 @@ _G.pg.base.task_data_template[19536] = {
 	activity_client_config = {
 		before = 19535,
 		special = false
+	}
+}
+
+_G.pg.base.task_data_template[19537] = {
+	name = "『美系前哨站』前哨战七日任务1",
+	guild_coin_award = 0,
+	award = 901167,
+	type = 26,
+	desc = "Sortie and obtain 10 victories with S-rating.",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19537,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19538] = {
+	name = "『美系前哨站』前哨战七日任务2",
+	guild_coin_award = 0,
+	award = 901168,
+	type = 26,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19538,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19539] = {
+	name = "『美系前哨站』前哨战七日任务3",
+	guild_coin_award = 0,
+	award = 901169,
+	type = 26,
+	desc = "Conduct 2 exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19539,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19540] = {
+	name = "『美系前哨站』前哨战七日任务4",
+	guild_coin_award = 0,
+	award = 901170,
+	type = 26,
+	desc = "Complete 2 commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19540,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19541] = {
+	name = "『美系前哨站』前哨战七日任务5",
+	guild_coin_award = 0,
+	award = 901171,
+	type = 26,
+	desc = "Retire 2 ships.",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19541,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19542] = {
+	name = "『美系前哨站』前哨战七日任务6",
+	guild_coin_award = 0,
+	award = 901172,
+	type = 26,
+	desc = "Complete 3 Daily Challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19542,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19543] = {
+	name = "『美系前哨站』前哨战七日任务7",
+	guild_coin_award = 0,
+	award = 901173,
+	type = 26,
+	desc = "Enhance ship 5 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19543,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19544] = {
+	name = "『美系前哨站』前哨战七日任务8",
+	guild_coin_award = 0,
+	award = 901174,
+	type = 26,
+	desc = "Perform skill training 2 times",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19544,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19545] = {
+	name = "『美系前哨站』前哨战七日任务9",
+	guild_coin_award = 0,
+	award = 901175,
+	type = 26,
+	desc = "Defeat 20 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19545,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19546] = {
+	name = "『美系前哨站』前哨战七日任务10",
+	guild_coin_award = 0,
+	award = 901176,
+	type = 26,
+	desc = "Restock snacks in your dorm 5 times.",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19546,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19547] = {
+	name = "『美系前哨站』前哨战七日任务11",
+	guild_coin_award = 0,
+	award = 901177,
+	type = 26,
+	desc = "Build 2 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19547,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19548] = {
+	name = "『美系前哨站』前哨战七日任务12",
+	guild_coin_award = 0,
+	award = 901178,
+	type = 26,
+	desc = "Open 1 tech box",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19548,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19549] = {
+	name = "『美系前哨站』前哨战七日任务13",
+	guild_coin_award = 0,
+	award = 901179,
+	type = 26,
+	desc = "Conduct tactical training 2 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19549,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19550] = {
+	name = "『美系前哨站』前哨战七日任务14",
+	guild_coin_award = 0,
+	award = 901180,
+	type = 26,
+	desc = "Sortie and defeat 3 Boss Fleets.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19550,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150200,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

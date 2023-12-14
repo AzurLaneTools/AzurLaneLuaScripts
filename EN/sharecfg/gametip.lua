@@ -23960,5 +23960,10 @@ cs.gametip = {
 		914048,
 		102,
 		true
+	},
+	rect_ship_card_tpl_add = {
+		914150,
+		96,
+		true
 	}
 }

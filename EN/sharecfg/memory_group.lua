@@ -166,6 +166,7 @@ pg.memory_group = setmetatable({
 		266,
 		267,
 		268,
+		269,
 		501,
 		502,
 		503,
@@ -3968,6 +3969,23 @@ pg.base.memory_group = {
 			3205,
 			3206,
 			3207
+		}
+	},
+	[269] = {
+		id = 269,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 5105,
+		title = "Beneath Clear, Starry Skies",
+		memories = {
+			3221,
+			3222,
+			3223,
+			3224,
+			3225,
+			3226,
+			3227
 		}
 	},
 	[501] = {

@@ -317,6 +317,7 @@ pg.skill_data_template = setmetatable({
 		60470,
 		60480,
 		60490,
+		60500,
 		7000,
 		9010,
 		9020,
@@ -2047,6 +2048,7 @@ pg.skill_data_template = setmetatable({
 		1010600,
 		1011710,
 		1010250,
+		1010380,
 		1010670,
 		1011520,
 		1011360,
@@ -2064,6 +2066,8 @@ pg.skill_data_template = setmetatable({
 		1017270,
 		1017250,
 		1017210,
+		1012620,
+		1011940,
 		1090010,
 		1090020,
 		1090030,
@@ -2083,7 +2087,9 @@ pg.skill_data_template = setmetatable({
 		1090170,
 		1090180,
 		1090190,
-		1090200
+		1090200,
+		1090210,
+		1090220
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11811,6 +11817,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "When equipped by a Senran Kagura collab character: 30s after the battle starts, fires a special barrage from your Vanguard's frontmost ship (DMG is based on the FP stat of the ship equipping this gear; if equipped by a Senran Kagura submarine: performs this special barrage at the start of the battle instead).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60500] = {
+		desc_get = "",
+		name = "Sea of Stars Area B20 Access Pass",
+		id = 60500,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Princeton: 8s after her airstrike finishes loading, launches an interceptive airstrike.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -130166,6 +130186,67 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	},
+	[1010380] = {
+		desc_get = "",
+		name = "Z Vanguard+",
+		id = 1010380,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's RLD and ACC by $1 and increases your Z-class DDs' FP, EVA, and AA by $1. Increases this ship's Main Gun efficiency by 10.0%. If there is another Z-class DD in your fleet: improves this ship's All Out Assault skill.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
 	[1010670] = {
 		desc_get = "",
 		name = "Lonely Queen of the North+",
@@ -132251,6 +132332,173 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"25.0%"
+				}
+			}
+		}
+	},
+	[1012620] = {
+		desc_get = "",
+		name = "Terni Shields+",
+		id = 1012620,
+		type = 2,
+		max_level = 10,
+		desc = "When this ship takes DMG: $1 chance to spawn 2 shields (last 12s; can negate up to 10 enemy shells) and restores 1.5% of this ship's max HP. Increases this ship's EVA by 15.0% and increases your Zara-class ships' DMG dealt by 5.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	},
+	[1011940] = {
+		desc_get = "",
+		name = "Fantastical Takeoff+",
+		id = 1011940,
+		type = 3,
+		max_level = 10,
+		desc = "10s after the battle starts: deploys an F6F recon plane and, every 6s, increases this ship's ACC by $2 and DMG dealt by $1 (can stack up to 3 times). \nIf this recon plane is shot down: fires a special airstrike (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"2.5%",
+				"7.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
 				}
 			}
 		}
@@ -134699,6 +134947,164 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"50.0%"
+				}
+			}
+		}
+	},
+	[1090210] = {
+		desc_get = "",
+		name = "Emergency Maneuvers - Fortune",
+		id = 1090210,
+		type = 2,
+		max_level = 10,
+		desc = "Every 15s: $1 chance for this ship to evade all attacks for 8s. If this effect does not activate: decreases this ship's DMG taken by 10.0% for 8s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
+	[1090220] = {
+		desc_get = "",
+		name = "Reload Command - Königsberg",
+		id = 1090220,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Vanguard's RLD by $1 (does not stack with the same skill). Every 20s: fires a $2 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
