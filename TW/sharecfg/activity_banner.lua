@@ -200,6 +200,43 @@ pg.activity_banner = {
 			}
 		}
 	},
+	[8] = {
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9705041
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[97] = {
 		param = "",
 		time = "stop",
@@ -536,6 +573,7 @@ pg.activity_banner = {
 		[2] = {
 			4,
 			7,
+			8,
 			1000,
 			1001,
 			1002,
@@ -588,6 +626,7 @@ pg.activity_banner = {
 		4,
 		5,
 		7,
+		8,
 		97,
 		98,
 		99,

@@ -6337,7 +6337,7 @@ _G.pg.base.spweapon_data_statistics[10470] = {
 
 _G.pg.base.spweapon_data_statistics[10480] = {
 	tech = 0,
-	name = "特制舰装铁血兽Raubtier",
+	name = "特製艦裝鐵血獸Raubtier",
 	value_2_random = 30,
 	type = 1,
 	value_1_random = 10,
