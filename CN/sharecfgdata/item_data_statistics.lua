@@ -26193,6 +26193,251 @@ _G.pg.base.item_data_statistics[40130] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40131] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼I",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40131,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40132] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼II",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40132,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40133] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼III",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40133,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40134] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼IV",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40134,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40135] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼V",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40135,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40136] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼VI",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40136,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40137] = {
+	display = "免费领取礼包获得高效作战指令书X3，石油X150",
+	name = "免费伴手礼VII",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40137,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40701] = {
 	display = "购买礼包可获得心智魔方x10、快速完成工具x5",
 	name = "回归补给礼包",
@@ -29035,6 +29280,436 @@ _G.pg.base.item_data_statistics[40929] = {
 			2,
 			15003,
 			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40988] = {
+	display = "购买礼包可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
+	name = "{namecode:98}的促销大礼包",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_198",
+	id = 40988,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59504,
+			1
+		},
+		{
+			1,
+			14,
+			1980
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30114,
+			30
+		},
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			17043,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40989] = {
+	display = "购买礼包可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
+	name = "{namecode:98}的豪华促销大礼包",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_328",
+	id = 40989,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59505,
+			1
+		},
+		{
+			1,
+			14,
+			3280
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16032,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40990] = {
+	display = "购买礼包可获得60钻，高级定向蓝图·五期*2",
+	name = "促销礼包I",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day1",
+	id = 40990,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40991] = {
+	display = "购买礼包可获得200钻",
+	name = "促销礼包II",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day2",
+	id = 40991,
+	order = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40992] = {
+	display = "购买礼包可获得定向装备箱·超稀有*1，定向部件T4*5",
+	name = "促销礼包III",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day3",
+	id = 40992,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			30202,
+			1
+		},
+		{
+			2,
+			30114,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40993] = {
+	display = "购买礼包可获得60钻，试作型布里MKII*1",
+	name = "促销礼包IV",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day4",
+	id = 40993,
+	order = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40994] = {
+	display = "购买礼包可获得舰艇演习数据T2*20",
+	name = "促销礼包V",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day5",
+	id = 40994,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40995] = {
+	display = "购买礼包可获得心智魔方*10，快速完成工具*5",
+	name = "促销礼包VI",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day6",
+	id = 40995,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40996] = {
+	display = "购买礼包可获得60钻，高级定向蓝图·六期*2",
+	name = "促销礼包VII",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day7",
+	id = 40996,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40998] = {
+	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*35，高级定向蓝图六期*2，快速完成工具*12，家具币*100",
+	name = "促销心动福袋",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai8",
+	id = 40998,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			69984,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			35
+		},
+		{
+			2,
+			15003,
+			12
 		},
 		{
 			1,
@@ -222115,6 +222790,130 @@ _G.pg.base.item_data_statistics[59501] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59503] = {
+	display = "12.14~12.21维护期间，在「仓库」中使用，可以从指定列表中选择一件换装兑换\n（维护后列表中的换装会有所减少）\n（<color=#ff5c5c>促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！</color>）",
+	name = "促销换装兑换券（限时）",
+	max_num = 0,
+	type = 26,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_n",
+	id = 59503,
+	order = 99,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59504] = {
+	display = "在「仓库」中使用，可以从「永恒礼盒」*1、「高级定向蓝图·六期」*15、「心智魔方」*20中选择一个获取",
+	name = "自选促销礼物盒",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/59504",
+	id = 59504,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		},
+		{
+			2,
+			42056,
+			15
+		},
+		{
+			2,
+			20001,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59505] = {
+	display = "在「仓库」中使用，可以从「促销换装兑换券（限时）」*1、「原型科研图纸·S-I」*25、「原型科研图纸·S-II」*25、「原型科研图纸·S-III」*25、「原型科研图纸·S-IV」*25、「原型科研图纸·S-V」*25、「心智魔方」*30中选择一个获取",
+	name = "豪华自选促销礼物盒",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/59505",
+	id = 59505,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59503,
+			1
+		},
+		{
+			2,
+			14001,
+			25
+		},
+		{
+			2,
+			14002,
+			25
+		},
+		{
+			2,
+			14003,
+			25
+		},
+		{
+			2,
+			14004,
+			25
+		},
+		{
+			2,
+			14005,
+			25
+		},
+		{
+			2,
+			20001,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59506] = {
 	display = "用于「苍闪忍法帖」活动兑换，活动结束后将会消失",
 	name = "城塞情报",
@@ -222299,6 +223098,30 @@ _G.pg.base.item_data_statistics[59513] = {
 	is_world = 0,
 	icon = "Props/buildTicket_newserver",
 	id = 59513,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59514] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m1",
+	id = 59514,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -236876,6 +237699,83 @@ _G.pg.base.item_data_statistics[69929] = {
 		{
 			431233,
 			1780
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69984] = {
+	display = "不会被看到",
+	name = "随机心动换装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69984,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307082,
+			790
+		},
+		{
+			103165,
+			790
+		},
+		{
+			304052,
+			780
+		},
+		{
+			301292,
+			780
+		},
+		{
+			307075,
+			780
+		},
+		{
+			402101,
+			780
+		},
+		{
+			105172,
+			780
+		},
+		{
+			499052,
+			780
+		},
+		{
+			199031,
+			780
+		},
+		{
+			403092,
+			780
+		},
+		{
+			703021,
+			780
+		},
+		{
+			319012,
+			700
+		},
+		{
+			701025,
+			700
 		}
 	}
 }

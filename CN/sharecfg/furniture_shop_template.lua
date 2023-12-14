@@ -208,52 +208,177 @@ pg.furniture_shop_template = {
 	[200001] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		time = "stop",
+		new = 1,
 		dorm_icon_price = 0,
 		id = 200001,
-		new = 1,
 		discount = 0,
-		discount_time = ""
+		discount_time = "",
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[200002] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		time = "stop",
+		new = 1,
 		dorm_icon_price = 0,
 		id = 200002,
-		new = 1,
 		discount = 0,
-		discount_time = ""
+		discount_time = "",
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[200004] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		time = "stop",
+		new = 1,
 		dorm_icon_price = 0,
 		id = 200004,
-		new = 1,
 		discount = 0,
-		discount_time = ""
+		discount_time = "",
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[200005] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		time = "stop",
+		new = 1,
 		dorm_icon_price = 0,
 		id = 200005,
-		new = 1,
 		discount = 0,
-		discount_time = ""
+		discount_time = "",
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[200006] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		time = "stop",
+		new = 1,
 		dorm_icon_price = 0,
 		id = 200006,
-		new = 1,
 		discount = 0,
-		discount_time = ""
+		discount_time = "",
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[200009] = {
 		not_for_sale = 0,

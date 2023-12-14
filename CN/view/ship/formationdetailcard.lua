@@ -26,6 +26,7 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.propsTr1, false)
 	setActive(slot0.shipState, false)
+	setText(slot0.tr:Find("add/Text"), i18n("rect_ship_card_tpl_add"))
 end
 
 function slot0.update(slot0, slot1, slot2)

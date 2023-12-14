@@ -423,6 +423,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「人生须臾，不可辜负。」</color>\n「须臾望月抄」活动获取",
 		scene = {}
 	},
+	[328] = {
+		time_limit_type = 0,
+		name = "穹界逐光",
+		gain_by = "",
+		id = 328,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -669,6 +678,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		328,
 		401,
 		402,
 		404,

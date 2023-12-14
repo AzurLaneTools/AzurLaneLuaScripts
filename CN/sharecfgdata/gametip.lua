@@ -26679,3 +26679,7 @@ _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "该区域未处于开启时间内"
 }
+
+_G.pg.base.gametip.rect_ship_card_tpl_add = {
+	tip = "点击添加"
+}
