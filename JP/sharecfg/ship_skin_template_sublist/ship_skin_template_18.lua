@@ -1817,7 +1817,7 @@ pg.base.ship_skin_template_18 = {
 	},
 	[900320] = {
 		ship_group = 900320,
-		name = "アビータVI「ラバーズ」",
+		name = "アビータ・Lovers・VI",
 		hand_id = 14,
 		bgm = "",
 		l2d_drag_rate = "",

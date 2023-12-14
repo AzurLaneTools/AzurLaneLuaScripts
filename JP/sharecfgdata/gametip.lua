@@ -24940,7 +24940,7 @@ _G.pg.base.gametip.pre_combat_consume = {
 }
 
 _G.pg.base.gametip.file_down_msgbox = {
-	tip = "ゲーム起動に必要なアセットが不足しています。<color=#92fc63>$1</color>のデータをダウンロードしますか？"
+	tip = "ゲーム起動に必要なアセットが不足しています。\n<color=#92fc63>$1</color>のデータをダウンロードしますか？"
 }
 
 _G.pg.base.gametip.file_down_mgr_title = {
@@ -27028,4 +27028,8 @@ _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "イベント開催期間外です"
+}
+
+_G.pg.base.gametip.rect_ship_card_tpl_add = {
+	tip = "タップで追加"
 }

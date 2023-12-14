@@ -18,6 +18,9 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot1, slot0.commonFlag)
 end
 
+function slot0.SetLocaliza(slot0)
+end
+
 function slot0.GetColor(slot0, slot1)
 	return slot1 and "#66472a" or "#a3a2a2"
 end

@@ -74,7 +74,7 @@ function slot1(slot0)
 	if slot0.char and slot0.char == 1 then
 		slot1 = "char_world"
 	elseif slot0.char and slot0.char == "amazon" then
-		slot1 = "amazon"
+		slot1 = "char_amazon"
 	end
 
 	return slot1

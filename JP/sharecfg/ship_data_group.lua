@@ -5801,7 +5801,9 @@ pg.base.ship_data_group = {
 		code = 609,
 		group_type = 10231,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			10305
+		},
 		property_hexagon = {
 			"B",
 			"E",
@@ -6122,7 +6124,9 @@ pg.base.ship_data_group = {
 		code = 43,
 		group_type = 10305,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			10231
+		},
 		property_hexagon = {
 			"A",
 			"E",

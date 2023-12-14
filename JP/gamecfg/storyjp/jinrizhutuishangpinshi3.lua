@@ -336,11 +336,11 @@ return {
 			},
 			options = {
 				{
-					content = "前去恭喜明石",
+					content = "前去恭喜{namecode:98:明石}",
 					flag = 1
 				},
 				{
-					content = "向明石收取场地使用费",
+					content = "向{namecode:98:明石}收取场地使用费",
 					flag = 2
 				}
 			}
@@ -500,12 +500,6 @@ return {
 				speed = 0.05,
 				speedUp = 0.01
 			}
-		},
-		{
-			say = "这是空行，请仔细确认文档中备注内容 行数:80",
-			side = 0,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true
 		}
 	}
 }

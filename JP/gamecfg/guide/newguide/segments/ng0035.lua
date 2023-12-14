@@ -22,8 +22,8 @@ return {
 				windowbg = "3",
 				posX = -680,
 				charPos = {
-					10,
-					-114
+					300,
+					0
 				},
 				charScale = {
 					-4,

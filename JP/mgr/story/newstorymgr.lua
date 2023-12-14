@@ -407,9 +407,11 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			uv0:CheckResDownload(uv0.storyScript, slot0)
 		end,
 		function (slot0)
+			originalPrint("start load story window...")
 			uv0:CheckAndLoadDialogue(uv0.storyScript, slot0)
 		end
 	}, function ()
+		originalPrint("enter story...")
 		uv0:OnStart()
 
 		slot0 = {}

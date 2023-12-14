@@ -34,9 +34,36 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				maxTargetNumber = 0,
 				skill_id = 29172,
-				countType = 29170
+				target = "TargetSelf",
+				countType = 29170,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Z1SP"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 29174,
+				target = "TargetSelf",
+				countType = 29170,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Z1SP"
+				}
 			}
 		}
 	}

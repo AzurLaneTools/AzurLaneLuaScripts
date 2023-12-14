@@ -11611,7 +11611,7 @@ pg.base.ship_skin_template_16 = {
 	},
 	[900191] = {
 		ship_group = 900191,
-		name = "アビータ・EmpressⅢ",
+		name = "アビータ・Empress・Ⅲ",
 		hand_id = 0,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -11631,7 +11631,7 @@ pg.base.ship_skin_template_16 = {
 		skin_type = -1,
 		id = 900191,
 		voice_actor_2 = -1,
-		prefab = "qiye_dark",
+		prefab = "empress",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",

@@ -423,6 +423,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「須臾の人生も代えがたし」</color>\n「須臾望月抄」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[328] = {
+		time_limit_type = 0,
+		name = "光追う星穹",
+		gain_by = "",
+		id = 328,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -660,6 +669,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		328,
 		401,
 		402,
 		403,

@@ -21,6 +21,12 @@ function slot0.init(slot0)
 	slot0.skillDescList = UIItemList.New(slot0.skillDescContent, slot0.skillDescTF)
 
 	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot1:getConfig("icon"), "", slot0.skillInfoIcon)
+	slot0:SetLocaliza()
+end
+
+function slot0.SetLocaliza(slot0)
+	setText(slot0:findTF("top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0:findTF("panel/buttonList/ok_button/Image"), i18n("word_ok"))
 end
 
 function slot0.didEnter(slot0)
