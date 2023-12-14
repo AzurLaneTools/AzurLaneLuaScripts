@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>六 素材整备行动！</size>",
+					"港區秘聞特別篇\n\n<size=45>六 素材整備行動！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "舞会结束后——",
+			say = "舞會結束後——",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "和阿尔弗雷多·奥里亚尼回到指挥室一起整理今天获得的素材。",
+			say = "和阿爾弗雷多回到指揮室一起整理今天所獲得的素材。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "至于为什么连衣服都不换就着急地跑来整理——",
+			say = "至於為什麼連衣服都不換就急著跑來整理——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然是为了抓住稍纵即逝的灵感啦！",
+			say = "當然是為了抓住稍縱即逝的靈感！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "刚才想到的不少好点子，等到明天说不定就忘掉了！",
+			say = "剛才想到的不少好點子，等到明天說不定就忘掉了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "得趁着现在还记得的时候抓紧整理才行！",
+			say = "得趁著現在還記得的時候加緊整理才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "看起来记者的生活还真是挺辛苦的……忙完白天的事情之后，还要像现在这样加班处理素材。",
+			say = "看起來記者的生活還真是挺辛苦的……忙完白天的事情之後，還要像現在這樣加班處理素材。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "也不是说每天都像现在这样的哦？",
+			say = "也不是說每天都像現在這樣的哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "只有忙起来的时候才会忙，不忙的时候就不忙！",
+			say = "只有忙起來的時候才會忙，不忙的時候就不忙！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，先不提这个，指挥官，快来帮我整理下现在堆积如山的素材啦！",
+			say = "啊，先不提這個，指揮官，快來幫我整理下現在堆積如山的素材啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "看了看她拍下来的照片——",
+			say = "看了看她拍的照片——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "——虽然不好评判其新闻价值，不过在“吸睛”这一块上拿捏得倒是十分出色。",
+			say = "——雖然不好評斷其新聞價值，不過在「吸睛」這一塊上拿捏得倒是十分出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "哼哼~有了这些照片，接下来果然还是得搭配点花边新闻才更有吸引力啊。",
+			say = "哼哼~有了這些照片，接下來果然還是得搭配點花邊新聞才更有魅力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "不过完全没想到她居然拍了这么多……很多照片都没注意到她是何时拍的。",
+			say = "不過完全沒想到她居然拍了這麼多……很多照片都沒注意到她是何時拍的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "难道是某种记者的特殊技巧么……看起来今后对于阿尔弗雷多·奥里亚尼取材的“防范”等级要提升一下了。",
+			say = "難道是某種記者的特殊技巧嗎……看起來今後對於阿爾弗雷多取材的「防範」等級要提升一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "指挥官，素材差不多都看完一遍了吧？我想想……",
+			say = "指揮官，素材差不多都看完一輪了吧？我想想……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "啊，要不就请指挥官来想一个下一期《港区秘闻》的头条标题吧！",
+			say = "啊，要不就請指揮官來想一個下一期《港區秘聞》的頭條標題吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系！《港区秘闻》毕竟也不是什么严肃正经的新闻杂志，指挥官不用那么正式！",
+			say = "沒關係沒關係！《港區秘聞》畢竟也不是什麼嚴肅正經的新聞雜誌，指揮官不用那麼正式！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "就当做是“记者入门体验”，随便以旁观者的角度来个标题就好啦！",
+			say = "就當做是給「記者入門體驗」，隨便以旁觀者的角度來個標題就好啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,18 +334,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "虽然完全没有当记者的打算……不过既然她这样要求，那标题就叫——",
+			say = "雖然完全沒有當記者的打算……不過既然她這樣要求，那標題就叫——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "“舞会花絮二三事”？",
+					content = "「舞會花絮二三事」？",
 					flag = 1
 				},
 				{
-					content = "“震惊！那些当事人看了都脸红耳赤的舞会秘闻？”",
+					content = "「震驚！那些當事人看了都臉紅耳赤的舞會秘聞？」",
 					flag = 2
 				}
 			}
@@ -359,7 +359,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……还算不错，但感觉有些平庸？似乎不太能一眼就吸引到别人的注意呢。",
+			say = "嗯……還不錯，但感覺有些平庸？似乎不太能一眼就吸引到別人的注意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我来稍作修改——“震惊！那些当事人看了都脸红耳赤的舞会秘闻？”嘿嘿，这样看上去不就好多了嘛~",
+			say = "讓我來稍作修改——「震驚！那些當事人看了都臉紅耳赤的舞會秘聞？」嘿嘿，這樣看上去不就好多了嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			optionFlag = 1,
-			say = "果然，她的特色还是一如既往的鲜明啊……",
+			say = "果然，她的特色還是一如既往的鮮明啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，指挥官挺上道的嘛~！",
+			say = "哇哦，指揮官挺上道的嘛~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			optionFlag = 2,
-			say = "完全没法令人高兴起来的夸奖……",
+			say = "完全沒辦法令人高興起來的誇獎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，那下次就用这个做标题好了。人气一定会大涨的！",
+			say = "好，那下次就用這個做標題好了。人氣一定會大漲的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢啦，指挥官，接下来就等待阿尔弗雷多·奥里亚尼的独家新闻报道吧！",
+			say = "多謝啦，指揮官，接下來就等待阿爾弗雷多的獨家新聞報導吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>五 变装与舞会</size>",
+					"港區秘聞特別篇\n\n<size=45>五 變裝與舞會</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "舞会如期而至——",
+			say = "舞會如期而至——",
 			bgmDelay = 2,
 			bgm = "story-richang-5",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎样，指挥官，这身衣服还不错吧？是不是很有舞者的感觉？",
+			say = "怎樣，指揮官，這套衣服還不錯吧？是不是很有舞者的感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "完美的变装。",
+					content = "完美的變裝。",
 					flag = 2
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，虽然很开心，不过我更在意的是这身衣服能不能融入进舞会里面~",
+			say = "嘿嘿，雖然很開心，不過我更在意的是這套衣服能不能融入進舞會裡面~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，谢谢啦，指挥官~",
+			say = "總之，謝謝啦，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼，不只是身份伪装，我确实也有认真练习过舞步哦~",
+			say = "哼哼哼，不只是身份偽裝，我確實也有認真練習過舞步哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……阿尔弗雷多的舞会取材计划，正式开始！",
+			say = "那麼……阿爾弗雷多的舞會取材計劃，正式開始！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "指挥官，跟紧我！还要指望你帮我打掩护呢，可别露馅咯！",
+			say = "指揮官，跟緊我！還要指望你幫忙掩護我呢，可別露餡囉！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "陪阿尔弗雷多在舞会上四处搜寻素材的行动，开始——",
+			say = "陪伴阿爾弗雷多在舞會上四處搜尋素材的行動，開始——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "时间过得飞快。在她的带领下，调查了舞会的后台，排到了许多大家休息时的花絮。",
+			say = "時間過得很快。在她的帶領下，調查了舞會的後台，排到了許多大家休息時的花絮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "啊……那边感觉会有事件发生！我的记者雷达又亮起来啦，指挥官，跟紧我！",
+			say = "啊……那邊感覺會有事件發生！我的記者雷達又亮起來啦，指揮官，跟緊我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "……当然，也包括一些不够优雅的抓拍。不知道当事人看到会作何感想呢……",
+			say = "……當然，也包括一些不夠優雅的抓拍。不知道當事人看到會作何感想呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "取材的过程中偶尔也会被察觉到异样……我只好努力帮她打圆场。",
+			say = "取材的過程中偶爾也會被察覺到異樣……我只好努力幫她打圓場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "哼哼~搜集到了好多不错的素材呢！这下子一定能写出最棒的一期《港区秘闻》了吧？",
+			say = "哼哼~蒐集到了很多不錯的素材！這下子一定能寫出最棒的一期《港區秘聞》了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "呼啊……好累……感觉整个人都要散架了……",
+			say = "呼啊……好累……感覺整個人都要累癱了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "说起来，舞会差不多要结束了呢……明明是难得的舞会，咱们居然连舞都没有跳过，感觉好可惜欸……",
+			say = "說起來，舞會差不多要結束了呢……明明是難得的舞會，咱們居然連舞都沒有跳過，感覺好可惜欸……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，来陪我跳一支舞吧？",
+			say = "指揮官，來陪我跳一支舞吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "你不是已经很累了么？",
+			say = "妳不是已經很累了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "只要是做自己喜欢的事情，累点也没关系！难得的机会摆在眼前的时候，怎么能不去珍惜呢？",
+			say = "只要是做自己喜歡的事情，累點也沒關係！難得的機會擺在眼前的時候，怎麼能不去珍惜呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包括编写新闻的时候也是……很多时候为了抢占时效性强的热点新闻，晚上会编稿到很晚呢。",
+			say = "包括編寫新聞的時候也是……很多時候為了搶佔時效性強的熱門新聞，晚上會編稿到很晚呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "不过因为都是我喜欢做的事情，所以即便身体上偶有劳累，心灵上也不会感到疲倦啦~",
+			say = "不過因為都是我喜歡做的事情，所以即便身體上偶有勞累，心靈上也不會感到疲倦啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "这也算是……属于阿尔弗雷多·奥里亚尼的“秘闻”吧？",
+			say = "這也算是……屬於阿爾弗雷多的「秘密」吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么指挥官，舞池正空着呢，我们开始吧？",
+			say = "那麼指揮官，舞池正空著呢，我們開始吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "不、不过先说好，我的水平只是稍微学了学的程度，指挥官可不要笑我哦！",
+			say = "不、不過先說好，我的水準只是稍微學了一點的程度，指揮官可不要笑我哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1

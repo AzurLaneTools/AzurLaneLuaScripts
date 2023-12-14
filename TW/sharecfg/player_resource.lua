@@ -1410,6 +1410,11 @@ pg.player_resource = {
 		name = "synchronize_shentong",
 		itemid = 21912
 	},
+	[3014] = {
+		id = 3014,
+		name = "synchronize_jiluofu",
+		itemid = 21913
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1513,6 +1518,11 @@ pg.player_resource = {
 	[5081] = {
 		id = 5081,
 		name = "skin_rerun_pt_us2023",
+		itemid = 0
+	},
+	[5082] = {
+		id = 5082,
+		name = "skin_rerun_pt_2023",
 		itemid = 0
 	},
 	[100004] = {
@@ -2462,6 +2472,9 @@ pg.player_resource = {
 		synchronize_shentong = {
 			3013
 		},
+		synchronize_jiluofu = {
+			3014
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -2524,6 +2537,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_us2023 = {
 			5081
+		},
+		skin_rerun_pt_2023 = {
+			5082
 		},
 		skin_rerun_pt = {
 			100004
@@ -2869,6 +2885,7 @@ pg.player_resource = {
 		3011,
 		3012,
 		3013,
+		3014,
 		3106,
 		3137,
 		4001,
@@ -2890,6 +2907,7 @@ pg.player_resource = {
 		4599,
 		4699,
 		5081,
+		5082,
 		100004,
 		40275,
 		30853,

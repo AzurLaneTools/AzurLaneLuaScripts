@@ -379,7 +379,7 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "star_level_bg_106",
-			actorName = "紫&{namecode:424}]",
+			actorName = "紫&{namecode:424}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 11000060,

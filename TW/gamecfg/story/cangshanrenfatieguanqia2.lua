@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "說起來，這裡這到底是哪一片海域？我應該沒有離常規航線太遠才對……",
+			say = "說起來，這裡到底是哪一片海域？我應該沒有離常規航線太遠才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1

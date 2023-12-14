@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>四 爆点新闻发掘计划</size>",
+					"港區秘聞特別篇\n\n<size=45>四 爆點新聞發掘計劃</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "清晨，指挥室——",
+			say = "清晨，指揮室——",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "桌上放着前几期的《港区秘闻》，是之前阿尔弗雷多·奥里亚尼工作时留在这里的。",
+			say = "桌上放著前幾期的《港區秘聞》，是之前阿爾弗雷多工作時留在這裡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽说已经不能算是新闻了……",
+			say = "雖說已經不能算是新聞了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "离工作时间还有一小会，先看看这里面写了些什么，就当解解乏好了——",
+			say = "離工作時間還有一陣子，先看看這裡面寫了些什麼，就當做休息一下好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“震惊！皇家女仆队不得不说的特别日常？”“撒丁宿舍令人震惊的隐秘故事，必看！”",
+			say = "「震驚！皇家女僕隊不得不說的特別日常？」「薩丁宿舍令人震驚的隱秘故事，必看！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "正在认真翻看的时候————",
+			say = "認真翻看的時候————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哈，早上好呀指挥官~！来得挺早的嘛！",
+			say = "哈，早上好呀指揮官~！來得挺早的嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "阿尔弗雷多·奥里亚尼推门闯了进来，她看起来兴致很高的样子……看起来她已经找到即将到来的“热点事件”了。",
+			say = "阿爾弗雷多推門闖了進來，她看起來興致很高的樣子……看起來她已經找到即將到來的「熱門事件」了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我没来晚吧？嗯，没到工作时间，还好~",
+			say = "我沒來晚吧？嗯，沒到工作時間，還好~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "问我为什么看起来兴致很高？哼哼，之前跟指挥官提到的素材荒的问题，已经找到解决办法了哦~",
+			say = "問我為什麼看起來興致很高？哼哼，之前跟指揮官提到的素材荒的問題，已經找到解決方法了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "听兴高采烈的阿尔弗雷多·奥里亚尼讲解了她的计划——",
+			say = "聽興高采烈的阿爾弗雷多講解了她的計劃——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "俗话说有人的地方就有新闻~",
+			say = "俗話說有人的地方就有新聞~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "舞会这么大场面的活动，肯定会有很多有意思的事件发生的！",
+			say = "舞會這麼大場面的活動，一定會有很多有趣的事件發生的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好像并没有听说过这种俗话……",
+			say = "好像沒聽過這種俗話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我之后就再多说几次好啦~说多了就有了嘛~诶嘿嘿。",
+			say = "那我之後就再多說幾次好啦~說多了就有了嘛~欸嘿嘿。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过……穿着舞者服还要在舞会里取材，是不是会很显眼？",
+			say = "不過……穿著舞者服還要在舞會裡取材，是不是會很顯眼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "要是被人发现我是来取材的话，一定会被提防的吧？那样就没办法获得原汁原味的一手情报了……",
+			say = "要是被人發現我是來取材的話，一定會被提防的吧？那樣就沒辦法獲得原汁原味的一手情報了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……果然还是选择偷拍吗。",
+			say = "……果然還是選擇偷拍嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不对不对，应该叫“非正常拍摄”才是！",
+			say = "不對不對，應該叫「非正常拍攝」才對！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "而且还需要找一个队友来帮我打下掩护才行~",
+			say = "而且還需要找隊友來幫我掩護一下才行~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "指挥官，你觉得我该找谁来掩护我取材比较好呢？嘿嘿~",
+			say = "指揮官，你覺得我該找誰來掩護我取材比較好？嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,11 +370,11 @@ return {
 			},
 			options = {
 				{
-					content = "达·芬奇或者布里斯托尔？",
+					content = "達文西或布里斯托爾？",
 					flag = 1
 				},
 				{
-					content = "我和你一起去吧。",
+					content = "我和妳一起去吧。",
 					flag = 2
 				}
 			}
@@ -388,7 +388,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧……倒也是不错的选择啦，毕竟我和她们也挺熟悉的……",
+			say = "嘖……倒也是不錯的選擇啦，畢竟我和她們也蠻熟悉的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是，但是！我说这话的意思不就是“我想和指挥官一起去舞会”嘛！",
+			say = "但是，但是！我說這話的意思不就是「我想跟指揮官一起去舞會」嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，明明之前还夸过指挥官的直觉很强……",
+			say = "真是的，明明之前還誇過指揮官的直覺很強……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
-			say = "……看起来只能陪她一起去舞会了。",
+			say = "……看起來只能陪她一起去舞會了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，谢谢指挥官啦~",
+			say = "嘿嘿，謝謝指揮官啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那指挥官这几天就准备下舞会相关的事情，我们到时候再见咯！",
+			say = "那指揮官這幾天就準備下舞會相關的事情，我們到時候再見囉！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 2,
-			say = "其实也是为了约束一下她……这位不安分的记者在偷拍的时候可别捅出什么大篓子来。",
+			say = "其實也是為了約束她……這位不安分的記者在偷拍的時候可別搞出什麼大問題來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了取材的时候指挥官可以帮我打掩护，在我做素材整理的时候指挥官也可以用观众的视角来帮我提些意见哟？感觉还不错呢~",
+			say = "除了取材的時候指揮官可以幫忙掩護我，在我做素材整理的時候指揮官也可以用觀眾的視角幫我提一些意見喲？感覺還不錯呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "好，那指挥官这几天就准备下舞会相关的事情，我们到时候再见咯！",
+			say = "好，那指揮官這幾天就準備下舞會相關的事情，我們到時候再見囉！",
 			painting = {
 				alpha = 0.3,
 				time = 1

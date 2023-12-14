@@ -49,10 +49,10 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "sk-home",
+		default_bgm = "backyard",
 		special_bgm = "",
 		time = "",
-		bgm = "sk-home"
+		bgm = "backyard"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -91,7 +91,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "sk-theme",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
 		bgm = "login"
@@ -175,7 +175,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	BuildShipScene = {
-		default_bgm = "sk-gachamenu",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
 		bgm = "main"
@@ -947,5 +947,196 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	VoteEntranceScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "votefes-up",
+		bgm = "votefes-start",
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	VoteScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "votefes-up",
+		bgm = "votefes-start",
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	VoteExchangeScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "votefes-up",
+		bgm = "votefes-start",
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	VoteRankScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "votefes-up",
+		bgm = "votefes-start",
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	VoteScheduleScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "votefes-up",
+		bgm = "votefes-start",
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	VoteFameHallLayer = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	StarSeaFramePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaFacilityPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		time = "",
+		bgm = "blueocean-image"
+	},
+	AnchorageTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-designshipVI"
+	},
+	BlackFridayWithManualSignPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	BlackFridayGiftPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
 	}
 }

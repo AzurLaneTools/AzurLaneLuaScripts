@@ -71,8 +71,9 @@ function slot0.Update(slot0, slot1)
 	slot0.descTxt.text = slot1:GetDesc()
 	slot0.votesTxt.text = slot0.votes
 	slot0.rankTxt.text = slot0.rank
-	slot0.shiptypeTxt.text = slot1:getShipType()
-	slot0.nationImg.sprite = LoadSprite("prints/" .. nation2print(slot1:getNationality()) .. "_0")
+	slot0.shiptypeTxt.text = slot1:getShipTypeName()
+	slot3 = nil
+	slot0.nationImg.sprite = (not slot1:getNationality() or LoadSprite("prints/" .. nation2print(slot2) .. "_0")) and GetSpriteFromAtlas("ui/VoteUI_atlas", "nation")
 
 	slot0:UpdateCnt()
 	onButton(slot0, slot0._tf, function ()
@@ -112,7 +113,7 @@ function slot0.Update(slot0, slot1)
 
 	slot0.paintingName = slot1:getPainting()
 
-	setPaintingPrefab(slot0.paitingTF, slot1:getPainting(), "jiesuan")
+	LoadPaintingPrefabAsync(slot0.paitingTF, slot0.paintingName, slot0.paintingName, "jiesuan")
 end
 
 function slot0.Close(slot0)

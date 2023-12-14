@@ -2582,6 +2582,83 @@ _G.pg.base.aircraft_template[476] = {
 	}
 }
 
+_G.pg.base.aircraft_template[484] = {
+	attack_power = 2,
+	name = "B2O通行证 普林斯顿追加迎击战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 484,
+	icon = "f6f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 11,
+	hp_growth = 4234,
+	speed = 50,
+	max_hp = 110,
+	scale = 1,
+	weapon_ID = {
+		50350,
+		50550
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[4200] = {
 	attack_power = 2,
 	name = "剑鱼Mark.II-ASV",

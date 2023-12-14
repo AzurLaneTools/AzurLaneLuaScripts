@@ -360,6 +360,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「寧如鏡湖，縹若雲嵐，天劍出鞘，萬鈞雷霆。」</color>\n「紫絳槿嵐」活動獲取",
 		scene = {}
 	},
+	[323] = {
+		time_limit_type = 0,
+		name = "星海之環",
+		gain_by = "定向折疊",
+		id = 323,
+		time_second = 0,
+		desc = "<color=#ffffff>「時空在飛轉的輪盤中折疊，命運於閃爍的光芒中交匯。」</color>\n「定向折疊」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -385,6 +394,33 @@ pg.item_data_frame = {
 		id = 414,
 		time_second = 0,
 		desc = "<color=#ffffff>為愛宕特別制作的角色專屬頭像框</color>\n「Azurlane人氣投票2020」活動獲得",
+		scene = {}
+	},
+	[416] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：柴郡",
+		gain_by = "",
+		id = 416,
+		time_second = 0,
+		desc = "<color=#ffffff>為柴郡特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2022」活動獲取",
+		scene = {}
+	},
+	[418] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：信濃",
+		gain_by = "",
+		id = 418,
+		time_second = 0,
+		desc = "<color=#ffffff>為信濃特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2022」活動獲取",
+		scene = {}
+	},
+	[419] = {
+		time_limit_type = 0,
+		name = "殿堂紀念：能代",
+		gain_by = "",
+		id = 419,
+		time_second = 0,
+		desc = "<color=#ffffff>為能代特別製作的角色專屬頭像框</color>\n「Azurlane人氣投票2022」活動獲取",
 		scene = {}
 	},
 	[501] = {
@@ -473,9 +509,13 @@ pg.item_data_frame = {
 		320,
 		321,
 		322,
+		323,
 		401,
 		402,
 		414,
+		416,
+		418,
+		419,
 		501,
 		601,
 		602,

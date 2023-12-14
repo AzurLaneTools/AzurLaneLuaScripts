@@ -21915,5 +21915,105 @@ cs.gametip = {
 		771147,
 		1007,
 		true
+	},
+	vote_lable_not_start = {
+		772154,
+		93,
+		true
+	},
+	vote_lable_voting = {
+		772247,
+		90,
+		true
+	},
+	vote_lable_title = {
+		772337,
+		157,
+		true
+	},
+	vote_lable_acc_title_1 = {
+		772494,
+		98,
+		true
+	},
+	vote_lable_acc_title_2 = {
+		772592,
+		105,
+		true
+	},
+	vote_lable_curr_title_1 = {
+		772697,
+		99,
+		true
+	},
+	vote_lable_curr_title_2 = {
+		772796,
+		106,
+		true
+	},
+	vote_lable_window_title = {
+		772902,
+		99,
+		true
+	},
+	vote_lable_rearch = {
+		773001,
+		90,
+		true
+	},
+	vote_lable_daily_task_title = {
+		773091,
+		103,
+		true
+	},
+	vote_lable_daily_task_tip = {
+		773194,
+		124,
+		true
+	},
+	vote_lable_task_title = {
+		773318,
+		97,
+		true
+	},
+	vote_lable_task_list_is_empty = {
+		773415,
+		123,
+		true
+	},
+	vote_lable_ship_votes = {
+		773538,
+		90,
+		true
+	},
+	vote_help_2023 = {
+		773628,
+		4701,
+		true
+	},
+	vote_tip_level_limit = {
+		778329,
+		160,
+		true
+	},
+	vote_label_rank = {
+		778489,
+		85,
+		true
+	},
+	vote_label_rank_fresh_time_tip = {
+		778574,
+		127,
+		true
+	},
+	vote_tip_area_closed = {
+		778701,
+		117,
+		true
+	},
+	rect_ship_card_tpl_add = {
+		778818,
+		98,
+		true
 	}
 }

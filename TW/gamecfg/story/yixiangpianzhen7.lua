@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>七 全知之眼RE</size>",
+					"異向偏振\n\n<size=45>七 全知之眼RE</size>",
 					1
 				}
 			}
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "那是一夜的噩梦——",
+			say = "那是一夜的惡夢——",
 			effects = {
 				{
 					active = false,
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "梦中，总有一个模糊的身影在注视着我。",
+			say = "夢中，總有一個模糊的身影在看著我。",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "每当意识到它的存在，它就会消失于无形。",
+			say = "每當意識到它的存在，它就會消失於無形。",
 			effects = {
 				{
 					active = false,
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "而在意识放松之时，它又会出现在那里。",
+			say = "而在意識放鬆之時，它又會出現在那裡。",
 			effects = {
 				{
 					active = false,
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不发出声音，也不会做出行动，宛如一尊雕塑，又如一个鬼影。",
+			say = "不發出聲音，也不會做出行動，宛如一尊雕塑，又如一個鬼影。",
 			effects = {
 				{
 					active = false,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "周边传来的是……警报音，基地出现异常情况了么？！",
+			say = "週邊傳來的是……警報音，基地出現異常狀況了？！",
 			bgm = "airRaidAlarm",
 			flashin = {
 				delay = 1,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "不对……此处仍为梦境，但是……那个身影不见了。",
+			say = "不對……此處仍為夢境，但是……那個身影不見了。",
 			effects = {
 				{
 					active = false,
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "嗯，没错……那个带来噩梦的身影在这里消失了。",
+			say = "嗯，沒錯……那個帶來惡夢的身影在這裡消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "梦魇终于消散了么…………",
+			say = "夢魘終於消散了嗎…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "纵使身边警铃大作，我却依然感受到发自内心的放松。",
+			say = "縱使身邊警鈴大作，卻依然感受到發自內心的放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "指挥官，现在放下心来还太早了。",
+			say = "指揮官，現在放下心來還太早了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在不是睡觉的时候，危险正在接近。",
+			say = "現在不是睡覺的時候，危險正在接近。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "快醒醒，指挥官，快醒来————",
+			say = "快醒醒，指揮官，快醒來————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……太好了，你终于醒了。",
+			say = "指揮官……太好了，你終於醒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "刚刚怎么叫你都一直没有回应，我都打算去喊医务人员了……",
+			say = "剛剛怎麼叫你都一直沒有回應，我都打算去叫醫護人員了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我好像做了一个漫长的噩梦……",
+			say = "我好像做了一個漫長的惡夢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "海伦娜，现在几点了？",
+			say = "海倫娜，現在幾點了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……时钟上显示的时间是16点16分。",
+			say = "……時鐘上顯示的時間是16點16分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "下午四点……？这不可能啊，再怎么说也不至于一觉睡到这个时间……",
+			say = "下午四點…？這不可能啊，再怎麼說也不至於一覺睡到這個時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "嗯，确实不应该是这样的。从时间感上进行估算，现在应该是凌晨的三点到四点左右。",
+			say = "嗯，確實不應該是這樣的。從時間感上進行估算，現在應該是凌晨的三點到四點左右。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "但是不知道为什么，基地中的所有计时工具的数字都变成了16点16分，并停在了这一刻。",
+			say = "但不知道為什麼，基地中的所有計時工具的數字都變成了16點16分，並停在了這一刻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "而且领航员小姐发现，有一个来源不明的巨型物体正在向我们的方向接近。",
+			say = "而且領航員小姐發現，有一個來源不明的巨型物體正向我們的方向接近。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "来源不明的巨型物体……在向我们的方向接进？我们现在可是在「星海」之中啊？",
+			say = "來源不明的巨型物體……在往我們的方向接近？我們現在可是在「星海」之中啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……没错，星海现在已经处于红色警戒状态了。",
+			say = "……沒錯，星海現在已經處於紅色警戒狀態了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "半小时之后星海就会彻底封闭并进入隐匿状态，届时将无法保证仍位于其中的人员安全。",
+			say = "半小時後星海就會徹底封閉並進入隱匿狀態，屆時將無法保證仍位於其中的人員安全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "还好倒计时工具没有受到影响……指挥官，只剩下不到二十五分钟了，快跟我走吧。",
+			say = "還好倒數工具沒有受到影響……指揮官，只剩下不到二十五分鐘了，快跟我走吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "外围部门已经撤离了，核心部门在完成必要的工作后也会撤离。",
+			say = "外圍部門已經撤離了，核心部門在完成必要的工作後也會撤離。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "领航员小姐会留在这里————毕竟这里就是她的主机所在位置啊。",
+			say = "領航員小姐會留在這裡————畢竟這裡就是她的主機所在位置啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了指挥官，时间紧急，我们路上再聊吧————",
+			say = "好了指揮官，時間緊急，我們路上再聊吧————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "奇怪，我好像忘记了什么东西……？",
+			say = "奇怪，我好像忘了什麼東西……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

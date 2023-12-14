@@ -3379,7 +3379,18 @@ function temp()
 				["白"] = {
 					["女"] = {
 						["王"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

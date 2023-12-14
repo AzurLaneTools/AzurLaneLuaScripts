@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>二 记者间的明争暗斗</size>",
+					"港區秘聞特別篇\n\n<size=45>二 記者間的明爭暗鬥</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "翌日清晨，走在港区洒满阳光的街道上——",
+			say = "翌日清晨，走在港區灑滿陽光的街道上—",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "有种奇怪的感觉……好像有什么人正在盯着自己似的。",
+			say = "有種奇怪的感覺……好像有什麼人在盯著自己似的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "隐隐约约能听见轻微的咔哒声。",
+			say = "隱隱約約能聽見輕微的喀噠聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,14 +69,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "稍微有些在意，难道是……？",
+			say = "稍微有些在意，難道是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "阿尔弗雷多？",
+					content = "阿爾弗雷多？",
 					flag = 1
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "树丛发出窸窸窣窣的声音，而后阿尔弗雷多从中溜了出来——",
+			say = "樹叢發出窸窸窣窣的聲音，而後阿爾弗雷多從中溜了出來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿，指挥官早上好呀！",
+			say = "欸嘿嘿，指揮官早安呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "本来打算多拍几张指挥官的生活照的，没想到一下子就被发现了……嘿嘿~",
+			say = "原本打算多拍幾張指揮官的生活照的，沒想到一下子就被發現了……嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "指挥官的第六感很敏锐嘛~说不定挺适合做记者的呢。",
+			say = "指揮官的第六感很敏銳嘛~說不定蠻適合當記者的呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "阿尔弗雷多手里拿着的相机镜头盖还没有盖上，看起来刚刚才使用过。",
+			say = "阿爾弗雷多手裡拿著的相機鏡頭蓋還沒蓋上，看起來剛剛才使用過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "抱歉抱歉~是在为了我新一期的“港区秘闻”寻找素材啦~",
+			say = "抱歉抱歉~是在為了我新一期的「港區秘聞」尋找素材啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "现在港区内新闻报道的工作可不只有我在做，还有{namecode:55}她们……既是合作的伙伴，又是潜在的对手呢。",
+			say = "現在港區內新聞報導的工作可不只有我在做，還有青葉她們……既是合作的伙伴，又是潛在的對手呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "得多找点爆点新闻才行！否则的话，我的业务说不定会被比下去啦。",
+			say = "得多找點爆點新聞才行！否則的話，我的業務說不定會被比下去啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "原来如此……看起来港区里记者之间的竞争也很激烈。",
+			say = "原來如此……看起來港區裡記者之間的競爭也很激烈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "阿尔弗雷多找到想要的素材了吗？",
+			say = "阿爾弗雷多找到想要的素材了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "明明昨天才刚刚出版一期新的《港区秘闻》欸，素材的收集哪里会有那么快啦！",
+			say = "明明昨天才剛出版一期新的《港區秘聞》欸，素材的收集哪裡會有那麼快啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "港区内有意思的新闻本来就不太多，更何况还有别人在跟我抢业务……",
+			say = "港區內有意思的新聞本來就不太多，更何況還有別人在跟我搶業務……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "虽说我对自己“寻找新闻的眼睛”很有自信，不过如果没什么热点事件的话，那也是巧妇难为无米之炊啦。",
+			say = "雖說我對自己「尋找新聞的眼睛」很有自信，不過如果沒什麼熱門事件的話，那也是巧婦難為無米之炊啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "最近没什么好的灵感……毕竟重磅新闻也不是天天都有的。",
+			say = "最近沒什麼好的靈感……畢竟重磅新聞也不是天天都有的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唉……早知道上次指挥官的日常生活专栏就留到这期再当头版头条刊载了，好可惜……",
+			say = "唉……早知道上次指揮官的日常生活專欄就留到這期再當頭版頭條刊載了，好可惜……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "……没登上头版头条真是万幸。",
+			say = "……沒登上頭版頭條真是萬幸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "不过看她情绪好像有些低落……也帮她想想近期港区的热点事件好了。",
+			say = "不過看她情緒好像有些低落……也幫她想想近期港區的熱門事件好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "——港区热点吗……",
+			say = "——港區熱門嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "告别阿尔弗雷多之后，想到了一个还算不错的主意……",
+			say = "告別阿爾弗雷多之後，想到了一個還不錯的主意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "不过能不能抓住这个机会，还得看她身为“记者”的悟性了。",
+			say = "不過能不能抓住這個機會，還得看她身為「記者」的悟性了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "总之，先联系相关人员把前期的准备工作做一下吧——",
+			say = "總之，先聯絡相關人員把前期的準備工作做一下吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

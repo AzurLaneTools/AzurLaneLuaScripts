@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>三 任务前夕</size>",
+					"異向偏振\n\n<size=45>三 任務前夕</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "终于，在结束了第五十次算法优化后，「现实透镜」设备已经基本调试稳定。",
+			say = "終於，在結束了第五十次演算法最佳化後，「現實透鏡」設備已經基本調整穩定。",
 			bgmDelay = 2,
 			bgm = "theme-starsea-explo",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "到了该探索安克雷奇心智中离散信息块的时候了。",
+			say = "到了該探索安克拉治心智中離散訊息塊的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "指挥官……你确定要在今天执行计划么？",
+			say = "指揮官……你確定要在今天執行計畫嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "相信你在实际体验了之后应该也明白，「现实透镜」并不是一个无害的造梦机，而是一个基于星海核心设施运行的模拟设备。",
+			say = "相信你在實際體驗了之後應該也明白，「現實透鏡」並不是一個無害的造夢機，而是一個基於星海核心設施運作的模擬設備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "在其运行过程中，你的意识必须全程与装置相连。",
+			say = "在其運作過程中，你的意識必須全程與裝置連結。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "就算现在整个流程看起来稳定又可控，但这种连接行为本身就存在无法规避的系统性风险。",
+			say = "就算現在整個流程看起來穩定又可控，但這種連結行為本身就存在無法避免的系統性風險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "况且我们根本不知道那些要探索的情报到底是什么，也不知道它们在受到外部的主动干涉后会发生什么变化……",
+			say = "況且我們根本不知道那些要探索的情報到底是什麼，也不知道它們在受到外部的主動干涉後會發生什麼變化…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "当然，我也完全无法评估事先准备的“应对意外情况的紧急方案”到时候能不能真的应对得了意外出现的紧急情况。",
+			say = "當然，我也完全無法評估事先準備的「應對意外情況的緊急方案」到時候能不能真的應對的了意外出現的緊急情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "因此，从专业角度来说我对本项行动表示强烈反对。",
+			say = "因此，從專業角度來說我對本項行動表示強烈反對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也赞同女灶神的观点。指挥官，我们还是等技术团队进一步完善设备之后再开始行动吧。",
+			say = "我也贊同女灶神的觀點。指揮官，我們還是等技術團隊進一步完善設備之後再開始行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……我也理解你们的担心。",
+			say = "嗯……我也能理解妳們的擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果再等一等就能解决问题的话，自然可以等到装置更完善的时候再进行任务。",
+			say = "如果再等一等就能解決問題的話，自然可以等到裝置更完善的時候再進行任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因为参与了「现实透镜」调试的全过程，所以我非常清楚这项技术现存的风险。",
+			say = "因為參與了「現實透鏡」調整的全過程，所以我非常清楚這項技術現存的風險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但同时，我也更加清楚想要消除这些“系统性风险”的困难程度。",
+			say = "但同時，我也更清楚想要消除這些「系統性風險」的困難程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算再投入数倍的资源，突破技术瓶颈的时间依然需要以年为单位进行计算。",
+			say = "就算再投入數倍的資源，突破技術瓶頸的時間依然需要以年為單位進行計算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在此期间，这些未知信息块会不会对安克雷奇的心智产生负面影响，或者出现其他问题都是未知数。",
+			say = "在此期間，這些未知訊息塊會不會對安克拉治的心智產生負面影響，或是出現其他問題都是未知數。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +279,11 @@ return {
 			},
 			options = {
 				{
-					content = "现在就是最合适的时机。",
+					content = "現在就是最適合的時機",
 					flag = 1
 				},
 				{
-					content = "不能再继续等下去了！",
+					content = "不能再繼續等下去了",
 					flag = 2
 				}
 			}
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……既然您已经下定决心了，那我就让科研部门启动对于「现实透镜」的最终检查了。",
+			say = "……既然您已經下定決心了，那我就讓科研部門啟動對於「現實透鏡」的最終檢查了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "……我也去叫上海伦娜一起再检查一下安全保障的部分。",
+			say = "……我也去叫上海倫娜一起再檢查一下安全保障的部分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "就算真的发生意外情况……我们一定会保障您和安克雷奇的安全的！",
+			say = "就算真的發生意外狀況…我們一定會保證您和安克拉治的安全的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，之后就拜托各位了。",
+			say = "嗯，之後就拜託各位了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

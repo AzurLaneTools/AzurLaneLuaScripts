@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>五 记录空间</size>",
+					"異向偏振\n\n<size=45>五 紀錄空間</size>",
 					1
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "安克雷奇……？TB？",
+			say = "安克拉治……？TB？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "……没有任何回应么。",
+					content = "……沒有任何回應嗎。",
 					flag = 1
 				}
 			}
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "既然还能自由行动，说明目前链接依然稳定。",
+			say = "既然還能自由行動，說明目前連結依然穩定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "现在的情况也许是过量数据在涌出后导致的……",
+			say = "現在的情況也許是過量資料在湧出後導致的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "嗯。虽然是一片空无一物的白色空间，姑且还是先探索一下好了——",
+			say = "嗯。雖然是一片空無一物的白色空間，姑且還是先探索一下好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "突然，在不远处看到了一扇门。",
+			say = "突然，在不遠處看到了一扇門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "门的周围没有任何支撑，就这么安静而突兀地悬停在半空中。",
+			say = "門的周圍沒有任何支撐，就這麼安靜突兀地懸停在半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "门的一旁则是……安克雷奇？",
+			say = "門的一旁則是……安克拉治？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师…你来了！",
+			say = "老師……你來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "这里是……？",
+			say = "這裡是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇…的梦！门里…有……有趣的故事！",
+			say = "安克拉治……的夢！門裡……有……有趣的故事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…想分享给…老师！",
+			say = "……想分享給……老師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "安克雷奇的梦……？",
+			say = "安克拉治的夢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "奇怪……原本之前的教室就已经相当于安克雷奇的梦境了。",
+			say = "奇怪……原本之前的教室就已經相當於安克拉治的夢境了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "这里难道是梦中的安克雷奇梦到的场景么……？",
+			say = "這裡是夢中的安克拉治夢到的場景嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			},
 			options = {
 				{
-					content = "有趣的故事？在门里么。",
+					content = "有趣的故事？在門裡嗎。",
 					flag = 1
 				}
 			}
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "……嗯！老师…去看看！",
+			say = "……嗯！老師……去看看！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,14 +296,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "安克雷奇指着门，看来是要我推门进去的意思。",
+			say = "安克拉治指著門，看來是要我推門進去的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇也一起来么？",
+					content = "安克拉治也一起來嗎？",
 					flag = 1
 				}
 			}
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇…这次…不去！",
+			say = "安克拉治……這次……不去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师…第一次来，要分享给…老师……！",
+			say = "老師……第一次來，要分享給……老師……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "既然如此，就去门里看看好了。",
+			say = "既然如此，就去門裡看看好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			stopbgm = true,
-			say = "……推开门。",
+			say = "……推開門。",
 			bgmDelay = 0.5,
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "不对，准确来说应该是在手触碰到门的一瞬间，大量声音凭空出现在了脑海中。",
+			say = "不對，準確來說應該是在手碰到門的一瞬間，大量聲音憑空出現在了腦海中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,31 +396,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<color=black>「看来，你终于开始探索隐藏在计划舰之中的谜团了。」</color>",
+					"<color=black>「看來，你終於開始探索隱藏在計畫艦之中的謎團了。」</color>",
 					0.5
 				},
 				{
-					"<color=black>「虽然与我曾经的记录相比只有不足1%的相似度，但是这个波段是不会错的。」</color>",
+					"<color=black>「雖然與我曾經的紀錄相比只有不足1%的相似度，但是這個波段是不會錯的。」</color>",
 					1
 				},
 				{
-					"<color=black>「毕竟，这段记录被触发的本身就是你还是你的证明。」</color>",
+					"<color=black>「畢竟，這段紀錄被觸發的本身就是你還是你的證明。」</color>",
 					1.5
 				},
 				{
-					"<color=black>「同时也意味着，我在最后进行的秘密行动成功了。」</color>",
+					"<color=black>「同時也意味著，我在最後進行的秘密行動成功了。」</color>",
 					2
 				},
 				{
-					"<color=black>「我就知道。不论你身处何方，以什么形式存在，还剩下多少碎片。」</color>",
+					"<color=black>「我就知道。不論你身處何方，以什麼形式存在，還剩下多少碎片。」</color>",
 					2.5
 				},
 				{
-					"<color=black>「只要你见到她们身上出现异常状况，你就不可能不管不顾。」</color>",
+					"<color=black>「只要你見到她們身上出現異常狀況，你就不可能不管不顧。」</color>",
 					3
 				},
 				{
-					"<color=black>「果然，将保险托付给你是正确的。」</color>",
+					"<color=black>「果然，將保險託付給你是正確的。」</color>",
 					3.5
 				}
 			},
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			say = "………刚刚的声音究竟是？！",
+			say = "……………剛剛的聲音究竟是？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,22 +466,22 @@ return {
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			bgm = "theme-dailyfuture",
-			say = "白色的空间消失了，取而代之的是一间昏暗的房间与一位站立在房间中的女性。",
+			say = "白色的空間消失了，取而代之的是一間昏暗的房間與一位站在房間中的女性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是谁？",
+					content = "妳是誰？",
 					flag = 1
 				},
 				{
-					content = "这里是什么地方？",
+					content = "這裡是什麼地方？",
 					flag = 2
 				},
 				{
-					content = "你知道些什么？",
+					content = "妳知道些什麼？",
 					flag = 3
 				}
 			}
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "？？",
-			say = "别急，别急，我只是一段记录而已。唔……一个有一定自主能力的记录？",
+			say = "別急，別急，我只是一段紀錄而已。嗯……一個有一定自主能力的紀錄？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "？？",
-			say = "嗯，总之让我慢慢说明吧。",
+			say = "嗯，總之讓我慢慢說明吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "？？",
-			say = "首先，关于“我是谁”这个问题。如果你是指这个形象原型的名字的话，她叫安洁（Anzeel）。",
+			say = "首先，關於「我是誰」這個問題。如果你是指這個形象原型的名字的話，她叫安潔（Anzeel）。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "？？",
-			say = "至于我，你还是称呼我为「记录播放员」就好。",
+			say = "至於我，你還是稱呼我為「紀錄播放員」就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,8 +565,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "至于这里的话……这里是由信息构成的空间。",
+			actorName = "紀錄播放員",
+			say = "至於這裡的話……這裡是由資訊構成的空間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,8 +583,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "唔……存在于「心智魔方网络」的夹缝之中由信息构成的空间？",
+			actorName = "紀錄播放員",
+			say = "不……存在於「心智魔方網路」的夾縫之中由資訊構成的空間？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,8 +601,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "这么说你能明白么？如果不明白也没关系，总之这里是不会被探查到的空间。",
+			actorName = "紀錄播放員",
+			say = "這麼說你能明白嗎？如果不明白也沒關係，總之這裡是不會被探查到的空間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,8 +619,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "原本也不应该这么早被你发现的才对……",
+			actorName = "紀錄播放員",
+			say = "原本也不該這麼早被你發現的才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			say = "……“不该这么早被我发现”？",
+			say = "……「不該這麼早被我發現」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,8 +653,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "嗯……怎么说呢……这段记录对于「现在的你」来说还太早了？",
+			actorName = "紀錄播放員",
+			say = "嗯……怎麼說呢……這段紀錄對於「現在的你」來說還太早了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,8 +671,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "你来这里的行为应该算是……速通？卡BUG？",
+			actorName = "紀錄播放員",
+			say = "你來這裡的行為應該算是……速通？卡BUG？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,8 +689,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "算了……正如安洁一直相信的——“随机性，带来的并不总是坏的结果。”",
+			actorName = "紀錄播放員",
+			say = "算了……正如安潔一直相信的——「隨機性，帶來的並不總是壞的結果。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,8 +707,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "现在这种状况就当做某种概率允许下的缘分好了。",
+			actorName = "紀錄播放員",
+			say = "現在這種狀況就當做某種機率允許下的緣分好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,8 +725,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "当然，这个信息空间的存在对于这孩子是绝对无害的。",
+			actorName = "紀錄播放員",
+			say = "當然，這個資訊空間的存在對於這孩子是絕對無害的，請你不用擔心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "紀錄播放員",
 			say = "安克雷奇这孩子……本身就有些不同寻常之处吧。她的不同寻常不是因为这个空间导致的，请你不用担心。",
 			painting = {
 				alpha = 0.3,
@@ -761,8 +761,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "嗯…………让我找找……啊……",
+			actorName = "紀錄播放員",
+			say = "嗯…………讓我找找……啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "紀錄播放員",
 			say = "……唔…………糟糕。",
 			painting = {
 				alpha = 0.3,
@@ -797,8 +797,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "诶嘿，这个记录里似乎只是加入了过量的情感数据，没有任何能称之为情报的东西！",
+			actorName = "紀錄播放員",
+			say = "欸嘿，這個紀錄裡似乎只是加入了過量的情感數據，沒有任何能稱之為情報的東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,11 +809,11 @@ return {
 			},
 			options = {
 				{
-					content = "…？",
+					content = "……？",
 					flag = 1
 				},
 				{
-					content = "……意思也就是说？",
+					content = "……意思也就是說？",
 					flag = 2
 				}
 			}
@@ -825,8 +825,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "安洁在制作我的时候，应该只是想在某个时刻某个地点让你再见她一面……这种感觉？",
+			actorName = "紀錄播放員",
+			say = "安潔在製作我的時候，應該只是想在某個時刻某個地點讓你再見她一面……這種感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,8 +843,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "不对……这段情感数据实在是过于模糊。",
+			actorName = "紀錄播放員",
+			say = "不對……這段情緒數據實在過於模糊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,8 +861,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "好像解析成只是想让某个时刻某个地点的你能够再见她一面好像也对……？",
+			actorName = "紀錄播放員",
+			say = "好像解析成只是想讓某個時刻某個地點的你能夠再見她一面好像也對…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,8 +879,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "……也许安洁这个形象本身，就是她希望通过这段记录传达给你的。",
+			actorName = "紀錄播放員",
+			say = "……也許安潔這個形象本身，就是她希望透過這段紀錄傳達給你的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,8 +897,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "她希望……你能记住她，即便你已经什么都不记得，变得不再是你了。",
+			actorName = "紀錄播放員",
+			say = "她希望……你能記得她，即便你已經什麼都不記得，變得不再是你了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,8 +915,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "具体我也不是很清楚……毕竟我只是一个记录播放员。",
+			actorName = "紀錄播放員",
+			say = "具體我也不是很清楚……畢竟我只是個紀錄播放員。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			},
 			options = {
 				{
-					content = "安洁跟我，是什么关系？",
+					content = "安潔跟我，是什麼關係？",
 					flag = 1
 				}
 			}
@@ -955,8 +955,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "不知道，我没办法给你记录之中不存在的信息。",
+			actorName = "紀錄播放員",
+			say = "不知道，我沒辦法給你紀錄之中不存在的資訊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,8 +973,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "虽然我看上去是有情感能思考的，但这不过是伪装而已。",
+			actorName = "紀錄播放員",
+			say = "雖然我看起來是有情感能思考的，但這不過是偽裝而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,8 +991,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "我的本质只是一个按照指令行事的程序而已。",
+			actorName = "紀錄播放員",
+			say = "我的本質只是一個按照指令行事的程式而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1008,11 +1008,11 @@ return {
 			bgName = "bg_aircraft_future",
 			stopbgm = true,
 			dir = 1,
-			actorName = "记录播放员",
+			actorName = "紀錄播放員",
 			bgm = "theme-threat-typeV",
 			actor = 900332,
 			nameColor = "#a020f0",
-			say = "等等…………有东西正在接近这里。",
+			say = "等等…………有東西正在接近這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1039,8 +1039,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "你被人盯上了，有什么东西跟着你过来了！",
+			actorName = "紀錄播放員",
+			say = "你被人盯上了，有東西跟著你過來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			say = "你是指什么……？TB么？",
+			say = "妳是指什麼…？TB媽？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1088,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			say = "TB确实是在进入这里之后一直跟我同步连接着的，不过刚刚开始就没反应了。",
+			say = "TB確實是在進入這裡之後一直跟我同步連接著的，不過剛開始就沒反應了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1099,7 +1099,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			say = "而且你不是说这里是不会被探查到的空间么？",
+			say = "而且妳不是說這裡是不會被探查到的空間嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1112,7 +1112,7 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "紀錄播放員",
 			say = "………………………………",
 			painting = {
 				alpha = 0.3,
@@ -1130,8 +1130,8 @@ return {
 			oldPhoto = true,
 			dir = 1,
 			side = 2,
-			actorName = "记录播放员",
-			say = "警告：监测到第V类威胁正在接近，根据安全协议，本记录空间即将自我销毁。",
+			actorName = "紀錄播放員",
+			say = "警告：監控到第V類威脅正在接近，根據安全協議，本紀錄空間即將自我銷毀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师！",
+			say = "老師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "快…跟我离开这里！",
+			say = "快……跟我離開這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1222,7 +1222,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "四周再次归于一片白光之中，安克雷奇也凭空出现在我前方不远处。",
+			say = "四周再次歸於一片白光之中，安克拉治也憑空出現在我前方不遠處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "不过，在手指触碰到飞奔而来的安克雷奇之前，前所未有的眩晕感挤占了我的脑海。",
+			say = "不過，在手指碰到飛奔而來的安克拉治之前，前所未有的眩暈感擠佔了我的腦海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,7 +1248,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "高亢的嗡鸣声仿佛在我的每一个脑细胞中啸叫，知觉正被迅速地抽离我的躯体。",
+			say = "高亢的嗡鳴聲彷彿在我的每一個腦細胞中嘯叫，知覺正迅速地抽離我的軀體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,7 +1262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师…！小心…！不要…！！！",
+			say = "老師……！小心……！不要……！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1308,7 +1308,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "又是……失重的感觉……",
+			say = "又是……失重的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

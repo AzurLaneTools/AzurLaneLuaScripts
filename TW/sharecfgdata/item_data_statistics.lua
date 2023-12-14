@@ -10287,6 +10287,30 @@ _G.pg.base.item_data_statistics[21018] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21019] = {
+	display = "伊莉莎白女王·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：伊莉莎白女王·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21019",
+	id = 21019,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21020] = {
 	display = "拉·加利索尼埃·META的專用性能提升裝置，可在「META研究室」-「能量激活」中使用。",
 	name = "結晶：拉·加利索尼埃·META",
@@ -10663,6 +10687,30 @@ _G.pg.base.item_data_statistics[21909] = {
 	is_world = 0,
 	icon = "Props/21909",
 	id = 21909,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21910] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升伊莉莎白女王·META同步率。",
+	name = "同步值：伊莉莎白女王·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21910",
+	id = 21910,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -19369,8 +19417,8 @@ _G.pg.base.item_data_statistics[30523] = {
 }
 
 _G.pg.base.item_data_statistics[30526] = {
-	display = "使用后可从「铁血风情」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(铁血)",
+	display = "使用後可從「鐵血風情」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(鐵血)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,
@@ -174882,6 +174930,30 @@ _G.pg.base.item_data_statistics[59365] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59366] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4595,
+	virtual_type = 99,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	id = 59366,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59390] = {
 	display = "用於「新歲祝福·癸卯」活動兌換，活動結束後將會消失",
 	name = "東煌結",
@@ -178670,6 +178742,102 @@ _G.pg.base.item_data_statistics[59824] = {
 	is_world = 0,
 	icon = "Props/voteT3",
 	id = 59824,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59825] = {
+	display = "用於參加人氣投票的投票次數，每輪投票結束時次數清零",
+	name = "投票券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 2,
+	is_world = 0,
+	icon = "Props/voteT3",
+	id = 59825,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59826] = {
+	display = "用於參加人氣投票的投票次數，每輪投票結束時次數清零",
+	name = "投票券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 2,
+	is_world = 0,
+	icon = "Props/voteT3",
+	id = 59826,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59827] = {
+	display = "用於參加人氣投票的投票次數，每輪投票結束時次數清零",
+	name = "投票券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 2,
+	is_world = 0,
+	icon = "Props/voteT3",
+	id = 59827,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59828] = {
+	display = "用於參加人氣投票的投票次數，每輪投票結束時次數清零",
+	name = "投票券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 2,
+	is_world = 0,
+	icon = "Props/voteT3",
+	id = 59828,
 	order = 0,
 	display_icon = {},
 	price = {},

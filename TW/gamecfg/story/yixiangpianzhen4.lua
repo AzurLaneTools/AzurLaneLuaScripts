@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>四 对轴焦点</size>",
+					"異向偏振\n\n<size=45>四 對軸焦點</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "视野被黑暗所笼罩，四周则是一片寂静。",
+			say = "視野被黑暗所籠罩，四周則是一片寂靜。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "仿佛此地并不是巨大机械的内部，而是某个无声的黑洞之中。",
+			say = "彷彿此地並不是巨大機械的內部，而是某個無聲的黑洞之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "虽说知道这是仪器启动前的正常状况，不过想到此次行动的特殊性，又不自觉有些紧张起来。",
+			say = "雖說知道這是儀器啟動前的正常狀況，不過想到這次行動的特殊性，又不自覺有些緊張起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "领航员-TB",
-			say = "指挥官，检测到您的心率提升，请问需要我提供医疗协助么？",
+			actorName = "領航員-TB",
+			say = "指揮官，偵測到您的心率提升，請問需要我提供醫療協助嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "不好不好……果然在「现实透镜」之中一刻都不能放松。",
+			say = "不好不好……果然在「現實透鏡」之中一刻都不能放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,25 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "通过深呼吸逐渐将情绪平复下来——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900284,
-			nameColor = "#A9F548FF",
-			side = 2,
-			hidePaintObj = true,
-			dir = 1,
-			blackBg = true,
-			actorName = "领航员-TB",
-			say = "指挥官，您的心率已经回归正常状态。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "透過深呼吸逐漸將情緒平復下來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,8 +108,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "领航员-TB",
-			say = "请不用担心。指挥官，本次行动的前半段将与您之前进行的测试相同——您将与模拟场景中的安克雷奇进行对话。",
+			actorName = "領航員-TB",
+			say = "指揮官，您的心率已經回歸正常狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,8 +126,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "领航员-TB",
-			say = "再之后，您只需要跟随我的引导在其中探索就好。",
+			actorName = "領航員-TB",
+			say = "請不用擔心。指揮官，本次行動的前半段將與您之前進行的測試相同——您將與模擬場景中的安克拉治進行對話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,8 +144,26 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "领航员-TB",
-			say = "本次行动中，我会全程接入您的通讯频道，为您提供帮助，并竭尽全力确保您与安克雷奇的安全。",
+			actorName = "領航員-TB",
+			say = "再之後，您只需要跟隨我的引導在其中探索就好。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900284,
+			nameColor = "#A9F548FF",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			blackBg = true,
+			actorName = "領航員-TB",
+			say = "本次行動中，我會全程連接您的通訊頻道，為您提供協助，並盡力確保您與安克拉治的安全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "很好，那就启动机器，让我们开始吧。",
+			say = "很好，那就啟動機器，讓我們開始吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -198,7 +198,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：现实透镜启动中————",
+			say = "指令已確認：現實透鏡啟動中————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "仪器运行传来的低鸣声转瞬即逝，一股难以言喻的失重感笼罩全身。",
+			say = "儀器運作傳來的低鳴聲轉瞬即逝，一股難以言喻的失重感籠罩全身。",
 			bgm = "battle-deepecho",
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "紧随而来的是一股漫无目的的开放感，仿佛孤身一人身处无垠的宇宙之中，就连时间也绵延到了见不到的边缘。",
+			say = "緊隨而來的是一股漫無目的開放感，彷彿孤身一人深處無垠的宇宙之中，就連時間也綿延到了見不到的邊緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "紧接着，一切都颤动起来。由渺小、空旷、寂寥交织而成的压迫感猛烈袭来，仿佛将无限延伸的空间重新压缩为一个点。",
+			say = "緊接著，一切都顫動起來。由渺小、空曠、寂靜交織而成的壓迫感猛烈襲來，彷彿將無限延伸的空間重新壓縮為一個點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "不过这种感觉也是转瞬即逝——",
+			say = "不過這種感覺也是轉瞬即逝——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "当视觉回归后，出现在视野中的是一间明亮又空旷的教室。",
+			say = "當視覺回歸後，出現在視野中的是一間明亮又空曠的教室。",
 			bgmDelay = 0.5,
 			bgm = "story-2",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "我站立在讲台上。讲台之下，空无一人的桌椅成排码放着。",
+			say = "我站立在講台上。講台之下，空無一人的桌椅成排堆放著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "只有最靠近讲台处的一张课桌上，趴着一位米色头发的女孩。",
+			say = "只有最靠近講台處的一張課桌上，趴著一位米色頭髮的女孩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "就如同之前的实验一样……不论什么时候来，安克雷奇总是像这样沉睡在教室之中。",
+			say = "就如同先前的實驗一樣……不論什麼時候來，安克拉治總是像這樣沉睡在教室中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,13 +327,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/7/tb-7",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领航员系统，连线成功。开始执行检测清单，请稍候。",
+			say = "領航員系統，連線成功。開始執行檢測清單，請稍候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,13 +347,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/28/tb-28",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……连接状况：稳定……资源库：已加载……偏差值：微小……",
+			say = "……連線狀況：穩定……資源庫：已載入……偏差值：微小……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,13 +367,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/33/tb-33",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……通讯测试：指挥官，您能听到我的声音么？",
+			say = "……通訊測試：指揮官，您能聽到我的聲音嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "听得很清楚，看来目前为止一切顺利。",
+			say = "聽得很清楚，看來目前為止一切順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,13 +397,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/29/tb-29",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……回复已确认，通讯系统：良好。检测清单已完成。",
+			say = "……回復已確認，通訊系統：良好。檢測清單已完成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,12 +417,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鉴于目前状况，我推荐采取方案A进行接触。",
+			say = "鑑於目前狀況，我推薦採取方案A進行接觸。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			},
 			options = {
 				{
-					content = "许可。",
+					content = "許可。",
 					flag = 1
 				}
 			}
@@ -442,13 +442,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：指挥官，请您轻轻唤醒安克雷奇。与她进行对话，并在交谈中寻找她、或者周边环境中的反常之处。",
+			say = "指令已確認：指揮官，請您輕輕喚醒安克拉治。與她對話，並在交談中尋找她、或週邊環境中的反常之處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,12 +462,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在此期间，我将会处在静默状态稳定安克雷奇的心智投影空间，并协助您分析见到的有价值信息。",
+			say = "在此期間，我將會處在靜默狀態穩定安克拉治的心智投影空間，並協助您分析見到的寶貴資訊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "没问题。就按计划来。",
+			say = "沒問題。就按照計劃來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,13 +491,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：已生成阅读材料。类型：童话。",
+			say = "指令已確認：已產生閱讀材料。類型：童話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "TB的话音刚落，几本书就凭空出现在了讲台上。",
+			say = "TB的話音剛落，幾本書就憑空出現在講台上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "我拿起其中的一本，轻轻走到安克雷奇的身边。",
+			say = "我拿起其中的一本，輕輕走到安克拉治的身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师……？",
+			say = "老師……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "呼…？老师…！安克雷奇，等到了…！",
+			say = "呼……？老師……！安克拉治，等到了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师…来陪安克雷奇…高兴！",
+			say = "老師……來陪安克拉治……高興！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "安克雷奇喜欢听故事么？",
+			say = "安克拉治喜歡聽故事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "故事……喜欢！",
+			say = "故事……喜歡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "有趣的…温暖的…奇幻的……安克雷奇…都喜欢！",
+			say = "有趣的……溫暖的……奇幻的……安克拉治……都喜歡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "但…故事书…复杂…安克雷奇……看不懂……",
+			say = "但……故事書……複雜……安克拉治……看不懂……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "没关系，就由老师来给安克雷奇讲一个童话故事。",
+			say = "沒關係，就由老師來跟安克拉治講一個童話故事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "故事的名字，叫《童话森林奇遇记》。",
+			say = "故事的名字，叫《童話森林奇遇記》。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "很久很久以前，有一只住在森林里的兔子，人们都叫她怀表兔——",
+			say = "很久很久以前，有一隻住在森林裡的兔子，人們都叫她懷錶兔——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "怎么样？这个故事，安克雷奇喜欢吗？",
+			say = "怎麼樣？這個故事，安克拉治喜歡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结局…很有趣…安克雷奇…很喜欢……！",
+			say = "結局……很有趣……安克拉治……很喜歡……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "还有…会讲故事的老师…好厉害……！",
+			say = "還有……會說故事的老師……好厲害……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇…给…好厉害的老师…准备了礼物……",
+			say = "安克拉治……幫……好厲害的老師……準備了禮物……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			stopbgm = true,
-			say = "安克雷奇突然从书桌的桌斗里拿出了一张用蜡笔涂绘的简笔画。",
+			say = "安克拉治突然從書桌的抽屜裡拿出了一張用蠟筆塗繪的簡筆畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "画上灰蒙蒙的一片，辨认不出绘制的场景，不过隐约能看出几个人影的轮廓。",
+			say = "畫上灰濛濛的一片，辨認不出繪製的場景，不過隱約能看出幾個人影的輪廓。",
 			bgmDelay = 0.5,
 			bgm = "battle-deepecho2",
 			typewriter = {
@@ -810,14 +810,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "不知为何，在看到画面的一瞬间，心中出现了一股难以言喻的焦躁感……",
+			say = "不知為何，在看見畫面的一瞬間，心中出現了一股難以言喻的焦躁感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这个画是…………？",
+					content = "這個畫是…………？",
 					flag = 1
 				}
 			}
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇画的…送给老师！",
+			say = "安克拉治畫的……送給老師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师…喜欢吗…？",
+			say = "老師……喜歡嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,13 +861,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：监测到了海量未知数据。",
+			say = "警告：監測到了海量未知數據。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,13 +881,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：即将抵达处理能力上限。",
+			say = "警告：即將抵達處理能力上限。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,13 +901,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：解算系统效能正在降低。",
+			say = "警告：解算系統效能正在降低。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,13 +921,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "连接状况：不稳定。",
+			say = "連接狀況：不穩定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,12 +941,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我监测到海量未知数据正在从空间内部涌出。我无法在这样的状态下，维持空间稳定太长时间。",
+			say = "指揮官，我監測到海量未知資料正在從空間內部湧出。無法在這樣的狀態下，我維持空間穩定太久。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,13 +960,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			dir = 1,
 			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "提议：立刻终止行动。",
+			say = "提議：立刻終止行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "稍等，再坚持一下就好！",
+			say = "稍等，再堅持一下就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			},
 			options = {
 				{
-					content = "安克雷奇，画上的人都是谁？",
+					content = "安克拉治，畫上的人是誰？",
 					flag = 1
 				}
 			}
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇…画的是老师…还有…老师的…朋友……",
+			say = "安克拉治……畫的是老師……還有……老師的……朋友……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,7 +1033,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "呼……呼……安克雷奇…想睡了。",
+			say = "呼……呼……安克拉治……想睡覺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1051,7 +1051,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "梦里…有趣的事…要分享给老师……",
+			say = "夢裡……有趣的事……要分享給老師……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1065,7 +1065,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "转瞬间，眼前的教室与安克雷奇都消失了。",
+			say = "轉瞬間，眼前的教室與安克拉治都消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

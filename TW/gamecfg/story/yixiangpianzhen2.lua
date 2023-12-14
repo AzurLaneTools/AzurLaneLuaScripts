@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>二 曲隙折光</size>",
+					"異向偏振\n\n<size=45>二 曲隙折光</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "「星海」基地-指挥中心-「罗盘座」-B2O区-指挥官办公室，数周前—————",
+			say = "「星海」基地-指揮中心-「羅盤座」-B2O區-指揮官辦公室，數週前—————",
 			bgm = "battle-deepecho",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "面前的办公桌上，正摆着一份从科研部门送来的报告。",
+			say = "眼前的辦公桌上，正擺著一份從科研部門送來的報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,95 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而不远处的孟菲斯，此刻正介绍着报告上的内容。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "“——计划舰的心智成长本身应该是随着时间逐渐成熟的。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "“但是对比计划舰之间的成长曲线可以发现，安克雷奇的心智增长曲线异常地平缓。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "“经过仔细研究，我们发现在安克雷奇日趋成熟的心智中依然留存有一些无法解析的离散信息块。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "“这些离散信息块不属于安克雷奇的心智组成部分，却以一种极其不规则的方式分布于其中。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "“也许这些离散信息块与安克雷奇心智成长缓慢之间存在直接关联。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "而不遠處的曼非斯，此刻正介紹著報告上的內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "以上，是科研部门报告书的内容。",
+			say = "「——計劃艦的心智成長本身應該是隨著時間逐漸成熟的。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时，虽然没写在报告书上……",
+			say = "「但是對比計劃艦之間的成長曲線可以發現，安克拉治的心智增長曲線異常地平緩。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +107,95 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "不过科研部门似乎认为安克雷奇一直以来坚持称呼您为“老师”，可能也与这些无法解读的信息块有关。",
+			say = "「經過仔細研究，我們發現在安克拉治日趨成熟的心智中依然留存有一些無法解析的離散訊息塊。」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "「這些離散訊息塊不屬於安克拉治的心智組成部分，但以一種極其不規則的方式分佈於其中。」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "「也許這些離散訊息塊與安克拉治心智成長緩慢之間存在直接關聯。」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "以上，是科研部門報告書的內容。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "同時，雖然沒寫在報告書上…",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "不過科研部門似乎認為安克拉治一直以來堅持稱呼您為「老師」，也可能與這些無法解讀的訊息塊有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……根据以往的观测结果，所有计划舰在诞生之初，其心智中都会出现有大量可观测到但无法解读的信息块。",
+			say = "……根據以往的觀測結果，所有計畫艦在誕生之初，其心智中都會出現有大量可觀測到但無法解讀的訊息塊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "分析这些信息块的内容虽然也是星海的计划之一，不过随着计划舰心智的成熟，这些信息块会在很短的时间内合并重组，最后完全消失。",
+			say = "分析這些訊息塊的內容雖然也是星海的計畫之一，不過隨著計畫艦心智的成熟，這些訊息塊會在很短的時間內合併重組，最後完全消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "根据既往经验，计划舰心智成熟之后是观察不到这些信息块的，所以这一情况也被当成了计划舰心智成长过程中的正常现象。",
+			say = "根據先前經驗，計劃艦心智成熟之後是觀察不到這些訊息塊的，所以這種情況也被當成了計劃艦心智成長過程中的正常現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,18 +239,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但现在，经验公式出现了特例……为什么只有在安克雷奇这里出现了问题……",
+			say = "但現在，經驗公式出現了特例……為什麼只有在安克拉治這裡出現了問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "科研部门对这段数据是怎么看的？",
+					content = "科學研究部門對這段數據是怎麼看的？",
 					flag = 1
 				},
 				{
-					content = "安克雷奇现在有什么异常么？",
+					content = "安克拉治現在有什麼異常嗎？",
 					flag = 2
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "科研部门的结论是，目前没有看出危险性。",
+			say = "科研部門的結論是，目前沒有看出危險性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇现在正处于我们的密切观察之中，一旦状况发生任何变化，科研部门会及时发来报告的。",
+			say = "安克拉治現在正處於我們的密切觀察之中，一旦狀況發生任何變化，科研部門會及時發來報告的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "对了指挥官，我在来之前去看望了一下安克雷奇，我也没看出来她有任何不舒服的地方。",
+			say = "對了指揮官，我在來之前去看了安克拉治，我也沒看出來她有任何不舒服的地方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇自己也说没有问题，倒不如说她其实根本不知道我们在担心什么……",
+			say = "安克拉治自己也說沒有問題，倒不如說她其實根本不知道我們在擔心什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "现阶段的话，科研部门没有发现任何异常。",
+			say = "現階段的話，科研部門並沒有發現任何異常。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过安克雷奇现在正处于我们的密切观察之中，一旦状况发生任何变化，科研部门会及时发来报告的。",
+			say = "不過安克拉治現在正處於我們的密切觀察之中，一旦狀況有任何變化，科研部門會及時發來報告的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在来之前我特意去看望了一下她，不过也没看出来任何异常的情况。",
+			say = "在來之前我特地去看望了她，不過也沒看出來任何異常的狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			optionFlag = 2,
-			say = "她有说过自己哪里不舒服么？",
+			say = "她有說過自己哪裡不舒服嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "没有。而且我很肯定，她其实根本不知道我们在担心什么……",
+			say = "沒有。而且我很肯定，她其實根本不知道我們在擔心什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……直到这件事被发现之前，确实没有发现安克雷奇出现过任何异状。",
+			say = "嗯……直到這件事被發現之前，確實沒有發現安克拉治出現過任何異狀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过未知终究代表着隐患，必须尽快排除才好。",
+			say = "不過未知終究代表隱患，必須盡快排除才好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然和心智魔方相关，就一定有我能做到的事……",
+			say = "既然和心智魔方相關，就一定有我能做到的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——开始在脑海中回忆起「星海」之中进行的各类机密项目。",
+			say = "——開始在腦海中回憶起「星海」之中進行的各類機密計畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "然后一个名字浮现了出来——",
+			say = "然後一個名字浮現了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,13 +485,13 @@ return {
 			},
 			options = {
 				{
-					content = "TB，「现实透镜」项目的进度怎么样了？",
+					content = "TB，「現實透鏡」計畫的進度怎麼了？",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -499,7 +499,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：资料查询中。",
+			say = "指令已確認：資料查詢中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果记忆没有出错的话，那是一个旨在解析埋藏在经过重组的舰船心智魔方内部情报的项目。",
+			say = "如果記憶沒有出錯的話，那是一個旨在解析埋藏在經過重組的艦船心智魔方內部情報的計畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因其能穿透迷雾，将虚无缥缈的意识以具象化的方式呈现在现实中，所以被冠以了「现实透镜」的名字。",
+			say = "因其能穿透迷霧，將虛無縹緲的意識以具象化的方式呈現在現實中，所以被冠以了「現實透鏡」的名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然那些信息块分布于安克雷奇的心智中……那么如果能直接“进入”安克雷奇的心智，就有可能见到它们的正体。",
+			say = "既然那些訊息塊分佈在安克拉治的心智中……那麼如果能直接「進入」安克拉治的心智，就有可能見到它們的正體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,14 +543,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也就是说如果项目可用的话，应该就有办法解析并消除这些存在于安克雷奇心智中的不明数据块了……",
+			say = "也就是說如果計畫可用的話，應該就有辦法解析並消除這些存在於安克拉治心智中的不明訊息塊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -558,7 +558,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结果已确认：指挥官，根据科研部门的评价，「现实透镜」项目已经完成了理论设计并制作了一台原型机。",
+			say = "結果已確認：指揮官，根據科研部門的評價，「現實透鏡」計畫已經完成了理論設計並製作了一台原型機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,9 +574,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
-			say = "但，由于项目组在后续研究中遭遇到一连串亟待解决的复杂问题，目前该原型机还没有进行过正式测试。",
+			say = "但，由於計畫組在後續研究中遭遇一連串亟待解決的複雜問題，目前該原型機還沒有進行過正式測試。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？您是想用这个装置么？",
+			say = "咦？您是想用這個裝置嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，有什么问题么？",
+			say = "嗯，有什麼問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "唔……关于“亟待解决的复杂问题”那部分，我觉得大概是在写报告的时候用的美化修辞。",
+			say = "嗯……關於「亟待解決的複雜問題」那部分，我覺得大概是在寫報告的時候用的美化修辭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个计划因为必须要由心智魔方适应性极高的您亲自参与，其本身又不是那么重要。",
+			say = "這個計劃因為必須由心智魔方適應性極高的您親自參與，本身又不是那麼重要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以一直以来优先级都很低，进度上说实话其实挺不妙的……",
+			say = "所以一直以來優先順序都很低，進度上說實話其實挺不妙的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我认为实际情况应该比报告上写的更差，大概是完全不能使用的状态吧……？",
+			say = "我認為實際情況應該比報告上寫的更差，大概是完全不能使用的狀態吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果是一个可用方案的话，科研部门应该第一时间就提出用这个来为安克雷奇进行解析了。",
+			say = "如果是可用方案的話，科研部門應該第一時間就提出用這個來為安克拉治進行解析了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过……既然出了这样的事情，那「现实透镜」的项目优先级就需要大幅提高了。",
+			say = "不過……既然出了這樣的事情，那「現實透鏡」的計畫優先順序就需要大幅提升了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "孟菲斯，这件事你能去亲自盯一下么？",
+			say = "曼非斯，這件事妳能親自去盯一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "将「现实透镜」的项目优先级提至最高，允许该项目优先挑选资源，并从年度储备预算中划拨一部分过去。",
+			say = "將「現實透鏡」的計畫優先級提至最高，允許該計畫優先挑選資源，並從年度儲備預算中劃撥一部分過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在可能的范围内给予该项目最高的自由度，务必尽快让「现实透镜」处于可用状态。",
+			say = "在可能的範圍內給予該項目最高的自由度，務必盡快讓「現實透鏡」處於可用狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "既然您都这么说了那自然是没问题。",
+			say = "既然您都這麼說了那自然是沒問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过就算给予其最大力度的支持，科研部门那边估计还得弄上好一阵子呢。",
+			say = "不過就算給予其最大力度的支持，科研部門那邊估計還要弄上好一陣子呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "而且就像之前说的，因为项目必须要由心智魔方适应性极高的您亲自参与。",
+			say = "而且就像之前說的，因為計畫必須由心智魔方適應性極高的您親自參與。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "在这期间就需要您抽时间经常去协助一下研发进度了哦。",
+			say = "在這段期間就需要您抽時間經常去協助一下研發進度了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "当然了，职责所在。",
+			say = "當然了，職責所在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "对了，等一会的工作处理完之后，我们一起去看看安克雷奇吧。",
+			say = "對了，等一下的工作處理完後，我們一起去看看安克拉治吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好啊~咳……指挥官，下一份报告请您过目，这份是「洞察」项目发来的——",
+			say = "好啊~咳……指揮官，下一份報告請您過目，這份是「洞察」計畫發來的——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -48,6 +48,8 @@ function slot0.register(slot0)
 				end
 			end
 		end
+
+		uv0:sendNotification(GAME.TASK_PROGRESS_UPDATE)
 	end)
 	slot0:on(20003, function (slot0)
 		for slot4, slot5 in ipairs(slot0.info) do

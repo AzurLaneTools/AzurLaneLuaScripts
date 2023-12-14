@@ -123,6 +123,7 @@ pg.memory_group = setmetatable({
 		230,
 		231,
 		232,
+		233,
 		241,
 		242,
 		243,
@@ -132,6 +133,7 @@ pg.memory_group = setmetatable({
 		259,
 		266,
 		267,
+		268,
 		501,
 		502,
 		503,
@@ -207,7 +209,8 @@ pg.memory_group = setmetatable({
 		576,
 		577,
 		578,
-		579
+		579,
+		581
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1273,7 +1276,10 @@ pg.base.memory_group = {
 		memories = {
 			891,
 			892,
-			1877
+			1877,
+			3212,
+			3216,
+			3215
 		}
 	},
 	[167] = {
@@ -2896,6 +2902,23 @@ pg.base.memory_group = {
 			2436
 		}
 	},
+	[233] = {
+		id = 233,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4597,
+		title = "異向偏振",
+		memories = {
+			2441,
+			2442,
+			2443,
+			2444,
+			2445,
+			2446,
+			2447
+		}
+	},
 	[241] = {
 		id = 241,
 		subtype = 1,
@@ -3090,6 +3113,33 @@ pg.base.memory_group = {
 			3185,
 			3186,
 			3187
+		}
+	},
+	[268] = {
+		id = 268,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 1068,
+		title = "人氣投票新篇章",
+		memories = {
+			3191,
+			3192,
+			3193,
+			3194,
+			3195,
+			3196,
+			3197,
+			3198,
+			3199,
+			3200,
+			3201,
+			3202,
+			3203,
+			3204,
+			3205,
+			3206,
+			3207
 		}
 	},
 	[501] = {
@@ -4395,6 +4445,23 @@ pg.base.memory_group = {
 			2375,
 			2376,
 			2377
+		}
+	},
+	[581] = {
+		id = 581,
+		subtype = 0,
+		icon = "title_chara_aerfuleiduo",
+		type = 3,
+		link_event = 0,
+		title = "港區秘聞特別篇",
+		memories = {
+			2451,
+			2452,
+			2453,
+			2454,
+			2455,
+			2456,
+			2457
 		}
 	}
 }

@@ -438,6 +438,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15011] = {
+		id = 15011,
+		name = "角色用/技能用AI - 战熊",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 10,
+					Z2 = -20,
+					X2 = 10,
+					moveCount = 240,
+					duration = -1,
+					X1 = 0,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -9719,6 +9740,48 @@ pg.auto_pilot_template = {
 					X = -8,
 					duration = 300,
 					offsetZ = 1
+				}
+			}
+		}
+	},
+	[70236] = {
+		id = 70236,
+		name = "2023基洛夫meta 闪流移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 33,
+					Z2 = 73,
+					X2 = -10,
+					moveCount = 300,
+					duration = -1,
+					X1 = -25,
+					stopCount = 0
+				}
+			}
+		}
+	},
+	[70237] = {
+		id = 70237,
+		name = "2023基洛夫meta 彗星移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 33,
+					Z2 = 73,
+					X2 = 15,
+					moveCount = 300,
+					duration = -1,
+					X1 = 0,
+					stopCount = 0
 				}
 			}
 		}

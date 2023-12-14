@@ -1587,20 +1587,20 @@ pg.activity_shop_extra = {
 	},
 	[64] = {
 		commodity_id = 102272,
-		activity = 40995,
+		activity = 4185,
 		scene = "",
 		num = 1,
 		num_limit = 1,
 		end_by_maintenance = 0,
 		commodity_type = 7,
 		id = 64,
-		order = 800,
+		order = 15,
 		time = {
 			{
 				{
-					2022,
+					2023,
 					12,
-					22
+					14
 				},
 				{
 					0,
@@ -1610,9 +1610,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2023,
+					2024,
 					1,
-					5
+					4
 				},
 				{
 					23,

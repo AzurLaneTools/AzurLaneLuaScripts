@@ -3,16 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		type = 3,
+		time = "stop",
 		text_pic = "text_event_all",
+		type = 3,
+		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		pic = "event_all",
-		order = 1,
-		time = {
-			"default",
-			5101
-		}
+		order = 1
 	},
 	{
 		param = "0",
@@ -52,16 +49,13 @@ pg.activity_link_button = {
 	[20] = {
 		param = "0",
 		name = "event_minigame",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_minigame",
+		type = 0,
+		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
-		pic = "event_minigame",
-		order = 1,
-		time = {
-			"default",
-			5095
-		}
+		order = 1
 	},
 	[30] = {
 		param = "0",
@@ -103,44 +97,25 @@ pg.activity_link_button = {
 	[70] = {
 		param = "0",
 		name = "event_aprilFool",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_aprilFool",
+		type = 0,
+		pic = "event_aprilFool",
 		id = 70,
 		group_id = 8,
-		pic = "event_aprilFool",
-		order = 1,
-		time = {
-			"default",
-			4733
-		}
+		order = 1
 	},
 	[80] = {
 		type = 2,
 		name = "event_Atelier",
+		time = "stop",
 		text_pic = "text_event_Atelier",
 		id = 80,
 		group_id = 9,
 		pic = "event_Atelier",
 		order = 1,
-		time = {
-			"default",
-			40949
-		},
 		param = {
 			"ATELIER_COMPOSITE"
-		}
-	},
-	[1000] = {
-		type = 7,
-		name = "event_minigame",
-		time = "stop",
-		text_pic = "text_event_minigame",
-		id = 1000,
-		group_id = 5,
-		pic = "event_minigame",
-		order = 1,
-		param = {
-			28
 		}
 	},
 	[90] = {
@@ -166,10 +141,39 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			41270
+			5093
 		},
 		param = {
-			"SSSS_MEDAL_COLLECTION"
+			"SENRANKAGURA_MEDAL"
+		}
+	},
+	[101] = {
+		type = 2,
+		name = "event_senran",
+		text_pic = "text_event_senran",
+		id = 101,
+		group_id = 100,
+		pic = "event_senran",
+		order = 1,
+		time = {
+			"default",
+			5099
+		},
+		param = {
+			"SENRANKAGURA_TRAIN"
+		}
+	},
+	[1000] = {
+		type = 7,
+		name = "event_minigame",
+		time = "stop",
+		text_pic = "text_event_minigame",
+		id = 1000,
+		group_id = 5,
+		pic = "event_minigame",
+		order = 1,
+		param = {
+			28
 		}
 	},
 	get_id_list_by_name = {
@@ -205,6 +209,9 @@ pg.activity_link_button = {
 		},
 		event_medal = {
 			100
+		},
+		event_senran = {
+			101
 		}
 	},
 	all = {
@@ -218,8 +225,9 @@ pg.activity_link_button = {
 		60,
 		70,
 		80,
-		1000,
 		90,
-		100
+		100,
+		101,
+		1000
 	}
 }

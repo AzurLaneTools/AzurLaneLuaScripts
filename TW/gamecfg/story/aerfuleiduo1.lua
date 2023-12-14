@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>一　活跃的独家新闻记者！</size>",
+					"港區秘聞特別篇\n\n<size=45>一　活躍的獨家新聞記者！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，一个一如既往的寻常清晨——",
+			say = "指揮室，一個一如既往的尋常清晨—",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "还没等我坐到办公桌前，手里就已经被阿尔弗雷多塞了一份新一期的《港区秘闻》。",
+			say = "還沒等我坐到辦公桌前，手裡就已經被阿爾弗雷多塞了一份新一期的《港區秘聞》。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯哼哼~清晨就该配上各种劲爆新闻来解乏，这样工作也会更有效率~你说是吧，指挥官？",
+			say = "嗯哼哼~清晨就該配上各種勁爆新聞來解乏，這樣工作也會更有效率~你說是吧，指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "没错，近期的秘书舰，就是这位活力满满的记者——阿尔弗雷多·奥里亚尼。",
+			say = "沒錯，近期的秘書艦，就是這位活力滿滿的記者——阿爾弗雷多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "说起来还是她自己吵着要当秘书舰的……理由是为了方便获得各种平时难以获取的素材。",
+			say = "說起來還是她自己吵著要當秘書艦的……理由是為了方便取得各種平時難以取得的素材。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "指挥官，快翻开看看啦！这期可是你的特别篇，绝对会给你一个惊喜的哦？",
+			say = "指揮官，快翻開看看！這期可是你的特別篇，絕對會給你一個驚喜的哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……有种不详的预感。",
+			say = "……有種不詳的預感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“首次披露！指挥官的每周日程安排与作息分配！”",
+			say = "「首次披露！指揮官的每週行程安排與作息分配！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“指挥室不为人知的故事！真相或许总是躲在幕后？”",
+			say = "「指揮室不為人知的故事！真相或許總是躲在幕後？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“深入剖析港区工作计划！受人爱戴的指挥官平时有着怎样的日常？”",
+			say = "「深入剖析港區工作計畫！受人愛戴的指揮官平時有著怎樣的日常？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "如何，作为《港区秘闻特别篇——指挥官日常生活大揭露》来说，是不是很棒！",
+			say = "如何，作為《港區秘聞特別篇－指揮官日常生活大揭露》來說，是不是很棒！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿，这期港区秘闻的人气可是再创新高了哦？",
+			say = "嘿嘿，這期港區秘聞的人氣可是再創新高了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在有些头痛的同时，倒也惊叹于她的能力。",
+			say = "在有些頭痛的同時，卻也驚嘆於她的能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "明明都只是些秘书舰工作中的琐事，居然能被她“加工”成博人眼球的新闻报道……",
+			say = "明明都只是些秘書艦工作中的瑣事，居然能被她「加工」成博人眼球的新聞報導…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "都不知道是该夸她还是批评她了。",
+			say = "都不知道該誇她還是批評她了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼，指挥官知道新闻撰写中最难的部分是什么嘛？",
+			say = "哼哼，指揮官知道新聞撰寫中最困難的部分是什麼嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,15 +266,15 @@ return {
 			},
 			options = {
 				{
-					content = "怎么起一个博人眼球的标题？",
+					content = "怎麼取一個博人眼球的標題？",
 					flag = 1
 				},
 				{
-					content = "怎样保证新闻的销量？",
+					content = "怎樣保證新聞的銷量？",
 					flag = 2
 				},
 				{
-					content = "怎样发掘身边可能存在的“大新闻”？",
+					content = "怎樣發掘身邊可能存在的「大新聞」？",
 					flag = 3
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对哦~取一个博人眼球的标题不是基础中的基础嘛？",
+			say = "不對哦~取一個博人眼球的標題不是基礎中的基礎嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也因此，撰写正文也没什么难度哦，同样是基础中的基础。",
+			say = "也因此，撰寫正文也沒什麼難度哦，同樣是基礎中的基礎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和“如何写稿相比”，“写一个什么稿”——也就是搜集爆点新闻的过程才是最困难的！",
+			say = "和「如何寫稿相比」，「寫一個什麼稿」——也就是蒐集爆點新聞的過程才是最困難的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，虽然这个也挺难的……不过只要能了解最近港区的热点事件，也不是什么太难的事情啦。",
+			say = "唔，雖然這也挺難的……不過只要能了解最近港區的熱門事件，也不是什麼太難的事情啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跟这个比起来，该怎样寻找爆点新闻才是最困难的呢！",
+			say = "跟這個比起來，該怎麼尋找爆點新聞才是最困難的呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，就是这个！寻找身边隐藏的新闻的能力，就得靠“记者的直觉”来保障咯~",
+			say = "沒錯，就是這個！尋找身邊隱藏的新聞的能力，就得靠「記者的直覺」來保障囉~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种直觉才是身为记者最宝贵的能力！",
+			say = "這種直覺才是身為記者最寶貴的能力！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "新闻无时无刻不在发生！身边从来不缺少新闻，只是缺少发现爆点新闻的眼睛！",
+			say = "新聞無時無刻都在發生！身邊從來不缺少新聞，只是缺少發現爆點新聞的眼睛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "身边的新闻吗……看起来之后也免不了会成为她新闻报道里的常客啊。没办法，只好想办法先行适应吧。",
+			say = "身邊的新聞嗎……看起來之後也免不了會成為她新聞報導裡的常客啊。沒辦法，只好想辦法先行適應吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

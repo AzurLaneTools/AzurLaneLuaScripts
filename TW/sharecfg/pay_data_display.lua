@@ -58,6 +58,7 @@ pg.pay_data_display = setmetatable({
 		4858,
 		4859,
 		4860,
+		4861,
 		4900,
 		4901,
 		4902,
@@ -5154,6 +5155,114 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[4861] = {
+		subject = "艦艇教材禮包",
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "艦艇教材禮包",
+		name_display = "艦艇教材禮包",
+		type_order = 0,
+		extra_gem = 0,
+		id = 4861,
+		money = 100,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao107",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得大量教材獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.libao107",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
+	},
 	[4900] = {
 		subject = "特許巡遊憑證",
 		limit_group = 0,
@@ -5999,7 +6108,7 @@ pg.base.pay_data_display = {
 		id_str = "com.hkmanjuu.azurlane.battlepass12",
 		first_pay_double = 0,
 		extra_service = 4,
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·福煦限定换装和其他奖励",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·福煦限定換裝和其他獎勵",
 		airijp_id = "com.hkmanjuu.azurlane.battlepass12",
 		extra_service_item = {
 			{

@@ -6,6 +6,7 @@ pg.activity_task_permanent = setmetatable({
 		6001,
 		6002,
 		6006,
+		6007,
 		6008,
 		6009,
 		6010,
@@ -96,6 +97,32 @@ pg.base.activity_task_permanent = {
 		activity_name = "混沌的萬聖之夜",
 		over_task_id = "",
 		eliminate_task_id = {}
+	},
+	[6007] = {
+		gametip = "可獲得若葉限定換裝「限時聖誕Wakaba」",
+		banner_route = "permanent_ruoyeshengdan",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6007,
+		activity_name = "限時聖誕",
+		over_task_id = "",
+		eliminate_task_id = {
+			35082,
+			35083,
+			35084,
+			35085,
+			35086,
+			35087,
+			35088,
+			35089,
+			35090,
+			35091,
+			35092,
+			35093,
+			35094,
+			35095
+		}
 	},
 	[6008] = {
 		gametip = "可獲得大潮限定換裝「馴鹿與聖誕禮物」",

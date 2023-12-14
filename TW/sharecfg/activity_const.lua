@@ -1004,5 +1004,8 @@ pg.activity_const = {
 	},
 	SENRANKAGURA_TURNTABLE = {
 		act_id = 5096
+	},
+	VOTE_ENTRANCE_ACT_ID = {
+		act_id = 1068
 	}
 }

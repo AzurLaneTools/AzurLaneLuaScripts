@@ -202,6 +202,11 @@ pg.task_meta_data_template = setmetatable({
 		100133,
 		100134,
 		100135,
+		100141,
+		100142,
+		100143,
+		100144,
+		100145,
 		200001,
 		200002,
 		200003,
@@ -253,7 +258,11 @@ pg.task_meta_data_template = setmetatable({
 		200131,
 		200132,
 		200133,
-		200134
+		200134,
+		200141,
+		200142,
+		200143,
+		200144
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1501,7 +1510,7 @@ pg.base.task_meta_data_template = {
 	[100051] = {
 		target_id_2 = "970504",
 		sub_type = 180,
-		desc = "使用伊丽莎白女王.META获得1次胜利",
+		desc = "使用伊莉莎白女王.META獲得1次勝利",
 		id = 100051,
 		target_num = 1,
 		target_id = "0"
@@ -1509,7 +1518,7 @@ pg.base.task_meta_data_template = {
 	[100052] = {
 		target_id_2 = "970504",
 		sub_type = 180,
-		desc = "使用伊丽莎白女王.META击破等级>30的敌方1次",
+		desc = "使用伊莉莎白女王.META擊破等級>30的敵方1次",
 		id = 100052,
 		target_num = 1,
 		target_id = "30"
@@ -1517,7 +1526,7 @@ pg.base.task_meta_data_template = {
 	[100053] = {
 		target_id_2 = "970504",
 		sub_type = 180,
-		desc = "使用伊丽莎白女王.META击破等级>55的敌方1次",
+		desc = "使用伊莉莎白女王.META擊破等級>55的敵方1次",
 		id = 100053,
 		target_num = 1,
 		target_id = "55"
@@ -1525,7 +1534,7 @@ pg.base.task_meta_data_template = {
 	[100054] = {
 		target_id_2 = "970504",
 		sub_type = 180,
-		desc = "使用伊丽莎白女王.META击破等级>80的敌方1次",
+		desc = "使用伊莉莎白女王.META擊破等級>80的敵方1次",
 		id = 100054,
 		target_num = 1,
 		target_id = "80"
@@ -1533,7 +1542,7 @@ pg.base.task_meta_data_template = {
 	[100055] = {
 		target_id_2 = "970504",
 		sub_type = 180,
-		desc = "使用伊丽莎白女王.META击破等级>100的敌方1次",
+		desc = "使用伊莉莎白女王.META擊破等級>100的敵方1次",
 		id = 100055,
 		target_num = 1,
 		target_id = "100"
@@ -1855,6 +1864,46 @@ pg.base.task_meta_data_template = {
 		sub_type = 180,
 		desc = "使用黑暗界·META击破等级＞100的敌方1次",
 		id = 100135,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100141] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "使用基洛夫·META獲得1次勝利",
+		id = 100141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100142] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "使用基洛夫·META擊破等級＞30的敵方1次",
+		id = 100142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100143] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "使用基洛夫·META擊破等級＞55的敵方1次",
+		id = 100143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100144] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "使用基洛夫·META擊破等級＞80的敵方1次",
+		id = 100144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100145] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "使用基洛夫·META擊破等級＞100的敵方1次",
+		id = 100145,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -2181,7 +2230,7 @@ pg.base.task_meta_data_template = {
 	[200111] = {
 		target_id_2 = "970205",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:293}·META获得1次胜利",
+		desc = "大型作战内使用{namecode:293}获得1次胜利",
 		id = 200111,
 		target_num = 1,
 		target_id = "0"
@@ -2189,7 +2238,7 @@ pg.base.task_meta_data_template = {
 	[200112] = {
 		target_id_2 = "970205",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:293}·META击破等级＞70的敌方1次",
+		desc = "大型作战内使用{namecode:293}击破等级＞70的敌方1次",
 		id = 200112,
 		target_num = 1,
 		target_id = "70"
@@ -2197,7 +2246,7 @@ pg.base.task_meta_data_template = {
 	[200113] = {
 		target_id_2 = "970205",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:293}·META击破等级＞90的敌方1次",
+		desc = "大型作战内使用{namecode:293}击破等级＞90的敌方1次",
 		id = 200113,
 		target_num = 1,
 		target_id = "90"
@@ -2205,7 +2254,7 @@ pg.base.task_meta_data_template = {
 	[200114] = {
 		target_id_2 = "970205",
 		sub_type = 302,
-		desc = "大型作战内使用{namecode:293}·META击破等级＞100的敌方1次",
+		desc = "大型作战内使用{namecode:293}击破等级＞100的敌方1次",
 		id = 200114,
 		target_num = 1,
 		target_id = "100"
@@ -2271,6 +2320,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用黑暗界·META击破等级＞100的敌方1次",
 		id = 200134,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200141] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "大型作戰內使用基洛夫·META獲得1次勝利",
+		id = 200141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200142] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "大型作戰內使用基洛夫·META擊破等級＞70的敵方1次",
+		id = 200142,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200143] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "大型作戰內使用基洛夫·META擊破等級＞90的敵方1次",
+		id = 200143,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200144] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "大型作戰內使用基洛夫·META擊破等級＞100的敵方1次",
+		id = 200144,
 		target_num = 1,
 		target_id = "100"
 	}

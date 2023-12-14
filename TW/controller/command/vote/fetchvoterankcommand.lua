@@ -1,12 +1,22 @@
 slot0 = class("FetchVoteRankCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot3 = pg.ConnectionMgr.GetInstance()
+	slot2 = slot1:getBody()
+	slot4 = slot2.callback
 
-	slot3:Send(17203, {
-		type = slot1:getBody().type
+	if getProxy(VoteProxy):RawGetTempVoteGroup(slot2.voteId) and slot5.id == slot3 then
+		slot4()
+
+		return
+	end
+
+	slot6 = pg.ConnectionMgr.GetInstance()
+
+	slot6:Send(17203, {
+		type = slot3
 	}, 17204, function (slot0)
-		uv0.callback(slot0)
+		getProxy(VoteProxy):AddTempVoteGroup(slot0, uv0)
+		uv1()
 	end)
 end
 
