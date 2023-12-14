@@ -25239,6 +25239,251 @@ Coins x 20,000]],
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40131] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 1)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40131,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40132] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 2)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40132,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40133] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 3)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40133,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40134] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 4)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40134,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40135] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 5)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40135,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40136] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 6)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40136,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40137] = {
+	display = "Contains 3x High-Efficiency Combat Logistics Plans, 150x Oil.",
+	name = "Daily Free Pack (Day 7)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 150,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/pack_free",
+	id = 40137,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40701] = {
 	display = "Contains 10x Wisdom Cubes and 5x Quick Finishers.",
 	name = "Homecoming Supply Pack",
@@ -29771,6 +30016,376 @@ _G.pg.base.item_data_statistics[40987] = {
 			1,
 			6,
 			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40988] = {
+	display = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
+	name = "Choose-Your-Own Gift Pack I",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_198",
+	id = 40988,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59504,
+			1
+		},
+		{
+			1,
+			14,
+			1980
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30114,
+			30
+		},
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			17043,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40989] = {
+	display = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
+	name = "Choose-Your-Own Gift Pack II",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_328",
+	id = 40989,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59505,
+			1
+		},
+		{
+			1,
+			14,
+			3280
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16032,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40990] = {
+	display = "Contains 60x Gems, 2x Special General Blueprints - Series 5.",
+	name = "Daily Paid Pack (Day 1)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day1",
+	id = 40990,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40991] = {
+	display = "Contains 200x Gems.",
+	name = "Daily Paid Pack (Day 2)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day2",
+	id = 40991,
+	order = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40992] = {
+	display = "Contains 1x SR Gear Development Pack, 5x Universal T4 Parts.",
+	name = "Daily Paid Pack (Day 3)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day3",
+	id = 40992,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			30202,
+			1
+		},
+		{
+			2,
+			30114,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40993] = {
+	display = "Contains 60x Gems, 1x Prototype Bulin MKII.",
+	name = "Daily Paid Pack (Day 4)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day4",
+	id = 40993,
+	order = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40994] = {
+	display = "Contains 60x T2 EXP Data Packs.",
+	name = "Daily Paid Pack (Day 5)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day5",
+	id = 40994,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40995] = {
+	display = "Contains 10x Wisdom Cubes, 5x Quick Finishers.",
+	name = "Daily Paid Pack (Day 6)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day6",
+	id = 40995,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40996] = {
+	display = "Contains 60x Gems, 2x Special General Blueprints - Series 5.",
+	name = "Daily Paid Pack (Day 7)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/pack_day7",
+	id = 40996,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			1,
+			14,
+			60
 		}
 	},
 	price = {},
@@ -212764,6 +213379,30 @@ _G.pg.base.item_data_statistics[59501] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59502] = {
+	display = "During the Black Friday event (11/16-11/30), this coupon can be used to get a one-time 300-Gem discount when purchasing an eligible skin with Gems. After 11/30 23:59:59, this coupon can still be used when purchasing an eligible permanent skin added before 11/16. This coupon expires on 12/06, 23:59:59.",
+	name = "Skin Discount Coupon (300 Gems Off)",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5080,
+	virtual_type = 13,
+	is_world = 0,
+	icon = "Props/skin_300",
+	id = 59502,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59503] = {
 	display = "During the Black Friday event (11/16-11/30), this voucher can be used to redeem 1 eligible static skin (tap Info to check out the full list). After 11/30 23:59:59, this voucher can still be used to redeem 1 eligible permanent static skin added before 11/16.",
 	name = "Static Skin Voucher",
@@ -212782,6 +213421,106 @@ _G.pg.base.item_data_statistics[59503] = {
 	id = 59503,
 	order = 99,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59504] = {
+	display = "Can be used to obtain one of the following items: 1x Promise Ring, 15x Special General Blueprints - Series 6, 20x Wisdom Cubes.",
+	name = "Choose-Your-Own Gift Pack I",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/59504",
+	id = 59504,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		},
+		{
+			2,
+			42056,
+			15
+		},
+		{
+			2,
+			20001,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59505] = {
+	display = "Can be used to obtain one of the following items: 1x Static Skin Voucher, 25x Prototype Weapon Blueprints - Series 1, 25x Prototype Weapon Blueprints - Series 2, 25x Prototype Weapon Blueprints - Series 3, 25x Prototype Weapon Blueprints - Series 4, 25x Prototype Weapon Blueprints - Series 5, 30x Wisdom Cubes.",
+	name = "Choose-Your-Own Gift Pack II",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/59505",
+	id = 59505,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			59503,
+			1
+		},
+		{
+			2,
+			14001,
+			25
+		},
+		{
+			2,
+			14002,
+			25
+		},
+		{
+			2,
+			14003,
+			25
+		},
+		{
+			2,
+			14004,
+			25
+		},
+		{
+			2,
+			14005,
+			25
+		},
+		{
+			2,
+			20001,
+			30
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -227868,6 +228607,83 @@ _G.pg.base.item_data_statistics[69983] = {
 		{
 			703021,
 			830
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69984] = {
+	display = "不会被看到",
+	name = "随机心动换装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69984,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307082,
+			790
+		},
+		{
+			103165,
+			790
+		},
+		{
+			304052,
+			780
+		},
+		{
+			301292,
+			780
+		},
+		{
+			307075,
+			780
+		},
+		{
+			402101,
+			780
+		},
+		{
+			105172,
+			780
+		},
+		{
+			499052,
+			780
+		},
+		{
+			199031,
+			780
+		},
+		{
+			403092,
+			780
+		},
+		{
+			703021,
+			780
+		},
+		{
+			319012,
+			700
+		},
+		{
+			701025,
+			700
 		}
 	}
 }

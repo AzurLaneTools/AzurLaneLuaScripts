@@ -6681,7 +6681,7 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "BlackFridayWithManualSignPage",
+			class_name = "BlackFridayWithManualSignPageInCH",
 			ui_name = "BlackFridayWithManualSignPageInCH"
 		},
 		config_client = {

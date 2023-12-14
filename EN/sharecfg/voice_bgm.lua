@@ -1126,5 +1126,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-designshipVI"
+	},
+	BlackFridayWithManualSignPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	BlackFridayGiftPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
 	}
 }

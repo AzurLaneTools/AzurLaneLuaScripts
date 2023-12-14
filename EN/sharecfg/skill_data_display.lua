@@ -10833,11 +10833,11 @@ pg.base.skill_data_display = {
 	},
 	[29173] = {
 		id = 29173,
-		name = "EX Barrage: Z1 Ⅰ"
+		name = "All Out Assault I"
 	},
 	[29174] = {
 		id = 29174,
-		name = "EX Barrage: Z1 Ⅱ"
+		name = "All Out Assault II"
 	},
 	[29181] = {
 		id = 29181,

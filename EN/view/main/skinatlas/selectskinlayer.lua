@@ -8,7 +8,9 @@ end
 
 function slot0.init(slot0)
 	uv0.super.init(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.TOP_LAYER
+	})
 end
 
 function slot0.didEnter(slot0)

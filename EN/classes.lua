@@ -1057,6 +1057,7 @@ BlackFridayGiftPageInCH = import("view.activity.subPages.BlackFridayGiftPageInCH
 BlackFridayPage = import("view.activity.subPages.BlackFridayPage")
 BlackFridayWithManualSignMediator = import("view.activity.subPages.BlackFridayWithManualSignMediator")
 BlackFridayWithManualSignPage = import("view.activity.subPages.BlackFridayWithManualSignPage")
+BlackFridayWithManualSignPageInCH = import("view.activity.subPages.BlackFridayWithManualSignPageInCH")
 BlackFridayWithSignInPage = import("view.activity.subPages.BlackFridayWithSignInPage")
 BobingPage = import("view.activity.subPages.BobingPage")
 BritainframePage = import("view.activity.subPages.BritainframePage")
