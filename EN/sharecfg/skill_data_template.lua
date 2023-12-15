@@ -126787,7 +126787,7 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 		id = 801020,
 		type = 1,
 		max_level = 10,
-		desc = "When the battle starts, and every 20s: summons a $1 support unit Vspyshka to fight in the battle for 10s. /nVspyshka's stats change based on Kirov META's stats./nThe higher the skill level, the higher Vspyshka's stats and the more DMG it deals.",
+		desc = "When the battle starts, and every 20s: summons a $1 support unit Vspyshka to fight in the battle for 10s. Vspyshka's stats change based on Kirov META's stats.The higher the skill level, the higher Vspyshka's stats and the more DMG it deals.",
 		system_transform = {},
 		world_death_mark = {
 			1
