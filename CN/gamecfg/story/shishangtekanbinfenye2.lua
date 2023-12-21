@@ -398,9 +398,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 101511,
 			side = 2,
 			bgName = "star_level_bg_145",
+			live2d = "main1",
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少女将可乐放在了桌上，然后直接在身旁坐下。",
 			typewriter = {
@@ -428,9 +431,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 101511,
 			side = 2,
 			bgName = "star_level_bg_145",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "冰凉的液体划过口腔，碳酸气泡在口中破裂炸开……嗯，就是普通的加冰可乐呢。",
 			typewriter = {
@@ -481,13 +487,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 101511,
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			withoutactorName = true,
-			actor = 101511,
-			actorName = "拉菲",
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少女浅浅的呼吸拂过我的手臂，她闭着眼睛，如同小白兔一样进入了梦乡。",
 			typewriter = {
@@ -496,13 +501,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 101511,
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			withoutactorName = true,
-			actor = 101511,
-			actorName = "拉菲",
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "看来，手中的这杯可乐得多喝一段时间才行了——",
 			typewriter = {

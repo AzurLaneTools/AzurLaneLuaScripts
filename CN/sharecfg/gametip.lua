@@ -23258,7 +23258,7 @@ cs.gametip = {
 	},
 	skin_page_desc = {
 		845787,
-		178,
+		181,
 		true
 	}
 }

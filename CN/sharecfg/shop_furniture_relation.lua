@@ -6,7 +6,7 @@ pg.shop_furniture_relation = setmetatable({
 			70626
 		},
 		[200001] = {
-			70633
+			70946
 		},
 		[200002] = {
 			70629
@@ -26,7 +26,7 @@ pg.shop_furniture_relation = setmetatable({
 	},
 	all = {
 		70626,
-		70633,
+		70946,
 		70629,
 		70671,
 		70700,
@@ -51,9 +51,9 @@ pg.base.shop_furniture_relation = {
 			}
 		}
 	},
-	[70633] = {
+	[70946] = {
 		fur_id = 200001,
-		id = 70633,
+		id = 70946,
 		desc = "奥古斯特·冯·帕塞瓦尔——女仆魔女",
 		scale = {
 			1.1,

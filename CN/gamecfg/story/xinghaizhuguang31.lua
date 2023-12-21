@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「银狐」女士",
-			say = "——你听说过「{namecode:8:曙}光计划」么？",
+			say = "——你听说过「曙光计划」么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:8:曙}光计划？",
+			say = "……曙光计划？",
 			painting = {
 				alpha = 0.3,
 				time = 1

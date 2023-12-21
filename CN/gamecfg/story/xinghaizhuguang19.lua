@@ -908,12 +908,18 @@ return {
 			}
 		},
 		{
+			actor = 107300,
 			side = 2,
-			actorName = "圣哈辛托",
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
+			factiontag = "深海数据解析局",
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是……吧？你为什么要这么问？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -26747,5 +26747,5 @@ _G.pg.base.gametip.skin_page_sign = {
 }
 
 _G.pg.base.gametip.skin_page_desc = {
-	tip = "活动期间，每日解锁$1次签到机会\n完成签到可获取限时奖励并解锁限定剧情"
+	tip = "活动期间，每日解锁$1次签到机会\n完成签到可以获取限时奖励并解锁限定剧情"
 }

@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "兰利II",
 			hidePaintObj = true,
-			say = "可以将北安普敦弹出来么？{namecode:457:约克}城那边的一项临时测试需要北安普敦的协助。",
+			say = "可以将北安普敦弹出来么？约克城那边的一项临时测试需要北安普敦的协助。",
 			painting = {
 				alpha = 0.3,
 				time = 1

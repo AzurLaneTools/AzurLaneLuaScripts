@@ -874,7 +874,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「银狐」女士",
-			say = "可是，就是这样一支连对抗目标都没{namecode:31:有明}确过的，军备竞赛中的产物……居然真的迎来了「X」出现的。",
+			say = "可是，就是这样一支连对抗目标都没有明确过的，军备竞赛中的产物……居然真的迎来了「X」出现的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

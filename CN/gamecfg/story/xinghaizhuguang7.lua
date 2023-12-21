@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			hidePaintObj = true,
-			say = "从岛屿间吹过的{namecode:150:海风}，既带来了熟悉的温湿，又托着陌生的问候。",
+			say = "从岛屿间吹过的海风，既带来了熟悉的温湿，又托着陌生的问候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
