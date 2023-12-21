@@ -1499,5 +1499,25 @@ pg.voice_actor_CN = {
 	[388] = {
 		code = 388,
 		actor_name = "原田ひとみ"
+	},
+	[389] = {
+		code = 389,
+		actor_name = "各務華梨"
+	},
+	[390] = {
+		code = 390,
+		actor_name = "佐伯伊織"
+	},
+	[391] = {
+		code = 391,
+		actor_name = "深川瑠華"
+	},
+	[392] = {
+		code = 392,
+		actor_name = "依田菜津"
+	},
+	[393] = {
+		code = 393,
+		actor_name = "佐土原かおり"
 	}
 }

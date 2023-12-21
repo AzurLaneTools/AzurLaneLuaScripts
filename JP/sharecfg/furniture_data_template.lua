@@ -142,6 +142,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100003,
 			100004,
@@ -2984,6 +2985,25 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			305305,
 			305306
+		},
+		[106] = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		}
 	},
 	get_id_list_by_tag = {
@@ -4762,7 +4782,18 @@ pg.furniture_data_template = setmetatable({
 			305116,
 			305117,
 			305118,
-			305119
+			305119,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111
 		},
 		{
 			1108,
@@ -5060,6 +5091,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100003,
 			100004,
@@ -5292,7 +5324,11 @@ pg.furniture_data_template = setmetatable({
 			305301,
 			305302,
 			305303,
-			305304
+			305304,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[4] = {
 			1001,
@@ -5384,7 +5420,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[3] = {
 			1002,
@@ -5477,7 +5514,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[5] = {
 			1301,
@@ -5893,7 +5931,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[7] = {
 			1,
@@ -6015,6 +6054,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100004,
 			100005,
@@ -7818,7 +7858,22 @@ pg.furniture_data_template = setmetatable({
 			305115,
 			305116,
 			305117,
-			305118
+			305118,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[11] = {
 			143,
@@ -8297,7 +8352,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[5] = {
 			1101,
@@ -8774,6 +8830,7 @@ pg.furniture_data_template = setmetatable({
 		264,
 		265,
 		266,
+		268,
 		100002,
 		100003,
 		100004,
@@ -11431,7 +11488,24 @@ pg.furniture_data_template = setmetatable({
 		305303,
 		305304,
 		305305,
-		305306
+		305306,
+		306001,
+		306002,
+		306101,
+		306102,
+		306103,
+		306104,
+		306105,
+		306106,
+		306107,
+		306108,
+		306109,
+		306110,
+		306111,
+		306112,
+		306113,
+		306114,
+		306115
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18190,6 +18264,49 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[268] = {
+		spine_extra = "",
+		describe = "卓越した勇気を有し、統合防衛軍の作戦行動に協力した人員に授与する――「光追う星の海」に参加した指揮官に贈る",
+		gain_by = "光追う星の海",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "guandaoxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "理事会協働メダル",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 268,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guandaoxunzhang",
 				"normal"
 			}
 		},
@@ -136048,6 +136165,871 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[306001] = {
+		spine_extra = "",
+		describe = "ライト！ミュージック！一緒にはしゃいじゃおう！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "クラブの床",
+		effect = "",
+		advice = 0,
+		icon = "dibanyydicon",
+		spine_action_replace = "",
+		picture = "yyd/dibanyyd",
+		comfortable = 4,
+		canputon = 0,
+		id = 306001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306002] = {
+		spine_extra = "",
+		describe = "ライト！ミュージック！一緒にはしゃいじゃおう！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "クラブの壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiyydicon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 306002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiyyd",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[306101] = {
+		spine_extra = "",
+		describe = "今日のスペシャルメニューは～？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "caidanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "スタイリッシュメニュー",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/caidanyyd",
+		canputon = 0,
+		id = 306101,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306102] = {
+		spine_extra = "",
+		describe = "バケットドリンクが来た！あとは飲むだけ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chajiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クラブバケットテーブル",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/chajiyyd",
+		canputon = 0,
+		id = 306102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306103] = {
+		spine_extra = "",
+		describe = "リズムに合わせて踊ろー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "changdilabayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "スタイリッシュアンプ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/changdilabayyd",
+		canputon = 0,
+		id = 306103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306104] = {
+		spine_extra = "",
+		describe = "ウサウサ星人のゆっくりとしたカルチャーを表現するスタチュー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangfenyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ウサウサ星人スタチュー・ピンク",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxiangfenyyd",
+		canputon = 0,
+		id = 306104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306105] = {
+		spine_extra = "",
+		describe = "ウサウサ星人のワクテカとしたカルチャーを表現するスタチュー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxianglanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ウサウサ星人スタチュー・ブルー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxianglanyyd",
+		canputon = 0,
+		id = 306105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306106] = {
+		spine_extra = "",
+		describe = "VIP席ピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kazuoyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クラブ席",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/kazuoyyd",
+		canputon = 0,
+		id = 306106,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41,
+					122
+				},
+				{
+					-1,
+					1
+				},
+				"yyd/kazuoyyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306107] = {
+		spine_extra = "",
+		describe = "バルーンがつけられたドリンクバケット",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qiqiuyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "バルーン&ドリンク",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/qiqiuyyd",
+		canputon = 0,
+		id = 306107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306108] = {
+		spine_extra = "",
+		describe = "ふかふかソファで一休み♪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クラブソファ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/shafayyd",
+		canputon = 0,
+		id = 306108,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.7,
+					-3.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306109] = {
+		spine_extra = "",
+		describe = "レディー？ライト、オン！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "スタイリッシュライト",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/wutaidengyyd",
+		canputon = 0,
+		id = 306109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306110] = {
+		spine_extra = "",
+		describe = "柔らかいソファチェア",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クラブのソファチェア",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/xiaodengyyd",
+		canputon = 0,
+		id = 306110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306111] = {
+		spine_extra = "",
+		describe = "騒がしいバブルに落ち着いた後味――ちなみにドリンクは飲み放題！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yinliaoxiang1yydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ドライアイス＆ドリンク",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/yinliaoxiang1yyd",
+		canputon = 0,
+		id = 306111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306112] = {
+		spine_extra = "",
+		describe = "リズムに合わせてみんな踊れー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "クラブDJブース",
+		themeId = 106,
+		icon = "yinyuetaiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinyuetaiyydB",
+				"normal"
+			},
+			{
+				"yinyuetaiyydT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[306113] = {
+		spine_extra = "",
+		describe = "ラッキータイム！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "laohujidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "サプライズライト",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laohujidengyyd",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[306114] = {
+		rarity = 3,
+		describe = "インターバルはドリンクでもいかがピョ？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "クラブバーカウンター",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "bataiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306114,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[306115] = {
+		rarity = 4,
+		describe = "今宵のスポットライトはここ！心のままにダンシング！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "饅頭クラブステージ",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "wutaiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306115,
+		can_rotate = 0,
+		size = {
+			11,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				-1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
 		},
 		interAction_group = {}
 	}

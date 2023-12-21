@@ -75,6 +75,13 @@ pg.benefit_buff_template = setmetatable({
 		71,
 		72,
 		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
 		101,
 		102,
 		103,
@@ -1386,6 +1393,125 @@ pg.base.benefit_buff_template = {
 		id = 73,
 		icon = "Props/60413",
 		benefit_type = "dorm_energy"
+	},
+	{
+		type_priority = 0,
+		name = "{namecode:418}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：U-101――メイン·ハード·イベント·作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 74,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "{namecode:203}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：風雲――メイン·ハード·イベント·作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 75,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "可畏的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：フォーミダブル――寮舎における経験値入手量が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 76,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "黎塞留的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：リシュリュー――寮舎における経験値入手量が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 77,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "塔什干的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：タシュケント――メイン·ハード·イベント·作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 78,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "香格里拉的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：シャングリラ――メイン·ハード·イベント·作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 79,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "{namecode:526}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "幸運祈願：ザラ――メイン·ハード·イベント·作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 80,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
 	},
 	[101] = {
 		type_priority = 1,

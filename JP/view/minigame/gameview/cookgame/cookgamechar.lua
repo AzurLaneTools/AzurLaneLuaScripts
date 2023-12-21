@@ -1,5 +1,6 @@
 slot0 = class("CookGameChar")
 slot1 = 20
+slot2 = 3
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
@@ -52,15 +53,15 @@ function slot0.endEventHandle(slot0)
 
 	if slot0._serveFresh then
 		slot0._serveFresh = false
-		slot0.num = slot0.num - 1
+		slot0.cakeNum = slot0.cakeNum - 1
 
-		if slot0.num < 0 then
-			slot0.num = 0
+		if slot0.cakeNum < 0 then
+			slot0.cakeNum = 0
 		end
 
 		slot0:clearJudge()
-		slot0:freshChar()
-		slot0:updateParame()
+		slot0:updateCharAniamtor()
+		slot0:updateAnimatorParame()
 	elseif slot0.sendExtend then
 		slot0.sendExtend = false
 
@@ -77,6 +78,14 @@ function slot0.changeSpeed(slot0, slot1)
 end
 
 function slot0.setData(slot0, slot1)
+	if not slot1 then
+		slot0:setCharActive(false)
+
+		return
+	end
+
+	slot0:setCharActive(true)
+
 	slot0._charData = slot1
 	slot0._doubleAble = slot1.battleData.double_able
 	slot0._speedAble = slot1.battleData.speed_able
@@ -84,19 +93,25 @@ function slot0.setData(slot0, slot1)
 	slot0._acAble = slot1.battleData.ac_able
 	slot0._skills = slot1.battleData.skills
 	slot0._baseSpeed = slot1.battleData.base_speed
+	slot0._scoreAdded = slot1.battleData.score_added
 	slot0._name = slot1.battleData.name
 	slot0._animDatas = slot1.animDatas
+	slot0._randomScore = slot1.battleData.random_score
 	slot0._doubleIndex = 1
+	slot0._offset = slot1.battleData.offset or Vector2(0, 0)
 	slot0.extendFlag = false
 
-	if slot0._charData.battleData.id == 6 and (slot0._isPlayer or slot0._isPartner) then
+	if slot0._charData.battleData.extend and (slot0._isPlayer or slot0._isPartner) then
 		slot0.extendFlag = true
 	end
 end
 
 function slot0.readyStart(slot0)
 	slot0:clear()
-	slot0:freshChar()
+
+	if slot0._isActive then
+		slot0:updateCharAniamtor()
+	end
 end
 
 function slot0.start(slot0)
@@ -130,15 +145,15 @@ function slot0.step(slot0, slot1)
 
 				if slot0._serveFresh then
 					slot0._serveFresh = false
-					slot0.num = slot0.num - 1
+					slot0.cakeNum = slot0.cakeNum - 1
 
-					if slot0.num < 0 then
-						slot0.num = 0
+					if slot0.cakeNum < 0 then
+						slot0.cakeNum = 0
 					end
 
 					slot0:clearJudge()
-					slot0:freshChar()
-					slot0:updateParame()
+					slot0:updateCharAniamtor()
+					slot0:updateAnimatorParame()
 				end
 
 				slot0:setTrigger("clear", true)
@@ -153,7 +168,7 @@ function slot0.step(slot0, slot1)
 	slot0.clearing = false
 end
 
-function slot0.freshChar(slot0)
+function slot0.updateCharAniamtor(slot0)
 	if slot0._activeAniamtorName ~= slot0:getAnimatorName(slot0._name, slot0.leftCakeId, slot0.rightCakeId, slot0.speedNum, slot0._doubleAble, slot0._speedAble) then
 		slot0.chacheSprite = slot0._animImage.sprite
 		slot2 = nil
@@ -200,7 +215,8 @@ end
 
 function slot0.clearCake(slot0)
 	if slot0._cakeData then
-		slot1 = setActive(findTF(slot0._cakeData.tf, "select"), false)
+		setActive(findTF(slot0._cakeData.tf, "select"), false)
+
 		slot0._cakeData = nil
 	end
 end
@@ -214,7 +230,8 @@ end
 
 function slot0.clearJudge(slot0)
 	if slot0._judgeData then
-		slot1 = setActive(findTF(slot0._judgeData.tf, "select"), false)
+		setActive(findTF(slot0._judgeData.tf, "select"), false)
+
 		slot0._judgeData = nil
 	end
 end
@@ -232,12 +249,13 @@ end
 function slot0.stopMove(slot0)
 	slot0:clearTargetPos()
 	slot0:clearVelocity()
+	slot0:updateAnimatorParame()
 
 	if not slot0.activing then
 		if slot0._cakeData then
 			slot0:pickupCake()
 		elseif slot0._judgeData then
-			slot0:serveCake()
+			slot0:readyServeCake()
 		end
 	else
 		slot0:clearCake()
@@ -266,18 +284,18 @@ function slot0.pickupCake(slot0)
 		end
 
 		if slot0._doubleAble then
-			if slot0.num == 0 then
+			if slot0.cakeNum == 0 then
 				slot0.leftCakeId = slot1
 				slot0.rightCakeId = 0
-				slot0.num = 1
+				slot0.cakeNum = 1
 				slot0.useL = true
 				slot0.useR = false
-			elseif slot0.num == 1 then
-				slot0.num = 2
+			elseif slot0.cakeNum == 1 then
+				slot0.cakeNum = 2
 				slot0.rightCakeId = slot1
 				slot0.useL = false
 				slot0.useR = true
-			elseif slot0.num == 2 then
+			elseif slot0.cakeNum == 2 then
 				if slot0._doubleIndex % 2 == 0 then
 					slot0.leftCakeId = slot1
 					slot0.useL = true
@@ -292,22 +310,22 @@ function slot0.pickupCake(slot0)
 			end
 		else
 			slot0.leftCakeId = slot1
-			slot0.num = 1
+			slot0.cakeNum = 1
 		end
 
 		if slot0._pickupFull and slot0:isFullCakes() then
 			slot0:setPickupFull(false)
 		end
 
-		slot0:freshChar()
-		slot0:updateParame()
+		slot0:updateCharAniamtor()
+		slot0:updateAnimatorParame()
 		slot0:clearCake()
 		slot0:pickup()
 	end
 end
 
-function slot0.serveCake(slot0)
-	if slot0._judgeData.judge:isInServe() or slot1:isInTrigger() or slot0.num == 0 then
+function slot0.readyServeCake(slot0)
+	if slot0._judgeData.judge:isInServe() or slot1:isInTrigger() or slot0.cakeNum == 0 then
 		slot0:clearJudge()
 
 		return
@@ -323,6 +341,7 @@ function slot0.serveCake(slot0)
 
 	slot4 = slot1:getWantedCake()
 	slot5 = slot0.leftCakeId
+	slot0.serveRight = false
 
 	if slot0._doubleAble then
 		if slot0.leftCakeId == slot4 then
@@ -331,11 +350,13 @@ function slot0.serveCake(slot0)
 			slot5 = slot0.leftCakeId
 			slot0.leftCakeId = slot0.rightCakeId
 			slot0.rightCakeId = 0
+			slot0.serveRight = true
 		elseif slot0.rightCakeId == slot4 then
 			slot0.useL = false
 			slot0.useR = true
 			slot5 = slot0.rightCakeId
 			slot0.rightCakeId = 0
+			slot0.serveRight = true
 		else
 			slot0.useL = true
 			slot0.useR = false
@@ -355,9 +376,6 @@ function slot0.serveCake(slot0)
 
 			slot0.serveRight = true
 			slot0.serveWrong = false
-			slot0._serveSpeed = true
-
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_speed_up)
 		else
 			slot0.serveRight = false
 			slot0.serveWrong = true
@@ -365,6 +383,16 @@ function slot0.serveCake(slot0)
 		end
 
 		slot0.directX = -1 * slot0.directX
+		slot0.leftCakeId = 0
+	elseif slot0._scoreAdded or slot0._randomScore then
+		if slot4 == slot0.leftCakeId then
+			slot0.serveRight = true
+			slot0.serveWrong = false
+		else
+			slot0.serveRight = false
+			slot0.serveWrong = true
+		end
+
 		slot0.leftCakeId = 0
 	else
 		if slot4 == slot0.leftCakeId then
@@ -374,41 +402,65 @@ function slot0.serveCake(slot0)
 		slot0.leftCakeId = 0
 	end
 
-	if slot0.serveRight then
-		slot0.rightCakeIndex = slot0.rightCakeIndex + 1
+	if not slot0.serveRight and slot0._charData.battleData.cake_allow then
+		slot0.serveRight = true
 	end
 
+	slot6 = slot0._charData.battleData.weight or 0
+	slot0.puzzleDouble = false
+	slot0.puzzleReject = false
+
+	if slot1:getPuzzleCamp() then
+		if slot0._camp == slot7 then
+			slot0.serveRight = true
+			slot0.puzzleDouble = true
+			slot0.serveWrong = false
+		else
+			slot0.serveRight = false
+			slot0.serveWrong = true
+			slot0.puzzleReject = true
+		end
+	end
+
+	if slot0._speedAble and slot0.serveRight then
+		slot0._serveSpeed = true
+
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_speed_up)
+	end
+
+	if slot0.serveRight then
+		slot0.rightCakeIndex = slot0.rightCakeIndex + 1
+		slot0.seriesRightIndex = slot0.seriesRightIndex + 1
+
+		if CookGameConst.added_max < slot0.seriesRightIndex then
+			slot0.seriesRightIndex = CookGameConst.added_max
+		end
+	else
+		slot0.seriesRightIndex = 0
+	end
+
+	slot0.triggerPuzzle = false
+
+	if slot0._charData.battleData.puzzle and slot0.serveRight then
+		slot0.triggerPuzzle = math.random(1, 100) <= CookGameConst.puzzle_rate
+	end
+
+	slot0:checkEffectInServe()
+
+	slot0.serveCakeId = slot5
 	slot0._serveFresh = true
 
 	slot1:readyServe({
-		cakeId = slot5,
-		ac = slot0._acAble,
-		acPos = slot0._judgeData.acPos,
-		charId = slot0._charData.battleData.id,
-		right_index = slot0.rightCakeIndex
+		parameter = slot0:getParameter(),
+		battleData = slot0._charData.battleData,
+		judgeData = slot0._judgeData
 	})
 
 	if slot0._acAble then
-		slot9 = slot0._tf.parent:InverseTransformPoint(slot1:getAcTargetTf().position)
-
-		if slot0.serveRight then
-			slot9.y = slot9.y
-		else
-			slot9.y = slot9.y + 50
-		end
-
-		slot10 = nil
-		slot10 = (slot0.directX ~= 1 or slot0._tf.parent:InverseTransformPoint(findTF(slot0._tf, "acR").position)) and slot0._tf.parent:InverseTransformPoint(findTF(slot0._tf, "acL").position)
+		slot9 = slot0:getAcCakeData(slot1)
 
 		function slot0._serveFunc()
-			uv0._event:emit(CookGameView.AC_CAKE_EVENT, {
-				cakeId = uv1,
-				startPos = uv2,
-				targetPos = uv3,
-				callback = function ()
-					uv0:serve()
-				end
-			})
+			uv0._event:emit(CookGameView.AC_CAKE_EVENT, uv1)
 		end
 
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_ac)
@@ -418,8 +470,72 @@ function slot0.serveCake(slot0)
 		end
 	end
 
-	slot0:updateParame()
-	slot0:serve()
+	slot0:updateAnimatorParame()
+	slot0:startServeCake()
+end
+
+function slot0.getAcCakeData(slot0, slot1)
+	slot3 = slot0._tf.parent:InverseTransformPoint(slot1:getAcTargetTf().position)
+
+	if slot0.serveRight then
+		slot3.y = slot3.y
+	else
+		slot3.y = slot3.y + 50
+	end
+
+	slot4 = nil
+
+	return {
+		cakeId = slot0.serveCakeId,
+		startPos = (slot0.directX ~= 1 or slot0._tf.parent:InverseTransformPoint(findTF(slot0._tf, "acR").position)) and slot0._tf.parent:InverseTransformPoint(findTF(slot0._tf, "acL").position),
+		targetPos = slot3,
+		callback = function ()
+			uv0:serve()
+		end
+	}
+end
+
+function slot0.getParameter(slot0)
+	return {
+		cakeId = slot0.serveCakeId,
+		right_index = slot0.rightCakeIndex,
+		series_right_index = slot0.seriesRightIndex,
+		camp = slot0._camp,
+		puzzle_double = slot0.puzzleDouble,
+		puzzleReject = slot0.puzzleReject,
+		puzzle = slot0.triggerPuzzle,
+		weight = slot0._charData.battleData.weight or 0,
+		right_flag = slot0.serveRight
+	}
+end
+
+function slot0.checkEffectInServe(slot0)
+	slot1 = slot0._charData.battleData.effect
+	slot2 = nil
+	slot3 = Vector3(1, 1, 1)
+
+	if slot0._scoreAdded and slot0.serveRight then
+		slot4 = nil
+		slot2 = slot1[slot0.seriesRightIndex == 0 and 1 or (slot0.seriesRightIndex <= #slot1 or #slot1) and slot0.seriesRightIndex]
+	elseif slot0.triggerPuzzle then
+		slot2 = slot1[1]
+		slot3 = (not slot0._isPartner and not slot0._isPlayer or Vector3(1, 1, 1)) and Vector3(-1, 1, 1)
+	end
+
+	if not slot0._effectContent then
+		slot0._effectContent = findTF(slot0._tf, "effect")
+	end
+
+	if slot2 then
+		slot4 = findTF(slot0._effectContent, slot2)
+		slot6 = GetComponent(findTF(slot4, "anim"), typeof(DftAniEvent))
+		slot4.localScale = slot3
+
+		slot6:SetEndEvent(function (slot0)
+			setActive(uv0, false)
+		end)
+		setActive(slot4, true)
+	end
 end
 
 function slot0.getId(slot0)
@@ -430,10 +546,28 @@ function slot0.getDoubleAble(slot0)
 	return slot0._doubleAble
 end
 
+function slot0.setPetFlag(slot0, slot1)
+	slot0._isPet = slot1
+end
+
+function slot0.getpetFlag(slot0)
+	return slot0._isPet
+end
+
+function slot0.setCharActive(slot0, slot1)
+	slot0._isActive = slot1
+
+	setActive(slot0._tf, slot0._isActive)
+end
+
+function slot0.getCharActive(slot0)
+	return slot0._isActive
+end
+
 function slot0.isFullCakes(slot0)
-	if slot0._doubleAble and slot0.num == 2 then
+	if slot0._doubleAble and slot0.cakeNum == 2 then
 		return true
-	elseif not slot0._doubleAble and slot0.num == 1 then
+	elseif not slot0._doubleAble and slot0.cakeNum == 1 then
 		return true
 	end
 
@@ -446,9 +580,6 @@ end
 
 function slot0.setPickupFull(slot0, slot1)
 	slot0._pickupFull = slot1
-end
-
-function slot0.canServe(slot0)
 end
 
 function slot0.getTargetPos(slot0)
@@ -480,23 +611,37 @@ function slot0.setVelocity(slot0, slot1, slot2, slot3)
 	slot0.run = true
 	slot0.idle = false
 
-	slot0:updateParame()
+	slot0:updateAnimatorParame()
 end
 
-function slot0.updateParame(slot0)
+function slot0.updateAnimatorParame(slot0)
 	slot0:setInteger("x", slot0.directX)
 	slot0:setInteger("y", slot0.directY)
 	slot0:setBool("run", slot0.run)
 	slot0:setBool("idle", slot0.idle)
-	slot0:setInteger("num", slot0.num)
+	slot0:setInteger("num", slot0.cakeNum)
 
 	if slot0._doubleAble then
 		slot0:setBool("L", slot0.useL)
 		slot0:setBool("R", slot0.useR)
-	elseif slot0._speedAble then
+	end
+
+	if slot0._speedAble then
 		slot0:setInteger("speed_lv", slot0.speedNum)
 		slot0:setTrigger("serve_right", slot0.serveRight)
 		slot0:setTrigger("serve_wrong", slot0.serveWrong)
+	end
+
+	if slot0._randomScore then
+		slot0:setTrigger("serve_right", slot0.serveRight)
+		slot0:setTrigger("serve_wrong", slot0.serveWrong)
+	end
+
+	if slot0._scoreAdded then
+		slot0:setTrigger("serve_right", slot0.serveRight == true)
+		slot0:setTrigger("serve_wrong", slot0.serveWrong == true)
+		slot0:setBool("server_a", slot0.seriesRightIndex <= 2)
+		slot0:setBool("server_b", slot0.seriesRightIndex > 2)
 	end
 end
 
@@ -508,8 +653,6 @@ function slot0.clearVelocity(slot0)
 	slot0._velocity = nil
 	slot0.run = false
 	slot0.idle = true
-
-	slot0:updateParame()
 end
 
 function slot0.move(slot0)
@@ -571,7 +714,7 @@ function slot0.extend(slot0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_marcopolo_skill)
 		slot0:setTrigger("Extend", true)
 
-		slot0.timeToEventHandle = 3
+		slot0.timeToEventHandle = uv0
 	end
 end
 
@@ -583,7 +726,7 @@ function slot0.getPos(slot0)
 	return slot0._tf.anchoredPosition
 end
 
-function slot0.serve(slot0)
+function slot0.startServeCake(slot0)
 	if slot0.activing then
 		return
 	end
@@ -616,6 +759,14 @@ function slot0.setParent(slot0, slot1, slot2)
 	slot0._bound = findTF(slot1, "scene_background/" .. slot2.bound)
 end
 
+function slot0.getTf(slot0)
+	return slot0._tf
+end
+
+function slot0.getOffset(slot0)
+	return slot0._offset
+end
+
 function slot0.getCakeIds(slot0)
 	slot1 = {}
 
@@ -634,10 +785,26 @@ function slot0.isPlayer(slot0, slot1)
 	setActive(findTF(slot0._tf, "player"), slot1)
 
 	slot0._isPlayer = slot1
+
+	if slot0._isPlayer then
+		slot0._camp = CookGameConst.camp_player
+	else
+		slot0._camp = CookGameConst.camp_enemy
+	end
 end
 
 function slot0.isPartner(slot0, slot1)
 	slot0._isPartner = slot1
+
+	if slot0._isPartner then
+		slot0._camp = CookGameConst.camp_player
+	else
+		slot0._camp = CookGameConst.camp_enemy
+	end
+end
+
+function slot0.getCamp(slot0)
+	return slot0._camp
 end
 
 function slot0.setBool(slot0, slot1, slot2)
@@ -660,16 +827,18 @@ function slot0.clear(slot0)
 	slot0.leftCakeId = 0
 	slot0.rightCakeId = 0
 	slot0._serveSpeed = false
-	slot0.num = 0
+	slot0.cakeNum = 0
 	slot0.speedNum = 1
 	slot0._speedRate = 1
 	slot0.directX = 0
 	slot0.directY = -1
 	slot0.activing = false
+	slot0.scoreAdded = false
 	slot0._tf.anchoredPosition = slot0.initPos
 	slot0.useL = true
 	slot0.useR = false
 	slot0.rightCakeIndex = 0
+	slot0.seriesRightIndex = 0
 
 	slot0:clearCake()
 	slot0:clearJudge()

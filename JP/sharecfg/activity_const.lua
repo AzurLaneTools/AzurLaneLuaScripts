@@ -983,5 +983,8 @@ pg.activity_const = {
 	},
 	VOTE_ENTRANCE_ACT_ID = {
 		act_id = 1068
+	},
+	MINIGAME_COOKGAME2_ID = {
+		act_id = 5141
 	}
 }

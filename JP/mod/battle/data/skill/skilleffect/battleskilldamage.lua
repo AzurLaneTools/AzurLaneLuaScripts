@@ -23,6 +23,6 @@ function slot0.Battle.BattleSkillDamage.DoDataEffect(slot0, slot1, slot2)
 
 	if not slot2:IsAlive() then
 		uv0.Battle.BattleAttr.Spirit(slot2)
-		uv0.Battle.BattleAttr.Whosyourdaddy(slot2)
+		uv0.Battle.BattleAttr.AppendInvincible(slot2)
 	end
 end

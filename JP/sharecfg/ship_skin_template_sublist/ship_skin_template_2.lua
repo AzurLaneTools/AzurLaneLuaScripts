@@ -1,6 +1,159 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[101511] = {
+		ship_group = 10151,
+		name = "うとうとビジーデー",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70937,
+		painting = "lafeiII_3",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = true,
+		skin_type = 0,
+		id = 101511,
+		voice_actor_2 = -1,
+		prefab = "lafeiII_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ラフィー、模擬店のお手伝い中…指揮官、適当に座ってて…空いてるとこならどこでもいい…多分",
+		voice_actor = 35,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.674,
+					0.853,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					0.879,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.069,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.615,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.023,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		}
+	},
 	[102010] = {
 		ship_group = 10201,
 		name = "オマハ",
@@ -2963,6 +3116,140 @@ pg.base.ship_skin_template_2 = {
 					}
 				}
 			}
+		}
+	},
+	[102097] = {
+		ship_group = 10209,
+		name = "模擬店の騎士",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 7,
+		shop_id = 70943,
+		painting = "kelifulan_8",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = "",
+		skin_type = 0,
+		id = 102097,
+		voice_actor_2 = -1,
+		prefab = "kelifulan_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "模擬店のオープンまでまだだいぶ時間があるよ？指揮官、来るのが早すぎないか？でもちょうどいい、今日のために特別に用意した衣装でもどうだ！……が、ガーリッシュでカワイイって？やったあ！そういう反応が見たかったんだー！",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			20,
+			-36,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.103,
+					0.955,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.144,
+					0.059,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.168,
+					1.209,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.372,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10209701,
+			10209702,
+			10209703
 		}
 	},
 	[102098] = {
@@ -9121,6 +9408,112 @@ pg.base.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102311] = {
+		ship_group = 10231,
+		name = "レディ・トゥ・サービス！",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70944,
+		painting = "xiusidunII_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "145",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102311,
+		voice_actor_2 = -1,
+		prefab = "xiusidunII_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "お待たせしました！ヒューストン、レディ・トゥ・サービス！…んっ、こういうコスチュームは初めてだからか、なんだかちょっと恥ずかしいね…ほらなんとなくサイズがちっちゃい気がして…",
+		voice_actor = 7,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.682,
+					1.675,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.19,
+					0.048,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.805,
+					1.912,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.127,
+							2.437,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
 	[103010] = {
 		ship_group = 10301,
 		name = "ペンサコーラ",
@@ -11242,229 +11635,6 @@ pg.base.ship_skin_template_2 = {
 							-0.26,
 							2.11,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[103110] = {
-		ship_group = 10311,
-		name = "ウィチタ",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "weiqita",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 103110,
-		voice_actor_2 = -1,
-		prefab = "weiqita",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ウィチタ級重巡洋艦・ウィチタ\n<color=#ffde38>図鑑報酬入手で通常建造開放</color>",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.86,
-					0.52,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.86,
-					0.52,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.42,
-					0.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							1.05,
-							0.14
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.78,
-							-0.69
-						}
-					}
-				}
-			}
-		}
-	},
-	[103111] = {
-		ship_group = 10311,
-		name = "ジェネラル・バンケット",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70427,
-		painting = "weiqita_2",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "135",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103111,
-		voice_actor_2 = -1,
-		prefab = "weiqita_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官、やっと来たのかい。さあ、胸を張りな！私の参謀として、人に笑われるようなだらしない振る舞いは許さん！よし、出発だ！",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.416,
-					1.131,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.385,
-					1.125,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.008,
-					0.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.401,
-							2.602,
-							0.14
 						}
 					}
 				}

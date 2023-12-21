@@ -1025,12 +1025,12 @@ function slot9.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._unitList[slot6] = slot11
 
 	if slot11:IsSpectre() then
-		slot11:SetBlindInvisible(true)
+		slot11:UpdateBlindInvisibleBySpectre()
 	else
 		slot0._cldSystem:InitShipCld(slot11)
 	end
 
-	slot11:SummonSickness(uv3.SUMMONING_SICKNESS_DURATION)
+	slot11:SummonSickness(slot1.sickness or uv3.SUMMONING_SICKNESS_DURATION)
 	slot11:SetMoveCast(slot1.moveCast == true)
 
 	if slot11:GetIFF() == uv4.FRIENDLY_CODE then
@@ -1072,7 +1072,7 @@ function slot9.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		extraInfo = slot1.extraInfo
 	}))
 
-	function slot15(slot0)
+	function slot16(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6, slot7 = nil
 
@@ -1088,19 +1088,19 @@ function slot9.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot19 = slot0._battleInitData.AffixBuffList or {}
+	slot20 = slot0._battleInitData.AffixBuffList or {}
 
-	slot15(slot11:GetTemplate().buff_list)
-	slot15(slot0._battleInitData.ExtraBuffList or {})
-	slot15(slot1.buffList or {})
+	slot16(slot11:GetTemplate().buff_list)
+	slot16(slot0._battleInitData.ExtraBuffList or {})
+	slot16(slot1.buffList or {})
 
 	if slot1.affix then
-		slot15(slot19)
+		slot16(slot20)
 	end
 
 	if slot1.summonWaveIndex then
-		slot0._waveSummonList[slot20] = slot0._waveSummonList[slot20] or {}
-		slot0._waveSummonList[slot20][slot11] = true
+		slot0._waveSummonList[slot21] = slot0._waveSummonList[slot21] or {}
+		slot0._waveSummonList[slot21][slot11] = true
 	end
 
 	slot11:CheckWeaponInitial()

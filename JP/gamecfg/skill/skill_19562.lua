@@ -25,9 +25,8 @@ return {
 				"TargetFleetIndex"
 			},
 			arg_list = {
-				fleetPos = "Consort",
 				buff_id = 19562,
-				exceptCaster = true
+				fleetPos = "UpperConsort"
 			}
 		}
 	}

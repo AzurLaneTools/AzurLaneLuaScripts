@@ -5,9 +5,9 @@ function slot0.OnInit(slot0)
 	setText(slot0._tf:Find("AD/signMask/Image/Text"), i18n("challenge_end_tip"))
 end
 
-function slot0.OnUpdateFlush(slot0)
-	uv0.super.OnUpdateFlush(slot0)
-	setActive(slot0._tf:Find("AD/signMask"), slot0.endTime <= pg.TimeMgr.GetInstance():GetServerTime())
+function slot0.FlushSignBtn(slot0)
+	uv0.super.FlushSignBtn(slot0)
+	setActive(slot0._tf:Find("AD/signMask"), not getProxy(ActivityProxy):getActivityById(slot0.signInActId) or slot1:isEnd())
 end
 
 return slot0

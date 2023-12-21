@@ -1596,7 +1596,7 @@ function slot0.tryAutoAction(slot0, slot1)
 			uv0:emit(LevelUIConst.FROZEN)
 
 			if getProxy(ChapterProxy):GetLastDefeatedEnemy(uv1.id) and (slot1.attachment ~= ChapterConst.AttachAmbush or ChapterConst.IsBossCell(slot1)) then
-				uv0.grid:PlayAttachmentEffect(slot1.line.row, slot1.line.column, "huoqiubaozha", Vector2.zero)
+				uv0.grid:PlayAttachmentEffect(slot1.line.row, slot1.line.column, ChapterConst.GetDestroyFX(slot1), Vector2.zero)
 			end
 
 			uv0:PopBar()

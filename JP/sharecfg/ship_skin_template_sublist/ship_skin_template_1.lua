@@ -11105,5 +11105,135 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101510] = {
+		ship_group = 10151,
+		name = "ラフィーⅡ",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		illustrator = -1,
+		painting = "lafeiII",
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = true,
+		skin_type = -1,
+		id = 101510,
+		voice_actor_2 = -1,
+		prefab = "lafeiII",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "アレン・M・サムナー級駆逐艦-ラフィーⅡ　DD-724",
+		voice_actor = 35,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.89,
+					1.061,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.96,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.164,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.762,
+					1.145,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.494,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-30,
+				-626,
+				0
+			},
+			{
+				0.7
+			}
+		},
+		special_effects = {
+			"lihui_lafeiII",
+			{
+				-73,
+				-18,
+				0
+			},
+			{
+				0.7
+			}
+		}
 	}
 }

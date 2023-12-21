@@ -4780,7 +4780,7 @@ _G.pg.base.gametip.quota_shop_title = {
 }
 
 _G.pg.base.gametip.quota_shop_description = {
-	tip = "消費しアイテム（所持数上限あり）と交換可能。"
+	tip = "消費しアイテム（所持数上限あり）と交換可能"
 }
 
 _G.pg.base.gametip.quota_shop_owned = {
@@ -9670,7 +9670,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "※交換可能期間：<color=#FFF693>$1</color>"
+	tip = "※交換可能期間：\n<color=#FFF693>$1</color>"
 }
 
 _G.pg.base.gametip.levelScene_tracking_error_pre = {
@@ -10153,7 +10153,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「島風」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「グアム」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -16579,7 +16579,7 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 		{
 			info = [[
 ①ウィークリー任務「常設デイリー任務を20/50個クリアする」をクリアすると、「特装コア」を大量に入手することが出来ます。
-②メイン海域（ノーマル・ハード）、イベント海域、作戦履歴の常設化イベント海域に出撃し、敵中枢艦隊を撃破した際、「特装コア」を少し入手することが出来ます。
+②メイン海域（ノーマル・ハード）、イベント海域、作戦履歴の常設化イベント海域に出撃し、敵中枢艦隊を撃破した際、「特装コア」を少し入手することができます。
 ③科学研究室で科学研究を行うと、「特装コア」を少し入手することがあります。
 ④建造で入手したUレア艦船を退役すると、「特装コア」を入手することができます。]]
 		}
@@ -20149,7 +20149,7 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 ■概要
 幸運祈願は、「艦船絵馬」と「指揮官祈願」で艦隊に一定時間、強化効果を与えるキャンペーンになります。
 
-「艦船絵馬」を飾ると、艦隊強化効果を一定時間得られるとともに、「正月オリヅル」を1個入手できます。「正月オリヅル」を7つ集めると、イベントページにてSSR艦船と交換できる「招待券」を入手できます。
+「艦船絵馬」を飾ると、艦隊強化効果を一定時間得られるとともに、「正月オリヅル」を1個入手できます。「正月オリヅル」を7つ集めると、イベントページにて艦船と交換できる「招待券」を入手できます。
 
 「指揮官祈願」を行うと、艦隊強化効果を一定時間内得られます。
 
@@ -20162,8 +20162,8 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 　③「艦船絵馬」による艦隊強化効果を1個入手します
 　※艦船絵馬による艦隊強化効果は艦船によって異なります
 　※艦船絵馬による艦隊強化効果は同時に1種類しか適用できず、新たに艦船絵馬を飾った場合、前の効果が上書きされます。
-・「正月オリヅル」を7つ集めると、イベントバナーでの「お正月キャンペーン2023」で「正月招待状2023」を入手できます
-・「正月招待状2023」を倉庫で使用すると、SSR艦船1隻と記念アイテムを入手できます
+・「正月オリヅル」を7つ集めると、イベントバナーで「正月招待状2024」を入手できます
+・「正月招待状2024」を倉庫で使用すると、SSR艦船1隻と記念アイテムを入手できます
 
 ■「指揮官祈願」について
 ・「艦船絵馬」を飾ると、「指揮官祈願」回数を2回増加します
@@ -22521,7 +22521,7 @@ _G.pg.base.gametip.mini_cookgametip = {
 			info = [[
 遊び方：
 「饅頭スイーツ」とは、饅頭が注文したスイーツを画面左側に届けてあげることでスコアを稼ぎ、高得点を狙うゲームになります。
-「饅頭スイーツ」は７日間プレイすると、「5周年の招待状」など、各種報酬を入手できます
+「饅頭スイーツ」は７日間プレイすると、「正月招待状2024」など、各種報酬を入手できます
 
 ルール：
 1.操作キャラ・補助（サポート）キャラを選択するとゲームを開始できます
@@ -22566,6 +22566,30 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "2回正しく届ける度に1点追加"
+}
+
+_G.pg.base.gametip.cook_game_laffey = {
+	tip = "正しく届けると次に正しく届けた時得点UP"
+}
+
+_G.pg.base.gametip.cook_game_janus = {
+	tip = "届ける時の正誤に応じてランダムで得点変化"
+}
+
+_G.pg.base.gametip.cook_game_flandre = {
+	tip = "手伝い饅頭が手伝ってくれる"
+}
+
+_G.pg.base.gametip.cook_game_constellation = {
+	tip = "正しく届けると確率で客を<color=#FFE555>特殊状態</color>にする"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_name = {
+	tip = "<color=#FFE555>「希望占い」</color>"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+	tip = "7秒間ライバルのスイーツを受け取らなくなり、また味方が正しい注文を届けた時のスコアが2倍になる"
 }
 
 _G.pg.base.gametip.random_ship_on = {
@@ -26430,7 +26454,7 @@ _G.pg.base.gametip.roll_card_skill = {
 }
 
 _G.pg.base.gametip.roll_times_left = {
-	tip = "残り回数:$1"
+	tip = "残り回数：$1"
 }
 
 _G.pg.base.gametip.roll_room_unexplored = {
@@ -27030,6 +27054,65 @@ _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "イベント開催期間外です"
 }
 
+_G.pg.base.gametip.commander_skill_ui_info = {
+	tip = "情報"
+}
+
+_G.pg.base.gametip.commander_skill_ui_confirm = {
+	tip = "確定"
+}
+
+_G.pg.base.gametip.commander_formation_prefab_fleet = {
+	tip = [[
+現
+在
+編
+成]]
+}
+
 _G.pg.base.gametip.rect_ship_card_tpl_add = {
 	tip = "タップで追加"
+}
+
+_G.pg.base.gametip.newyear2024_backhill_help = {
+	tip = {
+		{
+			info = [[
+開催期間：<color=#92fc63>2023.12.21-2024.1.4メンテまで</color>
+■概要
+キャンペーン「新年裏山」は下記の内容で構成されています。
+・絵馬祈願
+・施設増築（ミニストーリーイベント）
+・花火工房（復刻イベント）
+・ミニゲーム：
+
+■絵馬祈願
+・キャンペーン期間中、毎日「艦船絵馬」個数が1個増加します（最大7個）
+・「艦船絵馬」を所持している状態では、「絵馬祈願」で艦船の絵馬を飾ることができます
+・「艦船絵馬」を飾ると、艦隊に強化効果を付与できるほか、艦船の返礼を1個入手できます
+
+■ミニゲーム
+・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）
+・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費されます
+・ミニゲームでは、限定家具「サプライズライト」「スタイリッシュライト」、UR艦船「ラフィーⅡ」と交換できる「ウサウサURチケット」を入手できます
+
+■着せ替え
+きせかえショップに遷移できます
+
+■限定建造
+限定建造画面に遷移できます]]
+		}
+	}
+}
+
+_G.pg.base.gametip.last_times_sign = {
+	tip = "報酬受取可能回数：$1"
+}
+
+_G.pg.base.gametip.skin_page_sign = {
+	tip = "受け取り"
+}
+
+_G.pg.base.gametip.skin_page_desc = {
+	tip = "ゲームにログインして毎日$1個報酬\nミニストーリーを開放可能！"
 }

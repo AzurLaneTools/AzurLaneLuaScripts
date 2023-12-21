@@ -1317,7 +1317,12 @@ end
 
 function slot0.FadeOutPainting(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetComponent(typeof(CanvasGroup))
-	slot5 = slot1:GetFadeOutPaintingTime()
+
+	if slot1:GetFadeOutPaintingTime() <= 0 then
+		slot3()
+
+		return
+	end
 
 	if slot1:ShouldAddHeadMaskWhenFade() then
 		slot0:AddHeadMask(slot2)

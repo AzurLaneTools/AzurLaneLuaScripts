@@ -30,7 +30,7 @@ function slot3.doBehaviour(slot0)
 
 		if not slot5:IsAlive() then
 			uv0.Battle.BattleAttr.Spirit(slot5)
-			uv0.Battle.BattleAttr.Whosyourdaddy(slot5)
+			uv0.Battle.BattleAttr.AppendInvincible(slot5)
 		end
 	end
 
