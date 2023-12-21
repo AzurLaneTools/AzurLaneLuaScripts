@@ -1,5 +1,625 @@
 pg = pg or {}
 pg.enemy_data_statistics_7 = {
+	[90189] = {
+		cannon = 0,
+		name = "Sendai",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90189,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "chuannei",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 31,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "chuannei",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70034,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.08,
+					0.88,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.08,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.08,
+					0.19,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.08,
+					0.88,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.28,
+							2.67,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90190] = {
+		cannon = 0,
+		name = "Jintsuu",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90190,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "shentong",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 28,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "shentong",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70017,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90191] = {
+		cannon = 0,
+		name = "Agano",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90191,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "aheye",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "aheye",
+		cannon_growth = 0,
+		pilot_ai_template_id = 70033,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.1,
+					0.22,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90192] = {
+		cannon = 0,
+		name = "Königsberg",
+		type = 2,
+		speed_growth = 0,
+		battle_unit_type = 49,
+		air = 0,
+		air_growth = 0,
+		durability = 99999,
+		friendly_cld = 0,
+		armor = 0,
+		id = 90192,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "kenisibao",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "kenisibao",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 4,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.425,
+					0.786,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.425,
+					0.786,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.369,
+					0.232,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.425,
+					0.786,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.531,
+							0.427,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.24,
+							2.74,
+							-0.46
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90193] = {
 		cannon = 0,
 		name = "Karlsruhe",
@@ -3342,476 +3962,6 @@ pg.enemy_data_statistics_7 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90214] = {
-		cannon = 0,
-		name = "Deutschland",
-		type = 3,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 90214,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "deyizhi",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "deyizhi",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.07,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.77,
-							0.6,
-							-0.76
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.08,
-							2.63,
-							-1.93
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90215] = {
-		cannon = 0,
-		name = "Admiral Graf Spee",
-		type = 3,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 90215,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "sipeibojue",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "sipeibojue",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.06,
-					1.18,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.06,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.06,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90216] = {
-		cannon = 0,
-		name = "Renown",
-		type = 4,
-		speed_growth = 0,
-		battle_unit_type = 49,
-		air = 0,
-		air_growth = 0,
-		durability = 99999,
-		friendly_cld = 0,
-		armor = 0,
-		id = 90216,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "shengwang",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 4,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "shengwang",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 2,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.015,
-					1.165,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.407,
-					0.613,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.407,
-					0.613,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.832,
-							0.566,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.608,
-							0.741,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
 		position_offset = {
 			0,
 			0,

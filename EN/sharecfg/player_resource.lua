@@ -1210,6 +1210,21 @@ pg.player_resource = {
 		name = "newserver_pt_231123",
 		itemid = 59512
 	},
+	[384] = {
+		id = 384,
+		name = "xinghai_pt1",
+		itemid = 59515
+	},
+	[385] = {
+		id = 385,
+		name = "xinghai_pt2",
+		itemid = 59516
+	},
+	[386] = {
+		id = 386,
+		name = "skinTicket61",
+		itemid = 59517
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2267,6 +2282,15 @@ pg.player_resource = {
 		newserver_pt_231123 = {
 			383
 		},
+		xinghai_pt1 = {
+			384
+		},
+		xinghai_pt2 = {
+			385
+		},
+		skinTicket61 = {
+			386
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2709,6 +2733,9 @@ pg.player_resource = {
 		381,
 		382,
 		383,
+		384,
+		385,
+		386,
 		950,
 		951,
 		952,

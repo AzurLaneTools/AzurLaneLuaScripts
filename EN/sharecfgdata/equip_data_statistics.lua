@@ -21201,6 +21201,307 @@ _G.pg.base.equip_data_statistics[4351] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[4360] = {
+	rarity = 5,
+	name = "TBM Avenger (VT-51)",
+	speciality = "<[ASW]>",
+	type = 15,
+	tech = 0,
+	ammo = 5,
+	nationality = 1,
+	descrip = "A TBM Avenger of the VT-51 squadron that served on the San Jacinto.",
+	id = 4360,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "4360",
+	attribute_2 = "antisub",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			8,
+			53360
+		},
+		{
+			6,
+			53380
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9,
+		10
+	},
+	weapon_id = {
+		4360
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6
+	},
+	part_sub = {
+		6
+	},
+	equip_parameters = {},
+	label = {
+		"ASA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[4361] = {
+	id = 4361,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53361
+		},
+		{
+			6,
+			53381
+		}
+	},
+	weapon_id = {
+		4361
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4362] = {
+	id = 4362,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53362
+		},
+		{
+			6,
+			53382
+		}
+	},
+	weapon_id = {
+		4362
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4363] = {
+	id = 4363,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53363
+		},
+		{
+			6,
+			53383
+		}
+	},
+	weapon_id = {
+		4363
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4364] = {
+	id = 4364,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53364
+		},
+		{
+			6,
+			53384
+		}
+	},
+	weapon_id = {
+		4364
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4365] = {
+	id = 4365,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53365
+		},
+		{
+			6,
+			53385
+		}
+	},
+	weapon_id = {
+		4365
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4366] = {
+	id = 4366,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53366
+		},
+		{
+			6,
+			53386
+		}
+	},
+	weapon_id = {
+		4366
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4367] = {
+	id = 4367,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53367
+		},
+		{
+			6,
+			53387
+		}
+	},
+	weapon_id = {
+		4367
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4368] = {
+	id = 4368,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53368
+		},
+		{
+			6,
+			53388
+		}
+	},
+	weapon_id = {
+		4368
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4369] = {
+	id = 4369,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53369
+		},
+		{
+			6,
+			53389
+		}
+	},
+	weapon_id = {
+		4369
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4370] = {
+	id = 4370,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53370
+		},
+		{
+			6,
+			53390
+		}
+	},
+	weapon_id = {
+		4370
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4371] = {
+	id = 4371,
+	anti_siren = 100,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53371
+		},
+		{
+			6,
+			53391
+		}
+	},
+	weapon_id = {
+		4371
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4372] = {
+	id = 4372,
+	anti_siren = 200,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53372
+		},
+		{
+			6,
+			53392
+		}
+	},
+	weapon_id = {
+		4372
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[4373] = {
+	id = 4373,
+	anti_siren = 300,
+	base = 4360,
+	ammo_info = {
+		{
+			8,
+			53373
+		},
+		{
+			6,
+			53393
+		}
+	},
+	weapon_id = {
+		4373
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[5000] = {
 	tech = 1,
 	name = "533mm Triple Torpedo Mount",
@@ -29929,6 +30230,191 @@ _G.pg.base.equip_data_statistics[13173] = {
 	base = 13160,
 	weapon_id = {
 		13173
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13180] = {
+	tech = 0,
+	name = "Triple 305mm Mk8 Main Gun Mount",
+	speciality = "<[VOL]>",
+	type = 11,
+	descrip = "The main battery that was used on the Alaska class of large cruisers.",
+	ammo = 1,
+	damage = "62 x 3",
+	nationality = 1,
+	rarity = 6,
+	id = 13180,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 65,
+	icon = "14000",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			2,
+			1429
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		13180
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CB",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[13181] = {
+	id = 13181,
+	damage = "68 x 3",
+	base = 13180,
+	weapon_id = {
+		13181
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13182] = {
+	id = 13182,
+	damage = "72 x 3",
+	base = 13180,
+	weapon_id = {
+		13182
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13183] = {
+	id = 13183,
+	damage = "78 x 3",
+	base = 13180,
+	weapon_id = {
+		13183
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13184] = {
+	id = 13184,
+	damage = "82 x 3",
+	base = 13180,
+	weapon_id = {
+		13184
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13185] = {
+	id = 13185,
+	damage = "86 x 3",
+	base = 13180,
+	weapon_id = {
+		13185
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13186] = {
+	id = 13186,
+	damage = "92 x 3",
+	base = 13180,
+	weapon_id = {
+		13186
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13187] = {
+	id = 13187,
+	damage = "96 x 3",
+	base = 13180,
+	weapon_id = {
+		13187
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13188] = {
+	id = 13188,
+	damage = "102 x 3",
+	base = 13180,
+	weapon_id = {
+		13188
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13189] = {
+	id = 13189,
+	damage = "106 x 3",
+	base = 13180,
+	weapon_id = {
+		13189
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13190] = {
+	id = 13190,
+	damage = "110 x 3",
+	base = 13180,
+	weapon_id = {
+		13190
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13191] = {
+	id = 13191,
+	anti_siren = 100,
+	damage = "110 x 3",
+	base = 13180,
+	weapon_id = {
+		13191
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13192] = {
+	id = 13192,
+	anti_siren = 200,
+	damage = "110 x 3",
+	base = 13180,
+	weapon_id = {
+		13192
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13193] = {
+	id = 13193,
+	anti_siren = 300,
+	damage = "110 x 3",
+	base = 13180,
+	weapon_id = {
+		13193
 	},
 	hidden_skill_id = {}
 }
@@ -125625,6 +126111,112 @@ _G.pg.base.equip_data_statistics[80074] = {
 	base = 80073,
 	weapon_id = {
 		61551
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80081] = {
+	type = 1,
+	name = "专属弹幕-拉菲I",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80081,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61581
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80082] = {
+	id = 80082,
+	name = "专属弹幕-拉菲II",
+	base = 80081,
+	weapon_id = {
+		61582
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80091] = {
+	type = 1,
+	name = "专属弹幕-松鲷I",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80091,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61591
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80092] = {
+	id = 80092,
+	name = "专属弹幕-松鲷II",
+	base = 80091,
+	weapon_id = {
+		61592
 	},
 	hidden_skill_id = {}
 }

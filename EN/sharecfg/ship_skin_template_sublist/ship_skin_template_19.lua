@@ -1,6 +1,228 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[9703010] = {
+		ship_group = 970301,
+		name = "Trento META",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "teluntuo_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9703010,
+		voice_actor_2 = -1,
+		prefab = "teluntuo_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I am heavy cruiser Trento, and I will be your assistant. The best thing I could ask for is that my support helps you achieve your goals.",
+		voice_actor = 224,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.357,
+					0.865,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					0.856,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.806,
+							1.9,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9703020] = {
+		ship_group = 970302,
+		name = "Algérie META",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "aerjiliya_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9703020,
+		voice_actor_2 = -1,
+		prefab = "aerjiliya_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "You must be the Commander. I am the heavy cruiser Algérie. So, what pleasures can I experience here? I do hope you won't disappoint me. Heehee~",
+		voice_actor = 142,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.357,
+					0.865,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					0.856,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.806,
+							1.9,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9704010] = {
 		ship_group = 970401,
 		name = "Gneisenau META",
@@ -10699,110 +10921,6 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.43,
 							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800080] = {
-		ship_group = 1080008,
-		name = "The 2nd",
-		hand_id = 2,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "erdaimu",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 10800080,
-		voice_actor_2 = -1,
-		prefab = "erdaimu",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Oh, where am I now... Ah. Good to meet you. Call me The 2nd. I'm with the Gridknight Alliance... Not that it matters in this world, I'd assume.",
-		voice_actor = 376,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.48,
-					1.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.46,
-					2.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.64,
-							2.2,
 							0
 						}
 					}

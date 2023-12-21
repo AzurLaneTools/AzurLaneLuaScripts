@@ -5,34 +5,20 @@ function slot0.OnInit(slot0)
 
 	slot0.signList = UIItemList.New(slot0:findTF("AD/singlist"), slot0:findTF("AD/singlist/Award"))
 	slot0.signBtn = slot0:findTF("AD/signBtn")
-	slot2 = slot0.signBtn
 
-	setText(slot2:Find("Text"), i18n("SkinMagazinePage2_tip"))
-
-	slot0.mediator = BlackFridayWithManualSignMediator.New(function (slot0)
-		uv0:OnLinkActUpdate(slot0)
-	end)
+	setText(slot0.signBtn:Find("Text"), i18n("SkinMagazinePage2_tip"))
 end
 
-function slot0.OnDataSetting(slot0)
-	uv0.super.OnDataSetting(slot0)
+function slot0.GetPageLink(slot0)
+	return {
+		slot0.activity:getConfig("config_client")[2]
+	}
 end
 
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	slot0.signInActId = slot0.activity:getConfig("config_client")[2]
-
-	slot0:FlushSignActivity()
-	slot0:FlushSignBtn()
-end
-
-function slot0.OnLinkActUpdate(slot0, slot1)
-	if slot1.id == slot0.signInActId then
-		slot0:FlushSignActivity()
-		slot0:FlushSignBtn()
-		slot0:emit(ActivityMainScene.FLUSH_TABS)
-	end
 end
 
 function slot0.FlushSignBtn(slot0)
@@ -105,20 +91,8 @@ end
 
 function slot0.OnUpdateFlush(slot0)
 	uv0.super.OnUpdateFlush(slot0)
-end
-
-function slot0.OnHideFlush(slot0)
-	uv0.super.OnHideFlush(slot0)
-end
-
-function slot0.OnDestroy(slot0)
-	if slot0.mediator then
-		slot0.mediator:Dispose()
-
-		slot0.mediator = nil
-	end
-
-	uv0.super.OnDestroy(slot0)
+	slot0:FlushSignActivity()
+	slot0:FlushSignBtn()
 end
 
 return slot0

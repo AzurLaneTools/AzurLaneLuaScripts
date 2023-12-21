@@ -1,6 +1,353 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[502020] = {
+		ship_group = 50202,
+		name = "Ning Hai",
+		hand_id = 15,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "ninghai",
+		illustrator = 5,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 502020,
+		voice_actor_2 = -1,
+		prefab = "ninghai",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Ning Hai-class Light Cruiser, Ning Hai",
+		voice_actor = 22,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.31,
+					0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							0.75,
+							-0.27
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							2.45,
+							-0.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[502021] = {
+		ship_group = 50202,
+		name = "Summer Hunger",
+		hand_id = 15,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70016,
+		painting = "ninghai_2",
+		illustrator = 5,
+		l2d_voice_calibrate = "",
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 502021,
+		voice_actor_2 = -1,
+		prefab = "ninghai_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Summer’s all about the beach! And the beach is all about good food! Commander, let’s find something delicious to eat!",
+		voice_actor = 22,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.13
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.22,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.23,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[502022] = {
+		ship_group = 50202,
+		name = "Moon Palace Rabbit",
+		hand_id = 15,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70013,
+		painting = "ninghai_3",
+		illustrator = 5,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 502022,
+		voice_actor_2 = -1,
+		prefab = "ninghai_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Happy Mid-Autumn Festival! I heard that if you pray to the moon today, you’ll become as pretty as the Goddess of the Moon! ...Eh? You’re gonna pray too?",
+		voice_actor = 22,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.19,
+					1.04,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.19,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.19,
+					1.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.54,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502023] = {
 		ship_group = 50202,
 		name = "Dragon Sisters! -N",
@@ -11186,248 +11533,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.452,
 							2.295,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[701023] = {
-		ship_group = 70102,
-		name = "Shadowy Syndicate Showdown",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70675,
-		painting = "weiyan_4",
-		illustrator = -1,
-		shop_type_id = 12,
-		lip_smoothing = 0,
-		bg = "154",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 701023,
-		voice_actor_2 = -1,
-		prefab = "weiyan_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Our shift starts now. Królik, Pirožkí, Manjuus – form up! Let us realize our Manjuu comrades' dreams!",
-		voice_actor = 221,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.235,
-					1.011,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.983,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.136,
-					0.889,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.501,
-							2.433,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		}
-	},
-	[701024] = {
-		ship_group = 70102,
-		name = "Tea Party with Królik",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 4,
-		shop_id = 70702,
-		painting = "weiyan_5",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "157",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 701024,
-		voice_actor_2 = -1,
-		prefab = "weiyan_5",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "*burp*... Now I think I get the appeal of tea. Why is the cup so small, though? Do you have a bigger one on hand, Comrade Commander?",
-		voice_actor = 221,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.983,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.01,
-					0.84,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.34,
 							0
 						}
 					}

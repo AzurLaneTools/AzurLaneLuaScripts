@@ -169,19 +169,18 @@ function slot0.MoveDelta(slot0, slot1, slot2)
 
 		return slot6 - slot5
 	elseif not slot3(NewPos(slot0.pos.x + (slot6.x < 0 and -1 or 1), slot0.pos.y + (slot6.y < 0 and -1 or 1))) then
-		key = slot1.y * slot1.y > slot1.x * slot1.x and "y" or "x"
-		slot8 = uv0[key]
-		slot9 = NewPos(0, 0)
+		slot9 = uv0[slot1.y * slot1.y > slot1.x * slot1.x and "y" or "x"]
+		slot10 = NewPos(0, 0)
 
-		if slot5[slot8] * slot5[slot8] > slot2 * slot2 then
-			slot9[key] = -slot5[key]
-			slot9[slot8] = (-slot5[slot8] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot9[key] * slot9[key])
+		if slot5[slot9] * slot5[slot9] > slot2 * slot2 then
+			slot10[slot8] = -slot5[slot8]
+			slot10[slot9] = (-slot5[slot9] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot10[slot8] * slot10[slot8])
 		else
-			slot9[slot8] = -slot5[slot8]
-			slot9[key] = (slot1[key] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot9[slot8] * slot9[slot8])
+			slot10[slot9] = -slot5[slot9]
+			slot10[slot8] = (slot1[slot8] < 0 and -1 or 1) * math.sqrt(slot2 * slot2 - slot10[slot9] * slot10[slot9])
 		end
 
-		slot6 = slot5 + slot9
+		slot6 = slot5 + slot10
 		slot6.x = math.clamp(slot6.x, unpack(slot4.x))
 		slot6.y = math.clamp(slot6.y, unpack(slot4.y))
 

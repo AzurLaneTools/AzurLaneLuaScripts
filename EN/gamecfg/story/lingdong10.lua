@@ -165,7 +165,7 @@ return {
 			actorName = "Tester",
 			dir = -1,
 			blackBg = true,
-			say = "The second Royal Navy convoy heading for the Northern Union was sunk by planes.",
+			say = "The second Royal Navy convoy heading for the Northern Parliament was sunk by planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

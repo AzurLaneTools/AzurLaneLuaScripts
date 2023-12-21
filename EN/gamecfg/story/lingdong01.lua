@@ -15,7 +15,7 @@ return {
 				}
 			},
 			signDate = {
-				"Murmansk, Arctic Circle - Northern Union Territory",
+				"Murmansk, Arctic Circle - Northern Parliament Territory",
 				0.2,
 				{
 					919,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "We greatly appreciate your support. These supplies will surely be a great help in our battle against the Red Axis.",
+			say = "We greatly appreciate your support. These supplies will surely be a great help in our battle against the Crimson Axis.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I don't believe we should trust the Northern Union.",
+			say = "I don't believe we should trust the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

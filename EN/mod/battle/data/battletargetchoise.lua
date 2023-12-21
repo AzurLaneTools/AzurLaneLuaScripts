@@ -745,7 +745,11 @@ function slot3.TargetFleetIndex(slot0, slot1)
 			if slot5 == slot4.REAR then
 				table.insert(slot6, slot14)
 			end
-		elseif slot5 == slot4.CONSORT then
+		elseif slot14:IsMainFleetUnit() and slot14:GetMainUnitIndex() == 2 then
+			if slot5 == slot4.UPPER_CONSORT then
+				table.insert(slot6, slot14)
+			end
+		elseif slot14:IsMainFleetUnit() and slot14:GetMainUnitIndex() == 3 and slot5 == slot4.LOWER_CONSORT then
 			table.insert(slot6, slot14)
 		end
 	end

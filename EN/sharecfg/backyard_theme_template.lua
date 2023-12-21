@@ -4207,6 +4207,38 @@ pg.backyard_theme_template = {
 			305306
 		}
 	},
+	[106] = {
+		Cfg_1 = 5,
+		name = "Port Night Club",
+		hot = 1,
+		is_view = 1,
+		id = 106,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Lights! Music! Come on, people, let's make some noise!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "yydthemeicon",
+		deblocking = 1,
+		order = 107,
+		ids = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306110,
+			306111,
+			306112,
+			306114
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4300,6 +4332,7 @@ pg.backyard_theme_template = {
 		102,
 		103,
 		104,
-		105
+		105,
+		106
 	}
 }

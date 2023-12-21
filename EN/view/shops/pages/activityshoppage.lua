@@ -52,11 +52,21 @@ function slot0.GetPaintingTouchVoice(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.resTF = slot0:findTF("res_battery"):GetComponent(typeof(Image))
-	slot0.resIcon = slot0:findTF("res_battery/icon"):GetComponent(typeof(Image))
-	slot0.resCnt = slot0:findTF("res_battery/Text"):GetComponent(typeof(Text))
+	slot0.resTrList = {
+		{
+			slot0:findTF("res_battery"):GetComponent(typeof(Image)),
+			slot0:findTF("res_battery/icon"):GetComponent(typeof(Image)),
+			slot0:findTF("res_battery/Text"):GetComponent(typeof(Text)),
+			slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
+		},
+		{
+			slot0:findTF("res_battery1"):GetComponent(typeof(Image)),
+			slot0:findTF("res_battery1/icon"):GetComponent(typeof(Image)),
+			slot0:findTF("res_battery1/Text"):GetComponent(typeof(Text)),
+			slot0:findTF("res_battery1/label"):GetComponent(typeof(Text))
+		}
+	}
 	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
-	slot0.resName = slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
 end
 
@@ -64,13 +74,27 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdatePlayer(slot0)
-	slot1 = slot0.shop:getResId()
-	slot0.resCnt.text = slot0.player:getResource(slot1)
-	slot0.eventResCnt.text = slot0.player:getResource(slot1)
+	if slot0.shop:IsEventShop() then
+		slot0.eventResCnt.text = slot0.player:getResource(slot0.shop:getResId())
+	else
+		slot1 = slot0.shop:GetResList()
+
+		for slot5, slot6 in pairs(slot0.resTrList) do
+			slot8 = slot6[2]
+			slot9 = slot6[3]
+
+			setActive(slot6[1], slot1[slot5] ~= nil)
+
+			if slot10 ~= nil then
+				slot9.text = slot0.player:getResource(slot10)
+			end
+		end
+	end
 end
 
 function slot0.OnSetUp(slot0)
 	slot0:SetResIcon()
+	slot0:UpdateTip()
 end
 
 function slot0.OnUpdateAll(slot0)
@@ -95,19 +119,39 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
+function slot0.ResId2ItemId(slot0, slot1)
+	return id2ItemId(slot1)
+end
+
 function slot0.SetResIcon(slot0)
-	slot2 = pg.item_data_statistics[id2ItemId(slot0.shop:getResId())]
+	slot1 = slot0.shop:GetResList()
 
-	GetSpriteFromAtlasAsync(slot2.icon, "", function (slot0)
-		uv0.resIcon.sprite = slot0
-	end)
+	for slot5, slot6 in ipairs(slot0.resTrList) do
+		slot7 = slot6[1]
+		slot8 = slot6[2]
+		slot9 = slot6[3]
+		slot10 = slot6[4]
 
-	slot0.resName.text = slot2.name
-	slot0.time.text = i18n("activity_shop_lable", slot0.shop:getOpenTime())
-	slot3 = slot0.shop:IsEventShop()
+		if slot1[slot5] ~= nil then
+			slot12 = pg.item_data_statistics[slot0:ResId2ItemId(slot11)]
 
-	setActive(slot0:findTF("res_battery"), not slot3)
-	setActive(slot0:findTF("event_res_battery"), slot3)
+			GetSpriteFromAtlasAsync(slot12.icon, "", function (slot0)
+				uv0.sprite = slot0
+			end)
+
+			slot10.text = slot12.name
+		end
+	end
+
+	slot2 = slot0.shop:IsEventShop()
+
+	setActive(slot0:findTF("res_battery"), not slot2)
+	setActive(slot0:findTF("res_battery1"), not slot2 and #slot1 > 1)
+	setActive(slot0:findTF("event_res_battery"), slot2)
+end
+
+function slot0.UpdateTip(slot0)
+	slot0.time.text = "<size=" .. (#slot0.shop:GetResList() > 1 and 25 or 27) .. ">" .. i18n("activity_shop_lable", slot0.shop:getOpenTime()) .. "</size>"
 end
 
 function slot0.OnInitItem(slot0, slot1)

@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			actorName = "Purifier",
 			dir = 1,
-			say = "Now now, don't go anywhere! I just did the calculations, and if this massive singularity were to collapse, half of the entire Northern Union would go poof!",
+			say = "Now now, don't go anywhere! I just did the calculations, and if this massive singularity were to collapse, half of the entire Northern Parliament would go poof!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

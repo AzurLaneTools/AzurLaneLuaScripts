@@ -126,6 +126,22 @@ function slot0.getResId(slot0)
 	return slot1:getConfig("resource_type")
 end
 
+function slot0.GetResList(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.goods) do
+		slot1[slot6:getConfig("resource_type")] = true
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		table.insert(slot2, slot6)
+	end
+
+	return slot2
+end
+
 function slot0.GetEnterVoice(slot0)
 	if slot0.config.config_client.enter then
 		return slot1[1], slot1[2], slot1[3]

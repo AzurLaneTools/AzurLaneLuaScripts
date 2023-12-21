@@ -660,6 +660,15 @@ pg.painting_filte_map = {
 			"painting/aisaikesi_8"
 		}
 	},
+	aisaikesi_alter = {
+		key = "aisaikesi_alter",
+		res_list = {
+			"painting/aisaikesi_alter_tex",
+			"painting/aisaikesi_alter_n_tex",
+			"painting/aisaikesi_alter_n",
+			"painting/aisaikesi_alter"
+		}
+	},
 	aisijimo = {
 		key = "aisijimo",
 		res_list = {
@@ -1298,6 +1307,21 @@ pg.painting_filte_map = {
 			"painting/baoduoliuhua_3_n_tex",
 			"painting/baoduoliuhua_3_n",
 			"painting/baoduoliuhua_3"
+		}
+	},
+	baolei1 = {
+		key = "baolei1",
+		res_list = {
+			"painting/baolei1_tex",
+			"painting/baolei1"
+		}
+	},
+	baolei2 = {
+		key = "baolei2",
+		res_list = {
+			"painting/baolei2_tex",
+			"painting/baolei2_rw_tex",
+			"painting/baolei2"
 		}
 	},
 	beianpudun = {
@@ -4081,6 +4105,27 @@ pg.painting_filte_map = {
 			"painting/gongzhu_2"
 		}
 	},
+	guandao = {
+		key = "guandao",
+		res_list = {
+			"painting/guandao_tex",
+			"painting/guandao_rw_tex",
+			"painting/guandao_n_tex",
+			"painting/guandao_n",
+			"painting/guandao"
+		}
+	},
+	guandao_2 = {
+		key = "guandao_2",
+		res_list = {
+			"painting/guandao_2_tex",
+			"painting/guandao_2_rw_tex",
+			"painting/guandao_2_n_rw_tex",
+			"painting/guandao_2_n",
+			"painting/guandao_2_bj_tex",
+			"painting/guandao_2"
+		}
+	},
 	guanghui = {
 		key = "guanghui",
 		res_list = {
@@ -6429,6 +6474,15 @@ pg.painting_filte_map = {
 			"painting/kelifulan_7"
 		}
 	},
+	kelifulan_8 = {
+		key = "kelifulan_8",
+		res_list = {
+			"painting/kelifulan_8_tex",
+			"painting/kelifulan_8_n_tex",
+			"painting/kelifulan_8_n",
+			"painting/kelifulan_8"
+		}
+	},
 	kelifulan_h = {
 		key = "kelifulan_h",
 		res_list = {
@@ -6778,10 +6832,29 @@ pg.painting_filte_map = {
 			"painting/lafei_h"
 		}
 	},
+	lafeiii = {
+		key = "lafeiii",
+		res_list = {
+			"painting/lafeiii_tex",
+			"painting/lafeiii_rw_tex",
+			"painting/lafeiii_pt_tex",
+			"painting/lafeiii"
+		}
+	},
+	lafeiii_3 = {
+		key = "lafeiii_3",
+		res_list = {
+			"painting/lafeiii_3_tex",
+			"painting/lafeiii_3_n_tex",
+			"painting/lafeiii_3_n",
+			"painting/lafeiii_3"
+		}
+	},
 	lafeiii_n = {
 		key = "lafeiii_n",
 		res_list = {
 			"painting/lafeiii_n_tex",
+			"painting/lafeiii_n_rw_tex",
 			"painting/lafeiii_n"
 		}
 	},
@@ -7699,6 +7772,26 @@ pg.painting_filte_map = {
 			"painting/luyijiushi_3_n_tex",
 			"painting/luyijiushi_3_n",
 			"painting/luyijiushi_3"
+		}
+	},
+	luyisiweier = {
+		key = "luyisiweier",
+		res_list = {
+			"painting/luyisiweier_tex",
+			"painting/luyisiweier_rw_tex",
+			"painting/luyisiweier_n_tex",
+			"painting/luyisiweier_n",
+			"painting/luyisiweier"
+		}
+	},
+	luyisiweier_2 = {
+		key = "luyisiweier_2",
+		res_list = {
+			"painting/luyisiweier_2_tex",
+			"painting/luyisiweier_2_rw_tex",
+			"painting/luyisiweier_2_n_rw_tex",
+			"painting/luyisiweier_2_n",
+			"painting/luyisiweier_2"
 		}
 	},
 	lvzi = {
@@ -10279,6 +10372,27 @@ pg.painting_filte_map = {
 			"painting/shengdiyage_younv"
 		}
 	},
+	shenghaxintuo = {
+		key = "shenghaxintuo",
+		res_list = {
+			"painting/shenghaxintuo_tex",
+			"painting/shenghaxintuo_rw_tex",
+			"painting/shenghaxintuo_n_tex",
+			"painting/shenghaxintuo_n_bj_tex",
+			"painting/shenghaxintuo_n",
+			"painting/shenghaxintuo_bj_tex",
+			"painting/shenghaxintuo"
+		}
+	},
+	shenghaxintuo_2 = {
+		key = "shenghaxintuo_2",
+		res_list = {
+			"painting/shenghaxintuo_2_tex",
+			"painting/shenghaxintuo_2_n_tex",
+			"painting/shenghaxintuo_2_n",
+			"painting/shenghaxintuo_2"
+		}
+	},
 	shenghuan = {
 		key = "shenghuan",
 		res_list = {
@@ -10694,6 +10808,13 @@ pg.painting_filte_map = {
 			"painting/sikula_2"
 		}
 	},
+	silverfox_shadow = {
+		key = "silverfox_shadow",
+		res_list = {
+			"painting/silverfox_shadow_tex",
+			"painting/silverfox_shadow"
+		}
+	},
 	simoli = {
 		key = "simoli",
 		res_list = {
@@ -10792,6 +10913,24 @@ pg.painting_filte_map = {
 			"painting/sizhannvshen_2_n_tex",
 			"painting/sizhannvshen_2_n",
 			"painting/sizhannvshen_2"
+		}
+	},
+	songdiao = {
+		key = "songdiao",
+		res_list = {
+			"painting/songdiao_tex",
+			"painting/songdiao_n_tex",
+			"painting/songdiao_n",
+			"painting/songdiao"
+		}
+	},
+	songdiao_2 = {
+		key = "songdiao_2",
+		res_list = {
+			"painting/songdiao_2_tex",
+			"painting/songdiao_2_n_tex",
+			"painting/songdiao_2_n",
+			"painting/songdiao_2"
 		}
 	},
 	songfeng = {
@@ -12969,6 +13108,29 @@ pg.painting_filte_map = {
 			"painting/xingdengbao"
 		}
 	},
+	xingzuo = {
+		key = "xingzuo",
+		res_list = {
+			"painting/xingzuo_tex",
+			"painting/xingzuo_rw_tex",
+			"painting/xingzuo_n_tex",
+			"painting/xingzuo_n_bj_tex",
+			"painting/xingzuo_n",
+			"painting/xingzuo_bj_tex",
+			"painting/xingzuo"
+		}
+	},
+	xingzuo_2 = {
+		key = "xingzuo_2",
+		res_list = {
+			"painting/xingzuo_2_tex",
+			"painting/xingzuo_2_rw_tex",
+			"painting/xingzuo_2_n_tex",
+			"painting/xingzuo_2_n",
+			"painting/xingzuo_2_bj_tex",
+			"painting/xingzuo_2"
+		}
+	},
 	xinnong = {
 		key = "xinnong",
 		res_list = {
@@ -13168,6 +13330,15 @@ pg.painting_filte_map = {
 			"painting/xiusidunii"
 		}
 	},
+	xiusidunii_2 = {
+		key = "xiusidunii_2",
+		res_list = {
+			"painting/xiusidunii_2_tex",
+			"painting/xiusidunii_2_n_tex",
+			"painting/xiusidunii_2_n",
+			"painting/xiusidunii_2"
+		}
+	},
 	xixuegui = {
 		key = "xixuegui",
 		res_list = {
@@ -13203,6 +13374,15 @@ pg.painting_filte_map = {
 			"painting/xixuegui_5_n_tex",
 			"painting/xixuegui_5_n",
 			"painting/xixuegui_5"
+		}
+	},
+	xixuegui_6 = {
+		key = "xixuegui_6",
+		res_list = {
+			"painting/xixuegui_6_tex",
+			"painting/xixuegui_6_n_tex",
+			"painting/xixuegui_6_n",
+			"painting/xixuegui_6"
 		}
 	},
 	xixuegui_h = {
@@ -14539,6 +14719,15 @@ pg.painting_filte_map = {
 			"painting/z35_2"
 		}
 	},
+	z35_3 = {
+		key = "z35_3",
+		res_list = {
+			"painting/z35_3_tex",
+			"painting/z35_3_n_tex",
+			"painting/z35_3_n",
+			"painting/z35_3"
+		}
+	},
 	z36 = {
 		key = "z36",
 		res_list = {
@@ -15103,6 +15292,7 @@ pg.painting_filte_map = {
 		"aisaikesi_6",
 		"aisaikesi_7",
 		"aisaikesi_8",
+		"aisaikesi_alter",
 		"aisijimo",
 		"aisijimo_2",
 		"ajiakesi",
@@ -15181,6 +15371,8 @@ pg.painting_filte_map = {
 		"baoduoliuhua",
 		"baoduoliuhua_2",
 		"baoduoliuhua_3",
+		"baolei1",
+		"baolei2",
 		"beianpudun",
 		"beianpudunii",
 		"beianpudunii_2",
@@ -15532,6 +15724,8 @@ pg.painting_filte_map = {
 		"gin_2",
 		"gongzhu",
 		"gongzhu_2",
+		"guandao",
+		"guandao_2",
 		"guanghui",
 		"guanghui_2",
 		"guanghui_3",
@@ -15824,6 +16018,7 @@ pg.painting_filte_map = {
 		"kelifulan_5",
 		"kelifulan_6",
 		"kelifulan_7",
+		"kelifulan_8",
 		"kelifulan_h",
 		"kelifulan_idol",
 		"kelifulan_idolns",
@@ -15869,6 +16064,8 @@ pg.painting_filte_map = {
 		"lafei_9",
 		"lafei_g",
 		"lafei_h",
+		"lafeiii",
+		"lafeiii_3",
 		"lafeiii_n",
 		"laibixi",
 		"laibixi_2",
@@ -15983,6 +16180,8 @@ pg.painting_filte_map = {
 		"luyijiushi",
 		"luyijiushi_2",
 		"luyijiushi_3",
+		"luyisiweier",
+		"luyisiweier_2",
 		"lvzi",
 		"lvzi_2",
 		"lvzuofu",
@@ -16308,6 +16507,8 @@ pg.painting_filte_map = {
 		"shengdiyage_g",
 		"shengdiyage_h",
 		"shengdiyage_younv",
+		"shenghaxintuo",
+		"shenghaxintuo_2",
 		"shenghuan",
 		"shenghuan_2",
 		"shengli",
@@ -16359,6 +16560,7 @@ pg.painting_filte_map = {
 		"shuixingjinian_g",
 		"sikula",
 		"sikula_2",
+		"silverfox_shadow",
 		"simoli",
 		"simoli_3",
 		"sipeibojue",
@@ -16372,6 +16574,8 @@ pg.painting_filte_map = {
 		"siwanshi",
 		"sizhannvshen",
 		"sizhannvshen_2",
+		"songdiao",
+		"songdiao_2",
 		"songfeng",
 		"songfeng_g",
 		"strength",
@@ -16647,6 +16851,8 @@ pg.painting_filte_map = {
 		"xinaoerliang",
 		"xinaoerliang_2",
 		"xingdengbao",
+		"xingzuo",
+		"xingzuo_2",
 		"xinnong",
 		"xinnong_2",
 		"xinnong_3",
@@ -16670,11 +16876,13 @@ pg.painting_filte_map = {
 		"xishao_2",
 		"xiusidun",
 		"xiusidunii",
+		"xiusidunii_2",
 		"xixuegui",
 		"xixuegui_2",
 		"xixuegui_3",
 		"xixuegui_4",
 		"xixuegui_5",
+		"xixuegui_6",
 		"xixuegui_h",
 		"xiyatu",
 		"xiyatu_2",
@@ -16839,6 +17047,7 @@ pg.painting_filte_map = {
 		"z28_4",
 		"z35",
 		"z35_2",
+		"z35_3",
 		"z36",
 		"z46",
 		"z46_2",

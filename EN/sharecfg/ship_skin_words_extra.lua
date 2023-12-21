@@ -238,7 +238,13 @@ pg.ship_skin_words_extra = setmetatable({
 		11000040,
 		11000050,
 		11000060,
-		11000070
+		11000070,
+		118020,
+		101510,
+		104010,
+		108080,
+		107300,
+		103270
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16516,6 +16522,479 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"To be entirely honest, there's a problem that I haven't been able to discuss with you. But, it'll be okay. My friends and I will find a way to get by. I'm sure that it'll be alright... because of you, Commander."
+			}
+		}
+	},
+	[118020] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		profile = "",
+		win_mvp = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 118020,
+		login = {
+			{
+				1100,
+				"Commandeeer! Morning! You're such an early bird, I had to really push myself to catch up with you."
+			}
+		},
+		home = {
+			{
+				1100,
+				"C'mon, cameramanjuu crew, get more shots of the Commander! Yeah, it's fine to get pics of me, but at least get both me and the Commander in frame... Ahah☆ Welcome home, Commander!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Basically, I'm the only one fit to lead this operation? I gotchu covered!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I got your special gift, so it's only fair I get special treatment, too. You know, like getting morning cuddles, free lunches, and the most tasks during battle... You can't do that last one? Aww... *blushes*"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Doing math is sooo hard, and using a calculator takes too long... Gneisenau, what's the number here? Ah, appreciate it♪|My clothes feel tight... Maybe I've been eating too much lately... What can I do, though? Your cooking and snacks are just too delish to pass up on, Commander... *blushes*|Wonder when I'll become more like Dandy Siego... Hm? I DO genuinely admire her. I mean, she's got a ton of stars, she shines like a star, and she's the star of our port, period.|Studying is so not my thing, but I'll learn anything if you want me to! That's my motto from now on! Look forward to hearing it♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So basically, you wanna go have some fun, right? Alright, then I'll come with... Hey! Cameramanjuu crew! You don't need to snap photos of this!"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commander, the commission team is back! Go tell 'em hi for me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C'mon, Commander, you can do better♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Being so in love your mind goes blank is nice, but doesn't it suck if you can't tell what your partner's thinking? Hmm... How about this – let's both not use a single one of our brain cells! No thoughts, head empty as we go on walks, eat, play, and... Huh? What were we talking about?"
+			}
+		}
+	},
+	[101510] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		id = 101510,
+		feeling1 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back... No, I wasn't waiting for you to wake me up... Nuh-uh."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Targets eliminated... Wanna go rest together, Commander?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Urk... Sorry for worrying you, Commander... It's okay. I won't be disheartened..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"It's not like Laffey wants to be with you for a little longer... Nope, not at all."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Laffey and the Commander are super motivated..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Zzzz... Mmnh...? Commander...? Zzzz..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"When you're here, Laffey can relax... When I fall asleep, my body will go all limp, too...|Commander, want to join the napping club? Well.. You can nap with me even if you're not in the club...|Commander, lean on Laffey if you want... Actually... I'd rather lean on you..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'm not thinking about how I want to put my head in your lap and fall asleep... Not one bit."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commission team's home... Just five more minutes of sleep... Nnh, but I wanna go see everyone with the Commander..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"New missions... After we finish them together, I'm gonna take a nap... Yep, yep."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete... Hm? Laffey can have a reward, too? Okay... Then I want time alone with you, Commander..."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Commander, don't forget to check your mail..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You're so weird, Commander... But I guess I'm used to it now..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, can I have a second? It's okay... Laffey just wants to nap next to you... I'll be quiet. Zzzz..."
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"\"The Ship That Would Not Die\" won't go down that easy..."
+			}
+		}
+	},
+	[104010] = {
+		upgrade = "",
+		feeling3 = "",
+		unlock = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		feeling4 = "",
+		mission = "",
+		feeling2 = "",
+		mail = "",
+		skill = "",
+		profile = "",
+		id = 104010,
+		lose = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"You can see it even from the port. That ephemeral, beautiful silver band that spans the nighttide... Yes, the Milky Way."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Hm? I'm not going stargazing today. I'm staying here so I won't miss the moment you return."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I-intercept now!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I never thought I'd get to lean against you and watch the stars..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"That one – the brightest star over there. Can you see it? Yep, exactly. It does shine as brightly as I do... Wait... H-huh?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Gather a group and go stargazing together? Oh, so Wasp and Intrepid enjoy it too... Alright, I'll do that. The more, the merrier, right?|Mhh... You're trying to take the scenic route home, I see... By the way, did I do a good job of helping you finish your excess work early? Heehee, great. Oh! You see the stars so clearly from here! Ohh... They're beautiful..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"The stars will always be there for you."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"This photo of the night sky over the sea is so pretty. Oh, you're giving it to me? You remembered... Thank you, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"That's enough stargazing for tonight. Whew... It's late, Commander... Shall we go home?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"To see not just the stars when you look up, but also the lights in space even beyond that... Commander, this telescope is for you. Keep watching the stars by my side!"
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"I can endure it... My mind is set on it!"
+			}
+		}
+	},
+	[108080] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 108080,
+		login = {
+			{
+				1100,
+				"Welcome back, Commander. Oh, a thread has come loose on your cuff... Wait just a sec and I'll fix it with my sewing kit. I'll be done in no time!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee... This is relaxing."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander... do you like my sunfish plushie? I'll make another just for you!"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"I'm gonna go after bigger prey!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Have you been waiting long, Commander? *whimper*... Sorry for taking so long getting ready when I'm the one who said we should go to the aquarium... *sob*...|Um... I was thinking about the date we're gonna go on, and, uh... I couldn't get a blink of sleep last night! Heehee...|You get attached to the fishies so easily, Commander. That's a mood for me, though. I love it when you're around, too... Heehee."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"When I prick myself with a needle, I just lick my finger and the pain goes away. Whoa! Commander, th-that tickles!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... You're gonna stretch my plushie's fabric!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I wonder if my plushie of you gets lonely when I'm not around... Hm? Just make a plushie of myself and let them be together? G-good idea! I think I'll do that!"
+			}
+		}
+	},
+	[107300] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 107300,
+		login = {
+			{
+				1100,
+				"Day duty... That means I get to be alone with you, so it's just a win for me! Heehee."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Commander, I won~ Anyway, where's my usual reward? Hm? You know EXACTLY what I mean♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Have a towel, Commander♪ For what? Wiping away your sweat, of course. Or were you looking forward to something else? Heehee. Okay, then we can do what you were looking forward to later..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"The operation went smoothly, and that makes work easier... Hmm. At this rate, I won't get to worry about you~ ...Heehee♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, there's rice stuck on your lip~ ...Mm, tasty~ Is there some on mine, too? Heehee, well, I'm waiting!|The pillow Bataan recommended for me? Would you like to try sleeping on it some time, Commander? Hmm, I'm just not sure if a Hellcat plushie counts as a pillow...|I don't mind if there are other girls who are good at taking care of you, Commander. It'd be worse if you were so perfect that there was nothing I could do for you! Heheheh."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, would you like a drink? Heehee, I'll pop one open right away~"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You're so cool when you do all your work, Commander~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Am I really that attractive to you~? Heehee♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hm? I'm just in the middle of waiting for someone I love. In fact, I just found said person! Heehee, where should we go now? It's a date, you know~ A date♪"
+			}
+		}
+	},
+	[103270] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		profile = "",
+		win_mvp = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 103270,
+		login = {
+			{
+				1100,
+				"Let's see what your schedule for today... Patrolling the academy, checking equipment, a date with Louisville... Come again? Actually, the only item on the schedule today is our date? O-oh..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, welcome back. Shall we eat lunch together? Heehee, don't be shy, eat up~ Seeing you enjoy my food is what nourishes me~"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Lady Lou and the Commander set sail..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Today's agenda... Going to the movies, inspecting the new set, and eating out... Of course I remember, Commander. They're OUR plans, after all!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"We drank together yesterday, Commander. Don't you remember? O-oh... You got super drunk along the way, and then... N-nothing happened! *blush*|Commander, you already signed this document. Goodness, I told you I'd do my best not to forget things... See? It's signed. Hmph!|*sigh*... Huh? O-oh, it's nothing! I wasn't so absorbed in gazing at you that I forgot to work, or anything... Ack..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Have you forgotten something?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commander, the commission team is back. Shall we deliver nutritious meals to the pier?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Nnnh... *blushes* Y-you just touched me, didn't you? My brain might forget, but my body remembers."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Zzzz... Mmm... Oh? Commander, why are you in my room... Hm? I see, so this was your office all this time... Why would I make such a mistake? Umm, are you sure this is your office...?"
 			}
 		}
 	}

@@ -426,10 +426,10 @@ pg.item_data_frame = {
 	[328] = {
 		time_limit_type = 0,
 		name = "Light-Chasing Ring of Stars",
-		gain_by = "",
+		gain_by = "Light-Chasing Sea of Stars",
 		id = 328,
 		time_second = 0,
-		desc = "Obtained from an event.",
+		desc = "\"The heaven that covers all, the causality that replicates the world. Cross the line in the sand and let the eternal truth be impressed upon all.\"",
 		scene = {}
 	},
 	[406] = {

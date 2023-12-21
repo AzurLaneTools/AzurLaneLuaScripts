@@ -9779,7 +9779,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*Available During:<color=#FFCF81>$1</color>"
+	tip = "*Available During:\n<color=#FFCF81>$1</color>"
 }
 
 _G.pg.base.gametip.word_bilibili = {
@@ -10259,7 +10259,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Receive an extra copy of Shimakaze after doing a total of 200 builds! (Limit of 4 times)"
+	tip = "Get Guam guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -16502,17 +16502,20 @@ _G.pg.base.gametip.trade_card_tips4 = {
 _G.pg.base.gametip.ur_exchange_help_tip = {
 	tip = {
 		{
+			info = "- Bulin Support Plan -"
+		},
+		{
+			info = "The Bulin Support Plan is a permanently available campaign. You can obtain Specialized Cores through the methods listed below, which can be exchanged for a Specialized Bulin Custom MKIII. Please note that there exists a cap on how many can be obtained in a month. This cap is reset on at 00:00 on the 1st of every month."
+		},
+		{
+			info = "- Obtaining Specialized Cores -"
+		},
+		{
 			info = [[
-- Bulin Support Plan Info
-The Bulin Support Plan is a permanent minievent.
-Complete the tasks to earn Specialized Cores, which can then be exchanged for a Specialized Bulin Custom MKIII.
-There is a cap to how many cores you can earn in one month. This cap resets at midnight of the first of every month.
-
-- How to Get Specialized Cores
-1. Through Weekly Missions. You can obtain a lot of cores by finishing the completing both 20 and 50 Daily Missions.
-2. Through clearing maps. Every time you defeat the boss fleet on main story maps (both Normal and Hard Mode), event maps, and War Archives maps, you earn a small amount of cores.
-3. Through Research. Whenever you finish doing Research in the Lab, there is a chance you'll receive a small amount of cores. 
-4. Through retiring UR ships. Ultra Rare ships received from construction grant you cores when you retire them.]]
+1. Completing the weekly mission ""Complete 20/50 daily missions"" will yield a large amount of Specialized Cores.
+2. Sortieing and defeating the Boss Fleet of any Normal, Hard, Event, or War Archives stage will yield a small amount of Specialized Cores.
+3. Completing Research Projects in the Research Lab will yield a small amount of Specialized Cores.
+4. Retiring any non-retrofit UR shipgirl will yield some Specialized Cores.]]
 		}
 	}
 }
@@ -20023,20 +20026,21 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 		{
 			info = [[
 - Overview -
-The Shrine is a place where you can come and offer your prayers and hang up Ema. Praying and decorating with Ema will grant your ships temporary buffs.
-In addition to providing buffs, hanging up Ema will also grant you 1 Origami Crane per Ema hung up. Collecting 7 Origami Cranes will reward you with the New Year's Invitation, which can be used to select an SR ship to add to your dock.
+During the New Year's Wishes campaign, offer your prayers and hang up Ema to grant your fleet temporary buffs.
+In addition to providing buffs, hanging up Ema will also give you 1 Origami Crane per Ema hung up.
+Collecting 7 Origami Cranes will grant you the New Year's Invitation (2024), which can be used to select an SR shipgirl to add to your dock.
 
 - Decorating with Ema -
-· You will receive 1 Ema every day of the campaign. You can hold up to 7 Ema at a time.
-· Ema can be hung up at the Shrine as decorations. You get several things for doing so:
+· You receive 1 Ema every day of the campaign. You can hold up to 7 of them at a time.
+· Ema can be hung up at the shrine as decorations. Each time you do so, you will gain the following:
 1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.
-2. 1 Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.
-3. 2 Offerings which can be used at the Shrine to pray for additional buffs.
+2. An Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.
+3. 2 Offerings which can be used at the shrine to pray for additional buffs.
 · Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.
 
 - Making Offerings -
 · You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.
-· Making an offering presents you with 3 different buffs to choose from. All your ships can benefit from these buffs, and they are in effect in most game modes.
+· Making an offering presents you with 3 different buffs to choose from. All your shipgirls can benefit from these buffs, and they apply in most game modes.
 · Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it.]]
 		}
 	}
@@ -22432,6 +22436,7 @@ _G.pg.base.gametip.mini_cookgametip = {
 See what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.
 Completing orders correctly scores you points. Try to get as high a score as possible before the timer runs out.
 You'll receive a reward at the end of the minigame if you have at least 1 Minigame Point.
+Play the minigame over 7 days to receive various rewards, including a New Year's Invitation (2024).
 
 - How to Play -
 1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.
@@ -22476,6 +22481,30 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "1 bonus point for every 2 right desserts served!"
+}
+
+_G.pg.base.gametip.cook_game_laffey = {
+	tip = "After serving the right dessert, gains 1 extra point when serving the right dessert again!"
+}
+
+_G.pg.base.gametip.cook_game_janus = {
+	tip = "Raises/lowers the score for serving the right/wrong dessert at random!"
+}
+
+_G.pg.base.gametip.cook_game_flandre = {
+	tip = "Has helper manjuus!"
+}
+
+_G.pg.base.gametip.cook_game_constellation = {
+	tip = "Serving the right dessert has a chance to give the customer a <color=#FFE555>unique status</color>!"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_name = {
+	tip = "<color=#FFE555>Taste Teller</color>"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+	tip = "For 7s, your rivals can't serve the customer and you get double points when serving them the right dessert!"
 }
 
 _G.pg.base.gametip.random_ship_on = {
@@ -26938,6 +26967,62 @@ _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "Event unavailable "
 }
 
+_G.pg.base.gametip.commander_skill_ui_info = {
+	tip = "Info"
+}
+
+_G.pg.base.gametip.commander_skill_ui_confirm = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.commander_formation_prefab_fleet = {
+	tip = "In Use"
+}
+
 _G.pg.base.gametip.rect_ship_card_tpl_add = {
 	tip = "Tap to Add"
+}
+
+_G.pg.base.gametip.newyear2024_backhill_help = {
+	tip = {
+		{
+			info = [[
+Event lasts between <color=#92fc63>December 21st, 2023 to January 3rd, 2023</color>.
+
+- Overview -
+The New Year's Port campaign consists of the following:
+· New Year's Wishes
+· Operation: Patisserie II (minigame)
+· New Skins
+· Limited Construction
+
+- New Year's Wishes -
+You receive 1 Ema every day during the campaign. You can have up to 7 of them at a time.
+You can hang up Ema to receive fleet-wide buffs.
+
+- Operation: Patisserie II -
+You gain 1 Minigame Point every day during the campaign. You can have up to 7 of them at a time.
+Completing the minigame while in possession of a Minigame Point will subtract 1 point.
+Rewards obtainable from this minigame include the furnitures Surprise Lights, Neon Spotlights, and Bunbun UR Vouchers that can be exchanged for the UR shipgirl Laffey II.
+
+- New Skins -
+This takes you to the skins shop.
+
+- Limited Construction -
+This takes you to the build screen.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.last_times_sign = {
+	tip = "Unlocks Remaining: $1"
+}
+
+_G.pg.base.gametip.skin_page_sign = {
+	tip = "Claim"
+}
+
+_G.pg.base.gametip.skin_page_desc = {
+	tip = "Log in every day to get $1 unlock chance(s). Tap on an icon to unlock the corresponding side story!"
 }

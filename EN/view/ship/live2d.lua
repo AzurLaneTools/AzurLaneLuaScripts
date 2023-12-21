@@ -181,7 +181,7 @@ function slot12(slot0)
 		slot8 = slot0.drags[slot6]:getParameter()
 		slot9 = slot0.drags[slot6].parameterUpdateFlag
 
-		if (slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6]:getIgnoreReact() then
+		if (slot0.drags[slot6]:getParameToTargetFlag() or slot0.drags[slot6].active) and slot0.drags[slot6]:getIgnoreReact() then
 			slot1 = true
 		end
 
@@ -510,6 +510,7 @@ end
 function slot0.applyActiveData(slot0, slot1)
 	slot3 = slot1.ignore
 	slot4 = slot1.idle
+	slot5 = slot1.repeatFlag
 
 	if slot1.enable and #slot2 >= 0 then
 		slot0.enablePlayActions = slot2
@@ -519,8 +520,24 @@ function slot0.applyActiveData(slot0, slot1)
 		slot0.ignorePlayActions = slot3
 	end
 
-	if slot4 and slot4 >= 0 then
-		slot0:changeIdleIndex(slot4)
+	if slot4 then
+		if type(slot4) == "number" and slot4 >= 0 then
+			slot0:changeIdleIndex(slot4)
+		elseif type(slot4) == "table" then
+			slot6 = {}
+
+			for slot10, slot11 in ipairs(slot4) do
+				if slot11 == slot0.idleIndex then
+					if slot5 then
+						table.insert(slot6, slot11)
+					end
+				else
+					table.insert(slot6, slot11)
+				end
+			end
+
+			slot0:changeIdleIndex(slot6[math.random(1, #slot6)])
+		end
 	end
 end
 

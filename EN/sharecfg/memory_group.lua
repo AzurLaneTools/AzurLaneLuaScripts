@@ -167,6 +167,8 @@ pg.memory_group = setmetatable({
 		267,
 		268,
 		269,
+		270,
+		271,
 		501,
 		502,
 		503,
@@ -256,7 +258,8 @@ pg.memory_group = setmetatable({
 		589,
 		590,
 		591,
-		592
+		592,
+		593
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3988,6 +3991,67 @@ pg.base.memory_group = {
 			3227
 		}
 	},
+	[270] = {
+		id = 270,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 5131,
+		title = "Light-Chasing Sea of Stars",
+		memories = {
+			3228,
+			3229,
+			3230,
+			3231,
+			3232,
+			3233,
+			3234,
+			3235,
+			3236,
+			3237,
+			3238,
+			3239,
+			3240,
+			3241,
+			3242,
+			3243,
+			3244,
+			3245,
+			3246,
+			3247,
+			3248,
+			3249,
+			3250,
+			3251,
+			3252,
+			3253,
+			3254,
+			3255,
+			3256,
+			3257,
+			3258,
+			3259,
+			3260,
+			3261,
+			3262,
+			3263,
+			3264
+		}
+	},
+	[271] = {
+		id = 271,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5143,
+		title = "Port Fashion Collection: Resplendent Night",
+		memories = {
+			3272,
+			3273,
+			3274,
+			3275
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -5529,6 +5593,23 @@ pg.base.memory_group = {
 			3135,
 			3136,
 			3137
+		}
+	},
+	[593] = {
+		id = 593,
+		subtype = 0,
+		icon = "title_chara_guandao",
+		type = 3,
+		link_event = 0,
+		title = "Personality, Presenter, Secretary",
+		memories = {
+			3265,
+			3266,
+			3267,
+			3268,
+			3269,
+			3270,
+			3271
 		}
 	}
 }

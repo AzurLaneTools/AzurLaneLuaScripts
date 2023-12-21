@@ -1,35 +1,33 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[101501] = {
-		ship_group = 10150,
-		name = "Another Rebellious Summer",
+	[101510] = {
+		ship_group = 10151,
+		name = "Laffey II",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",
 		illustrator2 = -1,
 		bg_sp = "",
 		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70778,
-		painting = "hamanII_2",
+		group_index = 0,
 		illustrator = -1,
+		painting = "lafeiII",
 		l2d_voice_calibrate = "",
-		shop_type_id = 6,
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
-		bg = "106",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 101501,
+		bg = "",
+		spine_action_offset = true,
+		skin_type = -1,
+		id = 101510,
 		voice_actor_2 = -1,
-		prefab = "hamanII_2",
+		prefab = "lafeiII",
 		l2d_se = "",
 		main_UI_FX = "",
-		special_effects = "",
-		desc = "Hmph! I only promised to come to the beach because I was worried you'd be lonely! There's no deeper meaning—w-wait! What are you doing?! Stooop!",
-		voice_actor = 5,
-		spine_offset = "",
+		shop_id = 0,
+		desc = "Allen M. Sumner-class destroyer – Laffey II, Hull Number DD-724.",
+		voice_actor = 35,
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -38,9 +36,7 @@ pg.base.ship_skin_template_2 = {
 		live2d_offset_profile = "",
 		show_skin = "stand",
 		ship_l2d_id = "",
-		tag = {
-			2
-		},
+		tag = {},
 		live2d_offset = {
 			0,
 			0,
@@ -71,22 +67,29 @@ pg.base.ship_skin_template_2 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.25,
-					0.81,
+					1.89,
+					1.061,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.22,
-					0.73,
+					1.96,
+					1.095,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
-					0.067,
+					-0.164,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.762,
+					1.145,
 					0
 				}
 			}
@@ -98,13 +101,186 @@ pg.base.ship_skin_template_2 = {
 					{
 						"smoke",
 						{
-							-0.4,
-							2.33,
+							-0.274,
+							2.494,
 							0
 						}
 					}
 				}
 			}
+		},
+		spine_offset = {
+			{
+				-30,
+				-626,
+				0
+			},
+			{
+				0.7
+			}
+		},
+		special_effects = {
+			"lihui_lafeiII",
+			{
+				-73,
+				-18,
+				0
+			},
+			{
+				0.7
+			}
+		}
+	},
+	[101511] = {
+		ship_group = 10151,
+		name = "Sleepy on a Busy Day",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70937,
+		painting = "lafeiII_3",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = true,
+		skin_type = 0,
+		id = 101511,
+		voice_actor_2 = -1,
+		prefab = "lafeiII_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Laffey's helping out around the pop-up shop... Commander, sit wherever you want... Any open seat is probably fine.",
+		voice_actor = 35,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.674,
+					0.853,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					0.879,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.069,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.615,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.023,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
 		}
 	},
 	[102010] = {
@@ -3068,6 +3244,139 @@ pg.base.ship_skin_template_2 = {
 					}
 				}
 			}
+		}
+	},
+	[102097] = {
+		ship_group = 10209,
+		name = "Knight of the Pop-Up Shop",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 7,
+		shop_id = 70943,
+		painting = "kelifulan_8",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = "",
+		skin_type = 0,
+		id = 102097,
+		voice_actor_2 = -1,
+		prefab = "kelifulan_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Commander, you're early. There's plenty of time until the pop-up shop opens. But this is a good opportunity to ask – what do you think of the outfit I made just for this occasion? ...G-girly and cute? Woohoo! That's exactly the reaction I wanted!",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			20,
+			-36,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.103,
+					0.955,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.144,
+					0.059,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.168,
+					1.209,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.372,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10209701,
+			10209702,
+			10209703
 		}
 	},
 	[102098] = {
@@ -9224,6 +9533,112 @@ pg.base.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102311] = {
+		ship_group = 10231,
+		name = "Ready to Serve!",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70944,
+		painting = "xiusidunII_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "145",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102311,
+		voice_actor_2 = -1,
+		prefab = "xiusidunII_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Thank you for waiting! Houston is here and ready to serve! Mm... I've never worn a costume like this. It's kind of embarrassing... And is it just me, or is it a size or two too small?",
+		voice_actor = 7,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.682,
+					1.675,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.19,
+					0.048,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.805,
+					1.912,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.127,
+							2.437,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
 	[103010] = {
 		ship_group = 10301,
 		name = "Pensacola",
@@ -11134,216 +11549,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.27,
 							2.14,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[103101] = {
-		ship_group = 10310,
-		name = "Sweet Dreams",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70084,
-		painting = "Wensensi_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103101,
-		voice_actor_2 = -1,
-		prefab = "Wensensi_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Zzz... sho comfy... Huh? Commyander...?",
-		voice_actor = 144,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.34,
-					0.51,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.29,
-					0.5,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					0.56,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.13,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[103102] = {
-		ship_group = 10310,
-		name = "Leisurely ABC's",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70140,
-		painting = "wensensi_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103102,
-		voice_actor_2 = -1,
-		prefab = "wensensi_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Off to school we go~ Being punctual makes me a good girl~",
-		voice_actor = 144,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.63,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.65,
-					0.64,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.72,
-					0.65,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							2.11,
 							0
 						}
 					}

@@ -1,110 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_18 = {
-	[900278] = {
-		ship_group = 900278,
-		name = "{namecode:74}",
-		hand_id = 6,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "changmen",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900278,
-		voice_actor_2 = -1,
-		prefab = "changmen",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "No description",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					1.092,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[900279] = {
 		ship_group = 900279,
 		name = "Ranger",
@@ -8601,6 +8497,450 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
+	[900403] = {
+		ship_group = 900403,
+		name = "Silver Fox",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "silverfox_shadow",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900403,
+		voice_actor_2 = -1,
+		prefab = "silverfox_shadow",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Zuihou-class aircraft carrier – Chitose.",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.676,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[900404] = {
+		ship_group = 900404,
+		name = "War Protocol Fortress",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "baolei1",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900404,
+		voice_actor_2 = -1,
+		prefab = "baolei1",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Zuihou-class aircraft carrier – Chitose.",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.676,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[900405] = {
+		ship_group = 900405,
+		name = "War Protocol Fortress",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "baolei2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900405,
+		voice_actor_2 = -1,
+		prefab = "baolei2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Zuihou-class aircraft carrier – Chitose.",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.676,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[900406] = {
+		ship_group = 900406,
+		name = "Essex META",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "aisaikesi_alter",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900406,
+		voice_actor_2 = -1,
+		prefab = "aisaikesi_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Zuihou-class aircraft carrier – Chitose.",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.676,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
 	[9600010] = {
 		ship_group = 960001,
 		name = "Royal Fortune",
@@ -11089,228 +11429,6 @@ pg.base.ship_skin_template_18 = {
 						{
 							-0.21,
 							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9703010] = {
-		ship_group = 970301,
-		name = "Trento META",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "teluntuo_alter",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 9703010,
-		voice_actor_2 = -1,
-		prefab = "teluntuo_alter",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I am heavy cruiser Trento, and I will be your assistant. The best thing I could ask for is that my support helps you achieve your goals.",
-		voice_actor = 224,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.357,
-					0.865,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.365,
-					0.856,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.008,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.672,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.806,
-							1.9,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9703020] = {
-		ship_group = 970302,
-		name = "Algérie META",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "aerjiliya_alter",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 9703020,
-		voice_actor_2 = -1,
-		prefab = "aerjiliya_alter",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "You must be the Commander. I am the heavy cruiser Algérie. So, what pleasures can I experience here? I do hope you won't disappoint me. Heehee~",
-		voice_actor = 142,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.357,
-					0.865,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.365,
-					0.856,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.008,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.672,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.806,
-							1.9,
 							0
 						}
 					}

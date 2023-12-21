@@ -4,22 +4,37 @@ function slot0.getUIName(slot0)
 	return "MetaShop"
 end
 
+function slot0.ResId2ItemId(slot0, slot1)
+	return slot1
+end
+
 function slot0.SetResIcon(slot0)
-	setActive(slot0.resName.gameObject, false)
+	uv0.super.SetResIcon(slot0)
+end
 
+function slot0.UpdateTip(slot0)
 	slot0.time.text = i18n("meta_shop_tip")
-
-	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[slot0.shop:getResId()].icon, "", slot0.resIcon.gameObject)
 end
 
 function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnUpdateItems(slot0)
-	slot0.resCnt.text = (slot0.items[slot0.shop:getResId()] or Item.New({
-		count = 0,
-		id = slot1
-	})).count
+	slot1 = slot0.shop:GetResList()
+
+	for slot5, slot6 in pairs(slot0.resTrList) do
+		slot8 = slot6[2]
+		slot9 = slot6[3]
+
+		setActive(slot6[1], slot1[slot5] ~= nil)
+
+		if slot10 ~= nil then
+			slot9.text = (slot0.items[slot10] or Item.New({
+				count = 0,
+				id = slot10
+			})).count
+		end
+	end
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)

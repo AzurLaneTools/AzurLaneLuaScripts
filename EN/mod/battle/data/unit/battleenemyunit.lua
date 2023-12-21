@@ -127,8 +127,9 @@ end
 
 function slot8.IsSpectre(slot0)
 	slot1 = nil
+	slot1 = (slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and slot0._tmpData.battle_unit_type
 
-	return ((slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and slot0._tmpData.battle_unit_type) <= uv1.SPECTRE_UNIT_TYPE
+	return slot1 <= uv1.SPECTRE_UNIT_TYPE, slot1
 end
 
 function slot8.InitCldComponent(slot0)

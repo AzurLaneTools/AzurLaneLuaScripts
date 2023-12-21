@@ -219,20 +219,22 @@ return {
 			actorName = "Marco Polo",
 			say = "What in the name of... White armor, a bow, and a horse?",
 			movableNode = {
-				time = 2,
-				name = "shenpanjijia_zhipei",
-				spine = {
-					action = "move",
-					scale = 1
-				},
-				path = {
-					{
-						-1500,
-						0
+				{
+					time = 2,
+					name = "shenpanjijia_zhipei",
+					spine = {
+						action = "move",
+						scale = 1
 					},
-					{
-						1500,
-						0
+					path = {
+						{
+							-1500,
+							0
+						},
+						{
+							1500,
+							0
+						}
 					}
 				}
 			},

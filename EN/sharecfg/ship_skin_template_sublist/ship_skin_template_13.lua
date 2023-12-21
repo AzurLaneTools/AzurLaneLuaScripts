@@ -1,6 +1,470 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[403101] = {
+		ship_group = 40310,
+		name = "After-Hours Service",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70629,
+		painting = "adaerbote_2",
+		illustrator = -1,
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403101,
+		voice_actor_2 = -1,
+		prefab = "adaerbote_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Zzz... Huh? Did I doze off? I just meant to rest my eyes for a sec after closing up, but look how long I slept... Hang on, why are you still here, Commander?",
+		voice_actor = 297,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			60,
+			-50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
+	[403110] = {
+		ship_group = 40311,
+		name = "Yorck",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "yueke_ger",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 403110,
+		voice_actor_2 = -1,
+		prefab = "yueke_ger",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Roon-class armored cruiser – Yorck.",
+		voice_actor = 313,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.738,
+					1.319,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					1.426,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.387,
+					1.624,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.408,
+							2.337,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403111] = {
+		ship_group = 40311,
+		name = "Breaker under the Blood Moon",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70687,
+		painting = "yueke_ger_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 18,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "156",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403111,
+		voice_actor_2 = -1,
+		prefab = "yueke_ger_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "\"Foolish, pitiable creature. Kneel before your Goddess!\" Heehee! Hahahah, ahahahaha♥ You're the Commander, silly. You don't need to play along unless you want to.",
+		voice_actor = 313,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.708,
+					1.424,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.435,
+					1.299,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.677,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.415,
+							2.269,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403120] = {
+		ship_group = 40312,
+		name = "Little Prinz Eugen",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "ougen_younv",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 403120,
+		voice_actor_2 = -1,
+		prefab = "ougen_younv",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Admiral Hipper-class heavy cruiser – Prinz Eugen.",
+		voice_actor = 21,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.821,
+					1.446,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.51,
+					1.193,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.387,
+					1.609,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.528,
+							2.096,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[403130] = {
 		ship_group = 40313,
 		name = "Little Spee",
@@ -10560,353 +11024,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.946,
 							4.368,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[502020] = {
-		ship_group = 50202,
-		name = "Ning Hai",
-		hand_id = 15,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "ninghai",
-		illustrator = 5,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 502020,
-		voice_actor_2 = -1,
-		prefab = "ninghai",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Ning Hai-class Light Cruiser, Ning Hai",
-		voice_actor = 22,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							0.75,
-							-0.27
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.8,
-							2.45,
-							-0.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[502021] = {
-		ship_group = 50202,
-		name = "Summer Hunger",
-		hand_id = 15,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70016,
-		painting = "ninghai_2",
-		illustrator = 5,
-		l2d_voice_calibrate = "",
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "106",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 502021,
-		voice_actor_2 = -1,
-		prefab = "ninghai_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Summer’s all about the beach! And the beach is all about good food! Commander, let’s find something delicious to eat!",
-		voice_actor = 22,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					1.22,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.2,
-					1.22,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.13
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.22,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.23,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[502022] = {
-		ship_group = 50202,
-		name = "Moon Palace Rabbit",
-		hand_id = 15,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70013,
-		painting = "ninghai_3",
-		illustrator = 5,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 502022,
-		voice_actor_2 = -1,
-		prefab = "ninghai_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Happy Mid-Autumn Festival! I heard that if you pray to the moon today, you’ll become as pretty as the Goddess of the Moon! ...Eh? You’re gonna pray too?",
-		voice_actor = 22,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.19,
-					1.04,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.19,
-					1.04,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.19,
-					1.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.54,
 							0
 						}
 					}

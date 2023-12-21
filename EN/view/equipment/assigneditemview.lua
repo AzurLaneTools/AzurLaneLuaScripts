@@ -178,8 +178,10 @@ function slot0.update(slot0, slot1)
 
 	if underscore.any(slot0.displayDrops, function (slot0)
 		return slot0.type == DROP_TYPE_ITEM and slot0.cfg.type == Item.SKIN_ASSIGNED_TYPE
-	end) then
+	end) or slot3.type == DROP_TYPE_ITEM and slot3.cfg.type == Item.ASSIGNED_TYPE then
 		RegisterDetailButton(slot0, slot0.itemTF:Find("left/detail"), slot3)
+	else
+		removeOnButton(slot0.itemTF:Find("left/detail"))
 	end
 
 	setText(slot0.nameTF, slot1:getConfig("name"))

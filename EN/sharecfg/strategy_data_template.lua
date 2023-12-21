@@ -196,6 +196,7 @@ pg.strategy_data_template = setmetatable({
 		200239,
 		200240,
 		200241,
+		200242,
 		200327,
 		200330,
 		200333,
@@ -244,7 +245,9 @@ pg.strategy_data_template = setmetatable({
 		200670,
 		200673,
 		200676,
-		200679
+		200679,
+		200732,
+		200735
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2426,6 +2429,17 @@ pg.base.strategy_data_template = {
 		desc = "A dark threat looms over the horizon. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
 		arg = {}
 	},
+	[200242] = {
+		buff_id = 200242,
+		name = "Reorigination System",
+		iconSize = "",
+		type = 10,
+		id = 200242,
+		icon = "200242",
+		buff_type = 0,
+		desc = "The Tower has come to purge the system. \nAll ships lose a portion of their max HP at regular intervals during battle.",
+		arg = {}
+	},
 	[200327] = {
 		buff_id = 200327,
 		name = "Basilica Control Device - Inoperable",
@@ -2987,6 +3001,28 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		icon = "200654",
 		buff_type = 0,
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and inflicts a damage-over-time poison ailment to enemies it hits.",
+		arg = {}
+	},
+	[200732] = {
+		buff_id = 200732,
+		name = "Hoverfleet's Coercion",
+		iconSize = "",
+		type = 10,
+		id = 200732,
+		icon = "200732",
+		buff_type = 0,
+		desc = "The mysterious enemy is jamming your systems. Your ships have 5.0% decreased ACC and EVA and take 5.0% more DMG.",
+		arg = {}
+	},
+	[200735] = {
+		buff_id = 200735,
+		name = "Support from the Council",
+		iconSize = "",
+		type = 10,
+		id = 200735,
+		icon = "200735",
+		buff_type = 0,
+		desc = "The floating fleet is engaging in electronic warfare. All enemies have 5.0% decreased ACC and EVA and take 5.0% more DMG.",
 		arg = {}
 	}
 }

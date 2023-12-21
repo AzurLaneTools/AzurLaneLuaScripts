@@ -41,6 +41,8 @@ pg.pay_data_display = setmetatable({
 		55,
 		56,
 		57,
+		61,
+		62,
 		1000,
 		1001,
 		1002,
@@ -3992,6 +3994,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40928,
+				1
+			}
+		}
+	},
+	[61] = {
+		subject = "Resplendent Night Lucky Bag I",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Resplendent Night Lucky Bag I",
+		name_display = "Resplendent Night Lucky Bag I",
+		type_order = 2,
+		extra_gem = 0,
+		id = 61,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai9",
+		skin_inquire_relation = 86200,
+		id_str = "com.yostaren.azurlane.luckybag21",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag21",
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
+				1
+			}
+		}
+	},
+	[62] = {
+		subject = "Winter Swimsuit Lucky Bag 2022 A Rerun",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Winter Swimsuit Lucky Bag 2022 A Rerun",
+		name_display = "Winter Swimsuit Lucky Bag 2022 A Rerun",
+		type_order = 2,
+		extra_gem = 0,
+		id = 62,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe10_l",
+		skin_inquire_relation = 69922,
+		id_str = "com.yostaren.azurlane.luckybag20",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag20",
+		extra_service_item = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40922,
 				1
 			}
 		}

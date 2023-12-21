@@ -1,6 +1,248 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[701023] = {
+		ship_group = 70102,
+		name = "Shadowy Syndicate Showdown",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70675,
+		painting = "weiyan_4",
+		illustrator = -1,
+		shop_type_id = 12,
+		lip_smoothing = 0,
+		bg = "154",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 701023,
+		voice_actor_2 = -1,
+		prefab = "weiyan_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Our shift starts now. Królik, Pirožkí, Manjuus – form up! Let us realize our Manjuu comrades' dreams!",
+		voice_actor = 221,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.235,
+					1.011,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.188,
+					0.983,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.136,
+					0.889,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.501,
+							2.433,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
+	[701024] = {
+		ship_group = 70102,
+		name = "Tea Party with Królik",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 70702,
+		painting = "weiyan_5",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "157",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 701024,
+		voice_actor_2 = -1,
+		prefab = "weiyan_5",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "*burp*... Now I think I get the appeal of tea. Why is the cup so small, though? Do you have a bigger one on hand, Comrade Commander?",
+		voice_actor = 221,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.188,
+					0.983,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					0.84,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[701025] = {
 		ship_group = 70102,
 		name = "Bunny in the Banya",
@@ -11238,122 +11480,6 @@ pg.base.ship_skin_template_15 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[807021] = {
-		ship_group = 80702,
-		name = "Team Stretching",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70892,
-		painting = "banerwei_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "109",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 807021,
-		voice_actor_2 = -1,
-		prefab = "banerwei_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Phew... Commander...? Would you like to... hnnngh... stretch with me? Don't worry, it won't hurt. We have plenty of time, so we can take it slow...",
-		voice_actor = 354,
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.49,
-					1.229,
-					0
-				}
-			},
-			plane = {
-				{
-					1.41,
-					1.26,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.28,
-							-1.85
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-936,
-				-790,
-				0
-			},
-			{
-				0.7
 			}
 		}
 	}

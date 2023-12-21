@@ -1,6 +1,487 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[331051] = {
+		ship_group = 30105,
+		name = "Nightfall Raiment",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 11,
+		shop_id = 70420,
+		painting = "lingbo_10",
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		bg = "135",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 331051,
+		voice_actor_2 = -1,
+		prefab = "lingbo_10",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Commander, thank you for coming to the party. Ayanami... has been waiting for you. ...I look a bit scary? I'm not sure I get it... I guess.",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.279,
+					1.071,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.274,
+					1.175,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.304,
+					1.139,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.53,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_para_range = {
+			ParamAngleY = {
+				0,
+				0
+			},
+			ParamEyeBallX = {
+				-0.2,
+				0.2
+			},
+			ParamEyeBallY = {
+				-10,
+				10
+			},
+			ParamBodyAngleY = {
+				0,
+				0
+			}
+		}
+	},
+	[331052] = {
+		ship_group = 30105,
+		name = "Off-Duty Battle Station Gear",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 12,
+		shop_id = 0,
+		painting = "lingbo_11",
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 331052,
+		voice_actor_2 = -1,
+		prefab = "lingbo_11",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "No, Ryuujou! Samurai builds should stay back during the boss! ...Oh, welcome, Commander. I'm busy with this game right now, so just make yourself at home or something.",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.175,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.22,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[331053] = {
+		ship_group = 30105,
+		name = "Dynasty Shipgirl",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1101",
+		l2d_ignore_drag = 0,
+		group_index = 13,
+		shop_id = 70663,
+		painting = "lingbo_13",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "152",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 331053,
+		voice_actor_2 = -1,
+		prefab = "lingbo_13",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Rigging, activate!",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.224,
+					1.062,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.079,
+					1.033,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.167,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.603,
+							2.468,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[331054] = {
+		ship_group = 30105,
+		name = "Cola Fills You With Determination",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 14,
+		shop_id = 70736,
+		painting = "lingbo_14",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 331054,
+		voice_actor_2 = -1,
+		prefab = "lingbo_14",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Welcome. Ayanami will be taking your order, yes. Will this be dine-in, or to-go? I would personally recommend the cola.",
+		voice_actor = 32,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.994,
+					0.819,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.997,
+					0.824,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.109,
+					1.417,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.82,
+							1.8,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[331055] = {
 		ship_group = 30105,
 		name = "Dynamic Kick!",
@@ -4162,6 +4643,119 @@ pg.base.ship_skin_template_12 = {
 						{
 							-0.62,
 							2.24,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401352] = {
+		ship_group = 40135,
+		name = "Liebender Engel",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70942,
+		painting = "z35_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "145",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 401352,
+		voice_actor_2 = -1,
+		prefab = "z35_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "\"Welcome, my beloved Master♡ Heehee, I've been waiting here for you for sooo long!\" Heheh, did you get good pics this time? My beloved Master♪",
+		voice_actor = 123,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.619,
+					0.733,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.714,
+					0.666,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.042,
+					0.034,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.4,
+					0.8,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.058,
+							2.326,
 							-1.05
 						}
 					}
@@ -11116,470 +11710,6 @@ pg.base.ship_skin_template_12 = {
 						{
 							-0.4,
 							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403101] = {
-		ship_group = 40310,
-		name = "After-Hours Service",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70629,
-		painting = "adaerbote_2",
-		illustrator = -1,
-		shop_type_id = 17,
-		lip_smoothing = 0,
-		bg = "145",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 403101,
-		voice_actor_2 = -1,
-		prefab = "adaerbote_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Zzz... Huh? Did I doze off? I just meant to rest my eyes for a sec after closing up, but look how long I slept... Hang on, why are you still here, Commander?",
-		voice_actor = 297,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			60,
-			-50,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					0.98,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.39,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.53,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.38,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		}
-	},
-	[403110] = {
-		ship_group = 40311,
-		name = "Yorck",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "yueke_ger",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 403110,
-		voice_actor_2 = -1,
-		prefab = "yueke_ger",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Roon-class armored cruiser – Yorck.",
-		voice_actor = 313,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.738,
-					1.319,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.39,
-					1.426,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.387,
-					1.624,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.408,
-							2.337,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403111] = {
-		ship_group = 40311,
-		name = "Breaker under the Blood Moon",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70687,
-		painting = "yueke_ger_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 18,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "156",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 403111,
-		voice_actor_2 = -1,
-		prefab = "yueke_ger_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "\"Foolish, pitiable creature. Kneel before your Goddess!\" Heehee! Hahahah, ahahahaha♥ You're the Commander, silly. You don't need to play along unless you want to.",
-		voice_actor = 313,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.708,
-					1.424,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.435,
-					1.299,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.38,
-					1.677,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.415,
-							2.269,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403120] = {
-		ship_group = 40312,
-		name = "Little Prinz Eugen",
-		hand_id = 5,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "ougen_younv",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 403120,
-		voice_actor_2 = -1,
-		prefab = "ougen_younv",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Admiral Hipper-class heavy cruiser – Prinz Eugen.",
-		voice_actor = 21,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.821,
-					1.446,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.51,
-					1.193,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.387,
-					1.609,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.528,
-							2.096,
 							0
 						}
 					}

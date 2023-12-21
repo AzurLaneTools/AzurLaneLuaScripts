@@ -75,6 +75,13 @@ pg.benefit_buff_template = setmetatable({
 		71,
 		72,
 		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
 		101,
 		102,
 		103,
@@ -1386,6 +1393,125 @@ pg.base.benefit_buff_template = {
 		id = 73,
 		icon = "Props/60413",
 		benefit_type = "dorm_energy"
+	},
+	{
+		type_priority = 0,
+		name = "U-101's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "U-101's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 74,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Kazagumo's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Kazagumo's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 75,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Formidable's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Formidable's Blessings: Your ships gain 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 76,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Richelieu's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Richelieu's Blessings: Your ships gain 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 77,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Tashkent's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Tashkent's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 78,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Shangri-La' Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Shangri-La' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 79,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "Zara's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Zara's Blessings: Your ships earn 3.0% more EXP from Story, Hard, Event, and War Archives battles.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 80,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
 	},
 	[101] = {
 		type_priority = 1,

@@ -1,6 +1,122 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
+	[807021] = {
+		ship_group = 80702,
+		name = "Team Stretching",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1101",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70892,
+		painting = "banerwei_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 807021,
+		voice_actor_2 = -1,
+		prefab = "banerwei_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Phew... Commander...? Would you like to... hnnngh... stretch with me? Don't worry, it won't hurt. We have plenty of time, so we can take it slow...",
+		voice_actor = 354,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.49,
+					1.229,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.26,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.28,
+							-1.85
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-936,
+				-790,
+				0
+			},
+			{
+				0.7
+			}
+		}
+	},
 	[808010] = {
 		ship_group = 80801,
 		name = "Surcouf",

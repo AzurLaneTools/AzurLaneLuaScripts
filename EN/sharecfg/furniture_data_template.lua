@@ -132,6 +132,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100003,
 			100004,
@@ -2985,6 +2986,25 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			305305,
 			305306
+		},
+		[106] = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		}
 	},
 	get_id_list_by_tag = {
@@ -4774,7 +4794,18 @@ pg.furniture_data_template = setmetatable({
 			305116,
 			305117,
 			305118,
-			305119
+			305119,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111
 		},
 		{
 			1108,
@@ -5067,6 +5098,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100003,
 			100004,
@@ -5289,7 +5321,11 @@ pg.furniture_data_template = setmetatable({
 			305301,
 			305302,
 			305303,
-			305304
+			305304,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[4] = {
 			1001,
@@ -5382,7 +5418,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[3] = {
 			1002,
@@ -5476,7 +5513,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[5] = {
 			1301,
@@ -5894,7 +5932,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[7] = {
 			1,
@@ -6005,6 +6044,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			268,
 			100002,
 			100004,
 			100005,
@@ -7817,7 +7857,22 @@ pg.furniture_data_template = setmetatable({
 			305115,
 			305116,
 			305117,
-			305118
+			305118,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[11] = {
 			131,
@@ -7975,7 +8030,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[5] = {
 			1101,
@@ -8763,6 +8819,7 @@ pg.furniture_data_template = setmetatable({
 		264,
 		265,
 		266,
+		268,
 		100002,
 		100003,
 		100004,
@@ -11429,7 +11486,24 @@ pg.furniture_data_template = setmetatable({
 		305303,
 		305304,
 		305305,
-		305306
+		305306,
+		306001,
+		306002,
+		306101,
+		306102,
+		306103,
+		306104,
+		306105,
+		306106,
+		306107,
+		306108,
+		306109,
+		306110,
+		306111,
+		306112,
+		306113,
+		306114,
+		306115
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17633,6 +17707,49 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		spine = {
 			{
 				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[268] = {
+		effect = "",
+		name = "The Council's Unity Medal",
+		gain_by = "Light-Chasing Sea of Stars",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A reward given to personnel who displayed outstanding courage and aided the United Defense in their operation. Awarded to Commanders who displayed excellence during the \"Light-Chasing Sea of Stars\" event.",
+		tag = 6,
+		icon = "guandaoxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 268,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guandaoxunzhang",
 				"normal"
 			}
 		},
@@ -135302,6 +135419,871 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[306001] = {
+		icon = "dibanyydicon",
+		name = "Night Club Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 106,
+		picture = "yyd/dibanyyd",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "This is no regular floor... this is... THE DANCE FLOOR!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 306001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306002] = {
+		icon = "qiangbiyydicon",
+		name = "Night Club Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Watch those neon figures dance!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 306002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiyyd",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[306101] = {
+		effect = "",
+		name = "Neon Menu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/caidanyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Would you like extra ice with that?",
+		tag = 1,
+		icon = "caidanyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306101,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306102] = {
+		effect = "",
+		name = "Night Club Table w/ Bucket",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/chajiyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Revenge is best served cold. So are most drinks.",
+		tag = 1,
+		icon = "chajiyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306103] = {
+		effect = "",
+		name = "Neon Amp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/changdilabayyd",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Untz untz untz untz!",
+		tag = 1,
+		icon = "changdilabayydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306104] = {
+		effect = "",
+		name = "Pink Planet Bunny Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/diaoxiangfenyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A statue that expresses the laid-back nature of an average denizen of Planet Bunny.",
+		tag = 1,
+		icon = "diaoxiangfenyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306105] = {
+		effect = "",
+		name = "Blue Planet Bunny Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/diaoxianglanyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A statue that expresses the high-strung nature of an average denizen of Planet Bunny.",
+		tag = 1,
+		icon = "diaoxianglanyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306106] = {
+		effect = "",
+		name = "Night Club Seats",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yyd/kazuoyyd",
+		is_get_time_note = 0,
+		themeId = 106,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "VIP treatment, baybeee!",
+		tag = 1,
+		icon = "kazuoyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306106,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41,
+					122
+				},
+				{
+					-1,
+					1
+				},
+				"yyd/kazuoyyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306107] = {
+		effect = "",
+		name = "Drinks & Balloons",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/qiqiuyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This is more \"birthday party\" than \"dance party,\" but a party is a party, people!",
+		tag = 1,
+		icon = "qiqiuyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306108] = {
+		effect = "",
+		name = "Night Club Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yyd/shafayyd",
+		is_get_time_note = 0,
+		themeId = 106,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A secret meetup spot for peeps looking for someone to dance with.",
+		tag = 1,
+		icon = "shafayydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306108,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.7,
+					-3.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306109] = {
+		effect = "",
+		name = "Neon Spotlights",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/wutaidengyyd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Turn those pink lights on!",
+		tag = 1,
+		icon = "wutaidengyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306110] = {
+		effect = "",
+		name = "Night Club Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yyd/xiaodengyyd",
+		is_get_time_note = 0,
+		themeId = 106,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A place to rest after moving your body all night.",
+		tag = 1,
+		icon = "xiaodengyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306111] = {
+		effect = "",
+		name = "Dry Ice Drink Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 106,
+		is_get_time_note = 0,
+		picture = "yyd/yinliaoxiang1yyd",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Did we forget to mention? It's all-you-can-drink night tonight.",
+		tag = 1,
+		icon = "yinliaoxiang1yydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306112] = {
+		effect = "",
+		name = "Night Club DJ Booth",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Hardcore to the mega! Yeeeaaahhh!",
+		themeId = 106,
+		icon = "yinyuetaiyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinyuetaiyydB",
+				"normal"
+			},
+			{
+				"yinyuetaiyydT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[306113] = {
+		effect = "",
+		name = "Surprise Lights",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 106,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Give it a shot and spin the slots. You might get lucky.",
+		tag = 7,
+		icon = "laohujidengyydicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laohujidengyyd",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[306114] = {
+		effect = "",
+		name = "Night Club Bar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This is where you top up on party juice.",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "bataiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		rarity = 3,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306114,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[306115] = {
+		effect = "",
+		name = "Night Club Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Hey, DJ! Pop this party!",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "wutaiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		rarity = 4,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 306115,
+		can_rotate = 0,
+		size = {
+			11,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				-1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
 		},
 		interAction_group = {}
 	}

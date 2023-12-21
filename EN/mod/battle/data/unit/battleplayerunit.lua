@@ -31,8 +31,9 @@ end
 
 function slot7.IsSpectre(slot0)
 	slot1 = nil
+	slot1 = (slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and uv1.PLAYER_DEFAULT
 
-	return ((slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and uv1.PLAYER_DEFAULT) <= uv1.SPECTRE_UNIT_TYPE
+	return slot1 <= uv1.SPECTRE_UNIT_TYPE, slot1
 end
 
 function slot7.InitCurrentHP(slot0, slot1)
