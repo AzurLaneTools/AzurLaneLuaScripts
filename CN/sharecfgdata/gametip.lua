@@ -22389,7 +22389,7 @@ _G.pg.base.gametip.cook_game_janus = {
 }
 
 _G.pg.base.gametip.cook_game_flandre = {
-	tip = "拥有一名女仆啾协协助者"
+	tip = "拥有一名女仆啾协助者"
 }
 
 _G.pg.base.gametip.cook_game_constellation = {

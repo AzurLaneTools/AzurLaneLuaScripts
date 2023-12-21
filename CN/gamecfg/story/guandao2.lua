@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "当然是来检查一下指挥挂有没有好好吃晚饭啊~",
+			say = "当然是来检查一下指挥官有没有好好吃晚饭啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1

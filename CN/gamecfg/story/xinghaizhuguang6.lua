@@ -960,7 +960,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
-			say = "几秒种后，震动也消失了，只剩下控制面板规律的嘀嗒声。",
+			say = "几秒钟后，震动也消失了，只剩下控制面板规律的嘀嗒声。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
