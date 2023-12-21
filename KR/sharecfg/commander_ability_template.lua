@@ -5918,7 +5918,7 @@ pg.commander_ability_template = {
 				25
 			},
 			{
-				"<범선M>포격",
+				"<범선M>火力",
 				25
 			}
 		}

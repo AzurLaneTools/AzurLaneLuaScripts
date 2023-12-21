@@ -96,6 +96,10 @@ pg.enemy_data_by_type = {
 		type_name = "범선",
 		type = 24
 	},
+	{
+		type_name = "알 수 없음",
+		type = 25
+	},
 	all = {
 		1,
 		2,
@@ -120,6 +124,7 @@ pg.enemy_data_by_type = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

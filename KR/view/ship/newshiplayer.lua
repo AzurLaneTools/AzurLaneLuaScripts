@@ -650,6 +650,8 @@ function slot0.recyclePainting(slot0)
 	if slot0._shipVO then
 		retPaintingPrefab(slot0._paintingTF, slot0._shipVO:getPainting())
 		retPaintingPrefab(slot0._paintingShadowTF, slot0._shipVO:getPainting())
+
+		slot0._shipVO = nil
 	end
 end
 

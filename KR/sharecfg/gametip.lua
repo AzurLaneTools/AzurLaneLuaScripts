@@ -23100,5 +23100,100 @@ cs.gametip = {
 		940571,
 		1373,
 		true
+	},
+	vote_lable_not_start = {
+		941944,
+		93,
+		true
+	},
+	vote_lable_voting = {
+		942037,
+		91,
+		true
+	},
+	vote_lable_title = {
+		942128,
+		154,
+		true
+	},
+	vote_lable_acc_title_1 = {
+		942282,
+		102,
+		true
+	},
+	vote_lable_acc_title_2 = {
+		942384,
+		110,
+		true
+	},
+	vote_lable_curr_title_1 = {
+		942494,
+		113,
+		true
+	},
+	vote_lable_curr_title_2 = {
+		942607,
+		128,
+		true
+	},
+	vote_lable_window_title = {
+		942735,
+		100,
+		true
+	},
+	vote_lable_rearch = {
+		942835,
+		94,
+		true
+	},
+	vote_lable_daily_task_title = {
+		942929,
+		104,
+		true
+	},
+	vote_lable_daily_task_tip = {
+		943033,
+		137,
+		true
+	},
+	vote_lable_task_title = {
+		943170,
+		105,
+		true
+	},
+	vote_lable_task_list_is_empty = {
+		943275,
+		156,
+		true
+	},
+	vote_lable_ship_votes = {
+		943431,
+		90,
+		true
+	},
+	vote_help_2023 = {
+		943521,
+		5483,
+		true
+	},
+	vote_tip_level_limit = {
+		949004,
+		181,
+		true
+	},
+	vote_label_rank = {
+		949185,
+		85,
+		true
+	},
+	vote_label_rank_fresh_time_tip = {
+		949270,
+		137,
+		true
+	},
+	vote_tip_area_closed = {
+		949407,
+		139,
+		true
 	}
 }

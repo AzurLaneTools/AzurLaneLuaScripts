@@ -441,6 +441,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모나크를 위해 특별 제작한 전용 테두리</color>\n「Azurlane 인기 투표 2019」 이벤트 획득",
 		scene = {}
 	},
+	[416] = {
+		time_limit_type = 0,
+		name = "전당 기념: 체셔",
+		gain_by = "",
+		id = 416,
+		time_second = 0,
+		desc = "<color=#ffffff>체셔를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2023] 이벤트에서 획득",
+		scene = {}
+	},
+	[417] = {
+		time_limit_type = 0,
+		name = "전당 기념: {namecode:199: 뉴저지}",
+		gain_by = "",
+		id = 417,
+		time_second = 0,
+		desc = "<color=#ffffff>{namecode:199: 뉴저지}를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2023] 이벤트에서 획득",
+		scene = {}
+	},
+	[422] = {
+		time_limit_type = 0,
+		name = "전당 기념:에기르",
+		gain_by = "",
+		id = 422,
+		time_second = 0,
+		desc = "<color=#ffffff>에기르를 위해 특별 제작한 캐릭터 전용 프로필 테두리</color>\n[벽람항로 인기투표 2023] 이벤트에서 획득",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "맛의 기념",
@@ -599,6 +626,9 @@ pg.item_data_frame = {
 		401,
 		402,
 		413,
+		416,
+		417,
+		422,
 		501,
 		601,
 		602,

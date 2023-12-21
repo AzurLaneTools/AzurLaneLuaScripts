@@ -82,7 +82,7 @@ end
 
 function slot2(slot0, slot1)
 	if slot1.charPos then
-		return Vector2(slot1.charPos[0], slot1.charPos[1])
+		return Vector2(slot1.charPos[1], slot1.charPos[2])
 	elseif slot1.dir == 1 then
 		return slot1.mode == uv0.DIALOGUE_BLUE and Vector2(-400, -170) or Vector2(-350, 0)
 	else
@@ -113,7 +113,7 @@ function slot0.GenStyleData(slot0, slot1)
 		scale = slot1.dir == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1),
 		position = Vector2(slot1.posX or 0, slot1.posY or 0),
 		handPosition = slot1.handPos and Vector3(slot1.handPos.x, slot1.handPos.y, 0) or Vector3(-267, -96, 0),
-		handAngle = slot1.handPos and Vector3(0, 0, handPos.w or 0) or Vector3(0, 0, 0)
+		handAngle = slot1.handPos and Vector3(0, 0, slot1.handPos.w or 0) or Vector3(0, 0, 0)
 	}
 end
 
@@ -136,6 +136,10 @@ function slot0.GenHighLightData(slot0, slot1)
 	elseif slot1 and slot1.uiset then
 		for slot7, slot8 in ipairs(slot1.uiset) do
 			table.insert(slot3, slot2(slot8))
+		end
+	elseif slot1 and slot1.uiFunc then
+		for slot8, slot9 in ipairs(slot1.uiFunc()) do
+			table.insert(slot3, slot2(slot9))
 		end
 	end
 

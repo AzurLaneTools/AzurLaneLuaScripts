@@ -3335,33 +3335,8 @@ function slot0.updatePoisonAreaTip(slot0)
 	end
 end
 
-function slot0.updateVoteBookBtn(slot0, slot1)
-	slot2 = slot1 and not slot1:IsExpired()
-
-	setActive(slot0._voteBookBtn, slot2)
-	slot0:RemoveVoteBookTimer()
-
-	if slot2 then
-		onButton(slot0, slot0._voteBookBtn, function ()
-			uv0:emit(LevelMediator2.ON_VOTE_BOOK)
-		end, SFX_PANEL)
-
-		slot3 = slot0._voteBookBtn:Find("tip/Text"):GetComponent(typeof(Text))
-		slot0.voteBookTimer = Timer.New(function ()
-			uv0.text = uv1:GetCDTime()
-		end, 1, -1)
-
-		slot0.voteBookTimer:Start()
-		slot0.voteBookTimer.func()
-	end
-end
-
-function slot0.RemoveVoteBookTimer(slot0)
-	if slot0.voteBookTimer then
-		slot0.voteBookTimer:Stop()
-
-		slot0.voteBookTimer = nil
-	end
+function slot0.updateVoteBookBtn(slot0)
+	setActive(slot0._voteBookBtn, false)
 end
 
 function slot0.RecordLastMapOnExit(slot0)
@@ -3383,7 +3358,6 @@ end
 function slot0.willExit(slot0)
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
-	slot0:RemoveVoteBookTimer()
 
 	if slot0.contextData.chapterVO then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)

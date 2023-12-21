@@ -4,34 +4,36 @@ function slot0.Ctor(slot0, slot1)
 	slot0.rect = slot1.parent.rect
 	slot2 = slot1.parent.parent:Find("background")
 	slot0._tf = slot1
-	slot0.zoomDelegate = GetOrAddComponent(slot2, "MultiTouchZoom")
-	slot0.dragDelegate = GetOrAddComponent(slot2, "EventTriggerListener")
+	slot0.zoomDelegate = GetOrAddComponent(slot1, "MultiTouchZoom")
+	slot0.dragDelegate = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot0.initPosition = slot0._tf.localPosition
 end
 
 function slot0.Fold(slot0)
-	slot1 = slot0.zoomDelegate
-
-	slot1:SetZoomTarget(slot0._tf)
+	slot0.zoomDelegate:SetZoomTarget(slot0._tf)
 
 	slot0.zoomDelegate.enabled = true
 	slot0.dragDelegate.enabled = true
 
 	LeanTween.move(rtf(slot0._tf), Vector3.zero, 0.5)
 
-	slot1 = slot0._tf
-	slot2 = slot1.anchoredPosition.x
-	slot3 = slot1.anchoredPosition.y
-	slot6 = slot0.rect.width / UnityEngine.Screen.width
-	slot7 = slot0.rect.height / UnityEngine.Screen.height
-	slot8 = slot1.rect.width / 2
-	slot9 = slot1.rect.height / 2
-	slot10, slot11 = nil
-	slot12 = true
-	slot13 = false
-	slot14 = slot0.dragDelegate
+	if slot0._tf:Find("fitter"):GetChild(0) then
+		slot1:GetComponent(typeof(Image)).raycastTarget = true
+	end
 
-	slot14:AddPointDownFunc(function (slot0)
+	slot2 = slot0._tf
+	slot3 = slot2.anchoredPosition.x
+	slot4 = slot2.anchoredPosition.y
+	slot7 = slot0.rect.width / UnityEngine.Screen.width
+	slot8 = slot0.rect.height / UnityEngine.Screen.height
+	slot9 = slot2.rect.width / 2
+	slot10 = slot2.rect.height / 2
+	slot11, slot12 = nil
+	slot13 = true
+	slot14 = false
+	slot15 = slot0.dragDelegate
+
+	slot15:AddPointDownFunc(function (slot0)
 		if Input.touchCount == 1 or IsUnityEditor then
 			uv0 = true
 			uv1 = true
@@ -41,25 +43,25 @@ function slot0.Fold(slot0)
 		end
 	end)
 
-	slot14 = slot0.dragDelegate
+	slot15 = slot0.dragDelegate
 
-	slot14:AddPointUpFunc(function (slot0)
+	slot15:AddPointUpFunc(function (slot0)
 		if Input.touchCount <= 2 then
 			uv0 = true
 		end
 	end)
 
-	slot14 = slot0.dragDelegate
+	slot15 = slot0.dragDelegate
 
-	slot14:AddBeginDragFunc(function (slot0, slot1)
+	slot15:AddBeginDragFunc(function (slot0, slot1)
 		uv0 = false
 		uv1 = slot1.position.x * uv2 - uv3 - uv4.localPosition.x
 		uv5 = slot1.position.y * uv6 - uv7 - uv4.localPosition.y
 	end)
 
-	slot14 = slot0.dragDelegate
+	slot15 = slot0.dragDelegate
 
-	slot14:AddDragFunc(function (slot0, slot1)
+	slot15:AddDragFunc(function (slot0, slot1)
 		if uv0 then
 			slot2 = uv1._tf.localPosition
 			uv1._tf.localPosition = Vector3(slot1.position.x * uv2 - uv3 - uv4, slot1.position.y * uv5 - uv6 - uv7, -22)
@@ -77,6 +79,10 @@ function slot0.UnFold(slot0)
 	slot0.dragDelegate:AddPointUpFunc(nil)
 	slot0.dragDelegate:AddBeginDragFunc(nil)
 	slot0.dragDelegate:AddDragFunc(nil)
+
+	if slot0._tf:Find("fitter"):GetChild(0) then
+		slot1:GetComponent(typeof(Image)).raycastTarget = false
+	end
 end
 
 function slot0.Dispose(slot0)

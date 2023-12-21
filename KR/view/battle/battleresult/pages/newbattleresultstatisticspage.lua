@@ -214,7 +214,9 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_PANEL)
 
 	if slot0.contextData.autoSkipFlag then
-		triggerButton(slot0.confrimBtn)
+		onNextTick(function ()
+			triggerButton(uv0.confrimBtn)
+		end)
 	end
 end
 
@@ -600,7 +602,7 @@ function slot0.DisplayShipDialogue(slot0, slot1)
 	if slot0.contextData.score > 1 then
 		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot1:getCVIntimacy())
 	else
-		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_LOSE)
+		slot2, slot4, slot3 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_LOSE, nil, , slot1:getCVIntimacy())
 	end
 
 	slot0.chatText.text = slot3

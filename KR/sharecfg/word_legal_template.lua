@@ -4526,7 +4526,18 @@ function temp()
 		},
 		["로"] = {
 			["프"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["어"] = {

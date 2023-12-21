@@ -25,14 +25,12 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onAttach",
-				"onRemove"
+				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.15
+				buff_id = 801049
 			}
 		},
 		{

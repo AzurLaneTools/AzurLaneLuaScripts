@@ -20,7 +20,6 @@ function slot0.OnInit(slot0)
 		uv0:onReturnItem(slot0, slot1)
 	end
 
-	setActive(slot0._tf, true)
 	slot0._tf:SetAsFirstSibling()
 end
 
@@ -51,8 +50,15 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.UpdateShip(slot0, slot1, slot2, slot3)
-	if slot0.phase == VoteGroup.DISPLAY_STAGE then
-		slot2:update(slot3, slot0.voteGroup:GetRank(slot3))
+	if slot0.phase ~= VoteGroup.VOTE_STAGE then
+		slot4 = slot0.voteGroup:GetRank(slot3)
+		slot5, slot6 = slot0.voteGroup:CanRankToNextTurn(slot4)
+
+		slot2:update(slot3, {
+			rank = slot4,
+			riseFlag = slot5,
+			resurgenceFlag = slot6
+		})
 	else
 		slot2:update(slot3, nil)
 	end
@@ -74,10 +80,11 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.displays = slot2
 
 	slot0:UpdateShips()
+	slot0:Show()
 end
 
 function slot0.UpdateShips(slot0)
-	if slot0.phase == VoteGroup.VOTE_STAGE or slot0.phase == VoteGroup.STTLEMENT_STAGE then
+	if slot0.phase == VoteGroup.VOTE_STAGE then
 		shuffle(slot0.displays)
 	end
 

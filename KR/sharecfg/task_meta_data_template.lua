@@ -202,6 +202,11 @@ pg.task_meta_data_template = setmetatable({
 		100133,
 		100134,
 		100135,
+		100141,
+		100142,
+		100143,
+		100144,
+		100145,
 		200001,
 		200002,
 		200003,
@@ -253,7 +258,11 @@ pg.task_meta_data_template = setmetatable({
 		200131,
 		200132,
 		200133,
-		200134
+		200134,
+		200141,
+		200142,
+		200143,
+		200144
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1858,6 +1867,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100141] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "키로프·META를 사용해 승리 1회",
+		id = 100141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100142] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "키로프·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100142,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100143] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "키로프·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100143,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100144] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "키로프·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100144,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100145] = {
+		target_id_2 = "970206",
+		sub_type = 180,
+		desc = "키로프·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100145,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2271,6 +2320,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 에레버스·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200134,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200141] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "대형 작전에서 키로프·META·META를 사용해 1회 승리",
+		id = 200141,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200142] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "대형 작전에서 키로프·META·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200142,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200143] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "대형 작전에서 키로프·META·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200143,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200144] = {
+		target_id_2 = "970206",
+		sub_type = 302,
+		desc = "대형 작전에서 키로프·META·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200144,
 		target_num = 1,
 		target_id = "100"
 	}

@@ -342514,6 +342514,518 @@ _G.pg.base.ship_data_statistics[9702054] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9702061] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "키로프·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702060,
+	english_name = "Kirov.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702061,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		710,
+		38,
+		56,
+		65,
+		0,
+		69,
+		0,
+		41,
+		27,
+		37,
+		52,
+		37
+	},
+	attrs_growth = {
+		12952,
+		530,
+		749,
+		836,
+		0,
+		478,
+		0,
+		575,
+		423,
+		0,
+		0,
+		514
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		261
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KirovMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702062] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "키로프·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702060,
+	english_name = "Kirov.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702062,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		883,
+		48,
+		70,
+		81,
+		0,
+		69,
+		0,
+		41,
+		27,
+		37,
+		52,
+		46
+	},
+	attrs_growth = {
+		12952,
+		530,
+		749,
+		836,
+		0,
+		478,
+		0,
+		575,
+		423,
+		0,
+		0,
+		514
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		262
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KirovMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702063] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "키로프·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702060,
+	english_name = "Kirov.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702063,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1230,
+		67,
+		98,
+		113,
+		0,
+		69,
+		0,
+		41,
+		27,
+		37,
+		52,
+		65
+	},
+	attrs_growth = {
+		12952,
+		530,
+		749,
+		836,
+		0,
+		478,
+		0,
+		575,
+		423,
+		0,
+		0,
+		514
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		263
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KirovMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702064] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "키로프·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702060,
+	english_name = "Kirov.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702064,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1749,
+		95,
+		139,
+		161,
+		0,
+		69,
+		0,
+		41,
+		27,
+		37,
+		52,
+		93
+	},
+	attrs_growth = {
+		12952,
+		530,
+		749,
+		836,
+		0,
+		478,
+		0,
+		575,
+		423,
+		0,
+		0,
+		514
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.35,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KirovMETA"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9703011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -382694,7 +383206,9 @@ _G.pg.base.ship_data_statistics[11000021] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		221
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -382820,7 +383334,9 @@ _G.pg.base.ship_data_statistics[11000022] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		222
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -382946,7 +383462,9 @@ _G.pg.base.ship_data_statistics[11000023] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		223
+	},
 	default_equip_list = {
 		102,
 		107,
@@ -383072,7 +383590,9 @@ _G.pg.base.ship_data_statistics[11000024] = {
 		0,
 		0
 	},
-	fix_equip_list = {},
+	fix_equip_list = {
+		224
+	},
 	default_equip_list = {
 		102,
 		107,
