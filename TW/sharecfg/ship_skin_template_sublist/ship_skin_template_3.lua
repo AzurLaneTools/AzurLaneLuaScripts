@@ -3962,7 +3962,7 @@ pg.base.ship_skin_template_3 = {
 	},
 	[103260] = {
 		ship_group = 10326,
-		name = "北安普頓II",
+		name = "北安普敦II",
 		hand_id = 3,
 		bgm = "",
 		l2d_drag_rate = "",

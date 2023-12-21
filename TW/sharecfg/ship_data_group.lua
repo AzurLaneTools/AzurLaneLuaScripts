@@ -3007,7 +3007,9 @@ pg.base.ship_data_group = {
 		code = 27,
 		group_type = 10125,
 		trans_type = 1,
-		share_group_id = {},
+		share_group_id = {
+			10150
+		},
 		property_hexagon = {
 			"C",
 			"C",
@@ -5559,7 +5561,9 @@ pg.base.ship_data_group = {
 		code = 41,
 		group_type = 10303,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			10326
+		},
 		property_hexagon = {
 			"A",
 			"E",
@@ -7374,7 +7378,9 @@ pg.base.ship_data_group = {
 		code = 76,
 		group_type = 10705,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			10710
+		},
 		property_hexagon = {
 			"E",
 			"E",
@@ -7518,7 +7524,9 @@ pg.base.ship_data_group = {
 		code = 78,
 		group_type = 10707,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			10712
+		},
 		property_hexagon = {
 			"E",
 			"E",

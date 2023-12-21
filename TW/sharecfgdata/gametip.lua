@@ -9653,7 +9653,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "約克城II、北安普敦II、哈曼II建造機率UP！"
+	tip = "約克鎮II、北安普敦II、哈曼II建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

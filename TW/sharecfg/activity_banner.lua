@@ -547,13 +547,6 @@ pg.activity_banner = {
 		id = 201,
 		pic = "autumn"
 	},
-	[202] = {
-		param = "",
-		time = "stop",
-		type = 13,
-		id = 202,
-		pic = "winter"
-	},
 	[203] = {
 		param = "",
 		id = 203,
@@ -574,7 +567,7 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2022,
+					2023,
 					12,
 					29
 				},
@@ -617,6 +610,13 @@ pg.activity_banner = {
 				}
 			}
 		}
+	},
+	[202] = {
+		param = "",
+		time = "always",
+		type = 13,
+		id = 202,
+		pic = "winter"
 	},
 	[1000] = {
 		id = 1000,
@@ -922,9 +922,9 @@ pg.activity_banner = {
 		[13] = {
 			200,
 			201,
-			202,
 			203,
-			204
+			204,
+			202
 		},
 		[8] = {
 			1015
@@ -953,9 +953,9 @@ pg.activity_banner = {
 		105,
 		200,
 		201,
-		202,
 		203,
 		204,
+		202,
 		1000,
 		1001,
 		1002,
