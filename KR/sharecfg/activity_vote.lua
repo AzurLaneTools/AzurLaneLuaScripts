@@ -2526,7 +2526,7 @@ pg.activity_vote = {
 	},
 	[37] = {
 		same_rank_by_id = 20,
-		name = "특별 투표 설명 없음",
+		name = "특별 투표 1",
 		ticket_period = 0,
 		type = 7,
 		is_in_game = 1,
@@ -2632,7 +2632,7 @@ pg.activity_vote = {
 	},
 	[38] = {
 		same_rank_by_id = 20,
-		name = "특별 투표 설명 없음",
+		name = "특별 투표 2",
 		ticket_period = 0,
 		type = 7,
 		is_in_game = 1,
@@ -2757,7 +2757,7 @@ pg.activity_vote = {
 	},
 	[39] = {
 		same_rank_by_id = 20,
-		name = "특별 투표 설명 없음",
+		name = "특별 투표 3",
 		ticket_period = 0,
 		type = 7,
 		is_in_game = 1,

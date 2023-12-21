@@ -23173,26 +23173,26 @@ cs.gametip = {
 	},
 	vote_help_2023 = {
 		943521,
-		5483,
+		5484,
 		true
 	},
 	vote_tip_level_limit = {
-		949004,
+		949005,
 		181,
 		true
 	},
 	vote_label_rank = {
-		949185,
+		949186,
 		85,
 		true
 	},
 	vote_label_rank_fresh_time_tip = {
-		949270,
+		949271,
 		137,
 		true
 	},
 	vote_tip_area_closed = {
-		949407,
+		949408,
 		139,
 		true
 	}
