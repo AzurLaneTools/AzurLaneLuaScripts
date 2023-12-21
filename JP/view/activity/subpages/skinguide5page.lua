@@ -5,16 +5,35 @@ slot1 = {
 	"kelifulan",
 	"xingzuo"
 }
-slot2 = {
-	Vector2(-490, 130),
-	Vector2(-400, -128),
-	Vector2(89, 10),
-	Vector2(-489, 71)
-}
+slot2 = nil
 slot3 = "ui/activityuipage/skinguide5page_atlas"
 
 function slot0.OnInit(slot0)
 	slot0.ad = slot0:findTF("AD")
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		uv0 = {
+			Vector2(-488, 52),
+			Vector2(-420, -41),
+			Vector2(102, -82),
+			Vector2(-471, -128)
+		}
+	elseif PLATFORM_CODE == PLATFORM_US then
+		uv0 = {
+			Vector2(-480, 189),
+			Vector2(-445, -101),
+			Vector2(-410, -101),
+			Vector2(-354, -108)
+		}
+	else
+		uv0 = {
+			Vector2(-490, 130),
+			Vector2(-400, -128),
+			Vector2(89, 10),
+			Vector2(-478, 57)
+		}
+	end
+
 	slot0.paint = findTF(slot0.ad, "paint")
 	slot0.paintGot = findTF(slot0.paint, "show/got")
 	slot0.paintAnim = GetComponent(slot0.paint, typeof(Animator))
