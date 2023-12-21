@@ -233240,7 +233240,7 @@ _G.pg.base.item_data_statistics[81200] = {
 
 _G.pg.base.item_data_statistics[86200] = {
 	display = "不会被看到",
-	name = "Resplendent Night Lucky Bag I",
+	name = "Random Skin",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,

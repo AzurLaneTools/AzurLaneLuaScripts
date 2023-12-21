@@ -16136,7 +16136,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780025] = {
 		map = 1780025,
-		name = "Light-Chasing Sea of Stars·SP|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -16180,7 +16180,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780026] = {
 		map = 1780026,
-		name = "Light-Chasing Sea of Stars·EX|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

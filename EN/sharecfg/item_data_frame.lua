@@ -429,7 +429,7 @@ pg.item_data_frame = {
 		gain_by = "Light-Chasing Sea of Stars",
 		id = 328,
 		time_second = 0,
-		desc = "\"The heaven that covers all, the causality that replicates the world. Cross the line in the sand and let the eternal truth be impressed upon all.\"",
+		desc = "<color=#ffffff>\"The heaven that covers all, the causality that replicates the world. Cross the line in the sand and let the eternal truth be impressed upon all.\"</color>\nObtained from the \"Light-Chasing Sea of Stars\" event.",
 		scene = {}
 	},
 	[406] = {
