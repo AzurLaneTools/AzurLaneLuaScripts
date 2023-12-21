@@ -5526,6 +5526,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_198",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi158",
@@ -5580,32 +5581,6 @@ pg.base.pay_data_display = {
 				20
 			}
 		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				2,
@@ -5649,6 +5624,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_328",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi159",
@@ -5698,32 +5674,6 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				2,
@@ -5767,6 +5717,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "fudai8",
 		skin_inquire_relation = 69984,
 		id_str = "com.bilibili.blhx.zuanshi160",
@@ -5809,32 +5760,6 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -8673,6 +8598,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao201",
@@ -8690,32 +8616,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -8756,6 +8656,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day2",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao202",
@@ -8768,32 +8669,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -8829,6 +8704,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day3",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao203",
@@ -8846,32 +8722,6 @@ pg.base.pay_data_display = {
 				2,
 				30114,
 				5
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -8912,6 +8762,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day4",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao204",
@@ -8929,32 +8780,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -8995,6 +8820,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day5",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao205",
@@ -9007,32 +8833,6 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -9068,6 +8868,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day6",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao206",
@@ -9085,32 +8886,6 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -9151,6 +8926,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
+		time = "stop",
 		picture = "pack_day7",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao207",
@@ -9168,32 +8944,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {

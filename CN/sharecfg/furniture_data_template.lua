@@ -20016,7 +20016,7 @@ pg.base.furniture_data_template = {
 	},
 	[267] = {
 		rarity = 4,
-		describe = "池温泉，四种体验~",
+		describe = "一池温泉，四种体验~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
