@@ -12,7 +12,7 @@ return {
 		{
 			type = "BattleBuffFixDamage",
 			trigger = {
-				"onTakeDamage"
+				"onBeforeTakeDamage"
 			},
 			arg_list = {
 				target = "TargetSelf",

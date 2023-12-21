@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>静谧烟火之夜</size>",
+					"水邊的假日\n\n<size=45>靜謐煙火之夜</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-richang-8",
 			actor = 301862,
 			nameColor = "#A9F548FF",
-			say = "啊……指挥官……竟然顺利找到这里了。",
+			say = "啊……指揮官……竟然順利找到這裡了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是顺着{namecode:203}给的线索，游泳来到这里的吗？太好了……",
+			say = "是順著風雲給的線索，游泳來到這裡的嗎？太好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……指挥官游累了吗？可以在这里慢慢休息……不会有人来打扰的。",
+			say = "那……指揮官游累了嗎？可以在這裡慢慢休息……不會有人來打擾的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,11 +87,11 @@ return {
 			},
 			options = {
 				{
-					content = "枟是一个人在这里？",
+					content = "風雲是一個人在這裡？",
 					flag = 1
 				},
 				{
-					content = "所以这里是枟的秘密地点？",
+					content = "所以這裡是風雲的秘密地點？",
 					flag = 2
 				}
 			}
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…{namecode:203}喜欢在能看到烟花，又稍微偏僻点的地方，一个人待着。",
+			say = "嗯……風雲喜歡在能看到煙火，又稍微偏僻點的地方，一個人待著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，如果能和指挥官独…独处…什么的……就……唔……",
+			say = "當然，如果能和指揮官獨……獨處……什麼的……就……唔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里是只有我知道的绝佳地点哦……",
+			say = "嗯……這裡是只有我知道的絕佳地點喔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过，从现在开始，这就是我和指挥官的共同秘密了……",
+			say = "不過，從現在開始，這就是我和指揮官的共同秘密了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，指挥官，{namecode:203}今天很高兴哦……",
+			say = "總之，指揮官，風雲今天很高興喔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官是{namecode:203}，最好的朋友，我想和最好的朋友分享这里……",
+			say = "指揮官是風雲，最好的朋友，我想和最好的朋友分享這裡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在休息时，和{namecode:203}一起看烟花吧，指挥官。",
+			say = "休息時，和風雲一起看煙火吧，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然烟花有点远，但是远一点看，也很漂亮的。",
+			say = "雖然煙火有點遠，但遠一點看，也很漂亮的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，指挥官，这个给你。渴了的话，可以喝。",
+			say = "對了，指揮官，這個給你。渴了的話，可以喝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "带着些许温热的饮料罐被塞到了怀里。",
+			say = "帶著些許溫熱的飲料罐被塞到了懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冰淇淋只有一个……但饮料的话，{namecode:203}有多的。",
+			say = "冰淇淋只有一個……但飲料的話，風雲有多的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "绚烂的烟花自对岸升起，照亮了{namecode:203}微红的脸颊。",
+			say = "絢爛的煙火自對岸升起，照亮了風雲微紅的臉頰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……一起享受烟花大会吧，指挥官。",
+			say = "……一起享受煙火大會吧，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1

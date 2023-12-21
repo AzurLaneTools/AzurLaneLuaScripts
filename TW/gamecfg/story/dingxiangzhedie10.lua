@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			stopbgm = true,
-			say = "演习海域·一段时间后————",
+			say = "演習海域·一段時間後————",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "根据预先分配，舰队此刻分为了三支彼此配合的小队。",
+			say = "根據預先分配，艦隊此刻分為了三支彼此配合的小隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "北安普敦与大黄蜂一组，哈曼与约克城一组，兰利则与指挥舰一同行动。",
+			say = "北安普敦與大黃蜂一組，哈曼與約克鎮一組，蘭利則與指揮艦一同行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次是大型舰载无人机群，确定是来自航母战斗群，孟菲斯投入主力舰队开始砸门了！",
+			say = "這次是大型艦載無人機群，確定是來自航母戰鬥群，曼非斯投入主力艦隊開始砸門了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "兰利，我们需要一个整体态势更新——",
+			say = "蘭利，我們需要一個整體動態更新——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，两秒后进行状况更新——",
+			say = "稍等，兩秒後進行狀況更新——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "同步完毕。注意，敌方的航母编队中包含大量特化的防空护卫舰。",
+			say = "同步完畢。注意，敵方的航母編隊中包含大量特化的防空護衛艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还需要一段时间来识别可能的敌方指挥舰，标记完成前不要盲目进攻。",
+			say = "我還需要一段時間來識別可能的敵方指揮艦，標記完成前不要盲目進攻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，大黄蜂那边的水面战线暂时稳住了。",
+			say = "指揮官，大黃蜂那邊的水面戰線暫時穩住了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "但是现状不算很乐观……和我们预测的一样，这次的演习压力非常大，",
+			say = "但是現狀不算很樂觀……和我們預測的一樣，這次的演習的壓力非常大，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "不光是无人机，这次蓝方还投入了大量水下无人潜航器。",
+			say = "不光是無人機，這次藍方也投入了大量水下無人潛航器。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前能依靠性能取得的压倒性优势不复存在，现在反倒是我们被更加廉价的无人设备弄得难以招架……",
+			say = "以前能依靠性能取得的壓倒性優勢不復存在，現在反倒是我們被更廉價的無人設備弄得難以招架……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（昨晚在与安洁的工作中，翻阅了一些关于本次测试的II型舰装相关的资料。）",
+			say = "（昨晚在與安潔的工作中，翻閱了一些關於本次測試的II型艦裝相關的資料。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（记得这些新型舰装主要提高了动力与电子战作战能力。）",
+			say = "（記得這些新型艦裝主要提升了動力與電子戰作戰能力。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（可以让设备拥有更好的干扰力与抗干扰力，也可以更好地同时处理多个运动目标。）",
+			say = "（可以讓設備擁有更好的干擾力與抗干擾力，也可以更好的同時處理多個運動目標。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（同时因为采用了特殊工艺，在制作过程中使用了额外的心智魔方。）",
+			say = "（同時因為採用了特殊工藝，在製作過程中使用了額外的心智魔方。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（也因此，这些舰装在使用时可以大幅增强舰船本体的作战能力，同时所有使用II型舰装的舰船也可以拥有某些协作能力。）",
+			say = "（也因此，這些艦裝在使用時可以大幅增強艦船本體的作戰能力，同時所有使用II型艦裝的艦船也可以擁有某些協作能力。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "兰利，我记得II型船的特性之一就是“数据链”对么？",
+			say = "蘭利，我記得II型船的特性之一就是「資料鏈」對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，毕竟这就是II型船除了性能外最为出众的特点了！",
+			say = "當然，畢竟這就是II型船除了性能外最出眾的特點了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "II型舰队成员之间的“数据链”能把性能的优势发挥到极致，任何侦查手段得到的数据都能实时共享给所有成员！",
+			say = "II型艦隊成員之間的「資料鏈」可以將效能的優勢發揮到了極致，任何偵查手段得到的資料都能即時分享給所有成員！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,52 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算是大量移动目标同时出现，也能有条不紊地处理。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107270,
-			say = "要不是这样，我们面前这个以秒为单位更新的实时态势图也实现不了哦！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_zhedie_3",
-			say = "然后在必要的时候，包括舰载机在内的一部分作战兵器可以实现协作与共享？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107270,
-			side = 2,
-			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯，没错。这也是II型舰装带来的全新作战功能。",
+			say = "就算是大量移動目標同時出現，也能有條不紊地處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "其实在作战开始的时候，我就已经接管了一部分其他人的侦察设备，以减少她们在面对多目标时的压力。",
+			say = "要不是這樣，我們面前這個以秒為單位更新的即時動態圖也實現不了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "既然如此，配属的侦察机，也可以根据战场情况在航空母舰之间自由分配吧？",
+			say = "然後在必要的時候，包括艦載機在內的部分作戰兵器可以實現協作與共享？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +383,52 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错……啊，原来如此，我倒是没想到这一点！",
+			say = "嗯，沒錯。這也是II型艦裝帶來的全新作戰功能。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_zhedie_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107270,
+			say = "其實在作戰開始的時候，我就已經接手了一部分其他人的偵察設備，以減少她們在面對多目標時的壓力。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_zhedie_3",
+			say = "既然如此，配屬的偵察機，也可以根據戰場情況在航空母艦之間自由分配吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107270,
+			side = 2,
+			bgName = "bg_zhedie_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "沒錯……啊，原來如此，我倒是沒想到這一點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "不愧是参与了II型舰装研发的老师，对它的理解就是不一样。",
+			say = "不愧是參與了II型艦裝研發的老師，對它的理解就是不一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（原来在大家的认知里，我也参与了这个项目么……虽然我对此一点记忆都没有就是了。）",
+			say = "（原來在大家的認知裡，我也參與了這個項目嗎……雖然我對此一點記憶都沒有就是了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "约克城，能听到么？",
+			say = "約克鎮，聽得到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很清晰，指挥官。",
+			say = "很清晰，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "情况如何？反潜作战压力大吗？",
+			say = "情況如何？反潛作戰壓力大嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "还好，我们这边暂时还没有漏过任何水下目标。",
+			say = "還好，我們這邊暫時還沒有漏過任何水下目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但无人潜航器的数量实在是太多了……我又要专注于对空，哈曼已经快顾不过来了。",
+			say = "但無人潛航器的數量實在是太多了……我又要專注於對空，哈曼已經快顧不過來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在我们这边也是一刻都不能放松，暂时支援不了大黄蜂那边。",
+			say = "現在我們這邊也是一刻都不能放鬆，暫時支援不了大黃蜂那邊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "放心，不是让你们支援。大黄蜂那边暂时还坚持得住。",
+			say = "放心，不是讓妳們支援。大黃蜂那邊暫時還堅持的住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "只是找你借用一下电子战预警机，请将其控制权限转交给兰利。",
+			say = "只是找妳借用一下電子戰預警機，請將其控制權限轉交給蘭利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……舰载机的控制权转交是么？好的，没问题，控制权已经移交给兰利了。",
+			say = "……艦載機的控制權轉交是嗎？好的，沒問題，控制權已經移交給蘭利了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			actor = 101500,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "约克城姐姐，潜航器又上来了！",
+			say = "約克鎮姐姐，潛航器又上來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……数量怎么这么多，指挥官，孟菲斯真是一刻也不给我们机会啊。",
+			say = "……怎麼數量這麼多，指揮官，曼非斯真是一刻也不給我們機會啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "坚持住，反击的机会就要来了。",
+			say = "撐住，反擊的機會就要來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白。指挥官，我们会努力的。",
+			say = "明白。指揮官，我們會努力的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "兰利，利用新的装备找出孟菲斯投入舰队的全部指挥舰。",
+			say = "蘭利，利用新的裝備找出曼非斯投入艦隊的全部指揮艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "然后将其一次性全部摧毁，不要给她启用备用节点的时间。",
+			say = "然後將其一次性全部摧毀，不要給她啟用備用節點的時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "再之后，一鼓作气，吃掉她的主力。",
+			say = "再之後，一鼓作氣，吃掉她的主力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

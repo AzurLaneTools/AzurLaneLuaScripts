@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>驰骋的白浪骑士</size>",
+					"水邊的假日\n\n<size=45>馳騁的白浪騎士</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "一碧如洗的蓝天与大海，一股白浪伴随着引擎声扑面而来——",
+			say = "一碧如洗的藍天與大海，一股白浪伴隨著引擎聲撲面而來——",
 			bgmDelay = 2,
 			bgm = "story-richang-3",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "——而后停在了我的身边。",
+			say = "——而後停在了我的身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哟吼，指挥官~",
+			say = "喲吼，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是来看大黄蜂冲过终点时的身姿，还是……想来和我一起体验下驰骋在波涛上的感觉的呢？",
+			say = "是來看大黃蜂衝過終點時的身姿，還是……想來和我一起體驗下馳騁在波濤上的感覺的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈~这样灿烂的阳光，就该搭配紧张刺激的摩托艇冲浪才够味嘛~",
+			say = "哈~這樣燦爛的陽光，就該搭配緊張刺激的水上摩托衝浪才夠味嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			},
 			options = {
 				{
-					content = "这身泳装……",
+					content = "這套泳裝……",
 					flag = 1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了保持速度，特地穿了方便行动的一款！至于暴露度什么的……",
+			say = "為了保持速度，特地穿了方便行動的一款！至於暴露度什麼的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~难道指挥官是被我迷住了嘛？",
+			say = "嘿嘿~難道指揮官是被我迷住了嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系没关系，直截了当地说出来也无所谓！不如说我正喜欢这种直来直去的感觉哟？",
+			say = "沒關係沒關係，直接了當地說出來也無所謂！不如說我正喜歡這種直來直去的感覺喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，别管那么多了！快上来，我来带你领略一下海上的极速！",
+			say = "好啦好啦，別管那麼多了！快上來，我來帶你領略海上的極速！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "穿上大黄蜂递过来的救生衣与安全帽，坐到了摩托艇的后面。",
+			say = "穿上大黃蜂遞過來的救生衣與安全帽，坐到了水上摩托的後面。",
 			painting = {
 				alpha = 0.6,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准备好了吗？抱紧我，然后坐稳咯！我们这就出发！",
+			say = "準備好了嗎？抱緊我，然後坐穩了！我們這就出發！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来和大黄蜂一起享受下在水上飞行的感觉吧~！",
+			say = "來和大黃蜂一起享受下在水上飛行的感覺吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "摩托艇猛地翘起，尾部激起巨大的浪花，随后向着无垠的海面冲刺而去——",
+			say = "水上摩托猛地翹起，尾部激起巨大的浪花，隨後向著無垠的海面衝刺而去——",
 			painting = {
 				alpha = 0.6,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼——在海上迎着水花全速冲刺的感觉真棒！",
+			say = "呼－在海上迎著水花全速衝刺的感覺真棒！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官感觉怎么样？",
+			say = "指揮官感覺怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,11 +313,11 @@ return {
 			},
 			options = {
 				{
-					content = "心情舒畅！",
+					content = "心情舒暢！",
 					flag = 1
 				},
 				{
-					content = "有点刺激。",
+					content = "有點刺激。",
 					flag = 2
 				}
 			}
@@ -331,7 +331,7 @@ return {
 			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！没有什么能比这种肆意冲刺的感觉更让人高兴的了！",
+			say = "沒錯！沒有什麼比這種肆意衝刺的感覺更讓人高興的了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈，指挥官也是经历过大风大浪的人了，这一点点刺激不算什么吧？",
+			say = "哈哈，指揮官也是經歷過強風大浪的人了，這一點點刺激不算什麼吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好也玩够了，我们这就以最快速度返航！",
+			say = "正好也玩夠了，我們這就以最快速度返航！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇怪？怎么启动不了了？",
+			say = "奇怪？怎麼啟動不了了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "该不会是刚刚玩得太凶了，把摩托艇给玩坏了……",
+			say = "該不會是剛剛玩得太兇了，把水上摩托給玩壞了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			},
 			options = {
 				{
-					content = "这……",
+					content = "這……",
 					flag = 1
 				}
 			}
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，抱歉抱歉。这下只能安心等待巡逻的同伴来救援了呢。",
+			say = "哎呀，抱歉抱歉。這下只能安心等待巡邏的同伴來救援了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在那之前，就随波漂流，一起看下海上的风景吧？",
+			say = "在那之前，就隨波漂流，一起看下海上的風景吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然大海舍不得我们，就心安理得地当做约会的下半场好了~",
+			say = "既然大海捨不得我們，就心安理得地當做約會的下半場好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

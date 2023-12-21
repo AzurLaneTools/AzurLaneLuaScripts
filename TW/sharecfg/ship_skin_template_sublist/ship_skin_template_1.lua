@@ -6063,6 +6063,113 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101272] = {
+		ship_group = 10127,
+		name = "聖誕兔兔駕到！",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 101272,
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70791,
+		painting = "beili_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "beili_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "聖誕兔兔來了！沒錯，不是聖誕老人，而是聖誕兔兔哦！因為聖誕老人太忙了，所以兔兔星的貝利變成聖誕兔兔來幫忙了！",
+		voice_actor = 63,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					0.764,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					0.764,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.34,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[101279] = {
 		ship_group = 10127,
 		name = "貝利.改",

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			stopbgm = true,
-			say = "演习海域·一段时间后————",
+			say = "演習海域·一段時間後————",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "孟菲斯的新攻势被暂时遏制住了，但海量无人单位持续不断的进攻让舰队的每一个人都无暇它顾。",
+			say = "曼非斯的新攻勢被暫時遏制住了，但海量無人單位持續不斷的進攻讓艦隊的每個人都無暇它顧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "在指挥舰的旁边，哈曼一边看着态势图，一边焦急地转着圈。",
+			say = "在指揮艦的旁邊，哈曼一邊看著動態圖，一邊焦急地轉圈圈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "唔，大家都在前方奋战，哈曼却没事做……",
+			say = "唔，大家都在前方奮戰，哈曼卻沒事做……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "肯定是指挥官的部署有问题……唔……（小声）",
+			say = "肯定是指揮官的部署有問題……唔……（小聲）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "哈曼觉得现在的部署有问题么？",
+			say = "哈曼覺得現在的部署有問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "没…没有！……哈曼只是想去前面帮助大家了……绝…绝对没有埋怨指挥官的意思哦？",
+			say = "沒……沒有！……哈曼只是想去前面幫助大家了……絕……絕對沒有抱怨指揮官的意思哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "因为一直都没人来嘛，水下也安安静静的，什么都没……",
+			say = "因為一直都沒人來嘛，水底安安靜靜的，什麼都沒…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "…………？！侦听到鱼雷注水声，有人在附近发射鱼雷！",
+			say = "…………？！偵聽到魚雷注水聲，有人在附近發射魚雷！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "而且这个目标大小……等一等，这是什么啊，水下战列舰么？！",
+			say = "而且這個目標大小……等一等，這是什麼啊，水下戰艦嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "指挥官小心，它马上就要浮出水面了！",
+			say = "指揮官小心，它馬上就要浮出水面了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "伴随着舰艏刺破海水的激荡声，一艘银蓝色的水下巨舰露出了水面。",
+			say = "伴隨著艦艏刺破海水的激盪聲，一艘銀藍色的水下巨艦露出了水面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "孟菲斯果然还准备了秘密武器，不过这个秘密武器的样式，实在是有些出乎意料……",
+			say = "曼非斯果然還準備了秘密武器，不過這個秘密武器的樣式，實在是有些出乎意料……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "设计思路看上去不像白鹰的武器，反而更像北方联合的潜航舰。",
+			say = "設計思路看起來不像白鷹的武器，反而更像北方聯合的潛航艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "目前展现在各位面前的，就是大洋联邦正在开发研究的深水情报舰「厄庇墨透斯」的原型舰。",
+			say = "目前展現在各位面前的，就是大洋聯邦正在開發研究的深水情報艦「艾比米修斯」的原型艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "这艘巨舰是专门为了搜集情报而建造的，换言之，水面上的一举一动都逃不出它的眼睛哦。",
+			say = "這艘巨艦是專門為了蒐集情報而建造的，換言之，水面上的一舉一動都逃不出它的眼睛哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "当然，庞大的体型可以携带大量的武装与设备，它同时也会作为水下武库舰和无人潜艇母舰来使用。",
+			say = "當然，龐大的體型可以攜帶大量的武裝與設備，它同時也會作為水下武庫艦和無人潛艇母艦來使用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "怎么样，有被惊讶到么？",
+			say = "怎麼樣，有被驚訝到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "喂————！这东西我们从资料上可完全没看到过啊！",
+			say = "喂————！這東西我們從資料上可完全沒看過啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "突然把这种东西开出来也太犯规了！",
+			say = "突然把這種東西開出來也太犯規了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我更愿意称之为突如其来的“小小惊喜”哦~",
+			say = "我更願意稱之為突如其來的「小小驚喜」哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "对不起指挥官……这么庞大的物体从水下接近，哈曼居然事先完全没有侦测到……",
+			say = "對不起指揮官……這麼龐大的物體從水下接近，哈曼居然事先完全沒有偵測到……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "现在还不晚，哈曼，立刻去迎击露出水面的那艘巨舰！",
+			say = "現在還不晚，哈曼，立刻去迎擊露出水面的那艘巨艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "遵命！让它尝尝哈曼的厉害！",
+			say = "遵命！讓它嚐嚐哈曼的厲害！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -490,7 +490,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "孟菲斯果然准备偷袭……虽说这场偷袭确实火力十足。",
+			say = "曼非斯果然準備偷襲……雖說這場偷襲確實火力十足。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "但常规军舰单打独斗地对上舰船只会是一个结果，哪怕这艘水下巨兽也不例外。",
+			say = "但常規軍艦單打獨鬥地對上艦船只會是一個結果，即使這艘水下巨獸也不例外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "这样一来，孟菲斯的计划就宣告失败了……吧？",
+			say = "這樣一來，曼非斯的計畫就宣告失敗了……吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "不要掉以轻心哦，指挥官~",
+			say = "不要掉以輕心哦，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我刚才说过了，这艘「厄庇墨透斯」是专门为了搜集情报而建造的，水面上的一举一动都逃不过它的眼睛。",
+			say = "我剛剛說過了，這艘「艾比米修斯」是專門為了蒐集情報而建造的，水面上的一舉一動都逃不過它的眼睛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我在上浮之前就已经发现您偷偷把哈曼留在身边了。",
+			say = "我在上浮之前就已經發現您偷偷把哈曼留在身邊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "因此，我让「厄庇墨透斯」上浮，只是将哈曼调离您所在指挥舰位置的计策罢了。",
+			say = "因此，我讓「厄庇墨透斯」上浮，只是將哈曼調離您所在指揮艦的位置計策罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "真正的进攻————",
+			say = "真正的進攻————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "在这里哦~",
+			say = "在這裡哦～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -683,7 +683,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "从潜航舰中飞出来的弹射舱嘭地一下散开，待在里面的孟菲斯直接飞过了哈曼的头顶，稳稳地落在指挥舰前方。",
+			say = "從潛航艦中飛出來的彈射艙嘭地一下散開，待在裡面的曼非斯直接飛過了哈曼的頭頂，穩穩地落在指揮艦前方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "这套行云流水般的动作结束后，指挥舰理所当然地判定为遭到击沉。",
+			say = "這套行雲流水般的動作結束後，指揮艦理所當然地判定為遭到擊沉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "太好了！将军了！！！！",
+			say = "太好了！將軍了！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "指挥官、指挥官你看，我利用潜艇的弹射装置打出来的突袭怎么样！",
+			say = "指揮官、指揮官你看，我利用潛水艇的彈射裝置打出來的突襲怎麼樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "就算是您也大吃一惊了吧~？",
+			say = "就算是您也大吃一驚了吧~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,14 +767,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "不得不说，确实是一场十分出乎意料且成功的袭击……",
+			say = "不得不說，確實是一場十分出乎意料且成功的攻擊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "夸奖孟菲斯",
+					content = "誇獎曼非斯",
 					flag = 1
 				}
 			}
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "欸嘿嘿……为了怎么在演习中胜过您，我可是思考了很久呢。",
+			say = "欸嘿嘿……為了怎麼在演習中勝過您，我可是思考了很久呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "“战胜我”？————可是，现在演习并没有结束，你猜为什么？",
+			say = "「戰勝我」？————可是，現在演習並沒有結束，妳猜為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "……哎？等等…………演习的胜利判断标准是击沉对面旗舰……",
+			say = "……哎？等等…………演習的勝利判斷標準是擊沉對面旗艦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 102160,
-			say = "但您的指挥舰这次……并没有被设定为红方的旗舰？！！",
+			say = "但您的指揮艦這次……並沒有被設定為紅方的旗艦？！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "没错。而蓝方的旗舰，此刻已经没有保护的暴露在空中火力的打击范围内了。",
+			say = "沒錯。而藍方的旗艦，此刻已經沒有保護的暴露在空中火力的打擊範圍內了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "约克城，开始进攻————",
+			say = "約克鎮，開始進攻————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一来就将军了哦，孟菲斯~",
+			say = "這樣一來就將軍了哦，曼非斯~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -945,9 +945,9 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			actorName = "全域广播系统",
+			actorName = "全局廣播系統",
 			nameColor = "#ffff4d",
-			say = "蓝方旗舰孟菲斯，被判定击沉，演习结束，红方胜利。",
+			say = "紅方旗艦曼非斯，被判定擊沉，演習結束，紅方勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "啊哈哈…………不愧是指挥官，就算我做到这个地步最后还是没能胜过您。",
+			say = "啊哈哈…………不愧是指揮官，就算我做到這地步最後還是沒能勝過您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,7 +979,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "真是一场精彩的对抗演习，我在观众席上真是看得热血沸腾呢，大家都辛苦啦~",
+			say = "真是一場精彩的對抗演習，我在觀眾席上真是看得熱血沸騰呢，大家都辛苦啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "不愧是助手，我真没看错你，漂亮地带领姑娘们取得胜利了呢！",
+			say = "不愧是助手，我真沒看錯你，漂亮的帶領女孩們取得勝利了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "包括孟菲斯在内，你们所有人的表现都超出了我的预期，接下来必须得好好奖励一下你们才行。",
+			say = "包括曼非斯在內，妳們所有人的表現都超出了我的預期，接下來必須得好好獎勵一下妳們才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说的太对了博士！这次临时加进来的对抗演习简直要把我们整个燃尽了。",
+			say = "說的太對了博士！這次臨時加進來的對抗演習簡直要把我們整個燃盡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "我懂我懂，所以演习之后的日程我特意空出来了几天。",
+			say = "我懂我懂，所以在演習之後的行程我特意空出來了幾天。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "大家就一起坐我的飞机，去附近的某个地方偷偷度个假吧~",
+			say = "大家就一起坐我的飛機，去附近的某個地方偷偷度個假吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哇哦！博士万岁！",
+			say = "哇哦！博士萬歲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "哼哼哼~啊……有电话，是奥斯塔打来的。大家稍等，我先接一下哦。",
+			say = "哼哼哼~啊……有電話，是奧斯塔打來的。大家稍等，我先接一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……嗯？我是安洁，怎么了，这个时候打电话来？",
+			say = "……嗯？我是安潔，怎麼了，這時候打電話來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……测试？那当然是很顺利，演习大获全胜哦，大获全胜你明白吧？",
+			say = "……測試？那當然是很順利，演習大獲全勝哦，大獲全勝你明白吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……已经知道了？",
+			say = "……已經知道了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……哦~怪不得对面的配置会突然变得这么离谱，原来也让你那边参与了啊。",
+			say = "……喔~怪不得對面的配置會突然變得這麼離譜，原來也讓你那邊參與了啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,7 +1232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……啊哈哈，你猜的很对，我确实留了几天自由时间。",
+			say = "……啊哈哈，你猜的很對，我確實留了幾天自由時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……噢~这个提案倒是不错，我也很有兴趣。",
+			say = "……噢~這個提案倒是不錯，我也很有興趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1268,7 +1268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "……没问题，那就这么办，回头在你那里碰面啦~拜拜~",
+			say = "……沒問題，那就這麼辦，回頭在你那裡碰面啦~拜拜~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1287,7 +1287,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "博士，出了什么问题么？",
+			say = "博士，出了什麼問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1305,7 +1305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "没有没有~就是接下来度假的地点有了一个非常好的选择。",
+			say = "沒有沒有~就是接下來度假的地點有了一個非常好的選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1323,7 +1323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "萨默斯岛——————那里可是一个非常不错的度假胜地哦~！",
+			say = "薩摩斯島——————那裡可是個非常好的度假勝地喔~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

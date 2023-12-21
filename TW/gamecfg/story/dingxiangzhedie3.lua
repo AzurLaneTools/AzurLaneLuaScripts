@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			stopbgm = true,
-			say = "在安洁的带领下，我们正沿着主干道不紧不慢地前进着。",
+			say = "在安潔的帶領下，我們正沿著主幹道不快不慢地前進著。",
 			bgmDelay = 2,
 			bgm = "theme-schoolfuture",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
-			say = "校园内的林荫道树影斑驳，虽说有些冷清，但却不影响众人的热情。",
+			say = "校園內的林蔭道樹影斑駁，雖說有些冷清，但卻不影響眾人的熱情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
-			say = "不光是约克城她们兴致高涨，就连安洁也带着一种故地重游的兴奋。",
+			say = "不只約克鎮她們興致高漲，連安潔也帶著一種故地重遊的興奮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,9 +53,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "———所以最后就是这么回事。",
+			say = "———所以最後就是這麼回事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,9 +71,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "因为奥斯塔帮我设定了定时抢课的缘故，最后还是赶上了。",
+			say = "因為奧斯塔幫我設定了定時搶課的緣故，最後還是趕上了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,9 +89,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "那家伙从以前开始就总是快我一步……最后连猫的事也让他说中了。",
+			say = "那傢伙從以前開始就總是快我一步……最後連貓的事也讓他說中了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,9 +107,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "直到毕业，我养的那只猫真的没能学会打扫卫生做家务……",
+			say = "直到畢業，我養的那隻貓真的沒能學會打掃做家事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "……欸？猫为什么要会打扫卫生做家务？",
+			say = "……欸？貓咪為什麼要打掃做家事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,9 +143,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "因为我明明有好好教的啊！",
+			say = "因為我明明有好好教的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "……不，学不会才正常吧。",
+			say = "……不，學不會才正常吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,9 +179,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不……不正常，肯定是我在培养过程中的哪个环节上出错了。",
+			say = "不……不正常，肯定是我在培養過程中的哪個環節出錯了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,9 +197,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "毕竟它可是真的学会收发邮件了！",
+			say = "畢竟它可是真的學會收發郵件了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "博士，这个故事能请您详细说一下么……",
+			say = "博士，這個故事能請您詳細說一下嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,9 +242,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "嗯，可以哦。这件事要从某一天，我收到了奥斯塔的奇怪邮件回复开始————",
+			say = "嗯，可以哦。這件事要從某一天，我收到了奧斯塔的奇怪郵件回復開始————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "博士，您看是前面那家店么？",
+			say = "博士，您看是前面那家店嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,9 +277,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "嗯？让我看看哦………………葛莱娜泰，咖啡。",
+			say = "嗯？讓我看看喔………………葛萊娜泰，咖啡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,9 +295,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "没错！就是那家店！还开着真是太好了~",
+			say = "沒錯！就是那家店！還開著真是太好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,9 +323,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "虽然看上去变得时髦了不少。不过……嗯，这大概也算是生意蒸蒸日上的表现。",
+			say = "雖然看起來去變時髦了不少。不過……嗯，這大概是生意蒸蒸日上的表現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,9 +341,9 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "来吧来吧，我们进店再聊。来大学不拜访一下这家咖啡厅，可是一生的遗憾哦~",
+			say = "來吧來吧，我們進店再聊。來大學不拜訪這家咖啡廳，可是一生的遺憾哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "进入咖啡厅后，安洁带着众人径直来到了包厢中。",
+			say = "進入咖啡廳後，安潔帶著眾人徑直來到了包廂。",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			typewriter = {
@@ -388,9 +388,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "哼哼，没想到我当年登记的会员资格现在还有效，这种有传承的老店就是好啊~",
+			say = "哼哼，沒想到我當年登記的會員資格現在還有效，這種有傳承的老店就是好啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "环顾四周，岁月沉淀下来的古朴和花哨的电子感，两种截然不同的风格交织在一起。",
+			say = "環顧四周，歲月沉澱的古樸和花俏的電子感，兩種截然不同的風格交織在一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "这使得整个包间的装修氛围在华丽之下更显出一丝奇妙。",
+			say = "這使得整個包廂的裝潢氛圍在華麗之下更顯出一絲奇妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,14 +424,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "不过————",
+			say = "不過————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "为什么校园咖啡厅会有这种大包间？",
+					content = "為什麼校園咖啡廳會有這種大包廂？",
 					flag = 1
 				}
 			}
@@ -442,9 +442,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "嗯？因为这里可是正儿八经的高端餐厅哦？大概……",
+			say = "嗯？因為這裡可是正兒八經的高級餐廳哦？大概……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,9 +460,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "来，大家看菜单点菜吧。菜单在…………",
+			say = "來，大家看菜單點菜吧。菜單在…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "安洁在座椅的后背摸索起来，不过看她的表情是摸了个空。",
+			say = "安潔在座椅的背部摸索起來，不過看她的表情是摸了個空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,10 +484,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "您好，请问有什么需要帮助的么？",
+			say = "您好，請問有什麼需要幫忙的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,9 +499,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "以前明明是放在这里的啊……不好意思请问你们的菜单在…………你是什么啊？！",
+			say = "以前明明是放在這裡的啊……不好意思請問你們的菜單在…………你是什麼啊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,10 +523,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "您好，欢迎光临葛莱娜泰，我是这里的点餐服务机器人。菜单的话，请查看我手中的平板显示屏。",
+			say = "您好，歡迎光臨葛萊娜泰，我是這裡的點餐服務機器人。菜單的話，請查看我手中的平板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "这个机器人穿着的好像是服务生的衣服啊……",
+			say = "這個機器人穿的好像是服務生的衣服啊…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,9 +556,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "唔…………这家店的现代化进程有点过头了吧！",
+			say = "嗯…………這家店的現代化進度有點過頭了吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,9 +584,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "这个机器人型号我有印象，不是ITN上个季度才推向市场的第四代魔方能源驱动服务机器人么！",
+			say = "這個機器人型號我有印象，不是ITN上季才推向市場的第四代魔方能源驅動服務機器人嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,10 +598,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "非常感谢您的夸奖。您的夸奖就是我们持续改进服务质量的动力。",
+			say = "非常感謝您的誇獎。您的誇獎就是我們持續改善服務品質的動力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,27 +613,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "其实倒也没夸你…………算了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900332,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "安洁",
-			side = 2,
-			say = "至少穿着的衣服没变，还是当年服务生的制服。",
+			say = "其實我也沒誇你…………算了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,9 +631,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "看来老板在保留传统和提升现代化程度这两方面也是做过一番思考的呢……",
+			say = "至少穿著的衣服沒變，還是當年服務生的制服。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,9 +649,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不行……一看到这身衣服回忆就涌现出来了。",
+			say = "看來老闆在保留傳統和提升現代化程度這兩方面也是做過一番思考的呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,9 +667,27 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "那我还是老样子，一份伊比利亚海鲜烩饭，再来一大杯卡布奇诺。",
+			say = "不行……一看到這身衣服回憶就湧現了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900332,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "安潔",
+			side = 2,
+			say = "那我還是老樣子，一份伊比利海鮮燴飯，再來一大杯卡布奇諾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,10 +699,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "您的点单已确认，请问还要继续点单么？",
+			say = "您的點單已確認，請問還要繼續點單嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸？！咖啡厅会有海鲜烩饭这种东西吗？！",
+			say = "欸？！咖啡廳會有海鮮燴飯這種東西嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……咖啡厅应该是……点咖啡的吧？",
+			say = "……咖啡廳應該是……點咖啡的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,9 +760,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "那种传统菜单当然也有啦，但相比的话，海鲜烩饭才是这间咖啡厅的招牌菜品！",
+			say = "那種傳統菜單當然也有啦，但相較的話，海鮮燴飯才是這間咖啡廳的招牌菜色！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "好、好难理解……",
+			say = "好、好難懂……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,9 +796,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不按寻常套路出牌，说不定这才是这家咖啡厅至今屹立不倒的经营秘诀哦。",
+			say = "不按尋常套路出牌，說不定這才是這家咖啡廳至今屹立不倒的經營秘訣哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "不愧是博士喜欢的店，确实很有，博士，的感觉……",
+			say = "不愧是博士喜歡的店，確實很有，博士，的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,9 +832,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "意思是说我很有眼光对吧？",
+			say = "意思是說我很有眼光對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,9 +860,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不过这次你可夸错了，这家店最开始是奥斯塔推荐给我的。",
+			say = "不過這次你可誇錯了，這家店最開始是奧斯塔推薦給我的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,9 +878,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "最开始听到的时候我也是大吃一惊，奇怪为什么咖啡厅的招牌会是伊比利亚海鲜烩饭。",
+			say = "最開始聽到的時候也是大吃一驚，奇怪為什麼咖啡廳的招牌會是伊比利海鮮燴飯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,9 +896,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不过实际吃了之后立刻就爱上了。",
+			say = "不過實際吃了之後立刻就愛上了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,9 +914,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "大家可以仔细看看菜单哦，这家店好吃的东西可不少呢。",
+			say = "大家可以仔細看看菜單哦，這家店好吃的東西可不少呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,7 +934,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哼哼……那我要一份菠萝披萨加薯条特大份。",
+			say = "哼哼……那我要一份鳳梨披薩加薯條特大份。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "给哈曼来一份儿童汉堡肉套餐？",
+			say = "幫哈曼來一份兒童漢堡肉套餐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈曼才不要儿童套餐！唔…！哈曼要这个！",
+			say = "哈曼才不要兒童套餐！唔……！哈曼要這個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "嗯！就要这个！",
+			say = "嗯！就要這個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "欸……那我就来一份汉堡肉儿童套餐好了。",
+			say = "欸……那我就來一份漢堡肉兒童套餐好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……那我来一份伊比利亚芝士海鲜焗饭。",
+			say = "嗯……那我來一份伊比利起司海鮮焗飯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我的话，来一份火腿芝士薯条，再来一杯花茶。",
+			say = "我的話，來一份火腿起司薯條，再來一杯花茶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1084,7 +1084,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师，你要点什么？",
+			say = "老師，你要點什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "嗯…………也和安洁一样，来一份海鲜烩饭吧。",
+			say = "嗯…………也和安潔一樣，來一份海鮮燴飯吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,9 +1110,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "不愧是我的助手！那我们的点单都结束了。",
+			say = "不愧是我的助手！那我們的點單都結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,10 +1124,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "请您确认一下点单：两份伊利里亚海鲜烩饭，一份伊比利亚芝士海鲜焗饭，一份菠萝披萨，一份儿童汉堡肉套餐——",
+			say = "請您確認單點：兩份伊比利海鮮燴飯，一份伊比利起司海鮮焗飯，一份鳳梨披薩，一份兒童漢堡肉套餐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,10 +1135,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "一份特大薯条，一份火腿芝士薯条，一份黑森林蛋糕，一杯黑咖啡，一杯卡布奇诺（大杯），一杯季节花茶。",
+			say = "一份特大薯條，一份火腿起司薯條，一份黑森林蛋糕，一杯黑咖啡，一杯卡布奇諾（大杯），一杯季節花茶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,10 +1146,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "點餐服務機器人",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
-			say = "请确认。",
+			say = "請確認。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,9 +1161,9 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "安潔",
 			side = 2,
-			say = "没错没错，接下来麻烦你了~",
+			say = "沒錯沒錯，接下來麻煩你了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -293,20 +293,22 @@ return {
 			side = 2,
 			say = "本次的「新作」——「實驗型戰忍機鎧武裝」，好好享受吧。",
 			movableNode = {
-				time = 2.6,
-				name = "shanluan_boss",
-				spine = {
-					action = "move",
-					scale = 1
-				},
-				path = {
-					{
-						-1500,
-						-280
+				{
+					time = 2.6,
+					name = "shanluan_boss",
+					spine = {
+						action = "move",
+						scale = 1
 					},
-					{
-						1500,
-						-280
+					path = {
+						{
+							-1500,
+							-280
+						},
+						{
+							1500,
+							-280
+						}
 					}
 				}
 			},

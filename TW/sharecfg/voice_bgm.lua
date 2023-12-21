@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "main-christmas",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "main-christmas"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "battle-ucnf",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "battle-ucnf"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1138,5 +1138,47 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-warmwinter-daily"
+	},
+	StarSeaMainPage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-ucnf-image"
+	},
+	StarSeaPtPage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-ucnf-image"
+	},
+	SkinGuide5Page = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		time = "",
+		bgm = "story-dazy-style"
+	},
+	VampireSkinPage2 = {
+		default_bgm = "main-christmas",
+		special_bgm = "",
+		time = "",
+		bgm = "main-christmas"
+	},
+	NewYearShrinePage2024 = {
+		default_bgm = "newyear2",
+		special_bgm = "",
+		time = "",
+		bgm = "newyear2"
+	},
+	NewYearFestival2024Scene = {
+		default_bgm = "qe-ova-15",
+		special_bgm = "",
+		time = "",
+		bgm = "qe-ova-15"
+	},
+	Shrine2022View = {
+		default_bgm = "newyear2",
+		special_bgm = "",
+		time = "",
+		bgm = "newyear2"
 	}
 }

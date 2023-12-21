@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			stopbgm = true,
-			say = "萨默斯海洋鱼类研究所·地下通道入口",
+			say = "薩摩斯海洋魚類研究所·地下通道入口",
 			bgmDelay = 2,
 			bgm = "theme-starsea-core",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "撤离点就在这里了，指挥官，您只要进去一直向前走就好。",
+			say = "撤離點就在這裡了，指揮官，您只要進去一直向前走就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "你要怎么办？",
+			say = "妳要怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "我要回去帮海伦娜了。",
+			say = "我要回去幫海倫娜了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "不用担心，“塔”不会攻击我跟海伦娜，我们会控制局面的。",
+			say = "不用擔心，「塔」不會攻擊我跟海倫娜，我們會控制局面的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "好了，多留一秒钟就多一分危险，您快进去吧。",
+			say = "好了，多留一秒鐘就多一分危險，您快進去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "被孟菲斯强硬地推入了地下通道之中————",
+			say = "被曼非斯強硬的推入了地下通道之中————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "……抱歉指挥官，这种失态不会再发生第二次了。",
+			say = "……抱歉指揮官，這種失態不會再發生第二次了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "…………耳边依稀听到了，风铃的声音？",
+			say = "…………耳邊依稀聽到了，風鈴的聲音？",
 			soundeffect = "event:/ui/qiehuan",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "紧接着感受到了轻微的失重感。",
+			say = "緊接著感受到了輕微的失重感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "与「现实透镜」启动时感受到的失重感不同，这次的感觉平和，又令人感到安心。",
+			say = "與「現實透鏡」啟動時感受到的失重感不同，這次的感覺平和，又令人感到安心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "不过…………周围的环境改变了。",
+			say = "不過…………周圍的環境改變了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,14 +195,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "这里依然是萨默斯海洋鱼类研究所的地下，但是……映入眼帘的景象，已经不再是昏暗的地下通道了。",
+			say = "這裡依然是薩摩斯海洋魚類研究所的地下，但是……映入眼簾的景象，已經不再是昏暗的地下通道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安洁……？",
+					content = "安潔……？",
 					flag = 1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你又在发呆了么，助手？",
+			say = "你又在發呆了嗎，助手？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "我这是在…………拉菲也在……么？",
+			say = "我這是在…………拉菲也在……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……老师，是不是困了……？",
+			say = "呼……老師，是不是睏了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "…………刚才在前线跟你失去了联系我还以为……",
+			say = "…………剛才在前線跟妳失去了聯繫我還以為……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "而且拉菲……是什么时候来的？",
+			say = "而且拉菲……是什麼時候來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手你是不是又白日梦到怪东西了？",
+			say = "助手你是不是又白日夢到怪東西了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听好，你从昨天上飞机开始一直到此刻，都一直与我和拉菲在一起。",
+			say = "聽好，你從昨天上飛機開始一直到此刻，都一直與我和拉菲在一起。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是来找奥斯塔一起进行II型舰装测试的，顺便看一看他的新一代ANTI-X机体。",
+			say = "我們是來找奧斯塔一起進行II型艦裝測試的，順便看看他的新一代ANTI-X機體。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了么？",
+			say = "明白了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "听明白了……但是…………",
+			say = "聽明白了……但是…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "（这又是某个被制造出来的虚拟世界么？）",
+			say = "（這又是某個被製造出來的虛擬世界嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,10 +397,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "比起这个快看快看，我刚才拍的怎么样？",
+			say = "比起這個快看快看，我剛剛拍的怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_13",
-			say = "这个就是……新一代ANTI-X机体么？",
+			say = "這個就是……新一代ANTI-X機體嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,20 +418,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "哼哼~可爱吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_zhedie_13",
-			say = "（与之前遭遇到的场景相似又不同，这次不是迪贝路，而是构建者……）",
+			say = "哼哼~可愛吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +431,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_13",
-			say = "……安洁，这里的东西应该都是高度机密。",
+			say = "（與之前遭遇到的場景相似又不同，這次不是迪貝路，而是建構者…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +441,17 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_13",
-			say = "你就算现在拍了照片，等到走的时候应该也会被要求删除吧……？",
+			say = "……安潔，這裡的東西應該都是高度機密。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_zhedie_13",
+			say = "妳就算現在拍了照片，等到走的時候應該也會被要求刪除吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,10 +459,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "糟糕！对哦……",
+			say = "糟糕！對哦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,10 +470,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "等等，聪明如我肯定会有什么办法的…………啊，有了！",
+			say = "等等，聰明如我一定會有辦法的…………啊，有了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,10 +481,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "你看，我拍完照片之后，先把这些照片发给奥斯塔，然后我将手机中的照片删除。",
+			say = "你看，我拍完照片之後，先把這些照片傳給奧斯塔，然後我將手機裡的照片刪除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,10 +492,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
-			say = "等到咱们回去之后，我再让奥斯塔以项目交流的名义用正式渠道再发回给我，问题不就解决了！",
+			say = "等到我們回去之後，我再讓奧斯塔以計畫交流的名義用正式管道再發回給我，問題不就解決了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "（安洁的回复与之前相同……么。好奇妙的感觉，就像某种时空错乱导致的异样既视感。）",
+			say = "（安潔的回復與之前相同……嗎。好奇妙的感覺，就像某種時空錯亂導致的異樣既視感。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,8 +517,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
-			say = "从大老远就听到有人喊我的名字。",
+			actorName = "奧斯塔",
+			say = "從大老遠就聽到有人喊我的名字。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,8 +534,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
-			say = "呈现在两位面前的就是新一代ANTI-X，你们觉得怎么样？！",
+			actorName = "奧斯塔",
+			say = "呈現在兩位面前的是新一代ANTI-X，你們覺得怎麼樣？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,8 +551,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
-			say = "好可爱！不过……是不是跟玲有些属性重复。",
+			actorName = "安潔",
+			say = "好可愛！不過……是不是跟玲有些屬性重複。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "他好像对于白发少女十分情有独钟……",
+			say = "他好像對於白髮少女十分情有獨鍾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,8 +588,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
-			say = "没错！我也发现了，你是真的很喜欢白毛欸……！",
+			actorName = "安潔",
+			say = "沒錯！我也發現了，你真的很喜歡白毛欸……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,8 +615,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
-			say = "咳、毕竟是才开始的项目，所以还是选择使用了一些成熟稳定的设计方案。",
+			actorName = "奧斯塔",
+			say = "咳、畢竟是才開始的項目，所以還是選擇使用了一些成熟穩定的設計方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,8 +632,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
-			say = "她的名字叫做————构建者！",
+			actorName = "奧斯塔",
+			say = "她的名字叫做————建構者！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,8 +649,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
-			say = "嗯……还是一如既往的风格，鉴定完毕。",
+			actorName = "安潔",
+			say = "嗯……還是一如既往的風格，鑑定完畢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,8 +666,8 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
-			say = "就算假装的也好，在这种重大发表的时候能不能来点心理波澜啊————！",
+			actorName = "奧斯塔",
+			say = "就算假裝的也好，在這種重大發表的時候能不能來點心裡波瀾啊————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_0",
-			say = "…………又是，风铃的声音。",
+			say = "…………又是，風鈴的聲音。",
 			soundeffect = "event:/ui/qiehuan",
 			typewriter = {
 				speed = 0.05,
@@ -707,7 +707,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_0",
-			say = "面前的一切突然静止下来，然后顷刻间变为了不规则的色块。",
+			say = "面前的一切突然靜止下來，然後傾刻間變成了不規則的色塊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_0",
-			say = "这究竟是怎么回事…………？",
+			say = "這究竟是怎麼回事…………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_0",
-			say = "想迈开脚步，但是身体无法移动分毫。",
+			say = "想邁開腳步，但是身體無法移動分毫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,10 +735,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_aostelab_0",
 			nameColor = "#A9F548FF",
-			say = "……意识尚未……恢复……",
+			say = "……意識尚未……恢復……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,12 +746,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_aostelab_0",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……听得到么……指挥官……",
+			say = "……聽得到嗎……指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_0",
-			say = "视野正在缓缓变暗。在最后失去意识前，依稀听到了孟菲斯的声音……？",
+			say = "視野正在緩緩變暗。在最後失去意識前，依稀聽到了曼非斯的聲音…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,27 +785,27 @@ return {
 			},
 			sequence = {
 				{
-					"「召回我们的战机。」",
+					"「召回我們的戰機。」",
 					1
 				},
 				{
-					"「重复，任务取消，召回我们的战机。」",
+					"「重複，任務取消，召回我們的戰機。」",
 					2
 				},
 				{
-					"「我是舰长，所有人员请注意。」",
+					"「我是艦長，所有人員請注意。」",
 					3
 				},
 				{
-					"「我们即将再次经历风暴。」",
+					"「我們即將再次經歷風暴。」",
 					4
 				},
 				{
-					"「做好接近准备。」",
+					"「做好接近準備。」",
 					5
 				},
 				{
-					"「让风暴带我们回家吧——」",
+					"「讓風暴帶我們回家吧—」",
 					6
 				}
 			}

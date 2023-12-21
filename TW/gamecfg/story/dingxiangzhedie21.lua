@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "一段时间后，炮击协作测试结束了——",
+			say = "一段時間後，炮擊協作測試結束了——",
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没想到被强化前和强化后居然有这么大的差距……",
+			say = "沒想到被強化前和強化後居然有這麼大的差距……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目标的整体结构，装甲的参数，甚至每一片装甲的当前状态都被标了出来。",
+			say = "目標的整體結構，裝甲的參數，甚至每一片裝甲的當前狀態都被標了出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "还有开火目标提示和更高精度的射击修正……",
+			say = "還有開火目標提示和更高精度的射擊修正……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "就像在游戏里开了自瞄加弱点透视一样?",
+			say = "就像在遊戲裡開了自瞄加弱點透視一樣?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "虽然我没开过，不过大概就是这种感觉……",
+			say = "雖然我沒開過，不過大概就是這種感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,9 +132,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "接下来要进行的是雷击测试。这次不光是哈曼小姐和孟菲斯小姐，大家也可以使用鱼雷机参与哦。",
+			say = "接下來要進行的是雷擊測試。這次不光是哈曼小姐和曼非斯小姐，大家也可以使用魚雷機參與。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通过支援模块，你可以帮助提高鱼雷机的鱼雷命中率对么？",
+			say = "透過支援模組，妳可以幫助提高魚雷機的魚雷命中率對麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,9 +167,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "不仅如此哦，我可以协助不具有多目标锁定能力的鱼雷机同时锁定多个目标。",
+			say = "不僅如此哦，我可以協助不具有多目標鎖定的魚雷機同時鎖定多個目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,9 +185,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "精确控制其飞行姿态，并能控制其发射出去的鱼雷行动轨迹——",
+			say = "精確控制其飛行姿態，並能控制其發射出去的魚雷行動軌跡——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,9 +203,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "就算鱼雷本身并没有制导功能也没关系哦~",
+			say = "就算魚雷本身並沒有導引功能也沒關係哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这种事情究竟是怎么做到的……",
+			say = "這種事情究竟是怎麼做到的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,9 +239,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "通过科学的手段？",
+			say = "透過科學的手段？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,9 +257,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "我还有其他多种多样的支援方式，就请诸位在后续测试中自行探索咯~？",
+			say = "我還有其他各種多種樣式的支援方式，就請諸位在後續測試中自行探索囉~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快开始吧，我已经迫不及待地想要看看究竟能强化到什么地步了！",
+			say = "快開始吧，我已經迫不及待想看看究竟能強化到什麼程度了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,9 +302,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "好哦。大家稍后，新的靶舰舰队即将登场~",
+			say = "好哦。大家稍候，新的靶艦艦隊即將登場~",
 			painting = {
 				alpha = 0.3,
 				time = 1

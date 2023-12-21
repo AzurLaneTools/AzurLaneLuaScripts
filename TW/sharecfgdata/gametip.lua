@@ -4090,7 +4090,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2023.9.21~2023.12.14</color>期間限時開放「亞利桑那·META」的挑戰，在此期間指揮官可挑戰「亞利桑那·META」累計其同步值獲取<color=#92fc63>「亞利桑那·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2023.12.14~2024.3.14</color>期間限時開放「伊莉莎白女王·META」的挑戰，在此期間指揮官可挑戰「伊莉莎白女王·META」累計其同步值獲取<color=#92fc63>「伊莉莎白女王·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -4119,8 +4119,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2023.10.20~2023.12.14期間，艦隊挑戰「亞利桑那·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。 ]]
+隨著信標·META挑戰的進行，從第31天開始，即2023.10.20~2023.12.14期間，艦隊挑戰「伊莉莎白女王·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -9653,7 +9653,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "曙光、塔什干、蘇維埃俄羅斯、水星紀念、威嚴建造機率UP！"
+	tip = "約克城II、北安普敦II、哈曼II建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -21881,10 +21881,12 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 活動規則：
-<color=#92fc63>9.14-10.4 24時</color>期間開啟限時活動「啾啾溫泉」
-1.指揮官可以邀請角色泡溫泉，溫泉可以提高入浴角色的心情回復速度
-2.長按入浴角色可拖動調整入浴位置
-3.指揮官可通過完成「渡假村神秘事件調查」來獲取<color=#92fc63>溫泉手牌</color>，最多可使用4個<color=#92fc63>溫泉手牌</color>擴建4個入浴位置~]]
+<color=#92fc63>2023.12.21-2024.1.4維護</color>期間開啟限時活動「露天溫泉館」
+1.2023.12月28日為止，每日0點解鎖一個新任務，完成任務可獲取「溫泉幣」在內的獎勵
+2.「溫泉幣」可用於溫泉擴建，每次擴建消耗100溫泉幣
+3.幫助明石擴建溫泉可獲得報酬「溫泉券」  ，「溫泉券」可在「溫泉商店」兌換豐厚獎勵
+4.指揮官可以邀請艦船泡溫泉，溫泉可以提高入浴艦船的心情回復速度
+5.長按入浴艦船可拖動調整入浴位置]]
 		}
 	}
 }
@@ -21897,57 +21899,112 @@ _G.pg.base.gametip.hotspring_shop_help = {
 	tip = {
 		{
 			info = [[
-活動時間：2023.5.25-2023.6.15維護
+活動時間：2023.12.21-2024.1.4維護
 活動規則：
 1.活動期間，幫助明石經營露天溫泉館獲得報酬「溫泉券」
-2.「溫泉券」可兌換限定家具「啾啾溫泉館」在內的豐厚獎勵
-3.擴建溫泉獲得的「溫泉券」可完全兌換所有獎勵]]
+2.「溫泉券」可兌換限定傢俱  「啾啾溫泉館」在內的豐厚獎勵
+3.擴建溫泉所獲得的「溫泉券」可完全兌換所有獎勵]]
+		}
+	}
+}
+
+_G.pg.base.gametip.resorts_help = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2023.12.21-2024.1.4維護</color>
+活動簡介：
+「煙火VS塞壬」：參與小遊戲取得伯明罕限定換裝「乘風破浪之時」
+「露天溫泉館」：參與活動獲取限定傢俱「啾啾溫泉館」在內的豐厚獎勵
+「鴻運荷包」：參與活動獲取限定傢俱「鴻運啾啾」
+「繪馬祈願」  ：參與繪馬祈願獲取獎勵「年賀狀」
+「換裝商店」：購買限時換裝
+「限時建造」：建造限時角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pvzminigame_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>2023.12.27</color>為止每日0點開放<color=#92fc63>1</color>關新的遊戲，總計<color=  #92fc63>7</color>關，可累計。完成遊戲可以獲得伯明罕限定換裝「乘風破浪之時」。
+
+遊戲規則：
+1.指揮官需要部署攻擊或防禦類型的角色來阻擋塞壬的進攻，部署角色需要消耗一定數量的「煙火」！
+2.生產啾可以生產「煙火」，指揮官請部署較多的生產啾保證「煙火」供應！
+3.角色分為基礎角色和限定角色，限定角色場上只能部署一個！
+基礎角色：戰鬥啾、防禦啾、生產啾
+限定角色：能代、柴郡、樫野、利托里奧、伯明罕
+4.指揮官可以在「遊戲手冊」處查看角色、敵人的詳細說明  。
+5.指揮官可以召回已部署的角色，召回角色不返還消耗的「煙火」。
+6.點擊遊戲內退出按鈕也視為遊戲完成。因其他原因中途退出遊戲則視為未完成。
+7.第七關·無盡：敵人會不斷刷新且難度越來越高；指揮官可以嘗試挑戰獲取更高分數！]]
+		}
+	}
+}
+
+_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2023.12.21-2024.1.4</color>
+活動規則：
+1.12月30日為止每天零點取得1次荷包開啟次數，  開啟荷包可  獲得豐厚獎勵。開啟次數可以累計，最多可開啟10個紅包。
+2.每1次開啟可開啟1個荷包，荷包總量為10個。
+3.荷包中共有：一等獎1份，二等獎2份，三等獎3份，四等獎4份。開啟荷包可獲得的獎勵如下：
+一等獎：特殊傢俱"鴻運啾啾"
+二等獎：T3隨機教材*1
+三等獎：T3隨機部件*5
+四等獎：T3隨機  科技箱*1
+]]
 		}
 	}
 }
 
 _G.pg.base.gametip.beach_guard_chaijun = {
-	tip = "发射火箭筒烟花对敌人造成伤害并引发爆炸！"
+	tip = "發射火箭筒煙火對敵人造成傷害並引發爆炸！"
 }
 
 _G.pg.base.gametip.beach_guard_jianye = {
-	tip = "可以投掷烟花炸弹，对九宫格范围内的敌人造成伤害！"
+	tip = "可以投擲煙火炸彈，對九宮格範圍內的敵人造成傷害！"
 }
 
 _G.pg.base.gametip.beach_guard_lituoliao = {
-	tip = "可以发射迷雾烟花，在爆炸后产生迷雾。\n迷雾持续5秒，可以减缓敌人10%的移动速度与攻击速度10%，最多可以叠加5层。"
+	tip = "可以發射迷霧煙火，在爆炸後產生迷霧。\n迷霧持續5秒，可減緩敵人10%的移動速度與攻擊速度10%，最多可疊加5層。"
 }
 
 _G.pg.base.gametip.beach_guard_bominghan = {
-	tip = "可以发射一枚分裂烟花，分裂烟花命中敌人后会对其造成硬直效果并分裂，分裂产生的小烟花没有硬直效果。"
+	tip = "可以發射一枚分裂煙火，分裂煙火命中敵人後會對其造成硬直效果並分裂，分裂產生的小煙火沒有硬直效果。"
 }
 
 _G.pg.base.gametip.beach_guard_nengdai = {
-	tip = "同时发射两枚强化烟花。\n命中敌人后，会给自身九宫格范围内己方单位提供攻速提高1%，伤害提高1%的效果，持续10秒，最多叠加10层。"
+	tip = "同時發射兩枚強化煙火。\n命中敵人後，會給自身九宮格範圍內己方單位提供攻速提高1%，傷害提高1%的效果，持續10秒，最多疊加10層。"
 }
 
 _G.pg.base.gametip.beach_guard_m_craft = {
-	tip = "能够源源不断的生产烟花！"
+	tip = "能夠源源不絕的生產煙火！"
 }
 
 _G.pg.base.gametip.beach_guard_m_atk = {
-	tip = "能够使用烟花进行攻击！"
+	tip = "能夠使用煙火進行攻擊！"
 }
 
 _G.pg.base.gametip.beach_guard_m_guard = {
-	tip = "能够阻挡塞壬的进攻！"
+	tip = "能夠阻擋塞壬的進攻！"
 }
 
 _G.pg.base.gametip.beach_guard_m_craft_name = {
-	tip = "生产啾"
+	tip = "生產啾"
 }
 
 _G.pg.base.gametip.beach_guard_m_atk_name = {
-	tip = "战斗啾"
+	tip = "戰鬥啾"
 }
 
 _G.pg.base.gametip.beach_guard_m_guard_name = {
-	tip = "防御啾"
+	tip = "防禦啾"
 }
 
 _G.pg.base.gametip.beach_guard_e1 = {
@@ -21955,11 +22012,11 @@ _G.pg.base.gametip.beach_guard_e1 = {
 }
 
 _G.pg.base.gametip.beach_guard_e2 = {
-	tip = "追迹者"
+	tip = "追跡者"
 }
 
 _G.pg.base.gametip.beach_guard_e3 = {
-	tip = "领洋者"
+	tip = "領洋者"
 }
 
 _G.pg.base.gametip.beach_guard_e4 = {
@@ -21967,43 +22024,43 @@ _G.pg.base.gametip.beach_guard_e4 = {
 }
 
 _G.pg.base.gametip.beach_guard_e5 = {
-	tip = "执棋者"
+	tip = "執棋者"
 }
 
 _G.pg.base.gametip.beach_guard_e6 = {
-	tip = "测试者"
+	tip = "測試者"
 }
 
 _G.pg.base.gametip.beach_guard_e7 = {
-	tip = "净化者"
+	tip = "淨化者"
 }
 
 _G.pg.base.gametip.beach_guard_e1_desc = {
-	tip = "最常见的塞壬执行者，可以进行移动和攻击！"
+	tip = "最常見的塞壬執行者，可以進行移動和攻擊！"
 }
 
 _G.pg.base.gametip.beach_guard_e2_desc = {
-	tip = "常见的塞壬执行者，移动速度比探索者更快！"
+	tip = "常見的塞壬執行者，移動速度比探索者更快！"
 }
 
 _G.pg.base.gametip.beach_guard_e3_desc = {
-	tip = "常见的塞壬执行者，攻击速度比探索者更快！"
+	tip = "常見的塞壬執行者，攻擊速度比探索者更快！"
 }
 
 _G.pg.base.gametip.beach_guard_e4_desc = {
-	tip = "塞壬执行者，拥有出色的攻击力和生命值，但行动缓慢。"
+	tip = "塞壬執行者，擁有優異的攻擊力和生命值，但行動緩慢。"
 }
 
 _G.pg.base.gametip.beach_guard_e5_desc = {
-	tip = "塞壬执行者，均衡型，攻击能力与生存能力都十分良好。"
+	tip = "塞壬執行者，均衡型，攻擊能力與生存能力都十分良好。"
 }
 
 _G.pg.base.gametip.beach_guard_e6_desc = {
-	tip = "血量在低于50%时，将会为场上所有塞壬单位提供一个护盾，护盾值为自身基础生命值的10%。\n同一个塞壬单位身上只会同时存在一个护盾。"
+	tip = "血量在低於50%時，將會為場上所有塞壬單位提供一個護盾，護盾值為自身基礎生命值的10%。\n同一個塞壬單位身上只會同時存在一個護盾。"
 }
 
 _G.pg.base.gametip.beach_guard_e7_desc = {
-	tip = "可以周期性解除自身周边存在的迷雾、减速异常效果。"
+	tip = "可以週期性解除自身周邊存在的迷霧、減速異常效果。"
 }
 
 _G.pg.base.gametip.ninghai_nianye = {
@@ -24550,6 +24607,22 @@ _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "該區域未處於開啟時間內"
+}
+
+_G.pg.base.gametip.commander_skill_ui_info = {
+	tip = "資訊"
+}
+
+_G.pg.base.gametip.commander_skill_ui_confirm = {
+	tip = "確定"
+}
+
+_G.pg.base.gametip.commander_formation_prefab_fleet = {
+	tip = [[
+當
+前
+編
+隊]]
 }
 
 _G.pg.base.gametip.rect_ship_card_tpl_add = {

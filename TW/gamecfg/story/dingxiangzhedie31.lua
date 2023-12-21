@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			stopbgm = true,
-			say = "世界博览会会场·铁血馆",
+			say = "世界博覽會會場·鐵血館",
 			bgmDelay = 2,
 			bgm = "story-roma-outside",
 			flashin = {
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "{namecode:428}，心情很不错？",
+			say = "歐根，心情很不錯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "当然了~看我拿到了什么？",
+			say = "當然了~看我拿到了什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个是……其他阵营的计划舰资料？",
+			say = "這是……其他陣營的計畫艦資料？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "没错！我花了大力气才弄到的呢。",
+			say = "沒錯！我花了大力氣才弄到的呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是东煌的资料还是太少了，要是她们让滨江加入代表团过来转一圈就好了……",
+			say = "就是東煌的資料還是太少了，要是她們讓哈爾濱加入代表團過來轉一圈就好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人家就是为了防你这样乱打听情报的人，才专门没有让她过来也说不定哦？",
+			say = "人家就是為了防你這樣亂打聽情報的人，才專門沒有讓她過來也說不定？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "小气……{namecode:484}是我们最新锐的计划舰，我们不还是让她来博览会玩一圈嘛。",
+			say = "小氣……魯普雷希特親王是我們最新銳的計劃艦，我們不還是讓她來博覽會玩一圈嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "我觉得炫耀武力和保护机密之间，还是应该进行区分看待的……",
+			say = "我覺得炫耀武力和保護機密之間，還是應該進行區分看待的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦算啦~{namecode:464}那边怎么样，有没有异常情况？",
+			say = "算啦算啦~烏爾里希那邊怎麼樣，有沒有異常狀況？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有。{namecode:464}阁下负责的区域内目前一切正常。",
+			say = "沒有。烏爾里希閣下負責的區域內目前一切正常。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "不过我有一件其他事要汇报——东煌代表团明天就要回去了。",
+			say = "不過我還有一件其他事要報告──東煌代表團明天就要回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "明天？！走得这么早？！",
+			say = "明天？！走的這麼早嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "奇怪……是嗅到什么风声了么。",
+			say = "奇怪……是嗅到什麼風聲了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "今天晚上她们有安排么？有没有要跟什么阵营会面之类的？",
+			say = "今天晚上她們有安排嗎？有沒有要跟什麼陣營見面之類的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前我还没有看到相关的情报，应该是没有吧……",
+			say = "目前我還沒看到相關的情報，應該是沒有吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "好！你抓紧时间安排一下，今晚我们请东煌代表团吃饭！",
+			say = "好！你抓緊時間安排一下，今晚我們宴請東煌代表團！",
 			painting = {
 				alpha = 0.3,
 				time = 1

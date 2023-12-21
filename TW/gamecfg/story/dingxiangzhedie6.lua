@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			stopbgm = true,
-			say = "离开了葛莱娜泰咖啡厅，与约克城一行人在街上闲逛着。",
+			say = "離開了葛萊娜泰咖啡廳，與約克鎮一行人在街上閒逛。",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "这里虽然是大学，不过似乎采用了开放式的布局，教学楼、实验楼等大学配属建筑分布在街区之中。",
+			say = "這裡雖然是大學，應該算是開放式佈局，教學大樓，實驗室等大學附屬建築分佈在街區中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "也不是第一次这样了，博士来去就像一阵风。",
+			say = "也不是第一次這樣了，博士來去就像一陣風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "还好老师没被博士带走，不然今天的休假也要黯然失色不少。",
+			say = "還好老師沒被博士帶走，不然今天的休假也要黯然失色不少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "是啊是啊，不过现在有老师在就不一样了~",
+			say = "是啊是啊，不過現在有老師在就不一樣了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师有什么想去逛的地方么？",
+			say = "老師有什麼想去逛的地方呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "接过北安普敦递来的显示有旅游地图字样的平板显示屏，在屏幕上随便划着。",
+			say = "接過北安普敦遞來的顯示有旅遊地圖字樣的平板，在螢幕上隨便劃著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "心中有一种想把这里每一寸土地都调查一遍，搞清楚到底发生了什么事的冲动。",
+			say = "心中有一種想把這裡每一寸土地都調查一遍，搞清楚到底發生了什麼事的衝動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "不过……总之还是先顾好身边的事，一步一步来吧。",
+			say = "不過……總之還是先顧好身邊的事，一步一步來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,14 +160,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "距离安洁忙完大概还有五六个小时。首先的话——",
+			say = "距離安潔忙完大概還有五、六個小時。首先的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去商业区看一看怎么样？",
+					content = "去商業區看看怎麼樣？",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~去逛街么！赞同！",
+			say = "喔~去逛街嗎！贊同！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难得出来一次，买些什么东西好呢……",
+			say = "難得出來一次，買些什麼東西好呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "反正安洁买单，不如把船舱全部装满吧！",
+			say = "反正安潔買單，例如把船艙全部裝滿吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "再怎么说这也太夸张了，博士的卡会被刷爆的。",
+			say = "再怎麼說這也太誇張了，博士的卡會被刷爆的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "如果不能全买下来，那就要好好规划一下路线了啊——",
+			say = "如果不能全都買下來，那就要好好規劃一下路線了啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "用舰载机侦察也不可以哦，在规定区域外使用舰装是禁止事项。",
+			say = "用艦載機偵察也不可以哦，在規定區域外使用艦裝是禁止事項。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "被预判了！",
+			say = "被預判了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "商业区的位置，哈曼不知道……",
+			say = "商業區的位置，哈曼不知道……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没关系，让我来吧，我带了无人机。",
+			say = "沒關係，讓我來吧，我帶了無人機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "北安普敦从随身背包中拿出一个通体白色的小型无人机。",
+			say = "北安普敦從隨身背包中拿出一個通體白色的小型無人機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,14 +366,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "与以往认知中的不同，这个无人机的中心散发着微微蓝光，给人一种奇妙的感觉。",
+			say = "與以往認知中的不同，這個無人機的中心散發著微微藍光，給人一種奇妙的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这个无人机……",
+					content = "這個無人機……",
 					flag = 1
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "出发之前博士借给我的，说可以让我们更好地欣赏城市风光。",
+			say = "出發前博士借給我的，說可以讓我們能更好的欣賞城市風光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "确实……这个风景，真是不错啊。",
+			say = "確實……這風景，真是不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~发现了一家造型独特的纪念品店，看上去就很有趣，我们先去那边看看吧？",
+			say = "喔~發現了一家造型獨特的紀念品店，看起來就很有趣，我們先去那邊看看吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "纪念品店内——",
+			say = "紀念品店內——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "这些……这些……还有这些……感觉都是基地里见不到的东西啊。",
+			say = "這些……這些……還有這些……感覺都是基地裡看不到的東西啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "还有这个，是之前看的那部西部电影的限量纪念品，居然能在这里见到——",
+			say = "還有這個，是之前看的那部西部電影的限量紀念品，居然能在這裡見到——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "这个猫耳耳机……好可爱。",
+			say = "這個貓耳耳機……好可愛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "大家已经完全乐在其中了呢。",
+			say = "大家已經完全樂在其中了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……约克城，你这一连串的备忘录，都是你要买的纪念品么……？",
+			say = "啊……約克鎮，妳這一連串的備忘錄，都是妳要買的紀念品媽……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……有要给企业她们带的，有给孟菲斯和安洁博士的。",
+			say = "嗯……有要買給企業她們的，有給曼非斯和安潔博士的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "然后还有……也需要给老师挑一份。",
+			say = "然後還有……也需要給老師挑一份。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸？什么什么？我好像听到了有趣的事！",
+			say = "欸？什麼什麼？我好像聽到有趣的事了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我看看……明白了，这个绝对是打算买给老师的纪念品对不对！",
+			say = "我看看……明白了，這絕對是打算買給老師的紀念品對不對！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "嘿嘿，我明白约克城姐在想什么！",
+			say = "嘿嘿，我明白約克鎮姊姊在想什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这就叫老师来——",
+			say = "我這就叫老師來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "等等……我还没决定好，不要乱声张！",
+			say = "等等……我還沒決定好，不要亂聲張！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "呼…………满载而归。接下来……去那个大楼里逛逛吧！",
+			say = "呼…………滿載而歸。接下來……去那棟大樓逛逛吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "唔……哈曼想去那家猫猫宠物店看看。",
+			say = "嗯……哈曼想去那家貓貓寵物店看看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实，也不能一直买东西买下去呢。",
+			say = "確實，也不能一直買東西買下去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "突然，广告宣传片的声音忽然响起，周围所有的屏幕一齐出现了相同的影像。",
+			say = "突然，廣告宣傳片的聲音突然響起，周圍所有的螢幕一齊出現了相同的影像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,10 +842,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "好人理察的影像",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "大家好，我是好人理查德，我所主演的电影《魔方航母遇险记》正在上映中",
+			say = "大家好，我是好人理察，我所主演的電影《魔方航母遇險記》正在上映中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,10 +853,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "好人理察的影像",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "如果大家能去电影院欣赏一下的话，我会很开心！",
+			say = "如果大家能去電影院欣賞一下的話，我會很開心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,10 +864,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "大廈的廣告屏",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "《魔方航母遇险记》——今年最受期待的海战巨制正在上映中！",
+			say = "《魔方航母遇險記》——今年最受期待的海戰巨作正在上映中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,10 +875,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "大廈的廣告屏",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "现在观影更有机会抽取PH港豪华三日免费旅游券————",
+			say = "現在觀影更有機會抽取PH港豪華三日免費旅遊券————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,10 +886,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "哇哦，大家快看，是好人理查德！",
+			say = "哇哦，大家快看，是好人理察！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,10 +897,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "北安普顿II",
+			actorName = "北安普敦II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "到处都是她的广告啊……",
+			say = "到處都是她的廣告啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,10 +908,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "就说之前见到她的时候，她神神秘秘地说参加了一个保密项目！",
+			say = "就說之前見到她的時候，她神神秘秘的說參加了一個保密計畫！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,10 +919,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "没想到是跑出去拍电影玩了！",
+			say = "沒想到是跑出去拍電影玩了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,10 +930,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "真好啊……这就是联邦海军发言人的特权么",
+			say = "真好啊……這就是大洋聯邦發言人的特權嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,10 +941,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "虽然有一定特权，不过理查德作为我们的代表，她在外面参与这些活动也承受着巨大压力。",
+			say = "雖然有某種特權，不過理察作為我們的代表，她在外面參與這些活動也都承受著巨大壓力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,10 +952,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "每一句话的措辞，每一个动作都要先思考再行动，我觉得我们肯定是做不到的。",
+			say = "每一句話的措辭，每一個動作都要先思考再行動，我覺得我們一定是做不到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,10 +963,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "就在我们逛街的这段时间里，她说不定已经去忙下一件事了哦。",
+			say = "就算是我們現在逛街的時候，她說不定已經去忙下一件事了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,10 +974,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "…………我倒是没想到这些，不行不行，想想我就做不到。",
+			say = "…………我倒是沒想到這些，不行不行，想想我就做不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,10 +985,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "没想到她居然这么辛苦，一会也给她买个礼物带回去好了。",
+			say = "沒想到她居然這麼辛苦，等一下也買個禮物給她好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,10 +996,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "对了！北安普敦，用你的无人机给我们拍张照吧。",
+			say = "對了，北安普敦用妳的無人機幫我們拍張照吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,10 +1007,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "把我们所有人，还有广告牌上的理查德拍进去！",
+			say = "把我們所有人，還有廣告看板上的理察拍進去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,10 +1018,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "她要是知道自己错过了这次跟老师还有博士的旅行，估计要难受死了。",
+			say = "她要是知道自己錯過了這次跟老師還有博士的旅行，大概要難受死了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,10 +1029,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "所以这么拍一下，四舍五入就算她也参与了~",
+			say = "所以這麼拍一下，四捨五入也算她也參與了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那事不宜迟……来，老师你站中间，然后哈曼还有兰利，你们站在这边……还有约克城姐，就站在老师旁边好了~",
+			say = "那事不宜遲……來，老師你站中間，然後哈曼還有蘭利，妳們站在這邊……還有約克鎮姐，站在老師旁邊好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1113,7 +1113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼很好~那你先发给我吧，我一会邮件发给她。",
+			say = "呼呼呼很好~那妳先發給我吧，我等一下email寄給她。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "然后我有个提议，既然看到广告宣传了，接下来咱们一起去看看理查德演的这部电影怎么样？",
+			say = "然後我有個提議，既然看到廣告宣傳了，接下來我們一起去看看理察演的這部電影怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "老师应该也很有兴趣吧？",
+			say = "老師應該也很有興趣吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1163,7 +1163,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "当然，我们一起去看吧",
+			say = "當然，我們一起去看吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "（好人理查德是么，没想到会在这里遇到初次见面的舰船……）",
+			say = "（好人理察是嗎，沒想到會在這裡遇到第一次見面的船…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,7 +1187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "好诶~那就拜托约克城姐买票，北安普敦用无人机导航，我们向着电影院，出发~",
+			say = "好欸~那就拜託約克鎮姐買票，北安普敦用無人機導航，我們向電影院，出發~",
 			painting = {
 				alpha = 0.3,
 				time = 1

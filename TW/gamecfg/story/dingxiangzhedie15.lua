@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "数小时后，舒适旅行用1号稳稳当当地降落在了萨默斯岛跑道上。",
+			say = "數小時後，舒適旅行用1號穩穩當地降落在了薩摩斯島跑道上。",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_endingsong_15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "对了，最后再送你一个情报吧————萨默斯岛。",
+			say = "對了，最後再送你一個情報吧————薩摩斯島。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_endingsong_15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有时间的话去仔细调查一下如何？",
+			say = "有時間的話去仔細調查一下如何？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_endingsong_15",
-			say = "……那里有什么么？",
+			say = "……那裡有什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谁知道呢。",
+			say = "誰知道呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（{namecode:441}当时确实着重提到了萨默斯岛这个地方……）",
+			say = "（腓特烈當時確實著重提到了薩摩斯島這個地方…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（现在我来了，你当时想要我来调查的，究竟是什么呢？）",
+			say = "（現在我來了，妳當時想要我來調查的，究竟是什麼呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "阳光、沙滩、躺椅……这就是萨默斯岛。",
+			say = "陽光、沙灘、躺椅……這就是薩摩斯島。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "唔……看上去完全就是普通的海岛度假区啊！",
+			say = "嗯……看起來完全就是普通的海島度假區啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是哦，来之前我不是说了要带大家来度假嘛~",
+			say = "是哦，來之前我不是說了要帶大家去度假嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "话虽说如此……可是军用基地呢，巡逻队呢？戒备森严的实验室呢……？",
+			say = "話雖如此……可是軍用基地呢，巡邏隊呢？戒備森嚴的實驗室呢…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这里怎么看都不像是会有军方的机密设施存在的地方吧！",
+			say = "這裡怎麼看都不像會有軍方的機密設施存在的地方吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~我忘了你们是第一次来了。大黄蜂，看来你对于“机密实验室”这种东西多少存在些误会。",
+			say = "喔~我忘了妳們是第一次來了。大黃蜂，看來妳對於「機密實驗室」這種東西多少存在些誤會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓机密实验室，最重要的是其本身研究的东西是机密的，而不是其本身的位置是机密的。",
+			say = "所謂機密實驗室，最重要的是本身研究的東西是機密的，而不是其本身的位置是機密的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像在很多大学里也有研究机密项目的实验室哦，说不定跟旁边的小吃街就面对面挨着呢~",
+			say = "就像在很多大學裡也有研究機密計畫的實驗室哦，說不定跟旁邊的小吃街就面對面靠著呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过当然，这里也不是一点伪装都没做过。",
+			say = "不過當然，這裡也不是一點偽裝都沒做過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直以来，这里对外挂的牌子都是萨默斯岛海洋鱼类研究所。",
+			say = "一直以來，這裡對外掛的牌子都是薩摩斯島海洋魚類研究所。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这里在建立之初，似乎还真的是一座研究海洋鱼类的研究所。",
+			say = "而且似乎這裡在建立之初，似乎真的是一座研究海洋魚類的研究所。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到某个时间点后就被军方接管了下来，然后现在变成了奥斯塔本人常驻的主实验室。",
+			say = "然後到某個時間點後就被軍方接管了下來，然後變成了現在奧斯塔本人常駐的主實驗室。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体选在这里的理由他说有着自己的考虑。",
+			say = "具體選在這裡的理由他說有自己的考量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过看看这周围，谁知道他会不会是喜欢被沙滩和泳装包围的感觉呢~",
+			say = "不過看看這周圍，誰知道他會不會是喜歡被沙灘和泳裝包圍的感覺呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到这个！大家的泳装都准备好了么？",
+			say = "說到這個！大家的泳裝都準備好呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "呃……没有？",
+			say = "呃……沒有？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我也没有……大家应该都没准备吧。",
+			say = "我也沒有……大家應該都沒準備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "嗯，毕竟事先没有真的把你说海滨度假的计划当回事……",
+			say = "嗯，畢竟事先沒有真的把妳說海濱度假的計劃當一回事…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧，我大概明白了。看来一会得安排一下采购泳装的事了……",
+			say = "好吧，我大概明白了。看來等一下得安排採購泳裝的事了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,14 +464,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "记得这次应奥斯塔博士的邀请前来萨默斯岛，好像是有更重要的事要做……",
+			say = "記得這次應奧斯塔博士的邀請前來薩摩斯島，好像是有更重要的事要做……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "跟ANTI-X进行的测试要怎么办？",
+					content = "跟ANTI-X進行的測試該怎麼辦？",
 					flag = 1
 				}
 			}
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "测试完还有玩的时间呢！来海岛度假没泳装怎么行！",
+			say = "測試完還有玩的時間呢！來海島度假沒泳裝怎麼行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦对……你倒是提醒我了。其实倒也不用费劲去买……",
+			say = "喔對……你倒是提醒我了。其實倒也不用費勁買…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我记得这里的研究所有专门用于生产防护装备的设备，让那些设备生产一批泳装不就行了！",
+			say = "我記得這裡的研究所有專門生產防護裝備的設備，讓那些設備生產一批泳裝不就行了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但质量有保证，细节和款式还能自由定制，完美~",
+			say = "不但品質有保證，細節和款式還能自由定制，完美~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "总感觉安洁提出了什么不得了的想法……",
+			say = "總覺得安潔提出了什麼不得了的想法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……博士，这样真的好么？",
+			say = "……博士，這樣真的好呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系~我们可是千里迢迢地飞过来参加合作项目了哦，享受这种程度的服务还是应该的吧。",
+			say = "沒關係沒關係~我們可是千里迢迢的飛過來參加合作計畫了哦，享受這種程度的服務還是應該的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "……不愧是安洁。",
+			say = "……不愧是安潔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我记得穿过接下来这片树林就到研究所的入口了。大家跟紧点，别迷路了哦~",
+			say = "嗯……我記得穿過接下來這片樹林就到研究所的入口了。大家跟緊點，別迷路了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>蔚蓝色的水枪武士</size>",
+					"水邊的假日\n\n<size=45>蔚藍色的水槍武士</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "假日的沙滩，是充满嬉闹与欢声笑语的休闲胜地……本来应该是这样的。",
+			say = "假日的沙灘，是充滿嬉鬧與歡笑的休閒勝地……本來應該是這樣的。",
 			bgmDelay = 2,
 			bgm = "story-richang-6",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "找到指挥官了！看招——",
+			say = "找到指揮官了！看招——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "又被{namecode:50}用水枪准确地击中了……",
+			say = "又被能代用水槍準確地擊中了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次也是我赢了，指挥官。",
+			say = "這次也是我贏了，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？你说我玩得太认真了吗？",
+			say = "欸？你說我玩得太認真了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……今天要尽情放松，这话可是你自己说的哦？",
+			say = "但……今天要盡情放鬆，這話可是你自己說的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓尽情放松，不就是要拿出全力来享受沙滩上的活动么？",
+			say = "所謂盡情放鬆，不就是要拿出全力來享受沙灘上的活動嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……沙滩射击让人心情十分地舒畅呢。指挥官你呢，感觉怎么样？",
+			say = "呼……沙灘射擊讓人心情十分地舒暢呢。指揮官你呢，感覺怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,11 +183,11 @@ return {
 			},
 			options = {
 				{
-					content = "我也一样",
+					content = "我也一樣",
 					flag = 1
 				},
 				{
-					content = "有点点累……",
+					content = "有點累……",
 					flag = 2
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，指挥官也要趁这个机会充分放松才行。",
+			say = "那就好，指揮官也要趁這個機會充分放鬆才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "累？唔……是我认真过头了么……",
+			say = "累？嗯……是我認真過頭了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，接下来要不要在沙滩上散散步？",
+			say = "指揮官，接下來要不要在沙灘上散步？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太阳很暖和，海风很舒服，沙子也软乎乎的，正适合在沙滩上走走。",
+			say = "太陽很暖和，海風很舒服，沙子也軟乎乎的，正適合在沙灘上走走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有的时候漫无目的地稍微闲逛一会，能让人紧张的身心都放松下来。",
+			say = "有的時候漫無目的地稍微閒逛一下，能讓人緊張的身心都放鬆下來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我想在你身边多待一会。",
+			say = "而且，我想在你身邊多待一陣子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以的话，我们这就出发吧？",
+			say = "可以的話，我們這就出發吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备迈出一步的{namecode:50}，突然停下了自己的动作。",
+			say = "剛準備踏出一步的能代，突然停下了自己的動作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你能……牵着我的手吗？",
+			say = "指揮官，你能……牽著我的手嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1

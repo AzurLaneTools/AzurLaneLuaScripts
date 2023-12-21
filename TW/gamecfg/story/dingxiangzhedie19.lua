@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "测试海域，一段时间后————",
+			say = "測試海域，一段時間後————",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -33,9 +33,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "在正式开始测试前，请先允许我向各位介绍一下基本情况。",
+			say = "在正式開始測試前，請先允許我向各位介紹一下基本情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,9 +51,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "我的名字叫迪贝路·XV，大家可以称呼我为迪贝路。",
+			say = "我的名字叫迪貝路·XV，大家可以稱呼我為迪貝路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,9 +69,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "虽然我是新一代的ANTI-X，不过我最擅长的是支援与协助，而不是攻坚与正面作战。",
+			say = "雖然我是新一代的ANTI-X，不過我最擅長的是支援與協助，而不是攻堅與正面作戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,9 +87,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "因此，本次的测试虽然分为协作和对抗两部分，但以协作测试为主，对抗测试为辅。",
+			say = "因此，本次的測試雖然分為協作和對抗兩部分，但以協作測試為主，對抗測試為輔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "简单来说就是，首先咱们组队打靶，然后我们组队打你？",
+			say = "簡單來說就是，先是我們組隊打靶，然後我們組隊打妳？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,9 +123,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "没错没错~简单易懂的概括呢。",
+			say = "沒錯沒錯~簡單易懂的概括呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我们所有人组队，打你一个人么……？",
+			say = "我們所有人組隊，打妳一個人嗎…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,9 +159,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "一会还会有一些适用于演习规则的无人舰来帮我，不过总体来说是这样的哦。",
+			say = "等一下還會有一些適用於演習規則的無人艦來幫我，但整體來說是這樣的喔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "需要手下留情么？我们可是很强的哦~",
+			say = "需要手下留情嗎？我們可是很強的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,9 +194,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "感谢你的关心，不过不需要。安排对抗测试的目的就是测试出我的战斗能力极限，大家尽管全力出击就好。",
+			say = "感謝你的關心，不過不需要。安排對抗測試的目的就是測試出我的戰鬥能力極限，大家儘管全力出擊就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,9 +212,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "请大家接收一下我发送的这组资料，测试的具体规划和我的设备性能都在里面，各位可以自由查阅。",
+			say = "請大家接收一下我發送的這組資料，測試的具體規劃和我的設備性能都在裡面，各位可以自由查閱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白，我看看……欸？终端存储空间不足？",
+			say = "明白，我看看……欸？終端儲存空間不足？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "……北安普敦，借用一下你的云端空间哦~",
+			say = "……北安普敦，借用一下妳的雲端空間哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "居然有这么多吗？稍等，我授权了。",
+			say = "居然有這麼多嗎？稍等，我授權了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………资料确实可以用海量来形容了。",
+			say = "嗯…………資料確實可以用海量來形容了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "从目录上来看主要都是对于迪贝路机体的详细介绍。",
+			say = "從目錄來看主要都是對於迪貝路機體的詳細介紹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,42 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然不是很想这么说，但是这个数据不是一时半会能讲清楚的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_zhedie_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107270,
-			say = "而且我觉得我们也不用了解到这么细致的程度。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107270,
-			side = 2,
-			bgName = "bg_zhedie_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "装备性能相关的事，一会实际测试一下应该很快就清楚了。",
+			say = "雖然不是很想這麼說，但是這個數據不是一時半會能講清楚的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "嗯……我找到演习规划了，对我们来说，这份文件才是最重要的。",
+			say = "而且我覺得我們也不必了解到這麼細緻的程度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +364,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有大黄蜂，这些资料量虽然大，但也没大到我们的存储设备装不下的程度。为什么只有你的存储空间爆了？",
+			say = "裝備性能相關的事，等一下實際測試後應該很快就很清楚了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_zhedie_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107270,
+			say = "嗯……我找到演習規劃了，對我們來說，這份文件才是最重要的。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107270,
+			side = 2,
+			bgName = "bg_zhedie_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "還有大黃蜂，這些資料量雖然大，但也沒大到我們的儲存設備裝不下的程度。為什麼只有妳的儲存空間爆了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊哈哈……也许和我昨天晚上下载了太多东西有关吧……",
+			say = "啊哈哈……也許了我昨天晚上下載了太多東西有關吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "毕竟难得接到外网里一次，内网里没有的东西当然要下个够！",
+			say = "畢竟難得接到外網一次，內網裡沒有的東西當然要下個夠！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "而且还能用安洁的卡买单，不用白不用嘛……",
+			say = "而且還能用安潔的卡買單，不用白不用嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "非常抱歉，之后我会好好说教一下她，并且把这件事跟博士汇报的。",
+			say = "非常抱歉，之後我會好好說教一下她，並且把這件事跟博士報告的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "唔……约克城姐，这些资料哈曼完全看不懂……",
+			say = "嗯……約克鎮姐，這些資料哈曼完全看不懂……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……兰利，要不然还是麻烦你给大家简略介绍一下相关信息吧。",
+			say = "……蘭利，要不然還是麻煩妳為大家簡略介紹一下相關資訊吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "好的。那么首先，从迪贝路的武器配置开始————",
+			say = "好的。那麼首先，先從迪貝路的武器配置開始————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			actorName = "哈曼II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "呜………………",
+			say = "嗚嗚嗚………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			actorName = "哈曼II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "呜呜呜………………",
+			say = "嗚嗚嗚………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,10 +663,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "听不下去啦，真的听不下去啦……",
+			say = "聽不下去啦，真的聽不下去啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,10 +674,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "哈曼，哈曼你还好吗？别晕过去啊。",
+			say = "哈曼，哈曼妳還好嗎？別暈過去啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			actorName = "哈曼II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "欸？刚刚说到哪了……",
+			say = "欸？剛剛說到哪裡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,10 +696,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "蘭利II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "怎么样，到这里为止能听明白么？",
+			say = "怎麼樣，到這裡為止能聽明白嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_6",
-			say = "……感觉，兰利这样的教学方法对于哈曼应该并不是很合适。",
+			say = "……感覺，蘭利這樣的教學方法對哈曼應該並不是很適合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_6",
-			say = "现在毕竟不是在教室里，是该用点更生动的教学方法。",
+			say = "現在畢竟不是在教室裡，是該用點更生動的教學方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_6",
-			say = "迪贝路，能把你的特殊舰载机飞几架过来么？",
+			say = "迪貝路，能把妳的特殊艦載機飛幾架過來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,10 +747,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "当然没问题，我顺便把协助模式打开了，大家可以亲身体验一下哦~",
+			say = "當然沒問題，我順便把協助模式打開了，大家可以親身體驗一下哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			actorName = "哈曼II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "哇哦……哈曼感觉，有这个飞机在身边，系统运算速度提高了。",
+			say = "哇喔……哈曼感覺，有這架飛機在身邊，系統運算速度提高了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,12 +769,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种浑身增加了POWER的感觉……",
+			say = "這種全身增加了POWER的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,10 +786,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "蘭利II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "呃……大家现在感受到的就是刚才提到的，迪贝路能够利用分离式支援模块为队友带来性能增幅的表现。",
+			say = "呃……大家現在感受到的就是剛才提到的，迪貝路能夠利用分離式支援模組為隊友帶來性能增幅的表現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,10 +797,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "蘭利II",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
-			say = "资料还显示，接受迪贝路的支援模块连接越多，性能提升幅度也就越高，换言之……",
+			say = "資料也顯示，接受迪貝路的支援模組連線越多，效能提升幅度也越高，換言之……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "哈曼也感觉，现在充满了POWER！",
+			say = "哈曼也感覺，現在充滿了POWER！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哇哦，哈曼居然能跑到这么快了么~看我也追上去！",
+			say = "哇哦，哈曼居然能跑到這麼快了嗎~看我也追上去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "哎……",
+			say = "哎…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "兰利长长地叹了一口气，宣告着讲解环节的正式结束。",
+			say = "蘭利長長地嘆了一口氣，宣告著講解環節的正式結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "果然还是老师你更厉害……算是我又上了老师的一节课。",
+			say = "果然還是老師你更厲害……算是我又上了老師的一堂課。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "兰利，你讲得也很清晰啦……",
+			say = "蘭利，妳講的也很清晰啦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,7 +922,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "指挥官，我看大家已经准备的差不多了，接下来我们直接开始测试怎么样？",
+			say = "指揮官，我看大家已經準備的差不多了，接下來我們直接開始測試怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -936,7 +936,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "嗯，光看数据确实没有意义。",
+			say = "嗯，光看數據確實沒有意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "既然大家已经跃跃欲试了，那就直接在实战中去感受吧——",
+			say = "既然大家已經躍躍欲試了，那就直接在實戰中去感受吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

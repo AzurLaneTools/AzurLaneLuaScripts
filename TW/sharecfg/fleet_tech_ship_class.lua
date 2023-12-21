@@ -119,6 +119,17 @@ pg.fleet_tech_ship_class = {
 			10149
 		}
 	},
+	[10109] = {
+		shiptype = 1,
+		name = "埃德索尔级",
+		nation = 1,
+		id = 10109,
+		t_level_1 = 7,
+		t_level = 4,
+		ships = {
+			10150
+		}
+	},
 	[10201] = {
 		shiptype = 2,
 		name = "亞特蘭大級",
@@ -280,6 +291,17 @@ pg.fleet_tech_ship_class = {
 			19903
 		}
 	},
+	[10308] = {
+		shiptype = 3,
+		name = "俄勒岡城級",
+		nation = 1,
+		id = 10308,
+		t_level_1 = 3,
+		t_level = 9,
+		ships = {
+			10326
+		}
+	},
 	[10501] = {
 		shiptype = 5,
 		name = "內華達級",
@@ -430,7 +452,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10722,
 			10723,
-			10729
+			10729,
+			10727
 		}
 	},
 	[10607] = {
@@ -466,7 +489,9 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10705,
 			10706,
-			10707
+			10707,
+			10710,
+			10712
 		}
 	},
 	[10703] = {
@@ -2963,6 +2988,7 @@ pg.fleet_tech_ship_class = {
 		10106,
 		10107,
 		10108,
+		10109,
 		10201,
 		10202,
 		10203,
@@ -2975,6 +3001,7 @@ pg.fleet_tech_ship_class = {
 		10305,
 		10306,
 		10307,
+		10308,
 		10501,
 		10502,
 		10503,

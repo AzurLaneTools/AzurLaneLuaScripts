@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			stopbgm = true,
-			say = "测试海域中，与迪贝路之间的对抗演习正有条不紊的进行着。",
+			say = "測試海域中，與迪貝路所之間的對抗演習正有條不紊的進行著。",
 			bgmDelay = 2,
 			bgm = "theme-thedevilXV",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "舰载机群一次又一次地发动着攻击，而迪贝路则在激起的水柱间穿梭着，一副游刃有余的模样。",
+			say = "艦載機群一次又一次地發動著攻擊，而迪貝路則在激起的水柱間穿梭著，一副游刃有餘的模樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啧……能让这种完全不符合空气动力学的大家伙在天上飞得这么灵活！",
+			say = "嘖……能讓這種完全不符合空氣動力學大傢伙在天上飛的這麼靈活！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "新一代ANTI-X在制造的时候究竟塞了多强劲的动力进去啊！",
+			say = "新一代ANTI-X在製造的時候究竟塞了多強勁的動力進去啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "真是应了那句俗话，只要动力足够大，板砖也能飞上天呢。",
+			say = "真是應了那句俗話，只要動力夠大，磚頭也能飛上天呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "轰炸机和鱼雷机没什么对空作战的能力，早知道的话，就多带一些战斗机了……",
+			say = "轟炸機和魚雷機沒什麼對空作戰的能力，早知道的話，就多帶一些戰鬥機了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城，我这里还留了一架搭载实验型舰装化对空导弹的舰载机，你要不要用它来试试？",
+			say = "約克鎮，我這裡還留了一架搭載實驗型艦裝化對空飛彈的艦載機，妳要不要用它來試試？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "只要让她的动力系统受损无法维持飞行模式，接下来就好对付了。",
+			say = "只要讓她的動力系統受損無法維持飛航模式，接下來就好對付了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "Nice兰利~指挥官，我申请发起一波空中佯攻，配合导弹战斗机打击迪贝路的动力系统。",
+			say = "Nice蘭利~指揮官，我申請發動一波空中佯攻，配合飛彈戰鬥機打擊迪貝路的動力系統。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			},
 			options = {
 				{
-					content = "许可。",
+					content = "許可。",
 					flag = 1
 				}
 			}
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（这里居然已经实现了导弹的舰装化了么……而且还用在了舰载机上。）",
+			say = "（這裡居然已經實現了飛彈的艦裝化了嗎……而且還用在了艦載機上。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（真是不得了的技术……这样一来就能限制住迪贝路夸张的机动性了。）",
+			say = "（真是不得了的技術……這樣一來就能限制住迪貝路誇張的機動性了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打击完成~指挥官，六枚导弹全部命中目标，迪贝路的动力系统应该遭受到严重损伤了——",
+			say = "打擊完成~指揮官，六枚飛彈全部命中目標，迪貝路的動力系統應該遭受嚴重損傷了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "遭受了严重损伤才对……",
+			say = "遭受了嚴重損傷才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "约克城姐，迪贝路依然在空中高速飞行中！",
+			say = "約克鎮姐，迪貝路仍在空中高速飛行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "可是……好奇怪，我这边明明显示的是有效命中。她现在应该因为动力系统受损而落入水面才是！",
+			say = "可是……好奇怪，我這邊明明顯示的是有效命中。她現在應該因為動力系統受損而落入水面才是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "…………事情好像有些不对劲。",
+			say = "…………事情好像有些不對勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "指挥官，迪贝路的无人机群正在接近，看来是针对刚才袭击行动的回应。",
+			say = "指揮官，迪貝路的無人機群正在接近，看來是針對剛才攻擊行動的回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……哈曼，不要让这些飞机接近约克城。",
+			say = "……哈曼，不要讓這些飛機接近約克鎮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "放心吧，看哈曼把它们全部打下来！",
+			say = "放心吧，看哈曼把它們全部打下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "疼…………！",
+			say = "痛…………！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "指挥官，约克城姐姐，对面使用了实弹武器攻击哈曼！",
+			say = "指揮官，約克鎮姐姐，對面使用了實彈武器攻擊哈曼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "迪贝路在作弊！",
+			say = "迪貝路在作弊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……诶？实弹武器？",
+			say = "……欸？實彈武器？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………我前去拦截的舰载机也被真的击落了几架，可以肯定对面使用的是实弹武器！",
+			say = "…………我前去攔截的艦載機也被真的擊落了幾架，可以肯定對面使用的是實彈武器！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……仔细凝视着侦察机画面中的迪贝路。",
+			say = "……仔細凝視著偵察機畫面中的迪貝路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "我从中感受到了一股难以名状的疯狂气息。",
+			say = "我從中感受到了一股難以名狀的瘋狂氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……不远处的迪贝路，或许已经不是不久前与大家一起有说有笑的迪贝路了。",
+			say = "……不遠處的迪貝路，或許已經不是不久前跟大家一起有說有笑的迪貝路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "指挥官……我们现在应该怎么办？",
+			say = "指揮官……我們現在該怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "所有人以指挥舰为中心组成防御队形，并……装填实弹。",
+			say = "所有人以指揮艦為中心組成防禦隊形，並……裝填實彈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "暂时先不要向迪贝路发动攻击，但是可以清理其飞过来的无人机与对阵型产生威胁的代行者。",
+			say = "暫時先不要向迪貝路發動攻擊，但是可以清理其飛過來的無人機與對陣型產生威脅的代行者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，是不是先叫停测试比较好？",
+			say = "指揮官，是不是先暫停測試比較好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "嗯。孟菲斯，立刻向迪贝路呼叫，终止对抗测试。",
+			say = "嗯。曼非斯，立刻向迪貝路呼叫，終止對抗測試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "并令其立刻解除武装，询问其使用实弹的原因。",
+			say = "並令其立刻解除武裝，詢問其使用實彈的原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "迪贝路，这里是孟菲斯，我现在命令你立刻解除全部武装并降落到海面上。",
+			say = "迪貝路，這裡是曼非斯，我現在命令妳立刻解除全部武裝並降落到海面上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………奇怪，迪贝路对于我的指令没有回应。",
+			say = "………………奇怪，迪貝路對於我的指示沒有回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "它主动关闭了通讯频道……？不应该会发生这种事才对啊……",
+			say = "它主動關閉了通訊頻道……？不應該會發生這種事才對啊…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（…………没想到，现状居然也超出了孟菲斯的控制？）",
+			say = "（…………沒想到，現狀居然也超出了曼非斯的控制？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "孟菲斯，立刻联系安洁和奥斯塔，向他们告知现场发生的异常状况。",
+			say = "曼非斯，立刻聯絡安潔和奧斯塔，向他們告知現場發生的異常狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "基于迪贝路出现的连续异常行为，可以认定其已处于某种未知的失控状态中。",
+			say = "基於迪貝路出現的連續異常行為，可以認定已處於某種未知的失控狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "各舰注意，立刻调整航向至萨默斯岛。",
+			say = "各艦注意，立刻調整航向至薩摩斯島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "迪贝路目前还未发动猛烈进攻，我们先撤离到安全位置再考虑下一步行动！",
+			say = "迪貝路目前還未發動猛烈進攻，我們先撤離到安全位置再考慮下一步！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "眾人",
 			bgName = "bg_zhedie_7",
 			nameColor = "#A9F548FF",
 			say = "遵命————！",

@@ -1196,7 +1196,12 @@ temp()
 function temp()
 	uv0["哈"] = {
 		["曼"] = {
-			this = true
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
 		},
 		["絲"] = {
 			this = true
@@ -2128,6 +2133,13 @@ function temp()
 			["普"] = {
 				["敦"] = {
 					this = true
+				},
+				["頓"] = {
+					I = {
+						I = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -2529,7 +2541,12 @@ temp()
 function temp()
 	uv0["蘭"] = {
 		["利"] = {
-			this = true
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2587,7 +2604,12 @@ function temp()
 		["克"] = {
 			this = true,
 			["鎮"] = {
-				this = true
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
 			},
 			["公"] = {
 				["爵"] = {
@@ -2614,7 +2636,12 @@ function temp()
 	uv0["大"] = {
 		["黃"] = {
 			["蜂"] = {
-				this = true
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
 			}
 		},
 		["青"] = {

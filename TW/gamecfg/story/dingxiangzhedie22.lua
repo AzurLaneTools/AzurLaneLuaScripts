@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			stopbgm = true,
-			say = "在经历了炮击和雷击测试后，众人又陆续进行了轰炸、侦察、电子对抗等一系列测试项目。",
+			say = "在經歷了炮擊和雷擊測試後，眾人又陸續進行了轟炸、偵察、電子對抗等一系列測試項目。",
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "终于，协作测试结束了，对抗测试即将展开——",
+			say = "終於，協作測試結束了，對抗測試即將展開——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "本来以为会很辛苦……现在已经完完全全爽到了！",
+			say = "本來以為會很辛苦……現在已經完完全全爽到了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "迪贝路啊迪贝路，你可真是个好辅助机！",
+			say = "迪貝路啊迪貝路，妳可真是個好輔助機！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以后上了战场的话，一定要多关照一下我啊。",
+			say = "以後上了戰場的話，一定要多關照我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,9 +96,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "那是自然，只要有机会的话，一定。",
+			say = "那是自然，只要有機會的話，一定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "战争……么。可能的话，还是不要有战争比较好啊。",
+			say = "戰爭……嗎。可能的話，還是不要有戰爭比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "当然了！约克城姐，我就是随口一说，假如打仗的话！",
+			say = "當然了！約克鎮姐，我就是隨口一說，假如打仗的話！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "没关系，我明白我们的职责。",
+			say = "沒關係，我明白我們的職責。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "虽然我不期待战争，但是如果战争来临，我是绝对不会退缩的。",
+			say = "雖然我不期待戰爭，但如果戰爭來臨，我絕對不會退縮的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（面前的约克城与记忆中的她重叠了……）",
+			say = "（眼前的約克鎮與記憶中的她重疊了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（虽然相遇时间与空间都不同，但约克城果然还是约克城……）",
+			say = "（雖然相遇時間與空間都不同，但約克鎮果然還是約克鎮…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,25 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "迪贝路，对抗测试可以开始了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900335,
-			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "迪贝路·XV",
-			side = 2,
-			say = "没问题哦，我这边的准备已经完成了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "迪貝路，對抗測試可以開始了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,9 +226,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "到了对抗测试环节，就需要您这个指挥官大显身手了呢。",
+			say = "沒問題哦，我這邊的準備已經完成了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,9 +244,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "不过在正式开始之前，请允许我先来介绍一下自己的战斗风格。",
+			say = "到了對抗測試環節，就需要您這個指揮官大顯身手了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,9 +262,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "就像先前说的那样，我的定位是支援型角色。",
+			say = "不過在正式開始之前，請容許我先來介紹一下自己的戰鬥風格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,9 +280,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "但是我也配备了一定程度的武装，并且拥有出色的机动能力，以便在一般战场环境中进行自我保护。",
+			say = "就像先前說的那樣，我的定位是支援型角色。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,9 +298,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "毕竟如果团队支援型角色反而成为需要团队保护的短板，那就没有什么意义了。",
+			say = "但是我也配備了一定程度的武裝，並且擁有出色的機動能力，以便在一般戰場環境中進行自我保護。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,9 +316,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "不过我毕竟不是正面战斗的定位。",
+			say = "畢竟如果團隊支援型角色反而成為需要團隊保護的短板，那就沒有什麼意義了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,9 +334,27 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "在遭遇敌人之后，我会利用机动性能将其诱导至队友的战斗火力内，尽力避免一对一的正面交战。",
+			say = "不過我畢竟不是正面戰鬥的定位。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900335,
+			nameColor = "#A9F548FF",
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "迪貝路·XV",
+			side = 2,
+			say = "在遭遇敵人之後，我會利用機動性能將其誘導至隊友的戰鬥火力內，盡力避免一對一的正面交戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "原来如此……但是接下来的对抗演习里你并没有可以依赖的队友。",
+			say = "原來如此……但是接下來的對抗演習裡妳並沒有可以依賴的隊友。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你的优势要如何发挥呢？",
+			say = "妳的優勢要如何發揮？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "感觉单凭你的话，哈曼一个人就够了……",
+			say = "感覺單憑妳的話，哈曼一個人就夠了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,9 +433,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "那可不一定哦~？之前我说了，会有一些使用演习规则的无人舰来帮我。",
+			say = "那可不一定~？之前我說了，會有一些使用演習規則的無人艦來幫我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,9 +451,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "你们看，它们来了。",
+			say = "妳們看，它們來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城……你看到了么，雷达上突然出现了大量无法辨明身份的目标，我们已经被包围了。",
+			say = "約克鎮……妳看到了嗎，雷達上突然出現了大量無法辨識身分的目標，我們已經被包圍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这些就是…………你所说的无人舰？看上去都是和你一样的人型作战单位啊。",
+			say = "這些就是…………妳所說的無人艦？看起來都是跟妳一樣的人型作戰單位啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,9 +504,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "没错，毕竟我们是ANTI-X，就算看上去是人型，本质上也是由AI控制的机械，称之为无人舰并无不妥。",
+			say = "沒錯，畢竟我們是ANTI-X，就算看起來是人型，本質上也是由AI控制的機械，稱之為無人艦並無不妥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这些也和靶舰一样，是你刚刚生产出来的么……？",
+			say = "這些也和靶艦一樣，是妳剛剛生產出來的嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,9 +540,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "并不是。我的舰装尚未拥有生产代行者的功能，它们都是我提前准备好并隐藏起来的。",
+			say = "並不是。我的艦裝尚未擁有生產代行者的功能，它們都是我提前準備好並隱藏起來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,9 +558,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "你们之所以一直没有察觉，是因为在出发之后不久，你们所有人的电子设备就已经被我干扰了哦。",
+			say = "妳們之所以一直沒有察覺，是因為在出發之後不久，你們所有人的電子設備就已經被我干擾了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "咦？！迪贝路好可怕！",
+			say = "咦？！迪貝路好可怕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "刚刚说要迪贝路关照的不也是你么……",
+			say = "剛剛說要迪貝路關照的不也是妳嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,9 +622,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "哼哼，刚才这段就当是一个附赠的小小电子战教学了，大家在任何时候都不要掉以轻心哦。",
+			say = "哼哼，剛才這段就當是一個附贈的小小電子戰教學了，大家在任何時候都不要掉以輕心哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,9 +640,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "现在向大家介绍一下类似于我的左膀右臂的两类无人舰。",
+			say = "現在向大家介紹一下類似我的左膀右臂的兩類無人艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,9 +658,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "主要是用舰载机等轻型武器的型号名为代行者XV「Temptation」，擅长骚扰与支援。",
+			say = "主要是用艦載機等輕型武器的型號名為代行者XV「Temptation」，擅長騷擾與支援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,9 +676,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "主要使用舰炮等重武器的型号名为代行者XV「Restriction」，擅长正面作战。",
+			say = "主要使用艦炮等重武器的型號名為代行者XV「Restriction」，擅長正面作戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,9 +694,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "再加上我的调度与配合，我们这支ANTI-X作战舰队战斗力可是不容小觑的。",
+			say = "再加上我的調度與配合，我們這支ANTI-X作戰艦隊戰鬥力可是不容小覷的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,9 +712,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "如果轻敌的话，说不定会被我打的落花流水哦？",
+			say = "如果輕敵的話，說不定會被我打的落花流水哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城，指挥官……我也仔细阅读了数据…………这些名为代行者的作战单位，每一个都拥有惊人的战斗力。",
+			say = "約克鎮，指揮官……我也仔細閱讀了數據…………這些名為代行者的作戰單位，每一個都擁有驚人的戰鬥力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "如果不认真起来迎战的话，我们也许真的会输……",
+			say = "如果不認真起來迎戰的話，我們也許真的會輸……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（仲裁机关的战斗力，我当然清楚………）",
+			say = "（仲裁機關的戰鬥力，我當然清楚………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,14 +773,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（但是II型舰装之中，也蕴含了新的力量……如果像这样多对一的话，也许会有赢的机会！）",
+			say = "（但是II型艦裝之中，也蘊含了新的力量……如果像這樣多對一的話，也許會有贏的機會！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "鼓励大家",
+					content = "鼓勵大家",
 					flag = 1
 				}
 			}
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "嗯，指挥官，我们会加油的。",
+			say = "嗯，指揮官，我們會加油的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,9 +809,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "大家还有其他问题么？",
+			say = "大家還有其他問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还有两个问题！",
+			say = "我還有兩個問題！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,9 +854,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "请说~请说~",
+			say = "請說~請說~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "第一，一会测试开始之后，你还会给我提供强化么？",
+			say = "第一，等一下測試開始之後，妳還會提供我強化嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,9 +890,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "很遗憾，不会哦~不过我会给我的代行者们都好好强化一番的，敬请期待。",
+			say = "很遺憾，不會喔~不過我會給我的代行者們都好好強化一番的，敬請期待。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊哈哈哈……那么第二个问题，这项测试也和刚才一样使用实弹么？",
+			say = "啊哈哈哈……那麼第二個問題，這項測試也跟剛才一樣使用實彈嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,9 +926,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "别……既然是对抗演习，那当然用演习弹啊，演习弹！",
+			say = "別……既然是對抗演習，那當然用演習彈啊，演習彈啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,9 +962,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "已经信心不足了么，大黄蜂小姐？",
+			say = "已經信心不足了嗎，大黃蜂小姐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -982,7 +982,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "才不是呢，只是这样就不用担心会把你伤得太狠了！",
+			say = "才不是呢，只是不用擔心會把妳傷的太狠了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1008,9 +1008,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "啊哈哈哈~那就一会让我们在战场上过过招咯~",
+			say = "啊哈哈哈~那就等一下讓我們在戰場上過招了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

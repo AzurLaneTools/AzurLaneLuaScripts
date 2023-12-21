@@ -70,6 +70,14 @@ function slot0.IsBossCell(slot0)
 	return slot1.type == uv0.ExpeditionTypeBoss or slot1.type == uv0.ExpeditionTypeMulBoss
 end
 
+function slot0.GetDestroyFX(slot0)
+	if not pg.expedition_data_template[slot0.attachmentId] or slot1.SLG_destroy_FX == "" then
+		return "huoqiubaozha"
+	else
+		return slot1.SLG_destroy_FX
+	end
+end
+
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3

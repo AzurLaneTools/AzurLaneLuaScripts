@@ -517,29 +517,40 @@ function slot0.StartMoveNode(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = slot1:GetMovableNode()
-	slot4 = nil
+	slot4 = {}
+	slot5 = {}
 
-	seriesAsync({
-		function (slot0)
+	for slot9, slot10 in pairs(slot1:GetMovableNode()) do
+		table.insert(slot4, function (slot0)
 			slot1 = uv0
 
 			slot1:LoadMovableNode(uv1, function (slot0)
-				uv0 = slot0
+				uv0[uv1] = slot0
 
-				uv1()
+				uv2()
 			end)
-		end,
-		function (slot0)
-			uv0:MoveNode(uv1, uv2, uv3)
-			slot0()
-		end
-	}, slot2)
+		end)
+	end
+
+	parallelAsync(slot4, function ()
+		uv0:MoveAllNode(uv1, uv2, uv3)
+		uv4()
+	end)
 end
 
-function slot0.MoveNode(slot0, slot1, slot2, slot3)
-	slot0:moveLocalPath(slot2, slot3.path, slot3.time, 0, slot3.easeType, function ()
-		uv0:ClearMoveNode(uv1)
+function slot0.MoveAllNode(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot2) do
+		table.insert(slot4, function (slot0)
+			slot1 = uv0[uv1]
+
+			uv2:moveLocalPath(uv3, slot1.path, slot1.time, slot1.delay, slot1.easeType, slot0)
+		end)
+	end
+
+	parallelAsync(slot4, function ()
+		uv0:ClearMoveNodes(uv1)
 	end)
 end
 
@@ -555,8 +566,10 @@ function slot8(slot0, slot1, slot2, slot3, slot4)
 
 		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv1.action, 0)
 
-		if uv3 then
-			uv3(slot0)
+		slot0.name = uv3
+
+		if uv4 then
+			uv4(slot0)
 		end
 	end)
 end
@@ -593,7 +606,7 @@ function slot0.LoadMovableNode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearMoveNode(slot0, slot1)
+function slot0.ClearMoveNodes(slot0, slot1)
 	if not slot1:ExistMovableNode() then
 		return
 	end
@@ -602,14 +615,12 @@ function slot0.ClearMoveNode(slot0, slot1)
 		return
 	end
 
-	if slot1:GetMovableNode().isSpine then
+	for slot5 = slot0.movePanel.childCount, 1, -1 do
 		if slot0.movePanel:GetChild(0):GetComponent(typeof(SpineAnimUI)) ~= nil then
-			PoolMgr.GetInstance():ReturnSpineChar(slot2.name, slot4.gameObject)
+			PoolMgr.GetInstance():ReturnSpineChar(slot6.name, slot6.gameObject)
 		else
-			removeAllChildren(slot0.movePanel)
+			Object.Destroy(slot6.gameObject)
 		end
-	else
-		removeAllChildren(slot0.movePanel)
 	end
 end
 
@@ -1069,7 +1080,7 @@ end
 
 function slot0.Clear(slot0, slot1)
 	if slot0.step then
-		slot0:ClearMoveNode(slot0.step)
+		slot0:ClearMoveNodes(slot0.step)
 	end
 
 	slot0.bgs = {}

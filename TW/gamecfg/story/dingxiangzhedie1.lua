@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			side = 2,
-			say = "周围的喧嚣声逐渐清晰。",
+			say = "周圍的喧囂聲逐漸清晰。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "我睁开双眼——",
+			say = "我睜開雙眼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "高楼林立，车水马龙。",
+			say = "高樓林立，車水馬龍。",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "此刻的我，似乎正身处某座大都市之中。",
+			say = "此刻的我，似乎正身處某座大都市之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "但模糊的记忆却给了我另一个答案。",
+			say = "但模糊的記憶給了我另一個答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "就在刚刚，由于星海出现了紧急事态，我应该正在与海伦娜一同撤离的路上。",
+			say = "就在剛剛，由於星海出現了緊急事態，我應該是正在與海倫娜一同撤離的路上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "然后……怎么会突然出现在这里？",
+			say = "然後……怎麼會突然出現在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "海伦娜……现在自然是不在身边了。",
+			say = "海倫娜……現在自然是不在身邊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "………………不行，完全回想不出来究竟是如何来到这里的。",
+			say = "………………不行，完全回想不出來究竟是如何來到這裡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "就像一场梦境的开端，或者记忆中突然缺失了一块一样。",
+			say = "就像一場夢境的開端，或是記憶中突然缺失了一塊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "放眼望去，脑海中的回忆和眼前的街景重叠组合，使得面前的一切显得既熟悉又陌生。",
+			say = "放眼望去，腦海中的回憶和眼前的街景重疊組合，使得眼前的一切顯得既熟悉又陌生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "沿着充满既视感的街道眺望，目光所及之处却尽是些叫不上名字的高楼大厦。",
+			say = "沿著充滿既視感的街道眺望，目之所及之處卻盡是些叫不上名字的高樓大廈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "闪烁的全息屏与无数灯光将整座城市都装点成了繁华的圣诞树，即便是在白天依然令人炫目。",
+			say = "閃爍的全息螢幕與無數燈光將整個城市都裝飾成了繁華的聖誕樹，即便是在白天依然顯得令人炫目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "这是一座如同科幻小说中的繁华都市，如同一个梦境，或一个逼真的幻想。",
+			say = "這是一座如同科幻小說中的繁華都市，如同一個夢境，或一個逼真的幻想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "但视野中的一切又那么井然有序地运作着，在这样不真实的氛围中构建出强烈的真实感。",
+			say = "但視野中的一切又那麼井然有序的運作著，在這樣不真實的氛圍中建構出強烈的真實感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "以至于让一个词在我的脑海中呼之欲出————「前往未来」",
+			say = "以至於讓一個詞在我的腦海中呼之欲出————「前往未來」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "……不过这大概是不可能的吧。",
+			say = "……不過這大概是不可能吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "如果只是一定程度上的逼真场景构建，依靠星海的现有设备也能完成。",
+			say = "如果只是某種程度上的逼真場景構建，依靠星海的現有設備也能完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "那么，眼前的这一切会和星海在紧急疏散前发现的异常情况有关么？",
+			say = "那麼，眼前的這一切會和星海在緊急疏散前發現的異常情況有關嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "……以目前掌握到的情报来说，还无法做出准确的判断啊。",
+			say = "……以目前掌握到的情報來說，還無法做出準確的判斷啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,84 +246,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器？",
-			bgName = "bg_port_ny_future",
-			nameColor = "#A9F548FF",
-			say = "——叮咚。——叮咚。",
-			soundeffect = "event:/ui/bell",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "伴随着振动，口袋里面传来了响铃的声音。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "将手伸进口袋，摸到了一个精致的“小盒子”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "这个是……便携式通讯器？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "究竟是什么时候到我口袋里的…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "倒不如说……这身衣服，又是什么时候换上的？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_ny_future",
-			say = "看上去并不像军装，而是……研究员？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "通讯器？",
+			actorName = "通訊器？",
 			bgName = "bg_port_ny_future",
 			nameColor = "#A9F548FF",
 			say = "——叮咚。——叮咚。",
@@ -342,18 +265,95 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "小盒子的振动和声响丝毫没有停止的意思，看来还是接通一下比较好。",
+			say = "伴隨著振動，口袋裡面傳來了響鈴的聲音。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "將手伸進口袋，摸到了一個精緻的「小盒子」。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "這個是……便攜式通訊器？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "究竟是什麼時候到我口袋裡的…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "倒不如說……這身衣服，又是什麼時候換上的？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "看上去不像軍裝，而是……研究員？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "通訊器？",
+			bgName = "bg_port_ny_future",
+			nameColor = "#A9F548FF",
+			say = "——叮咚。——叮咚。",
+			soundeffect = "event:/ui/bell",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_ny_future",
+			say = "小盒子的震動和聲響絲毫沒有停止的意思，看來還是接通一下比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "滑动绿色的按钮。",
+					content = "滑動綠色的按鈕。",
 					flag = 1
 				},
 				{
-					content = "滑动红色的按钮。",
+					content = "滑動紅色的按鈕。",
 					flag = 2
 				}
 			}
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_port_ny_future",
 			optionFlag = 1,
-			say = "“通讯器”轻微地振动了一下。",
+			say = "「通訊器」輕微地震動了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "bg_port_ny_future",
 			optionFlag = 2,
-			say = "……不对，按照常识来说，这个应该是拒绝的意思吧。",
+			say = "……不對，照常識來說，這應該是拒絕的意思吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_port_ny_future",
 			optionFlag = 2,
-			say = "滑动绿色的按钮，“通讯器”轻微地振动了一下。",
+			say = "滑動綠色的按鈕，「通訊器」輕微地震動了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师好，这里是来自孟菲斯的留言。",
+			say = "老師好，這裡是來自曼非斯的留言。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为之前怎么也打不通老师的电话，想着也许是您还在旅途中没有注意到，所以就这样转为语音留言了。",
+			say = "因為之前怎麼也打不通老師的電話，想著也許是您還在旅途中沒有注意到，所以就這樣轉為語音留言了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在我发出这则留言的时候，安洁博士与约克城一行人的飞机已经安全降落了。",
+			say = "在我發出這則留言的時候，安潔醫生與約克鎮一行人的飛機已經安全降落了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "原本博士是打算接您一起前往大学的。",
+			say = "原本博士是打算接您一起前往大學的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过她的飞机……嗯……晚点了。",
+			say = "不過她的飛機……嗯……晚點了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以时间变得紧迫了起来，她只好先去大学那边准备报告会了。",
+			say = "所以時間變得緊迫了起來，她只好先去大學那邊準備報告會了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过不用担心，北安普敦已经在去接您的路上了。",
+			say = "不過不用擔心，北安普敦已經在去接您的路上了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师就在约好的地点稍候片刻就好，孟菲斯留言结束。",
+			say = "老師就在約好的地點稍候片刻就好，曼非斯留言結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "通讯器中的声音停止了，屏幕也暗了下去。",
+			say = "通訊器中的聲音停止了，螢幕也暗了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "虽然款式与认知中的通讯器有着不小差距，不过不管怎么说，这个通讯器简洁又易操作的设计真是帮了大忙。",
+			say = "雖然款式與認知中的通訊器有著不小差距，不過不管怎麼說，這個通訊器簡潔又易操作的設計真是幫了大忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "不过……孟菲斯用到的称呼是“老师”么。",
+			say = "不過……曼非斯用到的稱呼是「老師」嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "没想到除了安克雷奇之外，居然孟菲斯也开始用这个称呼了。",
+			say = "沒想到除了安克拉治之外，居然曼非斯也開始用這個稱呼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "还有安洁博士、大学、报告会……说实话我对于刚才孟菲斯所说的话完全不理解。",
+			say = "還有安潔博士、大學、報告會……實話我對剛才曼非斯所說的話完全不懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "各种谜团和疑问堆在一起，以至于一下子不知道该从哪个问题开始思考。",
+			say = "各種謎團和疑問堆在一起，以至於一下子不知道該從哪個問題開始思考。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "不过……既然孟菲斯提到一会北安普敦会来，那这些问题就先放到之后。",
+			say = "不過……既然曼非斯提到等一下北安普敦會來，那這些問題就先放到之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "趁着现在的空档，再多收集一下关于这座城市的情报好了。",
+			say = "趁著現在的空檔，再多收集一下關於這座城市的情報好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "稍微往前走了一段距离，再次打量起四周。这一次，视野中出现了更多熟悉的地标建筑。",
+			say = "稍微往前走了一段距離，再次打量四周。這次，視野中出現了更熟悉的地標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "现在基本上可以确定，这里应该还是NY都市。",
+			say = "現在基本上可以確定，這裡應該還是NY都市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "先前没能认出来的原因，大概是因为这些为数不多的熟面孔已经被形式各异的全息巨幕打扮的“面目全非”了。",
+			say = "先前沒能認出來的原因，大概是因為這些為數不多的熟面孔已經被形式各異的全息巨大螢幕打扮的「面目全非」了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "以现在的处境来看，可能真的要认真思考一下时空旅行的可能性了……",
+			say = "以現在的處境來看，可能真的要認真思考時空旅行的可能性了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "就这样，我一边思考一边踱步，全然没有注意到一辆轿车正在朝我的方向驶来。",
+			say = "就這樣，我一邊思考一邊踱步，完全沒有注意到一輛轎車正朝我的方向駛來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "直到听到了身后传来车门打开的声音————",
+			say = "直到聽到了身後傳來車門打開的聲音————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到老师正好在停车场的旁边踱步，看来我们还真是很合拍呢。",
+			say = "沒想到老師剛好在停車場的旁邊踱步，看來我們還真是很合拍呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "久等了么？",
+			say = "久等了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "嗯……虽然服饰风格已经和周围的具有科技感的都市融为了一体，不过下车的人确实是北安普敦。",
+			say = "嗯……雖然服飾風格已經周圍的具有科技感的都市融為一體，不過下車的人確實是北安普敦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "就是没想到，居然连北安普敦用的也是老师的称呼……",
+			say = "就是沒想到，居然連北安普敦用的也是老師的稱呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯？老师你有什么不舒服么？",
+			say = "嗯？老師你有什麼不舒服？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "也许是看我没有任何回应，北安普敦有些担心的快步走了过来。",
+			say = "也許是看我沒有任何回應，北安普敦有些擔心的快步走了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,14 +785,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "……现状还不明朗，这里还是先不要引起过多关注，顺其自然看看吧。",
+			say = "……現狀還不明朗，這裡還是先不要引起太多關注，順其自然看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题，只是有点累了。",
+					content = "沒問題，只是有點累了。",
 					flag = 1
 				}
 			}
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "啊哈哈……说的也是，坐车过来确实需要花很久。",
+			say = "啊哈哈……說的也是，坐車過來確實要花很久。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "不过还是要再辛苦老师一下，我们还得开车去大学跟博士会合呢。",
+			say = "不過還是要再辛苦老師一下，我們還要開車去大學跟博士會合呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "安洁……博士，现在在大学么？",
+			say = "安潔……博士，現在在大學嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没错。老师应该都听孟菲斯说了吧，博士因为飞机到得太晚了所以只好先去报告会了。",
+			say = "沒錯。老師應該都聽曼非斯說了吧，博士因為飛機到的太晚了所以只好先去報告會了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "不过等咱们到了之后，她那边应该也差不多该忙完了。",
+			say = "不過等我們到了之後，她那邊應該也差不多該忙完了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "……既然如此，就让我们出发吧。",
+			say = "……既然如此，就讓我們出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好的，老师请上车，我们这就出发~",
+			say = "好的，老師請上，我們這就出發~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,47 +911,47 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「我是舰长，现在向舰上的所有人发表讲话。」",
+					"「我是艦長，現在向艦上的所有人發表演說。」",
 					1
 				},
 				{
-					"「在过去的数小时里，发生了很多的事情。」",
+					"「在過去的幾個小時裡，發生了很多的事情。」",
 					2
 				},
 				{
-					"「我相信，我们所遭遇的情况并非人为所致，而是自然现象。」",
+					"「我相信，我們所遭遇的情況並非人為所致，而是自然現象。」",
 					3
 				},
 				{
-					"「一场无法解释的自然现象。」",
+					"「一場無法解釋的自然現象。」",
 					4
 				},
 				{
-					"「这个现象就目前我们所知，对时间产生了某种影响。」",
+					"「這個現象就目前我們所知，對時間產生了某種影響。」",
 					5
 				},
 				{
-					"「进而创造了一个进入另一个时代的入口。」",
+					"「進而創造了一個進入另一個時代的入口。」",
 					6
 				},
 				{
-					"「我们即将进行一场战争。」",
+					"「我們即將進行一場戰爭。」",
 					7
 				},
 				{
-					"「一场在你们所有人还未出生前就已经输掉的战争。」",
+					"「一場在你們所有人還未出生前就已經輸掉的戰爭。」",
 					8
 				},
 				{
-					"「但是这次，在我们的努力下，这场战争的结局会变得不一样。」",
+					"「但是這次，在我們的努力下，這場戰爭的結局會變得不一樣。」",
 					9
 				},
 				{
-					"「既定的过去，是有可能被改写的。」",
+					"「既定的過去，是有可能被改寫的。」",
 					10
 				},
 				{
-					"「————祝我们好运。」",
+					"「————祝我們好運。」",
 					11
 				}
 			}

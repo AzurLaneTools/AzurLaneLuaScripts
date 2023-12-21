@@ -92,7 +92,7 @@ function slot0.GetLocation(slot0)
 end
 
 function slot0.ExistMovableNode(slot0)
-	return slot0.movableNode ~= nil
+	return slot0.movableNode ~= nil and type(slot0.movableNode) == "table" and #slot0.movableNode > 0
 end
 
 function slot0.GetPathByString(slot0, slot1, slot2)
@@ -157,44 +157,57 @@ function slot0.GetPathByString(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetMovableNode(slot0)
-	if not slot0:ExistMovableNode() then
-		return nil
-	end
+function slot0.GenMoveNode(slot0, slot1)
+	slot2 = {}
 
-	slot1 = {}
-
-	if type(slot0.movableNode.path) == "table" then
-		for slot5, slot6 in ipairs(slot0.movableNode.path) do
-			table.insert(slot1, Vector3(slot6[1], slot6[2], 0))
+	if type(slot1.path) == "table" then
+		for slot6, slot7 in ipairs(slot1.path) do
+			table.insert(slot2, Vector3(slot7[1], slot7[2], 0))
 		end
 	else
-		slot1 = (type(slot0.movableNode.path) ~= "string" or slot0:GetPathByString(slot0.movableNode.path, slot0.movableNode.offset)) and slot0:GetPathByString("LTRT")
+		slot2 = (type(slot1.path) ~= "string" or slot0:GetPathByString(slot1.path, slot1.offset)) and slot0:GetPathByString("LTRT")
 	end
 
-	slot2 = type(slot0.movableNode.spine) == "table" or slot0.movableNode.spine == true
-	slot3 = nil
+	slot3 = type(slot1.spine) == "table" or slot1.spine == true
+	slot4 = nil
 
-	if slot0.movableNode.spine == true then
-		slot3 = {
+	if slot1.spine == true then
+		slot4 = {
 			action = "walk",
 			scale = 0.5
 		}
-	elseif slot2 then
-		slot3 = {
-			action = slot0.movableNode.spine.action or "walk",
-			scale = slot0.movableNode.spine.scale or 0.5
+	elseif slot3 then
+		slot4 = {
+			action = slot1.spine.action or "walk",
+			scale = slot1.spine.scale or 0.5
 		}
 	end
 
 	return {
-		name = slot0.movableNode.name,
-		isSpine = slot2,
-		spineData = slot3,
-		path = slot1,
-		time = slot0.movableNode.time,
-		easeType = slot0.movableNode.easeType or LeanTweenType.linear
+		name = slot1.name,
+		isSpine = slot3,
+		spineData = slot4,
+		path = slot2,
+		time = slot1.time,
+		delay = slot1.delay or 0,
+		easeType = slot1.easeType or LeanTweenType.linear
 	}
+end
+
+function slot0.GetMovableNode(slot0)
+	if not slot0:ExistMovableNode() then
+		return {}
+	end
+
+	slot1 = {}
+	slot2 = pairs
+	slot3 = slot0.movableNode or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot1, slot0:GenMoveNode(slot6))
+	end
+
+	return slot1
 end
 
 function slot0.OldPhotoEffect(slot0)

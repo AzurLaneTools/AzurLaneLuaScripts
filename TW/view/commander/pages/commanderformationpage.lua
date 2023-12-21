@@ -27,21 +27,15 @@ function slot0.OnInit(slot0)
 	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
 	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
 	slot0.recordPanel = slot0:findTF("record_panel")
-	slot2 = slot0.recordPanel
-	slot2 = slot0.recordPanel
 	slot0.recordCommanders = {
-		slot2:Find("current/commanders/commander1/frame/info"),
-		slot2:Find("current/commanders/commander2/frame/info")
+		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
+		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
 	}
-	slot2 = slot0.recordPanel
-	slot2 = slot0.recordPanel
 	slot0.reocrdSkills = {
-		slot2:Find("current/commanders/commander1/skill_info"),
-		slot2:Find("current/commanders/commander2/skill_info")
+		slot0.recordPanel:Find("current/commanders/commander1/skill_info"),
+		slot0.recordPanel:Find("current/commanders/commander2/skill_info")
 	}
-	slot2 = slot0.recordPanel
-	slot3 = slot0.recordPanel
-	slot0.recordList = UIItemList.New(slot2:Find("record/content"), slot3:Find("record/content/commanders"))
+	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
 	onButton(slot0, slot0.samllTF, function ()
 		uv0:openDescPanel()
@@ -61,12 +55,12 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.quickBtn, function ()
 		uv0:OpenRecordPanel()
 	end, SFX_PANEL)
-
-	slot3 = slot0.recordPanel
-
-	onButton(slot0, slot3:Find("back"), function ()
+	onButton(slot0, slot0.recordPanel:Find("back"), function ()
 		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
+	setText(slot0:findTF("desc/frame/atttr_panel/abilitys/title/Text"), i18n("commander_subtile_ablity"))
+	setText(slot0:findTF("desc/frame/atttr_panel/talents/title/Text"), i18n("commander_subtile_talent"))
+	setText(slot0:findTF("record_panel/current/title/Text"), i18n("commander_formation_prefab_fleet"))
 end
 
 function slot0.Update(slot0, slot1, slot2)

@@ -1594,7 +1594,7 @@ pg.activity_shop_extra = {
 		end_by_maintenance = 0,
 		commodity_type = 7,
 		id = 64,
-		order = 15,
+		order = 800,
 		time = {
 			{
 				{
@@ -2420,6 +2420,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[94] = {
+		commodity_type = 7,
+		activity = 4602,
+		commodity_id = 102233,
+		order = 800,
+		id = 94,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"NEWYEAR BACKHILL 2023"
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[98] = {
 		commodity_type = 7,
 		activity = 45908,
@@ -2872,6 +2911,7 @@ pg.activity_shop_extra = {
 			91,
 			92,
 			93,
+			94,
 			98,
 			100,
 			101,
@@ -2953,6 +2993,7 @@ pg.activity_shop_extra = {
 		91,
 		92,
 		93,
+		94,
 		98,
 		100,
 		101,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			stopbgm = true,
-			say = "此刻，一场旨在消灭仲裁者·迪贝路XV的战斗正在进行中——",
+			say = "此刻，一場旨在消滅仲裁者·迪貝路·XV的戰鬥正在進行中——",
 			bgmDelay = 2,
 			bgm = "theme-thedevilXV",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "迪贝路的「阵型」已经布置完成了，在这种状态下，不要直接攻击其本体。",
+			say = "迪貝路的「陣型」已經佈置完成了，在這種狀態下，不要直接攻擊其本體。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "首先，我们要先消灭“恶魔”的眼睛——代行者XV「Temptation」。",
+			say = "首先，我們要先消滅「惡魔」的眼睛－代行者XV「Temptation」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "孟菲斯，情报支援。",
+			say = "曼非斯，情報支援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 9702020,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "了解。所有代行者XV「Temptation」的位置及弱点部位已同步至联合作战系统。",
+			say = "了解。所有代行者XV「Temptation」的位置及弱點部位已同步至聯合作戰系統。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……你，究竟是怎么做到的？",
+			say = "……妳，究竟是怎麼做到的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 9702020,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "指挥官，请让舰载机群对这些目标同时发动攻击，就像之前在演习中对付我的时候一样。",
+			say = "指揮官，請讓艦載機群對這些目標同時發動攻擊，就像之前在演習中對付我的時候一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "海伦娜，能像之前那次一样为大家提供全方位的强化么？",
+			say = "海倫娜，能像之前那次一樣為大家提供全方位的強化麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "已经在调整中了哦~",
+			say = "已經在調整中了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "很好。约克城，大黄蜂，兰利，接下来拜托各位按照孟菲斯的标记发动攻击了。",
+			say = "很好。約克鎮，大黃蜂，蘭利，接下來拜託各位按照曼非斯的標記發動攻擊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心交给我们吧。",
+			say = "放心交給我們吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 107120,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大黄蜂大人早就想报复回去了！",
+			say = "大黃蜂大人早就想報復回去了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，打击已经完成了……目标全数被毁。",
+			say = "指揮官，打擊已經完成了……目標全數被毀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 107270,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从速度到威力……我们的舰载机得到了全方位的性能提升，这些都是你做的么，海伦娜？",
+			say = "從速度到威力……我們的艦載機得到了全方位的性能提升，這些都是妳做的嗎，海倫娜？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！迪贝路的高度正在下降，她要落回水面了！",
+			say = "指揮官！迪貝路的高度正在下降，她要落回水面了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "它当然会这么做，因为它要开始进行反制了。",
+			say = "它當然會這麼做，因為它要開始反制了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "接下来，不要去进攻“恶魔”的爪子——代行者XV「Restriction」，那些只是吸引无知之人缠斗的陷阱。",
+			say = "接下來，不要去進攻「惡魔」的爪子——代行者XV「Restriction」，那些只是吸引無知之人纏鬥的陷阱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "失去了眼睛引导的爪子不过是胡乱挥舞的棍棒罢了。",
+			say = "失去了眼睛引導的爪子不過是胡亂揮舞的棍棒罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在迪贝路完成「阵型」调整前，绕过爪子直扑本体。",
+			say = "在迪貝路完成「陣型」調整前，繞過爪子直撲本體。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "没问题。但是第二波舰载机准备还需要时间，你能加快这一准备过程么？",
+			say = "沒問題。但第二波艦載機準備還需要時間，妳能加快這項準備過程嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可以，但没必要。我所说的直扑，是字面意义上的哦。",
+			say = "可以，但沒必要。我所說的直撲，是字面上的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我有办法可以黑掉迪贝路的系统，进而让它的大多数武器设备停机。",
+			say = "我有辦法可以駭入迪貝路的系統，進而讓它的大多數武器設備停機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是现在整片空间已经脱离了我的控制，我没法远程做到这件事。",
+			say = "但是現在整片空間已經脫離了我的控制，我沒辦法遠端做到這件事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "海伦娜一边说着，一边不知从何处拿出来一个如同黑色针筒一般的设备。",
+			say = "海倫娜一邊說著，一邊不知從何處拿出來一個如同黑色針筒一般的設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "看到这个设备了么？插入迪贝路的胸口，然后大功告成。",
+			say = "看到這個設備了嗎？插入迪貝路的胸口，然後大功告成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "……原来如此，确实是字面意义上的“直扑”。",
+			say = "……原來如此，確實是字面上的「直撲」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "但是这种作战实在太危险了。",
+			say = "但是這種作戰實在太危險了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "执行任务的人需要高速穿过代行者编织的网络，躲过迪贝路的近防炮，最后将设备精准插到迪贝路的胸口上。",
+			say = "執行任務的人需要高速穿過代行者編織的網路，躲過迪貝路的近防炮，最後將設備精準插到迪貝路的胸口上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但这是我们仅有的机会。",
+			say = "但這是我們僅有的機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "一旦迪贝路完成「阵型」的调整，接下来战斗就要变成消耗战了。",
+			say = "一旦迪貝路完成「陣型」的調整，接下來戰鬥就要變成消耗戰了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "别忘了这片空间的控制权已经被迪贝路接管了哦？",
+			say = "別忘了這片空間的控制權已經被迪貝路接管了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哼，只要有足够高的灵巧和速度就可以对吧？",
+			say = "……哼，只要有夠高的靈巧和速度就可以對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "区区这种事对于哈曼来说就是小菜一碟！",
+			say = "區區這種事對於哈曼來做就是小菜一碟！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这件事就交给哈曼来做吧！",
+			say = "指揮官，這件事就交給哈曼來做吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有我。指挥官，我跟哈曼一起去。",
+			say = "還有我。指揮官，我跟哈曼一起去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "必要的时候我会为她抵挡攻击，保证把哈曼送到迪贝路面前。",
+			say = "必要的時候我會為她抵擋攻擊，保證把哈曼送到迪貝路面前。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "孟菲斯，规划最优航线。大家调整攻击方向，为哈曼打开前进的道路！",
+			say = "曼非斯，規劃最優航線。大家調整攻擊方向，為哈曼打開前進的道路！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -27,6 +27,14 @@ function slot0.StartEggCellView(slot0, slot1, slot2)
 		setActive(slot0.tfBossIcon, false)
 	end
 
+	if ChapterConst.EnemySize[slot1.type] == 98 then
+		slot0.tfBossIcon.localScale = Vector3(0.5, 0.5, 1)
+		slot0.tfBossIcon.anchoredPosition = Vector2(61.1, -30.6)
+	else
+		slot0.tfBossIcon.localScale = Vector3(1, 1, 1)
+		slot0.tfBossIcon.anchoredPosition = Vector2(39.5, -23)
+	end
+
 	uv0.ClearExtraEffects(slot0)
 	uv0.LoadExtraEffects(slot0, slot1.effect_prefab)
 	slot0:GetLoader():GetSprite("enemies/" .. slot1.icon, "", slot0.tfIcon)

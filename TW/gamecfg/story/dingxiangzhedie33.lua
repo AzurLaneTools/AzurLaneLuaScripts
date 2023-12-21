@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_6",
 			stopbgm = true,
-			say = "东阿非利加·某处",
+			say = "東阿非利加·某處",
 			bgmDelay = 2,
 			bgm = "theme-irisangel",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "可怖，你推荐贞德带队参加撒丁博览会是为了支开她吧？",
+			say = "可怖，妳推薦貞德帶隊參加薩丁博覽會是為了支開她吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你要向我提出一些不方便让她参与的行动计划？",
+			say = "妳要向我提出一些不方便讓她參與的行動計畫？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不是不方便……只不过有些事情不应该让她这样信仰如此无暇的人参与其中罢了。",
+			say = "倒也不是不方便……只不過有些事情不該讓她這樣對信仰如此無瑕的人參與其中罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "政治就像毒药，是会侵蚀信仰的……",
+			say = "政治就像毒藥，是會侵蝕信仰的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "黎塞留大人，鸢尾教国曾经在海外建立的“圣堂”不只有莫桑比克海峡的一座，对吧？",
+			say = "黎胥留大人，鳶尾教國曾經部署在海外的「聖堂」不只有莫三比克海峽的一座，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "克莱蒙梭在你走之前都告诉了你多少事？",
+			say = "克萊蒙梭在妳離開之前都告訴了你多少事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "她认为我应该知道的，全部。",
+			say = "她認為我應該知道的，全部。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "审判庭还是克莱蒙梭负责么？",
+			say = "審判庭還是克萊蒙梭負責嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是，审判庭及其所有附属力量一直牢牢掌握在克莱蒙梭大人手中。",
+			say = "是，審判庭及其所有附屬力量一直牢牢掌握在克萊蒙梭大人手中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你跟她还有联系么？",
+			say = "妳跟她還有聯繫嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "只有克莱蒙梭大人想要联系我的时候，我才能跟她取得联系。",
+			say = "只有克萊蒙梭大人想要聯絡我的時候，我才能跟她聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那就让我们来谈一谈这件会“侵蚀信仰”的事吧——",
+			say = "那就讓我們來談談這件會「侵蝕信仰」的事吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

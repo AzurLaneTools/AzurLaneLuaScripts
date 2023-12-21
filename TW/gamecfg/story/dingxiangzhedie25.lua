@@ -12,7 +12,7 @@ return {
 			bgm = "theme-thedevilXV",
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 1,
@@ -74,7 +74,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "代行者「Temptation」，成功击毁！",
+			say = "代行者「Temptation」，成功擊毀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，让你们见识一下哈曼的厉害！",
+			say = "哼，讓你們見見哈曼的厲害！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些代行者跟之前测试中显示的数据不一样，装甲更加坚固。",
+			say = "這些代行者跟先前測試中顯示的數據不一樣，裝甲更加堅固。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家请注意调整火力分配，以免造成不必要的损失。",
+			say = "大家請注意調整火力分配，以免造成不必要的損失。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_zhedie_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，迪贝路正在向我们的位置笔直飞来，预计将在一分钟内进入目视距离。",
+			say = "指揮官，迪貝路正在向我們的位置筆直飛來，預計將在一分鐘內進入目視距離。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "由于装甲的保护，战斗机对迪贝路的攻击都失败了，轰炸机和鱼雷机又无法对于空中目标造成有效杀伤。",
+			say = "由於裝甲的保護，戰鬥機對迪貝路的攻擊都失敗了，轟炸機和魚雷機又無法對於空中目標造成有效殺傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……要是有战列舰编队在就好了。",
+			say = "……要是有戰艦編隊在就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，萨默斯岛没有任何回应，我们失去跟后方的联系了……",
+			say = "指揮官，薩摩斯島沒有任何回應，我們失去跟後方的聯繫了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "通讯被干扰了么？",
+			say = "通訊被干擾了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_zhedie_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不，我们的通讯是正常的。只是单纯……无法取得联系。",
+			say = "不，我們的通訊是正常的。只是單純……無法取得聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用着急，指挥官。我再想想别的办法……！",
+			say = "不用急，指揮官。我再想想別的辦法……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不好了老师，周围好像凭空出现了大量未知舰队，已经将我们包围了……",
+			say = "不好了老師，周圍好像憑空出現了大量未知艦隊，已經將我們包圍了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "敌人还有增援……？！什么型号？",
+			say = "敵人還有增援……？！什麼型號？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，侦察信号有点模糊，正在处理中……",
+			say = "稍等，偵察訊號有點模糊，正在處理中……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………指挥官，我……我不知道敌人是什么型号。",
+			say = "…………指揮官，我……我不知道敵人是什麼型號。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……立刻把画面转至指挥舰！",
+			say = "……立刻把畫面轉至指揮艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "侦察机传来的最新画面出现在了指挥舰的屏幕上。",
+			say = "偵察機傳來的最新畫面出現在了指揮艦的螢幕上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "画面虽然经过处理，但敌人的类型依然模糊不清。",
+			say = "畫面雖然經過處理，但敵人的類型依然模糊不清。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "好像笼罩着某种烟雾一样，虽然看在眼里，但是无法特定其外形和类别……",
+			say = "好像籠罩著某種煙霧一樣，雖然看在眼裡，但是無法特定其外形和類別…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "…………不知为何，似乎我已经不是第一次见过这种敌人了。",
+			say = "…………不知為何，似乎我已經不是第一次見過這種敵人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "好像就在那些离开了极地密室之后，留存在脑海中的朦胧“梦境”片段中……",
+			say = "好像就在那些離開了極地密室之後，留存在腦海中的朦朧「夢境」片段中…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			say = "轰——————！",
+			say = "轟——————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -487,7 +487,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些敌人好难缠啊！",
+			say = "這些敵人好難纏啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到底是些什么东西，感觉身上始终带着一层迷雾一样……",
+			say = "到底是些什麼東西，感覺身上始終帶著一層迷霧一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正绝对不是塞壬，而是某种……无法解释的存在。",
+			say = "反正絕對不是塞壬，而是某種……無法解釋的存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说都是些尚未得到解释的存在，不过和这些尚未解释的存在进行战斗的时候还是有些难受啊，基洛夫你怎么看？",
+			say = "雖然都是一些尚未得到解釋的存在，不過和這些尚未解釋的存在進行戰鬥的時候還是有些難受啊，基洛夫妳怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哼，很有研究价值的敌人，在战斗之后尝试带一些核心部件回去研究吧。",
+			say = "哼，很有研究價值的敵人，在戰鬥之後試著帶一些核心部件回去研究吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_cccpv2_10",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不愧是基洛夫，很有气魄的发言……",
+			say = "不愧是基洛夫，很有氣魄的發言……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在我们的事业完成之前，我基洛夫可不会轻易倒下哦！",
+			say = "在我們的事業完成之前，我基洛夫可不會輕易倒下哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然我们的攻击能够造成伤害，那么不管对面是什么东西都没什么可怕的。",
+			say = "既然我們的攻擊能夠造成傷害，那麼不管對面是什麼東西都沒什麼可怕的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们只要开火，开火，开火。用持续不断的火力粉碎一切胆敢阻碍我们前进的敌人！",
+			say = "我們只要開火，開火，開火。用持續不斷的火力粉碎一切膽敢阻礙我們前進的敵人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
-			say = "我完全想起来了，关于在密室之中经历的一切……",
+			say = "我完全想起來了，關於在密室之中經歷的一切……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "有关于密室、安洁、奥斯塔、会议、长岛防线、记录机构，还有那场战斗的结局。",
+			say = "有關於密室、安潔、奧斯塔、會議、長島防線、紀錄機構，還有那場戰鬥的結局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……“战斗，直到光芒消散为止”么。",
+			say = "……「戰鬥，直到光芒消散為止」嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,10 +688,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "…………那些东西在这里出现了？",
+			say = "…………那些東西在這裡出現了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,10 +699,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "怎么可能……明明我们已经把指挥官从迪贝路的追踪中救出来了。",
+			say = "怎麼可能……明明我們已經把指揮官從迪貝路的追蹤中救出來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,10 +710,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "迪贝路怎么可能会追到这里，甚至入侵由“塔”构造的空间……",
+			say = "迪貝路怎麼可能會追到這裡，甚至入侵由塔構造的空間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,10 +721,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "它到底是怎么做到的……？",
+			say = "它到底是怎麼做到的呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,10 +732,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "仅凭迪贝路一个人怎么可能…………",
+			say = "僅憑迪貝路一個人怎麼可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,10 +743,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "…………它还有帮手？",
+			say = "…………它還有幫手？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,10 +754,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "究竟是谁…………为什么我们什么情报都没收到……！",
+			say = "究竟是誰…………為什麼我們什麼情報都沒收到……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,17 +765,17 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
-			say = "孟菲斯…………你还好么？",
+			say = "曼非斯…………妳還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
@@ -791,7 +791,7 @@ return {
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
@@ -807,11 +807,11 @@ return {
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
-			say = "是我把指挥官带到这里来的……！",
+			say = "是我把指揮官帶到這裡來的……！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -824,10 +824,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "是我把它们引到这里来的…………",
+			say = "是我把它們引到這裡來的…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,10 +835,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "“塔”的空间已经出现侵蚀迹象了……",
+			say = "「塔」的空間已經出現侵蝕跡象了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,10 +846,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "…………我没法恢复对于空间的控制。",
+			say = "…………我沒辦法恢復對於空間的控制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,10 +857,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "所有通道都被封锁了……",
+			say = "所有通道都被封鎖了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,10 +868,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "我没法把指挥官的意识安全送出去……",
+			say = "我沒辦法把指揮官的意識安全送出去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "原本我只是想……",
@@ -890,10 +890,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "都是我的错……",
+			say = "都是我的錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,10 +901,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "是我害了指挥官……",
+			say = "是我害了指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,10 +912,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "我究竟做了什么啊啊啊啊啊啊啊啊啊啊啊啊啊啊！",
+			say = "我究竟做了什麼啊啊啊啊啊啊啊啊啊啊啊啊啊！",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -939,10 +939,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
-			say = "孟菲斯，你究竟在说什么……？",
+			say = "曼非斯，妳究竟在說什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,10 +950,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
-			say = "现在究竟是什么情况？你究竟知道什么？！",
+			say = "現在究竟是什麼狀況？妳究竟知道什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,10 +961,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "…………对不起。",
+			say = "…………對不起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,10 +972,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
-			say = "指挥官，救————",
+			say = "指揮官，救————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -986,7 +986,7 @@ return {
 			actorName = "？？？",
 			bgName = "bg_zhedie_8",
 			nameColor = "#ffa500",
-			say = "这就要认输投降了么？",
+			say = "這就要認輸投降了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,10 +1013,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_9",
 			nameColor = "#A9F548FF",
-			say = "声音凭空出现了……",
+			say = "聲音憑空出現了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,10 +1024,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_9",
 			nameColor = "#A9F548FF",
-			say = "是谁躲在那里？！",
+			say = "是誰躲在哪裡？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1038,7 +1038,7 @@ return {
 			actorName = "？？？",
 			bgName = "bg_zhedie_9",
 			nameColor = "#ffa500",
-			say = "数据伪装解除中————完成。",
+			say = "資料偽裝解除中————完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1065,7 +1065,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "大家下午好哦。",
@@ -1076,10 +1076,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
-			say = "唔啊……我只是试探性问问而已，没想到真有人出现了！",
+			say = "嗯……我只是試探性的問問而已，沒想到真的有人出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1087,7 +1087,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯·META",
+			actorName = "曼非斯·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#a020f0",
 			say = "………………",
@@ -1098,10 +1098,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
-			say = "你…………你们究竟是谁？",
+			say = "妳…………妳們究竟是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,10 +1109,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "这个解释起来就复杂了。你要是想听的话，我花一天时间慢慢解释给你听？",
+			say = "這個解釋起來就複雜了。你要是想聽的話，我花一天慢慢解釋給你聽？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,10 +1120,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "約克鎮II",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
-			say = "请……长话短说。",
+			say = "請……長話短說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,10 +1131,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "我是海伦娜，但不是你们记忆中熟悉的海伦娜。",
+			say = "我是海倫娜，但不是妳們記憶中熟悉的海倫娜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,10 +1142,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "她是孟菲斯，但同样不是你们记忆中熟悉的孟菲斯。",
+			say = "她是曼非斯，但同樣不是妳們記憶中熟悉的曼非斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,10 +1153,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "至于我们的立场——",
+			say = "至於我們的立場——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,10 +1164,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "我们是指挥官的友军，接下来将与你们并肩作战的队友。",
+			say = "我們是指揮官的友軍，接下來將與妳們並肩作戰的隊友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,10 +1175,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
-			say = "这种程度的解释你看可以么？",
+			say = "這種程度的解釋妳看可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1190,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "老师，我们能相信她们么？",
+			say = "老師，我們能相信她們嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1244,7 +1244,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好久不见哦，指挥官。",
+			say = "好久不見哦，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1258,7 +1258,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "虽然之前已经隐隐感觉到了孟菲斯并不像表面上看上去那么简单。",
+			say = "雖然之前已經隱隱感覺到了曼非斯並不像表面上那麼簡單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "不过没想到你也会牵扯其中……",
+			say = "不過沒想到妳也會牽扯其中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "之前跟我一同离开星海的海伦娜，其实是你吧？",
+			say = "之前跟我一同離開星海的海倫娜，其實是妳吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1291,7 +1291,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "回答正确。",
+			say = "回答正確。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1307,7 +1307,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "指挥官，你虽然回忆起了一些事，但并没有完全回忆起来。",
+			say = "指揮官，你雖然回憶起了一些事，但並沒有完全回憶起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1324,7 +1324,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "情报屏蔽——————解除。",
+			say = "情報屏蔽——————解除。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1341,7 +1341,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在再回想一下呢？",
+			say = "現在再回想一下呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1393,8 +1393,8 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
-			say = "等等…………有东西正在接近这里。",
+			actorName = "紀錄播放員",
+			say = "等等…………有東西正在接近這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1405,8 +1405,8 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
-			say = "你被人盯上了，有什么东西跟着你过来了！",
+			actorName = "紀錄播放員",
+			say = "你被人盯上了，有東西跟著你過來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1417,7 +1417,7 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "紀錄播放員",
 			say = "………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -1429,8 +1429,8 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
-			say = "警告：监测到第V类威胁正在接近，根据安全协议，本记录空间即将自我销毁。",
+			actorName = "紀錄播放員",
+			say = "警告：監控到第V類威脅正在接近，根據安全協議，本紀錄空間即將自我銷毀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1443,7 +1443,7 @@ return {
 			actor = 199030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师！",
+			say = "老師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			actor = 199030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快…跟我离开这里！",
+			say = "快……跟我離開這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1518,7 +1518,7 @@ return {
 			actor = 199030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师…！小心…！不要…！！！",
+			say = "老師……！小心……！不要……！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1548,7 +1548,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
-			say = "…………原来从在安克雷奇的心智空间中遭遇到异常状况开始。",
+			say = "…………原來從在安克拉治的心智空間遭遇到異常狀況開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1579,7 +1579,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "我就一直没醒过来。",
+			say = "我就一直沒醒過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1589,7 +1589,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "……这一系列事件跟你们有多大程度的关联？",
+			say = "……這一系列事件跟妳們有多大程度的關聯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1601,7 +1601,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "其实刚刚孟菲斯在自暴自弃的时候已经说得差不多了。",
+			say = "其實剛剛曼非斯在自暴自棄的時候已經說得差不多了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1618,7 +1618,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我们发现仲裁者·迪贝路XV正试图对进入安克雷奇心智网络中的你产生影响。",
+			say = "我們發現仲裁者·迪貝路·XV正試圖對進入安克拉治心智網路中的你產生影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1635,7 +1635,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "于是赶在它的前面将你的意识转移到了这个安全的世界。",
+			say = "於是趕在它的前面將你的意識轉移到了這個安全的世界。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1651,7 +1651,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "在这里，我们尽可能多地为你准备了我们手头拥有的II型舰装与迪贝路的情报。",
+			say = "在這裡，我們盡可能為你準備了我們手頭上擁有的II型艦裝與迪貝路的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1668,7 +1668,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "然后以这种方式提供给你，以便你能够在接下来与它的战斗中掌握先机。",
+			say = "然後以這種方式提供給你，以便你能夠在接下來與它的戰鬥中掌握先機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1685,7 +1685,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "只不过没想到迪贝路居然掌握到了某种入侵到这里的方法。",
+			say = "只不過沒想到迪貝路居然掌握到了某種入侵到這裡的方法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1702,7 +1702,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "它夺取了附近空间的控制权并引发了由我们制造的迪贝路机体的暴走。",
+			say = "它奪取了附近空間的控制權並引發了由我們製造的迪貝路機體的暴走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1719,7 +1719,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这就是这一切的来龙去脉。",
+			say = "這就是這一切的來龍去脈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1733,7 +1733,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "原来如此…………但是————",
+			say = "原來如此…………但是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1743,7 +1743,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "你故意回避了某些应该解释的关键问题。",
+			say = "你故意迴避了某些應該解釋的關鍵問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1756,7 +1756,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "指挥官，在女孩子装傻的时候就不要继续追问了哦——",
+			say = "指揮官，在女孩子裝傻的時候就不要繼續追問了哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1782,7 +1782,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "总而言之，现在的情况并没有孟菲斯想象中的那么糟糕。",
+			say = "總而言之，現在的情況並沒有曼非斯想像中的那麼糟。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1799,7 +1799,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "只要我们齐心协力消灭掉这个暴走的迪贝路机体，我依然有办法拿回空间的控制权并将你安全送回去。",
+			say = "只要我們齊心協力消滅掉這個暴走的迪貝路機體，我依然有辦法拿回空間的控制權並將你安全送回去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1816,7 +1816,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "如何？指挥官，还有II型舰队的各位，让我们开始迎战么？",
+			say = "如何？指揮官，還有II型艦隊的各位，讓我們開始迎戰嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1837,11 +1837,11 @@ return {
 			},
 			options = {
 				{
-					content = "约克城，准备带领大家迎战。",
+					content = "約克鎮，準備帶領大家迎戰。",
 					flag = 1
 				},
 				{
-					content = "我相信你，让我们并肩战斗吧。",
+					content = "我相信妳，讓我們並肩戰鬥吧。",
 					flag = 2
 				}
 			}
@@ -1872,7 +1872,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffa500",
-			say = "孟菲斯，别发呆了，打起精神准备战斗了哦。",
+			say = "曼非斯，別發呆了，打起精神準備戰鬥了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

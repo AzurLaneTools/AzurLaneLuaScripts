@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>红色救生兔？！</size>",
+					"水邊的假日\n\n<size=45>紅色救生兔？！</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸——指挥官，这边这边~！",
+			say = "欸——指揮官，這邊這邊~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备下水，就被{namecode:453}拉住了——",
+			say = "剛準備下水，就被海因里希親王拉住了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……你刚才不会是想就这样下水吧？",
+			say = "指揮官……你剛才不會是想就這樣下水吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我从你进来就盯着你了，你还没有做热身运动呢！",
+			say = "我從你進來就盯著你了，你還沒做熱身運動！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万一因为热身不充分，在水里抽筋了的话……",
+			say = "萬一因為熱身不充分，在水裡抽筋了的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我有自信第一时间把指挥官救出来，心肺复苏和人工呼吸也学过……总之不热身是不行的！",
+			say = "雖然我有自信第一時間把指揮官救出來，心肺復甦術和人工呼吸也學過……總之不熱身是不行的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就让我来监督你做完热身体操好了，动作的话可以指导你——",
+			say = "就讓我來監督你做完熱身體操好了， 動作的話可以指導你——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一定要做到位，不许偷懒哦！",
+			say = "一定要做到位，不准偷懶！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在{namecode:453}的带领与监督下，做完了全套的准备体操。",
+			say = "在海因里希親王的帶領與監督下，完成了全套的準備體操。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯……这样就好了！接下来请尽情享受游泳的乐趣吧！",
+			say = "嗯嗯……這樣就好了！接下來請盡情享受游泳的樂趣吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:453}不和大家一起游泳嘛？",
+					content = "海因里希親王不跟大家一起游泳嘛？",
 					flag = 1
 				}
 			}
@@ -254,7 +254,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我当然会下来游泳的！不过，要等到救生员的工作完成之后才行！",
+			say = "我當然會下來游泳的！不過，要等到救生員的工作完成之後才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我坐在这里可不是闲着，要注意的事情可不少呢。",
+			say = "而且，我坐在這裡可不是閒著，要注意的事情可不少呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像是督促大家做好热身，注意留心周边有没有同伴溺水，以及有没有调皮的潜艇在水下打闹之类的……",
+			say = "像是督促大家做好熱身，注意留心週邊有沒有同伴溺水，以及有沒有調皮的潛艇在水下打鬧之類的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，我要等到交接班之后才能放开享受！",
+			say = "所以，我要等到交接班之後才能放開享受！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，指挥官应该不会游一会就回去的吧？",
+			say = "而且，指揮官應該不會游一下子就回去的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也想陪指挥官一起玩，所以一定要等到我交接班结束之后哦！",
+			say = "我也想陪指揮官一起玩，所以一定要等到我交接班結束之後！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就这样约好了！不许爽约~！",
+			say = "那就這樣約好了！不許爽約~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

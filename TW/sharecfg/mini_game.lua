@@ -2179,6 +2179,116 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "CookGameView",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "女仆蛋糕小游戏II",
+		config_data = "",
+		config_csv = "",
+		id = 60,
+		hub_id = 51,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					59516,
+					15
+				},
+				{
+					2,
+					59516,
+					15
+				},
+				{
+					5,
+					306109,
+					1
+				},
+				{
+					2,
+					59516,
+					25
+				},
+				{
+					2,
+					59516,
+					25
+				},
+				{
+					2,
+					59516,
+					25
+				},
+				{
+					5,
+					306113,
+					1
+				}
+			}
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "Shrine2022View",
+		type = 5,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2024神社舰娘许愿",
+		config_csv = "",
+		id = 61,
+		hub_id = 51,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			59850,
+			1
+		},
+		config_data = {
+			0,
+			{
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80
+			},
+			1
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "Shrine2022View",
+		type = 3,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2024神社指挥官许愿",
+		config_csv = "",
+		id = 62,
+		hub_id = 51,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000,
+			shipGameID = 61
+		},
+		config_data = {
+			5,
+			{
+				10,
+				11,
+				12
+			},
+			2
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2381,6 +2491,9 @@ pg.mini_game = {
 		57,
 		58,
 		59,
+		60,
+		61,
+		62,
 		1001,
 		1002,
 		1003,

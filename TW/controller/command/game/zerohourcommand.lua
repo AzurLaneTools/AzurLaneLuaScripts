@@ -275,6 +275,7 @@ function slot0.mainHandler(slot0, slot1)
 	getProxy(NavalAcademyProxy):resetUsedDailyFinishCnt()
 	getProxy(AvatarFrameProxy):clearTimeOut()
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
+	MainRequestActDataSequence.New():RequestRandomDailyTask()
 end
 
 return slot0

@@ -782,7 +782,7 @@ pg.commander_ability_template = {
 	},
 	[301] = {
 		cost = 0,
-		name = "航空新兵·空母",
+		name = "航空新兵·航母",
 		next = 302,
 		worth = 1,
 		id = 301,
@@ -814,7 +814,7 @@ pg.commander_ability_template = {
 	},
 	[302] = {
 		cost = 0,
-		name = "熟練機師·空母",
+		name = "熟練機師·航母",
 		next = 303,
 		worth = 2,
 		id = 302,
@@ -846,7 +846,7 @@ pg.commander_ability_template = {
 	},
 	[303] = {
 		cost = 0,
-		name = "空中殺手·空母",
+		name = "空中殺手·航母",
 		next = 0,
 		worth = 3,
 		id = 303,
@@ -2351,7 +2351,7 @@ pg.commander_ability_template = {
 	},
 	[741] = {
 		cost = 0,
-		name = "輪機手·空母",
+		name = "輪機手·航母",
 		next = 742,
 		worth = 1,
 		id = 741,
@@ -2415,7 +2415,7 @@ pg.commander_ability_template = {
 	},
 	[743] = {
 		cost = 0,
-		name = "輪機長·空母",
+		name = "輪機長·航母",
 		next = 0,
 		worth = 3,
 		id = 743,
@@ -3695,7 +3695,7 @@ pg.commander_ability_template = {
 	},
 	[2031] = {
 		cost = 0,
-		name = "新晉指揮官·空母",
+		name = "新晉指揮官·航母",
 		next = 2032,
 		worth = 1,
 		id = 2031,
@@ -3735,7 +3735,7 @@ pg.commander_ability_template = {
 	},
 	[2032] = {
 		cost = 0,
-		name = "精銳指揮官·空母",
+		name = "精銳指揮官·航母",
 		next = 2033,
 		worth = 2,
 		id = 2032,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "萨默斯海洋鱼类研究所·地下通道",
+			say = "薩摩斯海洋魚類研究所·地下通道",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "兰利，我们往下走了多深的距离了？",
+			say = "蘭利，我們往下走了多深的距離了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从坡度和行走时间来算，大概向下走了二十多米了。",
+			say = "從坡度和行走時間來算，大概往下走了二十多公尺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "期间遇到了多少个岔路口呢？",
+			say = "期間遇到了多少個岔路口呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "没算过……你问这个干吗？",
+			say = "沒算過……妳問這個幹嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "当然是想进行地下探险了……博士，我们先去其他地方转转可以么！",
+			say = "當然是想進行地下探險了……博士，我們先去其他地方轉轉可以嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请留步，大黄蜂。",
+			say = "請留步，大黃蜂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你所见到的不同道路均通向不同实验区，实验区的通行权限是彼此独立的。",
+			say = "妳所見到的不同道路均通往不同實驗區，實驗區的通行權限是彼此獨立的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你当前只拥有出入配装间的权限。",
+			say = "妳目前只擁有出入配裝間的權限。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果进入未授权区域的话，将会触发警报系统，请谅解。",
+			say = "如果進入未授權區域的話，將會觸發警報系統，請諒解。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸？这样吗……抱歉抱歉。",
+			say = "欸？這樣嗎……抱歉抱歉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，请继续跟随我为各位亮起的指示灯前进。",
+			say = "沒關係，繼續請跟著我為各位亮起的指示燈前進。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "约克城姐姐，感觉这里好压抑……",
+			say = "約克鎮姐姐，覺得這裡好壓抑……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "跟博士那里的氛围完全不同……哈曼不喜欢这里。",
+			say = "跟博士那裡的氣氛完全不同……哈曼不喜歡這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不同的地方有不同的管理模式也很常见啦。",
+			say = "不同的地方有不同的管理模式也很常見啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我们来到了其他人的地盘，还是尊重一下当地的规则比较好哦。",
+			say = "我們來到了其他人的地盤，還是尊重一下當地的規則比較好哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…………果然这里最后变成这样了啊。",
+			say = "嗯…………果然這裡最後變成這樣了啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有军方作为背景未必就是好事。",
+			say = "有軍方作為背景未必是好事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奥斯塔他……其实扛着相当大的压力。",
+			say = "奧斯塔他……其實扛著相當大的壓力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但要忙自己的事，还要处理军方的各种突发奇想和永无止境的需求。",
+			say = "不但要忙自己的事，還要處理軍方的各種突發奇想和永無止境的需求。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其结果就是自己的项目团队经过多次大规模扩展与拆分重组，手头上负责的项目也变得越来越多。",
+			say = "結果就是自己的計畫團隊經過多次大規模擴展與分割重組，手頭上負責的計畫也變得越來越多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了确保各种计划都能按时推进，加上还要平衡不同项目的保密等级，他在管理上的压力肯定也是很高的。",
+			say = "為了確保各種計劃都能按時推進，加上還要平衡不同計畫的保密等級，他在管理上的壓力肯定也是很高的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这方面还请大家理解一下他的苦衷了。",
+			say = "這方面還請大家理解一下他的苦衷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，大家也不用这么拘束，只要跟着我走不乱跑就绝对没问题哦~",
+			say = "不過，大家也不用這麼拘束，只要跟著我走不亂跑就絕對沒問題哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样……家家有本难念的经呢。",
+			say = "原來是這樣……家家有本難念的經呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感谢大家的理解。",
+			say = "感謝大家的體諒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前方即将到达目的地。大门即将开启，请大家站在黄线以外，防止机械伤人。",
+			say = "前方即將抵達目的地。大門即將開啟，請大家站在黃線以外，防止機械傷人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "黄色的警报灯亮了起来。在机械的响动声中，这道大门缓缓向两边退去，露出了门后的大厅。",
+			say = "黃色的警報燈亮了起來。在機械的聲響中，這道大門緩緩向兩邊退去，露出了門後的大廳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "配装车间已开放，我将进入待机模式等待博士的后续指令。",
+			say = "配裝現場已開放，我將進入待機模式等待博士的後續指令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "预定参与测试的ANTI-X机体就在前方待机，在奥斯塔博士的实验完成前，请各位随意与之交谈。",
+			say = "預定參與測試的ANTI-X機體就在前方待機，在奧斯塔博士的實驗完成前，請各位隨意與之交談。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说完这句话后，被安洁称呼为玲的、与领航员小姐外表完全一致的少女的全息投影便从空气中消失了，",
+			say = "說完這句話後，被安潔稱呼為玲的、與領航員小姐外表完全一致的少女的全息投影便從空氣中消失了，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这……这里真的是地下？",
+			say = "這……這裡真的是地下？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "未免也太壮观了……光是天花板上的这些设备就是天价了吧？",
+			say = "未免也太壯觀了……光是天花板上的這些設備就是天價了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "嗯……看到那组发着蓝光的设备了么，光是一台就相当于博士专机价格的一半了…………",
+			say = "嗯……看到那組發著藍光的設備了嗎，光是一台就等於博士專機價格的一半了…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们看，那边好像是通向更下方区域的……",
+			say = "你們看，那邊好像是通往更下方區域的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "明明这里已经是地下深处了，居然还挖出了一条地下航道，甚至修建了一座码头……",
+			say = "明明這裡已經是地下深處了，居然還挖出了一條地下航道，甚至修建了一座碼頭……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "这条修建在地下数十米处的航道究竟通向何方呢……",
+			say = "這條修建在地下數十公尺的航道究竟通往何方呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错，眼前的景色确实相当壮观……",
+			say = "沒錯，眼前的景色確實相當壯觀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不论是大量昂贵又富有科技感的仪器，巨大的地下空间，还是延伸至黑暗深处的地下航道。",
+			say = "不論是大量昂貴又富有科技感的儀器，巨大的地下空間，還是延伸至黑暗深處的地下航道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过最吸引人眼球的还是前方那名坐在大厅的栏杆上，背靠巨大机械装置的黑发少女。",
+			say = "不過最吸引人眼球的還是前方那名坐在大廳的欄桿上，背靠巨大機械裝置的黑髮少女。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是太不可思议了……不得了啊助手，不得了啊！",
+			say = "真是太不可思議了……不得了啊助手，不得了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（嗯……眼前的少女与巨大的舰装展示出熟悉又夸张的压迫感）",
+			say = "（嗯……眼前的少女與巨大的艦裝展現出熟悉又誇張的壓迫感）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（以至于在看到她的瞬间，脑海中便立刻浮现出了塞壬仲裁机关的身影。）",
+			say = "（以至於在看到她的瞬間，腦海中立刻便立刻浮現出了塞壬仲裁機關的身影。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次！居然不是白毛了哎！！！！！",
+			say = "這次！居然不是白毛了哎！！！！！",
 			fontsize = 45,
 			painting = {
 				alpha = 0.3,
@@ -909,7 +909,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "玲，你还在么？这个孩子的名字你还没跟我说呢！",
+			say = "玲，妳還在嗎？這個孩子名字妳還沒跟我說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还在的，安洁博士，您面前所见到的机体名为迪贝路·XV。",
+			say = "我還在的，安潔博士，您面前所見到的機體名為迪貝路·XV。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，很好，确实是奥斯塔的风格。",
+			say = "嗯，很好，確實是奧斯塔的風格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（迪贝路·XV？！毫无疑问，这个名字与塞壬仲裁机关的命名规律是相同的！）",
+			say = "（迪貝路·XV？！毫無疑問，這個名字與塞壬仲裁機關的命名法則是相同的！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（可是不论是安洁还是玲都称之为ANTI-X……）",
+			say = "（但不論是安潔還是玲都稱為ANTI-X……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（ANTI-X…………安蒂克丝？！）",
+			say = "（ANTI-X…………安蒂克絲？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,8 +1011,8 @@ return {
 			bgName = "bg_xiangting_3",
 			side = 2,
 			dir = 1,
-			actorName = "獒.META",
-			say = "蠢材！NY港的袭击只不过是安蒂克丝把你们诱骗到这里的阴谋罢了，你们根本是被一帮机器脑袋利用了！",
+			actorName = "高雄.META",
+			say = "蠢材！NY港的攻擊只不過是安蒂克絲把妳們誘騙到這裡的陰謀罷了，妳們根本是被一堆機器腦袋利用了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,8 +1034,8 @@ return {
 			bgName = "bg_xiangting_3",
 			side = 2,
 			dir = 1,
-			actorName = "獒.META",
-			say = "至于我们，不过是一群于灰烬中苟且的残渣罢了，除此之外没有任何值得报出的名号。",
+			actorName = "高雄.META",
+			say = "至於我們，不過是一群於灰燼中苟且的殘渣罷了，除此之外沒有任何值得報出的名號。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "原来如此！怪不得余烬一直在用安蒂克丝称呼塞壬，当时她们说的原来是这个意思！",
+			say = "原來如此！怪不得餘燼一直在用安蒂克絲稱呼塞壬，當時她們說的原來是這個意思！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "ANTI-X就是塞壬在被称呼为塞壬之前的真正的名字！",
+			say = "ANTI-X就是塞壬在被稱為塞壬之前的真正的名字！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "可是…………为什么……这里究竟是什么地方，为什么我能从这里知道这些事？",
+			say = "可是…………為什麼……這裡究竟是什麼地方，為什麼我能從這裡知道這些事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师……您的脸色突然变得好差，有什么不舒服的地方么？",
+			say = "老師……您的臉色突然變得好差，有什麼不舒服的地方麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1117,7 +1117,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（不好，动摇得太厉害引起不必要的怀疑了。）",
+			say = "（不好，動搖的太厲害引起不必要的懷疑了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,14 +1127,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（不过……脑海中突然浮现出了一个想法。）",
+			say = "（不過……腦海中突然浮現出了一個想法。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "孟菲斯———",
+					content = "曼非斯———",
 					flag = 1
 				}
 			}
@@ -1143,7 +1143,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在现在这个时候，塞壬的仲裁机关就已经诞生了么？",
+			say = "在現在這個時候，塞壬的仲裁機關就已經誕生了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……欸？那个…………",
+			say = "……欸？那個…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,7 +1174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬和仲裁机关是什么？助手你是不是又梦到怪东西了？",
+			say = "塞壬和仲裁機關是什麼？助手你是不是又夢到怪東西了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1188,7 +1188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（果然，又从孟菲斯身上感受到了某种违和感，她绝对跟现在的事态存在某种关系。）",
+			say = "（果然，又從曼非斯身上感受到了某種違和感，她絕對跟現在的事態存在某種關係。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,14 +1198,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（不过……我没有感觉到任何恶意。既然她没有捅破，就暂时继续观察下去好了。）",
+			say = "（不過……我沒有感覺到任何惡意。既然她沒有捅破，就暫時繼續觀察下去好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "主动岔开话题",
+					content = "主動岔開話題",
 					flag = 1
 				}
 			}
@@ -1217,7 +1217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等~你想转移话题对吧？",
+			say = "等等~你想轉移話題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1244,7 +1244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬跟仲裁机关……虽然这个词我没听过，但确实很像奥斯塔会起的代号！",
+			say = "塞壬跟仲裁機關……雖然這個字我沒聽過，但確實很像奧斯塔會起的代號！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1261,7 +1261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老实交代，你们两个背地里是不是有什么事瞒着我？！",
+			say = "老實交代，你們兩個背地裡是不是有什麼事瞞著我？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1272,7 +1272,7 @@ return {
 			},
 			options = {
 				{
-					content = "继续搪塞",
+					content = "繼續搪塞",
 					flag = 1
 				}
 			}
@@ -1284,7 +1284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………只是单纯梦里梦到的么？",
+			say = "…………只是單純夢裡夢到的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1301,7 +1301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……倒也不是完全没可能。",
+			say = "唔……倒也不是完全不可能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1318,7 +1318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟梦境不单纯是对于经历过事情的脑内重组，也不会如同“日有所思夜有所梦”那般忠实反映你的欲望。",
+			say = "畢竟夢境不單純是對於經歷過事情的腦內重組，也不會如同「日有所思夜有所夢」那般忠實反映你的慾望。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1335,7 +1335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦境自有一套自己的运作规则，有些梦是可以引导的，有些梦则是完全随机的。",
+			say = "夢境自有一套自己的運作規則，有些夢是可以引導的，有些夢則是完全隨機的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1352,7 +1352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我自己就从随机的梦境中获取过很多灵感所以在这一点上十分有发言权哦。",
+			say = "我自己就從隨機的夢境中獲取過很多靈感所以在這一點上十分有發言權哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1369,7 +1369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦境，也包括既视感在内，它们的某些深层逻辑可能是统一的，也就是说——————",
+			say = "夢境，也包括既視感在內，它們的某些深層邏輯可能是統一的，也就是說──────",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1387,7 +1387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "（博士在进入这种状态之后，就停不下来了呢……）",
+			say = "（博士進入這種狀態之後，就停不下來了呢……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1405,7 +1405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "（不好不好，她这么说下去不知道还要说几个小时才说得完……）",
+			say = "（不好不好，她這麼說下去不知道還要說幾個小時才說得完……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1423,7 +1423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "（那个……玲，我有个问题，你可以将迪贝路从待机状态唤醒么？）",
+			say = "（那個……玲，我有個問題，妳可以把迪貝路從待機狀態喚醒嗎？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1450,7 +1450,7 @@ return {
 			side = 2,
 			actorName = "玲？",
 			paintingNoise = true,
-			say = "（没问题，迪贝路的待机状态可以随时解除，）",
+			say = "（沒問題，迪貝路的待機狀態可以隨時解除，）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1460,7 +1460,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知道为什么，连玲也跟着大黄蜂一起小声地说起了悄悄话……",
+			say = "不知道為什麼，連玲也跟著大黃蜂小聲地說起了悄悄話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1474,7 +1474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "（那就麻烦你唤醒她一下，至少转移一下安洁博士的注意力……）",
+			say = "（那就麻煩妳喚醒她一下，至少轉移一下安潔醫師的注意力……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1490,7 +1490,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			actorName = "玲？",
-			say = "（合理的请求。正在执行唤醒程序——）",
+			say = "（合理的請求。正在執行喚醒程序——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1500,7 +1500,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在安洁依然滔滔不绝口若悬河之时，黑发少女身后的机器传来了几声清脆的滴答。",
+			say = "在安潔依然滔滔不絕口若懸河之時，黑髮少女身後的機器傳來了幾聲清脆的滴答聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1510,7 +1510,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "然后在众人的注视中，名为迪贝路的少女，缓缓伸了个懒腰，睁开了双眼。",
+			say = "然後在眾人的注視中，名為迪貝路的少女，緩緩伸了個懶腰，睜開了雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1522,9 +1522,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "咦……？我被唤醒了么……",
+			say = "咦……？我被喚醒了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1540,9 +1540,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "这么说来，各位应该就是安洁博士一行吧？",
+			say = "這麼說來，各位應該就是安潔博士一行吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1558,9 +1558,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "初次见面，我是迪贝路·XV，欢迎大家来到萨默斯海洋鱼类研究所。",
+			say = "初次見面，我是迪貝路·XV，歡迎大家來到薩摩斯海洋魚類研究所。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1576,9 +1576,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "我已经收到了接下来要跟诸位一起进行协作测试的行动计划。",
+			say = "我已經收到了接下來要跟諸位一起進行協作測試的行動計劃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1594,9 +1594,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
-			say = "接下来的测试中就请多关照了哦~",
+			say = "接下來的測試中就請多關照了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1647,7 +1647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好——可——爱——！！！！",
+			say = "好——可——愛——！！！！",
 			fontsize = 60,
 			painting = {
 				alpha = 0.3,
@@ -1703,7 +1703,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_5",
-			say = "被迪贝路吸引的安洁立刻忘掉了自己正在进行的长篇大论。",
+			say = "被迪貝路吸引的安潔立刻忘掉了自己正在進行的長篇大論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1713,7 +1713,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_5",
-			say = "仅仅是下一秒钟，她就冲到了迪贝路身边，然后打开了随身设备的……拍照功能。",
+			say = "僅僅是下一秒鐘，她就衝到了迪貝路身邊，然後打開了隨身設備的……拍照功能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1721,10 +1721,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "大黃蜂II",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "嘿嘿嘿，作战大成功~",
+			say = "嘿嘿嘿，作戰大成功~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1732,10 +1732,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "迪贝路！来一起拍张照吧！",
+			say = "迪貝路！來一起拍張照吧！",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -1759,10 +1759,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "那个，来，微笑，面朝镜头——",
+			say = "那個，來，微笑，面對鏡頭——",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -1786,10 +1786,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "对对，就是这个姿势！",
+			say = "對對，就是這個姿勢！",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -1813,7 +1813,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
 			say = "茄子————",
@@ -1840,10 +1840,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "博士……这里的东西应该都是高度机密。",
+			say = "博士……這裡的東西應該都是高度機密。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1851,10 +1851,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "您就算现在拍了照片，等到走的时候应该也会被要求删除吧……",
+			say = "您就算現在拍了照片，等到走的時候應該也會被要求刪除吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1862,10 +1862,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "糟糕！对哦……",
+			say = "糟糕！對哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1873,10 +1873,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "等等，聪明如我肯定会有什么办法的…………啊，有了！",
+			say = "等等，聰明如我一定會有辦法的…………啊，有了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1884,10 +1884,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "你看，我拍完照片之后，先把这些照片发给奥斯塔，然后我将手机中的照片删除。",
+			say = "你看，我拍完照片之後，先把這些照片傳給奧斯塔，然後我將手機裡的照片刪除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1895,10 +1895,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "等到咱们回去之后，我再让奥斯塔以项目交流的名义用正式渠道再发回给我，问题不就解决了！",
+			say = "等到我們回去之後，我再讓奧斯塔以計畫交流的名義用正式管道再發回給我，問題不就解決了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1906,12 +1906,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_zhedie_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这完全是掩耳盗铃吧，博士……",
+			say = "這完全是掩耳盜鈴吧，博士……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1923,10 +1923,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "安潔",
 			bgName = "bg_zhedie_5",
 			nameColor = "#A9F548FF",
-			say = "不不不，这叫合理合法的程序正义哦~！",
+			say = "不不不，這叫合理合法的程序正義~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1940,7 +1940,7 @@ return {
 			dir = 1,
 			actorName = "玲？",
 			side = 2,
-			say = "再次打扰了，奥斯塔博士刚刚结束了手头的实验，正在办公室中恭候二位的到来。",
+			say = "再次打擾了，奧斯塔博士剛結束了手邊的實驗，正在辦公室中恭候二位的到來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1958,7 +1958,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸……？这次不是全息投影……是本体么？",
+			say = "欸……？這次不是全息投影……是本體嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1975,7 +1975,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错哦——嘿嘿，玲也是非常可爱的吧？",
+			say = "沒錯喔——嘿嘿，玲也是非常可愛的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1992,7 +1992,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城，你先带领大家留在这里跟迪贝路增进一下感情。",
+			say = "約克鎮，妳先帶領大家留在這裡跟迪貝路增進一下感情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2009,7 +2009,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手，跟我来，我们该去见奥斯塔了！",
+			say = "助手，跟我來，我們該去見奧斯塔了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			bgm = "theme-aostelab",
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 1,
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好。报告指挥官，我们的舰载机群已经消灭了全部标记目标，蓝方的指挥系统已经陷入混乱。",
+			say = "很好。報告指揮官，我們的艦載機群已經消滅了全部全部標記目標，藍方的指揮系統已經陷入混亂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到老师当舰队指挥官也真的很有一套啊~",
+			say = "沒想到老師當艦隊指揮官真的也很有一套~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "敌方的攻势减弱了，我们可以乘胜追击么？",
+			say = "敵方的攻勢減弱了，我們可以乘勝追擊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "没问题，按照先前标记的目标威胁等级按顺序依次解决。",
+			say = "沒問題，按照先前標記的目標威脅等級照順序依次解決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 101500,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "约克城姐姐！刚刚哈曼做得怎么样？",
+			say = "約克鎮姊姊！剛剛哈曼做的怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的出色反潜作战为胜利争取到了足够的时间，做得很好哦~",
+			say = "你出色的反潛作戰為勝利爭取到了足夠的時間，做得很好哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉，其实也不是那么难嘛！对面也不过如此——",
+			say = "感覺，其實也不是那麼難嘛！對面也不過如此——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战斗还没结束，不要得意忘形哦。",
+			say = "戰鬥還沒結束，不要得意忘形哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "约克城姐姐太谨慎啦~孟菲斯的主力舰队已经被我们击溃了，她还能有什么应对方案嘛。",
+			say = "約克鎮姊姊太謹慎啦~曼非斯的主力艦隊已經被我們擊潰了，剩下她還有什麼應對方案嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "一次性吃掉了蓝方的主力舰队，确实是重大的阶段性胜利。",
+			say = "一次性吃掉了藍方的主力艦隊，確實是重大的階段性勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "但奇怪的是，孟菲斯那边却没有做出任何回应。",
+			say = "但奇怪的是，曼非斯那邊卻沒有做出任何回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "这是一个危险信号，表明孟菲斯已经转换了策略。",
+			say = "這是一個危險訊號，表明曼非斯已經轉換了策略。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "也许该换位思考一下，既然我们能发现蓝方舰队的弱点，那自然反过来也是可行的。",
+			say = "也許該換位思考一下，既然我們能發現藍方艦隊的弱點，那自然反過來也是可行的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "红方的缺点其实相当明显，虽然拥有强大的航空力量，但护卫力量则是压倒性的不足。",
+			say = "紅方的缺點其實相當明顯，雖然擁有強大的航空力量，但護衛力量則是壓倒性的不足。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "而护卫舰不足，就必然会导致某些问题……",
+			say = "而護衛艦不足，必然會導致某些問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "对空方面可以用航空力量去补，但是水下方面……",
+			say = "對空方面可以用航空力量去補，但是水下方面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "指挥官，本次打击行动已经全部结束，蓝方的主力舰队已被全数消灭，我方的舰载机损失超过四成，但无一人受伤。",
+			say = "指揮官，本次打擊行動已經全部結束，藍方的主力艦隊已被全數消滅，我方的艦載機損失超過四成，但無一人受傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前尚未看到蓝方展开反击，请问下一步行动计划？",
+			say = "目前尚未看到藍方展開反擊，請問下一步行動計畫？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "转换作战队形。兰利与约克城即刻动身前往北安普敦与大黄蜂的所在位置。",
+			say = "轉換作戰隊形。蘭利與約克鎮立即動身前往北安普敦與大黃蜂的所在地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "哈曼返回指挥舰所在位置，接替兰利承担指挥舰的护卫职责。",
+			say = "哈曼返回指揮艦所在位置，接替蘭利承擔指揮艦的護衛職責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "与此同时，用电子战设备隐藏哈曼的信号并模拟出一个正在与你们一同行动的哈曼。",
+			say = "同時，用電子戰設備隱藏哈曼的訊號並模擬出一個正在與妳們一同行動的哈曼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "……这件事可以做到么？",
+			say = "……這件事可以做到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，包在我身上吧。",
+			say = "沒問題，包在我身上吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥舰本身的信号并没有隐藏。如果这样部署的话，指挥舰在孟菲斯看来就处于“不设防”状态了……",
+			say = "指揮艦本身的訊號並沒有隱藏。如果這樣部署的話，指揮艦在曼非斯看來就處於「不設防」狀態了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您是想用自己作诱饵诱导孟菲斯露出破绽么？！",
+			say = "指揮官，您是想用自己做誘餌誘導曼非斯露出破綻嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "如果我心中的隐约怀疑没错的话……值得一试。",
+			say = "如果我心中隱約的懷疑沒錯的話……值得一試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "约克城，不要忘了本场演习的胜负判断标准哦。",
+			say = "約克鎮，不要忘了這場演習的勝負判斷標準哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……胜负判断标准？……！我明白您的意思了。",
+			say = "……勝負判斷標準？……！我明白您的意思了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，检测到一批新的敌军信号，蓝方看来投入了隐藏许久的后备部队，正在向指挥舰的方向袭来。",
+			say = "指揮官，偵測到一批新的敵軍訊號，藍方看來投入了隱藏許久的後備部隊，正在向指揮艦的方向襲來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真狡猾啊，孟菲斯果然留了后手。",
+			say = "真狡猾啊，曼非斯果然留了後手。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "但是一旦暴露就没什么可怕的，诸位还是按照刚才的作战方式，让战斗进入第二回合吧——",
+			say = "但是一旦暴露就沒什麼可怕的，諸位還是按照剛才的作戰方式，讓戰鬥進入第二回合吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -3818,6 +3818,56 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_346_3_2",
 		"ins_op_346_1_1",
 		"op_reply_346_1_1",
+		"ins_347",
+		"ins_discuss_347_1",
+		"ins_reply_347_1_1",
+		"ins_discuss_347_2",
+		"ins_reply_347_2_1",
+		"ins_discuss_347_3",
+		"ins_reply_347_3_1",
+		"ins_op_347_1_1",
+		"op_reply_347_1_1",
+		"ins_348",
+		"ins_discuss_348_1",
+		"ins_reply_348_1_1",
+		"ins_discuss_348_2",
+		"ins_reply_348_2_1",
+		"ins_discuss_348_3",
+		"ins_reply_348_3_1",
+		"ins_reply_348_3_2",
+		"ins_reply_348_3_3",
+		"ins_op_348_1_1",
+		"op_reply_348_1_1",
+		"ins_349",
+		"ins_discuss_349_1",
+		"ins_reply_349_1_1",
+		"ins_reply_349_1_2",
+		"ins_reply_349_1_3",
+		"ins_discuss_349_2",
+		"ins_reply_349_2_1",
+		"ins_discuss_349_3",
+		"ins_reply_349_3_1",
+		"ins_op_349_1_1",
+		"op_reply_349_1_1",
+		"ins_350",
+		"ins_discuss_350_1",
+		"ins_reply_350_1_1",
+		"ins_discuss_350_2",
+		"ins_reply_350_2_1",
+		"ins_reply_350_2_2",
+		"ins_reply_350_2_3",
+		"ins_reply_350_2_4",
+		"ins_op_350_1_1",
+		"op_reply_350_1_1",
+		"ins_351",
+		"ins_discuss_351_1",
+		"ins_reply_351_1_1",
+		"ins_reply_351_1_2",
+		"ins_discuss_351_2",
+		"ins_reply_351_2_1",
+		"ins_reply_351_2_2",
+		"ins_op_351_1_1",
+		"op_reply_351_1_1",
 		"ins_367",
 		"ins_discuss_367_1",
 		"ins_reply_367_1_1",
@@ -15381,6 +15431,156 @@ pg.base.activity_ins_language = {
 	op_reply_346_1_1 = {
 		value = "身為戰士，只有時刻鍛煉自己才能變得更強。"
 	},
+	ins_347 = {
+		value = ""
+	},
+	ins_discuss_347_1 = {
+		value = ""
+	},
+	ins_reply_347_1_1 = {
+		value = ""
+	},
+	ins_discuss_347_2 = {
+		value = ""
+	},
+	ins_reply_347_2_1 = {
+		value = ""
+	},
+	ins_discuss_347_3 = {
+		value = ""
+	},
+	ins_reply_347_3_1 = {
+		value = ""
+	},
+	ins_op_347_1_1 = {
+		value = ""
+	},
+	op_reply_347_1_1 = {
+		value = ""
+	},
+	ins_348 = {
+		value = ""
+	},
+	ins_discuss_348_1 = {
+		value = ""
+	},
+	ins_reply_348_1_1 = {
+		value = ""
+	},
+	ins_discuss_348_2 = {
+		value = ""
+	},
+	ins_reply_348_2_1 = {
+		value = ""
+	},
+	ins_discuss_348_3 = {
+		value = ""
+	},
+	ins_reply_348_3_1 = {
+		value = ""
+	},
+	ins_reply_348_3_2 = {
+		value = ""
+	},
+	ins_reply_348_3_3 = {
+		value = ""
+	},
+	ins_op_348_1_1 = {
+		value = ""
+	},
+	op_reply_348_1_1 = {
+		value = ""
+	},
+	ins_349 = {
+		value = ""
+	},
+	ins_discuss_349_1 = {
+		value = ""
+	},
+	ins_reply_349_1_1 = {
+		value = ""
+	},
+	ins_reply_349_1_2 = {
+		value = ""
+	},
+	ins_reply_349_1_3 = {
+		value = ""
+	},
+	ins_discuss_349_2 = {
+		value = ""
+	},
+	ins_reply_349_2_1 = {
+		value = ""
+	},
+	ins_discuss_349_3 = {
+		value = ""
+	},
+	ins_reply_349_3_1 = {
+		value = ""
+	},
+	ins_op_349_1_1 = {
+		value = ""
+	},
+	op_reply_349_1_1 = {
+		value = ""
+	},
+	ins_350 = {
+		value = ""
+	},
+	ins_discuss_350_1 = {
+		value = ""
+	},
+	ins_reply_350_1_1 = {
+		value = ""
+	},
+	ins_discuss_350_2 = {
+		value = ""
+	},
+	ins_reply_350_2_1 = {
+		value = ""
+	},
+	ins_reply_350_2_2 = {
+		value = ""
+	},
+	ins_reply_350_2_3 = {
+		value = ""
+	},
+	ins_reply_350_2_4 = {
+		value = ""
+	},
+	ins_op_350_1_1 = {
+		value = ""
+	},
+	op_reply_350_1_1 = {
+		value = ""
+	},
+	ins_351 = {
+		value = ""
+	},
+	ins_discuss_351_1 = {
+		value = ""
+	},
+	ins_reply_351_1_1 = {
+		value = ""
+	},
+	ins_reply_351_1_2 = {
+		value = ""
+	},
+	ins_discuss_351_2 = {
+		value = ""
+	},
+	ins_reply_351_2_1 = {
+		value = ""
+	},
+	ins_reply_351_2_2 = {
+		value = ""
+	},
+	ins_op_351_1_1 = {
+		value = ""
+	},
+	op_reply_351_1_1 = {
+		value = ""
+	},
 	ins_367 = {
 		value = "趁冬天結束前，堆一個雪人。"
 	},
@@ -15484,234 +15684,234 @@ pg.base.activity_ins_language = {
 		value = "指揮官同志，你這小看人的說法是怎麼回事！我當然好得很！"
 	},
 	ins_418 = {
-		value = ""
+		value = "鏘鏘——！諸位快看，我得到了新忍具哦！"
 	},
 	ins_discuss_418_1 = {
-		value = ""
+		value = "不愧是飛鳥閣下！這就是「忍者」的氣勢吧！在下也要努力修行了……！"
 	},
 	ins_reply_418_1_1 = {
-		value = ""
+		value = "那……{namecode:11}是不是先從「在夜間行動中關掉照明」這一點開始，作為修行的目標？"
 	},
 	ins_reply_418_1_2 = {
-		value = ""
+		value = "咦？{namecode:11}醬原來是不需要藉夜色作為掩護的嗎？！一定有什麼訣竅吧，教我──！"
 	},
 	ins_discuss_418_2 = {
-		value = ""
+		value = "把魚雷當作忍具……動靜會不會太大了？"
 	},
 	ins_reply_418_2_1 = {
-		value = ""
+		value = "在某些地方的設定裡，把敵人全部排除好像也算是完美潛入，所以動靜大一點也沒關係吧！"
 	},
 	ins_reply_418_2_2 = {
-		value = ""
+		value = "好像有道理欸……"
 	},
 	ins_discuss_418_3 = {
-		value = ""
+		value = "所以飛鳥小姐……打算把魚雷當作近戰武器嗎？"
 	},
 	ins_reply_418_3_1 = {
-		value = ""
+		value = "對哦！不過美中不足的就是沒辦法像苦無一樣藏在身前……太大了很難塞進去呢。"
 	},
 	ins_op_418_1_1 = {
-		value = ""
+		value = "把這種危險物品當作忍具的話……"
 	},
 	op_reply_418_1_1 = {
-		value = ""
+		value = "放心！我保證絕對不會亂來的！"
 	},
 	ins_op_418_1_2 = {
-		value = ""
+		value = "這種藏法……應該沒辦法在港區內普及吧……"
 	},
 	op_reply_418_1_2 = {
-		value = ""
+		value = "咦？但這不是很稀鬆平常的事嗎？"
 	},
 	ins_419 = {
-		value = ""
+		value = "……要怎麼跟這個小傢伙相處呢？"
 	},
 	ins_discuss_419_1 = {
-		value = ""
+		value = "要不要試試餵指揮喵吃點東西？拿在手上的話，指揮喵就會自己湊過來了哦！"
 	},
 	ins_reply_419_1_1 = {
-		value = ""
+		value = "啊，原來還有這種方法……我會試試看的！"
 	},
 	ins_reply_419_1_2 = {
-		value = ""
+		value = "原來如此……之後我也要找個機會試試看。"
 	},
 	ins_discuss_419_2 = {
-		value = ""
+		value = "……這些小東西，不是放著不管自己就會纏上來的嗎？"
 	},
 	ins_reply_419_2_1 = {
-		value = ""
+		value = "吸貓體質……恐怖如斯……！"
 	},
 	ins_reply_419_2_2 = {
-		value = ""
+		value = "雖然聽不太懂，但感覺是一種很讓人羨慕的才能……"
 	},
 	ins_op_419_1_1 = {
-		value = ""
+		value = "確實是令人頭痛的小傢伙。"
 	},
 	op_reply_419_1_1 = {
-		value = ""
+		value = "原來指揮官也不擅長跟它們相處啊。"
 	},
 	ins_op_419_1_2 = {
-		value = ""
+		value = "如果所有的指揮喵都能好好成長就好了……"
 	},
 	op_reply_419_1_2 = {
-		value = ""
+		value = "感覺指揮官……好像有很多很辛酸的故事？"
 	},
 	ins_420 = {
-		value = ""
+		value = "對不起，對不起……我果然……不應該出門的……"
 	},
 	ins_discuss_420_1 = {
-		value = ""
+		value = "是{namecode:188}走路恍神所以才被彈開的，不是紫小姐的錯……！"
 	},
 	ins_reply_420_1_1 = {
-		value = ""
+		value = "居、居然能將{namecode:188}閣下彈開……紫閣下……深藏不露！"
 	},
 	ins_reply_420_1_2 = {
-		value = ""
+		value = "……實在是對不起……如果我不出門的話……就不會發生這種事了……"
 	},
 	ins_discuss_420_2 = {
-		value = ""
+		value = "兩位~應該都沒有受傷吧？"
 	},
 	ins_reply_420_2_1 = {
-		value = ""
+		value = "我沒事的……給紫小姐添麻煩了……"
 	},
 	ins_reply_420_2_2 = {
-		value = ""
+		value = "我才是……給大家添麻煩了……果然還是宅在家比較好……"
 	},
 	ins_reply_420_2_3 = {
-		value = ""
+		value = "這樣下去會沒完沒了的哦？就此打住吧~大家都沒受傷就好~"
 	},
 	ins_op_420_1_1 = {
-		value = ""
+		value = "所以，「彈開」是……？"
 	},
 	op_reply_420_1_1 = {
-		value = ""
+		value = "……就，就是字面意思上的「彈開」……"
 	},
 	ins_op_420_1_2 = {
-		value = ""
+		value = "該把走廊再加寬一些了。"
 	},
 	op_reply_420_1_2 = {
-		value = ""
+		value = "……不，不用這麼麻煩的……！其實只要我不出門就好了……！"
 	},
 	ins_421 = {
-		value = ""
+		value = "小菜一碟！"
 	},
 	ins_discuss_421_1 = {
-		value = ""
+		value = "哇？！居然還能這樣？我也要試試！"
 	},
 	ins_reply_421_1_1 = {
-		value = ""
+		value = "那就來比誰切得更快更多吧！廚房見！"
 	},
 	ins_reply_421_1_2 = {
-		value = ""
+		value = "廚房可不是讓妳們用來比賽的地方啊！"
 	},
 	ins_discuss_421_2 = {
-		value = ""
+		value = "我承認焰小姐的六刀流很厲害，但若是對上我的太刀，閣下又將如何應對？"
 	},
 	ins_reply_421_2_1 = {
-		value = ""
+		value = "班長大人……該不會是被飛鳥那傢伙刺激到了吧？"
 	},
 	ins_reply_421_2_2 = {
-		value = ""
+		value = "嗚哇——別總是什麼都怪到我頭上來嘛，焰醬！"
 	},
 	ins_discuss_421_3 = {
-		value = ""
+		value = "哦哦！太帥了！簡直就像超級英雄一樣~！"
 	},
 	ins_reply_421_3_1 = {
-		value = ""
+		value = "又來了……別總說別人聽不懂的話啦……！"
 	},
 	ins_reply_421_3_2 = {
-		value = ""
+		value = "超級英雄？是在誇我很厲害的意思嗎？"
 	},
 	ins_op_421_1_1 = {
-		value = ""
+		value = "把炸彈也加進去的話，就是蔬果忍者了？"
 	},
 	op_reply_421_1_1 = {
-		value = ""
+		value = "蔬果忍者又是什麼東西啦！"
 	},
 	ins_422 = {
-		value = ""
+		value = "港區的大家都鼓勵我分享生活，所以有了這張照片……"
 	},
 	ins_discuss_422_1 = {
-		value = ""
+		value = "嘿嘿~這張照片不錯吧？我拍的~"
 	},
 	ins_reply_422_1_1 = {
-		value = ""
+		value = "是的……非常感謝妳，阿爾弗雷多小姐。"
 	},
 	ins_reply_422_1_2 = {
-		value = ""
+		value = "看起來好好吃！我也要吃——！"
 	},
 	ins_discuss_422_2 = {
-		value = ""
+		value = "喵呼呼~給了雪不歸小姐免費的福利喵！"
 	},
 	ins_reply_422_2_1 = {
-		value = ""
+		value = "{namecode:98}小姐，這、這怎麼好意思呢……"
 	},
 	ins_reply_422_2_2 = {
-		value = ""
+		value = "沒關係，都記在指揮官帳上喵！"
 	},
 	ins_op_422_1_1 = {
-		value = ""
+		value = "能讓大家滿意就再好不過了。"
 	},
 	op_reply_422_1_1 = {
-		value = ""
+		value = "指揮官……真是個好人……"
 	},
 	ins_423 = {
-		value = ""
+		value = "呵呵……就用這支舞，為大家帶來一絲涼爽吧。"
 	},
 	ins_discuss_423_1 = {
-		value = ""
+		value = "選扇子的品味也好，舞蹈也好，確實不錯。"
 	},
 	ins_reply_423_1_1 = {
-		value = ""
+		value = "謝謝誇獎，{namecode:39}小姐的扇子也很美呢。"
 	},
 	ins_reply_423_1_2 = {
-		value = ""
+		value = "原來忍者的能力還能這樣？！靈感來了！我要抓緊記錄下來~"
 	},
 	ins_reply_423_1_3 = {
-		value = ""
+		value = "雖然不太理解，但我的舞蹈幫忙就太好了。"
 	},
 	ins_discuss_423_2 = {
-		value = ""
+		value = "有這能力，就能隨時喝到冰鎮的伏特加了吧。"
 	},
 	ins_reply_423_2_1 = {
-		value = ""
+		value = "是挺讓人心動的，不過，工作的時候可不能喝伏特加哦？"
 	},
 	ins_reply_423_2_2 = {
-		value = ""
+		value = "如果塔什干小姐和曙光小姐有需求的話，我很樂意幫忙哦"
 	},
 	ins_op_423_1_1 = {
-		value = ""
+		value = "這樣的話，夏天就可以省下冷氣費用了吧？"
 	},
 	op_reply_423_1_1 = {
-		value = ""
+		value = "嗯，如果您希望的話，隨時能為您送上清涼哦。"
 	},
 	ins_424 = {
-		value = ""
+		value = "為什麼指揮室裡完全找不到機關和暗室？"
 	},
 	ins_discuss_424_1 = {
-		value = ""
+		value = "噢噢，汪汪小喵還好好地在那裡呢！"
 	},
 	ins_reply_424_1_1 = {
-		value = ""
+		value = "汪汪小喵？……是說這個長相奇特的小傢伙嗎？"
 	},
 	ins_reply_424_1_2 = {
-		value = ""
+		value = "別又趁人不注意，把奇怪的道具偷偷往指揮室塞啊！"
 	},
 	ins_discuss_424_2 = {
-		value = ""
+		value = "啊，這兩個奇怪的擺飾就是開啟暗室的機關？"
 	},
 	ins_reply_424_2_1 = {
-		value = ""
+		value = "試過了，只是普通的擺飾。 明明是重要的指揮室，竟然沒有任何安全措施……"
 	},
 	ins_op_424_1_1 = {
-		value = ""
+		value = "只是間普通的辦公室而已。"
 	},
 	op_reply_424_1_1 = {
-		value = ""
+		value = "不行。 沒有機關和暗室，實在太危險了！"
 	},
 	ins_op_424_1_2 = {
-		value = ""
+		value = "就算有安全措施也……"
 	},
 	op_reply_424_1_2 = {
-		value = ""
+		value = "指揮官，怎麼了嗎？總覺得你好像很無奈的樣子……"
 	}
 }

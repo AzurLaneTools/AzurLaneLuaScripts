@@ -16,7 +16,7 @@ return {
 			actor = 900322,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "Hello，我知道有人能看到这条留言哦。",
+			say = "Hello，我知道有人能看到這則留言哦。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "在我们正式见面之前，先来加深一下感情吧~",
+			say = "在我們正式見面之前，先來加深感情吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "比如，来猜个谜？",
+			say = "比如，來猜個謎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“看啊，在那宏伟城堡中的君王。”",
+			say = "「看啊，在那宏偉城堡中的君王。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“它正从窗中向外远眺着。”",
+			say = "「它正從窗中向外遠眺著。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“六个忠诚的将军护卫在前。”",
+			say = "「六個忠誠的將軍護衛在前。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“还有无数持弩的兵士屹立在墙上。”",
+			say = "「還有無數持弩的兵士屹立在牆上。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "谜底是一种海洋生物，你能猜到是什么吗？",
+			say = "謎底是一種海洋生物，你猜得到是什麼嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "这里是思考用的倒计时——————",
+			say = "這裡是思考用的倒數計時——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,161 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "结束————",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "现在来揭秘谜底，答案是“寄居蟹”，你猜对了么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“宏伟的城堡”指的是寄居蟹寄住的螺壳。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "香螺、骨螺、玉螺等螺类都有可能成为其寄居目标哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“六个忠诚的将军”指的是寄居蟹露在外面的两对足与一对鳌。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "寄居蟹通常会用它们来进行移动与捕食。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "不过不要被骗了，寄居蟹其实和所有螃蟹一样拥有四对足，另外两对一直隐藏在螺壳之中而已。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“无数持弩的兵士”指的是会与寄居蟹共生的海葵。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "你知道么，海葵虽然看起来像是植物，但它其实是肉食性动物哦。",
+			say = "結束————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "海葵由于没有骨骼，所以只能缓慢的移动。",
+			say = "現在來揭秘謎底，答案是「寄居蟹」，妳猜對了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "但通过与寄居蟹合作，海葵的觅食范围也在一瞬间扩大了好多，还能获得一些寄居蟹觅食时剩下的食物碎屑。",
+			say = "「宏偉的城堡」指的是寄居蟹寄住的螺殼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "作为回报，海葵会利用触手上的毒液为寄居蟹而战，保护其免于天敌的猎杀。",
+			say = "香螺、骨螺、玉螺等螺類都有可能成為其寄生目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "海葵的携带毒液的触手与携带弩箭的兵士很像吧~？",
+			say = "「六個忠誠的將軍」指的是寄居蟹露在外面的兩對足與一對鰲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "寄居蟹是如此的有智慧，懂得协作又明白扬长避短。",
+			say = "寄居蟹通常會用它們來進行移動與捕食。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "难怪能够成为海洋中的一方猎手，不是么？",
+			say = "不過不要被騙了，寄居蟹其實和所有螃蟹一樣擁有四對足，另外兩對一直隱藏在螺殼之中而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +323,161 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "那么拜拜咯~有机会的话，我们下次再见啦~",
+			say = "「無數持弩的兵士」指的是會與寄居蟹共生的海葵。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "你知道嗎，海葵雖然看起來像是植物，但它其實是肉食性動物哦。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "海葵由於沒有骨骼，所以只能緩慢的移動。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "但透過與寄居蟹合作，海葵的覓食範圍也在一瞬間擴大了很多，還能獲得一些寄居蟹覓食時剩下的食物碎屑。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "作為回報，海葵會利用觸手上的毒液為寄居蟹而戰，保護其免於天敵的獵殺。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "海葵的攜帶毒液的觸手與攜帶弩箭的兵士很像吧~？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "寄居蟹是如此的有智慧，懂得協作又明白揚長避短。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "難怪能夠成為海洋中的一方獵手，不是嗎？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "那麼拜拜囉~有機會的話，我們下次再見~",
 			painting = {
 				alpha = 0.3,
 				time = 1
