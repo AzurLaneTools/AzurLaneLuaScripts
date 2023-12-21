@@ -426,10 +426,10 @@ pg.item_data_frame = {
 	[328] = {
 		time_limit_type = 0,
 		name = "穹界逐光",
-		gain_by = "",
+		gain_by = "星海逐光",
 		id = 328,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「事件之穹界，因果之尽头。禁地不可逾越，跨过即为永恒。」</color>\n「星海逐光」活动获取",
 		scene = {}
 	},
 	[401] = {

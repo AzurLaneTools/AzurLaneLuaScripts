@@ -4,7 +4,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -20,7 +20,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -36,7 +36,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -52,7 +52,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -68,7 +68,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -84,7 +84,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -100,7 +100,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -116,7 +116,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -132,7 +132,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -148,7 +148,7 @@ return {
 			{
 				type = "BattleBuffFixDamage",
 				trigger = {
-					"onTakeDamage"
+					"onBeforeTakeDamage"
 				},
 				arg_list = {
 					rate = 0.5,
@@ -180,7 +180,7 @@ return {
 		{
 			type = "BattleBuffFixDamage",
 			trigger = {
-				"onTakeDamage"
+				"onBeforeTakeDamage"
 			},
 			arg_list = {
 				rate = 0.5,

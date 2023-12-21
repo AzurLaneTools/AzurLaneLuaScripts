@@ -609,7 +609,12 @@ temp()
 function temp()
 	uv0["拉"] = {
 		["菲"] = {
-			this = true
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
 		},
 		["德"] = {
 			["福"] = {
@@ -1514,6 +1519,13 @@ function temp()
 				this = true
 			}
 		},
+		["哈"] = {
+			["辛"] = {
+				["托"] = {
+					this = true
+				}
+			}
+		},
 		["女"] = {
 			["贞"] = {
 				["德"] = {
@@ -2324,6 +2336,37 @@ end
 temp()
 
 function temp()
+	uv0["路"] = {
+		["易"] = {
+			["斯"] = {
+				["维"] = {
+					["尔"] = {
+						this = true
+					}
+				}
+			},
+			["九"] = {
+				["世"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["星"] = {
+		["座"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["内"] = {
 		["华"] = {
 			["达"] = {
@@ -2861,6 +2904,19 @@ end
 temp()
 
 function temp()
+	uv0["松"] = {
+		["鲷"] = {
+			this = true
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["女"] = {
 		["灶"] = {
 			["神"] = {
@@ -2890,6 +2946,16 @@ function temp()
 			["狗"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["关"] = {
+		["岛"] = {
+			this = true
 		}
 	}
 end
@@ -4087,16 +4153,6 @@ temp()
 
 function temp()
 	uv0["棡"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["松"] = {
 		this = {
 			this = true
 		}
@@ -6678,20 +6734,6 @@ function temp()
 		},
 		this = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["路"] = {
-		["易"] = {
-			["九"] = {
-				["世"] = {
-					this = true
-				}
-			}
 		}
 	}
 end

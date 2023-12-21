@@ -164,6 +164,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100001,
 			100002,
 			100003,
@@ -3169,6 +3171,25 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			305305,
 			305306
+		},
+		[106] = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		}
 	},
 	get_id_list_by_tag = {
@@ -5042,7 +5063,18 @@ pg.furniture_data_template = setmetatable({
 			305116,
 			305117,
 			305118,
-			305119
+			305119,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111
 		},
 		{
 			1108,
@@ -5399,6 +5431,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100001,
 			100002,
 			100003,
@@ -5634,7 +5668,11 @@ pg.furniture_data_template = setmetatable({
 			305301,
 			305302,
 			305303,
-			305304
+			305304,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[4] = {
 			1001,
@@ -5730,7 +5768,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[3] = {
 			1002,
@@ -5826,7 +5865,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[5] = {
 			1301,
@@ -6260,7 +6300,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[7] = {
 			1,
@@ -6399,6 +6440,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100001,
 			100002,
 			100004,
@@ -8303,7 +8346,22 @@ pg.furniture_data_template = setmetatable({
 			305115,
 			305116,
 			305117,
-			305118
+			305118,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[11] = {
 			131,
@@ -8804,7 +8862,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[5] = {
 			1101,
@@ -9339,6 +9398,8 @@ pg.furniture_data_template = setmetatable({
 		264,
 		265,
 		266,
+		267,
+		268,
 		100001,
 		100002,
 		100003,
@@ -12153,7 +12214,24 @@ pg.furniture_data_template = setmetatable({
 		305303,
 		305304,
 		305305,
-		305306
+		305306,
+		306001,
+		306002,
+		306101,
+		306102,
+		306103,
+		306104,
+		306105,
+		306106,
+		306107,
+		306108,
+		306109,
+		306110,
+		306111,
+		306112,
+		306113,
+		306114,
+		306115
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19931,6 +20009,211 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[267] = {
+		rarity = 4,
+		describe = "池温泉，四种体验~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "缤纷温泉池",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "sigewenquanicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 267,
+		can_rotate = 0,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sigewenquanB",
+				"normal"
+			},
+			{
+				"sigewenquanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					14.7,
+					127.2
+				},
+				{
+					208,
+					216
+				},
+				"chuanmo/sigewenquan_mask"
+			},
+			{
+				-10,
+				-133.8
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				1
+			},
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[268] = {
+		spine_extra = "",
+		describe = "授予以卓越的勇气，在作战行动中为联合防卫军提供协助的人员。——「星海逐光」活动纪念章",
+		gain_by = "星海逐光",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "guandaoxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "理事会联合勋章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 268,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guandaoxunzhang",
 				"normal"
 			}
 		},
@@ -144658,6 +144941,871 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[306001] = {
+		spine_extra = "",
+		describe = "灯光！音乐！一起彻夜狂欢吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "港区喧嚣夜地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanyydicon",
+		spine_action_replace = "",
+		picture = "yyd/dibanyyd",
+		comfortable = 4,
+		canputon = 0,
+		id = 306001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306002] = {
+		spine_extra = "",
+		describe = "灯光！音乐！一起彻夜狂欢吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "港区喧嚣夜墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiyydicon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 306002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiyyd",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[306101] = {
+		spine_extra = "",
+		describe = "欢迎光临，今日的优惠菜品是——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "caidanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "炫彩菜单招牌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/caidanyyd",
+		canputon = 0,
+		id = 306101,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306102] = {
+		spine_extra = "",
+		describe = "饮料已上桌，就差几个朋友了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chajiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "喧嚣茶几",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/chajiyyd",
+		canputon = 0,
+		id = 306102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306103] = {
+		spine_extra = "",
+		describe = "动次打次！一起嗨起来！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "changdilabayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "炫彩音响",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/changdilabayyd",
+		canputon = 0,
+		id = 306103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306104] = {
+		spine_extra = "",
+		describe = "雕像！兔兔星人的恬静艺术！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangfenyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "粉色兔兔星人雕像",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxiangfenyyd",
+		canputon = 0,
+		id = 306104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306105] = {
+		spine_extra = "",
+		describe = "雕像！兔兔星人的活泼艺术！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxianglanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蓝色兔兔星人雕像",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxianglanyyd",
+		canputon = 0,
+		id = 306105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306106] = {
+		spine_extra = "",
+		describe = "啾！是VIP座位！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kazuoyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "喧嚣卡座",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/kazuoyyd",
+		canputon = 0,
+		id = 306106,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41,
+					122
+				},
+				{
+					-1,
+					1
+				},
+				"yyd/kazuoyyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306107] = {
+		spine_extra = "",
+		describe = "悬挂着饮料的气球",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qiqiuyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "冷饮气球",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/qiqiuyyd",
+		canputon = 0,
+		id = 306107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306108] = {
+		spine_extra = "",
+		describe = "躺在柔软的沙发上休息一会吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "喧嚣沙发",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/shafayyd",
+		canputon = 0,
+		id = 306108,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.7,
+					-3.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306109] = {
+		spine_extra = "",
+		describe = "准备好了么？灯光正为你而聚焦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "炫彩聚光灯",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/wutaidengyyd",
+		canputon = 0,
+		id = 306109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306110] = {
+		spine_extra = "",
+		describe = "柔软的单人座椅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "软包圆凳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/xiaodengyyd",
+		canputon = 0,
+		id = 306110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306111] = {
+		spine_extra = "",
+		describe = "喧嚣的气泡，冰镇的甜蜜——饮料自助哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yinliaoxiang1yydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "干冰饮料箱",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/yinliaoxiang1yyd",
+		canputon = 0,
+		id = 306111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306112] = {
+		spine_extra = "",
+		describe = "动次打次！跟着节奏舞起来~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "劲舞DJ台",
+		themeId = 106,
+		icon = "yinyuetaiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinyuetaiyydB",
+				"normal"
+			},
+			{
+				"yinyuetaiyydT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[306113] = {
+		spine_extra = "",
+		describe = "手气正旺！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "laohujidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "喧嚣惊喜灯",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laohujidengyyd",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[306114] = {
+		rarity = 3,
+		describe = "中场休息，来一杯吧啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "喧嚣吧台",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "bataiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306114,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[306115] = {
+		rarity = 4,
+		describe = "世界聚焦于此，尽情地舞蹈吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "喧嚣舞台",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "wutaiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306115,
+		can_rotate = 0,
+		size = {
+			11,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				-1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
 		},
 		interAction_group = {}
 	}

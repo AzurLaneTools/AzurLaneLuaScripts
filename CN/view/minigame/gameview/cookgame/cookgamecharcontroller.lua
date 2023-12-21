@@ -19,22 +19,34 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.partnerChar:isPartner(true)
 
+	slot0.partnerPet = CookGameChar.New(tf(instantiate(slot0._tpl)), slot0._gameData, slot0._event)
+
+	slot0.partnerPet:isPartner(true)
+
 	slot0.enemy1Char = CookGameChar.New(tf(instantiate(slot0._tpl)), slot0._gameData, slot0._event)
 	slot0.enemy2Char = CookGameChar.New(tf(instantiate(slot0._tpl)), slot0._gameData, slot0._event)
+	slot0.enemyPet = CookGameChar.New(tf(instantiate(slot0._tpl)), slot0._gameData, slot0._event)
 
 	slot0.playerChar:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.player_char])
 	slot0.partnerChar:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.parter_char])
+	slot0.partnerPet:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.parter_pet])
 	slot0.enemy1Char:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.enemy1_char])
+	slot0.enemy2Char:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.enemy2_char])
+	slot0.enemyPet:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.enemy_pet])
+	slot0.enemy1Char:isPartner(false)
+	slot0.enemy2Char:isPartner(false)
 
-	slot4 = slot0.enemy2Char
+	slot4 = slot0.enemyPet
 
-	slot4:setParent(slot0._sceneContainer, CookGameConst.char_instiate_data[CookGameConst.enemy2_char])
+	slot4:isPartner(false)
 
 	slot0.chars = {
 		slot0.playerChar,
 		slot0.partnerChar,
 		slot0.enemy1Char,
-		slot0.enemy2Char
+		slot0.enemy2Char,
+		slot0.partnerPet,
+		slot0.enemyPet
 	}
 	slot0._playerBox = findTF(slot0._sceneContainer, "scene_background/playerBox")
 
@@ -119,12 +131,30 @@ end
 function slot0.readyStart(slot0)
 	slot0.playerChar:setData(slot0:createCharData(slot0._gameData.playerChar))
 	slot0.partnerChar:setData(slot0:createCharData(slot0._gameData.partnerChar))
+
+	if slot0._gameData.partnerPet then
+		slot0.partnerPet:setData(slot0:createCharData(slot0._gameData.partnerPet))
+	else
+		slot0.partnerPet:setData(nil)
+	end
+
 	slot0.enemy1Char:setData(slot0:createCharData(slot0._gameData.enemy1Char))
 	slot0.enemy2Char:setData(slot0:createCharData(slot0._gameData.enemy2Char))
+
+	if slot0._gameData.enemyPet then
+		slot0.enemyPet:setData(slot0:createCharData(slot0._gameData.enemyPet))
+	else
+		slot0.enemyPet:setData(nil)
+	end
+
 	slot0.playerChar:readyStart()
 	slot0.partnerChar:readyStart()
+	slot0.partnerPet:readyStart()
 	slot0.enemy1Char:readyStart()
 	slot0.enemy2Char:readyStart()
+	slot0.enemyPet:readyStart()
+
+	slot0.sceneTfs = nil
 end
 
 function slot0.start(slot0)
@@ -132,28 +162,29 @@ end
 
 function slot0.step(slot0, slot1)
 	for slot5 = 1, #slot0.chars do
-		slot6 = slot0.chars[slot5]
-		slot8 = slot6:getVelocity()
+		if slot0.chars[slot5]:getCharActive() then
+			slot8 = slot6:getVelocity()
 
-		if slot6:getTargetPos() then
-			slot9 = slot6:getPos()
+			if slot6:getTargetPos() then
+				slot9 = slot6:getPos()
 
-			if not slot8 then
-				if math.abs(slot7.y - slot9.y) ~= 0 then
-					slot10 = math.atan(math.abs(slot7.y - slot9.y) / math.abs(slot7.x - slot9.x))
+				if not slot8 then
+					if math.abs(slot7.y - slot9.y) ~= 0 then
+						slot10 = math.atan(math.abs(slot7.y - slot9.y) / math.abs(slot7.x - slot9.x))
 
-					slot6:setVelocity(math.cos(slot10) * (slot9.x < slot7.x and 1 or -1), math.sin(slot10) * (slot9.y < slot7.y and 1 or -1), slot10)
-				else
-					slot6:stopMove()
+						slot6:setVelocity(math.cos(slot10) * (slot9.x < slot7.x and 1 or -1), math.sin(slot10) * (slot9.y < slot7.y and 1 or -1), slot10)
+					else
+						slot6:stopMove()
+					end
 				end
+			elseif slot6:getJudgeData() then
+				slot6:setTargetPos(slot6:getJudgeData().targetPos)
+			elseif slot6:getCake() then
+				slot6:setTargetPos(slot6:getCake().cakePos)
 			end
-		elseif slot6:getJudgeData() then
-			slot6:setTargetPos(slot6:getJudgeData().targetPos)
-		elseif slot6:getCake() then
-			slot6:setTargetPos(slot6:getCake().cakePos)
-		end
 
-		slot6:step(slot1)
+			slot6:step(slot1)
+		end
 	end
 
 	if not slot0.sceneTfs then
@@ -167,7 +198,10 @@ function slot0.step(slot0, slot1)
 
 				table.insert(slot2, slot8)
 			else
-				table.insert(slot0.sceneTfs, slot8)
+				table.insert(slot0.sceneTfs, {
+					tf = slot8,
+					offset = slot0:getTfOffset(slot8.name)
+				})
 			end
 		end
 
@@ -181,7 +215,7 @@ function slot0.step(slot0, slot1)
 	end
 
 	table.sort(slot0.sceneTfs, function (slot0, slot1)
-		if slot1.anchoredPosition.y < slot0.anchoredPosition.y then
+		if slot0.tf.anchoredPosition.y + (slot0.offset and slot0.offset or Vector2(0, 0)).y > slot1.tf.anchoredPosition.y + (slot1.offset and slot1.offset or Vector2(0, 0)).y then
 			return true
 		else
 			return false
@@ -189,76 +223,112 @@ function slot0.step(slot0, slot1)
 	end)
 
 	for slot5 = 1, #slot0.sceneTfs do
-		slot0.sceneTfs[slot5]:SetSiblingIndex(slot5 - 1 + slot0.judgeNum)
+		slot0.sceneTfs[slot5].tf:SetSiblingIndex(slot5 - 1 + slot0.judgeNum)
 	end
 
 	if not slot0._judges then
 		slot0._judges = slot0._gameData.judges
 	end
 
-	slot2 = slot0:getFillterWanted(slot0.partnerChar)
-	slot3 = slot0:getFillterWanted(slot0.playerChar)
-	slot4 = slot0:getFillterWanted(slot0.playerChar)
-	slot5 = slot0:getFillterWanted(slot0.enemy1Char)
+	slot2 = slot0:getFillterWanted({
+		slot0.partnerChar
+	})
+	slot3 = slot0:getFillterWanted({
+		slot0.playerChar,
+		slot0.partnerPet
+	})
+	slot4 = slot0:getFillterWanted({
+		slot0.playerChar,
+		slot0.partnerPet
+	})
+	slot5 = slot0:getFillterWanted({
+		slot0.enemy2Char,
+		slot0.enemyPet
+	})
+	slot6 = slot0:getFillterWanted({
+		slot0.enemy1Char,
+		slot0.enemyPet
+	})
+	slot7 = slot0:getFillterWanted({
+		slot0.enemy1Char,
+		slot0.enemy2Char
+	})
 
 	if CookGameConst.player_use_ai then
 		slot0:setCharAction(slot0.playerChar, slot3, slot0.playerCakes)
 	end
 
 	slot0:setCharAction(slot0.partnerChar, slot2, slot0.playerCakes)
+	slot0:setCharAction(slot0.partnerPet, slot4, slot0.playerCakes)
 
 	if slot0._gameData.gameTime and slot0._gameData.gameTime > 0 then
-		slot0:setCharAction(slot0.enemy1Char, slot4, slot0.enemyCakes)
-		slot0:setCharAction(slot0.enemy2Char, slot5, slot0.enemyCakes)
+		slot0:setCharAction(slot0.enemy1Char, slot5, slot0.enemyCakes)
+		slot0:setCharAction(slot0.enemy2Char, slot6, slot0.enemyCakes)
+		slot0:setCharAction(slot0.enemyPet, slot7, slot0.enemyCakes)
 	end
 
-	for slot9 = #slot0.acCakes, 1, -1 do
-		slot10 = slot0.acCakes[slot9].tf
-		slot11 = slot0.acCakes[slot9].tf.anchoredPosition
-		slot12 = slot0.acCakes[slot9].targetPos
-		slot13 = math.atan(math.abs(slot12.y - slot11.y) / math.abs(slot12.x - slot11.x))
-		slot18 = Vector2(slot11.x + math.cos(slot13) * (slot11.x < slot12.x and 1 or -1) * 600 * slot1, slot11.y + math.sin(slot13) * (slot11.y < slot12.y and 1 or -1) * 600 * slot1)
-		slot19 = slot0.acCakes[slot9].tf.anchoredPosition
+	for slot11 = #slot0.acCakes, 1, -1 do
+		slot12 = slot0.acCakes[slot11].tf
+		slot13 = slot0.acCakes[slot11].tf.anchoredPosition
+		slot14 = slot0.acCakes[slot11].targetPos
+		slot15 = math.atan(math.abs(slot14.y - slot13.y) / math.abs(slot14.x - slot13.x))
+		slot20 = Vector2(slot13.x + math.cos(slot15) * (slot13.x < slot14.x and 1 or -1) * 600 * slot1, slot13.y + math.sin(slot15) * (slot13.y < slot14.y and 1 or -1) * 600 * slot1)
+		slot21 = slot0.acCakes[slot11].tf.anchoredPosition
 
-		if slot11.x < slot12.x and slot18.x < slot12.x then
-			slot19.x = slot18.x
-		elseif slot12.x < slot11.x and slot12.x < slot18.x then
-			slot19.x = slot18.x
+		if slot13.x < slot14.x and slot20.x < slot14.x then
+			slot21.x = slot20.x
+		elseif slot14.x < slot13.x and slot14.x < slot20.x then
+			slot21.x = slot20.x
 		else
-			slot19.x = slot12.x
+			slot21.x = slot14.x
 		end
 
-		if slot11.y < slot12.y and slot18.y < slot12.y then
-			slot19.y = slot18.y
-		elseif slot12.y < slot11.y and slot12.y < slot18.y then
-			slot19.y = slot18.y
+		if slot13.y < slot14.y and slot20.y < slot14.y then
+			slot21.y = slot20.y
+		elseif slot14.y < slot13.y and slot14.y < slot20.y then
+			slot21.y = slot20.y
 		else
-			slot19.y = slot12.y
+			slot21.y = slot14.y
 		end
 
-		slot0.acCakes[slot9].tf.anchoredPosition = slot19
+		slot0.acCakes[slot11].tf.anchoredPosition = slot21
 
-		if math.abs(slot19.y - slot12.y) < 3 and math.abs(slot19.x - slot12.x) < 3 then
-			if table.remove(slot0.acCakes, slot9).callback then
-				slot20.callback()
+		if math.abs(slot21.y - slot14.y) < 3 and math.abs(slot21.x - slot14.x) < 3 then
+			if table.remove(slot0.acCakes, slot11).callback then
+				slot22.callback()
 			end
 
-			Destroy(slot20.tf)
+			Destroy(slot22.tf)
 
-			slot20 = nil
+			slot22 = nil
 		end
 	end
 end
 
+function slot0.getTfOffset(slot0, slot1)
+	for slot5 = 1, #slot0.chars do
+		if slot0.chars[slot5]:getTf().name == slot1 then
+			return slot0.chars[slot5]:getOffset()
+		end
+	end
+
+	return Vector2(0, 0)
+end
+
 function slot0.getFillterWanted(slot0, slot1)
 	slot2 = {}
-	slot3 = slot1:getJudge()
 
-	for slot7 = 1, #slot0._judges do
-		slot8 = slot0._judges[slot7]
+	for slot6, slot7 in ipairs(slot1) do
+		if slot7:getCharActive() then
+			slot8 = slot7:getJudge()
 
-		if (not slot3 or slot8 ~= slot3) and not slot8:isInServe() and not slot8:isInTrigger() and slot8:getWantedCake() then
-			table.insert(slot2, slot8:getWantedCake())
+			for slot12 = 1, #slot0._judges do
+				slot13 = slot0._judges[slot12]
+
+				if (not slot8 or slot13 ~= slot8) and not slot13:isInServe() and not slot13:isInTrigger() and slot13:getWantedCake() then
+					table.insert(slot2, slot13:getWantedCake())
+				end
+			end
 		end
 	end
 
@@ -266,6 +336,10 @@ function slot0.getFillterWanted(slot0, slot1)
 end
 
 function slot0.setCharAction(slot0, slot1, slot2, slot3)
+	if not slot1:getCharActive() then
+		return
+	end
+
 	if slot1:isActiving() then
 		return
 	end
@@ -277,8 +351,8 @@ function slot0.setCharAction(slot0, slot1, slot2, slot3)
 			return
 		elseif slot1:getJudge() then
 			if slot1:getJudge():isInTrigger() and slot6:isInServe() then
-				slot0.playerChar:clearJudge()
-				slot6:stopMove()
+				slot1:clearJudge()
+				slot1:stopMove()
 			end
 
 			return

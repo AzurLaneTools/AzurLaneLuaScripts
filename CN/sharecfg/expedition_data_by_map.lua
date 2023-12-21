@@ -361,6 +361,12 @@ pg.expedition_data_by_map = setmetatable({
 		1770002,
 		1770003,
 		1770004,
+		1780001,
+		1780002,
+		1780011,
+		1780012,
+		1780025,
+		1780026,
 		2100000,
 		2100001,
 		2100010,
@@ -16795,6 +16801,352 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1780001] = {
+		map = 1780001,
+		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-ucnf-image",
+		enter_story = "XINGHAIZHUGUANG1",
+		ani_name = "Map_1780002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780001,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780002,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780003,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780003,
+					"bgm_theme-threat-typeV"
+				}
+			}
+		}
+	},
+	[1780002] = {
+		map = 1780002,
+		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-ucnf-beacon",
+		enter_story = "XINGHAIZHUGUANG17",
+		ani_name = "Map_1780003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1780006,
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1780011] = {
+		map = 1780011,
+		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-ucnf-image",
+		enter_story = "XINGHAIZHUGUANG1",
+		ani_name = "Map_1780002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780021,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780022,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780023,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780023,
+					"bgm_theme-threat-typeV"
+				}
+			}
+		}
+	},
+	[1780012] = {
+		map = 1780012,
+		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-ucnf-beacon",
+		enter_story = "XINGHAIZHUGUANG17",
+		ani_name = "Map_1780003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1780026,
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1780025] = {
+		map = 1780025,
+		name = "星海逐光·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-boss-ucnf",
+		enter_story = "",
+		ani_name = "Map_1780004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1780026] = {
+		map = 1780026,
+		name = "星海逐光·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-ucnf-flagship",
+		enter_story = "",
+		ani_name = "Map_1780005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5131,
+		ui_type = 1,
+		bg = "Map_1780005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1780012,
 		clouds_pos = {
 			{
 				332,

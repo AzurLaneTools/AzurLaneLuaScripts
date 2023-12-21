@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5101
+			5131
 		}
 	},
 	{
@@ -50,9 +50,8 @@ pg.activity_link_button = {
 		}
 	},
 	[20] = {
-		param = "0",
-		name = "event_minigame",
 		type = 0,
+		name = "event_minigame",
 		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 5,
@@ -60,7 +59,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5095
+			5141
+		},
+		param = {
+			"NEWYEAR_BACKHILL_2024"
 		}
 	},
 	[30] = {

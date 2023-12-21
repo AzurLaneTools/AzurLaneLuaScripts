@@ -9627,7 +9627,7 @@ _G.pg.base.gametip.ai_change_2 = {
 }
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*兑换开放时间:<color=#FFF693>$1</color>"
+	tip = "*兑换开放时间:\n<color=#FFF693>$1</color>"
 }
 
 _G.pg.base.gametip.word_bilibili = {
@@ -10112,7 +10112,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:18}(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -16506,11 +16506,11 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 需要收集「特装原型」进行兑换
 
  ■ 「特装原型」可通过以下途径获取：
-通过特装原型周常任务，完成每日日常任务每周可以获得「特装原型」400个
+通过周常任务活跃奖励，每周可以获得「特装原型」500个
 还可以通过出击击破主线、活动、作战档案、主线困难关卡的BOSS、完成科研项目或退役非改造海上传奇稀有度角色获得
 （退役通过改造提升为海上传奇稀有度的角色无法获得）
 
-每月的特装原型获取数量上限为4000
+每月的特装原型获取数量上限为5000
 每月1日0点刷新可获取数量
 *部分活动获取的特装原型不计入每月上限，会进行注明
 ]]
@@ -22338,11 +22338,11 @@ _G.pg.base.gametip.mini_cookgametip = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>9月21日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。
+1.<color=#92fc63>12月27日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。
 
 游戏规则：
-1.指挥官需要操控角色获取对应甜品送给场中的啾啾裁判，上对甜品加1分，上错扣1分，时间结束时分数高的一方获胜
-2.甜品大作战共计8位角色，指挥官可以选择任意角色和队友进行作战
+1.指挥官需要操控角色获取对应甜品送给场中的啾啾裁判，上对甜品加分，上错扣分，时间结束时分数高的一方获胜
+2.甜品大作战共计12位角色，指挥官可以选择任意角色和队友进行作战
 3.时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
 		}
 	}
@@ -22378,6 +22378,30 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "每成功上两个甜品额外加1分"
+}
+
+_G.pg.base.gametip.cook_game_laffey = {
+	tip = "上对甜品后，下一次上对甜品分数+1"
+}
+
+_G.pg.base.gametip.cook_game_janus = {
+	tip = "上对分数随机增加，上错分数随机减少"
+}
+
+_G.pg.base.gametip.cook_game_flandre = {
+	tip = "拥有一名女仆啾协协助者"
+}
+
+_G.pg.base.gametip.cook_game_constellation = {
+	tip = "上对甜品有概率让评委进入<color=#FFE555>【特殊状态】</color>"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_name = {
+	tip = "<color=#FFE555>「希望占卜状态」</color>"
+}
+
+_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+	tip = "使评委拒绝对方阵营的甜品，同时我方成员给该状态的黄鸡评委上任何甜品会获得双倍分数，持续7秒"
 }
 
 _G.pg.base.gametip.random_ship_on = {
@@ -26680,6 +26704,48 @@ _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "该区域未处于开启时间内"
 }
 
+_G.pg.base.gametip.commander_skill_ui_info = {
+	tip = "信息"
+}
+
+_G.pg.base.gametip.commander_skill_ui_confirm = {
+	tip = "确定"
+}
+
+_G.pg.base.gametip.commander_formation_prefab_fleet = {
+	tip = [[
+当
+前
+编
+队]]
+}
+
 _G.pg.base.gametip.rect_ship_card_tpl_add = {
 	tip = "点击添加"
+}
+
+_G.pg.base.gametip.newyear2024_backhill_help = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2023.12.21-2024.1.4维护</color>
+活动简介：
+「甜品大作战II」：参与小游戏获取限定家具「炫彩聚光灯」、「喧嚣惊喜灯」等奖励
+「绘马祈愿」：参与绘马祈愿获取奖励「年贺状」
+「换装商店」：购买限时换装
+「限时建造」：建造限时角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.last_times_sign = {
+	tip = "剩余签到次数：$1"
+}
+
+_G.pg.base.gametip.skin_page_sign = {
+	tip = "点击签到"
+}
+
+_G.pg.base.gametip.skin_page_desc = {
+	tip = "活动期间，每日解锁$1次签到机会\n完成签到可获取限时奖励并解锁限定剧情"
 }

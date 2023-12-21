@@ -219,20 +219,22 @@ return {
 			actorName = "马可波罗",
 			say = "那个是……巨大的……金色机甲骑士？",
 			movableNode = {
-				time = 2,
-				name = "shenpanjijia_zhipei",
-				spine = {
-					action = "move",
-					scale = 1
-				},
-				path = {
-					{
-						-1500,
-						0
+				{
+					time = 2,
+					name = "shenpanjijia_zhipei",
+					spine = {
+						action = "move",
+						scale = 1
 					},
-					{
-						1500,
-						0
+					path = {
+						{
+							-1500,
+							0
+						},
+						{
+							1500,
+							0
+						}
 					}
 				}
 			},

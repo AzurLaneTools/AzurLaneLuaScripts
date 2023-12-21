@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 380
+		key_value = 384
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 382
+		key_value = 386
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1998,7 +1998,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			59010,
-			4000
+			5000
 		}
 	},
 	doa_fever_count = {
@@ -2303,7 +2303,7 @@ pg.gameset = {
 				{
 					8,
 					59011,
-					100
+					125
 				}
 			},
 			{
@@ -2363,7 +2363,7 @@ pg.gameset = {
 				{
 					8,
 					59011,
-					100
+					125
 				}
 			},
 			{
@@ -2423,7 +2423,7 @@ pg.gameset = {
 				{
 					8,
 					59011,
-					200
+					250
 				}
 			},
 			{

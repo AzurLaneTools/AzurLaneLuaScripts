@@ -1551,5 +1551,25 @@ pg.voice_actor_CN = {
 	{
 		code = 388,
 		actor_name = "原田瞳"
+	},
+	{
+		code = 389,
+		actor_name = "各务华梨"
+	},
+	{
+		code = 390,
+		actor_name = "佐伯伊织"
+	},
+	{
+		code = 391,
+		actor_name = "深川瑠华"
+	},
+	{
+		code = 392,
+		actor_name = "依田菜津"
+	},
+	{
+		code = 393,
+		actor_name = "佐土原香织"
 	}
 }

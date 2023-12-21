@@ -190,6 +190,10 @@ function slot0.ShouldFadeInPainting(slot0)
 		return false
 	end
 
+	if not slot0:GetFadeInPaintingTime() or slot1 <= 0 then
+		return false
+	end
+
 	return true
 end
 

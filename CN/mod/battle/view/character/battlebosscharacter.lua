@@ -424,3 +424,9 @@ function slot2.AddAimBiasBar(slot0, slot1)
 	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
 	slot0._aimBiarBar:UpdateAimBiasProgress()
 end
+
+function slot2.AddModel(slot0, slot1)
+	uv0.super.AddModel(slot0, slot1)
+
+	slot0._tf.position = slot0._unitData:GetPosition()
+end

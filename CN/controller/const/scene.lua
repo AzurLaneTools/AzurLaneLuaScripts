@@ -110,6 +110,7 @@ SCENE = {
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
 	LIMIT_CHALLENGE = "limit challenge",
+	NEWYEAR_BACKHILL_2024 = "NEWYEAR_BACKHILL_2024",
 	NEWYEAR_SQUARE = "newyear square",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	DAILYLEVEL = "scene dailylevel",
@@ -762,6 +763,10 @@ slot0 = {
 	[SCENE.SENRANKAGURA_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = SenrankaguraBackHillScene
+	end,
+	[SCENE.NEWYEAR_BACKHILL_2024] = function (slot0, slot1)
+		slot0.mediator = BackHillMediatorTemplate
+		slot0.viewComponent = NewYearFestival2024Scene
 	end
 }
 

@@ -95,7 +95,7 @@ function slot0.IsInvincible(slot0)
 	return slot0._attr.isInvincible and slot1 > 0
 end
 
-function slot0.Whosyourdaddy(slot0)
+function slot0.AppendInvincible(slot0)
 	slot0._attr.isInvincible = (slot0._attr.isInvincible or 0) + 1
 end
 

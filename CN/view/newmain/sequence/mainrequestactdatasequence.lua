@@ -6,6 +6,7 @@ function slot0.Execute(slot0, slot1)
 	slot0:RequestColoring()
 	slot0:RequestMetaData()
 	slot0:RequestManualSignAct()
+	slot0:RequestRandomDailyTask()
 	slot1()
 end
 
@@ -73,6 +74,21 @@ function slot0.RequestManualSignAct(slot0)
 			})
 		end
 	end
+end
+
+function slot0.RequestRandomDailyTask(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RANDOM_DAILY_TASK) or slot1:isEnd() then
+		return
+	end
+
+	if pg.TimeMgr.GetInstance():IsSameDay(slot1.data1, pg.TimeMgr.GetInstance():GetServerTime()) then
+		return
+	end
+
+	pg.m02:sendNotification(GAME.ACT_RANDOM_DAILY_TASK, {
+		activity_id = slot1.id,
+		cmd = ActivityConst.RANDOM_DAILY_TASK_OP_RANDOM
+	})
 end
 
 return slot0
