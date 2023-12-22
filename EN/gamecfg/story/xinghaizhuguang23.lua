@@ -9,7 +9,7 @@ return {
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰—————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
-			say = "海域中的战斗仍在继续。",
+			say = "The shipgirls were locked in a fierce battle, only barely holding up the frontline against the swarms of drones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,13 +85,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "星座，你看到了么，所有受损的无人机都飞去后面那个像滚筒一样的船里了。",
+			say = "Constellation, look! Their damaged drones are all landing on that saucer-shaped thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,13 +103,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "星座",
+			actorName = "Constellation",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战场维修中心……我想我明白那艘奇怪军舰的作用了。",
+			say = "Yeah. That must be their repair machine. One more thing I noticed, Guam...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,13 +121,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，你也察觉到异常之处了么？",
+			say = "Oh yeah? What?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,13 +139,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "星座",
+			actorName = "Constellation",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这支舰队格外在意战损。",
+			say = "They're being extremely conservative with their warships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,13 +157,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！",
+			say = "That's all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,13 +175,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在高阶塞壬出现后就已经全力开火，可是至今都没能击落任何一艘船。",
+			say = "You have a point, though. We haven't actually disabled any of their warships, despite hitting them with all we've got.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,13 +193,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明有好几次机会，只要对面敢于追击我们就会出现损伤的，可是它们却将受损的船立刻后撤了。",
+			say = "They retreat back as soon as they get slightly scratched up. Hell, some of the Sirens use themselves as meatshields to protect their warships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,13 +211,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "星座",
+			actorName = "Constellation",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实……这支舰队有点过于在意战损了。",
+			say = "Exactly. For whatever reason, they're going out of their way not to take any losses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,13 +229,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "星座",
+			actorName = "Constellation",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的话，也许可以想办法把它们逼退……",
+			say = "I think we can turn this around if we're able to exploit that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,13 +247,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "集中火力，打一艘！",
+			say = "In other words, focus on one target at a time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,13 +265,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "星座",
+			actorName = "Constellation",
 			bgName = "bg_zhuguang_cg4",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各舰注意，集中火力攻击我标出来的目标！",
+			say = "Correct! Everyone, I'll designate an enemy – focus fire on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1

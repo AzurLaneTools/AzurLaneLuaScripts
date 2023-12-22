@@ -97,10 +97,12 @@ function slot0.TriggerPersonalTask(slot0, slot1)
 		return
 	end
 
-	if getProxy(TaskProxy):GetFlagShipInterActionTask() then
-		pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
-			taskId = slot3.id
-		})
+	if getProxy(TaskProxy):GetFlagShipInterActionTaskList() and #slot3 > 0 then
+		for slot7, slot8 in ipairs(slot3) do
+			pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+				taskId = slot8.id
+			})
+		end
 	end
 
 	for slot7, slot8 in ipairs(pg.task_data_trigger.all) do

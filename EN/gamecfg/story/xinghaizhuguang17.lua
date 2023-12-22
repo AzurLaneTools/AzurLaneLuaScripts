@@ -9,35 +9,35 @@ return {
 			bgm = "theme-ucnf-image",
 			sequence = {
 				{
-					"—第3122次通信联络",
+					"This is Fortress. Correspondence attempt number 3122.",
 					1.5
 				},
 				{
-					"—无回应。",
+					"No response.",
 					3
 				},
 				{
-					"—没想到竟遇到了噩兆，损伤情况如何？",
+					"\"I didn't expect them to run into Harbingers... What's the damage report?\"",
 					4.5
 				},
 				{
-					"—三艘掠食者型中度受损，一艘誓言级轻度受损。",
+					"Three Raptor-class ships were moderately damaged. One Klyatva-class ship was lightly damaged.",
 					6
 				},
 				{
-					"—旗舰「卡拉布里亚之骄傲」护盾系统过载。",
+					"The shields of flagship Calabrian Pride have been overloaded.",
 					7.5
 				},
 				{
-					"—还算可控，启用伊克西翁三号维修受损诸舰。",
+					"\"The situation is still under control. Engage Ixion III to initiate repairs.\"",
 					9
 				},
 				{
-					"—卡拉布里亚的护盾你去亲自处理。",
+					"\"You'll have to handle Calabrian Pride's shields yourself.\"",
 					10.5
 				},
 				{
-					"—真是的，不要开着旗舰冲那么靠前啊。",
+					"\"Really, do they even know what a flagship is? The point isn't for it to rush in at the front.\"",
 					12
 				}
 			}
@@ -47,11 +47,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"—同时，我们周围似乎再次出现了某种时空异常现象。",
+					"I've detected a space-time distortion in the surrounding area.",
 					1.5
 				},
 				{
-					"—我们要回家了？！",
+					"\"Will we be able to go home?!\"",
 					3
 				}
 			}

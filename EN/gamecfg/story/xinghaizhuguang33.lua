@@ -11,11 +11,11 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国·首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"碧蓝航线临时办公楼",
+					"Azur Lane Temporary Command Center",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "加密终端中，收到了星海基地发来的事故报告。",
+			say = "I check my inbox and see a mail from the Sea of Stars. It's an accident report.",
 			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“事故”啊……还真是足够自适应的分类标准。",
+			say = "\"Accident\" could mean anything... I hope it was nothing too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……对方，是自称为联合理事会的舰队么。",
+			say = "...During a data salvage operation, three teams were transported to an unknown simulation, where we encountered an organization called \"the Council.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个理事会的徽记同样在水下密室的行动中见到过。",
+			say = "That emblem... I'm pretty sure I saw it in the Arcana Sanctum with Belorussiya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么说来……那次看到的场景就发生在理事会的会议大厅中了。",
+			say = "So that facility must have been one of theirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而这位「银狐」女士是理事会的常任委员，且知道奥斯塔的存在……",
+			say = "...Their leader went by the codename \"Silver Fox\" and knew who Dr. Aoste was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道安洁和奥斯塔在理事会中任职……？",
+			say = "Interesting. I wonder if both Anzeel and Aoste were fellow members of this \"Council.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我曾经与他们一起，所以我也应该在理事会中任职……？",
+			say = "Since they clearly knew me when we spoke, I might also have been a member.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……还有新的安蒂克丝系统，战争协议。",
+			say = "...A lone Antiochus specimen named \"War Protocol Fortress.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么一直以来从来都没有见过隶属于这个系统的塞壬出现过……",
+			say = "That's a new model of Siren – or should I say, Antiochus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再加上心智魔方上的限制，可控的META化……",
+			say = "Wisdom Cube limiters, a way to control METAmorphosis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不行，脑海中什么信息都没有。",
+			say = "Nope, no pieces are falling into place in my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……明明有些时候这些闪回的记忆会不分时间场合地跳出来。",
+			say = "I suppose new information won't always trigger flashbacks like I've had before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来……每次有这种感觉的时候，都是在特殊的镜面海域中或者星海的模拟世界中……",
+			say = "Come to think of it, the flashbacks have always happened when I'm in a Mirror Sea or in one of the Sea of Stars' simulations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且在星海中的次数最多……",
+			say = "They were even more frequent when I was hooked up to the Reality Lens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个迪贝路所提出的疑问……“银河之心生成的模拟世界在哪里”。",
+			say = "Up next, the question the Devil raised... \"Where are the Sea of Stars' simulations?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "以我的权限能查到的答案里看不出任何异常……",
+			say = "It is odd, and to the best of my knowledge, the Galactic Core didn't malfunction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这支神秘的理事会舰队的存在，或许是揭开一切谜团的关键……",
+			say = "The existence of this \"Council\" and their mysterious fleet... might be the key to everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果能再次见到的话……",
+			say = "Ideally, I'd like to speak with them face to face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是那个信标本身……更像是个充满恶意的惊喜盒子。",
+			say = "If I ever do, I'm going to ask them how that beacon came to be infected with abnormal data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于黑色风暴……也就是「噩兆天象」的事，伊丽莎白还专门发消息警告过其危险性。",
+			say = "Finally, there's the black tornado, or what they called a \"corrosion phenomenon.\" The Northern Parliament and Royal Navy have both reported similar sightings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……信标绝对不能被复原。",
+			say = "...That beacon cannot be allowed to be restored. We'll halt the remaining simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现阶段没有任何激进研究的必要，将研究重心转移回到II型舰装项目中吧……",
+			say = "It's time to shift our focus to developing Type II riggings. We've gathered more than enough testing data to do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

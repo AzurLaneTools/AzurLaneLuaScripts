@@ -9,27 +9,27 @@ return {
 			bgm = "theme-ucnf-image",
 			sequence = {
 				{
-					"—第3129次通信联络。",
+					"This is Fortress. Correspondence attempt number 3122.",
 					1.5
 				},
 				{
-					"—无回应。",
+					"No response.",
 					3
 				},
 				{
-					"—你说，刚才究竟算是怎么回事？",
+					"\"Say, what do you think that all was?\"",
 					4.5
 				},
 				{
-					"—是梦么？",
+					"\"Was it just a dream?\"",
 					6
 				},
 				{
-					"—可以肯定，不是梦。",
+					"It was not. I am confident in saying that.",
 					7.5
 				},
 				{
-					"—也是…毕竟还留了几瓶经典款可乐在冰箱里。",
+					"\"You're right. The cola they gave us is still in the freezer.\"",
 					9
 				}
 			}
@@ -39,35 +39,35 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"—你知道刚才我去给「银狐女士」送可乐的时候…",
+					"\"Funny thing about the cola, actually.\"",
 					1.5
 				},
 				{
-					"—她问了我什么么？",
+					"\"I went to bring a bring a bottle to Ms. Silver Fox. Do you know what she said to me?\"",
 					3
 				},
 				{
-					"—什么？",
+					"What?",
 					4.5
 				},
 				{
-					"—「你相信命运么？」",
+					"\"She said... Princeton, do you believe in fate?\"",
 					6
 				},
 				{
-					"—把我吓了一跳啊…",
+					"\"It was so out of left field I couldn't believe it.\"",
 					7.5
 				},
 				{
-					"—你说…我们能回家的，对吧？",
+					"\"...Fortress, we will see our home again, won't we?\"",
 					9
 				},
 				{
-					"—……",
+					"......",
 					10.5
 				},
 				{
-					"—能。",
+					"Yes.",
 					12
 				}
 			}

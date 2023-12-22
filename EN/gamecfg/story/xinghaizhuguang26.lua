@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "普林斯顿从旗舰返回，已经是一个小时之后的事了。",
+			say = "An hour later, Princeton META returned from her visit to the flagship.",
 			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "抱歉抱歉，让大家久等了！",
+			say = "Sorry, that took longer than I expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,11 +54,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "权限故障的问题解决了？",
+			say = "Was your access issue resolved?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "算…算是吧……和之前的通讯系统一样，暂时出了点故障……让各位见笑了。",
+			say = "Uh, more or less. As embarrassing as it is to admit, it happened because of another malfunction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "天都快黑了，我们开饭吧~",
+			say = "Now, it's pretty late, so shall we have dinner?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "普林斯顿向餐桌走去，随即，一座由零食堆成的小山映入了她的眼帘。",
+			say = "Princeton stood up and suddenly noticed that on the low table behind her, there was a small heap of snacks piled up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,25 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "这个包装是……经典款的可乐？！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 9706030,
-			say = "还有芝士玉米卷……和这么多口味的薯片？！",
+			say = "Is... Is that Oxy-cola Classic?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +141,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "这些……都是你们带的？！",
+			say = "And tortillas, and chips, and fruits, too!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 9706030,
+			say = "Are these all yours?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,11 +173,11 @@ return {
 			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊~你们的食物都是重营养轻口感的军粮，所以我们就翻了翻货仓，拿了些零食来改善生活咯~",
+			say = "Yup. We heard all your food is rations that put shelf life over taste, so we thought we'd bring out some food we took with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "……你们上战场带这些占用货仓位置没问题么？",
+			say = "...You use precious storage space on treats and snacks when you're going into battle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,12 +209,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……其实，我们原本就没做好出门执行任务的准备呀。",
+			say = "(We weren't exactly expecting to go into battle today, so...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,12 +228,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且这些相比海军的伙食标准来说还差得远吧？",
+			say = "Umm, these are things we just grabbed on the fly. Aren't your standard-issue naval MREs a lot more satisfying than this stuff?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,12 +247,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们的舰队应该也算是海军……吧？伙食标准什么时候变成这样了。",
+			say = "Wait... What is that stuff? You guys ARE a formal fighting force, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "……毕竟是军事行动中，只能用合成食品凑活一下了。",
+			say = "*sigh*... We have to settle for synthetic food when we're on active duty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "实话实说……这些零食，我已经有很多年都没吃到过了……",
+			say = "To tell the truth, I don't know how many years since I last had real snacks or fruit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "普林斯顿看向桌子上的罐装可乐，眼中闪烁出一丝光芒。",
+			say = "Princeton looked at the cans of cola with a longing twinkle in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "普林斯顿小姐，不用客气，请喝吧。",
+			say = "Well, now you can have as much as you like. Don't be shy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,11 +331,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "零食和可乐我们要多少有多少哦。",
+			say = "There is more than enough to go around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "真的么……那我就不客气了！",
+			say = "Really? Oh, man! Don't mind if I do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "呼啊……就应该是这个味道……！",
+			say = "Phew! That hits the spot! I've missed this taste!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "果然配方变了之后，再怎么试图还原，味道都会有差别呢。",
+			say = "I've tried again and again to replicate it ever since they changed the recipe, but I never got it right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,11 +420,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么要变可乐的配方呢？",
+			say = "They changed Oxy-cola's recipe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "唉……可乐原本的配方在大战中遗失了啊。",
+			say = "Yeah... If only the recipe hadn't been lost in the war...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,12 +456,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大战……？",
+			say = "The war...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "糟糕……咳，没什么！没什么！",
+			say = "Err! I misspoke! There was no war!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,12 +493,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然……你被封口了啊。",
+			say = "You're not allowed to speak about it, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "不愧是星座小姐，真是瞒不过你……",
+			say = "...Yeah. No use in trying to hide it from you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "我们的舰队之中有一位超级厉害的科学家。",
+			say = "See, we have this brilliant scientist on board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "她刚才跟我说，在遭遇异常时空现象的时候需要格外慎重。",
+			say = "She told me you have to be very cautious when dealing with a space-time anomaly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "为了避免蝴蝶效应，我能够回答和提问的内容都被她做了严格的限制。",
+			say = "Anything I do could have a butterfly effect, so the range of things I can discuss with you is extremely limited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,12 +584,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这位科学家，难道就是旗舰里的那位 「银狐」女士？",
+			say = "Is this scientist \"Ms. Silver Fox,\" by any chance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "咳……「银狐」女士向诸位表达问候。堡垒，将旗舰上的通讯接过来吧。",
+			say = "Well, it looks like the lady herself wants to greet you. Fortress, reroute the comms lines to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,8 +640,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "战争协议-堡垒",
-			say = "通讯转接中——",
+			actorName = "War Protocol Fortress",
+			say = "Understood. Rerouting now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,8 +653,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "各位旅人，初次见面，我是理事会的常任委员之一，你们叫我「银狐」就好。",
+			actorName = "Silver Fox",
+			say = "Rad vstreche, travelers. I am Silver Fox, a member of the Council.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,11 +664,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「银狐」这个名字应该是行动中的代号吧？想必是因为您拥有一头银发，且狡黠如狐？",
+			say = "Is that a codename? Are you silver like the color of your hair, and a fox because you're as cunning as one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,8 +684,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "呵呵，是代号。这个代号不是我自己起的，所以狐的意思我也不好说，不过银的意思你没猜错。",
+			actorName = "Silver Fox",
+			say = "I didn't choose this codename, so I can't say if the fox part is accurate or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,8 +697,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "是的，我有一头银发。",
+			actorName = "Silver Fox",
+			say = "However, yes, the silver part is because of my hair color.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,11 +708,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知能否和您当面交谈？",
+			say = "Ah. If I may ask, would it be possible for us to speak to you in person?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,8 +728,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "我所在的时代……我所注视过的时代，对于你们来说并不是一个美好的时代。",
+			actorName = "Silver Fox",
+			say = "Unfortunately, no. The world I inhabit – the world I have seen – is not a good place for you to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,8 +741,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "所以出于谨慎考虑，我们最好不要见面。",
+			actorName = "Silver Fox",
+			say = "For a myriad of reasons, it's best that we don't meet face to face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,8 +754,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "当然，彼此间最好也不要再继续相互套话了，这样才最为稳妥。",
+			actorName = "Silver Fox",
+			say = "Furthermore, we should refrain from learning too much about each other in order to minimize the impact on the space-time continuum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,11 +765,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「银狐」女士，你相信命运的存在么？",
+			say = "I see... Sorry for the sudden question, but do you believe in fate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,8 +785,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "命运，如果你指的是“宇宙之中有一个至高无上的存在，早已为每个人编织好了固定的轨迹”这个定义的话——",
+			actorName = "Silver Fox",
+			say = "Do I believe in an omnipresent entity that has determined a course for everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,8 +798,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "我不信。",
+			actorName = "Silver Fox",
+			say = "No, I do not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,12 +809,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那在偶然之中，由生命的轨迹之间碰撞诞生出的奇迹呢？",
+			say = "Okay, then what do you think about miracles that occur by happenstance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,8 +830,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "这种事倒偶尔会出现，但是和命运的概念相差甚远吧？",
+			actorName = "Silver Fox",
+			say = "Philosophy is not my specialty. Does this tie into your previous question about fate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,12 +841,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在出发之前进行了占卜，占卜结果显示，我的此行一定会有收获。",
+			say = "I do horoscope reading as a hobby. Some people dismiss it as just confirmation bias, of course...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,12 +860,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后我们就相遇了。",
+			say = "But I divined multiple times today, and the result was the same each time: \"things will go well for you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,68 +879,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是一场事先无人知晓的偶然碰撞，但是宛如命运注定一般，不是么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 900403,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "占卜命运的人，也掌握着对于命运的解释权。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 900403,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "在遇到我们之前，你们还经历了一连串的事故，甚至和同伴都失散了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 900403,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "当时，你又是怎么看待这次占卜结果的呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 104010,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "关于这一点……",
+			say = "You can chalk that up to random chance, sure, but I believe in miracles even so.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,8 +899,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "而且，使我们相遇的原因不是单纯的偶然，而是——理事会信标。",
+			actorName = "Silver Fox",
+			say = "You're describing a self-fulfilling prophecy. You believe in fate, so you only give weight to things that go in your favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,8 +912,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "这个信标不但遭受了物理损坏，其中残存的数据也遭受了污染。",
+			actorName = "Silver Fox",
+			say = "Let's not forget that you ran into trouble before you arrived here, and also got separated from a friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,8 +925,26 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "我已经开始尝试修复和净化，但是不能保证结果。",
+			actorName = "Silver Fox",
+			say = "Do you really consider those among the things that \"went well\" for you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 104010,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "Data Retrieval Department",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I mean...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,8 +956,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "仅从现有的情报来看，这次相遇虽然有偶然的成分，但也有一丝被安排的气息。",
+			actorName = "Silver Fox",
+			say = "Furthermore, even the things you think are positive may not be so in reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,8 +969,47 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "我还需要更多的信息以得出结论。",
+			actorName = "Silver Fox",
+			say = "The beacon you found was not only physically damaged, but also the data within it has been corroded by X.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 900403,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actorName = "Silver Fox",
+			say = "While we are repairing and purifying it, it may turn out to be beyond salvaging.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 900403,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actorName = "Silver Fox",
+			say = "Now, let's finally consider the possibility that our meeting was no work of fate, no miracle, no coincidence.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 900403,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actorName = "Silver Fox",
+			say = "You were drawn to the beacon because your equipment pointed you to it. So did ours. We simply headed toward the same point independently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,12 +1019,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这一点，我们也一样。",
+			say = "...I suppose you're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1038,11 +1038,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个信标中或许隐藏着能够让我们回家的线索。",
+			say = "I can only hope and pray your repairs go well. That beacon may be our key to getting home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,8 +1058,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "回家……么。",
+			actorName = "Silver Fox",
+			say = "Getting home... Yes, perhaps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,12 +1069,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以还是让我们放下虚无缥缈的担忧，着眼于当下吧。",
+			say = "As you said, it's probably for the best if we don't ask each other big questions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,11 +1088,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们都有想要从对方身上把握的情报，不是么？",
+			say = "But, I'd hate to completely pass on this golden opportunity. Can't we just ask a few questions and no more than that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,8 +1108,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "是，但我不想冒险。",
+			actorName = "Silver Fox",
+			say = "Only if they're benign. I do not want to take any risks here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,12 +1119,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……你这个人好固执啊。",
+			say = "Gosh, you're quite insistent...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,8 +1140,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "呵呵，我也常被人这么说呢。",
+			actorName = "Silver Fox",
+			say = "That I am. People often say I'm a risk-averse person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,12 +1151,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不这样好了，我们用游戏的方式来解决？",
+			say = "Seeing as serious questions are off the table, why don't we have some fun with the format?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1172,8 +1172,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "游戏？",
+			actorName = "Silver Fox",
+			say = "What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,12 +1183,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~问答游戏。我们提问，你来回答。",
+			say = "By turning it into a quiz!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,12 +1202,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "面对我们的提问，你可以选择回答或是拒绝回答。",
+			say = "It's simple – we'll start by asking a few questions. If you can't answer them, that's totally fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1221,12 +1221,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在你回答完之后，就可以向我们提问。",
+			say = "Then when our turn is over, YOU get to ask US questions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,12 +1240,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你回答了多少个问题，我们回答你多少问题。",
+			say = "And the amount of questions you can ask is the same as the amount of our questions you answered, and on top of that, we'll answer ANY question no matter what!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1259,11 +1259,11 @@ return {
 			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一来主动权就完全掌握在你手里，你可以仔细把控情报交换的内容~",
+			say = "This way, the initiative is all yours. You can control how much or how little information we exchange.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1277,12 +1277,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如何，要来玩这个游戏么？",
+			say = "How's that? Sounds like a good arrangement, doesn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1298,8 +1298,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "……",
+			actorName = "Silver Fox",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1311,8 +1311,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "既然是游戏，总需要一个结束的方式。",
+			actorName = "Silver Fox",
+			say = "You really thought this through. Alright, I'll bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,8 +1324,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "你们有六个人，那就以六个问题为限吧。",
+			actorName = "Silver Fox",
+			say = "Let's say you can ask up to six questions. One for each of you, including your Princeton.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1335,12 +1335,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "成交~",
+			say = "Gotcha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1354,11 +1354,11 @@ return {
 			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个规则……关岛，你偶尔也能想出不错的点子啊。",
+			say = "(Nice quick thinking, Guam!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1372,11 +1372,11 @@ return {
 			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，别小看美少女艺人的力量哦☆~",
+			say = "(Heh. Good improv skills are a must in my line of work!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1392,8 +1392,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "不过——提问游戏要等一会再说了。",
+			actorName = "Silver Fox",
+			say = "...It seems we'll have to postpone that quiz for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1405,8 +1405,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "……「噩兆天象」，也就是你们所说的黑色风暴出现了。",
+			actorName = "Silver Fox",
+			say = "A corrosion phenomenon – or \"black tornado,\" as you call it – has appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1416,12 +1416,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道说……居然顺着信标追过来了？",
+			say = "Oh, dear. Do you think the beacon attracted it, like how it attracted us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1435,12 +1435,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "Data Retrieval Department",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是穷追不舍，阴魂不散……",
+			say = "We're dealing with a stubborn storm, eh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1458,7 +1458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "堡垒，你专注于保护基地，我带舰队去处理。",
+			say = "Fortress, defend the base. I'll take the fleet and deal with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,12 +1472,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "Special Operations Force",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也让我们来帮忙吧~！",
+			say = "Let us at 'em, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1495,7 +1495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "「银狐」女士，可以带她们一起去么？",
+			say = "Ms. Silver Fox, do we let them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1511,8 +1511,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「银狐」女士",
-			say = "去吧。",
+			actorName = "Silver Fox",
+			say = "Yes. Go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1526,7 +1526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "好。大家跟我来，准备战斗！",
+			say = "Okay. Everyone, prepare for battle and follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1

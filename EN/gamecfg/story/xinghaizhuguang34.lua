@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "阿瓦隆之门·卡美洛之庭",
+			say = "Inside the Camelot Mirror Sea...",
 			bgm = "theme-camelot-up",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官刚刚发来的“汇总”——通过指挥官自己的私人渠道，随心所欲看吧。",
+			say = "I've received a report summary from my servant through my private channel. There is no risk of Naval HQ finding out, so you should read it too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这个是……在星海之中遭遇了「噩兆天象」？",
+			say = "My word... They encountered a corrosion phenomenon in the Sea of Stars?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "正如我所料，噩兆正在蔓延。",
+			say = "This means our prediction has come true. The corrosion has reached your branch now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不过这个指挥官人倒是挺实在，连这种高度机密的事都愿意与你分享。",
+			say = "Thank goodness your servant is so communicative and willing to share confidential matters with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不像某些人，藏着的事估计写满三个笔记本都记不完。",
+			say = "Unlike a certain someone who refuses to share much of anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你内涵我就是内涵你自己……你不是很清楚么，知道真相不一定是好事。",
+			say = "Shut up. To mock me is to mock yourself. We both know that knowing too much is not a good thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王烦了，剩下要改建的都是你要使用的区域了。",
+			say = "I've had it. Renovate these remaining areas yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些你自己来弄，本王不懂。",
+			say = "I don't know what to do with them, and it's you who's going to use them anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "行行行，好好好~",
+			say = "Heehee. Fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不过这些还不急，有一件更重要的事。",
+			say = "But they won't be done in a day, and there's one more important thing we have to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "你这几天有空来一次郊游么？",
+			say = "What do you say we have a picnic, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "——是时候向你介绍一下「D小姐」了。",
+			say = "It's time we introduced Ms. D to you, and a little outing is a great way to do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

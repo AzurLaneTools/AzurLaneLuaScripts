@@ -393,20 +393,28 @@ function slot0.triggerClientTasks(slot0)
 	return slot1
 end
 
-function slot0.GetBackYardInterActionTask(slot0)
-	for slot4, slot5 in pairs(slot0.data) do
-		if slot5:IsBackYardInterActionType() then
-			return slot5
+function slot0.GetBackYardInterActionTaskList(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:IsBackYardInterActionType() then
+			table.insert(slot1, slot6)
 		end
 	end
+
+	return slot1
 end
 
-function slot0.GetFlagShipInterActionTask(slot0)
-	for slot4, slot5 in pairs(slot0.data) do
-		if slot5:IsFlagShipInterActionType() then
-			return slot5
+function slot0.GetFlagShipInterActionTaskList(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:IsFlagShipInterActionType() then
+			table.insert(slot1, slot6)
 		end
 	end
+
+	return slot1
 end
 
 return slot0

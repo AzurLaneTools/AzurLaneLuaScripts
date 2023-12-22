@@ -247,10 +247,12 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 		slot0.viewComponent:BlockEvents()
 	elseif slot1 == CourtYardEvent._DRAG_ITEM_END then
 		slot0.viewComponent:UnBlockEvents()
-	elseif slot1 == CourtYardEvent._TOUCH_SHIP and getProxy(TaskProxy):GetBackYardInterActionTask() then
-		pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
-			taskId = slot4.id
-		})
+	elseif slot1 == CourtYardEvent._TOUCH_SHIP and getProxy(TaskProxy):GetBackYardInterActionTaskList() and #slot4 > 0 then
+		for slot8, slot9 in ipairs(slot4) do
+			pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+				taskId = slot9.id
+			})
+		end
 	end
 end
 

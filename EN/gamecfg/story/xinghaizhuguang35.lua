@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "北方联合·某处设施",
+			say = "Somewhere, in the Northern Parliament...",
 			bgm = "battle-deepecho",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，苏维埃同盟正躺在大厅中央的某个机械装置中。",
+			say = "Sovetsky Soyuz lay silently on a machine at the center of a large chamber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她舰装上的龙头已经被取下，其余部分也进行了最大限度的拆除。",
+			say = "Her rigging was stripped down to its base, its shark-like heads having been detached along with all removable auxiliary weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "灵敏，契卡洛夫，检查结果如何？",
+			say = "Soobrazitelny, Chkalov, what are the test results?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "……结论依旧是，存在损坏，原因不明。",
+			say = "...The same, in the end. Damage present, cause unknown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "真是奇怪……我原本以为这次舰装升级一定能成功呢。",
+			say = "I was so sure it was going to succeed this time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "毕竟之前经过那么多次测试都没问题……",
+			say = "There were no issues whatsoever during testing, yet here we are. It boggles my genius mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是在「陆上神国」事件中，经过与迪洛伊的高强度战斗。",
+			say = "Hmm. You did directly engage Gazers during the World Expo incident, Comrade Soyuz.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "……最后还是和之前一样，出现了不可逆的损伤。",
+			say = "They must've inflicted unrepairable damage to you, just like long ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "或许……是同盟同志的心智魔方里存在某种固有限制。",
+			say = "Alternatively, you were born with a limitation on your hull. A limitation even I am unable to identify.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "……导致其无论如何都无法与新型舰装兼容，只能使用旧式舰装？",
+			say = "Whatever it is, I think it renders you incapable of using a new rigging. You are stuck with your old one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "我也怀疑这一点，但是没有证据。",
+			say = "I think Ms. Mechanic here is onto something, even if there's nothing to support her theory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "现在我们还是先着眼于改善制作材料这一点吧。",
+			say = "Without knowing the root of the issue, there's nothing we can do. I say we instead focus on improving the material of your weaponry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望安塔提卡研究所那边的开采研究工作能有所突破。",
+			say = "Let's hope the research team in the Antarctic will have a breakthrough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这部分的研究就交给你们了。",
+			say = "I trust you with the research side of things.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -269,7 +269,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至少这次的舰装耐久度已经足够应付常规战斗了。",
+			say = "At the very least, I'll be able to weather the stress of regular combat with these new modifications.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			say = "就按照此前的配置方案再给我换一身新的吧。",
+			say = "Proceed with the proposal.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -304,7 +304,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在时局飘摇，我必须尽快恢复战斗能力才行——",
+			say = "The world is in a precarious situation and I need to regain my fighting ability as soon as possible.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
