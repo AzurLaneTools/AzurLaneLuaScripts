@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "是您在PH港附近遭遇{namecode:93}·META时协助您与{namecode:199}作战的人那位海伦娜·META么？！",
+			say = "是您在PH港附近遭遇蒼龍·META時協助您與紐澤西作戰的人那位海倫娜·META嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1

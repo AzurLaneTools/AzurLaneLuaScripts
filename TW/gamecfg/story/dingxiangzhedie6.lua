@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……約克鎮，妳這一連串的備忘錄，都是妳要買的紀念品媽……？",
+			say = "啊……約克鎮，妳這一連串的備忘錄，都是妳要買的紀念品嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

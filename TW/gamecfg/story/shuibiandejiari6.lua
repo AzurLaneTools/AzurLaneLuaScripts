@@ -338,7 +338,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是往这边走吧。那边人比较多，要是遇到{namecode:49}或者{namecode:226}，肯定会被捉弄的……",
+			say = "還是往這邊走吧。那邊人比較多，要是遇到阿賀野或酒匂，一定會被捉弄的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
