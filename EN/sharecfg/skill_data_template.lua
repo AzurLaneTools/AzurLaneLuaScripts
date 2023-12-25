@@ -85186,7 +85186,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 		id = 17310,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts, if this ship has Eagle Union gear or weapons equipped: gains a $1 special anti-air barrage and decreases this ship's DMG taken from aircraft by $2.\nFor every 2 enemy aircraft shot down within your fleet's Anti-Air Gun range: increases this ship's AA by $3 (can be stacked up to 3 times) and this ship gains 1 stack of Motivation.\nWhen a total of 9 enemy aircraft have been shot down within your fleet's Anti-Air Gun Range: increases the recovery speed of your Main Fleet Eagle Union ships' Detection Gauge by 1 until the battle ends; once per battle, if your Flagship is an Eagle Union ship, also sets that ship's Detection Gauge value to 0 after 10s.",
+		desc = "When the battle starts, if this ship has Eagle Union gear or weapons equipped: gains a $1 special AA gun and decreases this ship's DMG taken from aircraft by $2.\nFor every 2 enemy aircraft shot down within your fleet's Anti-Air Range: increases this ship's AA by $3 (can be stacked up to 3 times) and this ship gains 1 stack of Motivation.\nWhen a total of 9 enemy aircraft have been shot down within your fleet's Anti-Air Range: increases the recovery speed of your Main Fleet Eagle Union ships' Detection Gauge by 1 until the battle ends; once per battle, if your Flagship is an Eagle Union ship, also sets that ship's Detection Gauge value to 0 after 10s.",
 		system_transform = {},
 		world_death_mark = {
 			1
