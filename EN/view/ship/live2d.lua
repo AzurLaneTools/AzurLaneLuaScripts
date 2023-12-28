@@ -9,6 +9,7 @@ slot4 = 0.3
 slot0.DRAG_TIME_ACTION = 1
 slot0.DRAG_CLICK_ACTION = 2
 slot0.DRAG_DOWN_ACTION = 3
+slot0.DRAG_RELATION_XY = 4
 slot0.EVENT_ACTION_APPLY = "event action apply"
 slot0.EVENT_ACTION_ABLE = "event action able"
 slot5 = {
@@ -73,14 +74,20 @@ end
 
 function slot8(slot0, slot1)
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
+		warning(tostring(slot1) .. "不在白名单中,不播放该动作")
+
 		return false
 	end
 
 	if slot0.ignorePlayActions and #slot0.ignorePlayActions > 0 and table.contains(slot0.ignorePlayActions, slot1) then
+		warning(tostring(slot1) .. "在黑名单中，不播放该动作")
+
 		return false
 	end
 
 	if slot0._readlyToStop then
+		print("l2d即将停止，不播放该动作")
+
 		return false
 	end
 
@@ -139,8 +146,6 @@ function slot11(slot0, slot1, slot2)
 			slot4()
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
-		print("able flag change " .. tostring(slot2.ableFlag))
-
 		if slot0.ableFlag ~= slot2.ableFlag then
 			slot0.ableFlag = slot2.ableFlag
 
@@ -178,15 +183,20 @@ function slot12(slot0)
 		slot0.drags[slot6]:changeReactValue(slot2)
 		slot0.drags[slot6]:stepParameter()
 
-		slot8 = slot0.drags[slot6]:getParameter()
-		slot9 = slot0.drags[slot6].parameterUpdateFlag
-
-		if (slot0.drags[slot6]:getParameToTargetFlag() or slot0.drags[slot6].active) and slot0.drags[slot6]:getIgnoreReact() then
+		if (slot0.drags[slot6]:getParameToTargetFlag() or slot0.drags[slot6]:getActive()) and slot0.drags[slot6]:getIgnoreReact() then
 			slot1 = true
 		end
 
-		if slot8 and slot9 then
-			slot0.liveCom:ChangeParameterData(slot0.drags[slot6].parameterCom, slot8)
+		slot9 = slot0.drags[slot6]:getParameterUpdateFlag()
+
+		if slot0.drags[slot6]:getParameter() and slot9 and slot0.drags[slot6]:getParameterCom() then
+			slot0.liveCom:ChangeParameterData(slot10, slot8)
+		end
+
+		for slot14, slot15 in ipairs(slot0.drags[slot6]:getRelationParameterList()) do
+			if slot15.enable then
+				slot0.liveCom:ChangeParameterData(slot15.com, slot15.value)
+			end
 		end
 	end
 
@@ -216,22 +226,27 @@ function slot13(slot0)
 
 	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
 		if pg.ship_l2d[slot5] and slot0:getDragEnable(slot6) then
-			if slot0.liveCom:GetCubismParameter(slot6.parameter) then
-				slot9 = Live2dDrag.New(slot6)
+			slot8 = Live2dDrag.New(slot6)
 
-				slot9:setParameterCom(slot8)
-				slot9:setEventCallback(function (slot0, slot1)
-					uv0(uv1, slot0, slot1)
-				end)
-				print(slot9.parameterName)
-				slot0.liveCom:AddParameterValue(slot9.parameterName, slot9.startValue, uv2[slot6.mode])
-				table.insert(slot0.drags, slot9)
+			slot8:setParameterCom(slot0.liveCom:GetCubismParameter(slot6.parameter))
+			slot8:setEventCallback(function (slot0, slot1)
+				uv0(uv1, slot0, slot1)
+			end)
+			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv2[slot6.mode])
 
-				if not table.contains(slot0.dragParts, slot9.drawAbleName) then
-					table.insert(slot0.dragParts, slot9.drawAbleName)
+			if slot6.relation_parameter and slot6.relation_parameter.list then
+				for slot14, slot15 in ipairs(slot6.relation_parameter.list) do
+					if slot0.liveCom:GetCubismParameter(slot15.name) then
+						slot8:addRelationComData(slot16, slot15)
+						slot0.liveCom:AddParameterValue(slot15.name, slot15.start or slot8.startValue or 0, uv2[slot6.mode])
+					end
 				end
-			else
-				print(slot6.parameter .. "找不到这个参数")
+			end
+
+			table.insert(slot0.drags, slot8)
+
+			if not table.contains(slot0.dragParts, slot8.drawAbleName) then
+				table.insert(slot0.dragParts, slot8.drawAbleName)
 			end
 		end
 	end
@@ -547,10 +562,6 @@ function slot0.changeIdleIndex(slot0, slot1)
 	end
 
 	print("now idle index is " .. slot1)
-
-	if slot0._animator == nil then
-		return
-	end
 
 	slot0.idleIndex = slot1
 

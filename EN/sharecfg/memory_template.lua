@@ -2714,6 +2714,9 @@ pg.memory_template = setmetatable({
 		3273,
 		3274,
 		3275,
+		3281,
+		3282,
+		3283,
 		10011,
 		10012,
 		10013,
@@ -32605,6 +32608,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE4",
 		id = 3275,
 		icon = "memory_xuancaibinfenye",
+		is_open = 0
+	},
+	[3281] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "All-Night Charge",
+		condition = "Complete Kearsarge's Vignette in \"Resplendent Night II\"",
+		story = "SHISHANGTEKANHEDINGJISAN1",
+		id = 3281,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3282] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Delirious Duel",
+		condition = "Complete Hindenburg's Vignette in \"Resplendent Night II\"",
+		story = "SHISHANGTEKANHEDINGJISAN2",
+		id = 3282,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3283] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Diligent Domestic Discipline",
+		condition = "Complete Kazagumo's Vignette in \"Resplendent Night II\"",
+		story = "SHISHANGTEKANHEDINGJISAN3",
+		id = 3283,
+		icon = "memory_shishangtekanhedingji3",
 		is_open = 0
 	},
 	[10011] = {

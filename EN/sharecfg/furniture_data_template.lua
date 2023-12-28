@@ -174,6 +174,7 @@ pg.furniture_data_template = setmetatable({
 			100042,
 			100043,
 			100044,
+			100045,
 			100047,
 			200001,
 			200002,
@@ -5140,6 +5141,7 @@ pg.furniture_data_template = setmetatable({
 			100042,
 			100043,
 			100044,
+			100045,
 			100047,
 			31101,
 			54104,
@@ -6075,6 +6077,7 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100043,
 			100044,
+			100045,
 			100047
 		},
 		[2] = {
@@ -8861,6 +8864,7 @@ pg.furniture_data_template = setmetatable({
 		100042,
 		100043,
 		100044,
+		100045,
 		100047,
 		200001,
 		200002,
@@ -20695,6 +20699,57 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100045] = {
+		effect = "",
+		name = "Manjuu Sauna",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't forget the sauna whisks! Nothing beats a good whipping after a steam bath.",
+		tag = 6,
+		icon = "sangnaluicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100045,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sangnalu",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"houzhai_sangna",
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},

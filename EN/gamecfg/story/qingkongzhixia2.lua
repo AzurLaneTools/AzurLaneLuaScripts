@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			actorName = "Queen Elizabeth META",
 			bgm = "theme-shallowoftheworld",
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "This is quite an interesting defensive device you've built.",
 			painting = {
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "It's alright. They can't hear us, only you can.",
 			painting = {
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "We must say, you are impressive, other Elizabeth. In just the span of a few weeks, you've already come this far.",
 			painting = {
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "That being said, what you have now won't be nearly sufficient for the disaster you are soon to face.",
 			painting = {
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "It's shocking that what happened in the Mediterranean happened at all, considering how scientifically primitive your branch is.",
 			painting = {
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "The light released by that multilayering event was so intense that we could detect it even in our branch.",
 			painting = {
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "It's for that reason we can confidently say your world is being targeted by a danger of even greater magnitude.",
 			painting = {
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "Ordinarily, the Sirens would have initiated the branch reset process by now, but they haven't. That concerns us.",
 			painting = {
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "Perhaps their lack of response isn't a fluke. Perhaps they've decided that your branch is beyond saving.",
 			painting = {
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "Let us remind you that we have the ability to relocate your branch's Royal Navy and all its allies, associates, and resources to a new, safe branch.",
 			painting = {
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "If we were you, we'd stop wasting our time and work out an evacuation plan.",
 			painting = {
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "Excuse us? It was you who wanted an alliance, not we.",
 			painting = {

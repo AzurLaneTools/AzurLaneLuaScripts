@@ -1636,6 +1636,8 @@ function slot9.UpdateBlindInvisibleBySpectre(slot0)
 
 	if slot2 <= uv0.SPECTRE_UNIT_TYPE and slot2 ~= uv0.VISIBLE_SPECTRE_UNIT_TYPE then
 		slot0:SetBlindInvisible(true)
+	else
+		slot0:SetBlindInvisible(false)
 	end
 end
 

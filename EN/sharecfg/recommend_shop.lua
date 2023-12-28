@@ -107,7 +107,40 @@ pg.recommend_shop = {
 			}
 		}
 	},
-	[6] = {
+	{
+		shop_id = 63,
+		shop_type = 1,
+		id = 5,
+		pic = "",
+		order = 1,
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		shop_id = 57,
 		shop_type = 1,
 		id = 6,
@@ -140,7 +173,7 @@ pg.recommend_shop = {
 			}
 		}
 	},
-	[7] = {
+	{
 		shop_id = 60428,
 		shop_type = 2,
 		id = 7,
@@ -178,6 +211,7 @@ pg.recommend_shop = {
 		2,
 		3,
 		4,
+		5,
 		6,
 		7
 	}

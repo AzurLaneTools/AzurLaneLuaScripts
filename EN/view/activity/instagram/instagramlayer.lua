@@ -47,6 +47,7 @@ function slot0.init(slot0)
 	slot0.scroll = slot0:findTF("main/right_panel/center/bottom/scroll")
 	slot0.sprites = {}
 	slot0.timers = {}
+	slot0.toDownloadList = {}
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
@@ -73,6 +74,10 @@ function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
 		slot6 = slot0.downloadmgr
 
 		slot6:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+			if uv0.exited then
+				return
+			end
+
 			if not uv0.sprites then
 				return
 			end
@@ -85,6 +90,7 @@ function slot0.SetImageByUrl(slot0, slot1, slot2, slot3)
 				uv3()
 			end
 		end))
+		table.insert(slot0.toDownloadList, slot1)
 	end
 end
 
@@ -361,6 +367,14 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	slot1 = ipairs
+	slot2 = slot0.toDownloadList or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		slot0.downloadmgr:StopLoader(slot5)
+	end
+
+	slot0.toDownloadList = {}
 	slot4 = pg.UIMgr.GetInstance()._normalUIMain
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)

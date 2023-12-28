@@ -2499,6 +2499,8 @@ pg.skill_data_display = setmetatable({
 		600090,
 		600091,
 		600092,
+		600100,
+		600102,
 		800010,
 		800020,
 		800021,
@@ -12851,6 +12853,14 @@ pg.base.skill_data_display = {
 	[600092] = {
 		id = 600092,
 		name = "Charging Fury"
+	},
+	[600100] = {
+		id = 600100,
+		name = "Morning Star's Light"
+	},
+	[600102] = {
+		id = 600102,
+		name = "Darkness of Dawn"
 	},
 	[800010] = {
 		id = 800010,

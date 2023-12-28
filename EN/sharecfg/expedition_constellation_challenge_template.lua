@@ -609,6 +609,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10022] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10022,
+		dungeon_id = 5124,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>40.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>30</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>20.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+			},
+			{
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>0.5%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>0.5%</color> of its max HP every 20s."
+			}
+		},
+		award_display = {
+			{
+				14,
+				208,
+				1
+			}
+		}
+	},
+	[10023] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10023,
+		dungeon_id = 5123,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>60.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>50</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>40.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+			},
+			{
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>0.75%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>0.75%</color> of its max HP every 20s."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10008,
+				1
+			}
+		}
+	},
+	[10024] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10024,
+		dungeon_id = 5122,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>80.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>70</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>60.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+			},
+			{
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>1.0%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>1.0%</color> of its max HP every 20s."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10008,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -630,6 +717,9 @@ pg.expedition_constellation_challenge_template = {
 		10018,
 		10019,
 		10020,
-		10021
+		10021,
+		10022,
+		10023,
+		10024
 	}
 }

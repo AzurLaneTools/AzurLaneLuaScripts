@@ -169,6 +169,7 @@ pg.memory_group = setmetatable({
 		269,
 		270,
 		271,
+		272,
 		501,
 		502,
 		503,
@@ -4050,6 +4051,19 @@ pg.base.memory_group = {
 			3273,
 			3274,
 			3275
+		}
+	},
+	[272] = {
+		id = 272,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5150,
+		title = "Port Fashion Collection: Resplendent Night II",
+		memories = {
+			3281,
+			3282,
+			3283
 		}
 	},
 	[501] = {
