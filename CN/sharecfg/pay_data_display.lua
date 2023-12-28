@@ -6019,13 +6019,13 @@ pg.base.pay_data_display = {
 		}
 	},
 	[63] = {
-		subject = "绚烂缤纷夜福袋·II",
+		subject = "绚烂缤纷夜福袋·Ⅱ",
 		limit_group = 0,
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
 		limit_arg = 1,
-		name = "绚烂缤纷夜福袋·II",
-		name_display = "绚烂缤纷夜福袋·II",
+		name = "绚烂缤纷夜福袋·Ⅱ",
+		name_display = "绚烂缤纷夜福袋·Ⅱ",
 		type_order = 2,
 		extra_gem = 0,
 		id = 63,
@@ -6132,13 +6132,13 @@ pg.base.pay_data_display = {
 		}
 	},
 	[64] = {
-		subject = "2023泳装礼盒·II复刻",
+		subject = "2023泳装礼盒·Ⅱ复刻",
 		limit_group = 0,
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
 		limit_arg = 1,
-		name = "2023泳装礼盒·II复刻",
-		name_display = "2023泳装礼盒·II复刻",
+		name = "2023泳装礼盒·Ⅱ复刻",
+		name_display = "2023泳装礼盒·Ⅱ复刻",
 		type_order = 2,
 		extra_gem = 0,
 		id = 64,
