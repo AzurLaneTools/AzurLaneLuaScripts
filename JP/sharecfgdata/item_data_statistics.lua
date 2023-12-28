@@ -221208,6 +221208,30 @@ _G.pg.base.item_data_statistics[59517] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59518] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2024.1.10メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2024.1.10まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59518,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -239763,6 +239787,66 @@ _G.pg.base.item_data_statistics[81200] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[81201] = {
+	display = "ランダムな（母港ナイト②の）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "新年福袋2024②",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai10",
+	id = 81201,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			86201,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "ランダム新年2024衣装①",
@@ -239820,6 +239904,59 @@ _G.pg.base.item_data_statistics[86200] = {
 		{
 			401352,
 			1400
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[86201] = {
+	display = "不会被看到",
+	name = "ランダム新年2024衣装②",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86201,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
 		}
 	}
 }

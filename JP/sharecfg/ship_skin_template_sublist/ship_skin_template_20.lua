@@ -1,6 +1,214 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[10800110] = {
+		ship_group = 1080011,
+		name = "特殊装備",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gulite_robot4",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10800110,
+		voice_actor_2 = -1,
+		prefab = "gulite_robot4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "特殊装備・効果",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					0.86,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10800120] = {
+		ship_group = 1080012,
+		name = "特殊装備",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gulite_robot1",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10800120,
+		voice_actor_2 = -1,
+		prefab = "gulite_robot1",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "特殊装備・効果",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					0.86,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10900010] = {
 		ship_group = 1090001,
 		name = "ライザリン・シュタウト",
@@ -11199,6 +11407,193 @@ pg.base.ship_skin_template_20 = {
 			}
 		}
 	},
+	[199041] = {
+		ship_group = 19904,
+		name = "オールナイト・チャージ",
+		l2d_se = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		shop_id = 70956,
+		desc = "指揮官へのパフォーマンスを兼ねてのスーツ、具現化されたあなたの混合空想（ハイブリッド・イマジン）、それが今の私――オーダーとリクエスト、いつでもどうぞ",
+		group_index = 1,
+		bg_sp = "1102",
+		painting = "qiershazhi_2",
+		gyro = 0,
+		rarity_bg = "",
+		prefab = "qiershazhi_2",
+		shop_type_id = 16,
+		main_UI_FX = "",
+		l2d_drag_rate = "",
+		lip_smoothing = 0,
+		time = "",
+		illustrator = 1,
+		l2d_ignore_drag = 0,
+		bg = "145",
+		voice_actor = 371,
+		l2d_para_range = "",
+		spine_action_offset = false,
+		lip_sync_gain = 0,
+		skin_type = 0,
+		show_skin = "stand",
+		id = 199041,
+		voice_actor_2 = -1,
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-180,
+			180,
+			0
+		},
+		live2d_offset_profile = {
+			0,
+			50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.58,
+					0.62,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.23,
+							2.29,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			{
+				-35,
+				-1062,
+				0
+			},
+			{
+				0.85
+			}
+		},
+		special_effects = {
+			"lihui_qiershazhi",
+			{
+				-77,
+				39,
+				0
+			},
+			{
+				2.2
+			}
+		},
+		ship_l2d_id = {
+			19904101,
+			19904102,
+			19904103,
+			19904104,
+			19904105,
+			19904106,
+			19904107,
+			19904108,
+			19904109,
+			19904110,
+			19904111,
+			19904112,
+			19904113,
+			19904114,
+			19904115,
+			19904116,
+			19904117,
+			19904118,
+			19904119,
+			19904120,
+			19904121,
+			19904122,
+			19904123,
+			19904124,
+			19904125,
+			19904126,
+			19904127,
+			19904128,
+			19904129,
+			19904130,
+			19904131,
+			19904132,
+			19904133
+		}
+	},
 	[399060] = {
 		ship_group = 39906,
 		name = "四万十",
@@ -11310,6 +11705,119 @@ pg.base.ship_skin_template_20 = {
 			}
 		}
 	},
+	[399061] = {
+		ship_group = 39906,
+		name = "ほかほか龍神さま",
+		hand_id = 2,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70957,
+		painting = "siwanshi_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "172",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 399061,
+		voice_actor_2 = -1,
+		prefab = "siwanshi_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "よくぞやってきた。そなたには龍神の会心の一杯を振る舞おう――と、今お湯を沸かすからちょっと待って。お茶を飲んでから横になって、一緒にゆっくりしましょ？",
+		voice_actor = 373,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					0.76,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
 	[499080] = {
 		ship_group = 49908,
 		name = "フィリックス・シュルツ",
@@ -11394,6 +11902,119 @@ pg.base.ship_skin_template_20 = {
 				{
 					-0.019,
 					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[499081] = {
+		ship_group = 49908,
+		name = "ヒプノ・リベンジャー",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70958,
+		painting = "feilikesishuerci_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "501",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 499081,
+		voice_actor_2 = -1,
+		prefab = "feilikesishuerci_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "あら、まだ起きていられるとはね。このフィリックス・シュルツ特製のドリンクを飲ませた程度じゃ倒れないなんて、さすが指揮官――だけどそれもここまで。ふふん、サボっていたところを見てしまったのが悪いの。もう大人しくわたしにいいようにされなさい♪",
+		voice_actor = 374,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.21,
+					1.94,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
 					0
 				}
 			},
@@ -11551,6 +12172,165 @@ pg.base.ship_skin_template_20 = {
 			}
 		}
 	},
+	[499091] = {
+		ship_group = 49909,
+		name = "パラリティク・バーサス",
+		l2d_se = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		shop_id = 70959,
+		desc = "二人っきりになったわね、契約者。この場で興じられる「勝負」でとことん悦楽に耽けていきなさい……もちろん、敗北した者は今宵の「懲罰」を受けてもらうわ♡",
+		group_index = 1,
+		bg_sp = "",
+		painting = "xingdengbao_2",
+		gyro = 0,
+		rarity_bg = "",
+		prefab = "xingdengbao_2",
+		shop_type_id = 16,
+		main_UI_FX = "",
+		l2d_drag_rate = "",
+		lip_smoothing = 0,
+		time = "",
+		illustrator = 1,
+		l2d_ignore_drag = 0,
+		bg = "501",
+		voice_actor = 372,
+		l2d_para_range = "",
+		spine_action_offset = false,
+		lip_sync_gain = 0,
+		skin_type = 0,
+		live2d_offset_profile = "",
+		id = 499091,
+		voice_actor_2 = -1,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.72,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.08,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			{
+				-175,
+				-1049,
+				0
+			},
+			{
+				1.08
+			}
+		},
+		special_effects = {
+			"lihui_xingdengbao",
+			{
+				-183,
+				-1054,
+				0
+			},
+			{
+				1.6
+			}
+		},
+		ship_l2d_id = {
+			49909101,
+			49909102,
+			49909103,
+			49909104,
+			49909105,
+			49909106,
+			49909107,
+			49909108,
+			49909109
+		}
+	},
 	[999020] = {
 		ship_group = 99902,
 		name = "フランドル",
@@ -11635,6 +12415,119 @@ pg.base.ship_skin_template_20 = {
 				{
 					-0.019,
 					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[999021] = {
+		ship_group = 99902,
+		name = "愛しき原罪、赦されり",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70960,
+		painting = "fulandeer_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "150",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 999021,
+		voice_actor_2 = -1,
+		prefab = "fulandeer_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "くすん…うぅ…指揮官様、フランドルはなんてことを…御命を預かって指揮官様の従僕を務める身であるにも関わらずこんな大罪を犯してしまい、フランドルはもう…",
+		voice_actor = 375,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.728,
+					0.557,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
 					0
 				}
 			},

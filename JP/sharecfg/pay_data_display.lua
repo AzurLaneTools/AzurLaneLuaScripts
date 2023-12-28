@@ -58,6 +58,8 @@ pg.pay_data_display = setmetatable({
 		57,
 		61,
 		62,
+		63,
+		64,
 		1000,
 		1001,
 		1002,
@@ -5627,7 +5629,7 @@ pg.base.pay_data_display = {
 		id_str = "com.bilibili.blhx.zuanshi161",
 		first_pay_double = 0,
 		extra_service = 3,
-		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		airijp_id = "com.yostarjp.azurlane.diamond147",
 		extra_service_item = {
 			{
@@ -5740,7 +5742,7 @@ pg.base.pay_data_display = {
 		id_str = "com.bilibili.blhx.zuanshi162",
 		first_pay_double = 0,
 		extra_service = 3,
-		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		airijp_id = "com.yostarjp.azurlane.diamond148",
 		extra_service_item = {
 			{
@@ -5829,6 +5831,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40922,
+				1
+			}
+		}
+	},
+	[63] = {
+		subject = "新年福袋2024②",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "新年福袋2024②",
+		name_display = "新年福袋2024②",
+		type_order = 2,
+		extra_gem = 0,
+		id = 63,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai10",
+		skin_inquire_relation = 86201,
+		id_str = "com.bilibili.blhx.zuanshi163",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond149",
+		extra_service_item = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81201,
+				1
+			}
+		}
+	},
+	[64] = {
+		subject = "冬の水着福袋2023②(復刻)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "冬の水着福袋2023②(復刻)",
+		name_display = "冬の水着福袋2023②(復刻)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 64,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe11_l",
+		skin_inquire_relation = 69923,
+		id_str = "com.bilibili.blhx.zuanshi164",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond150",
+		extra_service_item = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40923,
 				1
 			}
 		}

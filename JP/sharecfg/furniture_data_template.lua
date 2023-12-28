@@ -197,6 +197,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			200001,
 			200002,
 			200003,
@@ -5146,6 +5147,7 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
+			100056,
 			31101,
 			54104,
 			54105
@@ -6096,7 +6098,8 @@ pg.furniture_data_template = setmetatable({
 			100052,
 			100053,
 			100054,
-			100055
+			100055,
+			100056
 		},
 		[2] = {
 			120,
@@ -8885,6 +8888,7 @@ pg.furniture_data_template = setmetatable({
 		100053,
 		100054,
 		100055,
+		100056,
 		200001,
 		200002,
 		200003,
@@ -22240,6 +22244,80 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100056] = {
+		spine_extra = "",
+		describe = "総員傾注！敵ゲートの方角は我らが下方なり！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ブリッジ・シミュレーター",
+		themeId = 0,
+		icon = "zhandouzhihuixitongicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100056,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhandouzhihuixitongB",
+				"normal"
+			},
+			{
+				"zhandouzhihuixitongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

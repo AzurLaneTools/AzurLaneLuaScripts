@@ -108,7 +108,7 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 55,
+		shop_id = 63,
 		shop_type = 1,
 		id = 5,
 		pic = "",
@@ -117,8 +117,8 @@ pg.recommend_shop = {
 			{
 				{
 					2023,
-					9,
-					21
+					12,
+					28
 				},
 				{
 					0,
@@ -128,9 +128,9 @@ pg.recommend_shop = {
 			},
 			{
 				{
-					2023,
-					10,
-					4
+					2024,
+					1,
+					10
 				},
 				{
 					23,
@@ -141,7 +141,7 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 57,
+		shop_id = 61,
 		shop_type = 1,
 		id = 6,
 		pic = "",
@@ -150,8 +150,8 @@ pg.recommend_shop = {
 			{
 				{
 					2023,
-					9,
-					14
+					12,
+					21
 				},
 				{
 					0,
@@ -161,9 +161,9 @@ pg.recommend_shop = {
 			},
 			{
 				{
-					2023,
-					10,
-					4
+					2024,
+					1,
+					3
 				},
 				{
 					23,

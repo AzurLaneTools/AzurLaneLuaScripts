@@ -2781,6 +2781,9 @@ pg.memory_template = setmetatable({
 		3273,
 		3274,
 		3275,
+		3281,
+		3282,
+		3283,
 		10000,
 		10001,
 		10002,
@@ -33433,6 +33436,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE4",
 		id = 3275,
 		icon = "memory_xuancaibinfenye",
+		is_open = 0
+	},
+	[3281] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Allnight Charge",
+		condition = "「母港着せ替え特集！その②」ページでキアサージを選択",
+		story = "SHISHANGTEKANHEDINGJISAN1",
+		id = 3281,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3282] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "パラリティク・バーサス",
+		condition = "「母港着せ替え特集！その②」ページでヒンデンブルクを選択",
+		story = "SHISHANGTEKANHEDINGJISAN2",
+		id = 3282,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3283] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ぬくぬくのお茶と給仕さん修業",
+		condition = "「母港着せ替え特集！その②」ページで風雲を選択",
+		story = "SHISHANGTEKANHEDINGJISAN3",
+		id = 3283,
+		icon = "memory_shishangtekanhedingji3",
 		is_open = 0
 	},
 	[10000] = {

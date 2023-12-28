@@ -3479,6 +3479,16 @@ pg.painting_filte_map = {
 			"painting/feilikesishuerci"
 		}
 	},
+	feilikesishuerci_2 = {
+		key = "feilikesishuerci_2",
+		res_list = {
+			"painting/feilikesishuerci_2_tex",
+			"painting/feilikesishuerci_2_rw_tex",
+			"painting/feilikesishuerci_2_n_tex",
+			"painting/feilikesishuerci_2_n",
+			"painting/feilikesishuerci_2"
+		}
+	},
 	feilong = {
 		key = "feilong",
 		res_list = {
@@ -3616,6 +3626,16 @@ pg.painting_filte_map = {
 			"painting/fengyun_3"
 		}
 	},
+	fengyun_4 = {
+		key = "fengyun_4",
+		res_list = {
+			"painting/fengyun_4_tex",
+			"painting/fengyun_4_rw_tex",
+			"painting/fengyun_4_n_tex",
+			"painting/fengyun_4_n",
+			"painting/fengyun_4"
+		}
+	},
 	fuchou = {
 		key = "fuchou",
 		res_list = {
@@ -3714,6 +3734,15 @@ pg.painting_filte_map = {
 			"painting/fulandeer_n",
 			"painting/fulandeer_bj_tex",
 			"painting/fulandeer"
+		}
+	},
+	fulandeer_2 = {
+		key = "fulandeer_2",
+		res_list = {
+			"painting/fulandeer_2_tex",
+			"painting/fulandeer_2_n_tex",
+			"painting/fulandeer_2_n",
+			"painting/fulandeer_2"
 		}
 	},
 	fuluoxiluofu = {
@@ -9544,6 +9573,16 @@ pg.painting_filte_map = {
 			"painting/qiershazhi"
 		}
 	},
+	qiershazhi_2 = {
+		key = "qiershazhi_2",
+		res_list = {
+			"painting/qiershazhi_2_tex",
+			"painting/qiershazhi_2_rw_tex",
+			"painting/qiershazhi_2_n_tex",
+			"painting/qiershazhi_2_n",
+			"painting/qiershazhi_2"
+		}
+	},
 	qifeng = {
 		key = "qifeng",
 		res_list = {
@@ -10948,6 +10987,15 @@ pg.painting_filte_map = {
 			"painting/siwanshi_n_tex",
 			"painting/siwanshi_n",
 			"painting/siwanshi"
+		}
+	},
+	siwanshi_2 = {
+		key = "siwanshi_2",
+		res_list = {
+			"painting/siwanshi_2_tex",
+			"painting/siwanshi_2_n_tex",
+			"painting/siwanshi_2_n",
+			"painting/siwanshi_2"
 		}
 	},
 	sizhannvshen = {
@@ -13168,6 +13216,15 @@ pg.painting_filte_map = {
 			"painting/xingdengbao"
 		}
 	},
+	xingdengbao_2 = {
+		key = "xingdengbao_2",
+		res_list = {
+			"painting/xingdengbao_2_tex",
+			"painting/xingdengbao_2_n_tex",
+			"painting/xingdengbao_2_n",
+			"painting/xingdengbao_2"
+		}
+	},
 	xingzuo = {
 		key = "xingzuo",
 		res_list = {
@@ -13775,6 +13832,15 @@ pg.painting_filte_map = {
 			"painting/yanusi_4_n_tex",
 			"painting/yanusi_4_n",
 			"painting/yanusi_4"
+		}
+	},
+	yanusi_5 = {
+		key = "yanusi_5",
+		res_list = {
+			"painting/yanusi_5_tex",
+			"painting/yanusi_5_n_tex",
+			"painting/yanusi_5_n",
+			"painting/yanusi_5"
 		}
 	},
 	yanzhan = {
