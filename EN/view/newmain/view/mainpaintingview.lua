@@ -125,7 +125,7 @@ function slot0.GetAssistantStatus(slot0)
 	slot1 = slot0:getPainting()
 	slot2 = getProxy(SettingsProxy)
 	slot4 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1)))
-	slot6 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. slot1)))
+	slot6 = uv0.Live2dIsDownload(HXSet.autoHxShiftPath("live2d/" .. slot1)) and PathMgr.FileExists(PathMgr.getAssetBundle(slot5))
 	slot7 = slot2:getCharacterSetting(slot0.id, SHIP_FLAG_BG)
 
 	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
@@ -135,6 +135,10 @@ function slot0.GetAssistantStatus(slot0)
 	else
 		return uv0.STATE_PAINTING, slot7
 	end
+end
+
+function slot0.Live2dIsDownload(slot0)
+	return GroupHelper.GetGroupMgrByName("L2D"):CheckF(slot0) == DownloadState.None or slot2 == DownloadState.UpdateSuccess
 end
 
 function slot0.Fold(slot0, slot1, slot2)

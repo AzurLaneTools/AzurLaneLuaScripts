@@ -403,17 +403,67 @@ pg.activity_banner = {
 	},
 	[200] = {
 		param = "",
-		time = "stop",
-		type = 13,
 		id = 200,
-		pic = "springfes"
+		pic = "newyear",
+		type = 13,
+		time = {
+			{
+				{
+					2023,
+					12,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[201] = {
 		param = "",
-		time = "always",
-		type = 13,
 		id = 201,
-		pic = "christmas"
+		pic = "christmas",
+		type = 13,
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	get_id_list_by_type = {
 		[3] = {
