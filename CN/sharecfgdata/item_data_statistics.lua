@@ -223605,6 +223605,30 @@ _G.pg.base.item_data_statistics[59517] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59518] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59518,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-{namecode:158}",
 	name = "船模-{namecode:158}",
@@ -242385,6 +242409,66 @@ _G.pg.base.item_data_statistics[81200] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[81201] = {
+	display = "购买礼包可获得随机换装*1，钻石*2024，心智单元*50，心智魔方*20，高级定向蓝图·六期*2，快速完成工具*10，家具币*100",
+	name = "绚烂缤纷夜福袋·II",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai10",
+	id = 81201,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			86201,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "随机缤纷夜换装·I",
@@ -242442,6 +242526,59 @@ _G.pg.base.item_data_statistics[86200] = {
 		{
 			401352,
 			1400
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[86201] = {
+	display = "不会被看到",
+	name = "随机缤纷夜换装·II",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86201,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
 		}
 	}
 }

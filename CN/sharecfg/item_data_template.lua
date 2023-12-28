@@ -33223,6 +33223,18 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[81201] = {
+		open_directly = 1,
+		display_effect = "",
+		other_resource_cost = "[]",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "998301",
+		id = 81201,
+		compose_number = 0,
+		target_id = 0
+	},
 	[99991] = {
 		open_directly = 1,
 		display_effect = "",
@@ -35637,6 +35649,7 @@ pg.item_data_template = {
 		60457,
 		61001,
 		81200,
+		81201,
 		99991,
 		99992,
 		99993,

@@ -1,8 +1,80 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5131",
 		id = 1,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 2,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5131",
+		id = 3,
 		pic = "temp5",
 		type = 3,
 		time = {
@@ -33,7 +105,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 2,
+		id = 4,
 		pic = "temp1",
 		type = 2,
 		param = {
@@ -71,7 +143,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
+		id = 5,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -98,78 +170,6 @@ pg.activity_banner = {
 					2024,
 					1,
 					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					3
 				},
 				{
 					23,
@@ -326,7 +326,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					21
+					28
 				},
 				{
 					0,
@@ -338,7 +338,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					24
+					31
 				},
 				{
 					23,
@@ -372,7 +372,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					21
+					28
 				},
 				{
 					0,
@@ -384,7 +384,7 @@ pg.activity_banner = {
 				{
 					2023,
 					12,
-					24
+					31
 				},
 				{
 					23,
@@ -416,18 +416,18 @@ pg.activity_banner = {
 		pic = "christmas"
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			8
-		},
 		[2] = {
+			1,
 			2,
-			3,
 			4,
 			5,
 			6,
 			7,
 			9
+		},
+		[3] = {
+			3,
+			8
 		},
 		[9] = {
 			90,

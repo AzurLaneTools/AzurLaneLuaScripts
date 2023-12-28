@@ -609,6 +609,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10022] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10022,
+		dungeon_id = 5124,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"晦明之变 ",
+				"星之辉形态下，自身受到伤害降低<color=#92fc63>40%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>30</color>的平射盾），全部护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>20%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+			},
+			{
+				"星之领域",
+				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>0.5%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>0.5%</color>最大耐久"
+			}
+		},
+		award_display = {
+			{
+				14,
+				208,
+				1
+			}
+		}
+	},
+	[10023] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10023,
+		dungeon_id = 5123,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"晦明之变 ",
+				"星之辉形态下，自身受到伤害降低<color=#92fc63>60%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>50</color>的平射盾），全部护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>40%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+			},
+			{
+				"星之领域",
+				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>0.75%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>0.75%</color>最大耐久"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10008,
+				1
+			}
+		}
+	},
+	[10024] = {
+		painting = "gecheng",
+		button_style = 7,
+		information_icon = "gecheng_constellation",
+		id = 10024,
+		dungeon_id = 5122,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"晦明之变 ",
+				"星之辉形态下，自身受到伤害降低<color=#92fc63>80%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>70</color>的平射盾），全部护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>60%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+			},
+			{
+				"星之领域",
+				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>1%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>1%</color>最大耐久"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10008,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -630,6 +717,9 @@ pg.expedition_constellation_challenge_template = {
 		10018,
 		10019,
 		10020,
-		10021
+		10021,
+		10022,
+		10023,
+		10024
 	}
 }

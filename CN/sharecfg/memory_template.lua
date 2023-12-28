@@ -2810,6 +2810,9 @@ pg.memory_template = setmetatable({
 		3273,
 		3274,
 		3275,
+		3281,
+		3282,
+		3283,
 		10011,
 		10012,
 		10013,
@@ -33757,6 +33760,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE4",
 		id = 3275,
 		icon = "memory_xuancaibinfenye",
+		is_open = 0
+	},
+	[3281] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Allnight Charge",
+		condition = "完成「港区时尚特刊：合订集[3]」奇尔沙治的签到",
+		story = "SHISHANGTEKANHEDINGJISAN1",
+		id = 3281,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3282] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "微醺胜负",
+		condition = "完成「港区时尚特刊：合订集[3]」{namecode:521}的签到",
+		story = "SHISHANGTEKANHEDINGJISAN2",
+		id = 3282,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3283] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "热茶与女仆修行",
+		condition = "完成「港区时尚特刊：合订集[3]」{namecode:203}的签到",
+		story = "SHISHANGTEKANHEDINGJISAN3",
+		id = 3283,
+		icon = "memory_shishangtekanhedingji3",
 		is_open = 0
 	},
 	[10011] = {

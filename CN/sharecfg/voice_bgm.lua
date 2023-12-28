@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main-christmas",
+		default_bgm = "newyear2",
 		special_bgm = "",
 		time = "",
-		bgm = "main-christmas"
+		bgm = "newyear2"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1180,5 +1180,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "newyear2"
+	},
+	SkinMagazinePage4 = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		time = "",
+		bgm = "story-dazy-style"
 	}
 }

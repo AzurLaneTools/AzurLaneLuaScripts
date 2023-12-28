@@ -222,6 +222,7 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
+			100057,
 			200001,
 			200002,
 			200003,
@@ -5489,6 +5490,7 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
+			100057,
 			31101,
 			54101,
 			54102,
@@ -6485,7 +6487,8 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
-			100056
+			100056,
+			100057
 		},
 		[2] = {
 			120,
@@ -9456,6 +9459,7 @@ pg.furniture_data_template = setmetatable({
 		100054,
 		100055,
 		100056,
+		100057,
 		200001,
 		200002,
 		200003,
@@ -24301,6 +24305,76 @@ pg.base.furniture_data_template = {
 			{
 				1,
 				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[100057] = {
+		spine_extra = "",
+		describe = "龙年飞腾~吼吼~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "变身装置·辰龙",
+		themeId = 0,
+		icon = "bianlongicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100057,
+		can_rotate = 1,
+		size = {
+			5,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianlongB",
+				"normal"
+			},
+			{
+				"bianlongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
 			}
 		},
 		followBone = {
