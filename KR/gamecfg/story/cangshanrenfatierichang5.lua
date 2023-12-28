@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"창섬인법첩-「일상편」\n\n<size=45>5 청춘 학원 생활 -2-</size>",
+					"창섬인법첩-「일상편」\n\n<size=45>청춘 학원 생활 -2-</size>",
 					1
 				}
 			}
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "각 경기 순위에 따라 학급별로 점수가 쌓이고, 그걸로 순위가 정해지는 느낌은 아닌 거야?",
+			say = "글쎄요… 저희 경우에는……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "글쎄요… 저희 경우에는……",
+			say = "한 명이라도 더 많은 적을 쓰러트려서, 그 토벌한 숫자에 따라 점수가 가산되는 형식이랄까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1

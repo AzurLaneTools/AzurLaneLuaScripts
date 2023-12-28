@@ -26273,3 +26273,7 @@ _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "해당 구역은 아직 오픈 시간이 아닙니다."
 }
+
+_G.pg.base.gametip.rect_ship_card_tpl_add = {
+	tip = "탭하여 추가"
+}

@@ -1108,5 +1108,35 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	StarSeaFramePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaFacilityPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		time = "",
+		bgm = "blueocean-image"
+	},
+	AnchorageTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-designshipVI"
+	},
+	BlackFridayWithManualSignPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	BlackFridayGiftPageInCH = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
 	}
 }

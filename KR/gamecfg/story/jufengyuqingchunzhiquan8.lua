@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "이 세계에 도착한 건 동료들과 무인도에서 모함을 마친 다음이었다.",
+			say = "이 세계에 도착한 건 동료들과 무인도에서 모험을 마친 다음이었다.",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,

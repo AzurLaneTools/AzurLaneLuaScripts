@@ -18434,7 +18434,7 @@ _G.pg.base.item_data_statistics[30349] = {
 }
 
 _G.pg.base.item_data_statistics[30350] = {
-	display = "랜던으로 카구라 스타일 장비스킨 1개 획득 가능",
+	display = "랜덤으로 카구라 스타일 장비스킨 1개 획득 가능",
 	name = "장비 스킨 상자 (카구라)",
 	max_num = 0,
 	type = 11,
@@ -212661,6 +212661,30 @@ _G.pg.base.item_data_statistics[59512] = {
 	is_world = 0,
 	icon = "Props/newserver_pt",
 	id = 59512,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59514] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m1",
+	id = 59514,
 	order = 0,
 	display_icon = {},
 	price = {},

@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"찰나의 인생이라도 이를 대신할 것은 없다.\"</color>\n'만월이 밝아오기 전에' 이벤트 참가 보상.",
 		scene = {}
 	},
+	[328] = {
+		time_limit_type = 0,
+		name = "빛을 쫓는 별의 고리",
+		gain_by = "",
+		id = 328,
+		time_second = 0,
+		desc = "추후 이벤트를 통해 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -623,6 +632,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		328,
 		401,
 		402,
 		413,

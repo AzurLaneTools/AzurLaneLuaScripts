@@ -1,4 +1,8 @@
 slot0 = class("BlackFridayGiftPage", import("...base.BaseActivityPage"))
+slot0.DAY_COLOR = {
+	"110C08",
+	"C8A471"
+}
 
 function slot0.OnInit(slot0)
 	slot1 = slot0._tf
@@ -15,6 +19,7 @@ function slot0.OnInit(slot0)
 
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("Text"), "DAY" .. slot1)
+			setTextColor(slot2:Find("Text"), Color.NewHex(uv0.DAY_COLOR[2]))
 			setActive(slot2:Find("lock"), uv0.nday < slot1)
 			setActive(slot2:Find("tip"), slot1 <= uv0.nday and uv0.freeGifts[slot1]:canPurchase())
 			onToggle(uv0, slot2, function (slot0)
@@ -24,7 +29,7 @@ function slot0.OnInit(slot0)
 					uv0:ShowGifts(uv1)
 				end
 
-				setTextColor(uv2:Find("Text"), Color.NewHex(slot0 and "110C08" or "C8A471"))
+				setTextColor(uv2:Find("Text"), Color.NewHex(uv0.DAY_COLOR[slot0 and 1 or 2]))
 			end, SFX_PANEL)
 		end
 	end)
