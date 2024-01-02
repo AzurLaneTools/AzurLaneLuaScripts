@@ -11266,7 +11266,7 @@ _G.pg.base.gametip.memorybook_notice = {
 }
 
 _G.pg.base.gametip.word_votes = {
-	tip = "得票数量"
+	tip = "得票數量"
 }
 
 _G.pg.base.gametip.number_0 = {
