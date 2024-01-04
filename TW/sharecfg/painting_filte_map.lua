@@ -3459,6 +3459,11 @@ pg.painting_filte_map = {
 			"painting/fengyun_tex",
 			"painting/fengyun_n_tex",
 			"painting/fengyun_n",
+			"painting/fengyun_4_tex",
+			"painting/fengyun_4_rw_tex",
+			"painting/fengyun_4_n_tex",
+			"painting/fengyun_4_n",
+			"painting/fengyun_4",
 			"painting/fengyun"
 		}
 	},
@@ -3580,6 +3585,10 @@ pg.painting_filte_map = {
 			"painting/fulandeer_n_rw_tex",
 			"painting/fulandeer_n",
 			"painting/fulandeer_bj_tex",
+			"painting/fulandeer_2_tex",
+			"painting/fulandeer_2_n_tex",
+			"painting/fulandeer_2_n",
+			"painting/fulandeer_2",
 			"painting/fulandeer"
 		}
 	},
@@ -9008,9 +9017,14 @@ pg.painting_filte_map = {
 		key = "qiubite",
 		res_list = {
 			"painting/qiubite_tex",
-			"painting/qiubite_2_tex",
-			"painting/qiubite_2",
 			"painting/qiubite"
+		}
+	},
+	qiubite_2 = {
+		key = "qiubite_2",
+		res_list = {
+			"painting/qiubite_2_tex",
+			"painting/qiubite_2"
 		}
 	},
 	qiye = {
@@ -12815,6 +12829,10 @@ pg.painting_filte_map = {
 			"painting/yanusi_tex",
 			"painting/yanusi_n_tex",
 			"painting/yanusi_n",
+			"painting/yanusi_5_tex",
+			"painting/yanusi_5_n_tex",
+			"painting/yanusi_5_n",
+			"painting/yanusi_5",
 			"painting/yanusi_4_tex",
 			"painting/yanusi_4_rw_tex",
 			"painting/yanusi_4_rw_hx_tex",
