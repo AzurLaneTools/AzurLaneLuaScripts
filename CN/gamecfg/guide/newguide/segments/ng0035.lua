@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.5,
 			ui = {
-				path = "UICamera/Canvas/UIMain/BeachGuardGameUI(Clone)/ui/menuUI/btnGameBook",
+				path = "UICamera/Canvas/UIMain/BeachGuardGameUI(Clone)/ui/menuUI/ad/btnGameBook",
 				triggerType = {
 					1
 				},

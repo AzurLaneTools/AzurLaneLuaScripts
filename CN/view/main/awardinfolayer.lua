@@ -293,6 +293,14 @@ function slot0.displayAwards(slot0)
 	end
 end
 
+function slot0.ShowOrHideSpriteMask(slot0, slot1)
+	if isActive(slot0.spriteMask) == slot1 then
+		return
+	end
+
+	setActive(slot0.spriteMask, slot1)
+end
+
 function slot0.willExit(slot0)
 	setActive(slot0.spriteMask, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)

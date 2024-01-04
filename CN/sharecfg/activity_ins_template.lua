@@ -10992,9 +10992,9 @@ pg.activity_ins_template = {
 		npc_discuss_persist = {}
 	},
 	[426] = {
-		ship_group = 10151,
-		name = "Laffey II",
-		sculpture = "lafeiII",
+		ship_group = 10117,
+		name = "Lafite.82",
+		sculpture = "lafeiII_3",
 		message_persist = "",
 		picture_persist = "",
 		group_id = 426,
@@ -11052,8 +11052,8 @@ pg.activity_ins_template = {
 		npc_discuss_persist = {}
 	},
 	[431] = {
-		ship_group = 10231,
-		name = "Houston II",
+		ship_group = 10305,
+		name = "Houston",
 		sculpture = "xiusidunII_2",
 		message_persist = "",
 		picture_persist = "",

@@ -31,7 +31,9 @@ end
 
 function slot0.initLeavelUI(slot0)
 	slot0.leaveUI = findTF(slot0._tf, "pop/LeaveUI")
+	slot1 = GetComponent(findTF(slot0.leaveUI, "ad/desc"), typeof(Image))
 
+	slot1:SetNativeSize()
 	setActive(slot0.leaveUI, false)
 	onButton(slot0._event, findTF(slot0.leaveUI, "ad/btnOk"), function ()
 		uv0:resumeGame()
@@ -45,7 +47,9 @@ end
 
 function slot0.initPauseUI(slot0)
 	slot0.pauseUI = findTF(slot0._tf, "pop/pauseUI")
+	slot1 = GetComponent(findTF(slot0.pauseUI, "ad/desc"), typeof(Image))
 
+	slot1:SetNativeSize()
 	setActive(slot0.pauseUI, false)
 	onButton(slot0._event, findTF(slot0.pauseUI, "ad/btnOk"), function ()
 		uv0:resumeGame()

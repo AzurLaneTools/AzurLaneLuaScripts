@@ -38,12 +38,21 @@ function slot0.register(slot0)
 end
 
 function slot0.listNotificationInterests(slot0)
-	return {}
+	return {
+		GAME.STORY_BEGIN,
+		GAME.STORY_END,
+		GAME.STORY_NEXT
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
+
+	if slot1:getName() == GAME.STORY_BEGIN or slot2 == GAME.STORY_NEXT then
+		slot0.viewComponent:ShowOrHideSpriteMask(false)
+	elseif slot2 == GAME.STORY_END then
+		slot0.viewComponent:ShowOrHideSpriteMask(true)
+	end
 end
 
 return slot0
