@@ -3,22 +3,72 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp3",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
 		id = 2,
 		pic = "temp7",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -168,10 +218,35 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		time = "stop",
-		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		type = 9,
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",
@@ -189,10 +264,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
-		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		type = 12,
+		time = {
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
