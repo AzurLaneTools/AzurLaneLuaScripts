@@ -74,6 +74,13 @@ pg.benefit_buff_template = setmetatable({
 		70,
 		71,
 		72,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
 		103,
 		110,
 		111,
@@ -1367,6 +1374,125 @@ pg.base.benefit_buff_template = {
 		benefit_condition = {
 			"activity",
 			4603,
+			0
+		}
+	},
+	[74] = {
+		type_priority = 0,
+		name = "U-101의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "U-101의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 74,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[75] = {
+		type_priority = 0,
+		name = "카자구모의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "카자구모 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 75,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[76] = {
+		type_priority = 0,
+		name = "포미더블의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "포미더블 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 76,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[77] = {
+		type_priority = 0,
+		name = "리슐리외의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "리슐리외 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 77,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[78] = {
+		type_priority = 0,
+		name = "타슈켄트 의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "타슈켄트  축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 78,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[79] = {
+		type_priority = 0,
+		name = "샹그릴라 의축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "샹그릴라 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 79,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	[80] = {
+		type_priority = 0,
+		name = "차라의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "차라 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 80,
+		icon = "Props/jianchuanqiyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
 			0
 		}
 	},

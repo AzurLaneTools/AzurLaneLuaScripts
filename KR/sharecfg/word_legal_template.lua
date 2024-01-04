@@ -381,6 +381,11 @@ function temp()
 				this = true
 			}
 		},
+		["래"] = {
+			["셔"] = {
+				this = true
+			}
+		},
 		["랑"] = {
 			["드"] = {
 				["르"] = {
@@ -536,7 +541,10 @@ temp()
 function temp()
 	uv0["라"] = {
 		["피"] = {
-			this = true
+			this = true,
+			["Ⅱ"] = {
+				this = true
+			}
 		},
 		["이"] = {
 			["프"] = {
@@ -1603,6 +1611,15 @@ function temp()
 					}
 				}
 			}
+		},
+		[" "] = {
+			["재"] = {
+				["신"] = {
+					["토"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -2647,6 +2664,46 @@ end
 temp()
 
 function temp()
+	uv0["루"] = {
+		["이"] = {
+			["빌"] = {
+				this = true
+			}
+		},
+		["루"] = {
+			["티"] = {
+				["에"] = {
+					this = true
+				}
+			}
+		},
+		["나"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["컨"] = {
+		["스"] = {
+			["텔"] = {
+				["레"] = {
+					["이"] = {
+						["션"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["네"] = {
 		["바"] = {
 			["다"] = {
@@ -3486,6 +3543,16 @@ function temp()
 			}
 		},
 		["랑"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["괌"] = {
+		this = {
 			this = true
 		}
 	}
@@ -5966,23 +6033,6 @@ temp()
 function temp()
 	uv0["3"] = {
 		["3"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["루"] = {
-		["루"] = {
-			["티"] = {
-				["에"] = {
-					this = true
-				}
-			}
-		},
-		["나"] = {
 			this = true
 		}
 	}

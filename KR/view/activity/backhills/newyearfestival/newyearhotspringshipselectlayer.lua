@@ -1,4 +1,5 @@
 slot0 = class("NewYearHotSpringShipSelectLayer", import("view.base.BaseUI"))
+slot1 = import(".NewYearHotSpringFormationCard")
 
 function slot0.getUIName(slot0)
 	return "NewYearHotSpringShipSelectUI"
@@ -86,7 +87,7 @@ function slot0.AddCard(slot0, slot1, slot2, slot3)
 
 			uv1:emit(NewYearHotSpringShipSelectMediator.LOOG_PRESS_SHIP, uv2, uv0)
 		end)
-		FormationCard.New(go(slot4)):update(slot3)
+		uv0.New(go(slot4)):update(slot3)
 
 		slot8 = slot3:getRecoverEnergyPoint() + slot0.activity:GetEnergyRecoverAddition()
 		slot9 = 0

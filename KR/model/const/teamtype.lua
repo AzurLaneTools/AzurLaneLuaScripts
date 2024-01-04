@@ -56,7 +56,9 @@ slot0.TeamPos = {
 	REAR = "Rear",
 	CONSORT = "Consort",
 	SUB_LEADER = "SubLeader",
-	SUB_CONSORT = "SubConsort"
+	SUB_CONSORT = "SubConsort",
+	UPPER_CONSORT = "UpperConsort",
+	LOWER_CONSORT = "LowerConsort"
 }
 
 function slot0.GetShipTypeListFromTeam(slot0)

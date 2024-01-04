@@ -1519,5 +1519,25 @@ pg.voice_actor_CN = {
 	[388] = {
 		code = 388,
 		actor_name = "하라다 히토미"
+	},
+	[389] = {
+		code = 389,
+		actor_name = "Karin Kagami"
+	},
+	[390] = {
+		code = 390,
+		actor_name = "Iori Saeki"
+	},
+	[391] = {
+		code = 391,
+		actor_name = "Ruka Fukagawa"
+	},
+	[392] = {
+		code = 392,
+		actor_name = "Natsu Yorita"
+	},
+	[393] = {
+		code = 393,
+		actor_name = "Kaori Sadohara"
 	}
 }

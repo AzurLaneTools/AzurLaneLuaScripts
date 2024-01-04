@@ -417,10 +417,10 @@ pg.item_data_frame = {
 	[328] = {
 		time_limit_type = 0,
 		name = "빛을 쫓는 별의 고리",
-		gain_by = "",
+		gain_by = "星海逐光",
 		id = 328,
 		time_second = 0,
-		desc = "추후 이벤트를 통해 획득 가능",
+		desc = "\"현실을 덮는 성궁, 세상을 재현하는 인과. 금기를 뛰어넘은 그 순간, 세상에 영원한 진실이 새겨지리라\"――",
 		scene = {}
 	},
 	[401] = {

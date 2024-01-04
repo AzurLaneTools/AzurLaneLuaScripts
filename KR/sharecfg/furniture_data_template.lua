@@ -133,6 +133,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100002,
 			100003,
 			100004,
@@ -2967,6 +2969,25 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			305305,
 			305306
+		},
+		[106] = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		}
 	},
 	get_id_list_by_tag = {
@@ -4745,7 +4766,18 @@ pg.furniture_data_template = setmetatable({
 			305116,
 			305117,
 			305118,
-			305119
+			305119,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111
 		},
 		{
 			1108,
@@ -5033,6 +5065,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100002,
 			100003,
 			100004,
@@ -5264,7 +5298,11 @@ pg.furniture_data_template = setmetatable({
 			305301,
 			305302,
 			305303,
-			305304
+			305304,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[4] = {
 			1001,
@@ -5356,7 +5394,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[3] = {
 			1002,
@@ -5449,7 +5488,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[5] = {
 			1301,
@@ -5861,7 +5901,8 @@ pg.furniture_data_template = setmetatable({
 			302002,
 			303002,
 			304002,
-			305002
+			305002,
+			306002
 		},
 		[7] = {
 			1,
@@ -5975,6 +6016,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			265,
 			266,
+			267,
+			268,
 			100002,
 			100004,
 			100005,
@@ -7786,7 +7829,22 @@ pg.furniture_data_template = setmetatable({
 			305115,
 			305116,
 			305117,
-			305118
+			305118,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306109,
+			306110,
+			306111,
+			306112,
+			306113,
+			306114,
+			306115
 		},
 		[11] = {
 			131,
@@ -7944,7 +8002,8 @@ pg.furniture_data_template = setmetatable({
 			302001,
 			303001,
 			304001,
-			305001
+			305001,
+			306001
 		},
 		[5] = {
 			1101,
@@ -8718,6 +8777,8 @@ pg.furniture_data_template = setmetatable({
 		264,
 		265,
 		266,
+		267,
+		268,
 		100002,
 		100003,
 		100004,
@@ -11369,7 +11430,24 @@ pg.furniture_data_template = setmetatable({
 		305303,
 		305304,
 		305305,
-		305306
+		305306,
+		306001,
+		306002,
+		306101,
+		306102,
+		306103,
+		306104,
+		306105,
+		306106,
+		306107,
+		306108,
+		306109,
+		306110,
+		306111,
+		306112,
+		306113,
+		306114,
+		306115
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17624,6 +17702,211 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"shanluanxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[267] = {
+		rarity = 4,
+		describe = "一池温泉，四种体验~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "缤纷温泉池",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "sigewenquanicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 267,
+		can_rotate = 0,
+		size = {
+			9,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sigewenquanB",
+				"normal"
+			},
+			{
+				"sigewenquanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					14.7,
+					127.2
+				},
+				{
+					208,
+					216
+				},
+				"chuanmo/sigewenquan_mask"
+			},
+			{
+				-10,
+				-133.8
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						8,
+						110
+					},
+					{
+						208,
+						216
+					},
+					"chuanmo/sigewenquan_mask"
+				},
+				{
+					-10,
+					-107
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				1
+			},
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[268] = {
+		spine_extra = "",
+		describe = "탁월한 용기를 가지고 통합 방위군의 작전 행동에 협력한 인원에게 수여되는 메달. \"빛을 쫓는 별의 바다\" 이벤트 참가 보상.",
+		gain_by = "빛을 쫓는 별의 바다",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "guandaoxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "이사회 유니온 훈장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 268,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guandaoxunzhang",
 				"normal"
 			}
 		},
@@ -135173,6 +135456,871 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[306001] = {
+		spine_extra = "",
+		describe = "조명에 신나는 음악까지! 같이 신나게 놀자!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "클럽 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanyydicon",
+		spine_action_replace = "",
+		picture = "yyd/dibanyyd",
+		comfortable = 4,
+		canputon = 0,
+		id = 306001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306002] = {
+		spine_extra = "",
+		describe = "조명에 신나는 음악까지! 같이 신나게 놀자!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "클럽 벽",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiyydicon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 306002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiyyd",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[306101] = {
+		spine_extra = "",
+		describe = "오늘의 스페셜 메뉴는?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "caidanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스타일리시 메뉴",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/caidanyyd",
+		canputon = 0,
+		id = 306101,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306102] = {
+		spine_extra = "",
+		describe = "음료 버킷이 왔다! 이제 마시기만 하면 돼!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chajiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클럽 버킷 테이블",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/chajiyyd",
+		canputon = 0,
+		id = 306102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306103] = {
+		spine_extra = "",
+		describe = "리듬에 맞춰서 춤추자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "changdilabayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스타일리시 앰프",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/changdilabayyd",
+		canputon = 0,
+		id = 306103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306104] = {
+		spine_extra = "",
+		describe = "토끼토끼별 외계인의 느긋한 문화를 표현한 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangfenyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "토끼토끼별 외계인 조각상(핑크)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxiangfenyyd",
+		canputon = 0,
+		id = 306104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306105] = {
+		spine_extra = "",
+		describe = "토끼토끼별 외계인의 설레는 문화를 표현한 조각상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxianglanyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "토끼토끼별 외계인 조각상(블루)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/diaoxianglanyyd",
+		canputon = 0,
+		id = 306105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306106] = {
+		spine_extra = "",
+		describe = "VIP석이다쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "kazuoyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클럽 자리",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yyd/kazuoyyd",
+		canputon = 0,
+		id = 306106,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41,
+					122
+				},
+				{
+					-1,
+					1
+				},
+				"yyd/kazuoyyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306107] = {
+		spine_extra = "",
+		describe = "풍선이 달린 음료 버킷",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "qiqiuyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "풍선 & 음료",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/qiqiuyyd",
+		canputon = 0,
+		id = 306107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306108] = {
+		spine_extra = "",
+		describe = "푹신한 소파에서 휴식♪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafayydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클럽 소파",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/shafayyd",
+		canputon = 0,
+		id = 306108,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.7,
+					-3.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306109] = {
+		spine_extra = "",
+		describe = "레디? 라이트 온!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스타일리시 라이트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yyd/wutaidengyyd",
+		canputon = 0,
+		id = 306109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306110] = {
+		spine_extra = "",
+		describe = "부드러운 소파 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaodengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클럽 소파 의자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/xiaodengyyd",
+		canputon = 0,
+		id = 306110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306111] = {
+		spine_extra = "",
+		describe = "야단스러운 거품에 차분한 뒷맛. 참고로 음료는 무제한 제공!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 106,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yinliaoxiang1yydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "드라이아이스 & 음료",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "yyd/yinliaoxiang1yyd",
+		canputon = 0,
+		id = 306111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[306112] = {
+		spine_extra = "",
+		describe = "리듬에 맞춰서 다들 춤추자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "클럽 DJ 부스",
+		themeId = 106,
+		icon = "yinyuetaiyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinyuetaiyydB",
+				"normal"
+			},
+			{
+				"yinyuetaiyydT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[306113] = {
+		spine_extra = "",
+		describe = "럭키 타임!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 106,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "laohujidengyydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "서프라이즈 라이트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laohujidengyyd",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[306114] = {
+		rarity = 3,
+		describe = "쉬는 동안 음료라도 어떠신쥬쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "클럽 바 카운터",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "bataiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306114,
+		can_rotate = 0,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[306115] = {
+		rarity = 4,
+		describe = "오늘 밤 스포트라이트는 바로 여기! 마음 가는대로 춤추자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "만쥬 클럽 스테이지",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 106,
+		icon = "wutaiyydicon",
+		deblocking = 1,
+		level = 1,
+		tag = 7,
+		effect = "",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306115,
+		can_rotate = 0,
+		size = {
+			11,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaiyyd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				-1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
 		},
 		interAction_group = {}
 	}

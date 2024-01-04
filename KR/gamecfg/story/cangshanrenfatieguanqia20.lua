@@ -293,20 +293,22 @@ return {
 			side = 2,
 			say = "이게 이번 '신작'이야. 마음껏 즐겨.",
 			movableNode = {
-				time = 2.6,
-				name = "shanluan_boss",
-				spine = {
-					action = "move",
-					scale = 1
-				},
-				path = {
-					{
-						-1500,
-						-280
+				{
+					time = 2.6,
+					name = "shanluan_boss",
+					spine = {
+						action = "move",
+						scale = 1
 					},
-					{
-						1500,
-						-280
+					path = {
+						{
+							-1500,
+							-280
+						},
+						{
+							1500,
+							-280
+						}
 					}
 				}
 			},

@@ -145,8 +145,14 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			slot0:stopDrag()
 		end
 
-		if slot4.idle and slot4.idle == slot0.l2dIdleIndex and not slot4.repeatFlag then
-			return
+		if slot4.idle then
+			if type(slot4.idle) == "number" then
+				if slot4.idle == slot0.l2dIdleIndex and not slot4.repeatFlag then
+					return
+				end
+			elseif type(slot4.idle) == "table" and #slot4.idle == 1 and slot4.idle[1] == slot0.l2dIdleIndex and not slot4.repeatFlag then
+				return
+			end
 		end
 
 		if slot7 then
@@ -193,7 +199,7 @@ function slot0.getParameter(slot0)
 	return slot0.parameterValue
 end
 
-function slot0.parameToTarget(slot0)
+function slot0.getParameToTargetFlag(slot0)
 	if slot0.parameterValue ~= slot0.parameterTargetValue then
 		return true
 	end

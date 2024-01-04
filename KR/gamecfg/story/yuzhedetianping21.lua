@@ -219,20 +219,22 @@ return {
 			actorName = "마르코 폴로",
 			say = "뭐야… 저게…? 새하얀 갑옷에 활… 그리고 말…?",
 			movableNode = {
-				time = 2,
-				name = "shenpanjijia_zhipei",
-				spine = {
-					action = "move",
-					scale = 1
-				},
-				path = {
-					{
-						-1500,
-						0
+				{
+					time = 2,
+					name = "shenpanjijia_zhipei",
+					spine = {
+						action = "move",
+						scale = 1
 					},
-					{
-						1500,
-						0
+					path = {
+						{
+							-1500,
+							0
+						},
+						{
+							1500,
+							0
+						}
 					}
 				}
 			},

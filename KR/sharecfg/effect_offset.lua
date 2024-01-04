@@ -1825,5 +1825,16 @@ pg.effect_offset = {
 			1.5,
 			0
 		}
+	},
+	lafei_biaoji = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3.5,
+			0
+		}
 	}
 }

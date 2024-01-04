@@ -459,6 +459,108 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15012] = {
+		id = 15012,
+		name = "角色用/技能用AI - 拉菲机器人移动1号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 85
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					Z1 = 5,
+					Z2 = -25,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15013] = {
+		id = 15013,
+		name = "角色用/技能用AI - 拉菲机器人移动2号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 35
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					Z1 = 25,
+					Z2 = -5,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15014] = {
+		id = 15014,
+		name = "角色用/技能用AI - 拉菲机器人移动1号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 30,
+					Z2 = -5,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -15,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15015] = {
+		id = 15015,
+		name = "角色用/技能用AI - 拉菲机器人移动2号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 5,
+					Z2 = -30,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -15,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -9782,6 +9884,187 @@ pg.auto_pilot_template = {
 					duration = -1,
 					X1 = 0,
 					stopCount = 0
+				}
+			}
+		}
+	},
+	[70238] = {
+		id = 70238,
+		name = "2023关岛活动 大型蛋船BOSS保持原位",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 0,
+					z = 40
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
+	[70239] = {
+		id = 70239,
+		name = "2023关岛活动EX 浮游炮移动 左",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -60,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70240] = {
+		id = 70240,
+		name = "2023关岛活动EX 浮游炮移动 上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = 59
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70241] = {
+		id = 70241,
+		name = "2023关岛活动EX 浮游炮移动 右",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 60,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70242] = {
+		id = 70242,
+		name = "2023关岛活动EX 浮游炮移动 下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = 0,
+					z = -59
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70251] = {
+		id = 70251,
+		name = "开始等待一下后再随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 2.5
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -20,
+					stopCount = 90
 				}
 			}
 		}

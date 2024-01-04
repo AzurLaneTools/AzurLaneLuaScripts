@@ -3,13 +3,16 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		time = "stop",
-		text_pic = "text_event_all",
 		type = 3,
-		pic = "event_all",
+		text_pic = "text_event_all",
 		id = 1,
 		group_id = 1,
-		order = 1
+		pic = "event_all",
+		order = 1,
+		time = {
+			"default",
+			5131
+		}
 	},
 	{
 		param = "0",
@@ -36,50 +39,53 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		time = "stop",
-		text_pic = "text_event_map",
 		type = 0,
-		pic = "event_map",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
-		order = 1
+		pic = "event_map",
+		order = 1,
+		time = {
+			"default"
+		}
 	},
 	[20] = {
-		param = "0",
-		name = "event_minigame",
-		time = "stop",
-		text_pic = "text_event_minigame",
 		type = 0,
-		pic = "event_minigame",
+		name = "event_minigame",
+		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 5,
-		order = 1
+		pic = "event_minigame",
+		order = 1,
+		time = {
+			"default",
+			5141
+		},
+		param = {
+			"NEWYEAR_BACKHILL_2024"
+		}
 	},
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_boss",
+		type = 0,
+		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		pic = "event_boss",
-		order = 1,
-		time = {
-			"default"
-		}
+		order = 1
 	},
 	[40] = {
 		param = "0",
 		name = "event_escort",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_escort",
+		type = 0,
+		pic = "event_escort",
 		id = 40,
 		group_id = 6,
-		pic = "event_escort",
-		order = 1,
-		time = {
-			"default"
-		}
+		order = 1
 	},
 	[60] = {
 		param = "0",
@@ -95,29 +101,23 @@ pg.activity_link_button = {
 	[70] = {
 		param = "0",
 		name = "event_aprilFool",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_aprilFool",
+		type = 0,
+		pic = "event_aprilFool",
 		id = 70,
 		group_id = 8,
-		pic = "event_aprilFool",
-		order = 1,
-		time = {
-			"default",
-			4733
-		}
+		order = 1
 	},
 	[80] = {
 		type = 2,
 		name = "event_Atelier",
+		time = "stop",
 		text_pic = "text_event_Atelier",
 		id = 80,
 		group_id = 9,
 		pic = "event_Atelier",
 		order = 1,
-		time = {
-			"default",
-			4581
-		},
 		param = {
 			"ATELIER_COMPOSITE"
 		}
@@ -138,15 +138,12 @@ pg.activity_link_button = {
 	[100] = {
 		type = 2,
 		name = "event_medal",
+		time = "stop",
 		text_pic = "text_event_medal",
 		id = 100,
 		group_id = 10,
 		pic = "event_medal",
 		order = 1,
-		time = {
-			"default",
-			5093
-		},
 		param = {
 			"SENRANKAGURA_MEDAL"
 		}
@@ -154,15 +151,12 @@ pg.activity_link_button = {
 	[101] = {
 		type = 2,
 		name = "event_senran",
+		time = "stop",
 		text_pic = "text_event_senran",
 		id = 101,
 		group_id = 100,
 		pic = "event_senran",
 		order = 1,
-		time = {
-			"default",
-			5099
-		},
 		param = {
 			"SENRANKAGURA_TRAIN"
 		}

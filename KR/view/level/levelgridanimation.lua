@@ -312,9 +312,8 @@ function slot0.PlayAttachmentEffect(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.PlayParticleSystem(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0.loader
-
-	slot5:GetPrefab("effect/" .. slot1, slot1, function (slot0)
+	warning(slot1 or "NIL")
+	slot0.loader:GetPrefab("effect/" .. slot1, slot1, function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then

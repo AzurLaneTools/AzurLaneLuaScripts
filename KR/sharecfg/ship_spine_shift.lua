@@ -371,5 +371,19 @@ pg.ship_spine_shift = {
 			0,
 			-30
 		}
+	},
+	songdiao = {
+		spine = "songdiao",
+		mainui_shift = {
+			-34,
+			12
+		}
+	},
+	songdiao_2 = {
+		spine = "songdiao_2",
+		mainui_shift = {
+			-34,
+			12
+		}
 	}
 }

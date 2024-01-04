@@ -72,6 +72,12 @@ function slot0.init(slot0)
 	slot0.indexDatas = slot1.defaultIndex or {}
 end
 
+function slot0.BlurPanel(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER + 1
+	})
+end
+
 function slot0.didEnter(slot0)
 	slot0.contextData = slot0:InitData()
 

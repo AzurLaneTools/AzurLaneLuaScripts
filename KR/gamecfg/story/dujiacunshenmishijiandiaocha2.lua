@@ -564,20 +564,22 @@ return {
 			bgName = "bg_village_in",
 			mode = 1,
 			movableNode = {
-				time = 2,
-				name = "story_denglonggui",
-				spine = {
-					action = "move",
-					scale = 8
-				},
-				path = {
-					{
-						-1500,
-						0
+				{
+					time = 2,
+					name = "story_denglonggui",
+					spine = {
+						action = "move",
+						scale = 8
 					},
-					{
-						1500,
-						0
+					path = {
+						{
+							-1500,
+							0
+						},
+						{
+							1500,
+							0
+						}
 					}
 				}
 			},
