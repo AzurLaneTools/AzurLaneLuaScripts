@@ -8009,17 +8009,43 @@ pg.activity_template = {
 	},
 	[5150] = {
 		mark = 20231228,
+		id = 5150,
 		title_res_tag = "skin_magazine4",
-		time = "stop",
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 48,
-		id = 5150,
 		config_data = {
 			19661,
 			19662,
 			19663
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		page_info = {
 			class_name = "SkinMagazinePage4",
@@ -8041,17 +8067,43 @@ pg.activity_template = {
 	},
 	[5151] = {
 		mark = 20231228,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		title_res_tag = "",
 		config_client = "",
 		id = 5151,
 		config_data = {
 			19664
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					12,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[5152] = {
