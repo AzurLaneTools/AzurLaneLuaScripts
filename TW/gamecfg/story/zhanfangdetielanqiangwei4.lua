@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>四　桑德菈的想法</size>",
+					"綻放的鐵藍薔薇\n\n<size=45>四　塞德利茨的想法</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "继续在港区进行巡视——",
+			say = "繼續在港區進行巡視—",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走过路过看一看喵~今日特惠喵~",
+			say = "走過路過看一看喵~今日特惠喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！两位客人，要不要看一看喵~有最新的款式哦？",
+			say = "啊！兩位客人，要不要看一看喵~有最新的款式哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "和{namecode:460}一起在服装店门口驻足观察。",
+			say = "和塞德利茨一起在服飾店門口駐足觀察。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "怎么门口站了这么多女仆……？",
+			say = "怎麼門口站了這麼多女僕……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼，小店生意兴旺，所以不得已请人帮忙了喵。",
+			say = "呼呼，小店生意興旺，所以不得已請人幫忙了喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是这样。两位，要进店看看么？",
+			say = "就是這樣。兩位，要進店看看嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "{namecode:460}需要一身常服，不过……",
+			say = "塞德利茨需要一套常服，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，我懂了，您想让{namecode:460}自己选么。",
+			say = "啊，我懂了，您想讓塞德利茨自己選嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……？可、可我……",
+			say = "欸……？但、但是我……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔，我明白了，如果之后还要这样巡视的话，确实需要常服……",
+			say = "唔，我明白了，如果之後還要這樣巡視的話，確實需要常服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "但长、长官，您真的不和我一起挑选么？",
+			say = "但長、長官，您真的不跟我一起挑選呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			},
 			options = {
 				{
-					content = "我相信就算没有我的建议，你也能完成任务。",
+					content = "我相信就算沒有我的建議，妳也能完成任務。",
 					flag = 1
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "明白！长官，我一定完成任务！",
+			say = "明白！長官，我一定完成任務！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:460}亲，这边走喵~指挥官，就麻烦您进店稍作等待喵~",
+			say = "塞德利茨親，這邊走喵~指揮官，就麻煩您進店稍作等待喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "在一旁等待时，从量衣处传来了清晰的交谈声。",
+			say = "在一旁等待時，從量衣處傳來了清晰的交談聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "记得这里的隔音效果应该很好才对——",
+			say = "記得這裡的隔音效果應該很好才對——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~要定做常服么，请问{namecode:460}亲想要什么风格的常服呢？",
+			say = "喔~要訂做常服嗎，請問塞德利茨親想要什麼風格的常服呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "风、风格……？唔，长官好像没规定过……",
+			say = "風、風格……？唔，長官好像沒規定過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "呃，普通一点的常服就好……？",
+			say = "呃，普通一點的常服就好……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "懂了喵~那么接下来需要测量一下裁剪衣服用的数据喵。",
+			say = "懂了喵~那麼接下來需要測量一下裁剪衣服用的數據喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什罗普郡亲，具体的测量就交给你了~",
+			say = "什羅普郡親，具體的測量就交給你了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "收到~端正站好。好，转身——姿势真标准呢，{namecode:460}，稍微放松一下也没关系的哦？",
+			say = "收到~端正站好。好，轉身——姿勢真標準呢，塞德利茨，稍微放鬆一下也沒關係的哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我一直都是这样的……",
+			say = "我一直都是這樣的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是平时严格要求自己惯了啊，了解了解。",
+			say = "原來是平常嚴格要求自己習慣了，了解了解。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，别在意！我很好奇，{namecode:460}，你真的不明白指挥官的意思么？",
+			say = "啊，別在意！我很好奇，塞德利茨，妳真的不懂指揮官的意思嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是说让我来定制常服这件事么……？",
+			say = "是說讓我來訂製常服這件事嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "因为是长官的命令，所以……",
+			say = "因為是長官的命令，所以……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果你不愿意或者有想法的话，是可以拒绝的哦？指挥官肯定也是想让你意识到这点才故意这样的。",
+			say = "如果妳不願意或有想法的話，是可以拒絕的哦？指揮官肯定也是想讓妳意識到這一點才故意這樣的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "……唔。可是我……不是太擅长拒绝？",
+			say = "……唔。可是我……不是太擅長拒絕？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯，{namecode:98}听到了有趣的话题喵~",
+			say = "嚯嚯，明石聽到了有趣的話題喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真不坦率啊，{namecode:460}亲。",
+			say = "真不坦率啊，塞德利茨親。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要我说，这种理由可多的是呢~比如说想要拒绝订单，就这样说——",
+			say = "要我說，這種理由可多的是呢~比如說想要拒絕訂單，就這樣說——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「我们已经把它列入待办事项了，会最优先处理的喵」。",
+			say = "「我們已經把它列入待辦事項了，會最優先處理的喵」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但没人规定什么时候待办事项才会被处理……",
+			say = "但沒人規定什麼時候待辦事項才會被處理……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "的确，是令人信服的婉拒呢。",
+			say = "的確，是令人信服的婉拒呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼，包括这条金句在内，还有许多运营策略哦。",
+			say = "呼呼，包括這條金句在內，還有許多營運策略哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如说~让女仆们来帮忙……哎呀，不能多说了喵。",
+			say = "比如說~讓女僕們來幫忙……哎呀，不能多說了喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以回到刚刚的话题，{namecode:460}亲究竟是怎么想的呢？",
+			say = "所以回到剛剛的話題，塞德利茨親究竟是怎麼想的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……？我真正的想法么……",
+			say = "欸……？我真正的想法嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……向我提出各种建议，也希望我能有更多自己的想法，甚至是“拒绝 ”……",
+			say = "嗯…向我提出各種建議，也希望我能有更多自己的想法，甚至是「拒絕 」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "长官果然很温柔呢。",
+			say = "長官果然很溫柔呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "所以，我的答案是，我果然还是不想拒绝长官！",
+			say = "所以，我的答案是，我果然還是不想拒絕長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "工作也好、巡逻也好，不管是做什么，和长官在一起时我就会高兴。",
+			say = "工作也好、巡邏也好，不管是做什麼，和長官在一起時我就會高興。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼~是这么一回事啊~",
+			say = "哼哼哼~是這麼一回事~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "已经测量好了喵，你稍微等一下就好~",
+			say = "已經測量好了喵，妳稍微等一下就好~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "还顺利么？",
+			say = "還順利嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "一切正常，长官！",
+			say = "一切正常，長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，大概下周这个时候，{namecode:460}的衣服就能制作完成了，敬请期待喵~",
+			say = "指揮官，大概下週這個時候，塞德利茨的衣服就能製作完成了，敬請期待喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -959,7 +959,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~还有这个，游乐园新设施的体验套票喵——算是折扣活动的赠品~",
+			say = "啊~還有這個，遊樂園新設施的體驗套票喵——算是折扣活動的贈品~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,7 +976,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只有今天有效喵，指挥官。",
+			say = "不過只有今天有效喵，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1005,7 +1005,7 @@ return {
 			},
 			options = {
 				{
-					content = "不能浪费才是——",
+					content = "不能浪費才是——",
 					flag = 1
 				},
 				{
@@ -1022,7 +1022,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "没错，不、不能浪费呢……！",
+			say = "沒錯，不、不能浪費呢……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1036,7 +1036,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "就这样，还是成功邀请到了{namecode:460}——",
+			say = "就這樣，還是成功邀請到了塞德利茨——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -212,7 +212,8 @@ pg.memory_group = setmetatable({
 		577,
 		578,
 		579,
-		581
+		581,
+		587
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4526,6 +4527,23 @@ pg.base.memory_group = {
 			2455,
 			2456,
 			2457
+		}
+	},
+	[587] = {
+		id = 587,
+		subtype = 0,
+		icon = "title_chara_saidelici",
+		type = 3,
+		link_event = 0,
+		title = "綻放的鐵藍薔薇",
+		memories = {
+			2771,
+			2772,
+			2773,
+			2774,
+			2775,
+			2776,
+			2777
 		}
 	}
 }

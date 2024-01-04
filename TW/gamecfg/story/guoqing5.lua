@@ -75,7 +75,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "能自由自在掌控所管轄的一切，真不愧是神明的試驗場。",
+			say = "能自由自在掌控所管轄的一切，真不愧是神明的實驗場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>六　桑德菈向前冲</size>",
+					"綻放的鐵藍薔薇\n\n<size=45>六　塞德利茨向前衝</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "夕阳真美呢……从这里看的话，感觉地面上的一切都金闪闪的。",
+			say = "夕陽真美呢……從這裡看的話，感覺地面上的一切都金閃閃的。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "没想到从空中俯瞰大地居然是这样的感觉。",
+			say = "沒想到從空中俯瞰大地居然是這樣的感覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "对了，听说马上有烟花表演哦，长官。",
+			say = "對了，聽說馬上有煙火表演哦，長官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "不知道能不能在轿厢升到最高处时看到……要是那样就太好了。",
+			say = "不知道能不能在轎廂升到最高處時看到……要是那樣就太好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "——从模拟项目离开后，不知不觉就演变成了在游乐园乘坐摩天轮的状况。",
+			say = "——從模擬計畫離開後，不知不覺就演變成了在遊樂園乘坐摩天輪的狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "那个！长官，我有问题想问。",
+			say = "那個！長官，我有問題想問。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "长官今天带我出来，其实根本就不是巡查对吧？",
+			say = "長官今天帶我出來，其實根本就不是巡查對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "就、就是说……现在的我们，多少有点像是在……",
+			say = "就、就是說…現在的我們，多少有點像是在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "意料之外的是，{namecode:460}自己揭开了烦恼的面纱——",
+			say = "意料之外的是，塞德利茨自己揭開了煩惱的面紗——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 			},
 			options = {
 				{
-					content = "很担心你。",
+					content = "很擔心妳。",
 					flag = 1
 				},
 				{
-					content = "没错。",
+					content = "沒錯。",
 					flag = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……不过我现在已经完全没问题了。",
+			say = "抱歉……不過我現在已經完全沒問題了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，其、其实我也……",
+			say = "唔，其實我也……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不，没什么！",
+			say = "……不，沒什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "所以，如果不是巡查的话，长官岂不是根本就是在和我在……约、约会？",
+			say = "所以，如果不是巡查的話，長官豈不是根本就是在跟我在……約、約會？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是的……下次直接说、说出来也可以的…………",
+			say = "真是的……下次直接說、說出來也可以的…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "如果是长官的邀请，{namecode:460}肯定不会拒绝的！",
+			say = "如果是長官的邀請，塞德利茨一定不會拒絕的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "只是感觉你有些犹豫。",
+			say = "只是感覺妳有點猶豫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔，您观察得未免太过仔细了……",
+			say = "唔，您觀察的未免太過仔細了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我曾经在疑惑，这样迷茫的我能不能回应您的期待。",
+			say = "我曾經在疑惑，這樣迷茫的我會不會能回應您的期待。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过现在的话，我想，我在犹豫的其实是另一件事。",
+			say = "不過現在的話，我想，我在猶豫的其實是另一件事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "在此时此景，究竟该说“很乐意”还是“最喜欢你”……",
+			say = "在此時此景，究竟該說「很樂意」還是「最喜歡你」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "但我已经想好了，这里应该由我来发起冲锋才是……！",
+			say = "但我已經想好了，這裡應該由我來發動衝鋒才對……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恕我僭越，长官，请接受我对您的——",
+			say = "恕我孿越，長官，請接受我對您的——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "——于是，在摩天轮的轿厢划过最高点时，绚烂的烟花也恰到好处地绽放开来。",
+			say = "——於是，在摩天輪的轎廂劃過最高點時，絢爛的煙火也恰到好處地綻放開來。",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,

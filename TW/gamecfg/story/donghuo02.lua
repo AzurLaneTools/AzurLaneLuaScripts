@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是什麼人……居然能把塞壬的試驗場摧毀成這樣…",
+			say = "究竟是什麼人……居然能把塞壬的實驗場摧毀成這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

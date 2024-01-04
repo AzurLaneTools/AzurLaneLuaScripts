@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
-			say = "——全过程一小时二十二分。",
+			say = "——全过程一小时四十二分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

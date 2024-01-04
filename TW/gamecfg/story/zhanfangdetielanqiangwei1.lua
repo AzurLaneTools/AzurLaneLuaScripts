@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>一　桑德菈不对劲？</size>",
+					"綻放的鐵藍薔薇\n\n<size=45>一　塞德利茨不對勁？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "清晨·指挥室",
+			say = "清晨·指揮室。",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在处理{namecode:460}交过来的文件时，发现了几个低级错误——",
+			say = "在處理塞德利茨交過來的文件時，發現了幾個低階錯誤——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "这里写错了。",
+					content = "這裡寫錯了。",
 					flag = 1
 				}
 			}
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "怎、怎么会这样……标号居然全反了……",
+			say = "怎、怎麼會這樣……標號居然全反了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "抱歉，长官……",
+			say = "抱歉，長官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "悄悄观察了一番，{namecode:460}确实有些无精打采的样子。",
+			say = "悄悄觀察了一番，塞德利茨確實有些無精打采的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "而平时的{namecode:460}应该是这个样子的——",
+			say = "而平常的塞德利茨應該是這個樣子的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我会在长官面前好好表现的！",
+			say = "我會在長官面前好好表現的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "大家回来了，需要我帮您去清点物资吗？",
+			say = "大家回來了，需要我幫您去清點物資嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "没关系，剩下的任务放心交给我，长官！",
+			say = "沒關係，剩下的任務放心交給我，長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "是！不论什么任务，{namecode:460}都会严格按您制定的标准完成！",
+			say = "是！不論什麼任務，塞德利茨都會嚴格按照您所訂定的標準完成！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,14 +401,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:460}她究竟是怎么了，问题好像还蛮严重的样子。",
+			say = "塞德利茨她究竟是怎麼了，問題好像還蠻嚴重的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问无精打采的原因。",
+					content = "詢問無精打采的原因。",
 					flag = 1
 				}
 			}
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "其实……",
+			say = "其實……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昨日铁血宿舍的猫咪走失，出于担心，花了一整晚的时间寻找。",
+			say = "昨天鐵血宿舍的貓咪走失，出於擔心，花了一整晚的時間尋找。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "因为搜寻过程中耗费了太多精力，结果就……唔！十分抱歉，长官！",
+			say = "因為搜尋過程中耗費了太多精力，結果就……唔！十分抱歉，長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我不应该给自己找理由的！",
+			say = "我不該為自己找理由的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "总、总之，猫咪已经于早上自行返回！所以我、我……呜………………",
+			say = "總、總之，貓咪已經在早上自行返回！所以我、我……嗚………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			},
 			options = {
 				{
-					content = "原来如此。",
+					content = "原來如此。",
 					flag = 1
 				}
 			},
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "猫咪也真是的，有点太我行我素了，简直就和{namecode:427}一样……",
+			say = "貓咪也真是的，有點太我行我素了，簡直就跟歐根親王一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "再怎么说，就算要出去也该提前打个报告呀！",
+			say = "再怎麼說，就算要出去也該提前提交報告呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "早上回来的时候，浑身还脏兮兮的，一看就是跑去哪里撒欢了！",
+			say = "早上回來的時候，全身還髒兮兮的，一看就是跑去哪裡撒歡了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "看来猫猫对她造成了身体和精神上的双重打击。",
+			say = "看來貓貓對她造成的是身體和精神上的雙重打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是一点规矩都没有了……",
+			say = "真是一點規矩都沒有了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次一定要教会这只猫遵守门禁制度才行……",
+			say = "下次一定要教會這隻貓遵守門禁規定才行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "还是给她打杯咖啡，让她暂时放松一下吧——",
+			say = "還是幫她泡杯咖啡，讓她暫時放鬆一下吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

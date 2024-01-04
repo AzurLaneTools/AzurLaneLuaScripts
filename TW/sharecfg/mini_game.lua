@@ -2289,6 +2289,59 @@ pg.mini_game = {
 			2
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "BeachGuardGameView",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "PVZ小游戏复刻",
+		config_data = "",
+		config_csv = "",
+		id = 63,
+		hub_id = 52,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					7,
+					102233,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2494,6 +2547,7 @@ pg.mini_game = {
 		60,
 		61,
 		62,
+		63,
 		1001,
 		1002,
 		1003,

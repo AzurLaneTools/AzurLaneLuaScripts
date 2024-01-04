@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			actorName = "伊丽莎白女王·META",
 			bgm = "theme-shallowoftheworld",
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "噢~这套防护装置倒是有点意思。",
 			painting = {
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "不要紧，除了你之外没人能听到本王的声音。",
 			painting = {
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "没想到短短数周，你居然能做到如此程度……",
 			painting = {
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "不过，对于你们即将要面对的危险而言，还是远远不够的。",
 			painting = {
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "不得不说，真是人不可貌相，以你们这种科技等级的实验场居然能在陆间海整出那么大的动静。",
 			painting = {
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "洒向虚空的光芒连本王都看得清清楚楚哦。",
 			painting = {
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "因此我很确信，你们的世界已经被某些更加危险的存在盯上了。",
 			painting = {
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "虽然本应立即开始清盘程序的塞壬却迟迟没有行动，这一点让我有些意外……",
 			painting = {
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "但从某种意义上来说，这样反而更糟糕，或许是它们判定这个世界已经绝对没救了吧。",
 			painting = {
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "正如之前所说，我有把皇家的所有重要人员与物资，甚至包括你们的盟友一同撤离到安全世界的能力。",
 			painting = {
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "与其在这里浪费时间，不如考虑一下本王的撤离计划如何？",
 			painting = {
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "……现在明明是你有求于本王吧。",
 			painting = {

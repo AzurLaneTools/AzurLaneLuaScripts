@@ -5,10 +5,35 @@ slot1 = {
 	"kelifulan",
 	"xingzuo"
 }
-slot2 = "ui/activityuipage/skinguide5page_atlas"
+slot2 = nil
+slot3 = "ui/activityuipage/skinguide5page_atlas"
 
 function slot0.OnInit(slot0)
 	slot0.ad = slot0:findTF("AD")
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		uv0 = {
+			Vector2(-488, 52),
+			Vector2(-420, -41),
+			Vector2(102, -82),
+			Vector2(-471, -128)
+		}
+	elseif PLATFORM_CODE == PLATFORM_US then
+		uv0 = {
+			Vector2(-480, 189),
+			Vector2(-445, -101),
+			Vector2(-410, -101),
+			Vector2(-354, -108)
+		}
+	else
+		uv0 = {
+			Vector2(-490, 130),
+			Vector2(-400, -128),
+			Vector2(89, 10),
+			Vector2(-478, 57)
+		}
+	end
+
 	slot0.paint = findTF(slot0.ad, "paint")
 	slot0.paintGot = findTF(slot0.paint, "show/got")
 	slot0.paintAnim = GetComponent(slot0.paint, typeof(Animator))
@@ -110,19 +135,22 @@ function slot0.selectItem(slot0, slot1)
 	setActive(slot0.get, not slot0.taskProxy:getFinishTaskById(slot0.skinDatas[slot1].task) and slot0.remainCnt > 0)
 	setActive(slot0.getBound, not slot5 and slot0.remainCnt > 0)
 	setActive(slot0.got, slot5)
+
+	slot0.paintGot.anchoredPosition = uv0[slot1]
+
 	setActive(slot0.paintGot, slot5)
 
 	slot6 = GetComponent(findTF(slot0.paint, "show"), typeof(Image))
-	slot6.sprite = GetSpriteFromAtlas(uv0, "bg_" .. slot0.skinDatas[slot1].name)
+	slot6.sprite = GetSpriteFromAtlas(uv1, "bg_" .. slot0.skinDatas[slot1].name)
 
 	slot6:SetNativeSize()
 
 	slot7 = GetComponent(findTF(slot0.paint, "temp"), typeof(Image))
 
 	if slot0.selectIndex then
-		slot7.sprite = GetSpriteFromAtlas(uv0, "bg_" .. slot0.skinDatas[slot0.selectIndex].name)
+		slot7.sprite = GetSpriteFromAtlas(uv1, "bg_" .. slot0.skinDatas[slot0.selectIndex].name)
 	else
-		slot7.sprite = GetSpriteFromAtlas(uv0, "bg_" .. slot0.skinDatas[slot1].name)
+		slot7.sprite = GetSpriteFromAtlas(uv1, "bg_" .. slot0.skinDatas[slot1].name)
 	end
 
 	slot7:SetNativeSize()
@@ -200,7 +228,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:updateItemData()
 end
 
-slot3 = 215
+slot4 = 215
 
 function slot0.updateItemPos(slot0, slot1, slot2)
 	slot3 = Vector2(-uv0, 0)

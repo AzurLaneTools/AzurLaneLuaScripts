@@ -240,7 +240,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 16400303,
+							monsterTemplateID = 16580301,
 							delay = 0,
 							corrdinate = {
 								-10,

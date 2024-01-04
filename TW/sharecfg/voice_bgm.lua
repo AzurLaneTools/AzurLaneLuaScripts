@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main-christmas",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "main-christmas"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1180,5 +1180,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "newyear2"
+	},
+	SkinMagazinePage4 = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		time = "",
+		bgm = "story-dazy-style"
+	},
+	NewYear24LoginPage = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
+	},
+	BeachGamePage = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
 	}
 }

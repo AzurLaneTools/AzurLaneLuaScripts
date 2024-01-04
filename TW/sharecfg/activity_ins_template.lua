@@ -9463,67 +9463,140 @@ pg.activity_ins_template = {
 	[347] = {
 		ship_group = 10707,
 		name = "CarVesGAL6",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_347",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_347.png",
+		is_active = 0,
 		sculpture = "dahuangfengII",
 		id = 347,
 		group_id = 347,
 		order = 29,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3184,
+			3186,
+			3188
+		}
 	},
 	[348] = {
 		ship_group = 10705,
 		name = "YorkTown",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_348",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_348.png",
+		is_active = 0,
 		sculpture = "yuekechengII",
 		id = 348,
 		group_id = 348,
 		order = 29,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				19,
+				24,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3193,
+			3195,
+			3197
+		}
 	},
 	[349] = {
 		ship_group = 10125,
 		name = "DD_Hammann",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_349",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_349.png",
+		is_active = 0,
 		sculpture = "hamanII",
 		id = 349,
 		group_id = 349,
 		order = 29,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				12,
+				22
+			},
+			{
+				9,
+				24,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3204,
+			3208,
+			3210
+		}
 	},
 	[350] = {
 		ship_group = 10303,
 		name = "Northampton",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_350",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_350.png",
+		is_active = 0,
 		sculpture = "beianpudunII",
 		id = 350,
 		group_id = 350,
 		order = 29,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				12,
+				23
+			},
+			{
+				15,
+				16,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3215,
+			3217
+		}
 	},
 	[351] = {
 		ship_group = 10701,
 		name = "Langley",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_351",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_351.png",
+		is_active = 0,
 		sculpture = "lanliII",
 		id = 351,
 		group_id = 351,
 		order = 29,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				12,
+				24
+			},
+			{
+				18,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3225,
+			3228
+		}
 	},
 	[367] = {
 		ship_group = 70207,

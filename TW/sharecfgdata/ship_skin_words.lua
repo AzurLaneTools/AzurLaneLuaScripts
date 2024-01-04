@@ -15464,6 +15464,40 @@ _G.pg.base.ship_skin_words[201240] = {
 	}
 }
 
+_G.pg.base.ship_skin_words[201241] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "回來得正好，還沒錯過節目……",
+	mission = "",
+	touch2 = "呀！嚇，嚇到我了……",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "晚上好，指揮官。今晚有新的節目播出呢，想一起來看電視嗎？",
+	mail = "",
+	touch = "指揮官，我在晚上看電視的事情……不要告訴澤西姐姐，可以嗎？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "晚上好，指揮官。今晚有新的節目播出呢，想一起來看電視嗎？",
+	feeling5 = "",
+	main = "魚雷抱枕……抱著它，感覺就很安心……|要是天后也能在一起的話就好了。不過，能讓指揮官陪我，我就已經很開心了，嘿嘿~|聽說，白鷹的幽靈小姐和重櫻的鬼神小姐，好像也對新節目感興趣呢。",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "新節目好像要開始了呢。嘿嘿，有點期待。指揮官期待嗎？",
+	vote = "",
+	hp_warning = "",
+	id = 201241,
+	detail = "呼欸？我的拖鞋去哪裡了……啊，就在我身後嗎？謝謝指揮官……",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[201250] = {
 	feeling1 = "扭扭捏捏，不是個好人",
 	feeling3 = "指揮官，有一點你要搞清楚，我只是想到什麼說什麼，可不是毒舌，比如說“你是蘿○控吧”就是我發自內心的想法",

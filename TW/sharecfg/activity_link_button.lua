@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4607
+			4626
 		}
 	},
 	{
@@ -46,7 +46,8 @@ pg.activity_link_button = {
 		pic = "event_map",
 		order = 1,
 		time = {
-			"default"
+			"default",
+			4626
 		}
 	},
 	[20] = {

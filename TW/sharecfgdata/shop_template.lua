@@ -34968,9 +34968,9 @@ _G.pg.base.shop_template[70505] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -34980,9 +34980,9 @@ _G.pg.base.shop_template[70505] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35019,9 +35019,9 @@ _G.pg.base.shop_template[70506] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35031,9 +35031,9 @@ _G.pg.base.shop_template[70506] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35070,9 +35070,9 @@ _G.pg.base.shop_template[70507] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35082,9 +35082,9 @@ _G.pg.base.shop_template[70507] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35121,9 +35121,9 @@ _G.pg.base.shop_template[70508] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35133,9 +35133,9 @@ _G.pg.base.shop_template[70508] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35172,9 +35172,9 @@ _G.pg.base.shop_template[70509] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35184,9 +35184,9 @@ _G.pg.base.shop_template[70509] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35223,9 +35223,9 @@ _G.pg.base.shop_template[70510] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35235,9 +35235,9 @@ _G.pg.base.shop_template[70510] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35274,9 +35274,9 @@ _G.pg.base.shop_template[70511] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35286,9 +35286,9 @@ _G.pg.base.shop_template[70511] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35325,9 +35325,9 @@ _G.pg.base.shop_template[70513] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35337,9 +35337,9 @@ _G.pg.base.shop_template[70513] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35376,9 +35376,9 @@ _G.pg.base.shop_template[70514] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35388,9 +35388,9 @@ _G.pg.base.shop_template[70514] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35427,9 +35427,9 @@ _G.pg.base.shop_template[70515] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35439,9 +35439,9 @@ _G.pg.base.shop_template[70515] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35478,9 +35478,9 @@ _G.pg.base.shop_template[70516] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35490,9 +35490,9 @@ _G.pg.base.shop_template[70516] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -35529,9 +35529,9 @@ _G.pg.base.shop_template[70517] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -35541,9 +35541,9 @@ _G.pg.base.shop_template[70517] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -52319,7 +52319,7 @@ _G.pg.base.shop_template[90075] = {
 
 _G.pg.base.shop_template[90076] = {
 	time_second = 172800,
-	resource_type = 202,
+	resource_type = 296,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：贝拉罗斯睡衣",
@@ -52343,9 +52343,9 @@ _G.pg.base.shop_template[90076] = {
 	time = {
 		{
 			{
-				2022,
-				2,
-				24
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -52355,9 +52355,9 @@ _G.pg.base.shop_template[90076] = {
 		},
 		{
 			{
-				2022,
-				3,
-				9
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -52370,7 +52370,7 @@ _G.pg.base.shop_template[90076] = {
 
 _G.pg.base.shop_template[90077] = {
 	time_second = 172800,
-	resource_type = 202,
+	resource_type = 296,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：基洛夫睡衣",
@@ -52394,9 +52394,9 @@ _G.pg.base.shop_template[90077] = {
 	time = {
 		{
 			{
-				2022,
-				2,
-				24
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -52406,9 +52406,9 @@ _G.pg.base.shop_template[90077] = {
 		},
 		{
 			{
-				2022,
-				3,
-				9
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -52421,7 +52421,7 @@ _G.pg.base.shop_template[90077] = {
 
 _G.pg.base.shop_template[90078] = {
 	time_second = 172800,
-	resource_type = 202,
+	resource_type = 296,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "限时皮肤体验：恰巴耶夫睡衣",
@@ -52445,9 +52445,9 @@ _G.pg.base.shop_template[90078] = {
 	time = {
 		{
 			{
-				2022,
-				2,
-				24
+				2024,
+				1,
+				4
 			},
 			{
 				0,
@@ -52457,9 +52457,9 @@ _G.pg.base.shop_template[90078] = {
 		},
 		{
 			{
-				2022,
-				3,
-				9
+				2024,
+				1,
+				10
 			},
 			{
 				23,
@@ -67087,6 +67087,230 @@ _G.pg.base.shop_template[200229] = {
 				2023,
 				11,
 				29
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200230] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "500钻石购买家具币礼包（北境复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200230,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2024,
+				1,
+				4
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				1,
+				10
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200231] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时建造补给（北境复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200231,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2024,
+				1,
+				4
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				1,
+				10
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200232] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给（北境复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200232,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2024,
+				1,
+				4
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				1,
+				10
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200233] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "300钻石购买心智单元礼包（北境复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200233,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2024,
+				1,
+				4
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				1,
+				10
 			},
 			{
 				23,

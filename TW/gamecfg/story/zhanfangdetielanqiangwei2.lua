@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>二　桑德菈式逻辑</size>",
+					"綻放的鐵藍薔薇\n\n<size=45>二　塞德利茨式邏輯</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "借着查询档案的空档，去休息室倒了杯咖啡。",
+			say = "藉著查詢檔案的空檔，到休息室倒了杯咖啡。",
 			bgmDelay = 2,
 			bgm = "story-richang-3",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但正准备返回指挥室时，却听到了指挥室门口的交谈声。",
+			say = "但正準備返回指揮室時，卻聽到了指揮室門口的交談聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长官命令，凡到访者都需要出示指挥官的凭条。",
+			say = "長官命令，凡來訪者都需要出示指揮官的憑證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "哦……！{namecode:460}啊。气势不错哦。",
+			say = "哦……！塞德利茨啊。氣勢不錯哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢夸奖……但是别想蒙混过关！",
+			say = "謝謝誇獎……但是別想蒙混過關！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "哎呀，这招不管用嘛……！那如果我有急事要见指挥官呢？",
+			say = "哎呀，這招不管用嘛……！那我要是有急事要見指揮官呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要找到长官说明情况就可以了。",
+			say = "只要找到長官說明情況就可以了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "但没有凭条的话，是没法见到指挥官的。",
+			say = "但沒有憑證的話，是沒辦法見到指揮官的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "那你要先拿到凭条……",
+			say = "那你要先拿到憑證……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "门口安静了几秒钟，紧接着传出一阵笑声。",
+			say = "門口安靜了幾秒鐘，緊接著指揮室的門口傳出一陣笑聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "对、对不起，但真的有点好笑……！",
+			say = "對不起，但真的有點好笑……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "没想到居然有人能察觉其中的笑点，你也不赖嘛——",
+			say = "沒想到居然有人能察覺其中的笑點，你也不賴嘛——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "这个文件记得交给指挥官，我先走了，祝你工作顺利哦。",
+			say = "這個文件記得交給指揮官，我先走了，祝妳工作順利哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "你也是，前卫小姐！",
+			say = "妳也是，前衛小姐！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听起来，那个熟悉的{namecode:460}又回来了。",
+			say = "聽起來，那個熟悉的塞德利茨又回來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "周围又恢复了平静，走出拐角朝着{namecode:460}打了个招呼。",
+			say = "周圍又恢復了平靜，走出轉角朝著塞德利茨打了個招呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "啊，长官好！请进——",
+			say = "啊，長官好！請進——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,11 +309,11 @@ return {
 			},
 			options = {
 				{
-					content = "我是不是该先写份凭条？",
+					content = "我是不是該先寫個憑證？",
 					flag = 1
 				},
 				{
-					content = "不需要凭条么？",
+					content = "不需要憑證嗎？",
 					flag = 2
 				}
 			}
@@ -327,7 +327,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……真是的，不要笑我啊，长官。",
+			say = "啊……真是的，不要笑我啊，長官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然……不用。",
+			say = "當然……不用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，我才没有那么死板呢，长官！",
+			say = "真是的，我才沒有那麼死板呢，長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉~要是大家都像长官还有前卫小姐一样就好了。",
+			say = "唉~要是大家都像長官還有前衛小姐一樣就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			},
 			options = {
 				{
-					content = "把咖啡递给{namecode:460}。",
+					content = "把咖啡遞給塞德利茨。",
 					flag = 1
 				}
 			}
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……！长官是专门给我倒了杯咖啡么！",
+			say = "欸……！長官是專門幫我倒了杯咖啡嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢、谢谢！非常感谢，长官！",
+			say = "謝、謝謝！非常感謝，長官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,14 +457,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:460}紧绷的神色稍微舒缓了下来，这时候的话……",
+			say = "塞德利茨緊繃的神情稍微舒緩了下來，這時候的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有什么烦恼么？",
+					content = "有什麼煩惱嗎？",
 					flag = 1
 				}
 			}
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "当然是在想我和长…………唔！没没没没有……！",
+			say = "當然是在想我和長…………唔！沒沒沒沒有……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "什么事都没有，长官！我绝对什么都没想……没在烦恼！",
+			say = "什麼事都沒有，長官！我絕對什麼都沒想……沒在煩惱！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:460}的脸此时不知为何微微泛红。",
+			say = "塞德利茨的臉此時不知為何微微泛紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……看来有继续进行观察的必要呢。",
+			say = "嗯……看來有繼續進行觀察的必要呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

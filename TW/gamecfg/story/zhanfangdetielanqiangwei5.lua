@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>五　辽阔的草原辽阔的心</size>",
+					"綻放的鐵藍薔薇\n\n<size=45>五　遼闊的草原遼闊的心</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "当周围的空间再次亮起的时候，自己已经置身于一望无际的草原上了。",
+			say = "當周圍的空間再次亮起的時候，自己已經置身於一望無際的草原上了。",
 			bgmDelay = 2,
 			bgm = "story-richang-7",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "简直就像是梦中的光景一般。",
+			say = "簡直就像是夢中的光景一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是辽阔呢…………",
+			say = "真是遼闊呢…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "原来草原真的能像海洋一样无边无际。",
+			say = "原來草原真的能像海洋一樣無邊無際。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "这里的体验和你记忆中的草原一样么？",
+			say = "這裡的體驗和妳記憶中的草原一樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……？其实我没见过真正的草原，长官。",
+			say = "欸……？其實我沒見過真正的草原，長官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我对草原的了解，都来自于书籍和照片……",
+			say = "我對草原的了解，都來自於書籍和照片……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "不过，能够体验在广袤草原中自由骑行的感觉，我就已经十分满足了。",
+			say = "不過，能夠體驗在廣袤草原中自由騎乘的感覺，我已經十分滿足了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			},
 			options = {
 				{
-					content = "喜欢这种感觉么？",
+					content = "喜歡這種感覺嗎？",
 					flag = 1
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔……这种无拘无束的感觉么？",
+			say = "嗯……這種無拘無束的感覺嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "……老实说，我没想过，长官。",
+			say = "……老實說，我沒想過，長官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我一直为了能回应大家的期待而努力……虽然并不轻松，但至少也有目标。",
+			say = "我一直為了能回應大家的期待而努力……雖然並不輕鬆，但至少也有目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:461}也说过，我这样未免也太累了，不如找些属于自己的兴趣。",
+			say = "呂措也說過，我這樣未免也太累了，不如找些屬於自己的興趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "也许随心所欲按自己喜好度过每一天也不错……",
+			say = "也許隨心所欲按自己喜好度過每一天也不錯……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长官，您有时候会觉得，自己是在原地打转么？",
+			say = "長官，您有時候會覺得，自己在原地打轉嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "没有。",
+					content = "沒有。",
 					flag = 2
 				}
 			}
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "……但长官您看起来并不烦恼。",
+			say = "……但長官您看起來並不煩惱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "现在的我，还不能回应您的期待呢，长官。",
+			say = "現在的我，還不能回應您的期待呢，長官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "…………啊！猎物出现了！",
+			say = "…………啊！獵物出現了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "长官，我们快去把它捉住吧！",
+			say = "長官，我們快去把它捉住吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "不由自主地随着{namecode:460}冲向了在青草中穿梭的猎物。",
+			say = "不由自主地隨著塞德利茨衝向了在青草中穿梭的獵物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "看着莫名又雀跃起来的{namecode:460}，终于察觉到了奇怪的事实。",
+			say = "看著莫名又雀躍起來的塞德利茨，終於察覺到了奇怪的事實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "说不定{namecode:460}其实根本不是在烦恼——",
+			say = "說不定塞德利茨其實根本不是在煩惱——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

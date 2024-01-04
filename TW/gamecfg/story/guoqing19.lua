@@ -213,7 +213,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "試驗場γ…又完成了一輪測試",
+			say = "實驗場γ…又完成了一輪測試",
 			flashout = {
 				dur = 1.5,
 				alpha = {
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actorName = "觀察者",
 			blackBg = true,
-			say = "嗯？我看看，試驗場γ…啊，原來是“小動物”們的記錄實驗嗎，這是……",
+			say = "嗯？我看看，實驗場γ…啊，原來是“小動物”們的記錄實驗嗎，這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

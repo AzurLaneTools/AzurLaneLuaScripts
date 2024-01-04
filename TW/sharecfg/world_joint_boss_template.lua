@@ -92,7 +92,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "蒼龍·META",
 		painting = "canglong",
 		boss_level_id = 46,
