@@ -212,6 +212,10 @@ function slot0.IsLoading(slot0)
 	return slot0.isloading
 end
 
+function slot0.Disable(slot0)
+	slot0:ClearSpecailBg()
+end
+
 function slot0.Dispose(slot0)
 	slot0:ClearSpecailBg()
 	slot0:ClearMapBg()

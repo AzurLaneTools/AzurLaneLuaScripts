@@ -66777,7 +66777,7 @@ pg.activity_ins_npc_template = {
 		npc_reply_persist = {}
 	},
 	[3918] = {
-		ship_group = 10151,
+		ship_group = 10117,
 		id = 3918,
 		message_persist = "",
 		time_persist = {},
@@ -66798,7 +66798,7 @@ pg.activity_ins_npc_template = {
 		npc_reply_persist = {}
 	},
 	[3921] = {
-		ship_group = 10151,
+		ship_group = 10117,
 		id = 3921,
 		message_persist = "",
 		time_persist = {},
@@ -66826,21 +66826,21 @@ pg.activity_ins_npc_template = {
 		npc_reply_persist = {}
 	},
 	[3925] = {
-		ship_group = 10151,
+		ship_group = 10117,
 		id = 3925,
 		message_persist = "",
 		time_persist = {},
 		npc_reply_persist = {}
 	},
 	[3927] = {
-		ship_group = 10151,
+		ship_group = 10117,
 		id = 3927,
 		message_persist = "",
 		time_persist = {},
 		npc_reply_persist = {}
 	},
 	[3929] = {
-		ship_group = 10151,
+		ship_group = 10117,
 		id = 3929,
 		message_persist = "",
 		time_persist = {},
@@ -67127,7 +67127,7 @@ pg.activity_ins_npc_template = {
 		npc_reply_persist = {}
 	},
 	[3983] = {
-		ship_group = 10231,
+		ship_group = 10305,
 		id = 3983,
 		message_persist = "",
 		time_persist = {},
@@ -67148,21 +67148,21 @@ pg.activity_ins_npc_template = {
 		npc_reply_persist = {}
 	},
 	[3986] = {
-		ship_group = 10231,
+		ship_group = 10305,
 		id = 3986,
 		message_persist = "",
 		time_persist = {},
 		npc_reply_persist = {}
 	},
 	[3988] = {
-		ship_group = 10231,
+		ship_group = 10305,
 		id = 3988,
 		message_persist = "",
 		time_persist = {},
 		npc_reply_persist = {}
 	},
 	[3990] = {
-		ship_group = 10231,
+		ship_group = 10305,
 		id = 3990,
 		message_persist = "",
 		time_persist = {},

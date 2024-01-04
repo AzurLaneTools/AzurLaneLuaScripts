@@ -82,6 +82,7 @@ pg.benefit_buff_template = setmetatable({
 		78,
 		79,
 		80,
+		81,
 		101,
 		102,
 		103,
@@ -1512,6 +1513,19 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
+	},
+	{
+		type_priority = 0,
+		name = "ぽかぽかドリンク",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "寮舎配置艦船のコンディション回復速度UP",
+		benefit_effect = "1",
+		id = 81,
+		icon = "Props/60458",
+		benefit_type = "dorm_energy"
 	},
 	[101] = {
 		type_priority = 1,

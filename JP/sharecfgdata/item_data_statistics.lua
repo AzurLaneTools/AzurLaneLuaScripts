@@ -234588,6 +234588,30 @@ _G.pg.base.item_data_statistics[60457] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60458] = {
+	display = "寮舎配置艦船のコンディション回復速度UP",
+	name = "ぽかぽかドリンク",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 100,
+	is_world = 0,
+	icon = "Props/60458",
+	id = 60458,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
