@@ -1224,7 +1224,7 @@ pg.login = {
 	},
 	[44] = {
 		id = 44,
-		op_play = 1,
+		op_play = 0,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",

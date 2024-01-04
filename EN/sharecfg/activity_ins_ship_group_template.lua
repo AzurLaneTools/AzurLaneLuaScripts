@@ -413,7 +413,7 @@ pg.activity_ins_ship_group_template = {
 	[10117] = {
 		ship_group = 10117,
 		name = "Lafite.82",
-		sculpture = "lafei"
+		sculpture = "lafeiII_3"
 	},
 	[20101] = {
 		ship_group = 20101,
@@ -2285,11 +2285,6 @@ pg.activity_ins_ship_group_template = {
 		name = "Guam",
 		sculpture = "guandao"
 	},
-	[10151] = {
-		ship_group = 10151,
-		name = "Laffey II",
-		sculpture = "lafeiII"
-	},
 	[10401] = {
 		ship_group = 10401,
 		name = "Constellation",
@@ -2320,9 +2315,9 @@ pg.activity_ins_ship_group_template = {
 		name = "Louisville",
 		sculpture = "luyisiweier"
 	},
-	[10231] = {
-		ship_group = 10231,
-		name = "Houston II",
+	[10305] = {
+		ship_group = 10305,
+		name = "Houston",
 		sculpture = "xiusidunII_2"
 	},
 	[19904] = {
@@ -2813,14 +2808,13 @@ pg.activity_ins_ship_group_template = {
 		1100005,
 		1100004,
 		11802,
-		10151,
 		10401,
 		10702,
 		10808,
 		10730,
 		20203,
 		10327,
-		10231,
+		10305,
 		19904,
 		49909,
 		39906,

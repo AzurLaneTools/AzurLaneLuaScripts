@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5131",
+		param = "5154",
 		id = 1,
 		pic = "temp5",
 		type = 3,
 		time = {
 			{
 				{
-					2023,
-					12,
-					21
+					2024,
+					1,
+					4
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2024,
 					1,
-					3
+					17
 				},
 				{
 					23,

@@ -623,7 +623,7 @@ pg.expedition_constellation_challenge_template = {
 		description = {
 			{
 				"Ever-Changing Light",
-				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>40.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>30</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>20.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>40.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>30</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>20.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
 				"Domain of the Stars",
@@ -652,7 +652,7 @@ pg.expedition_constellation_challenge_template = {
 		description = {
 			{
 				"Ever-Changing Light",
-				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>60.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>50</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>40.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>60.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>50</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>40.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
 				"Domain of the Stars",
@@ -681,7 +681,7 @@ pg.expedition_constellation_challenge_template = {
 		description = {
 			{
 				"Ever-Changing Light",
-				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>80.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>70</color> non-volley shells; when all these shields have been destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>60.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>80.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>70</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>60.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
 				"Domain of the Stars",

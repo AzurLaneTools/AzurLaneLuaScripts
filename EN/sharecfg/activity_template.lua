@@ -8911,6 +8911,129 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5152] = {
+		mark = 20240104,
+		config_client = "",
+		title_res_tag = "NewYear24_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 50,
+		is_show = 50,
+		id = 5152,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewYear24LoginPage",
+			ui_name = "NewYear24LoginPage"
+		}
+	},
+	[5153] = {
+		mark = 20240104,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 81,
+		is_show = 0,
+		config_client = "",
+		id = 5153,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5154] = {
+		mark = 20240104,
+		config_client = "",
+		title_res_tag = "beachgamepage",
+		type = 57,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 50,
+		id = 5154,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BeachGamePage",
+			ui_name = "BeachGamePage"
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		id = 7011,
@@ -32835,6 +32958,9 @@ pg.activity_template = {
 		5149,
 		5150,
 		5151,
+		5152,
+		5153,
+		5154,
 		7011,
 		7012,
 		7013,

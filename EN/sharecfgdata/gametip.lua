@@ -23232,17 +23232,17 @@ _G.pg.base.gametip.pvzminigame_help = {
 			info = [[
 - Sirens vs Swimsuits Overview -
 Deploy manjuus and shipgirls in swimsuits on the playing field and take out all the encroaching Sirens to rack up points.
-<color=#92fc63>A new stage will unlock</color> every day at midnight up to <color=#92fc63>December 28th, 2022</color>.
-Complete all stages to receive Birmingham's new skin, To Where the Wind Blows.
+<color=#92fc63>A new stage will unlock</color> every day at midnight up to <color=#92fc63>January 10th, 2024</color>.
+Complete all stages to receive Birmingham's skin, To Where the Wind Blows.
 
 - How to Play -
-· Drag and drop a unit to place it on the playing field. Units cost fireworks to deploy.
+· Drag and drop a unit to place them on the playing field. Units cost fireworks to deploy.
 · Every unit comes with a special ability. You may only place 1 of each shipgirl.
 · There are 3 types of manjuus available: Fightjuus, Defendjuus, and Prodjuucers.
 Deploying Prodjuucers generates more fireworks for you to use.
 The shipgirls you can deploy are Noshiro, Cheshire, Kashino, Littorio, and Birmingham.
 For more details on the abilities of all friendly and enemy units, consult the Game Guide.
-· You can tap the shovel icon in the bottom right corner of the screen to remove your units from the field, but no firework will be refunded.
+· You can tap the shovel icon in the bottom right corner of the screen to remove your units from the field, but no fireworks will be refunded.
 · The minigame ends after either a game over, or when you exit it early.]]
 		}
 	}
