@@ -1985,7 +1985,7 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			59010,
-			4000
+			5000
 		}
 	},
 	doa_fever_count = {
