@@ -603,7 +603,7 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
 	slot0.finishActionCB = slot2
 	slot0.animEventCB = slot4
 
-	if not uv0(slot0, slot1, slot3) then
+	if not uv0(slot0, slot1, slot3) and slot0.animEventCB then
 		slot0.animEventCB(false)
 	end
 end
