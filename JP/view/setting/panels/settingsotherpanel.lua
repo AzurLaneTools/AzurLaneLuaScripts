@@ -133,6 +133,17 @@ function slot0.OnUpdateItem(slot0, slot1)
 	end
 end
 
+function slot0.OnUpdateItemWithTr(slot0, slot1, slot2)
+	setActive(findTF(slot2, "mask/tip"), false)
+
+	if slot1.id == 18 then
+		onButton(slot0, slot3, function ()
+			pg.m02:sendNotification(NewSettingsMediator.SHOW_DESC, uv0)
+		end, SFX_PANEL)
+		setActive(slot3, true)
+	end
+end
+
 function slot0.GetDefaultValue(slot0, slot1)
 	if slot1.id == 1 then
 		return pg.PushNotificationMgr.GetInstance():isEnableShipName()

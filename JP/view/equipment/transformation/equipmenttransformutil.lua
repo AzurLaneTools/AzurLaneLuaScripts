@@ -71,14 +71,17 @@ return {
 				slot4[slot21] = (slot4[slot20[1]] or slot3:getItemCountById(slot21) or 0) - slot20[2]
 
 				if slot4[slot21] < 0 then
-					return false, pg.item_data_statistics[slot21] and slot24.name
+					return false, Item.getConfigData(slot21) and slot24.name
 				end
 			end
 
 			slot4.gold = (slot4.gold or slot2:getRawData().gold or 0) - slot11.coin_consume
 
 			if slot4.gold < 0 then
-				return false, pg.item_data_statistics[id2ItemId(1)].name
+				return false, getDropName({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResGold
+				})
 			end
 
 			for slot19, slot20 in pairs(slot12) do
@@ -108,9 +111,12 @@ return {
 			end
 		elseif slot1.type == DROP_TYPE_ITEM then
 			if slot4.gold < slot1.composeCfg.gold_num then
-				return false, pg.item_data_statistics[id2ItemId(1)].name
+				return false, getDropName({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResGold
+				})
 			elseif (slot3:getItemCountById(slot1.composeCfg.material_id) or 0) < slot1.composeCfg.material_num then
-				return false, pg.item_data_statistics[slot1.composeCfg.material_id].name
+				return false, Item.getConfigData(slot1.composeCfg.material_id).name
 			end
 
 			slot4.gold = slot4.gold - slot1.composeCfg.gold_num
@@ -141,14 +147,17 @@ return {
 				slot4[slot22] = (slot4[slot21[1]] or slot3:getItemCountById(slot22) or 0) - slot21[2]
 
 				if slot4[slot22] < 0 then
-					return false, pg.item_data_statistics[slot22] and slot25.name
+					return false, Item.getConfigData(slot22) and slot25.name
 				end
 			end
 
 			slot4.gold = slot4.gold - slot12.coin_consume
 
 			if slot4.gold < 0 then
-				return false, pg.item_data_statistics[id2ItemId(1)].name
+				return false, getDropName({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResGold
+				})
 			end
 
 			for slot20, slot21 in pairs(slot13) do

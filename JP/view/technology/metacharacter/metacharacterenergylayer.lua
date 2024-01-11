@@ -316,7 +316,7 @@ function slot0.updateMaterialPanel(slot0, slot1)
 
 		onButton(slot0, slot0.activeBtnDisable, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("switch_to_shop_tip_2", i18n("word_gold")) .. "\n" .. i18n("text_noRes_tip", i18n("text_noRes_info_tip", pg.item_data_statistics[59001].name, uv0 - uv1)),
+				content = i18n("switch_to_shop_tip_2", i18n("word_gold")) .. "\n" .. i18n("text_noRes_tip", i18n("text_noRes_info_tip", Item.getConfigData(59001).name, uv0 - uv1)),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
 					if getProxy(ContextProxy):getCurrentContext():getContextByMediator(MetaCharacterMediator) then

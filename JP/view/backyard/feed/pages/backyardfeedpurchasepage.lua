@@ -43,7 +43,7 @@ function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UpdateFood(slot1)
 
-	slot3 = pg.shop_template[pg.item_data_statistics[slot1].shop_id]
+	slot3 = pg.shop_template[Item.getConfigData(slot1).shop_id]
 	slot6 = 1
 	slot0.total.text = slot3.resource_num * slot6
 
@@ -100,7 +100,10 @@ function slot0.Purchase(slot0, slot1)
 		if slot1.resourceType == 4 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
 		elseif slot1.resourceType ~= 2 or not ItemTipPanel.ShowOilBuyTip(slot1.resourceNum * slot1.count) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_error_noResource", pg.item_data_statistics[id2ItemId(slot1.resourceType)].name))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_error_noResource", getDropName({
+				type = DROP_TYPE_RESOURCE,
+				id = slot1.resourceType
+			})))
 		end
 
 		slot0:Hide()
@@ -113,7 +116,7 @@ function slot0.Purchase(slot0, slot1)
 end
 
 function slot0.UpdateFood(slot0, slot1)
-	slot2 = pg.item_data_statistics[slot1]
+	slot2 = Item.getConfigData(slot1)
 
 	updateItem(slot0.foodItem, {
 		type = DROP_TYPE_ITEM,

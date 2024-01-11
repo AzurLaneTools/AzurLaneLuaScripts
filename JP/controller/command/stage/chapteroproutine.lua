@@ -327,17 +327,20 @@ function slot0.doCollectAI(slot0)
 		slot1 = nil
 
 		if slot0.act_type == ChapterConst.ActType_TargetDown then
-			if uv0.op.arg1 == ChapterConst.StrategyMissileStrike then
-				slot1 = ChapterMissileExplodeAction.New(slot0)
-			elseif uv0.op.arg1 == ChapterConst.StrategyAirSupport then
-				slot1 = ChapterAirSupportAIAction.New(slot0)
-			end
+			if uv0.op.type == ChapterConst.OpStrategy then
+				if uv0.op.arg1 == ChapterConst.StrategyMissileStrike then
+					slot1 = ChapterMissileExplodeAction.New(slot0)
+				elseif uv0.op.arg1 == ChapterConst.StrategyAirSupport then
+					slot1 = ChapterAirSupportAIAction.New(slot0)
+				end
 
-			assert(uv0.op.type == ChapterConst.OpStrategy and slot1)
-			slot1:SetTargetLine({
-				row = uv0.op.arg2,
-				column = uv0.op.arg3
-			})
+				slot1:SetTargetLine({
+					row = uv0.op.arg2,
+					column = uv0.op.arg3
+				})
+			else
+				slot1 = ChapterMissileExplodeAction.New(slot0)
+			end
 		elseif slot0.act_type == ChapterConst.ActType_Expel then
 			ChapterExpelAIAction.New(slot0):SetTargetLine({
 				row = uv0.op.arg2,

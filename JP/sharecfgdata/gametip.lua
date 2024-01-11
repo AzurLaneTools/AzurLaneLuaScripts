@@ -10153,7 +10153,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「グアム」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を200回行う度に「ウルリッヒ・フォン・フッテン」が交換可能！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -27114,4 +27114,8 @@ _G.pg.base.gametip.skin_page_sign = {
 
 _G.pg.base.gametip.skin_page_desc = {
 	tip = "ゲームにログインして毎日$1個報酬\nミニストーリーを開放可能！"
+}
+
+_G.pg.base.gametip.live2d_reset_desc = {
+	tip = "L2D演出設定が初期化されました"
 }

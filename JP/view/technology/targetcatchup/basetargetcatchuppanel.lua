@@ -139,7 +139,7 @@ function slot0.updateCharTpl(slot0, slot1, slot2)
 	slot8 = slot0.charIDList[slot1]
 	slot11 = pg.ship_data_blueprint[slot8].strengthen_item
 
-	setText(slot0:findTF("PrintNum/NumText", slot2), math.max(slot0.configCatchup[slot0.tecID].blueprint_max[slot1] - (slot0.bayProxy:findShipByGroup(slot8) and math.floor(slot0:getShipBluePrintCurExp(slot0.technologyProxy:getBluePrintVOByGroupID(slot8)) / pg.item_data_template[slot11].usage_arg[1]) or 0) - slot0.bagProxy:getItemCountById(slot11), 0))
+	setText(slot0:findTF("PrintNum/NumText", slot2), math.max(slot0.configCatchup[slot0.tecID].blueprint_max[slot1] - (slot0.bayProxy:findShipByGroup(slot8) and math.floor(slot0:getShipBluePrintCurExp(slot0.technologyProxy:getBluePrintVOByGroupID(slot8)) / Item.getConfigData(slot11).usage_arg[1]) or 0) - slot0.bagProxy:getItemCountById(slot11), 0))
 	setText(slot0:findTF("NameText", slot2), ShipGroup.getDefaultShipNameByGroupID(slot8))
 	setActive(slot0:findTF("LevelText", slot2), slot9)
 	setActive(slot0:findTF("NotGetTag", slot2), not slot9)

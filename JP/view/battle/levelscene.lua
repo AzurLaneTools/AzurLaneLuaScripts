@@ -418,7 +418,10 @@ function slot0.updateActivityRes(slot0)
 
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
 		setText(slot1, "x" .. slot0.ptActivity.data1)
-		GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(tonumber(slot0.ptActivity:getConfig("config_id")))].icon, "", slot2, true)
+		GetImageSpriteFromAtlasAsync(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = tonumber(slot0.ptActivity:getConfig("config_id"))
+		}), "", slot2, true)
 	end
 end
 

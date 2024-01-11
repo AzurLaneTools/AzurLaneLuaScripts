@@ -192,6 +192,15 @@ pg.settings_other_template = {
 		title = "戦闘結果演出リッチ化",
 		desc = "ONにすると、戦闘結果画面の一部演出がリッチ化されます"
 	},
+	{
+		default = 0,
+		name = "LIVE2D_STATUS_SAVE",
+		type = 0,
+		alignment = 0,
+		id = 18,
+		title = "L2D設定保存",
+		desc = "ONにすると、メイン画面のL2D着せ替えの演出設定が保存され、またメイン画面遷移時の【ログイン】【母港帰還】演出が再生されなくなります"
+	},
 	all = {
 		1,
 		2,
@@ -209,6 +218,7 @@ pg.settings_other_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

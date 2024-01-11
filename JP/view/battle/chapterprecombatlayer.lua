@@ -328,7 +328,7 @@ function slot0.updateStageView(slot0, slot1)
 			id = slot4[2]
 		})
 		onButton(uv1, slot3, function ()
-			if pg.item_data_statistics[uv0[2]] and uv1[slot0.type] then
+			if Item.getConfigData(uv0[2]) and uv1[slot0.type] then
 				slot2 = uv2
 
 				slot2:emit(ChapterPreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)

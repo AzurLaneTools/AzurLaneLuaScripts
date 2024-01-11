@@ -12,7 +12,7 @@ end
 
 function slot0.init(slot0)
 	slot2 = ActivityConst.ISLAND_GAME_ID
-	slot0.itemConfig = pg.item_data_statistics[pg.activity_template[slot2].config_client.item_id]
+	slot0.itemConfig = Item.getConfigData(pg.activity_template[slot2].config_client.item_id)
 	slot0.num = getProxy(MiniGameProxy):GetHubByHubId(pg.activity_template[slot2].config_id).count or 0
 	slot0.dayLimit = pg.mini_game_hub[slot4].reborn_times
 	slot0.allWindows = {}

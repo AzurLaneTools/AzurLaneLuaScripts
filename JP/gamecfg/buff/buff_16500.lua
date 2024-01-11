@@ -42,7 +42,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach",
+				"onStartGame",
 				"onHPRatioUpdate"
 			},
 			arg_list = {
@@ -56,7 +56,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach",
+				"onStartGame",
 				"onHPRatioUpdate"
 			},
 			arg_list = {

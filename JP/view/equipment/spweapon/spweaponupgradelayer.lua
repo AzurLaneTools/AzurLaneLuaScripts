@@ -426,7 +426,7 @@ function slot0.AutoSelectMaterials(slot0)
 	end
 
 	function slot5(slot0)
-		return pg.item_data_template[slot0.id].usage_arg[1]
+		return Item.getConfigData(slot0.id).usage_arg[1]
 	end
 
 	table.sort(_.values(_.map(slot0.candicateMaterials, function (slot0)

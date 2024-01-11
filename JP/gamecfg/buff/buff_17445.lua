@@ -37,7 +37,7 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 17302,
+				skill_id = 17445,
 				target = "TargetSelf"
 			}
 		},
@@ -47,7 +47,7 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 17303,
+				skill_id = 17446,
 				target = "TargetSelf"
 			}
 		},
@@ -59,7 +59,7 @@ return {
 			arg_list = {
 				time = 20,
 				target = "TargetSelf",
-				skill_id = 17302
+				skill_id = 17445
 			}
 		},
 		{
@@ -70,7 +70,7 @@ return {
 			arg_list = {
 				time = 20,
 				target = "TargetSelf",
-				skill_id = 17303
+				skill_id = 17446
 			}
 		},
 		{

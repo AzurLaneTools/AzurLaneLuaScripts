@@ -36,7 +36,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 
 	slot1 = ActivityConst.ISLAND_GAME_ID
-	slot0.itemConfig = pg.item_data_statistics[pg.activity_template[slot1].config_client.item_id]
+	slot0.itemConfig = Item.getConfigData(pg.activity_template[slot1].config_client.item_id)
 
 	LoadImageSpriteAsync(slot0.itemConfig.icon, findTF(slot0._tf, "overview/item/img"), true)
 

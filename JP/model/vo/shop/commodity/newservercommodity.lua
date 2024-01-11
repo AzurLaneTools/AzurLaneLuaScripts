@@ -99,13 +99,13 @@ function slot0.CheckTimeLimit(slot0)
 	slot1 = false
 	slot2 = false
 	slot3 = nil
-	slot5 = slot0:getConfig("goods")[1]
+	slot6 = Item.getConfigData(slot0:getConfig("goods")[1])
 
-	if slot0:getConfig("type") == DROP_TYPE_VITEM and pg.item_data_statistics[slot5].virtual_type == 22 then
+	if slot0:getConfig("type") == DROP_TYPE_VITEM and slot6.virtual_type == 22 then
 		slot1 = true
 		slot3 = true
 
-		if getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot5].link_id) and not slot7:isEnd() then
+		if getProxy(ActivityProxy):getActivityById(slot6.link_id) and not slot8:isEnd() then
 			slot2 = true
 		end
 	end

@@ -12,8 +12,6 @@ function slot0.setPlayerVO(slot0, slot1)
 end
 
 function slot0.updateResource(slot0)
-	setText(slot0.resource:Find("label"), pg.item_data_statistics[id2ItemId(slot0.resId)].name)
-
 	slot0.resCount = slot0.playerVO[id2res(slot0.resId)]
 
 	setText(slot0.resource:Find("Text"), slot0.resCount)
@@ -85,7 +83,10 @@ function slot0.didEnter(slot0)
 		slot0.launchTenBtn,
 		slot0.launchMaxBtn
 	}) do
-		GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot0.resId)].icon, "", slot7:Find("res/icon"), true)
+		GetImageSpriteFromAtlasAsync(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = slot0.resId
+		}), "", slot7:Find("res/icon"), true)
 		onButton(slot0, slot7, function ()
 			if not uv0.activityPool then
 				return
@@ -162,7 +163,6 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot0.resId)].icon, "", slot0.resource:Find("icon"), true)
 	slot0:updateResource()
 	slot0:initPoolTFs()
 	slot0:updateActivityPoolState()

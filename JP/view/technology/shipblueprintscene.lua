@@ -2455,23 +2455,23 @@ function slot0.showUnlockPanel(slot0)
 
 	slot1 = slot0.contextData.shipBluePrintVO.id
 	slot2 = slot0.contextData.shipBluePrintVO
-	slot2 = slot2:getUnlockItem()
-	slot3 = slot0.contextData.shipBluePrintVO
-	slot3 = slot3:getShipVO()
-	slot4 = slot3:getPainting()
-	slot5 = slot0.unlockPanel
-	slot5 = slot5:Find("window/content")
-
-	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot4, slot4, slot5:Find("Image/mask/icon"), true)
-	setText(slot5:Find("words/Text"), i18n("techpackage_item_use_1", slot3:getName()))
-	setText(slot5:Find("words/Text_2"), i18n("techpackage_item_use_2", getDropName({
+	slot3 = {
 		type = DROP_TYPE_ITEM,
-		id = slot2
-	})))
+		id = slot2:getUnlockItem()
+	}
+	slot4 = slot0.contextData.shipBluePrintVO
+	slot4 = slot4:getShipVO()
+	slot5 = slot4:getPainting()
+	slot6 = slot0.unlockPanel
+	slot6 = slot6:Find("window/content")
+
+	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot5, slot5, slot6:Find("Image/mask/icon"), true)
+	setText(slot6:Find("words/Text"), i18n("techpackage_item_use_1", slot4:getName()))
+	setText(slot6:Find("words/Text_2"), i18n("techpackage_item_use_2", getDropName(slot3)))
 
 	slot10 = slot0.unlockPanel
 
-	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[slot2].icon, "", slot10:Find("window/confirm_btn/Image/Image"))
+	GetImageSpriteFromAtlasAsync(getDropIcon(slot3), "", slot10:Find("window/confirm_btn/Image/Image"))
 
 	slot8 = slot0.unlockPanel
 

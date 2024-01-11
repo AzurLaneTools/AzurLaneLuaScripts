@@ -27,10 +27,6 @@ slot0.SPWEAPON_MATERIAL_TYPE = 24
 slot0.METALESSON_TYPE = 25
 slot0.SKIN_ASSIGNED_TYPE = 26
 
-function itemId2icon(slot0)
-	return pg.item_data_statistics[slot0].icon
-end
-
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
@@ -39,15 +35,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.count = slot1.num or slot1.number or slot1.count
 	slot0.name = slot1.name
 	slot0.extra = slot1.extra
-	slot0.itemConfigData = setmetatable({}, {
-		__index = function (slot0, slot1)
-			if not pg.item_data_template[uv0.configId] then
-				return nil
-			end
-
-			return slot2[slot1]
-		end
-	})
 end
 
 function slot0.CanOpen(slot0)
@@ -58,12 +45,39 @@ function slot0.IsShipExpType(slot0)
 	return slot0:getConfig("type") == uv0.EXP_BOOK_TYPE
 end
 
-function slot0.bindConfigTable(slot0)
-	return pg.item_data_statistics
+function slot0.getConfigData(slot0)
+	if underscore.all({
+		pg.item_virtual_data_statistics,
+		pg.item_data_statistics
+	}, function (slot0)
+		return slot0[uv0] == nil
+	end) then
+		return nil
+	else
+		return setmetatable({}, {
+			__index = function (slot0, slot1)
+				for slot5, slot6 in ipairs(uv0) do
+					if slot6[uv1] and slot6[uv1][slot1] ~= nil then
+						slot0[slot1] = slot6[uv1][slot1]
+
+						return slot0[slot1]
+					end
+				end
+			end
+		})
+	end
 end
 
-function slot0.getTempCfgTable(slot0)
-	return pg.item_data_template[slot0.id]
+function slot0.getConfigTable(slot0)
+	if not slot0.configData or slot0.configData.id ~= slot0.configId then
+		slot0.configData = uv0.getConfigData(slot0.configId)
+	end
+
+	return slot0.configData
+end
+
+function slot0.CanInBag(slot0)
+	return tobool(pg.item_data_statistics[slot0.configId])
 end
 
 function slot0.couldSell(slot0)
@@ -90,10 +104,6 @@ function slot0.isVirtualItem(slot0)
 	return slot0:getConfig("type") == 0
 end
 
-function slot0.getTempConfig(slot0, slot1)
-	return slot0.itemConfigData[slot1]
-end
-
 function slot0.isEquipmentSkinBox(slot0)
 	return slot0:getConfig("type") == uv0.EQUIPMENT_SKIN_BOX
 end
@@ -114,20 +124,12 @@ function slot0.IsDoaSelectCharItem(slot0)
 	return slot0.id == uv0.DOA_SELECT_CHAR_ID
 end
 
-function slot0.RawGetConfig(slot0, slot1)
-	return uv0.super.getConfig(slot0, slot1)
-end
-
 function slot0.getConfig(slot0, slot1)
-	if slot1 == "display" then
-		if slot0:RawGetConfig("combination_display") and #slot2 > 0 then
-			return slot0:CombinationDisplay(slot2)
-		else
-			return slot0:RawGetConfig(slot1)
-		end
-	else
-		return slot0:RawGetConfig(slot1)
+	if slot1 == "display" and uv0.super.getConfig(slot0, "combination_display") and #slot2 > 0 then
+		return slot0:CombinationDisplay(slot2)
 	end
+
+	return uv0.super.getConfig(slot0, slot1)
 end
 
 function slot0.CombinationDisplay(slot0, slot1)
@@ -148,17 +150,17 @@ function slot0.CombinationDisplay(slot0, slot1)
 end
 
 function slot0.InTimeLimitSkinAssigned(slot0)
-	if pg.item_data_statistics[slot0].type ~= uv0.SKIN_ASSIGNED_TYPE then
+	if uv0.getConfigData(slot0).type ~= uv0.SKIN_ASSIGNED_TYPE then
 		return false
 	end
 
-	return getProxy(ActivityProxy):IsActivityNotEnd(pg.item_data_template[slot0].usage_arg[1])
+	return getProxy(ActivityProxy):IsActivityNotEnd(slot1.usage_arg[1])
 end
 
 function slot0.IsAllSkinOwner(slot0)
 	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
 
-	slot2 = slot0:getTempCfgTable().usage_arg[3]
+	slot2 = slot0:getConfig("usage_arg")[3]
 
 	if Item.InTimeLimitSkinAssigned(slot0.id) then
 		slot2 = table.mergeArray(slot1[2], slot2, true)
@@ -169,6 +171,48 @@ function slot0.IsAllSkinOwner(slot0)
 	return underscore.all(slot2, function (slot0)
 		return uv0:hasNonLimitSkin(slot0)
 	end), slot2
+end
+
+function slot0.GetOverflowCheckItems(slot0, slot1)
+	slot1 = slot1 or 1
+	slot2 = {}
+
+	if slot0:getConfig("usage") == ItemUsage.DROP_LIMIT then
+		-- Nothing
+	end
+
+	switch(slot0:getConfig("type"), {
+		[Item.GOLD_BOX_TYPE] = function ()
+			table.insert(uv0, {
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResGold,
+				count = uv1:getConfig("drop_gold_max") * uv2
+			})
+		end,
+		[Item.OIL_BOX_TYPE] = function ()
+			table.insert(uv0, {
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResGold,
+				count = uv1:getConfig("drop_oil_max") * uv2
+			})
+		end,
+		[Item.EQUIPMENT_BOX_TYPE_5] = function ()
+			table.insert(uv0, {
+				id = 0,
+				type = DROP_TYPE_EQUIP,
+				count = uv1
+			})
+		end,
+		[Item.EQUIPMENT_ASSIGNED_TYPE] = function ()
+			table.insert(uv0, {
+				id = 0,
+				type = DROP_TYPE_EQUIP,
+				count = uv1
+			})
+		end
+	})
+
+	return slot2
 end
 
 return slot0

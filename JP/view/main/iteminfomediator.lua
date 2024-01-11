@@ -17,7 +17,7 @@ function slot0.register(slot0)
 			return
 		end
 
-		uv0.viewComponent:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
+		uv0.viewComponent:PlayOpenBox(slot3:getConfig("display_effect"), function ()
 			uv0:sendNotification(GAME.USE_ITEM, {
 				id = uv1,
 				count = uv2

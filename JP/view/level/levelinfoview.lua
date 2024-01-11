@@ -372,7 +372,7 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3)
 				[99.0] = true
 			}
 
-			if pg.item_data_statistics[uv0[2]] and slot1[slot0.type] then
+			if Item.getConfigData(uv0[2]) and slot1[slot0.type] then
 				slot3 = uv1
 
 				slot3:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, uv1.chapter.id, function (slot0)

@@ -138,7 +138,8 @@ function slot0.Exit(slot0, slot1)
 		slot3, slot4 = uv1:GeneralLoot(slot0)
 
 		uv1.GeneralPlayerCosume(SYSTEM_SCENARIO, uv4, uv5, slot0.player_exp, uv0:getPlayType() == ChapterConst.TypeExtra)
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
+
+		slot5 = {
 			system = SYSTEM_SCENARIO,
 			statistics = uv2.statistics,
 			score = uv6,
@@ -147,7 +148,8 @@ function slot0.Exit(slot0, slot1)
 			result = slot0.result,
 			extraDrops = slot4,
 			exitCallback = uv2.exitCallback
-		})
+		}
+
 		uv3:updateActiveChapterShips()
 
 		slot6 = uv3:getActiveChapter()
@@ -183,6 +185,12 @@ function slot0.Exit(slot0, slot1)
 		if Map.lastMap and slot8 ~= slot7 and slot7 < slot8 then
 			Map.autoNextPage = true
 		end
+
+		uv1:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST, {
+			callback = function ()
+				uv0:sendNotification(GAME.FINISH_STAGE_DONE, uv1)
+			end
+		})
 	end)
 end
 

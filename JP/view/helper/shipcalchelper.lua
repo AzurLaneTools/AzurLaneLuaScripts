@@ -28,17 +28,15 @@ function slot0.CalcDestoryRes(slot0)
 	end
 
 	for slot8, slot9 in pairs(slot3) do
-		slot10 = pg.item_data_statistics[slot9.id]
+		if slot9.count > 0 and slot9.type == DROP_TYPE_VITEM and Item.getConfigData(slot9.id).virtual_type == 20 then
+			slot10 = slot9.count
+			slot11 = pg.gameset.urpt_chapter_max.description
+			slot4 = math.min(slot11[2] - getProxy(BagProxy):GetLimitCntById(slot11[1]), slot10) < slot10
 
-		if slot9.count > 0 and slot9.type == DROP_TYPE_VITEM and slot10.virtual_type == 20 then
-			slot11 = slot9.count
-			slot12 = pg.gameset.urpt_chapter_max.description
-			slot4 = math.min(slot12[2] - getProxy(BagProxy):GetLimitCntById(slot12[1]), slot11) < slot11
-
-			if slot16 <= 0 then
+			if slot15 <= 0 then
 				slot3[slot8].count = 0
 			else
-				slot3[slot8].count = slot16
+				slot3[slot8].count = slot15
 			end
 		end
 	end
