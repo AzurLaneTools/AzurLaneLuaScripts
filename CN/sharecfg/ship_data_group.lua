@@ -21162,7 +21162,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：彩虹的终幕曲",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},

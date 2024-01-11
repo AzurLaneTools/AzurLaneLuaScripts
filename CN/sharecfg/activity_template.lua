@@ -6271,40 +6271,14 @@ pg.activity_template = {
 	},
 	[5078] = {
 		mark = 20231116,
-		id = 5078,
 		title_res_tag = "collection_event_pt",
+		time = "stop",
 		type = 11,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 30,
+		id = 5078,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "CollectionEventPtPage",
 			ui_name = "CollectionEventPtPage"
