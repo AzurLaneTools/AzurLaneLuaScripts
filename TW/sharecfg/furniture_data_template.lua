@@ -15782,7 +15782,7 @@ pg.base.furniture_data_template = {
 	},
 	[255] = {
 		spine_extra = "",
-		describe = "「啊~啊！保持平衡！坐稳——呀！」",
+		describe = "「啊~啊！保持平衡！坐穩——呀！」",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -15792,7 +15792,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "瑜伽弹弹球",
+		name = "瑜珈彈彈球",
 		themeId = 0,
 		icon = "yujiatantanqiuicon",
 		deblocking = 1,

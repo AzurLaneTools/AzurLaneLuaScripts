@@ -6,7 +6,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.InitBtn(slot0)
-	if slot0.type == PlayerVitaeBaseBtn.HRZ_TYPE then
+	if slot0.type == PlayerVitaeBaseBtn.HRZ_TYPE and slot0.btn1 then
 		onButton(slot0, slot0.btn1, function ()
 			Live2dConst.ClearLive2dSave(uv0.ship.skinId, uv0.ship.id)
 		end, SFX_CONFIRM)
@@ -31,6 +31,10 @@ function slot0.RequesetLive2dRes(slot0)
 end
 
 function slot0.checkShowResetL2dBtn(slot0, slot1)
+	if not slot0.btn1 then
+		return
+	end
+
 	slot3 = slot1.id
 	slot4 = pg.ship_skin_template[slot1.skinId].ship_l2d_id
 

@@ -12129,7 +12129,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1730001] = {
 		map = 1730001,
-		name = "奏响鸢尾之歌|| ||CHAPTER SP||S.P.",
+		name = "奏響鳶尾之歌|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",

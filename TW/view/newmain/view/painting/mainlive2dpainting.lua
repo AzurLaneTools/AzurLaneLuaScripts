@@ -153,7 +153,7 @@ function slot0._TriggerEvent(slot0, slot1)
 
 	if not slot9 then
 		slot0.live2dChar:TriggerAction(slot2.action)
-		slot3()
+		slot3(true)
 	else
 		slot0.actionWaiting = true
 
