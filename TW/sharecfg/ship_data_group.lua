@@ -1523,6 +1523,9 @@ pg.ship_data_group = setmetatable({
 		[90201] = {
 			456
 		},
+		[90202] = {
+			598
+		},
 		[90301] = {
 			524
 		},
@@ -2314,6 +2317,7 @@ pg.ship_data_group = setmetatable({
 		556,
 		481,
 		456,
+		598,
 		524,
 		455,
 		352,
@@ -23080,6 +23084,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：穹頂下的聖詠曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[598] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 541,
+		code = 598,
+		group_type = 90202,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：奏響鳶尾之歌",
 				{
 					""
 				},

@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"數年前",
 					1
 				},
 				{
-					"鸢尾教国·首都",
+					"鳶尾教國·首都",
 					2
 				},
 				{
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-vichy-church",
 			bgmDelay = 1,
-			say = "在首都居民敬畏的注视中，黑红色的队伍正缓缓前行着。",
+			say = "在首都居民敬畏的注視中，黑紅色的隊伍正緩緩前行著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "这条在首都享有盛名的道路曾被用于纪念一场伟大的胜利。",
+			say = "這條在首都享有盛名的道路曾被用於紀念一場偉大的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "现在，它被用于纪念另一场毫不留情的胜利。",
+			say = "現在，它被用於紀念另一場毫不留情的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "几天后，教国覆灭的消息将随着刚刚洗好的照片，飘向这个世界的每一个角落。",
+			say = "幾天後，教國覆滅的消息將隨著剛剛洗好的照片，飄向這個世界的每個角落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "观礼台上是……{namecode:523}。",
+			say = "觀禮台上是……讓‧巴爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来……骑士团也做出了决定，一切都要尘埃落定了。",
+			say = "看來……騎士團也做出了決定，一切都要塵埃落地了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……至少骑士团坚持了比审判庭更长的时间。",
+			say = "……至少騎士團堅持了比審判庭更長的時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我是鸢尾教国的首席天使，不能质疑教廷的决定。",
+			say = "我是鳶尾教國的首席天使，不能質疑教廷的決定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "就算是放弃抵抗，留在城里见证教国的失败这样的命令。",
+			say = "就算是放棄抵抗，留在城裡見證教國的失敗這樣的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我也不能质疑。",
+			say = "我也不能質疑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……就算是让我前往维希，见证教国的分裂这样的命令。",
+			say = "……就算是讓我前往維希，見證教國的分裂這樣的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……我也不能质疑。",
+			say = "……我也不能質疑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……因为我是鸢尾教国的首席天使，不能质疑教廷的决定。",
+			say = "……因為我是鳶尾教國的首席天使，我不能質疑教廷的決定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我不能倒下，也不能逃离。",
+			say = "我不能倒下，也不能逃離。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "教国还需要我，这片土地还需要我……",
+			say = "教國還需要我，這片土地還需要我……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "因为我是鸢尾教国的首席天使……",
+			say = "因為我是鳶尾教國的首席天使……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……我不能倒下，也不能逃离。",
+			say = "……我不能倒下，也不能逃離。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 					1
 				},
 				{
-					"圣赫勒拿岛·要塞周边",
+					"聖赫勒拿島·要塞週邊",
 					2
 				},
 				{
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "红黑色的雾气中，黎塞留向着目标艰难接近着。",
+			say = "紅黑色的霧氣中，黎胥留向著目標艱難接近。",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "这些到底是什么东西……",
+			say = "這些到底是什麼東西……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "阻力越来越大，仿佛有实体一样……",
+			say = "阻力越來越大，彷彿有實體一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "仿佛要，窒息了……",
+			say = "彷彿要，窒息了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "力气正在流失……可恶！",
+			say = "力氣正在流失……可惡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "轟————————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "雾气被炮火冲散了，不过转瞬间又再次聚拢。",
+			say = "霧氣被炮火沖散了，不過轉瞬間又再次聚攏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			nameColor = "#ff5c5c",
-			say = "一次次抵抗，一次次失败。",
+			say = "一次次抵抗，一次次失敗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			nameColor = "#ff5c5c",
-			say = "你现在做的事毫无意义。",
+			say = "妳現在做的事毫無意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			nameColor = "#ff5c5c",
-			say = "放弃吧，姐姐。",
+			say = "放棄吧，姐姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "让……巴尔？",
+			say = "讓……巴爾？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不对，你不是{namecode:523}……",
+			say = "不對，妳不是讓·巴爾……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "{namecode:523}绝对不会说出这种话！",
+			say = "讓·巴爾絕對不會說出這種話！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "你是幻象……和圣堂里的“污染”是一个东西。",
+			say = "妳是幻象……和聖堂裡的「污染」是一個東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "要冷静……保持冷静，不能幻象被影响。",
+			say = "要冷靜……保持冷靜，不能被幻像影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "冷静？",
+			say = "冷靜？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你应该要做的是愤怒才对。",
+			say = "妳應該要做的是憤怒才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你抛弃了祖国，抛弃了同伴，抛弃了妹妹。",
+			say = "妳拋棄了祖國，拋棄了同伴，拋棄了妹妹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "忍辱负重换来的是什么？",
+			say = "忍辱負重換來的是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "无尽的嘲讽，与唾骂。",
+			say = "無盡的嘲諷，與唾罵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你为什么要冷静？",
+			say = "為什麼要冷靜？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -857,7 +857,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 805010,
-			say = "——闭嘴！",
+			say = "——閉嘴！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "轟————————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -932,7 +932,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "嗯？生气了？",
+			say = "嗯？生氣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,7 +951,7 @@ return {
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "就是这种感觉，接受自己的愤怒吧！",
+			say = "就是這種感覺，接受自己的憤怒吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 805010,
-			say = "我、说、闭、嘴————",
+			say = "我、說、閉、嘴————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			bgm = "theme-vichy-church",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "黑色的太陽，正靜靜燃燒著。",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -1046,7 +1046,7 @@ return {
 			actor = 805010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "什……么，又是这轮黑色的太阳……？！",
+			say = "什……麼，又是這輪黑色的太陽……？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			bgm = "theme-vichy-revelation",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "转瞬即逝，黑色的太阳消失了。",
+			say = "轉瞬即逝，黑色的太陽消失了。",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -1111,7 +1111,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "黎塞留的意识重新回到了雾气之中。",
+			say = "黎胥留的意識重新回到了霧氣之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "…………不适的感觉，也消失了。",
+			say = "…………不適的感覺，也消失了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,7 +1173,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "同时，黎塞留意识到自己手中的旗帜也发生了变化。",
+			say = "同時，黎胥留意識到自己手中的旗幟也改變了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1188,7 +1188,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "光芒……正逐渐汇聚到旗帜上，就像曾经在圣堂中的情况一样。",
+			say = "光芒……正逐漸匯聚到旗幟上，就像曾經在聖堂中的情況一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "信仰的象征与审判的象征……",
+			say = "信仰的象徵與審判的象徵……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1226,7 +1226,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……看来，连日不消的黑日也是你手笔了。",
+			say = "……看來，連日不消黑日也是妳的手筆了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1245,7 +1245,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "可你究竟是怎么做到的……",
+			say = "但妳究竟是怎麼做到的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "还有拉·加利索尼埃和审判型机甲的事……",
+			say = "還有拉·加利索尼埃和審判型機甲的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1283,7 +1283,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "你究竟在用圣堂做什么……！",
+			say = "妳究竟在用聖堂做什麼……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————————！",
+			say = "轟————————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -1356,7 +1356,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "远方传来的炮击声打断了黎塞留的思考。",
+			say = "遠方傳來的炮擊聲打斷了黎胥留的思考。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1371,7 +1371,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "马赛曲还在战斗……",
+			say = "馬賽曲還在戰鬥……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1390,7 +1390,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "趁着现在这股力量还在，救人要紧。",
+			say = "趁著現在這股力量還在，救人要緊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,7 +1409,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "但是这件事……总有一天我会找你问清楚的。",
+			say = "但這件事……總有一天我會找妳問清楚的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1428,7 +1428,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……希望你能给我一个满意的答案。",
+			say = "……希望妳能給我一個滿意的答案。",
 			painting = {
 				alpha = 0.3,
 				time = 1

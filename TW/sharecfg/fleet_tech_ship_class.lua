@@ -2920,7 +2920,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 135,
 		t_level = 5,
 		ships = {
-			90201
+			90201,
+			90202
 		}
 	},
 	[90301] = {

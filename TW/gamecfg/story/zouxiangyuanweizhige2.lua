@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"數年前",
 					1
 				},
 				{
-					"维希教廷·司令部",
+					"維希教廷·司令部",
 					2
 				},
 				{
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "story-french2",
 			bgmDelay = 1,
-			say = "嘈杂的指挥大厅，此刻却寂静无声。",
+			say = "嘈雜的指揮大廳，此刻卻寂靜無聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "通信器中传来的广播，正诉说着前线发生的事。",
+			say = "通信器中傳來的廣播，正訴說著前線發生的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,11 +60,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "“凯比尔港的惨案已经给予了我们答案。”",
+			say = "「凱比爾港的慘案已經給予我們答案。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "“骄傲的圣教骑士不会和他们同流合污，骄傲的天之子民绝不会向淫威屈服。”",
+			say = "「驕傲的聖教騎士不會和他們同流合污，驕傲的天之子民絕不會向淫威屈服。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "“前有狼，后有虎，现在是存亡的最后时刻。”",
+			say = "「前有狼，後有虎，現在是存亡的最後時刻。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,11 +96,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "“勇敢的圣教骑士绝不低头，绝不成为任何人的傀儡！”",
+			say = "「勇敢的聖教騎士絕不低頭，絕不成為任何人的傀儡！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,11 +108,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "“以自由之名，我命令，陆间海全军舰队，就地自沉，就地自沉！”",
+			say = "「以自由之名，我命令，地中海全軍艦隊，就地自沉，就地自沉！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "少女坐在桌前失神地聆听着，直到大厅中再次陷入一片嘈杂。",
+			say = "少女坐在桌前失神的聆聽著，直到大廳中再次陷入一片吵雜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "那是已经许久未曾有过的，散发出疯狂的嘈杂。",
+			say = "那是已經許久未曾有過的，散發出瘋狂的吵雜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "教国的骑士团也，就此结束了……",
+			say = "教國的騎士團也，就此結束了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "铁血军队再次跨越了边界。",
+			say = "鐵血軍隊再次跨越了邊界。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "接下来，我们还有什么呢。",
+			say = "接下來，我們還有什麼呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "还有什么，能让教国免于再次到来的浩劫……",
+			say = "還有什麼，能讓教國免於再次到來的浩劫……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "一阵突如其来的剧烈摇晃打断了少女的沉思。",
+			say = "一陣突如其來劇烈的搖晃打斷了少女的沉思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "……马赛曲，终于找到你了！",
+			say = "……馬賽曲，終於找到妳了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "这里已经不再安全了，快跟我走！",
+			say = "這裡已經不再安全了，快跟我走！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "圣座已经决定要再次投降了。",
+			say = "聖座已經要再次決定要投降了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "只是还没决定好要加入碧蓝航线还是并入铁血。",
+			say = "只是還沒決定要加入碧藍航線還是併入鐵血。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "审判庭也要忙碌起来了吧？",
+			say = "審判庭也要忙碌起來了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "为了把维希也变成不设防的城市……",
+			say = "為了把維希也變成不設防的城市……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你现在来找我做什么？",
+			say = "妳現在來找我做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "为了不让昨日重现，我带来了一个审判庭的提案。",
+			say = "為了不讓昨日重現，我帶來了審判庭的提案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……除了投降就是逃跑，教国的审判庭是从什么时候开始变成这样了呢。",
+			say = "……除了投降就是逃跑，教國的審判庭是從什麼時候開始變成這樣的了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我是不会逃跑的。",
+			say = "我是不會逃跑的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "过去不会，现在不会，未来也不会。",
+			say = "過去不會，現在不會，未來也不會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你回去吧。",
+			say = "妳回去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "不是逃跑，而是带着使命离开这里！",
+			say = "不是逃跑，而是帶著目的離開這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "我们还有最后的方案，必须要将鸢尾的希望之火传递出去。",
+			say = "我們還有最後的方案，必須將鳶尾的希望之火傳遞出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "这件事只能由你来做，马赛曲！",
+			say = "這件事只能由妳來做，馬賽曲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "传递希望之火……？",
+			say = "傳遞希望之火……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你是指什么……？",
+			say = "你是指什麼……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "审判庭一直以来不都是主和派的么……？",
+			say = "審判庭一直以來不都是主和派的嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "所以，这件事才只能交给你。守护冠冕是你的职责，没错吧？",
+			say = "所以，這件事才只能交給妳。守護冠冕是妳的職責，沒錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "带着「圣座冠冕」离开欧罗巴，越远越好。",
+			say = "帶著「聖座冠冕」離開歐羅巴，越遠越好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "冠冕是鸢尾正统的象征，决不能让任何人染指它一丝一毫。",
+			say = "冠冕是鳶尾正統的象徵，絕不能讓任何人染指它一絲一毫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……没错，守护冠冕是我的职责，就算要付出生命也在所不辞。",
+			say = "……沒錯，守護冠冕是我的職責，就算要付出生命也在所不辭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "可是，审判庭无权命令我。没有圣座的命令——",
+			say = "可是，審判庭無權命令我。沒有聖座的命令——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "你连死都不怕，还怕抗命么？！",
+			say = "妳連死都不怕，還怕抗命嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "腓德雷卡大帝进军的速度很快。根据她的行事风格，接下来只会出现一个结果。",
+			say = "腓特烈大帝進軍的速度很快。根據她的行事風格，接下來只會出現一個結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "——圣座，很快就要从世界上消失了。",
+			say = "——聖座，很快就要從世界上消失了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "现在只有审判庭有能力把你送出去。",
+			say = "現在只有審判庭有能力把妳送出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "没时间犹豫了，马赛曲，你必须立刻带着冠冕离开这里！",
+			say = "沒時間猶豫了，馬賽曲，妳必須立刻帶著冠冕離開這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……我不相信克莱蒙梭，尤其是见识了她的所作所为之后。",
+			say = "……我不相信克里蒙梭，尤其是見識了她的所作所為之後。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "但是……我相信你，霞飞。",
+			say = "但是……我相信妳，霞飛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……明白了，我接受这个提案。",
+			say = "……明白了，我接受這個提案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "未来有机会的话……再会。",
+			say = "未來有機會的話……再會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 907010,
-			say = "…………再会。一路顺风。",
+			say = "…………再會。一路順風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,11 +973,11 @@ return {
 					1
 				},
 				{
-					"亚特兰蒂洋·某处",
+					"亞特蘭蒂洋·某處",
 					2
 				},
 				{
-					"自由鸢尾主力舰队",
+					"自由鳶尾主力艦隊",
 					3
 				}
 			},
@@ -1002,7 +1002,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人，预计在一小时后，侦察机就可以抵达圣赫勒拿岛的上空了。",
+			say = "黎胥留大人，預計在一小時後，偵察機就可以抵達聖赫勒拿島的上空了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "好，我知道了。舰队维持速度，继续全速前进。",
+			say = "好，我知道了。艦隊維持速度，繼續全速前進。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，如果圣赫勒拿的要塞遭遇到袭击的话，能坚持多久？",
+			say = "可怖，如果聖赫勒拿的要塞遭遇到攻擊的話，能堅持多久？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1075,7 +1075,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "坚持时间取决于遭遇敌人的类型。",
+			say = "堅持時間取決於遭遇敵人的類型。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,7 +1093,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "圣赫勒拿要塞是审判庭建造的秘密避难所，主体全部隐藏在坚硬的山岩中，远离海岸。",
+			say = "聖赫勒拿要塞是審判庭建造的秘密避難所，主體全部隱藏在堅硬的山岩中，遠離海邊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "其火力虽然不出色，不过拥有良好的防御能力。",
+			say = "其火力雖然不出色，不過擁有良好的防禦能力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1129,7 +1129,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "如果想要利用武力正面强攻的话，至少要净化者一类的高阶塞壬亲自来一趟才有机会。",
+			say = "如果想要利用武力正面強攻的話，至少要淨化者一類的高階塞壬親自來一趟才有機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1147,7 +1147,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "前提是它们知道对着哪里打。",
+			say = "前提是它們知道要對著哪裡打。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1165,7 +1165,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们在要塞隐蔽性上做了很多文章，光是找到确切位置就需要塞壬花费相当长的时间。",
+			say = "我們在要塞隱蔽性上做了很多文章，光是找到確切位置就需要花費塞壬相當長的時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,7 +1183,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "至少需要净化者级别的实力么……那我们还有及时赶到的希望。",
+			say = "至少需要淨化者等級的實力嗎……那我們還有及時趕到的希望。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,7 +1202,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人，侦察机在前方的海雾中发现了塞壬舰队。",
+			say = "黎胥留大人，偵察機在前方的海霧中發現了塞壬艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1221,7 +1221,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "其行进方向与我们相同，也许目的地也与我们一致。",
+			say = "其行進方向與我們相同，也許目的地也與我們一致。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,7 +1240,7 @@ return {
 			actor = 801030,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "嚯嚯嚯~说不定这是正好走到半路的进攻舰队，刚好被我们赶上了！！",
+			say = "嚯嚯嚯~說不定這是正好走到半路的進攻艦隊，剛好被我們趕上了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1277,7 +1277,7 @@ return {
 			actor = 801040,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "也有可能是发现要塞过于坚固之后，塞壬派出的增援舰队……",
+			say = "也有可能是發現要塞過於堅固之後，塞壬派出的增援艦隊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1296,7 +1296,7 @@ return {
 			actor = 801030,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "不过这样也能证明，圣赫勒拿岛目前还没有被攻陷嘛！",
+			say = "不過這樣也能證明，聖赫勒拿島目前還沒有被攻陷嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1315,7 +1315,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "等等，我在塞壬舰队中发现了代行者，数量在十台以上！",
+			say = "等等，我在塞壬艦隊中發現了代行者，數量在十台以上！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1352,7 +1352,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "正在比对资料……",
+			say = "正在比較資料……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1371,7 +1371,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "确定为代行者XV「Temptation」和代行者XV「Restriction」的混合编队！",
+			say = "確定為代行者XV「Temptation」和代行者XV「Restriction」的混合編隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1395,7 +1395,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "这两个型号……根据白鹰之前提供的资料，是仲裁机关迪贝路的代行者。",
+			say = "這兩個型號……根據白鷹之前提供的資料，是仲裁機關迪貝路的代行者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1419,7 +1419,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可不是一个好现象……",
+			say = "這可不是一個好現象……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1437,7 +1437,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "黎塞留大人，塞壬舰队正在调整阵型，应该已经注意到我们的存在了。",
+			say = "黎胥留大人，塞壬艦隊正在調整陣型，應該已經注意到我們的存在了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,7 +1455,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "看来我们没更好的选择了。",
+			say = "看來我們沒更好的選擇了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1473,7 +1473,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "主动出击，消灭它们！",
+			say = "主動出擊，消滅它們！",
 			painting = {
 				alpha = 0.3,
 				time = 1

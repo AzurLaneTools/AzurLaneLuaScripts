@@ -37,6 +37,11 @@ function slot0.Load(slot0, slot1)
 	slot0.stateTr = findTF(slot0.tf, "state")
 	slot0.onTxt = findTF(slot0.tf, "on_Text")
 	slot0.offTxt = findTF(slot0.tf, "off_Text")
+	slot0.btn1 = findTF(slot0.tf, "btn1")
+
+	if slot0.btn1 then
+		SetActive(slot0.btn1, false)
+	end
 
 	slot0:InitBtn()
 

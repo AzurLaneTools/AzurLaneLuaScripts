@@ -18,11 +18,9 @@ function slot0.execute(slot0, slot1)
 		})
 		slot4:updatePlayer(slot5)
 	elseif slot2.dropType == DROP_TYPE_ITEM then
-		assert(pg.item_data_statistics[slot2.id], "pg.item_data_statistics>>" .. slot2.id)
-
-		if pg.item_data_statistics[slot2.id].type == Item.EXP_BOOK_TYPE then
-			if math.min(slot3.max_num - getProxy(BagProxy):getItemCountById(slot2.id), slot2.count) > 0 then
-				getProxy(BagProxy):addItemById(slot2.id, slot5)
+		if slot2:getConfig("type") == Item.EXP_BOOK_TYPE then
+			if math.min(slot2:getConfig("max_num") - getProxy(BagProxy):getItemCountById(slot2.id), slot2.count) > 0 then
+				getProxy(BagProxy):addItemById(slot2.id, slot4)
 			end
 		else
 			getProxy(BagProxy):addItemById(slot2.id, slot2.count, slot2.extra)
@@ -48,130 +46,123 @@ function slot0.execute(slot0, slot1)
 			id = slot2.id
 		}))
 	elseif slot2.dropType == DROP_TYPE_VITEM then
-		assert(pg.item_data_statistics[slot2.id], "pg.item_data_statistics>>" .. slot2.id)
+		assert(slot2:isVirtualItem(), "item type error(virtual item)>>" .. slot2.id)
 
-		slot3 = Item.New({
-			id = slot2.id,
-			count = slot2.count
-		})
-
-		assert(slot3:isVirtualItem(), "item type error(virtual item)>>" .. slot2.id)
-
-		if slot3:getConfig("virtual_type") == 0 then
+		if slot2:getConfig("virtual_type") == 0 then
 			getProxy(ActivityProxy):addVitemById(slot2.id, slot2.count)
-		elseif slot4 == 1 then
-			slot5 = getProxy(ActivityProxy)
-			slot7 = nil
+		elseif slot3 == 1 then
+			slot4 = getProxy(ActivityProxy)
+			slot6 = nil
 
-			if (slot3:getConfig("link_id") <= 0 or slot5:getActivityById(slot6)) and slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot7:isEnd() then
-				if not table.contains(slot7.data1_list, slot2.id) then
-					table.insert(slot7.data1_list, slot2.id)
+			if (slot2:getConfig("link_id") <= 0 or slot4:getActivityById(slot5)) and slot4:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot6:isEnd() then
+				if not table.contains(slot6.data1_list, slot2.id) then
+					table.insert(slot6.data1_list, slot2.id)
 				end
 
-				slot5:updateActivity(slot7)
+				slot4:updateActivity(slot6)
 			end
-		elseif slot4 == 2 or slot4 == 3 then
-			if slot4 == 2 then
-				for slot10, slot11 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
-					slot11.data1 = slot11.data1 + slot3.count
+		elseif slot3 == 2 or slot3 == 3 then
+			if slot3 == 2 then
+				for slot9, slot10 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
+					slot10.data1 = slot10.data1 + slot2.count
 
-					if pg.activity_vote[slot11:getConfig("config_id")] and slot13.ticket_id_period == slot3.id then
-						slot11.data3 = slot11.data3 + slot3.count
+					if pg.activity_vote[slot10:getConfig("config_id")] and slot12.ticket_id_period == slot2.id then
+						slot10.data3 = slot10.data3 + slot2.count
 					end
 
-					slot5:updateActivity(slot11)
+					slot4:updateActivity(slot10)
 					pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_VOTE, {
-						ptId = slot3.id,
-						ptCount = slot3.count
+						ptId = slot2.id,
+						ptCount = slot2.count
 					})
 				end
 			end
-		elseif slot4 == 4 then
-			slot6[slot3.id] = (getProxy(ColoringProxy):getColorItems()[slot3.id] or 0) + slot3.count
-		elseif slot4 == 6 then
+		elseif slot3 == 4 then
+			slot5[slot2.id] = (getProxy(ColoringProxy):getColorItems()[slot2.id] or 0) + slot2.count
+		elseif slot3 == 6 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-				slot6.data3 = slot6.data3 + slot2.count
+				slot5.data3 = slot5.data3 + slot2.count
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 			end
-		elseif slot4 == 7 then
-			slot5 = getProxy(ChapterProxy)
+		elseif slot3 == 7 then
+			slot4 = getProxy(ChapterProxy)
 
-			slot5:updateRemasterTicketsNum(math.min(slot5.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value))
-		elseif slot4 == 9 then
-			slot5 = getProxy(ActivityProxy)
+			slot4:updateRemasterTicketsNum(math.min(slot4.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value))
+		elseif slot3 == 9 then
+			slot4 = getProxy(ActivityProxy)
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
-				slot6.data1_list[1] = slot6.data1_list[1] + slot2.count
+				slot5.data1_list[1] = slot5.data1_list[1] + slot2.count
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 			end
-		elseif slot4 == 10 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot6:isEnd() then
-				slot6.data1 = slot6.data1 + slot2.count
+		elseif slot3 == 10 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot5:isEnd() then
+				slot5.data1 = slot5.data1 + slot2.count
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 				slot0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-					activity = slot6
+					activity = slot5
 				})
 			end
-		elseif slot4 == 11 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot6:isEnd() then
-				slot6.data1 = slot6.data1 + 1
+		elseif slot3 == 11 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot5:isEnd() then
+				slot5.data1 = slot5.data1 + 1
 			end
-		elseif slot4 == 12 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot6:isEnd() then
-				slot6.data1KeyValueList[1][slot2.id] = (slot6.data1KeyValueList[1][slot2.id] or 0) + slot2.count
+		elseif slot3 == 12 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot5:isEnd() then
+				slot5.data1KeyValueList[1][slot2.id] = (slot5.data1KeyValueList[1][slot2.id] or 0) + slot2.count
 			end
-		elseif slot4 == 13 then
+		elseif slot3 == 13 then
 			SkinCouponActivity.AddSkinCoupon(slot2.id)
-		elseif slot4 == 14 then
-			slot5 = nowWorld():GetBossProxy()
+		elseif slot3 == 14 then
+			slot4 = nowWorld():GetBossProxy()
 
 			if WorldBossConst.WORLD_BOSS_ITEM_ID == slot2.id then
-				slot5:AddSummonPt(slot2.count)
+				slot4:AddSummonPt(slot2.count)
 			elseif WorldBossConst.WORLD_PAST_BOSS_ITEM_ID == slot2.id then
-				slot5:AddSummonPtOld(slot2.count)
+				slot4:AddSummonPtOld(slot2.count)
 			end
-		elseif slot4 == 15 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot6:isEnd() then
-				if slot2.id == pg.activity_event_grid[slot6.data1].ticket_item then
-					slot6.data2 = slot6.data2 + slot2.count
-				elseif slot2.id == slot7.explore_item then
-					slot6.data3 = slot6.data3 + slot2.count
+		elseif slot3 == 15 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot5:isEnd() then
+				if slot2.id == pg.activity_event_grid[slot5.data1].ticket_item then
+					slot5.data2 = slot5.data2 + slot2.count
+				elseif slot2.id == slot6.explore_item then
+					slot5.data3 = slot5.data3 + slot2.count
 				end
 			end
 
-			slot5:updateActivity(slot6)
-		elseif slot4 == 16 then
-			for slot10, slot11 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS)) do
-				if slot11 and not slot11:isEnd() and slot2.id == slot11:getConfig("config_id") then
-					slot11.data1 = slot11.data1 + slot2.count
+			slot4:updateActivity(slot5)
+		elseif slot3 == 16 then
+			for slot9, slot10 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHAKE_BEADS)) do
+				if slot10 and not slot10:isEnd() and slot2.id == slot10:getConfig("config_id") then
+					slot10.data1 = slot10.data1 + slot2.count
 
-					slot5:updateActivity(slot11)
+					slot4:updateActivity(slot10)
 				end
 			end
-		elseif slot4 == 20 then
-			slot6 = pg.gameset.urpt_chapter_max.description
+		elseif slot3 == 20 then
+			slot5 = pg.gameset.urpt_chapter_max.description
 
-			if math.min(slot6[2] - getProxy(BagProxy):GetLimitCntById(slot6[1]), slot2.count) > 0 then
-				slot5:addItemById(slot7, slot10)
-				slot5:AddLimitCnt(slot7, slot10)
+			if math.min(slot5[2] - getProxy(BagProxy):GetLimitCntById(slot5[1]), slot2.count) > 0 then
+				slot4:addItemById(slot6, slot9)
+				slot4:AddLimitCnt(slot6, slot9)
 			end
-		elseif slot4 == 21 then
-			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
-				slot6.data2 = 1
+		elseif slot3 == 21 then
+			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot5:isEnd() then
+				slot5.data2 = 1
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 			end
-		elseif slot4 == 22 then
-			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot6:isEnd() then
-				slot6.data1 = slot6.data1 + slot2.count
+		elseif slot3 == 22 then
+			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot5:isEnd() then
+				slot5.data1 = slot5.data1 + slot2.count
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 			end
-		elseif slot4 == 23 then
-			slot5 = (function ()
+		elseif slot3 == 23 then
+			slot4 = (function ()
 				for slot3, slot4 in ipairs(pg.gameset.package_lv.description) do
 					if uv0.id == slot4[1] then
 						return slot4[2]
@@ -179,38 +170,38 @@ function slot0.execute(slot0, slot1)
 				end
 			end)()
 
-			assert(slot5)
+			assert(slot4)
 
-			slot6 = getProxy(PlayerProxy)
-			slot7 = slot6:getData()
+			slot5 = getProxy(PlayerProxy)
+			slot6 = slot5:getData()
 
-			slot7:addExpToLevel(slot5)
-			slot6:updatePlayer(slot7)
-		elseif slot4 == 24 then
-			if getProxy(ActivityProxy):getActivityById(slot3:getConfig("link_id")) and not slot6:isEnd() and slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
-				slot6.data2 = slot6.data2 + slot2.count
+			slot6:addExpToLevel(slot4)
+			slot5:updatePlayer(slot6)
+		elseif slot3 == 24 then
+			if getProxy(ActivityProxy):getActivityById(slot2:getConfig("link_id")) and not slot5:isEnd() and slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
+				slot5.data2 = slot5.data2 + slot2.count
 
-				getProxy(ActivityProxy):updateActivity(slot6)
+				getProxy(ActivityProxy):updateActivity(slot5)
 			end
-		elseif slot4 == 25 then
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FIREWORK) and not slot6:isEnd() then
-				slot6.data1 = slot6.data1 - 1
+		elseif slot3 == 25 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FIREWORK) and not slot5:isEnd() then
+				slot5.data1 = slot5.data1 - 1
 
-				if not table.contains(slot6.data1_list, slot2.id) then
-					table.insert(slot6.data1_list, slot2.id)
+				if not table.contains(slot5.data1_list, slot2.id) then
+					table.insert(slot5.data1_list, slot2.id)
 				end
 
-				slot5:updateActivity(slot6)
+				slot4:updateActivity(slot5)
 
-				if slot3:getConfig("link_id") > 0 and slot5:getActivityById(slot7) and not slot8:isEnd() then
-					slot8.data1 = slot8.data1 + 1
+				if slot2:getConfig("link_id") > 0 and slot4:getActivityById(slot6) and not slot7:isEnd() then
+					slot7.data1 = slot7.data1 + 1
 
-					slot5:updateActivity(slot8)
+					slot4:updateActivity(slot7)
 				end
 			end
-		elseif slot4 == 99 then
+		elseif slot3 == 99 then
 			-- Nothing
-		elseif slot4 == 100 then
+		elseif slot3 == 100 then
 			-- Nothing
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then

@@ -1230,6 +1230,21 @@ pg.player_resource = {
 		name = "skinTicket62",
 		itemid = 59518
 	},
+	[388] = {
+		id = 388,
+		name = "dexiur_pt2",
+		itemid = 59519
+	},
+	[389] = {
+		id = 389,
+		name = "dexiv4framept2",
+		itemid = 59520
+	},
+	[390] = {
+		id = 390,
+		name = "skinTicket63",
+		itemid = 59522
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2384,6 +2399,15 @@ pg.player_resource = {
 		skinTicket62 = {
 			387
 		},
+		dexiur_pt2 = {
+			388
+		},
+		dexiv4framept2 = {
+			389
+		},
+		skinTicket63 = {
+			390
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2881,6 +2905,9 @@ pg.player_resource = {
 		385,
 		386,
 		387,
+		388,
+		389,
+		390,
 		950,
 		951,
 		952,

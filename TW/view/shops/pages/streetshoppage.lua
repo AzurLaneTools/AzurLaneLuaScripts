@@ -63,7 +63,7 @@ end
 
 function slot0.GenHelpContent(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot2:getConfig("config_data")) do
-		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", pg.item_data_statistics[pg.shop_template[slot8[1]].effect_args[1]].name, slot2:GetShopTime()))
+		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", Item.getConfigData(pg.shop_template[slot8[1]].effect_args[1]).name, slot2:GetShopTime()))
 	end
 end
 

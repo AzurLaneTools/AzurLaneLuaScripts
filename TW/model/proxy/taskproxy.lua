@@ -218,7 +218,7 @@ function slot0.getCanReceiveCount(slot0)
 				slot14 = slot12[2]
 				slot15 = slot12[3]
 
-				if not LOCK_UR_SHIP and slot13 == DROP_TYPE_VITEM and pg.item_data_statistics[slot14].virtual_type == 20 and (not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) + slot15 - (not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0) > 0 then
+				if not LOCK_UR_SHIP and slot13 == DROP_TYPE_VITEM and Item.getConfigData(slot14).virtual_type == 20 and (not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) + slot15 - (not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0) > 0 then
 					slot1 = slot1 - 1
 				end
 			end

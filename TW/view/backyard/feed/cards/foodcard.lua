@@ -19,7 +19,7 @@ end
 
 function slot0.Update(slot0, slot1, slot2)
 	slot0.foodId = slot1
-	slot0.name = i18n("word_food") .. pg.item_data_template[slot1].usage_arg[1]
+	slot0.name = i18n("word_food") .. Item.getConfigData(slot1).usage_arg[1]
 
 	slot0:UpdateCnt(slot2)
 

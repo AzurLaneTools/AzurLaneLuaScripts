@@ -151,7 +151,16 @@ pg.settings_other_template = {
 		title = "L2D陀螺儀背景控制",
 		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
 	},
-	[17] = {
+	{
+		default = 1,
+		name = "SHIP_NAME_COLOR",
+		type = 0,
+		alignment = 0,
+		id = 16,
+		title = "誓約角色名特殊顯示",
+		desc = "功能開啟後，在船塢等介面，已誓約的角色名將使用特殊顏色顯示"
+	},
+	{
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
@@ -159,6 +168,15 @@ pg.settings_other_template = {
 		id = 17,
 		title = "展示結算角色",
 		desc = "功能開啟後，將展示戰鬥結算立繪過場"
+	},
+	{
+		default = 0,
+		name = "LIVE2D_STATUS_SAVE",
+		type = 0,
+		alignment = 0,
+		id = 18,
+		title = "L2D互動狀態固定",
+		desc = "功能開啟後，主介面L2D換裝的互動狀態將固定為主介面待機動作；互動狀態固定後，【登入】【回港】動畫將不會播放"
 	},
 	all = {
 		1,
@@ -176,6 +194,8 @@ pg.settings_other_template = {
 		13,
 		14,
 		15,
-		17
+		16,
+		17,
+		18
 	}
 }

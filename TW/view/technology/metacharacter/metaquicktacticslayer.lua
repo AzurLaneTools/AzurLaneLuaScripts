@@ -50,7 +50,7 @@ function slot0.initData(slot0)
 	slot0.expDict = {}
 
 	for slot4, slot5 in ipairs(slot0.bookIDList) do
-		slot0.expDict[slot5] = tonumber(pg.item_data_template[slot5].usage_arg)
+		slot0.expDict[slot5] = tonumber(Item.getConfigData(slot5).usage_arg)
 	end
 end
 

@@ -380,7 +380,7 @@ end
 
 function slot0.CalcQuickItemUsageCnt(slot0)
 	slot1 = Item.COMMANDER_QUICKLY_TOOL_ID
-	slot2 = pg.item_data_template[slot1].usage_arg[1]
+	slot2 = Item.getConfigData(slot1).usage_arg[1]
 
 	function slot3(slot0, slot1)
 		return math.ceil((slot1 - slot0) / uv0)

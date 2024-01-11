@@ -49,7 +49,10 @@ function slot0.UpdateView(slot0, slot1)
 	slot3 = slot1.targets
 	slot4 = slot1.level
 	slot5 = slot1.count
-	slot7 = pg.item_data_statistics[id2ItemId(slot1.resId)].name
+	slot7 = getDropName({
+		type = DROP_TYPE_RESOURCE,
+		id = slot1.resId
+	})
 
 	if slot1.type == 2 then
 		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot7))

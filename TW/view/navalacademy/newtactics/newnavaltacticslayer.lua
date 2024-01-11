@@ -199,7 +199,7 @@ end
 
 function slot0.StartLesson(slot0, slot1, slot2)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("tactics_lesson_start_tip", pg.item_data_statistics[slot1.lessonId].name, slot2:getName(), ShipSkill.New(slot2.skills[slot1:getSkillId(slot2)], slot2.id):GetName()),
+		content = i18n("tactics_lesson_start_tip", Item.getConfigData(slot1.lessonId).name, slot2:getName(), ShipSkill.New(slot2.skills[slot1:getSkillId(slot2)], slot2.id):GetName()),
 		onYes = function ()
 			if uv0:IsMaxLevel() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))

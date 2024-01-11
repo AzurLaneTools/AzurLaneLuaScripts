@@ -325,7 +325,7 @@ function slot0.SetStageIds(slot0, slot1)
 			type = slot8[1]
 		})
 		onButton(slot0, slot9, function ()
-			if pg.item_data_statistics[uv0[2]] and uv1[slot0.type] then
+			if Item.getConfigData(uv0[2]) and uv1[slot0.type] then
 				slot2 = {}
 
 				for slot6, slot7 in ipairs(slot0.display_icon) do

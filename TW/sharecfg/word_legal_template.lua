@@ -1559,6 +1559,11 @@ function temp()
 			["堡"] = {
 				this = true
 			}
+		},
+		["賽"] = {
+			["曲"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2132,7 +2137,12 @@ function temp()
 		["安"] = {
 			["普"] = {
 				["敦"] = {
-					this = true
+					this = true,
+					I = {
+						I = {
+							this = true
+						}
+					}
 				},
 				["頓"] = {
 					I = {

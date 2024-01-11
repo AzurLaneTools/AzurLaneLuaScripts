@@ -64,8 +64,31 @@ function slot0.Init(slot0, slot1)
 
 	slot0.state = uv0
 
-	slot0:UpdateList()
-	slot0:BlurPanel()
+	slot0:UpdateAll()
+end
+
+function slot0.UpdateAll(slot0)
+	slot0.cg.blocksRaycasts = false
+
+	seriesAsync({
+		function (slot0)
+			uv0.cg.alpha = 0
+
+			uv0:UpdateList(slot0)
+		end,
+		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
+			uv0.cg.alpha = 1
+
+			uv0:PlayAnimation(slot0)
+		end
+	}, function ()
+		uv0.cg.blocksRaycasts = true
+
+		uv0:BlurPanel()
+	end)
 end
 
 function slot8(slot0)
@@ -74,8 +97,7 @@ function slot8(slot0)
 
 	slot0.state = uv0
 
-	slot0:UpdateList()
-	slot0:BlurPanel()
+	slot0:UpdateAll()
 end
 
 function slot0.Show(slot0, slot1)
@@ -116,21 +138,20 @@ function slot10(slot0, slot1)
 	end
 end
 
-function slot0.UpdateList(slot0)
+function slot0.UpdateList(slot0, slot1)
 	if not slot0:IsShowing() then
 		return
 	end
 
-	slot0.cg.blocksRaycasts = false
-	slot2 = {}
-	slot3 = 1
+	slot3 = {}
+	slot4 = 1
 	slot0.usingTpls = {}
-	slot4 = #slot0.displays < uv0 and #slot1 or uv0
+	slot5 = #slot0.displays < uv0 and #slot2 or uv0
 
-	for slot8, slot9 in ipairs(slot1) do
-		slot10 = #slot1
+	for slot9, slot10 in ipairs(slot2) do
+		slot11 = #slot2
 
-		table.insert(slot2, function (slot0)
+		table.insert(slot3, function (slot0)
 			slot1, slot2 = uv0(uv1)
 
 			if not slot2 then
@@ -162,7 +183,7 @@ function slot0.UpdateList(slot0)
 		end)
 	end
 
-	table.insert(slot2, function (slot0)
+	table.insert(slot3, function (slot0)
 		onDelayTick(function ()
 			uv0.contentSizeFitter.enabled = false
 			uv0.contentSizeFitter.enabled = true
@@ -171,9 +192,15 @@ function slot0.UpdateList(slot0)
 			uv1()
 		end, 0.05)
 	end)
+	seriesAsync(slot3, slot1)
+end
 
-	for slot8 = 1, slot4 do
-		table.insert(slot2, function (slot0)
+function slot0.PlayAnimation(slot0, slot1)
+	slot3 = #slot0.displays < uv0 and #slot2 or uv0
+	slot4 = {}
+
+	for slot8 = 1, slot3 do
+		table.insert(slot4, function (slot0)
 			slot2 = uv0.usingTpls[#uv0.usingTpls - uv1 + uv2]
 			slot3 = slot2:GetComponent(typeof(Animation))
 
@@ -184,9 +211,8 @@ function slot0.UpdateList(slot0)
 		end)
 	end
 
-	seriesAsync(slot2, function ()
-		uv0.cg.blocksRaycasts = true
-	end)
+	seriesAsync(slot4)
+	slot1()
 end
 
 function slot0.UpdateRecord(slot0, slot1, slot2)

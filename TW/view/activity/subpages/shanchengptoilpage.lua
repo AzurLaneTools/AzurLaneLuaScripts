@@ -19,12 +19,8 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.SetAwardName(slot0)
-	if pg.item_data_statistics[slot0.ptData:GetAward().id] then
-		if slot1.type == 1 then
-			changeToScrollText(uv0.scrolltext, pg.item_data_statistics[pg.player_resource[slot1.id].itemid].name)
-		else
-			changeToScrollText(uv0.scrolltext, pg.item_data_statistics[slot1.id].name)
-		end
+	if Item.getConfigData(slot0.ptData:GetAward().id) then
+		changeToScrollText(uv0.scrolltext, getDropName(slot1))
 	else
 		setActive(slot0:findTF("name", slot0.awardTF), false)
 	end

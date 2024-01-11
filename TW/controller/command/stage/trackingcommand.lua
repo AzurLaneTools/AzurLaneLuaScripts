@@ -397,14 +397,14 @@ function slot0.CalculateSpItemMoreCostRate(slot0)
 		return slot1
 	end
 
-	slot8 = 2
-	slot9 = -2
+	slot7 = 2
+	slot8 = -2
 
-	for slot8, slot9 in ipairs(_.map(string.split(string.sub(pg.item_data_template[slot0].usage_arg, slot8, slot9), ","), function (slot0)
+	for slot7, slot8 in ipairs(_.map(string.split(string.sub(Item.getConfigData(slot0).usage_arg, slot7, slot8), ","), function (slot0)
 		return tonumber(slot0)
 	end)) do
-		if pg.benefit_buff_template[slot8] and slot10.benefit_type == Chapter.OPERATION_BUFF_TYPE_COST then
-			slot1 = slot1 + tonumber(slot10.benefit_effect) * 0.01
+		if pg.benefit_buff_template[slot7] and slot9.benefit_type == Chapter.OPERATION_BUFF_TYPE_COST then
+			slot1 = slot1 + tonumber(slot9.benefit_effect) * 0.01
 		end
 	end
 

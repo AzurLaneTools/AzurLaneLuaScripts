@@ -74,27 +74,30 @@ function slot0.update(slot0, slot1)
 	end
 
 	if slot0.goodsVO.type == Goods.TYPE_SKIN then
-		slot0._priceIcon.sprite = LoadSprite(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon)
-		slot0._priceTxt.text, slot11 = slot1:GetPrice()
+		slot0._priceIcon.sprite = LoadSprite(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = slot1:getConfig("resource_type")
+		}))
+		slot0._priceTxt.text, slot9 = slot1:GetPrice()
 		slot0._opriceTxt.text = slot1:getConfig("resource_num")
 
-		setActive(go(slot0._opriceTxt), slot1:isDisCount() and slot11 > 0)
+		setActive(go(slot0._opriceTxt), slot1:isDisCount() and slot9 > 0)
 
-		slot12 = slot1.buyCount == 0
-		slot13 = slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit
+		slot10 = slot1.buyCount == 0
+		slot11 = slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit
 
-		if slot0.view.encoreSkinMap[slot1.id] and slot12 then
+		if slot0.view.encoreSkinMap[slot1.id] and slot10 then
 			setActive(slot0._tagTFs[10], true)
-		elseif slot13 then
+		elseif slot11 then
 			setActive(slot0._tagTFs[9], true)
-		elseif slot12 then
-			slot15 = slot0.goodsVO:getConfig("tag")
+		elseif slot10 then
+			slot13 = slot0.goodsVO:getConfig("tag")
 
-			if slot9 or slot15 == 5 then
-				setText(slot0._tagTFs[5]:Find("Text"), string.format("%0.2f", slot11) .. "%")
+			if slot7 or slot13 == 5 then
+				setText(slot0._tagTFs[5]:Find("Text"), string.format("%0.2f", slot9) .. "%")
 				setActive(slot0._tagTFs[5], true)
-			elseif slot0._tagTFs[slot15] then
-				setActive(slot0._tagTFs[slot15], true)
+			elseif slot0._tagTFs[slot13] then
+				setActive(slot0._tagTFs[slot13], true)
 			else
 				setActive(slot0._tagTFs[6], true)
 			end

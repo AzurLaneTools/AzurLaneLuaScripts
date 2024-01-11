@@ -88,7 +88,7 @@ function slot0.OnInit(slot0)
 		end
 
 		seriesAsync(slot0, function ()
-			uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
+			uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getConfig("usage_arg")[uv0.selectedIndex])
 			uv0:Hide()
 		end)
 	end, SFX_PANEL)

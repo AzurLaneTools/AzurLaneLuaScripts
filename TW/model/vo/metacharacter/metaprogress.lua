@@ -308,7 +308,7 @@ end
 function slot0.getPtIconPath(slot0)
 	assert(slot0:isPtType() and slot0.metaPtData)
 
-	return pg.item_data_statistics[slot0.metaPtData.resId].icon
+	return Item.getConfigData(slot0.metaPtData.resId).icon
 end
 
 return slot0

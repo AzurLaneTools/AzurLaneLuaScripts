@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"數年前",
 					1
 				},
 				{
-					"圣赫勒拿岛·审判庭要塞",
+					"聖赫勒拿島·審判庭要塞",
 					2
 				},
 				{
-					"EP4-「独行」",
+					"EP4-「獨行」",
 					3
 				}
 			},
@@ -44,7 +44,7 @@ return {
 			actor = 801070,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "整体浏览了一遍，感觉如何？",
+			say = "整體瀏覽了一遍，感覺如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "没想到你们居然在山体里挖出了这么大的空间……",
+			say = "沒想到妳們居然在山體裡挖出了這麼大的空間……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "这座要塞并不在军事规划之内。圣座也没有特别批准过……",
+			say = "這座要塞並不在軍事規劃之內。聖座也有特別批准過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "审判庭修建要塞的资金是哪里来的……？",
+			say = "審判庭修建要塞的經費是哪裡來的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "这个嘛……大概用的是审判庭自己的资金？",
+			say = "這個嘛……大概用的是審判庭自己的資金？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "具体我也不是很清楚。",
+			say = "具體我也不是很清楚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不过在教国，审判庭的事也不用搞得那么清楚，不是么？",
+			say = "不過在教國，審判庭的事也不用搞得那麼清楚，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "圣座一直觉得审判庭的权利有些过于膨胀了……",
+			say = "聖座一直覺得審判庭的權利有些太膨脹了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来果然如此。",
+			say = "看來果然如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "要是没有这份膨胀，你之后可是要露宿荒野了哦？",
+			say = "要是沒有這份膨脹，妳之後可是要露宿荒野了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "总之，要塞的控制权已经移交给你了。",
+			say = "總之，要塞的控制權已經轉交給妳了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们就在这里分别吧。",
+			say = "我們就在這裡分別吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "哎？你不跟我一起待在这里吗？",
+			say = "哎？妳不跟我一起待在這裡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "嗯，我还有审判庭的任务要去做。",
+			say = "嗯，我還有審判庭的任務要做。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "还有很多需要我去调查，我去见证的事……",
+			say = "還有很多需要我去調查，我去見證的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你就藏在这里，守护好圣座冠冕。",
+			say = "妳就藏在這裡，守護好聖座冠冕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "等时机成熟的那一天，我会再来找你的。",
+			say = "等時機成熟的那一天，我會再來找妳的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "明白了。守护冠冕是我的职责，我会不惜生命守护它。",
+			say = "明白了。守護冠冕是我的職責，我會不惜生命守護它。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "马赛曲，如果有一天，冠冕和你的生命只能二选一的时候，我希望你能选择自己的生命。",
+			say = "馬賽曲，如果有一天，冠冕和妳的生命只能二選一的時候，我希望妳能選擇自己的生命。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……珍惜生命，鸢尾的血已经流得够多了。",
+			say = "……珍惜生命，鳶尾的血已經留的夠多了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 					1
 				},
 				{
-					"圣赫勒拿岛·要塞周边",
+					"聖赫勒拿島·要塞週邊",
 					2
 				},
 				{
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "异样的雾气遮蔽了月色。",
+			say = "異樣的霧氣肆遮蔽了月色。",
 			bgmDelay = 1,
 			bgm = "battle-underholyflag",
 			typewriter = {
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "它们扭曲着、抖动着，仿佛拥有某种意识一般。",
+			say = "它們扭曲著、抖動著，彷彿擁有某種意識一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "仔细聆听，似乎还能听到无数混合在风声中的嘶啸声。",
+			say = "仔細聆聽，似乎還能聽到無數混合在風聲中的嘶嘯聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "……这一天还是到来了。",
+			say = "……這一天還是到來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "觊觎冠冕的人，最终还是露出了獠牙。",
+			say = "覬覦冠冕的人，最後還是露出了獠牙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "敌人是无孔不入的鬼魅，坚固的要塞已为牢笼。",
+			say = "敵人是無孔不入的鬼魅，堅固的要塞已為牢籠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "既然如此……那就正面迎敌，光荣一战吧。",
+			say = "既然如此……那就正面迎敵，光榮一戰吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "我是鸢尾教国的首席天使。",
+			say = "我是鳶尾教國的首席天使。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "在冠冕和我的生命只能二选一的时候，我将毫不犹豫选择冠冕。",
+			say = "在冠冕和我的生命只能二選一的時候，我將毫不猶豫地選擇冠冕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "不论陷入何种处境，不论面对何种敌人。",
+			say = "不論陷入何種處境，不論面對何種敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "如果要对冠冕出手的话，就要先赢过我手里的剑。",
+			say = "如果要對冠冕出手的話，就要先贏過我手上的劍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "……魑魅魍魉。",
+			say = "……魑魅魍魎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "以鸢尾之名，放马过来吧！",
+			say = "以鳶尾花之名，放馬過來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女守护冠冕的意志，仿佛转化为了源源不断的力量。",
+			say = "少女守護冠冕的意志，彷彿轉化為了源源不絕的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "但敌人，是无穷无尽的。",
+			say = "但敵人，是無窮無盡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "压倒性的不利将少女一步步逼向悬崖。",
+			say = "壓制性的不利將少女一步步逼向懸崖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "终于，距离万丈深渊只有一步之遥。",
+			say = "終於，距離萬丈深淵只有一步之遙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,12 +761,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "…………要到此结束了么。",
+			say = "…………要到此結束了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "这时，少女终于注意到了远方的呼唤，还有依稀透出雾气的光。",
+			say = "這時，少女終於注意到了遠方的呼喚，還有依稀透出霧氣的光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,11 +789,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "那个声音是……黎塞留？",
+			say = "那個聲音是……黎胥留？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,11 +801,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "她怎么找到这里来的……",
+			say = "她怎麼找到這裡來的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,11 +813,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "不……管不了这么多了。",
+			say = "不……管不了這麼多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女手中的长剑再次嗡鸣起来，浩然的剑光将迷雾撕开了一道裂口。",
+			say = "少女手中的長劍再次嗡鳴起來，浩然的劍光將迷霧撕開了一道裂口。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -854,7 +854,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女看清了不远处旗帜下的那个身影。",
+			say = "少女看清了不遠處旗幟下的那個身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,11 +862,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "黎塞留主教，保护冠冕！",
+			say = "黎胥留主教，保護冠冕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,11 +879,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "保护冠冕————！",
+			say = "保護冠冕————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "冠冕被抛向了光的方向。",
+			say = "冠冕被拋向了光的方向。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -932,7 +932,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "少女的身影，也在这一刻消失在诡谲的雾气中———",
+			say = "少女的身影，也在這一刻消失在詭譎的霧氣中———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

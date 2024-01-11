@@ -74,6 +74,7 @@ pg.benefit_buff_template = setmetatable({
 		70,
 		71,
 		72,
+		73,
 		103,
 		110,
 		111,
@@ -1368,6 +1369,19 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
+	},
+	{
+		type_priority = 0,
+		name = "運動飲料",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "後宅所有角色心情恢復增加",
+		benefit_effect = "1",
+		id = 73,
+		icon = "Props/60413",
+		benefit_type = "dorm_energy"
 	},
 	[103] = {
 		type_priority = 0,

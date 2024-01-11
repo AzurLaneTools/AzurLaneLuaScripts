@@ -80,7 +80,7 @@ function slot0.Check(slot0, slot1)
 	slot3 = slot0.contextData.itemId
 
 	slot0.msgBox:ExecuteAction("Show", {
-		content = i18n("skin_exchange_confirm", pg.item_data_statistics[slot3].name, slot1.skinName),
+		content = i18n("skin_exchange_confirm", Item.getConfigData(slot3).name, slot1.skinName),
 		skinId = slot1.id,
 		itemId = slot3,
 		onYes = function ()

@@ -884,7 +884,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "在一段时间的等待后，见到了从量衣处出来的{namecode:98}和{namecode:460}。",
+			say = "在一段時間等待後，見到了從量衣處出來的明石和塞德利茨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

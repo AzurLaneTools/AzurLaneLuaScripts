@@ -44,9 +44,13 @@ function slot0.UpdateItem(slot0, slot1, slot2)
 		uv0:OnItemSwitch(uv1, slot0)
 	end, SFX_UI_TAG, SFX_UI_CANCEL)
 	slot0:OnUpdateItem(slot3)
+	slot0:OnUpdateItemWithTr(slot3, slot2)
 end
 
 function slot0.OnUpdateItem(slot0, slot1)
+end
+
+function slot0.OnUpdateItemWithTr(slot0, slot1, slot2)
 end
 
 function slot0.OnItemSwitch(slot0, slot1, slot2)

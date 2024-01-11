@@ -79,6 +79,7 @@ pg.activity_template = {
 		login_pop = 99,
 		config_id = 6,
 		is_show = 1,
+		config_client = "",
 		id = 6,
 		config_data = {},
 		page_info = {
@@ -88,11 +89,6 @@ pg.activity_template = {
 			sub_ui = {
 				"MonthSignReSignUI"
 			}
-		},
-		config_client = {
-			3,
-			21,
-			1
 		}
 	},
 	{
@@ -138,7 +134,7 @@ pg.activity_template = {
 	},
 	[9] = {
 		mark = 20170406,
-		title_res_tag = "text_charge_award",
+		title_res_tag = "charge_award",
 		time = "always",
 		type = 9,
 		login_pop = 0,
@@ -1470,41 +1466,15 @@ pg.activity_template = {
 	},
 	[4595] = {
 		mark = 20231214,
-		config_client = "",
 		title_res_tag = "meixi_ii_frame",
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 20,
+		config_client = "",
 		id = 4595,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MeixiT2FramePage",
 			ui_name = "MeixiT2FramePage"
@@ -1525,12 +1495,13 @@ pg.activity_template = {
 	},
 	[4597] = {
 		mark = 20231214,
-		id = 4597,
 		title_res_tag = "AmericanII_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 19,
+		id = 4597,
 		config_data = {
 			{
 				18088,
@@ -1559,33 +1530,6 @@ pg.activity_template = {
 			{
 				18100,
 				18101
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -1620,40 +1564,14 @@ pg.activity_template = {
 	},
 	[4598] = {
 		mark = 20231214,
-		id = 4598,
 		title_res_tag = "Georgia_catchup",
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 18,
 		is_show = 18,
+		id = 4598,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ChampagneTecCatchupPage",
 			ui_name = "ChampagneTecCatchupPage"
@@ -1891,40 +1809,14 @@ pg.activity_template = {
 	},
 	[4610] = {
 		mark = 20231221,
-		id = 4610,
 		title_res_tag = "AmericanII_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4610,
 		is_show = 21,
+		id = 4610,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AmericanIIPtPage",
 			ui_name = "AmericanIIPtPage"
@@ -1935,12 +1827,13 @@ pg.activity_template = {
 	},
 	[4611] = {
 		mark = 20231221,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4611,
 		config_data = {
 			1942,
@@ -1970,33 +1863,6 @@ pg.activity_template = {
 			1966,
 			1967,
 			1968
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_meifu2",
@@ -2446,12 +2312,13 @@ pg.activity_template = {
 	},
 	[4623] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4623,
 		config_data = {
@@ -2461,38 +2328,11 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4624] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -2500,43 +2340,18 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4624,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4624
 	},
 	[4625] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4625,
 		config_data = {
@@ -2559,43 +2374,17 @@ pg.activity_template = {
 			18163,
 			18164,
 			18165
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4626] = {
 		mark = 20240104,
-		id = 4626,
 		title_res_tag = "MaoxiV2_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 30,
+		id = 4626,
 		config_data = {
 			1480001,
 			1480002,
@@ -2603,33 +2392,6 @@ pg.activity_template = {
 			1480021,
 			1480022,
 			1480023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "MaoxiV2MainPage",
@@ -2641,12 +2403,13 @@ pg.activity_template = {
 	},
 	[4627] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4627,
 		config_data = {
 			1480004,
@@ -2657,33 +2420,6 @@ pg.activity_template = {
 			1480026,
 			1480041,
 			1480051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -2810,81 +2546,29 @@ pg.activity_template = {
 	},
 	[4630] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4630,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4631] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4631,
 		config_data = {
 			4
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59379
@@ -2892,82 +2576,30 @@ pg.activity_template = {
 	},
 	[4632] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4632,
 		config_data = {
 			18157
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4633] = {
 		mark = 20240104,
-		config_client = "",
 		title_res_tag = "maoxiV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 36,
 		is_show = 27,
+		config_client = "",
 		id = 4633,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV2LoginPage",
 			ui_name = "MaoxiV2LoginPage"
@@ -2975,42 +2607,16 @@ pg.activity_template = {
 	},
 	[4634] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4634,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4686] = {
 		mark = 20230209,
@@ -3067,6 +2673,94 @@ pg.activity_template = {
 			comStory = "YURENJIE2",
 			subView = "AprilFoolSuperBurinSubView",
 			lastChapter = 136004
+		}
+	},
+	[4742] = {
+		mark = 20240111,
+		config_client = "",
+		title_res_tag = "xiaoqiye_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4742,
+		is_show = 31,
+		id = 4742,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoQiYePtPage",
+			ui_name = "xiaoqiyeptpage"
+		}
+	},
+	[4743] = {
+		mark = 20240111,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4743,
+		config_data = {
+			18424
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				18424
+			}
 		}
 	},
 	[4770] = {
@@ -3975,22 +3669,19 @@ pg.activity_template = {
 			10159
 		}
 	},
-	[4972] = {
-		mark = 20240104,
+	[4940] = {
+		mark = 20240111,
 		title_res_tag = "",
 		page_info = "",
-		type = 13,
+		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		config_client = "",
-		id = 4972,
+		id = 4940,
 		config_data = {
-			10160,
-			10161,
-			10162,
-			10163,
-			10164
+			1730001,
+			1730002,
+			1730003
 		},
 		time = {
 			"timer",
@@ -3998,7 +3689,7 @@ pg.activity_template = {
 				{
 					2024,
 					1,
-					4
+					11
 				},
 				{
 					0,
@@ -4010,7 +3701,7 @@ pg.activity_template = {
 				{
 					2024,
 					1,
-					10
+					25
 				},
 				{
 					23,
@@ -4018,6 +3709,353 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4941] = {
+		mark = 20240111,
+		id = 4941,
+		title_res_tag = "Marseillaise_sp",
+		type = 74,
+		login_pop = 0,
+		config_id = 4941,
+		is_show = 41,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarseillaiseSpPage",
+			ui_name = "MarseillaiseSpPage"
+		},
+		config_client = {
+			linkPoolActID = 4946,
+			linkActID = 4940
+		}
+	},
+	[4942] = {
+		mark = 20240111,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 361,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 4942,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4943] = {
+		mark = 20240111,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4943,
+		config_data = {
+			18998,
+			18999,
+			19000,
+			19001,
+			19002,
+			19003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4944] = {
+		mark = 20240111,
+		config_client = "",
+		title_res_tag = "summer_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 44,
+		is_show = 30,
+		id = 4944,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SummerSportsLoginPage",
+			ui_name = "SummerSportsLoginPage"
+		}
+	},
+	[4945] = {
+		mark = 20240111,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 73,
+		is_show = 0,
+		config_client = "",
+		id = 4945,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4946] = {
+		mark = 20240111,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4946",
+		id = 4946,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "馬賽曲 建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color> ：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%",
+				"<color=#ffde38>馬賽曲</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4947] = {
+		mark = 20240111,
+		config_client = "",
+		title_res_tag = "yamaijia_fuke",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 37,
+		id = 4947,
+		config_data = {
+			{
+				19004
+			},
+			{
+				19005
+			},
+			{
+				19006
+			},
+			{
+				19007
+			},
+			{
+				19008
+			},
+			{
+				19009
+			},
+			{
+				19010
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JamaicaSkinRePage",
+			ui_name = "JamaicaSkinRePage"
+		}
+	},
+	[4972] = {
+		mark = 20240104,
+		time = "stop",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 4972,
+		config_data = {
+			10160,
+			10161,
+			10162,
+			10163,
+			10164
 		}
 	},
 	[5090] = {
@@ -40888,6 +40926,8 @@ pg.activity_template = {
 		4686,
 		4732,
 		4733,
+		4742,
+		4743,
 		4770,
 		4771,
 		4772,
@@ -40917,6 +40957,14 @@ pg.activity_template = {
 		4888,
 		4889,
 		4892,
+		4940,
+		4941,
+		4942,
+		4943,
+		4944,
+		4945,
+		4946,
+		4947,
 		4972,
 		5090,
 		5091,

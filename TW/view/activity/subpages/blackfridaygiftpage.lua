@@ -110,7 +110,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 			end):value()
 		}
 	else
-		slot4 = pg.item_data_statistics[slot2:getConfig("effect_args")[1]]
+		slot4 = Item.getConfigData(slot2:getConfig("effect_args")[1])
 		slot3 = {
 			name = slot4.name,
 			price = slot2:getConfig("resource_num"),
@@ -223,7 +223,7 @@ function slot0.OnCharge(slot0, slot1)
 	else
 		slot2 = {}
 
-		if type(pg.item_data_statistics[slot1:getConfig("effect_args")[1]].display_icon) == "table" then
+		if type(Item.getConfigData(slot1:getConfig("effect_args")[1]).display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
 				table.insert(slot2, {
 					type = slot10[1],

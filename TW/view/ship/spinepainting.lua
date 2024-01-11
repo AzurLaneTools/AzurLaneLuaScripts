@@ -69,6 +69,10 @@ function slot2(slot0, slot1)
 	end
 
 	slot0.idleName = nil
+
+	if PlayerPrefs.GetString(tostring(slot0.mainSpineAnim.name) .. "_" .. tostring(slot0._spinePaintingData.ship.id)) and #slot5 > 0 then
+		slot0:SetAction(slot5, 0)
+	end
 end
 
 function slot3(slot0, slot1)
@@ -148,6 +152,7 @@ function slot0.DoDragTouch(slot0)
 
 			slot0:SetActionWithFinishCallback("drag", 0, function ()
 				uv0:SetAction("ex", 0)
+				PlayerPrefs.SetString(tostring(uv0.mainSpineAnim.name) .. "_" .. tostring(uv0._spinePaintingData.ship.id), "ex")
 
 				uv0.inAction = false
 			end)
@@ -155,6 +160,7 @@ function slot0.DoDragTouch(slot0)
 			slot0.idleName = "normal"
 
 			slot0:SetActionWithFinishCallback("drag_ex", 0, function ()
+				PlayerPrefs.SetString(tostring(uv0.mainSpineAnim.name) .. "_" .. tostring(uv0._spinePaintingData.ship.id), "normal")
 				uv0:SetAction("normal", 0)
 
 				uv0.inAction = false

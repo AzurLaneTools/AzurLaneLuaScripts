@@ -83,11 +83,11 @@ function slot0.GetItemId(slot0)
 end
 
 function slot0.GetItemConfig(slot0)
-	return pg.item_data_statistics[slot0:GetItemId()] or {}
+	return Item.getConfigData(slot0:GetItemId()) or {}
 end
 
 function slot0.GetItemName(slot0)
-	return pg.item_data_statistics[slot0:GetItemId()] and slot2.name or ""
+	return Item.getConfigData(slot0:GetItemId()) and slot2.name or ""
 end
 
 function slot0.ShopId2SkinId(slot0, slot1)

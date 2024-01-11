@@ -12,27 +12,27 @@ return {
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
-					"<size=51>>>我们的军队失败了</size>",
+					"<size=51>>>我們的軍隊失敗了</size>",
 					2.5
 				},
 				{
-					"<size=51>>>前线已经失守，铁血军队正在快速推进。</size>",
+					"<size=51>>>前線已經失守，鐵血軍隊正在快速推進。</size>",
 					3
 				},
 				{
-					"<size=51>>>撒丁帝国也加入了战斗，局面不容乐观。</size>",
+					"<size=51>>>薩丁帝國也加入了戰鬥，局面不太樂觀。</size>",
 					3.5
 				},
 				{
-					"<size=51>>>目前，各部队已根据圣座的要求……撤出首都。</size> ",
+					"<size=51>>>目前，各部隊已根據聖座的要求……撤出首都。</size>",
 					4
 				},
 				{
-					"<size=51>>>以维持首都的不设防状态……</size>",
+					"<size=51>>>以維持首都的不設防狀態……</size>",
 					4.5
 				},
 				{
-					"<size=51>>>我已命令审判庭下属各部队服从这项保存实力的命令。</size>",
+					"<size=51>>>我已命令審判庭下屬各部隊服從這項保存實力的命令。</size>",
 					5
 				}
 			}
@@ -41,27 +41,27 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>>>同时，情报机关将进入潜伏状态，做好长期战的准备。</size>",
+					"<size=51>>>同時，情報機關將進入潛伏狀態，做好長期戰的準備。</size>",
 					2.5
 				},
 				{
-					"<size=51>>>包括所有审判庭舰队在内，所有舰队均已在{namecode:523}的指挥下向各地转移。</size>",
+					"<size=51>>>包括所有審判庭艦隊在內，所有艦隊均已在讓·巴爾的負責下向各地轉移。</size>",
 					3
 				},
 				{
-					"<size=51>>>不过，我已密令审判庭成员无需全盘听从{namecode:523}与教国司令部的命令。</size>",
+					"<size=51>>>不過，我已密令審判庭成員無須全盤聽從讓‧巴爾與教國司令部的命令。</size>",
 					3.5
 				},
 				{
-					"<size=51>>>当其命令与审判庭命令有冲突时，以审判庭命令为准。</size> ",
+					"<size=51>>>當其命令與審判庭命令有衝突時，以審判庭命令為準。</size> ",
 					4
 				},
 				{
-					"<size=51>>>至于黎塞留……我会伪造让她出使皇家的命令，让她离开纷争的中心。</size>",
+					"<size=51>>>至於黎胥留……我會偽造讓她出使皇家的命令，讓她離開紛爭的中心。</size>",
 					4.5
 				},
 				{
-					"<size=51>>>……如果洪水不可避免，就准备我们的方舟吧。</size>",
+					"<size=51>>>……如果洪水不可避免，就準備好我們的方舟吧。</size>",
 					5
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			soundeffect = "event:/ui/alarm",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "在冠冕抛出去的瞬间，少女感觉世界也在嗡鸣中崩塌。",
+			say = "在冠冕拋出去的瞬間，少女感覺世界也在嗡鳴中崩塌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "黑色的迷雾逐渐遮蔽了视线，所见的一切，连带着摇曳的意识，都坠进了这黑暗的潮水中。",
+			say = "黑色的迷霧逐漸遮蔽了視線，所見的一切，連帶著搖曳的意識，都墜入了黑暗的潮水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "不过……很快就能安静下来了吧。",
+			say = "不過……很快就能安靜下來了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "终于，要安静下来了……",
+			say = "終於，要安靜下來了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "少女放弃似地闭上了双眼，任凭意识逐渐远去。",
+			say = "少女放棄似地閉上了雙眼，任憑意識逐漸遠去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "但耳边，依稀传来了一个声音，熟悉又陌生的声音。",
+			say = "但耳邊，依稀傳來了一個聲音，熟悉又陌生的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,11 +177,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "聽不真切的聲音",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "……保持……意识……",
+			say = "……保持……意識……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +189,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "聽不真切的聲音",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "……不要……放弃……",
+			say = "……不要……放棄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,11 +201,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "听不真切的声音",
+			actorName = "聽不真切的聲音",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "不要……放弃————！",
+			say = "不要……放棄————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "光，出现了。",
+			say = "光，出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
 			mode = 1,
@@ -306,11 +306,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「由扭曲之中诞生的孽物。」",
+			say = "「由扭曲之中誕生的孽物。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,11 +318,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「吾乃鸢尾枢机主教黎塞留。」",
+			say = "「吾乃鳶尾樞機主教黎胥留。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,11 +330,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「此处，为鸢尾之圣地。」",
+			say = "「此處，為鳶尾之國土。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,11 +342,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「吾绝不允许尔等在此肆意妄为。」",
+			say = "「吾絕不允許爾等在此肆意妄為。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,11 +354,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「尘归尘，土归土。」",
+			say = "「塵歸塵，土歸土。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,11 +366,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "「在神圣的旗帜下焚尽，然后消失吧！」",
+			say = "「在神聖的旗幟下焚盡，然後消失吧！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
-			say = "扭动的梦魇在光芒的灼烧下逐渐变得稀薄。",
+			say = "扭動的夢魘在光芒的焚燒下逐漸變得稀薄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
-			say = "不久后，马赛曲感受到了温度的回归。",
+			say = "不久後，馬賽曲感受到了溫度的回歸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
-			say = "少女鼓起精神来，确认着周围的状况。",
+			say = "少女鼓起精神來，確認著周圍的狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "黎塞留主教正高举着旗帜，扭曲的敌人正在溃散……",
+			say = "黎胥留主教正高舉著旗幟，扭曲的敵人正在潰散……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,11 +443,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "但是…………似乎有什么不对。",
+			say = "但是…………似乎有什麼不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,11 +455,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "马赛曲，你还好么？现在感觉怎么样？",
+			say = "馬賽曲，妳還好嗎？現在感覺怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,11 +467,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "黎塞留主教，冠冕……",
+			say = "黎胥留主教，冠冕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,11 +479,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "被夺走了。",
+			say = "被奪走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -503,11 +503,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "馬賽曲",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "什么？！！",
+			say = "什麼？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
-			say = "突如其来的巨大刺激击穿了维系理性的最后一根弦。",
+			say = "突如其來的巨大刺激擊穿了維繫理性的最後一根弦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
-			say = "疲劳如洪水般涌来，少女的意识断线了。",
+			say = "疲勞如洪水般湧來，少女的意識斷線了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,11 +542,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "……好好休息，接下来就交给我吧。",
+			say = "……好好休息，接下來就交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "不久后，受伤的马赛曲被转移到了安全的地方。",
+			say = "不久後，受傷的馬賽曲被轉移到了安全的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "而那些扭曲的骇人异物，在夺走了冠冕后也消散得无影无踪。",
+			say = "而那些扭曲的駭人異物，在奪走了冠冕後也消散地無影無蹤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "仿佛最初就不曾存在过一样。",
+			say = "彷彿最初就不曾存在過一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "唯有岛屿上燃烧着的废墟，诉说着这场战斗的艰辛与真实。",
+			say = "唯有島嶼上燃燒著的廢墟，訴說著這場戰鬥的艱辛與真實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

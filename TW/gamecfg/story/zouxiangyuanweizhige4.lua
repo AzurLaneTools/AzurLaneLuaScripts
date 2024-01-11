@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"數年前",
 					1
 				},
 				{
-					"亚特兰蒂洋",
+					"亞特蘭蒂洋",
 					2
 				},
 				{
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "story-french1",
 			bgmDelay = 2,
-			say = "少女在洋面上疾驰着。",
+			say = "少女在洋面上疾馳著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "不远处，是一片还在燃烧的钢铁废墟。",
+			say = "不遠處，是一片還在燃燒的鋼鐵廢墟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "没想到会在这里遇上塞壬舰队……",
+			say = "沒想到會在這裡遇上塞壬艦隊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来这里不再安全了。",
+			say = "看來這裡不再安全了",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "只能继续向西。",
+			say = "只能繼續向西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "阿非利加大陆上，也许还有安全的地方……",
+			say = "阿非利加大陸上，也許還有安全的地方……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "少女向前方看去，放缓了速度。",
+			say = "少女向前方看去，放緩了速度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "此时，一个身影不知以何种方式躲过了少女的雷达，正静静地停在不远处。",
+			say = "此時，一個身影不知以何種方式躲開了少女的雷達，正靜靜地停在不遠處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "好久不见，马赛曲。",
+			say = "好久不見，馬賽曲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "真的是你么？！",
+			say = "真的是妳嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "自从凯比尔港的事之后，就一直没有你的消息，我还以为你已经……",
+			say = "自從凱比爾港的事件之後，就一直沒有妳的消息，我以為妳已經……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "已经阵亡了，或者选择在某个地方自沉了，是么。",
+			say = "已經陣亡了，或是選擇在某個地方自沉了，是嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "嗯……近来发生的悲剧实在太多了。",
+			say = "嗯……近來發生的悲劇實在太多了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你能平安无事真好，很高兴能在这里见到你。",
+			say = "妳能平安無事真好，很高興能在這裡見到妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "消失的这段时间，我只是在执行审判庭的命令而已。",
+			say = "消失的這段時間，我只是在執行審判庭的命令而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "在凯比尔港之后，一直……？",
+			say = "在凱比爾港之後，一直……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "因为要隐藏行踪，所以不能和你们联系。",
+			say = "因為要隱藏行蹤，所以不能和妳們聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "好了，先不说我。",
+			say = "好了，先不說我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你正在寻找接下来避难的地方，没错吧？",
+			say = "妳正在尋找接下來避難的地方，沒錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "嗯……这片区域已经不再安全了。接下来打算向西去……",
+			say = "嗯……這片區域已經不再安全了。接下來打算向西去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不用担心，我已经找到一个好地方了。",
+			say = "不用擔心，我已經找到一個好地方了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你是要建议我去找黎塞留主教么？",
+			say = "妳是要去建議我去找黎胥留主教嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "如果是这样的话——",
+			say = "如果是這樣的話——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "圣赫勒拿，那里有审判庭的隐秘据点，绝对安全——",
+			say = "聖赫勒拿，那裡有審判庭的隱密據點，絕對安全——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们就去那里吧。",
+			say = "我們就去那裡吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,11 +589,11 @@ return {
 					1
 				},
 				{
-					"圣赫勒拿岛·周边海域",
+					"聖赫勒拿島·週邊海域",
 					2
 				},
 				{
-					"自由鸢尾主力舰队",
+					"自由鳶尾主力艦隊",
 					3
 				}
 			},
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "此起彼伏的爆炸声在海域中回荡。",
+			say = "此起彼伏的爆炸聲在海域中迴盪。",
 			soundeffect = "event:/ui/baozha1",
 			typewriter = {
 				speed = 0.05,
@@ -626,7 +626,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "此刻，圣赫勒拿岛已经变为了一片火海。",
+			say = "此刻，聖赫勒拿島已經變成了一片火海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "呜哇哇……好惨……",
+			say = "嗚哇哇……好慘……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801040,
-			say = "塞壬这是……真的想要把山头夷平么？！",
+			say = "塞壬這是……真的想要把山頭移平嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "贝亚恩，岛屿情况如何？",
+			say = "貝亞恩，島嶼情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "岛屿周边的三分之二海域已被塞壬舰队占领，其中包括少量代行者。",
+			say = "島嶼週邊的三分之二海域已被塞壬艦隊佔領，其中包括少量代行者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "同时，侦察机发现了数个还在运作的防御炮台，我们应该不算来的太迟。",
+			say = "同時，偵察機發現了數個還在運作的防禦炮台，我們應該沒有來的太遲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "没错。塞壬舰队似乎在岛屿外围空出了一个区域，原因不明。",
+			say = "沒錯。塞壬艦隊似乎在島嶼外圍空出了一個區域，原因不明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801040,
-			say = "也许是因为要塞过于坚固，所以塞壬只能选择集中火力？",
+			say = "也許是因為要塞過於堅固，所以塞壬只能選擇集中火力？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "毕竟前往这里支援的代行者舰队被我们消灭了嘛~",
+			say = "畢竟前往這裡支援的代行者艦隊被我們消滅了嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "既然如此，我们就从塞壬空出来的海域进行突入吧！",
+			say = "既然如此，我們就從塞壬空出來的海域進行突入吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……等等，不太对劲。",
+			say = "……等等，不太對勁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "自从接近圣赫勒拿岛之后，有些事就不太对劲。",
+			say = "從接近聖赫勒拿島之後，有些事就不太對勁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖……不，贝亚恩，你有没有感受到一种奇怪的气息？",
+			say = "可怖……不，貝亞恩，妳有沒有感受到一種奇怪的氣息？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "……奇怪的气息？",
+			say = "……奇怪的氣息？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "对，和之前在圣堂中的感觉类似，这里似乎也有“污染”存在的“气息”。",
+			say = "對，和之前在聖堂的感覺類似，這裡似乎也有「污染」存在的「氣息」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "抱歉，黎塞留大人，我什么都没感受到……",
+			say = "抱歉，黎胥留大人，我什麼都沒感受到……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "不过这里并不处于镜面海域内部，“污染”的概念应该不会存在吧。",
+			say = "不過這裡並不是出於鏡面海域內部，「污染」的概念應該不會存在吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "我还不清楚……但是毫无疑问，塞壬的异常部署肯定和这股气息有关。",
+			say = "我還不清楚……但是毫無疑問，塞壬的奇怪部署肯定和這股氣息有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，到了这里有办法跟马赛曲取得联络么？",
+			say = "可怖，到了這裡有辦法跟馬賽曲取得聯絡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,7 +1017,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "正在尝试，通讯无法接通，不过我有办法用要塞内设备定位她的位置。",
+			say = "正在嘗試，通訊無法接通，不過我有辦法用要塞內設備定位她的位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……还需要一些时间。",
+			say = "……還需要一些時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "从周围残骸的数量上来看，就算防御系统全开也做不到这种程度。",
+			say = "從周圍殘骸的數量來看，就算防禦系統全開也做不到這種程度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "她肯定是亲自出来迎击过……",
+			say = "她一定是親自出來迎擊過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "早就告诉过她，一定要注意自己的安全……",
+			say = "早就告訴過她，一定要注意自己的安全……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1107,7 +1107,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "这个笨蛋……",
+			say = "這個笨蛋……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "那我们就为你争取时间。",
+			say = "那我們就為妳爭取時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "所有人，从我标注的位置发起攻击，吸引其注意力，为圣赫勒拿岛减轻压力。",
+			say = "所有人，從我標記的位置發動攻擊，吸引其注意力，為聖赫勒拿島減輕壓力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1179,7 +1179,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "咦？那个方向是塞壬舰队密集的方向欸！",
+			say = "咦？那個方向是塞壬艦隊密集的方向欸！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,7 +1215,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "没错。塞壬不想踏入的区域，我也不想进去。",
+			say = "沒錯。塞壬不想踏入的區域，我也不想進去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1233,7 +1233,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "在战斗中要格外留意那片区域的情况，我总有种不好的预感……",
+			say = "在戰鬥中要格外留意那區域的情況，我總有種不好的預感……",
 			painting = {
 				alpha = 0.3,
 				time = 1

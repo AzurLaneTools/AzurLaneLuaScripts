@@ -12,11 +12,11 @@ return {
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
-					"<size=51>>>发出：情报显示，铁血正在向边境增兵，有发动全新军事行动的意图。</size>",
+					"<size=51>>>發出：情報顯示，鐵血正向邊境增兵，有發動全新軍事行動的意圖。</size>",
 					2.5
 				},
 				{
-					"<size=51>>>收件：了解，请继续收集情报。</size>",
+					"<size=51>>>收件：了解，請繼續蒐集情報。</size>",
 					3
 				},
 				{
@@ -24,15 +24,15 @@ return {
 					3.5
 				},
 				{
-					"<size=51>>>发出：情报显示，铁血的间谍网络进入了高度活跃状态。</size> ",
+					"<size=51>>>發出：情報顯示，鐵血的間諜網路進入了高度活躍狀態。</size>",
 					4
 				},
 				{
-					"<size=51>>>发出：其电文分析显示，铁血正在为大型军事行动收集信息。</size>",
+					"<size=51>>>發出：其電文分析顯示，鐵血正在為大型軍事行動收集資訊。</size>",
 					4.5
 				},
 				{
-					"<size=51>>>收件：了解，请继续收集情报。</size>",
+					"<size=51>>>收件：了解，請繼續蒐集情報。</size>",
 					5
 				},
 				{
@@ -45,11 +45,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>>>发出：情报显示，铁血参谋部正在制定进攻的详细方案，请尽快做好准备。</size>",
+					"<size=51>>>發出：情報顯示，鐵血參謀部正在制定進攻的詳細方案，請盡快做好準備。</size>",
 					2.5
 				},
 				{
-					"<size=51>>>收件：了解，陆军正在巩固防线，确保万无一失。</size>",
+					"<size=51>>>收件：了解，陸軍正在鞏固防線，保證萬無一失。</size>",
 					3
 				},
 				{
@@ -57,19 +57,19 @@ return {
 					3.5
 				},
 				{
-					"<size=51>>>发出：情报部门截获了一份情报，注明为黄色方案。</size> ",
+					">>發出：情報部門截獲了一份情報，註明為黃色方案。",
 					4
 				},
 				{
-					"<size=51>>>审判庭判定其高度可信，请司令部立刻进行应对。</size>",
+					"<size=51>>>審判庭判定其高度可信，請司令部立刻進行應對。</size>",
 					4.5
 				},
 				{
-					"<size=51>>>收件：了解，D计划正在准备中，皇家盟友将不日抵达，注意海上的动向。</size>",
+					"<size=51>>>收件：了解，D計畫正在準備中，皇家盟友將不日抵達，並注意海上的動向。</size>",
 					5
 				},
 				{
-					"<size=51>>>收件：同时，为了行动顺利进行，请严格保密。</size>",
+					"<size=51>>>收件：同時，為了行動順利進行，請嚴格保密。</size>",
 					5.5
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "轟————————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 801030,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人！敌方舰队……全部消灭了！",
+			say = "黎胥留大人！敵方艦隊……全部消滅了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 801040,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "果然不论什么型号的代行者都很难缠……",
+			say = "果然不論什麼型號的代行者都很難纏……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人，侦察机已抵达圣赫勒拿岛上空，很快就能返回结果。",
+			say = "黎胥留大人，偵察機已抵達聖赫勒拿島上空，結果很快就能返回。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "希望我们不会到的太迟……",
+			say = "希望我們不會到的太遲……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，要塞有可能抗住代行者舰队的攻击么？",
+			say = "可怖，要塞有可能抵抗住代行者艦隊的攻擊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "额……也许能坚持一段时间。",
+			say = "呃……也許能撐一段時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "只要它们不决意把山头削平就行。",
+			say = "只要它們不堅定的要把山頭削平就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "仲裁机关本体呢？",
+			say = "仲裁機關本體呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "那肯定很快就会沦陷的。",
+			say = "那肯定很快就會淪陷的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "根据以往仲裁者的战斗力来推测，移平圣赫勒拿岛对其来说并非不可能。",
+			say = "根據以往仲裁者的戰鬥力來推測，移平聖赫勒拿島對其來說並非不可能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不过……我想不通塞壬为什么会对冠冕感兴趣。",
+			say = "不過……我想不通塞壬為什麼會對冠冕感興趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "虽然那是鸢尾正统的象征，但也不过只是一件文物而已。",
+			say = "雖然那是鳶尾正統的象徵，但也不過只是一件文物而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "我现在也没什么头绪……这件事之后再研究。",
+			say = "我現在也沒什麼頭緒……這件事之後再研究。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "当务之急还是加快行进速度，救人要紧。",
+			say = "當務之急還是加快行進速度，救人要緊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不管情况如何，我们早到一些，马赛曲可能遭遇的危险就小一些。",
+			say = "不管情況如何，我們早到一點，馬賽曲可能遭遇的危險就小一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -126,7 +126,10 @@ end
 function slot0.updateResIcon(slot0, slot1, slot2, slot3)
 	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 and slot3 ~= 6 then
 		if slot1 then
-			slot0.resIcon = pg.item_data_statistics[id2ItemId(slot1)].icon
+			slot0.resIcon = getDropIcon({
+				type = DROP_TYPE_RESOURCE,
+				id = slot1
+			})
 		elseif slot2 then
 			slot0.resIcon = slot2
 		end

@@ -52,16 +52,22 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.msgbox:Find("BG"), function ()
 		setActive(uv0.msgbox, false)
 	end)
-	onButton(slot0, slot0.msgbox:Find("window/button_container/Button1"), function ()
+
+	slot3 = slot0.msgbox
+
+	onButton(slot0, slot3:Find("window/button_container/Button1"), function ()
 		setActive(uv0.msgbox, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.chatClick, function ()
 		uv0:SetActiveBubble(not uv0.chatActive)
 	end)
 
-	slot3 = pg.item_data_statistics[id2ItemId(slot0.shop:getResId())] and slot2.icon
+	slot2 = getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot0.shop:getResId()
+	})
 
-	slot0.contentText:AddSprite(slot3, LoadSprite(slot3, ""))
+	slot0.contentText:AddSprite(slot2, LoadSprite(slot2, ""))
 	slot0:UpdateView()
 	slot0:ShowEnterMsg()
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)

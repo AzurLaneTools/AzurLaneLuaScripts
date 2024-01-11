@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "就在黎塞留一行和塞壬的舰队对峙时——",
+			say = "就在黎胥留一行和塞壬的艦隊對峙時——",
 			bgm = "level-french1",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "轟————————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "伴随着炮击声，两位不速之客如利刃般切入了敌人的阵线——",
+			say = "伴隨著炮擊聲，兩位不如之客如利刃般切入了敵人的陣線——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "对嘛！这样才对嘛！",
+			say = "對嘛！這樣才對嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "哈哈哈~真叫人尽兴啊~",
+			say = "哈哈哈~真叫人盡興~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "……喂！你怎么先出手了！",
+			say = "……喂！妳怎麼先出手了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "哎嘿嘿……没忍住，抱歉啦~",
+			say = "哎嘿嘿……沒忍住，抱歉啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "你们两位……怎么会在这里？",
+			say = "妳們兩位……怎麼會在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "糟糕——看来我们暴露了，还是过去谈谈吧？",
+			say = "糟糕——看來我們暴露了，還是過去談談吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "阿尔及利亚还有拉·加利索尼埃，真是好久不见了。",
+			say = "阿爾及利亞還有拉·加利索尼埃，真是好久不見了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "最近还好么？",
+			say = "最近還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "嗯……黎塞留主教，自莫桑比克圣堂一战之后就没再见过呢。",
+			say = "嗯……黎胥留主教，自莫三比克聖堂一戰後就沒再見過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "还算好吧。",
+			say = "還算好吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "嗯嗯！我也还算……好？",
+			say = "嗯嗯！我也還算……好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "拉·加利索尼埃，你平时不是挺能说的么，怎么现在僵住了？",
+			say = "拉·加利索尼埃，妳平常不是很能說的嗎，怎麼現在愣住了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "……说话也得分时间和场合啊！",
+			say = "……說話也要得分時間和場合啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "你看看现在这种场景……等等，可怖？！",
+			say = "妳看看現在這種場景……等等，可怖？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "你真的……是可怖！",
+			say = "妳真的……是可怖！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "你……没事啊…………真是太好了。",
+			say = "妳……沒事啊…………真是太好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "你失踪了那么久，我们一直以为你已经……",
+			say = "妳失蹤了那麼久，我們一直以為妳已經……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我的行踪居然到现在都没泄露出去么？",
+			say = "我的行蹤居然到現在都沒洩漏出去？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你们真的一直都……不知道？",
+			say = "妳們真的一直都……不知道？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "不知道啊！真是的，怎么都不跟我们联系一下！",
+			say = "不知道啊！真是的，怎麼都不跟我們聯絡一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "因为……我在执行审判庭的特殊任务。",
+			say = "因為……我在執行審判庭的特殊任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "可我们不是审判庭的同伴么！",
+			say = "但我們不是審判庭的同伴嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "就算是同在审判庭中，大家的任务互相保密不是很正常。",
+			say = "就算是同在審判庭中，大家的任務互相保密不是很正常。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "就跟我不知道为什么你们今天出现在这里一样。",
+			say = "就跟我不知道為什麼妳們今天會出現在這裡一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你们，为什么来这里？",
+			say = "妳們，為什麼來這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你们也看到现在圣赫勒拿的情况了。",
+			say = "妳們也看到現在聖赫勒拿的情況了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不管你们来这里有什么目的，接下来总要先确保这里的安全才是吧。",
+			say = "不管妳們來這裡有什麼目的，接下來總要先確保這裡的安全才是吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 902010,
-			say = "说的有道理……阿尔及利亚，你怎么看？",
+			say = "說的有道理……阿爾及利亞，你怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "唉，既然可怖特意带了黎塞留来这里，那她就不可能不知道这里隐藏的秘密。",
+			say = "唉，既然可怖帶了黎胥留來這裡，那她就不可能不知道這裡隱藏的秘密。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -885,7 +885,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "隐瞒下去确实没有意义。",
+			say = "隱瞞下去確實沒有意義。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "是这样的，审判庭下达了一项任务，要求我们前来圣赫勒拿回收圣座冠冕，并护送马赛曲返回本土。",
+			say = "是這樣的，審判庭下達了一項任務，要求我們前來聖赫勒拿回收聖座冠冕，並護送馬賽曲返回本土。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "果然……跟我们的目的一致。",
+			say = "果然……跟我們的目的一致。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "（而且……审判庭的命令？偏偏在这个时候……？）",
+			say = "（而且……審判庭的命令？偏偏在這個時候……？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -957,7 +957,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "看来……之后的冲突不可避免了呢。",
+			say = "看來……之後的衝突不可避免了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -975,7 +975,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不对，你们要找冠冕和马赛曲，我们也要找冠冕和马赛曲。",
+			say = "不對，妳們要找冠冕和馬賽曲，我們也要去找冠冕和馬賽曲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们明明是同一战线的。",
+			say = "我們明明是同一戰線的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1011,7 +1011,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "……………….、、、",
+			say = "………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1029,7 +1029,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……稍等，玩笑先暂停，我找到马赛曲的位置了。",
+			say = "……稍等，開玩笑先暫停，我到馬賽曲的位置了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1047,7 +1047,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……嗯？怎么会，在那里……？",
+			say = "……嗯？怎麼會，在那裡……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1083,7 +1083,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "贝亚恩！立刻让侦察机去我发你的位置！",
+			say = "貝亞恩！立刻讓偵察機去我發給妳的位置！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1101,7 +1101,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "重点搜寻山崖边，马赛曲应该就在那里！",
+			say = "重點搜尋山崖邊，馬賽曲應該就在那裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1120,7 +1120,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……山崖边？",
+			say = "……山崖邊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "没错……我也不知道为什么马赛曲选择离开了山中的要塞将自己暴露出来。",
+			say = "沒錯……我也不知道為什麼馬賽曲選擇離開了山中的要塞將自己暴露出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1156,7 +1156,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "等等，那个方向是……正好对着塞壬空出来的区域？",
+			say = "等等，那個方向是……正好對著塞壬空出來的區域？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,7 +1174,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "贝亚恩，行动小心。",
+			say = "貝亞恩，行動小心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,7 +1212,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人……我从现场，看到了一些奇怪的情况。",
+			say = "黎胥留大人……我從現場，看到了一些奇怪的狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1248,7 +1248,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "您之前的直觉，似乎是正确的。",
+			say = "您之前的直覺，似乎是正確的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1267,7 +1267,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "那片区域现在正被红黑色雾气覆盖，就如同我们在圣堂中见到的“污染”一样。",
+			say = "那片區域現在正被紅黑色霧氣覆蓋，就如同我們在聖堂中見到的「污染」一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1286,7 +1286,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "而且在红黑色雾气中，似乎隐藏着什么敌人。",
+			say = "而且在紅黑色霧氣中，似乎隱藏著什麼敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1305,7 +1305,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "不光是在海面上，陆地上和半空中都是！马赛曲正在与那些东西战斗！",
+			say = "不光是在海面上，陸地上和半空中都是！馬賽曲就是正在與那些東西戰鬥！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1323,7 +1323,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……似乎是指？你辨认不出敌人的类型么？",
+			say = "……似乎是指？妳辨認不出敵人的類型嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1342,7 +1342,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "没错！我通过侦察机无法辨认敌人的类型……我还从来没见过这么诡异的敌人。",
+			say = "沒錯！我無法透過偵察機辨認敵人的類型……我從來沒見過這麼詭異的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1360,7 +1360,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……随着雾气进入陆地的敌人。",
+			say = "……隨著霧氣進入陸地的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1378,7 +1378,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "看来这就是马赛曲没有固守要塞的原因了。",
+			say = "看來這就是馬賽曲沒有固守要塞的原因了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1396,7 +1396,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "没想到避开了水面……还会出现这种敌人。",
+			say = "沒想到避開了水面……還會出現這種敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1414,7 +1414,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，你对这些敌人有头绪么？",
+			say = "可怖，妳對這些敵人有頭緒嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1432,7 +1432,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……完全没有，我从来没有听说过类似的东西存在。",
+			say = "……完全沒有，我從來沒有聽過類似的東西存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1450,7 +1450,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……看来这就是塞壬选择避开那片区域的原因了。",
+			say = "……看來這就是塞壬選擇避開那區域的原因了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1468,7 +1468,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……管不了那么多了。阿尔及利亚，还有拉·加利索尼埃，跟我们一起开辟出一条道路。",
+			say = "……管不了那麼多了。阿爾及利亞，還有拉加利索尼埃，跟我們一起開闢出一條道路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1486,7 +1486,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "黎塞留大人，请你快去救马赛曲！",
+			say = "黎胥留大人，請妳快去救馬賽曲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1510,7 +1510,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "可……",
+			say = "但……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1534,7 +1534,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "没时间争论了！",
+			say = "沒時間爭論了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1557,7 +1557,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903020,
-			say = "……好，就先这样。",
+			say = "……好，就先這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1575,7 +1575,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "嗯，救马赛曲要紧。大家也要注意安全，行动开始！",
+			say = "嗯，救馬賽曲要緊。大家也要注意安全，行動開始！",
 			painting = {
 				alpha = 0.3,
 				time = 1

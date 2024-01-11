@@ -876,7 +876,7 @@ pg.activity_shop_extra = {
 	},
 	[35] = {
 		commodity_id = 202172,
-		activity = 40610,
+		activity = 4947,
 		scene = "",
 		num = 1,
 		num_limit = 1,
@@ -887,9 +887,9 @@ pg.activity_shop_extra = {
 		time = {
 			{
 				{
-					2022,
-					5,
-					5
+					2024,
+					1,
+					11
 				},
 				{
 					0,
@@ -899,9 +899,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2022,
-					5,
-					19
+					2024,
+					1,
+					25
 				},
 				{
 					23,
