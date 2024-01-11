@@ -28,7 +28,6 @@ function slot0.initData(slot0)
 	slot0.unlockCount = slot1:getData1()
 	slot0.unlockIds = slot1:getData1List()
 	slot0.allIds = pg.activity_template[slot1.id].config_data[3]
-	slot0.itemCfg = pg.item_data_statistics
 	slot0.playerId = getProxy(PlayerProxy):getData().id
 	slot0.orderIds = slot0:getLocalData()
 end
@@ -88,7 +87,7 @@ function slot0.initLeft(slot0)
 
 				setActive(uv0:findTF("firework", slot2), true)
 				setActive(uv0:findTF("firework/selected", slot2), table.contains(uv0.orderIds, slot5))
-				GetImageSpriteFromAtlasAsync(uv0.itemCfg[slot5].icon, "", uv0:findTF("firework/icon", slot2))
+				GetImageSpriteFromAtlasAsync(Item.getConfigData(slot5).icon, "", uv0:findTF("firework/icon", slot2))
 				onButton(uv0, slot2, function ()
 					uv0:onLeftClick(uv1, uv2)
 				end, SFX_PANEL)
@@ -120,7 +119,7 @@ function slot0.initRight(slot0)
 				setActive(slot5, false)
 			else
 				setActive(slot5, true)
-				GetImageSpriteFromAtlasAsync(uv0.itemCfg[tonumber(slot2.name)].icon, "", slot5)
+				GetImageSpriteFromAtlasAsync(Item.getConfigData(tonumber(slot2.name)).icon, "", slot5)
 				onButton(uv0, slot5, function ()
 					uv0:onRightClick(uv1)
 				end, SFX_PANEL)

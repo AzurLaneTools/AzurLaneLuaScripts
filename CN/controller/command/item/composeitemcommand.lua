@@ -2,23 +2,23 @@ slot0 = class("ComposeItemCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot7 = getProxy(BagProxy):getItemById(slot2.id):getTempCfgTable()
+	slot6 = getProxy(BagProxy):getItemById(slot2.id)
 
 	if slot2.count == 0 then
 		return
 	end
 
-	slot8 = slot7.target_id
+	slot7 = slot6:getConfig("target_id")
 
-	if slot4 > slot6.count / slot7.compose_number then
+	if slot4 > slot6.count / slot6:getConfig("compose_number") then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot10 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(15006, {
+	slot10:Send(15006, {
 		id = slot3,
 		num = slot4
 	}, 15007, function (slot0)

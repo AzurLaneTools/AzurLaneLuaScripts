@@ -25,6 +25,10 @@ function slot0.bindConfigTable(slot0)
 	return pg.world_item_data_template
 end
 
+function slot0.getConfigTable(slot0)
+	return BaseVO.getConfigTable(slot0)
+end
+
 function slot0.getWorldItemType(slot0)
 	return slot0:getConfig("usage")
 end

@@ -14,7 +14,6 @@ function slot0.execute(slot0, slot1)
 		})
 		slot4:updatePlayer(slot5)
 	elseif slot2.type == DROP_TYPE_ITEM then
-		assert(pg.item_data_statistics[slot2.id], "pg.item_data_statistics>>" .. slot2.id)
 		getProxy(BagProxy):removeItemById(slot2.id, slot2.count)
 	else
 		assert(false, "no support for type --" .. slot2.type)

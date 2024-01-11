@@ -169,6 +169,15 @@ pg.settings_other_template = {
 		title = "展示结算角色",
 		desc = "功能开启后，将展示战斗结算立绘过场"
 	},
+	{
+		default = 0,
+		name = "LIVE2D_STATUS_SAVE",
+		type = 0,
+		alignment = 0,
+		id = 18,
+		title = "L2D互动状态固定",
+		desc = "功能开启后，主界面L2D换装的互动状态将固定为主界面待机动作；互动状态固定后，【登录】【回港】动画将不会播放"
+	},
 	all = {
 		1,
 		2,
@@ -186,6 +195,7 @@ pg.settings_other_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

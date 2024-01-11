@@ -5,7 +5,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._parentTf = slot2
 	slot0._event = slot3
 	slot4 = pg.player_resource[GameRoomProxy.coin_res_id].itemid
-	slot0.itemCfg = pg.item_data_statistics[slot4]
+	slot0.itemCfg = Item.getConfigData(slot4)
 	slot0.coinMax = pg.gameset.game_coin_max.key_value
 	slot0.gameCoinGold = pg.gameset.game_coin_gold.description
 

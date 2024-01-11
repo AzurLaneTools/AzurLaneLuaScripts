@@ -18,9 +18,9 @@ function slot0.UpdateBubble(slot0)
 	end
 
 	if not slot0.isUpdateIcon then
-		slot5 = pg.item_data_statistics[slot1:GetResourceType()].icon
-		slot0.bubbleImg.sprite = LoadSprite(slot5)
-		slot0.floatImg.sprite = LoadSprite(slot5)
+		slot4 = Item.getConfigData(slot1:GetResourceType()).icon
+		slot0.bubbleImg.sprite = LoadSprite(slot4)
+		slot0.floatImg.sprite = LoadSprite(slot4)
 
 		onButton(slot0, slot0.bubble, function ()
 			slot0 = uv0:GetResField()

@@ -304,7 +304,7 @@ end
 
 function slot0.CalculateHistoryPt(slot0, slot1)
 	return _.reduce(slot1, _.reduce(slot0, 0, function (slot0, slot1)
-		return slot0 + pg.item_data_template[slot1.id].usage_arg[1] * slot1.count
+		return slot0 + Item.getConfigData(slot1.id).usage_arg[1] * slot1.count
 	end), function (slot0, slot1)
 		return slot0 + 0 + slot1:GetUpgradeConfig().upgrade_supply_pt
 	end)

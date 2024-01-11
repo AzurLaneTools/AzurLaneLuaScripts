@@ -10112,7 +10112,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:463}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -26748,4 +26748,8 @@ _G.pg.base.gametip.skin_page_sign = {
 
 _G.pg.base.gametip.skin_page_desc = {
 	tip = "活动期间，每日解锁$1次签到机会\n完成签到可以获取限时奖励并解锁限定剧情"
+}
+
+_G.pg.base.gametip.live2d_reset_desc = {
+	tip = "Live2D状态已重置"
 }

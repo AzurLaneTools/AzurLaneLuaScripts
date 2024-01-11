@@ -161,7 +161,7 @@ function slot0.updatePack(slot0, slot1, slot2, slot3)
 	slot4, slot5 = nil
 
 	if slot3 ~= uv0.GiftPackType.Money then
-		slot5 = pg.item_data_statistics[slot2:getConfig("effect_args")[1]]
+		slot5 = Item.getConfigData(slot2:getConfig("effect_args")[1])
 	end
 
 	slot7 = nil
@@ -534,7 +534,7 @@ function slot0.confirm(slot0, slot1)
 	else
 		slot2 = {}
 
-		if type(pg.item_data_statistics[slot1:getConfig("effect_args")[1]].display_icon) == "table" then
+		if type(Item.getConfigData(slot1:getConfig("effect_args")[1]).display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
 				table.insert(slot2, {
 					type = slot10[1],

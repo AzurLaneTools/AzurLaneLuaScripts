@@ -272,10 +272,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 17446,
 	picture = "0",
-	castCV = "skill",
+	castCV = "",
 	desc = "",
 	aniEffect = {
 		effect = "jineng",

@@ -12,14 +12,11 @@ end
 
 function slot0.setItemVO(slot0, slot1)
 	slot0.itemVO = slot1
-	slot2 = slot0.itemVO
-	slot2 = slot2:getTempCfgTable()
-	slot0.idList = slot2.usage_arg
+	slot0.idList = slot0.itemVO:getConfig("usage_arg")
 	slot0.shipIdList = underscore.map(slot0.idList, function (slot0)
 		return pg.item_usage_invitation[slot0].ship_id
 	end)
-	slot0.style = slot2.open_ui[1]
-	slot0.title = slot2.open_ui[2]
+	slot0.style, slot0.title = unpack(slot0.itemVO:getConfig("open_ui"))
 	slot0.strTip = uv0.TipWords[slot0.style]
 end
 

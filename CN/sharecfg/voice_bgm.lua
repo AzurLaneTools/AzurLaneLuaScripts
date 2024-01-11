@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "battle-ucnf",
+		default_bgm = "story-midgard",
 		special_bgm = "",
 		time = "",
-		bgm = "battle-ucnf"
+		bgm = "story-midgard"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1198,5 +1198,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "main-SeaAndSun"
+	},
+	DeXiMainPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		time = "",
+		bgm = "story-midgard"
+	},
+	DexiV4PtPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		time = "",
+		bgm = "story-midgard"
+	},
+	DeXiQianShaoReRePtPage = {
+		default_bgm = "bsm-6",
+		special_bgm = "",
+		time = "",
+		bgm = "bsm-6"
+	},
+	HuttenV2LoginPage = {
+		default_bgm = "bsm-4",
+		special_bgm = "",
+		time = "",
+		bgm = "bsm-4"
 	}
 }

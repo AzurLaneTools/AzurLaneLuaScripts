@@ -477,7 +477,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 						type = DROP_TYPE_ITEM,
 						id = slot1
 					},
-					intro = i18n("levelScene_select_SP_OP_reminder", pg.item_data_statistics[slot1].name, pg.benefit_buff_template[Chapter.GetSPBuffByItem(slot1)].desc),
+					intro = i18n("levelScene_select_SP_OP_reminder", Item.getConfigData(slot1).name, pg.benefit_buff_template[Chapter.GetSPBuffByItem(slot1)].desc),
 					onYes = function ()
 						PlayerPrefs.SetInt("SPOPItemReminder", 1)
 						PlayerPrefs.Save()

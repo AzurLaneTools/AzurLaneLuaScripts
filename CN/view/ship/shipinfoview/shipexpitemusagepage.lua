@@ -122,27 +122,31 @@ end
 function slot0.Recommand(slot0)
 	slot1 = {}
 	slot2 = Clone(slot0.shipVO)
-	slot3 = slot0:GetAllItemIDs()
-
-	table.sort(slot3, function (slot0, slot1)
-		return slot1 < slot0
+	slot3 = underscore.map(slot0:GetAllItemIDs(), function (slot0)
+		return uv0:GetItem(slot0)
 	end)
+	slot7 = {
+		slot8
+	}
 
-	slot4 = pg.item_data_template
+	function slot8(slot0)
+		return -slot0.id
+	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		slot1[slot9] = 0
-		slot10 = slot0:GetItem(slot9)
-		slot11 = slot4[slot9].usage_arg
-		slot12 = slot8 + 1 > #slot3 and 0 or slot4[slot3[slot8 + 1]].usage_arg
+	table.sort(slot3, CompareFuncs(slot7))
 
-		for slot16 = 1, slot10.count do
-			if slot8 ~= #slot3 and slot0:PreCalcExpOverFlow(slot2, tonumber(slot11), tonumber(slot12)) then
+	for slot7, slot8 in ipairs(slot3) do
+		slot1[slot8.id] = 0
+		slot9 = slot8:getConfig("usage_arg")
+		slot10 = slot7 < #slot3 and slot3[slot7 + 1]:getConfig("usage_arg") or 0
+
+		for slot14 = 1, slot8.count do
+			if slot7 ~= #slot3 and slot0:PreCalcExpOverFlow(slot2, tonumber(slot9), tonumber(slot10)) then
 				break
 			else
-				slot2:addExp(tonumber(slot11))
+				slot2:addExp(tonumber(slot9))
 
-				slot1[slot9] = slot1[slot9] + 1
+				slot1[slot8.id] = slot1[slot8.id] + 1
 
 				if slot2.maxLevel == slot2.level then
 					return slot1
@@ -175,7 +179,7 @@ function slot0.GetAllItemIDs(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.gameset.ship_exp_books.description) do
-		if pg.item_data_statistics[slot7] then
+		if Item.getConfigData(slot7) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -238,13 +242,13 @@ function slot0.OnAddItem(slot0, slot1, slot2, slot3, slot4)
 
 	for slot10, slot11 in pairs(slot0.itemCnts) do
 		if slot10 ~= slot2 then
-			slot6 = slot6 + tonumber(pg.item_data_template[slot10].usage_arg) * slot11
+			slot6 = slot6 + tonumber(Item.getConfigData(slot10).usage_arg) * slot11
 		end
 	end
 
 	slot5:addExp(slot6)
 
-	slot7 = pg.item_data_template[slot2].usage_arg
+	slot7 = Item.getConfigData(slot2).usage_arg
 	slot8 = 0
 
 	if slot4 then
@@ -292,7 +296,7 @@ function slot0.GetAdditionExp(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.itemCnts) do
-		slot1 = slot1 + tonumber(pg.item_data_template[slot5].usage_arg) * slot6
+		slot1 = slot1 + tonumber(Item.getConfigData(slot5).usage_arg) * slot6
 	end
 
 	return slot1

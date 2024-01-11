@@ -78,7 +78,7 @@ function slot0.Show(slot0, slot1, slot2)
 
 	slot0.itemId = slot2
 	slot0.boxId = slot1
-	slot0.cost = pg.item_data_template[slot0.itemId].usage_arg[1]
+	slot0.cost = Item.getConfigData(slot0.itemId).usage_arg[1]
 	slot0.costM = slot0.cost / 60
 	slot3 = getProxy(BagProxy):getItemCountById(slot2)
 	slot0.maxCnt = math.min(slot0:CalcMaxUsageCnt(), slot3)

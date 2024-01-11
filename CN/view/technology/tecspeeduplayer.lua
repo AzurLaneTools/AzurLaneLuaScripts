@@ -240,9 +240,11 @@ function slot0.updateTaskPanel(slot0, slot1)
 end
 
 function slot0.initItem(slot0)
-	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[slot0.itemID].icon, "", slot0.itemIcon)
+	slot1 = Item.getConfigData(slot0.itemID)
+
+	GetImageSpriteFromAtlasAsync(slot1.icon, "", slot0.itemIcon)
 	setText(slot0.itemCountText, slot0.bagProxy:getItemCountById(slot0.itemID))
-	setText(slot0.itemNameText, pg.item_data_statistics[slot0.itemID].name)
+	setText(slot0.itemNameText, slot1.name)
 end
 
 function slot0.isExpOverFlow(slot0)

@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 
 			return
 		end
-	elseif slot5.commodity_type == DROP_TYPE_ITEM and pg.item_data_statistics[slot5.commodity_id].max_num > 0 and slot9 < getProxy(BagProxy):getItemCountById(slot5.commodity_id) + slot5.num * slot6 then
+	elseif slot5.commodity_type == DROP_TYPE_ITEM and Item.getConfigData(slot5.commodity_id).max_num > 0 and slot9 < getProxy(BagProxy):getItemCountById(slot5.commodity_id) + slot5.num * slot6 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_shop_limit_error"))
 
 		return

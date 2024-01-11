@@ -122,7 +122,7 @@ function slot0.update(slot0, slot1)
 
 			onToggle(uv1, slot2, function (slot0)
 				if slot0 then
-					uv0.selectedVO = uv1:getTempCfgTable().usage_arg[uv2 + 1]
+					uv0.selectedVO = uv1:getConfig("usage_arg")[uv2 + 1]
 
 					setText(uv3, uv0.count * uv4[3])
 

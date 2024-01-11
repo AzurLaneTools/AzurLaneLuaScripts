@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			expression = 6,
+			expression = 2,
 			side = 2,
 			hasPaintbg = true,
 			paintingNoise = true,
