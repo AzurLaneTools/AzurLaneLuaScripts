@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 				num = slot10
 			})
 
-			slot5 = slot5 + tonumber(pg.item_data_template[slot9].usage_arg) * slot10
+			slot5 = slot5 + tonumber(Item.getConfigData(slot9).usage_arg) * slot10
 		end
 	end
 

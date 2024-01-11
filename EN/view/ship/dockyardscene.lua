@@ -1536,12 +1536,12 @@ function slot0.updateDestroyRes(slot0)
 					else
 						slot5 = uv3[1]
 						slot4 = slot5.count
-						slot3 = pg.item_data_statistics[slot5.id].icon
+						slot3 = Item.getConfigData(slot5.id).icon
 					end
 				elseif slot1 > 1 then
 					slot5 = uv1 and uv3[slot1] or uv3[slot1 - 1]
 					slot4 = slot5.count
-					slot3 = pg.item_data_statistics[slot5.id].icon
+					slot3 = Item.getConfigData(slot5.id).icon
 				end
 
 				GetImageSpriteFromAtlasAsync(slot3, "", slot2:Find("icon"))

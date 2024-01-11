@@ -1,7 +1,8 @@
 slot0 = class("Live2dDrag")
 slot1 = 4
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
+	slot0.live2dData = slot2
 	slot0.frameRate = Application.targetFrameRate or 60
 	slot0.id = slot1.id
 	slot0.drawAbleName = slot1.draw_able_name or ""
@@ -112,6 +113,8 @@ function slot0.stopDrag(slot0)
 
 		slot0.mouseInputUp = Input.mousePosition
 		slot0.mouseInputUpTime = Time.time
+
+		slot0:saveData()
 	end
 end
 
@@ -232,6 +235,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			function ()
 				uv0:applyFinish()
 			end,
+			id = slot0.id,
 			action = slot5,
 			activeData = slot4,
 			focus = slot6,
@@ -554,6 +558,10 @@ function slot0.updateTrigger(slot0)
 			if math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 and slot6 and not slot0.l2dIsPlaying then
 				slot0.clickTriggerTime = 0.01
 				slot0.clickApplyFlag = true
+			else
+				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+					ableFlag = false
+				})
 			end
 		elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 then
 			slot0.clickTriggerTime = slot0.clickTriggerTime - Time.deltaTime
@@ -575,6 +583,8 @@ function slot0.updateTrigger(slot0)
 	elseif slot1 == Live2D.DRAG_DOWN_ACTION then
 		if slot0._active then
 			if slot0.firstActive then
+				slot0.ableFalg = true
+
 				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 					ableFlag = true
 				})
@@ -584,10 +594,19 @@ function slot0.updateTrigger(slot0)
 				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 					ableFlag = false
 				})
+
+				slot0.ableFalg = false
+
 				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 
 				slot0.mouseInputDownTime = Time.time
 			end
+		elseif slot0.ableFalg then
+			slot0.ableFalg = false
+
+			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+				ableFlag = false
+			})
 		end
 	elseif slot1 == Live2D.DRAG_RELATION_XY and slot0._active then
 		slot6 = slot0:fixParameterTargetValue(slot0.offsetDragY, slot0.range, slot0.rangeAbs, slot0.dragDirect)
@@ -644,6 +663,26 @@ function slot0.updateStateData(slot0, slot1)
 	end
 end
 
+function slot0.saveData(slot0)
+	if slot0.revert == -1 then
+		Live2dConst.SaveDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.parameterTargetValue)
+	end
+end
+
+function slot0.loadData(slot0)
+	if slot0.revert == -1 and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
+		slot0:setParameterValue(slot1)
+		slot0:setTargetValue(slot1)
+	end
+end
+
+function slot0.clearData(slot0)
+	if slot0.revert == -1 then
+		slot0:setParameterValue(slot0.startValue)
+		slot0:setTargetValue(slot0.startValue)
+	end
+end
+
 function slot0.setTriggerActionFlag(slot0, slot1)
 	slot0.isTriggerAtion = slot1
 end
@@ -655,6 +694,7 @@ function slot0.dispose(slot0)
 	slot0.parameterTargetValue = 0
 	slot0.parameterSmooth = 0
 	slot0.mouseInputDown = Vector2(0, 0)
+	slot0.live2dData = nil
 end
 
 return slot0

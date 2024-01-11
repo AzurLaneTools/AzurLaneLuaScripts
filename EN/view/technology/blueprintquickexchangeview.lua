@@ -93,20 +93,19 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		slot0 = pg.item_data_template
-		slot1 = {}
+		slot0 = {}
 
-		for slot5, slot6 in ipairs(uv0.displayList) do
-			if uv0.countList[slot5] > 0 then
-				table.insert(slot1, {
-					id = slot6.id,
-					count = uv0.countList[slot5],
-					arg = slot0[slot6.id].usage_arg[uv0.awardList[slot5].index]
+		for slot4, slot5 in ipairs(uv0.displayList) do
+			if uv0.countList[slot4] > 0 then
+				table.insert(slot0, {
+					id = slot5.id,
+					count = uv0.countList[slot4],
+					arg = Item.getConfigData(slot5.id).usage_arg[uv0.awardList[slot4].index]
 				})
 			end
 		end
 
-		uv0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, slot1)
+		uv0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, slot0)
 		uv0:Hide()
 	end, SFX_CANCEL)
 

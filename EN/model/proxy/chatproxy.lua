@@ -35,7 +35,7 @@ function slot0.InjectPublic(slot0, slot1, slot2)
 				end
 			end
 		else
-			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and (slot8.type ~= PublicArg.TypeWorldBoss or slot8.string) and slot8.string
+			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or Item.getConfigData(slot8.int).name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and (slot8.type ~= PublicArg.TypeWorldBoss or slot8.string) and slot8.string
 		end
 
 		slot3 = string.gsub(slot3, "$" .. slot7, slot9)

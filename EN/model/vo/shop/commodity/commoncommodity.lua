@@ -187,12 +187,12 @@ end
 function slot0.GetDropList(slot0)
 	slot1 = {}
 
-	if type(pg.item_data_statistics[slot0:getConfig("effect_args")[1]].display_icon) == "table" then
-		for slot8, slot9 in ipairs(slot4) do
+	if type(Item.getConfigData(slot0:getConfig("effect_args")[1]).display_icon) == "table" then
+		for slot7, slot8 in ipairs(slot3) do
 			table.insert(slot1, {
-				type = slot9[1],
-				id = slot9[2],
-				count = slot9[3]
+				type = slot8[1],
+				id = slot8[2],
+				count = slot8[3]
 			})
 		end
 	end

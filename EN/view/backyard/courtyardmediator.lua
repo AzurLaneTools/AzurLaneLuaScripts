@@ -293,7 +293,10 @@ function slot0.OnExtend(slot0)
 		slot3 = pg.shop_template[getProxy(DormProxy):getRawData():GetExpandId()]
 
 		_BackyardMsgBoxMgr:Show({
-			content = i18n("backyard_buyExtendItem_question", slot3.resource_num .. pg.item_data_statistics[id2ItemId(slot3.resource_type)].name),
+			content = i18n("backyard_buyExtendItem_question", slot3.resource_num .. getDropName({
+				type = DROP_TYPE_RESOURCE,
+				id = slot3.resource_type
+			})),
 			onYes = function ()
 				uv0:sendNotification(GAME.SHOPPING, {
 					count = 1,

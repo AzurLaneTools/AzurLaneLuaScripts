@@ -115,20 +115,20 @@ function slot0.setItem(slot0, slot1)
 		setActive(slot0, slot0 == uv0.okBtn)
 	end)
 
-	if not slot0.itemVO:getTempCfgTable() then
+	if not slot0.itemVO:CanInBag() then
 		return
 	end
 
-	if slot2.compose_number > 0 and slot2.compose_number <= slot0.itemVO.count then
+	if slot0.itemVO:getConfig("compose_number") > 0 and slot2 <= slot0.itemVO.count then
 		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
 
-		slot0.operateMax = slot0.itemVO.count / slot2.compose_number
+		slot0.operateMax = slot0.itemVO.count / slot2
 
 		setActive(slot0.composeBtn, true)
 		setActive(slot0.okBtn, false)
 	end
 
-	if slot2.usage == ItemUsage.SOS then
+	if slot0.itemVO:getConfig("usage") == ItemUsage.SOS then
 		setText(slot0.useBtn:Find("text"), 1)
 		setActive(slot0.useBtn, true)
 		setActive(slot0.okBtn, false)
@@ -267,9 +267,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.operateBtns.Confirm, function ()
 		uv0:emit(ItemInfoMediator.COMPOSE_ITEM, uv0.itemVO.id, uv0.operateCount)
 
-		slot0 = uv0.itemVO:getTempCfgTable()
+		slot0 = uv0.itemVO:getConfig("compose_number")
 
-		if uv0.itemVO.count - uv0.operateCount * slot0.compose_number < slot0.compose_number then
+		if slot0 > uv0.itemVO.count - uv0.operateCount * slot0 then
 			triggerButton(uv0.operateBtns.Cancel)
 		else
 			uv0:SetOperateCount(1)
@@ -311,11 +311,11 @@ end
 
 function slot0.UpdateCount(slot0, slot1)
 	if slot0.operateMode == uv0.COMPOSE then
-		if not slot0.itemVO:getTempCfgTable().target_id or slot2.target_id <= 0 then
+		if not slot0.itemVO:getConfig("target_id") or slot2 <= 0 then
 			return false
 		end
 
-		return slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot2.compose_number))
+		return slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot0.itemVO:getConfig("compose_number")))
 	elseif slot0.operateMode == uv0.RESOLVE then
 		return slot0.operateCount ~= math.clamp(slot1, 1, slot0.itemVO.count)
 	end
@@ -323,17 +323,17 @@ end
 
 function slot0.SetOperateCount(slot0, slot1)
 	if slot0.operateMode == uv0.COMPOSE then
-		if not slot0.itemVO:getTempCfgTable().target_id or slot2.target_id <= 0 then
+		if not slot0.itemVO:getConfig("target_id") or slot2 <= 0 then
 			return
 		end
 
-		if slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot2.compose_number)) then
+		if slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot0.itemVO:getConfig("compose_number"))) then
 			slot0.operateCount = slot1
 
 			slot0:UpdateComposeCount()
 		end
 
-		slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount * slot2.compose_number)
+		slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount * slot3)
 	elseif slot0.operateMode == uv0.RESOLVE and slot0.operateCount ~= math.clamp(slot1, 0, slot0.operateMax) then
 		slot0.operateCount = slot1
 
@@ -347,18 +347,18 @@ function slot0.UpdateComposeCount(slot0)
 
 	setText(slot0.operateValue, slot1)
 
-	slot2 = slot0.itemVO
-	slot3 = {}
+	slot2 = {}
+	slot6 = slot0.itemVO
 
-	table.insert(slot3, {
+	table.insert(slot2, {
 		type = DROP_TYPE_ITEM,
-		id = slot2:getTempCfgTable().target_id,
+		id = slot6:getConfig("target_id"),
 		count = slot1
 	})
 
-	slot7 = #slot3
+	slot6 = #slot2
 
-	function slot8(slot0, slot1, slot2)
+	function slot7(slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -369,10 +369,10 @@ function slot0.UpdateComposeCount(slot0)
 		end
 	end
 
-	UIItemList.StaticAlign(slot0.operateBonusList, slot0.operateBonusTpl, slot7, slot8)
+	UIItemList.StaticAlign(slot0.operateBonusList, slot0.operateBonusTpl, slot6, slot7)
 
-	for slot7, slot8 in pairs(slot0.operateBtns) do
-		setActive(slot8, slot7 == "Confirm" or slot7 == "Cancel")
+	for slot6, slot7 in pairs(slot0.operateBtns) do
+		setActive(slot7, slot6 == "Confirm" or slot6 == "Cancel")
 	end
 
 	setText(slot0.operateCountdesc, i18n("compose_amount_prefix"))

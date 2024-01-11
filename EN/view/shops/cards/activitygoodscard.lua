@@ -169,31 +169,26 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 		setText(slot6, shortenString(slot17, 6))
 	end
 
-	slot18 = nil
-
-	if slot1:getConfig("resource_category") == DROP_TYPE_RESOURCE then
-		slot18 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
-	elseif slot19 == DROP_TYPE_ITEM then
-		slot18 = GetSpriteFromAtlas(pg.item_data_statistics[slot1:getConfig("resource_type")].icon, "")
-	end
-
-	slot7.sprite = slot18
+	slot7.sprite = GetSpriteFromAtlas(getDropIcon({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}), "")
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot12.text = i18n("common_no_limit")
 	else
-		slot20 = slot1:getConfig("num_limit")
+		slot19 = slot1:getConfig("num_limit")
 
 		if slot16.type == DROP_TYPE_SKIN and not slot14 then
-			slot12.text = "0/" .. slot20
+			slot12.text = "0/" .. slot19
 		else
-			slot12.text = slot20 - slot1.buyCount .. "/" .. slot20
+			slot12.text = slot19 - slot1.buyCount .. "/" .. slot19
 		end
 	end
 
-	slot20 = uv0.Color[slot2] or uv0.DefaultColor
-	slot12.color = slot3 or Color.New(slot20[1], slot20[2], slot20[3], 1)
-	slot13.color = slot3 or Color.New(slot20[1], slot20[2], slot20[3], 1)
+	slot19 = uv0.Color[slot2] or uv0.DefaultColor
+	slot12.color = slot3 or Color.New(slot19[1], slot19[2], slot19[3], 1)
+	slot13.color = slot3 or Color.New(slot19[1], slot19[2], slot19[3], 1)
 
 	if slot1:getConfig("num_limit") >= 99 then
 		slot13.text = i18n("shop_label_unlimt_cnt")

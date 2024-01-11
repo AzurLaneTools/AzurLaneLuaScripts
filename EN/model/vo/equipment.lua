@@ -582,7 +582,7 @@ function slot0.getRevertAwards(slot0)
 	end
 
 	if slot2 > 0 then
-		slot1[id2ItemId(1)] = {
+		slot1[id2ItemId(PlayerConst.ResGold)] = {
 			id = 1,
 			type = DROP_TYPE_RESOURCE,
 			count = slot2

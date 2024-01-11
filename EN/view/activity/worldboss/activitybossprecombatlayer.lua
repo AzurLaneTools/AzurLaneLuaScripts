@@ -292,7 +292,7 @@ function slot0.SetStageID(slot0, slot1)
 				type = slot9[1]
 			})
 			onButton(slot0, slot10, function ()
-				if pg.item_data_statistics[uv0[2]] and uv1[slot0.type] then
+				if Item.getConfigData(uv0[2]) and uv1[slot0.type] then
 					slot2 = {}
 
 					for slot6, slot7 in ipairs(slot0.display_icon) do
@@ -590,37 +590,40 @@ function slot0.displayFleetInfo(slot0)
 	setText(slot0._bonus:Find("Text"), slot11)
 
 	if slot11 <= 0 then
-		setImageSprite(slot0._ticket:Find("icon"), LoadSprite(itemId2icon(pg.player_resource[slot0._ticketItemID].itemid), ""))
+		setImageSprite(slot0._ticket:Find("icon"), LoadSprite(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = slot0._ticketItemID
+		}), ""))
 
-		slot15 = getProxy(PlayerProxy):getRawData():getResource(slot0._ticketItemID)
-		slot16 = 1
-		slot17 = slot0._ticket:Find("checkbox")
+		slot14 = getProxy(PlayerProxy):getRawData():getResource(slot0._ticketItemID)
+		slot15 = 1
+		slot16 = slot0._ticket:Find("checkbox")
 
 		if slot6 == SYSTEM_BOSS_EXPERIMENT then
-			slot16 = 0
+			slot15 = 0
 
-			triggerToggle(slot17, false)
-			setToggleEnabled(slot17, false)
+			triggerToggle(slot16, false)
+			setToggleEnabled(slot16, false)
 		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			triggerToggle(slot17, true)
-			setToggleEnabled(slot17, false)
+			triggerToggle(slot16, true)
+			setToggleEnabled(slot16, false)
 		elseif slot6 == SYSTEM_ACT_BOSS_SP then
 			setActive(slot0._ticket, false)
 		elseif slot6 == SYSTEM_ACT_BOSS then
-			slot18 = slot15 > 0
+			slot17 = slot14 > 0
 
-			setToggleEnabled(slot17, slot18)
-			triggerToggle(slot17, slot18 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
+			setToggleEnabled(slot16, slot17)
+			triggerToggle(slot16, slot17 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
 		end
 
-		if slot15 < slot16 then
-			slot15 = setColorStr(slot15, COLOR_RED) or slot15
+		if slot14 < slot15 then
+			slot14 = setColorStr(slot14, COLOR_RED) or slot14
 		end
 
-		slot19 = slot0._ticket
+		slot18 = slot0._ticket
 
-		setText(slot19:Find("Text"), slot16 .. "/" .. slot15)
-		onToggle(slot0, slot17, function (slot0)
+		setText(slot18:Find("Text"), slot15 .. "/" .. slot14)
+		onToggle(slot0, slot16, function (slot0)
 			getProxy(SettingsProxy):setActBossExchangeTicketTip(slot0 and 1 or 0)
 		end, SFX_PANEL, SFX_CANCEL)
 	end

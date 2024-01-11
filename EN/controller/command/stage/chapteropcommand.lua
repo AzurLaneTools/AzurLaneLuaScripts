@@ -4,6 +4,10 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if (function ()
+		if uv0.type == ChapterConst.OpRetreat then
+			return
+		end
+
 		if not getProxy(ChapterProxy):getActiveChapter() then
 			return true
 		end
@@ -24,12 +28,6 @@ function slot0.execute(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_success", slot1.fleet.name))
 
 			return true
-		elseif uv0.type == ChapterConst.OpSkipBattle then
-			slot1:UpdateProgressAfterSkipBattle()
-			slot0:updateChapter(slot1)
-		elseif uv0.type == ChapterConst.OpPreClear then
-			slot1:CleanCurrentEnemy()
-			slot0:updateChapter(slot1)
 		end
 	end)() then
 		return
@@ -47,9 +45,9 @@ function slot0.execute(slot0, slot1)
 		act_arg_5 = slot2.arg5
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
-			slot2 = getProxy(ChapterProxy):getActiveChapter()
-
-			assert(slot2)
+			if not getProxy(ChapterProxy):getActiveChapter() then
+				return
+			end
 
 			slot3, slot4 = nil
 
@@ -132,8 +130,10 @@ function slot0.execute(slot0, slot1)
 					elseif uv1.type == ChapterConst.OpRequest then
 						uv0:doRequest()
 					elseif uv1.type == ChapterConst.OpSkipBattle then
+						uv0.chapter:UpdateProgressAfterSkipBattle()
 						uv0:doSkipBattle()
 					elseif uv1.type == ChapterConst.OpPreClear then
+						uv0.chapter:CleanCurrentEnemy()
 						uv0:doSkipBattle()
 					elseif uv1.type == ChapterConst.OpSubTeleport then
 						uv0:doTeleportSub()
@@ -166,6 +166,10 @@ function slot0.execute(slot0, slot1)
 					extendData = slot3,
 					finalChapterLevelData = slot4
 				})
+
+				if uv1.type == ChapterConst.OpSkipBattle then
+					uv0:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST)
+				end
 			end
 		else
 			errorMsg(string.format("SLG操作%d 请求失效，重新拉取信息", uv1.type))

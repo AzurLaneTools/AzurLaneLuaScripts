@@ -119,10 +119,6 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
-function slot0.ResId2ItemId(slot0, slot1)
-	return id2ItemId(slot1)
-end
-
 function slot0.SetResIcon(slot0)
 	slot1 = slot0.shop:GetResList()
 
@@ -133,13 +129,16 @@ function slot0.SetResIcon(slot0)
 		slot10 = slot6[4]
 
 		if slot1[slot5] ~= nil then
-			slot12 = pg.item_data_statistics[slot0:ResId2ItemId(slot11)]
+			slot12 = {
+				type = DROP_TYPE_RESOURCE,
+				id = slot11
+			}
 
-			GetSpriteFromAtlasAsync(slot12.icon, "", function (slot0)
+			GetSpriteFromAtlasAsync(getDropIcon(slot12), "", function (slot0)
 				uv0.sprite = slot0
 			end)
 
-			slot10.text = slot12.name
+			slot10.text = getDropName(slot12)
 		end
 	end
 

@@ -3,7 +3,7 @@ slot0 = class("UseItemCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.arg
-	slot8 = getProxy(BagProxy):getItemById(slot2.id):getTempCfgTable()
+	slot8 = getProxy(BagProxy):getItemById(slot2.id):getConfig("usage")
 	slot9 = slot2.skip_check
 	slot10 = slot2.callback
 
@@ -21,7 +21,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if (slot8.usage == ItemUsage.GUILD_DONATE or slot8.usage == ItemUsage.GUILD_OPERATION) and not getProxy(GuildProxy):getRawData() then
+	if (slot8 == ItemUsage.GUILD_DONATE or slot8 == ItemUsage.GUILD_OPERATION) and not getProxy(GuildProxy):getRawData() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("not_exist_guild_use_item"))
 
 		return
@@ -39,29 +39,29 @@ function slot0.execute(slot0, slot1)
 
 			uv0:removeItemById(uv1, uv2)
 
-			if uv3.usage == ItemUsage.FOOD then
+			if uv3 == ItemUsage.FOOD then
 				uv4:sendNotification(GAME.ADD_FOOD, {
 					id = uv1,
 					count = uv2
 				})
-			elseif uv3.usage == ItemUsage.DROP or uv3.usage == ItemUsage.DROP_APPOINTED or uv3.usage == ItemUsage.INVITATION or uv3.usage == ItemUsage.SKIN_SELECT then
+			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-			elseif uv3.usage == ItemUsage.DORM_LV_UP then
+			elseif uv3 == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
-			elseif uv3.usage == ItemUsage.GUILD_DONATE then
+			elseif uv3 == ItemUsage.GUILD_DONATE then
 				if getProxy(GuildProxy):getRawData() then
 					slot2:AddExtraDonateCnt(uv2)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_donateitem_success", uv2))
 				end
-			elseif uv3.usage == ItemUsage.GUILD_OPERATION then
+			elseif uv3 == ItemUsage.GUILD_OPERATION then
 				if getProxy(GuildProxy):getRawData() then
 					slot2:AddExtraBattleCnt(uv2)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_use_battleitem_success", uv2))
 				end
-			elseif uv3.usage == ItemUsage.REDUCE_COMMANDER_TIME then
+			elseif uv3 == ItemUsage.REDUCE_COMMANDER_TIME then
 				uv4:sendNotification(GAME.REFRESH_COMMANDER_BOXES)
 			else
-				assert(false, "未处理类型" .. uv3.usage)
+				assert(false, "未处理类型" .. uv3)
 			end
 
 			if QRJ_ITEM_ID_RANGE[1] <= uv1 and uv1 <= slot2[2] then
@@ -86,70 +86,30 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.Check(slot0, slot1)
-	if uv0.CheckOil(slot0:getConfig("type"), (slot0:getConfig("drop_oil_max") or 0) * slot1) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
+	slot4, slot5 = CheckOverflow(GetItemsOverflowDic(underscore.map(slot0:GetOverflowCheckItems(slot1), function (slot0)
+		return Item.New(slot0)
+	end)))
 
-		return
-	end
+	if not slot4 then
+		switch(slot5, {
+			gold = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
+			end,
+			oil = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
+			end,
+			equip = function ()
+				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
+			end,
+			ship = function ()
+				NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+			end
+		})
 
-	if uv0.CheckGold(slot2, (slot0:getConfig("drop_gold_max") or 0) * slot1) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
-
-		return
-	end
-
-	if uv0.CheckEquipemtnBag(slot2, slot1) then
-		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
-
-		return
-	end
-
-	if uv0.CheckShipBag(slot2, slot1) then
-		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
-
-		return
+		return false
 	end
 
 	return true
-end
-
-function slot0.CheckGold(slot0, slot1)
-	if table.contains({
-		Item.GOLD_BOX_TYPE
-	}, slot0) and getProxy(PlayerProxy):getRawData():GoldMax(slot1) then
-		return true
-	end
-
-	return false
-end
-
-function slot0.CheckOil(slot0, slot1)
-	if table.contains({
-		Item.OIL_BOX_TYPE
-	}, slot0) and getProxy(PlayerProxy):getRawData():OilMax(slot1) then
-		return true
-	end
-
-	return false
-end
-
-function slot0.CheckShipBag(slot0, slot1)
-	if table.contains({}, slot0) and getProxy(PlayerProxy):getRawData():getMaxShipBag() < getProxy(BayProxy):getShipCount() + slot1 then
-		return true
-	end
-
-	return false
-end
-
-function slot0.CheckEquipemtnBag(slot0, slot1)
-	if table.contains({
-		Item.EQUIPMENT_ASSIGNED_TYPE,
-		Item.EQUIPMENT_BOX_TYPE_5
-	}, slot0) and getProxy(PlayerProxy):getRawData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + slot1 then
-		return true
-	end
-
-	return false
 end
 
 return slot0

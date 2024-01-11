@@ -81,7 +81,10 @@ function slot0.update(slot0, slot1, slot2)
 	if slot6 then
 		if slot1.type == PowerRank.TYPE_PT then
 			if slot2 then
-				setImageSprite(slot0.scoreIconTF, LoadSprite(pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id"))].icon))
+				setImageSprite(slot0.scoreIconTF, LoadSprite(getDropIcon({
+					type = DROP_TYPE_RESOURCE,
+					id = getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id")
+				})))
 			end
 		else
 			setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot6[1], slot6[2]), true)

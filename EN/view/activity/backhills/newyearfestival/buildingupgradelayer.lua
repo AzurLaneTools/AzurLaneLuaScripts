@@ -68,7 +68,7 @@ function slot0.Set(slot0, slot1, slot2)
 		setText(slot0:findTF("window/frame/content/preview/next"), slot12.desc)
 	end
 
-	slot0.loader:GetSprite(pg.item_data_statistics[slot7].icon, "", slot0:findTF("window/frame/costback/icon"))
+	slot0.loader:GetSprite(Item.getConfigData(slot7).icon, "", slot0:findTF("window/frame/costback/icon"))
 	setText(slot0:findTF("window/frame/costback/cost"), slot3.material[slot5] or 0)
 	onButton(slot0, slot0.btnUpgrade, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

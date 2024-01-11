@@ -218,7 +218,7 @@ function slot0.Resetresolve(slot0)
 
 	for slot10, slot11 in pairs(slot4) do
 		slot12 = slot11
-		slot13 = pg.item_data_statistics[slot12.id]
+		slot13 = Item.getConfigData(slot12.id)
 
 		assert(slot13, "Can't find the price " .. slot12.id)
 

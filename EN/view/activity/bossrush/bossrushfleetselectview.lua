@@ -257,7 +257,7 @@ slot2 = {
 }
 
 function slot0.ShowDropDetail(slot0, slot1)
-	if pg.item_data_statistics[slot1.id] and uv0[slot2.type] then
+	if Item.getConfigData(slot1.id) and uv0[slot2.type] then
 		slot4 = {}
 
 		for slot8, slot9 in ipairs(slot2.display_icon) do

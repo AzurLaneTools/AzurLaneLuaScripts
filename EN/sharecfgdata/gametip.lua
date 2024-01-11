@@ -10259,7 +10259,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Guam guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Ulrich von Hutten guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -27025,4 +27025,8 @@ _G.pg.base.gametip.skin_page_sign = {
 
 _G.pg.base.gametip.skin_page_desc = {
 	tip = "Log in every day to get $1 unlock chance(s). Tap on an icon to unlock the corresponding side story!"
+}
+
+_G.pg.base.gametip.live2d_reset_desc = {
+	tip = "L2D Settings have been reset."
 }

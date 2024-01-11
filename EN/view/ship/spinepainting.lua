@@ -68,7 +68,9 @@ function slot2(slot0, slot1)
 		slot0.mainSpineAnim = slot0.spineAnimList[#slot0.spineAnimList]
 	end
 
-	slot0.idleName = nil
+	slot0.idleName = "normal"
+
+	slot0:checkActionShow()
 end
 
 function slot3(slot0, slot1)
@@ -125,6 +127,21 @@ function slot0.SetVisible(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
 	setActive(slot0._tf, slot1)
+	slot0:checkActionShow()
+end
+
+function slot0.checkActionShow(slot0)
+	if PlayerPrefs.GetString(tostring(slot0.mainSpineAnim.name) .. "_" .. tostring(slot0._spinePaintingData.ship.id)) and #slot2 > 0 then
+		if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) == 1 and slot0.idleName ~= slot2 then
+			slot0.idleName = slot2
+
+			slot0:SetAction(slot2, 0)
+		elseif PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and slot0.idleName ~= "normal" then
+			slot0.idleName = "normal"
+
+			slot0:SetAction(slot0.idleName, 0)
+		end
+	end
 end
 
 function slot0.DoSpecialTouch(slot0)
@@ -148,6 +165,7 @@ function slot0.DoDragTouch(slot0)
 
 			slot0:SetActionWithFinishCallback("drag", 0, function ()
 				uv0:SetAction("ex", 0)
+				PlayerPrefs.SetString(tostring(uv0.mainSpineAnim.name) .. "_" .. tostring(uv0._spinePaintingData.ship.id), "ex")
 
 				uv0.inAction = false
 			end)
@@ -155,6 +173,7 @@ function slot0.DoDragTouch(slot0)
 			slot0.idleName = "normal"
 
 			slot0:SetActionWithFinishCallback("drag_ex", 0, function ()
+				PlayerPrefs.SetString(tostring(uv0.mainSpineAnim.name) .. "_" .. tostring(uv0._spinePaintingData.ship.id), "normal")
 				uv0:SetAction("normal", 0)
 
 				uv0.inAction = false

@@ -18,7 +18,10 @@ function slot0.update(slot0, slot1)
 	slot0.discountTextTF.text = slot1:getConfig("discount") .. "%OFF"
 	slot0.countTF.text = math.ceil(slot1:GetPrice())
 
-	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "", tf(slot0.resIconTF))
+	GetImageSpriteFromAtlasAsync(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot1:getConfig("resource_type")
+	}), "", tf(slot0.resIconTF))
 end
 
 return slot0

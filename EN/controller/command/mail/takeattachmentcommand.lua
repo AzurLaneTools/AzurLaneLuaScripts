@@ -16,7 +16,20 @@ function slot0.execute(slot0, slot1)
 	slot6, slot7 = CheckOverflow(slot4:GetAttchmentDic())
 
 	if not slot6 then
-		pg.TipsMgr.GetInstance():ShowTips(slot7)
+		switch(slot7, {
+			gold = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
+			end,
+			oil = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail"))
+			end,
+			equip = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_magazine_full"))
+			end,
+			ship = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_dockYrad_full"))
+			end
+		})
 
 		return
 	end

@@ -415,7 +415,7 @@ function slot0.readyToAchieve(slot0)
 					slot4 = 0
 
 					if slot0[1] == DROP_TYPE_VITEM then
-						assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == uv0.id)
+						assert(AcessWithinNull(Item.getConfigData(slot2), "link_id") == uv0.id)
 
 						slot4 = uv0:GetMaterialCount(slot2)
 					elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1 then

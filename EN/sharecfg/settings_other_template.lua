@@ -178,6 +178,15 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		title = "Display Battle Result Cutscene",
 		desc = "When toggled ON, battle result screen will show extra cutscene."
 	},
+	{
+		default = 0,
+		name = "LIVE2D_STATUS_SAVE",
+		type = 0,
+		alignment = 0,
+		id = 18,
+		title = "Fixed L2D Settings",
+		desc = "When toggled ON, the display state of L2D skins on the home screen will be set to standby, and the \"Login\" and \"Return to Port\" animations will no longer play when navigating to the home screen."
+	},
 	all = {
 		1,
 		2,
@@ -195,6 +204,7 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

@@ -1576,6 +1576,7 @@ pg.skill_data_display = setmetatable({
 		17401,
 		17411,
 		17421,
+		17445,
 		18010,
 		18040,
 		18041,
@@ -9161,6 +9162,10 @@ pg.base.skill_data_display = {
 	[17421] = {
 		id = 17421,
 		name = "Fish Are Friends"
+	},
+	[17445] = {
+		id = 17445,
+		name = "Bunbun Strikers"
 	},
 	[18010] = {
 		id = 18010,

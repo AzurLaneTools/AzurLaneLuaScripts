@@ -7,17 +7,15 @@ function slot0.execute(slot0, slot1)
 	slot7 = {}
 
 	for slot11, slot12 in pairs(slot1:getBody()) do
-		slot13 = slot12
-
-		assert(pg.item_data_statistics[slot13.id], "Can't find the price " .. slot13.id)
+		slot13 = Item.New(slot12)
 
 		if slot3:getItemCountById(slot13.id) < slot13.count then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot14.name))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot13:getConfig("name")))
 
 			return
 		end
 
-		slot7[slot14.price[1]] = (slot7[slot14.price[1]] or 0) + slot14.price[2] * slot13.count
+		slot7[slot15[1]] = (slot7[slot13:getConfig("price")[1]] or 0) + slot15[2] * slot13.count
 
 		table.insert(slot6, {
 			id = slot13.id,

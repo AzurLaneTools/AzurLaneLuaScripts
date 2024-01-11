@@ -376,7 +376,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 					slot4 = nil
 
 					if slot0[1] == DROP_TYPE_VITEM then
-						assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == uv0.id)
+						assert(AcessWithinNull(Item.getConfigData(slot2), "link_id") == uv0.id)
 
 						slot4 = uv0
 					elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
@@ -482,7 +482,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 				table.insert(slot3.data1_list, slot1.arg1)
 			end
 
-			if pg.item_data_statistics[slot1.arg1].link_id > 0 and getProxy(ActivityProxy):getActivityById(slot8) and not slot10:isEnd() then
+			if Item.getConfigData(slot1.arg1).link_id > 0 and getProxy(ActivityProxy):getActivityById(slot8) and not slot10:isEnd() then
 				slot10.data1 = slot10.data1 + 1
 
 				slot9:updateActivity(slot10)
