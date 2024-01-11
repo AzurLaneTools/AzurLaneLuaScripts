@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "레이더에는... 전혀 보이지 않아요...",
+			say = "레이더에는... 전혀 보이지 않아...",
 			painting = {
 				alpha = 0.3,
 				time = 1

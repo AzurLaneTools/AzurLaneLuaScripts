@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "라피II",
 			hidePaintObj = true,
-			say = "적 함대는 모두 섬멸되었다.",
+			say = "적 함대는 모두 섬멸되었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1

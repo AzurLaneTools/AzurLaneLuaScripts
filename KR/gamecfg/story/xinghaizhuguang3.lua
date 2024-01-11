@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "....굉장히 오래 걸리네요.",
+			say = "....굉장히 오래 걸리네.",
 			painting = {
 				alpha = 0.3,
 				time = 1

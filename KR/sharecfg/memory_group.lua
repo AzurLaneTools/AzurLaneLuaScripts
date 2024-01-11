@@ -4141,7 +4141,7 @@ pg.base.memory_group = {
 		icon = "title_event",
 		type = 2,
 		link_event = 5150,
-		title = "모항 패션 컬렉션:합정본",
+		title = "모항 패션 컬렉션:합정본[3]",
 		memories = {
 			3281,
 			3282,
