@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			actorName = "퀸 엘리자베스·META",
 			bgm = "theme-shallowoftheworld",
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "흐음~ 꽤 흥미로운 방어 장치네.",
 			painting = {
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "괜찮아. 당신 말고는 아무도 내 목소리를 들을 수 없으니까.",
 			painting = {
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "후후후, 역시 '엘리자베스'야. 설마 단 몇 주 동안 여기까지 해내다니.",
 			painting = {
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "뭐, 당신들이 곧 직면할 위기를 막기에는 아직 전혀 모자라지만.",
 			painting = {
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "그나저나 과학 수준이 이렇게나 낮은 '가지'가 설마 지중해에서 그런 일을 일으킬 줄이야.",
 			painting = {
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "그때의 다층 효과로 방출된 빛은 다른 '가지'에 있는 나조차도 감지할 수 있을 정도로 강력했어.",
 			painting = {
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "그래서 당신들 세계가 더 위험한 무언가에 표적이 되고 있다고 확신할 수 있었지.",
 			painting = {
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "보통은 바로 초기화를 도모할 세이렌이 아직 움직이지 않는 게 신경이 쓰이지만…",
 			painting = {
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "어쩌면 이 '가지'는 이미 녀석들에게 버려졌을 가능성도 있어.",
 			painting = {
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "…예전에도 말했듯이 내게는 이 '가지'에 있는 로열 네이비와 그 맹우들을 포함한 모든 관계자, 자재들을 안전한 '가지'로 이송시킬 수 있는 힘이 있어.",
 			painting = {
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "여기서 허송세월하지 말고 슬슬 탈출 계획을 생각해보는 게 어때?",
 			painting = {
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			actor = 9705040,
 			say = "……동맹을 맺길 원한 건 당신 아니었어?",
 			painting = {

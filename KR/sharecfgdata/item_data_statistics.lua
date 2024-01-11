@@ -213113,6 +213113,30 @@ _G.pg.base.item_data_statistics[59517] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59518] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59518,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -231137,6 +231161,66 @@ _G.pg.base.item_data_statistics[81200] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[81201] = {
+	display = "특정 범위 내의 랜덤 스킨*1, 다이아*2024, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제6기*2, 고속건조재*10, 가구 코인*100",
+	name = "현란한 밤 패키지·II",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai10",
+	id = 81201,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			86201,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "랜덤 현란한 밤 스킨 ",
@@ -231194,6 +231278,59 @@ _G.pg.base.item_data_statistics[86200] = {
 		{
 			401352,
 			1400
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[86201] = {
+	display = "不会被看到",
+	name = "랜덤 현란한 밤 스킨 II",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86201,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
 		}
 	}
 }

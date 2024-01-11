@@ -18548,7 +18548,14 @@ pg.activity_template = {
 			428,
 			429,
 			430,
-			431
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438
 		},
 		time = {
 			"timer",
@@ -18760,6 +18767,105 @@ pg.activity_template = {
 					2024,
 					1,
 					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5150] = {
+		mark = 20231228,
+		id = 5150,
+		title_res_tag = "skin_magazine4",
+		type = 86,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		config_data = {
+			19661,
+			19662,
+			19663
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazinePage4",
+			ui_name = "SkinMagazinePage4"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANHEDINGJISAN1"
+				},
+				{
+					"SHISHANGTEKANHEDINGJISAN2"
+				},
+				{
+					"SHISHANGTEKANHEDINGJISAN3"
+				}
+			}
+		}
+	},
+	[5151] = {
+		mark = 20231228,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5151,
+		config_data = {
+			19664
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					11
 				},
 				{
 					0,
@@ -26858,6 +26964,8 @@ pg.activity_template = {
 		5147,
 		5148,
 		5149,
+		5150,
+		5151,
 		7004,
 		7005,
 		7006,

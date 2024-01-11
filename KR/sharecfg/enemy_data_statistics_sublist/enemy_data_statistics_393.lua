@@ -1,5 +1,140 @@
 pg = pg or {}
 pg.enemy_data_statistics_393 = {
+	[295153] = {
+		cannon = 144,
+		name = "알제리·META(Tier.3)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 32,
+		base = 90765,
+		durability_growth = 0,
+		antiaircraft = 135,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 108,
+		durability = 58000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295153,
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 2
+			},
+			{
+				ID = 200463,
+				LV = 3
+			},
+			{
+				ID = 200466,
+				LV = 1
+			}
+		}
+	},
+	[295154] = {
+		cannon = 160,
+		name = "알제리·META(Tier.4)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 35,
+		base = 90765,
+		durability_growth = 0,
+		antiaircraft = 150,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 120,
+		durability = 70000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295154,
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 2
+			},
+			{
+				ID = 200463,
+				LV = 4
+			},
+			{
+				ID = 200466,
+				LV = 2
+			}
+		}
+	},
+	[295155] = {
+		cannon = 176,
+		name = "알제리·META(Tier.5)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 39,
+		base = 90765,
+		durability_growth = 0,
+		antiaircraft = 165,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 132,
+		durability = 111000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295155,
+		buff_list = {
+			{
+				ID = 200462,
+				LV = 3
+			},
+			{
+				ID = 200463,
+				LV = 5
+			},
+			{
+				ID = 200466,
+				LV = 2
+			}
+		}
+	},
 	[295156] = {
 		cannon = 192,
 		name = "알제리·META(Tier.6)",
@@ -975,141 +1110,6 @@ pg.enemy_data_statistics_393 = {
 		antisub = 0,
 		fog_fx = "",
 		id = 295177,
-		buff_list = {
-			{
-				ID = 200575,
-				LV = 1
-			},
-			{
-				ID = 200577,
-				LV = 1
-			},
-			{
-				ID = 200579,
-				LV = 1
-			}
-		}
-	},
-	[295178] = {
-		cannon = 296,
-		name = "진츠·META(Tier.13)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 67,
-		base = 90805,
-		durability_growth = 0,
-		antiaircraft = 275,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 40,
-		hit = 95,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 318,
-		durability = 950000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295178,
-		buff_list = {
-			{
-				ID = 200575,
-				LV = 1
-			},
-			{
-				ID = 200577,
-				LV = 1
-			},
-			{
-				ID = 200579,
-				LV = 1
-			}
-		}
-	},
-	[295179] = {
-		cannon = 312,
-		name = "진츠·META(Tier.14)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 71,
-		base = 90805,
-		durability_growth = 0,
-		antiaircraft = 290,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 40,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 335,
-		durability = 1170000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295179,
-		buff_list = {
-			{
-				ID = 200575,
-				LV = 1
-			},
-			{
-				ID = 200577,
-				LV = 1
-			},
-			{
-				ID = 200579,
-				LV = 1
-			}
-		}
-	},
-	[295180] = {
-		cannon = 328,
-		name = "진츠·META(Tier.15)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 75,
-		base = 90805,
-		durability_growth = 0,
-		antiaircraft = 305,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 40,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 352,
-		durability = 1420000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295180,
 		buff_list = {
 			{
 				ID = 200575,

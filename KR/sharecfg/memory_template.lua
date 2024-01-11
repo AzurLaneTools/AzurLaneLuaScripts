@@ -2762,6 +2762,9 @@ pg.memory_template = setmetatable({
 		3273,
 		3274,
 		3275,
+		3281,
+		3282,
+		3283,
 		10000,
 		10001,
 		10002,
@@ -33191,6 +33194,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANBINFENYE4",
 		id = 3275,
 		icon = "memory_xuancaibinfenye",
+		is_open = 0
+	},
+	[3281] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Allnight Charge",
+		condition = "「모항 패션 컬렉션: 합본집[3]」 키어사지 출석 완료",
+		story = "SHISHANGTEKANHEDINGJISAN1",
+		id = 3281,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3282] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "패럴리틱 버서스",
+		condition = "「모항 패션 컬렉션: 합본집[3]」 힌덴부르크 출석 완료",
+		story = "SHISHANGTEKANHEDINGJISAN2",
+		id = 3282,
+		icon = "memory_shishangtekanhedingji3",
+		is_open = 0
+	},
+	[3283] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "따끈따끈한 차와 급사 수업",
+		condition = "「모항 패션 컬렉션: 합본집[3]」 카자구모 출석 완료",
+		story = "SHISHANGTEKANHEDINGJISAN3",
+		id = 3283,
+		icon = "memory_shishangtekanhedingji3",
 		is_open = 0
 	},
 	[10000] = {

@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
-			say = "이 모든 건 1시간 22분 내에 일어난 일이었다.",
+			say = "이 모든 건 1시간 42분 내에 일어난 일이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -614,7 +614,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...알래스카 여사가 없어서 통제할 사람이 아무도 없다고 제멋대로 구는 건가 (소곤소곤)",
+			say = "...알래스카씨가 없어서 통제할 사람이 아무도 없다고 제멋대로 구는 건가 (소곤소곤)",
 			painting = {
 				alpha = 0.3,
 				time = 1

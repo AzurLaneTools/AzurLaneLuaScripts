@@ -1,456 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
-	[202231] = {
-		ship_group = 20223,
-		name = "자습실의 Cyclamen",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70196,
-		painting = "quejie_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202231,
-		voice_actor_2 = -1,
-		prefab = "quejie_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 어떻게 여기에...? 저요? 보고 계신 것처럼 자습 중입니다. 부족한 실전 경험을 지식과 규정으로 보완해야 할 것 같아서요.",
-		voice_actor = 188,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.2,
-					0.71,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.24,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.25,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.42,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[202232] = {
-		ship_group = 20223,
-		name = "백옥의 미녀 ",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70304,
-		painting = "quejie_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "128",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202232,
-		voice_actor_2 = -1,
-		prefab = "quejie_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이, 이스트 글림 스타일을 해보았습니다만… 이런 화려한 옷은 역시 익숙하지가 않네요… 에? 예쁘다고요?! 감, 감사합니다 지휘관님. 위로의 말씀이라도 저는 만족해요…",
-		voice_actor = 188,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.04,
-					1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.07,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.01,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.29,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[202233] = {
-		ship_group = 20223,
-		name = "한 여름의 특별 서비스",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70411,
-		painting = "quejie_4",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "133",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202233,
-		voice_actor_2 = -1,
-		prefab = "quejie_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "화, 환영합니다! ......음, 역시 긴장되네요... 저, 저기! 제가 지휘관님을 모셔도 괜찮을까요...?",
-		voice_actor = 188,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.209,
-					1.15,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.145,
-					1.122,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.085,
-					1.152,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.29,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[202240] = {
-		ship_group = 20224,
-		name = "블랙 프린스",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "heitaizi",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 202240,
-		voice_actor_2 = -1,
-		prefab = "heitaizi",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "그러니까 당신이…… 지휘관인거죠? 저를 모르시나요? 아, 맞다. 아직 자기소개를 하지 않았네요. 로열 네이비 소속의 블랙 프린스입니다…… 이러면 될까요?",
-		voice_actor = 77,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.188,
-					1.067,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.818,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.12,
-					0.756,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.39,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
 	[202241] = {
 		ship_group = 20224,
 		name = "White Princess",
@@ -7719,7 +7269,7 @@ pg.base.ship_skin_template_6 = {
 		bg_sp = "",
 		l2d_ignore_drag = 1,
 		group_index = 5,
-		shop_id = 70949,
+		shop_id = 70641,
 		painting = "yilishabai_6",
 		illustrator = -1,
 		shop_type_id = 17,
@@ -10636,7 +10186,7 @@ pg.base.ship_skin_template_6 = {
 		bg_sp = "",
 		l2d_ignore_drag = 0,
 		group_index = 2,
-		shop_id = 70950,
+		shop_id = 70643,
 		painting = "hao_4",
 		illustrator = -1,
 		l2d_voice_calibrate = "",
@@ -11675,6 +11225,581 @@ pg.base.ship_skin_template_6 = {
 			201,
 			202,
 			203
+		}
+	},
+	[205140] = {
+		ship_group = 20514,
+		name = "로열 오크",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "huangjiaxiangshu",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 205140,
+		voice_actor_2 = -1,
+		prefab = "huangjiaxiangshu",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "리벤지급 전함 - 로열 오크",
+		voice_actor = 358,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.11,
+					1.32,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.24,
+					1.24,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.94,
+					1.86,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205141] = {
+		ship_group = 20514,
+		name = "우울 소녀는 도망치고 싶어",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70824,
+		painting = "huangjiaxiangshu_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "150",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 205141,
+		voice_actor_2 = -1,
+		prefab = "huangjiaxiangshu_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관 각하? 정말…… 우연이네. 각하도 여기로 도망…… 아니 쉬러 온 거야? 그…… 자리 양보해 줄까?",
+		voice_actor = 358,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.15,
+					1.31,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.11,
+					1.33,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.1,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206010] = {
+		ship_group = 20601,
+		name = "허미즈",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "jingjishen",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 206010,
+		voice_actor_2 = -1,
+		prefab = "jingjishen",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "초대 허미즈급 항공모함·허미즈 (HMS Hermes)",
+		voice_actor = 122,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.105,
+					1.021,
+					0
+				}
+			},
+			plane = {
+				{
+					1.105,
+					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206019] = {
+		ship_group = 20601,
+		name = "허미즈·改 ",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 9,
+		shop_id = 0,
+		painting = "jingjishen_g",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9997,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 206019,
+		voice_actor_2 = -1,
+		prefab = "jingjishen_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "영광이 모여 하나가 될 때, 새로운 인연이 미래를 비출거야! 극한을 초월한 바람은 밝게 빛나는 길이 될거야! 허미즈, 개조 완료! ",
+		voice_actor = 122,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			},
+			plane = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206020] = {
+		ship_group = 20602,
+		name = "아거스",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "baiyanjuren",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 206020,
+		voice_actor_2 = -1,
+		prefab = "baiyanjuren",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "경항공모함 - 아거스",
+		voice_actor = 350,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.56,
+					1.09,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.56,
+					1.09,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.31,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.7,
+					1.44,
+					0
+				}
+			},
+			plane = {
+				{
+					1.7,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.72,
+							1.32,
+							-0.61
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.52,
+							2.59,
+							-0.55
+						}
+					}
+				}
+			}
 		}
 	}
 }

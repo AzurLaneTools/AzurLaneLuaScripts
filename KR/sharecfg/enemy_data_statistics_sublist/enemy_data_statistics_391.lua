@@ -1,5 +1,128 @@
 pg = pg or {}
 pg.enemy_data_statistics_391 = {
+	[295103] = {
+		cannon = 326,
+		name = "리펄스·META(Tier.13)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 23,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 335,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 23,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295103,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
+	[295104] = {
+		cannon = 345,
+		name = "리펄스·META(Tier.14)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 24,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 348,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 24,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1240000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295104,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
+	[295105] = {
+		cannon = 365,
+		name = "리펄스·META(Tier.15)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 25,
+		base = 90645,
+		durability_growth = 0,
+		antiaircraft = 361,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 25,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1480000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295105,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[295106] = {
 		cannon = 146,
 		name = "리나운·META(Tier.1)",
@@ -899,129 +1022,6 @@ pg.enemy_data_statistics_391 = {
 			{
 				ID = 50510,
 				LV = 3
-			}
-		}
-	},
-	[295128] = {
-		cannon = 248,
-		name = "애리조나·META(Tier.8)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 18,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 242,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 18,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 340000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295128,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295129] = {
-		cannon = 264,
-		name = "애리조나·META(Tier.9)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 19,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 255,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 19,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 420000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295129,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[295130] = {
-		cannon = 280,
-		name = "애리조나·META(Tier.10)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 20,
-		base = 90718,
-		durability_growth = 0,
-		antiaircraft = 267,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 20,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 520000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295130,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 4
 			}
 		}
 	}

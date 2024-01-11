@@ -1,301 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107071] = {
-		ship_group = 10707,
-		name = "Bubbly Anniversary！ ",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70189,
-		painting = "dahuangfeng_2",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "115",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107071,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Congratulations! 지휘관, 항상 수고가 많아! 자, 그럼, 분위기 낼 겸 샴페인을 따고, 마음껏 파티를 즐겨보자~! ",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.99,
-					0.96,
-					0
-				}
-			},
-			plane = {
-				{
-					0.97,
-					0.94,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107072] = {
-		ship_group = 10707,
-		name = "딜리셔스 라이프!",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70479,
-		painting = "dahuangfeng_3",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107072,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "후~ 후~ ... 갓 구워낸 피자는 역시 최고야! 지휘관도 와서 하나 먹어 볼래? 괜찮으면 다음에 엔터프라이즈 언니한테도 추천해줘야지!",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.536,
-					1.01,
-					0
-				}
-			},
-			plane = {
-				{
-					1.552,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.601,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107073] = {
-		ship_group = 10707,
-		name = "치어링 저스티스!",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70732,
-		painting = "dahuangfeng_4",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "132",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107073,
-		voice_actor_2 = -1,
-		prefab = "dahuangfeng_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "다들 파이팅! 이제 1점만 더 따면 역전이야!!! ……휴우. …꿀꺽꿀꺽, …푸핫! 지휘관! 음료수 고마워! 그리고 하나 더. 관전하느라 수고했어!",
-		voice_actor = 24,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.07,
-					1.285,
-					0
-				}
-			},
-			plane = {
-				{
-					0.062,
-					0.096,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.696,
-							1.875,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107080] = {
 		ship_group = 10708,
 		name = "와스프",
@@ -6724,7 +6429,7 @@ pg.base.ship_skin_template_4 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "",
-		spine_action_offset = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		id = 131172,
 		voice_actor_2 = -1,
@@ -10763,6 +10468,470 @@ pg.base.ship_skin_template_4 = {
 					}
 				}
 			}
+		}
+	},
+	[201160] = {
+		ship_group = 20116,
+		name = "하디 ",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "yonggan",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201160,
+		voice_actor_2 = -1,
+		prefab = "yonggan",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "H급 구축함 - 하디(H87) ",
+		voice_actor = 170,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					0.94,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201200] = {
+		ship_group = 20120,
+		name = "헌터 ",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "lieren",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201200,
+		voice_actor_2 = -1,
+		prefab = "lieren",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "H급 구축함 - 헌터(H35) ",
+		voice_actor = 170,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.7,
+					1.25,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.79,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201210] = {
+		ship_group = 20121,
+		name = "재블린",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "biaoqiang",
+		illustrator = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201210,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "J급 구축함·재블린 (F61)",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.545,
+					0.537,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.855,
+					0.424,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							0.32,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.354,
+							0.977,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[201212] = {
+		ship_group = 20121,
+		name = "해변의 피크닉",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70088,
+		painting = "biaoqiang_3",
+		illustrator = 1,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		bg = "106",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201212,
+		voice_actor_2 = -1,
+		prefab = "biaoqiang_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 모두들~ 빨리 빨리! 모처럼만에 다 함께 하는 외출이니까 우물쭈물하면 안돼! 재블린이 도시락을 잔뜩 싸왔으니까, 해변에서 피크닉이라도 하자구~!",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.24,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.22,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
 		}
 	}
 }

@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "새러토가가 '은하수'랑 함께 일하고 있는 것도 놀랍지만…",
+			say = "새러토가가 '선배'랑 함께 일하고 있는 것도 놀랍지만…",
 			painting = {
 				alpha = 0.3,
 				time = 1

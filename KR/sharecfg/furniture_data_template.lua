@@ -20999,7 +20999,7 @@ pg.base.furniture_data_template = {
 	},
 	[100045] = {
 		spine_extra = "",
-		describe = "후쥬… 고온의 천국…쥬!",
+		describe = "땀을 흘리니… 개운하다쥬쥬……",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -21845,7 +21845,7 @@ pg.base.furniture_data_template = {
 	},
 	[100056] = {
 		spine_extra = "",
-		describe = "全员注意，敌方大门所在的方向，就是下方！",
+		describe = "다들 주의하라! 적 게이트 방향은 우리 밑이다!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -21855,7 +21855,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "舰桥模拟器",
+		name = "브리지 시뮬레이터",
 		themeId = 0,
 		icon = "zhandouzhihuixitongicon",
 		deblocking = 1,
