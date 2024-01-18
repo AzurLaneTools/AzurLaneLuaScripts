@@ -27084,3 +27084,11 @@ _G.pg.base.gametip.skin_exchange_usetip = {
 _G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
 	tip = "You already own every exchangeable skin.\nConvert <color=#92fc63>$1*1</color> to <color=#92fc63>$2*1</color>?"
 }
+
+_G.pg.base.gametip.not_use_ticket_to_buy_skin = {
+	tip = "Don't use Outfit Coupon"
+}
+
+_G.pg.base.gametip.skin_purchase_over_price = {
+	tip = "Do you want to consume <color=#92fc63>$1*1</color>and purcharse the skin <color=#92fc63>$3</color> at the price of\n<icon name=gem w=0.6 h=0.6/>  <color=#FFDE38FF>$2</color>? (If the skin's full price is below the discount, no gems will be refunded)"
+}

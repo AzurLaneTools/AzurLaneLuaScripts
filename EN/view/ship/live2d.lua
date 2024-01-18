@@ -265,45 +265,32 @@ function slot13(slot0)
 	slot1 = slot0.eventTrigger
 
 	slot1:AddPointDownFunc(function ()
-		if not uv0._l2dCharEnable then
-			return
-		end
-
-		uv0.mouseInputDown = true
-
-		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 then
-			slot0 = uv0.liveCom:GetDragPart()
-			slot1 = uv0.dragParts[slot0]
-
-			if slot0 > 0 and slot1 then
-				for slot5, slot6 in ipairs(uv0.drags) do
-					if slot6.drawAbleName == slot1 then
-						slot6:startDrag()
-					end
-				end
-			end
+		if uv0.useEventTriggerFlag then
+			uv0:onPointDown()
 		end
 	end)
 
 	slot1 = slot0.eventTrigger
 
 	slot1:AddPointUpFunc(function ()
-		if not uv0._l2dCharEnable then
-			return
-		end
-
-		uv0.mouseInputDown = false
-
-		if uv0.drags and #uv0.drags > 0 then
-			if uv0.liveCom:GetDragPart() > 0 then
-				slot1 = uv0.dragParts[slot0]
-			end
-
-			for slot4 = 1, #uv0.drags do
-				uv0.drags[slot4]:stopDrag()
-			end
+		if uv0.useEventTriggerFlag then
+			uv0:onPointUp()
 		end
 	end)
+
+	slot1 = slot0.liveCom
+
+	function slot5()
+		if not uv0.useEventTriggerFlag then
+			uv0:onPointUp()
+		end
+	end
+
+	slot1:SetMouseInputActions(System.Action(function ()
+		if not uv0.useEventTriggerFlag then
+			uv0:onPointDown()
+		end
+	end), System.Action(slot5))
 
 	slot0.paraRanges = ReflectionHelp.RefGetField(typeof(Live2dChar), "paraRanges", slot0.liveCom)
 	slot0.destinations = {}
@@ -320,6 +307,49 @@ function slot13(slot0)
 
 	slot0.timer:Start()
 	uv3(slot0)
+end
+
+function slot0.onPointDown(slot0)
+	if not slot0._l2dCharEnable then
+		return
+	end
+
+	slot0.mouseInputDown = true
+
+	if #slot0.drags > 0 and slot0.liveCom:GetDragPart() > 0 then
+		slot1 = slot0.liveCom:GetDragPart()
+		slot2 = slot0.dragParts[slot1]
+
+		if slot1 > 0 and slot2 then
+			for slot6, slot7 in ipairs(slot0.drags) do
+				if slot7.drawAbleName == slot2 then
+					slot7:startDrag()
+				end
+			end
+		end
+	end
+end
+
+function slot0.onPointUp(slot0)
+	if not slot0._l2dCharEnable then
+		return
+	end
+
+	slot0.mouseInputDown = false
+
+	if slot0.drags and #slot0.drags > 0 then
+		if slot0.liveCom:GetDragPart() > 0 then
+			slot2 = slot0.dragParts[slot1]
+		end
+
+		for slot5 = 1, #slot0.drags do
+			slot0.drags[slot5]:stopDrag()
+		end
+	end
+end
+
+function slot0.changeTriggerFlag(slot0, slot1)
+	slot0.useEventTriggerFlag = slot1
 end
 
 function slot14(slot0, slot1)
@@ -420,6 +450,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 		end
 	end)
 	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
+	slot0.useEventTriggerFlag = true
 end
 
 function slot0.SetVisible(slot0, slot1)

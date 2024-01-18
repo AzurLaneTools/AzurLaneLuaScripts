@@ -24090,5 +24090,15 @@ cs.gametip = {
 		918813,
 		211,
 		true
+	},
+	not_use_ticket_to_buy_skin = {
+		919024,
+		113,
+		true
+	},
+	skin_purchase_over_price = {
+		919137,
+		338,
+		true
 	}
 }

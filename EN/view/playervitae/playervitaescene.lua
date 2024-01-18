@@ -87,6 +87,10 @@ function slot0.init(slot0)
 	slot3 = GetComponent(findTF(slot0.btnLive2dReset, "img"), typeof(Image))
 
 	slot3:SetNativeSize()
+
+	slot3 = GetComponent(slot0.btnLive2dReset, typeof(Image))
+
+	slot3:SetNativeSize()
 	SetParent(slot0.btnLive2dReset, slot0:findTF("adapt/toggleBtns"))
 
 	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event, slot0.contextData)
@@ -217,6 +221,7 @@ function slot0.UpdatePainting(slot0)
 
 	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
 	slot0:updateSwitchSkinBtnTag()
+	slot0:checkShowResetL2dBtn()
 end
 
 function slot0.updateSwitchSkinBtnTag(slot0)
@@ -248,7 +253,11 @@ function slot0.checkShowResetL2dBtn(slot0)
 
 	setActive(slot0.btnLive2dReset, true)
 	onButton(slot0, slot0.btnLive2dReset, function ()
-		Live2dConst.ClearLive2dSave(uv0.ship.skinId, uv0.ship.id)
+		if uv0:GetFlagShip() then
+			slot0 = uv0:GetFlagShip()
+
+			Live2dConst.ClearLive2dSave(slot0.skinId, slot0.id)
+		end
 	end, SFX_CONFIRM)
 end
 
