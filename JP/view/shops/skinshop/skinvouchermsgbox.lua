@@ -46,7 +46,7 @@ function slot0.UpdateContent(slot0, slot1)
 		slot4 = pg.item_data_statistics[slot0.prevSelId]
 		slot0.label1.text = i18n("skin_purchase_confirm", slot4.name, math.max(0, slot3 - slot4.usage_arg[2]), slot2)
 	else
-		slot0.label1.text = i18n("charge_scene_buy_confirm", slot3, slot2)
+		slot0.label1.text = i18n("charge_scene_buy_confirm_1", slot3, slot2)
 	end
 
 	setActive(slot0.realPriceBtn, not slot0.prevSelId)

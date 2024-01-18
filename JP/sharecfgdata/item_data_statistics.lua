@@ -35155,8 +35155,8 @@ _G.pg.base.item_data_statistics[40042] = {
 
 _G.pg.base.item_data_statistics[40043] = {
 	open_directly = 1,
-	name = "日常补给礼包",
-	display = "购买礼包可获得心智魔方*1和石油*1200",
+	name = "お得パック(デイリー)",
+	display = "大量のアイテムを入手できます",
 	type = 17,
 	other_resource_cost = "[]",
 	display_effect = "OpenBox",

@@ -9555,6 +9555,10 @@ _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }
 
+_G.pg.base.gametip.charge_scene_buy_confirm_1 = {
+	tip = "<size=32><icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？\n※<color=#92fc63>クーポンアイコン</color>タップでクーポンを使用できます</size>"
+}
+
 _G.pg.base.gametip.charge_scene_buy_confirm_gold = {
 	tip = "<icon name=gold w=0.7 h=0.7/>資金<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
 }
