@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "'은빛 여우' 여사가 널 돌려보낸 건 가능한 한 빨리 시스템을 고치기 위해서였어... 이런 상황이 다시 발생하는 걸 막기 위해!",
+			say = " '은빛 여우' 여사가 널 돌려보낸 건 가능한 한 빨리 시스템을 고치기 위해서였어... 이런 상황이 다시 발생하는 걸 막기 위해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...그걸 어떻게 안 거죠?",
+			say = "...그걸 어떻게 안 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "'정말'이라니? 질문이 너무 이상한데…",
+			say = " '정말'이라니? 질문이 너무 이상한데…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신이 말한 거점 구축이라는 게 이런 거군요.",
+			say = "거점 구축이라는 게 이런 거였구나.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "조금 전까지만해도 전투에 참여하지 않은 함선들은 대체 무슨 역할일까 생각하고 있었는데, 내부에 저렇게 엄청난 구경의 대포를 숨겨놓고 있을 줄은 몰랐네요...",
+			say = "조금 전까지만해도 전투에 참여하지 않은 함선들은 대체 무슨 역할일까 생각하고 있었는데, 내부에 저렇게 엄청난 구경의 대포를 숨겨놓고 있을 줄이야...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "저런 종류의 함선은 수면에 착륙한 후에야 사용할 수 있는 거죠?",
+			say = "저런 종류의 함선은 수면에 착륙한 후에야 사용할 수 있는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1

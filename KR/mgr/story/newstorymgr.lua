@@ -419,6 +419,8 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		for slot4, slot5 in ipairs(uv0.storyScript.steps) do
 			table.insert(slot0, function (slot0)
+				pg.m02:sendNotification(GAME.STORY_NEXT)
+
 				slot1 = uv0.players[uv1:GetMode()]
 				uv0.currPlayer = slot1
 

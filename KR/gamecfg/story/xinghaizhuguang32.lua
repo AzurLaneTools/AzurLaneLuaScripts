@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
-			say = "별의 바다 기지 - 핵심 구역 - \"별의 바다의 심장\" - 종합 지역",
+			say = "은하수 기지 - 핵심 구역 - \"은하수의 심장\" - 종합 지역",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "응. 앵커리지, 우리 왔어~",
+			say = "응. 앵커리지, 우리 왔어~ ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……통제실에서 TB와 함께 대응을 하고 있었던 건가요?",
+			say = "……통제실에서 TB와 함께 대응을 하고 있었던 건가요? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이번 사건을 신속하게 처리할 수 있었던 건 전부 앵커리지의 중요한 발견 덕분입니다.",
+			say = "이번 사건을 신속하게 처리할 수 있었던 건 전부 앵커리지의 중요한 발견 덕분입니다. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이번에 회수한 데이터를 처리하는 데 시간이 다소 소요될 것으로 보여요.",
+			say = "이번에 회수한 데이터를 처리하는 데 시간이 다소 소요될 것으로 보여요.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네, 부탁할게요.",
+			say = "응, 부탁할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "저와 플래셔가 회수한 데이터예요.",
+			say = "나랑 플래셔가 회수한 데이터야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "군사기지에서는 촬영 금지라고 하지 않았어!?",
+			say = "군사기지에서는 촬영 금지라고 하지 않았어!? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "촬영이 아니라 '인양' 작업이랍니다.",
+			say = "촬영이 아니라 '인양' 작업이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "참... 보고서를 깜빡했네요.",
+			say = "참... 보고서를 깜빡했네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여러분도 알다시피 며칠동안 잠을 못잤더니, 전 더 이상은 안될 것 같아요... zZZ",
+			say = "모두 알다시피 며칠동안 잠을 못잤더니, 난 더 이상은 안될 것 같아... zZZ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흐음, 컨스텔레이션 양이 깨어나기 전까진 제가 대신 심해데이터분석국의 업무를 맡아서 처리할게요.",
+			say = "흐음, 컨스텔레이션 양이 깨어나기 전까진 제가 대신 심해데이터분석국의 업무를 맡아서 처리할게요. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어... 난 사실 중간부터 무슨 일이 일어났는지 전혀 몰라.",
+			say = "어... 난 사실 중간부터 무슨 일이 일어났는지 전혀 몰라.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "내가 재미난 일을 놓친 거지? 흐으윽...",
+			say = "내가 재미난 일을 놓친 거지? 흐으윽... ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "나 혼자서 보고서를 작성해야한다는 소리야!?",
+			say = "나 혼자서 보고서를 작성해야한다는 소리야!? ",
 			painting = {
 				alpha = 0.3,
 				time = 1

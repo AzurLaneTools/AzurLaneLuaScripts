@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "권한 문제는 해결된 건가요?",
+			say = "권한 문제는 해결된 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "프린스턴 양, 사양하지말고 어서 드세요.",
+			say = "프린스턴, 사양하지말고 얼른 먹어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "간식과 콜라는 엄청 많이 있답니다.",
+			say = "간식과 콜라는 엄청 많이 있으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "왜 콜라의 레시피를 바꾼 거죠?",
+			say = "왜 콜라의 레시피를 바꾼 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "역시... 입막음이 있었던 거죠?",
+			say = "역시... 입막음이 있었던 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "과학자라는 분이 설마 기함의 '은빛 여우' 여사인가요?",
+			say = "과학자가 설마 기함의 '은빛 여우' 여사야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "'은빛 여우'라는 이름은 코드네임이겠죠? 당신이 은발에 여우처럼 교활하기 때문인가요?",
+			say = " '은빛 여우'라는 이름은 코드네임이겠지? 은발에 여우처럼 교활하기 때문인 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "직접 만나서 이야기를 나눌 수 있을까요?",
+			say = "직접 만나서 이야기를 나눌 수 있을까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "'은빛 여우' 여사, 운명의 존재를 믿나요?",
+			say = " '은빛 여우' 여사, 운명의 존재를 믿어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그렇다면 생명의 궤적과 우연이 부딪혀 탄생한 기적은요?",
+			say = "그렇다면 생명의 궤적과 우연이 부딪혀 탄생한 기적은?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "출발하기 전 점을 친 결과, 이번 여행에서 반드시 수확이 있을 거라고 나왔어요.",
+			say = "출발하기 전 점을 친 결과, 이번 여행에서 반드시 수확이 있을 거라고 나왔어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그리고 우린 만났죠.",
+			say = "그리고 우린 만났지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그 누구도 예상하지 못한 우연한 만남이에요. 마치 운명처럼요. 아닌가요?",
+			say = "그 누구도 예상하지 못한 우연한 만남이야. 마치 운명처럼. 그렇지 않아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1024,7 +1024,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그건 저희도 마찬가지예요.",
+			say = "그건 우리도 마찬가지야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "좌표 속에 어쩌면 우리가 집으로 돌아갈 수 있는 단서가 숨어 있을지도 몰라요.",
+			say = "좌표 속에 어쩌면 우리가 집으로 돌아갈 수 있는 단서가 숨어 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1074,7 +1074,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그러니 일어나지도 않은 걱정은 접어두고 현재에 집중하자구요.",
+			say = "그러니 일어나지도 않은 걱정은 접어두고 현재에 집중하자구.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1092,7 +1092,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우리 모두 서로에게서 얻고 싶은 정보가 있는 거, 아닌가요?",
+			say = "우리 모두 서로에게서 얻고 싶은 정보가 있는 거잖아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흐응... 정말 고집불통이시네요.",
+			say = "흐응... 정말 고집불통이시네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1358,7 +1358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "괌이... 이렇게 좋은 아이디어를 생각해낼 줄은 몰랐어요.",
+			say = "괌이... 이렇게 좋은 아이디어를 생각해낼 줄 몰랐어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1495,7 +1495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "'은빛 여우' 여사, 그들을 데리고 가도 괜찮을까요?",
+			say = " '은빛 여우' 여사, 그들을 데리고 가도 괜찮을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1526,7 +1526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "그럼 모두 절 따라오세요. 전투 준비!",
+			say = "그럼 모두 날 따라와. 전투 준비!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "역시… 예상대로야. 우릴 이곳으로 데려온 '이상한 표적'이 이 근처에 있어요.",
+			say = "역시… 예상대로야. 우릴 이곳으로 데려온 '이상한 표적'이 이 근처에 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어떻게 이런 일이... 어서 이리 보여주세요.",
+			say = "어떻게 이런 일이... 얼른 보여줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "으음... 이 물건은 구조적으로 두 부분으로 나누어져 있어요.",
+			say = "으음... 이 물건은 구조적으로 두 부분으로 나누어져 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "받침대의 두께는 약 10cm, 본체의 길이는 약 30cm로… 신호 송신 장치인 것처럼 보여요.",
+			say = "받침대의 두께는 약 10cm, 본체의 길이는 약 30cm로… 신호 송신 장치인 것처럼 보여.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "무게는 가벼워요... 패널이 파손되고... 전자 부품이 노출된 걸 보니... 예상대로 작동은 안되네요... 쯧, 아무래도 망가진 것 같아요.",
+			say = "무게는 가벼워... 패널이 파손되고... 전자 부품이 노출된 걸 보니... 예상대로 작동은 안되네... 쯧, 아무래도 망가진 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "부품의 일련 번호는... 알파벳이 너무 희미한 탓에 확인할 수 없어요...",
+			say = "부품의 일련 번호는... 알파벳이 너무 희미한 탓에 확인할 수 없어...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "너무 심각하게 손상되어 있어서 유용한 정보는 얻지 못했어요.",
+			say = "너무 심각하게 손상되어 있어서 유용한 정보는 얻지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하지만 외관상으로는 바다 위에 떠 있어야 할 신호 송신 장치인 것 같은데.… 마치 좌표처럼요.",
+			say = "하지만 외관상으로는 바다 위에 떠 있어야 할 신호 송신 장치인 것 같은데.… 마치 좌표처럼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "항로 안내 좌표… 어쩌면 우리가 이곳에 모인 이유일지도 모르겠어요.",
+			say = "항로 안내 좌표… 어쩌면 우리가 이곳에 모인 이유일지도 모르겠네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흥미롭네요... 별의 바다의 가상 세계가 닫혀있지 않은 걸까요...?",
+			say = "흥미롭네... 은하수의 가상 세계가 닫혀있지 않은 걸까...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우리가 왜 이곳에 오게 됐는지... 짐작가는 부분이 있어요, 물론 단지 추측일 뿐이지만요...",
+			say = "우리가 왜 이곳에 오게 됐는지... 짐작가는 부분이 있어, 물론 단지 추측일 뿐이지만...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "일단 실마리가 잡혔으니 이제 알아내야 할 문제는 여기가 어디인가예요.",
+			say = "일단 실마리가 잡혔으니 이제 알아내야 할 문제는 여기가 어디인가야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "샌 재신토, 정찰 데이터는 정리됐나요?",
+			say = "샌 재신토, 정찰 데이터는?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아무래도 세이렌이 이 해역에서 대규모 자원 수집 또는 회수 작업을 진행하고 있는 것 같네요.",
+			say = "아무래도 세이렌이 이 해역에서 대규모 자원 수집 또는 회수 작업을 진행하고 있는 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,7 +755,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "세이렌이 이런 일을 하는 걸 목격한 건 이번이 처음이에요...",
+			say = "세이렌이 이런 일을 하는 걸 목격한 건 이번이 처음이야...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -823,7 +823,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지, 지금 뭐하는 거예요!?",
+			say = "지, 지금 뭐하는 거야!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네!? 저도 한번 먹어볼래요...",
+			say = "뭐!? 나도 한번 먹어볼래...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...짠맛도 쓴맛도 없어요. 불길한 예감이 들어요.",
+			say = "...짠맛도 쓴맛도 없어. 불길한 예감이 들어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1007,7 +1007,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "플래셔, 해수 분석 장비 가져왔나요?",
+			say = "플래셔, 해수 분석 장비 가져왔어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1045,7 +1045,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…지금 바로 바닷물 성분을 분석해주세요.",
+			say = "…지금 바로 바닷물 성분을 분석해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1118,7 +1118,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "바꿔 말하면… 이 바다는 정제수로 이루어져 있다고봐도 무방해요.",
+			say = "바꿔 말하면… 이 바다는 정제수로 이루어져 있다고 봐도 무방해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1368,7 +1368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "괌의 말이 맞아요. 세이렌은 우릴 두고 적인지 아군인지 식별하려고 하진 않을 거예요.",
+			say = "괌의 말이 맞아. 세이렌은 우릴 두고 적인지 아군인지 식별하려고 하진 않을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1387,7 +1387,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "반대편에서 코드를 바꿨다는 건... 적어도 상대방은 우리의 존재를 확실하게 알고 있다는 소리예요.",
+			say = "반대편에서 코드를 바꿨다는 건... 적어도 상대방은 우리의 존재를 확실하게 알고 있다는 소리야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1425,7 +1425,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "라피, 미지의 세력을 향해 우리의 식별 신호를 보내봅시다. 상대방의 반응을 살펴봐야겠어요.",
+			say = "라피, 미지의 세력을 향해 우리의 식별 신호를 보내. 상대방의 반응을 살펴봐야겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1

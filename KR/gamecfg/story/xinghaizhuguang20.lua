@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "레이더에는... 전혀 보이지 않아...",
+			say = "레이더에는... 전혀 보이지 않아요...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "저건... 100미터가 넘는 전함이잖아!",
+			say = "저건... 100미터가 넘는 전함이잖아! ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "길이가 천 미터 이상은 될 것 같아요. 마치 공중의 요새같네요...",
+			say = "길이가 천 미터 이상은 될 것 같아. 마치 공중의 요새같아...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "SF 소설 속에서 나오는 우주 함대... 같은 걸까요?",
+			say = "SF 소설 속에서 나오는 우주 함대... 같은 걸까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이런 싸늘한 말투라니... 네비게이터 양과 비슷한 걸 보니 맞은편의  AI 시스템일까요?",
+			say = "이런 싸늘한 말투라니... 네비게이터 양과 비슷한 걸 보니 맞은편의  AI 시스템인가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "현재 상황으로서는 더 많은 정보가 필요해요.",
+			say = "현재 상황에서는 더 많은 정보가 필요해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...갑자기 피곤하네요. 답변은 괌에게 맡길게요. 최대한 많은 정보를 수집해주세요.",
+			say = "...갑자기 피곤하네. 답변은 괌에게 맡길게. 최대한 많은 정보를 수집해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "에헴... 우린 이글 유니온 소속, 으음... 오늘의 별의 바다 테스트 함대다!",
+			say = "에헴... 우린 이글 유니온 소속, 으음... 오늘의 은하수 테스트 함대다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			actorName = "？？？",
 			nameColor = "#FEF15E",
-			say = "이글 유니온 소속 별의 바다 테스트 함대 조회 중——",
+			say = "이글 유니온 소속 은하수 테스트 함대 조회 중——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "별의 바다의 존재는 확실히 기밀이니까... 맞아! 그 말 그대로야!",
+			say = "은하수의 존재는 확실히 기밀이니까... 맞아! 그 말 그대로야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1244,7 +1244,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아직 궁금한 게 많지만... 지금같은 상황에서는 포기할 수밖에 없겠네요.",
+			say = "아직 궁금한 게 많지만... 지금같은 상황에서는 포기할 수밖에 없겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1263,7 +1263,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 싸웁시다... 공중 함대와 맞붙을 귀중한 기회를 놓칠 수야 없죠.",
+			say = "그럼 싸우자... 공중 함대와 맞붙을 귀중한 기회를 놓칠 수야 없지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1282,7 +1282,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "비살상무기를 사용한다고하니, 우리쪽에서도 살살 하자구요. 전부 준비!",
+			say = "비살상무기를 사용한다고하니, 우리도 살살 하자구. 전부 준비!",
 			painting = {
 				alpha = 0.3,
 				time = 1

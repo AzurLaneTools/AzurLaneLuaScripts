@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
-			say = "이 모든 건 1시간 42분 내에 일어난 일이었다.",
+			say = "이 모든 건 1시간 22분 내에 일어난 일이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "세이렌에게 강탈당하는 건 흔한 일이어도, 누군가 세이렌을 강탈하는 걸 목격하는 건 이번이 처음이에요.",
+			say = "세이렌에게 강탈당하는 건 흔한 일이어도, 누군가 세이렌을 강탈하는 걸 목격하는 건 이번이 처음이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "존경스럽네요...",
+			say = "존경스러워...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우리의 성정 큐브가... 조작됐다구요?",
+			say = "우리의 성정 큐브가... 조작됐다구?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "말이 나와서 그런데... 프린스턴 양, 당신은 META지만, 우리의 기억속 META와는 조금 달라요.",
+			say = "말이 나와서 그런데... 프린스턴은 META지만, 우리의 기억속 META와는 조금 달라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네, 잘 알고 있어요.",
+			say = "응, 잘 알고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1301,7 +1301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 이 제한을 푸는 방법이 있을까요?",
+			say = "그럼 이 제한을 푸는 방법이 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1348,7 +1348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흥분하지 마세요. 그냥 물어본 것뿐이니까.",
+			say = "흥분하지 마. 그냥 물어본 것뿐이니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1450,7 +1450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어쩔 수 없죠...",
+			say = "어쩔 수 없지...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1485,7 +1485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "'은빛 여우' 여사께서 너희 모두에게 '이사회 합동 훈장'을 수여한다던데~?",
+			say = " '은빛 여우' 여사께서 너희 모두에게 '이사회 합동 훈장'을 수여한다던데~?",
 			painting = {
 				alpha = 0.3,
 				time = 1

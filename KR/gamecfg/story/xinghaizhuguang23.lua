@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "전장의 정비 센터... 저 이상한 군함의 역할을 이제야 알 것 같네요.",
+			say = "전장의 정비 센터... 저 이상한 군함의 역할을 이제야 알 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...적은 피해에 특히 더 신경쓰고 있는 모습이에요.",
+			say = "...적은 피해에 특히 더 신경쓰고 있는 모습인데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "확실히... 피해에 너무 신경쓰고 있어요.",
+			say = "확실히... 피해에 너무 신경쓰고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그렇다면 적을 강제로 물러나게 할 방법이 있을지도 몰라요...",
+			say = "그렇다면 적을 강제로 물러나게 할 방법이 있을지도 몰라...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여러분, 제가 표시한 목표물을 향해 전원 집중 공격해 주세요!",
+			say = "전원 모두 내가 표시한 목표물을 향해 집중 공격해줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1

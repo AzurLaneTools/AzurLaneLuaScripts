@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "별의 바다 기지 - 실험층 - \"바다뱀자리\" - 합동작전팀 사무실",
+			say = "은하수 기지 - 실험층 - \"바다뱀자리\" - 합동작전팀 사무실",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "두 분, 편하게 앉으세요.",
+			say = "편하게 앉아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "사실... 괌, 당신이 마지막이에요. 당신을 이곳에 데려오기 전 이미 다른 부서 사람들에게는 각각 임무를 전달했거든요.",
+			say = "사실... 괌이 마지막이야. 괌이 오기 전에 이미 다른 부서 사람들에게는 각각 임무를 전달했거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제가 당신을 여기로 부른 건 이번 인양 작전의 임무 내용을 직접 설명하기 위해서예요.",
+			say = "괌을 여기로 부른 건 이번 인양 작전의 임무 내용을 직접 설명하기 위해서야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "중요한 일이니 집중해주세요.",
+			say = "중요한 일이니까 집중해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "현재... 일손이 부족한 상황이에요. 게다가 이번 작전은... 어쩌면 '전투'가 일어날지도 모르거든요.",
+			say = "지금... 일손이 정말 부족한 상황이야. 게다가 이번 작전은... 어쩌면 '전투'가 일어날지도 모르거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "인양 작업은 플래셔한테 맡길 예정이에요. 플래셔는 이미 여러 차례 인양 작전을 완수한 경험이 있고 뛰어난 능력을 가지고 있으니까요.",
+			say = "인양 작업은 플래셔한테 맡길 예정이야. 플래셔는 이미 여러 차례 인양 작전을 완수한 경험이 있고 뛰어난 능력을 가지고 있으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신과 루이빌은 플래셔가 인양 작업을 하는 동안 그녀를 안전하게 보호해주세요.",
+			say = "괌이랑 루이빌은 플래셔가 인양 작업을 하는 동안 플래셔를 안전하게 보호해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...그 전쟁터를 다시 한 번 조사해봐야겠어요.",
+			say = "...그 전쟁터를 다시 한 번 조사해봐야겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그동안의 실패 경험과 교훈을 종합해 완전히 새로운 인양 계획을 세웠으니 이번엔 반드시 성공할 수 있을 거예요.",
+			say = "그동안의 실패 경험과 교훈을 종합해 완전히 새로운 인양 계획을 세웠으니 이번엔 반드시 성공할 수 있을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "새러토가는 이번 작전에 필요한 모든 허가를 승인 받았으니 걱정마세요. 작전엔 아무런 지장도 없어요.",
+			say = "새러토가가 이번 작전에 필요한 모든 허가를 승인 받았으니 걱정마. 작전엔 아무런 지장 없을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...아직도 고민되시는 건가요?",
+			say = "...아직도 고민하는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…감사해요.",
+			say = "…고마워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 괌과 루이빌을 부탁해요, 샌 재신토. 플래셔와 합류한 뒤 인양 작업을 수행해주세요.",
+			say = "그럼 괌과 루이빌을 부탁해, 샌 재신토. 플래셔와 합류한 뒤 인양 작업을 수행해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "별의 바다 기지 - 실험층 - \"바다뱀자리\" - 인양 작전 출발 구역",
+			say = "은하수 기지 - 실험층 - \"바다뱀자리\" - 인양 작전 출발 구역",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -616,7 +616,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지금까지 이 장비를 사용해서 실험해왔다니... 그래서 지금까지 별의 바다의 심장에서 단한 번도 너흴 만난 적 없던 거구나!",
+			say = "지금까지 이 장비를 사용해서 실험해왔다니... 그래서 지금까지 은하수의 심장에서 단한 번도 너흴 만난 적 없던 거구나!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "심해데이터분석국 외에도 별의 바다에는 비슷한 장비가 몇 대 더 있답니다.",
+			say = "심해데이터분석국 외에도 은하수에는 비슷한 장비가 몇 대 더 있답니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "안녕하세요! 전 심해데이터분석국 소속의 인양원 플래셔야! 그럼 앞으로 있을 작전에서 잘 부탁드릴게요!",
+			say = "안녕하세요! 전 심해데이터분석국 소속의 인양원 플래셔! 그럼 앞으로 있을 작전에서 잘 부탁드릴게요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "괌 언니, 별의 바다 브이로그 너무 재밌게 잘 보고있어요. 패, 팬이에요!",
+			say = "괌 언니, 은하수 브이로그 너무 재밌게 잘 보고있어요. 패, 팬이에요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "후후후…앞으로 재미있는 프로그램을 만들 수 있을 것 같습니다.",
+			say = "후후후…앞으로 재미있는 프로그램을 만들 수 있을 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1

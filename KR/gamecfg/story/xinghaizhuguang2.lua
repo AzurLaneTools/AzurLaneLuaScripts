@@ -614,7 +614,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...알래스카씨가 없어서 통제할 사람이 아무도 없다고 제멋대로 구는 건가 (소곤소곤)",
+			say = "...알래스카 여사가 없어서 통제할 사람이 아무도 없다고 제멋대로 구는 건가 (소곤소곤)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "컨스텔레이션",
 			hidePaintObj = true,
-			say = "괌 양, 절 찾고 계신 건가요?",
+			say = "괌, 날 찾고 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "운세를 확인해 봤거든요.",
+			say = "운세를 확인해 봤거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "맞아요. 샌 재신토가 처음에는 아무 말도 하지 않았어요.",
+			say = "맞아. 처음에는 아무 말도 하지 않았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…현재 II형 의장과 관련된 모든 테스트 항목은 제가 이끄는 합동작전팀이 관리하고 있다는 사실을 잊어버리셨나 보네요?",
+			say = "…현재 II형 의장과 관련된 모든 테스트 항목은 내가 이끄는 합동작전팀이 관리하고 있다는 사실을 잊었나 보네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "물론 조금 전 괌 양이 네비게이터에 보낸 테스트 신청도 제가 승인한 거랍니다.",
+			say = "물론 조금 전 괌이 네비게이터에 보낸 테스트 신청도 내가 승인한 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1075,7 +1075,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "앗, 샌 재신토의 언니분 맞으시죠?",
+			say = "앗, 샌 재신토의 언니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,7 +1093,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "처음 뵙겠습니다. 프린스턴 양, 루이빌 양, 그리고 라피 양. 저는 컨스텔레이션이라고 해요.",
+			say = "만나서 반가워, 프린스턴, 루이빌, 그리고 라피. 난 컨스텔레이션이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여러분의 실제 전투력에 맞춰 테스트를 설계해 놓았답니다. 자세한 내용은 네비게이터가 알려드릴 거예요.",
+			say = "여러분의 실제 전투력에 맞춰 테스트를 설계했어. 자세한 내용은 네비게이터가 알려줄 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1130,7 +1130,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "괌 양과 루이빌 양은 제가 먼저 데려가야 해서요. 다른 분들은 잘 부탁드려요, 노샘프턴 양.",
+			say = "괌이랑 루이빌은 내가 데려가야 해서, 다른 사람들을 잘 부탁해, 노샘프턴.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1186,7 +1186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신의 데이터는 이미 시스템에 입력해 놓았으니 걱정마세요. 전보 수속은 그저 절차일 뿐이니 급할 필요 없으니까요.",
+			say = "데이터는 이미 시스템에 입력해 놓았으니 걱정마. 전보 수속은 그저 절차일 뿐, 급할 필요 없으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1205,7 +1205,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지금 제 쪽에 일손이 부족하거든요. 그리고, 괌 양은——",
+			say = "지금 내 쪽에 일손이 부족해서... 그리고, 괌은——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1243,7 +1243,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "모두 굿럭! 넓은 별의 바다에서 인연이 되면 다시 보자구!",
+			say = "모두 굿럭! 넓은 은하수에서 인연이 되면 다시 보자구!",
 			painting = {
 				alpha = 0.3,
 				time = 1

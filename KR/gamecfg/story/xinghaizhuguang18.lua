@@ -580,7 +580,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "새, 샌 재신토, 폭풍은 더이상 쫓아오지 않는 거죠!?",
+			say = "새, 샌 재신토, 폭풍은 더이상 쫓아오지 않는 거지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이게 어떻게 된 거죠? 괌, 루이빌... 플래셔 그리고 라피? 왜 모두 이곳에 있는 거예요?",
+			say = "이게 어떻게 된 거지? 괌, 루이빌... 플래셔 그리고 라피? 왜 모두 이곳에 있는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...여긴... 어디죠?",
+			say = "...여긴... 어디지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "별의 바다의 심장에 뭔가 심각한 고장이 난 게 분명해요...",
+			say = "은하수의 심장에 뭔가 심각한 고장이 난 게 분명해...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어쩌면… 비정상적인 데이터 블록을 분석하는 과정에서 어떤 문제가 생겼을지도 모르겠어요.",
+			say = "어쩌면… 비정상적인 데이터 블록을 분석하는 과정에서 어떤 문제가 생겼을지 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,7 +821,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "... 정말 죄송해요.",
+			say = "... 정말 미안해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이런 일이 일어나게 된 건 전부 제 책임이에요... 제가 너무 성급한 탓에...",
+			say = "이런 일이 일어나게 된 건 전부 내 책임이야... 내가 너무 성급한 탓에...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "플래셔, 아까는 정말 미안했어요... 여러분의 말이 맞았어요.",
+			say = "플래셔, 아까는 정말 미안했어... 모두의 말이 맞았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제가 좀 더 신중했다면...",
+			say = "내가 좀 더 신중했다면...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -935,7 +935,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…왜 갑자기 플래셔를 따라하는 거죠?",
+			say = "…왜 갑자기 플래셔를 따라하는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1082,7 +1082,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "위로해줘서 고마워요...",
+			say = "위로해줘서 고마워...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,7 +1176,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…어쨌든 저 떄문에 일어난 일이니, 저에겐 더 이상 여러분을 이끌 자격이 없어요.",
+			say = "…어쨌든 나 때문에 일어난 일이니까, 더 이상 모두를 이끌 자격이 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1306,7 +1306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흐음... 좋아요! 지금 우리에겐 우울해하고 있을 시간이 없어요!",
+			say = "흐음... 좋아! 지금 우리에겐 우울해하고 있을 시간이 없어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1325,7 +1325,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...다시 한번 절 믿어주신다면, 책임지고 여러분을 안전하게 집으로 모셔다드릴게요!",
+			say = "...다시 한번 날 믿어주면, 책임지고 모두를 안전하게 집으로 데려다 줄게!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1399,7 +1399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네, 지금같은 상황에서는 기록이 매우 중요해요.",
+			say = "응, 지금같은 상황에서는 기록이 매우 중요해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1417,7 +1417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "얼마든지 촬영해주세요. 촬영한 데이터는 추후 심해데이터분석국에서 확인한 후 다시 그대로 가져다 드릴게요.",
+			say = "얼마든지 촬영해. 촬영한 데이터는 나중에 심해데이터분석국에서 확인하고 다시 그대로 가져다 줄게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,7 +1472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흐음... 일단 주변 환경부터 조사해야겠어요.",
+			say = "흐음... 일단 주변 환경부터 조사해야겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우리가 서로 다른 가상 세계에서 모두 이곳에 모일 수 있었던 데에는 분명 이유가 있을 거예요...",
+			say = "우리가 서로 다른 가상 세계에서 모두 이곳에 모일 수 있었던 데에는 분명 이유가 있을 거야...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1510,7 +1510,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "주변을 탐색해서 꼭 찾아냅시다...!",
+			say = "주변을 탐색해서 꼭 찾아내자...!",
 			painting = {
 				alpha = 0.3,
 				time = 1

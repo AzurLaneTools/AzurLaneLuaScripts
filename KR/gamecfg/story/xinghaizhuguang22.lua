@@ -119,7 +119,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "솔직한 심정으로는 조금 더 데이터를 수집하고 싶지만... 이제 위험할지도 몰라요.",
+			say = "솔직한 심정으로는 조금 더 데이터를 수집하고 싶지만... 이제는 위험할 수도 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "샌 재신토가 후퇴 경로를 확인했으니 표시된 세이렌 기지로 대피합시다.",
+			say = "샌 재신토가 후퇴 경로를 확인했으니 표시된 세이렌 기지로 대피하자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "싸우는 수밖에 없겠어요.",
+			say = "싸우는 수밖에 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그래도 모습을 드러낸 건 잘된 일이에요… 세이렌 함대는 고급 세이렌의 통제를 받는다고 했죠?",
+			say = "그래도 모습을 드러낸 건 잘된 일이야… 세이렌 함대는 고급 세이렌의 통제를 받는다고 했지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이번에 쓰러트린다면 함대를 와해시킬 수 있을 거예요.",
+			say = "이번에 쓰러트린다면 함대를 와해시킬 수 있을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1

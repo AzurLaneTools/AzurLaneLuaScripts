@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "'은빛 여우' 여사는 역시나 모습을 드러내지 않았고, 여전히 포트리스를 통해 모두와 소통했다.",
+			say = " '은빛 여우' 여사는 역시나 모습을 드러내지 않았고, 여전히 포트리스를 통해 모두와 소통했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "별말씀을요.",
+			say = "별말씀을.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신의 함대에 비하면 조금 전 전투에서 저흰 미미한 역할을 했을 뿐인 걸요...",
+			say = "당신의 함대에 비하면 조금 전 전투에서 우린 미미한 역할을 했을 뿐인 걸...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네, 생각해놨어요.",
+			say = "응, 생각했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제 첫 번째 질문이에요.",
+			say = "첫 번째 질문이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신의 함대는 왜 수면 위를 부유하는 방식으로 이동을 하는 거죠?",
+			say = "당신의 함대는 왜 수면 위를 부유하는 방식으로 이동을 하는 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "상당히 많은 에너지를 소비해야한다고 생각하는데요.",
+			say = "상당히 많은 에너지를 소비해야한다고 생각하는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그렇군요... 수면과의 접촉으로 인한 위험이라면 X와 관련이 있는 건가요...?",
+			say = "그렇군... 수면과의 접촉으로 인한 위험이라면 X와 관련이 있는 건가...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흠... 그럼 두 번째 질문이에요.",
+			say = "흠... 그럼 두 번째 질문.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지금까지 거론된 이사회는 대체 어떤 조직이죠?",
+			say = "지금까지 거론된 이사회는 대체 어떤 조직이지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...연합국이 뭐죠? 벽람항로와 비슷한 조직인 건가요?",
+			say = "...연합국이 뭐지? 벽람항로와 비슷한 조직인 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아니요. 이번 건 그냥 가볍게 물어본 거예요.",
+			say = "이번 건 그냥 가볍게 물어본 거야….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이제 세 번째 질문을 할게요.",
+			say = "이제 세 번째 질문.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신들이 말하는 X는 무엇인가요?",
+			say = "당신들이 말하는 X는 뭐야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 안티엑스는요?",
+			say = "그럼 안티엑스는?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "X에 대항하기 위해 안티엑스라는 병기를 사용한다고 알고 있는데, 대체 안티엑스가 뭐죠?",
+			say = "X에 대항하기 위해 안티엑스라는 병기를 사용한다고 알고 있는데, 대체 안티엑스가 뭐지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이게 바로 제 네 번째 질문이에요.",
+			say = "이게 바로 제 네 번째 질문이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이것도 대답할 수 없는 내용인가요?",
+			say = "이것도 대답할 수 없는 내용인가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,7 +914,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "생각보다 더 많은 걸 알게 되었어요. 정말 감사합니다.",
+			say = "생각보다 더 많은 걸 알게 됐어, 고마워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "다음은 제 다섯 번째 질문이에요.",
+			say = "다음은 다섯 번째 질문이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1038,7 +1038,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이번 여행의 임무가 뭐죠?",
+			say = "이번 여행의 임무가 뭐야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신은 누구인가요?",
+			say = "당신은 누구지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1323,7 +1323,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이게 제 마지막 질문이에요.",
+			say = "이게 내 마지막 질문이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1355,7 +1355,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…네?",
+			say = "…뭐?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1469,7 +1469,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "맞아요...",
+			say = "맞아...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1486,7 +1486,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "좋아요,  드디어 제 차례네요. 컨스텔레이션 양~",
+			say = "좋아요,  드디어 제 차례네요. 컨스텔레이션 양~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

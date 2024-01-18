@@ -60,7 +60,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이걸로 충분한 건가요?",
+			say = "이걸로 충분한 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그야 당연하죠... 오늘 밤만큼 제대로 숙면을 취하고 싶었던 적은 없었다구요!",
+			say = "그야 당연하지... 오늘 밤만큼 제대로 숙면을 취하고 싶었던 적은 없었다구!",
 			painting = {
 				alpha = 0.3,
 				time = 1

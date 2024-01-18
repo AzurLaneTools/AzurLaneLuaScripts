@@ -95,7 +95,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제가 보기엔... 갑자기 하늘에서 내려온 당신의 함대야말로 SF 소설에서나 나올 법한 이야기인 것 같은데요.",
+			say = "내가 보기엔... 갑자기 하늘에서 내려온 함대야말로 SF 소설에서나 나올 법한 이야기인 것 같은데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이사회의 좌표라면... 우리가 물속에서 회수한 망가진 장치를 말하는 건가요?",
+			say = "이사회의 좌표라면... 우리가 물속에서 회수한 망가진 장치를 말하는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "말하자면 길어요... 괌, 요며칠 계획을 세우느라 갑자기 너무 피곤하네요... 너무 졸려서 그런지 머리가 잘 안 돌아가는 것 같아요.",
+			say = "말하자면 긴데... 괌, 요며칠 계획을 세우느라 갑자기 너무 피곤해... 너무 졸려서 그런지 머리가 잘 안 돌아가는 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그러니 이 부분의 설명은 당신에게 맡길게요... zZZ",
+			say = "그러니 이 부분의 설명은 괌에게 맡길게... zZZ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "'문제'라는 단어로 포장하기엔 부족하지…",
+			say = " '문제'라는 단어로 포장하기엔 부족하지…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "으윽... 신경 쓰지 말고 어서 가보세요...",
+			say = "으윽... 신경 쓰지 말고 어서 가…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "모처럼의 기회인데 포트리스 양을 자세히 살펴봐도... 문제 없겠죠?",
+			say = "모처럼의 기회인데 포트리스 양을 자세히 살펴봐도... 문제 없겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1223,7 +1223,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...배고파서요.",
+			say = "...배고파서.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이상하네요, 가상 세계에서는 '배고픔'을 느끼지 못해야 정상일 텐데...",
+			say = "이상하네, 가상 세계에서는 '배고픔'을 느끼지 못해야 정상일 텐데...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1278,7 +1278,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…아무것도 아니에요.",
+			say = "…아무것도 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1346,7 +1346,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "한 가지 부탁이 있어요. 프린스턴 양, 당신 세계의 역사책 한 권을 제게 빌려주실 수 있나요?",
+			say = "한 가지 부탁이 있어. 프린스턴, 당신 세계의 역사책 한 권을 빌릴 수 있을까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1365,7 +1365,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "식사가 준비되는 동안 독서를 통해 무료함을 좀 달래볼까 싶거든요...",
+			say = "식사가 준비되는 동안 독서를 통해 무료함을 좀 달래볼까 싶거든...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1552,7 +1552,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그것 때문에 한숨을 쉬는 게 아니에요...",
+			say = "그것 때문에 한숨을 쉬는 게 아니야...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1571,7 +1571,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아니에요. 말해도 당신은 모를 거예요.",
+			say = "말해도 모를거야….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1619,7 +1619,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "사실 잠들지 않았어요. 피곤했던 건 사실이지만...",
+			say = "사실 잠들지 않았어. 피곤했던 건 사실이지만...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1638,7 +1638,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그녀의 권한이 왜 갑자기 잠겼을 것 같아요?",
+			say = "그녀의 권한이 왜 갑자기 잠겼을 것 같아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1674,7 +1674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하아… 프린스턴의 도움을 받는 건 여기서 끝이에요.",
+			say = "하아… 프린스턴의 도움을 받는 건 여기서 끝이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1692,7 +1692,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "앞으로 중요한 정보를 손에 넣긴 쉽지 않을 것 같네요...",
+			say = "앞으로 중요한 정보를 손에 넣긴 쉽지 않을 것 같네...",
 			painting = {
 				alpha = 0.3,
 				time = 1

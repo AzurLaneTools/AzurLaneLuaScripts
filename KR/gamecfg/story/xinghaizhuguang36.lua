@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "침묵의 요새처럼그 함대들은 바다와 육지, 공중을 지배했다.",
+			say = "침묵의 요새처럼그 함대들은 바다와 육지, 공중을 지배했다. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#DFDFDF",
-			say = "...안티엑스, 이렇게 좋은 물건을 내놓는 건 오랜만이네요.",
+			say = "...안티엑스, 이렇게 좋은 물건을 내놓는 건 오랜만이네. ",
 			bgm = "theme-richard",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#DFDFDF",
-			say = "절 위한 특별한 환영 선물인가요?",
+			say = "날 위한 특별한 환영 선물인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "...5 분류 위협이 다가오고 있습니다. 유일한 옵션은 섬멸입니다.",
+			say = "...5 분류 위협이 다가오고 있습니다. 유일한 옵션은 섬멸입니다.  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#DFDFDF",
-			say = "혹시 빛나는 좌표 봤어?",
+			say = "혹시 빛나는 좌표 봤어?  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "...작은 속임수를 좀 써봤어요.",
+			say = "...작은 속임수를 좀 써봤어요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "당신의 전쟁터는 여기예요. 당신의 적은 바로 저죠.",
+			say = "당신의 전쟁터는 여기예요. 당신의 적은 바로 저죠.  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#DFDFDF",
-			say = "내가 한번 맞춰볼까? 네 계획은 장기전으로 끌고가서 날 쓰러트릴 생각이야.",
+			say = "내가 한번 맞춰볼까? 네 계획은 장기전으로 끌고가서 날 쓰러트릴 생각이야. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

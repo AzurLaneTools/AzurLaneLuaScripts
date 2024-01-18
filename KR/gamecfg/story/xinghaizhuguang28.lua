@@ -409,7 +409,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "'은빛 여우' 여사가 뭐라던가요?",
+			say = " '은빛 여우' 여사가 뭐라던가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "일단 상황을 지켜보다가 저들이 힘이 많이 빠진 틈을 타 일망타진할  거야.",
+			say = "일단 상황을 지켜보다가 저들이 힘이 많이 빠진 틈을 타 일망타진할  거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "아군이 아니라면 없어버리라고 '은빛 여우' 여사가 얘기했어.",
+			say = "아군이 아니라면 없애 버리라고 '은빛 여우' 여사가 얘기했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "...'은빛 여우' 여사답게 정말 과감한 결정이네요.",
+			say = "...'은빛 여우' 여사답게 정말 과감한 결정이네.",
 			painting = {
 				alpha = 0.3,
 				time = 1

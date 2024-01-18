@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "퀴즈 게임은 여전히 진행 중이었다.",
+			say = "퀴즈 게임은 여전히 진행 중이었다. ",
 			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…'은빛 여우' 여사, 질문하시죠.",
+			say = "…이제 '은빛 여우' 여사 차례야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "달 토양의 성분은... 모르겠는데요.",
+			say = "달 토양의 성분은... 모르겠는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "저도 언젠가는 머리 위에 떠 있는 저 머나먼 별을 탐험해보고 싶어요.",
+			say = "나도 언젠가는 머리 위에 떠 있는 저 머나먼 별을 탐험해보고 싶어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우주 탐사의 우선 순위는... 아쉽게도 무기한으로 연기될 수밖에 없게 되었네요.",
+			say = "우주 탐사의 우선 순위는... 아쉽게도 무기한으로 연기될 수밖에 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "그렇군요... 하지만 여러분은 '별의 바다'라 불리는 기지에서 왔다고 하지 않으셨나요?",
+			say = "그렇군요... 하지만 여러분은 '은하수'라 불리는 기지에서 왔다고 하지 않으셨나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "우주 탐사는 해본적 없지만, '별의 바다'에서 왔다라...",
+			say = "우주 탐사는 해본적 없지만, '은하수'에서 왔다라...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "당신이 말하는 '별의 바다' 기지는 대체 뭐죠?",
+			say = "당신이 말하는 '은하수' 기지는 대체 뭐죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "별의 바다에 대한 모든 정보는 일급 기밀이기 때문에 알려드릴 수 없습니다.",
+			say = "은하수에 대한 모든 정보는 일급 기밀이기 때문에 알려줄 수 없어. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…하, 사실 별의 바다라는 이름 자체를 입에 담으면 안됐는데...",
+			say = "…하, 사실 은하수라는 이름 자체를 입에 담으면 안됐는데...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네… 대외적으로는 '내호 함대'라는 공식적인 표현이 있으니까요.",
+			say = "응… 대외적으로는 '내호 함대'라는 공식적인 표현이 있으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "그럼 두 번째 질문은 '노코멘트'인 셈인가요?",
+			say = "그럼 두 번째 질문은 '노코멘트'인 셈인가요?  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네, 세 번째 질문으로 넘어가주세요.",
+			say = "그래, 세 번째 질문으로 넘어가줘.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이 질문은 대답해드릴 수 있어요.",
+			say = "이 질문은 대답할 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "성정 큐브는 벽람항로 설립 이후 세계 최고의 인재들이 모여 만들어낸 과화적 기적이죠.",
+			say = "성정 큐브는 벽람항로 설립 이후 세계 최고의 인재들이 모여 만들어낸 과화적 기적이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "세이렌과의 전쟁에서 중요한 전환점이기도 하구요.",
+			say = "세이렌과의 전쟁에서 중요한 전환점이기도 하고. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,44 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "성정 큐브의 등장으로 우리같은 '함선'이 탄생할 수 있었고, 전세를 뒤집을 수 있었죠.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "심해데이터분석국",
-			dir = 1,
-			actor = 104010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "각 진영에서 성정 큐브의 제작 방법에 대해 잘 알고 있기 때문에 자체 생산이 가능해요.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 104010,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "심해데이터분석국",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "하지만 생산 과정에서 매우 희귀한 광물이 필요한 관계로 생산량은 매우 적다고 들었어요.",
+			say = "성정 큐브의 등장으로 우리같은 '함선'이 탄생할 수 있었고, 전세를 뒤집을 수 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +430,44 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이게 제가 알고있는 전부랍니다.",
+			say = "각 진영에서 성정 큐브의 제작 방법에 대해 잘 알고 있기 때문에 자체 생산이 가능해.  ",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 104010,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "심해데이터분석국",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "하지만 생산 과정에서 매우 희귀한 광물이 필요한 관계로 생산량은 매우 적다고 들었어.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "심해데이터분석국",
+			dir = 1,
+			actor = 104010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "이게 내가 알고 있는 전부야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "...특수한 광물이 필요하고, 생산량이 적다라...",
+			say = "...특수한 광물이 필요하고, 생산량이 적다라... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "혹은 여러분께서는 어떤 유형의 세이렌과 싸워봤나요?",
+			say = "혹은 여러분께서는 어떤 유형의 세이렌과 싸워봤나요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "음… 이 문제는 좀 복잡하니 괌이 절 대신해 간략하게 설명해드려도 될까요?",
+			say = "음… 이 문제는 좀 복잡하니 괌이 대신 간단하게 설명해도 될까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...대답 이외의 정보는 조심해주세요.",
+			say = "...대답 이외의 정보는 조심해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "앗... 알겠어!",
+			say = "앗... 알겠어! ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여기에 그들보다 더 높은 지능을 가진 고급 세이렌이 그들의 지휘를 맡고 있지.",
+			say = "여기에 그들보다 더 높은 지능을 가진 고급 세이렌이 그들의 지휘를 맡고 있지. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,7 +755,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "설령 너희처럼 강한 실력의 함대일지라도, 그녀와 교전하는 건 신중해야할 거야. 이기면 본전이고, 지면... 더 말할 것도 없지.",
+			say = "설령 너희처럼 강한 실력의 함대일지라도, 그녀와 교전하는 건 신중해야할 거야. 이기면 본전이고, 지면... 더 말할 것도 없지. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "네, 적어둘게요. 다음은 제 다섯 번째 질문이에요.",
+			say = "네, 적어둘게요. 다음은 제 다섯 번째 질문이에요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "혹시 '서광 계획'이라고 들어본 적 있으세요?",
+			say = "혹시 '서광 계획'이라고 들어본 적 있으세요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "괌, 이 질문은 제가 대답할게요.",
+			say = "괌, 이 질문은 내가 대답할게. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "노코멘트라고 말하고 싶은 표정인걸요?",
+			say = "노코멘트라고 말하고 싶은 표정인걸요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,7 +922,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "지금은 침묵으로 시간을 좀 끌면서 생각을 정리하고 계시네요.",
+			say = "지금은 침묵으로 시간을 좀 끌면서 생각을 정리하고 계시네요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "제가 맞췄나요?",
+			say = "제가 맞췄나요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…'은빛 여우'라는 코드네임은 본인이 지은 게 아니라고 하지 않으셨나요?",
+			say = "…'은빛 여우'라는 코드네임은 본인이 지은 게 아니라고 했던 것 같은데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신에게 코드네임을 지어준 사람을 칭찬하고 싶네요... 아주 찰떡이거든요.",
+			say = "코드네임을 지어준 사람을 칭찬하고 싶네... 아주 찰떡이거든.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1026,7 +1026,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...그렇다면 이 질문에 대해 전 그 어떤 대답도 해드릴 수가 없어요.",
+			say = "...그렇다면 이 질문에 대해서는 어떤 대답도 할 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "그럼 이제 드디어 이 게임의 마지막 질문이자 제 여섯 번째 질문이네요.",
+			say = "그럼 이제 드디어 이 게임의 마지막 질문이자 제 여섯 번째 질문이네요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "당신은 이미 위에서 두 번이나 대답을 거절했기 때문에 이번엔 반드시 대답해주셔야 해요.",
+			say = "당신은 이미 위에서 두 번이나 대답을 거절했기 때문에 이번엔 반드시 대답해주셔야 해요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "순간 컨스텔레이션은 잘못 들은 게 아닌지 두 귀를 의심했다.",
+			say = "순간 컨스텔레이션은 잘못 들은 게 아닌지 두 귀를 의심했다.  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "(설마 내가 반드시 대답해야할 마지막 질문이... 그녀가 이 게임을 하는 데 동의했던 진짜 목적인 건가?)",
+			say = "(설마 내가 반드시 대답해야할 마지막 질문이... 그녀가 이 게임을 하는 데 동의했던 진짜 목적인 건가?) ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1136,7 +1136,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제가 대답할 수 있는 질문이라면, 대답하겠다고 약속할게요.",
+			say = "내가 대답할 수 있는 질문이라면, 꼭 대답하겠다고 약속할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,7 +1181,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…네?",
+			say = "…뭐?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "컨스텔레이션은 '은빛 여우' 여사가 대체 어떤 질문을 할지 게속해서 생각했다.",
+			say = "컨스텔레이션은 '은빛 여우' 여사가 대체 어떤 질문을 할지 게속해서 생각했다.  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "하지만 그녀의 질문은 예상 밖이었다.",
+			say = "하지만 그녀의 질문은 예상 밖이었다.  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,7 +1222,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "스베르들롭스크라면... 노스 유니온 내 지역처럼 들리네요.",
+			say = "스베르들롭스크라면... 노스 유니온 내 지역인가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1241,7 +1241,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...죄송하지만 전 노스 유니온의 지리를 잘 알지 못해요.",
+			say = "…미안하지만 노스 유니온의 지리를 잘 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1259,7 +1259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...그곳에 대해 아는 게 없습니다.",
+			say = "...그곳에 대해 아는 게 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1287,7 +1287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "비록 기계음이었지만 실망과 슬픔이 뒤섞인 감정이 느껴졌다.",
+			say = "비록 기계음이었지만 실망과 슬픔이 뒤섞인 감정이 느껴졌다. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1301,7 +1301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "설마 거기가 고향이신가요?",
+			say = "설마 거기가 고향인 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1320,7 +1320,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 이건 무효예요. '은빛 여우' 여사, 제게 한 가지 더 물어보셔도 됩니다!",
+			say = "이건 무효야. '은빛 여우' 여사, 내게 한 가지 더 물어봐도 돼!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1351,7 +1351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "단지 게임일 뿐이니까요.",
+			say = "단지 게임일 뿐이니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1369,7 +1369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "게임에서 이정도 양보는 괜찮지 않을까요?",
+			say = "게임에서 이정도 양보는 괜찮지 않을까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1386,7 +1386,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "…후후, 당신의 말이 맞아요. 그럼 사양하지 않을게요.",
+			say = "…후후, 당신의 말이 맞아요. 그럼 사양하지 않을게요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,7 +1423,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "아오스타는 괜찮은가요?",
+			say = "아오스타는 괜찮은가요? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1438,7 +1438,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…아오스타가... 누구죠?",
+			say = "…아오스타가... 누구야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1457,7 +1457,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "죄송해요... 처음 듣는 이름이네요.",
+			say = "미안해... 처음 듣는 이름이야. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1476,7 +1476,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 이번에도 제가 제대로 대답하지 못했으니, 한 번 더 기회가 있어요!",
+			say = "이, 이번에도 제대로 대답하지 못했으니까, 한 번 더 질문해줘! ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1544,7 +1544,7 @@ return {
 			actorName = "프린스턴·META",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "덤으로 좋은 소식도 하나 가져왔다구~",
+			say = "덤으로 좋은 소식도 하나 가져왔다구~ ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1561,7 +1561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "흐흥, 중간에 끼어들어서 미안하지만 게임은 끝난 거 맞지?",
+			say = "흐흥, 중간에 끼어들어서 미안하지만 게임은 끝난 거 맞지? ",
 			bgm = "theme-ucnf-image",
 			painting = {
 				alpha = 0.3,
@@ -1615,7 +1615,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "「은빛 여우」여사",
-			say = "끝났어요. 좋은 소식이 뭐죠?",
+			say = "끝났어요. 좋은 소식이 뭐죠?  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1657,7 +1657,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "하지만 정화 과정을 마쳤으니 작동을 하면 무슨 일이 있었는지 확인할 수 있을 거예요.",
+			say = "하지만 정화 과정을 마쳤으니 작동을 하면 무슨 일이 있었는지 확인할 수 있을 거예요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1672,7 +1672,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "잘됐다! 우릴 이 이상한 사건에 휘말리게 만든 근원인만큼, 어쩌면 그 안에 되돌아갈 수 있는 단서가 있을지도 몰라.",
+			say = "잘됐다! 우릴 이 이상한 사건에 휘말리게 만든 근원인만큼, 어쩌면 그 안에 되돌아갈 수 있는 단서가 있을지도 몰라.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1709,7 +1709,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9706030,
-			say = "'은빛 여우' 여사?",
+			say = " '은빛 여우' 여사?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1788,7 +1788,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
-			say = "여러 사람을 둘러싸고 있던 모든 것이 눈 앞에서 사라져버렸다.",
+			say = "여러 사람을 둘러싸고 있던 모든 것이 눈 앞에서 사라져버렸다. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1868,7 +1868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…아마 조금 전 작동된 좌표와 관련이 있을 거예요.",
+			say = "…아마 조금 전 작동된 좌표와 관련이 있을 거야.  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1924,7 +1924,7 @@ return {
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "진짜예요! 저기 물 위에 누워있는 사람이... 프린스턴 언니예요!",
+			say = "진짜예요! 저기 물 위에 누워있는 사람이... 프린스턴 언니예요! ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1943,7 +1943,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "프린스턴, 괜찮아!?",
+			say = "프린스턴, 괜찮아!?  ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2016,7 +2016,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…잠들어 있는 것... 같은데요?",
+			say = "…잠들어 있는 것... 같은데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2035,7 +2035,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "꼴을 보아하니 행복한 꿈을 꾸고 있는 것 같아.",
+			say = "꼴을 보아하니 행복한 꿈을 꾸고 있는 것 같아. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2129,7 +2129,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어때~ 대답하지 않았으니까 게임은 아직 끝나지 않은 거야.",
+			say = "어때~ 대답하지 않았으니까 게임은 아직 끝나지 않은 거야. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2185,7 +2185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…네.",
+			say = "…응.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2217,7 +2217,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "여기는 네비게이터-TB입니다. 여러분의 신호가 다시 포착되었어요.",
+			say = "여기는 네비게이터-TB입니다. 여러분의 신호가 다시 포착되었어요. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2237,7 +2237,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "질문: 현재 어떤 상황인가요? 어떻게 다 같이 가상 세계 산호해에 나타난 거죠?",
+			say = "질문: 현재 어떤 상황인가요? 어떻게 다 같이 가상 세계 산호해에 나타난 거죠? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2256,7 +2256,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우린 다친데 없이 멀쩡해... 무슨 일이 일어났는지는 말하자면 길어.",
+			say = "우린 다친데 없이 멀쩡해... 무슨 일이 일어났는지는 말하자면 길어. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2274,7 +2274,7 @@ return {
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "라피는... 피곤해. 그러니까... 괌이 설명해줘.",
+			say = "라피는... 피곤해. 그러니까... 괌이 설명해줘. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2293,7 +2293,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아하하, 알겠어~ 네비게이터, 그쪽은 괜찮아?",
+			say = "아하하, 알겠어~ 네비게이터, 그쪽은 괜찮아? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2352,7 +2352,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "다행이야~ 드디어 집에 돌아갈 수 있게 됐어!",
+			say = "다행이야~ 드디어 집에 돌아갈 수 있게 됐어! ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2371,7 +2371,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하... 돌아가서 푹 자야겠어요.",
+			say = "하... 돌아가서 푹 자야겠어. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2390,7 +2390,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그리고... 이번 달은 일찍 자는 습관을 들여야겠어요!",
+			say = "그리고... 이번 달은 일찍 자는 습관을 들여야겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1

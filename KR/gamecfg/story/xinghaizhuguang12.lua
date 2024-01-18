@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...리얼리티 렌즈가 정상적으로 작동한 모양이에요. 성공적으로 데이터 블록에 도달했어요!",
+			say = "...리얼리티 렌즈가 정상적으로 작동한 것 같아. 성공적으로 데이터 블록에 도달했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "흐음… 정말 놀라워요.",
+			say = "흐음… 정말 놀라워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…네? 리얼리티 렌즈에서는 이런 일이 일어날 수 없을 텐데...?",
+			say = "…뭐? 리얼리티 렌즈에서는 이런 일이 일어날 수 없을 텐데...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지휘관이 렌즈에 들어간 뒤 어느 순간 갑자기 통제실과 연락이 끊겼다고 하지 않았나요...?",
+			say = "지휘관이 렌즈에 들어간 뒤 어느 순간 갑자기 통제실과 연락이 끊겼다고 하지 않았나...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...아무래도 제 예상이 맞는 것 같아요. 이 데이터 블록에는 분명 무언가 중요한 게 숨겨져 있어요!",
+			say = "...아무래도 내 예상이 맞는 것 같아. 이 데이터 블록에는 분명 무언가 중요한 게 숨겨져 있어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "일단 네비게이터 쪽은 신경 쓰지 마세요. 샌 재신토, 우린 멈추지말고 계속 전진합시다!",
+			say = "일단 네비게이터 쪽은 신경 쓰지 마. 샌 재신토, 우리 멈추지 말고 계속 전진하자!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "혹시 눈치채셨나요? 이곳의 왕관은 우리가 알고 있는 왕관과 달라요.",
+			say = "혹시 눈치챘어? 이곳의 왕관은 우리가 알고 있는 왕관과 달라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "맞아요! 그런데 그렇다면 이상하지 않나요?",
+			say = "맞아! 그런데 그렇다면 이상하지 않아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우리 모두 알다시피! 극지의 왕관은 특이점을 성공적으로 작동시키지 못했어요.",
+			say = "우리 모두 알다시피! 극지의 왕관은 특이점을 성공적으로 작동시키지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그리고 그건 세이렌이 코드-G라고 부르는 잔불의 리더, 엔터프라이즈·META와 관련이 있죠.",
+			say = "그리고 그건 세이렌이 코드-G라고 부르는 잔불의 리더, 엔터프라이즈·META와 관련이 있지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그 후 왕관은 세이렌에 의해 통제되었고 오미터의 중요한 극지 거점이 되었어요.",
+			say = "그 후 왕관은 세이렌에 의해 통제되었고 오미터의 중요한 극지 거점이 되었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "왜 데이터 블록 안의 왕관이 작동하고 있는 걸까요...?",
+			say = "왜 데이터 블록 안의 왕관이 작동하고 있는 걸까...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...만약 그게 사실이라면 너무 끔찍한 일이에요!",
+			say = "...만약 그게 사실이라면 너무 끔찍한 일이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "만약 왕관이 계속 정상적으로 작동했다면 지금 우리가 보고있는 왕관과 다를게 없었을 거예요. 지금처럼 멀리 떨어져 있어도 그 안의 에너지를 똑똑히 확인할 수 있었겠죠.",
+			say = "만약 왕관이 계속 정상적으로 작동했다면 지금 우리가 보고있는 왕관과 다를 게 없었을 거야. 지금처럼 멀리 떨어져 있어도 그 안의 에너지를 똑똑히 확인할 수 있었겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "왕관을 실제로 조사하기 전까지 결론을 내릴 수 없어요.",
+			say = "왕관을 실제로 조사하기 전까지는 결론을 내릴 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그렇지만 인공 특이점은 작동하는 순간 엄청난 에너지 변동을 방출하게 돼요.",
+			say = "그렇지만 인공 특이점은 작동하는 순간 엄청난 에너지 변동을 방출하게 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하지만 왕관이 탄생하는 순간 알래스카 관측소에서 딱 한번 에너지가 감지된 것을 제외하고는 다른 에너지 파동은 없었어요.",
+			say = "하지만 왕관이 탄생하는 순간 알래스카 관측소에서 딱 한번 에너지가 감지된 것을 제외하고는 다른 에너지 파동은 없었는데...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어쩌면 두 번째 추측이 맞을 가능성이 더 클지도 모르겠네요…",
+			say = "어쩌면 두 번째 추측이 맞을 가능성이 더 클지도 모르겠네…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하지만 가장 중요한 문제는 대체 왜 데이터 블록이 이 순간의 일을 기록하고 있는 걸까예요.",
+			say = "하지만 가장 중요한 문제는 데이터 블록이 이 순간의 일을 기록하고 있는 이유야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -791,7 +791,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...들었어요? 조금 전 그건 무슨 소릴까요?",
+			say = "...들었어? 조금 전 그건 무슨 소릴까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,7 +824,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "찾을 필요도,  자세히 확인할 필요도 없었다.",
+			say = "찾을 필요도,  자세히 확인할 필요도 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우, 우릴 향해 오고 있는 건가요!?",
+			say = "우, 우릴 향해 오고 있는 건가!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "샌 재신토, 어서 도망쳐요! 어서 도망쳐야 해요!",
+			say = "샌 재신토, 어서 도망쳐! 어서 도망쳐야 해!",
 			painting = {
 				alpha = 0.3,
 				time = 1

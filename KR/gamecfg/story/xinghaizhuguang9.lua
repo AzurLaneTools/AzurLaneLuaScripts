@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "컨스텔레이션",
 			hidePaintObj = true,
-			say = "들리시나요? 지금부터 괌 함대의 무선 침묵 상태가 해제되었습니다. 수신 후 회신 부탁드릴게요.",
+			say = "들려? 지금부터 괌 함대의 무선 침묵 상태를 해제할게. 수신 후 회신 부탁해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "당신들이 회수한 물건을 이미 확인했거든요….",
+			say = "당신들이 회수한 물건을 이미 확인했거든….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,27 +242,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "좋은 판단력이였어요... 아직 이 비정상적인 데이터 블록이 무엇인지 확실하게 알 수는 없지만,",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_zhuguang_2",
-			factiontag = "심해데이터분석국",
-			dir = 1,
-			paintingNoise = true,
-			actor = 104010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "연구 가치가 매우 높은 목표물이 포함되어 있는 것만큼은 의심할 여지가 없어요.",
+			say = "좋은 판단력이야... 아직 이 비정상적인 데이터 블록이 무엇인지 확실하게 알 수는 없지만,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +262,27 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어쩌면 당시 이 해역에 묻혀 있던 진실을 알아낼 수 있을지도 모르는 일이죠...",
+			say = "연구 가치가 매우 높은 목표물이 포함되어 있는 것만큼은 확실해.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_zhuguang_2",
+			factiontag = "심해데이터분석국",
+			dir = 1,
+			paintingNoise = true,
+			actor = 104010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "어쩌면 당시 이 해역에 묻혀 있던 진실을 알아낼 수 있을지도 몰라...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…드디어, 우리의 조사에 진전이 생겼어요",
+			say = "…드디어, 우리의 조사에 진전이 생겼어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아, 인양 과정에서부터 분석 프로그램을 돌리기 시작했거든요",
+			say = "아, 인양 과정에서부터 분석 프로그램을 돌리기 시작했거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "걱정하지 마세요. 이번 건은 특별한 일인만큼 이미 상부의 허가를 받았으니까요.",
+			say = "걱정하지 마. 이번 건은 특별한 일인만큼 이미 상부의 허가를 받았으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "어쨌든 모두 수고 많으셨어요. 해당 시뮬레이션 구역은 더 이상 인양 가치가 없으니 후속 임무는 종료할게요.",
+			say = "어쨌든 모두 수고 많았어. 해당 시뮬레이션 구역은 더 이상 인양 가치가 없으니 후속 임무는 종료할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그럼 시간이 많지 않으니 곧바로 다음 임무를 시작해보도록 할까요?",
+			say = "그럼 시간이 많지 않으니 곧바로 다음 임무를 시작해볼까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그야 당연히 비정상적인 데이터 블록의 내용을 조사하는 것이죠.",
+			say = "그야 당연히 비정상적인 데이터 블록의 내용을 조사하는 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "무엇이든지 리얼리티 렌즈에 가져가기만 한다면 알아낼 수 있어요.",
+			say = "무엇이든지 리얼리티 렌즈에 가져가기만 한다면 알아낼 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그건 걱정할 필요 없어요. 가상 세계 속 지정된 산호해 구역에서 회수한 데이터 블록의 '출처'는 명확하니까요.",
+			say = "그건 걱정할 필요 없어. 가상 세계 속 지정된 산호해 구역에서 회수한 데이터 블록의 '출처'는 명확하니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "게다가 네비게이터도 테스트해 본 결과, 리얼리티 렌즈 없이는 데이터 블록을 완벽하게 분석할 수 없다는 의견이에요.",
+			say = "게다가 네비게이터도 테스트해 본 결과, 리얼리티 렌즈 없이는 데이터 블록을 완벽하게 분석할 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네비게이터 역시 데이터에 '직접적인 위협'은 없다고 했어요.",
+			say = "네비게이터 역시 데이터에 '직접적인 위협'은 없다고 했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그러니까! 무엇이 숨겨져 있는지 리얼리티 렌즈에 가져가 보면 알 수 있겠죠!",
+			say = "그러니까! 무엇이 숨겨져 있는지 리얼리티 렌즈에 가져가 보면 알 수 있겠지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "앵커리지 때도 알 수 없는 비정상적인 데이터 블록을 발견한 후 지휘관이 리얼리티 렌즈를 작동해 해결한 적 있잖아요!",
+			say = "앵커리지 때도 알 수 없는 비정상적인 데이터 블록을 발견한 후 지휘관이 리얼리티 렌즈를 작동해 해결한 적 있었잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "이번에도 그때와 같은 논리, 같은 절차에 따라 같은 일을 할 뿐이랍니다!",
+			say = "이번에도 그때와 같은 논리, 같은 절차에 따라 같은 일을 할 뿐이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…아니요. 이 일은 제가 알아서 할게요.",
+			say = "…아니. 이 일은 나 혼자 할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "좋아요, 샌 재신토. 저와 함께 리얼리티 렌즈로 가시죠!",
+			say = "좋아, 샌 재신토. 함께 리얼리티 렌즈로 가자!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "거절합니다. 이번 테스트는 컨스텔레이션이 PR-1 등급을 받아 제안된 것으로 별의 바다 위원회의 만장일치가 있어야만 변경할 수 있습니다.",
+			say = "거절합니다. 이번 테스트는 컨스텔레이션이 PR-1 등급을 받아 제안된 것으로 은하수 위원회의 만장일치가 있어야만 변경할 수 있습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,7 +1171,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "하아... 언니가 별의 바다에 있길 이렇게 간절히 바라본 건 이번이 처음이야...",
+			say = "하아... 언니가 은하수에 있길 이렇게 간절히 바라본 건 이번이 처음이야...",
 			painting = {
 				alpha = 0.3,
 				time = 1

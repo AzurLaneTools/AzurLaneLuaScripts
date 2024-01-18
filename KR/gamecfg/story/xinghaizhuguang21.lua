@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "잠깐... 이게 바로 저들이 엄청난 에너지를 사용하면서 수면에 떠 있는 이유인 건가요?",
+			say = "잠깐... 이게 바로 저들이 엄청난 에너지를 사용하면서 수면에 떠 있는 이유인 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "아무리 수중 공격을 피하기 위함이라지만... 낭비가 너무 심해요. 저들의 에너지는 무한한 걸까요...?",
+			say = "아무리 수중 공격을 피하기 위함이라지만... 낭비가 너무 심해. 에너지가 무한한 걸까...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "샌 재신토,  후퇴 경로를 한번 확인해주세요.",
+			say = "샌 재신토,  후퇴 경로를 한번 확인해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "그리고 조금 더 싸워보죠...",
+			say = "그리고 조금 더 싸워보자...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "반대편에서 우릴 죽일 생각이 없다면, 오히려 이 점을 이용하는 거예요...",
+			say = "반대편에서 우릴 죽일 생각이 없다면, 오히려 이 점을 이용하는 거야...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
-			say = "계속 싸워서 최대한 많은 데이터를 수집하고 돌아갑시다!",
+			say = "계속 싸워서 최대한 많은 데이터를 수집하고 돌아가자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

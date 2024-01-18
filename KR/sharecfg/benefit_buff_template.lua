@@ -81,6 +81,7 @@ pg.benefit_buff_template = setmetatable({
 		78,
 		79,
 		80,
+		81,
 		103,
 		110,
 		111,
@@ -1495,6 +1496,19 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
+	},
+	[81] = {
+		type_priority = 0,
+		name = "겨울 운동 음료",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "숙소 내 모든 캐릭터 컨디션 회복 속도 증가",
+		benefit_effect = "1",
+		id = 81,
+		icon = "Props/60458",
+		benefit_type = "dorm_energy"
 	},
 	[103] = {
 		type_priority = 0,
