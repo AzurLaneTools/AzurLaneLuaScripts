@@ -6,9 +6,6 @@ end
 
 function slot0.OnLoaded(slot0)
 	uv0.super.OnLoaded(slot0)
-
-	slot0.uiItemList = UIItemList.New(slot0:findTF("window/frame/list"), slot0:findTF("window/frame/left"))
-
 	setActive(slot0.confirmBtn, false)
 
 	slot0.realPriceBtn = slot0:findTF("window/button_container/real_price")
@@ -43,10 +40,9 @@ function slot0.UpdateContent(slot0, slot1)
 	slot3 = slot1.price
 
 	if slot0.prevSelId then
-		slot4 = pg.item_data_statistics[slot0.prevSelId]
-		slot0.label1.text = i18n("skin_purchase_confirm", slot4.name, math.max(0, slot3 - slot4.usage_arg[2]), slot2)
+		slot0.label1.text = i18n(math.max(0, slot3 - pg.item_data_statistics[slot0.prevSelId].usage_arg[2]) > 0 and "skin_purchase_confirm" or "skin_purchase_over_price", slot4.name, slot6, slot2)
 	else
-		slot0.label1.text = i18n("charge_scene_buy_confirm_1", slot3, slot2)
+		slot0.label1.text = i18n("charge_scene_buy_confirm", slot3, slot2)
 	end
 
 	setActive(slot0.realPriceBtn, not slot0.prevSelId)
@@ -56,32 +52,41 @@ end
 function slot0.UpdateItem(slot0, slot1)
 	slot0.itemTrs = {}
 
-	slot0.uiItemList:make(function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot0:findTF("window/frame/list"), slot0:findTF("window/frame/left"), #table.mergeArray({
+		0
+	}, slot1.itemList or {}), function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:FlushItem(uv1[slot1 + 1], slot2)
 		end
 	end)
-	slot0.uiItemList:align(#(slot1.itemList or {}))
+	triggerToggle(slot0:findTF("window/frame/list/none"), true)
 end
 
 function slot0.FlushItem(slot0, slot1, slot2)
-	updateDrop(slot2, {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = slot1
-	})
-	setText(slot2:Find("name_bg/Text"), pg.item_data_statistics[slot1].name)
+	if slot1 == 0 then
+		setText(slot2:Find("name_bg/Text"), i18n("not_use_ticket_to_buy_skin"))
+	else
+		updateDrop(slot2, {
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = slot1
+		})
+		setText(slot2:Find("name_bg/Text"), pg.item_data_statistics[slot1].name)
+	end
+
 	onToggle(slot0, slot2, function (slot0)
 		if slot0 then
-			uv0:ClearPrevSel()
+			if uv0 == 0 then
+				uv1.prevSelId = nil
 
-			uv0.prevSelId = uv1
+				uv1:UpdateContent(uv1.settings)
+			else
+				uv1:ClearPrevSel()
 
-			uv0:UpdateContent(uv0.settings)
-		elseif uv0.prevSelId == uv1 then
-			uv0.prevSelId = nil
+				uv1.prevSelId = uv0
 
-			uv0:UpdateContent(uv0.settings)
+				uv1:UpdateContent(uv1.settings)
+			end
 		end
 	end, SFX_PANEL)
 

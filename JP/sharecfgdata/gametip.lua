@@ -10211,7 +10211,7 @@ _G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
-	tip = "すでに交換可能な全着せ替えを所持しています"
+	tip = "交換Ptが上限に達しています。UR艦船を交換しないとこれ以上交換Ptを入手できません。建造を行いますか？"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_confirm = {
@@ -27176,4 +27176,12 @@ _G.pg.base.gametip.skin_exchange_usetip = {
 
 _G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
 	tip = "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
+}
+
+_G.pg.base.gametip.not_use_ticket_to_buy_skin = {
+	tip = "クーポン適用なし"
+}
+
+_G.pg.base.gametip.skin_purchase_over_price = {
+	tip = "<size=32><color=#92fc63>$1*1</color>を消費し、割引後\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>の着せ替え<color=#92fc63>$3</color>を購入しますか？（クーポン適用超過分のダイヤは返還されません）</size>"
 }
