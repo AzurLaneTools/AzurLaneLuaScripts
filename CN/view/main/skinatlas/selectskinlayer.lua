@@ -11,12 +11,12 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
+
+	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
 	uv0.super.didEnter(slot0)
-
-	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end
 
 function slot0.GetSkinList(slot0, slot1, slot2)
@@ -81,8 +81,16 @@ function slot0.Check(slot0, slot1)
 
 	slot0.msgBox:ExecuteAction("Show", {
 		content = i18n("skin_exchange_confirm", Item.getConfigData(slot3).name, slot1.skinName),
-		skinId = slot1.id,
-		itemId = slot3,
+		leftDrop = {
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = slot3
+		},
+		rightDrop = {
+			count = 1,
+			type = DROP_TYPE_SKIN,
+			id = slot1.id
+		},
 		onYes = function ()
 			uv0.contextData.OnConfirm(uv1.id)
 			uv0:closeView()
@@ -92,13 +100,7 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-
-	if slot0.msgBox then
-		slot0.msgBox:Destroy()
-
-		slot0.msgBox = nil
-	end
-
+	slot0.msgBox:Destroy()
 	uv0.super.willExit(slot0)
 end
 

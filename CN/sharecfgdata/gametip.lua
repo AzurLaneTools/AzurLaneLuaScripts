@@ -5295,6 +5295,10 @@ _G.pg.base.gametip.charge_limit_weekly = {
 	tip = "本周可购买次数：$1"
 }
 
+_G.pg.base.gametip.charge_limit_monthly = {
+	tip = "本月可购买次数：$1"
+}
+
 _G.pg.base.gametip.charge_error = {
 	tip = "充值失败："
 }
@@ -10116,15 +10120,57 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:453} 建造追加！"
+	tip = "{namecode:199}、{namecode:182}、{namecode:80}、{namecode:195} 等角色建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:446} 建造追加！"
+	tip = "{namecode:27}、{namecode:197} 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:470}、{namecode:474} 等角色建造追加！"
+	tip = "{namecode:199}、{namecode:182}、{namecode:194}、{namecode:196} 等角色建造追加！"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_help = {
+	tip = {
+		{
+			info = "常驻UR兑换说明："
+		},
+		{
+			info = "    ·进行常驻轻型建造池、常驻重型建造池、常驻特型建造池、不包含海上传奇稀有度角色的活动限时建造池建造时，每消耗1魔方，将获得1点常驻UR兑换累计点数，点数上限为400；\n    ·使用建造券进行对应建造也可以获得点数；\n"
+		},
+		{
+			info = "    ·累计400点数后，可选择获取任意一位已加入常规建造的海上传奇角色，获取后该计数重置；"
+		}
+	}
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+	tip = "常驻UR兑换"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
+	tip = "累计点数"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
+	tip = "查看可兑换角色"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text4 = {
+	tip = "兑换角色"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
+	tip = "累计点数不足"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
+	tip = "常驻UR兑换点数已达上限，未兑换UR角色前继续建造不能获得点数，是否继续建造？"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_confirm = {
+	tip = "是否消耗400累计点数，兑换角色$1？"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -26295,7 +26341,7 @@ _G.pg.base.gametip.skin_exchange_title = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_select_skinall = {
-	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将转为抵扣券！"
 }
 
 _G.pg.base.gametip.skin_discount_desc = {
@@ -26752,4 +26798,12 @@ _G.pg.base.gametip.skin_page_desc = {
 
 _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "Live2D状态已重置"
+}
+
+_G.pg.base.gametip.skin_exchange_usetip = {
+	tip = "购买的礼包内包含限时道具$1，前往仓库使用"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
+	tip = "您当前已拥有该自选券中所含的全部换装\n是否将<color=#92fc63>$1</color>转换为<color=#92fc63>$2</color>？"
 }

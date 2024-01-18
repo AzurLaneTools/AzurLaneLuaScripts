@@ -16931,6 +16931,91 @@ _G.pg.base.item_data_statistics[30103] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30111] = {
+	open_directly = 0,
+	name = "定向部件T1",
+	display = "使用后可从T1部件中任意选择一种获得1个",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30111,
+	icon = "Props/30111",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			17001,
+			1
+		},
+		{
+			2,
+			17011,
+			1
+		},
+		{
+			2,
+			17021,
+			1
+		},
+		{
+			2,
+			17031,
+			1
+		},
+		{
+			2,
+			17041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			17001,
+			1
+		},
+		{
+			2,
+			17011,
+			1
+		},
+		{
+			2,
+			17021,
+			1
+		},
+		{
+			2,
+			17031,
+			1
+		},
+		{
+			2,
+			17041,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30112] = {
 	open_directly = 0,
 	name = "定向部件T2",
@@ -33311,7 +33396,7 @@ _G.pg.base.item_data_statistics[40004] = {
 
 _G.pg.base.item_data_statistics[40005] = {
 	open_directly = 1,
-	name = "10级礼包",
+	name = "10级礼包（旧）",
 	display = "购买礼包可获得大量材料奖励",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33360,7 +33445,7 @@ _G.pg.base.item_data_statistics[40005] = {
 
 _G.pg.base.item_data_statistics[40006] = {
 	open_directly = 1,
-	name = "20级礼包",
+	name = "20级礼包（旧）",
 	display = "购买礼包可获得大量材料奖励",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33429,7 +33514,7 @@ _G.pg.base.item_data_statistics[40006] = {
 
 _G.pg.base.item_data_statistics[40007] = {
 	open_directly = 1,
-	name = "30级礼包",
+	name = "30级礼包（旧）",
 	display = "购买礼包可获得大量材料奖励",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33513,7 +33598,7 @@ _G.pg.base.item_data_statistics[40007] = {
 
 _G.pg.base.item_data_statistics[40008] = {
 	open_directly = 1,
-	name = "50级礼包",
+	name = "50级礼包（旧）",
 	display = "购买礼包可获得大量材料奖励",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33597,7 +33682,7 @@ _G.pg.base.item_data_statistics[40008] = {
 
 _G.pg.base.item_data_statistics[40009] = {
 	open_directly = 1,
-	name = "日常补给礼包",
+	name = "日常综合补给包",
 	display = "购买礼包可获得2个随机T3科技箱和若干材料",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33705,7 +33790,7 @@ _G.pg.base.item_data_statistics[40010] = {
 
 _G.pg.base.item_data_statistics[40011] = {
 	open_directly = 1,
-	name = "70级礼包",
+	name = "70级礼包（旧）",
 	display = "购买礼包可获得大量材料奖励",
 	type = 17,
 	other_resource_cost = "[]",
@@ -34971,6 +35056,902 @@ _G.pg.base.item_data_statistics[40029] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40030] = {
+	open_directly = 1,
+	name = "海上传奇支援组合包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40030,
+	icon = "ChargeIcon/haishangchuanqi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4032",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59550,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40031] = {
+	open_directly = 1,
+	name = "魔方支援礼包1",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40031,
+	icon = "ChargeIcon/mofangzhiyuan1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4033",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40032] = {
+	open_directly = 1,
+	name = "魔方支援礼包2",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40032,
+	icon = "ChargeIcon/mofangzhiyuan2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4034",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40033] = {
+	open_directly = 1,
+	name = "魔方支援礼包3",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40033,
+	icon = "ChargeIcon/mofangzhiyuan3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4035",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40034] = {
+	open_directly = 1,
+	name = "每月心智单元组合包",
+	display = "购买礼包可获得心智单元II*50和心智单元*1000",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40034,
+	icon = "ChargeIcon/zhouchang1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4036",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15012,
+			50
+		},
+		{
+			2,
+			15008,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40035] = {
+	open_directly = 1,
+	name = "10级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 800,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40035,
+	icon = "ChargeIcon/newboxLv10",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4037",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			2,
+			30111,
+			30
+		},
+		{
+			2,
+			16001,
+			5
+		},
+		{
+			2,
+			16011,
+			5
+		},
+		{
+			2,
+			16021,
+			5
+		},
+		{
+			2,
+			16501,
+			25
+		},
+		{
+			1,
+			2,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40036] = {
+	open_directly = 1,
+	name = "20级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 1600,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40036,
+	icon = "ChargeIcon/newboxLv20",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4038",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			2,
+			30112,
+			30
+		},
+		{
+			2,
+			30111,
+			70
+		},
+		{
+			2,
+			16002,
+			5
+		},
+		{
+			2,
+			16012,
+			5
+		},
+		{
+			2,
+			16022,
+			5
+		},
+		{
+			2,
+			16501,
+			50
+		},
+		{
+			1,
+			2,
+			1600
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40037] = {
+	open_directly = 1,
+	name = "30级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40037,
+	icon = "ChargeIcon/newboxLv30",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4039",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			30
+		},
+		{
+			2,
+			15003,
+			15
+		},
+		{
+			2,
+			42000,
+			30
+		},
+		{
+			2,
+			30112,
+			60
+		},
+		{
+			2,
+			16003,
+			2
+		},
+		{
+			2,
+			16013,
+			2
+		},
+		{
+			2,
+			16023,
+			2
+		},
+		{
+			2,
+			16501,
+			75
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40038] = {
+	open_directly = 1,
+	name = "40级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40038,
+	icon = "ChargeIcon/newboxLv40",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4040",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			2,
+			20013,
+			5
+		},
+		{
+			2,
+			30113,
+			80
+		},
+		{
+			2,
+			30112,
+			90
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			16501,
+			100
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40039] = {
+	open_directly = 1,
+	name = "50级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40039,
+	icon = "ChargeIcon/newboxLv50",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4041",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			50
+		},
+		{
+			2,
+			15003,
+			25
+		},
+		{
+			2,
+			42017,
+			10
+		},
+		{
+			2,
+			30113,
+			120
+		},
+		{
+			2,
+			30112,
+			120
+		},
+		{
+			2,
+			16003,
+			4
+		},
+		{
+			2,
+			16013,
+			4
+		},
+		{
+			2,
+			16023,
+			4
+		},
+		{
+			2,
+			16501,
+			125
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40040] = {
+	open_directly = 1,
+	name = "60级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40040,
+	icon = "ChargeIcon/newboxLv60",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4042",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			60
+		},
+		{
+			2,
+			15003,
+			30
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30113,
+			160
+		},
+		{
+			2,
+			16003,
+			5
+		},
+		{
+			2,
+			16013,
+			5
+		},
+		{
+			2,
+			16023,
+			5
+		},
+		{
+			2,
+			16501,
+			150
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40041] = {
+	open_directly = 1,
+	name = "70级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40041,
+	icon = "ChargeIcon/newboxLv70",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4043",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			70
+		},
+		{
+			2,
+			15003,
+			35
+		},
+		{
+			2,
+			42017,
+			20
+		},
+		{
+			2,
+			30113,
+			200
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16501,
+			175
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40042] = {
+	open_directly = 1,
+	name = "80级礼包",
+	display = "购买礼包可获得大量材料奖励",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40042,
+	icon = "ChargeIcon/newboxLv80",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4044",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			80
+		},
+		{
+			2,
+			15003,
+			40
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			30113,
+			240
+		},
+		{
+			2,
+			16004,
+			3
+		},
+		{
+			2,
+			16014,
+			3
+		},
+		{
+			2,
+			16024,
+			3
+		},
+		{
+			2,
+			16501,
+			200
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40043] = {
+	open_directly = 1,
+	name = "日常补给礼包",
+	display = "购买礼包可获得心智魔方*1和石油*1200",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40043,
+	icon = "ChargeIcon/richang",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4045",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			2,
+			1200
+		},
+		{
+			2,
+			20001,
+			1
 		}
 	},
 	price = {},
@@ -88777,7 +89758,7 @@ _G.pg.base.item_data_statistics[59490] = {
 _G.pg.base.item_data_statistics[59503] = {
 	open_directly = 0,
 	name = "促销换装兑换券",
-	display = "在「仓库」中使用，可以从指定列表中选择一件换装兑换\n（<color=#ff5c5c>促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！</color>）",
+	display = "在「仓库」中使用，可以从指定列表中选择一件换装兑换\n（<color=#ff5c5c>促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将可转化为换装抵扣券</color>）",
 	type = 26,
 	other_resource_cost = "[]",
 	display_effect = "",
@@ -89094,7 +90075,8 @@ _G.pg.base.item_data_statistics[59503] = {
 			303182,
 			107224
 		},
-		99999
+		99999,
+		59551
 	}
 }
 
@@ -89265,6 +90247,153 @@ _G.pg.base.item_data_statistics[59505] = {
 			20001,
 			30
 		}
+	}
+}
+
+_G.pg.base.item_data_statistics[59550] = {
+	open_directly = 0,
+	name = "换装自选券（{namecode:199}/{namecode:182}）",
+	display = "在「仓库」中使用，可以从指定列表中选择一件换装兑换\n（<color=#ff5c5c>换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将可转化为换装抵扣券</color>）",
+	type = 26,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = 1,
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 59550,
+	icon = "Props/skin_exchange_ur",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			105171,
+			1
+		},
+		{
+			7,
+			105172,
+			1
+		},
+		{
+			7,
+			307081,
+			1
+		},
+		{
+			7,
+			307082,
+			1
+		},
+		{
+			7,
+			307083,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			105171,
+			105172,
+			307081,
+			307082,
+			307083
+		},
+		0,
+		59552
+	}
+}
+
+_G.pg.base.item_data_statistics[59551] = {
+	open_directly = 0,
+	name = "换装抵扣券(780)",
+	display = "用于「换装商店」内购买「折扣券适用」换装时享有780钻石优惠",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_skin_discount",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 59551,
+	icon = "Props/skin_780",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			0
+		},
+		780
+	}
+}
+
+_G.pg.base.item_data_statistics[59552] = {
+	open_directly = 0,
+	name = "换装抵扣券(1080)",
+	display = "用于「换装商店」内购买「折扣券适用」换装时享有1080钻石优惠",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_skin_discount",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 59552,
+	icon = "Props/skin_1080",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			0
+		},
+		1080
 	}
 }
 

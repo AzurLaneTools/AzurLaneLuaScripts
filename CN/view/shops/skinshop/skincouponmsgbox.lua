@@ -32,8 +32,15 @@ end
 
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
-	slot0:UpdateContent(slot1)
+
+	slot0.settings = slot1
+
 	slot0:UpdateItem(slot1)
+	slot0:RegisterBtn(slot1)
+	slot0:UpdateContent(slot1)
+end
+
+function slot0.RegisterBtn(slot0, slot1)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.onYes then
 			uv0.onYes()
@@ -58,6 +65,8 @@ function slot0.UpdateItem(slot0, slot1)
 end
 
 function slot0.Hide(slot0)
+	slot0.settings = nil
+
 	uv0.super.Hide(slot0)
 	slot0:Destroy()
 end

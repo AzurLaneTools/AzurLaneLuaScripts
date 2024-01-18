@@ -22,6 +22,7 @@ function slot0.execute(slot0, slot1)
 
 	slot9 = getProxy(ChapterProxy)
 	slot10 = slot9:getChapterById(slot3)
+	slot10.loopFlag = slot6
 	slot11 = slot9:getMapById(slot10:getConfig("map"))
 	slot12 = slot9:GetContinuousData(SYSTEM_SCENARIO)
 

@@ -96,7 +96,11 @@ pg.map_event_list = {
 			855,
 			863
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			890,
+			891,
+			892
+		},
 		help_pictures = {
 			"helpbg/map15_help1",
 			"helpbg/map15_help2",
@@ -117,7 +121,11 @@ pg.map_event_list = {
 			858,
 			864
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			893,
+			894,
+			895
+		},
 		help_pictures = {
 			"helpbg/map15_help1",
 			"helpbg/map15_help2",
@@ -138,7 +146,10 @@ pg.map_event_list = {
 			865,
 			867
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			896,
+			897
+		},
 		help_pictures = {
 			"helpbg/map15_help1",
 			"helpbg/map15_help2",
@@ -159,7 +170,10 @@ pg.map_event_list = {
 			866,
 			868
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			898,
+			899
+		},
 		help_pictures = {
 			"helpbg/map15_help1",
 			"helpbg/map15_help2",
@@ -4415,6 +4429,256 @@ pg.map_event_list = {
 			"helpbg/battle_dexiv3_2"
 		}
 	},
+	[2100322] = {
+		help_open = 1,
+		chapter_id = 2100322,
+		event_list = {
+			381,
+			382
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100323] = {
+		help_open = 0,
+		chapter_id = 2100323,
+		event_list = {
+			383,
+			384,
+			385,
+			386
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100324] = {
+		help_open = 0,
+		chapter_id = 2100324,
+		event_list = {
+			387,
+			388,
+			389,
+			390,
+			391,
+			392
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100325] = {
+		help_open = 0,
+		chapter_id = 2100325,
+		event_list = {
+			393,
+			394,
+			395,
+			396
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100328] = {
+		help_open = 0,
+		chapter_id = 2100328,
+		event_list = {
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			405
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100332] = {
+		help_open = 1,
+		chapter_id = 2100332,
+		event_list = {
+			381,
+			382
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100333] = {
+		help_open = 0,
+		chapter_id = 2100333,
+		event_list = {
+			383,
+			384,
+			385,
+			386
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100334] = {
+		help_open = 0,
+		chapter_id = 2100334,
+		event_list = {
+			387,
+			388,
+			389,
+			390,
+			391,
+			392
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100335] = {
+		help_open = 0,
+		chapter_id = 2100335,
+		event_list = {
+			393,
+			394,
+			395,
+			396
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinnong_1"
+		}
+	},
+	[2100338] = {
+		help_open = 0,
+		chapter_id = 2100338,
+		event_list = {
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			405
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100341] = {
+		help_open = 1,
+		chapter_id = 2100341,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100342] = {
+		help_open = 0,
+		chapter_id = 2100342,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100343] = {
+		help_open = 0,
+		chapter_id = 2100343,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100344] = {
+		help_open = 0,
+		chapter_id = 2100344,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100345] = {
+		help_open = 0,
+		chapter_id = 2100345,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100346] = {
+		help_open = 0,
+		chapter_id = 2100346,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100351] = {
+		help_open = 1,
+		chapter_id = 2100351,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100352] = {
+		help_open = 0,
+		chapter_id = 2100352,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100353] = {
+		help_open = 0,
+		chapter_id = 2100353,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100354] = {
+		help_open = 0,
+		chapter_id = 2100354,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100355] = {
+		help_open = 0,
+		chapter_id = 2100355,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
+	[2100356] = {
+		help_open = 0,
+		chapter_id = 2100356,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_xinzexi"
+		}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -4777,6 +5041,28 @@ pg.map_event_list = {
 		2100314,
 		2100315,
 		2100316,
+		2100322,
+		2100323,
+		2100324,
+		2100325,
+		2100328,
+		2100332,
+		2100333,
+		2100334,
+		2100335,
+		2100338,
+		2100341,
+		2100342,
+		2100343,
+		2100344,
+		2100345,
+		2100346,
+		2100351,
+		2100352,
+		2100353,
+		2100354,
+		2100355,
+		2100356,
 		2200071,
 		2200072,
 		2200073,

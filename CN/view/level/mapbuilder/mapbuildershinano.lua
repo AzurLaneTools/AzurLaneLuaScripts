@@ -141,8 +141,6 @@ function slot1.UpdateButtons(slot0)
 end
 
 function slot1.PostUpdateMap(slot0, slot1)
-	slot4 = getProxy(ChapterProxy):getMapsByActivities()
-
 	setActive(slot0._tf:Find("rumeng"), false)
 	setActive(slot0._tf:Find("huigui"), false)
 
@@ -150,55 +148,51 @@ function slot1.PostUpdateMap(slot0, slot1)
 		setActive(slot0.sceneParent.btnPrev, false)
 		setActive(slot0.sceneParent.btnNext, false)
 
-		slot7 = _.detect(slot4, function (slot0)
-			return slot0.id == uv0.id + 1
-		end)
+		slot6 = getProxy(ChapterProxy):getMapById(slot1.id + 1)
 
-		setActive(slot5, slot7)
-		setActive(slot6, _.detect(slot4, function (slot0)
-			return slot0.id == uv0.id - 1
-		end))
+		setActive(slot4, slot6)
+		setActive(slot5, getProxy(ChapterProxy):getMapById(slot1.id - 1))
+		LeanTween.cancel(go(slot4), true)
 		LeanTween.cancel(go(slot5), true)
-		LeanTween.cancel(go(slot6), true)
 
-		if slot7 then
-			slot9 = tf(slot5).localScale
-			slot10 = tf(slot5)
-			slot10 = slot10:GetChild(0)
-			slot10 = slot10:Find("Quad")
-			slot10 = slot10:GetComponent(typeof(MeshRenderer)).sharedMaterial
-			slot12 = Clone(slot10:GetColor("_MainColor"))
-			slot13 = LeanTween.value(go(slot5), 0, 1, 0.8)
-			slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
+		if slot6 then
+			slot8 = tf(slot4).localScale
+			slot9 = tf(slot4)
+			slot9 = slot9:GetChild(0)
+			slot9 = slot9:Find("Quad")
+			slot9 = slot9:GetComponent(typeof(MeshRenderer)).sharedMaterial
+			slot11 = Clone(slot9:GetColor("_MainColor"))
+			slot12 = LeanTween.value(go(slot4), 0, 1, 0.8)
+			slot12 = slot12:setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
 			end))
-			slot13 = slot13:setEase(LeanTweenType.easeInCubic)
+			slot12 = slot12:setEase(LeanTweenType.easeInCubic)
 
-			slot0:RecordTween("rumengAlphaTween", slot13:setOnComplete(System.Action(function ()
+			slot0:RecordTween("rumengAlphaTween", slot12:setOnComplete(System.Action(function ()
 				uv0:SetColor("_MainColor", uv1)
 			end)).id)
 
 			return
 		end
 
-		if slot8 then
-			slot9 = tf(slot6).localScale
-			slot10 = tf(slot6)
-			slot10 = slot10:GetChild(0)
-			slot10 = slot10:Find("Quad")
-			slot10 = slot10:GetComponent(typeof(MeshRenderer)).sharedMaterial
-			slot12 = Clone(slot10:GetColor("_MainColor"))
-			slot13 = LeanTween.value(go(slot6), 0, 1, 0.8)
-			slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
+		if slot7 then
+			slot8 = tf(slot5).localScale
+			slot9 = tf(slot5)
+			slot9 = slot9:GetChild(0)
+			slot9 = slot9:Find("Quad")
+			slot9 = slot9:GetComponent(typeof(MeshRenderer)).sharedMaterial
+			slot11 = Clone(slot9:GetColor("_MainColor"))
+			slot12 = LeanTween.value(go(slot5), 0, 1, 0.8)
+			slot12 = slot12:setOnUpdate(System.Action_float(function (slot0)
 				uv0.a = uv1.a * slot0
 
 				uv2:SetColor("_MainColor", uv0)
 			end))
-			slot13 = slot13:setEase(LeanTweenType.easeInCubic)
+			slot12 = slot12:setEase(LeanTweenType.easeInCubic)
 
-			slot0:RecordTween("huiguiAlphaTween", slot13:setOnComplete(System.Action(function ()
+			slot0:RecordTween("huiguiAlphaTween", slot12:setOnComplete(System.Action(function ()
 				uv0:SetColor("_MainColor", uv1)
 			end)).id)
 		end

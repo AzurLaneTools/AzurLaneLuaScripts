@@ -791,9 +791,7 @@ function slot0.GetLimitOilCost(slot0, slot1, slot2)
 
 	slot3 = nil
 
-	return slot0:getConfig("use_oil_limit")[slot1 and 3 or underscore.any(slot0:getConfig("boss_expedition_id"), function (slot0)
-		return uv0 == slot0
-	end) and 2 or 1] or 9999
+	return slot0:getConfig("use_oil_limit")[slot1 and 3 or (pg.expedition_data_template[slot2].type == ChapterConst.ExpeditionTypeBoss or slot4.type == ChapterConst.ExpeditionTypeMulBoss) and 2 or 1] or 9999
 end
 
 function slot0.IsRemaster(slot0)

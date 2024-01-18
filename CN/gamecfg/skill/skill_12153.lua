@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "最适化武装",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 12153,
 	picture = "0",
-	castCV = "skill",
+	castCV = "",
 	desc = "",
 	aniEffect = {
 		effect = "jineng",
@@ -22,7 +22,7 @@ return {
 			target_choise = "TargetSelf",
 			targetAniEffect = "",
 			arg_list = {
-				buff_id = 12155
+				buff_id = 12157
 			}
 		}
 	}

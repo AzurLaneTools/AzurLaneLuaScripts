@@ -728,6 +728,14 @@ pg.task_data_trigger = {
 		id = 93,
 		task_id = 5951
 	},
+	[94] = {
+		group_id = 50102,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 94,
+		task_id = 5961
+	},
 	all = {
 		1,
 		2,
@@ -819,6 +827,7 @@ pg.task_data_trigger = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

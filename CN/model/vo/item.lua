@@ -157,20 +157,26 @@ function slot0.InTimeLimitSkinAssigned(slot0)
 	return getProxy(ActivityProxy):IsActivityNotEnd(slot1.usage_arg[1])
 end
 
+function slot0.GetValidSkinList(slot0)
+	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
+
+	slot1 = slot0:getConfig("usage_arg")
+
+	if Item.InTimeLimitSkinAssigned(slot0.id) then
+		return table.mergeArray(slot1[2], slot1[3], true)
+	else
+		return underscore.rest(slot1[3], 1)
+	end
+end
+
 function slot0.IsAllSkinOwner(slot0)
 	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
 
-	slot2 = slot0:getConfig("usage_arg")[3]
+	slot1 = getProxy(ShipSkinProxy)
 
-	if Item.InTimeLimitSkinAssigned(slot0.id) then
-		slot2 = table.mergeArray(slot1[2], slot2, true)
-	end
-
-	slot3 = getProxy(ShipSkinProxy)
-
-	return underscore.all(slot2, function (slot0)
+	return underscore.all(slot0:GetValidSkinList(), function (slot0)
 		return uv0:hasNonLimitSkin(slot0)
-	end), slot2
+	end)
 end
 
 function slot0.GetOverflowCheckItems(slot0, slot1)
@@ -213,6 +219,36 @@ function slot0.GetOverflowCheckItems(slot0, slot1)
 	})
 
 	return slot2
+end
+
+function slot0.IsSkinShopDiscountType(slot0)
+	return slot0:getConfig("usage") == ItemUsage.SKIN_SHOP_DISCOUNT
+end
+
+function slot0.CanUseForShop(slot0, slot1)
+	if slot0:IsSkinShopDiscountType() then
+		if not slot0:getConfig("usage_arg") or type(slot2) ~= "table" then
+			return false
+		end
+
+		slot3 = slot2[1] or {}
+
+		return #slot3 == 1 and slot3[1] == 0 or table.contains(slot3, slot1)
+	end
+
+	return false
+end
+
+function slot0.GetConsumeForSkinShopDiscount(slot0, slot1)
+	if slot0:IsSkinShopDiscountType() then
+		slot4 = Goods.Create({
+			shop_id = slot1
+		}, Goods.TYPE_SKIN)
+
+		return math.max(0, slot4:GetPrice() - (pg.item_data_statistics[slot0.configId].usage_arg[2] or 0)), slot4:getConfig("resource_type")
+	else
+		return 0
+	end
 end
 
 return slot0

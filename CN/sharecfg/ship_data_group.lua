@@ -4046,12 +4046,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -4085,6 +4094,16 @@ pg.base.ship_data_group = {
 				"限时活动：镜位螺旋",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -4121,12 +4140,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -4437,12 +4465,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -5141,6 +5178,17 @@ pg.base.ship_data_group = {
 				"限时活动：镜位螺旋",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5876,12 +5924,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -6523,6 +6580,17 @@ pg.base.ship_data_group = {
 				"限时活动：镜位螺旋",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -7522,6 +7590,39 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常驻UR兑换",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8435,6 +8536,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8953,6 +9065,17 @@ pg.base.ship_data_group = {
 				"限时活动：镜位螺旋",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -11199,12 +11322,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -11400,12 +11532,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -12857,17 +12998,6 @@ pg.base.ship_data_group = {
 				"限时活动：铁血、音符&誓言",
 				{
 					""
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			},
@@ -16008,12 +16138,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -16132,6 +16271,17 @@ pg.base.ship_data_group = {
 				"限时活动：蝶海梦花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16403,12 +16553,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -17025,6 +17184,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17440,12 +17609,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行重型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -17931,12 +18109,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行重型舰建造",
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -18324,12 +18511,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行重型舰建造",
+				"军需商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -18367,12 +18553,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行重型舰建造",
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -18406,6 +18601,17 @@ pg.base.ship_data_group = {
 				"限时活动：蝶海梦花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -18791,6 +18997,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -18821,6 +19038,17 @@ pg.base.ship_data_group = {
 				"限时活动：蝶海梦花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -19277,6 +19505,39 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常驻UR兑换",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -19630,6 +19891,17 @@ pg.base.ship_data_group = {
 				"限时活动：蝶海梦花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21387,12 +21659,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行重型舰建造",
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -21893,12 +22174,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行特型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -21972,12 +22262,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行特型舰建造",
+				"勋章商店兑换（概率刷新）",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -22162,12 +22461,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行特型舰建造",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
