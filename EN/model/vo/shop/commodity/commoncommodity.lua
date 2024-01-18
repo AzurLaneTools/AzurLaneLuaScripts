@@ -102,6 +102,32 @@ function slot0.IsItemDiscountType(slot0)
 	return slot0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticCanUsageSkinCoupon(slot0.id)
 end
 
+function slot0.CanUseVoucherType(slot0)
+	if #getProxy(BagProxy):GetSkinShopDiscountItemList() <= 0 then
+		return false
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6:CanUseForShop(slot0.id) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.GetVoucherIdList(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in pairs(getProxy(BagProxy):GetSkinShopDiscountItemList()) do
+		if slot7:CanUseForShop(slot0.id) then
+			table.insert(slot1, slot7.id)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.getLimitCount(slot0)
 	slot1 = slot0:getConfig("limit_args") or {}
 
@@ -220,6 +246,8 @@ function slot0.GetLimitDesc(slot0)
 			return i18n("charge_limit_daily", slot3 - slot0.groupCount, slot3)
 		elseif slot4 == 2 then
 			return i18n("charge_limit_weekly", slot3 - slot0.groupCount, slot3)
+		elseif slot4 == 3 then
+			return i18n("charge_limit_monthly", slot3 - slot0.groupCount, slot3)
 		end
 	end
 

@@ -129,7 +129,7 @@ function slot0.OnInit(slot0)
 	slot0:RegisterEvent()
 
 	slot0.sortData = slot0.contextData.sortData or {
-		asc = true,
+		asc = false,
 		sortData = "Level",
 		nationData = {},
 		rarityData = {}

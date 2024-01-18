@@ -16544,6 +16544,91 @@ _G.pg.base.item_data_statistics[30103] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30111] = {
+	open_directly = 0,
+	name = "Universal T1 Part",
+	display = "Can be used to obtain a T1 Part of your choosing.",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30111,
+	icon = "Props/30111",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			17001,
+			1
+		},
+		{
+			2,
+			17011,
+			1
+		},
+		{
+			2,
+			17021,
+			1
+		},
+		{
+			2,
+			17031,
+			1
+		},
+		{
+			2,
+			17041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			17001,
+			1
+		},
+		{
+			2,
+			17011,
+			1
+		},
+		{
+			2,
+			17021,
+			1
+		},
+		{
+			2,
+			17031,
+			1
+		},
+		{
+			2,
+			17041,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30112] = {
 	open_directly = 0,
 	name = "Universal T2 Part",
@@ -32615,7 +32700,7 @@ _G.pg.base.item_data_statistics[40004] = {
 
 _G.pg.base.item_data_statistics[40005] = {
 	open_directly = 1,
-	name = "Lv. 10 Pack",
+	name = "Lv. 10 Pack (Old)",
 	display = "Contains loads of valuable rewards.",
 	type = 17,
 	other_resource_cost = "[]",
@@ -32674,7 +32759,7 @@ _G.pg.base.item_data_statistics[40005] = {
 
 _G.pg.base.item_data_statistics[40006] = {
 	open_directly = 1,
-	name = "Lv. 20 Pack",
+	name = "Lv. 20 Pack (Old)",
 	display = "Contains loads of valuable rewards.",
 	type = 17,
 	other_resource_cost = "[]",
@@ -32733,7 +32818,7 @@ _G.pg.base.item_data_statistics[40006] = {
 
 _G.pg.base.item_data_statistics[40007] = {
 	open_directly = 1,
-	name = "Lv. 30 Pack",
+	name = "Lv. 30 Pack (Old)",
 	display = "Contains loads of valuable rewards.",
 	type = 17,
 	other_resource_cost = "[]",
@@ -32807,7 +32892,7 @@ _G.pg.base.item_data_statistics[40007] = {
 
 _G.pg.base.item_data_statistics[40008] = {
 	open_directly = 1,
-	name = "Lv. 50 Pack",
+	name = "Lv. 50 Pack (Old)",
 	display = "Contains loads of valuable rewards.",
 	type = 17,
 	other_resource_cost = "[]",
@@ -33925,6 +34010,912 @@ _G.pg.base.item_data_statistics[40028] = {
 			2,
 			42020,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40029] = {
+	open_directly = 1,
+	name = "Premium Winter Gift Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40029,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40031] = {
+	open_directly = 1,
+	name = "Wisdom Cube Supply Pack I",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40031,
+	icon = "ChargeIcon/mofangzhiyuan1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4033",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40032] = {
+	open_directly = 1,
+	name = "Wisdom Cube Supply Pack II",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40032,
+	icon = "ChargeIcon/mofangzhiyuan2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4034",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40033] = {
+	open_directly = 1,
+	name = "Wisdom Cube Supply Pack III",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40033,
+	icon = "ChargeIcon/mofangzhiyuan3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4035",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40034] = {
+	open_directly = 1,
+	name = "Monthly Cognitive Pack",
+	display = "Gives 50 Cognitive Arrays and 1,000 Cognitive Chips when purchased.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40034,
+	icon = "ChargeIcon/zhouchang1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4036",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15012,
+			50
+		},
+		{
+			2,
+			15008,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40035] = {
+	open_directly = 1,
+	name = "Lv. 10 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 800,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40035,
+	icon = "ChargeIcon/newboxLv10",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4037",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			2,
+			30111,
+			30
+		},
+		{
+			2,
+			16001,
+			5
+		},
+		{
+			2,
+			16011,
+			5
+		},
+		{
+			2,
+			16021,
+			5
+		},
+		{
+			2,
+			16501,
+			25
+		},
+		{
+			1,
+			2,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40036] = {
+	open_directly = 1,
+	name = "Lv. 20 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 1600,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40036,
+	icon = "ChargeIcon/newboxLv20",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4038",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			2,
+			30112,
+			30
+		},
+		{
+			2,
+			30111,
+			70
+		},
+		{
+			2,
+			16002,
+			5
+		},
+		{
+			2,
+			16012,
+			5
+		},
+		{
+			2,
+			16022,
+			5
+		},
+		{
+			2,
+			16501,
+			50
+		},
+		{
+			1,
+			2,
+			1600
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40037] = {
+	open_directly = 1,
+	name = "Lv. 30 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40037,
+	icon = "ChargeIcon/newboxLv30",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4039",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			30
+		},
+		{
+			2,
+			15003,
+			15
+		},
+		{
+			2,
+			42000,
+			30
+		},
+		{
+			2,
+			30112,
+			60
+		},
+		{
+			2,
+			16003,
+			2
+		},
+		{
+			2,
+			16013,
+			2
+		},
+		{
+			2,
+			16023,
+			2
+		},
+		{
+			2,
+			16501,
+			75
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40038] = {
+	open_directly = 1,
+	name = "Lv. 40 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40038,
+	icon = "ChargeIcon/newboxLv40",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4040",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			2,
+			20013,
+			5
+		},
+		{
+			2,
+			30113,
+			80
+		},
+		{
+			2,
+			30112,
+			90
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			16501,
+			100
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40039] = {
+	open_directly = 1,
+	name = "Lv. 50 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40039,
+	icon = "ChargeIcon/newboxLv50",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4041",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			50
+		},
+		{
+			2,
+			15003,
+			25
+		},
+		{
+			2,
+			42017,
+			10
+		},
+		{
+			2,
+			30113,
+			120
+		},
+		{
+			2,
+			30112,
+			120
+		},
+		{
+			2,
+			16003,
+			4
+		},
+		{
+			2,
+			16013,
+			4
+		},
+		{
+			2,
+			16023,
+			4
+		},
+		{
+			2,
+			16501,
+			125
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40040] = {
+	open_directly = 1,
+	name = "Lv. 60 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40040,
+	icon = "ChargeIcon/newboxLv60",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4042",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			60
+		},
+		{
+			2,
+			15003,
+			30
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30113,
+			160
+		},
+		{
+			2,
+			16003,
+			5
+		},
+		{
+			2,
+			16013,
+			5
+		},
+		{
+			2,
+			16023,
+			5
+		},
+		{
+			2,
+			16501,
+			150
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40041] = {
+	open_directly = 1,
+	name = "Lv. 70 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40041,
+	icon = "ChargeIcon/newboxLv70",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4043",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			70
+		},
+		{
+			2,
+			15003,
+			35
+		},
+		{
+			2,
+			42017,
+			20
+		},
+		{
+			2,
+			30113,
+			200
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16501,
+			175
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40042] = {
+	open_directly = 1,
+	name = "Lv. 80 Pack",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40042,
+	icon = "ChargeIcon/newboxLv80",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4044",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			80
+		},
+		{
+			2,
+			15003,
+			40
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			30113,
+			240
+		},
+		{
+			2,
+			16004,
+			3
+		},
+		{
+			2,
+			16014,
+			3
+		},
+		{
+			2,
+			16024,
+			3
+		},
+		{
+			2,
+			16501,
+			200
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40043] = {
+	open_directly = 1,
+	name = "Daily Sortie Refuel Pack",
+	display = "Contains 1 Wisdom Cube and 1,200 Oil.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40043,
+	icon = "ChargeIcon/richang",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "4045",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			2,
+			1200
+		},
+		{
+			2,
+			20001,
+			1
 		}
 	},
 	price = {},
@@ -79925,7 +80916,7 @@ _G.pg.base.item_data_statistics[59490] = {
 _G.pg.base.item_data_statistics[59503] = {
 	open_directly = 0,
 	name = "Static Skin Voucher",
-	display = "During the Black Friday event (11/16-11/30), this voucher can be used to redeem 1 eligible static skin (tap Info to check out the full list). After 11/30 23:59:59, this voucher can still be used to redeem 1 eligible permanent static skin added before 11/16.",
+	display = "During the Black Friday event (11/16-11/30), this voucher can be used to redeem 1 eligible static skin (tap Info to check out the full list).\nIf you already own all available skins, you will instead receive an Outfit Coupon.\nAfter 11/30 23:59:59, this voucher can still be used to redeem 1 eligible permanent static skin added before 11/16.",
 	type = 26,
 	other_resource_cost = "[]",
 	display_effect = "",
@@ -80242,7 +81233,8 @@ _G.pg.base.item_data_statistics[59503] = {
 			303182,
 			107224
 		},
-		99999
+		99999,
+		59551
 	}
 }
 
@@ -80413,6 +81405,44 @@ _G.pg.base.item_data_statistics[59505] = {
 			20001,
 			30
 		}
+	}
+}
+
+_G.pg.base.item_data_statistics[59551] = {
+	open_directly = 0,
+	name = "Outfit Coupon (780)",
+	display = "Gives a 780 Gem discount when purchasing a skin. Removed after use.",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_skin_discount",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 59551,
+	icon = "Props/skin_780",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			0
+		},
+		780
 	}
 }
 

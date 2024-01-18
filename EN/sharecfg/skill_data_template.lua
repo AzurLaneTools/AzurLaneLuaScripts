@@ -2087,6 +2087,7 @@ pg.skill_data_template = setmetatable({
 		1017210,
 		1012620,
 		1011940,
+		1012160,
 		1090010,
 		1090020,
 		1090030,
@@ -2108,7 +2109,8 @@ pg.skill_data_template = setmetatable({
 		1090190,
 		1090200,
 		1090210,
-		1090220
+		1090220,
+		1090230
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -134230,6 +134232,112 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	},
+	[1012160] = {
+		desc_get = "",
+		name = "The Glory of the Never-Setting Sun+",
+		id = 1012160,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt to Sakura Empire, Iron Blood, Sardegna Empire, and Siren ships by $1. If there is another Royal Navy ship in your fleet: increases this ship's FP, RLD, EVA, and AA by $2; if there is no other Royal Navy ship, this ship's \"Armament Optimization\" skill does not need her to equip the Quadruple 356mm Main Gun for the effect to work.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"4.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+1.6%"
+				},
+				{
+					"5.6%",
+					"+1.6%"
+				},
+				{
+					"7.2%",
+					"+1.6%"
+				},
+				{
+					"8.8%",
+					"+1.6%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+2.0%"
+				},
+				{
+					"16.0%",
+					"+2.0%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -136800,6 +136908,193 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090230] = {
+		desc_get = "",
+		name = "Piercing Shells - Z18",
+		id = 1090230,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG with AP ammo by $1 and increases her Main Gun efficiency by $2. Every 20s: increases this ship's FP by $3 for 10s and fires a $4 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
 				}
 			},
 			{

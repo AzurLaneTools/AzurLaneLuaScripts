@@ -2838,6 +2838,7 @@ pg.skill_data_display = setmetatable({
 		1011940,
 		1011941,
 		1011942,
+		1012160,
 		1090020,
 		1090042,
 		1090043,
@@ -2862,7 +2863,9 @@ pg.skill_data_display = setmetatable({
 		1090210,
 		1090211,
 		1090220,
-		1090221
+		1090221,
+		1090230,
+		1090231
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14211,6 +14214,10 @@ pg.base.skill_data_display = {
 		id = 1011942,
 		name = "Observer of the Sky and Sea+"
 	},
+	[1012160] = {
+		id = 1012160,
+		name = "The Glory of the Never-Setting Sun+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -14310,5 +14317,13 @@ pg.base.skill_data_display = {
 	[1090221] = {
 		id = 1090221,
 		name = "Reload Command - Königsberg"
+	},
+	[1090230] = {
+		id = 1090230,
+		name = "Piercing Shells - Z18"
+	},
+	[1090231] = {
+		id = 1090231,
+		name = "Piercing Shells - Z18"
 	}
 }

@@ -277,6 +277,8 @@ function slot0.GetLimitDesc(slot0)
 			return i18n("charge_limit_daily", slot3 - slot0.groupCount, slot3)
 		elseif slot4 == 2 then
 			return i18n("charge_limit_weekly", slot3 - slot0.groupCount, slot3)
+		elseif slot4 == 3 then
+			return i18n("charge_limit_monthly", slot3 - slot0.groupCount, slot3)
 		end
 	end
 

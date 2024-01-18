@@ -269,7 +269,7 @@ return {
 			}
 		}
 	},
-	time = 10,
+	time = 0,
 	name = "最适化武装",
 	init_effect = "jinengchufared",
 	picture = "",

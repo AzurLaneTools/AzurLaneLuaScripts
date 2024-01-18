@@ -24,15 +24,15 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, uv0)
 
-			if uv1 then
-				slot1 = getProxy(ActivityProxy)
-				slot2 = slot1:getBuildFreeActivityByBuildId(uv2)
-				slot2.data1 = slot2.data1 - uv0
+			slot1 = pg.ship_data_create_material[uv1]
 
-				slot1:updateActivity(slot2)
+			if uv2 then
+				slot2 = getProxy(ActivityProxy)
+				slot3 = slot2:getBuildFreeActivityByBuildId(uv1)
+				slot3.data1 = slot3.data1 - uv0
+
+				slot2:updateActivity(slot3)
 			else
-				slot1 = pg.ship_data_create_material[uv2]
-
 				getProxy(BagProxy):removeItemById(slot1.use_item, slot1.number_1 * uv0)
 
 				slot3 = getProxy(PlayerProxy)
@@ -44,10 +44,14 @@ function slot0.execute(slot0, slot1)
 				slot3:updatePlayer(slot4)
 			end
 
-			slot1 = getProxy(BuildShipProxy)
+			slot2 = getProxy(BuildShipProxy)
 
-			for slot5, slot6 in ipairs(slot0.build_info) do
-				slot1:addBuildShip(BuildShip.New(slot6))
+			if slot1.exchange_count > 0 then
+				slot2:changeRegularExchangeCount(uv0 * slot1.exchange_count)
+			end
+
+			for slot6, slot7 in ipairs(slot0.build_info) do
+				slot2:addBuildShip(BuildShip.New(slot7))
 			end
 
 			uv3:sendNotification(GAME.BUILD_SHIP_DONE)

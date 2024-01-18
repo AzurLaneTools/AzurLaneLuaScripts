@@ -115,6 +115,11 @@ pg.pay_data_display = setmetatable({
 		2017,
 		2018,
 		2019,
+		2020,
+		2022,
+		2023,
+		2024,
+		2025,
 		139,
 		140,
 		141,
@@ -10767,6 +10772,391 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2020] = {
+		subject = "Premium Winter Gift Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 1,
+		name = "Premium Winter Gift Pack",
+		name_display = "Premium Winter Gift Pack",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2020,
+		money = 3699,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.winterpack1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
+		airijp_id = "com.yostaren.azurlane.winterpack1",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40029,
+				1
+			}
+		}
+	},
+	[2022] = {
+		subject = "Wisdom Cube Supply Pack I",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 2,
+		name = "Wisdom Cube Supply Pack I",
+		name_display = "Wisdom Cube Supply Pack I",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2022,
+		money = 199,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.cubepack1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains 10 Wisdom Cubes.",
+		airijp_id = "com.yostaren.azurlane.cubepack1",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40031,
+				1
+			}
+		}
+	},
+	[2023] = {
+		subject = "Wisdom Cube Supply Pack II",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 2,
+		name = "Wisdom Cube Supply Pack II",
+		name_display = "Wisdom Cube Supply Pack II",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2023,
+		money = 499,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.cubepack2",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains 20 Wisdom Cubes.",
+		airijp_id = "com.yostaren.azurlane.cubepack2",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40032,
+				1
+			}
+		}
+	},
+	[2024] = {
+		subject = "Wisdom Cube Supply Pack III",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 2,
+		name = "Wisdom Cube Supply Pack III",
+		name_display = "Wisdom Cube Supply Pack III",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2024,
+		money = 799,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.cubepack3",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains 30 Wisdom Cubes.",
+		airijp_id = "com.yostaren.azurlane.cubepack3",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40033,
+				1
+			}
+		}
+	},
+	[2025] = {
+		subject = "Daily Sortie Refuel Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 1,
+		name = "Daily Sortie Refuel Pack",
+		name_display = "Daily Sortie Refuel Pack",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2025,
+		money = 99,
+		tag = 2,
+		gem = 0,
+		limit_type = 4,
+		time = "always",
+		picture = "richang",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.dailybag1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains 1 Wisdom Cube and 1200 Oil.",
+		airijp_id = "com.yostaren.azurlane.dailybag1",
+		extra_service_item = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40043,
 				1
 			}
 		}

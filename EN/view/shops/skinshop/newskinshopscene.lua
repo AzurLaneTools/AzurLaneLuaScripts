@@ -127,6 +127,7 @@ function slot0.OnShopping(slot0, slot1)
 		end
 
 		slot0:UpdateCouponBtn()
+		slot0:UpdateVoucherBtn()
 		slot0:UpdateCommodities(slot2, false)
 
 		slot0.commodities = slot2
@@ -148,8 +149,10 @@ function slot0.init(slot0)
 
 	setText(slot0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
 
-	slot0.couponTr = slot0:findTF("overlay/blur_panel/adapt/top/coupon")
+	slot0.couponTr = slot0:findTF("overlay/blur_panel/adapt/top/discount/coupon")
 	slot0.couponSelTr = slot0.couponTr:Find("selected")
+	slot0.voucherTr = slot0:findTF("overlay/blur_panel/adapt/top/discount/voucher")
+	slot0.voucherSelTr = slot0.voucherTr:Find("selected")
 	slot0.rollingCircleRect = RollingCircleRect.New(slot0:findTF("overlay/left/mask/content/0"), slot0:findTF("overlay/left"))
 
 	slot0.rollingCircleRect:SetCallback(slot0, uv0.OnSelectSkinPage, uv0.OnConfirmSkinPage)
@@ -232,17 +235,36 @@ function slot0.didEnter(slot0)
 		setActive(uv0.couponSelTr, uv0.isFilterCoupon)
 		uv0:OnFilter(uv0.defaultIndex)
 	end, SFX_PANEL)
+
+	slot0.isFilterVoucher = false
+
+	onButton(slot0, slot0.voucherTr, function ()
+		uv0.isFilterVoucher = not uv0.isFilterVoucher
+
+		setActive(uv0.voucherSelTr, uv0.isFilterVoucher)
+		uv0:OnFilter(uv0.defaultIndex)
+	end, SFX_PANEL)
 	slot0:SetUp()
 end
 
 function slot0.UpdateCouponBtn(slot0)
-	slot1 = SkinCouponActivity.StaticExistActivityAndCoupon()
+	slot1 = SkinCouponActivity.StaticExistActivityAndCoupon() and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
 
 	if slot0.isFilterCoupon and not slot1 then
 		slot0.isFilterCoupon = false
 	end
 
 	slot0.couponTr.localScale = slot1 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
+end
+
+function slot0.UpdateVoucherBtn(slot0)
+	slot2 = #getProxy(BagProxy):GetSkinShopDiscountItemList() > 0 and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
+
+	if slot0.isFilterVoucher and not slot2 then
+		slot0.isFilterVoucher = false
+	end
+
+	slot0.voucherTr.localScale = slot2 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
 function slot0.OnSelectSkinPage(slot0, slot1)
@@ -297,6 +319,7 @@ function slot0.SetUp(slot0)
 
 	slot0:UpdateTitle(slot1)
 	slot0:UpdateCouponBtn()
+	slot0:UpdateVoucherBtn()
 	setActive(slot0.rollingCircleMaskTr, slot1 == uv0.MODE_OVERVIEW)
 
 	if slot1 == uv0.MODE_EXPERIENCE then
@@ -494,16 +517,29 @@ function slot0.IsCouponType(slot0, slot1, slot2)
 	return true
 end
 
+function slot0.IsVoucherType(slot0, slot1, slot2)
+	if slot1 and not slot2 then
+		return false
+	end
+
+	return true
+end
+
 function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 	slot0:ClearCards()
 
 	slot0.cards = {}
 	slot0.displays = {}
+	slot0.canUseVoucherCache = {}
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) and slot0:IsCouponType(slot0.isFilterCoupon, slot8) then
+		slot9 = slot8:CanUseVoucherType()
+
+		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) and slot0:IsCouponType(slot0.isFilterCoupon, slot8) and slot0:IsVoucherType(slot0.isFilterVoucher, slot9) then
 			table.insert(slot0.displays, slot8)
 		end
+
+		slot0.canUseVoucherCache[slot8.id] = slot9
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)

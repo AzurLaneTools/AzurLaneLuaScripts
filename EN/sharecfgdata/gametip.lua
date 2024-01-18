@@ -5700,6 +5700,10 @@ _G.pg.base.gametip.charge_limit_weekly = {
 	tip = "Available this week: $1"
 }
 
+_G.pg.base.gametip.charge_limit_monthly = {
+	tip = "Available this month: $1"
+}
+
 _G.pg.base.gametip.charge_error = {
 	tip = "Purchase failed."
 }
@@ -10263,15 +10267,57 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Prinz Heinrich added to standard build pool!"
+	tip = "New Jersey, Shinano, Kii and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Nürnberg added to the standard build pool!"
+	tip = "Suzutsuki, Boise added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Peter Strasser, U-37 and Weser added to standard build pool!"
+	tip = "New Jersey, Shinano, Ticonderoga and others added to standard build pool!"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_help = {
+	tip = {
+		{
+			info = "- UR Exchange Overview -"
+		},
+		{
+			info = "· Every time you build in any of the standard Light, Heavy, Special, or Event pools without an obtainable UR shipgirl, you gain UR Exchange points at a rate of 1 point per Wisdom Cube used (up to a total of 400.)\n· When you use Build Tickets, the amount of points you get is equal to the number of Wisdom Cubes that that build would have cost.\n"
+		},
+		{
+			info = "· 400 UR Exchange points can be traded for any one of the permanently available UR shipgirls."
+		}
+	}
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+	tip = "UR Exchange"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
+	tip = "Total"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
+	tip = "View Choice"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text4 = {
+	tip = "Exchange"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
+	tip = "Insufficient points for exchange."
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
+	tip = "You've hit the points cap. You won't be able to gain any more points until you exchange for a UR. Build anyway?"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_confirm = {
+	tip = "Exchange 400 points for $1?"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -26546,7 +26592,7 @@ _G.pg.base.gametip.skin_exchange_title = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_select_skinall = {
-	tip = "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you own all the eligible skins, this voucher cannot be used."
+	tip = "The Static Skin Voucher can only be used to redeem one of the eligible skins. If you already own all available skins, you will instead receive an Outfit Coupon."
 }
 
 _G.pg.base.gametip.skin_discount_desc = {
@@ -27029,4 +27075,12 @@ _G.pg.base.gametip.skin_page_desc = {
 
 _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "L2D Settings have been reset."
+}
+
+_G.pg.base.gametip.skin_exchange_usetip = {
+	tip = "$1 was sent to your Depot. It can be used from there."
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
+	tip = "You already own every exchangeable skin.\nConvert <color=#92fc63>$1*1</color> to <color=#92fc63>$2*1</color>?"
 }

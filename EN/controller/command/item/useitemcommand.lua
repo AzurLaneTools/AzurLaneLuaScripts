@@ -21,10 +21,21 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if (slot8 == ItemUsage.GUILD_DONATE or slot8 == ItemUsage.GUILD_OPERATION) and not getProxy(GuildProxy):getRawData() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("not_exist_guild_use_item"))
+	if slot8 == ItemUsage.GUILD_DONATE or slot8 == ItemUsage.GUILD_OPERATION then
+		if not getProxy(GuildProxy):getRawData() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("not_exist_guild_use_item"))
 
-		return
+			return
+		end
+	elseif slot8 == ItemUsage.SKIN_SHOP_DISCOUNT then
+		slot11, slot12 = slot7:GetConsumeForSkinShopDiscount(slot5[1])
+		slot13 = getProxy(PlayerProxy):getRawData():getResource(slot12)
+
+		if slot11 > 0 and slot13 < slot11 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+			return
+		end
 	end
 
 	slot11 = pg.ConnectionMgr.GetInstance()
@@ -46,6 +57,22 @@ function slot0.execute(slot0, slot1)
 				})
 			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+			elseif uv3 == ItemUsage.SKIN_SHOP_DISCOUNT then
+				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+				slot2, slot3 = uv5:GetConsumeForSkinShopDiscount(uv6[1])
+
+				if slot2 > 0 then
+					slot4 = getProxy(PlayerProxy):getData()
+
+					slot4:consume({
+						[id2res(slot3)] = slot2
+					})
+					getProxy(PlayerProxy):updatePlayer(slot4)
+				end
+
+				uv4:sendNotification(GAME.SKIN_SHOPPIGN_DONE, {
+					id = uv6[1]
+				})
 			elseif uv3 == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
 			elseif uv3 == ItemUsage.GUILD_DONATE then
@@ -70,14 +97,14 @@ function slot0.execute(slot0, slot1)
 				end)
 			end
 
-			if uv5 then
-				uv5(slot1)
+			if uv7 then
+				uv7(slot1)
 			end
 
 			uv4:sendNotification(GAME.USE_ITEM_DONE, slot1)
 		else
-			if uv5 then
-				uv5({})
+			if uv7 then
+				uv7({})
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

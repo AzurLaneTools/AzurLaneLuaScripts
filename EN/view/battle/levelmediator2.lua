@@ -1406,8 +1406,22 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 end
 
 function slot0.DisplayContinuousWindow(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot1:getConfig("boss_refresh")
-	slot7 = slot1:getConfig("use_oil_limit")
+	slot5 = slot1:getConfig("oil")
+	slot7 = 0
+	slot8 = 0
+
+	if slot1:getPlayType() == ChapterConst.TypeMultiStageBoss then
+		slot9 = pg.chapter_model_multistageboss[slot1.id]
+		slot7 = _.reduce(slot9.boss_refresh, 0, function (slot0, slot1)
+			return slot0 + slot1
+		end)
+		slot8 = #slot9.boss_refresh
+	else
+		slot8 = 1
+		slot7 = slot1:getConfig("boss_refresh")
+	end
+
+	slot9 = slot1:getConfig("use_oil_limit")
 
 	table.Foreach(slot2, function (slot0, slot1)
 		if uv0[slot0] == ChapterFleet.DUTY_IDLE then
@@ -1420,28 +1434,32 @@ function slot0.DisplayContinuousWindow(slot0, slot1, slot2, slot3, slot4)
 			slot5 = slot3
 
 			if (uv1[1] or 0) > 0 then
-				slot5 = math.min(slot3, slot4)
+				slot5 = math.min(slot5, slot4)
 			end
 
 			slot7 = slot3
 
 			if (uv1[2] or 0) > 0 then
-				slot7 = math.min(slot3, slot6)
+				slot7 = math.min(slot7, slot6)
 			end
 
-			uv2 = uv2 + uv3 * slot5 + slot7
+			uv2 = uv2 + slot5 * uv3 + slot7 * uv4
 		elseif slot2 == ChapterFleet.DUTY_CLEANPATH then
+			slot5 = slot3
+
 			if (uv1[1] or 0) > 0 then
-				slot3 = math.min(slot3, slot4)
+				slot5 = math.min(slot5, slot4)
 			end
 
-			uv2 = uv2 + uv3 * slot3
+			uv2 = uv2 + slot5 * uv3
 		elseif slot2 == ChapterFleet.DUTY_KILLBOSS then
+			slot5 = slot3
+
 			if (uv1[2] or 0) > 0 then
-				slot3 = math.min(slot3, slot4)
+				slot5 = math.min(slot5, slot4)
 			end
 
-			uv2 = uv2 + slot3
+			uv2 = uv2 + slot5 * uv4
 		end
 	end)
 	slot0:addSubLayers(Context.New({
@@ -1449,13 +1467,13 @@ function slot0.DisplayContinuousWindow(slot0, slot1, slot2, slot3, slot4)
 		viewComponent = LevelContinuousOperationWindow,
 		data = {
 			maxCount = slot1:GetMaxBattleCount(),
-			oilCost = slot1:getConfig("oil"),
+			oilCost = slot5,
 			chapter = slot1,
 			extraRate = {
 				rate = 2,
 				enabled = slot3 and slot3 > 0,
-				extraCount = slot1:GetSpItems()[1] and slot10[1].count or 0,
-				spItemId = slot10[1] and slot10[1].id or 0,
+				extraCount = slot1:GetSpItems()[1] and slot12[1].count or 0,
+				spItemId = slot12[1] and slot12[1].id or 0,
 				freeBonus = slot1:GetRestDailyBonus()
 			}
 		}
