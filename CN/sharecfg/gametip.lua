@@ -23048,276 +23048,276 @@ cs.gametip = {
 	},
 	skin_purchase_confirm = {
 		832864,
-		207,
+		231,
 		true
 	},
 	blackfriday_pack_lock = {
-		833071,
+		833095,
 		112,
 		true
 	},
 	skin_exchange_title = {
-		833183,
+		833207,
 		98,
 		true
 	},
 	blackfriday_pack_select_skinall = {
-		833281,
+		833305,
 		213,
 		true
 	},
 	skin_discount_desc = {
-		833494,
+		833518,
 		124,
 		true
 	},
 	skin_exchange_timelimit = {
-		833618,
+		833642,
 		172,
 		true
 	},
 	blackfriday_pack_purchased = {
-		833790,
+		833814,
 		99,
 		true
 	},
 	commander_unsel_lock_flag_tip = {
-		833889,
+		833913,
 		190,
 		true
 	},
 	skin_discount_timelimit = {
-		834079,
+		834103,
 		155,
 		true
 	},
 	shan_luan_task_progress_tip = {
-		834234,
+		834258,
 		104,
 		true
 	},
 	shan_luan_task_level_tip = {
-		834338,
+		834362,
 		104,
 		true
 	},
 	shan_luan_task_help = {
-		834442,
+		834466,
 		551,
 		true
 	},
 	shan_luan_task_buff_default = {
-		834993,
+		835017,
 		100,
 		true
 	},
 	senran_pt_consume_tip = {
-		835093,
+		835117,
 		204,
 		true
 	},
 	senran_pt_not_enough = {
-		835297,
+		835321,
 		122,
 		true
 	},
 	senran_pt_help = {
-		835419,
+		835443,
 		472,
 		true
 	},
 	senran_pt_rank = {
-		835891,
+		835915,
 		95,
 		true
 	},
 	senran_pt_words_feiniao = {
-		835986,
+		836010,
 		368,
 		true
 	},
 	senran_pt_words_banjiu = {
-		836354,
+		836378,
 		423,
 		true
 	},
 	senran_pt_words_yan = {
-		836777,
+		836801,
 		439,
 		true
 	},
 	senran_pt_words_xuequan = {
-		837216,
+		837240,
 		415,
 		true
 	},
 	senran_pt_words_xuebugui = {
-		837631,
+		837655,
 		422,
 		true
 	},
 	senran_pt_words_zi = {
-		838053,
+		838077,
 		371,
 		true
 	},
 	senran_pt_words_xishao = {
-		838424,
+		838448,
 		378,
 		true
 	},
 	senrankagura_backhill_help = {
-		838802,
+		838826,
 		1007,
 		true
 	},
 	vote_lable_not_start = {
-		839809,
+		839833,
 		93,
 		true
 	},
 	vote_lable_voting = {
-		839902,
+		839926,
 		90,
 		true
 	},
 	vote_lable_title = {
-		839992,
+		840016,
 		155,
 		true
 	},
 	vote_lable_acc_title_1 = {
-		840147,
+		840171,
 		98,
 		true
 	},
 	vote_lable_acc_title_2 = {
-		840245,
+		840269,
 		105,
 		true
 	},
 	vote_lable_curr_title_1 = {
-		840350,
+		840374,
 		99,
 		true
 	},
 	vote_lable_curr_title_2 = {
-		840449,
+		840473,
 		106,
 		true
 	},
 	vote_lable_window_title = {
-		840555,
+		840579,
 		99,
 		true
 	},
 	vote_lable_rearch = {
-		840654,
+		840678,
 		90,
 		true
 	},
 	vote_lable_daily_task_title = {
-		840744,
+		840768,
 		103,
 		true
 	},
 	vote_lable_daily_task_tip = {
-		840847,
+		840871,
 		124,
 		true
 	},
 	vote_lable_task_title = {
-		840971,
+		840995,
 		97,
 		true
 	},
 	vote_lable_task_list_is_empty = {
-		841068,
+		841092,
 		123,
 		true
 	},
 	vote_lable_ship_votes = {
-		841191,
+		841215,
 		90,
 		true
 	},
 	vote_help_2023 = {
-		841281,
+		841305,
 		4706,
 		true
 	},
 	vote_tip_level_limit = {
-		845987,
+		846011,
 		160,
 		true
 	},
 	vote_label_rank = {
-		846147,
+		846171,
 		85,
 		true
 	},
 	vote_label_rank_fresh_time_tip = {
-		846232,
+		846256,
 		127,
 		true
 	},
 	vote_tip_area_closed = {
-		846359,
+		846383,
 		117,
 		true
 	},
 	commander_skill_ui_info = {
-		846476,
+		846500,
 		93,
 		true
 	},
 	commander_skill_ui_confirm = {
-		846569,
+		846593,
 		96,
 		true
 	},
 	commander_formation_prefab_fleet = {
-		846665,
+		846689,
 		111,
 		true
 	},
 	rect_ship_card_tpl_add = {
-		846776,
+		846800,
 		98,
 		true
 	},
 	newyear2024_backhill_help = {
-		846874,
+		846898,
 		455,
 		true
 	},
 	last_times_sign = {
-		847329,
+		847353,
 		102,
 		true
 	},
 	skin_page_sign = {
-		847431,
+		847455,
 		90,
 		true
 	},
 	skin_page_desc = {
-		847521,
+		847545,
 		181,
 		true
 	},
 	live2d_reset_desc = {
-		847702,
+		847726,
 		102,
 		true
 	},
 	skin_exchange_usetip = {
-		847804,
+		847828,
 		144,
 		true
 	},
 	blackfriday_pack_select_skinall_dialog = {
-		847948,
+		847972,
 		230,
 		true
 	}

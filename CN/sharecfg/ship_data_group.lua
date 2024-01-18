@@ -7592,22 +7592,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行特型舰建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
 						page = 1
 					}
 				},
@@ -19507,22 +19496,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"进行特型舰建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"进行重型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
 						page = 1
 					}
 				},

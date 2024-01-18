@@ -26329,7 +26329,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 }
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3皮肤"
+	tip = "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63>$3</color>皮肤"
 }
 
 _G.pg.base.gametip.blackfriday_pack_lock = {
