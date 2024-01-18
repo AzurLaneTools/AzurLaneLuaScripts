@@ -230,4 +230,16 @@ function slot0.ClearLimitCnt(slot0, slot1)
 	slot0.limitList[slot1] = 0
 end
 
+function slot0.GetSkinShopDiscountItemList(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6.count > 0 and slot6:IsSkinShopDiscountType() then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
+end
+
 return slot0

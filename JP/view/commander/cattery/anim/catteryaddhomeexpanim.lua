@@ -158,6 +158,8 @@ function slot0.Clear(slot0)
 end
 
 function slot0.Hide(slot0)
+	slot0.callback = nil
+
 	slot0:Clear()
 	setActive(slot0._tf, false)
 end

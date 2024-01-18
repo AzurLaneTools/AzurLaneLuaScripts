@@ -5658,6 +5658,10 @@ _G.pg.base.gametip.charge_limit_weekly = {
 	tip = "今週購入可能回数：$1"
 }
 
+_G.pg.base.gametip.charge_limit_monthly = {
+	tip = "今月購入可能回数：$1"
+}
+
 _G.pg.base.gametip.charge_error = {
 	tip = "購入に失敗しました"
 }
@@ -10157,15 +10161,57 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「プリンツ・ハインリヒ」常設実装！"
+	tip = "「ニュージャージー」「信濃」「紀伊」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ニュルンベルク」常設実装！"
+	tip = "「涼月」「ボイシ」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「ペーター・シュトラッサー」「U-37」常設実装！"
+	tip = "「ニュージャージー」「信濃」「タイコンデロガ」などが常設実装！"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_help = {
+	tip = {
+		{
+			info = "常設UR艦船交換について："
+		},
+		{
+			info = "    ·通常建造「小型艦建造」「大型艦建造」「特型艦建造」またはUR艦船が出現しない「期間限定建造」を行う時、キューブが1消費される毎に、「常設UR交換Pt」が1加算される（上限400）；\n    ·建造チケットで建造を行う場合、その建造で消費するキューブの数に応じて「常設UR交換Pt」が加算される；\n"
+		},
+		{
+			info = "    ·Ptを400消費すると、常設実装済みのUR艦船1隻と交換可能；"
+		}
+	}
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+	tip = "常設UR交換"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
+	tip = "累計"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
+	tip = "交換可能艦船を確認"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_text4 = {
+	tip = "艦船交換"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
+	tip = "累計建造回数Ptが不足しています"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
+	tip = "すでに交換可能な全着せ替えを所持しています"
+}
+
+_G.pg.base.gametip.Normalbuild_URexchange_confirm = {
+	tip = "400Ptを消費し、$1と交換しますか？"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -26615,7 +26661,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 }
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "<color=#92fc63>$1 *1</color>を消費し、割引価格<icon name=gem w=0.7 h=0.7/>$2で$3着せ替えを購入しますか？"
+	tip = "<size=32><color=#92fc63>$1*1</color>を消費し、割引価格\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で<color=#92fc63>$3</color>着せ替えを購入しますか？</size>"
 }
 
 _G.pg.base.gametip.blackfriday_pack_lock = {
@@ -26627,7 +26673,7 @@ _G.pg.base.gametip.skin_exchange_title = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_select_skinall = {
-	tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将无法使用！"
+	tip = "一部の着せ替えのみ入手できます。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます。"
 }
 
 _G.pg.base.gametip.skin_discount_desc = {
@@ -27118,4 +27164,12 @@ _G.pg.base.gametip.skin_page_desc = {
 
 _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "L2D演出設定が初期化されました"
+}
+
+_G.pg.base.gametip.skin_exchange_usetip = {
+	tip = "アイテム$1が倉庫に送られました。倉庫にて使用可能です"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
+	tip = "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
 }

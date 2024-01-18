@@ -8,8 +8,9 @@ slot6 = 3
 slot7 = 4
 slot8 = 5
 slot9 = 6
+slot10 = 7
 
-function slot10(slot0)
+function slot11(slot0)
 	if not uv0.obtainBtnSpriteNames then
 		uv0.obtainBtnSpriteNames = {
 			[uv1] = "yigoumai_butten",
@@ -17,7 +18,8 @@ function slot10(slot0)
 			[uv3] = "qianwanghuoqu_butten",
 			[uv4] = "item_buy",
 			[uv5] = "furniture_shop",
-			[uv6] = "tiyan_btn"
+			[uv6] = "tiyan_btn",
+			[uv7] = "item_buy"
 		}
 	end
 
@@ -67,6 +69,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.isToggleShowBg = true
 	slot0.isPreviewFurniture = false
 	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furnitureContainer, Vector3(0, 0, 0))
+	slot0.voucherMsgBox = SkinVoucherMsgBox.New(pg.UIMgr.GetInstance().OverlayMain)
 end
 
 function slot0.Flush(slot0, slot1)
@@ -626,8 +629,10 @@ function slot0.GetObtainBtnState(slot0, slot1)
 		return uv1
 	elseif slot1:isDisCount() and slot1:IsItemDiscountType() then
 		return uv4
-	else
+	elseif slot1:CanUseVoucherType() then
 		return uv5
+	else
+		return uv6
 	end
 end
 
@@ -684,13 +689,38 @@ function slot0.FlushObtainBtn(slot0, slot1)
 		if uv0 == uv1 or uv0 == uv2 then
 			uv3:OnPurchase(uv4)
 		elseif uv0 == uv5 then
-			uv3:OnActivity(uv4)
+			uv3:OnItemPurchase(uv4)
 		elseif uv0 == uv6 then
-			uv3:OnBackyard(uv4)
+			uv3:OnActivity(uv4)
 		elseif uv0 == uv7 then
+			uv3:OnBackyard(uv4)
+		elseif uv0 == uv8 then
 			uv3:OnExperience(uv4)
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.OnItemPurchase(slot0, slot1)
+	if slot1.type ~= Goods.TYPE_SKIN then
+		return
+	end
+
+	if #slot1:GetVoucherIdList() <= 0 then
+		return
+	end
+
+	slot0.voucherMsgBox:ExecuteAction("Show", {
+		itemList = slot2,
+		skinName = SwitchSpecialChar(pg.ship_skin_template[slot1:getSkinId()].name, true),
+		price = slot1:GetPrice(),
+		onYes = function (slot0)
+			if slot0 then
+				uv0:emit(NewSkinShopMediator.ON_ITEM_PURCHASE, slot0, uv1.id)
+			else
+				uv0:emit(NewSkinShopMediator.ON_SHOPPING, uv1.id, 1)
+			end
+		end
+	})
 end
 
 function slot0.OnPurchase(slot0, slot1)
@@ -883,10 +913,13 @@ function slot0.Dispose(slot0)
 
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:ClearSwitchBgAnim()
+	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 
-	slot4 = slot0
+	if slot0.voucherMsgBox then
+		slot0.voucherMsgBox:Destroy()
 
-	pg.DynamicBgMgr.GetInstance():ClearBg(slot0.getUIName(slot4))
+		slot0.voucherMsgBox = nil
+	end
 
 	for slot4, slot5 in pairs(slot0.downloads) do
 		slot5:Dispose()

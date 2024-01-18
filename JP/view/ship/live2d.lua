@@ -261,27 +261,10 @@ function slot13(slot0)
 
 	slot1:SetDragParts(slot0.dragParts)
 
-	slot1 = slot0.liveCom
+	slot0.eventTrigger = GetOrAddComponent(slot0.liveCom.transform.parent, typeof(EventTriggerListener))
+	slot1 = slot0.eventTrigger
 
-	function slot5()
-		if not uv0._l2dCharEnable then
-			return
-		end
-
-		uv0.mouseInputDown = false
-
-		if uv0.drags and #uv0.drags > 0 then
-			if uv0.liveCom:GetDragPart() > 0 then
-				slot1 = uv0.dragParts[slot0]
-			end
-
-			for slot4 = 1, #uv0.drags do
-				uv0.drags[slot4]:stopDrag()
-			end
-		end
-	end
-
-	slot1:SetMouseInputActions(System.Action(function ()
+	slot1:AddPointDownFunc(function ()
 		if not uv0._l2dCharEnable then
 			return
 		end
@@ -300,7 +283,27 @@ function slot13(slot0)
 				end
 			end
 		end
-	end), System.Action(slot5))
+	end)
+
+	slot1 = slot0.eventTrigger
+
+	slot1:AddPointUpFunc(function ()
+		if not uv0._l2dCharEnable then
+			return
+		end
+
+		uv0.mouseInputDown = false
+
+		if uv0.drags and #uv0.drags > 0 then
+			if uv0.liveCom:GetDragPart() > 0 then
+				slot1 = uv0.dragParts[slot0]
+			end
+
+			for slot4 = 1, #uv0.drags do
+				uv0.drags[slot4]:stopDrag()
+			end
+		end
+	end)
 
 	slot0.paraRanges = ReflectionHelp.RefGetField(typeof(Live2dChar), "paraRanges", slot0.liveCom)
 	slot0.destinations = {}

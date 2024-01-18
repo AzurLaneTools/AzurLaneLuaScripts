@@ -60,6 +60,10 @@ function slot0.RefreshFreeBuildActivity(slot0)
 	slot0.poolsPage:UpdateTicket()
 end
 
+function slot0.RefreshRegularExchangeCount(slot0)
+	slot0.poolsPage:RefreshRegularExchangeCount()
+end
+
 function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 	slot0.blurPanel = slot0:findTF("blur_panel")

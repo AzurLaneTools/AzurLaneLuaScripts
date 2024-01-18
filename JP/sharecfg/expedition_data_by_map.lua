@@ -422,6 +422,14 @@ pg.expedition_data_by_map = setmetatable({
 		2100302,
 		2100311,
 		2100312,
+		2100321,
+		2100322,
+		2100331,
+		2100332,
+		2100341,
+		2100342,
+		2100351,
+		2100352,
 		2200000,
 		2200010,
 		2200020,
@@ -19337,7 +19345,7 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_1390001",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 1460011,
+		bind_map = 2100311,
 		clouds_pos = {
 			{
 				332,
@@ -19381,7 +19389,7 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_1390002",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 1460012,
+		bind_map = 2100312,
 		clouds_pos = {
 			{
 				332,
@@ -19425,7 +19433,7 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_1390003",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 1460001,
+		bind_map = 2100301,
 		clouds_pos = {
 			{
 				332,
@@ -19469,7 +19477,359 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_1390004",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 1460002,
+		bind_map = 2100302,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100321] = {
+		map = 2100321,
+		name = "刹那觀る胡蝶の夢・現世|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "DIEHAIMENGHUA1",
+		ani_name = "Map_1350001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 3,
+		bg = "Map_1350001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100331,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100322] = {
+		map = 2100322,
+		name = "刹那觀る胡蝶の夢・夢境|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		enter_story = "",
+		ani_name = "Map_1350002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 3,
+		bg = "Map_1350002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100332,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100331] = {
+		map = 2100331,
+		name = "刹那觀る胡蝶の夢・現世|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "DIEHAIMENGHUA1",
+		ani_name = "Map_1350003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 3,
+		bg = "Map_1350003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100321,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100332] = {
+		map = 2100332,
+		name = "刹那觀る胡蝶の夢・夢境|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		enter_story = "",
+		ani_name = "Map_1350004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 3,
+		bg = "Map_1350004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100322,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100341] = {
+		map = 2100341,
+		name = "照らす螺旋の鏡海·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1420001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100351,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100342] = {
+		map = 2100342,
+		name = "照らす螺旋の鏡海·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420008",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1420008",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100352,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100351] = {
+		map = 2100351,
+		name = "照らす螺旋の鏡海·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420011",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1420011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100341,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100352] = {
+		map = 2100352,
+		name = "照らす螺旋の鏡海·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1420018",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100342,
 		clouds_pos = {
 			{
 				332,

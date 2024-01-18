@@ -15,5 +15,6 @@ slot0.GUILD_OPERATION = "usage_guild_operation"
 slot0.REDUCE_COMMANDER_TIME = "usage_reduce_commander_time"
 slot0.INVITATION = "usage_invitation"
 slot0.SKIN_SELECT = "usage_drop_appointed_skinexchange"
+slot0.SKIN_SHOP_DISCOUNT = "usage_skin_discount"
 
 return slot0

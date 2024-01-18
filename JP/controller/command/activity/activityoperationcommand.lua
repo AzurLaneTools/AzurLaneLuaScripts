@@ -129,15 +129,15 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY or slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, slot1.arg1)
 
+		slot8 = pg.ship_data_create_material[slot1.buildId]
+
 		if slot1.arg2 == 1 then
-			slot8 = getProxy(ActivityProxy)
-			slot9 = slot8:getBuildFreeActivityByBuildId(slot1.buildId)
-			slot9.data1 = slot9.data1 - slot1.arg1
+			slot9 = getProxy(ActivityProxy)
+			slot10 = slot9:getBuildFreeActivityByBuildId(slot1.buildId)
+			slot10.data1 = slot10.data1 - slot1.arg1
 
-			slot8:updateActivity(slot9)
+			slot9:updateActivity(slot10)
 		else
-			slot8 = pg.ship_data_create_material[slot1.buildId]
-
 			getProxy(BagProxy):removeItemById(slot8.use_item, slot8.number_1 * slot1.arg1)
 
 			slot9 = slot6:getData()
@@ -148,10 +148,14 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot6:updatePlayer(slot9)
 		end
 
-		slot8 = getProxy(BuildShipProxy)
+		if slot8.exchange_count > 0 then
+			getProxy(buildShipProxy):changeRegularExchangeCount(slot1.arg1 * slot8.exchange_count)
+		end
 
-		for slot12, slot13 in ipairs(slot2.build) do
-			slot8:addBuildShip(BuildShip.New(slot13))
+		slot9 = getProxy(BuildShipProxy)
+
+		for slot13, slot14 in ipairs(slot2.build) do
+			slot9:addBuildShip(BuildShip.New(slot14))
 		end
 
 		slot3.data1 = slot3.data1 + slot1.arg1

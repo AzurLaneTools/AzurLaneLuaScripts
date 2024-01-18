@@ -36281,6 +36281,318 @@ _G.pg.base.task_data_template[5957] = {
 	}
 }
 
+_G.pg.base.task_data_template[5961] = {
+	name = "執務室の隠し通路はどこだ！",
+	guild_coin_award = 0,
+	award = 5961,
+	type = 5,
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "50003",
+	next_task = "5962",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "FUSHUN1",
+	id = 5961,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5962] = {
+	name = "秘書艦の一日",
+	guild_coin_award = 0,
+	award = 5962,
+	type = 5,
+	desc = "任意の艦を10回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN2",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5963",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 5962,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5963] = {
+	name = "廃工場の摩訶不思議",
+	guild_coin_award = 0,
+	award = 5963,
+	type = 5,
+	desc = "撫順を含めた艦隊で出撃し、20回勝利する",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN3",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5964",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50102",
+	scene = "",
+	id = 5963,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5964] = {
+	name = "「お化け」がいる！",
+	guild_coin_award = 0,
+	award = 5964,
+	type = 5,
+	desc = "燃料を500消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN4",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5965",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 5964,
+	target_num = 500,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5965] = {
+	name = "不思議の真相！",
+	guild_coin_award = 0,
+	award = 5965,
+	type = 5,
+	desc = "撫順の親密度が100に到達",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN5",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5966",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50102",
+	scene = "",
+	id = 5965,
+	target_num = 10000,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5966] = {
+	name = "あなただけが知るヒミツ～上",
+	guild_coin_award = 0,
+	award = 5966,
+	type = 5,
+	desc = "撫順を3回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN6",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5967",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50102",
+	scene = "",
+	id = 5966,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5967] = {
+	name = "あなただけが知るヒミツ～下",
+	guild_coin_award = 0,
+	award = 5967,
+	type = 5,
+	desc = "撫順のレベルが100に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "fushun",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "FUSHUN7",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50102",
+	scene = "",
+	id = 5967,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難・近海演習",
 	guild_coin_award = 0,

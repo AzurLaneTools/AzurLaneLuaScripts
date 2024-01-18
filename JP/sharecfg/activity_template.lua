@@ -6222,12 +6222,13 @@ pg.activity_template = {
 	},
 	[5079] = {
 		mark = 20231116,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5079,
 		config_data = {
 			2317,
@@ -6242,33 +6243,6 @@ pg.activity_template = {
 			2326,
 			2327,
 			2328
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					11,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_commission",
@@ -7816,41 +7790,15 @@ pg.activity_template = {
 	},
 	[5152] = {
 		mark = 20240104,
-		config_client = "",
 		title_res_tag = "NewYear24_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 50,
-		is_show = 33,
+		is_show = 30,
+		config_client = "",
 		id = 5152,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYear24LoginPage",
 			ui_name = "NewYear24LoginPage"
@@ -7858,80 +7806,28 @@ pg.activity_template = {
 	},
 	[5153] = {
 		mark = 20240104,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 81,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5153,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5154] = {
 		mark = 20240104,
-		config_client = "",
 		title_res_tag = "beachgamepage",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 37,
-		is_show = 34,
+		is_show = 30,
+		config_client = "",
 		id = 5154,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "BeachGamePage",
 			ui_name = "BeachGamePage"
@@ -7939,83 +7835,31 @@ pg.activity_template = {
 	},
 	[5160] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5160,
 		config_data = {
 			19665
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5161] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 15,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5161,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5162] = {
 		mark = 20240111,
@@ -8061,42 +7905,16 @@ pg.activity_template = {
 	},
 	[5163] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5163,
 		config_data = {
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59521
@@ -8104,41 +7922,15 @@ pg.activity_template = {
 	},
 	[5164] = {
 		mark = 20240111,
-		config_client = "",
 		title_res_tag = "YidaliV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 51,
 		is_show = 35,
+		config_client = "",
 		id = 5164,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "HuttenV2LoginPage",
 			ui_name = "HuttenV2LoginPage"
@@ -8146,42 +7938,16 @@ pg.activity_template = {
 	},
 	[5165] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5165,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5166] = {
 		mark = 20240111,
@@ -8224,12 +7990,13 @@ pg.activity_template = {
 	},
 	[5167] = {
 		mark = 20240111,
-		id = 5167,
 		title_res_tag = "dexiur_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 40,
+		id = 5167,
 		config_data = {
 			1600001,
 			1600002,
@@ -8238,33 +8005,6 @@ pg.activity_template = {
 			1600005,
 			1600006,
 			1600007
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "DeXiMainPage",
@@ -8276,12 +8016,13 @@ pg.activity_template = {
 	},
 	[5168] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5168,
 		config_data = {
 			1600021,
@@ -8294,45 +8035,19 @@ pg.activity_template = {
 			1600041,
 			1600051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[5169] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5169,
 		config_data = {
@@ -8356,33 +8071,6 @@ pg.activity_template = {
 			19682,
 			19683,
 			19685
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5170] = {
@@ -8468,7 +8156,7 @@ pg.activity_template = {
 	},
 	[5172] = {
 		mark = 20240111,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -8476,34 +8164,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31970,100}]",
 		config_client = "",
-		id = 5172,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					1,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 5172
 	},
 	[5173] = {
 		mark = 20240111,

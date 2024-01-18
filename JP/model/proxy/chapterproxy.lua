@@ -83,11 +83,11 @@ function slot0.register(slot0)
 	slot0:buildRemasterInfo()
 end
 
-function slot0.OnBattleFinished(slot0, slot1)
+function slot0.OnBattleFinished(slot0, slot1, slot2)
 	if slot0:getActiveChapter() then
-		slot3 = 0
+		slot4 = 0
 
-		function slot4()
+		function slot5()
 			if not getProxy(ContextProxy) then
 				return
 			end
@@ -110,15 +110,15 @@ function slot0.OnBattleFinished(slot0, slot1)
 		if _.any(slot1.ai_list, function (slot0)
 			return slot0.item_type == ChapterConst.AttachOni
 		end) then
-			slot2:onOniEnter()
-			slot4()
+			slot3:onOniEnter()
+			slot5()
 		end
 
 		if _.any(slot1.map_update, function (slot0)
 			return slot0.item_type == ChapterConst.AttachBomb_Enemy
 		end) then
-			slot2:onBombEnemyEnter()
-			slot4()
+			slot3:onBombEnemyEnter()
+			slot5()
 		end
 
 		if #slot1.map_update > 0 then
@@ -141,7 +141,7 @@ function slot0.OnBattleFinished(slot0, slot1)
 				end
 			end)
 
-			slot3 = bit.bor(slot3, ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction)
 		end
 
 		if #slot1.ai_list > 0 then
@@ -149,17 +149,17 @@ function slot0.OnBattleFinished(slot0, slot1)
 				uv0:mergeChampion(ChapterChampionPackage.New(slot0))
 			end)
 
-			slot3 = bit.bor(slot3, ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction)
 		end
 
 		if #slot1.add_flag_list > 0 or #slot1.del_flag_list > 0 then
-			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
 
-			slot0:updateExtraFlag(slot2, slot1.add_flag_list, slot1.del_flag_list)
+			slot0:updateExtraFlag(slot3, slot1.add_flag_list, slot1.del_flag_list)
 		end
 
 		if #slot1.buff_list > 0 then
-			slot2:UpdateBuffList(slot1.buff_list)
+			slot3:UpdateBuffList(slot1.buff_list)
 		end
 
 		if #slot1.cell_flag_list > 0 then
@@ -173,10 +173,16 @@ function slot0.OnBattleFinished(slot0, slot1)
 				uv0:updateChapterCell(slot1)
 			end)
 
-			slot3 = bit.bor(slot3, ChapterConst.DirtyCellFlag)
+			slot4 = bit.bor(slot4, ChapterConst.DirtyCellFlag)
 		end
 
-		slot0:updateChapter(slot2, slot3)
+		slot0:updateChapter(slot3, slot4)
+
+		if slot2 then
+			slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
+				type = ChapterConst.OpSkipBattle
+			})
+		end
 	end
 end
 

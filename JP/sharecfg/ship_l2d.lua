@@ -1465,7 +1465,7 @@ pg.ship_l2d = {
 		ignore_react = 1,
 		action_trigger_active = "",
 		gyro_y = 0,
-		limit_time = 0,
+		limit_time = 0.1,
 		drag_direct = 0,
 		parts_data = "",
 		relation_parameter = "",
@@ -1476,9 +1476,8 @@ pg.ship_l2d = {
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
-		action_trigger = "",
+		offset_y = 0,
 		revert = -1,
-		offset_y = 1,
 		ignore_action = 0,
 		react_pos_x = 0,
 		parameter = "touch_drag4",
@@ -1492,6 +1491,11 @@ pg.ship_l2d = {
 		range = {
 			0,
 			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
 		}
 	},
 	[5020521] = {

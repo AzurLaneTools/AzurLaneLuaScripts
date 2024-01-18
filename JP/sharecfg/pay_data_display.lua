@@ -90,7 +90,13 @@ pg.pay_data_display = setmetatable({
 		2016,
 		2017,
 		2018,
-		2019
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8300,6 +8306,489 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2020] = {
+		subject = "冬のお得福袋・2024",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "冬のお得福袋・2024",
+		name_display = "冬のお得福袋・2024",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2020,
+		money = 5280,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao111",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
+		airijp_id = "com.yostarjp.azurlane.package111",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40029,
+				1
+			}
+		}
+	},
+	[2021] = {
+		subject = "選べるUR着せ替え福袋①",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 2,
+		name = "選べるUR着せ替え福袋①",
+		name_display = "選べるUR着せ替え福袋①",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2021,
+		money = 2600,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "haishangchuanqi",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao112",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		airijp_id = "com.yostarjp.azurlane.package112",
+		extra_service_item = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40030,
+				1
+			}
+		}
+	},
+	[2022] = {
+		subject = "キューブ補給パック①",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 2,
+		name = "キューブ補給パック①",
+		name_display = "キューブ補給パック①",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2022,
+		money = 250,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao113",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "キューブ10個を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package113",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40031,
+				1
+			}
+		}
+	},
+	[2023] = {
+		subject = "キューブ補給パック②",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 2,
+		name = "キューブ補給パック②",
+		name_display = "キューブ補給パック②",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2023,
+		money = 610,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao114",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "キューブ20個を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package114",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40032,
+				1
+			}
+		}
+	},
+	[2024] = {
+		subject = "キューブ補給パック③",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 2,
+		name = "キューブ補給パック③",
+		name_display = "キューブ補給パック③",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2024,
+		money = 1100,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao115",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "キューブ30個を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package115",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40033,
+				1
+			}
+		}
+	},
+	[2025] = {
+		subject = "お得パック(デイリー)",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得パック(デイリー)",
+		name_display = "お得パック(デイリー)",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2025,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 4,
+		time = "always",
+		picture = "richang",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao116",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "購入するとキューブ1個、燃料1200を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package116",
+		extra_service_item = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40043,
 				1
 			}
 		}

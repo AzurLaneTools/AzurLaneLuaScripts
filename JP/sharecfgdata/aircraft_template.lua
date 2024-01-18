@@ -16646,6 +16646,253 @@ _G.pg.base.aircraft_template[28413] = {
 	}
 }
 
+_G.pg.base.aircraft_template[28420] = {
+	attack_power = 2,
+	name = "旗鱼",
+	type = 2,
+	accuracy = 23,
+	model_ID = "qiyu",
+	ACC_growth = 0,
+	crash_DMG = 450,
+	dodge = 1.01,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 28420,
+	icon = "qiyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 8,
+	hp_growth = 1581,
+	speed = 52,
+	max_hp = 41,
+	scale = 1,
+	weapon_ID = {
+		50360,
+		51240,
+		59940
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.39,
+				0
+			},
+			{
+				0.77,
+				1.52,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[28421] = {
+	max_hp = 47,
+	hp_growth = 1818,
+	base = 28420,
+	id = 28421,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50361,
+		51241,
+		59941
+	}
+}
+
+_G.pg.base.aircraft_template[28422] = {
+	max_hp = 53,
+	hp_growth = 2055,
+	base = 28420,
+	id = 28422,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50362,
+		51242,
+		59942
+	}
+}
+
+_G.pg.base.aircraft_template[28423] = {
+	max_hp = 60,
+	hp_growth = 2292,
+	base = 28420,
+	id = 28423,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50363,
+		51243,
+		59943
+	}
+}
+
+_G.pg.base.aircraft_template[28424] = {
+	max_hp = 66,
+	hp_growth = 2529,
+	base = 28420,
+	id = 28424,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50364,
+		51244,
+		59944
+	}
+}
+
+_G.pg.base.aircraft_template[28425] = {
+	max_hp = 72,
+	hp_growth = 2766,
+	base = 28420,
+	id = 28425,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50365,
+		51245,
+		59945
+	}
+}
+
+_G.pg.base.aircraft_template[28426] = {
+	max_hp = 78,
+	hp_growth = 3004,
+	base = 28420,
+	id = 28426,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50366,
+		51246,
+		59946
+	}
+}
+
+_G.pg.base.aircraft_template[28427] = {
+	max_hp = 84,
+	hp_growth = 3241,
+	base = 28420,
+	id = 28427,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50367,
+		51247,
+		59947
+	}
+}
+
+_G.pg.base.aircraft_template[28428] = {
+	max_hp = 90,
+	hp_growth = 3478,
+	base = 28420,
+	id = 28428,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50368,
+		51248,
+		59948
+	}
+}
+
+_G.pg.base.aircraft_template[28429] = {
+	max_hp = 97,
+	hp_growth = 3715,
+	base = 28420,
+	id = 28429,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50369,
+		51249,
+		59949
+	}
+}
+
+_G.pg.base.aircraft_template[28430] = {
+	max_hp = 103,
+	hp_growth = 3952,
+	base = 28420,
+	id = 28430,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50370,
+		51250,
+		59950
+	}
+}
+
+_G.pg.base.aircraft_template[28431] = {
+	max_hp = 109,
+	hp_growth = 4189,
+	base = 28420,
+	id = 28431,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50371,
+		51251,
+		59951
+	}
+}
+
+_G.pg.base.aircraft_template[28432] = {
+	max_hp = 115,
+	hp_growth = 4426,
+	base = 28420,
+	id = 28432,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50372,
+		51252,
+		59952
+	}
+}
+
+_G.pg.base.aircraft_template[28433] = {
+	max_hp = 121,
+	hp_growth = 4663,
+	base = 28420,
+	id = 28433,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50373,
+		51253,
+		59953
+	}
+}
+
 _G.pg.base.aircraft_template[29000] = {
 	attack_power = 2,
 	name = "贼鸥",
@@ -21398,6 +21645,253 @@ _G.pg.base.aircraft_template[37451] = {
 		50051,
 		50571,
 		52151
+	}
+}
+
+_G.pg.base.aircraft_template[37460] = {
+	attack_power = 2,
+	name = "试作型紫电改四",
+	type = 1,
+	accuracy = 23,
+	model_ID = "zidiangaisi",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.294,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 37460,
+	icon = "zidiangaisi",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10,
+	hp_growth = 1532,
+	speed = 60,
+	max_hp = 40,
+	scale = 1,
+	weapon_ID = {
+		59540,
+		52340,
+		50860
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[37461] = {
+	max_hp = 46,
+	hp_growth = 1762,
+	base = 37460,
+	id = 37461,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59541,
+		52341,
+		50861
+	}
+}
+
+_G.pg.base.aircraft_template[37462] = {
+	max_hp = 52,
+	hp_growth = 1992,
+	base = 37460,
+	id = 37462,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59542,
+		52342,
+		50862
+	}
+}
+
+_G.pg.base.aircraft_template[37463] = {
+	max_hp = 58,
+	hp_growth = 2222,
+	base = 37460,
+	id = 37463,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59543,
+		52343,
+		50863
+	}
+}
+
+_G.pg.base.aircraft_template[37464] = {
+	max_hp = 64,
+	hp_growth = 2451,
+	base = 37460,
+	id = 37464,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59544,
+		52344,
+		50864
+	}
+}
+
+_G.pg.base.aircraft_template[37465] = {
+	max_hp = 70,
+	hp_growth = 2681,
+	base = 37460,
+	id = 37465,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59545,
+		52345,
+		50865
+	}
+}
+
+_G.pg.base.aircraft_template[37466] = {
+	max_hp = 76,
+	hp_growth = 2911,
+	base = 37460,
+	id = 37466,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59546,
+		52346,
+		50866
+	}
+}
+
+_G.pg.base.aircraft_template[37467] = {
+	max_hp = 82,
+	hp_growth = 3141,
+	base = 37460,
+	id = 37467,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59547,
+		52347,
+		50867
+	}
+}
+
+_G.pg.base.aircraft_template[37468] = {
+	max_hp = 88,
+	hp_growth = 3371,
+	base = 37460,
+	id = 37468,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59548,
+		52348,
+		50868
+	}
+}
+
+_G.pg.base.aircraft_template[37469] = {
+	max_hp = 94,
+	hp_growth = 3601,
+	base = 37460,
+	id = 37469,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59549,
+		52349,
+		50869
+	}
+}
+
+_G.pg.base.aircraft_template[37470] = {
+	max_hp = 100,
+	hp_growth = 3830,
+	base = 37460,
+	id = 37470,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59550,
+		52350,
+		50870
+	}
+}
+
+_G.pg.base.aircraft_template[37471] = {
+	max_hp = 106,
+	hp_growth = 4060,
+	base = 37460,
+	id = 37471,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59551,
+		52351,
+		50871
+	}
+}
+
+_G.pg.base.aircraft_template[37472] = {
+	max_hp = 112,
+	hp_growth = 4290,
+	base = 37460,
+	id = 37472,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59552,
+		52352,
+		50872
+	}
+}
+
+_G.pg.base.aircraft_template[37473] = {
+	max_hp = 118,
+	hp_growth = 4520,
+	base = 37460,
+	id = 37473,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59553,
+		52353,
+		50873
 	}
 }
 
@@ -57158,6 +57652,239 @@ _G.pg.base.aircraft_template[83451] = {
 	weapon_ID = {
 		50051,
 		50571
+	}
+}
+
+_G.pg.base.aircraft_template[83460] = {
+	attack_power = 2,
+	name = "试作型紫电改四",
+	type = 1,
+	accuracy = 23,
+	model_ID = "zidiangaisi",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.294,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 83460,
+	icon = "zidiangaisi",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10,
+	hp_growth = 1532,
+	speed = 60,
+	max_hp = 40,
+	scale = 1,
+	weapon_ID = {
+		59540,
+		50860
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[83461] = {
+	max_hp = 46,
+	hp_growth = 1762,
+	base = 83460,
+	id = 83461,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59541,
+		50861
+	}
+}
+
+_G.pg.base.aircraft_template[83462] = {
+	max_hp = 52,
+	hp_growth = 1992,
+	base = 83460,
+	id = 83462,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59542,
+		50862
+	}
+}
+
+_G.pg.base.aircraft_template[83463] = {
+	max_hp = 58,
+	hp_growth = 2222,
+	base = 83460,
+	id = 83463,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59543,
+		50863
+	}
+}
+
+_G.pg.base.aircraft_template[83464] = {
+	max_hp = 64,
+	hp_growth = 2451,
+	base = 83460,
+	id = 83464,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59544,
+		50864
+	}
+}
+
+_G.pg.base.aircraft_template[83465] = {
+	max_hp = 70,
+	hp_growth = 2681,
+	base = 83460,
+	id = 83465,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59545,
+		50865
+	}
+}
+
+_G.pg.base.aircraft_template[83466] = {
+	max_hp = 76,
+	hp_growth = 2911,
+	base = 83460,
+	id = 83466,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59546,
+		50866
+	}
+}
+
+_G.pg.base.aircraft_template[83467] = {
+	max_hp = 82,
+	hp_growth = 3141,
+	base = 83460,
+	id = 83467,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59547,
+		50867
+	}
+}
+
+_G.pg.base.aircraft_template[83468] = {
+	max_hp = 88,
+	hp_growth = 3371,
+	base = 83460,
+	id = 83468,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59548,
+		50868
+	}
+}
+
+_G.pg.base.aircraft_template[83469] = {
+	max_hp = 94,
+	hp_growth = 3601,
+	base = 83460,
+	id = 83469,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59549,
+		50869
+	}
+}
+
+_G.pg.base.aircraft_template[83470] = {
+	max_hp = 100,
+	hp_growth = 3830,
+	base = 83460,
+	id = 83470,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59550,
+		50870
+	}
+}
+
+_G.pg.base.aircraft_template[83471] = {
+	max_hp = 106,
+	hp_growth = 4060,
+	base = 83460,
+	id = 83471,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59551,
+		50871
+	}
+}
+
+_G.pg.base.aircraft_template[83472] = {
+	max_hp = 112,
+	hp_growth = 4290,
+	base = 83460,
+	id = 83472,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59552,
+		50872
+	}
+}
+
+_G.pg.base.aircraft_template[83473] = {
+	max_hp = 118,
+	hp_growth = 4520,
+	base = 83460,
+	id = 83473,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59553,
+		50873
 	}
 }
 

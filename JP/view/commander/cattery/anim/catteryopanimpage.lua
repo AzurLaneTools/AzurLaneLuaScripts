@@ -38,8 +38,12 @@ function slot0.AddPlan(slot0, slot1)
 		end
 
 		uv0.timer = Timer.New(function ()
-			uv0:Hide()
+			if uv0.exited then
+				return
+			end
+
 			uv1:Hide()
+			uv0:Hide()
 		end, 0.5, 1)
 
 		uv0.timer:Start()
