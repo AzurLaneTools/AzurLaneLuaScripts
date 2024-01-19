@@ -26807,3 +26807,11 @@ _G.pg.base.gametip.skin_exchange_usetip = {
 _G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
 	tip = "您当前已拥有该自选券中所含的全部换装\n是否将<color=#92fc63>$1</color>转换为<color=#92fc63>$2</color>？"
 }
+
+_G.pg.base.gametip.not_use_ticket_to_buy_skin = {
+	tip = "不使用换装抵扣券"
+}
+
+_G.pg.base.gametip.skin_purchase_over_price = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63>$3</color>皮肤\n（超过换装售价的部分不返还）"
+}
