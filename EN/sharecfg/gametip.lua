@@ -24098,7 +24098,7 @@ cs.gametip = {
 	},
 	skin_purchase_over_price = {
 		919137,
-		338,
+		337,
 		true
 	}
 }

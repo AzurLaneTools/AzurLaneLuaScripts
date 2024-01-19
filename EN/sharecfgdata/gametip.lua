@@ -27090,5 +27090,5 @@ _G.pg.base.gametip.not_use_ticket_to_buy_skin = {
 }
 
 _G.pg.base.gametip.skin_purchase_over_price = {
-	tip = "Do you want to consume <color=#92fc63>$1*1</color>and purcharse the skin <color=#92fc63>$3</color> at the price of\n<icon name=gem w=0.6 h=0.6/>  <color=#FFDE38FF>$2</color>? (If the skin's full price is below the discount, no gems will be refunded)"
+	tip = "Do you want to consume <color=#92fc63>$1*1</color>and purchase the skin <color=#92fc63>$3</color> at the price of\n<icon name=gem w=0.6 h=0.6/>  <color=#FFDE38FF>$2</color>? (If the skin's full price is below the discount, no gems will be refunded)"
 }
