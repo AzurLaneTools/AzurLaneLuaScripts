@@ -221,6 +221,7 @@ function slot0.UpdatePainting(slot0)
 
 	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
 	slot0:updateSwitchSkinBtnTag()
+	slot0:checkShowResetL2dBtn()
 end
 
 function slot0.updateSwitchSkinBtnTag(slot0)
@@ -252,7 +253,11 @@ function slot0.checkShowResetL2dBtn(slot0)
 
 	setActive(slot0.btnLive2dReset, true)
 	onButton(slot0, slot0.btnLive2dReset, function ()
-		Live2dConst.ClearLive2dSave(uv0.ship.skinId, uv0.ship.id)
+		if uv0:GetFlagShip() then
+			slot0 = uv0:GetFlagShip()
+
+			Live2dConst.ClearLive2dSave(slot0.skinId, slot0.id)
+		end
 	end, SFX_CONFIRM)
 end
 

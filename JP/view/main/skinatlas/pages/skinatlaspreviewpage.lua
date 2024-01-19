@@ -194,6 +194,8 @@ function slot0.InitL2D(slot0, slot1, slot2)
 	slot0:ClearPainting(slot1)
 
 	slot0.live2d = SkinAtlasLive2dView.New(slot1, slot0.live2dContainer, slot2)
+
+	slot0.live2d.live2dChar:changeTriggerFlag(false)
 end
 
 function slot0.UpdateChar(slot0, slot1, slot2)

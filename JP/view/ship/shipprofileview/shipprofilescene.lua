@@ -76,7 +76,16 @@ function slot0.init(slot0)
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
+
+	GetComponent(slot0:findTF("L2D_btn", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0:findTF("L2D_btn/GameObject", slot0.blurPanel), typeof(Image)):SetNativeSize()
+
 	slot0.spinePaintingBtn = slot0:findTF("SP_btn", slot0.blurPanel)
+
+	GetComponent(slot0.spinePaintingBtn, typeof(Image)):SetNativeSize()
+	GetComponent(slot0:findTF("SP_btn/GameObject", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0:findTF("adapt/top/title", slot0.blurPanel), typeof(Image)):SetNativeSize()
+
 	slot1 = slot0.spinePaintingBtn
 	slot0.spinePaintingToggle = slot1:Find("toggle")
 	slot0.cvLoader = ShipProfileCVLoader.New()
