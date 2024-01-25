@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>四　意外惊喜</size>",
+					"為了眼中的光芒\n\n<size=45>四　意外驚喜</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "{namecode:525}的临时工作室，数日后————",
+			say = "英格拉罕的臨時工作室，數日後————",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "手头的事情也做得差不多了，接下来……",
+			say = "手邊的事情也做得差不多了，接下來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "唔……心情吗。",
+			say = "不……心情嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只是想着快点把东西修理好，这样就有时间去修别的东西了。",
+			say = "我只是想著快點把東西修理好，這樣就有時間去修別的東西了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "那将完成的物品交还给同伴之后，她们的反应呢？",
+			say = "那將完成的物品交還給同伴之後，她們的反應呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一般来说，我在修理好了之后就会通知她们来取。",
+			say = "一般來說，我在修理好了之後就會通知她們來拿。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "至于收到之后的反应，好像没怎么注意过……",
+			say = "至於收到之後的反應，好像沒怎麼注意過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这次就亲自送上门看看好了？",
+			say = "……這次就親自送上門看看好了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "工作台上的盾牌已经组装完毕，还有其他一些已经完成的东西也被随便摆在了一旁。",
+			say = "工作台上的盾牌已經組裝完畢，還有其他一些已經完成的東西也被隨便擺在了一旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "{namecode:525}默默地将它们收起包好，转身走了出去。",
+			say = "英格拉罕默默地將它們收起包好，轉身走了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			bgmDelay = 2,
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来了~",
+			say = "來了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "咦？{namecode:525}是你？等一下！这，这难道是……！",
+			say = "咦？英格拉罕是妳？等一下！這，這難道是……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，抱歉让你等了这么久，你的盾牌已经维修完毕了哦。",
+			say = "嗯，抱歉讓妳等了這麼久，妳的盾牌已經維修完畢了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "要我帮你戴上吗？",
+			say = "要我幫妳戴上嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "麻烦你了！",
+			say = "麻煩妳了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "只需要扣紧这里，然后这里……现在挥动看看，会不会有晃动？",
+			say = "只需要扣緊這裡，然後這裡……現在揮舞看看，會不會有晃動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完全没有任何问题……真是太感谢了！",
+			say = "完全沒有任何問題……真是太感謝了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "举手之劳而已，而且不仅如此哦。",
+			say = "舉手之勞而已，而且不只如此哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在你小拇指的地方应该能摸到一个小的凸起，轻轻碰一下看看？",
+			say = "在妳小拇指的地方應該可以摸到一個小小的凸起，輕輕碰一下看看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "伴随着金属摩擦的音效，原本略显细长的盾牌突然间变大了一倍。",
+			say = "伴隨著金屬摩擦的音效，原本略顯細長的盾牌突然變大了一倍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "这一切发生得太快，以至于里诺都还没有反应过来。",
+			say = "這一切發生地太快，以至於雷諾都還沒反應過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……大概就是这样。",
+			say = "……大概就是這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "顺带一提，因为觉得金属太重了，所以盾牌我用碳纤维材料重新做了一面。",
+			say = "順帶一提，因為覺得金屬太重了，所以盾牌我用碳纖維材料重新做了一面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "金属的声音只是音效，发声器就在这里，当然如果嫌吵的话也能设置关掉。",
+			say = "金屬的聲音只是音效，發聲器就在這裡，當然如果嫌吵的話也能設定關掉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "除了自动弹出我还设计了自动回收的功能，在你的食指处应该还能摸到一个开关。",
+			say = "除了自動彈出我還設計了自動回收的功能，在妳的食指處應該還能摸到一個開關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长按3秒就会自动收起来。",
+			say = "長按3秒就會自動收起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "里诺……？你在听吗？",
+			say = "雷諾……？妳在聽嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "里诺？",
+			say = "雷諾？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "…………自动弹出功能，实现了？",
+			say = "…………自動彈出功能，實現了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "抱歉，抱歉！我太真的是太————震撼了！",
+			say = "抱歉，抱歉！我這真的是太————震撼了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "这个真是之前拿给你修的那个道具盾牌么？不是你从哪个异世界带了一个真品给我吧！",
+			say = "這個真的是之前拿給妳修的道具盾牌嗎？不是妳從哪個異世界帶了一個真品給我吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "……只是随便做了些改装而已，感谢你能喜欢。",
+			say = "……只是隨便做了些改裝而已，感謝妳能喜歡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "只可惜这个时候的里诺已经听不进任何话了。",
+			say = "只可惜這個時候的雷諾已經聽不進任何話了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "她如获至宝一般地仔细研究着这面“振银盾牌”，显得爱不释手。",
+			say = "她如獲至寶一般的仔細研究著這面「振銀盾牌」，顯得愛不釋手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "{namecode:525}在一旁观察，她仿佛看到了，在里诺的眼中闪烁着奇妙的光芒。",
+			say = "英格拉罕在一旁觀察，她彷彿看見了，在雷諾的眼中閃爍著奇妙的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（这就是大家在收到物品之后的反应……）",
+			say = "（這是大家收到物品後的反應……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（指挥官当时想让我看到的，就是这个么……）",
+			say = "（指揮官當時要我看到的，就是這個嗎……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不知为何，{namecode:525}的心中突然升起一股强烈的干劲。",
+			say = "不知為何，英格拉罕的心中突然升起一股強烈的幹勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（既然已经有设备可以使用，干脆一口气把积压的物品全部完成吧。）",
+			say = "（既然已經有設備可以使用，乾脆一口氣把積壓的物品全部完成吧。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "和里诺道别之后，{namecode:525}快步返回了之前的仓库。",
+			say = "和雷諾道別之後，英格拉罕快步返回了先前的倉庫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "直到很晚很晚，库房的灯光依然没有熄灭。",
+			say = "直到很晚很晚，倉庫的燈光依然沒有熄滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

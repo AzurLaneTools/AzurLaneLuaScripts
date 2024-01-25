@@ -8705,11 +8705,6 @@ pg.painting_filte_map = {
 		key = "pulinsidun",
 		res_list = {
 			"painting/pulinsidun_tex",
-			"painting/pulinsidun_alter_tex",
-			"painting/pulinsidun_alter_rw_tex",
-			"painting/pulinsidun_alter_n_tex",
-			"painting/pulinsidun_alter_n",
-			"painting/pulinsidun_alter",
 			"painting/pulinsidun"
 		}
 	},
@@ -8738,6 +8733,16 @@ pg.painting_filte_map = {
 			"painting/pulinsidun_4_n_tex",
 			"painting/pulinsidun_4_n",
 			"painting/pulinsidun_4"
+		}
+	},
+	pulinsidun_alter = {
+		key = "pulinsidun_alter",
+		res_list = {
+			"painting/pulinsidun_alter_tex",
+			"painting/pulinsidun_alter_rw_tex",
+			"painting/pulinsidun_alter_n_tex",
+			"painting/pulinsidun_alter_n",
+			"painting/pulinsidun_alter"
 		}
 	},
 	qiabayefu = {
@@ -10996,11 +11001,6 @@ pg.painting_filte_map = {
 		key = "u410",
 		res_list = {
 			"painting/u410_tex",
-			"painting/u410_3_tex",
-			"painting/u410_3_rw_tex",
-			"painting/u410_3_n_tex",
-			"painting/u410_3_n",
-			"painting/u410_3",
 			"painting/u410"
 		}
 	},
@@ -11011,6 +11011,16 @@ pg.painting_filte_map = {
 			"painting/u410_2_n_tex",
 			"painting/u410_2_n",
 			"painting/u410_2"
+		}
+	},
+	u410_3 = {
+		key = "u410_3",
+		res_list = {
+			"painting/u410_3_tex",
+			"painting/u410_3_rw_tex",
+			"painting/u410_3_n_tex",
+			"painting/u410_3_n",
+			"painting/u410_3"
 		}
 	},
 	u47 = {

@@ -115,6 +115,7 @@ function slot0.init(slot0)
 	slot0.blueprintAssignedItemView = BlueprintAssignedItemView.New(slot0.topItems, slot0.event)
 	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0.topItems, slot0.event)
 	slot0.isEquipingOn = false
+	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -1138,26 +1139,34 @@ function slot0.updateItem(slot0, slot1, slot2)
 				slot0 = uv0
 
 				slot0:emit(uv1.ON_ITEM, uv2.id, function ()
-					slot1 = uv0:getConfig("usage_arg")[3]
+					slot0 = uv0:getConfig("usage_arg")
 
-					if Item.InTimeLimitSkinAssigned(uv0.id) then
-						slot1 = table.mergeArray(slot0[2], slot1, true)
-					end
+					if uv0:IsAllSkinOwner() then
+						slot1 = {
+							count = 1,
+							type = DROP_TYPE_ITEM,
+							id = slot0[5]
+						}
 
-					slot2 = getProxy(ShipSkinProxy)
-
-					if underscore.all(slot1, function (slot0)
-						return uv0:hasNonLimitSkin(slot0)
-					end) then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							hideNo = true,
-							content = i18n("blackfriday_pack_select_skinall")
+						uv1.msgBox:ExecuteAction("Show", {
+							content = i18n("blackfriday_pack_select_skinall_dialog", uv0:getConfig("name"), getDropName(slot1)),
+							leftDrop = {
+								count = 1,
+								type = DROP_TYPE_ITEM,
+								id = uv0.id
+							},
+							rightDrop = slot1,
+							onYes = function ()
+								uv0:emit(EquipmentMediator.ON_USE_ITEM, uv1.id, 1, {
+									0
+								})
+							end
 						})
 					else
-						slot3 = {}
+						slot1 = {}
 
-						for slot7, slot8 in ipairs(slot0[2]) do
-							slot3[slot8] = true
+						for slot5, slot6 in ipairs(slot0[2]) do
+							slot1[slot6] = true
 						end
 
 						uv1:emit(EquipmentMediator.ITEM_ADD_LAYER, Context.New({
@@ -1166,7 +1175,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 							data = {
 								mode = SelectSkinLayer.MODE_SELECT,
 								itemId = uv0.id,
-								selectableSkinList = underscore.map(slot1, function (slot0)
+								selectableSkinList = underscore.map(uv0:GetValidSkinList(), function (slot0)
 									return SelectableSkin.New({
 										id = slot0,
 										isTimeLimit = uv0[slot0] or false
@@ -1374,6 +1383,7 @@ function slot0.willExit(slot0)
 	slot0.assignedItemView:Destroy()
 	slot0.blueprintAssignedItemView:Destroy()
 	slot0.equipDestroyConfirmWindow:Destroy()
+	slot0.msgBox:Destroy()
 end
 
 return slot0

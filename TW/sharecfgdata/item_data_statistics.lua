@@ -14427,6 +14427,39 @@ _G.pg.base.item_data_statistics[21024] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21026] = {
+	open_directly = 0,
+	name = "結晶：普林斯頓·META",
+	display = "普林斯頓·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	type = 4,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 21026,
+	icon = "Props/21026",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -22772,6 +22805,60 @@ _G.pg.base.item_data_statistics[30415] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30416] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	type = 11,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30416,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "30416",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2049,
+			1
+		},
+		{
+			9,
+			2050,
+			1
+		},
+		{
+			9,
+			2051,
+			1
+		},
+		{
+			9,
+			2052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(夏末)",
@@ -26827,6 +26914,221 @@ _G.pg.base.item_data_statistics[30523] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[30524] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(遊樂園)",
+	display = "使用後可從「啾啾樂園」主題外觀裝備中任意選擇一種獲得1個",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30524,
+	icon = "Props/appearanceboxyouleyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			400,
+			1
+		},
+		{
+			9,
+			401,
+			1
+		},
+		{
+			9,
+			402,
+			1
+		},
+		{
+			9,
+			403,
+			1
+		},
+		{
+			9,
+			404,
+			1
+		},
+		{
+			9,
+			405,
+			1
+		},
+		{
+			9,
+			406,
+			1
+		},
+		{
+			9,
+			407,
+			1
+		},
+		{
+			9,
+			408,
+			1
+		},
+		{
+			9,
+			409,
+			1
+		},
+		{
+			9,
+			410,
+			1
+		},
+		{
+			9,
+			411,
+			1
+		},
+		{
+			9,
+			412,
+			1
+		},
+		{
+			9,
+			413,
+			1
+		},
+		{
+			9,
+			414,
+			1
+		},
+		{
+			9,
+			415,
+			1
+		},
+		{
+			9,
+			416,
+			1
+		},
+		{
+			9,
+			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			400,
+			1
+		},
+		{
+			9,
+			401,
+			1
+		},
+		{
+			9,
+			402,
+			1
+		},
+		{
+			9,
+			403,
+			1
+		},
+		{
+			9,
+			404,
+			1
+		},
+		{
+			9,
+			405,
+			1
+		},
+		{
+			9,
+			406,
+			1
+		},
+		{
+			9,
+			407,
+			1
+		},
+		{
+			9,
+			408,
+			1
+		},
+		{
+			9,
+			409,
+			1
+		},
+		{
+			9,
+			410,
+			1
+		},
+		{
+			9,
+			411,
+			1
+		},
+		{
+			9,
+			412,
+			1
+		},
+		{
+			9,
+			413,
+			1
+		},
+		{
+			9,
+			414,
+			1
+		},
+		{
+			9,
+			415,
+			1
+		},
+		{
+			9,
+			416,
+			1
+		},
+		{
+			9,
+			417,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30526] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(鐵血)",
@@ -27467,6 +27769,221 @@ _G.pg.base.item_data_statistics[30529] = {
 		{
 			9,
 			847,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30530] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(2021春節)",
+	display = "使用後可從「2021春節」主題外觀裝備中任意選擇一種獲得1個",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30530,
+	icon = "Props/appearanceboxchunjiezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			380,
+			1
+		},
+		{
+			9,
+			381,
+			1
+		},
+		{
+			9,
+			382,
+			1
+		},
+		{
+			9,
+			383,
+			1
+		},
+		{
+			9,
+			384,
+			1
+		},
+		{
+			9,
+			385,
+			1
+		},
+		{
+			9,
+			386,
+			1
+		},
+		{
+			9,
+			387,
+			1
+		},
+		{
+			9,
+			388,
+			1
+		},
+		{
+			9,
+			389,
+			1
+		},
+		{
+			9,
+			390,
+			1
+		},
+		{
+			9,
+			391,
+			1
+		},
+		{
+			9,
+			392,
+			1
+		},
+		{
+			9,
+			393,
+			1
+		},
+		{
+			9,
+			394,
+			1
+		},
+		{
+			9,
+			395,
+			1
+		},
+		{
+			9,
+			396,
+			1
+		},
+		{
+			9,
+			397,
 			1
 		}
 	}

@@ -4,6 +4,7 @@ slot0.TIMEUP = "BuildShipProxy TIMEUP"
 slot0.UPDATED = "BuildShipProxy UPDATED"
 slot0.REMOVED = "BuildShipProxy REMOVED"
 slot0.DRAW_COUNT_UPDATE = "BuildShipProxy DRAW_COUNT_UPDATE"
+slot0.REGULAR_BUILD_POOL_COUNT_UPDATE = "BuildShipProxy.REGULAR_BUILD_POOL_COUNT_UPDATE"
 
 function slot0.register(slot0)
 	slot0:on(12024, function (slot0)
@@ -20,6 +21,8 @@ function slot0.register(slot0)
 		end
 
 		uv0:setBuildShipState()
+
+		uv0.regularExchangeCount = slot0.exchange_count
 	end)
 end
 
@@ -253,7 +256,7 @@ function slot0.increaseDrawCount(slot0, slot1)
 		slot0.drawCount10 = slot0.drawCount10 + 1
 	end
 
-	slot0.facade:sendNotification(uv0.DRAW_COUNT_UPDATE, slot0:getDrawCount())
+	slot0:sendNotification(uv0.DRAW_COUNT_UPDATE, slot0:getDrawCount())
 end
 
 function slot0.addBuildShip(slot0, slot1)
@@ -272,7 +275,7 @@ function slot0.addBuildShip(slot0, slot1)
 		assert(false, "激活的建船数量大于最大数量")
 	end
 
-	slot0.facade:sendNotification(uv0.ADDED, slot1:clone())
+	slot0:sendNotification(uv0.ADDED, slot1:clone())
 end
 
 function slot0.finishBuildShip(slot0, slot1)
@@ -286,7 +289,7 @@ function slot0.updateBuildShip(slot0, slot1, slot2)
 
 	slot0.data[slot1] = slot2:clone()
 
-	slot0.facade:sendNotification(uv0.UPDATED, {
+	slot0:sendNotification(uv0.UPDATED, {
 		index = slot1,
 		buildShip = slot2:clone()
 	})
@@ -298,7 +301,7 @@ function slot0.removeBuildShipByIndex(slot0, slot1)
 	slot0.lastPoolType = slot0.data[slot1].type
 
 	table.remove(slot0.data, slot1)
-	slot0.facade:sendNotification(uv0.REMOVED, {
+	slot0:sendNotification(uv0.REMOVED, {
 		index = slot1,
 		buildShip = slot2
 	})
@@ -318,6 +321,16 @@ end
 
 function slot0.getSupportShipCost(slot0)
 	return pg.gameset.supports_config.description[1]
+end
+
+function slot0.changeRegularExchangeCount(slot0, slot1)
+	slot0.regularExchangeCount = math.clamp(slot0.regularExchangeCount + slot1, 0, pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request)
+
+	slot0:sendNotification(uv0.REGULAR_BUILD_POOL_COUNT_UPDATE)
+end
+
+function slot0.getRegularExchangeCount(slot0)
+	return slot0.regularExchangeCount
 end
 
 return slot0

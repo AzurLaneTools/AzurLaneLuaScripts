@@ -121,7 +121,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10109] = {
 		shiptype = 1,
-		name = "埃德索尔级",
+		name = "埃德索爾級",
 		nation = 1,
 		id = 10109,
 		t_level_1 = 7,

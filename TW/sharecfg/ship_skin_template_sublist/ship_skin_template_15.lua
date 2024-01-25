@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[603050] = {
+		ship_group = 60305,
+		name = "博爾扎諾",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 603050,
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "boerzhanuo",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "boerzhanuo",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "重巡洋艦—博爾扎諾",
+		voice_actor = 335,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.981,
+					0.793,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.992,
+					0.801,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					-0.022,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.936,
+					1.169,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.82,
+							1.745,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[603051] = {
 		ship_group = 60305,
 		name = "旋舞之刻",
@@ -10464,120 +10576,6 @@ pg.base.ship_skin_template_15 = {
 				{
 					0.467,
 					0.826,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801022] = {
-		ship_group = 80102,
-		name = "學園的見習騎士",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 801022,
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70201,
-		painting = "fuerban_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "fuerban_3",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "自由鳶尾見習騎士福爾班，現在正作為學生努力適應著校園生活。唔……這樣是不是有些悠閒過頭了？",
-		voice_actor = 124,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.93,
-					0.997,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.964,
-					0.981,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.042,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.95,
-					1.009,
 					0
 				}
 			}

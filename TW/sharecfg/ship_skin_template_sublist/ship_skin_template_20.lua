@@ -1,6 +1,233 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[10800090] = {
+		ship_group = 1080009,
+		name = "公主",
+		hand_id = 2,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 10800090,
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gongzhu",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "gongzhu",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "咦？這裡是…啊，嗯，為人之子，汝所求何物…啊，不用來這套嗎？啊哈哈…初次見面，異國之人。我的名字是——嗯，隨意點叫我“公主”就好。",
+		voice_actor = 182,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.872,
+					0.632,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.887,
+					0.654,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.196,
+					1.241,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.723,
+							1.671,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10800091] = {
+		ship_group = 1080009,
+		name = "晚酌時間",
+		hand_id = 2,
+		bgm = "ssss-az-story",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 10800091,
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70868,
+		painting = "gongzhu_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "142",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "gongzhu_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呀！被你發現了…有什麼關係嘛，私下打扮成怎麼樣晩酌都行吧…怎麼？因為酒意有點發紅的姐姐柔膚，就那麼在意嗎？",
+		voice_actor = 182,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.872,
+					0.632,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.887,
+					0.654,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.196,
+					1.241,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.723,
+							1.671,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10800100] = {
 		ship_group = 1080010,
 		name = "古立特",

@@ -999,6 +999,19 @@ slot1 = {
 			})
 		end)
 		seriesAsync(slot2, slot1)
+	end,
+	BuildShipRegularExchangeMediator = function (slot0, slot1)
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id) do
+			PaintingConst.AddPaintingNameByShipConfigID(slot2, slot7)
+		end
+
+		PaintingConst.PaintingDownload({
+			isShowBox = false,
+			paintingNameList = slot2,
+			finishFunc = slot1
+		})
 	end
 }
 

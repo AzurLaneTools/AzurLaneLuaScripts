@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>二　委托</size>",
+					"為了眼中的光芒\n\n<size=45>二　委託</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			bgmDelay = 2,
 			soundeffect = "event:/ui/knockdoor1",
 			flashout = {
@@ -47,7 +47,7 @@ return {
 			},
 			options = {
 				{
-					content = "请进",
+					content = "請進",
 					flag = 1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "打扰了，指挥官。",
+			say = "打擾了，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请问你找我来有什么事么？",
+			say = "請問你找我來有什麼事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "关于你之前提交的成立个人工作室的事——",
+			say = "關於妳之前提交的成立個人工作室的事——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "唔……果然无法批准么……",
+			say = "嗯……果然無法批准嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}看到了静静地摆放在办公桌上的申请书，有些失落地低下了头。",
+			say = "英格拉罕看到了靜靜擺放在辦公桌上的申請書，有些失落的低下了頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，很快{namecode:525}就发现，申请书上虽然没有批复同意，但其实也没有批复不同意。",
+			say = "不過，很快英格拉罕就發現，申請書上雖然沒有批准同意，但其實也沒有批准不同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "指挥官，请问这是……？",
+			say = "指揮官，請問這是……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在做出正式批复之前，想先和你聊一下。",
+			say = "在做出正式批准之前，想先和妳聊聊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "为什么要现在提交申请，是遇到什么困难了么？",
+			say = "為什麼現在要提交申請，是遇到什麼困難了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "关于这一点，其实是因为……",
+			say = "關於這一點，其實是因為……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "原来如此，情况我已经大致了解了。",
+			say = "原來如此，情況我已經大致了解了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "这么说来……申请能通过了么？",
+			say = "這麼說來……申請能通過了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在做出决定之前，我想问你一个问题。",
+			say = "在做出決定之前，我想問妳一個問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}在替港区的同伴们修理物品的时候，是怀着怎样的心情呢？",
+			say = "英格拉罕在替港區的同伴們修理物品的時候，是懷著怎樣的心情呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "唔……心情吗。",
+			say = "不……心情嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只是想着快点把东西修理好，这样就有时间去修别的东西了。",
+			say = "我只是想著快點把東西修理好，這樣就有時間去修別的東西了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "那将完成的物品交还给同伴之后，她们的反应呢？",
+			say = "那將完成的物品交還給同伴之後，她們的反應呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一般来说，我在修理好了之后就会通知她们来取。",
+			say = "一般來說，我在修理好了之後就會通知她們來拿。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "至于收到之后的反应，好像没怎么注意过……",
+			say = "至於收到之後的反應，好像沒怎麼注意過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这样啊……你的申请我会认真考虑的。",
+			say = "這樣啊……妳的申請我會認真考慮的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在那之前，库存里有一批最近淘汰下来的旧设备，你先用它们去应应急如何？",
+			say = "在那之前，庫存裡有一批最近淘汰的舊設備，妳先用它們去應應急如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "地点的话，就用仓库附近的那个废弃库房吧。",
+			say = "地點的話，就用倉庫附近的那個廢棄庫房吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "没问题！多谢指挥官！",
+			say = "沒問題！多謝指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1

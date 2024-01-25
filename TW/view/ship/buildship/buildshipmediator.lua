@@ -13,6 +13,7 @@ slot0.ON_SUPPORT_SHOP = "BuildShipMediator ON_SUPPORT_SHOP"
 slot0.OPEN_PRAY_PAGE = "BuildShipMediator OPEN_PRAY_PAGE"
 slot0.CLOSE_PRAY_PAGE = "BuildShipMediator CLOSE_PRAY_PAGE"
 slot0.ON_BUILDPOOL_EXCHANGE = "BuildShipMediator:ON_BUILDPOOL_EXCHANGE"
+slot0.ON_BUILDPOOL_UR_EXCHANGE = "BuildShipMediator.ON_BUILDPOOL_UR_EXCHANGE"
 slot0.ON_SUPPORT_EXCHANGE = "BuildShipMediator:ON_SUPPORT_EXCHANGE"
 
 function slot0.register(slot0)
@@ -118,6 +119,12 @@ function slot0.register(slot0)
 			activity_id = slot1
 		})
 	end)
+	slot0:bind(uv0.ON_BUILDPOOL_UR_EXCHANGE, function (slot0)
+		uv0:addSubLayers(Context.New({
+			viewComponent = BuildShipRegularExchangeLayer,
+			mediator = BuildShipRegularExchangeMediator
+		}))
+	end)
 	slot0.viewComponent:updateQueueTip(slot7:getFinishCount())
 	slot0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())
 
@@ -146,8 +153,10 @@ function slot0.listNotificationInterests(slot0)
 		BuildShipProxy.REMOVED,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE,
+		GAME.REGULAR_BUILD_POOL_EXCHANGE_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.SUPPORT_SHIP_DONE
+		GAME.SUPPORT_SHIP_DONE,
+		BuildShipProxy.REGULAR_BUILD_POOL_COUNT_UPDATE
 	}
 end
 
@@ -260,7 +269,9 @@ function slot0.handleNotification(slot0, slot1)
 					slot0.viewComponent:RefreshFreeBuildActivity()
 				end
 			end
-		elseif slot2 == GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE then
+		elseif slot2 == BuildShipProxy.REGULAR_BUILD_POOL_COUNT_UPDATE then
+			slot0.viewComponent:RefreshRegularExchangeCount()
+		elseif slot2 == GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE or slot2 == GAME.REGULAR_BUILD_POOL_EXCHANGE_DONE then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end
 	end

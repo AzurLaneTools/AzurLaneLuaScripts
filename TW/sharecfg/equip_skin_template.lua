@@ -25373,6 +25373,167 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[2049] = {
+		hit_sfx = "",
+		bullet_name = "paodan_xingxi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "像素星系",
+		orbit_combat = "",
+		desc = "環繞~旋轉~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 104,
+		icon = "96613",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2049,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_xingxi_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2050] = {
+		hit_sfx = "",
+		bullet_name = "zidan_shizixing",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "像素星光子彈",
+		orbit_combat = "",
+		desc = "一閃一閃亮晶晶~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 104,
+		icon = "96614",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2050,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2051] = {
+		hit_sfx = "",
+		bullet_name = "yulei_yunshi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "像素隕石魚雷",
+		orbit_combat = "",
+		desc = "毀——滅——！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_anima_change = "",
+		themeid = 104,
+		icon = "96622",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2051,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2052] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "像素飛碟",
+		type = 1,
+		preview_hit_distance = 0,
+		orbit_combat = "shebei_xiangsufeidie",
+		mirror = 0,
+		desc = "神秘飛來~神秘飛走~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xiangsufeidieui",
+		icon = "96641",
+		orbit_combat_anima_change = "",
+		themeid = 104,
+		id = 2052,
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				1.15,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				140
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -26074,6 +26235,10 @@ pg.equip_skin_template = {
 		2045,
 		2046,
 		2047,
-		2048
+		2048,
+		2049,
+		2050,
+		2051,
+		2052
 	}
 }

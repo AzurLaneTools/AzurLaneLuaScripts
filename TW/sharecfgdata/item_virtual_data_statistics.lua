@@ -157803,8 +157803,8 @@ _G.pg.base.item_virtual_data_statistics[59458] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59459] = {
-	display = "用于「镜位螺旋」复刻活动兑换，活动结束后将会消失",
-	name = "镜位之证",
+	display = "用於「鏡位螺旋」復刻活動兌換，活動結束後將會消失",
+	name = "鏡位之證",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157827,8 +157827,8 @@ _G.pg.base.item_virtual_data_statistics[59459] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59460] = {
-	display = "于「镜位螺旋」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
-	name = "单次建造券",
+	display = "於「鏡位螺旋」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -157851,8 +157851,8 @@ _G.pg.base.item_virtual_data_statistics[59460] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59461] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158355,8 +158355,8 @@ _G.pg.base.item_virtual_data_statistics[59492] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59493] = {
-	display = "参与「世界巡游」(2023.10.1~2023.11.30)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
-	name = "巡游点数",
+	display = "參與「世界巡遊」(2024.2.1~2024.3.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -158389,7 +158389,7 @@ _G.pg.base.item_virtual_data_statistics[59494] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 7013,
+	link_id = 45912,
 	virtual_type = 21,
 	is_world = 0,
 	icon = "props/summer_stamp",

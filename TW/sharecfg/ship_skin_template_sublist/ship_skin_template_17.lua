@@ -1,6 +1,104 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_17 = {
+	[900027] = {
+		ship_group = 900027,
+		name = "{namecode:95}",
+		hand_id = 0,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 900027,
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "xianghe_memory",
+		illustrator = 14,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "xianghe",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "{namecode:95}級航空母艦一番艦—{namecode:95}",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-1.19,
+					1.31,
+					0
+				}
+			},
+			plane = {
+				{
+					0.62,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.22,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900028] = {
 		ship_group = 900028,
 		name = "{namecode:96}",
@@ -10317,117 +10415,6 @@ pg.base.ship_skin_template_17 = {
 						{
 							-0.29,
 							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900252] = {
-		ship_group = 900252,
-		name = "企业",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 900252,
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "qiye",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "qiye",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "约克城级航空母舰—企业，舷号CV-6",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.802,
-					0.53,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.863,
-					0.643,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.967,
-							0.38,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.14,
-							0.832,
 							0
 						}
 					}

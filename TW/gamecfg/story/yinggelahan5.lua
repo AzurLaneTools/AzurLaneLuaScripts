@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>五　相比效率…</size>",
+					"為了眼中的光芒\n\n<size=45>五　相比效率…</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "在那之后过去了大约一周。",
+			say = "在那之後過去了大約一周。",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "凭借惊人的毅力，{namecode:525}在这一周左右的时间里，完成了总量约四分之一的委托。",
+			say = "憑藉著驚人的毅力，英格拉罕在這一周左右的時間裡，完成了總量約四分之一的委託。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "之后又亲自将这些修好的物品送给了它们的主人。",
+			say = "之後又親自將這些修好的物品送給了它們的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "完成这一切的{namecode:525}决定暂时休息一下。",
+			say = "完成這一切的英格拉罕決定暫時休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "往日里忙碌的工作台突然安静了下来，她趴在桌前，不小心睡去了……",
+			say = "往日裡忙碌的工作台突然安靜了下來，她趴在桌前，不小心睡去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不知过了多久，{namecode:525}在朦胧中感觉到有什么东西正在戳她的脸。",
+			say = "不知過了多久，英格拉罕在朦朧中感覺到有什麼正東西在戳她的臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "呜哇，没想到把你弄醒了，真抱歉……",
+			say = "嗚哇，沒想到把妳吵醒了，真抱歉……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "……是库珀啊，你来找我有什么事么？",
+			say = "……是庫珀啊，妳來找我有什麼事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实也说不上有什么事啦，就是之前拜托你的那个“变身道具”，你还记得吗。",
+			say = "其實也說不上有什麼事啦，就是之前拜託妳的那個「變身道具」，妳還記得嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "记得，那东西不是已经弄好了给你了吗，你该不会又弄坏了吧？",
+			say = "記得，那東西不是已經弄好給妳了嗎，妳該不會又弄壞了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "没有啦！是别的事……",
+			say = "沒有啦！是別的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "到底怎么了，一直扭扭捏捏地可不像平时的你啊。",
+			say = "到底怎麼了，一直扭扭捏捏的並不像平常的妳啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "我只是在思考怎么和你说，但是又怕你误会。",
+			say = "我只是在思考怎麼跟妳說，但又怕妳誤會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "库珀深吸一口气————",
+			say = "庫珀深吸一口氣————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "{namecode:525}你觉得，大家为什么会不约而同地来找你修理或者改造各种小物件呢？",
+			say = "英格拉罕妳覺得，大家為什麼不約而同地來找妳修理或改造各種小物呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为我恰好会做一点？",
+			say = "因為我剛好會做一點？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "虽然也有这个原因……不过我觉得，原因不只有这些。",
+			say = "雖然也有這個原因……不過我覺得，原因不只這些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "就拿我的“变身道具”来说，其实去拜托{namecode:98}维修或者换一个新的也是可以的……",
+			say = "就拿我的「變身道具」來說，其實去拜託明石維修或換一個新的也是可以的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "但是这样的话……回来的“变身道具”就只是一个完好如初的“变身道具”。",
+			say = "但是這樣的話……回來的「變身道具」就只是一個完好如初的「變身道具」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "……“意外的惊喜”不存在了。",
+			say = "……「意外的驚喜」不存在了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "……“意外的惊喜”？",
+			say = "……「意外的驚喜」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "嗯……就像之前里诺的“振银盾牌”一样……这些都是只有拜托你之后，才会出现的“意外惊喜”。",
+			say = "嗯……就像之前雷諾的「振銀盾牌」一樣……這些都是只有拜託妳之後，才會出現的「意外驚喜」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "也因此大家在拜托了{namecode:525}维修之后，不论等多久才能拿到都愿意！",
+			say = "也因此大家在拜託了英格拉罕維修之後，不論等多久之後才能拿到都願意！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "嗯……也就是说对我赶工出来的东西不满意了对吧。",
+			say = "嗯……也就是說對我趕工出來的東西不滿意了對吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "不是不是，不是不满意！你看，我就是怕你误会才不愿意说的！",
+			say = "不是不是，不是不滿意！妳看，我就是怕妳誤會才不願意說的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没有误会，也没有生气。",
+			say = "我沒有誤會，也沒有生氣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "连续一周时间投入到这些委托上后，我发现我的心态也发生了一些变化。",
+			say = "連續一週時間投入這些委託後，我發現我的心態也發生了一些的改變。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "以往在做这些事情的时候，那种将脑子里突然浮现的点子化成现实的兴奋感慢慢消失掉了。",
+			say = "以往在做這些事情的時候，那種將腦中突然浮現的點子化成現實的興奮感慢慢消失了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "一想到还有堆积成山的委托就不得不加快自己的进度，到后面甚至开始烦躁了起来……",
+			say = "一想到還有堆積成山的委託就得加快自己的進度，到後面甚至開始煩躁了起來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "越是想要看到她们眼中的光，就越是难再看到。",
+			say = "越是想要看到她們眼中的光，就越是難再看到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "就像是出发了太久，而忘记了旅行的初衷一样……",
+			say = "就像是出發了太久，而忘了旅行的初衷一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "{namecode:525}揉了揉自己的眉间。",
+			say = "英格拉罕揉了揉自己的眉間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "你还记得我帮你做“变身道具”时候的事吗。",
+			say = "妳還記得我幫妳做「變身道具」時候的事嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "我们当时不是聊了很多吗？虽然大部分时候都是我在说话……",
+			say = "我們當時不是聊了很多嗎？雖然大部分時候都是我在說話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "不过这些都不重要，那个时候你嘴上说着麻烦，但最后做出来的时候，可是连每一个细节都到位了！",
+			say = "不過這些都不重要，那時候你嘴上說著麻煩，但最後做出來的時候，可是連每一個細節都作到位了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "嗯……毕竟因为要给你做这种东西还去特意看了看你说的那部片子……",
+			say = "嗯……畢竟因為要幫妳做這種東西還去特意看了看妳說的那部片子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（而在太注重效率之后，这些东西都消失了……）",
+			say = "（而在太注重效率之後，這些東西都消失了……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（…………原来这才是指挥官的提问真正的意思。）",
+			say = "（…………原來這才是指揮官的提問真正的意思。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（没有一下子批准我的申请也是这样么……）",
+			say = "（沒有一下子核准我的申請也是這樣嗎……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "一股被人看穿了心思的羞怯感涌上心头，{namecode:525}突然觉得脸颊发烫。",
+			say = "一股被人看穿了心思的羞怯感湧上心頭，英格拉罕突然覺得臉頰發燙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总……总之先做一下售后调查好了，有哪些不满意的地方我再重新规划一下！",
+			say = "總……總之先做一下售後調查好了，有哪些不滿意的地方我再重新規劃一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "库珀你也来帮忙！",
+			say = "庫珀妳也來幫忙！",
 			painting = {
 				alpha = 0.3,
 				time = 1

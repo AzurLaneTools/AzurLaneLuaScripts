@@ -2767,7 +2767,18 @@ function temp()
 		["林"] = {
 			["斯"] = {
 				["頓"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},

@@ -214,6 +214,7 @@ pg.memory_group = setmetatable({
 		578,
 		579,
 		581,
+		582,
 		587
 	}
 }, confHX)
@@ -4548,6 +4549,23 @@ pg.base.memory_group = {
 			2455,
 			2456,
 			2457
+		}
+	},
+	[582] = {
+		id = 582,
+		subtype = 0,
+		icon = "title_chara_yinggelahan",
+		type = 3,
+		link_event = 0,
+		title = "為了眼中的光芒",
+		memories = {
+			2511,
+			2512,
+			2513,
+			2514,
+			2515,
+			2516,
+			2517
 		}
 	},
 	[587] = {

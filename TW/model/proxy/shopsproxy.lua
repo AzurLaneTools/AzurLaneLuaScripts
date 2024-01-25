@@ -420,13 +420,13 @@ function slot0.GetRecommendCommodities(slot0)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(pg.recommend_shop.all) do
-		if RecommendCommodity.New({
+		if pg.TimeMgr.GetInstance():inTime(pg.recommend_shop[slot9].time) and RecommendCommodity.New({
 			id = slot9,
 			chargedList = slot1,
 			normalList = slot2,
 			normalGroupList = slot3
 		}):CanShow() then
-			table.insert(slot4, slot10)
+			table.insert(slot4, slot11)
 		end
 	end
 

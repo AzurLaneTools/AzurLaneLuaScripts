@@ -1687,6 +1687,104 @@ pg.base.ship_skin_template_14 = {
 			}
 		}
 	},
+	[408112] = {
+		ship_group = 40811,
+		name = "悠然應援練習",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		id = 408112,
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 0,
+		painting = "u410_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "112",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "u410_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "最後一個動作……差不多就這樣？ 呵呵，指揮官，從你那邊的角度看起來怎麼樣？",
+		voice_actor = 261,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.578,
+					0.498,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.037,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.924,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[408120] = {
 		ship_group = 40812,
 		name = "U-1206",
@@ -10299,118 +10397,6 @@ pg.base.ship_skin_template_14 = {
 			},
 			{
 				1.4
-			}
-		}
-	},
-	[603050] = {
-		ship_group = 60305,
-		name = "博爾扎諾",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 603050,
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "boerzhanuo",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "boerzhanuo",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "重巡洋艦—博爾扎諾",
-		voice_actor = 335,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.981,
-					0.793,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.992,
-					0.801,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.02,
-					-0.022,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.936,
-					1.169,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.82,
-							1.745,
-							0
-						}
-					}
-				}
 			}
 		}
 	}

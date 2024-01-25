@@ -54,6 +54,14 @@ function slot0.didEnter(slot0)
 	setActive(slot0.changeBtn, false)
 end
 
+function slot0.UpdateCouponBtn(slot0)
+	slot0.couponTr.localScale = Vector3(0, 0, 0)
+end
+
+function slot0.UpdateVoucherBtn(slot0)
+	slot0.voucherTr.localScale = Vector3(0, 0, 0)
+end
+
 function slot0.UpdateTitle(slot0, slot1)
 	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", "probabilityshop")
 
