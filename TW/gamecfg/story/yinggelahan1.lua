@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "你在做什麼呢？",
+			say = "妳在做什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
