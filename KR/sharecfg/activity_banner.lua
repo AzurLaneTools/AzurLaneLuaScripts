@@ -3,36 +3,11 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -175,7 +150,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5104",
+		param = "5162",
 		id = 6,
 		pic = "temp4",
 		type = 3,
