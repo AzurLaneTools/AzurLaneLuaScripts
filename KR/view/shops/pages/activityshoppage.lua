@@ -119,35 +119,34 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
-function slot0.ResId2ItemId(slot0, slot1)
-	return id2ItemId(slot1)
-end
+function slot0.SetResIcon(slot0, slot1)
+	slot2 = slot0.shop:GetResList()
 
-function slot0.SetResIcon(slot0)
-	slot1 = slot0.shop:GetResList()
+	for slot6, slot7 in ipairs(slot0.resTrList) do
+		slot8 = slot7[1]
+		slot9 = slot7[2]
+		slot10 = slot7[3]
+		slot11 = slot7[4]
 
-	for slot5, slot6 in ipairs(slot0.resTrList) do
-		slot7 = slot6[1]
-		slot8 = slot6[2]
-		slot9 = slot6[3]
-		slot10 = slot6[4]
+		if slot2[slot6] ~= nil then
+			slot13 = {
+				type = slot1 or DROP_TYPE_RESOURCE,
+				id = slot12
+			}
 
-		if slot1[slot5] ~= nil then
-			slot12 = pg.item_data_statistics[slot0:ResId2ItemId(slot11)]
-
-			GetSpriteFromAtlasAsync(slot12.icon, "", function (slot0)
+			GetSpriteFromAtlasAsync(getDropIcon(slot13), "", function (slot0)
 				uv0.sprite = slot0
 			end)
 
-			slot10.text = slot12.name
+			slot11.text = getDropName(slot13)
 		end
 	end
 
-	slot2 = slot0.shop:IsEventShop()
+	slot3 = slot0.shop:IsEventShop()
 
-	setActive(slot0:findTF("res_battery"), not slot2)
-	setActive(slot0:findTF("res_battery1"), not slot2 and #slot1 > 1)
-	setActive(slot0:findTF("event_res_battery"), slot2)
+	setActive(slot0:findTF("res_battery"), not slot3)
+	setActive(slot0:findTF("res_battery1"), not slot3 and #slot2 > 1)
+	setActive(slot0:findTF("event_res_battery"), slot3)
 end
 
 function slot0.UpdateTip(slot0)

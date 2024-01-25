@@ -60,7 +60,7 @@ end
 function slot0.PurchaseItem(slot0, slot1)
 	assert(slot1:getDropInfo().type == DROP_TYPE_ITEM)
 
-	slot3 = pg.item_data_statistics[slot2.id]
+	slot3 = Item.getConfigData(slot2.id)
 
 	slot0:ShowMsgBox({
 		isMonthCard = false,

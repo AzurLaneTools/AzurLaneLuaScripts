@@ -439,12 +439,7 @@ function slot0.getTopLimitAttrValue(slot0, slot1)
 end
 
 function slot0.getItemExp(slot0)
-	slot1 = slot0:getConfig("strengthen_item")
-	slot2 = pg.item_data_template[slot1].usage_arg[1]
-
-	assert(slot2, "item_data_template >>> usage_arg " .. slot1)
-
-	return slot2
+	return Item.getConfigData(slot0:getConfig("strengthen_item")).usage_arg[1]
 end
 
 function slot0.getShipProperties(slot0, slot1, slot2)

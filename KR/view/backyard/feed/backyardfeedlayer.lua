@@ -233,7 +233,7 @@ function slot0.SimulateAddFood(slot0, slot1, slot2)
 		slot3 = getProxy(DormProxy):getRawData()
 		slot0.simulateFood = slot3.food
 		slot0.simulateCapacity = slot3:GetCapcity()
-		slot0.simulateAddition = pg.item_data_template[slot1].usage_arg[1]
+		slot0.simulateAddition = Item.getConfigData(slot1).usage_arg[1]
 		slot0.simulateItemCnt = getProxy(BagProxy):getItemCountById(slot1)
 		slot0.simulateUsageCnt = 0
 		slot0.isSimulation = true
@@ -297,7 +297,7 @@ function slot0.ShowCapcityTip(slot0, slot1, slot2, slot3, slot4)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		showStopRemind = true,
 		type = MSGBOX_TYPE_SINGLE_ITEM,
-		content = i18n("backyard_food_remind", pg.item_data_statistics[slot1].name),
+		content = i18n("backyard_food_remind", Item.getConfigData(slot1).name),
 		name = i18n("backyard_food_count", slot2 .. "/" .. slot3),
 		drop = {
 			type = DROP_TYPE_ITEM,

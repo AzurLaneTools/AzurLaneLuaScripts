@@ -197,7 +197,7 @@ function slot0.confirm(slot0, slot1)
 	else
 		slot2 = {}
 
-		if type(pg.item_data_statistics[slot1:getConfig("effect_args")[1]].display_icon) == "table" then
+		if type(Item.getConfigData(slot1:getConfig("effect_args")[1]).display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
 				table.insert(slot2, {
 					type = slot10[1],

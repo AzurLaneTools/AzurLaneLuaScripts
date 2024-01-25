@@ -1138,7 +1138,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 				slot0 = uv0
 
 				slot0:emit(uv1.ON_ITEM, uv2.id, function ()
-					slot1 = uv0:getTempCfgTable().usage_arg[3]
+					slot1 = uv0:getConfig("usage_arg")[3]
 
 					if Item.InTimeLimitSkinAssigned(uv0.id) then
 						slot1 = table.mergeArray(slot0[2], slot1, true)

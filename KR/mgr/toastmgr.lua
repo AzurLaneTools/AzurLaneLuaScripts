@@ -393,18 +393,18 @@ end
 
 function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
-	slot5 = slot4.ptId
 	slot7 = pg.CriMgr.GetInstance()
 
 	slot7:PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
 
 	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
-
-	LoadImageSpriteAtlasAsync(getDropIcon({
+	slot8 = {
 		type = DROP_TYPE_RESOURCE,
-		id = slot5
-	}), "", slot7:Find("PointIcon"), true)
-	setText(slot7:Find("info/name"), pg.item_data_statistics[id2ItemId(slot5)].name)
+		id = slot4.ptId
+	}
+
+	LoadImageSpriteAtlasAsync(getDropIcon(slot8), "", slot7:Find("PointIcon"), true)
+	setText(slot7:Find("info/name"), getDropName(slot8))
 	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
 	setAnchoredPosition(slot7, {
 		x = slot7.rect.width
@@ -427,19 +427,19 @@ end
 
 function slot0.UpdateVote(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
-	slot5 = slot4.ptId
-	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
-
-	LoadImageSpriteAtlasAsync(getDropIcon({
+	slot7 = {
 		type = DROP_TYPE_ITEM,
-		id = slot5
-	}), "", slot7:Find("PointIcon"), true)
-	setText(slot7:Find("info/name"), pg.item_data_statistics[slot5].name)
-	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
-	setAnchoredPosition(slot7, {
-		x = slot7.rect.width
+		id = slot4.ptId
+	}
+	slot8 = tf(slot0:GetAndSet(slot1.type, slot0.container))
+
+	LoadImageSpriteAtlasAsync(getDropIcon(slot7), "", slot8:Find("PointIcon"), true)
+	setText(slot8:Find("info/name"), getDropName(slot7))
+	setText(slot8:Find("info/pt"), "+" .. slot4.ptCount)
+	setAnchoredPosition(slot8, {
+		x = slot8.rect.width
 	})
-	LeanTween.alphaCanvas(GetComponent(slot7, typeof(CanvasGroup)), 1, 0.5):setFrom(0):setOnComplete(System.Action(function ()
+	LeanTween.alphaCanvas(GetComponent(slot8, typeof(CanvasGroup)), 1, 0.5):setFrom(0):setOnComplete(System.Action(function ()
 		LeanTween.alphaCanvas(uv0, 0, 0.5):setDelay(5):setOnComplete(System.Action(function ()
 			setActive(uv0, false)
 			uv1.pools[uv2.type .. "Tpl"]:Enqueue(go(uv0))

@@ -26,7 +26,10 @@ function slot0.UpdateRes(slot0)
 	if not slot0.isInitResIcon then
 		slot0.isInitResIcon = true
 
-		GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1)].icon, "", slot0.resIcon)
+		GetImageSpriteFromAtlasAsync(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = slot1
+		}), "", slot0.resIcon)
 	end
 end
 

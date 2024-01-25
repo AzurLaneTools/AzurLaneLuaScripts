@@ -37,7 +37,7 @@ function slot0.CanShowTip(slot0)
 end
 
 function slot0.ShowRingBuyTip()
-	GoShoppingMsgBox(i18n("switch_to_shop_tip_2", string.format("<color=#92FC63FF>%s</color>", pg.item_data_statistics[15006].name)), ChargeScene.TYPE_ITEM)
+	GoShoppingMsgBox(i18n("switch_to_shop_tip_2", string.format("<color=#92FC63FF>%s</color>", Item.getConfigData(ITEM_ID_FOR_PROPOSE).name)), ChargeScene.TYPE_ITEM)
 end
 
 function slot0.ShowGoldBuyTip(slot0)
@@ -104,7 +104,7 @@ end
 function slot0.OnRefresh(slot0, slot1)
 	setActive(slot0.viewParent._btnContainer, false)
 
-	slot3 = pg.item_data_statistics[slot1.itemId].name
+	slot3 = Item.getConfigData(slot1.itemId).name
 
 	setText(slot0.title, slot1.msgTitle or i18n("item_lack_title", slot3, slot3))
 	UIItemList.StaticAlign(slot0.list, slot0.tpl, #slot1.descriptions, function (slot0, slot1, slot2)

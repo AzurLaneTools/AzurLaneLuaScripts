@@ -36,7 +36,7 @@ function slot0.GetTranValuePreHour(slot0)
 end
 
 function slot0.GetTarget(slot0)
-	return tonumber(pg.item_data_template[slot0:GetResourceType()].usage_arg)
+	return tonumber(Item.getConfigData(slot0:GetResourceType()).usage_arg)
 end
 
 function slot0.GetExp2ProficiencyRatio(slot0)
@@ -70,7 +70,7 @@ end
 function slot0.GetCanGetResCnt(slot0)
 	slot2 = slot0:GetResourceType()
 
-	return math.min(slot0:GetGenResCnt(), pg.item_data_statistics[slot2].max_num - getProxy(BagProxy):getItemCountById(slot2))
+	return math.min(slot0:GetGenResCnt(), Item.getConfigData(slot2).max_num - getProxy(BagProxy):getItemCountById(slot2))
 end
 
 return slot0

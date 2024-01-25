@@ -29,7 +29,7 @@ function slot0.Execute(slot0, slot1)
 	slot9 = Item.SKIN_ASSIGNED_TYPE
 
 	for slot9, slot10 in ipairs(getProxy(BagProxy):getItemsByType(slot9)) do
-		slot5[slot11] = slot5[slot10:getTempCfgTable().usage_arg[1]] or {}
+		slot5[slot11] = slot5[slot10:getConfig("usage_arg")[1]] or {}
 
 		table.insert(slot5[slot11], {
 			type = DROP_TYPE_ITEM,

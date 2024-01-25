@@ -9852,7 +9852,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, \"괌\" 100% 획득 가능! (최대 4척까지)"
+	tip = "누적 건조 200회마다 UR 함선 울리히 폰 후텐 획득 가능(최대 4회)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -26377,4 +26377,8 @@ _G.pg.base.gametip.skin_page_sign = {
 
 _G.pg.base.gametip.skin_page_desc = {
 	tip = "게임에 로그인하면 매일 $1개 보상 획득 및 미니 스토리 오픈 가능!"
+}
+
+_G.pg.base.gametip.live2d_reset_desc = {
+	tip = "Live2D 상태 리셋 되었습니다."
 }

@@ -59,10 +59,13 @@ function slot0.didEnter(slot0)
 		uv0:UpdateContent()
 	end, SFX_PANEL, SFX_CANCEL)
 
-	slot7 = LoadSprite(itemId2icon(pg.player_resource[pg.activity_event_worldboss[slot0.activity:getConfig("config_id")].ticket].itemid), "")
+	slot6 = LoadSprite(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = pg.activity_event_worldboss[slot0.activity:getConfig("config_id")].ticket
+	}), "")
 
-	slot0.consumeText:AddSprite("ticket", slot7)
-	setImageSprite(slot0.panel:Find("ticket/Text/Icon"), slot7)
+	slot0.consumeText:AddSprite("ticket", slot6)
+	setImageSprite(slot0.panel:Find("ticket/Text/Icon"), slot6)
 	slot0._pageUtil:setNumUpdate(function (slot0)
 		uv0.contextData.battleTimes = slot0
 

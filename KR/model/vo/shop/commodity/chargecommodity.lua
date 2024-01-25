@@ -239,7 +239,7 @@ function slot0.GetSkinProbability(slot0)
 	slot1 = {}
 
 	if slot0:CanViewSkinProbability() then
-		slot1 = pg.item_data_statistics[slot0:getConfig("skin_inquire_relation")].combination_display
+		slot1 = Item.getConfigData(slot0:getConfig("skin_inquire_relation")).combination_display
 	end
 
 	return slot1

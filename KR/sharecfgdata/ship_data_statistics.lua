@@ -173586,7 +173586,8 @@ _G.pg.base.ship_data_statistics[303191] = {
 		{}
 	},
 	tag_list = {
-		"Unzen-Class"
+		"Unzen-Class",
+		"yunxianzhiyuan"
 	}
 }
 
@@ -173713,7 +173714,8 @@ _G.pg.base.ship_data_statistics[303192] = {
 		{}
 	},
 	tag_list = {
-		"Unzen-Class"
+		"Unzen-Class",
+		"yunxianzhiyuan"
 	}
 }
 
@@ -173840,7 +173842,8 @@ _G.pg.base.ship_data_statistics[303193] = {
 		{}
 	},
 	tag_list = {
-		"Unzen-Class"
+		"Unzen-Class",
+		"yunxianzhiyuan"
 	}
 }
 
@@ -173967,7 +173970,8 @@ _G.pg.base.ship_data_statistics[303194] = {
 		{}
 	},
 	tag_list = {
-		"Unzen-Class"
+		"Unzen-Class",
+		"yunxianzhiyuan"
 	}
 }
 
@@ -332780,7 +332784,8 @@ _G.pg.base.ship_data_statistics[900404] = {
 		{}
 	},
 	tag_list = {
-		"Unzen-Class"
+		"Unzen-Class",
+		"yunxianzhiyuan"
 	}
 }
 

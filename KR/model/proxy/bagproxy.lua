@@ -141,24 +141,6 @@ function slot0.GetItemsByCondition(slot0, slot1)
 	return slot2
 end
 
-function slot0.getTempItemByType(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(pg.item_data_statistics.all) do
-		if pg.item_data_statistics[slot7].type == slot1 then
-			slot2[slot7] = true
-		end
-	end
-
-	for slot6, slot7 in pairs(slot0.data) do
-		if slot2[slot7.configId] then
-			slot2[slot8] = Clone(slot7)
-		end
-	end
-
-	return slot2
-end
-
 function slot0.getItemById(slot0, slot1)
 	if slot0.data[slot1] ~= nil then
 		return slot0.data[slot1]:clone()

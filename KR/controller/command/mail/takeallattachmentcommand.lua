@@ -4,7 +4,20 @@ function slot0.execute(slot0, slot1)
 	slot4, slot5 = CheckOverflow(getProxy(MailProxy):GetAttchmentDic())
 
 	if not slot4 then
-		pg.TipsMgr.GetInstance():ShowTips(slot5)
+		switch(slot5, {
+			gold = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
+			end,
+			oil = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail"))
+			end,
+			equip = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_magazine_full"))
+			end,
+			ship = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_dockYrad_full"))
+			end
+		})
 
 		return
 	end

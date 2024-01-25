@@ -34,19 +34,16 @@ function slot0.CanRefresh(slot0)
 end
 
 function slot0.getSortGoods(slot0)
-	slot1 = {}
+	slot1 = underscore.values(slot0.goods)
 
-	for slot5, slot6 in pairs(slot0.goods) do
-		table.insert(slot1, slot6)
-	end
-
-	table.sort(slot1, function (slot0, slot1)
-		if (slot0:CanPurchase() and 1 or 0) == (slot1:CanPurchase() and 1 or 0) then
-			return slot0:getConfig("order") < slot1:getConfig("order")
-		else
-			return slot3 < slot2
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return slot0:CanPurchase() and 0 or 1
+		end,
+		function (slot0)
+			return slot0:getConfig("order")
 		end
-	end)
+	}))
 
 	return slot1
 end

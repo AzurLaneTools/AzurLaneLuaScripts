@@ -30,7 +30,7 @@ function slot0.register(slot0)
 			drop = {
 				type = DROP_TYPE_ITEM,
 				id = slot1,
-				cfg = pg.item_data_statistics[slot1]
+				cfg = Item.getConfigData(slot1)
 			},
 			weight = LayerWeightConst.TOP_LAYER
 		})

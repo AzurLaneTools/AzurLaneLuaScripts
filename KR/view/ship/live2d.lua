@@ -28,6 +28,7 @@ function slot0.GenerateData(slot0)
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.position = slot1.position + BuildVector3(slot0:GetShipSkinConfig().live2d_offset)
 			slot0.l2dDragRate = slot0:GetShipSkinConfig().l2d_drag_rate
+			slot0.loadPrefs = slot1.loadPrefs
 		end,
 		GetShipName = function (slot0)
 			return slot0.ship:getPainting()
@@ -96,7 +97,7 @@ end
 
 function slot9(slot0, slot1, slot2)
 	if not uv0(slot0, slot1) then
-		return
+		return false
 	end
 
 	if slot0.updateAtom then
@@ -111,10 +112,14 @@ function slot9(slot0, slot1, slot2)
 		if uv1.action2Id[slot1] then
 			slot0.liveCom:SetAction(slot3)
 			slot0:live2dActionChange(true)
+
+			return true
 		else
 			print(tostring(slot1) .. " action is not exist")
 		end
 	end
+
+	return false
 end
 
 function slot10(slot0, slot1)
@@ -125,25 +130,26 @@ end
 
 function slot11(slot0, slot1, slot2)
 	if slot1 == Live2D.EVENT_ACTION_APPLY then
-		slot4 = slot2.callback
-		slot5 = slot2.activeData
-		slot6 = slot2.focus
-		slot7 = slot2.react
+		slot3 = slot2.id
+		slot5 = slot2.callback
+		slot6 = slot2.activeData
+		slot7 = slot2.focus
+		slot8 = slot2.react
 
 		if not uv0(slot0, slot2.action) then
 			return
 		end
 
-		slot0:setReactPos(tobool(slot7))
-
-		if slot3 then
-			uv1(slot0, slot3, slot6 or false)
-		end
-
-		slot0:applyActiveData(slot5)
+		slot0:setReactPos(tobool(slot8))
 
 		if slot4 then
-			slot4()
+			uv1(slot0, slot4, slot7 or false)
+		end
+
+		slot0:applyActiveData(slot2, slot6)
+
+		if slot5 then
+			slot5()
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
 		if slot0.ableFlag ~= slot2.ableFlag then
@@ -226,7 +232,7 @@ function slot13(slot0)
 
 	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
 		if pg.ship_l2d[slot5] and slot0:getDragEnable(slot6) then
-			slot8 = Live2dDrag.New(slot6)
+			slot8 = Live2dDrag.New(slot6, slot0.live2dData)
 
 			slot8:setParameterCom(slot0.liveCom:GetCubismParameter(slot6.parameter))
 			slot8:setEventCallback(function (slot0, slot1)
@@ -310,6 +316,7 @@ function slot13(slot0)
 	end, 0.03333333333333333, -1)
 
 	slot0.timer:Start()
+	uv3(slot0)
 end
 
 function slot14(slot0, slot1)
@@ -392,6 +399,7 @@ function slot14(slot0, slot1)
 	slot0.ignorePlayActions = {}
 
 	slot0:changeIdleIndex(0)
+	slot0:loadLive2dData()
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -418,12 +426,10 @@ function slot0.SetVisible(slot0, slot1)
 
 	Input.gyro.enabled = PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 
+	slot0:setReactPos(true)
+	slot0:Reset()
+
 	if slot1 then
-		slot0._animator.speed = 1
-
-		uv0(slot0, "idle", true)
-		slot0:setReactPos(true)
-
 		slot0._readlyToStop = false
 
 		onDelayTick(function ()
@@ -432,8 +438,6 @@ function slot0.SetVisible(slot0, slot1)
 			end
 		end, 1)
 	else
-		slot0:setReactPos(true)
-		slot0:Reset()
 		uv0(slot0, "idle", true)
 
 		slot0._readlyToStop = true
@@ -443,6 +447,98 @@ function slot0.SetVisible(slot0, slot1)
 				uv0._animator.speed = 0
 			end
 		end, 3)
+	end
+
+	if slot1 then
+		slot0:loadLive2dData()
+	else
+		slot0:saveLive2dData()
+	end
+
+	slot0._animator.speed = 1
+end
+
+function slot0.loadLive2dData(slot0)
+	if not slot0.live2dData.loadPrefs then
+		return
+	end
+
+	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 then
+		if slot0.drags then
+			for slot4 = 1, #slot0.drags do
+				slot0.drags[slot4]:clearData()
+			end
+		end
+
+		slot0:changeIdleIndex(0)
+		slot0._animator:Play("idle")
+
+		slot0.saveActionAbleId = nil
+
+		uv0(slot0)
+
+		return
+	end
+
+	slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
+
+	if slot1 then
+		slot0:changeIdleIndex(slot1)
+
+		if slot1 == 0 then
+			slot0._animator:Play("idle")
+		else
+			slot0._animator:Play("idle" .. slot1)
+		end
+	end
+
+	slot0.saveActionAbleId = slot2
+
+	if slot2 and slot2 > 0 then
+		if pg.ship_l2d[slot2] then
+			slot3 = pg.ship_l2d[slot2].action_trigger_active
+			slot0.enablePlayActions = slot3.enable
+			slot0.ignorePlayActions = slot3.ignore
+		end
+	else
+		slot0.enablePlayActions = {}
+		slot0.ignorePlayActions = {}
+	end
+
+	if slot0.drags then
+		for slot6 = 1, #slot0.drags do
+			slot0.drags[slot6]:loadData()
+		end
+	end
+
+	uv0(slot0)
+end
+
+function slot0.saveLive2dData(slot0)
+	if not slot0.live2dData.loadPrefs then
+		return
+	end
+
+	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 then
+		return
+	end
+
+	if slot0.idleIndex then
+		Live2dConst.SaveL2dIdle(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.idleIndex)
+	end
+
+	if slot0.saveActionAbleId then
+		if slot0.idleIndex == 0 then
+			Live2dConst.SaveL2dAction(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, 0)
+		else
+			Live2dConst.SaveL2dAction(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.saveActionAbleId)
+		end
+	end
+
+	if slot0.drags then
+		for slot4 = 1, #slot0.drags do
+			slot0.drags[slot4]:saveData()
+		end
 	end
 end
 
@@ -507,7 +603,9 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3, slot4)
 	slot0.finishActionCB = slot2
 	slot0.animEventCB = slot4
 
-	uv0(slot0, slot1, slot3)
+	if not uv0(slot0, slot1, slot3) and slot0.animEventCB then
+		slot0.animEventCB(false)
+	end
 end
 
 function slot0.Reset(slot0)
@@ -516,43 +614,45 @@ function slot0.Reset(slot0)
 	slot0.enablePlayActions = {}
 	slot0.ignorePlayActions = {}
 	slot0.ableFlag = nil
-
-	if slot0.idleIndex ~= 0 then
-		slot0:changeIdleIndex(0)
-	end
 end
 
-function slot0.applyActiveData(slot0, slot1)
-	slot3 = slot1.ignore
-	slot4 = slot1.idle
-	slot5 = slot1.repeatFlag
+function slot0.applyActiveData(slot0, slot1, slot2)
+	slot4 = slot2.ignore
+	slot5 = slot2.idle
+	slot6 = slot2.repeatFlag
 
-	if slot1.enable and #slot2 >= 0 then
-		slot0.enablePlayActions = slot2
+	if slot2.enable and #slot3 >= 0 then
+		slot0.enablePlayActions = slot3
 	end
 
-	if slot3 and #slot3 >= 0 then
-		slot0.ignorePlayActions = slot3
+	if slot4 and #slot4 >= 0 then
+		slot0.ignorePlayActions = slot4
 	end
 
-	if slot4 then
-		if type(slot4) == "number" and slot4 >= 0 then
-			slot0:changeIdleIndex(slot4)
-		elseif type(slot4) == "table" then
-			slot6 = {}
+	if slot5 ~= slot0.indexIndex then
+		slot0.saveActionAbleId = slot1.id
+	end
 
-			for slot10, slot11 in ipairs(slot4) do
-				if slot11 == slot0.idleIndex then
-					if slot5 then
-						table.insert(slot6, slot11)
+	if slot5 then
+		if type(slot5) == "number" and slot5 >= 0 then
+			slot0:changeIdleIndex(slot5)
+		elseif type(slot5) == "table" then
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot5) do
+				if slot12 == slot0.idleIndex then
+					if slot6 then
+						table.insert(slot7, slot12)
 					end
 				else
-					table.insert(slot6, slot11)
+					table.insert(slot7, slot12)
 				end
 			end
 
-			slot0:changeIdleIndex(slot6[math.random(1, #slot6)])
+			slot0:changeIdleIndex(slot7[math.random(1, #slot7)])
 		end
+
+		slot0:saveLive2dData()
 	end
 end
 
@@ -627,6 +727,7 @@ function slot0.Dispose(slot0)
 		slot0.liveCom.EventAction = nil
 	end
 
+	slot0:saveLive2dData()
 	slot0.liveCom:SetMouseInputActions(nil, )
 
 	slot0._readlyToStop = false

@@ -194,7 +194,10 @@ function slot0.BindEvent(slot0)
 									end,
 									btnType = pg.MsgboxMgr.BUTTON_BLUE_WITH_ICON,
 									iconName = {
-										pg.item_data_statistics[id2ItemId(uv0.contextData.TicketID or 1)].icon
+										getDropIcon({
+											type = DROP_TYPE_RESOURCE,
+											id = uv0.contextData.TicketID or 1
+										})
 									}
 								}
 							},

@@ -9,7 +9,7 @@ function slot0.ResId2ItemId(slot0, slot1)
 end
 
 function slot0.SetResIcon(slot0)
-	uv0.super.SetResIcon(slot0)
+	uv0.super.SetResIcon(slot0, DROP_TYPE_ITEM)
 end
 
 function slot0.UpdateTip(slot0)

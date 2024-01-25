@@ -139,7 +139,7 @@ function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
 	})
 	setText(slot1:Find("icon_bg/count"), slot2.count)
 
-	slot5 = pg.item_data_template[slot2.id]
+	slot5 = Item.getConfigData(slot2.id)
 	slot6 = slot5.usage_arg[1]
 	slot7 = 100
 
@@ -172,7 +172,7 @@ function slot0.UpdatePosition(slot0, slot1, slot2)
 end
 
 function slot0.UpdateLessonDesc(slot0, slot1, slot2, slot3)
-	slot4 = pg.item_data_statistics[slot1]
+	slot4 = Item.getConfigData(slot1)
 	slot0.lessonNameTxt.text = slot4.name .. "   -"
 	slot0.lessonDescTxt.text = slot4.display
 	slot0.lessonExpTxt.text = slot2

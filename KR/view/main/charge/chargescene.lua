@@ -282,7 +282,7 @@ function slot0.updateNoRes(slot0, slot1)
 	end
 
 	for slot8, slot9 in ipairs(slot0.contextData.noRes) do
-		slot4 = slot4 .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot9[1]].name, slot9[2])
+		slot4 = slot4 .. i18n(slot9[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", Item.getConfigData(slot9[1]).name, slot9[2])
 
 		if slot8 < #slot0.contextData.noRes then
 			slot4 = slot4 .. i18n("text_noRes_info_tip_link")

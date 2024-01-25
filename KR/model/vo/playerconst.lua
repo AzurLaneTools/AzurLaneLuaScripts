@@ -21,8 +21,6 @@ function slot2(slot0)
 			end
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)
-			assert(pg.item_data_template[slot0.id])
-
 			if getProxy(BagProxy) then
 				if slot0.count > 0 then
 					slot1:addItemById(slot0.id, slot0.count)
@@ -318,7 +316,7 @@ function slot0.MergePassItemDrop(slot0)
 			[17033.0] = 16
 		}, {
 			__index = function (slot0, slot1)
-				if pg.item_data_statistics[slot1].type == 13 then
+				if Item.getConfigData(slot1).type == 13 then
 					return 9
 				end
 			end

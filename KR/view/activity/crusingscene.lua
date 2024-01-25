@@ -470,7 +470,7 @@ function slot0.checkLimitMax(slot0, slot1)
 
 				return true
 			end
-		elseif slot7.type == DROP_TYPE_ITEM and pg.item_data_statistics[slot7.id].type == Item.EXP_BOOK_TYPE and slot8.max_num < getProxy(BagProxy):getItemCountById(slot7.id) + slot7.count then
+		elseif slot7.type == DROP_TYPE_ITEM and Item.getConfigData(slot7.id).type == Item.EXP_BOOK_TYPE and slot8.max_num < getProxy(BagProxy):getItemCountById(slot7.id) + slot7.count then
 			return true
 		end
 	end

@@ -88,7 +88,10 @@ function slot0.didEnter(slot0)
 		slot0.launchOneBtn,
 		slot0.launchTenBtn
 	}) do
-		GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot0.resId)].icon, "", slot7:Find("res/icon"), true)
+		GetImageSpriteFromAtlasAsync(getDropIcon({
+			type = DROP_TYPE_RESOURCE,
+			id = slot0.resId
+		}), "", slot7:Find("res/icon"), true)
 		onButton(slot0, slot7, function ()
 			if not uv0.activityPool then
 				return

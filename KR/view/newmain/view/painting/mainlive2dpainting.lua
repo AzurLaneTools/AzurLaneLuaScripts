@@ -8,6 +8,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.currentWidth = Screen.width
 	slot0.currentHeight = Screen.height
 	slot0.isModifyOrder = false
+	slot0.actionWaiting = false
 end
 
 function slot0.GetHalfBodyOffsetY(slot0)
@@ -19,6 +20,7 @@ end
 function slot0.OnLoad(slot0, slot1)
 	slot0.cg.blocksRaycasts = true
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+		loadPrefs = true,
 		ship = slot0.ship,
 		scale = Vector3(52, 52, 52),
 		position = Vector3(0, 0, 100),
@@ -131,20 +133,30 @@ function slot0._TriggerEvent(slot0, slot1)
 		return
 	end
 
-	function slot3()
-		if uv0.dialog ~= "" then
-			uv1:DisplayWord(uv0.dialog)
-		else
-			uv1:TriggerNextEventAuto()
+	if slot0.actionWaiting then
+		return
+	end
+
+	function slot3(slot0)
+		if slot0 then
+			if uv0.dialog ~= "" then
+				uv1:DisplayWord(uv0.dialog)
+			else
+				uv1:TriggerNextEventAuto()
+			end
 		end
+
+		uv1.actionWaiting = false
 	end
 
 	slot4, slot5, slot6, slot7, slot8, slot9 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot0:GetEventConfig(slot1).dialog)
 
 	if not slot9 then
 		slot0.live2dChar:TriggerAction(slot2.action)
-		slot3()
+		slot3(true)
 	else
+		slot0.actionWaiting = true
+
 		slot0.live2dChar:TriggerAction(slot2.action, nil, , slot3)
 	end
 end
@@ -177,8 +189,10 @@ end
 function slot0.OnPuase(slot0)
 	slot0:RemoveScreenChangeTimer()
 	slot0:ResetContainerPosition()
+
+	slot0.actionWaiting = false
+
 	slot0.live2dChar:SetVisible(false)
-	slot0.live2dChar:Reset()
 end
 
 function slot0.OnUpdateShip(slot0, slot1)
@@ -191,7 +205,6 @@ function slot0.OnResume(slot0)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()
 	slot0.live2dChar:SetVisible(true)
-	slot0.live2dChar:Reset()
 	slot0.live2dChar:UpdateAtomSource()
 end
 

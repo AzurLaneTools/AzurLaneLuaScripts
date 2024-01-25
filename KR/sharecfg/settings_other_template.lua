@@ -169,6 +169,15 @@ pg.settings_other_template = {
 		title = "결산 캐릭터 표시",
 		desc = "기능 활성화 시, 전투 결산 이미지 화면이 표시된다."
 	},
+	{
+		default = 0,
+		name = "LIVE2D_STATUS_SAVE",
+		type = 0,
+		alignment = 0,
+		id = 18,
+		title = "L2D 설정 저장",
+		desc = "ON으로 설정 시 메인화면의 L2D 및 특수 모션 일러스트 스킨의 상호 상태가 기본 대기 모션으로 고정되며, 상호 상태가 고정하면 L2D 스킨의 【로그인】【모항 귀환】애니메이션이 재생되지 않게 됩니다."
+	},
 	all = {
 		1,
 		2,
@@ -186,6 +195,7 @@ pg.settings_other_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

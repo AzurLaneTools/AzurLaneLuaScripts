@@ -72,102 +72,6 @@ function slot0.register(slot0)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inSupport")
 	end)
-	slot0:on(13105, function (slot0)
-		if uv0:getActiveChapter() then
-			slot2 = 0
-
-			function slot3()
-				if not getProxy(ContextProxy) then
-					return
-				end
-
-				if slot0:getCurrentContext().mediator == LevelMediator2 then
-					uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
-
-					uv1:SetChapterAutoFlag(uv2.id, false)
-
-					return
-				end
-
-				if not slot0:getContextByMediator(LevelMediator2) then
-					return
-				end
-
-				slot2.data.StopAutoFightFlag = true
-			end
-
-			if _.any(slot0.ai_list, function (slot0)
-				return slot0.item_type == ChapterConst.AttachOni
-			end) then
-				slot1:onOniEnter()
-				slot3()
-			end
-
-			if _.any(slot0.map_update, function (slot0)
-				return slot0.item_type == ChapterConst.AttachBomb_Enemy
-			end) then
-				slot1:onBombEnemyEnter()
-				slot3()
-			end
-
-			if #slot0.map_update > 0 then
-				_.each(slot0.map_update, function (slot0)
-					if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
-						if uv0:GetChapterCellAttachemnts()[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
-							if slot3.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot3.attachmentId].gametip ~= "" then
-								pg.TipsMgr.GetInstance():ShowTips(i18n(slot4))
-							end
-
-							slot3.attachment = slot0.item_type
-							slot3.attachmentId = slot0.item_id
-							slot3.flag = slot0.item_flag
-							slot3.data = slot0.item_data
-						else
-							slot2[slot1] = ChapterCell.New(slot0)
-						end
-					elseif slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub and slot0.item_type ~= ChapterConst.AttachOni_Target and slot0.item_type ~= ChapterConst.AttachOni then
-						uv0:mergeChapterCell(ChapterCell.New(slot0))
-					end
-				end)
-
-				slot2 = bit.bor(slot2, ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction)
-			end
-
-			if #slot0.ai_list > 0 then
-				_.each(slot0.ai_list, function (slot0)
-					uv0:mergeChampion(ChapterChampionPackage.New(slot0))
-				end)
-
-				slot2 = bit.bor(slot2, ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction)
-			end
-
-			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
-				slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
-
-				uv0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
-			end
-
-			if #slot0.buff_list > 0 then
-				slot1:UpdateBuffList(slot0.buff_list)
-			end
-
-			if #slot0.cell_flag_list > 0 then
-				_.each(slot0.cell_flag_list, function (slot0)
-					if uv0:getChapterCell(slot0.pos.row, slot0.pos.column) then
-						slot1:updateFlagList(slot0)
-					else
-						slot1 = ChapterCell.New(slot0)
-					end
-
-					uv0:updateChapterCell(slot1)
-				end)
-
-				slot2 = bit.bor(slot2, ChapterConst.DirtyCellFlag)
-			end
-
-			uv0:updateChapter(slot1, slot2)
-		end
-	end)
 
 	slot0.timers = {}
 	slot0.escortChallengeTimes = 0
@@ -177,6 +81,103 @@ function slot0.register(slot0)
 
 	slot0:buildMaps()
 	slot0:buildRemasterInfo()
+end
+
+function slot0.OnBattleFinished(slot0, slot1)
+	if slot0:getActiveChapter() then
+		slot3 = 0
+
+		function slot4()
+			if not getProxy(ContextProxy) then
+				return
+			end
+
+			if slot0:getCurrentContext().mediator == LevelMediator2 then
+				uv0 = bit.bor(uv0, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
+
+				uv1:SetChapterAutoFlag(uv2.id, false)
+
+				return
+			end
+
+			if not slot0:getContextByMediator(LevelMediator2) then
+				return
+			end
+
+			slot2.data.StopAutoFightFlag = true
+		end
+
+		if _.any(slot1.ai_list, function (slot0)
+			return slot0.item_type == ChapterConst.AttachOni
+		end) then
+			slot2:onOniEnter()
+			slot4()
+		end
+
+		if _.any(slot1.map_update, function (slot0)
+			return slot0.item_type == ChapterConst.AttachBomb_Enemy
+		end) then
+			slot2:onBombEnemyEnter()
+			slot4()
+		end
+
+		if #slot1.map_update > 0 then
+			_.each(slot1.map_update, function (slot0)
+				if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
+					if uv0:GetChapterCellAttachemnts()[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
+						if slot3.flag == ChapterConst.CellFlagTriggerActive and slot0.item_flag == ChapterConst.CellFlagTriggerDisabled and pg.map_event_template[slot3.attachmentId].gametip ~= "" then
+							pg.TipsMgr.GetInstance():ShowTips(i18n(slot4))
+						end
+
+						slot3.attachment = slot0.item_type
+						slot3.attachmentId = slot0.item_id
+						slot3.flag = slot0.item_flag
+						slot3.data = slot0.item_data
+					else
+						slot2[slot1] = ChapterCell.New(slot0)
+					end
+				elseif slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub and slot0.item_type ~= ChapterConst.AttachOni_Target and slot0.item_type ~= ChapterConst.AttachOni then
+					uv0:mergeChapterCell(ChapterCell.New(slot0))
+				end
+			end)
+
+			slot3 = bit.bor(slot3, ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction)
+		end
+
+		if #slot1.ai_list > 0 then
+			_.each(slot1.ai_list, function (slot0)
+				uv0:mergeChampion(ChapterChampionPackage.New(slot0))
+			end)
+
+			slot3 = bit.bor(slot3, ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction)
+		end
+
+		if #slot1.add_flag_list > 0 or #slot1.del_flag_list > 0 then
+			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy, ChapterConst.DirtyCellFlag, ChapterConst.DirtyFloatItems, ChapterConst.DirtyAttachment)
+
+			slot0:updateExtraFlag(slot2, slot1.add_flag_list, slot1.del_flag_list)
+		end
+
+		if #slot1.buff_list > 0 then
+			slot2:UpdateBuffList(slot1.buff_list)
+		end
+
+		if #slot1.cell_flag_list > 0 then
+			_.each(slot1.cell_flag_list, function (slot0)
+				if uv0:getChapterCell(slot0.pos.row, slot0.pos.column) then
+					slot1:updateFlagList(slot0)
+				else
+					slot1 = ChapterCell.New(slot0)
+				end
+
+				uv0:updateChapterCell(slot1)
+			end)
+
+			slot3 = bit.bor(slot3, ChapterConst.DirtyCellFlag)
+		end
+
+		slot0:updateChapter(slot2, slot3)
+	end
 end
 
 function slot0.setEliteCache(slot0, slot1)

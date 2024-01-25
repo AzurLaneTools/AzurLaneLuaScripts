@@ -67,17 +67,20 @@ end
 function slot0.UpdateTicket(slot0, slot1)
 	slot2 = slot0:GetTicketItemID(slot0.contextData.actId)
 
-	setImageSprite(slot1:Find("playAgain/ticket/icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot2].itemid), ""))
+	setImageSprite(slot1:Find("playAgain/ticket/icon"), GetSpriteFromAtlas(getDropIcon({
+		type = DROP_TYPE_RESOURCE,
+		id = slot2
+	}), ""))
 
-	slot7 = getProxy(PlayerProxy):getRawData():getResource(slot2) > 0
+	slot6 = getProxy(PlayerProxy):getRawData():getResource(slot2) > 0
 
-	if slot5 < slot0:GetTicketUseCount() then
-		slot5 = setColorStr(slot5, COLOR_RED) or slot5
+	if slot4 < slot0:GetTicketUseCount() then
+		slot4 = setColorStr(slot4, COLOR_RED) or slot4
 	end
 
-	setText(slot1:Find("playAgain/ticket/Text"), slot6 .. "/" .. slot5)
-	setToggleEnabled(slot0.toggle, slot7)
-	triggerToggle(slot0.toggle, slot7 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
+	setText(slot1:Find("playAgain/ticket/Text"), slot5 .. "/" .. slot4)
+	setToggleEnabled(slot0.toggle, slot6)
+	triggerToggle(slot0.toggle, slot6 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
 end
 
 function slot0.LoadActivityBossRes(slot0, slot1)

@@ -878,7 +878,7 @@ end
 
 function updateItem(slot0, slot1, slot2)
 	slot2 = slot2 or {}
-	slot3 = pg.item_data_statistics[slot1.id]
+	slot3 = Item.getConfigData(slot1.id)
 
 	assert(slot3, "找不到道具配置: " .. slot1.id)
 	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot3.rarity), findTF(slot0, "icon_bg"))
@@ -1424,13 +1424,13 @@ function updateDropCfg(slot0)
 
 	uv0 = uv0 or {
 		[DROP_TYPE_RESOURCE] = function (slot0)
-			slot0.cfg = pg.item_data_statistics[id2ItemId(slot0.id)]
+			slot0.cfg = Item.getConfigData(id2ItemId(slot0.id))
 			slot0.desc = slot0.cfg.display
 
 			return slot0.cfg
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)
-			slot0.cfg = pg.item_data_statistics[slot0.id]
+			slot0.cfg = Item.getConfigData(slot0.id)
 			slot0.desc = slot0.cfg.display
 
 			if slot0.cfg.type == Item.LOVE_LETTER_TYPE then
@@ -1440,13 +1440,13 @@ function updateDropCfg(slot0)
 			return slot0.cfg
 		end,
 		[DROP_TYPE_VITEM] = function (slot0)
-			slot0.cfg = pg.item_data_statistics[slot0.id]
+			slot0.cfg = Item.getConfigData(slot0.id)
 			slot0.desc = slot0.cfg.display
 
 			return slot0.cfg
 		end,
 		[DROP_TYPE_LOVE_LETTER] = function (slot0)
-			slot0.cfg = pg.item_data_statistics[slot0.id]
+			slot0.cfg = Item.getConfigData(slot0.id)
 			slot0.desc = string.gsub(slot0.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot0.count))
 
 			return slot0.cfg
@@ -1552,7 +1552,7 @@ function updateDropCfg(slot0)
 			return slot0.cfg
 		end,
 		[DROP_TYPE_META_PT] = function (slot0)
-			slot0.cfg = pg.item_data_statistics[pg.ship_strengthen_meta[slot0.id].itemid]
+			slot0.cfg = Item.getConfigData(pg.ship_strengthen_meta[slot0.id].itemid)
 			slot0.desc = slot0.cfg.display
 
 			return slot0.cfg
@@ -1743,10 +1743,10 @@ end
 function getDropRarity(slot0)
 	return switch(slot0.type, {
 		[DROP_TYPE_RESOURCE] = function ()
-			return pg.item_data_statistics[id2ItemId(uv0.id)].rarity + 1
+			return Item.getConfigData(id2ItemId(uv0.id)).rarity + 1
 		end,
 		[DROP_TYPE_ITEM] = function ()
-			return pg.item_data_statistics[uv0.id].rarity + 1
+			return Item.getConfigData(uv0.id).rarity + 1
 		end,
 		[DROP_TYPE_EQUIP] = function ()
 			return pg.equip_data_statistics[uv0.id].rarity
@@ -1764,7 +1764,7 @@ function getDropRarity(slot0)
 			return 5
 		end,
 		[DROP_TYPE_VITEM] = function ()
-			return pg.item_data_statistics[uv0.id].rarity + 1
+			return Item.getConfigData(uv0.id).rarity + 1
 		end,
 		[DROP_TYPE_WORLD_ITEM] = function ()
 			return pg.world_item_data_template[uv0.id].rarity
@@ -1886,7 +1886,7 @@ function GoShoppingMsgBox(slot0, slot1, slot2)
 		slot3 = ""
 
 		for slot7, slot8 in ipairs(slot2) do
-			slot3 = slot3 .. i18n(slot8[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot8[1]].name, slot8[2])
+			slot3 = slot3 .. i18n(slot8[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", Item.getConfigData(slot8[1]).name, slot8[2])
 
 			if slot7 < #slot2 then
 				slot3 = slot3 .. i18n("text_noRes_info_tip_link")
@@ -1925,7 +1925,7 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 
 	if slot5 ~= nil and slot1.id then
 		print(slot10 * slot5.num, "--", slot10)
-		assert(pg.item_data_statistics[slot1.id], "item config should be existence")
+		assert(Item.getConfigData(slot1.id), "item config should be existence")
 
 		slot13 = Item.New({
 			id = slot1.id
@@ -3742,7 +3742,7 @@ function DropResultIntegration(slot0)
 					return 4
 				elseif slot2 == 59900 then
 					return 5
-				elseif (pg.item_data_statistics[slot2] and slot3.type or 0) == 9 then
+				elseif (Item.getConfigData(slot2) and slot3.type or 0) == 9 then
 					return 6
 				elseif slot4 == 5 then
 					return 7
@@ -3763,7 +3763,7 @@ function DropResultIntegration(slot0)
 			if slot0.type == DROP_TYPE_SHIP then
 				slot1 = pg.ship_data_statistics[slot0.id]
 			elseif slot0.type == DROP_TYPE_ITEM then
-				slot1 = pg.item_data_statistics[slot0.id]
+				slot1 = Item.getConfigData(slot0.id)
 			end
 
 			return (slot1 and slot1.rarity or 0) * -1
@@ -4019,7 +4019,7 @@ function GetItemsOverflowDic(slot0)
 	while #slot0 > 0 do
 		switch(table.remove(slot0).type, {
 			[DROP_TYPE_ITEM] = function ()
-				if uv0:getTempConfig("open_directly") == 1 then
+				if uv0:getConfig("open_directly") == 1 then
 					slot3 = "display_icon"
 
 					for slot3, slot4 in ipairs(uv0:getConfig(slot3)) do
@@ -4052,29 +4052,29 @@ function GetItemsOverflowDic(slot0)
 end
 
 function CheckOverflow(slot0)
-	slot2 = slot0[DROP_TYPE_RESOURCE][PlayerConst.ResGold] or 0
+	slot2 = slot0[DROP_TYPE_RESOURCE][PlayerConst.ResOil] or 0
 	slot3 = slot0[DROP_TYPE_EQUIP]
 	slot4 = slot0[DROP_TYPE_SHIP]
 	slot5 = getProxy(PlayerProxy):getRawData()
 
-	if (slot0[DROP_TYPE_RESOURCE][PlayerConst.ResOil] or 0) > 0 and slot5.OilMax(slot5, slot1) then
-		return false, i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail")
+	if (slot0[DROP_TYPE_RESOURCE][PlayerConst.ResGold] or 0) > 0 and slot5.GoldMax(slot5, slot1) then
+		return false, "gold"
 	end
 
-	if slot2 > 0 and slot5.GoldMax(slot5, slot2) then
-		return false, i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail")
+	if slot2 > 0 and slot5.OilMax(slot5, slot2) then
+		return false, "oil"
 	end
 
 	slot6 = getProxy(EquipmentProxy):getCapacity()
 
 	if slot3 > 0 and slot5.getMaxEquipmentBag(slot5) < slot3 + slot6 then
-		return false, i18n("mail_takeAttachment_error_magazine_full")
+		return false, "equip"
 	end
 
 	slot7 = getProxy(BayProxy):getShipCount()
 
 	if slot4 > 0 and slot5.getMaxShipBag(slot5) < slot4 + slot7 then
-		return false, i18n("mail_takeAttachment_error_dockYrad_full")
+		return false, "ship"
 	end
 
 	return true
@@ -4084,7 +4084,7 @@ function CheckShipExpOverflow(slot0)
 	slot1 = getProxy(BagProxy)
 
 	for slot5, slot6 in pairs(slot0[DROP_TYPE_ITEM]) do
-		if pg.item_data_statistics[slot5].max_num < slot1.getItemCountById(slot1, slot5) + slot6 then
+		if Item.getConfigData(slot5).max_num < slot1.getItemCountById(slot1, slot5) + slot6 then
 			return false
 		end
 	end
@@ -4105,7 +4105,7 @@ function RegisterDetailButton(slot0, slot1, slot2)
 	switch(slot2.type, {
 		[DROP_TYPE_ITEM] = function ()
 			if uv0.cfg.type == Item.SKIN_ASSIGNED_TYPE then
-				slot1 = pg.item_data_template[uv0.id].usage_arg[3]
+				slot1 = Item.getConfigData(uv0.id).usage_arg[3]
 
 				if Item.InTimeLimitSkinAssigned(uv0.id) then
 					slot1 = table.mergeArray(slot0[2], slot1, true)

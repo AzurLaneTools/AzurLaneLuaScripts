@@ -336,7 +336,7 @@ function slot0.updateFinished(slot0, slot1)
 		end)
 	end
 
-	slot9 = 1
+	slot9 = PlayerConst.ResGold
 
 	table.insert(slot4, {
 		type = DROP_TYPE_ITEM,
@@ -496,7 +496,7 @@ function slot0.updateProgress(slot0, slot1)
 		if slot12 <= #slot7 then
 			slot15 = ""
 
-			if slot7[slot12][1] == id2ItemId(1) then
+			if slot7[slot12][1] == id2ItemId(PlayerConst.ResGold) then
 				slot16 = slot14[2] <= slot0.playerVO.gold
 				slot15 = setColorStr(slot14[2], slot16 and COLOR_WHITE or COLOR_RED)
 
