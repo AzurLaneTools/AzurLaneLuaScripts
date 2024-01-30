@@ -40175,7 +40175,7 @@ _G.pg.base.item_data_statistics[40923] = {
 
 _G.pg.base.item_data_statistics[40924] = {
 	open_directly = 1,
-	name = "春節福袋2023・Ⅰ ",
+	name = "春節福袋2023①(復刻)",
 	display = "ランダムに旧正月2023シリーズの着せ替え衣装、上級指向型強化ユニット・五期目×2、ダイヤ×2023、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
 	type = 17,
 	other_resource_cost = "[]",
@@ -40244,7 +40244,7 @@ _G.pg.base.item_data_statistics[40924] = {
 
 _G.pg.base.item_data_statistics[40925] = {
 	open_directly = 1,
-	name = "春節福袋2023・Ⅱ ",
+	name = "春節福袋2023②(復刻)",
 	display = "ランダムに旧正月2023シリーズの着せ替え衣装、上級指向型強化ユニット・五期目×2、ダイヤ×2023、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
 	type = 17,
 	other_resource_cost = "[]",
