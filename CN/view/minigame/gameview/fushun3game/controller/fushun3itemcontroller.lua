@@ -1,6 +1,6 @@
 slot0 = class("Fushun3ItemController")
-slot1 = 2
-slot2 = 5
+slot1 = 3
+slot2 = 10
 
 function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._sceneTf = slot1

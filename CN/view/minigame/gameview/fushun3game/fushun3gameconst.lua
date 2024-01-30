@@ -62,7 +62,7 @@ slot0.platform_data = {
 		name = "Roof2",
 		item = true,
 		power = true,
-		weight = 100,
+		weight = 50,
 		diff = 50
 	},
 	{
@@ -126,7 +126,7 @@ slot0.platform_data = {
 		distance = 320,
 		item = true,
 		high = true,
-		weight = 100,
+		weight = 50,
 		monster = true,
 		diff = 25
 	},
@@ -1615,7 +1615,7 @@ slot0.petal_ids = {
 	33,
 	34
 }
-slot0.petal_count_max = 20
+slot0.petal_count_max = 30
 slot0.peta_remove_time = {
 	7,
 	15
@@ -1664,16 +1664,6 @@ slot0.effect_data = {
 		name = "EF_bk_Jump",
 		parent = false,
 		trigger = "Jump_LA"
-	},
-	{
-		name = "EF_fr_Jump_S",
-		parent = true,
-		trigger = "Jump_S"
-	},
-	{
-		name = "EF_fr_Jump_S",
-		parent = true,
-		trigger = "Jump_S_LA"
 	},
 	{
 		name = "EF_bk_Land",

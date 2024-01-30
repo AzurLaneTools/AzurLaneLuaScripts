@@ -9049,7 +9049,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 48,
+		is_show = 45,
 		config_data = {
 			19693,
 			19694,
@@ -9107,7 +9107,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5185,
-		is_show = 38,
+		is_show = 46,
 		config_data = {},
 		time = {
 			"timer",
@@ -9454,7 +9454,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 52,
-		is_show = 19,
+		is_show = 48,
 		config_data = {},
 		time = {
 			"timer",
@@ -9510,7 +9510,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 18,
+		is_show = 47,
 		id = 5192,
 		config_data = {
 			{
@@ -9629,7 +9629,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5194,
-		is_show = 15,
+		is_show = 49,
 		config_data = {},
 		time = {
 			"timer",
@@ -9649,7 +9649,7 @@ pg.activity_template = {
 				{
 					2024,
 					2,
-					20
+					22
 				},
 				{
 					23,
@@ -9724,7 +9724,7 @@ pg.activity_template = {
 				{
 					2024,
 					2,
-					20
+					22
 				},
 				{
 					23,
