@@ -6,6 +6,7 @@ function slot0.onInit(slot0)
 	slot0._weight = 3
 	slot0._scriptTime = 0.5
 	slot0._overrideAble = false
+	slot0._name = "FuShunDamageScript"
 end
 
 function slot0.onStep(slot0)

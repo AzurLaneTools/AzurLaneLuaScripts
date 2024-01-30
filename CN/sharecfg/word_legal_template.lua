@@ -1052,7 +1052,18 @@ function temp()
 	uv0["金"] = {
 		["伯"] = {
 			["利"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["鹿"] = {
@@ -5184,6 +5195,9 @@ function temp()
 		this = {
 			this = true
 		},
+		["武"] = {
+			this = true
+		},
 		["骑"] = {
 			["兵"] = {
 				this = true
@@ -6090,7 +6104,42 @@ temp()
 function temp()
 	uv0["太"] = {
 		["原"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["虎"] = {
+		["贲"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["飞"] = {
+		["云"] = {
+			this = true
+		},
+		["鸟"] = {
+			this = true,
+			["川"] = {
+				["千"] = {
+					["濑"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -6153,9 +6202,34 @@ end
 temp()
 
 function temp()
+	uv0["济"] = {
+		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["寰"] = {
+		["昌"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["镇"] = {
 		["海"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7128,23 +7202,6 @@ function temp()
 		["美"] = {
 			["子"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["飞"] = {
-		["鸟"] = {
-			this = true,
-			["川"] = {
-				["千"] = {
-					["濑"] = {
-						this = true
-					}
-				}
 			}
 		}
 	}

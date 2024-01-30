@@ -1571,5 +1571,21 @@ pg.voice_actor_CN = {
 	{
 		code = 393,
 		actor_name = "佐土原香织"
+	},
+	{
+		code = 394,
+		actor_name = "又吉爱"
+	},
+	{
+		code = 395,
+		actor_name = "佐佐木未来"
+	},
+	{
+		code = 396,
+		actor_name = "牧野天音"
+	},
+	{
+		code = 397,
+		actor_name = "羽月理惠"
 	}
 }

@@ -15,7 +15,7 @@ function slot0.Repalce(slot0, slot1, slot2)
 		onNextTick(uv0)
 		coroutine.yield()
 
-		slot0 = Item.getConfigData(50004)
+		slot0 = pg.item_data_statistics[50004]
 
 		onNextTick(uv0)
 		coroutine.yield()

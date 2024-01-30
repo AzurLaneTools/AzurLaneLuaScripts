@@ -1248,7 +1248,7 @@ pg.mini_game = {
 		name = "2021抚顺大冒险III",
 		config_csv = "",
 		id = 37,
-		hub_id = 29,
+		hub_id = 53,
 		request_data = 1
 	},
 	{

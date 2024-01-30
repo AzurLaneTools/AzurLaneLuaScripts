@@ -62,7 +62,8 @@ slot0.VersionInfo = {
 	map_202308 = "CrusingMap_2",
 	map_202206 = "CrusingMap_1",
 	map_202110 = "CrusingMap_0",
-	map_202204 = "CrusingMap_1"
+	map_202204 = "CrusingMap_1",
+	map_202402 = "CrusingMap_1"
 }
 
 function slot0.GetPhaseFrame(slot0)

@@ -696,6 +696,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10025] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10025,
+		dungeon_id = 5127,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"甘醴之瓶 ",
+				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>0.5%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+			},
+			{
+				"生命之泉",
+				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>40%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>0.5%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				209,
+				1
+			}
+		}
+	},
+	[10026] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10026,
+		dungeon_id = 5126,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"甘醴之瓶 ",
+				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>1%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+			},
+			{
+				"生命之泉",
+				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>60%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>1%</color>"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10009,
+				1
+			}
+		}
+	},
+	[10027] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10027,
+		dungeon_id = 5125,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"甘醴之瓶 ",
+				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>2%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+			},
+			{
+				"生命之泉",
+				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>80%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>2%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10009,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -720,6 +807,9 @@ pg.expedition_constellation_challenge_template = {
 		10021,
 		10022,
 		10023,
-		10024
+		10024,
+		10025,
+		10026,
+		10027
 	}
 }

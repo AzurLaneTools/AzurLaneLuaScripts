@@ -5,6 +5,7 @@ function slot0.onInit(slot0)
 	slot0._active = true
 	slot0._weight = 1
 	slot0._scriptTime = nil
+	slot0._name = "FuShunMovementScript"
 end
 
 function slot0.onStep(slot0)

@@ -83229,11 +83229,6 @@ _G.pg.base.item_virtual_data_statistics[58001] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -83350,11 +83345,6 @@ _G.pg.base.item_virtual_data_statistics[58002] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -83489,11 +83479,6 @@ _G.pg.base.item_virtual_data_statistics[58003] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -83610,11 +83595,6 @@ _G.pg.base.item_virtual_data_statistics[58004] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -83749,11 +83729,6 @@ _G.pg.base.item_virtual_data_statistics[58005] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -83875,11 +83850,6 @@ _G.pg.base.item_virtual_data_statistics[58006] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -149439,6 +149409,121 @@ _G.pg.base.item_virtual_data_statistics[58993] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[58994] = {
+	display = "随机获得一件「仙侠」主题外观装备",
+	name = "外观装备(仙侠)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	id = 58994,
+	order = 0,
+	display_icon = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -157939,6 +158024,150 @@ _G.pg.base.item_virtual_data_statistics[59522] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59523] = {
+	display = "参与「寰昌宇定家事忙」获得的点数，累计一定程度可以领取报酬",
+	name = "节日用餐券 ",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/huanchang_pt",
+	id = 59523,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59524] = {
+	display = "参与「寰昌宇定家事忙」EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	name = "特别挑战券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59524,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59525] = {
+	display = "参与「世界巡游」(2024.2.1~2024.3.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	name = "巡游点数",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59525,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59526] = {
+	display = "不该被看到",
+	name = "通行证十五期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7015,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59526,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59527] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59527,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59528] = {
+	display = "用于「新岁祝福·甲辰」活动兑换，活动结束后将会消失",
+	name = "东煌结",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59528,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-{namecode:158}",
 	name = "船模-{namecode:158}",
@@ -160267,6 +160496,30 @@ _G.pg.base.item_virtual_data_statistics[59821] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59823] = {
+	display = "访问作战档案必须的电子密钥(消耗品)",
+	name = "档案密钥",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 7,
+	is_world = 0,
+	icon = "Props/activity_tickets",
+	id = 59823,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59824] = {
 	display = "用于参加投票大战的投票次数，每轮投票结束时次数清零",
 	name = "投票次数",
@@ -161699,6 +161952,30 @@ _G.pg.base.item_virtual_data_statistics[60024] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60024,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60025] = {
+	display = "可在「啾啾大酒楼」活动中使用",
+	name = "红包",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5188,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60025,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -163579,6 +163856,174 @@ _G.pg.base.item_virtual_data_statistics[60332] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[60333] = {
+	display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料A",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60333,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60334] = {
+	display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料B",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60334,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60335] = {
+	display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料C",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60335,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60336] = {
+	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料D",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60336,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60337] = {
+	display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料E",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60337,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60338] = {
+	display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料F",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60338,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60339] = {
+	display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+	name = "颜料G",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60339,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[60401] = {
 	display = "前端不显示，道具看不到",
 	name = "海天活动道具1",
@@ -164956,7 +165401,40 @@ _G.pg.base.item_virtual_data_statistics[69924] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			502042,
+			1200
+		},
+		{
+			502052,
+			1200
+		},
+		{
+			506021,
+			1200
+		},
+		{
+			502011,
+			1200
+		},
+		{
+			702051,
+			1400
+		},
+		{
+			206081,
+			1360
+		},
+		{
+			501032,
+			1240
+		},
+		{
+			519011,
+			1200
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69925] = {
@@ -164990,7 +165468,36 @@ _G.pg.base.item_virtual_data_statistics[69925] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			499071,
+			1200
+		},
+		{
+			499052,
+			1200
+		},
+		{
+			408025,
+			1610
+		},
+		{
+			404042,
+			1580
+		},
+		{
+			105201,
+			1580
+		},
+		{
+			408085,
+			1430
+		},
+		{
+			901132,
+			1400
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69926] = {
@@ -169115,6 +169622,342 @@ _G.pg.base.item_virtual_data_statistics[70164] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[70165] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	id = 70165,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70166] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_2",
+	id = 70166,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70167] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_3",
+	id = 70167,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70168] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_4",
+	id = 70168,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70169] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_15",
+	id = 70169,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70170] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_6",
+	id = 70170,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70171] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_7",
+	id = 70171,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70172] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_8",
+	id = 70172,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70173] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_9",
+	id = 70173,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70174] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_10",
+	id = 70174,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70175] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_16",
+	id = 70175,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70176] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_12",
+	id = 70176,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70177] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花13",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_13",
+	id = 70177,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70178] = {
+	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
+	name = "春节烟花14",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_14",
+	id = 70178,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "随机缤纷夜换装·I",
@@ -169192,6 +170035,112 @@ _G.pg.base.item_virtual_data_statistics[86201] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86201,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86202] = {
+	display = "不会被看到",
+	name = "随机春节换装2024·I",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86202,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			501051,
+			1200
+		},
+		{
+			504011,
+			1200
+		},
+		{
+			501061,
+			1200
+		},
+		{
+			103262,
+			1900
+		},
+		{
+			501071,
+			1500
+		},
+		{
+			502091,
+			1500
+		},
+		{
+			402083,
+			1500
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86203] = {
+	display = "不会被看到",
+	name = "随机春节换装2024·II",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86203,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -174157,4 +175106,154 @@ _G.pg.base.item_virtual_data_statistics[200059] = {
 			1
 		}
 	}
+}
+
+_G.pg.base.item_virtual_data_statistics[200060] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200060,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			59,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200061] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200061,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200062] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200062,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

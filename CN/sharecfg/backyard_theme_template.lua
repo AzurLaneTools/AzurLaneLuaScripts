@@ -3444,7 +3444,7 @@ pg.backyard_theme_template = {
 	[86] = {
 		Cfg_1 = 5,
 		name = "东煌园林",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 86,
 		comfortable = 0,
@@ -4340,6 +4340,38 @@ pg.backyard_theme_template = {
 			306114
 		}
 	},
+	[107] = {
+		Cfg_1 = 5,
+		name = "龙年新春",
+		hot = 1,
+		is_view = 1,
+		id = 107,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "龙年大吉，新春如意！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cj6themeicon",
+		deblocking = 1,
+		order = 108,
+		ids = {
+			307001,
+			307002,
+			307101,
+			307102,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4438,6 +4470,7 @@ pg.backyard_theme_template = {
 		103,
 		104,
 		105,
-		106
+		106,
+		107
 	}
 }

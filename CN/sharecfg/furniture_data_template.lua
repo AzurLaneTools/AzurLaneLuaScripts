@@ -166,6 +166,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			267,
 			268,
+			269,
 			100001,
 			100002,
 			100003,
@@ -223,6 +224,7 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
+			100058,
 			200001,
 			200002,
 			200003,
@@ -3191,6 +3193,24 @@ pg.furniture_data_template = setmetatable({
 			306113,
 			306114,
 			306115
+		},
+		[107] = {
+			307001,
+			307002,
+			307101,
+			307102,
+			307103,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307109,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		}
 	},
 	get_id_list_by_tag = {
@@ -5075,7 +5095,19 @@ pg.furniture_data_template = setmetatable({
 			306108,
 			306109,
 			306110,
-			306111
+			306111,
+			307101,
+			307102,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		},
 		{
 			1108,
@@ -5434,6 +5466,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			267,
 			268,
+			269,
 			100001,
 			100002,
 			100003,
@@ -5491,6 +5524,7 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
+			100058,
 			31101,
 			54101,
 			54102,
@@ -5674,7 +5708,9 @@ pg.furniture_data_template = setmetatable({
 			306112,
 			306113,
 			306114,
-			306115
+			306115,
+			307103,
+			307109
 		},
 		[4] = {
 			1001,
@@ -5771,7 +5807,8 @@ pg.furniture_data_template = setmetatable({
 			303001,
 			304001,
 			305001,
-			306001
+			306001,
+			307001
 		},
 		[3] = {
 			1002,
@@ -5868,7 +5905,8 @@ pg.furniture_data_template = setmetatable({
 			303002,
 			304002,
 			305002,
-			306002
+			306002,
+			307002
 		},
 		[5] = {
 			1301,
@@ -6303,7 +6341,8 @@ pg.furniture_data_template = setmetatable({
 			303002,
 			304002,
 			305002,
-			306002
+			306002,
+			307002
 		},
 		[7] = {
 			1,
@@ -6444,6 +6483,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			267,
 			268,
+			269,
 			100001,
 			100002,
 			100004,
@@ -6488,7 +6528,8 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
-			100057
+			100057,
+			100058
 		},
 		[2] = {
 			120,
@@ -8364,7 +8405,20 @@ pg.furniture_data_template = setmetatable({
 			306112,
 			306113,
 			306114,
-			306115
+			306115,
+			307101,
+			307102,
+			307103,
+			307104,
+			307105,
+			307106,
+			307107,
+			307109,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		},
 		[11] = {
 			131,
@@ -8866,7 +8920,8 @@ pg.furniture_data_template = setmetatable({
 			303001,
 			304001,
 			305001,
-			306001
+			306001,
+			307001
 		},
 		[5] = {
 			1101,
@@ -9222,7 +9277,8 @@ pg.furniture_data_template = setmetatable({
 			62112,
 			94103,
 			97105,
-			97119
+			97119,
+			307108
 		},
 		[10] = {
 			28306,
@@ -9403,6 +9459,7 @@ pg.furniture_data_template = setmetatable({
 		266,
 		267,
 		268,
+		269,
 		100001,
 		100002,
 		100003,
@@ -9460,6 +9517,7 @@ pg.furniture_data_template = setmetatable({
 		100055,
 		100056,
 		100057,
+		100058,
 		200001,
 		200002,
 		200003,
@@ -12235,7 +12293,23 @@ pg.furniture_data_template = setmetatable({
 		306112,
 		306113,
 		306114,
-		306115
+		306115,
+		307001,
+		307002,
+		307101,
+		307102,
+		307103,
+		307104,
+		307105,
+		307106,
+		307107,
+		307108,
+		307109,
+		307110,
+		307111,
+		307112,
+		307113,
+		307114
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20223,6 +20297,124 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[269] = {
+		rarity = 5,
+		describe = "闪耀的灯光，点亮闪耀的你！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "闪耀舞台",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "toupiaowutai2023icon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 269,
+		can_rotate = 0,
+		size = {
+			13,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"toupiaowutai2023B",
+				"normal"
+			},
+			{
+				"toupiaowutai2023T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char4",
+				1
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -24380,6 +24572,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100058] = {
+		spine_extra = "",
+		describe = "不知是哪位少女的失落之物…要打开看看么？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "qingshutaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "“遗落”的书信",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100058,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingshutai",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_aixin"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -145880,6 +146122,831 @@ pg.base.furniture_data_template = {
 				"char1",
 				1
 			}
+		},
+		interAction_group = {}
+	},
+	[307001] = {
+		spine_extra = "",
+		describe = "龙年大吉，新春如意！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "龙年新春地板",
+		effect = "",
+		advice = 0,
+		icon = "dibancj6icon",
+		spine_action_replace = "",
+		picture = "cj6/dibancj6",
+		comfortable = 4,
+		canputon = 0,
+		id = 307001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307002] = {
+		spine_extra = "",
+		describe = "龙年大吉，新春如意！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 107,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "龙翔除夕墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicj6icon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 307002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicj6",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[307101] = {
+		spine_extra = "",
+		describe = "龙年限定二龙戏珠宫灯！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "宫灯",
+		themeId = 107,
+		icon = "fudengcj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fudengcj6",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[307102] = {
+		spine_extra = "",
+		describe = "新年就是要红红火火，屋顶也不例外。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 107,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fujianzhucj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "瑞雪阁楼",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj6/fujianzhucj6",
+		canputon = 0,
+		id = 307102,
+		can_rotate = 0,
+		size = {
+			11,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-219.2,
+					-171
+				},
+				{
+					-1,
+					1
+				},
+				"cj6/fujianzhucj6_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307103] = {
+		spine_extra = "",
+		describe = "……通向哪里？站上去就知道了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "别有洞天",
+		themeId = 107,
+		icon = "guanjingchicj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307103,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanjingchicj6B",
+				"normal"
+			},
+			{
+				"guanjingchicj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[307104] = {
+		spine_extra = "",
+		describe = "燃放烟花要注意安全哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiu1cj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "焰火龙啾",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj6/jiu1cj6",
+		canputon = 0,
+		id = 307104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307105] = {
+		spine_extra = "",
+		describe = "冰糖葫芦~新鲜的冰糖葫芦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiu2cj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "糖葫芦龙啾",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj6/jiu2cj6",
+		canputon = 0,
+		id = 307105,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307106] = {
+		spine_extra = "",
+		describe = "一二三！一起划！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "龙舟",
+		themeId = 107,
+		icon = "longchuancj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307106,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"longzhoucj6B",
+				"normal"
+			},
+			{
+				"longzhoucj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[307107] = {
+		spine_extra = "",
+		describe = "在寒冬也能绽放的花朵。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuashucj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "梅花映雪",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj6/meihuashucj6",
+		canputon = 0,
+		id = 307107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307108] = {
+		spine_extra = "",
+		describe = "龙在上面睡着了，谁去薅一下它的胡子？",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paifangcj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "盘龙牌坊",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj6/paifangcj6",
+		canputon = 1,
+		id = 307108,
+		can_rotate = 0,
+		size = {
+			2,
+			9
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307109] = {
+		spine_extra = "",
+		describe = "用手搓一搓，也许会有好运哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 107,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "panlongdengcj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "盘龙灯",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"panlongdengcj6",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[307110] = {
+		spine_extra = "",
+		describe = "只要在眼睛上点一笔，就会活过来了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "panlongzhucj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "盘龙柱",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj6/panlongzhucj6",
+		canputon = 0,
+		id = 307110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307111] = {
+		spine_extra = "",
+		describe = "除夕夜大餐的绝佳场所！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tingzicj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "亭子",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj6/tingzicj6",
+		canputon = 0,
+		id = 307111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307112] = {
+		rarity = 3,
+		describe = "在温泉中，迎接新一年的到来吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "盘龙温泉",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 107,
+		icon = "wenquancj6icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		effect = "",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307112,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wenquancj6B",
+				"normal"
+			},
+			{
+				"wenquancj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[307113] = {
+		spine_extra = "",
+		describe = "不知道为什么，坐在上面有点冷。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 107,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizicj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "龙椅",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj6/yizicj6",
+		canputon = 0,
+		id = 307113,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					24.3,
+					-1.6
+				},
+				{
+					1,
+					1
+				},
+				"cj6/yizicj6_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307114] = {
+		spine_extra = "",
+		describe = "卧龙迎新春，挂雪兆瑞年。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 107,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhuloucj6icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "卧龙挂雪",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj6/zhuloucj6",
+		canputon = 0,
+		id = 307114,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

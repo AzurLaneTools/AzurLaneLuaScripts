@@ -49,6 +49,8 @@ end
 function slot0.destroy(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
+
+		slot0.handle = nil
 	end
 end
 

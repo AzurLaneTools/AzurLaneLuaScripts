@@ -1064,7 +1064,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安塔提卡洋舰队……？",
+			say = "安塔迪卡洋舰队……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1081,7 +1081,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇，你们是怎么从安塔提卡洋跑到这里来的？",
+			say = "怨仇，你们是怎么从安塔迪卡洋跑到这里来的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……本王前脚才刚到阿瓦隆之门，你远在安塔提卡是怎么提前知道的？",
+			say = "……本王前脚才刚到阿瓦隆之门，你远在安塔迪卡是怎么提前知道的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
