@@ -139,7 +139,7 @@ pg.worldboss_bufflist = {
 	[1018] = {
 		lua_id = 59180,
 		id = 1018,
-		desc = "战斗随机出现敌方的航空编队支援",
+		desc = "Enemy aerial support will randomly appear during battle.",
 		buff_icon = "1018",
 		buff_target = 1,
 		bonus = "0.03"
@@ -168,6 +168,22 @@ pg.worldboss_bufflist = {
 		buff_target = 1,
 		bonus = "0.05"
 	},
+	[101701] = {
+		lua_id = 59220,
+		id = 101701,
+		desc = "During battle, the enemy Flagship will fire a special barrage at regular intervals",
+		buff_icon = "1017",
+		buff_target = 1,
+		bonus = "0.03"
+	},
+	[101801] = {
+		lua_id = 59230,
+		id = 101801,
+		desc = "Enemy aerial support will randomly appear during battle.",
+		buff_icon = "1018",
+		buff_target = 1,
+		bonus = "0.03"
+	},
 	all = {
 		1001,
 		1002,
@@ -189,6 +205,8 @@ pg.worldboss_bufflist = {
 		1018,
 		1019,
 		1020,
-		1021
+		1021,
+		101701,
+		101801
 	}
 }

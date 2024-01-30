@@ -23,19 +23,21 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 	uv1.Battle.PlayBattleSFX(slot7:GetHitSFX())
 
-	slot12 = slot7:GetTemplate().extra_param.buff_id
+	slot11 = slot7:GetTemplate().extra_param
+	slot12 = slot11.buff_id
+	slot13 = slot11.buff_level or 1
 
 	uv0.GetDataProxy():SpawnLastingColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot7:GetPosition():Clone()), slot5.range, slot5.time, function (slot0)
 		if uv0:CanDealDamage() then
 			for slot4, slot5 in ipairs(slot0) do
 				if slot5.Active then
-					uv1:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():AddBuff(uv2.Battle.BattleBuffUnit.New(uv3))
+					uv1:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():AddBuff(uv2.Battle.BattleBuffUnit.New(uv3, uv4))
 
-					if not uv4.noIntervalDMG then
-						uv5:HandleDamage(uv0, slot6)
+					if not uv5.noIntervalDMG then
+						uv6:HandleDamage(uv0, slot6)
 					end
 
-					if pg.Tool.FilterY(uv6 - slot6:GetPosition()).magnitude < (uv4.force or 0.1) then
+					if pg.Tool.FilterY(uv7 - slot6:GetPosition()).magnitude < (uv5.force or 0.1) then
 						slot6:SetUncontrollableSpeed(slot9, 0.001, 1e-06)
 					else
 						slot6:SetUncontrollableSpeed(slot9, slot8, 1e-07)

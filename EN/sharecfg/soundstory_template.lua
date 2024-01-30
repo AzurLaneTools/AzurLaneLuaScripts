@@ -260,12 +260,92 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		CV_JP = "Yoko Hikasa",
+		audition_resource_CN = "",
+		audition_text = "In return... you could take a bite out of me. Whatever part you like.",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "A tipsy moment with St. Louis. \nFrom her luscious lips, temptation flows forth...",
+		name = "Your Desire is All Mine",
+		ship_id = 10213,
+		audition_resource_JP = "ss-10213-1",
+		CV_CN = "",
+		id = 7,
+		story_resource_JP = "soundStory7_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "Tomoyo Chuujou",
+		audition_resource_CN = "",
+		time = "always",
+		audition_text = "Just a little while longer. I want to stay immersed... in the harmony of our beating hearts...",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "An earbud cord brings you and Helena closer and closer. Is that static noise you hear? No, it's a steady throb; the most precious thing...",
+		ship_id = 10205,
+		audition_resource_JP = "ss-10205-1",
+		name = "Symphonious Heartbeats",
+		CV_CN = "",
+		id = 8,
+		story_resource_JP = "soundStory8_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8
 	}
 }

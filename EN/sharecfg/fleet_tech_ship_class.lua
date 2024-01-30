@@ -2421,6 +2421,29 @@ pg.fleet_tech_ship_class = {
 			50104
 		}
 	},
+	[50102] = {
+		shiptype = 1,
+		name = "Fei Yuen",
+		nation = 5,
+		id = 50102,
+		t_level_1 = 128,
+		t_level = 1,
+		ships = {
+			50107
+		}
+	},
+	[50103] = {
+		shiptype = 1,
+		name = "Lung Wu Class",
+		nation = 5,
+		id = 50103,
+		t_level_1 = 128,
+		t_level = 1,
+		ships = {
+			50105,
+			50106
+		}
+	},
 	[50201] = {
 		shiptype = 2,
 		name = "Ning Hai Class",
@@ -2477,6 +2500,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			59901
+		}
+	},
+	[50206] = {
+		shiptype = 2,
+		name = "Chi An",
+		nation = 5,
+		id = 50206,
+		t_level_1 = 130,
+		t_level = 1,
+		ships = {
+			50209
+		}
+	},
+	[50401] = {
+		shiptype = 4,
+		name = "Huan Ch'ang",
+		nation = 5,
+		id = 50401,
+		t_level_1 = 130,
+		t_level = 1,
+		ships = {
+			50401
 		}
 	},
 	[50601] = {
@@ -3308,6 +3353,17 @@ pg.fleet_tech_ship_class = {
 			970103
 		}
 	},
+	[970104] = {
+		shiptype = 1,
+		name = "Kimberly META",
+		nation = 97,
+		id = 970104,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			970104
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -3781,11 +3837,15 @@ pg.fleet_tech_ship_class = {
 		40805,
 		41801,
 		50101,
+		50102,
+		50103,
 		50201,
 		50202,
 		50203,
 		50204,
 		50205,
+		50206,
+		50401,
 		50601,
 		50602,
 		51901,
@@ -3859,6 +3919,7 @@ pg.fleet_tech_ship_class = {
 		970101,
 		970102,
 		970103,
+		970104,
 		970201,
 		970202,
 		970203,

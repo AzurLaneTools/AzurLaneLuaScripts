@@ -207,6 +207,11 @@ pg.task_meta_data_template = setmetatable({
 		100143,
 		100144,
 		100145,
+		100151,
+		100152,
+		100153,
+		100154,
+		100155,
 		200001,
 		200002,
 		200003,
@@ -262,7 +267,11 @@ pg.task_meta_data_template = setmetatable({
 		200141,
 		200142,
 		200143,
-		200144
+		200144,
+		200151,
+		200152,
+		200153,
+		200154
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1907,6 +1916,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100151] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "Win 1 battle with Kimberly META in your fleet.",
+		id = 100151,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100152] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Kimberly META in your fleet.",
+		id = 100152,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100153] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Kimberly META in your fleet.",
+		id = 100153,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100154] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Kimberly META in your fleet.",
+		id = 100154,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100155] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Kimberly META in your fleet.",
+		id = 100155,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2352,6 +2401,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kirov META in your fleet.",
 		id = 200144,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200151] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Kimberly META in your fleet.",
+		id = 200151,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200152] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Kimberly META in your fleet.",
+		id = 200152,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200153] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Kimberly META in your fleet.",
+		id = 200153,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200154] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kimberly META in your fleet.",
+		id = 200154,
 		target_num = 1,
 		target_id = "100"
 	}

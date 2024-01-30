@@ -33,6 +33,18 @@ function slot0.GetDragSaveName(slot0, slot1, slot2)
 end
 
 function slot0.ClearLive2dSave(slot0, slot1)
+	if not slot0 or not slot1 then
+		warning("skinId 或 shipId 不能为空")
+
+		return
+	end
+
+	if not pg.ship_skin_template[slot0] then
+		warning("找不到skinId" .. tostring(slot0) .. " 清理失败")
+
+		return
+	end
+
 	if pg.ship_skin_template[slot0].ship_l2d_id and #slot2 > 0 then
 		Live2dConst.SaveL2dIdle(slot0, slot1, 0)
 
@@ -41,7 +53,11 @@ function slot0.ClearLive2dSave(slot0, slot1)
 		Live2dConst.SaveL2dAction(slot0, slot1, slot6)
 
 		for slot6, slot7 in ipairs(slot2) do
-			Live2dConst.SaveDragData(slot7, slot0, slot1, pg.ship_l2d[slot7].start_value)
+			if pg.ship_l2d[slot7] then
+				Live2dConst.SaveDragData(slot7, slot0, slot1, pg.ship_l2d[slot7].start_value or 0)
+			else
+				warning(tostring(slot7) .. "不存在，不清理该dragid")
+			end
 		end
 	end
 

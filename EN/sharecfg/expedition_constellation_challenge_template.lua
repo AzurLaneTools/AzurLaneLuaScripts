@@ -696,6 +696,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10025] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10025,
+		dungeon_id = 5127,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>2.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
+			},
+			{
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>80.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>2.0%</color>."
+			}
+		},
+		award_display = {
+			{
+				14,
+				209,
+				1
+			}
+		}
+	},
+	[10026] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10026,
+		dungeon_id = 5126,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>1.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
+			},
+			{
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>60.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>1.0%</color>."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10009,
+				1
+			}
+		}
+	},
+	[10027] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10027,
+		dungeon_id = 5125,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>2.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
+			},
+			{
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>80.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>2.0%</color>."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10009,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -720,6 +807,9 @@ pg.expedition_constellation_challenge_template = {
 		10021,
 		10022,
 		10023,
-		10024
+		10024,
+		10025,
+		10026,
+		10027
 	}
 }

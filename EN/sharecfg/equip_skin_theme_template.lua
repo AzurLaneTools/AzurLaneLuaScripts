@@ -1118,6 +1118,31 @@ pg.equip_skin_theme_template = {
 			887
 		}
 	},
+	[54] = {
+		id = 54,
+		name = "Mythical Trove",
+		ids = {
+			890,
+			891,
+			892,
+			893,
+			894,
+			895,
+			896,
+			897,
+			898,
+			899,
+			900,
+			901,
+			902,
+			903,
+			904,
+			905,
+			906,
+			907,
+			908
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1198,6 +1223,16 @@ pg.equip_skin_theme_template = {
 			2056
 		}
 	},
+	[105] = {
+		id = 105,
+		name = "Magic Era",
+		ids = {
+			2061,
+			2062,
+			2063,
+			2064
+		}
+	},
 	[199] = {
 		id = 199,
 		name = "Misc",
@@ -1257,10 +1292,12 @@ pg.equip_skin_theme_template = {
 		51,
 		52,
 		53,
+		54,
 		101,
 		102,
 		103,
 		104,
+		105,
 		199
 	}
 }

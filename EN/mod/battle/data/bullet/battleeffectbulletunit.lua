@@ -35,11 +35,12 @@ function slot1.spawnArea(slot0, slot1)
 	slot3 = slot2.hit_type
 	slot4 = slot2.attach_buff[1]
 	slot5 = slot4.buff_id
+	slot6 = slot4.buff_level or 1
 	time = slot3.time
-	slot8 = slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, time, function (slot0)
+	slot9 = slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, time, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
-				uv0._battleProxy:GetUnitList()[slot5.UID]:AddBuff(uv1.Battle.BattleBuffUnit.New(uv2), true)
+				uv0._battleProxy:GetUnitList()[slot5.UID]:AddBuff(uv1.Battle.BattleBuffUnit.New(uv2, uv3), true)
 			end
 		end
 	end, function (slot0)
@@ -49,10 +50,10 @@ function slot1.spawnArea(slot0, slot1)
 	end, slot4.friendly, slot4.effect_id)
 
 	if slot1 then
-		slot0._flare = slot8
+		slot0._flare = slot9
 	end
 
-	return slot8
+	return slot9
 end
 
 function slot1.GetExplodePostion(slot0)

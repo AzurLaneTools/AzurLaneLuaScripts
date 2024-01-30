@@ -556,6 +556,17 @@ function slot0.BindEvent(slot0)
 		})
 	end)
 	slot0:bind(uv0.ONEN_BUFF_SELECT, function (slot0)
+		(function (slot0)
+			if not slot0 or slot0:isEnd() then
+				return
+			end
+
+			if not slot0:getConfig("config_client").buff_scene then
+				return
+			end
+
+			uv0 = _G[slot1]
+		end)(uv0.contextData.activity)
 		uv0:addSubLayers(Context.New({
 			mediator = ActivityBossBuffSelectMediator,
 			viewComponent = ActivityBossBuffSelectLayer,

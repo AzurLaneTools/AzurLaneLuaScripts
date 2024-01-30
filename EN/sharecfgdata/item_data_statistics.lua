@@ -10628,6 +10628,98 @@ Prototype Twin 130mm Model 1936 Main Gun Mount T0 Design]],
 	}
 }
 
+_G.pg.base.item_data_statistics[14006] = {
+	open_directly = 0,
+	name = "Prototype Weapon Blueprint - Series 6",
+	display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype Triple 406mm Mk6 Main Gun Mount T0 Design
+Prototype Triple 150mm Type 5 High-Angle Gun Mount T0 Design
+Prototype Twin 150mm TbtsK C42T Main Gun Mount T0 Design
+Prototype Triple 380mm Mle 1935 Main Gun Mount T0 Design
+Prototype 55mm Gerät 58 AA Gun Mount T0 Design
+]],
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 14006,
+	icon = "Props/14006",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13036,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "Medal of Honor",
@@ -14218,6 +14310,42 @@ _G.pg.base.item_data_statistics[20104] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[20105] = {
+	open_directly = 0,
+	name = "Combat Data Pack - Series 5",
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 5 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	type = 18,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 20105,
+	icon = "Props/20105",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21000] = {
 	open_directly = 0,
 	name = "Crystal Fragment",
@@ -15157,6 +15285,39 @@ _G.pg.base.item_data_statistics[21028] = {
 	virtual_type = 0,
 	id = 21028,
 	icon = "Props/21028",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21029] = {
+	open_directly = 0,
+	name = "META Crystal – Kimberly",
+	display = "An item that increases the potential of Kimberly META. Used in the META Lab during Somatic Activation.",
+	type = 4,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 21029,
+	icon = "Props/21029",
 	order = 0,
 	rarity = 4,
 	max_num = 0,
@@ -23922,6 +24083,133 @@ _G.pg.base.item_data_statistics[30351] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30352] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Mythical Trove)",
+	display = "Contains a random gear skin.",
+	type = 11,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30352,
+	icon = "Props/appearanceboxxianxia",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "30352",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			890,
+			1
+		},
+		{
+			9,
+			891,
+			1
+		},
+		{
+			9,
+			892,
+			1
+		},
+		{
+			9,
+			893,
+			1
+		},
+		{
+			9,
+			894,
+			1
+		},
+		{
+			9,
+			895,
+			1
+		},
+		{
+			9,
+			896,
+			1
+		},
+		{
+			9,
+			897,
+			1
+		},
+		{
+			9,
+			898,
+			1
+		},
+		{
+			9,
+			899,
+			1
+		},
+		{
+			9,
+			900,
+			1
+		},
+		{
+			9,
+			901,
+			1
+		},
+		{
+			9,
+			902,
+			1
+		},
+		{
+			9,
+			903,
+			1
+		},
+		{
+			9,
+			904,
+			1
+		},
+		{
+			9,
+			905,
+			1
+		},
+		{
+			9,
+			906,
+			1
+		},
+		{
+			9,
+			907,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -24846,6 +25134,60 @@ _G.pg.base.item_data_statistics[30417] = {
 		{
 			9,
 			2056,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30418] = {
+	open_directly = 1,
+	name = "Random Gear Skin Box",
+	display = "Contains 1 random Cruise Mission gear skin.",
+	type = 11,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30418,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "30418",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2061,
+			1
+		},
+		{
+			9,
+			2062,
+			1
+		},
+		{
+			9,
+			2063,
+			1
+		},
+		{
+			9,
+			2064,
 			1
 		}
 	},
@@ -32085,6 +32427,436 @@ _G.pg.base.item_data_statistics[30534] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[30535] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Mythical Trove)",
+	display = "Can be opened to receive 1 Mythical Trove-themed gear skin of your choosing.",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30535,
+	icon = "Props/appearanceboxxianxiazixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			890,
+			1
+		},
+		{
+			9,
+			891,
+			1
+		},
+		{
+			9,
+			892,
+			1
+		},
+		{
+			9,
+			893,
+			1
+		},
+		{
+			9,
+			894,
+			1
+		},
+		{
+			9,
+			895,
+			1
+		},
+		{
+			9,
+			896,
+			1
+		},
+		{
+			9,
+			897,
+			1
+		},
+		{
+			9,
+			898,
+			1
+		},
+		{
+			9,
+			899,
+			1
+		},
+		{
+			9,
+			900,
+			1
+		},
+		{
+			9,
+			901,
+			1
+		},
+		{
+			9,
+			902,
+			1
+		},
+		{
+			9,
+			903,
+			1
+		},
+		{
+			9,
+			904,
+			1
+		},
+		{
+			9,
+			905,
+			1
+		},
+		{
+			9,
+			906,
+			1
+		},
+		{
+			9,
+			907,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			890,
+			1
+		},
+		{
+			9,
+			891,
+			1
+		},
+		{
+			9,
+			892,
+			1
+		},
+		{
+			9,
+			893,
+			1
+		},
+		{
+			9,
+			894,
+			1
+		},
+		{
+			9,
+			895,
+			1
+		},
+		{
+			9,
+			896,
+			1
+		},
+		{
+			9,
+			897,
+			1
+		},
+		{
+			9,
+			898,
+			1
+		},
+		{
+			9,
+			899,
+			1
+		},
+		{
+			9,
+			900,
+			1
+		},
+		{
+			9,
+			901,
+			1
+		},
+		{
+			9,
+			902,
+			1
+		},
+		{
+			9,
+			903,
+			1
+		},
+		{
+			9,
+			904,
+			1
+		},
+		{
+			9,
+			905,
+			1
+		},
+		{
+			9,
+			906,
+			1
+		},
+		{
+			9,
+			907,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30536] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Cowboy Essentials)",
+	display = "Can be opened to receive 1 Cowboy Essentials-themed gear skin of your choosing.",
+	type = 13,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 30536,
+	icon = "Props/appearanceboxniuzaizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			440,
+			1
+		},
+		{
+			9,
+			441,
+			1
+		},
+		{
+			9,
+			442,
+			1
+		},
+		{
+			9,
+			443,
+			1
+		},
+		{
+			9,
+			444,
+			1
+		},
+		{
+			9,
+			445,
+			1
+		},
+		{
+			9,
+			446,
+			1
+		},
+		{
+			9,
+			447,
+			1
+		},
+		{
+			9,
+			448,
+			1
+		},
+		{
+			9,
+			449,
+			1
+		},
+		{
+			9,
+			450,
+			1
+		},
+		{
+			9,
+			451,
+			1
+		},
+		{
+			9,
+			452,
+			1
+		},
+		{
+			9,
+			453,
+			1
+		},
+		{
+			9,
+			454,
+			1
+		},
+		{
+			9,
+			455,
+			1
+		},
+		{
+			9,
+			456,
+			1
+		},
+		{
+			9,
+			457,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			440,
+			1
+		},
+		{
+			9,
+			441,
+			1
+		},
+		{
+			9,
+			442,
+			1
+		},
+		{
+			9,
+			443,
+			1
+		},
+		{
+			9,
+			444,
+			1
+		},
+		{
+			9,
+			445,
+			1
+		},
+		{
+			9,
+			446,
+			1
+		},
+		{
+			9,
+			447,
+			1
+		},
+		{
+			9,
+			448,
+			1
+		},
+		{
+			9,
+			449,
+			1
+		},
+		{
+			9,
+			450,
+			1
+		},
+		{
+			9,
+			451,
+			1
+		},
+		{
+			9,
+			452,
+			1
+		},
+		{
+			9,
+			453,
+			1
+		},
+		{
+			9,
+			454,
+			1
+		},
+		{
+			9,
+			455,
+			1
+		},
+		{
+			9,
+			456,
+			1
+		},
+		{
+			9,
+			457,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -36301,6 +37073,55 @@ _G.pg.base.item_data_statistics[40137] = {
 			1,
 			2,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40138] = {
+	open_directly = 1,
+	name = "Limited Build Supplies",
+	display = "Contains loads of valuable rewards.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "OpenBox",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 40138,
+	icon = "ChargeIcon/boxBuild",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 15000,
+	other_item_cost = "[]",
+	usage_arg = "4138",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			1,
+			15000
 		}
 	},
 	price = {},
@@ -82703,39 +83524,6 @@ _G.pg.base.item_data_statistics[59799] = {
 	combination_display = {}
 }
 
-_G.pg.base.item_data_statistics[59823] = {
-	open_directly = 0,
-	name = "Data Key ",
-	display = "A key that grants access to the War Archives (Permanent Rerun Events). Consumed when used. ",
-	type = 0,
-	other_resource_cost = "[]",
-	display_effect = "",
-	shop_id = -1,
-	replace_item = 0,
-	usage = "usage_undefined",
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 7,
-	id = 59823,
-	icon = "Props/activity_tickets",
-	order = 0,
-	rarity = 4,
-	max_num = 0,
-	time_limit = 0,
-	limit = "[]",
-	drop_gold_max = 0,
-	other_item_cost = "[]",
-	usage_arg = "[]",
-	is_world = 0,
-	compose_number = 0,
-	target_id = 0,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
 _G.pg.base.item_data_statistics[59840] = {
 	open_directly = 0,
 	name = "4th Anniversary Coin",
@@ -82939,6 +83727,42 @@ _G.pg.base.item_data_statistics[59848] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59851] = {
+	open_directly = 0,
+	name = "Seal of the Black Tortoise",
+	display = "A Dragon Empery amulet with the divine beast seal of the Black Tortoise inscribed onto it. Retrofit material for Tai Yuan.",
+	type = 7,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 59851,
+	icon = "Props/symbolxuanwu",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		520044,
+		521044
+	},
 	combination_display = {}
 }
 
@@ -91650,6 +92474,282 @@ _G.pg.base.item_data_statistics[60457] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[60459] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Taihou)",
+	display = "A card from Taihou. It reads: \"It's so noisy outside... Why don't we just lock ourselves indoors and get busy with our own 'celebrations,' my Commander?\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60459,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60460] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Yat Sen)",
+	display = "A card from Yat Sen. It reads: \"Happy Lunar New Year, Commander. Have you tried Ning's and Ping's baozis? They're very good!\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60460,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60461] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Hwah Jah)",
+	display = "A card from Hwah Jah. It reads: \"There's plenty of fun to be had at this time of year. Why don't we start with... skipping our obligations and grabbing a bite?\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60461,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60462] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Chen Hai)",
+	display = "A card from Chen Hai. It reads: \"Happy Lunar New Year. This year is off to a fantastic start already – wouldn't you agree, Commander?\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60462,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60463] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Tai Yuan)",
+	display = "A card from Tai Yuan. It reads: \"Happy Year of the Dragon, Commander! Be sure to stop by our dorm for An Shan's speech later!\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60463,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60464] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Charybdis)",
+	display = "A card from Charybdis. It reads: \"May you have a fortuitous New Year, Master. Should you find yourself in need of anything, you know who to call!\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60464,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60465] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (Bristol)",
+	display = "A card from Bristol. It reads: \"A monster called the 'nian' that appears during Lunar New Year, you say? Sounds like a case for investigator Bristol!\"",
+	type = 1,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 60465,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60466] = {
+	open_directly = 0,
+	name = "Spring Festival Tidings (2024)",
+	display = "A card with a handwritten seasonal greeting. Can be used to receive a shipgirl of your choice and a commemorative item.",
+	type = 21,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_invitation",
+	drop_oil_max = 0,
+	link_id = 0,
+	drop_gold_max = 0,
+	id = 60466,
+	icon = "Props/henianka2024",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2401,
+		2402,
+		2403,
+		2404,
+		2405,
+		2406,
+		2407
+	},
+	open_ui = {
+		"greeting_year",
+		"t_greeting"
+	}
+}
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -91785,6 +92885,144 @@ _G.pg.base.item_data_statistics[81201] = {
 		{
 			2,
 			86201,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81202] = {
+	open_directly = 1,
+	name = "Spring Lucky Box 2024 A",
+	display = "Contains 1x random skin (Lunar New Year 2024 A), 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 81202,
+	icon = "Props/fudai11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "998302",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86202,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81203] = {
+	open_directly = 1,
+	name = "Spring Lucky Box 2024 B",
+	display = "Contains 1x random skin (Lunar New Year 2024 B), 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	type = 17,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_drop",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 81203,
+	icon = "Props/fudai12",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "998303",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86203,
 			1
 		},
 		{

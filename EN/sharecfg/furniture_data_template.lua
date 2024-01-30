@@ -133,6 +133,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			266,
 			268,
+			269,
 			100002,
 			100003,
 			100004,
@@ -176,6 +177,7 @@ pg.furniture_data_template = setmetatable({
 			100044,
 			100045,
 			100047,
+			100048,
 			200001,
 			200002,
 			200003,
@@ -3006,6 +3008,24 @@ pg.furniture_data_template = setmetatable({
 			306113,
 			306114,
 			306115
+		},
+		[107] = {
+			307001,
+			307002,
+			307101,
+			307102,
+			307103,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307109,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		}
 	},
 	get_id_list_by_tag = {
@@ -4806,7 +4826,19 @@ pg.furniture_data_template = setmetatable({
 			306108,
 			306109,
 			306110,
-			306111
+			306111,
+			307101,
+			307102,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		},
 		{
 			1108,
@@ -5100,6 +5132,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			266,
 			268,
+			269,
 			100002,
 			100003,
 			100004,
@@ -5143,6 +5176,7 @@ pg.furniture_data_template = setmetatable({
 			100044,
 			100045,
 			100047,
+			100048,
 			31101,
 			54104,
 			54105
@@ -5327,7 +5361,9 @@ pg.furniture_data_template = setmetatable({
 			306112,
 			306113,
 			306114,
-			306115
+			306115,
+			307103,
+			307109
 		},
 		[4] = {
 			1001,
@@ -5421,7 +5457,8 @@ pg.furniture_data_template = setmetatable({
 			303001,
 			304001,
 			305001,
-			306001
+			306001,
+			307001
 		},
 		[3] = {
 			1002,
@@ -5516,7 +5553,8 @@ pg.furniture_data_template = setmetatable({
 			303002,
 			304002,
 			305002,
-			306002
+			306002,
+			307002
 		},
 		[5] = {
 			1301,
@@ -5935,7 +5973,8 @@ pg.furniture_data_template = setmetatable({
 			303002,
 			304002,
 			305002,
-			306002
+			306002,
+			307002
 		},
 		[7] = {
 			1,
@@ -6047,6 +6086,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			266,
 			268,
+			269,
 			100002,
 			100004,
 			100005,
@@ -7875,7 +7915,20 @@ pg.furniture_data_template = setmetatable({
 			306112,
 			306113,
 			306114,
-			306115
+			306115,
+			307101,
+			307102,
+			307103,
+			307104,
+			307105,
+			307106,
+			307107,
+			307109,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
 		},
 		[11] = {
 			131,
@@ -7924,6 +7977,7 @@ pg.furniture_data_template = setmetatable({
 			214,
 			100019,
 			100037,
+			100048,
 			303103,
 			303113
 		},
@@ -8034,7 +8088,8 @@ pg.furniture_data_template = setmetatable({
 			303001,
 			304001,
 			305001,
-			306001
+			306001,
+			307001
 		},
 		[5] = {
 			1101,
@@ -8675,7 +8730,8 @@ pg.furniture_data_template = setmetatable({
 			62112,
 			94103,
 			97105,
-			97119
+			97119,
+			307108
 		},
 		[10] = {
 			28306,
@@ -8823,6 +8879,7 @@ pg.furniture_data_template = setmetatable({
 		265,
 		266,
 		268,
+		269,
 		100002,
 		100003,
 		100004,
@@ -8866,6 +8923,7 @@ pg.furniture_data_template = setmetatable({
 		100044,
 		100045,
 		100047,
+		100048,
 		200001,
 		200002,
 		200003,
@@ -11507,7 +11565,23 @@ pg.furniture_data_template = setmetatable({
 		306112,
 		306113,
 		306114,
-		306115
+		306115,
+		307001,
+		307002,
+		307101,
+		307102,
+		307103,
+		307104,
+		307105,
+		307106,
+		307107,
+		307108,
+		307109,
+		307110,
+		307111,
+		307112,
+		307113,
+		307114
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17759,6 +17833,124 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[269] = {
+		effect = "",
+		name = "Glamorous Stage",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Neon lights and spotlights! Get up there and flaunt your stardust to the world!",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "toupiaowutai2023icon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 5,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 269,
+		can_rotate = 0,
+		size = {
+			13,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"toupiaowutai2023B",
+				"normal"
+			},
+			{
+				"toupiaowutai2023T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char4",
+				1
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -20830,6 +21022,56 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100048] = {
+		effect = "",
+		name = "Manjuu Mimic",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This isn't like the chests you're familiar with. Touch it and it'll bite!",
+		tag = 6,
+		icon = "baoxiangguaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100048,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxiangguai",
+				"normal"
+			},
+			[3] = {
+				{
+					-286,
+					59
+				},
+				"walk"
+			}
 		},
 		interAction_group = {}
 	},
@@ -136339,6 +136581,831 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"char1",
 				1
 			}
+		},
+		interAction_group = {}
+	},
+	[307001] = {
+		icon = "dibancj6icon",
+		name = "Dragon Festival Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 107,
+		picture = "cj6/dibancj6",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "The dragon brings good fortune upon the spring winds!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 307001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307002] = {
+		icon = "qiangbicj6icon",
+		name = "Dragon Festival Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		themeId = 107,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The dragon brings good fortune upon the spring winds!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 307002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicj6",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[307101] = {
+		effect = "",
+		name = "Dragon Festival Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A limited-edition lantern featuring two dragons playing with a pearl. It's illuminating, and comfy to sit on!",
+		themeId = 107,
+		icon = "fudengcj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fudengcj6",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[307102] = {
+		effect = "",
+		name = "Auspicious Court",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj6/fujianzhucj6",
+		is_get_time_note = 0,
+		themeId = 107,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Just as the new year is red, fiery, and hot, so too must our buildings!",
+		tag = 1,
+		icon = "fujianzhucj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307102,
+		can_rotate = 0,
+		size = {
+			11,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-219.2,
+					-171
+				},
+				{
+					-1,
+					1
+				},
+				"cj6/fujianzhucj6_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307103] = {
+		effect = "",
+		name = "Dragon's Realmgate",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "To where does it lead? Stand in the shimmering light, and you'll find out soon enough!",
+		themeId = 107,
+		icon = "guanjingchicj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307103,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanjingchicj6B",
+				"normal"
+			},
+			{
+				"guanjingchicj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[307104] = {
+		effect = "",
+		name = "Firecracker Lungjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/jiu1cj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A not-so-intimidating fire-wielding creature.",
+		tag = 1,
+		icon = "jiu1cj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307105] = {
+		effect = "",
+		name = "Tanghulu Lungjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/jiu2cj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Even the mightiest beings can't resist the sweet, tangy crunch.",
+		tag = 1,
+		icon = "jiu2cj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307105,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307106] = {
+		effect = "",
+		name = "Dragon Boat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Yi! Er! San! Everyone, row in unison!",
+		themeId = 107,
+		icon = "longchuancj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307106,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"longzhoucj6B",
+				"normal"
+			},
+			{
+				"longzhoucj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[307107] = {
+		effect = "",
+		name = "Plum Blossoms Reflect the Snow",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/meihuashucj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Even in the harsh bite of the winter snow, beauty blooms.",
+		tag = 1,
+		icon = "meihuashucj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307108] = {
+		effect = "",
+		name = "Dragon's Archway",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/paifangcj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A dragon is fast asleep atop the archway. Who is brave enough to trim its beard?",
+		tag = 1,
+		icon = "paifangcj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 307108,
+		can_rotate = 0,
+		size = {
+			2,
+			9
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307109] = {
+		effect = "",
+		name = "Dragon Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 107,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Rub it, and it might just bestow you with good fortune!",
+		tag = 7,
+		icon = "panlongdengcj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"panlongdengcj6",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[307110] = {
+		effect = "",
+		name = "Dragon Pillar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/panlongzhucj6",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "I'm sure it'll look a bit more alive if we give it some googly eyes.",
+		tag = 1,
+		icon = "panlongzhucj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307111] = {
+		effect = "",
+		name = "Dragon Festival Pavilion",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/tingzicj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The perfect venue for a New Year's banquet! If you don't mind the cold, that is.",
+		tag = 1,
+		icon = "tingzicj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307112] = {
+		effect = "",
+		name = "Dragon Hot Tub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Let this impressive-looking hot spring imbue you with vitality and vigor for the new year!",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 107,
+		icon = "wenquancj6icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307112,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wenquancj6B",
+				"normal"
+			},
+			{
+				"wenquancj6T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[307113] = {
+		effect = "",
+		name = "Dragon Festival Throne",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj6/yizicj6",
+		is_get_time_note = 0,
+		themeId = 107,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You'd think it instills you with great power, but it actually just makes you cold.",
+		tag = 1,
+		icon = "yizicj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307113,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					24.3,
+					-1.6
+				},
+				{
+					1,
+					1
+				},
+				"cj6/yizicj6_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[307114] = {
+		effect = "",
+		name = "Guardian's Snowy Roost",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 107,
+		is_get_time_note = 0,
+		picture = "cj6/zhuloucj6",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The resting dragon welcomes the new year, and good fortune falls like pristine snow.",
+		tag = 1,
+		icon = "zhuloucj6icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 307114,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

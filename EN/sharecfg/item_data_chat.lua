@@ -144,6 +144,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 1/1/24 - 1/31/24 Season.</color>",
 		scene = {}
 	},
+	[10009] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Aquarius",
+		id = 10009,
+		time_second = 0,
+		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 2/1/24 - 2/29/24 Season.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -162,6 +170,7 @@ pg.item_data_chat = {
 		10005,
 		10006,
 		10007,
-		10008
+		10008,
+		10009
 	}
 }

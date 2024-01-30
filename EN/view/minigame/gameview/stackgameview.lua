@@ -88,7 +88,7 @@ function slot0.UpdateLevelTr(slot0, slot1, slot2)
 		end, SFX_PANEL)
 	end
 
-	slot2:Find("Text"):GetComponent(typeof(Image)).sprite = LoadSprite("ui/pile_atlas", "level" .. slot1)
+	slot2:Find("Text"):GetComponent(typeof(Image)).sprite = LoadSprite("ui/minigameui/pile_atlas", "level" .. slot1)
 end
 
 function slot0.PackData(slot0)

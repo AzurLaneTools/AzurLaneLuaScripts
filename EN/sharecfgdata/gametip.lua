@@ -2683,22 +2683,22 @@ _G.pg.base.gametip.coloring_help_tip = {
 		},
 		{
 			info = [[
-1. Each cell of the Coloring Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
+1. Each cell of the Drawing Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
 2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
 3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
 4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
 5. Paint can be obtained by completing event missions to consume a total amount of Oil. 
-6. Completing pages in the Coloring Book will grant rewards. 
+6. Completing pages in the Drawing Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Coins x100
-	 Complete Page 2: Random Skill Book T3 x2
-	 Complete Page 3: Coins x100
-	 Complete Page 4: T3 Main Gun Part x2
-	 Complete Page 5: Coins x100
-	 Complete Page 6: T3 General Part x3
-	 Complete Page 7: Jupiter's skin: ""Fanclub Sleepover""
-8. After the event ends, all unused paint will be removed. 
-9. A new page will be unlocked every day until <color=#92fc63>June 21st</color>.]]
+ Complete Page 1: Random Skill Book T3 x2
+ Complete Page 2: Red Envelope x2
+ Complete Page 3: T3 Main Gun Part x2
+ Complete Page 4: Red Envelope x2
+ Complete Page 5: Augment Module for Yat Sen
+ Complete Page 6: Red Envelope x2
+ Complete Page 7: Dragon Empery DD An Shan & Red Envelope x1
+8. After the event ends, all unused paint will be removed.
+9. A new page will be unlocked every day until February 5th.]]
 		}
 	}
 }
@@ -7951,8 +7951,33 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_520044 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Vanguard Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+_G.pg.base.gametip.ship_remould_warning_521044 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Main Fleet Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
 _G.pg.base.gametip.ship_remould_warning_502114 = {
 	tip = "The skill <color=#92fc63>Dragon Empery Bond</color> will be upgraded upon retrofit completion."
+}
+
+_G.pg.base.gametip.ship_remould_warning_506114 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+
+<color=#92fc63>This ship's 1st weapon slot will be able to equip Fighters and gain +2 aircraft.</color>
+<color=#92fc63>This ship's 2nd weapon slot will be able to equip any type of aircraft and gain +1 aircraft/mount.</color>
+Proceed with retrofit?]]
 }
 
 _G.pg.base.gametip.word_soundfiles_download_title = {
@@ -10267,15 +10292,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "New Jersey, Shinano, Kii and others added to standard build pool!"
+	tip = "New Jersey, Shinano, Prinz Heinrich and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Suzutsuki, Boise added to standard build pool!"
+	tip = "Kuybyshev added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "New Jersey, Shinano, Ticonderoga and others added to standard build pool!"
+	tip = "Theseus, Hwah Jah and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {
@@ -10415,6 +10440,10 @@ _G.pg.base.gametip.tec_catchup_3 = {
 
 _G.pg.base.gametip.tec_catchup_4 = {
 	tip = "Series 4"
+}
+
+_G.pg.base.gametip.tec_catchup_5 = {
+	tip = "Series 5"
 }
 
 _G.pg.base.gametip.tec_notice = {
@@ -13892,10 +13921,10 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 			info = [[
 - Manjuu Resort Info -
 · You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
-· Red Envelopes can be acquired from Fu Shun's Great Adventure IV, An Shan's Drawing Book, World Within the Painting, and Songs of Spring.
+· Red Envelopes can be acquired from Fu Shun's Great Adventure V, An Shan's Drawing Book, Spring Blossoms in the Sky, and Fei Yuen's Spring Adventure.
 · Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.
 · Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes.
-· After opening 15 envelopes in total, you will receive U-73's <color=#92fc63>New Year's Chemistry</color> skin as a bonus reward, and after 25 envelopes you'll also receive Fu Shun's <color=#92fc63>The Unbreakable Baozi Heist</color> skin.]]
+· After opening 15 envelopes in total, you will receive <color=#92fc63>a limited skin for the Dragon Empery DD Fu Shun</color> skin as a bonus reward, and after 25 envelopes you'll also receive <color=#92fc63>a limited skin for Wakatsuki</color>.]]
 		}
 	}
 }
@@ -20374,21 +20403,22 @@ _G.pg.base.gametip.fushun_game3_tip = {
 		{
 			info = [[
 - Overview -
-In the Fu Shun's Great Adventure III minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
 
-You will receive 1 Minigame Point daily up to February 2nd. Finishing the minigame with a Minigame Point in your possession will subtract 1 point, progress the minigame, and give you rewards. Spending 7 Minigame Points in total will award you with the Elite destroyer Fu Shun.
+You will receive 1 Minigame Point daily up to February 5th. Finishing the minigame with a Minigame Point in your possession will subtract 1 point, progress the minigame, and give you rewards. Spending 7 Minigame Points in total will award you with the Dragon Empery DD Fu Shun.
 
 - How to Play -
 · Tap the button on the bottom left of the screen to jump.
 · Tap the button on the bottom right of the screen to attack.
 · Coming in contact with a Nianjuu will hurt you for 1 health point.
-· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· When you run out of health points, fall off, or use the \""End Game\"" button, the minigame is done.
 · You may come across useful items as you play through the minigame. These include:
-1. Coin - Worth 100 points
-2. Amulet - Worth 600 points
-3. Power Juice - Increases your movement speed and jump height, allowing you to defeat more Nianjuus
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
 4. Missiles - Upgrades your regular attack into a missile strike
-5. Magnet - Attracts nearby items]]
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)]]
 		}
 	}
 }
@@ -21096,6 +21126,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.cruise_task_help_2312 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2402 = {
+	tip = "Complete Cruise Missions between 2/1-3/31 to receive <color=#854748>Kimberly META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2402 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+2/1 00:00 – 3/31 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Kimberly META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Miyuki, "Clear Skies and Crepes"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2402 = {
 	tip = {
 		{
 			info = [[
@@ -27091,4 +27181,23 @@ _G.pg.base.gametip.not_use_ticket_to_buy_skin = {
 
 _G.pg.base.gametip.skin_purchase_over_price = {
 	tip = "Do you want to consume <color=#92fc63>$1*1</color>and purchase the skin <color=#92fc63>$3</color> at the price of\n<icon name=gem w=0.6 h=0.6/>  <color=#FFDE38FF>$2</color>? (If the skin's full price is below the discount, no gems will be refunded)"
+}
+
+_G.pg.base.gametip.help_chunjie2024 = {
+	tip = {
+		{
+			info = [[
+Even lasts between <color=#92fc63>January 30th and February 21st</color>.
+
+- Overview -
+<color=#92fc63>Retrofit</color>: Complete all event missions to receive the retrofit material for <color=#92fc63>Tai Yuan</color>.
+<color=#92fc63>Fei Yuan's Adventure</color>: Log in to the game to receive the shipgirl <color=#92fc63>Fei Yuen</color> and gear skins.
+<color=#92fc63>Fireworks</color>: Complete chapter 3+ story stages or Joint Operation stages to earn Festive Shooting Stars. Unlock all fireworks to receive the limited shipgirl <color=#92fc63>Ting An</color>.
+<color=#92fc63>Drawing Book</color>: Gather paint and fill in the paintings to receive the shipgirl <color=#92fc63>An Shan</color>.
+<color=#92fc63>Fu Shun's Great Adventure</color>: Play the minigame over 7 days to receive the shipgirl <color=#92fc63>Fu Shun</color>.
+<color=#92fc63>Manjuu Resort</color>: Open the Red Envelopes you've collected through mini-events and minigames. Open 15 in total to receive a skin for Fu Shun. Open 25 in total to receive a new skin for Wakatsuki, <color=#92fc63>Blue Sparrow Heralding Spring</color>.
+<color=#92fc63>New Skins</color>: Check out the latest shipgirl fashion.
+<color=#92fc63>Limited Construction</color>: Brings you to the build screen.]]
+		}
+	}
 }

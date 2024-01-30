@@ -244,7 +244,12 @@ pg.ship_skin_words_extra = setmetatable({
 		104010,
 		108080,
 		107300,
-		103270
+		103270,
+		504010,
+		502090,
+		501050,
+		501060,
+		501070
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16995,6 +17000,326 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Zzzz... Mmm... Oh? Commander, why are you in my room... Hm? I see, so this was your office all this time... Why would I make such a mistake? Umm, are you sure this is your office...?"
+			}
+		}
+	},
+	[504010] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		battle = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 504010,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Heehee. You're back? What would you like to start the day with? ...Don't worry. No matter what you decide, I'll be right there with you."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Well fought out there. You didn't get hurt, did you? ...Even if you say that, I'm still a bit worried. Mind if I do a little check-up? ––Hm? Why didn't I just do a divination? Um, well... I was too worried about you to focus on that..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Lung Wu's mastery of the culinary arts is certainly impressive, but she could stand to gain a greater appreciation for sweetness... Hm? What do I think is the proper amount of sweetness? I mean, one can of sugar would be the bare minimum...|Hm? You're wondering why I can tolerate the bitterness and spice of alcohol, but can't handle bitter melon or chili peppers? Those are completely different things–– Wait! How'd you find out about that?!|...I knew it, you can no longer tell the fortunes of those too close to you. What am I sighing over? ...Take a look at this. It's the hexagram for your love life. What in the world is this convoluted web? Surely there must be some kind of mistake..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you don't need me for anything, I'll go back to divining your future, okay?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Looks like we've got new work. ...You're tired? I guess a short break can't hurt."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, the rewards are in. Want to do a quick look-around?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...We're still outside, you know?! At least... wait until we get back!"
+			}
+		}
+	},
+	[502090] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		profile = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 502090,
+		login = {
+			{
+				1100,
+				"Good day. Are you ready to take care of today's work? Heehee. I'll lend you my full assistance."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Care for a game of Go? No matter what you might have on your mind, the board is the perfect place to vent."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You managed to win by half a point with Chen Hai? Oh, I doubt it's solely because I instructed you well. But, a win is a win... So, can I expect a reward from you?|Thanks to your special training course, I was finally able to earn permission to enter the kitchen. Mmhmm~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You'll teach me how to cook? I'm so glad to hear that~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh my, surely you don't think I'd just let you end it there~?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Out of curiosity, Commander, are you free today? Would you like to spend the Qixi Festival with me? ...It's too early for that? Hmm, are you sure there isn't something wrong with your calendar? Because according to my calendar, today is Qixi, and so is tomorrow, and the day after... Every day is Qixi, you know..."
+			}
+		}
+	},
+	[501050] = {
+		upgrade = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		hp_warning = "",
+		id = 501050,
+		lose = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You've kept me waiting! Even after I cooked all these dishes for you–– It's way too much? It's just going to go to waste since you can't finish it? Don't worry about that! I already have an idea in mind~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander! I've prepared a special homecoming feast for you! By the way, please try the new dishes I've been developing~♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Commander, I'm not some little kid... Do you really like patting my head that much?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"...I'm tipsy? Nonsense... Uhh... I just ate some drunken crab, that's all... Also, Commander... aren't you hungry? I made... some mapo tofu, spicy boiled beef, and mala chicken... If that's not enough, I can also whip up a hotpot...|Ugh, didn't make enough rice... It's all because the food pairs too well with rice, and I inadvertently ended up wolfing down eight bowls... Huh? Commander?! Did you hear what I just said? ...Uhh, it's just because I didn't want to waste food, that's all!|You think I've been leaning too much into one type of cuisine? I suppose that's true... I don't usually take the initiative to cook Sichuan food since it's on the spicy side... Hm? The boiled beef I made earlier was really good? Huh, I don't seem to recall making that recently..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you like my tail? You think it's cute? Really? (*wags vigorously*)"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You've got new missions. After you finish up, I'll whip you up something sweet as a reward. As for what specifically... You're fine with tangyuan, right?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Done with your missions? Well done, Commander~ As promised, here's a bowl of fresh tangyuan~ ...Hmm, it's still piping hot, so let me cool it down for you first~♪"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Commander, you've got new mail. Hmm... I took a quick glance, and yeah, it's a total wall of text... Yeah, I think I'll go make some dim sum instead~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I'm not sure... this is the best place for that..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"...Huh? You don't need me to make lunch for you for the time being? Wh-why?! Did you get tired of my cooking? ––Hmm? It's because you've been putting on too much weight? Phew... You had me scared for a moment there..."
+			}
+		}
+	},
+	[501060] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		profile = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 501060,
+		login = {
+			{
+				1100,
+				"Quietly now, stealthily... Woah! Why are you conked out in the office? Hey, you can't be doing that!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Kitty Kabam Punch, Rev I, at the ready! ––Huh? Is there a Rev II? Ehehe, no idea!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm a fully-fledged kitchen assistant now! You can place your trust in my cooking skills even more now~|Heheh~ Commander, I've come up with another amazing plan! I'll be the head chef, you'll be my assistant, and Lung Wu won't be allowed inside the kitchen!|Uwaaahh! I surrender, I surrender! There are way too many dishes to make, and I can't possibly keep up! I give up on cooking!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ehehe~ If you promise to change your bad habits, I won't spill the beans on you pulling an all-nighter yesterday! ––Mmhmm, negotiation complete!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...Woah, woah! Just because you do this stuff all the time doesn't mean it's the new normal!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"There are lots of talented people all around the port... and I'm one of them, aren't I? ...I still have a lot left to learn? Ehehe~ In that case, I look forward to you teaching me a whole lot more stuff!"
+			}
+		}
+	},
+	[501070] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 501070,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, you're finally back! I've been waiting a really long time for you, you know?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back~! If you got hurt anywhere, allow me to nurse you back to health– ...Hm? You're perfectly fine? Well, that's good to hear~♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Y-you can touch me even more, you know... Ehehehe~♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander... I accidentally knocked over a flower vase and a desk lamp... I just wanted to help tidy things up a bit... I wasn't trying to do it on purpose...|Just sitting next to you is already helpful? Then, um... what if I hold onto your arm like this? That's really helpful? Ehehe~ Yaay~♪|Why haven't I been going on any adventures lately? Well, adventures are fun and all, but spending time with you is even more fun~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Lady Yuen's cheeks are soft and squishy? Ehehe, yours are too, Commander~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hmm, this kind of stuff makes you happy? ...Then, umm, it makes me happy too!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Zzzz... *yaaaawn*... For whatever reason, I always get sleepy when I'm around you... Oh! I know why! It must be because your scent makes me super relaxed... Zzzzzz..."
 			}
 		}
 	}

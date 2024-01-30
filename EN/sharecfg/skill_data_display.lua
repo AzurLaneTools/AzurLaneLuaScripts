@@ -1577,6 +1577,27 @@ pg.skill_data_display = setmetatable({
 		17411,
 		17421,
 		17445,
+		17463,
+		17470,
+		17471,
+		17472,
+		17473,
+		17474,
+		17480,
+		17481,
+		17482,
+		17501,
+		17511,
+		17531,
+		17570,
+		17571,
+		17572,
+		17573,
+		17574,
+		17575,
+		17581,
+		17582,
+		17583,
 		18010,
 		18040,
 		18041,
@@ -1616,6 +1637,10 @@ pg.skill_data_display = setmetatable({
 		18350,
 		18351,
 		18352,
+		18380,
+		18400,
+		18401,
+		18402,
 		18440,
 		18441,
 		18442,
@@ -1963,18 +1988,26 @@ pg.skill_data_display = setmetatable({
 		23512,
 		24011,
 		24012,
+		24061,
+		24062,
 		24021,
 		24022,
 		24031,
 		24032,
+		24033,
+		24034,
 		24041,
 		24042,
+		24043,
+		24044,
 		24051,
 		24052,
 		24111,
 		24112,
 		24121,
 		24122,
+		24151,
+		24152,
 		25011,
 		25012,
 		25021,
@@ -2151,6 +2184,10 @@ pg.skill_data_display = setmetatable({
 		30112,
 		30131,
 		30132,
+		30190,
+		30191,
+		30192,
+		30193,
 		39000,
 		39001,
 		39002,
@@ -9170,6 +9207,90 @@ pg.base.skill_data_display = {
 		id = 17445,
 		name = "Bunbun Strikers"
 	},
+	[17463] = {
+		id = 17463,
+		name = "For Safe Returns, Schemes Shaped"
+	},
+	[17470] = {
+		id = 17470,
+		name = "Lady Yuen's Grand \"Adventure\""
+	},
+	[17471] = {
+		id = 17471,
+		name = "Adventure Time!"
+	},
+	[17472] = {
+		id = 17472,
+		name = "Adventure Failed..."
+	},
+	[17473] = {
+		id = 17473,
+		name = "Adventure... Succeeded?"
+	},
+	[17474] = {
+		id = 17474,
+		name = "Adventure Succeeded!"
+	},
+	[17480] = {
+		id = 17480,
+		name = "Inkscape of Dancing Clouds"
+	},
+	[17481] = {
+		id = 17481,
+		name = "Inkscape of Dancing Clouds"
+	},
+	[17482] = {
+		id = 17482,
+		name = "Inkscape of Dancing Clouds"
+	},
+	[17501] = {
+		id = 17501,
+		name = "Unfettered Freedom"
+	},
+	[17511] = {
+		id = 17511,
+		name = "Dragon's Dance"
+	},
+	[17531] = {
+		id = 17531,
+		name = "Tiger Thrasher!"
+	},
+	[17570] = {
+		id = 17570,
+		name = "Into Insight - Vanguard"
+	},
+	[17571] = {
+		id = 17571,
+		name = "Into Insight - Main Fleet"
+	},
+	[17572] = {
+		id = 17572,
+		name = "Into Insight - Offense"
+	},
+	[17573] = {
+		id = 17573,
+		name = "Into Insight - Defense"
+	},
+	[17574] = {
+		id = 17574,
+		name = "Into Insight - Offense"
+	},
+	[17575] = {
+		id = 17575,
+		name = "Into Insight - Defense"
+	},
+	[17581] = {
+		id = 17581,
+		name = "Always Prepared, Always Vigiliant"
+	},
+	[17582] = {
+		id = 17582,
+		name = "Always Prepared, Always Vigiliant"
+	},
+	[17583] = {
+		id = 17583,
+		name = "Always Prepared, Always Vigiliant"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -9325,6 +9446,22 @@ pg.base.skill_data_display = {
 	[18352] = {
 		id = 18352,
 		name = "Augmenting Mechanism: Setzer Principle+"
+	},
+	[18380] = {
+		id = 18380,
+		name = "Sky-Rending Retribution+"
+	},
+	[18400] = {
+		id = 18400,
+		name = "The Great One's Shadow+"
+	},
+	[18401] = {
+		id = 18401,
+		name = "The Great One's Shadow+"
+	},
+	[18402] = {
+		id = 18402,
+		name = "The Great One's Shadow+"
 	},
 	[18440] = {
 		id = 18440,
@@ -10714,6 +10851,14 @@ pg.base.skill_data_display = {
 		id = 24012,
 		name = "All Out Assault Ⅱ"
 	},
+	[24061] = {
+		id = 24061,
+		name = "All Out Assault I"
+	},
+	[24062] = {
+		id = 24062,
+		name = "All Out Assault II"
+	},
 	[24021] = {
 		id = 24021,
 		name = "Special Barrage - Qinglong Ⅰ"
@@ -10730,6 +10875,14 @@ pg.base.skill_data_display = {
 		id = 24032,
 		name = "Special Barrage - Zhuque Ⅱ"
 	},
+	[24033] = {
+		id = 24033,
+		name = "All Out Assault I"
+	},
+	[24034] = {
+		id = 24034,
+		name = "All Out Assault II"
+	},
 	[24041] = {
 		id = 24041,
 		name = "Special Barrage - Baihu I"
@@ -10737,6 +10890,14 @@ pg.base.skill_data_display = {
 	[24042] = {
 		id = 24042,
 		name = "Special Barrage - Baihu II"
+	},
+	[24043] = {
+		id = 24043,
+		name = "All Out Assault I"
+	},
+	[24044] = {
+		id = 24044,
+		name = "All Out Assault II"
 	},
 	[24051] = {
 		id = 24051,
@@ -10761,6 +10922,14 @@ pg.base.skill_data_display = {
 	[24122] = {
 		id = 24122,
 		name = "All Out Assault Ⅱ"
+	},
+	[24151] = {
+		id = 24151,
+		name = "All Out Assault I"
+	},
+	[24152] = {
+		id = 24152,
+		name = "All Out Assault II"
 	},
 	[25011] = {
 		id = 25011,
@@ -11465,6 +11634,22 @@ pg.base.skill_data_display = {
 	[30132] = {
 		id = 30132,
 		name = "All Out Assault II"
+	},
+	[30190] = {
+		id = 30190,
+		name = "All Out Assault III"
+	},
+	[30191] = {
+		id = 30191,
+		name = "All Out Assault - Xuanwu III"
+	},
+	[30192] = {
+		id = 30192,
+		name = "All Out Assault III"
+	},
+	[30193] = {
+		id = 30193,
+		name = "All Out Assault - Xuanwu III"
 	},
 	[39000] = {
 		id = 39000,

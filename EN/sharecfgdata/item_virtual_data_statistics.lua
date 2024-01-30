@@ -80995,11 +80995,6 @@ _G.pg.base.item_virtual_data_statistics[58001] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -81121,11 +81116,6 @@ _G.pg.base.item_virtual_data_statistics[58002] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -81265,11 +81255,6 @@ _G.pg.base.item_virtual_data_statistics[58003] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -81391,11 +81376,6 @@ _G.pg.base.item_virtual_data_statistics[58004] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -81535,11 +81515,6 @@ _G.pg.base.item_virtual_data_statistics[58005] = {
 		},
 		{
 			4,
-			103011,
-			1
-		},
-		{
-			4,
 			103021,
 			1
 		},
@@ -81666,11 +81641,6 @@ _G.pg.base.item_virtual_data_statistics[58006] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -147385,6 +147355,121 @@ _G.pg.base.item_virtual_data_statistics[58993] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[58994] = {
+	display = "Contains a random Mythical Trove-themed gear skin.",
+	name = "Gear Skin Box (Mythical Trove)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	id = 58994,
+	order = 0,
+	display_icon = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -155573,6 +155658,150 @@ _G.pg.base.item_virtual_data_statistics[59522] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59523] = {
+	display = "Points earned from the Spring Festive Fiasco event. Used to obtain cumulative point rewards.",
+	name = "Spring Festival Ticket",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/huanchang_pt",
+	id = 59523,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59524] = {
+	display = "A ticket used to access the EX stage in the Spring Festive Fiasco event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59524,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59525] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (2/1/2024 – 3/31/2024), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59525,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59526] = {
+	display = "",
+	name = "通行证十五期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7014,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59526,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59527] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59527,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59528] = {
+	display = "Used to exchange for Spring Festival Tidings (2024). Expires after the event ends.",
+	name = "Empery Knot",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59528,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -157277,6 +157506,30 @@ _G.pg.base.item_virtual_data_statistics[59816] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59823] = {
+	display = "A key that grants access to the War Archives (Permanent Rerun Events). Consumed when used.",
+	name = "Data Key",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 7,
+	is_world = 0,
+	icon = "Props/activity_tickets",
+	id = 59823,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59824] = {
 	display = "A ballot for the Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
 	name = "Ballot ",
@@ -158685,6 +158938,30 @@ _G.pg.base.item_virtual_data_statistics[60024] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60024,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60025] = {
+	display = "An item received through the Manjuu Resort. Can be opened.",
+	name = "Red Envelope",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5188,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60025,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -160565,6 +160842,174 @@ _G.pg.base.item_virtual_data_statistics[60332] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[60333] = {
+	display = "Pigment A used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment A",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60333,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60334] = {
+	display = "Pigment B used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment B",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60334,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60335] = {
+	display = "Pigment C used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment C",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60335,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60336] = {
+	display = "Pigment D used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment D",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60336,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60337] = {
+	display = "Pigment E used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment E",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60337,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60338] = {
+	display = "Pigment F used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment F",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60338,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60339] = {
+	display = "Pigment G used during An Shan's Drawing Book event. Disappears after event has ended.",
+	name = "Pigment G",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60339,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[60401] = {
 	display = "前端不显示，道具看不到",
 	name = "海天活动道具1",
@@ -161896,7 +162341,40 @@ The available outfits and their rarities are as follows:
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			502042,
+			1200
+		},
+		{
+			502052,
+			1200
+		},
+		{
+			506021,
+			1200
+		},
+		{
+			502011,
+			1200
+		},
+		{
+			702051,
+			1400
+		},
+		{
+			206081,
+			1360
+		},
+		{
+			501032,
+			1240
+		},
+		{
+			519011,
+			1200
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69925] = {
@@ -161929,7 +162407,36 @@ The available outfits and their rarities are as follows:
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			499071,
+			1200
+		},
+		{
+			499052,
+			1200
+		},
+		{
+			408025,
+			1610
+		},
+		{
+			404042,
+			1580
+		},
+		{
+			105201,
+			1580
+		},
+		{
+			408085,
+			1430
+		},
+		{
+			901132,
+			1400
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69926] = {
@@ -167250,6 +167757,342 @@ _G.pg.base.item_virtual_data_statistics[70164] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[70165] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	id = 70165,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70166] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_2",
+	id = 70166,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70167] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_3",
+	id = 70167,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70168] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_4",
+	id = 70168,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70169] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_15",
+	id = 70169,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70170] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_6",
+	id = 70170,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70171] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_7",
+	id = 70171,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70172] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_8",
+	id = 70172,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70173] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_9",
+	id = 70173,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70174] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_10",
+	id = 70174,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70175] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_16",
+	id = 70175,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70176] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_12",
+	id = 70176,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70177] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 13",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_13",
+	id = 70177,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70178] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 14",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_14",
+	id = 70178,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "Random Skin",
@@ -167327,6 +168170,112 @@ _G.pg.base.item_virtual_data_statistics[86201] = {
 	is_world = 0,
 	icon = "Props/clothIcon",
 	id = 86201,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86202] = {
+	display = "不会被看到",
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86202,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			501051,
+			1200
+		},
+		{
+			504011,
+			1200
+		},
+		{
+			501061,
+			1200
+		},
+		{
+			103262,
+			1900
+		},
+		{
+			501071,
+			1500
+		},
+		{
+			502091,
+			1500
+		},
+		{
+			402083,
+			1500
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86203] = {
+	display = "不会被看到",
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86203,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -172316,4 +173265,154 @@ _G.pg.base.item_virtual_data_statistics[200059] = {
 			1
 		}
 	}
+}
+
+_G.pg.base.item_virtual_data_statistics[200060] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200060,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			59,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200061] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200061,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200062] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200062,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

@@ -21,7 +21,8 @@ function slot1.OutRangeFunc(slot0)
 	})
 
 	if slot1.extra_param.directDMG then
-		slot7 = slot0:GetTemplate().extra_param.buff_id
+		slot7 = slot4.buff_id
+		slot8 = slot4.buff_level or 1
 
 		slot3:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
 			if uv0:CanDealDamage() then
@@ -29,8 +30,8 @@ function slot1.OutRangeFunc(slot0)
 					if slot5.Active then
 						slot7 = uv1.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData()
 
-						slot7:AddBuff(uv2.Battle.BattleBuffUnit.New(uv3))
-						uv4:HandleDirectDamage(slot7, uv5.directDMG, uv0)
+						slot7:AddBuff(uv2.Battle.BattleBuffUnit.New(uv3, uv4))
+						uv5:HandleDirectDamage(slot7, uv6.directDMG, uv0)
 					end
 				end
 
@@ -40,7 +41,7 @@ function slot1.OutRangeFunc(slot0)
 			if slot0.Active then
 				uv0:GetSceneMediator():GetCharacter(slot0.UID):GetUnitData():RemoveBuff(uv1)
 			end
-		end, false, slot0:GetTemplate().hit_fx, function (slot0)
+		end, false, slot4.area_FX or slot1.hit_fx, function (slot0)
 			for slot4, slot5 in ipairs(slot0) do
 				if slot5.Active and uv0:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():IsAlive() then
 					slot6:RemoveBuff(uv1)

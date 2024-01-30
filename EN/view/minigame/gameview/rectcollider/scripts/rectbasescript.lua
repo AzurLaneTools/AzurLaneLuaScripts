@@ -7,6 +7,7 @@ function slot0.Ctor(slot0)
 	slot0._scriptTime = 0
 	slot0._overrideAble = false
 	slot0._lateActive = false
+	slot0._name = ""
 end
 
 function slot0.init(slot0)
@@ -33,11 +34,17 @@ function slot0.addScriptApply(slot0)
 end
 
 function slot0.checkScirptApply(slot0)
-	if not slot0._collisionInfo.script or slot0._collisionInfo.script ~= slot0 and slot0._collisionInfo.scriptOverrideAble and slot0._collisionInfo.scriptWeight <= slot0._weight then
+	if not slot0._collisionInfo.script then
+		slot0:addScriptApply()
+
+		return true
+	elseif slot0._collisionInfo.script ~= slot0 and slot0._collisionInfo.scriptOverrideAble and slot0._collisionInfo.scriptWeight <= slot0._weight then
 		slot0:addScriptApply()
 
 		return true
 	end
+
+	print("当前脚本 " .. slot0._collisionInfo.script._name .. " 中，无法执行" .. slot0._name)
 
 	return false
 end
@@ -65,7 +72,7 @@ function slot0.keyTrigger(slot0, slot1, slot2)
 	slot0._triggerKey = slot1
 	slot0._triggerStatus = slot2
 
-	slot0:onTrigger()
+	slot0:onTrigger(slot1, slot2)
 end
 
 function slot0.getWeight(slot0)

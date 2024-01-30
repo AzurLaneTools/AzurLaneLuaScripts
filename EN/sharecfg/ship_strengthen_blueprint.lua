@@ -18428,6 +18428,162 @@ pg.ship_strengthen_blueprint = {
 			"Becomes able to equip Dive Bombers in Torpedo Bomber slot"
 		}
 	},
+	[1931] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 31,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "LCK +3",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1931,
+		need_exp = 200,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[1932] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 32,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "LCK +4",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1932,
+		need_exp = 300,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[1933] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 33,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "LCK +5|Upgrades The Great One's Shadow to The Great One's Shadow+",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1933,
+		need_exp = 400,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19400,
+			18400
+		}
+	},
+	[1934] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 34,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "LCK +6",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1934,
+		need_exp = 500,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	},
+	[1935] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 35,
+		effect_breakout = 0,
+		need_lv = 100,
+		effect_desc = "LCK +7|Upgrades Sky-Rending Retribution to Sky-Rending Retribution+",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1935,
+		need_exp = 750,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19380,
+			18380
+		}
+	},
 	[2001] = {
 		effect_equipment_proficiency = "",
 		effect_skill = "",
@@ -30576,6 +30732,11 @@ pg.ship_strengthen_blueprint = {
 		1928,
 		1929,
 		1930,
+		1931,
+		1932,
+		1933,
+		1934,
+		1935,
 		2001,
 		2002,
 		2003,
