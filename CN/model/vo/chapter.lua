@@ -63,7 +63,9 @@ function slot0.BuildEliteFleetList(slot0)
 		{},
 		{}
 	}
-	slot3 = {}
+	slot3 = {
+		{}
+	}
 	slot4 = ipairs
 	slot5 = slot0 or {}
 
@@ -75,7 +77,7 @@ function slot0.BuildEliteFleetList(slot0)
 		end
 
 		if slot7 == 4 then
-			table.insert(slot3, slot9)
+			table.insert(slot3[1], slot9)
 		else
 			slot1[slot7] = slot9
 		end
