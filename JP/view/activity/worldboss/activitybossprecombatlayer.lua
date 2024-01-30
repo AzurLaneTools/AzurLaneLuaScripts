@@ -8,10 +8,6 @@ function slot0.getUIName(slot0)
 	return "ActivityBossPrecombatUI"
 end
 
-function slot0.ResUISettings(slot0)
-	return true
-end
-
 function slot0.init(slot0)
 	slot0:CommonInit()
 

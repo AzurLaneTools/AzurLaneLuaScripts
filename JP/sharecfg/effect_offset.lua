@@ -1836,5 +1836,38 @@ pg.effect_offset = {
 			3.5,
 			0
 		}
+	},
+	enemy_jinli = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-2,
+			3.25
+		}
+	},
+	enemy_xianhe = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-2,
+			3.25
+		}
+	},
+	feiyun_xiangyun = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.2,
+			0
+		}
 	}
 }

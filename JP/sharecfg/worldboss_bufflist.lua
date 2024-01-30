@@ -168,6 +168,22 @@ pg.worldboss_bufflist = {
 		buff_target = 1,
 		bonus = "0.05"
 	},
+	[101701] = {
+		lua_id = 59220,
+		id = 101701,
+		desc = "戦闘中一定時間ごとに、敵旗艦が特殊弾幕を展開する",
+		buff_icon = "1017",
+		buff_target = 1,
+		bonus = "0.03"
+	},
+	[101801] = {
+		lua_id = 59230,
+		id = 101801,
+		desc = "戦闘中、敵の航空支援がランダムで出現する",
+		buff_icon = "1018",
+		buff_target = 1,
+		bonus = "0.03"
+	},
 	all = {
 		1001,
 		1002,
@@ -189,6 +205,8 @@ pg.worldboss_bufflist = {
 		1018,
 		1019,
 		1020,
-		1021
+		1021,
+		101701,
+		101801
 	}
 }

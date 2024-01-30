@@ -178,6 +178,9 @@ pg.memory_group = setmetatable({
 		270,
 		271,
 		272,
+		273,
+		274,
+		275,
 		501,
 		502,
 		503,
@@ -395,7 +398,8 @@ pg.base.memory_group = {
 			2289,
 			2931,
 			2932,
-			2933
+			2933,
+			3321
 		}
 	},
 	[99] = {
@@ -4245,6 +4249,47 @@ pg.base.memory_group = {
 			3281,
 			3282,
 			3283
+		}
+	},
+	[273] = {
+		id = 273,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "新春宴会狂騒曲",
+		memories = {
+			3301,
+			3302,
+			3303,
+			3304,
+			3305
+		}
+	},
+	[274] = {
+		id = 274,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "スプリング冒険キング",
+		memories = {
+			3311,
+			3312,
+			3313
+		}
+	},
+	[275] = {
+		id = 275,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5184,
+		title = "着せ替え特集　春節2023　①",
+		memories = {
+			3331,
+			3332,
+			3333
 		}
 	},
 	[501] = {

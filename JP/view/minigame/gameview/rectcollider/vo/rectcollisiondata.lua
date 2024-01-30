@@ -6,7 +6,7 @@ function this.Ctor(slot0, slot1)
 	slot0.gravity = -50
 	slot0.maxJumpHeight = 4
 	slot0.minJumpHeight = 2
-	slot0.accelerationTimeAirborne = 0.1
+	slot0.accelerationTimeAirborne = 0.05
 	slot0.accelerationTimeGrounded = 0.05
 	slot0.moveSpeed = 8
 	slot0.wallJumpClimb = 10

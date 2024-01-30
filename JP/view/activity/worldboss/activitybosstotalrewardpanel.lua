@@ -10,6 +10,8 @@ function slot0.init(slot0)
 	uv0.super.init(slot0)
 
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid2")
+
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
 end
 
 function slot0.didEnter(slot0)

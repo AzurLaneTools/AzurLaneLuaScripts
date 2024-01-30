@@ -1245,6 +1245,21 @@ pg.player_resource = {
 		name = "skinTicket63",
 		itemid = 59522
 	},
+	[391] = {
+		id = 391,
+		name = "feicaizhixing2024_pt",
+		itemid = 59391
+	},
+	[392] = {
+		id = 392,
+		name = "skinTicket64",
+		itemid = 59527
+	},
+	[393] = {
+		id = 393,
+		name = "chunjie_pt4",
+		itemid = 59528
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1374,6 +1389,16 @@ pg.player_resource = {
 		id = 2019,
 		name = "worldboss230629_ticket",
 		itemid = 59464
+	},
+	[2020] = {
+		id = 2020,
+		name = "contribution_worldboss240130",
+		itemid = 59523
+	},
+	[2021] = {
+		id = 2021,
+		name = "worldboss230130_ticket",
+		itemid = 59524
 	},
 	[3000] = {
 		id = 3000,
@@ -1529,6 +1554,11 @@ pg.player_resource = {
 		id = 4014,
 		name = "Battlepass_14",
 		itemid = 59510
+	},
+	[4015] = {
+		id = 4015,
+		name = "Battlepass_15",
+		itemid = 59525
 	},
 	[4186] = {
 		id = 4186,
@@ -2323,6 +2353,15 @@ pg.player_resource = {
 		skinTicket63 = {
 			390
 		},
+		feicaizhixing2024_pt = {
+			391
+		},
+		skinTicket64 = {
+			392
+		},
+		chunjie_pt4 = {
+			393
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2400,6 +2439,12 @@ pg.player_resource = {
 		},
 		worldboss230629_ticket = {
 			2019
+		},
+		contribution_worldboss240130 = {
+			2020
+		},
+		worldboss230130_ticket = {
+			2021
 		},
 		guild_boss_damage = {
 			3000
@@ -2493,6 +2538,9 @@ pg.player_resource = {
 		},
 		Battlepass_14 = {
 			4014
+		},
+		Battlepass_15 = {
+			4015
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2772,6 +2820,9 @@ pg.player_resource = {
 		388,
 		389,
 		390,
+		391,
+		392,
+		393,
 		950,
 		951,
 		952,
@@ -2798,6 +2849,8 @@ pg.player_resource = {
 		2017,
 		2018,
 		2019,
+		2020,
+		2021,
 		3000,
 		3001,
 		3002,
@@ -2829,6 +2882,7 @@ pg.player_resource = {
 		4012,
 		4013,
 		4014,
+		4015,
 		4186,
 		4276,
 		4599,

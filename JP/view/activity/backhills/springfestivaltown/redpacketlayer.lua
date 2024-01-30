@@ -16,9 +16,11 @@ end
 
 function slot0.didEnter(slot0)
 	slot0:updateUI()
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 function slot0.initData(slot0)

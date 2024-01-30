@@ -2401,7 +2401,20 @@ function temp()
 			["バ"] = {
 				["リ"] = {
 					["ー"] = {
-						this = true
+						this = true,
+						["("] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											[")"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -6168,6 +6181,9 @@ function temp()
 				}
 			}
 		},
+		["雲"] = {
+			this = true
+		},
 		["鳥"] = {
 			this = true,
 			["川"] = {
@@ -6232,6 +6248,9 @@ function temp()
 			this = true
 		},
 		["鳳"] = {
+			this = true
+		},
+		["武"] = {
 			this = true
 		}
 	}
@@ -6590,6 +6609,19 @@ temp()
 function temp()
 	uv0["太"] = {
 		["原"] = {
+			this = true,
+			["改"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["虎"] = {
+		["賁"] = {
 			this = true
 		}
 	}
@@ -6651,9 +6683,32 @@ end
 temp()
 
 function temp()
+	uv0["済"] = {
+		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["寰"] = {
+		["昌"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["鎮"] = {
 		["海"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end

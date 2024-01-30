@@ -260,12 +260,92 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		CV_JP = "日笠陽子",
+		audition_resource_CN = "",
+		audition_text = "その代わり…私の方も、どこでも好きなところを…食べてもいいわよ？",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "パーティーの後、セントルイスとのほろよいタイム\n魅惑的な唇からどんな言葉が……",
+		name = "渇きを、独り占め",
+		ship_id = 10213,
+		audition_resource_JP = "ss-10213-1",
+		CV_CN = "",
+		id = 7,
+		story_resource_JP = "soundStory7_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					1,
+					30
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "中条智世",
+		audition_resource_CN = "",
+		time = "always",
+		audition_text = "まだ少し…ほんの少しだけでも、あなたと私の心が刻むハーモニーに…揺られていたいの……",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "近づいていく二人の距離。ヘッドホンから聞こえてくるのは機械からの音だけでなく、少女の想いも…",
+		ship_id = 10205,
+		audition_resource_JP = "ss-10205-1",
+		name = "どきどきシンフォニー",
+		CV_CN = "",
+		id = 8,
+		story_resource_JP = "soundStory8_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8
 	}
 }

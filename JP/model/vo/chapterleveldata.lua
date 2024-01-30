@@ -760,8 +760,8 @@ function slot0.getAirDominanceValue(slot0)
 	slot1 = 0
 	slot2 = 0
 
-	for slot6, slot7 in ipairs(slot0.fleets) do
-		if slot7:isValid() and slot7:getFleetType() == FleetType.Normal then
+	for slot6, slot7 in pairs(slot0.fleets) do
+		if slot7:isValid() and (slot7:getFleetType() == FleetType.Normal or slot7:getFleetType() == FleetType.Submarine) then
 			slot1 = slot1 + slot7:getFleetAirDominanceValue()
 			slot2 = slot2 + slot7:getAntiAircraftSums()
 		end

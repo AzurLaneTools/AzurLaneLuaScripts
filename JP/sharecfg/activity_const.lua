@@ -880,10 +880,10 @@ pg.activity_const = {
 		act_id = 4666
 	},
 	FIREWORK_PT_ID = {
-		act_id = 4671
+		act_id = 5185
 	},
 	FIREWORK_ACT_ID = {
-		act_id = 4672
+		act_id = 5186
 	},
 	ACTIVITY_BOSS_KUYBYSHEV = {
 		act_id = 4674
@@ -986,5 +986,17 @@ pg.activity_const = {
 	},
 	MINIGAME_COOKGAME2_ID = {
 		act_id = 5141
+	},
+	FIREWORK_PT_2024_ID = {
+		act_id = 5185
+	},
+	FEIYUEN_LOGIN = {
+		act_id = 5191
+	},
+	TAIYUAN_ALERT_TASK = {
+		act_id = 5192
+	},
+	MINIGAME_SPRING_FESTIVAL_2024 = {
+		act_id = 5193
 	}
 }
