@@ -42,8 +42,6 @@ function slot0.register(slot0)
 					{}
 				})
 				slot7:setSupportFleetList(Clone(uv0.mapSupportFleetCache[slot8]) or {
-					{},
-					{},
 					{}
 				})
 				uv0:updateChapter(slot7)
