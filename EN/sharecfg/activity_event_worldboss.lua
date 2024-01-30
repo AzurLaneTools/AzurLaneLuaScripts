@@ -1288,7 +1288,7 @@ pg.activity_event_worldboss = {
 				{
 					2024,
 					2,
-					22
+					21
 				},
 				{
 					23,
