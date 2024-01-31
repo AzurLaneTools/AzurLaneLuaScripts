@@ -29,7 +29,7 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddAttrRatio",
 			trigger = {
 				"onAttach",
 				"onRemove"
