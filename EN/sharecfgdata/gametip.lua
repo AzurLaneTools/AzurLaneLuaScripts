@@ -2694,7 +2694,7 @@ _G.pg.base.gametip.coloring_help_tip = {
  Complete Page 2: Red Envelope x2
  Complete Page 3: T3 Main Gun Part x2
  Complete Page 4: Red Envelope x2
- Complete Page 5: Augment Module for Yat Sen
+ Complete Page 5: Yat Sen's special gear "Plum-Petal Poetry"
  Complete Page 6: Red Envelope x2
  Complete Page 7: Dragon Empery DD An Shan & Red Envelope x1
 8. After the event ends, all unused paint will be removed.
@@ -11259,11 +11259,11 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During Reflections of the Oasis event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During Spring Festive Fiasco event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against an exercise fleet led by the heavy cruiser Gorizia.
+During the event period, you will play on a special stage and face off against an exercise fleet led by the battlecruiser Huan Ch'ang.
 All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
 Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).

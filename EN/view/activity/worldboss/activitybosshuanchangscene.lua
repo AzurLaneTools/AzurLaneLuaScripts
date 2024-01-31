@@ -141,4 +141,24 @@ function slot0.UpdatePage(slot0)
 	setText(slot0.ticketNum, slot0:GetEXTicket())
 end
 
+function slot0.UpdateRank(slot0, slot1)
+	slot1 = slot1 or {}
+
+	for slot5 = 1, #slot0.rankList do
+		setActive(slot0.rankList[slot5], slot5 <= #slot1)
+
+		if slot5 <= #slot1 then
+			slot7 = slot6:Find("Text")
+
+			if #tostring(slot1[slot5].name) >= 11 then
+				slot7:GetComponent(typeof(Text)).fontSize = 23
+			else
+				slot7:GetComponent(typeof(Text)).fontSize = 28
+			end
+
+			setText(slot7, slot8)
+		end
+	end
+end
+
 return slot0
