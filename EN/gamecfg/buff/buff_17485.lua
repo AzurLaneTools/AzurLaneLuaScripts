@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddAttrRatio",
 			trigger = {
 				"onAttach",
 				"onRemove"
