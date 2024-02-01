@@ -88,7 +88,13 @@ pg.pay_data_display = setmetatable({
 		2016,
 		2017,
 		2018,
-		2019
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8066,6 +8072,489 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2020] = {
+		subject = "프리미엄 윈터 패키지",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 1,
+		name = "프리미엄 윈터 패키지",
+		name_display = "프리미엄 윈터 패키지",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2020,
+		money = 56000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift77",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "다이아 3,880개, 특장형 부린 MKⅢ 등 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package111",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40029,
+				1
+			}
+		}
+	},
+	[2021] = {
+		subject = "UR 지원 패키지",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 2,
+		name = "UR 지원 패키지",
+		name_display = "UR 지원 패키지",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2021,
+		money = 27000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "haishangchuanqi",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift78",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "선택 가능한 스킨 티켓, 큐브, 경험치 패키지 T2 등 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package112",
+		extra_service_item = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40030,
+				1
+			}
+		}
+	},
+	[2022] = {
+		subject = "큐브 지원 패키지1",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 2,
+		name = "큐브 지원 패키지1",
+		name_display = "큐브 지원 패키지1",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2022,
+		money = 2500,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift79",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "큐브 10개 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package113",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40031,
+				1
+			}
+		}
+	},
+	[2023] = {
+		subject = "큐브 지원 패키지2",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 2,
+		name = "큐브 지원 패키지2",
+		name_display = "큐브 지원 패키지2",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2023,
+		money = 7500,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan2",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift80",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "큐브 20개 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package114",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40032,
+				1
+			}
+		}
+	},
+	[2024] = {
+		subject = "큐브 지원 패키지3",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 2,
+		name = "큐브 지원 패키지3",
+		name_display = "큐브 지원 패키지3",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2024,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan3",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift81",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "큐브 30개 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package115",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40033,
+				1
+			}
+		}
+	},
+	[2025] = {
+		subject = "데일리 보급 패키지",
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		limit_arg = 1,
+		name = "데일리 보급 패키지",
+		name_display = "데일리 보급 패키지",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2025,
+		money = 1210,
+		tag = 2,
+		gem = 0,
+		limit_type = 4,
+		time = "always",
+		picture = "richang",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift82",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "구매하면 큐브 1개, 연료 1,200 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package116",
+		extra_service_item = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40043,
 				1
 			}
 		}

@@ -160,4 +160,8 @@ function slot0.IsGroupLimit(slot0)
 	assert(false, "overwrite me !!!!")
 end
 
+function slot0.CanUseVoucherType(slot0)
+	return false
+end
+
 return slot0

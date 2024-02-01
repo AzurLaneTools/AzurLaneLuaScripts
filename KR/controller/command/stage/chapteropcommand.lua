@@ -149,6 +149,14 @@ function slot0.execute(slot0, slot1)
 					slot1:updateChapter(uv0.chapter, uv0.flag)
 				end
 
+				if uv1.type == ChapterConst.OpSkipBattle then
+					uv0:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST, {
+						isSkipBattle = true
+					})
+
+					return
+				end
+
 				uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
 					type = uv1.type,
 					id = uv1.id,
@@ -166,10 +174,6 @@ function slot0.execute(slot0, slot1)
 					extendData = slot3,
 					finalChapterLevelData = slot4
 				})
-
-				if uv1.type == ChapterConst.OpSkipBattle then
-					uv0:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST)
-				end
 			end
 		else
 			errorMsg(string.format("SLG操作%d 请求失效，重新拉取信息", uv1.type))

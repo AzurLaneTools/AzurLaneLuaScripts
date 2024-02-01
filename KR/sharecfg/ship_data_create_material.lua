@@ -11,11 +11,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 1,
 		icon = "build_1",
+		exchange_count = 2,
 		rate_tip = {
-			"<color=#ffde38>SS Rare</color>：7%",
-			"<color=#d797ff>S Rare</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Normal：30%"
+			"<color=#ff5e39>UR</color>：1.2%",
+			"<color=#ffde38>SS레어</color>：7%",
+			"<color=#d797ff>S레어</color>：12%",
+			"<color=#3dc6ff>레어</color>：51%",
+			"노멀：28.8%"
 		}
 	},
 	{
@@ -29,6 +31,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 2,
 		icon = "build_2",
+		exchange_count = 1,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -47,11 +50,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 3,
 		icon = "build_3",
+		exchange_count = 2,
 		rate_tip = {
-			"<color=#ffde38>SS Rare</color>：7%",
-			"<color=#d797ff>S Rare</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Normal：30%"
+			"<color=#ff5e39>UR</color>：1.2%",
+			"<color=#ffde38>SS레어</color>：7%",
+			"<color=#d797ff>S레어</color>：12%",
+			"<color=#3dc6ff>레어</color>：51%",
+			"노멀：28.8%"
 		}
 	},
 	{
@@ -65,6 +70,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
+		exchange_count = 2,
 		rate_tip = {
 			"<color=#ffde38>SSR</color>: 7%",
 			"<color=#d797ff>SR</color>: 12%",
@@ -90,6 +96,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 5,
 		icon = "build_5",
+		exchange_count = 2,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -108,6 +115,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 6,
 		icon = "build_6",
+		exchange_count = 0,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -126,6 +134,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 7,
 		icon = "build_7",
+		exchange_count = 0,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -144,6 +153,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 8,
 		icon = "build_8",
+		exchange_count = 0,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -162,6 +172,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 9,
 		icon = "build_4",
+		exchange_count = 1,
 		rate_tip = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
@@ -181,6 +192,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
+		exchange_count = 0,
 		rate_tip = {
 			"<color=#ff5e39>UR</color>：1.2%",
 			"<color=#ffde38>SSR</color>：7%",
@@ -208,6 +220,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 11,
 		icon = "build_11",
+		exchange_count = 0,
 		rate_tip = {
 			"<color=#ffde38>SSR</color>：7%",
 			"<color=#d797ff>SR</color>：12%",

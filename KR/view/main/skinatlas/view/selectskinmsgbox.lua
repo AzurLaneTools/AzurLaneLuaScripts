@@ -16,6 +16,7 @@ function slot0.OnLoaded(slot0)
 
 	setText(slot0.cancelBtn:Find("pic"), i18n("msgbox_text_cancel"))
 	setText(slot0.confirmBtn:Find("pic"), i18n("msgbox_text_confirm"))
+	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 end
 
 function slot0.OnInit(slot0)
@@ -35,25 +36,19 @@ end
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:BlurPanel(slot0._tf, nil, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
+
 	slot0.contentTxt.text = slot1.content
-	slot2 = {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = slot1.itemId
-	}
 
-	updateDrop(slot0.leftItemTr, slot2)
+	updateDrop(slot0.leftItemTr, slot1.leftDrop)
+	updateDrop(slot0.rightItemTr, slot1.rightDrop)
 
-	slot3 = {
-		count = 1,
-		type = DROP_TYPE_SKIN,
-		id = slot1.skinId
-	}
-
-	updateDrop(slot0.rightItemTr, slot3)
-
-	slot0.leftNameTxt.text = slot2.cfg.name
-	slot0.rightNameTxt.text = slot3.cfg.name
+	slot0.leftNameTxt.text = slot1.leftDrop.cfg.name
+	slot0.rightNameTxt.text = slot1.rightDrop.cfg.name
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:Hide()
@@ -64,7 +59,15 @@ function slot0.Show(slot0, slot1)
 	end, SFX_PANEL)
 end
 
+function slot0.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	uv0.super.Hide(slot0)
+end
+
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

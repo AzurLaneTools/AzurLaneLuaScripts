@@ -4,11 +4,19 @@ function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.live2dContainer = slot1:Find("live2d")
-	slot0.cg = slot0.live2dContainer:GetComponent(typeof(CanvasGroup))
+	slot3 = slot0.live2dContainer
+	slot0.cg = slot3:GetComponent(typeof(CanvasGroup))
 	slot0.currentWidth = Screen.width
 	slot0.currentHeight = Screen.height
 	slot0.isModifyOrder = false
 	slot0.actionWaiting = false
+	slot0.eventTrigger = GetOrAddComponent(slot0.live2dContainer, typeof(EventTriggerListener))
+	slot3 = slot0.eventTrigger
+
+	slot3:AddPointClickFunc(function ()
+		uv0:OnClick()
+		uv0:TriggerPersonalTask(uv0.ship.groupId)
+	end)
 end
 
 function slot0.GetHalfBodyOffsetY(slot0)
@@ -212,6 +220,10 @@ function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:RemoveSeTimer()
 	slot0:RemoveScreenChangeTimer()
+
+	if slot0.eventTrigger then
+		ClearEventTrigger(slot0.eventTrigger)
+	end
 end
 
 function slot0.GetOffset(slot0)

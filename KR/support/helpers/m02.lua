@@ -4246,3 +4246,14 @@ function buildEquipCode(slot0)
 		}) or 0)
 	}, "\\"))
 end
+
+function envFunc(slot0, slot1)
+	assert(not getmetatable(slot1), "table has error metatable")
+	setfenv(slot0, setmetatable(slot1, {
+		__index = _G
+	}))
+	slot0()
+	setfenv(slot0, _G)
+
+	return setmetatable(slot1, nil)
+end

@@ -367,7 +367,7 @@ function slot0.GetSortData(slot0)
 	if not uv0.SortData then
 		uv0.SortData = Clone(slot0.contextData.sortData) or {
 			asc = true,
-			sortData = "Level",
+			sortData = "Rarity",
 			nationData = {},
 			rarityData = {}
 		}

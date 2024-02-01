@@ -263,7 +263,8 @@ pg.memory_group = setmetatable({
 		590,
 		591,
 		592,
-		593
+		593,
+		594
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5706,6 +5707,23 @@ pg.base.memory_group = {
 			3269,
 			3270,
 			3271
+		}
+	},
+	[594] = {
+		id = 594,
+		subtype = 0,
+		icon = "title_chara_fushun",
+		type = 3,
+		link_event = 0,
+		title = "수수께끼와 대위기?!",
+		memories = {
+			3291,
+			3292,
+			3293,
+			3294,
+			3295,
+			3296,
+			3297
 		}
 	}
 }

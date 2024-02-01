@@ -26,7 +26,7 @@ end
 function slot1(slot0)
 	slot2 = pg.ship_data_create_exchange[slot0:getConfig("config_id")]
 
-	return slot0.data1, math.min(slot2.exchange_available_times, slot0.data2 + 1) * slot2.exchange_request, slot2.exchange_ship_id
+	return slot0.data1, math.min(slot2.exchange_available_times, slot0.data2 + 1) * slot2.exchange_request, slot2.exchange_ship_id[1]
 end
 
 function slot2(slot0)

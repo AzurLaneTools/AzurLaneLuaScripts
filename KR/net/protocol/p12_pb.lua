@@ -40,6 +40,7 @@ slot2 = {
 	SC_12024_WORKLIST_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_12024_DRAW_COUNT_1_FIELD = slot0.FieldDescriptor(),
 	SC_12024_DRAW_COUNT_10_FIELD = slot0.FieldDescriptor(),
+	SC_12024_EXCHANGE_COUNT_FIELD = slot0.FieldDescriptor(),
 	CS_12025_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_12025_POS_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_12026_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -74,6 +75,9 @@ slot2 = {
 	SC_12044_INFOLIST_FIELD = slot0.FieldDescriptor(),
 	CS_12045_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_12046_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_12047_SHIP_TID_FIELD = slot0.FieldDescriptor(),
+	SC_12048_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_12048_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_12101_GROUP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_12102_ID_FIELD = slot0.FieldDescriptor(),
 	CS_12102_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
@@ -147,6 +151,8 @@ CS_12043 = slot0.Descriptor()
 SC_12044 = slot0.Descriptor()
 CS_12045 = slot0.Descriptor()
 SC_12046 = slot0.Descriptor()
+CS_12047 = slot0.Descriptor()
+SC_12048 = slot0.Descriptor()
 SC_12101 = slot0.Descriptor()
 CS_12102 = slot0.Descriptor()
 SC_12103 = slot0.Descriptor()
@@ -678,6 +684,15 @@ slot2.SC_12024_DRAW_COUNT_10_FIELD.has_default_value = false
 slot2.SC_12024_DRAW_COUNT_10_FIELD.default_value = 0
 slot2.SC_12024_DRAW_COUNT_10_FIELD.type = 13
 slot2.SC_12024_DRAW_COUNT_10_FIELD.cpp_type = 3
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.name = "exchange_count"
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.full_name = "p12.sc_12024.exchange_count"
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.number = 5
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.index = 4
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.label = 2
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.has_default_value = false
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.default_value = 0
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.type = 13
+slot2.SC_12024_EXCHANGE_COUNT_FIELD.cpp_type = 3
 SC_12024.name = "sc_12024"
 SC_12024.full_name = "p12.sc_12024"
 SC_12024.nested_types = {}
@@ -686,7 +701,8 @@ SC_12024.fields = {
 	slot2.SC_12024_WORKLIST_COUNT_FIELD,
 	slot2.SC_12024_WORKLIST_LIST_FIELD,
 	slot2.SC_12024_DRAW_COUNT_1_FIELD,
-	slot2.SC_12024_DRAW_COUNT_10_FIELD
+	slot2.SC_12024_DRAW_COUNT_10_FIELD,
+	slot2.SC_12024_EXCHANGE_COUNT_FIELD
 }
 SC_12024.is_extendable = false
 SC_12024.extensions = {}
@@ -1218,6 +1234,53 @@ SC_12046.fields = {
 }
 SC_12046.is_extendable = false
 SC_12046.extensions = {}
+slot2.CS_12047_SHIP_TID_FIELD.name = "ship_tid"
+slot2.CS_12047_SHIP_TID_FIELD.full_name = "p12.cs_12047.ship_tid"
+slot2.CS_12047_SHIP_TID_FIELD.number = 1
+slot2.CS_12047_SHIP_TID_FIELD.index = 0
+slot2.CS_12047_SHIP_TID_FIELD.label = 2
+slot2.CS_12047_SHIP_TID_FIELD.has_default_value = false
+slot2.CS_12047_SHIP_TID_FIELD.default_value = 0
+slot2.CS_12047_SHIP_TID_FIELD.type = 13
+slot2.CS_12047_SHIP_TID_FIELD.cpp_type = 3
+CS_12047.name = "cs_12047"
+CS_12047.full_name = "p12.cs_12047"
+CS_12047.nested_types = {}
+CS_12047.enum_types = {}
+CS_12047.fields = {
+	slot2.CS_12047_SHIP_TID_FIELD
+}
+CS_12047.is_extendable = false
+CS_12047.extensions = {}
+slot2.SC_12048_RESULT_FIELD.name = "result"
+slot2.SC_12048_RESULT_FIELD.full_name = "p12.sc_12048.result"
+slot2.SC_12048_RESULT_FIELD.number = 1
+slot2.SC_12048_RESULT_FIELD.index = 0
+slot2.SC_12048_RESULT_FIELD.label = 2
+slot2.SC_12048_RESULT_FIELD.has_default_value = false
+slot2.SC_12048_RESULT_FIELD.default_value = 0
+slot2.SC_12048_RESULT_FIELD.type = 13
+slot2.SC_12048_RESULT_FIELD.cpp_type = 3
+slot2.SC_12048_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_12048_DROP_LIST_FIELD.full_name = "p12.sc_12048.drop_list"
+slot2.SC_12048_DROP_LIST_FIELD.number = 2
+slot2.SC_12048_DROP_LIST_FIELD.index = 1
+slot2.SC_12048_DROP_LIST_FIELD.label = 3
+slot2.SC_12048_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_12048_DROP_LIST_FIELD.default_value = {}
+slot2.SC_12048_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_12048_DROP_LIST_FIELD.type = 11
+slot2.SC_12048_DROP_LIST_FIELD.cpp_type = 10
+SC_12048.name = "sc_12048"
+SC_12048.full_name = "p12.sc_12048"
+SC_12048.nested_types = {}
+SC_12048.enum_types = {}
+SC_12048.fields = {
+	slot2.SC_12048_RESULT_FIELD,
+	slot2.SC_12048_DROP_LIST_FIELD
+}
+SC_12048.is_extendable = false
+SC_12048.extensions = {}
 slot2.SC_12101_GROUP_LIST_FIELD.name = "group_list"
 slot2.SC_12101_GROUP_LIST_FIELD.full_name = "p12.sc_12101.group_list"
 slot2.SC_12101_GROUP_LIST_FIELD.number = 1
@@ -1684,6 +1747,7 @@ cs_12038 = slot0.Message(CS_12038)
 cs_12040 = slot0.Message(CS_12040)
 cs_12043 = slot0.Message(CS_12043)
 cs_12045 = slot0.Message(CS_12045)
+cs_12047 = slot0.Message(CS_12047)
 cs_12102 = slot0.Message(CS_12102)
 cs_12104 = slot0.Message(CS_12104)
 cs_12202 = slot0.Message(CS_12202)
@@ -1717,6 +1781,7 @@ sc_12041 = slot0.Message(SC_12041)
 sc_12042 = slot0.Message(SC_12042)
 sc_12044 = slot0.Message(SC_12044)
 sc_12046 = slot0.Message(SC_12046)
+sc_12048 = slot0.Message(SC_12048)
 sc_12101 = slot0.Message(SC_12101)
 sc_12103 = slot0.Message(SC_12103)
 sc_12105 = slot0.Message(SC_12105)

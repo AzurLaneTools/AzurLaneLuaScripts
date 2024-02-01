@@ -176,6 +176,9 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	if slot1:getConfig("limit_type") == 2 then
 		setText(slot0.limitText, i18n("charge_limit_all", slot12 - slot11, slot12))
 		setActive(slot0.mask, slot12 - slot11 <= 0)
+	elseif slot10 == 4 then
+		setText(slot0.limitText, i18n("charge_limit_daily", slot12 - slot11, slot12))
+		setActive(slot0.mask, slot12 - slot11 <= 0)
 	else
 		setText(slot0.limitText, "")
 	end
@@ -244,6 +247,8 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 			setText(slot0.limitText, i18n("charge_limit_daily", slot5 - slot1.groupCount, slot5))
 		elseif slot6 == 2 then
 			setText(slot0.limitText, i18n("charge_limit_weekly", slot5 - slot1.groupCount, slot5))
+		elseif slot6 == 3 then
+			setText(slot0.limitText, i18n("charge_limit_monthly", slot5 - slot1.groupCount, slot5))
 		end
 	end
 
