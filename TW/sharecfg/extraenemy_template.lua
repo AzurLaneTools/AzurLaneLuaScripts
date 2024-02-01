@@ -342,6 +342,42 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_11",
+		name = "寰昌",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 11,
+		background = "",
+		reward = {
+			901395,
+			901396,
+			901397,
+			901398
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				11049,
+				5
+			},
+			{
+				3,
+				96020,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -352,6 +388,7 @@ pg.extraenemy_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

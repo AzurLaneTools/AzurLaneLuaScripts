@@ -19,8 +19,16 @@ end
 function slot0.setNextTime(slot0, slot1)
 	slot0.nextFlashTime = slot1
 
-	for slot5 = 1, #slot0.goodsData do
-		if pg.gameroom_shop_template[slot0.goodsData[slot5].id].month_re ~= 0 then
+	for slot5, slot6 in ipairs(slot0.goodsData) do
+		slot8 = false
+
+		if pg.gameroom_shop_template[slot6.id] then
+			slot8 = pg.gameroom_shop_template[slot7].month_re ~= 0
+		else
+			warning("gameroom_shop_template 不存在 id = " .. tostring(slot7) .. "的物品")
+		end
+
+		if slot8 then
 			slot0.goodsData[slot5].count = 0
 		end
 	end

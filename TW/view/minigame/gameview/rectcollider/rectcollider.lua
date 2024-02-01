@@ -32,6 +32,8 @@ function slot0.clear(slot0)
 		slot0._collisionInfo.script:active(false)
 		slot0._collisionInfo:removeScript()
 	end
+
+	slot0._keyTrigger:destroy()
 end
 
 function slot0.addScript(slot0, slot1)

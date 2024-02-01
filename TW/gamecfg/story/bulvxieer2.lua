@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>二　无法被打湿的爱意</size>",
+					"元氣甜心的愛意攻勢\n\n<size=45>二　無法被打濕的愛意</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "某个阴雨连绵的休息日——",
+			say = "某個陰雨連綿的休息日——",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -59,7 +59,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……真是讨厌……明明想今天跟指挥官出门约会啊——",
+			say = "嗚……真討厭……明明想今天跟指揮官出門約會啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀，这不是指挥官么！好巧呀~",
+			say = "呀，這不是指揮官嗎！好巧呀~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，指挥官也是故意为了见{namecode:450}才过来的吧？",
+			say = "嘿嘿，指揮官也是故意為了見布呂歇爾才過來的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "……这是通往指挥室的必经之路。很显然，{namecode:450}早就堵在这里了。",
+			say = "……這是通往指揮室的必經之路。很顯然，布呂歇爾早就等在這裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "其目的，大概是为了让我兑现几天前“被迫”答应她的约会日程。",
+			say = "其目的，大概是為了讓我兌現幾天前「被迫」答應她的約會日程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们就走吧，指挥官？~你可是答应过今天要和{namecode:450}约会的哟？",
+			say = "那我們就走吧，指揮官？~你可是答應今天要和布呂歇爾約會的喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,11 +157,11 @@ return {
 			},
 			options = {
 				{
-					content = "可约好的时间是下午……",
+					content = "但約好的時間是下午……",
 					flag = 1
 				},
 				{
-					content = "可现在正在下雨……",
+					content = "但現在正在下雨……",
 					flag = 2
 				},
 				{
@@ -180,7 +180,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但指挥官一大早就急着来见{namecode:450}了哦~",
+			say = "但指揮官一大早就急著來見布呂歇爾了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？难道不是么？总不会是指挥官想利用休息日偷偷去指挥室加班吧？",
+			say = "咦？難道不是嗎？總不會是指揮官想利用休息日偷偷去指揮室加班吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，那又有什么关系嘛~",
+			say = "嘿嘿，那又有什麼關係嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要{namecode:450}能陪在指挥官身边，那心情就———每时每刻都是阳光灿烂的大晴天！",
+			say = "只要布呂歇爾能陪在指揮官身邊，那心情就——每時每刻都是陽光燦爛的大晴天！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼~和指挥官的雨中约会开始咯~",
+			say = "哼哼哼~和指揮官的雨中約會開始了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "与{namecode:450}一同漫步在雨中的港区。",
+			say = "與布呂歇爾一同漫步在雨中的港區。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "在路过铁血的宿舍区时，一个熟悉的身影出现在眼前——",
+			say = "在路過鐵血的宿舍區時，一個熟悉的身影出現在眼前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:428}~早上好！你也在进行雨中漫步么？",
+			say = "歐根~早安！妳也在進行雨中漫步嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哟，这不是指挥官，还有“元气甜心”小姐嘛？",
+			say = "喲，這不是指揮官，還有「元氣甜心」小姐嘛？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -352,7 +352,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说姐姐可是不礼貌的！",
+			say = "這麼說姐姐可是不禮貌的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是是是~那么，两位打算去哪里呢，难不成是在……约会？",
+			say = "是是是~那麼，兩位打算去哪裡呢，難不成是在……約會？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,11 +392,11 @@ return {
 			},
 			options = {
 				{
-					content = "只是陪{namecode:450}在港区里随便转转。",
+					content = "只是陪布呂歇爾在港區隨便轉。",
 					flag = 1
 				},
 				{
-					content = "应该是算吧？",
+					content = "應該算是吧？",
 					flag = 2
 				}
 			}
@@ -411,7 +411,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！就是约会！是约会！约会！！！啦！",
+			say = "指揮官！就是約會！是約會！約會！！！啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不是什么闲逛！明明就是充满爱意的约会，{namecode:428}你不要听指挥官乱说哦！",
+			say = "才不是什麼閒逛！明明就是充滿愛意的約會，歐根妳不要聽指揮官亂說喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，我完全理解了。",
+			say = "原來如此，我完全理解了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……没想到你们的关系进展得还挺迅速的嘛。",
+			say = "原來如此……沒想到你們的關係進展得還挺迅速的嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过姐姐对约会这种事情可是有着超乎寻常的热情的哦？指挥官可不要被吓退了~",
+			say = "不過姐姐對約會這種事情可是有著超乎尋常的熱情的哦？指揮官可不要被嚇退了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，爱意就要坦率地表达出来嘛~",
+			say = "哼哼，愛意就要坦率地表達出來嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~走啦，指挥官~我想好接下来去哪里玩了，今天要一直陪着{namecode:450}哦~",
+			say = "嘿嘿~走啦，指揮官~我想好接下來去哪裡玩了，今天要一直陪著布呂歇爾哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

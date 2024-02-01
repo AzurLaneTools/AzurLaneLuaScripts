@@ -48,6 +48,7 @@ function slot0.Ctor(slot0, slot1)
 		{},
 		{}
 	}
+	slot0.supportFleet = {}
 	slot0.loopFlag = 0
 end
 
@@ -62,7 +63,9 @@ function slot0.BuildEliteFleetList(slot0)
 		{},
 		{}
 	}
-	slot3 = {}
+	slot3 = {
+		{}
+	}
 	slot4 = ipairs
 	slot5 = slot0 or {}
 
@@ -74,7 +77,7 @@ function slot0.BuildEliteFleetList(slot0)
 		end
 
 		if slot7 == 4 then
-			table.insert(slot3, slot9)
+			table.insert(slot3[1], slot9)
 		else
 			slot1[slot7] = slot9
 		end
@@ -585,9 +588,23 @@ function slot0.setSupportFleetList(slot0, slot1)
 end
 
 function slot0.getSupportFleet(slot0)
-	slot0.supportFleet = slot0.supportFleet or {}
+	slot0:SupportShipTypeFilter()
 
 	return slot0.supportFleet
+end
+
+function slot0.SupportShipTypeFilter(slot0)
+	if slot0:GetSupportFleetMaxCount() < 1 then
+		table.clear(slot0.supportFleet)
+	end
+
+	slot1 = getProxy(BayProxy):getRawData()
+
+	for slot6 = #slot0.supportFleet, 1, -1 do
+		if slot1[slot2[slot6]] == nil then
+			table.remove(slot2, slot6)
+		end
+	end
 end
 
 function slot0.activeAlways(slot0)

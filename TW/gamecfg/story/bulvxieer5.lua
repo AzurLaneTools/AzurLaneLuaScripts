@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>五　落雪与拥抱</size>",
+					"元氣甜心的愛意攻勢\n\n<size=45>五　落雪與擁抱</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "北方联合境内————",
+			say = "北方聯合境內————",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -56,8 +56,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "呀吼~指挥官！~————",
+			actorName = "布呂歇爾",
+			say = "呀吼~指揮官！~————",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -72,12 +72,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "这片滑雪场真是不错啊……不愧是阿芙乐尔小姐的推荐！",
+			say = "這片滑雪場真是不錯……不愧是曙光小姐的推薦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "这是一座依托天然雪山修建的北方联合舰船专用滑雪场。",
+			say = "這是一座依托天然雪山興建的北方聯合艦船專用滑雪場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "空气凉爽清冽，对于旅游来说，是相当不错的目的地。",
+			say = "空氣涼爽清冽，對於旅遊來說，是相當不錯的目的地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 			fontsize = 45,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "和指挥官的雪山约会之行，真是太棒啦——————",
+			say = "和指揮官的雪山約會之行，真是太棒——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,12 +130,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "……欸？为什么没有回声欸！不是说对着山大声喊就能听到回声么！",
+			say = "……欸？為什麼沒有迴聲欸！不是說對著山大聲喊就能聽到迴聲嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "因为这里是雪山……积雪蓬松的结构有良好的吸音效果。",
+			say = "因為這裡是雪山…積雪蓬鬆的結構有良好的吸音效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,12 +169,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不愧是指挥官！",
+			say = "原來如此……不愧是指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}踩着滑雪板在雪道上疾驰而过，溅起大片的落雪。",
+			say = "布呂歇爾踩著滑雪板在雪道上疾馳而過，濺起大片的落雪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "呀吼~指挥官，来试试追上我吧？",
+			say = "呀吼~指揮官，來試試追上我吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,12 +217,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "欸，不打算玩雪橇板？真是的……那来抱抱我好咯！",
+			say = "欸，不打算玩雪橇板？真是的……那來抱抱我好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}操纵着雪橇板在雪地上划了一圈，然后借助惯性来到高处。",
+			say = "布呂歇爾操縱雪橇板在雪地上劃了一圈，然後藉助慣性來到高處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "指挥官，转过身来！给你个大大的拥抱~",
+			actorName = "布呂歇爾",
+			say = "指揮官，轉過身來！給你一個大大的擁抱~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -284,18 +284,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}从上方飞跃而下，向着我的怀里飞来——",
+			say = "布呂歇爾從上方飛躍而下，向著我的懷抱飛來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "谨慎地接",
+					content = "謹慎地接",
 					flag = 1
 				},
 				{
-					content = "慌张地接",
+					content = "慌張地接",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 1,
-			say = "瞄准{namecode:450}飞过来的方向伸出手——",
+			say = "瞄準布呂歇爾飛過來的方向伸出手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 1,
-			say = "冲撞伴随着柔软的触感袭来，不过早已提前做好准备，结果稳稳地接住了她。",
+			say = "衝撞伴隨著柔軟的觸感襲來，不過早已提前做好準備，結果穩穩地接住了她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~这下子就被指挥官抱到怀里咯~",
+			say = "嘿嘿~這下子就被指揮官抱到懷裡囉~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,13 +350,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "和指挥官的亲密接触达成~！",
+			say = "和指揮官的親密接觸達成~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "柔软的触感伴随着冲撞袭来————",
+			say = "柔軟的觸感伴隨著衝撞襲來————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "稍微有些手忙脚乱，没能稳稳当当地接好她，结果两个人一起滚落在雪地上。",
+			say = "稍微有些手忙腳亂，沒能穩穩地接住她，結果兩個人一起滾落在雪地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "好在滑雪场的积雪很厚，倒下去也不会受伤。",
+			say = "還好滑雪場的積雪很厚，倒下去也不會受傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,13 +413,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "呜哇！好凉的雪……都灌进脖子里面来了！",
+			say = "嗚哇！好涼的雪……都灌進脖子裡面來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,13 +443,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "布呂歇爾",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，不过指挥官的怀抱倒是很温暖哟？",
+			say = "嘿嘿，不過指揮官的懷抱倒是很溫暖喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,8 +465,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "好啦，指挥官~来跟我一起滑雪嘛~",
+			actorName = "布呂歇爾",
+			say = "好啦，指揮官~來跟我一起滑雪嘛~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -481,7 +481,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "凛冽的寒风当中，她的热情似乎要将落雪都融化——",
+			say = "在凜冽的寒風當中，她的熱情似乎要將落雪都融化——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

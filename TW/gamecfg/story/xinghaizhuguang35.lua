@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望安塔提卡研究所那边的开采研究工作能有所突破。",
+			say = "希望安塔迪卡研究所那边的开采研究工作能有所突破。",
 			painting = {
 				alpha = 0.3,
 				time = 1

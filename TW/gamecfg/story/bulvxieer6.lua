@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>六　闪烁于星光之下</size>",
+					"元氣甜心的愛意攻勢\n\n<size=45>六　閃爍於星光之下</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "一个天朗气清的夜晚，来到了约定的地点。",
+			say = "一個天朗氣清的夜晚，來到了約定的地點。",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "——明明已经是晚上了，却还收到了{namecode:450}的约会邀请。",
+			say = "——明明已經是晚上了，卻還收到了布呂歇爾的約會邀約。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀吼~指挥官，晚上好呀！",
+			say = "呀吼~指揮官，晚上好！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -91,7 +91,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉啦抱歉啦，这么晚了还约你出来~",
+			say = "抱歉啦抱歉啦，這麼晚了還約你出來~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是想你想得实在睡不着嘛~！",
+			say = "但是想你想得實在睡不著嘛~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "反正也还没休息，今晚的计划是？",
+			say = "反正也還沒休息，今晚的計畫是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱宿舍区的小吃街！",
+			say = "重櫻宿舍區的小吃街！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个时间那边应该还没有打烊，咱们就去那边放松一下吧~",
+			say = "這個時間那邊應該還沒打烊，我們就去那邊放鬆一下吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "满天的星光下，陪{namecode:450}一起在港区的小吃街上闲游。",
+			say = "滿天的星光下，陪布呂歇爾一起在港區的小吃街上閒逛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两串章鱼小丸子！天妇罗也要一点，还有鲷鱼烧~再来一点关东煮……",
+			say = "兩串章魚小丸子！天婦羅也要一點，還有鯛魚燒~再來一點關東煮……",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -222,7 +222,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~真是美味！果然甜美的幽会与小吃是最搭的~",
+			say = "嗯~真是美味！果然甜美的幽會與小吃是最搭的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这几串给你，就当陪我出来约会的报酬咯~",
+			say = "這幾串給你，就當陪我出來約會的報酬了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "和{namecode:450}边吃边沿着街道走着，不知不觉已经到了街道的尽头。",
+			say = "和布呂歇爾邊吃邊沿著街道走著，不知不覺已經到了街道的盡頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "明明约会刚开始的时候身体里还有着白天积蓄的疲惫，现在那些疲惫却已经一扫而空了。",
+			say = "明明約會剛開始的時候身體裡還有著白天積蓄的疲憊，現在那些疲憊卻已經一掃而空了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~嘿嘿，谢谢你这么晚了还来陪我~",
+			say = "指揮官~嘿嘿，謝謝你這麼晚了還來陪我~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时间现在也挺晚了呢……指挥官！",
+			say = "現在時間也很晚了呢……指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "{namecode:450}突然张开双臂，似乎在等待着什么。",
+			say = "布呂歇爾突然張開雙臂，似乎在等待著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——作为幽会告别的谢礼，你应该懂的吧？",
+			say = "——作為幽會告別的謝禮，你該懂的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,11 +339,11 @@ return {
 			},
 			options = {
 				{
-					content = "抱抱{namecode:450}",
+					content = "抱抱布呂歇爾",
 					flag = 1
 				},
 				{
-					content = "轻轻敲她的头",
+					content = "輕輕敲她的頭",
 					flag = 2
 				}
 			}
@@ -358,7 +358,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~有了指挥官的拥抱，{namecode:450}元气完全恢复！",
+			say = "嘿嘿~有了指揮官的擁抱，布呂歇爾元氣完全恢復！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明天又是充满活力的一天~",
+			say = "明天又是充滿活力的一天~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜欸！痛痛痛……怎么能这么对柔弱的女孩子呢！",
+			say = "嗚欸！痛痛痛……怎麼能這麼對柔弱的女孩子呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过也多少恢复了点元气~",
+			say = "不過也多少恢復了一點元氣~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那指挥官，约会就到这里，咱们明天再见咯？晚上要做个好梦哟~",
+			say = "那指揮官，約會就到這裡，我們明天見囉？晚上要做個好夢喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1

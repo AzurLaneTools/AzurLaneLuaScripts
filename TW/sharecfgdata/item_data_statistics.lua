@@ -58945,39 +58945,6 @@ _G.pg.base.item_data_statistics[59774] = {
 	combination_display = {}
 }
 
-_G.pg.base.item_data_statistics[59823] = {
-	open_directly = 0,
-	name = "檔案密鑰 ",
-	display = "存取作戰檔案所需的電子密鑰(消耗品) ",
-	type = 0,
-	other_resource_cost = "[]",
-	display_effect = "",
-	shop_id = -1,
-	replace_item = 0,
-	usage = "usage_undefined",
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 7,
-	id = 59823,
-	icon = "Props/activity_tickets",
-	order = 0,
-	rarity = 4,
-	max_num = 0,
-	time_limit = 0,
-	limit = "[]",
-	drop_gold_max = 0,
-	other_item_cost = "[]",
-	usage_arg = "[]",
-	is_world = 0,
-	compose_number = 0,
-	target_id = 0,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
 _G.pg.base.item_data_statistics[59841] = {
 	open_directly = 0,
 	name = "二週年紀念幣",

@@ -2,18 +2,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -31,18 +28,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -60,18 +54,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -89,18 +80,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -118,18 +106,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -147,18 +132,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -176,18 +158,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -205,18 +184,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -234,18 +210,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -263,18 +236,15 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffDOT",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onUpdate"
+					"onUpdate",
+					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					exposeGroup = 1,
+					buff_id = 17247,
 					time = 1,
-					cloakExpose = 36,
-					number = 60,
-					dotType = 1,
-					k = 0
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -299,18 +269,15 @@ return {
 	desc = "持续伤害+减速",
 	effect_list = {
 		{
-			type = "BattleBuffDOT",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onUpdate"
+				"onUpdate",
+				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				exposeGroup = 1,
+				buff_id = 17247,
 				time = 1,
-				cloakExpose = 36,
-				number = 60,
-				dotType = 1,
-				k = 0
+				target = "TargetSelf"
 			}
 		},
 		{

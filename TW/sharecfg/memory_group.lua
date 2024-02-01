@@ -213,6 +213,7 @@ pg.memory_group = setmetatable({
 		577,
 		578,
 		579,
+		580,
 		581,
 		582,
 		587
@@ -4532,6 +4533,23 @@ pg.base.memory_group = {
 			2375,
 			2376,
 			2377
+		}
+	},
+	[580] = {
+		id = 580,
+		subtype = 0,
+		icon = "title_chara_bulvxieer",
+		type = 3,
+		link_event = 0,
+		title = "元氣甜心的愛意攻勢",
+		memories = {
+			2391,
+			2392,
+			2393,
+			2394,
+			2395,
+			2396,
+			2397
 		}
 	},
 	[581] = {

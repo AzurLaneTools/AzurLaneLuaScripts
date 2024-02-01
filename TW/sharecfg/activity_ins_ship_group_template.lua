@@ -163,7 +163,7 @@ pg.activity_ins_ship_group_template = {
 	[30111] = {
 		ship_group = 30111,
 		name = "RAI",
-		sculpture = "lei"
+		sculpture = "lei_4"
 	},
 	[30112] = {
 		ship_group = 30112,
@@ -323,7 +323,7 @@ pg.activity_ins_ship_group_template = {
 	[50201] = {
 		ship_group = 50201,
 		name = "Yi Xian",
-		sculpture = "yixian"
+		sculpture = "yixian_2"
 	},
 	[50101] = {
 		ship_group = 50101,
@@ -333,7 +333,7 @@ pg.activity_ins_ship_group_template = {
 	[50102] = {
 		ship_group = 50102,
 		name = "Fushun2",
-		sculpture = "fushun"
+		sculpture = "fushun_2"
 	},
 	[50202] = {
 		ship_group = 50202,
@@ -413,7 +413,7 @@ pg.activity_ins_ship_group_template = {
 	[10117] = {
 		ship_group = 10117,
 		name = "Lafite.82",
-		sculpture = "lafeiII_3"
+		sculpture = "lafei_4"
 	},
 	[20101] = {
 		ship_group = 20101,
@@ -543,7 +543,7 @@ pg.activity_ins_ship_group_template = {
 	[50104] = {
 		ship_group = 50104,
 		name = "TaiYuan",
-		sculpture = "taiyuan"
+		sculpture = "taiyuan_2"
 	},
 	[30115] = {
 		ship_group = 30115,
@@ -1593,7 +1593,7 @@ pg.activity_ins_ship_group_template = {
 	[50601] = {
 		ship_group = 50601,
 		name = "ChenHai",
-		sculpture = "zhenhai"
+		sculpture = "zhenhai_2"
 	},
 	[50207] = {
 		ship_group = 50207,
@@ -1613,7 +1613,7 @@ pg.activity_ins_ship_group_template = {
 	[10149] = {
 		ship_group = 10149,
 		name = "Bristol",
-		sculpture = "bulisituoer"
+		sculpture = "bulisituoer_2"
 	},
 	[20230] = {
 		ship_group = 20230,
@@ -1708,7 +1708,7 @@ pg.activity_ins_ship_group_template = {
 	[40208] = {
 		ship_group = 40208,
 		name = "Elbing ",
-		sculpture = "aierbin"
+		sculpture = "aierbin_4"
 	},
 	[40403] = {
 		ship_group = 40403,
@@ -2293,7 +2293,7 @@ pg.activity_ins_ship_group_template = {
 	[10702] = {
 		ship_group = 10702,
 		name = "Lexington",
-		sculpture = "liekexingdun"
+		sculpture = "liekexingdun_2"
 	},
 	[10808] = {
 		ship_group = 10808,
@@ -2349,6 +2349,36 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 30186,
 		name = "Kazagumo",
 		sculpture = "fengyun_4"
+	},
+	[50401] = {
+		ship_group = 50401,
+		name = "Huan Ch'ang",
+		sculpture = "huanchang"
+	},
+	[50107] = {
+		ship_group = 50107,
+		name = "Fei Yuen",
+		sculpture = "feiyun"
+	},
+	[50209] = {
+		ship_group = 50209,
+		name = "Chi An",
+		sculpture = "jian"
+	},
+	[50105] = {
+		ship_group = 50105,
+		name = "Lung Wu",
+		sculpture = "longwu"
+	},
+	[50106] = {
+		ship_group = 50106,
+		name = "Hu Pen",
+		sculpture = "huben"
+	},
+	[20401] = {
+		ship_group = 20401,
+		name = "Renown",
+		sculpture = "shengwang"
 	},
 	all = {
 		30701,
@@ -2820,6 +2850,12 @@ pg.activity_ins_ship_group_template = {
 		39906,
 		49908,
 		99902,
-		30186
+		30186,
+		50401,
+		50107,
+		50209,
+		50105,
+		50106,
+		20401
 	}
 }

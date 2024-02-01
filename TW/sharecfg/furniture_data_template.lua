@@ -128,6 +128,7 @@ pg.furniture_data_template = setmetatable({
 			260,
 			263,
 			266,
+			269,
 			100002,
 			100003,
 			100004,
@@ -4467,6 +4468,7 @@ pg.furniture_data_template = setmetatable({
 			260,
 			263,
 			266,
+			269,
 			100002,
 			100003,
 			100004,
@@ -5292,6 +5294,7 @@ pg.furniture_data_template = setmetatable({
 			260,
 			263,
 			266,
+			269,
 			100002,
 			100004,
 			100005,
@@ -7716,6 +7719,7 @@ pg.furniture_data_template = setmetatable({
 		260,
 		263,
 		266,
+		269,
 		100002,
 		100003,
 		100004,
@@ -16070,6 +16074,124 @@ pg.base.furniture_data_template = {
 			{
 				"shanluanxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[269] = {
+		rarity = 5,
+		describe = "闪耀的灯光，点亮闪耀的你！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		name = "闪耀舞台",
+		is_3d_obj = 0,
+		advice = 0,
+		themeId = 0,
+		icon = "toupiaowutai2023icon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		effect = "",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 269,
+		can_rotate = 0,
+		size = {
+			13,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"toupiaowutai2023B",
+				"normal"
+			},
+			{
+				"toupiaowutai2023T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char4",
+				1
 			}
 		},
 		interAction_group = {}

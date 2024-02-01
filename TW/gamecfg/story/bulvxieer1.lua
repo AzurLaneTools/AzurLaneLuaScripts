@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>一　情书</size>",
+					"元氣甜心的愛意攻勢\n\n<size=45>一　情書</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "某个阳光明媚的工作日——",
+			say = "某個陽光明媚的工作日——",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀吼，指挥官~！这么棒的日子，工作结束后要和我一起去约会哟？",
+			say = "呀吼，指揮官~！這麼棒的日子，工作結束後要跟我去約會喲？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -81,7 +81,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是去游乐园？去水族馆？去餐厅？去电影院？还是就在港区的街道上两个人一起随便逛逛呢~",
+			say = "是去遊樂園？去水族館？去餐廳？去電影院？還是就在港區的街道上兩個人一起隨便逛逛吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "嗯……还有这份报告也要处理……",
+			say = "嗯……還有這份報告也要處理……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！不要不理我呀！",
+			say = "指揮官~！不要不理我呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……这位正缠在我身边要着约会的姑娘，就是理论上应该在辛勤工作的港区秘书舰——{namecode:450}。",
+			say = "……這位正纏在我身邊要著約會的女孩，就是理論上應該在辛勤工作的港區秘書艦——布呂歇爾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看我看我！把视线从工作当中移开一下嘛~！",
+			say = "指揮官，看我看我！把視線從工作當中移開一下嘛~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "瞟了一眼{namecode:450}，而后重新进行手头上的工作。",
+			say = "瞟了一眼布呂歇爾，而後重新進行手邊的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……！真是的，指挥官……一点都不正经嘛！这未免也太敷衍了！",
+			say = "……！真是的，指揮官……一點都不正經嘛！這未免也太敷衍了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "无言地指了指桌子上的文件堆。",
+			say = "無言地指了指桌上的文件堆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（假装没看到）嘛算了~每天都能陪在指挥官的身边，{namecode:450}就已经心情大好啦~",
+			say = "（假裝沒看到）嘛算了~每天都能陪在指揮官的身邊，布呂歇爾就已經心情大好啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼哼~经营着爱情的少女，今天也努力向着粉红色的热恋奔去~",
+			say = "嗯哼哼~經營愛情的少女，今天也努力朝著粉紅色的熱戀奔去~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "接下来处理一下演习相关的事务好了……",
+			say = "接下來處理一下演習相關的事務好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是指挥官！工作结束之后去哪约会，您还没有告诉我呢！~",
+			say = "可是指揮官！工作結束後去哪裡約會，您還沒告訴我呢！~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官指挥官！来个大大的拥抱吧！没有指挥官的拥抱，做事情有些提不起来力气，呜~",
+			say = "指揮官指揮官！來個大大的擁抱吧！沒有指揮官的擁抱，做事情有點提不起勁，嗚~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！有{namecode:450}陪在身边，心情一定会变得愉悦起来对吧~",
+			say = "指揮官~！有布呂歇爾陪在身邊，心情一定會變得愉悅起來對吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官指挥官！……",
+			say = "指揮官指揮官！……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "最终还是决定不理她，先做完手头的工作再说——",
+			say = "最後還是決定不理她，先做完手邊的工作再說——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿嘿……指挥官……抱抱……",
+			say = "欸嘿嘿嘿……指揮官……抱抱……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不知什么时候，{namecode:450}已经趴在旁边的桌子上睡着了。",
+			say = "不知什麼時候，布呂歇爾已經趴在旁邊的桌子上睡著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好在工作已经处理完了……说起来，当初为什么要同意让{namecode:450}来当秘书舰呢。",
+			say = "還好工作已經處理完了……說起來，當初為什麼要同意讓布呂歇爾來當秘書艦呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就在站起身来的时候，在{namecode:450}的手边发现了一封桃红色信纸包着的信，难道是——",
+			say = "就在站起身來的時候，在布呂歇爾的手邊發現了一封桃紅色信紙包著的信，難道是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——果然，是她在工作中摸鱼写出来的情书。",
+			say = "——果然，是她在工作中摸魚時寫的情書。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

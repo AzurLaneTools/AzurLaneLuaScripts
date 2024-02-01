@@ -576,6 +576,10 @@ function slot0.saveLive2dData(slot0)
 	end
 end
 
+function slot0.enablePlayAction(slot0, slot1)
+	return uv0(slot0, slot1)
+end
+
 function slot0.IgonreReactPos(slot0, slot1)
 	slot0:setReactPos(slot1)
 end

@@ -99,6 +99,8 @@ slot1.assistantTouchEvents = {
 		"idleRandom4",
 		"idleRandom5",
 		"idleRandom6",
+		"idleRandom7",
+		"idleRandom8",
 		"idleRandom9"
 	}
 }
@@ -200,6 +202,8 @@ slot1.IdleEvents = {
 	"idleRandom4",
 	"idleRandom5",
 	"idleRandom6",
+	"idleRandom7",
+	"idleRandom8",
 	"idleRandom9"
 }
 slot1.PaintingTouchEvents = {

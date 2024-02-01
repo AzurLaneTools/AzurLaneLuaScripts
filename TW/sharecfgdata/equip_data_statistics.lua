@@ -52915,7 +52915,7 @@ _G.pg.base.equip_data_statistics[25000] = {
 		},
 		{
 			4,
-			1402
+			1419
 		},
 		6,
 		10,
@@ -53056,7 +53056,7 @@ _G.pg.base.equip_data_statistics[25020] = {
 		},
 		{
 			4,
-			1403
+			1420
 		},
 		6,
 		10,
@@ -53238,7 +53238,7 @@ _G.pg.base.equip_data_statistics[25040] = {
 		},
 		{
 			4,
-			1404
+			1421
 		},
 		6,
 		10,

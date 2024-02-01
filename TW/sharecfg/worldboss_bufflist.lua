@@ -115,7 +115,7 @@ pg.worldboss_bufflist = {
 	[1015] = {
 		lua_id = 59150,
 		id = 1015,
-		desc = "在战斗中每间隔一段时间会生成减速力场，进入立场的我方舰船角色减速10%",
+		desc = "在战斗中每间隔一段时间会生成减速力场，进入力场的我方舰船角色减速10%",
 		buff_icon = "1015",
 		buff_target = 1,
 		bonus = "0.05"
@@ -168,6 +168,22 @@ pg.worldboss_bufflist = {
 		buff_target = 1,
 		bonus = "0.05"
 	},
+	[101701] = {
+		lua_id = 59220,
+		id = 101701,
+		desc = "战斗中每隔一段时间，敌方旗舰会发射一轮特殊弹幕",
+		buff_icon = "1017",
+		buff_target = 1,
+		bonus = "0.03"
+	},
+	[101801] = {
+		lua_id = 59230,
+		id = 101801,
+		desc = "战斗随机出现敌方的航空编队支援",
+		buff_icon = "1018",
+		buff_target = 1,
+		bonus = "0.03"
+	},
 	all = {
 		1001,
 		1002,
@@ -189,6 +205,8 @@ pg.worldboss_bufflist = {
 		1018,
 		1019,
 		1020,
-		1021
+		1021,
+		101701,
+		101801
 	}
 }

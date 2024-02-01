@@ -304,11 +304,16 @@ pg.expedition_data_by_map = setmetatable({
 		2100201,
 		2100210,
 		2100211,
+		2100221,
+		2100222,
+		2100231,
+		2100232,
 		2200000,
 		2200010,
 		2200020,
 		2200030,
 		2200040,
+		2200080,
 		5100000,
 		5100001,
 		5100010,
@@ -13671,6 +13676,182 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100221] = {
+		map = 2100221,
+		name = "微層混合·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100231,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100222] = {
+		map = 2100222,
+		name = "微層混合·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100232,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100231] = {
+		map = 2100231,
+		name = "微層混合·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100221,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100232] = {
+		map = 2100232,
+		name = "微層混合·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100222,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望和計畫|| ||CHAPTER SP||S.P.",
@@ -13890,6 +14071,29 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
+	},
+	[2200080] = {
+		map = 2200080,
+		name = "峽灣間的星辰|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1200001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
 	},
 	[5100000] = {
 		map = 5100000,

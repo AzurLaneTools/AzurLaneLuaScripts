@@ -299,6 +299,11 @@ pg.painting_filte_map = {
 			"painting/aierbin_rw_tex",
 			"painting/aierbin_n_tex",
 			"painting/aierbin_n",
+			"painting/aierbin_4_tex",
+			"painting/aierbin_4_rw_tex",
+			"painting/aierbin_4_n_tex",
+			"painting/aierbin_4_n",
+			"painting/aierbin_4",
 			"painting/aierbin_3_tex",
 			"painting/aierbin_3",
 			"painting/aierbin"
@@ -1200,6 +1205,12 @@ pg.painting_filte_map = {
 			"painting/beianpudunii_rw_tex",
 			"painting/beianpudunii_n_tex",
 			"painting/beianpudunii_n",
+			"painting/beianpudunii_3_tex",
+			"painting/beianpudunii_3_rw_tex",
+			"painting/beianpudunii_3_n_tex",
+			"painting/beianpudunii_3_n",
+			"painting/beianpudunii_3_front_tex",
+			"painting/beianpudunii_3",
 			"painting/beianpudunii"
 		}
 	},
@@ -5509,6 +5520,8 @@ pg.painting_filte_map = {
 		key = "jinboli",
 		res_list = {
 			"painting/jinboli_tex",
+			"painting/jinboli_alter_tex",
+			"painting/jinboli_alter",
 			"painting/jinboli"
 		}
 	},
@@ -9350,6 +9363,11 @@ pg.painting_filte_map = {
 		key = "ruoyue",
 		res_list = {
 			"painting/ruoyue_tex",
+			"painting/ruoyue_3_tex",
+			"painting/ruoyue_3_rw_tex",
+			"painting/ruoyue_3_n_tex",
+			"painting/ruoyue_3_n",
+			"painting/ruoyue_3",
 			"painting/ruoyue"
 		}
 	},
@@ -10008,6 +10026,10 @@ pg.painting_filte_map = {
 			"painting/shenxue_tex",
 			"painting/shenxue_n_tex",
 			"painting/shenxue_n",
+			"painting/shenxue_3_tex",
+			"painting/shenxue_3_n_tex",
+			"painting/shenxue_3_n",
+			"painting/shenxue_3",
 			"painting/shenxue"
 		}
 	},
@@ -10473,6 +10495,8 @@ pg.painting_filte_map = {
 		key = "taiyuan",
 		res_list = {
 			"painting/taiyuan_tex",
+			"painting/taiyuan_g_tex",
+			"painting/taiyuan_g",
 			"painting/taiyuan"
 		}
 	},
@@ -14040,6 +14064,11 @@ pg.painting_filte_map = {
 			"painting/zhenhai_n_hx",
 			"painting/zhenhai_n",
 			"painting/zhenhai_hx",
+			"painting/zhenhai_g_tex",
+			"painting/zhenhai_g_rw_tex",
+			"painting/zhenhai_g_n_tex",
+			"painting/zhenhai_g_n",
+			"painting/zhenhai_g",
 			"painting/zhenhai"
 		}
 	},
