@@ -1414,12 +1414,13 @@ pg.activity_template = {
 	},
 	[4574] = {
 		mark = 20240201,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4574,
 		config_data = {
 			{
@@ -1435,45 +1436,19 @@ pg.activity_template = {
 				98461
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ui = "ColoringMingUI"
 		}
 	},
 	[4575] = {
 		mark = 20240201,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4575,
 		config_data = {
@@ -1486,33 +1461,6 @@ pg.activity_template = {
 			18066,
 			18067,
 			18068
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4595] = {
