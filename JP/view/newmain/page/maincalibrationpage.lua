@@ -95,16 +95,16 @@ function slot0.SavePostion(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("secretary_pos_save"),
 		onYes = function ()
-			getProxy(SettingsProxy):setSkinPosSetting(uv0, uv1.x, uv1.y, uv2)
+			getProxy(SettingsProxy):setSkinPosSetting(uv0.flagShip, uv1.x, uv1.y, uv2)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_pos_save_success"))
-			triggerToggle(uv3.setBtn, false)
-			uv3:emit(NewMainScene.FOLD, false)
+			triggerToggle(uv0.setBtn, false)
+			uv0:emit(NewMainScene.FOLD, false)
 		end
 	})
 end
 
 function slot0.ResetPostion(slot0)
-	getProxy(SettingsProxy):resetSkinPosSetting(slot0.flagShip.skinId)
+	getProxy(SettingsProxy):resetSkinPosSetting(slot0.flagShip)
 
 	slot0.paintingTF.anchoredPosition = Vector2(MainPaintingView.PAINT_DEFAULT_POS_X, MainPaintingView.DEFAULT_HEIGHT)
 	slot0.paintingTF.localScale = Vector3.one

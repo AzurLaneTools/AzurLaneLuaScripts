@@ -20,7 +20,13 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/school_btn",
+				dynamicPath = function ()
+					if LOCK_EDUCATE_SYSTEM then
+						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaOldUI(Clone)/school_btn"
+					else
+						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/school_btn"
+					end
+				end,
 				triggerType = {
 					1
 				}
@@ -29,7 +35,7 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "UICamera/Canvas/UIMain/NavalAcademyWinterUI(Clone)/academyMap/map/minigamehall",
+				path = "UICamera/Canvas/UIMain/NavalAcademySpringFesUI(Clone)/academyMap/map/minigamehall",
 				triggerType = {
 					1
 				}

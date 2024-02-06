@@ -361,7 +361,11 @@ function slot0.checkSkin(slot0, slot1)
 	slot0.skin = slot2
 	slot3 = false
 
-	if slot0.paintSkin ~= slot2.painting or slot2.spineSkin ~= slot2.prefab then
+	if slot0.contextData.tbId then
+		slot0.paintSkin = pg.secretary_special_ship[slot0.contextData.tbId].prefab or "tbniang"
+		slot3 = true
+		slot0.contextData.tbId = nil
+	elseif slot0.paintSkin ~= slot2.painting or slot2.spineSkin ~= slot2.prefab then
 		slot0:clearSkin()
 
 		slot0.paintSkin = slot2.painting

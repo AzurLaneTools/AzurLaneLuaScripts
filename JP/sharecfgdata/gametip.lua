@@ -25889,6 +25889,504 @@ _G.pg.base.gametip.racing_minigame_help = {
 	}
 }
 
+_G.pg.base.gametip.child_msg_title_detail = {
+	tip = "詳細"
+}
+
+_G.pg.base.gametip.child_msg_title_tip = {
+	tip = "tips"
+}
+
+_G.pg.base.gametip.child_msg_owned = {
+	tip = "所持中：$1"
+}
+
+_G.pg.base.gametip.child_polaroid_get_tip = {
+	tip = "収録済みのコンテンツは「大事な瞬間」にて確認できます"
+}
+
+_G.pg.base.gametip.child_close_tip = {
+	tip = "画面をタップして戻る"
+}
+
+_G.pg.base.gametip.word_month = {
+	tip = "月"
+}
+
+_G.pg.base.gametip.word_which_month = {
+	tip = "$1ヶ月目"
+}
+
+_G.pg.base.gametip.word_which_week = {
+	tip = "$1週目"
+}
+
+_G.pg.base.gametip.word_in_one_week = {
+	tip = "今週中"
+}
+
+_G.pg.base.gametip.word_week_title = {
+	tip = "曜日"
+}
+
+_G.pg.base.gametip.word_harbour = {
+	tip = "母港"
+}
+
+_G.pg.base.gametip.child_btn_target = {
+	tip = "目標"
+}
+
+_G.pg.base.gametip.child_btn_collect = {
+	tip = "思い出"
+}
+
+_G.pg.base.gametip.child_btn_mind = {
+	tip = "考え事"
+}
+
+_G.pg.base.gametip.child_btn_bag = {
+	tip = "持ち物"
+}
+
+_G.pg.base.gametip.child_btn_news = {
+	tip = "今月のニュース"
+}
+
+_G.pg.base.gametip.child_main_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.child_archive_name = {
+	tip = "名前"
+}
+
+_G.pg.base.gametip.child_news_import_title = {
+	tip = "重要イベント"
+}
+
+_G.pg.base.gametip.child_news_other_title = {
+	tip = "一般イベント"
+}
+
+_G.pg.base.gametip.child_favor_progress = {
+	tip = "現在進捗：$1"
+}
+
+_G.pg.base.gametip.child_favor_lock1 = {
+	tip = "好感度$1"
+}
+
+_G.pg.base.gametip.child_favor_lock2 = {
+	tip = "$1で開放"
+}
+
+_G.pg.base.gametip.child_target_lock_tip = {
+	tip = "現段階の育成目標はすでに設定済みです"
+}
+
+_G.pg.base.gametip.child_target_progress = {
+	tip = "完成度："
+}
+
+_G.pg.base.gametip.child_target_finish_tip = {
+	tip = "現段階の育成目標を達成しました"
+}
+
+_G.pg.base.gametip.child_target_time_title = {
+	tip = "残り時間："
+}
+
+_G.pg.base.gametip.child_target_title1 = {
+	tip = "主要目標"
+}
+
+_G.pg.base.gametip.child_target_title2 = {
+	tip = "育成目標"
+}
+
+_G.pg.base.gametip.child_item_type0 = {
+	tip = "ずべて"
+}
+
+_G.pg.base.gametip.child_item_type1 = {
+	tip = "書籍"
+}
+
+_G.pg.base.gametip.child_item_type2 = {
+	tip = "楽器"
+}
+
+_G.pg.base.gametip.child_item_type3 = {
+	tip = "道具"
+}
+
+_G.pg.base.gametip.child_item_type4 = {
+	tip = "その他"
+}
+
+_G.pg.base.gametip.child_mind_empty_tip = {
+	tip = "-特に考え事はありません-"
+}
+
+_G.pg.base.gametip.child_mind_finish_title = {
+	tip = "達成済"
+}
+
+_G.pg.base.gametip.child_mind_processing_title = {
+	tip = "進行中"
+}
+
+_G.pg.base.gametip.child_mind_time_title = {
+	tip = "残り時間："
+}
+
+_G.pg.base.gametip.child_collect_lock = {
+	tip = "-未開放-"
+}
+
+_G.pg.base.gametip.child_nature_title = {
+	tip = "性格："
+}
+
+_G.pg.base.gametip.child_btn_review = {
+	tip = "あらすじ"
+}
+
+_G.pg.base.gametip.child_schedule_empty_tip = {
+	tip = "画面左のアイコンをタップし、予定を追加しよう！"
+}
+
+_G.pg.base.gametip.child_schedule_event_tip = {
+	tip = "すでに予定が設定されています"
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip = {
+	tip = "全ての予定枠が設定されていません。未設定の予定枠は「自由行動」になりますが、予定を実行しますか？"
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip2 = {
+	tip = "まだ行動力が残っています。次の週に入りますか？"
+}
+
+_G.pg.base.gametip.child_plan_check_tip1 = {
+	tip = "予定枠が不足しています。予定枠を空けてから再度お試しください"
+}
+
+_G.pg.base.gametip.child_plan_check_tip2 = {
+	tip = "ステータスが条件を満たしていません。予定を追加できません"
+}
+
+_G.pg.base.gametip.child_plan_check_tip3 = {
+	tip = "前段階の予定の実行回数が不足しています。予定を追加できません"
+}
+
+_G.pg.base.gametip.child_plan_check_tip4 = {
+	tip = "所持金が不足しています。予定を追加できません"
+}
+
+_G.pg.base.gametip.child_plan_check_tip5 = {
+	tip = "TBのコンディションが不調です。予定を追加できません"
+}
+
+_G.pg.base.gametip.child_plan_event = {
+	tip = "特別予定"
+}
+
+_G.pg.base.gametip.child_btn_home = {
+	tip = "帰宅"
+}
+
+_G.pg.base.gametip.child_option_limit = {
+	tip = "限定"
+}
+
+_G.pg.base.gametip.child_shop_tip1 = {
+	tip = "※このアイテムは$1週毎に入荷されます"
+}
+
+_G.pg.base.gametip.child_shop_tip2 = {
+	tip = "※このアイテムは1回しか購入できません"
+}
+
+_G.pg.base.gametip.child_filter_title = {
+	tip = "絞り込み"
+}
+
+_G.pg.base.gametip.child_filter_type1 = {
+	tip = "予定タイプ"
+}
+
+_G.pg.base.gametip.child_filter_type2 = {
+	tip = "報酬タイプ"
+}
+
+_G.pg.base.gametip.child_filter_type3 = {
+	tip = "消費タイプ"
+}
+
+_G.pg.base.gametip.child_plan_type1 = {
+	tip = "学園授業"
+}
+
+_G.pg.base.gametip.child_plan_type2 = {
+	tip = "趣味活動"
+}
+
+_G.pg.base.gametip.child_plan_type3 = {
+	tip = "社会勉強"
+}
+
+_G.pg.base.gametip.child_plan_type4 = {
+	tip = "自由行動"
+}
+
+_G.pg.base.gametip.child_filter_award_res = {
+	tip = "TB"
+}
+
+_G.pg.base.gametip.child_filter_award_nature = {
+	tip = "個性"
+}
+
+_G.pg.base.gametip.child_filter_award_attr1 = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.child_filter_award_attr2 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_mood_desc1 = {
+	tip = "絶不調"
+}
+
+_G.pg.base.gametip.child_mood_desc2 = {
+	tip = "不調"
+}
+
+_G.pg.base.gametip.child_mood_desc3 = {
+	tip = "普通"
+}
+
+_G.pg.base.gametip.child_mood_desc4 = {
+	tip = "好調"
+}
+
+_G.pg.base.gametip.child_mood_desc5 = {
+	tip = "絶好調"
+}
+
+_G.pg.base.gametip.child_stage_desc1 = {
+	tip = "育成段階Ⅰ"
+}
+
+_G.pg.base.gametip.child_stage_desc2 = {
+	tip = "育成段階Ⅱ"
+}
+
+_G.pg.base.gametip.child_stage_desc3 = {
+	tip = "育成段階Ⅲ"
+}
+
+_G.pg.base.gametip.child_default_callname = {
+	tip = "指揮官"
+}
+
+_G.pg.base.gametip.flagship_display_mode_1 = {
+	tip = "特殊秘書艦を表示しない"
+}
+
+_G.pg.base.gametip.flagship_display_mode_2 = {
+	tip = "特殊秘書艦のみ表示"
+}
+
+_G.pg.base.gametip.flagship_display_mode_3 = {
+	tip = "全て表示"
+}
+
+_G.pg.base.gametip.flagship_educate_slot_lock_tip = {
+	tip = "<color=#39bfff>「TB育成」</color>ストーリー「新生活」解放後に機能が開放されます"
+}
+
+_G.pg.base.gametip.child_story_name = {
+	tip = "指揮官"
+}
+
+_G.pg.base.gametip.secretary_special_name = {
+	tip = "TB"
+}
+
+_G.pg.base.gametip.secretary_special_lock_tip = {
+	tip = "このモジュールが開放されていません"
+}
+
+_G.pg.base.gametip.secretary_special_title_age = {
+	tip = "モジュール変更"
+}
+
+_G.pg.base.gametip.secretary_special_title_physiognomy = {
+	tip = "モジュール変更"
+}
+
+_G.pg.base.gametip.child_plan_skip = {
+	tip = "演出動画をスキップ"
+}
+
+_G.pg.base.gametip.child_attr_name1 = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.child_attr_name2 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_task_system_type2 = {
+	tip = "育成"
+}
+
+_G.pg.base.gametip.child_task_system_type3 = {
+	tip = "主要"
+}
+
+_G.pg.base.gametip.child_plan_perform_title = {
+	tip = "予定を組む"
+}
+
+_G.pg.base.gametip.child_date_text1 = {
+	tip = "在宅育成"
+}
+
+_G.pg.base.gametip.child_date_text2 = {
+	tip = "入学準備"
+}
+
+_G.pg.base.gametip.child_date_text3 = {
+	tip = "段階上昇"
+}
+
+_G.pg.base.gametip.child_date_text4 = {
+	tip = "更新準備"
+}
+
+_G.pg.base.gametip.child_upgrade_sure_tip = {
+	tip = "次の育成段階に進むと、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
+}
+
+_G.pg.base.gametip.child_school_sure_tip = {
+	tip = "入学すると、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
+}
+
+_G.pg.base.gametip.child_extraAttr_sure_tip = {
+	tip = "是否确认个性补正？确认后将无法修改"
+}
+
+_G.pg.base.gametip.child_reset_sure_tip = {
+	tip = "TB育成をリスタートすると、育成段階Ⅰから再度育成することが可能です。育成をリスタートしますか？"
+}
+
+_G.pg.base.gametip.child_end_sure_tip = {
+	tip = "エンディングに進行しますか？"
+}
+
+_G.pg.base.gametip.child_buff_name = {
+	tip = "状態"
+}
+
+_G.pg.base.gametip.child_unlock_tip = {
+	tip = "解放"
+}
+
+_G.pg.base.gametip.child_unlock_out = {
+	tip = "お出かけ"
+}
+
+_G.pg.base.gametip.child_unlock_memory = {
+	tip = "思い出"
+}
+
+_G.pg.base.gametip.child_unlock_polaroid = {
+	tip = "大事な瞬間"
+}
+
+_G.pg.base.gametip.child_unlock_ending = {
+	tip = "エンディング"
+}
+
+_G.pg.base.gametip.child_unlock_intimacy = {
+	tip = "好感度"
+}
+
+_G.pg.base.gametip.child_unlock_buff = {
+	tip = "状態"
+}
+
+_G.pg.base.gametip.child_unlock_attr2 = {
+	tip = "個性"
+}
+
+_G.pg.base.gametip.child_unlock_attr3 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_unlock_bag = {
+	tip = "持ち物"
+}
+
+_G.pg.base.gametip.child_shop_empty_tip = {
+	tip = "-販売中のアイテムはありません-"
+}
+
+_G.pg.base.gametip.child_bag_empty_tip = {
+	tip = "-持ち物はありません-"
+}
+
 _G.pg.base.gametip.levelscene_deploy_submarine = {
 	tip = "目標確定"
 }
@@ -27293,4 +27791,88 @@ _G.pg.base.gametip.help_chunjie2024 = {
 <color=#92fc63>「限定建造」</color>：限定建造ページに移動可能]]
 		}
 	}
+}
+
+_G.pg.base.gametip.child_random_polaroid_drop = {
+	tip = "ランダム報酬"
+}
+
+_G.pg.base.gametip.child_random_ops_drop = {
+	tip = "大事な瞬間"
+}
+
+_G.pg.base.gametip.child_refresh_sure_tip = {
+	tip = "育成をリスタートしますか？"
+}
+
+_G.pg.base.gametip.child_target_set_sure_tip = {
+	tip = "育成目標を確定しますか？（【$1】属性を伸ばすのが主な目標になります）\n次の育成段階まで変更できません"
+}
+
+_G.pg.base.gametip.child_polaroid_lock_tip = {
+	tip = "育成段階解放またはTBの個性を解放すると確認可能"
+}
+
+_G.pg.base.gametip.child_task_finish_all = {
+	tip = "現段階の育成目標を達成しました"
+}
+
+_G.pg.base.gametip.child_unlock_new_secretary = {
+	tip = "新しい着せ替えモジュールが開放されました。「特殊秘書艦」画面で設定を変更できます"
+}
+
+_G.pg.base.gametip.child_no_resource = {
+	tip = "資源が不足しています！"
+}
+
+_G.pg.base.gametip.child_target_set_empty = {
+	tip = "育成目標は設定されていません"
+}
+
+_G.pg.base.gametip.child_target_set_skip = {
+	tip = "タップで<color=#39BFFF>育成目標</color>を設定しよう"
+}
+
+_G.pg.base.gametip.child_news_import_empty = {
+	tip = "今月に重要イベントはありません"
+}
+
+_G.pg.base.gametip.child_news_other_empty = {
+	tip = "今月に一般イベントはありません"
+}
+
+_G.pg.base.gametip.word_week_day1 = {
+	tip = "月曜日"
+}
+
+_G.pg.base.gametip.word_week_day2 = {
+	tip = "火曜日"
+}
+
+_G.pg.base.gametip.word_week_day3 = {
+	tip = "水曜日"
+}
+
+_G.pg.base.gametip.word_week_day4 = {
+	tip = "木曜日"
+}
+
+_G.pg.base.gametip.word_week_day5 = {
+	tip = "金曜日"
+}
+
+_G.pg.base.gametip.word_week_day6 = {
+	tip = "土曜日"
+}
+
+_G.pg.base.gametip.word_week_day7 = {
+	tip = "日曜日"
+}
+
+_G.pg.base.gametip.child_shop_price_title = {
+	tip = "合計："
+}
+
+_G.pg.base.gametip.child_callname_tip = {
+	tip = "名前を入力してください"
 }

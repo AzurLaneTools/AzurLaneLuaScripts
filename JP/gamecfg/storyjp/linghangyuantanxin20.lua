@@ -1,0 +1,151 @@
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	defaultTb = 1301,
+	id = "LINGHANGYUANTANXIN20",
+	placeholder = {
+		"tb"
+	},
+	scripts = {
+		{
+			expression = 9,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			tbActor = true,
+			actorName = "TB",
+			bgm = "qe-ova-9",
+			actor = 1301,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "{tb}、単刀直入にお聞きしまーす！ずばり、チョコを食べたいですか？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――え？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 9,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			actorName = "TB",
+			tbActor = true,
+			actor = 1301,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "食べたいかどうかだけ教えてー！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――特に食べたいって思わないけど、もしTBが買いすぎて食べきれないならもらおうか？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			actorName = "TB",
+			tbActor = true,
+			actor = 1301,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そうじゃないってばー！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			actorName = "TB",
+			tbActor = true,
+			actor = 1301,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………も、もしTBがチョコを作ったら（小声）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――TBが何を作ったって？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 10,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			actorName = "TB",
+			tbActor = true,
+			actor = 1301,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "別に！何でもないですっ！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			say = "チョコの話はそこで終わった。どうやら何かを作ってくれるようだ。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

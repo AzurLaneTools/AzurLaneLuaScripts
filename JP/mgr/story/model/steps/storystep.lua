@@ -38,6 +38,48 @@ function slot0.Ctor(slot0, slot1)
 	slot0.autoShowOption = defaultValue(slot1.autoShowOption, false)
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
+	slot0.placeholderType = 0
+	slot0.defaultTb = slot1.defaultTb
+end
+
+function slot0.SetDefaultTb(slot0, slot1)
+	if not slot0.defaultTb or slot0.defaultTb <= 0 then
+		slot0.defaultTb = slot1
+	end
+end
+
+function slot0.SetPlaceholderType(slot0, slot1)
+	slot0.placeholderType = slot1
+end
+
+function slot0.ShouldReplacePlayer(slot0)
+	return bit.band(slot0.placeholderType, Story.PLAYER) > 0
+end
+
+function slot0.ShouldReplaceTb(slot0)
+	return bit.band(slot0.placeholderType, Story.TB) > 0
+end
+
+function slot0.ReplacePlayerName(slot0, slot1)
+	if not getProxy(PlayerProxy) or not getProxy(PlayerProxy):getRawData() then
+		return slot1
+	end
+
+	return string.gsub(slot1, "{playername}", getProxy(PlayerProxy):getRawData():GetName())
+end
+
+function slot0.ReplaceTbName(slot0, slot1)
+	if pg.NewStoryMgr.GetInstance():IsReView() then
+		return string.gsub(slot1, "{tb}", i18n("child_story_name"))
+	end
+
+	if not getProxy(EducateProxy) then
+		return slot1
+	end
+
+	slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
+
+	return string.gsub(slot1, "{tb}", slot3)
 end
 
 function slot0.ExistIcon(slot0)
@@ -363,8 +405,18 @@ end
 
 function slot0.GetOptions(slot0)
 	return _.map(slot0.options or {}, function (slot0)
+		slot1 = slot0.content
+
+		if uv0:ShouldReplacePlayer() then
+			slot1 = uv0:ReplacePlayerName(slot1)
+		end
+
+		if uv0:ShouldReplaceTb() then
+			slot1 = uv0:ReplaceTbName(slot1)
+		end
+
 		return {
-			HXSet.hxLan(slot0.content),
+			HXSet.hxLan(slot1),
 			slot0.flag
 		}
 	end)

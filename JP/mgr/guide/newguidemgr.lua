@@ -81,9 +81,16 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	uv0("play guide : " .. slot1)
+	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4)
+end
 
-	if not uv1(slot1) then
-		uv0("should exist guide file " .. slot1)
+function slot0._Play(slot0, slot1, slot2, slot3, slot4)
+	slot0:PlayScript(Guide.New(slot1), slot2, slot3, slot4)
+end
+
+function slot0.PlayScript(slot0, slot1, slot2, slot3, slot4)
+	if not slot1 then
+		uv0("should exist guide file ")
 		slot3()
 
 		return
@@ -93,11 +100,11 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:OnStart()
 
-	slot6 = {}
-	slot10 = slot2
+	slot5 = {}
+	slot9 = slot2
 
-	for slot10, slot11 in ipairs(slot5:GetStepsWithCode(slot10)) do
-		table.insert(slot6, function (slot0)
+	for slot9, slot10 in ipairs(slot1:GetStepsWithCode(slot9)) do
+		table.insert(slot5, function (slot0)
 			if uv0:IsStop() then
 				return
 			end
@@ -110,7 +117,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 		end)
 	end
 
-	seriesAsync(slot6, function ()
+	seriesAsync(slot5, function ()
 		uv0:OnEnd(uv1)
 	end)
 end
@@ -178,6 +185,16 @@ function slot0.Stop(slot0)
 		slot0.uiFinder:Clear()
 		slot0.uiDuplicator:Clear()
 		slot0.uiLoader:Clear()
+	end
+end
+
+function slot0.NextStep(slot0)
+	if not IsUnityEditor then
+		return
+	end
+
+	if slot0.state == uv0 and slot0.player then
+		slot0.player:NextOne()
 	end
 end
 

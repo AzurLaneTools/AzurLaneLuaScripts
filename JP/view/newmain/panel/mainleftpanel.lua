@@ -108,7 +108,13 @@ function slot0.UpdateChangeSkinBtn(slot0)
 		slot1 = getProxy(PlayerProxy):getRawData().characters
 	end
 
-	setActive(slot0.changeSkinBtn, #slot1 > 1)
+	slot3 = getProxy(SettingsProxy):GetFlagShipDisplayMode() == FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR and 0 or #slot1
+
+	if getProxy(PlayerProxy):getRawData():ExistEducateChar() and slot2 ~= FlAG_SHIP_DISPLAY_ONLY_SHIP then
+		slot3 = slot3 + 1
+	end
+
+	setActive(slot0.changeSkinBtn, slot3 > 1)
 end
 
 function slot0.GetDirection(slot0)

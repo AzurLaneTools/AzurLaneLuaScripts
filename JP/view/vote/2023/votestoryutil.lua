@@ -15,7 +15,21 @@ function slot0.GetStoryNameByType(slot0)
 	return slot1:getConfig("config_client")[slot0 + 2]
 end
 
+function slot0.FinalRaceIsEnd()
+	for slot4 = #pg.activity_vote.all, 1, -1 do
+		if pg.activity_vote[slot0[slot4]].type == VoteConst.RACE_TYPE_FINAL then
+			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot6.time_vote[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
+		end
+	end
+
+	return true
+end
+
 function slot0.AllPreheatStoriesPlayed()
+	if uv0.FinalRaceIsEnd() then
+		return true
+	end
+
 	return _.all(_.map({
 		uv0.ENTER_SCENE,
 		uv0.ENTER_MAIN_STAGE,

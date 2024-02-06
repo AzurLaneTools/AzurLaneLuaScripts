@@ -998,5 +998,8 @@ pg.activity_const = {
 	},
 	MINIGAME_SPRING_FESTIVAL_2024 = {
 		act_id = 5193
+	},
+	ACTIVITY_HUAZHONGSHIJIE = {
+		act_id = 4667
 	}
 }

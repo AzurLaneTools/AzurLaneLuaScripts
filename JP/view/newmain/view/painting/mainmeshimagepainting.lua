@@ -262,7 +262,7 @@ function slot0.OnTriggerEventAuto(slot0)
 end
 
 function slot0.Shake(slot0, slot1, slot2, slot3)
-	slot4, slot5, slot6 = getProxy(SettingsProxy):getSkinPosSetting(slot0.ship.skinId)
+	slot4, slot5, slot6 = getProxy(SettingsProxy):getSkinPosSetting(slot0.ship)
 	slot7 = slot1
 
 	if slot5 then
@@ -284,7 +284,7 @@ function slot0.Shake(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Breath(slot0)
-	slot1, slot2, slot3 = getProxy(SettingsProxy):getSkinPosSetting(slot0.ship.skinId)
+	slot1, slot2, slot3 = getProxy(SettingsProxy):getSkinPosSetting(slot0.ship)
 
 	LeanTween.cancel(go(slot0.container))
 	LeanTween.moveY(rtf(slot0.container), slot2 and slot2 - 10 or uv0.DEFAULT_HEIGHT, uv0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(slot2 or uv0.BREATH_HEIGHT)
