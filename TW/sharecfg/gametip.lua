@@ -22083,51 +22083,51 @@ cs.gametip = {
 	},
 	vote_help_2023 = {
 		791452,
-		4702,
+		4701,
 		true
 	},
 	vote_tip_level_limit = {
-		796154,
+		796153,
 		160,
 		true
 	},
 	vote_label_rank = {
-		796314,
+		796313,
 		85,
 		true
 	},
 	vote_label_rank_fresh_time_tip = {
-		796399,
+		796398,
 		127,
 		true
 	},
 	vote_tip_area_closed = {
-		796526,
+		796525,
 		117,
 		true
 	},
 	commander_skill_ui_info = {
-		796643,
+		796642,
 		93,
 		true
 	},
 	commander_skill_ui_confirm = {
-		796736,
+		796735,
 		96,
 		true
 	},
 	commander_formation_prefab_fleet = {
-		796832,
+		796831,
 		111,
 		true
 	},
 	rect_ship_card_tpl_add = {
-		796943,
+		796942,
 		98,
 		true
 	},
 	live2d_reset_desc = {
-		797041,
+		797040,
 		102,
 		true
 	}
