@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "现在解锁了两个新的地点。",
+				text = "新しいロケーションが2つ開放されました",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "「おでかけ」をタップしよう  ",
+				text = "「お出かけ」をタップしよう  ",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "撮影スタジオをタップしてください  ",
+				text = "写真スタジオをタップしてください",
 				mode = 2,
 				dir = 1,
 				char = 1,

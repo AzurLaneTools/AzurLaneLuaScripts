@@ -56876,7 +56876,7 @@ _G.pg.base.shop_template[90257] = {
 
 _G.pg.base.shop_template[90258] = {
 	time_second = 172800,
-	resource_type = 394,
+	resource_type = 392,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "240206限时皮肤体验：阿尔比恩春节",
@@ -56927,7 +56927,7 @@ _G.pg.base.shop_template[90258] = {
 
 _G.pg.base.shop_template[90259] = {
 	time_second = 172800,
-	resource_type = 394,
+	resource_type = 392,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "240206限时皮肤体验：安克雷奇春节",
@@ -56978,7 +56978,7 @@ _G.pg.base.shop_template[90259] = {
 
 _G.pg.base.shop_template[90260] = {
 	time_second = 172800,
-	resource_type = 394,
+	resource_type = 392,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "240206限时皮肤体验：英仙座春节",

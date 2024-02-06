@@ -482,7 +482,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――いかんいかん、心配性なお母さんじゃあるまいし",
+			say = "ーーいかんいかん、いくらなんでも心配性すぎるだろう…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
