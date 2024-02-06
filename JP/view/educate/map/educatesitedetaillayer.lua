@@ -20,6 +20,7 @@ function slot0.findUI(slot0)
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
+	slot0.anim:Play("anim_educate_sitedatail_in")
 
 	slot0.windowTF = slot0:findTF("anim_root/window")
 	slot0.closeBtn = slot0:findTF("close_btn", slot0.windowTF)
@@ -233,6 +234,7 @@ function slot2(slot0, slot1)
 end
 
 function slot0.updateOptionItem(slot0, slot1, slot2)
+	GetOrAddComponent(slot2, "CanvasGroup").alpha = 1
 	slot2.name = tostring(slot1 + 1)
 	slot3 = slot0.optionVOs[slot1 + 1]
 	slot8 = slot2
