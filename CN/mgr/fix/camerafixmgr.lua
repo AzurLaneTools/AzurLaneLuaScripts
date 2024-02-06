@@ -158,7 +158,7 @@ function slot0.Padding(slot0)
 		slot0.bottomPanel.sizeDelta = Vector2(slot9, slot2)
 
 		if slot8 < uv0 then
-			slot10 = uv0 - slot8
+			slot10 = uv0 - slot8 + 1
 			slot0.topPanel.anchoredPosition3D = Vector3(0, slot10, 0)
 			slot0.bottomPanel.anchoredPosition3D = Vector3(0, -slot10, 0)
 		else

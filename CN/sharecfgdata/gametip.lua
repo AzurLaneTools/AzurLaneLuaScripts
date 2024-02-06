@@ -14346,7 +14346,7 @@ _G.pg.base.gametip.title_item_ways = {
 }
 
 _G.pg.base.gametip.item_lack_title = {
-	tip = "<color=#92fc63>$1</color>不足， 可通过以下方式获取<color=#92fc63>$1</color>"
+	tip = "<color=#92fc63>$1</color>不足， 可通过以下方式获取："
 }
 
 _G.pg.base.gametip.oil_buy_tip_2 = {
@@ -25596,6 +25596,504 @@ _G.pg.base.gametip.racing_minigame_help = {
 	}
 }
 
+_G.pg.base.gametip.child_msg_title_detail = {
+	tip = "详情"
+}
+
+_G.pg.base.gametip.child_msg_title_tip = {
+	tip = "提示"
+}
+
+_G.pg.base.gametip.child_msg_owned = {
+	tip = "已拥有：$1"
+}
+
+_G.pg.base.gametip.child_polaroid_get_tip = {
+	tip = "已收录，可于「瞬间」中查看"
+}
+
+_G.pg.base.gametip.child_close_tip = {
+	tip = "点 击 空 白 处 关 闭"
+}
+
+_G.pg.base.gametip.word_month = {
+	tip = "月"
+}
+
+_G.pg.base.gametip.word_which_month = {
+	tip = "第$1月"
+}
+
+_G.pg.base.gametip.word_which_week = {
+	tip = "第$1周"
+}
+
+_G.pg.base.gametip.word_in_one_week = {
+	tip = "一周内"
+}
+
+_G.pg.base.gametip.word_week_title = {
+	tip = "星期"
+}
+
+_G.pg.base.gametip.word_harbour = {
+	tip = "港区"
+}
+
+_G.pg.base.gametip.child_btn_target = {
+	tip = "目标"
+}
+
+_G.pg.base.gametip.child_btn_collect = {
+	tip = "回忆"
+}
+
+_G.pg.base.gametip.child_btn_mind = {
+	tip = "心事"
+}
+
+_G.pg.base.gametip.child_btn_bag = {
+	tip = "背包"
+}
+
+_G.pg.base.gametip.child_btn_news = {
+	tip = "本月资讯快报"
+}
+
+_G.pg.base.gametip.child_main_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.child_archive_name = {
+	tip = "姓名"
+}
+
+_G.pg.base.gametip.child_news_import_title = {
+	tip = "重要活动"
+}
+
+_G.pg.base.gametip.child_news_other_title = {
+	tip = "其它活动"
+}
+
+_G.pg.base.gametip.child_favor_progress = {
+	tip = "当前进度：$1"
+}
+
+_G.pg.base.gametip.child_favor_lock1 = {
+	tip = "好感度达到$1级"
+}
+
+_G.pg.base.gametip.child_favor_lock2 = {
+	tip = "仅$1解锁"
+}
+
+_G.pg.base.gametip.child_target_lock_tip = {
+	tip = "当前阶段目标已设定，不可修改"
+}
+
+_G.pg.base.gametip.child_target_progress = {
+	tip = "完成度："
+}
+
+_G.pg.base.gametip.child_target_finish_tip = {
+	tip = "本阶段目标已达成~"
+}
+
+_G.pg.base.gametip.child_target_time_title = {
+	tip = "剩余完成时间："
+}
+
+_G.pg.base.gametip.child_target_title1 = {
+	tip = "主线目标"
+}
+
+_G.pg.base.gametip.child_target_title2 = {
+	tip = "成长目标"
+}
+
+_G.pg.base.gametip.child_item_type0 = {
+	tip = "全部"
+}
+
+_G.pg.base.gametip.child_item_type1 = {
+	tip = "书籍"
+}
+
+_G.pg.base.gametip.child_item_type2 = {
+	tip = "乐器"
+}
+
+_G.pg.base.gametip.child_item_type3 = {
+	tip = "工具"
+}
+
+_G.pg.base.gametip.child_item_type4 = {
+	tip = "杂物"
+}
+
+_G.pg.base.gametip.child_mind_empty_tip = {
+	tip = "-当前暂无任何心事"
+}
+
+_G.pg.base.gametip.child_mind_finish_title = {
+	tip = "已达成"
+}
+
+_G.pg.base.gametip.child_mind_processing_title = {
+	tip = "进行中"
+}
+
+_G.pg.base.gametip.child_mind_time_title = {
+	tip = "剩余时间："
+}
+
+_G.pg.base.gametip.child_collect_lock = {
+	tip = "-待解锁-"
+}
+
+_G.pg.base.gametip.child_nature_title = {
+	tip = "个性："
+}
+
+_G.pg.base.gametip.child_btn_review = {
+	tip = "剧情回顾"
+}
+
+_G.pg.base.gametip.child_schedule_empty_tip = {
+	tip = "点击左侧行程表添加行程"
+}
+
+_G.pg.base.gametip.child_schedule_event_tip = {
+	tip = "此处已经被安排好重要活动啦~"
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip = {
+	tip = "存在未安排的行程，领航员将会休息，是否确认进入下一周？"
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip2 = {
+	tip = "存在未消耗完的行动力，是否确认进入下一周？"
+}
+
+_G.pg.base.gametip.child_plan_check_tip1 = {
+	tip = "行程格不足，请按顺序预留足够的行程格"
+}
+
+_G.pg.base.gametip.child_plan_check_tip2 = {
+	tip = "行程不满足前置属性"
+}
+
+_G.pg.base.gametip.child_plan_check_tip3 = {
+	tip = "行程不满足历史行程数量"
+}
+
+_G.pg.base.gametip.child_plan_check_tip4 = {
+	tip = "行程所需金钱不足"
+}
+
+_G.pg.base.gametip.child_plan_check_tip5 = {
+	tip = "行程所需心情不足"
+}
+
+_G.pg.base.gametip.child_plan_event = {
+	tip = "重要活动"
+}
+
+_G.pg.base.gametip.child_btn_home = {
+	tip = "回家"
+}
+
+_G.pg.base.gametip.child_option_limit = {
+	tip = "限时"
+}
+
+_G.pg.base.gametip.child_shop_tip1 = {
+	tip = "※此商店商品每$1周刷新"
+}
+
+_G.pg.base.gametip.child_shop_tip2 = {
+	tip = "※此商店商品只可购买一次"
+}
+
+_G.pg.base.gametip.child_filter_title = {
+	tip = "筛选"
+}
+
+_G.pg.base.gametip.child_filter_type1 = {
+	tip = "行程类型"
+}
+
+_G.pg.base.gametip.child_filter_type2 = {
+	tip = "获得类型"
+}
+
+_G.pg.base.gametip.child_filter_type3 = {
+	tip = "消耗类型"
+}
+
+_G.pg.base.gametip.child_plan_type1 = {
+	tip = "学校课程"
+}
+
+_G.pg.base.gametip.child_plan_type2 = {
+	tip = "兴趣活动"
+}
+
+_G.pg.base.gametip.child_plan_type3 = {
+	tip = "社会活动"
+}
+
+_G.pg.base.gametip.child_plan_type4 = {
+	tip = "自由活动"
+}
+
+_G.pg.base.gametip.child_filter_award_res = {
+	tip = "资源"
+}
+
+_G.pg.base.gametip.child_filter_award_nature = {
+	tip = "个性"
+}
+
+_G.pg.base.gametip.child_filter_award_attr1 = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.child_filter_award_attr2 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_mood_desc1 = {
+	tip = "当前心情阶段：郁郁寡欢  <color=#72bc42>收益减少40%%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc2 = {
+	tip = "当前心情阶段：心情不佳  <color=#72bc42>收益减少20%%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc3 = {
+	tip = "当前心情阶段：心平气和  <color=#72bc42>没有额外效果</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc4 = {
+	tip = "当前心情阶段：心花怒放  <color=#72bc42>收益增加40%%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc5 = {
+	tip = "当前心情阶段：心花怒放  <color=#72bc42>收益增加40%%</color>"
+}
+
+_G.pg.base.gametip.child_stage_desc1 = {
+	tip = "认知阶段"
+}
+
+_G.pg.base.gametip.child_stage_desc2 = {
+	tip = "成长阶段"
+}
+
+_G.pg.base.gametip.child_stage_desc3 = {
+	tip = "发展阶段"
+}
+
+_G.pg.base.gametip.child_default_callname = {
+	tip = "指挥官"
+}
+
+_G.pg.base.gametip.flagship_display_mode_1 = {
+	tip = "不显示特殊秘书舰"
+}
+
+_G.pg.base.gametip.flagship_display_mode_2 = {
+	tip = "仅显示特殊秘书舰"
+}
+
+_G.pg.base.gametip.flagship_display_mode_3 = {
+	tip = "均显示"
+}
+
+_G.pg.base.gametip.flagship_educate_slot_lock_tip = {
+	tip = "完成<color=#39bfff>「养成计划」</color>主线剧情-新生活(上)后即可解锁特殊秘书舰"
+}
+
+_G.pg.base.gametip.child_story_name = {
+	tip = "指挥官"
+}
+
+_G.pg.base.gametip.secretary_special_name = {
+	tip = "领航员-TB"
+}
+
+_G.pg.base.gametip.secretary_special_lock_tip = {
+	tip = "当前外形模块未满足开放条件"
+}
+
+_G.pg.base.gametip.secretary_special_title_age = {
+	tip = "更换外形模块"
+}
+
+_G.pg.base.gametip.secretary_special_title_physiognomy = {
+	tip = "更换外形模块"
+}
+
+_G.pg.base.gametip.child_plan_skip = {
+	tip = "跳过行程动画"
+}
+
+_G.pg.base.gametip.child_attr_name1 = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.child_attr_name2 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_task_system_type2 = {
+	tip = "成长"
+}
+
+_G.pg.base.gametip.child_task_system_type3 = {
+	tip = "主线"
+}
+
+_G.pg.base.gametip.child_plan_perform_title = {
+	tip = "行程安排"
+}
+
+_G.pg.base.gametip.child_date_text1 = {
+	tip = "居家阶段"
+}
+
+_G.pg.base.gametip.child_date_text2 = {
+	tip = "学前准备"
+}
+
+_G.pg.base.gametip.child_date_text3 = {
+	tip = "系统升级"
+}
+
+_G.pg.base.gametip.child_date_text4 = {
+	tip = "数据准备"
+}
+
+_G.pg.base.gametip.child_upgrade_sure_tip = {
+	tip = "系统升级后，当前的成长目标将会刷新，未使用的行动力也不会保存。是否确认进行系统升级？"
+}
+
+_G.pg.base.gametip.child_school_sure_tip = {
+	tip = "入学后，当前的成长目标将会刷新，未使用的行动力也不会保存。是否确认入学？"
+}
+
+_G.pg.base.gametip.child_extraAttr_sure_tip = {
+	tip = "是否确认个性补正？确认后将无法修改"
+}
+
+_G.pg.base.gametip.child_reset_sure_tip = {
+	tip = "重置后将从认知阶段重新开始收集数据，已获得的回忆仍可查看。是否重置？"
+}
+
+_G.pg.base.gametip.child_end_sure_tip = {
+	tip = "是否进行结局判定"
+}
+
+_G.pg.base.gametip.child_buff_name = {
+	tip = "状态"
+}
+
+_G.pg.base.gametip.child_unlock_tip = {
+	tip = "解锁"
+}
+
+_G.pg.base.gametip.child_unlock_out = {
+	tip = "出行"
+}
+
+_G.pg.base.gametip.child_unlock_memory = {
+	tip = "回忆"
+}
+
+_G.pg.base.gametip.child_unlock_polaroid = {
+	tip = "瞬间"
+}
+
+_G.pg.base.gametip.child_unlock_ending = {
+	tip = "结局"
+}
+
+_G.pg.base.gametip.child_unlock_intimacy = {
+	tip = "好感度"
+}
+
+_G.pg.base.gametip.child_unlock_buff = {
+	tip = "状态"
+}
+
+_G.pg.base.gametip.child_unlock_attr2 = {
+	tip = "个性"
+}
+
+_G.pg.base.gametip.child_unlock_attr3 = {
+	tip = "能力"
+}
+
+_G.pg.base.gametip.child_unlock_bag = {
+	tip = "背包"
+}
+
+_G.pg.base.gametip.child_shop_empty_tip = {
+	tip = "-本商店商品已经全部售罄-"
+}
+
+_G.pg.base.gametip.child_bag_empty_tip = {
+	tip = "-暂未获得任何道具-"
+}
+
 _G.pg.base.gametip.levelscene_deploy_submarine = {
 	tip = "确认部署"
 }
@@ -26934,4 +27432,88 @@ _G.pg.base.gametip.help_chunjie2024 = {
 <color=#92fc63>「限时建造」</color>：建造2024春节限时角色]]
 		}
 	}
+}
+
+_G.pg.base.gametip.child_random_polaroid_drop = {
+	tip = "瞬间"
+}
+
+_G.pg.base.gametip.child_random_ops_drop = {
+	tip = "随机奖励"
+}
+
+_G.pg.base.gametip.child_refresh_sure_tip = {
+	tip = "是否重新开始养成计划？"
+}
+
+_G.pg.base.gametip.child_target_set_sure_tip = {
+	tip = "是否确认设定该成长目标？将以<color=#72bc42>$1</color>作为主要养成内容\n确认后本阶段内成长目标将不可修改"
+}
+
+_G.pg.base.gametip.child_polaroid_lock_tip = {
+	tip = "通关不同结局后可查看"
+}
+
+_G.pg.base.gametip.child_task_finish_all = {
+	tip = "当前阶段成长目标已完成"
+}
+
+_G.pg.base.gametip.child_unlock_new_secretary = {
+	tip = "领航员-TB新外形模块已解锁，现可于特殊秘书舰界面进行更换"
+}
+
+_G.pg.base.gametip.child_no_resource = {
+	tip = "资源不够啦"
+}
+
+_G.pg.base.gametip.child_target_set_empty = {
+	tip = "尚未设定目标"
+}
+
+_G.pg.base.gametip.child_target_set_skip = {
+	tip = "点击跳转至<color=#39BFFF>目标设定</color>"
+}
+
+_G.pg.base.gametip.child_news_import_empty = {
+	tip = "本月暂无重要活动"
+}
+
+_G.pg.base.gametip.child_news_other_empty = {
+	tip = "本月暂无其他活动"
+}
+
+_G.pg.base.gametip.word_week_day1 = {
+	tip = "星期一"
+}
+
+_G.pg.base.gametip.word_week_day2 = {
+	tip = "星期二"
+}
+
+_G.pg.base.gametip.word_week_day3 = {
+	tip = "星期三"
+}
+
+_G.pg.base.gametip.word_week_day4 = {
+	tip = "星期四"
+}
+
+_G.pg.base.gametip.word_week_day5 = {
+	tip = "星期五"
+}
+
+_G.pg.base.gametip.word_week_day6 = {
+	tip = "星期六"
+}
+
+_G.pg.base.gametip.word_week_day7 = {
+	tip = "星期天"
+}
+
+_G.pg.base.gametip.child_shop_price_title = {
+	tip = "合计："
+}
+
+_G.pg.base.gametip.child_callname_tip = {
+	tip = "请输入..."
 }

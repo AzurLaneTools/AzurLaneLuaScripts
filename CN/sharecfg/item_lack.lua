@@ -23,6 +23,22 @@ pg.item_lack = {
 		id = 2,
 		config_client = "",
 		itemids = {
+			59003
+		},
+		description = {
+			{
+				"进行军事演习",
+				{
+					" scene militaryexercise"
+				},
+				0
+			}
+		}
+	},
+	{
+		id = 3,
+		config_client = "",
+		itemids = {
 			16001,
 			16002,
 			16003,
@@ -70,11 +86,42 @@ pg.item_lack = {
 					}
 				},
 				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
 			}
 		}
 	},
 	{
-		id = 3,
+		id = 4,
+		config_client = "",
+		itemids = {
+			16004,
+			16014,
+			16024
+		},
+		description = {
+			{
+				"进行海域突进每日挑战",
+				{
+					"scene dailylevel",
+					{
+						dailyLevelId = 301
+					}
+				},
+				0
+			}
+		}
+	},
+	{
+		id = 5,
 		config_client = "",
 		itemids = {
 			17001,
@@ -121,7 +168,7 @@ pg.item_lack = {
 		}
 	},
 	{
-		id = 4,
+		id = 6,
 		config_client = "",
 		itemids = {
 			17002,
@@ -168,11 +215,21 @@ pg.item_lack = {
 					"scene event"
 				},
 				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
 			}
 		}
 	},
 	{
-		id = 5,
+		id = 7,
 		config_client = "",
 		itemids = {
 			17003,
@@ -219,11 +276,54 @@ pg.item_lack = {
 					"scene event"
 				},
 				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
 			}
 		}
 	},
 	{
-		id = 6,
+		id = 8,
+		config_client = "",
+		itemids = {
+			17004,
+			17014,
+			17024,
+			17034,
+			17044
+		},
+		description = {
+			{
+				"进行商船护卫每日挑战",
+				{
+					"scene dailylevel",
+					{
+						dailyLevelId = 201
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
+				},
+				0
+			}
+		}
+	},
+	[51] = {
+		id = 51,
 		config_client = "",
 		itemids = {
 			42001,
@@ -232,6 +332,157 @@ pg.item_lack = {
 			42004,
 			42005,
 			42006
+		},
+		description = {
+			{
+				"进行部分科研项目",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[52] = {
+		id = 52,
+		config_client = "",
+		itemids = {
+			42011,
+			42012,
+			42013,
+			42014,
+			42015,
+			42016
+		},
+		description = {
+			{
+				"进行部分科研项目",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[53] = {
+		id = 53,
+		config_client = "",
+		itemids = {
+			42021,
+			42022,
+			42023,
+			42024,
+			42025
+		},
+		description = {
+			{
+				"进行部分科研项目",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[54] = {
+		id = 54,
+		config_client = "",
+		itemids = {
+			42031,
+			42032,
+			42033,
+			42034,
+			42035
+		},
+		description = {
+			{
+				"进行部分科研项目",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[55] = {
+		id = 55,
+		config_client = "",
+		itemids = {
+			42041,
+			42042,
+			42043,
+			42044,
+			42045
+		},
+		description = {
+			{
+				"进行部分科研项目",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[56] = {
+		id = 56,
+		config_client = "",
+		itemids = {
+			42051,
+			42052,
+			42053,
+			42054,
+			42055
 		},
 		description = {
 			{
@@ -256,46 +507,15 @@ pg.item_lack = {
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 6
 					}
 				},
 				0
 			}
 		}
 	},
-	{
-		id = 7,
-		config_client = "",
-		itemids = {
-			42011,
-			42012,
-			42013,
-			42014,
-			42015,
-			42016
-		},
-		description = {
-			{
-				"进行部分科研项目",
-				{
-					"technology"
-				},
-				0
-			},
-			{
-				"原型商店兑换",
-				{
-					"scene shop",
-					{
-						warp = 5
-					}
-				},
-				0
-			}
-		}
-	},
-	{
-		id = 8,
+	[101] = {
+		id = 101,
 		config_client = "",
 		itemids = {
 			18001,
@@ -341,8 +561,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 9,
+	[102] = {
+		id = 102,
 		config_client = "",
 		itemids = {
 			18011,
@@ -388,8 +608,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 10,
+	[103] = {
+		id = 103,
 		config_client = "",
 		itemids = {
 			18021,
@@ -435,8 +655,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 11,
+	[104] = {
+		id = 104,
 		config_client = "",
 		itemids = {
 			18031,
@@ -482,8 +702,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 12,
+	[111] = {
+		id = 111,
 		config_client = "",
 		itemids = {
 			18003
@@ -521,8 +741,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 13,
+	[112] = {
+		id = 112,
 		config_client = "",
 		itemids = {
 			18013
@@ -560,8 +780,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 14,
+	[113] = {
+		id = 113,
 		config_client = "",
 		itemids = {
 			18023
@@ -599,8 +819,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 15,
+	[114] = {
+		id = 114,
 		config_client = "",
 		itemids = {
 			18033
@@ -638,8 +858,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 16,
+	[201] = {
+		id = 201,
 		config_client = "",
 		itemids = {
 			59762
@@ -657,15 +877,15 @@ pg.item_lack = {
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 6
 					}
 				},
 				0
 			}
 		}
 	},
-	{
-		id = 17,
+	[202] = {
+		id = 202,
 		config_client = "",
 		itemids = {
 			59749
@@ -683,24 +903,86 @@ pg.item_lack = {
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 6
 					}
 				},
 				0
 			}
 		}
 	},
-	{
-		id = 18,
+	[203] = {
+		id = 203,
 		config_client = "",
 		itemids = {
-			59003
+			59844
 		},
 		description = {
 			{
-				"进行军事演习",
+				"参与限时活动【龙腾虎跃】",
 				{
-					" scene militaryexercise"
+					""
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[204] = {
+		id = 204,
+		config_client = "",
+		itemids = {
+			59845
+		},
+		description = {
+			{
+				"参与限时活动【龙腾虎跃】",
+				{
+					""
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[205] = {
+		id = 205,
+		config_client = "",
+		itemids = {
+			59843
+		},
+		description = {
+			{
+				"参与限时活动【啾啾大胃王】",
+				{
+					""
+				},
+				0
+			},
+			{
+				"原型商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
 				},
 				0
 			}
@@ -715,15 +997,24 @@ pg.item_lack = {
 		6,
 		7,
 		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		101,
+		102,
+		103,
+		104,
+		111,
+		112,
+		113,
+		114,
+		201,
+		202,
+		203,
+		204,
+		205
 	}
 }

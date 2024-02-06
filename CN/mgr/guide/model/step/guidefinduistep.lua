@@ -5,6 +5,7 @@ slot0.EVENT_TYPE_CLICK = 3
 slot0.EVENT_TYPE_STICK = 4
 slot0.SHOW_UI = 5
 slot0.TRIGGER_TYPE_BUTTONEX = 6
+slot0.SNAP_PAGE = 7
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -61,6 +62,7 @@ function slot0.GenEventSearchData(slot0, slot1)
 	slot2.childIndex = slot1.eventIndex
 	slot2.eventPath = slot1.eventPath
 	slot2.fingerPos = slot1.fingerPos
+	slot2.slipAnim = slot5 == uv0.SNAP_PAGE
 
 	return slot2
 end

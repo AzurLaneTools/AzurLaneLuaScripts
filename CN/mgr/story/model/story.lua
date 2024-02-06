@@ -4,6 +4,7 @@ slot0.MODE_DIALOGUE = 2
 slot0.MODE_BG = 3
 slot0.MODE_CAROUSE = 4
 slot0.MODE_VEDIO = 5
+slot0.MODE_CAST = 6
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -23,9 +24,17 @@ function slot0.GetStoryStepCls(slot0)
 		DialogueStep,
 		BgStep,
 		CarouselStep,
-		VedioStep
+		VedioStep,
+		CastStep
 	})[slot0]
 end
+
+slot0.PLAYER = 2
+slot0.TB = 4
+slot0.PlaceholderMap = {
+	playername = slot0.PLAYER,
+	tb = slot0.TB
+}
 
 function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.name = slot1.id
@@ -36,6 +45,18 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.dialogueBox = slot1.dialogbox or 1
+	slot0.defaultTb = slot1.defaultTb
+	slot0.placeholder = 0
+	slot6 = ipairs
+	slot7 = slot1.placeholder or {}
+
+	for slot9, slot10 in slot6(slot7) do
+		slot11 = uv0.PlaceholderMap[slot10] or 0
+
+		assert(slot11 > 0, slot10)
+
+		slot0.placeholder = bit.bor(slot0.placeholder, slot11)
+	end
 
 	if UnGamePlayState then
 		slot0.speedData = slot1.speed or 0
@@ -54,6 +75,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot16 = uv0.GetStoryStepCls(slot13.mode or slot0.mode).New(slot13)
 
 		slot16:SetId(slot12)
+		slot16:SetPlaceholderType(slot0:GetPlaceholder())
+		slot16:SetDefaultTb(slot0.defaultTb)
 
 		if slot16:ExistOption() then
 			if slot7[slot6 + 1] then
@@ -154,6 +177,14 @@ function slot0.HandleRecallOptions(slot0, slot1)
 
 		slot5 = slot5 + (slot12 - 1) * #slot11
 	end
+end
+
+function slot0.GetPlaceholder(slot0)
+	return slot0.placeholder
+end
+
+function slot0.ShouldReplaceContent(slot0)
+	return slot0.placeholder > 0
 end
 
 function slot0.GetDialogueStyleName(slot0)

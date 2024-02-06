@@ -95,6 +95,10 @@ function OnApplicationExit()
 		return
 	end
 
+	if pg.PerformMgr.GetInstance():IsRunning() then
+		return
+	end
+
 	if ys.Battle.BattleState.GetInstance() and slot0:GetState() == slot0.BATTLE_STATE_FIGHT and not slot0:IsPause() then
 		pg.m02:sendNotification(GAME.PAUSE_BATTLE)
 
@@ -280,6 +284,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.SceneAnimMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.PerformMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

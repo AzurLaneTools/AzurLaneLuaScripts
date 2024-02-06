@@ -22,6 +22,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.spriteUI = slot0:GenSpriteSearchData(slot1.spriteui)
 	slot0.sceneName = slot1.style and slot1.style.scene
 	slot0.otherTriggerTarget = slot1.style and slot1.style.trigger
+	slot0.isWorld = defaultValue(slot1.isWorld, true)
+end
+
+function slot0.UpdateIsWorld(slot0, slot1)
+	slot0.isWorld = slot1
 end
 
 function slot0.IsMatchWithCode(slot0, slot1)
@@ -68,16 +73,16 @@ function slot0.GetDialogueType(slot0)
 	return slot0.styleData.mode
 end
 
-function slot1(slot0)
-	slot1 = "char"
+function slot1(slot0, slot1)
+	slot2 = "char"
 
-	if slot0.char and slot0.char == 1 then
-		slot1 = "char_world"
-	elseif slot0.char and slot0.char == "amazon" then
-		slot1 = "char_amazon"
+	if slot1.char and slot1.char == 1 then
+		slot2 = slot0.isWorld and "char_world" or "char_world1"
+	elseif slot1.char and slot1.char == "amazon" then
+		slot2 = "char_amazon"
 	end
 
-	return slot1
+	return slot2
 end
 
 function slot2(slot0, slot1)
@@ -106,7 +111,7 @@ function slot0.GenStyleData(slot0, slot1)
 		mode = slot1.mode,
 		text = HXSet.hxLan(slot1.text or ""),
 		counsellor = {
-			name = uv0(slot1),
+			name = uv0(slot0, slot1),
 			position = uv1(slot0, slot1),
 			scale = uv2(slot1)
 		},

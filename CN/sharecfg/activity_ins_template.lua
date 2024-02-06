@@ -11422,6 +11422,54 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[445] = {
+		ship_group = 20606,
+		name = "Per",
+		sculpture = "yingxianzuo_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 445,
+		id = 445,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[446] = {
+		ship_group = 20607,
+		name = "Albion",
+		sculpture = "aerbien_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 446,
+		id = 446,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[447] = {
+		ship_group = 19903,
+		name = "Anchorage",
+		sculpture = "ankeleiqi_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 447,
+		id = 447,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[448] = {
+		ship_group = 20401,
+		name = "Renown",
+		sculpture = "shengwang_2",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 448,
+		id = 448,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -11857,6 +11905,10 @@ pg.activity_ins_template = {
 		441,
 		442,
 		443,
-		444
+		444,
+		445,
+		446,
+		447,
+		448
 	}
 }

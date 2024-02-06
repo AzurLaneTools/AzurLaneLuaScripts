@@ -1,87 +1,65 @@
 slot0 = class("MainIconView")
+slot1 = 1
+slot2 = 2
 
 function slot0.Ctor(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
-	slot0.name = ""
-	slot0.isloading = false
+	slot0.iconList = {
+		[uv0] = MainSpineIcon.New(slot1),
+		[uv1] = MainEducateCharIcon.New(slot1)
+	}
+end
+
+function slot0.GetIconType(slot0, slot1)
+	if isa(slot1, VirtualEducateCharShip) then
+		return uv0
+	else
+		return uv1
+	end
 end
 
 function slot0.Init(slot0, slot1)
-	slot2 = slot1:getPainting()
 	slot0.ship = slot1
+	slot2 = slot0:GetIconType(slot1)
 
-	slot0:Unload()
-	slot0:Load(slot2)
+	if slot0.iconInstance then
+		slot0.iconInstance:Unload()
 
-	slot0.name = slot2
-	slot0.propose = slot1.propose
+		slot0.iconInstance = nil
+	end
+
+	slot0.iconInstance = slot0.iconList[slot2]
+
+	slot0.iconInstance:Load(slot1:getPrefab())
 end
 
 function slot0.Refresh(slot0, slot1)
-	if slot0.name ~= slot1:getPainting() then
-		slot0:Init(slot1)
-	else
-		slot0.ship = slot1
+	slot2 = slot1:getPrefab()
 
-		if slot0.spineAnim then
-			slot0.spineAnim:Resume()
-		end
+	if slot0.iconList[slot0:GetIconType(slot1)] ~= slot0.iconInstance or slot0.name ~= slot2 then
+		slot0:Init(slot1)
+	elseif slot0.iconInstance then
+		slot0.iconInstance:Resume()
 	end
 
-	slot0.propose = slot1.propose
+	slot0.ship = slot1
 end
 
 function slot0.Disable(slot0)
-	if not IsNil(slot0.spineAnim) then
-		slot0.spineAnim:Pause()
+	if slot0.iconInstance then
+		slot0.iconInstance:Pause()
 	end
 
 	slot0.lpos = nil
 end
 
-function slot0.Load(slot0, slot1)
-	slot0.isloading = true
-	slot2 = PoolMgr.GetInstance()
-
-	slot2:GetSpineChar(slot1, true, function (slot0)
-		if uv0.exited then
-			return
-		end
-
-		LeanTween.cancel(slot0)
-
-		uv0.isloading = false
-		uv0.shipModel = slot0
-		tf(slot0).localScale = Vector3(0.75, 0.75, 1)
-
-		setParent(slot0, uv0._tf)
-
-		tf(slot0).localPosition = Vector3(pg.ship_spine_shift[uv1] and slot1.mainui_shift[1] or 0, -130 + (slot1 and slot1.mainui_shift[2] or 0), 0)
-		slot4 = slot0:GetComponent("SpineAnimUI")
-
-		slot4:SetAction("normal", 0)
-
-		uv0.spineAnim = slot4
-
-		onNextTick(function ()
-			if uv0.spineAnim then
-				uv0.spineAnim:Resume()
-			end
-		end)
-	end)
-end
-
-function slot0.Unload(slot0)
-	if slot0.name and slot0.shipModel then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.name, slot0.shipModel)
-
-		slot0.spineAnim = nil
-	end
-end
-
 function slot0.IsLoading(slot0)
-	return slot0.isloading
+	if slot0.iconInstance then
+		return slot0.iconInstance:IsLoading()
+	end
+
+	return false
 end
 
 function slot0.Fold(slot0, slot1, slot2)
@@ -96,9 +74,12 @@ function slot0.Fold(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
-	slot0.exited = true
+	for slot4, slot5 in ipairs(slot0.iconList) do
+		slot5:Dispose()
+	end
 
-	slot0:Unload()
+	slot0.iconList = nil
+	slot0.iconInstance = nil
 end
 
 return slot0

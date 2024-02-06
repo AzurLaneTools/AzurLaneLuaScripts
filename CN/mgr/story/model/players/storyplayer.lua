@@ -3,9 +3,13 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 slot4 = 3
-slot5 = 0
-slot6 = 1
-slot7 = 2
+slot5 = 4
+slot6 = 5
+slot7 = 6
+slot8 = 7
+slot9 = 0
+slot10 = 1
+slot11 = 2
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0)
@@ -25,6 +29,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
 	slot0.mainImg = slot0._tf:GetComponent(typeof(Image))
+	slot0.castPanel = slot0:findTF("front/cast_panel")
 	slot0.centerPanel = slot0._tf:Find("center")
 	slot0.actorPanel = slot0:findTF("actor")
 	slot0.dialoguePanel = slot0:findTF("front/dialogue")
@@ -161,6 +166,10 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 
 	seriesAsync({
 		function (slot0)
+			if not uv0:NextStage(uv1) then
+				return
+			end
+
 			parallelAsync({
 				function (slot0)
 					uv0:Reset(uv1, uv2, slot0)
@@ -185,6 +194,10 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			slot0()
 		end,
 		function (slot0)
+			if not uv0:NextStage(uv1) then
+				return
+			end
+
 			parallelAsync({
 				function (slot0)
 					uv0:OnInit(uv1, uv2, slot0)
@@ -208,16 +221,22 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			}, slot0)
 		end,
 		function (slot0)
-			if not uv0:ShouldDelayEvent() then
+			if not uv0:NextStage(uv1) then
+				return
+			end
+
+			if not uv2:ShouldDelayEvent() then
 				slot0()
 
 				return
 			end
 
-			uv1:DelayCall(uv0:GetEventDelayTime(), slot0)
+			uv0:DelayCall(uv2:GetEventDelayTime(), slot0)
 		end,
 		function (slot0)
-			uv0.stage = uv1
+			if not uv0:NextStage(uv1) then
+				return
+			end
 
 			if uv2:SkipEventForOption() then
 				slot0()
@@ -235,7 +254,9 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			uv0:TriggerEventIfAuto(uv3)
 		end,
 		function (slot0)
-			uv0.stage = uv1
+			if not uv0:NextStage(uv1) then
+				return
+			end
 
 			if not uv2:ExistOption() then
 				slot0()
@@ -252,7 +273,10 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			end)
 		end,
 		function (slot0)
-			uv0.stage = uv1
+			if not uv0:NextStage(uv1) then
+				return
+			end
+
 			uv0.autoNext = nil
 			slot1 = uv2
 			slot1 = slot1:GetNextStep(uv3)
@@ -287,10 +311,24 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			}, slot0)
 		end,
 		function (slot0)
-			uv0:OnWillClear(uv1)
+			if not uv0:NextStage(uv1) then
+				return
+			end
+
+			uv0:OnWillClear(uv2)
 			uv0:Clear(slot0)
 		end
 	}, slot3)
+end
+
+function slot0.NextStage(slot0, slot1)
+	if slot0.stage == slot1 - 1 then
+		slot0.stage = slot1
+
+		return true
+	end
+
+	return false
 end
 
 function slot0.TriggerEventIfAuto(slot0, slot1)
@@ -554,7 +592,7 @@ function slot0.MoveAllNode(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot8(slot0, slot1, slot2, slot3, slot4)
+function slot12(slot0, slot1, slot2, slot3, slot4)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetSpineChar(slot1, true, function (slot0)
@@ -574,7 +612,7 @@ function slot8(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot9(slot0, slot1, slot2, slot3)
+function slot13(slot0, slot1, slot2, slot3)
 	slot4 = GameObject.New("movable")
 	slot5 = slot4.transform
 
@@ -1061,6 +1099,7 @@ function slot0.PlayVoice(slot0, slot1)
 end
 
 function slot0.Reset(slot0, slot1, slot2, slot3)
+	setActive(slot0.castPanel, false)
 	setActive(slot0.bgPanel, false)
 	setActive(slot0.dialoguePanel, false)
 	setActive(slot0.asidePanel, false)
