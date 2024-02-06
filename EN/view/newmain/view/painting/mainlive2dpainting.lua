@@ -188,7 +188,7 @@ function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
 		slot0.seTimer:Start()
 	end
 
-	slot0.cvLoader:Load(slot0.ship, slot3, slot2, slot4)
+	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, slot2, slot4)
 end
 
 function slot0.RemoveSeTimer(slot0)

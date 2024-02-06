@@ -52,6 +52,8 @@ end
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
+	slot0.educateCharacter = slot1.child_display or 0
+
 	if slot0.character then
 		if type(slot2) == "number" then
 			slot0.character = slot2
@@ -632,70 +634,120 @@ function slot0.GetFlagShip(slot0)
 	return (not slot1:IsOpenRandomFlagShip() or slot0:GetRandomFlagShip(slot2)) and slot0:GetNativeFlagShip(slot2)
 end
 
+function slot5(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot4 = getProxy(PlayerProxy):getRawData():ExistEducateChar()
+
+	if getProxy(SettingsProxy):GetFlagShipDisplayMode() == FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR and not slot4 then
+		getProxy(SettingsProxy):SetFlagShipDisplayMode(FlAG_SHIP_DISPLAY_ALL)
+	end
+
+	if slot3 ~= FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR then
+		slot5 = getProxy(BayProxy)
+
+		for slot9, slot10 in ipairs(slot0) do
+			slot1[slot9] = defaultValue(slot5:RawGetShipById(slot10), false)
+
+			table.insert(slot2, slot9)
+		end
+	end
+
+	if slot4 and slot3 ~= FlAG_SHIP_DISPLAY_ONLY_SHIP then
+		table.insert(slot2, PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID)
+
+		slot1[PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID] = VirtualEducateCharShip.New(getProxy(PlayerProxy):getRawData():GetEducateCharacter())
+	end
+
+	return slot1, slot2
+end
+
 function slot0.GetNativeFlagShip(slot0, slot1)
-	slot2 = getProxy(SettingsProxy)
+	slot2, slot3 = uv0(slot0.characters)
+	slot4 = getProxy(SettingsProxy)
 
 	if getProxy(PlayerProxy):getFlag("battle") then
-		slot2:setCurrentSecretaryIndex(math.random(#slot0.characters))
+		slot5 = math.random(#slot3)
+		slot1 = slot3[slot5]
+
+		slot4:setCurrentSecretaryIndex(slot5)
 	end
 
-	if not getProxy(BayProxy):RawGetShipById(slot0.characters[slot1]) then
+	if not slot2[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot7 > 0 then
+		for slot11 = slot7 + 1, #slot6 do
+			if slot2[slot6[slot11]] then
+				slot4:setCurrentSecretaryIndex(slot11)
+
+				break
+			end
+		end
+	end
+
+	if not slot5 then
 		slot1 = 1
 
-		slot2:setCurrentSecretaryIndex(slot1)
+		slot4:setCurrentSecretaryIndex(slot1)
 
-		slot3 = getProxy(BayProxy):RawGetShipById(slot0.characters[slot1])
+		slot5 = slot2[slot1]
 	end
 
-	return slot3
+	return slot5
 end
 
 function slot0.GetRandomFlagShip(slot0, slot1)
-	slot3 = getProxy(SettingsProxy):GetRandomFlagShipList()
+	slot4, slot5 = uv0(getProxy(SettingsProxy):GetRandomFlagShipList())
 
 	if getProxy(PlayerProxy):getFlag("battle") then
-		slot2:setCurrentSecretaryIndex(math.random(#slot3))
+		slot6 = math.random(#slot5)
+		slot1 = slot5[slot6]
+
+		slot2:setCurrentSecretaryIndex(slot6)
 	end
 
-	if not getProxy(BayProxy):RawGetShipById(slot3[slot1]) then
-		slot5 = {}
+	if not slot4[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot8 > 0 then
+		for slot12 = slot8 + 1, #slot7 do
+			if slot4[slot7[slot12]] then
+				slot2:setCurrentSecretaryIndex(slot12)
 
-		for slot9, slot10 in ipairs(slot3) do
-			if getProxy(BayProxy):RawGetShipById(slot10) then
-				table.insert(slot5, slot9)
+				break
+			end
+		end
+	end
+
+	if not slot6 then
+		slot7 = {}
+
+		for slot11, slot12 in pairs(slot4) do
+			if slot12 then
+				table.insert(slot7, slot11)
 			end
 		end
 
-		if #slot5 > 0 then
-			slot6 = slot5[math.random(1, #slot5)]
-			slot4 = getProxy(BayProxy):RawGetShipById(slot3[slot6])
-			slot1 = slot6
+		if #slot7 > 0 then
+			slot1 = slot7[math.random(1, #slot7)]
+			slot6 = slot4[slot1]
 
-			slot2:setCurrentSecretaryIndex(slot6)
+			if table.indexof(slot5, slot1) then
+				slot2:setCurrentSecretaryIndex(slot8)
+			end
 		end
 	end
 
-	if not slot4 then
+	if not slot6 then
 		slot1 = 1
 
 		slot2:setCurrentSecretaryIndex(slot1)
 
-		slot4 = getProxy(BayProxy):RawGetShipById(slot0.characters[slot1])
+		slot6 = slot4[slot1]
 	end
 
-	return slot4
+	return slot6
 end
 
 function slot0.GetNextFlagShip(slot0)
-	slot1 = getProxy(SettingsProxy):rotateCurrentSecretaryIndex()
+	getProxy(SettingsProxy):rotateCurrentSecretaryIndex()
 
-	if getProxy(SettingsProxy):IsOpenRandomFlagShip() then
-		rawShip = slot0:GetRandomFlagShip(slot1)
-	else
-		rawShip = slot0:GetNativeFlagShip(slot1)
-	end
-
-	return rawShip
+	return slot0:GetFlagShip()
 end
 
 function slot0.IsOpenShipEvaluationImpeach(slot0)
@@ -793,6 +845,18 @@ function slot0.ExistCryptolalia(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.ExistEducateChar(slot0)
+	return slot0.educateCharacter > 0
+end
+
+function slot0.GetEducateCharacter(slot0)
+	return slot0.educateCharacter
+end
+
+function slot0.SetEducateCharacter(slot0, slot1)
+	slot0.educateCharacter = slot1
 end
 
 return slot0

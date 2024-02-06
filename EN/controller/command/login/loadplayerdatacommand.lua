@@ -5,202 +5,59 @@ function slot0.execute(slot0, slot1)
 	slot3 = slot2.isNewPlayer
 
 	originalPrint("loading player data: " .. slot2.id)
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(PlayerProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(BayProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(FleetProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(EquipmentProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ChapterProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(WorldProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(BagProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(TaskProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(MailProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(NavalAcademyProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(DormProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ChatProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(FriendProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(NotificationProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(BuildShipProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(CollectionProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(EventProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ActivityProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ActivityPermanentProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(MilitaryExerciseProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ServerNoticeProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(DailyLevelProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ShopsProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(GuildProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(VoteProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ChallengeProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(CommanderProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ColoringProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(AnswerProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(TechnologyProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(BillboardProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(MetaCharacterProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(TechnologyNationProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(AttireProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ShipSkinProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(SecondaryPWDProxy.New({}))
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(SkirmishProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(PrayProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(EmojiProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(MiniGameProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(InstagramProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(AppreciateProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(AvatarFrameProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(ActivityTaskProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(RefluxProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(IslandProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(LimitChallengeProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(GameRoomProxy.New())
-
-	slot5 = slot0.facade
-
-	slot5:registerProxy(FeastProxy.New())
+	slot0.facade:registerProxy(PlayerProxy.New())
+	slot0.facade:registerProxy(BayProxy.New({}))
+	slot0.facade:registerProxy(FleetProxy.New({}))
+	slot0.facade:registerProxy(EquipmentProxy.New({}))
+	slot0.facade:registerProxy(ChapterProxy.New({}))
+	slot0.facade:registerProxy(WorldProxy.New({}))
+	slot0.facade:registerProxy(BagProxy.New({}))
+	slot0.facade:registerProxy(TaskProxy.New({}))
+	slot0.facade:registerProxy(MailProxy.New({}))
+	slot0.facade:registerProxy(NavalAcademyProxy.New({}))
+	slot0.facade:registerProxy(DormProxy.New({}))
+	slot0.facade:registerProxy(ChatProxy.New({}))
+	slot0.facade:registerProxy(FriendProxy.New({}))
+	slot0.facade:registerProxy(NotificationProxy.New({}))
+	slot0.facade:registerProxy(BuildShipProxy.New({}))
+	slot0.facade:registerProxy(CollectionProxy.New({}))
+	slot0.facade:registerProxy(EventProxy.New({}))
+	slot0.facade:registerProxy(ActivityProxy.New({}))
+	slot0.facade:registerProxy(ActivityPermanentProxy.New({}))
+	slot0.facade:registerProxy(MilitaryExerciseProxy.New({}))
+	slot0.facade:registerProxy(ServerNoticeProxy.New())
+	slot0.facade:registerProxy(DailyLevelProxy.New())
+	slot0.facade:registerProxy(ShopsProxy.New())
+	slot0.facade:registerProxy(GuildProxy.New())
+	slot0.facade:registerProxy(VoteProxy.New())
+	slot0.facade:registerProxy(ChallengeProxy.New())
+	slot0.facade:registerProxy(CommanderProxy.New())
+	slot0.facade:registerProxy(ColoringProxy.New())
+	slot0.facade:registerProxy(AnswerProxy.New())
+	slot0.facade:registerProxy(TechnologyProxy.New())
+	slot0.facade:registerProxy(BillboardProxy.New())
+	slot0.facade:registerProxy(MetaCharacterProxy.New())
+	slot0.facade:registerProxy(TechnologyNationProxy.New())
+	slot0.facade:registerProxy(AttireProxy.New())
+	slot0.facade:registerProxy(ShipSkinProxy.New())
+	slot0.facade:registerProxy(SecondaryPWDProxy.New({}))
+	slot0.facade:registerProxy(SkirmishProxy.New())
+	slot0.facade:registerProxy(PrayProxy.New())
+	slot0.facade:registerProxy(EmojiProxy.New())
+	slot0.facade:registerProxy(MiniGameProxy.New())
+	slot0.facade:registerProxy(InstagramProxy.New())
+	slot0.facade:registerProxy(AppreciateProxy.New())
+	slot0.facade:registerProxy(AvatarFrameProxy.New())
+	slot0.facade:registerProxy(ActivityTaskProxy.New())
+	slot0.facade:registerProxy(RefluxProxy.New())
+	slot0.facade:registerProxy(IslandProxy.New())
+	slot0.facade:registerProxy(LimitChallengeProxy.New())
+	slot0.facade:registerProxy(GameRoomProxy.New())
+	slot0.facade:registerProxy(FeastProxy.New())
+
+	if not LOCK_EDUCATE_SYSTEM then
+		slot0.facade:registerProxy(EducateProxy.New())
+	end
 
 	slot5 = pg.ConnectionMgr.GetInstance()
 
@@ -248,6 +105,10 @@ function slot0.execute(slot0, slot1)
 			uv1:sendNotification(GAME.GET_SURVEY_STATE, {
 				surveyID = slot8
 			})
+		end
+
+		if not LOCK_EDUCATE_SYSTEM then
+			uv1:sendNotification(GAME.EDUCATE_REQUEST)
 		end
 
 		pg.SdkMgr.GetInstance():BindCPU()

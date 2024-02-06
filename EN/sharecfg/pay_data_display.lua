@@ -4703,7 +4703,6 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
-		time = "stop",
 		picture = "fudai12",
 		skin_inquire_relation = 86203,
 		id_str = "com.yostaren.azurlane.luckybag26",
@@ -4746,6 +4745,32 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -4791,7 +4816,6 @@ pg.base.pay_data_display = {
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
-		time = "stop",
 		picture = "fudaiqp2",
 		skin_inquire_relation = 69925,
 		id_str = "com.yostaren.azurlane.luckybag27",
@@ -4834,6 +4858,32 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {

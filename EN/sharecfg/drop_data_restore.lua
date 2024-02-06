@@ -3852,6 +3852,51 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 501021
 	},
+	[447] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 447,
+		resource_num = 1200,
+		drop_id = 998303,
+		target_id = 206072
+	},
+	[448] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 448,
+		resource_num = 1180,
+		drop_id = 998303,
+		target_id = 206062
+	},
+	[449] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 449,
+		resource_num = 1200,
+		drop_id = 998303,
+		target_id = 199032
+	},
+	[450] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 450,
+		resource_num = 880,
+		drop_id = 998303,
+		target_id = 407033
+	},
+	[451] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 451,
+		resource_num = 780,
+		drop_id = 998303,
+		target_id = 204011
+	},
 	[1000] = {
 		target_type = 7,
 		type = 1,
@@ -7089,6 +7134,11 @@ pg.drop_data_restore = {
 		444,
 		445,
 		446,
+		447,
+		448,
+		449,
+		450,
+		451,
 		1000,
 		1001,
 		1002,

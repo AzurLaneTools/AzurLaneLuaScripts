@@ -1,7 +1,11 @@
 slot0 = class("SpringFestival2024Scene", import("view.activity.BackHills.TemplateMV.BackHillTemplate"))
 
 function slot0.getUIName(slot0)
-	return "SpringFestival2024UI"
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return "SpringFestival2024TWUI"
+	else
+		return "SpringFestival2024UI"
+	end
 end
 
 slot0.edge2area = {
@@ -99,23 +103,49 @@ function slot0.didEnter(slot0)
 	slot0:BindItemSkinShop()
 	slot0:BindItemBuildShip()
 	slot0:InitStudents(getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_SPRING_FESTIVAL_2024) and slot1.id, 4, 4)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "feicaiyingxinchun", function ()
-		uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.FIREWORK_PT_2024_ID
-		})
-	end)
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "feicaiyingxinchuntw", function ()
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = ActivityConst.FIREWORK_PT_2024_ID
+			})
+		end)
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "aomeiyingchun", function ()
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = ActivityConst.ACTIVITY_COUPLET
+			})
+		end)
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "huazhongshijie", function ()
+			if not getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_HUAZHONGSHIJIE) or slot0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = slot0:getConfig("config_client").linkActID
+			})
+		end)
+	else
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "feicaiyingxinchun", function ()
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = ActivityConst.FIREWORK_PT_2024_ID
+			})
+		end)
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "meiyiyannian", function ()
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = ActivityConst.TAIYUAN_ALERT_TASK
+			})
+		end)
+		slot0:InitFacilityCross(slot0._map, slot0._upper, "xinchunmaoxianwang", function ()
+			uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
+				id = ActivityConst.FEIYUEN_LOGIN
+			})
+		end)
+	end
+
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "fushundamaoxian", function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 37)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "xinchunmaoxianwang", function ()
-		uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.FEIYUEN_LOGIN
-		})
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "meiyiyannian", function ()
-		uv0:emit(SpringFestival2024Mediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.TAIYUAN_ALERT_TASK
-		})
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "jiujiudajiulou", function ()
 		uv0:emit(SpringFestival2024Mediator.GO_SUBLAYER, Context.New({
@@ -309,13 +339,22 @@ function slot0.CheckTip(slot0)
 			return RedPacketLayer.isShowRedPoint()
 		end,
 		xinchunmaoxianwang = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.FEIYUEN_LOGIN) and not slot0:isEnd() and slot0:readyToAchieve()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.FEIYUEN_LOGIN))
 		end,
 		meiyiyannian = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.TAIYUAN_ALERT_TASK) and not slot0:isEnd() and slot0:readyToAchieve()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.TAIYUAN_ALERT_TASK))
 		end,
 		feicaiyingxinchun = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.FIREWORK_PT_2024_ID) and not slot0:isEnd() and slot0:readyToAchieve()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.FIREWORK_PT_2024_ID))
+		end,
+		feicaiyingxinchuntw = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.FIREWORK_PT_2024_ID))
+		end,
+		aomeiyingchun = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_COUPLET))
+		end,
+		huazhongshijie = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_HUAZHONGSHIJIE))
 		end
 	}, function ()
 		return false
@@ -323,14 +362,27 @@ function slot0.CheckTip(slot0)
 end
 
 function slot0.IsShowMainTip(slot0)
-	return _.any({
+	slot1 = {
 		"fushundamaoxian",
 		"huituriji",
 		"jiujiudajiulou",
 		"xinchunmaoxianwang",
 		"meiyiyannian",
 		"feicaiyingxinchun"
-	}, function (slot0)
+	}
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		slot1 = {
+			"fushundamaoxian",
+			"huituriji",
+			"jiujiudajiulou",
+			"aomeiyingchun",
+			"huazhongshijie",
+			"feicaiyingxinchuntw"
+		}
+	end
+
+	return _.any(slot1, function (slot0)
 		return tobool(uv0.CheckTip(slot0))
 	end)
 end

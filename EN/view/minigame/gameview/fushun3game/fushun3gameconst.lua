@@ -1209,7 +1209,7 @@ slot0.item_instance_data = {
 	{
 		id = 21,
 		map = 21,
-		weight = 300
+		weight = 1000
 	}
 }
 slot0.follow_bound_mid = 300

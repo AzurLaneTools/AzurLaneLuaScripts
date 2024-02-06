@@ -23,15 +23,7 @@ pg.item_lack = {
 		id = 2,
 		config_client = "",
 		itemids = {
-			16001,
-			16002,
-			16003,
-			16011,
-			16012,
-			16013,
-			16021,
-			16022,
-			16023
+			59003
 		},
 		description = {
 			{
@@ -77,11 +69,15 @@ pg.item_lack = {
 		id = 3,
 		config_client = "",
 		itemids = {
-			17001,
-			17011,
-			17021,
-			17031,
-			17041
+			16001,
+			16002,
+			16003,
+			16011,
+			16012,
+			16013,
+			16021,
+			16022,
+			16023
 		},
 		description = {
 			{
@@ -124,11 +120,9 @@ pg.item_lack = {
 		id = 4,
 		config_client = "",
 		itemids = {
-			17002,
-			17012,
-			17022,
-			17032,
-			17042
+			16004,
+			16014,
+			16024
 		},
 		description = {
 			{
@@ -175,11 +169,11 @@ pg.item_lack = {
 		id = 5,
 		config_client = "",
 		itemids = {
-			17003,
-			17013,
-			17023,
-			17033,
-			17043
+			17001,
+			17011,
+			17021,
+			17031,
+			17041
 		},
 		description = {
 			{
@@ -226,12 +220,11 @@ pg.item_lack = {
 		id = 6,
 		config_client = "",
 		itemids = {
-			42001,
-			42002,
-			42003,
-			42004,
-			42005,
-			42006
+			17002,
+			17012,
+			17022,
+			17032,
+			17042
 		},
 		description = {
 			{
@@ -267,12 +260,11 @@ pg.item_lack = {
 		id = 7,
 		config_client = "",
 		itemids = {
-			42011,
-			42012,
-			42013,
-			42014,
-			42015,
-			42016
+			17003,
+			17013,
+			17023,
+			17033,
+			17043
 		},
 		description = {
 			{
@@ -296,6 +288,248 @@ pg.item_lack = {
 	},
 	{
 		id = 8,
+		config_client = "",
+		itemids = {
+			17004,
+			17014,
+			17024,
+			17034,
+			17044
+		},
+		description = {
+			{
+				"Clear a X-1 Hard Mode Stage in any World",
+				{
+					"scene level",
+					{},
+					{
+						lastDigit = 1,
+						mapType = 2,
+						leastChapterId = 10101
+					}
+				},
+				0
+			},
+			{
+				"May be available through certain Commissions",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Medal Shop",
+				{
+					"scene shop",
+					{
+						warp = 8
+					}
+				},
+				0
+			}
+		}
+	},
+	[51] = {
+		id = 51,
+		config_client = "",
+		itemids = {
+			42001,
+			42002,
+			42003,
+			42004,
+			42005,
+			42006
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[52] = {
+		id = 52,
+		config_client = "",
+		itemids = {
+			42011,
+			42012,
+			42013,
+			42014,
+			42015,
+			42016
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[53] = {
+		id = 53,
+		config_client = "",
+		itemids = {
+			42021,
+			42022,
+			42023,
+			42024,
+			42025
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[54] = {
+		id = 54,
+		config_client = "",
+		itemids = {
+			42031,
+			42032,
+			42033,
+			42034,
+			42035
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[55] = {
+		id = 55,
+		config_client = "",
+		itemids = {
+			42041,
+			42042,
+			42043,
+			42044,
+			42045
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[56] = {
+		id = 56,
+		config_client = "",
+		itemids = {
+			42051,
+			42052,
+			42053,
+			42054,
+			42055
+		},
+		description = {
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Medal Shop",
+				{
+					"scene shop",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[101] = {
+		id = 101,
 		config_client = "",
 		itemids = {
 			18001,
@@ -341,8 +575,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 9,
+	[102] = {
+		id = 102,
 		config_client = "",
 		itemids = {
 			18011,
@@ -388,8 +622,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 10,
+	[103] = {
+		id = 103,
 		config_client = "",
 		itemids = {
 			18021,
@@ -435,8 +669,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 11,
+	[104] = {
+		id = 104,
 		config_client = "",
 		itemids = {
 			18031,
@@ -482,8 +716,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 12,
+	[111] = {
+		id = 111,
 		config_client = "",
 		itemids = {
 			18003
@@ -521,8 +755,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 13,
+	[112] = {
+		id = 112,
 		config_client = "",
 		itemids = {
 			18013
@@ -560,8 +794,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 14,
+	[113] = {
+		id = 113,
 		config_client = "",
 		itemids = {
 			18023
@@ -599,8 +833,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 15,
+	[114] = {
+		id = 114,
 		config_client = "",
 		itemids = {
 			18033
@@ -638,8 +872,8 @@ pg.item_lack = {
 			}
 		}
 	},
-	{
-		id = 16,
+	[201] = {
+		id = 201,
 		config_client = "",
 		itemids = {
 			59762
@@ -657,15 +891,15 @@ pg.item_lack = {
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 6
 					}
 				},
 				0
 			}
 		}
 	},
-	{
-		id = 17,
+	[202] = {
+		id = 202,
 		config_client = "",
 		itemids = {
 			59749
@@ -683,24 +917,86 @@ pg.item_lack = {
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 6
 					}
 				},
 				0
 			}
 		}
 	},
-	{
-		id = 18,
+	[203] = {
+		id = 203,
 		config_client = "",
 		itemids = {
-			59003
+			59844
 		},
 		description = {
 			{
-				"Obtain through Exercises",
+				"\"A New Era, A New Power\" Event Reward",
 				{
-					"scene militaryexercise"
+					""
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[204] = {
+		id = 204,
+		config_client = "",
+		itemids = {
+			59845
+		},
+		description = {
+			{
+				"\"A New Era, A New Power\" Event Reward",
+				{
+					""
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
+				},
+				0
+			}
+		}
+	},
+	[205] = {
+		id = 205,
+		config_client = "",
+		itemids = {
+			59843
+		},
+		description = {
+			{
+				"\"Port Eating Contest\" Event Reward",
+				{
+					""
+				},
+				0
+			},
+			{
+				"Prototype Shop",
+				{
+					"scene shop",
+					{
+						warp = 6
+					}
 				},
 				0
 			}
@@ -715,15 +1011,24 @@ pg.item_lack = {
 		6,
 		7,
 		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		101,
+		102,
+		103,
+		104,
+		111,
+		112,
+		113,
+		114,
+		201,
+		202,
+		203,
+		204,
+		205
 	}
 }

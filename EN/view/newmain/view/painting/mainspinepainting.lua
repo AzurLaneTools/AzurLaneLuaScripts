@@ -165,6 +165,7 @@ function slot0.OnDisplayWorld(slot0, slot1)
 end
 
 function slot0.OnDisplayWordEnd(slot0)
+	uv0.super.OnDisplayWordEnd(slot0)
 	slot0.spinePainting:SetEmptyAction(1)
 end
 

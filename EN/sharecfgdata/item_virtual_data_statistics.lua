@@ -155802,6 +155802,30 @@ _G.pg.base.item_virtual_data_statistics[59528] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59529] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59529,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -168283,32 +168307,24 @@ _G.pg.base.item_virtual_data_statistics[86203] = {
 	shiptrans_id = {},
 	combination_display = {
 		{
-			199041,
-			800
+			206072,
+			1300
 		},
 		{
-			499091,
-			800
+			206062,
+			1300
 		},
 		{
-			301863,
-			800
+			199032,
+			1300
 		},
 		{
-			399061,
-			1900
+			407033,
+			3230
 		},
 		{
-			499081,
-			1900
-		},
-		{
-			999021,
-			1900
-		},
-		{
-			201353,
-			1900
+			204011,
+			2870
 		}
 	}
 }

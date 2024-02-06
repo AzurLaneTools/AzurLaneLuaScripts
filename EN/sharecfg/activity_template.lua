@@ -9804,7 +9804,11 @@ pg.activity_template = {
 			441,
 			442,
 			443,
-			444
+			444,
+			445,
+			446,
+			447,
+			448
 		},
 		time = {
 			"timer",
@@ -10087,7 +10091,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 45,
+		is_show = 44,
 		config_data = {
 			19693,
 			19694,
@@ -10145,7 +10149,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5185,
-		is_show = 46,
+		is_show = 45,
 		config_data = {},
 		time = {
 			"timer",
@@ -10492,7 +10496,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 52,
-		is_show = 48,
+		is_show = 47,
 		config_data = {},
 		time = {
 			"timer",
@@ -10548,7 +10552,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 47,
+		is_show = 46,
 		id = 5192,
 		config_data = {
 			{
@@ -10667,7 +10671,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5194,
-		is_show = 49,
+		is_show = 48,
 		config_data = {},
 		time = {
 			"timer",
@@ -10751,6 +10755,153 @@ pg.activity_template = {
 					2024,
 					1,
 					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5196] = {
+		mark = 20240206,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5196,
+		config_data = {
+			19755
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5200] = {
+		mark = 20240206,
+		id = 5200,
+		title_res_tag = "skin_spring2",
+		type = 86,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_data = {
+			19770,
+			19771,
+			19772
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazineSpringPage2",
+			ui_name = "SkinMagazineSpringPage2"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANHEDINGJIXINCHUNER3"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIXINCHUNER2"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIXINCHUNER1"
+				}
+			}
+		}
+	},
+	[5201] = {
+		mark = 20240206,
+		title_res_tag = "",
+		page_info = "",
+		type = 29,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 5201,
+		config_data = {
+			{
+				defaultID,
+				312011
+			},
+			{
+				itemID,
+				44002
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					14
 				},
 				{
 					0,
@@ -34840,6 +34991,9 @@ pg.activity_template = {
 		5193,
 		5194,
 		5195,
+		5196,
+		5200,
+		5201,
 		7011,
 		7012,
 		7013,

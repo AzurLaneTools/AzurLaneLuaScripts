@@ -6,6 +6,7 @@ slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
 slot0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
 slot0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene:ON_SKIN_FREEUSAGE_DESC"
 slot0.ENABLE_PAITING_MOVE = "NewMainScene:ENABLE_PAITING_MOVE"
+slot0.ON_ENTER_DONE = "NewMainScene:ON_ENTER_DONE"
 slot0.ON_REMOVE_LAYER = "NewMainScene:ON_REMOVE_LAYER"
 slot0.ON_PLAYER_UPDATE = "NewMainScene:ON_PLAYER_UPDATE"
 slot0.ON_CHAT_MSG_UPDATE = "NewMainScene:ON_CHAT_MSG_UPDATE"
@@ -85,7 +86,13 @@ function slot0.init(slot0)
 	slot0.effectView = MainEffectView.New(slot0:findTF("paint/effect"))
 	slot0.buffDescPage = MainBuffDescPage.New(slot0._tf, slot0.event)
 	slot0.skinExperiencePage = SkinExperienceDiplayPage.New(slot0._tf, slot0.event)
-	slot0.liveAreaPage = MainLiveAreaPage.New(slot0._tf, slot0.event)
+
+	if LOCK_EDUCATE_SYSTEM then
+		slot0.liveAreaPage = MainLiveAreaOldPage.New(slot0._tf, slot0.event)
+	else
+		slot0.liveAreaPage = MainLiveAreaPage.New(slot0._tf, slot0.event)
+	end
+
 	slot0.calibrationPage = MainCalibrationPage.New(slot0._tf, slot0.event)
 	slot0.sequenceView = MainSequenceView.New()
 	slot0.awakeSequenceView = MainAwakeSequenceView.New()
@@ -133,7 +140,7 @@ function slot0.didEnter(slot0)
 
 			uv0:PlayBgm(uv1)
 			uv0.iconView:Init(uv1)
-			uv0.paintingView:Init(uv1, true)
+			uv0.paintingView:Init(uv1)
 			uv0.effectView:Init(uv1)
 			uv0.chatRoomView:Init()
 			uv0.buffView:Init()
@@ -144,6 +151,8 @@ function slot0.didEnter(slot0)
 			uv0.sequenceView:Execute(slot0)
 		end
 	}, function ()
+		uv0:emit(uv1.ON_ENTER_DONE)
+
 		uv0.mainCG.blocksRaycasts = true
 	end)
 end
@@ -208,7 +217,7 @@ function slot0.SwitchToNextShip(slot0)
 		slot0.bgView:Refresh(slot2)
 		slot0:PlayBgm(slot2)
 		slot0.iconView:Refresh(slot2)
-		slot0.paintingView:Refresh(slot2, false)
+		slot0.paintingView:Refresh(slot2)
 		slot0.effectView:Refresh(slot2)
 	end
 end
@@ -229,7 +238,7 @@ function slot0.OnVisible(slot0)
 
 			uv0.bgView:Refresh(slot1)
 			uv0.iconView:Refresh(slot1)
-			uv0.paintingView:Refresh(slot1, true)
+			uv0.paintingView:Refresh(slot1)
 			uv0.effectView:Refresh(slot1)
 			uv0.chatRoomView:Refresh()
 			uv0.buffView:Refresh()
@@ -243,6 +252,8 @@ function slot0.OnVisible(slot0)
 			uv0.sequenceView:Execute(slot0)
 		end
 	}, function ()
+		uv0:emit(uv1.ON_ENTER_DONE)
+
 		uv0.mainCG.blocksRaycasts = true
 	end)
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, true)

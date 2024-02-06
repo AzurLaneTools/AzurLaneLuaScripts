@@ -301,6 +301,10 @@ function SpecialFilteForChange()
 		slot2(slot7)
 	end
 
+	for slot9, slot10 in ipairs(pg.secretary_special_ship.all) do
+		uv2(slot0, pg.secretary_special_ship[slot10].prefab)
+	end
+
 	return table.concat(slot0, ";")
 end
 

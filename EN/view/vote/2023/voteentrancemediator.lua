@@ -78,6 +78,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:UpdateHonorTip()
 		slot0.viewComponent:UpdateMainAward()
+		slot0.viewComponent:UpdateMainStageTip()
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, nil)
 	elseif slot2 == GAME.ON_NEW_VOTE_DONE then
 		slot0.viewComponent:UpdateVotes()

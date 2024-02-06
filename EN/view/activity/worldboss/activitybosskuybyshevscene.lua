@@ -1,7 +1,7 @@
 slot0 = class("ActivityBossKuybyshevScene", import(".ActivityBossSceneTemplate"))
 
 function slot0.getUIName(slot0)
-	return "ActivityBossKuybyshevSPUI"
+	return "ActivityBossKuybyshevUI"
 end
 
 function slot0.UpdateDropItems(slot0)

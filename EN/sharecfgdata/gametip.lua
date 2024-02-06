@@ -25807,6 +25807,504 @@ _G.pg.base.gametip.racing_minigame_help = {
 	}
 }
 
+_G.pg.base.gametip.child_msg_title_detail = {
+	tip = "Details"
+}
+
+_G.pg.base.gametip.child_msg_title_tip = {
+	tip = "Tips"
+}
+
+_G.pg.base.gametip.child_msg_owned = {
+	tip = "Owned: $1"
+}
+
+_G.pg.base.gametip.child_polaroid_get_tip = {
+	tip = "You can view previous scenes on the Moments tab."
+}
+
+_G.pg.base.gametip.child_close_tip = {
+	tip = "Tap anywhere to return"
+}
+
+_G.pg.base.gametip.word_month = {
+	tip = "Month"
+}
+
+_G.pg.base.gametip.word_which_month = {
+	tip = "Month $1"
+}
+
+_G.pg.base.gametip.word_which_week = {
+	tip = "Week $1"
+}
+
+_G.pg.base.gametip.word_in_one_week = {
+	tip = "This Week"
+}
+
+_G.pg.base.gametip.word_week_title = {
+	tip = "Day"
+}
+
+_G.pg.base.gametip.word_harbour = {
+	tip = "Port"
+}
+
+_G.pg.base.gametip.child_btn_target = {
+	tip = "Goals"
+}
+
+_G.pg.base.gametip.child_btn_collect = {
+	tip = "Memories"
+}
+
+_G.pg.base.gametip.child_btn_mind = {
+	tip = "Thoughts"
+}
+
+_G.pg.base.gametip.child_btn_bag = {
+	tip = "Items"
+}
+
+_G.pg.base.gametip.child_btn_news = {
+	tip = "Monthly News"
+}
+
+_G.pg.base.gametip.child_main_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/educate_tb_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.child_archive_name = {
+	tip = "Name"
+}
+
+_G.pg.base.gametip.child_news_import_title = {
+	tip = "Major Events"
+}
+
+_G.pg.base.gametip.child_news_other_title = {
+	tip = "Ordinary Events"
+}
+
+_G.pg.base.gametip.child_favor_progress = {
+	tip = "Progress: $1"
+}
+
+_G.pg.base.gametip.child_favor_lock1 = {
+	tip = "Affection Lv $1"
+}
+
+_G.pg.base.gametip.child_favor_lock2 = {
+	tip = "Unlocks from $1"
+}
+
+_G.pg.base.gametip.child_target_lock_tip = {
+	tip = "All the growth goals for this stage have been set."
+}
+
+_G.pg.base.gametip.child_target_progress = {
+	tip = "Completion:"
+}
+
+_G.pg.base.gametip.child_target_finish_tip = {
+	tip = "Current growth goals achieved."
+}
+
+_G.pg.base.gametip.child_target_time_title = {
+	tip = "Time Left:"
+}
+
+_G.pg.base.gametip.child_target_title1 = {
+	tip = "Main Goal"
+}
+
+_G.pg.base.gametip.child_target_title2 = {
+	tip = "Growth Goal"
+}
+
+_G.pg.base.gametip.child_item_type0 = {
+	tip = "All"
+}
+
+_G.pg.base.gametip.child_item_type1 = {
+	tip = "Books"
+}
+
+_G.pg.base.gametip.child_item_type2 = {
+	tip = "Instruments"
+}
+
+_G.pg.base.gametip.child_item_type3 = {
+	tip = "Tools"
+}
+
+_G.pg.base.gametip.child_item_type4 = {
+	tip = "Misc."
+}
+
+_G.pg.base.gametip.child_mind_empty_tip = {
+	tip = "TB has nothing in particular on her mind"
+}
+
+_G.pg.base.gametip.child_mind_finish_title = {
+	tip = "Completed"
+}
+
+_G.pg.base.gametip.child_mind_processing_title = {
+	tip = "In Progress"
+}
+
+_G.pg.base.gametip.child_mind_time_title = {
+	tip = "Time Left:"
+}
+
+_G.pg.base.gametip.child_collect_lock = {
+	tip = "Locked"
+}
+
+_G.pg.base.gametip.child_nature_title = {
+	tip = "Personality:"
+}
+
+_G.pg.base.gametip.child_btn_review = {
+	tip = "Summary"
+}
+
+_G.pg.base.gametip.child_schedule_empty_tip = {
+	tip = "Tap the icon on the left side to add plans."
+}
+
+_G.pg.base.gametip.child_schedule_event_tip = {
+	tip = "Plans have already been made for this timeslot."
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip = {
+	tip = "There are empty timeslots. TB will decide how to use this free time if you leave them empty. Proceed?"
+}
+
+_G.pg.base.gametip.child_schedule_sure_tip2 = {
+	tip = "You have unspent action points. Proceed to the next week?"
+}
+
+_G.pg.base.gametip.child_plan_check_tip1 = {
+	tip = "There are not enough timeslots. Empty all timeslots and try again."
+}
+
+_G.pg.base.gametip.child_plan_check_tip2 = {
+	tip = "Stat requirements not met. Unable to add this activity."
+}
+
+_G.pg.base.gametip.child_plan_check_tip3 = {
+	tip = "Prerequisite activities not completed enough times. Unable to add this activity."
+}
+
+_G.pg.base.gametip.child_plan_check_tip4 = {
+	tip = "Not enough money. Unable to add this activity."
+}
+
+_G.pg.base.gametip.child_plan_check_tip5 = {
+	tip = "TB is feeling sad. Unable to add this activity."
+}
+
+_G.pg.base.gametip.child_plan_event = {
+	tip = "Special Activity"
+}
+
+_G.pg.base.gametip.child_btn_home = {
+	tip = "Go Home"
+}
+
+_G.pg.base.gametip.child_option_limit = {
+	tip = "Limited"
+}
+
+_G.pg.base.gametip.child_shop_tip1 = {
+	tip = "* This item refreshes every $1 week(s)"
+}
+
+_G.pg.base.gametip.child_shop_tip2 = {
+	tip = "* You can only buy 1 of this item"
+}
+
+_G.pg.base.gametip.child_filter_title = {
+	tip = "Filter"
+}
+
+_G.pg.base.gametip.child_filter_type1 = {
+	tip = "Activity Type"
+}
+
+_G.pg.base.gametip.child_filter_type2 = {
+	tip = "Reward Type"
+}
+
+_G.pg.base.gametip.child_filter_type3 = {
+	tip = "Cost Type"
+}
+
+_G.pg.base.gametip.child_plan_type1 = {
+	tip = "School"
+}
+
+_G.pg.base.gametip.child_plan_type2 = {
+	tip = "Hobbies"
+}
+
+_G.pg.base.gametip.child_plan_type3 = {
+	tip = "Life Experience"
+}
+
+_G.pg.base.gametip.child_plan_type4 = {
+	tip = "Free Time"
+}
+
+_G.pg.base.gametip.child_filter_award_res = {
+	tip = "Money"
+}
+
+_G.pg.base.gametip.child_filter_award_nature = {
+	tip = "Personality"
+}
+
+_G.pg.base.gametip.child_filter_award_attr1 = {
+	tip = "Stats"
+}
+
+_G.pg.base.gametip.child_filter_award_attr2 = {
+	tip = "Abilities"
+}
+
+_G.pg.base.gametip.child_mood_desc1 = {
+	tip = "Current Mood: Depressed - <color=#72bc42>Rewards Gained -40%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc2 = {
+	tip = "Current Mood: Sad - <color=#72bc42>Rewards Gained -20%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc3 = {
+	tip = "Current Mood: Normal - <color=#72bc42>Rewards Gained +0%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc4 = {
+	tip = "Current Mood: Happy - <color=#72bc42>Rewards Gained +40%</color>"
+}
+
+_G.pg.base.gametip.child_mood_desc5 = {
+	tip = "Current Mood: Happy - <color=#72bc42>Rewards Gained +40%</color>"
+}
+
+_G.pg.base.gametip.child_stage_desc1 = {
+	tip = "Growth Stage 1"
+}
+
+_G.pg.base.gametip.child_stage_desc2 = {
+	tip = "Growth Stage 2"
+}
+
+_G.pg.base.gametip.child_stage_desc3 = {
+	tip = "Growth Stage 3"
+}
+
+_G.pg.base.gametip.child_default_callname = {
+	tip = "Commander"
+}
+
+_G.pg.base.gametip.flagship_display_mode_1 = {
+	tip = "Don't show special secretaries."
+}
+
+_G.pg.base.gametip.flagship_display_mode_2 = {
+	tip = "Show only special secretaries."
+}
+
+_G.pg.base.gametip.flagship_display_mode_3 = {
+	tip = "Show All"
+}
+
+_G.pg.base.gametip.flagship_educate_slot_lock_tip = {
+	tip = "This feature unlocks after completing the New Life story in <color=#39bfff>Project Identity: TB</color>."
+}
+
+_G.pg.base.gametip.child_story_name = {
+	tip = "Commander"
+}
+
+_G.pg.base.gametip.secretary_special_name = {
+	tip = "TB"
+}
+
+_G.pg.base.gametip.secretary_special_lock_tip = {
+	tip = "Unavailable"
+}
+
+_G.pg.base.gametip.secretary_special_title_age = {
+	tip = "Change Personality"
+}
+
+_G.pg.base.gametip.secretary_special_title_physiognomy = {
+	tip = "Change Personality"
+}
+
+_G.pg.base.gametip.child_plan_skip = {
+	tip = "Skip Cinematic"
+}
+
+_G.pg.base.gametip.child_attr_name1 = {
+	tip = "Stats"
+}
+
+_G.pg.base.gametip.child_attr_name2 = {
+	tip = "Abilities"
+}
+
+_G.pg.base.gametip.child_task_system_type2 = {
+	tip = "Growth"
+}
+
+_G.pg.base.gametip.child_task_system_type3 = {
+	tip = "Main"
+}
+
+_G.pg.base.gametip.child_plan_perform_title = {
+	tip = "Plan an Activity"
+}
+
+_G.pg.base.gametip.child_date_text1 = {
+	tip = "Home Activity"
+}
+
+_G.pg.base.gametip.child_date_text2 = {
+	tip = "Advance in Grade"
+}
+
+_G.pg.base.gametip.child_date_text3 = {
+	tip = "Achieve Growth"
+}
+
+_G.pg.base.gametip.child_date_text4 = {
+	tip = "Update System"
+}
+
+_G.pg.base.gametip.child_upgrade_sure_tip = {
+	tip = "TB's growth goals will reset if you enter the next growth stage and unused action points will not carry over. Proceed to the next growth stage?"
+}
+
+_G.pg.base.gametip.child_school_sure_tip = {
+	tip = "TB's growth goals will reset if you advance in grade and unused action points will not carry over. Advance to the next grade?"
+}
+
+_G.pg.base.gametip.child_extraAttr_sure_tip = {
+	tip = "是否确认个性补正？确认后将无法修改"
+}
+
+_G.pg.base.gametip.child_reset_sure_tip = {
+	tip = "Resetting TB's growth will allow you to restart from growth stage 1. Reset TB's growth?"
+}
+
+_G.pg.base.gametip.child_end_sure_tip = {
+	tip = "Proceed to the ending?"
+}
+
+_G.pg.base.gametip.child_buff_name = {
+	tip = "Status"
+}
+
+_G.pg.base.gametip.child_unlock_tip = {
+	tip = "Unlock"
+}
+
+_G.pg.base.gametip.child_unlock_out = {
+	tip = "Go Outside"
+}
+
+_G.pg.base.gametip.child_unlock_memory = {
+	tip = "Memories"
+}
+
+_G.pg.base.gametip.child_unlock_polaroid = {
+	tip = "Moments"
+}
+
+_G.pg.base.gametip.child_unlock_ending = {
+	tip = "Endings"
+}
+
+_G.pg.base.gametip.child_unlock_intimacy = {
+	tip = "Affection"
+}
+
+_G.pg.base.gametip.child_unlock_buff = {
+	tip = "Status"
+}
+
+_G.pg.base.gametip.child_unlock_attr2 = {
+	tip = "Personality"
+}
+
+_G.pg.base.gametip.child_unlock_attr3 = {
+	tip = "Abilities"
+}
+
+_G.pg.base.gametip.child_unlock_bag = {
+	tip = "Items"
+}
+
+_G.pg.base.gametip.child_shop_empty_tip = {
+	tip = "No items for sale"
+}
+
+_G.pg.base.gametip.child_bag_empty_tip = {
+	tip = "No items available"
+}
+
 _G.pg.base.gametip.levelscene_deploy_submarine = {
 	tip = "Confirm Target"
 }
@@ -27200,4 +27698,88 @@ Even lasts between <color=#92fc63>January 30th and February 21st</color>.
 <color=#92fc63>Limited Construction</color>: Brings you to the build screen.]]
 		}
 	}
+}
+
+_G.pg.base.gametip.child_random_polaroid_drop = {
+	tip = "Moments"
+}
+
+_G.pg.base.gametip.child_random_ops_drop = {
+	tip = "Random Rewards"
+}
+
+_G.pg.base.gametip.child_refresh_sure_tip = {
+	tip = "Start growth from the beginning?"
+}
+
+_G.pg.base.gametip.child_target_set_sure_tip = {
+	tip = "Lock in these growth goals? (<color=#72bc42>$1</color> is the main goal of growth)\nThey cannot be changed until the next growth stage."
+}
+
+_G.pg.base.gametip.child_polaroid_lock_tip = {
+	tip = "Unlocks after reaching different endings."
+}
+
+_G.pg.base.gametip.child_task_finish_all = {
+	tip = "Current growth goals achieved."
+}
+
+_G.pg.base.gametip.child_unlock_new_secretary = {
+	tip = "You've unlocked a new clothing module. You can change clothing settings from the special secretary screen."
+}
+
+_G.pg.base.gametip.child_no_resource = {
+	tip = "Insufficient resources"
+}
+
+_G.pg.base.gametip.child_target_set_empty = {
+	tip = "Growth Goal not set yet."
+}
+
+_G.pg.base.gametip.child_target_set_skip = {
+	tip = "Tap to set <color=#39BFFF>Growth Goal</color>."
+}
+
+_G.pg.base.gametip.child_news_import_empty = {
+	tip = "No major events to display for this month."
+}
+
+_G.pg.base.gametip.child_news_other_empty = {
+	tip = "No ordinary events this month."
+}
+
+_G.pg.base.gametip.word_week_day1 = {
+	tip = "Monday"
+}
+
+_G.pg.base.gametip.word_week_day2 = {
+	tip = "Tuesday"
+}
+
+_G.pg.base.gametip.word_week_day3 = {
+	tip = "Wednesday"
+}
+
+_G.pg.base.gametip.word_week_day4 = {
+	tip = "Thursday"
+}
+
+_G.pg.base.gametip.word_week_day5 = {
+	tip = "Friday"
+}
+
+_G.pg.base.gametip.word_week_day6 = {
+	tip = "Saturday"
+}
+
+_G.pg.base.gametip.word_week_day7 = {
+	tip = "Sunday"
+}
+
+_G.pg.base.gametip.child_shop_price_title = {
+	tip = "Total:"
+}
+
+_G.pg.base.gametip.child_callname_tip = {
+	tip = "Please enter your name"
 }

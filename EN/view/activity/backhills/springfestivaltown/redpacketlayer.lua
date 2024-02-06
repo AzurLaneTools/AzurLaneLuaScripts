@@ -2,7 +2,7 @@ slot0 = class("RedPacketLayer", import("view.base.BaseUI"))
 
 function slot0.getUIName(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
-		return "RedPacketUI"
+		return "RedPacket2023UI"
 	else
 		return "RedPacket2023UI"
 	end

@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					1,
-					30
+					2,
+					6
 				},
 				{
 					0,
@@ -74,12 +74,48 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp5",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene charge",
+			"EDUCATE",
+			{}
+		},
+		time = {
 			{
-				wrap = 2
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -110,49 +146,13 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene Cryptolalia",
-			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		id = 5,
-		pic = "temp6",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new",
-				page = 1
+				wrap = 2
 			}
 		},
 		time = {
@@ -256,35 +256,10 @@ pg.activity_banner = {
 	{
 		id = 8,
 		pic = "temp2",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene vote entrance"
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90] = {
@@ -296,8 +271,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					1,
-					30
+					2,
+					6
 				},
 				{
 					0,
@@ -342,8 +317,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					1,
-					30
+					2,
+					6
 				},
 				{
 					0,

@@ -436,9 +436,9 @@ function slot0.GetTag7Furnitures(slot0)
 end
 
 function slot0.IsShowRedDot(slot0)
-	slot1 = getProxy(DormProxy)
+	slot3 = getProxy(DormProxy)
 
-	return slot1:isLackOfFood() or slot1:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture()
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CourtYardMediator") and (slot3:isLackOfFood() or slot3:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
 return slot0

@@ -81368,6 +81368,39 @@ _G.pg.base.item_data_statistics[44001] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[44002] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	display = "A Valentine Gift from $1",
+	type = 23,
+	other_resource_cost = "[]",
+	display_effect = "",
+	shop_id = -1,
+	replace_item = 0,
+	usage = "usage_undefined",
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	id = 44002,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	drop_gold_max = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "Oxy-cola",

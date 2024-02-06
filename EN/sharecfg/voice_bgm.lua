@@ -1276,5 +1276,53 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "main-chunjie5-1"
+	},
+	EducateMemoryLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-quiet"
+	},
+	EducatePolaroidLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-quiet"
+	},
+	EducateEndingLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-quiet"
+	},
+	EducateScheduleScene = {
+		default_bgm = "level",
+		special_bgm = "",
+		time = "",
+		bgm = "level"
+	},
+	EducateMapScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "",
+		time = "",
+		bgm = "votefes-start"
+	},
+	EducateCharDockScene = {
+		default_bgm = "story-richang-8",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-8"
+	},
+	EducateCharProfileScene = {
+		default_bgm = "story-richang-8",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-8"
+	},
+	SkinMagazineSpringPage2 = {
+		default_bgm = "Main-chunjie4-2",
+		special_bgm = "",
+		time = "",
+		bgm = "Main-chunjie4-2"
 	}
 }

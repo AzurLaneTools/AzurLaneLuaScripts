@@ -85,9 +85,20 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
 	slot0:bind(uv0.GO_SNAPSHOT, function (slot0)
+		slot1 = uv0.viewComponent.iconView.ship
+		slot2 = slot1.skinId
+		slot3 = uv0.viewComponent.paintingView:IsLive2DState()
+		slot4 = nil
+
+		if isa(slot1, VirtualEducateCharShip) then
+			slot4 = slot1.educateCharId
+			slot3 = false
+		end
+
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SNAPSHOT, {
-			skinId = uv0.viewComponent.iconView.ship.skinId,
-			live2d = uv0.viewComponent.paintingView:IsLive2DState(),
+			skinId = slot2,
+			live2d = slot3,
+			tbId = slot4,
 			propose = uv0.viewComponent.iconView.propose
 		})
 	end)
