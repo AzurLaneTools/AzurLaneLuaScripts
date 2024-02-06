@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日的寻路人\n\n<size=45>四　天选者vs守门人？</size>",
+					"冬日的尋路人\n\n<size=45>四　天選者vs守門人？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "中央广场·附近区域",
+			say = "中央廣場·附近區域",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妖精的纪念币，怎么会是塑料的……",
+			say = "妖精的紀念幣，怎麼會是塑膠的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "真奇怪，要是线索再多一些就好了。",
+			say = "真奇怪，要是線索再多一點就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯？这个盒子是……",
+			say = "嗯？這個盒子是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "古比雪夫刚刚走过的道路上，居然出现了一个小巧的录音盒。",
+			say = "在古比雪夫剛剛走過的路上，居然出現了一個小巧的錄音盒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,26 +117,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "预言已经得到证实，所有阻止天选者的尝试都已经失败——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_night",
-			actorName = "曙光女神",
-			dir = 1,
-			actor = 702010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "但希望尚存……预言的最后一段尚未完成。",
+			say = "預言已經得到證實，所有阻止天選者的嘗試都已經失敗——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +136,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "致收听的人，如果你能听到这段话——",
+			say = "但希望尚存……預言的最後一段尚未完成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +155,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请收下极地精灵最后的馈赠，因你就是预言所指的希望。",
+			say = "致收聽的人，如果妳聽得到這段話，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +174,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时候到了，真理之梯即将开放——",
+			say = "請收下極地精靈最後的饋贈，因妳就是預言所指的希望。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +193,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后的角逐开始了，最富有的，将登上真理之梯；而那些失去全部的，将被无情淘汰。",
+			say = "時候到了，真理之梯即將開放—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +212,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信你的魔杖，相信你的魔法……",
+			say = "最後的角逐開始了，最富有的，將登上真理之梯；而那些失去全部的，將被無情淘汰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +231,26 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "曙光终将带来黎明——",
+			say = "相信妳的魔杖，相信妳的魔法……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_night",
+			actorName = "曙光女神",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "曙光終將帶來黎明——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "极地精灵最后的馈赠……",
+			say = "極地精靈最後的禮物……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "古比雪夫将盒子反过来，果然看见了粘好的两枚纪念币。",
+			say = "古比雪夫將盒子反過來，果然看見了黏好的兩枚紀念幣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "倘若这是极地精灵的馈赠，那也就是说，罗西亚同志也没能成功吗……",
+			say = "倘若這是極地精靈的饋贈，那也就是說，俄羅斯同志也沒能成功嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "看来我是最后剩下的人。但就算这样，也只有四枚纪念币在手里……",
+			say = "看來我是最後剩下的人。但就算這樣，也只有四枚紀念幣在手上……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这时候收集纪念币已经来不及了。",
+			say = "這時候收集紀念幣已經太晚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，收集了所有人纪念币的天选者，肯定会出现在真理之梯下方，只要守株待兔就可以了。",
+			say = "不過，收集了所有人紀念幣的天選者，一定會出現在真理之梯下方，只要守株待兔就可以了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "只要击败天选者本人，自然就什么问题就没有了。",
+			say = "只要擊敗天選者本人，自然就什麼問題就沒有了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯，就这么办。",
+			say = "嗯，就這麼辦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "中央广场·休息区",
+			say = "中央廣場·休息區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "阿芙乐尔，让古比雪夫扮演最后阻止天选者的角色真的没问题吗？",
+			say = "曙光，讓古比雪夫扮演最後阻止天選者的角色真的沒問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然没问题，古比雪夫同志本来就是我们之中最严格的那个~",
+			say = "當然沒問題，古比雪夫同志本來就是我們當中最嚴格的那個~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她凶起来的话……大概会比反派还要反派吧？",
+			say = "她兇起來的話……大概會比反派還要反派吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以没必要担心哦~",
+			say = "所以沒必要擔心~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "准备好饮料吧，指挥官同志，接下来会有一场精彩的剧目呢！",
+			say = "準備好飲料吧，指揮官同志，接下來會有一場精彩的劇目呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "中央广场·真理之梯",
+			say = "中央廣場·真理之梯",
 			bgmDelay = 1,
 			bgm = "bgm-cccp",
 			typewriter = {
@@ -532,7 +532,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "在铺着红毯的真理之梯下，寻路人已经等候多时了。",
+			say = "在鋪著紅毯的真理之梯下，尋路人已經等候多時了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "而最后站在她面前的，竟然是——",
+			say = "而最後站在她面前的，竟然是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,8 +555,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "守护女巫·天选者·忒休斯……？",
+			actorName = "尋路人",
+			say = "守護女巫·天選者·忒修斯……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,8 +573,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "没错，我正是天选者、港区的守护女巫，忒休斯。",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "沒錯，我正是天選者、港區的守護女巫，忒修斯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,8 +591,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "能得到最多的妖精硬币……果然你是最强的天选者。",
+			actorName = "尋路人",
+			say = "能得到最多的妖精硬幣……果然妳是最強的天選者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,8 +609,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "哼哼哼，多谢夸奖~",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "哼哼哼，多謝誇獎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,8 +627,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "所以，能不能请你把硬币也都交出来呢~",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "所以，能不能請妳把硬幣都交出來呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,8 +645,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "我还有收集所有硬币登上真理之梯的使命要完成呢~",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "我還有收集所有硬幣登上真理之梯的使命要完成呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,8 +663,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "很抱歉，这里我是一步也不会退让的。",
+			actorName = "尋路人",
+			say = "很抱歉，這裡我是一步也不會退讓的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,8 +681,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "就算是你也一样，巫女小姐。",
+			actorName = "尋路人",
+			say = "就算是妳也一樣，巫女小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
+			actorName = "守護女巫·天選者·忒修斯",
 			say = "是女巫小姐！",
 			painting = {
 				alpha = 0.3,
@@ -727,8 +727,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "既然如此，那我们之间就没什么可谈的了。",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "既然如此，那我們之間就沒什麼好談的了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,8 +745,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "守护女巫·天选者·忒休斯",
-			say = "出招吧，赢的一方将得到登上真理之梯的权利！",
+			actorName = "守護女巫·天選者·忒修斯",
+			say = "出招吧，贏的一方將得到登上真理之梯的權利！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,8 +763,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "嗯，多说无益。",
+			actorName = "尋路人",
+			say = "嗯，多說無益。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,8 +781,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702050,
-			actorName = "寻路人",
-			say = "我一定要登上真理之梯，查明这场异常事态的真相！",
+			actorName = "尋路人",
+			say = "我一定要登上真理之梯，找出這場異常事態的真相！",
 			painting = {
 				alpha = 0.3,
 				time = 1

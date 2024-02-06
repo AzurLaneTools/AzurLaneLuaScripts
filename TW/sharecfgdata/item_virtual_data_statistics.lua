@@ -156976,8 +156976,8 @@ _G.pg.base.item_virtual_data_statistics[59379] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59380] = {
-	display = "参与「冬日的寻路人」获得的点数，累计一定程度可以领取报酬",
-	name = "贡献值",
+	display = "參與「冬天的尋路人」獲得的點數，累計一定程度可以領取報酬",
+	name = "貢獻值",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157000,8 +157000,8 @@ _G.pg.base.item_virtual_data_statistics[59380] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59381] = {
-	display = "参与「冬日的寻路人」EX关的必要道具，也可以用来增加普通关额外奖励次数",
-	name = "特别挑战券",
+	display = "參與「冬日的尋路人」EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157024,8 +157024,8 @@ _G.pg.base.item_virtual_data_statistics[59381] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59389] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157072,8 +157072,8 @@ _G.pg.base.item_virtual_data_statistics[59390] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59391] = {
-	display = "用于「飞彩迎新春」活动制作烟花，活动结束后将会消失",
-	name = "飞彩之星",
+	display = "用於「飛彩迎新春」活動製作煙火，活動結束後將會消失",
+	name = "飛彩之星",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157096,8 +157096,8 @@ _G.pg.base.item_virtual_data_statistics[59391] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59392] = {
-	display = "用于「海天与海祈的画中世界」进行游历，活动结束后将会消失",
-	name = "游历点数",
+	display = "用於「海天與海祈的畫中世界」進行遊歷，活動結束後將會消失",
+	name = "遊歷點數",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -157106,7 +157106,7 @@ _G.pg.base.item_virtual_data_statistics[59392] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4667,
 	virtual_type = 15,
 	is_world = 0,
 	icon = "Props/youlidianshu",
@@ -157120,8 +157120,8 @@ _G.pg.base.item_virtual_data_statistics[59392] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59393] = {
-	display = "用于「海天与海祈的画中世界」进行绘制，活动结束后将会消失",
-	name = "绘制点数",
+	display = "用於「海天與海祈的畫中世界」進行繪製，活動結束後將會消失",
+	name = "繪製點數",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -157130,7 +157130,7 @@ _G.pg.base.item_virtual_data_statistics[59393] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4667,
 	virtual_type = 15,
 	is_world = 0,
 	icon = "Props/huizhidianshu",
@@ -159208,8 +159208,8 @@ _G.pg.base.item_virtual_data_statistics[59527] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59528] = {
-	display = "用于「新岁祝福·甲辰」活动兑换，活动结束后将会消失",
-	name = "东煌结",
+	display = "用於「新歲祝福·甲辰」活動兌換，活動結束後將會消失",
+	name = "東煌結",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -159223,6 +159223,30 @@ _G.pg.base.item_virtual_data_statistics[59528] = {
 	is_world = 0,
 	icon = "Props/donghuangjie",
 	id = 59528,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59529] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59529,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -163048,8 +163072,8 @@ _G.pg.base.item_virtual_data_statistics[60023] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60024] = {
-	display = "可在「啾啾大酒楼」活动中使用",
-	name = "红包",
+	display = "可在「啾啾大酒樓」活動中使用",
+	name = "紅包",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -163058,7 +163082,7 @@ _G.pg.base.item_virtual_data_statistics[60024] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4665,
 	virtual_type = 11,
 	is_world = 0,
 	icon = "props/red_packet2",
@@ -164968,8 +164992,8 @@ _G.pg.base.item_virtual_data_statistics[60332] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60333] = {
-	display = "颜料A，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料A",
+	display = "顏料A，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料A",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -164978,7 +165002,7 @@ _G.pg.base.item_virtual_data_statistics[60333] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_a",
@@ -164992,8 +165016,8 @@ _G.pg.base.item_virtual_data_statistics[60333] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60334] = {
-	display = "颜料B，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料B",
+	display = "顏料B，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料B",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165002,7 +165026,7 @@ _G.pg.base.item_virtual_data_statistics[60334] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_b",
@@ -165016,8 +165040,8 @@ _G.pg.base.item_virtual_data_statistics[60334] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60335] = {
-	display = "颜料C，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料C",
+	display = "顏料C，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料C",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165026,7 +165050,7 @@ _G.pg.base.item_virtual_data_statistics[60335] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_c",
@@ -165040,8 +165064,8 @@ _G.pg.base.item_virtual_data_statistics[60335] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60336] = {
-	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料D",
+	display = "顏料D，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料D",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165050,7 +165074,7 @@ _G.pg.base.item_virtual_data_statistics[60336] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_d",
@@ -165064,8 +165088,8 @@ _G.pg.base.item_virtual_data_statistics[60336] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60337] = {
-	display = "颜料E，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料E",
+	display = "顏料E，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料E",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165074,7 +165098,7 @@ _G.pg.base.item_virtual_data_statistics[60337] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_e",
@@ -165088,8 +165112,8 @@ _G.pg.base.item_virtual_data_statistics[60337] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60338] = {
-	display = "颜料F，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料F",
+	display = "顏料F，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料F",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165098,7 +165122,7 @@ _G.pg.base.item_virtual_data_statistics[60338] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_f",
@@ -165112,8 +165136,8 @@ _G.pg.base.item_virtual_data_statistics[60338] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60339] = {
-	display = "颜料G，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料G",
+	display = "顏料G，用於繪圖日記活動，活動結束後將會消失",
+	name = "顏料G",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -165122,7 +165146,7 @@ _G.pg.base.item_virtual_data_statistics[60339] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5189,
 	virtual_type = 4,
 	is_world = 0,
 	icon = "props/draw_g",
@@ -170061,7 +170085,7 @@ _G.pg.base.item_virtual_data_statistics[70119] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170085,7 +170109,7 @@ _G.pg.base.item_virtual_data_statistics[70120] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170109,7 +170133,7 @@ _G.pg.base.item_virtual_data_statistics[70121] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170133,7 +170157,7 @@ _G.pg.base.item_virtual_data_statistics[70122] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170157,7 +170181,7 @@ _G.pg.base.item_virtual_data_statistics[70123] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170181,7 +170205,7 @@ _G.pg.base.item_virtual_data_statistics[70124] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -170205,7 +170229,7 @@ _G.pg.base.item_virtual_data_statistics[70125] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 4669,
 	virtual_type = 1,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -171117,7 +171141,7 @@ _G.pg.base.item_virtual_data_statistics[70165] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_1",
@@ -171141,7 +171165,7 @@ _G.pg.base.item_virtual_data_statistics[70166] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_2",
@@ -171165,7 +171189,7 @@ _G.pg.base.item_virtual_data_statistics[70167] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_3",
@@ -171189,7 +171213,7 @@ _G.pg.base.item_virtual_data_statistics[70168] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_4",
@@ -171213,7 +171237,7 @@ _G.pg.base.item_virtual_data_statistics[70169] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_15",
@@ -171237,7 +171261,7 @@ _G.pg.base.item_virtual_data_statistics[70170] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_6",
@@ -171261,7 +171285,7 @@ _G.pg.base.item_virtual_data_statistics[70171] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_7",
@@ -171285,7 +171309,7 @@ _G.pg.base.item_virtual_data_statistics[70172] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_8",
@@ -171309,7 +171333,7 @@ _G.pg.base.item_virtual_data_statistics[70173] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_9",
@@ -171333,7 +171357,7 @@ _G.pg.base.item_virtual_data_statistics[70174] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_10",
@@ -171357,7 +171381,7 @@ _G.pg.base.item_virtual_data_statistics[70175] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_16",
@@ -171381,7 +171405,7 @@ _G.pg.base.item_virtual_data_statistics[70176] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_12",
@@ -171405,7 +171429,7 @@ _G.pg.base.item_virtual_data_statistics[70177] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_13",
@@ -171429,7 +171453,7 @@ _G.pg.base.item_virtual_data_statistics[70178] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 0,
+	link_id = 5185,
 	virtual_type = 25,
 	is_world = 0,
 	icon = "Props/yanhua_14",
@@ -171700,6 +171724,121 @@ _G.pg.base.item_virtual_data_statistics[80035] = {
 	id = 80035,
 	order = 0,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[80500] = {
+	display = "随机获得一件「美食」主题外观装备",
+	name = "外觀裝備(美食)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	id = 80500,
+	order = 0,
+	display_icon = {
+		{
+			9,
+			710,
+			1
+		},
+		{
+			9,
+			711,
+			1
+		},
+		{
+			9,
+			712,
+			1
+		},
+		{
+			9,
+			713,
+			1
+		},
+		{
+			9,
+			714,
+			1
+		},
+		{
+			9,
+			715,
+			1
+		},
+		{
+			9,
+			716,
+			1
+		},
+		{
+			9,
+			717,
+			1
+		},
+		{
+			9,
+			718,
+			1
+		},
+		{
+			9,
+			719,
+			1
+		},
+		{
+			9,
+			720,
+			1
+		},
+		{
+			9,
+			721,
+			1
+		},
+		{
+			9,
+			722,
+			1
+		},
+		{
+			9,
+			723,
+			1
+		},
+		{
+			9,
+			724,
+			1
+		},
+		{
+			9,
+			725,
+			1
+		},
+		{
+			9,
+			726,
+			1
+		},
+		{
+			9,
+			727,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -172419,32 +172558,24 @@ _G.pg.base.item_virtual_data_statistics[86203] = {
 	shiptrans_id = {},
 	combination_display = {
 		{
-			199041,
-			800
+			206072,
+			1300
 		},
 		{
-			499091,
-			800
+			206062,
+			1300
 		},
 		{
-			301863,
-			800
+			199032,
+			1300
 		},
 		{
-			399061,
-			1900
+			407033,
+			3230
 		},
 		{
-			499081,
-			1900
-		},
-		{
-			999021,
-			1900
-		},
-		{
-			201353,
-			1900
+			204011,
+			2870
 		}
 	}
 }

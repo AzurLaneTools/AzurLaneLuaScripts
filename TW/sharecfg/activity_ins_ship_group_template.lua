@@ -618,7 +618,7 @@ pg.activity_ins_ship_group_template = {
 	[20606] = {
 		ship_group = 20606,
 		name = "Per",
-		sculpture = "yingxianzuo"
+		sculpture = "yingxianzuo_3"
 	},
 	[20227] = {
 		ship_group = 20227,
@@ -1913,7 +1913,7 @@ pg.activity_ins_ship_group_template = {
 	[20607] = {
 		ship_group = 20607,
 		name = "Albion",
-		sculpture = "Aerbien_2"
+		sculpture = "aerbien_3"
 	},
 	[20209] = {
 		ship_group = 20209,
@@ -2103,7 +2103,7 @@ pg.activity_ins_ship_group_template = {
 	[19903] = {
 		ship_group = 19903,
 		name = "Anchorage",
-		sculpture = "ankeleiqi"
+		sculpture = "ankeleiqi_3"
 	},
 	[30128] = {
 		ship_group = 30128,
@@ -2378,7 +2378,7 @@ pg.activity_ins_ship_group_template = {
 	[20401] = {
 		ship_group = 20401,
 		name = "Renown",
-		sculpture = "shengwang"
+		sculpture = "shengwang_2"
 	},
 	all = {
 		30701,

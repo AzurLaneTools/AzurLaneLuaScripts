@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飞彩迎新春\n\n<size=45>三　不夜良宵</size>",
+					"飛彩迎新春\n\n<size=45>三　不夜良宵</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "一段时间的忙碌后————",
+			say = "一段時間的忙碌後————",
 			bgmDelay = 2,
 			bgm = "main-chunjie2",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，工坊的主体结构已经全部修建完毕了，请验收。",
+			say = "指揮官，工坊的主體結構已經全部建造完畢了，請驗收。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "在汇聚而来的各阵营同伴的帮助下，烟花工坊的改建以超乎想象的速度完成了。",
+			say = "在匯聚而來的各陣營同伴的幫助下，煙火工坊的改建以超乎想像的速度完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，指挥官同志，团结就是力量哦！",
+			say = "哼哼哼，指揮官同志，團結就是力量喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我还特意做了可扩展设计呢，这样就算以后想要继续扩展规模也没完全没问题~",
+			say = "我還特地做了可擴展設計呢，這樣就算以後想要繼續擴展規模也沒完全沒問題~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "大家都辛苦了，工作之余要来品尝一下甜点么？",
+			say = "大家都辛苦了，工作之餘要來品嚐甜點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actorName = "鲟",
 			side = 2,
-			say = "我还带了些刚做好的水馒头过来哦。",
+			say = "我還帶了些剛做好的水饅頭過來哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801030,
-			say = "呼呼呼————大家看啊！我也和倔强一样会放魔法了哦！",
+			say = "呼呼呼————大家看啊！我也跟倔強一樣會放魔法了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801040,
-			say = "你只是在拿着烟花棒乱跑而已吧！",
+			say = "妳只是在拿著仙女棒亂跑吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "懂了懂了~意思是烟花棒还不够大、还不够夸张对吧~！",
+			say = "懂了懂了~意思是仙女棒還不夠大、還不夠誇張對吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那不如来试试抚顺的超大号手持礼炮吧！绝对漂亮，包你满意哦~！",
+			say = "那不如來試試撫順的超大號手持禮炮吧！絕對漂亮，包妳滿意哦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801030,
-			say = "好厉害的样子……我要玩！",
+			say = "好厲害的樣子……我要玩！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚——顺——！！！",
+			say = "撫——順——！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚顺姐慢点，等等我~我还想看看你做的烟花呢~！",
+			say = "撫順姐慢一點，等等我~我還想看看妳做的煙火呢~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好、好快……那个，指挥官，我去帮鞍山姐盯着抚顺姐她们……",
+			say = "好、好快……那個，指揮官，我去幫鞍山姐盯著撫順姐她們……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉托加还专门设计了一款以偶像萨拉酱为主题的烟花哦！",
+			say = "薩拉托加還專門設計了一款以偶像薩拉醬為主題的煙火哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "大家请尽情观看在空中闪耀的萨拉酱吧~",
+			say = "大家請盡情觀賞在空中閃耀的薩拉醬吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到不知不觉做了这么多种漂亮的烟花……大家真是太厉害了！",
+			say = "沒想到不知不覺做了這麼多漂亮的煙火……大家真是太厲害了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "一会我要每种都要尝试一下！",
+			say = "等一下我每種都要嘗試一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "绚烈的烟火在夜空中次第绽放，漫天的火树银花映着漆黑的天色，几乎要将整片夜空照亮。",
+			say = "絢爛的煙火在夜空中次第綻放，漫天的火樹銀花映著漆黑的天色，幾乎要將整片夜空照亮。",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "在夜空中绽放的烟花真是太美了……",
+			say = "在夜空中綻放的煙火真是太美了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "图案承载着美好的寓意，在黑暗之中洒下光亮，也让心意能够传达到远方。",
+			say = "圖案承載著美好的寓意，在黑暗之中灑下光亮，也讓心意能夠傳達到遠方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "“星辰日月高天际，雪散烟花遍海隅。”倘若现在再添三分落雪的话，那便是冬夜的绝景了吧。",
+			say = "「星辰日月高天際，雪散煙花遍海隅。」倘若現在再添三分落雪的話，那便是冬夜的絕景了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一年到头来，难得有像现在这样大家欢聚一堂的机会。",
+			say = "一年到頭來，難得有像現在這樣大家歡聚一堂的機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这还得感谢提出改建烟花工坊的华甲呢。",
+			say = "這還得感謝提出改建煙火工坊的華甲呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "春节本来就应该是大家一起团聚的热热闹闹的节日嘛~",
+			say = "春節本來就應該是大家一起團聚的熱鬧的節日嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "说起来……指挥官的新年愿望是什么呢？",
+			say = "說起來……指揮官的新年願望是什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "新年愿望么……",
+			say = "新年願望嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "那就……希望能和大家一起，度过充满欢声笑语的崭新一年吧——",
+			say = "那就……希望能和大家一起，度過充滿歡笑的嶄新一年吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

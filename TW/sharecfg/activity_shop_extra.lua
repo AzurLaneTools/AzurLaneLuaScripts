@@ -2496,6 +2496,90 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[95] = {
+		commodity_type = 7,
+		activity = 4665,
+		commodity_id = 408052,
+		order = 800,
+		id = 95,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"SPRING_FESTIVAL_BACKHILL_2024",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[96] = {
+		commodity_type = 7,
+		activity = 4665,
+		commodity_id = 501021,
+		order = 800,
+		id = 96,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"SPRING_FESTIVAL_BACKHILL_2024",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[97] = {
 		commodity_id = 301323,
 		activity = 4636,
@@ -3027,6 +3111,8 @@ pg.activity_shop_extra = {
 			92,
 			93,
 			94,
+			95,
+			96,
 			97,
 			98,
 			100,
@@ -3112,6 +3198,8 @@ pg.activity_shop_extra = {
 		92,
 		93,
 		94,
+		95,
+		96,
 		97,
 		98,
 		100,

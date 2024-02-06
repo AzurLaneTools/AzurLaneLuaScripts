@@ -10598,6 +10598,162 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高15%"
 		}
 	},
+	[1131] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 31,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1131,
+		need_exp = 200,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[1132] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 32,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1132,
+		need_exp = 300,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[1133] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 33,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+5|【暗黑的狂想曲】技能強化為【暗黑的狂想曲 +】",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1133,
+		need_exp = 400,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19240,
+			18240
+		}
+	},
+	[1134] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 34,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+6",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1134,
+		need_exp = 500,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	},
+	[1135] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 35,
+		effect_breakout = 0,
+		need_lv = 100,
+		effect_desc = "幸運+7|【破壞的交響曲】技能強化為【破壞的交響曲 +】",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1135,
+		need_exp = 750,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19220,
+			18220
+		}
+	},
 	[1201] = {
 		effect_equipment_proficiency = "",
 		effect_skill = "",
@@ -25553,6 +25709,11 @@ pg.ship_strengthen_blueprint = {
 		1128,
 		1129,
 		1130,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135,
 		1201,
 		1202,
 		1203,

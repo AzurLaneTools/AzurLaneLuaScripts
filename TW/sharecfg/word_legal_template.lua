@@ -2455,6 +2455,9 @@ function temp()
 			["頓"] = {
 				this = true
 			}
+		},
+		["甲"] = {
+			this = true
 		}
 	}
 end
@@ -5024,7 +5027,12 @@ temp()
 function temp()
 	uv0["逸"] = {
 		["仙"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6389,6 +6397,28 @@ temp()
 function temp()
 	uv0["紫"] = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["忒"] = {
+		["修"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["定"] = {
+		["安"] = {
 			this = true
 		}
 	}

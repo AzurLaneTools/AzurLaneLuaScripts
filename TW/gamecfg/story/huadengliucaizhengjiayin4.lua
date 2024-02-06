@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>戏春腾龙游园时</size>",
+					"華燈流彩正佳音\n\n<size=45>戲春騰龍遊園時</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 499071,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "啧……明明是最热闹的时候，指挥官那家伙跑哪去了啊……",
+			say = "嘖……明明是最熱鬧的時候，指揮官那傢伙跑去哪了啊……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，原来在这边~！指挥官，快过来！",
+			say = "啊，原來在這邊~！指揮官，快過來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，收好这个~！",
+			say = "嘿嘿，收好這個~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……在东煌的说法里，这个叫做“红包”来着？",
+			say = "嗯……在東煌的說法裡，這個叫做「紅包」來著？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然里面装的东西不是钱……总之，收了本小姐的东西，新的一年也要继续跟在本小姐身后辅助我才行！",
+			say = "雖然裡面裝的東西不是錢……總之，收了本小姐的東西，新的一年也要繼續跟在本小姐身後輔助我才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			},
 			options = {
 				{
-					content = "……红包？",
+					content = "……紅包？",
 					flag = 1
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~按照东煌的习俗，给小弟发新年红包不是理所当然的么~",
+			say = "哼哼~依照東煌的習俗，給小弟發新年紅包不是理所當然的嗎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就说明本小姐的地位在你之上啦~！",
+			say = "這就說明本小姐的地位在你之上啦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,11 +161,11 @@ return {
 			},
 			options = {
 				{
-					content = "笑而不语",
+					content = "笑而不語",
 					flag = 1
 				},
 				{
-					content = "拿出准备好的零食——",
+					content = "拿出準備好的零食——",
 					flag = 2
 				}
 			}
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "……这个表情是表示默认的意思么？",
+			say = "……這個表情是表示默認的意思嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "咳，很好！那……新年的第一个任务，就带本小姐去逛逛春节的港区好了！",
+			say = "咳，很好！那……新年的第一個任務，就帶本小姐去逛逛春節的港區好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哦……！这是！",
+			say = "哦……！這是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "（咬咬）……山楂串？酸酸甜甜的，还挺好吃的嘛……",
+			say = "（咬咬）……山楂串？酸酸甜甜的，還蠻好吃的嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "看在山楂串的份上，本小姐特许你牵着我的手，带我逛春节的港区！",
+			say = "看在山楂串的份上，本小姐特許你牽著我的手，帶我逛春節的港區！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以，你其实迷路了？",
+			say = "所以，妳其實迷路了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……！不是！才没有！",
+			say = "……！不是！才沒有！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……不要再说啦！快带路！笨蛋！",
+			say = "嗚……不要再說啦！快帶路！笨蛋！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇……东煌的春节果然很热闹……",
+			say = "嗚哇……東煌的春節果然很熱鬧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过明明是在冬天举办的节日，为什么要叫做“春节”呢……搞不懂。",
+			say = "不過明明是冬天舉辦的節日，為什麼要叫做「春節」呢……搞不懂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了不想这些了……我们去看看{namecode:480}说的“会飞的狮子”好了~！",
+			say = "算了不想這些了……我們去看看埃吉爾說的「會飛的獅子」好了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……会飞的狮子？",
+			say = "……會飛的獅子？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是那种会在春节的夜里飞来飞去，闯进人们的家里吃掉小孩子的怪兽！",
+			say = "就是那種會在春節的夜裡飛來飛去，闖進人們的家裡吃掉小孩的怪獸！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，你说我把舞狮和年兽给弄反了？咳……那个……",
+			say = "欸，你說我把舞獅和年獸弄反了？咳……那個……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不许顶嘴！",
+			say = "不、不許頂嘴！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，那边的活动看起来也很有意思！指挥官，快跟上快跟上！",
+			say = "啊，那邊的活動看起來也很有趣！指揮官，快跟快跟上！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，新的一年里也继续跟在本小姐的身后就好啦~！",
+			say = "總之，新的一年也繼續跟在本小姐的身後就好啦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

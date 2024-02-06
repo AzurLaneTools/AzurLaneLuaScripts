@@ -114410,6 +114410,506 @@ _G.pg.base.ship_data_statistics[206074] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[206081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "忒修斯",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206080,
+	english_name = "HMS Theseus",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		826,
+		0,
+		0,
+		49,
+		81,
+		61,
+		0,
+		32,
+		18,
+		25,
+		71,
+		30
+	},
+	attrs_growth = {
+		22166,
+		0,
+		0,
+		1072,
+		997,
+		422,
+		0,
+		511,
+		380,
+		0,
+		0,
+		364
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.15,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Colossus-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "忒修斯",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206080,
+	english_name = "HMS Theseus",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1027,
+		0,
+		0,
+		61,
+		101,
+		61,
+		0,
+		32,
+		18,
+		25,
+		71,
+		37
+	},
+	attrs_growth = {
+		22166,
+		0,
+		0,
+		1072,
+		997,
+		422,
+		0,
+		511,
+		380,
+		0,
+		0,
+		364
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.02,
+		1.17,
+		1.42
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Colossus-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "忒修斯",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206080,
+	english_name = "HMS Theseus",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1430,
+		0,
+		0,
+		85,
+		141,
+		61,
+		0,
+		32,
+		18,
+		25,
+		71,
+		52
+	},
+	attrs_growth = {
+		22166,
+		0,
+		0,
+		1072,
+		997,
+		422,
+		0,
+		511,
+		380,
+		0,
+		0,
+		364
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.2,
+		1.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Colossus-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "忒修斯",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206080,
+	english_name = "HMS Theseus",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2034,
+		0,
+		0,
+		122,
+		201,
+		61,
+		0,
+		32,
+		18,
+		25,
+		71,
+		75
+	},
+	attrs_growth = {
+		22166,
+		0,
+		0,
+		1072,
+		997,
+		422,
+		0,
+		511,
+		380,
+		0,
+		0,
+		364
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.25,
+		1.5
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Colossus-Class",
+		"Royal Fleet-CVL"
+	}
+}
+
 _G.pg.base.ship_data_statistics[207011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -231964,6 +232464,132 @@ _G.pg.base.ship_data_statistics[502014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[502114] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "逸仙.改",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 502010,
+	english_name = "ROC Yat Sen",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 502114,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		809,
+		55,
+		0,
+		163,
+		0,
+		67,
+		0,
+		50,
+		24,
+		19,
+		64,
+		33
+	},
+	attrs_growth = {
+		8145,
+		309,
+		0,
+		1383,
+		0,
+		467,
+		0,
+		744,
+		521,
+		0,
+		0,
+		165
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.2,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Yat sen"
+	}
+}
+
 _G.pg.base.ship_data_statistics[502021] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -235533,6 +236159,990 @@ _G.pg.base.ship_data_statistics[506014] = {
 	},
 	tag_list = {
 		"Chen Hai"
+	}
+}
+
+_G.pg.base.ship_data_statistics[506021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "華甲",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 506020,
+	english_name = "Hwah Jah",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 506021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		802,
+		0,
+		0,
+		27,
+		62,
+		64,
+		0,
+		28,
+		13,
+		12,
+		53,
+		0
+	},
+	attrs_growth = {
+		21850,
+		0,
+		0,
+		593,
+		815,
+		445,
+		0,
+		458,
+		305,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		152,
+		152,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hwah Jahi"
+	}
+}
+
+_G.pg.base.ship_data_statistics[506022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "華甲",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 506020,
+	english_name = "Hwah Jah",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 506022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		998,
+		0,
+		0,
+		34,
+		77,
+		64,
+		0,
+		28,
+		13,
+		12,
+		53,
+		0
+	},
+	attrs_growth = {
+		21850,
+		0,
+		0,
+		593,
+		815,
+		445,
+		0,
+		458,
+		305,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		152,
+		152,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hwah Jahi"
+	}
+}
+
+_G.pg.base.ship_data_statistics[506023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "華甲",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 506020,
+	english_name = "Hwah Jah",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 506023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1389,
+		0,
+		0,
+		47,
+		108,
+		64,
+		0,
+		28,
+		13,
+		12,
+		53,
+		0
+	},
+	attrs_growth = {
+		21850,
+		0,
+		0,
+		593,
+		815,
+		445,
+		0,
+		458,
+		305,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		152,
+		152,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hwah Jahi"
+	}
+}
+
+_G.pg.base.ship_data_statistics[506024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "華甲",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 506020,
+	english_name = "Hwah Jah",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 506024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1975,
+		0,
+		0,
+		67,
+		154,
+		64,
+		0,
+		28,
+		13,
+		12,
+		53,
+		0
+	},
+	attrs_growth = {
+		21850,
+		0,
+		0,
+		593,
+		815,
+		445,
+		0,
+		458,
+		305,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		152,
+		152,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hwah Jahi"
+	}
+}
+
+_G.pg.base.ship_data_statistics[519011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "定安",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 519010,
+	english_name = "Ting An",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 519011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		382,
+		0,
+		0,
+		25,
+		29,
+		55,
+		0,
+		49,
+		36,
+		9,
+		49,
+		0
+	},
+	attrs_growth = {
+		9305,
+		0,
+		0,
+		545,
+		401,
+		385,
+		0,
+		700,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ting An"
+	}
+}
+
+_G.pg.base.ship_data_statistics[519012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "定安",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 519010,
+	english_name = "Ting An",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 519012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		475,
+		0,
+		0,
+		31,
+		36,
+		55,
+		0,
+		49,
+		36,
+		9,
+		49,
+		0
+	},
+	attrs_growth = {
+		9305,
+		0,
+		0,
+		545,
+		401,
+		385,
+		0,
+		700,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ting An"
+	}
+}
+
+_G.pg.base.ship_data_statistics[519013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "定安",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 519010,
+	english_name = "Ting An",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 519013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		661,
+		0,
+		0,
+		43,
+		50,
+		55,
+		0,
+		49,
+		36,
+		9,
+		49,
+		0
+	},
+	attrs_growth = {
+		9305,
+		0,
+		0,
+		545,
+		401,
+		385,
+		0,
+		700,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.9,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ting An"
+	}
+}
+
+_G.pg.base.ship_data_statistics[519014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "定安",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 519010,
+	english_name = "Ting An",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 5,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 519014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		940,
+		0,
+		0,
+		62,
+		72,
+		55,
+		0,
+		49,
+		36,
+		9,
+		49,
+		0
+	},
+	attrs_growth = {
+		9305,
+		0,
+		0,
+		545,
+		401,
+		385,
+		0,
+		700,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ting An"
 	}
 }
 
@@ -255698,6 +257308,514 @@ _G.pg.base.ship_data_statistics[702044] = {
 		{}
 	},
 	tag_list = {
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "古比雪夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702050,
+	english_name = "SN Kuybyshev",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		748,
+		33,
+		0,
+		63,
+		0,
+		72,
+		0,
+		57,
+		30,
+		33.5,
+		73,
+		36
+	},
+	attrs_growth = {
+		18552,
+		450,
+		0,
+		1329,
+		0,
+		501,
+		0,
+		841,
+		599,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chapayev-Class",
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "古比雪夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702050,
+	english_name = "SN Kuybyshev",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		930,
+		41,
+		0,
+		78,
+		0,
+		72,
+		0,
+		57,
+		30,
+		33.5,
+		73,
+		45
+	},
+	attrs_growth = {
+		18552,
+		450,
+		0,
+		1329,
+		0,
+		501,
+		0,
+		841,
+		599,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chapayev-Class",
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "古比雪夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702050,
+	english_name = "SN Kuybyshev",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1295,
+		57,
+		0,
+		109,
+		0,
+		72,
+		0,
+		57,
+		30,
+		33.5,
+		73,
+		62
+	},
+	attrs_growth = {
+		18552,
+		450,
+		0,
+		1329,
+		0,
+		501,
+		0,
+		841,
+		599,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chapayev-Class",
+		"Northern Union-CL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[702054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "古比雪夫",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 702050,
+	english_name = "SN Kuybyshev",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 7,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 702054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1843,
+		81,
+		0,
+		155,
+		0,
+		72,
+		0,
+		57,
+		30,
+		33.5,
+		73,
+		89
+	},
+	attrs_growth = {
+		18552,
+		450,
+		0,
+		1329,
+		0,
+		501,
+		0,
+		841,
+		599,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chapayev-Class",
 		"Northern Union-CL"
 	}
 }

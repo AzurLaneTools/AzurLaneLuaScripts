@@ -23,6 +23,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 
 	slot0.smooth = slot1.smooth / 1000
+	slot0.smoothRevert = slot1.revert_smooth / 1000
 	slot0.revert = slot1.revert
 	slot0.ignoreReact = slot1.ignore_react == 1
 	slot0.gyro = slot1.gyro == 1 or nil
@@ -39,12 +40,14 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.actionTriggerActive = slot1.action_trigger_active
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.revertIdleIndex = slot1.revert_idle_index == 1 and true or false
 	slot0.randomAttitudeIndex = L2D_RANDOM_PARAM
 	slot0._active = false
 	slot0._parameterCom = nil
 	slot0.parameterValue = slot0.startValue
 	slot0.parameterTargetValue = slot0.startValue
 	slot0.parameterSmooth = 0
+	slot0.parameterSmoothTime = slot0.smooth
 	slot0.mouseInputDown = Vector2(0, 0)
 	slot0.nextTriggerTime = 0
 	slot0.triggerActionTime = 0
@@ -70,6 +73,7 @@ function slot0.startDrag(slot0)
 		slot0.mouseInputDownTime = Time.time
 		slot0.triggerActionTime = 0
 		slot0.actionListIndex = 1
+		slot0.parameterSmoothTime = slot0.smooth
 	end
 end
 
@@ -79,6 +83,7 @@ function slot0.stopDrag(slot0)
 
 		if slot0.revert > 0 then
 			slot0.parameterToStart = slot0.revert / 1000
+			slot0.parameterSmoothTime = slot0.smoothRevert
 		end
 
 		if slot0.offsetDragX then
@@ -395,8 +400,8 @@ function slot0.updateParameterValue(slot0)
 	if slot0._parameterUpdateFlag and slot0.parameterValue ~= slot0.parameterTargetValue then
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
-		elseif slot0.smooth and slot0.smooth > 0 then
-			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
+		elseif slot0.parameterSmoothTime and slot0.parameterSmoothTime > 0 then
+			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.parameterSmoothTime)
 
 			slot0:setParameterValue(slot1, slot2)
 		else
@@ -654,6 +659,10 @@ function slot0.isActionTriggerAble(slot0)
 end
 
 function slot0.updateStateData(slot0, slot1)
+	if slot0.revertIdleIndex and slot0.l2dIdleIndex ~= slot1.idleIndex then
+		slot0:setTargetValue(slot0.startValue)
+	end
+
 	slot0.l2dIdleIndex = slot1.idleIndex
 	slot0.l2dIsPlaying = slot1.isPlaying
 	slot0.l2dIgnoreReact = slot1.ignoreReact

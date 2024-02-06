@@ -1400,28 +1400,192 @@ pg.voice_actor_CN = {
 		code = 350,
 		actor_name = "羊宮妃那"
 	},
-	[355] = {
+	{
+		code = 351,
+		actor_name = "土屋李央"
+	},
+	{
+		code = 352,
+		actor_name = "村上奈津實"
+	},
+	{
+		code = 353,
+		actor_name = "田中千惠美"
+	},
+	{
+		code = 354,
+		actor_name = "貫井柚佳"
+	},
+	{
 		code = 355,
 		actor_name = "張琦"
 	},
-	[360] = {
+	{
+		code = 356,
+		actor_name = "Yukana"
+	},
+	{
+		code = 357,
+		actor_name = "高木美佑"
+	},
+	{
+		code = 358,
+		actor_name = "櫻庭有紗"
+	},
+	{
+		code = 359,
+		actor_name = "進藤天音"
+	},
+	{
 		code = 360,
 		actor_name = "春花蘭"
 	},
-	[361] = {
+	{
 		code = 361,
 		actor_name = "衣川里佳"
 	},
-	[365] = {
+	{
+		code = 362,
+		actor_name = "冰青"
+	},
+	{
+		code = 363,
+		actor_name = "愛原亞里沙"
+	},
+	{
+		code = 364,
+		actor_name = "春野杏"
+	},
+	{
 		code = 365,
 		actor_name = "香月遙"
 	},
-	[376] = {
+	{
+		code = 366,
+		actor_name = "村雨"
+	},
+	{
+		code = 367,
+		actor_name = "秦紫翼"
+	},
+	{
+		code = 368,
+		actor_name = "藍原琴美"
+	},
+	{
+		code = 369,
+		actor_name = "津田里穗"
+	},
+	{
+		code = 370,
+		actor_name = "富士原晴乃"
+	},
+	{
+		code = 371,
+		actor_name = "青山吉能"
+	},
+	{
+		code = 372,
+		actor_name = "松井惠理子"
+	},
+	{
+		code = 373,
+		actor_name = "澤田姬"
+	},
+	{
+		code = 374,
+		actor_name = "齊藤朱夏"
+	},
+	{
+		code = 375,
+		actor_name = "守屋亨香"
+	},
+	{
 		code = 376,
 		actor_name = "高橋花林"
 	},
-	[388] = {
+	{
+		code = 377,
+		actor_name = "天海由梨奈"
+	},
+	{
+		code = 378,
+		actor_name = "山根綺"
+	},
+	{
+		code = 379,
+		actor_name = "和泉風花"
+	},
+	{
+		code = 380,
+		actor_name = "岩橋由佳"
+	},
+	{
+		code = 381,
+		actor_name = "Machico"
+	},
+	{
+		code = 382,
+		actor_name = "野中深愛"
+	},
+	{
+		code = 383,
+		actor_name = "倉持若菜"
+	},
+	{
+		code = 384,
+		actor_name = "HINATA YUKA"
+	},
+	{
+		code = 385,
+		actor_name = "佐藤日向"
+	},
+	{
+		code = 386,
+		actor_name = "川口莉奈"
+	},
+	{
+		code = 387,
+		actor_name = "葉山郁美"
+	},
+	{
 		code = 388,
 		actor_name = "原田瞳"
+	},
+	{
+		code = 389,
+		actor_name = "各務華梨"
+	},
+	{
+		code = 390,
+		actor_name = "佐伯伊織"
+	},
+	{
+		code = 391,
+		actor_name = "深川瑠華"
+	},
+	{
+		code = 392,
+		actor_name = "依田菜津"
+	},
+	{
+		code = 393,
+		actor_name = "佐土原香織"
+	},
+	{
+		code = 394,
+		actor_name = "又吉愛"
+	},
+	{
+		code = 395,
+		actor_name = "佐佐木未來"
+	},
+	{
+		code = 396,
+		actor_name = "牧野天音"
+	},
+	{
+		code = 397,
+		actor_name = "羽月理惠"
 	}
 }

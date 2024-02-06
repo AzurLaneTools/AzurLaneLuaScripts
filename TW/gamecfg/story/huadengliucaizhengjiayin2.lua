@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>松戏梅·其一</size>",
+					"華燈流彩正佳音\n\n<size=45>松戲梅·其一</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——",
+			say = "空氣中氤氳著新墨的清香，這裡原本似乎應該在…寫春聯？只是正在發生的事情似乎與寫春聯毫無關係——",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actorName = "肇和",
 			side = 2,
-			say = "喂！应瑞，你刚刚在偷笑对吧？",
+			say = "喂！應瑞，妳剛剛在偷笑對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有哦。",
+			say = "沒有哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actorName = "肇和",
 			side = 2,
-			say = "明明就是在偷笑吧！我在桌下都听见了！",
+			say = "明明就是在偷笑吧！我在桌下都聽見了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actorName = "肇和",
 			side = 2,
-			say = "绝对是你在捣鬼……真是的……",
+			say = "絕對是妳在搗鬼……真是的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比起这个……新年快乐，指挥官~",
+			say = "比起這個……新年快樂，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。",
+			say = "肇和，不趕快結束工作的話，妳的樣子可就要被指揮官看見了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actorName = "肇和",
 			side = 2,
-			say = "啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！",
+			say = "啊指揮官！什什什什什麼時候進來的！……咳，新年快樂，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			},
 			options = {
 				{
-					content = "看向应瑞",
+					content = "看向應瑞",
 					flag = 1
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~如指挥官您所见，我们正在……嗯，写春联？",
+			say = "呵呵~如指揮官您所見，我們正在…嗯，寫春聯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对，没错，写春联哟。至于现在的状况……呵呵，不必在意~",
+			say = "對，沒錯，寫春聯喲。至於現在的狀況……呵呵，不必在意~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请您在旁边稍微休息片刻，静待事情的发展就好。",
+			say = "請在旁邊稍微休息片刻，靜待事情的發展就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您说肇和吗？呵呵，她负责的工作是……春联的装饰。",
+			say = "您說肇和嗎？呵呵，她負責的工作是……春聯的裝飾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，她现在似乎遇到一点小小的麻烦了呢。",
+			say = "不過，她現在似乎遇到一點小小的麻煩了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你手上拿着的是……？",
+			say = "妳手上拿著的是……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是能为春节增添一点点意料之外的情趣的东西。",
+			say = "只是能為春節增添一點點意料之外的情趣的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘，指挥官。有时候知而不言也是一种智慧哟。",
+			say = "噓，指揮官。有時候知而不言也是一種智慧喲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actorName = "肇和",
 			side = 2,
-			say = "啊！真是讨厌！！这小东西跑得太快了吧……快把装饰还给我！！！",
+			say = "啊！真是討厭！！這小東西跑的太快了吧……快把裝飾還給我！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			},
 			options = {
 				{
-					content = "可怜的肇和……",
+					content = "可憐的肇和……",
 					flag = 1
 				}
 			}
@@ -369,7 +369,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就当做春节故事上一抹华丽的点彩好了~",
+			say = "就當做春節故事上一抹華麗的點彩好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，劳烦您继续美好的春节游园之旅吧~",
+			say = "指揮官，勞煩您繼續美好的春節遊園之旅吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

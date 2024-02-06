@@ -3868,6 +3868,105 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_351_2_2",
 		"ins_op_351_1_1",
 		"op_reply_351_1_1",
+		"ins_352",
+		"ins_discuss_352_1",
+		"ins_reply_352_1_1",
+		"ins_discuss_352_2",
+		"ins_reply_352_2_1",
+		"ins_reply_352_2_2",
+		"ins_discuss_352_3",
+		"ins_reply_352_3_1",
+		"ins_op_352_1_1",
+		"op_reply_352_1_1",
+		"ins_353",
+		"ins_discuss_353_1",
+		"ins_reply_353_1_1",
+		"ins_discuss_353_2",
+		"ins_reply_353_2_1",
+		"ins_discuss_353_3",
+		"ins_reply_353_3_1",
+		"ins_op_353_1_1",
+		"op_reply_353_1_1",
+		"ins_354",
+		"ins_discuss_354_1",
+		"ins_reply_354_1_1",
+		"ins_reply_354_1_2",
+		"ins_discuss_354_2",
+		"ins_reply_354_2_1",
+		"ins_reply_354_2_2",
+		"ins_op_354_1_1",
+		"op_reply_354_1_1",
+		"ins_355",
+		"ins_discuss_355_1",
+		"ins_reply_355_1_1",
+		"ins_discuss_355_2",
+		"ins_reply_355_2_1",
+		"ins_reply_355_2_2",
+		"ins_reply_355_2_3",
+		"ins_op_355_1_1",
+		"op_reply_355_1_1",
+		"ins_356",
+		"ins_discuss_356_1",
+		"ins_reply_356_1_1",
+		"ins_discuss_356_2",
+		"ins_reply_356_2_1",
+		"ins_reply_356_2_2",
+		"ins_reply_356_2_3",
+		"ins_discuss_356_3",
+		"ins_reply_356_3_1",
+		"ins_op_356_1_1",
+		"op_reply_356_1_1",
+		"ins_357",
+		"ins_discuss_357_1",
+		"ins_reply_357_1_1",
+		"ins_discuss_357_2",
+		"ins_reply_357_2_1",
+		"ins_reply_357_2_2",
+		"ins_reply_357_2_3",
+		"ins_op_357_1_1",
+		"op_reply_357_1_1",
+		"ins_358",
+		"ins_discuss_358_1",
+		"ins_reply_358_1_1",
+		"ins_reply_358_1_2",
+		"ins_reply_358_1_3",
+		"ins_discuss_358_2",
+		"ins_reply_358_2_1",
+		"ins_reply_358_2_2",
+		"ins_op_358_1_1",
+		"op_reply_358_1_1",
+		"ins_359",
+		"ins_discuss_359_1",
+		"ins_reply_359_1_1",
+		"ins_discuss_359_2",
+		"ins_reply_359_2_1",
+		"ins_discuss_359_3",
+		"ins_reply_359_3_1",
+		"ins_reply_359_3_2",
+		"ins_op_359_1_1",
+		"op_reply_359_1_1",
+		"ins_360",
+		"ins_discuss_360_1",
+		"ins_reply_360_1_1",
+		"ins_reply_360_1_2",
+		"ins_discuss_360_2",
+		"ins_reply_360_2_1",
+		"ins_reply_360_2_2",
+		"ins_discuss_360_3",
+		"ins_reply_360_3_1",
+		"ins_op_360_1_1",
+		"op_reply_360_1_1",
+		"ins_361",
+		"ins_discuss_361_1",
+		"ins_reply_361_1_1",
+		"ins_discuss_361_2",
+		"ins_reply_361_2_1",
+		"ins_discuss_361_3",
+		"ins_reply_361_3_1",
+		"ins_op_361_1_1",
+		"op_reply_361_1_1",
+		"ins_op_361_1_2",
+		"op_reply_361_1_2",
 		"ins_367",
 		"ins_discuss_367_1",
 		"ins_reply_367_1_1",
@@ -15580,6 +15679,303 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_351_1_1 = {
 		value = "還附帶遠距教學系統，就算不來學校的孩子也能好好上到課了。"
+	},
+	ins_352 = {
+		value = ""
+	},
+	ins_discuss_352_1 = {
+		value = ""
+	},
+	ins_reply_352_1_1 = {
+		value = ""
+	},
+	ins_discuss_352_2 = {
+		value = ""
+	},
+	ins_reply_352_2_1 = {
+		value = ""
+	},
+	ins_reply_352_2_2 = {
+		value = ""
+	},
+	ins_discuss_352_3 = {
+		value = ""
+	},
+	ins_reply_352_3_1 = {
+		value = ""
+	},
+	ins_op_352_1_1 = {
+		value = ""
+	},
+	op_reply_352_1_1 = {
+		value = ""
+	},
+	ins_353 = {
+		value = ""
+	},
+	ins_discuss_353_1 = {
+		value = ""
+	},
+	ins_reply_353_1_1 = {
+		value = ""
+	},
+	ins_discuss_353_2 = {
+		value = ""
+	},
+	ins_reply_353_2_1 = {
+		value = ""
+	},
+	ins_discuss_353_3 = {
+		value = ""
+	},
+	ins_reply_353_3_1 = {
+		value = ""
+	},
+	ins_op_353_1_1 = {
+		value = ""
+	},
+	op_reply_353_1_1 = {
+		value = ""
+	},
+	ins_354 = {
+		value = ""
+	},
+	ins_discuss_354_1 = {
+		value = ""
+	},
+	ins_reply_354_1_1 = {
+		value = ""
+	},
+	ins_reply_354_1_2 = {
+		value = ""
+	},
+	ins_discuss_354_2 = {
+		value = ""
+	},
+	ins_reply_354_2_1 = {
+		value = ""
+	},
+	ins_reply_354_2_2 = {
+		value = ""
+	},
+	ins_op_354_1_1 = {
+		value = ""
+	},
+	op_reply_354_1_1 = {
+		value = ""
+	},
+	ins_355 = {
+		value = ""
+	},
+	ins_discuss_355_1 = {
+		value = ""
+	},
+	ins_reply_355_1_1 = {
+		value = ""
+	},
+	ins_discuss_355_2 = {
+		value = ""
+	},
+	ins_reply_355_2_1 = {
+		value = ""
+	},
+	ins_reply_355_2_2 = {
+		value = ""
+	},
+	ins_reply_355_2_3 = {
+		value = ""
+	},
+	ins_op_355_1_1 = {
+		value = ""
+	},
+	op_reply_355_1_1 = {
+		value = ""
+	},
+	ins_356 = {
+		value = ""
+	},
+	ins_discuss_356_1 = {
+		value = ""
+	},
+	ins_reply_356_1_1 = {
+		value = ""
+	},
+	ins_discuss_356_2 = {
+		value = ""
+	},
+	ins_reply_356_2_1 = {
+		value = ""
+	},
+	ins_reply_356_2_2 = {
+		value = ""
+	},
+	ins_reply_356_2_3 = {
+		value = ""
+	},
+	ins_discuss_356_3 = {
+		value = ""
+	},
+	ins_reply_356_3_1 = {
+		value = ""
+	},
+	ins_op_356_1_1 = {
+		value = ""
+	},
+	op_reply_356_1_1 = {
+		value = ""
+	},
+	ins_357 = {
+		value = ""
+	},
+	ins_discuss_357_1 = {
+		value = ""
+	},
+	ins_reply_357_1_1 = {
+		value = ""
+	},
+	ins_discuss_357_2 = {
+		value = ""
+	},
+	ins_reply_357_2_1 = {
+		value = ""
+	},
+	ins_reply_357_2_2 = {
+		value = ""
+	},
+	ins_reply_357_2_3 = {
+		value = ""
+	},
+	ins_op_357_1_1 = {
+		value = ""
+	},
+	op_reply_357_1_1 = {
+		value = ""
+	},
+	ins_358 = {
+		value = ""
+	},
+	ins_discuss_358_1 = {
+		value = ""
+	},
+	ins_reply_358_1_1 = {
+		value = ""
+	},
+	ins_reply_358_1_2 = {
+		value = ""
+	},
+	ins_reply_358_1_3 = {
+		value = ""
+	},
+	ins_discuss_358_2 = {
+		value = ""
+	},
+	ins_reply_358_2_1 = {
+		value = ""
+	},
+	ins_reply_358_2_2 = {
+		value = ""
+	},
+	ins_op_358_1_1 = {
+		value = ""
+	},
+	op_reply_358_1_1 = {
+		value = ""
+	},
+	ins_359 = {
+		value = ""
+	},
+	ins_discuss_359_1 = {
+		value = ""
+	},
+	ins_reply_359_1_1 = {
+		value = ""
+	},
+	ins_discuss_359_2 = {
+		value = ""
+	},
+	ins_reply_359_2_1 = {
+		value = ""
+	},
+	ins_discuss_359_3 = {
+		value = ""
+	},
+	ins_reply_359_3_1 = {
+		value = ""
+	},
+	ins_reply_359_3_2 = {
+		value = ""
+	},
+	ins_op_359_1_1 = {
+		value = ""
+	},
+	op_reply_359_1_1 = {
+		value = ""
+	},
+	ins_360 = {
+		value = ""
+	},
+	ins_discuss_360_1 = {
+		value = ""
+	},
+	ins_reply_360_1_1 = {
+		value = ""
+	},
+	ins_reply_360_1_2 = {
+		value = ""
+	},
+	ins_discuss_360_2 = {
+		value = ""
+	},
+	ins_reply_360_2_1 = {
+		value = ""
+	},
+	ins_reply_360_2_2 = {
+		value = ""
+	},
+	ins_discuss_360_3 = {
+		value = ""
+	},
+	ins_reply_360_3_1 = {
+		value = ""
+	},
+	ins_op_360_1_1 = {
+		value = ""
+	},
+	op_reply_360_1_1 = {
+		value = ""
+	},
+	ins_361 = {
+		value = ""
+	},
+	ins_discuss_361_1 = {
+		value = ""
+	},
+	ins_reply_361_1_1 = {
+		value = ""
+	},
+	ins_discuss_361_2 = {
+		value = ""
+	},
+	ins_reply_361_2_1 = {
+		value = ""
+	},
+	ins_discuss_361_3 = {
+		value = ""
+	},
+	ins_reply_361_3_1 = {
+		value = ""
+	},
+	ins_op_361_1_1 = {
+		value = ""
+	},
+	op_reply_361_1_1 = {
+		value = ""
+	},
+	ins_op_361_1_2 = {
+		value = ""
+	},
+	op_reply_361_1_2 = {
+		value = ""
 	},
 	ins_367 = {
 		value = "趁冬天結束前，堆一個雪人。"

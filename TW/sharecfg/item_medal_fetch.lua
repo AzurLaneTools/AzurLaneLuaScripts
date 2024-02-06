@@ -144,7 +144,43 @@ pg.item_medal_fetch = setmetatable({
 		182,
 		183,
 		184,
-		185
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1148,6 +1184,258 @@ pg.base.item_medal_fetch = {
 		name = "蓝图：加斯科涅",
 		itemquantity = 2,
 		id = 185,
+		price = 40
+	},
+	[186] = {
+		itemid = 42010,
+		name = "定向藍圖・二期",
+		itemquantity = 1,
+		id = 186,
+		price = 20
+	},
+	[187] = {
+		itemid = 42010,
+		name = "定向藍圖・二期",
+		itemquantity = 2,
+		id = 187,
+		price = 40
+	},
+	[188] = {
+		itemid = 42021,
+		name = "藍圖：柴郡",
+		itemquantity = 1,
+		id = 188,
+		price = 20
+	},
+	[189] = {
+		itemid = 42022,
+		name = "藍圖：德雷克",
+		itemquantity = 1,
+		id = 189,
+		price = 20
+	},
+	[190] = {
+		itemid = 42023,
+		name = "藍圖：{namecode:479}",
+		itemquantity = 1,
+		id = 190,
+		price = 20
+	},
+	[191] = {
+		itemid = 42024,
+		name = "藍圖：{namecode:486}",
+		itemquantity = 1,
+		id = 191,
+		price = 20
+	},
+	[192] = {
+		itemid = 42025,
+		name = "藍圖：香檳",
+		itemquantity = 1,
+		id = 192,
+		price = 20
+	},
+	[193] = {
+		itemid = 42021,
+		name = "藍圖：柴郡",
+		itemquantity = 2,
+		id = 193,
+		price = 40
+	},
+	[194] = {
+		itemid = 42022,
+		name = "藍圖：德雷克",
+		itemquantity = 2,
+		id = 194,
+		price = 40
+	},
+	[195] = {
+		itemid = 42023,
+		name = "藍圖：{namecode:479}",
+		itemquantity = 2,
+		id = 195,
+		price = 40
+	},
+	[196] = {
+		itemid = 42024,
+		name = "藍圖：{namecode:486}",
+		itemquantity = 2,
+		id = 196,
+		price = 40
+	},
+	[197] = {
+		itemid = 42025,
+		name = "藍圖：香檳",
+		itemquantity = 2,
+		id = 197,
+		price = 40
+	},
+	[198] = {
+		itemid = 42020,
+		name = "定向藍圖・三期",
+		itemquantity = 1,
+		id = 198,
+		price = 20
+	},
+	[199] = {
+		itemid = 42020,
+		name = "定向藍圖・三期",
+		itemquantity = 2,
+		id = 199,
+		price = 40
+	},
+	[200] = {
+		itemid = 42031,
+		name = "藍圖：安克拉治",
+		itemquantity = 1,
+		id = 200,
+		price = 20
+	},
+	[201] = {
+		itemid = 42032,
+		name = "藍圖：{namecode:204}",
+		itemquantity = 1,
+		id = 201,
+		price = 20
+	},
+	[202] = {
+		itemid = 42033,
+		name = "藍圖：{namecode:480}",
+		itemquantity = 1,
+		id = 202,
+		price = 20
+	},
+	[203] = {
+		itemid = 42034,
+		name = "藍圖：{namecode:481}",
+		itemquantity = 1,
+		id = 203,
+		price = 20
+	},
+	[204] = {
+		itemid = 42035,
+		name = "藍圖：馬可波羅",
+		itemquantity = 1,
+		id = 204,
+		price = 20
+	},
+	[205] = {
+		itemid = 42031,
+		name = "藍圖：安克拉治",
+		itemquantity = 2,
+		id = 205,
+		price = 40
+	},
+	[206] = {
+		itemid = 42032,
+		name = "藍圖：{namecode:204}",
+		itemquantity = 2,
+		id = 206,
+		price = 40
+	},
+	[207] = {
+		itemid = 42033,
+		name = "藍圖：{namecode:480}",
+		itemquantity = 2,
+		id = 207,
+		price = 40
+	},
+	[208] = {
+		itemid = 42034,
+		name = "藍圖：{namecode:481}",
+		itemquantity = 2,
+		id = 208,
+		price = 40
+	},
+	[209] = {
+		itemid = 42035,
+		name = "藍圖：馬可波羅",
+		itemquantity = 2,
+		id = 209,
+		price = 40
+	},
+	[210] = {
+		itemid = 42030,
+		name = "定向藍圖・四期",
+		itemquantity = 1,
+		id = 210,
+		price = 20
+	},
+	[211] = {
+		itemid = 42030,
+		name = "定向藍圖・四期",
+		itemquantity = 2,
+		id = 211,
+		price = 40
+	},
+	[212] = {
+		itemid = 42041,
+		name = "藍圖：普利茅斯",
+		itemquantity = 1,
+		id = 212,
+		price = 20
+	},
+	[213] = {
+		itemid = 42042,
+		name = "藍圖：{namecode:484}",
+		itemquantity = 1,
+		id = 213,
+		price = 20
+	},
+	[214] = {
+		itemid = 42043,
+		name = "藍圖：{namecode:224}",
+		itemquantity = 1,
+		id = 214,
+		price = 20
+	},
+	[215] = {
+		itemid = 42044,
+		name = "藍圖：契卡洛夫",
+		itemquantity = 1,
+		id = 215,
+		price = 20
+	},
+	[216] = {
+		itemid = 42045,
+		name = "藍圖：布雷斯特",
+		itemquantity = 1,
+		id = 216,
+		price = 20
+	},
+	[217] = {
+		itemid = 42041,
+		name = "藍圖：普利茅斯",
+		itemquantity = 2,
+		id = 217,
+		price = 40
+	},
+	[218] = {
+		itemid = 42042,
+		name = "藍圖：{namecode:484}",
+		itemquantity = 2,
+		id = 218,
+		price = 40
+	},
+	[219] = {
+		itemid = 42043,
+		name = "藍圖：{namecode:224}",
+		itemquantity = 2,
+		id = 219,
+		price = 40
+	},
+	[220] = {
+		itemid = 42044,
+		name = "藍圖：契卡洛夫",
+		itemquantity = 2,
+		id = 220,
+		price = 40
+	},
+	[221] = {
+		itemid = 42045,
+		name = "藍圖：布雷斯特",
+		itemquantity = 2,
+		id = 221,
 		price = 40
 	}
 }

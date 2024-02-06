@@ -43,7 +43,13 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/backyard_btn",
+				dynamicPath = function ()
+					if LOCK_EDUCATE_SYSTEM then
+						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaOldUI(Clone)/backyard_btn"
+					else
+						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/backyard_btn"
+					end
+				end,
 				triggerType = {
 					1
 				},

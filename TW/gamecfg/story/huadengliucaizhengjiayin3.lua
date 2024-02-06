@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>松戏梅·其二</size>",
+					"華燈流彩正佳音\n\n<size=45>松戲梅·其二</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——",
+			say = "空氣中氤氳著新墨的清香，這裡原本似乎應該在…寫春聯？只是正在發生的事情似乎與寫春聯毫無幹系——",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂！应瑞，你刚刚在偷笑对吧？",
+			say = "喂！應瑞，你剛剛在偷笑對吧？",
 			live2dOffset = {
 				0,
 				200,
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "應瑞",
 			side = 2,
-			say = "嗯哼哼~没有哦。",
+			say = "嗯哼哼~沒有哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明就是在偷笑吧！我在桌下都听见了！",
+			say = "明明就是在偷笑吧！我在桌下都聽見了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝对是你在捣鬼……真是的……",
+			say = "絕對是你在搗鬼……真是的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,9 +125,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "應瑞",
 			side = 2,
-			say = "比起这个……新年快乐，指挥官~",
+			say = "比起這個…新年快樂，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,9 +143,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "應瑞",
 			side = 2,
-			say = "肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。",
+			say = "肇和，不抓緊結束工作的話，你的樣子可就要被指揮官看見了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！",
+			say = "啊指揮官！什什什什什麼時候進來的！……咳，新年快樂，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，新年好……不，不对，现在不是说这个的时候！指挥官，你终于来了！",
+			say = "指揮官，新年好……不，不對，現在不是說這個的時候！指揮官，你終於來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本来和应瑞说好了我来做春联的装饰，应瑞来写对联来着……",
+			say = "本來和應瑞說好了我來做春聯的裝飾，應瑞來寫對聯的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知为什么突然窜出来这么个小东西，把我要用的装饰拿走了！绝对是应瑞捣的鬼！",
+			say = "不知為什麼突然竄出來這個小東西，把我要用的裝飾拿走了！絕對是應瑞搗的鬼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过幸好指挥官在……得救了……快来帮我把这家伙给抓住！",
+			say = "不過幸好指揮官在……得救了……快來幫我把這傢伙給抓住！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "沒問題！",
 					flag = 1
 				}
 			}
@@ -264,7 +264,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂喂喂等下等下！不要突然挤进来啊啊啊啊啊啊！",
+			say = "喂喂喂等下等下！不要突然擠進來啊啊啊啊啊啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，手！手！不要趁人之危啦！",
+			say = "指揮官，手！手！不要趁人之危！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的……你在摸哪里啊……",
+			say = "真是的……你在摸哪裡啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,9 +319,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "應瑞",
 			side = 2,
-			say = "嗯，指挥官和肇和，你们在桌子下面做什么呢？",
+			say = "嗯，指揮官和肇和，你們在桌子底下做什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不不不什么都没有！什么都没有啦！真是的……",
+			say = "不不不不不什麼都沒有！什麼都沒有啦！真是的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……不过好在终于把这家伙给抓住了……接下来要做的事情当然就是——",
+			say = "呼……不過好在終於把這傢伙抓住了……接下來要做的事情當然就是——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应——瑞——！？",
+			say = "應——瑞——！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噫？！跑掉了！",
+			say = "啊？！跑掉了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，快追上她！接下来就是清算的时间了！",
+			say = "指揮官，快追上她！接下來就是算帳的時間了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来，乐章就暂时告一段落了呢",
+			say = "這樣一來，樂章就暫時告一段落了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 499020,
 			dir = 1,
-			say = "喜悦与悲伤，振奋与失落，坚定与迷惘，都在此刻归于寂静",
+			say = "喜悅與悲傷，振奮與失落，堅定與迷茫，都在此刻歸於寂靜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，真正精彩的部分，现在才要开始哦？更加激动人心的演奏…更加令人兴奋的音符…",
+			say = "但是，真正精彩的部分，現在才開始吧？更激動人心的演奏……更令人興奮的音符……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			actor = 499020,
 			dir = 1,
-			say = "为了奏响新的乐谱所需的必要调弦，你会全部为我做好的，对吧？我的孩子～",
+			say = "為了奏響新的樂譜所需的必要調弦，你會全部為我做好的，對吧？我的孩子～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

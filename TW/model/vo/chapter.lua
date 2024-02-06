@@ -77,7 +77,7 @@ function slot0.BuildEliteFleetList(slot0)
 		end
 
 		if slot7 == 4 then
-			table.insert(slot3[1], slot9)
+			slot3[1] = slot9
 		else
 			slot1[slot7] = slot9
 		end

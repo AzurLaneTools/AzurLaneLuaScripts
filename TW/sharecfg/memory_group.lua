@@ -126,6 +126,9 @@ pg.memory_group = setmetatable({
 		233,
 		234,
 		235,
+		236,
+		237,
+		238,
 		241,
 		242,
 		243,
@@ -304,7 +307,8 @@ pg.base.memory_group = {
 			720,
 			721,
 			722,
-			724,
+			723,
+			1798,
 			725,
 			726,
 			727,
@@ -2985,6 +2989,48 @@ pg.base.memory_group = {
 			2503,
 			2504,
 			2505
+		}
+	},
+	[236] = {
+		id = 236,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "冬日的尋路人",
+		memories = {
+			2521,
+			2522,
+			2523,
+			2524,
+			2525
+		}
+	},
+	[237] = {
+		id = 237,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "華燈流彩正佳音",
+		memories = {
+			2531,
+			2532,
+			2533,
+			2534
+		}
+	},
+	[238] = {
+		id = 238,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "飛彩迎新春",
+		memories = {
+			2541,
+			2542,
+			2543
 		}
 	},
 	[241] = {

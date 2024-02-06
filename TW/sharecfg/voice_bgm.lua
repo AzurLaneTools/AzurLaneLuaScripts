@@ -100,7 +100,7 @@ pg.voice_bgm = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "main-chunjie"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1222,5 +1222,53 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "bsm-4"
+	},
+	NavalAcademyScene = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		time = "",
+		bgm = "story-china"
+	},
+	FeiyunLoginPage = {
+		default_bgm = "main-chunjie3",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie3"
+	},
+	ColoringAnshanUI = {
+		default_bgm = "main-chunjie",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie"
+	},
+	TaiyuanAlterItemPage = {
+		default_bgm = "main-chunjie3",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie3"
+	},
+	SkinMagazineSpringPage1 = {
+		default_bgm = "main-chunjie4-2",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie4-2"
+	},
+	NewYearGreetingPtPage = {
+		default_bgm = "main-chunjie3",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie3"
+	},
+	FireworksPt2024Page = {
+		default_bgm = "main-chunjie3",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie3"
+	},
+	SpringFestival2024Scene = {
+		default_bgm = "main-chunjie2",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie2"
 	}
 }

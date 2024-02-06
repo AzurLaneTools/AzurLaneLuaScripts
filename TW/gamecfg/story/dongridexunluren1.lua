@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日的寻路人\n\n<size=45>一　异常情况？</size>",
+					"冬日的尋路人\n\n<size=45>一　異常情況？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "某日·北方联合休息室",
+			say = "某日·北方聯合休息室",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家，我回来了。",
+			say = "大家，我回來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯？是没人在吗？",
+			say = "嗯？是沒人在嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "古比雪夫将手中的提灯放在了桌上，旋即便注意到了桌面上的物品。",
+			say = "古比雪夫將手中的提燈放在了桌上，旋即便注意到了桌面上的物品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……“妖精魔法”海报？",
+			say = "……「妖精魔法」海報？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,12 +112,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感兴趣吗，寻路人小姐？",
+			say = "有興趣嗎，尋路人小姐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（奇怪……罗西亚同志在说什么？）",
+			say = "（奇怪……俄羅斯同志在說什麼？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗西亚同志，还有贝拉罗斯同志，你们原来在啊。",
+			say = "俄羅斯同志，還有白俄羅斯同志，妳們原來在啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这海报是……",
+			say = "這海報是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,8 +204,8 @@ return {
 			bgName = "star_level_bg_109",
 			side = 2,
 			dir = 1,
-			actorName = "驯鹿师",
-			say = "哦？古比雪夫同志也感兴趣吗？",
+			actorName = "馴鹿師",
+			say = "哦？古比雪夫同志也有興趣嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -220,7 +220,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
@@ -239,12 +239,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "驯鹿师",
+			actorName = "馴鹿師",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			say = "啊……呃，我是说寻路人小姐……",
+			say = "啊……呃，我是說尋路人小姐……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,12 +268,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "驯鹿师",
+			actorName = "馴鹿師",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			say = "欸，百密一疏……好吧，纪念币归你了。",
+			say = "欸，百密一疏……好吧，紀念幣歸你了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,9 +289,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			side = 2,
-			say = "那我就不客气收下了~",
+			say = "那我就不客氣收下了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（她们之间在交换的是……？）",
+			say = "（她們之間在交換的是……？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,12 +323,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了，这位可爱的寻路人小姐，请问有什么是需要极地精灵为您做的吗？",
+			say = "好了，這位可愛的尋路人小姐，請問有什麼是需要極地精靈為您做的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（又是这个称呼……寻路人，是因为我提着灯的缘故吗？）",
+			say = "（又是這個稱呼……尋路人，是因為我提著燈的緣故嗎？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……罗西亚同志？我刚刚出差回来，和我说说现在的情况……？",
+			say = "……俄羅斯同志？我剛出差回來，跟我說說現在的狀況……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,12 +378,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要不劳而获可不行。寻路人小姐，想要找到那妖精的秘宝，就得用珍贵的硬币交换哦？",
+			say = "想要不勞而獲可不行。尋路人小姐，想要找到那妖精的秘寶，就得用珍貴的硬幣交換哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,9 +399,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "极地精灵",
+			actorName = "極地精靈",
 			side = 2,
-			say = "加油吧，寻路人小姐——",
+			say = "加油吧，尋路人小姐——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "离开了……",
+			say = "離開了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "不管发生了什么，连罗西亚同志都被影响了。",
+			say = "不管發生了什麼，連俄羅斯同志都被影響了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "“妖精魔法”……为了大家的安全，有必要调查一下才行。",
+			say = "「妖精魔法」……為了大家的安全，有必要調查一下才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,12 +469,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？要调查什么？",
+			say = "哦？要調查什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "当然是调查异常……嗯？",
+			say = "當然是調查異常……嗯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……你是皇家的忒休斯？",
+			say = "……妳是皇家的忒修斯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,12 +524,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "应该称呼我为港区的守护女巫哦♪",
+			say = "應該稱呼我為港區的守護女巫哦♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……好吧，守护女巫小姐，你为什么要……额，飘在休息室的窗户外面？",
+			say = "……好吧，守護女巫小姐，妳為什麼要……呃，飄在休息室的窗戶外面？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "是从{namecode:98}那里拿到了什么特殊的设备么……",
+			say = "是從明石拿到了什麼特殊的設備嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,9 +591,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			side = 2,
-			say = "谁知道呢~毕竟我是港区的守护女巫，女巫的话，一般都会飞在天上吧？",
+			say = "誰知道呢~畢竟我是港區的守護女巫，女巫的話，通常都會飛在天上吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,12 +607,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，你是要调查妖精的秘宝么？",
+			say = "所以，妳是要調查妖精的秘寶嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "秘宝……？唔，差不多就是那样吧。",
+			say = "秘寶……？不，差不多就是那樣吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,12 +644,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是寻路人小姐，真是敏锐啊。你也觉得这秘宝很奇怪对吧？",
+			say = "不愧是尋路人小姐，真是敏銳。妳也覺得這秘寶很奇怪對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "没错，我觉得那件宝物可能是导致现在异常现象的原因。",
+			say = "沒錯，我覺得那件寶物可能是導致現在異常現象的原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,12 +691,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就对啦，你感觉到的异常肯定与妖精的秘宝有关哦~",
+			say = "那就對啦，妳感覺到的異常肯定與妖精的秘寶有關哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,12 +710,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家都想得到那份神奇的秘宝，作为天选者的我，也不能落后才行♪",
+			say = "大家都想得到那份神奇的秘寶，身為天選者的我，也不能落後才行♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,12 +729,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "守護女巫",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们好好看着吧——",
+			say = "妳們好好看著吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "自说自话地又飘走了……",
+			say = "自說自話又飄走了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "大家都想得到的神奇秘宝？也就是说那东西确实在诱惑着大家，扭曲了大家的常识么……",
+			say = "大家都想得到的神奇秘寶？也就是說那東西確實在誘惑大家，扭曲了大家的常識嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这就说得通了……",
+			say = "這就說得通了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，必须调查一下才行。",
+			say = "嗯，必須調查一下才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1

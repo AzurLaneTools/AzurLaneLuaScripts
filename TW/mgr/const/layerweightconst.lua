@@ -22,5 +22,6 @@ LayerWeightConst = {
 	GROUP_COLLECTION = "group_collection",
 	GROUP_META = "group_meta",
 	GROUP_DAILY = "group_daily",
-	GROUP_COMBAT = "group_Combat"
+	GROUP_COMBAT = "group_Combat",
+	GROUP_EDUCATE = "group_educate"
 }

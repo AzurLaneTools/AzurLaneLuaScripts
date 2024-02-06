@@ -10,7 +10,7 @@ function slot0.Load(slot0, slot1, slot2)
 end
 
 function slot0.LoadHighLightArea(slot0, slot1)
-	slot0:Load("wShowArea", function (slot0)
+	slot0:Load(slot1.isWorld and "wShowArea" or "wShowArea1", function (slot0)
 		if not uv0 then
 			return
 		end

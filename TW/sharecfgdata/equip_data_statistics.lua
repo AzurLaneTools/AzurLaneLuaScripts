@@ -18370,6 +18370,409 @@ _G.pg.base.equip_data_statistics[3791] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3800] = {
+	type = 10,
+	name = "梅之語",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "說明未填寫",
+	nationality = 5,
+	rarity = 5,
+	id = 3800,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "3800",
+	value_1 = "250",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60320
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3801] = {
+	id = 3801,
+	value_1 = "280",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3802] = {
+	id = 3802,
+	value_1 = "310",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3803] = {
+	id = 3803,
+	value_1 = "340",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3804] = {
+	id = 3804,
+	value_1 = "370",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3805] = {
+	id = 3805,
+	value_1 = "400",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3806] = {
+	id = 3806,
+	value_1 = "430",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3807] = {
+	id = 3807,
+	value_1 = "460",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3808] = {
+	id = 3808,
+	value_1 = "490",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3809] = {
+	id = 3809,
+	value_1 = "520",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3810] = {
+	id = 3810,
+	value_1 = "550",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3811] = {
+	id = 3811,
+	anti_siren = 100,
+	value_1 = "580",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3812] = {
+	id = 3812,
+	anti_siren = 200,
+	value_1 = "610",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3813] = {
+	id = 3813,
+	anti_siren = 300,
+	value_1 = "640",
+	base = 3800,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3820] = {
+	type = 18,
+	name = "戊型水上機",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 14,
+	ammo = 10,
+	nationality = 5,
+	descrip = "定安號裝載的戊型水上機",
+	rarity = 4,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3820,
+	icon = "3820",
+	value_1 = "120",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60300
+	},
+	hidden_skill_id = {},
+	part_main = {
+		19
+	},
+	part_sub = {
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"PRAN",
+		"GDS"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3821] = {
+	id = 3821,
+	value_2 = 16,
+	value_1 = "138",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3822] = {
+	id = 3822,
+	value_2 = 18,
+	value_1 = "156",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3823] = {
+	id = 3823,
+	value_2 = 20,
+	value_1 = "174",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3824] = {
+	id = 3824,
+	value_2 = 22,
+	value_1 = "192",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3825] = {
+	id = 3825,
+	value_2 = 24,
+	value_1 = "210",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3826] = {
+	id = 3826,
+	value_2 = 26,
+	value_1 = "228",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3827] = {
+	id = 3827,
+	value_2 = 28,
+	value_1 = "246",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3828] = {
+	id = 3828,
+	value_2 = 30,
+	value_1 = "264",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3829] = {
+	id = 3829,
+	value_2 = 32,
+	value_1 = "282",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3830] = {
+	id = 3830,
+	value_2 = 35,
+	value_1 = "300",
+	base = 3820,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3831] = {
+	value_2 = 38,
+	anti_siren = 100,
+	base = 3820,
+	id = 3831,
+	value_1 = "315",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3840] = {
+	type = 10,
+	name = "「妖精魔法」海報",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 7,
+	descrip = "適合張貼在休息室的有趣海報——「想要得到妖精的秘寶，就請勇往直前吧~」",
+	rarity = 5,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3840,
+	icon = "3840",
+	value_1 = "15",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60310
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"SN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3841] = {
+	id = 3841,
+	value_1 = "17",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3842] = {
+	id = 3842,
+	value_2 = 7,
+	value_1 = "19",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3843] = {
+	id = 3843,
+	value_2 = 8,
+	value_1 = "21",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3844] = {
+	id = 3844,
+	value_2 = 9,
+	value_1 = "23",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3845] = {
+	id = 3845,
+	value_2 = 10,
+	value_1 = "25",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3846] = {
+	id = 3846,
+	value_2 = 11,
+	value_1 = "27",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3847] = {
+	id = 3847,
+	value_2 = 12,
+	value_1 = "29",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3848] = {
+	id = 3848,
+	value_2 = 13,
+	value_1 = "31",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3849] = {
+	id = 3849,
+	value_2 = 14,
+	value_1 = "33",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3850] = {
+	id = 3850,
+	value_2 = 15,
+	value_1 = "36",
+	base = 3840,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3851] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3840,
+	id = 3851,
+	value_1 = "39",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3852] = {
+	value_2 = 17,
+	anti_siren = 200,
+	base = 3840,
+	id = 3852,
+	value_1 = "42",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3853] = {
+	value_2 = 18,
+	anti_siren = 300,
+	base = 3840,
+	id = 3853,
+	value_1 = "45",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3880] = {
 	type = 10,
 	name = "作戰報告·極地風暴",

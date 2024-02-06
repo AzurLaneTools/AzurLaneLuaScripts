@@ -659,6 +659,9 @@ pg.ship_data_group = setmetatable({
 		[20606] = {
 			462
 		},
+		[20608] = {
+			578
+		},
 		[20604] = {
 			356
 		},
@@ -1325,6 +1328,12 @@ pg.ship_data_group = setmetatable({
 		[50601] = {
 			534
 		},
+		[50602] = {
+			579
+		},
+		[51901] = {
+			580
+		},
 		[60102] = {
 			415
 		},
@@ -1441,6 +1450,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70203] = {
 			436
+		},
+		[70205] = {
+			577
 		},
 		[70301] = {
 			496
@@ -2032,6 +2044,7 @@ pg.ship_data_group = setmetatable({
 		142,
 		376,
 		462,
+		578,
 		356,
 		570,
 		143,
@@ -2254,6 +2267,8 @@ pg.ship_data_group = setmetatable({
 		531,
 		532,
 		534,
+		579,
+		580,
 		415,
 		506,
 		563,
@@ -2293,6 +2308,7 @@ pg.ship_data_group = setmetatable({
 		435,
 		588,
 		436,
+		577,
 		496,
 		586,
 		437,
@@ -12332,6 +12348,49 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[578] = {
+		type = 6,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 2,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 231,
+		code = 578,
+		group_type = 20608,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：新春限时建造",
+				{
+					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[356] = {
 		type = 6,
 		redirect_id = 101,
@@ -20879,7 +20938,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 5,
-		trans_skin = 0,
+		trans_skin = 502019,
 		handbook_type = 0,
 		index_id = 463,
 		code = 257,
@@ -20894,8 +20953,17 @@ pg.base.ship_data_group = {
 			"B",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			16440
+		},
 		description = {
 			{
 				"進行輕型艦建造",
@@ -21098,6 +21166,81 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：新春限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[579] = {
+		type = 6,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 5,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 471,
+		code = 579,
+		group_type = 50602,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：新春限时建造",
+				{
+					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[580] = {
+		type = 19,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 5,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 472,
+		code = 580,
+		group_type = 51901,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"C",
+			"C",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飞彩迎新春",
 				{
 					""
 				},
@@ -22379,6 +22522,49 @@ pg.base.ship_data_group = {
 				"限時活動：北境序曲",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[577] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 515,
+		code = 577,
+		group_type = 70205,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：新春限时建造",
+				{
+					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

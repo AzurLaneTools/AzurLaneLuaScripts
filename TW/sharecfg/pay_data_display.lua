@@ -50,6 +50,9 @@ pg.pay_data_display = setmetatable({
 		4031,
 		4032,
 		4033,
+		4034,
+		4035,
+		4036,
 		4850,
 		4851,
 		4852,
@@ -4743,6 +4746,345 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81005,
+				1
+			}
+		}
+	},
+	[4034] = {
+		subject = "春節福袋2024·I",
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2024·I",
+		name_display = "春節福袋2024·I",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4034,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai11",
+		skin_inquire_relation = 69924,
+		id_str = "com.hkmanjuu.azurlane.package35",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package35",
+		extra_service_item = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40924,
+				1
+			}
+		}
+	},
+	[4035] = {
+		subject = "春節福袋2024·II",
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2024·II",
+		name_display = "春節福袋2024·II",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4035,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai12",
+		skin_inquire_relation = 69925,
+		id_str = "com.hkmanjuu.azurlane.package36",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package36",
+		extra_service_item = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40925,
+				1
+			}
+		}
+	},
+	[4036] = {
+		subject = "春節福袋2023",
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2023·復刻",
+		name_display = "春節福袋2023·復刻",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4036,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudaiqp1_tw",
+		skin_inquire_relation = 86006,
+		id_str = "com.hkmanjuu.azurlane.package37",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2023鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package37",
+		extra_service_item = {
+			{
+				2,
+				86006,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86006,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81006,
 				1
 			}
 		}

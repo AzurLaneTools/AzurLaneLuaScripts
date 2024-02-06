@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飞彩迎新春\n\n<size=45>二　银花初绽</size>",
+					"飛彩迎新春\n\n<size=45>二　銀花初綻</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这样子的话，材料就准备得差不多了。",
+			say = "呼……這樣子的話，材料就準備得差不多了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "我刚刚试着做了一组烟花，好像比想象中要简单不少呢。先测试一下效果好了……",
+			say = "我剛剛試著做了一組煙火，好像比想像中簡單不少。先測試一下效果好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "伴随着引线燃烧的声音，绚丽的烟火在夜天里绽放，而后破碎成万点星火，融入漆黑的墨色之中。",
+			say = "伴隨著引線燃燒的聲音，絢麗的煙火在夜天裡綻放，而後破碎成萬點星火，融入漆黑的墨色之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "哇……真漂亮啊……看起来效果很不错呢。",
+			say = "哇……真漂亮啊……看起來效果很不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actorName = "？？？",
 			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
-			say = "喂——指挥官，还有华甲——",
+			say = "喂——指揮官，還有華甲——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,18 +113,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "向着声音的方向看去——",
+			say = "向著聲音的方向看去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "新年快乐！",
+					content = "新年快樂！",
 					flag = 1
 				},
 				{
-					content = "过年好~",
+					content = "過年好~",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "两位过年好呀~！",
+			say = "兩位過年好呀~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "我在好远的地方就看到这边的烟花了！好漂亮的颜色啊……是你们自己做的吗？",
+			say = "我在好遠的地方就看到這邊的煙火了！好漂亮的顏色啊……是你們自己做的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "和定安解释了一下现在的情况————",
+			say = "和定安解釋了一下現在的情況————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "在改进烟花工坊么……这么有趣的事也加我一个！",
+			say = "在改進煙火工坊嗎……這麼有趣的事也算我一個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "不对，人多力量大，我去把有空的同伴都叫来帮忙吧！",
+			say = "不對，人多力量大，我去把有空的同伴都叫來幫忙吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "啊对了，这个你们留着——是我带来的点心！就作为工作期间的能量补充好了~",
+			say = "啊對了，這個你們留著——是我帶來的點心！就作為工作期間的能量補充好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们先吃着，我去喊人了~",
+			say = "你們先吃，我去喊人了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "啊，这就走掉了……简直像一阵风一样。",
+			say = "啊，這就走掉了……簡直像一陣風一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "打开了定安留下来的小木盒——里面是做得精巧可爱的年糕和酥糖，还有小巧玲珑的粘豆包和奶黄包。",
+			say = "打開了定安留下來的小木盒－裡面是做得精巧可愛的年糕和酥糖，還有小巧玲瓏的黏豆包和奶黃包。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "这还真是……色香味俱全啊。",
+			say = "這還真是……色香味俱全啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "那恭敬不如从命，我们就一边享受美味的点心，一边等帮手们到来吧？",
+			say = "那恭敬不如從命，我們就一邊享受美味的點心，一邊等幫手們到來吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1

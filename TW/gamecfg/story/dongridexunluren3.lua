@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日的寻路人\n\n<size=45>三　幕间小憩</size>",
+					"冬日的尋路人\n\n<size=45>三　幕間小憩</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "中央广场·休息区",
+			say = "中央廣場·休息區",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "休息区已经渐渐热闹了起来，看来在表演中不露出破绽确实没那么容易。",
+			say = "休息區已經漸漸熱鬧了起來，看來在表演中不露出破綻確實沒那麼容易。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_161",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谢谢，阿芙乐尔同志，温度刚刚好。",
+			say = "謝謝，曙光同志，溫度剛好。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -79,7 +79,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？是水星纪念同志和甘古特同志——",
+			say = "哦？是水星紀念同志和甘古特同志——",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_161",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么样，你们也是输掉了“表演”吗？",
+			say = "怎麼樣，妳們也是輸掉「表演」了嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "啊哈哈……算是这么回事吧~",
+			say = "啊哈哈……算是這麼回事吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "本来以为能在古比雪夫那赚上一分的，结果她完全不动摇哦？",
+			say = "本來以為能在古比雪夫那賺到一分的，結果她完全不動搖哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "于是干脆就决定认输，然后到这里来喝点什么咯~",
+			say = "於是乾脆就決定認輸，然後到這裡來喝點什麼了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "我也想来休息区喝点什么，就一起把纪念币给了古比雪夫同志~",
+			say = "我也想來休息區喝點什麼，就一起把紀念幣給古比雪夫同志~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,14 +183,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "说起来……………",
+			say = "說起來………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "讨论关于古比雪夫的事。",
+					content = "討論關於古比雪夫的事。",
 					flag = 1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官同志你刚刚看到了古比雪夫正在“侦查”我们？",
+			say = "指揮官同志妳剛剛看到古比雪夫正在「偵查」我們了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好……看来她已经逐渐融入氛围了。",
+			say = "很好……看來她已經逐漸融入氛圍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来……",
+			say = "接下來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,9 +252,9 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "忒休斯",
+			actorName = "忒修斯",
 			side = 2,
-			say = "接下来该让这场活动的气氛走向高潮了哦~",
+			say = "接下來該讓這場活動的氣氛走向高潮了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "不是从何处而来的忒休斯突然从半空中下降，最后稳稳落在了地上。",
+			say = "不是從何處而來的忒修斯突然從半空中下降，最後穩穩落在了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实话实说，忒休斯你倒确实真的像是从魔法世界来的。",
+			say = "老實說，忒修斯妳倒確實真的像是從魔法世界來的。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -299,7 +299,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这身装备是{namecode:98}的改造么？",
+			say = "妳這套裝備是明石的改造嗎？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -316,9 +316,9 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "忒休斯",
+			actorName = "忒修斯",
 			side = 2,
-			say = "没错哦，不过大家把它当成漂浮的魔法会更有趣一些。",
+			say = "沒錯哦，不過大家把它當成漂浮的魔法會更有趣一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,12 +332,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_161",
-			actorName = "忒休斯",
+			actorName = "忒修斯",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次活动举办的初衷就是希望大家能够在轻松奇幻的氛围里尽可能放松一下嘛~",
+			say = "這次活動舉辦的初衷就是希望大家能夠在輕鬆奇幻的氛圍裡盡可能放鬆一下嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞同。尤其是古比雪夫同志最需要休息了，总紧绷着神经可不好。",
+			say = "贊同。尤其是古比雪夫同志最需要休息了，總是繃緊神經不太好。",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这件事，接下来我有一个想法，想跟各位商量一下——",
+			say = "關於這件事，接下來我有一個想法，想跟各位商量一下——",
 			painting = {
 				alpha = 0.3,
 				time = 1
