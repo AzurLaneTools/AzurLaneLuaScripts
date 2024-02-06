@@ -3951,7 +3951,7 @@ pg.child_task = {
 	},
 	[3009] = {
 		arg = 20,
-		name = "运动能力或实践能力达到20点",
+		name = "运动或实践达到20点",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4276,7 +4276,7 @@ pg.child_task = {
 	},
 	[3019] = {
 		arg = 20,
-		name = "实践能力或想象力达到20点",
+		name = "实践或想象达到20点",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4592,7 +4592,7 @@ pg.child_task = {
 	},
 	[3029] = {
 		arg = 20,
-		name = "表现力或乐理知识达到20点",
+		name = "表现或乐理达到20点",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4920,7 +4920,7 @@ pg.child_task = {
 	},
 	[3039] = {
 		arg = 20,
-		name = "细心、想象力或乐理知识达到20点",
+		name = "细心、想象或乐理达到20点",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4986,7 +4986,7 @@ pg.child_task = {
 	},
 	[4001] = {
 		arg = 100,
-		name = "运动能力达到100点",
+		name = "运动达到100点",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -5015,7 +5015,7 @@ pg.child_task = {
 	},
 	[4002] = {
 		arg = 160,
-		name = "运动能力达到160点",
+		name = "运动达到160点",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -5044,7 +5044,7 @@ pg.child_task = {
 	},
 	[4003] = {
 		arg = 240,
-		name = "运动能力达到240点",
+		name = "运动达到240点",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -5353,7 +5353,7 @@ pg.child_task = {
 	},
 	[4021] = {
 		arg = 100,
-		name = "想象力达到100点",
+		name = "想象达到100点",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -5382,7 +5382,7 @@ pg.child_task = {
 	},
 	[4022] = {
 		arg = 160,
-		name = "想象力达到160点",
+		name = "想象达到160点",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -5411,7 +5411,7 @@ pg.child_task = {
 	},
 	[4023] = {
 		arg = 240,
-		name = "想象力达到240点",
+		name = "想象达到240点",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -6164,7 +6164,7 @@ pg.child_task = {
 	},
 	[4061] = {
 		arg = 100,
-		name = "实践能力达到100点",
+		name = "实践达到100点",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -6193,7 +6193,7 @@ pg.child_task = {
 	},
 	[4062] = {
 		arg = 160,
-		name = "实践能力达到160点",
+		name = "实践达到160点",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -6222,7 +6222,7 @@ pg.child_task = {
 	},
 	[4063] = {
 		arg = 240,
-		name = "实践能力达到240点",
+		name = "实践达到240点",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -6309,7 +6309,7 @@ pg.child_task = {
 	},
 	[4066] = {
 		arg = 2500,
-		name = "智慧达到2400点",
+		name = "智慧达到2500点",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -6338,7 +6338,7 @@ pg.child_task = {
 	},
 	[4067] = {
 		arg = 4000,
-		name = "智慧达到2400点",
+		name = "智慧达到4000点",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -6572,7 +6572,7 @@ pg.child_task = {
 	},
 	[4081] = {
 		arg = 100,
-		name = "乐理知识达到100点",
+		name = "乐理达到100点",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -6601,7 +6601,7 @@ pg.child_task = {
 	},
 	[4082] = {
 		arg = 160,
-		name = "乐理知识达到160点",
+		name = "乐理达到160点",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -6630,7 +6630,7 @@ pg.child_task = {
 	},
 	[4083] = {
 		arg = 240,
-		name = "乐理知识达到240点",
+		name = "乐理达到240点",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -6981,7 +6981,7 @@ pg.child_task = {
 	},
 	[4101] = {
 		arg = 100,
-		name = "表现力达到100点",
+		name = "表现达到100点",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -7010,7 +7010,7 @@ pg.child_task = {
 	},
 	[4102] = {
 		arg = 160,
-		name = "表现力达到160点",
+		name = "表现达到160点",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -7039,7 +7039,7 @@ pg.child_task = {
 	},
 	[4103] = {
 		arg = 240,
-		name = "表现力达到240点",
+		name = "表现达到240点",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -7348,7 +7348,7 @@ pg.child_task = {
 	},
 	[4113] = {
 		arg = 1,
-		name = "出行-海滨公园-影像工作室-更突显自己的照片-1次",
+		name = "出行-商业街-影像工作室-更突显自己的照片-1次",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,

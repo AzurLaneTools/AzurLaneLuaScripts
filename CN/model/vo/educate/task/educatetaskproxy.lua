@@ -5,6 +5,7 @@ slot0.TASK_UPDATED = "EducateTaskProxy.TASK_UPDATED"
 
 function slot0.Ctor(slot0, slot1)
 	slot0.binder = slot1
+	slot0.data = {}
 	slot0.targetSetDays = {}
 
 	for slot5, slot6 in ipairs(pg.gameset.child_target_set_date.description) do

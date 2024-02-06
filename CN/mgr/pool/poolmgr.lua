@@ -254,7 +254,8 @@ slot7 = {
 	"MsgBox",
 	"TipPanel",
 	"Loading",
-	"WorldUI"
+	"WorldUI",
+	"EducateSiteDetailUI"
 }
 slot8 = {
 	"WorldAllocateUI"

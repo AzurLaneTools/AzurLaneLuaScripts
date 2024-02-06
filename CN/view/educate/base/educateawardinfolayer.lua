@@ -199,11 +199,19 @@ function slot0.showPolaroidAnim(slot0)
 end
 
 function slot0._close(slot0)
-	if slot0.inAnimPlaying and not pg.NewGuideMgr.GetInstance():IsBusy() then
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
+		slot0:emit(uv0.ON_CLOSE)
+
+		return
+	end
+
+	if slot0.inAnimPlaying or slot0.isCloseAnim then
 		return
 	end
 
 	slot0.anim:Play("anim_educate_awardinfo_award_out")
+
+	slot0.isCloseAnim = true
 end
 
 function slot0.onBackPressed(slot0)
