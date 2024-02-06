@@ -109,7 +109,7 @@ function slot0.IsOther(slot0)
 end
 
 function slot0.GetTag(slot0, slot1, slot2)
-	if table.contains(slot1, slot0.id) then
+	if table.contains(slot1, slot0.id) or slot0.endTime.week < slot2 then
 		return uv0.TAG_END
 	else
 		return slot0.startTime.week <= slot2 and uv0.TAG_ING or uv0.TAG_COMING

@@ -55,6 +55,9 @@ function slot0.findUI(slot0)
 	slot0.reduceCountBtn = slot0:findTF("count/reduce", slot0.detailPanelTF)
 	slot0.maxCountBtn = slot0:findTF("count/max", slot0.detailPanelTF)
 	slot0.priceValue = slot0:findTF("price/value/Text", slot0.detailPanelTF)
+
+	setText(slot0:findTF("price/title", slot0.detailPanelTF), i18n("child_shop_price_title"))
+
 	slot0.purchaseBtn = slot0:findTF("purchase_btn", slot0.detailPanelTF)
 
 	setText(slot0:findTF("Text", slot0.purchaseBtn), i18n("word_buy"))

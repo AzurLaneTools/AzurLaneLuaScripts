@@ -3143,13 +3143,13 @@ pg.child_performance = {
 		show_event = 0,
 		param = {
 			{
-				"tb_chaocai_2",
-				"tb_chaocai_2",
-				"tb_chaocai_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
 				{
-					"tb_chaocai_32",
-					"tb_chaocai_33",
-					"tb_chaocai_31"
+					"tb_zuodangao_32",
+					"tb_zuodangao_33",
+					"tb_zuodangao_31"
 				}
 			},
 			3
@@ -3198,13 +3198,13 @@ pg.child_performance = {
 		show_event = 0,
 		param = {
 			{
-				"tb_chaocai_2",
-				"tb_chaocai_2",
-				"tb_chaocai_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
 				{
-					"tb_chaocai_32",
-					"tb_chaocai_33",
-					"tb_chaocai_31"
+					"tb_zuodangao_32",
+					"tb_zuodangao_33",
+					"tb_zuodangao_31"
 				}
 			},
 			3
@@ -3253,13 +3253,13 @@ pg.child_performance = {
 		show_event = 0,
 		param = {
 			{
-				"tb_chaocai_2",
-				"tb_chaocai_2",
-				"tb_chaocai_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
+				"tb_zuodangao_2",
 				{
-					"tb_chaocai_32",
-					"tb_chaocai_33",
-					"tb_chaocai_31"
+					"tb_zuodangao_32",
+					"tb_zuodangao_33",
+					"tb_zuodangao_31"
 				}
 			},
 			3
@@ -7210,7 +7210,7 @@ pg.child_performance = {
 		type = 4,
 		cpk_status = 2,
 		picture_status = 0,
-		show_next = 1,
+		show_next = 0,
 		id = 1202002,
 		show_event = 0,
 		param = {
@@ -7918,7 +7918,7 @@ pg.child_performance = {
 		dialogue_status = 1,
 		show_drops = 1,
 		type = 4,
-		cpk_status = 2,
+		cpk_status = 0,
 		picture_status = 2,
 		show_next = 0,
 		id = 1211009,

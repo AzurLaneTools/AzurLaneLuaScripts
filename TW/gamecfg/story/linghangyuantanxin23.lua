@@ -8,7 +8,7 @@ return {
 	},
 	scripts = {
 		{
-			expression = 3,
+			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,

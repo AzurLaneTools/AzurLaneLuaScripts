@@ -48,7 +48,7 @@ function slot0.setContent(slot0)
 			uv0 = i18n("child_unlock_new_secretary")
 		end
 	})
-	setText(slot0.contentTF, "")
+	setText(slot0.contentTF, shortenString("", 15))
 end
 
 function slot0.saveTipRecord(slot0)

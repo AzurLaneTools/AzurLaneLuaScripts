@@ -72,7 +72,7 @@ function slot0.UpdateGood(slot0, slot1)
 end
 
 function slot0.IsRefreshWeek(slot0, slot1)
-	return slot0.refreshWeeks[slot1]
+	return table.contains(slot0.refreshWeeks, slot1)
 end
 
 function slot0.IsRefreshShop(slot0, slot1)

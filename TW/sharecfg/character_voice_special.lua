@@ -87,7 +87,7 @@ pg.character_voice_special = {
 	shengdan = {
 		profile_index = 15,
 		key = "shengdan",
-		voice_name = "圣诞",
+		voice_name = "圣诞节",
 		resource_key = "shengdan"
 	},
 	chuxi = {
@@ -111,7 +111,7 @@ pg.character_voice_special = {
 	zhongqiu = {
 		profile_index = 19,
 		key = "zhongqiu",
-		voice_name = "中秋",
+		voice_name = "中秋节",
 		resource_key = "zhongqiu"
 	},
 	wansheng = {
@@ -123,157 +123,157 @@ pg.character_voice_special = {
 	huodong = {
 		profile_index = 21,
 		key = "huodong",
-		voice_name = "活动",
+		voice_name = "活动提醒",
 		resource_key = "huodong"
 	},
 	genghuan = {
 		profile_index = 22,
 		key = "genghuan",
-		voice_name = "更换形态",
+		voice_name = "更换外形模块",
 		resource_key = "genghuan"
 	},
 	chime_0 = {
 		profile_index = 23,
 		key = "chime_0",
-		voice_name = "报时_0",
+		voice_name = "0点报时",
 		resource_key = "chime_0"
 	},
 	chime_1 = {
 		profile_index = 24,
 		key = "chime_1",
-		voice_name = "报时_1",
+		voice_name = "1点报时",
 		resource_key = "chime_1"
 	},
 	chime_2 = {
 		profile_index = 25,
 		key = "chime_2",
-		voice_name = "报时_2",
+		voice_name = "2点报时",
 		resource_key = "chime_2"
 	},
 	chime_3 = {
 		profile_index = 26,
 		key = "chime_3",
-		voice_name = "报时_3",
+		voice_name = "3点报时",
 		resource_key = "chime_3"
 	},
 	chime_4 = {
 		profile_index = 27,
 		key = "chime_4",
-		voice_name = "报时_4",
+		voice_name = "4点报时",
 		resource_key = "chime_4"
 	},
 	chime_5 = {
 		profile_index = 28,
 		key = "chime_5",
-		voice_name = "报时_5",
+		voice_name = "5点报时",
 		resource_key = "chime_5"
 	},
 	chime_6 = {
 		profile_index = 29,
 		key = "chime_6",
-		voice_name = "报时_6",
+		voice_name = "6点报时",
 		resource_key = "chime_6"
 	},
 	chime_7 = {
 		profile_index = 30,
 		key = "chime_7",
-		voice_name = "报时_7",
+		voice_name = "7点报时",
 		resource_key = "chime_7"
 	},
 	chime_8 = {
 		profile_index = 31,
 		key = "chime_8",
-		voice_name = "报时_8",
+		voice_name = "8点报时",
 		resource_key = "chime_8"
 	},
 	chime_9 = {
 		profile_index = 32,
 		key = "chime_9",
-		voice_name = "报时_9",
+		voice_name = "9点报时",
 		resource_key = "chime_9"
 	},
 	chime_10 = {
 		profile_index = 33,
 		key = "chime_10",
-		voice_name = "报时_10",
+		voice_name = "10点报时",
 		resource_key = "chime_10"
 	},
 	chime_11 = {
 		profile_index = 34,
 		key = "chime_11",
-		voice_name = "报时_11",
+		voice_name = "11点报时",
 		resource_key = "chime_11"
 	},
 	chime_12 = {
 		profile_index = 35,
 		key = "chime_12",
-		voice_name = "报时_12",
+		voice_name = "12点报时",
 		resource_key = "chime_12"
 	},
 	chime_13 = {
 		profile_index = 36,
 		key = "chime_13",
-		voice_name = "报时_13",
+		voice_name = "13点报时",
 		resource_key = "chime_13"
 	},
 	chime_14 = {
 		profile_index = 37,
 		key = "chime_14",
-		voice_name = "报时_14",
+		voice_name = "14点报时",
 		resource_key = "chime_14"
 	},
 	chime_15 = {
 		profile_index = 38,
 		key = "chime_15",
-		voice_name = "报时_15",
+		voice_name = "15点报时",
 		resource_key = "chime_15"
 	},
 	chime_16 = {
 		profile_index = 39,
 		key = "chime_16",
-		voice_name = "报时_16",
+		voice_name = "16点报时",
 		resource_key = "chime_16"
 	},
 	chime_17 = {
 		profile_index = 40,
 		key = "chime_17",
-		voice_name = "报时_17",
+		voice_name = "17点报时",
 		resource_key = "chime_17"
 	},
 	chime_18 = {
 		profile_index = 41,
 		key = "chime_18",
-		voice_name = "报时_18",
+		voice_name = "18点报时",
 		resource_key = "chime_18"
 	},
 	chime_19 = {
 		profile_index = 42,
 		key = "chime_19",
-		voice_name = "报时_19",
+		voice_name = "19点报时",
 		resource_key = "chime_19"
 	},
 	chime_20 = {
 		profile_index = 43,
 		key = "chime_20",
-		voice_name = "报时_20",
+		voice_name = "20点报时",
 		resource_key = "chime_20"
 	},
 	chime_21 = {
 		profile_index = 44,
 		key = "chime_21",
-		voice_name = "报时_21",
+		voice_name = "21点报时",
 		resource_key = "chime_21"
 	},
 	chime_22 = {
 		profile_index = 45,
 		key = "chime_22",
-		voice_name = "报时_22",
+		voice_name = "22点报时",
 		resource_key = "chime_22"
 	},
 	chime_23 = {
 		profile_index = 46,
 		key = "chime_23",
-		voice_name = "报时_23",
+		voice_name = "23点报时",
 		resource_key = "chime_23"
 	},
 	all = {

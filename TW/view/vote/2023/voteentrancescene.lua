@@ -138,7 +138,6 @@ end
 function slot0.UpdateMainEntrance(slot0)
 	slot0.mainTr.sprite = GetSpriteFromAtlas("ui/Vote2023MainUI_atlas", "icon_main_" .. slot0:GetMainStageState())
 
-	slot0:UpdateMainStageTip()
 	onButton(slot0, slot0.mainTr.gameObject, function ()
 		VoteStoryUtil.Notify(VoteStoryUtil.ENTER_MAIN_STAGE)
 
@@ -162,6 +161,7 @@ function slot0.UpdateMainEntrance(slot0)
 	end, SFX_PANEL)
 	slot0:UpdateMainAward()
 	setGray(slot0.mainTitle, not (getProxy(VoteProxy):GetOpeningNonFunVoteGroup() and slot3:IsOpening() or slot0:ExistMainStageAward() or slot0:ShouldPlayMainStory()), true)
+	slot0:UpdateMainStageTip()
 end
 
 function slot0.UpdateMainAward(slot0)
@@ -345,7 +345,7 @@ function slot0.ShouldTipMainStage(slot0)
 	if not slot0.allPreheatStoriesPlayed then
 		return slot0:ShouldPlayMainStory()
 	else
-		slot1 = slot0:GetVotes() > 0 or slot0:IsNewMainRace() or slot0:ShouldPlayMainStory()
+		slot1 = slot0:GetVotes() > 0 or slot0:IsNewMainRace() or slot0:ShouldPlayMainStory() or isActive(slot0.dropGetTr)
 
 		return slot1
 	end

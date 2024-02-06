@@ -107,8 +107,8 @@ function slot0.UpdateTime(slot0)
 	setActive(slot0:findTF("night", slot0._bg), not slot2)
 	setActive(slot0:findTF("day", slot0._islandBtn), slot2)
 	setActive(slot0:findTF("night", slot0._islandBtn), not slot2)
-	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d"))
-	setText(slot0:findTF("time", slot0._bg), slot1:CurrentSTimeDesc("%H:%M"))
+	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
+	setText(slot0:findTF("time", slot0._bg), slot1:CurrentSTimeDesc("%H:%M", true))
 	setText(slot0:findTF("date/week", slot0._bg), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
 end
 

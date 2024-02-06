@@ -21515,7 +21515,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121103,
 		id = 121101,
@@ -21533,7 +21533,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121104,
 		id = 121102,
@@ -21551,7 +21551,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121105,
 		id = 121103,
@@ -21569,7 +21569,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121106,
 		id = 121104,
@@ -21587,7 +21587,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121107,
 		id = 121105,
@@ -21605,7 +21605,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 121108,
 		id = 121106,
@@ -21623,7 +21623,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211203,
 		id = 1211201,
@@ -21641,7 +21641,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211204,
 		id = 1211202,
@@ -21659,7 +21659,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211205,
 		id = 1211203,
@@ -21677,7 +21677,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211206,
 		id = 1211204,
@@ -21695,7 +21695,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211207,
 		id = 1211205,
@@ -21713,7 +21713,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211208,
 		id = 1211206,
@@ -21731,7 +21731,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211303,
 		id = 1211301,
@@ -21749,7 +21749,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211304,
 		id = 1211302,
@@ -21767,7 +21767,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211305,
 		id = 1211303,
@@ -21785,7 +21785,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211306,
 		id = 1211304,
@@ -21803,7 +21803,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211307,
 		id = 1211305,
@@ -21821,7 +21821,7 @@ pg.child_event = {
 		item = "",
 		type = 2,
 		group = 0,
-		ratio = 500,
+		ratio = 1667,
 		resource = "",
 		result = 1211308,
 		id = 1211306,
@@ -22193,24 +22193,6 @@ pg.child_event = {
 			1202004
 		}
 	},
-	[121303] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 120203,
-		id = 121303,
-		attr = "",
-		type_param = {
-			1213
-		},
-		performance = {
-			1202005
-		}
-	},
 	[121304] = {
 		date = "",
 		state = "",
@@ -22283,24 +22265,6 @@ pg.child_event = {
 			1202004
 		}
 	},
-	[1213203] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 1202203,
-		id = 1213203,
-		attr = "",
-		type_param = {
-			12132
-		},
-		performance = {
-			1202005
-		}
-	},
 	[1213204] = {
 		date = "",
 		state = "",
@@ -22371,24 +22335,6 @@ pg.child_event = {
 		},
 		performance = {
 			1202004
-		}
-	},
-	[1213303] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 1202303,
-		id = 1213303,
-		attr = "",
-		type_param = {
-			12133
-		},
-		performance = {
-			1202005
 		}
 	},
 	[1213304] = {
@@ -24875,7 +24821,7 @@ pg.child_event = {
 		group = 0,
 		ratio = 5000,
 		resource = "",
-		result = 1703206,
+		result = 1703230,
 		id = 1705206,
 		attr = "",
 		type_param = {
@@ -25395,17 +25341,14 @@ pg.child_event = {
 		1212306,
 		121301,
 		121302,
-		121303,
 		121304,
 		121305,
 		1213201,
 		1213202,
-		1213203,
 		1213204,
 		1213205,
 		1213301,
 		1213302,
-		1213303,
 		1213304,
 		1213305,
 		130301,

@@ -95,7 +95,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "特殊行程将不定期出现在<color=#39bfff>行程计划</color>中，此时无法使用其它行程进行替换哦。",
+				text = "重要活动将不定期出现在<color=#39bfff>行程计划</color>中，此时无法使用其它行程进行替换哦。",
 				mode = 2,
 				dir = -1,
 				char = 1,

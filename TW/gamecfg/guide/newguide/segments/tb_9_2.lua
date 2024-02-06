@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "新的课程解锁了。",
+				text = "新的行程解锁了。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -83,17 +83,50 @@ return {
 				mode = 2,
 				dir = -1,
 				char = 1,
+				posY = -118.09,
+				posX = -87.2,
+				uiset = {}
+			},
+			ui = {
+				path = "OverlayCamera/Overlay/UIMain/main/schedule_left/select_panel/scrollview/content/0",
+				pathIndex = -1,
+				fingerPos = {
+					posY = -266.1,
+					posX = 95.88
+				}
+			}
+		},
+		{
+			alpha = 0,
+			style = {
+				text = "从现在开始，直至9月的第4周为止，领航员-TB的个性将受到行程内容的影响。",
+				mode = 2,
+				dir = 1,
+				char = 1,
 				posY = 0,
-				posX = 0,
+				posX = 550,
+				uiset = {
+					{
+						lineMode = 1,
+						path = "OverlayCamera/Overlay/UIMain/main/result_right/content/nature",
+						pathIndex = -1
+					}
+				}
+			}
+		},
+		{
+			alpha = 0,
+			style = {
+				text = "领航员-TB的个性将会影响到养成计划的结局，还请好好把握这段时间哦~",
+				mode = 2,
+				dir = 1,
+				char = 1,
+				posY = 0,
+				posX = 550,
 				uiset = {
 					{
 						lineMode = 2,
-						path = "OverlayCamera/Overlay/UIMain/main/schedule_left/select_panel/scrollview/content/0",
-						pathIndex = -1
-					},
-					{
-						lineMode = 1,
-						path = "OverlayCamera/Overlay/UIMain/main/schedule_left/select_panel/scrollview/content/0/progress",
+						path = "OverlayCamera/Overlay/UIMain/main/result_right/content/nature",
 						pathIndex = -1
 					}
 				}

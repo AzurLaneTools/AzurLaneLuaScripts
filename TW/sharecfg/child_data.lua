@@ -256,9 +256,9 @@ pg.child_data = {
 			203
 		},
 		attr_2_value = {
-			10,
-			10,
-			10
+			0,
+			0,
+			0
 		},
 		attr_3_list = {
 			301,
@@ -294,7 +294,7 @@ pg.child_data = {
 			50,
 			100,
 			100,
-			150
+			200
 		},
 		trigger_performance = {
 			{

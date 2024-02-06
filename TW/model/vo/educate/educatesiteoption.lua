@@ -123,7 +123,7 @@ function slot0.GetResults(slot0)
 end
 
 function slot0.IsResetWeek(slot0, slot1)
-	return slot0.refreshWeeks[slot1]
+	return table.contains(slot0.refreshWeeks, slot1)
 end
 
 function slot0.OnWeekUpdate(slot0, slot1)

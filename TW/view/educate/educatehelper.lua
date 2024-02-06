@@ -295,11 +295,7 @@ function slot0.GetWeekByNumber(slot0)
 end
 
 function slot0.GetWeekStrByNumber(slot0)
-	if PLATFORM_CODE == PLATFORM_JP then
-		return uv0.GetWeekByNumber(slot0) .. i18n("word_week_title")
-	end
-
-	return i18n("word_week_title") .. uv0.GetWeekByNumber(slot0)
+	return i18n("word_week_day" .. slot0)
 end
 
 function slot0.InUnlockTime(slot0, slot1)

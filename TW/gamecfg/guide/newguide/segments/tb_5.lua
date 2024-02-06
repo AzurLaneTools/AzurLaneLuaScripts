@@ -122,11 +122,6 @@ return {
 						lineMode = 2,
 						path = "OverlayCamera/Overlay/UIMain/main/schedule_left/skip_toggle",
 						pathIndex = -1
-					},
-					{
-						lineMode = 2,
-						path = "OverlayCamera/Overlay/UIMain/main/schedule_left/skip_toggle/Text",
-						pathIndex = -1
 					}
 				}
 			}

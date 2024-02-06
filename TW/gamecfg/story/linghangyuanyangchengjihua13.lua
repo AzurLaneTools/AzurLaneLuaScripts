@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……每次终端出现升新提醒的时候，领航员小姐就会长大喵！",
+			say = "也就是说……每次终端出现升级提醒的时候，领航员小姐就会长大喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1

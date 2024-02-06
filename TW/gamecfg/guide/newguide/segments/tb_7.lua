@@ -3,7 +3,7 @@ return {
 	isWorld = false,
 	events = {
 		{
-			delay = 0.4,
+			delay = 1,
 			alpha = 0.4,
 			style = {
 				text = "在养成过程内获取到的CG，会保存在<color=#39bfff>记忆</color>中。",

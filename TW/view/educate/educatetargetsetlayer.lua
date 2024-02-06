@@ -35,6 +35,17 @@ function slot0.initTargetList(slot0)
 		end
 	end
 
+	function slot13(slot0)
+		return slot0
+	end
+
+	table.sort(slot8, CompareFuncs({
+		function (slot0)
+			return -uv0:GetAttrById(pg.child_target_set[slot0].condition[1][1])
+		end,
+		slot13
+	}))
+
 	slot9 = 0
 	slot0.targetList = {}
 
@@ -55,8 +66,6 @@ function slot0.initTargetList(slot0)
 			end
 		end
 	end
-
-	table.sort(slot0.targetList)
 end
 
 function slot0.findUI(slot0)

@@ -121,7 +121,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……找TB……有事？",
+			say = "……找TB……有事？",
 			painting = {
 				alpha = 0.3,
 				time = 1

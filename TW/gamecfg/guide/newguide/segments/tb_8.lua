@@ -29,6 +29,7 @@ return {
 		},
 		{
 			alpha = 0.4,
+			delay = 1,
 			code = {
 				2
 			},
@@ -68,6 +69,7 @@ return {
 		},
 		{
 			alpha = 0.4,
+			delay = 1,
 			code = {
 				3
 			},
@@ -92,7 +94,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "通过通过收集不同“瞬间”可以解锁不同特殊秘书舰形态。",
+				text = "通过解锁「瞬间」以开放领航员-TB的不同外形模块。",
 				mode = 2,
 				dir = 1,
 				char = 1,

@@ -213,7 +213,7 @@ pg.child_site_option = {
 				3
 			},
 			{
-				5,
+				4,
 				4
 			}
 		},
@@ -1543,7 +1543,74 @@ pg.child_site_option = {
 		},
 		result = {},
 		result_display = {},
-		time_limit = {},
+		time_limit = {
+			{
+				4,
+				1
+			},
+			{
+				5,
+				4
+			}
+		},
+		count_limit = {},
+		polarid_list = {}
+	},
+	[13022] = {
+		replace = 0,
+		name = "潮流市集",
+		id = 13022,
+		type = 1,
+		label = "",
+		desc = "不管是书籍还是乐器，都能在这里找到。",
+		is_limit = 0,
+		icon = "",
+		order = 2,
+		cost = {},
+		param = {
+			42
+		},
+		result = {},
+		result_display = {},
+		time_limit = {
+			{
+				6,
+				1
+			},
+			{
+				9,
+				4
+			}
+		},
+		count_limit = {},
+		polarid_list = {}
+	},
+	[13023] = {
+		replace = 0,
+		name = "潮流市集",
+		id = 13023,
+		type = 1,
+		label = "",
+		desc = "不管是书籍还是乐器，都能在这里找到。",
+		is_limit = 0,
+		icon = "",
+		order = 2,
+		cost = {},
+		param = {
+			43
+		},
+		result = {},
+		result_display = {},
+		time_limit = {
+			{
+				10,
+				1
+			},
+			{
+				14,
+				4
+			}
+		},
 		count_limit = {},
 		polarid_list = {}
 	},
@@ -1797,9 +1864,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				103,
-				30
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -1938,9 +2005,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				103,
-				30
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -1987,9 +2054,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				103,
-				30
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -2036,9 +2103,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				103,
-				30
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -3111,13 +3178,7 @@ pg.child_site_option = {
 			141
 		},
 		result = {},
-		result_display = {
-			{
-				1,
-				101,
-				24
-			}
-		},
+		result_display = {},
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
@@ -4078,7 +4139,7 @@ pg.child_site_option = {
 	},
 	[14132] = {
 		replace = 0,
-		name = "《一千个答案》",
+		name = "《偷一块面包》",
 		id = 14132,
 		type = 2,
 		label = "",
@@ -4100,7 +4161,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			141122
+			141123
 		},
 		result_display = {
 			{
@@ -4154,7 +4215,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14141
+			141124
 		},
 		result_display = {
 			{
@@ -4208,7 +4269,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14151
+			141125
 		},
 		result_display = {
 			{
@@ -4262,7 +4323,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14161
+			141126
 		},
 		result_display = {
 			{
@@ -4316,7 +4377,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14171
+			141127
 		},
 		result_display = {
 			{
@@ -4370,7 +4431,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14181
+			141128
 		},
 		result_display = {
 			{
@@ -4424,7 +4485,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14191
+			141129
 		},
 		result_display = {
 			{
@@ -4478,7 +4539,7 @@ pg.child_site_option = {
 		},
 		param = {},
 		result = {
-			14201
+			141130
 		},
 		result_display = {
 			{
@@ -4569,7 +4630,8 @@ pg.child_site_option = {
 			167,
 			168,
 			169,
-			170
+			170,
+			109
 		}
 	},
 	[1502] = {
@@ -4632,7 +4694,8 @@ pg.child_site_option = {
 			167,
 			168,
 			169,
-			170
+			170,
+			109
 		}
 	},
 	[1503] = {
@@ -4695,7 +4758,8 @@ pg.child_site_option = {
 			167,
 			168,
 			169,
-			170
+			170,
+			109
 		}
 	},
 	[1504] = {
@@ -5213,9 +5277,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				101,
-				50
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -5262,9 +5326,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				101,
-				50
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -5311,9 +5375,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				101,
-				50
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -5360,9 +5424,9 @@ pg.child_site_option = {
 		},
 		result_display = {
 			{
-				1,
-				101,
-				50
+				2,
+				-1,
+				-1
 			}
 		},
 		time_limit = {
@@ -6716,6 +6780,8 @@ pg.child_site_option = {
 		12132,
 		12133,
 		1302,
+		13022,
+		13023,
 		1303,
 		1304,
 		13042,

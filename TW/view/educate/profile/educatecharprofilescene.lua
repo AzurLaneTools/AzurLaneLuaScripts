@@ -5,8 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.homeBtn = slot0:findTF("top/home")
+	slot0.backBtn = slot0:findTF("adapt/top/back")
+	slot0.homeBtn = slot0:findTF("adapt/top/home")
 	slot0.paintingTr = slot0:findTF("main/mask/painting")
 	slot0.chatTf = slot0:findTF("main/chat")
 	slot0.chatTxt = slot0.chatTf:Find("Text"):GetComponent(typeof(Text))

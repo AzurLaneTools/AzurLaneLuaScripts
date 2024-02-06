@@ -1008,6 +1008,7 @@ function slot0.Reset(slot0)
 	slot0.randomFlagShipList = nil
 	slot0.prevRandomFlagShipTime = nil
 	slot0.randomFlagShipMap = nil
+	slot0.educateCharTipList = {}
 end
 
 return slot0

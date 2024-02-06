@@ -2,7 +2,13 @@ slot0 = class("EducateCharGroup")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1
-	slot0.charIdList = pg.secretary_special_ship.get_id_list_by_group[slot1]
+	slot0.charIdList = {}
+
+	for slot6, slot7 in ipairs(pg.secretary_special_ship.get_id_list_by_group[slot1]) do
+		if pg.secretary_special_ship[slot7].secrerary_show == 1 then
+			table.insert(slot0.charIdList, slot7)
+		end
+	end
 end
 
 function slot0.GetSortWeight(slot0)

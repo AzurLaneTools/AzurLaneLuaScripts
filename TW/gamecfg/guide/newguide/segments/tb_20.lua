@@ -55,7 +55,7 @@ return {
 				posX = 361.72
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/PlayerVitaeShipsPage(Clone)/educate_char/addCard",
+				path = "/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/PlayerVitaeShipsPage(Clone)/educate_char/addCard",
 				pathIndex = -1,
 				fingerPos = {
 					posY = -64.02,
@@ -74,7 +74,7 @@ return {
 				posX = 90.1
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/pages/groupPage/main/list/tpl/anim_root",
+				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/groupPage/main/list/tpl/anim_root",
 				pathIndex = -1,
 				fingerPos = {
 					posY = -121.3,
@@ -84,21 +84,14 @@ return {
 		},
 		{
 			delay = 1,
-			alpha = 0.4,
+			alpha = 0,
 			style = {
 				text = "更多外形可通过在「养成计划」中收集一定数量的“瞬间”解锁。",
 				mode = 2,
-				dir = 1,
-				char = 1,
 				posY = -147.2,
-				posX = -469.33,
-				uiset = {
-					{
-						lineMode = 2,
-						path = "UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/pages/EducateCharDockSelectUI(Clone)/list",
-						pathIndex = -1
-					}
-				}
+				char = 1,
+				dir = 1,
+				posX = -469.33
 			}
 		},
 		{
@@ -106,13 +99,13 @@ return {
 			style = {
 				text = "选择特殊秘书舰对应形态。",
 				mode = 2,
-				posY = -181.2,
+				posY = -76,
 				char = 1,
-				dir = 1,
-				posX = -470.28
+				dir = -1,
+				posX = 230
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/pages/EducateCharDockSelectUI(Clone)/list/content",
+				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/list/content",
 				pathIndex = 0,
 				fingerPos = {
 					posY = -115,
@@ -132,7 +125,7 @@ return {
 				uiset = {
 					{
 						lineMode = 2,
-						path = "UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/pages/EducateCharDockSelectUI(Clone)/confirm_btn",
+						path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/confirm_btn",
 						pathIndex = -1
 					}
 				}

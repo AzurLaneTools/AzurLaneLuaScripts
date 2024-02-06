@@ -22,6 +22,7 @@ function slot0.findUI(slot0)
 	slot0.sureBtn = slot0:findTF("bg/panel/sure_button")
 
 	setText(slot0:findTF("Image", slot0.sureBtn), i18n("word_ok"))
+	setText(slot0:findTF("Placeholder", slot0.callInput), i18n("child_callname_tip"))
 end
 
 function slot0.addListener(slot0)

@@ -22,7 +22,7 @@ end
 function slot0.initData(slot0)
 	slot1 = getProxy(EducateProxy)
 	slot1 = slot1:GetCharData()
-	slot0.planCnt = slot1:GetPlanCnt()
+	slot0.planCnt = slot1:GetNextWeekPlanCnt()
 	slot0.curDay = 1
 	slot0.curIndex = 1
 	slot0.events = slot0.contextData.events

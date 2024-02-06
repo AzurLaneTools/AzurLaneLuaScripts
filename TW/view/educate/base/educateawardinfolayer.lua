@@ -89,6 +89,8 @@ end
 
 function slot0.showWindow(slot0)
 	if #slot0.showAwardDrops > 0 then
+		slot0.inAnimPlaying = true
+
 		setActive(slot0.awardWindow, true)
 		slot0.anim:Play(#slot0.showAttrDrops > 0 and "anim_educate_awardinfo_awardattr_in" or "anim_educate_awardinfo_award_in")
 		table.insert({}, function (slot0)
@@ -99,12 +101,6 @@ function slot0.showWindow(slot0)
 
 		for slot7 = 1, math.max(#slot0.showAttrDrops, #slot0.showAwardDrops) do
 			table.insert(slot2, function (slot0)
-				if uv0.inCloseAnim then
-					slot0()
-
-					return
-				end
-
 				if uv0.showAwardDrops[uv1] then
 					slot2 = cloneTplTo(uv0.itemTpl, uv0.itemContainer)
 
@@ -127,8 +123,6 @@ function slot0.showWindow(slot0)
 				end, 0.066, nil)
 			end)
 		end
-
-		slot0.inAnimPlaying = true
 
 		seriesAsync(slot2, function ()
 			slot0 = uv0
@@ -208,8 +202,6 @@ function slot0._close(slot0)
 	if slot0.inAnimPlaying and not pg.NewGuideMgr.GetInstance():IsBusy() then
 		return
 	end
-
-	slot0.inCloseAnim = true
 
 	slot0.anim:Play("anim_educate_awardinfo_award_out")
 end

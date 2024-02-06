@@ -67,7 +67,7 @@ function slot0.didEnter(slot0)
 		weight = slot0:getWeightFromData() + 1
 	})
 	slot0:initItems()
-	slot0:updateItems(0)
+	triggerToggle(slot0:findTF("0", slot0.togglesTF), true)
 end
 
 function slot0.initItems(slot0)

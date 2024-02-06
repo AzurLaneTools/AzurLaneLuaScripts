@@ -67,7 +67,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			uv0:onCpkStart(uv1)
 
 			if not IsNil(slot2) then
-				Object.Destroy(slot2)
+				Destroy(slot2)
 			end
 		end), true, true)
 	elseif slot2 then
@@ -108,7 +108,7 @@ end
 
 function slot0.Clear(slot0)
 	if not IsNil(slot0.cpkTF) then
-		Object.Destroy(slot0.cpkTF)
+		Destroy(slot0.cpkTF)
 	end
 
 	if slot0.timer ~= nil then

@@ -126,11 +126,15 @@ function slot0.GetNextWeekPlanCnt(slot0)
 end
 
 function slot0.GetSiteCnt(slot0)
-	return slot0:getConfig("stage_site_number")[slot0.stage]
+	if not getProxy(EducateProxy):InVirtualStage() then
+		return slot0:getConfig("stage_site_number")[slot0.stage]
+	else
+		return slot0:getConfig("stage_site_number")[slot0.stage + 1]
+	end
 end
 
-function slot0.GetNextStageReaminWeek(slot0)
-	return (slot0:getConfig("stage")[slot0.stage][2][1] + 1 - slot0.curTime.month) * 4 - slot0.curTime.week
+function slot0.GetStageReaminWeek(slot0, slot1)
+	return (slot0:getConfig("stage")[slot1][2][1] + 1 - slot0.curTime.month) * 4 - slot0.curTime.week
 end
 
 function slot0.GetAttrIdsByType(slot0, slot1)

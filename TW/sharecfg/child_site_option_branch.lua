@@ -568,7 +568,7 @@ pg.child_site_option_branch = {
 		resource = "",
 		result = 1202200,
 		id = 121320,
-		order = 0,
+		order = 1,
 		performance = {
 			1202001,
 			1202002
@@ -583,7 +583,7 @@ pg.child_site_option_branch = {
 		resource = "",
 		result = 1202300,
 		id = 121330,
-		order = 0,
+		order = 1,
 		performance = {
 			1202001,
 			1202002

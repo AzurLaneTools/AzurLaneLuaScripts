@@ -134781,8 +134781,8 @@ _G.pg.base.item_virtual_data_statistics[58793] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58794] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -134831,8 +134831,8 @@ _G.pg.base.item_virtual_data_statistics[58794] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58795] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -134881,8 +134881,8 @@ _G.pg.base.item_virtual_data_statistics[58795] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58796] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -134931,8 +134931,8 @@ _G.pg.base.item_virtual_data_statistics[58796] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58797] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -134981,8 +134981,8 @@ _G.pg.base.item_virtual_data_statistics[58797] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58798] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135031,8 +135031,8 @@ _G.pg.base.item_virtual_data_statistics[58798] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58799] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135081,8 +135081,8 @@ _G.pg.base.item_virtual_data_statistics[58799] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58800] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135131,8 +135131,8 @@ _G.pg.base.item_virtual_data_statistics[58800] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58801] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135181,8 +135181,8 @@ _G.pg.base.item_virtual_data_statistics[58801] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58802] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135231,8 +135231,8 @@ _G.pg.base.item_virtual_data_statistics[58802] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58803] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135281,8 +135281,8 @@ _G.pg.base.item_virtual_data_statistics[58803] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58804] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135331,8 +135331,8 @@ _G.pg.base.item_virtual_data_statistics[58804] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58805] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135381,8 +135381,8 @@ _G.pg.base.item_virtual_data_statistics[58805] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58806] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135431,8 +135431,8 @@ _G.pg.base.item_virtual_data_statistics[58806] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58807] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135481,8 +135481,8 @@ _G.pg.base.item_virtual_data_statistics[58807] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58808] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135531,8 +135531,8 @@ _G.pg.base.item_virtual_data_statistics[58808] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58809] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135581,8 +135581,8 @@ _G.pg.base.item_virtual_data_statistics[58809] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58810] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135631,8 +135631,8 @@ _G.pg.base.item_virtual_data_statistics[58810] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58811] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135681,8 +135681,8 @@ _G.pg.base.item_virtual_data_statistics[58811] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58812] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135731,8 +135731,8 @@ _G.pg.base.item_virtual_data_statistics[58812] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58813] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135781,8 +135781,8 @@ _G.pg.base.item_virtual_data_statistics[58813] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58814] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135831,8 +135831,8 @@ _G.pg.base.item_virtual_data_statistics[58814] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58815] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135881,8 +135881,8 @@ _G.pg.base.item_virtual_data_statistics[58815] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58816] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135926,8 +135926,8 @@ _G.pg.base.item_virtual_data_statistics[58816] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58817] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -135971,8 +135971,8 @@ _G.pg.base.item_virtual_data_statistics[58817] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58818] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -136016,8 +136016,8 @@ _G.pg.base.item_virtual_data_statistics[58818] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58819] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -136061,8 +136061,8 @@ _G.pg.base.item_virtual_data_statistics[58819] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58820] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -136106,8 +136106,8 @@ _G.pg.base.item_virtual_data_statistics[58820] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58821] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -136156,8 +136156,8 @@ _G.pg.base.item_virtual_data_statistics[58821] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58822] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -136201,7 +136201,7 @@ _G.pg.base.item_virtual_data_statistics[58822] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58823] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -136341,7 +136341,7 @@ _G.pg.base.item_virtual_data_statistics[58823] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58824] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -136476,7 +136476,7 @@ _G.pg.base.item_virtual_data_statistics[58824] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58825] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -136611,7 +136611,7 @@ _G.pg.base.item_virtual_data_statistics[58825] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58826] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -136746,7 +136746,7 @@ _G.pg.base.item_virtual_data_statistics[58826] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58827] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -136881,7 +136881,7 @@ _G.pg.base.item_virtual_data_statistics[58827] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58828] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137016,7 +137016,7 @@ _G.pg.base.item_virtual_data_statistics[58828] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58829] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137156,7 +137156,7 @@ _G.pg.base.item_virtual_data_statistics[58829] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58830] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137291,7 +137291,7 @@ _G.pg.base.item_virtual_data_statistics[58830] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58831] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137426,7 +137426,7 @@ _G.pg.base.item_virtual_data_statistics[58831] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58832] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137561,7 +137561,7 @@ _G.pg.base.item_virtual_data_statistics[58832] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58833] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137696,7 +137696,7 @@ _G.pg.base.item_virtual_data_statistics[58833] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58834] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,
@@ -137831,7 +137831,7 @@ _G.pg.base.item_virtual_data_statistics[58834] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58835] = {
-	display = "当前关卡有几率获得以下角色",
+	display = "目前關卡有機率獲得以下角色",
 	name = "未知角色",
 	max_num = 0,
 	type = 99,

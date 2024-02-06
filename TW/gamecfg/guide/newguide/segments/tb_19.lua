@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "游戏中以获取的道具会放在背包内",
+				text = "游戏中已获取的道具会放在背包内",
 				mode = 2,
 				dir = -1,
 				char = 1,

@@ -1105,27 +1105,6 @@ pg.child_target_set = {
 			}
 		}
 	},
-	[99] = {
-		target_progress = 10,
-		name = "测试用",
-		condition = "",
-		icon = "child_icon_target_shentibangbang",
-		recommend_attr = 0,
-		pic = "child_name_target_ganzhishijie",
-		desc = "占位描述99",
-		recommend_attr2 = 0,
-		id = 99,
-		stage = 1,
-		ids = {},
-		target_progress_main = {
-			101
-		},
-		drop_display = {
-			1,
-			101,
-			6
-		}
-	},
 	all = {
 		1,
 		2,
@@ -1156,7 +1135,6 @@ pg.child_target_set = {
 		53,
 		54,
 		55,
-		56,
-		99
+		56
 	}
 }

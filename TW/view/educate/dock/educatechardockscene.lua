@@ -9,10 +9,10 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.homeBtn = slot0:findTF("top/home")
-	slot0.selectPage = EducateCharSelectPage.New(slot0._tf:Find("pages"), slot0.event)
-	slot0.groupPage = EducateCharGroupPage.New(slot0._tf:Find("pages/groupPage"), slot0.event, slot0.contextData)
+	slot0.backBtn = slot0:findTF("adapt/top/back")
+	slot0.homeBtn = slot0:findTF("adapt/top/home")
+	slot0.selectPage = EducateCharSelectPage.New(slot0._tf:Find("adapt/pages"), slot0.event)
+	slot0.groupPage = EducateCharGroupPage.New(slot0._tf:Find("adapt/pages/groupPage"), slot0.event, slot0.contextData)
 end
 
 function slot0.didEnter(slot0)

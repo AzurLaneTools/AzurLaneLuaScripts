@@ -229,7 +229,7 @@ pg.child_event_special = {
 		result = 11,
 		child_attr2 = 0,
 		id = 111,
-		main_desc = "露营活动！",
+		main_desc = "露营前的准备",
 		show = 1,
 		date = {
 			{
@@ -642,7 +642,7 @@ pg.child_event_special = {
 	},
 	[128] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 128,
 		child_attr2 = 0,
 		type_param = "",
@@ -666,7 +666,7 @@ pg.child_event_special = {
 	},
 	[129] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 129,
 		child_attr2 = 0,
 		type_param = "",
@@ -690,7 +690,7 @@ pg.child_event_special = {
 	},
 	[130] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 130,
 		child_attr2 = 0,
 		type_param = "",
@@ -714,7 +714,7 @@ pg.child_event_special = {
 	},
 	[131] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 131,
 		child_attr2 = 0,
 		type_param = "",
@@ -738,7 +738,7 @@ pg.child_event_special = {
 	},
 	[132] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 132,
 		child_attr2 = 0,
 		type_param = "",
@@ -762,7 +762,7 @@ pg.child_event_special = {
 	},
 	[133] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 133,
 		child_attr2 = 0,
 		type_param = "",
@@ -786,7 +786,7 @@ pg.child_event_special = {
 	},
 	[134] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 134,
 		child_attr2 = 0,
 		type_param = "",
@@ -810,7 +810,7 @@ pg.child_event_special = {
 	},
 	[135] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 135,
 		child_attr2 = 201,
 		type_param = "",
@@ -834,7 +834,7 @@ pg.child_event_special = {
 	},
 	[136] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 136,
 		child_attr2 = 203,
 		type_param = "",
@@ -858,7 +858,7 @@ pg.child_event_special = {
 	},
 	[137] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 137,
 		child_attr2 = 202,
 		type_param = "",
@@ -882,7 +882,7 @@ pg.child_event_special = {
 	},
 	[138] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 138,
 		child_attr2 = 201,
 		type_param = "",
@@ -906,7 +906,7 @@ pg.child_event_special = {
 	},
 	[139] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 139,
 		child_attr2 = 203,
 		type_param = "",
@@ -930,7 +930,7 @@ pg.child_event_special = {
 	},
 	[140] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 140,
 		child_attr2 = 202,
 		type_param = "",
@@ -954,7 +954,7 @@ pg.child_event_special = {
 	},
 	[141] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 141,
 		child_attr2 = 201,
 		type_param = "",
@@ -978,7 +978,7 @@ pg.child_event_special = {
 	},
 	[142] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 142,
 		child_attr2 = 203,
 		type_param = "",
@@ -1002,7 +1002,7 @@ pg.child_event_special = {
 	},
 	[143] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 143,
 		child_attr2 = 202,
 		type_param = "",
@@ -1026,7 +1026,7 @@ pg.child_event_special = {
 	},
 	[144] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 144,
 		child_attr2 = 201,
 		type_param = "",
@@ -1050,7 +1050,7 @@ pg.child_event_special = {
 	},
 	[145] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 145,
 		child_attr2 = 203,
 		type_param = "",
@@ -1074,7 +1074,7 @@ pg.child_event_special = {
 	},
 	[146] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 146,
 		child_attr2 = 202,
 		type_param = "",
@@ -1098,7 +1098,7 @@ pg.child_event_special = {
 	},
 	[147] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 147,
 		child_attr2 = 0,
 		type_param = "",
@@ -1122,7 +1122,7 @@ pg.child_event_special = {
 	},
 	[148] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 148,
 		child_attr2 = 0,
 		type_param = "",
@@ -1146,7 +1146,7 @@ pg.child_event_special = {
 	},
 	[149] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 149,
 		child_attr2 = 0,
 		type_param = "",
@@ -1170,7 +1170,7 @@ pg.child_event_special = {
 	},
 	[150] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 150,
 		child_attr2 = 0,
 		type_param = "",
@@ -1194,7 +1194,7 @@ pg.child_event_special = {
 	},
 	[151] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 151,
 		child_attr2 = 0,
 		type_param = "",
@@ -1218,7 +1218,7 @@ pg.child_event_special = {
 	},
 	[152] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 152,
 		child_attr2 = 0,
 		type_param = "",
@@ -1242,7 +1242,7 @@ pg.child_event_special = {
 	},
 	[153] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 153,
 		child_attr2 = 0,
 		type_param = "",
@@ -1266,7 +1266,7 @@ pg.child_event_special = {
 	},
 	[154] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 154,
 		child_attr2 = 0,
 		type_param = "",
@@ -1290,7 +1290,7 @@ pg.child_event_special = {
 	},
 	[155] = {
 		type = 3,
-		result = 1003,
+		result = 1001,
 		id = 155,
 		child_attr2 = 0,
 		type_param = "",
@@ -1314,7 +1314,7 @@ pg.child_event_special = {
 	},
 	[156] = {
 		type = 3,
-		result = 1002,
+		result = 1001,
 		id = 156,
 		child_attr2 = 0,
 		type_param = "",
@@ -1639,12 +1639,12 @@ pg.child_event_special = {
 		date = {
 			{
 				6,
-				3,
+				4,
 				7
 			},
 			{
-				6,
-				4,
+				7,
+				1,
 				7
 			}
 		},

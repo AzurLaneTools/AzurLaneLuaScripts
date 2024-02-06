@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.child_item = {
 	{
-		rarity = 1,
+		rarity = 2,
 		name = "啾啾奶茶",
 		type = 4,
 		is_show = 1,
@@ -83,7 +83,7 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 3,
+		rarity = 2,
 		name = "蜜瓜双球",
 		type = 4,
 		is_show = 1,
@@ -124,7 +124,7 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		rarity = 1,
+		rarity = 2,
 		name = "蛋包饭",
 		type = 4,
 		is_show = 1,
@@ -147,7 +147,7 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		rarity = 1,
+		rarity = 3,
 		name = "酥皮浓汤",
 		type = 4,
 		is_show = 1,
@@ -165,7 +165,7 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		rarity = 2,
+		rarity = 3,
 		name = "马卡龙",
 		type = 4,
 		is_show = 1,
@@ -183,7 +183,7 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		rarity = 2,
+		rarity = 3,
 		name = "西瓜奶油披萨",
 		type = 4,
 		is_show = 1,
@@ -201,7 +201,7 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		rarity = 3,
+		rarity = 4,
 		name = "香蕉可丽饼",
 		type = 4,
 		is_show = 1,
@@ -219,7 +219,7 @@ pg.child_item = {
 		}
 	},
 	[16] = {
-		rarity = 3,
+		rarity = 4,
 		name = "肉排三明治",
 		type = 4,
 		is_show = 1,
@@ -237,7 +237,7 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		rarity = 3,
+		rarity = 4,
 		name = "罗勒炖肉",
 		type = 4,
 		is_show = 1,
@@ -255,7 +255,7 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		rarity = 1,
+		rarity = 2,
 		name = "初学者钓竿",
 		type = 3,
 		is_show = 1,
@@ -278,7 +278,7 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		rarity = 1,
+		rarity = 2,
 		name = "铁斧头",
 		type = 3,
 		is_show = 1,
@@ -296,7 +296,7 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		rarity = 2,
+		rarity = 3,
 		name = "进阶者钓竿",
 		type = 3,
 		is_show = 1,
@@ -319,7 +319,7 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		rarity = 2,
+		rarity = 3,
 		name = "银斧头",
 		type = 3,
 		is_show = 1,
@@ -337,7 +337,7 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		rarity = 3,
+		rarity = 4,
 		name = "大师级钓竿",
 		type = 3,
 		is_show = 1,
@@ -355,7 +355,7 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		rarity = 3,
+		rarity = 4,
 		name = "金斧头",
 		type = 3,
 		is_show = 1,
@@ -442,7 +442,7 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		rarity = 1,
+		rarity = 2,
 		name = "《如何俘获指挥官的心？》",
 		type = 1,
 		is_show = 1,
@@ -460,7 +460,7 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		rarity = 1,
+		rarity = 2,
 		name = "《天才创造指北！》",
 		type = 1,
 		is_show = 1,
@@ -478,7 +478,7 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		rarity = 1,
+		rarity = 2,
 		name = "《心动假期旅游指南》",
 		type = 1,
 		is_show = 1,
@@ -496,7 +496,7 @@ pg.child_item = {
 		}
 	},
 	[41] = {
-		rarity = 1,
+		rarity = 3,
 		name = "唱片",
 		type = 2,
 		is_show = 1,
@@ -514,7 +514,7 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		rarity = 1,
+		rarity = 3,
 		name = "麦克风",
 		type = 2,
 		is_show = 1,
@@ -532,7 +532,7 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		rarity = 2,
+		rarity = 3,
 		name = "单簧管",
 		type = 2,
 		is_show = 1,
@@ -555,7 +555,7 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		rarity = 2,
+		rarity = 4,
 		name = "竖琴",
 		type = 2,
 		is_show = 1,
@@ -573,7 +573,7 @@ pg.child_item = {
 		}
 	},
 	[45] = {
-		rarity = 3,
+		rarity = 4,
 		name = "小提琴",
 		type = 2,
 		is_show = 1,
@@ -596,7 +596,7 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		rarity = 3,
+		rarity = 4,
 		name = "钢琴",
 		type = 2,
 		is_show = 1,
@@ -614,7 +614,7 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		rarity = 3,
+		rarity = 4,
 		name = "小号",
 		type = 2,
 		is_show = 1,
@@ -637,7 +637,7 @@ pg.child_item = {
 		}
 	},
 	[51] = {
-		rarity = 2,
+		rarity = 3,
 		name = "白珍珠",
 		type = 4,
 		is_show = 1,
@@ -655,7 +655,7 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		rarity = 2,
+		rarity = 4,
 		name = "贝壳摆件",
 		type = 4,
 		is_show = 1,
@@ -673,7 +673,7 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		rarity = 2,
+		rarity = 3,
 		name = "章鱼玩偶",
 		type = 4,
 		is_show = 1,
@@ -691,7 +691,7 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		rarity = 2,
+		rarity = 4,
 		name = "许愿瓶",
 		type = 4,
 		is_show = 1,
@@ -709,7 +709,7 @@ pg.child_item = {
 		}
 	},
 	[55] = {
-		rarity = 2,
+		rarity = 3,
 		name = "神奇海螺",
 		type = 4,
 		is_show = 1,
@@ -732,7 +732,7 @@ pg.child_item = {
 		}
 	},
 	[56] = {
-		rarity = 2,
+		rarity = 3,
 		name = "椰子",
 		type = 4,
 		is_show = 1,
@@ -809,7 +809,7 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		rarity = 3,
+		rarity = 2,
 		name = "饺子拼盘",
 		type = 4,
 		is_show = 1,
@@ -863,7 +863,7 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		rarity = 4,
+		rarity = 3,
 		name = "杂煮锅",
 		type = 4,
 		is_show = 1,
@@ -881,7 +881,7 @@ pg.child_item = {
 		}
 	},
 	[108] = {
-		rarity = 4,
+		rarity = 3,
 		name = "迷迭香羊排",
 		type = 4,
 		is_show = 1,
@@ -899,7 +899,7 @@ pg.child_item = {
 		}
 	},
 	[109] = {
-		rarity = 5,
+		rarity = 3,
 		name = "肉排三明治",
 		type = 4,
 		is_show = 1,
@@ -917,7 +917,7 @@ pg.child_item = {
 		}
 	},
 	[110] = {
-		rarity = 5,
+		rarity = 3,
 		name = "神秘料理",
 		type = 4,
 		is_show = 1,
@@ -959,7 +959,7 @@ pg.child_item = {
 		is_show = 1,
 		desc = "钓上来小河虾，收获聊胜于无。",
 		usage = "usage_drop",
-		usage_arg = "[120207]",
+		usage_arg = "[120211]",
 		id = 131,
 		icon = "131",
 		display = {
@@ -977,7 +977,7 @@ pg.child_item = {
 		is_show = 1,
 		desc = "钓上来的小鱼，运气还不错。",
 		usage = "usage_drop",
-		usage_arg = "[120208]",
+		usage_arg = "[120212]",
 		id = 132,
 		icon = "132",
 		display = {
@@ -988,37 +988,14 @@ pg.child_item = {
 			}
 		}
 	},
-	[133] = {
-		rarity = 1,
-		name = "废轮胎",
-		type = 4,
-		is_show = 1,
-		desc = "破旧的废轮胎，还以为是条大鱼呢……",
-		usage = "usage_drop",
-		usage_arg = "[120209]",
-		id = 133,
-		icon = "133",
-		display = {
-			{
-				2,
-				2,
-				2
-			},
-			{
-				2,
-				1,
-				20
-			}
-		}
-	},
 	[134] = {
-		rarity = 3,
+		rarity = 2,
 		name = "大鱼",
 		type = 4,
 		is_show = 1,
 		desc = "钓上来的大鱼，可以加餐了！",
 		usage = "usage_drop",
-		usage_arg = "[120210]",
+		usage_arg = "[120214]",
 		id = 134,
 		icon = "134",
 		display = {
@@ -1030,13 +1007,13 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		rarity = 3,
+		rarity = 2,
 		name = "龙虾",
 		type = 4,
 		is_show = 1,
 		desc = "龙虾一只！不过为什么龙虾会上钩呢……？",
 		usage = "usage_drop",
-		usage_arg = "[120211]",
+		usage_arg = "[120215]",
 		id = 135,
 		icon = "135",
 		display = {
@@ -1048,7 +1025,7 @@ pg.child_item = {
 		}
 	},
 	[151] = {
-		rarity = 3,
+		rarity = 2,
 		name = "写真",
 		type = 4,
 		is_show = 1,
@@ -1230,7 +1207,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				20
 			},
 			{
@@ -1258,7 +1235,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				20
 			},
 			{
@@ -1342,7 +1319,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				100
 			},
 			{
@@ -1370,7 +1347,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				100
 			},
 			{
@@ -1696,7 +1673,7 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		rarity = 2,
+		rarity = 1,
 		name = "主线目标奖章",
 		type = 4,
 		is_show = 1,
@@ -1792,7 +1769,6 @@ pg.child_item = {
 		121,
 		131,
 		132,
-		133,
 		134,
 		135,
 		151,
