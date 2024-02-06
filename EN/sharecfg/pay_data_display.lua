@@ -4705,11 +4705,11 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		picture = "fudai12",
 		skin_inquire_relation = 86203,
-		id_str = "com.yostaren.azurlane.luckybag26",
+		id_str = "com.yostaren.azurlane.luckybag27",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
-		airijp_id = "com.yostaren.azurlane.luckybag26",
+		airijp_id = "com.yostaren.azurlane.luckybag27",
 		extra_service_item = {
 			{
 				2,
@@ -4818,11 +4818,11 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		picture = "fudaiqp2",
 		skin_inquire_relation = 69925,
-		id_str = "com.yostaren.azurlane.luckybag27",
+		id_str = "com.yostaren.azurlane.luckybag26",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
-		airijp_id = "com.yostaren.azurlane.luckybag27",
+		airijp_id = "com.yostaren.azurlane.luckybag26",
 		extra_service_item = {
 			{
 				2,

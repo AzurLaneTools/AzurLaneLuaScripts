@@ -9108,7 +9108,7 @@ pg.child_performance = {
 		picture_status = 2,
 		show_next = 0,
 		id = 1403003,
-		show_event = 0,
+		show_event = 1,
 		param = {
 			1403003
 		},
@@ -9123,7 +9123,7 @@ pg.child_performance = {
 		picture_status = 2,
 		show_next = 0,
 		id = 1403004,
-		show_event = 0,
+		show_event = 1,
 		param = {
 			1403004
 		},
@@ -9138,7 +9138,7 @@ pg.child_performance = {
 		picture_status = 2,
 		show_next = 0,
 		id = 1403005,
-		show_event = 0,
+		show_event = 1,
 		param = {
 			1403005
 		},
@@ -9153,7 +9153,7 @@ pg.child_performance = {
 		picture_status = 2,
 		show_next = 0,
 		id = 1403006,
-		show_event = 0,
+		show_event = 1,
 		param = {
 			1403006
 		},
@@ -9168,7 +9168,7 @@ pg.child_performance = {
 		picture_status = 2,
 		show_next = 0,
 		id = 1403007,
-		show_event = 0,
+		show_event = 1,
 		param = {
 			1403007
 		},

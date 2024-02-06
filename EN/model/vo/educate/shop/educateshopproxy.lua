@@ -2,6 +2,7 @@ slot0 = class("EducateShopProxy")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.binder = slot1
+	slot0.data = {}
 end
 
 function slot0.SetUp(slot0, slot1)

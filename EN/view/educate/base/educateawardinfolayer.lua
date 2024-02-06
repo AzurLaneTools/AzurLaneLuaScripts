@@ -201,13 +201,17 @@ end
 function slot0._close(slot0)
 	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		slot0:emit(uv0.ON_CLOSE)
+
+		return
 	end
 
-	if slot0.inAnimPlaying then
+	if slot0.inAnimPlaying or slot0.isCloseAnim then
 		return
 	end
 
 	slot0.anim:Play("anim_educate_awardinfo_award_out")
+
+	slot0.isCloseAnim = true
 end
 
 function slot0.onBackPressed(slot0)
