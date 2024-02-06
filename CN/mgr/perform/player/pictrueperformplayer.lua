@@ -22,7 +22,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	slot5 = slot1.param[2] or 3
 
 	setActive(slot0.bgTF, false)
-	LoadSpriteAsync("educatepicture/" .. (slot1.param[1] or ""), function (slot0)
+	ResourceMgr.Inst:getAssetAsync("educatepicture/" .. (slot1.param[1] or ""), "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0.imageCom.sprite = slot0
 
 		setActive(uv0.bgTF, true)
@@ -34,7 +34,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		end, uv2)
 
 		uv0.timer:Start()
-	end)
+	end), true, true)
 end
 
 function slot0.Clear(slot0)

@@ -153,7 +153,7 @@ function slot0.initLeft(slot0)
 				})
 			end
 		end, SFX_PANEL)
-		setText(slot0.timeTF, getProxy(EducateProxy):GetCharData():GetNextStageReaminWeek() <= 1 and i18n("word_in_one_week") or slot4 .. i18n("word_week"))
+		setText(slot0.timeTF, getProxy(EducateProxy):GetCharData():GetStageReaminWeek(slot1.stage) <= 1 and i18n("word_in_one_week") or slot4 .. i18n("word_week"))
 	end
 
 	slot0:updataTarget()

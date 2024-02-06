@@ -22193,24 +22193,6 @@ pg.child_event = {
 			1202004
 		}
 	},
-	[121303] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 120203,
-		id = 121303,
-		attr = "",
-		type_param = {
-			1213
-		},
-		performance = {
-			1202005
-		}
-	},
 	[121304] = {
 		date = "",
 		state = "",
@@ -22283,24 +22265,6 @@ pg.child_event = {
 			1202004
 		}
 	},
-	[1213203] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 1202203,
-		id = 1213203,
-		attr = "",
-		type_param = {
-			12132
-		},
-		performance = {
-			1202005
-		}
-	},
 	[1213204] = {
 		date = "",
 		state = "",
@@ -22371,24 +22335,6 @@ pg.child_event = {
 		},
 		performance = {
 			1202004
-		}
-	},
-	[1213303] = {
-		date = "",
-		state = "",
-		item = "",
-		type = 2,
-		group = 0,
-		ratio = 0,
-		resource = "",
-		result = 1202303,
-		id = 1213303,
-		attr = "",
-		type_param = {
-			12133
-		},
-		performance = {
-			1202005
 		}
 	},
 	[1213304] = {
@@ -25395,17 +25341,14 @@ pg.child_event = {
 		1212306,
 		121301,
 		121302,
-		121303,
 		121304,
 		121305,
 		1213201,
 		1213202,
-		1213203,
 		1213204,
 		1213205,
 		1213301,
 		1213302,
-		1213303,
 		1213304,
 		1213305,
 		130301,

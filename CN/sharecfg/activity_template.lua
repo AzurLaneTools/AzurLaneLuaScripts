@@ -7627,12 +7627,13 @@ pg.activity_template = {
 	},
 	[5131] = {
 		mark = 20231221,
-		id = 5131,
 		title_res_tag = "xinghaizhuguang_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 50,
+		id = 5131,
 		config_data = {
 			1780001,
 			1780002,
@@ -7640,33 +7641,6 @@ pg.activity_template = {
 			1780021,
 			1780022,
 			1780023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "StarSeaMainPage",
@@ -7678,12 +7652,13 @@ pg.activity_template = {
 	},
 	[5132] = {
 		mark = 20231221,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5132,
 		config_data = {
 			1780004,
@@ -7695,45 +7670,19 @@ pg.activity_template = {
 			1780041,
 			1780051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[5133] = {
 		mark = 20231221,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5133,
 		config_data = {
@@ -7759,33 +7708,6 @@ pg.activity_template = {
 			19658,
 			19659,
 			19660
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5134] = {
@@ -9131,7 +9053,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 45,
+		is_show = 44,
 		config_data = {
 			19693,
 			19694,
@@ -9189,7 +9111,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5185,
-		is_show = 46,
+		is_show = 45,
 		config_data = {},
 		time = {
 			"timer",
@@ -9536,7 +9458,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 52,
-		is_show = 48,
+		is_show = 47,
 		config_data = {},
 		time = {
 			"timer",
@@ -9592,7 +9514,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 47,
+		is_show = 46,
 		id = 5192,
 		config_data = {
 			{
@@ -9711,7 +9633,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5194,
-		is_show = 49,
+		is_show = 48,
 		config_data = {},
 		time = {
 			"timer",
@@ -9864,7 +9786,7 @@ pg.activity_template = {
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 48,
+		is_show = 49,
 		config_data = {
 			19770,
 			19771,

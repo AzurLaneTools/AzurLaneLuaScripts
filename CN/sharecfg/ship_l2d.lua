@@ -12325,7 +12325,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -12415,7 +12418,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -12681,7 +12687,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -12770,7 +12779,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {},
 			idle = {
@@ -12958,7 +12970,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13047,7 +13062,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13136,7 +13154,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13362,7 +13383,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13452,7 +13476,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13537,7 +13564,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13620,7 +13650,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13704,7 +13737,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13789,7 +13825,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13874,7 +13913,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -13959,7 +14001,10 @@ pg.ship_l2d = {
 				"touch_drag5",
 				"touch_drag6",
 				"touch_drag7",
-				"touch_drag8"
+				"touch_drag8",
+				"touch_drag9",
+				"touch_drag10",
+				"touch_drag11"
 			},
 			ignore = {}
 		}
@@ -14170,7 +14215,7 @@ pg.ship_l2d = {
 		draw_able_name = "TouchDrag6",
 		start_value = 0,
 		mode = 1,
-		offset_y = 30,
+		offset_y = 50,
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
@@ -16896,7 +16941,7 @@ pg.ship_l2d = {
 		relation_parameter = "",
 		draw_able_name = "TouchDrag7",
 		offset_x = 0,
-		mode = 1,
+		mode = 2,
 		start_value = 0,
 		gyro = 0,
 		gyro_x = 0,
@@ -16909,11 +16954,11 @@ pg.ship_l2d = {
 		shop_action = 0,
 		revert_idle_index = 1,
 		gyro_z = 0,
-		smooth = 250,
+		smooth = 300,
 		id = 20606212,
 		range_abs = 1,
 		ship_skin_id = 206062,
-		revert_smooth = 50,
+		revert_smooth = 250,
 		range = {
 			0,
 			10
@@ -16928,7 +16973,7 @@ pg.ship_l2d = {
 		ignore_react = 1,
 		action_trigger_active = "",
 		gyro_y = 0,
-		limit_time = 0.1,
+		limit_time = 1,
 		drag_direct = 0,
 		parts_data = "",
 		relation_parameter = "",
@@ -16967,7 +17012,7 @@ pg.ship_l2d = {
 		ignore_react = 1,
 		action_trigger_active = "",
 		gyro_y = 0,
-		limit_time = 0.1,
+		limit_time = 1,
 		drag_direct = 0,
 		parts_data = "",
 		relation_parameter = "",
@@ -17006,7 +17051,7 @@ pg.ship_l2d = {
 		ignore_react = 1,
 		action_trigger_active = "",
 		gyro_y = 0,
-		limit_time = 0.1,
+		limit_time = 1,
 		drag_direct = 0,
 		parts_data = "",
 		relation_parameter = "",

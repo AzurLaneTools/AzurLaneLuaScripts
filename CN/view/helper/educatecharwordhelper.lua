@@ -13,7 +13,9 @@ slot2 = pg.character_voice_special
 slot3 = pg.secretary_special_ship_expression
 
 function slot4(slot0, slot1)
-	slot2 = uv0[slot0]
+	if not uv0[slot0] then
+		return nil, , 
+	end
 
 	return "event:/educate-cv/" .. slot1 .. "/" .. slot2.resource_key, slot2.resource_key
 end
