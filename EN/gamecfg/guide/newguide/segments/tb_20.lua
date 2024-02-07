@@ -71,7 +71,7 @@ return {
 				posY = -59.66,
 				char = 1,
 				dir = -1,
-				posX = 90.1
+				posX = 150.1
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/groupPage/main/list/tpl/anim_root",
@@ -102,7 +102,7 @@ return {
 				posY = -76,
 				char = 1,
 				dir = -1,
-				posX = 230
+				posX = 320
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/list/content",

@@ -126,7 +126,6 @@ function slot0.updateFinishItem(slot0, slot1, slot2)
 			slot0 = uv0
 
 			slot0:doAnim(uv1, function ()
-				uv0.isClick = nil
 			end)
 			onDelayTick(function ()
 				uv0.isClick = nil
@@ -170,6 +169,10 @@ function slot0.updateView(slot0)
 end
 
 function slot0._close(slot0)
+	if slot0.isClick then
+		return
+	end
+
 	slot0.anim:Play("anim_educate_mind_out")
 end
 

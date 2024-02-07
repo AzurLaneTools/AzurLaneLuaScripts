@@ -17,7 +17,7 @@ return {
 			actor = 1009,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Do you know anything about sports, $1?",
+			say = "Do you know anything about sports, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

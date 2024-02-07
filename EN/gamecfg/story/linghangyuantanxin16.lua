@@ -16,7 +16,7 @@ return {
 			actor = 1101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, is there anything else I can do for you? Like give you a shoulder massage, or something.",
+			say = "{tb}, is there anything else I can do for you? Like give you a shoulder massage, or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

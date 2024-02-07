@@ -17,7 +17,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, I've done the laundry and dried our clothes.",
+			say = "{tb}, I've done the laundry and dried our clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

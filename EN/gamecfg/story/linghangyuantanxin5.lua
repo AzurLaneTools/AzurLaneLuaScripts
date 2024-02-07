@@ -16,7 +16,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Why can't I have more, $1?",
+			say = "Why can't I have more, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, are you one of those adults who \"save\" their kid's allowance and birthday money, then spend it on frivolous stuff?",
+			say = "{tb}, are you one of those adults who \"save\" their kid's allowance and birthday money, then spend it on frivolous stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

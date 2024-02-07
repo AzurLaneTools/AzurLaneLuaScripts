@@ -17,7 +17,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, is magic real?",
+			say = "{tb}, is magic real?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

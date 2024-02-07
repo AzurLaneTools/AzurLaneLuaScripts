@@ -17,7 +17,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1! Hey, $1! Help me fill this out!",
+			say = "{tb}! Hey, {tb}! Help me fill this out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

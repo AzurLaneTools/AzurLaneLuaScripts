@@ -17,7 +17,7 @@ return {
 			actor = 1301,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I'll be straight to the point, $1! Do you want chocolate?",
+			say = "I'll be straight to the point, {tb}! Do you want chocolate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

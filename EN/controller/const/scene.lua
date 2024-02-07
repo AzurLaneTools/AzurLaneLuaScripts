@@ -1042,6 +1042,9 @@ slot1 = {
 			paintingNameList = slot2,
 			finishFunc = slot1
 		})
+	end,
+	EducateMediator = function (slot0, slot1)
+		EducateHelper.ReqEducateDataCheck(slot1)
 	end
 }
 

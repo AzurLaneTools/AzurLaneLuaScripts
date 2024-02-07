@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "...Can't you give me more, nya? Even just a teensy-weensy bit, nya?",
 			painting = {

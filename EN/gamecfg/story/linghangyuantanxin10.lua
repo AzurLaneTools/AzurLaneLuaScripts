@@ -17,7 +17,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, do you have a moment? I'd like some advice on what club I should apply to.",
+			say = "{tb}, do you have a moment? I'd like some advice on what club I should apply to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

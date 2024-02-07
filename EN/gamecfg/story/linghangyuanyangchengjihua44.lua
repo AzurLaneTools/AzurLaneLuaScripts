@@ -14,6 +14,23 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
 			}
 		},
 		{
@@ -53,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Myahaha... Any developer worth their salt knows to leave a backdoor in, nya!",
+			say = "Myahaha! I'm the developer, so it only makes sense for me to appear in the credits, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,13 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			expression = 3,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Also, TB wants to tell you something, so I brought her along, nya.",
+			actor = 312010,
+			say = "Besides, don't you have questions for me, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +99,67 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Well... Yes, I suppose.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "For one, what's this about a final ending?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "Nya?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "If you want to know, you should ask TB directly, nya!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
@@ -104,7 +182,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "(Damn, she answered all my questions before I could even ask them.)",
+			say = "(I was going to ask that next, but never mind, then.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "After Akashi walks off, I turn my gaze to TB, who stands there silently.",
+			say = "Akashi vanishes into thin air, and not much later, I come face to face with TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,35 +234,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 3,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Synchronizing analysis module. Commander, I have analyzed the data gathered from the virtual town.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "I have found that there is a connection between upbringing and the development of a personality.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Orders received. Analyzing... Analysis stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,17 +248,77 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "However, it is impossible to train on the data gained from one instance alone. Additional data is needed.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Sorry. I aborted the analysis process prematurely because I don't want to answer this question.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "To explain what your parenting was like, to me, it was the feeling that is commonly defined as \"fun.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "However, the source of this feeling cannot be rationally explained by the concepts currently in my database.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "To borrow an expression, \"It's strange.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "Spending time with you inside the virtual space – and knowing that I can count on you no matter my choice of career – filled me with a sense of security.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "Even when I'm tired, I can overcome anything as long as I'm with you. Your presence is reassuring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,24 +330,20 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "And the way to get that training data is by repeating the simulation, right?",
+			say = "TB...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Correct.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			side = 2,
+			actor = 900284,
+			say = "What is it, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +355,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "But then won't your personality reset if I start over from the very beginning? Do you really want that?",
+			say = "Maybe I'm just touched, maybe I'm just surprised... but you sound a little different to how you usually do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,71 +363,61 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "Conclusion: Personality resets within the simulated space do not affect me.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "My change in tone is likely based on the feedback received during your parenting. I can adjust it if you don't like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "The data will be saved at the end of each simulation, just as with this simulation.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "No, I like it the way it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "It is possible this next statement is influenced by the concepts relating to emotional cognition, but regardless...",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "I know it's odd for me to say this, but... as your guardian, I clearly still have some learning to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			say = "All I want you to know is this – no matter who you grow up to be, you can always count on me, and the port will always be your home.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
 			actor = 900284,
-			say = "If possible, I wish to spend more time with you, Commander.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "I do not require a place to dock. I get the feeling that your statement with regard to a \"home\" was rhetorical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,34 +425,12 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "Synchronizing analysis module. Based on logged data, the most fitting words to conclude this conversation with are as follows...",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900284,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Thank you for everything. I hope to see you in another iteration.",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			actor = 900284,
+			say = "I can with ease sense the feelings embedded within your words. Commander, before we go, I would just like to say... Thank you for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

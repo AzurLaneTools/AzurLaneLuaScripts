@@ -17,7 +17,7 @@ return {
 			actor = 1009,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, I want to try this drink.",
+			say = "{tb}, I want to try this drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

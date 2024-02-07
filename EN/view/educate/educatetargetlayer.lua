@@ -254,6 +254,10 @@ function slot0.updateView(slot0)
 end
 
 function slot0._close(slot0)
+	if slot0.isClick then
+		return
+	end
+
 	slot0.anim:Play("anim_educate_target_out")
 end
 

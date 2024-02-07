@@ -135,10 +135,6 @@ function slot1.Reconnect(slot0, slot1)
 					}, 11002, function (slot0)
 						uv0.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
 						uv0.m02:sendNotification(GAME.CHANGE_CHAT_ROOM, 0)
-
-						if not LOCK_EDUCATE_SYSTEM then
-							uv0.m02:sendNotification(GAME.EDUCATE_REQUEST)
-						end
 					end)
 
 					if nowWorld() and slot1.type ~= World.TypeBase then
