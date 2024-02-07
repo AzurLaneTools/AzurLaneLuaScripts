@@ -81121,7 +81121,7 @@ _G.pg.base.item_data_statistics[59848] = {
 
 _G.pg.base.item_data_statistics[59851] = {
 	open_directly = 0,
-	name = "현무지인",
+	name = "현무의 인",
 	display = "이스트글림의 사신 중 하나인 현무가 새겨진 옥기는 특수한 힘을 발산하고 있다. 타이위안의 근대화 개조에 사용된다.",
 	type = 7,
 	other_resource_cost = "[]",

@@ -3790,7 +3790,7 @@ pg.base.ship_skin_template_9 = {
 	},
 	[301882] = {
 		ship_group = 30188,
-		name = "좌충우돌 파랑새",
+		name = "봄을 기다리는 푸른 날개",
 		hand_id = 6,
 		bgm = "",
 		l2d_drag_rate = "",
