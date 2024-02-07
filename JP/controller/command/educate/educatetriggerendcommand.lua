@@ -10,7 +10,9 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			getProxy(EducateProxy):AddEnding(uv0.id)
 			pg.PerformMgr.GetInstance():PlayGroup(uv1, function ()
-				getProxy(EducateProxy):CheckGuide("EducateScene")
+				pg.PerformMgr.GetInstance():PlayOne(EducateConst.AFTER_END_PERFORM, function ()
+					getProxy(EducateProxy):CheckGuide("EducateScene")
+				end)
 			end)
 			uv2:sendNotification(GAME.EDUCATE_TRIGGER_END_DONE)
 		else

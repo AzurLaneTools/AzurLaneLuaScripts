@@ -14,6 +14,23 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
 			}
 		},
 		{
@@ -53,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "ムフフフ、開発者として、「ばっくどあ」は残しておくものだにゃ！",
+			say = "ムフフフ、開発者だからクレジットに出てきてもいいにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,31 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "それに、TBからも指揮官に伝えたいことがあるらしいから、一緒に連れてきたにゃ",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
+			expression = 3,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "まあ、TBがどうしてここに来れるかは企業秘密だから、教えることは何もないにゃ～",
+			say = "指揮官こそ、明石に色々聞きたくてしょうがないのかにゃ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,85 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（聞きたい質問はことごとくつぶされたな…）",
+			say = "――まあ…そりゃ色々聞きたいが…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――そもそも最後のエンディングってどういうこと？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "にゃ？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "それならTBに直接に説明してもらうにゃ！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "あ。TBがどうしてここに来れるかは企業秘密だから、教えることは何もないにゃ～",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "（そっちも聞きたかったな…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "明石が去った後、ずっと隣で静かにしていたTBに目を向けた。",
+			say = "明石の姿が消えると、いつの間にかいたTBに向き合った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,35 +234,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 3,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "分析モジュールを同期します：指揮官、バーチャルタウンより収集したデータから",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "確かに「個性」との関連性を裏付けるものが見つかりました",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "オーダーを受領しました。分析しています。……分析を中止しました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,17 +248,77 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "ですが、一度のプロセスで得られたデータのみで学習することは不可能であり、さらなるデータの蓄積が必要です",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "分析結果をお聞きになりたいのではないと判断しましたので、分析を途中で中止しました。申し訳ございません",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "指揮官の「育成」行動から、一般的定義における「特別な感情」を獲得しました",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "これらの感情の出所について、データベースに存在する既存概念を用いての合理的な解釈は不可能ですが――",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "強いて言えば、「奇妙」です",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "バーチャル空間で指揮官と過ごした時間、そしてその「エンディング」となる職業の未来演算でも、指揮官が味方でいる「安心感」で充実しています",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "疲れを感じていても、一緒ならどんなことでも乗り越えられる。安心します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,24 +330,20 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――つまり「成長」を繰り返せばTBの学習データを増やせられる…？",
+			say = "――TB……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "はい",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			side = 2,
+			actor = 900284,
+			say = "いかがしました？指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +355,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――最初からやり直してしまったらTBの人格ステータスがリセットされるんじゃ？本当に大丈夫か？",
+			say = "――感動というか驚きというか…なんだかTBがいつもとちょっと違って見える",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,71 +363,61 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "結論：バーチャル空間における人格ステータスのリセットによる影響は認められません",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "指揮官の育成行動をフィードバックした言動から来ていることと思われます。お気に召さないのでしたら調整しますが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "「成長」が終わる度に、先刻のようにデータと情報は蓄積されます",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "――いや、このままでいい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "……「個性」という感情認識に関連する「概念」の影響かは不明ですが",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "――こういうのも何だが。TBの後見人？としてはまだまだ未熟なところが多くてね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			say = "――TBがどんな姿に成長しようが、自分はずっとTBの味方で、TBの帰る「母港」だ。それだけ分かって欲しい",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
 			actor = 900284,
-			say = "TBは指揮官ともっと一緒にいたい、と希望します",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "TBは泊地を必要としません。…ですが、指揮官の今の言葉はレトリックなものだと感じます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,34 +425,12 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "分析モジュールを同期します：データログから推論する、このシチュエーションでの次の言葉は――",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900284,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "「これからもよろしくお願いします」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			actor = 900284,
+			say = "その言葉に含まれる感情表現は十分理解できました。――指揮官、これからも…よろしくお願いします",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

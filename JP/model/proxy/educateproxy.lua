@@ -82,6 +82,12 @@ function slot0.initData(slot0, slot1)
 	slot0:UpdateGameStatus()
 	slot0:initVirtualStage()
 	slot0:initUnlockSecretary(slot2.is_special_secretary_valid == 1)
+
+	slot0.requestDataEnd = true
+end
+
+function slot0.CheckDataRequestEnd(slot0)
+	return slot0.requestDataEnd
 end
 
 function slot0.initItems(slot0, slot1)
