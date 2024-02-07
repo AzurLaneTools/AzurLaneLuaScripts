@@ -231,6 +231,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			12101,
 			12102,
@@ -5541,6 +5543,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			13101,
 			13126,
@@ -6554,6 +6558,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			1102,
 			1103,
@@ -9524,6 +9530,8 @@ pg.furniture_data_template = setmetatable({
 		200004,
 		200005,
 		200006,
+		200007,
+		200008,
 		200009,
 		1001,
 		1002,
@@ -25111,6 +25119,174 @@ pg.base.furniture_data_template = {
 				"sit",
 				{
 					307074
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[200007] = {
+		spine_extra = "",
+		describe = "指挥官大人，就这样牵着{namecode:97}的手……再也不要放开哦❤",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "誓约礼堂（潮风的吸引）",
+		themeId = 0,
+		icon = "fur_dafeng_hicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200007,
+		can_rotate = 0,
+		size = {
+			6,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fur_dafeng_hB",
+				"normal"
+			},
+			{
+				"fur_dafeng_hT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					307078
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[200008] = {
+		spine_extra = "",
+		describe = "Honey~如何，被最可爱最美丽的{namecode:199}迷住了么~？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "誓约礼堂（白雪之仪）",
+		themeId = 0,
+		icon = "fur_xinzexi_hicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200008,
+		can_rotate = 0,
+		size = {
+			6,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fur_xinzexi_hB",
+				"normal"
+			},
+			{
+				"fur_xinzexi_hT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					105178
 				},
 				"furniture",
 				0,

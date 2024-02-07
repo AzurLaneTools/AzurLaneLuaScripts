@@ -3148,8 +3148,8 @@ pg.child_performance = {
 				"tb_zuodangao_2",
 				{
 					"tb_zuodangao_32",
-					"tb_zuodangao_33",
-					"tb_zuodangao_31"
+					"tb_zuodangao_34",
+					"tb_zuodangao_33"
 				}
 			},
 			3
@@ -3203,8 +3203,8 @@ pg.child_performance = {
 				"tb_zuodangao_2",
 				{
 					"tb_zuodangao_32",
-					"tb_zuodangao_33",
-					"tb_zuodangao_31"
+					"tb_zuodangao_34",
+					"tb_zuodangao_33"
 				}
 			},
 			3
@@ -3258,8 +3258,8 @@ pg.child_performance = {
 				"tb_zuodangao_2",
 				{
 					"tb_zuodangao_32",
-					"tb_zuodangao_33",
-					"tb_zuodangao_31"
+					"tb_zuodangao_34",
+					"tb_zuodangao_33"
 				}
 			},
 			3

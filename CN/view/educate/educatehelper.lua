@@ -350,4 +350,24 @@ function slot0.IsMatchSubType(slot0, slot1)
 	return false
 end
 
+function slot0.ReqEducateDataCheck(slot0)
+	if LOCK_EDUCATE_SYSTEM then
+		slot0()
+
+		return
+	end
+
+	slot1 = {}
+
+	if not getProxy(EducateProxy):CheckDataRequestEnd() then
+		table.insert(slot1, function (slot0)
+			pg.m02:sendNotification(GAME.EDUCATE_REQUEST, {
+				callback = slot0
+			})
+		end)
+	end
+
+	seriesAsync(slot1, slot0)
+end
+
 return slot0
