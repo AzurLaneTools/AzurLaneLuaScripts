@@ -696,6 +696,88 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10025] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10025,
+		dungeon_id = 5127,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"감례의 병",
+				"물병자리의 화신\" 오프닝에 [감례의 병]이 소환됩니다. [감례의 병]은 초당 자신의 최대 내구도의 <color=#92fc63>2%</color>을 회복하며, [감례의 병]를 통해 자신의 내구도가 100%에 도달할 경우, 물병자리 화신은 자신의 최대 내구도의 1% 를 회복합니다. [감례의 병]이 깨지면 6초 후 다시 소환됩니다."
+			},
+			{
+				"생명의 샘\" [감례의 병]을 가지고 있을 경우, 물병자리 화신의 피해 데미지가 <color=#92fc63>80%</color> 감소되며, [감례의 병]이 부서지면, 물병자리 화신의 공격 데미지가 <color=#92fc63>2%</color> 증가합니다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				209,
+				1
+			}
+		}
+	},
+	[10026] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10026,
+		dungeon_id = 5126,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"감례의 병\", 물병자리의 화신 오프닝에 [감례의 병]이 소환됩니다. [감례의 병]은 초당 자신의 최대 내구도의 <color=#92fc63>1%</color>을 회복하며, [감례의 병]를 통해 자신의 내구도가 100%에 도달할 경우, 물병자리 화신은 자신의 최대 내구도의 1% 를 회복합니다. [감례의 병]이 깨지면 6초 후 다시 소환됩니다."
+			},
+			{
+				"생명의 샘\" [감례의 병]을 가지고 있을 경우, 물병자리 화신의 피해 데미지가 <color=#92fc63>60%</color> 감소되며, [감례의 병]이 부서지면, 물병자리 화신의 공격 데미지가 <color=#92fc63>1%</color> 증가합니다."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10009,
+				1
+			}
+		}
+	},
+	[10027] = {
+		painting = "niukasier",
+		button_style = 7,
+		information_icon = "niukasier_constellation",
+		id = 10027,
+		dungeon_id = 5125,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"감례의 병\", \"물병자리의 화신\" 오프닝에 [감례의 병]이 소환됩니다. [감례의 병]은 초당 자신의 최대 내구도의 <color=#92fc63>0.5%</color>을 회복하며, [감례의 병]를 통해 자신의 내구도가 100%에 도달할 경우, 물병자리 화신은 자신의 최대 내구도의 1% 를 회복합니다. [감례의 병]이 깨지면 6초 후 다시 소환됩니다."
+			},
+			{
+				"생명의 샘\" [감례의 병]을 가지고 있을 경우, 물병자리 화신의 피해 데미지가 <color=#92fc63>40%</color> 감소되며, [감례의 병]이 부서지면, 물병자리 화신의 공격 데미지가 <color=#92fc63>0.5%%</color> 증가합니다."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10009,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -720,6 +802,9 @@ pg.expedition_constellation_challenge_template = {
 		10021,
 		10022,
 		10023,
-		10024
+		10024,
+		10025,
+		10026,
+		10027
 	}
 }

@@ -929,6 +929,10 @@ function slot0.updateASValue(slot0)
 		slot1 = slot1 + (slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot5] or 0) and slot7:getFleetAirDominanceValue() or 0)
 	end
 
+	for slot5 = 1, 1 do
+		slot1 = slot1 + (slot0:getFleetById(slot0.selectIds[FleetType.Submarine][slot5] or 0) and slot7:getFleetAirDominanceValue() or 0)
+	end
+
 	slot0:UpdateASComparision(slot1, slot0.suggestionValue)
 end
 
@@ -946,11 +950,11 @@ function slot0.updateEliteASValue(slot0)
 		slot8 = {}
 
 		for slot12, slot13 in pairs(slot0.eliteCommanderList[slot6]) do
-			slot8[slot12] = getProxy(CommanderProxy):getCommanderById(slot13)
+			slot8[slot12] = getProxy(CommanderProxy):RawGetCommanderById(slot13)
 		end
 
 		for slot12, slot13 in ipairs(slot7) do
-			slot2 = slot2 + calcAirDominanceValue(slot1:getShipById(slot13), slot8)
+			slot2 = slot2 + calcAirDominanceValue(slot1:RawGetShipById(slot13), slot8)
 		end
 	end
 

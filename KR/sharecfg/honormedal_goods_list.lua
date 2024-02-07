@@ -722,7 +722,7 @@ pg.honormedal_goods_list = {
 		type = 2,
 		group = 10026,
 		num = 1,
-		goods_name = "定向蓝图・三期",
+		goods_name = "지향형 강화 유닛-제3기",
 		goods_type = 1,
 		id = 39,
 		is_ship = 0,
@@ -739,7 +739,7 @@ pg.honormedal_goods_list = {
 		type = 2,
 		group = 10027,
 		num = 1,
-		goods_name = "高级定向蓝图・三期",
+		goods_name = "고급 지향형 강화 유닛-제3기",
 		goods_type = 1,
 		id = 40,
 		is_ship = 0,
@@ -834,6 +834,40 @@ pg.honormedal_goods_list = {
 			408091
 		}
 	},
+	{
+		price = 20,
+		goods_purchase_limit = 15,
+		goods_icon = "Props/42050",
+		type = 2,
+		group = 10031,
+		num = 1,
+		goods_name = "지향형 강화 유닛-제6기",
+		goods_type = 1,
+		id = 46,
+		is_ship = 0,
+		goods_rarity = 4,
+		order = 5,
+		goods = {
+			42050
+		}
+	},
+	{
+		price = 20,
+		goods_purchase_limit = 5,
+		goods_icon = "Props/42056",
+		type = 2,
+		group = 10032,
+		num = 1,
+		goods_name = "고급 지향형 강화 유닛-제6기",
+		goods_type = 1,
+		id = 47,
+		is_ship = 0,
+		goods_rarity = 5,
+		order = 4,
+		goods = {
+			42056
+		}
+	},
 	all = {
 		1,
 		2,
@@ -879,6 +913,8 @@ pg.honormedal_goods_list = {
 		42,
 		43,
 		44,
-		45
+		45,
+		46,
+		47
 	}
 }

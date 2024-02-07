@@ -259,7 +259,7 @@ end
 
 function slot0.GetDropItem(slot0)
 	if #slot0:getConfig("drop_item") > 0 then
-		return slot1[1]
+		return slot1
 	else
 		assert(false, "should exist drop item")
 	end

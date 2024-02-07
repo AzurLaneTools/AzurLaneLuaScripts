@@ -1353,7 +1353,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>820</color> 달성",
 		id = 29904,
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60141
 		},
@@ -1768,7 +1768,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>850</color>이상",
 		id = 19903,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60181
 		},
@@ -1864,7 +1864,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		name = "白龙",
 		simulate_dungeon = 9919,
-		luck_story = "",
+		luck_story = "LUCK39905",
 		strengthen_item = 42032,
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>950</color>이상",
 		id = 39905,
@@ -1873,7 +1873,16 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60191
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19400,
+				18400
+			},
+			{
+				19380,
+				18380
+			}
+		},
 		unlock_task = {
 			{
 				60192,
@@ -1940,7 +1949,13 @@ pg.ship_data_blueprint = {
 			1929,
 			1930
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1931,
+			1932,
+			1933,
+			1934,
+			1935
+		},
 		attr_exp = {
 			100,
 			100,
@@ -2049,7 +2064,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상",
 		id = 49906,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60211
 		},
@@ -2150,7 +2165,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		id = 69901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60220,
 			60221

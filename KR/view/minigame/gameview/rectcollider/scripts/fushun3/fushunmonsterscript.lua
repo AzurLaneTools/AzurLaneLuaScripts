@@ -7,6 +7,7 @@ function slot0.onInit(slot0)
 	slot0._scriptTime = nil
 	slot0._collisionInfo.playerInput.x = math.random() > 0.5 and 1 or -1
 	slot0._collisionInfo.directionalInput = slot0._collisionInfo.playerInput
+	slot0._name = "FuShunMonsterScript"
 end
 
 function slot0.onStep(slot0)

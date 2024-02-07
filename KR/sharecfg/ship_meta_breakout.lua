@@ -14,6 +14,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701032,
 		9701033,
 		9701034,
+		9701041,
+		9701042,
+		9701043,
+		9701044,
 		9702011,
 		9702012,
 		9702013,
@@ -305,6 +309,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701034,
 		item1 = 21024,
 		pre_id = 9701033,
+		weapon_ids = {}
+	},
+	[9701041] = {
+		breakout_view = "스킬 [섬멸의 횃불·킴벌리] 습득/주포 효율 2% 상승",
+		gold = 500,
+		breakout_id = 9701042,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701041,
+		item1 = 21029,
+		pre_id = 0,
+		weapon_ids = {
+			80101
+		}
+	},
+	[9701042] = {
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 모든 무기 효율 +3%",
+		gold = 1500,
+		breakout_id = 9701043,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701042,
+		item1 = 21029,
+		pre_id = 9701041,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9701043] = {
+		breakout_view = "【섬멸의 횃불·킴벌리】升级/주포 효율 5% 상승",
+		gold = 2500,
+		breakout_id = 9701044,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701043,
+		item1 = 21029,
+		pre_id = 9701042,
+		weapon_ids = {
+			80102
+		}
+	},
+	[9701044] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701044,
+		item1 = 21029,
+		pre_id = 9701043,
 		weapon_ids = {}
 	},
 	[9702011] = {

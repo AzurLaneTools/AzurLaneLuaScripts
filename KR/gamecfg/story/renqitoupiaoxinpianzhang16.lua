@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于，到了最后的决赛阶段了……！",
+			say = "드디어 마지막 결승이네…！",
 			bgm = "votefes-up",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是呀~终于到这一天了！",
+			say = "그러게요~ 드디어 결전의 날이네요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:408:Z23}……乐在其中？",
+			say = "Z23… 충분히 즐겼어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也、也许吧……？我很喜欢这种热闹的氛围的！",
+			say = "그, 그럴걸요…? 전 이런 떠들썩한 분위기를 매우 좋아하거든요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，一想到决赛结束后的冷清……就稍微有点失落呢。",
+			say = "하지만 결승이 끝난 뒤의 썰렁함을 생각한다면… 벌써 서운해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天下没有不散的筵席……的说。",
+			say = "축제는 언제나 끝나는 법이니까…요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是如此呢……但是，在活动中留下的珍贵回忆是不会消失的！",
+			say = "그렇네… 하지만, 이번 이벤트를 통해 쌓은 소중한 추억은 절대 사라지지 않을 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！就让我们一同努力，让这场决赛成为我们最珍贵回忆吧！",
+			say = "맞아요! 이번 결승이 우리의 가장 소중한 추억이 될 수 있도록 모두 함께 노력하자구요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

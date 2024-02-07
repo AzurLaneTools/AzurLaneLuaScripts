@@ -3025,6 +3025,130 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[112] = {
+		commodity_type = 7,
+		activity = 7015,
+		commodity_id = 301042,
+		order = 16,
+		id = 112,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[113] = {
+		commodity_type = 7,
+		activity = 5188,
+		commodity_id = 501021,
+		order = 16,
+		id = 113,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"SPRING_FESTIVAL_BACKHILL_2024",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[114] = {
+		commodity_type = 7,
+		activity = 5188,
+		commodity_id = 301882,
+		order = 16,
+		id = 114,
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 0,
+		scene = {
+			"SPRING_FESTIVAL_BACKHILL_2024",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			7,
@@ -3106,7 +3230,10 @@ pg.activity_shop_extra = {
 			108,
 			109,
 			110,
-			111
+			111,
+			112,
+			113,
+			114
 		}
 	},
 	all = {
@@ -3189,6 +3316,9 @@ pg.activity_shop_extra = {
 		108,
 		109,
 		110,
-		111
+		111,
+		112,
+		113,
+		114
 	}
 }

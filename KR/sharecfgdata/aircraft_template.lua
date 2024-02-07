@@ -73955,6 +73955,190 @@ _G.pg.base.aircraft_template[161400] = {
 	}
 }
 
+_G.pg.base.aircraft_template[161571] = {
+	attack_power = 2,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	type = 2,
+	accuracy = 23,
+	model_ID = "caiyun",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 0.297,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 161571,
+	icon = "caiyun",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10,
+	hp_growth = 1532,
+	speed = 66,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		161581
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161572] = {
+	id = 161572,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 1762,
+	base = 161571,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161582
+	}
+}
+
+_G.pg.base.aircraft_template[161573] = {
+	id = 161573,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 1992,
+	base = 161571,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161583
+	}
+}
+
+_G.pg.base.aircraft_template[161574] = {
+	id = 161574,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 2222,
+	base = 161571,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161584
+	}
+}
+
+_G.pg.base.aircraft_template[161575] = {
+	id = 161575,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 2451,
+	base = 161571,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161585
+	}
+}
+
+_G.pg.base.aircraft_template[161576] = {
+	id = 161576,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 2681,
+	base = 161571,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161586
+	}
+}
+
+_G.pg.base.aircraft_template[161577] = {
+	id = 161577,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 2911,
+	base = 161571,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161587
+	}
+}
+
+_G.pg.base.aircraft_template[161578] = {
+	id = 161578,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 3141,
+	base = 161571,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161588
+	}
+}
+
+_G.pg.base.aircraft_template[161579] = {
+	id = 161579,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 3371,
+	base = 161571,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161589
+	}
+}
+
+_G.pg.base.aircraft_template[161580] = {
+	id = 161580,
+	name = "白龙搭载彩云舰攻型 天运改 Lv1 ",
+	hp_growth = 3601,
+	base = 161571,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161590
+	}
+}
+
 _G.pg.base.aircraft_template[162221] = {
 	attack_power = 2,
 	name = "貉-实例化-塞壬浮游炮-LV1",
@@ -75820,6 +76004,190 @@ _G.pg.base.aircraft_template[163890] = {
 	weapon_ID = {
 		53370,
 		53390
+	}
+}
+
+_G.pg.base.aircraft_template[163961] = {
+	attack_power = 2,
+	name = "镇海改技能水上机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	funnel_behavior = "",
+	nationality = 8,
+	id = 163961,
+	icon = "FBA19",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 1438,
+	speed = 46,
+	max_hp = 32,
+	scale = 1,
+	weapon_ID = {
+		163971
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[163962] = {
+	id = 163962,
+	name = "镇海改技能水上机Lv2",
+	hp_growth = 1626,
+	base = 163961,
+	max_hp = 37,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163972
+	}
+}
+
+_G.pg.base.aircraft_template[163963] = {
+	id = 163963,
+	name = "镇海改技能水上机Lv3",
+	hp_growth = 1813,
+	base = 163961,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163973
+	}
+}
+
+_G.pg.base.aircraft_template[163964] = {
+	id = 163964,
+	name = "镇海改技能水上机Lv4",
+	hp_growth = 2001,
+	base = 163961,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163974
+	}
+}
+
+_G.pg.base.aircraft_template[163965] = {
+	id = 163965,
+	name = "镇海改技能水上机Lv5",
+	hp_growth = 2189,
+	base = 163961,
+	max_hp = 52,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163975
+	}
+}
+
+_G.pg.base.aircraft_template[163966] = {
+	id = 163966,
+	name = "镇海改技能水上机Lv6",
+	hp_growth = 2376,
+	base = 163961,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163976
+	}
+}
+
+_G.pg.base.aircraft_template[163967] = {
+	id = 163967,
+	name = "镇海改技能水上机Lv7",
+	hp_growth = 2564,
+	base = 163961,
+	max_hp = 62,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163977
+	}
+}
+
+_G.pg.base.aircraft_template[163968] = {
+	id = 163968,
+	name = "镇海改技能水上机Lv8",
+	hp_growth = 2751,
+	base = 163961,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163978
+	}
+}
+
+_G.pg.base.aircraft_template[163969] = {
+	id = 163969,
+	name = "镇海改技能水上机Lv9",
+	hp_growth = 2939,
+	base = 163961,
+	max_hp = 71,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163979
+	}
+}
+
+_G.pg.base.aircraft_template[163970] = {
+	id = 163970,
+	name = "镇海改技能水上机Lv10",
+	hp_growth = 3127,
+	base = 163961,
+	max_hp = 76,
+	spawn_brownian = 1,
+	weapon_ID = {
+		163980
 	}
 }
 
@@ -236943,6 +237311,158 @@ _G.pg.base.aircraft_template[3114003] = {
 			{
 				3.2,
 				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3119501] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_hunianxianhe_small",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3119501,
+	icon = "feiji_hunianxianhe_small",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2280,
+	speed = 30,
+	max_hp = 400,
+	scale = 0.75,
+	weapon_ID = {
+		3119503
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3119502] = {
+	attack_power = 2,
+	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_hunianxianhe_small",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3119502,
+	icon = "feiji_hunianxianhe_small",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 33,
+	max_hp = 400,
+	scale = 0.75,
+	weapon_ID = {
+		3119504
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
 				0
 			}
 		}

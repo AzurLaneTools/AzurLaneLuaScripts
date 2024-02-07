@@ -168,6 +168,22 @@ pg.worldboss_bufflist = {
 		buff_target = 1,
 		bonus = "0.05"
 	},
+	[101701] = {
+		lua_id = 59220,
+		id = 101701,
+		desc = "전투 중 일정 시간마다 적 기함이 특수 탄막을 전개함",
+		buff_icon = "1017",
+		buff_target = 1,
+		bonus = "0.03"
+	},
+	[101801] = {
+		lua_id = 59230,
+		id = 101801,
+		desc = "전투 중 랜덤으로 적 항공 편대 지원 출현",
+		buff_icon = "1018",
+		buff_target = 1,
+		bonus = "0.03"
+	},
 	all = {
 		1001,
 		1002,
@@ -189,6 +205,8 @@ pg.worldboss_bufflist = {
 		1018,
 		1019,
 		1020,
-		1021
+		1021,
+		101701,
+		101801
 	}
 }

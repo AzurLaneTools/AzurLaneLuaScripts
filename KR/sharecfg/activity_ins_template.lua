@@ -10751,6 +10751,78 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[439] = {
+		ship_group = 50401,
+		name = "Huan Ch'ang",
+		sculpture = "huanchang",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 439,
+		id = 439,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[440] = {
+		ship_group = 50209,
+		name = "Chi An",
+		sculpture = "jian",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 440,
+		id = 440,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[441] = {
+		ship_group = 50105,
+		name = "Lung Wu",
+		sculpture = "longwu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 441,
+		id = 441,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[442] = {
+		ship_group = 50106,
+		name = "Hu Pen",
+		sculpture = "huben",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 442,
+		id = 442,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[443] = {
+		ship_group = 50107,
+		name = "Fei Yuen",
+		sculpture = "feiyun",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 443,
+		id = 443,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[444] = {
+		ship_group = 40208,
+		name = "Elbing ",
+		sculpture = "aierbin_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 444,
+		id = 444,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -11181,6 +11253,12 @@ pg.activity_ins_template = {
 		435,
 		436,
 		437,
-		438
+		438,
+		439,
+		440,
+		441,
+		442,
+		443,
+		444
 	}
 }

@@ -108,7 +108,7 @@ function slot0.execute(slot0, slot1)
 			end
 		elseif slot3 == 11 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot5:isEnd() then
-				slot5.data1 = slot5.data1 + 1
+				slot5.data1 = slot5.data1 + slot2.count
 			end
 		elseif slot3 == 12 then
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot5:isEnd() then

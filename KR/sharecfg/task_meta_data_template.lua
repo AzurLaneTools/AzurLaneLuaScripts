@@ -207,6 +207,11 @@ pg.task_meta_data_template = setmetatable({
 		100143,
 		100144,
 		100145,
+		100151,
+		100152,
+		100153,
+		100154,
+		100155,
 		200001,
 		200002,
 		200003,
@@ -262,7 +267,11 @@ pg.task_meta_data_template = setmetatable({
 		200141,
 		200142,
 		200143,
-		200144
+		200144,
+		200151,
+		200152,
+		200153,
+		200154
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1907,6 +1916,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100151] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "킴벌리·META를 사용해 승리 1회",
+		id = 100151,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100152] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "킴벌리·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100152,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100153] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "킴벌리·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100153,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100154] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "킴벌리·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100154,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100155] = {
+		target_id_2 = "970104",
+		sub_type = 180,
+		desc = "킴벌리·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100155,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2352,6 +2401,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 키로프·META·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200144,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200151] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "대형 작전에서 킴벌리·META를 사용해 1회 승리",
+		id = 200151,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200152] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "대형 작전에서 킴벌리·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200152,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200153] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "대형 작전에서 킴벌리·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200153,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200154] = {
+		target_id_2 = "970104",
+		sub_type = 302,
+		desc = "대형 작전에서 킴벌리·METAA를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200154,
 		target_num = 1,
 		target_id = "100"
 	}

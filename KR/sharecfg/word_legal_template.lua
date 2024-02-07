@@ -717,7 +717,12 @@ function temp()
 		},
 		["하"] = {
 			["이"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -881,7 +886,18 @@ function temp()
 	uv0["킴"] = {
 		["벌"] = {
 			["리"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -2932,6 +2948,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["우"] = {
+			this = true
 		}
 	}
 end
@@ -3296,7 +3315,12 @@ function temp()
 			},
 			["위"] = {
 				["안"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -4061,6 +4085,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["이"] = {
+			["윈"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -4204,6 +4233,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["번"] = {
+			this = true
 		},
 		["타"] = {
 			["미"] = {
@@ -5413,6 +5445,26 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["지"] = {
+		["안"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["환"] = {
+		["창"] = {
+			this = true
 		}
 	}
 end

@@ -1539,5 +1539,21 @@ pg.voice_actor_CN = {
 	[393] = {
 		code = 393,
 		actor_name = "Kaori Sadohara"
+	},
+	[394] = {
+		code = 394,
+		actor_name = "Ai Matayoshi"
+	},
+	[395] = {
+		code = 395,
+		actor_name = "Mikoi Sasaki"
+	},
+	[396] = {
+		code = 396,
+		actor_name = "Amane Makino"
+	},
+	[397] = {
+		code = 397,
+		actor_name = "Rie Hazuki"
 	}
 }

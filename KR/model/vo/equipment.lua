@@ -297,7 +297,7 @@ function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 		end,
 		function ()
 			return {
-				name = pg.weapon_property[uv0].name
+				name = pg.weapon_name[uv0].name
 			}
 		end,
 		function ()

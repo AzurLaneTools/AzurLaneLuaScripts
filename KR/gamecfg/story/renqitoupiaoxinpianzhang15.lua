@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是复活赛么……气氛意外地比小组赛还要热烈啊。",
+			say = "이게 바로 패자부활전인가… 예상외로 조별전 때보다 더 뜨거운 분위기네.",
 			bgm = "votefes-up",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟这是进入决赛的最后机会……",
+			say = "아무래도 결승에 진출할 수 있는 마지막 기회니까요…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "错过的话，就要等下一届投票了。",
+			say = "여기서 놓치면 다음 인기투표를 기다릴 수밖에 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不管怎么样，错过机会，肯定会很失落的。",
+			say = "…어쨌든 기회를 놓친다면 실망하는 건 당연한 거니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，才要在复活赛把握住最后的机会。",
+			say = "그렇기 때문에 패자부활에서 반드시 마지막 기회를 잡아야 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且那些在小组赛里实力强劲的对手已经全部晋级了嘛！",
+			say = "게다가 조별전을 통해 이미 다수의 막강한 상대가 결승에 진출한 상황이죠!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "努力……加油……！",
+			say = "열심히... 화이팅...！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -4096,6 +4096,38 @@ pg.backyard_theme_template = {
 			306114
 		}
 	},
+	[107] = {
+		Cfg_1 = 5,
+		name = "용이 춤추는 새해",
+		hot = 1,
+		is_view = 1,
+		id = 107,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "용의 해! 입춘대길!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cj6themeicon",
+		deblocking = 1,
+		order = 108,
+		ids = {
+			307001,
+			307002,
+			307101,
+			307102,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4188,6 +4220,7 @@ pg.backyard_theme_template = {
 		103,
 		104,
 		105,
-		106
+		106,
+		107
 	}
 }

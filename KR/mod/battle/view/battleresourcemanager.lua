@@ -675,7 +675,11 @@ function slot5.InitPool(slot0, slot1, slot2)
 			slot4 = 3
 		end
 
-		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, slot4, 20, false, false):InitSize()
+		slot5 = pg.Pool.New(slot3, slot2, slot4, 20, false, false):InitSize()
+
+		slot5:SetRecycleFuncs(uv0.ResetSpineAction)
+
+		slot0._allPool[slot1] = slot5
 	elseif string.find(slot1, "chargo/") then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 3, 20, false, false):InitSize()
 	elseif string.find(slot1, "orbit/") then
@@ -966,6 +970,10 @@ function slot5.GetBulletResource(slot0, slot1)
 	slot2[#slot2 + 1] = uv1.GetFXPath((not slot3 or slot3.hit_fx_name == "" or slot3.hit_fx_name) and slot4.hit_fx)
 	slot2[#slot2 + 1] = uv1.GetFXPath(slot4.miss_fx)
 	slot2[#slot2 + 1] = uv1.GetFXPath(slot4.alert_fx)
+
+	if slot4.extra_param.area_FX then
+		slot2[#slot2 + 1] = uv1.GetFXPath(slot4.extra_param.area_FX)
+	end
 
 	if slot4.extra_param.shrapnel then
 		for slot10, slot11 in ipairs(slot4.extra_param.shrapnel) do

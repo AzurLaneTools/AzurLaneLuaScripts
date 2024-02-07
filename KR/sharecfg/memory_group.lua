@@ -173,6 +173,9 @@ pg.memory_group = setmetatable({
 		270,
 		271,
 		272,
+		273,
+		274,
+		275,
 		501,
 		502,
 		503,
@@ -367,7 +370,8 @@ pg.base.memory_group = {
 			2289,
 			2931,
 			2932,
-			2933
+			2933,
+			3321
 		}
 	},
 	[99] = {
@@ -4147,6 +4151,47 @@ pg.base.memory_group = {
 			3281,
 			3282,
 			3283
+		}
+	},
+	[273] = {
+		id = 273,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "정신 없는 환창이네",
+		memories = {
+			3301,
+			3302,
+			3303,
+			3304,
+			3305
+		}
+	},
+	[274] = {
+		id = 274,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5178,
+		title = "새봄의 모험왕",
+		memories = {
+			3311,
+			3312,
+			3313
+		}
+	},
+	[275] = {
+		id = 275,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5184,
+		title = "모항 패션 컬렉션: 새봄 합본집[1]",
+		memories = {
+			3331,
+			3332,
+			3333
 		}
 	},
 	[501] = {

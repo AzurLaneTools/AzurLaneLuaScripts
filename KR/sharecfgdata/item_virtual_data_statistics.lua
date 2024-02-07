@@ -79157,7 +79157,7 @@ _G.pg.base.item_virtual_data_statistics[57961] = {
 
 _G.pg.base.item_virtual_data_statistics[57962] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -79292,7 +79292,7 @@ _G.pg.base.item_virtual_data_statistics[57962] = {
 
 _G.pg.base.item_virtual_data_statistics[57963] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -79427,7 +79427,7 @@ _G.pg.base.item_virtual_data_statistics[57963] = {
 
 _G.pg.base.item_virtual_data_statistics[57964] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -79562,7 +79562,7 @@ _G.pg.base.item_virtual_data_statistics[57964] = {
 
 _G.pg.base.item_virtual_data_statistics[57965] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -79697,7 +79697,7 @@ _G.pg.base.item_virtual_data_statistics[57965] = {
 
 _G.pg.base.item_virtual_data_statistics[57966] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -79832,7 +79832,7 @@ _G.pg.base.item_virtual_data_statistics[57966] = {
 
 _G.pg.base.item_virtual_data_statistics[57967] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -80547,7 +80547,7 @@ _G.pg.base.item_virtual_data_statistics[57979] = {
 
 _G.pg.base.item_virtual_data_statistics[57980] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -80682,7 +80682,7 @@ _G.pg.base.item_virtual_data_statistics[57980] = {
 
 _G.pg.base.item_virtual_data_statistics[57981] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -80817,7 +80817,7 @@ _G.pg.base.item_virtual_data_statistics[57981] = {
 
 _G.pg.base.item_virtual_data_statistics[57982] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -80952,7 +80952,7 @@ _G.pg.base.item_virtual_data_statistics[57982] = {
 
 _G.pg.base.item_virtual_data_statistics[57983] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -81087,7 +81087,7 @@ _G.pg.base.item_virtual_data_statistics[57983] = {
 
 _G.pg.base.item_virtual_data_statistics[57984] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -81222,7 +81222,7 @@ _G.pg.base.item_virtual_data_statistics[57984] = {
 
 _G.pg.base.item_virtual_data_statistics[57985] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -81457,7 +81457,7 @@ _G.pg.base.item_virtual_data_statistics[57987] = {
 
 _G.pg.base.item_virtual_data_statistics[57988] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82197,7 +82197,7 @@ _G.pg.base.item_virtual_data_statistics[58000] = {
 
 _G.pg.base.item_virtual_data_statistics[58001] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82221,11 +82221,6 @@ _G.pg.base.item_virtual_data_statistics[58001] = {
 		{
 			4,
 			205031,
-			1
-		},
-		{
-			4,
-			305041,
 			1
 		},
 		{
@@ -82256,11 +82251,6 @@ _G.pg.base.item_virtual_data_statistics[58001] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -82332,7 +82322,7 @@ _G.pg.base.item_virtual_data_statistics[58001] = {
 
 _G.pg.base.item_virtual_data_statistics[58002] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82365,11 +82355,6 @@ _G.pg.base.item_virtual_data_statistics[58002] = {
 		},
 		{
 			4,
-			305011,
-			1
-		},
-		{
-			4,
 			303081,
 			1
 		},
@@ -82391,11 +82376,6 @@ _G.pg.base.item_virtual_data_statistics[58002] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -82467,7 +82447,7 @@ _G.pg.base.item_virtual_data_statistics[58002] = {
 
 _G.pg.base.item_virtual_data_statistics[58003] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82500,11 +82480,6 @@ _G.pg.base.item_virtual_data_statistics[58003] = {
 		},
 		{
 			4,
-			305011,
-			1
-		},
-		{
-			4,
 			303081,
 			1
 		},
@@ -82526,11 +82501,6 @@ _G.pg.base.item_virtual_data_statistics[58003] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -82602,7 +82572,7 @@ _G.pg.base.item_virtual_data_statistics[58003] = {
 
 _G.pg.base.item_virtual_data_statistics[58004] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82635,11 +82605,6 @@ _G.pg.base.item_virtual_data_statistics[58004] = {
 		},
 		{
 			4,
-			305011,
-			1
-		},
-		{
-			4,
 			303081,
 			1
 		},
@@ -82661,11 +82626,6 @@ _G.pg.base.item_virtual_data_statistics[58004] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -82737,7 +82697,7 @@ _G.pg.base.item_virtual_data_statistics[58004] = {
 
 _G.pg.base.item_virtual_data_statistics[58005] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82770,11 +82730,6 @@ _G.pg.base.item_virtual_data_statistics[58005] = {
 		},
 		{
 			4,
-			305011,
-			1
-		},
-		{
-			4,
 			303081,
 			1
 		},
@@ -82796,11 +82751,6 @@ _G.pg.base.item_virtual_data_statistics[58005] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -82872,7 +82822,7 @@ _G.pg.base.item_virtual_data_statistics[58005] = {
 
 _G.pg.base.item_virtual_data_statistics[58006] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -82905,11 +82855,6 @@ _G.pg.base.item_virtual_data_statistics[58006] = {
 		},
 		{
 			4,
-			305041,
-			1
-		},
-		{
-			4,
 			305031,
 			1
 		},
@@ -82936,11 +82881,6 @@ _G.pg.base.item_virtual_data_statistics[58006] = {
 		{
 			4,
 			101071,
-			1
-		},
-		{
-			4,
-			103011,
 			1
 		},
 		{
@@ -85927,7 +85867,7 @@ _G.pg.base.item_virtual_data_statistics[58051] = {
 
 _G.pg.base.item_virtual_data_statistics[58052] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -86062,7 +86002,7 @@ _G.pg.base.item_virtual_data_statistics[58052] = {
 
 _G.pg.base.item_virtual_data_statistics[58053] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -86197,7 +86137,7 @@ _G.pg.base.item_virtual_data_statistics[58053] = {
 
 _G.pg.base.item_virtual_data_statistics[58054] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -86332,7 +86272,7 @@ _G.pg.base.item_virtual_data_statistics[58054] = {
 
 _G.pg.base.item_virtual_data_statistics[58055] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -86467,7 +86407,7 @@ _G.pg.base.item_virtual_data_statistics[58055] = {
 
 _G.pg.base.item_virtual_data_statistics[58056] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -86602,7 +86542,7 @@ _G.pg.base.item_virtual_data_statistics[58056] = {
 
 _G.pg.base.item_virtual_data_statistics[58057] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90132,7 +90072,7 @@ _G.pg.base.item_virtual_data_statistics[58105] = {
 
 _G.pg.base.item_virtual_data_statistics[58106] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90267,7 +90207,7 @@ _G.pg.base.item_virtual_data_statistics[58106] = {
 
 _G.pg.base.item_virtual_data_statistics[58107] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90402,7 +90342,7 @@ _G.pg.base.item_virtual_data_statistics[58107] = {
 
 _G.pg.base.item_virtual_data_statistics[58108] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90537,7 +90477,7 @@ _G.pg.base.item_virtual_data_statistics[58108] = {
 
 _G.pg.base.item_virtual_data_statistics[58109] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90672,7 +90612,7 @@ _G.pg.base.item_virtual_data_statistics[58109] = {
 
 _G.pg.base.item_virtual_data_statistics[58110] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -90807,7 +90747,7 @@ _G.pg.base.item_virtual_data_statistics[58110] = {
 
 _G.pg.base.item_virtual_data_statistics[58111] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -91042,7 +90982,7 @@ _G.pg.base.item_virtual_data_statistics[58113] = {
 
 _G.pg.base.item_virtual_data_statistics[58114] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -91782,7 +91722,7 @@ _G.pg.base.item_virtual_data_statistics[58131] = {
 
 _G.pg.base.item_virtual_data_statistics[58132] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -91917,7 +91857,7 @@ _G.pg.base.item_virtual_data_statistics[58132] = {
 
 _G.pg.base.item_virtual_data_statistics[58133] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -92052,7 +91992,7 @@ _G.pg.base.item_virtual_data_statistics[58133] = {
 
 _G.pg.base.item_virtual_data_statistics[58134] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -92187,7 +92127,7 @@ _G.pg.base.item_virtual_data_statistics[58134] = {
 
 _G.pg.base.item_virtual_data_statistics[58135] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -92322,7 +92262,7 @@ _G.pg.base.item_virtual_data_statistics[58135] = {
 
 _G.pg.base.item_virtual_data_statistics[58136] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -92457,7 +92397,7 @@ _G.pg.base.item_virtual_data_statistics[58136] = {
 
 _G.pg.base.item_virtual_data_statistics[58137] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93172,7 +93112,7 @@ _G.pg.base.item_virtual_data_statistics[58149] = {
 
 _G.pg.base.item_virtual_data_statistics[58150] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93307,7 +93247,7 @@ _G.pg.base.item_virtual_data_statistics[58150] = {
 
 _G.pg.base.item_virtual_data_statistics[58151] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93442,7 +93382,7 @@ _G.pg.base.item_virtual_data_statistics[58151] = {
 
 _G.pg.base.item_virtual_data_statistics[58152] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93577,7 +93517,7 @@ _G.pg.base.item_virtual_data_statistics[58152] = {
 
 _G.pg.base.item_virtual_data_statistics[58153] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93712,7 +93652,7 @@ _G.pg.base.item_virtual_data_statistics[58153] = {
 
 _G.pg.base.item_virtual_data_statistics[58154] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -93847,7 +93787,7 @@ _G.pg.base.item_virtual_data_statistics[58154] = {
 
 _G.pg.base.item_virtual_data_statistics[58155] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -94822,7 +94762,7 @@ _G.pg.base.item_virtual_data_statistics[58171] = {
 
 _G.pg.base.item_virtual_data_statistics[58172] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -94957,7 +94897,7 @@ _G.pg.base.item_virtual_data_statistics[58172] = {
 
 _G.pg.base.item_virtual_data_statistics[58173] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -95092,7 +95032,7 @@ _G.pg.base.item_virtual_data_statistics[58173] = {
 
 _G.pg.base.item_virtual_data_statistics[58174] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -95227,7 +95167,7 @@ _G.pg.base.item_virtual_data_statistics[58174] = {
 
 _G.pg.base.item_virtual_data_statistics[58175] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -95362,7 +95302,7 @@ _G.pg.base.item_virtual_data_statistics[58175] = {
 
 _G.pg.base.item_virtual_data_statistics[58176] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -95497,7 +95437,7 @@ _G.pg.base.item_virtual_data_statistics[58176] = {
 
 _G.pg.base.item_virtual_data_statistics[58177] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96212,7 +96152,7 @@ _G.pg.base.item_virtual_data_statistics[58189] = {
 
 _G.pg.base.item_virtual_data_statistics[58190] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96347,7 +96287,7 @@ _G.pg.base.item_virtual_data_statistics[58190] = {
 
 _G.pg.base.item_virtual_data_statistics[58191] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96482,7 +96422,7 @@ _G.pg.base.item_virtual_data_statistics[58191] = {
 
 _G.pg.base.item_virtual_data_statistics[58192] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96617,7 +96557,7 @@ _G.pg.base.item_virtual_data_statistics[58192] = {
 
 _G.pg.base.item_virtual_data_statistics[58193] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96752,7 +96692,7 @@ _G.pg.base.item_virtual_data_statistics[58193] = {
 
 _G.pg.base.item_virtual_data_statistics[58194] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -96887,7 +96827,7 @@ _G.pg.base.item_virtual_data_statistics[58194] = {
 
 _G.pg.base.item_virtual_data_statistics[58195] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -97122,7 +97062,7 @@ _G.pg.base.item_virtual_data_statistics[58197] = {
 
 _G.pg.base.item_virtual_data_statistics[58198] = {
 	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
-	name = "未知角色",
+	name = "미지 캐릭터",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -148620,6 +148560,121 @@ _G.pg.base.item_virtual_data_statistics[58993] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[58994] = {
+	display = "일정 확률로 헌원비보 스타일의 장비스킨 1개를 얻을 수 있습니다.",
+	name = "장비 스킨 상자 (헌원비보)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	id = 58994,
+	order = 0,
+	display_icon = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -156952,6 +157007,150 @@ _G.pg.base.item_virtual_data_statistics[59522] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59523] = {
+	display = "“정신 없는 환창이네\"에 참여하여 획득한 포인트로, 일정량 획득 시 보상을 획득할 수 있습니다.",
+	name = "명절 식사권",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/huanchang_pt",
+	id = 59523,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59524] = {
+	display = "“정신 없는 환창이네\" EX 스테이지에 반드시 필요한 아이템으로 일반 스테이지 추가 보상 횟수를 늘리는 데도 사용할 수 있습니다.",
+	name = "특별 도전권",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59524,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59525] = {
+	display = "「월드 투어」(2024.2.8~2024.4.7) 참여 시 획득하는 PT, 일정한 정도 누적 시 보상 수령 가능, 이벤트 종료 후 사라집니다. ",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59525,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59526] = {
+	display = "不该被看到",
+	name = "通行证十五期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7015,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59526,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59527] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59527,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59528] = {
+	display = "「새해축복·갑진」 이벤트 교환용. 이벤트 종료 후 사라집니다.",
+	name = "이스트 글림 매듭",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	id = 59528,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -159016,6 +159215,30 @@ _G.pg.base.item_virtual_data_statistics[59821] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59823] = {
+	display = "과거 작전 내역(상설 복각 이벤트)에 접속하기 위한 데이터 키. 소비 아이템 ",
+	name = "데이터 키",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 7,
+	is_world = 0,
+	icon = "Props/activity_tickets",
+	id = 59823,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59824] = {
 	display = "인기 투표 참여용 투표 가능 횟수. 매 라운드 투표 종료 시 횟수 초기화.",
 	name = "일반표",
@@ -160424,6 +160647,30 @@ _G.pg.base.item_virtual_data_statistics[60024] = {
 	is_world = 0,
 	icon = "props/red_packet2",
 	id = 60024,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60025] = {
+	display = "「쥬쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
+	name = "세뱃돈 ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5188,
+	virtual_type = 11,
+	is_world = 0,
+	icon = "props/red_packet2",
+	id = 60025,
 	order = 0,
 	display_icon = {},
 	price = {},
@@ -162304,6 +162551,174 @@ _G.pg.base.item_virtual_data_statistics[60332] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[60333] = {
+	display = "물감 A, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감A",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_a",
+	id = 60333,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60334] = {
+	display = "물감 B, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감B",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_b",
+	id = 60334,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60335] = {
+	display = "물감 C, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감C",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_c",
+	id = 60335,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60336] = {
+	display = "물감 D, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감D",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_d",
+	id = 60336,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60337] = {
+	display = "물감 E, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감E",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_e",
+	id = 60337,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60338] = {
+	display = "물감 F, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감F",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_f",
+	id = 60338,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[60339] = {
+	display = "물감 G, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감G",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5189,
+	virtual_type = 4,
+	is_world = 0,
+	icon = "props/draw_g",
+	id = 60339,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[60401] = {
 	display = "前端不显示，道具看不到",
 	name = "海天活动道具1",
@@ -163681,7 +164096,40 @@ _G.pg.base.item_virtual_data_statistics[69924] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			502042,
+			1200
+		},
+		{
+			502052,
+			1200
+		},
+		{
+			506021,
+			1200
+		},
+		{
+			502011,
+			1200
+		},
+		{
+			702051,
+			1400
+		},
+		{
+			206081,
+			1360
+		},
+		{
+			501032,
+			1240
+		},
+		{
+			519011,
+			1200
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69925] = {
@@ -163715,7 +164163,36 @@ _G.pg.base.item_virtual_data_statistics[69925] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			499071,
+			1200
+		},
+		{
+			499052,
+			1200
+		},
+		{
+			408025,
+			1610
+		},
+		{
+			404042,
+			1580
+		},
+		{
+			105201,
+			1580
+		},
+		{
+			408085,
+			1430
+		},
+		{
+			901132,
+			1400
+		}
+	}
 }
 
 _G.pg.base.item_virtual_data_statistics[69926] = {
@@ -167853,6 +168330,342 @@ _G.pg.base.item_virtual_data_statistics[70164] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[70165] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	id = 70165,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70166] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_2",
+	id = 70166,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70167] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_3",
+	id = 70167,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70168] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_4",
+	id = 70168,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70169] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_15",
+	id = 70169,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70170] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_6",
+	id = 70170,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70171] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_7",
+	id = 70171,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70172] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_8",
+	id = 70172,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70173] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_9",
+	id = 70173,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70174] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_10",
+	id = 70174,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70175] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_16",
+	id = 70175,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70176] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_12",
+	id = 70176,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70177] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽13",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_13",
+	id = 70177,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[70178] = {
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽14",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5185,
+	virtual_type = 25,
+	is_world = 0,
+	icon = "Props/yanhua_14",
+	id = 70178,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[86200] = {
 	display = "不会被看到",
 	name = "랜덤 현란한 밤 스킨 ",
@@ -167967,9 +168780,115 @@ _G.pg.base.item_virtual_data_statistics[86201] = {
 	}
 }
 
+_G.pg.base.item_virtual_data_statistics[86202] = {
+	display = "不会被看到",
+	name = "랜덤 신년 스킨 ",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86202,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			501051,
+			1200
+		},
+		{
+			504011,
+			1200
+		},
+		{
+			501061,
+			1200
+		},
+		{
+			103262,
+			1900
+		},
+		{
+			501071,
+			1500
+		},
+		{
+			502091,
+			1500
+		},
+		{
+			402083,
+			1500
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86203] = {
+	display = "不会被看到",
+	name = "랜덤 신년 스킨 ",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86203,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
+		}
+	}
+}
+
 _G.pg.base.item_virtual_data_statistics[99950] = {
 	display = "「사령부 동원지령」 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다.",
-	name = "집결 포인트",
+	name = "집결 포인트2024·I",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -167993,7 +168912,7 @@ _G.pg.base.item_virtual_data_statistics[99950] = {
 
 _G.pg.base.item_virtual_data_statistics[99951] = {
 	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
-	name = "스킨 체험권",
+	name = "스킨 체험권2024·II",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -172991,4 +173910,154 @@ _G.pg.base.item_virtual_data_statistics[200059] = {
 			1
 		}
 	}
+}
+
+_G.pg.base.item_virtual_data_statistics[200060] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200060,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			59,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200061] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200061,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[200062] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 200062,
+	order = 0,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

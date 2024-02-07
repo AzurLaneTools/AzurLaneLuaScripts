@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "记录着决赛结果的大屏幕正从主舞台上缓缓升起。",
+			say = "결승 결과를 담은 대형 스크린이 메인 무대에서 서서히 떠오르고 있다.",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "终于，尘埃落定，本届人气投票顺利结束了。",
+			say = "마침내 결과가 발표되었다. 이번 인기투표는 무사히 막을 내렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果还真是意料之外，但又在情理之中的结果……",
+			say = "정말 예상 밖의 결과지만, 어쩌면 당연한 결과일지도 모르겠네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:6:绫波}……早就看穿了结果？",
+			say = "아야나미… 결과를 예상했어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒没有，只是觉得气氛上……总要有人来说这么一句话。",
+			say = "그건 아니지만 분위기상… 누군가는 이 말을 해야 할 것 같아서 그냥 해봤어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈……",
+			say = "아하하하…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快看！主舞台那边还有新的内容公布呢……",
+			say = "저기 봐! 메인 무대에서 또 새로운 내용이 발표되고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是，活动会场还会开放一周，在此期间……可以去换票处领取纪念品？！",
+			say = "투표장은 일주일 더 개방할 예정이래! 그 기간동안… 교환소에 가서 기념품을 받을 수 있다는데!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是会场限定纪念品……好耶。",
+			say = "투표장 한정 기념품이라니… 멋지네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来接下来的几天，我们还能继续享受一下庆典的余音了呢~",
+			say = "앞으로 며칠간은 축제의 여운을 더 즐길 수 있을 것 같네요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「人气投票新篇章」·完",
+					"[인기투표 새로운 챕터]·완료",
 					2
 				}
 			}
