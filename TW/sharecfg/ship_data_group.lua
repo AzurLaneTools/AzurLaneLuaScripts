@@ -12394,20 +12394,9 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"限時活動：新春限時建造",
 				{
 					""
-				},
-				0
-			},
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
 				},
 				0
 			}
@@ -21230,20 +21219,9 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"限時活動：新春限時建造",
 				{
 					""
-				},
-				0
-			},
-			{
-				"进行特型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
 				},
 				0
 			}
@@ -21273,7 +21251,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：飞彩迎新春",
+				"限時活動：飛彩迎新春",
 				{
 					""
 				},
@@ -22584,20 +22562,9 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"限時活動：新春限時建造",
 				{
 					""
-				},
-				0
-			},
-			{
-				"进行轻型舰建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}

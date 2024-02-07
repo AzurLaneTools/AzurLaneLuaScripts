@@ -2357,7 +2357,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50602] = {
 		shiptype = 6,
-		name = "定安",
+		name = "華甲",
 		nation = 5,
 		id = 50602,
 		t_level_1 = 130,
@@ -2368,7 +2368,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[51901] = {
 		shiptype = 19,
-		name = "華甲",
+		name = "定安",
 		nation = 5,
 		id = 51901,
 		t_level_1 = 131,

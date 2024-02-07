@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "空氣中氤氳著新墨的清香，這裡原本似乎應該在…寫春聯？只是正在發生的事情似乎與寫春聯毫無幹系——",
+			say = "空氣中氤氳著新墨的清香，這裡原本似乎應該在…寫春聯？只是正在發生的事情似乎與寫春聯毫無關係——",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {

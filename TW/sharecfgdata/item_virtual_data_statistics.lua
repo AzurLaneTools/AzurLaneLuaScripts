@@ -171731,7 +171731,7 @@ _G.pg.base.item_virtual_data_statistics[80035] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[80500] = {
-	display = "随机获得一件「美食」主题外观装备",
+	display = "隨機獲得一件「美食」主題外觀裝備",
 	name = "外觀裝備(美食)",
 	max_num = 0,
 	type = 99,

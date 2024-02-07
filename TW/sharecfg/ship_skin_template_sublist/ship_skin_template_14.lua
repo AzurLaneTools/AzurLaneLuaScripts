@@ -3679,7 +3679,7 @@ pg.base.ship_skin_template_14 = {
 	},
 	[502019] = {
 		ship_group = 50201,
-		name = "逸仙改",
+		name = "逸仙.改",
 		hand_id = 9,
 		bgm = "",
 		l2d_drag_rate = "",
