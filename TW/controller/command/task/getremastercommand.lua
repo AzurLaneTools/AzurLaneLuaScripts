@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 
 			slot1:updateDailyCount()
 
-			slot2 = Item.New({
+			slot2 = Drop.New({
 				type = DROP_TYPE_VITEM,
 				id = ITEM_ID_REACT_CHAPTER_TICKET,
 				count = math.min(pg.gameset.reactivity_ticket_daily.key_value, pg.gameset.reactivity_ticket_max.key_value - slot1.remasterTickets)

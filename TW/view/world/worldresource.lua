@@ -82,10 +82,10 @@ function slot0.init(slot0)
 	onButton(slot0, slot0.Whuobi, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
+			drop = Drop.New({
 				type = DROP_TYPE_WORLD_ITEM,
 				id = WorldItem.MoneyId
-			}
+			})
 		})
 	end, SFX_PANEL)
 

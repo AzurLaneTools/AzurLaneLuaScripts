@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>一　与众不同的清晨</size>",
+					"熱鬧的「環球」晚宴\n\n<size=45>一　與眾不同的清晨</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，一个没什么特别的清晨。",
+			say = "指揮室，一個沒什麼特別的清晨。",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "嗯……倒也不能算“没什么特别”，因为——",
+			say = "嗯……倒也不能算「沒什麼特別」，因為——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早——上好~指挥官！",
+			say = "早——上好~指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "吃过了吗？没有的话先一起吃点什么吧~",
+			say = "吃過了嗎？沒有的話先一起吃點什麼吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "一套还热乎的煎饼被塞到了我手上。",
+			say = "一套還熱呼呼的煎餅被塞到我手上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "自从西雅图上任秘书舰后，每天都是与众不同的一天……包括早餐。",
+			say = "自從西雅圖上任秘書艦後，每天都是與眾不同的一天……包括早餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "哼哼，按时享用早点，是保持精神饱满的秘诀哦！",
+			say = "哼哼，按時享用早點，是保持精神飽滿的秘訣哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "今天还有超级厉害的作战计划要处理呢！所以……早餐怎么样？",
+			say = "今天還有超級厲害的作戰計畫要處理呢！所以……早餐怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,18 +172,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然不知道她说的“超级厉害的作战计划”是指什么，不过——",
+			say = "雖然不知道她說的「超級厲害的作戰計畫」是指什麼，不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "早餐很不错。",
+					content = "早餐很不錯。",
 					flag = 1
 				},
 				{
-					content = "哪里买到的？",
+					content = "哪裡買到的？",
 					flag = 2
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "对吧，我就知道你会满意的！",
+			say = "對吧，我就知道你會滿意的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平海她们最近新开的东煌早餐铺可是相当有人气！",
+			say = "平海她們最近新開的東煌早餐鋪可是相當有人氣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听说撒丁那边也打算跟进了，以后早餐的购买选择会变得越来越丰富了哦~",
+			say = "我聽說薩丁那邊也打算跟進了，以後早餐的購買選擇會變得越來越豐富了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "平海她们开的东煌早餐铺哦~最近在港区可有人气了！",
+			say = "平海她們開的東煌早餐舖哦~最近在港區人氣正好呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听说撒丁那边也有跟进的打算，以后早餐的购买选择会变得越来越丰富了哦~",
+			say = "我聽說薩丁那邊也有跟進的打算，以後早餐的購買選擇會變得越來越豐富了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "决定了！下次就给指挥官准备撒丁风格的早餐好了！",
+			say = "決定了！下次就幫指揮官準備薩丁風格的早餐好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "说起来，她确实一直在执着于让我体验风味不同的早点……",
+			say = "說起來，她確實一直在執著於讓我體驗風味不同的早點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼，除此之外，我还有另一件事要说哦！",
+			say = "嗯哼，除此之外，我還有另一件事要說哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "工作虽然重要，但适当的放松同样也很重要！",
+			say = "工作雖然重要，但適當的放鬆也很重要！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			},
 			options = {
 				{
-					content = "所以你的意思是……？",
+					content = "所以妳的意思是……？",
 					flag = 1
 				}
 			}
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了让大家都能尽情享受放松，我制定了一个崭新的作战计划！",
+			say = "為了讓大家都能盡情享受放鬆，我制定了一個嶄新的作戰計畫！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "计划的目标就是——要为大家创造能尽情享受放松的、与众不同的热闹环境！",
+			say = "計畫的目標就是——要為大家創造能盡情享受放鬆的、與眾不同的熱鬧環境！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "至于计划的细则嘛……",
+			say = "至於計劃的細則嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "一本饰有厚牛皮壳的册子被西雅图摆在了办公桌上。",
+			say = "一本裝飾有厚牛皮殼的冊子被西雅圖擺在了辦公桌上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这可是个大计划，得要指挥官配合我才行！所以——",
+			say = "這可是個大計劃，得要指揮官配合我才行！所以——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一起来吧，指挥官！",
+			say = "一起來吧，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就这样，被西雅图拉着离开了办公室——",
+			say = "就這樣，被西雅圖拉著離開了辦公室——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

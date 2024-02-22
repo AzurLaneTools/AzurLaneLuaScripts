@@ -235,7 +235,7 @@ function slot0.handleNotification(slot0, slot1)
 			seriesAsync(slot4, function ()
 				uv0.viewComponent:emit(BaseUI.ON_AWARD, {
 					items = underscore.map(uv1.ships, function (slot0)
-						slot1 = Item.New({
+						slot1 = Drop.New({
 							count = 1,
 							type = DROP_TYPE_SHIP,
 							id = slot0.configId

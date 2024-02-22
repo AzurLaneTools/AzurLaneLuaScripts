@@ -50,11 +50,11 @@ function slot0.Selectable(slot0)
 end
 
 function slot0.GetConsume(slot0)
-	return {
+	return Drop.New({
 		type = slot0:getConfig("resource_category"),
 		id = slot0:getConfig("resource_type"),
 		count = slot0:getConfig("resource_num")
-	}
+	})
 end
 
 function slot0.GetDesc(slot0)

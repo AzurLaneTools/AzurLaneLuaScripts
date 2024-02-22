@@ -42,7 +42,7 @@ function slot0.GetImportWorldShipVO(slot0)
 				slot3 = slot1.limit
 
 				for slot8, slot9 in ipairs(slot0:getAllEquipments()) do
-					if slot9 and table.contains(slot3, slot9.config.id) then
+					if slot9 and table.contains(slot3, slot9:getConfig("id")) then
 						slot2 = true
 
 						break

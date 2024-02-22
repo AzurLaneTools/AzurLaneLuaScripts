@@ -1,24 +1,21 @@
-slot0 = class("EducateSiteDetailLayer", import("..base.EducateBaseUI"))
+slot0 = class("EducateSiteDetailPanel", import("...base.BaseSubView"))
 
 function slot0.getUIName(slot0)
 	return "EducateSiteDetailUI"
 end
 
-function slot0.init(slot0)
-	slot0:initData()
-	slot0:findUI()
-	slot0:addListener()
-end
+function slot0.OnInit(slot0)
+	setActive(slot0._tf, false)
 
-function slot0.initData(slot0)
-end
-
-function slot0.findUI(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
-		uv0:emit(uv1.ON_CLOSE)
+		setActive(uv0._tf, false)
+
+		if uv0.contextData.onExit then
+			uv0.contextData.onExit()
+		end
 	end)
 
 	slot0.windowTF = slot0:findTF("anim_root/window")
@@ -36,6 +33,12 @@ function slot0.findUI(slot0)
 	slot0.optionUIList = UIItemList.New(slot0.optionsTF, slot0.optionTpl)
 	slot0.performTF = slot0:findTF("anim_root/perform")
 	slot0.performName = slot0:findTF("name", slot0.performTF)
+
+	slot0:addListener()
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		groupName = LayerWeightConst.GROUP_EDUCATE,
+		weight = LayerWeightConst.BASE_LAYER - 2
+	})
 end
 
 function slot0.addListener(slot0)
@@ -57,48 +60,9 @@ function slot0.addListener(slot0)
 	slot0.optionIds = {}
 end
 
-function slot0.onClose(slot0)
-	if #slot0.siteQueue > 1 then
-		table.remove(slot0.siteQueue, #slot0.siteQueue)
-		slot0:showSiteDetailById(slot0.siteQueue[#slot0.siteQueue])
-	else
-		slot0:_close()
-	end
-end
-
-function slot0.didEnter(slot0)
-	assert(slot0.contextData.siteId, "打开地点详情layer需要传入地点ID: siteId")
-
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() - 2
-	})
-
-	slot0.siteId = slot0.contextData.siteId
-	slot0.config = pg.child_site[slot0.siteId]
-
-	assert(slot0.config, "child_site不存在id:" .. slot0.siteId)
-	setActive(slot0.windowTF, false)
-
-	slot0.siteQueue = {
-		slot0.siteId
-	}
-
-	slot0:checkSpecEvent(slot0.siteId, function ()
-		uv0:showDetailPanel()
-
-		if uv0.contextData.onEnter then
-			uv0.contextData.onEnter()
-		end
-	end)
-	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_SITE, slot0.siteId)
-end
-
 function slot0.checkSpecEvent(slot0, slot1, slot2)
 	if #getProxy(EducateProxy):GetEventProxy():GetSiteSpecEvents(slot1) > 0 then
-		slot0:emit(EducateSiteDetailMediator.ON_SPECIAL_EVENT_TRIGGER, {
+		slot0:emit(EducateMapMediator.ON_SPECIAL_EVENT_TRIGGER, {
 			siteId = slot1,
 			id = slot3[1].id,
 			callback = slot2
@@ -114,14 +78,14 @@ function slot0.showSpecEvent(slot0, slot1, slot2, slot3, slot4)
 
 	function slot8()
 		if #uv0 > 0 then
-			uv1:emit(uv2.EDUCATE_ON_AWARD, {
+			uv1:emit(EducateBaseUI.EDUCATE_ON_AWARD, {
 				items = uv0,
 				removeFunc = function ()
 					uv0:checkSpecEvent(uv1, uv2)
 				end
 			})
 		else
-			uv1:checkSpecEvent(uv3, uv4)
+			uv1:checkSpecEvent(uv2, uv3)
 		end
 
 		setActive(uv1.performTF, false)
@@ -177,21 +141,21 @@ function slot0.addTaskProgress(slot0)
 	end
 
 	if #slot2 > 0 then
-		slot0:emit(EducateSiteDetailMediator.ON_ADD_TASK_PROGRESS, {
+		slot0:emit(EducateMapMediator.ON_ADD_TASK_PROGRESS, {
 			system = EducateTask.SYSTEM_TYPE_MIND,
 			progresses = slot2
 		})
 	end
 
 	if #slot3 > 0 then
-		slot0:emit(EducateSiteDetailMediator.ON_ADD_TASK_PROGRESS, {
-			system = EducateTask.SYSTEM_TYPE_MIND,
-			progresses = SYSTEM_TYPE_TARGET
+		slot0:emit(EducateMapMediator.ON_ADD_TASK_PROGRESS, {
+			system = EducateTask.SYSTEM_TYPE_TARGET,
+			progresses = slot3
 		})
 	end
 
 	if #slot4 > 0 then
-		pg.m02:sendNotification(GAME.EDUCATE_ADD_TASK_PROGRESS, {
+		slot0:emit(EducateMapMediator.ON_ADD_TASK_PROGRESS, {
 			system = EducateTask.STSTEM_TYPE_MAIN,
 			progresses = slot4
 		})
@@ -233,6 +197,7 @@ function slot2(slot0, slot1)
 end
 
 function slot0.updateOptionItem(slot0, slot1, slot2)
+	GetOrAddComponent(slot2, "CanvasGroup").alpha = 1
 	slot2.name = tostring(slot1 + 1)
 	slot3 = slot0.optionVOs[slot1 + 1]
 	slot8 = slot2
@@ -252,7 +217,7 @@ function slot0.updateOptionItem(slot0, slot1, slot2)
 		[EducateSiteOption.TYPE_SHOP] = function ()
 			setText(uv0:findTF("name/Text", uv1), uv2:getConfig("name"))
 			onButton(uv0, uv3, function ()
-				uv0:emit(EducateSiteDetailMediator.ON_OPEN_SHOP, uv1:GetLinkId())
+				uv0:emit(EducateMapMediator.ON_OPEN_SHOP, uv1:GetLinkId())
 			end, SFX_PANEL)
 		end,
 		[EducateSiteOption.TYPE_EVENT] = function ()
@@ -285,7 +250,7 @@ function slot0.updateOptionItem(slot0, slot1, slot2)
 					return
 				end
 
-				uv1:emit(EducateSiteDetailMediator.ON_MAP_SITE_OPERATE, {
+				uv1:emit(EducateMapMediator.ON_MAP_SITE_OPERATE, {
 					siteId = uv1.siteId,
 					optionVO = uv2
 				})
@@ -347,7 +312,7 @@ function slot0.showSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
 		setActive(uv0.performTF, false)
 
 		if #uv1 > 0 then
-			uv0:emit(uv2.EDUCATE_ON_AWARD, {
+			uv0:emit(EducateBaseUI.EDUCATE_ON_AWARD, {
 				items = uv1
 			})
 		end
@@ -357,21 +322,48 @@ function slot0.showSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0._close(slot0)
+function slot0.Hide(slot0)
 	slot0.anim:Play("anim_educate_sitedatail_out")
 end
 
-function slot0.onBackPressed(slot0)
-	slot0:onClose()
+function slot0.Show(slot0, slot1)
+	if not slot0:GetLoaded() then
+		return
+	end
+
+	slot0.siteId = slot1
+	slot0.config = pg.child_site[slot0.siteId]
+
+	assert(slot0.config, "child_site不存在id:" .. slot0.siteId)
+	setActive(slot0._tf, true)
+	setActive(slot0.windowTF, false)
+
+	slot0.siteQueue = {
+		slot0.siteId
+	}
+
+	slot0:checkSpecEvent(slot0.siteId, function ()
+		uv0:showDetailPanel()
+
+		if uv0.contextData.onEnter then
+			uv0.contextData.onEnter()
+		end
+	end)
+	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_SITE, slot0.siteId)
 end
 
-function slot0.willExit(slot0)
+function slot0.onClose(slot0)
+	if #slot0.siteQueue > 1 then
+		table.remove(slot0.siteQueue, #slot0.siteQueue)
+		slot0:showSiteDetailById(slot0.siteQueue[#slot0.siteQueue])
+	else
+		slot0:Hide()
+	end
+end
+
+function slot0.OnDestroy(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-
-	if slot0.contextData.onExit then
-		slot0.contextData.onExit()
-	end
 end
 
 return slot0

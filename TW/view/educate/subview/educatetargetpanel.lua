@@ -51,7 +51,14 @@ function slot0.updateTaskItem(slot0, slot1, slot2, slot3)
 	slot5 = string.format("(%s)", slot4:GetProgress() .. "/" .. slot4:GetFinishNum())
 
 	setText(slot0:findTF("progress", slot2), slot5)
-	setText(slot0:findTF("desc", slot2), shortenString(slot4:getConfig("name"), 11 - GetPerceptualSize(slot5)))
+
+	slot6 = GetPerceptualSize(slot5)
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		slot6 = slot6 + 2
+	end
+
+	setText(slot0:findTF("desc", slot2), shortenString(slot4:getConfig("name"), 11 - slot6))
 end
 
 function slot0.Flush(slot0)

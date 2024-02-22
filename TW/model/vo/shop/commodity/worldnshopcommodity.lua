@@ -17,19 +17,19 @@ function slot0.GetLimitGoodCount(slot0)
 end
 
 function slot0.GetDropInfo(slot0)
-	return {
+	return Drop.New({
 		type = slot0:getConfig("item_type"),
 		id = slot0:getConfig("item_id"),
 		count = slot0:getConfig("item_num")
-	}
+	})
 end
 
 function slot0.GetPriceInfo(slot0)
-	return {
+	return Drop.New({
 		type = slot0:getConfig("price_type"),
 		id = slot0:getConfig("price_id"),
 		count = slot0:getConfig("price_num")
-	}
+	})
 end
 
 return slot0

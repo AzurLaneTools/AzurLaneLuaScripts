@@ -78,7 +78,7 @@ function slot0.OnInit(slot0)
 			end)
 		end
 
-		if Item.New(uv0.displayDrops[uv0.selectedIndex]).type == DROP_TYPE_ITEM and slot1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
+		if uv0.displayDrops[uv0.selectedIndex].type == DROP_TYPE_ITEM and uv0.displayDrops[uv0.selectedIndex]:getSubClass() and slot1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and slot1:IsAllSkinOwner() then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blackfriday_pack_select_skinall"),
@@ -128,11 +128,7 @@ function slot0.update(slot0, slot1)
 	slot0.selectedItem = nil
 	slot0.itemVO = slot1
 	slot0.displayDrops = underscore.map(slot1:getConfig("display_icon"), function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
+		return Drop.Create(slot0)
 	end)
 	slot2 = slot1:getConfig("time_limit") == 1
 
@@ -148,7 +144,7 @@ function slot0.update(slot0, slot1)
 				end
 			end, SFX_PANEL)
 			triggerToggle(slot2, false)
-			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1].cfg.name)
+			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1]:getConfig("name"))
 
 			uv0.selectedItem = uv0.selectedItem or slot2
 
@@ -163,11 +159,11 @@ function slot0.update(slot0, slot1)
 	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
 
-	slot3 = {
+	slot3 = Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = slot1.id,
 		count = slot1.count
-	}
+	})
 
 	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
 		count = 0
@@ -177,8 +173,8 @@ function slot0.update(slot0, slot1)
 	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot3)
 
 	if underscore.any(slot0.displayDrops, function (slot0)
-		return slot0.type == DROP_TYPE_ITEM and slot0.cfg.type == Item.SKIN_ASSIGNED_TYPE
-	end) or slot3.type == DROP_TYPE_ITEM and slot3.cfg.type == Item.ASSIGNED_TYPE then
+		return slot0.type == DROP_TYPE_ITEM and slot0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE
+	end) or slot3.type == DROP_TYPE_ITEM and slot3:getConfig("type") == Item.ASSIGNED_TYPE then
 		RegisterDetailButton(slot0, slot0.itemTF:Find("left/detail"), slot3)
 	else
 		removeOnButton(slot0.itemTF:Find("left/detail"))

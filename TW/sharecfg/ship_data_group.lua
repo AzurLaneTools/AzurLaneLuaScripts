@@ -13129,9 +13129,13 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度簽到",
+				"進行輕型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -22147,9 +22151,13 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度簽到",
+				"進行輕型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

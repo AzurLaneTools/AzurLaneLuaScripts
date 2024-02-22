@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>三 饭后小憩</size>",
+					"女王的一天\n\n<size=45>三 飯後小憩</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "午后的训练场中，剑与剑正在碰撞着。",
+			say = "午後的訓練場中，劍與劍正在碰撞。",
 			bgmDelay = 2,
 			bgm = "theme-partydress",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "试试这招如何————！",
+			say = "試試這招如何－——！",
 			soundeffect = "event:/ui/kuang",
 			painting = {
 				alpha = 0.3,
@@ -79,7 +79,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错，但要想命中我，速度还要再练练哦~",
+			say = "不錯，但想要命中我，速度還要再練練哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……灵活又迅速的反击，不过这么多次对战之后，你的路数我已经基本清楚了！",
+			say = "……靈活又迅速的反擊，不過這麼多次對戰之後，你的路數我已經基本清楚了！",
 			soundeffect = "event:/ui/kuang",
 			painting = {
 				alpha = 0.3,
@@ -148,7 +148,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……被防住了啊……那接下来——",
+			say = "嘖……被防住了啊……那接下來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，前卫，对战暂停，我好像看到窗外有个影子过去了。",
+			say = "等等，前衛，對戰暫停，我好像看到窗外有個影子過去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "……咦？大中午除了我们还有人来训练场么？",
+			say = "……咦？大中午除了我們還有人來訓練場嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对，那个身影好像是……伊丽莎白女王！",
+			say = "不對，那個身影好像是……伊莉莎白女王！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………就在门外的大树后面，正借着大树的掩护向外移动，你看到了么！",
+			say = "…………就在門外的大樹後面，正藉著大樹的掩護向外移動，妳看到了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "君主跟我来！有些事我要跟陛下好好说一下了！",
+			say = "君主跟我來！有些事我要跟陛下好好說一下了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，有什么事是可以由我为您效劳的么——",
+			say = "陛下，有什麼事是可以由我為您效勞的嗎——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………咳，本王只是来训练场看看你跟君主的训练而已！",
+			say = "…………咳，本王只是來訓練場看看妳跟君主的訓練而已！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然你们练得火热，本王就不打扰了，告辞告辞……",
+			say = "既然妳們練得火熱，本王就不打擾了，告辭告辭……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "这场训练是我们临时安排的，陛下是怎么提前知道的呢？",
+			say = "這場訓練是我們臨時安排的，陛下是怎麼提前知道的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "您是又打算把我这个近卫骑士晾在一边，偷偷溜出去对吧！",
+			say = "您是又打算把我這個近衛騎士晾在一邊，偷偷溜出去對吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝无此事！",
+			say = "絕無此事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下在说谎哦，前卫小姐。",
+			say = "陛下在說謊哦，前衛小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她原本的计划是将所有护卫抛在一边，和我两个人一起前往斯卡帕湾锚地，请你一定要阻止陛下这么危险的行为。",
+			say = "她原本的計畫是將所有護衛拋在一邊，和我兩個人一起前往斯卡帕灣錨地，請妳一定要阻止陛下這麼危險的行為。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纽卡斯尔！",
+			say = "紐卡斯爾！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "女——王——陛——下！您看我身边的人是谁？",
+			say = "女——王——陛——下！您看我身邊的人是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不是君主么……怎么了？",
+			say = "不、不是君主嗎……怎麼了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "某人已经从上次的鲁莽行动中学到教训了，陛下呢？",
+			say = "某人已經從上次的魯莽行動中學到教訓了，陛下呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（凝视——————）",
+			say = "（凝視——————）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………本王知道啦！这次带你们一起去就是了！",
+			say = "…………本王知道啦！這次帶妳們一起去就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下、下次…………下次再说！",
+			say = "下、下次…………下次再說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下你别跑————！",
+			say = "陛下妳別跑————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事就到这里！飞机还在等着呢，我们快去快回————",
+			say = "這件事就到這裡！飛機還在等呢，我們快去快回————",
 			painting = {
 				alpha = 0.3,
 				time = 1

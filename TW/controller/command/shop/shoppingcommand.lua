@@ -106,10 +106,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot7[id2res(slot5.resource_type)] < slot11 then
-		slot13 = getDropName({
+		slot13 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot5.resource_type
-		})
+		}):getName()
 
 		if slot5.resource_type == 1 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
@@ -133,7 +133,7 @@ function slot0.execute(slot0, slot1)
 	table.insert(slot13, function (slot0)
 		if uv0.genre == ShopArgs.GiftPackage or uv0.genre == ShopArgs.NewServerShop then
 			slot3, slot4 = CheckOverflow(GetItemsOverflowDic({
-				Item.New({
+				Drop.New({
 					count = 1,
 					type = DROP_TYPE_ITEM,
 					id = uv0.effect_args[1]

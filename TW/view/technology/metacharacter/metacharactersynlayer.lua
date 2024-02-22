@@ -162,26 +162,17 @@ function slot0.updateTaskTpl(slot0, slot1, slot2)
 	slot12 = slot0.curMetaProgressVO.metaPtData.targets[slot2]
 
 	setText(slot0:findTF("PT/Count/NumText", slot1), slot12)
+	setImageSprite(slot0:findTF("PT/Icon", slot1), LoadSprite(slot0.curMetaProgressVO:getPtIconPath()))
 
-	slot16 = slot0.curMetaProgressVO
+	slot13 = Drop.Create(slot0.curMetaProgressVO.metaPtData.dropList[slot2])
 
-	setImageSprite(slot0:findTF("PT/Icon", slot1), LoadSprite(slot16:getPtIconPath()))
-
-	slot13 = slot0.curMetaProgressVO.metaPtData.dropList[slot2]
-	slot14 = {
-		type = slot13[1],
-		id = slot13[2],
-		count = slot13[3]
-	}
-
-	updateDrop(slot0:findTF("Info/AwardInfo/Award/Item", slot1), slot14, {
+	updateDrop(slot0:findTF("Info/AwardInfo/Award/Item", slot1), slot13, {
 		hideName = true
 	})
 	onButton(slot0, slot0:findTF("Info/AwardInfo/Award", slot1), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	updateDropCfg(slot14)
-	setText(slot0:findTF("Info/AwardInfo/NameMask/NameText", slot1), shortenString(slot14.cfg.name, 6))
+	setText(slot0:findTF("Info/AwardInfo/NameMask/NameText", slot1), shortenString(slot13:getConfig("name"), 6))
 	setText(slot0:findTF("Info/AwardInfo/SynProgressText", slot1), math.round(slot12 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if slot2 < slot0.curMetaProgressVO.metaPtData.level + 1 then

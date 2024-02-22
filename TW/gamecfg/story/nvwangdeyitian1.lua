@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>一 一日之计在于晨</size>",
+					"女王的一天\n\n<size=45>一 一日之計在於晨</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "城堡中的清晨是寂静而又喧闹的。",
+			say = "城堡中的清晨是寂靜而又喧鬧的。",
 			bgmDelay = 2,
 			bgm = "theme-partydress",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "虽然没有行人与车马的喧嚣，但树上的鸟早就开始歌唱了。",
+			say = "雖然沒有行人與車馬的喧囂，但樹上的鳥早就開始歌唱了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "阳光穿过窗帘将金色洒入室内，美好的一天即将开始——",
+			say = "陽光穿過窗簾將金色灑入室內，美好的一天即將開始——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "皇家本岛·伊丽莎白的卧室",
+			say = "皇家本島·伊莉莎白的臥室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，该起床了哦，陛下——",
+			say = "陛下，該起床了哦，陛下——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……贝法……让本王再睡五分钟……zZZZ",
+			say = "嗯……貝法……讓本王再睡五分鐘……zZZZ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "五分钟前您也是这么说的。就算睡懒觉工作也不会减少，还是请您起来吧。",
+			say = "五分鐘前您也是這麼說的。就算睡懶覺工作也不會減少，還是請您起來吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是纽卡斯尔啊……哦对，贝法现在不在……",
+			say = "……是紐卡斯爾啊……哦對，貝法現在不在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………唔嗯！本王这就起来！",
+			say = "………………唔嗯！本王這就起來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "伊丽莎白的办公室，一段时间后——",
+			say = "伊莉莎白的辦公室，一段時間後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "洗漱完毕又吃过了早点的伊丽莎白来到了办公桌前。",
+			say = "洗漱完畢又吃過了早點的伊莉莎白來到了辦公桌前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "她一边饮茶，一边查阅着各地发来的报告。",
+			say = "她一邊飲茶，一邊查閱著各地發來的報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "……在失窃现场附近，META信标检测仪出现了反应，可以基本认定这件事与META存在某种关系。",
+			say = "……在失竊現場附近，META信標偵測器出現了反應，可以基本認定這件事與META存在某種關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过数据库中没有任何与从现场检测到的数据波段相符的记录，因此这是一次未知META的入侵行动的可能性很高。",
+			say = "不過資料庫中沒有任何與從現場偵測到的數據波段相符的記錄，因此這是一次未知META的入侵行動的可能性很高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尚不清楚历来行事高调的META为什么会选择进行一次低调的盗窃行动。",
+			say = "目前還不清楚歷來行事高調的META為什麼會選擇進行一次低調的竊盜行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "由于文物的失窃和塞壬的进攻行为发生在同一时间，很难让人相信二者之间不存在任何联系。",
+			say = "由於文物的失竊和塞壬的進攻行為發生在同一時間，很難讓人相信二者之間不存在任何關聯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但究竟存在何种关联，目前尚在调查之中。",
+			say = "但究竟存在何種關聯，目前尚在調查之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "如果有新进展的话我会再向您汇报的，乔治五世报告结束。",
+			say = "如果有新進展的話我會再向您報告的，喬治五世報告結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然本王已经有所防备了，但是没想到遭受袭击的同时，在本岛居然会发生文物失窃事件……",
+			say = "雖然本王已經有所防備了，但是沒想到遭受襲擊的同時，在本島居然會發生文物失竊事件……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……而且还牵扯到了未知的META。",
+			say = "……而且還牽扯到了未知的META。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本袭击事件从头到尾都透露着不对劲。",
+			say = "原本襲擊事件從頭到尾都透露著不對勁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在NA海域中心已经清理完毕的当下，塞壬不可能凭空聚集起这种力量从多处同时发动进攻。",
+			say = "在NA海域中心已經清理完畢的當下，塞壬不可能憑空聚集起這種力量從多處同時發動攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这些塞壬很特殊，其中的人型单位就算被击毁了也没有留下任何残骸。",
+			say = "而且這些塞壬很特殊，其中的人型單位就算被擊毀了也沒有留下任何殘骸。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直就像在NA海域中心奇异点内遇到的塞壬代行者一样……",
+			say = "簡直就像在NA海域中心奇異點內遇到的塞壬代行者一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在又牵扯到了META……本王有种很不好的预感。",
+			say = "現在又牽扯到了META……本王有種很不好的預感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现场调查进行期间本王也不能干等……必须要行动起来。",
+			say = "現場調查進行期間本王也不能乾等……必須要行動起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到文物……最近倒确实有几家对文物有着超乎寻常的兴趣……得深入调查一下才行。",
+			say = "說到文物……最近倒是確實有幾家對文物有著超乎尋常的興趣……得深入調查才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1

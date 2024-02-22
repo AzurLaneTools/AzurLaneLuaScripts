@@ -16,7 +16,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.attachments = {}
 
 	for slot6, slot7 in ipairs(slot1.attachment_list) do
-		table.insert(slot0.attachments, MailAttachment.New(slot7))
+		table.insert(slot0.attachments, Drop.New({
+			type = slot7.type,
+			id = slot7.id,
+			count = slot7.number
+		}))
 	end
 
 	slot0.openned = false

@@ -26,7 +26,7 @@ function slot0.CheckTrigger(slot0, slot1)
 				type = slot4
 			}).type == DROP_TYPE_RESOURCE or slot3.type == DROP_TYPE_ITEM or DROP_TYPE_USE_ACTIVITY_DROP < slot3.type, "error config cosume type")
 
-			if GetOwnedDropCount(slot3) < slot3.count then
+			if slot3:getOwnedCount() < slot3.count then
 				return false, i18n("common_no_item_1")
 			end
 		end

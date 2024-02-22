@@ -369,6 +369,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「時空在飛轉的輪盤中折疊，命運於閃爍的光芒中交匯。」</color>\n「定向折疊」活動獲取",
 		scene = {}
 	},
+	[324] = {
+		time_limit_type = 0,
+		name = "聖輝之證",
+		gain_by = "湮燼塵墟",
+		id = 324,
+		time_second = 0,
+		desc = "<color=#ffffff>「以女王陛下之名，願祝福之光照耀世間——」</color>\n「湮燼塵埃」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -519,6 +528,7 @@ pg.item_data_frame = {
 		321,
 		322,
 		323,
+		324,
 		401,
 		402,
 		414,

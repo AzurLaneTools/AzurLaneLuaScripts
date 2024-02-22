@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "卡美洛之庭·中央控制区，一段时间后———",
+			say = "卡美洛之庭‧中央控制區，一段時間後———",
 			bgmDelay = 2,
 			bgm = "theme-camelot",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔啊啊啊啊……对面回消息的速度好慢啊！",
+			say = "不啊啊啊啊……對面回訊息的速度好慢啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704030,
-			say = "这都快过了两个小时了，为什么机器一点反应都没有啊！",
+			say = "這都快過了兩個小時了，為什麼機器一點反應都沒有！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704030,
-			say = "老姐，女王陛下，我去周围巡逻一会！",
+			say = "老姐，女王陛下，我去周圍巡邏一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "（咀嚼声）嗯……去吧，小心地滑（咀嚼声）。",
+			say = "（咀嚼聲）嗯……去吧，小心地滑（咀嚼聲）。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "纽卡斯尔小姐，再来一块蛋糕可以么？",
+			say = "紐卡斯爾小姐，再來一塊蛋糕可以嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，请稍等片刻。",
+			say = "沒問題，請稍等片刻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不你们还是考虑一下本王之前的提案，让一个女仆队的孩子常驻在这里照顾你们如何？",
+			say = "不然妳們還是考慮一下本王之前的提案，讓一個女僕隊的孩子常駐在這裡照顧妳們如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "多谢您的好意。不过我们二人经过了这么多年与世隔绝的生活，如何与她人相处还要再适应一下。",
+			say = "多謝您的好意。不過我們兩人經過了這麼多年與世隔絕的生活，如何與她人相處還要再適應一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "况且，能通过卡美洛之庭入侵这里的敌人绝对不简单。",
+			say = "況且，能透過卡美洛之庭入侵這裡的敵人絕對不簡單。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "一旦发生战斗，我和反击姑且不论，驻扎在这里的其他人是绝对撑不过去的。",
+			say = "一旦發生戰鬥，我和反擊姑且不論，駐紮在這裡的其他人是絕對撐不過去的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "让女仆队的孩子来这里常驻实在太危险了。",
+			say = "讓女僕隊的孩子來這裡常駐實在太危險了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "您之前也不应该每次都只带贴身女仆前来，像这次一样多带些护卫才是正确的做法。",
+			say = "您之前也不應該每次都只帶貼身女僕前來，像這次一樣多帶些護衛才是正確的做法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "说得好，声望小姐！陛下这么行动实在太危险了。",
+			say = "說得好，聲望小姐！陛下這麼行動實在太危險了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好好，本王听你们的就是了！",
+			say = "好好好，本王聽妳們的就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不爽……明明这里应该是皇家海军的心脏，却变成了本王连来一次都要如此小心的地方。",
+			say = "真是不爽……明明這裡應該是皇家海軍的心臟，卻變成了本王連來一次都要如此小心的地方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可恶的理查德……等找到方法之后看本王怎么收拾你……",
+			say = "可惡的理察……等找到方法之後看本王怎麼收拾妳……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_camelot_1",
 			nameColor = "#A9F548FF",
 			say = "滴————————",
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下！通讯器终于有反应了！",
+			say = "陛下！通訊器終於有反應了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好！你们先喝茶，本王过去看看消息！",
+			say = "很好！妳們先喝茶，本王過去看看消息！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………很好，第一次通讯成功了！",
+			say = "………………很好，第一次通訊成功了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有收到什么有意义的情报么？",
+			say = "有收到什麼有意義的情報？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，那倒没有。",
+			say = "啊，那倒沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在通讯装置还在测试阶段，还不能真正用来传递情报。",
+			say = "現在通訊裝置還在測試階段，還不能真正用來傳遞情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从测试的情况来看……内容是完整的，时间比预期要长，安全性暂时无法确认。",
+			say = "從測試的情況來看……內容是完整的，時間比預期要長，安全性暫時無法確認。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过虽然有很多需要改进的地方，但作为第一次尝试来说已经非常成功了，本王很满意。",
+			say = "不過雖然有很多需要改進的地方，但作為第一次嘗試來說已經非常成功了，本王很滿意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，差不多该到回去的时间了。",
+			say = "陛下，差不多該到回去的時間了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔嗯…………没想到都这个点了。",
+			say = "嗯…………沒想到都這個時間了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那本日的测试就到这里，结果分析和设备调试就拜托你们了。",
+			say = "那本日的測試就到這裡，結果分析和設備調整就拜託妳們了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，这里就交给我们吧。",
+			say = "沒問題，這裡就交給我們吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦对了，过几天会有一份从帝国博物馆收集到的META信标样本送过来。",
+			say = "喔對了，過幾天會有一份從帝國博物館收集到的META信標範本送過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的数据库中没有与样本数据波段相符的记录，你们见多识广，也许会有什么发现。",
+			say = "我們的資料庫中沒有與樣本資料波段相符的記錄，妳們見多識廣，也許會有什麼發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "从帝国博物馆中收集到的……？",
+			say = "從帝國博物館收集到的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "我明白了。META的信标数据是独一无二的，如果是我和反击见过的人，我们一定能认出来。",
+			say = "我明白了。META的信標資料是獨一無二的，如果是我和反擊見過的人，我們一定能認出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就拜托你们了哦~本王期待听到你们的好消息。",
+			say = "那就拜託妳們了哦~本王期待聽到妳們的好消息。",
 			painting = {
 				alpha = 0.3,
 				time = 1

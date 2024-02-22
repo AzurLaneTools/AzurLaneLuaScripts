@@ -55,7 +55,7 @@ function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot9 = Item.New({
+		slot9 = Drop.New({
 			type = DROP_TYPE_ITEM,
 			id = id2ItemId(slot7[2]),
 			count = slot7[3]
@@ -67,7 +67,7 @@ function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot9 = Item.New({
+		slot9 = Drop.New({
 			type = DROP_TYPE_ITEM,
 			id = slot7[2],
 			count = slot7[3]
@@ -90,11 +90,7 @@ function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
 
 				uv0:updateModifyNameColdTime(pg.TimeMgr.GetInstance():GetServerTime() + uv2)
 				uv3:updatePlayer(uv0)
-				uv4:sendNotification(GAME.CONSUME_ITEM, Item.New({
-					type = uv5[1],
-					id = uv5[2],
-					count = uv5[3]
-				}))
+				uv4:sendNotification(GAME.CONSUME_ITEM, Drop.Create(uv5))
 
 				if uv6 then
 					uv6()

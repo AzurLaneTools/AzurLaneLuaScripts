@@ -50,7 +50,7 @@ function slot0.execute(slot0, slot1)
 			uv3:setSkinId(0)
 			getProxy(EquipmentProxy):addEquipment(uv3)
 			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv0)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv3.config.name), "red")
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv3:getConfig("name")), "red")
 
 			if uv0:getEquipSkin(uv1) > 0 and not uv0:checkCanEquipSkin(uv1, uv0:getEquipSkin(uv1)) then
 				uv4:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {

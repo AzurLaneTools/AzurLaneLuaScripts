@@ -99,11 +99,11 @@ function slot0.init(slot0)
 
 	onButton(slot0, slot3:Find("item/reset_btn"), function ()
 		assert(uv0.contextData.onResetInfo, "without reset info callback")
-		uv0.contextData.onResetInfo({
+		uv0.contextData.onResetInfo(Drop.New({
 			count = 1,
 			type = DROP_TYPE_WORLD_ITEM,
 			id = uv0.itemVO.id
-		})
+		}))
 	end)
 end
 
@@ -141,11 +141,11 @@ end
 function slot0.setItem(slot0, slot1)
 	slot0.itemVO = slot1
 
-	updateDrop(slot0.itemTF, {
+	updateDrop(slot0.itemTF, Drop.New({
 		type = DROP_TYPE_WORLD_ITEM,
 		id = slot1.id,
 		count = slot1.count
-	})
+	}))
 	setText(slot0.nameTF, slot1:getConfig("name"))
 	setText(slot0.descTF, slot1:getConfig("display"))
 

@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[43] = {
-		answer_right = "重巡洋艦",
-		answer_false1 = "輕巡洋艦",
-		question = "CA在海軍通用艦船分類符號中用來指代（）",
+	[57] = {
+		answer_right = "上升轟炸",
+		answer_false1 = "跳彈轟炸",
+		question = "下列哪個選項不是轟炸機的轟炸方式？",
 		type = 1,
-		id = 43,
-		answer_false3 = "戰列巡洋艦",
+		id = 57,
+		answer_false3 = "水平轟炸",
 		wrong_time = 30,
-		answer_false2 = "大型巡洋艦"
+		answer_false2 = "俯衝轟炸"
 	},
-	[44] = {
-		answer_right = "損害管制",
-		answer_false1 = "緊急維修",
-		question = "艦艇為保持或恢復自身生命力所採取的預防、限制和消除損害的措施和行動一般被稱為（）",
+	[58] = {
+		answer_right = "指示目標距離",
+		answer_false1 = "指示裝填時間",
+		question = "軍艦上射擊鐘的作用為()",
 		type = 1,
-		id = 44,
-		answer_false3 = "損傷處置",
+		id = 58,
+		answer_false3 = "指示開飯時間",
 		wrong_time = 30,
-		answer_false2 = "損毀處理"
+		answer_false2 = "指示當前時間"
 	},
-	[45] = {
-		answer_right = "305mm",
-		answer_false1 = "203mm",
-		question = "歷史上潛艇裝備過最大的艦炮口徑為（）",
+	[59] = {
+		answer_right = "百眼巨人",
+		answer_false1 = "蘭利",
+		question = "世界上第一艘擁有全通飛行甲板的航空母艦是？",
 		type = 1,
-		id = 45,
-		answer_false3 = "105mm",
+		id = 59,
+		answer_false3 = "博格",
 		wrong_time = 30,
-		answer_false2 = "152mm"
+		answer_false2 = "鎮海"
 	},
-	[46] = {
-		answer_right = "熱動力魚雷",
-		answer_false1 = "機械動力魚雷",
-		question = "93式氧氣魚雷按動力類型分類屬於（）魚雷",
+	[60] = {
+		answer_right = "He-178",
+		answer_false1 = "Me-262",
+		question = "世界上第一架噴射機是？",
 		type = 1,
-		id = 46,
-		answer_false3 = "特殊動力魚雷",
+		id = 60,
+		answer_false3 = "MiG-9",
 		wrong_time = 30,
-		answer_false2 = "氣體動力魚雷"
+		answer_false2 = "F9F"
 	},
-	[47] = {
-		answer_right = "車鐘",
-		answer_false1 = "船鐘",
-		question = "艦艇上艦橋與輪機艙之間發出與接收艦艇前進倒退指令的操作設備是（）",
+	[61] = {
+		answer_right = "24",
+		answer_false1 = "28",
+		question = "以「下餃子」著稱的艾塞克斯級航空母艦總共建造了幾艘？",
 		type = 1,
-		id = 47,
-		answer_false3 = "短波無線電",
+		id = 61,
+		answer_false3 = "25",
 		wrong_time = 30,
-		answer_false2 = "傳聲管"
+		answer_false2 = "17"
 	},
-	[48] = {
-		answer_right = "1922年",
-		answer_false1 = "1919年",
-		question = "世界上第一艘專門建造的標準航空母艦在（）建成服役",
+	[62] = {
+		answer_right = "吊籃",
+		answer_false1 = "滑翔傘",
+		question = "下列哪種軍艦間人員轉運方式最受歡迎 ？",
 		type = 1,
-		id = 48,
-		answer_false3 = "1920年",
+		id = 62,
+		answer_false3 = "魚雷管",
 		wrong_time = 30,
-		answer_false2 = "1924年"
+		answer_false2 = "炸彈掛架"
 	},
-	[49] = {
-		answer_right = "水中彈",
-		answer_false1 = "水裡彈",
-		question = "炮彈進入水中後以水平方向前進一定距離，從而命中艦船水線下裝甲帶的現象被稱為（）",
+	[63] = {
+		answer_right = "冰淇淋",
+		answer_false1 = "南瓜湯",
+		question = "就算是單座艦載機，也可以透過飛行製作的食物是()",
 		type = 1,
-		id = 49,
-		answer_false3 = "潛水彈",
+		id = 63,
+		answer_false3 = "蘋果派",
 		wrong_time = 30,
-		answer_false2 = "濺水彈"
+		answer_false2 = "烤牛排"
 	},
-	[50] = {
-		answer_right = "90000",
-		answer_false1 = "40000",
-		question = "後宅食物存量最大上限為（）",
+	[64] = {
+		answer_right = "9",
+		answer_false1 = "7",
+		question = "在大型作戰中，空域偵查消耗的行動點最大數量為()",
 		type = 2,
-		id = 50,
-		answer_false3 = "80000",
+		id = 64,
+		answer_false3 = "10",
 		wrong_time = 30,
-		answer_false2 = "無上限"
+		answer_false2 = "8"
 	},
-	[51] = {
+	[65] = {
+		answer_right = "4000",
+		answer_false1 = "5000",
+		question = "透過特裝原型收集計劃，指揮官每月取得的【特裝原型】最大數量為()",
+		type = 2,
+		id = 65,
+		answer_false3 = "2000",
+		wrong_time = 30,
+		answer_false2 = "3000"
+	},
+	[66] = {
+		answer_right = "輪型陣",
+		answer_false1 = "復縱陣",
+		question = "可以提升艦隊防空能力的陣型為 ()",
+		type = 2,
+		id = 66,
+		answer_false3 = "梯形陣",
+		wrong_time = 30,
+		answer_false2 = "單縱陣"
+	},
+	[67] = {
+		answer_right = "戰士的心得",
+		answer_false1 = "閃耀的麥克風",
+		question = "厭戰改造為海上傳奇所需的特殊道具為()",
+		type = 2,
+		id = 67,
+		answer_false3 = "女王的號令",
+		wrong_time = 30,
+		answer_false2 = "烤肉味香水"
+	},
+	[68] = {
+		answer_right = "攜帶特殊裝備",
+		answer_false1 = "艦船稀有度",
+		question = "下列哪個選項無法影響艦船的出擊油耗 ？",
+		type = 2,
+		id = 68,
+		answer_false3 = "進行艦船突破",
+		wrong_time = 30,
+		answer_false2 = "提升艦船等級"
+	},
+	[69] = {
+		answer_right = "領航員-TB",
+		answer_false1 = "領航員-TA",
+		question = "大型作戰中領航員的全名為()",
+		type = 2,
+		id = 69,
+		answer_false3 = "領航員-TD",
+		wrong_time = 30,
+		answer_false2 = "領航員-TC"
+	},
+	[70] = {
 		answer_right = "驅逐艦",
-		answer_false1 = "潛水艇",
-		question = "（）突破至滿星後，會獲得三種不同方向增益效果的其中一種",
+		answer_false1 = "戰列艦",
+		question = "下列哪種艦船突破至滿星後，會獲得三種增益效果的其中一種",
 		type = 2,
-		id = 51,
-		answer_false3 = "後排主力",
+		id = 70,
+		answer_false3 = "潛艇",
 		wrong_time = 30,
-		answer_false2 = "維修艦"
-	},
-	[52] = {
-		answer_right = "中型裝甲",
-		answer_false1 = "重型裝甲",
-		question = "半穿甲彈攻擊（）目標時傷害最高",
-		type = 2,
-		id = 52,
-		answer_false3 = "塞壬陣營",
-		wrong_time = 30,
-		answer_false2 = "輕型裝甲"
-	},
-	[53] = {
-		answer_right = "37",
-		answer_false1 = "35",
-		question = "大型作戰中，指揮官每週最多接取（）個港口任務",
-		type = 2,
-		id = 53,
-		answer_false3 = "39",
-		wrong_time = 30,
-		answer_false2 = "42"
-	},
-	[54] = {
-		answer_right = "冷卻時間縮短",
-		answer_false1 = "範圍擴大",
-		question = "提升「兵裝效果-特殊斬擊」等級不會給特殊斬擊帶來哪種增益？",
-		type = 2,
-		id = 54,
-		answer_false3 = "消彈能力提升",
-		wrong_time = 30,
-		answer_false2 = "傷害提升"
-	},
-	[55] = {
-		answer_right = "3000",
-		answer_false1 = "4000",
-		question = "【艦艇演習數據T1】的儲存數量上限是（）",
-		type = 2,
-		id = 55,
-		answer_false3 = "5000",
-		wrong_time = 30,
-		answer_false2 = "無限制"
-	},
-	[56] = {
-		answer_right = "關卡進度100%",
-		answer_false1 = "完成三星收集",
-		question = "部分地圖的【石油消耗上限】功能解鎖條件為（）",
-		type = 2,
-		id = 56,
-		answer_false3 = "擊破全部敵人",
-		wrong_time = 30,
-		answer_false2 = "達成安全海域"
+		answer_false2 = "航空母艦"
 	},
 	all = {
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70
 	}
 }

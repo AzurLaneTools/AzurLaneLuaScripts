@@ -129,7 +129,7 @@ function slot0.update(slot0, slot1)
 					uv0.selectedItem = uv5
 				end
 			end, SFX_PANEL)
-			setScrollText(slot2:Find("name_bg/Text"), slot4.cfg.name)
+			setScrollText(slot2:Find("name_bg/Text"), slot4:getConfig("name"))
 		end
 	end)
 	slot0.ulist:align(#slot1:getConfig("display_icon"))

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>二 午餐时光</size>",
+					"女王的一天\n\n<size=45>二 午餐時光</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "不知不觉中时间来到了正午，伊丽莎白依然在办公桌前处理着报告。",
+			say = "不知不覺中時間來到了正午，伊莉莎白依然在辦公桌前處理報告。",
 			bgmDelay = 2,
 			bgm = "theme-partydress",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，午饭已经准备完毕了，请问您现在要去用餐吗？",
+			say = "陛下，午餐已經準備完畢了，請問您現在要去用餐嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再等半小时吧，本王把手里这点东西处理完就去吃。",
+			say = "再等半小時吧，本王把手裡這些東西處理完就去吃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了。那我三十分钟后再来叫您。",
+			say = "明白了。那我三十分鐘後再來叫您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "陛下，关于欧罗巴三国的近况报告已经整理好了。",
+			say = "陛下，關於歐羅巴三國的近況報告已經整理好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，拿过来吧。就等看完这组报告吃饭了……",
+			say = "很好，拿過來吧。就等看完這組報告吃飯了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有什么特别值得注意的点么？",
+			say = "有什麼特別值得注意的點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "关于自由鸢尾方面，黎塞留大主教最近在阿非利加的活动十分顺利，已经得到了多处原鸢尾教国海外领地的支持。",
+			say = "關於自由鳶尾方面，黎胥留大主教最近在阿非利加的活動十分順利，已經得到了多個原鳶尾教國海外領地的支持。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "按照当前趋势估算，预计她的行动将会越来越顺利，很快就可以聚集到一支真正可观的力量了。",
+			say = "按照當前趨勢估算，預計她的行動將會越來越順利，很快就可以聚集到一支真正可觀的力量了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "关于维希教廷方面，近期维希教廷正在逐渐放弃海外领地的防御，将力量集中回了欧罗巴本土，似乎转变了军事战略。",
+			say = "關於維希教廷方面，近期維希教廷正在逐漸放棄海外領地的防禦，將力量集中回了歐羅巴本土，似乎轉變了軍事戰略。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "与此同时，教廷审判庭的暗中行动次数正在增加，我们已经发现了多次审判庭成员离开教廷本土外出的情况。",
+			say = "與此同時，教廷審判庭的暗中行動次數正在增加，我們已經發現了多次審判庭成員離開教廷本土外出的情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是具体人数、批次以及其行动目标均不明，需要提高警惕。",
+			say = "但是具體人數、批次以及其行動目標均不明，需要提高警覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有关于审判庭和自由鸢尾进行接触的报告么？",
+			say = "有關於審判庭和自由鳶尾接觸的報告嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "目前没有收到此类报告。不过考虑到世界博览会中自由鸢尾和维希教廷均设置了场馆，双方进行过接触的可能性很高。",
+			say = "目前沒有收到此類報告。不過考慮到世界博覽會中自由鳶尾和維希教廷都設置了場館，雙方進行過接觸的可能性很高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "谢菲尔德是派驻会场的，也许她那边会有什么发现？",
+			say = "謝菲爾德是派駐會場的，也許她那邊會有什麼發現？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔嗯……那审判庭直接派人前往阿非利加的情况呢？",
+			say = "嗯……那審判庭直接派人前往阿非利加的情況呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前也没有收到过此类报告，不过鉴于之前审判庭目标不明的海外行动，情报部门已经增加了监控力度。",
+			say = "目前也沒有收到過此類報告，不過鑑於先前審判庭目標不明的海外行動，情報部門已經增加了監控程度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "如果有发现的话，我会第一时间向您汇报的。",
+			say = "如果有發現的話，我會第一時間向您報告的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "关于撒丁帝国方面——",
+			say = "關於薩丁帝國方面——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个就先不用了，有些事我打算直接问问在会场的光辉，辛苦了格罗斯特。",
+			say = "這個就先不用了，有些事我打算直接問問在會場的光輝，辛苦了格洛斯特。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			say = "滴————",
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能听到么光辉，我是伊丽莎白。",
+			say = "能聽到嗎光輝，我是伊莉莎白。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "咦，陛下？通讯没问题，不过您怎么突然打来了？",
+			say = "咦，陛下？通訊沒問題，不過您怎麼突然打來了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你现在在哪里，方便说话么？",
+			say = "妳現在在哪裡，方便說話嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我现在正在水晶宫的餐厅，刚刚吃完午饭。",
+			say = "我現在正在水晶宮的餐廳，剛吃完午餐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "需要我回办公室重新打给您么？",
+			say = "需要我回辦公室重新打給您嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用麻烦，本王就是突然想问一问博览会的情况，随便聊几句就挂了。",
+			say = "不用麻煩，本王就是突然想問一問博覽會的狀況，隨便聊幾句就掛了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "博览会最近如何，事情都还顺利么？",
+			say = "博覽會最近如何，事情都還順利吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……应该算是一切顺利吧？",
+			say = "嗯……應該算是一切順利吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撒丁帝国将会场秩序维持得十分良好，也接二连三地举办活跃气氛的活动，每天都是在火热的节日气氛中度过……的感觉？",
+			say = "薩丁帝國將會場秩序維持得十分良好，也接二連三的舉辦活躍氣氛的活動，每天都是在火熱的節日氣氛中度過……的感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，看来撒丁帝国在办博览会上还算有一套。",
+			say = "那就好，看來薩丁帝國在辦博覽會上還算有一套。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这几天有见到过维内托和利托里奥么？",
+			say = "妳這幾天有見過維內托和利托里奧嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有哦，在开幕式的那天维内托小姐就亲自到场了，之后也陆陆续续来过几次。",
+			say = "有哦，在開幕式的那天維內托小姐就親自到場了，之後也陸陸續續來過幾次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "利托里奥是这几天才来会场的，昨天还来参加了我们在水晶宫内准备的宴会。",
+			say = "利托里奧是這幾天才來會場的，昨天還來參加了我們在水晶宮內準備的宴會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那马可波罗呢，她有没有来过会场？",
+			say = "那馬可波羅呢，她有沒有來過會場？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马可波罗小姐……好像一次都没有来过会场呢。",
+			say = "馬可波羅小姐……好像一次都沒有來過會場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………是这样啊。",
+			say = "……………………是這樣啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了陛下，我想起来一件奇怪的事。",
+			say = "對了陛下，我想起來一件奇怪的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东煌代表团似乎打算提前结束博览会之旅，在闭幕式前返回东煌。",
+			say = "東煌代表團似乎打算提前結束博覽會之旅，在閉幕式前返回東煌。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "东煌…………要在闭幕式之前返回？",
+			say = "東煌…………要在閉幕式前返回？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "光辉，博览会闭幕式的具体日期你还记得么————",
+			say = "光輝，博覽會閉幕式的具體日期妳還記得嗎————",
 			painting = {
 				alpha = 0.3,
 				time = 1

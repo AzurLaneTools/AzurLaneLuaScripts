@@ -18773,6 +18773,132 @@ _G.pg.base.equip_data_statistics[3853] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3860] = {
+	type = 10,
+	name = "女王的日程表（絕密）",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 4,
+	ammo = 10,
+	nationality = 2,
+	descrip = "詳細紀錄了女王的日程安排的絕密文件，似乎只有特定的人員才有資格查閱。",
+	rarity = 4,
+	attribute_1 = "cannon",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3860,
+	icon = "3860",
+	value_1 = "6",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60330
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3861] = {
+	id = 3861,
+	value_2 = 5,
+	value_1 = "6",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3862] = {
+	id = 3862,
+	value_2 = 6,
+	value_1 = "7",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3863] = {
+	id = 3863,
+	value_2 = 6,
+	value_1 = "8",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3864] = {
+	id = 3864,
+	value_2 = 7,
+	value_1 = "9",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3865] = {
+	id = 3865,
+	value_2 = 8,
+	value_1 = "10",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3866] = {
+	id = 3866,
+	value_2 = 9,
+	value_1 = "11",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3867] = {
+	id = 3867,
+	value_2 = 9,
+	value_1 = "12",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3868] = {
+	id = 3868,
+	value_2 = 10,
+	value_1 = "13",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3869] = {
+	id = 3869,
+	value_2 = 11,
+	value_1 = "14",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3870] = {
+	id = 3870,
+	value_2 = 12,
+	value_1 = "15",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3871] = {
+	value_2 = 13,
+	anti_siren = 100,
+	base = 3860,
+	id = 3871,
+	value_1 = "16",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3880] = {
 	type = 10,
 	name = "作戰報告·極地風暴",

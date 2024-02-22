@@ -63,6 +63,9 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 				uv0._anim:Play()
 			end
 
+			uv0.player.maxFrameDrop = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+MaxFrameDrop"), "Infinite", nil)
+
+			uv0.player:PlayerManualUpdate()
 			uv0.player:PlayCpk()
 			uv0:onCpkStart(uv1)
 
@@ -121,6 +124,7 @@ function slot0.Clear(slot0)
 
 	setText(slot0.nameTF, "")
 	slot0:Hide()
+	gcAll()
 end
 
 return slot0

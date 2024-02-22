@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>三　氛围是派对的基础！</size>",
+					"熱鬧的「環球」晚宴\n\n<size=45>三　氣氛是派對的基礎！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "与西雅图一起，踏上了前往准备派对的道路。",
+			say = "與西雅圖一起，踏上了前往準備派對的道路。",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "要问她有什么计划的话——",
+			say = "要問她有什麼計畫的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "当然有哦！我们首先要解决的，就是派对的氛围问题。",
+			say = "當然有哦！我們首先要解決的，就是派對的氣氛問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然要准备一个热闹的氛围，自然就少不了现场布置的配合。",
+			say = "既然要準備一個熱鬧的氛圍，自然就少不了現場佈置的配合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这里面学问可深了，在派对现场布置的装饰、道具，甚至桌椅，都对氛围有影响。",
+			say = "這裡面學問很深呢，在派對現場佈置的裝潢、道具，甚至桌椅，都會對氣氛有影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "就连在场所的灯光，也会影响心情的！指挥官应该听说过灯光理论吧？",
+			say = "就連場所的燈光，也會影響心情的！指揮官應該聽過燈光理論吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在派对理论这方面，西雅图说得头头是道。",
+			say = "在派對理論這方面，西雅圖說得頭頭是道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "不过，抛开这些叫人目不暇接的理论而言，实际执行的人选上——",
+			say = "不過，拋開這些叫人目不暇的理論而言，實際執行的人選上——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "……皇家？皇家的女仆队是很擅长这种工作啦。",
+			say = "……皇家？皇家的女僕隊是很擅長這種工作啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "不过派对还要更热闹一点！还要更夸张一点！光是布置还不够哦。",
+			say = "不過派對還要更熱鬧一點！還要更誇張一點！光是佈置還不夠哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简单来说，就是要更多的奇思妙想！走吧，指挥官，让我们一起去找找“灵感”！",
+			say = "簡單來說，就是更多的奇思妙想！走吧，指揮官，讓我們一起去找「靈感」吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在港区内四处寻找“灵感”时，附近奇妙的声音吸引了西雅图的脚步——",
+			say = "在港區內四處尋找「靈感」時，附近的奇妙聲音吸引了西雅圖的腳步——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "怎么办？它们好像在吵架的样子……",
+			say = "怎麼辦？它們好像在吵架的樣子…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "别担心，猫狗有不和是正常现象啦！",
+			say = "別擔心，貓狗有不和是正常現象啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "就连机械猫和机械狗也是这样么……",
+			say = "連機械貓和機械狗也是這樣嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，这场面不是很有气势嘛，我们撒丁的宠物就是要这样有气势才行。",
+			say = "呵呵，這個場面不是很有氣勢嘛，我們薩丁的寵物就是要這樣有氣勢才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "哦！我感受到了，这就是我们要找的奇思妙想！指挥官，这边！",
+			say = "哦！我感受到了，這就是我們要找的奇思妙想！指揮官，這邊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早上好，撒丁的同伴们——",
+			say = "早安，薩丁的同伴們——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "唔哦？！会喵喵叫的机械狗和会汪汪叫的机械猫在吵架？！",
+			say = "唔哦？！會喵喵叫的機械狗和會汪汪叫的機械貓在吵架？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊，早上好，西雅图！欢迎来到我的天才发明的测试场地！",
+			say = "啊，早上好，西雅圖！歡迎來到我天才發明的測試場地！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "今天的主题是：能够让房间里热闹起来的机械宠物！怎么样，有没有一种眼前一亮的感觉？",
+			say = "今天的主題是：能夠讓房間裡熱鬧起來的機械寵物！怎麼樣，有沒有一種眼前一亮的感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "确实有点……正好，达·芬奇，你还有这样的发明吗？绝对能让派对热闹起来的！",
+			say = "確實有點……正好，達文西，妳還有這樣的發明嗎？絕對能讓派對熱鬧起來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要多少有多少哦，不要小看天才……欸？你刚刚是说，派对？",
+			say = "要多少有多少哦，不要小看天才……欸？妳剛剛是說，派對？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！我们准备开一个派对哦！怎么样，你们有没有兴趣参与到准备工作中来？",
+			say = "沒錯！我們準備開一個派對喔！怎麼樣，妳們有沒有興趣參與到準備工作中來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "听起来好像不错，但我们得考虑一下……",
+			say = "聽起來好像不錯，但我們要考慮一下……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们准备了超大的派对会场哦，有充足的空间可以随意装饰！",
+			say = "我們準備了超大的派對會場哦，有足夠的空間可以隨意裝飾！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这么说，达·芬奇的天才发明都可以用上了？我觉得可以参加！",
+			say = "這麼說，達文西的天才發明都可以用了？我覺得可以參加！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，这正是传播我撒丁文化的魅力之时。维内托，我也觉得可以加入。",
+			say = "原來如此，這正是傳播我薩丁文化的魅力之時。維內托，我也覺得可以加入。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "欸、欸……？那……咳咳，好吧，我们当然可以参与准备工作。",
+			say = "欸、欸……？那……咳，好吧，我們當然可以參與準備工作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "我会联络更多撒丁的伙伴来帮忙的。要将撒丁的威光弘扬光大，需要每一个人的努力才行。",
+			say = "我會聯絡更多薩丁的夥伴來幫忙的。要將薩丁的威光弘揚光大，需要每一個人的努力才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢加入，那样就再好不过了，让所有人一起参加热闹的活动，正是我的初衷哦。",
+			say = "感謝加入，那樣就再好不過了，讓所有人一起參加熱鬧的活動，正是我的初衷哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "的确。为了这样的盛会，我们会全力以赴的。",
+			say = "的確。為了這樣的盛會，我們會全力以赴的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "期待你们准备的方案，肯定会是一个惊喜！",
+			say = "期待妳們準備的方案，一定會是個驚喜！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "让我们一起加油吧！",
+			say = "讓我們一起加油吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
-			say = "和西雅图还有撒丁的众人一齐举起拳头，做出了“加油”的姿势。",
+			say = "和西雅圖還有薩丁的眾人一齊舉起拳頭，做出了「加油」的姿勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "看起来，一切顺利——",
+			say = "看起來，一切順利——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -36,7 +36,6 @@ end
 function slot0.getItemById(slot0, slot1)
 	return getProxy(BagProxy):getItemById(slot1) or Item.New({
 		count = 0,
-		type = DROP_TYPE_ITEM,
 		id = slot1
 	})
 end
@@ -1043,7 +1042,7 @@ function slot0.updateModPanel(slot0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(slot0.itemInfo, "name/Text"), slot10.cfg.name)
+		setScrollText(findTF(slot0.itemInfo, "name/Text"), slot10:getConfig("name"))
 
 		slot15 = getProxy(PlayerProxy)
 		slot15 = slot15:getRawData()
@@ -1265,7 +1264,7 @@ function slot0.updateFittingPanel(slot0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), slot10.cfg.name)
+		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), slot10:getConfig("name"))
 
 		slot15 = getProxy(PlayerProxy)
 		slot15 = slot15:getRawData()
@@ -2455,10 +2454,10 @@ function slot0.showUnlockPanel(slot0)
 
 	slot1 = slot0.contextData.shipBluePrintVO.id
 	slot2 = slot0.contextData.shipBluePrintVO
-	slot3 = {
+	slot3 = Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = slot2:getUnlockItem()
-	}
+	})
 	slot4 = slot0.contextData.shipBluePrintVO
 	slot4 = slot4:getShipVO()
 	slot5 = slot4:getPainting()
@@ -2467,11 +2466,11 @@ function slot0.showUnlockPanel(slot0)
 
 	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot5, slot5, slot6:Find("Image/mask/icon"), true)
 	setText(slot6:Find("words/Text"), i18n("techpackage_item_use_1", slot4:getName()))
-	setText(slot6:Find("words/Text_2"), i18n("techpackage_item_use_2", getDropName(slot3)))
+	setText(slot6:Find("words/Text_2"), i18n("techpackage_item_use_2", slot3:getName()))
 
 	slot10 = slot0.unlockPanel
 
-	GetImageSpriteFromAtlasAsync(getDropIcon(slot3), "", slot10:Find("window/confirm_btn/Image/Image"))
+	GetImageSpriteFromAtlasAsync(slot3:getIcon(), "", slot10:Find("window/confirm_btn/Image/Image"))
 
 	slot8 = slot0.unlockPanel
 

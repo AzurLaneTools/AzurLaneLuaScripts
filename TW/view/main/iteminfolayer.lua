@@ -73,11 +73,7 @@ function slot0.setDrop(slot0, slot1)
 	if slot1.type == DROP_TYPE_SHIP then
 		slot0:setItemInfo(slot1, slot0.itemTF)
 	elseif slot1.type == DROP_TYPE_ITEM then
-		if slot1.extra then
-			slot1.count = 1
-		else
-			slot1.count = getProxy(BagProxy):getItemCountById(slot1.id)
-		end
+		slot1.count = getProxy(BagProxy):getItemCountById(slot1.id)
 
 		slot0:setItem(slot1)
 	else
@@ -93,12 +89,12 @@ function slot0.setItemInfo(slot0, slot1, slot2)
 	}))
 	UpdateOwnDisplay(slot2:Find("left/own"), slot1)
 	RegisterDetailButton(slot0, slot2:Find("left/detail"), slot1)
-	setText(slot2:Find("display_panel/name_container/name/Text"), slot1.cfg.name)
+	setText(slot2:Find("display_panel/name_container/name/Text"), slot1:getConfig("name"))
 	setText(slot2:Find("display_panel/desc/Text"), slot1.desc)
 	setActive(slot2:Find("display_panel/name_container/shiptype"), slot1.type == DROP_TYPE_SHIP)
 
 	if slot1.type == DROP_TYPE_SHIP then
-		GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1.cfg.type), slot3, false)
+		GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1:getConfig("type")), slot3, false)
 	end
 end
 
@@ -109,13 +105,13 @@ end
 function slot0.setItem(slot0, slot1)
 	slot0:setItemInfo(slot1, slot0.itemTF)
 
-	slot0.itemVO = Item.New(slot1)
+	slot0.itemVO = slot1:getSubClass()
 
 	eachChild(slot0.btnContent, function (slot0)
 		setActive(slot0, slot0 == uv0.okBtn)
 	end)
 
-	if not slot0.itemVO:CanInBag() then
+	if not Item.CanInBag(slot0.itemVO.id) then
 		return
 	end
 
@@ -276,11 +272,11 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.operateBtns.Resolve, function ()
-		uv0:emit(ItemInfoMediator.SELL_BLUEPRINT, {
+		uv0:emit(ItemInfoMediator.SELL_BLUEPRINT, Drop.New({
 			type = DROP_TYPE_ITEM,
 			id = uv0.itemVO.id,
 			count = uv0.operateCount
-		})
+		}))
 	end, SFX_CONFIRM)
 
 	slot2 = getProxy(PlayerProxy)

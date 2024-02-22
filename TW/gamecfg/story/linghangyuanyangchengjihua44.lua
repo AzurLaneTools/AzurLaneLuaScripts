@@ -14,6 +14,23 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
 			}
 		},
 		{
@@ -53,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼~身为制作者，给自己留个“后门”也是当然的喵！",
+			say = "喵呼呼~身为制作者，能出现在这里也是理所当然的喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,13 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			expression = 3,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且领航员小姐“自己”也有话想对你说，所以{namecode:98}把她带来了喵。",
+			actor = 312010,
+			say = "除了刚刚那个问题，指挥官一定还有很多其它的问题想问{namecode:98:明石}吧喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +99,67 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "当然！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "培养出“个性”，有从事的职业，这对TB来说意味着什么呢？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "唔喵？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "这个问题就让领航员小姐“自己”来和指挥官聊聊吧喵！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
@@ -104,7 +182,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（想问的问题完全被{namecode:98}堵回去了啊……）",
+			say = "（想问的问题完全被{namecode:98:明石}堵回去了啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来的时间就留给指挥官和领航员小姐了，{namecode:98}先走一步了喵~",
+			say = "那接下来的时间就留给指挥官和领航员小姐了，{namecode:98:明石}先走一步了喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "{namecode:98}消失后，我看向了一旁安安静静的TB。",
+			say = "{namecode:98:明石}消失后，我看向了一旁突然出现、安安静静的TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,35 +234,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 3,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "分析模块同步中：指挥官，我汇总了在这个小镇中产生的数据……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "确实从中找到了与产生“个性”相关的内容。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "指令已确认：正在进行分析……分析模式中止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,17 +248,77 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "但，我无法通过单次操作所产生的结果进行学习，这需要有更多数据支持。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "抱歉指挥官，我擅自中止了分析指令。这个问题我不想在进行分析后再回答。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "我从您的行为中，获得了一种特别的感受。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "但这种感受的来源，我无法采用数据库中已被录入的概念进行合理的解释。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "……它很奇妙。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "或许是在这里与您相处的时光，或许是无论从事哪种职业，都有您作为坚实后盾的安心感……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900284,
+			say = "即使疲惫，但是有您相伴，今后就算遇到再多的困难也能够克服。谢谢您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,24 +330,20 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也就是说，我可以通过重复培养，为你积累更多的学习数据？",
+			say = "TB……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900284,
-			side = 2,
+			expression = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "是的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			side = 2,
+			actor = 900284,
+			say = "怎么了，指挥官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +355,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可再来一次的话，你就会被重置掉吧？真的没关系么？",
+			say = "就是在感动之余又有点惊讶，你现在说话的口吻变得没那么……有人工智能感？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,71 +363,61 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			actor = 900284,
-			say = "结论：重置并不会产生影响。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "我的口吻变化，应该与您的培养行为有关。如果您不习惯，我可以调整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "每次的培养结束后，资料和数据会像现在这样得到汇总。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "不用调整，现在这样就很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 3,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "以及，或许是被“个性”这种与情感有关的概念所影响……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "虽然这么说很奇怪，但是第一次作为“你”的监护人，我肯定还有很多不足之处……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			say = "希望“你”知道，无论你变成什么样子，我都可以是你的港湾。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			hidePaintObj = true,
+			side = 2,
 			actor = 900284,
-			say = "我希望能和您再多相处一段时间。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "人工智能并不需要停泊。不过，您采用的应该是比喻的修辞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,34 +425,12 @@ return {
 		},
 		{
 			expression = 1,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900284,
-			say = "分析模块同步中：基于在此积累的过往数据，接下来我应该对您说的是——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900284,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "今后的生活，也请您多关照了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			actor = 900284,
+			say = "这种修辞所代表的情感含义，我现在已经充分理解到了。——指挥官，今后的生活，也请您多关照。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

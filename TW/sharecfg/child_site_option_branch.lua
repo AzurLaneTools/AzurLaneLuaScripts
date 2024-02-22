@@ -1879,7 +1879,7 @@ pg.child_site_option_branch = {
 			{
 				103,
 				">",
-				1000
+				800
 			}
 		},
 		performance = {

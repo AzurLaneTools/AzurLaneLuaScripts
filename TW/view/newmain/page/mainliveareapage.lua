@@ -101,14 +101,26 @@ function slot0.Show(slot0)
 end
 
 function slot0.UpdateTime(slot0)
-	slot2 = slot0:getDayOrNight(pg.TimeMgr.GetInstance():GetServerHour()) == "day"
+	slot3 = pg.TimeMgr.GetInstance():GetServerHour() < 12
 
-	setActive(slot0:findTF("day", slot0._bg), slot2)
-	setActive(slot0:findTF("night", slot0._bg), not slot2)
-	setActive(slot0:findTF("day", slot0._islandBtn), slot2)
-	setActive(slot0:findTF("night", slot0._islandBtn), not slot2)
+	setActive(slot0:findTF("AM", slot0._bg), slot3)
+	setActive(slot0:findTF("PM", slot0._bg), not slot3)
+
+	slot4 = slot0:getDayOrNight(slot2) == "day"
+
+	setActive(slot0:findTF("day", slot0._bg), slot4)
+	setActive(slot0:findTF("night", slot0._bg), not slot4)
+	setActive(slot0:findTF("day", slot0._islandBtn), slot4)
+	setActive(slot0:findTF("night", slot0._islandBtn), not slot4)
 	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
-	setText(slot0:findTF("time", slot0._bg), slot1:CurrentSTimeDesc("%H:%M", true))
+
+	slot6 = slot1:CurrentSTimeDesc(":%M", true)
+
+	if slot2 > 12 then
+		slot2 = slot2 - 12
+	end
+
+	setText(slot0:findTF("time", slot0._bg), slot2 .. slot6)
 	setText(slot0:findTF("date/week", slot0._bg), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
 end
 

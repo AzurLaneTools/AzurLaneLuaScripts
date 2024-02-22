@@ -28174,10 +28174,11 @@ _G.pg.base.shop_template[70315] = {
 	desc = "购买皮肤：阿卡斯塔元宵节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28188,32 +28189,6 @@ _G.pg.base.shop_template[70315] = {
 	limit_args = {},
 	effect_args = {
 		201022
-	},
-	time = {
-		{
-			{
-				2023,
-				9,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				10,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -35187,10 +35162,11 @@ _G.pg.base.shop_template[70516] = {
 	desc = "购买皮肤:神速睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35201,32 +35177,6 @@ _G.pg.base.shop_template[70516] = {
 	limit_args = {},
 	effect_args = {
 		701061
-	},
-	time = {
-		{
-			{
-				2024,
-				1,
-				4
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				1,
-				10
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -52034,6 +51984,108 @@ _G.pg.base.shop_template[70972] = {
 				2024,
 				2,
 				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70977] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：240222宁海皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70977,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		502027
+	},
+	time = {
+		{
+			{
+				2024,
+				2,
+				22
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				2,
+				28
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70978] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "skin_shop",
+	type = 6,
+	desc = "购买皮肤：240222平海皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70978,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		502037
+	},
+	time = {
+		{
+			{
+				2024,
+				2,
+				22
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				2,
+				28
 			},
 			{
 				23,

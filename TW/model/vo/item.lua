@@ -28,13 +28,15 @@ slot0.METALESSON_TYPE = 25
 slot0.SKIN_ASSIGNED_TYPE = 26
 
 function slot0.Ctor(slot0, slot1)
-	slot0.configId = slot1.id
-	slot0.id = slot0.configId
-	slot0.dropType = slot1.type or 0
-	slot0.type = slot0.dropType
-	slot0.count = slot1.num or slot1.number or slot1.count
+	assert(not slot1.type or slot1.type == DROP_TYPE_VITEM or slot1.type == DROP_TYPE_ITEM)
+
+	slot0.id = slot1.id
+	slot0.configId = slot0.id
+	slot0.count = slot1.count
 	slot0.name = slot1.name
 	slot0.extra = slot1.extra
+
+	slot0:InitConfig()
 end
 
 function slot0.CanOpen(slot0)
@@ -46,15 +48,15 @@ function slot0.IsShipExpType(slot0)
 end
 
 function slot0.getConfigData(slot0)
-	if underscore.all({
+	slot2 = nil
+
+	if underscore.any({
 		pg.item_virtual_data_statistics,
 		pg.item_data_statistics
 	}, function (slot0)
-		return slot0[uv0] == nil
+		return slot0[uv0] ~= nil
 	end) then
-		return nil
-	else
-		return setmetatable({}, {
+		slot2 = setmetatable({}, {
 			__index = function (slot0, slot1)
 				for slot5, slot6 in ipairs(uv0) do
 					if slot6[uv1] and slot6[uv1][slot1] ~= nil then
@@ -66,26 +68,26 @@ function slot0.getConfigData(slot0)
 			end
 		})
 	end
+
+	return slot2
+end
+
+function slot0.InitConfig(slot0)
+	slot0.cfg = uv0.getConfigData(slot0.configId)
+
+	assert(slot0.cfg, string.format("without item config from id_%d", slot0.id))
 end
 
 function slot0.getConfigTable(slot0)
-	if not slot0.configData or slot0.configData.id ~= slot0.configId then
-		slot0.configData = uv0.getConfigData(slot0.configId)
-	end
-
-	return slot0.configData
+	return slot0.cfg
 end
 
 function slot0.CanInBag(slot0)
-	return tobool(pg.item_data_statistics[slot0.configId])
+	return tobool(pg.item_data_statistics[slot0])
 end
 
 function slot0.couldSell(slot0)
 	return table.getCount(slot0:getConfig("price")) > 0
-end
-
-function slot0.isDropItem(slot0)
-	return slot0.dropType > 0
 end
 
 function slot0.isEnough(slot0, slot1)
@@ -183,40 +185,45 @@ function slot0.GetOverflowCheckItems(slot0, slot1)
 	slot1 = slot1 or 1
 	slot2 = {}
 
-	if slot0:getConfig("usage") == ItemUsage.DROP_LIMIT then
-		-- Nothing
+	if slot0:getConfig("usage") == ItemUsage.DROP_TEMPLATE then
+		slot3, slot4, slot5 = unpack(slot0:getConfig("usage_arg"))
+
+		if slot4 > 0 then
+			table.insert(slot2, {
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResGold,
+				count = slot4
+			})
+		end
+
+		if slot5 > 0 then
+			table.insert(slot2, {
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResOil,
+				count = slot5
+			})
+		end
 	end
 
 	switch(slot0:getConfig("type"), {
-		[Item.GOLD_BOX_TYPE] = function ()
-			table.insert(uv0, {
-				type = DROP_TYPE_RESOURCE,
-				id = PlayerConst.ResGold,
-				count = uv1:getConfig("drop_gold_max") * uv2
-			})
-		end,
-		[Item.OIL_BOX_TYPE] = function ()
-			table.insert(uv0, {
-				type = DROP_TYPE_RESOURCE,
-				id = PlayerConst.ResGold,
-				count = uv1:getConfig("drop_oil_max") * uv2
-			})
-		end,
 		[Item.EQUIPMENT_BOX_TYPE_5] = function ()
 			table.insert(uv0, {
-				id = 0,
 				type = DROP_TYPE_EQUIP,
+				id = EQUIP_OCCUPATION_ID,
 				count = uv1
 			})
 		end,
 		[Item.EQUIPMENT_ASSIGNED_TYPE] = function ()
 			table.insert(uv0, {
-				id = 0,
 				type = DROP_TYPE_EQUIP,
+				id = EQUIP_OCCUPATION_ID,
 				count = uv1
 			})
 		end
 	})
+	underscore.map(slot2, function (slot0)
+		return Drop.New(slot0)
+	end)
 
 	return slot2
 end
@@ -249,6 +256,14 @@ function slot0.GetConsumeForSkinShopDiscount(slot0, slot1)
 	else
 		return 0
 	end
+end
+
+function slot0.getName(slot0)
+	return slot0.name or slot0:getConfig("name")
+end
+
+function slot0.getIcon(slot0)
+	return slot0:getConfig("Icon")
 end
 
 return slot0

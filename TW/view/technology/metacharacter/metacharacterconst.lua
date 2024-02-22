@@ -273,7 +273,7 @@ function slot0.addReMetaTransItem(slot0, slot1)
 
 		if not slot1 then
 			for slot6, slot7 in ipairs(slot2) do
-				pg.m02:sendNotification(GAME.ADD_ITEM, Item.New({
+				pg.m02:sendNotification(GAME.ADD_ITEM, Drop.New({
 					type = slot7.type,
 					id = slot7.id,
 					count = slot7.count
@@ -281,7 +281,7 @@ function slot0.addReMetaTransItem(slot0, slot1)
 			end
 		end
 
-		return Item.New({
+		return Drop.New({
 			type = slot2[1].type,
 			id = slot2[1].id,
 			count = slot2[1].count

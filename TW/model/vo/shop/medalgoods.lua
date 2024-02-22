@@ -42,11 +42,11 @@ function slot0.GetLimit(slot0)
 end
 
 function slot0.GetDropInfo(slot0)
-	return {
+	return Drop.New({
 		type = slot0:getConfig("type"),
 		id = slot0:getConfig("goods")[1],
 		count = slot0:getConfig("num")
-	}
+	})
 end
 
 return slot0

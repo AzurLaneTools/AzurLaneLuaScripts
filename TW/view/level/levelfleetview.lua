@@ -190,7 +190,7 @@ function slot0.onConfirm(slot0)
 			getProxy(ChapterProxy):SetLastFleetIndex(uv0)
 
 			slot2 = LevelMediator2.ON_TRACKING
-			slot3 = table.packParams(uv2.id, uv2.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv1, 1) == 1)
+			slot3 = packEx(uv2.id, uv2.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv1, 1) == 1)
 
 			if pg.m02:retrieveMediator(LevelMediator2.__cname) then
 				pg.m02:sendNotification(slot2, slot3)
@@ -1110,7 +1110,7 @@ function slot0.setOnHard(slot0, slot1)
 			end,
 			function (slot0)
 				slot2 = LevelMediator2.ON_ELITE_TRACKING
-				slot3 = table.packParams(uv1.id, uv1.loopFlag, uv2, uv3, PlayerPrefs.GetInt(uv0, 1) == 1)
+				slot3 = packEx(uv1.id, uv1.loopFlag, uv2, uv3, PlayerPrefs.GetInt(uv0, 1) == 1)
 
 				if pg.m02:retrieveMediator(LevelMediator2.__cname) then
 					pg.m02:sendNotification(slot2, slot3)
@@ -1965,10 +1965,10 @@ function slot0.setTicketInfo(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync(slot3:getConfig("icon"), "", slot1:Find("item/icon"))
 	else
 		setText(slot1:Find("item/count"), 0)
-		GetImageSpriteFromAtlasAsync(getDropIcon({
+		GetImageSpriteFromAtlasAsync(Drop.New({
 			type = DROP_TYPE_ITEM,
 			id = slot2
-		}), "", slot1:Find("item/icon"))
+		}):getIcon(), "", slot1:Find("item/icon"))
 	end
 
 	setActive(slot1:Find("item"), true)

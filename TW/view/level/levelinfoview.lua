@@ -360,25 +360,17 @@ end
 
 function slot0.updateDrop(slot0, slot1, slot2, slot3)
 	if slot1 == UIItemList.EventUpdate then
-		slot4 = slot0.awards[slot2 + 1]
-
-		updateDrop(slot3, {
-			type = slot4[1],
-			id = slot4[2],
-			count = slot4[3]
-		})
+		updateDrop(slot3, Drop.Create(slot0.awards[slot2 + 1]))
 		onButton(slot0, slot3, function ()
-			slot1 = {
+			if ({
 				[99.0] = true
-			}
+			})[uv0:getConfig("type")] then
+				slot2 = uv1
 
-			if Item.getConfigData(uv0[2]) and slot1[slot0.type] then
-				slot3 = uv1
-
-				slot3:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, uv1.chapter.id, function (slot0)
+				slot2:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, uv1.chapter.id, function (slot0)
 					slot2 = {}
 
-					for slot6, slot7 in ipairs(uv0.display_icon) do
+					for slot6, slot7 in ipairs(uv0:getConfig("display_icon")) do
 						slot9 = slot7[2]
 						slot2[#slot2 + 1] = {
 							type = slot8,
@@ -390,12 +382,12 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3)
 					uv1:emit(BaseUI.ON_DROP_LIST, {
 						item2Row = true,
 						itemList = slot2,
-						content = uv0.display
+						content = uv0:getConfig("display")
 					})
 					uv1:initTestShowDrop(uv0, Clone(slot2))
 				end)
 			else
-				uv1:emit(BaseUI.ON_DROP, uv2)
+				uv1:emit(BaseUI.ON_DROP, uv0)
 			end
 		end, SFX_PANEL)
 	end
@@ -485,7 +477,7 @@ function slot0.initTestShowDrop(slot0, slot1, slot2)
 			uv1:emit(BaseUI.ON_DROP_LIST, {
 				item2Row = true,
 				itemList = uv0,
-				content = uv2.display
+				content = uv2:getConfig("display")
 			})
 		end)
 	end

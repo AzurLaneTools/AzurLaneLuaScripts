@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>七 餐后甜点与宵夜</size>",
+					"女王的一天\n\n<size=45>七 餐後甜點與宵夜</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "深夜，一辆轿车缓缓驶入城堡大门。",
+			say = "深夜，一輛轎車緩緩駛入城堡大門。",
 			bgmDelay = 2,
 			bgm = "story-richang-8",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "不等轿车停稳，等在一旁的女仆就立刻迎了上去。",
+			say = "不等轎車停穩，等在一旁的女僕就立刻迎了上去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "陛下，欢迎回来——",
+			say = "陛下，歡迎回來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘，陛下已经睡了。你去拿行李，我把陛下抱回房间。",
+			say = "噓，陛下已經睡了。妳去拿行李，我把陛下抱回房間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "好的。但是……厌战大人那边怎么办？",
+			say = "好的。但是……厭戰大人那邊怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "她正在线上等待陛下的回话，说有紧急消息要汇报……",
+			say = "她正在線上等待陛下的回話，說有緊急消息要報告……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，陛下今天已经很累了……",
+			say = "唔，陛下今天已經很累了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去跟厌战大人说一下吧，看看她能不能整理成一份报告，我明天第一时间交给陛下。",
+			say = "我去跟厭戰大人說一下吧，看看她能不能整理成一份報告，我明天第一時間交給陛下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "zZZZ……嗯？厌战的报告…………？",
+			say = "zZZZ……嗯？厭戰的報告…………？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战那边出什么事了……？",
+			say = "厭戰那邊出什麼事了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，厌战大人正在通讯频道中等您，说是有紧急消息要汇报。",
+			say = "陛下，厭戰大人正在通訊頻道中等您，說有緊急訊息要回報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为您刚刚正在休息，我计划向厌战大人说明情况，把这件事整理成报告之后明天第一时间拿给您看。",
+			say = "因為您剛剛正在休息，我計劃向厭戰大人說明情況，把這件事整理成報告之後明天第一時間拿給您看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么晚了厌战也没睡啊……你的好意本王心领了。",
+			say = "這麼晚了厭戰也沒睡啊……妳的好意本王心領了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过反正也醒了……跟厌战说一下，本王马上就到。",
+			say = "不過反正也醒了……跟厭戰說一下，本王馬上就到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "照旧。",
+			say = "照舊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有，格罗斯特，本王离开之后有错过什么消息么？",
+			say = "還有，格洛斯特，本王離開之後有錯過什麼消息嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "在您离开之后，谢菲尔德发来了一份报告。因为您当时处于不安全的通讯环境中，所以没有第一时间转发给您。",
+			say = "在您離開之後，謝菲爾德發出了一份報告。因為您當時處於不安全的通訊環境中，所以沒有第一時間轉寄給您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你做的很对。谢菲发来的报告么……",
+			say = "妳做的很對。謝菲發來的報告嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纽卡斯尔，计划有变。",
+			say = "紐卡斯爾，計劃有變。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你去告诉厌战先把通讯挂了吧，喝点茶吃点点心之类的再等一会，本王看完谢菲的报告之后亲自打给她。",
+			say = "你去告訴厭戰先把通訊掛了吧，喝點茶吃點心之類的再等一下，本王看完謝菲的報告之後親自打給她。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，那么陛下，我先去办公室了。",
+			say = "遵命，那麼陛下，我先去辦公室了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "虽然夜色已深，但是女王的一日工作看来还要继续进行一段时间了——",
+			say = "雖然夜色已深，但是女王的一日工作看來還要繼續進行一段時間了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

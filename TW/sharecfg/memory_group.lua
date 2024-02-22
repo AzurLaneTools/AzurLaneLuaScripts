@@ -129,6 +129,7 @@ pg.memory_group = setmetatable({
 		236,
 		237,
 		238,
+		239,
 		241,
 		242,
 		243,
@@ -219,6 +220,7 @@ pg.memory_group = setmetatable({
 		580,
 		581,
 		582,
+		583,
 		587
 	}
 }, confHX)
@@ -3033,6 +3035,23 @@ pg.base.memory_group = {
 			2543
 		}
 	},
+	[239] = {
+		id = 239,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "女王的一天",
+		memories = {
+			2551,
+			2552,
+			2553,
+			2554,
+			2555,
+			2556,
+			2557
+		}
+	},
 	[241] = {
 		id = 241,
 		subtype = 1,
@@ -4630,6 +4649,23 @@ pg.base.memory_group = {
 			2515,
 			2516,
 			2517
+		}
+	},
+	[583] = {
+		id = 583,
+		subtype = 0,
+		icon = "title_chara_xiyatu",
+		type = 3,
+		link_event = 0,
+		title = "熱鬧的「環球」晚宴",
+		memories = {
+			2561,
+			2562,
+			2563,
+			2564,
+			2565,
+			2566,
+			2567
 		}
 	},
 	[587] = {

@@ -46,8 +46,7 @@ pg.activity_link_button = {
 		pic = "event_map",
 		order = 1,
 		time = {
-			"default",
-			4898
+			"default"
 		}
 	},
 	[20] = {
@@ -76,8 +75,7 @@ pg.activity_link_button = {
 		pic = "event_boss",
 		order = 1,
 		time = {
-			"default",
-			4674
+			"default"
 		}
 	},
 	[40] = {
@@ -96,13 +94,16 @@ pg.activity_link_button = {
 	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
-		time = "stop",
-		text_pic = "",
 		type = 0,
-		pic = "event_LanternFestival",
+		text_pic = "text_event_LanternFestival",
 		id = 60,
 		group_id = 7,
-		order = 1
+		pic = "event_LanternFestival",
+		order = 1,
+		time = {
+			"default",
+			5202
+		}
 	},
 	[70] = {
 		param = "0",

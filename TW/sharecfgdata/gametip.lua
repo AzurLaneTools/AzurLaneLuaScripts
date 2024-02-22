@@ -9702,7 +9702,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "英格拉罕、雷諾、庫珀、勇敢 建造追加！"
+	tip = "追风、神速 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -13394,7 +13394,7 @@ _G.pg.base.gametip.lanternRiddles_gametip = {
 第四次答對：T3防禦教材*2，100石油 
 第五次答對：T3通用改造部件*3，300物資 
 第六次答對：T3攻擊教材*2，100石油 
-第七次答對：<color=#92fc63>高級定向藍圖四期*2</color>，300物資]]
+第七次答對：<color=#92fc63>高級定向藍圖五期*2</color>，300物資]]
 		}
 	}
 }

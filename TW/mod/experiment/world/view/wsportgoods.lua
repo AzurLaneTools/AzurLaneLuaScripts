@@ -44,11 +44,11 @@ function slot0.Init(slot0)
 	slot2 = slot0.goods.item
 
 	updateDrop(slot0.rtItem, slot2)
-	setText(slot0.txName, shortenString(slot2.cfg.name, 6))
+	setText(slot0.txName, shortenString(slot2:getConfig("name"), 6))
 
 	slot3 = slot0.goods.moneyItem
 
-	GetImageSpriteFromAtlasAsync(updateDropCfg(slot3).icon, "", slot0.rtResIcon, false)
+	GetImageSpriteFromAtlasAsync(slot3:getIcon(), "", slot0.rtResIcon, false)
 	setText(slot0.rtResCount, slot3.count)
 	slot0:Update()
 end

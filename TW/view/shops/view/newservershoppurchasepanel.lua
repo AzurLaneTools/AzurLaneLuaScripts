@@ -14,8 +14,7 @@ function slot0.Show(slot0, slot1)
 	slot0.limitOnePurchase = slot1:LimitPurchaseSubGoods()
 	slot0.descTxt.text = slot0.limitOnePurchase and i18n("new_server_shop_sel_goods_tip") or ""
 
-	updateDropCfg(slot2)
-	GetImageSpriteFromAtlasAsync(slot2.cfg.icon, "", slot0.resIcon)
+	GetImageSpriteFromAtlasAsync(slot2:getConfig("icon"), "", slot0.resIcon)
 end
 
 function slot0.UpdateItem(slot0, slot1, slot2, slot3)

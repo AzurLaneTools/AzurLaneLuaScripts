@@ -1,5 +1,5 @@
 slot0 = class("SpWeapon", import(".BaseVO"))
-slot0.dropType = DROP_TYPE_SPWEAPON
+slot0.type = DROP_TYPE_SPWEAPON
 slot0.CONFIRM_OP_DISCARD = 0
 slot0.CONFIRM_OP_EXCHANGE = 1
 

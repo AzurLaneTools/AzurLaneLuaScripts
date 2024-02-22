@@ -379,7 +379,7 @@ function slot0.UpdateItemNode(slot0, slot1, slot2)
 			}
 		}))
 	end, SFX_PANEL)
-	slot1:Find("Mask/NameText"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot2[3]].name)
+	slot1:Find("Mask/NameText"):GetComponent("ScrollText"):SetText(Equipment.getConfigData(slot2[3]).name)
 	setActive(slot1:Find("cratfable"), _.any(slot0.env.tracebackHelper:GetSortedEquipTraceBack(slot2[3]), function (slot0)
 		return slot0.candicates and #slot1 > 0 and EquipmentTransformUtil.CheckTransformFormulasSucceed(slot0.formulas, slot1[#slot1])
 	end))

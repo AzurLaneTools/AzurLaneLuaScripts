@@ -78,8 +78,88 @@ pg.soundstory_template = {
 			3
 		}
 	},
+	[7] = {
+		CV_JP = "日笠 陽子",
+		audition_resource_CN = "",
+		audition_text = "作為回報……我也讓你任意挑選你喜歡的地方……盡情享用如何？",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "宴會結束後，與聖路易斯共度的微醺時光。\n從那艷麗迷人的雙唇中，所吐露的內容是……",
+		name = "獨佔你的渴望",
+		ship_id = 10213,
+		audition_resource_JP = "ss-10213-1",
+		CV_CN = "",
+		id = 7,
+		story_resource_JP = "soundStory7_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[8] = {
+		CV_JP = "中條 智世",
+		audition_resource_CN = "",
+		time = "always",
+		audition_text = "我還想多待一下……就一下下也好，我想沉浸在……我們心音共鳴的協奏曲中……",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "兩人的距離不自覺靠近，耳機的另一端所傳出的，不只是機械的雜音，還有少女朦朧的愛意。",
+		ship_id = 10205,
+		audition_resource_JP = "ss-10205-1",
+		name = "心跳協奏",
+		CV_CN = "",
+		id = 8,
+		story_resource_JP = "soundStory8_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		}
+	},
 	all = {
 		2,
-		3
+		3,
+		7,
+		8
 	}
 }

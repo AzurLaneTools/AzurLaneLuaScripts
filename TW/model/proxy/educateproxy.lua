@@ -50,6 +50,11 @@ function slot0.initData(slot0, slot1)
 	}
 	slot0.char = EducateChar.New(slot2)
 
+	slot0.eventProxy:SetUp({
+		waitTriggerEventIds = slot2.home_events,
+		needRequestHomeEvents = slot2.can_trigger_home_event == 1 or false,
+		finishSpecEventIds = slot2.spec_events
+	})
 	slot0.planProxy:SetUp({
 		history = slot2.plan_history,
 		selectedPlans = slot2.plans
@@ -57,11 +62,6 @@ function slot0.initData(slot0, slot1)
 	slot0.shopProxy:SetUp({
 		shops = slot2.shop,
 		discountEventIds = slot2.discount_event_id
-	})
-	slot0.eventProxy:SetUp({
-		waitTriggerEventIds = slot2.home_events,
-		needRequestHomeEvents = slot2.can_trigger_home_event == 1 or false,
-		finishSpecEventIds = slot2.spec_events
 	})
 	slot0.taskProxy:SetUp({
 		targetId = slot2.target,
@@ -82,6 +82,12 @@ function slot0.initData(slot0, slot1)
 	slot0:UpdateGameStatus()
 	slot0:initVirtualStage()
 	slot0:initUnlockSecretary(slot2.is_special_secretary_valid == 1)
+
+	slot0.requestDataEnd = true
+end
+
+function slot0.CheckDataRequestEnd(slot0)
+	return slot0.requestDataEnd
 end
 
 function slot0.initItems(slot0, slot1)

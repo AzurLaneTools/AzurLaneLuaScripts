@@ -482,7 +482,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不对，我怎么会突然冒出这种爱操心的老妈子一样的感慨？",
+			say = "不对，我怎么会突然冒出这种感慨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

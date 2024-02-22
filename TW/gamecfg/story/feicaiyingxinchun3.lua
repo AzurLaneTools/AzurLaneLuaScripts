@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_102",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鲟",
+			actorName = "比叡",
 			side = 2,
 			say = "我還帶了些剛做好的水饅頭過來哦。",
 			painting = {

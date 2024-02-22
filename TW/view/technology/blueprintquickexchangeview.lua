@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 			setText(slot2:Find("calc/value"), uv0.countList[slot1])
-			setScrollText(slot2:Find("name/Text"), slot3.cfg.name)
+			setScrollText(slot2:Find("name/Text"), slot3:getConfig("name"))
 			setText(slot2:Find("kc"), i18n("tec_tip_material_stock") .. ":" .. slot3.count)
 			pressPersistTrigger(slot2:Find("calc/plus"), 0.5, function (slot0)
 				if uv1.countList[uv2] < uv0.count and uv1.count + uv3 <= uv1.need then
@@ -147,12 +147,11 @@ end
 
 function slot0.UpdateBlueprint(slot0, slot1)
 	slot0.blueprintVO = slot1
-	slot7 = "name"
 
-	changeToScrollText(slot0.rtResult:Find("title/Text"), Item.New({
+	changeToScrollText(slot0.rtResult:Find("title/Text"), Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = slot1:getItemId()
-	}):getConfig(slot7))
+	}):getName())
 
 	slot0.displayList = {}
 	slot0.awardList = {}
@@ -161,12 +160,12 @@ function slot0.UpdateBlueprint(slot0, slot1)
 	for slot7, slot8 in ipairs(pg.gameset.general_blueprint_list.description) do
 		if slot3:getItemCountById(slot8) > 0 then
 			slot10 = nil
-			slot14 = DROP_TYPE_ITEM
+			slot14 = "display_icon"
 
-			for slot14, slot15 in ipairs(updateDropCfg({
-				type = slot14,
+			for slot14, slot15 in ipairs(Drop.New({
+				type = DROP_TYPE_ITEM,
 				id = slot8
-			}).display_icon) do
+			}):getConfig(slot14)) do
 				if slot15[1] == DROP_TYPE_ITEM and slot15[2] == slot2.id then
 					slot10 = {
 						index = slot14,

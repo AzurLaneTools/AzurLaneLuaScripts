@@ -284,17 +284,6 @@ function table.getIndex(slot0, slot1)
 	end
 end
 
-function table.packParams(...)
-	return {
-		len = select("#", ...),
-		...
-	}
-end
-
-function table.unpackParams(slot0)
-	return unpack(slot0, 1, slot0.len)
-end
-
 function table.map(slot0, slot1)
 	slot2 = {}
 

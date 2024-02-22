@@ -721,10 +721,10 @@ pg.voice_bgm = {
 		bgm = "theme-designshipVI"
 	},
 	SurveyPage = {
-		default_bgm = "theme-starsea-core",
+		default_bgm = "level02",
 		special_bgm = "",
 		time = "",
-		bgm = "theme-starsea-core"
+		bgm = "level02"
 	},
 	CrusingDisplayActPage = {
 		default_bgm = "blueocean-image",

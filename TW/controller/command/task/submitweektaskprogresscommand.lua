@@ -13,22 +13,9 @@ function slot0.execute(slot0, slot1)
 		id = 0
 	}, 20111, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot7 = Item.New({
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				})
-
-				table.insert(slot1, slot7)
-				uv0:sendNotification(GAME.ADD_ITEM, slot7)
-			end
-
-			uv1:Upgrade()
-			uv0:sendNotification(GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE, {
-				awards = slot1
+			uv0:Upgrade()
+			uv1:sendNotification(GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE, {
+				awards = PlayerConst.addTranDrop(slot0.award_list)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
