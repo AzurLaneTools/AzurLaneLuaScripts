@@ -266,22 +266,24 @@ function slot0.GetExchangeItems(slot0)
 	slot2, slot3, slot4, slot5 = slot0:GetExchangeData()
 	slot6 = {
 		{
-			drop = {
+			drop = Drop.New({
 				id = PlayerConst.ResOil,
 				type = DROP_TYPE_RESOURCE,
-				count = slot9.getRawData(slot10).oil
-			},
+				count = slot10
+			}),
 			cost = slot3,
 			stamina = slot2,
 			times = slot4,
 			limit = slot5
 		}
 	}
-	slot9 = getProxy(PlayerProxy)
-	slot10 = slot9
+	slot10 = getProxy(PlayerProxy)
+	slot11 = slot10
+	slot10 = slot10.getRawData(slot11).oil
 
 	for slot10, slot11 in ipairs(pg.gameset.world_supply_itemlist.description) do
-		slot12 = WorldItem.New({
+		slot12 = Drop.New({
+			type = DROP_TYPE_WORLD_ITEM,
 			id = slot11,
 			count = slot1:GetItemCount(slot11)
 		})
@@ -290,7 +292,7 @@ function slot0.GetExchangeItems(slot0)
 			cost = 1,
 			drop = slot12,
 			name = slot12:getConfig("name"),
-			stamina = slot12:getItemStaminaRecover()
+			stamina = slot12:getSubClass():getItemStaminaRecover()
 		})
 	end
 

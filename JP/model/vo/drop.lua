@@ -334,6 +334,9 @@ function slot0.InitSwitch()
 				id = slot0.id,
 				extra = slot0.count
 			})
+		end,
+		[DROP_TYPE_WORLD_ITEM] = function (slot0)
+			return WorldItem.New(slot0)
 		end
 	}
 
