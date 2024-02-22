@@ -334,6 +334,9 @@ function slot0.InitSwitch()
 				id = slot0.id,
 				extra = slot0.count
 			})
+		end,
+		[DROP_TYPE_WORLD_ITEM] = function (slot0)
+			return WorldItem.New(slot0)
 		end
 	}
 
@@ -836,7 +839,7 @@ function slot0.InitSwitch()
 			setText(slot2, slot6 or i18n("ship_drop_desc_default"))
 		end,
 		[DROP_TYPE_EQUIP] = function (slot0, slot1, slot2)
-			setText(slot1, slot2.name or slot0:getConfig("name") or "")
+			setText(slot2, slot1.name or slot0:getConfig("name") or "")
 		end,
 		[DROP_TYPE_STRATEGY] = function (slot0, slot1, slot2)
 			slot3 = slot0:getConfig("desc")

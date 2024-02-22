@@ -58,27 +58,33 @@ function slot0.execute(slot0, slot1)
 			end
 
 			slot4, slot5, slot6 = ShipCalcHelper.CalcDestoryRes(uv0)
-			slot10 = {
-				type = DROP_TYPE_RESOURCE,
-				id = slot11,
-				count = slot5
-			}
-			slot11 = PlayerConst.ResOil
+			slot7 = {}
 
-			for slot10, slot11 in ipairs(table.mergeArray({
-				Drop.New({
+			if slot4 > 0 then
+				table.insert(slot7, Drop.New({
 					type = DROP_TYPE_RESOURCE,
 					id = PlayerConst.ResGold,
 					count = slot4
-				}),
-				Drop.New(slot10)
-			}, slot6)) do
-				uv2:sendNotification(GAME.ADD_ITEM, slot11)
+				}))
+			end
+
+			if slot5 > 0 then
+				table.insert(slot7, Drop.New({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResOil,
+					count = slot5
+				}))
+			end
+
+			slot7 = table.mergeArray(slot7, slot6)
+
+			for slot11, slot12 in ipairs(slot6) do
+				uv2:sendNotification(GAME.ADD_ITEM, slot12)
 			end
 
 			uv2:sendNotification(GAME.DESTROY_SHIP_DONE, {
 				destroiedShipIds = slot3,
-				bonus = slot6,
+				bonus = slot7,
 				equipments = slot2
 			})
 		else
