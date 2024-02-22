@@ -2991,15 +2991,41 @@ pg.activity_template = {
 	},
 	[4674] = {
 		mark = 20240206,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 52,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
-		title_res_tag = "",
 		id = 4674,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		config_client = {
 			scene = "ActivityBossKuybyshevScene",
 			entrance_bg = "activitybanner/temp10",
@@ -3029,7 +3055,7 @@ pg.activity_template = {
 	},
 	[4675] = {
 		mark = 20240206,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 46,
 		login_pop = 0,
@@ -3037,8 +3063,34 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		title_res_tag = "",
-		id = 4675
+		id = 4675,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[4676] = {
 		mark = 20240206,

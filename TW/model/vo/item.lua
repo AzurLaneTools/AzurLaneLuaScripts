@@ -192,7 +192,7 @@ function slot0.GetOverflowCheckItems(slot0, slot1)
 			table.insert(slot2, {
 				type = DROP_TYPE_RESOURCE,
 				id = PlayerConst.ResGold,
-				count = slot4
+				count = slot4 * slot1
 			})
 		end
 
@@ -200,7 +200,7 @@ function slot0.GetOverflowCheckItems(slot0, slot1)
 			table.insert(slot2, {
 				type = DROP_TYPE_RESOURCE,
 				id = PlayerConst.ResOil,
-				count = slot5
+				count = slot5 * slot1
 			})
 		end
 	end

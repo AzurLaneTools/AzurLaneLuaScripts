@@ -438,11 +438,11 @@ function slot0.confirm(slot0, slot1)
 				slot7 = slot1:getConfig("sub_display")
 				slot8 = slot7[1]
 				slot9 = pg.battlepass_event_pt[slot8].pt
-				slot6 = {
+				slot6 = Drop.New({
 					type = DROP_TYPE_RESOURCE,
 					id = pg.battlepass_event_pt[slot8].pt,
 					count = slot7[2]
-				}
+				})
 				slot5 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot8].drop_client_pay, function (slot0)
 					return Drop.Create(slot0)
 				end))
