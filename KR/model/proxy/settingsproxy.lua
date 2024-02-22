@@ -124,24 +124,28 @@ function slot0.SetBgmFlag(slot0, slot1)
 end
 
 function slot0.getSkinPosSetting(slot0, slot1)
-	if PlayerPrefs.HasKey(tostring(slot1) .. "_scale") then
-		return PlayerPrefs.GetFloat(tostring(slot1) .. "_x", 0), PlayerPrefs.GetFloat(tostring(slot1) .. "_y", 0), PlayerPrefs.GetFloat(tostring(slot1) .. "_scale", 1)
+	if PlayerPrefs.HasKey(tostring(slot1:GetRecordPosKey()) .. "_scale") then
+		return PlayerPrefs.GetFloat(tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_scale", 1)
 	else
 		return nil
 	end
 end
 
 function slot0.setSkinPosSetting(slot0, slot1, slot2, slot3, slot4)
-	PlayerPrefs.SetFloat(tostring(slot1) .. "_x", slot2)
-	PlayerPrefs.SetFloat(tostring(slot1) .. "_y", slot3)
-	PlayerPrefs.SetFloat(tostring(slot1) .. "_scale", slot4)
+	slot5 = slot1:GetRecordPosKey()
+
+	PlayerPrefs.SetFloat(tostring(slot5) .. "_x", slot2)
+	PlayerPrefs.SetFloat(tostring(slot5) .. "_y", slot3)
+	PlayerPrefs.SetFloat(tostring(slot5) .. "_scale", slot4)
 	PlayerPrefs.Save()
 end
 
 function slot0.resetSkinPosSetting(slot0, slot1)
-	PlayerPrefs.DeleteKey(tostring(slot1) .. "_x")
-	PlayerPrefs.DeleteKey(tostring(slot1) .. "_y")
-	PlayerPrefs.DeleteKey(tostring(slot1) .. "_scale")
+	slot2 = slot1:GetRecordPosKey()
+
+	PlayerPrefs.DeleteKey(tostring(slot2) .. "_x")
+	PlayerPrefs.DeleteKey(tostring(slot2) .. "_y")
+	PlayerPrefs.DeleteKey(tostring(slot2) .. "_scale")
 	PlayerPrefs.Save()
 end
 
@@ -155,27 +159,21 @@ function slot0.setCharacterSetting(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getCurrentSecretaryIndex(slot0)
-	slot2, slot3 = PlayerVitaeShipsPage.GetSlotMaxCnt()
-
-	if slot3 < PlayerPrefs.GetInt("currentSecretaryIndex", 1) then
+	if PlayerVitaeShipsPage.GetAllUnlockSlotCnt() < PlayerPrefs.GetInt("currentSecretaryIndex", 1) then
 		slot0:setCurrentSecretaryIndex(1)
 
 		return 1
 	else
-		return slot1
+		return PlayerVitaeShipsPage.GetSlotIndexList()[slot1]
 	end
 end
 
 function slot0.rotateCurrentSecretaryIndex(slot0)
-	slot2, slot3 = PlayerVitaeShipsPage.GetSlotMaxCnt()
-
-	if slot3 < PlayerPrefs.GetInt("currentSecretaryIndex", 1) + 1 then
+	if PlayerVitaeShipsPage.GetAllUnlockSlotCnt() < PlayerPrefs.GetInt("currentSecretaryIndex", 1) + 1 then
 		slot1 = 1
 	end
 
 	slot0:setCurrentSecretaryIndex(slot1)
-
-	return slot1
 end
 
 function slot0.setCurrentSecretaryIndex(slot0, slot1)
@@ -711,6 +709,23 @@ function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
+function slot0.GetFlagShipDisplayMode(slot0)
+	if not slot0.flagShipDisplayMode then
+		slot0.flagShipDisplayMode = PlayerPrefs.GetInt("flag-ship-display-mode" .. getProxy(PlayerProxy):getRawData().id, FlAG_SHIP_DISPLAY_ALL)
+	end
+
+	return slot0.flagShipDisplayMode
+end
+
+function slot0.SetFlagShipDisplayMode(slot0, slot1)
+	if slot0.flagShipDisplayMode ~= slot1 then
+		slot0.flagShipDisplayMode = slot1
+
+		PlayerPrefs.SetInt("flag-ship-display-mode" .. getProxy(PlayerProxy):getRawData().id, slot1)
+		PlayerPrefs.Save()
+	end
+end
+
 function slot0.RecordContinuousOperationAutoSubStatus(slot0, slot1)
 	if slot1 then
 		return
@@ -897,6 +912,91 @@ function slot0.SwitchMainPaintingVariantFlag(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
+function slot0.IsTipDay(slot0, slot1, slot2, slot3)
+	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "educate_char_" .. slot1 .. slot2 .. slot3, 0) == 1
+end
+
+function slot0.RecordTipDay(slot0, slot1, slot2, slot3)
+	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "educate_char_" .. slot1 .. slot2 .. slot3, 1)
+	PlayerPrefs.Save()
+end
+
+function slot0.UpdateEducateCharTip(slot0, slot1)
+	slot2 = getProxy(PlayerProxy):getRawData().id
+	slot3 = getProxy(EducateProxy):GetSecretaryIDs()
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot1) do
+		slot4[slot9] = true
+	end
+
+	for slot8, slot9 in ipairs(slot3) do
+		if slot4[slot9] ~= true then
+			PlayerPrefs.SetInt(slot2 .. "educate_char_tip" .. slot9, 1)
+			PlayerPrefs.Save()
+		end
+	end
+
+	slot0:RefillEducateCharTipList()
+end
+
+function slot0.RefillEducateCharTipList(slot0)
+	slot1 = getProxy(PlayerProxy):getRawData().id
+	slot0.educateCharTipList = {}
+
+	if LOCK_EDUCATE_SYSTEM then
+		return
+	end
+
+	slot3 = ipairs
+	slot4 = getProxy(EducateProxy):GetSecretaryIDs() or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if PlayerPrefs.GetInt(slot1 .. "educate_char_tip" .. slot7, 0) == 1 then
+			table.insert(slot0.educateCharTipList, slot7)
+		end
+	end
+end
+
+function slot0.ShouldEducateCharTip(slot0)
+	if not slot0.educateCharTipList or #slot0.educateCharTipList == 0 then
+		slot0:RefillEducateCharTipList()
+	end
+
+	return #slot0.educateCharTipList > 0
+end
+
+function slot0._ShouldEducateCharTip(slot0, slot1)
+	if not slot0.educateCharTipList or #slot0.educateCharTipList == 0 then
+		slot0:RefillEducateCharTipList()
+	end
+
+	if table.contains(slot0.educateCharTipList, slot1) then
+		return true
+	end
+
+	return false
+end
+
+function slot0.ClearEducateCharTip(slot0, slot1)
+	if not slot0:_ShouldEducateCharTip(slot1) then
+		return false
+	end
+
+	table.removebyvalue(slot0.educateCharTipList, slot1)
+
+	if PlayerPrefs.HasKey(getProxy(PlayerProxy):getRawData().id .. "educate_char_tip" .. slot1) then
+		PlayerPrefs.DeleteKey(slot3)
+		PlayerPrefs.Save()
+	end
+
+	pg.m02:sendNotification(GAME.CLEAR_EDUCATE_TIP, {
+		id = slot1
+	})
+
+	return true
+end
+
 function slot0.Reset(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()
@@ -908,6 +1008,7 @@ function slot0.Reset(slot0)
 	slot0.randomFlagShipList = nil
 	slot0.prevRandomFlagShipTime = nil
 	slot0.randomFlagShipMap = nil
+	slot0.educateCharTipList = {}
 end
 
 return slot0

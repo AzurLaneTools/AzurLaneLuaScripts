@@ -941,6 +941,119 @@ pg.base.ship_skin_template_6 = {
 			}
 		}
 	},
+	[202275] = {
+		ship_group = 20227,
+		name = "윈터 디어레스트",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 70971,
+		painting = "hemin_6",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "108",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 202275,
+		voice_actor_2 = -1,
+		prefab = "hemin_6",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 저기… 해피 밸런타인입니다! 오늘 허마이오니 모습은 어떤가요? 후후, 데이트에 어울리는 분위기가 느껴지시죠?",
+		voice_actor = 242,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.098,
+					1.092,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.085,
+					1.177,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.149,
+					1.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.464,
+							2.399,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202278] = {
 		ship_group = 20227,
 		name = "아침노을의 맹세",
@@ -5341,6 +5454,125 @@ pg.base.ship_skin_template_6 = {
 						{
 							0.608,
 							0.741,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[204011] = {
+		ship_group = 20401,
+		name = "우아한 로열 프라이드",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70974,
+		painting = "shengwang_2",
+		illustrator = 11,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "175",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 204011,
+		voice_actor_2 = 183,
+		prefab = "shengwang_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "우아하고 멋진 이스트 글림 드레스인 건 맞는데, 트임이 좀…… 지휘관님? 갑자기 죄송합니다만… 이 드레스, 어떤 것 같나요?",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.015,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.908,
+					0.867,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.407,
+					0.613,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.982,
+							0.728,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.613,
+							2.259,
 							0
 						}
 					}
@@ -11712,244 +11944,6 @@ pg.base.ship_skin_template_6 = {
 							0.52,
 							2.59,
 							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206031] = {
-		ship_group = 20603,
-		name = "작은 별의 디바 ",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 0,
-		painting = "dujiaoshou_2",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 206031,
-		voice_actor_2 = -1,
-		prefab = "dujiaoshou_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "유니콘… 디바가 되었어♪ 에헤헤… 유니콘의 노래, 오빠한테 전해졌으면 좋겠다…… ",
-		voice_actor = 8,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.032,
-					1.24,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.032,
-					1.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.085,
-					0.028,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.032,
-					1.24,
-					0
-				}
-			},
-			plane = {
-				{
-					1.032,
-					1.24,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.19,
-							2.262,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[206032] = {
-		ship_group = 20603,
-		name = "봄의 선물",
-		hand_id = 15,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70045,
-		painting = "dujiaoshou_3",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "102",
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 206032,
-		voice_actor_2 = -1,
-		prefab = "dujiaoshou_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이걸…오빠한테 선물하면…마음에 들어 했으면 좋겠는…어? 이 옷을 입어준 것만으로 만족한다니…정말…오빠!",
-		voice_actor = 8,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.78,
-					1.32,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.78,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.76,
-					1.35,
-					0
-				}
-			},
-			plane = {
-				{
-					0.75,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.27,
-							0
 						}
 					}
 				}

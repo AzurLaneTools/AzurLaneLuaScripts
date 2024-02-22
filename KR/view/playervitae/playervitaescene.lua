@@ -61,6 +61,7 @@ function slot0.init(slot0)
 	slot0.btnContainer = slot0:findTF("adapt/btns")
 	slot0.switchSkinBtn = slot0:findTF("adapt/btns/swichSkin_btn")
 	slot0.replaceBtn = slot0:findTF("adapt/btns/replace_btn")
+	slot0.replaceBtnTip = slot0.replaceBtn:Find("tip")
 	slot0.cryptolaliaBtn = slot0:findTF("adapt/btns/cryptolalia_btn")
 	slot0.switchSkinBtnTag = slot0:findTF("Tag", slot0.switchSkinBtn)
 	slot0.titlt = slot0:findTF("top/frame/title")
@@ -95,6 +96,9 @@ function slot0.init(slot0)
 
 	slot0.shipsPage = PlayerVitaeShipsPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.detailPage = PlayerVitaeDetailPage.New(slot1, slot0.event, slot0.contextData)
+
+	setParent(slot0:findTF("adapt/toggleBtns"), slot0:findTF("detail"), true)
+
 	slot0.contextData.renamePage = PlayerVitaeRenamePage.New(slot0._tf, slot0.event)
 	slot0.topFrame = slot0:findTF("top/frame")
 	slot0.detailPosx = slot0._tf.rect.width * 0.5 - 937 * PlayerVitaeDetailPage.PreCalcAspect(slot1, 1080)
@@ -148,9 +152,14 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:UpdatePainting()
+	slot0:UpdateReplaceTip()
 	slot0.detailPage:ExecuteAction("Show", slot0:GetPlayer(), slot1)
 	slot0:emit(uv0.ON_PAGE_SWTICH, uv0.PAGE_DEFAULT)
 	slot0:checkShowResetL2dBtn()
+end
+
+function slot0.UpdateReplaceTip(slot0)
+	setActive(slot0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip())
 end
 
 function slot0.DoEnterAnimation(slot0)
@@ -186,40 +195,41 @@ function slot0.ShowOrHideMainView(slot0, slot1)
 
 	if slot1 then
 		slot0:UpdatePainting()
+		slot0:UpdateReplaceTip()
 	end
 end
 
-function slot0.UpdatePainting(slot0)
-	slot1 = slot0:GetFlagShip()
-	slot2 = false
-	slot3 = {}
+function slot0.UpdatePainting(slot0, slot1)
+	slot2 = slot0:GetFlagShip()
+	slot3 = false
+	slot4 = {}
 
-	for slot7, slot8 in ipairs(slot0.btns) do
-		if slot8:IsActive(slot1) then
-			table.insert(slot3, slot8)
+	for slot8, slot9 in ipairs(slot0.btns) do
+		if slot9:IsActive(slot2) then
+			table.insert(slot4, slot9)
 		end
 
-		slot8:Update(slot9, #slot3, slot1)
+		slot9:Update(slot10, #slot4, slot2)
 
-		if slot9 and not slot2 and slot8:IsOverlap(slot0.detailPosx) then
-			slot2 = true
-		end
-	end
-
-	if slot2 then
-		for slot7, slot8 in ipairs(slot3) do
-			slot8:SwitchToVecLayout()
+		if slot10 and not slot3 and slot9:IsOverlap(slot0.detailPosx) then
+			slot3 = true
 		end
 	end
 
-	if not slot0.displaySkinID or slot0.displaySkinID ~= slot1.skinId then
-		setPaintingPrefabAsync(slot0.painting, slot1:getPainting(), "kanban")
-		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot1))
-
-		slot0.displaySkinID = slot1.skinId
+	if slot3 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot9:SwitchToVecLayout()
+		end
 	end
 
-	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
+	if not slot0.displaySkinID or slot0.displaySkinID ~= slot2.skinId or slot1 then
+		setPaintingPrefabAsync(slot0.painting, slot2:getPainting(), "kanban")
+		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot2) and not isa(slot2, VirtualEducateCharShip))
+
+		slot0.displaySkinID = slot2.skinId
+	end
+
+	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot2:getGroupId()))
 	slot0:updateSwitchSkinBtnTag()
 	slot0:checkShowResetL2dBtn()
 end

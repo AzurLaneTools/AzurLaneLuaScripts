@@ -22185,7 +22185,7 @@ pg.base.furniture_data_template = {
 	},
 	[100058] = {
 		spine_extra = "",
-		describe = "不知是哪位少女的失落之物…要打开看看么？",
+		describe = "어느 소녀가 잃어버린 물건인지… 열어보시겠습니까?",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -22202,7 +22202,7 @@ pg.base.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "“遗落”的书信",
+		name = "잃어버린' 편지",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",

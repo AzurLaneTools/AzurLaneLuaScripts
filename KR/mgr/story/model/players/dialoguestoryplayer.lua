@@ -1365,6 +1365,8 @@ function slot0.OnWillExit(slot0, slot1, slot2, slot3)
 end
 
 function slot0.OnEnd(slot0)
+	slot0.conentTxt.fontSize = slot0.defualtFontSize
+
 	slot0:ClearGlitchArtForPortrait()
 	slot0:ClearCanMarkNode()
 	slot0:RecyclePainting({

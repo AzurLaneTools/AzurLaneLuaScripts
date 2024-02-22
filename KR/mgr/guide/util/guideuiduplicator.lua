@@ -85,6 +85,10 @@ function slot0.InitDuplication(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	if slot1:GetComponent(typeof(Canvas)) and slot1:GetComponent(typeof(GraphicRaycaster)) == nil then
+		GetOrAddComponent(slot1, typeof(GraphicRaycaster))
+	end
+
 	slot1.sizeDelta = slot2.sizeDelta
 end
 

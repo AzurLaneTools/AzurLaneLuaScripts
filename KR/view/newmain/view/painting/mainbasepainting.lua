@@ -31,7 +31,7 @@ function slot0.IsLoaded(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Load(slot0, slot1, slot2)
+function slot0.Load(slot0, slot1)
 	slot0.isPuase = false
 	slot0.isExited = false
 	slot0.state = uv0
@@ -41,7 +41,7 @@ function slot0.Load(slot0, slot1, slot2)
 	slot0:OnLoad(function ()
 		uv0.state = uv1
 
-		if uv2 then
+		if uv0.triggerWhenLoaded then
 			uv0:TriggerEventAtFirstTime()
 		end
 
@@ -146,6 +146,18 @@ function slot0.CheckStoryDownload(slot0, slot1, slot2)
 end
 
 function slot0.TriggerEventAtFirstTime(slot0)
+	if not slot0:IsLoaded() then
+		slot0.triggerWhenLoaded = true
+
+		return
+	end
+
+	slot0.triggerWhenLoaded = false
+
+	slot0:OnFirstTimeTriggerEvent()
+end
+
+function slot0.OnFirstTimeTriggerEvent(slot0)
 	function slot1(slot0)
 		uv0:_TriggerEvent(slot0)
 	end
@@ -211,10 +223,16 @@ function slot0.OnEndChatting(slot0)
 	slot0.chatting = false
 end
 
+function slot0.GetWordAndCv(slot0, slot1, slot2)
+	slot3, slot4, slot5, slot6, slot7, slot8 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot2)
+
+	return slot3, slot4, slot5, slot6, slot7, slot8
+end
+
 function slot0.DisplayWord(slot0, slot1)
 	slot0:OnStartChatting()
 
-	slot2, slot3, slot4, slot5, slot6, slot7 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot1)
+	slot2, slot3, slot4, slot5, slot6, slot7 = slot0:GetWordAndCv(slot0.ship, slot1)
 
 	if not slot4 or slot4 == nil or slot4 == "" or slot4 == "nil" then
 		slot0:OnEndChatting()
@@ -230,11 +248,11 @@ function slot0.DisplayWord(slot0, slot1)
 
 	slot0:AdjustChatPosition()
 	slot0:OnDisplayWorld(slot1)
-	slot0:RegistChatSkipAction(slot1)
+	slot0:RegisterChatSkipAction(slot1)
 	slot0:PlayCvAndAnimation(slot6, slot5, slot3)
 end
 
-function slot0.RegistChatSkipAction(slot0, slot1)
+function slot0.RegisterChatSkipAction(slot0, slot1)
 	removeOnButton(slot0.chatTf)
 	onButton(slot0, slot0.chatTf, function ()
 		if uv0 == "mission_complete" or uv0 == "mission" then
@@ -276,13 +294,16 @@ function slot0.PlayCvAndAnimation(slot0, slot1, slot2, slot3)
 			uv0:StartChatAnimtion(uv1, slot0)
 		end
 	}, function ()
-		uv0:TriggerNextEventAuto()
 		uv0:OnDisplayWordEnd()
 	end)
 end
 
+function slot0.OnDisplayWordEnd(slot0)
+	slot0:TriggerNextEventAuto()
+end
+
 function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
-	slot0.cvLoader:Load(slot0.ship, slot3, 0, slot4)
+	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, 0, slot4)
 end
 
 function slot0.AdjustChatPosition(slot0)
@@ -468,6 +489,7 @@ function slot0.Dispose(slot0)
 	slot0.cvLoader:Dispose()
 
 	slot0.cvLoader = nil
+	slot0.triggerWhenLoaded = false
 
 	slot0:RemoveTimer()
 	slot0:RemoveMoveTimer()
@@ -493,9 +515,6 @@ function slot0.OnTriggerEventAuto(slot0)
 end
 
 function slot0.OnDisplayWorld(slot0, slot1)
-end
-
-function slot0.OnDisplayWordEnd(slot0)
 end
 
 function slot0.OnFold(slot0, slot1)

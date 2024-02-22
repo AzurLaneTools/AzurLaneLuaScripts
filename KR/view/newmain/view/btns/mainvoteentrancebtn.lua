@@ -13,7 +13,7 @@ function slot0.OnClick(slot0)
 end
 
 function slot0.OnInit(slot0)
-	setActive(slot0._tf:Find("tip"), slot0:ShouldTipNewRace() or slot0:ShouldTipVotes() or slot0:ShouldTipAward())
+	setActive(slot0._tf:Find("tip"), slot0:ShouldTipNewRace() or slot0:ShouldTipVotes() or slot0:ShouldTipAward() or slot0:ShouldTipFinalAward())
 
 	slot2 = slot0:AnyVoteActIsOpening()
 
@@ -25,6 +25,17 @@ end
 
 function slot0.AnyVoteActIsOpening(slot0)
 	return getProxy(VoteProxy):AnyVoteActIsOpening()
+end
+
+function slot0.ShouldTipFinalAward(slot0)
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot1:isEnd() then
+		return false
+	end
+
+	slot2 = slot1:getConfig("config_client")[2] or -1
+	slot3 = getProxy(TaskProxy):getTaskById(slot2) or getProxy(TaskProxy):getFinishTaskById(slot2)
+
+	return slot3 and slot3:isFinish() and not slot3:isReceive()
 end
 
 function slot0.ShouldTipNewRace(slot0)

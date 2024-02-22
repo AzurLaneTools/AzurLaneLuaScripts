@@ -23,57 +23,60 @@ SCENE = {
 	SPRING_TOWN = "springfestival town",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
+	EDUCATE_MAP = "EDUCATE_MAP",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
-	COLLECTSHIP = "scene collect ship",
+	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
 	MUSIC_FESTIVAL = "music festival",
+	COLLECTSHIP = "scene collect ship",
 	HARBOR_BACKHILL = "HARBOR_BACKHILL",
 	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
-	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
 	SHIP_PROFILE = "ship profile",
 	SIXTH_ANNIVERSARY_JP_HOTSPRING = "SIXTH_ANNIVERSARY_JP_HOTSPRING",
-	TRANSITION = "scene transition",
+	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
 	TECHNOLOGY = "technology",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
-	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	EDUCATE_DOCK = "EDUCATE_DOCK",
 	EQUIP_CODE = "equip code",
-	SINGLE_ACTIVITY = "single activity",
-	BACKYARD_THEME_TEMPLATE = "backyard theme template",
+	TRANSITION = "scene transition",
+	SPWEAPON_STOREHOUSE = "spweapon storehouse",
 	EVENT = "scene event",
 	REFLUX = "reflux",
-	CHUZHENG = "scene chuzheng",
-	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
+	SINGLE_ACTIVITY = "single activity",
+	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
+	CHUZHENG = "scene chuzheng",
+	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
 	ACT_BOSS_SPF = "act boss spf",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	RYZA_TASK = "ryza task scene",
+	MAINUI = "scene mainUI",
 	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	FRIEND = "scene friend",
-	MAINUI = "scene mainUI",
-	RANDOM_DOCKYARD = "random dockyard",
-	HOLOLIVE_MEDAL = "hololive medal",
 	ACTIVITY = "scene activity",
 	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	BULLETINBOARD = "scene bulletinboard",
-	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
+	RANDOM_DOCKYARD = "random dockyard",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
-	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
+	HOLOLIVE_MEDAL = "hololive medal",
 	BACKYARD = "scene court yard",
-	PUBLIC_GUILD = "public guild",
+	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
+	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
+	PUBLIC_GUILD = "public guild",
 	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
-	DOALINK_ISLAND = "scene DOALink Island",
-	RESOLVESHIPS = "scene resolve ships",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	WORLD = "scene world",
+	DOALINK_ISLAND = "scene DOALink Island",
 	WORLD_FLEET_SELECT = "world fleet select",
-	SELECT_SKIN = "scene select skin",
+	RESOLVESHIPS = "scene resolve ships",
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
+	SIXTH_ANNIVERSARY_JP_DARK = "SIXTH_ANNIVERSARY_JP_DARK",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
+	WORLD = "scene world",
+	SELECT_SKIN = "scene select skin",
 	RESOLVEEQUIP = "scene resolve equip",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
@@ -103,11 +106,13 @@ SCENE = {
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	PROBABILITY_SKINSHOP = "scene probability skinshop",
 	BOSSRUSH_MAIN = "bossrush main",
+	EDUCATE_SCHEDULE = "EDUCATE_SCHEDULE",
 	SENRANKAGURA_MEDAL = "SENRANKAGURA_MEDAL",
 	GETBOAT = "scene get boat",
 	NAVALACADEMYSCENE = "naval academy scene",
 	ANNIVERSARY = "anniversary",
 	US_CASTLE_2023 = "US_CASTLE_2023",
+	EDUCATE = "EDUCATE",
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
 	LIMIT_CHALLENGE = "limit challenge",
@@ -148,7 +153,7 @@ SCENE = {
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
 	GAME_HALL = "game hall",
 	WORLDINPICTURE = "world in picture",
-	SIXTH_ANNIVERSARY_JP_DARK = "SIXTH_ANNIVERSARY_JP_DARK",
+	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	SHIPINFO = "scene shipinfo",
 	DEPOTSCENE = "scene depot scene",
 	BACKHILL_CAMPUSFESTIVAL_2022 = "BACKHILL_CAMPUSFESTIVAL_2022",
@@ -160,6 +165,14 @@ SCENE = {
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
+	[SCENE.EDUCATE_PROFILE] = function (slot0, slot1)
+		slot0.mediator = EducateCharProfileMediator
+		slot0.viewComponent = EducateCharProfileScene
+	end,
+	[SCENE.EDUCATE_DOCK] = function (slot0, slot1)
+		slot0.mediator = EducateCharDockScene
+		slot0.viewComponent = EducateCharDockMediator
+	end,
 	[SCENE.US_CASTLE_2023] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = USCastle2023Scene
@@ -772,6 +785,18 @@ slot0 = {
 	[SCENE.SPRING_FESTIVAL_BACKHILL_2024] = function (slot0, slot1)
 		slot0.mediator = SpringFestival2024Mediator
 		slot0.viewComponent = SpringFestival2024Scene
+	end,
+	[SCENE.EDUCATE] = function (slot0, slot1)
+		slot0.mediator = EducateMediator
+		slot0.viewComponent = EducateScene
+	end,
+	[SCENE.EDUCATE_SCHEDULE] = function (slot0, slot1)
+		slot0.mediator = EducateScheduleMediator
+		slot0.viewComponent = EducateScheduleScene
+	end,
+	[SCENE.EDUCATE_MAP] = function (slot0, slot1)
+		slot0.mediator = EducateMapMediator
+		slot0.viewComponent = EducateMapScene
 	end
 }
 
@@ -1017,6 +1042,9 @@ slot1 = {
 			paintingNameList = slot2,
 			finishFunc = slot1
 		})
+	end,
+	EducateMediator = function (slot0, slot1)
+		EducateHelper.ReqEducateDataCheck(slot1)
 	end
 }
 

@@ -133,6 +133,15 @@ slot1 = {
 		args = function ()
 			return {}
 		end
+	},
+	{
+		id = "tb_20",
+		condition = function ()
+			return not LOCK_EDUCATE_SYSTEM and getProxy(EducateProxy):IsUnlockSecretary()
+		end,
+		args = function ()
+			return {}
+		end
 	}
 }
 

@@ -1,6 +1,635 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[10800110] = {
+		ship_group = 1080011,
+		name = "특수 장비",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gulite_robot4",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10800110,
+		voice_actor_2 = -1,
+		prefab = "gulite_robot4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "특수 장비·효과",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					0.86,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10800120] = {
+		ship_group = 1080012,
+		name = "로그 카이젤 그리드맨 만쥬",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gulite_robot1",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10800120,
+		voice_actor_2 = -1,
+		prefab = "gulite_robot1",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "특수 장비·효과",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					0.86,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900010] = {
+		ship_group = 1090001,
+		name = "라이잘린 스타우트",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "laisha",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10900010,
+		voice_actor_2 = -1,
+		prefab = "laisha",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "안녕! 라이잘린 스타우트라고 해. 라이자라고 불러줘! 아직 함선이란게 뭔지 잘 모르겠지만…… 때가 되면 다 해결되겠지! 앞으로 잘 부탁할게!",
+		voice_actor = 348,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.02,
+					0.816,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.153,
+					1.15,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.293,
+							2.451,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900011] = {
+		ship_group = 1090001,
+		name = "밤새는 연금술사",
+		hand_id = 13,
+		bgm = "ryza-az-pv",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70768,
+		painting = "laisha_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 10900011,
+		voice_actor_2 = -1,
+		prefab = "laisha_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 어서 와! 후후, 다른 사람이랑 이렇게 밤을 새우는 건 오랜만이네. 나, 오늘 하루 동안 계속 기대하고 있었어. 그래서 우선은 뭐부터 할래?",
+		voice_actor = 348,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.02,
+					0.816,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.085,
+					1.199,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.322,
+							2.345,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900020] = {
+		ship_group = 1090002,
+		name = "클라우디아 발렌츠",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "keluodiya",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10900020,
+		voice_actor_2 = -1,
+		prefab = "keluodiya",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "안녕, 난 클라우디아 발렌츠야. 사정이 좀 있어서 오늘부터 신세를 지게 되었어. 최선을 다해 모두를 도울테니까 잘 부탁해!",
+		voice_actor = 188,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.233,
+					0.971,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.338,
+					1.422,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.157,
+							2.393,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900021] = {
+		ship_group = 1090002,
+		name = "굿나잇 전의 야화",
+		hand_id = 13,
+		bgm = "ryza-az-pv",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70769,
+		painting = "keluodiya_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "163",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 10900021,
+		voice_actor_2 = -1,
+		prefab = "keluodiya_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "후훗, 오늘도 즐거운 하루였어…. 앗, 지휘관. 좋은 아침. 지금 일기를 쓰고 있었어. 지휘관도 괜찮으면 도와주지 않을래?",
+		voice_actor = 188,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.272,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.318,
+					1.335,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.245,
+							2.296,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10900030] = {
 		ship_group = 1090003,
 		name = "파트리샤 아벨하임",
@@ -8202,6 +8831,192 @@ pg.base.ship_skin_template_20 = {
 			1990311,
 			1990312,
 			1990313
+		}
+	},
+	[199032] = {
+		ship_group = 19903,
+		name = "배와 달님",
+		l2d_se = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		special_effects = "",
+		desc = "선생님…… 앵커리지, 새로운 옷, 어때……? 선생님, 좋아…? 응, 앵커리지도 좋아!",
+		group_index = 2,
+		bg_sp = "",
+		painting = "ankeleiqi_3",
+		gyro = 0,
+		rarity_bg = "",
+		prefab = "ankeleiqi_3",
+		shop_type_id = 3,
+		main_UI_FX = "",
+		shop_id = 70970,
+		lip_smoothing = 0,
+		time = "",
+		spine_offset = "",
+		illustrator = -1,
+		bg = "152",
+		l2d_ignore_drag = 0,
+		voice_actor = 59,
+		spine_action_offset = false,
+		lip_sync_gain = 0,
+		skin_type = 0,
+		show_skin = "stand",
+		id = 199032,
+		voice_actor_2 = -1,
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			30,
+			0
+		},
+		live2d_offset_profile = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.641,
+					0.9829999,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.618,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.509,
+					1.027,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.467,
+							2.484,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			}
+		},
+		ship_l2d_id = {
+			19903201,
+			19903202,
+			19903203,
+			19903204,
+			19903205,
+			19903206,
+			19903207,
+			19903208,
+			19903209,
+			19903210,
+			19903211,
+			19903212,
+			19903213,
+			19903214,
+			19903215,
+			19903216,
+			19903217,
+			19903218,
+			19903219,
+			19903220,
+			19903221,
+			19903222,
+			19903223,
+			19903224,
+			19903225,
+			19903226,
+			19903227,
+			19903228,
+			19903229,
+			19903230,
+			19903231,
+			19903232,
+			19903233,
+			19903234,
+			19903235,
+			19903236,
+			19903237,
+			19903238,
+			19903239,
+			19903240,
+			19903241,
+			19903242,
+			19903243
+		},
+		l2d_drag_rate = {
+			0.5,
+			1,
+			1
 		}
 	},
 	[399050] = {

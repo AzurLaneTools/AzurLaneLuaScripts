@@ -1,6 +1,712 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
+	[901131] = {
+		ship_group = 90113,
+		name = "빨간 모자'의 고민",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70709,
+		painting = "buqu_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 19,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "158",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 901131,
+		voice_actor_2 = -1,
+		prefab = "buqu_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이 명예로운 호교 기사에게 무방비 상태의 소녀 배역을 시키다니…. 왜 여기서 누워 있냐고? 흥, 가녀린 느낌을 내려면 이만한 게 없다고 르 말랭이….",
+		voice_actor = 325,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.511,
+					1.041,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.233,
+					0.994,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.054,
+					0.027,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.537,
+					1.095,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.499,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901132] = {
+		ship_group = 90113,
+		name = "따끈따끈 일일 점원",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70815,
+		painting = "buqu_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "165",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 901132,
+		voice_actor_2 = -1,
+		prefab = "buqu_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "으흠… 이 정도 거리면 도보로 이동하는 게 가장 빨리 도착할 것 같군. …눈이 온다고? 흥, 비에도 바람에도 지지 않는 명예로운 호교 기사에게 겨우 눈 따위는 아무런 문제가 안 돼! 다녀오마!",
+		voice_actor = 325,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.91,
+					1.41,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.91,
+					1.35,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.054,
+					0.027,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.75,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.499,
+							2.186,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[902010] = {
+		ship_group = 90201,
+		name = "라 갈리소니에르 ",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "jialisuoniye",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 902010,
+		voice_actor_2 = -1,
+		prefab = "jialisuoniye",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "비시아 성좌 라 갈리소니에르급 경순양함—라 갈리소니에르 ",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.47,
+					1.472,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.415,
+					1.558,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.403,
+					1.497,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[902011] = {
+		ship_group = 90201,
+		name = "순결한 Piscine",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70365,
+		painting = "jialisuoniye_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "133",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 902011,
+		voice_actor_2 = -1,
+		prefab = "jialisuoniye_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "후~ 역시 여름에는 수영장이 있어야 완전하다고 할 수 있지! 어이, 거기 멍청히 서있는 지휘관, 물에 안 들어 올 거야?",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.538,
+					1.174,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.689,
+					1.174,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.628,
+					1.235,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[902012] = {
+		ship_group = 90201,
+		name = "꿈에 취한 봄날의 새벽",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70489,
+		painting = "jialisuoniye_4",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		bg = "144",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 902012,
+		voice_actor_2 = -1,
+		prefab = "jialisuoniye_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "새해 복 많이 받아, 러브샷하자~ 응? 러브샷이라고 부르는 거 아니야? 이스트 글림의 문화는 넓고 심오해서 아직 익숙하지가 않네~",
+		voice_actor = 238,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			15,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.578,
+					0.995,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.571,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.568,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.485,
+							2.461,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		}
+	},
+	[902013] = {
+		ship_group = 90201,
+		name = "검은 고양이와 호박의 밤",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70611,
+		painting = "jialisuoniye_3",
+		illustrator = -1,
+		shop_type_id = 8,
+		lip_smoothing = 0,
+		bg = "119",
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 902013,
+		voice_actor_2 = -1,
+		prefab = "jialisuoniye_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "난 마법을 쓸 줄 아는 고양이, 말을 듣지 않으면 호박으로 만들어 줄테다! 음… 핼러윈은, 이런 느낌인 건가? 됐어, 아무렴 어때, 같이 즐겁게 보내자, 지휘관.",
+		voice_actor = 238,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			45,
+			-90,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					1.174,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.099,
+					1.101,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.152,
+					1.308,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.527,
+							2.419,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
 	[902020] = {
 		ship_group = 90202,
 		name = "마르세예즈",
@@ -11132,699 +11838,6 @@ pg.base.ship_skin_template_16 = {
 				{
 					-0.863,
 					0.643,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.967,
-							0.38,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.14,
-							0.832,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900185] = {
-		ship_group = 900185,
-		name = "덴버 ",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "danfo",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900185,
-		voice_actor_2 = -1,
-		prefab = "danfo",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함 덴버 (CL-58) ",
-		voice_actor = 117,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.14,
-					1.09,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.23,
-					1.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.23,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[900186] = {
-		ship_group = 900186,
-		name = "컬럼비아",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "gelunbiya",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900186,
-		voice_actor_2 = -1,
-		prefab = "gelunbiya",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함 컬럼비아 (CL-56)",
-		voice_actor = 40,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.16,
-					1.27,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.16,
-					1.27,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.16,
-					1.27,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							0.48,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.53,
-							0.47,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900187] = {
-		ship_group = 900187,
-		name = "몬트필리어 ",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "mengbiliai",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900187,
-		voice_actor_2 = -1,
-		prefab = "mengbiliai",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함 몬트필리어 (CL-57) ",
-		voice_actor = 131,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.18,
-					1.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.11,
-					1.2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.39,
-							-0.15
-						}
-					}
-				}
-			}
-		}
-	},
-	[900188] = {
-		ship_group = 900188,
-		name = "클리블랜드",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "kelifulan",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900188,
-		voice_actor_2 = -1,
-		prefab = "kelifulan",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함·클리블랜드 (CL-55)",
-		voice_actor = 40,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.182,
-					0.695,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.269,
-					0.914,
-					0
-				},
-				{
-					0.922,
-					0.739,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.269,
-					0.914,
-					0
-				},
-				{
-					0.922,
-					0.739,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							0.48,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.53,
-							0.47,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900189] = {
-		ship_group = 900189,
-		name = "클리블랜드",
-		hand_id = 2,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "gaoxiong_dark_shadow",
-		illustrator = 21,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900189,
-		voice_actor_2 = -1,
-		prefab = "gaoxiong_alter",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함·클리블랜드 (CL-55)",
-		voice_actor = 8,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.89,
-					0.44,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.89,
-					0.44,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.23,
-					0.19,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.89,
-					0.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							0.78,
-							0.26
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.68,
-							2.55,
-							-0.44
-						}
-					}
-				}
-			}
-		}
-	},
-	[900190] = {
-		ship_group = 900190,
-		name = "엔터프라이즈",
-		hand_id = 0,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "qiye_dark_shadow",
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900190,
-		voice_actor_2 = -1,
-		prefab = "qiye_dark_shadow",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "요크타운급 항공모함·엔터프라이즈 (CV-6)",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.34,
-					0.39,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.37,
-					0.39,
 					0
 				}
 			}

@@ -60,6 +60,8 @@ pg.pay_data_display = setmetatable({
 		64,
 		65,
 		66,
+		67,
+		68,
 		1000,
 		1001,
 		1002,
@@ -6058,6 +6060,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40924,
+				1
+			}
+		}
+	},
+	[67] = {
+		subject = "신년 패키지(2024)·II",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "신년 패키지(2024)·II",
+		name_display = "신년 패키지(2024)·II",
+		type_order = 2,
+		extra_gem = 0,
+		id = 67,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai12",
+		skin_inquire_relation = 86203,
+		id_str = "alkrgift86",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2024, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond153",
+		extra_service_item = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81203,
+				1
+			}
+		}
+	},
+	[68] = {
+		subject = "신년 패키지(2023)·II 복각",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "신년 패키지(2023)·II 복각",
+		name_display = "신년 패키지(2023)·II 복각",
+		type_order = 2,
+		extra_gem = 0,
+		id = 68,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudaiqp2",
+		skin_inquire_relation = 69925,
+		id_str = "alkrgift87",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "랜덤 스킨*1, 다이아*2023 및 대량의 보상을 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond154",
+		extra_service_item = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40925,
 				1
 			}
 		}

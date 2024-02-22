@@ -176,6 +176,14 @@ pg.open_systems_limited = {
 		mediator = "LimitChallengeMediator",
 		level = 80
 	},
+	[24] = {
+		scene = "MAINUI",
+		name = "TB 육성",
+		story_id = "",
+		id = 24,
+		mediator = "EducateMediator",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -198,6 +206,7 @@ pg.open_systems_limited = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24
 	}
 }

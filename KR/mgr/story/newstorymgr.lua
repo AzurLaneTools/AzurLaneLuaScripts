@@ -239,7 +239,8 @@ function slot0.Init(slot0, slot1)
 			DialogueStoryPlayer.New(slot0),
 			BgStoryPlayer.New(slot0),
 			CarouselPlayer.New(slot0),
-			VedioStoryPlayer.New(slot0)
+			VedioStoryPlayer.New(slot0),
+			CastStoryPlayer.New(slot0)
 		}
 		uv0.setSpeedPanel = StorySetSpeedPanel.New(uv0._tf)
 		uv0.recordPanel = NewStoryRecordPanel.New()

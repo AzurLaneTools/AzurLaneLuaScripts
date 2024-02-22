@@ -176,6 +176,7 @@ pg.memory_group = setmetatable({
 		273,
 		274,
 		275,
+		276,
 		501,
 		502,
 		503,
@@ -4192,6 +4193,19 @@ pg.base.memory_group = {
 			3331,
 			3332,
 			3333
+		}
+	},
+	[276] = {
+		id = 276,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5184,
+		title = "모항 패션 컬렉션: 새봄 합본집[2]",
+		memories = {
+			3341,
+			3342,
+			3343
 		}
 	},
 	[501] = {

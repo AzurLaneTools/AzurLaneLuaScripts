@@ -2784,6 +2784,9 @@ pg.memory_template = setmetatable({
 		3331,
 		3332,
 		3333,
+		3341,
+		3342,
+		3343,
 		10000,
 		10001,
 		10002,
@@ -33455,6 +33458,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNYI3",
 		id = 3333,
 		icon = "memory_shishangtekanxinchun1",
+		is_open = 0
+	},
+	[3341] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "주각에 풍겨드는 봄 향기",
+		condition = "「모항 패션 컬렉션: 새봄 합본집[2]」 알비온 출석 완료",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER1",
+		id = 3341,
+		icon = "memory_shishangtekanxinchun2",
+		is_open = 0
+	},
+	[3342] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "봄빛의 릴랙제이션",
+		condition = "完成「港区时尚特刊：新春合集[2]」英仙座的签到",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER2",
+		id = 3342,
+		icon = "memory_shishangtekanxinchun2",
+		is_open = 0
+	},
+	[3343] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "배와 달님",
+		condition = "「모항 패션 컬렉션: 새봄 합본집[2]」 앵커리지 출석 완료",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER3",
+		id = 3343,
+		icon = "memory_shishangtekanxinchun2",
 		is_open = 0
 	},
 	[10000] = {

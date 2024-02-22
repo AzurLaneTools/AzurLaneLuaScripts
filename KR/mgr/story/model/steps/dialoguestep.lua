@@ -4,6 +4,7 @@ slot0.SIDE_RIGHT = 1
 slot0.SIDE_MIDDLE = 2
 slot0.ACTOR_TYPE_PLAYER = 0
 slot0.ACTOR_TYPE_FLAGSHIP = -1
+slot0.ACTOR_TYPE_TB = -2
 slot0.PAINTING_ACTION_MOVE = "move"
 slot0.PAINTING_ACTION_SHAKE = "shake"
 slot0.PAINTING_ACTION_ZOOM = "zoom"
@@ -41,11 +42,19 @@ function slot0.Ctor(slot0, slot1)
 		slot0.nameColor = COLOR_WHITE
 	end
 
+	slot0.specialTbId = nil
+
+	if slot1.tbActor then
+		slot0.specialTbId = slot0.actor
+		slot0.actor = uv0.ACTOR_TYPE_TB
+	end
+
 	slot0.actorName = slot1.actorName
 	slot0.subActorName = slot1.factiontag
 	slot0.subActorNameColor = slot1.factiontagColor or "#FFFFFF"
 	slot0.withoutActorName = slot1.withoutActorName
 	slot0.say = slot1.say
+	slot0.dynamicBgType = slot1.dynamicBgType
 	slot0.fontSize = slot1.fontsize
 	slot0.side = slot1.side
 	slot0.dir = slot1.dir
@@ -103,6 +112,24 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.paintRwIndex = slot1.paintRwIndex or 0
 	slot0.action = slot1.action or {}
+end
+
+function slot0.GetBgName(slot0)
+	if slot0.dynamicBgType and slot0.dynamicBgType == uv0.ACTOR_TYPE_TB and getProxy(EducateProxy) and not pg.NewStoryMgr.GetInstance():IsReView() then
+		slot1, slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
+
+		return slot0:Convert2StoryBg(slot3)
+	else
+		return uv0.super.GetBgName(slot0)
+	end
+end
+
+function slot0.Convert2StoryBg(slot0, slot1)
+	return ({
+		educate_tb_1 = "bg_project_tb_room1",
+		educate_tb_2 = "bg_project_tb_room2",
+		educate_tb_3 = "bg_project_tb_room3"
+	})[slot1] or slot1
 end
 
 function slot0.GetPaintingRwIndex(slot0)
@@ -277,11 +304,19 @@ end
 function slot0.GetContent(slot0)
 	if not slot0.say then
 		return "..."
-	elseif PLATFORM_CODE ~= PLATFORM_US then
-		return SwitchSpecialChar(HXSet.hxLan(slot0.say), true)
-	else
-		return HXSet.hxLan(slot0.say)
 	end
+
+	slot1 = slot0.say
+
+	if slot0:ShouldReplacePlayer() then
+		slot1 = slot0:ReplacePlayerName(slot1)
+	end
+
+	if slot0:ShouldReplaceTb() then
+		slot1 = slot0:ReplaceTbName(slot1)
+	end
+
+	return (PLATFORM_CODE == PLATFORM_US or SwitchSpecialChar(HXSet.hxLan(slot1), true)) and HXSet.hxLan(slot1)
 end
 
 function slot0.GetNameWithColor(slot0)
@@ -313,6 +348,14 @@ end
 function slot0.GetName(slot0)
 	if (not slot0.actorName or not slot0:GetCustomActorName()) and not slot0:GetPaintingAndName() and not "" or slot1 == "" or slot0.withoutActorName then
 		return nil
+	end
+
+	if slot0:ShouldReplacePlayer() then
+		slot1 = slot0:ReplacePlayerName(slot1)
+	end
+
+	if slot0:ShouldReplaceTb() then
+		slot1 = slot0:ReplaceTbName(slot1)
 	end
 
 	return HXSet.hxLan(slot1)
@@ -355,7 +398,7 @@ end
 function slot0.GetPaintingIcon(slot0)
 	slot1 = nil
 
-	return (slot0.actor ~= uv0.ACTOR_TYPE_FLAGSHIP or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()) and (slot0.actor ~= uv0.ACTOR_TYPE_PLAYER or nil) and (slot0.actor or nil) and uv1[slot0.actor].prefab
+	return (slot0.actor ~= uv0.ACTOR_TYPE_FLAGSHIP or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()) and (slot0.actor ~= uv0.ACTOR_TYPE_PLAYER or nil) and (slot0.actor ~= uv0.ACTOR_TYPE_TB or nil) and (slot0.actor or nil) and uv1[slot0.actor].prefab
 end
 
 function slot0.GetPaintingAndName(slot0)
@@ -368,6 +411,24 @@ function slot0.GetPaintingAndName(slot0)
 	elseif not UnGamePlayState and slot0.actor == uv0.ACTOR_TYPE_PLAYER then
 		if getProxy(PlayerProxy) then
 			slot1 = getProxy(PlayerProxy):getRawData().name
+		else
+			slot1 = ""
+		end
+	elseif not UnGamePlayState and slot0.actor == uv0.ACTOR_TYPE_TB then
+		if pg.NewStoryMgr.GetInstance():IsReView() then
+			assert(slot0.defaultTb and slot0.defaultTb > 0, "<<< defaultTb is nil >>>")
+
+			slot1 = pg.secretary_special_ship[slot0.defaultTb].name or ""
+			slot2 = slot3.prefab
+		elseif slot0.specialTbId then
+			slot3 = pg.secretary_special_ship[slot0.specialTbId]
+
+			assert(slot3)
+
+			slot1 = slot3.name or ""
+			slot2 = slot3.prefab
+		elseif EducateProxy and getProxy(EducateProxy) then
+			slot2, slot1 = getProxy(EducateProxy):GetStoryInfo()
 		else
 			slot1 = ""
 		end

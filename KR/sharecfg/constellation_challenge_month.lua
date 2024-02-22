@@ -9,6 +9,15 @@ pg.constellation_challenge_month = {
 			10024
 		}
 	},
+	[3] = {
+		id = 3,
+		constellation_icon = "Aquarius",
+		stage = {
+			10025,
+			10026,
+			10027
+		}
+	},
 	[7] = {
 		id = 7,
 		constellation_icon = "Aries",
@@ -65,6 +74,7 @@ pg.constellation_challenge_month = {
 	},
 	all = {
 		2,
+		3,
 		7,
 		8,
 		9,
