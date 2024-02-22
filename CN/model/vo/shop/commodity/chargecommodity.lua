@@ -122,11 +122,11 @@ function slot0.GetExtraDrop(slot0)
 		slot2 = slot0:getConfig("sub_display")
 		slot3 = slot2[1]
 		slot4 = pg.battlepass_event_pt[slot3].pt
-		slot1 = {
+		slot1 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = pg.battlepass_event_pt[slot3].pt,
 			count = slot2[2]
-		}
+		})
 	end
 
 	return slot1
