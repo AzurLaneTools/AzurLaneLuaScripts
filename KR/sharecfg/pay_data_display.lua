@@ -6065,13 +6065,13 @@ pg.base.pay_data_display = {
 		}
 	},
 	[67] = {
-		subject = "신년 패키지(2024)·II",
+		subject = "2024 춘절 복주머니·II ",
 		limit_group = 0,
 		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
 		type = 1,
 		limit_arg = 1,
-		name = "신년 패키지(2024)·II",
-		name_display = "신년 패키지(2024)·II",
+		name = "2024 춘절 복주머니·II ",
+		name_display = "2024 춘절 복주머니·II ",
 		type_order = 2,
 		extra_gem = 0,
 		id = 67,
@@ -6178,13 +6178,13 @@ pg.base.pay_data_display = {
 		}
 	},
 	[68] = {
-		subject = "신년 패키지(2023)·II 복각",
+		subject = "2023 춘절 복주머니·II 복각",
 		limit_group = 0,
 		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
 		type = 1,
 		limit_arg = 1,
-		name = "신년 패키지(2023)·II 복각",
-		name_display = "신년 패키지(2023)·II 복각",
+		name = "2023 춘절 복주머니·II 복각",
+		name_display = "2023 춘절 복주머니·II 복각",
 		type_order = 2,
 		extra_gem = 0,
 		id = 68,
