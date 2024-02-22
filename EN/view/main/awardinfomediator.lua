@@ -8,7 +8,7 @@ function slot0.register(slot0)
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
 				data = {
-					equipmentId = slot1.cfg.id,
+					equipmentId = slot1:getConfig("id"),
 					type = EquipmentInfoMediator.TYPE_DISPLAY,
 					onRemoved = slot2,
 					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
@@ -19,7 +19,7 @@ function slot0.register(slot0)
 				mediator = SpWeaponInfoMediator,
 				viewComponent = SpWeaponInfoLayer,
 				data = {
-					spWeaponConfigId = slot1.cfg.id,
+					spWeaponConfigId = slot1:getConfig("id"),
 					type = SpWeaponInfoLayer.TYPE_DISPLAY,
 					onRemoved = slot2,
 					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER

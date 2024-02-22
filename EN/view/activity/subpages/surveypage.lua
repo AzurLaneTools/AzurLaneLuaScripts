@@ -26,40 +26,9 @@ function slot0.OnInit(slot0)
 		slot0.isDone = slot0.actProxy:isSurveyDone()
 	end
 
-	slot1 = {
-		x = -249.1,
-		y = -232.7
-	}
-	slot2 = {
-		x = -249.1,
-		y = -245
-	}
-
-	if PLATFORM_CODE == PLATFORM_CH then
-		if getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_ANDROID then
-			if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI then
-				setActive(slot0.bg, true)
-				setActive(slot0.bguo, false)
-				setActive(slot0.goBtn, true)
-				setLocalPosition(slot0.awardTF, slot1)
-			else
-				setActive(slot0.bg, false)
-				setActive(slot0.bguo, true)
-				setActive(slot0.goBtn, false)
-				setLocalPosition(slot0.awardTF, slot2)
-			end
-		elseif slot3 == PLATFORM_IPHONEPLAYER then
-			setActive(slot0.bg, true)
-			setActive(slot0.bguo, false)
-			setActive(slot0.goBtn, true)
-			setLocalPosition(slot0.awardTF, slot1)
-		end
-	else
-		setActive(slot0.bg, true)
-		setActive(slot0.bguo, false)
-		setActive(slot0.goBtn, true)
-		setLocalPosition(slot0.awardTF, slot1)
-	end
+	setActive(slot0.bg, true)
+	setActive(slot0.bguo, false)
+	setActive(slot0.goBtn, true)
 end
 
 function slot0.OnFirstFlush(slot0)

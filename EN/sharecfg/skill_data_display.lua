@@ -2004,6 +2004,8 @@ pg.skill_data_display = setmetatable({
 		24052,
 		24111,
 		24112,
+		24113,
+		24114,
 		24121,
 		24122,
 		24151,
@@ -10914,6 +10916,14 @@ pg.base.skill_data_display = {
 	[24112] = {
 		id = 24112,
 		name = "All Out Assault Ⅱ"
+	},
+	[24113] = {
+		id = 24113,
+		name = "All Out Assault III"
+	},
+	[24114] = {
+		id = 24114,
+		name = "All Out Assault IV"
 	},
 	[24121] = {
 		id = 24121,

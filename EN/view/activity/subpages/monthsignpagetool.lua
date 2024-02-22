@@ -42,7 +42,7 @@ function slot0.onAcheve(slot0, slot1, slot2)
 			coroutine.yield()
 
 			slot5 = _.filter(uv0, function (slot0)
-				return slot0.type == DROP_TYPE_NPC_SHIP
+				return slot0.type == DROP_TYPE_OPERATION
 			end)
 			slot7 = getProxy(BayProxy):getNewShip(true)
 

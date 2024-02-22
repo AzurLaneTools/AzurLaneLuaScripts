@@ -34,26 +34,8 @@ end
 function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 
-	slot3 = nil
-	slot4 = 0
-
-	if slot1:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
-		slot3 = Item.New({
-			id = id2ItemId(slot2[2]),
-			type = DROP_TYPE_ITEM,
-			count = slot2[3]
-		})
-		slot4 = slot1:getResById(slot2[2])
-	elseif slot2[1] == DROP_TYPE_ITEM then
-		slot3 = Item.New({
-			id = slot2[2],
-			type = DROP_TYPE_ITEM,
-			count = slot2[3]
-		})
-		slot4 = getProxy(BagProxy):getItemCountById(slot2[2])
-	end
-
-	slot0.content.text = i18n("player_name_change_windows_tip", slot3:getConfig("name"), slot4 .. "/" .. slot2[3])
+	slot2 = Drop.Create(slot1:getModifyNameComsume())
+	slot0.content.text = i18n("player_name_change_windows_tip", slot2:getName(), slot2:getOwnedCount() .. "/" .. slot2.count)
 end
 
 function slot0.OnDestroy(slot0)

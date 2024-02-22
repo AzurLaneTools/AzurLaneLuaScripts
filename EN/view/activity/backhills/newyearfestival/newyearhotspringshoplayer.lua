@@ -148,10 +148,10 @@ function slot0.CheckRes(slot0, slot1, slot2)
 		return false
 	end
 
-	if GetOwnedDropCount({
+	if Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}) < slot1:getConfig("resource_num") * slot2 then
+	}):getOwnedCount() < slot1:getConfig("resource_num") * slot2 then
 		slot0:DisplayChat({
 			"hotspring_shop_insufficient"
 		})
@@ -178,13 +178,10 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = {
+	slot0:Purchase(slot1, 1, Drop.New({
 		id = slot1:getConfig("commodity_id"),
 		type = slot1:getConfig("commodity_type")
-	}
-
-	updateDropCfg(slot3)
-	slot0:Purchase(slot1, 1, slot3.cfg.name, slot2)
+	}):getConfig("name"), slot2)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)

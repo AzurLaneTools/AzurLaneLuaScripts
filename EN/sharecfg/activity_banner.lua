@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					6
+					22
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					21
+					28
 				},
 				{
 					23,
@@ -36,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "5211",
 		id = 2,
 		pic = "temp1",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2024,
-					1,
-					30
+					2,
+					22
 				},
 				{
 					0,
@@ -61,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					21
+					3,
+					20
 				},
 				{
 					23,
@@ -73,19 +68,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "5210",
 		id = 3,
 		pic = "temp4",
-		type = 2,
-		param = {
-			"EDUCATE",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2024,
 					2,
-					6
+					22
 				},
 				{
 					0,
@@ -96,8 +88,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					21
+					3,
+					20
 				},
 				{
 					23,
@@ -108,59 +100,29 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "7102",
+		time = "stop",
+		type = 3,
 		id = 4,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp6"
 	},
 	{
 		id = 5,
-		pic = "temp5",
+		pic = "temp7",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2024,
-					1,
-					30
+					2,
+					22
 				},
 				{
 					0,
@@ -171,8 +133,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					21
+					3,
+					6
 				},
 				{
 					23,
@@ -185,71 +147,21 @@ pg.activity_banner = {
 	{
 		id = 6,
 		pic = "temp9",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		id = 7,
 		pic = "temp8",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -272,7 +184,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					6
+					22
 				},
 				{
 					0,
@@ -284,7 +196,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					21
+					28
 				},
 				{
 					23,
@@ -310,35 +222,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2024,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -362,7 +249,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					21
+					28
 				},
 				{
 					23,
@@ -394,7 +281,7 @@ pg.activity_banner = {
 				{
 					2024,
 					2,
-					21
+					28
 				},
 				{
 					23,
@@ -414,13 +301,15 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
-			3,
-			4,
 			5,
 			6,
 			7,
 			8
+		},
+		[3] = {
+			2,
+			3,
+			4
 		},
 		[9] = {
 			90,

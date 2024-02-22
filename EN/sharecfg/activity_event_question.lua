@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[43] = {
-		answer_right = "Heavy Cruiser",
-		answer_false1 = "Light Cruiser",
-		question = "\"CA\" is an abbreviation for what ship type?",
+	[57] = {
+		answer_right = "Rise bombing",
+		answer_false1 = "Skip bombing",
+		question = "Which of the following is not a bombing technique used by bomber planes?",
 		type = 1,
-		id = 43,
-		answer_false3 = "Battlecruiser",
+		id = 57,
+		answer_false3 = "Level bombing",
 		wrong_time = 30,
-		answer_false2 = "Aircraft Carrier"
+		answer_false2 = "Dive bombing"
 	},
-	[44] = {
-		answer_right = "Damage Control",
-		answer_false1 = "Fire Control",
-		question = "Which of the following refers to emergency measures and actions taken to prevent or limit damage to a ship?",
+	[58] = {
+		answer_right = "To show the distance to the target",
+		answer_false1 = "To show a gun's reload time",
+		question = "What is the role of a fire-control system?",
 		type = 1,
-		id = 44,
-		answer_false3 = "First Aid",
+		id = 58,
+		answer_false3 = "To show the time for onboard meals",
 		wrong_time = 30,
-		answer_false2 = "Damage Avoidance"
+		answer_false2 = "To show the current time"
 	},
-	[45] = {
-		answer_right = "305mm",
-		answer_false1 = "203mm",
-		question = "What is the largest caliber of naval gun equipped on a submarine?",
+	[59] = {
+		answer_right = "Argus",
+		answer_false1 = "Langley",
+		question = "Which was the world's first aircraft carrier to feature a full-length flight deck?",
 		type = 1,
-		id = 45,
-		answer_false3 = "105mm",
+		id = 59,
+		answer_false3 = "Bogue",
 		wrong_time = 30,
-		answer_false2 = "152mm"
+		answer_false2 = "Chen Hai"
 	},
-	[46] = {
-		answer_right = "Thermodynamic",
-		answer_false1 = "Electronic",
-		question = "What is the propulsion power classification of the Type 93 Pure Oxygen Torpedo?",
+	[60] = {
+		answer_right = "He 178",
+		answer_false1 = "Me 262",
+		question = "Which was the world's first jet aircraft?",
 		type = 1,
-		id = 46,
-		answer_false3 = "Mechanical",
+		id = 60,
+		answer_false3 = "MiG-9",
 		wrong_time = 30,
-		answer_false2 = "Aerosol"
+		answer_false2 = "F9F"
 	},
-	[47] = {
-		answer_right = "Engine Order Telegraph",
-		answer_false1 = "Ship Bell",
-		question = "What is the name of the equipment that relays information between the bridge and the engine room?",
+	[61] = {
+		answer_right = "24",
+		answer_false1 = "28",
+		question = "How many Essex-class aircraft carriers were completed?",
 		type = 1,
-		id = 47,
-		answer_false3 = "Shortwave Radio",
+		id = 61,
+		answer_false3 = "25",
 		wrong_time = 30,
-		answer_false2 = "Voice Tube"
+		answer_false2 = "17"
 	},
-	[48] = {
-		answer_right = "1922",
-		answer_false1 = "1919",
-		question = "When was the first carrier built as a pure aircraft carrier completed?",
+	[62] = {
+		answer_right = "Personnel Baskets",
+		answer_false1 = "Paragliders",
+		question = "What is the equipment that is used to transfer personnel between warships at sea?",
 		type = 1,
-		id = 48,
-		answer_false3 = "1920",
+		id = 62,
+		answer_false3 = "Torpedo tubes",
 		wrong_time = 30,
-		answer_false2 = "1924"
+		answer_false2 = "Bomb racks"
 	},
-	[49] = {
-		answer_right = "Diving Shell",
-		answer_false1 = "Mine Effect",
-		question = "Which of the following refers to the phenomenon in which a shell enters and travels to strike its target's torpedo belt beneath the waterline?",
+	[63] = {
+		answer_right = "Ice cream",
+		answer_false1 = "Pumpkin soup",
+		question = "What food can be made in an airborne single-seat aircraft?",
 		type = 1,
-		id = 49,
-		answer_false3 = "Anti-Bulge Shell",
+		id = 63,
+		answer_false3 = "Apple pie",
 		wrong_time = 30,
-		answer_false2 = "Bouncing Shell"
+		answer_false2 = "Steak"
 	},
-	[50] = {
-		answer_right = "102000",
-		answer_false1 = "40000",
-		question = "What is the maximum limit of Snacks the Dormitory can hold?",
+	[64] = {
+		answer_right = "9",
+		answer_false1 = "7",
+		question = "What is the maximum AP cost of using the Request Recon order in Operation Siren?",
 		type = 2,
-		id = 50,
-		answer_false3 = "80000",
+		id = 64,
+		answer_false3 = "10",
 		wrong_time = 30,
-		answer_false2 = "No Limit"
+		answer_false2 = "8"
 	},
-	[51] = {
-		answer_right = "Destroyers",
-		answer_false1 = "Submarines",
-		question = "Which of the following ship types will receive one of three special buff effects upon reaching Max Limit Break?",
+	[65] = {
+		answer_right = "5000",
+		answer_false1 = "4000",
+		question = "Excluding events, how many Specialized Cores can you get every month?",
 		type = 2,
-		id = 51,
-		answer_false3 = "Main Fleet Ships",
+		id = 65,
+		answer_false3 = "2000",
 		wrong_time = 30,
-		answer_false2 = "Repair Ships"
+		answer_false2 = "3000"
 	},
-	[52] = {
-		answer_right = "Medium Armor",
-		answer_false1 = "Heavy Armor",
-		question = "Which type of armor type do SAP guns deal the most damage to?",
+	[66] = {
+		answer_right = "Circular Defense",
+		answer_false1 = "Double Line Advance",
+		question = "What is the name of the formation that boosts your AA during a sortie?",
 		type = 2,
-		id = 52,
-		answer_false3 = "Sirens",
+		id = 66,
+		answer_false3 = "Funnel Assault",
 		wrong_time = 30,
-		answer_false2 = "Light Armor"
+		answer_false2 = "Single Line Assault"
 	},
-	[53] = {
-		answer_right = "37",
-		answer_false1 = "35",
-		question = "What is the maximum number of Missions that can be accepted each week in Operation Siren?",
+	[67] = {
+		answer_right = "The Warrior's Prowess",
+		answer_false1 = "Sparkling Mic",
+		question = "What is the name of Warspite's retrofit item?",
 		type = 2,
-		id = 53,
-		answer_false3 = "39",
+		id = 67,
+		answer_false3 = "Queen's Orders",
 		wrong_time = 30,
-		answer_false2 = "42"
+		answer_false2 = "Eau de Barbecue"
 	},
-	[54] = {
-		answer_right = "Cooldown Reduction",
-		answer_false1 = "Increased AoE",
-		question = "Leveling up Augment Modules' Slash Attack will NOT grant which of the following effects?",
+	[68] = {
+		answer_right = "Equipping Augment Modules",
+		answer_false1 = "Increasing a shipgirls's rarity",
+		question = "Which of the following does not affect your Oil cost on a sortie?",
 		type = 2,
-		id = 54,
-		answer_false3 = "Improved bullet-clearing",
+		id = 68,
+		answer_false3 = "Limit Breaking",
 		wrong_time = 30,
-		answer_false2 = "Increased DMG"
+		answer_false2 = "Increasing a shipgirls's level"
 	},
-	[55] = {
-		answer_right = "1400",
-		answer_false1 = "200",
-		question = "What is the maximum limit of Coordinate Data that can be held in Dossier Analysis?",
+	[69] = {
+		answer_right = "TB",
+		answer_false1 = "TC",
+		question = "What is the name of the AI assistant in Operation Siren?",
 		type = 2,
-		id = 55,
-		answer_false3 = "700",
+		id = 69,
+		answer_false3 = "TD",
 		wrong_time = 30,
-		answer_false2 = "100"
+		answer_false2 = "TP"
 	},
-	[56] = {
-		answer_right = "Reach 100% Clear Progress",
-		answer_false1 = "Obtain a 3-star rating",
-		question = "Which condition unlocks the Oil Cost Limit feature in Main Campaign stages?",
+	[70] = {
+		answer_right = "Provide air support during battle",
+		answer_false1 = "Increase your Recon value",
+		question = "What does the Support Fleet feature in the main story mode do?",
 		type = 2,
-		id = 56,
-		answer_false3 = "Defeat all enemies on the map",
+		id = 70,
+		answer_false3 = "Increase your HP",
 		wrong_time = 30,
-		answer_false2 = "Reduce the Threat Level to Safe"
+		answer_false2 = "Increase your Airspace Control"
 	},
 	all = {
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70
 	}
 }

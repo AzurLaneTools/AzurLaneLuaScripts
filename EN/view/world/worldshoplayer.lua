@@ -130,10 +130,10 @@ end
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
-	GetImageSpriteFromAtlasAsync(getDropIcon({
+	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = WorldConst.ResourceID
-	}), "", slot0.rtRes:Find("icon"), true)
+	}):getIcon(), "", slot0.rtRes:Find("icon"), true)
 	setText(slot0.rtRes:Find("number"), slot0.player:getResource(WorldConst.ResourceID))
 end
 

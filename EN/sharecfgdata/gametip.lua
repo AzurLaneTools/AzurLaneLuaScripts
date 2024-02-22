@@ -4473,7 +4473,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/7/23 to 3/6/24</color>, challenge Kirov META
+From <color=#92fc63>12/7/23 to 3/13/24</color>, challenge Kirov META
 to earn Sync Points. Sync Points can be used
 to obtain the limited character, <color=#92fc63>Kirov META</color> as well
 as other great rewards.
@@ -10292,11 +10292,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "New Jersey, Shinano, Prinz Heinrich and others added to standard build pool!"
+	tip = "Sovetskaya Belorussiya, Tallinn, and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Kuybyshev added to standard build pool!"
+	tip = "Kirov, Gremyashchy, Murmansk, and others added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -27782,4 +27782,8 @@ _G.pg.base.gametip.child_shop_price_title = {
 
 _G.pg.base.gametip.child_callname_tip = {
 	tip = "Please enter your name"
+}
+
+_G.pg.base.gametip.child_plan_no_cost = {
+	tip = "- No Cost -"
 }

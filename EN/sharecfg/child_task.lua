@@ -6289,7 +6289,7 @@ pg.child_task = {
 	},
 	[4066] = {
 		arg = 2500,
-		name = "Raise Knowledge to 2400",
+		name = "Raise Knowledge to 2500",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -6318,7 +6318,7 @@ pg.child_task = {
 	},
 	[4067] = {
 		arg = 4000,
-		name = "Raise Knowledge to 2400",
+		name = "Raise Knowledge to 4000",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -7193,7 +7193,7 @@ pg.child_task = {
 	},
 	[4109] = {
 		arg = 10,
-		name = "Complete Activity - Intermediate Acting - 10 times",
+		name = "Complete Activity - Advanced Acting - 10 times",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -7222,7 +7222,7 @@ pg.child_task = {
 	},
 	[4110] = {
 		arg = 10,
-		name = "Complete Activity - Intermediate Theater Actor 10 times",
+		name = "Complete Activity - Expert Theater Actor 10 times",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,

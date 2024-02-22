@@ -60,11 +60,7 @@ function slot0.GetDropList(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot2, {
-			type = slot7[1],
-			id = slot7[2],
-			count = slot7[3]
-		})
+		table.insert(slot2, Drop.Create(slot7))
 	end
 
 	return slot2
@@ -73,26 +69,18 @@ end
 function slot0.GetExtraServiceItem(slot0)
 	slot1 = {}
 	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].drop_client_pay, function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
+		return Drop.Create(slot0)
 	end))) and underscore.map(slot0:getConfig("extra_service_item"), function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
+		return Drop.Create(slot0)
 	end)
 	slot2 = slot0:GetGemCnt()
 
 	if not slot0:isMonthCard() and slot2 > 0 then
-		table.insert(slot1, {
-			id = 4,
-			type = 1,
+		table.insert(slot1, Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
 			count = slot2
-		})
+		}))
 	end
 
 	return slot1
@@ -134,11 +122,11 @@ function slot0.GetExtraDrop(slot0)
 		slot2 = slot0:getConfig("sub_display")
 		slot3 = slot2[1]
 		slot4 = pg.battlepass_event_pt[slot3].pt
-		slot1 = {
+		slot1 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = pg.battlepass_event_pt[slot3].pt,
 			count = slot2[2]
-		}
+		})
 	end
 
 	return slot1

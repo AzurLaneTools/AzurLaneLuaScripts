@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 		type = 0
 	}, 22010, function (slot0)
 		if slot0.result == 0 then
-			slot3 = Item.New({
+			slot3 = Drop.New({
 				type = DROP_TYPE_ITEM,
 				id = uv0:GetResourceType(),
 				count = uv1

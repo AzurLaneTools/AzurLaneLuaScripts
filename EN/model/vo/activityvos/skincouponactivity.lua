@@ -58,12 +58,12 @@ function slot0.GetEquivalentRes(slot0)
 		return nil
 	end
 
-	slot1 = {
+	slot1 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.dataConfig.change_resource_type,
-		count = slot0.dataConfig.change_resource_num,
-		name = updateDropCfg(slot1).name
-	}
+		count = slot0.dataConfig.change_resource_num
+	})
+	slot1.name = slot1:getName()
 end
 
 function slot0.GetLimitCnt(slot0)

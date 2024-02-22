@@ -183,7 +183,7 @@ function slot0.updatePanel(slot0)
 			onButton(slot0, slot0.detailItem, function ()
 			end, SFX_PANEL)
 
-			slot15, slot16 = contentWrap(slot4.cfg.name, 10, 2)
+			slot15, slot16 = contentWrap(slot4:getConfig("name"), 10, 2)
 
 			if slot15 then
 				slot16 = slot16 .. "..."
@@ -206,7 +206,7 @@ function slot0.updatePanel(slot0)
 		for slot18 = 1, #slot6 do
 			updateDrop(slot0.detailItemList:GetChild(slot18 - 1), slot6[slot18])
 
-			slot20, slot21 = contentWrap(slot6[slot18].cfg.name, 8, 2)
+			slot20, slot21 = contentWrap(slot6[slot18]:getConfig("name"), 8, 2)
 
 			if slot20 then
 				slot21 = slot21 .. "..."

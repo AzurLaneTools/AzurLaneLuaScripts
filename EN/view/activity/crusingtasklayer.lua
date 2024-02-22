@@ -137,10 +137,10 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:updatePhaseInfo()
-	LoadImageSpriteAtlasAsync(getDropIcon({
+	LoadImageSpriteAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.ptId
-	}), "", slot0.sliderPt:Find("icon"), true)
+	}):getIcon(), "", slot0.sliderPt:Find("icon"), true)
 	onButton(slot0, slot0.itemQuick, function ()
 		uv0:emit(uv1.ON_DROP, {
 			count = 1,
@@ -148,10 +148,10 @@ function slot0.didEnter(slot0)
 			id = Item.QUICK_TASK_PASS_TICKET_ID
 		})
 	end, SFX_PANEL)
-	LoadImageSpriteAtlasAsync(getDropIcon({
+	LoadImageSpriteAtlasAsync(Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = Item.QUICK_TASK_PASS_TICKET_ID
-	}), "", slot0.itemQuick:Find("icon"), true)
+	}):getIcon(), "", slot0.itemQuick:Find("icon"), true)
 	onButton(slot0, slot0.itemQuick:Find("plus"), function ()
 		shoppingBatch(61017, {
 			id = Item.QUICK_TASK_PASS_TICKET_ID

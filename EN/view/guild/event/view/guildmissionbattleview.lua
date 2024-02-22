@@ -571,7 +571,7 @@ function slot0.onWeaponUpdate(slot0)
 			slot1()
 			slot0:MakeWeapon(slot0.weaponIds)
 		elseif slot0.weaponIds[1] then
-			slot0:MakeBuff(pg.equip_data_statistics[slot2].skill_id[1])
+			slot0:MakeBuff(Equipment.getConfigData(slot2).skill_id[1])
 		end
 	end
 end
@@ -659,7 +659,7 @@ function slot0.MakeWeapon(slot0, slot1)
 	slot3 = ys.Battle.BattleConst
 
 	for slot7, slot8 in ipairs(slot1) do
-		for slot13, slot14 in ipairs(pg.equip_data_statistics[slot8].weapon_id) do
+		for slot13, slot14 in ipairs(Equipment.getConfigData(slot8).weapon_id) do
 			if slot14 <= 0 then
 				break
 			end

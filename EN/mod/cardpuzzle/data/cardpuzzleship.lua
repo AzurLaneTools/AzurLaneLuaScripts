@@ -100,7 +100,7 @@ function slot0.getActiveEquipments(slot0)
 	for slot5 = #Clone(slot0.equipments), 1, -1 do
 		if slot1[slot5] then
 			for slot10 = 1, slot5 - 1 do
-				if slot1[slot10] and slot6.config.equip_limit ~= 0 and slot11.config.equip_limit == slot6.config.equip_limit then
+				if slot1[slot10] and slot6:getConfig("equip_limit") ~= 0 and slot11:getConfig("equip_limit") == slot6:getConfig("equip_limit") then
 					slot1[slot5] = false
 				end
 			end
@@ -281,7 +281,7 @@ function slot0.GetEquipmentSkills(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
-		if slot7 and slot7.config.skill_id[1] then
+		if slot7 and slot7:getConfig("skill_id")[1] then
 			slot1[slot8] = {
 				level = 1,
 				id = slot8

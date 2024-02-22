@@ -7535,6 +7535,13 @@ pg.painting_filte_map = {
 			"painting/linghangyuan1_4"
 		}
 	},
+	linghangyuan1_5 = {
+		key = "linghangyuan1_5",
+		res_list = {
+			"painting/linghangyuan1_5_tex",
+			"painting/linghangyuan1_5"
+		}
+	},
 	linghangyuan1_6 = {
 		key = "linghangyuan1_6",
 		res_list = {
@@ -7568,6 +7575,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/linghangyuan2_4_tex",
 			"painting/linghangyuan2_4"
+		}
+	},
+	linghangyuan2_5 = {
+		key = "linghangyuan2_5",
+		res_list = {
+			"painting/linghangyuan2_5_tex",
+			"painting/linghangyuan2_5"
 		}
 	},
 	linghangyuan31_1 = {
@@ -9148,6 +9162,17 @@ pg.painting_filte_map = {
 			"painting/ninghai_7"
 		}
 	},
+	ninghai_8 = {
+		key = "ninghai_8",
+		res_list = {
+			"painting/ninghai_8_tex",
+			"painting/ninghai_8_rw_tex",
+			"painting/ninghai_8_n_tex",
+			"painting/ninghai_8_n",
+			"painting/ninghai_8_bj_tex",
+			"painting/ninghai_8"
+		}
+	},
 	ninghai_g = {
 		key = "ninghai_g",
 		res_list = {
@@ -9462,6 +9487,16 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/pinghai_7_tex",
 			"painting/pinghai_7"
+		}
+	},
+	pinghai_8 = {
+		key = "pinghai_8",
+		res_list = {
+			"painting/pinghai_8_tex",
+			"painting/pinghai_8_rw_tex",
+			"painting/pinghai_8_n_tex",
+			"painting/pinghai_8_n",
+			"painting/pinghai_8"
 		}
 	},
 	pinghai_g = {
@@ -16555,11 +16590,13 @@ pg.painting_filte_map = {
 		"linghangyuan1_2",
 		"linghangyuan1_3",
 		"linghangyuan1_4",
+		"linghangyuan1_5",
 		"linghangyuan1_6",
 		"linghangyuan2_1",
 		"linghangyuan2_2",
 		"linghangyuan2_3",
 		"linghangyuan2_4",
+		"linghangyuan2_5",
 		"linghangyuan31_1",
 		"linghangyuan31_2",
 		"linghangyuan32_1",
@@ -16754,6 +16791,7 @@ pg.painting_filte_map = {
 		"ninghai_5",
 		"ninghai_6",
 		"ninghai_7",
+		"ninghai_8",
 		"ninghai_g",
 		"ninghai_memory",
 		"niukasier",
@@ -16796,6 +16834,7 @@ pg.painting_filte_map = {
 		"pinghai_5",
 		"pinghai_6",
 		"pinghai_7",
+		"pinghai_8",
 		"pinghai_g",
 		"pinghai_memory",
 		"pubo",

@@ -43,10 +43,10 @@ function slot0.execute(slot0, slot1)
 		count = slot3
 	}, 63205, function (slot0)
 		if slot0.result == 0 then
-			uv0:sendNotification(GAME.CONSUME_ITEM, Item.New({
+			uv0:sendNotification(GAME.CONSUME_ITEM, Drop.New({
+				type = DROP_TYPE_ITEM,
 				count = uv1,
-				id = uv2,
-				type = DROP_TYPE_ITEM
+				id = uv2
 			}))
 			uv3:addExp(uv3:getItemExp() * uv1)
 

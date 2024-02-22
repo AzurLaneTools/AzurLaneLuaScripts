@@ -22,7 +22,8 @@ pg.activity_task_permanent = setmetatable({
 		6017,
 		6018,
 		6019,
-		6020
+		6020,
+		6021
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -525,6 +526,32 @@ pg.base.activity_task_permanent = {
 			35255,
 			35256,
 			35257
+		}
+	},
+	[6021] = {
+		gametip = "Get an outfit for Nagara!",
+		banner_route = "permanent_changliang",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6021,
+		activity_name = "Spring Breeze Leisure",
+		over_task_id = "",
+		eliminate_task_id = {
+			35258,
+			35259,
+			35260,
+			35261,
+			35262,
+			35263,
+			35264,
+			35265,
+			35266,
+			35267,
+			35268,
+			35269,
+			35270,
+			35271
 		}
 	}
 }

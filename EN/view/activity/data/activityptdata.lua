@@ -99,11 +99,11 @@ end
 function slot0.GetAward(slot0)
 	slot1 = slot0.dropList[slot0:getTargetLevel()]
 
-	return {
+	return Drop.New({
 		type = slot1[1],
 		id = slot1[2],
 		count = slot1[3]
-	}
+	})
 end
 
 function slot0.GetResItemId(slot0)

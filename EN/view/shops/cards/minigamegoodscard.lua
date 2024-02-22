@@ -93,7 +93,7 @@ function slot0.update(slot0, slot1)
 	slot3 = slot1:GetDropInfo()
 
 	updateDrop(slot0.itemTF, slot3)
-	setText(slot0.nameTxt, shortenString(slot3.cfg.name or "", 6))
+	setText(slot0.nameTxt, shortenString(slot3:getConfig("name") or "", 6))
 
 	slot5 = ""
 

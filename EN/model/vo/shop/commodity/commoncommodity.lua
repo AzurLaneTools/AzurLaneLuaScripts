@@ -91,7 +91,7 @@ function slot0.GetBasePrice(slot0)
 end
 
 function slot0.GetName(slot0)
-	return updateDropCfg(slot0:getDropInfo()).name
+	return slot0:getDropInfo():getName()
 end
 
 function slot0.GetResType(slot0)
@@ -181,44 +181,75 @@ function slot0.getSkinId(slot0)
 end
 
 function slot0.getDropInfo(slot0)
-	slot1 = nil
-
-	return (slot0:getConfig("effect_args") ~= "ship_bag_size" or {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = Goods.SHIP_BAG_SIZE_ITEM
-	}) and (slot2 ~= "equip_bag_size" or {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = Goods.EQUIP_BAG_SIZE_ITEM
-	}) and (slot2 ~= "commander_bag_size" or {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = Goods.COMMANDER_BAG_SIZE_ITEM
-	}) and (slot2 ~= "spweapon_bag_size" or {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = Goods.SPWEAPON_BAG_SIZE_ITEM
-	}) and (slot0:getConfig("genre") ~= ShopArgs.WorldCollection or {
-		type = DROP_TYPE_WORLD_ITEM,
-		id = slot2[1],
-		count = slot0:getConfig("num")
-	}) and {
-		type = slot0:getConfig("type"),
-		id = slot2[1],
-		count = slot0:getConfig("num")
-	}
+	return Drop.New(switch(slot0:getConfig("effect_args"), {
+		ship_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.SHIP_BAG_SIZE_ITEM
+			}
+		end,
+		equip_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.EQUIP_BAG_SIZE_ITEM
+			}
+		end,
+		commander_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.COMMANDER_BAG_SIZE_ITEM
+			}
+		end,
+		spweapon_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.SPWEAPON_BAG_SIZE_ITEM
+			}
+		end,
+		ship_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.SHIP_BAG_SIZE_ITEM
+			}
+		end,
+		ship_bag_size = function ()
+			return {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = Goods.SHIP_BAG_SIZE_ITEM
+			}
+		end
+	}, function ()
+		if uv0:getConfig("genre") == ShopArgs.WorldCollection then
+			return {
+				type = DROP_TYPE_WORLD_ITEM,
+				id = uv0:getConfig("effect_args")[1],
+				count = uv0:getConfig("num")
+			}
+		else
+			return {
+				type = uv0:getConfig("type"),
+				id = uv0:getConfig("effect_args")[1],
+				count = uv0:getConfig("num")
+			}
+		end
+	end))
 end
 
 function slot0.GetDropList(slot0)
 	slot1 = {}
 
 	if type(Item.getConfigData(slot0:getConfig("effect_args")[1]).display_icon) == "table" then
-		for slot7, slot8 in ipairs(slot3) do
+		for slot6, slot7 in ipairs(slot2) do
 			table.insert(slot1, {
-				type = slot8[1],
-				id = slot8[2],
-				count = slot8[3]
+				type = slot7[1],
+				id = slot7[2],
+				count = slot7[3]
 			})
 		end
 	end

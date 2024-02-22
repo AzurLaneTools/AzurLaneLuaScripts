@@ -156,7 +156,7 @@ function slot0.UpdateActivityDrop(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("icon_bg/frame"), false)
 	setActive(slot1:Find("icon_bg/stars"), false)
 
-	slot4 = slot2.cfg.rarity
+	slot4 = slot2:getConfig("rarity")
 
 	if slot2.type == DROP_TYPE_EQUIP or slot2.type == DROP_TYPE_EQUIPMENT_SKIN then
 		slot4 = slot4 - 1

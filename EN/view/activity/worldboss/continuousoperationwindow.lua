@@ -59,10 +59,10 @@ function slot0.didEnter(slot0)
 		uv0:UpdateContent()
 	end, SFX_PANEL, SFX_CANCEL)
 
-	slot6 = LoadSprite(getDropIcon({
+	slot6 = LoadSprite(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = pg.activity_event_worldboss[slot0.activity:getConfig("config_id")].ticket
-	}), "")
+	}):getIcon(), "")
 
 	slot0.consumeText:AddSprite("ticket", slot6)
 	setImageSprite(slot0.panel:Find("ticket/Text/Icon"), slot6)

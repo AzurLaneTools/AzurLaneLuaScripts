@@ -319,6 +319,7 @@ pg.skill_data_template = setmetatable({
 		60490,
 		60500,
 		60510,
+		60520,
 		7000,
 		9010,
 		9020,
@@ -2120,6 +2121,8 @@ pg.skill_data_template = setmetatable({
 		1012620,
 		1011940,
 		1012160,
+		1010480,
+		1010490,
 		1090010,
 		1090020,
 		1090030,
@@ -11898,6 +11901,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "When equipped by Huan Ch'ang: 15s after the battle starts, throws a fishing tackle forward, creating a special area that lasts 10s. Ships within this area take 5.0% less DMG from the enemy.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60520] = {
+		desc_get = "",
+		name = "Cross Brooch",
+		id = 60520,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Vanguard ship: if your Flagship is a Vichya Dominion BB or BC, when your Flagship fires her Main Guns: fires an additional special barrage.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -136476,6 +136493,218 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"20.0%"
+				}
+			}
+		}
+	},
+	[1010480] = {
+		desc_get = "",
+		name = "Sisterly Bond+",
+		id = 1010480,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's Main Gun efficiency by $1. Upgrades this ship's All Out Assault skill to level III and decreases its shot requirement to 4. When sortied with Ping Hai: increases this ship's FP by $1. When sortied with Yat Sen and while this ship is not in the rearmost position of your Vanguard: increases this ship's DMG dealt by $2 and upgrades her All Out Assault skill to level IV, but decreases her Evasion Rate by 10.0%",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1010490] = {
+		desc_get = "",
+		name = "Sisterly Bond+",
+		id = 1010490,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's Main Gun efficiency by $1. Upgrades this ship's All Out Assault skill to level III and decreases its shot requirement to 4. When sortied with Ning Hai: increases this ship's FP by $1. When sortied with Yat Sen and while this ship is not in the frontmost position of your Vanguard: increases this ship's DMG dealt by $2 and upgrades her All Out Assault skill to level IV, but decreases her Evasion Rate by 10.0%",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
 				}
 			}
 		}

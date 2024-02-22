@@ -44,7 +44,7 @@ function slot0.OnLoaded(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.showList[slot1]
 
-			GetImageSpriteFromAtlasAsync(getDropIcon(slot3), "", slot2:Find("icon"))
+			GetImageSpriteFromAtlasAsync(slot3:getIcon(), "", slot2:Find("icon"))
 			setText(slot2:Find("Text"), "X" .. slot3.count)
 		end
 	end)
@@ -98,16 +98,16 @@ end
 function slot0.RefreshRes(slot0)
 	slot1, slot2, slot3 = uv0.CalcShipsReturnRes(slot0.shipIds, slot0.shipVOs)
 
-	table.insert(slot3, 1, {
-		id = 2,
-		type = 1,
+	table.insert(slot3, 1, Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResOil,
 		count = slot2
-	})
-	table.insert(slot3, 1, {
-		id = 1,
-		type = 1,
+	}))
+	table.insert(slot3, 1, Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResGold,
 		count = slot1
-	})
+	}))
 
 	slot0.showList = underscore.filter(slot3, function (slot0)
 		return slot0.count > 0

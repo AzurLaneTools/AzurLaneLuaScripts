@@ -23,10 +23,6 @@ function slot0.register(slot0)
 		slot0.viewComponent.fromEquipmentView = true
 	end
 
-	slot3 = getProxy(BagProxy)
-	slot4 = slot0.viewComponent
-
-	slot4:setRevertItem(slot3:getItemById(Item.REVERT_EQUIPMENT_ID))
 	slot0:bind(uv0.ON_DESTROY, function (slot0, slot1)
 		uv0:sendNotification(GAME.DESTROY_EQUIPMENTS, {
 			equipments = {
@@ -138,16 +134,16 @@ function slot0.register(slot0)
 	if slot0.contextData.equipment then
 		slot0.viewComponent:setEquipment(slot0.contextData.equipment)
 	else
-		slot6 = getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or slot5 and slot5 > 0 and Equipment.New({
-			id = slot5
+		slot5 = getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or slot4 and slot4 > 0 and Equipment.New({
+			id = slot4
 		}) or nil
 
-		slot0.viewComponent:setEquipment(slot6)
+		slot0.viewComponent:setEquipment(slot5)
 	end
 
-	slot4 = getProxy(BayProxy)
+	slot3 = getProxy(BayProxy)
 
-	slot0.viewComponent:setShip(slot0.contextData.shipVO or slot4:getShipById(slot0.contextData.shipId), slot0.contextData.oldShipId and slot4:getShipById(slot0.contextData.oldShipId) or nil)
+	slot0.viewComponent:setShip(slot0.contextData.shipVO or slot3:getShipById(slot0.contextData.shipId), slot0.contextData.oldShipId and slot3:getShipById(slot0.contextData.oldShipId) or nil)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 

@@ -9,8 +9,8 @@ function slot0.execute(slot0, slot1)
 
 	slot4 = slot3.moneyItem
 
-	if GetOwnedDropCount(slot4) < slot4.count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", updateDropCfg(slot4).name))
+	if slot4:getOwnedCount() < slot4.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot4:getName()))
 
 		return
 	end

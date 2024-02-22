@@ -706,7 +706,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
 	elseif slot2 == uv0.ON_TRACKING or slot2 == uv0.ON_ELITE_TRACKING or slot2 == uv0.ON_RETRACKING then
-		slot0.viewComponent:emit(slot2, table.unpackParams(slot3))
+		slot0.viewComponent:emit(slot2, unpackEx(slot3))
 	elseif slot2 == GAME.TRACKING_DONE then
 		slot0.waitingTracking = nil
 		slot4 = slot0.viewComponent

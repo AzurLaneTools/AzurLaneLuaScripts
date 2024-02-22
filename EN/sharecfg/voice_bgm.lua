@@ -721,10 +721,10 @@ pg.voice_bgm = {
 		bgm = "theme-designshipVI"
 	},
 	SurveyPage = {
-		default_bgm = "theme-starsea-core",
+		default_bgm = "level02",
 		special_bgm = "",
 		time = "",
-		bgm = "theme-starsea-core"
+		bgm = "level02"
 	},
 	CrusingDisplayActPage = {
 		default_bgm = "blueocean-image",
@@ -1324,5 +1324,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "Main-chunjie4-2"
+	},
+	LanternFestivalView = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		time = "",
+		bgm = "story-china"
+	},
+	ChkalovTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-designshipVI"
+	},
+	MaoxiV4FramePage = {
+		default_bgm = "story-richang-sooth",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-sooth"
+	},
+	MaoxiV4TaskPage = {
+		default_bgm = "story-richang-sooth",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-sooth"
 	}
 }

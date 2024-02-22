@@ -233,11 +233,11 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 
 		updateEquipment(slot0:findTF("IconTpl", slot5), slot2)
 
-		slot16 = slot2.config.name
+		slot16 = slot2:getConfig("name")
 
-		if slot2.config.ammo_icon[1] then
+		if slot2:getConfig("ammo_icon")[1] then
 			setActive(findTF(slot5, "cont/icon_ammo"), true)
-			setImageSprite(findTF(slot5, "cont/icon_ammo"), GetSpriteFromAtlas("ammo", slot2.config.ammo_icon[1]))
+			setImageSprite(findTF(slot5, "cont/icon_ammo"), GetSpriteFromAtlas("ammo", slot2:getConfig("ammo_icon")[1]))
 		else
 			setActive(findTF(slot5, "cont/icon_ammo"), false)
 		end
@@ -250,7 +250,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 		slot18 = underscore.filter(slot2:GetPropertiesInfo().attrs, function (slot0)
 			return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 		end)
-		slot20 = slot2.config.skill_id[1] and slot2:isDevice() and {
+		slot20 = slot2:getConfig("skill_id")[1] and slot2:isDevice() and {
 			1,
 			2,
 			5
@@ -364,7 +364,7 @@ function slot0.equipmentCheck(slot0, slot1)
 		slot8 = #slot7
 
 		while slot8 > 0 do
-			if not slot7[slot8] or not table.contains(slot2, slot9.config.type) then
+			if not slot7[slot8] or not table.contains(slot2, slot9:getConfig("type")) then
 				table.remove(slot7, slot8)
 			end
 
@@ -380,7 +380,7 @@ function slot0.equipmentCheck(slot0, slot1)
 				slot10 = 1
 
 				for slot14, slot15 in ipairs(slot4) do
-					if not table.contains(slot9.config.label, slot15) then
+					if not table.contains(slot9:getConfig("label"), slot15) then
 						slot10 = slot10 * 0
 					end
 				end
@@ -401,7 +401,7 @@ end
 
 function slot0.equipmentEnhance(slot0, slot1)
 	slot2 = 1
-	slot3 = slot1.config.label
+	slot3 = slot1:getConfig("label")
 
 	if slot0.label then
 		slot2 = 1

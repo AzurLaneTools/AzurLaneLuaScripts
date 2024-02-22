@@ -26,79 +26,65 @@ function slot0.execute(slot0, slot1)
 			slot1 = getProxy(EquipmentProxy)
 			slot2 = {}
 			slot3 = {}
-			slot4, slot5, slot6 = ShipCalcHelper.CalcDestoryRes(uv0)
 
-			for slot10, slot11 in ipairs(uv0) do
-				uv1:removeShip(slot11)
+			for slot7, slot8 in ipairs(uv0) do
+				uv1:removeShip(slot8)
 
-				for slot15, slot16 in ipairs(slot11.equipments) do
-					if slot16 then
-						slot1:addEquipment(slot16)
+				for slot12, slot13 in ipairs(slot8.equipments) do
+					if slot13 then
+						slot1:addEquipment(slot13)
 
-						if not slot2[slot16.id] then
-							slot2[slot16.id] = slot16:clone()
+						if not slot2[slot13.id] then
+							slot2[slot13.id] = slot13:clone()
 						else
-							slot2[slot16.id].count = slot2[slot16.id].count + 1
+							slot2[slot13.id].count = slot2[slot13.id].count + 1
 						end
 					end
 
-					if slot11:getEquipSkin(slot15) ~= 0 then
-						slot1:addEquipmentSkin(slot11:getEquipSkin(slot15), 1)
-						slot11:updateEquipmentSkin(slot15, 0)
+					if slot8:getEquipSkin(slot12) ~= 0 then
+						slot1:addEquipmentSkin(slot8:getEquipSkin(slot12), 1)
+						slot8:updateEquipmentSkin(slot12, 0)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 					end
 				end
 
-				if slot11:GetSpWeapon() then
-					slot11:UpdateSpWeapon(nil)
-					slot1:AddSpWeapon(slot12)
+				if slot8:GetSpWeapon() then
+					slot8:UpdateSpWeapon(nil)
+					slot1:AddSpWeapon(slot9)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_unload"))
 				end
 
-				table.insert(slot3, slot11.id)
+				table.insert(slot3, slot8.id)
 			end
 
-			getProxy(PlayerProxy):getData():addResources({
-				gold = slot4,
-				oil = slot5
-			})
+			slot4, slot5, slot6 = ShipCalcHelper.CalcDestoryRes(uv0)
+			slot7 = {}
 
-			slot9 = {
-				{
-					id = 1,
+			if slot4 > 0 then
+				table.insert(slot7, Drop.New({
 					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResGold,
 					count = slot4
-				}
-			}
+				}))
+			end
 
 			if slot5 > 0 then
-				table.insert(slot9, {
-					id = 2,
+				table.insert(slot7, Drop.New({
 					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResOil,
 					count = slot5
-				})
+				}))
 			end
 
-			slot7:updatePlayer(slot8)
+			slot7 = table.mergeArray(slot7, slot6)
 
-			for slot13, slot14 in ipairs(slot6) do
-				if slot14.count > 0 then
-					table.insert(slot9, {
-						type = slot14.type,
-						id = slot14.id,
-						count = slot14.count
-					})
-					uv2:sendNotification(GAME.ADD_ITEM, Item.New({
-						type = slot14.type,
-						id = slot14.id,
-						count = slot14.count
-					}))
-				end
+			for slot11, slot12 in ipairs(slot6) do
+				uv2:sendNotification(GAME.ADD_ITEM, slot12)
 			end
 
 			uv2:sendNotification(GAME.DESTROY_SHIP_DONE, {
 				destroiedShipIds = slot3,
-				bonus = slot9,
+				bonus = slot7,
 				equipments = slot2
 			})
 		else

@@ -21,13 +21,14 @@ end
 function slot0.GetSameTypeInEquips(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.data
+	slot4 = Equipment.getConfigData(slot1)
 
-	while slot1 ~= nil do
-		if slot3[slot1] then
-			table.insertto(slot2, slot3[slot1])
+	while slot4 do
+		if slot3[slot4.id] then
+			table.insertto(slot2, slot3[slot4.id])
 		end
 
-		slot1 = pg.equip_data_template[slot1] and pg.equip_data_template[slot1].next
+		slot4 = slot4.next and Equipment.getConfigData(slot4.next)
 	end
 
 	return slot2

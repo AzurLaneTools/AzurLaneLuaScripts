@@ -838,11 +838,7 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 		if slot0.data1 < slot8 then
 			break
 		elseif not slot3[slot8] then
-			table.insert(slot2, {
-				type = slot1.drop_client[slot7][1],
-				id = slot1.drop_client[slot7][2],
-				count = slot1.drop_client[slot7][3]
-			})
+			table.insert(slot2, Drop.Create(slot1.drop_client[slot7]))
 		end
 	end
 
@@ -860,11 +856,7 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 		if slot0.data1 < slot9 then
 			break
 		elseif not slot4[slot9] then
-			table.insert(slot2, {
-				type = slot1.drop_client_pay[slot8][1],
-				id = slot1.drop_client_pay[slot8][2],
-				count = slot1.drop_client_pay[slot8][3]
-			})
+			table.insert(slot2, Drop.Create(slot1.drop_client_pay[slot8]))
 		end
 	end
 

@@ -194,10 +194,10 @@ function slot0.BindEvent(slot0)
 									end,
 									btnType = pg.MsgboxMgr.BUTTON_BLUE_WITH_ICON,
 									iconName = {
-										getDropIcon({
+										Drop.New({
 											type = DROP_TYPE_RESOURCE,
 											id = uv0.contextData.TicketID or 1
-										})
+										}):getIcon()
 									}
 								}
 							},

@@ -274,7 +274,7 @@ function slot0.InitEvent(slot0)
 			setActive(findTF(tf(slot1), "IconTpl"), false)
 			onButton(uv0, tf(slot1), function ()
 				slot1 = uv0:GetShipVO()
-				slot3 = slot1:getEquip(uv0.selectedEquip.index).config.name
+				slot3 = slot1:getEquip(uv0.selectedEquip.index):getConfig("name")
 				slot4 = slot1:getName()
 
 				uv0:emit(ShipMainMediator.UNEQUIP_FROM_SHIP, {

@@ -183,7 +183,7 @@ function slot0.doOpenBox(slot0)
 		slot9 = slot7.effect_arg
 
 		slot4:achievedStrategy(slot8, slot9)
-		table.insert(slot1, Item.New({
+		table.insert(slot1, Drop.New({
 			type = DROP_TYPE_STRATEGY,
 			id = slot8,
 			count = slot9
@@ -482,7 +482,7 @@ function slot0.AddBoxAction(slot0)
 	assert(slot5, "box_data_template not exist: " .. slot4.attachmentId)
 
 	if slot5.type == ChapterConst.BoxStrategy then
-		table.insert(slot0.items, Item.New({
+		table.insert(slot0.items, Drop.New({
 			type = DROP_TYPE_STRATEGY,
 			id = slot5.effect_id,
 			count = slot5.effect_arg

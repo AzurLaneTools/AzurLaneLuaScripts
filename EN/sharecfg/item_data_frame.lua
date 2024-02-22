@@ -432,6 +432,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"The heaven that covers all, the causality that replicates the world. Cross the line in the sand and let the eternal truth be impressed upon all.\"</color>\nObtained from the \"Light-Chasing Sea of Stars\" event.",
 		scene = {}
 	},
+	[329] = {
+		time_limit_type = 0,
+		name = "Star of the Snowrealm",
+		gain_by = "",
+		id = 329,
+		time_second = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -661,6 +670,7 @@ pg.item_data_frame = {
 		326,
 		327,
 		328,
+		329,
 		406,
 		411,
 		412,

@@ -71,7 +71,7 @@ function slot0.register(slot0)
 			}
 
 			for slot5 = 1, 5 do
-				slot7 = Item.New({
+				slot7 = Drop.New({
 					count = 1,
 					type = slot5 % 2 == 0 and DROP_TYPE_ICON_FRAME or DROP_TYPE_CHAT_FRAME,
 					id = slot1[math.random(1, 4)]
@@ -81,10 +81,10 @@ function slot0.register(slot0)
 				table.insert(slot0, slot7)
 			end
 
-			table.insert(slot0, Item.New({
-				id = 1,
+			table.insert(slot0, Drop.New({
 				count = 1000,
-				type = 1
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResGold
 			}))
 			uv0:sendNotification(GAME.ACT_NEW_PT_DONE, {
 				awards = slot0

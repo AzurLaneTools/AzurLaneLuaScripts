@@ -310,15 +310,14 @@ end
 
 function slot0.UpdateTicket(slot0)
 	if getProxy(ActivityProxy):getBuildFreeActivityByBuildId(slot0.pool.id) and not slot2:isEnd() then
-		slot3 = {
+		slot3 = Drop.New({
 			type = DROP_TYPE_VITEM,
 			id = slot2:getConfig("config_client")[1],
-			count = slot2.data1,
-			cfg = updateDropCfg(slot3)
-		}
+			count = slot2.data1
+		})
 
 		setActive(slot0.freeCount:Find("tip"), slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and slot3.count > 0)
-		LoadImageSpriteAtlasAsync(slot3.cfg.icon, "", slot0.freeCount:Find("icon"))
+		LoadImageSpriteAtlasAsync(slot3:getConfig("icon"), "", slot0.freeCount:Find("icon"))
 		setText(slot0.ticketTF, slot2.data1)
 		onButton(slot0, slot0.freeCount, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
@@ -326,8 +325,8 @@ function slot0.UpdateTicket(slot0)
 
 		slot5 = slot0:findTF("gallery/item_bg/ticket")
 
-		LoadImageSpriteAtlasAsync(slot3.cfg.icon, "", slot5:Find("icon"))
-		setText(slot5:Find("name"), slot3.cfg.name)
+		LoadImageSpriteAtlasAsync(slot3:getConfig("icon"), "", slot5:Find("icon"))
+		setText(slot5:Find("name"), slot3:getConfig("name"))
 		setText(slot5:Find("tip"), i18n("build_ticket_description"))
 	end
 

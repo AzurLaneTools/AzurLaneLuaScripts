@@ -60,6 +60,17 @@ function slot0.findUI(slot0)
 	slot0.archivePanel = EducateArchivePanel.New(slot0:findTF("ui/archive_panel"), slot0.event)
 
 	slot0.archivePanel:Load()
+
+	slot0.detailPanel = EducateSiteDetailPanel.New(slot0:findTF("ui/detail_panel"), slot0.event, {
+		onEnter = function ()
+			uv0:MoveTargetPanelLeft()
+		end,
+		onExit = function ()
+			uv0:MoveTargetPanelRight()
+		end
+	})
+
+	slot0.detailPanel:Load()
 end
 
 function slot0.addListener(slot0)
@@ -155,7 +166,7 @@ function slot0.updateSiteItem(slot0, slot1, slot2)
 		y = slot3.coordinate[2]
 	})
 	onButton(slot0, slot2, function ()
-		uv0:emit(EducateMapMediator.ON_OPEN_SITE_DETAIL, uv1.id)
+		uv0.detailPanel:Show(uv1.id)
 	end, SFX_PANEL)
 end
 
@@ -196,6 +207,22 @@ function slot0.MoveTargetPanelRight(slot0)
 	slot0.targetPanel:SetPosRight()
 end
 
+function slot0.ShowSpecEvent(slot0, slot1, slot2, slot3, slot4)
+	slot0.detailPanel:showSpecEvent(slot1, slot2, slot3, slot4)
+end
+
+function slot0.ShowSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0.detailPanel:showSitePerform(slot1, slot2, slot3, slot4, slot5)
+end
+
+function slot0.onBackPressed(slot0)
+	if slot0.detailPanel:isShowing() then
+		slot0.detailPanel:onClose()
+	else
+		slot0:emit(uv0.ON_BACK_PRESSED)
+	end
+end
+
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topTF, slot0:findTF("ui"))
 	slot0.datePanel:Destroy()
@@ -217,6 +244,10 @@ function slot0.willExit(slot0)
 	slot0.archivePanel:Destroy()
 
 	slot0.archivePanel = nil
+
+	slot0.detailPanel:Destroy()
+
+	slot0.detailPanel = nil
 end
 
 return slot0

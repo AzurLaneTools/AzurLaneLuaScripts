@@ -9866,7 +9866,7 @@ pg.activity_template = {
 				{
 					2024,
 					2,
-					26
+					28
 				},
 				{
 					23,
@@ -9932,7 +9932,7 @@ pg.activity_template = {
 				{
 					2024,
 					2,
-					26
+					28
 				},
 				{
 					23,
@@ -10074,7 +10074,7 @@ pg.activity_template = {
 				{
 					2024,
 					2,
-					29
+					28
 				},
 				{
 					23,
@@ -10914,6 +10914,268 @@ pg.activity_template = {
 					2024,
 					2,
 					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5202] = {
+		mark = 20240222,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 54,
+		is_show = 0,
+		id = 5202,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			miniGame = 64
+		}
+	},
+	[5210] = {
+		mark = 20240222,
+		id = 5210,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 37,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChkalovTecCatchupPage",
+			ui_name = "ChkalovTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42044
+		}
+	},
+	[5211] = {
+		mark = 20240222,
+		config_client = "",
+		title_res_tag = "activity",
+		type = 87,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 39,
+		id = 5211,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4FramePage",
+			ui_name = "MaoxiV4FramePage"
+		}
+	},
+	[5212] = {
+		mark = 20240222,
+		id = 5212,
+		title_res_tag = "xiangshanerxing",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 38,
+		config_data = {
+			{
+				19787,
+				19788
+			},
+			{
+				19789,
+				19790
+			},
+			{
+				19791,
+				19792
+			},
+			{
+				19793,
+				19794
+			},
+			{
+				19795,
+				19796
+			},
+			{
+				19797,
+				19798
+			},
+			{
+				19799,
+				19800
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4TaskPage",
+			ui_name = "MaoxiV4TaskPage"
+		},
+		config_client = {
+			firstStory = "XIANGSHANERXING1",
+			story = {
+				{
+					"XIANGSHANERXING2"
+				},
+				{
+					"XIANGSHANERXING3"
+				},
+				{
+					"XIANGSHANERXING4"
+				},
+				{
+					"XIANGSHANERXING5"
+				},
+				{
+					"XIANGSHANERXING6"
+				},
+				{
+					"XIANGSHANERXING7"
+				},
+				{
+					"XIANGSHANERXING8"
+				}
+			}
+		}
+	},
+	[5213] = {
+		mark = 20240222,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 28,
+		is_show = 0,
+		config_client = "",
+		id = 5213,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					2,
+					28
 				},
 				{
 					23,
@@ -14722,6 +14984,51 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ManChaoSkinPage",
 			ui_name = "ManChaoSkinPermanentPage"
+		}
+	},
+	[6021] = {
+		mark = 20240222,
+		title_res_tag = "changliang_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6021,
+		config_data = {
+			{
+				35258,
+				35259
+			},
+			{
+				35260,
+				35261
+			},
+			{
+				35262,
+				35263
+			},
+			{
+				35264,
+				35265
+			},
+			{
+				35266,
+				35267
+			},
+			{
+				35268,
+				35269
+			},
+			{
+				35270,
+				35271
+			}
+		},
+		page_info = {
+			class_name = "NagaraSkinPage",
+			ui_name = "NagaraSkinPermanentPage"
 		}
 	},
 	[100001] = {
@@ -34994,6 +35301,11 @@ pg.activity_template = {
 		5196,
 		5200,
 		5201,
+		5202,
+		5210,
+		5211,
+		5212,
+		5213,
 		7011,
 		7012,
 		7013,
@@ -35066,6 +35378,7 @@ pg.activity_template = {
 		6018,
 		6019,
 		6020,
+		6021,
 		100001,
 		100003,
 		100004,

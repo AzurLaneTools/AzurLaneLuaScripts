@@ -635,7 +635,7 @@ end
 
 function slot0.writeDrops(slot0, slot1)
 	_.each(slot1, function (slot0)
-		if slot0.dropType == DROP_TYPE_SHIP and not table.contains(uv0.dropShipIdList, slot0.id) then
+		if slot0.type == DROP_TYPE_SHIP and not table.contains(uv0.dropShipIdList, slot0.id) then
 			table.insert(uv0.dropShipIdList, slot0.id)
 		end
 	end)

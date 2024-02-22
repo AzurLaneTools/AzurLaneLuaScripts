@@ -190,9 +190,9 @@ function slot0.getAllAttachment(slot0)
 
 	_.each(slot0:getMailAttachments(), function (slot0)
 		_.each(slot0.attachments or {}, function (slot0)
-			if slot0.dropType == DROP_TYPE_LOVE_LETTER then
+			if slot0.type == DROP_TYPE_LOVE_LETTER then
 				table.insert(uv0, slot0)
-			elseif uv1[slot0.dropType .. "_" .. slot0.id] then
+			elseif uv1[slot0.type .. "_" .. slot0.id] then
 				uv1[slot1].count = uv1[slot1].count + slot0.count
 			else
 				uv1[slot1] = slot0

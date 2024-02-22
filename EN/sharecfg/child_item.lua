@@ -1199,7 +1199,7 @@ pg.child_item = {
 		name = "Growth Goal Completion Award – 1",
 		type = 4,
 		is_show = 1,
-		desc = "An award for completing a growth goal.\nMood+10 Money+60 Sensitivity+20 ",
+		desc = "An award for completing a growth goal.\nMood+10 Money+60 Charisma+20",
 		usage = "usage_drop",
 		usage_arg = "[703]",
 		id = 203,
@@ -1207,7 +1207,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				20
 			},
 			{
@@ -1227,7 +1227,7 @@ pg.child_item = {
 		name = "Growth Goal Completion Award – 1",
 		type = 4,
 		is_show = 1,
-		desc = "An award for completing a growth goal.\nMood+10 Money+60 Charisma+20",
+		desc = "An award for completing a growth goal.\nMood+10 Money+60 Sensitivity+20",
 		usage = "usage_drop",
 		usage_arg = "[704]",
 		id = 204,
@@ -1235,7 +1235,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				20
 			},
 			{
@@ -1311,7 +1311,7 @@ pg.child_item = {
 		name = "Growth Goal Completion Award – 2",
 		type = 4,
 		is_show = 1,
-		desc = "An award for completing a growth goal.\nMood+15 Money+100 Sensitivity+100",
+		desc = "An award for completing a growth goal.\nMood+15 Money+100 Charisma+100",
 		usage = "usage_drop",
 		usage_arg = "[707]",
 		id = 207,
@@ -1319,7 +1319,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				100
 			},
 			{
@@ -1339,7 +1339,7 @@ pg.child_item = {
 		name = "Growth Goal Completion Award – 2",
 		type = 4,
 		is_show = 1,
-		desc = "An award for completing a growth goal.\nMood+15 Money+100 Charisma+100",
+		desc = "An award for completing a growth goal.\nMood+15 Money+100 Sensitivity+100",
 		usage = "usage_drop",
 		usage_arg = "[708]",
 		id = 208,
@@ -1347,7 +1347,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				100
 			},
 			{

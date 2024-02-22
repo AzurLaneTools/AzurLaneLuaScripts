@@ -8,6 +8,7 @@ slot5 = 5
 slot6 = 6
 slot7 = 7
 slot8 = 8
+slot9 = 9
 
 function slot0.getUIName(slot0)
 	return "BackYardDecorationUI"
@@ -63,7 +64,8 @@ function slot0.init(slot0)
 		[uv4] = slot0.furniturePage,
 		[uv5] = slot0.furniturePage,
 		[uv6] = slot0.furniturePage,
-		[uv7] = slot0.furniturePage
+		[uv7] = slot0.furniturePage,
+		[uv8] = slot0.furniturePage
 	}
 	slot0.themeTag = slot0:findTF("adpter/bottom/animroot/root/theme")
 
@@ -160,7 +162,8 @@ function slot0.didEnter(slot0)
 		slot0:findTF("adpter/bottom/animroot/root/tags/4"),
 		slot0:findTF("adpter/bottom/animroot/root/tags/5"),
 		slot0:findTF("adpter/bottom/animroot/root/tags/6"),
-		slot0:findTF("adpter/bottom/animroot/root/tags/7")
+		slot0:findTF("adpter/bottom/animroot/root/tags/7"),
+		slot0:findTF("adpter/bottom/animroot/root/tags/8")
 	}
 
 	onNextTick(function ()

@@ -53,11 +53,11 @@ function slot0.OnFirstFlush(slot0)
 	slot0.progressTxt.text = slot4 .. "/" .. slot3
 
 	setFillAmount(slot0.progress, slot4 / slot3)
-	updateDrop(slot0.itemTF, {
+	updateDrop(slot0.itemTF, Drop.New({
 		count = 0,
-		type = 2,
+		type = DROP_TYPE_ITEM,
 		id = slot2
-	})
+	}))
 	setActive(slot0.exchangeTip, NotifyTipHelper.ShouldShowUrTip())
 end
 

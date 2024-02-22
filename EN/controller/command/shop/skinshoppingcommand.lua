@@ -36,10 +36,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot11[id2res(slot5.resource_type)] < slot9 then
-		slot12 = getDropName({
+		slot12 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot5.resource_type
-		})
+		}):getName()
 
 		if slot5.resource_type == 1 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {

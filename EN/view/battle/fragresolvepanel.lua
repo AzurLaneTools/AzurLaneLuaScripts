@@ -208,7 +208,7 @@ function slot0.Resetresolve(slot0)
 			onButton(uv1, slot2:Find("icon/icon_bg"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setText(slot2:Find("name_panel/name"), slot3.cfg.name)
+			setText(slot2:Find("name_panel/name"), slot3:getConfig("name"))
 			setText(slot2:Find("name_panel/number"), "x " .. slot3.curCount)
 		end
 	end)
@@ -241,7 +241,7 @@ function slot0.Resetresolve(slot0)
 			onButton(uv1, slot2:Find("icon/icon_bg"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setText(slot2:Find("name_panel/name"), slot3.cfg.name)
+			setText(slot2:Find("name_panel/name"), slot3:getConfig("name"))
 			setText(slot2:Find("name_panel/number"), "x " .. slot3.count)
 		end
 	end)
@@ -269,12 +269,12 @@ function slot0.GetAllBluePrintStrengthenItems()
 				slot14 = 0
 			end
 
-			table.insert(slot0, {
+			table.insert(slot0, Drop.New({
 				id = slot12.id,
 				type = DROP_TYPE_ITEM,
 				count = slot12.count,
 				maxCount = slot14
-			})
+			}))
 		end
 	end
 
