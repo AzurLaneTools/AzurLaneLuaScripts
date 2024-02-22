@@ -183,6 +183,7 @@ pg.memory_group = setmetatable({
 		274,
 		275,
 		276,
+		277,
 		501,
 		502,
 		503,
@@ -275,6 +276,7 @@ pg.memory_group = setmetatable({
 		592,
 		593,
 		594,
+		595,
 		1000,
 		1001,
 		1002
@@ -4321,6 +4323,24 @@ pg.base.memory_group = {
 			3343
 		}
 	},
+	[277] = {
+		id = 277,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 5212,
+		title = "向山而行",
+		memories = {
+			3361,
+			3362,
+			3363,
+			3364,
+			3365,
+			3366,
+			3367,
+			3368
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -5896,6 +5916,23 @@ pg.base.memory_group = {
 			3295,
 			3296,
 			3297
+		}
+	},
+	[595] = {
+		id = 595,
+		subtype = 0,
+		icon = "title_chara_zhenhai",
+		type = 3,
+		link_event = 0,
+		title = "提升棋力的妙手",
+		memories = {
+			3351,
+			3352,
+			3353,
+			3354,
+			3355,
+			3356,
+			3357
 		}
 	},
 	[1000] = {

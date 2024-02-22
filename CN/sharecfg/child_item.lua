@@ -1199,7 +1199,7 @@ pg.child_item = {
 		name = "成长目标完成纪念·Ⅰ",
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 感知+20 ",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 气质+20",
 		usage = "usage_drop",
 		usage_arg = "[703]",
 		id = 203,
@@ -1207,7 +1207,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				20
 			},
 			{
@@ -1227,7 +1227,7 @@ pg.child_item = {
 		name = "成长目标完成纪念·Ⅰ",
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 气质+20",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 感知+20",
 		usage = "usage_drop",
 		usage_arg = "[704]",
 		id = 204,
@@ -1235,7 +1235,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				20
 			},
 			{
@@ -1311,7 +1311,7 @@ pg.child_item = {
 		name = "成长目标完成纪念·Ⅱ",
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 感知+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 气质+100",
 		usage = "usage_drop",
 		usage_arg = "[707]",
 		id = 207,
@@ -1319,7 +1319,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				100
 			},
 			{
@@ -1339,7 +1339,7 @@ pg.child_item = {
 		name = "成长目标完成纪念·Ⅱ",
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 气质+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 感知+100",
 		usage = "usage_drop",
 		usage_arg = "[708]",
 		id = 208,
@@ -1347,7 +1347,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				100
 			},
 			{

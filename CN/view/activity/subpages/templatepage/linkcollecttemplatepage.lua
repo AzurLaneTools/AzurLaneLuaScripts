@@ -39,10 +39,10 @@ function slot0.BuildDatas(slot0)
 		slot7.count = slot0.activity:getKVPList(1, slot7.id)
 
 		if slot7.config.count_storage == 1 then
-			slot7.count = GetOwnedDropCount({
+			slot7.count = Drop.New({
 				type = slot7.config.type,
 				id = slot7.config.drop_id
-			})
+			}):getOwnedCount()
 		end
 
 		table.insert(slot0.dataList, slot7)
@@ -116,10 +116,11 @@ function slot0.AddSpecialBtnListener(slot0)
 	slot0.equipSkinBoxBtn = slot0:findTF("equip_skin_box", slot0.btnList)
 
 	if slot0.equipSkinBoxBtn and slot1.equipskin_box_link then
-		slot2 = GetOwnedDropCount({
+		slot2 = Drop.New({
 			type = slot1.equipskin_box_link.drop_type,
 			id = slot1.equipskin_box_link.drop_id
 		})
+		slot2 = slot2:getOwnedCount()
 
 		onButton(slot0, slot0.equipSkinBoxBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -153,10 +154,10 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 			skipable_list = uv0.config.link_params
 		})
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), getDropName({
+	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
 		type = slot3.config.type,
 		id = slot3.config.drop_id
-	}))
+	}):getName())
 	setText(slot0:findTF("owner/number", slot2), slot3.count .. "/" .. slot3.config.count)
 
 	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1

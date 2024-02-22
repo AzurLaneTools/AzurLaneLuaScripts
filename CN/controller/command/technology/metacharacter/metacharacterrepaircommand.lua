@@ -25,10 +25,10 @@ function slot0.execute(slot0, slot1)
 			uv0:levelUp()
 			uv1:updateShip(uv2)
 			getProxy(MetaCharacterProxy):getMetaProgressVOByID(uv3.id):updateShip(uv2)
-			uv4:sendNotification(GAME.CONSUME_ITEM, Item.New({
-				count = uv5,
-				id = uv6,
-				type = DROP_TYPE_ITEM
+			uv4:sendNotification(GAME.CONSUME_ITEM, Drop.New({
+				type = DROP_TYPE_ITEM,
+				id = uv5,
+				count = uv6
 			}))
 			uv4:sendNotification(GAME.REPAIR_META_CHARACTER_DONE)
 		else

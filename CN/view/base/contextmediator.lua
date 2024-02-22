@@ -112,8 +112,8 @@ function slot0.onRegister(slot0)
 		end
 
 		underscore.each(slot0, function (slot0)
-			if slot0.type == DROP_TYPE_NPC_SHIP then
-				table.insert(uv0, uv1:getShipById(slot0.id))
+			if slot0.type == DROP_TYPE_OPERATION then
+				table.insert(uv0, uv1:getShipById(slot0.count))
 			elseif slot0.type == DROP_TYPE_SHIP then
 				if Ship.isMetaShipByConfigID(slot0.configId or slot0.id) then
 					if table.indexof(uv2, slot1) then
@@ -288,7 +288,7 @@ function slot0.commonBind(slot0)
 					mediator = EquipmentInfoMediator,
 					viewComponent = EquipmentInfoLayer,
 					data = {
-						equipmentId = slot2.cfg.id,
+						equipmentId = slot2:getConfig("id"),
 						type = EquipmentInfoMediator.TYPE_DISPLAY,
 						onRemoved = slot3,
 						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
@@ -299,7 +299,7 @@ function slot0.commonBind(slot0)
 					mediator = SpWeaponInfoMediator,
 					viewComponent = SpWeaponInfoLayer,
 					data = {
-						spWeaponConfigId = slot2.cfg.id,
+						spWeaponConfigId = slot2:getConfig("id"),
 						type = SpWeaponInfoLayer.TYPE_DISPLAY,
 						onRemoved = slot3,
 						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
@@ -310,7 +310,7 @@ function slot0.commonBind(slot0)
 					mediator = EquipmentSkinMediator,
 					viewComponent = EquipmentSkinLayer,
 					data = {
-						skinId = slot2.cfg.id,
+						skinId = slot2:getConfig("id"),
 						mode = EquipmentSkinLayer.DISPLAY,
 						weight = LayerWeightConst.TOP_LAYER
 					}
@@ -360,10 +360,10 @@ function slot0.commonBind(slot0)
 				mediator = ItemInfoMediator,
 				viewComponent = ItemInfoLayer,
 				data = {
-					drop = {
+					drop = Drop.New({
 						type = DROP_TYPE_ITEM,
 						id = slot2
-					},
+					}),
 					confirmCall = slot3
 				}
 			}))
@@ -373,11 +373,11 @@ function slot0.commonBind(slot0)
 				mediator = ItemInfoMediator,
 				viewComponent = ItemInfoLayer,
 				data = {
-					drop = {
+					drop = Drop.New({
 						type = DROP_TYPE_ITEM,
 						id = slot2,
 						extra = slot3
-					}
+					})
 				}
 			}))
 		end,
@@ -386,10 +386,10 @@ function slot0.commonBind(slot0)
 				mediator = ItemInfoMediator,
 				viewComponent = ItemInfoLayer,
 				data = {
-					drop = {
+					drop = Drop.New({
 						type = DROP_TYPE_SHIP,
 						id = slot2
-					}
+					})
 				}
 			}))
 		end,

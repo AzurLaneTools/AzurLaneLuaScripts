@@ -332,9 +332,9 @@ return {
 	},
 	getWeight = function (slot0, slot1)
 		if slot1 == "nationality" then
-			return 100 - slot0.config[slot1]
+			return 100 - slot0.getConfig(slot0, slot1)
 		else
-			return slot0.config[slot1]
+			return slot0.getConfig(slot0, slot1)
 		end
 	end,
 	sortFunc = function (slot0, slot1)

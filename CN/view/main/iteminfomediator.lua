@@ -54,11 +54,11 @@ function slot0.handleNotification(slot0, slot1)
 			if slot3.count <= 0 then
 				slot0.viewComponent:closeView()
 			else
-				slot0.viewComponent:setItem({
+				slot0.viewComponent:setItem(Drop.New({
 					type = DROP_TYPE_ITEM,
 					id = slot3.id,
 					count = slot3.count
-				})
+				}))
 			end
 		end
 	elseif slot2 == GAME.USE_ITEM_DONE then

@@ -51,7 +51,7 @@ function slot0.initUI(slot0)
 				uv0:findTF("Item3/Icon", slot2)
 			}) do
 				if slot10[slot14].type ~= DROP_TYPE_SHIP then
-					setImageSprite(slot15, LoadSprite(getDropIcon(slot16)))
+					setImageSprite(slot15, LoadSprite(slot16:getIcon()))
 				else
 					setImageSprite(slot15, LoadSprite("QIcon/" .. Ship.New({
 						configId = slot16.id
@@ -92,11 +92,7 @@ function slot0.getAllAwardList(slot0)
 		slot12 = {}
 
 		for slot17, slot18 in ipairs(slot8.award_display[slot0:getLevelIndex(slot2, slot8.level)]) do
-			table.insert(slot12, {
-				type = slot18[1],
-				id = slot18[2],
-				count = slot18[3]
-			})
+			table.insert(slot12, Drop.Create(slot18))
 		end
 
 		table.insert(slot1, slot12)

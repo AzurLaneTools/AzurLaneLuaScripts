@@ -129,11 +129,7 @@ function slot0.updateGiftTF(slot0, slot1, slot2)
 	slot23 = "display"
 
 	for slot23, slot24 in ipairs(slot2:getConfig(slot23)) do
-		table.insert(slot19, {
-			type = slot24[1],
-			id = slot24[2],
-			count = slot24[3]
-		})
+		table.insert(slot19, Drop.Create(slot24))
 	end
 
 	slot20 = UIItemList.New(slot13, slot0.itemTpl)
@@ -147,7 +143,7 @@ function slot0.updateGiftTF(slot0, slot1, slot2)
 			onButton(uv0, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setScrollText(uv0:findTF("TextMask/Text", slot2), getDropName(slot6))
+			setScrollText(uv0:findTF("TextMask/Text", slot2), slot6:getName())
 		end
 	end)
 	slot20:align(#slot19)

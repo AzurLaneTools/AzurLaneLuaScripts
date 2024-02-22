@@ -59,13 +59,13 @@ function slot0.init(slot0)
 	}
 	slot0.rtNGoodsContainer = slot0.rtNShop:Find("frame/content/right/page/view/content")
 	slot0.rtNShopRes = slot0.rtNShop:Find("frame/content/right/page/title/res")
-	slot1 = {
+	slot1 = Drop.New({
 		type = DROP_TYPE_WORLD_ITEM,
 		id = WorldItem.PortMoneyId
-	}
+	})
 
-	GetImageSpriteFromAtlasAsync(getDropIcon(slot1), "", slot0.rtNShopRes:Find("icon/Image"), false)
-	setText(slot0.rtNShopRes:Find("icon/name"), getDropName(slot1))
+	GetImageSpriteFromAtlasAsync(slot1:getIcon(), "", slot0.rtNShopRes:Find("icon/Image"), false)
+	setText(slot0.rtNShopRes:Find("icon/name"), slot1:getName())
 
 	slot0.rtTop = slot0.rtBlurPanel:Find("adapt/top")
 	slot0.btnBack = slot0.rtTop:Find("title/back_button")
@@ -715,11 +715,11 @@ function slot0.UpdateNShopGoods(slot0, slot1)
 					slot4 = slot3:GetDropInfo()
 
 					updateDrop(slot2:Find("IconTpl"), slot4)
-					setText(slot2:Find("name_mask/name"), shortenString(slot4.cfg.name, 6))
+					setText(slot2:Find("name_mask/name"), shortenString(slot4:getConfig("name"), 6))
 
 					slot5 = slot3:GetPriceInfo()
 
-					GetImageSpriteFromAtlasAsync(updateDropCfg(slot5).icon, "", slot2:Find("consume/contain/icon"), false)
+					GetImageSpriteFromAtlasAsync(slot5:getIcon(), "", slot2:Find("consume/contain/icon"), false)
 					setText(slot2:Find("consume/contain/Text"), slot5.count)
 					setText(slot2:Find("count_contain/count"), slot3:GetPurchasableCnt() .. "/" .. slot3:GetLimitGoodCount())
 					setText(slot2:Find("count_contain/label"), i18n("activity_shop_exchange_count"))

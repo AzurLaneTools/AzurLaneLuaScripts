@@ -42,10 +42,10 @@ function slot0.showRightBottomPanel(slot0)
 	setText(slot6:Find("Text"), slot13)
 
 	if slot13 <= 0 then
-		setImageSprite(slot7:Find("icon"), GetSpriteFromAtlas(getDropIcon({
+		setImageSprite(slot7:Find("icon"), GetSpriteFromAtlas(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot12
-		}), ""))
+		}):getIcon(), ""))
 
 		slot19 = getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1
 		slot18 = getProxy(PlayerProxy):getRawData():getResource(slot12) > 0

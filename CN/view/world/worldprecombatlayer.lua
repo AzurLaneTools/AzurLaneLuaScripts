@@ -270,7 +270,7 @@ function slot0.UpdateInformationtab(slot0)
 				}
 
 				updateDrop(slot4, slot6)
-				setScrollText(slot4:Find("ScrollMask/DropName"), slot6.cfg.name)
+				setScrollText(slot4:Find("ScrollMask/DropName"), slot6:getConfig("name"))
 				onButton(uv0, slot4, function ()
 					uv0:emit(uv1.ON_DROP, uv2)
 				end, SFX_PANEL)

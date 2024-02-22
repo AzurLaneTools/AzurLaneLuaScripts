@@ -66,13 +66,6 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setRevertItem(slot0, slot1)
-	slot0.revertItemVO = slot1 or Item.New({
-		count = 0,
-		id = Item.REVERT_EQUIPMENT_ID
-	})
-end
-
 function slot0.checkOverGold(slot0, slot1)
 	if slot0.player:GoldMax(_.detect(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_RESOURCE and slot0.id == 1
@@ -331,7 +324,7 @@ end
 function slot0.updateOperation1(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.equipmentVO)
-	setActive(slot0.defaultRevertBtn, slot0.fromEquipmentView and slot0.equipmentVO.config.level > 1 and slot0.revertItemVO.count > 0)
+	setActive(slot0.defaultRevertBtn, not LOCK_EQUIP_REVERT and slot0.fromEquipmentView and slot0.equipmentVO:getConfig("level") > 1 and getProxy(BagProxy):getItemCountById(Item.REVERT_EQUIPMENT_ID) > 0)
 	setActive(slot0.defaultReplaceBtn, false)
 	setActive(slot0.defaultUnloadBtn, false)
 	setActive(slot0.defaultDestroyBtn, slot0.contextData.destroy and slot0.equipmentVO.count > 0)
@@ -399,7 +392,7 @@ function slot0.updateRevertPanel(slot0)
 	slot3 = slot1:GetPropertiesInfo()
 
 	Equipment.InsertAttrsCompare(slot0.equipmentVO:GetPropertiesInfo().attrs, slot3.attrs, slot0.shipVO)
-	slot0:updateEquipmentPanel(slot0.revertEquipTF, slot1, slot3, slot0.equipmentVO.config.level)
+	slot0:updateEquipmentPanel(slot0.revertEquipTF, slot1, slot3, slot0.equipmentVO:getConfig("level"))
 	slot0:updateOperationAward(slot0.revertAwardContainer, slot0.itemTpl, slot0.equipmentVO:getRevertAwards())
 end
 
@@ -407,27 +400,22 @@ function slot0.updateDestroyCount(slot0)
 	setText(slot0.destroyValue, slot0.destroyCount)
 
 	slot2 = {}
-	slot3 = 0
+	slot4 = slot0.equipmentVO:getConfig("destory_item") or {}
+	slot3 = 0 + (slot0.equipmentVO:getConfig("destory_gold") or 0) * slot1
 
-	if pg.equip_data_template[slot0.equipmentVO.config.id] then
-		slot5 = slot4.destory_item or {}
-		slot3 = slot3 + (slot4.destory_gold or 0) * slot1
-
-		for slot10, slot11 in ipairs(slot5) do
-			table.insert(slot2, {
-				type = DROP_TYPE_ITEM,
-				id = slot11[1],
-				count = slot11[2] * slot1
-			})
-		end
-
+	for slot9, slot10 in ipairs(slot4) do
 		table.insert(slot2, {
-			id = 1,
-			type = DROP_TYPE_RESOURCE,
-			count = slot3
+			type = DROP_TYPE_ITEM,
+			id = slot10[1],
+			count = slot10[2] * slot1
 		})
 	end
 
+	table.insert(slot2, {
+		id = 1,
+		type = DROP_TYPE_RESOURCE,
+		count = slot3
+	})
 	slot0:updateOperationAward(slot0.destroyBonusList, slot0.destroyBonusItem, slot2)
 end
 
@@ -460,29 +448,29 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 	if slot2 then
 		slot7 = findTF(slot5, "name")
 
-		setScrollText(findTF(slot7, "mask/Text"), slot2.config.name)
+		setScrollText(findTF(slot7, "mask/Text"), slot2:getConfig("name"))
 		setActive(findTF(slot7, "unique"), slot2:isUnique() and slot0.isShowUnique)
 
 		slot8 = findTF(slot5, "equip")
 
-		setImageSprite(findTF(slot8, "bg"), GetSpriteFromAtlas("ui/equipmentinfoui_atlas", "equip_bg_" .. EquipmentRarity.Rarity2Print(slot2.config.rarity)))
+		setImageSprite(findTF(slot8, "bg"), GetSpriteFromAtlas("ui/equipmentinfoui_atlas", "equip_bg_" .. EquipmentRarity.Rarity2Print(slot2:getConfig("rarity"))))
 		updateEquipment(slot8, slot2, {
 			noIconColorful = true
 		})
 		setActive(findTF(slot8, "revert_btn"), false)
-		setActive(findTF(slot8, "slv"), slot4 or slot2.config.level > 1)
-		setText(findTF(slot8, "slv/Text"), slot4 and slot4 - 1 or slot2.config.level - 1)
+		setActive(findTF(slot8, "slv"), slot4 or slot2:getConfig("level") > 1)
+		setText(findTF(slot8, "slv/Text"), slot4 and slot4 - 1 or slot2:getConfig("level") - 1)
 		setActive(findTF(slot8, "slv/next"), slot4)
-		setText(findTF(slot8, "slv/next/Text"), slot2.config.level - 1)
+		setText(findTF(slot8, "slv/next/Text"), slot2:getConfig("level") - 1)
 		setActive(slot0:findTF("tier", slot8), slot2)
 
-		slot10 = slot2.config.tech or 1
+		slot10 = slot2:getConfig("tech") or 1
 
 		eachChild(slot9, function (slot0)
 			setActive(slot0, tostring(uv0) == slot0.gameObject.name)
 		end)
-		setImageSprite(findTF(slot8, "title"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2.config.type)))
-		setText(slot8:Find("speciality/Text"), slot2.config.speciality ~= "无" and slot2.config.speciality or i18n1("—"))
+		setImageSprite(findTF(slot8, "title"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2:getConfig("type"))))
+		setText(slot8:Find("speciality/Text"), slot2:getConfig("speciality") ~= "无" and slot2:getConfig("speciality") or i18n1("—"))
 		updateEquipInfo(slot5:Find("attributes/view/content"), slot3 or slot2:GetPropertiesInfo(), slot2:GetSkill(), slot0.shipVO)
 	end
 end
@@ -535,7 +523,7 @@ function slot0.UpdateTransformTipBar(slot0, slot1)
 						}
 					}))
 				end, SFX_PANEL)
-				slot2:Find("mask/name"):GetComponent("ScrollText"):SetText(pg.equip_data_statistics[slot4].name)
+				slot2:Find("mask/name"):GetComponent("ScrollText"):SetText(Equipment.getConfigData(slot4).name)
 			end
 		end)
 	end

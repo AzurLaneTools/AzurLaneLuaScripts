@@ -62,10 +62,10 @@ function slot0.didEnter(slot0)
 		uv0:SetActiveBubble(not uv0.chatActive)
 	end)
 
-	slot2 = getDropIcon({
+	slot2 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.shop:getResId()
-	})
+	}):getIcon()
 
 	slot0.contentText:AddSprite(slot2, LoadSprite(slot2, ""))
 	slot0:UpdateView()
@@ -132,7 +132,6 @@ function slot0.UpdateGoods(slot0)
 		end
 
 		setActive(slot2:Find("mask"), slot3.HasGot)
-		updateDropCfg(slot3)
 		onButton(uv0, slot2, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
@@ -146,10 +145,10 @@ function slot0.CheckRes(slot0, slot1, slot2)
 		return false
 	end
 
-	if GetOwnedDropCount({
+	if ({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}) < slot1:getConfig("resource_num") * slot2 then
+	}):getOwnedCount() < slot1:getConfig("resource_num") * slot2 then
 		slot0:ShowMsgbox({
 			useGO = true,
 			content = i18n("amusementpark_shop_exchange"),
@@ -180,13 +179,10 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = {
+	slot0:Purchase(slot1, 1, Drop.New({
 		id = slot1:getConfig("commodity_id"),
 		type = slot1:getConfig("commodity_type")
-	}
-
-	updateDropCfg(slot3)
-	slot0:Purchase(slot1, 1, slot3.cfg.name, slot2)
+	}):getConfig("name"), slot2)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)
@@ -281,10 +277,10 @@ function slot0.GetActivityShopTip()
 
 	for slot6, slot7 in ipairs(pg.activity_shop_template.all) do
 		if slot1.id == slot2[slot7].activity then
-			slot12 = slot10.resource_num <= GetOwnedDropCount({
+			slot12 = slot10.resource_num <= Drop.New({
 				type = slot10.resource_category,
 				id = slot10.resource_type
-			})
+			}):getOwnedCount()
 
 			if (slot2[slot7].num_limit == 0 or (table.indexof(slot1.data1_list, slot7) and slot1.data2_list[slot8] or 0) < slot10.num_limit) and slot12 then
 				return true

@@ -61,10 +61,10 @@ function slot0.canBuildShipByBuildId(slot0, slot1, slot2)
 
 	if slot2 then
 		slot6 = getProxy(ActivityProxy):getBuildFreeActivityByBuildId(slot0)
-		slot8 = getDropName({
+		slot8 = Drop.New({
 			type = DROP_TYPE_VITEM,
 			id = slot6:getConfig("config_client")[1]
-		})
+		}):getName()
 
 		if not slot6 or slot6:isEnd() then
 			return false, i18n("tip_build_ticket_expired", slot8)

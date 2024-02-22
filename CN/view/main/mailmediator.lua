@@ -77,16 +77,16 @@ function slot0.getAllAttachment(slot0)
 	slot1 = {}
 	slot2 = getProxy(MailProxy)
 	slot1 = underscore.map(slot2:getAllAttachment(), function (slot0)
-		return {
-			type = slot0.dropType,
+		return Drop.New({
+			type = slot0.type,
 			id = slot0.id,
 			count = slot0.count
-		}
+		})
 	end)
 
 	table.sort(slot1, CompareFuncs({
 		function (slot0)
-			return -getDropRarity(slot0)
+			return -slot0:getDropRarity()
 		end,
 		function (slot0)
 			return -slot0.id
@@ -176,12 +176,12 @@ function slot0.ShowAndCheckDrops(slot0, slot1)
 	end
 
 	if underscore.detect(slot1, function (slot0)
-		return slot0.type == DROP_TYPE_ITEM and updateDropCfg(slot0).type == Item.SKIN_ASSIGNED_TYPE and Item.InTimeLimitSkinAssigned(slot0.id)
+		return slot0.type == DROP_TYPE_ITEM and slot0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and Item.InTimeLimitSkinAssigned(slot0.id)
 	end) then
 		table.insert(slot2, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("skin_exchange_usetip", getDropName(uv0)),
+				content = i18n("skin_exchange_usetip", uv0:getName()),
 				onYes = slot0,
 				onNo = slot0
 			})

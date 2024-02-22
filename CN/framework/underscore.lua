@@ -150,13 +150,10 @@ function slot0.funcs.include(slot0, slot1)
 end
 
 function slot0.funcs.invoke(slot0, slot1, ...)
-	slot2 = {
-		len = select("#", ...),
-		...
-	}
+	slot2 = packEx(...)
 
 	uv0.funcs.each(slot0, function (slot0)
-		slot0[uv0](slot0, unpack(uv1, 1, uv1.len))
+		slot0[uv0](slot0, unpackEx(uv1))
 	end)
 
 	return slot0

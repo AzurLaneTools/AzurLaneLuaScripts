@@ -432,6 +432,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「事件之穹界，因果之尽头。禁地不可逾越，跨过即为永恒。」</color>\n「星海逐光」活动获取",
 		scene = {}
 	},
+	[329] = {
+		time_limit_type = 0,
+		name = "雪域寒星",
+		gain_by = "",
+		id = 329,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -697,6 +706,7 @@ pg.item_data_frame = {
 		326,
 		327,
 		328,
+		329,
 		401,
 		402,
 		404,

@@ -92,7 +92,7 @@ function slot0.UpdateEquipments(slot0)
 
 			if slot3 then
 				updateEquipment(slot2:Find("info"), slot3)
-				setText(slot2:Find("info/name_bg/Text"), shortenString(slot3.config.name, 5))
+				setText(slot2:Find("info/name_bg/Text"), shortenString(slot3:getConfig("name"), 5))
 			end
 		end
 	end)

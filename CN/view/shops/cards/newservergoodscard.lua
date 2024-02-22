@@ -53,12 +53,9 @@ function slot0.Init(slot0)
 	end
 
 	slot3 = slot0.commodity:GetConsume()
-
-	updateDropCfg(slot3)
-
 	slot0.consumeTxtTF.text = slot3.count
 
-	GetImageSpriteFromAtlasAsync(slot3.cfg.icon, "", slot0.consumeIconTF)
+	GetImageSpriteFromAtlasAsync(slot3:getConfig("icon"), "", slot0.consumeIconTF)
 
 	slot0.itemCountTF.text = slot0.commodity:GetDropCnt()
 

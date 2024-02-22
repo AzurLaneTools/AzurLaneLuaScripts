@@ -78,7 +78,7 @@ function slot0.displayEquipments(slot0)
 			updateEquipment(slot7, slot6)
 			setActive(slot7:Find("tip"), false)
 
-			if slot0:isMaterialEnough(slot6) and slot6.config.next ~= 0 then
+			if slot0:isMaterialEnough(slot6) and slot6:getConfig("next") ~= 0 then
 				setActive(slot8, true)
 				blinkAni(slot8, 0.5)
 			end
@@ -86,7 +86,7 @@ function slot0.displayEquipments(slot0)
 			onButton(slot0, slot7, function ()
 				if uv0.contextData.pos then
 					setActive(uv0.equipmentTFs[slot0]:Find("selected"), false)
-					setActive(uv0.equipmentTFs[slot0]:Find("tip"), uv0:isMaterialEnough(uv1:getEquip(slot0)) and uv1:getEquip(slot0).config.next ~= 0)
+					setActive(uv0.equipmentTFs[slot0]:Find("tip"), uv0:isMaterialEnough(uv1:getEquip(slot0)) and uv1:getEquip(slot0):getConfig("next") ~= 0)
 				end
 
 				uv0.contextData.pos = uv2
@@ -108,7 +108,7 @@ end
 function slot0.isMaterialEnough(slot0, slot1)
 	slot2 = true
 
-	if not slot1.config.trans_use_item then
+	if not slot1:getConfig("trans_use_item") then
 		return false
 	end
 
@@ -127,8 +127,8 @@ function slot0.updateEquipment(slot0)
 	slot1 = slot0.contextData.equipmentVO
 	slot0.contextData.equipmentId = slot1.id
 
-	slot0:updateAttrs(slot0.equipmentPanel:Find("view/content"), slot1, slot1.config.next > 0 and slot1:MigrateTo(slot1.config.next) or nil)
-	changeToScrollText(slot0.equipmentPanel:Find("name_container"), slot1.config.name)
+	slot0:updateAttrs(slot0.equipmentPanel:Find("view/content"), slot1, slot1:getConfig("next") > 0 and slot1:MigrateTo(slot1:getConfig("next")) or nil)
+	changeToScrollText(slot0.equipmentPanel:Find("name_container"), slot1:getConfig("name"))
 	setActive(findTF(slot0.equipmentPanel, "unique"), slot1:isUnique())
 	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot1)
 end
@@ -234,8 +234,8 @@ end
 function slot0.updateMaterials(slot0)
 	slot1 = true
 	slot2 = slot0.contextData.equipmentVO
-	slot4 = slot2.config.trans_use_gold
-	slot3 = defaultValue(slot2.config.trans_use_item, {})
+	slot4 = slot2:getConfig("trans_use_gold")
+	slot3 = defaultValue(slot2:getConfig("trans_use_item"), {})
 	slot5 = nil
 	slot6 = 0
 
@@ -276,9 +276,9 @@ function slot0.updateMaterials(slot0)
 
 				uv1 = uv1 - 1
 			end, SFX_PANEL)
-			setActive(slot13:Find("click"), slot2.config.level > 10)
+			setActive(slot13:Find("click"), slot2:getConfig("level") > 10)
 
-			slot6 = slot6 + (slot2.config.level > 10 and 1 or 0)
+			slot6 = slot6 + (slot2:getConfig("level") > 10 and 1 or 0)
 		end
 	end
 
@@ -328,7 +328,7 @@ function slot0.upgradeFinish(slot0, slot1, slot2)
 		setActive(uv0.mainPanel, true)
 		setActive(uv0.finishPanel, false)
 	end, SFX_CANCEL)
-	changeToScrollText(slot0.finishPanel:Find("frame/equipment_panel/name_container"), slot2.config.name)
+	changeToScrollText(slot0.finishPanel:Find("frame/equipment_panel/name_container"), slot2:getConfig("name"))
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
 	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
 	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2)

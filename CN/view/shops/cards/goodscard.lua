@@ -88,7 +88,7 @@ function slot0.update(slot0, slot1)
 	slot3 = slot1:getDropInfo()
 
 	updateDrop(slot0.itemTF, slot3)
-	setText(slot0.nameTxt, shortenString(slot3.cfg.name or "", 6))
+	setText(slot0.nameTxt, shortenString(slot3:getConfig("name") or "", 6))
 
 	slot5 = ""
 	slot6 = slot1:getConfig("resource_num")
@@ -108,10 +108,10 @@ function slot0.update(slot0, slot1)
 	slot0.discountTextTF.text = slot5
 	slot0.countTF.text = math.ceil(slot6)
 
-	GetImageSpriteFromAtlasAsync(getDropIcon({
+	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot1:getConfig("resource_type")
-	}), "", tf(slot0.resIconTF))
+	}):getIcon(), "", tf(slot0.resIconTF))
 end
 
 function slot0.OnDispose(slot0)

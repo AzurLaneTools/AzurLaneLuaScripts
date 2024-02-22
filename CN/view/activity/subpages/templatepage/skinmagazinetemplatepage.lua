@@ -127,13 +127,8 @@ end
 
 function slot0.UpdateDrop(slot0)
 	slot1 = slot0.taskProxy:getTaskVO(slot0.taskList[slot0.index])
-	slot3, slot4, slot5 = unpack(slot1:getConfig("award_display")[1])
 
-	updateDrop(slot0.awardTf, {
-		count = slot5,
-		id = slot4,
-		type = slot3
-	})
+	updateDrop(slot0.awardTf, Drop.Create(slot1:getConfig("award_display")[1]))
 	onButton(slot0, slot0.awardTf:Find("get"), function ()
 		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 	end, SFX_CONFIRM)

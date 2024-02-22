@@ -158,7 +158,13 @@ function slot0.RawGetItemById(slot0, slot1)
 end
 
 function slot0.getItemCountById(slot0, slot1)
-	return slot0.data[slot1] and slot2.count or 0
+	slot2 = slot0.data[slot1] and slot0.data[slot1].count or 0
+
+	if slot0.extraItemData[slot1] and #slot0.extraItemData[slot1] > 0 then
+		slot2 = math.max(slot2, 1)
+	end
+
+	return slot2
 end
 
 function slot0.getBoxCount(slot0)
@@ -208,8 +214,10 @@ end
 
 function slot0.canUpgradeFlagShipEquip(slot0)
 	if getProxy(BayProxy):getEquipment2ByflagShip() then
-		for slot7, slot8 in pairs(pg.equip_data_template[slot2.id].trans_use_item) do
-			if not slot0:getItemById(slot8[1]) or slot9.count < slot8[2] then
+		slot6 = "trans_use_item"
+
+		for slot6, slot7 in pairs(slot2:getConfig(slot6)) do
+			if not slot0:getItemById(slot7[1]) or slot8.count < slot7[2] then
 				return false
 			end
 		end

@@ -39,7 +39,7 @@ function slot0.UpdateTask(slot0, slot1)
 			slot3 = uv0[slot1 + 1]
 
 			updateDrop(slot2, slot3)
-			setScrollText(slot2:Find("name_mask/name"), slot3.cfg.name)
+			setScrollText(slot2:Find("name_mask/name"), slot3:getConfig("name"))
 		end
 	end)
 	slot6:align(#slot1:GetDisplayDrops())

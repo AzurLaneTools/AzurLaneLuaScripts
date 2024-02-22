@@ -166,20 +166,17 @@ function slot0.UpdateCommodity(slot0, slot1, slot2)
 end
 
 function slot0.OnClickCommodity(slot0, slot1, slot2)
-	slot3 = {
+	if Drop.New({
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
-	}
-	slot4 = updateDropCfg(slot3)
-
-	if slot3.type == DROP_TYPE_VITEM and slot4.virtual_type == 22 and (not getProxy(ActivityProxy):getActivityById(slot4.link_id) or slot6:isEnd()) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", getDropName(slot3)))
+	}).type == DROP_TYPE_VITEM and slot3:getConfig("virtual_type") == 22 and (not getProxy(ActivityProxy):getActivityById(slot3:getConfig("link_id")) or slot5:isEnd()) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", slot3:getName()))
 
 		return
 	end
 
-	slot5 = nil
+	slot4 = nil
 
 	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 and (not isa(slot1, QuotaCommodity) or slot1:GetLimitGoodCount() ~= 1) or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
 		slot3 = {}
@@ -203,12 +200,12 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 				return
 			end
 
-			if GetOwnedDropCount({
+			if Drop.New({
 				type = uv0:getConfig("resource_category"),
 				id = uv0:getConfig("resource_type")
-			}) < uv0:getConfig("resource_num") * uv1 then
+			}):getOwnedCount() < uv0:getConfig("resource_num") * uv1 then
 				if not ItemTipPanel.ShowItemTip(uv0:getConfig("resource_category"), uv0:getConfig("resource_type")) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", getDropName(slot1)))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot1:getName()))
 				end
 
 				return

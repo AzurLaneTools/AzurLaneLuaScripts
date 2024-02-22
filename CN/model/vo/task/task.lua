@@ -211,10 +211,9 @@ function slot0.StaticJudgeOverflow(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot19 = {}
 
 		for slot24, slot25 in ipairs(slot5) do
-			slot27 = slot25[2]
-			slot28 = slot25[3]
+			slot26, slot27, slot28 = unpack(slot25)
 
-			if slot25[1] == DROP_TYPE_RESOURCE then
+			if slot26 == DROP_TYPE_RESOURCE then
 				if slot27 == PlayerConst.ResGold then
 					if slot8 + slot28 - slot11 > 0 then
 						slot14 = true

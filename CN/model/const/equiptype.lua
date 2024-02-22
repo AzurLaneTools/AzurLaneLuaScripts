@@ -160,7 +160,7 @@ function slot0.type2Tag(slot0)
 end
 
 function slot0.getCompareGroup(slot0)
-	return pg.equip_data_by_type[pg.equip_data_template[slot0].type].compare_group
+	return pg.equip_data_by_type[Equipment.getConfigData(slot0).type].compare_group
 end
 
 function slot0.type2Title(slot0, slot1)

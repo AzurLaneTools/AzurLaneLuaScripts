@@ -44,7 +44,7 @@ function slot0.execute(slot0, slot1)
 
 	table.insert(slot15, function (slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("ship_equip_exchange_tip", uv0:getName(), uv1.config.name, uv2:getName()),
+			content = i18n("ship_equip_exchange_tip", uv0:getName(), uv1:getConfig("name"), uv2:getName()),
 			onYes = slot0
 		})
 	end)
@@ -96,7 +96,7 @@ function slot0.execute(slot0, slot1)
 				uv4:updateShip(uv0)
 				uv2:removeEquipmentById(uv5, 1)
 				uv6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[uv5].name), "green")
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", Equipment.getConfigData(uv5).name), "green")
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 			end

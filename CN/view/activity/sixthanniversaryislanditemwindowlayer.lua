@@ -25,7 +25,7 @@ function slot0.didEnter(slot0)
 		slot1.count,
 		true
 	} or {
-		GetOwnedDropCount(slot1)
+		slot1:getOwnedCount()
 	})
 
 	setActive(slot0._tf:Find("content/main"):Find("owner"), slot5)
@@ -37,8 +37,8 @@ function slot0.didEnter(slot0)
 	slot1.count = nil
 
 	updateDrop(slot2:Find("icon/IconTpl"), slot1)
-	setText(slot2:Find("line/name"), slot1.cfg.name)
-	setText(slot2:Find("line/content/Text"), slot1.desc or slot1.cfg.desc)
+	setText(slot2:Find("line/name"), slot1:getConfig("name"))
+	setText(slot2:Find("line/content/Text"), slot1.desc or slot1:getConfig("desc"))
 end
 
 function slot0.willExit(slot0)

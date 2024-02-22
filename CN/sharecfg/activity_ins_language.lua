@@ -19130,384 +19130,384 @@ pg.base.activity_ins_language = {
 		value = "我、我会加油的！"
 	},
 	ins_439 = {
-		value = ""
+		value = "只要戴上这个，今日定有好事发生。"
 	},
 	ins_discuss_439_1 = {
-		value = ""
+		value = "好多面具！决定了，改天就去寰昌姐姐的房间冒险！"
 	},
 	ins_reply_439_1_1 = {
-		value = ""
+		value = "她会先算到的，我劝你再斟酌一下。"
 	},
 	ins_discuss_439_2 = {
-		value = ""
+		value = "为什么戴上面具就会有好事发生？这么神奇？"
 	},
 	ins_reply_439_2_1 = {
-		value = ""
+		value = "今日卦象显示如此。"
 	},
 	ins_reply_439_2_2 = {
-		value = ""
+		value = "虽然不懂，但是感觉好厉害！"
 	},
 	ins_discuss_439_3 = {
-		value = ""
+		value = "这个面具能让恋爱运势也变好吗？"
 	},
 	ins_reply_439_3_1 = {
-		value = ""
+		value = "改变恋爱运的话，得重新起卦呢。"
 	},
 	ins_reply_439_3_2 = {
-		value = ""
+		value = "我懂……得加钱！"
 	},
 	ins_reply_439_3_3 = {
-		value = ""
+		value = "咳……不用，等下我们私聊就是。"
 	},
 	ins_op_439_1_1 = {
-		value = ""
+		value = "好事是指？"
 	},
 	op_reply_439_1_1 = {
-		value = ""
+		value = "那要等发生了以后才会知道。"
 	},
 	ins_op_439_1_2 = {
-		value = ""
+		value = "好运面具？我也想要一个！"
 	},
 	op_reply_439_1_2 = {
-		value = ""
+		value = "没问题，一会来我的房间取吧。"
 	},
 	ins_440 = {
-		value = ""
+		value = "嗯……这样落子的话，应该更难分出胜负了吧？"
 	},
 	ins_discuss_440_1 = {
-		value = ""
+		value = "看来是打算拖死对手呢。"
 	},
 	ins_reply_440_1_1 = {
-		value = ""
+		value = "依我看，明显醉翁之意不在酒。"
 	},
 	ins_reply_440_1_2 = {
-		value = ""
+		value = "呵呵~只是消磨一下时间罢了。"
 	},
 	ins_discuss_440_2 = {
-		value = ""
+		value = "这是围棋？嗯，如果换一种棋的话……说不定就能赢指挥官了？"
 	},
 	ins_reply_440_2_1 = {
-		value = ""
+		value = "如果有兴趣的话我可以教你下围棋。"
 	},
 	ins_reply_440_2_2 = {
-		value = ""
+		value = "那作为交换，我就教你国际象棋吧！"
 	},
 	ins_reply_440_2_3 = {
-		value = ""
+		value = "呵呵~陪我下棋已经是最好的报答了。"
 	},
 	ins_op_440_1_1 = {
-		value = ""
+		value = "下次一定能分出胜负！"
 	},
 	op_reply_440_1_1 = {
-		value = ""
+		value = "那我就拭目以待。"
 	},
 	ins_op_440_1_2 = {
-		value = ""
+		value = "一局结束后天都黑了……"
 	},
 	op_reply_440_1_2 = {
-		value = ""
+		value = "我倒是觉得结束得太早，还想和指挥官多聊一会儿呢。"
 	},
 	ins_441 = {
-		value = ""
+		value = "大火！宽油！爆炒！"
 	},
 	ins_discuss_441_1 = {
-		value = ""
+		value = "这个颜色……我有种不祥的预感！"
 	},
 	ins_reply_441_1_1 = {
-		value = ""
+		value = "竟然能让抚顺说这话……龙武小姐究竟是何方神圣？"
 	},
 	ins_discuss_441_2 = {
-		value = ""
+		value = "这是……今日的晚饭？"
 	},
 	ins_reply_441_2_1 = {
-		value = ""
+		value = "没错！保证够劲儿！"
 	},
 	ins_reply_441_2_2 = {
-		value = ""
+		value = "想去蹭饭！看起来很好吃的样子。"
 	},
 	ins_reply_441_2_3 = {
-		value = ""
+		value = "来呀来呀，我一定好好招待你！"
 	},
 	ins_reply_441_2_4 = {
-		value = ""
+		value = "………………我去准备一点胃药。"
 	},
 	ins_discuss_441_3 = {
-		value = ""
+		value = "果然，今天中午的醉蟹龙武姐吃太多了。"
 	},
 	ins_reply_441_3_1 = {
-		value = ""
+		value = "不多呀哈哈哈哈哈~"
 	},
 	ins_reply_441_3_2 = {
-		value = ""
+		value = "不，你这明显就是醉了。"
 	},
 	ins_reply_441_3_3 = {
-		value = ""
+		value = "你为什么不阻止她……"
 	},
 	ins_reply_441_3_4 = {
-		value = ""
+		value = "因为龙武姐喜欢吃呀！"
 	},
 	ins_op_441_1_1 = {
-		value = ""
+		value = "好辣！"
 	},
 	op_reply_441_1_1 = {
-		value = ""
+		value = "嘿嘿~辣就对了！这才够味！"
 	},
 	ins_op_441_1_2 = {
-		value = ""
+		value = "味道不错，老板再来一碗。"
 	},
 	op_reply_441_1_2 = {
-		value = ""
+		value = "比我想象中要厉害嘛？升级版宇宙无敌辣要试试吗？"
 	},
 	ins_442 = {
-		value = ""
+		value = "叫一声你的名字，你敢应吗？"
 	},
 	ins_discuss_442_1 = {
-		value = ""
+		value = "不敢不敢。"
 	},
 	ins_reply_442_1_1 = {
-		value = ""
+		value = "哈哈哈哈哈~"
 	},
 	ins_discuss_442_2 = {
-		value = ""
+		value = "在玩游戏？带我一个，{namecode:524}也想玩！"
 	},
 	ins_reply_442_2_1 = {
-		value = ""
+		value = "哈哈~你已经被我吸进葫芦里啦！"
 	},
 	ins_reply_442_2_2 = {
-		value = ""
+		value = "咦咦咦？为什么？"
 	},
 	ins_reply_442_2_3 = {
-		value = ""
+		value = "虎贲，不能欺负人。"
 	},
 	ins_discuss_442_3 = {
-		value = ""
+		value = "这是在扮演金角大王？"
 	},
 	ins_reply_442_3_1 = {
-		value = ""
+		value = "没错~我叫你一声{namecode:95}，你敢不敢答应？"
 	},
 	ins_reply_442_3_2 = {
-		value = ""
+		value = "呵呵~的确不敢。"
 	},
 	ins_op_442_1_1 = {
-		value = ""
+		value = "所以，这个葫芦真的能把人吸进去吗？"
 	},
 	op_reply_442_1_1 = {
-		value = ""
+		value = "嘿嘿~指挥官要亲自试试吗？"
 	},
 	ins_op_442_1_2 = {
-		value = ""
+		value = "叫你一声名字，你敢应吗？"
 	},
 	op_reply_442_1_2 = {
-		value = ""
+		value = "指挥官，你难道拿到了更强的葫芦？！"
 	},
 	ins_443 = {
-		value = ""
+		value = "今日成功冒险+1，战利品+1"
 	},
 	ins_discuss_443_1 = {
-		value = ""
+		value = "竟然能躲过龙武成功潜入？厉害厉害！"
 	},
 	ins_reply_443_1_1 = {
-		value = ""
+		value = "嘿嘿~可不要小瞧飞云大人哦~"
 	},
 	ins_discuss_443_2 = {
-		value = ""
+		value = "欢迎加入厨房黑名单小组。"
 	},
 	ins_reply_443_2_1 = {
-		value = ""
+		value = "等等！飞、飞云才没有上厨房黑名单呢！"
 	},
 	ins_reply_443_2_2 = {
-		value = ""
+		value = "飞云……旁边的牌子……都暴露了哦……"
 	},
 	ins_discuss_443_3 = {
-		value = ""
+		value = "…………姐姐刚才拿着锅铲冲出去了，保重。我会为你祈祷的。"
 	},
 	ins_reply_443_3_1 = {
-		value = ""
+		value = "咳哼！飞云大人才不怕！但是好船不吃眼前亏，我现在就走。"
 	},
 	ins_op_443_1_1 = {
-		value = ""
+		value = "下次冒险要记得消灭罪证。"
 	},
 	op_reply_443_1_1 = {
-		value = ""
+		value = "哼哼~真正的冒险之王就是要勇于向世人展现自己！……话说罪证是什么？"
 	},
 	ins_op_443_1_2 = {
-		value = ""
+		value = "龙武刚晒好的果干？…………之后要记得好好道歉。"
 	},
 	op_reply_443_1_2 = {
-		value = ""
+		value = "……知道了。"
 	},
 	ins_444 = {
-		value = ""
+		value = "祈愿的话，天灯就能实现我的愿望么……"
 	},
 	ins_discuss_444_1 = {
-		value = ""
+		value = "啊拉~可以尝试一下哦。说不定就实现了呢？"
 	},
 	ins_reply_444_1_1 = {
-		value = ""
+		value = "可是，只要是我想实现的愿望就一定不会实现的……"
 	},
 	ins_reply_444_1_2 = {
-		value = ""
+		value = "过年了，厄运女神也要休息的。放心吧，你的愿望会实现的。"
 	},
 	ins_discuss_444_2 = {
-		value = ""
+		value = "想实现的愿望一定不会实现，那反过来说，不想实现的愿望就一定会实现？"
 	},
 	ins_reply_444_2_1 = {
-		value = ""
+		value = "哦！这不就是卡BUG吗！"
 	},
 	ins_op_444_1_1 = {
-		value = ""
+		value = "把我的好运分送你，愿望就能实现了。"
 	},
 	op_reply_444_1_1 = {
-		value = ""
+		value = "可是，这样指挥官不就会变得不幸了么？"
 	},
 	ins_op_444_1_2 = {
-		value = ""
+		value = "把愿望告诉我，我直接帮你实现！"
 	},
 	op_reply_444_1_2 = {
-		value = ""
+		value = "这样的我真的可以吗……"
 	},
 	ins_445 = {
-		value = ""
+		value = "冬天的虫子，就应该冬眠才对~"
 	},
 	ins_discuss_445_1 = {
-		value = ""
+		value = "这种感觉……拉菲也懂……"
 	},
 	ins_reply_445_1_1 = {
-		value = ""
+		value = "不，拉菲只是想睡觉而已吧？"
 	},
 	ins_reply_445_1_2 = {
-		value = ""
+		value = "冬眠……就是睡觉。"
 	},
 	ins_reply_445_1_3 = {
-		value = ""
+		value = "冬眠也可以躺在床上什么都不做。"
 	},
 	ins_discuss_445_2 = {
-		value = ""
+		value = "想要冬眠的话还可以试试被炉！"
 	},
 	ins_reply_445_2_1 = {
-		value = ""
+		value = "被炉？那是什么？"
 	},
 	ins_reply_445_2_2 = {
-		value = ""
+		value = "使用过的人都会被它的温暖吸进去，再也出不来哦~"
 	},
 	ins_reply_445_2_3 = {
-		value = ""
+		value = "会把人吞噬的被炉？有趣。"
 	},
 	ins_op_445_1_1 = {
-		value = ""
+		value = "冬眠的小虫子也很可爱。"
 	},
 	op_reply_445_1_1 = {
-		value = ""
+		value = "要一起冬眠吗？"
 	},
 	ins_op_445_1_2 = {
-		value = ""
+		value = "看来被窝的魔力已经把你吞噬了。"
 	},
 	op_reply_445_1_2 = {
-		value = ""
+		value = "请不要拯救我，我正在融合它的力量，等到夏天就能进化！"
 	},
 	ins_446 = {
-		value = ""
+		value = "喝茶与赏花，这就是拍摄后的奖励吧~"
 	},
 	ins_discuss_446_1 = {
-		value = ""
+		value = "感觉好悠闲~"
 	},
 	ins_reply_446_1_1 = {
-		value = ""
+		value = "是一种和森林浴完全不一样的悠闲，半人马前辈也可以来试试。"
 	},
 	ins_reply_446_1_2 = {
-		value = ""
+		value = "亭台楼阁里喝茶赏花，看起来确实不错……求地址！"
 	},
 	ins_discuss_446_2 = {
-		value = ""
+		value = "这大概就是“香气来朱阁”的真实写照吧。"
 	},
 	ins_reply_446_2_1 = {
-		value = ""
+		value = "梅花确实很香，谢谢海天小姐的推荐。"
 	},
 	ins_reply_446_2_2 = {
-		value = ""
+		value = "香气来朱阁？这组写真的名字就叫这个吧！"
 	},
 	ins_op_446_1_1 = {
-		value = ""
+		value = "从这个角度欣赏，确实别有一番风味呢。"
 	},
 	op_reply_446_1_1 = {
-		value = ""
+		value = "呵呵，对吧？这里的风景确实很好~"
 	},
 	ins_op_446_1_2 = {
-		value = ""
+		value = "花瓣要落到茶里了！"
 	},
 	op_reply_446_1_2 = {
-		value = ""
+		value = "没关系，泡了花瓣的茶也很好喝哦~"
 	},
 	ins_447 = {
-		value = ""
+		value = "船，摇摇晃晃的。好有趣！"
 	},
 	ins_discuss_447_1 = {
-		value = ""
+		value = "这个船……晃悠悠的，是不是有点危险？"
 	},
 	ins_reply_447_1_1 = {
-		value = ""
+		value = "危险？"
 	},
 	ins_reply_447_1_2 = {
-		value = ""
+		value = "都是舰船，又是在水上，哪会有危险……"
 	},
 	ins_discuss_447_2 = {
-		value = ""
+		value = "……为什么不直接用舰装下水？"
 	},
 	ins_reply_447_2_1 = {
-		value = ""
+		value = "这种时候用舰装就太破坏气氛了！"
 	},
 	ins_reply_447_2_2 = {
-		value = ""
+		value = "气氛？那是什么？"
 	},
 	ins_op_447_1_1 = {
-		value = ""
+		value = "今天安克雷奇开心吗？"
 	},
 	op_reply_447_1_1 = {
-		value = ""
+		value = "开心！老师，最喜欢了！"
 	},
 	ins_op_447_1_2 = {
-		value = ""
+		value = "下次要去玩更有趣的吗？"
 	},
 	op_reply_447_1_2 = {
-		value = ""
+		value = "想！"
 	},
 	ins_448 = {
-		value = ""
+		value = "据说手套是精髓？"
 	},
 	ins_discuss_448_1 = {
-		value = ""
+		value = "是指挥官送的礼物吗？姐姐好漂亮！"
 	},
 	ins_reply_448_1_1 = {
-		value = ""
+		value = "手套的确是指挥官给我的……嗯？手套也是礼物吗？"
 	},
 	ins_reply_448_1_2 = {
-		value = ""
+		value = "我说的不是手套啦。"
 	},
 	ins_discuss_448_2 = {
-		value = ""
+		value = "当季最新款旗袍！声望小姐的眼光真不错。"
 	},
 	ins_reply_448_2_1 = {
-		value = ""
+		value = "这其实是收到的新年礼物，并非是我自己挑选的。"
 	},
 	ins_discuss_448_3 = {
-		value = ""
+		value = "韵致深雅，的确很适合声望。看来指挥官的品味很不错。"
 	},
 	ins_reply_448_3_1 = {
-		value = ""
+		value = "如果这件衣服的开衩不要这么高就更完美了。"
 	},
 	ins_reply_448_3_2 = {
-		value = ""
+		value = "相信我，这样才正好的。"
 	},
 	ins_op_448_1_1 = {
-		value = ""
+		value = "希望你喜欢这件礼物。"
 	},
 	op_reply_448_1_1 = {
-		value = ""
+		value = "非常喜欢，指挥官的心意，我收到了！"
 	},
 	ins_op_448_1_2 = {
-		value = ""
+		value = "没错，手套是精髓！"
 	},
 	op_reply_448_1_2 = {
-		value = ""
+		value = "原……原来如此？"
 	}
 }

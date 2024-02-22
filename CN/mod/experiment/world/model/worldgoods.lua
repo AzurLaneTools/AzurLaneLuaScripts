@@ -15,16 +15,16 @@ function slot0.Setup(slot0, slot1)
 	assert(slot0.config, "world_goods_data not exist: " .. slot0.id)
 
 	slot0.count = slot1.count
-	slot0.item = {
+	slot0.item = Drop.New({
 		type = slot0.config.item_type,
 		id = slot0.config.item_id,
 		count = slot0.config.item_num
-	}
-	slot0.moneyItem = {
+	})
+	slot0.moneyItem = Drop.New({
 		type = slot0.config.price_type,
 		id = slot0.config.price_id,
 		count = slot0.config.price_num
-	}
+	})
 end
 
 function slot0.UpdateCount(slot0, slot1)

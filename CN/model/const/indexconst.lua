@@ -192,7 +192,7 @@ function slot0.filterEquipByType(slot0, slot1)
 	end
 
 	for slot5 = 2, #EquipmentSortCfg.index do
-		if bit.band(bit.lshift(1, slot5 - 2), slot1) > 0 and table.contains(EquipmentSortCfg.index[slot5].types, slot0.config.type) then
+		if bit.band(bit.lshift(1, slot5 - 2), slot1) > 0 and table.contains(EquipmentSortCfg.index[slot5].types, slot0:getConfig("type")) then
 			return true
 		end
 	end
@@ -462,7 +462,7 @@ function slot0.filterEquipByRarity(slot0, slot1)
 		return true
 	end
 
-	return bit.band(bit.lshift(1, math.max(slot0.config.rarity - 2, 0)), slot1) > 0
+	return bit.band(bit.lshift(1, math.max(slot0:getConfig("rarity") - 2, 0)), slot1) > 0
 end
 
 slot0.EquipmentExtraNames = {

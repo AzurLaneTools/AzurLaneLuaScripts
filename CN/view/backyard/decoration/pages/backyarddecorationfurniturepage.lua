@@ -11,7 +11,8 @@ function slot1(slot0)
 			3,
 			4,
 			5,
-			6
+			6,
+			8
 		}
 	end
 

@@ -42,10 +42,7 @@ function slot0.register(slot0)
 			end)
 		end
 
-		slot3 = {
-			len = select("#", ...),
-			...
-		}
+		slot3 = packEx(...)
 
 		pg.UIMgr.GetInstance():LoadingOn()
 		seriesAsync(slot2, function ()
@@ -66,10 +63,7 @@ function slot0.register(slot0)
 			end)
 		end
 
-		slot3 = {
-			len = select("#", ...),
-			...
-		}
+		slot3 = packEx(...)
 
 		pg.UIMgr.GetInstance():LoadingOn()
 		seriesAsync(slot2, function ()

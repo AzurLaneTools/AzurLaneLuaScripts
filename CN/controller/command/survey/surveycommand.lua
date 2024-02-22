@@ -8,17 +8,10 @@ function slot0.execute(slot0, slot1)
 	}, 11026, function (slot0)
 		if slot0.result == 0 then
 			print(uv0.surveyID, uv0.surveyUrlStr)
+			pg.SdkMgr.GetInstance():Survey(uv0.surveyUrlStr)
 
-			if PLATFORM_CODE == PLATFORM_CH then
-				if LuaHelper.GetCHPackageType() ~= PACKAGE_TYPE_UNION then
-					Application.OpenURL(uv0.surveyUrlStr)
-				end
-			else
-				pg.SdkMgr.GetInstance():Survey(uv0.surveyUrlStr)
-
-				if IsUnityEditor then
-					Application.OpenURL(uv0.surveyUrlStr)
-				end
+			if IsUnityEditor then
+				Application.OpenURL(uv0.surveyUrlStr)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

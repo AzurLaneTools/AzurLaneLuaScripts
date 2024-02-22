@@ -109,7 +109,7 @@ function slot0.initTarget(slot0)
 		slot5 = cloneTplTo(slot0.targetTpl, slot0.targetContent, tostring(slot4))
 		slot6 = slot0.targetList[slot4]
 
-		setImageSprite(slot0:findTF("animroot/icon", slot5), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].icon), true)
+		setImageSprite(slot0:findTF("animroot/icon/Image", slot5), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].icon), true)
 		setImageSprite(slot0:findTF("animroot/name", slot5), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].pic), true)
 		onButton(slot0, slot5, function ()
 			if uv0.selectedIndex == uv1 then

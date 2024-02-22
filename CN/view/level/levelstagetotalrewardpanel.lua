@@ -267,18 +267,13 @@ function slot0.UpdateSPItem(slot0)
 		end
 
 		slot3 = uv0[slot1 + 1]
+		slot4 = tonumber(slot3.benefit_condition)
 
 		setText(slot2:Find("Active/Desc"), slot3.desc)
 
-		slot5 = _.detect(uv1, function (slot0)
+		slot6 = _.detect(uv1, function (slot0)
 			return slot0.configId == uv0
-		end) or {
-			count = 0,
-			id = tonumber(slot3.benefit_condition),
-			type = DROP_TYPE_ITEM
-		}
-		slot5.type = DROP_TYPE_ITEM
-		slot6 = slot5.count > 0
+		end) and slot5.count > 0
 
 		setActive(slot2:Find("Active"), slot6)
 		setActive(slot2:Find("Block"), not slot6)
@@ -290,7 +285,11 @@ function slot0.UpdateSPItem(slot0)
 		end
 
 		setActive(slot2:Find("Active/Item"), true)
-		updateDrop(slot2:Find("Active/Item/Icon"), slot5)
+		updateDrop(slot2:Find("Active/Item/Icon"), Drop.New({
+			id = slot4,
+			type = DROP_TYPE_ITEM,
+			count = slot5 and slot5.count or 0
+		}))
 		onButton(uv2, slot2, function ()
 			uv0.contextData.spItemID = not uv0.contextData.spItemID and uv1 or nil
 

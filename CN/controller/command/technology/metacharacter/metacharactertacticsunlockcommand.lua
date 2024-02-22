@@ -24,10 +24,10 @@ function slot0.execute(slot0, slot1)
 
 			slot2:upSkillLevelForMeta(uv1)
 			slot1:updateShip(slot2)
-			uv2:sendNotification(GAME.CONSUME_ITEM, Item.New({
-				count = uv3.count,
+			uv2:sendNotification(GAME.CONSUME_ITEM, Drop.New({
+				type = DROP_TYPE_ITEM,
 				id = uv3.id,
-				type = DROP_TYPE_ITEM
+				count = uv3.count
 			}))
 			getProxy(MetaCharacterProxy):unlockMetaTacticsSkill(uv0, uv1, slot2:isAllMetaSkillLock())
 			uv2:sendNotification(GAME.TACTICS_META_UNLOCK_SKILL_DONE, {

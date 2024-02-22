@@ -4104,7 +4104,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2023.12.7-2024.3.7</color>期间限时开放「基洛夫·META」的挑战，在此期间指挥官可挑战「基洛夫·META」累计其同步值获取<color=#92fc63>「基洛夫·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2023.12.7-2024.3.14</color>期间限时开放「基洛夫·META」的挑战，在此期间指挥官可挑战「基洛夫·META」累计其同步值获取<color=#92fc63>「基洛夫·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4133,7 +4133,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标基洛夫·META挑战的进行，从第31天开始，即2024.1.7~2024.3.7期间，舰队挑战「基洛夫·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标基洛夫·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标基洛夫·META挑战的进行，从第31天开始，即2024.1.7~2024.3.14期间，舰队挑战「基洛夫·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标基洛夫·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标基洛夫·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -10140,11 +10140,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:199}、{namecode:182}、{namecode:80}、{namecode:195} 等角色建造追加！"
+	tip = "苏维埃贝拉罗斯、塔林 等角色建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "古比雪夫 建造追加！"
+	tip = "基洛夫、雷鸣、摩尔曼斯克 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -17701,7 +17701,7 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2023.12.7-2024.3.7</color>期间限时开放「基洛夫·META」的「资讯同步」，通过「信标基洛夫·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「基洛夫·META」角色</color>
+·<color=#92fc63>2023.12.7-2024.3.14</color>期间限时开放「基洛夫·META」的「资讯同步」，通过「信标基洛夫·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「基洛夫·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
 ·注意：<color=#ff5c5c>「基洛夫·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
@@ -25779,7 +25779,7 @@ _G.pg.base.gametip.child_item_type4 = {
 }
 
 _G.pg.base.gametip.child_mind_empty_tip = {
-	tip = "-当前暂无任何心事"
+	tip = "-当前暂无任何心事-"
 }
 
 _G.pg.base.gametip.child_mind_finish_title = {
@@ -27516,4 +27516,8 @@ _G.pg.base.gametip.child_shop_price_title = {
 
 _G.pg.base.gametip.child_callname_tip = {
 	tip = "请输入..."
+}
+
+_G.pg.base.gametip.child_plan_no_cost = {
+	tip = "- 无消耗 -"
 }

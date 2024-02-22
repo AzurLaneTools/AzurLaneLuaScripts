@@ -71,11 +71,11 @@ function slot1(slot0, slot1)
 			content = "",
 			yesText = "text_confirm",
 			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
+			drop = Drop.New({
 				isWorldBuff = true,
 				type = DROP_TYPE_STRATEGY,
 				id = uv0.id
-			}
+			})
 		})
 	end, SFX_PANEL)
 end

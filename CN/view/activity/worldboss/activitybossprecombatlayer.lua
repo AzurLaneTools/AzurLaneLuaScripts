@@ -586,10 +586,10 @@ function slot0.displayFleetInfo(slot0)
 	setText(slot0._bonus:Find("Text"), slot11)
 
 	if slot11 <= 0 then
-		setImageSprite(slot0._ticket:Find("icon"), LoadSprite(getDropIcon({
+		setImageSprite(slot0._ticket:Find("icon"), LoadSprite(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot0._ticketItemID
-		}), ""))
+		}):getIcon(), ""))
 
 		slot14 = getProxy(PlayerProxy):getRawData():getResource(slot0._ticketItemID)
 		slot15 = 1

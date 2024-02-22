@@ -66,8 +66,8 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	UpdateOwnDisplay(slot0.ownerTF, slot3)
 	RegisterDetailButton(slot0, slot0.detailTF, slot3)
 
-	slot0.nameTF.text = slot3.cfg.name
-	slot0.descTF.text = slot3.desc or slot3.cfg.desc
+	slot0.nameTF.text = slot3:getConfig("name")
+	slot0.descTF.text = slot3.desc or slot3:getConfig("desc")
 
 	updateDrop(slot0.bottomItem, slot3)
 	onButton(slot0, slot0.confirmBtn, function ()

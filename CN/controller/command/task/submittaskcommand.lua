@@ -118,7 +118,7 @@ function slot0.execute(slot0, slot1)
 
 				if not uv4 then
 					for slot5 = #slot1, 1, -1 do
-						if slot1[slot5].dropType == DROP_TYPE_VITEM then
+						if slot1[slot5].type == DROP_TYPE_VITEM then
 							table.remove(slot1, slot5)
 						end
 					end

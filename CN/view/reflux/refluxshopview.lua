@@ -121,10 +121,10 @@ function slot0.updateItem(slot0, slot1, slot2)
 	setText(slot0:findTF("Count", slot1), slot2.count or slot2[3])
 
 	if (slot2.type or slot2[1]) ~= DROP_TYPE_SHIP then
-		setImageSprite(slot4, LoadSprite(getDropIcon({
+		setImageSprite(slot4, LoadSprite(Drop.New({
 			type = slot6,
 			id = slot7
-		})))
+		}):getIcon()))
 	else
 		setImageSprite(slot4, LoadSprite("QIcon/" .. Ship.New({
 			configId = slot7
@@ -430,11 +430,7 @@ function slot0.confirm(slot0, slot1)
 
 		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() or slot1:isPassItem() then
 			slot5 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
-				return {
-					type = slot0[1],
-					id = slot0[2],
-					count = slot0[3]
-				}
+				return Drop.Create(slot0)
 			end)
 			slot6 = nil
 
@@ -448,11 +444,7 @@ function slot0.confirm(slot0, slot1)
 					count = slot7[2]
 				}
 				slot5 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot8].drop_client_pay, function (slot0)
-					return {
-						type = slot0[1],
-						id = slot0[2],
-						count = slot0[3]
-					}
+					return Drop.Create(slot0)
 				end))
 			end
 
@@ -460,17 +452,17 @@ function slot0.confirm(slot0, slot1)
 			slot8 = nil
 
 			if slot1:isMonthCard() then
-				slot8 = {
-					id = 4,
-					type = 1,
-					count = slot7
-				}
-			elseif slot7 > 0 then
-				table.insert(slot5, {
-					id = 4,
-					type = 1,
+				slot8 = Drop.New({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResDiamond,
 					count = slot7
 				})
+			elseif slot7 > 0 then
+				table.insert(slot5, Drop.New({
+					type = DROP_TYPE_RESOURCE,
+					id = PlayerConst.ResDiamond,
+					count = slot7
+				}))
 			end
 
 			slot9, slot10 = nil
@@ -536,11 +528,7 @@ function slot0.confirm(slot0, slot1)
 
 		if type(Item.getConfigData(slot1:getConfig("effect_args")[1]).display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
-				table.insert(slot2, {
-					type = slot10[1],
-					id = slot10[2],
-					count = slot10[3]
-				})
+				table.insert(slot2, Drop.Create(slot10))
 			end
 		end
 

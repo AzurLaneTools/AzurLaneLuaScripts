@@ -226,7 +226,7 @@ function slot0.showItemDetail(slot0, slot1)
 				uv0:emit(uv1.ON_DROP, uv2)
 			end, SFX_PANEL)
 
-			slot13, slot14 = contentWrap(slot5.cfg.name, 10, 2)
+			slot13, slot14 = contentWrap(slot5:getConfig("name"), 10, 2)
 
 			if slot13 then
 				slot14 = slot14 .. "..."
@@ -249,7 +249,7 @@ function slot0.showItemDetail(slot0, slot1)
 		for slot16 = 1, #slot7 do
 			updateDrop(slot0.detailItemList:GetChild(slot16 - 1), slot7[slot16])
 
-			slot18, slot19 = contentWrap(slot7[slot16].cfg.name, 8, 2)
+			slot18, slot19 = contentWrap(slot7[slot16]:getConfig("name"), 8, 2)
 
 			if slot18 then
 				slot19 = slot19 .. "..."

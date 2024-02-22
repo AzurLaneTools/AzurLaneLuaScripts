@@ -44,11 +44,7 @@ function slot0.OnFirstFlush(slot0)
 			slot3 = slot1 + 1
 
 			updateDrop(slot2, _.map(uv0.config["day" .. slot3], function (slot0)
-				return {
-					type = slot0[1],
-					id = slot0[2],
-					count = slot0[3]
-				}
+				return Drop.Create(slot0)
 			end)[1])
 			onButton(uv0, slot2, function ()
 				if #uv0 == 1 then

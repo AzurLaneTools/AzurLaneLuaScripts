@@ -32,15 +32,15 @@ function slot0.execute(slot0, slot1)
 			slot7 = slot4:getData()
 
 			slot7:consume({
-				gold = ((not uv0 or getProxy(BayProxy):getShipById(uv0):getEquip(uv1)) and getProxy(EquipmentProxy):getEquipmentById(uv2)).config.trans_use_gold
+				gold = ((not uv0 or getProxy(BayProxy):getShipById(uv0):getEquip(uv1)) and getProxy(EquipmentProxy):getEquipmentById(uv2)):getConfig("trans_use_gold")
 			})
 			slot4:updatePlayer(slot7)
 
-			for slot13, slot14 in ipairs(slot6.config.trans_use_item) do
+			for slot13, slot14 in ipairs(slot6:getConfig("trans_use_item")) do
 				slot2:removeItemById(slot14[1], slot14[2])
 			end
 
-			slot10 = slot6:MigrateTo(slot6.config.next)
+			slot10 = slot6:MigrateTo(slot6:getConfig("next"))
 
 			if slot5 then
 				slot5:updateEquip(uv1, slot10)

@@ -1,53 +1,54 @@
 slot0 = class("ShipCalcHelper")
 
 function slot0.CalcDestoryRes(slot0)
-	slot1 = 0
+	slot1 = {}
 	slot2 = 0
-	slot3 = {}
+	slot3 = 0
 	slot4 = false
 
 	for slot8, slot9 in ipairs(slot0) do
 		slot10, slot11, slot12 = slot9:calReturnRes()
-		slot1 = slot1 + slot10
-		slot2 = slot2 + slot11
+		slot2 = slot2 + slot10
+		slot3 = slot3 + slot11
+		slot1 = table.mergeArray(slot1, underscore.map(slot12, function (slot0)
+			return Drop.Create(slot0)
+		end))
+	end
 
-		for slot16, slot17 in ipairs(slot12) do
-			slot18 = slot17[1]
-			slot20 = slot17[3]
+	for slot8 = #PlayerConst.MergeSameDrops(slot1), 1, -1 do
+		if slot1[slot8].type == DROP_TYPE_VITEM and slot9:getConfig("virtual_type") == 20 then
+			slot10, slot11 = unpack(pg.gameset.urpt_chapter_max.description)
+			slot4 = math.min(slot9.count, slot11 - getProxy(BagProxy):GetLimitCntById(slot10)) < slot9.count
 
-			if not slot3[slot17[2]] then
-				slot3[slot19] = {
-					type = slot18,
-					id = slot19,
-					count = slot20
-				}
+			if slot12 > 0 then
+				slot9.count = slot12
 			else
-				slot3[slot19].count = slot3[slot19].count + slot20
+				table.remove(slot1, slot8)
 			end
 		end
 	end
 
-	for slot8, slot9 in pairs(slot3) do
+	for slot8, slot9 in pairs(slot1) do
 		if slot9.count > 0 and slot9.type == DROP_TYPE_VITEM and Item.getConfigData(slot9.id).virtual_type == 20 then
 			slot10 = slot9.count
 			slot11 = pg.gameset.urpt_chapter_max.description
 			slot4 = math.min(slot11[2] - getProxy(BagProxy):GetLimitCntById(slot11[1]), slot10) < slot10
 
 			if slot15 <= 0 then
-				slot3[slot8].count = 0
+				slot1[slot8].count = 0
 			else
-				slot3[slot8].count = slot15
+				slot1[slot8].count = slot15
 			end
 		end
 	end
 
-	slot5 = _.values(slot3)
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return slot0.id
+		end
+	}))
 
-	table.sort(slot5, function (slot0, slot1)
-		return slot0.id < slot1.id
-	end)
-
-	return slot1, slot2, slot5, slot4
+	return slot2, slot3, slot1, slot4
 end
 
 function slot0.GetEliteAndHightLevelShips(slot0)

@@ -26,10 +26,10 @@ function slot0.UpdateRes(slot0)
 	if not slot0.isInitResIcon then
 		slot0.isInitResIcon = true
 
-		GetImageSpriteFromAtlasAsync(getDropIcon({
+		GetImageSpriteFromAtlasAsync(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot1
-		}), "", slot0.resIcon)
+		}):getIcon(), "", slot0.resIcon)
 	end
 end
 
