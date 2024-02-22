@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 			}
 			slot8 = slot0.pt
 
-			table.insert({}, Item.New(slot7))
+			table.insert({}, Drop.New(slot7))
 			uv0:RemoveSubTasks(uv1)
 			uv0:AddProgress(slot0.pt)
 

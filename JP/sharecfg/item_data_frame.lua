@@ -432,6 +432,15 @@ pg.item_data_frame = {
 		desc = "イベントで入手可能",
 		scene = {}
 	},
+	[329] = {
+		time_limit_type = 0,
+		name = "氷域の星",
+		gain_by = "",
+		id = 329,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -688,6 +697,7 @@ pg.item_data_frame = {
 		326,
 		327,
 		328,
+		329,
 		401,
 		402,
 		403,

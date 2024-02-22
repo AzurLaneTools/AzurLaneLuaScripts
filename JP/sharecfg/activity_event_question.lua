@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[43] = {
-		answer_right = "重巡洋艦",
-		answer_false1 = "軽巡洋艦",
-		question = "「CA」とはどの艦種の略称？",
+	[57] = {
+		answer_right = "急上昇爆撃",
+		answer_false1 = "反跳爆撃",
+		question = "爆撃機の爆撃方法に含まれないのは？",
 		type = 1,
-		id = 43,
-		answer_false3 = "巡洋戦艦",
+		id = 57,
+		answer_false3 = "水平爆撃",
 		wrong_time = 30,
-		answer_false2 = "大型巡洋艦"
+		answer_false2 = "急降下爆撃"
 	},
-	[44] = {
-		answer_right = "<size=24>ダメージコントロール</size>",
-		answer_false1 = "<size=24>ファイアコントロール</size>",
-		question = "艦艇が受けたダメージを緊急処置するときの措置を何という？",
+	[58] = {
+		answer_right = "<size=26>目標との距離を表示</size>",
+		answer_false1 = "<size=26>装填時間を表示</size>",
+		question = "戦艦の示数盤の役割に含まれるのは？",
 		type = 1,
-		id = 44,
-		answer_false3 = "ダメージエイド",
+		id = 58,
+		answer_false3 = "<size=26>食事時間を表示する</size>",
 		wrong_time = 30,
-		answer_false2 = "<size=26>ダメージコンバート</size>"
+		answer_false2 = "<size=26>現在時刻を表示</size>"
 	},
-	[45] = {
-		answer_right = "305mm",
-		answer_false1 = "203mm",
-		question = "潜水艦が装備した最大口径の艦砲の口径はいくつ？",
+	[59] = {
+		answer_right = "アーガス",
+		answer_false1 = "ラングレー",
+		question = "世界初の全通式甲板を持つ空母は？",
 		type = 1,
-		id = 45,
-		answer_false3 = "105mm",
+		id = 59,
+		answer_false3 = "ボーグ",
 		wrong_time = 30,
-		answer_false2 = "152mm"
+		answer_false2 = "鎮海"
 	},
-	[46] = {
-		answer_right = "熱走式",
-		answer_false1 = "電気式",
-		question = "九三式酸素魚雷の推進動力における分類は何？",
+	[60] = {
+		answer_right = "He-178",
+		answer_false1 = "Me-262",
+		question = "世界初のジェット機は？",
 		type = 1,
-		id = 46,
-		answer_false3 = "機会式",
+		id = 60,
+		answer_false3 = "MiG-9",
 		wrong_time = 30,
-		answer_false2 = "噴進式"
+		answer_false2 = "F9F"
 	},
-	[47] = {
-		answer_right = "速力通信機",
-		answer_false1 = "船鐘",
-		question = "艦橋と機関室の間で前進/後退の指示を送受信する設備の名前は何？",
+	[61] = {
+		answer_right = "24",
+		answer_false1 = "28",
+		question = "エセックス級空母の「完成数」は？",
 		type = 1,
-		id = 47,
-		answer_false3 = "短波無線",
+		id = 61,
+		answer_false3 = "25",
 		wrong_time = 30,
-		answer_false2 = "伝声管"
+		answer_false2 = "17"
 	},
-	[48] = {
-		answer_right = "1922年",
-		answer_false1 = "1919年",
-		question = "純粋な航空母艦として建造された最初の空母の竣工年はいつ？",
+	[62] = {
+		answer_right = "<size=26>吊り下げバスケット</size>",
+		answer_false1 = "<size=26>パラグライダー</size>",
+		question = "軍艦間の海上での人員移動に使用される機材は？",
 		type = 1,
-		id = 48,
-		answer_false3 = "1920年",
+		id = 62,
+		answer_false3 = "魚雷管",
 		wrong_time = 30,
-		answer_false2 = "1924年"
+		answer_false2 = "<size=26>爆弾ジョイント</size>"
 	},
-	[49] = {
-		answer_right = "水中弾効果",
-		answer_false1 = "機雷効果",
-		question = "目標の手前の水中に落下して、そのまま直進し敵艦の水中防御に命中する現象を何という？",
+	[63] = {
+		answer_right = "<size=26>アイスクリーム</size>",
+		answer_false1 = "<size=26>かぼちゃスープ</size>",
+		question = "単座式の艦載機が空中で「作れた」食べ物は？",
 		type = 1,
-		id = 49,
-		answer_false3 = "対バルジ弾",
+		id = 63,
+		answer_false3 = "アップルパイ",
 		wrong_time = 30,
-		answer_false2 = "反跳攻撃"
+		answer_false2 = "ステーキ"
 	},
-	[50] = {
-		answer_right = "102000",
-		answer_false1 = "40000",
-		question = "寮舎の食料備蓄上限はいくつ？",
+	[64] = {
+		answer_right = "9",
+		answer_false1 = "7",
+		question = "セイレーン作戦での特殊オーダー「」の最大消費行動力は？",
 		type = 2,
-		id = 50,
-		answer_false3 = "80000",
+		id = 64,
+		answer_false3 = "10",
 		wrong_time = 30,
-		answer_false2 = "上限なし"
+		answer_false2 = "8"
 	},
-	[51] = {
-		answer_right = "駆逐艦",
-		answer_false1 = "潜水艦",
-		question = "限界突破MAXの状態で、３つの特殊強化効果からランダムで1つを得られる艦種は何？",
+	[65] = {
+		answer_right = "5000",
+		answer_false1 = "4000",
+		question = "イベント以外で毎月入手可能な特装コアの上限は？",
 		type = 2,
-		id = 51,
-		answer_false3 = "主力艦隊",
+		id = 65,
+		answer_false3 = "2000",
 		wrong_time = 30,
-		answer_false2 = "工作艦"
+		answer_false2 = "3000"
 	},
-	[52] = {
-		answer_right = "中装甲",
-		answer_false1 = "重装甲",
-		question = "SAP弾の主砲はどんな敵を攻撃するときに与ダメージが最も高い？",
+	[66] = {
+		answer_right = "輪形陣",
+		answer_false1 = "複縦陣",
+		question = "海域に出撃時、艦隊の対空を上げる陣形は？",
 		type = 2,
-		id = 52,
-		answer_false3 = "セイレーン",
+		id = 66,
+		answer_false3 = "梯形陣",
 		wrong_time = 30,
-		answer_false2 = "軽装甲"
+		answer_false2 = "単縦陣"
 	},
-	[53] = {
-		answer_right = "37",
-		answer_false1 = "35",
-		question = "セイレーン作戦の港任務は毎週最大何個まで受注可能か？",
+	[67] = {
+		answer_right = "戦士の心得",
+		answer_false1 = "輝く☆マイク",
+		question = "ウォースパイトの改造素材アイテムの名前は？",
 		type = 2,
-		id = 53,
-		answer_false3 = "39",
+		id = 67,
+		answer_false3 = "女王の号令",
 		wrong_time = 30,
-		answer_false2 = "42"
+		answer_false2 = "<size=26>ミート・パフューム</size>"
 	},
-	[54] = {
-		answer_right = "発動頻度上昇",
-		answer_false1 = "効果範囲拡大",
-		question = "特殊装備の「斬撃」スキルをレベルアップさせると、下記強化効果の中で得られないのは？",
+	[68] = {
+		answer_right = "<size=26>特殊装備を装備する</size>",
+		answer_false1 = "<size=26>レア度を上げる</size>",
+		question = "下記の行動で出撃時の燃料消費に影響しないのは？",
 		type = 2,
-		id = 54,
-		answer_false3 = "無効弾種増加",
+		id = 68,
+		answer_false3 = "<size=26>限界突破を行う</size>",
 		wrong_time = 30,
-		answer_false2 = "ダメージ上昇"
+		answer_false2 = "<size=26>艦船レベルを上げる</size>"
 	},
-	[55] = {
-		answer_right = "1400",
-		answer_false1 = "200",
-		question = "常設されたMETA艦船に挑戦できる「記憶座標データ」の所持上限はいくつ？",
+	[69] = {
+		answer_right = "TB",
+		answer_false1 = "TA",
+		question = "セイレーン作戦におけるナビキャラの名前は？",
 		type = 2,
-		id = 55,
-		answer_false3 = "700",
+		id = 69,
+		answer_false3 = "TD",
 		wrong_time = 30,
-		answer_false2 = "100"
+		answer_false2 = "TC"
 	},
-	[56] = {
-		answer_right = "<size=22>ステージ攻略進捗100％</size>",
-		answer_false1 = "<size=30>ステージ☆3達成</size>",
-		question = "通常海域の「燃料消費上限」機能を開放する条件は？",
+	[70] = {
+		answer_right = "<size=26>戦闘時の航空支援</size>",
+		answer_false1 = "<size=26>索敵値を上げる</size>",
+		question = "メイン海域機能「支援艦隊」の効果に含まれるのは？",
 		type = 2,
-		id = 56,
-		answer_false3 = "<size=28>すべての敵を撃破</size>",
+		id = 70,
+		answer_false3 = "耐久を上げる",
 		wrong_time = 30,
-		answer_false2 = "<size=24>海域脅威度が安全海域に</size>"
+		answer_false2 = "<size=26>制空値を上昇させる</size>"
 	},
 	all = {
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70
 	}
 }

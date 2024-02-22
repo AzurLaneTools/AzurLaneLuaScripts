@@ -32,11 +32,11 @@ function slot0.execute(slot0, slot1)
 				slot14 = true
 			end
 
-			if EquipmentRarity.Gold <= slot13.config.rarity then
+			if EquipmentRarity.Gold <= slot13:getConfig("rarity") then
 				slot14 = true
 			end
 
-			if slot13.config.id % 20 >= 10 then
+			if slot13:getConfig("id") % 20 >= 10 then
 				slot14 = true
 			end
 
@@ -69,8 +69,8 @@ function slot0.execute(slot0, slot1)
 					print("remove: " .. slot0 .. " " .. slot1)
 					uv0:removeEquipmentById(slot0, slot1)
 
-					slot3 = uv0:getEquipmentById(slot0).config.destory_item or {}
-					uv1 = uv1 + (slot2.config.destory_gold or 0) * slot1
+					slot3 = uv0:getEquipmentById(slot0):getConfig("destory_item") or {}
+					uv1 = uv1 + (slot2:getConfig("destory_gold") or 0) * slot1
 
 					for slot8, slot9 in ipairs(slot3) do
 						slot10 = false
@@ -85,7 +85,7 @@ function slot0.execute(slot0, slot1)
 						end
 
 						if not slot10 then
-							table.insert(uv2, Item.New({
+							table.insert(uv2, Drop.New({
 								type = DROP_TYPE_ITEM,
 								id = slot9[1],
 								count = slot9[2] * slot1
@@ -107,7 +107,7 @@ function slot0.execute(slot0, slot1)
 				}
 				slot10 = DROP_TYPE_RESOURCE
 
-				table.insert(slot3, Item.New(slot9))
+				table.insert(slot3, Drop.New(slot9))
 
 				for slot9, slot10 in ipairs(slot3) do
 					uv1:sendNotification(GAME.ADD_ITEM, slot10)

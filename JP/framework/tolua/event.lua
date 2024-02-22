@@ -16,18 +16,15 @@ slot9 = {
 				return uv0(slot0.func, uv1, slot0.obj, ...)
 			end
 		else
-			slot1 = {
-				len = select("#", ...),
-				...
-			}
+			slot1 = packEx(...)
 
 			if slot0.obj == nil then
 				return uv0(function ()
-					uv0.func(unpack(uv1, 1, uv1.len))
+					uv0.func(unpackEx(uv1))
 				end, uv1)
 			else
 				return uv0(function ()
-					uv0.func(uv0.obj, unpack(uv1, 1, uv1.len))
+					uv0.func(uv0.obj, unpackEx(uv1))
 				end, uv1)
 			end
 		end

@@ -346,10 +346,10 @@ function slot3(slot0)
 		end,
 		[slot1.RESOLVE_EQUIPMENT] = function (slot0)
 			if getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.info) then
-				slot4 = slot3.config.name
+				slot4 = slot3:getConfig("name")
 
-				if slot3.config.id % 20 > 0 then
-					slot4 = slot4 .. "+" .. tostring(slot3.config.id % 20)
+				if slot3:getConfig("id") % 20 > 0 then
+					slot4 = slot4 .. "+" .. tostring(slot3:getConfig("id") % 20)
 				end
 
 				return string.format(i18n("words_desc_resolve_equip"), slot4)

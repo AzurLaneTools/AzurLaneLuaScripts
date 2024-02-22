@@ -9202,6 +9202,17 @@ pg.painting_filte_map = {
 			"painting/ninghai_7"
 		}
 	},
+	ninghai_8 = {
+		key = "ninghai_8",
+		res_list = {
+			"painting/ninghai_8_tex",
+			"painting/ninghai_8_rw_tex",
+			"painting/ninghai_8_n_tex",
+			"painting/ninghai_8_n",
+			"painting/ninghai_8_bj_tex",
+			"painting/ninghai_8"
+		}
+	},
 	ninghai_g = {
 		key = "ninghai_g",
 		res_list = {
@@ -9516,6 +9527,16 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/pinghai_7_tex",
 			"painting/pinghai_7"
+		}
+	},
+	pinghai_8 = {
+		key = "pinghai_8",
+		res_list = {
+			"painting/pinghai_8_tex",
+			"painting/pinghai_8_rw_tex",
+			"painting/pinghai_8_n_tex",
+			"painting/pinghai_8_n",
+			"painting/pinghai_8"
 		}
 	},
 	pinghai_g = {

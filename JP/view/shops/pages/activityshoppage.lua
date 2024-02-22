@@ -129,16 +129,16 @@ function slot0.SetResIcon(slot0, slot1)
 		slot11 = slot7[4]
 
 		if slot2[slot6] ~= nil then
-			slot13 = {
+			slot13 = Drop.New({
 				type = slot1 or DROP_TYPE_RESOURCE,
 				id = slot12
-			}
+			})
 
-			GetSpriteFromAtlasAsync(getDropIcon(slot13), "", function (slot0)
+			GetSpriteFromAtlasAsync(slot13:getIcon(), "", function (slot0)
 				uv0.sprite = slot0
 			end)
 
-			slot11.text = getDropName(slot13)
+			slot11.text = slot13:getName()
 		end
 	end
 
@@ -184,9 +184,8 @@ function slot0.TipPurchase(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6 = slot1:GetTranCntWhenFull(slot2)
 
 	if slot5 > 0 then
-		updateDropCfg(slot6)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("pt_shop_tran_tip", math.max(slot2 - slot5, 0), slot3, slot5 * slot6.count, slot6.cfg.name),
+			content = i18n("pt_shop_tran_tip", math.max(slot2 - slot5, 0), slot3, slot5 * slot6.count, slot6:getConfig("name")),
 			onYes = slot4
 		})
 	else

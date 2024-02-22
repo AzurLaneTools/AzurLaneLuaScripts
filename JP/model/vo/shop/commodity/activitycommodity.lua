@@ -67,11 +67,7 @@ function slot0.GetTranCntWhenFull(slot0, slot1)
 
 				if slot9[1] == ShopArgs.LIMIT_ARGS_TRAN_ITEM_WHEN_FULL and uv0(slot0, slot11) - slot1 < 0 then
 					slot3 = math.abs(slot15)
-					slot4 = {
-						type = slot13[1],
-						id = slot13[2],
-						count = slot13[3]
-					}
+					slot4 = Drop.Create(slot13)
 				end
 			end
 		end
@@ -153,11 +149,11 @@ function slot0.GetPurchasableCnt(slot0)
 end
 
 function slot0.GetConsume(slot0)
-	return {
+	return Drop.New({
 		type = slot0:getConfig("resource_category"),
 		id = slot0:getConfig("resource_type"),
 		count = slot0:getConfig("resource_num")
-	}
+	})
 end
 
 return slot0

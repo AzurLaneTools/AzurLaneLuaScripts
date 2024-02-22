@@ -1,5 +1,5 @@
 slot0 = class("MainLanternFestivalBtn", import(".MainBaseActivityBtn"))
-slot0.LANTERNFESTIVAL_MINIGAME_ID = 49
+slot0.LANTERNFESTIVAL_MINIGAME_ID = 64
 
 function slot0.GetEventName(slot0)
 	return "event_LanternFestival"
@@ -20,8 +20,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.CustomOnClick(slot0)
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and slot1:getConfig("config_client").miniGame then
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot2)
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) then
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0.LANTERNFESTIVAL_MINIGAME_ID)
 	end
 end
 

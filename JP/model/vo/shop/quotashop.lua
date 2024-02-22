@@ -17,11 +17,11 @@ function slot0.getOwnedGoodCount(slot0, slot1)
 
 	assert(slot2, "config is missing in activity_shop_template, id: " .. slot1)
 
-	return GetOwnedDropCount({
+	return Drop.New({
 		id = slot2.commodity_id,
 		type = slot2.commodity_type,
 		count = slot2.num
-	})
+	}):getOwnedCount()
 end
 
 function slot0.IsSameKind(slot0, slot1)

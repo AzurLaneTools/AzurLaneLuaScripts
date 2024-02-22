@@ -47,8 +47,10 @@ function slot0.Show(slot0, slot1)
 	updateDrop(slot0.leftItemTr, slot1.leftDrop)
 	updateDrop(slot0.rightItemTr, slot1.rightDrop)
 
-	slot0.leftNameTxt.text = slot1.leftDrop.cfg.name
-	slot0.rightNameTxt.text = slot1.rightDrop.cfg.name
+	slot3 = slot1.leftDrop
+	slot0.leftNameTxt.text = slot3:getConfig("name")
+	slot3 = slot1.rightDrop
+	slot0.rightNameTxt.text = slot3:getConfig("name")
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:Hide()

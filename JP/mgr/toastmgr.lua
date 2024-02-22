@@ -398,13 +398,13 @@ function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 	slot7:PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
 
 	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
-	slot8 = {
+	slot8 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot4.ptId
-	}
+	})
 
-	LoadImageSpriteAtlasAsync(getDropIcon(slot8), "", slot7:Find("PointIcon"), true)
-	setText(slot7:Find("info/name"), getDropName(slot8))
+	LoadImageSpriteAtlasAsync(slot8:getIcon(), "", slot7:Find("PointIcon"), true)
+	setText(slot7:Find("info/name"), slot8:getName())
 	setText(slot7:Find("info/pt"), "+" .. slot4.ptCount)
 	setAnchoredPosition(slot7, {
 		x = slot7.rect.width
@@ -427,14 +427,14 @@ end
 
 function slot0.UpdateVote(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
-	slot7 = {
+	slot7 = Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = slot4.ptId
-	}
+	})
 	slot8 = tf(slot0:GetAndSet(slot1.type, slot0.container))
 
-	LoadImageSpriteAtlasAsync(getDropIcon(slot7), "", slot8:Find("PointIcon"), true)
-	setText(slot8:Find("info/name"), getDropName(slot7))
+	LoadImageSpriteAtlasAsync(slot7:getIcon(), "", slot8:Find("PointIcon"), true)
+	setText(slot8:Find("info/name"), slot7:getName())
 	setText(slot8:Find("info/pt"), "+" .. slot4.ptCount)
 	setAnchoredPosition(slot8, {
 		x = slot8.rect.width

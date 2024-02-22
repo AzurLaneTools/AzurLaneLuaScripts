@@ -97,7 +97,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	setText(slot0:findTF("Count", slot1), slot2.count)
 
 	if slot2.type ~= DROP_TYPE_SHIP then
-		setImageSprite(slot3, LoadSprite(getDropIcon(slot2)))
+		setImageSprite(slot3, LoadSprite(slot2:getIcon()))
 	else
 		setImageSprite(slot3, LoadSprite("QIcon/" .. Ship.New({
 			configId = slot2.id
@@ -345,16 +345,16 @@ function slot0.getTaskAwardForShow(slot0, slot1)
 	slot7 = {}
 	slot9 = slot3.award_display[slot6]
 
-	table.insert(slot7, {
+	table.insert(slot7, Drop.New({
 		type = slot9[1],
 		id = slot9[2],
 		count = slot9[3]
-	})
-	table.insert(slot7, {
+	}))
+	table.insert(slot7, Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = slot3.pt_item,
 		count = slot3.pt_award
-	})
+	}))
 
 	return slot7
 end

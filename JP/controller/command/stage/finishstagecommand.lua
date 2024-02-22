@@ -167,25 +167,20 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GeneralLoot(slot0, slot1)
-	slot2 = {}
-	slot3 = {}
+	for slot6, slot7 in pairs({
+		drops = slot1.drop_info,
+		extraDrops = slot1.extra_drop_info
+	}) do
+		slot2[slot6] = PlayerConst.addTranDrop(slot7)
 
-	function slot4(slot0, slot1)
-		for slot5, slot6 in ipairs(slot0) do
-			slot7 = Item.New(slot6)
-
-			table.insert(slot1, slot7)
-
-			if slot7.type == DROP_TYPE_SHIP then
-				slot7.virgin = getProxy(CollectionProxy) and slot9.shipGroups[pg.ship_data_template[slot7.id].group_type] == nil
+		underscore.each(slot2[slot6], function (slot0)
+			if slot0.type == DROP_TYPE_SHIP then
+				slot0.virgin = getProxy(CollectionProxy) and slot2.shipGroups[pg.ship_data_template[slot0.id].group_type] == nil
 			end
-		end
+		end)
 	end
 
-	slot4(PlayerConst.addTranDrop(slot1.drop_info), slot2)
-	slot4(PlayerConst.addTranDrop(slot1.extra_drop_info), slot3)
-
-	return slot2, slot3
+	return slot2.drops, slot2.extraDrops
 end
 
 function slot0.GenerateCommanderExp(slot0, slot1, slot2)

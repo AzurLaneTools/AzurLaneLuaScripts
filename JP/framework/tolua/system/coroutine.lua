@@ -23,29 +23,26 @@ function coroutine.start(slot0, ...)
 			uv3(uv4.traceback(slot1, slot3))
 		end
 	else
-		slot2 = {
-			len = select("#", ...),
-			...
-		}
+		slot2 = packEx(...)
 		slot3 = nil
 
 		function slot4()
 			uv0[uv1] = nil
 			uv2.func = nil
-			slot0, slot1 = uv3(uv1, uv4(uv5, 1, uv5.len))
+			slot0, slot1 = uv3(uv1, unpackEx(uv4))
 
-			table.insert(uv6, uv2)
+			table.insert(uv5, uv2)
 
 			if not slot0 then
 				uv2:Stop()
-				uv7(uv8.traceback(uv1, slot1))
+				uv6(uv7.traceback(uv1, slot1))
 			end
 		end
 
-		if #uv7 > 0 then
-			table.remove(uv7):Reset(slot4, 0, 1)
+		if #uv6 > 0 then
+			table.remove(uv6):Reset(slot4, 0, 1)
 		else
-			slot3 = uv8.New(slot4, 0, 1)
+			slot3 = uv7.New(slot4, 0, 1)
 		end
 
 		uv5[slot1] = slot3
@@ -57,19 +54,16 @@ function coroutine.start(slot0, ...)
 end
 
 function coroutine.wait(slot0, slot1, ...)
-	slot2 = {
-		len = select("#", ...),
-		...
-	}
+	slot2 = packEx(...)
 	slot3 = nil
-	slot3 = uv6.New(function ()
+	slot3 = uv5.New(function ()
 		uv0[uv1] = nil
 		uv2.func = nil
-		slot0, slot1 = uv3(uv1, uv4(uv5, 1, uv5.len))
+		slot0, slot1 = uv3(uv1, unpackEx(uv4))
 
 		if not slot0 then
 			uv2:Stop()
-			uv6(uv7.traceback(uv1, slot1))
+			uv5(uv6.traceback(uv1, slot1))
 
 			return
 		end
@@ -78,43 +72,40 @@ function coroutine.wait(slot0, slot1, ...)
 
 	slot3:Start()
 
-	return uv7()
+	return uv6()
 end
 
 function coroutine.step(slot0, slot1, ...)
-	slot2 = {
-		len = select("#", ...),
-		...
-	}
+	slot2 = packEx(...)
 	slot1 = slot1 or uv0()
 	slot3 = nil
 
 	function slot4()
 		uv0[uv1] = nil
 		uv2.func = nil
-		slot0, slot1 = uv3(uv1, uv4(uv5, 1, uv5.len))
+		slot0, slot1 = uv3(uv1, unpackEx(uv4))
 
-		table.insert(uv6, uv2)
+		table.insert(uv5, uv2)
 
 		if not slot0 then
 			uv2:Stop()
-			uv7(uv8.traceback(uv1, slot1))
+			uv6(uv7.traceback(uv1, slot1))
 
 			return
 		end
 	end
 
-	if #uv4 > 0 then
-		table.remove(uv4):Reset(slot4, slot0 or 1, 1)
+	if #uv3 > 0 then
+		table.remove(uv3):Reset(slot4, slot0 or 1, 1)
 	else
-		slot3 = uv7.New(slot4, slot0 or 1, 1)
+		slot3 = uv6.New(slot4, slot0 or 1, 1)
 	end
 
 	uv1[slot1] = slot3
 
 	slot3:Start()
 
-	return uv8()
+	return uv7()
 end
 
 function coroutine.www(slot0, slot1)

@@ -100,7 +100,7 @@ function slot33.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 					skin = slot19.skin
 				}
 			else
-				slot20 = slot19.equipmentInfo and slot19.equipmentInfo.config.torpedo_ammo or 0
+				slot20 = slot19.equipmentInfo and slot19.equipmentInfo:getConfig("torpedo_ammo") or 0
 
 				if not slot13 or slot18 <= slot13 or #uv2.GetWeaponDataFromID(slot19.id).weapon_id then
 					slot14[#slot14 + 1] = {

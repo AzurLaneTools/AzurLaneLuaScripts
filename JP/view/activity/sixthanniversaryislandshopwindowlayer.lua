@@ -7,10 +7,10 @@ end
 function slot0.setGoods(slot0, slot1)
 	slot0.goods = slot1
 	slot0.singleCost = slot1:getConfig("resource_num")
-	slot0.max = math.floor(GetOwnedDropCount({
+	slot0.max = math.floor(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}) / slot0.singleCost)
+	}):getOwnedCount() / slot0.singleCost)
 
 	if slot1:getConfig("num_limit") ~= 0 then
 		slot0.max = math.min(slot0.max, math.max(slot1:GetPurchasableCnt(), 0))
@@ -62,10 +62,10 @@ function slot0.init(slot0)
 
 	onButton(slot0, slot4:Find("content/bottom/btn_confirm"), function ()
 		if uv0.max < uv0.count then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", getDropName({
+			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", Drop.New({
 				type = uv0.goods:getConfig("resource_category"),
 				id = uv0.goods:getConfig("resource_type")
-			})))
+			}):getName()))
 
 			return
 		end
@@ -92,7 +92,7 @@ function slot0.didEnter(slot0)
 
 	updateDrop(slot3:Find("icon/IconTpl"), slot2)
 
-	slot4, slot5 = GetOwnedDropCount(slot2)
+	slot4, slot5 = slot2:getOwnedCount()
 
 	setActive(slot3:Find("owner"), slot5)
 
@@ -100,12 +100,12 @@ function slot0.didEnter(slot0)
 		setText(slot3:Find("owner"), i18n("word_own1") .. slot4)
 	end
 
-	setText(slot3:Find("line/name"), slot2.cfg.name)
-	setText(slot3:Find("line/content/Text"), string.gsub(slot2.desc or slot2.cfg.desc, "<[^>]+>", ""))
-	GetImageSpriteFromAtlasAsync(getDropIcon({
+	setText(slot3:Find("line/name"), slot2:getConfig("name"))
+	setText(slot3:Find("line/content/Text"), string.gsub(slot2.desc or slot2:getConfig("desc"), "<[^>]+>", ""))
+	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}), "", slot0._tf:Find("content/calc/cost/icon"))
+	}):getIcon(), "", slot0._tf:Find("content/calc/cost/icon"))
 
 	slot0.count = 1
 

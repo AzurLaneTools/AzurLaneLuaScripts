@@ -26,11 +26,7 @@ function slot0.execute(slot0, slot1)
 
 				uv2:sendNotification(GAME.SUBMIT_AVATAR_TASK_DONE, {
 					awards = {
-						Item.New({
-							type = slot3[1],
-							id = slot3[2],
-							count = slot3[3]
-						})
+						Drop.Create(slot3)
 					},
 					callback = uv3
 				})
@@ -64,7 +60,7 @@ function slot0.execute(slot0, slot1)
 				end
 
 				for slot6, slot7 in ipairs(slot0.award_list) do
-					table.insert(slot2, Item.New({
+					table.insert(slot2, Drop.New({
 						type = slot7.type,
 						id = slot7.id,
 						count = slot7.number

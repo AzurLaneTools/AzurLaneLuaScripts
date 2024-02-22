@@ -89,8 +89,8 @@ return {
 		for slot5 = 1, #slot0 do
 			if slot0[slot5].type == DROP_TYPE_SHIP then
 				uv0.AddPaintingNameByShipConfigID(slot1, slot6.id)
-			elseif slot7 == DROP_TYPE_NPC_SHIP then
-				uv0.AddPaintingNameByShipConfigID(slot1, getProxy(BayProxy):getShipById(slot6.id).configId)
+			elseif slot7 == DROP_TYPE_OPERATION then
+				uv0.AddPaintingNameByShipConfigID(slot1, getProxy(BayProxy):getShipById(slot6.count).configId)
 			elseif slot7 == DROP_TYPE_SKIN then
 				uv0.AddPaintingNameBySkinID(slot1, slot6.id)
 			end

@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 			end
 
 			slot3 = getProxy(BagProxy)
-			slot7 = pg.equip_data_statistics[pg.compose_data_template[uv0.composeCfg.id].equip_id]
+			slot6 = pg.compose_data_template[uv0.composeCfg.id]
 
 			if getProxy(PlayerProxy):getData():getMaxEquipmentBag() < getProxy(EquipmentProxy):getCapacity() + 1 then
 				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
@@ -62,15 +62,15 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 
-			if not slot3:getItemById(slot6.material_id) or slot10.count < slot6.material_num * slot2 then
+			if not slot3:getItemById(slot6.material_id) or slot9.count < slot6.material_num * slot2 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 				return
 			end
 
-			slot11 = pg.ConnectionMgr.GetInstance()
+			slot10 = pg.ConnectionMgr.GetInstance()
 
-			slot11:Send(14006, {
+			slot10:Send(14006, {
 				id = slot1,
 				num = slot2
 			}, 14007, function (slot0)
@@ -225,12 +225,12 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 						end
 					end
 
-					assert(pg.equip_data_template[uv2], "Missing equip_data_template ID: " .. (uv2 or "NIL"))
+					assert(Equipment.CanInBag(uv2), "Missing equip_data_template ID: " .. (uv2 or "NIL"))
 
-					if slot5 then
-						slot6 = slot5.destory_gold or 0
-						uv1.gold = (uv1.gold or 0) - slot6
-						uv3.gold = (uv3.gold or 0) + slot6
+					if Equipment.CanInBag(uv2) then
+						slot5 = Equipment.getConfigData(uv2).destory_gold or 0
+						uv1.gold = (uv1.gold or 0) - slot5
+						uv3.gold = (uv3.gold or 0) + slot5
 					end
 
 					uv4 = uv2
@@ -246,7 +246,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 		})
 	end, function ()
 		if not uv0 and uv1 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_equipped_unavailable", getProxy(BayProxy):getShipById(uv1):getName(), uv2.config.name))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_equipped_unavailable", getProxy(BayProxy):getShipById(uv1):getName(), uv2:getConfig("name")))
 		end
 
 		slot1 = uv5

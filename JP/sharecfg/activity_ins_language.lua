@@ -19130,384 +19130,384 @@ pg.base.activity_ins_language = {
 		value = "が、頑張ります！"
 	},
 	ins_439 = {
-		value = ""
+		value = "これをつければいいことが起きるはず"
 	},
 	ins_discuss_439_1 = {
-		value = ""
+		value = "お面がいっぱいだ！決めた！今度寰昌姉ちゃんの部屋で冒険する！"
 	},
 	ins_reply_439_1_1 = {
-		value = ""
+		value = "占いで分かることなので考え直したほうがいいですよ？"
 	},
 	ins_discuss_439_2 = {
-		value = ""
+		value = "お面をつけるといいことが起きる？そんなにすごいの？"
 	},
 	ins_reply_439_2_1 = {
-		value = ""
+		value = "ふふん、卦相がそう言っているわ"
 	},
 	ins_reply_439_2_2 = {
-		value = ""
+		value = "よくわかんないけどすごいのかも！"
 	},
 	ins_discuss_439_3 = {
-		value = ""
+		value = "そのお面で恋愛運も良くなったりしませんか？"
 	},
 	ins_reply_439_3_1 = {
-		value = ""
+		value = "恋愛運を変えたいなら…これは卦を問い直す必要がありそうね"
 	},
 	ins_reply_439_3_2 = {
-		value = ""
+		value = "つまり……お代が要ると…？"
 	},
 	ins_reply_439_3_3 = {
-		value = ""
+		value = "あ、いえ別に…あとで直接話しましょう"
 	},
 	ins_op_439_1_1 = {
-		value = ""
+		value = "いいことって？"
 	},
 	op_reply_439_1_1 = {
-		value = ""
+		value = "それは…起きるまではわからないわ"
 	},
 	ins_op_439_1_2 = {
-		value = ""
+		value = "ラッキーマスク？一個ほしい！"
 	},
 	op_reply_439_1_2 = {
-		value = ""
+		value = "もちろん。あとで取りに来ていただければ"
 	},
 	ins_440 = {
-		value = ""
+		value = "ええと……このまま打つと勝負が決まらなくなりますね…"
 	},
 	ins_discuss_440_1 = {
-		value = ""
+		value = "相手を持久戦に引き込むつもりですね"
 	},
 	ins_reply_440_1_1 = {
-		value = ""
+		value = "私からすると、むしろほかに狙いがあるように見えますが"
 	},
 	ins_reply_440_1_2 = {
-		value = ""
+		value = "ふふふ。ただの暇つぶしですからそこまでは…"
 	},
 	ins_discuss_440_2 = {
-		value = ""
+		value = "これが囲碁というものなの？ふむ、チェスではなくこっちなら指揮官に勝てるかも…？"
 	},
 	ins_reply_440_2_1 = {
-		value = ""
+		value = "興味がおありでしたらお教えしますよ♪"
 	},
 	ins_reply_440_2_2 = {
-		value = ""
+		value = "なら代わりにチェスを教えてあげるわ！"
 	},
 	ins_reply_440_2_3 = {
-		value = ""
+		value = "いえいえ、付き合っていただけるだけで十分ですよ～"
 	},
 	ins_op_440_1_1 = {
-		value = ""
+		value = "次はちゃんと決着をつけよう"
 	},
 	op_reply_440_1_1 = {
-		value = ""
+		value = "楽しみにしていますよ。ふふふ"
 	},
 	ins_op_440_1_2 = {
-		value = ""
+		value = "結局遅くまでやったね…"
 	},
 	op_reply_440_1_2 = {
-		value = ""
+		value = "済安はむしろ…もっと指揮官とおしゃべりしたかったのですよ？"
 	},
 	ins_441 = {
-		value = ""
+		value = "強火に油ドバーッと爆ぜて炒める！"
 	},
 	ins_discuss_441_1 = {
-		value = ""
+		value = "この色合い……ヤな予感がする…！"
 	},
 	ins_reply_441_1_1 = {
-		value = ""
+		value = "撫順にそんな感想を言わせるなんて…一体何者なの…？"
 	},
 	ins_discuss_441_2 = {
-		value = ""
+		value = "これは今日の夜ご飯…？"
 	},
 	ins_reply_441_2_1 = {
-		value = ""
+		value = "そうです！がっつりパンチを効かせています！"
 	},
 	ins_reply_441_2_2 = {
-		value = ""
+		value = "めっちゃ美味しそう！私も混ざっていいかな？"
 	},
 	ins_reply_441_2_3 = {
-		value = ""
+		value = "ぜひぜひ！おもてなしさせてください！"
 	},
 	ins_reply_441_2_4 = {
-		value = ""
+		value = "……胃薬を準備してくるね"
 	},
 	ins_discuss_441_3 = {
-		value = ""
+		value = "やっぱり！龍武姉ちゃん酔っ払い蟹食べすぎだよ！"
 	},
 	ins_reply_441_3_1 = {
-		value = ""
+		value = "ぜーーんぜんっ食べてないよ～。あはははは"
 	},
 	ins_reply_441_3_2 = {
-		value = ""
+		value = "食べてたよ！だからベロベロになってるんだってばー！"
 	},
 	ins_reply_441_3_3 = {
-		value = ""
+		value = "なんで止めなかったんですか……"
 	},
 	ins_reply_441_3_4 = {
-		value = ""
+		value = "龍武姉ちゃん酔っ払い蟹が大好きだからね！"
 	},
 	ins_op_441_1_1 = {
-		value = ""
+		value = "辛っっっっっっ！"
 	},
 	op_reply_441_1_1 = {
-		value = ""
+		value = "えへへ～そうでしょう？これがいいんですよ"
 	},
 	ins_op_441_1_2 = {
-		value = ""
+		value = "美味っ！おかわりだ！"
 	},
 	op_reply_441_1_2 = {
-		value = ""
+		value = "ん？思ったよりやるじゃないですか～じゃあさらにパワーアップした宇宙無敵辛でもどうですかー？"
 	},
 	ins_442 = {
-		value = ""
+		value = "名前を呼びかけたら応える度胸があるのかなー？"
 	},
 	ins_discuss_442_1 = {
-		value = ""
+		value = "ないない～"
 	},
 	ins_reply_442_1_1 = {
-		value = ""
+		value = "あははははは♪"
 	},
 	ins_discuss_442_2 = {
-		value = ""
+		value = "ゲーム？サンディエゴも一緒にやるよ～！"
 	},
 	ins_reply_442_2_1 = {
-		value = ""
+		value = "はいアウト！もうひょうたんに吸い込まれちゃったよー"
 	},
 	ins_reply_442_2_2 = {
-		value = ""
+		value = "んんん？なんで？"
 	},
 	ins_reply_442_2_3 = {
-		value = ""
+		value = "虎賁、まだ名前を呼びかけてないじゃない…"
 	},
 	ins_discuss_442_3 = {
-		value = ""
+		value = "あら、これは…金角大王？"
 	},
 	ins_reply_442_3_1 = {
-		value = ""
+		value = "そうそう！翔鶴は呼びかけられたら応える度胸はあるー？"
 	},
 	ins_reply_442_3_2 = {
-		value = ""
+		value = "ふふふ、確かに応えられませんね～"
 	},
 	ins_op_442_1_1 = {
-		value = ""
+		value = "本当に人を吸い込めるの…？"
 	},
 	op_reply_442_1_1 = {
-		value = ""
+		value = "えへへ～指揮官さんもやってみます？"
 	},
 	ins_op_442_1_2 = {
-		value = ""
+		value = "名前を呼んだら応えてくれる？"
 	},
 	op_reply_442_1_2 = {
-		value = ""
+		value = "も、もしかしてもっと強いひょうたんを手に入れたの？！"
 	},
 	ins_443 = {
-		value = ""
+		value = "冒険＋1、戦利品＋１"
 	},
 	ins_discuss_443_1 = {
-		value = ""
+		value = "龍武の見張りをかいくぐって台所に潜入できたの？すごい！"
 	},
 	ins_reply_443_1_1 = {
-		value = ""
+		value = "ふふーん、飛雲さまを見くびらないでよね～！"
 	},
 	ins_discuss_443_2 = {
-		value = ""
+		value = "これではまた台所出禁ですね……"
 	},
 	ins_reply_443_2_1 = {
-		value = ""
+		value = "待って！飛雲を出禁にしないで！"
 	},
 	ins_reply_443_2_2 = {
-		value = ""
+		value = "台所の看板でバレバレ………"
 	},
 	ins_discuss_443_3 = {
-		value = ""
+		value = "姉ちゃんが調理具を持ったまま飛び出したのを見た！無事を祈ってあげるから早く逃げて！"
 	},
 	ins_reply_443_3_1 = {
-		value = ""
+		value = "ふふん！そんなので恐れをなす飛雲さまじゃなーい！でも今は逃げちゃお♪"
 	},
 	ins_op_443_1_1 = {
-		value = ""
+		value = "ちゃんと証拠を消したら？"
 	},
 	op_reply_443_1_1 = {
-		value = ""
+		value = "ふふん、みんなに知ってもらってこその大冒険よ！……ところで証拠ってなに？"
 	},
 	ins_op_443_1_2 = {
-		value = ""
+		value = "龍武にあとでしっかり謝ってね"
 	},
 	op_reply_443_1_2 = {
-		value = ""
+		value = "……はぁーい"
 	},
 	ins_444 = {
-		value = ""
+		value = "華灯に願いをすれば叶えてくれるの……"
 	},
 	ins_discuss_444_1 = {
-		value = ""
+		value = "ふふん、まずは一度やってみれば？もしかしたら叶えてくれるかもよ？"
 	},
 	ins_reply_444_1_1 = {
-		value = ""
+		value = "でもエルビングが願うことは叶わないはずだから…"
 	},
 	ins_reply_444_1_2 = {
-		value = ""
+		value = "新春は悪運の神もお休みよ。大丈夫、今日の願いはきっと叶うわ"
 	},
 	ins_discuss_444_2 = {
-		value = ""
+		value = "叶えてほしい願いは叶わない…逆にいえば、叶えてほしくない願いは絶対に叶う、ということですよね"
 	},
 	ins_reply_444_2_1 = {
-		value = ""
+		value = "なるほどね！これが「バグわざ」ね！"
 	},
 	ins_op_444_1_1 = {
-		value = ""
+		value = "自分の願いとして願うから大丈夫"
 	},
 	op_reply_444_1_1 = {
-		value = ""
+		value = "でもそれじゃあ指揮官の願いが叶わなくなるのでは……？不幸になるのでは…？"
 	},
 	ins_op_444_1_2 = {
-		value = ""
+		value = "願いを代わりに叶えてあげる"
 	},
 	op_reply_444_1_2 = {
-		value = ""
+		value = "こんなエルビングの願いでもいいのでしょうか……"
 	},
 	ins_445 = {
-		value = ""
+		value = "冬のムシは冬眠すべきね"
 	},
 	ins_discuss_445_1 = {
-		value = ""
+		value = "ラフィーにもわかる……"
 	},
 	ins_reply_445_1_1 = {
-		value = ""
+		value = "ラフィーはただ寝溜めしたいだけでしょ？"
 	},
 	ins_reply_445_1_2 = {
-		value = ""
+		value = "冬眠…それは寝溜めすること…"
 	},
 	ins_reply_445_1_3 = {
-		value = ""
+		value = "何もせずベッドでゴロゴロするのも冬眠のうちね"
 	},
 	ins_discuss_445_2 = {
-		value = ""
+		value = "冬眠でしたらコタツをおすすめします！"
 	},
 	ins_reply_445_2_1 = {
-		value = ""
+		value = "コタツ？それは何？"
 	},
 	ins_reply_445_2_2 = {
-		value = ""
+		value = "ふふん、一度入ったらその暖かさにやられて、二度と抜け出せないすごいものですよ～？"
 	},
 	ins_reply_445_2_3 = {
-		value = ""
+		value = "人を飲み込むストーブ…？面白そうね"
 	},
 	ins_op_445_1_1 = {
-		value = ""
+		value = "冬眠中のムシは可愛いね"
 	},
 	op_reply_445_1_1 = {
-		value = ""
+		value = "指揮官も一緒に冬眠する？"
 	},
 	ins_op_445_1_2 = {
-		value = ""
+		value = "オフトンに飲み込まれているな……"
 	},
 	op_reply_445_1_2 = {
-		value = ""
+		value = "助けはいらないよ。今オフトンの力を吸収してて、夏になったら出るから"
 	},
 	ins_446 = {
-		value = ""
+		value = "お茶を飲みながら花見見物…撮影のご褒美とはこういうことですね"
 	},
 	ins_discuss_446_1 = {
-		value = ""
+		value = "のんびりとしていい感じです♪"
 	},
 	ins_reply_446_1_1 = {
-		value = ""
+		value = "確かに、森林浴と違う意味でのんびりしていましたね…セントー先輩もぜひ一度やってみてくださいっ"
 	},
 	ins_reply_446_1_2 = {
-		value = ""
+		value = "楼閣で清茶を楽しみつつの花見…今度場所を教えてください！"
 	},
 	ins_discuss_446_2 = {
-		value = ""
+		value = "「丹閣に吹き抜けるは春の香り」とはこういうことでしょう"
 	},
 	ins_reply_446_2_1 = {
-		value = ""
+		value = "勧めていただきありがとうございます。いい香りです。海天先輩"
 	},
 	ins_reply_446_2_2 = {
-		value = ""
+		value = "「丹閣に吹き抜けるは春の香り」――写真の名前はこれで決まりね！"
 	},
 	ins_op_446_1_1 = {
-		value = ""
+		value = "この角度から眺める梅…いいね！"
 	},
 	op_reply_446_1_1 = {
-		value = ""
+		value = "えへへ…そうなんです。いい眺めですよ"
 	},
 	ins_op_446_1_2 = {
-		value = ""
+		value = "花びらが茶碗に…"
 	},
 	op_reply_446_1_2 = {
-		value = ""
+		value = "大丈夫です。花びらを浮かばせるお茶も…いい味だと思います"
 	},
 	ins_447 = {
-		value = ""
+		value = "ふね、ゆらゆら…たのしい！"
 	},
 	ins_discuss_447_1 = {
-		value = ""
+		value = "さすがに揺れ過ぎじゃない？危なくないの？"
 	},
 	ins_reply_447_1_1 = {
-		value = ""
+		value = "あぶない…？"
 	},
 	ins_reply_447_1_2 = {
-		value = ""
+		value = "艦船だから危ないわけないでしょ？"
 	},
 	ins_discuss_447_2 = {
-		value = ""
+		value = "ん？なんで艤装を使わないの？"
 	},
 	ins_reply_447_2_1 = {
-		value = ""
+		value = "艤装を使っては雰囲気ぶっ壊しになりませんこと？"
 	},
 	ins_reply_447_2_2 = {
-		value = ""
+		value = "ふんいき……？なぁに…？"
 	},
 	ins_op_447_1_1 = {
-		value = ""
+		value = "アンカレッジは楽しかった？"
 	},
 	op_reply_447_1_1 = {
-		value = ""
+		value = "たのしかった！せんせい、だいすき！"
 	},
 	ins_op_447_1_2 = {
-		value = ""
+		value = "今度もっと楽しい遊びする？"
 	},
 	op_reply_447_1_2 = {
-		value = ""
+		value = "うん！する！"
 	},
 	ins_448 = {
-		value = ""
+		value = "手袋が要、と言われていますけど…？"
 	},
 	ins_discuss_448_1 = {
-		value = ""
+		value = "めっちゃキレイ！指揮官からもらったの？"
 	},
 	ins_reply_448_1_1 = {
-		value = ""
+		value = "手袋は指揮官さまから預かったもので…ん？手袋の話でしたか？"
 	},
 	ins_reply_448_1_2 = {
-		value = ""
+		value = "違う違う！そっちじゃない！"
 	},
 	ins_discuss_448_2 = {
-		value = ""
+		value = "今期最新の東煌ドレスじゃん！レナウンはいいセンスね～"
 	},
 	ins_reply_448_2_1 = {
-		value = ""
+		value = "衣装は贈ってくださったプレゼントで、自分が選んだわけではありませんが…"
 	},
 	ins_discuss_448_3 = {
-		value = ""
+		value = "華やかにして品を失わず、レナウンにはちょうどいいです。指揮官さま、いいセンスしていますわ"
 	},
 	ins_reply_448_3_1 = {
-		value = ""
+		value = "動きやすいですが、私はスリットは少し低めのほうが…"
 	},
 	ins_reply_448_3_2 = {
-		value = ""
+		value = "むしろ今のでちょうどいいですわ。信じてくださいませ"
 	},
 	ins_op_448_1_1 = {
-		value = ""
+		value = "気に入ってくれるといいな"
 	},
 	op_reply_448_1_1 = {
-		value = ""
+		value = "はい、とても気に入っています。お気持ち頂戴いたしました！"
 	},
 	ins_op_448_1_2 = {
-		value = ""
+		value = "そう！手袋は要だ！"
 	},
 	op_reply_448_1_2 = {
-		value = ""
+		value = "な……なるほど……？"
 	}
 }

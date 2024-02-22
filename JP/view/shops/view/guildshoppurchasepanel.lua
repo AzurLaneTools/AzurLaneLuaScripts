@@ -84,17 +84,14 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 		count = slot1.num
 	})
 
-	slot5 = {
+	slot5 = Drop.New({
 		type = slot4,
 		id = slot2
-	}
-
-	updateDropCfg(slot5)
-
+	})
 	slot6 = slot3:Find("name_bg/Text")
 	slot6 = slot6:GetComponent("ScrollText")
 
-	slot6:SetText(slot5.cfg.name)
+	slot6:SetText(slot5:getConfig("name"))
 
 	slot8 = slot3:Find("cnt/Text")
 	slot8 = slot8:GetComponent(typeof(Text))

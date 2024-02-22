@@ -418,10 +418,10 @@ function slot0.updateActivityRes(slot0)
 
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
 		setText(slot1, "x" .. slot0.ptActivity.data1)
-		GetImageSpriteFromAtlasAsync(getDropIcon({
+		GetImageSpriteFromAtlasAsync(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = tonumber(slot0.ptActivity:getConfig("config_id"))
-		}), "", slot2, true)
+		}):getIcon(), "", slot2, true)
 	end
 end
 

@@ -126,10 +126,10 @@ end
 function slot0.updateResIcon(slot0, slot1, slot2, slot3)
 	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 and slot3 ~= 6 then
 		if slot1 then
-			slot0.resIcon = getDropIcon({
+			slot0.resIcon = Drop.New({
 				type = DROP_TYPE_RESOURCE,
 				id = slot1
-			})
+			}):getIcon()
 		elseif slot2 then
 			slot0.resIcon = slot2
 		end

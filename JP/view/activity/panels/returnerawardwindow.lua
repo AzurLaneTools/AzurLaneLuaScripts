@@ -34,10 +34,10 @@ function slot1(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Show(slot0, slot1)
-	slot7 = getDropName({
+	slot7 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot1.resId
-	})
+	}):getName()
 	slot0.cntTitle = i18n("pt_total_count", slot7)
 	slot0.resTitle = i18n("pt_count", slot7)
 	slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")

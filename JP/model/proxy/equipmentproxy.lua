@@ -186,7 +186,7 @@ function slot0.getEquipmentsByFillter(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.data.equipments) do
-		if slot8.count > 0 and table.contains(slot2, slot8.config.type) and not table.contains(pg.equip_data_template[slot8.configId].ship_type_forbidden, slot1) then
+		if slot8.count > 0 and table.contains(slot2, slot8:getConfig("type")) and not table.contains(slot8:getConfig("ship_type_forbidden"), slot1) then
 			table.insert(slot3, slot8:clone())
 		end
 	end
@@ -216,7 +216,7 @@ end
 
 function slot0.getSameTypeEquipmentId(slot0, slot1)
 	slot2 = Equipment.New({
-		id = slot1.config.id
+		id = slot1:getConfig("id")
 	})
 	slot3 = nil
 
@@ -232,7 +232,7 @@ function slot0.getSameTypeEquipmentId(slot0, slot1)
 
 	if not slot3 then
 		slot2 = Equipment.New({
-			id = slot1.config.id
+			id = slot1:getConfig("id")
 		})
 
 		while slot2.config.prev ~= 0 do

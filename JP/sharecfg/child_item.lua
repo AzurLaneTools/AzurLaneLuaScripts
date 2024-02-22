@@ -1199,7 +1199,7 @@ pg.child_item = {
 		name = "育成目標達成記念·Ⅰ",
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 感受性+20 ",
+		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 魅力+20 ",
 		usage = "usage_drop",
 		usage_arg = "[703]",
 		id = 203,
@@ -1207,7 +1207,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				20
 			},
 			{
@@ -1227,7 +1227,7 @@ pg.child_item = {
 		name = "育成目標達成記念·Ⅰ",
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 魅力+20",
+		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 感受性+20",
 		usage = "usage_drop",
 		usage_arg = "[704]",
 		id = 204,
@@ -1235,7 +1235,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				20
 			},
 			{
@@ -1311,7 +1311,7 @@ pg.child_item = {
 		name = "育成目標達成記念·Ⅱ",
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 感受性+100",
+		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 魅力+100",
 		usage = "usage_drop",
 		usage_arg = "[707]",
 		id = 207,
@@ -1319,7 +1319,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				104,
+				103,
 				100
 			},
 			{
@@ -1339,7 +1339,7 @@ pg.child_item = {
 		name = "育成目標達成記念·Ⅱ",
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 魅力+100",
+		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 感受性+100",
 		usage = "usage_drop",
 		usage_arg = "[708]",
 		id = 208,
@@ -1347,7 +1347,7 @@ pg.child_item = {
 		display = {
 			{
 				1,
-				103,
+				104,
 				100
 			},
 			{

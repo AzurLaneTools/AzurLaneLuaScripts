@@ -30,10 +30,10 @@ function slot0.OnRefresh(slot0, slot1)
 	slot0:SetWindowSize(Vector2(930, 540))
 	setActive(slot0.viewParent._btnContainer, false)
 
-	slot2 = {
+	slot2 = Drop.New({
 		type = slot1.drop_type,
 		id = slot1.drop_id
-	}
+	})
 
 	updateDrop(slot0.iconTF, slot2)
 	UpdateOwnDisplay(slot0.ownTF, slot2)

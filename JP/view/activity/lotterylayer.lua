@@ -83,10 +83,12 @@ function slot0.didEnter(slot0)
 		slot0.launchTenBtn,
 		slot0.launchMaxBtn
 	}) do
-		GetImageSpriteFromAtlasAsync(getDropIcon({
+		slot9 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot0.resId
-		}), "", slot7:Find("res/icon"), true)
+		})
+
+		GetImageSpriteFromAtlasAsync(slot9:getIcon(), "", slot7:Find("res/icon"), true)
 		onButton(slot0, slot7, function ()
 			if not uv0.activityPool then
 				return
@@ -292,7 +294,7 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3, slot4)
 		updateDrop(slot3, slot5)
 		setText(slot3:Find("count"), slot5.surplus .. "/" .. slot5.total)
 		setActive(slot3:Find("mask"), slot5.surplus <= 0)
-		setScrollText(findTF(slot3, "name_mask/name"), slot5.name or slot5.cfg.name)
+		setScrollText(findTF(slot3, "name_mask/name"), slot5.name or slot5:getConfig("name"))
 	end
 end
 

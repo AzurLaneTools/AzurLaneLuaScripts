@@ -94,7 +94,7 @@ function slot0.IsUnlock(slot0, slot1)
 		if slot0.config[slot1].stage[1] == 2 or slot2[1] == 3 then
 			return true
 		elseif slot2[1] == 4 then
-			return table.contains(slot0.unlockAttrs, slot0.config[slot1].xingge)
+			return table.contains(slot0.unlockAttrs, slot0.config[slot1].xingge[1])
 		end
 	end
 

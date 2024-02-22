@@ -141,6 +141,10 @@ function slot0.Flush(slot0)
 	slot0:updateTargetSetBtn()
 	setActive(slot0.endingBtn, slot0.status == EducateConst.STATUES_ENDING)
 	setActive(slot0.resetBtn, slot0.status == EducateConst.STATUES_RESET)
+
+	if isActive(slot0.schoolBtn) or isActive(slot0.upgradeBtn) or isActive(slot0.targetSetBtn) then
+		setActive(slot0.planBtn, false)
+	end
 end
 
 function slot0.isSchoolBtnShow(slot0)

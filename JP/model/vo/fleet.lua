@@ -811,7 +811,7 @@ function slot0.GetFleetSonarRange(slot0)
 
 			for slot18, slot19 in ipairs(slot12:getActiveEquipments()) do
 				if slot19 then
-					slot4 = slot4 + (slot19.config.equip_parameters.range or 0)
+					slot4 = slot4 + (slot19:getConfig("equip_parameters").range or 0)
 				end
 			end
 		end

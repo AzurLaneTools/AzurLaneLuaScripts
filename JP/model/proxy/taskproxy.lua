@@ -214,9 +214,7 @@ function slot0.getCanReceiveCount(slot0)
 			slot1 = slot1 + 1
 
 			for slot11, slot12 in ipairs(slot6:getConfig("award_display")) do
-				slot13 = slot12[1]
-				slot14 = slot12[2]
-				slot15 = slot12[3]
+				slot13, slot14, slot15 = unpack(slot12)
 
 				if not LOCK_UR_SHIP and slot13 == DROP_TYPE_VITEM and Item.getConfigData(slot14).virtual_type == 20 and (not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]) or 0) + slot15 - (not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0) > 0 then
 					slot1 = slot1 - 1

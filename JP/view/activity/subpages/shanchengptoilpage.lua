@@ -20,7 +20,7 @@ end
 
 function slot0.SetAwardName(slot0)
 	if Item.getConfigData(slot0.ptData:GetAward().id) then
-		changeToScrollText(uv0.scrolltext, getDropName(slot1))
+		changeToScrollText(uv0.scrolltext, slot1:getName())
 	else
 		setActive(slot0:findTF("name", slot0.awardTF), false)
 	end
