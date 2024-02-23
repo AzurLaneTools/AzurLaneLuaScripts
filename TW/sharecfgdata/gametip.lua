@@ -9702,7 +9702,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "追风、神速 建造追加！"
+	tip = "追風、神速 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
