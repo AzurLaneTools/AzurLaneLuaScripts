@@ -24,7 +24,7 @@ return {
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...You're very selfless, aren't you, $1?",
+			say = "...You're very selfless, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
