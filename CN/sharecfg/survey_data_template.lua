@@ -22,8 +22,8 @@ pg.survey_data_template = {
 		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		id = 1002,
 		name = "问卷第二期",
-		main_url = "https://usersurvey.wjx.cn/vm/mjANTBF.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
-		main_activity = "252629521",
+		main_url = "https://usersurvey.wjx.cn/vm/OKyoiqf.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_activity = "252629872",
 		ios_activity = "252629969",
 		uo_activity = "252629896",
 		bonus = {
