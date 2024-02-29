@@ -11597,6 +11597,11 @@ function temp()
 			["平"] = {
 				this = true
 			}
+		},
+		["时"] = {
+			["中"] = {
+				this = true
+			}
 		}
 	}
 end

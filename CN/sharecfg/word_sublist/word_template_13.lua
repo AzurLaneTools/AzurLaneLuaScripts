@@ -5786,6 +5786,11 @@ function temp()
 		},
 		["衍"] = {
 			this = true
+		},
+		["锡"] = {
+			["堃"] = {
+				this = true
+			}
 		}
 	}
 end

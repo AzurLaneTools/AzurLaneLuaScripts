@@ -785,8 +785,8 @@ pg.base.ship_meta_breakout = {
 		item1 = 21030,
 		pre_id = 9702071,
 		weapon_ids = {
-			106,
-			106
+			7200,
+			7200
 		}
 	},
 	[9702073] = {

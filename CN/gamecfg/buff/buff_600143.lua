@@ -1,20 +1,13 @@
 return {
-	time = 0,
+	init_effect = "",
 	name = "",
-	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
 	id = 600140,
 	icon = 600140,
 	last_effect = "",
-	blink = {
-		0,
-		0.7,
-		1,
-		0.3,
-		0.3
-	},
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

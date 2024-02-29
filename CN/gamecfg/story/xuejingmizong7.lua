@@ -604,7 +604,7 @@ return {
 			}
 		},
 		{
-			actor = 705020,
+			actor = 402010,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,

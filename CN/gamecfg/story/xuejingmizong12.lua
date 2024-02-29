@@ -764,7 +764,7 @@ return {
 			},
 			options = {
 				{
-					content = "查看《坡脚巨人》",
+					content = "查看《跛脚巨人》",
 					flag = 1
 				},
 				{

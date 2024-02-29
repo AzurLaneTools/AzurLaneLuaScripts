@@ -18,7 +18,7 @@ return {
 	desc = "",
 	stack = 1,
 	id = 17620,
-	icon = 17600,
+	icon = 17620,
 	last_effect = "",
 	effect_list = {
 		{

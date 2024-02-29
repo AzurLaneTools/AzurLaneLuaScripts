@@ -1355,7 +1355,7 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "story-antarctica-serious"
 	},
-	EquipBoxVictoryPtPage = {
+	SleeplessCityPage = {
 		default_bgm = "story-nonightcity",
 		special_bgm = "",
 		time = "",

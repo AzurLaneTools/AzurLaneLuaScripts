@@ -645,7 +645,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "迪洛伊军团正在冰原上肆虐……放任其发展下去的话，战局或许会比「路上神国」那一次更加严峻。",
+			say = "迪洛伊军团正在冰原上肆虐……放任其发展下去的话，战局或许会比「陆上神国」那一次更加严峻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

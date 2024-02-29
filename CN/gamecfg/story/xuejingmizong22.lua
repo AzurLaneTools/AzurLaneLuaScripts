@@ -153,10 +153,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "此刻，各大阵营的科考站撤离计划正在同步进行。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -172,10 +172,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "白鹰站和皇家站相对来说远离战场，目前人员已经全部在护送下乘船离开。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -192,10 +192,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "铁血正在按照之前的计划前往北方联合的科考站，之后会集中进行撤离。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -213,10 +213,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "各科考站的配属舰队将全程护航，在撤离行动完成前不参加作战行动。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -235,10 +235,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "根据各处发来的侦察报告，此刻的安塔迪卡并未出现如上次一般的，能够引导海洛芬特“降临”的“神之茧”。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -257,10 +257,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "迪洛伊军团虽然在尽全力散布白色物质，但其扩散缓慢，与上次不可同日而语。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -279,10 +279,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "这些都印证了我最开始的判断。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -301,10 +301,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "或许水星纪念·META并没有如马可波罗一般制定了完整的改造计划，只是在随心所欲地胡搅蛮缠而已……",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -323,10 +323,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "这样的话，只需要将其消灭，应该就能直接结束这场危机。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -345,10 +345,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "或者至少也能保证，事情不会变得更加糟糕。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -367,10 +367,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "幸运的是，水星纪念·META对于{namecode:529:苏维埃同盟}的舰队一直保持着极高的关注度。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -390,10 +390,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "因而完全放弃了对周围状况的感知。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -413,10 +413,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "这样，就给了我们将其引入指定区域内进行歼灭的选项。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -437,10 +437,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "此刻，{namecode:529:苏维埃同盟}一行人正在从“融雪区”向着预定作战区域撤离。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -462,10 +462,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "白鹰将会提供空中支援以期让撤退行为更加顺利。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -487,10 +487,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "如果能激起水星纪念·META的胜负心，让她主动跳入陷阱就更好了。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -513,10 +513,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "听{namecode:529:苏维埃同盟}说，她的情绪并不稳定。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -539,10 +539,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "与此同时，由{namecode:462:布伦希尔德}带领的，包含{namecode:521:兴登堡}、{namecode:519:菲利克斯}两艘计划舰在内的铁血先遣舰队已经抵达了伏击区。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -566,10 +566,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "萨拉托加的舰队主力则正从此方向赶来。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -593,10 +593,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "其中包括战列舰华盛顿、北卡罗来纳、科罗拉多、马里兰、西弗吉尼亚，航空母舰萨拉托加、突击者、独立。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -620,10 +620,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "以及数十艘巡洋舰与驱逐舰……",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -647,10 +647,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "除此之外，怨仇带领的皇家安塔迪卡舰队、{namecode:453:海因里希亲王}带领的铁血的增援舰队……",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -673,10 +673,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "以及萨拉托加的预备舰队——由邦克山带领的帕克菲克洋舰队的一部分将会陆续从该方向赶来。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -700,10 +700,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "这里，就是决战的地方——",
 			canMarkNode = {
 				"storymap_nanjidalu",
