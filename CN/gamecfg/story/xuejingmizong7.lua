@@ -621,13 +621,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 402010,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 705020,
 			say = "现在外部情报不明，不知道究竟是怎样的敌人正盘踞在那片白色之中。",
 			painting = {
 				alpha = 0.3,

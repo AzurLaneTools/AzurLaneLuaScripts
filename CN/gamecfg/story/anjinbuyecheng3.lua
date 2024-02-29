@@ -758,7 +758,7 @@ return {
 			bgName = "star_level_bg_543",
 			factiontag = "治安者突击队员",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			say = "火力全开——！",
 			painting = {
 				alpha = 0.3,

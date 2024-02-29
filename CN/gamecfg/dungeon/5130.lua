@@ -64,8 +64,7 @@ return {
 								67
 							},
 							buffList = {
-								600051,
-								600143
+								600051
 							},
 							bossData = {
 								hpBarNum = 100,
@@ -189,8 +188,7 @@ return {
 								43
 							},
 							buffList = {
-								600051,
-								600140
+								600051
 							},
 							bossData = {
 								hpBarNum = 100,

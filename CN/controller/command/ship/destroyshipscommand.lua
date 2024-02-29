@@ -76,9 +76,7 @@ function slot0.execute(slot0, slot1)
 				}))
 			end
 
-			slot7 = table.mergeArray(slot7, slot6)
-
-			for slot11, slot12 in ipairs(slot6) do
+			for slot11, slot12 in ipairs(table.mergeArray(slot7, slot6)) do
 				uv2:sendNotification(GAME.ADD_ITEM, slot12)
 			end
 
