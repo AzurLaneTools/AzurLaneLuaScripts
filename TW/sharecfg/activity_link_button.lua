@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4898
+			4701
 		}
 	},
 	{
@@ -75,8 +75,7 @@ pg.activity_link_button = {
 		pic = "event_boss",
 		order = 1,
 		time = {
-			"default",
-			4674
+			"default"
 		}
 	},
 	[40] = {

@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "控制中心的门像是豆腐一样被英雄劈成了两段——",
+			say = "控制中心的門像是豆腐一樣被英雄劈成兩段了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "有人在家吗~☆",
+			say = "有人在家嗎~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哎呀，不管是敌人还是自己人，好像都不在这里的样子哦~",
+			say = "哎呀，不管是敵人還是自己人，好像都不在這裡的樣子哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "彻底搜索一下控制中心，看看有什么线索。",
+			say = "徹底搜尋一下控制中心，看看有什麼線索。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，我这边有所发现。",
+			say = "怨仇女士，我這邊有所發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "英雄这里也有重大发现哦！",
+			say = "英雄這裡也有重大發現喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先别急，首先来听听我这个。",
+			say = "先別急，首先來聽聽我這個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「凯尔盖朗圣堂分队呼叫安塔迪卡洋舰队司令部」",
+			say = "「凱爾蓋朗聖堂分隊呼叫南冰洋艦隊司令部」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「我们遭遇到海量来源不明的敌人进攻」",
+			say = "「我們遭遇到海量來源不明的敵人進攻」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「情况危急，请求立刻派遣支援」",
+			say = "「情況危急，請求立刻派遣支援」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「重复，凯尔盖朗圣堂分队呼叫——」",
+			say = "「重複，凱爾蓋朗聖堂分隊呼叫——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这是……通信器播放的求援信号？",
+			say = "這是……通訊器播放的求援訊號？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没错，就是从我们所在的控制室发出的，而且现在依然在循环播放。",
+			say = "沒錯，就是從我們所在的控制室發出的，而且現在依然在循環播放。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "什么？可是这个求救信号我们在登岛之前完全没收到。",
+			say = "什麼？可是這個求救訊號我們在登島之前完全沒收到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是啊，那巡逻队是怎么收到的呢？",
+			say = "是啊，那巡邏隊是怎麼收到的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "非常抱歉，怨仇女士，我无法进行判断。",
+			say = "非常抱歉，怨仇女士，我無法進行判斷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "事情越来越有趣了。来说说你们的发现吧~",
+			say = "事情越來越有趣了。來說說妳們的發現吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "英雄小姐你先说吧。",
+			say = "英雄小姐妳先說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那我就不客气了！",
+			say = "那我就不客氣了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，你们看，工作台上的紧急停止杆似乎有受损的痕迹，恐怕是有人在情急之下用力拉动操纵杆造成的。",
+			say = "哼哼，妳們看，工作台上的緊急停止桿似乎有受損的痕跡，恐怕是有人在情急之下用力拉動操縱桿造成的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这里的设施都非常老旧，唯独这处擦痕是崭新的，所以拉下操纵杆的，极大概率就是我们的人。",
+			say = "這裡的設施都非常老舊，唯獨這處擦痕是嶄新的，所以拉下操縱桿的，極大機率就是我們的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那也就是说，在事件发生的时候，控制室里是有人的！而且还在尝试解决问题！",
+			say = "那也就是說，在事件發生的時候，控制室裡是有人的！而且還在嘗試解決問題！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "也就是说！紧急情况是从圣堂内部出现的！这不是外部攻击！",
+			say = "也就是說！這不是外部攻擊，緊急情況是從聖堂內部出現的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "观察得好仔细……！",
+			say = "觀察得好仔細……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哼哼哼~那斯库拉那边呢，有找到比英雄更厉害的线索么~☆",
+			say = "哼哼哼~那斯庫拉那邊呢，有找到比英雄更厲害的線索嗎~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "是不是更厉害我倒不好说……不过我找到了百眼巨人留下来的日志记录。",
+			say = "是不是更厲害我不好說……不過我找到了百眼巨人留下來的日誌紀錄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "里面详细记录了昨日18时例行联络后到发出救援通讯前这里发生的事，还附上了一张岛屿的地图。",
+			say = "裡面詳細紀錄了昨天18時例行聯絡後到發出救援通訊前這裡發生的事，還附上了一張島嶼的地圖。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，请过目。",
+			say = "怨仇女士，請過目。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "什么……！",
+			say = "什麼……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "辛苦了，斯库拉，我看看哦。",
+			say = "辛苦了，斯庫拉，我看看哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "传感器的异常数据……损坏的摄像头……",
+			say = "感應器的異常數據……損壞的攝影機……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "年久失修的设备……老式的系统……过长的自检时间……",
+			say = "年久失修的設備……老式的系統……過長的自我檢測時間……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……启用危机管控模式进行排查？",
+			say = "……啟用危機管理模式進行排查？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "没想到百眼巨人小姐会做出这样充满奇思妙想的操作。",
+			say = "沒想到百眼巨人女士會做出這樣充滿奇思妙想的操作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "再之后就是系统出现问题，控制中心收到了在圣堂内部的皇家橡树大人发出的据称正在与敌人交战的模糊通讯。",
+			say = "再之後就是系統出現問題，控制中心收到了在聖堂內部的皇家橡樹大人發出的據稱正在與敵人交戰的模糊通訊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "百眼巨人在发出了求救通讯后，选择前往名为圣堂Blanc的建筑群内与皇家橡树大人汇合。",
+			say = "然後百眼巨人在發出了求救通訊，選擇前往名為聖堂Blanc的區域與皇家橡樹大人匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "记录到这里就结束了。",
+			say = "紀錄到這裡就結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣堂Blanc……白色圣堂？",
+			say = "聖堂Blanc……白色聖堂？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "还真是简单易懂的命名，其他几个区域不会分别叫圣堂Rouge、圣堂Vert和圣堂Noir吧……",
+			say = "還真是簡單易懂的命名字，其他幾個區域不會分別叫聖堂Rouge、聖堂Vert和聖堂Noir吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行吧…………图上还真是这么标的。",
+			say = "行…………圖上還真是這麼標的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "刚才在绕岛航行的时候，英雄看到一片主体色为白色的建筑群了哦！",
+			say = "剛才在繞島航行的時候，英雄看到一座主題色為白色的建築群了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "就在距离我们这里不远的地方！",
+			say = "就在離我們這裡不遠的地方！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来那里就是接下来的调查目标了呢。",
+			say = "看來那裡就是接下來的調查目標了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战斗首先是从那里开始的，也许她们现在还被困在里面。",
+			say = "戰鬥首先是從那裡開始的，也許她們現在還被困在裡面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "走陆地还是水面？",
+			say = "走陸地還是水面？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不知为何，来到这里之后，岛屿上的鸢尾圣堂建筑群总给我一种不好的感觉。",
+			say = "不知為何，來到這裡之後，島上的鳶尾聖堂建築群總給我一種不好的感覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里本应是人迹罕至的世界边缘，可是居然存在这么一座规模夸张的要塞群。",
+			say = "這裡本應人跡罕至的世界邊緣，可是居然存在這麼一座規模誇張的要塞群。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1009,7 +1009,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "单纯以设计而言，它甚至超越了我们在直布罗特的要塞。",
+			say = "單純以設計而言，它甚至超越了我們在直布羅陀的要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1027,7 +1027,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "维希教廷，或者说鸢尾教国之前究竟在这里做过什么……",
+			say = "維希教廷，或者說鳶尾教國之前究竟在這裡做過什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1045,7 +1045,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "还好圣堂的危机管控模式没有正常运作，不然我们来的时候可就是惊喜连连了。",
+			say = "還好聖堂的危機管理模式沒有正常運作，不然我們來的時候可就是驚喜連連了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1063,7 +1063,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是啊，淑女大小姐的突发奇想也不容小觑呢……",
+			say = "是啊，淑女大小姐的突發奇想也不容小覷呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -267,7 +267,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "為什麼，為什麼要抵抗呢？",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "成為META就是妳們的命運，為什麼要抵抗命運呢？",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "還有妳們，明明已經接受了命運，明明已經見到了末日，為什麼還要反抗呢？",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "為什麼不繼續META化下去，直到極點呢？",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "算啦~既然如此抗拒的話，就毀滅吧。",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "等妳們毀滅之後，我們有永恆的時間交流呢——",
 			typewriter = {

@@ -1587,5 +1587,17 @@ pg.voice_actor_CN = {
 	{
 		code = 397,
 		actor_name = "羽月理惠"
+	},
+	{
+		code = 398,
+		actor_name = "户松遥"
+	},
+	{
+		code = 399,
+		actor_name = "佳穗成美"
+	},
+	{
+		code = 400,
+		actor_name = "Marika"
 	}
 }

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "圣堂Blanc·圣物陈列室",
+			say = "聖堂Blanc聖物陳列室",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -59,7 +59,7 @@ return {
 			actorName = "英雄",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "嚯呀！吾乃皇家海军的英雄大人！",
+			say = "嚯呀！吾乃皇家海軍的英雄大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actorName = "英雄",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "来者何人，举起手来————！",
+			say = "來者何人，舉起手來————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,10 +83,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "斯庫拉",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "这还真是……非常抱歉。",
+			say = "這還真是……非常抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,10 +94,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "斯庫拉",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "我的名字是斯库拉，只是一介女仆，没想到贸然进入了英雄大人的领地。",
+			say = "我名為斯庫拉，只是一介女僕，沒想到貿然進入了英雄大人的領地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actorName = "英雄",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "哼哼，看来你还是知道我的威名的！",
+			say = "哼哼，看來你還是知道我的威名的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actorName = "英雄",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "但是做错了事就要受罚，斯库拉小姐打算如何为这次冒犯赔罪呢~☆",
+			say = "但做錯了事就要受罰，斯庫拉小姐打算如何為這次冒犯而賠罪呢~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "斯庫拉",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "英雄大人希望我如何做呢？",
@@ -141,7 +141,7 @@ return {
 			actorName = "英雄",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "这个嘛——",
+			say = "這個嘛——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（开心地鼓掌）",
+			say = "（開心地鼓掌）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没想到斯库拉小姐还有即兴表演的天赋啊。",
+			say = "沒想到斯庫拉小姐還有即興表演的天份。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "只是临场配合一下英雄小姐罢了，让您见笑了，怨仇女士。",
+			say = "只是臨場配合一下英雄小姐罷了，讓您見笑了，怨仇女士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不不不，我觉得很有趣哦。多亏了你们，这里压抑的气息也消散了不少。",
+			say = "不不不，我覺得很有趣哦。多虧了妳們，這裡壓抑的氣息也消散了不少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "英雄，把弓拿来给我看一下。",
+			say = "英雄，把弓拿來給我看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这张弓就是从圣物陈列室里找到的唯一一样物品么？",
+			say = "這張弓就是從聖物陳列室找到的唯一一樣物品呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对！这里一共有四个展柜，可是有三个都空了，只有这张弓是完好无损的~☆",
+			say = "對！這裡一共有四個展櫃，可是有三個都空了，只有這張弓是完好的~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "在这个柜子下面还有一句话，“以此为审判的起点”，你知道是什么意思么？",
+			say = "在這個櫃子下面還有一句話，「以此為審判的起點」，妳知道是什麼意思嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "四个展柜……弓……审判的起点…………",
+			say = "四個展櫃……弓……審判的起點…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "您有什么猜想了么？",
+			say = "您有什麼猜想了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只是很朦胧的一个念头，不过我好像快明白为什么要把这里的氛围塑造得如此压抑了。",
+			say = "只是很朦朧的一個念頭，不過我好像快明白為什麼要把這裡的氛圍塑造得如此壓抑了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "————嗖！",
+			say = "————咻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在一行人专注于面前的藏品时，从怨仇身后另一头的通道中出现了一个模糊的身影。",
+			say = "就在一行人專心於眼前的收藏時，從怨仇身後另一頭的通道中出現了一個模糊的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士小心——！",
+			say = "怨仇女士小心——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不等入侵者近身，斯库拉就如同离弦的箭一般插入了怨仇与敌人之间。",
+			say = "不等入侵者近身，斯庫拉就如同離弦的箭一般插入了怨仇與敵人之間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "锋利的兵刃在昏暗的通道里如银弦般闪烁了一下，只在转瞬间，袭击者就倒在了地上。",
+			say = "鋒利的兵刃在昏暗的通道裡如銀弦般閃爍了一下，只在轉瞬間，襲擊者就倒在了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来者何人，报上名来！",
+			say = "來者何人，報上名來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "袭击者已经被斯库拉解决了哦。",
+			say = "襲擊者已經被斯庫拉解決了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好快！完全没给英雄出场的机会啊，喂！",
+			say = "……好快！完全沒給英雄出場的機會啊，喂！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常抱歉，下次我会尽量给您留出一点反应时间的。",
+			say = "非常抱歉，下次我會盡量留一點反應時間的給您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个是…………维希教廷的拉·加利索尼埃？",
+			say = "這個是…………維希教廷的拉·加利索尼埃？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是棋子而已，不堪一击。",
+			say = "只是棋子而已，不堪一擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷圣堂的内部出现了维希教廷的棋子……",
+			say = "維希教廷聖堂的內部出現了維希教廷的棋子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（震动的声音————）",
+			say = "（震動的聲音－－——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你、你们有没有感受到大地在震动，这这这，发生地震了么？！",
+			say = "妳、妳們有沒有感受到大地在震動，這這這，發生地震了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………不会真的是这样吧？",
+			say = "…………不會真的是這樣吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕和您猜测的一样，怨仇女士。",
+			say = "恐怕和您猜測的一樣，怨仇女士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有大量棋子正在向我们的方向接近，我们已经被包围了。",
+			say = "有大量棋子正在向我們的方向接近，我們已經被包圍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——女王陛下在上！所有人，准备战斗——！！",
+			say = "——女王陛下在上！所有人，準備戰鬥——！！",
 			painting = {
 				alpha = 0.3,
 				time = 1

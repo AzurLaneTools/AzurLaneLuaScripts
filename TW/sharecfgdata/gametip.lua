@@ -9694,7 +9694,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "{namecode:199}、{namecode:195}、{namecode:196}、{namecode:197}建造機率UP！"
+	tip = "怨仇、斯庫拉、皇家橡樹、百眼巨人 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -24995,4 +24995,8 @@ _G.pg.base.gametip.help_chunjie2024 = {
 <color=#92fc63>「限時建造」</color>：建造限時角色]]
 		}
 	}
+}
+
+_G.pg.base.gametip.skin_shop_buy_confirm = {
+	tip = "是否使用<color=$1>$2鑽石</color>購買<color=#92fc63FF>$3</color>"
 }

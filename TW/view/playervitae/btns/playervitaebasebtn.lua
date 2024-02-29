@@ -23,15 +23,11 @@ end
 
 function slot0.NewGo(slot0)
 	slot1, slot2 = slot0:GetBgName()
+	slot3 = slot0.tf:GetComponent(typeof(Image))
+	slot3.sprite = LoadSprite("ui/" .. slot1, slot2)
 
-	slot0:Hide()
-	LoadSpriteAtlasAsync("ui/" .. slot1, slot2, function (slot0)
-		slot1 = uv0.tf:GetComponent(typeof(Image))
-		slot1.sprite = slot0
-
-		slot1:SetNativeSize()
-		uv0:Show()
-	end)
+	slot3:SetNativeSize()
+	slot0:Show()
 
 	return slot0.tf
 end

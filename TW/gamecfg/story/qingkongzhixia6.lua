@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……咳，同盟同志，欢迎回到圣彼得伯格司令部。",
+			say = "姐姐……咳，{namecode:530:同盟}同志，欢迎回到圣彼得伯格司令部。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "遵命。然后同盟同志……从昨天开始出现了一个新的问题，使得我们不得不暂停了对于清除者主机空间的搜索。",
+			say = "遵命。然后{namecode:530:同盟}同志……从昨天开始出现了一个新的问题，使得我们不得不暂停了对于清除者主机空间的搜索。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -352,6 +352,11 @@ pg.chapter_status_effect = {
 		id = 74,
 		camera_focus = ""
 	},
+	[75] = {
+		strategy = 0,
+		id = 75,
+		camera_focus = ""
+	},
 	[101] = {
 		strategy = 94,
 		id = 101,
@@ -436,6 +441,7 @@ pg.chapter_status_effect = {
 		72,
 		73,
 		74,
+		75,
 		101,
 		102,
 		103

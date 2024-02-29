@@ -60,6 +60,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.offsetDragY = slot0.startValue
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
+	slot0.parameterComAdd = true
 end
 
 function slot0.startDrag(slot0)
@@ -299,8 +300,45 @@ end
 function slot0.updateParameterUpdateFlag(slot0)
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_ACTION then
 		slot0._parameterUpdateFlag = true
+	elseif slot0.actionTrigger.type == Live2D.DRAG_RELATION_IDLE then
+		if not slot0._parameterUpdateFlag then
+			if not slot0.l2dIsPlaying then
+				slot0._parameterUpdateFlag = true
+
+				slot0:changeParameComAdd(true)
+			elseif not table.contains(slot0.actionTrigger.remove_com_list, slot0.l2dPlayActionName) then
+				slot0._parameterUpdateFlag = true
+
+				slot0:changeParameComAdd(true)
+			end
+		elseif slot0._parameterUpdateFlag == true and slot0.l2dIsPlaying and table.contains(slot0.actionTrigger.remove_com_list, slot0.l2dPlayActionName) then
+			slot0._parameterUpdateFlag = false
+
+			slot0:changeParameComAdd(false)
+		end
 	else
 		slot0._parameterUpdateFlag = false
+	end
+end
+
+function slot0.changeParameComAdd(slot0, slot1)
+	if slot0.parameterComAdd == slot1 then
+		return
+	end
+
+	slot0.parameterComAdd = slot1
+
+	if slot1 then
+		slot0:onEventCallback(Live2D.EVENT_ADD_PARAMETER_COM, {
+			com = slot0._parameterCom,
+			start = slot0.startValue,
+			mode = slot0.mode
+		})
+	else
+		slot0:onEventCallback(Live2D.EVENT_REMOVE_PARAMETER_COM, {
+			com = slot0._parameterCom,
+			mode = slot0.mode
+		})
 	end
 end
 
@@ -613,19 +651,27 @@ function slot0.updateTrigger(slot0)
 				ableFlag = false
 			})
 		end
-	elseif slot1 == Live2D.DRAG_RELATION_XY and slot0._active then
-		slot6 = slot0:fixParameterTargetValue(slot0.offsetDragY, slot0.range, slot0.rangeAbs, slot0.dragDirect)
-		slot7 = slot4[1]
-		slot8 = slot4[2]
+	elseif slot1 == Live2D.DRAG_RELATION_XY then
+		if slot0._active then
+			slot6 = slot0:fixParameterTargetValue(slot0.offsetDragY, slot0.range, slot0.rangeAbs, slot0.dragDirect)
+			slot7 = slot4[1]
+			slot8 = slot4[2]
 
-		if math.abs(slot0:fixParameterTargetValue(slot0.offsetDragX, slot0.range, slot0.rangeAbs, slot0.dragDirect) - slot7) < math.abs(slot7) * 0.25 and math.abs(slot6 - slot8) < math.abs(slot8) * 0.25 then
-			slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
+			if math.abs(slot0:fixParameterTargetValue(slot0.offsetDragX, slot0.range, slot0.rangeAbs, slot0.dragDirect) - slot7) < math.abs(slot7) * 0.25 and math.abs(slot6 - slot8) < math.abs(slot8) * 0.25 then
+				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
-			if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
+					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+				end
+			else
+				slot0.triggerActionTime = slot0.triggerActionTime + 0
 			end
-		else
-			slot0.triggerActionTime = slot0.triggerActionTime + 0
+		end
+	elseif slot1 == Live2D.DRAG_RELATION_IDLE and slot0.actionTrigger.const_fit then
+		for slot8 = 1, #slot0.actionTrigger.const_fit do
+			if slot0.l2dIdleIndex == slot0.actionTrigger.const_fit[slot8].idle and not slot0.l2dIsPlaying then
+				slot0:setTargetValue(slot9.target)
+			end
 		end
 	end
 end
@@ -666,6 +712,7 @@ function slot0.updateStateData(slot0, slot1)
 	slot0.l2dIdleIndex = slot1.idleIndex
 	slot0.l2dIsPlaying = slot1.isPlaying
 	slot0.l2dIgnoreReact = slot1.ignoreReact
+	slot0.l2dPlayActionName = slot1.actionName
 
 	if not slot0.l2dIsPlaying and slot0.isTriggerAtion then
 		slot0:setTriggerActionFlag(false)

@@ -24,7 +24,7 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"接手第[//]日，□■:□■://",
 					1
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "区域抵达，英雄登场~",
+			say = "區域抵達，英雄登場~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "亲爱的死亡骑士，你在家么~☆",
+			say = "親愛的死亡騎士，你在家嗎~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "四周只有一片死寂，英雄的英雄式登场没有得到任何回应。",
+			say = "四周只有一片死寂，英雄的英雄式登場沒有得到任何回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这里应该是……苍绿色建筑群的中心区域了吧？居然会这么冷清……",
+			say = "這裡應該是……蒼綠色建築群的中心區域了吧？居然會這麼冷清……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "除了战争的军队会偶尔出现，一路上居然什么别的东西都没看到，明明这里是死亡的大本营欸……",
+			say = "除了戰爭的軍隊會偶爾出現，一路上居然什麼別的東西都沒看到，明明這裡是死亡的大本營欸……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "情况确实很反常。大家仔细搜索，我有种不好的预感……",
+			say = "情況確實很反常。大家仔細搜索，我有種不好的預感……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "在一阵搜索后，众人在一处广场中找到了此行的目标。",
+			say = "在一陣搜索後，眾人在一處廣場中找到了此行的目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "曾经巨大的机甲骑士如今正像垃圾一样占据着广场最显眼的位置。",
+			say = "曾經巨大的機甲騎士如今正像垃圾一樣佔據著廣場最顯眼的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "……能看出形如镰刀的兵器，再加上这个体积，应该是代表死亡的机甲骑士没错了。",
+			say = "……看得出形如鐮刀的兵器，再加上這個體積，應該是代表死亡的機甲騎士沒錯了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "就是……已经被干掉了啊。",
+			say = "就是……已經被幹掉了啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "破坏得相当彻底呢，怪不得之前从空中搜索的时候什么没能注意到。",
+			say = "破壞得相當徹底呢，怪不得之前從空中搜索的時候什麼沒能注意到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这下不是省事了嘛~代表死亡的骑士已经死了~☆",
+			say = "這下不是省事了嘛~代表死亡的騎士已經死了~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不…………这个情况非常不妙。",
+			say = "不…………這個情況非常不妙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这些骑士必须按顺序消灭才行，如果不按照顺序就麻烦了！",
+			say = "這些騎士必須依序消滅才行，如果不依照順序就麻煩了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "斯库拉，能从残骸上看出线索么，是谁做的？",
+			say = "斯庫拉，能從殘骸上看出線索嗎，是誰做的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "最为显著的，应当就是炮击痕迹和巨大锐器留下的斩痕。",
+			say = "最顯著的，應當就是炮擊痕跡和巨大銳器留下的斬痕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "能造成如此巨大伤口的武器不是常规舰船能使用的，反倒是其他机甲骑士的武器可以同时造成这两种伤痕。",
+			say = "能造成如此巨大傷口的武器不是常規艦船能使用的，反倒是其他機甲騎士的武器可以同時造成這兩種傷痕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我推测应该是其他骑士做的，就现状而言……也许是战争骑士。",
+			say = "我推測應該是其他騎士做的，就現狀而言……也許是戰爭騎士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "看来机械构成的空间对于“死亡”这个概念来说实在是过于不友好了……",
+			say = "看來機械構成的空間對於「死亡」這個概念來說實在是過於不友善了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "META也能做到这种事……META信标监测仪有什么发现么？",
+			say = "META也能做到這種事……META信標監控儀有什麼發現嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "没有。",
+			say = "沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没有么……那局面总算不至于变得更加复杂。",
+			say = "沒有嗎……那局面總算不至於變得更加複雜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，您为什么会突然想到META上？",
+			say = "怨仇女士，為什麼會突然想到META上？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哎……大主教你可能还不太清楚，最近有正体不明的META一直在跟我们皇家作对呢，不得不处处留个心眼才行啊。",
+			say = "哎……大主教妳可能還不太清楚，最近有正體不明的META正一直在跟我們皇家作對呢，不得不處處留個心眼才行啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "正体不明的META正在海域中对皇家采取敌意行动……？",
+			say = "正體不明的META正在海域中對皇家採取敵意行動……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那还真是危险，感谢您的这份情报，我们也会警惕这件事的。",
+			say = "那還真是危險，感謝您的這份情報，我們也會警惕這件事的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唉……幸好按照顺序来说，死亡骑士本就是要被第一个消灭的。",
+			say = "唉……幸好按照順序來說，死亡騎士本來就是要被第一個消滅的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "饥荒骑士应该还好，毕竟不久前才见过，持续保持关注就可以。",
+			say = "飢荒騎士應該還好，畢竟不久前才看過，持續保持關注就可以。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "至于战争骑士……虽然它的的军队还在，但是没有确认到其本体的话，也不能做定论。",
+			say = "至於戰爭騎士……雖然它的軍隊還在，但是沒有確認到其本體的話，也不能做定論。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "支配骑士的位置同样没有被空中侦察确认，而且海域中没有见到它的军队……",
+			say = "支配騎士的位置同樣沒有被空中偵察確認，而且海域中沒有見到它的軍隊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过它要是和理论中一样是最强的话，应该也不至于被消灭掉……最差也就和饥荒骑士一样吧。",
+			say = "不過它要是和理論中一樣是最強的話，應該也不至於被消滅掉……最差也就和飢荒騎士一樣吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只要能确认它们都还存在于海域之中，我们就可以继续按原方案推进计划。",
+			say = "只要能確認它們都還存在於海域之中，我們就可以繼續以原方案推進計劃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "既然如此，为了效率，分开搜索如何？",
+			say = "既然如此，為了效率，分開搜尋如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们负责确认战争骑士的状况，支配骑士和饥荒骑士那边就拜托你们如何？",
+			say = "我們負責確認戰爭騎士的狀況，支配騎士和饑荒騎士那邊就拜託妳們如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "战争骑士那里应该是敌人最密集的区域吧……？",
+			say = "戰爭騎士那裡應該是敵人最密集的區域吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "支配骑士也是四骑士中理论上最强的。大家的风险都很高，现在不是谦让的时候。",
+			say = "支配騎士也是四騎士中理論上最強的。大家的風險都很高，現在不是謙讓的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好，那就这么分工吧。遭遇敌人时不要纠缠，优先确定剩下三名机甲骑士的位置与状态！",
+			say = "好，那就這麼分工吧。遭遇敵人時不要糾纏，優先確定剩下三名機甲騎士的位置與狀態！",
 			painting = {
 				alpha = 0.3,
 				time = 1

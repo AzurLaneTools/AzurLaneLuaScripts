@@ -660,7 +660,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "而发信人是…………苏维埃同盟？！",
+			say = "而发信人是…………{namecode:529:苏维埃同盟}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "向苏维埃同盟说明了之前发生的事并解释了现在的计划——",
+			say = "向{namecode:529:苏维埃同盟}说明了之前发生的事并解释了现在的计划——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我的订单，苏维埃同盟，订单的问题解决了么？",
+			say = "我的订单，{namecode:529:苏维埃同盟}，订单的问题解决了么？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "……极地风暴行动正在进行，本应该在中央坐镇指挥的苏维埃同盟却出现在了黑海。",
+			say = "……极地风暴行动正在进行，本应该在中央坐镇指挥的{namecode:529:苏维埃同盟}却出现在了黑海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

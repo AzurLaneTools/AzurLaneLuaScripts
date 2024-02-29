@@ -2667,6 +2667,20 @@ pg.name_code = {
 		code = "聖地牙哥.改",
 		nation = 0
 	},
+	[529] = {
+		name = "苏维埃同盟",
+		type = 1,
+		id = 529,
+		code = "苏维埃萨尤斯",
+		nation = 0
+	},
+	[530] = {
+		name = "同盟",
+		type = 1,
+		id = 530,
+		code = "萨尤斯",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戰五二型",
 		type = 2,

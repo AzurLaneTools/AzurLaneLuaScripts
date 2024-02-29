@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "「▅■三▆▅」",
 			typewriter = {
 				speed = 0.05,
@@ -817,7 +817,7 @@ return {
 		},
 		{
 			actor = 900357,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			stopbgm = true,
@@ -1096,7 +1096,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "「▅■分▆▅」",
 			typewriter = {
 				speed = 0.05,
@@ -1145,7 +1145,7 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "「▅■▆▅▆▅」",
@@ -1165,7 +1165,7 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "「■▅▅▆▅■▅▅」",

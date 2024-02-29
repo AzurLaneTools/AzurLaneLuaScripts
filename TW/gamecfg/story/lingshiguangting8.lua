@@ -524,7 +524,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "留下來陪我玩吧，大姐姐。",
 			typewriter = {
 				speed = 0.05,
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "何等出色的威力……如果你能成為META的話，該是何等優秀的傑作啊……",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "呵呵呵……呵呵呵呵呵…………妳可以繼續開炮哦？",
 			typewriter = {
 				speed = 0.05,
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "盡情的向我傾瀉憤怒與不甘的哀嚎吧。",
 			typewriter = {
 				speed = 0.05,
@@ -762,7 +762,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "準心太差啦~是妳在手下留情，還是你一點實戰經驗都沒有呢？",
 			typewriter = {
 				speed = 0.05,
@@ -796,7 +796,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "沒辦法，那就教教妳基礎知識好了。",
 			typewriter = {
 				speed = 0.05,
@@ -813,7 +813,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "這裡是我的頭，這裡是我的心臟。瞄準這兩個位置開火效果會更好哦？",
 			typewriter = {
 				speed = 0.05,
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "呵呵~這次開始有些像話了。",
 			typewriter = {
 				speed = 0.05,
@@ -902,7 +902,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "那麼接下來是我的回合————讓我們來相互廝殺吧，大姐姐~",
 			typewriter = {
 				speed = 0.05,

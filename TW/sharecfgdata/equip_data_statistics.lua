@@ -66233,6 +66233,310 @@ _G.pg.base.equip_data_statistics[29213] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[29220] = {
+	rarity = 5,
+	name = "萤火虫(1771中队)",
+	speciality = "<[BOMB]>",
+	type = 9,
+	tech = 0,
+	ammo = 5,
+	nationality = 2,
+	descrip = "怨仇号航空母舰上搭载的，由1771中队驾驶的萤火虫多功能舰载机",
+	id = 29220,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "29220",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50660
+		},
+		{
+			5,
+			52780
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		29220
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"CV",
+		"DB"
+	}
+}
+
+_G.pg.base.equip_data_statistics[29221] = {
+	id = 29221,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50661
+		},
+		{
+			5,
+			52781
+		}
+	},
+	weapon_id = {
+		29221
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29222] = {
+	id = 29222,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50662
+		},
+		{
+			5,
+			52782
+		}
+	},
+	weapon_id = {
+		29222
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29223] = {
+	id = 29223,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50663
+		},
+		{
+			5,
+			52783
+		}
+	},
+	weapon_id = {
+		29223
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29224] = {
+	id = 29224,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50664
+		},
+		{
+			5,
+			52784
+		}
+	},
+	weapon_id = {
+		29224
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29225] = {
+	id = 29225,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50665
+		},
+		{
+			5,
+			52785
+		}
+	},
+	weapon_id = {
+		29225
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29226] = {
+	id = 29226,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50666
+		},
+		{
+			5,
+			52786
+		}
+	},
+	weapon_id = {
+		29226
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29227] = {
+	id = 29227,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50667
+		},
+		{
+			5,
+			52787
+		}
+	},
+	weapon_id = {
+		29227
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29228] = {
+	id = 29228,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50668
+		},
+		{
+			5,
+			52788
+		}
+	},
+	weapon_id = {
+		29228
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29229] = {
+	id = 29229,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50669
+		},
+		{
+			5,
+			52789
+		}
+	},
+	weapon_id = {
+		29229
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29230] = {
+	id = 29230,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50670
+		},
+		{
+			5,
+			52790
+		}
+	},
+	weapon_id = {
+		29230
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29231] = {
+	id = 29231,
+	anti_siren = 100,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50671
+		},
+		{
+			5,
+			52791
+		}
+	},
+	weapon_id = {
+		29231
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29232] = {
+	id = 29232,
+	anti_siren = 200,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50672
+		},
+		{
+			5,
+			52792
+		}
+	},
+	weapon_id = {
+		29232
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[29233] = {
+	id = 29233,
+	anti_siren = 300,
+	base = 29220,
+	ammo_info = {
+		{
+			6,
+			50673
+		},
+		{
+			5,
+			52793
+		}
+	},
+	weapon_id = {
+		29233
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[29300] = {
 	rarity = 5,
 	name = "梭魚(831中隊)",
@@ -122927,8 +123231,7 @@ _G.pg.base.equip_data_statistics[85320] = {
 	label = {
 		"SN",
 		"BB",
-		"MG",
-		"AP"
+		"MG"
 	}
 }
 

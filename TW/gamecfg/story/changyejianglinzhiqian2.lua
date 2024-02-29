@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "列车规律的颠簸让苏维埃同盟有些困倦。",
+			say = "列车规律的颠簸让{namecode:529:苏维埃同盟}有些困倦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不知不觉中，苏维埃同盟的意识远去了。",
+			say = "不知不觉中，{namecode:529:苏维埃同盟}的意识远去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			say = "无人回应苏维埃同盟的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "无人回应{namecode:529:苏维埃同盟}的自言自语，只有黑色的太阳在无声地燃烧着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			painting = {
@@ -255,7 +255,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
@@ -291,7 +291,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "……………………",
 			painting = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在列车的减速声中，苏维埃同盟睁开了双眼。",
+			say = "在列车的减速声中，{namecode:529:苏维埃同盟}睁开了双眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "苏维埃同盟整理起手边的文件，进行下车前的准备。",
+			say = "{namecode:529:苏维埃同盟}整理起手边的文件，进行下车前的准备。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原本苏维埃同盟也应该坐镇中枢指挥。",
+			say = "原本{namecode:529:苏维埃同盟}也应该坐镇中枢指挥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "所以苏维埃同盟不得不离开指挥中心，来到黑海造船厂来处理一下这边的问题。",
+			say = "所以{namecode:529:苏维埃同盟}不得不离开指挥中心，来到黑海造船厂来处理一下这边的问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "苏维埃同盟同志，列车已到站。",
+			say = "{namecode:529:苏维埃同盟}同志，列车已到站。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

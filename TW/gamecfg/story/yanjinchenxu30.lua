@@ -31,7 +31,7 @@ return {
 			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_burningsea_1",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我来帮忙了，情况如何？",
+			say = "我來幫忙了，情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "迟了一步，只剩下些杂鱼，让“鲸鱼”跑了。",
+			say = "慢了一步，只剩下些雜魚，讓「鯨魚」跑了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可惜。有其他收获么？",
+			say = "可惜。有其他收穫嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "给，这是回收到的情报残留，你看看吧。",
+			say = "給妳，這是回收的情報殘留，妳看看吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………果然，“鲸鱼”看似随机的“游动”是存在某种目的性的。",
+			say = "…………果然，「鯨魚」看似隨機的「遊動」是存在某種目的性的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所以我真是完全不明白它们在搞些什么……审判者计划变成这样子还能进行下去么？",
+			say = "所以我真是完全不明白它們在搞些什麼啊……審判者計劃變成這樣子還能進行下去麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "还是说……这也是审判者计划的一环？",
+			say = "還是說這也是審判者計畫的一環呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "为什么要问我？",
+			say = "為什麼要問我？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为，你有一个漂亮的履历。",
+			say = "因為妳有一個漂亮的履歷嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "附近还有一个履历比我更漂亮的人呢，你要实在好奇的话去问问「D小姐」如何？",
+			say = "附近還有一個履歷比我更漂亮的人呢，妳如果真的好奇的話去問問「D小姐」如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我自然问过……可是它说除非先抓住“鲸鱼”，否则什么都不会告诉我。",
+			say = "我當然問過啊……可是它說除非先抓住「鯨魚」，否則什麼事都不會告訴我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "那就继续去抓“鲸鱼”。",
+			say = "那就繼續去抓「鯨魚」吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不过不是现在，陛下叫我们回去了。",
+			say = "不過不是現在，陛下叫我們回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,35 +334,35 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「万物皆应有始终」</size>",
+					"<size=34>「萬物皆應有始終」</size>",
 					1
 				},
 				{
-					"<size=34>「尘应归于尘，土应归于土」</size>",
+					"<size=34>「塵應歸於塵，土應歸於土」</size>",
 					2
 				},
 				{
-					"<size=34>「但，我依然还活着」</size>",
+					"<size=34>「但，我依然還活著」</size>",
 					3
 				},
 				{
-					"<size=34>「只有这样，我才能完成那件事」</size>",
+					"<size=34>「只有這樣，我才能完成那件事」</size>",
 					4
 				},
 				{
-					"<size=34>「那件成功几率渺茫，但必须要被完成的事」</size>",
+					"「那件成功幾率渺茫，但必須要完成的事」",
 					5
 				},
 				{
-					"<size=34>「——寻找真相」</size>",
+					"<size=34>「——尋找真相」</size>",
 					6
 				},
 				{
-					"<size=34>「为此，我追逐，我狩猎」</size>",
+					"<size=34>「為此，我追逐，我狩獵」</size>",
 					7
 				},
 				{
-					"<size=34>「如果你亦志在此处的话」</size>",
+					"<size=34>「如果你亦志在此處的話」</size>",
 					9
 				},
 				{
@@ -374,7 +374,7 @@ return {
 					11
 				},
 				{
-					"<size=34>「向本王祈祷吧」</size>",
+					"<size=34>「向本王祈禱吧」</size>",
 					12
 				}
 			}

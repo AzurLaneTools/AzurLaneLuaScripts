@@ -24,7 +24,7 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"接手第[//]天，□■:□■://",
 					1
 				},
 				{
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉，你怎么看那个余烬拉·加利索尼埃的话？",
+			say = "斯庫拉，妳怎麼看那個餘燼拉·加利索尼埃的話？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "听起来很真诚，很可信，解决问题的思路跟我们之前想的也差不多。",
+			say = "聽起來很真誠，很可信，解決問題的想法跟我們之前想的也差不多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我总觉得哪里不太对……她对于这里了解得过于细致了？或者说，她对于这件事过于热心了？",
+			say = "我總覺得哪裡不太對……她對於這裡了解得太細緻了？或者說，她對於這件事過於熱心了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "抱歉怨仇女士，我还说不出来违和感的源头是什么。",
+			say = "抱歉怨仇女士，我還說不出來違和感的源頭是什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没事，慢慢想就好，这件事上我也是同感。",
+			say = "沒事，慢慢想就好，這件事上我也是同感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "说的话虽然听不出任何问题，但是总感觉有哪里不对……",
+			say = "說的話雖然聽不出任何問題，但總覺得有哪裡不對……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也许只是我们对于余烬天然的不信任感导致的错觉，但又也许不是。",
+			say = "也許只是我們對於餘燼天然的不信任感導致的錯覺，但又或許不是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，接下来注意观察保持警惕。",
+			say = "總而言之，接下來注意觀察保持警覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1

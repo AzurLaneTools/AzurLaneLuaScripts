@@ -12,7 +12,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █·█ █ █ █ ██",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -44,7 +44,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………我就知道，回来之后肯定会做噩梦。",
+			say = "………………我就知道，回來之後一定會做惡夢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在应该算是预感成功了吧？",
+			say = "現在應該算是預感成功了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应怨仇的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "無人回應怨仇的自言自語，只有黑色的太陽在無聲地燃燒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，就让我来仔细观察一下你好了。",
+			say = "既然如此，就讓我來仔細觀察一下你好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在凯尔盖朗的时候被你吓了两次，你说你究竟算是什么东西呢?",
+			say = "在凱爾蓋朗的時候被你嚇了兩次，你說你究竟算是什麼東西呢?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "怨仇看向不远处的黑色太阳，终于做出了决定。",
+			say = "怨仇看向不遠處的黑色太陽，終於做出了決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "不过在迈开脚步前，她感到了身后突然出现的气息。",
+			say = "不過在邁開腳步前，她感覺到了身後突然出現的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,13 +146,13 @@ return {
 		},
 		{
 			actor = 205010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			actorShadow = true,
 			dialogueBgAlpha = 0.6,
 			side = 2,
-			actorName = "█ █ █ █ █",
-			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
+			actorName = "█ █ ████",
+			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂ ▅▎▌█▊▇▊▇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,10 +188,10 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actor = 205010,
-			actorName = "█ █ █ █ █",
-			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
+			actorName = "█ █ ████",
+			say = "▅ ▂▋▄▊■▆▎▅ ▂▋▄▊■▆▎▇▆▅■",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……您说什么……我，听不清？",
+			say = "……您說什麼……我，聽不清楚？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "听不清，那还有救。",
+			say = "聽不清，那還有救。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "魑魅魍魉，给本王退下！",
+			say = "魑魅魍魎，給本王退下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "一阵猛烈的冲击后，那个发出不明声音的伊丽莎白女王不见了。",
+			say = "一整起猛烈的衝擊後，那個發出不明聲音的伊莉莎白女王不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "取而代之的是出现在怨仇身后另一侧的——",
+			say = "取而代之的是出現在怨仇身後另一邊的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯？这么看着本王做什么？",
+			say = "嗯？這麼看著本王做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……伊丽莎白女王·META？！",
+			say = "……伊莉莎白女王‧META？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,11 +366,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "为何要如此惊讶，不是你呼唤的本王么？",
+			say = "為何要如此驚訝，不是妳呼喚的本王嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,11 +386,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "细看下来……你并没有META化呢。",
+			say = "細看下來……妳並沒有META化呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,11 +406,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "那你为何能呼唤到本王？又是如何被那些东西缠上的？",
+			say = "那妳為何能呼喚到本王？又是如何被那些東西纏上的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "有些意思……",
+			say = "有點意思……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有点……跟不上您的思路。",
+			say = "我有點……跟不上您的思路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "我这是在做梦么？",
+			say = "我這是在做夢嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			dir = 1,
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "对于你来说，是。",
+			say = "對妳來說，是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,11 +502,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "梦该醒了，这里不是你该来的地方，回去吧。",
+			say = "夢該醒了，這裡不是妳該來的地方，回去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是我还有问题————",
+			say = "可是我還有問題————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,11 +541,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "本王又没在征求你的意见。",
+			say = "本王又沒在徵求妳的意見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,

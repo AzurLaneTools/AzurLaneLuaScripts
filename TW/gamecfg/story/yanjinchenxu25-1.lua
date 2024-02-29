@@ -14,7 +14,7 @@ return {
 			bgm = "battle-whaling-normal",
 			actor = 900353,
 			stopbgm = true,
-			say = "已经能看到战争机甲的本体了，诸位状态如何？",
+			say = "已經能看到戰爭機甲的本體了，諸位狀態如何？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "祈祷的力量还在生效，我们都没受伤。",
+			say = "祈禱的力量還在生效，我們都沒受傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是这一路上……敌人也太多了！",
+			say = "但是這一路上……敵人也太多了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "既然你想消灭人家，总得允许人家自我防卫啊。",
+			say = "既然妳想消滅人家，總得允許人家自我防衛啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过放心，虽然战争的军队很多，但是它本体也是很强的。",
+			say = "不過放心，雖然戰爭的軍隊很多，但是它本體也是很強的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯？我是在激励你们呢，面对强大敌人的时候不是会更容易燃起斗志么？",
+			say = "嗯？我是在激勵妳們呢，面對強大敵人的時候不是會更容易燃起鬥志嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会激励可以不激励……！",
+			say = "不會激勵可以不激勵……！",
 			painting = {
 				alpha = 0.3,
 				time = 1

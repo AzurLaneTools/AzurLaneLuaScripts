@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "宽厚的重剑插入了骑士的机械结构。",
+			say = "寬厚的重劍插入了騎士的機械結構。",
 			bgmDelay = 1,
 			bgm = "theme-vichy-slaughter",
 			flashin = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一连串爆炸后，萦绕在战争骑士庞大躯壳上的红色火焰，终是逐渐熄灭了。",
+			say = "一連串爆炸後，縈繞在戰爭騎士龐大軀殼上的紅色火焰，終是逐漸熄滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼、呼、呼……这样就结束了……",
+			say = "呼、呼、呼……這樣就結束了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是皇家骑士，女王陛下以你精湛的技艺为荣，皇家橡树大人。",
+			say = "不愧是皇家騎士，女王陛下以妳精湛的技藝為榮，皇家橡樹大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，其实它到最后完全不会动了……多亏了怨仇女士，我只是瞄着靶子打而已。",
+			say = "哈哈，其實它到最後完全不會動了……多虧了怨仇女士，我只是瞄著靶子打而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了这把弓呢，等回去之后我要把它挂在大厅最显眼的位置~",
+			say = "多虧了這把弓呢，等回去之後我要把它掛在大廳最顯眼的位置~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，奇怪……我怎么感觉这金弓好像褪色了？弓梢这边是不是裂——欸？！",
+			say = "唔，奇怪……我怎麼感覺這金弓好像褪色了？弓梢這邊是不是裂——欸？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "在英雄讶异的目光中，那道细微的裂痕沿着弓臂一路蔓延，最后贯穿了整副金弓。",
+			say = "在英雄的親異目光中，那道細微的裂痕沿著弓臂一路蔓延，最後貫穿了整副金弓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一声清脆的爆响后，金弓碎裂成了无法辨认的粉末。",
+			say = "一聲清脆的爆響後，金弓碎裂成了無法辨認的粉末。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜，本来还想着拿回去当英雄的战利品呢！",
+			say = "嗚嗚嗚，本來還想著要拿回去當英雄的戰利品呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这把弓这次也算帮了我们的大忙，回头我去定一个仿制品给你收藏吧。",
+			say = "……這把弓這次也算幫了我們的大忙，回頭我去定一個仿製品讓妳收藏吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好耶~！多谢怨仇大人~",
+			say = "好耶~！多謝怨仇大人~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在战争骑士也被顺利消灭，接下来只要去消灭代表支配的机甲骑士，整件事就彻底结束了。",
+			say = "現在戰爭騎士也被順利消滅，接下來只要去消滅代表支配的機甲騎士，整件事就徹底結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，支配骑士也是战斗力最强的，我们要怎么消灭它呢……",
+			say = "但是，支配騎士也是戰鬥力最強的，我們要怎麼消滅它呢…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不能用像对抗战争的时候一样找到削弱它的象征物了吧……？",
+			say = "也不能用像對抗戰爭的時候一樣找到削弱它的象徵物了吧…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒也不一定……第五印、第六印还有第七印的效果我还没试过呢……",
+			say = "倒也不一定……第五印、第六印還有第七印的效果我還沒試過呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不行！继续尝试实在是过于危险了！",
+			say = "不行！繼續嘗試實在是太危險了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事~都说了这片圣堂对我的影响小，刚才试了两个我不都平安无事么。",
+			say = "沒事沒事~都說了這片聖堂對我的影響小，剛才試了兩個我不都平安無事嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是对于圣堂所处的塞壬镜面海域本身呢？",
+			say = "但對於聖堂所處的塞壬鏡面海域本身呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在这片海域中诞生了代表末日四骑士的机甲，不代表它只能诞生代表末日四骑士的机甲。",
+			say = "在這片海域中誕生了代表末日四騎士的機甲，不代表它只能誕生代表末日四騎士的機甲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如果第五印、第六印甚至第七印的象征也在这里得到了具现化，使得工厂开始生产些什么……",
+			say = "如果第五印、第六印甚至第七印的象徵也在這裡得到了具現化，使得工廠開始生產些什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "之后会发生的事你有想过么！",
+			say = "之後會發生的事妳有想過嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………你说得对……！",
+			say = "………………妳說得對……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，无敌的余烬拉·加利索尼埃小姐，在你原本的计划里要怎么消灭支配呢？",
+			say = "那麼，無敵的餘燼拉·加利索尼埃小姐，在妳原本的計劃裡要怎麼消滅支配呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "原本我打算等它和战争拼的两败俱伤之后再跳出来补刀的，不过就现状而言这个方案肯定用不上了。",
+			say = "原本我打算等它和戰爭拼的兩敗俱傷之後再跳出來補刀的，不過就現狀而言這個方案肯定用不上了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实……那接下来该怎么办啊。",
+			say = "確實……那接下來該怎麼辦啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯？什么怎么办，在我看来事情已经和全部结束没区别了啊？",
+			say = "嗯？什麼怎麼辦，在我看來事情已經跟全部結束沒差別了啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们忘记发现支配骑士自己还处在极光之壁的“支配”下，根本就没有启动的事了么？",
+			say = "妳們沒有發現支配騎士自己還處在極光之壁的「支配」下，根本就沒有啟動的事了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊？！说的也是欸…………！",
+			say = "啊？！說的也是欸…………！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那也就是说……不用苦战了？",
+			say = "那也就是說……不用苦戰了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不用，对付没有启动的机甲骑士，方法可就多了。比如启动极光之壁，将其分割摧毁之类的？",
+			say = "不用，對付沒有啟動的機甲騎士，方法也就多了。例如啟動極光之壁，將其分割摧毀之類的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "具体要怎么做我得去现场再调查一下才能确认。",
+			say = "具體要怎麼做我得去現場再調查一下才能確認。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是鸢尾的圣堂，黎塞留主教和贝亚恩也来配合我调查一下没问题吧？",
+			say = "這裡是鳶尾的聖堂，黎胥留主教和貝亞恩也來配合我調查一下沒問題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，只要能安全解决事态就可以。",
+			say = "那是自然，只要能安全解決事情就可以。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯~那说不如做，让我们赶紧出发吧~",
+			say = "嗯~那說不如做，讓我們趕快出發吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

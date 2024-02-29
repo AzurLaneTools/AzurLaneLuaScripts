@@ -33,6 +33,7 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	setActive(slot0.maskTF, slot0.isDone == true)
+	setActive(slot0.goBtn, not slot0.isDone)
 
 	slot1 = pg.survey_data_template[slot0.surveyID].bonus[1]
 

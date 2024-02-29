@@ -6,7 +6,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tpls = {
 		slot0._tf:Find("resource/text_tpl"),
 		slot0._tf:Find("resource/image_tpl"),
-		slot0._tf:Find("resource/list_tpl")
+		slot0._tf:Find("resource/list_tpl"),
+		slot0._tf:Find("resource/cast_tpl")
 	}
 	slot0.layoutContainer = slot0.castPanel:Find("Image")
 end
@@ -37,11 +38,13 @@ end
 function slot0.SetLayout(slot0, slot1, slot2)
 	removeAllChildren(slot0.layoutContainer)
 
-	for slot7, slot8 in pairs(slot1:GetLayout()) do
-		slot11 = "InitLayoutForType" .. slot8.type
+	slot0.layoutContainer:GetComponent(typeof(VerticalLayoutGroup)).spacing = slot1:GetSpacing()
 
-		assert(slot0[slot11], "need function >>>" .. slot11)
-		slot0:__slot11_None__(cloneTplTo(slot0.tpls[slot8.type], slot0.layoutContainer), slot8)
+	for slot9, slot10 in pairs(slot1:GetLayout()) do
+		slot13 = "InitLayoutForType" .. slot10.type
+
+		assert(slot0[slot13], "need function >>>" .. slot13)
+		slot0:__slot13_None__(cloneTplTo(slot0.tpls[slot10.type], slot0.layoutContainer), slot10)
 	end
 
 	slot2()
@@ -52,23 +55,50 @@ function slot0.InitLayoutForType1(slot0, slot1, slot2)
 end
 
 function slot0.InitLayoutForType2(slot0, slot1, slot2)
-	slot4 = slot1:GetComponent(typeof(Image))
-	slot4.sprite = LoadSprite("bg/" .. slot2.path)
+	slot5 = slot1:GetComponent(typeof(LayoutElement))
+	slot1:Find("image"):GetComponent(typeof(Image)).sprite = LoadSprite("bg/" .. slot2.path)
 
-	slot4:SetNativeSize()
+	if slot2.size == Vector2.zero then
+		slot4:SetNativeSize()
+
+		slot5.preferredHeight = slot4.gameObject.transform.sizeDelta.y
+	else
+		slot4.gameObject.transform.sizeDelta = slot2.size
+		slot5.preferredHeight = slot2.size.y
+	end
 end
 
 function slot0.InitLayoutForType3(slot0, slot1, slot2)
-	slot4 = UIItemList.New(slot1, slot1:Find("Text"))
+	slot4 = slot2.column
+	slot5 = slot1:GetComponent(typeof(GridLayoutGroup))
+	slot5.constraintCount = slot4
+	slot5.cellSize = Vector2(1920 / slot4 - slot5.spacing.x * (slot4 - 1), 30)
+	slot8 = slot4 % 2 ~= 0
+	slot9 = UIItemList.New(slot1, slot1:Find("1"))
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot9:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+			slot3 = slot2:GetComponent(typeof(Text))
+			slot4 = COLOR_WHITE
 
-			setText(slot2, slot3.text1 .. string.rep("　", 2) .. slot3.text2)
+			if uv0 then
+				slot3.alignment = TextAnchor.MiddleCenter
+			else
+				slot5 = slot1 % 2 == 0
+				slot3.alignment = slot5 and TextAnchor.MiddleRight or TextAnchor.MiddleLeft
+
+				if slot5 then
+					slot4 = "#c2c2c2"
+				end
+			end
+
+			slot3.text = setColorStr(uv1[slot1 + 1], slot4)
 		end
 	end)
-	slot4:align(#slot2.names)
+	slot9:align(#slot2.names)
+end
+
+function slot0.InitLayoutForType4(slot0, slot1, slot2)
 end
 
 function slot0.StartAnimation(slot0, slot1, slot2)

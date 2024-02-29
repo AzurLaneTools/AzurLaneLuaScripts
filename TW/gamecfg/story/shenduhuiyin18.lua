@@ -342,7 +342,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -472,7 +472,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -489,7 +489,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -537,7 +537,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -588,7 +588,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -605,7 +605,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -622,7 +622,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -639,7 +639,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -673,7 +673,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -690,7 +690,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -707,7 +707,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -724,7 +724,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -741,7 +741,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -758,7 +758,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -809,7 +809,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -826,7 +826,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -911,7 +911,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -928,7 +928,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -966,7 +966,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "大滿足~那我就要回去了，妳們有什麼計劃，繼續在這裡逛一段時間嗎？",
 			soundeffect = "event:/ui/kuaimen",
 			flashN = {
@@ -1019,7 +1019,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -1053,7 +1053,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -1070,7 +1070,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -1121,7 +1121,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
@@ -1138,7 +1138,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,

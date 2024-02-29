@@ -100,7 +100,7 @@ pg.voice_bgm = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "main-chunjie"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-midgard",
+		default_bgm = "theme-merkuriameta",
 		special_bgm = "",
 		time = "",
-		bgm = "story-midgard"
+		bgm = "theme-merkuriameta"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1222,12 +1222,6 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "bsm-4"
-	},
-	NavalAcademyScene = {
-		default_bgm = "story-china",
-		special_bgm = "",
-		time = "",
-		bgm = "story-china"
 	},
 	FeiyunLoginPage = {
 		default_bgm = "main-chunjie3",

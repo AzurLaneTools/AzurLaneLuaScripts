@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "进入内部后，众人又陆续遇到了几道极光之壁，不过都被黎塞留用相同的方法打开了道路。",
+			say = "進入內部後，眾人又陸續遇到了幾道極光之壁，不過都被黎胥留用相同的方法打開了道路。",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "真是怪了！为什么你能行我就不行啊！",
+			say = "真是怪了！為什麼妳可以我就不行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "难道说因为是你们鸢尾教国的科技，所以给你留了什么后门之类的？！",
+			say = "難道說因為是你們鳶尾教國的科技，所以給你們留了什麼後門之類的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我就不清楚了，完成版的极光之壁我也是第一次见。",
+			say = "那我就不清楚了，完成版的極光之壁我也是第一次見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "况且这些是维希教廷的设备，就算有后门也不会对我开的吧。",
+			say = "況且這些是維希教廷的設備，就算有後門也不會對我開的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行吧……到底是鸢尾教国的枢机主教，我甘拜下风。",
+			say = "好吧……總歸是鳶尾教國的樞機主教，我甘拜下風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "怨仇大人，旁边那些一动不动的都是支配的军队么？",
+			say = "怨仇大人，旁邊那些一動也不動的都是支配的軍隊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "应该是。和外面战争骑士的军队一样，都是有些特殊的塞壬执行者。",
+			say = "應該是。和外面戰爭騎士的軍隊一樣，都是有些特殊的塞壬執行者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过现在似乎都处于待机模式……",
+			say = "不過現在似乎都處於待機模式……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那英雄可以用它们来打靶练习么！",
+			say = "那英雄可以用它們來打靶練習嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不要莽撞行事。我们现在还不清楚支配骑士的情况，如果贸然闹出动静也许会被它打个措手不及。",
+			say = "不要莽撞行事。我們現在還不清楚支配騎士的情況，如果貿然鬧出動靜也許會被它打個措手不及。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果精力过剩的话，就去四处寻找一下支配骑士的位置吧。",
+			say = "如果精力過剩的話，就去四處尋找一下支配騎士的位置吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是！别碰任何东西！",
+			say = "但是！別碰任何東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "了解~英雄出动~☆",
+			say = "了解~英雄出動~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "怨仇大人，我找到了可疑目标哦！",
+			say = "怨仇大人，我找到可疑目標了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家快来看快来看，这个就是支配骑士吧！",
+			say = "大家快來看快來看，這就是支配騎士吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "众人来到英雄所在的大厅，看到了位于橙色光壁后的巨大机甲骑士。",
+			say = "眾人來到英雄所在的大廳，看到了位於橙色光壁後的巨大機甲騎士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看上去和一路上那些执行者一样，也处于某种休眠模式么……",
+			say = "看上去和一路上那些執行者一樣，也處於某種休眠模式嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "走到这么近距离观察的话，还真是充满压迫感……",
+			say = "走到這麼近距離觀察的話，真是充滿壓迫感……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "不仅如此，英雄还在这里发现了别人哦！",
+			say = "不僅如此，英雄還在這裡發現了別人喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就在————这里！",
+			say = "就在————這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "英雄小跑到大厅的一处立柱边，做出了一个夸张的“请向这里看”的动作。",
+			say = "英雄小跑步到大廳的一處立柱邊，做出了一個誇張的「請向這裡看」的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在巨大立柱的阴影下，众人发现了一处由极光之壁形成的牢笼。",
+			say = "在巨大立柱的陰影下，眾人發現了一處由極光之壁形成的牢籠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而在牢笼之中，似乎有一个模糊的身影。",
+			say = "而在牢籠之中，似乎有個模糊的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "有人被……困在了里面？",
+			say = "有人被……困在了裡面？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "英雄，能看清里面是谁么？",
+			say = "英雄，能看清裡面是誰嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "看不太清楚欸————好像是维希教廷的拉·加利索尼埃吧？",
+			say = "看不太清楚欸————好像是維希教廷的拉·加利索尼埃吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "什么？！拉·加利索尼埃被困在了这里？！",
+			say = "什麼？！拉·加利索尼埃被困在這裡？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我这就把她救出来问个清楚！",
+			say = "……我這就把她救出來問個清楚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呼…………感觉睡了个好长的觉……",
+			say = "呼…………感覺睡了個好長的覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "现在是什么时间了，应该说早上好还是晚上好？",
+			say = "現在是什麼時間了，我應該說早安還是晚上好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你……不是我们的拉加利索尼埃，对吧。",
+			say = "妳……不是我們的拉加利索尼埃，對吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那是自然~初次见面，这个世界的黎塞留主教，我是来自余烬的拉·加利索尼埃哦。",
+			say = "那是自然~初次見面，這個世界的黎胥留主教，我是來自餘燼的拉·加利索尼埃哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "来自余烬的？！",
+			say = "來自餘燼的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我来之前就有种肯定会有META捣乱的预感，没想到真的预感成真了！",
+			say = "我來之前就有種肯定會有META搗亂的預感，沒想到真的預感成真了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "我记得你是，皇家的怨仇？",
+			say = "我記得妳是，皇家的怨仇？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里离皇家本土那么远，你们在这里做什么？",
+			say = "這裡離皇家本土那麼遠，妳們在這裡做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然你在跟我们作对，来之前不应该事先多调查点情报么？",
+			say = "既然妳在跟我們作對，來之前不應該事先多調查點情報麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "哈啊？我为什么要关心你们的事啊，更不用说无聊跟你们作对了。",
+			say = "哈啊？我為什麼要關心妳們的事啊，更不用說無聊的跟妳們作對了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那你来这里干什么……不对，你是怎么穿过极光之壁进来的？",
+			say = "那妳來這裡幹什麼……不對，妳是怎麼穿過極光之壁進來的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,60 +801,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我来这里是为了执行破坏塞壬兵器实验场的任务。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			actor = 900353,
-			say = "相信你们也看到塞壬在这里进行的实验了，如果让这里继续运转下去的话，会带来灾祸的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			actor = 900353,
-			say = "进来后不久，我就明白了塞壬在这片实验场中利用末日四骑士的概念进行兵器研发的事。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900353,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			say = "既然如此，只要按照四骑士出场的倒序将其消灭，就能让这里的实验暂停。",
+			say = "我來這裡是為了執行破壞塞壬兵器實驗場的任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,24 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "更进一步的是，聪明的我发现四骑士在实验场中的战斗力存在差别，彼此之间还会相互战斗。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900353,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			say = "那接下来要做的事就更加简单了~",
+			say = "相信妳們也看到塞壬在這裡進行的實驗了，如果讓這裡繼續運作下去的話，會帶來災禍的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "首先我破坏了海域中的稳定装置，让四骑士在海域中通行无阻。",
+			say = "進來後不久，我就明白了塞壬在這片實驗場中利用末日四騎士的概念進行兵器研發的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,25 +854,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "然后在我的诱导下，饥荒带着自己的军队和死亡进行了几场规模庞大的战斗。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			actor = 900353,
-			say = "死亡身边有一支大军，将其完全毁灭可是费了一番功夫的。",
+			say = "既然如此，只要按照四騎士出場的倒序將其消滅，就能讓這裡的實驗暫停。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +872,24 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "紧接着我又按照相同的方式诱导战争的军队向饥荒发动进攻。",
+			say = "更進一步的是，聰明的我發現四騎士在實驗場的戰鬥力有差別，彼此之間還會互相戰鬥。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900353,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			say = "那接下來要做的事就更加簡單了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +907,78 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "可是饥荒似乎求生欲特别强，每次见势不对就会立刻逃走。",
+			say = "首先我破壞了海域中的穩定裝置，讓四騎士在海域中通行無阻。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900353,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			say = "然後在我的誘導下，飢荒帶著自己的軍隊和死亡進行了幾場規模龐大的戰鬥。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			actor = 900353,
+			say = "死亡身邊有一隻大軍，將其完全毀滅可是費了一番功夫的。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			actor = 900353,
+			say = "緊接著我又以相同的方式誘導戰爭的軍隊向飢荒發動攻擊。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			actor = 900353,
+			say = "可是飢荒似乎求生欲特別強，每次見勢不對就會立刻逃走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "所以我想去利用支配的力量依次消灭饥荒和战争，结果嘛……就如各位所见咯。",
+			say = "所以我想去利用支配的力量依序消滅飢荒和戰爭，結果嘛……就如各位所見囉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "至于怎么进来？我可是余烬，这种雕虫小技怎么能难倒我。",
+			say = "至於怎麼進來？我可是餘燼，這種雕蟲小技怎麼難倒我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是么，结果而言你可是被这种“雕虫小技”困在这里等我们救出来哦？",
+			say = "是嗎，結果而言妳可是被這種「雕蟲小技」困在這裡等我們救出來哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………没忍住，攻击了里面的塞壬……陷阱嘛，进来容易出去难咯。",
+			say = "…………沒忍住，攻擊了裡面的塞壬……陷阱嘛，進來容易出去難了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1066,7 +1066,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "你……该不会刚加入余烬没多久吧？",
+			say = "妳……該不會剛加入餘燼沒多久吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1083,7 +1083,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是啊，你这都能看出来啊？",
+			say = "是啊，妳這都看得出來啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1101,7 +1101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "啊哈哈……也许是我比较聪明吧。",
+			say = "啊哈哈……也許是我比較聰明吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "可是余烬不是都很强么，为什么你要用这么复杂的方法？",
+			say = "可是餘燼不是都很強嗎，為什麼要用這麼複雜的方法？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,7 +1137,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "这里的兵器战斗力也很高啊！再说了，我有我的风格，能以智取胜干嘛要强攻。",
+			say = "這裡的兵器戰鬥力也很高啊！再說了，我有我的風格，能以智取勝幹嘛要強攻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1165,7 +1165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（小声）没亲自动手么，所以META信标检测仪才什么都没测出来……",
+			say = "（小聲）沒親自動手嗎，所以META信標偵測儀才什麼都沒測出來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1182,7 +1182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，你说什么？",
+			say = "啊，妳說什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1199,7 +1199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么，没什么~",
+			say = "沒什麼，沒什麼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1217,7 +1217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "说起来，余烬在消灭塞壬的时候不是奉行走到哪里打到哪里的方针么？",
+			say = "說起來，餘燼在消滅塞壬的時候不是奉行走到哪裡打到哪裡的方針嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1235,7 +1235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "一般不会特意关注“某个塞壬实验场”这么细枝末节的事吧……",
+			say = "一般不會刻意關注「某個塞壬實驗場」這麼細枝末節的事吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1252,7 +1252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该不会其实……你是余烬里最弱的，所以专门派你来干这种杂事？",
+			say = "該不會其實……妳是餘燼裡最弱的，所以專門派妳來幹這種雜事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1269,7 +1269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你又不是余烬成员，怎么知道我们不做这种事。",
+			say = "妳又不是餘燼成員，怎麼知道我們不做這種事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1287,7 +1287,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "我们和塞壬已经战斗很久了，远比你们想象的时间长得多。",
+			say = "我們和塞壬已經戰鬥很久了，遠比妳們想像的時間長得多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1305,7 +1305,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "应该怎么对付它们不用你来教！",
+			say = "該怎麼對付它們不用妳來教！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1333,7 +1333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行行行，算你厉害。",
+			say = "好好好，算妳厲害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1350,7 +1350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来怎么办？我们既然目的一致，你也不是来对付我们的，那与我们一同行动如何？",
+			say = "那接下來怎麼辦？我們既然目的一致，妳也不是來對付我們的，那與我們一同行動如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1368,7 +1368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "姑且也算是我们把你救出来的哦。",
+			say = "姑且也算是我們把妳救出來的哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1385,7 +1385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "想让我出力是吧？",
+			say = "想讓我出力吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1403,7 +1403,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "先说好哦，我要是一直不回去也会有人来救我的，余烬又不是什么冷酷无情的组织。",
+			say = "先說好哦，我要是一直不回去也會有人來救我的，餘燼又不是什麼冷酷無情的組織。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1420,7 +1420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不过……还是把这个小小的波折当成没发生过最好！",
+			say = "不過……還是把這個小小的波折當成沒發生過最好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "虽然我更喜欢单独行动，不过既然被你们帮了次忙，就暂时做一下你们的保镖好了。",
+			say = "雖然我比較喜歡單獨行動，不過既然被妳們幫了一次忙，就暫時做一下妳們的保鑣好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

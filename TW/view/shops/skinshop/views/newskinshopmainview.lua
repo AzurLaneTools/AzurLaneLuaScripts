@@ -1,4 +1,6 @@
 slot0 = class("NewSkinShopMainView", import("view.base.BaseEventLogic"))
+slot0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW = "NewSkinShopMainView:EVT_SHOW_OR_HIDE_PURCHASE_VIEW"
+slot0.EVT_ON_PURCHASE = "NewSkinShopMainView:EVT_ON_PURCHASE"
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -9,8 +11,9 @@ slot7 = 4
 slot8 = 5
 slot9 = 6
 slot10 = 7
+slot11 = 8
 
-function slot11(slot0)
+function slot12(slot0)
 	if not uv0.obtainBtnSpriteNames then
 		uv0.obtainBtnSpriteNames = {
 			[uv1] = "yigoumai_butten",
@@ -19,7 +22,8 @@ function slot11(slot0)
 			[uv4] = "item_buy",
 			[uv5] = "furniture_shop",
 			[uv6] = "tiyan_btn",
-			[uv7] = "item_buy"
+			[uv7] = "item_buy",
+			[uv8] = "buy_with_gift"
 		}
 	end
 
@@ -32,6 +36,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0._go = slot1.gameObject
 	slot0._tf = slot1
+	slot0.overlay = slot0._tf:Find("overlay")
 	slot0.titleTr = slot0._tf:Find("overlay/title")
 	slot0.skinNameTxt = slot0._tf:Find("overlay/title/skin_name"):GetComponent(typeof(Text))
 	slot0.shipNameTxt = slot0._tf:Find("overlay/title/name"):GetComponent(typeof(Text))
@@ -46,6 +51,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.switchPreviewBtn = slot0._tf:Find("overlay/right/switch")
 	slot0.obtainBtn = slot0._tf:Find("overlay/right/price/btn")
 	slot0.obtainBtnImg = slot0.obtainBtn:GetComponent(typeof(Image))
+	slot0.giftTag = slot0.obtainBtn:Find("tag")
+	slot0.giftItem = slot0.obtainBtn:Find("item")
+	slot0.giftText = slot0._tf:Find("overlay/right/price/btn/Text"):GetComponent(typeof(Text))
 	slot0.consumeTr = slot0._tf:Find("overlay/right/price/consume")
 	slot0.consumeRealPriceTxt = slot0.consumeTr:Find("Text"):GetComponent(typeof(Text))
 	slot0.consumePriceTxt = slot0.consumeTr:Find("originalprice/Text"):GetComponent(typeof(Text))
@@ -70,6 +78,21 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.isPreviewFurniture = false
 	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furnitureContainer, Vector3(0, 0, 0))
 	slot0.voucherMsgBox = SkinVoucherMsgBox.New(pg.UIMgr.GetInstance().OverlayMain)
+	slot0.purchaseView = NewSkinShopPurchaseView.New(slot0._tf, slot2)
+
+	slot0:RegisterEvent()
+end
+
+function slot0.RegisterEvent(slot0)
+	slot0:bind(uv0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, function (slot0, slot1)
+		setAnchoredPosition(uv0.paintingTF, {
+			x = slot1 and -440 or -120
+		})
+		setActive(uv0.overlay, not slot1)
+	end)
+	slot0:bind(uv0.EVT_ON_PURCHASE, function (slot0, slot1)
+		uv0:OnClickBtn(uv0:GetObtainBtnState(slot1), slot1)
+	end)
 end
 
 function slot0.Flush(slot0, slot1)
@@ -328,6 +351,10 @@ function slot0.GetPaintingState(slot0, slot1)
 	if slot0.isToggleDynamic and slot2:IsLive2d() then
 		return uv0
 	elseif slot0.isToggleDynamic and slot2:IsSpine() then
+		if slot2:getConfig("spine_use_live2d") == 1 then
+			return uv0
+		end
+
 		return uv1
 	else
 		return uv2
@@ -631,8 +658,10 @@ function slot0.GetObtainBtnState(slot0, slot1)
 		return uv4
 	elseif slot1:CanUseVoucherType() then
 		return uv5
-	else
+	elseif #slot1:GetGiftList() > 0 then
 		return uv6
+	else
+		return uv7
 	end
 end
 
@@ -682,22 +711,51 @@ function slot0.FlushObtainBtn(slot0, slot1)
 	end
 
 	slot0.obtainBtnImg.sprite = slot3
-	slot4 = slot0.obtainBtnImg
 
-	slot4:SetNativeSize()
+	slot0.obtainBtnImg:SetNativeSize()
+	setActive(slot0.giftTag, slot2 == uv1)
+	setActive(slot0.giftItem, slot2 == uv1)
+
+	if slot2 == uv1 then
+		slot0:FlushGift(slot1)
+	else
+		slot0.giftText.text = ""
+	end
+
 	onButton(slot0, slot0.obtainBtn, function ()
-		if uv0 == uv1 or uv0 == uv2 then
-			uv3:OnPurchase(uv4)
-		elseif uv0 == uv5 then
-			uv3:OnItemPurchase(uv4)
-		elseif uv0 == uv6 then
-			uv3:OnActivity(uv4)
-		elseif uv0 == uv7 then
-			uv3:OnBackyard(uv4)
-		elseif uv0 == uv8 then
-			uv3:OnExperience(uv4)
+		if uv0 == uv1 or uv0 == uv2 or uv0 == uv3 then
+			uv4.purchaseView:ExecuteAction("Show", uv5)
+		else
+			uv4:OnClickBtn(uv0, uv5)
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.OnClickBtn(slot0, slot1, slot2)
+	if slot1 == uv0 or slot1 == uv1 or slot1 == uv2 then
+		slot0:OnPurchase(slot2)
+	elseif slot1 == uv3 then
+		slot0:OnItemPurchase(slot2)
+	elseif slot1 == uv4 then
+		slot0:OnActivity(slot2)
+	elseif slot1 == uv5 then
+		slot0:OnBackyard(slot2)
+	elseif slot1 == uv6 then
+		slot0:OnExperience(slot2)
+	end
+end
+
+function slot0.FlushGift(slot0, slot1)
+	slot2 = slot1:GetGiftList()
+	slot3 = slot2[1]
+
+	updateDrop(slot0.giftItem, {
+		type = slot3.type,
+		id = slot3.id,
+		count = slot3.count
+	})
+
+	slot0.giftText.text = #slot2 > 1 and "+" .. #slot2 - 1 .. "..." or ""
 end
 
 function slot0.OnItemPurchase(slot0, slot1)
@@ -731,12 +789,7 @@ function slot0.OnPurchase(slot0, slot1)
 	if slot1:isDisCount() and slot1:IsItemDiscountType() then
 		slot0:emit(NewSkinShopMediator.ON_SHOPPING_BY_ACT, slot1.id, 1)
 	else
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("charge_scene_buy_confirm", slot1:GetPrice(), pg.ship_skin_template[slot1:getSkinId()].name),
-			onYes = function ()
-				uv0:emit(NewSkinShopMediator.ON_SHOPPING, uv1.id, 1)
-			end
-		})
+		slot0:emit(NewSkinShopMediator.ON_SHOPPING, slot1.id, 1)
 	end
 end
 
@@ -908,6 +961,12 @@ function slot0.ReturnChar(slot0)
 	end
 end
 
+function slot0.ClosePurchaseView(slot0)
+	if slot0.purchaseView and slot0.purchaseView:GetLoaded() then
+		slot0.purchaseView:Hide()
+	end
+end
+
 function slot0.Dispose(slot0)
 	slot0.exited = true
 
@@ -919,6 +978,12 @@ function slot0.Dispose(slot0)
 		slot0.voucherMsgBox:Destroy()
 
 		slot0.voucherMsgBox = nil
+	end
+
+	if slot0.purchaseView then
+		slot0.purchaseView:Destroy()
+
+		slot0.purchaseView = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.downloads) do

@@ -20342,6 +20342,130 @@ _G.pg.base.item_data_statistics[30343] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30344] = {
+	open_directly = 1,
+	name = "外觀裝備箱(皇家教室)",
+	display = "可以獲得一件隨機的皇家教室風格外觀裝備",
+	type = 11,
+	display_effect = "",
+	id = 30344,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxhuangjiajiaoshi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30344",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			730,
+			1
+		},
+		{
+			9,
+			731,
+			1
+		},
+		{
+			9,
+			732,
+			1
+		},
+		{
+			9,
+			733,
+			1
+		},
+		{
+			9,
+			734,
+			1
+		},
+		{
+			9,
+			735,
+			1
+		},
+		{
+			9,
+			736,
+			1
+		},
+		{
+			9,
+			737,
+			1
+		},
+		{
+			9,
+			738,
+			1
+		},
+		{
+			9,
+			739,
+			1
+		},
+		{
+			9,
+			740,
+			1
+		},
+		{
+			9,
+			741,
+			1
+		},
+		{
+			9,
+			742,
+			1
+		},
+		{
+			9,
+			743,
+			1
+		},
+		{
+			9,
+			744,
+			1
+		},
+		{
+			9,
+			745,
+			1
+		},
+		{
+			9,
+			746,
+			1
+		},
+		{
+			9,
+			747,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30345] = {
 	open_directly = 1,
 	name = "外觀裝備箱(海島冒險)",
@@ -24902,6 +25026,218 @@ _G.pg.base.item_data_statistics[30518] = {
 		{
 			9,
 			277,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30519] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(皇家教室)",
+	display = "使用後可從「皇家教室」主題外觀裝備中任意選擇一種獲得1個",
+	type = 13,
+	display_effect = "",
+	id = 30519,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxhuangjiajiaoshizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			730,
+			1
+		},
+		{
+			9,
+			731,
+			1
+		},
+		{
+			9,
+			732,
+			1
+		},
+		{
+			9,
+			733,
+			1
+		},
+		{
+			9,
+			734,
+			1
+		},
+		{
+			9,
+			735,
+			1
+		},
+		{
+			9,
+			736,
+			1
+		},
+		{
+			9,
+			737,
+			1
+		},
+		{
+			9,
+			738,
+			1
+		},
+		{
+			9,
+			739,
+			1
+		},
+		{
+			9,
+			740,
+			1
+		},
+		{
+			9,
+			741,
+			1
+		},
+		{
+			9,
+			742,
+			1
+		},
+		{
+			9,
+			743,
+			1
+		},
+		{
+			9,
+			744,
+			1
+		},
+		{
+			9,
+			745,
+			1
+		},
+		{
+			9,
+			746,
+			1
+		},
+		{
+			9,
+			747,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			730,
+			1
+		},
+		{
+			9,
+			731,
+			1
+		},
+		{
+			9,
+			732,
+			1
+		},
+		{
+			9,
+			733,
+			1
+		},
+		{
+			9,
+			734,
+			1
+		},
+		{
+			9,
+			735,
+			1
+		},
+		{
+			9,
+			736,
+			1
+		},
+		{
+			9,
+			737,
+			1
+		},
+		{
+			9,
+			738,
+			1
+		},
+		{
+			9,
+			739,
+			1
+		},
+		{
+			9,
+			740,
+			1
+		},
+		{
+			9,
+			741,
+			1
+		},
+		{
+			9,
+			742,
+			1
+		},
+		{
+			9,
+			743,
+			1
+		},
+		{
+			9,
+			744,
+			1
+		},
+		{
+			9,
+			745,
+			1
+		},
+		{
+			9,
+			746,
+			1
+		},
+		{
+			9,
+			747,
 			1
 		}
 	}

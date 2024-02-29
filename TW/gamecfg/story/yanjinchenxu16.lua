@@ -24,7 +24,7 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"接手第[//]日，□■:□■://",
 					1
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "一段时间后，众人来到一座散发着柔和光芒的建筑中。",
+			say = "一段時間後，眾人來到一座散發著柔和光芒的建築中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "太好了……虽然路上见到了不少坏掉的……不过这里的稳定锚还在正常工作，来到这里的话就可以暂时放心了。",
+			say = "太好了……雖然路上見到了不少壞掉的……不過這裡的穩定錨還在正常工作，來到這裡的話就可以暫時放心了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这里看上去也没什么特殊的，要怎么才能挡住刚才的机甲骑士啊？",
+			say = "這裡看起來也沒什麼特殊的，要怎麼才能擋住剛才的機甲騎士啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "难道这里有什么秘密武器？",
+			say = "難道這裡有什麼秘密武器？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有，这里就是一处普通的建筑物。",
+			say = "沒有，這裡就是一棟普通的建築物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过在稳定锚的“庇护”下，那个机甲是不会靠近这里的。",
+			say = "不過在穩定錨的「庇護」下，那台機甲是不會靠近這裡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从刚才开始你就一直提到的“稳定锚”究竟是什么？“庇护”又是指什么？",
+			say = "從剛才開始妳就一直提到的「穩定錨」究竟是什麼？「庇護」又是指什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“庇护”，就如同圣堂上层的“净化”一样，是一种我们为了控制圣堂而利用的概念。",
+			say = "「庇護」，就如同聖堂上層的「淨化」一樣，是一種我們用來控制聖堂而利用的概念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "承载“庇护”这个概念的装置就是稳定锚，一种深埋在安全区建筑下方的教国机械设备。",
+			say = "承載「庇護」這個概念的裝置就是穩定錨，一種深埋在安全區建築下方的教國機械設備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "因为教国基本取得了上层的控制权，所以我们可以利用“净化”的概念消除末日四骑士的概念影响。",
+			say = "因為教國基本取得了上層的控制權，所以我們可以利用「淨化」的概念來消除末日四騎士的概念影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而到了下层，如各位所见，我们只能做到利用“庇护”的概念暂时驱散这种影响，在稳定锚周边获得一小片安全区。",
+			say = "而到了下層，如各位所見，我們只能做到利用「庇護」的概念暫時驅散這種影響，在穩定錨週邊獲得一小片安全區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过放心，稳定锚的功效是经过检验的。只要不闹出大动静，四台机甲骑士是不会主动过来的。",
+			say = "不過放心，穩定錨的功效是經過檢驗的。只要不弄出大動靜，四台機甲騎士是不會主動過來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然不是很明白，不过我至少弄懂了一件事——这里的设施确实是你们修建的。",
+			say = "雖然不是很明白，不過我至少弄清楚了一件事——這裡的設施確實是妳們修建的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我想我还欠你一个解释。",
+			say = "……我想我還欠妳一個解釋。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯哼，“和盘托出”哦~",
+			say = "嗯哼，「和盤托出」喔~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧……目前我们所处的区域为圣堂的下层区，如你所见，这里为了对应四骑士的概念，也划分出了四片大的区域。",
+			say = "好吧……目前我們所處的區域為聖堂的下層區，如妳所見，這裡為了對應四騎士的概念，也劃分出了四片大的區域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "在区域与区域之间，还安放了大量稳定锚作为区域间的屏障，就像我们现在所处的地方一样。",
+			say = "在區域與區域之間，也安置了大量穩定錨作為區域間的屏障，就像我們現在所處的地方一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那个夸张的机甲骑士……在海域里一共有四个？",
+			say = "那個誇張的機甲騎士……在海域裡一共有四個？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对的，分别对应四骑士概念中的支配、战争、饥荒与死亡。",
+			say = "對的，分別對應四騎士概念中的支配、戰爭、飢荒與死亡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这是你们制造的？还是回收的塞壬科技？",
+			say = "這是妳們製造的？還是回收的塞壬科技？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,78 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都不是。四骑士一开始并不存在……下层区也不是这个样子的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "这里就要提到下层区的来源了……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "在夺回这之后，彼时的教廷发现海域中的某些塞壬设备无法被控制，但又舍不得销毁这些来之不易的战利品。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "所以他们选择将所有无法利用的塞壬设施都堆积到下层的镜面海域中搁置，将精力集中起来建设可控的上层区。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "毕竟那里才是立即能够使用的，能够创造出价值的部分。",
+			say = "都不是。四騎士一開始並不存在……下層區也不是這個樣子的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,25 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只不过随着上层棋子生产工厂的运作，下层这些设施不知为何也开始了不受控的生产。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "等我们发现驻守在下层的科研团队失联之后，四骑士已经诞生了。",
+			say = "這裡就要提到下層區的來源了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,43 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们只是稍微费了些功夫就重新夺回了这里——当时的四骑士还并不强大。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "不过很快我们发现事情没有这么简单……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "只要上层设施继续生产，下层就会不断地重新诞生新的四骑士。",
+			say = "在奪回這之後，彼時的教廷發現海域中的某些塞壬設備無法被控制，但又捨不得銷毀這些來之不易的戰利品。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,24 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "然后我们就发现了棋子的污染问题，而且似乎上层遭受污染的棋子越多，下层的四骑士机甲在重生后就会变得越强。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "最开始教廷以为是找到了利用四骑士的概念驱动这些设备的方法。",
+			say = "所以他們選擇將所有無法利用的塞壬設施都堆積到下層的鏡面海域中擱置，將精力集中起來建造可控的上層區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +461,149 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "但回过头来才发现，其实是这些设备在利用教廷完善它们自己。",
+			say = "畢竟那裡才是立即能夠使用的，能夠創造出價值的部分。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "只不過隨著上層棋子生產工廠的運作，下層這些設施不知為何也開始了不受控制的生產。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "等我們發現駐守在下層的科研團隊失聯之後，四騎士已經誕生了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "我們只是稍微花了些功夫就重新奪回了這裡——當時的四騎士還不強大。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "不過很快我們發現事情沒有這麼簡單……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "只要上層設施繼續生產，下層就會不斷地重新誕生新的四騎士。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "然後我們就發現了棋子的污染問題，而且似乎上層遭受污染的棋子越多，下層的四騎士機甲在重生後就會變得越強。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "一開始教廷以為是找到了利用四騎士的概念來驅動這些設備的方法。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "但回過頭來才發現，其實是這些設備利用教廷來完善它們自己。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………塞壬最开始就是这么想的。",
+			say = "…………塞壬最開始就是這麼想的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以基地也是当初它们故意放给你们的，为什么我一点都不觉得意外……",
+			say = "所以基地也是當初它們故意放給你們的，為什麼我一點都不覺得意外……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那为什么不将下层整个摧毁呢？摧毁镜面海域和其中的所有设备，一劳永逸地解决问题。",
+			say = "那為什麼不將下層整個摧毀呢？摧毀鏡面海域和其中的所有設備，一勞永逸的解決問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那是因为……我们没能找到此处镜面海域维持装置的位置。",
+			say = "那是因為……我們沒能找到此處鏡面海域維持裝置的位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………什么？",
+			say = "…………什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们曾经探索了这里的每一处空间，但是都一无所获。",
+			say = "我們曾經探索了這裡的每一處空間，但都一無所獲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "而在一遍又一遍的死亡与重生中，四骑士却变得越发强大。",
+			say = "而在一遍又一遍的死亡與重生中，四騎士卻變得更加強大。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "如果就这么一直放任不管的话，这个世界上将会诞生出四个塞壬的超级兵器吧……",
+			say = "如果就這麼一直放任不管的話，這個世界上將會誕生出四個塞壬的超級兵器吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "鸢尾教国要为自己的所作所为负责。所以我们决定停止棋子工厂的全部生产，将上层封存。",
+			say = "鳶尾教國要為自己的所作所為負責。所以我們決定停止棋子工廠的全部生產，將上層封存。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "同时，我们修建了大量稳定锚分割下层空间，以减少四骑士概念的影响。",
+			say = "同時，我們建造了大量穩定錨分割下層空間，以減少四騎士概念的影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "最终让下层重新回到了我们的控制中。",
+			say = "最終讓下層重新回到了我們的控制中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "想法是好的。但是因为维希教廷接手了这里，或是有意或是无意地让上层工厂又重新生产了两年。",
+			say = "想法是好的。但因為維希教廷接手了這裡，或是有意或無意地讓上層工廠又重新生產了兩年。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "最后下层就变成如今的一团糟了……原来如此原来如此，我终于彻底把情况理清楚了。",
+			say = "最後下層就變成如今的一團糟了……原來如此原來如此，我終於徹底把情況理清楚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "事情最终变成这样，我…………很抱歉。",
+			say = "事情最後變成這樣，我…………很抱歉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没关系啦~最初控制这里不是你做的决定，如今失控也不是由于你下的命令，这件事不是你的责任。",
+			say = "沒關係啦~最初控制這裡不是妳做的決定，如今失控也不是由於妳下的命令，這件事不是妳的責任。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "况且你刚才也想到下面会是这幅景象了吧？",
+			say = "況且妳剛才也想到下面會是這景象了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在贝亚恩无意中透露出“下层”的存在之后，你提到过要调集人手处理问题——是打算独自来消灭这些机甲骑士么？",
+			say = "在貝亞恩無意間透露出「下層」的存在之後，妳提到過要調集人手處理問題——是打算獨自來消滅這些機甲騎士嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是隐约预感到了。按照维希教廷管理圣堂上层的敷衍了事，下层不出现大问题才是问题。",
+			say = "只是隱約預感到了。依照維希教廷管理聖堂上層的敷衍了事，下層不出現大問題才是問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "如果凯尔盖朗岛上的局面彻底失控，碧蓝航线在安塔迪卡的战略将会受到重大影响。",
+			say = "如果凱爾蓋朗島上的局面完全失控，碧藍航線在南極的戰略將會受到重大影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -964,7 +964,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "维希教廷犯下的错，终究会有一部分被算到鸢尾教国上……",
+			say = "維希教廷犯下的錯，終究會有一部分被算到鳶尾教國上……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此我绝不可能置身事外，自由鸢尾也绝对不会容忍这种事的发生。",
+			say = "因此我絕不可能置身事外，自由鳶尾也絕對不會容忍這種事的發生。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以你才不想让贝亚恩说太多下层的事啊……",
+			say = "所以你才不想讓貝亞恩說太多下層的事啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,7 +1017,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "棋子的“回收”与“处理”，是指拉到这里来销毁么？",
+			say = "棋子的「回收」與「處理」，是指拉到這裡來銷毀嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "没错……这也是后来才想到的事。",
+			say = "沒錯……這也是後來才想到的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟去外部海域销毁的话痕迹太明显，而且销毁与四骑士概念对应的棋子，似乎也有削弱它们的作用。",
+			say = "畢竟去外部海域銷毀的話痕跡太明顯，銷毀與四騎士概念對應的棋子，似乎也有削弱它們的作用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "请放心，我以鸢尾教国枢机主教黎塞留之名起誓，不论付出怎样的代价，我都会让这里恢复控制的。",
+			say = "請放心，我以鳶尾教國樞機主教黎胥留之名起誓，不論付出怎樣的代價，我都會讓這裡恢復控制的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "自然，也会想办法让各位平安离开。",
+			say = "自然，也會想辦法讓各位平安離開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别这么见外嘛，大主教。",
+			say = "別這麼見外嘛，大主教。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "自由鸢尾现在如果把精力全部放在这里，会错过很多战略机遇吧？",
+			say = "自由鳶尾現在如果把精力全部放在這裡，會錯過很多戰略機會吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,7 +1141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们既然都来了，还是帮你把问题解决掉再走好了。",
+			say = "我們既然都來了，還是幫妳把問題解決掉再走好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1158,7 +1158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都是盟友，相互帮助是应该的，不用客气~",
+			say = "都是盟友，互相幫助是應該的，不用客氣~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那么算我欠你一个人情。",
+			say = "既然如此，那麼算我欠妳一個人情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "都说了不用客气啦——嗯，真的么？",
+			say = "都說了不用客氣啦——嗯，真的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,7 +1229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "太好了，那我可得想想怎么利用你的这个人情才行~",
+			say = "太好了，那我可得想想怎麼利用妳的這個人情才行~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我先慢慢想着，总之你先带我们回上层吧~",
+			say = "我先慢慢想想，總之妳先帶我們回上層吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有那样的机甲骑士有四个的话，我们还是多叫些支援比较好。",
+			say = "如果說那樣的機甲騎士有四個的話，我們還是多叫些支援比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1281,7 +1281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点的话，有一个小小的问题——离开的方法需要从现在开始找。",
+			say = "關於這一點的話，有一個小小的問題——離開的方法需要從現在開始找。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1316,7 +1316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实我也是第一次亲眼见到下层的风景。",
+			say = "其實我也是第一次親眼見到下層的風景。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1334,7 +1334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "以前的审判庭在汇报中一直说这里的一切都处于完全控制之下。",
+			say = "以前的審判庭在報告中一直說這裡的一切都處於完全控制之下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1351,7 +1351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么进入下层或者离开下层这样的小事，她们没有在报告里写过。",
+			say = "怎麼進入下層或離開下層這樣的小事，她們沒有在報告裡寫過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1369,7 +1369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "“小事”呢……",
+			say = "「小事」呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1386,7 +1386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……审判庭是鸢尾教国内最可靠，也是最忠于教国的部门。",
+			say = "啊哈哈……審判庭是鳶尾教國內最可靠，也是最忠於教國的部門。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1404,7 +1404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "当时的我也没有想到日后会出现这样的情况啊……",
+			say = "當時的我也沒想到日後會出現這樣的狀況啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1422,7 +1422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "对了，我记得稳定锚的全名似乎是……「贝亚恩稳定锚」，没错吧，贝亚恩？",
+			say = "對了，我記得穩定錨的全名似乎是……「貝亞恩穩定錨」，沒錯吧，貝亞恩？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1440,7 +1440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "没错，这里的稳定锚是过去的我发明的，下层在建设的时候我也确实有参与过……",
+			say = "沒錯，這裡的穩定錨是過去的我發明的，下層在建設的時候我也確實有參與過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1458,7 +1458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "但是……很抱歉，诸位，我这里没有各位期待的情报。",
+			say = "但是……很抱歉，各位，我這裡沒有各位期待的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在发现进入下层后，我第一时间就开始寻找出口的位置。",
+			say = "在發現進入下層後，我第一時間就開始尋找出口的位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1493,7 +1493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "不过这里的布局已经与当初有所不同了……维希教廷肯定对这里进行了改建。",
+			say = "不過這裡的佈局已經與當初有所不同了……維希教廷肯定對這裡進行了改建。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1511,7 +1511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "说的也是…………如果能让我们轻易发现出口的话还叫什么陷阱啊。",
+			say = "說的也是…………如果能讓我們輕易發現出口的話還叫什麼陷阱啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1528,7 +1528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最坏的情况也许根本就没有出口，我们必须找到海域维持装置，将其破坏之后才能出去。",
+			say = "最壞的情況也許根本就沒有出口，我們必須找到海域維持裝置，破壞之後才能出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1546,7 +1546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "可是，我们当年的寻找都失败了……",
+			say = "可是，我們當年的尋找都失敗了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,7 +1563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时过境迁嘛~过了这么多年，我们跟塞壬的战斗经验也丰富了，说不定能注意到当年忽略的细节呢。",
+			say = "時過境遷嘛~過了這麼多年，我們跟塞壬的戰鬥經驗也豐富了，說不定能注意到當年忽略的細節呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1581,7 +1581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "再说也没有更好的方案了！",
+			say = "再說也沒有更好的方案了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "总之先侦察一下海域情报，然后发挥聪明才智，走一步看一步好了~",
+			say = "總之先偵察一下海域情報，然後發揮聰明才智，走一步看一步好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

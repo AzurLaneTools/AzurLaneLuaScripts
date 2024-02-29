@@ -9,7 +9,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			stopbgm = true,
-			say = "诸位，我已经追踪到饥荒的踪迹了哦。",
+			say = "諸位，我已經追蹤到飢荒的蹤跡了哦。",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -27,7 +27,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "受损程度大约……四五成？",
+			say = "受損程度大約……四五成？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "跟战争纠缠了这么久还能维持这个状态，它的生存能力真是惊人啊。",
+			say = "跟戰爭糾纏了這麼久還能維持這個狀態，它的生存能力真是驚人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ffa500",
 			paintingNoise = true,
 			dir = 1,
-			say = "你们怎么说？现在它一个人在水面上移动，要将其消灭的话就是最好时机了哦。",
+			say = "你們怎麼說？現在它一個人在水面上移動，要將其消滅的話就是最好時機了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，没有理由放过这么好的机会。",
+			say = "那是自然，沒有理由放過這麼好的機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "怨仇女士，接下来我前往一线战斗，贝亚恩可以暂时与你同行么？",
+			say = "怨仇女士，接下來我前往一線戰鬥，貝亞恩可以暫時與妳同行嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "当然没问题~皇家橡树，火力战环节就由你来指挥了，协助黎塞留主教和余烬的拉·加利索尼埃进行作战。",
+			say = "當然沒問題~皇家橡樹，火力戰環節就由妳來指揮了，協助黎胥留主教和餘燼的拉·加利索尼埃進行作戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我跟百眼巨人还有贝亚恩会移动到更合适的位置为你们提供支援。",
+			say = "我跟百眼巨人還有貝亞恩會移動到更適合的位置為妳們提供支援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "了解，战斗中的协助就拜托你了，皇家橡树阁下。",
+			say = "了解，戰鬥中的協助就拜託妳了，皇家橡樹閣下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没……没问题！我不会辜负你们的信任的！",
+			say = "沒……沒問題！我不會辜負妳們的信任的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "目标，塞壬的「审判型机甲武装—饥荒」，让我们开始战斗吧！",
+			say = "目標，塞壬的「審判型機甲武裝—飢荒」，讓我們開始戰鬥吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

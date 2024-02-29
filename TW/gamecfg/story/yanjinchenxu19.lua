@@ -24,7 +24,7 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"接手第[//]日，□■:□■://",
 					1
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "分散行动后，百眼巨人与皇家橡树正在追踪着饥荒骑士的踪迹。",
+			say = "分散行動後，百眼巨人與皇家橡樹正在追蹤著飢荒騎士的蹤跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里也没有发现目标，又排除了一片区域。",
+			say = "嗯……這裡也沒有發現目標，又排除了一片區域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……嗯？这些是……被破坏不久的残骸？",
+			say = "……嗯？這些是……被破壞不久的殘骸？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺着线索的方向继续侦察的话，也许很快就能找到了……",
+			say = "順著線索的方向繼續偵察的話，也許很快就能找到了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "能搜索这么大片的区域……航空母舰果然很厉害啊。",
+			say = "能搜索這麼大片的區域……航空母艦果然很厲害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "我用眼睛看不了那么远，根本帮不上你的忙……",
+			say = "我用眼睛看不了那麼遠，根本幫不上妳的忙……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "就像我也没法同您一样应付近身的敌人一样，我们各自有各自的优势哦，皇家橡树大人。",
+			say = "就像我也沒法與您一樣應付近身的敵人一樣，我們各自有各自的優勢哦，皇家橡樹大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过，我这里有望远镜，你要用么？",
+			say = "不過，我這裡有望遠鏡，妳要用嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……望远镜？",
+			say = "……望遠鏡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“威斯克公司海军假日限量纪念品型望远镜，仅含透镜与机械结构，中等放大倍率，作为收藏来说是上上之选。”",
+			say = "「威斯克公司海軍假日限量紀念品型望遠鏡，僅含透鏡與機械結構，中等放大倍率，作為收藏來說是上上之選。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "包装上的宣传是这么写的。",
+			say = "包裝上的宣傳是這麼寫的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "你怎么会带着这个……？",
+			say = "妳怎麼會帶著這個……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本是买给竞技神的礼物，作为之前她送我帽子的回礼。",
+			say = "原本是買給競技神的禮物，作為之前她送我帽子的回禮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过现在驻扎在安塔迪卡，一时半会也见不到她，我们就先拆开用了吧~",
+			say = "不過現在駐紮在南極，一時半刻也見不到她，我們就先拆開用了吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "不过就算用了望远镜，也还是没法看得和你一样远。",
+			say = "不過就算用了望遠鏡，還是沒辦法看得跟妳一樣遠。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "但终究比之前看得要远了，不是么？",
+			say = "但終究比之前看得要遠了，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "没错！",
+			say = "沒錯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "这里是贝亚恩，皇家舰队的诸位，能听到么？",
+			say = "這裡是貝亞恩，皇家艦隊的諸位，能聽到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我跟黎赛留大人已经发现了战争骑士的位置。",
+			say = "我跟黎胥留大人已經發現了戰爭騎士的位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因其身边存在大量舰队，侦察上花了点时间。不过已经确认其处于正常运作的状态了。",
+			say = "因其身邊存在大量艦隊，偵察上花了點時間。不過已經確認其處於正常運作的狀態了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "我们正在对其护卫队的详细情况进行进一步侦察，贝亚恩通讯结束。",
+			say = "我們正在對其護衛隊的詳細情況進行進一步偵察，貝亞恩通訊結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩已经有进展了，我也得加油才行……",
+			say = "貝亞恩已經有進展了，我也得加油才行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "啊……那个是！皇家橡树大人，我也发现目标了！",
+			say = "啊……那個是！皇家橡樹大人，我也發現目標了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "饥荒骑士目前正在与战争骑士的量产型舰队进行交战，而且……它身上似乎有伤痕！",
+			say = "飢荒騎士目前正在與戰爭騎士的量產型艦隊交戰，而且……它身上似乎有傷痕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "饥荒骑士已经受伤了？四骑士之间真的在相互战斗啊……",
+			say = "飢荒騎士已經受傷了？四騎士之間真的在互相戰鬥啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "呼呼呼……按照顺序，下一个应该被消灭的本来也是饥荒骑士，就这么看它被战争骑士消灭也不错欸……",
+			say = "呼呼呼……依照順序，下一個該被消滅的本來也是飢荒騎士，就這麼看它被戰爭騎士消滅也不錯欸……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是这么认为的，我们现在就把情况汇报给怨仇女士吧。",
+			say = "我也是這麼認為的，我們現在就把情況報告給怨仇女士吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我是怨仇，诸位，能听到么？",
+			say = "我是怨仇，諸位，能聽到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在侦察支配骑士所控制的区域时，有了一些非常不得了的发现。",
+			say = "我們在偵察支配騎士所控制的區域時，有了一些非常不得了的發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说结论，支配骑士应该是完好无损的，但是它这里的情况实在有些……奇特。",
+			say = "先說結論，支配騎士應該是完好無損的，但是它這裡的情況實在有些……奇特。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们正在支配骑士控制区的外围待机，各位在侦察完毕后请来我这里汇合。",
+			say = "我們正在支配騎士控制區的外圍待機，各位在偵察完畢後請來我這裡匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没问题，怨仇女士。",
+			say = "沒問題，怨仇女士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们这边也成功确认到了饥荒骑士的位置，其目前正在与战争骑士的军队交战，而且已经受了伤。",
+			say = "我們這邊也成功確認到了飢荒騎士的位置，目前正在與戰爭騎士的軍隊交戰，而且已經受了傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我们这就去与您汇合。",
+			say = "我們這就去與您匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我这边目前还没有摆脱战争舰队的纠缠，要稍微晚一点才能与你们汇合。",
+			say = "我這邊目前還沒有擺脫戰爭艦隊的糾纏，要稍微晚一點才能與妳們匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "遇到麻烦了？",
+			say = "遇到麻煩了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算不上。战争骑士并没有移动，追来的只是些量产型舰队，不碍事。",
+			say = "算不上。戰爭騎士並沒有移動，追來的只是些量產型艦隊，不礙事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解，那我就在原地等候各位到来了。",
+			say = "了解，那我就在原地等候各位到來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

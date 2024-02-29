@@ -7,7 +7,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgm = "battle-whaling-normal",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "啧，这样近距离的炮击都没能彻底击穿其装甲么……",
+			say = "嘖，這樣近距離的炮擊都沒能徹底擊穿其裝甲嗎…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰——————————！",
+			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "居、居然躲开了黎塞留大人的近距离攻击？！明明受了这么重的伤！",
+			say = "居、居然躲開了黎胥留大人的近距離攻擊？！明明受了這麼重的傷！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 202330,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看来之前余烬的拉·加利索尼埃没有说谎。",
+			say = "看來之前餘燼的拉·加利索尼埃並沒有說謊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 202330,
 			dir = 1,
-			say = "这个机甲明明只是个塞壬实验场中制造出的自律兵器，但其却有堪比高阶塞壬的战斗力……",
+			say = "這個機甲明明只是個塞壬實驗場中製造出的自律兵器，但其卻有堪比高階塞壬的戰鬥力……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 205140,
 			dir = 1,
-			say = "怎么会有这种事……",
+			say = "怎麼會有這種事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 205140,
 			dir = 1,
-			say = "难道我们、黎塞留主教和怨仇女士，再加上余烬的拉加利索尼埃合力，都没法击倒它么……",
+			say = "難道我們、黎胥留主教和怨仇女士，再加上餘燼的拉加利索尼埃合力，都沒辦法擊倒它嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不。余烬的那位根本就没出手吧……",
+			say = "不。餘燼的那位根本沒出手吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "喂，余烬的！你怎么出工不出力啊！别摸鱼划水了！",
+			say = "喂，餘燼的！妳怎麼看戲不出力！別摸魚划水了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嘘……别急，我在祈祷。",
+			say = "噓……別急，我在祈禱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这时候祈祷？祈祷对面高抬贵手么？",
+			say = "這時候祈禱？祈禱對面高抬貴手嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "不，祈祷给对面带来毁灭。",
+			say = "不，祈禱給對面帶來毀滅。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "「……慈爱的主，我诚心听您所言，行您所谕……」",
+			say = "「……慈愛的主，我誠心聽您所言，行您所諭……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "「……请将我的仇恨视作您的仇恨，将我的敌人视为您的敌人……」",
+			say = "「……請將我的仇恨視為您的仇恨，將我的敵人視為您的敵人……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "请赐予我洗涤世间一切不义与罪恶的力量吧——！",
+			say = "請賜我洗滌世間一切不義與罪惡的力量吧——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			eventDelay = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伴随着拉·加利索尼埃逐渐变大的吟诵声，众人在恍惚间感受到了一股必胜的意志。",
+			say = "伴隨著拉·加利索尼埃逐漸變大的吟誦聲，眾人在恍惚間感受到了一股必勝的意志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "战场的天平似乎真的开始倾倒了。",
+			say = "戰場的天平似乎真的開始傾倒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "……饥荒骑士，好像变弱了？",
+			say = "……飢荒騎士，好像變弱了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "没错，该趁这个机会集中火力消灭它了哦~",
+			say = "沒錯，趁這個機會集中火力消滅它了喔~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "余烬所属，拉·加利索尼埃，现在加入战斗！~",
+			say = "餘燼所屬，拉·加利索尼埃，現在加入戰鬥！",
 			painting = {
 				alpha = 0.3,
 				time = 1

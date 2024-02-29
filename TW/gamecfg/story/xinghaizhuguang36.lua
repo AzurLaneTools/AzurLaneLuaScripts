@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "……安蒂克丝，好久没见你们这么舍得拿出好东西来了。",
 			bgm = "theme-richard",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "这算是对于我的特别欢迎礼？",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "唔……其实我更想叙叙旧呢。",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "你看到刚才那个闪耀出光辉的信标了么？",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "那可是一个令人怀念的东西啊。",
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "我已经送了点礼物去了，你呢？",
 			typewriter = {
 				speed = 0.05,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "嗯~好像确实还没和你交过手呢，看来你对于自己很自信啊。",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "让我猜猜，你的计划是耐力比拼，用消耗战的方式拖垮我？",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "哼哼~告诉你个小秘密。",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "——其实，我意外有耐心哦。",
 			typewriter = {
 				speed = 0.05,

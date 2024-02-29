@@ -152,6 +152,10 @@ function slot0.calDayLeft(slot0)
 	end
 end
 
+function slot0.GetGiftList(slot0)
+	return {}
+end
+
 function slot0.GetName(slot0)
 	assert(false, "overwrite me !!!!")
 end

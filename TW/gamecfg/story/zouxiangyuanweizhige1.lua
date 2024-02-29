@@ -630,7 +630,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,
@@ -700,7 +700,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,
@@ -733,7 +733,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,
@@ -747,7 +747,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,
@@ -761,7 +761,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,
@@ -775,7 +775,7 @@ return {
 		},
 		{
 			actor = 902020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			side = 2,

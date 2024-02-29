@@ -8,7 +8,7 @@ return {
 			bgName = "bg_firedust_7",
 			stopbgm = true,
 			bgm = "theme-vichy-slaughter",
-			say = "在一连串的爆炸声后，山丘般的机甲巨人终于垮塌，成了再也拼不回来的碎片。",
+			say = "在一連串的爆炸聲後，山丘般的機甲巨人終於垮塌，成了再也拼不回來的碎片。",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好嘞，收工。怎么样，现在还怀疑我的战斗力么？",
+			say = "好了，收工。怎麼樣，現在還懷疑我的戰鬥力嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不…………毫无疑问，你绝对是出色的余烬战士。",
+			say = "不…………毫無疑問，妳絕對是優秀的餘燼戰士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幸好你是站在我们这一边的。",
+			say = "幸好妳是站在我們這一邊的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "虽然只是暂时的哦，不过还是多谢夸奖~",
+			say = "雖然只是暫時的哦，不過還是多謝誇獎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "余烬的拉·加利索尼埃小姐，您刚刚究竟是……",
+			say = "餘燼的拉·加利索尼埃小姐，您剛剛究竟是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如你所见，我进行了祈祷，然后我获得了回应。",
+			say = "如妳所見，我進行了祈禱，然後我獲得了回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塞壬在这里进行的就是这样的实验，我只是利用了一下而已。",
+			say = "塞壬在這裡進行的就是這樣的實驗，我只是利用了一下而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "概念的具现化，对吧？！",
+			say = "概念的具現化，對吧？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "准确来说，并不是所有概念的具现化，而是与信仰有关的概念的具现化。",
+			say = "準確來說，並不是所有概念的具現化，而是與信仰有關的概念的具現化。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过你看来你理解了，很聪明嘛，怨仇小姐。",
+			say = "不過看來妳理解了，很聰明嘛，怨仇小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，我之前还尝试着呼唤过“战争”，四骑士需要按顺序消灭也是我发现的呢。",
+			say = "哼哼哼，我之前還嘗試著呼喚過「戰爭」，四騎士需要按順序消滅也是我發現的呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哈啊？你念了第二印呼唤战争？然后呢？",
+			say = "哈啊？妳念了第二印呼喚戰爭？然後呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后感觉……好像受到了某些存在的影响，我开始变得不再是我了……幸好被大主教及时打断了。",
+			say = "然後感覺……好像受到了某些存在的影響，我開始變得不再是我了……幸好被大主教及時打斷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的那么危险么？",
+			say = "居然真的那麼危險嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你运气还真好……是的，非常危险。",
+			say = "妳運氣還真好……是的，非常危險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呼唤神是一回事，呼唤末日骑士又是另一回事啊……至少对你呼唤的对象该有个筛选吧。",
+			say = "呼喚神是一回事，呼喚末日騎士又是另一回事啊……至少對妳呼喚的對象該有個篩選吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过……嗯……………………我觉得可行，你们要不要试试？",
+			say = "不過……嗯……………………我覺得可行，妳們要不要試試看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可行？你是指什么？",
+			say = "可行？你是指什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "「信仰的现化」哦，接下来的战争骑士比饥荒骑士还要对付，你们要是不武装一下自己的话，会被轻松消灭的。",
+			say = "「信仰的具象化」哦，接下來的戰爭騎士比飢荒騎士還要難對付，妳們要是不武裝一下自己的話，會被輕鬆消滅的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这一现象是由塞壬的设施引发的吧，我们用了真的不会有副作用么？",
+			say = "這現象是由塞壬的設施引發的吧，我們用了真的不會有副作用嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不会不会~塞壬设施只是构建了能够实现这一现象的空间，只能算个工具而已。",
+			say = "不會不會~塞壬設施只是建構了能夠實現這現象的空間，只能算個工具而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好影响与坏影响只取决于使用的人利用它做了什么。",
+			say = "好影響與壞影響只取決於使用的人利用它做了什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "向主祈祷自然没事，我刚才做的事你也看到了吧？",
+			say = "向主祈禱自然沒事，我剛才做的事妳也看到了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果是这样的话……怨仇女士，我觉得有试一下的价值。",
+			say = "如果是這樣的話……怨仇女士，我覺得有試一下的價值。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦？……但这里终究还是塞壬的设施哦，你不介意么？",
+			say = "咦？……但這裡終究還是塞壬的設施哦，妳不介意嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然是介意的，不过这里不还有鸢尾教国时期修建的教堂么？去那里祈祷就好。",
+			say = "自然是介意的，不過這裡不是還有鳶尾教國時期修建的教堂嗎？去那裡祈禱就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也…………行。既然大主教您都不介意的话，我自然也不介意。",
+			say = "也…………行。既然大主教您都不介意的話，我自然也不介意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事不宜迟，我们这就去找一处适合祈祷的地点吧~",
+			say = "事不宜遲，我們這就去找一個適合祈禱的地點吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

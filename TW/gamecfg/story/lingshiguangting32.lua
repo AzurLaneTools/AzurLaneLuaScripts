@@ -595,7 +595,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "真是有趣的裝置啊，妳用拉普拉斯妖的設計圖改造來的嗎？",
 			typewriter = {
@@ -793,7 +793,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "欸~讓我回去可沒那麼容易哦——因為已經沒有人可以阻礙我了嘛。",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "人類不行，艦船不行，安蒂克絲當然也不行~",
 			typewriter = {
@@ -825,7 +825,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "再說我看到妳們又帶了有趣的同伴，妳們兩個是META嗎？",
 			typewriter = {
@@ -857,7 +857,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "唔……不認識呢。也許妳們在哪裡和我有過一面之緣吧。",
 			typewriter = {
@@ -873,7 +873,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "聽我說，聽我說，妳們快點幫我從裡面破壞這個煩人的機器！",
 			typewriter = {
@@ -889,7 +889,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "這樣我就能進去把她們所有人都轉化成我們的同伴了！",
 			typewriter = {
@@ -955,7 +955,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "嗯？妳們在等什麼？為什麼不行動？",
 			typewriter = {
@@ -1005,7 +1005,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "哈？怎麼可能！算了算了，就知道妳們靠不住。",
 			typewriter = {
@@ -1021,7 +1021,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "把這台機器的能量磨乾了不也就進去了？反正我有的是時間~",
 			typewriter = {

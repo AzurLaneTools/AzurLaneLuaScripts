@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_1",
 			stopbgm = true,
-			say = "凯尔盖朗岛·审判庭堡垒，一段时间后————",
+			say = "凱爾蓋朗島·審判庭堡壘，一段時間後————",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "之前在绕岛侦察的时候没有看到过这座建筑呢，到底是什么时候冒出来的？",
+			say = "之前在繞島偵察的時候沒有看到這棟建築呢，到底是什麼時候冒出來的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不久前，准确来说的话，是在完成圣堂Vert内净化的那一刻。",
+			say = "準確來說的話，是在完成聖堂Vert內淨化的那一刻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只有在完成全部四座圣堂的净化程序之后，这座堡垒才会从地下升起来。",
+			say = "只有在完成全部四座聖堂的淨化程序之後，這座堡壘才會從地下升起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这里就是执行整个流程最后一步的地方，当然，此等隐秘之处也不会被标记在地图上。",
+			say = "這裡就是執行整個流程最後一步的地方，當然，此等隱密之處也不會被標記在地圖上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恢复圣堂控制的最后装置被安放在审判庭的堡垒里，看来那边当初在岛上圣堂建立的时候也出力很大？",
+			say = "恢復聖堂控制的最後裝置被安置在審判庭的堡壘裡，看來那邊當初在島上聖堂建立的時候也出力很大？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯，当年审判庭最新锐的祷告舰也是沉在这里的。",
+			say = "嗯，當年審判庭最新銳的禱告艦也是沉在這裡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那艘船并不隶属于鸢尾海军的序列，其实是可以不参与战斗的。",
+			say = "那艘船並不隸屬於鳶尾海軍的序列，其實是可以不參與戰鬥的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过在收到圣座下达的不惜代价夺回凯尔盖朗岛的命令之后，审判庭立刻就把船拉到了最前线。",
+			say = "不過在收到聖座下達的不惜代價奪回凱爾蓋朗島的命令之後，審判庭立刻就把船拉到了最前線。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "为了建造那艘军舰，审判庭是下了血本的，所以当时的祷告舰其实是教国中战斗力最强的常规军舰。",
+			say = "為了建造那艘軍艦，審判庭是下了血本的，所以當時的到禱告艦其實是鳶尾海軍中戰鬥力最強的常規軍艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也因此在战斗中起到了至关重要的作用",
+			say = "也因此在戰鬥中扮演了至關重要的作用",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过作为代价，那艘船也永远沉没在了这里……",
+			say = "不過作為代價，那艘船也永遠沉沒在這裡了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……墙上的旗子，没有被维希教廷换掉，还是鸢尾教国的旗子呢。",
+			say = "……牆上的旗子，沒有被維希教廷換掉，還是鳶尾教國的旗子呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……是啊，真是令人怀念。",
+			say = "……是啊，真是令人懷念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到维希教廷的疏于保养，反而带来了这样的意外结果。",
+			say = "沒想到維希教廷的疏於保養，反而帶來了這樣的意外結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果您要祷告的话，我们可以先出去回避一下。",
+			say = "如果您要禱告的話，我們可以先出去迴避一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用了，现在危机尚未解除，不是做这些事的时候。",
+			say = "不用了，現在危機尚未解除，不是做這些事的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "等到一切尘埃落定之后，有大把做缅怀的时间呢……",
+			say = "等到一切塵埃落定之後，有大把做緬懷的時間呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩，启动最终净化系统，执行“审判”程序吧。",
+			say = "貝亞恩，啟動最終淨化系統，執行「審判」程序吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_1",
-			say = "随着贝亚恩拉下操纵杆，在机器的嗡鸣声响起的同时，令人安心的气息也逐渐回归了凯尔盖朗岛。",
+			say = "隨著貝亞恩拉下操縱桿，在機器的嗡鳴聲響起的同時，令人安心的氣息也逐漸回歸了凱爾蓋朗島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_1",
-			say = "一直紧绷着一根弦的怨仇，精神也终于放松了下来。",
+			say = "一直保持著嚴肅神情的怨仇，精神也終於放鬆了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这样一来……问题终于结束了。",
+			say = "這樣一來……問題終於結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "对了，英雄，把弓还给黎塞留大人吧。",
+			say = "對了，英雄，把弓還給黎胥留大人吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "欸？要还么！可是怨仇女士，你之前不是说——",
+			say = "欸？要還嗎！可是怨仇女士，妳之前不是說過——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "还回去吧。毕竟是人家的圣物，这么当面拿走也太不好了。",
+			say = "還回去吧。畢竟是人家的聖物，這樣當面拿走也太不好呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "啊，其实也没关系。",
+			say = "啊，其實也沒關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那把弓只是一个象征物，并不是真正的圣物，喜欢的话就拿走当个纪念品吧。",
+			say = "那把弓只是一個象徵物，並不是真正的聖物，喜歡的話就拿走當做紀念品吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "好耶~！多谢黎塞留大人~☆",
+			say = "好耶~！多謝黎胥留大人~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那就，黎塞留大人，我再次代表皇家海军向您表示最诚挚的感谢。",
+			say = "那就，黎胥留大人，我再次代表皇家海軍向您表達最誠摯的感謝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果没有你的帮助，不但百眼巨人和皇家橡树凶多吉少，这次的危机恐怕会也影响碧蓝航线对于安塔迪卡的战略部署。",
+			say = "如果沒有妳的幫助，不但百眼巨人和皇家橡樹兇多吉少，這次的危機恐怕會也影響碧藍航線對整個南極的控制。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "回去之后我会向陛下详细汇报这次事件的细节的。",
+			say = "回去之後我會向陛下詳細報告這次事件的細節的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如果您还有什么需要我转达给陛下的话，我保证一定传达到。",
+			say = "……如果您還有什麼需要我轉達給陛下的話，我保證一定傳達到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "能够重新光复这里，让昔日的教国旗帜重见天日，我就已经十分满足了。",
+			say = "能夠重新收復這裡，讓昔日的旗幟重見天日，我就已經十分滿足了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了感谢的话语之外，没有什么需要麻烦你向伊丽莎白女王特别转达的。",
+			say = "除了感謝的話語之外，沒有什麼需要麻煩妳向伊莉莎白女王特別傳達的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "等等，黎塞留主教，天上那是什么？",
+			say = "等等，黎胥留主教，天上那是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.2,
-			say = "「我还从未想过，当黑洞高悬于天空时，人间会是怎般模样——」",
+			say = "「我還從未想過，當黑洞高懸於天空時，人間會是怎般模樣——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.2,
-			say = "「即便太阳本身与之相比，也宛如永夜中的烛光——」",
+			say = "「即便太陽本身與之相比，也宛如永夜中的燭光——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.2,
-			say = "「以女王陛下之名，此时此刻，唯有祈祷——」",
+			say = "「以女王陛下之名，此時此刻，唯有祈禱——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

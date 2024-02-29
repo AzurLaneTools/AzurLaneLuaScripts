@@ -212,6 +212,11 @@ pg.task_meta_data_template = setmetatable({
 		100153,
 		100154,
 		100155,
+		100161,
+		100162,
+		100163,
+		100164,
+		100165,
 		200001,
 		200002,
 		200003,
@@ -271,7 +276,11 @@ pg.task_meta_data_template = setmetatable({
 		200151,
 		200152,
 		200153,
-		200154
+		200154,
+		200161,
+		200162,
+		200163,
+		200164
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1956,6 +1965,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100161] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "使用水星纪念·META获得1次胜利",
+		id = 100161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100162] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "使用水星纪念·META击破等级＞30的敌方1次",
+		id = 100162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100163] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "使用水星纪念·META击破等级＞55的敌方1次",
+		id = 100163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100164] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "使用水星纪念·META击破等级＞80的敌方1次",
+		id = 100164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100165] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "使用水星纪念·META击破等级＞100的敌方1次",
+		id = 100165,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2433,6 +2482,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用金伯利·META击破等级＞100的敌方1次",
 		id = 200154,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200161] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "大型作战内使用水星纪念·META获得1次胜利",
+		id = 200161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200162] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "大型作战内使用水星纪念·META击破等级＞70的敌方1次",
+		id = 200162,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200163] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "大型作战内使用水星纪念·META击破等级＞90的敌方1次",
+		id = 200163,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200164] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "大型作战内使用水星纪念·META击破等级＞100的敌方1次",
+		id = 200164,
 		target_num = 1,
 		target_id = "100"
 	}

@@ -77,7 +77,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "呵呵，那個“我”也是假的哦。真正的我在你的右手邊，猜猜看哪個是真的？",
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "很遺憾，猜錯了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "妳在說什麼我不明白哦~",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "什麼人？！",
 			typewriter = {
 				speed = 0.05,
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "咦？居然還帶了朋友來觀光啊。",
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "這下可要好好招待一番了呢~",
 			typewriter = {
 				speed = 0.05,

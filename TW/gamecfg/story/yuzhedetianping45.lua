@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "——如同幽暗森林中的篝火。",
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "——如同无垠夜幕下的灯塔。",
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "向它者彰显存在，又向它者展现道路。",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "有趣的大姐姐们♪",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "找到你们的位置了哦♪",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.2,
 			say = "「想我了么？」",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.4,
 			say = "「想我了么？」",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.6,
 			say = "「想我了么？」",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.8,
 			say = "「想我了么？」",
 			typewriter = {

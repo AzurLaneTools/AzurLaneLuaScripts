@@ -158,13 +158,7 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 				tf(slot0):SetParent(uv1.root, false)
 
 				slot1 = slot0:GetComponent("SkeletonGraphic")
-
-				if pg.SpineCharCustomInfo.GetCharMaterial(uv0) then
-					slot1.material = slot2
-				else
-					slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
-				end
-
+				slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
 				uv1.pools_plural[uv2] = uv3.New(slot0, 1)
 			end
 

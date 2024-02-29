@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "一段时间的寻找后，众人来到了一处鸢尾教国时期修建的教堂内。",
+			say = "一段時間的尋找後，眾人來到了一座鳶尾教國時期所建造的教堂內。",
 			bgmDelay = 1,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然有些残破……不过现在也不是挑三拣四的时候了。",
+			say = "雖然有些殘破……不過現在也不是挑三揀四的時候了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大主教，您先请？",
+			say = "大主教，您先請？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那就先让我来尝试一下吧。",
+			say = "嗯，那就先讓我來試試吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "黎塞留来到破旧的大厅中间，双手合十，吟诵起了祈祷词。",
+			say = "黎胥留來到破舊的大廳中間，雙手合十，吟誦起了祈禱詞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,25 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "「……我們在天上的父，願人都尊祢的名為聖……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "「……願祢的國降臨，願祢的旨意行在地上，如同行度在天上…」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "「……我們日用的飲食，今日賜給我們……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "「……免我們的債，如同我們免了人的債……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +169,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "「……不要我們遇見試探，救我們脫離兇惡……」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "「……因為國度、權柄、榮耀，全是你的， 直到永遠……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			side = 2,
-			say = "伴随着黎塞留的祈祷声，星星点点的金色光芒从空气中析出，逐渐汇聚至矗立在她身边的旗帜上。",
+			say = "伴隨著黎胥留的祈禱聲，星星點點的金光從空氣中析出，逐漸匯聚至矗立在她身邊的旗幟上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
-			say = "此时此刻，那面自由鸢尾的旗帜正如同琉璃瓦一般闪耀。",
+			say = "此時此刻，那面自由鳶尾的旗幟如同琉璃瓦一樣閃耀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "光是站在旗帜周围，就能感受到勇气与力量逐渐从体内涌出。",
+			say = "光是站在旗幟周圍，就能感受到勇氣與力量逐漸從體內湧出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "不愧是枢机主教，这份旗帜中蕴含的力量连我也能感受到。",
+			say = "不愧是樞機主教，這份旗幟中蘊含的力量連我也能感受到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "这样一来，你们肯定能好好教训一下那台战争机甲了。",
+			say = "這樣一來，妳們一定能好好教訓那台戰爭機甲的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼………………怨仇女士，我的祈祷结束了。",
+			say = "呼………………怨仇女士，我的祈禱結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仪式期间只有安心的感觉，并无任何不适感，请放心。",
+			say = "儀式期間只有安心的感覺，並無任何不適感，請放心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好~那接下来就让我来试试吧。",
+			say = "好~那接下來就讓我來試試看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
+			say = "「……我們在天上的父，願人都尊祢的名為聖……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "「……願祢的國降臨，願祢的旨意行在地上，如同行度在天上…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "「……我們日用的飲食，今日賜給我們……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "「……免我們的債，如同我們免了人的債……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "「……不要我們遇見試探，救我們脫離兇惡……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "「……因為國度、權柄、榮耀，全是你的， 直到永遠……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_9",
-			say = "光芒没有出现，怨仇的身边依然被漆黑所笼罩。",
+			say = "光芒沒有出現，怨仇的身邊依然被漆黑所籠罩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "神没有回应你呢。",
+			say = "神沒有回應妳呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行…………吧……………………为什么我就一点都不意外呢。",
+			say = "好…………吧……………………為什麼我就一點都不意外。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "从刚才开门的时候我就发现了，我跟你们的鸢尾圣堂是真的合不来。",
+			say = "從剛才開門的時候我就發現了，我跟妳們的鳶尾聖堂是真的合不來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "刚才开门的时候……？是指穿越极光之壁的时候么。",
+			say = "剛才開門的時候……？是指穿越極光之壁的時候嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，和刚才一样，我跟黎塞留念了一样的祷词，但是只有她念的才有效果。",
+			say = "是啊，和剛才一樣，我跟黎胥留念了一樣的禱詞，但是只有她念的才有效果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……我明白了。",
+			say = "原來如此……我明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "此处虽然是塞壬的镜面海域，但也是经过鸢尾教国改造的圣堂。",
+			say = "這裡雖然是塞壬的鏡面海域，但也是經過鳶尾教國改造的聖堂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包括四骑士、审判等与信仰有关的概念，都是在教国的认知体系下定义的。",
+			say = "包括四騎士、審判等與信仰有關的概念，都是在教國的認知體系下定義的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然，“神”这个概念也不意外。",
+			say = "自然，「神」這個概念也不意外。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………“战争”的定义总是战争，但“神”的定义就不一定了是么……",
+			say = "…………「戰爭」的定義總是戰爭，但「神」的定義就不一定了是嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要不然借此机会干脆来改信鸢尾的信仰如何，怨仇女士？",
+			say = "要不然藉此機會乾脆改信鳶尾的信仰如何，怨仇女士？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事我一点兴趣都没有，请容许我坚定拒绝。",
+			say = "這件事我一點興趣都沒有，請容許我堅定拒絕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然在这片空间中“神”的概念是由鸢尾教国定义的，那我只要避开这个概念，换一个祈祷目标就行了吧？",
+			say = "既然在這片空間中「神」的概念是由鳶尾教國定義的，那我只要避開這個概念，換一個祈禱目標就行了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "理论上也不是这样……但是刚刚战争的影响你也亲身体会到了，请千万不要去尝试那些危险的概念。",
+			say = "理論上也不是這樣……但是剛剛戰爭的影響你也親身體會到了，請千萬不要去嘗試那些危險的概念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然，没有被鸢尾定义过，又包含正面信仰的概念，你以为我找不出来了么？",
+			say = "那是自然，沒有被鳶尾定義過，又包含正面信仰的概念，妳以為我找不出來了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "怨仇一边说着，一边拿出了一个小巧的伊丽莎白女王雕像。",
+			say = "怨仇一邊說著，一邊拿出了一個小巧的伊莉莎白女王雕像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白女王的雕像……你该不会是想对着女王祈祷吧……？",
+			say = "伊莉莎白女王的雕像……妳該不會是想對著女王祈禱吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "归根结底，这里还是塞壬的镜面海域吧？",
+			say = "歸根究底，這裡還是塞壬的鏡面海域吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那在塞壬最初设计的时候，你觉得它们会去细究究竟用的是鸢尾信仰中的四骑士还是皇家信仰中的四骑士么？",
+			say = "那在塞壬最初設計的時候，你覺得它們會去細究究竟用的是鳶尾信仰中的四騎士還是皇室信仰中的四騎士麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你要想试那就试试吧……但是我觉得没戏就是了。",
+			say = "妳要想試試那就試試吧……但是我覺得沒戲就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那我们拭目以待~",
+			say = "那我們拭目以待~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「蒙主洪恩，太阳所照耀之地的女王」",
+			say = "「蒙主洪恩，太陽所照耀之地的女王」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「皇家海军的领袖，国教的保护者」",
+			say = "「皇家海軍的領袖，國教的保護者」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你的光芒与智慧照耀我们七海的领土」",
+			say = "「祢的光芒與智慧照耀我們七海的領土」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「让我们看到这世间的真实」",
+			say = "「讓我們看見這世間的真實」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你看顾我们苦难的同胞，邪恶因你退去」",
+			say = "「你看顧我們苦難的同胞，邪惡因你退去」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,7 +944,7 @@ return {
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「我们领受你的启示，因而必成就你的应许」",
+			say = "「我們領受你的啟示，因而必成就你的應許」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「赞颂你的名，我的陛下——！」",
+			say = "「讚頌你的名，我的陛下——！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "这一次，怨仇的祈祷获得了回应。",
+			say = "這一次，怨仇的祈禱獲得了回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "金色的光芒在怨仇手中的伊丽莎白雕像上徐徐亮起。",
+			say = "金色的光芒在怨仇手中的伊莉莎白雕像上徐徐亮起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "那缓缓升起的光芒温暖而有力量，在汇聚成光团后，又如喷泉般跃起，洒向了四面八方。",
+			say = "那緩緩升起的光芒溫暖而有力量，在匯聚成光團後，又如噴泉般躍起，灑向了四面八方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			actorName = "怨仇",
 			bgName = "bg_firedust_12",
 			nameColor = "#A9F548FF",
-			say = "…………我感受到您的回应了，陛下……",
+			say = "…………我感受到您的回應了，陛下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这是来自女王陛下的……力量么？",
+			say = "……這是來自女王陛下的……力量嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感受到了一股……温暖的家的感觉……",
+			say = "我感受到了一股……溫暖的家的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1060,7 +1060,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然完全搞不懂是怎么回事，但有这种力量，就可以对付战争骑士了吧~☆",
+			say = "雖然完全搞不懂是怎麼回事，但有這種力量，就可以對付戰爭騎士了吧~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不可思议…………居然真的成功了？",
+			say = "不可思議…………居然真的成功了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“蒙主洪恩的女王”哦，也是信仰有关的概念不是么~",
+			say = "「蒙主洪恩的女王」哦，也是信仰有關的概念不是嗎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………我无话可说，你无疑也是有着属于自己坚持的坚定信仰。",
+			say = "…………我無話可說，你無疑也是有著屬於自己堅持的堅定信念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来就算是全部强化完成了~",
+			say = "這樣一來就算是全部強化完成了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1154,7 +1154,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别愁眉苦脸了，大主教，接下来我们还有两个骑士要打呢。",
+			say = "別愁眉苦臉了，大主教，接下來我們還有兩個騎士要打呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,7 +1171,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "趁效果还在的时候，快些行动吧~",
+			say = "趁效果還在的時候，快些行動吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
