@@ -289,10 +289,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只要能喝，我觉得都一样。",
 			painting = {
 				alpha = 0.3,

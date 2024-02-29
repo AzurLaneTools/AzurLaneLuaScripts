@@ -66235,13 +66235,13 @@ _G.pg.base.equip_data_statistics[29213] = {
 
 _G.pg.base.equip_data_statistics[29220] = {
 	rarity = 5,
-	name = "萤火虫(1771中队)",
+	name = "螢火蟲(1771中隊)",
 	speciality = "<[BOMB]>",
 	type = 9,
 	tech = 0,
 	ammo = 5,
 	nationality = 2,
-	descrip = "怨仇号航空母舰上搭载的，由1771中队驾驶的萤火虫多功能舰载机",
+	descrip = "怨仇號航空母艦上搭載的，由1771中隊駕駛的螢火蟲多功能艦載機",
 	id = 29220,
 	torpedo_ammo = 0,
 	value_3 = 0,

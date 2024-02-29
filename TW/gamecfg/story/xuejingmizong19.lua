@@ -671,7 +671,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……虚假的矿物结晶……观者者的求救计划。",
+			say = "……虚假的矿物结晶……观察者的求救计划。",
 			bgm = "story-commander-up",
 			flashout = {
 				black = true,

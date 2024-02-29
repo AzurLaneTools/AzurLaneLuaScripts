@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_bolanhuichang",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "埃塞克斯",
-			nameColor = "#A9F548FF",
 			say = "我们的堡垒位于场馆下方的地下，暂时很安全。",
 			canMarkNode = {
 				"bolanhuichang",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -536,13 +536,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "埃塞克斯",
-			nameColor = "#A9F548FF",
 			say = "同时，至少有十台以上的机甲——我们暂时将其称为「迪洛伊」（Droid），正在会场各处大肆破坏。",
 			canMarkNode = {
 				"bolanhuichang",
@@ -561,13 +561,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "埃塞克斯",
-			nameColor = "#A9F548FF",
 			say = "舰载机虽然对其进行了轰炸，但是收效甚微。关于敌人的来源和具体能力还在调查中，暂时没有最新情报。",
 			canMarkNode = {
 				"bolanhuichang",
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -641,13 +641,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "埃塞克斯",
-			nameColor = "#A9F548FF",
 			say = "其他的阵营的场馆我们都没能取得直接联系。",
 			canMarkNode = {
 				"bolanhuichang",
@@ -668,11 +668,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -727,13 +727,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "埃塞克斯",
-			nameColor = "#A9F548FF",
 			say = "东煌馆或许是因为早已人去楼空，所以幸免于难。",
 			canMarkNode = {
 				"bolanhuichang",
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "埃塞克斯",
 			hidePaintObj = true,

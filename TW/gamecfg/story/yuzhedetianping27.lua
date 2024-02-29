@@ -194,9 +194,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "直布罗陀、马耳他、罗马、土伦、塔兰托、威尼斯等地原本就有舰队驻防，可以立刻开始处理极光之壁设备。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -213,9 +213,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "米兰方向，利托里奥表示会调动撒丁帝国武装力量处理掉。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -233,9 +233,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "鸢尾本土内节点众多，原本是打算派遣舰队前去支援的。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -254,8 +254,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "不过黎塞留表示自己依靠手中的力量足够，所以这一部分就全部交给鸢尾舰队负责。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -274,8 +274,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "然后关于凯撒里亚和迦太基城……",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -294,8 +294,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "……其实之前也注意到了，克莱蒙梭提供的地图上用了不少地名的古称作为标识。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -314,8 +314,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "克莱蒙梭对此的解释是——这是构建空间节点在概念上的需要。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -334,8 +334,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "所以在本次作战期间暂时沿用这些名称好了。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -354,8 +354,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "关于这两处区域，目前已经发布了调动命令。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -374,9 +374,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "阿尔及利亚将会由皇家直布罗陀舰队处理。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -396,9 +396,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "{namecode:428}带领的铁血舰队将会在与皇家马耳他舰队汇合后，一同前往迦太基。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -419,8 +419,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "……真正麻烦的是东陆间海的部分。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -441,8 +441,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "那片区域拥有将近三分之一的关键节点，但是，却几乎没有驻防舰队可以仰仗……",
 			canMarkNode = {
 				"huanlujianhai2",

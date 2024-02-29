@@ -786,12 +786,12 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "直布罗陀要塞的战况并不严峻。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "在得知了会场情况后，厌战表示将会留下一部分人驻防，之后带领主力舰队前来支援。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -823,12 +823,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "马耳他要塞的情况则严峻许多，在敌人猛烈的进攻下，驻防舰队已经被包围在要塞中。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "在评估了实际情况后，{namecode:427}同意了带领铁血舰队前去马耳他支援的方案。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -862,11 +862,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "之后她们会与皇家舰队一同返回会场集结。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "土伦港中驻扎着维希教廷的主力舰队。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "不过其在通讯中只进行了公示性回应，拒绝提供任何情报，也拒绝了联合作战的邀请。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -922,11 +922,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "目前也只能先静观其变……",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "撒丁帝国的情况也不容乐观。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -962,11 +962,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "在袭击开始前，马可波罗似乎尝试过利用元老院的授权控制撒丁舰队。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -982,11 +982,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "不过因为种种原因未能得逞。现在随着通讯恢复，维内托已经重新取回了控制权。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "目前，塔兰托要塞周边的战斗已经暂时结束，其中的撒丁帝国驻防舰队正在原地待命。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1024,12 +1024,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "撒丁帝国舰队的二把手利托里奥目前人在威尼斯办事。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "并在袭击发生后立刻前往了安全的地堡躲避，虽然被孤立在外，但还算安全。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "维内托原本打算让塔兰托舰队前去威尼斯救援，不过利托里奥表示远水解不了近渴，她自己会尝试其他方法脱困。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1091,12 +1091,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "撒丁帝国的首都也遭到了袭击。不过因为驻防舰队的及时应对和来自本土的支援，目前战斗已经接近尾声。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1115,11 +1115,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "维内托级的罗马表示，将会在确保首都安全后，带领驻防舰队前来会场集合。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1138,11 +1138,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "同时她提供了一个重要信息，马可波罗的王座目前正在某处海域上空发光盘旋，似乎在进行着某种仪式。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1161,12 +1161,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "值得注意的还有亚历山大港，那里原本应该驻扎有一支撒丁帝国舰队，但对其的呼叫没有取得任何回应，目前情况不明。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1186,11 +1186,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "塔兰托已经派出侦察机前往亚历山大方向了，相信不久后就能得到更确切的消息。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1210,11 +1210,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "撒丁帝国的全部舰队、皇家与维希教廷的陆间海舰队，再加上集结在博览会会场的各阵营联合舰队。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1234,11 +1234,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "总体来说，被卷入“神之国度”的舰队力量十分可观。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1258,11 +1258,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1_99",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "就算面对此等不利局面……只要能团结一致，依然有胜算！",
 			canMarkNode = {
 				"huanlujianhai1",

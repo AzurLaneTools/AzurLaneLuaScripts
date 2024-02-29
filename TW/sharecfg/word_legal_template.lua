@@ -1129,6 +1129,11 @@ function temp()
 			["利"] = {
 				this = true
 			}
+		},
+		["庫"] = {
+			["拉"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -3582,6 +3587,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["雄"] = {
+			this = true
 		}
 	}
 end
@@ -3661,6 +3669,11 @@ function temp()
 					["號"] = {
 						this = true
 					}
+				}
+			},
+			["橡"] = {
+				["樹"] = {
+					this = true
 				}
 			}
 		}
@@ -6448,6 +6461,30 @@ temp()
 function temp()
 	uv0["定"] = {
 		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["百"] = {
+		["眼"] = {
+			["巨"] = {
+				["人"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["怨"] = {
+		["仇"] = {
 			this = true
 		}
 	}

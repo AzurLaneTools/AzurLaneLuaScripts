@@ -305,11 +305,9 @@ return {
 			}
 		},
 		{
-			actor = 701091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_154",
 			side = 2,
-			paintingNoise = true,
+			bgName = "star_level_bg_154",
 			say = "基洛夫猛地踩下刹车，摩擦声中，摩托车做出了一个漂亮的甩尾，稳稳地停了下来。",
 			typewriter = {
 				speed = 0.05,
@@ -405,10 +403,12 @@ return {
 			}
 		},
 		{
+			actor = 701091,
 			side = 2,
-			actorName = "？？",
 			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
+			actorName = "？？",
+			paintingNoise = true,
 			say = "在你们的档案中，似乎是用“灵敏”这个名字称呼我的呢~",
 			typewriter = {
 				speed = 0.05,
