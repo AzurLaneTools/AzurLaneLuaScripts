@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "異常気象と敵性個体が特殊鉱物との関連性が確認された以上…",
+			say = "異常気象と敵性個体に特殊鉱物との関連性が確認された以上…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			}
 		},
 		{
-			actor = 705020,
+			actor = 402010,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
@@ -621,13 +621,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 402010,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 705020,
 			say = "外部との通信はまだ回復していないようですから、敵について共有できる情報はありませんが…",
 			painting = {
 				alpha = 0.3,

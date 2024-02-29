@@ -1062,7 +1062,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "クーちゃんが悪かったわ！というわけでもういついてきて～",
+			say = "クーちゃんが悪かったわ！というわけでついてきて～",
 			painting = {
 				alpha = 0.3,
 				time = 1

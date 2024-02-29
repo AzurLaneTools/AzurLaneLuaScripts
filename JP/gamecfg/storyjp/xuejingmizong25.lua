@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（指揮している自分が仲間と通信できなくなった場合、それは自分が無力されたのと同じ……）",
+			say = "（指揮している自分が仲間と通信できなくなった場合、それは自分が無力化されたのと同じ……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

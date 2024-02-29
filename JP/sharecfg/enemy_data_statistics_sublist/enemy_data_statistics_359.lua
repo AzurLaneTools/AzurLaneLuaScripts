@@ -1478,6 +1478,10 @@ pg.enemy_data_statistics_359 = {
 				LV = 4
 			},
 			{
+				ID = 600143,
+				LV = 3
+			},
+			{
 				ID = 600144,
 				LV = 3
 			},
@@ -1584,6 +1588,10 @@ pg.enemy_data_statistics_359 = {
 			{
 				ID = 50500,
 				LV = 4
+			},
+			{
+				ID = 600140,
+				LV = 3
 			},
 			{
 				ID = 600141,
@@ -1694,6 +1702,10 @@ pg.enemy_data_statistics_359 = {
 				LV = 4
 			},
 			{
+				ID = 600143,
+				LV = 2
+			},
+			{
 				ID = 600144,
 				LV = 2
 			},
@@ -1800,6 +1812,10 @@ pg.enemy_data_statistics_359 = {
 			{
 				ID = 50500,
 				LV = 4
+			},
+			{
+				ID = 600140,
+				LV = 2
 			},
 			{
 				ID = 600141,
@@ -1910,6 +1926,10 @@ pg.enemy_data_statistics_359 = {
 				LV = 4
 			},
 			{
+				ID = 600143,
+				LV = 1
+			},
+			{
 				ID = 600144,
 				LV = 1
 			},
@@ -2016,6 +2036,10 @@ pg.enemy_data_statistics_359 = {
 			{
 				ID = 50500,
 				LV = 4
+			},
+			{
+				ID = 600140,
+				LV = 2
 			},
 			{
 				ID = 600141,

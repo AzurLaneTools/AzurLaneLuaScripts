@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "なぜヒトが変わったか、そもそも「META」して「ああなった」エネルギーと情報はどこから来ているのか――",
+			say = "なぜヒトが変わったか、そもそも「META」として「ああなった」エネルギーと情報はどこから来ているのか――",
 			painting = {
 				alpha = 0.3,
 				time = 1

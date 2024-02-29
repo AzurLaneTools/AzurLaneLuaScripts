@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "データーセンターに入ると、目の前に青く光るホログラフィックの投影が現れた。",
+			say = "データセンターに入ると、目の前に青く光るホログラフィックの投影が現れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			nameColor = "#A9F548FF",
 			actor = 900284,
 			actorName = "TB",
-			say = "データーセンターへようこそ。「指揮官」",
+			say = "データセンターへようこそ。「指揮官」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			nameColor = "#A9F548FF",
 			actor = 900284,
 			actorName = "TB",
@@ -79,7 +79,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			nameColor = "#A9F548FF",
 			actor = 900284,
 			actorName = "TB",
@@ -133,7 +133,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			actorName = "TB",
 			optionFlag = 1,
 			actor = 900284,
@@ -197,7 +197,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			actorName = "TB",
 			optionFlag = 2,
 			actor = 900284,
@@ -244,7 +244,7 @@ return {
 					7.5
 				},
 				{
-					"飼いならされた秩序もまた、悪いことではないかも知れない……",
+					"飼いならされた秩序もまた、悪いことではないかもしれない……",
 					9
 				}
 			}
@@ -265,7 +265,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			actorName = "TB",
 			optionFlag = 3,
 			actor = 900284,
@@ -337,7 +337,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			actorName = "TB",
 			optionFlag = 4,
 			actor = 900284,
@@ -352,7 +352,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "シティ管理システム",
 			actorName = "TB",
 			optionFlag = 4,
 			actor = 900284,
@@ -379,39 +379,39 @@ return {
 			},
 			sequence = {
 				{
-					"ありとあらゆるシティの放送塔、ラジオ、拡声器に「声」が鳴り響く。",
+					"<size=34>ありとあらゆるシティの放送塔、ラジオ、拡声器に「声」が鳴り響く。</size>",
 					1.5
 				},
 				{
-					"全てのモニターに「新しい主」が君臨した姿を映し出す。",
+					"<size=34>全てのモニターに「新しい主」が君臨した姿を映し出す。</size>",
 					3
 				},
 				{
-					"自動化されたシステムが魂たちに問いかける。",
+					"<size=34>自動化されたシステムが魂たちに問いかける。</size>",
 					4.5
 				},
 				{
-					"命令ではない。人々に始めて選択肢が提示された。",
+					"<size=34>命令ではない。人々に始めて選択肢が提示された。</size>",
 					6
 				},
 				{
-					"全ての人が街を治める主となれば、果たしてその街はどう変わるだろうか。",
+					"<size=34>全ての人が街を治める主となれば、果たしてその街はどう変わるだろうか。</size>",
 					7.5
 				},
 				{
-					"そんな未来を、誰も想像できなかった。",
+					"<size=34>そんな未来を、誰も想像できなかった。</size>",
 					9
 				},
 				{
-					"不夜城の住民たちは新世界を初めて目にした。",
+					"<size=34>不夜城の住民たちは新世界を初めて目にした。</size>",
 					10.5
 				},
 				{
-					"人々の生活はまだ完璧ではなく、選択の一つ一つも理想的とは言えず、時には苦痛も伴う。",
+					"<size=34>人々の生活はまだ完璧ではなく、時には苦痛も伴う。</size>",
 					12
 				},
 				{
-					"それでも、この先の物語は「人々の物語」になったのだ――",
+					"<size=34>それでも、この先の物語は「人々の物語」になったのだ――</size>",
 					13.5
 				}
 			}

@@ -289,10 +289,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "飲めるならなんだっていいだろ。ヴォッカ以外はな！",
 			painting = {
 				alpha = 0.3,
@@ -532,7 +533,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = false,
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·改",
+			actorName = "パーミャチ・メルクーリヤ改",
 			oldPhoto = true,
 			say = "じゃじゃーん！",
 			typewriter = {
@@ -581,7 +582,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = false,
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·改",
+			actorName = "パーミャチ・メルクーリヤ改",
 			oldPhoto = true,
 			say = "そりゃ見ての通りバッチリ！",
 			typewriter = {
@@ -595,7 +596,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = false,
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·改",
+			actorName = "パーミャチ・メルクーリヤ改",
 			oldPhoto = true,
 			say = "ふふん、このクーちゃんがいっちばん改造に成功した艦船だからね！",
 			typewriter = {
@@ -609,7 +610,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·改",
+			actorName = "パーミャチ・メルクーリヤ改",
 			oldPhoto = true,
 			say = "すごいでしょ♪すごいよね～！",
 			typewriter = {

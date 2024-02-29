@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "蒼龍·META",
+			actorName = "蒼龍(META)",
 			side = 2,
 			say = "……………………",
 			painting = {

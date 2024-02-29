@@ -153,10 +153,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――まずは科学ステーションなどの施設からの撤収だが…",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -172,10 +172,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ユニオン、ロイヤルは距離が離れているからもう完了している",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -192,10 +192,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――鉄血のケーニヒスベルクは北方連合のステーションに向かっており、合流したのちに脱出する予定だ",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -213,10 +213,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――各撤収チーム及び護衛戦力は撤収完了まで、作戦行動に参加しないものとする",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -235,10 +235,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――「神の痕」について。前回アビータ本体を降臨させた「繭」はまだ出現していない",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -257,10 +257,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ドロイドによる「神の痕」散布は確認されているが、世界博覧会の時とは比べ物にならないぐらい遅い",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -279,10 +279,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――どうやらこちらの推測が正しかったな…",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -301,10 +301,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――「パーミャチ・メルクーリヤ」はマルコ・ポーロのように計画を立てていなく、かなり雑にやっているだけに見える",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -323,10 +323,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――なら、「楔」となる彼女自身を無力化できれば、今回の危機を解消できるかもしれない",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -345,10 +345,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――「積層」が止まれば、残りのドロイドと無人兵器はあとでゆっくりと掃討してもいい。",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -367,10 +367,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――幸いなことに、「パーミャチ・メルクーリヤ」はソユーズ艦隊にご執心らしく、ずっと追跡しているようだ",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -390,10 +390,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――いい具合でこちらの戦力の編成を無視してくれているし",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -413,10 +413,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――おかげさまで、一つの区域に誘導してドロイドをまるごと殲滅することも可能だ",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -437,10 +437,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ソユーズ艦隊は今、「メルトエリア」から誘導目標区域に移動している",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -462,10 +462,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ユニオン艦隊の空中支援もあるから、予定通り動いてくれるはず",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -487,10 +487,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――それと、「パーミャチ・メルクーリヤ」を上手く煽り立てることができれば、作戦がより効果的になるかもしれない",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -513,10 +513,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ソユーズの話によれば、どうにも情緒が不安定らしいからな………",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -539,10 +539,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――目標区域の待ち伏せ戦力は…鉄血艦隊はブリュンヒルデ、ヒンデンブルク、フィリック・シュルツだ",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -566,10 +566,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――ユニオンはサラトガが本隊を率いて向かっている",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -593,10 +593,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――戦艦ワシントン、ノースカロライナ、コロラド姉妹、空母はサラトガ、レンジャー、インディペンデンス",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -620,10 +620,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――そして巡洋艦と駆逐艦が数十隻…",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -647,10 +647,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――南大洋のインプラカブルたちロイヤル艦隊と、プリンツ・ハインリヒたち鉄血増援艦隊",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -673,10 +673,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――おまけにバンカー・ヒルたちユニオンの「たまたまやってきた予備艦隊」を加えて……",
 			canMarkNode = {
 				"storymap_nanjidalu",
@@ -700,10 +700,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "storymap_nanjidalu",
+			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
+			blackBg = true,
 			say = "――決戦をするにも勝算はある……！",
 			canMarkNode = {
 				"storymap_nanjidalu",

@@ -786,12 +786,12 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "海峡要塞にもドロイドが現れたが、防御の戦力は充実している。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "なので、手持ちの機動戦力を充実させる意味で、ウォースパイトには主力艦隊を率いてこちらと合流してもらった。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -823,12 +823,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "マルタ島の方では敵の攻勢が激しく、守備に当たっている仲間たちがほぼ包囲されている状態だ。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "そのため、オイゲンに鉄血艦隊を任せて、別働隊として増援に向かわせた。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -862,11 +862,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "敵を掃討し島の安全を確保できれば、こちらに戻らせる予定だ。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "ヴィシア、そしてアイリスのトゥーロン艦隊だが、どうやらクレマンソーから泊地を防衛する要請を出されているようだ。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "相互に情報交換をしたが、向こうのヴィシア聖座艦隊も審判廷が何を狙っているか分からないらしい。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -922,11 +922,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "………クレマンソーの動きを観察という意味を兼ねて、ジャン・バールたちをこのまま待機させた。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "サディア帝国だが――",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -962,11 +962,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "マルコ・ポーロが緊急事態対応案に基づき、一度サディアの各拠点の艦船たちに指揮下に入るよう呼びかけたそうだ。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -982,11 +982,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "しかしヴェネトの健在を理由に応じる者はおらず、総旗艦ヴェネトがみんなを指揮下に収めることに成功した。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "アクィラたちの艦隊はタラント周辺の敵を撃破し、現在整備と戦力の再編を行っている。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1024,12 +1024,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "リットリオ、トリチェリは水都で上層部に関する調査を行っていたようで、ドロイドの出現後すぐ避難した。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "その後避難施設で孤立状態に陥ったものの、本人曰く「別の方法で脱出できるから、心配する必要はまったくない」らしい。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "正直心配ではあるが、救援を提案したヴェネトが胸を撫で下ろした様子を見る限り、二人の無事を信じたほうが良さそうだ。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1091,12 +1091,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "そして、ローマたちはサディア帝都に来襲してきた敵を無事に撃退したようだ。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1115,11 +1115,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "敵の掃討後こちらに合流する、とのことだが、もう一つ重要な情報を伝えてくれた。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1138,11 +1138,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "「マルコ・ポーロは巨大な飛行玉座に乗って、何かしらの儀式を執り行っている」",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1161,12 +1161,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "最後はオアシスの港にいるゴリツィアたちだが、そちらの連絡は完全に途絶している。",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1186,11 +1186,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "閉幕式の前に砂嵐が出現したことから、単なる天気の影響である可能性もあるが、念のためタラントから偵察機を送った。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1210,11 +1210,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "………会場の仲間たち、地中海全域にいるサディア帝国、アイリスとヴィシア、ロイヤル艦隊。",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1234,11 +1234,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "「ドロイド」の力は強大で、小型の数も合わせればこちらの何十倍以上にもなるが……勝算はある。",
 			canMarkNode = {
 				"huanlujianhai1",

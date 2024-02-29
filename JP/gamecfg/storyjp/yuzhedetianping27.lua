@@ -194,9 +194,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "ジブラルタル、マルタ、トゥーロン、タラント、帝都と水都の艦船たちはそのまま指示通り「神穹の壁」を起動する。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -213,9 +213,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "サディア北部の「概念錨」はリットリオが水都の作業完了後に対処する。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -233,9 +233,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "アイリスの領土内にある「概念錨」はリシュリューたちアイリス艦隊が確保。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -254,8 +254,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "「再現」に巻き込まれた拠点も多いが、上層部の機能が「神の痕」で麻痺している今、奪還を兼ねるとのことだ。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -274,8 +274,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "そして南大陸にある複数の「概念錨」は――",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -294,8 +294,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "場所の名前にケイザリアマウレタニアやカルタゴなどだいぶ古い呼称が使われているが、クレマンソー曰く、それも「概念」の一環らしい。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -314,8 +314,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "とはいえ、場所と「網辻」による移動は確認できたので、作戦に支障をきたすわけではないようだ。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -334,8 +334,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "とりあえず今のところは地図の名前のままでいこう。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -354,8 +354,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "作戦戦力についてはロイヤルと鉄血艦隊にそれぞれ指示を出している。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -374,9 +374,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "ケイザリアマウレタニアは海峡に近いウォースパイトのロイヤル艦隊に担当させるとして…",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -396,9 +396,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "カルタゴはオイゲンたちがマルタにいるロイヤル艦隊と合流後、マルタから「網辻」経由で確保する。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -419,8 +419,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "………残りの東地中海の「概念錨」だが、正直手持ちの戦力ではすぐに確保することは不可能だ。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -441,8 +441,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "「空洞」近くにいる戦力を転用することも検討したが、いざというときのことを考えると中々難しい。",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -1464,10 +1464,10 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			bgName = "bg_story_italy",
+			bgm = "theme-designshipVI",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			bgm = "theme-designshipVI",
+			blackBg = true,
 			say = "セイレーン作戦の時、「余燼」の飛龍が連絡コードを渡してくれた。",
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1505,8 +1505,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "慎重に機を見計らっていたが状況が状況だ。彼女に連絡してみよう。",
 			canMarkNode = {
 				"huanlujianhai2",

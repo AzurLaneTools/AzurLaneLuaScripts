@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "とある廃業したゲームセンター。ここのことは「アーティスト」ことスヴィレピイが詳しいようだ。",
+			say = "とある廃業されたゲームセンター。ここのことは「アーティスト」ことスヴィレピイが詳しいようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "……ようやく見つけました。不夜城のレジェントさん",
+			say = "……ようやく見つけました。不夜城のレジェンドさん",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "じゃあヴォルガはこの辺で…これからは指揮官が「連絡人」と一緒に行動してください",
+			say = "じゃあヴォルガはこの辺で…これから指揮官は「連絡人」と一緒に行動してください",
 			painting = {
 				alpha = 0.3,
 				time = 1

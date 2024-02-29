@@ -265,7 +265,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -282,7 +282,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -333,7 +333,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -350,7 +350,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -401,7 +401,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -423,7 +423,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -440,7 +440,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -457,7 +457,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -474,7 +474,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -491,7 +491,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -542,7 +542,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -559,7 +559,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -610,7 +610,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -627,7 +627,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -661,7 +661,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -678,7 +678,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -695,7 +695,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -712,7 +712,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -780,7 +780,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -848,7 +848,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -865,7 +865,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -899,7 +899,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -950,7 +950,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -967,7 +967,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -984,7 +984,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1001,7 +1001,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1018,7 +1018,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1035,7 +1035,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1052,7 +1052,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1086,7 +1086,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1103,7 +1103,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1120,7 +1120,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1137,7 +1137,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1154,7 +1154,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1171,7 +1171,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1341,7 +1341,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1363,7 +1363,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1385,7 +1385,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1402,7 +1402,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1419,7 +1419,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1436,7 +1436,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1458,7 +1458,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1492,7 +1492,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1509,7 +1509,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1526,7 +1526,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -1577,7 +1577,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "パーミャチ·メルクーリヤ·META",
+			actorName = "パーミャチ・メルクーリヤ(META)",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,

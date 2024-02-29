@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今あるものはもっとも大きいサンプル――何回か融合を重ねた最終成果よ",
+			say = "今あるものは最も大きいサンプル――何回か融合を重ねた最終成果よ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "そういうことなら、共鳴反映に影響を与えないようポルタヴァと外で待ってるわ",
+			say = "そういうことなら、共鳴効果に影響を与えないようポルタヴァと外で待ってるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1

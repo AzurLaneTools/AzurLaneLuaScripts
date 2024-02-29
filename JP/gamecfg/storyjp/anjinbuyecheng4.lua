@@ -305,11 +305,9 @@ return {
 			}
 		},
 		{
-			actor = 701091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_154",
 			side = 2,
-			paintingNoise = true,
+			bgName = "star_level_bg_154",
 			say = "通話相手が変わったのに気づき、キーロフはバイクでドリフトを決めて路上に駐車した。",
 			typewriter = {
 				speed = 0.05,
@@ -405,10 +403,12 @@ return {
 			}
 		},
 		{
+			actor = 701091,
 			side = 2,
-			actorName = "？？",
 			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
+			actorName = "？？",
+			paintingNoise = true,
 			say = "セキュリティのデータベースでは「ソオブラジーテリヌイ」という名前だっけな",
 			typewriter = {
 				speed = 0.05,
@@ -716,7 +716,7 @@ return {
 			paintingNoise = true,
 			actor = 701091,
 			nameColor = "#A9F548FF",
-			say = "今度は嘘つき呼ばわりか？尊敬なるタリン局長よ",
+			say = "今度は嘘つき呼ばわりか？尊敬されるタリン局長よ",
 			painting = {
 				alpha = 0.3,
 				time = 1

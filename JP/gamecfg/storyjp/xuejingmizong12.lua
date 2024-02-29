@@ -1249,7 +1249,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "「絵巻には千里もの続く盛宴の宴席が描かれている」",
+			say = "「絵巻には千里も続く盛宴の宴席が描かれている」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

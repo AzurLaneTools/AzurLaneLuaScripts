@@ -758,7 +758,7 @@ return {
 			bgName = "star_level_bg_543",
 			factiontag = "セキュリティ追撃隊員",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			say = "ぱわーぜんかーいっ！！！",
 			painting = {
 				alpha = 0.3,

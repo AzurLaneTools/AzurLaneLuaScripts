@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_bolanhuichang",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
 			say = "現在戦力を地下シェルターに集中させており、今のところは安全です",
 			canMarkNode = {
 				"bolanhuichang",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -536,13 +536,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
 			say = "また、会場内ではあの巨大な敵――「ドロイド」と暫定名として登録しましたが――は10機いるようです",
 			canMarkNode = {
 				"bolanhuichang",
@@ -561,13 +561,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
 			say = "艦載機による攻撃があまり効果がないこと以外、今のところ新しい情報はありません",
 			canMarkNode = {
 				"bolanhuichang",
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -641,13 +641,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
 			say = "次はサディアと重桜、東煌、北方連合、鉄血、ヴィシアについてです",
 			canMarkNode = {
 				"bolanhuichang",
@@ -668,11 +668,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -727,13 +727,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
 			say = "東煌は……ええと、会場に東煌の艦船がいないためか、パビリオンも今のところ特に損害を受けていません",
 			canMarkNode = {
 				"bolanhuichang",
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "エセックス",
 			hidePaintObj = true,

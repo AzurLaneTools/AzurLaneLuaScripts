@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人跡のある場所とすれば、それはもう研究拠点だけ！",
+			say = "人跡のある場所といえば、それはもう研究拠点だけ！",
 			painting = {
 				alpha = 0.3,
 				time = 1

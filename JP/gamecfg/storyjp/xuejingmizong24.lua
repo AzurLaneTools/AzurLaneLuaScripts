@@ -1207,7 +1207,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "今のあなたを見ると、やはり私はそれは選べません",
+			say = "今のあなたを見てると、やはり私はそれは選べません",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1441,7 +1441,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "計画を改善し、誤ちを繰り返さないように用心に実行する――",
+			say = "計画を改善し、誤ちを繰り返さないように用心して実行する――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1751,7 +1751,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "――助かったよ。次は海を凍らせる力をどう対策するかだが…",
+			say = "――助かったよ。次は海を凍らせる力にどう対策するかだが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

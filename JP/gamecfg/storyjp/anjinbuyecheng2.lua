@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "幻影のくーちゃんの言葉が耳元で反響する。",
+			say = "幻影のクーちゃんの言葉が耳元で反響する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1297,7 +1297,7 @@ return {
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
 			nameColor = "#A9F548FF",
-			say = "伝説の怪盗として、伝説の場所から伝説のレジェントを盗み出す――こんなチャレンジやらないはずないってね",
+			say = "伝説の怪盗として、伝説の場所から伝説のレジェンドを盗み出す――こんなチャレンジやらないはずないってね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "なかなか………見たことのないもてなしですね。",
+			say = "なかなか………見たことのないもてなしですね",
 			painting = {
 				alpha = 0.3,
 				time = 1

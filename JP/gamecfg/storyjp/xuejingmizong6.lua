@@ -795,7 +795,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			actorShadow = true,
-			actorName = "パーミャチ・メルクーリヤ(META)？",
+			actorName = "パーミャチ・メルクーリヤ？",
 			nameColor = "#A9F548FF",
 			say = "そう。これはわたしの物語、この大陸の一つの可能性――",
 			typewriter = {

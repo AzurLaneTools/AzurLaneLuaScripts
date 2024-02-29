@@ -981,7 +981,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "この世界はあまりにも未知が多く、",
+			say = "この世界はあまりにも未知が多く――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "人がいないのは確かだけど、でも可愛い小動物はいっぱいあるよ？",
+			say = "人がいないのは確かだけど、でも可愛い小動物はいっぱいいるよ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "はいスト――ップ！",
+			say = "はいストーーップ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
