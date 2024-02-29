@@ -783,6 +783,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10028] = {
+		painting = "yuekegongjue",
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		id = 10028,
+		dungeon_id = 5130,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>1.0%</color> of Duke of York's max HP."
+			},
+			{
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>10.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>2.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>2.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>10.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>10.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>4.0%</color> more DMG until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				14,
+				210,
+				1
+			}
+		}
+	},
+	[10029] = {
+		painting = "yuekegongjue",
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		id = 10029,
+		dungeon_id = 5129,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>2.0%</color> of Duke of York's max HP."
+			},
+			{
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>20.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>4.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>4.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>20.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>20.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>6.0%</color> more DMG until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10010,
+				1
+			}
+		}
+	},
+	[10030] = {
+		painting = "yuekegongjue",
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		id = 10030,
+		dungeon_id = 5128,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>3.0%</color> of Duke of York's max HP."
+			},
+			{
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>30.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>6.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>6.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>30.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>30.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>8.0%</color> more DMG until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10010,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -810,6 +897,9 @@ pg.expedition_constellation_challenge_template = {
 		10024,
 		10025,
 		10026,
-		10027
+		10027,
+		10028,
+		10029,
+		10030
 	}
 }

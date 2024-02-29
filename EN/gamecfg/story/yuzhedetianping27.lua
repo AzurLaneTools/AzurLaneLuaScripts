@@ -194,9 +194,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "On my command, shipgirls across Gibraltar, Malta, Toulon, Taranto, Rome, and Venice all activated the Skybound Wall at their respective locations.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -213,9 +213,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "The remaining reality anchor in northern Sardegna would be dealt with after Littorio finished up in Venice.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -233,9 +233,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "There was an additional anchor in Iris Orthodoxy territory, which Richelieu and her fleet were tasked with securing.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -254,8 +254,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "While many of their positions had been caught up in Reenactments, the Naval HQ was effectively on lockdown due to the Divine Vestige, so they would reclaim these at the same time.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -274,8 +274,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "Then, there were the reality anchors in Africa...",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -294,8 +294,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "The map Clemenceau showed us used old place names such as Algeria and Carthage. According to her, it was tied to the anchors' concept.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -314,8 +314,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "Since we had confirmed travel was possible to those locations via the network, it wouldn't impede our operation.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -334,8 +334,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "For the time being, we simply stuck with the names that were on the map.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -354,8 +354,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "These anchors would be dealt with by two forces – the Royal Navy, and Iron Blood.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -374,9 +374,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "The Royals would handle the Algeria anchor, as they were closest to it.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -396,9 +396,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			soundeffect = "event:/ui/huihua",
+			hidePaintObj = true,
+			blackBg = true,
 			say = "As for the Carthage anchor, Eugen would lead a fleet to rendezvous with the Royal Navy in Malta, then travel through the network and secure it.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -419,8 +419,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "Finally, there were the anchors east of the Mediterranean. Unfortunately, we didn't have the forces necessary to capture them right away.",
 			canMarkNode = {
 				"huanlujianhai2",
@@ -441,8 +441,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_italy",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "I considered rerouting the forces near that black hole, but it would be best to keep them close by in the event of an emergency.",
 			canMarkNode = {
 				"huanlujianhai2",

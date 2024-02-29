@@ -4,8 +4,40 @@ slot0.word_template_71 = {}
 slot1 = slot0.word_template_71
 
 function temp()
-	uv0["蒇"] = {
-		this = {
+	uv0["纯"] = {
+		["缅"] = {
+			this = true
+		},
+		["一"] = {
+			["郎"] = {
+				this = true
+			}
+		},
+		["真"] = {
+			["娘"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["純"] = {
+		["一"] = {
+			["郎"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蠢"] = {
+		["猪"] = {
 			this = true
 		}
 	}
@@ -14,8 +46,21 @@ end
 temp()
 
 function temp()
-	uv0["蕆"] = {
-		this = {
+	uv0["戳"] = {
+		["那"] = {
+			["嗎"] = {
+				B = {
+					this = true
+				},
+				["逼"] = {
+					this = true
+				},
+				["比"] = {
+					this = true
+				}
+			}
+		},
+		["你"] = {
 			this = true
 		}
 	}
@@ -24,32 +69,14 @@ end
 temp()
 
 function temp()
-	uv0["冁"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["囅"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["颤"] = {
-		["栗"] = {
-			["的"] = {
-				["情"] = {
-					["人"] = {
-						this = true
+	uv0["慈"] = {
+		["禧"] = {
+			["秘"] = {
+				["密"] = {
+					["生"] = {
+						["活"] = {
+							this = true
+						}
 					}
 				}
 			}
@@ -60,9 +87,36 @@ end
 temp()
 
 function temp()
-	uv0["羼"] = {
-		this = {
-			this = true
+	uv0["磁"] = {
+		["卡"] = {
+			["复"] = {
+				["制"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["次"] = {
+		["旺"] = {
+			["仁"] = {
+				["增"] = {
+					this = true
+				}
+			}
+		},
+		["子"] = {
+			["倒"] = {
+				["汽"] = {
+					["车"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

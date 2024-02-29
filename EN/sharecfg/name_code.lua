@@ -2660,6 +2660,20 @@ pg.name_code = {
 		code = "San Diego Retrofit",
 		nation = 0
 	},
+	[529] = {
+		name = "Sovetsky Soyuz",
+		type = 1,
+		id = 529,
+		code = "Sovetsky Soyuz",
+		nation = 0
+	},
+	[530] = {
+		name = "Soyuz",
+		type = 1,
+		id = 530,
+		code = "Soyuz",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

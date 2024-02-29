@@ -4,62 +4,182 @@ slot0.word_template_79 = {}
 slot1 = slot0.word_template_79
 
 function temp()
-	uv0["抽"] = {
-		["叉"] = {
+	uv0["荡"] = {
+		["妇"] = {
 			this = true
 		},
+		["女"] = {
+			this = true
+		},
+		["公"] = {
+			["乱"] = {
+				["妇"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蕩"] = {
+		["婦"] = {
+			this = true
+		},
+		["妹"] = {
+			this = true
+		},
+		["女"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["导"] = {
+		["爆"] = {
+			["索"] = {
+				this = true
+			}
+		},
+		["弹"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["岛"] = {
+		["田"] = {
+			["沙"] = {
+				["罗"] = {
+					this = true
+				}
+			}
+		},
+		["国"] = {
+			["大"] = {
+				["片"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["捣"] = {
+		["玉"] = {
+			["台"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["倒"] = {
 		["插"] = {
-			this = true,
-			["仿"] = {
-				["真"] = {
-					["器"] = {
-						["具"] = {
-							this = true
+			["莲"] = {
+				["式"] = {
+					this = true
+				}
+			}
+		},
+		["共"] = {
+			["救"] = {
+				["国"] = {
+					this = true
+				}
+			}
+		},
+		["了"] = {
+			["批"] = {
+				["文"] = {
+					["倒"] = {
+						["指"] = {
+							["标"] = {
+								this = true
+							}
 						}
 					}
 				}
 			}
 		},
-		["捣"] = {
-			this = true
-		},
-		["动"] = {
-			this = true
-		},
-		["拉"] = {
-			this = true
-		},
-		["你"] = {
-			["丫"] = {
-				["的"] = {
+		["卖"] = {
+			this = true,
+			["军"] = {
+				["火"] = {
+					this = true
+				}
+			},
+			["彩"] = {
+				["电"] = {
+					this = true
+				}
+			},
+			["采"] = {
+				["电"] = {
 					this = true
 				}
 			}
 		},
-		["送"] = {
-			this = true,
-			["着"] = {
-				this = true
+		["霉"] = {
+			["作"] = {
+				["者"] = {
+					["到"] = {
+						["异"] = {
+							["域"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		},
-		["提"] = {
-			this = true
+		["下"] = {
+			["的"] = {
+				["是"] = {
+					["临"] = {
+						["时"] = {
+							["楼"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
-		["头"] = {
-			this = true
+		["车"] = {
+			["请"] = {
+				["注"] = {
+					["意"] = {
+						this = true
+					}
+				}
+			}
 		},
-		["頭"] = {
-			this = true
-		},
-		["烟"] = {
-			["要"] = {
-				["抽"] = {
-					["到"] = {
-						["玉"] = {
-							["溪"] = {
-								["俱"] = {
-									["焚"] = {
-										this = true
+		["\\"] = {
+			x = {
+				["{"] = {
+					["1"] = {
+						F = {
+							["4"] = {
+								F = {
+									A = {
+										["}"] = {
+											this = true
+										}
 									}
 								}
 							}
@@ -67,6 +187,16 @@ function temp()
 					}
 				}
 			}
+		},
+		["闭"] = {
+			["潮"] = {
+				this = true
+			}
+		},
+		["赵"] = {
+			["风"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -74,117 +204,11 @@ end
 temp()
 
 function temp()
-	uv0["瘳"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["筹"] = {
-		["码"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["雠"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["籌"] = {
-		["碼"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["臭"] = {
-		["7"] = {
-			["8"] = {
-				this = true
-			}
-		},
-		["７"] = {
-			["８"] = {
-				this = true
-			}
-		},
-		G = {
-			Y = {
-				this = true
-			}
-		},
-		["Ｇ"] = {
-			["Ｙ"] = {
-				this = true
-			}
-		},
-		["化"] = {
-			["西"] = {
-				this = true
-			}
-		},
-		["机"] = {
-			this = true,
-			["八"] = {
-				this = true
-			}
-		},
-		["鸡"] = {
-			this = true,
-			["巴"] = {
-				this = true
-			}
-		},
-		["尼"] = {
-			["姑"] = {
-				this = true
-			}
-		},
-		["你"] = {
+	uv0["導"] = {
+		["彈"] = {
 			this = true
 		},
-		["妳"] = {
-			this = true
-		},
-		["女"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["七"] = {
-			["八"] = {
-				this = true
-			}
-		},
-		["人"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["他"] = {
-			this = true
-		},
-		["她"] = {
-			this = true
-		},
-		["西"] = {
+		["師"] = {
 			this = true
 		}
 	}

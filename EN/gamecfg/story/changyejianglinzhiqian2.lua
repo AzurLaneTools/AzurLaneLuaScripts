@@ -218,7 +218,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			painting = {
@@ -255,7 +255,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
@@ -291,7 +291,7 @@ return {
 			actorName = "█ █ █ █ █",
 			dir = 1,
 			actor = 900220,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "......",
 			painting = {

@@ -21,7 +21,7 @@ function slot2(slot0)
 	elseif slot1 == "#ffff4d" then
 		return "#FEF15E"
 	elseif slot1 == "#696969" then
-		return "#DFDFDF"
+		return "#BDBDBD"
 	elseif slot1 == "#a020f0" then
 		return "#C3ABFF"
 	elseif slot1 == "#ffffff" then
@@ -98,6 +98,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.showWJZPainting = slot1.hidePaintEquip
 	slot0.nohead = slot1.nohead
 	slot0.live2d = slot1.live2d
+	slot0.live2dIdleIndex = slot1.live2dIdleIndex
 	slot0.spine = slot1.spine
 	slot0.live2dOffset = slot1.live2dOffset
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
@@ -546,10 +547,14 @@ function slot0.GetLive2dAction(slot0)
 			return slot1.l2d_action
 		end
 
-		return nil
+		return slot0.live2d
 	else
 		return nil
 	end
+end
+
+function slot0.GetL2dIdleIndex(slot0)
+	return slot0.live2dIdleIndex
 end
 
 function slot0.GetSubActorName(slot0)

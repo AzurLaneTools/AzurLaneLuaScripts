@@ -4,135 +4,220 @@ slot0.word_template_85 = {}
 slot1 = slot0.word_template_85
 
 function temp()
-	uv0["促"] = {
-		["退"] = {
-			["队"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["醋"] = {
-		["氢"] = {
-			["可"] = {
-				["待"] = {
-					["因"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["托"] = {
-			["啡"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["汆"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["爨"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["崔"] = {
-		["少"] = {
-			["鹏"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["催"] = {
-		["泪"] = {
-			["弹"] = {
-				this = true
-			},
-			["枪"] = {
-				this = true
-			}
-		},
-		["眠"] = {
-			["香"] = {
-				["水"] = {
-					this = true
-				}
-			},
-			["药"] = {
-				this = true
-			}
-		},
-		["情"] = {
-			["润"] = {
-				["滑"] = {
-					this = true
-				}
-			},
-			["水"] = {
-				this = true
-			},
-			["听"] = {
-				["话"] = {
-					["失"] = {
-						["忆"] = {
-							["型"] = {
+	uv0["吊"] = {
+		["死"] = {
+			["鬼"] = {
+				["打"] = {
+					["粉"] = {
+						["插"] = {
+							["花"] = {
 								this = true
 							}
 						}
 					}
 				}
-			},
-			["物"] = {
-				["品"] = {
-					this = true
-				}
-			},
-			["香"] = {
-				["水"] = {
-					this = true
-				}
-			},
-			["药"] = {
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["钓"] = {
+		["鱼"] = {
+			["岛"] = {
 				this = true,
-				["品"] = {
+				["国"] = {
+					["有"] = {
+						["化"] = {
+							this = true
+						}
+					}
+				},
+				["日"] = {
+					["本"] = {
+						["的"] = {
+							this = true
+						}
+					}
+				},
+				["事"] = {
+					["件"] = {
+						this = true
+					}
+				},
+				["是"] = {
+					["日"] = {
+						["本"] = {
+							["的"] = {
+								this = true
+							}
+						}
+					}
+				},
+				["争"] = {
+					["端"] = {
+						this = true
+					}
+				}
+			},
+			["台"] = {
+				this = true,
+				["列"] = {
+					["岛"] = {
+						this = true
+					}
+				}
+			},
+			["执"] = {
+				["法"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["釣"] = {
+		["魚"] = {
+			["島"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["調"] = {
+		["教"] = {
+			this = true,
+			["虐"] = {
+				["待"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["爹"] = {
+		this = {
+			this = true
+		},
+		["龙"] = {
+			["凤"] = {
+				["的"] = {
+					["姑"] = {
+						["娘"] = {
+							["随"] = {
+								["便"] = {
+									["骑"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蝶"] = {
+		["舞"] = {
+			["按"] = {
+				["摩"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["丁"] = {
+		["丙"] = {
+			["诺"] = {
+				["啡"] = {
 					this = true
 				}
 			},
-			["藥"] = {
-				this = true
-			},
-			["液"] = {
-				this = true
-			},
-			["用"] = {
-				["品"] = {
+			["諾"] = {
+				["啡"] = {
 					this = true
+				}
+			}
+		},
+		["关"] = {
+			["根"] = {
+				this = true
+			}
+		},
+		["關"] = {
+			["根"] = {
+				this = true
+			}
+		},
+		["香"] = {
+			["社"] = {
+				["区"] = {
+					this = true
+				},
+				["區"] = {
+					this = true
+				}
+			},
+			["五"] = {
+				["月"] = {
+					["天"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["薛"] = {
+			["祥"] = {
+				this = true
+			}
+		},
+		["仲"] = {
+			["礼"] = {
+				this = true
+			}
+		},
+		["子"] = {
+			["霖"] = {
+				this = true
+			}
+		},
+		["字"] = {
+			["裤"] = {
+				["翘"] = {
+					["臀"] = {
+						this = true
+					}
+				}
+			},
+			["褲"] = {
+				["翹"] = {
+					["臀"] = {
+						this = true
+					}
 				}
 			}
 		}

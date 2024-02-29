@@ -4,73 +4,34 @@ slot0.word_template_58 = {}
 slot1 = slot0.word_template_58
 
 function temp()
-	uv0["避"] = {
-		["孕"] = {
-			["套"] = {
-				["对"] = {
-					["卫"] = {
-						["生"] = {
-							["巾"] = {
-								this = true
-							}
-						}
+	uv0["册"] = {
+		["那"] = {
+			["娘"] = {
+				["餓"] = {
+					["比"] = {
+						this = true
 					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["厕"] = {
+		["奴"] = {
+			this = true
+		},
+		["所"] = {
+			["盗"] = {
+				["摄"] = {
+					this = true
 				}
 			},
-			["药"] = {
-				["催"] = {
-					["大"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["蹕"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["臂"] = {
-		["推"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["边"] = {
-		["抚"] = {
-			["摸"] = {
-				["边"] = {
-					["洗"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鞭"] = {
-		["走"] = {
-			["鞭"] = {
-				["爱"] = {
+			["偷"] = {
+				["拍"] = {
 					this = true
 				}
 			}
@@ -81,15 +42,152 @@ end
 temp()
 
 function temp()
-	uv0["苄"] = {
-		["吗"] = {
-			["啡"] = {
+	uv0["测"] = {
+		["绘"] = {
+			["局"] = {
 				this = true
 			}
 		},
-		["替"] = {
-			["定"] = {
+		["拿"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["廁"] = {
+		["奴"] = {
+			this = true
+		},
+		["所"] = {
+			["盜"] = {
+				["攝"] = {
+					this = true
+				}
+			},
+			["偷"] = {
+				["拍"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["岑"] = {
+		["旭"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["层"] = {
+		["层"] = {
+			["截"] = {
+				["访"] = {
+					["层"] = {
+						["层"] = {
+							["拦"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["曾"] = {
+		q = {
+			["红"] = {
 				this = true
+			}
+		},
+		["曾"] = {
+			["贾"] = {
+				["贾"] = {
+					["九"] = {
+						["常"] = {
+							["委"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["道"] = {
+			["人"] = {
+				["六"] = {
+					["合"] = {
+						["彩"] = {
+							["公"] = {
+								["司"] = {
+									this = true
+								}
+							}
+						}
+					}
+				},
+				["特"] = {
+					["码"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["培"] = {
+			["炎"] = {
+				this = true
+			}
+		},
+		["庆"] = {
+			["红"] = {
+				this = true
+			},
+			["一"] = {
+				["样"] = {
+					["红"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["慶"] = {
+			["紅"] = {
+				this = true
+			}
+		},
+		["欣"] = {
+			["失"] = {
+				["踪"] = {
+					this = true
+				}
+			},
+			["被"] = {
+				["抓"] = {
+					this = true
+				},
+				["捕"] = {
+					this = true
+				}
+			},
+			["没"] = {
+				["了"] = {
+					this = true
+				}
 			}
 		}
 	}

@@ -77,7 +77,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "What you just shot dead was only a phantom. The real me's on the right. Go on, try to guess which one.",
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Nope~♪ Not that one, lady.",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "This black what? You're not making any sense.",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "More visitors? Boy, today's a busy day.",
 			typewriter = {
 				speed = 0.05,
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Heh. I thought you were alone – turns out, you led your friends right to me!",
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Thanks a bunch, lady! Now let's treat you all to the main event!",
 			typewriter = {
 				speed = 0.05,

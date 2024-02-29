@@ -4,94 +4,154 @@ slot0.word_template_176 = {}
 slot1 = slot0.word_template_176
 
 function temp()
-	uv0["酱"] = {
-		["猪"] = {
-			["媳"] = {
+	uv0["来"] = {
+		["插"] = {
+			["我"] = {
 				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["醬"] = {
-		["猪"] = {
-			["媳"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["娇"] = {
-		["声"] = {
-			["娇"] = {
-				["气"] = {
-					["催"] = {
-						["你"] = {
-							["快"] = {
-								this = true
-							}
-						}
-					}
+		},
+		["电"] = {
+			["咨"] = {
+				["询"] = {
+					this = true
 				}
 			}
 		},
-		["艳"] = {
-			["都"] = {
-				["市"] = {
+		["干"] = {
+			this = true
+		},
+		["回"] = {
+			["抚"] = {
+				["摸"] = {
+					this = true
+				}
+			}
+		},
+		["栖"] = {
+			["淳"] = {
+				["子"] = {
+					this = true
+				}
+			}
+		},
+		["爽"] = {
+			["我"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["萊"] = {
+		["特"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["赖"] = {
+		["昌"] = {
+			["星"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["賴"] = {
+		["昌"] = {
+			["星"] = {
+				this = true
+			}
+		},
+		["士"] = {
+			["葆"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["瀬"] = {
+		["戸"] = {
+			["由"] = {
+				["衣"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["拦"] = {
+		["截"] = {
+			["器"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蓝"] = {
+		["坝"] = {
+			["娘"] = {
+				this = true
+			}
+		},
+		["波"] = {
+			this = true
+		},
+		["单"] = {
+			this = true
+		},
+		["色"] = {
+			["蒙"] = {
+				["古"] = {
 					this = true
 				}
 			},
-			["江"] = {
-				["湖"] = {
+			["爱"] = {
+				["情"] = {
 					this = true
 				}
 			}
 		},
-		["吟"] = {
+		["双"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["姣"] = {
-		["西"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["胶"] = {
-		["洲"] = {
-			["女"] = {
-				["烈"] = {
-					["传"] = {
+		},
+		["\\"] = {
+			p = {
+				P = {
+					v = {
 						this = true
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["椒"] = {
-		["乳"] = {
-			this = true
+		},
+		v = {
+			["之"] = {
+				["海"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

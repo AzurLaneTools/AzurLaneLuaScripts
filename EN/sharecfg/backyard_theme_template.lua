@@ -4271,6 +4271,48 @@ pg.backyard_theme_template = {
 			307114
 		}
 	},
+	[108] = {
+		Cfg_1 = 5,
+		name = "Phantom Thief's Riddle Room",
+		hot = 1,
+		is_view = 1,
+		id = 108,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Welcome to the phantom thief's secret hideout! Try not to get lost!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "qpthemeicon",
+		deblocking = 1,
+		order = 109,
+		ids = {
+			308001,
+			308002,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308301,
+			308302,
+			308303,
+			308304
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4366,6 +4408,7 @@ pg.backyard_theme_template = {
 		104,
 		105,
 		106,
-		107
+		107,
+		108
 	}
 }

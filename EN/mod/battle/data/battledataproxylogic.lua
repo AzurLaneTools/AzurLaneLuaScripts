@@ -294,7 +294,7 @@ function slot0.HandleBuffPlacer(slot0, slot1, slot2)
 	end
 
 	if slot5 then
-		slot6 = ys.Battle.BattleBuffUnit.New(slot0.buff_id, nil, slot1)
+		slot6 = ys.Battle.BattleBuffUnit.New(slot0.buff_id, slot0.level, slot1)
 
 		slot6:SetOrb(slot1, slot0.level)
 		slot2:AddBuff(slot6)

@@ -4,20 +4,18 @@ slot0.word_template_391 = {}
 slot1 = slot0.word_template_391
 
 function temp()
-	uv0["圓"] = {
-		["滿"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["緣"] = {
-		["圈"] = {
-			["圈"] = {
-				this = true
+	uv0["继"] = {
+		["续"] = {
+			["当"] = {
+				["领"] = {
+					x = {
+						i = {
+							u = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -26,98 +24,124 @@ end
 temp()
 
 function temp()
-	uv0["远"] = {
-		["程"] = {
-			["破"] = {
-				["解"] = {
+	uv0["Ⅹ"] = {
+		["刂"] = {
+			i = {
+				n = {
+					this = true
+				}
+			}
+		},
+		["哩"] = {
+			["山"] = {
+				["麓"] = {
+					["不"] = {
+						["换"] = {
+							["件"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["刈"] = {
+		i = {
+			n = {
+				this = true
+			}
+		},
+		["ı"] = {
+			["и"] = {
+				p = {
+					i = {
+						n = {
+							q = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["傀"] = {
+		["儡"] = {
+			["上"] = {
+				["位"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["驸"] = {
+		["马"] = {
+			["爷"] = {
+				["上"] = {
+					["台"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["珊"] = {
+		["露"] = {
+			["不"] = {
+				["幻"] = {
+					["尖"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.Z = {
+		O = {
+			D = {
+				["会"] = {
 					this = true
 				}
 			},
-			["视"] = {
-				["频"] = {
+			d = {
+				a = {
 					this = true
 				}
 			},
-			["偷"] = {
-				["拍"] = {
-					this = true
-				}
-			}
-		},
-		["离"] = {
-			["股"] = {
-				["海"] = {
-					this = true
-				}
-			}
-		},
-		["平"] = {
-			this = true
-		},
-		["藤"] = {
-			["明"] = {
-				["子"] = {
-					this = true
-				}
-			}
-		},
-		["志"] = {
-			["明"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["遠"] = {
-		["離"] = {
-			["苼"] = {
-				["命"] = {
-					this = true
-				}
-			}
-		},
-		["志"] = {
-			["明"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["院"] = {
-		["院"] = {
-			["认"] = {
-				["钱"] = {
-					this = true
-				}
-			},
-			["受"] = {
-				["贿"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["曰"] = {
-		G = {
-			M = {
+			["大"] = {
 				this = true
 			}
 		},
-		["你"] = {
-			this = true
+		["0"] = {
+			["大"] = {
+				this = true
+			}
 		}
 	}
 end

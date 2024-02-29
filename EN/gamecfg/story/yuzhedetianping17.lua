@@ -786,12 +786,12 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "Though Gazers had appeared as far as Gibraltar, the fortress there managed to hold.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "I asked Warspite to mobilize what forces she could, and she is now on her way with her main fleet to link up with us.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -823,12 +823,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "The situation in Malta, however, is far more dire. The garrison is being besieged, its defenders all but surrounded.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "In light of this, I put Eugen in charge of a small but battle-hardened detachment of Iron Blood forces to provide support.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -862,11 +862,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "Assuming they're able to repel the enemy and secure the island, the plan for now is that they'll group up and return here.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "As for the Iris and Vicha forces in Toulon, Clemenceau apparently requested them to defend an anchorage there.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "As far as the intel they shared told us, they have no idea what the Vichya's Holy See fleet and the Tribunal are up to.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -922,11 +922,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "So, to keep an eye on Clemenceau, they sent Jean Bart and her fleet away to be on standby.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "Then, there was the Sardegna Empire, and their groups were quite split.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -962,11 +962,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "Marco Polo declared their state of emergency protocol to be in effect and made calls to all Sardegnian bases to inform the shipgirls there that they were under her control.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -982,11 +982,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "None of them believed her, however. Later, Veneto convinced them to join our side.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "Aquila's fleet over in Taranto had eliminated all enemies in the surrounding waters, and were now regrouping and resupplying.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1024,12 +1024,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "Littorio and Torricelli were in Venice, investigating a matter relating to their Senate. Then, when the Gazers appeared, they fled the area.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "They then wound up alone inside a bunker, but as they assured me, there was no need to worry whatsoever and they'll find an alternate escape route.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "That didn't stop me from worrying, of course. Based on Veneto's relieved response to hearing them, however, I just had to believe they'd be okay.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1091,12 +1091,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "Then there's Roma and a few others. They were in the capital and had successfully repelled an attack on it.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1115,11 +1115,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "They said they'd mop up the stragglers then group up with us. More importantly, though, they told me a very important piece of information.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1138,11 +1138,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "That Marco Polo is performing some kind of ritual on her giant, flying throne.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1161,12 +1161,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "Finally, there was one Sardegnian fleet near the Oasis port that we were completely unable to contact.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1186,11 +1186,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "That could just have been due to the weather, since a sandstorm appeared there just before the closing ceremony. Just to be sure, we had Taranto send recon planes there.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1210,11 +1210,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "All in all, our allied fleet includes everyone at the World Expo, a few Sardegnian fleets around the Mediterranean, scattered Iris and Vichya fleets, and a Royal Navy detachment.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1234,11 +1234,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "The Gazers are powerful, and they're aided by endless cannon fodder. We are outmatched ten to one... but, there is still a chance.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1258,11 +1258,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1_99",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "Now, what's our next move?",
 			canMarkNode = {
 				"huanlujianhai1",

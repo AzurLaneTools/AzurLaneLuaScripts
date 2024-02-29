@@ -255,7 +255,13 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.checkShowResetL2dBtn(slot0)
-	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot0:GetFlagShip():getPainting()), nil, true))) then
+	if slot0:GetFlagShip() and slot1:GetSkinConfig().spine_use_live2d == 1 then
+		setActive(slot0.btnLive2dReset, false)
+
+		return
+	end
+
+	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true))) then
 		setActive(slot0.btnLive2dReset, false)
 
 		return

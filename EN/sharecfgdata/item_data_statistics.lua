@@ -13983,6 +13983,36 @@ _G.pg.base.item_data_statistics[21029] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21030] = {
+	open_directly = 0,
+	name = "META Crystal – Pamiat' Merkuria",
+	display = "An item that increases the potential of Pamiat' Merkuria META. Used in the META Lab during Somatic Activation.",
+	type = 4,
+	display_effect = "",
+	id = 21030,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21030",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -22563,6 +22593,130 @@ _G.pg.base.item_data_statistics[30352] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30353] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Thieville)",
+	display = "Contains a random gear skin.",
+	type = 11,
+	display_effect = "",
+	id = 30353,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30353",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -31043,6 +31197,218 @@ _G.pg.base.item_data_statistics[30536] = {
 		{
 			9,
 			457,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30537] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Thieville)",
+	display = "Can be opened to receive 1 Thieville gear skin of your choosing.",
+	type = 13,
+	display_effect = "",
+	id = 30537,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
 			1
 		}
 	}
@@ -76137,8 +76503,8 @@ _G.pg.base.item_data_statistics[59490] = {
 
 _G.pg.base.item_data_statistics[59503] = {
 	open_directly = 0,
-	name = "Static Skin Voucher",
-	display = "During the Black Friday event (11/16-11/30), this voucher can be used to redeem 1 eligible static skin (tap Info to check out the full list).\nIf you already own all available skins, you will instead receive an Outfit Coupon.\nAfter 11/30 23:59:59, this voucher can still be used to redeem 1 eligible permanent static skin added before 11/16.",
+	name = "Campaign Outfit Voucher",
+	display = "Use from your Depot to receive 1 skin of your choosing. \n<color=#ff5c5c>(You may only choose from the offered lineup. If you already own every skin, you will instead receive an Outfit Coupon.)</color>",
 	type = 26,
 	display_effect = "",
 	id = 59503,
@@ -76459,8 +76825,8 @@ _G.pg.base.item_data_statistics[59503] = {
 
 _G.pg.base.item_data_statistics[59504] = {
 	open_directly = 0,
-	name = "Choose-Your-Own Gift Pack I",
-	display = "Can be used to obtain one of the following items: 1x Promise Ring, 15x Special General Blueprints - Series 6, 20x Wisdom Cubes.",
+	name = "Selection Item Box",
+	display = "Use from your Depot to choose between any one of the following: 1x Promise Ring, 15x Special General Blueprints - Series 6, or 20x Wisdom Cubes.",
 	type = 13,
 	display_effect = "",
 	id = 59504,
@@ -76521,8 +76887,8 @@ _G.pg.base.item_data_statistics[59504] = {
 
 _G.pg.base.item_data_statistics[59505] = {
 	open_directly = 0,
-	name = "Choose-Your-Own Gift Pack II",
-	display = "Can be used to obtain one of the following items: 1x Static Skin Voucher, 25x Prototype Weapon Blueprints - Series 1, 25x Prototype Weapon Blueprints - Series 2, 25x Prototype Weapon Blueprints - Series 3, 25x Prototype Weapon Blueprints - Series 4, 25x Prototype Weapon Blueprints - Series 5, 30x Wisdom Cubes.",
+	name = "Selection Item Box II",
+	display = "Use from your Depot to choose between any one of the following: 1x Campaign Outfit Voucher, 25x Prototype Blueprints - Series 1, 25x Prototype Blueprints - Series 2, 25x Prototype Blueprints - Series 3, 25x Prototype Blueprints - Series 4, 25x Prototype Blueprints - Series 5, or 30x Wisdom Cubes.",
 	type = 13,
 	display_effect = "",
 	id = 59505,
@@ -86527,6 +86893,72 @@ _G.pg.base.item_data_statistics[81203] = {
 		{
 			2,
 			86203,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81400] = {
+	open_directly = 1,
+	name = "Cyber City Lucky Box ",
+	display = "Contains 1x random skin (Cyber City), 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	type = 17,
+	display_effect = "",
+	id = 81400,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/fudai84",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998500",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86400,
 			1
 		},
 		{

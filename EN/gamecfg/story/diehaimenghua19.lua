@@ -89,7 +89,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_xinnong2_5",
 			actorName = "█ █ █ █",
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_xinnong2_5",
 			actorName = "█ █ █ █",
 			dir = 1,

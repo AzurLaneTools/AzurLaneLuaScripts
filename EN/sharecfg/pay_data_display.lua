@@ -131,7 +131,8 @@ pg.pay_data_display = setmetatable({
 		142,
 		143,
 		144,
-		145
+		145,
+		146
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12480,6 +12481,119 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40997,
+				1
+			}
+		}
+	},
+	[146] = {
+		subject = "Cyber City Lucky Box",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "Cyber City Lucky Box",
+		name_display = "Cyber City Lucky Box",
+		type_order = 2,
+		extra_gem = 0,
+		id = 146,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai84",
+		skin_inquire_relation = 86400,
+		id_str = "com.yostaren.azurlane.luckybag28",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag28",
+		extra_service_item = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81400,
 				1
 			}
 		}

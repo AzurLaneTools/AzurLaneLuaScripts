@@ -243,7 +243,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -330,7 +330,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -364,7 +364,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -416,7 +416,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -433,7 +433,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -450,7 +450,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -467,7 +467,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -484,7 +484,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -501,7 +501,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -518,7 +518,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -553,7 +553,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -570,7 +570,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -587,7 +587,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -604,7 +604,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -621,7 +621,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -638,7 +638,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -655,7 +655,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Defeat me! Destroy me! ERASE MY EXISTENCE!",
 			typewriter = {
 				speed = 0.05,

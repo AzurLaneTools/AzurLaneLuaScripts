@@ -345,6 +345,12 @@ pg.expedition_data_by_map = setmetatable({
 		1780012,
 		1780025,
 		1780026,
+		1790001,
+		1790002,
+		1790011,
+		1790012,
+		1790025,
+		1790026,
 		2100000,
 		2100001,
 		2100010,
@@ -16158,7 +16164,6 @@ pg.base.expedition_data_by_map = {
 		enter_story = "",
 		ani_name = "Map_1780004",
 		guide_id = "",
-		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 5131,
@@ -16188,6 +16193,40 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780001,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780002,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780003,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780003,
+					"bgm_theme-threat-typeV"
+				}
+			}
 		}
 	},
 	[1780026] = {
@@ -16211,6 +16250,310 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1780012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1790001] = {
+		map = 1790001,
+		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-antarctica-serious",
+		enter_story = "XUEJINGMIZONG1",
+		ani_name = "Map_1790002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790003,
+					"map_1790001",
+					"effect_1790001",
+					"bgm_theme-antarctica"
+				}
+			}
+		}
+	},
+	[1790002] = {
+		map = 1790002,
+		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-antarctica",
+		enter_story = "XUEJINGMIZONG15",
+		ani_name = "Map_1790004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790006,
+					"map_1790002",
+					"effect_1790002",
+					"bgm_story-antarctica-serious"
+				}
+			}
+		}
+	},
+	[1790011] = {
+		map = 1790011,
+		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-antarctica-serious",
+		enter_story = "XUEJINGMIZONG1",
+		ani_name = "Map_1790002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790023,
+					"map_1790001",
+					"effect_1790001",
+					"bgm_theme-antarctica"
+				}
+			}
+		}
+	},
+	[1790012] = {
+		map = 1790012,
+		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-antarctica",
+		enter_story = "XUEJINGMIZONG15",
+		ani_name = "Map_1790004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790026,
+					"map_1790002",
+					"effect_1790002",
+					"bgm_story-antarctica-serious"
+				}
+			}
+		}
+	},
+	[1790025] = {
+		map = 1790025,
+		name = "Snowrealm Peregrination·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-underheaven",
+		enter_story = "",
+		ani_name = "Map_1790003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1790026] = {
+		map = 1790026,
+		name = "Snowrealm Peregrination·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-commander-up",
+		enter_story = "",
+		ani_name = "Map_1790005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 5221,
+		ui_type = 1,
+		bg = "Map_1790005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1790012,
 		clouds_pos = {
 			{
 				332,

@@ -597,13 +597,30 @@ function slot10.GetPierceCount(slot0)
 end
 
 function slot10.AppendAttachBuff(slot0, slot1)
-	slot2 = Clone(slot0:GetTemplate().attach_buff)
-	slot2[#slot2 + 1] = slot1
-	slot0._attachBuffList = slot2
+	slot0._attachBuffList = slot0._attachBuffList or slot0:generateAttachBuffList()
+
+	table.insert(slot0._attachBuffList, slot1)
 end
 
 function slot10.GetAttachBuff(slot0)
-	return slot0._attachBuffList or slot0:GetTemplate().attach_buff or {}
+	slot0._attachBuffList = slot0._attachBuffList or slot0:generateAttachBuffList()
+
+	return slot0._attachBuffList
+end
+
+function slot10.generateAttachBuffList(slot0)
+	slot1 = {}
+	slot2 = slot0:GetTemplate().attach_buff or {}
+
+	for slot6, slot7 in ipairs(slot0:GetTemplate().attach_buff) do
+		table.insert(slot1, {
+			buff_id = slot7.buff_id,
+			level = slot7.buff_level,
+			rant = slot7.rant
+		})
+	end
+
+	return slot1
 end
 
 function slot10.GetEffectField(slot0)

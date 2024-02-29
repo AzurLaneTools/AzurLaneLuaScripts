@@ -4,52 +4,7 @@ slot0.word_template_164 = {}
 slot1 = slot0.word_template_164
 
 function temp()
-	uv0["集"] = {
-		["体"] = {
-			["罢"] = {
-				["工"] = {
-					this = true
-				}
-			},
-			["摸"] = {
-				["奶"] = {
-					this = true
-				},
-				["胸"] = {
-					this = true
-				}
-			},
-			["强"] = {
-				["奸"] = {
-					this = true
-				}
-			},
-			["性"] = {
-				["爱"] = {
-					this = true
-				}
-			},
-			["淫"] = {
-				this = true
-			}
-		},
-		["體"] = {
-			["性"] = {
-				["愛"] = {
-					this = true
-				}
-			},
-			["淫"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["蕺"] = {
+	uv0["屦"] = {
 		this = {
 			this = true
 		}
@@ -59,24 +14,28 @@ end
 temp()
 
 function temp()
-	uv0["覿"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["挤"] = {
-		["奶"] = {
-			this = true
-		},
-		["入"] = {
-			["窄"] = {
-				["洞"] = {
-					this = true
+	uv0["鋸"] = {
+		["齒"] = {
+			["通"] = {
+				["道"] = {
+					["被"] = {
+						["遺"] = {
+							["弃"] = {
+								["的"] = {
+									["骷"] = {
+										["髏"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					},
+					["骷"] = {
+						["髏"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -86,7 +45,7 @@ end
 temp()
 
 function temp()
-	uv0["掎"] = {
+	uv0["屨"] = {
 		this = {
 			this = true
 		}
@@ -96,7 +55,45 @@ end
 temp()
 
 function temp()
-	uv0["彐"] = {
+	uv0["醵"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["捐"] = {
+		["款"] = {
+			["就"] = {
+				["像"] = {
+					["发"] = {
+						["情"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蠲"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["桊"] = {
 		this = {
 			this = true
 		}

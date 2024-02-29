@@ -1598,6 +1598,16 @@ pg.skill_data_display = setmetatable({
 		17581,
 		17582,
 		17583,
+		17601,
+		17602,
+		17623,
+		17631,
+		17640,
+		17641,
+		17661,
+		17670,
+		17680,
+		17681,
 		18010,
 		18040,
 		18041,
@@ -2190,6 +2200,9 @@ pg.skill_data_display = setmetatable({
 		30191,
 		30192,
 		30193,
+		30201,
+		30202,
+		30203,
 		39000,
 		39001,
 		39002,
@@ -2541,6 +2554,20 @@ pg.skill_data_display = setmetatable({
 		600092,
 		600100,
 		600102,
+		600140,
+		600141,
+		600142,
+		600143,
+		600144,
+		600145,
+		600146,
+		600147,
+		600148,
+		600149,
+		600150,
+		600151,
+		600152,
+		600153,
 		800010,
 		800020,
 		800021,
@@ -2718,6 +2745,10 @@ pg.skill_data_display = setmetatable({
 		801032,
 		801040,
 		801041,
+		801121,
+		801122,
+		801123,
+		801124,
 		902201,
 		1010140,
 		1010143,
@@ -2821,6 +2852,14 @@ pg.skill_data_display = setmetatable({
 		200623,
 		200632,
 		200635,
+		200774,
+		200775,
+		200776,
+		200777,
+		200778,
+		200779,
+		200782,
+		200785,
 		1011540,
 		1011541,
 		1090010,
@@ -9293,6 +9332,46 @@ pg.base.skill_data_display = {
 		id = 17583,
 		name = "Always Prepared, Always Vigiliant"
 	},
+	[17601] = {
+		id = 17601,
+		name = "Irradiance, to Extol Solidarity's Glory"
+	},
+	[17602] = {
+		id = 17602,
+		name = "Irradiance, to Extol Solidarity's Glory"
+	},
+	[17623] = {
+		id = 17623,
+		name = "The Strength of Gentle Sunlight"
+	},
+	[17631] = {
+		id = 17631,
+		name = "Max Firepower! Max Cuteness!"
+	},
+	[17640] = {
+		id = 17640,
+		name = "Adamantine, the Walls of Forts Impregnable"
+	},
+	[17641] = {
+		id = 17641,
+		name = "Adamantine, the Walls of Forts Impregnable"
+	},
+	[17661] = {
+		id = 17661,
+		name = "Protecting Links"
+	},
+	[17670] = {
+		id = 17670,
+		name = "Creative Burst"
+	},
+	[17680] = {
+		id = 17680,
+		name = "Undeniable Rip-Roaring Spirit"
+	},
+	[17681] = {
+		id = 17681,
+		name = "Undeniable Rip-Roaring Spirit"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -11661,6 +11740,18 @@ pg.base.skill_data_display = {
 		id = 30193,
 		name = "All Out Assault - Xuanwu III"
 	},
+	[30201] = {
+		id = 30201,
+		name = "All Out Assault I"
+	},
+	[30202] = {
+		id = 30202,
+		name = "All Out Assault II"
+	},
+	[30203] = {
+		id = 30203,
+		name = "Cute Firepower Boost!"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -13065,6 +13156,62 @@ pg.base.skill_data_display = {
 		id = 600102,
 		name = "Darkness of Dawn"
 	},
+	[600140] = {
+		id = 600140,
+		name = "Sentinels of Gardiane - DoY"
+	},
+	[600141] = {
+		id = 600141,
+		name = "Sentinels of Gardiane - DoY"
+	},
+	[600142] = {
+		id = 600142,
+		name = "Sentinels of Gardiane - DoY"
+	},
+	[600143] = {
+		id = 600143,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600144] = {
+		id = 600144,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600145] = {
+		id = 600145,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600146] = {
+		id = 600146,
+		name = "The Bond of Ichthys"
+	},
+	[600147] = {
+		id = 600147,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600148] = {
+		id = 600148,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600149] = {
+		id = 600149,
+		name = "Sentinels of Gardiane - KGV"
+	},
+	[600150] = {
+		id = 600150,
+		name = "The Bond of Ichthys"
+	},
+	[600151] = {
+		id = 600151,
+		name = "Sentinels of Gardiane - DoY"
+	},
+	[600152] = {
+		id = 600152,
+		name = "Sentinels of Gardiane - DoY"
+	},
+	[600153] = {
+		id = 600153,
+		name = "Sentinels of Gardiane - DoY"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -13773,6 +13920,22 @@ pg.base.skill_data_display = {
 		id = 801041,
 		name = "Coordinated Dance"
 	},
+	[801121] = {
+		id = 801121,
+		name = "Flickering Light - Pamiat' Merkuria"
+	},
+	[801122] = {
+		id = 801122,
+		name = "Flickering Light - Pamiat' Merkuria II"
+	},
+	[801123] = {
+		id = 801123,
+		name = "Flickering Light - Pamiat' Merkuria I +"
+	},
+	[801124] = {
+		id = 801124,
+		name = "Flickering Light - Pamiat' Merkuria II +"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -14184,6 +14347,38 @@ pg.base.skill_data_display = {
 	[200635] = {
 		id = 200635,
 		name = "Meteor Missiles"
+	},
+	[200774] = {
+		id = 200774,
+		name = "Courageous Shelling"
+	},
+	[200775] = {
+		id = 200775,
+		name = "Urd's Fate-Piercer"
+	},
+	[200776] = {
+		id = 200776,
+		name = "You Can't Escape♪"
+	},
+	[200777] = {
+		id = 200777,
+		name = "Courageous Shelling"
+	},
+	[200778] = {
+		id = 200778,
+		name = "Urd's Fate-Piercer"
+	},
+	[200779] = {
+		id = 200779,
+		name = "You Can't Escape♪"
+	},
+	[200782] = {
+		id = 200782,
+		name = "Experimental Bomber Support"
+	},
+	[200785] = {
+		id = 200785,
+		name = "Experimental Bomber Support"
 	},
 	[1011540] = {
 		id = 1011540,

@@ -4,250 +4,178 @@ slot0.word_template_231 = {}
 slot1 = slot0.word_template_231
 
 function temp()
-	uv0["旅"] = {
-		["馆"] = {
-			["自"] = {
-				["拍"] = {
-					this = true
-				}
-			}
-		},
-		["館"] = {
-			["白"] = {
-				["鷺"] = {
+	uv0["磧"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["器"] = {
+		["官"] = {
+			["摘"] = {
+				["除"] = {
 					this = true
 				}
 			},
-			["自"] = {
-				["拍"] = {
-					this = true
-				}
-			}
-		},
-		["游"] = {
-			["局"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["铝"] = {
-		["厂"] = {
-			["污"] = {
-				["染"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["绿"] = {
-		b = {
-			a = {
-				r = {
-					["娘"] = {
+			["在"] = {
+				["讨"] = {
+					["论"] = {
 						this = true
 					}
 				}
 			}
 		},
-		["坝"] = {
-			["娘"] = {
-				this = true
-			},
-			["调"] = {
-				["教"] = {
+		["硬"] = {
+			["国"] = {
+				["富"] = {
+					["比"] = {
+						["曲"] = {
+							["子"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["葜"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["千"] = {
+		["变"] = {
+			["娱"] = {
+				["乐"] = {
 					this = true
 				}
-			},
-			["要"] = {
-				["你"] = {
-					["好"] = {
-						["看"] = {
+			}
+		},
+		["面"] = {
+			["情"] = {
+				["狼"] = {
+					this = true
+				}
+			}
+		},
+		["年"] = {
+			["私"] = {
+				["服"] = {
+					this = true
+				}
+			}
+		},
+		["术"] = {
+			["教"] = {
+				["学"] = {
+					["视"] = {
+						["频"] = {
 							this = true
 						}
 					}
 				}
 			},
-			["子"] = {
+			["揭"] = {
+				["密"] = {
+					this = true
+				}
+			}
+		},
+		["万"] = {
+			["别"] = {
+				["把"] = {
+					["枪"] = {
+						["用"] = {
+							["坏"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			["不"] = {
 				["要"] = {
-					["努"] = {
-						["力"] = {
-							["干"] = {
-								this = true
+					["嫁"] = {
+						["给"] = {
+							["共"] = {
+								["产"] = {
+									["党"] = {
+										this = true
+									}
+								}
 							}
 						}
 					}
 				}
 			}
 		},
-		["霸"] = {
-			["娘"] = {
-				this = true
+		["王"] = {
+			["骆"] = {
+				["小"] = {
+					["千"] = {
+						this = true
+					}
+				}
 			}
-		},
-		["波"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["岍"] = {
+		this = {
 			this = true
-		},
-		["单"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["佥"] = {
+		this = {
 			this = true
-		},
-		["色"] = {
-			["征"] = {
-				["途"] = {
-					["私"] = {
-						["服"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["铅"] = {
+		["弹"] = {
+			this = true,
+			["气"] = {
+				["枪"] = {
+					["出"] = {
+						["售"] = {
+							this = true
+						}
+					},
+					["销"] = {
+						["售"] = {
 							this = true
 						}
 					}
 				}
 			}
-		},
-		["双"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["氯"] = {
-		["氨"] = {
-			["铜"] = {
-				this = true
-			},
-			["酮"] = {
-				this = true
-			}
-		},
-		["胺"] = {
-			["酮"] = {
-				this = true,
-				Q = {
-					Q = {
-						this = true
-					}
-				},
-				q = {
-					q = {
-						this = true
-					}
-				},
-				["出"] = {
-					["货"] = {
-						this = true
-					}
-				},
-				["到"] = {
-					["货"] = {
-						this = true
-					}
-				},
-				["电"] = {
-					["话"] = {
-						this = true
-					}
-				},
-				["订"] = {
-					["购"] = {
-						this = true
-					}
-				},
-				["付"] = {
-					["款"] = {
-						Q = {
-							Q = {
-								this = true
-							}
-						}
-					}
-				},
-				["技"] = {
-					["术"] = {
-						["转"] = {
-							["让"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["尼"] = {
-			["他"] = {
-				["秦"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鋝"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["妈"] = {
-		this = {
-			this = true
-		},
-		B = {
-			this = true
-		},
-		["白"] = {
-			["勺"] = {
-				this = true
-			}
-		},
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["的"] = {
-			this = true,
-			["花"] = {
-				["心"] = {
-					this = true
-				}
-			}
-		},
-		["妈"] = {
-			["色"] = {
-				this = true
-			}
-		},
-		["卖"] = {
-			["妈"] = {
-				["屁"] = {
-					this = true
-				}
-			}
-		},
-		["批"] = {
-			this = true
-		},
-		["祖"] = {
-			this = true
 		}
 	}
 end

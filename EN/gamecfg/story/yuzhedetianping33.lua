@@ -499,7 +499,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -527,7 +527,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -541,7 +541,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -555,7 +555,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -569,7 +569,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -583,7 +583,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -597,7 +597,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -611,7 +611,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "Marco Polo?",
 			blackBg = true,
@@ -936,7 +936,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "Marco Polo?",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "It's always you...",
 			typewriter = {
 				speed = 0.05,
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "Marco Polo?",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "You pay lip service to uniting our faiths, yet you always stand on opposite sides...",
 			typewriter = {
 				speed = 0.05,
@@ -964,7 +964,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "Marco Polo?",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Damned heretics...",
 			typewriter = {
 				speed = 0.05,
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "Marco Polo?",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "■■■... is the true Orthodoxy...",
 			typewriter = {
 				speed = 0.05,

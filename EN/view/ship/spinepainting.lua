@@ -231,6 +231,7 @@ function slot0.SetEmptyAction(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.spineAnimList) do
 		if slot6:GetAnimationState() then
 			slot7:SetEmptyAnimation(slot1, 0)
+			GetComponent(slot6.transform, "SkeletonGraphic"):Update(Time.deltaTime)
 		end
 	end
 end

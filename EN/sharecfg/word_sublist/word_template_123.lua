@@ -4,58 +4,141 @@ slot0.word_template_123 = {}
 slot1 = slot0.word_template_123
 
 function temp()
-	uv0["干"] = {
+	uv0["航"] = {
+		["空"] = {
+			["电"] = {
+				["子"] = {
+					["票"] = {
+						["务"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["薅"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["豪"] = {
+		["华"] = {
+			["轮"] = {
+				["盘"] = {
+					this = true
+				}
+			}
 		},
-		["7"] = {
-			["8"] = {
+		["乳"] = {
+			this = true
+		},
+		["娱"] = {
+			["乐"] = {
 				this = true
 			}
 		},
-		["７"] = {
-			["８"] = {
+		["迈"] = {
+			["哥"] = {
 				this = true
 			}
-		},
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["好"] = {
 		b = {
-			i = {
+			["都"] = {
+				["给"] = {
+					["狗"] = {
+						["日"] = {
+							["了"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["寂"] = {
+			["寞"] = {
 				this = true
 			}
 		},
-		G = {
-			M = {
-				this = true
+		["结"] = {
+			["石"] = {
+				["三"] = {
+					["鹿"] = {
+						["造"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["紧"] = {
+			this = true
+		},
+		["嫩"] = {
+			this = true
+		},
+		["骚"] = {
+			this = true
+		},
+		["色"] = {
+			c = {
+				c = {
+					this = true
+				}
 			},
-			Y = {
-				this = true
+			["美"] = {
+				["少"] = {
+					["女"] = {
+						this = true
+					}
+				}
 			}
 		},
-		["Ｇ"] = {
-			["Ｙ"] = {
-				this = true
+		["心"] = {
+			["情"] = {
+				["像"] = {
+					["部"] = {
+						["门"] = {
+							["会"] = {
+								["议"] = {
+									["一"] = {
+										["样"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
-		X = {
-			this = true
-		},
-		["爆"] = {
-			this = true
-		},
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["部"] = {
-			["年"] = {
-				["?"] = {
-					["?"] = {
-						["?"] = {
-							["逾"] = {
-								["百"] = {
-									["万"] = {
+		["一"] = {
+			["派"] = {
+				["官"] = {
+					["民"] = {
+						["情"] = {
+							["同"] = {
+								["鱼"] = {
+									["水"] = {
 										this = true
 									}
 								}
@@ -63,201 +146,78 @@ function temp()
 						}
 					}
 				}
-			},
-			["贪"] = {
-				["乡"] = {
-					["干"] = {
-						["部"] = {
-							["拿"] = {
+			}
+		},
+		["嗨"] = {
+			["冻"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["郝"] = {
+		["明"] = {
+			["金"] = {
+				this = true
+			}
+		},
+		["海"] = {
+			["东"] = {
+				this = true
+			}
+		},
+		["大"] = {
+			["炮"] = {
+				this = true
+			}
+		},
+		["雪"] = {
+			["花"] = {
+				this = true
+			}
+		},
+		["毅"] = {
+			["博"] = {
+				this = true
+			}
+		},
+		["孩"] = {
+			["冬"] = {
+				["|"] = {
+					["坏"] = {
+						["地"] = {
+							["西"] = {
 								this = true
 							}
 						}
 					}
 				}
-			},
-			["一"] = {
-				["大"] = {
-					["怪"] = {
+			}
+		},
+		["坚"] = {
+			["果"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["号"] = {
+		["码"] = {
+			["复"] = {
+				["制"] = {
+					["机"] = {
 						this = true
 					}
 				}
 			}
-		},
-		["到"] = {
-			this = true,
-			["高"] = {
-				["潮"] = {
-					["叫"] = {
-						["叫"] = {
-							this = true
-						},
-						["娘"] = {
-							["的"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["的"] = {
-			["你"] = {
-				this = true,
-				["爸"] = {
-					["直"] = {
-						["阳"] = {
-							["痿"] = {
-								this = true
-							}
-						}
-					}
-				},
-				["妈"] = {
-					["流"] = {
-						["白"] = {
-							["带"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["爽"] = {
-				this = true
-			}
-		},
-		["干"] = {
-			this = true,
-			["干"] = {
-				this = true
-			}
-		},
-		["机"] = {
-			this = true
-		},
-		["鸡"] = {
-			this = true
-		},
-		["啦"] = {
-			this = true
-		},
-		["勒"] = {
-			this = true
-		},
-		["拎"] = {
-			["娘"] = {
-				this = true
-			}
-		},
-		["林"] = {
-			this = true
-		},
-		["尼"] = {
-			this = true
-		},
-		["你"] = {
-			this = true,
-			["姐"] = {
-				this = true
-			},
-			["妈"] = {
-				this = true,
-				B = {
-					this = true
-				},
-				["逼"] = {
-					this = true
-				}
-			},
-			["娘"] = {
-				this = true
-			}
-		},
-		["妳"] = {
-			this = true,
-			["老"] = {
-				["母"] = {
-					this = true
-				}
-			},
-			["妈"] = {
-				this = true
-			},
-			["娘"] = {
-				this = true
-			}
-		},
-		["您"] = {
-			this = true
-		},
-		["女"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["七"] = {
-			["八"] = {
-				this = true
-			}
-		},
-		["扰"] = {
-			["大"] = {
-				["法"] = {
-					this = true
-				}
-			},
-			["器"] = {
-				this = true
-			}
-		},
-		["人"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["汝"] = {
-			this = true
-		},
-		["入"] = {
-			this = true
-		},
-		["爽"] = {
-			this = true
-		},
-		["死"] = {
-			this = true,
-			["你"] = {
-				this = true
-			}
-		},
-		["他"] = {
-			this = true,
-			["妈"] = {
-				this = true
-			}
-		},
-		["它"] = {
-			this = true
-		},
-		["她"] = {
-			this = true,
-			["妈"] = {
-				this = true
-			}
-		},
-		["牠"] = {
-			this = true
-		},
-		["我"] = {
-			this = true
-		},
-		["穴"] = {
-			this = true
-		},
-		["一"] = {
-			["干"] = {
-				this = true
-			}
 		}
 	}
 end
@@ -265,260 +225,9 @@ end
 temp()
 
 function temp()
-	uv0["幹"] = {
-		["7"] = {
-			["8"] = {
-				this = true
-			}
-		},
-		["７"] = {
-			["８"] = {
-				this = true
-			}
-		},
-		b = {
-			i = {
-				this = true
-			}
-		},
-		G = {
-			Y = {
-				this = true
-			}
-		},
-		["Ｇ"] = {
-			["Ｙ"] = {
-				this = true
-			}
-		},
-		["逼"] = {
-			this = true
-		},
-		["比"] = {
-			this = true
-		},
-		["的"] = {
-			["你"] = {
-				this = true
-			},
-			["妳"] = {
-				m = {
-					this = true,
-					["直"] = {
-						["流"] = {
-							["膿"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["爽"] = {
-				this = true
-			}
-		},
-		["幹"] = {
-			["幹"] = {
-				this = true
-			}
-		},
-		["你"] = {
-			this = true,
-			["老"] = {
-				["比"] = {
-					this = true
-				},
-				["母"] = {
-					this = true
-				}
-			},
-			["娘"] = {
-				this = true
-			}
-		},
-		["妳"] = {
-			this = true
-		},
-		["女"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["炮"] = {
-			this = true
-		},
-		["砲"] = {
-			this = true
-		},
-		["七"] = {
-			["八"] = {
-				this = true
-			}
-		},
-		["全"] = {
-			["家"] = {
-				this = true
-			}
-		},
-		["人"] = {
-			["也"] = {
-				this = true
-			}
-		},
-		["死"] = {
-			this = true,
-			["你"] = {
-				this = true
-			}
-		},
-		["他"] = {
-			this = true
-		},
-		["她"] = {
-			this = true
-		},
-		["穴"] = {
-			this = true
-		},
-		["一"] = {
-			["家"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["冈"] = {
-		["村"] = {
-			["宁"] = {
-				["次"] = {
-					this = true
-				}
-			},
-			["秀"] = {
-				["树"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["刚"] = {
-		["出"] = {
-			["来"] = {
-				["做"] = {
-					this = true
-				}
-			}
-		},
-		["热"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["肛"] = {
+	uv0["顥"] = {
 		this = {
 			this = true
-		},
-		["屄"] = {
-			this = true
-		},
-		["插"] = {
-			this = true
-		},
-		["交"] = {
-			this = true
-		},
-		["恋"] = {
-			this = true
-		},
-		["门"] = {
-			this = true,
-			["喷"] = {
-				["水"] = {
-					this = true
-				}
-			},
-			["拳"] = {
-				["交"] = {
-					this = true
-				}
-			}
-		},
-		["門"] = {
-			this = true,
-			["噴"] = {
-				["水"] = {
-					this = true
-				}
-			},
-			["拳"] = {
-				["交"] = {
-					this = true
-				}
-			}
-		},
-		["奴"] = {
-			this = true
-		},
-		["虐"] = {
-			["荒"] = {
-				["淫"] = {
-					this = true
-				}
-			}
-		},
-		["栓"] = {
-			["母"] = {
-				["狗"] = {
-					this = true
-				}
-			},
-			["贞"] = {
-				["操"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["岡"] = {
-		["村"] = {
-			["寧"] = {
-				["次"] = {
-					this = true
-				}
-			},
-			["秀"] = {
-				["樹"] = {
-					this = true
-				}
-			}
-		},
-		["巒"] = {
-			this = true
-		},
-		["田"] = {
-			["純"] = {
-				["奈"] = {
-					this = true
-				}
-			}
 		}
 	}
 end

@@ -315,6 +315,14 @@ function slot0.commonBind(slot0)
 						weight = LayerWeightConst.TOP_LAYER
 					}
 				}))
+			elseif slot2.type == DROP_TYPE_EMOJI then
+				slot0:addSubLayers(Context.New({
+					mediator = ContextMediator,
+					viewComponent = EmojiInfoLayer,
+					data = {
+						id = slot2.cfg.id
+					}
+				}))
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_SINGLE_ITEM,

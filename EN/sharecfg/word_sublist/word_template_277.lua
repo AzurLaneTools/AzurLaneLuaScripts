@@ -4,82 +4,19 @@ slot0.word_template_277 = {}
 slot1 = slot0.word_template_277
 
 function temp()
-	uv0["切"] = {
-		["肤"] = {
-			["之"] = {
-				["爱"] = {
-					this = true
-				}
-			}
-		},
-		["七"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["窃"] = {
-		["."] = {
-			["听"] = {
-				["."] = {
-					["器"] = {
-						this = true
-					}
-				}
-			}
-		},
-		t = {
-			i = {
-				n = {
-					g = {
-						["器"] = {
-							this = true
+	uv0["淘"] = {
+		["宝"] = {
+			this = true,
+			["买"] = {
+				["家"] = {
+					["提"] = {
+						["取"] = {
+							["器"] = {
+								this = true
+							}
 						}
 					}
 				}
-			}
-		},
-		["取"] = {
-			["活"] = {
-				["人"] = {
-					["皮"] = {
-						["肤"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["听"] = {
-			["钢"] = {
-				["笔"] = {
-					this = true
-				}
-			},
-			["卡"] = {
-				this = true
-			},
-			["器"] = {
-				this = true,
-				["材"] = {
-					this = true
-				},
-				["软"] = {
-					["件"] = {
-						this = true
-					}
-				}
-			},
-			["手"] = {
-				["表"] = {
-					this = true
-				}
-			},
-			["王"] = {
-				this = true
 			}
 		}
 	}
@@ -88,7 +25,7 @@ end
 temp()
 
 function temp()
-	uv0["篋"] = {
+	uv0["鞀"] = {
 		this = {
 			this = true
 		}
@@ -98,10 +35,36 @@ end
 temp()
 
 function temp()
-	uv0["竊"] = {
-		["听"] = {
-			["器"] = {
-				this = true
+	uv0["讨"] = {
+		["债"] = {
+			["复"] = {
+				["仇"] = {
+					this = true
+				}
+			}
+		},
+		["李"] = {
+			["满"] = {
+				["天"] = {
+					["下"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["论"] = {
+			["一"] = {
+				["律"] = {
+					["暴"] = {
+						["力"] = {
+							["捂"] = {
+								["嘴"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -110,10 +73,74 @@ end
 temp()
 
 function temp()
-	uv0["钦"] = {
-		["点"] = {
-			["凤"] = {
-				["妃"] = {
+	uv0["套"] = {
+		["动"] = {
+			this = true,
+			["着"] = {
+				this = true
+			}
+		},
+		["撸"] = {
+			["着"] = {
+				this = true
+			}
+		},
+		["弄"] = {
+			this = true,
+			["花"] = {
+				["心"] = {
+					this = true
+				}
+			}
+		},
+		["牌"] = {
+			["车"] = {
+				this = true,
+				["出"] = {
+					["售"] = {
+						this = true
+					}
+				},
+				["交"] = {
+					["易"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["图"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["謄"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["藤"] = {
+		["本"] = {
+			["绫"] = {
+				this = true
+			},
+			["美"] = {
+				["咲"] = {
+					this = true
+				}
+			}
+		},
+		["原"] = {
+			["杏"] = {
+				["里"] = {
 					this = true
 				}
 			}
@@ -124,18 +151,10 @@ end
 temp()
 
 function temp()
-	uv0["侵"] = {
-		["入"] = {
-			["她"] = {
-				["的"] = {
-					["西"] = {
-						["圣"] = {
-							["地"] = {
-								this = true
-							}
-						}
-					}
-				}
+	uv0["騰"] = {
+		["訊"] = {
+			["Φ"] = {
+				this = true
 			}
 		}
 	}

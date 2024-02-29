@@ -212,6 +212,11 @@ pg.task_meta_data_template = setmetatable({
 		100153,
 		100154,
 		100155,
+		100161,
+		100162,
+		100163,
+		100164,
+		100165,
 		200001,
 		200002,
 		200003,
@@ -271,7 +276,11 @@ pg.task_meta_data_template = setmetatable({
 		200151,
 		200152,
 		200153,
-		200154
+		200154,
+		200161,
+		200162,
+		200163,
+		200164
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1956,6 +1965,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100161] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "Win 1 battle with Pamiat' Merkuria META in your fleet.",
+		id = 100161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100162] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Pamiat' Merkuria META in your fleet.",
+		id = 100162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100163] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Pamiat' Merkuria META in your fleet.",
+		id = 100163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100164] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Pamiat' Merkuria META in your fleet.",
+		id = 100164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100165] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Pamiat' Merkuria META in your fleet.",
+		id = 100165,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2433,6 +2482,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kimberly META in your fleet.",
 		id = 200154,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200161] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Pamiat' Merkuria META in your fleet.",
+		id = 200161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200162] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Pamiat' Merkuria META in your fleet.",
+		id = 200162,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200163] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Pamiat' Merkuria META in your fleet.",
+		id = 200163,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200164] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Pamiat' Merkuria META in your fleet.",
+		id = 200164,
 		target_num = 1,
 		target_id = "100"
 	}

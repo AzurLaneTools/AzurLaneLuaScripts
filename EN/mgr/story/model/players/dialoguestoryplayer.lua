@@ -550,8 +550,14 @@ function slot0.UpdateLive2dPainting(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot6(slot0)
-		if slot0 and uv0:GetLive2dAction() and slot1 ~= "" then
-			slot0:TriggerAction(slot1)
+		if slot0 then
+			if uv0:GetLive2dAction() and slot1 ~= "" then
+				slot0:TriggerAction(slot1)
+			end
+
+			if uv0:GetL2dIdleIndex() and slot2 ~= "" and slot2 > 0 then
+				slot0:changeIdleIndex(slot2)
+			end
 		end
 
 		uv1()

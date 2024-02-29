@@ -1559,5 +1559,17 @@ pg.voice_actor_CN = {
 	[397] = {
 		code = 397,
 		actor_name = "Rie Hazuki"
+	},
+	[398] = {
+		code = 398,
+		actor_name = "Haruka Tomatsu"
+	},
+	[399] = {
+		code = 399,
+		actor_name = "Narumi Kaho"
+	},
+	[400] = {
+		code = 400,
+		actor_name = "Marika"
 	}
 }

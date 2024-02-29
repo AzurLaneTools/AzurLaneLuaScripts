@@ -4,80 +4,73 @@ slot0.word_template_118 = {}
 slot1 = slot0.word_template_118
 
 function temp()
-	uv0["浮"] = {
-		["点"] = {
-			["震"] = {
-				["动"] = {
-					["火"] = {
-						["龙"] = {
-							this = true
-						}
-					}
+	uv0["鬼"] = {
+		["畜"] = {
+			["轮"] = {
+				["奸"] = {
+					this = true
 				}
-			}
-		},
-		["尸"] = {
-			["国"] = {
-				this = true
-			}
-		},
-		["田"] = {
-			["久"] = {
-				["惠"] = {
+			},
+			["輪"] = {
+				["奸"] = {
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["烰"] = {
-		["嬅"] = {
+		},
+		["村"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["紱"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["福"] = {
-		["冈"] = {
-			["亚"] = {
-				["也"] = {
-					["香"] = {
+		},
+		["的"] = {
+			["小"] = {
+				["太"] = {
+					["郎"] = {
 						this = true
 					}
 				}
 			}
 		},
-		["清"] = {
-			["纪"] = {
-				["委"] = {
-					["爆"] = {
-						["炸"] = {
-							this = true
-						}
-					}
+		["骨"] = {
+			["场"] = {
+				this = true
+			}
+		},
+		["叫"] = {
+			["春"] = {
+				this = true
+			}
+		},
+		["輪"] = {
+			["姦"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["刿"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["贵"] = {
+		["宾"] = {
+			["接"] = {
+				["待"] = {
+					this = true
 				}
 			}
 		},
-		["山"] = {
-			["安"] = {
-				["奈"] = {
+		["妃"] = {
+			["醉"] = {
+				["酒"] = {
 					this = true
 				}
 			}
@@ -88,7 +81,28 @@ end
 temp()
 
 function temp()
-	uv0["幞"] = {
+	uv0["桂"] = {
+		["木"] = {
+			["亚"] = {
+				["沙"] = {
+					["美"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["晓"] = {
+			["风"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["劌"] = {
 		this = {
 			this = true
 		}
@@ -98,9 +112,49 @@ end
 temp()
 
 function temp()
-	uv0["黻"] = {
+	uv0["滚"] = {
 		this = {
 			this = true
+		},
+		["粗"] = {
+			this = true
+		},
+		["球"] = {
+			["专"] = {
+				["家"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["滾"] = {
+		["那"] = {
+			["嗎"] = {
+				this = true,
+				B = {
+					this = true
+				},
+				["錯"] = {
+					["比"] = {
+						this = true
+					}
+				},
+				["老"] = {
+					["比"] = {
+						this = true
+					}
+				},
+				["瘟"] = {
+					["比"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

@@ -121,7 +121,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "You're a strange one, lady. You just called my name, didn't you?",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Bon Homme Richard.",
 			typewriter = {
 				speed = 0.05,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "You're looking at the real Bon Homme Richard, lady.",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Actually... Heheheh, I'm more curious about how I appear to you through your eyes.",
 			typewriter = {
 				speed = 0.05,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Oh, are you talking about that photo? I have it right here~",
 			typewriter = {
 				speed = 0.05,
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Are you okay, lady? You don't look so good~",
 			effects = {
 				{
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Hm? Are you talking about this exercise area?",
 			typewriter = {
 				speed = 0.05,
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Ahaha, what are you talking about? This entire place is the exercise area! You wouldn't want to miss our exciting wargame, would you?",
 			typewriter = {
 				speed = 0.05,
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Well, not that you'd be able to anyway~",
 			typewriter = {
 				speed = 0.05,
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Look, it's about to start right now! Hehehe... Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -718,7 +718,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Don't be so trigger-happy, lady. Hold it in a bit longer – there's plenty of fun to be had~♪",
 			typewriter = {
 				speed = 0.05,
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Time's up~♪",
 			typewriter = {
 				speed = 0.05,
@@ -979,7 +979,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Heheh... Hehehe... Ahahaha! Ahhahahahahahahaha!",
 			dialogShake = {
 				speed = 0.08,
@@ -1001,7 +1001,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "It's starting! Yes, yeeees! It's starting again! Ahahahahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -1070,7 +1070,7 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "C'mon, lady, let's have lots and lots of fun!",
 			typewriter = {
 				speed = 0.05,

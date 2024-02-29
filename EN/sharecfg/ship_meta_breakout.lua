@@ -42,6 +42,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702062,
 		9702063,
 		9702064,
+		9702071,
+		9702072,
+		9702073,
+		9702074,
 		9703011,
 		9703012,
 		9703013,
@@ -172,7 +176,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -235,7 +239,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701024] = {
-		breakout_view = "无",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -298,7 +302,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -424,7 +428,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -487,7 +491,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -550,7 +554,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -613,7 +617,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702044] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -676,7 +680,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702054] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -752,6 +756,69 @@ pg.base.ship_meta_breakout = {
 		pre_id = 9702063,
 		weapon_ids = {}
 	},
+	[9702071] = {
+		breakout_view = "Unlock Flickering Light - Pamiat' Merkuria/Main gun efficiency +5%",
+		gold = 1000,
+		breakout_id = 9702072,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702071,
+		item1 = 21030,
+		pre_id = 0,
+		weapon_ids = {
+			170411
+		}
+	},
+	[9702072] = {
+		breakout_view = "Main gun base +1/Main gun efficiency +10%",
+		gold = 3000,
+		breakout_id = 9702073,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702072,
+		item1 = 21030,
+		pre_id = 9702071,
+		weapon_ids = {
+			7200,
+			7200
+		}
+	},
+	[9702073] = {
+		breakout_view = "Improve Flickering Light - Pamiat' Merkuria/Main gun efficiency +15%",
+		gold = 10000,
+		breakout_id = 9702074,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702073,
+		item1 = 21030,
+		pre_id = 9702072,
+		weapon_ids = {
+			170412
+		}
+	},
+	[9702074] = {
+		breakout_view = "None",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702074,
+		item1 = 21030,
+		pre_id = 9702073,
+		weapon_ids = {}
+	},
 	[9703011] = {
 		breakout_view = "Unlock Flickering Light – Trento/Main gun efficiency +5%",
 		gold = 500,
@@ -802,7 +869,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -867,7 +934,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -932,7 +999,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -999,7 +1066,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1066,7 +1133,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704044] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1133,7 +1200,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1199,7 +1266,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1266,7 +1333,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1333,7 +1400,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705044] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1402,7 +1469,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1471,7 +1538,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1540,7 +1607,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1609,7 +1676,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1678,7 +1745,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1747,7 +1814,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707034] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1812,7 +1879,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9708014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1868,7 +1935,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1931,7 +1998,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703024] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1997,7 +2064,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713014] = {
-		breakout_view = "N/A",
+		breakout_view = "None",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

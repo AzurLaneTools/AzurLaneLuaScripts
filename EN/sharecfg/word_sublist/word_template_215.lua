@@ -4,120 +4,41 @@ slot0.word_template_215 = {}
 slot1 = slot0.word_template_215
 
 function temp()
-	uv0["轢"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["奁"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["连"] = {
-		["线"] = {
-			["宝"] = {
-				["马"] = {
-					this = true
-				}
-			},
-			["机"] = {
-				this = true,
-				["遥"] = {
-					["控"] = {
-						["器"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["続"] = {
-			["失"] = {
-				["禁"] = {
-					this = true
-				}
-			}
-		},
-		["战"] = {
-			this = true
-		},
-		["主"] = {
-			["席"] = {
-				["都"] = {
-					["仰"] = {
-						["敬"] = {
-							["三"] = {
-								["分"] = {
-									this = true
-								}
+	uv0["妳"] = {
+		["家"] = {
+			["老"] = {
+				["爸"] = {
+					["雞"] = {
+						["巴"] = {
+							["短"] = {
+								this = true
 							}
 						}
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["莲"] = {
-		["花"] = {
-			["逼"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["連"] = {
-		["方"] = {
-			["瑀"] = {
-				this = true
-			}
 		},
-		["惠"] = {
-			["心"] = {
-				this = true
-			}
-		},
-		["勝"] = {
-			["德"] = {
-				this = true
-			},
-			["文"] = {
-				this = true
-			}
-		},
-		["線"] = {
-			["機"] = {
-				this = true
-			}
-		},
-		["続"] = {
-			["失"] = {
-				["禁"] = {
+		["老"] = {
+			["母"] = {
+				["的"] = {
 					this = true
 				}
 			}
 		},
-		["戰"] = {
-			this = true
+		["妈"] = {
+			["的"] = {
+				this = true
+			}
+		},
+		["马"] = {
+			["的"] = {
+				this = true
+			}
+		},
+		["娘"] = {
+			["的"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -125,63 +46,119 @@ end
 temp()
 
 function temp()
-	uv0["联"] = {
-		["大"] = {
-			this = true
-		},
-		["动"] = {
-			["分"] = {
-				["子"] = {
-					this = true
-				}
-			}
-		},
-		["合"] = {
-			["国"] = {
-				this = true,
-				["大"] = {
-					["会"] = {
-						this = true
+	uv0["年"] = {
+		["老"] = {
+			["年"] = {
+				["少"] = {
+					["都"] = {
+						["得"] = {
+							["退"] = {
+								this = true
+							}
+						}
 					}
 				}
-			},
-			["教"] = {
-				["会"] = {
-					this = true
+			}
+		},
+		["轻"] = {
+			["时"] = {
+				["的"] = {
+					["赵"] = {
+						["紫"] = {
+							["阳"] = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},
-		["通"] = {
-			["罢"] = {
-				["工"] = {
-					this = true
-				}
+		["九"] = {
+			["八"] = {
+				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["廿"] = {
+		["周"] = {
+			["年"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["娘"] = {
+		["的"] = {
+			this = true
 		},
-		["系"] = {
-			["本"] = {
-				["人"] = {
-					this = true
-				}
-			},
-			["方"] = {
-				["式"] = {
-					this = true
-				}
-			},
-			["妹"] = {
-				["妹"] = {
-					this = true
-				}
-			},
-			["人"] = {
+		["餓"] = {
+			["比"] = {
 				this = true
 			}
 		},
-		["易"] = {
-			this = true,
-			["互"] = {
-				["动"] = {
+		["俱"] = {
+			["乐"] = {
+				["部"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["嬢"] = {
+		["覚"] = {
+			["醒"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鸟"] = {
+		G = {
+			M = {
+				this = true
+			}
+		},
+		["进"] = {
+			["鸟"] = {
+				["出"] = {
+					this = true
+				}
+			}
+		},
+		["你"] = {
+			this = true
+		},
+		["耍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鳥"] = {
+		["越"] = {
+			["乃"] = {
+				["亞"] = {
 					this = true
 				}
 			}

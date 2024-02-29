@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "–Just like a bonfire in a dark, dark forest",
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "–Just like a lighthouse in the infinite night sky",
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "You've revealed your existence to them. You've become the light that beckons to them.",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "How interesting, nice ladies~♪ How fun!",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "We've found your home at last!",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.2,
 			say = "Hey, did you miss me?",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.4,
 			say = "Hey, did you miss me?",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.6,
 			say = "Hey, did you miss me?",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actorScale = 1.8,
 			say = "Hey, did you miss me?",
 			typewriter = {

@@ -1420,7 +1420,7 @@ return {
 			actorName = "█ █ █ █",
 			bgName = "bg_xinnong2_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			typewriter = {
 				speed = 0.05,

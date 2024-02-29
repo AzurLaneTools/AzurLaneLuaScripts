@@ -4,77 +4,100 @@ slot0.word_template_323 = {}
 slot1 = slot0.word_template_323
 
 function temp()
-	uv0["淘"] = {
-		["宝"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["鞀"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["讨"] = {
-		["债"] = {
-			["复"] = {
-				["仇"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["套"] = {
-		["动"] = {
-			this = true,
-			["着"] = {
+	uv0["抑"] = {
+		["制"] = {
+			["剂"] = {
 				this = true
 			}
-		},
-		["撸"] = {
-			["着"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["译"] = {
+		["新"] = {
+			["考"] = {
+				["试"] = {
+					this = true
+				}
+			},
+			["网"] = {
 				this = true
 			}
-		},
-		["弄"] = {
-			this = true,
-			["花"] = {
-				["心"] = {
-					this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["易"] = {
+		["丹"] = {
+			["軒"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["疫"] = {
+		["苗"] = {
+			["伤"] = {
+				["害"] = {
+					["的"] = {
+						["是"] = {
+							["你"] = {
+								["们"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		},
-		["牌"] = {
-			["车"] = {
-				this = true,
-				["出"] = {
-					["售"] = {
+		["区"] = {
+			["冻"] = {
+				["死"] = {
+					["骨"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["意"] = {
+		["志"] = {
+			["不"] = {
+				["坚"] = {
+					["的"] = {
+						["图"] = {
+							["腾"] = {
+								this = true
+							}
+						}
 					}
 				},
-				["交"] = {
-					["易"] = {
-						this = true
+				["堅"] = {
+					["的"] = {
+						["圖"] = {
+							["騰"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
-		},
-		["图"] = {
-			this = true
 		}
 	}
 end
@@ -82,7 +105,7 @@ end
 temp()
 
 function temp()
-	uv0["謄"] = {
+	uv0["瘞"] = {
 		this = {
 			this = true
 		}
@@ -92,21 +115,26 @@ end
 temp()
 
 function temp()
-	uv0["藤"] = {
-		["本"] = {
-			["绫"] = {
-				this = true
-			},
-			["美"] = {
-				["咲"] = {
-					this = true
+	uv0["議"] = {
+		["長"] = {
+			["阿"] = {
+				["茵"] = {
+					["斯"] = {
+						["塔"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
-		["原"] = {
-			["杏"] = {
-				["里"] = {
-					this = true
+		["員"] = {
+			["斯"] = {
+				["格"] = {
+					["文"] = {
+						["德"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}

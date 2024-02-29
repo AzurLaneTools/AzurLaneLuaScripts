@@ -4,9 +4,9 @@ slot0.word_template_135 = {}
 slot1 = slot0.word_template_135
 
 function temp()
-	uv0["關"] = {
-		["卓"] = {
-			["中"] = {
+	uv0["惠"] = {
+		["美"] = {
+			["梨"] = {
 				this = true
 			}
 		}
@@ -16,18 +16,56 @@ end
 temp()
 
 function temp()
-	uv0["觀"] = {
-		["世"] = {
-			["音"] = {
-				this = true
-			}
-		},
-		["音"] = {
-			["法"] = {
-				["門"] = {
+	uv0["會"] = {
+		["陰"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["慧"] = {
+		["网"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["噦"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["繢"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["昏"] = {
+		["迷"] = {
+			["圖"] = {
+				["騰"] = {
 					this = true
 				}
 			}
+		},
+		["药"] = {
+			this = true
 		}
 	}
 end
@@ -35,104 +73,26 @@ end
 temp()
 
 function temp()
-	uv0["管"] = {
-		["里"] = {
-			this = true
-		},
-		["理"] = {
-			this = true,
-			["就"] = {
-				["是"] = {
-					["收"] = {
-						["费"] = {
-							this = true
-						}
-					}
+	uv0["婚"] = {
+		["嫁"] = {
+			["业"] = {
+				["务"] = {
+					this = true
 				}
-			},
-			["员"] = {
-				this = true
-			},
-			["員"] = {
-				this = true
 			}
 		},
-		["裡"] = {
-			this = true
-		},
-		["土"] = {
-			["地"] = {
-				["的"] = {
-					["是"] = {
-						["霸"] = {
-							["王"] = {
-								this = true
+		["姻"] = {
+			["改"] = {
+				["革"] = {
+					["同"] = {
+						["居"] = {
+							["成"] = {
+								["风"] = {
+									this = true
+								}
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["贯"] = {
-		["通"] = {
-			["两"] = {
-				["级"] = {
-					["法"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["貫"] = {
-		["通"] = {
-			["兩"] = {
-				["極"] = {
-					["法"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["灌"] = {
-		["肠"] = {
-			this = true,
-			["自"] = {
-				["慰"] = {
-					["器"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["满"] = {
-			["精"] = {
-				["液"] = {
-					this = true
-				}
-			}
-		},
-		["滿"] = {
-			["精"] = {
-				["液"] = {
-					this = true
 				}
 			}
 		}

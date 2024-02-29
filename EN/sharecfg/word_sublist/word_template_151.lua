@@ -4,27 +4,10 @@ slot0.word_template_151 = {}
 slot1 = slot0.word_template_151
 
 function temp()
-	uv0["户"] = {
-		["籍"] = {
-			["制"] = {
-				["度"] = {
-					["违"] = {
-						["反"] = {
-							["宪"] = {
-								["法"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["山"] = {
-			["初"] = {
-				["子"] = {
-					this = true
-				}
+	uv0["酱"] = {
+		["猪"] = {
+			["媳"] = {
+				this = true
 			}
 		}
 	}
@@ -33,8 +16,45 @@ end
 temp()
 
 function temp()
-	uv0["冱"] = {
-		this = {
+	uv0["醬"] = {
+		["猪"] = {
+			["媳"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["娇"] = {
+		["声"] = {
+			["娇"] = {
+				["气"] = {
+					["催"] = {
+						["你"] = {
+							["快"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["艳"] = {
+			["都"] = {
+				["市"] = {
+					this = true
+				}
+			},
+			["江"] = {
+				["湖"] = {
+					this = true
+				}
+			}
+		},
+		["吟"] = {
 			this = true
 		}
 	}
@@ -43,27 +63,21 @@ end
 temp()
 
 function temp()
-	uv0["护"] = {
-		["花"] = {
-			["剑"] = {
-				this = true
-			}
-		},
-		["士"] = {
-			["门"] = {
-				this = true
-			},
-			["穴"] = {
-				this = true
-			},
-			["诱"] = {
-				["惑"] = {
-					this = true
-				}
-			},
-			["证"] = {
-				["办"] = {
-					["理"] = {
+	uv0["姣"] = {
+		["西"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["胶"] = {
+		["洲"] = {
+			["女"] = {
+				["烈"] = {
+					["传"] = {
 						this = true
 					}
 				}
@@ -75,8 +89,8 @@ end
 temp()
 
 function temp()
-	uv0["怙"] = {
-		this = {
+	uv0["椒"] = {
+		["乳"] = {
 			this = true
 		}
 	}
@@ -85,19 +99,11 @@ end
 temp()
 
 function temp()
-	uv0["戽"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["祜"] = {
-		this = {
-			this = true
+	uv0["焦"] = {
+		["焕"] = {
+			["成"] = {
+				this = true
+			}
 		}
 	}
 end

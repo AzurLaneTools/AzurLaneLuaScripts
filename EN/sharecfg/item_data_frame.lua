@@ -435,10 +435,10 @@ pg.item_data_frame = {
 	[329] = {
 		time_limit_type = 0,
 		name = "Star of the Snowrealm",
-		gain_by = "",
+		gain_by = "Snowrealm Peregrination",
 		id = 329,
 		time_second = 0,
-		desc = "Obtained from an event.",
+		desc = "<color=#ffffff>\"Through the snow, across the icebergs, look at yourself and witness the future.\"</color>\nGiven to Commanders who excelled during the \"Snowrealm Peregrination\" event.",
 		scene = {}
 	},
 	[406] = {
@@ -621,6 +621,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Aquarius. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 2/1/24 - 2/29/24 Season.</color>",
 		scene = {}
 	},
+	[10010] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Pisces",
+		gain_by = "",
+		id = 10010,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Pisces. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 3/1/24 - 3/31/24 Season.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -690,6 +699,7 @@ pg.item_data_frame = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010
 	}
 }

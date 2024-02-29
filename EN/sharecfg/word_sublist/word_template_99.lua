@@ -4,125 +4,30 @@ slot0.word_template_99 = {}
 slot1 = slot0.word_template_99
 
 function temp()
-	uv0["吊"] = {
-		["死"] = {
-			["鬼"] = {
-				["打"] = {
-					["粉"] = {
-						["插"] = {
-							["花"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["钓"] = {
-		["鱼"] = {
-			["岛"] = {
-				this = true,
-				["国"] = {
-					["有"] = {
-						["化"] = {
-							this = true
-						}
-					}
-				},
-				["日"] = {
-					["本"] = {
-						["的"] = {
-							this = true
-						}
-					}
-				},
-				["事"] = {
-					["件"] = {
-						this = true
-					}
-				},
-				["是"] = {
-					["日"] = {
-						["本"] = {
-							["的"] = {
-								this = true
-							}
-						}
-					}
-				},
-				["争"] = {
-					["端"] = {
-						this = true
-					}
-				}
-			},
-			["台"] = {
-				this = true,
-				["列"] = {
-					["岛"] = {
-						this = true
-					}
-				}
-			},
-			["执"] = {
-				["法"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["釣"] = {
-		["魚"] = {
-			["島"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["調"] = {
-		["教"] = {
-			this = true,
-			["虐"] = {
-				["待"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["爹"] = {
-		this = {
+	uv0["疯"] = {
+		["狗"] = {
 			this = true
 		},
-		["龙"] = {
-			["凤"] = {
-				["的"] = {
-					["姑"] = {
-						["娘"] = {
-							["随"] = {
-								["便"] = {
-									["骑"] = {
-										this = true
-									}
+		["狂"] = {
+			["抽"] = {
+				["送"] = {
+					this = true
+				}
+			},
+			["斗"] = {
+				["地"] = {
+					["主"] = {
+						this = true
+					}
+				}
+			},
+			["宇"] = {
+				["宙"] = {
+					["很"] = {
+						["大"] = {
+							["很"] = {
+								["大"] = {
+									this = true
 								}
 							}
 						}
@@ -136,12 +41,106 @@ end
 temp()
 
 function temp()
-	uv0["蝶"] = {
-		["舞"] = {
-			["按"] = {
-				["摩"] = {
+	uv0["锋"] = {
+		["镝"] = {
+			["情"] = {
+				["潮"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["瘋"] = {
+		["狗"] = {
+			this = true
+		},
+		["狂"] = {
+			["抽"] = {
+				["送"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["豐"] = {
+		["唇"] = {
+			["豔"] = {
+				["姬"] = {
+					this = true
+				}
+			}
+		},
+		["饒"] = {
+			["的"] = {
+				["果"] = {
+					["實"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["酆"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["冯"] = {
+		["东"] = {
+			["海"] = {
+				this = true
+			}
+		},
+		["惠"] = {
+			["敏"] = {
+				this = true
+			}
+		},
+		["素"] = {
+			["英"] = {
+				this = true
+			}
+		},
+		["仰"] = {
+			["妍"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["馮"] = {
+		["東"] = {
+			["海"] = {
+				this = true
+			}
+		},
+		["素"] = {
+			["英"] = {
+				this = true
 			}
 		}
 	}

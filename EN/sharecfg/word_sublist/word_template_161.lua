@@ -4,233 +4,217 @@ slot0.word_template_161 = {}
 slot1 = slot0.word_template_161
 
 function temp()
-	uv0["鸡"] = {
-		["８"] = {
+	uv0["靜"] = {
+		["平"] = {
 			this = true
 		},
-		Y = {
-			this = true
+		["思"] = {
+			["節"] = {
+				this = true
+			}
 		},
-		["Ｙ"] = {
-			this = true
-		},
-		["八"] = {
-			this = true
-		},
-		["巴"] = {
-			this = true,
-			["暴"] = {
-				["胀"] = {
-					this = true
-				}
+		["偲"] = {
+			["兯"] = {
+				this = true
 			},
-			["都"] = {
-				["炸"] = {
-					["没"] = {
-						["了"] = {
-							this = true
-						}
+			["節"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["镜"] = {
+		["品"] = {
+			this = true
+		},
+		["平"] = {
+			this = true
+		},
+		["屏"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鏡"] = {
+		["京"] = {
+			["香"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["纠"] = {
+		["察"] = {
+			["员"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鸠"] = {
+		this = {
+			this = true
+		},
+		["屎"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["久"] = {
+		["保"] = {
+			["亚"] = {
+				["沙"] = {
+					["香"] = {
+						this = true
 					}
 				}
-			},
-			["无"] = {
-				["骨"] = {
-					["硬"] = {
-						["得"] = {
-							["出"] = {
-								["奇"] = {
+			}
+		},
+		["野"] = {
+			["沙"] = {
+				["耶"] = {
+					["香"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["战"] = {
+			["油"] = {
+				this = true
+			}
+		},
+		["久"] = {
+			["爱"] = {
+				["狠"] = {
+					["狠"] = {
+						["综"] = {
+							["合"] = {
+								["网"] = {
 									this = true
 								}
 							}
 						}
 					}
 				}
-			},
-			["炸"] = {
-				["飞"] = {
-					this = true
-				}
 			}
 		},
-		["叭"] = {
-			this = true
-		},
-		["芭"] = {
-			this = true
-		},
-		["吧"] = {
-			this = true
-		},
-		["掰"] = {
-			this = true
-		},
-		["鸡"] = {
-			this = true,
-			["硬"] = {
-				["了"] = {
-					["我"] = {
-						["就"] = {
-							["干"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["长"] = {
-				["在"] = {
-					["脸"] = {
-						["上"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["奸"] = {
-			this = true
-		},
-		["头"] = {
-			["个"] = {
-				["个"] = {
-					["发"] = {
+		["青"] = {
+			["草"] = {
+				["国"] = {
+					["产"] = {
 						this = true
 					}
 				}
 			}
-		},
-		["歪"] = {
-			this = true
-		},
-		["鸭"] = {
-			["成"] = {
-				["群"] = {
-					["闹"] = {
-						["中"] = {
-							["华"] = {
-								["比"] = {
-									["起"] = {
-										["腐"] = {
-											["败"] = {
-												["算"] = {
-													["个"] = {
-														["啥"] = {
-															this = true
-														}
-													}
-												}
-											}
-										}
-									}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["酒"] = {
+		["杯"] = {
+			["一"] = {
+				["端"] = {
+					["政"] = {
+						["策"] = {
+							["放"] = {
+								["宽"] = {
+									this = true
 								}
 							}
 						}
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["姬"] = {
-		["勝"] = {
-			["德"] = {
-				this = true
-			}
 		},
-		["野"] = {
-			["爱"] = {
-				this = true
-			},
-			["愛"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["基"] = {
-		["地"] = {
-			["组"] = {
-				["织"] = {
+		["店"] = {
+			["援"] = {
+				["交"] = {
 					this = true
 				}
 			},
-			["組"] = {
-				["織"] = {
-					this = true
-				}
-			}
-		},
-		["督"] = {
-			this = true,
-			["的"] = {
-				["发"] = {
-					["表"] = {
-						this = true
+			["开"] = {
+				["房"] = {
+					["查"] = {
+						["询"] = {
+							this = true
+						}
 					}
 				}
-			},
-			["教"] = {
-				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["赍"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["賫"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["機"] = {
-		["8"] = {
-			this = true
 		},
-		Y = {
-			this = true
+		["后"] = {
+			["还"] = {
+				["找"] = {
+					["野"] = {
+						["妹"] = {
+							["子"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
-		["Ｙ"] = {
-			this = true
+		["井"] = {
+			["若"] = {
+				["菜"] = {
+					this = true
+				}
+			},
+			["未"] = {
+				["希"] = {
+					this = true
+				}
+			},
+			["優"] = {
+				["香"] = {
+					this = true
+				}
+			}
 		},
-		["八"] = {
-			this = true
+		["足"] = {
+			["饭"] = {
+				["饱"] = {
+					["会"] = {
+						["开"] = {
+							["罢"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
-		["巴"] = {
-			this = true
-		},
-		["叭"] = {
-			this = true
-		},
-		["芭"] = {
-			this = true
-		},
-		["掰"] = {
-			this = true
+		["拔"] = {
+			["肆"] = {
+				["陆"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

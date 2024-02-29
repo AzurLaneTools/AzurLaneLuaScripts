@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_bolanhuichang",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "Essex",
-			nameColor = "#A9F548FF",
 			say = "Our forces are focused in this underground shelter. For the moment, we're safe.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -536,13 +536,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "Essex",
-			nameColor = "#A9F548FF",
 			say = "Meanwhile, we've got ten of those massive mechanical eyeballs wreaking havoc across the venues. We'll call them Gazers for now–",
 			canMarkNode = {
 				"bolanhuichang",
@@ -561,13 +561,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "Essex",
-			nameColor = "#A9F548FF",
 			say = "Our carrier-based aircraft haven't had any success trying to break through with bombs, and we're still in the process of gathering more information.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -641,13 +641,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "Essex",
-			nameColor = "#A9F548FF",
 			say = "As for the other factions...",
 			canMarkNode = {
 				"bolanhuichang",
@@ -668,11 +668,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -727,13 +727,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "Essex",
-			nameColor = "#A9F548FF",
 			say = "The Dragon Empery... Hmm. Their pavilion doesn't appear to have been damaged, and none of their personnel appear to be on site.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "Essex",
 			hidePaintObj = true,

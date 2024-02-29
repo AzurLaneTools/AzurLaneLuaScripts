@@ -4,9 +4,108 @@ slot0.word_template_177 = {}
 slot1 = slot0.word_template_177
 
 function temp()
-	uv0["焦"] = {
-		["焕"] = {
-			["成"] = {
+	uv0["藍"] = {
+		["原"] = {
+			["夕"] = {
+				["妃"] = {
+					this = true
+				}
+			}
+		},
+		["沢"] = {
+			["舞"] = {
+				["音"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["蘭"] = {
+		["迪"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["览"] = {
+		["叫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["懒"] = {
+		["叫"] = {
+			this = true
+		},
+		["教"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["懶"] = {
+		["叫"] = {
+			this = true
+		},
+		["教"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["烂"] = {
+		B = {
+			this = true
+		},
+		["屄"] = {
+			this = true
+		},
+		["逼"] = {
+			this = true
+		},
+		["比"] = {
+			this = true
+		},
+		["党"] = {
+			this = true
+		},
+		["屌"] = {
+			this = true
+		},
+		["货"] = {
+			this = true
+		},
+		["鸟"] = {
+			this = true
+		},
+		["人"] = {
+			this = true
+		},
+		["游"] = {
+			["戏"] = {
+				this = true
+			}
+		},
+		["政"] = {
+			["权"] = {
 				this = true
 			}
 		}
@@ -16,96 +115,37 @@ end
 temp()
 
 function temp()
-	uv0["角"] = {
-		["落"] = {
-			["里"] = {
-				["的"] = {
-					["枪"] = {
-						["重"] = {
-							["建"] = {
-								["帝"] = {
-									["国"] = {
-										["2"] = {
-											["."] = {
-												["0"] = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["狡"] = {
-		["猾"] = {
-			["的"] = {
-				["達"] = {
-					["夫"] = {
-						this = true
-					}
-				},
-				["风"] = {
-					["水"] = {
-						["相"] = {
-							["师"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["脚"] = {
+	uv0["滥"] = {
 		["交"] = {
 			this = true
 		},
-		["奴"] = {
-			this = true
-		},
-		["虐"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["腳"] = {
-		["交"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["剿"] = {
-		["共"] = {
-			["复"] = {
-				["国"] = {
+		["用"] = {
+			["枪"] = {
+				["支"] = {
 					this = true
 				}
 			},
-			["復"] = {
-				["國"] = {
+			["武"] = {
+				["力"] = {
+					this = true
+				}
+			},
+			["政"] = {
+				["府"] = {
+					["权"] = {
+						["力"] = {
+							this = true
+						}
+					}
+				}
+			},
+			["官"] = {
+				["号"] = {
+					this = true
+				}
+			},
+			["权"] = {
+				["力"] = {
 					this = true
 				}
 			}

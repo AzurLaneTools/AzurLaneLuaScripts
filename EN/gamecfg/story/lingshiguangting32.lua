@@ -595,7 +595,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Wow. Not half-bad. What is that tech? The Natural Calculation System applied in practice?",
 			typewriter = {
@@ -793,7 +793,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "You know, I really don't get why you reject me. There's no point even trying.",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Nobody can stop me. Not humanity, not KAN-SEN, not Antiochus.",
 			typewriter = {
@@ -825,7 +825,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Oh, lookie! You've got META friends with you! Boy, you ladies never run out of surprises for me.",
 			typewriter = {
@@ -857,7 +857,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Can't say I do. Have we met somewhere?",
 			typewriter = {
@@ -873,7 +873,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Even so, that's not important right now. Lady, be nice and destroy that annoying teleporter.",
 			typewriter = {
@@ -889,7 +889,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Do that for me, and I'll repay you by turning everyone here into your friends.",
 			typewriter = {
@@ -955,7 +955,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Well, ladies? I'm waaaaaiting~",
 			typewriter = {
@@ -1005,7 +1005,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Whatever. You've already made it clear I can't trust you for one minute.",
 			typewriter = {
@@ -1021,7 +1021,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "The energy's coming from the gate, right? All I need to do is drain the battery.",
 			typewriter = {

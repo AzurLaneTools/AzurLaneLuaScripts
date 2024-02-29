@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Ahah! It's been a while since you brought out the good stuff, ANTI-X.",
 			bgm = "theme-richard",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Is this all for little old me?",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Aww. I wanted to reminisce for a bit first.",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Come on. Didn't you see the light from that beacon?",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "I did. It reminded me of the old days.",
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "I sent a few gifts. What about you?",
 			typewriter = {
 				speed = 0.05,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "And with you, no less! I don't think I've had the pleasure before. You must be very confident in yourself.",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Let me guess – your plan is to hold out as long as possible, hoping you'll win a battle of attrition. Am I right?",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "Heheh. I've got a fun fact for you.",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "I'm actually very, very patient.",
 			typewriter = {
 				speed = 0.05,

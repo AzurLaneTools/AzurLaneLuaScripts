@@ -11,11 +11,20 @@ pg.constellation_challenge_month = {
 	},
 	{
 		id = 2,
-		constellation_icon = "Capricorn",
+		constellation_icon = "Aquarius",
 		stage = {
 			10025,
 			10026,
 			10027
+		}
+	},
+	{
+		id = 3,
+		constellation_icon = "Pisces",
+		stage = {
+			10028,
+			10029,
+			10030
 		}
 	},
 	[6] = {
@@ -84,6 +93,7 @@ pg.constellation_challenge_month = {
 	all = {
 		1,
 		2,
+		3,
 		6,
 		7,
 		8,

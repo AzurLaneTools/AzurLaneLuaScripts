@@ -285,7 +285,8 @@ pg.activity_template = {
 			12003,
 			12004,
 			12005,
-			12006
+			12006,
+			12007
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -10817,6 +10818,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5197] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5197,
+		config_data = {
+			19823
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5200] = {
 		mark = 20240206,
 		id = 5200,
@@ -11176,6 +11218,608 @@ pg.activity_template = {
 					2024,
 					2,
 					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5221] = {
+		mark = 20240229,
+		id = 5221,
+		title_res_tag = "maoxiv4_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 42,
+		config_data = {
+			1790001,
+			1790002,
+			1790003,
+			1790021,
+			1790022,
+			1790023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4MainPage",
+			ui_name = "MaoxiV4MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5222] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5222,
+		config_data = {
+			1790004,
+			1790005,
+			1790006,
+			1790024,
+			1790025,
+			1790026,
+			1790041,
+			1790051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5223] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		id = 5223,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5224] = {
+		mark = 20240229,
+		id = 5224,
+		title_res_tag = "sleeplesscity",
+		type = 74,
+		login_pop = 0,
+		config_id = 5224,
+		is_show = 40,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SleeplessCityPage",
+			ui_name = "SleeplessCityPage"
+		},
+		config_client = {
+			story = {
+				{
+					"ANJINBUYECHENG1"
+				},
+				{
+					"ANJINBUYECHENG2"
+				},
+				{
+					"ANJINBUYECHENG3"
+				},
+				{
+					"ANJINBUYECHENG4"
+				},
+				{
+					"ANJINBUYECHENG5"
+				},
+				{
+					"ANJINBUYECHENG6"
+				},
+				{
+					"ANJINBUYECHENG7"
+				},
+				{
+					"ANJINBUYECHENG8"
+				}
+			}
+		}
+	},
+	[5225] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5225,
+		config_data = {
+			19801,
+			19802,
+			19803,
+			19804,
+			19805,
+			19806,
+			19807,
+			19808,
+			19809,
+			19810,
+			19811,
+			19812,
+			19813,
+			19814,
+			19815,
+			19816,
+			19817,
+			19818,
+			19819,
+			19820,
+			19821,
+			19822,
+			19823
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5226] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5226,
+		config_data = {
+			1795001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5227] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 396,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 5227,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5228] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5228,
+		config_data = {
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5229] = {
+		mark = 20240229,
+		config_client = "",
+		title_res_tag = "maoxiv4_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5229,
+		is_show = 41,
+		id = 5229,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4PtPage",
+			ui_name = "MaoxiV4PtPage"
+		}
+	},
+	[5230] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5230,
+		config_data = {
+			2410,
+			2411,
+			2412,
+			2413,
+			2414,
+			2415,
+			2416,
+			2417,
+			2418,
+			2419,
+			2420,
+			2421,
+			2422,
+			2423,
+			2424,
+			2425,
+			2426,
+			2427,
+			2428,
+			2429,
+			2430,
+			2431,
+			2432,
+			2433,
+			2434,
+			2435,
+			2436
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_suweiaitongmeng",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			use_secretary = false,
+			painting = "shuixingjinian_alter_pt",
+			pt_id = 396
+		}
+	},
+	[5231] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31949,100}]",
+		config_client = "",
+		id = 5231,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5232] = {
+		mark = 20240229,
+		title_res_tag = "",
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 5223,
+		is_show = 0,
+		config_client = "",
+		id = 5232,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					20
 				},
 				{
 					23,
@@ -35299,6 +35943,7 @@ pg.activity_template = {
 		5194,
 		5195,
 		5196,
+		5197,
 		5200,
 		5201,
 		5202,
@@ -35306,6 +35951,18 @@ pg.activity_template = {
 		5211,
 		5212,
 		5213,
+		5221,
+		5222,
+		5223,
+		5224,
+		5225,
+		5226,
+		5227,
+		5228,
+		5229,
+		5230,
+		5231,
+		5232,
 		7011,
 		7012,
 		7013,

@@ -524,7 +524,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Don't leave already. Stay here and have fun with me.",
 			typewriter = {
 				speed = 0.05,
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Nice shot there, lady. Just imagine what a devastating weapon you could be if you became META...",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Hahaha... Ahahahah! AHAHAHAHAHA! Light me up! Reduce me to a pile of ash!",
 			typewriter = {
 				speed = 0.05,
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Release all your pent-up loneliness, bitterness, stress, and anger! Take it all out on me! Don't think, just SHOOT ME!",
 			typewriter = {
 				speed = 0.05,
@@ -762,7 +762,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "That one missed. You're holding yourself back, lady. Or maybe you just don't know where to shoot a person?",
 			typewriter = {
 				speed = 0.05,
@@ -796,7 +796,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "It's no big deal. I'll teach you the ABC of it.",
 			typewriter = {
 				speed = 0.05,
@@ -813,7 +813,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "This is the head, this is the heart. If you want someone dead, those are where you start. Easy to remember, right?",
 			typewriter = {
 				speed = 0.05,
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "There you go! Now we're cooking!",
 			typewriter = {
 				speed = 0.05,
@@ -902,7 +902,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Still, I can sense you're clinging on to a shred of sanity... Fine, have it your way! Let's throw some friends into the mix!",
 			typewriter = {
 				speed = 0.05,

@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 900357,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			stopbgm = true,
@@ -761,7 +761,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dialogueBgAlpha = 0.6,
 			say = "▅■one▆▅",
 			typewriter = {

@@ -540,6 +540,15 @@ function temp()
 			l = {
 				a = {
 					this = true
+				},
+				t = {
+					a = {
+						v = {
+							a = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},
@@ -592,6 +601,15 @@ function temp()
 																								}
 																							}
 																						}
+																					}
+																				}
+																			}
+																		},
+																		M = {
+																			E = {
+																				T = {
+																					A = {
+																						this = true
 																					}
 																				}
 																			}
@@ -1081,6 +1099,21 @@ function temp()
 					t = {
 						s = {
 							k = {
+								y = {
+									[" "] = {
+										S = {
+											o = {
+												y = {
+													u = {
+														z = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								},
 								a = {
 									y = {
 										a = {
@@ -1539,6 +1572,19 @@ function temp()
 					t = {
 						l = {
 							e = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		v = {
+			i = {
+				r = {
+					e = {
+						p = {
+							y = {
 								this = true
 							}
 						}
@@ -8049,6 +8095,19 @@ function temp()
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+			}
+		},
+		g = {
+			n = {
+				e = {
+					v = {
+						o = {
+							y = {
+								this = true
 							}
 						}
 					}

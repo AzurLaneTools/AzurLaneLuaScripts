@@ -4,33 +4,11 @@ slot0.word_template_15 = {}
 slot1 = slot0.word_template_15
 
 function temp()
-	uv0["フ"] = {
-		["ァ"] = {
-			["シ"] = {
-				["ス"] = {
-					["ト"] = {
-						this = true
-					}
-				}
-			},
-			["ッ"] = {
-				["ク"] = {
+	uv0["や"] = {
+		["り"] = {
+			["ま"] = {
+				["ん"] = {
 					this = true
-				}
-			},
-			["ビ"] = {
-				["ョ"] = {
-					this = true
-				}
-			}
-		},
-		["ェ"] = {
-			["ラ"] = {
-				this = true,
-				["チ"] = {
-					["オ"] = {
-						this = true
-					}
 				}
 			}
 		}
@@ -40,19 +18,9 @@ end
 temp()
 
 function temp()
-	uv0["ブ"] = {
-		["ウ"] = {
-			["ヨ"] = {
-				this = true
-			}
-		},
-		["サ"] = {
-			["イ"] = {
-				["ク"] = {
-					this = true
-				}
-			},
-			["ヨ"] = {
+	uv0["よ"] = {
+		["り"] = {
+			["め"] = {
 				this = true
 			}
 		}
@@ -62,21 +30,68 @@ end
 temp()
 
 function temp()
-	uv0["ふ"] = {
-		["ぇ"] = {
-			["ら"] = {
-				this = true,
-				["ち"] = {
-					["お"] = {
-						this = true
-					}
-				}
+	uv0["ラ"] = {
+		["ブ"] = {
+			["ホ"] = {
+				this = true
 			}
-		},
-		["ろ"] = {
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["リ"] = {
+		["ア"] = {
+			["友"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["り"] = {
+		["ょ"] = {
 			["う"] = {
-				["し"] = {
-					["ゃ"] = {
+				["じ"] = {
+					["ょ"] = {
+						["く"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["レ"] = {
+		["イ"] = {
+			["ジ"] = {
+				["ョ"] = {
+					["ウ"] = {
+						this = true
+					}
+				}
+			},
+			["プ"] = {
+				this = true
+			}
+		},
+		["ズ"] = {
+			this = true
+		},
+		["ス"] = {
+			["を"] = {
+				["コ"] = {
+					["ピ"] = {
 						this = true
 					}
 				}
@@ -88,49 +103,9 @@ end
 temp()
 
 function temp()
-	uv0["ぶ"] = {
-		["っ"] = {
-			["か"] = {
-				["け"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["プ"] = {
-		["レ"] = {
-			["ゼ"] = {
-				["ン"] = {
-					this = true
-				}
-			}
-		},
-		["ロ"] = {
-			["市"] = {
-				["民"] = {
-					this = true
-				}
-			},
-			["奴"] = {
-				["隷"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["ぺ"] = {
-		["に"] = {
-			["す"] = {
+	uv0["れ"] = {
+		["い"] = {
+			["ぷ"] = {
 				this = true
 			}
 		}

@@ -4,54 +4,8 @@ slot0.word_template_393 = {}
 slot1 = slot0.word_template_393
 
 function temp()
-	uv0["运"] = {
-		["动"] = {
-			["枪"] = {
-				this = true
-			}
-		},
-		["水"] = {
-			["微"] = {
-				["漾"] = {
-					["人"] = {
-						["却"] = {
-							["震"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["营"] = {
-			this = true,
-			["官"] = {
-				this = true
-			},
-			["人"] = {
-				this = true
-			},
-			["商"] = {
-				this = true
-			},
-			["长"] = {
-				this = true
-			},
-			["者"] = {
-				this = true
-			},
-			["组"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["韞"] = {
-		this = {
+	uv0["撸"] = {
+		["管"] = {
 			this = true
 		}
 	}
@@ -60,69 +14,96 @@ end
 temp()
 
 function temp()
-	uv0["杂"] = {
-		["种"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["砸"] = {
-		["警"] = {
-			["车"] = {
-				this = true
-			}
-		},
-		["你"] = {
-			["饭"] = {
-				["碗"] = {
-					["是"] = {
-						["城"] = {
-							["管"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["雜"] = {
-		["種"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["再"] = {
-		["奸"] = {
-			this = true
-		},
-		["來"] = {
-			["壹"] = {
-				["炮"] = {
+	uv0["庐"] = {
+		["山"] = {
+			["会"] = {
+				["议"] = {
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["捕"] = {
+		["鼠"] = {
+			["理"] = {
+				["论"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["溜"] = {
+		["贺"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["粽"] = {
+		["鲤"] = {
+			this = true
 		},
-		["试"] = {
-			["初"] = {
-				["夜"] = {
-					["情"] = {
-						this = true
+		["\\"] = {
+			x = {
+				["{"] = {
+					["1"] = {
+						F = {
+							["4"] = {
+								D = {
+									["6"] = {
+										["}"] = {
+											j = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["约"] = {
+		["德"] = {
+			["尔"] = {
+				["凳"] = {
+					this = true
+				},
+				["邓"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["氘"] = {
+		["熵"] = {
+			["飞"] = {
+				this = true
 			}
 		}
 	}

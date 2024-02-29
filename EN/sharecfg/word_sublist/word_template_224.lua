@@ -4,11 +4,8 @@ slot0.word_template_224 = {}
 slot1 = slot0.word_template_224
 
 function temp()
-	uv0["隆"] = {
-		["鼻"] = {
-			this = true
-		},
-		["胸"] = {
+	uv0["圮"] = {
+		["綦"] = {
 			this = true
 		}
 	}
@@ -17,29 +14,58 @@ end
 temp()
 
 function temp()
-	uv0["龍"] = {
-		["縛"] = {
-			["監"] = {
-				["禁"] = {
-					["凌"] = {
-						["辱"] = {
-							this = true
+	uv0["仳"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["屁"] = {
+		["民"] = {
+			this = true
+		},
+		["穴"] = {
+			this = true
+		},
+		["眼"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["偏"] = {
+		["偏"] = {
+			["没"] = {
+				["钱"] = {
+					["救"] = {
+						["灾"] = {
+							["区"] = {
+								this = true
+							}
 						}
 					}
 				}
 			}
 		},
-		["虎"] = {
-			["豹"] = {
-				this = true
-			},
-			["機"] = {
-				this = true
+		["要"] = {
+			["推"] = {
+				["到"] = {
+					["胡"] = {
+						this = true
+					}
+				}
 			}
 		},
-		["火"] = {
-			["之"] = {
-				["心"] = {
+		["执"] = {
+			["女"] = {
+				["郎"] = {
 					this = true
 				}
 			}
@@ -50,8 +76,8 @@ end
 temp()
 
 function temp()
-	uv0["窿"] = {
-		["鼻"] = {
+	uv0["諞"] = {
+		this = {
 			this = true
 		}
 	}
@@ -60,30 +86,11 @@ end
 temp()
 
 function temp()
-	uv0["拢"] = {
-		["唬"] = {
-			["饑"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["楼"] = {
-		["继"] = {
-			["伟"] = {
-				this = true
-			}
-		},
-		["市"] = {
-			["三"] = {
-				["字"] = {
-					["经"] = {
-						this = true
-					}
+	uv0["片"] = {
+		["冈"] = {
+			["未"] = {
+				["来"] = {
+					this = true
 				}
 			}
 		}
@@ -93,13 +100,19 @@ end
 temp()
 
 function temp()
-	uv0["搂"] = {
-		["着"] = {
-			["小"] = {
-				["姐"] = {
-					["打"] = {
-						["炮"] = {
-							this = true
+	uv0["騙"] = {
+		["我"] = {
+			["們"] = {
+				["一"] = {
+					["切"] = {
+						["以"] = {
+							["民"] = {
+								["為"] = {
+									["主"] = {
+										this = true
+									}
+								}
+							}
 						}
 					}
 				}

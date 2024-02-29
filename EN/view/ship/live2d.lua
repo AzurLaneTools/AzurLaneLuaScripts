@@ -10,8 +10,11 @@ slot0.DRAG_TIME_ACTION = 1
 slot0.DRAG_CLICK_ACTION = 2
 slot0.DRAG_DOWN_ACTION = 3
 slot0.DRAG_RELATION_XY = 4
+slot0.DRAG_RELATION_IDLE = 5
 slot0.EVENT_ACTION_APPLY = "event action apply"
 slot0.EVENT_ACTION_ABLE = "event action able"
+slot0.EVENT_ADD_PARAMETER_COM = "event add parameter com "
+slot0.EVENT_REMOVE_PARAMETER_COM = "event remove parameter com "
 slot5 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
@@ -24,9 +27,17 @@ function slot0.GenerateData(slot0)
 			slot0.ship = slot1.ship
 			slot0.parent = slot1.parent
 			slot0.scale = slot1.scale
+			slot2 = slot0:GetShipSkinConfig().live2d_offset
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
-			slot0.position = slot1.position + BuildVector3(slot0:GetShipSkinConfig().live2d_offset)
+			slot0.skinId = slot0:GetShipSkinConfig().id
+			slot0.spineUseLive2d = false
+
+			if slot0.skinId then
+				slot0.spineUseLive2d = pg.ship_skin_template[slot0.skinId].spine_use_live2d == 1
+			end
+
+			slot0.position = slot1.position + BuildVector3(slot2)
 			slot0.l2dDragRate = slot0:GetShipSkinConfig().l2d_drag_rate
 			slot0.loadPrefs = slot1.loadPrefs
 		end,
@@ -110,6 +121,8 @@ function slot9(slot0, slot1, slot2)
 
 	if not slot0.isPlaying or slot2 then
 		if uv1.action2Id[slot1] then
+			slot0.playActionName = slot1
+
 			slot0.liveCom:SetAction(slot3)
 			slot0:live2dActionChange(true)
 
@@ -170,6 +183,10 @@ function slot11(slot0, slot1, slot2)
 		if slot2.callback then
 			slot2.callback()
 		end
+	elseif slot1 == Live2D.EVENT_ADD_PARAMETER_COM then
+		slot0.liveCom:AddParameterValue(slot2.com, slot2.start, uv2[slot2.mode])
+	elseif slot1 == Live2D.EVENT_REMOVE_PARAMETER_COM then
+		slot0.liveCom:removeParameterValue(slot2.com)
 	end
 end
 
@@ -497,7 +514,7 @@ function slot0.loadLive2dData(slot0)
 		return
 	end
 
-	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 then
+	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and not slot0.live2dData.spineUseLive2d then
 		if slot0.drags then
 			for slot4 = 1, #slot0.drags do
 				slot0.drags[slot4]:clearData()
@@ -553,7 +570,7 @@ function slot0.saveLive2dData(slot0)
 		return
 	end
 
-	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 then
+	if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and not slot0.live2dData.spineUseLive2d then
 		return
 	end
 
@@ -672,22 +689,28 @@ function slot0.applyActiveData(slot0, slot1, slot2)
 	end
 
 	if slot5 then
-		if type(slot5) == "number" and slot5 >= 0 then
-			slot0:changeIdleIndex(slot5)
-		elseif type(slot5) == "table" then
-			slot7 = {}
+		slot7 = nil
 
-			for slot11, slot12 in ipairs(slot5) do
-				if slot12 == slot0.idleIndex then
+		if type(slot5) == "number" and slot5 >= 0 then
+			slot7 = slot5
+		elseif type(slot5) == "table" then
+			slot8 = {}
+
+			for slot12, slot13 in ipairs(slot5) do
+				if slot13 == slot0.idleIndex then
 					if slot6 then
-						table.insert(slot7, slot12)
+						table.insert(slot8, slot13)
 					end
 				else
-					table.insert(slot7, slot12)
+					table.insert(slot8, slot13)
 				end
 			end
 
-			slot0:changeIdleIndex(slot7[math.random(1, #slot7)])
+			slot7 = slot8[math.random(1, #slot8)]
+		end
+
+		if slot7 then
+			slot0:changeIdleIndex(slot7)
 		end
 
 		slot0:saveLive2dData()
@@ -716,7 +739,8 @@ function slot0.updateDragsSateData(slot0)
 	slot1 = {
 		idleIndex = slot0.idleIndex,
 		isPlaying = slot0.isPlaying,
-		ignoreReact = slot0.ignoreReact
+		ignoreReact = slot0.ignoreReact,
+		actionName = slot0.playActionName
 	}
 
 	if slot0.drags then

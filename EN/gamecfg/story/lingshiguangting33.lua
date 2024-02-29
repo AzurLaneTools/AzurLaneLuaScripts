@@ -267,7 +267,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Why do you keep struggling?",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "You're all going to go META in the end. That's just a fact.",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "The future's set in stone. There's nothing you can do to change it. Haven't you known that for ages now?",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Look at us. We're living weapons. Let's stop pretending we're more than that and just do what we do best – fight!",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "Or... you can keep denying what you are, and I'll just reduce you to scrap.",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "All it'll do is break one little branch. And I've got all the time in the universe to–",
 			typewriter = {

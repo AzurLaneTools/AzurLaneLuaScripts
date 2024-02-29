@@ -10288,7 +10288,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Ulrich von Hutten guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Sovetsky Soyuz guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -24000,6 +24000,14 @@ _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "The enemy is charging up a powerful attack! <color=#f1f102>Focus fire to interrupt it!</color>"
 }
 
+_G.pg.base.gametip.battle_text_common_2 = {
+	tip = "Warning: <color=#ffc038>battle data abnormality</color> detected. Your fleet's <color=#f1f102>Augment Modules and skills will be ineffective!</color>"
+}
+
+_G.pg.base.gametip.battle_text_common_3 = {
+	tip = "<color=#f1f102>The enemy's DMG dealt is greatly increased, but their DMG taken increases over time.</color>"
+}
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "The Horseman is charging <color=#f1f102>left</color>!"
 }
@@ -24098,6 +24106,10 @@ _G.pg.base.gametip.battle_text_haidao_1 = {
 
 _G.pg.base.gametip.battle_text_haidao_2 = {
 	tip = "<color=#f1f102>/// The Nebula Guardian attacks! São Martinho has powered up! ///</color>"
+}
+
+_G.pg.base.gametip.battle_text_tongmeng_1 = {
+	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -27172,7 +27184,7 @@ _G.pg.base.gametip.skin_purchase_confirm = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_lock = {
-	tip = "Available on $1"
+	tip = "This may be purchased after unlocking $1."
 }
 
 _G.pg.base.gametip.skin_exchange_title = {
@@ -27200,7 +27212,7 @@ _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 }
 
 _G.pg.base.gametip.skin_discount_timelimit = {
-	tip = "The item $1 will expire after $2 maintenance, please use it in time in the Outfit Shop."
+	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
 }
 
 _G.pg.base.gametip.shan_luan_task_progress_tip = {
@@ -27786,4 +27798,24 @@ _G.pg.base.gametip.child_callname_tip = {
 
 _G.pg.base.gametip.child_plan_no_cost = {
 	tip = "- No Cost -"
+}
+
+_G.pg.base.gametip.word_emoji_unlock = {
+	tip = "New Sticker Unlocked!"
+}
+
+_G.pg.base.gametip.word_get_emoji = {
+	tip = "「$1」"
+}
+
+_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+	tip = "(<color=#92fc63>Bonus $1</color>)"
+}
+
+_G.pg.base.gametip.skin_shop_buy_confirm = {
+	tip = "Do you want to use <color=$1>$2 Gems</color> to buy <color=#92fc63FF>$3</color>?"
+}
+
+_G.pg.base.gametip.activity_victory = {
+	tip = "Sortie and secure victory."
 }

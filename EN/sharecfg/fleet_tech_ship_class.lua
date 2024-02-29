@@ -2810,7 +2810,19 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 136,
 		t_level = 4,
 		ships = {
-			70109
+			70109,
+			70112
+		}
+	},
+	[70106] = {
+		shiptype = 1,
+		name = "Ognevoy-Class",
+		nation = 7,
+		id = 70106,
+		t_level_1 = 131,
+		t_level = 6,
+		ships = {
+			70111
 		}
 	},
 	[70201] = {
@@ -2901,7 +2913,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 5,
 		ships = {
 			70501,
-			70507
+			70507,
+			70508
 		}
 	},
 	[70502] = {
@@ -2912,6 +2925,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 8,
 		ships = {
+			70502,
 			70504,
 			70505
 		}
@@ -3430,6 +3444,17 @@ pg.fleet_tech_ship_class = {
 			970206
 		}
 	},
+	[970207] = {
+		shiptype = 2,
+		name = "Pamiat' Merkuria META",
+		nation = 97,
+		id = 970207,
+		t_level_1 = 3,
+		t_level = 4,
+		ships = {
+			970207
+		}
+	},
 	[970301] = {
 		shiptype = 3,
 		name = "Trento META",
@@ -3871,6 +3896,7 @@ pg.fleet_tech_ship_class = {
 		70103,
 		70104,
 		70105,
+		70106,
 		70201,
 		70202,
 		70203,
@@ -3926,6 +3952,7 @@ pg.fleet_tech_ship_class = {
 		970204,
 		970205,
 		970206,
+		970207,
 		970301,
 		970302,
 		970401,

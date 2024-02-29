@@ -1326,6 +1326,15 @@ pg.login = {
 			}
 		}
 	},
+	[47] = {
+		id = 47,
+		login_static = "login",
+		date = "stop",
+		op_play = 1,
+		op_time = "stop",
+		login_cri = "",
+		bgm = ""
+	},
 	[4001] = {
 		id = 4001,
 		login_static = "login_20231116us",
@@ -1369,6 +1378,7 @@ pg.login = {
 		44,
 		45,
 		46,
+		47,
 		4001
 	}
 }

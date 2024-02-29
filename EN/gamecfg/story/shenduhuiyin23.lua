@@ -438,7 +438,7 @@ return {
 		},
 		{
 			actor = 900322,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Yup, that's me!",
 			typewriter = {
 				speed = 0.05,
@@ -614,7 +614,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Come on, lady. Is this any way to greet someone?",
 			typewriter = {
 				speed = 0.05,
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "Hey, that's what I'm wondering. Why are YOU people here?",
 			typewriter = {
 				speed = 0.05,

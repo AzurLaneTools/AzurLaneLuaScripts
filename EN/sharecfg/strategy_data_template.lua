@@ -247,7 +247,12 @@ pg.strategy_data_template = setmetatable({
 		200676,
 		200679,
 		200732,
-		200735
+		200735,
+		200770,
+		200774,
+		200777,
+		200780,
+		200783
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3023,6 +3028,61 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		icon = "200735",
 		buff_type = 0,
 		desc = "The floating fleet is engaging in electronic warfare. All enemies have 5.0% decreased ACC and EVA and take 5.0% more DMG.",
+		arg = {}
+	},
+	[200770] = {
+		buff_id = 200770,
+		name = "Antarctic Cold",
+		iconSize = "",
+		type = 10,
+		id = 200770,
+		icon = "200770",
+		buff_type = 0,
+		desc = "The freezing Antarctic environment decreases your fleet's SPD by 3 and EVA by 10.0%. During battle, blizzards appear that hurt both friend and foe.",
+		arg = {}
+	},
+	[200774] = {
+		buff_id = 200774,
+		name = "Command Support - Helena META",
+		iconSize = "",
+		type = 10,
+		id = 200774,
+		icon = "200774",
+		buff_type = 0,
+		desc = "Coordination and cooperation between all the fleets has been made possible thanks to Helena META's tactical command network. \nDuring certain battles, your fleet receives supporting barrages from the Azur Lane Combined Fleet.",
+		arg = {}
+	},
+	[200777] = {
+		buff_id = 200777,
+		name = "Command Support - Helena META",
+		iconSize = "",
+		type = 10,
+		id = 200777,
+		icon = "200774",
+		buff_type = 0,
+		desc = "Coordination and cooperation between all the fleets has been made possible thanks to Helena META's tactical command network. \nDuring certain battles, your fleet receives supporting barrages from the Azur Lane Combined Fleet.",
+		arg = {}
+	},
+	[200780] = {
+		buff_id = 200780,
+		name = "Experimental Bomber Support",
+		iconSize = "",
+		type = 10,
+		id = 200780,
+		icon = "200780",
+		buff_type = 0,
+		desc = "Saratoga is providing support with her secret weapon. During battle, special airstrikes will aid your fleet.",
+		arg = {}
+	},
+	[200783] = {
+		buff_id = 200783,
+		name = "Experimental Bomber Support",
+		iconSize = "",
+		type = 10,
+		id = 200783,
+		icon = "200780",
+		buff_type = 0,
+		desc = "Saratoga is providing support with her secret weapon. During battle, special airstrikes will aid your fleet.",
 		arg = {}
 	}
 }
