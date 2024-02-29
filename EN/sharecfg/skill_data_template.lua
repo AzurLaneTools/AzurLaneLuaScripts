@@ -88487,7 +88487,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 		id = 17630,
 		type = 1,
 		max_level = 10,
-		desc = "When the battle starts, if there is another Northern Parliament ship in your fleet: gains the buff Max Firepower; every 20s, $1 chance to increase this ship's FP by $2 for 10s. Every 10s: 70.0% chance to fire a $3 special barrage (DMG is based on the skill's level).",
+		desc = "When the battle starts, if there is another Northern Parliament ship in your fleet: gains the buff Max Firepower; every 20s, $1 chance to increase this ship's FP by $2 for 10s. Every 10s: 70.0% chance to fire a $3 special barrage (DMG is based on the skill's level)$4.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88507,7 +88507,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 			},
 			{
 				"",
-				"，若该弹幕击破敌舰，额外触发一轮该弹幕（该效果每5秒最多触发2次）"
+				", if this barrage sinks an enemy ship, fires this barrage again (up to 2 activations possible within 5s)"
 			}
 		},
 		desc_add = {
@@ -88654,7 +88654,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 					""
 				},
 				{
-					"，若该弹幕击破敌舰，额外触发一轮该弹幕（该效果每5秒最多触发2次）"
+					", if this barrage sinks an enemy ship, fires this barrage again (up to 2 activations possible within 5s)"
 				}
 			}
 		}

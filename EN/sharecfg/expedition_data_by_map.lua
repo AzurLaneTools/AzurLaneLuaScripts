@@ -16491,7 +16491,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790025] = {
 		map = 1790025,
-		name = "Snowrealm Peregrination·SP|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -16535,7 +16535,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790026] = {
 		map = 1790026,
-		name = "Snowrealm Peregrination·EX|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

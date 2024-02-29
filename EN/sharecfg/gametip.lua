@@ -24473,386 +24473,386 @@ cs.gametip = {
 	},
 	skin_discount_timelimit = {
 		921215,
-		155,
+		175,
 		true
 	},
 	shan_luan_task_progress_tip = {
-		921370,
+		921390,
 		104,
 		true
 	},
 	shan_luan_task_level_tip = {
-		921474,
+		921494,
 		104,
 		true
 	},
 	shan_luan_task_help = {
-		921578,
+		921598,
 		876,
 		true
 	},
 	shan_luan_task_buff_default = {
-		922454,
+		922474,
 		94,
 		true
 	},
 	senran_pt_consume_tip = {
-		922548,
+		922568,
 		228,
 		true
 	},
 	senran_pt_not_enough = {
-		922776,
+		922796,
 		139,
 		true
 	},
 	senran_pt_help = {
-		922915,
+		922935,
 		595,
 		true
 	},
 	senran_pt_rank = {
-		923510,
+		923530,
 		101,
 		true
 	},
 	senran_pt_words_feiniao = {
-		923611,
+		923631,
 		420,
 		true
 	},
 	senran_pt_words_banjiu = {
-		924031,
+		924051,
 		524,
 		true
 	},
 	senran_pt_words_yan = {
-		924555,
+		924575,
 		419,
 		true
 	},
 	senran_pt_words_xuequan = {
-		924974,
+		924994,
 		453,
 		true
 	},
 	senran_pt_words_xuebugui = {
-		925427,
+		925447,
 		433,
 		true
 	},
 	senran_pt_words_zi = {
-		925860,
+		925880,
 		394,
 		true
 	},
 	senran_pt_words_xishao = {
-		926254,
+		926274,
 		392,
 		true
 	},
 	senrankagura_backhill_help = {
-		926646,
+		926666,
 		1252,
 		true
 	},
 	vote_lable_not_start = {
-		927898,
+		927918,
 		90,
 		true
 	},
 	vote_lable_voting = {
-		927988,
+		928008,
 		92,
 		true
 	},
 	vote_lable_title = {
-		928080,
+		928100,
 		173,
 		true
 	},
 	vote_lable_acc_title_1 = {
-		928253,
+		928273,
 		97,
 		true
 	},
 	vote_lable_acc_title_2 = {
-		928350,
+		928370,
 		98,
 		true
 	},
 	vote_lable_curr_title_1 = {
-		928448,
+		928468,
 		103,
 		true
 	},
 	vote_lable_curr_title_2 = {
-		928551,
+		928571,
 		104,
 		true
 	},
 	vote_lable_window_title = {
-		928655,
+		928675,
 		94,
 		true
 	},
 	vote_lable_rearch = {
-		928749,
+		928769,
 		90,
 		true
 	},
 	vote_lable_daily_task_title = {
-		928839,
+		928859,
 		98,
 		true
 	},
 	vote_lable_daily_task_tip = {
-		928937,
+		928957,
 		138,
 		true
 	},
 	vote_lable_task_title = {
-		929075,
+		929095,
 		96,
 		true
 	},
 	vote_lable_task_list_is_empty = {
-		929171,
+		929191,
 		124,
 		true
 	},
 	vote_lable_ship_votes = {
-		929295,
+		929315,
 		95,
 		true
 	},
 	vote_help_2023 = {
-		929390,
+		929410,
 		5208,
 		true
 	},
 	vote_tip_level_limit = {
-		934598,
+		934618,
 		139,
 		true
 	},
 	vote_label_rank = {
-		934737,
+		934757,
 		83,
 		true
 	},
 	vote_label_rank_fresh_time_tip = {
-		934820,
+		934840,
 		135,
 		true
 	},
 	vote_tip_area_closed = {
-		934955,
+		934975,
 		102,
 		true
 	},
 	commander_skill_ui_info = {
-		935057,
+		935077,
 		91,
 		true
 	},
 	commander_skill_ui_confirm = {
-		935148,
+		935168,
 		97,
 		true
 	},
 	commander_formation_prefab_fleet = {
-		935245,
+		935265,
 		102,
 		true
 	},
 	rect_ship_card_tpl_add = {
-		935347,
+		935367,
 		96,
 		true
 	},
 	newyear2024_backhill_help = {
-		935443,
+		935463,
 		1024,
 		true
 	},
 	last_times_sign = {
-		936467,
+		936487,
 		100,
 		true
 	},
 	skin_page_sign = {
-		936567,
+		936587,
 		83,
 		true
 	},
 	skin_page_desc = {
-		936650,
+		936670,
 		178,
 		true
 	},
 	live2d_reset_desc = {
-		936828,
+		936848,
 		110,
 		true
 	},
 	skin_exchange_usetip = {
-		936938,
+		936958,
 		138,
 		true
 	},
 	blackfriday_pack_select_skinall_dialog = {
-		937076,
+		937096,
 		211,
 		true
 	},
 	not_use_ticket_to_buy_skin = {
-		937287,
+		937307,
 		113,
 		true
 	},
 	skin_purchase_over_price = {
-		937400,
+		937420,
 		337,
 		true
 	},
 	help_chunjie2024 = {
-		937737,
+		937757,
 		1357,
 		true
 	},
 	child_random_polaroid_drop = {
-		939094,
+		939114,
 		97,
 		true
 	},
 	child_random_ops_drop = {
-		939191,
+		939211,
 		99,
 		true
 	},
 	child_refresh_sure_tip = {
-		939290,
+		939310,
 		118,
 		true
 	},
 	child_target_set_sure_tip = {
-		939408,
+		939428,
 		225,
 		true
 	},
 	child_polaroid_lock_tip = {
-		939633,
+		939653,
 		128,
 		true
 	},
 	child_task_finish_all = {
-		939761,
+		939781,
 		115,
 		true
 	},
 	child_unlock_new_secretary = {
-		939876,
+		939896,
 		197,
 		true
 	},
 	child_no_resource = {
-		940073,
+		940093,
 		103,
 		true
 	},
 	child_target_set_empty = {
-		940176,
+		940196,
 		110,
 		true
 	},
 	child_target_set_skip = {
-		940286,
+		940306,
 		132,
 		true
 	},
 	child_news_import_empty = {
-		940418,
+		940438,
 		130,
 		true
 	},
 	child_news_other_empty = {
-		940548,
+		940568,
 		116,
 		true
 	},
 	word_week_day1 = {
-		940664,
+		940684,
 		84,
 		true
 	},
 	word_week_day2 = {
-		940748,
+		940768,
 		85,
 		true
 	},
 	word_week_day3 = {
-		940833,
+		940853,
 		87,
 		true
 	},
 	word_week_day4 = {
-		940920,
+		940940,
 		86,
 		true
 	},
 	word_week_day5 = {
-		941006,
+		941026,
 		84,
 		true
 	},
 	word_week_day6 = {
-		941090,
+		941110,
 		86,
 		true
 	},
 	word_week_day7 = {
-		941176,
+		941196,
 		84,
 		true
 	},
 	child_shop_price_title = {
-		941260,
+		941280,
 		92,
 		true
 	},
 	child_callname_tip = {
-		941352,
+		941372,
 		104,
 		true
 	},
 	child_plan_no_cost = {
-		941456,
+		941476,
 		93,
 		true
 	},
 	word_emoji_unlock = {
-		941549,
+		941569,
 		102,
 		true
 	},
 	word_get_emoji = {
-		941651,
+		941671,
 		86,
 		true
 	},
 	word_show_extra_reward_at_fudai_dialog = {
-		941737,
+		941757,
 		136,
 		true
 	},
 	skin_shop_buy_confirm = {
-		941873,
+		941893,
 		166,
 		true
 	},
 	activity_victory = {
-		942039,
+		942059,
 		106,
 		true
 	}

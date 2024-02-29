@@ -155875,7 +155875,7 @@ _G.pg.base.item_virtual_data_statistics[59531] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59532] = {
-	display = "Used to exchange for Snowrealm Peregrination. Removed after the event ends.",
+	display = "Exchange currency used in the \"Snowrealm Peregrination\" event. Will disappear after the event period ends.",
 	name = "Antarctic Crystal Sample",
 	max_num = 0,
 	type = 98,

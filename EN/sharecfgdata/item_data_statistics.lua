@@ -86934,7 +86934,7 @@ _G.pg.base.item_data_statistics[81203] = {
 
 _G.pg.base.item_data_statistics[81400] = {
 	open_directly = 1,
-	name = "Cyber City Lucky Box ",
+	name = "Cyber City Lucky Box",
 	display = "Contains 1x random skin (Cyber City), 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
 	type = 17,
 	display_effect = "",

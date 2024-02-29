@@ -27212,7 +27212,7 @@ _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 }
 
 _G.pg.base.gametip.skin_discount_timelimit = {
-	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
+	tip = "The item $1 will expire after $2 maintenance, please use it in time in the Outfit Shop."
 }
 
 _G.pg.base.gametip.shan_luan_task_progress_tip = {
