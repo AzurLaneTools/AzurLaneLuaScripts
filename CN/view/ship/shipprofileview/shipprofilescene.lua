@@ -75,12 +75,12 @@ function slot0.init(slot0)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
 
 	GetComponent(slot0:findTF("L2D_btn", slot0.blurPanel), typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("L2D_btn/GameObject", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0:findTF("L2D_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
 
 	slot0.spinePaintingBtn = slot0:findTF("SP_btn", slot0.blurPanel)
 
 	GetComponent(slot0.spinePaintingBtn, typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("SP_btn/GameObject", slot0.blurPanel), typeof(Image)):SetNativeSize()
+	GetComponent(slot0:findTF("SP_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
 	GetComponent(slot0:findTF("adapt/top/title", slot0.blurPanel), typeof(Image)):SetNativeSize()
 
 	slot1 = slot0.spinePaintingBtn
@@ -468,13 +468,23 @@ function slot0.ShiftSkin(slot0, slot1)
 	slot0.live2DBtn:Disable()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
 
+	slot2 = nil
+
+	LoadSpriteAtlasAsync("ui/commonUI_atlas", slot1 and slot1.spine_use_live2d == 1 and "spine_painting_bg" or "live2d_bg", function (slot0)
+		GetComponent(uv0:findTF("L2D_btn", uv0.blurPanel), typeof(Image)).sprite = slot0
+		GetComponent(uv0:findTF("L2D_btn/img", uv0.blurPanel), typeof(Image)).sprite = slot0
+
+		GetComponent(uv0:findTF("L2D_btn", uv0.blurPanel), typeof(Image)):SetNativeSize()
+		GetComponent(uv0:findTF("L2D_btn/img", uv0.blurPanel), typeof(Image)):SetNativeSize()
+	end)
+
 	slot0.spinePaintingisOn = false
 
 	slot0:updateSpinePaintingState()
 	slot0:DestroySpinePainting()
 	slot0.pages[uv0.INDEX_PROFILE]:ExecuteAction("Flush", slot1, false)
 
-	slot3 = nil
+	slot4 = nil
 
 	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans, slot0.skin.id))
 

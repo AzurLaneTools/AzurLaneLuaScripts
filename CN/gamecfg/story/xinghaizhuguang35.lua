@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，苏维埃同盟正躺在大厅中央的某个机械装置中。",
+			say = "此刻，{namecode:529:苏维埃同盟}正躺在大厅中央的某个机械装置中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "或许……是同盟同志的心智魔方里存在某种固有限制。",
+			say = "或许……是{namecode:530:同盟}同志的心智魔方里存在某种固有限制。",
 			painting = {
 				alpha = 0.3,
 				time = 1

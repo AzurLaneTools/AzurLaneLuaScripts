@@ -128,7 +128,7 @@ return {
 			actor = 701060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同盟同志，接下来我们还要继续向前开路么？",
+			say = "{namecode:530:同盟}同志，接下来我们还要继续向前开路么？",
 			painting = {
 				alpha = 0.3,
 				time = 1

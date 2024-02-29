@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "极光汇聚之处代表着海上的异常之处”，同盟同志在布置任务的时候有这么说过吧~",
+			say = "极光汇聚之处代表着海上的异常之处”，{namecode:530:同盟}同志在布置任务的时候有这么说过吧~",
 			flashout = {
 				black = true,
 				dur = 1,

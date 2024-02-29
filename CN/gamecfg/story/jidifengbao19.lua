@@ -355,7 +355,7 @@ return {
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "…[杂音]…我是…[杂音]…同盟…[杂音]…",
+			say = "…[杂音]…我是…[杂音]…{namecode:530:同盟}…[杂音]…",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "立刻呼叫苏维埃同盟，询问一下到底发生了什么事！",
+			say = "立刻呼叫{namecode:529:苏维埃同盟}，询问一下到底发生了什么事！",
 			painting = {
 				alpha = 0.3,
 				time = 1

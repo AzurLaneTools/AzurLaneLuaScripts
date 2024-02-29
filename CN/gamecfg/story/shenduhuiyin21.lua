@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过同步任务可不能交给你哦，这个可是苏维埃同盟指名给我的任务。",
+			say = "不过同步任务可不能交给你哦，这个可是{namecode:529:苏维埃同盟}指名给我的任务。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "呵呵，没问题。等任务顺利结束之后，我会跟苏维埃同盟好好说一说的~",
+			say = "呵呵，没问题。等任务顺利结束之后，我会跟{namecode:529:苏维埃同盟}好好说一说的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

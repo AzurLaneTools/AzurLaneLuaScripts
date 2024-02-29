@@ -781,7 +781,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫同志难道忘了，同盟同志在出发前可是专门说了要我们通力合作哦。",
+			say = "古比雪夫同志难道忘了，{namecode:530:同盟}同志在出发前可是专门说了要我们通力合作哦。",
 			painting = {
 				alpha = 1,
 				time = 0

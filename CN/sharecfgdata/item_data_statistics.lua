@@ -14338,6 +14338,36 @@ _G.pg.base.item_data_statistics[21029] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21030] = {
+	open_directly = 0,
+	name = "结晶：水星纪念·META",
+	display = "水星纪念·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	type = 4,
+	display_effect = "",
+	id = 21030,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21030",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -23074,6 +23104,130 @@ _G.pg.base.item_data_statistics[30352] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30353] = {
+	open_directly = 1,
+	name = "外观装备箱(罪恶都市)",
+	display = "可以获得一件随机的罪恶都市风格外观装备",
+	type = 11,
+	display_effect = "",
+	id = 30353,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30353",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -31554,6 +31708,218 @@ _G.pg.base.item_data_statistics[30536] = {
 		{
 			9,
 			457,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30537] = {
+	open_directly = 0,
+	name = "定向外观装备箱(罪恶都市)",
+	display = "使用后可从「罪恶都市」主题外观装备中任意选择一种获得1个",
+	type = 13,
+	display_effect = "",
+	id = 30537,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
 			1
 		}
 	}

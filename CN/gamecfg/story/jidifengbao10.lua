@@ -285,7 +285,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然如同盟同志预料的一样。",
+			say = "果然如{namecode:530:同盟}同志预料的一样。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………又是苏维埃同盟发的么？",
+			say = "…………又是{namecode:529:苏维埃同盟}发的么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

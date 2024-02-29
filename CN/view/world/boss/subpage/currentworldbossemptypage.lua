@@ -51,7 +51,7 @@ function slot0.OnUpdate(slot0)
 	setActive(slot0.noItem, not slot3)
 
 	if slot2 then
-		slot0.timeTxt.text = pg.TimeMgr.GetInstance():STimeDescC(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[1]), "%Y.%m.%d") .. "~" .. pg.TimeMgr.GetInstance():STimeDescC(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2]), "%Y.%m.%d")
+		slot0.timeTxt.text = pg.TimeMgr.GetInstance():DescDateFromConfig(slot1[1]) .. "~" .. pg.TimeMgr.GetInstance():DescDateFromConfig(slot1[2])
 	else
 		slot0.timeTxt.text = ""
 	end

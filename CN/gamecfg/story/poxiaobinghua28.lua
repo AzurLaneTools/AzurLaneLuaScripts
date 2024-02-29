@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			actor = 705040,
 			nameColor = "#a9f548",
-			say = "哦！苏维埃同盟，你已经知道这件事了么。",
+			say = "哦！{namecode:529:苏维埃同盟}，你已经知道这件事了么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

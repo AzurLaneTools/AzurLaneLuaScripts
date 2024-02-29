@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同盟同志相信我的直觉，你们呢？",
+			say = "{namecode:530:同盟}同志相信我的直觉，你们呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1

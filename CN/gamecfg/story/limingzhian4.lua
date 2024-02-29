@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "一处地点不明所属机构不明的昏暗房间中，苏维埃同盟正仔细阅读着行动报告。",
+			say = "一处地点不明所属机构不明的昏暗房间中，{namecode:529:苏维埃同盟}正仔细阅读着行动报告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "通讯中断了，但是苏维埃同盟并没有做出反应。",
+			say = "通讯中断了，但是{namecode:529:苏维埃同盟}并没有做出反应。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

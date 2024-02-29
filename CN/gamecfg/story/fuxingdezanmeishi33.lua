@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 702020,
-			say = "有一个来自苏维埃同盟的绝密命令，必须要用这种绝对安全的方式向你传达哦。",
+			say = "有一个来自{namecode:529:苏维埃同盟}的绝密命令，必须要用这种绝对安全的方式向你传达哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

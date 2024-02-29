@@ -77,7 +77,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,7 +269,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,7 +317,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "{namecode:529:苏维埃同盟}",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你久等了，苏维埃同盟……",
+			say = "让你久等了，{namecode:529:苏维埃同盟}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

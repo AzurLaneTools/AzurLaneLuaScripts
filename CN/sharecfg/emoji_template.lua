@@ -416,6 +416,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 1,
+		item_desc = "聊天表情：惊了，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		item_name = "聊天表情：惊了 ",
+		id = 33,
+		index = 73,
+		icon = "",
+		pic = "33",
+		desc = "<color=#92fc63>[惊了]</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		item_desc = "聊天表情：快住手，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		item_name = "聊天表情：快住手 ",
+		id = 34,
+		index = 74,
+		icon = "",
+		pic = "34",
+		desc = "<color=#92fc63>[快住手]</color>",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		item_desc = "",
@@ -2100,6 +2126,8 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
+		33,
+		34,
 		41,
 		42,
 		43,

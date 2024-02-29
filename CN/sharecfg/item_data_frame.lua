@@ -435,10 +435,10 @@ pg.item_data_frame = {
 	[329] = {
 		time_limit_type = 0,
 		name = "雪域寒星",
-		gain_by = "",
+		gain_by = "雪境迷踪",
 		id = 329,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「跨越冰山，穿越雪原，定义自我，见证未来。」</color>\n「雪境迷踪」活动获取",
 		scene = {}
 	},
 	[401] = {
@@ -657,6 +657,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>结晶之中闪烁着水瓶座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.02.01-24.02.29）",
 		scene = {}
 	},
+	[10010] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·双鱼座",
+		gain_by = "",
+		id = 10010,
+		time_second = 0,
+		desc = "<color=#ffffff>结晶之中闪烁着双鱼座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （24.03.01-24.03.31）",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -730,6 +739,7 @@ pg.item_data_frame = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010
 	}
 }

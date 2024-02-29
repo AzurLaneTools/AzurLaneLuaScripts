@@ -460,7 +460,7 @@ return {
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			blackBg = true,
-			say = "————苏维埃同盟？",
+			say = "————{namecode:529:苏维埃同盟}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

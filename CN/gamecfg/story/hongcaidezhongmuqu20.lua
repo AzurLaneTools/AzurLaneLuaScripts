@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "根据苏维埃同盟的情报，舰队行动重点已经从排除铁血幻影转为了对斯卡帕湾进行包围。",
+			say = "根据{namecode:529:苏维埃同盟}的情报，舰队行动重点已经从排除铁血幻影转为了对斯卡帕湾进行包围。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

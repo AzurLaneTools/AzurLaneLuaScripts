@@ -94,7 +94,7 @@ return {
 			},
 			options = {
 				{
-					content = "不会又是苏维埃同盟吧……",
+					content = "不会又是{namecode:529:苏维埃同盟}吧……",
 					flag = 1
 				},
 				{
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "之前苏维埃同盟应该发出过警告，你们控制的海域远没有自己想象中的稳定。",
+			say = "之前{namecode:529:苏维埃同盟}应该发出过警告，你们控制的海域远没有自己想象中的稳定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

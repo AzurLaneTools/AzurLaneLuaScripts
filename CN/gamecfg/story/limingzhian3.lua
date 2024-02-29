@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏维埃同盟甚至在舰装尚未完成的时候就亲自加入了一线搜索行动。",
+			say = "{namecode:529:苏维埃同盟}甚至在舰装尚未完成的时候就亲自加入了一线搜索行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。看来苏维埃同盟可能在行动之前就已经有所预感了，只不过需要我们寻找铁证而已。",
+			say = "同感。看来{namecode:529:苏维埃同盟}可能在行动之前就已经有所预感了，只不过需要我们寻找铁证而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这恐怕才是苏维埃同盟想要的“答案”……",
+			say = "这恐怕才是{namecode:529:苏维埃同盟}想要的“答案”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

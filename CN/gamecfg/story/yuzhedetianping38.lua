@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -800,7 +800,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -911,7 +911,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			optionFlag = 1,
 			say = "…………",
 			typewriter = {

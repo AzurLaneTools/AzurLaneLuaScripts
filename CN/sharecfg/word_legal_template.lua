@@ -1608,6 +1608,9 @@ function temp()
 			["手"] = {
 				this = true
 			}
+		},
+		["力"] = {
+			this = true
 		}
 	}
 end
@@ -1959,6 +1962,13 @@ function temp()
 		},
 		["拉"] = {
 			this = true
+		},
+		["尔"] = {
+			["塔"] = {
+				["瓦"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -3594,6 +3604,18 @@ function temp()
 		},
 		["维"] = {
 			["埃"] = {
+				["同"] = {
+					["盟"] = {
+						this = true
+					}
+				},
+				["萨"] = {
+					["尤"] = {
+						["斯"] = {
+							this = true
+						}
+					}
+				},
 				["贝"] = {
 					["拉"] = {
 						["罗"] = {
@@ -6477,6 +6499,16 @@ end
 temp()
 
 function temp()
+	uv0["凶"] = {
+		["猛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["水"] = {
 		["星"] = {
 			["纪"] = {
@@ -6485,6 +6517,17 @@ function temp()
 					["."] = {
 						["改"] = {
 							this = true
+						}
+					},
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
 						}
 					}
 				}

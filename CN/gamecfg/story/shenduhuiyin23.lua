@@ -438,7 +438,7 @@ return {
 		},
 		{
 			actor = 900322,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "没错，是我哦~",
 			typewriter = {
 				speed = 0.05,
@@ -614,7 +614,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "真伤心啊~大姐姐你就是这么欢迎我的么？",
 			typewriter = {
 				speed = 0.05,
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "这个问题应该由我来问才对，你们为什么会在这里？",
 			typewriter = {
 				speed = 0.05,

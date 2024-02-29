@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……哎，苏维埃同盟？！",
+			say = "……哎，{namecode:529:苏维埃同盟}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

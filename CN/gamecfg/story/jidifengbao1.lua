@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我是苏维埃同盟，向所有参与本次行动的成员通报。",
+			say = "我是{namecode:529:苏维埃同盟}，向所有参与本次行动的成员通报。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

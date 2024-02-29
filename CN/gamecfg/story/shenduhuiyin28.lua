@@ -186,7 +186,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -421,7 +421,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
@@ -438,7 +438,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,

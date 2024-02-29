@@ -167,6 +167,7 @@ pg.furniture_data_template = setmetatable({
 			267,
 			268,
 			269,
+			271,
 			100001,
 			100002,
 			100003,
@@ -225,6 +226,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100057,
 			100058,
+			100059,
 			200001,
 			200002,
 			200003,
@@ -3213,6 +3215,34 @@ pg.furniture_data_template = setmetatable({
 			307112,
 			307113,
 			307114
+		},
+		[108] = {
+			308001,
+			308002,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		}
 	},
 	get_id_list_by_tag = {
@@ -5109,7 +5139,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118
 		},
 		{
 			1108,
@@ -5478,6 +5526,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100057,
 			100058,
+			100059,
 			31101,
 			54101,
 			54102,
@@ -5532,7 +5581,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			264,
 			266,
-			268
+			268,
+			271
 		},
 		[7] = {
 			213,
@@ -5716,7 +5766,9 @@ pg.furniture_data_template = setmetatable({
 			306114,
 			306115,
 			307103,
-			307109
+			307109,
+			308119,
+			308305
 		},
 		[4] = {
 			1001,
@@ -5814,7 +5866,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[3] = {
 			1002,
@@ -5912,7 +5965,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[5] = {
 			1301,
@@ -6248,7 +6302,11 @@ pg.furniture_data_template = setmetatable({
 			304306,
 			304307,
 			305305,
-			305306
+			305306,
+			308301,
+			308302,
+			308303,
+			308304
 		}
 	},
 	get_id_list_by_type = {
@@ -6348,7 +6406,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[7] = {
 			1,
@@ -6490,6 +6549,7 @@ pg.furniture_data_template = setmetatable({
 			267,
 			268,
 			269,
+			271,
 			100001,
 			100002,
 			100004,
@@ -6535,7 +6595,8 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
-			100058
+			100058,
+			100059
 		},
 		[2] = {
 			120,
@@ -8426,7 +8487,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119
 		},
 		[11] = {
 			131,
@@ -8816,7 +8895,12 @@ pg.furniture_data_template = setmetatable({
 			305302,
 			305303,
 			305304,
-			305305
+			305305,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		},
 		[15] = {
 			251
@@ -8929,7 +9013,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[5] = {
 			1101,
@@ -9075,7 +9160,8 @@ pg.furniture_data_template = setmetatable({
 			304118,
 			305108,
 			305111,
-			305119
+			305119,
+			308104
 		},
 		[3] = {
 			1108,
@@ -9468,6 +9554,7 @@ pg.furniture_data_template = setmetatable({
 		267,
 		268,
 		269,
+		271,
 		100001,
 		100002,
 		100003,
@@ -9526,6 +9613,7 @@ pg.furniture_data_template = setmetatable({
 		100056,
 		100057,
 		100058,
+		100059,
 		200001,
 		200002,
 		200003,
@@ -12319,7 +12407,33 @@ pg.furniture_data_template = setmetatable({
 		307111,
 		307112,
 		307113,
-		307114
+		307114,
+		308001,
+		308002,
+		308101,
+		308102,
+		308103,
+		308104,
+		308105,
+		308106,
+		308107,
+		308108,
+		308109,
+		308110,
+		308111,
+		308112,
+		308113,
+		308114,
+		308115,
+		308116,
+		308117,
+		308118,
+		308119,
+		308301,
+		308302,
+		308303,
+		308304,
+		308305
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20425,6 +20539,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[271] = {
+		spine_extra = "",
+		describe = "不知何时出现的艺术品展台，介绍词上写着：正视往昔，迎向未来。——「雪境迷踪」活动纪念章",
+		gain_by = "雪境迷踪",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "maozi4xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "来自往昔的敬意",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 271,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi4xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -24630,6 +24787,56 @@ pg.base.furniture_data_template = {
 					nil,
 					nil,
 					"houzhai_aixin"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100059] = {
+		spine_extra = "",
+		describe = "可以召唤出繁盛花田的圣杖，似乎拥有悠久的历史。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "huahaifazhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "繁花圣杖",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100059,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huahaifazhang",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_huaban"
 				}
 			}
 		},
@@ -147125,6 +147332,1161 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[308001] = {
+		spine_extra = "",
+		describe = "欢迎来到神秘的怪盗世界！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "神秘的棋盘地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanqpicon",
+		spine_action_replace = "",
+		picture = "qp/dibanqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308002] = {
+		spine_extra = "",
+		describe = "欢迎来到神秘的怪盗世界！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "神秘的深色墙纸",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiqpicon",
+		spine_action_replace = "",
+		picture = "qp/qiangbiqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308101] = {
+		spine_extra = "",
+		describe = "一起来设计怪盗标准差事吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "canzhuoqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "怪盗差事餐桌",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "qp/canzhuoqp",
+		canputon = 0,
+		id = 308101,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.9,
+					102.8
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			},
+			{
+				"sit",
+				{
+					-152,
+					39
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308102] = {
+		spine_extra = "",
+		describe = "注意！现在是宵禁时间！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "威严的治安者雕塑",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu1qp",
+		canputon = 0,
+		id = 308102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308103] = {
+		spine_extra = "",
+		describe = "小心！怪盗无孔不入！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "叛逆的怪盗侠雕塑",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu2qp",
+		canputon = 0,
+		id = 308103,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308104] = {
+		spine_extra = "",
+		describe = "欢呼吧！今夜才刚刚开始！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "时钟地窗",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/ditanqp",
+		canputon = 0,
+		id = 308104,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308105] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……红色方块！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红色方块座椅1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi1qp",
+		canputon = 0,
+		id = 308105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/fangkuaiyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308106] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……红色方块！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红色方块座椅2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi2qp",
+		canputon = 0,
+		id = 308106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308107] = {
+		spine_extra = "",
+		describe = "可以查到宝物知识的神奇书柜。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guiziqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "怪盗神奇书柜",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/guiziqp",
+		canputon = 0,
+		id = 308107,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308108] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……黑色桃心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑色桃心座椅1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi1qp",
+		canputon = 0,
+		id = 308108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/heitaoyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308109] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……黑色桃心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑色桃心座椅2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi2qp",
+		canputon = 0,
+		id = 308109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308110] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……红色桃心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红色桃心座椅1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi1qp",
+		canputon = 0,
+		id = 308110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/hongxinyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308111] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……红色桃心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "红色桃心座椅2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi2qp",
+		canputon = 0,
+		id = 308111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308112] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……黑色梅花！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑色梅花座椅1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi1qp",
+		canputon = 0,
+		id = 308112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/meihuayizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308113] = {
+		spine_extra = "",
+		describe = "抽到的扑克牌是……黑色梅花！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑色梅花座椅2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi2qp",
+		canputon = 0,
+		id = 308113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308114] = {
+		spine_extra = "",
+		describe = "白色的王后等待着。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白色王后",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi1qp",
+		canputon = 0,
+		id = 308114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308115] = {
+		spine_extra = "",
+		describe = "黑色的国王屹立着。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "黑色国王",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi2qp",
+		canputon = 0,
+		id = 308115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308116] = {
+		spine_extra = "",
+		describe = "在软绵绵的沙发上构思今天的预告信吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafaqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "软绵绵的怪盗沙发",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/shafaqp",
+		canputon = 0,
+		id = 308116,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308117] = {
+		spine_extra = "",
+		describe = "在优雅地得手后，来这里放松一下吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "茶壶浴缸",
+		themeId = 108,
+		icon = "yugangqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308117,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangqpB",
+				"normal"
+			},
+			{
+				"yugangqpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					139
+				},
+				{
+					274.31,
+					254
+				},
+				"qp/yugangqp_mask"
+			},
+			{
+				5.3,
+				-133
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308118] = {
+		spine_extra = "",
+		describe = "今日的预定计划是……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianshiqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "堆叠电视",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dianshiqp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[308119] = {
+		spine_extra = "",
+		describe = "优雅，是怪盗的信条~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "优雅的怪盗钢琴",
+		themeId = 108,
+		icon = "gangqinqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308119,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gangqinqp",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						0,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"sit1",
+						"sit"
+					},
+					"sit"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308301] = {
+		spine_extra = "",
+		describe = "神秘镜子！逆转现实与幻想吧！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "逆转镜子1",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi1qp",
+		canputon = 0,
+		id = 308301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308302] = {
+		spine_extra = "",
+		describe = "神秘镜子！逆转现实与幻想吧！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "逆转镜子2",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi2qp",
+		canputon = 0,
+		id = 308302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308303] = {
+		spine_extra = "",
+		describe = "高洁优雅的浅色预告信，准备好了~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "优雅的浅色装饰",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi1qp",
+		canputon = 0,
+		id = 308303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308304] = {
+		spine_extra = "",
+		describe = "低调奢华的深色预告信，准备好了~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "低调的深色装饰",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi2qp",
+		canputon = 0,
+		id = 308304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308305] = {
+		spine_extra = "",
+		describe = "藏在准点报时中的秘密是……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "zhongqpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "怪盗壁钟",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhongqp",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	}

@@ -5545,7 +5545,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
-		airijp_id = "com.yostarjp.azurlane.diamond144",
+		airijp_id = "com.yostarjp.azurlane.diamond155",
 		extra_service_item = {
 			{
 				2,
@@ -5643,7 +5643,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
-		airijp_id = "com.yostarjp.azurlane.diamond145",
+		airijp_id = "com.yostarjp.azurlane.diamond156",
 		extra_service_item = {
 			{
 				2,

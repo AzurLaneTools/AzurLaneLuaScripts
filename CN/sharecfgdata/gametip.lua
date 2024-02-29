@@ -10136,7 +10136,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:463}(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:529}(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -23877,6 +23877,14 @@ _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "敌人正在准备着某种强大的攻击，请<color=#f1f102>集中火力将其打断</color>！"
 }
 
+_G.pg.base.gametip.battle_text_common_2 = {
+	tip = "警告：侦测到<color=#ffc038>战斗数据异常</color>，我方<color=#f1f102>特定装备与技能效果失效！</color>"
+}
+
+_G.pg.base.gametip.battle_text_common_3 = {
+	tip = "<color=#f1f102>敌方伤害大幅度提高，同时会随时间流逝增加其受到的伤害。</color>"
+}
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "战争骑士似乎在向<color=#f1f102>左前方</color>向蓄势"
 }
@@ -23975,6 +23983,10 @@ _G.pg.base.gametip.battle_text_haidao_1 = {
 
 _G.pg.base.gametip.battle_text_haidao_2 = {
 	tip = "<color=#f1f102>/// 「云墙守卫」突击中！圣马丁战斗力大幅度提升！ ///</color>"
+}
+
+_G.pg.base.gametip.battle_text_tongmeng_1 = {
+	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -27520,4 +27532,24 @@ _G.pg.base.gametip.child_callname_tip = {
 
 _G.pg.base.gametip.child_plan_no_cost = {
 	tip = "- 无消耗 -"
+}
+
+_G.pg.base.gametip.word_emoji_unlock = {
+	tip = "表情解锁！"
+}
+
+_G.pg.base.gametip.word_get_emoji = {
+	tip = "「$1」"
+}
+
+_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+	tip = "（<color=#92fc63>赠送$1</color> ）"
+}
+
+_G.pg.base.gametip.skin_shop_buy_confirm = {
+	tip = "是否使用<color=$1>$2钻石</color>购买<color=#92fc63FF>$3</color>"
+}
+
+_G.pg.base.gametip.activity_victory = {
+	tip = "舰队出征，累计获得胜利"
 }

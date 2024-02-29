@@ -492,7 +492,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			actorName = "？？？",

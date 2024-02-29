@@ -814,7 +814,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏维埃同盟，这次突袭任务中要回收的目标没有被写在任务书里，具体是什么？",
+			say = "{namecode:529:苏维埃同盟}，这次突袭任务中要回收的目标没有被写在任务书里，具体是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "那就祝我们好运了，苏维埃同盟通讯结束。",
+			say = "那就祝我们好运了，{namecode:529:苏维埃同盟}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，真是难得一见，上次见到苏维埃同盟这么不自信的样子都不知道是在什么时候了。",
+			say = "哼哼，真是难得一见，上次见到{namecode:529:苏维埃同盟}这么不自信的样子都不知道是在什么时候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1053,7 +1053,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没什么，我也觉得苏维埃同盟的这种样子已经很久没见过了。",
+			say = "……没什么，我也觉得{namecode:529:苏维埃同盟}的这种样子已经很久没见过了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

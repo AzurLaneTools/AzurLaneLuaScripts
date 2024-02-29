@@ -483,7 +483,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那这项测试苏维埃同盟知道么？",
+			say = "……那这项测试{namecode:529:苏维埃同盟}知道么？",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -133,7 +133,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			bgName = "bg_firedust_5",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dialogueBgAlpha = 0.6,
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			bgName = "bg_firedust_5",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dialogueBgAlpha = 0.6,
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 905010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▊▇▊▇▅▁▂▋▄▊▌█▌",
 			painting = {
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 905010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▎■小▋▂▁▅▎▌心▇▊▇",
 			painting = {
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 905010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▆▎来█▎█",
 			painting = {
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 905010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▎█▎找▅█▎█▎▌我▅▎▌█",
 			painting = {

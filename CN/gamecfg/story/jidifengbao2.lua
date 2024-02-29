@@ -232,7 +232,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，现在还是多关心一下眼前的作战吧，苏维埃同盟。",
+			say = "不过，现在还是多关心一下眼前的作战吧，{namecode:529:苏维埃同盟}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "苏维埃同盟在略微沉思之后，接入了战役指挥系统。",
+			say = "{namecode:529:苏维埃同盟}在略微沉思之后，接入了战役指挥系统。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

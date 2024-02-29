@@ -554,7 +554,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来这就是苏维埃同盟所说的“值得在意，又不属于这里的东西了”……",
+			say = "看来这就是{namecode:529:苏维埃同盟}所说的“值得在意，又不属于这里的东西了”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
