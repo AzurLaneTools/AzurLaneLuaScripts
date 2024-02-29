@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "母港・執務室",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "今天到了差不多的时间，{namecode:98:明石}却没有出现在指挥室。",
+			say = "いつもの時間になっても、明石は執務室に現れなかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "打开电视机也没有看到她的促销直播……难道终于放弃了？",
+			say = "テレビをつけても「明石ライブコマース」は放送されていない…まさかあの明石が諦めたなんてことが？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,11 +59,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "ピッ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~指挥官是不是想我了喵~？",
+			say = "ムフフ、そろそろ明石に会いたくなった頃合いかにゃ？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "想我了的话，就快点来滨海大道吧！{namecode:98:明石}在这里等着你喵~",
+			say = "明石に会いたければ、すぐ海浜通りにくるといいにゃ！ここで指揮官を待ってるにゃ～♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}的声音听起来……像是吸了猫薄荷。",
+			say = "――このテンション…もしかしてハッカを……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍微有点担心……还是去看看吧。",
+			say = "――ちょっと気掛かりだ…様子を見に行こう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "港区·滨海大道",
+			say = "母港・海浜通り",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——一年一度的{namecode:98:明石}大促销正在火热进行中喵！",
+			say = "年に一度の明石ビッグセール、ただ今開催中にゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "限定换装大量返场销售，促销活动期间还有超值限定礼包等您挑选喵！",
+			say = "限定着せ替えが大量復刻！そして、セール期間限定の超お得セットもよりどりみどりにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早买早享受，多买享折扣喵！",
+			say = "買えば買うほどお得にゃ～！早く買うといいにゃ～！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "不仅如此，只要前来参与促销活动，就算只看不买都能拿到免费礼包福袋喵！",
+			say = "今なら会場を見学するだけで、お得セットを無料でプレゼントにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "机不可失失不再来，走过路过不要错过喵！",
+			say = "寄ってらっしゃい、見てらっしゃいにゃ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "一走进滨海大道，就听到了{namecode:98:明石}卖力的推销声。",
+			say = "海浜通りに足を踏み入れると、マイクを手にせっせと客引きをする明石の姿が見えた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "在她的身后，被商品堆满的舞台上，三位被请来充当气氛宣传员的少女正不断变换着帅气的姿势。",
+			say = "明石以外にも3人の艦船たちが、商品がびっしりと積まれているステージの上でそれぞれかっこよくポーズを決め、場を盛り上げている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "大海与沙滩，白云与蓝天，还有被港区同伴们围得水泄不通的滨海大道。",
+			say = "海に砂浜、白い雲と青い空…そして母港の仲間たちがひしめき合う海浜通り。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "看来{namecode:98:明石}终于找到了适合自己的宣传方案。",
+			say = "どうやら明石はようやく自分に合ったセールスを見つけたようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么接下来——",
+			say = "それじゃあ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,11 +336,11 @@ return {
 			},
 			options = {
 				{
-					content = "前去恭喜{namecode:98:明石}",
+					content = "成功を祝う",
 					flag = 1
 				},
 				{
-					content = "向{namecode:98:明石}收取场地使用费",
+					content = "場所代を徴収する",
 					flag = 2
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气不客气，都是托了指挥官的福喵~",
+			say = "とんでもないにゃ！指揮官のおかげだにゃ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是本日的免费礼包，指挥官请收好喵~",
+			say = "今日の無料セットにゃ。指揮官、もらってほしいにゃ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "然后……来都来了，要不要顺便看看有没有喜欢的、想要买走的商品喵？",
+			say = "むっふっふー。でも…せっかく来たならついでに好きなもの、買いたかったものでも買っていくといいにゃ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……这种时候都不忘做生意，不愧是你，{namecode:98:明石}！",
+			say = "――さり気なく販促に切り替えるとは……さすが明石だ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵喵喵？！指挥官在说什么喵？！场地的使用不是免费的喵？！",
+			say = "にゃにゃにゃ！？指揮官、何を言ってるにゃ！？ここは無料じゃなかったのかにゃ！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那个！{namecode:20:不知火}！接下去就交给你了喵！{namecode:98:明石}还有事，先走一步喵！",
+			say = "……不知火！あとは任せたにゃ！明石は急用ができたから先に行くにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "啊？等等？{namecode:98:明石}你……",
+			say = "え？明石……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "{namecode:98:明石}把话筒塞进了{namecode:20:不知火}的怀里，一溜烟地跑了——",
+			say = "マイクを不知火に押し付けて、明石はあっという間に逃げてしまった――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

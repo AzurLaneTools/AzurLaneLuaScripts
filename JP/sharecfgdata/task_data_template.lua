@@ -68093,6 +68093,126 @@ _G.pg.base.task_data_template[19424] = {
 	}
 }
 
+_G.pg.base.task_data_template[19431] = {
+	name = "黑五登陆奖励1",
+	guild_coin_award = 0,
+	award = 900931,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19431,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19432] = {
+	name = "黑五登陆奖励2",
+	guild_coin_award = 0,
+	award = 900932,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19432,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19433] = {
+	name = "黑五登陆奖励3",
+	guild_coin_award = 0,
+	award = 900933,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19433,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			3
+		}
+	}
+}
+
 _G.pg.base.task_data_template[19449] = {
 	name = "『闪乱联动』通关EX",
 	guild_coin_award = 0,
@@ -82484,6 +82604,1154 @@ _G.pg.base.task_data_template[19800] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19801] = {
+	name = "『苏维埃同盟活动』-日常建造",
+	guild_coin_award = 0,
+	award = 901606,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19801,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19802] = {
+	name = "『苏维埃同盟活动』-日常出击",
+	guild_coin_award = 0,
+	award = 901607,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19802,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19803] = {
+	name = "『苏维埃同盟活动』-日常困难本",
+	guild_coin_award = 0,
+	award = 901608,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10101",
+	scene = "",
+	id = 19803,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19804] = {
+	name = "『苏维埃同盟活动』通关A1/C1",
+	guild_coin_award = 0,
+	award = 901609,
+	type = 6,
+	desc = "イベントステージA1かC1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19805",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19804,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790001,
+		1790021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59532,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19805] = {
+	name = "『苏维埃同盟活动』通关A2/C2",
+	guild_coin_award = 0,
+	award = 901610,
+	type = 6,
+	desc = "イベントステージA2かC2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19806",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19805,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790002,
+		1790022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59532,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19806] = {
+	name = "『苏维埃同盟活动』通关A3/C3",
+	guild_coin_award = 0,
+	award = 901611,
+	type = 6,
+	desc = "イベントステージA3かC3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19807",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19806,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790003,
+		1790023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59532,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19807] = {
+	name = "『苏维埃同盟活动』通关B1/D1",
+	guild_coin_award = 0,
+	award = 901612,
+	type = 6,
+	desc = "イベントステージB1かD1をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19808",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19807,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790004,
+		1790024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59532,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19808] = {
+	name = "『苏维埃同盟活动』通关B2/D2",
+	guild_coin_award = 0,
+	award = 901613,
+	type = 6,
+	desc = "イベントステージB2かD2をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19809",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19808,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790005,
+		1790025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59532,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19809] = {
+	name = "『苏维埃同盟活动』通关B3/D3",
+	guild_coin_award = 0,
+	award = 901614,
+	type = 6,
+	desc = "イベントステージB3かD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19810",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19809,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790006,
+		1790026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59532,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19810] = {
+	name = "『苏维埃同盟活动』通关SP",
+	guild_coin_award = 0,
+	award = 901615,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1790041",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19810,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1790025,
+			chapterId = 1790041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19811] = {
+	name = "『苏维埃同盟活动』通关EX",
+	guild_coin_award = 0,
+	award = 901616,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1790051",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19811,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1790026,
+			chapterId = 1790051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19812] = {
+	name = "『苏维埃同盟活动』通关D3",
+	guild_coin_award = 0,
+	award = 901617,
+	type = 6,
+	desc = "イベントステージD3をクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1790026",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19812,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			271,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1790012,
+			chapterId = 1790026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19813] = {
+	name = "『苏维埃同盟活动』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 901618,
+	type = 6,
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19814",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19813,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790001,
+		1790021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19814] = {
+	name = "『苏维埃同盟活动』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 901619,
+	type = 6,
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19815",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19814,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790002,
+		1790022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19815] = {
+	name = "『苏维埃同盟活动』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 901620,
+	type = 6,
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19816",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19815,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790003,
+		1790023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5221
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19816] = {
+	name = "『苏维埃同盟活动』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 901621,
+	type = 6,
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19817",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19816,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790004,
+		1790024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19817] = {
+	name = "『苏维埃同盟活动』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 901622,
+	type = 6,
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19818",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19817,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790005,
+		1790025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19818] = {
+	name = "『苏维埃同盟活动』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 901623,
+	type = 6,
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19818,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790006,
+		1790026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5222
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19819] = {
+	name = "『苏维埃同盟活动』通关任务10次",
+	guild_coin_award = 0,
+	award = 901624,
+	type = 6,
+	desc = "「銀界遊廻」ステージ10回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 19819,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790001,
+		1790002,
+		1790003,
+		1790004,
+		1790005,
+		1790006,
+		1790021,
+		1790022,
+		1790023,
+		1790024,
+		1790025,
+		1790026,
+		1790041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19820] = {
+	name = "『苏维埃同盟活动』通关任务30次",
+	guild_coin_award = 0,
+	award = 901625,
+	type = 6,
+	desc = "「銀界遊廻」ステージ30回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 19820,
+	target_num = 30,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790001,
+		1790002,
+		1790003,
+		1790004,
+		1790005,
+		1790006,
+		1790021,
+		1790022,
+		1790023,
+		1790024,
+		1790025,
+		1790026,
+		1790041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19821] = {
+	name = "『苏维埃同盟活动』通关任务60次",
+	guild_coin_award = 0,
+	award = 901626,
+	type = 6,
+	desc = "「銀界遊廻」ステージ60回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 19821,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1790001,
+		1790002,
+		1790003,
+		1790004,
+		1790005,
+		1790006,
+		1790021,
+		1790022,
+		1790023,
+		1790024,
+		1790025,
+		1790026,
+		1790041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59532,
+			3000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19822] = {
+	name = "『苏维埃同盟活动』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 901627,
+	type = 6,
+	desc = "装備外装箱（怪盗都市）を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "30353",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19822,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30537,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19823] = {
+	name = "『苏维埃同盟活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 901628,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19823,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			395,
+			3
+		}
 	}
 }
 

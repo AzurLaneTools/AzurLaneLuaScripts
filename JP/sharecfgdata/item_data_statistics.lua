@@ -13970,6 +13970,36 @@ _G.pg.base.item_data_statistics[21029] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21030] = {
+	open_directly = 0,
+	name = "結晶：パーミャチ・メルクーリヤ(META)",
+	display = "パーミャチ・メルクーリヤ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	type = 4,
+	display_effect = "",
+	id = 21030,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21030",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -22669,6 +22699,130 @@ _G.pg.base.item_data_statistics[30352] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30353] = {
+	open_directly = 1,
+	name = "装備外装箱（怪盗都市）",
+	display = "ランダムの装備外装を入手可能",
+	type = 11,
+	display_effect = "",
+	id = 30353,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30353",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -31154,6 +31308,218 @@ _G.pg.base.item_data_statistics[30536] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[30537] = {
+	open_directly = 0,
+	name = "選択装備外装箱（怪盗都市）",
+	display = "使用すると、装備外装（怪盗都市）から任意の装備外装を1個選択して入手できます",
+	type = 13,
+	display_effect = "",
+	id = 30537,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "指向性強化パーツT4",
@@ -35376,6 +35742,321 @@ _G.pg.base.item_data_statistics[40130] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40131] = {
+	open_directly = 1,
+	name = "無料パックI",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40131,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4131,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40132] = {
+	open_directly = 1,
+	name = "無料パックII",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40132,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4132,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40133] = {
+	open_directly = 1,
+	name = "無料パックIII",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40133,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4133,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40134] = {
+	open_directly = 1,
+	name = "無料パックIV",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40134,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4134,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40135] = {
+	open_directly = 1,
+	name = "無料パックV",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40135,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4135,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40136] = {
+	open_directly = 1,
+	name = "無料パックVI",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40136,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4136,
+		0,
+		150
+	}
+}
+
+_G.pg.base.item_data_statistics[40137] = {
+	open_directly = 1,
+	name = "無料パックVII",
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40137,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	link_id = 0,
+	icon = "ChargeIcon/pack_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4137,
+		0,
+		150
+	}
+}
+
 _G.pg.base.item_data_statistics[40138] = {
 	open_directly = 1,
 	name = "特別建造パック",
@@ -38465,6 +39146,430 @@ _G.pg.base.item_data_statistics[40929] = {
 			1,
 			6,
 			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40988] = {
+	open_directly = 1,
+	name = "選べる迎春福袋①",
+	display = "ダイヤ×1980と、選べるアイテムボックス×1などを入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40988,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_198",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4988",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59504,
+			1
+		},
+		{
+			1,
+			14,
+			1980
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30114,
+			30
+		},
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			17043,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40989] = {
+	open_directly = 1,
+	name = "選べる迎春福袋②",
+	display = "ダイヤ×3280と、選べるアイテムボックス・Ⅱ×1などを入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40989,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_328",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4989",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59505,
+			1
+		},
+		{
+			1,
+			14,
+			3280
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16032,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40990] = {
+	open_directly = 1,
+	name = "お得デイリーパック①",
+	display = "ダイヤ×60と、上級指向型強化ユニット・五期目×2を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40990,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4990",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40991] = {
+	open_directly = 1,
+	name = "お得デイリーパック②",
+	display = "ダイヤ×200を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40991,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4991",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40992] = {
+	open_directly = 1,
+	name = "お得デイリーパック③",
+	display = "SSR選択装備箱×1と、指向性強化パーツT4×5を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40992,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4992",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30202,
+			1
+		},
+		{
+			2,
+			30114,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40993] = {
+	open_directly = 1,
+	name = "お得デイリーパック④",
+	display = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40993,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4993",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40994] = {
+	open_directly = 1,
+	name = "お得デイリーパック⑤",
+	display = "艦船経験値パックT2×60を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40994,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4994",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40995] = {
+	open_directly = 1,
+	name = "お得デイリーパック⑥",
+	display = "キューブ×10と、高速建造材×5を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40995,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4995",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40996] = {
+	open_directly = 1,
+	name = "お得デイリーパック⑦",
+	display = "ダイヤ×60と、上級指向型強化ユニット・六期目×2を入手可能",
+	type = 17,
+	display_effect = "",
+	id = 40996,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/pack_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4996",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			1,
+			14,
+			60
 		}
 	},
 	price = {},
@@ -83591,6 +84696,737 @@ _G.pg.base.item_data_statistics[59490] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59503] = {
+	open_directly = 0,
+	name = "キャンペーン着せ替え交換チケット",
+	display = "倉庫で使用でき、着せ替えを1着選んで入手可能。\n（<color=#ff5c5c>指定された一部の着せ替えのみ入手可能。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます</color>）",
+	type = 26,
+	display_effect = "",
+	id = 59503,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	link_id = 0,
+	icon = "Props/skin_exchange_n",
+	order = 99,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		5082,
+		{
+			107171,
+			103082,
+			602011,
+			607011,
+			608011,
+			601051,
+			601041,
+			605062,
+			305142,
+			401022,
+			301661,
+			201032,
+			101481,
+			903011,
+			103121,
+			205093,
+			102293,
+			405024,
+			105131,
+			901131,
+			302132,
+			907011,
+			102254,
+			903022,
+			602021,
+			608021,
+			601091,
+			601081,
+			603051,
+			302111,
+			303183,
+			103142,
+			402062,
+			406013,
+			404051,
+			403021,
+			401161,
+			401242,
+			107073,
+			107094,
+			408012,
+			305101,
+			404032,
+			299012,
+			102071,
+			506012,
+			305054,
+			206071,
+			202091,
+			402082,
+			202331,
+			205141,
+			206021,
+			201361,
+			301472,
+			403093,
+			705071,
+			499032,
+			406031,
+			401991,
+			302232,
+			202092,
+			107142,
+			207036,
+			331056,
+			403094,
+			236030,
+			702034,
+			601101,
+			204034,
+			605024,
+			605071,
+			802031,
+			805021,
+			803011,
+			105112,
+			302061,
+			301901,
+			108072,
+			307122,
+			205065,
+			206022,
+			431233,
+			302233,
+			301294
+		},
+		{
+			303112,
+			307011,
+			307021,
+			204031,
+			301151,
+			107031,
+			205041,
+			502031,
+			205061,
+			101251,
+			502022,
+			502032,
+			403031,
+			502021,
+			306051,
+			102091,
+			301051,
+			301171,
+			207031,
+			301111,
+			301121,
+			101261,
+			107061,
+			305022,
+			201102,
+			102081,
+			301321,
+			303122,
+			307031,
+			307012,
+			307022,
+			101172,
+			312011,
+			403032,
+			301141,
+			303113,
+			202151,
+			201231,
+			206032,
+			501031,
+			305011,
+			101311,
+			101262,
+			202111,
+			307032,
+			307041,
+			102121,
+			301011,
+			401011,
+			301161,
+			301621,
+			403051,
+			301053,
+			301131,
+			301261,
+			301351,
+			207061,
+			201021,
+			301631,
+			304031,
+			301491,
+			301381,
+			299021,
+			303114,
+			303123,
+			308011,
+			308021,
+			408021,
+			401251,
+			103081,
+			103091,
+			103101,
+			801021,
+			207021,
+			112011,
+			202152,
+			205011,
+			202031,
+			312012,
+			201011,
+			105141,
+			408011,
+			207032,
+			202191,
+			301091,
+			302131,
+			101361,
+			101371,
+			103131,
+			302051,
+			213021,
+			205031,
+			102181,
+			306061,
+			403052,
+			101312,
+			205021,
+			301591,
+			102123,
+			399021,
+			205062,
+			301601,
+			102051,
+			102141,
+			303091,
+			301211,
+			103102,
+			207041,
+			202081,
+			205072,
+			202171,
+			202201,
+			107062,
+			206042,
+			299022,
+			301262,
+			301054,
+			107021,
+			101392,
+			202211,
+			202221,
+			206051,
+			305012,
+			103061,
+			103071,
+			305051,
+			304011,
+			301581,
+			207033,
+			305061,
+			101174,
+			201213,
+			301055,
+			401233,
+			199021,
+			205051,
+			401234,
+			102052,
+			107071,
+			107051,
+			403053,
+			301152,
+			201261,
+			202161,
+			202231,
+			206052,
+			901111,
+			904012,
+			901012,
+			801022,
+			801041,
+			108031,
+			103161,
+			101401,
+			102231,
+			107291,
+			102093,
+			101021,
+			999011,
+			199022,
+			203091,
+			107063,
+			605021,
+			207051,
+			603011,
+			601021,
+			605061,
+			408022,
+			403033,
+			405022,
+			399012,
+			403043,
+			199011,
+			301143,
+			202123,
+			905011,
+			499011,
+			101351,
+			202112,
+			213012,
+			213041,
+			101421,
+			301411,
+			301057,
+			101176,
+			401236,
+			299011,
+			199012,
+			301541,
+			302201,
+			102182,
+			302052,
+			101022,
+			499021,
+			305052,
+			502034,
+			502024,
+			301101,
+			206034,
+			401351,
+			304043,
+			331050,
+			202071,
+			102094,
+			301811,
+			207023,
+			202203,
+			202232,
+			399013,
+			207035,
+			403044,
+			202242,
+			304022,
+			102251,
+			202101,
+			404011,
+			101431,
+			201022,
+			301391,
+			102101,
+			201031,
+			705051,
+			702031,
+			702011,
+			701031,
+			705011,
+			702021,
+			701041,
+			103132,
+			103241,
+			107111,
+			103162,
+			102261,
+			108041,
+			102271,
+			106551,
+			201105,
+			101352,
+			304051,
+			305081,
+			303092,
+			304023,
+			302141,
+			301821,
+			301801,
+			301831,
+			901021,
+			801031,
+			802021,
+			903021,
+			902011,
+			807011,
+			901031,
+			401232,
+			105191,
+			108021,
+			605022,
+			202041,
+			107065,
+			102252,
+			302203,
+			502025,
+			203092,
+			101252,
+			801023,
+			201321,
+			307073,
+			303115,
+			303124,
+			205073,
+			205064,
+			307052,
+			307062,
+			205091,
+			206061,
+			201331,
+			205101,
+			304012,
+			207011,
+			107222,
+			408091,
+			401261,
+			303181,
+			306081,
+			306091,
+			101313,
+			202233,
+			102262,
+			201332,
+			301841,
+			305121,
+			307081,
+			302212,
+			307013,
+			307023,
+			408082,
+			304032,
+			103111,
+			202083,
+			301242,
+			301251,
+			301113,
+			301123,
+			205022,
+			205012,
+			201234,
+			408083,
+			101253,
+			401021,
+			301144,
+			103133,
+			101442,
+			101301,
+			101254,
+			107035,
+			499041,
+			405023,
+			202126,
+			199023,
+			301842,
+			403091,
+			408101,
+			402051,
+			406011,
+			401241,
+			304033,
+			102253,
+			301632,
+			401281,
+			408084,
+			899021,
+			401464,
+			107093,
+			899012,
+			207042,
+			302213,
+			301643,
+			102232,
+			107036,
+			205014,
+			201141,
+			304044,
+			308042,
+			502051,
+			202291,
+			408111,
+			202032,
+			107232,
+			101314,
+			703011,
+			705041,
+			702041,
+			701071,
+			702061,
+			701081,
+			705012,
+			702022,
+			702032,
+			701022,
+			701061,
+			701042,
+			107223,
+			302214,
+			305113,
+			605023,
+			399014,
+			305053,
+			801032,
+			103164,
+			105171,
+			107141,
+			108061,
+			103141,
+			308013,
+			101461,
+			201023,
+			302082,
+			101471,
+			207052,
+			202273,
+			102142,
+			204033,
+			202243,
+			205102,
+			301832,
+			301861,
+			301021,
+			301812,
+			301592,
+			306062,
+			102163,
+			101041,
+			101031,
+			101265,
+			102273,
+			407032,
+			102221,
+			601032,
+			901032,
+			201121,
+			203081,
+			607012,
+			802013,
+			801071,
+			801081,
+			303182,
+			102292,
+			107224,
+			301093,
+			402061,
+			406021,
+			408121,
+			499061,
+			399051,
+			402041,
+			408023,
+			401465,
+			405012,
+			201333,
+			108022,
+			202292,
+			205092,
+			303141,
+			302215,
+			699011,
+			506011,
+			502071,
+			502081,
+			101491,
+			102264,
+			301582,
+			301833,
+			105031,
+			105041,
+			301633,
+			205043,
+			307025,
+			301822,
+			301852,
+			331053,
+			202274,
+			501012,
+			301153,
+			9600011
+		},
+		99999,
+		59551
+	}
+}
+
+_G.pg.base.item_data_statistics[59504] = {
+	open_directly = 0,
+	name = "選べるアイテムボックス",
+	display = "倉庫で使用できます。「誓いの指輪」、「上級指向型強化ユニット・六期目」×15、「キューブ」×20から一つ選んで入手できます",
+	type = 13,
+	display_effect = "",
+	id = 59504,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/59504",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		},
+		{
+			2,
+			42056,
+			15
+		},
+		{
+			2,
+			20001,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			15006,
+			1
+		},
+		{
+			2,
+			42056,
+			15
+		},
+		{
+			2,
+			20001,
+			20
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[59505] = {
+	open_directly = 0,
+	name = "選べるアイテムボックス・Ⅱ",
+	display = "倉庫で使用できます。「キャンペーン着せ替え交換チケット」、「プロト設計図・S-Ⅰ」×25、「プロト設計図・S-Ⅱ」×25、「プロト設計図・S-Ⅲ」×25、「プロト設計図・S-Ⅳ」×25、「プロト設計図・S-Ⅴ」×25、「キューブ」×30から一つ選んで入手できます。",
+	type = 13,
+	display_effect = "",
+	id = 59505,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/59505",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59503,
+			1
+		},
+		{
+			2,
+			14001,
+			25
+		},
+		{
+			2,
+			14002,
+			25
+		},
+		{
+			2,
+			14003,
+			25
+		},
+		{
+			2,
+			14004,
+			25
+		},
+		{
+			2,
+			14005,
+			25
+		},
+		{
+			2,
+			20001,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			59503,
+			1
+		},
+		{
+			2,
+			14001,
+			25
+		},
+		{
+			2,
+			14002,
+			25
+		},
+		{
+			2,
+			14003,
+			25
+		},
+		{
+			2,
+			14004,
+			25
+		},
+		{
+			2,
+			14005,
+			25
+		},
+		{
+			2,
+			20001,
+			30
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[59550] = {
 	open_directly = 0,
 	name = "選べる着せ替えチケット（ニュージャージー/信濃）",
@@ -83656,6 +85492,41 @@ _G.pg.base.item_data_statistics[59550] = {
 		},
 		0,
 		59552
+	}
+}
+
+_G.pg.base.item_data_statistics[59551] = {
+	open_directly = 0,
+	name = "着せ替えクーポン(780)",
+	display = "ショップで着せ替えを購入する場合、ダイヤ780個分割引されます（着せ替えを購入すると削除されます）",
+	type = 1,
+	display_effect = "",
+	id = 59551,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_discount",
+	link_id = 0,
+	icon = "Props/skin_780",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			0
+		},
+		780
 	}
 }
 

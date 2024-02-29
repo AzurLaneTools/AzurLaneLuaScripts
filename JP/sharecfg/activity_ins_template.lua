@@ -11641,6 +11641,90 @@ pg.activity_ins_template = {
 			4192
 		}
 	},
+	[449] = {
+		ship_group = 70508,
+		name = "Sovetsky Soyuz",
+		sculpture = "suweiaitongmengNew",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 449,
+		id = 449,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[450] = {
+		ship_group = 70111,
+		name = "Ognevoy",
+		sculpture = "huoli",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 450,
+		id = 450,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[451] = {
+		ship_group = 70509,
+		name = "Poltava",
+		sculpture = "boertawa",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 451,
+		id = 451,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[452] = {
+		ship_group = 70112,
+		name = "Svirepy",
+		sculpture = "xiongmeng",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 452,
+		id = 452,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[453] = {
+		ship_group = 21304,
+		name = "Abercrombie",
+		sculpture = "abeikelongbi_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 453,
+		id = 453,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[454] = {
+		ship_group = 10145,
+		name = "A.M.Sumner",
+		sculpture = "ailunsamuna_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 454,
+		id = 454,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[455] = {
+		ship_group = 29902,
+		name = "Monarch",
+		sculpture = "junzhu_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 455,
+		id = 455,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -12081,6 +12165,13 @@ pg.activity_ins_template = {
 		445,
 		446,
 		447,
-		448
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455
 	}
 }

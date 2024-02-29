@@ -10069,6 +10069,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70252] = {
+		id = 70252,
+		name = "2024同盟活动EX 永不停止的随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 300,
+					duration = -1,
+					X1 = -20,
+					stopCount = 0
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
@@ -13281,6 +13302,25 @@ pg.auto_pilot_template = {
 				param = {
 					x = -12.5,
 					z = 55
+				}
+			}
+		}
+	},
+	[200005] = {
+		id = 200003,
+		name = "转圈小范围 顺时针",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 12,
+					antiClockWise = true,
+					duration = -1,
+					x = -10
 				}
 			}
 		}

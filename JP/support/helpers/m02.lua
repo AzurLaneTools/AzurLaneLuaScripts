@@ -1164,7 +1164,11 @@ function getDropInfo(slot0)
 	for slot5, slot6 in ipairs(slot0) do
 		slot7.count = Drop.Create(slot6).count or 1
 
-		table.insert(slot1, slot7:getName() .. "x" .. slot7.count)
+		if slot7.type == DROP_TYPE_EMOJI then
+			table.insert(slot1, slot7.getName(slot7))
+		else
+			table.insert(slot1, slot7.getName(slot7) .. "x" .. slot7.count)
+		end
 	end
 
 	return table.concat(slot1, "、")
@@ -3651,11 +3655,7 @@ function RegisterDetailButton(slot0, slot1, slot2)
 					item2Row = true,
 					content = i18n(uv3[slot0]),
 					itemList = underscore.map(slot3:getConfig("display_icon"), function (slot0)
-						return {
-							type = slot0[1],
-							id = slot0[2],
-							count = slot0[3]
-						}
+						return Drop.Create(slot0)
 					end)
 				}
 				slot3 = uv0

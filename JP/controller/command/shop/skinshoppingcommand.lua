@@ -77,8 +77,10 @@ function slot0.execute(slot0, slot1)
 
 				switch(uv1.genre, {
 					[ShopArgs.SkinShop] = function ()
+						uv0 = PlayerConst.addTranDrop(uv1.drop_list)
+
 						getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
-							id = uv0.effect_args[1]
+							id = uv2.effect_args[1]
 						}))
 					end,
 					[ShopArgs.SkinShopTimeLimit] = function ()
@@ -108,14 +110,16 @@ function slot0.execute(slot0, slot1)
 					normalGroupList = uv4:GetNormalGroupList(),
 					awards = slot1
 				})
-			else
-				originalPrint(slot0.result)
 
-				if slot0.result == 4400 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("shopping_error_time_limit"))
-				else
-					pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
-				end
+				return
+			end
+
+			originalPrint(slot0.result)
+
+			if slot0.result == 4400 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("shopping_error_time_limit"))
+			else
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 			end
 		end)
 	end)

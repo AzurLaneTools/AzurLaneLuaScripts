@@ -56,6 +56,8 @@ pg.pay_data_display = setmetatable({
 		55,
 		56,
 		57,
+		58,
+		59,
 		61,
 		62,
 		63,
@@ -101,7 +103,14 @@ pg.pay_data_display = setmetatable({
 		2022,
 		2023,
 		2024,
-		2025
+		2025,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5620,6 +5629,247 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[58] = {
+		subject = "選べる迎春福袋①",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n*選べるアイテムボックスは倉庫で使用でき、指定されたアイテムを入手できます。",
+		type = 0,
+		limit_arg = 1,
+		name = "選べる迎春福袋①",
+		name_display = "選べる迎春福袋①",
+		type_order = 0,
+		extra_gem = 0,
+		id = 58,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_198",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi158",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×1980と、選べるアイテムボックス×1などを入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond155",
+		extra_service_item = {
+			{
+				2,
+				59504,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				17003,
+				20
+			},
+			{
+				2,
+				17013,
+				20
+			},
+			{
+				2,
+				17023,
+				20
+			},
+			{
+				2,
+				17033,
+				20
+			},
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59504,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40988,
+				1
+			}
+		}
+	},
+	[59] = {
+		subject = "選べる迎春福袋②",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n*選べるアイテムボックス・Ⅱは倉庫にて使用できます。\n*キャンペーン着せ替え交換チケットは期間終了後に交換対象が変更されてしまいますので、ご注意ください。",
+		type = 0,
+		limit_arg = 1,
+		name = "選べる迎春福袋②",
+		name_display = "選べる迎春福袋②",
+		type_order = 0,
+		extra_gem = 0,
+		id = 59,
+		money = 6800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_328",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi159",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×3280と、選べるアイテムボックス・Ⅱ×1などを入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond156",
+		extra_service_item = {
+			{
+				2,
+				59505,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59505,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40989,
+				1
+			}
+		}
+	},
 	[61] = {
 		subject = "新年福袋2024①",
 		limit_group = 0,
@@ -9321,6 +9571,567 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40043,
+				1
+			}
+		}
+	},
+	[5001] = {
+		subject = "お得デイリーパック①",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック①",
+		name_display = "お得デイリーパック①",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5001,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao201",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・五期目×2を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package201",
+		extra_service_item = {
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40990,
+				1
+			}
+		}
+	},
+	[5002] = {
+		subject = "お得デイリーパック②",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック②",
+		name_display = "お得デイリーパック②",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5002,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao202",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×200を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package202",
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40991,
+				1
+			}
+		}
+	},
+	[5003] = {
+		subject = "お得デイリーパック③",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック③",
+		name_display = "お得デイリーパック③",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5003,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao203",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "SSR選択装備箱×1と、指向性強化パーツT4×5を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package203",
+		extra_service_item = {
+			{
+				2,
+				30202,
+				1
+			},
+			{
+				2,
+				30114,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30202,
+				1
+			},
+			{
+				2,
+				30114,
+				5
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40992,
+				1
+			}
+		}
+	},
+	[5004] = {
+		subject = "お得デイリーパック④",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック④",
+		name_display = "お得デイリーパック④",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5004,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao204",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+		airijp_id = "com.yostarjp.azurlane.package204",
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40993,
+				1
+			}
+		}
+	},
+	[5005] = {
+		subject = "お得デイリーパック⑤",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック⑤",
+		name_display = "お得デイリーパック⑤",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5005,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day5",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao205",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "艦船経験値パックT2×60を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package205",
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40994,
+				1
+			}
+		}
+	},
+	[5006] = {
+		subject = "お得デイリーパック⑥",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック⑥",
+		name_display = "お得デイリーパック⑥",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5006,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day6",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao206",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "キューブ×10と、高速建造材×5を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package206",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40995,
+				1
+			}
+		}
+	},
+	[5007] = {
+		subject = "お得デイリーパック⑦",
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		limit_arg = 1,
+		name = "お得デイリーパック⑦",
+		name_display = "お得デイリーパック⑦",
+		type_order = 0,
+		extra_gem = 0,
+		id = 5007,
+		money = 120,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "pack_day7",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao207",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・六期目×2を入手可能",
+		airijp_id = "com.yostarjp.azurlane.package207",
+		extra_service_item = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40996,
 				1
 			}
 		}

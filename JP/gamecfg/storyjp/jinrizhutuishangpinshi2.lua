@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "母港・執務室",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官~我又来了喵~今天的节目已经做过了必要的改进喵！",
+			say = "指揮官、またきたにゃ～。今日の番組に必要な改善をしてきたにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "尤其是脱稿介绍商品这一点，相信今天的促销直播一定能让人有下单的冲动喵！",
+			say = "今日は事前に台本を暗記してもらったから、きっと放送中に注文がバンバン殺到するはずにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "那么……电视——启动喵！",
+			say = "それじゃあ…テレビの電源をオン！だにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "——本次的节日限定礼包中，包含有大量能够提升作战能力的舰装强化部件，我个人还是很推荐的哦。",
+			say = "――今回の番組限定セットでは、戦力を大幅にアップする艤装強化パーツがたくさん入っているから、個人的にもおすすめよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过除此之外，我还要向大家隆重推荐由铁血研发的舰装养护套装。",
+			say = "まあ、その他にも鉄血開発の艤装ケアセットもあるから見てみるといいわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不论您的舰装是仿生型，机巧型还是卷轴式神型，这套舰装养护套装都能轻松应对。",
+			say = "生体工学タイプの艤装だろうと、機巧やシキガミ式だろうと…このケアセットさえあればすべて楽にメンテナンスをこなせるわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "还在为您的舰装养护而担心吗？",
+			say = "まだ艤装のメンテナンスに頭を悩ませているのかしら？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "请全部放心交给我们铁血吧，铁血出品，让您安心，让舰装放心——",
+			say = "だったら全て鉄血に任せなさい。鉄血流のメンテナンスで貴様らも艤装も安心させてやろう――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "啪的一下，{namecode:98:明石}关掉了电视，正热情推销商品的{namecode:516:雷根斯堡}消失了。",
+			say = "プツッ、と明石はテレビを消し、畳み掛けるように商品を紹介していたレーゲンスブルクの姿も見えなくなった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "……不对不对不对，商品清单里可没有写什么铁血的养护套装喵！",
+			say = "……違うにゃー！紹介商品のリストに鉄血ケアセットなんて入れてないにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "……真是失策喵，没想到脱离台本自由发挥会是这种效果喵！",
+			say = "…なんて日にゃ…確かに明石は「アドリブOK」と言ったけど、こうなるなんて思わないにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过没关系，{namecode:98:明石}已经从今天的直播中吸取了教训，明天的直播不会重蹈覆辙了喵！",
+			say = "で、でも大丈夫にゃ！今日の失敗で教訓を得たにゃ！明日の放送は二度と失敗しないにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官，我先回去了~要抓紧改进节目效果才行喵！",
+			say = "ということで指揮官、先に戻るにゃ～。番組の効果を上げるために急いでクオリティアップしないとにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……明天还有？",
+			say = "――…まだやるのか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

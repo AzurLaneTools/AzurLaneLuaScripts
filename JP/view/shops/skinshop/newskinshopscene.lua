@@ -119,6 +119,8 @@ function slot0.OnShopping(slot0, slot1)
 		return
 	end
 
+	slot0.mainView:ClosePurchaseView()
+
 	if slot0.mainView.commodity.id == slot1 then
 		if _.detect(slot0:GetAllCommodity(), function (slot0)
 			return slot0.id == uv0
@@ -571,15 +573,19 @@ function slot0.OnInitItem(slot0, slot1)
 	slot2 = NewShopSkinCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
-		for slot3, slot4 in pairs(uv0.cards) do
+		if not uv0.commodity then
+			return
+		end
+
+		for slot3, slot4 in pairs(uv1.cards) do
 			slot4:UpdateSelected(false)
 		end
 
-		uv0.selectedId = uv1.commodity.id
+		uv1.selectedId = uv0.commodity.id
 
-		uv1:UpdateSelected(true)
-		uv0:UpdateMainView(uv1.commodity)
-		uv0:GCHandle()
+		uv0:UpdateSelected(true)
+		uv1:UpdateMainView(uv0.commodity)
+		uv1:GCHandle()
 	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2

@@ -435,10 +435,10 @@ pg.item_data_frame = {
 	[329] = {
 		time_limit_type = 0,
 		name = "氷域の星",
-		gain_by = "",
+		gain_by = "銀界遊廻",
 		id = 329,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「雪原を渡り、氷山を乗り越え、己を見つめ、未来を見届ける」</color>\n「銀界遊廻」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -648,6 +648,15 @@ pg.item_data_frame = {
 		desc = "<size=24><color=#ffffff>「みずかめ座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る</color>「限界挑戦」で入手可能 （24.02.01-24.02.29）</size>",
 		scene = {}
 	},
+	[10010] = {
+		time_limit_type = 0,
+		name = "限界挑戦・うお座",
+		gain_by = "",
+		id = 10010,
+		time_second = 0,
+		desc = "<size=24><color=#ffffff>「うお座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る</color>「限界挑戦」で入手可能（24.03.01-24.03.31）</size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -720,6 +729,7 @@ pg.item_data_frame = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010
 	}
 }

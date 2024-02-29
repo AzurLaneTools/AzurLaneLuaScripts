@@ -416,6 +416,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 1,
+		item_desc = "スタンプ：びっくり。チャットのデフォルトスタンプセットで使用可能",
+		item_name = "スタンプ：びっくり",
+		id = 33,
+		index = 73,
+		icon = "",
+		pic = "33",
+		desc = "<color=#92fc63>「びっくり」</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		item_desc = "スタンプ：やめろー。チャットのデフォルトスタンプセットで使用可能",
+		item_name = "スタンプ：やめろー",
+		id = 34,
+		index = 74,
+		icon = "",
+		pic = "34",
+		desc = "<color=#92fc63>「やめろー」</color>",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		item_desc = "",
@@ -2113,6 +2139,8 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
+		33,
+		34,
 		41,
 		42,
 		43,

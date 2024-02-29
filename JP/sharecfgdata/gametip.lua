@@ -10181,7 +10181,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を200回行う度に「ウルリッヒ・フォン・フッテン」が交換可能！"
+	tip = "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -24084,6 +24084,14 @@ _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "敵は大技を繰り出そうとしている！<color=#f1f102>攻撃を集中してチャージを止めよう</color>！"
 }
 
+_G.pg.base.gametip.battle_text_common_2 = {
+	tip = "警告：<color=#ffc038>バトルデータ異常</color>を探知しました。味方<color=#f1f102>特定装備・スキル効果が無効になります！</color>"
+}
+
+_G.pg.base.gametip.battle_text_common_3 = {
+	tip = "<color=#f1f102>敵の与ダメージが大幅上昇・被ダメージが時間経過とともに上昇する</color>"
+}
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "騎士はチャージをしている（左）"
 }
@@ -24182,6 +24190,10 @@ _G.pg.base.gametip.battle_text_haidao_1 = {
 
 _G.pg.base.gametip.battle_text_haidao_2 = {
 	tip = "///「壁雲の守り手」が突撃！サン・マルチーニョ戦力上昇！///"
+}
+
+_G.pg.base.gametip.battle_text_tongmeng_1 = {
+	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -27258,7 +27270,7 @@ _G.pg.base.gametip.skin_purchase_confirm = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_lock = {
-	tip = "礼包将于$1解锁购买 "
+	tip = "$1解放後に購入できます"
 }
 
 _G.pg.base.gametip.skin_exchange_title = {
@@ -27278,7 +27290,7 @@ _G.pg.base.gametip.skin_exchange_timelimit = {
 }
 
 _G.pg.base.gametip.blackfriday_pack_purchased = {
-	tip = "已购买"
+	tip = "購入済"
 }
 
 _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
@@ -27286,7 +27298,7 @@ _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 }
 
 _G.pg.base.gametip.skin_discount_timelimit = {
-	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
+	tip = "アイテム$1は$2メンテナンス後に削除されます。削除前に着せ替えショップで使用してください"
 }
 
 _G.pg.base.gametip.shan_luan_task_progress_tip = {
@@ -27879,4 +27891,24 @@ _G.pg.base.gametip.child_callname_tip = {
 
 _G.pg.base.gametip.child_plan_no_cost = {
 	tip = "- 消費なし -"
+}
+
+_G.pg.base.gametip.word_emoji_unlock = {
+	tip = "スタンプ開放！"
+}
+
+_G.pg.base.gametip.word_get_emoji = {
+	tip = "「$1」"
+}
+
+_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+	tip = "（<color=#92fc63>特典$1</color> ）"
+}
+
+_G.pg.base.gametip.skin_shop_buy_confirm = {
+	tip = "<color=$1>ダイヤ×$2</color>を消費、<color=#92fc63FF>$3</color>を購入しますか？"
+}
+
+_G.pg.base.gametip.activity_victory = {
+	tip = "艦隊を出撃させ、勝利を収める"
 }

@@ -2660,6 +2660,20 @@ pg.name_code = {
 		code = "サンディエゴ改",
 		nation = 0
 	},
+	[529] = {
+		name = "ソビエツキー",
+		type = 1,
+		id = 529,
+		code = "ソビエツキー",
+		nation = 0
+	},
+	[530] = {
+		name = "ソユーズ",
+		type = 1,
+		id = 530,
+		code = "ソユーズ",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

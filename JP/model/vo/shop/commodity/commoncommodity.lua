@@ -285,4 +285,14 @@ function slot0.GetLimitDesc(slot0)
 	return ""
 end
 
+function slot0.GetGiftList(slot0)
+	if slot0:getConfig("genre") == ShopArgs.SkinShop then
+		return ShipSkin.New({
+			id = slot0:getSkinId()
+		}):GetRewardList()
+	else
+		return uv0.super.GetGiftList(slot0)
+	end
+end
+
 return slot0

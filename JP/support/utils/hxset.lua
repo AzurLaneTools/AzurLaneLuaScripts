@@ -110,6 +110,7 @@ function slot0.isHXNation(slot0)
 		[Nation.DE] = true,
 		[Nation.CN] = true,
 		[Nation.ITA] = true,
+		[Nation.SN] = true,
 		[Nation.MNF] = true,
 		[Nation.META] = true
 	}

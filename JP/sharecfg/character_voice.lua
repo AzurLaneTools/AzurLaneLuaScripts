@@ -6,7 +6,8 @@ pg.character_voice = {
 		voice_name = "入手時",
 		spine_action = "stand",
 		profile_index = 1,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "unlock",
 		unlock_condition = {
 			0,
 			0
@@ -18,6 +19,7 @@ pg.character_voice = {
 		voice_name = "ログイン",
 		spine_action = "stand2",
 		profile_index = 2,
+		sp_trans_l2d = 0,
 		l2d_action = "login",
 		unlock_condition = {
 			0,
@@ -30,7 +32,8 @@ pg.character_voice = {
 		voice_name = "詳細確認",
 		spine_action = "normal",
 		profile_index = 3,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "detail",
 		unlock_condition = {
 			0,
 			0
@@ -42,6 +45,7 @@ pg.character_voice = {
 		voice_name = "メイン1",
 		spine_action = "normal",
 		profile_index = 4,
+		sp_trans_l2d = 0,
 		l2d_action = "main_1",
 		unlock_condition = {
 			0,
@@ -54,6 +58,7 @@ pg.character_voice = {
 		voice_name = "メイン2",
 		spine_action = "normal",
 		profile_index = 5,
+		sp_trans_l2d = 0,
 		l2d_action = "main_2",
 		unlock_condition = {
 			0,
@@ -66,6 +71,7 @@ pg.character_voice = {
 		voice_name = "メイン3",
 		spine_action = "normal",
 		profile_index = 6,
+		sp_trans_l2d = 0,
 		l2d_action = "main_3",
 		unlock_condition = {
 			0,
@@ -78,6 +84,7 @@ pg.character_voice = {
 		voice_name = "メイン4",
 		spine_action = "normal",
 		profile_index = 7,
+		sp_trans_l2d = 0,
 		l2d_action = "main_4",
 		unlock_condition = {
 			0,
@@ -90,6 +97,7 @@ pg.character_voice = {
 		voice_name = "メイン5",
 		spine_action = "normal",
 		profile_index = 8,
+		sp_trans_l2d = 0,
 		l2d_action = "main_5",
 		unlock_condition = {
 			0,
@@ -102,6 +110,7 @@ pg.character_voice = {
 		voice_name = "メイン6",
 		spine_action = "normal",
 		profile_index = 9,
+		sp_trans_l2d = 0,
 		l2d_action = "main_3",
 		unlock_condition = {
 			0,
@@ -114,6 +123,7 @@ pg.character_voice = {
 		voice_name = "メイン7",
 		spine_action = "normal",
 		profile_index = 10,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -126,6 +136,7 @@ pg.character_voice = {
 		voice_name = "タッチ",
 		spine_action = "touch",
 		profile_index = 11,
+		sp_trans_l2d = 0,
 		l2d_action = "touch_body",
 		unlock_condition = {
 			0,
@@ -138,6 +149,7 @@ pg.character_voice = {
 		voice_name = "タッチ2",
 		spine_action = "tuozhuai",
 		profile_index = 12,
+		sp_trans_l2d = 0,
 		l2d_action = "touch_special",
 		unlock_condition = {
 			0,
@@ -150,6 +162,7 @@ pg.character_voice = {
 		voice_name = "タッチ3",
 		spine_action = "tuozhuai2",
 		profile_index = 13,
+		sp_trans_l2d = 0,
 		l2d_action = "touch_head",
 		unlock_condition = {
 			0,
@@ -162,6 +175,7 @@ pg.character_voice = {
 		voice_name = "任務",
 		spine_action = "move",
 		profile_index = 14,
+		sp_trans_l2d = 0,
 		l2d_action = "mission",
 		unlock_condition = {
 			0,
@@ -174,6 +188,7 @@ pg.character_voice = {
 		voice_name = "任務完了",
 		spine_action = "victory",
 		profile_index = 15,
+		sp_trans_l2d = 0,
 		l2d_action = "mission_complete",
 		unlock_condition = {
 			0,
@@ -186,6 +201,7 @@ pg.character_voice = {
 		voice_name = "メール",
 		spine_action = "victory",
 		profile_index = 16,
+		sp_trans_l2d = 0,
 		l2d_action = "mail",
 		unlock_condition = {
 			0,
@@ -198,6 +214,7 @@ pg.character_voice = {
 		voice_name = "母港帰還",
 		spine_action = "walk",
 		profile_index = 17,
+		sp_trans_l2d = 0,
 		l2d_action = "home",
 		unlock_condition = {
 			0,
@@ -210,7 +227,8 @@ pg.character_voice = {
 		voice_name = "失望",
 		spine_action = "normal",
 		profile_index = 18,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "feeling1",
 		unlock_condition = {
 			1,
 			0
@@ -222,7 +240,8 @@ pg.character_voice = {
 		voice_name = "知り合い",
 		spine_action = "normal",
 		profile_index = 19,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "feeling2",
 		unlock_condition = {
 			1,
 			3100
@@ -234,7 +253,8 @@ pg.character_voice = {
 		voice_name = "友好",
 		spine_action = "normal",
 		profile_index = 20,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "feeling3",
 		unlock_condition = {
 			1,
 			6100
@@ -246,7 +266,8 @@ pg.character_voice = {
 		voice_name = "好き",
 		spine_action = "normal",
 		profile_index = 21,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "feeling4",
 		unlock_condition = {
 			1,
 			8100
@@ -258,7 +279,8 @@ pg.character_voice = {
 		voice_name = "ラブ",
 		spine_action = "normal",
 		profile_index = 22,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "feeling5",
 		unlock_condition = {
 			1,
 			10000
@@ -270,6 +292,7 @@ pg.character_voice = {
 		voice_name = "ケッコン",
 		spine_action = "normal",
 		profile_index = 23,
+		sp_trans_l2d = 0,
 		l2d_action = "wedding",
 		unlock_condition = {
 			2,
@@ -282,6 +305,7 @@ pg.character_voice = {
 		voice_name = "委託完了",
 		spine_action = "victory",
 		profile_index = 24,
+		sp_trans_l2d = 0,
 		l2d_action = "complete",
 		unlock_condition = {
 			0,
@@ -294,7 +318,8 @@ pg.character_voice = {
 		voice_name = "強化成功",
 		spine_action = "victory",
 		profile_index = 25,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "upgrade",
 		unlock_condition = {
 			0,
 			0
@@ -306,7 +331,8 @@ pg.character_voice = {
 		voice_name = "戦闘開始",
 		spine_action = "attack",
 		profile_index = 26,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "battle",
 		unlock_condition = {
 			0,
 			0
@@ -318,7 +344,8 @@ pg.character_voice = {
 		voice_name = "勝利",
 		spine_action = "victory",
 		profile_index = 27,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "win_mvp",
 		unlock_condition = {
 			0,
 			0
@@ -330,7 +357,8 @@ pg.character_voice = {
 		voice_name = "失敗",
 		spine_action = "dead",
 		profile_index = 28,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "lose",
 		unlock_condition = {
 			0,
 			0
@@ -342,7 +370,8 @@ pg.character_voice = {
 		voice_name = "スキル",
 		spine_action = "skill",
 		profile_index = 29,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "skill",
 		unlock_condition = {
 			0,
 			0
@@ -354,7 +383,8 @@ pg.character_voice = {
 		voice_name = "損傷大",
 		spine_action = "dead",
 		profile_index = 30,
-		l2d_action = "",
+		sp_trans_l2d = 1,
+		l2d_action = "hp_warning",
 		unlock_condition = {
 			0,
 			0
@@ -366,6 +396,7 @@ pg.character_voice = {
 		voice_name = "掛け合い1",
 		spine_action = "attcak",
 		profile_index = 31,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -378,6 +409,7 @@ pg.character_voice = {
 		voice_name = "掛け合い2",
 		spine_action = "attcak",
 		profile_index = 32,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -390,6 +422,7 @@ pg.character_voice = {
 		voice_name = "掛け合い3",
 		spine_action = "attcak",
 		profile_index = 33,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -402,6 +435,7 @@ pg.character_voice = {
 		voice_name = "掛け合い4",
 		spine_action = "attcak",
 		profile_index = 34,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -414,6 +448,7 @@ pg.character_voice = {
 		voice_name = "掛け合い5",
 		spine_action = "attcak",
 		profile_index = 35,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -426,6 +461,7 @@ pg.character_voice = {
 		voice_name = "掛け合い6",
 		spine_action = "attcak",
 		profile_index = 36,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -438,6 +474,7 @@ pg.character_voice = {
 		voice_name = "図鑑",
 		spine_action = "stand2",
 		profile_index = 37,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -450,6 +487,7 @@ pg.character_voice = {
 		voice_name = "掛け合い7",
 		spine_action = "attcak",
 		profile_index = 38,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			-1,
@@ -462,6 +500,7 @@ pg.character_voice = {
 		voice_name = "素材入手1",
 		spine_action = "stand",
 		profile_index = 39,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -474,6 +513,7 @@ pg.character_voice = {
 		voice_name = "素材入手2",
 		spine_action = "stand",
 		profile_index = 40,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -486,6 +526,7 @@ pg.character_voice = {
 		voice_name = "素材入手3",
 		spine_action = "stand",
 		profile_index = 41,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -498,6 +539,7 @@ pg.character_voice = {
 		voice_name = "素材入手4",
 		spine_action = "stand",
 		profile_index = 42,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -510,6 +552,7 @@ pg.character_voice = {
 		voice_name = "素材入手5",
 		spine_action = "stand",
 		profile_index = 43,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -522,6 +565,7 @@ pg.character_voice = {
 		voice_name = "ショップ1",
 		spine_action = "stand",
 		profile_index = 44,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -534,6 +578,7 @@ pg.character_voice = {
 		voice_name = "ショップ2",
 		spine_action = "stand",
 		profile_index = 45,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -546,6 +591,7 @@ pg.character_voice = {
 		voice_name = "ショップ3",
 		spine_action = "stand",
 		profile_index = 46,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -558,6 +604,7 @@ pg.character_voice = {
 		voice_name = "ショップ4",
 		spine_action = "stand",
 		profile_index = 47,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,
@@ -570,6 +617,7 @@ pg.character_voice = {
 		voice_name = "ショップ5",
 		spine_action = "stand",
 		profile_index = 48,
+		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {
 			0,

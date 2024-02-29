@@ -65,20 +65,20 @@ function slot0.Close(slot0)
 end
 
 function slot0.Update(slot0, slot1)
-	slot2 = slot1
+	slot2 = Drop.New({
+		type = slot1.type,
+		id = slot1.id,
+		count = slot1.count
+	})
 	slot3 = nil
 
 	if slot1:getConfig("item_transform_item_type") > 0 then
-		slot2 = {
-			type = slot1.type,
-			id = slot1.id,
-			count = slot1:getConfig("item_transform_num")
-		}
-		slot3 = {
+		slot2.count = slot1:getConfig("item_transform_num")
+		slot3 = Drop.New({
 			type = slot1:getConfig("item_transform_item_type"),
 			id = slot1:getConfig("item_transform_item_id"),
 			count = slot1:getConfig("item_transform_item_number")
-		}
+		})
 	end
 
 	setText(slot0.infoPanel:Find("top_text"), i18n("world_item_recycle_" .. (slot3 and 1 or 2)))

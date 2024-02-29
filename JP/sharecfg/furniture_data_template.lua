@@ -144,6 +144,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			268,
 			269,
+			271,
 			100002,
 			100003,
 			100004,
@@ -200,6 +201,7 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
+			100058,
 			200001,
 			200002,
 			200003,
@@ -3027,6 +3029,34 @@ pg.furniture_data_template = setmetatable({
 			307112,
 			307113,
 			307114
+		},
+		[108] = {
+			308001,
+			308002,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		}
 	},
 	get_id_list_by_tag = {
@@ -4828,7 +4858,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118
 		},
 		{
 			1108,
@@ -5135,6 +5183,7 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
+			100058,
 			31101,
 			54104,
 			54105
@@ -5188,7 +5237,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			264,
 			266,
-			268
+			268,
+			271
 		},
 		[7] = {
 			223,
@@ -5372,7 +5422,9 @@ pg.furniture_data_template = setmetatable({
 			306114,
 			306115,
 			307103,
-			307109
+			307109,
+			308119,
+			308305
 		},
 		[4] = {
 			1001,
@@ -5466,7 +5518,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[3] = {
 			1002,
@@ -5561,7 +5614,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[5] = {
 			1301,
@@ -5882,7 +5936,11 @@ pg.furniture_data_template = setmetatable({
 			304306,
 			304307,
 			305305,
-			305306
+			305306,
+			308301,
+			308302,
+			308303,
+			308304
 		}
 	},
 	get_id_list_by_type = {
@@ -5979,7 +6037,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[7] = {
 			1,
@@ -6103,6 +6162,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			268,
 			269,
+			271,
 			100002,
 			100004,
 			100005,
@@ -6146,7 +6206,8 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
-			100057
+			100057,
+			100058
 		},
 		[2] = {
 			120,
@@ -7938,7 +7999,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119
 		},
 		[11] = {
 			143,
@@ -8313,7 +8392,12 @@ pg.furniture_data_template = setmetatable({
 			305302,
 			305303,
 			305304,
-			305305
+			305305,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		},
 		[13] = {
 			100015,
@@ -8419,7 +8503,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[5] = {
 			1101,
@@ -8565,7 +8650,8 @@ pg.furniture_data_template = setmetatable({
 			304118,
 			305108,
 			305111,
-			305119
+			305119,
+			308104
 		},
 		[3] = {
 			1108,
@@ -8899,6 +8985,7 @@ pg.furniture_data_template = setmetatable({
 		266,
 		268,
 		269,
+		271,
 		100002,
 		100003,
 		100004,
@@ -8955,6 +9042,7 @@ pg.furniture_data_template = setmetatable({
 		100055,
 		100056,
 		100057,
+		100058,
 		200001,
 		200002,
 		200003,
@@ -11593,7 +11681,33 @@ pg.furniture_data_template = setmetatable({
 		307111,
 		307112,
 		307113,
-		307114
+		307114,
+		308001,
+		308002,
+		308101,
+		308102,
+		308103,
+		308104,
+		308105,
+		308106,
+		308107,
+		308108,
+		308109,
+		308110,
+		308111,
+		308112,
+		308113,
+		308114,
+		308115,
+		308116,
+		308117,
+		308118,
+		308119,
+		308301,
+		308302,
+		308303,
+		308304,
+		308305
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18518,6 +18632,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[271] = {
+		spine_extra = "",
+		describe = "いつの間にか現れた展示棚。説明の札には「過去を直面し、未来を向かう」と書かれている。――「銀界遊廻」に参加した指揮官に贈る",
+		gain_by = "銀界遊廻",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "maozi4xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古よりの挨拶",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 271,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi4xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -22590,6 +22747,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100058] = {
+		spine_extra = "",
+		describe = "誰かが渡しそびれたもののようだ。開けてみる？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "qingshutaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "落とし物のラブレター",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100058,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingshutai",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_aixin"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -138373,6 +138580,1161 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[308001] = {
+		spine_extra = "",
+		describe = "ミステリアスな怪盗世界へようこそ！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "ミステリアス・フロア",
+		effect = "",
+		advice = 0,
+		icon = "dibanqpicon",
+		spine_action_replace = "",
+		picture = "qp/dibanqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308002] = {
+		spine_extra = "",
+		describe = "ミステリアスな怪盗世界へようこそ！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "ミステリアス・ウォール",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiqpicon",
+		spine_action_replace = "",
+		picture = "qp/qiangbiqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308101] = {
+		spine_extra = "",
+		describe = "怪盗の仕掛けを一緒に考えよう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "canzhuoqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "怪盗仕掛けのテーブル",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "qp/canzhuoqp",
+		canputon = 0,
+		id = 308101,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.9,
+					102.8
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			},
+			{
+				"sit",
+				{
+					-152,
+					39
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308102] = {
+		spine_extra = "",
+		describe = "夜間外出禁止だピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "セキュリティ饅頭",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu1qp",
+		canputon = 0,
+		id = 308102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308103] = {
+		spine_extra = "",
+		describe = "気をつけろ！怪盗はどこからでも入ってくるぞ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "反逆の怪盗饅頭S",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu2qp",
+		canputon = 0,
+		id = 308103,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308104] = {
+		spine_extra = "",
+		describe = "喝采せよ！今宵のショーはまだ始まったばかり！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "時計のガラス床",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/ditanqp",
+		canputon = 0,
+		id = 308104,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308105] = {
+		spine_extra = "",
+		describe = "引いたのは……紅いダイヤだ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ダイヤ・チェア1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi1qp",
+		canputon = 0,
+		id = 308105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/fangkuaiyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308106] = {
+		spine_extra = "",
+		describe = "引いたのは……紅いダイヤだ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ダイヤ・チェア2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi2qp",
+		canputon = 0,
+		id = 308106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308107] = {
+		spine_extra = "",
+		describe = "お宝の情報が集まるミステリアスな本棚",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guiziqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "怪盗のミステリー本棚",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/guiziqp",
+		canputon = 0,
+		id = 308107,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308108] = {
+		spine_extra = "",
+		describe = "引いたのは……黒いスペードよ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "スペード・チェア1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi1qp",
+		canputon = 0,
+		id = 308108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/heitaoyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308109] = {
+		spine_extra = "",
+		describe = "引いたのは……黒いスペードよ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "スペード・チェア2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi2qp",
+		canputon = 0,
+		id = 308109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308110] = {
+		spine_extra = "",
+		describe = "引いたのは、赤いハート",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ハート・チェア1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi1qp",
+		canputon = 0,
+		id = 308110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/hongxinyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308111] = {
+		spine_extra = "",
+		describe = "引いたのは、赤いハート",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ハート・チェア2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi2qp",
+		canputon = 0,
+		id = 308111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308112] = {
+		spine_extra = "",
+		describe = "引いたのは、黒いクローバーだ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クローバー・チェア1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi1qp",
+		canputon = 0,
+		id = 308112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/meihuayizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308113] = {
+		spine_extra = "",
+		describe = "引いたのは、黒いクローバーだ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "クローバー・チェア2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi2qp",
+		canputon = 0,
+		id = 308113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308114] = {
+		spine_extra = "",
+		describe = "白きクイーンは待っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ホワイト・クイーン",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi1qp",
+		canputon = 0,
+		id = 308114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308115] = {
+		spine_extra = "",
+		describe = "黒きキングは佇んでいる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ブラック・キング",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi2qp",
+		canputon = 0,
+		id = 308115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308116] = {
+		spine_extra = "",
+		describe = "ふわふわソファで予告状を構想しよう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafaqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ふわふわ怪盗ソファ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/shafaqp",
+		canputon = 0,
+		id = 308116,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308117] = {
+		spine_extra = "",
+		describe = "優雅にお宝をGETしたら浸ってリラックスだ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ティーポット風呂",
+		themeId = 108,
+		icon = "yugangqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308117,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangqpB",
+				"normal"
+			},
+			{
+				"yugangqpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					139
+				},
+				{
+					274.31,
+					254
+				},
+				"qp/yugangqp_mask"
+			},
+			{
+				5.3,
+				-133
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308118] = {
+		spine_extra = "",
+		describe = "今日の計画は…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianshiqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "テレビ山",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dianshiqp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[308119] = {
+		spine_extra = "",
+		describe = "怪盗のモットーは、優雅たれ――",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "優雅なれ怪盗ピアノ",
+		themeId = 108,
+		icon = "gangqinqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308119,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gangqinqp",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						0,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"sit1",
+						"sit"
+					},
+					"sit"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308301] = {
+		spine_extra = "",
+		describe = "謎の鏡よ！現実と幻想を逆転させよ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "逆転ミラー1",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi1qp",
+		canputon = 0,
+		id = 308301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308302] = {
+		spine_extra = "",
+		describe = "謎の鏡よ！現実と幻想を逆転させよ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "逆転ミラー2",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi2qp",
+		canputon = 0,
+		id = 308302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308303] = {
+		spine_extra = "",
+		describe = "高潔で優雅な予告状、準備OKよ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "優雅なれ薄色装飾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi1qp",
+		canputon = 0,
+		id = 308303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308304] = {
+		spine_extra = "",
+		describe = "地味でプレミアムな予告状、準備OKよ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "地味なる濃色装飾",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi2qp",
+		canputon = 0,
+		id = 308304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308305] = {
+		spine_extra = "",
+		describe = "時間を知らせるギミックに隠された秘密は…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "zhongqpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "怪盗クロック",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhongqp",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	}

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "母港・執務室",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，今年是大促销开始的第三年了……但是{namecode:98:明石}却发现了一个致命问题喵。",
+			say = "ビッグセールを始めて3年目…明石、とても致命的なトラブルを見つけたにゃ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……致命问题？",
+			say = "――…致命的なトラブル？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没错喵！明明是促销活动，但是从上到下都缺乏一种促销的氛围，这一点让{namecode:98:明石}很苦恼喵。",
+			say = "そうにゃ！セールをやってるのに、全体的に「セール中にゃー」の雰囲気がないにゃ…これじゃあ頭を抱えるにゃ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "经过深思熟虑，{namecode:98:明石}今年想试着用直播带货这种新方式增加促销氛围喵！",
+			say = "ふかーく考えて、明石は決めたにゃ――今年は「明石ライブコマース」でセールを盛り上げてみるにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "时代在进步，商人也得与时俱进才行喵！",
+			say = "商いも時代の流れに乗り遅れるわけにはいかないにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以！指挥官请看喵——",
+			say = "ふっふっふ、指揮官、これを見るにゃー",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}突然打开了电视，被成堆的商品包围的奇尔沙治出现在画面中。",
+			say = "明石がテレビをつけると、そこにはなぜか山積みの商品に囲まれたキアサージの姿が映っていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "观众朋友们，下午好，我是本次的活动销售大使奇尔沙治。",
+			say = "視聴者の皆様、こんにちは。今回のセールスアンバサダーを担当する、キアサージ、です",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "括号，使用开心的语气，括号。",
+			say = "かっこ、明るくノリノリの感じでお願いにゃ、かっことじ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "现就来为大家介绍本次促销中会让所有人都心动的良心产品，破折号。",
+			say = "これより、皆さんに今回のセールにおける、心躍る目玉商品の数々を紹介、します",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "活动期间限定礼包，感叹号，感叹号，感叹号。",
+			say = "セール中には期間限定のお得セットも、ビックリマーク、ビックリマーク、ビックリマーク",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "括号，这里使用令人激动的语气，这是本次促销商品的重中之重，营业额就全靠它了喵，括号。",
+			say = "かっこ、ここはアオるような感じで――何といっても今回一番の目玉商品で、売り上げを支える大黒柱だからにゃ、かっことじ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "活动期间限定礼包中包含了——",
+			say = "こちらの期間限定お得セットには以下の商品が含まれて――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "啪的一下，{namecode:98:明石}关掉了电视，正一本正经地念着稿子的奇尔沙治消失了。",
+			say = "プツッ、と明石がテレビを消し、原稿を棒読みのキアサージの姿も見えなくなった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "……真是失策喵，没想到完全对着台本念会是这种效果喵！",
+			say = "…なんということにゃ…確かに明石は「台本通りに読んで」と言ったけど、こうもひどいとは思わなかったにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过没关系，{namecode:98:明石}已经从今天的直播中吸取了教训，明天的直播不会重蹈覆辙了喵！",
+			say = "で、でも大丈夫にゃ！今日の失敗で教訓を得たにゃ！明日の放送は二度と失敗しないにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官，我先回去了~要抓紧改进节目效果才行喵！",
+			say = "ということで指揮官、先に戻るにゃ～。番組の効果を上げるために急いでクオリティアップしないとにゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……还有明天？",
+			say = "――…明日もやるのか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
