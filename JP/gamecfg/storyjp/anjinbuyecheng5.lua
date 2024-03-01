@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "不夜城・ブロック13・廃業したゲームセンター",
+			say = "不夜城・ブロック13・廃業されたゲームセンター",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,

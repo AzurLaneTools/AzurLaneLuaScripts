@@ -97,9 +97,13 @@ function slot0.UpdateShips(slot0)
 
 	for slot8, slot9 in pairs(slot0.cards) do
 		table.insert(slot4, function (slot0)
-			slot1 = uv0[uv1 + 1]
+			if uv0.exited then
+				return
+			end
 
-			uv2:Update(uv3, uv4.oldShipVOs[slot1], uv4.newShipVOs[slot1])
+			slot1 = uv1[uv2 + 1]
+
+			uv3:Update(uv4, uv0.oldShipVOs[slot1], uv0.newShipVOs[slot1])
 			onNextTick(slot0)
 		end)
 	end
